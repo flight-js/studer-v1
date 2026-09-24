@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useCallback, useEffect, useState } from "react";
 import { kjemiskeReaksjonerCards } from "@/lib/data";
+import { Dot } from "@/components/Dot";
 import { ArrowRight, Check, Close, Repeat } from "@/components/icons";
 
 const allIds = kjemiskeReaksjonerCards.map((_, i) => i);
@@ -152,7 +153,7 @@ export default function FlashcardsPage() {
             </div>
 
             <p className="hidden sm:block text-xs text-faint">
-              Mellomrom snur kortet · ← kan ikke ennå · → kan dette
+              Mellomrom snur kortet<Dot />← kan ikke ennå<Dot />→ kan dette
             </p>
           </>
         )}

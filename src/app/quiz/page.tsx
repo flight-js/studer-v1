@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useCallback, useEffect, useState } from "react";
 import { kjemiskeReaksjonerQuiz } from "@/lib/data";
+import { Dot } from "@/components/Dot";
 import { ArrowRight, Check, Close, Repeat } from "@/components/icons";
 
 const LETTERS = ["A", "B", "C", "D", "E"];
@@ -91,7 +92,7 @@ export default function QuizPage() {
           <Result score={score} total={total} onRestart={restart} />
         ) : (
           <div key={index} className="w-full max-w-2xl mx-auto flex flex-col gap-7 rise">
-            <p className="text-sm font-medium text-muted">Kjemi 1 · Kjemiske reaksjoner</p>
+            <p className="text-sm font-medium text-muted">Kjemi 1<Dot />Kjemiske reaksjoner</p>
             <h1 className="font-display text-[28px] sm:text-4xl font-semibold leading-[1.15] tracking-[-0.015em]">
               {q.text}
             </h1>

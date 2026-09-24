@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { trinnListe } from "@/lib/data";
+import { Dot } from "@/components/Dot";
 import { Logo } from "@/components/Logo";
 import { ArrowRight, Check } from "@/components/icons";
 
@@ -35,7 +36,9 @@ export default function Home() {
           <div className="flex flex-col gap-7 rise">
             <p className="text-sm font-medium text-muted flex items-center gap-2.5">
               <span className="w-6 h-px bg-border-strong" aria-hidden="true" />
-              8. trinn til Vg3 · studiespesialiserende
+              <span>
+                8. trinn til Vg3<Dot />studiespesialiserende
+              </span>
             </p>
             <h1 className="font-display text-[44px] leading-[1.02] sm:text-6xl lg:text-[76px] font-semibold tracking-[-0.025em]">
               Alt pensum.

@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { Dot } from "@/components/Dot";
 import { AppBar } from "@/components/AppBar";
 import {
   Book,
@@ -36,7 +37,7 @@ export default function TemaPage() {
       >
         <div className="grid sm:grid-cols-[1fr_auto] gap-8 items-end rise">
           <div className="flex flex-col gap-4">
-            <p className="text-sm font-medium text-muted">Kjemi 1 · Tema 1 av 9</p>
+            <p className="text-sm font-medium text-muted">Kjemi 1<Dot />Tema 1 av 9</p>
             <h1 className="font-display text-4xl sm:text-6xl font-semibold tracking-[-0.025em] leading-[1.02]">
               Kjemiske reaksjoner
             </h1>
@@ -61,14 +62,14 @@ export default function TemaPage() {
             <ModeCard
               href="/flashcards"
               title="Flashcards"
-              text={`${kjemiskeReaksjonerCards.length} kort · begreper og definisjoner`}
+              text={<>{kjemiskeReaksjonerCards.length} kort<Dot />begreper og definisjoner</>}
               icon={<Cards size={22} />}
               featured
             />
             <ModeCard
               href="/quiz"
               title="Quiz"
-              text={`${kjemiskeReaksjonerQuiz.length} spørsmål · flervalg med forklaring`}
+              text={<>{kjemiskeReaksjonerQuiz.length} spørsmål<Dot />flervalg med forklaring</>}
               icon={<Quiz size={22} />}
             />
             <ModeCard
@@ -165,7 +166,7 @@ function ModeCard({
 }: {
   href?: string;
   title: string;
-  text: string;
+  text: React.ReactNode;
   icon: React.ReactNode;
   featured?: boolean;
 }) {
