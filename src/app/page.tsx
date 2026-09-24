@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="flex flex-col flex-1">
       <header className="flex items-center justify-between px-6 sm:px-16 py-6 border-b border-border">
-        <Logo className="text-2xl" />
+        <Logo className="text-3xl" />
         <nav className="flex items-center gap-9">
           <a href="#slik" className="text-sm font-medium hidden sm:inline">
             Slik funker det

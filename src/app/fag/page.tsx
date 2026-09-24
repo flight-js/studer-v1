@@ -18,7 +18,7 @@ export default function FagvalgPage() {
       <header className="flex items-center justify-between px-6 sm:px-14 py-5 border-b border-border">
         <Link href="/" className="flex items-center gap-2.5">
           <ChevronLeft />
-          <Logo className="text-lg" />
+          <Logo className="text-xl" />
         </Link>
         <div className="text-sm text-muted hidden sm:block">
           {trinn.label}
