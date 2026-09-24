@@ -1,11 +1,12 @@
 import Link from "next/link";
 import { subjectChips } from "@/lib/data";
+import { Logo } from "@/components/Logo";
 
 export default function Home() {
   return (
     <div className="flex flex-col flex-1">
       <header className="flex items-center justify-between px-6 sm:px-16 py-6 border-b border-border">
-        <div className="font-display font-bold text-2xl">Studer</div>
+        <Logo className="text-2xl" />
         <nav className="flex items-center gap-9">
           <a href="#slik" className="text-sm font-medium hidden sm:inline">
             Slik funker det
@@ -174,8 +175,8 @@ export default function Home() {
       </section>
 
       <footer className="mt-auto px-6 sm:px-16 py-8 border-t border-border flex justify-between items-center">
-        <div className="font-display font-bold">Studer</div>
-        <div className="text-xs text-muted">© 2026 Studer</div>
+        <Logo />
+        <div className="text-xs text-muted">© 2026 studer</div>
       </footer>
     </div>
   );

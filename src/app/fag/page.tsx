@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { trinnListe, temaByFag } from "@/lib/data";
+import { Logo } from "@/components/Logo";
 
 export default function FagvalgPage() {
   const [trinnId, setTrinnId] = useState("vg2");
@@ -17,7 +18,7 @@ export default function FagvalgPage() {
       <header className="flex items-center justify-between px-6 sm:px-14 py-5 border-b border-border">
         <Link href="/" className="flex items-center gap-2.5">
           <ChevronLeft />
-          <span className="font-display font-bold text-lg">Studer</span>
+          <Logo className="text-lg" />
         </Link>
         <div className="text-sm text-muted hidden sm:block">
           {trinn.label}
