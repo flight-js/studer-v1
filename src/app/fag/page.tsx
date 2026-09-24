@@ -3,7 +3,9 @@
 import Link from "next/link";
 import { useState } from "react";
 import { trinnListe, temaByFag } from "@/lib/data";
+import { AppBar } from "@/components/AppBar";
 import { Logo } from "@/components/Logo";
+import { ChevronRight } from "@/components/icons";
 
 export default function FagvalgPage() {
   const [trinnId, setTrinnId] = useState("vg2");
@@ -15,127 +17,148 @@ export default function FagvalgPage() {
 
   return (
     <div className="flex flex-col flex-1">
-      <header className="flex items-center justify-between px-6 sm:px-14 py-5 border-b border-border">
-        <Link href="/" className="flex items-center gap-2.5">
-          <ChevronLeft />
-          <Logo className="text-xl" />
-        </Link>
-        <div className="text-sm text-muted hidden sm:block">
-          {trinn.label}
-          {fag ? ` → ${fag.name}` : ""}
-        </div>
-        <div className="w-9 h-9 rounded-full bg-primary text-white flex items-center justify-center text-sm font-semibold">
-          CL
-        </div>
-      </header>
+      <AppBar back="/" backLabel={<Logo className="text-xl text-foreground" />} />
 
-      <div className="px-6 sm:px-14 py-9 flex flex-col gap-7 max-w-4xl w-full mx-auto">
-        <div className="flex flex-col gap-3">
-          <div className="text-xs font-semibold text-muted tracking-wide">
-            TRINN
-          </div>
-          <div className="flex gap-2.5 flex-wrap">
-            {trinnListe.map((t) => (
-              <button
-                key={t.id}
-                onClick={() => {
-                  setTrinnId(t.id);
-                  setFagId(t.fag[0]?.id ?? "");
-                }}
-                className={`px-5 py-2.5 rounded-full text-sm font-semibold transition-colors ${
-                  t.id === trinnId
-                    ? "bg-primary text-white"
-                    : "bg-white text-foreground border border-border"
-                }`}
-              >
-                {t.label}
-              </button>
-            ))}
-          </div>
-        </div>
+      <main
+        id="innhold"
+        className="px-5 sm:px-8 pt-10 pb-20 flex flex-col gap-10 max-w-5xl w-full mx-auto"
+      >
+        <h1 className="font-display text-4xl sm:text-5xl font-semibold tracking-[-0.02em]">
+          Hva vil du øve på?
+        </h1>
 
-        <div className="flex flex-col gap-3">
-          <div className="text-xs font-semibold text-muted tracking-wide">
-            FAG · {trinn.label}
+        <section aria-labelledby="trinn-label" className="flex flex-col gap-3.5">
+          <h2 id="trinn-label" className="font-body text-sm font-medium text-muted">
+            Trinn
+          </h2>
+          <div
+            role="radiogroup"
+            aria-labelledby="trinn-label"
+            className="grid grid-cols-3 sm:flex gap-1 p-1 bg-sunken rounded-2xl w-full sm:w-fit"
+          >
+            {trinnListe.map((t) => {
+              const active = t.id === trinnId;
+              return (
+                <button
+                  key={t.id}
+                  role="radio"
+                  aria-checked={active}
+                  onClick={() => {
+                    setTrinnId(t.id);
+                    setFagId(t.fag[0]?.id ?? "");
+                  }}
+                  className={`px-3 sm:px-5 py-2.5 rounded-xl text-sm font-semibold transition-[background-color,color,box-shadow] duration-200 ${
+                    active
+                      ? "bg-surface text-foreground shadow-[0_1px_3px_rgba(60,48,30,0.12)]"
+                      : "text-muted hover:text-foreground"
+                  }`}
+                >
+                  {t.label}
+                </button>
+              );
+            })}
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3.5">
-            {trinn.fag.map((f) => (
-              <button
-                key={f.id}
-                onClick={() => setFagId(f.id)}
-                className={`flex flex-col gap-1 text-left rounded-2xl px-5 py-4.5 transition-colors ${
-                  f.id === fagId
-                    ? "bg-primary-tint border-[1.5px] border-primary"
-                    : "bg-white border border-border"
-                }`}
-              >
-                <span className="text-base font-semibold">{f.name}</span>
-                <span className="text-xs text-muted">
-                  {f.temaCount} temaer
-                </span>
-              </button>
-            ))}
+        </section>
+
+        <section aria-labelledby="fag-label" className="flex flex-col gap-3.5">
+          <h2 id="fag-label" className="font-body text-sm font-medium text-muted">
+            Fag på {trinn.label}
+          </h2>
+          <div
+            key={trinnId}
+            role="radiogroup"
+            aria-labelledby="fag-label"
+            className="grid grid-cols-2 sm:grid-cols-3 gap-3 rise"
+          >
+            {trinn.fag.map((f) => {
+              const active = f.id === fagId;
+              const hasContent = (temaByFag[f.id] ?? []).some((t) => t.live);
+              return (
+                <button
+                  key={f.id}
+                  role="radio"
+                  aria-checked={active}
+                  onClick={() => setFagId(f.id)}
+                  className={`group flex flex-col gap-3 text-left rounded-2xl p-4.5 sm:p-5 border transition-[border-color,background-color,transform] duration-200 active:scale-[0.99] ${
+                    active
+                      ? "bg-primary-tint border-primary"
+                      : "bg-surface border-border hover:border-border-strong"
+                  }`}
+                >
+                  <span className="flex items-start justify-between gap-2">
+                    <span className="text-base font-semibold leading-snug hyphens-manual">{f.name}</span>
+                    {hasContent && (
+                      <span className="shrink-0 mt-1 w-2 h-2 rounded-full bg-primary" title="Har innhold" />
+                    )}
+                  </span>
+                  <span className={`text-sm tabular-nums ${active ? "text-primary-dark" : "text-muted"}`}>
+                    {f.temaCount} temaer
+                  </span>
+                </button>
+              );
+            })}
           </div>
-        </div>
+        </section>
 
         {fag && (
-          <div className="flex flex-col gap-3">
-            <div className="text-xs font-semibold text-muted tracking-wide">
-              TEMAER · {fag.name}
-            </div>
-            <div className="flex flex-col gap-2">
+          <section aria-labelledby="tema-label" className="flex flex-col gap-3.5">
+            <h2 id="tema-label" className="font-body text-sm font-medium text-muted">
+              Temaer i {fag.name}
+            </h2>
+            <div key={fagId} className="flex flex-col rise">
               {temaer.length === 0 && (
-                <div className="text-sm text-muted bg-white border border-border rounded-xl px-5 py-4">
-                  Temaer for dette faget kommer snart.
+                <div className="flex flex-col gap-1 bg-surface border border-dashed border-border-strong rounded-2xl px-6 py-8 text-center">
+                  <span className="font-semibold">Temaene for {fag.name} er under arbeid</span>
+                  <span className="text-sm text-muted">
+                    Prøv Kjemi 1 på Vg2 – der er det første temaet klart.
+                  </span>
                 </div>
               )}
-              {temaer.map((th) =>
-                th.live ? (
-                  <Link
-                    key={th.name}
-                    href="/tema"
-                    className="flex items-center justify-between bg-white border border-border rounded-xl px-5 py-4 hover:border-primary transition-colors"
-                  >
-                    <span className="text-sm font-medium">{th.name}</span>
-                    <span className="flex items-center gap-3.5">
-                      <span className="text-xs text-muted">
-                        {th.progress}% fullført
-                      </span>
-                      <ChevronRight />
-                    </span>
-                  </Link>
-                ) : (
-                  <div
-                    key={th.name}
-                    className="flex items-center justify-between bg-white/60 border border-border rounded-xl px-5 py-4 opacity-60"
-                  >
-                    <span className="text-sm font-medium">{th.name}</span>
-                    <span className="text-xs font-semibold text-muted">
-                      Kommer snart
-                    </span>
-                  </div>
-                )
+              {temaer.length > 0 && (
+                <ul className="bg-surface border border-border rounded-2xl divide-y divide-border overflow-hidden">
+                  {temaer.map((th) =>
+                    th.live ? (
+                      <li key={th.name}>
+                        <Link
+                          href="/tema"
+                          className="group flex items-center gap-4 px-5 sm:px-6 py-5 hover:bg-primary-tint/60 transition-colors duration-200"
+                        >
+                          <span className="flex-1 flex flex-col gap-2">
+                            <span className="font-semibold">{th.name}</span>
+                            <span className="flex items-center gap-3">
+                              <span className="h-1.5 w-28 bg-sunken rounded-full overflow-hidden">
+                                <span
+                                  className="block h-full bg-primary rounded-full"
+                                  style={{ width: `${th.progress}%` }}
+                                />
+                              </span>
+                              <span className="text-xs text-muted tabular-nums">
+                                {th.progress} % gjennomgått
+                              </span>
+                            </span>
+                          </span>
+                          <ChevronRight
+                            size={20}
+                            className="text-muted transition-transform duration-200 group-hover:translate-x-0.5 group-hover:text-primary"
+                          />
+                        </Link>
+                      </li>
+                    ) : (
+                      <li
+                        key={th.name}
+                        className="flex items-center justify-between px-5 sm:px-6 py-4.5"
+                      >
+                        <span className="text-faint">{th.name}</span>
+                        <span className="text-xs font-medium text-faint">Kommer snart</span>
+                      </li>
+                    )
+                  )}
+                </ul>
               )}
             </div>
-          </div>
+          </section>
         )}
-      </div>
+      </main>
     </div>
-  );
-}
-
-function ChevronLeft() {
-  return (
-    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <path d="M15 18l-6-6 6-6" />
-    </svg>
-  );
-}
-
-function ChevronRight() {
-  return (
-    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#63606E" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <path d="M9 18l6-6-6-6" />
-    </svg>
   );
 }

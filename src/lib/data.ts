@@ -66,7 +66,7 @@ export const trinnListe: Trinn[] = [
       { id: "historie", name: "Historie", temaCount: 7 },
       { id: "rettslare", name: "Rettslære 1", temaCount: 8 },
       { id: "fysikk1", name: "Fysikk 1", temaCount: 9 },
-      { id: "sok", name: "Samfunnsøkonomi 1", temaCount: 6 },
+      { id: "sok", name: "Samfunns­økonomi 1", temaCount: 6 },
     ],
   },
   {
@@ -138,7 +138,7 @@ export const kjemiskeReaksjonerQuiz: QuizQuestion[] = [
     ],
     correct: 0,
     explain:
-      "Riktig! I en eksoterm reaksjon frigjøres energi, oftest som varme, til omgivelsene.",
+      "I en eksoterm reaksjon frigjøres energi, oftest som varme, til omgivelsene.",
   },
   {
     text: "Hva gjør en katalysator med reaksjonsfarten?",
@@ -150,7 +150,7 @@ export const kjemiskeReaksjonerQuiz: QuizQuestion[] = [
     ],
     correct: 1,
     explain:
-      "Riktig! En katalysator øker reaksjonsfarten ved å senke aktiveringsenergien, og forbrukes ikke selv.",
+      "En katalysator øker reaksjonsfarten ved å senke aktiveringsenergien, og forbrukes ikke selv.",
   },
   {
     text: "Hva menes med kjemisk likevekt?",
@@ -162,7 +162,7 @@ export const kjemiskeReaksjonerQuiz: QuizQuestion[] = [
     ],
     correct: 1,
     explain:
-      "Riktig! Ved likevekt skjer forover- og bakoverreaksjonen med samme hastighet, så konsentrasjonene endrer seg ikke.",
+      "Ved likevekt skjer forover- og bakoverreaksjonen med samme hastighet, så konsentrasjonene endrer seg ikke.",
   },
   {
     text: "Hva menes med aktiveringsenergi?",
@@ -174,7 +174,7 @@ export const kjemiskeReaksjonerQuiz: QuizQuestion[] = [
     ],
     correct: 1,
     explain:
-      "Riktig! Aktiveringsenergien er «terskelen» reaktantene må over for at reaksjonen skal komme i gang.",
+      "Aktiveringsenergien er «terskelen» reaktantene må over for at reaksjonen skal komme i gang.",
   },
 ];
 

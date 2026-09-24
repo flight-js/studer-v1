@@ -1,49 +1,154 @@
 @import "tailwindcss";
 
+/*
+  Én aksentfarge (blå). Grønn og rød brukes kun semantisk: riktig / feil.
+  Alle gråtoner er varme og henter fargen fra den kremfargede bakgrunnen.
+*/
 :root {
   --background: #f7f4ee;
+  --surface: #fffdf9;
+  --sunken: #efeae0;
   --foreground: #1b1a2e;
-  --muted: #63606e;
-  --border: #e7e2d8;
+  --ink-soft: #46434f;
+  --muted: #6b6760;
+  --faint: #938e84;
+  --border: #e4ded2;
+  --border-strong: #d3ccbd;
   --primary: #2c4bd4;
   --primary-dark: #22399e;
-  --primary-tint: #eef1fc;
-  --accent: #e8622c;
-  --accent-tint: #fceee8;
-  --success: #1f9d63;
-  --success-tint: #eaf6ef;
-  --danger: #d23c3c;
-  --danger-tint: #fbeaea;
+  --primary-tint: #eaeefb;
+  --success: #1f8a58;
+  --success-ink: #12633f;
+  --success-tint: #e7f3ec;
+  --danger: #c43d3d;
+  --danger-ink: #8c2626;
+  --danger-tint: #f9e8e6;
   --font-display: "Fraunces", ui-serif, Georgia, serif;
-  --font-body: "Work Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Instrument Sans", ui-sans-serif, system-ui, sans-serif;
+
+  --shadow-card: 0 1px 2px rgba(60, 48, 30, 0.05),
+    0 12px 32px -18px rgba(60, 48, 30, 0.22);
+  --shadow-lift: 0 2px 4px rgba(60, 48, 30, 0.05),
+    0 28px 56px -28px rgba(40, 36, 70, 0.32);
 }
 
 @theme inline {
   --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-sunken: var(--sunken);
   --color-foreground: var(--foreground);
+  --color-ink-soft: var(--ink-soft);
   --color-muted: var(--muted);
+  --color-faint: var(--faint);
   --color-border: var(--border);
+  --color-border-strong: var(--border-strong);
   --color-primary: var(--primary);
   --color-primary-dark: var(--primary-dark);
   --color-primary-tint: var(--primary-tint);
-  --color-accent: var(--accent);
-  --color-accent-tint: var(--accent-tint);
   --color-success: var(--success);
+  --color-success-ink: var(--success-ink);
   --color-success-tint: var(--success-tint);
   --color-danger: var(--danger);
+  --color-danger-ink: var(--danger-ink);
   --color-danger-tint: var(--danger-tint);
   --font-display: var(--font-display);
   --font-body: var(--font-body);
+  --shadow-card: var(--shadow-card);
+  --shadow-lift: var(--shadow-lift);
+  --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-body);
+  font-feature-settings: "ss01";
+  -webkit-tap-highlight-color: transparent;
 }
 
-h1,
-h2,
-h3 {
-  font-family: var(--font-display);
+/* Svært svak papirtekstur, så flatene ikke føles sterile. */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  pointer-events: none;
+  opacity: 0.35;
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .45 0 0 0 0 .38 0 0 0 0 .28 0 0 0 .09 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+@layer base {
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display);
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+}
+
+:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+::selection {
+  background: var(--primary-tint);
+  color: var(--primary-dark);
+}
+
+/* Flashcard – 3D-snu */
+.flip-scene {
+  perspective: 1400px;
+}
+.flip-card {
+  transform-style: preserve-3d;
+  transition: transform 520ms var(--ease-out-soft);
+}
+.flip-card[data-flipped="true"] {
+  transform: rotateY(180deg);
+}
+.flip-face {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.flip-back {
+  transform: rotateY(180deg);
+}
+
+/* Innslide ved sidelast */
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.rise {
+  animation: rise 560ms var(--ease-out-soft) both;
 }

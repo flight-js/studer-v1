@@ -1,188 +1,216 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { AppBar } from "@/components/AppBar";
+import {
+  Book,
+  Cards,
+  Chat,
+  ChevronRight,
+  Close,
+  Quiz,
+  Timer,
+} from "@/components/icons";
+import { kjemiskeReaksjonerCards, kjemiskeReaksjonerQuiz } from "@/lib/data";
+
+const PROGRESS = 60;
 
 export default function TemaPage() {
   const [chatOpen, setChatOpen] = useState(false);
 
-  return (
-    <div className="flex flex-col flex-1 relative">
-      <header className="flex items-center justify-between px-6 sm:px-14 py-5 border-b border-border">
-        <Link href="/fag" className="flex items-center gap-2.5 text-muted">
-          <ChevronLeft />
-          <span className="text-sm">Vg2 → Kjemi 1</span>
-        </Link>
-        <div className="w-9 h-9 rounded-full bg-primary text-white flex items-center justify-center text-sm font-semibold">
-          CL
-        </div>
-      </header>
+  useEffect(() => {
+    if (!chatOpen) return;
+    const onKey = (e: KeyboardEvent) => e.key === "Escape" && setChatOpen(false);
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [chatOpen]);
 
-      <div className="px-6 sm:px-14 py-11 flex flex-col gap-10 max-w-4xl w-full mx-auto">
-        <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
-          <div className="flex flex-col gap-2.5 max-w-xl">
-            <h1 className="font-display text-3xl sm:text-4xl font-semibold">
+  return (
+    <div className="flex flex-col flex-1">
+      <AppBar back="/fag" backLabel="Vg2 / Kjemi 1" />
+
+      <main
+        id="innhold"
+        className="px-5 sm:px-8 pt-10 sm:pt-14 pb-32 flex flex-col gap-12 max-w-5xl w-full mx-auto"
+      >
+        <div className="grid sm:grid-cols-[1fr_auto] gap-8 items-end rise">
+          <div className="flex flex-col gap-4">
+            <p className="text-sm font-medium text-muted">Kjemi 1 · Tema 1 av 9</p>
+            <h1 className="font-display text-4xl sm:text-6xl font-semibold tracking-[-0.025em] leading-[1.02]">
               Kjemiske reaksjoner
             </h1>
-            <p className="text-muted">
+            <p className="text-lg text-ink-soft leading-relaxed max-w-[48ch]">
               Eksoterme og endoterme reaksjoner, reaksjonsfart og likevekt.
-              Sist øvd i går.
             </p>
           </div>
-          <div className="flex flex-col items-center gap-2 shrink-0">
-            <svg width="76" height="76" viewBox="0 0 36 36">
-              <circle cx="18" cy="18" r="15.5" fill="none" stroke="#E7E2D8" strokeWidth="3" />
-              <circle
-                cx="18"
-                cy="18"
-                r="15.5"
-                fill="none"
-                stroke="#2C4BD4"
-                strokeWidth="3"
-                strokeLinecap="round"
-                strokeDasharray="58.4 97.4"
-                transform="rotate(-90 18 18)"
+          <div className="flex items-center gap-4 sm:flex-col sm:items-end sm:gap-2">
+            <ProgressRing value={PROGRESS} />
+            <div className="flex flex-col sm:items-end">
+              <span className="text-sm font-semibold tabular-nums">{PROGRESS} % gjennomgått</span>
+              <span className="text-xs text-muted">Sist øvd i går</span>
+            </div>
+          </div>
+        </div>
+
+        <section aria-labelledby="ov-label" className="flex flex-col gap-4">
+          <h2 id="ov-label" className="font-body text-sm font-medium text-muted">
+            Velg hvordan du vil øve
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <ModeCard
+              href="/flashcards"
+              title="Flashcards"
+              text={`${kjemiskeReaksjonerCards.length} kort · begreper og definisjoner`}
+              icon={<Cards size={22} />}
+              featured
+            />
+            <ModeCard
+              href="/quiz"
+              title="Quiz"
+              text={`${kjemiskeReaksjonerQuiz.length} spørsmål · flervalg med forklaring`}
+              icon={<Quiz size={22} />}
+            />
+            <ModeCard
+              title="Sammendrag"
+              text="Begreper og notater for temaet"
+              icon={<Book size={22} />}
+            />
+            <ModeCard
+              title="Miniprøve"
+              text="15 minutter, blandet format"
+              icon={<Timer size={22} />}
+            />
+          </div>
+        </section>
+      </main>
+
+      {/* AI-hjelp */}
+      <div className="fixed bottom-6 right-5 sm:right-8 z-50 flex flex-col items-end gap-3">
+        {chatOpen && (
+          <div
+            id="ai-panel"
+            role="dialog"
+            aria-label="AI-hjelp"
+            className="w-[min(22rem,calc(100vw-2.5rem))] bg-surface border border-border rounded-3xl p-5 shadow-lift flex flex-col gap-4 rise"
+          >
+            <div className="flex items-center justify-between">
+              <span className="text-sm font-semibold">AI-hjelp</span>
+              <button
+                onClick={() => setChatOpen(false)}
+                aria-label="Lukk AI-hjelp"
+                className="p-1.5 -m-1.5 rounded-lg text-muted hover:text-foreground hover:bg-sunken transition-colors"
+              >
+                <Close size={18} />
+              </button>
+            </div>
+            <div className="self-start bg-sunken rounded-2xl rounded-bl-md px-4 py-3 text-sm leading-relaxed text-ink-soft">
+              Hva lurer du på i Kjemiske reaksjoner? Jeg svarer ut fra pensumet
+              i Kjemi 1.
+            </div>
+            <form onSubmit={(e) => e.preventDefault()} className="flex gap-2">
+              <label htmlFor="ai-input" className="sr-only">
+                Skriv et spørsmål
+              </label>
+              <input
+                id="ai-input"
+                disabled
+                placeholder="Chat kommer snart"
+                className="flex-1 min-w-0 bg-background border border-border rounded-xl px-3.5 py-2.5 text-base sm:text-sm placeholder:text-faint disabled:cursor-not-allowed"
               />
-            </svg>
-            <span className="text-xs font-semibold text-muted">
-              60% fullført
-            </span>
+            </form>
           </div>
-        </div>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-          <ModeCard
-            href="/tema"
-            color="success"
-            title="Sammendrag"
-            text="Begreper og notater for temaet"
-            icon="book"
-          />
-          <ModeCard
-            href="/flashcards"
-            color="primary"
-            title="Flashcards"
-            text="6 kort"
-            icon="cards"
-          />
-          <ModeCard
-            href="/quiz"
-            color="accent"
-            title="Quiz"
-            text="4 spørsmål"
-            icon="check"
-          />
-          <ModeCard
-            href="/tema"
-            color="purple"
-            title="Miniprøve"
-            text="15 minutter, blandet format"
-            icon="spark"
-          />
-        </div>
+        )}
+        <button
+          onClick={() => setChatOpen((v) => !v)}
+          aria-expanded={chatOpen}
+          aria-controls="ai-panel"
+          className="flex items-center gap-2.5 h-13 pl-4 pr-5 rounded-2xl bg-foreground text-background font-semibold text-sm shadow-lift transition-transform duration-200 hover:-translate-y-0.5 active:scale-[0.97]"
+        >
+          {chatOpen ? <Close size={20} /> : <Chat size={20} />}
+          {chatOpen ? "Lukk" : "Spør AI"}
+        </button>
       </div>
-
-      {chatOpen && (
-        <div className="absolute bottom-24 right-6 sm:right-14 w-80 bg-white border border-border rounded-2xl p-5 shadow-[0_24px_48px_-24px_rgba(27,26,46,0.25)] flex flex-col gap-3">
-          <div className="text-xs font-semibold text-muted">
-            AI-HJELP · KJEMISKE REAKSJONER
-          </div>
-          <div className="bg-background rounded-xl px-3.5 py-3 text-sm leading-relaxed">
-            Hva lurer du på i dette temaet? Jeg svarer ut fra pensumet i Kjemi
-            1.
-          </div>
-          <div className="border border-border rounded-lg px-3 py-2.5 text-sm text-[#8a8694]">
-            Skriv et spørsmål …
-          </div>
-        </div>
-      )}
-
-      <button
-        onClick={() => setChatOpen((v) => !v)}
-        aria-label="Åpne AI-hjelp"
-        className="absolute bottom-10 right-6 sm:right-14 w-15 h-15 rounded-full bg-foreground text-white flex items-center justify-center shadow-[0_16px_32px_-12px_rgba(27,26,46,0.4)]"
-      >
-        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-          <path d="M4 5h16v11H8l-4 4V5z" />
-        </svg>
-      </button>
     </div>
   );
 }
 
-function ChevronLeft() {
+function ProgressRing({ value }: { value: number }) {
+  const r = 15.5;
+  const c = 2 * Math.PI * r;
   return (
-    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <path d="M15 18l-6-6 6-6" />
+    <svg width="64" height="64" viewBox="0 0 36 36" aria-hidden="true">
+      <circle cx="18" cy="18" r={r} fill="none" stroke="var(--sunken)" strokeWidth="3" />
+      <circle
+        cx="18"
+        cy="18"
+        r={r}
+        fill="none"
+        stroke="var(--primary)"
+        strokeWidth="3"
+        strokeLinecap="round"
+        strokeDasharray={`${(value / 100) * c} ${c}`}
+        transform="rotate(-90 18 18)"
+      />
     </svg>
   );
 }
 
 function ModeCard({
   href,
-  color,
   title,
   text,
   icon,
+  featured,
 }: {
-  href: string;
-  color: "success" | "primary" | "accent" | "purple";
+  href?: string;
   title: string;
   text: string;
-  icon: "book" | "cards" | "check" | "spark";
+  icon: React.ReactNode;
+  featured?: boolean;
 }) {
-  const bg =
-    color === "success"
-      ? "bg-success-tint text-success"
-      : color === "primary"
-        ? "bg-primary-tint text-primary"
-        : color === "accent"
-          ? "bg-accent-tint text-accent"
-          : "bg-[#f3eefc] text-[#7c4dd4]";
+  const inner = (
+    <>
+      <span
+        className={`w-12 h-12 rounded-xl flex items-center justify-center shrink-0 ${
+          !href
+            ? "bg-sunken text-faint"
+            : featured
+              ? "bg-primary text-white"
+              : "bg-primary-tint text-primary"
+        }`}
+      >
+        {icon}
+      </span>
+      <span className="flex-1 flex flex-col gap-0.5">
+        <span className={`text-lg font-semibold ${href ? "" : "text-muted"}`}>{title}</span>
+        <span className="text-sm text-muted">{text}</span>
+      </span>
+      {href ? (
+        <ChevronRight
+          size={20}
+          className="text-faint transition-[transform,color] duration-200 group-hover:translate-x-0.5 group-hover:text-primary"
+        />
+      ) : (
+        <span className="text-xs font-medium text-faint">Kommer snart</span>
+      )}
+    </>
+  );
+
+  const base = "flex items-center gap-4 rounded-2xl p-5 sm:p-6 border";
+  if (!href) {
+    return (
+      <div className={`${base} bg-transparent border-dashed border-border-strong`} aria-disabled="true">
+        {inner}
+      </div>
+    );
+  }
   return (
     <Link
       href={href}
-      className="flex items-center gap-4.5 bg-white border border-border rounded-2xl p-6 hover:border-primary transition-colors"
+      className={`group ${base} bg-surface border-border hover:border-primary/50 hover:shadow-card transition-[border-color,box-shadow,transform] duration-200 active:scale-[0.99]`}
     >
-      <div className={`w-12 h-12 rounded-xl flex items-center justify-center shrink-0 ${bg}`}>
-        <ModeIcon name={icon} />
-      </div>
-      <div className="flex flex-col gap-0.5">
-        <span className="text-base font-semibold">{title}</span>
-        <span className="text-sm text-muted">{text}</span>
-      </div>
+      {inner}
     </Link>
-  );
-}
-
-function ModeIcon({ name }: { name: string }) {
-  if (name === "book") {
-    return (
-      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5z" />
-        <path d="M4 5.5v15" />
-      </svg>
-    );
-  }
-  if (name === "cards") {
-    return (
-      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-        <rect x="3" y="7" width="14" height="11" rx="2" />
-        <rect x="7" y="3" width="14" height="11" rx="2" fill="white" />
-      </svg>
-    );
-  }
-  if (name === "check") {
-    return (
-      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
-        <circle cx="12" cy="12" r="9" />
-        <path d="M8 12.5l2.5 2.5L16 9" strokeLinecap="round" strokeLinejoin="round" />
-      </svg>
-    );
-  }
-  return (
-    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-      <path d="M12 3v4M12 17v4M4.2 4.2l2.8 2.8M17 17l2.8 2.8M3 12h4M17 12h4M4.2 19.8L7 17M17 7l2.8-2.8" />
-    </svg>
   );
 }
