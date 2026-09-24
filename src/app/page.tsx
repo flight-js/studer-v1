@@ -4,7 +4,7 @@ import { Dot } from "@/components/Dot";
 import { Logo } from "@/components/Logo";
 import { ArrowRight, Check } from "@/components/icons";
 
-const MONTHLY = 69;
+const MONTHLY = 59;
 const YEARLY = 499;
 const yearlySaving = MONTHLY * 12 - YEARLY;
 
