@@ -1,0 +1,258 @@
+{
+  "id": "kjemisk-binding",
+  "fagId": "kjemi-1",
+  "trinnId": "vg2",
+  "name": "Kjemisk binding og molekylgeometri",
+  "intro": "Ionebinding, kovalent binding og metallbinding, formen på molekyler og kreftene som virker mellom dem.",
+  "kompetansemaal": [5, 7],
+  "sammendrag": "## Binding er elektrostatisk tiltrekning\n\nAll kjemisk binding skyldes at positive og negative ladninger tiltrekker hverandre. Hvilken bindingstype som dannes, avhenger av hvor sterkt atomene trekker på elektronene, altså **elektronegativiteten** deres.\n\n## Ionebinding\n\nNår et metall reagerer med et ikke-metall, gir metallatomet fra seg elektroner og ikke-metallatomet tar dem opp. Da dannes positive og negative ioner som holdes sammen i et **ionegitter**. Natriumklorid (NaCl) er et typisk eksempel. Ioneforbindelser har høyt smeltepunkt og er harde og sprø. De leder strøm når de er smeltet eller løst i vann, fordi ionene da kan bevege seg.\n\n## Kovalent binding\n\nMellom ikke-metaller deles elektronpar. Ett delt elektronpar er en **enkeltbinding**, to eller tre delte par gir **dobbelt-** og **trippelbinding**. Er elektronegativiteten lik, deles elektronene likt, og bindingen er **upolar**, som i H₂ og Cl₂. Er den ulik, trekkes elektronene mot det mest elektronegative atomet. Da får vi en **polar kovalent binding** med delladninger δ+ og δ−, som i HCl. Jo større forskjell i elektronegativitet, desto mer polar blir bindingen. Ved svært store forskjeller regner vi den som ionisk.\n\n## Metallbinding\n\nI et metall har atomene gitt fra seg valenselektronene til et felles **elektronhav**. De positive metallionene holdes sammen av de frie elektronene. Det forklarer at metaller leder strøm og varme godt og kan bøyes og formes uten å knekke.\n\n## Molekylgeometri\n\nEn **Lewisstruktur** viser valenselektronene som bindinger og **frie elektronpar**. Formen på molekylet kan forutsies med **VSEPR-modellen**: elektronparene rundt sentralatomet frastøter hverandre og ordner seg så langt fra hverandre som mulig.\n\n- To elektronområder gir **lineær** form, 180° (CO₂).\n- Tre gir **plan trigonal** form, 120° (BF₃).\n- Fire gir **tetraedrisk** form, 109,5° (CH₄).\n\nFrie elektronpar tar mer plass enn bindinger. Derfor blir NH₃ **trigonal pyramidal** (omtrent 107°) og H₂O **vinklet** (omtrent 104,5°).\n\n## Polare molekyler\n\nEt molekyl er polart når det har polare bindinger og en form der delladningene ikke opphever hverandre. H₂O er polart. CO₂ har polare bindinger, men er lineært og symmetrisk, så molekylet som helhet er upolart.\n\n## Krefter mellom molekyler\n\nMolekylære stoffer holdes sammen av **intermolekylære krefter**, som er mye svakere enn bindingene inne i molekylene.\n\n- **London-krefter** virker mellom alle molekyler og blir sterkere jo større molekylet er.\n- **Dipol-dipol-krefter** virker mellom polare molekyler.\n- **Hydrogenbindinger** er spesielt sterke dipolkrefter. De oppstår når H er bundet til N, O eller F og tiltrekkes av et fritt elektronpar på N, O eller F i et annet molekyl.\n\nSterkere krefter mellom molekylene gir høyere kokepunkt. Vann har uvanlig høyt kokepunkt for et så lite molekyl på grunn av hydrogenbindingene.\n\n## Stoffers struktur\n\nI **kovalente nettverk**, som diamant og kvarts (SiO₂), er alle atomene i krystallen bundet sammen med kovalente bindinger. Slike stoffer er svært harde og har svært høye smeltepunkter.",
+  "flashcards": [
+    { "term": "Kjemisk binding", "def": "Elektrostatisk tiltrekning som holder atomer eller ioner sammen." },
+    { "term": "Ionebinding", "def": "Binding mellom positive og negative ioner. Dannes typisk når et metall gir elektroner til et ikke-metall." },
+    { "term": "Ionegitter", "def": "Regelmessig tredimensjonalt mønster av positive og negative ioner, som i natriumklorid." },
+    { "term": "Kovalent binding", "def": "Binding der to atomer deler ett eller flere elektronpar. Vanlig mellom ikke-metaller." },
+    { "term": "Dobbeltbinding", "def": "Kovalent binding der to atomer deler to elektronpar, altså fire elektroner." },
+    { "term": "Upolar kovalent binding", "def": "Kovalent binding der elektronene deles likt fordi atomene har lik elektronegativitet, for eksempel i H₂." },
+    { "term": "Polar kovalent binding", "def": "Kovalent binding der elektronene trekkes mot det mest elektronegative atomet, slik at det oppstår delladninger δ+ og δ−." },
+    { "term": "Delladning (δ+ og δ−)", "def": "Små positive eller negative ladninger på atomene i en polar binding. Ikke hele ladninger, som hos ioner." },
+    { "term": "Metallbinding", "def": "Binding der positive metallioner holdes sammen av et hav av frie valenselektroner." },
+    { "term": "Lewisstruktur", "def": "Tegning av et molekyl der valenselektronene vises som bindingsstreker og frie elektronpar." },
+    { "term": "Fritt elektronpar", "def": "Et par valenselektroner som ikke inngår i en binding. Påvirker formen på molekylet." },
+    { "term": "Oktettregelen", "def": "Atomer i hovedgruppene har en tendens til å få åtte elektroner i ytterskallet når de binder seg. Hydrogen får to." },
+    { "term": "VSEPR-modellen", "def": "Modell som forutsier formen på molekyler ut fra at elektronparene rundt sentralatomet frastøter hverandre og plasserer seg lengst mulig fra hverandre." },
+    { "term": "Lineær form", "def": "Molekylform med bindingsvinkel 180°, for eksempel CO₂." },
+    { "term": "Plan trigonal form", "def": "Tre elektronområder i samme plan med 120° mellom seg, for eksempel BF₃." },
+    { "term": "Tetraedrisk form", "def": "Fire elektronområder med 109,5° mellom seg, for eksempel CH₄." },
+    { "term": "Trigonal pyramidal form", "def": "Tre bindinger og ett fritt elektronpar rundt sentralatomet, for eksempel NH₃ (omtrent 107°)." },
+    { "term": "Vinklet form", "def": "To bindinger og to frie elektronpar rundt sentralatomet, for eksempel H₂O (omtrent 104,5°)." },
+    { "term": "Polart molekyl", "def": "Molekyl med en positiv og en negativ ende fordi delladningene ikke opphever hverandre, for eksempel H₂O." },
+    { "term": "Intermolekylære krefter", "def": "Tiltrekningskrefter mellom molekyler. Mye svakere enn bindingene inne i molekylene, men avgjør smelte- og kokepunkt." },
+    { "term": "London-krefter", "def": "Svake krefter som virker mellom alle molekyler, på grunn av midlertidige dipoler. Blir sterkere jo større molekylet er." },
+    { "term": "Dipol-dipol-krefter", "def": "Tiltrekning mellom den positive enden av ett polart molekyl og den negative enden av et annet." },
+    { "term": "Hydrogenbinding", "def": "Sterk dipolkraft mellom et H-atom bundet til N, O eller F og et fritt elektronpar på N, O eller F i et annet molekyl." },
+    { "term": "Kovalent nettverk", "def": "Stoff der atomene er bundet kovalent gjennom hele krystallen, som diamant og kvarts. Svært hardt og høyt smeltepunkt." }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hvilken bindingstype finnes i natriumklorid (NaCl)?",
+      "options": ["Upolar kovalent binding", "Metallbinding", "Ionebinding", "Hydrogenbinding"],
+      "correct": 2,
+      "explain": "Natrium er et metall og klor et ikke-metall. Natrium gir fra seg et elektron til klor, og ionene Na⁺ og Cl⁻ holdes sammen i et ionegitter."
+    },
+    {
+      "id": "q02",
+      "text": "Hvorfor leder fast natriumklorid ikke strøm, mens smeltet natriumklorid gjør det?",
+      "options": ["I fast stoff sitter ionene fast i gitteret", "Fast natriumklorid inneholder ingen ioner", "Smeltet natriumklorid inneholder frie elektroner", "Fast natriumklorid er et metall"],
+      "correct": 0,
+      "explain": "For å lede strøm må ladde partikler kunne bevege seg. I fast stoff er ionene låst i gitteret. Når stoffet smelter eller løses i vann, kan ionene bevege seg fritt."
+    },
+    {
+      "id": "q03",
+      "text": "Hvilket molekyl har en upolar kovalent binding?",
+      "options": ["HCl", "H₂O", "NH₃", "Cl₂"],
+      "correct": 3,
+      "explain": "I Cl₂ er begge atomene like, med lik elektronegativitet, så elektronene deles helt likt. I de andre molekylene er atomene ulike og bindingene polare."
+    },
+    {
+      "id": "q04",
+      "text": "Hvilken form har et metanmolekyl (CH₄)?",
+      "options": ["Plan trigonal", "Tetraedrisk", "Lineær", "Vinklet"],
+      "correct": 1,
+      "explain": "Karbon har fire bindinger og ingen frie elektronpar. Fire elektronområder plasserer seg lengst mulig fra hverandre i en tetraeder, med 109,5° mellom bindingene."
+    },
+    {
+      "id": "q05",
+      "text": "Hvorfor er vannmolekylet vinklet og ikke lineært?",
+      "options": ["Hydrogenatomene tiltrekker hverandre", "Oksygen danner to dobbeltbindinger", "Oksygen har to frie elektronpar som skyver bindingene sammen", "Vannmolekylene danner hydrogenbindinger"],
+      "correct": 2,
+      "explain": "Oksygen har to bindinger og to frie elektronpar, altså fire elektronområder. De frie parene tar mye plass og presser bindingene sammen til omtrent 104,5°."
+    },
+    {
+      "id": "q06",
+      "text": "CO₂ har polare bindinger. Hvorfor er molekylet likevel upolart?",
+      "options": ["Molekylet er lineært, så dipolene opphever hverandre", "Karbon og oksygen har lik elektronegativitet", "Bindingene i CO₂ er ioniske", "CO₂ er en gass ved romtemperatur"],
+      "correct": 0,
+      "explain": "Begge C=O-bindingene er polare, men de peker i motsatt retning med 180° mellom seg. Da opphever dipolene hverandre, og molekylet får ingen positiv og negativ ende."
+    },
+    {
+      "id": "q07",
+      "text": "Hvilken type kraft virker mellom alle molekyler?",
+      "options": ["Hydrogenbindinger", "London-krefter", "Dipol-dipol-krefter", "Ionebindinger"],
+      "correct": 1,
+      "explain": "London-krefter skyldes midlertidige skjevheter i elektronskyen og finnes mellom alle molekyler, også upolare. De andre kreftene krever polare molekyler eller ioner."
+    },
+    {
+      "id": "q08",
+      "text": "Hvilket av disse stoffene danner hydrogenbindinger mellom molekylene?",
+      "options": ["CH₄", "H₂S", "Cl₂", "NH₃"],
+      "correct": 3,
+      "explain": "Hydrogenbindinger krever H bundet til N, O eller F. I NH₃ er hydrogen bundet til nitrogen, og nitrogen har et fritt elektronpar som kan tiltrekke H i et annet molekyl."
+    },
+    {
+      "id": "q09",
+      "text": "Hvorfor har vann (H₂O) mye høyere kokepunkt enn hydrogensulfid (H₂S)?",
+      "options": ["Vannmolekylene danner hydrogenbindinger", "Vannmolekylet er større", "Hydrogensulfid er en ioneforbindelse", "Vann er et kovalent nettverk"],
+      "correct": 0,
+      "explain": "Oksygen er svært elektronegativt, så vann danner hydrogenbindinger. Svovel er mindre elektronegativt, og H₂S har bare svakere krefter mellom molekylene. Derfor koker vann ved 100 °C og H₂S langt under 0 °C."
+    },
+    {
+      "id": "q10",
+      "text": "Hva kjennetegner metallbinding?",
+      "options": ["Delte elektronpar mellom to bestemte atomer", "Positive og negative ioner i et gitter", "Positive metallioner i et hav av frie elektroner", "Hydrogen bundet til oksygen"],
+      "correct": 2,
+      "explain": "I metaller deler alle atomene valenselektronene sine i et felles elektronhav. De frie elektronene gjør at metaller leder strøm og varme."
+    },
+    {
+      "id": "q11",
+      "text": "Hvilket av halogenene har høyest kokepunkt?",
+      "options": ["F₂", "Cl₂", "Br₂", "I₂"],
+      "correct": 3,
+      "explain": "Halogenmolekylene er upolare, så bare London-krefter virker mellom dem. Kreftene blir sterkere med flere elektroner og større molekyler, og I₂ er størst."
+    },
+    {
+      "id": "q12",
+      "text": "Hvor mange frie elektronpar har nitrogenatomet i ammoniakk (NH₃)?",
+      "options": ["Ingen", "Ett", "To", "Tre"],
+      "correct": 1,
+      "explain": "Nitrogen har fem valenselektroner. Tre brukes i bindingene til hydrogen, og de to siste danner ett fritt elektronpar. Det gir molekylet trigonal pyramidal form."
+    }
+  ],
+  "mindmap": {
+    "label": "Kjemisk binding",
+    "children": [
+      {
+        "label": "Bindingstyper",
+        "children": [
+          { "label": "Ionebinding", "note": "Metall + ikke-metall, ionegitter" },
+          {
+            "label": "Kovalent binding",
+            "note": "Delte elektronpar mellom ikke-metaller",
+            "children": [
+              { "label": "Upolar", "note": "Lik elektronegativitet" },
+              { "label": "Polar", "note": "Delladninger δ+ og δ−" },
+              { "label": "Enkelt-, dobbelt- og trippelbinding", "note": "1, 2 eller 3 delte elektronpar" }
+            ]
+          },
+          { "label": "Metallbinding", "note": "Metallioner i et elektronhav" }
+        ]
+      },
+      {
+        "label": "Elektronegativitet",
+        "children": [
+          { "label": "Lik", "note": "Upolar binding" },
+          { "label": "Ulik", "note": "Polar binding" },
+          { "label": "Svært ulik", "note": "Ionebinding" }
+        ]
+      },
+      {
+        "label": "Molekylgeometri (VSEPR)",
+        "children": [
+          { "label": "Lineær", "note": "180°, CO₂" },
+          { "label": "Plan trigonal", "note": "120°, BF₃" },
+          { "label": "Tetraedrisk", "note": "109,5°, CH₄" },
+          { "label": "Trigonal pyramidal", "note": "Ca. 107°, NH₃" },
+          { "label": "Vinklet", "note": "Ca. 104,5°, H₂O" }
+        ]
+      },
+      {
+        "label": "Polaritet",
+        "children": [
+          { "label": "Polare bindinger", "note": "Ulik elektronegativitet" },
+          { "label": "Symmetri", "note": "Symmetriske molekyler kan være upolare, som CO₂" },
+          { "label": "Polart molekyl", "note": "Har en positiv og en negativ ende, som H₂O" }
+        ]
+      },
+      {
+        "label": "Intermolekylære krefter",
+        "children": [
+          { "label": "London-krefter", "note": "Mellom alle molekyler, øker med størrelse" },
+          { "label": "Dipol-dipol-krefter", "note": "Mellom polare molekyler" },
+          { "label": "Hydrogenbindinger", "note": "H bundet til N, O eller F" },
+          { "label": "Kokepunkt", "note": "Sterkere krefter gir høyere kokepunkt" }
+        ]
+      },
+      {
+        "label": "Stoffers struktur",
+        "children": [
+          { "label": "Ionegitter", "note": "Høyt smeltepunkt, sprøtt" },
+          { "label": "Molekylære stoffer", "note": "Lavt smelte- og kokepunkt" },
+          { "label": "Kovalente nettverk", "note": "Diamant og kvarts, svært hardt" },
+          { "label": "Metaller", "note": "Leder strøm, kan formes" }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 20,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q08", "q09", "q11", "q12"],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Diamant har svært høyt smeltepunkt fordi atomene er bundet sammen med kovalente bindinger gjennom hele krystallen.",
+        "correct": true,
+        "explain": "For å smelte diamant må kovalente bindinger brytes, ikke bare svake krefter mellom molekyler. Det krever svært mye energi."
+      },
+      {
+        "id": "m02",
+        "type": "flervalg",
+        "text": "Hvilken bindingsvinkel har et tetraedrisk molekyl?",
+        "options": ["90°", "109,5°", "120°", "180°"],
+        "correct": 1,
+        "explain": "Fire elektronområder kommer lengst fra hverandre når de peker mot hjørnene i en tetraeder. Vinkelen mellom dem blir 109,5°."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "En hydrogenbinding er en kovalent binding mellom to hydrogenatomer.",
+        "correct": false,
+        "explain": "En hydrogenbinding er en kraft mellom molekyler: et H-atom bundet til N, O eller F tiltrekkes av et fritt elektronpar i et annet molekyl. Den er mye svakere enn en kovalent binding."
+      },
+      {
+        "id": "m04",
+        "type": "flervalg",
+        "text": "Hvilken form har bortrifluorid (BF₃)?",
+        "options": ["Trigonal pyramidal", "Tetraedrisk", "Plan trigonal", "Vinklet"],
+        "correct": 2,
+        "explain": "Bor har tre bindinger og ingen frie elektronpar. Tre elektronområder legger seg i samme plan med 120° mellom seg."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilken av disse bindingene er mest polar?",
+        "options": ["H–H", "C–H", "O–H", "H–F"],
+        "correct": 3,
+        "explain": "Fluor er det mest elektronegative grunnstoffet, så forskjellen i elektronegativitet er størst i H–F. Da trekkes elektronene mest skjevt."
+      },
+      {
+        "id": "m06",
+        "type": "sant-usant",
+        "text": "Metaller leder strøm fordi valenselektronene kan bevege seg fritt gjennom metallet.",
+        "correct": true,
+        "explain": "I metallbinding deler atomene valenselektronene i et elektronhav. Når det kobles til en spenning, beveger elektronene seg og fører strøm."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvor mange elektroner deles i en dobbeltbinding?",
+        "options": ["2", "4", "6", "8"],
+        "correct": 1,
+        "explain": "En dobbeltbinding består av to delte elektronpar, altså fire elektroner."
+      },
+      {
+        "id": "m08",
+        "type": "sant-usant",
+        "text": "Ioneforbindelser har som regel lavt smeltepunkt.",
+        "correct": false,
+        "explain": "Tiltrekningen mellom ionene i et gitter er sterk, så ioneforbindelser har som regel høyt smeltepunkt. Natriumklorid smelter først ved rundt 800 °C."
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": [
+      "Læreverk bruker litt ulike navn på molekylformene (for eksempel «plan trigonal» eller «plan trekantet»). Sjekk at navnene stemmer med læreboka elevene bruker."
+    ]
+  }
+}

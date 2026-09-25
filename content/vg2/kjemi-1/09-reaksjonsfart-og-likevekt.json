@@ -1,0 +1,244 @@
+{
+  "id": "reaksjonsfart-og-likevekt",
+  "fagId": "kjemi-1",
+  "trinnId": "vg2",
+  "name": "Reaksjonsfart og likevekt",
+  "intro": "Kollisjonsteori, faktorer som påvirker reaksjonsfarten, kjemisk likevekt og Le Châteliers prinsipp.",
+  "kompetansemaal": [5, 13],
+  "sammendrag": "## Reaksjonsfart\n\n**Reaksjonsfarten** forteller hvor raskt reaktantene brukes opp eller produktene dannes, for eksempel målt som endring i konsentrasjon per sekund. En eksplosjon er over på en brøkdel av et sekund, mens rusting kan ta mange år.\n\n## Kollisjonsteori\n\n**Kollisjonsteorien** forklarer hvorfor reaksjoner har ulik fart. For at to partikler skal reagere, må de\n\n- kollidere,\n- ha nok energi til å komme over **aktiveringsenergien** (Ea),\n- treffe hverandre med riktig orientering.\n\nBare en liten del av kollisjonene fører til reaksjon. Alt som gir flere vellykkede kollisjoner per sekund, øker reaksjonsfarten.\n\n## Hva påvirker reaksjonsfarten?\n\n- **Konsentrasjon**: Flere partikler i samme volum gir flere kollisjoner. For gasser gir høyere trykk samme effekt.\n- **Temperatur**: Partiklene beveger seg raskere, og en større andel av dem har energi over aktiveringsenergien. For mange reaksjoner blir farten omtrent doblet når temperaturen øker med 10 °C.\n- **Overflate**: Et finfordelt fast stoff har større overflate, så flere partikler kan kollidere samtidig. Melstøv kan eksplodere, mens en brødskive brenner rolig.\n- **Katalysator**: En katalysator gir en annen reaksjonsvei med lavere aktiveringsenergi. Den blir ikke brukt opp og endrer ikke ΔH. **Enzymer** er katalysatorer i levende organismer, og katalysatoren i en bil gjør giftige avgasser om til mindre skadelige stoffer.\n\n## Kjemisk likevekt\n\nMange reaksjoner kan gå begge veier, og vi skriver dem med dobbeltpil, ⇌. Når en slik reaksjon starter, går foroverreaksjonen raskt. Etter hvert som det dannes produkter, øker farten på bakoverreaksjonen. Til slutt går de to reaksjonene like fort, og konsentrasjonene endrer seg ikke lenger. Da har systemet nådd **kjemisk likevekt**.\n\nLikevekten er **dynamisk**: reaksjonene går hele tiden, men like raskt begge veier. Konsentrasjonene er konstante, men ikke nødvendigvis like store.\n\nForholdet ved likevekt beskrives av **likevektskonstanten** K. For N₂ + 3H₂ ⇌ 2NH₃ er K = [NH₃]² / ([N₂] · [H₂]³). En stor K betyr at det er mest produkter ved likevekt. K endres bare når temperaturen endres.\n\n## Le Châteliers prinsipp\n\nHvis en likevekt forstyrres, forskyver den seg slik at den motvirker endringen.\n\n- Tilsetter vi mer reaktant, forskyves likevekten mot høyre, mot produktene.\n- Øker vi trykket, forskyves likevekten mot siden med færrest gassmolekyler.\n- Øker vi temperaturen, forskyves likevekten i den endoterme retningen.\n- En katalysator forskyver ikke likevekten. Den gjør bare at likevekten nås raskere.\n\nEt eksempel er likevekten mellom brun NO₂ og fargeløs N₂O₄: 2NO₂ ⇌ N₂O₄, der foroverreaksjonen er eksoterm. Varmer du blandingen, blir den mer brun, fordi likevekten forskyves i den endoterme retningen, mot NO₂.",
+  "flashcards": [
+    { "term": "Reaksjonsfart", "def": "Hvor raskt reaktanter brukes opp eller produkter dannes, for eksempel endring i konsentrasjon per sekund." },
+    { "term": "Kollisjonsteorien", "def": "Partikler reagerer bare når de kolliderer med nok energi og riktig orientering." },
+    { "term": "Aktiveringsenergi (Ea)", "def": "Den minste energien partiklene må ha når de kolliderer, for at reaksjonen skal skje." },
+    { "term": "Konsentrasjon og fart", "def": "Høyere konsentrasjon gir flere kollisjoner per sekund og dermed høyere reaksjonsfart." },
+    { "term": "Temperatur og fart", "def": "Høyere temperatur gir raskere partikler og flere kollisjoner med energi over aktiveringsenergien." },
+    { "term": "Overflate og fart", "def": "Finfordelte faste stoffer har større overflate, gir flere kollisjoner og reagerer raskere." },
+    { "term": "Katalysator", "def": "Stoff som øker reaksjonsfarten ved å gi en reaksjonsvei med lavere aktiveringsenergi, uten selv å bli brukt opp." },
+    { "term": "Enzym", "def": "Protein som virker som katalysator i levende organismer." },
+    { "term": "Reversibel reaksjon", "def": "Reaksjon som kan gå begge veier. Skrives med dobbeltpil, ⇌." },
+    { "term": "Kjemisk likevekt", "def": "Tilstanden der forover- og bakoverreaksjonen går like fort, slik at konsentrasjonene holder seg konstante." },
+    { "term": "Dynamisk likevekt", "def": "Reaksjonene går hele tiden begge veier ved likevekt. Det er bare den samlede endringen som er null." },
+    { "term": "Likevektskonstant (K)", "def": "Forholdet mellom produkt- og reaktantkonsentrasjonene ved likevekt, opphøyd i koeffisientene. Avhenger bare av temperaturen." },
+    { "term": "Stor og liten K", "def": "Stor K: mest produkter ved likevekt. Liten K: mest reaktanter ved likevekt." },
+    { "term": "Le Châteliers prinsipp", "def": "Når en likevekt forstyrres, forskyver den seg slik at den motvirker forstyrrelsen." },
+    { "term": "Tilsette reaktant", "def": "Likevekten forskyves mot høyre, mot produktene." },
+    { "term": "Fjerne produkt", "def": "Likevekten forskyves mot høyre, slik at mer produkt dannes." },
+    { "term": "Øke trykket", "def": "Likevekten forskyves mot siden med færrest gassmolekyler." },
+    { "term": "Øke temperaturen", "def": "Likevekten forskyves i den endoterme retningen, og K endres." },
+    { "term": "Katalysator og likevekt", "def": "En katalysator forskyver ikke likevekten, men gjør at den innstiller seg raskere." },
+    { "term": "Haber–Bosch-prosessen", "def": "Industriell produksjon av ammoniakk: N₂ + 3H₂ ⇌ 2NH₃. Høyt trykk og en jernkatalysator gir godt utbytte med brukbar fart." }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hva er aktiveringsenergi?",
+      "options": ["Energien som frigjøres i reaksjonen", "Energien som er lagret i produktene", "Farten reaksjonen går med", "Den minste energien som trengs for at en kollisjon skal føre til reaksjon"],
+      "correct": 3,
+      "explain": "Aktiveringsenergien er en energiterskel. Bare partikler som kolliderer med minst så mye energi, kan reagere."
+    },
+    {
+      "id": "q02",
+      "text": "Hvorfor går de fleste reaksjoner raskere ved høyere temperatur?",
+      "options": ["Aktiveringsenergien blir lavere", "Flere partikler har nok energi, og de kolliderer oftere", "Likevekten forskyves mot produktene", "Det dannes en katalysator"],
+      "correct": 1,
+      "explain": "Høyere temperatur endrer ikke aktiveringsenergien, men en større andel av partiklene får energi over den. De beveger seg også raskere og kolliderer oftere."
+    },
+    {
+      "id": "q03",
+      "text": "Hvorfor reagerer sinkpulver raskere med saltsyre enn en sinkbit med samme masse?",
+      "options": ["Pulveret er varmere", "Pulveret er et annet stoff", "Pulveret har større overflate, så det blir flere kollisjoner", "Pulveret har lavere ΔH"],
+      "correct": 2,
+      "explain": "Når sinken er finfordelt, er mange flere sinkatomer i kontakt med syren samtidig. Det gir flere kollisjoner per sekund."
+    },
+    {
+      "id": "q04",
+      "text": "Hva gjør en katalysator?",
+      "options": ["Senker aktiveringsenergien og øker farten uten å bli brukt opp", "Forskyver likevekten mot produktene", "Gjør ΔH mer negativ", "Blir omdannet til produkt"],
+      "correct": 0,
+      "explain": "Katalysatoren gir reaksjonen en annen vei med lavere aktiveringsenergi. Den er uforandret når reaksjonen er ferdig, og den endrer verken ΔH eller likevekten."
+    },
+    {
+      "id": "q05",
+      "text": "Hva kjennetegner kjemisk likevekt?",
+      "options": ["Forover- og bakoverreaksjonen går like fort", "Reaksjonen har stoppet helt", "Konsentrasjonene av reaktanter og produkter er like store", "Alle reaktantene er brukt opp"],
+      "correct": 0,
+      "explain": "Ved likevekt går reaksjonene fortsatt, men like fort begge veier. Konsentrasjonene er derfor konstante, men de trenger ikke være like store."
+    },
+    {
+      "id": "q06",
+      "text": "N₂(g) + 3H₂(g) ⇌ 2NH₃(g). Hva skjer med likevekten hvis trykket økes?",
+      "options": ["Den forskyves mot venstre", "Ingenting skjer", "Den forskyves mot høyre", "Reaksjonen stopper"],
+      "correct": 2,
+      "explain": "Til venstre er det 4 gassmolekyler, til høyre 2. Økt trykk forskyver likevekten mot siden med færrest gassmolekyler, altså mot NH₃."
+    },
+    {
+      "id": "q07",
+      "text": "2NO₂ (brun) ⇌ N₂O₄ (fargeløs). Foroverreaksjonen er eksoterm. Hva skjer når blandingen varmes opp?",
+      "options": ["Den blir mer fargeløs", "Den blir mer brun", "Fargen endres ikke", "Den blir blå"],
+      "correct": 1,
+      "explain": "Oppvarming forskyver likevekten i den endoterme retningen. Her er det bakoverreaksjonen, så det dannes mer brun NO₂."
+    },
+    {
+      "id": "q08",
+      "text": "Hva skjer med en likevekt når det tilsettes en katalysator?",
+      "options": ["Den forskyves mot høyre", "Den forskyves mot venstre", "K blir større", "Den forskyves ikke, men nås raskere"],
+      "correct": 3,
+      "explain": "Katalysatoren senker aktiveringsenergien like mye for forover- og bakoverreaksjonen. Begge blir raskere, så likevekten nås fortere, men den ligger på samme sted."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er likevektsuttrykket for N₂ + 3H₂ ⇌ 2NH₃?",
+      "options": ["K = [N₂][H₂]³ / [NH₃]²", "K = [NH₃] / ([N₂][H₂])", "K = [NH₃]² / ([N₂][H₂]³)", "K = 2[NH₃] / (3[H₂][N₂])"],
+      "correct": 2,
+      "explain": "Produktene står over brøkstreken og reaktantene under. Koeffisientene blir eksponenter, ikke faktorer."
+    },
+    {
+      "id": "q10",
+      "text": "Hva betyr det at likevektskonstanten K er svært stor?",
+      "options": ["Reaksjonen går svært raskt", "Det er mest reaktanter ved likevekt", "Reaksjonen er endoterm", "Det er mest produkter ved likevekt"],
+      "correct": 3,
+      "explain": "Produktene står over brøkstreken i K. Stor K betyr at produktkonsentrasjonene er store i forhold til reaktantkonsentrasjonene. K sier ingenting om farten."
+    },
+    {
+      "id": "q11",
+      "text": "Hva sier kollisjonsteorien?",
+      "options": ["Partiklene må kollidere med nok energi og riktig orientering for å reagere", "Alle kollisjoner fører til reaksjon", "Bare gasser kan reagere", "Partiklene må ha samme masse for å reagere"],
+      "correct": 0,
+      "explain": "De fleste kollisjoner fører ikke til reaksjon. Partiklene må ha minst aktiveringsenergien og treffe hverandre riktig vei."
+    },
+    {
+      "id": "q12",
+      "text": "Hva er et enzym?",
+      "options": ["En type syre", "En biologisk katalysator", "Et produkt av forbrenning", "En likevektskonstant"],
+      "correct": 1,
+      "explain": "Enzymer er proteiner som katalyserer reaksjoner i levende organismer, for eksempel nedbrytingen av stivelse i munnen."
+    }
+  ],
+  "mindmap": {
+    "label": "Reaksjonsfart og likevekt",
+    "children": [
+      {
+        "label": "Kollisjonsteori",
+        "children": [
+          { "label": "Kollisjon", "note": "Partiklene må møtes" },
+          { "label": "Aktiveringsenergi", "note": "Nok energi" },
+          { "label": "Orientering", "note": "Riktig vei" }
+        ]
+      },
+      {
+        "label": "Faktorer som øker farten",
+        "children": [
+          { "label": "Konsentrasjon og trykk", "note": "Flere kollisjoner" },
+          { "label": "Temperatur", "note": "Flere partikler over Ea" },
+          { "label": "Overflate", "note": "Finfordelt stoff" },
+          {
+            "label": "Katalysator",
+            "note": "Lavere aktiveringsenergi",
+            "children": [
+              { "label": "Enzymer", "note": "I levende organismer" },
+              { "label": "Bilkatalysator", "note": "Renser avgasser" }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kjemisk likevekt",
+        "children": [
+          { "label": "Reversibel reaksjon", "note": "⇌" },
+          { "label": "Dynamisk", "note": "Like fort begge veier" },
+          { "label": "Konstante konsentrasjoner", "note": "Men ikke nødvendigvis like" },
+          { "label": "Likevektskonstant K", "note": "Stor K: mest produkter" }
+        ]
+      },
+      {
+        "label": "Le Châteliers prinsipp",
+        "children": [
+          { "label": "Konsentrasjon", "note": "Mer reaktant: mot høyre" },
+          { "label": "Trykk", "note": "Mot færrest gassmolekyler" },
+          { "label": "Temperatur", "note": "Varme: i endoterm retning" },
+          { "label": "Katalysator", "note": "Ingen forskyvning" }
+        ]
+      },
+      {
+        "label": "Eksempler",
+        "children": [
+          { "label": "Haber–Bosch", "note": "N₂ + 3H₂ ⇌ 2NH₃" },
+          { "label": "NO₂ og N₂O₄", "note": "Brun ⇌ fargeløs" }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 20,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08", "q09", "q10"],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Ved likevekt er konsentrasjonene av reaktanter og produkter alltid like store.",
+        "correct": false,
+        "explain": "Ved likevekt er konsentrasjonene konstante, men de kan være svært ulike. Det er farten på forover- og bakoverreaksjonen som er lik."
+      },
+      {
+        "id": "m02",
+        "type": "flervalg",
+        "text": "Du fjerner NH₃ fra likevekten N₂ + 3H₂ ⇌ 2NH₃. Hva skjer?",
+        "options": ["Likevekten forskyves mot venstre", "Likevekten forskyves mot høyre", "K blir mindre", "Ingenting skjer"],
+        "correct": 1,
+        "explain": "Systemet motvirker endringen ved å lage mer av det som ble fjernet. Likevekten forskyves mot høyre, og det dannes mer NH₃."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "En katalysator endrer ΔH for en reaksjon.",
+        "correct": false,
+        "explain": "Katalysatoren endrer bare veien reaksjonen går, altså aktiveringsenergien. Start- og sluttnivået er det samme, så ΔH er uendret."
+      },
+      {
+        "id": "m04",
+        "type": "flervalg",
+        "text": "Hvilken endring øker IKKE farten på reaksjonen mellom marmor og saltsyre?",
+        "options": ["Høyere temperatur", "Mindre marmorbiter", "Mer konsentrert syre", "Et større begerglass med den samme løsningen"],
+        "correct": 3,
+        "explain": "Et større begerglass endrer ikke konsentrasjonen, temperaturen eller overflaten, så antall kollisjoner per sekund blir det samme."
+      },
+      {
+        "id": "m05",
+        "type": "sant-usant",
+        "text": "Kjemisk likevekt er dynamisk: reaksjonene går hele tiden begge veier.",
+        "correct": true,
+        "explain": "Molekylene reagerer hele tiden fram og tilbake. Fordi farten er lik begge veier, ser det ut som ingenting skjer."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Likevekten A(g) ⇌ B(g) er endoterm mot høyre. Hvordan kan du få mer B?",
+        "options": ["Senke temperaturen", "Øke temperaturen", "Tilsette en katalysator", "Øke trykket"],
+        "correct": 1,
+        "explain": "Økt temperatur forskyver likevekten i den endoterme retningen, her mot B. Trykket har ingen virkning fordi det er like mange gassmolekyler på begge sider."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilken størrelse endrer en katalysator?",
+        "options": ["ΔH", "Likevektskonstanten K", "Aktiveringsenergien", "Konsentrasjonene ved likevekt"],
+        "correct": 2,
+        "explain": "En katalysator senker aktiveringsenergien. ΔH, K og likevektskonsentrasjonene er de samme med og uten katalysator."
+      },
+      {
+        "id": "m08",
+        "type": "sant-usant",
+        "text": "Likevektskonstanten K endres når temperaturen endres.",
+        "correct": true,
+        "explain": "K avhenger av temperaturen. Endringer i konsentrasjon eller trykk forskyver likevekten, men K er den samme så lenge temperaturen er uendret."
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": [
+      "Regelen om at 10 °C høyere temperatur dobler farten er bare omtrentlig og gjelder mange, men ikke alle reaksjoner.",
+      "Likevektskonstanten K er tatt med. Noen læreverk regner med K først i Kjemi 2 – sjekk avgrensningen."
+    ]
+  }
+}

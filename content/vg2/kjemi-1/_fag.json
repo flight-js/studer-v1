@@ -1,0 +1,41 @@
+{
+  "id": "kjemi-1",
+  "trinnId": "vg2",
+  "name": "Kjemi 1",
+  "lareplan": {
+    "kode": "KJE01-02",
+    "url": "https://www.udir.no/lk20/kje01-02/kompetansemaal-og-vurdering/kv532",
+    "kompetansemaal": [
+      { "nr": 1, "kort": "Kjemisk terminologi og navnsetting" },
+      { "nr": 2, "kort": "Forsøk, usikkerhet og feilkilder" },
+      { "nr": 3, "kort": "Sikkerhetsdatablad og HMS" },
+      { "nr": 4, "kort": "Data, simuleringer og beregninger" },
+      { "nr": 5, "kort": "Modeller, styrker og begrensninger" },
+      { "nr": 6, "kort": "Periodesystemet og periodiske trender" },
+      { "nr": 7, "kort": "Kjemisk binding, molekylgeometri og struktur" },
+      { "nr": 8, "kort": "Beregninger på reaksjoner og reaksjonstyper" },
+      { "nr": 9, "kort": "Konsentrasjon og ulike enheter" },
+      { "nr": 10, "kort": "Volumetrisk og gravimetrisk titreranalyse" },
+      { "nr": 11, "kort": "Atomets oppbygning, spektre og spektroskopi" },
+      { "nr": 12, "kort": "Entalpi og entalpiendringer" },
+      { "nr": 13, "kort": "Kollisjonsteori, reaksjonsfart og likevekt" },
+      { "nr": 14, "kort": "Løselighet: ladning, polaritet og temperatur" },
+      { "nr": 15, "kort": "Syre, base, protolyse og pH" },
+      { "nr": 16, "kort": "Grønn kjemi og bærekraft" },
+      { "nr": 17, "kort": "Kilder og kildekritikk" }
+    ]
+  },
+  "temaer": [
+    "atomet-og-periodesystemet",
+    "kjemisk-binding",
+    "formler-og-navnsetting",
+    "stoffmengde-og-stokiometri",
+    "reaksjonstyper-og-redoks",
+    "losninger-og-konsentrasjon",
+    "syrer-baser-og-ph",
+    "energi-og-entalpi",
+    "reaksjonsfart-og-likevekt",
+    "titrering-og-spektroskopi",
+    "gronn-kjemi"
+  ]
+}

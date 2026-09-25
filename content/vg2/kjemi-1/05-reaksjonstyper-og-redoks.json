@@ -1,0 +1,250 @@
+{
+  "id": "reaksjonstyper-og-redoks",
+  "fagId": "kjemi-1",
+  "trinnId": "vg2",
+  "name": "Reaksjonstyper og redoks",
+  "intro": "Fellingsreaksjoner, syre-base-reaksjoner og redoksreaksjoner – hvordan du kjenner dem igjen og bruker oksidasjonstall.",
+  "kompetansemaal": [8],
+  "sammendrag": "## Å kjenne igjen en reaksjon\n\nNår stoffer reagerer, ser vi ofte tegn på det: det dannes et fast stoff (et **bunnfall**), det bobler av gass, fargen endres, eller blandingen blir varm eller kald. Observasjonene hjelper oss å avgjøre hvilken **reaksjonstype** det er. De tre viktigste i Kjemi 1 er fellingsreaksjoner, syre-base-reaksjoner og redoksreaksjoner.\n\n## Fellingsreaksjoner\n\nNår vi blander to løsninger av løselige salter, kan det dannes et **tungtløselig salt** som felles ut som bunnfall. Sølvnitrat og natriumklorid gir hvitt sølvklorid:\n\nAg⁺(aq) + Cl⁻(aq) → AgCl(s)\n\nDette er en **ionelikning**. Na⁺ og NO₃⁻ er i løsningen hele tiden uten å reagere. De kalles **tilskuerioner** og tas ikke med.\n\nNoen tommelfingerregler: Alle nitrater og alle salter med alkalimetallioner eller ammonium er løselige. De fleste klorider er løselige, men ikke sølvklorid og blyklorid. De fleste karbonater, fosfater og hydroksider er tungtløselige. Bariumsulfat er et eksempel på et tungtløselig sulfat.\n\n## Syre-base-reaksjoner\n\nI en syre-base-reaksjon overføres et proton (H⁺) fra en syre til en base. Når en sterk syre reagerer med en sterk base, kalles det **nøytralisering**:\n\nH₃O⁺(aq) + OH⁻(aq) → 2H₂O(l)\n\nDette lærer du mer om i temaet om syrer og baser.\n\n## Redoksreaksjoner\n\nI en redoksreaksjon overføres **elektroner**. **Oksidasjon** betyr at et stoff avgir elektroner, og **reduksjon** betyr at et stoff tar opp elektroner. Det ene skjer aldri uten det andre. Legger vi en sinkbit i en løsning med kobberioner, skjer dette:\n\nZn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s)\n\nSink oksideres og er **reduksjonsmiddel**, fordi den gir elektroner til kobberionene. Kobberionene reduseres og er **oksidasjonsmiddel**. Reaksjonen kan deles i to **halvreaksjoner**: Zn → Zn²⁺ + 2e⁻ og Cu²⁺ + 2e⁻ → Cu. Forbrenning er også en redoksreaksjon: karbonet i brenselet oksideres, og oksygenet reduseres.\n\n## Oksidasjonstall\n\nFor å holde oversikt over elektronene bruker vi **oksidasjonstall**:\n\n- Et grunnstoff i fri form har oksidasjonstall 0.\n- Et enatomig ion har oksidasjonstall lik ladningen.\n- Oksygen har vanligvis −2 og hydrogen vanligvis +1.\n- Summen er 0 i en nøytral forbindelse og lik ladningen i et sammensatt ion.\n\nØker oksidasjonstallet, er stoffet oksidert. Minker det, er stoffet redusert. I SO₄²⁻ har svovel oksidasjonstall +6, fordi x + 4 · (−2) = −2.\n\n## Spenningsrekka\n\nMetaller kan ordnes etter hvor lett de avgir elektroner. **Spenningsrekka** viser at uedle metaller som sink og jern oksideres lettere enn edle metaller som kobber, sølv og gull. Et metall kan redusere ionene til et edlere metall. Derfor blir en jernspiker dekket av kobber i en løsning med kobberioner, mens en kobberbit i en løsning med jernioner forblir uforandret.",
+  "flashcards": [
+    { "term": "Fellingsreaksjon", "def": "Reaksjon der ioner i løsning danner et tungtløselig salt som felles ut som bunnfall." },
+    { "term": "Bunnfall", "def": "Fast stoff som dannes i en løsning og etter hvert synker til bunns." },
+    { "term": "Tungtløselig salt", "def": "Salt som løser seg svært lite i vann, for eksempel AgCl, BaSO₄ og CaCO₃." },
+    { "term": "Ionelikning", "def": "Reaksjonslikning som bare viser ionene og stoffene som faktisk reagerer, for eksempel Ag⁺ + Cl⁻ → AgCl." },
+    { "term": "Tilskuerion", "def": "Ion som er til stede i løsningen, men ikke deltar i reaksjonen. Tas ikke med i ionelikningen." },
+    { "term": "Syre-base-reaksjon", "def": "Reaksjon der et proton (H⁺) overføres fra en syre til en base." },
+    { "term": "Nøytralisering", "def": "Reaksjon mellom en syre og en base. For sterk syre og sterk base: H₃O⁺ + OH⁻ → 2H₂O." },
+    { "term": "Redoksreaksjon", "def": "Reaksjon der elektroner overføres fra ett stoff til et annet. Består av en oksidasjon og en reduksjon." },
+    { "term": "Oksidasjon", "def": "Et stoff avgir elektroner. Oksidasjonstallet øker." },
+    { "term": "Reduksjon", "def": "Et stoff tar opp elektroner. Oksidasjonstallet minker." },
+    { "term": "Oksidasjonsmiddel", "def": "Stoff som tar opp elektroner fra et annet stoff, og som selv blir redusert." },
+    { "term": "Reduksjonsmiddel", "def": "Stoff som gir fra seg elektroner til et annet stoff, og som selv blir oksidert." },
+    { "term": "Halvreaksjon", "def": "Den ene halvdelen av en redoksreaksjon, med elektronene skrevet ut, for eksempel Zn → Zn²⁺ + 2e⁻." },
+    { "term": "Oksidasjonstall", "def": "Tenkt ladning et atom ville hatt hvis alle bindingene var ioniske. Brukes for å holde styr på elektronoverføringer." },
+    { "term": "Oksidasjonstall i fri form", "def": "Et grunnstoff som ikke er bundet til andre grunnstoffer, som Fe, O₂ eller Cl₂, har oksidasjonstall 0." },
+    { "term": "Oksidasjonstall for O og H", "def": "Oksygen har vanligvis −2 og hydrogen vanligvis +1 i forbindelser." },
+    { "term": "Summen av oksidasjonstall", "def": "Er 0 i en nøytral forbindelse og lik ionets ladning i et sammensatt ion." },
+    { "term": "Spenningsrekka", "def": "Metallene ordnet etter hvor lett de avgir elektroner. Et metall kan redusere ionene til metaller som står etter det i rekka." },
+    { "term": "Uedelt metall", "def": "Metall som lett avgir elektroner og oksideres, for eksempel sink, jern og magnesium." },
+    { "term": "Edelt metall", "def": "Metall som vanskelig oksideres, for eksempel kobber, sølv og gull." },
+    { "term": "Forbrenning", "def": "Redoksreaksjon der et stoff reagerer med oksygen og avgir energi. Karbonet i brenselet oksideres og oksygenet reduseres." }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Du blander sølvnitrat og natriumklorid, og det dannes et hvitt bunnfall. Hvilken reaksjonstype er dette?",
+      "options": ["Fellingsreaksjon", "Redoksreaksjon", "Syre-base-reaksjon", "Forbrenning"],
+      "correct": 0,
+      "explain": "Sølvioner og kloridioner danner det tungtløselige saltet sølvklorid, som felles ut som bunnfall."
+    },
+    {
+      "id": "q02",
+      "text": "Hvilke ioner er tilskuerioner når AgNO₃(aq) og NaCl(aq) blandes?",
+      "options": ["Ag⁺ og Cl⁻", "Na⁺ og Cl⁻", "Ag⁺ og NO₃⁻", "Na⁺ og NO₃⁻"],
+      "correct": 3,
+      "explain": "Ag⁺ og Cl⁻ reagerer og danner AgCl(s). Na⁺ og NO₃⁻ blir værende i løsningen uten å reagere."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er oksidasjon?",
+      "options": ["At et stoff tar opp elektroner", "At et stoff avgir elektroner", "At et stoff tar opp protoner", "At et stoff avgir protoner"],
+      "correct": 1,
+      "explain": "Oksidasjon er avgivelse av elektroner, og da øker oksidasjonstallet. Overføring av protoner hører til syre-base-reaksjoner."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er oksidasjonstallet til svovel i sulfationet, SO₄²⁻?",
+      "options": ["+4", "−2", "+6", "+8"],
+      "correct": 2,
+      "explain": "Fire oksygenatomer gir 4 · (−2) = −8. Summen skal være ionets ladning, −2, så svovel må ha +6."
+    },
+    {
+      "id": "q05",
+      "text": "I reaksjonen Zn + Cu²⁺ → Zn²⁺ + Cu: Hva er reduksjonsmiddelet?",
+      "options": ["Cu²⁺", "Zn", "Zn²⁺", "Cu"],
+      "correct": 1,
+      "explain": "Sink gir fra seg to elektroner til kobberionet. Stoffet som gir fra seg elektroner, er reduksjonsmiddel, og det blir selv oksidert."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er oksidasjonstallet til et grunnstoff i fri form, som O₂ eller Fe?",
+      "options": ["0", "+1", "−2", "Det avhenger av grunnstoffet"],
+      "correct": 0,
+      "explain": "Atomer i et grunnstoff i fri form er bare bundet til like atomer, så ingen trekker elektronene mer til seg. Oksidasjonstallet er alltid 0."
+    },
+    {
+      "id": "q07",
+      "text": "Hvilken ionelikning viser nøytralisering mellom en sterk syre og en sterk base?",
+      "options": ["Na⁺ + Cl⁻ → NaCl", "2H₂ + O₂ → 2H₂O", "Ag⁺ + Cl⁻ → AgCl", "H₃O⁺ + OH⁻ → 2H₂O"],
+      "correct": 3,
+      "explain": "Syren gir H₃O⁺ og basen gir OH⁻ i løsningen. De reagerer til vann, mens de andre ionene er tilskuerioner."
+    },
+    {
+      "id": "q08",
+      "text": "Hva skjer med oksidasjonstallet til et stoff som blir redusert?",
+      "options": ["Det øker", "Det er uendret", "Det minker", "Det blir alltid 0"],
+      "correct": 2,
+      "explain": "Reduksjon er opptak av negativt ladde elektroner. Da blir oksidasjonstallet lavere."
+    },
+    {
+      "id": "q09",
+      "text": "Hvilket av disse saltene er tungtløselig i vann?",
+      "options": ["NaNO₃", "KCl", "BaSO₄", "NH₄Cl"],
+      "correct": 2,
+      "explain": "Bariumsulfat er tungtløselig. Nitrater og salter med alkalimetallioner eller ammonium er løselige."
+    },
+    {
+      "id": "q10",
+      "text": "En jernspiker legges i en løsning av kobber(II)sulfat og blir dekket av kobber. Hva har skjedd?",
+      "options": ["Kobber er oksidert", "Jern er oksidert og kobberioner redusert", "Det er en fellingsreaksjon", "Jern er redusert"],
+      "correct": 1,
+      "explain": "Jern er mindre edelt enn kobber og gir elektroner til Cu²⁺: Fe + Cu²⁺ → Fe²⁺ + Cu. Jern oksideres og kobberionene reduseres til kobbermetall."
+    },
+    {
+      "id": "q11",
+      "text": "Hva er oksidasjonstallet til mangan i kaliumpermanganat, KMnO₄?",
+      "options": ["+7", "+4", "+2", "−1"],
+      "correct": 0,
+      "explain": "Kalium har +1 og fire oksygenatomer har til sammen −8. For at summen skal bli 0, må mangan ha +7."
+    },
+    {
+      "id": "q12",
+      "text": "Hvorfor er forbrenning av metan (CH₄ + 2O₂ → CO₂ + 2H₂O) en redoksreaksjon?",
+      "options": ["Det dannes vann", "Det frigjøres varme", "Metan er en gass", "Karbon oksideres og oksygen reduseres"],
+      "correct": 3,
+      "explain": "Karbon går fra −4 i CH₄ til +4 i CO₂ og blir oksidert. Oksygen går fra 0 i O₂ til −2 og blir redusert."
+    }
+  ],
+  "mindmap": {
+    "label": "Reaksjonstyper og redoks",
+    "children": [
+      {
+        "label": "Tegn på reaksjon",
+        "children": [
+          { "label": "Bunnfall", "note": "Tyder på fellingsreaksjon" },
+          { "label": "Gassbobler" },
+          { "label": "Fargeendring" },
+          { "label": "Temperaturendring", "note": "Varme avgis eller tas opp" }
+        ]
+      },
+      {
+        "label": "Fellingsreaksjoner",
+        "children": [
+          { "label": "Tungtløselige salter", "note": "AgCl, BaSO₄, CaCO₃" },
+          { "label": "Ionelikning", "note": "Ag⁺ + Cl⁻ → AgCl" },
+          { "label": "Tilskuerioner", "note": "Reagerer ikke" },
+          { "label": "Løselighetsregler", "note": "Nitrater og alkalimetallsalter er løselige" }
+        ]
+      },
+      {
+        "label": "Syre-base-reaksjoner",
+        "children": [
+          { "label": "Protonoverføring", "note": "H⁺ fra syre til base" },
+          { "label": "Nøytralisering", "note": "H₃O⁺ + OH⁻ → 2H₂O" }
+        ]
+      },
+      {
+        "label": "Redoksreaksjoner",
+        "children": [
+          { "label": "Oksidasjon", "note": "Avgir elektroner" },
+          { "label": "Reduksjon", "note": "Tar opp elektroner" },
+          { "label": "Oksidasjonsmiddel", "note": "Tar opp elektroner, blir redusert" },
+          { "label": "Reduksjonsmiddel", "note": "Gir elektroner, blir oksidert" },
+          { "label": "Halvreaksjoner", "note": "Zn → Zn²⁺ + 2e⁻" },
+          { "label": "Forbrenning", "note": "Brenselet oksideres" }
+        ]
+      },
+      {
+        "label": "Oksidasjonstall",
+        "children": [
+          { "label": "Fri form", "note": "0" },
+          { "label": "Enatomig ion", "note": "Lik ladningen" },
+          { "label": "Oksygen", "note": "Vanligvis −2" },
+          { "label": "Hydrogen", "note": "Vanligvis +1" },
+          { "label": "Summen", "note": "0, eller ionets ladning" }
+        ]
+      },
+      {
+        "label": "Spenningsrekka",
+        "children": [
+          { "label": "Uedle metaller", "note": "Zn, Fe – oksideres lett" },
+          { "label": "Edle metaller", "note": "Cu, Ag, Au – oksideres vanskelig" },
+          { "label": "Metall + ioner", "note": "Uedelt metall reduserer ioner av edlere metall" }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 20,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q07", "q08", "q10", "q11", "q12"],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Oksidasjonsmiddelet tar opp elektroner og blir selv redusert.",
+        "correct": true,
+        "explain": "Oksidasjonsmiddelet oksiderer et annet stoff ved å ta elektronene fra det. Da blir det selv redusert."
+      },
+      {
+        "id": "m02",
+        "type": "flervalg",
+        "text": "Hva er oksidasjonstallet til nitrogen i ammoniakk, NH₃?",
+        "options": ["+3", "−3", "0", "+5"],
+        "correct": 1,
+        "explain": "Tre hydrogenatomer har til sammen +3. Summen skal være 0, så nitrogen har −3."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Alle nitrater er løselige i vann.",
+        "correct": true,
+        "explain": "Nitrater er løselige, uansett hvilket kation de er sammen med. Derfor brukes for eksempel sølvnitrat når man vil ha sølvioner i løsning."
+      },
+      {
+        "id": "m04",
+        "type": "flervalg",
+        "text": "Hvilken observasjon tyder mest på en fellingsreaksjon?",
+        "options": ["Løsningen blir varm", "Det dannes gassbobler", "Det dannes et fast stoff i løsningen", "Løsningen lukter sterkt"],
+        "correct": 2,
+        "explain": "I en fellingsreaksjon dannes et tungtløselig salt som blir synlig som et fast stoff, ofte uklart eller farget, i løsningen."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er oksidasjonstallet til klor i HClO?",
+        "options": ["+1", "−1", "+3", "0"],
+        "correct": 0,
+        "explain": "Hydrogen har +1 og oksygen −2. For at summen skal bli 0, må klor ha +1."
+      },
+      {
+        "id": "m06",
+        "type": "sant-usant",
+        "text": "I en redoksreaksjon er antall elektroner som avgis, lik antall elektroner som tas opp.",
+        "correct": true,
+        "explain": "Elektroner kan ikke forsvinne eller oppstå. Alle elektronene reduksjonsmiddelet avgir, tas opp av oksidasjonsmiddelet."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilken halvreaksjon viser en oksidasjon?",
+        "options": ["Cu²⁺ + 2e⁻ → Cu", "Cl₂ + 2e⁻ → 2Cl⁻", "Fe → Fe²⁺ + 2e⁻", "O₂ + 4e⁻ → 2O²⁻"],
+        "correct": 2,
+        "explain": "Ved oksidasjon avgis elektroner, så elektronene står på høyre side. Jern går fra 0 til +2."
+      },
+      {
+        "id": "m08",
+        "type": "sant-usant",
+        "text": "Et edelt metall som gull oksideres lettere enn et uedelt metall som sink.",
+        "correct": false,
+        "explain": "Det er omvendt. Uedle metaller som sink avgir elektroner lett, mens edle metaller som gull nesten ikke oksideres. Derfor ruster ikke gull."
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": [
+      "Elektrokjemi (galvaniske celler og elektrolyse) er holdt utenfor, fordi det ikke nevnes i kompetansemålene for Kjemi 1. Sjekk mot læreboka om det likevel bør være med.",
+      "Løselighetsreglene er forenklede tommelfingerregler."
+    ]
+  }
+}

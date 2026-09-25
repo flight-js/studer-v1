@@ -1,0 +1,256 @@
+{
+  "id": "formler-og-navnsetting",
+  "fagId": "kjemi-1",
+  "trinnId": "vg2",
+  "name": "Formler og navnsetting",
+  "intro": "Hvordan du skriver kjemiske formler og gir navn til ioneforbindelser, molekylforbindelser, syrer og hydrater.",
+  "kompetansemaal": [1],
+  "sammendrag": "## Kjemiske formler\n\nEn kjemisk formel viser hvilke grunnstoffer et stoff består av, og i hvilket forhold. **Molekylformelen** viser det faktiske antallet atomer i ett molekyl, for eksempel C₆H₁₂O₆ for glukose. Den **empiriske formelen** viser det enkleste heltallsforholdet mellom atomene, CH₂O for glukose. En **strukturformel** viser i tillegg hvordan atomene er bundet sammen.\n\nI reaksjonslikninger skriver vi ofte et **tilstandssymbol** bak formelen: (s) for fast stoff, (l) for væske, (g) for gass og (aq) for løst i vann.\n\n## Ioneforbindelser\n\nNavnet på en ioneforbindelse består av kationet først og anionet etterpå. Kationet får samme navn som metallet, mens enkle anioner får endelsen **-id**: klorid (Cl⁻), oksid (O²⁻), sulfid (S²⁻) og nitrid (N³⁻). NaCl heter altså natriumklorid.\n\nFor å finne formelen må de positive og negative ladningene gå opp i null. Kalsium danner Ca²⁺ og klor danner Cl⁻, så det trengs to kloridioner: CaCl₂. Aluminiumoksid blir Al₂O₃, fordi 2 · (+3) + 3 · (−2) = 0.\n\nMange overgangsmetaller kan danne ioner med ulik ladning. Da skriver vi ladningen med **romertall** i parentes: jern(II)klorid er FeCl₂, og jern(III)klorid er FeCl₃.\n\n## Sammensatte ioner\n\nNoen ioner består av flere atomer. De vanligste bør du kunne utenat:\n\n- hydroksid OH⁻, nitrat NO₃⁻, acetat CH₃COO⁻ og hydrogenkarbonat HCO₃⁻\n- sulfat SO₄²⁻ og karbonat CO₃²⁻\n- fosfat PO₄³⁻\n- ammonium NH₄⁺, det eneste positive ionet i listen\n\nTrengs det mer enn ett sammensatt ion i formelen, settes det i parentes. Kalsiumnitrat er Ca(NO₃)₂, og ammoniumsulfat er (NH₄)₂SO₄.\n\n## Molekylforbindelser\n\nForbindelser mellom ikke-metaller får navn med **greske tallprefikser** som forteller hvor mange atomer det er av hvert slag: mono (1), di (2), tri (3), tetra (4), penta (5) og heksa (6). CO heter karbonmonoksid og CO₂ karbondioksid. Mono sløyfes foran det første grunnstoffet. Prefiksene brukes ikke for ioneforbindelser: CaCl₂ heter kalsiumklorid, ikke kalsiumdiklorid.\n\n## Syrer og hydrater\n\nNoen vanlige syrer har egne navn: HCl løst i vann heter **saltsyre**, HNO₃ **salpetersyre**, H₂SO₄ **svovelsyre**, H₃PO₄ **fosforsyre** og CH₃COOH **eddiksyre**.\n\nEt **hydrat** er et salt med vannmolekyler bundet inn i krystallen. Blått kobbersulfat er kobber(II)sulfatpentahydrat, CuSO₄ · 5H₂O. Varmer du det opp, forsvinner vannet og saltet blir hvitt.",
+  "flashcards": [
+    { "term": "Molekylformel", "def": "Viser det faktiske antallet atomer av hvert grunnstoff i ett molekyl, for eksempel C₆H₁₂O₆." },
+    { "term": "Empirisk formel", "def": "Viser det enkleste heltallsforholdet mellom atomene i et stoff, for eksempel CH₂O for glukose." },
+    { "term": "Strukturformel", "def": "Viser hvilke atomer som er bundet til hverandre, og med hvilke bindinger." },
+    { "term": "Tilstandssymboler", "def": "(s) fast stoff, (l) væske, (g) gass, (aq) løst i vann." },
+    { "term": "Endelsen -id", "def": "Brukes for enkle anioner: klorid Cl⁻, oksid O²⁻, sulfid S²⁻, nitrid N³⁻, bromid Br⁻, jodid I⁻." },
+    { "term": "Romertall i navn", "def": "Viser ladningen på metallionet når metallet kan ha flere ladninger, for eksempel jern(III)klorid = FeCl₃." },
+    { "term": "Hydroksid", "def": "OH⁻" },
+    { "term": "Nitrat", "def": "NO₃⁻" },
+    { "term": "Sulfat", "def": "SO₄²⁻" },
+    { "term": "Karbonat", "def": "CO₃²⁻" },
+    { "term": "Hydrogenkarbonat", "def": "HCO₃⁻" },
+    { "term": "Fosfat", "def": "PO₄³⁻" },
+    { "term": "Ammonium", "def": "NH₄⁺ – et positivt sammensatt ion." },
+    { "term": "Acetat", "def": "CH₃COO⁻ – anionet fra eddiksyre." },
+    { "term": "Permanganat", "def": "MnO₄⁻ – finnes i kaliumpermanganat, KMnO₄." },
+    { "term": "Greske tallprefikser", "def": "Mono 1, di 2, tri 3, tetra 4, penta 5, heksa 6. Brukes i navn på molekylforbindelser, ikke ioneforbindelser." },
+    { "term": "Karbonmonoksid", "def": "CO – giftig gass som dannes ved ufullstendig forbrenning." },
+    { "term": "Saltsyre", "def": "HCl løst i vann." },
+    { "term": "Salpetersyre", "def": "HNO₃" },
+    { "term": "Svovelsyre", "def": "H₂SO₄" },
+    { "term": "Fosforsyre", "def": "H₃PO₄" },
+    { "term": "Hydrat", "def": "Salt med vannmolekyler bundet inn i krystallen, for eksempel CuSO₄ · 5H₂O." }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hva er formelen for kalsiumklorid?",
+      "options": ["CaCl", "CaCl₂", "Ca₂Cl", "CaCl₃"],
+      "correct": 1,
+      "explain": "Kalsium danner Ca²⁺ og klor danner Cl⁻. For at ladningene skal gå opp i null, trengs to kloridioner per kalsiumion."
+    },
+    {
+      "id": "q02",
+      "text": "Hva heter Fe₂O₃?",
+      "options": ["Jernoksid(II)", "Dijerntrioksid", "Jern(II)oksid", "Jern(III)oksid"],
+      "correct": 3,
+      "explain": "Tre oksidioner gir ladningen 3 · (−2) = −6. Den må balanseres av to jernioner med +3 hver, så det er jern(III). Greske prefikser brukes ikke for ioneforbindelser."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er formelen for aluminiumoksid?",
+      "options": ["Al₂O₃", "AlO", "Al₃O₂", "AlO₃"],
+      "correct": 0,
+      "explain": "Aluminium danner Al³⁺ og oksygen O²⁻. Minste felles multiplum av 3 og 2 er 6: to Al³⁺ gir +6 og tre O²⁻ gir −6."
+    },
+    {
+      "id": "q04",
+      "text": "Hvilket ion er sulfat?",
+      "options": ["SO₃²⁻", "S²⁻", "SO₄²⁻", "HSO₄⁻"],
+      "correct": 2,
+      "explain": "Sulfat er SO₄²⁻. SO₃²⁻ heter sulfitt, S²⁻ er sulfid og HSO₄⁻ er hydrogensulfat."
+    },
+    {
+      "id": "q05",
+      "text": "Hva heter SO₃?",
+      "options": ["Svovelsulfitt", "Monosvoveltrioksid", "Svoveloksid", "Svoveltrioksid"],
+      "correct": 3,
+      "explain": "SO₃ er en molekylforbindelse mellom to ikke-metaller, så vi bruker greske prefikser. Tre oksygenatomer gir «trioksid», og «mono» sløyfes foran det første grunnstoffet."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er formelen for ammoniumkarbonat?",
+      "options": ["NH₄CO₃", "(NH₄)₂CO₃", "NH₄(CO₃)₂", "NH₃CO₃"],
+      "correct": 1,
+      "explain": "Ammonium er NH₄⁺ og karbonat er CO₃²⁻. Det trengs to ammoniumioner for å balansere ladningen, og de settes i parentes."
+    },
+    {
+      "id": "q07",
+      "text": "Hvorfor står det romertall i navnet kobber(II)oksid, men ikke i natriumoksid?",
+      "options": ["Kobber er et ikke-metall", "Natrium er mer reaktivt enn kobber", "Kobber kan danne ioner med ulik ladning", "Romertallet viser antall oksygenatomer"],
+      "correct": 2,
+      "explain": "Kobber kan danne både Cu⁺ og Cu²⁺, så navnet må vise hvilket ion det er. Natrium danner bare Na⁺, så det trengs ikke."
+    },
+    {
+      "id": "q08",
+      "text": "Hva betyr tilstandssymbolet (aq)?",
+      "options": ["Løst i vann", "Fast stoff", "Gass", "Væske"],
+      "correct": 0,
+      "explain": "(aq) kommer av latin «aqua», vann. Stoffet er løst i vann, for eksempel NaCl(aq)."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er formelen for natriumhydrogenkarbonat (natron)?",
+      "options": ["NaHCO₃", "Na₂CO₃", "NaHCO₂", "Na(OH)CO₃"],
+      "correct": 0,
+      "explain": "Hydrogenkarbonat er HCO₃⁻ med ladning −1, så det trengs bare ett natriumion. Na₂CO₃ er natriumkarbonat."
+    },
+    {
+      "id": "q10",
+      "text": "Hva heter CCl₄?",
+      "options": ["Karbonklorid", "Klorkarbon", "Karbontriklorid", "Karbontetraklorid"],
+      "correct": 3,
+      "explain": "Karbon og klor er ikke-metaller, så vi bruker greske prefikser. Fire kloratomer gir «tetraklorid»."
+    },
+    {
+      "id": "q11",
+      "text": "Hva er den empiriske formelen for glukose, C₆H₁₂O₆?",
+      "options": ["C₆H₁₂O₆", "CH₂O", "C₂H₄O₂", "CHO"],
+      "correct": 1,
+      "explain": "Alle tallene i C₆H₁₂O₆ kan deles på 6. Det enkleste heltallsforholdet er 1 : 2 : 1, altså CH₂O."
+    },
+    {
+      "id": "q12",
+      "text": "Hva er formelen for magnesiumnitrid?",
+      "options": ["MgN", "Mg₂N₃", "Mg₃N₂", "MgN₂"],
+      "correct": 2,
+      "explain": "Magnesium danner Mg²⁺ og nitrogen N³⁻. Tre Mg²⁺ gir +6 og to N³⁻ gir −6, så formelen blir Mg₃N₂."
+    }
+  ],
+  "mindmap": {
+    "label": "Formler og navnsetting",
+    "children": [
+      {
+        "label": "Formeltyper",
+        "children": [
+          { "label": "Molekylformel", "note": "Faktisk antall atomer, C₆H₁₂O₆" },
+          { "label": "Empirisk formel", "note": "Enkleste forhold, CH₂O" },
+          { "label": "Strukturformel", "note": "Viser bindingene" },
+          { "label": "Tilstandssymboler", "note": "(s), (l), (g), (aq)" }
+        ]
+      },
+      {
+        "label": "Ioneforbindelser",
+        "children": [
+          { "label": "Kation først", "note": "Metallets navn" },
+          { "label": "Anion etterpå", "note": "Enkle anioner får -id" },
+          { "label": "Ladningsbalanse", "note": "Summen av ladningene = 0" },
+          { "label": "Romertall", "note": "Metaller med flere mulige ladninger, jern(III)" }
+        ]
+      },
+      {
+        "label": "Sammensatte ioner",
+        "children": [
+          { "label": "OH⁻", "note": "Hydroksid" },
+          { "label": "NO₃⁻", "note": "Nitrat" },
+          { "label": "SO₄²⁻", "note": "Sulfat" },
+          { "label": "CO₃²⁻", "note": "Karbonat" },
+          { "label": "HCO₃⁻", "note": "Hydrogenkarbonat" },
+          { "label": "PO₄³⁻", "note": "Fosfat" },
+          { "label": "NH₄⁺", "note": "Ammonium" },
+          { "label": "CH₃COO⁻", "note": "Acetat" }
+        ]
+      },
+      {
+        "label": "Molekylforbindelser",
+        "children": [
+          { "label": "Greske prefikser", "note": "Mono, di, tri, tetra, penta, heksa" },
+          { "label": "CO", "note": "Karbonmonoksid" },
+          { "label": "CO₂", "note": "Karbondioksid" },
+          { "label": "SO₃", "note": "Svoveltrioksid" },
+          { "label": "CCl₄", "note": "Karbontetraklorid" }
+        ]
+      },
+      {
+        "label": "Syrer",
+        "children": [
+          { "label": "Saltsyre", "note": "HCl(aq)" },
+          { "label": "Salpetersyre", "note": "HNO₃" },
+          { "label": "Svovelsyre", "note": "H₂SO₄" },
+          { "label": "Fosforsyre", "note": "H₃PO₄" },
+          { "label": "Eddiksyre", "note": "CH₃COOH" }
+        ]
+      },
+      {
+        "label": "Hydrater",
+        "children": [
+          { "label": "Krystallvann", "note": "Vann bundet inn i saltkrystallen" },
+          { "label": "CuSO₄ · 5H₂O", "note": "Kobber(II)sulfatpentahydrat, blått" }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 20,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q06", "q07", "q09", "q10", "q11", "q12"],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "flervalg",
+        "text": "Hva heter HNO₃ løst i vann?",
+        "options": ["Saltsyre", "Svovelsyre", "Salpetersyre", "Fosforsyre"],
+        "correct": 2,
+        "explain": "HNO₃ er salpetersyre. Saltsyre er HCl, svovelsyre H₂SO₄ og fosforsyre H₃PO₄."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Navnet på et enkelt anion ender på -id, for eksempel klorid og oksid.",
+        "correct": true,
+        "explain": "Anioner som består av ett atom, får endelsen -id: klorid, oksid, sulfid, nitrid, bromid og så videre."
+      },
+      {
+        "id": "m03",
+        "type": "flervalg",
+        "text": "Hva er formelen for kaliumpermanganat?",
+        "options": ["KMnO₄", "K₂MnO₄", "KMn₂O₄", "KMnO₃"],
+        "correct": 0,
+        "explain": "Permanganat er MnO₄⁻ med ladning −1, og kalium danner K⁺. Da trengs ett av hvert."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "I navn på ioneforbindelser bruker vi greske tallprefikser som di- og tri-.",
+        "correct": false,
+        "explain": "Prefiksene brukes bare for molekylforbindelser mellom ikke-metaller. For ioneforbindelser følger antallet av ladningene, så CaCl₂ heter kalsiumklorid."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilken formel og ladning har fosfationet?",
+        "options": ["PO₄⁻", "PO₄²⁻", "PO₄³⁻", "PO₃³⁻"],
+        "correct": 2,
+        "explain": "Fosfat er PO₄³⁻. Det er anionet i fosforsyre, H₃PO₄, som kan avgi tre protoner."
+      },
+      {
+        "id": "m06",
+        "type": "sant-usant",
+        "text": "CuSO₄ · 5H₂O er et hydrat, der vannmolekyler er bundet inn i krystallen.",
+        "correct": true,
+        "explain": "Punktet i formelen betyr at fem vannmolekyler per formelenhet er bundet i krystallen. Når saltet varmes opp, avgis vannet."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva heter Cu₂O?",
+        "options": ["Kobber(II)oksid", "Kobber(I)oksid", "Dikobberoksid", "Kobberoksid(II)"],
+        "correct": 1,
+        "explain": "Oksid har ladning −2, og den balanseres av to kobberioner. Hvert av dem må da ha ladning +1, altså kobber(I)."
+      },
+      {
+        "id": "m08",
+        "type": "flervalg",
+        "text": "Hva er formelen for jern(II)sulfat?",
+        "options": ["Fe₂SO₄", "Fe(SO₄)₂", "FeSO₄", "Fe₂(SO₄)₃"],
+        "correct": 2,
+        "explain": "Jern(II) er Fe²⁺ og sulfat er SO₄²⁻. Ladningene er like store, så det trengs ett av hvert. Fe₂(SO₄)₃ er jern(III)sulfat."
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": [
+      "Læreplanen sier ikke direkte om enkel organisk navnsetting (alkaner, alkoholer osv.) hører til Kjemi 1. Vurder om det trengs et eget tema for det.",
+      "Skrivemåten for sammensatte navn varierer litt mellom læreverk (for eksempel «kobber(II)sulfatpentahydrat» med eller uten bindestrek)."
+    ]
+  }
+}

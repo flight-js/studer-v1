@@ -1,0 +1,240 @@
+{
+  "id": "gronn-kjemi",
+  "fagId": "kjemi-1",
+  "trinnId": "vg2",
+  "name": "Grønn kjemi",
+  "intro": "Prinsippene for grønn kjemi, atomøkonomi og E-faktor, og hvordan kjemi kan bidra til bærekraftig utvikling.",
+  "kompetansemaal": [16, 17],
+  "sammendrag": "## Hva er grønn kjemi?\n\n**Grønn kjemi** handler om å utforme kjemiske produkter og prosesser slik at bruken og dannelsen av farlige stoffer blir så liten som mulig. I stedet for å rydde opp etter forurensning prøver man å hindre at den oppstår. De amerikanske kjemikerne Paul Anastas og John Warner samlet ideene i **tolv prinsipper for grønn kjemi** i 1998.\n\n## Prinsippene\n\nPrinsippene kan samles i noen hovedtanker:\n\n- **Forebygg avfall.** Det er bedre å unngå avfall enn å behandle det etterpå.\n- **Utnytt atomene.** Mest mulig av reaktantene bør ende i produktet, og unødvendige mellomtrinn bør unngås.\n- **Bruk og lag tryggere stoffer.** Velg reaktanter, løsemidler og produkter som er minst mulig giftige. Vann eller superkritisk CO₂ kan ofte erstatte skadelige organiske løsemidler.\n- **Spar energi.** Reaksjonene bør helst gå ved romtemperatur og vanlig trykk.\n- **Bruk fornybare råstoffer**, for eksempel stivelse og cellulose fra planter i stedet for olje.\n- **Bruk katalysatorer.** De gjør reaksjoner raskere ved lavere temperatur og kan brukes om igjen i stedet for å bli avfall.\n- **Lag nedbrytbare produkter** som brytes ned til ufarlige stoffer etter bruk.\n- **Overvåk og forebygg ulykker.** Mål underveis i prosessen, og velg stoffer og betingelser som gir liten risiko for brann, eksplosjon og utslipp.\n\n## Atomøkonomi\n\n**Atomøkonomi** viser hvor stor del av reaktantenes masse som ender i det ønskede produktet:\n\n**Atomøkonomi = M(ønsket produkt) / sum av M(reaktanter) · 100 %**\n\nKoeffisientene i likningen tas med. Når kalsiumkarbonat varmes opp til kalsiumoksid, CaCO₃ → CaO + CO₂, blir atomøkonomien 56,1 / 100,1 · 100 % ≈ 56 %. Resten av massen blir CO₂. I en addisjonsreaksjon, der alle atomene havner i ett produkt, er atomøkonomien 100 %.\n\n## Utbytte og E-faktor\n\nUtbyttet forteller hvor mye produkt du fikk sammenlignet med det teoretiske. Det sier ikke noe om hvor mye avfall som dannes. En reaksjon kan ha 95 % utbytte og likevel gi mye biprodukter. Derfor bruker kjemikere også **E-faktoren**:\n\n**E-faktor = masse avfall / masse produkt**\n\nJo lavere E-faktor, desto mindre avfall. I legemiddelindustrien kan E-faktoren være høy, fordi det brukes mange reaksjonstrinn og mye løsemiddel.\n\n## Grønn kjemi og bærekraft\n\n**Bærekraftig utvikling** betyr å dekke dagens behov uten å ødelegge mulighetene for at kommende generasjoner skal kunne dekke sine. Grønn kjemi bidrar ved å spare råstoffer og energi, redusere utslipp og lage produkter som ikke hoper seg opp i naturen.\n\nSamtidig må løsningene vurderes kritisk. Et produkt laget av planter er ikke automatisk bærekraftig hvis dyrkingen krever mye areal, vann og gjødsel. En **livsløpsanalyse** ser på hele livet til et produkt, fra råstoff til avfall, før man konkluderer.",
+  "flashcards": [
+    { "term": "Grønn kjemi", "def": "Å utforme kjemiske produkter og prosesser slik at bruken og dannelsen av farlige stoffer blir så liten som mulig." },
+    { "term": "De tolv prinsippene", "def": "Retningslinjer for grønn kjemi, formulert av Paul Anastas og John Warner i 1998." },
+    { "term": "Forebygge avfall", "def": "Det første prinsippet: Det er bedre å unngå avfall enn å behandle eller rydde opp etterpå." },
+    { "term": "Atomøkonomi", "def": "Andelen av reaktantenes masse som ender i det ønskede produktet: M(produkt) / sum M(reaktanter) · 100 %." },
+    { "term": "Addisjonsreaksjon og atomøkonomi", "def": "Når alle atomene i reaktantene havner i ett produkt, er atomøkonomien 100 %." },
+    { "term": "Biprodukt", "def": "Stoff som dannes i tillegg til det ønskede produktet, og som ofte blir avfall." },
+    { "term": "E-faktor", "def": "Masse avfall delt på masse produkt. Jo lavere, desto grønnere prosess." },
+    { "term": "Utbytte og atomøkonomi", "def": "Utbyttet sier hvor mye produkt du fikk. Atomøkonomien sier hvor mye av reaktantene som i det hele tatt kan bli produkt." },
+    { "term": "Tryggere løsemidler", "def": "Å erstatte giftige eller brannfarlige løsemidler med for eksempel vann, etanol eller superkritisk CO₂." },
+    { "term": "Superkritisk CO₂", "def": "CO₂ under høyt trykk og over en viss temperatur, der det oppfører seg både som gass og væske. Brukes som løsemiddel, for eksempel til å fjerne koffein fra kaffe." },
+    { "term": "Energieffektivitet", "def": "Å gjennomføre reaksjoner ved romtemperatur og vanlig trykk når det er mulig, for å spare energi." },
+    { "term": "Fornybart råstoff", "def": "Råstoff som fornyes i naturen, for eksempel stivelse og cellulose fra planter, i motsetning til olje, kull og gass." },
+    { "term": "Katalyse i grønn kjemi", "def": "Katalysatorer gir raskere reaksjoner ved lavere temperatur og kan brukes om igjen, slik at det blir mindre avfall og energibruk." },
+    { "term": "Nedbrytbare produkter", "def": "Produkter som brytes ned til ufarlige stoffer i naturen etter bruk, i stedet for å hope seg opp." },
+    { "term": "Færre reaksjonstrinn", "def": "Hvert trinn gir tap, avfall og energibruk. Prosesser med færre trinn er som regel grønnere." },
+    { "term": "Sanntidsanalyse", "def": "Å måle underveis i en prosess, slik at man kan stoppe dannelse av farlige stoffer før de oppstår." },
+    { "term": "Sikrere kjemi", "def": "Å velge stoffer og betingelser som gir minst mulig risiko for brann, eksplosjon og utslipp." },
+    { "term": "Bærekraftig utvikling", "def": "Utvikling som dekker dagens behov uten å ødelegge mulighetene for at kommende generasjoner skal kunne dekke sine." },
+    { "term": "Livsløpsanalyse", "def": "Vurdering av miljøbelastningen til et produkt gjennom hele livet, fra råstoff og produksjon til bruk og avfall." }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hva er hovedmålet med grønn kjemi?",
+      "options": ["Å redusere bruk og dannelse av farlige stoffer i kjemiske prosesser og produkter", "Å bruke flere grønne fargestoffer", "Å øke produksjonen uansett miljøkostnad", "Å erstatte all kjemi med biologi"],
+      "correct": 0,
+      "explain": "Grønn kjemi handler om å designe prosesser og produkter slik at forurensning og farlige stoffer unngås fra starten av."
+    },
+    {
+      "id": "q02",
+      "text": "Hvem formulerte de tolv prinsippene for grønn kjemi?",
+      "options": ["Dmitrij Mendelejev", "Gro Harlem Brundtland", "Paul Anastas og John Warner", "Henri Le Châtelier"],
+      "correct": 2,
+      "explain": "Anastas og Warner publiserte de tolv prinsippene i 1998. Brundtland er kjent for definisjonen av bærekraftig utvikling."
+    },
+    {
+      "id": "q03",
+      "text": "Hva måler atomøkonomi?",
+      "options": ["Hvor raskt en reaksjon går", "Hvor mye energi en reaksjon krever", "Hvor mye produkt du faktisk fikk", "Hvor stor andel av reaktantenes masse som ender i det ønskede produktet"],
+      "correct": 3,
+      "explain": "Atomøkonomien regnes ut fra reaksjonslikningen. Den viser hvor mye av reaktantene som i beste fall kan bli til ønsket produkt."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er atomøkonomien for CaCO₃ → CaO + CO₂? (M(CaCO₃) = 100,1 g/mol, M(CaO) = 56,1 g/mol)",
+      "options": ["44,0 %", "56,0 %", "100 %", "78,5 %"],
+      "correct": 1,
+      "explain": "Atomøkonomi = 56,1 / 100,1 · 100 % = 56,0 %. De resterende 44 % av massen ender som CO₂."
+    },
+    {
+      "id": "q05",
+      "text": "Hvilken type reaksjon har 100 % atomøkonomi?",
+      "options": ["En reaksjon som gir et biprodukt", "En addisjonsreaksjon der alle atomene havner i ett produkt", "En forbrenning", "En fellingsreaksjon med tilskuerioner"],
+      "correct": 1,
+      "explain": "Når alle reaktantatomene blir en del av det ønskede produktet, går ingenting til biprodukter, og atomøkonomien er 100 %."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er E-faktoren?",
+      "options": ["Energiforbruket i en prosess", "Utbyttet i prosent", "Antall reaksjonstrinn", "Masse avfall per masse produkt"],
+      "correct": 3,
+      "explain": "E-faktoren er masse avfall delt på masse produkt. Den tar med alt avfall, også løsemidler, og jo lavere den er, desto bedre."
+    },
+    {
+      "id": "q07",
+      "text": "Hvorfor er katalysatorer viktige i grønn kjemi?",
+      "options": ["De gir raskere reaksjoner ved lavere temperatur og kan brukes om igjen", "De gjør ΔH større", "De forbrukes og blir til avfall", "De gjør reaktantene unødvendige"],
+      "correct": 0,
+      "explain": "Katalysatorer sparer energi fordi reaksjonen kan gå ved lavere temperatur, og de blir ikke brukt opp. Det gir mindre avfall enn reagenser som forbrukes."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er et fornybart råstoff?",
+      "options": ["Råolje", "Kull", "Råstoff som fornyes i naturen, for eksempel fra planter", "Metallmalm fra gruver"],
+      "correct": 2,
+      "explain": "Fornybare råstoffer, som stivelse og cellulose fra planter, dannes på nytt i løpet av kort tid. Olje, kull og malm tar millioner av år å danne."
+    },
+    {
+      "id": "q09",
+      "text": "En prosess gir 3 kg avfall for hver kg produkt. Hva er E-faktoren?",
+      "options": ["0,33", "4", "1", "3"],
+      "correct": 3,
+      "explain": "E-faktor = masse avfall / masse produkt = 3 kg / 1 kg = 3."
+    },
+    {
+      "id": "q10",
+      "text": "Hvorfor sier prinsippene at det er bedre å forebygge avfall enn å behandle det?",
+      "options": ["Det er tryggere og billigere å unngå avfall enn å rydde opp etterpå", "Avfall er aldri farlig", "Det er forbudt å behandle avfall", "Avfall kan ikke behandles"],
+      "correct": 0,
+      "explain": "Avfall som aldri dannes, trenger verken lagring, transport eller rensing, og det kan heller ikke lekke ut i naturen."
+    },
+    {
+      "id": "q11",
+      "text": "Hvilket løsemiddel er et grønnere valg i mange prosesser?",
+      "options": ["Benzen", "Klorerte løsemidler", "Vann eller superkritisk CO₂", "Kvikksølv"],
+      "correct": 2,
+      "explain": "Vann og superkritisk CO₂ er lite giftige og ikke brannfarlige. Benzen og mange klorerte løsemidler er helse- og miljøskadelige."
+    },
+    {
+      "id": "q12",
+      "text": "En reaksjon har 95 % utbytte, men lav atomøkonomi. Hva betyr det?",
+      "options": ["Prosessen er helt grønn", "Mye av reaktantene blir likevel til biprodukter og avfall", "Reaksjonen går for sakte", "Produktet er urent"],
+      "correct": 1,
+      "explain": "Høyt utbytte betyr at du fikk nesten alt produktet som var mulig. Lav atomøkonomi betyr at mye av massen uansett blir biprodukter. Begge må vurderes."
+    }
+  ],
+  "mindmap": {
+    "label": "Grønn kjemi",
+    "children": [
+      {
+        "label": "Hva det er",
+        "children": [
+          { "label": "Unngå farlige stoffer", "note": "Hindre i stedet for å rydde opp" },
+          { "label": "Tolv prinsipper", "note": "Anastas og Warner, 1998" }
+        ]
+      },
+      {
+        "label": "Mindre avfall",
+        "children": [
+          { "label": "Forebygg avfall", "note": "Prinsipp 1" },
+          { "label": "Atomøkonomi", "note": "Mest mulig ender i produktet" },
+          { "label": "Færre trinn", "note": "Mindre tap og avfall" },
+          { "label": "E-faktor", "note": "Avfall / produkt" }
+        ]
+      },
+      {
+        "label": "Tryggere stoffer",
+        "children": [
+          { "label": "Mindre giftige reaktanter" },
+          { "label": "Tryggere løsemidler", "note": "Vann, superkritisk CO₂" },
+          { "label": "Nedbrytbare produkter", "note": "Hoper seg ikke opp i naturen" }
+        ]
+      },
+      {
+        "label": "Energi og råstoff",
+        "children": [
+          { "label": "Romtemperatur og vanlig trykk", "note": "Sparer energi" },
+          { "label": "Fornybare råstoffer", "note": "Stivelse, cellulose" },
+          { "label": "Katalysatorer", "note": "Lavere temperatur, brukes om igjen" }
+        ]
+      },
+      {
+        "label": "Sikkerhet",
+        "children": [
+          { "label": "Sanntidsanalyse", "note": "Mål underveis" },
+          { "label": "Forebygg ulykker", "note": "Brann, eksplosjon, utslipp" }
+        ]
+      },
+      {
+        "label": "Bærekraft",
+        "children": [
+          { "label": "Bærekraftig utvikling", "note": "Dagens behov uten å ødelegge for framtiden" },
+          { "label": "Livsløpsanalyse", "note": "Fra råstoff til avfall" },
+          { "label": "Kritisk vurdering", "note": "Plantebasert er ikke automatisk bærekraftig" }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 20,
+    "quizRefs": ["q01", "q03", "q04", "q05", "q06", "q07", "q08", "q09", "q11", "q12"],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Høyt utbytte betyr alltid at en prosess gir lite avfall.",
+        "correct": false,
+        "explain": "Utbyttet sier bare hvor mye produkt du fikk av det som var mulig. Prosessen kan likevel gi mye biprodukter og brukt løsemiddel."
+      },
+      {
+        "id": "m02",
+        "type": "flervalg",
+        "text": "Hva er atomøkonomien for C₂H₄ + H₂O → C₂H₅OH?",
+        "options": ["50 %", "78 %", "100 %", "64 %"],
+        "correct": 2,
+        "explain": "Alle atomene i eten og vann havner i etanol, og det dannes ingen biprodukter. Atomøkonomien er 100 %."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Grønn kjemi handler blant annet om å lage produkter som brytes ned til ufarlige stoffer etter bruk.",
+        "correct": true,
+        "explain": "Ett av prinsippene er å designe produkter som brytes ned i naturen, slik at de ikke hoper seg opp som miljøgifter."
+      },
+      {
+        "id": "m04",
+        "type": "flervalg",
+        "text": "Hvilket av disse er IKKE et prinsipp i grønn kjemi?",
+        "options": ["Bruke fornybare råstoffer", "Bruke katalysatorer", "Maksimere atomøkonomien", "Bruke så høy temperatur som mulig"],
+        "correct": 3,
+        "explain": "Høy temperatur krever mye energi. Grønn kjemi anbefaler tvert imot å gjennomføre reaksjoner ved romtemperatur og vanlig trykk når det er mulig."
+      },
+      {
+        "id": "m05",
+        "type": "sant-usant",
+        "text": "Det er i tråd med grønn kjemi å gjennomføre reaksjoner ved romtemperatur og vanlig trykk.",
+        "correct": true,
+        "explain": "Oppvarming og høyt trykk krever energi. Å unngå det sparer energi og reduserer risikoen for ulykker."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er bærekraftig utvikling?",
+        "options": ["Utvikling som dekker dagens behov uten å ødelegge mulighetene for kommende generasjoner", "Økonomisk vekst uten grenser", "Å slutte helt å bruke kjemikalier", "Utvikling som bare tar hensyn til miljøet"],
+        "correct": 0,
+        "explain": "Bærekraftig utvikling tar hensyn til både miljø, økonomi og samfunn, slik at også de som kommer etter oss, kan dekke sine behov."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvorfor er en syntese med færre reaksjonstrinn ofte grønnere?",
+        "options": ["Den gir mer avfall", "Den gir mindre tap, avfall og energibruk", "Den gir høyere E-faktor", "Den krever flere løsemidler"],
+        "correct": 1,
+        "explain": "Hvert trinn gir tap av stoff, bruk av løsemiddel og energi. Færre trinn betyr derfor som regel mindre avfall og lavere E-faktor."
+      },
+      {
+        "id": "m08",
+        "type": "sant-usant",
+        "text": "En lav E-faktor betyr at prosessen gir mye avfall.",
+        "correct": false,
+        "explain": "Det er omvendt. E-faktoren er avfall delt på produkt, så en lav verdi betyr lite avfall per kilo produkt."
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": [
+      "Prinsippene er gjengitt fritt og gruppert i hovedtanker, ikke som Anastas og Warners nummererte liste. Sjekk om læreboka forventer at elevene kan alle tolv med nummer."
+    ]
+  }
+}

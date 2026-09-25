@@ -1,0 +1,254 @@
+{
+  "id": "stoffmengde-og-stokiometri",
+  "fagId": "kjemi-1",
+  "trinnId": "vg2",
+  "name": "Stoffmengde og støkiometri",
+  "intro": "Mol, molar masse og balanserte reaksjonslikninger – og hvordan du regner ut hvor mye som reagerer og dannes.",
+  "kompetansemaal": [4, 8],
+  "sammendrag": "## Mol – kjemikerens tellemål\n\nAtomer og molekyler er så små at vi teller dem i **mol**. Én mol er 6,022 · 10²³ partikler. Dette tallet kalles **Avogadros konstant** (N_A). Stoffmengden n måles i mol, og antall partikler er N = n · N_A.\n\n## Molar masse\n\n**Molar masse** (M) er massen av én mol av et stoff, målt i g/mol. Du finner den ved å legge sammen atommassene fra periodesystemet. For vann blir M(H₂O) = 2 · 1,01 + 16,00 = 18,02 g/mol. Sammenhengen mellom masse, stoffmengde og molar masse er:\n\n**n = m / M**\n\n36,0 g vann er altså 36,0 g / 18,02 g/mol = 2,00 mol.\n\n## Balanserte reaksjonslikninger\n\nI en kjemisk reaksjon blir atomene omorganisert, men ingen atomer forsvinner eller oppstår. Derfor må det være like mange atomer av hvert grunnstoff på begge sider av pilen. Dette er **loven om massebevaring**. Vi balanserer ved å endre **koeffisientene** foran formlene, aldri de små tallene inne i formlene.\n\n2H₂(g) + O₂(g) → 2H₂O(l)\n\nKoeffisientene gir **molforholdet**: 2 mol hydrogen reagerer med 1 mol oksygen og gir 2 mol vann.\n\n## Støkiometriske beregninger\n\nDe fleste oppgaver løses i tre trinn:\n\n- Regn om fra masse til stoffmengde med n = m / M.\n- Bruk molforholdet fra den balanserte likningen.\n- Regn tilbake til masse med m = n · M.\n\nEksempel: Hvor mye vann dannes av 4,04 g hydrogen? n(H₂) = 4,04 g / 2,02 g/mol = 2,00 mol. Molforholdet mellom H₂ og H₂O er 1 : 1, så n(H₂O) = 2,00 mol og m(H₂O) = 2,00 mol · 18,02 g/mol = 36,0 g.\n\n## Begrensende reaktant og utbytte\n\nOfte er det ikke nøyaktig nok av alle reaktantene. Stoffet som brukes opp først, er den **begrensende reaktanten**, og det bestemmer hvor mye produkt som kan dannes. Resten er i **overskudd**. Mengden produkt vi regner oss fram til, kalles det **teoretiske utbyttet**. I praksis får vi nesten alltid mindre, blant annet på grunn av søl, bireaksjoner og reaksjoner som ikke går helt fram.\n\n**Utbytte i prosent = faktisk utbytte / teoretisk utbytte · 100 %**\n\n## Gasser\n\nFor gasser er det ofte praktisk å regne med volum. Ved 0 °C og 1 atm har én mol av en gass et volum på omtrent 22,4 L. Ved 25 °C og 1 atm er molvolumet omtrent 24,5 L.\n\n## Gjeldende siffer\n\nEt svar skal ikke oppgis mer nøyaktig enn målingene det bygger på. Ved ganging og deling får svaret like mange gjeldende siffer som tallet med færrest gjeldende siffer.",
+  "flashcards": [
+    { "term": "Mol", "def": "Enheten for stoffmengde. Én mol er 6,022 · 10²³ partikler." },
+    { "term": "Stoffmengde (n)", "def": "Mengden av et stoff målt i antall partikler, oppgitt i mol." },
+    { "term": "Avogadros konstant (N_A)", "def": "6,022 · 10²³ mol⁻¹ – antall partikler i én mol." },
+    { "term": "Atommasse (u)", "def": "Massen av et atom i atommasseenheter. 1 u er 1/12 av massen til et karbon-12-atom." },
+    { "term": "Molar masse (M)", "def": "Massen av én mol av et stoff, i g/mol. Summen av atommassene i formelen." },
+    { "term": "n = m / M", "def": "Stoffmengde = masse delt på molar masse. Omformet: m = n · M." },
+    { "term": "Loven om massebevaring", "def": "Den samlede massen er den samme før og etter en kjemisk reaksjon, fordi ingen atomer forsvinner eller oppstår." },
+    { "term": "Koeffisient", "def": "Tallet foran en formel i en reaksjonslikning. Viser hvor mange mol (eller partikler) av stoffet som inngår." },
+    { "term": "Balansert reaksjonslikning", "def": "Likning med like mange atomer av hvert grunnstoff og lik total ladning på begge sider av pilen." },
+    { "term": "Molforhold", "def": "Forholdet mellom stoffmengdene i en reaksjon, gitt av koeffisientene i den balanserte likningen." },
+    { "term": "Reaktant", "def": "Stoff som forbrukes i en reaksjon. Står til venstre for pilen." },
+    { "term": "Produkt", "def": "Stoff som dannes i en reaksjon. Står til høyre for pilen." },
+    { "term": "Støkiometri", "def": "Beregning av mengdeforholdene mellom stoffene som reagerer og dannes i kjemiske reaksjoner." },
+    { "term": "Begrensende reaktant", "def": "Reaktanten som brukes opp først og dermed bestemmer hvor mye produkt som kan dannes." },
+    { "term": "Overskudd", "def": "Reaktant som er til stede i større mengde enn det som trengs, og som blir igjen etter reaksjonen." },
+    { "term": "Teoretisk utbytte", "def": "Den største mengden produkt som kan dannes, beregnet ut fra den begrensende reaktanten." },
+    { "term": "Utbytte i prosent", "def": "Faktisk utbytte delt på teoretisk utbytte, ganget med 100 %." },
+    { "term": "Molvolum", "def": "Volumet av én mol gass. Omtrent 22,4 L ved 0 °C og 1 atm, og omtrent 24,5 L ved 25 °C og 1 atm." },
+    { "term": "Masseprosent", "def": "Massen av ett grunnstoff (eller stoff) delt på totalmassen, ganget med 100 %." },
+    { "term": "Gjeldende siffer", "def": "Sifrene i et måltall som er sikre, pluss det første usikre. Ved ganging og deling bestemmer tallet med færrest gjeldende siffer nøyaktigheten i svaret." }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hvor mange mol er 36,0 g vann (M = 18,02 g/mol)?",
+      "options": ["0,500 mol", "1,00 mol", "2,00 mol", "648 mol"],
+      "correct": 2,
+      "explain": "n = m / M = 36,0 g / 18,02 g/mol = 2,00 mol. Svaret 648 får du hvis du ganger i stedet for å dele."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er den molare massen til karbondioksid, CO₂?",
+      "options": ["28,01 g/mol", "44,01 g/mol", "32,00 g/mol", "60,01 g/mol"],
+      "correct": 1,
+      "explain": "M(CO₂) = 12,01 + 2 · 16,00 = 44,01 g/mol. 28,01 g/mol er molar masse til CO."
+    },
+    {
+      "id": "q03",
+      "text": "Hvor mange molekyler er det i 0,50 mol oksygengass (O₂)?",
+      "options": ["3,0 · 10²³", "6,0 · 10²³", "1,2 · 10²⁴", "3,0 · 10²²"],
+      "correct": 0,
+      "explain": "N = n · N_A = 0,50 mol · 6,022 · 10²³ mol⁻¹ = 3,0 · 10²³ molekyler. (Antall oksygenatomer er dobbelt så stort.)"
+    },
+    {
+      "id": "q04",
+      "text": "Hvilke koeffisienter balanserer likningen __ Al + __ O₂ → __ Al₂O₃?",
+      "options": ["2, 3, 1", "2, 1, 1", "4, 6, 2", "4, 3, 2"],
+      "correct": 3,
+      "explain": "4Al + 3O₂ → 2Al₂O₃ gir 4 aluminiumatomer og 6 oksygenatomer på hver side. Med 2, 3, 1 blir det 6 oksygenatomer til venstre, men bare 3 til høyre."
+    },
+    {
+      "id": "q05",
+      "text": "I reaksjonen 2H₂ + O₂ → 2H₂O: Hvor mange mol O₂ trengs for å reagere med 6 mol H₂?",
+      "options": ["2 mol", "3 mol", "6 mol", "12 mol"],
+      "correct": 1,
+      "explain": "Molforholdet H₂ : O₂ er 2 : 1. Da trengs halvparten så mange mol oksygen som hydrogen: 6 / 2 = 3 mol."
+    },
+    {
+      "id": "q06",
+      "text": "2 mol H₂ blandes med 2 mol O₂ og reagerer etter 2H₂ + O₂ → 2H₂O. Hva er den begrensende reaktanten?",
+      "options": ["O₂", "Begge brukes opp samtidig", "H₂", "Vann"],
+      "correct": 2,
+      "explain": "2 mol H₂ trenger bare 1 mol O₂. Hydrogenet brukes opp først og er begrensende, mens 1 mol O₂ blir til overs."
+    },
+    {
+      "id": "q07",
+      "text": "Det teoretiske utbyttet er 20,0 g, men du får 15,0 g produkt. Hva er utbyttet i prosent?",
+      "options": ["75,0 %", "133 %", "25,0 %", "15,0 %"],
+      "correct": 0,
+      "explain": "Utbytte = 15,0 g / 20,0 g · 100 % = 75,0 %. Et utbytte over 100 % betyr at produktet er urent, for eksempel fuktig."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er massen av 0,250 mol natriumklorid (M = 58,44 g/mol)?",
+      "options": ["233,8 g", "0,00428 g", "58,4 g", "14,6 g"],
+      "correct": 3,
+      "explain": "m = n · M = 0,250 mol · 58,44 g/mol = 14,6 g."
+    },
+    {
+      "id": "q09",
+      "text": "Hva sier loven om massebevaring?",
+      "options": ["Den samlede massen er den samme før og etter reaksjonen", "Antall molekyler er det samme før og etter reaksjonen", "Antall mol er det samme før og etter reaksjonen", "Gasser som dannes, har ingen masse"],
+      "correct": 0,
+      "explain": "Atomene omorganiseres, men forsvinner ikke. Antall molekyler og antall mol kan derimot endre seg, som i 2H₂ + O₂ → 2H₂O, der 3 mol blir til 2 mol."
+    },
+    {
+      "id": "q10",
+      "text": "Hvor mange masseprosent karbon er det i CO₂ (M = 44,01 g/mol)?",
+      "options": ["33,3 %", "27,3 %", "72,7 %", "50,0 %"],
+      "correct": 1,
+      "explain": "12,01 g / 44,01 g · 100 % = 27,3 %. 33,3 % er andelen karbonatomer (1 av 3), men atomene har ulik masse."
+    },
+    {
+      "id": "q11",
+      "text": "Hvor stort volum har 2,00 mol gass ved 0 °C og 1 atm?",
+      "options": ["22,4 L", "11,2 L", "44,8 L", "49,0 L"],
+      "correct": 2,
+      "explain": "Ved 0 °C og 1 atm er molvolumet 22,4 L/mol. V = 2,00 mol · 22,4 L/mol = 44,8 L. 49,0 L ville vært svaret ved 25 °C."
+    },
+    {
+      "id": "q12",
+      "text": "Hvor mange gram CO₂ dannes når 1,00 mol metan brenner fullstendig? (CH₄ + 2O₂ → CO₂ + 2H₂O)",
+      "options": ["16,0 g", "22,0 g", "88,0 g", "44,0 g"],
+      "correct": 3,
+      "explain": "Molforholdet CH₄ : CO₂ er 1 : 1, så det dannes 1,00 mol CO₂. m = 1,00 mol · 44,01 g/mol = 44,0 g."
+    }
+  ],
+  "mindmap": {
+    "label": "Stoffmengde og støkiometri",
+    "children": [
+      {
+        "label": "Mol",
+        "children": [
+          { "label": "Avogadros konstant", "note": "6,022 · 10²³ mol⁻¹" },
+          { "label": "Antall partikler", "note": "N = n · N_A" }
+        ]
+      },
+      {
+        "label": "Molar masse",
+        "children": [
+          { "label": "g/mol", "note": "Summen av atommassene" },
+          { "label": "n = m / M", "note": "Fra masse til mol" },
+          { "label": "m = n · M", "note": "Fra mol til masse" }
+        ]
+      },
+      {
+        "label": "Reaksjonslikninger",
+        "children": [
+          { "label": "Massebevaring", "note": "Like mange atomer på hver side" },
+          { "label": "Koeffisienter", "note": "Endres ved balansering" },
+          { "label": "Molforhold", "note": "Gitt av koeffisientene" }
+        ]
+      },
+      {
+        "label": "Beregninger",
+        "children": [
+          { "label": "1. Masse → mol", "note": "n = m / M" },
+          { "label": "2. Molforhold", "note": "Fra den balanserte likningen" },
+          { "label": "3. Mol → masse", "note": "m = n · M" }
+        ]
+      },
+      {
+        "label": "Begrensende reaktant",
+        "children": [
+          { "label": "Brukes opp først", "note": "Bestemmer mengden produkt" },
+          { "label": "Overskudd", "note": "Blir til overs" }
+        ]
+      },
+      {
+        "label": "Utbytte",
+        "children": [
+          { "label": "Teoretisk", "note": "Beregnet maksimum" },
+          { "label": "Faktisk", "note": "Det du får i praksis" },
+          { "label": "Prosent", "note": "Faktisk / teoretisk · 100 %" }
+        ]
+      },
+      {
+        "label": "Gasser",
+        "children": [
+          { "label": "Molvolum ved 0 °C", "note": "22,4 L/mol (1 atm)" },
+          { "label": "Molvolum ved 25 °C", "note": "24,5 L/mol (1 atm)" }
+        ]
+      },
+      {
+        "label": "Gjeldende siffer",
+        "children": [
+          { "label": "Ganging og deling", "note": "Færrest gjeldende siffer bestemmer" }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 20,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08", "q10", "q12"],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Én mol av et stoff inneholder omtrent 6,022 · 10²³ partikler.",
+        "correct": true,
+        "explain": "Det er Avogadros konstant, og det gjelder uansett hvilket stoff det er."
+      },
+      {
+        "id": "m02",
+        "type": "flervalg",
+        "text": "Hva er den molare massen til svovelsyre, H₂SO₄?",
+        "options": ["49,0 g/mol", "98,1 g/mol", "96,1 g/mol", "82,1 g/mol"],
+        "correct": 1,
+        "explain": "M = 2 · 1,01 + 32,07 + 4 · 16,00 = 98,1 g/mol."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Koeffisientene i en balansert reaksjonslikning viser forholdet mellom antall mol av stoffene.",
+        "correct": true,
+        "explain": "Koeffisientene gir molforholdet. De gir ikke masseforholdet, fordi stoffene har ulik molar masse."
+      },
+      {
+        "id": "m04",
+        "type": "flervalg",
+        "text": "Hvilken formel gir stoffmengden n ut fra masse m og molar masse M?",
+        "options": ["n = m · M", "n = M / m", "n = m / M", "n = m + M"],
+        "correct": 2,
+        "explain": "Molar masse har enheten g/mol. Deler du massen i gram på g/mol, får du mol: n = m / M."
+      },
+      {
+        "id": "m05",
+        "type": "sant-usant",
+        "text": "Det teoretiske utbyttet er alltid mindre enn det faktiske utbyttet.",
+        "correct": false,
+        "explain": "Det er omvendt. Det teoretiske utbyttet er det største som kan dannes, og i praksis får vi som regel mindre."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "C₃H₈ + 5O₂ → 3CO₂ + 4H₂O. Hvor mange mol vann dannes fra 2,0 mol propan?",
+        "options": ["4,0 mol", "2,0 mol", "6,0 mol", "8,0 mol"],
+        "correct": 3,
+        "explain": "Molforholdet C₃H₈ : H₂O er 1 : 4. Da gir 2,0 mol propan 2,0 · 4 = 8,0 mol vann."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvor mange mol er 10,0 g kalsiumkarbonat, CaCO₃ (M = 100,1 g/mol)?",
+        "options": ["0,100 mol", "1,00 mol", "10,0 mol", "1001 mol"],
+        "correct": 0,
+        "explain": "n = m / M = 10,0 g / 100,1 g/mol = 0,0999 mol, som avrundes til 0,100 mol."
+      },
+      {
+        "id": "m08",
+        "type": "sant-usant",
+        "text": "Den begrensende reaktanten er stoffet som brukes opp først og bestemmer hvor mye produkt som kan dannes.",
+        "correct": true,
+        "explain": "Når den begrensende reaktanten er brukt opp, stopper reaksjonen, selv om det er andre reaktanter igjen."
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "sjekkes",
+    "merknader": [
+      "Molvolum: læreverk bruker ulike standardbetingelser (22,4 L/mol ved 0 °C og 1 atm, 22,7 L/mol ved 0 °C og 1 bar, 24,5 L/mol ved 25 °C og 1 atm). Sjekk hvilke verdier læreboka og eksamensformelarket bruker.",
+      "Atommassene er avrundet til to desimaler (H 1,01, C 12,01, O 16,00, S 32,07). Svarene kan avvike litt i siste siffer hvis tabellen i læreboka har andre verdier."
+    ]
+  }
+}

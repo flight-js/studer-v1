@@ -1,0 +1,118 @@
+{
+  "trinn": [
+    {
+      "id": "8",
+      "navn": "8. trinn",
+      "skoleniva": "ungdomsskole",
+      "fag": [
+        { "id": "norsk-8", "navn": "Norsk" },
+        { "id": "matematikk-8", "navn": "Matematikk" },
+        { "id": "engelsk-8", "navn": "Engelsk" },
+        { "id": "naturfag-8", "navn": "Naturfag" },
+        { "id": "samfunnsfag-8", "navn": "Samfunnsfag" },
+        { "id": "krle-8", "navn": "KRLE" },
+        { "id": "tysk-8", "navn": "Tysk" },
+        { "id": "fransk-8", "navn": "Fransk" },
+        { "id": "spansk-8", "navn": "Spansk" },
+        { "id": "arbeidslivsfag-8", "navn": "Arbeidslivsfag" }
+      ]
+    },
+    {
+      "id": "9",
+      "navn": "9. trinn",
+      "skoleniva": "ungdomsskole",
+      "fag": [
+        { "id": "norsk-9", "navn": "Norsk" },
+        { "id": "matematikk-9", "navn": "Matematikk" },
+        { "id": "engelsk-9", "navn": "Engelsk" },
+        { "id": "naturfag-9", "navn": "Naturfag" },
+        { "id": "samfunnsfag-9", "navn": "Samfunnsfag" },
+        { "id": "krle-9", "navn": "KRLE" },
+        { "id": "tysk-9", "navn": "Tysk" },
+        { "id": "fransk-9", "navn": "Fransk" },
+        { "id": "spansk-9", "navn": "Spansk" },
+        { "id": "arbeidslivsfag-9", "navn": "Arbeidslivsfag" },
+        { "id": "utdanningsvalg-9", "navn": "Utdanningsvalg" }
+      ]
+    },
+    {
+      "id": "10",
+      "navn": "10. trinn",
+      "skoleniva": "ungdomsskole",
+      "fag": [
+        { "id": "norsk-10", "navn": "Norsk" },
+        { "id": "matematikk-10", "navn": "Matematikk" },
+        { "id": "engelsk-10", "navn": "Engelsk" },
+        { "id": "naturfag-10", "navn": "Naturfag" },
+        { "id": "samfunnsfag-10", "navn": "Samfunnsfag" },
+        { "id": "krle-10", "navn": "KRLE" },
+        { "id": "tysk-10", "navn": "Tysk" },
+        { "id": "fransk-10", "navn": "Fransk" },
+        { "id": "spansk-10", "navn": "Spansk" },
+        { "id": "arbeidslivsfag-10", "navn": "Arbeidslivsfag" },
+        { "id": "utdanningsvalg-10", "navn": "Utdanningsvalg" }
+      ]
+    },
+    {
+      "id": "vg1",
+      "navn": "Vg1",
+      "skoleniva": "vgs",
+      "fag": [
+        { "id": "norsk-vg1", "navn": "Norsk" },
+        { "id": "matematikk-1p", "navn": "Matematikk 1P" },
+        { "id": "matematikk-1t", "navn": "Matematikk 1T" },
+        { "id": "engelsk-vg1", "navn": "Engelsk" },
+        { "id": "naturfag-vg1", "navn": "Naturfag" },
+        { "id": "geografi-vg1", "navn": "Geografi" },
+        { "id": "samfunnskunnskap-vg1", "navn": "Samfunnskunnskap" },
+        { "id": "tysk-vg1", "navn": "Tysk" },
+        { "id": "fransk-vg1", "navn": "Fransk" },
+        { "id": "spansk-vg1", "navn": "Spansk" }
+      ]
+    },
+    {
+      "id": "vg2",
+      "navn": "Vg2",
+      "skoleniva": "vgs",
+      "fag": [
+        { "id": "norsk-vg2", "navn": "Norsk" },
+        { "id": "historie-vg2", "navn": "Historie" },
+        { "id": "tysk-vg2", "navn": "Tysk" },
+        { "id": "fransk-vg2", "navn": "Fransk" },
+        { "id": "spansk-vg2", "navn": "Spansk" },
+        { "id": "kjemi-1", "navn": "Kjemi 1" },
+        { "id": "fysikk-1", "navn": "Fysikk 1" },
+        { "id": "biologi-1", "navn": "Biologi 1" },
+        { "id": "matematikk-r1", "navn": "Matematikk R1" },
+        { "id": "matematikk-s1", "navn": "Matematikk S1" },
+        { "id": "informasjonsteknologi-1", "navn": "Informasjonsteknologi 1" },
+        { "id": "teknologi-og-forskningslare-1", "navn": "Teknologi og forskningslære 1" },
+        { "id": "sosiologi-og-sosialantropologi", "navn": "Sosiologi og sosialantropologi" },
+        { "id": "politikk-og-menneskerettigheter", "navn": "Politikk og menneskerettigheter" },
+        { "id": "rettslare-1", "navn": "Rettslære 1" },
+        { "id": "psykologi-1", "navn": "Psykologi 1" },
+        { "id": "markedsforing-og-ledelse-1", "navn": "Markedsføring og ledelse 1" },
+        { "id": "samfunnsokonomi-1", "navn": "Samfunnsøkonomi 1" }
+      ]
+    },
+    {
+      "id": "vg3",
+      "navn": "Vg3",
+      "skoleniva": "vgs",
+      "fag": [
+        { "id": "norsk-vg3", "navn": "Norsk" },
+        { "id": "historie-vg3", "navn": "Historie" },
+        { "id": "religion-og-etikk", "navn": "Religion og etikk" },
+        { "id": "kjemi-2", "navn": "Kjemi 2" },
+        { "id": "fysikk-2", "navn": "Fysikk 2" },
+        { "id": "biologi-2", "navn": "Biologi 2" },
+        { "id": "matematikk-r2", "navn": "Matematikk R2" },
+        { "id": "matematikk-s2", "navn": "Matematikk S2" },
+        { "id": "rettslare-2", "navn": "Rettslære 2" },
+        { "id": "psykologi-2", "navn": "Psykologi 2" },
+        { "id": "sosialkunnskap", "navn": "Sosialkunnskap" },
+        { "id": "markedsforing-og-ledelse-2", "navn": "Markedsføring og ledelse 2" }
+      ]
+    }
+  ]
+}

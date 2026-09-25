@@ -1,0 +1,248 @@
+{
+  "id": "titrering-og-spektroskopi",
+  "fagId": "kjemi-1",
+  "trinnId": "vg2",
+  "name": "Titrering og spektroskopi",
+  "intro": "Hvordan kjemikere bestemmer konsentrasjoner med titrering, og hvordan lys og spektre avslører hva et stoff består av.",
+  "kompetansemaal": [2, 10, 11],
+  "sammendrag": "## Titrering\n\nVed **titrering** finner vi den ukjente konsentrasjonen i en prøve ved å tilsette en løsning med kjent konsentrasjon, en **titrerløsning**, til reaksjonen er fullført. Titrerløsningen tilsettes fra en **byrette**, mens prøven står i en erlenmeyerkolbe. **Ekvivalenspunktet** er der stoffene har reagert i nøyaktig det forholdet som reaksjonslikningen viser. En **indikator** skifter farge i **endepunktet**, som bør ligge så nær ekvivalenspunktet som mulig.\n\nI **volumetrisk titrering** måler vi volumet av titrerløsningen med byretten. I **gravimetrisk titrering** bestemmer vi mengden titrerløsning ved å veie den. Veiing er ofte mer nøyaktig enn å lese av et volum.\n\n## Beregning\n\n25,0 mL saltsyre titreres med 0,100 mol/L NaOH, og det går med 20,0 mL. Da er n(NaOH) = 0,100 mol/L · 0,0200 L = 0,00200 mol. Molforholdet mellom HCl og NaOH er 1 : 1, så n(HCl) = 0,00200 mol og c(HCl) = 0,00200 mol / 0,0250 L = 0,0800 mol/L.\n\n## Syre-base-titrering og redokstitrering\n\nEn **titrerkurve** viser pH mot tilsatt volum. Når en sterk syre titreres med en sterk base, er pH omtrent 7 i ekvivalenspunktet. Titreres en svak syre, som eddiksyre, med en sterk base, ligger ekvivalenspunktet i basisk område. Da passer fenolftalein bedre enn bromtymolblått. I en **redokstitrering** overføres elektroner i stedet for protoner. Kaliumpermanganat er sterkt fiolett og virker som sin egen indikator.\n\n## Usikkerhet og feilkilder\n\nAlle målinger har usikkerhet. **Tilfeldige feil**, som små forskjeller når du leser av byretten, gjør at resultatene spriker. Vi reduserer dem ved å ta flere **parallelle titreringer** og regne gjennomsnitt. **Systematiske feil**, som en titrerløsning med feil konsentrasjon, trekker alle resultatene i samme retning og forsvinner ikke med flere forsøk.\n\n## Atomspektre\n\nElektronene i et atom kan bare ha bestemte energier. Når et atom får tilført energi, for eksempel i en flamme, hopper elektroner opp til høyere energinivåer. Når de faller tilbake, sender de ut lys med en energi som tilsvarer forskjellen mellom nivåene. Jo større energiforskjell, desto kortere bølgelengde. Lyset gir et **linjespekter**, og fordi energinivåene er forskjellige for hvert grunnstoff, har hvert grunnstoff sitt eget spekter. Det brukes i **flammeprøver**: natrium gir gul flamme, kalium lilla og kobber grønn. Sendes hvitt lys gjennom en gass, absorberes de samme bølgelengdene, og vi får mørke linjer i et **absorpsjonsspekter**.\n\n## Spektroskopiske metoder\n\n- **Spektrofotometri**: Et farget stoff absorberer lys. Etter **Beer–Lamberts lov** er absorbansen proporsjonal med konsentrasjonen. Med en standardkurve laget av løsninger med kjent konsentrasjon kan vi bestemme ukjente konsentrasjoner.\n- **IR-spektroskopi**: Bindinger i molekyler vibrerer og absorberer infrarødt lys ved bestemte bølgelengder. IR-spekteret viser hvilke bindinger og funksjonelle grupper et molekyl har, for eksempel O–H og C=O.\n- **Massespektrometri**: Molekylene gjøres om til ioner og sorteres etter masse. Det gir molekylmassen og informasjon om hvilke biter molekylet består av.",
+  "flashcards": [
+    { "term": "Titrering", "def": "Metode for å bestemme en ukjent konsentrasjon ved å tilsette en løsning med kjent konsentrasjon til reaksjonen er fullført." },
+    { "term": "Titrerløsning", "def": "Løsningen med kjent konsentrasjon som tilsettes fra byretten." },
+    { "term": "Byrette", "def": "Langt glassrør med skala og kran, brukt til å tilsette titrerløsning og lese av volumet nøyaktig." },
+    { "term": "Ekvivalenspunkt", "def": "Punktet der stoffene har reagert i nøyaktig det forholdet som reaksjonslikningen viser." },
+    { "term": "Endepunkt", "def": "Punktet der indikatoren skifter farge. Bør ligge så nær ekvivalenspunktet som mulig." },
+    { "term": "Volumetrisk titrering", "def": "Titrering der mengden titrerløsning bestemmes ved å måle volum, med byrette." },
+    { "term": "Gravimetrisk titrering", "def": "Titrering der mengden titrerløsning bestemmes ved veiing. Ofte mer nøyaktig enn volummåling." },
+    { "term": "Titrerkurve", "def": "Graf som viser pH mot volum tilsatt titrerløsning. Har et bratt sprang rundt ekvivalenspunktet." },
+    { "term": "Redokstitrering", "def": "Titrering basert på en redoksreaksjon, for eksempel med kaliumpermanganat, som også er sin egen indikator." },
+    { "term": "Tilfeldig feil", "def": "Usikkerhet som gjør at gjentatte målinger spriker litt. Reduseres ved å ta flere parallelle målinger." },
+    { "term": "Systematisk feil", "def": "Feil som trekker alle resultatene i samme retning, for eksempel en titrerløsning med feil konsentrasjon." },
+    { "term": "Parallelle målinger", "def": "Å gjenta det samme forsøket flere ganger og bruke gjennomsnittet, for å redusere tilfeldige feil." },
+    { "term": "Energinivå", "def": "Bestemt energi et elektron i et atom kan ha. Elektronene kan bare ha slike bestemte energier." },
+    { "term": "Emisjonsspekter", "def": "Lyse linjer ved bestemte bølgelengder. Oppstår når elektroner faller til lavere energinivåer og sender ut lys." },
+    { "term": "Absorpsjonsspekter", "def": "Mørke linjer i et ellers sammenhengende spekter. Oppstår når atomer tar opp lys med bestemte bølgelengder." },
+    { "term": "Flammeprøve", "def": "Metode for å påvise metaller ut fra flammefargen, for eksempel natrium (gul), kalium (lilla) og kobber (grønn)." },
+    { "term": "Bølgelengde og energi", "def": "Jo kortere bølgelengde, desto høyere energi har lyset." },
+    { "term": "Spektrofotometri", "def": "Måling av hvor mye lys en løsning absorberer, for å bestemme konsentrasjonen av et stoff." },
+    { "term": "Beer–Lamberts lov", "def": "Absorbansen er proporsjonal med konsentrasjonen av stoffet som absorberer lyset." },
+    { "term": "Standardkurve", "def": "Graf av målt verdi, for eksempel absorbans, mot kjente konsentrasjoner. Brukes til å finne ukjente konsentrasjoner." },
+    { "term": "IR-spektroskopi", "def": "Metode som viser hvilke bindinger og funksjonelle grupper et molekyl har, ut fra hvilket infrarødt lys det absorberer." },
+    { "term": "Massespektrometri", "def": "Metode der molekyler gjøres om til ioner og sorteres etter masse. Gir molekylmasse og informasjon om oppbygningen." }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hva er ekvivalenspunktet i en titrering?",
+      "options": ["Punktet der indikatoren skifter farge", "Punktet der stoffene har reagert i det forholdet reaksjonslikningen viser", "Punktet der pH er 0", "Punktet der titreringen starter"],
+      "correct": 1,
+      "explain": "Ekvivalenspunktet bestemmes av støkiometrien. Endepunktet, der indikatoren skifter farge, er det vi observerer, og det bør ligge nær ekvivalenspunktet."
+    },
+    {
+      "id": "q02",
+      "text": "Hvilket utstyr brukes til å tilsette titrerløsningen nøyaktig?",
+      "options": ["Begerglass", "Målesylinder", "Reagensrør", "Byrette"],
+      "correct": 3,
+      "explain": "Byretten har kran og en fin skala, så du kan tilsette dråpe for dråpe og lese av volumet med to desimaler."
+    },
+    {
+      "id": "q03",
+      "text": "25,0 mL saltsyre titreres med 0,100 mol/L NaOH, og det går med 20,0 mL. Hva er konsentrasjonen av saltsyren?",
+      "options": ["0,0800 mol/L", "0,125 mol/L", "0,100 mol/L", "0,0500 mol/L"],
+      "correct": 0,
+      "explain": "n(NaOH) = 0,100 mol/L · 0,0200 L = 0,00200 mol. Forholdet er 1 : 1, så c(HCl) = 0,00200 mol / 0,0250 L = 0,0800 mol/L."
+    },
+    {
+      "id": "q04",
+      "text": "Hvorfor passer fenolftalein godt når eddiksyre titreres med natronlut?",
+      "options": ["Den er den billigste indikatoren", "Den virker bare i sure løsninger", "Ekvivalenspunktet ligger i basisk område", "Den reagerer med eddiksyre"],
+      "correct": 2,
+      "explain": "Når en svak syre titreres med en sterk base, har løsningen pH over 7 i ekvivalenspunktet. Fenolftalein skifter farge i basisk område og treffer derfor godt."
+    },
+    {
+      "id": "q05",
+      "text": "Hva kjennetegner gravimetrisk titrering?",
+      "options": ["Man veier et bunnfall som dannes", "Man måler pH med pH-meter", "Mengden titrerløsning bestemmes ved veiing", "Man bruker ingen indikator"],
+      "correct": 2,
+      "explain": "I gravimetrisk titrering veier man hvor mye titrerløsning som er tilsatt, i stedet for å lese av et volum på en byrette."
+    },
+    {
+      "id": "q06",
+      "text": "Hva skjer når et elektron faller fra et høyere til et lavere energinivå?",
+      "options": ["Atomet tar opp lys", "Atomet sender ut lys med en bestemt energi", "Atomet blir til et ion", "Atomkjernen endres"],
+      "correct": 1,
+      "explain": "Energiforskjellen mellom nivåene sendes ut som lys. Fordi nivåene har bestemte energier, får lyset bestemte bølgelengder."
+    },
+    {
+      "id": "q07",
+      "text": "Hvorfor har hvert grunnstoff sitt eget linjespekter?",
+      "options": ["Alle grunnstoffer har det samme spekteret", "Grunnstoffene har ulik farge i fast form", "Grunnstoffene har ulikt antall nøytroner", "Energinivåene er forskjellige for hvert grunnstoff"],
+      "correct": 3,
+      "explain": "Energinivåene avhenger av kjerneladningen og elektronene, som er unike for hvert grunnstoff. Da blir også energiforskjellene, og dermed linjene i spekteret, unike."
+    },
+    {
+      "id": "q08",
+      "text": "Hvilken flammefarge gir natrium?",
+      "options": ["Gul", "Lilla", "Grønn", "Blå"],
+      "correct": 0,
+      "explain": "Natrium gir en sterk gul flamme. Kalium gir lilla og kobber grønn flamme."
+    },
+    {
+      "id": "q09",
+      "text": "Hva sier Beer–Lamberts lov?",
+      "options": ["Absorbansen er omvendt proporsjonal med konsentrasjonen", "Absorbansen er proporsjonal med konsentrasjonen", "Lys med kort bølgelengde har lav energi", "Fargen på en løsning avhenger av temperaturen"],
+      "correct": 1,
+      "explain": "Dobbelt så høy konsentrasjon gir dobbelt så høy absorbans. Det gjør at vi kan bruke en rett standardkurve for å finne ukjente konsentrasjoner."
+    },
+    {
+      "id": "q10",
+      "text": "Hva kan IR-spektroskopi brukes til?",
+      "options": ["Å finne hvilke bindinger og funksjonelle grupper et molekyl har", "Å måle pH i en løsning", "Å bestemme massen til et molekyl", "Å måle temperaturen i en reaksjon"],
+      "correct": 0,
+      "explain": "Ulike bindinger, som O–H og C=O, absorberer infrarødt lys ved ulike bølgelengder. Toppene i spekteret avslører derfor hvilke grupper som finnes."
+    },
+    {
+      "id": "q11",
+      "text": "Hvilken av disse er en systematisk feil?",
+      "options": ["Du leser av byretten litt ulikt fra gang til gang", "Temperaturen i rommet varierer litt", "Du tilsetter noen dråper for mye i én av titreringene", "Titrerløsningen har feil konsentrasjon i alle titreringene"],
+      "correct": 3,
+      "explain": "En feil konsentrasjon i titrerløsningen påvirker alle resultatene likt og forsvinner ikke med flere parallelle titreringer. De andre feilene er tilfeldige."
+    },
+    {
+      "id": "q12",
+      "text": "Hva brukes massespektrometri til?",
+      "options": ["Å måle fargen på en løsning", "Å finne ut hvilke bindinger et molekyl har", "Å bestemme massen til molekyler og bitene de består av", "Å måle pH"],
+      "correct": 2,
+      "explain": "I et massespektrometer blir molekylene til ioner som sorteres etter masse. Det gir molekylmassen og et mønster av bruddstykker."
+    }
+  ],
+  "mindmap": {
+    "label": "Titrering og spektroskopi",
+    "children": [
+      {
+        "label": "Titrering",
+        "children": [
+          { "label": "Byrette", "note": "Tilsetter titrerløsningen" },
+          { "label": "Ekvivalenspunkt", "note": "Riktig støkiometrisk forhold" },
+          { "label": "Endepunkt", "note": "Indikatoren skifter farge" },
+          { "label": "Volumetrisk", "note": "Måler volum" },
+          { "label": "Gravimetrisk", "note": "Veier titrerløsningen" }
+        ]
+      },
+      {
+        "label": "Typer titrering",
+        "children": [
+          { "label": "Syre-base", "note": "Titrerkurve, pH-sprang" },
+          { "label": "Redoks", "note": "For eksempel med KMnO₄" }
+        ]
+      },
+      {
+        "label": "Beregning",
+        "children": [
+          { "label": "n = c · V", "note": "Titrerløsningen" },
+          { "label": "Molforhold", "note": "Fra reaksjonslikningen" },
+          { "label": "c = n / V", "note": "Prøven" }
+        ]
+      },
+      {
+        "label": "Usikkerhet",
+        "children": [
+          { "label": "Tilfeldige feil", "note": "Resultatene spriker" },
+          { "label": "Systematiske feil", "note": "Alle resultater skjeve samme vei" },
+          { "label": "Parallelle titreringer", "note": "Gjennomsnitt" }
+        ]
+      },
+      {
+        "label": "Atomspektre",
+        "children": [
+          { "label": "Energinivåer", "note": "Bestemte energier" },
+          { "label": "Emisjonsspekter", "note": "Lyse linjer" },
+          { "label": "Absorpsjonsspekter", "note": "Mørke linjer" },
+          { "label": "Flammeprøve", "note": "Na gul, K lilla, Cu grønn" }
+        ]
+      },
+      {
+        "label": "Spektroskopiske metoder",
+        "children": [
+          { "label": "Spektrofotometri", "note": "Beer–Lamberts lov, standardkurve" },
+          { "label": "IR-spektroskopi", "note": "Bindinger og funksjonelle grupper" },
+          { "label": "Massespektrometri", "note": "Molekylmasse og bruddstykker" }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 20,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q06", "q07", "q08", "q09", "q11", "q12"],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Endepunktet er der indikatoren skifter farge, og det bør ligge nær ekvivalenspunktet.",
+        "correct": true,
+        "explain": "Indikatoren velges slik at fargeomslaget skjer der pH endrer seg raskt, like ved ekvivalenspunktet."
+      },
+      {
+        "id": "m02",
+        "type": "flervalg",
+        "text": "10,0 mL 0,200 mol/L NaOH nøytraliserer 20,0 mL eddiksyre. Hva er konsentrasjonen av eddiksyren?",
+        "options": ["0,400 mol/L", "0,100 mol/L", "0,200 mol/L", "0,0100 mol/L"],
+        "correct": 1,
+        "explain": "n(NaOH) = 0,200 mol/L · 0,0100 L = 0,00200 mol. Med forhold 1 : 1 blir c = 0,00200 mol / 0,0200 L = 0,100 mol/L."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Lys med kort bølgelengde har mer energi enn lys med lang bølgelengde.",
+        "correct": true,
+        "explain": "Energien til lyset øker når bølgelengden blir kortere. Fiolett lys har derfor mer energi enn rødt."
+      },
+      {
+        "id": "m04",
+        "type": "flervalg",
+        "text": "Omtrent hvilken pH har løsningen i ekvivalenspunktet når saltsyre titreres med natronlut?",
+        "options": ["Omtrent 7", "Omtrent 3", "Omtrent 10", "Omtrent 1"],
+        "correct": 0,
+        "explain": "Sterk syre og sterk base gir et nøytralt salt (NaCl) og vann, så pH er omtrent 7 i ekvivalenspunktet."
+      },
+      {
+        "id": "m05",
+        "type": "sant-usant",
+        "text": "For et grunnstoff ligger de mørke linjene i absorpsjonsspekteret ved de samme bølgelengdene som de lyse linjene i emisjonsspekteret.",
+        "correct": true,
+        "explain": "Begge spektrene skyldes de samme energiforskjellene mellom energinivåene, bare at lyset tas opp i det ene og sendes ut i det andre."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvorfor tar man flere parallelle titreringer?",
+        "options": ["For å bruke opp løsningen", "Fordi indikatoren ellers ikke virker", "For å redusere betydningen av tilfeldige feil", "For å fjerne systematiske feil"],
+        "correct": 2,
+        "explain": "Gjennomsnittet av flere målinger påvirkes mindre av tilfeldige feil. Systematiske feil blir derimot ikke borte av at man gjentar forsøket."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvordan kan du bestemme konsentrasjonen av et farget stoff med et spektrofotometer?",
+        "options": ["Ved å måle pH", "Ved å lage en standardkurve av absorbans mot kjente konsentrasjoner", "Ved å veie løsningen", "Ved å måle kokepunktet"],
+        "correct": 1,
+        "explain": "Du måler absorbansen for løsninger med kjent konsentrasjon og lager en standardkurve. Så leser du av den ukjente konsentrasjonen ut fra absorbansen til prøven."
+      },
+      {
+        "id": "m08",
+        "type": "sant-usant",
+        "text": "Kaliumpermanganat kan brukes i redokstitrering uten egen indikator, fordi det er sterkt fiolett.",
+        "correct": true,
+        "explain": "Permanganat blir fargeløst når det reagerer. Når alt er reagert, gir første dråpe i overskudd en svak fiolett farge som viser endepunktet."
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "sjekkes",
+    "merknader": [
+      "«Gravimetrisk titreranalyse» er tolket som titrering der mengden titrerløsning bestemmes ved veiing. Sjekk at tolkningen stemmer med læreboka.",
+      "Utvalget av spektroskopiske metoder (spektrofotometri, IR og massespektrometri) bør sjekkes mot læreboka. NMR er utelatt.",
+      "Flammefarger beskrives litt ulikt i ulike kilder (for eksempel «grønn» eller «blågrønn» for kobber)."
+    ]
+  }
+}

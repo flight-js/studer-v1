@@ -1,0 +1,255 @@
+{
+  "id": "atomet-og-periodesystemet",
+  "fagId": "kjemi-1",
+  "trinnId": "vg2",
+  "name": "Atomet og periodesystemet",
+  "intro": "Hvordan atomer er bygd opp, hvordan elektronene er ordnet, og hvorfor periodesystemet viser tydelige mønstre.",
+  "kompetansemaal": [5, 6],
+  "sammendrag": "## Atomets oppbygning\n\nEt atom består av en liten, tung **kjerne** med positivt ladde **protoner** og nøytrale **nøytroner**, og negativt ladde **elektroner** som beveger seg rundt kjernen. Antall protoner kalles **atomnummeret** (Z), og det bestemmer hvilket grunnstoff atomet er. **Massetallet** (A) er summen av protoner og nøytroner. Atomer av samme grunnstoff med ulikt antall nøytroner kalles **isotoper**, for eksempel karbon-12 og karbon-14. Et nøytralt atom har like mange elektroner som protoner. Tar atomet opp eller gir fra seg elektroner, blir det et **ion**.\n\n## Elektronkonfigurasjon\n\nElektronene ligger i **skall** med økende energi. Skall nummer n kan romme høyst 2n² elektroner. Hvert skall er delt i **orbitaler** av typene s, p, d og f. En orbital rommer to elektroner, så en s-undergruppe rommer 2, en p-undergruppe 6 og en d-undergruppe 10. Orbitalene fylles fra lavest energi: 1s, 2s, 2p, 3s, 3p, 4s, 3d og så videre. Natrium har konfigurasjonen 1s² 2s² 2p⁶ 3s¹. Elektronene i det ytterste skallet kalles **valenselektroner**, og det er de som bestemmer hvordan atomet reagerer. Edelgassene har fullt ytterskall og er svært stabile, og mange andre atomer oppnår en slik **edelgasskonfigurasjon** ved å gi fra seg, ta opp eller dele elektroner.\n\n## Periodesystemet\n\nPeriodesystemet ordner grunnstoffene etter økende atomnummer. Radene kalles **perioder**, og periodenummeret forteller hvor mange skall som er i bruk. Kolonnene kalles **grupper**. Grunnstoffer i samme gruppe har like mange valenselektroner og derfor lignende kjemiske egenskaper. Gruppe 1 er alkalimetallene, gruppe 2 jordalkalimetallene, gruppe 17 halogenene og gruppe 18 edelgassene. Gruppe 3–12 er overgangsmetallene. Metallene står til venstre og i midten, ikke-metallene øverst til høyre.\n\n## Periodiske trender\n\nMønstrene i periodesystemet kan forklares med **kjerneladning** og **skjerming**. De indre elektronene skjermer valenselektronene for noe av kjernens tiltrekning. Det valenselektronene faktisk merker, kalles **effektiv kjerneladning**.\n\n- **Atomradius** minker bortover en periode, fordi den effektive kjerneladningen øker mens antall skall er det samme. Nedover en gruppe øker radien, fordi det kommer til flere skall.\n- **Ioniseringsenergi** er energien som trengs for å fjerne et elektron. Den øker bortover en periode og minker nedover en gruppe.\n- **Elektronegativitet** er et atoms evne til å trekke på elektronene i en binding. Den følger samme mønster som ioniseringsenergien, og fluor er det mest elektronegative grunnstoffet.\n\n## Atommodeller\n\nSynet på atomet har endret seg gjennom historien. Dalton så atomer som udelelige kuler. Thomson oppdaget elektronet, og Rutherford viste at atomet har en liten, tett kjerne. Bohr innførte faste energinivåer for elektronene, og dagens kvantemekaniske modell beskriver elektronene som orbitaler, altså områder der det er sannsynlig å finne dem. Alle modellene forenkler virkeligheten. De er nyttige så lenge vi vet hva de kan og ikke kan forklare.",
+  "flashcards": [
+    { "term": "Proton", "def": "Positivt ladd partikkel i atomkjernen. Antall protoner bestemmer hvilket grunnstoff atomet er." },
+    { "term": "Nøytron", "def": "Nøytral partikkel i atomkjernen med omtrent samme masse som et proton." },
+    { "term": "Elektron", "def": "Negativt ladd partikkel med svært liten masse som befinner seg rundt atomkjernen." },
+    { "term": "Atomnummer (Z)", "def": "Antall protoner i kjernen. Grunnstoffene i periodesystemet er ordnet etter økende atomnummer." },
+    { "term": "Massetall (A)", "def": "Summen av protoner og nøytroner i kjernen." },
+    { "term": "Isotoper", "def": "Atomer av samme grunnstoff med ulikt antall nøytroner, og dermed ulikt massetall." },
+    { "term": "Ion", "def": "Et atom eller en atomgruppe med elektrisk ladning fordi antall elektroner er forskjellig fra antall protoner." },
+    { "term": "Kation", "def": "Positivt ladd ion. Dannes når et atom gir fra seg elektroner, for eksempel Na⁺." },
+    { "term": "Anion", "def": "Negativt ladd ion. Dannes når et atom tar opp elektroner, for eksempel Cl⁻." },
+    { "term": "Elektronskall", "def": "Energinivå der elektronene befinner seg. Skall nummer n kan romme høyst 2n² elektroner." },
+    { "term": "Orbital", "def": "Område rundt kjernen der det er stor sannsynlighet for å finne et elektron. Hver orbital rommer høyst to elektroner." },
+    { "term": "Elektronkonfigurasjon", "def": "Oversikt over hvordan elektronene er fordelt i skall og orbitaler, for eksempel 1s² 2s² 2p⁶ 3s¹ for natrium." },
+    { "term": "Valenselektroner", "def": "Elektronene i det ytterste skallet. De avgjør hvordan atomet binder seg og reagerer." },
+    { "term": "Edelgasskonfigurasjon", "def": "Fullt ytterskall, som hos edelgassene. En svært stabil elektronfordeling som mange atomer oppnår ved å danne ioner eller bindinger." },
+    { "term": "Periode", "def": "En vannrett rad i periodesystemet. Periodenummeret tilsvarer antall skall som er i bruk." },
+    { "term": "Gruppe", "def": "En loddrett kolonne i periodesystemet. Grunnstoffene i samme gruppe har like mange valenselektroner og lignende egenskaper." },
+    { "term": "Alkalimetaller", "def": "Grunnstoffene i gruppe 1 (unntatt hydrogen). Svært reaktive metaller med ett valenselektron." },
+    { "term": "Halogener", "def": "Grunnstoffene i gruppe 17, for eksempel fluor og klor. Reaktive ikke-metaller med sju valenselektroner." },
+    { "term": "Edelgasser", "def": "Grunnstoffene i gruppe 18. Har fullt ytterskall og reagerer svært lite." },
+    { "term": "Effektiv kjerneladning", "def": "Den tiltrekningen valenselektronene faktisk merker fra kjernen, etter at de indre elektronene har skjermet for noe av den." },
+    { "term": "Atomradius", "def": "Et mål på atomets størrelse. Minker bortover en periode og øker nedover en gruppe." },
+    { "term": "Ioniseringsenergi", "def": "Energien som trengs for å fjerne det løsest bundne elektronet fra et atom i gassform. Øker bortover en periode og minker nedover en gruppe." },
+    { "term": "Elektronegativitet", "def": "Et atoms evne til å tiltrekke seg elektronene i en kjemisk binding. Fluor har høyest elektronegativitet." }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hva bestemmer hvilket grunnstoff et atom er?",
+      "options": ["Antall nøytroner", "Antall protoner", "Antall elektroner i ytterskallet", "Massetallet"],
+      "correct": 1,
+      "explain": "Atomnummeret, altså antall protoner, bestemmer grunnstoffet. Antall nøytroner kan variere (isotoper), og antall elektroner endres når det dannes ioner."
+    },
+    {
+      "id": "q02",
+      "text": "Et atom har 17 protoner, 18 nøytroner og 17 elektroner. Hva er massetallet?",
+      "options": ["17", "18", "34", "35"],
+      "correct": 3,
+      "explain": "Massetallet er protoner pluss nøytroner: 17 + 18 = 35. Atomet er klor-35."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er karbon-12 og karbon-14 et eksempel på?",
+      "options": ["Isotoper", "Ioner", "Allotrope former", "Ulike grunnstoffer"],
+      "correct": 0,
+      "explain": "Begge har 6 protoner, men karbon-14 har 8 nøytroner og karbon-12 har 6. Samme grunnstoff med ulikt antall nøytroner kalles isotoper."
+    },
+    {
+      "id": "q04",
+      "text": "Hvor mange elektroner kan skall nummer 3 (M-skallet) romme?",
+      "options": ["8", "18", "2", "32"],
+      "correct": 1,
+      "explain": "Et skall kan romme høyst 2n² elektroner. For n = 3 gir det 2 · 3² = 18."
+    },
+    {
+      "id": "q05",
+      "text": "Hvilken elektronkonfigurasjon har magnesium (Z = 12)?",
+      "options": ["1s² 2s² 2p⁶ 3s¹", "1s² 2s² 2p⁸", "1s² 2s² 2p⁶ 3p²", "1s² 2s² 2p⁶ 3s²"],
+      "correct": 3,
+      "explain": "Tolv elektroner fordeles 2 i 1s, 2 i 2s, 6 i 2p og 2 i 3s. En p-undergruppe kan ikke ha mer enn 6 elektroner, og 3s fylles før 3p."
+    },
+    {
+      "id": "q06",
+      "text": "Hvorfor har grunnstoffene i samme gruppe lignende kjemiske egenskaper?",
+      "options": ["De har samme atommasse", "De har like mange skall", "De har like mange valenselektroner", "De har like mange nøytroner"],
+      "correct": 2,
+      "explain": "Valenselektronene avgjør hvordan et atom reagerer, og grunnstoffene i samme gruppe har like mange av dem."
+    },
+    {
+      "id": "q07",
+      "text": "Hvordan endrer atomradius seg bortover en periode fra venstre mot høyre?",
+      "options": ["Den minker", "Den øker", "Den er konstant", "Den øker først og minker så"],
+      "correct": 0,
+      "explain": "Bortover en periode øker den effektive kjerneladningen mens antall skall er det samme. Elektronene trekkes tettere inn, og atomet blir mindre."
+    },
+    {
+      "id": "q08",
+      "text": "Hvilket grunnstoff har høyest elektronegativitet?",
+      "options": ["Oksygen", "Klor", "Helium", "Fluor"],
+      "correct": 3,
+      "explain": "Fluor står øverst til høyre blant grunnstoffene som danner bindinger, og har den høyeste elektronegativiteten av alle."
+    },
+    {
+      "id": "q09",
+      "text": "Hvorfor har kalium lavere ioniseringsenergi enn natrium?",
+      "options": ["Kalium har færre protoner", "Valenselektronet i kalium er lenger fra kjernen og mer skjermet", "Kalium har flere valenselektroner", "Natrium er et edelgassatom"],
+      "correct": 1,
+      "explain": "Kalium har ett skall mer enn natrium. Valenselektronet er lenger unna kjernen og skjermes av flere indre elektroner, så det er lettere å fjerne."
+    },
+    {
+      "id": "q10",
+      "text": "Hvilket ion danner kalsium (gruppe 2) oftest?",
+      "options": ["Ca⁺", "Ca²⁻", "Ca²⁺", "Ca³⁺"],
+      "correct": 2,
+      "explain": "Kalsium har to valenselektroner. Ved å gi fra seg begge får det edelgasskonfigurasjon og blir Ca²⁺."
+    },
+    {
+      "id": "q11",
+      "text": "Hva viste Rutherfords gullfolieforsøk?",
+      "options": ["At atomet har en liten, tett og positivt ladd kjerne", "At elektronene går i faste baner", "At atomer er udelelige", "At elektronet finnes"],
+      "correct": 0,
+      "explain": "De fleste alfapartiklene gikk rett gjennom folien, men noen få ble kastet kraftig tilbake. Det viste at nesten all massen og den positive ladningen er samlet i en liten kjerne."
+    },
+    {
+      "id": "q12",
+      "text": "Et natriumatom blir til Na⁺. Hva skjer med størrelsen?",
+      "options": ["Den øker", "Den er uendret", "Den dobles", "Den minker"],
+      "correct": 3,
+      "explain": "Natrium mister hele det ytterste skallet sitt når det gir fra seg ett elektron. De resterende elektronene trekkes dessuten sterkere inn, så Na⁺ er mye mindre enn Na."
+    }
+  ],
+  "mindmap": {
+    "label": "Atomet og periodesystemet",
+    "children": [
+      {
+        "label": "Atomets oppbygning",
+        "children": [
+          { "label": "Proton", "note": "Positiv ladning, i kjernen" },
+          { "label": "Nøytron", "note": "Nøytral, i kjernen" },
+          { "label": "Elektron", "note": "Negativ ladning, rundt kjernen" },
+          { "label": "Atomnummer (Z)", "note": "Antall protoner" },
+          { "label": "Massetall (A)", "note": "Protoner + nøytroner" },
+          { "label": "Isotoper", "note": "Samme Z, ulikt antall nøytroner" },
+          { "label": "Ioner", "note": "Kationer (+) og anioner (−)" }
+        ]
+      },
+      {
+        "label": "Elektronkonfigurasjon",
+        "children": [
+          { "label": "Skall", "note": "Høyst 2n² elektroner" },
+          {
+            "label": "Orbitaler",
+            "children": [
+              { "label": "s", "note": "2 elektroner" },
+              { "label": "p", "note": "6 elektroner" },
+              { "label": "d", "note": "10 elektroner" },
+              { "label": "f", "note": "14 elektroner" }
+            ]
+          },
+          { "label": "Valenselektroner", "note": "Elektronene i ytterskallet" },
+          { "label": "Edelgasskonfigurasjon", "note": "Fullt ytterskall, stabilt" }
+        ]
+      },
+      {
+        "label": "Periodesystemet",
+        "children": [
+          { "label": "Perioder", "note": "Rader – antall skall" },
+          { "label": "Grupper", "note": "Kolonner – like mange valenselektroner" },
+          { "label": "Alkalimetaller", "note": "Gruppe 1" },
+          { "label": "Jordalkalimetaller", "note": "Gruppe 2" },
+          { "label": "Overgangsmetaller", "note": "Gruppe 3–12" },
+          { "label": "Halogener", "note": "Gruppe 17" },
+          { "label": "Edelgasser", "note": "Gruppe 18" }
+        ]
+      },
+      {
+        "label": "Periodiske trender",
+        "children": [
+          { "label": "Effektiv kjerneladning", "note": "Øker bortover en periode" },
+          { "label": "Atomradius", "note": "Minker bortover, øker nedover" },
+          { "label": "Ioniseringsenergi", "note": "Øker bortover, minker nedover" },
+          { "label": "Elektronegativitet", "note": "Øker bortover, minker nedover – fluor høyest" }
+        ]
+      },
+      {
+        "label": "Atommodeller",
+        "children": [
+          { "label": "Dalton", "note": "Udelelige kuler" },
+          { "label": "Thomson", "note": "Oppdaget elektronet" },
+          { "label": "Rutherford", "note": "Liten, tett kjerne" },
+          { "label": "Bohr", "note": "Faste energinivåer" },
+          { "label": "Kvantemekanisk modell", "note": "Orbitaler som sannsynlighetsområder" }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 20,
+    "quizRefs": ["q01", "q02", "q04", "q05", "q06", "q07", "q09", "q10", "q11", "q12"],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Et nøytralt atom har like mange elektroner som protoner.",
+        "correct": true,
+        "explain": "Protonene har ladning +1 og elektronene −1. Et nøytralt atom har like mange av hver, slik at ladningene opphever hverandre."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Isotoper av samme grunnstoff har ulikt antall protoner.",
+        "correct": false,
+        "explain": "Isotoper har samme antall protoner, men ulikt antall nøytroner."
+      },
+      {
+        "id": "m03",
+        "type": "flervalg",
+        "text": "Hvor mange valenselektroner har et atom i gruppe 16, for eksempel oksygen?",
+        "options": ["2", "4", "6", "8"],
+        "correct": 2,
+        "explain": "For hovedgruppene 13–18 er antall valenselektroner gruppenummeret minus 10. Gruppe 16 gir seks valenselektroner."
+      },
+      {
+        "id": "m04",
+        "type": "flervalg",
+        "text": "Hvilket av disse er et halogen?",
+        "options": ["Natrium", "Brom", "Argon", "Kalsium"],
+        "correct": 1,
+        "explain": "Brom står i gruppe 17 sammen med fluor, klor og jod. Natrium er et alkalimetall, argon en edelgass og kalsium et jordalkalimetall."
+      },
+      {
+        "id": "m05",
+        "type": "sant-usant",
+        "text": "Ioniseringsenergien øker nedover en gruppe i periodesystemet.",
+        "correct": false,
+        "explain": "Den minker nedover en gruppe. Valenselektronene er lenger fra kjernen og mer skjermet, og de er derfor lettere å fjerne."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilken orbital fylles rett etter 3p?",
+        "options": ["3d", "4p", "4s", "4d"],
+        "correct": 2,
+        "explain": "4s har litt lavere energi enn 3d og fylles derfor først. Rekkefølgen er 3s, 3p, 4s, 3d, 4p."
+      },
+      {
+        "id": "m07",
+        "type": "sant-usant",
+        "text": "Et klorid-ion (Cl⁻) er større enn et kloratom.",
+        "correct": true,
+        "explain": "Det ekstra elektronet gir mer frastøtning mellom elektronene, mens kjerneladningen er den samme. Elektronskyen blir derfor større."
+      },
+      {
+        "id": "m08",
+        "type": "flervalg",
+        "text": "Hvem innførte ideen om at elektronene har faste energinivåer?",
+        "options": ["Dalton", "Thomson", "Bohr", "Mendelejev"],
+        "correct": 2,
+        "explain": "Bohr foreslo i 1913 at elektronene bare kan ha bestemte energier. Modellen forklarer linjespektrene til hydrogen."
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
+}

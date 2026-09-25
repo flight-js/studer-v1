@@ -1,0 +1,243 @@
+{
+  "id": "losninger-og-konsentrasjon",
+  "fagId": "kjemi-1",
+  "trinnId": "vg2",
+  "name": "Løsninger, konsentrasjon og løselighet",
+  "intro": "Hvordan du regner med konsentrasjon, lager og fortynner løsninger, og hva som avgjør om et stoff løser seg.",
+  "kompetansemaal": [9, 14],
+  "sammendrag": "## Løsninger\n\nEn **løsning** er en jevn blanding av et **løst stoff** og et **løsemiddel**. Når vann er løsemiddelet, kaller vi det en vandig løsning og skriver (aq) bak formelen.\n\n## Konsentrasjon\n\nKonsentrasjon forteller hvor mye løst stoff det er i en bestemt mengde løsning. I kjemi bruker vi oftest **stoffmengdekonsentrasjon**:\n\n**c = n / V**\n\nEnheten er mol/L. Løser du 0,500 mol NaCl i vann og fyller opp til 250 mL, blir c = 0,500 mol / 0,250 L = 2,00 mol/L.\n\nAndre enheter er **masseprosent** (gram stoff per 100 gram løsning), **volumprosent** (brukes for alkohol i drikker), **g/L** og **ppm** eller **ppb** for svært små mengder. 1 ppm er 1 mg per kg, og for fortynnede vannløsninger tilsvarer det omtrent 1 mg per liter.\n\nSalter løses som ioner. I 0,10 mol/L CaCl₂ er konsentrasjonen av kloridioner 0,20 mol/L, fordi hver formelenhet gir to Cl⁻.\n\n## Lage og fortynne løsninger\n\nFor å lage en løsning med nøyaktig konsentrasjon veier du opp stoffet, løser det i litt vann og fyller opp til merket i en **målekolbe**. Ved **fortynning** tilsetter du mer løsemiddel. Stoffmengden av det løste stoffet endres ikke, og derfor gjelder:\n\n**c₁ · V₁ = c₂ · V₂**\n\n50,0 mL 2,00 mol/L saltsyre fortynnet til 500 mL gir altså 0,200 mol/L.\n\n## Løselighet\n\n**Løseligheten** er hvor mye av et stoff som kan løses i en bestemt mengde løsemiddel ved en gitt temperatur. En løsning som ikke kan løse mer av stoffet, er **mettet**.\n\nOm et stoff løser seg, avhenger av kreftene mellom partiklene. Regelen **likt løser likt** sier at polare stoffer og ioneforbindelser løses i polare løsemidler som vann, mens upolare stoffer løses i upolare løsemidler som heksan. Derfor blander olje og vann seg ikke.\n\n## Ladning og polaritet\n\nNår et salt løses i vann, vender vannmolekylene den negative enden (oksygen) mot kationene og den positive enden (hydrogen) mot anionene. Ionene blir omgitt av vannmolekyler, eller **hydratisert**. Saltet løses bare hvis tiltrekningen fra vannet er sterk nok til å bryte opp ionegitteret. Ioner med høy ladning holdes ofte hardt i gitteret, og mange salter med toverdige eller treverdige ioner, som CaCO₃ og Ca₃(PO₄)₂, er tungtløselige.\n\nMolekyler med OH-grupper, som etanol og sukker, løses godt i vann fordi de danner hydrogenbindinger med vannmolekylene. Jo lengre den upolare karbonkjeden er, desto dårligere løses stoffet.\n\n## Temperatur\n\nDe fleste faste stoffer løses bedre i varmt vann enn i kaldt. For gasser er det omvendt: de løses dårligere jo varmere vannet er. Derfor mister brus kullsyren raskere når den er varm, og varmt vann inneholder mindre oksygen for fisken.",
+  "flashcards": [
+    { "term": "Løsning", "def": "Jevn blanding av et løst stoff og et løsemiddel." },
+    { "term": "Løst stoff", "def": "Stoffet som løses, for eksempel salt i saltvann." },
+    { "term": "Løsemiddel", "def": "Stoffet som det løste stoffet fordeles i, oftest vann." },
+    { "term": "Stoffmengdekonsentrasjon (c)", "def": "Stoffmengde per volum løsning, c = n / V. Enhet mol/L." },
+    { "term": "Masseprosent", "def": "Massen av løst stoff delt på massen av hele løsningen, ganget med 100 %." },
+    { "term": "Volumprosent", "def": "Volumet av løst stoff delt på volumet av løsningen, ganget med 100 %. Brukes for eksempel for alkohol i drikker." },
+    { "term": "Massekonsentrasjon", "def": "Massen av løst stoff per volum løsning, for eksempel g/L eller mg/L." },
+    { "term": "ppm", "def": "Parts per million, milliontedeler. 1 ppm = 1 mg per kg, omtrent 1 mg per liter for fortynnede vannløsninger." },
+    { "term": "ppb", "def": "Parts per billion, milliardtedeler. 1 ppb = 1 µg per kg. Brukes for svært små mengder, som miljøgifter." },
+    { "term": "Ionekonsentrasjon", "def": "Konsentrasjonen av hvert ion etter at et salt er løst. I 0,10 mol/L CaCl₂ er [Cl⁻] = 0,20 mol/L." },
+    { "term": "Målekolbe", "def": "Kolbe med et merke på halsen som viser et nøyaktig volum. Brukes for å lage løsninger med nøyaktig konsentrasjon." },
+    { "term": "Fortynning", "def": "Å tilsette mer løsemiddel slik at konsentrasjonen blir lavere. Stoffmengden av løst stoff er uendret." },
+    { "term": "c₁ · V₁ = c₂ · V₂", "def": "Fortynningsformelen. Stoffmengden før fortynning er lik stoffmengden etter." },
+    { "term": "Løselighet", "def": "Hvor mye av et stoff som kan løses i en gitt mengde løsemiddel ved en bestemt temperatur." },
+    { "term": "Mettet løsning", "def": "Løsning som ikke kan løse mer av stoffet ved den temperaturen." },
+    { "term": "Likt løser likt", "def": "Polare stoffer og ioneforbindelser løses i polare løsemidler, upolare stoffer i upolare løsemidler." },
+    { "term": "Hydratisering", "def": "At ioner eller polare molekyler blir omgitt av vannmolekyler når de løses i vann." },
+    { "term": "Polart løsemiddel", "def": "Løsemiddel med polare molekyler, for eksempel vann og etanol. Løser salter og polare stoffer." },
+    { "term": "Upolart løsemiddel", "def": "Løsemiddel med upolare molekyler, for eksempel heksan. Løser fett, olje og andre upolare stoffer." },
+    { "term": "Gassers løselighet", "def": "Gasser løses dårligere i vann når temperaturen øker, stikk motsatt av de fleste faste stoffer." }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "0,500 mol NaCl løses i vann til 250 mL løsning. Hva er konsentrasjonen?",
+      "options": ["0,125 mol/L", "0,500 mol/L", "1,00 mol/L", "2,00 mol/L"],
+      "correct": 3,
+      "explain": "c = n / V = 0,500 mol / 0,250 L = 2,00 mol/L. Husk å gjøre om mL til L."
+    },
+    {
+      "id": "q02",
+      "text": "Hvor mange gram NaCl (M = 58,44 g/mol) trenger du for å lage 500 mL av en 0,100 mol/L løsning?",
+      "options": ["29,2 g", "2,92 g", "5,84 g", "0,0500 g"],
+      "correct": 1,
+      "explain": "n = c · V = 0,100 mol/L · 0,500 L = 0,0500 mol. m = n · M = 0,0500 mol · 58,44 g/mol = 2,92 g."
+    },
+    {
+      "id": "q03",
+      "text": "50,0 mL 2,00 mol/L saltsyre fortynnes til 500 mL. Hva blir konsentrasjonen?",
+      "options": ["0,200 mol/L", "0,0200 mol/L", "20,0 mol/L", "1,00 mol/L"],
+      "correct": 0,
+      "explain": "c₂ = c₁ · V₁ / V₂ = 2,00 mol/L · 50,0 mL / 500 mL = 0,200 mol/L. Volumet ble ti ganger så stort, så konsentrasjonen ble en tidel."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er konsentrasjonen av kloridioner i en 0,10 mol/L løsning av CaCl₂?",
+      "options": ["0,050 mol/L", "0,10 mol/L", "0,20 mol/L", "0,30 mol/L"],
+      "correct": 2,
+      "explain": "Hver formelenhet CaCl₂ gir ett Ca²⁺ og to Cl⁻. Da blir [Cl⁻] = 2 · 0,10 mol/L = 0,20 mol/L."
+    },
+    {
+      "id": "q05",
+      "text": "Hvorfor løses jod (I₂) dårlig i vann, men godt i heksan?",
+      "options": ["Jod er en ioneforbindelse", "Jod reagerer kjemisk med heksan", "Jod og heksan er begge upolare", "Heksan er mer polart enn vann"],
+      "correct": 2,
+      "explain": "Likt løser likt. I₂ er et upolart molekyl og løses derfor i det upolare løsemiddelet heksan, men dårlig i det polare vannet."
+    },
+    {
+      "id": "q06",
+      "text": "Hva skjer med løseligheten til oksygengass i vann når temperaturen øker?",
+      "options": ["Den øker", "Den er uendret", "Den øker først og minker så", "Den minker"],
+      "correct": 3,
+      "explain": "Gasser løses dårligere i varmt vann. Derfor kan det bli for lite oksygen for fisk i varme sommerperioder."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er en mettet løsning?",
+      "options": ["En løsning som ikke kan løse mer av stoffet ved den temperaturen", "En løsning med høy konsentrasjon", "En løsning uten løst stoff", "En løsning med flere løste stoffer"],
+      "correct": 0,
+      "explain": "En mettet løsning inneholder så mye løst stoff som det er mulig å løse ved den temperaturen. Tilsetter du mer, blir det liggende uløst."
+    },
+    {
+      "id": "q08",
+      "text": "20 g sukker løses i 180 g vann. Hva er masseprosenten sukker i løsningen?",
+      "options": ["11 %", "10 %", "20 %", "90 %"],
+      "correct": 1,
+      "explain": "Løsningen veier 20 g + 180 g = 200 g. Masseprosent = 20 g / 200 g · 100 % = 10 %. Deler du bare på vannets masse, får du feil svar, 11 %."
+    },
+    {
+      "id": "q09",
+      "text": "Hvilket utstyr bør du bruke for å lage en løsning med nøyaktig konsentrasjon?",
+      "options": ["Begerglass", "Målekolbe", "Erlenmeyerkolbe", "Reagensrør"],
+      "correct": 1,
+      "explain": "En målekolbe har et merke som viser et nøyaktig volum. Skalaen på begerglass og erlenmeyerkolber er bare omtrentlig."
+    },
+    {
+      "id": "q10",
+      "text": "Hva betyr «likt løser likt»?",
+      "options": ["Polare stoffer løses i polare løsemidler, og upolare i upolare", "Alle stoffer løses best i vann", "Like mengder stoff og løsemiddel gir best løsning", "Salter løses best i olje"],
+      "correct": 0,
+      "explain": "Et stoff løses når kreftene mellom stoffet og løsemiddelet ligner kreftene i hvert av dem. Polare stoffer passer med polare løsemidler, upolare med upolare."
+    },
+    {
+      "id": "q11",
+      "text": "Hvorfor løses etanol (C₂H₅OH) godt i vann?",
+      "options": ["Etanol er en ioneforbindelse", "Etanol er upolart", "Etanol har lavt kokepunkt", "OH-gruppen danner hydrogenbindinger med vann"],
+      "correct": 3,
+      "explain": "OH-gruppen i etanol kan danne hydrogenbindinger med vannmolekylene, og karbonkjeden er kort. Derfor blandes etanol og vann i alle forhold."
+    },
+    {
+      "id": "q12",
+      "text": "En vannprøve inneholder 5 mg bly per kg vann. Hva er det i ppm?",
+      "options": ["5 ppb", "0,5 ppm", "5 ppm", "5 %"],
+      "correct": 2,
+      "explain": "1 ppm er 1 mg per kg, så 5 mg per kg er 5 ppm."
+    }
+  ],
+  "mindmap": {
+    "label": "Løsninger og konsentrasjon",
+    "children": [
+      {
+        "label": "Løsninger",
+        "children": [
+          { "label": "Løst stoff", "note": "Stoffet som løses" },
+          { "label": "Løsemiddel", "note": "Oftest vann" },
+          { "label": "Vandig løsning", "note": "Skrives (aq)" }
+        ]
+      },
+      {
+        "label": "Konsentrasjon",
+        "children": [
+          { "label": "c = n / V", "note": "mol/L" },
+          { "label": "Masseprosent", "note": "g per 100 g løsning" },
+          { "label": "Volumprosent", "note": "Alkohol i drikker" },
+          { "label": "g/L", "note": "Massekonsentrasjon" },
+          { "label": "ppm og ppb", "note": "Svært små mengder" },
+          { "label": "Ionekonsentrasjon", "note": "CaCl₂ gir dobbelt så mye Cl⁻" }
+        ]
+      },
+      {
+        "label": "Lage løsninger",
+        "children": [
+          { "label": "Veie opp", "note": "m = n · M" },
+          { "label": "Målekolbe", "note": "Fyll opp til merket" }
+        ]
+      },
+      {
+        "label": "Fortynning",
+        "children": [
+          { "label": "c₁ · V₁ = c₂ · V₂", "note": "Stoffmengden er uendret" }
+        ]
+      },
+      {
+        "label": "Løselighet",
+        "children": [
+          { "label": "Mettet løsning", "note": "Kan ikke løse mer" },
+          { "label": "Likt løser likt", "note": "Polart i polart, upolart i upolart" },
+          { "label": "Hydratisering", "note": "Vannmolekyler omgir ionene" }
+        ]
+      },
+      {
+        "label": "Hva påvirker løseligheten",
+        "children": [
+          { "label": "Ladning", "note": "Høy ladning gir ofte tungtløselige salter" },
+          { "label": "Polaritet", "note": "OH-grupper løses godt i vann" },
+          { "label": "Temperatur – faste stoffer", "note": "Løses oftest bedre når det er varmt" },
+          { "label": "Temperatur – gasser", "note": "Løses dårligere når det er varmt" }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 20,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q08", "q10", "q11", "q12"],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Formelen c₁ · V₁ = c₂ · V₂ gjelder ved fortynning fordi stoffmengden av det løste stoffet ikke endres.",
+        "correct": true,
+        "explain": "Ved fortynning tilsettes bare løsemiddel. n = c · V er den samme før og etter."
+      },
+      {
+        "id": "m02",
+        "type": "flervalg",
+        "text": "Hvor mange mol HCl er det i 25,0 mL 0,200 mol/L saltsyre?",
+        "options": ["0,00500 mol", "5,00 mol", "0,0800 mol", "0,125 mol"],
+        "correct": 0,
+        "explain": "n = c · V = 0,200 mol/L · 0,0250 L = 0,00500 mol."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "De fleste faste stoffer løses bedre i varmt vann enn i kaldt vann.",
+        "correct": true,
+        "explain": "For de fleste faste stoffer øker løseligheten med temperaturen. Du kan for eksempel løse mye mer sukker i varm te enn i kald."
+      },
+      {
+        "id": "m04",
+        "type": "flervalg",
+        "text": "Hva er enheten for stoffmengdekonsentrasjon?",
+        "options": ["g/mol", "mol/L", "mol/g", "L/mol"],
+        "correct": 1,
+        "explain": "c = n / V, altså mol delt på liter. g/mol er enheten for molar masse."
+      },
+      {
+        "id": "m05",
+        "type": "sant-usant",
+        "text": "Olje løser seg godt i vann fordi begge er væsker.",
+        "correct": false,
+        "explain": "Olje er upolart og vann er polart. Etter regelen likt løser likt blander de seg ikke."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "100 mL 1,0 mol/L NaOH skal fortynnes til 0,10 mol/L. Hvor mye vann må du tilsette?",
+        "options": ["100 mL", "1000 mL", "900 mL", "90 mL"],
+        "correct": 2,
+        "explain": "V₂ = c₁ · V₁ / c₂ = 1,0 · 100 mL / 0,10 = 1000 mL. Du har allerede 100 mL, så du må tilsette 900 mL vann."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva kalles det når vannmolekyler omgir ionene i en løsning?",
+        "options": ["Felling", "Hydratisering", "Nøytralisering", "Destillasjon"],
+        "correct": 1,
+        "explain": "Når ioner blir omgitt av vannmolekyler, sier vi at de er hydratisert. Det er tiltrekningen mellom ionene og vannet som gjør at salter kan løses."
+      },
+      {
+        "id": "m08",
+        "type": "sant-usant",
+        "text": "En fortynnet vannløsning med 1 ppm av et stoff inneholder omtrent 1 mg stoff per liter.",
+        "correct": true,
+        "explain": "1 ppm er 1 mg per kg. En liter fortynnet vannløsning veier omtrent 1 kg, så det blir omtrent 1 mg per liter."
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": [
+      "ppm er definert som mg per kg (masse). Noen læreverk bruker mg/L for vannløsninger, som er tilnærmet det samme for fortynnede løsninger."
+    ]
+  }
+}
