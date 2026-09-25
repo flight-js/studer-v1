@@ -7,7 +7,7 @@
 // Kjøres etter `npm run content:check` (se package.json), så innholdet er
 // validert før det gjøres om til SQL. Filen kan kjøres i Supabase sin
 // SQL-editor eller med `supabase db reset`. For å sende innholdet rett til
-// databasen, se push-supabase.mjs.
+// databasen, se import-supabase.mjs (npm run content:import).
 
 import { writeFileSync, mkdirSync } from "node:fs";
 import { dirname } from "node:path";

@@ -101,3 +101,20 @@ export const Lock = (p: IconProps) => (
     <path d="M8 11V8a4 4 0 0 1 8 0v3" />
   </Svg>
 );
+
+export const Mindmap = (p: IconProps) => (
+  <Svg {...p}>
+    <circle cx="12" cy="12" r="3" />
+    <circle cx="4.5" cy="5.5" r="1.75" />
+    <circle cx="19.5" cy="5.5" r="1.75" />
+    <circle cx="4.5" cy="18.5" r="1.75" />
+    <circle cx="19.5" cy="18.5" r="1.75" />
+    <path d="M9.7 10 5.8 6.7M14.3 10l3.9-3.3M9.7 14l-3.9 3.3M14.3 14l3.9 3.3" />
+  </Svg>
+);
+
+export const LogOut = (p: IconProps) => (
+  <Svg {...p}>
+    <path d="M9 20H5.5A1.5 1.5 0 0 1 4 18.5v-13A1.5 1.5 0 0 1 5.5 4H9M15 16l4-4-4-4M19 12H9" />
+  </Svg>
+);

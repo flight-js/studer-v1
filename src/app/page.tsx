@@ -1,7 +1,7 @@
 import Link from "next/link";
-import { trinnListe } from "@/lib/data";
 import { Dot } from "@/components/Dot";
 import { Logo } from "@/components/Logo";
+import { FagOversikt, ForsideMeny } from "@/components/Forside";
 import { ArrowRight, Check } from "@/components/icons";
 
 const MONTHLY = 59;
@@ -22,10 +22,7 @@ export default function Home() {
           <nav aria-label="Hovedmeny" className="flex items-center gap-1 sm:gap-2">
             <NavLink href="#slik">Slik funker det</NavLink>
             <NavLink href="#priser">Priser</NavLink>
-            <NavLink href="/fag">Logg inn</NavLink>
-            <Link href="/fag" className={`${btnPrimary} ml-2 px-4.5 py-2.5 text-sm`}>
-              Prøv gratis
-            </Link>
+            <ForsideMeny lenke={navLinkCls} knapp={btnPrimary} />
           </nav>
         </div>
       </header>
@@ -50,7 +47,7 @@ export default function Home() {
               laget, klart til å øve på.
             </p>
             <div className="flex flex-wrap items-center gap-x-6 gap-y-4 mt-1">
-              <Link href="/fag" className={`${btnPrimary} group px-6.5 py-4 text-base`}>
+              <Link href="/registrer" className={`${btnPrimary} group px-6.5 py-4 text-base`}>
                 Kom i gang gratis
                 <ArrowRight
                   size={18}
@@ -95,7 +92,7 @@ export default function Home() {
               <Step
                 n={3}
                 label="Velg tema"
-                value="Kjemiske reaksjoner"
+                value="Syrer, baser og pH"
                 hint="Begreper, formler og definisjoner"
               />
               <Step
@@ -138,7 +135,7 @@ export default function Home() {
                 <MiniOption state="wrong">Senker den</MiniOption>
               </div>
             </Tile>
-            <Tile className="md:col-span-2" title="Miniprøver" text="15 minutter, blandet format – som en ekte prøve.">
+            <Tile className="md:col-span-2" title="Miniprøver" text="20 minutter, blandet format – som en ekte prøve.">
               <div className="font-display text-4xl font-semibold tabular-nums tracking-tight text-foreground/90 mt-1">
                 14:32
               </div>
@@ -167,21 +164,7 @@ export default function Home() {
                 Fellesfag og studieforberedende programfag, samlet på ett sted.
               </p>
             </div>
-            <dl className="divide-y divide-border border-y border-border">
-              {trinnListe.map((t) => (
-                <div
-                  key={t.id}
-                  className="grid grid-cols-[5.5rem_1fr] sm:grid-cols-[9rem_1fr] gap-4 py-5 items-baseline"
-                >
-                  <dt className="font-display text-xl font-semibold">{t.label}</dt>
-                  <dd className="flex flex-wrap gap-x-5 gap-y-1.5 text-ink-soft">
-                    {t.fag.map((f) => (
-                      <span key={f.id}>{f.name}</span>
-                    ))}
-                  </dd>
-                </div>
-              ))}
-            </dl>
+            <FagOversikt />
           </div>
         </section>
 
@@ -233,9 +216,11 @@ export default function Home() {
   );
 }
 
+const navLinkCls =
+  "hidden sm:inline-flex px-3 py-2 rounded-lg text-sm font-medium text-ink-soft hover:text-foreground hover:bg-sunken transition-colors duration-200";
+
 function NavLink({ href, children }: { href: string; children: React.ReactNode }) {
-  const cls =
-    "hidden sm:inline-flex px-3 py-2 rounded-lg text-sm font-medium text-ink-soft hover:text-foreground hover:bg-sunken transition-colors duration-200";
+  const cls = navLinkCls;
   return href.startsWith("#") ? (
     <a href={href} className={cls}>{children}</a>
   ) : (
@@ -259,7 +244,7 @@ function HeroStack() {
       <div className="relative mt-16 bg-surface border border-border rounded-3xl p-7 sm:p-8 shadow-lift">
         <div className="flex items-center gap-1.5 text-xs font-medium text-muted mb-4">
           Vg2 <span className="text-faint">/</span> Kjemi 1{" "}
-          <span className="text-faint">/</span> Kjemiske reaksjoner
+          <span className="text-faint">/</span> Energi og entalpi
         </div>
         <div className="font-display text-[22px] sm:text-2xl font-semibold leading-snug mb-5 tracking-[-0.01em]">
           Hva kalles en reaksjon som avgir varme til omgivelsene?
@@ -286,7 +271,7 @@ function HeroStack() {
         </svg>
         <div className="flex flex-col leading-tight">
           <span className="text-sm font-semibold tabular-nums">60 % gjennomgått</span>
-          <span className="text-xs text-background/60">Kjemiske reaksjoner</span>
+          <span className="text-xs text-background/60">Energi og entalpi</span>
         </div>
       </div>
     </div>
@@ -427,7 +412,7 @@ function Plan({
         ))}
       </ul>
       <Link
-        href="/fag"
+        href="/registrer"
         className={`mt-auto text-center px-4 py-3.5 rounded-xl text-sm font-semibold transition-[background-color,transform,border-color] duration-200 active:scale-[0.98] ${
           featured
             ? "bg-background text-foreground hover:bg-white"

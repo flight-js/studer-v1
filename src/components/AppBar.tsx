@@ -1,5 +1,8 @@
+"use client";
+
 import Link from "next/link";
 import { ChevronLeft } from "@/components/icons";
+import { initialer, useAuth } from "@/lib/auth";
 
 // Topplinje for app-sidene: tilbakeknapp til venstre, brødsmuler, profil til høyre.
 export function AppBar({
@@ -26,15 +29,34 @@ export function AppBar({
         </Link>
         <div className="flex items-center gap-4">
           {children}
-          <div
-            className="w-9 h-9 rounded-[10px] bg-foreground text-background flex items-center justify-center text-[13px] font-semibold"
-            aria-label="Din profil"
-            title="Din profil"
-          >
-            CL
-          </div>
+          <Profil />
         </div>
       </div>
     </header>
+  );
+}
+
+function Profil() {
+  const { bruker, laster } = useAuth();
+  if (laster) return <span className="w-9 h-9 rounded-[10px] bg-sunken" aria-hidden="true" />;
+  if (!bruker) {
+    return (
+      <Link
+        href="/logg-inn"
+        className="px-3.5 py-2 rounded-lg text-sm font-semibold border-[1.5px] border-border-strong hover:border-foreground transition-colors duration-200"
+      >
+        Logg inn
+      </Link>
+    );
+  }
+  return (
+    <Link
+      href="/konto"
+      className="w-9 h-9 rounded-[10px] bg-foreground text-background flex items-center justify-center text-[13px] font-semibold hover:bg-primary transition-colors duration-200"
+      aria-label="Din konto"
+      title={bruker.email ?? "Din konto"}
+    >
+      {initialer(bruker)}
+    </Link>
   );
 }
