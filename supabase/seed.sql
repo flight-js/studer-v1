@@ -3,6 +3,7 @@
 
 begin;
 
+-- Katalog (trinn og fag)
 insert into public.trinn (id, navn, skoleniva, sortering) values
   ('8', '8. trinn', 'ungdomsskole', 0),
   ('9', '9. trinn', 'ungdomsskole', 1),
@@ -11,7 +12,6 @@ insert into public.trinn (id, navn, skoleniva, sortering) values
   ('vg2', 'Vg2', 'vgs', 4),
   ('vg3', 'Vg3', 'vgs', 5)
 on conflict (id) do update set navn = excluded.navn, skoleniva = excluded.skoleniva, sortering = excluded.sortering;
-
 insert into public.fag (id, trinn_id, navn, lareplan_kode, lareplan_url, kompetansemaal, sortering) values
   ('norsk-8', '8', 'Norsk', null, null, '[]'::jsonb, 0),
   ('matematikk-8', '8', 'Matematikk', null, null, '[]'::jsonb, 1),
@@ -88,11 +88,10 @@ insert into public.fag (id, trinn_id, navn, lareplan_kode, lareplan_url, kompeta
 on conflict (id) do update set trinn_id = excluded.trinn_id, navn = excluded.navn, lareplan_kode = excluded.lareplan_kode,
   lareplan_url = excluded.lareplan_url, kompetansemaal = excluded.kompetansemaal, sortering = excluded.sortering;
 
--- Kjemi 1 (vg2) -----------------------------------------------------
-
+-- Kjemi 1 (vg2): rydd bort fjernede temaer
 delete from public.temaer where fag_id = 'kjemi-1' and slug not in ('atomet-og-periodesystemet', 'kjemisk-binding', 'formler-og-navnsetting', 'stoffmengde-og-stokiometri', 'reaksjonstyper-og-redoks', 'losninger-og-konsentrasjon', 'syrer-baser-og-ph', 'energi-og-entalpi', 'reaksjonsfart-og-likevekt', 'titrering-og-spektroskopi', 'gronn-kjemi');
 
--- Atomet og periodesystemet
+-- Kjemi 1: Atomet og periodesystemet
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
   ('kjemi-1:atomet-og-periodesystemet', 'kjemi-1', 'atomet-og-periodesystemet', 'Atomet og periodesystemet', 'Hvordan atomer er bygd opp, hvordan elektronene er ordnet, og hvorfor periodesystemet viser tydelige mønstre.', array[5, 6]::int[], 0, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
@@ -174,7 +173,7 @@ insert into public.miniprover (tema_id, minutter) values
   ('kjemi-1:atomet-og-periodesystemet', 20)
 on conflict (tema_id) do update set minutter = excluded.minutter;
 
--- Kjemisk binding og molekylgeometri
+-- Kjemi 1: Kjemisk binding og molekylgeometri
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
   ('kjemi-1:kjemisk-binding', 'kjemi-1', 'kjemisk-binding', 'Kjemisk binding og molekylgeometri', 'Ionebinding, kovalent binding og metallbinding, formen på molekyler og kreftene som virker mellom dem.', array[5, 7]::int[], 1, 'utkast', array['Læreverk bruker litt ulike navn på molekylformene (for eksempel «plan trigonal» eller «plan trekantet»). Sjekk at navnene stemmer med læreboka elevene bruker.']::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
@@ -277,7 +276,7 @@ insert into public.miniprover (tema_id, minutter) values
   ('kjemi-1:kjemisk-binding', 20)
 on conflict (tema_id) do update set minutter = excluded.minutter;
 
--- Formler og navnsetting
+-- Kjemi 1: Formler og navnsetting
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
   ('kjemi-1:formler-og-navnsetting', 'kjemi-1', 'formler-og-navnsetting', 'Formler og navnsetting', 'Hvordan du skriver kjemiske formler og gir navn til ioneforbindelser, molekylforbindelser, syrer og hydrater.', array[1]::int[], 2, 'utkast', array['Læreplanen sier ikke direkte om enkel organisk navnsetting (alkaner, alkoholer osv.) hører til Kjemi 1. Vurder om det trengs et eget tema for det.', 'Skrivemåten for sammensatte navn varierer litt mellom læreverk (for eksempel «kobber(II)sulfatpentahydrat» med eller uten bindestrek).']::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
@@ -369,7 +368,7 @@ insert into public.miniprover (tema_id, minutter) values
   ('kjemi-1:formler-og-navnsetting', 20)
 on conflict (tema_id) do update set minutter = excluded.minutter;
 
--- Stoffmengde og støkiometri
+-- Kjemi 1: Stoffmengde og støkiometri
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
   ('kjemi-1:stoffmengde-og-stokiometri', 'kjemi-1', 'stoffmengde-og-stokiometri', 'Stoffmengde og støkiometri', 'Mol, molar masse og balanserte reaksjonslikninger – og hvordan du regner ut hvor mye som reagerer og dannes.', array[4, 8]::int[], 3, 'sjekkes', array['Molvolum: læreverk bruker ulike standardbetingelser (22,4 L/mol ved 0 °C og 1 atm, 22,7 L/mol ved 0 °C og 1 bar, 24,5 L/mol ved 25 °C og 1 atm). Sjekk hvilke verdier læreboka og eksamensformelarket bruker.', 'Atommassene er avrundet til to desimaler (H 1,01, C 12,01, O 16,00, S 32,07). Svarene kan avvike litt i siste siffer hvis tabellen i læreboka har andre verdier.']::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
@@ -468,7 +467,7 @@ insert into public.miniprover (tema_id, minutter) values
   ('kjemi-1:stoffmengde-og-stokiometri', 20)
 on conflict (tema_id) do update set minutter = excluded.minutter;
 
--- Reaksjonstyper og redoks
+-- Kjemi 1: Reaksjonstyper og redoks
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
   ('kjemi-1:reaksjonstyper-og-redoks', 'kjemi-1', 'reaksjonstyper-og-redoks', 'Reaksjonstyper og redoks', 'Fellingsreaksjoner, syre-base-reaksjoner og redoksreaksjoner – hvordan du kjenner dem igjen og bruker oksidasjonstall.', array[8]::int[], 4, 'utkast', array['Elektrokjemi (galvaniske celler og elektrolyse) er holdt utenfor, fordi det ikke nevnes i kompetansemålene for Kjemi 1. Sjekk mot læreboka om det likevel bør være med.', 'Løselighetsreglene er forenklede tommelfingerregler.']::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
@@ -569,7 +568,7 @@ insert into public.miniprover (tema_id, minutter) values
   ('kjemi-1:reaksjonstyper-og-redoks', 20)
 on conflict (tema_id) do update set minutter = excluded.minutter;
 
--- Løsninger, konsentrasjon og løselighet
+-- Kjemi 1: Løsninger, konsentrasjon og løselighet
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
   ('kjemi-1:losninger-og-konsentrasjon', 'kjemi-1', 'losninger-og-konsentrasjon', 'Løsninger, konsentrasjon og løselighet', 'Hvordan du regner med konsentrasjon, lager og fortynner løsninger, og hva som avgjør om et stoff løser seg.', array[9, 14]::int[], 5, 'utkast', array['ppm er definert som mg per kg (masse). Noen læreverk bruker mg/L for vannløsninger, som er tilnærmet det samme for fortynnede løsninger.']::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
@@ -664,7 +663,7 @@ insert into public.miniprover (tema_id, minutter) values
   ('kjemi-1:losninger-og-konsentrasjon', 20)
 on conflict (tema_id) do update set minutter = excluded.minutter;
 
--- Syrer, baser og pH
+-- Kjemi 1: Syrer, baser og pH
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
   ('kjemi-1:syrer-baser-og-ph', 'kjemi-1', 'syrer-baser-og-ph', 'Syrer, baser og pH', 'Protolyse, sterke og svake syrer, pH-skalaen og hvordan du regner ut pH for sterke syrer og baser.', array[15]::int[], 6, 'utkast', array['Syrekonstanten Ka er bare nevnt kvalitativt. pH-beregning for svake syrer og buffere hører vanligvis til Kjemi 2 – sjekk at avgrensningen stemmer med læreboka.']::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
@@ -761,7 +760,7 @@ insert into public.miniprover (tema_id, minutter) values
   ('kjemi-1:syrer-baser-og-ph', 20)
 on conflict (tema_id) do update set minutter = excluded.minutter;
 
--- Energi og entalpi
+-- Kjemi 1: Energi og entalpi
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
   ('kjemi-1:energi-og-entalpi', 'kjemi-1', 'energi-og-entalpi', 'Energi og entalpi', 'Eksoterme og endoterme reaksjoner, entalpiendring, bindingsenergi, Hess'' lov og kalorimetri.', array[4, 12]::int[], 7, 'utkast', array['Bindingsenergiene er gjennomsnittsverdier. Tabellen i læreboka kan ha verdier som avviker med noen kJ/mol.', 'Entropi og Gibbs fri energi er utelatt, fordi kompetansemålet bare nevner entalpi. Sjekk mot læreboka.']::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
@@ -859,7 +858,7 @@ insert into public.miniprover (tema_id, minutter) values
   ('kjemi-1:energi-og-entalpi', 20)
 on conflict (tema_id) do update set minutter = excluded.minutter;
 
--- Reaksjonsfart og likevekt
+-- Kjemi 1: Reaksjonsfart og likevekt
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
   ('kjemi-1:reaksjonsfart-og-likevekt', 'kjemi-1', 'reaksjonsfart-og-likevekt', 'Reaksjonsfart og likevekt', 'Kollisjonsteori, faktorer som påvirker reaksjonsfarten, kjemisk likevekt og Le Châteliers prinsipp.', array[5, 13]::int[], 8, 'utkast', array['Regelen om at 10 °C høyere temperatur dobler farten er bare omtrentlig og gjelder mange, men ikke alle reaksjoner.', 'Likevektskonstanten K er tatt med. Noen læreverk regner med K først i Kjemi 2 – sjekk avgrensningen.']::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
@@ -954,7 +953,7 @@ insert into public.miniprover (tema_id, minutter) values
   ('kjemi-1:reaksjonsfart-og-likevekt', 20)
 on conflict (tema_id) do update set minutter = excluded.minutter;
 
--- Titrering og spektroskopi
+-- Kjemi 1: Titrering og spektroskopi
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
   ('kjemi-1:titrering-og-spektroskopi', 'kjemi-1', 'titrering-og-spektroskopi', 'Titrering og spektroskopi', 'Hvordan kjemikere bestemmer konsentrasjoner med titrering, og hvordan lys og spektre avslører hva et stoff består av.', array[2, 10, 11]::int[], 9, 'sjekkes', array['«Gravimetrisk titreranalyse» er tolket som titrering der mengden titrerløsning bestemmes ved veiing. Sjekk at tolkningen stemmer med læreboka.', 'Utvalget av spektroskopiske metoder (spektrofotometri, IR og massespektrometri) bør sjekkes mot læreboka. NMR er utelatt.', 'Flammefarger beskrives litt ulikt i ulike kilder (for eksempel «grønn» eller «blågrønn» for kobber).']::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
@@ -1039,7 +1038,7 @@ insert into public.miniprover (tema_id, minutter) values
   ('kjemi-1:titrering-og-spektroskopi', 20)
 on conflict (tema_id) do update set minutter = excluded.minutter;
 
--- Grønn kjemi
+-- Kjemi 1: Grønn kjemi
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
   ('kjemi-1:gronn-kjemi', 'kjemi-1', 'gronn-kjemi', 'Grønn kjemi', 'Prinsippene for grønn kjemi, atomøkonomi og E-faktor, og hvordan kjemi kan bidra til bærekraftig utvikling.', array[16, 17]::int[], 10, 'utkast', array['Prinsippene er gjengitt fritt og gruppert i hovedtanker, ikke som Anastas og Warners nummererte liste. Sjekk om læreboka forventer at elevene kan alle tolv med nummer.']::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
