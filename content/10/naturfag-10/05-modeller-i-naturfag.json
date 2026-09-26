@@ -1,0 +1,80 @@
+{
+  "id": "modeller-i-naturfag",
+  "fagId": "naturfag-10",
+  "trinnId": "10",
+  "name": "Modeller i naturfag",
+  "intro": "Hva modeller er, ulike typer modeller, hvordan de brukes til å forklare og forutsi, og hvorfor alle modeller har styrker og begrensninger.",
+  "kompetansemaal": [3, 2],
+  "sammendrag": "## Hvorfor modeller?\n\nMye av det naturfag handler om, er for lite, for stort, for raskt, for langsomt eller for komplisert til at vi kan se det direkte. Atomer er for små, solsystemet er for stort, og klimaet er for sammensatt. Da bruker vi **modeller**. En modell er en **forenklet framstilling** av virkeligheten som hjelper oss å **forklare** observasjoner og **forutsi** hva som vil skje.\n\n## Typer modeller\n\n- **Fysiske modeller** kan tas og føles på, som en globus, en modell av et DNA-molekyl eller en kulemodell av et vannmolekyl.\n- **Tegninger og diagrammer**, som en tegning av vannets kretsløp eller en næringskjede.\n- **Begrepsmodeller** (konseptuelle modeller) beskriver sammenhenger med ord og begreper, som partikkelmodellen for faste stoffer, væsker og gasser.\n- **Matematiske modeller** beskriver sammenhenger med formler, som s = v · t.\n- **Datamodeller** og **simuleringer** bruker programmer til å regne på komplekse systemer, som værmeldinger og klimamodeller.\n\n## Styrker og begrensninger\n\nAlle modeller har **styrker**: De gjør noe komplisert forståelig og lar oss gjøre forutsigelser. Men de har også **begrensninger**, fordi de forenkler. En globus viser jordas form og kontinentenes plassering, men ikke at jorda er litt flattrykt ved polene eller hvor høye fjellene er. En tegning av et atom med elektroner i sirkelbaner er nyttig for å forstå skall og periodesystemet, men elektronene beveger seg ikke egentlig slik. Når du bruker en modell, bør du alltid spørre: Hva viser modellen godt, og hva viser den ikke?\n\n## Modeller endres\n\nModeller er ikke endelige sannheter. Når nye observasjoner ikke passer med modellen, blir den forbedret eller erstattet. **Atommodellen** er et godt eksempel:\n\n- **John Dalton** (tidlig 1800-tall) så atomer som små, udelelige kuler.\n- **J.J. Thomson** oppdaget elektronet (1897) og så for seg atomet som en positiv masse med elektroner i, som rosiner i en kake.\n- **Ernest Rutherford** viste (1911) at atomet har en liten, tett kjerne med mye tomrom rundt.\n- **Niels Bohr** (1913) plasserte elektronene i bestemte skall rundt kjernen.\n\nI dag beskriver forskerne elektronene med en kvantemekanisk modell, der de ikke har bestemte baner. Hver ny modell forklarte flere observasjoner enn den forrige.\n\n## Lage egne modeller\n\nNår du lager en modell selv, for eksempel av en celle, et økosystem eller en elektrisk krets, må du velge hva som skal være med og hva som kan utelates. Å forklare disse valgene, og å vurdere modellens styrker og svakheter, viser at du forstår både fenomenet og modellen.",
+  "flashcards": [
+    { "term": "Modell", "def": "En forenklet framstilling av virkeligheten som hjelper oss å forklare og forutsi." },
+    { "term": "Fysisk modell", "def": "En modell man kan ta på, som en globus eller en molekylmodell." },
+    { "term": "Begrepsmodell", "def": "En modell som beskriver sammenhenger med ord og begreper, som partikkelmodellen." },
+    { "term": "Matematisk modell", "def": "En modell som bruker formler, som s = v · t." },
+    { "term": "Datamodell", "def": "Et dataprogram som simulerer et komplekst system, som klimaet." },
+    { "term": "Forutsi", "def": "Bruke en modell til å si hva som vil skje." },
+    { "term": "Modellens styrker", "def": "Gjør noe komplisert forståelig og gir mulighet for forutsigelser." },
+    { "term": "Modellens begrensninger", "def": "Det modellen ikke viser eller forenkler bort." },
+    { "term": "Partikkelmodellen", "def": "Stoffer består av partikler som ligger tett i faste stoffer og beveger seg fritt i gasser." },
+    { "term": "Dalton", "def": "Så atomer som små, udelelige kuler (tidlig 1800-tall)." },
+    { "term": "Thomson", "def": "Oppdaget elektronet i 1897. «Rosinbollemodellen»." },
+    { "term": "Rutherford", "def": "Viste i 1911 at atomet har en liten, tett kjerne." },
+    { "term": "Bohr", "def": "Plasserte elektronene i bestemte skall rundt kjernen (1913)." },
+    { "term": "Modeller endres", "def": "Når nye observasjoner ikke passer, forbedres eller erstattes modellen." },
+    { "term": "Globus", "def": "Viser jordas form og kontinenter, men ikke høyder eller at jorda er litt flattrykt." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er en modell i naturfag?", "options": ["En eksakt kopi av virkeligheten", "En forenklet framstilling som hjelper oss å forklare og forutsi", "En person som viser klær", "Et forsøk på lab"], "correct": 1, "explain": "Modeller forenkler for å gjøre noe forståelig og for å kunne forutsi." },
+    { "id": "q02", "text": "Hvilken er en matematisk modell?", "options": ["En globus", "En tegning av en celle", "Formelen s = v · t", "En kulemodell av vann"], "correct": 2, "explain": "Matematiske modeller beskriver sammenhenger med formler." },
+    { "id": "q03", "text": "Hva er en begrensning ved en globus?", "options": ["Den viser ikke høyden på fjellene", "Den viser ikke kontinentene", "Den er ikke rund", "Den viser ikke havene"], "correct": 0, "explain": "Globusen forenkler bort blant annet høydeforskjeller." },
+    { "id": "q04", "text": "Hvem oppdaget at atomet har en liten, tett kjerne?", "options": ["John Dalton", "J.J. Thomson", "Niels Bohr", "Ernest Rutherford"], "correct": 3, "explain": "Rutherfords forsøk i 1911 viste at det meste av atomet er tomrom rundt en liten kjerne." },
+    { "id": "q05", "text": "Hvorfor endres modeller over tid?", "options": ["Fordi forskere liker å forandre ting", "Fordi nye observasjoner ikke passer med den gamle modellen", "Fordi gamle modeller blir slitt", "De endres aldri"], "correct": 1, "explain": "Når en modell ikke kan forklare nye observasjoner, må den forbedres eller erstattes." },
+    { "id": "q06", "text": "Hva slags modell er en værmelding basert på?", "options": ["En fysisk modell", "En tegning", "En datamodell som simulerer atmosfæren", "En begrepsmodell uten tall"], "correct": 2, "explain": "Meteorologer bruker store datamodeller som regner på atmosfæren." },
+    { "id": "q07", "text": "Hvem plasserte elektronene i bestemte skall rundt kjernen?", "options": ["Niels Bohr", "John Dalton", "Isaac Newton", "Charles Darwin"], "correct": 0, "explain": "Bohrs modell fra 1913 forklarte blant annet lysspektre fra atomer." },
+    { "id": "q08", "text": "Hva bør du alltid spørre om når du bruker en modell?", "options": ["Hvem har laget den?", "Hvor mye koster den?", "Hvor stor er den?", "Hva viser den godt, og hva viser den ikke?"], "correct": 3, "explain": "Da blir du bevisst både styrkene og begrensningene." },
+    { "id": "q09", "text": "Hva beskriver partikkelmodellen?", "options": ["Hvordan stoffer består av partikler som oppfører seg ulikt i faste stoffer, væsker og gasser", "Hvordan planeter går rundt sola", "Hvordan celler deler seg", "Hvordan vær oppstår"], "correct": 0, "explain": "Partikkelmodellen forklarer blant annet smelting, fordamping og trykk." },
+    { "id": "q10", "text": "Hva så Thomson for seg etter at han oppdaget elektronet?", "options": ["Atomet som en udelelig kule", "Atomet som en positiv masse med elektroner i, som rosiner i en kake", "Elektroner i skall", "En tett kjerne med tomrom rundt"], "correct": 1, "explain": "Thomsons modell kalles ofte rosinbollemodellen." }
+  ],
+  "mindmap": {
+    "label": "Modeller i naturfag",
+    "children": [
+      { "label": "Hvorfor?", "children": [
+        { "label": "For lite, stort, raskt eller sakte" },
+        { "label": "Forklare" },
+        { "label": "Forutsi" }
+      ] },
+      { "label": "Typer", "children": [
+        { "label": "Fysiske" },
+        { "label": "Tegninger" },
+        { "label": "Begrepsmodeller" },
+        { "label": "Matematiske" },
+        { "label": "Datamodeller" }
+      ] },
+      { "label": "Vurdere", "children": [
+        { "label": "Styrker" },
+        { "label": "Begrensninger" },
+        { "label": "Hva viser den ikke?" }
+      ] },
+      { "label": "Atommodellen", "children": [
+        { "label": "Dalton", "note": "Udelelig kule" },
+        { "label": "Thomson", "note": "Rosinbolle" },
+        { "label": "Rutherford", "note": "Kjerne" },
+        { "label": "Bohr", "note": "Skall" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q08", "q10"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "En god modell viser alt nøyaktig slik det er i virkeligheten.", "correct": false, "explain": "Alle modeller forenkler. En god modell er nyttig for formålet." },
+      { "id": "m02", "type": "sant-usant", "text": "Dagens atommodell er den samme som Daltons.", "correct": false, "explain": "Atommodellen har blitt endret mange ganger siden Dalton." },
+      { "id": "m03", "type": "sant-usant", "text": "En næringskjede er en form for modell.", "correct": true, "explain": "Den forenkler sammenhengene i et økosystem." },
+      { "id": "m04", "type": "sant-usant", "text": "Modeller kan brukes til å forutsi hva som vil skje.", "correct": true, "explain": "Klimamodeller og værmeldinger er eksempler." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken modell er en fysisk modell?", "options": ["s = v · t", "En kulemodell av et molekyl", "En begrepsdefinisjon", "Et regneark"], "correct": 1, "explain": "Fysiske modeller kan tas og føles på." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er en begrensning ved en tegning av et atom med elektroner i sirkelbaner?", "options": ["Elektronene beveger seg ikke egentlig i slike baner", "Den viser ikke kjernen", "Den er for stor", "Den har ingen begrensninger"], "correct": 0, "explain": "Modellen er nyttig, men dagens kvantemekaniske modell viser at elektronene ikke har faste baner." },
+      { "id": "m07", "type": "flervalg", "text": "Når oppdaget Thomson elektronet?", "options": ["1803", "1911", "1897", "1913"], "correct": 2, "explain": "J.J. Thomson oppdaget elektronet i 1897." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

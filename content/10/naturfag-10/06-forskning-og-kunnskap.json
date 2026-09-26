@@ -1,0 +1,79 @@
+{
+  "id": "forskning-og-kunnskap",
+  "fagId": "naturfag-10",
+  "trinnId": "10",
+  "name": "Forskning og ny kunnskap",
+  "intro": "Hvordan ny naturvitenskapelig kunnskap blir til gjennom samarbeid, fagfellevurdering og kritisk testing, med eksempler på dagsaktuell forskning.",
+  "kompetansemaal": [5, 2],
+  "sammendrag": "## Kunnskap som stadig testes\n\nNaturvitenskapelig kunnskap er ikke en samling faste fakta, men en **prosess** der ideer hele tiden testes, forbedres og av og til forkastes. Det som gjør kunnskapen pålitelig, er at den er basert på **observasjoner og forsøk**, og at andre forskere **kritisk** kan kontrollere den.\n\n## Hvordan forskningen fungerer\n\n- **Samarbeid**: Moderne forskning skjer ofte i store team, gjerne på tvers av land og fag. Store prosjekter, som partikkelfysikk ved CERN eller klimaforskning, involverer tusenvis av forskere.\n- **Publisering**: Resultater publiseres i vitenskapelige tidsskrifter, slik at andre kan lese og bygge videre på dem.\n- **Fagfellevurdering**: Før en artikkel publiseres, blir den vurdert av andre eksperter innen feltet. De ser etter svakheter i metode, analyse og konklusjoner.\n- **Replikasjon**: Andre forskere prøver å gjenta forsøkene. Får de samme resultat, blir funnene mer pålitelige.\n- **Konsensus**: Når mange uavhengige undersøkelser peker samme vei, oppstår en bred enighet blant forskerne, for eksempel om at klimaet endrer seg på grunn av menneskelig aktivitet.\n\n## Kritisk tilnærming\n\nForskere skal være **kritiske**, også til sine egne resultater. Noen viktige prinsipper:\n\n- **Korrelasjon er ikke det samme som årsak**. At to ting henger sammen, betyr ikke at den ene forårsaker den andre. Salg av is og antall drukningsulykker øker begge om sommeren, men isen forårsaker ikke drukningene – begge skyldes varmt vær.\n- **Store og gode utvalg** gir sikrere svar enn få forsøk.\n- **Interessekonflikter** bør oppgis, for eksempel hvis en undersøkelse er betalt av et firma som tjener på resultatet.\n\n## Dagsaktuell forskning\n\nNoen eksempler på forskning som har preget de siste årene:\n\n- **mRNA-vaksiner** ble tatt i bruk i stor skala under koronapandemien. Forskningen bak ble belønnet med Nobelprisen i medisin i 2023.\n- **CRISPR** er en metode for å redigere gener svært presist, belønnet med Nobelprisen i kjemi i 2020. Den åpner for nye behandlinger, men reiser også etiske spørsmål.\n- **James Webb-romteleskopet**, skutt opp i 2021, gir nye bilder av de tidligste galaksene.\n- **Klimaforskning** overvåker is, hav og atmosfære og forbedrer modellene for framtidas klima.\n\n## Kunnskap i endring\n\nAt forskere endrer mening når nye data kommer, er en **styrke** ved naturvitenskapen, ikke en svakhet. Samtidig er mye kunnskap så grundig testet at den regnes som svært sikker, som at jorda går rundt sola eller at sykdommer kan skyldes mikroorganismer.",
+  "flashcards": [
+    { "term": "Fagfellevurdering", "def": "Andre eksperter vurderer en forskningsartikkel før den publiseres." },
+    { "term": "Replikasjon", "def": "Å gjenta et forsøk for å se om man får samme resultat." },
+    { "term": "Konsensus", "def": "Bred enighet blant forskere, basert på mange uavhengige undersøkelser." },
+    { "term": "Vitenskapelig tidsskrift", "def": "Publikasjon der forskningsresultater gjøres kjent for andre forskere." },
+    { "term": "Korrelasjon", "def": "At to ting varierer sammen." },
+    { "term": "Årsakssammenheng", "def": "At én ting faktisk forårsaker en annen." },
+    { "term": "Korrelasjon ≠ årsak", "def": "Is-salg og drukninger øker samtidig fordi begge skyldes varmt vær." },
+    { "term": "Interessekonflikt", "def": "Når forskeren eller finansieringskilden kan tjene på et bestemt resultat." },
+    { "term": "mRNA-vaksiner", "def": "Vaksiner som gir cellene oppskrift på et virusprotein. Nobelpris i medisin 2023." },
+    { "term": "CRISPR", "def": "Metode for presis genredigering. Nobelpris i kjemi 2020." },
+    { "term": "James Webb-teleskopet", "def": "Romteleskop skutt opp i 2021 som studerer de tidligste galaksene." },
+    { "term": "CERN", "def": "Stort europeisk forskningssenter for partikkelfysikk med forskere fra mange land." },
+    { "term": "Kritisk tilnærming", "def": "Å vurdere metoder, data og konklusjoner nøye, også sine egne." },
+    { "term": "Kunnskap i endring", "def": "At forskere endrer syn ved nye data er en styrke ved naturvitenskapen." },
+    { "term": "Utvalgsstørrelse", "def": "Store og gode utvalg gir sikrere konklusjoner enn få forsøk." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er fagfellevurdering?", "options": ["At venner leser artikkelen", "At andre eksperter vurderer forskningen før den publiseres", "At journalister skriver om forskningen", "At forskeren vurderer seg selv"], "correct": 1, "explain": "Fagfeller ser etter svakheter i metode, analyse og konklusjoner." },
+    { "id": "q02", "text": "Hvorfor er replikasjon viktig?", "options": ["Fordi det gjør forskningen dyrere", "Fordi det viser om resultatet holder når andre gjentar forsøket", "Fordi det er påbudt ved lov", "Fordi resultater ellers forsvinner"], "correct": 1, "explain": "Resultater som kan gjentas av uavhengige forskere, er mer pålitelige." },
+    { "id": "q03", "text": "Salg av is og antall drukninger øker om sommeren. Hva kan vi konkludere?", "options": ["At is forårsaker drukning", "At drukning gjør folk sultne på is", "At begge trolig skyldes en tredje faktor, som varmt vær", "At tallene er feil"], "correct": 2, "explain": "Korrelasjon er ikke årsak. Varmt vær får flere til både å kjøpe is og å bade." },
+    { "id": "q04", "text": "Hva er konsensus i forskning?", "options": ["At én forsker har bestemt noe", "At alle forsøk gir samme tall", "En avstemning blant politikere", "Bred enighet basert på mange uavhengige undersøkelser"], "correct": 3, "explain": "Konsensus bygger på samlet evidens fra mange studier." },
+    { "id": "q05", "text": "Hvilken metode for genredigering fikk Nobelprisen i kjemi i 2020?", "options": ["CRISPR", "mRNA", "PCR", "Kloning"], "correct": 0, "explain": "CRISPR gjør det mulig å endre gener svært presist." },
+    { "id": "q06", "text": "Hva fikk Nobelprisen i medisin i 2023?", "options": ["Oppdagelsen av penicillin", "Forskningen bak mRNA-vaksiner", "Kartleggingen av menneskets DNA", "CRISPR"], "correct": 1, "explain": "Forskningen gjorde det mulig å utvikle mRNA-vaksiner, blant annet mot covid-19." },
+    { "id": "q07", "text": "Hva er en interessekonflikt i forskning?", "options": ["Når forskere er uenige", "Når forskningen er kjedelig", "Når noen kan tjene på et bestemt resultat", "Når forsøket mislykkes"], "correct": 2, "explain": "Interessekonflikter bør oppgis, fordi de kan påvirke hvordan forskningen gjøres eller presenteres." },
+    { "id": "q08", "text": "Er det en svakhet at forskere endrer mening når nye data kommer?", "options": ["Ja, det viser at forskning ikke kan stoles på", "Ja, forskere bør aldri endre mening", "Det har ingen betydning", "Nei, det er en styrke at kunnskapen forbedres"], "correct": 3, "explain": "Naturvitenskapen er selvkorrigerende: bedre data gir bedre kunnskap." },
+    { "id": "q09", "text": "Hva studerer James Webb-romteleskopet blant annet?", "options": ["De tidligste galaksene", "Jordas indre", "Bakterier i havet", "Været i Norge"], "correct": 0, "explain": "Teleskopet ser infrarødt lys fra svært fjerne og gamle galakser." },
+    { "id": "q10", "text": "Hvorfor gir et stort utvalg sikrere svar?", "options": ["Fordi det ser bedre ut", "Fordi tilfeldigheter jevner seg ut når det er mange observasjoner", "Fordi det er billigere", "Det gir ikke sikrere svar"], "correct": 1, "explain": "Med få observasjoner kan tilfeldigheter gi et misvisende resultat." }
+  ],
+  "mindmap": {
+    "label": "Forskning og kunnskap",
+    "children": [
+      { "label": "Prosessen", "children": [
+        { "label": "Samarbeid" },
+        { "label": "Publisering" },
+        { "label": "Fagfellevurdering" },
+        { "label": "Replikasjon" },
+        { "label": "Konsensus" }
+      ] },
+      { "label": "Kritisk", "children": [
+        { "label": "Korrelasjon ≠ årsak" },
+        { "label": "Store utvalg" },
+        { "label": "Interessekonflikter" }
+      ] },
+      { "label": "Aktuell forskning", "children": [
+        { "label": "mRNA-vaksiner", "note": "Nobel 2023" },
+        { "label": "CRISPR", "note": "Nobel 2020" },
+        { "label": "James Webb", "note": "2021" },
+        { "label": "Klimaforskning" }
+      ] },
+      { "label": "Kunnskap", "children": [
+        { "label": "Endres med nye data" },
+        { "label": "Noe er svært sikkert" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Moderne forskning skjer ofte i store internasjonale team.", "correct": true, "explain": "Store prosjekter krever samarbeid mellom mange forskere og land." },
+      { "id": "m02", "type": "sant-usant", "text": "At to ting henger sammen, beviser at den ene forårsaker den andre.", "correct": false, "explain": "Korrelasjon er ikke det samme som årsak." },
+      { "id": "m03", "type": "sant-usant", "text": "CRISPR reiser også etiske spørsmål.", "correct": true, "explain": "Muligheten til å endre gener, også hos mennesker, gir viktige etiske diskusjoner." },
+      { "id": "m04", "type": "sant-usant", "text": "Et enkelt forsøk er nok til å endre konsensus i forskningen.", "correct": false, "explain": "Konsensus bygger på mange undersøkelser, og ett avvikende resultat må gjentas og testes." },
+      { "id": "m05", "type": "flervalg", "text": "Hvor publiseres forskningsresultater vanligvis?", "options": ["I vitenskapelige tidsskrifter", "Bare på sosiale medier", "I reklame", "De publiseres ikke"], "correct": 0, "explain": "Tidsskriftene sørger for fagfellevurdering og gjør funnene tilgjengelige." },
+      { "id": "m06", "type": "flervalg", "text": "Når ble James Webb-teleskopet skutt opp?", "options": ["1990", "2021", "2009", "2015"], "correct": 1, "explain": "Teleskopet ble skutt opp i desember 2021." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er CERN?", "options": ["Et norsk universitet", "En vaksine", "Et stort europeisk forskningssenter for partikkelfysikk", "Et romteleskop"], "correct": 2, "explain": "Ved CERN samarbeider forskere fra hele verden om å forstå materiens minste byggesteiner." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

@@ -1,0 +1,83 @@
+{
+  "id": "immunforsvar-og-vaksiner",
+  "fagId": "naturfag-10",
+  "trinnId": "10",
+  "name": "Immunforsvaret og vaksiner",
+  "intro": "Kroppens forsvar mot sykdomsfremkallende mikroorganismer, hvordan antistoffer og hukommelsesceller virker, og hvorfor vaksiner er viktige for folkehelsen.",
+  "kompetansemaal": [22],
+  "sammendrag": "## Sykdomsfremkallende mikroorganismer\n\nMange **bakterier** og **virus** er ufarlige eller nyttige, men noen kan gjøre oss syke. Slike mikroorganismer kalles **patogener** eller **smittestoffer**. Bakterier er levende celler som kan formere seg selv. Virus er mye mindre og må trenge inn i kroppens celler for å formere seg. Smitte kan spres gjennom luft, berøring, mat, vann og blod.\n\n## Første forsvarslinje\n\nKroppens første forsvar hindrer smittestoffene i å komme inn:\n\n- **Huden** er en tett barriere.\n- **Slimhinner** i nese og luftveier fanger opp mikrober, og **flimmerhår** feier dem ut.\n- **Magesyre** dreper mange mikrober i maten.\n- **Tårer** og spytt inneholder stoffer som bryter ned bakterier.\n\n## Andre forsvarslinje\n\nKommer smittestoffene inn, for eksempel gjennom et sår, starter en **betennelse**: Området blir rødt, varmt og hovent fordi mer blod strømmer til. **Hvite blodceller** som kalles **eteceller** (fagocytter) spiser opp mikrobene. **Feber** kan også hjelpe kroppen, fordi mange mikrober trives dårlig ved høyere temperatur.\n\n## Tredje forsvarslinje: det spesifikke immunforsvaret\n\nDet spesifikke immunforsvaret retter seg mot **bestemte** smittestoffer. Alle mikrober har **antigener**, kjennetegn på overflaten.\n\n- **B-celler** lager **antistoffer** som passer akkurat til antigenene, som en nøkkel i en lås. Antistoffene binder seg til mikrobene og gjør dem ufarlige eller merker dem for etecellene.\n- **T-celler** hjelper til med å styre forsvaret, og noen dreper kroppsceller som er infisert av virus.\n- Etter infeksjonen blir det igjen **hukommelsesceller**. Møter kroppen det samme smittestoffet igjen, reagerer den raskt og kraftig, ofte før vi merker at vi er smittet. Vi har blitt **immune**.\n\n## Vaksiner\n\nEn **vaksine** lærer immunforsvaret å kjenne igjen et smittestoff uten at vi blir syke. Vaksinen kan inneholde svekkede eller drepte mikrober, deler av dem, eller en **oppskrift** (for eksempel mRNA) som får cellene til å lage et ufarlig protein fra smittestoffet. Kroppen lager antistoffer og hukommelsesceller, og vi blir beskyttet.\n\nNår mange nok er vaksinert, får smittestoffet vanskelig for å spre seg. Det beskytter også dem som ikke kan vaksineres, som nyfødte og syke. Dette kalles **flokkimmunitet**.\n\n## Vaksiner og folkehelse\n\nVaksiner er blant de viktigste framskrittene i medisinens historie. **Kopper** er erklært utryddet (1980) takket være vaksinasjon, og sykdommer som meslinger, polio og kikhoste har blitt sjeldne i land med høy vaksinasjonsdekning. I Norge tilbys alle barn gratis vaksiner gjennom **barnevaksinasjonsprogrammet**. Synker vaksinasjonsdekningen, kan sykdommer komme tilbake.",
+  "flashcards": [
+    { "term": "Patogen", "def": "Mikroorganisme som kan gi sykdom, som enkelte bakterier og virus." },
+    { "term": "Bakterie", "def": "Levende encellet organisme som kan formere seg selv." },
+    { "term": "Virus", "def": "Svært liten smittepartikkel som må inn i kroppens celler for å formere seg." },
+    { "term": "Første forsvarslinje", "def": "Hud, slimhinner, flimmerhår, magesyre, tårer og spytt." },
+    { "term": "Betennelse", "def": "Rødme, varme og hevelse når kroppen bekjemper mikrober i et område." },
+    { "term": "Eteceller (fagocytter)", "def": "Hvite blodceller som spiser opp mikrober." },
+    { "term": "Antigen", "def": "Kjennetegn på overflaten av et smittestoff." },
+    { "term": "B-celler", "def": "Hvite blodceller som lager antistoffer." },
+    { "term": "Antistoff", "def": "Protein som passer til et bestemt antigen og uskadeliggjør smittestoffet." },
+    { "term": "T-celler", "def": "Hvite blodceller som styrer forsvaret og dreper virusinfiserte celler." },
+    { "term": "Hukommelsesceller", "def": "Celler som husker smittestoffet og gir rask reaksjon neste gang." },
+    { "term": "Immun", "def": "Beskyttet mot en sykdom fordi kroppen husker smittestoffet." },
+    { "term": "Vaksine", "def": "Lærer immunforsvaret å kjenne igjen et smittestoff uten at man blir syk." },
+    { "term": "Flokkimmunitet", "def": "Når mange nok er vaksinert, sprer smitten seg dårlig, og også uvaksinerte beskyttes." },
+    { "term": "Kopper", "def": "Sykdom som er erklært utryddet (1980) takket være vaksinasjon." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er forskjellen på bakterier og virus?", "options": ["Det finnes ingen forskjell", "Bakterier er levende celler, virus må inn i celler for å formere seg", "Virus er større enn bakterier", "Bakterier kan bare leve i vann"], "correct": 1, "explain": "Virus mangler egne celleprosesser og bruker kroppens celler til å lage nye virus." },
+    { "id": "q02", "text": "Hvilken er en del av kroppens første forsvarslinje?", "options": ["Huden", "Antistoffer", "Hukommelsesceller", "T-celler"], "correct": 0, "explain": "Huden hindrer smittestoffer i å komme inn i kroppen." },
+    { "id": "q03", "text": "Hva lager B-cellene?", "options": ["Hormoner", "Magesyre", "Antistoffer", "Røde blodceller"], "correct": 2, "explain": "Antistoffene passer til antigenene på et bestemt smittestoff." },
+    { "id": "q04", "text": "Hvorfor blir du sjelden syk av samme sykdom to ganger?", "options": ["Fordi smittestoffet dør ut", "Fordi du får feber", "Fordi huden blir tykkere", "Fordi hukommelsesceller gjør at kroppen reagerer raskt neste gang"], "correct": 3, "explain": "Hukommelsescellene gjenkjenner smittestoffet og setter raskt i gang forsvaret." },
+    { "id": "q05", "text": "Hvordan virker en vaksine?", "options": ["Den lærer immunforsvaret å kjenne igjen et smittestoff uten at du blir syk", "Den dreper alle bakterier i kroppen", "Den erstatter immunforsvaret", "Den virker som antibiotika"], "correct": 0, "explain": "Vaksinen gir kroppen antistoffer og hukommelsesceller mot smittestoffet." },
+    { "id": "q06", "text": "Hva er flokkimmunitet?", "options": ["At dyr er immune", "At bare voksne er beskyttet", "At smitte sprer seg dårlig når mange er immune, slik at også uvaksinerte beskyttes", "At man blir immun av å være i en gruppe"], "correct": 2, "explain": "Når få kan bli smittet, finner smittestoffet få nye verter." },
+    { "id": "q07", "text": "Hva gjør eteceller?", "options": ["Lager antistoffer", "Spiser opp mikrober", "Frakter oksygen", "Lager hormoner"], "correct": 1, "explain": "Eteceller (fagocytter) er hvite blodceller som omslutter og bryter ned mikrober." },
+    { "id": "q08", "text": "Hvilken sykdom er erklært utryddet takket være vaksiner?", "options": ["Influensa", "Forkjølelse", "Meslinger", "Kopper"], "correct": 3, "explain": "WHO erklærte kopper utryddet i 1980." },
+    { "id": "q09", "text": "Hva er et antigen?", "options": ["Et kjennetegn på overflaten av et smittestoff", "En type vaksine", "Et legemiddel", "En hvit blodcelle"], "correct": 0, "explain": "Immunforsvaret kjenner igjen smittestoffer på antigenene deres." },
+    { "id": "q10", "text": "Hva kan skje hvis vaksinasjonsdekningen synker?", "options": ["Ingenting", "Sykdommene blir farligere for vaksinerte", "Sykdommer som har vært sjeldne, kan komme tilbake", "Alle blir immune automatisk"], "correct": 2, "explain": "Flokkimmuniteten svekkes, og smitte kan spre seg igjen, som ved meslingutbrudd." }
+  ],
+  "mindmap": {
+    "label": "Immunforsvar og vaksiner",
+    "children": [
+      { "label": "Smittestoffer", "children": [
+        { "label": "Bakterier" },
+        { "label": "Virus" },
+        { "label": "Smitteveier" }
+      ] },
+      { "label": "1. forsvarslinje", "children": [
+        { "label": "Hud" },
+        { "label": "Slimhinner og flimmerhår" },
+        { "label": "Magesyre" }
+      ] },
+      { "label": "2. forsvarslinje", "children": [
+        { "label": "Betennelse" },
+        { "label": "Eteceller" },
+        { "label": "Feber" }
+      ] },
+      { "label": "3. forsvarslinje", "children": [
+        { "label": "B-celler og antistoffer" },
+        { "label": "T-celler" },
+        { "label": "Hukommelsesceller" }
+      ] },
+      { "label": "Vaksiner", "children": [
+        { "label": "Lærer immunforsvaret" },
+        { "label": "Flokkimmunitet" },
+        { "label": "Barnevaksinasjonsprogrammet" },
+        { "label": "Kopper utryddet" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q10"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Alle bakterier er farlige.", "correct": false, "explain": "De fleste bakterier er ufarlige, og mange er nyttige, for eksempel i tarmen." },
+      { "id": "m02", "type": "sant-usant", "text": "Et antistoff passer bare til et bestemt antigen.", "correct": true, "explain": "Antistoffer er spesifikke, som en nøkkel som passer i én lås." },
+      { "id": "m03", "type": "sant-usant", "text": "Feber kan hjelpe kroppen å bekjempe infeksjoner.", "correct": true, "explain": "Mange mikrober trives dårligere ved høyere temperatur." },
+      { "id": "m04", "type": "sant-usant", "text": "Barnevaksinasjonsprogrammet i Norge koster penger for familiene.", "correct": false, "explain": "Vaksinene i barnevaksinasjonsprogrammet er gratis." },
+      { "id": "m05", "type": "flervalg", "text": "Hva slags vaksine gir cellene en oppskrift på et ufarlig protein fra viruset?", "options": ["mRNA-vaksine", "Antibiotika", "Levende bakterier", "Serum"], "correct": 0, "explain": "mRNA-vaksiner får cellene til å lage et protein som immunforsvaret lærer å kjenne igjen." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilke celler dreper kroppsceller som er infisert av virus?", "options": ["Røde blodceller", "Noen typer T-celler", "Nerveceller", "Hudceller"], "correct": 1, "explain": "Såkalte drepe-T-celler fjerner infiserte celler." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er tegn på betennelse?", "options": ["Kulde og blekhet", "Kløe og nysing alltid", "Rødme, varme og hevelse", "Nummenhet"], "correct": 2, "explain": "Mer blod strømmer til området for å bekjempe smittestoffene." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

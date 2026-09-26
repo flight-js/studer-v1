@@ -1,0 +1,78 @@
+{
+  "id": "rus-legemidler-og-miljogifter",
+  "fagId": "naturfag-10",
+  "trinnId": "10",
+  "name": "Rusmidler, legemidler, miljøgifter og doping",
+  "intro": "Hvordan ulike stoffer påvirker kroppens signalsystemer – fra rusmidler og legemidler til miljøgifter og doping – og hvorfor unge hjerner er ekstra sårbare.",
+  "kompetansemaal": [21],
+  "sammendrag": "## Stoffer som påvirker signalsystemene\n\nMange stoffer virker ved å påvirke kroppens **signalsystemer**. De kan etterligne kroppens egne signalstoffer eller hormoner, blokkere reseptorer eller endre hvor mye signalstoff som skilles ut. Noen slike stoffer er nyttige medisiner, andre er skadelige.\n\n## Rusmidler\n\n**Rusmidler** påvirker hjernen og endrer hvordan vi tenker, føler og oppfører oss. Mange av dem påvirker hjernens **belønningssystem** og fører til at det skilles ut mye **dopamin**, som gir en følelse av velvære. Dette kan gjøre at man vil ha mer.\n\n- **Alkohol** demper sentralnervesystemet. Det gir dårligere dømmekraft, reaksjonsevne og koordinasjon, og store mengder kan gi alkoholforgiftning.\n- **Nikotin** i snus, sigaretter og e-sigaretter er sterkt avhengighetsskapende.\n- **Cannabis** kan svekke hukommelse, konsentrasjon og læring, særlig hos unge, og kan øke risikoen for psykiske lidelser hos noen.\n\nVed jevnlig bruk kan man utvikle **toleranse**, altså at man trenger mer for å få samme effekt. **Avhengighet** betyr at man får sterk trang til stoffet, og **abstinenser** er ubehagelige symptomer når man slutter. Hjernen utvikler seg til man er rundt 25 år, og derfor er unge ekstra sårbare for skader og avhengighet.\n\n## Legemidler\n\n**Legemidler** brukes til å forebygge, lindre eller kurere sykdom. Smertestillende midler demper smertesignaler, og insulin hjelper personer med diabetes. **Antibiotika** virker mot **bakterier**, men ikke mot virus. Alle legemidler kan ha **bivirkninger**, og derfor må mange legemidler skrives ut på **resept** av lege. Feil bruk av legemidler kan være farlig, og noen legemidler kan misbrukes som rusmidler.\n\n## Miljøgifter\n\n**Miljøgifter** er stoffer som er giftige, brytes langsomt ned i naturen og hoper seg opp i levende organismer. Eksempler er **tungmetaller** som kvikksølv og bly, og organiske stoffer som **PCB** og **PFAS**. Noen miljøgifter er **hormonforstyrrende**, fordi de ligner kroppens hormoner og kan påvirke vekst, forplantning og utvikling.\n\nMiljøgifter tas opp i små organismer og **hoper seg opp** oppover i næringskjeden. Rovdyr på toppen, som isbjørn, rovfugler og store rovfisk, kan få svært høye konsentrasjoner. Dette kalles **biomagnifisering**. Derfor gir Mattilsynet kostråd om for eksempel store rovfisk.\n\n## Doping\n\n**Doping** er bruk av forbudte stoffer eller metoder for å prestere bedre i idrett. **Anabole steroider** ligner testosteron og øker muskelmassen, men kan gi alvorlige bivirkninger som hjerteproblemer, humørsvingninger og hormonforstyrrelser. **EPO** øker produksjonen av røde blodceller og dermed oksygentransporten, men gjør blodet tykkere og øker risikoen for blodpropp. Doping er juks og kan være farlig for helsen.",
+  "flashcards": [
+    { "term": "Rusmiddel", "def": "Stoff som påvirker hjernen og endrer tanker, følelser og atferd." },
+    { "term": "Belønningssystemet", "def": "Del av hjernen som gir velvære via dopamin. Påvirkes av mange rusmidler." },
+    { "term": "Alkohol", "def": "Demper sentralnervesystemet og svekker dømmekraft og reaksjonsevne." },
+    { "term": "Nikotin", "def": "Sterkt avhengighetsskapende stoff i snus, sigaretter og e-sigaretter." },
+    { "term": "Toleranse", "def": "At man trenger mer av et stoff for å få samme effekt." },
+    { "term": "Avhengighet", "def": "Sterk trang til et stoff, og vansker med å slutte." },
+    { "term": "Abstinenser", "def": "Ubehagelige symptomer når man slutter med et stoff man er avhengig av." },
+    { "term": "Hjernens utvikling", "def": "Hjernen utvikles til man er rundt 25 år, og unge er derfor ekstra sårbare." },
+    { "term": "Legemiddel", "def": "Stoff som brukes til å forebygge, lindre eller kurere sykdom." },
+    { "term": "Antibiotika", "def": "Legemidler som virker mot bakterier, men ikke mot virus." },
+    { "term": "Bivirkning", "def": "Uønsket virkning av et legemiddel." },
+    { "term": "Miljøgift", "def": "Giftig stoff som brytes langsomt ned og hoper seg opp i organismer." },
+    { "term": "Biomagnifisering", "def": "Miljøgifter hoper seg opp oppover i næringskjeden." },
+    { "term": "Hormonforstyrrende stoffer", "def": "Stoffer som ligner kroppens hormoner og kan påvirke vekst og forplantning." },
+    { "term": "Anabole steroider", "def": "Dopingmiddel som ligner testosteron. Øker muskler, men gir alvorlige bivirkninger." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvilket signalstoff er sentralt i hjernens belønningssystem?", "options": ["Insulin", "Dopamin", "Adrenalin", "Østrogen"], "correct": 1, "explain": "Mange rusmidler øker utskillingen av dopamin, som gir følelse av velvære." },
+    { "id": "q02", "text": "Hva betyr toleranse?", "options": ["At man tåler alt", "At man ikke blir påvirket", "At man trenger mer av stoffet for å få samme effekt", "At man slutter lett"], "correct": 2, "explain": "Kroppen venner seg til stoffet, og effekten blir svakere." },
+    { "id": "q03", "text": "Hvorfor er unge ekstra sårbare for rusmidler?", "options": ["Fordi hjernen fortsatt utvikler seg", "Fordi de veier mindre enn voksne", "Fordi de har mindre blod", "De er ikke mer sårbare"], "correct": 0, "explain": "Hjernen utvikles til rundt 25 års alder, og rusmidler kan påvirke utviklingen." },
+    { "id": "q04", "text": "Hva virker antibiotika mot?", "options": ["Virus", "Sopp og virus", "Alle sykdommer", "Bakterier"], "correct": 3, "explain": "Antibiotika virker ikke mot virus som gir forkjølelse og influensa." },
+    { "id": "q05", "text": "Hva er en miljøgift?", "options": ["Et giftig stoff som brytes langsomt ned og hoper seg opp i organismer", "Alt som lukter vondt", "Et vanlig næringsstoff", "Et legemiddel"], "correct": 0, "explain": "Eksempler er kvikksølv, PCB og PFAS." },
+    { "id": "q06", "text": "Hva er biomagnifisering?", "options": ["At miljøgifter forsvinner i naturen", "At dyr blir større", "At miljøgifter hoper seg opp oppover i næringskjeden", "At planter vokser raskere"], "correct": 2, "explain": "Rovdyr på toppen av næringskjeden får derfor de høyeste konsentrasjonene." },
+    { "id": "q07", "text": "Hvilke dyr får typisk høyest konsentrasjon av miljøgifter?", "options": ["Planteplankton", "Små krepsdyr", "Gress", "Rovdyr på toppen av næringskjeden, som isbjørn"], "correct": 3, "explain": "De spiser mange byttedyr som hver inneholder litt miljøgift." },
+    { "id": "q08", "text": "Hva gjør EPO som dopingmiddel?", "options": ["Gir større muskler", "Øker produksjonen av røde blodceller", "Senker pulsen", "Gjør deg søvnig"], "correct": 1, "explain": "Flere røde blodceller gir bedre oksygentransport, men tykkere blod og økt risiko for blodpropp." },
+    { "id": "q09", "text": "Hvordan virker alkohol på sentralnervesystemet?", "options": ["Det demper det", "Det stimulerer det kraftig", "Det har ingen virkning", "Det reparerer nerveceller"], "correct": 0, "explain": "Alkohol demper signaloverføringen og svekker dømmekraft og reaksjonsevne." },
+    { "id": "q10", "text": "Hva er abstinenser?", "options": ["En type vitamin", "Et dopingmiddel", "Ubehagelige symptomer når man slutter med et stoff man er avhengig av", "En bivirkning av antibiotika"], "correct": 2, "explain": "Abstinenser er et tegn på at kroppen har vent seg til stoffet." }
+  ],
+  "mindmap": {
+    "label": "Stoffer og signalsystemer",
+    "children": [
+      { "label": "Rusmidler", "children": [
+        { "label": "Belønningssystemet", "note": "Dopamin" },
+        { "label": "Alkohol, nikotin, cannabis" },
+        { "label": "Toleranse og avhengighet" },
+        { "label": "Unge er sårbare" }
+      ] },
+      { "label": "Legemidler", "children": [
+        { "label": "Forebygge, lindre, kurere" },
+        { "label": "Antibiotika", "note": "Bare mot bakterier" },
+        { "label": "Bivirkninger og resept" }
+      ] },
+      { "label": "Miljøgifter", "children": [
+        { "label": "Kvikksølv, bly, PCB, PFAS" },
+        { "label": "Hormonforstyrrende" },
+        { "label": "Biomagnifisering" }
+      ] },
+      { "label": "Doping", "children": [
+        { "label": "Anabole steroider" },
+        { "label": "EPO" },
+        { "label": "Juks og helserisiko" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q08", "q10"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Nikotin er avhengighetsskapende.", "correct": true, "explain": "Nikotin gir raskt avhengighet, også gjennom snus og e-sigaretter." },
+      { "id": "m02", "type": "sant-usant", "text": "Antibiotika hjelper mot forkjølelse.", "correct": false, "explain": "Forkjølelse skyldes virus, og antibiotika virker bare mot bakterier." },
+      { "id": "m03", "type": "sant-usant", "text": "Alle legemidler kan ha bivirkninger.", "correct": true, "explain": "Derfor er det viktig å bruke legemidler riktig og følge legens råd." },
+      { "id": "m04", "type": "sant-usant", "text": "Miljøgifter brytes raskt ned i naturen.", "correct": false, "explain": "Miljøgifter brytes langsomt ned og hoper seg derfor opp." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilket stoff ligner testosteron og brukes som doping?", "options": ["EPO", "Insulin", "Anabole steroider", "Koffein"], "correct": 2, "explain": "Anabole steroider øker muskelmassen, men gir mange alvorlige bivirkninger." },
+      { "id": "m06", "type": "flervalg", "text": "Hvorfor gir Mattilsynet kostråd om store rovfisk?", "options": ["Fordi de kan inneholde mye miljøgifter", "Fordi de er dyre", "Fordi de smaker dårlig", "Fordi de er fredet"], "correct": 0, "explain": "Store rovfisk står høyt i næringskjeden og kan ha opphopning av for eksempel kvikksølv." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er et eksempel på et tungmetall som er en miljøgift?", "options": ["Kalsium", "Kvikksølv", "Oksygen", "Natrium"], "correct": 1, "explain": "Kvikksølv er giftig og hoper seg opp i næringskjeden." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

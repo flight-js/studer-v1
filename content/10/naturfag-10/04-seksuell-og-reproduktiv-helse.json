@@ -1,0 +1,84 @@
+{
+  "id": "seksuell-og-reproduktiv-helse",
+  "fagId": "naturfag-10",
+  "trinnId": "10",
+  "name": "Seksuell og reproduktiv helse",
+  "intro": "Puberteten, forplantning og menstruasjonssyklusen, prevensjon og seksuelt overførbare infeksjoner – og samtykke, grenser og mangfold.",
+  "kompetansemaal": [20],
+  "sammendrag": "## Hva er seksuell og reproduktiv helse?\n\n**Seksuell helse** handler om å ha det godt med egen kropp og seksualitet, å kunne ta trygge valg og å bli respektert. **Reproduktiv helse** handler om forplantning: å kunne velge om og når man vil få barn, og å beskytte seg mot sykdom.\n\n## Puberteten\n\nI **puberteten** begynner kroppen å produsere mer **kjønnshormoner**, som **østrogen** og **testosteron**. Kroppen endrer seg: Man vokser, får hår under armene og i skrittet, huden kan bli fetere, og stemmen endrer seg. Mange får **menstruasjon**, og mange får **sædavgang**. Puberteten starter på ulike tidspunkter for ulike personer, og det er helt vanlig.\n\n## Forplantning og menstruasjonssyklus\n\nI eggstokkene modnes **egg**. Omtrent én gang i måneden skjer **eggløsning**, der et egg slippes ut og går gjennom egglederen mot livmoren. Hvis egget møter en **sædcelle**, kan det bli **befruktet**. Det befruktede egget fester seg i livmorveggen og kan utvikle seg til et foster. Blir egget ikke befruktet, støtes slimhinnen i livmoren ut som menstruasjon. En menstruasjonssyklus varer ofte rundt 28 dager, men den varierer, særlig de første årene.\n\n## Prevensjon\n\n**Prevensjon** hindrer graviditet. Noen vanlige metoder:\n\n- **Kondom** hindrer at sædceller når egget, og er den eneste vanlige metoden som også beskytter mot **seksuelt overførbare infeksjoner** (SOI).\n- **Hormonell prevensjon**, som p-piller, p-stav og hormonspiral, hindrer eggløsning eller gjør det vanskelig for sædceller å nå fram.\n- **Nødprevensjon** («angrepille») kan tas etter ubeskyttet sex, jo tidligere desto bedre.\n\nPå **helsestasjon for ungdom** kan unge få gratis veiledning og hjelp.\n\n## Seksuelt overførbare infeksjoner\n\nSOI smitter ved seksuell kontakt. **Klamydia** er en av de vanligste blant unge i Norge. Den gir ofte ingen symptomer, men kan ubehandlet føre til nedsatt fruktbarhet. Andre SOI er **gonoré**, **herpes**, **HPV** og **hiv**. Mange SOI kan behandles, og mot HPV finnes det vaksine i barnevaksinasjonsprogrammet. Kondom og testing er de viktigste måtene å forebygge og oppdage smitte på.\n\n## Samtykke og grenser\n\nAll seksuell aktivitet skal være **frivillig**. **Samtykke** betyr at alle involverte ønsker det og sier ja, og at man når som helst kan ombestemme seg. Den seksuelle **lavalderen** i Norge er 16 år. Å dele nakenbilder av andre uten samtykke er ulovlig. Alle har rett til å sette egne grenser og få dem respektert.\n\n## Mangfold\n\nMennesker er ulike når det gjelder **seksuell orientering** – hvem man forelsker seg i og tiltrekkes av – og **kjønnsidentitet**, altså hvilket kjønn man opplever seg som. Kunnskap og respekt for mangfold bidrar til at alle kan ha god seksuell helse.",
+  "flashcards": [
+    { "term": "Seksuell helse", "def": "Å ha det godt med egen kropp og seksualitet, ta trygge valg og bli respektert." },
+    { "term": "Reproduktiv helse", "def": "Å kunne velge om og når man vil få barn, og beskytte seg mot sykdom." },
+    { "term": "Pubertet", "def": "Perioden der kroppen utvikles til en voksen kropp, styrt av kjønnshormoner." },
+    { "term": "Eggløsning", "def": "Når et modent egg slippes ut fra eggstokken, omtrent én gang i måneden." },
+    { "term": "Befruktning", "def": "Når en sædcelle og et egg smelter sammen." },
+    { "term": "Menstruasjon", "def": "Livmorslimhinnen støtes ut når egget ikke er befruktet." },
+    { "term": "Menstruasjonssyklus", "def": "Ofte rundt 28 dager, men varierer, særlig de første årene." },
+    { "term": "Prevensjon", "def": "Metoder som hindrer graviditet." },
+    { "term": "Kondom", "def": "Beskytter både mot graviditet og mot seksuelt overførbare infeksjoner." },
+    { "term": "Hormonell prevensjon", "def": "P-piller, p-stav og hormonspiral hindrer blant annet eggløsning." },
+    { "term": "SOI", "def": "Seksuelt overførbare infeksjoner, som klamydia, gonoré, herpes, HPV og hiv." },
+    { "term": "Klamydia", "def": "En av de vanligste SOI blant unge. Gir ofte ingen symptomer." },
+    { "term": "HPV-vaksine", "def": "Vaksine mot humant papillomavirus, del av barnevaksinasjonsprogrammet." },
+    { "term": "Samtykke", "def": "At alle involverte frivillig sier ja, og kan ombestemme seg når som helst." },
+    { "term": "Seksuell lavalder", "def": "16 år i Norge." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvilke hormoner styrer puberteten?", "options": ["Insulin og glukagon", "Østrogen og testosteron", "Adrenalin og kortisol", "Dopamin og serotonin"], "correct": 1, "explain": "Kjønnshormonene gir kroppsendringene i puberteten." },
+    { "id": "q02", "text": "Hva er eggløsning?", "options": ["Når et modent egg slippes ut fra eggstokken", "Når fosteret blir født", "Når menstruasjonen starter", "Når sædceller dannes"], "correct": 0, "explain": "Eggløsningen skjer omtrent én gang i måneden." },
+    { "id": "q03", "text": "Hvilken prevensjonsmetode beskytter også mot seksuelt overførbare infeksjoner?", "options": ["P-piller", "P-stav", "Kondom", "Hormonspiral"], "correct": 2, "explain": "Kondomet hindrer kontakt med kroppsvæsker og beskytter derfor også mot SOI." },
+    { "id": "q04", "text": "Hvorfor er klamydia lett å overse?", "options": ["Den gir alltid høy feber", "Den smitter ikke", "Den varer bare én dag", "Den gir ofte ingen symptomer"], "correct": 3, "explain": "Mange merker ingenting, derfor er testing viktig." },
+    { "id": "q05", "text": "Hva betyr samtykke?", "options": ["At alle involverte frivillig sier ja og kan ombestemme seg", "At man har sagt ja én gang for alltid", "At foreldrene har sagt ja", "At man ikke har sagt nei"], "correct": 0, "explain": "Samtykke må være frivillig og kan trekkes tilbake når som helst." },
+    { "id": "q06", "text": "Hva er den seksuelle lavalderen i Norge?", "options": ["14 år", "15 år", "16 år", "18 år"], "correct": 2, "explain": "Den seksuelle lavalderen i Norge er 16 år." },
+    { "id": "q07", "text": "Hva skjer hvis egget ikke blir befruktet?", "options": ["Det utvikler seg likevel til et foster", "Livmorslimhinnen støtes ut som menstruasjon", "Egget blir i eggstokken for alltid", "Det dannes nye sædceller"], "correct": 1, "explain": "Slimhinnen som ble bygd opp, trengs ikke og støtes ut." },
+    { "id": "q08", "text": "Hvilken SOI finnes det vaksine mot i barnevaksinasjonsprogrammet?", "options": ["Klamydia", "Gonoré", "Herpes", "HPV"], "correct": 3, "explain": "HPV-vaksinen beskytter blant annet mot livmorhalskreft." },
+    { "id": "q09", "text": "Hvor kan unge få gratis veiledning om prevensjon og seksuell helse?", "options": ["Helsestasjon for ungdom", "Bare hos privatlege mot betaling", "Ingen steder", "I butikken"], "correct": 0, "explain": "Helsestasjon for ungdom tilbyr gratis og konfidensiell hjelp." },
+    { "id": "q10", "text": "Er det lovlig å dele nakenbilder av andre uten samtykke?", "options": ["Ja, hvis bildet ble sendt til deg", "Ja, hvis det er en venn", "Nei, det er ulovlig", "Ja, hvis man er over 16"], "correct": 2, "explain": "Deling av slike bilder uten samtykke er straffbart og kan skade den som blir utsatt for det." }
+  ],
+  "mindmap": {
+    "label": "Seksuell og reproduktiv helse",
+    "children": [
+      { "label": "Pubertet", "children": [
+        { "label": "Kjønnshormoner" },
+        { "label": "Kroppsendringer" },
+        { "label": "Ulik start" }
+      ] },
+      { "label": "Forplantning", "children": [
+        { "label": "Eggløsning" },
+        { "label": "Befruktning" },
+        { "label": "Menstruasjon" }
+      ] },
+      { "label": "Prevensjon", "children": [
+        { "label": "Kondom", "note": "Beskytter også mot SOI" },
+        { "label": "Hormonell prevensjon" },
+        { "label": "Nødprevensjon" },
+        { "label": "Helsestasjon for ungdom" }
+      ] },
+      { "label": "SOI", "children": [
+        { "label": "Klamydia" },
+        { "label": "Gonoré, herpes, hiv" },
+        { "label": "HPV-vaksine" },
+        { "label": "Test deg" }
+      ] },
+      { "label": "Respekt", "children": [
+        { "label": "Samtykke" },
+        { "label": "Lavalder 16 år" },
+        { "label": "Mangfold" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Puberteten starter på samme alder for alle.", "correct": false, "explain": "Puberteten starter på ulike tidspunkter, og det er helt normalt." },
+      { "id": "m02", "type": "sant-usant", "text": "P-piller beskytter mot seksuelt overførbare infeksjoner.", "correct": false, "explain": "P-piller hindrer graviditet, men beskytter ikke mot SOI. Kondom gjør det." },
+      { "id": "m03", "type": "sant-usant", "text": "Man kan ombestemme seg selv om man har sagt ja tidligere.", "correct": true, "explain": "Samtykke kan trekkes tilbake når som helst." },
+      { "id": "m04", "type": "sant-usant", "text": "Mange seksuelt overførbare infeksjoner kan behandles.", "correct": true, "explain": "For eksempel kan klamydia behandles med antibiotika. Derfor er testing viktig." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er seksuell orientering?", "options": ["Hvilket kjønn man er født med", "Hvem man forelsker seg i og tiltrekkes av", "Hvor gammel man er", "Hvilken prevensjon man bruker"], "correct": 1, "explain": "Seksuell orientering handler om tiltrekning og forelskelse." },
+      { "id": "m06", "type": "flervalg", "text": "Hvor lang er en menstruasjonssyklus ofte?", "options": ["7 dager", "14 dager", "Rundt 28 dager", "60 dager"], "correct": 2, "explain": "Rundt 28 dager er vanlig, men syklusen varierer mye." },
+      { "id": "m07", "type": "flervalg", "text": "Hva kan klamydia føre til hvis den ikke behandles?", "options": ["Bedre immunforsvar", "Nedsatt fruktbarhet", "Ingenting", "Høyere blodsukker"], "correct": 1, "explain": "Ubehandlet klamydia kan gi betennelser som skader fruktbarheten." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

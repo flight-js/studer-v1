@@ -1,0 +1,82 @@
+{
+  "id": "nervesystemet-og-hormoner",
+  "fagId": "naturfag-10",
+  "trinnId": "10",
+  "name": "Nervesystemet og hormonsystemet",
+  "intro": "Kroppens to signalsystemer – hvordan nerver og hormoner sender beskjeder, hvordan de skiller seg fra hverandre, og hvordan de samarbeider.",
+  "kompetansemaal": [21],
+  "sammendrag": "## To signalsystemer\n\nKroppen må hele tiden samordne det som skjer i ulike organer. Til det har vi to **signalsystemer**: **nervesystemet**, som sender raske elektriske signaler, og **hormonsystemet**, som sender kjemiske budbringere med blodet.\n\n## Nervesystemet\n\nNervesystemet deles i to:\n\n- **Sentralnervesystemet** (CNS) er **hjernen** og **ryggmargen**. Her bearbeides informasjon og tas beslutninger.\n- **Det perifere nervesystemet** er nervene som går ut i hele kroppen, til muskler, hud og organer.\n\nNervesystemet er bygd opp av **nerveceller** (nevroner). En nervecelle har korte utløpere som tar imot signaler, og en lang utløper som sender signalet videre som en elektrisk impuls. Mellom to nerveceller er det en liten spalte, en **synapse**. Når impulsen når synapsen, skilles det ut **signalstoffer** (nevrotransmittere), som dopamin og serotonin. De fester seg til neste celle og overfører beskjeden.\n\n**Sanseceller** i øyne, ører, hud, nese og tunge registrerer inntrykk og sender signaler til hjernen. Hjernen sender så beskjeder til musklene.\n\n## Reflekser\n\nNoen reaksjoner går så raskt at hjernen ikke rekker å bestemme. Når du tar på en varm kokeplate, går signalet til **ryggmargen**, som sender beskjed rett tilbake til musklene om å trekke hånda bort. Dette kalles en **refleks**, og veien signalet går, kalles en **refleksbue**. Du kjenner smerten etterpå, når signalet har nådd hjernen.\n\n## Hormonsystemet\n\n**Hormoner** er kjemiske signalstoffer som lages i **kjertler** og fraktes med blodet til hele kroppen. Bare celler med riktige **reseptorer** reagerer på et bestemt hormon. Noen viktige kjertler og hormoner:\n\n- **Hypofysen** i hjernen styrer mange andre kjertler og lager blant annet veksthormon.\n- **Bukspyttkjertelen** lager **insulin**, som senker blodsukkeret, og glukagon, som øker det.\n- **Binyrene** lager **adrenalin**, som gjør kroppen klar til «kamp eller flukt».\n- **Kjønnskjertlene** lager **østrogen** og **testosteron**, som styrer puberteten.\n- **Skjoldbruskkjertelen** påvirker stoffskiftet.\n\n## Sammenligning\n\nNervesignaler er **raske** (brøkdeler av et sekund), går til **bestemte** steder og varer **kort**. Hormoner virker **langsommere**, sprer seg til **hele kroppen** og kan virke **lenge**, i timer, måneder eller år. Systemene samarbeider: Ved fare sender nervesystemet beskjed til binyrene, som skiller ut adrenalin. Mange hormoner reguleres ved **tilbakekobling**: Når blodsukkeret stiger etter et måltid, skilles det ut insulin, og når blodsukkeret faller igjen, stopper utskillingen.",
+  "flashcards": [
+    { "term": "Sentralnervesystemet", "def": "Hjernen og ryggmargen." },
+    { "term": "Perifere nervesystem", "def": "Nervene som går ut i kroppen til muskler, hud og organer." },
+    { "term": "Nervecelle (nevron)", "def": "Celle som leder elektriske signaler." },
+    { "term": "Synapse", "def": "Den lille spalten mellom to nerveceller der signalstoffer overfører beskjeden." },
+    { "term": "Signalstoff (nevrotransmitter)", "def": "Kjemisk stoff som overfører signaler i synapsen, som dopamin og serotonin." },
+    { "term": "Sanseceller", "def": "Celler som registrerer inntrykk som lys, lyd, trykk og smak." },
+    { "term": "Refleks", "def": "En rask, automatisk reaksjon der signalet går via ryggmargen uten at hjernen bestemmer." },
+    { "term": "Hormon", "def": "Kjemisk signalstoff som lages i kjertler og fraktes med blodet." },
+    { "term": "Reseptor", "def": "Mottaker på cellen som bare passer til bestemte signalstoffer eller hormoner." },
+    { "term": "Hypofysen", "def": "Kjertel i hjernen som styrer mange andre kjertler." },
+    { "term": "Insulin", "def": "Hormon fra bukspyttkjertelen som senker blodsukkeret." },
+    { "term": "Adrenalin", "def": "Hormon fra binyrene som gjør kroppen klar til kamp eller flukt." },
+    { "term": "Østrogen og testosteron", "def": "Kjønnshormoner som styrer puberteten." },
+    { "term": "Nerve vs. hormon", "def": "Nerver: raskt, presist, kortvarig. Hormoner: langsommere, hele kroppen, langvarig." },
+    { "term": "Tilbakekobling", "def": "Regulering der en endring stopper sin egen årsak, som insulin og blodsukker." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva består sentralnervesystemet av?", "options": ["Hjernen og ryggmargen", "Alle nervene i armene", "Hjertet og lungene", "Kjertlene"], "correct": 0, "explain": "Sentralnervesystemet er hjernen og ryggmargen. Resten av nervene er det perifere nervesystemet." },
+    { "id": "q02", "text": "Hva skjer i en synapse?", "options": ["Blodet renses", "Signalstoffer overfører beskjeden fra én nervecelle til den neste", "Det lages hormoner", "Muskler trekker seg sammen"], "correct": 1, "explain": "Den elektriske impulsen gjør at signalstoffer skilles ut og fester seg til neste celle." },
+    { "id": "q03", "text": "Hvorfor trekker du hånda raskt bort fra en varm kokeplate?", "options": ["Fordi hjernen tenker seg om", "Fordi hormoner virker raskt", "På grunn av en refleks via ryggmargen", "Fordi huden er kald"], "correct": 2, "explain": "Refleksen går via ryggmargen, som sender signal direkte til musklene." },
+    { "id": "q04", "text": "Hvordan fraktes hormoner rundt i kroppen?", "options": ["Gjennom nervene", "Gjennom luftveiene", "Gjennom lymfen alene", "Med blodet"], "correct": 3, "explain": "Hormoner skilles ut fra kjertler og fraktes med blodet til hele kroppen." },
+    { "id": "q05", "text": "Hvilket hormon senker blodsukkeret?", "options": ["Adrenalin", "Insulin", "Testosteron", "Veksthormon"], "correct": 1, "explain": "Insulin fra bukspyttkjertelen hjelper cellene å ta opp sukker fra blodet." },
+    { "id": "q06", "text": "Hva gjør adrenalin?", "options": ["Gjør kroppen klar til kamp eller flukt", "Senker pulsen", "Får oss til å sove", "Styrer fordøyelsen"], "correct": 0, "explain": "Adrenalin øker puls og pust og gir musklene mer energi ved fare." },
+    { "id": "q07", "text": "Hvilken påstand stemmer om hormonsystemet sammenlignet med nervesystemet?", "options": ["Hormoner virker raskere", "Hormoner går bare til ett bestemt sted", "Hormoner virker langsommere, men ofte lenger", "Hormoner er elektriske signaler"], "correct": 2, "explain": "Hormoner sprer seg med blodet og kan ha virkning i timer, måneder eller år." },
+    { "id": "q08", "text": "Hvilken kjertel styrer mange av de andre kjertlene?", "options": ["Binyrene", "Skjoldbruskkjertelen", "Bukspyttkjertelen", "Hypofysen"], "correct": 3, "explain": "Hypofysen i hjernen kalles ofte en overordnet kjertel." },
+    { "id": "q09", "text": "Hvorfor reagerer bare noen celler på et bestemt hormon?", "options": ["Fordi bare de har riktige reseptorer", "Fordi hormonet ikke når de andre", "Fordi de andre cellene er døde", "Fordi hormonet er for stort"], "correct": 0, "explain": "Hormonet passer som en nøkkel i en lås, og bare celler med riktig reseptor reagerer." },
+    { "id": "q10", "text": "Hvilke hormoner styrer puberteten?", "options": ["Insulin og glukagon", "Østrogen og testosteron", "Adrenalin og dopamin", "Serotonin og melatonin"], "correct": 1, "explain": "Kjønnshormonene østrogen og testosteron gir kroppsendringene i puberteten." }
+  ],
+  "mindmap": {
+    "label": "Nerver og hormoner",
+    "children": [
+      { "label": "Nervesystemet", "children": [
+        { "label": "Sentralt", "note": "Hjerne og ryggmarg" },
+        { "label": "Perifert", "note": "Nerver i kroppen" },
+        { "label": "Nerveceller" },
+        { "label": "Synapser og signalstoffer" }
+      ] },
+      { "label": "Reflekser", "children": [
+        { "label": "Refleksbue" },
+        { "label": "Via ryggmargen" }
+      ] },
+      { "label": "Hormonsystemet", "children": [
+        { "label": "Kjertler" },
+        { "label": "Med blodet" },
+        { "label": "Reseptorer" }
+      ] },
+      { "label": "Hormoner", "children": [
+        { "label": "Insulin", "note": "Blodsukker" },
+        { "label": "Adrenalin", "note": "Kamp eller flukt" },
+        { "label": "Østrogen og testosteron" }
+      ] },
+      { "label": "Sammenligning", "children": [
+        { "label": "Nerver: raskt og kort" },
+        { "label": "Hormoner: langsomt og lenge" },
+        { "label": "Tilbakekobling" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q09"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Nervesignaler går mye raskere enn hormonsignaler.", "correct": true, "explain": "Nervesignaler når fram på brøkdeler av et sekund." },
+      { "id": "m02", "type": "sant-usant", "text": "Dopamin og serotonin er eksempler på signalstoffer i hjernen.", "correct": true, "explain": "De overfører signaler mellom nerveceller." },
+      { "id": "m03", "type": "sant-usant", "text": "Ved en refleks bestemmer hjernen først hva som skal skje.", "correct": false, "explain": "Refleksen går via ryggmargen. Hjernen får beskjed etterpå." },
+      { "id": "m04", "type": "sant-usant", "text": "Hormoner påvirker alle celler i kroppen likt.", "correct": false, "explain": "Bare celler med riktige reseptorer reagerer på et bestemt hormon." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken kjertel lager adrenalin?", "options": ["Hypofysen", "Binyrene", "Bukspyttkjertelen", "Skjoldbruskkjertelen"], "correct": 1, "explain": "Binyrene sitter på toppen av nyrene og lager adrenalin." },
+      { "id": "m06", "type": "flervalg", "text": "Hva registrerer sansecellene i huden?", "options": ["Lys", "Lyd", "Smak", "Trykk, temperatur og smerte"], "correct": 3, "explain": "Huden har sanseceller for berøring, trykk, varme, kulde og smerte." },
+      { "id": "m07", "type": "flervalg", "text": "Hva skjer med insulinutskillingen når blodsukkeret faller?", "options": ["Den stopper", "Den øker kraftig", "Den blir til adrenalin", "Ingenting"], "correct": 0, "explain": "Dette er tilbakekobling: Lavt blodsukker stopper utskillingen av insulin." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
