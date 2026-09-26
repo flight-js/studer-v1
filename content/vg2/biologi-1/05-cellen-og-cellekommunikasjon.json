@@ -1,0 +1,85 @@
+{
+  "id": "cellen-og-cellekommunikasjon",
+  "fagId": "biologi-1",
+  "trinnId": "vg2",
+  "name": "Cellen, membraner og cellekommunikasjon",
+  "intro": "Cellens organeller og hva de gjør, oppbygningen av cellemembranen, transport gjennom membranen og hvordan celler kommuniserer med signalmolekyler og reseptorer.",
+  "kompetansemaal": [5],
+  "sammendrag": "## Cellen – livets minste enhet\n\nAlle organismer består av **celler**. **Prokaryote** celler (bakterier og arker) er små og mangler cellekjerne; DNA-et ligger fritt i cellen. **Eukaryote** celler er større og har **cellekjerne** og **organeller** omgitt av membraner.\n\n## Organeller og funksjon\n\n- **Cellekjernen** inneholder **DNA** og styrer cellen.\n- **Ribosomer** lager **proteiner** etter oppskriften i DNA.\n- **Endoplasmatisk nettverk** (ER): Det **ru** ER har ribosomer og lager proteiner som skal ut av cellen eller inn i membraner; det **glatte** ER lager blant annet lipider.\n- **Golgiapparatet** bearbeider, sorterer og pakker proteiner i **vesikler**.\n- **Mitokondriene** står for **celleåndingen** og lager ATP.\n- **Lysosomer** bryter ned avfall og gamle cellebestanddeler.\n- **Planteceller** har i tillegg **cellevegg** av cellulose, **kloroplaster** for fotosyntese og en stor **vakuole**.\n\nStruktur henger sammen med funksjon: **Muskelceller** har mange mitokondrier, og celler som lager mye protein, som i bukspyttkjertelen, har mye ru ER.\n\n## Cellemembranen\n\nCellemembranen er et **dobbeltlag av fosfolipider**. Fosfolipidene har et **vannelskende** hode og to **vannskyende** haler, og halene vender innover. I membranen sitter **proteiner** som fungerer som kanaler, pumper, reseptorer og identitetsmerker. Modellen kalles **væske-mosaikk-modellen**, fordi molekylene kan bevege seg sideveis.\n\nMembranen er **selektivt permeabel**: Små, upolare molekyler som O₂ og CO₂ slipper lett gjennom, mens ioner og store molekyler trenger hjelp.\n\n## Transport gjennom membranen\n\n- **Diffusjon**: fra høy til lav konsentrasjon, uten energi.\n- **Osmose**: diffusjon av **vann** gjennom en membran.\n- **Fasilitert diffusjon**: gjennom **kanal-** eller **bærerproteiner**, fortsatt uten energi.\n- **Aktiv transport**: **mot** konsentrasjonsforskjellen, med energi fra **ATP**. **Natrium-kalium-pumpen** er et viktig eksempel.\n- **Endocytose** og **eksocytose**: Store partikler tas inn eller sendes ut i **vesikler**.\n\n## Kommunikasjon mellom celler\n\nI en flercellet organisme må cellene **samarbeide**. De kommuniserer med **signalmolekyler**, som **hormoner** og **signalstoffer** (nevrotransmittere).\n\n1. En celle sender ut et **signalmolekyl**.\n2. Molekylet binder seg til en **reseptor** med passende form på **målcellen** – som en nøkkel i en lås.\n3. Bindingen setter i gang en **signalkjede** inne i cellen.\n4. Cellen gir en **respons**, for eksempel ved å aktivere et gen eller et enzym.\n\n**Vannløselige** signalmolekyler, som insulin, binder seg til reseptorer i **membranen**. **Fettløselige** hormoner, som østrogen og testosteron, kan gå gjennom membranen og binde seg til reseptorer **inne i cellen**.\n\n**Eksempel**: Når insulin binder seg til reseptoren sin, blir flere **glukosetransportører** flyttet til membranen, og cellen tar opp mer glukose.\n\nMellom **nerveceller** skjer kommunikasjonen i **synapser**, der signalstoffer krysser en smal spalte og binder seg til reseptorer på neste celle.",
+  "flashcards": [
+    { "term": "Prokaryot celle", "def": "Liten celle uten cellekjerne." },
+    { "term": "Eukaryot celle", "def": "Celle med cellekjerne og membranomsluttede organeller." },
+    { "term": "Ribosom", "def": "Lager proteiner." },
+    { "term": "Ru ER", "def": "Endoplasmatisk nettverk med ribosomer – lager proteiner." },
+    { "term": "Golgiapparatet", "def": "Bearbeider, sorterer og pakker proteiner i vesikler." },
+    { "term": "Mitokondrie", "def": "Står for celleåndingen og lager ATP." },
+    { "term": "Lysosom", "def": "Bryter ned avfall i cellen." },
+    { "term": "Fosfolipid-dobbeltlag", "def": "Grunnstrukturen i cellemembranen." },
+    { "term": "Væske-mosaikk-modellen", "def": "Membranen er en bevegelig mosaikk av lipider og proteiner." },
+    { "term": "Selektivt permeabel", "def": "Slipper noen stoffer gjennom, men ikke andre." },
+    { "term": "Osmose", "def": "Diffusjon av vann gjennom en membran." },
+    { "term": "Fasilitert diffusjon", "def": "Diffusjon gjennom kanal- eller bærerproteiner uten energi." },
+    { "term": "Aktiv transport", "def": "Transport mot konsentrasjonsforskjellen med energi fra ATP." },
+    { "term": "Natrium-kalium-pumpen", "def": "Membranprotein som pumper ioner aktivt." },
+    { "term": "Reseptor", "def": "Protein som et signalmolekyl binder seg til." },
+    { "term": "Synapse", "def": "Koblingen mellom to nerveceller." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvilken organelle lager ATP gjennom celleånding?", "options": ["Ribosomet", "Mitokondrien", "Golgiapparatet", "Lysosomet"], "correct": 1, "explain": "Muskelceller har mange mitokondrier." },
+    { "id": "q02", "text": "Hva er cellemembranen bygd opp av?", "options": ["Et dobbeltlag av fosfolipider med proteiner", "Cellulose", "Bare proteiner", "DNA"], "correct": 0, "explain": "Væske-mosaikk-modellen." },
+    { "id": "q03", "text": "Hva kjennetegner aktiv transport?", "options": ["Den skjer fra høy til lav konsentrasjon uten energi", "Den gjelder bare vann", "Den skjer mot konsentrasjonsforskjellen og krever ATP", "Den skjer bare i planter"], "correct": 2, "explain": "For eksempel natrium-kalium-pumpen." },
+    { "id": "q04", "text": "Hva er osmose?", "options": ["Transport av store partikler i vesikler", "Aktiv transport av ioner", "Nedbryting av avfall", "Diffusjon av vann gjennom en membran"], "correct": 3, "explain": "Vann går mot høyere konsentrasjon av oppløste stoffer." },
+    { "id": "q05", "text": "Hvor binder insulin seg på målcellen?", "options": ["Til en reseptor i cellemembranen", "Til DNA i cellekjernen", "Til mitokondriene", "Til celleveggen"], "correct": 0, "explain": "Insulin er vannløselig." },
+    { "id": "q06", "text": "Hvilke strukturer har planteceller, men ikke dyreceller?", "options": ["Mitokondrier og ribosomer", "Cellevegg og kloroplaster", "Cellekjerne og lysosomer", "Cellemembran og ER"], "correct": 1, "explain": "Og en stor vakuole." },
+    { "id": "q07", "text": "Hva gjør golgiapparatet?", "options": ["Lager ATP", "Lagrer DNA", "Bearbeider, sorterer og pakker proteiner", "Lager fotosyntese"], "correct": 2, "explain": "Proteinene sendes videre i vesikler." },
+    { "id": "q08", "text": "Hvorfor kan fettløselige hormoner binde seg til reseptorer inne i cellen?", "options": ["Fordi de er veldig store", "Fordi de har egne kanaler", "Fordi de bruker aktiv transport", "Fordi de kan gå gjennom fosfolipid-dobbeltlaget"], "correct": 3, "explain": "Membranen har en fettaktig kjerne." },
+    { "id": "q09", "text": "Hvilke stoffer slipper lettest gjennom cellemembranen?", "options": ["Små, upolare molekyler som O₂ og CO₂", "Store proteiner", "Ioner", "Glukose uten hjelp"], "correct": 0, "explain": "De løser seg i lipidlaget." },
+    { "id": "q10", "text": "Hvor skjer kommunikasjonen mellom to nerveceller?", "options": ["I mitokondriene", "I synapsen", "I cellekjernen", "I blodet"], "correct": 1, "explain": "Signalstoffer krysser en smal spalte." }
+  ],
+  "mindmap": {
+    "label": "Cellen og kommunikasjon",
+    "children": [
+      { "label": "Celletyper", "children": [
+        { "label": "Prokaryot" },
+        { "label": "Eukaryot" },
+        { "label": "Plantecelle" }
+      ] },
+      { "label": "Organeller", "children": [
+        { "label": "Kjerne og ribosomer" },
+        { "label": "ER og golgi" },
+        { "label": "Mitokondrier" }
+      ] },
+      { "label": "Membranen", "children": [
+        { "label": "Fosfolipid-dobbeltlag" },
+        { "label": "Proteiner" },
+        { "label": "Selektivt permeabel" }
+      ] },
+      { "label": "Transport", "children": [
+        { "label": "Diffusjon og osmose" },
+        { "label": "Fasilitert diffusjon" },
+        { "label": "Aktiv transport" },
+        { "label": "Endo- og eksocytose" }
+      ] },
+      { "label": "Kommunikasjon", "children": [
+        { "label": "Signalmolekyl" },
+        { "label": "Reseptor" },
+        { "label": "Signalkjede og respons" },
+        { "label": "Synapse" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Prokaryote celler mangler cellekjerne.", "correct": true, "explain": "DNA-et ligger fritt i cellen." },
+      { "id": "m02", "type": "sant-usant", "text": "Fasilitert diffusjon krever energi fra ATP.", "correct": false, "explain": "Den skjer med konsentrasjonsforskjellen, uten energi." },
+      { "id": "m03", "type": "sant-usant", "text": "Celler som lager mye protein, har gjerne mye ru ER.", "correct": true, "explain": "Struktur henger sammen med funksjon." },
+      { "id": "m04", "type": "sant-usant", "text": "Alle hormoner påvirker alle celler i kroppen.", "correct": false, "explain": "Bare celler med riktig reseptor påvirkes." },
+      { "id": "m05", "type": "flervalg", "text": "Hva skjer når insulin binder seg til reseptoren sin?", "options": ["Cellen deler seg", "Flere glukosetransportører flyttes til membranen", "Cellen dør", "Membranen løses opp"], "correct": 1, "explain": "Cellen tar opp mer glukose." },
+      { "id": "m06", "type": "flervalg", "text": "Hvordan tar en hvit blodcelle inn en bakterie?", "options": ["Ved endocytose", "Ved osmose", "Ved diffusjon", "Gjennom en ionekanal"], "correct": 0, "explain": "Store partikler tas inn i vesikler." },
+      { "id": "m07", "type": "flervalg", "text": "Hva gjør lysosomene?", "options": ["Lager proteiner", "Lager ATP", "Bryter ned avfall i cellen", "Lagrer DNA"], "correct": 2, "explain": "De inneholder nedbrytende enzymer." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

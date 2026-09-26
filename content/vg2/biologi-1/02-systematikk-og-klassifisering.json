@@ -1,0 +1,80 @@
+{
+  "id": "systematikk-og-klassifisering",
+  "fagId": "biologi-1",
+  "trinnId": "vg2",
+  "name": "Systematikk og klassifisering",
+  "intro": "Hvordan vi ordner livets mangfold – fra Linnés system og taksonomiske nivåer til tre domener og slektstrær basert på DNA – og hvordan ny teknologi har endret kriteriene.",
+  "kompetansemaal": [2],
+  "sammendrag": "## Hvorfor klassifisere?\n\nDet finnes millioner av arter på jorda, og de fleste er ennå ikke beskrevet. **Systematikk** er faget som **navngir**, **ordner** og finner **slektskapet** mellom organismer. **Taksonomi** er læren om å beskrive og navngi arter.\n\n## Linnés system\n\nDen svenske naturforskeren **Carl von Linné** innførte på 1700-tallet **binomial nomenklatur** – et vitenskapelig navn i to deler: **slekt** og **artsepitet**, som *Homo sapiens* (menneske) og *Picea abies* (gran). Slik unngår vi forvirring med lokale navn.\n\nOrganismene ordnes i **taksonomiske nivåer**: **domene – rike – rekke – klasse – orden – familie – slekt – art**. Jo lavere nivå, desto nærmere beslektet.\n\n## Hva er en art?\n\nEtter det **biologiske artsbegrepet** er en art en gruppe individer som kan få **fruktbart avkom** sammen. Hest og esel kan få muldyr, men muldyret er vanligvis sterilt – derfor er de to arter. Begrepet passer dårlig for organismer som formerer seg ukjønnet, som bakterier, og for utdødde arter.\n\n## Kriteriene har endret seg med teknologien\n\n- **Før mikroskopet** ble organismer delt inn etter **utseende** (morfologi): planter og dyr.\n- **Lysmikroskopet** (1600-tallet) avslørte **encellede** organismer.\n- **Elektronmikroskopet** (1900-tallet) viste forskjellen på **prokaryote** celler uten cellekjerne og **eukaryote** celler med cellekjerne og organeller.\n- **DNA-sekvensering** gjør det mulig å sammenligne **gener** direkte. På 1970-tallet viste **Carl Woese** at prokaryotene består av to svært ulike grupper. I dag deler vi livet inn i **tre domener**: **bakterier**, **arker** (arkebakterier) og **eukaryoter**.\n\n## Slektstrær\n\nModerne systematikk bygger på **evolusjon**: Grupper skal helst bestå av en **felles stamform** og **alle** dens etterkommere. Slektskapet vises i **fylogenetiske trær**, der hvert forgreningspunkt er en felles stamform.\n\nDNA har gitt flere overraskelser:\n\n- **Sopp** er nærmere i slekt med **dyr** enn med planter.\n- **Hvalene** har sine nærmeste levende slektninger blant **flodhestene**.\n- **Fuglene** er etterkommere av dinosaurer.\n\n## Fellestrekk og variasjon\n\nAlle organismer har **fellestrekk** som viser felles opphav: celler, DNA som arvestoff, den samme **genetiske koden** og ATP som energibærer. Samtidig er det enorm **variasjon** i størrelse, form, levested og levesett.\n\nLikheter kan også skyldes **konvergent evolusjon**: Vingene til flaggermus og insekter har samme funksjon, men har utviklet seg uavhengig av hverandre. Slike **analoge** trekk sier ikke noe om nært slektskap, i motsetning til **homologe** trekk med felles opphav, som armen til mennesket og luffen til hvalen.",
+  "flashcards": [
+    { "term": "Systematikk", "def": "Faget som navngir, ordner og finner slektskap mellom organismer." },
+    { "term": "Taksonomi", "def": "Læren om å beskrive og navngi arter." },
+    { "term": "Binomial nomenklatur", "def": "Vitenskapelig navn i to deler: slekt og artsepitet." },
+    { "term": "Carl von Linné", "def": "Svensk naturforsker som innførte systemet på 1700-tallet." },
+    { "term": "Taksonomiske nivåer", "def": "Domene, rike, rekke, klasse, orden, familie, slekt, art." },
+    { "term": "Biologisk artsbegrep", "def": "Individer som kan få fruktbart avkom sammen." },
+    { "term": "Prokaryot celle", "def": "Celle uten cellekjerne, som bakterier og arker." },
+    { "term": "Eukaryot celle", "def": "Celle med cellekjerne og organeller." },
+    { "term": "Tre domener", "def": "Bakterier, arker og eukaryoter." },
+    { "term": "Carl Woese", "def": "Viste med genanalyser at arkene er et eget domene." },
+    { "term": "Fylogenetisk tre", "def": "Slektstre som viser evolusjonært slektskap." },
+    { "term": "Felles stamform", "def": "Forgreningspunkt i slektstreet." },
+    { "term": "Homologe trekk", "def": "Trekk med felles opphav, som menneskearm og hvalluffe." },
+    { "term": "Analoge trekk", "def": "Lik funksjon utviklet uavhengig, som vinger hos insekter og flaggermus." },
+    { "term": "Konvergent evolusjon", "def": "At ulike grupper utvikler like trekk uavhengig av hverandre." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er binomial nomenklatur?", "options": ["Et system med tre riker", "Et vitenskapelig navn i to deler", "En metode for DNA-analyse", "En type slektstre"], "correct": 1, "explain": "For eksempel Homo sapiens." },
+    { "id": "q02", "text": "Hva er de tre domenene?", "options": ["Bakterier, arker og eukaryoter", "Planter, dyr og sopp", "Virus, bakterier og sopp", "Fisk, fugler og pattedyr"], "correct": 0, "explain": "Inndelingen bygger på genanalyser." },
+    { "id": "q03", "text": "Hvorfor regnes hest og esel som to arter?", "options": ["De har ulik farge", "De lever på ulike kontinenter", "Avkommet (muldyret) er vanligvis sterilt", "De spiser forskjellig mat"], "correct": 2, "explain": "Biologisk artsbegrep: fruktbart avkom." },
+    { "id": "q04", "text": "Hvilken teknologi viste forskjellen på prokaryote og eukaryote celler tydelig?", "options": ["Lupen", "Kikkerten", "Røntgen", "Elektronmikroskopet"], "correct": 3, "explain": "Det viste cellens indre strukturer." },
+    { "id": "q05", "text": "Hvilken gruppe er sopp nærmest i slekt med?", "options": ["Dyr", "Planter", "Bakterier", "Arker"], "correct": 0, "explain": "DNA-analyser viser dette." },
+    { "id": "q06", "text": "Hva viser et fylogenetisk tre?", "options": ["Hvor artene lever", "Evolusjonært slektskap", "Næringskjeder", "Hvor store artene er"], "correct": 1, "explain": "Forgreningspunktene er felles stamformer." },
+    { "id": "q07", "text": "Hvilket par er et eksempel på analoge trekk?", "options": ["Menneskearm og hvalluffe", "Hundens og ulvens tenner", "Vinger hos insekter og flaggermus", "Fuglevinge og dinosaurforbein"], "correct": 2, "explain": "Samme funksjon, uavhengig opphav." },
+    { "id": "q08", "text": "Hvilket taksonomisk nivå er lavest?", "options": ["Familie", "Rike", "Klasse", "Art"], "correct": 3, "explain": "Domene er høyest, art lavest." },
+    { "id": "q09", "text": "Hvilket fellestrekk viser at alt liv har felles opphav?", "options": ["Den samme genetiske koden", "At alle har cellekjerne", "At alle kan fotosyntese", "At alle har bein"], "correct": 0, "explain": "Også DNA som arvestoff og ATP." },
+    { "id": "q10", "text": "Hvilke dyr er hvalenes nærmeste levende slektninger?", "options": ["Haier", "Flodhester", "Seler", "Sjøkuer"], "correct": 1, "explain": "Det viser DNA-analyser." }
+  ],
+  "mindmap": {
+    "label": "Systematikk",
+    "children": [
+      { "label": "Linné", "children": [
+        { "label": "Binomial nomenklatur" },
+        { "label": "Taksonomiske nivåer" }
+      ] },
+      { "label": "Art", "children": [
+        { "label": "Fruktbart avkom" },
+        { "label": "Svakheter ved begrepet" }
+      ] },
+      { "label": "Teknologi", "children": [
+        { "label": "Morfologi" },
+        { "label": "Mikroskop" },
+        { "label": "DNA-sekvensering" }
+      ] },
+      { "label": "Tre domener", "children": [
+        { "label": "Bakterier" },
+        { "label": "Arker" },
+        { "label": "Eukaryoter" }
+      ] },
+      { "label": "Slektskap", "children": [
+        { "label": "Fylogenetiske trær" },
+        { "label": "Homologe og analoge trekk" },
+        { "label": "Fellestrekk og variasjon" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Fuglene regnes som etterkommere av dinosaurer.", "correct": true, "explain": "Det viser både fossiler og slektskapsanalyser." },
+      { "id": "m02", "type": "sant-usant", "text": "Bakterier og arker har cellekjerne.", "correct": false, "explain": "De er prokaryote og mangler cellekjerne." },
+      { "id": "m03", "type": "sant-usant", "text": "Vitenskapelige navn gjør det lettere å forstå hverandre på tvers av språk.", "correct": true, "explain": "Lokale navn varierer." },
+      { "id": "m04", "type": "sant-usant", "text": "Linné brukte DNA for å klassifisere arter.", "correct": false, "explain": "Linné levde på 1700-tallet og brukte utseende." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er slektsnavnet i Picea abies?", "options": ["abies", "Picea", "Pinaceae", "Plantae"], "correct": 1, "explain": "Første del er slekten." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er homologe trekk?", "options": ["Trekk med felles evolusjonært opphav", "Trekk med lik funksjon, men ulikt opphav", "Trekk som bare finnes hos planter", "Ervervede egenskaper"], "correct": 0, "explain": "For eksempel skjelettet i menneskearm og hvalluffe." },
+      { "id": "m07", "type": "flervalg", "text": "Hvorfor passer det biologiske artsbegrepet dårlig for bakterier?", "options": ["De er for små", "De lever i vann", "De formerer seg ukjønnet", "De har ikke DNA"], "correct": 2, "explain": "Begrepet bygger på kjønnet formering." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

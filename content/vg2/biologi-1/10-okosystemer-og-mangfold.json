@@ -1,0 +1,83 @@
+{
+  "id": "okosystemer-og-mangfold",
+  "fagId": "biologi-1",
+  "trinnId": "vg2",
+  "name": "Økosystemer og biologisk mangfold",
+  "intro": "Abiotiske og biotiske faktorer, samspill mellom arter, næringsnett og energistrøm, hva som forklarer biologisk mangfold – og spørsmålet om naturen har verdi i seg selv.",
+  "kompetansemaal": [10],
+  "sammendrag": "## Hva er et økosystem?\n\nEt **økosystem** består av alle **organismene** i et område og det **fysiske miljøet** de lever i. Eksempler er en innsjø, en granskog og et korallrev. Alle individene av én art i et område utgjør en **populasjon**, og alle populasjonene sammen er et **samfunn**.\n\n## Abiotiske og biotiske faktorer\n\n**Abiotiske faktorer** er de ikke-levende forholdene: **lys**, **temperatur**, **vann**, **næringsstoffer**, **pH**, **jordsmonn** og **vind**. Hver art har et **toleranseområde** for hver faktor. Den faktoren som er mest i **underskudd**, blir den **begrensende faktoren** – for eksempel nitrogen i mange skoger og fosfor i mange innsjøer.\n\n**Biotiske faktorer** er påvirkningene fra andre organismer:\n\n- **Konkurranse** om mat, lys eller plass – mellom individer av samme art eller mellom ulike arter.\n- **Predasjon**: Et rovdyr spiser byttedyr, og bestandene påvirker hverandre.\n- **Symbiose**: tett samliv. **Mutualisme** er til gjensidig nytte, som **sopprot** (mykorrhiza) mellom sopp og trær. **Parasittisme** er til nytte for parasitten og skade for verten.\n\nHver art har sin **nisje** – sin «rolle» i økosystemet, med levested, næring og samspill.\n\n## Energi og stoff\n\n- **Produsenter** (planter og alger) fanger lysenergi i fotosyntesen.\n- **Konsumenter** spiser andre organismer: planteetere, rovdyr og altetere.\n- **Nedbrytere** (bakterier og sopp) bryter ned dødt materiale og frigjør næringsstoffer.\n\nOrganismene er knyttet sammen i **næringskjeder** og **næringsnett** med flere **trofiske nivåer**. Bare omtrent **10 %** av energien går videre fra ett nivå til det neste; resten brukes til livsprosesser og avgis som varme. Derfor er det få topprovdyr. **Energien strømmer** gjennom økosystemet, mens **stoffene** – karbon, nitrogen og fosfor – går i **kretsløp**.\n\n## Hva forklarer det biologiske mangfoldet?\n\n**Biologisk mangfold** omfatter mangfold av **gener**, **arter** og **økosystemer**. Mangfoldet er størst i **tropiske regnskoger** og på **korallrev**. Viktige forklaringer er:\n\n- **Evolusjon** og **artsdannelse** over lang tid\n- **Varierte leveområder** med mange nisjer\n- **Stabilt klima** og mye **energi** fra sola\n- **Moderate forstyrrelser**, som gir plass til nye arter uten å ødelegge alt\n- **Nøkkelarter**, som har stor betydning for andre arter. **Beveren** lager dammer som skaper nye leveområder.\n\nEt artsrikt økosystem er ofte mer **robust** mot endringer.\n\n## Naturens verdi\n\nNaturen gir oss **økosystemtjenester**: mat, rent vann, pollinering, flomdemping, karbonlagring og opplevelser. Dette er naturens **nytteverdi** for mennesker.\n\nMange mener at naturen også har en **egenverdi** – at arter og økosystemer har verdi **i seg selv**, uavhengig av nytten for oss. Den norske filosofen **Arne Næss** utviklet **dypøkologien**, som legger vekt på at alt liv har verdi. Spørsmålet om naturens egenverdi påvirker hvordan vi begrunner **vern** og hvordan vi veier naturen mot andre interesser.",
+  "flashcards": [
+    { "term": "Økosystem", "def": "Organismene i et område og det fysiske miljøet de lever i." },
+    { "term": "Populasjon", "def": "Alle individene av én art i et område." },
+    { "term": "Abiotiske faktorer", "def": "Ikke-levende forhold som lys, temperatur og vann." },
+    { "term": "Biotiske faktorer", "def": "Påvirkninger fra andre organismer." },
+    { "term": "Toleranseområde", "def": "Området en art tåler for en miljøfaktor." },
+    { "term": "Begrensende faktor", "def": "Faktoren som er mest i underskudd." },
+    { "term": "Mutualisme", "def": "Samliv til gjensidig nytte, som sopprot." },
+    { "term": "Parasittisme", "def": "Samliv der parasitten har nytte og verten skade." },
+    { "term": "Nisje", "def": "En arts rolle i økosystemet." },
+    { "term": "Nedbrytere", "def": "Bakterier og sopp som bryter ned dødt materiale." },
+    { "term": "Trofisk nivå", "def": "Trinn i næringskjeden." },
+    { "term": "10 %-regelen", "def": "Omtrent 10 % av energien går videre til neste trofiske nivå." },
+    { "term": "Biologisk mangfold", "def": "Mangfold av gener, arter og økosystemer." },
+    { "term": "Nøkkelart", "def": "Art med stor betydning for andre arter, som beveren." },
+    { "term": "Økosystemtjenester", "def": "Goder naturen gir oss, som pollinering og rent vann." },
+    { "term": "Egenverdi", "def": "At naturen har verdi i seg selv." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvilken av disse er en abiotisk faktor?", "options": ["Konkurranse", "Temperatur", "Predasjon", "Parasittisme"], "correct": 1, "explain": "Abiotiske faktorer er ikke-levende." },
+    { "id": "q02", "text": "Hva er mutualisme?", "options": ["Samliv til gjensidig nytte", "At ett dyr spiser et annet", "At arter konkurrerer", "At en parasitt skader verten"], "correct": 0, "explain": "For eksempel sopprot mellom sopp og trær." },
+    { "id": "q03", "text": "Omtrent hvor mye energi går videre fra ett trofisk nivå til det neste?", "options": ["100 %", "50 %", "10 %", "1 ‰"], "correct": 2, "explain": "Resten brukes til livsprosesser og blir varme." },
+    { "id": "q04", "text": "Hva er en begrensende faktor?", "options": ["Den faktoren det er mest av", "Et rovdyr", "En art som begrenser andre", "Den faktoren som er mest i underskudd"], "correct": 3, "explain": "Den bestemmer veksten." },
+    { "id": "q05", "text": "Hvorfor er beveren en nøkkelart?", "options": ["Den lager dammer som skaper nye leveområder", "Den er det største dyret", "Den spiser alle fisker", "Den er utryddet"], "correct": 0, "explain": "Mange arter drar nytte av dammene." },
+    { "id": "q06", "text": "Hva gjør nedbryterne?", "options": ["Fanger lysenergi", "Bryter ned dødt materiale og frigjør næringsstoffer", "Spiser rovdyr", "Lager oksygen"], "correct": 1, "explain": "Bakterier og sopp." },
+    { "id": "q07", "text": "Hvor er det biologiske mangfoldet størst?", "options": ["I polarområdene", "I ørkener", "I tropiske regnskoger og på korallrev", "På høyfjellet"], "correct": 2, "explain": "Mye energi, stabilt klima og mange nisjer." },
+    { "id": "q08", "text": "Hva betyr det at naturen har egenverdi?", "options": ["At naturen kan selges", "At naturen bare er verdt det vi kan bruke", "At naturen er gratis", "At naturen har verdi i seg selv, uavhengig av nytten for oss"], "correct": 3, "explain": "Knyttet blant annet til dypøkologien." },
+    { "id": "q09", "text": "Hva er forskjellen på energi og stoffer i et økosystem?", "options": ["Energien strømmer gjennom, mens stoffene går i kretsløp", "Begge går i kretsløp", "Energien går i kretsløp, stoffene forsvinner", "Det er ingen forskjell"], "correct": 0, "explain": "Energien tapes som varme." },
+    { "id": "q10", "text": "Hvem utviklet dypøkologien?", "options": ["Carl von Linné", "Arne Næss", "Charles Darwin", "Rachel Carson"], "correct": 1, "explain": "En norsk filosof." }
+  ],
+  "mindmap": {
+    "label": "Økosystemer og mangfold",
+    "children": [
+      { "label": "Faktorer", "children": [
+        { "label": "Abiotiske" },
+        { "label": "Biotiske" },
+        { "label": "Begrensende faktor" }
+      ] },
+      { "label": "Samspill", "children": [
+        { "label": "Konkurranse" },
+        { "label": "Predasjon" },
+        { "label": "Symbiose" }
+      ] },
+      { "label": "Energi og stoff", "children": [
+        { "label": "Produsenter, konsumenter, nedbrytere" },
+        { "label": "Næringsnett" },
+        { "label": "10 %-regelen" }
+      ] },
+      { "label": "Mangfold", "children": [
+        { "label": "Gener, arter, økosystemer" },
+        { "label": "Nisjer og evolusjon" },
+        { "label": "Nøkkelarter" }
+      ] },
+      { "label": "Verdi", "children": [
+        { "label": "Økosystemtjenester" },
+        { "label": "Egenverdi" },
+        { "label": "Dypøkologi" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Et artsrikt økosystem er ofte mer robust mot endringer.", "correct": true, "explain": "Flere arter kan overta viktige roller." },
+      { "id": "m02", "type": "sant-usant", "text": "Energien i et økosystem går i kretsløp akkurat som karbon.", "correct": false, "explain": "Energien strømmer gjennom og tapes som varme." },
+      { "id": "m03", "type": "sant-usant", "text": "Pollinering er et eksempel på en økosystemtjeneste.", "correct": true, "explain": "Mange matplanter er avhengige av insekter." },
+      { "id": "m04", "type": "sant-usant", "text": "Parasittisme er til nytte for begge parter.", "correct": false, "explain": "Verten tar skade." },
+      { "id": "m05", "type": "flervalg", "text": "Hvorfor er det få topprovdyr i et økosystem?", "options": ["De formerer seg ikke", "Det er lite energi igjen på de øverste trofiske nivåene", "De spiser hverandre", "De trenger ikke mat"], "correct": 1, "explain": "Bare omtrent 10 % går videre per nivå." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilke tre nivåer omfatter biologisk mangfold?", "options": ["Gener, arter og økosystemer", "Planter, dyr og sopp", "Land, hav og luft", "Celler, organer og kropper"], "correct": 0, "explain": "Alle tre er viktige for naturen." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er en nisje?", "options": ["Et hull i et tre", "En gruppe arter", "En arts rolle i økosystemet", "Et naturreservat"], "correct": 2, "explain": "Levested, næring og samspill." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

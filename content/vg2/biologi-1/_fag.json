@@ -1,0 +1,68 @@
+{
+  "id": "biologi-1",
+  "trinnId": "vg2",
+  "name": "Biologi 1",
+  "lareplan": {
+    "kode": "BIO01-02",
+    "url": "https://www.udir.no/lk20/bio01-02/kompetansemaal-og-vurdering/kv538",
+    "kompetansemaal": [
+      {
+        "nr": 1,
+        "tekst": "planleggje og gjennomføre undersøkingar, samle, behandle og tolke data, og presentere resultat og funn"
+      },
+      {
+        "nr": 2,
+        "tekst": "utforske korleis dei taksonomiske kriteria har endra seg i tråd med den teknologiske utviklinga, og samanlikne organismar med omsyn til fellestrekk og variasjon"
+      },
+      {
+        "nr": 3,
+        "tekst": "utforske samanhengar mellom anatomi og fysiologi og gjere greie for prinsippa for livsprosessane i organismar"
+      },
+      {
+        "nr": 4,
+        "tekst": "gjere greie for korleis utvalde reguleringsmekanismar styrer homeostase hos mennesket, og undersøkje korleis livsstil kan påverke disse mekanismane"
+      },
+      {
+        "nr": 5,
+        "tekst": "utforske samanhengar mellom cellestrukturar og -funksjonar og gjere greie for korleis cellulære membranar dannar grunnlag for kommunikasjon mellom celler"
+      },
+      {
+        "nr": 6,
+        "tekst": "samanlikne korleis ulike celler deler seg, og gjere greie for kvifor regulering av celledeling er viktig for vekst og reparasjon"
+      },
+      {
+        "nr": 7,
+        "tekst": "gjere greie for korleis virale og mikrobielle sjukdommar oppstår, spreier seg og blir nedkjempa"
+      },
+      {
+        "nr": 8,
+        "tekst": "drøfte korleis vaksinar førebyggjer og vernar mot sjukdom på individ- og populasjonsnivå"
+      },
+      {
+        "nr": 9,
+        "tekst": "gjere greie for bruk av antibiotika og drøfte moglege konsekvensar"
+      },
+      {
+        "nr": 10,
+        "tekst": "utforske abiotiske og biotiske faktorar i eit økosystem, drøfte samanhengar som forklarer det biologiske mangfaldet og reflekter over naturens eigenverdi"
+      },
+      {
+        "nr": 11,
+        "tekst": "utforske kva konsekvensar endringar i klima og arealutnytting kan ha for det biologiske mangfaldet, og drøfte tiltak for ei meir berekraftig forvaltning"
+      }
+    ]
+  },
+  "temaer": [
+    "biologisk-metode",
+    "systematikk-og-klassifisering",
+    "anatomi-og-fysiologi",
+    "homeostase",
+    "cellen-og-cellekommunikasjon",
+    "celledeling",
+    "sykdommer-og-immunforsvaret",
+    "vaksiner",
+    "antibiotika-og-resistens",
+    "okosystemer-og-mangfold",
+    "klima-arealbruk-og-mangfold"
+  ]
+}

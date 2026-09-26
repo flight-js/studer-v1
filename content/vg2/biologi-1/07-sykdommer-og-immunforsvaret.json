@@ -1,0 +1,82 @@
+{
+  "id": "sykdommer-og-immunforsvaret",
+  "fagId": "biologi-1",
+  "trinnId": "vg2",
+  "name": "Smittsomme sykdommer og immunforsvaret",
+  "intro": "Hvordan virus og bakterier gir sykdom og spres, og hvordan kroppens forsvar – fra hud og slimhinner til antistoffer, T-celler og hukommelsesceller – bekjemper dem.",
+  "kompetansemaal": [7],
+  "sammendrag": "## Sykdomsfremkallende organismer\n\nMikroorganismer som gir sykdom, kalles **patogener**. De viktigste er **bakterier**, **virus**, **sopp** og **parasitter**.\n\n- **Bakterier** er prokaryote **celler** som kan formere seg på egen hånd. De kan gi sykdom ved å **skade vev** eller lage **giftstoffer** (toksiner). Eksempler er streptokokker, salmonella og tuberkulose.\n- **Virus** er **ikke celler**. De består av arvestoff (DNA eller RNA) i en **proteinkapsel** og kan bare formere seg **inne i vertsceller**. Eksempler er influensa, koronavirus, HPV og HIV.\n\n## Hvordan virus formerer seg\n\n1. Viruset **fester seg** til reseptorer på en vertscelle.\n2. Arvestoffet kommer **inn** i cellen.\n3. Cellens maskineri blir brukt til å **kopiere** virusets arvestoff og lage **virusproteiner**.\n4. Nye viruspartikler **settes sammen**.\n5. De **frigjøres** og kan infisere nye celler – ofte blir vertscellen ødelagt.\n\n## Smitteveier\n\n- **Dråpe- og luftsmitte**: hosting og nysing (influensa, meslinger).\n- **Kontaktsmitte**: via hender og overflater.\n- **Mat og vann**: salmonella, norovirus.\n- **Blod og seksuell kontakt**: HIV, hepatitt B.\n- **Vektorer**: dyr som overfører smitte, som **flått** (borreliose) og **mygg** (malaria).\n\n**Zoonoser** er sykdommer som smitter mellom dyr og mennesker.\n\n## Kroppens forsvar\n\n**Førstelinjeforsvaret** hindrer patogener i å komme inn: **hud**, **slimhinner**, **flimmerhår**, **magesyre** og enzymer i tårer og spytt.\n\nDet **medfødte immunforsvaret** reagerer raskt og likt på alle inntrengere:\n\n- **Betennelse**: Blodårene utvider seg, og området blir rødt, varmt og hovent.\n- **Fagocytter** («eterceller»), som makrofager, **spiser** inntrengere.\n- **Feber** kan hemme formeringen til patogenene.\n\nDet **ervervede immunforsvaret** er **spesifikt** og retter seg mot bestemte **antigener** – molekyler på overflaten av patogenet:\n\n- **B-celler** blir til **plasmaceller** som lager **antistoffer**. Antistoffene binder seg til antigenet og merker patogenet for ødeleggelse.\n- **T-hjelpeceller** koordinerer forsvaret og aktiverer B-celler og andre T-celler.\n- **Drepende T-celler** dreper **infiserte** kroppsceller.\n- **Hukommelsesceller** blir igjen etter infeksjonen.\n\n## Immunitet\n\nFørste gang du møter et patogen, tar det noen dager før forsvaret er i gang – **primærresponsen**. Neste gang reagerer hukommelsescellene **raskt og kraftig** – **sekundærresponsen** – og ofte merker du ikke at du er smittet. Du er da **immun**.\n\n## Når forsvaret svekkes\n\n**HIV** angriper **T-hjelpecellene**. Uten behandling svekkes hele immunforsvaret, og vanlige infeksjoner kan bli livstruende (**aids**). Moderne medisiner kan holde viruset nede slik at man kan leve et langt liv.\n\n## Forebygging\n\n**Håndvask**, **god hygiene**, **trygg mat og vann**, **kondom**, **isolering** av syke og **vaksiner** begrenser smittespredning.",
+  "flashcards": [
+    { "term": "Patogen", "def": "Mikroorganisme som gir sykdom." },
+    { "term": "Bakterie", "def": "Prokaryot celle som kan formere seg på egen hånd." },
+    { "term": "Virus", "def": "Arvestoff i en proteinkapsel som bare formerer seg i vertsceller." },
+    { "term": "Toksin", "def": "Giftstoff som enkelte bakterier lager." },
+    { "term": "Vektor", "def": "Dyr som overfører smitte, som flått og mygg." },
+    { "term": "Zoonose", "def": "Sykdom som smitter mellom dyr og mennesker." },
+    { "term": "Førstelinjeforsvaret", "def": "Hud, slimhinner, flimmerhår og magesyre." },
+    { "term": "Betennelse", "def": "Rødhet, varme og hevelse når forsvaret aktiveres." },
+    { "term": "Fagocytt", "def": "Hvit blodcelle som spiser inntrengere." },
+    { "term": "Antigen", "def": "Molekyl som immunforsvaret gjenkjenner." },
+    { "term": "Antistoff", "def": "Protein fra plasmaceller som binder seg til antigener." },
+    { "term": "T-hjelpecelle", "def": "Koordinerer og aktiverer immunforsvaret." },
+    { "term": "Drepende T-celle", "def": "Dreper infiserte kroppsceller." },
+    { "term": "Hukommelsescelle", "def": "Husker patogenet og gir rask respons neste gang." },
+    { "term": "Sekundærrespons", "def": "Rask og kraftig respons ved nytt møte med samme patogen." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er den viktigste forskjellen på virus og bakterier?", "options": ["Virus er større", "Virus er ikke celler og formerer seg bare i vertsceller", "Bakterier har ikke arvestoff", "Virus kan behandles med antibiotika"], "correct": 1, "explain": "Bakterier er selvstendige celler." },
+    { "id": "q02", "text": "Hva lager plasmacellene?", "options": ["Antistoffer", "Toksiner", "Virus", "Hormoner"], "correct": 0, "explain": "De utvikles fra B-celler." },
+    { "id": "q03", "text": "Hvilken celle dreper infiserte kroppsceller?", "options": ["B-cellen", "Den røde blodcellen", "Den drepende T-cellen", "Plasmacellen"], "correct": 2, "explain": "Slik stoppes virusformeringen." },
+    { "id": "q04", "text": "Hva er en vektor i smittesammenheng?", "options": ["En type antistoff", "Et virus", "En hvit blodcelle", "Et dyr som overfører smitte"], "correct": 3, "explain": "For eksempel flått og mygg." },
+    { "id": "q05", "text": "Hvorfor blir du ofte ikke syk andre gang du møter samme patogen?", "options": ["Hukommelsescellene gir en rask og kraftig respons", "Patogenet er svakere", "Huden er tykkere", "Du har feber"], "correct": 0, "explain": "Sekundærresponsen." },
+    { "id": "q06", "text": "Hvilke celler angriper HIV?", "options": ["Røde blodceller", "T-hjelpeceller", "Nerveceller", "Hudceller"], "correct": 1, "explain": "Hele immunforsvaret svekkes." },
+    { "id": "q07", "text": "Hva hører til førstelinjeforsvaret?", "options": ["Antistoffer", "T-celler", "Hud og slimhinner", "Hukommelsesceller"], "correct": 2, "explain": "Det hindrer patogener i å komme inn." },
+    { "id": "q08", "text": "Hva er et antigen?", "options": ["Et legemiddel", "En hvit blodcelle", "Et hormon", "Et molekyl som immunforsvaret gjenkjenner"], "correct": 3, "explain": "Ofte på overflaten av patogenet." },
+    { "id": "q09", "text": "Hva er en zoonose?", "options": ["En sykdom som smitter mellom dyr og mennesker", "En sykdom bare hos planter", "En arvelig sykdom", "En sykdom uten symptomer"], "correct": 0, "explain": "Mange nye sykdommer har kommet fra dyr." },
+    { "id": "q10", "text": "Hva gjør fagocyttene?", "options": ["Lager antistoffer", "Spiser inntrengere", "Frakter oksygen", "Lager hormoner"], "correct": 1, "explain": "De er del av det medfødte forsvaret." }
+  ],
+  "mindmap": {
+    "label": "Sykdom og immunforsvar",
+    "children": [
+      { "label": "Patogener", "children": [
+        { "label": "Bakterier" },
+        { "label": "Virus" },
+        { "label": "Sopp og parasitter" }
+      ] },
+      { "label": "Smitte", "children": [
+        { "label": "Dråper og luft" },
+        { "label": "Kontakt, mat, blod" },
+        { "label": "Vektorer" }
+      ] },
+      { "label": "Medfødt forsvar", "children": [
+        { "label": "Hud og slimhinner" },
+        { "label": "Betennelse" },
+        { "label": "Fagocytter" }
+      ] },
+      { "label": "Ervervet forsvar", "children": [
+        { "label": "B-celler og antistoffer" },
+        { "label": "T-hjelpeceller" },
+        { "label": "Drepende T-celler" }
+      ] },
+      { "label": "Immunitet", "children": [
+        { "label": "Hukommelsesceller" },
+        { "label": "Primær- og sekundærrespons" },
+        { "label": "HIV og aids" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Virus kan bare formere seg inne i levende celler.", "correct": true, "explain": "De bruker cellens maskineri." },
+      { "id": "m02", "type": "sant-usant", "text": "Det medfødte immunforsvaret retter seg mot helt bestemte antigener.", "correct": false, "explain": "Det reagerer likt på alle inntrengere; det ervervede er spesifikt." },
+      { "id": "m03", "type": "sant-usant", "text": "Borreliose smitter med flått.", "correct": true, "explain": "Flåtten er en vektor." },
+      { "id": "m04", "type": "sant-usant", "text": "Primærresponsen er raskere enn sekundærresponsen.", "correct": false, "explain": "Sekundærresponsen er raskest takket være hukommelsescellene." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken sykdom skyldes et virus?", "options": ["Tuberkulose", "Influensa", "Salmonellose", "Borreliose"], "correct": 1, "explain": "De andre skyldes bakterier." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er tegn på betennelse?", "options": ["Rødhet, varme og hevelse", "Blekhet og kulde", "Kløe alene", "Ingen symptomer"], "correct": 0, "explain": "Blodårene utvider seg." },
+      { "id": "m07", "type": "flervalg", "text": "Hvordan smitter norovirus ofte?", "options": ["Med flått", "Gjennom blodoverføring", "Via mat, vann og kontakt", "Gjennom sollys"], "correct": 2, "explain": "God håndhygiene er viktig." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
