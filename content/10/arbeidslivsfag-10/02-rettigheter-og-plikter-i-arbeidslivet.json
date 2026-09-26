@@ -1,0 +1,85 @@
+{
+  "id": "rettigheter-og-plikter-i-arbeidslivet",
+  "fagId": "arbeidslivsfag-10",
+  "trinnId": "10",
+  "name": "Rettigheter og plikter i arbeidslivet",
+  "intro": "Arbeidsavtale, lønn og skatt, feriepenger, arbeidstid, regler for unge arbeidstakere, plikter som arbeidstaker, svart arbeid, fagforeninger og den norske modellen.",
+  "kompetansemaal": [7],
+  "sammendrag": "## Arbeidsavtale\n\nNår du får jobb, skal du ha en **skriftlig arbeidsavtale**. Den skal blant annet vise **arbeidsoppgaver**, **arbeidstid**, **lønn**, **oppsigelsestid** og om stillingen er **fast** eller **midlertidig**. Mange har **prøvetid** i starten, vanligvis inntil seks måneder.\n\n## Lønn og skatt\n\nLønnen kan være **timelønn** eller **fast månedslønn**. Du får en **lønnsslipp** som viser lønn, **skattetrekk** og andre trekk. Norge har ikke en generell minstelønn, men i noen bransjer er det bestemt en minstelønn gjennom **allmenngjorte tariffavtaler**. Tjener du lite i løpet av et år, kan du få **frikort**, som betyr at du ikke betaler skatt av inntekten opp til en viss grense. Grensen endres fra år til år.\n\n## Ferie og feriepenger\n\nEtter **ferieloven** har arbeidstakere rett til **fire uker og én dag** ferie i året. **Feriepenger** tjenes opp året før og er minst **10,2 prosent** av lønnen. Mange har avtale om fem ukers ferie og høyere feriepenger.\n\n## Arbeidstid\n\nNormal arbeidstid er etter arbeidsmiljøloven høyst **40 timer i uka** og **9 timer i døgnet**. Arbeid ut over dette er **overtid**, som gir **overtidstillegg** på minst **40 prosent**.\n\n## Regler for unge arbeidstakere\n\nArbeidsmiljøloven har egne regler for arbeidstakere **under 18 år**:\n\n- Barn **under 13 år** kan bare gjøre kulturelt arbeid, for eksempel som skuespiller.\n- Fra **13 år** kan man gjøre **lett arbeid** som ikke er farlig og ikke går ut over skolen, for eksempel avislevering.\n- For **skolepliktige** er arbeidstiden begrenset til noen få timer per skoledag, og det er grenser for arbeid om **kvelden og natta**.\n- Unge skal ikke gjøre **farlig arbeid** eller håndtere farlige stoffer og maskiner uten opplæring og tilsyn.\n\nArbeidsgiveren skal gi **opplæring** og sørge for at arbeidet er trygt.\n\n## Plikter som arbeidstaker\n\n- Møte **presis** og gi beskjed ved **sykdom**.\n- Følge **instrukser** og HMS-rutiner.\n- Være **lojal** mot arbeidsgiveren og ikke snakke nedsettende om bedriften.\n- Overholde **taushetsplikt** der den gjelder.\n- Behandle kolleger og kunder med **respekt**.\n\n## Svart arbeid\n\n**Svart arbeid** er arbeid der lønnen ikke blir oppgitt til skattemyndighetene. Det er ulovlig, og den som jobber svart, mister viktige **rettigheter**: sykepenger, feriepenger, pensjonsopptjening og forsikring ved ulykker.\n\n## Fagforeninger og den norske modellen\n\nEn **fagforening** er en organisasjon for arbeidstakere som forhandler om lønn og arbeidsvilkår. Arbeidsgiverne har egne **arbeidsgiverorganisasjoner**. Avtalene de inngår, kalles **tariffavtaler**. I **den norske modellen** samarbeider **arbeidstakere**, **arbeidsgivere** og **staten** – et **trepartssamarbeid** – om lønnsoppgjør og arbeidslivspolitikk. Hvis partene ikke blir enige, kan det bli **streik**.",
+  "flashcards": [
+    { "term": "Arbeidsavtale", "def": "Skriftlig avtale om arbeidsoppgaver, arbeidstid, lønn og oppsigelsestid." },
+    { "term": "Prøvetid", "def": "Periode i starten av en jobb, vanligvis inntil seks måneder." },
+    { "term": "Fast og midlertidig stilling", "def": "Fast stilling varer til den sies opp; midlertidig har en sluttdato." },
+    { "term": "Lønnsslipp", "def": "Oversikt over lønn, skattetrekk og andre trekk." },
+    { "term": "Frikort", "def": "Gjør at man ikke betaler skatt av inntekt opp til en viss grense." },
+    { "term": "Feriepenger", "def": "Penger man tjener opp året før, minst 10,2 prosent av lønnen." },
+    { "term": "Ferieloven", "def": "Loven som gir rett til fire uker og én dag ferie i året." },
+    { "term": "Normal arbeidstid", "def": "Høyst 40 timer i uka og 9 timer i døgnet." },
+    { "term": "Overtid", "def": "Arbeid ut over normal arbeidstid, med tillegg på minst 40 prosent." },
+    { "term": "Lett arbeid", "def": "Ufarlig arbeid som unge fra 13 år kan gjøre, som avislevering." },
+    { "term": "Lojalitetsplikt", "def": "Plikt til å ivareta arbeidsgiverens interesser." },
+    { "term": "Svart arbeid", "def": "Arbeid der lønnen ikke oppgis til skattemyndighetene." },
+    { "term": "Fagforening", "def": "Organisasjon for arbeidstakere som forhandler om lønn og vilkår." },
+    { "term": "Tariffavtale", "def": "Avtale mellom fagforening og arbeidsgiverorganisasjon om lønn og vilkår." },
+    { "term": "Trepartssamarbeidet", "def": "Samarbeid mellom arbeidstakere, arbeidsgivere og staten." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva skal en arbeidsavtale inneholde?", "options": ["Bare navnet ditt", "Arbeidsoppgaver, arbeidstid, lønn og oppsigelsestid", "Karakterene dine", "Hobbyene dine"], "correct": 1, "explain": "Alle arbeidstakere har rett til skriftlig arbeidsavtale." },
+    { "id": "q02", "text": "Hvor mye ferie har arbeidstakere rett til etter ferieloven?", "options": ["To uker", "Tre uker", "Fire uker og én dag", "Åtte uker"], "correct": 2, "explain": "Mange har avtale om fem uker." },
+    { "id": "q03", "text": "Hva er svart arbeid?", "options": ["Arbeid der lønnen ikke oppgis til skattemyndighetene", "Arbeid om natta", "Arbeid med farlige stoffer", "Arbeid i helgene"], "correct": 0, "explain": "Svart arbeid er ulovlig og gir ingen rettigheter." },
+    { "id": "q04", "text": "Hva er en fagforening?", "options": ["En idrettsklubb", "En del av staten", "En skole for fagarbeidere", "En organisasjon for arbeidstakere som forhandler om lønn og vilkår"], "correct": 3, "explain": "Fagforeningene er en viktig del av den norske modellen." },
+    { "id": "q05", "text": "Hva viser en lønnsslipp?", "options": ["Hvor mange timer du har sovet", "Lønn, skattetrekk og andre trekk", "Arbeidsoppgavene dine", "Hvem som er sjefen"], "correct": 1, "explain": "Det er lurt å sjekke lønnsslippen hver gang." },
+    { "id": "q06", "text": "Hva kan en 13-åring jobbe med?", "options": ["Farlig arbeid med maskiner", "Nattarbeid", "Lett arbeid, som avislevering", "Hva som helst"], "correct": 2, "explain": "Arbeidet må være ufarlig og ikke gå ut over skolen." },
+    { "id": "q07", "text": "Hva er en plikt du har som arbeidstaker?", "options": ["Å møte presis og følge instrukser", "Å bestemme lønna selv", "Å ta fri når du vil", "Å jobbe gratis"], "correct": 0, "explain": "Du skal også gi beskjed ved sykdom." },
+    { "id": "q08", "text": "Hvem samarbeider i trepartssamarbeidet?", "options": ["Elever, lærere og foreldre", "Kommunen, fylket og staten", "Arbeidstakere, arbeidsgivere og staten", "Tre bedrifter"], "correct": 2, "explain": "Trepartssamarbeidet er kjernen i den norske modellen." },
+    { "id": "q09", "text": "Hvor mye er feriepengene minst?", "options": ["5 prosent av lønnen", "25 prosent av lønnen", "1 prosent av lønnen", "10,2 prosent av lønnen"], "correct": 3, "explain": "Feriepengene tjenes opp året før." },
+    { "id": "q10", "text": "Hva er normal arbeidstid per uke etter arbeidsmiljøloven?", "options": ["Høyst 40 timer", "Høyst 20 timer", "Høyst 60 timer", "Det finnes ingen grense"], "correct": 0, "explain": "Arbeid ut over dette er overtid." }
+  ],
+  "mindmap": {
+    "label": "Rettigheter og plikter",
+    "children": [
+      { "label": "Arbeidsavtale", "children": [
+        { "label": "Skriftlig" },
+        { "label": "Fast eller midlertidig" },
+        { "label": "Prøvetid" }
+      ] },
+      { "label": "Lønn", "children": [
+        { "label": "Lønnsslipp" },
+        { "label": "Skatt og frikort" },
+        { "label": "Feriepenger" },
+        { "label": "Overtid" }
+      ] },
+      { "label": "Unge arbeidstakere", "children": [
+        { "label": "Lett arbeid fra 13 år" },
+        { "label": "Begrenset arbeidstid" },
+        { "label": "Ikke farlig arbeid" }
+      ] },
+      { "label": "Plikter", "children": [
+        { "label": "Presis" },
+        { "label": "Følge instrukser" },
+        { "label": "Lojalitet" },
+        { "label": "Taushetsplikt" }
+      ] },
+      { "label": "Den norske modellen", "children": [
+        { "label": "Fagforeninger" },
+        { "label": "Tariffavtaler" },
+        { "label": "Trepartssamarbeid" },
+        { "label": "Svart arbeid er ulovlig" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Den som jobber svart, mister retten til blant annet sykepenger.", "correct": true, "explain": "Svart arbeid gir ingen trygderettigheter." },
+      { "id": "m02", "type": "sant-usant", "text": "Norge har en generell minstelønn for alle yrker.", "correct": false, "explain": "Minstelønn gjelder bare i noen bransjer, gjennom allmenngjorte tariffavtaler." },
+      { "id": "m03", "type": "sant-usant", "text": "Arbeidsgiveren skal gi unge arbeidstakere opplæring.", "correct": true, "explain": "Opplæring er viktig for å unngå ulykker." },
+      { "id": "m04", "type": "sant-usant", "text": "Barn under 13 år kan ha vanlig deltidsjobb i butikk.", "correct": false, "explain": "Under 13 år er bare kulturelt arbeid tillatt." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er prøvetid?", "options": ["En periode i starten av en jobb, vanligvis inntil seks måneder", "En eksamen", "Tiden før man får lønn", "En type ferie"], "correct": 0, "explain": "I prøvetiden er oppsigelsestiden ofte kortere." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er en tariffavtale?", "options": ["En avtale om husleie", "En avtale mellom fagforening og arbeidsgiverorganisasjon om lønn og vilkår", "En kjøpekontrakt", "En skatteregel"], "correct": 1, "explain": "Tariffavtaler forhandles ved lønnsoppgjørene." },
+      { "id": "m07", "type": "flervalg", "text": "Hva kan skje hvis partene i et lønnsoppgjør ikke blir enige?", "options": ["Bedriften stenger for alltid", "Staten bestemmer lønna til alle", "Ingenting", "Det kan bli streik"], "correct": 3, "explain": "Streik er et lovlig virkemiddel i arbeidslivet." }
+    ]
+  },
+  "kvalitet": { "status": "sjekkes", "merknader": ["Sjekk reglene for unge arbeidstakere (aldersgrenser, arbeidstid og kveldsarbeid) mot arbeidsmiljøloven kap. 11 og forskrift om arbeid for barn og unge.", "Sjekk overtidstillegg (minst 40 %) og feriepengesats (10,2 %)."] }
+}

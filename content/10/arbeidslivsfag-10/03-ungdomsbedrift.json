@@ -1,0 +1,84 @@
+{
+  "id": "ungdomsbedrift",
+  "fagId": "arbeidslivsfag-10",
+  "trinnId": "10",
+  "name": "Elevbedrift og entreprenørskap",
+  "intro": "Hvordan elever kan starte og drive en bedrift: forretningsidé, markedsundersøkelse, målgruppe og konkurrenter, markedsføringsmiksen, roller, økonomi og avvikling.",
+  "kompetansemaal": [1, 5],
+  "sammendrag": "## Entreprenørskap\n\n**Entreprenørskap** betyr å se muligheter og gjøre **ideer om til handling**, for eksempel ved å starte en bedrift. En **entreprenør** er en person som gjør nettopp dette. I skolen kan man lære entreprenørskap gjennom **elevbedrift** på ungdomsskolen og **ungdomsbedrift** på videregående. Organisasjonen **Ungt Entreprenørskap** støtter skoler som driver slike bedrifter.\n\n## Forretningsidé\n\nEn **forretningsidé** svarer på tre spørsmål:\n\n- **Hva** skal vi tilby? (produkt eller tjeneste)\n- **Til hvem**? (målgruppe)\n- **Hvordan** skiller vi oss fra andre?\n\nGode ideer løser et **behov** eller et **problem** hos kundene.\n\n## Markedsundersøkelse\n\nFør bedriften starter, bør man gjøre en **markedsundersøkelse** for å finne ut om noen vil kjøpe produktet, og hva de vil betale. Det kan være en **spørreundersøkelse**, **intervjuer** eller å teste en **prototyp**. Man bør også se på **konkurrentene**: Hva tilbyr de, og til hvilken pris?\n\n## Markedsføringsmiksen – de fire P-ene\n\n- **Produkt**: Hva selger vi, og hvilken kvalitet har det?\n- **Pris**: Hva skal det koste?\n- **Plass**: Hvor og hvordan skal kundene få kjøpt det?\n- **Påvirkning**: Hvordan skal vi nå kundene, for eksempel med plakater, sosiale medier eller stand?\n\n## Roller i bedriften\n\n- **Daglig leder** – leder arbeidet og holder oversikt\n- **Økonomiansvarlig** – budsjett, regnskap og kasse\n- **Markedsansvarlig** – markedsføring og salg\n- **Produksjonsansvarlig** – innkjøp og produksjon\n\nViktige beslutninger tas i **styremøter**, og alle bør få komme med forslag. God kommunikasjon og tydelig ansvarsfordeling er avgjørende.\n\n## Økonomi\n\nMange elevbedrifter skaffer **startkapital** ved å selge **andeler** til familie og venner. Pengene brukes til innkjøp. Bedriften lager et **budsjett**, fører **regnskap** og regner ut **resultatet**:\n\n**Inntekter – kostnader = resultat**\n\nEr resultatet positivt, er det et **overskudd**. Er det negativt, er det et **underskudd**. **Nullpunktet** er antallet man må selge for at inntektene skal dekke kostnadene.\n\n## Avvikling\n\nEn elevbedrift **avvikles** ved slutten av skoleåret. Da selges resten av varelageret, eierne får tilbake andelene sine og eventuelt en del av overskuddet, og bedriften skriver en **årsrapport**. Kanskje gir den også noe av overskuddet til et **veldedig formål**.\n\n## Hva lærer man?\n\nGjennom en elevbedrift lærer man **samarbeid**, **kreativitet**, **økonomi**, **salg** og å ta **ansvar** – egenskaper som er nyttige i alle yrker.",
+  "flashcards": [
+    { "term": "Entreprenørskap", "def": "Å se muligheter og gjøre ideer om til handling." },
+    { "term": "Entreprenør", "def": "Person som starter og utvikler en virksomhet." },
+    { "term": "Elevbedrift", "def": "Bedrift drevet av elever på ungdomsskolen som læring." },
+    { "term": "Ungt Entreprenørskap", "def": "Organisasjon som støtter skoler som driver elev- og ungdomsbedrifter." },
+    { "term": "Forretningsidé", "def": "Beskrivelse av hva man tilbyr, til hvem, og hvordan man skiller seg ut." },
+    { "term": "Målgruppe", "def": "De kundene bedriften ønsker å nå." },
+    { "term": "Markedsundersøkelse", "def": "Undersøkelse av om noen vil kjøpe produktet, og til hvilken pris." },
+    { "term": "Konkurrent", "def": "Bedrift som tilbyr lignende produkter til de samme kundene." },
+    { "term": "De fire P-ene", "def": "Produkt, pris, plass og påvirkning." },
+    { "term": "Daglig leder", "def": "Person som leder arbeidet i bedriften." },
+    { "term": "Startkapital", "def": "Penger bedriften trenger for å komme i gang." },
+    { "term": "Andel", "def": "Eierandel i bedriften som selges for å skaffe startkapital." },
+    { "term": "Resultat", "def": "Inntekter minus kostnader." },
+    { "term": "Nullpunkt", "def": "Antallet man må selge for at inntektene skal dekke kostnadene." },
+    { "term": "Avvikling", "def": "Når bedriften avsluttes og eierne får tilbake pengene sine." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er entreprenørskap?", "options": ["Å jobbe i en stor bedrift", "Å se muligheter og gjøre ideer om til handling", "Å kjøpe aksjer", "Å være leder på skolen"], "correct": 1, "explain": "Entreprenører skaper noe nytt." },
+    { "id": "q02", "text": "Hvilke tre spørsmål svarer en forretningsidé på?", "options": ["Hva, til hvem og hvordan skiller vi oss ut?", "Hvor, når og hvorfor?", "Hvem, hva og hvor mye?", "Når, hvordan og hvor lenge?"], "correct": 0, "explain": "Forretningsideen er grunnlaget for bedriften." },
+    { "id": "q03", "text": "Hva er en målgruppe?", "options": ["Bedriftens ansatte", "Bedriftens konkurrenter", "Bedriftens eiere", "De kundene bedriften ønsker å nå"], "correct": 3, "explain": "Markedsføringen tilpasses målgruppen." },
+    { "id": "q04", "text": "Hva står de fire P-ene for?", "options": ["Penger, planer, personer og profitt", "Produkt, pris, plass og påvirkning", "Pakking, porto, post og papir", "Plan, prosess, produkt og presentasjon"], "correct": 1, "explain": "De fire P-ene kalles markedsføringsmiksen." },
+    { "id": "q05", "text": "Inntektene er 8000 kr og kostnadene 5500 kr. Hva er resultatet?", "options": ["13 500 kr", "5500 kr", "2500 kr i overskudd", "2500 kr i underskudd"], "correct": 2, "explain": "8000 – 5500 = 2500. Resultatet er positivt." },
+    { "id": "q06", "text": "Hva er nullpunktet?", "options": ["Antallet man må selge for at inntektene skal dekke kostnadene", "Når bedriften starter", "Når bedriften har null kunder", "Prisen på produktet"], "correct": 0, "explain": "Etter nullpunktet går bedriften med overskudd." },
+    { "id": "q07", "text": "Hvordan skaffer mange elevbedrifter startkapital?", "options": ["Ved å låne i banken", "Ved å selge andeler til familie og venner", "Ved å få penger fra staten", "Ved å ta pengene fra skolen"], "correct": 1, "explain": "Andelseierne får pengene tilbake ved avviklingen." },
+    { "id": "q08", "text": "Hva gjør den økonomiansvarlige i en elevbedrift?", "options": ["Lager plakater", "Produserer varene", "Leder styremøtene", "Har ansvar for budsjett, regnskap og kasse"], "correct": 3, "explain": "Markedsansvarlig lager plakater og driver salg." },
+    { "id": "q09", "text": "Hvorfor bør man gjøre en markedsundersøkelse?", "options": ["For å finne ut om noen vil kjøpe produktet og hva de vil betale", "For å slippe å lage produktet", "Fordi det er påbudt ved lov", "For å finne en daglig leder"], "correct": 0, "explain": "Da reduserer man risikoen for å lage noe ingen vil ha." },
+    { "id": "q10", "text": "Hva skjer når en elevbedrift avvikles?", "options": ["Eierne mister pengene sine", "Bedriften fortsetter for alltid", "Varelageret selges, eierne får tilbake andelene og det skrives årsrapport", "Skolen overtar bedriften"], "correct": 2, "explain": "Avviklingen skjer ved slutten av skoleåret." }
+  ],
+  "mindmap": {
+    "label": "Elevbedrift",
+    "children": [
+      { "label": "Idé", "children": [
+        { "label": "Behov" },
+        { "label": "Forretningsidé" },
+        { "label": "Målgruppe" }
+      ] },
+      { "label": "Marked", "children": [
+        { "label": "Markedsundersøkelse" },
+        { "label": "Konkurrenter" },
+        { "label": "De fire P-ene" }
+      ] },
+      { "label": "Organisering", "children": [
+        { "label": "Daglig leder" },
+        { "label": "Økonomi" },
+        { "label": "Marked" },
+        { "label": "Produksjon" }
+      ] },
+      { "label": "Økonomi", "children": [
+        { "label": "Andeler og startkapital" },
+        { "label": "Budsjett og regnskap" },
+        { "label": "Resultat" },
+        { "label": "Nullpunkt" }
+      ] },
+      { "label": "Avslutning", "children": [
+        { "label": "Avvikling" },
+        { "label": "Årsrapport" },
+        { "label": "Læring" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "En god forretningsidé løser et behov eller et problem hos kundene.", "correct": true, "explain": "Da er det mer sannsynlig at noen vil kjøpe." },
+      { "id": "m02", "type": "sant-usant", "text": "Et negativt resultat kalles overskudd.", "correct": false, "explain": "Et negativt resultat er et underskudd." },
+      { "id": "m03", "type": "sant-usant", "text": "Viktige beslutninger i elevbedriften kan tas på styremøter.", "correct": true, "explain": "Styremøtene gir alle mulighet til å komme med forslag." },
+      { "id": "m04", "type": "sant-usant", "text": "Konkurrentene er uten betydning for prisen man setter.", "correct": false, "explain": "Kundene sammenligner priser, så konkurrentene påvirker hva man kan ta betalt." },
+      { "id": "m05", "type": "flervalg", "text": "Hva handler P-en «plass» om?", "options": ["Hvor mye produktet koster", "Hvor og hvordan kundene får kjøpt produktet", "Hvor stort lokalet er", "Hvor mange ansatte bedriften har"], "correct": 1, "explain": "Det kan være en stand, en nettbutikk eller levering på døra." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilken organisasjon støtter elev- og ungdomsbedrifter i Norge?", "options": ["NAV", "Mattilsynet", "Arbeidstilsynet", "Ungt Entreprenørskap"], "correct": 3, "explain": "Ungt Entreprenørskap arrangerer også messer og konkurranser." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er startkapital?", "options": ["Penger bedriften trenger for å komme i gang", "Overskuddet ved slutten av året", "Lønnen til daglig leder", "Prisen på én vare"], "correct": 0, "explain": "Startkapitalen brukes blant annet til innkjøp." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
