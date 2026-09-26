@@ -1,0 +1,82 @@
+{
+  "id": "minnekultur",
+  "fagId": "historie-vg2",
+  "trinnId": "vg2",
+  "name": "Minnekultur – hvordan fortiden minnes",
+  "intro": "Hvordan fortiden minnes lokalt og nasjonalt – gjennom minnesmerker, merkedager, museer, navn og ritualer – hvem som bestemmer hva som huskes, og hvorfor minnekultur ofte skaper debatt.",
+  "kompetansemaal": [4],
+  "sammendrag": "## Hva er minnekultur?\n\n**Minnekultur** er måtene et samfunn **husker** og **markerer** fortiden på. Den viser hva vi mener er **viktig**, hvem vi er, og hvilke **verdier** vi vil bygge på. Minnekultur sier derfor ofte like mye om **samtiden** som om fortiden.\n\n## Former for minnekultur\n\n- **Minnesmerker og statuer** – for eksempel bautaer over falne i andre verdenskrig i mange bygder\n- **Merkedager** – **17. mai** (Grunnloven 1814), **8. mai** (frigjøringsdagen 1945), **6. februar** (samenes nasjonaldag)\n- **Museer** og **minnesteder** – som **Holocaust-senteret** i Oslo og **Falstadsenteret**\n- **Gatenavn** og **stedsnavn**\n- **Ritualer** – kransenedleggelser, minneord og stillhet\n- **Lærebøker**, **filmer**, **serier** og **bøker**\n\n## Nasjonal minnekultur\n\nEtter 1814 og særlig etter **1905** var minnekulturen i Norge preget av **nasjonsbygging**: vikingtid, Grunnloven og bondekultur ble løftet fram. Etter **andre verdenskrig** sto **motstandskampen** sentralt, og fortellingen om en samlet nasjon mot okkupanten var sterk. Senere har historikere vist at bildet var mer **sammensatt**: Mange **samarbeidet** med okkupantene, og **norske jøder** ble arrestert og deportert med hjelp fra norsk politi.\n\n## 22. juli\n\nEtter terrorangrepet **22. juli 2011** har det vært lange diskusjoner om hvordan hendelsen skal minnes. Det nasjonale minnestedet ved **Utøya** ble utsatt etter protester fra naboer som ikke ønsket å bli minnet om terroren hver dag. Debatten viser at minnekultur handler om **ulike behov** – for dem som ble rammet, for lokalsamfunnet og for nasjonen – og om hvordan man skal snakke om det **politiske** målet med terroren.\n\n## Lokal minnekultur\n\nLokalt kan minnekultur være **bygdetun**, **lokalmuseer**, **historielag**, **minnetavler** over ulykker eller skipsforlis og **navn på skoler og gater**. **Snublesteiner** (*Stolpersteine*) – små messingplater i fortauet – er lagt ned utenfor hjemmene til **norske jøder** som ble drept under Holocaust.\n\n## Hvem bestemmer hva som huskes?\n\nMinnekultur handler om **makt**: Hvem får en statue, og hvem blir **glemt**? Lenge var det mest **menn**, **konger** og **krigshelter** som ble minnet. Grupper som **samer**, **kvener**, **romanifolk**, **kvinner** og **arbeidere** har ofte vært usynlige. **Sannhets- og forsoningskommisjonen** (2023) er et eksempel på et forsøk på å gi plass til historier som ble fortiet.\n\n## Når minner blir omstridt\n\nI mange land har det vært debatt om **statuer** av personer knyttet til **slavehandel** og **kolonialisme**. I **Bristol** i England rev demonstranter i **2020** ned statuen av slavehandleren **Edward Colston**. Noen mener slike statuer bør **fjernes**, andre at de bør bli stående med **forklarende skilt**, eller flyttes til **museer**. Debatten handler om hvordan vi forholder oss til **vanskelig fortid**.",
+  "flashcards": [
+    { "term": "Minnekultur", "def": "Måtene et samfunn husker og markerer fortiden på." },
+    { "term": "8. mai", "def": "Frigjøringsdagen – markerer slutten på okkupasjonen i 1945." },
+    { "term": "17. mai", "def": "Grunnlovsdagen – til minne om Grunnloven i 1814." },
+    { "term": "Minnesmerke", "def": "Monument til minne om en person eller hendelse." },
+    { "term": "Nasjonsbygging", "def": "Å skape felles identitet og historie for en nasjon." },
+    { "term": "Motstandskampen", "def": "Kampen mot okkupantene under andre verdenskrig, sentral i norsk minnekultur." },
+    { "term": "Sammensatt historie", "def": "At fortiden har flere sider enn den enkle fortellingen." },
+    { "term": "22. juli 2011", "def": "Terrorangrepene i regjeringskvartalet og på Utøya." },
+    { "term": "Snublesteiner", "def": "Messingplater i fortauet til minne om ofre for Holocaust." },
+    { "term": "Holocaust-senteret", "def": "Senter i Oslo for studier av Holocaust og minoriteter." },
+    { "term": "Glemte grupper", "def": "Grupper som sjelden har blitt minnet, som kvinner, arbeidere og minoriteter." },
+    { "term": "Sannhets- og forsoningskommisjonen", "def": "Kommisjon som i 2023 la fram rapport om fornorskingen." },
+    { "term": "Edward Colston", "def": "Slavehandler hvis statue i Bristol ble revet ned i 2020." },
+    { "term": "Vanskelig fortid", "def": "Deler av historien som er smertefulle eller skamfulle." },
+    { "term": "Lokal minnekultur", "def": "Bygdetun, lokalmuseer, minnetavler og stedsnavn." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er minnekultur?", "options": ["Et fag på universitetet", "Måtene et samfunn husker og markerer fortiden på", "En type museum", "En gammel kultur"], "correct": 1, "explain": "Den sier også mye om samtiden." },
+    { "id": "q02", "text": "Hva markerer 8. mai i Norge?", "options": ["Frigjøringen i 1945", "Grunnloven", "Unionsoppløsningen", "Samenes nasjonaldag"], "correct": 0, "explain": "8. mai er frigjøringsdagen." },
+    { "id": "q03", "text": "Hva er snublesteiner?", "options": ["Steiner fra Berlinmuren", "Gravsteiner", "Messingplater i fortauet til minne om ofre for Holocaust", "Veisteiner fra middelalderen"], "correct": 2, "explain": "De ligger utenfor der ofrene bodde." },
+    { "id": "q04", "text": "Hvorfor sier man at minnekultur handler om makt?", "options": ["Fordi bare politikere kan besøke museer", "Fordi det koster penger", "Fordi kongen bestemmer", "Fordi noen avgjør hvem som huskes og hvem som glemmes"], "correct": 3, "explain": "Lenge var det mest menn og krigshelter som ble minnet." },
+    { "id": "q05", "text": "Hva skjedde med statuen av Edward Colston i Bristol i 2020?", "options": ["Den ble revet ned av demonstranter", "Den ble gjort større", "Den ble flyttet til Norge", "Den ble gullbelagt"], "correct": 0, "explain": "Colston var slavehandler." },
+    { "id": "q06", "text": "Hvordan har synet på norsk historie under andre verdenskrig endret seg?", "options": ["Man mener nå at det ikke var noen motstand", "Bildet har blitt mer sammensatt, med samarbeid og deportasjon av jøder", "Man har sluttet å snakke om krigen", "Krigen minnes ikke lenger"], "correct": 1, "explain": "Historikere har vist flere sider av okkupasjonstiden." },
+    { "id": "q07", "text": "Hvorfor ble minnestedet for 22. juli ved Utøya omstridt?", "options": ["Fordi det var for lite", "Fordi ingen ville ha et minnested", "Fordi naboer ikke ønsket å bli minnet om terroren hver dag", "Fordi det lå i utlandet"], "correct": 2, "explain": "Minnekultur handler om ulike behov." },
+    { "id": "q08", "text": "Hvilket er et eksempel på lokal minnekultur?", "options": ["FNs hovedkvarter", "Stortinget", "Den kinesiske mur", "En minnetavle over et skipsforlis i bygda"], "correct": 3, "explain": "Også bygdetun og lokalmuseer." },
+    { "id": "q09", "text": "Hva preget norsk minnekultur etter 1905?", "options": ["Nasjonsbygging", "Globalisering", "Sosiale medier", "Kolonialisme"], "correct": 0, "explain": "Vikingtid, Grunnloven og bondekultur ble løftet fram." },
+    { "id": "q10", "text": "Hvilket forslag er vanlig i debatten om omstridte statuer?", "options": ["Å lage flere av dem", "Å fjerne dem, forklare dem med skilt eller flytte dem til museer", "Å male dem gule", "Å gjøre dem hemmelige"], "correct": 1, "explain": "Debatten handler om vanskelig fortid." }
+  ],
+  "mindmap": {
+    "label": "Minnekultur",
+    "children": [
+      { "label": "Former", "children": [
+        { "label": "Minnesmerker" },
+        { "label": "Merkedager" },
+        { "label": "Museer" },
+        { "label": "Navn" }
+      ] },
+      { "label": "Nasjonalt", "children": [
+        { "label": "Nasjonsbygging" },
+        { "label": "Motstandskampen" },
+        { "label": "Sammensatt historie" }
+      ] },
+      { "label": "22. juli", "children": [
+        { "label": "Minnested ved Utøya" },
+        { "label": "Ulike behov" }
+      ] },
+      { "label": "Lokalt", "children": [
+        { "label": "Bygdetun" },
+        { "label": "Snublesteiner" },
+        { "label": "Minnetavler" }
+      ] },
+      { "label": "Makt og debatt", "children": [
+        { "label": "Hvem huskes?" },
+        { "label": "Glemte grupper" },
+        { "label": "Omstridte statuer" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Minnekultur kan si like mye om samtiden som om fortiden.", "correct": true, "explain": "Den viser hva vi mener er viktig i dag." },
+      { "id": "m02", "type": "sant-usant", "text": "Alle grupper i samfunnet har alltid fått like stor plass i minnekulturen.", "correct": false, "explain": "Mange grupper har vært usynlige." },
+      { "id": "m03", "type": "sant-usant", "text": "Norsk politi hjalp til med å arrestere norske jøder under krigen.", "correct": true, "explain": "Dette har fått større plass i nyere minnekultur." },
+      { "id": "m04", "type": "sant-usant", "text": "Gatenavn kan aldri være en del av minnekulturen.", "correct": false, "explain": "Gatenavn hedrer ofte personer og hendelser." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken dag er samenes nasjonaldag?", "options": ["17. mai", "6. februar", "8. mai", "22. juli"], "correct": 1, "explain": "Til minne om det første samiske landsmøtet i 1917." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er et eksempel på vanskelig fortid?", "options": ["Slavehandel og kolonialisme", "En fotballseier", "En kongebryllup", "En ny bro"], "correct": 0, "explain": "Vanskelig fortid er smertefull eller skamfull." },
+      { "id": "m07", "type": "flervalg", "text": "Hva gjorde Sannhets- og forsoningskommisjonen?", "options": ["Bygde minnesmerker over krigen", "Skrev lærebøker om vikingtiden", "Undersøkte fornorskingen og urett mot samer, kvener/norskfinner og skogfinner", "Rev statuer"], "correct": 2, "explain": "Rapporten kom i 2023." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

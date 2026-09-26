@@ -1,0 +1,66 @@
+{
+  "id": "historie-vg2",
+  "trinnId": "vg2",
+  "name": "Historie",
+  "lareplan": {
+    "kode": "HIS01-03",
+    "url": "https://www.udir.no/lk20/his01-03/kompetansemaal-og-vurdering/kv84",
+    "kompetansemaal": [
+      {
+        "nr": 1,
+        "tekst": "reflektere over hvordan fortiden former oss som mennesker"
+      },
+      {
+        "nr": 2,
+        "tekst": "utforske fortiden ved å stille spørsmål og innhente, tolke og bruke ulikt historisk materiale for å finne svar"
+      },
+      {
+        "nr": 3,
+        "tekst": "reflektere over hvorfor historikere deler inn fortiden i perioder og vurdere hvordan vi kan periodisere fortiden på grunnlag av ulike kriterier"
+      },
+      {
+        "nr": 4,
+        "tekst": "utforske og reflektere over hvordan fortiden minnes lokalt og nasjonalt"
+      },
+      {
+        "nr": 5,
+        "tekst": "gjøre rede for viktige endringer i hvordan mennesker har skaffet seg mat og brukt naturressurser, og vurdere betydningen av dette for mennesker og et bærekraftig samfunn"
+      },
+      {
+        "nr": 6,
+        "tekst": "presentere viktige demografiske endringer og vurdere årsaker til disse endringene og virkninger av dem for mennesker og samfunn"
+      },
+      {
+        "nr": 7,
+        "tekst": "gjøre rede for hvordan handel og økonomiske systemer har påvirket maktforhold og menneskers liv"
+      },
+      {
+        "nr": 8,
+        "tekst": "sammenligne hvordan demokratiet i antikken og demokratiet i vår tid har gitt mennesker ulike muligheter til demokratisk deltakelse"
+      },
+      {
+        "nr": 9,
+        "tekst": "utforske hvordan kommunikasjon og kulturmøter har hatt betydning for mennesker i Norge og verden"
+      },
+      {
+        "nr": 10,
+        "tekst": "vurdere endringer i fordeling og legitimering av makt fra middelalderen til og med tidlig nytid"
+      },
+      {
+        "nr": 11,
+        "tekst": "beskrive religionens betydning for samfunns- og maktforhold fra middelalderen til og med vår tid og vurdere dens rolle i menneskers selvoppfatning og syn på andre"
+      }
+    ]
+  },
+  "temaer": [
+    "historie-som-fag",
+    "minnekultur",
+    "mat-og-naturressurser",
+    "demografiske-endringer",
+    "handel-og-okonomi",
+    "demokrati-for-og-na",
+    "kommunikasjon-og-kulturmoter",
+    "makt-og-legitimitet",
+    "religion-og-makt"
+  ]
+}

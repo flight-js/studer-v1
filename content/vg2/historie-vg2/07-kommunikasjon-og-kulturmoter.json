@@ -1,0 +1,83 @@
+{
+  "id": "kommunikasjon-og-kulturmoter",
+  "fagId": "historie-vg2",
+  "trinnId": "vg2",
+  "name": "Kommunikasjon og kulturmøter",
+  "intro": "Hvordan skrift, boktrykk, telegraf, radio, TV og internett har endret menneskers liv, og hvordan kulturmøter – fra vikingtiden og koloniseringen til migrasjonen i vår tid – har preget mennesker i Norge og verden.",
+  "kompetansemaal": [9],
+  "sammendrag": "## Kommunikasjonsrevolusjoner\n\nNye måter å **kommunisere** på har gang på gang endret **makt**, **kunnskap** og **samfunn**.\n\n- **Skriften**: **Kileskrift** oppsto i **Mesopotamia** for over 5000 år siden. Skrift gjorde det mulig å føre **regnskap**, lage **lover** og bevare **kunnskap**. I Norden ble **runer** brukt fra rundt **200 e.Kr.**, og med kristendommen kom det **latinske alfabetet**.\n- **Boktrykkerkunsten**: **Johannes Gutenberg** utviklet trykking med løse typer omkring **1450**. Bøker ble billigere, og ideer spredte seg raskt – blant annet **reformasjonen** på 1500-tallet.\n- **Aviser**: Den første norske avisen kom i **1763**. Aviser ble viktige for **opplysning**, **politikk** og **demokrati**.\n- **Telegraf og telefon** (1800-tallet): Beskjeder kunne sendes på **sekunder** over store avstander.\n- **Radio og TV**: **NRK** startet radiosendinger i **1933** og ordinære TV-sendinger i **1960**. Hele nasjonen kunne oppleve de samme hendelsene samtidig.\n- **Internett og smarttelefon**: **World Wide Web** fra **1991** og smarttelefonen fra slutten av 2000-tallet har gjort informasjon tilgjengelig overalt, gitt nye **fellesskap** – og nye utfordringer som **falske nyheter** og **overvåking**.\n\n## Kulturmøter\n\nEt **kulturmøte** oppstår når mennesker med ulik kultur møtes. Kulturmøter kan gi **utveksling** av varer, ord, mat og ideer – men også **konflikt**, **undertrykkelse** og **vold**.\n\n**Vikingtiden** (ca. 800–1050): Nordboere **handlet**, **plyndret** og **bosatte seg** i blant annet Irland, England, Normandie og på Island. De tok med seg nye impulser hjem, som **kristendommen**.\n\n**Kolonisering**: Etter **1492** møtte europeerne urfolk i Amerika. Møtet ga utveksling av planter og dyr – som **poteter** og **mais** til Europa – men også **erobring**, **sykdommer** og **slaveri**.\n\n**Samer og nordmenn**: Samer og nordmenn har levd side om side i århundrer, med handel og samarbeid, men også **fornorsking** og undertrykkelse.\n\n**Migrasjon i vår tid**: Siden 1970-tallet har innvandring gjort Norge mer **flerkulturelt**. Det har gitt nye **språk**, **religioner**, **mat** og **musikk** – og debatter om **integrering** og **identitet**.\n\n## Kommunikasjon og kulturmøter henger sammen\n\nNy kommunikasjonsteknologi har gjort kulturmøter **raskere** og **hyppigere**. I dag møter vi andre kulturer gjennom **strømmetjenester**, **spill** og **sosiale medier** hver dag. Det kan gi **forståelse** og **nysgjerrighet**, men også **stereotypier** og **polarisering**.\n\n## Å vurdere betydningen\n\nNår du vurderer et kulturmøte, spør: **Hvem** hadde makt? Hvem **tjente** og hvem **tapte**? Hva ble **utvekslet**? Og hvordan preger møtet mennesker **i dag**?",
+  "flashcards": [
+    { "term": "Kileskrift", "def": "Skrift fra Mesopotamia for over 5000 år siden." },
+    { "term": "Runer", "def": "Skrifttegn brukt i Norden fra rundt 200 e.Kr." },
+    { "term": "Johannes Gutenberg", "def": "Utviklet boktrykk med løse typer omkring 1450." },
+    { "term": "Boktrykk og reformasjonen", "def": "Trykte skrifter spredte reformasjonens ideer raskt." },
+    { "term": "1763", "def": "Den første norske avisen kom." },
+    { "term": "Telegraf", "def": "Gjorde det mulig å sende beskjeder på sekunder over store avstander." },
+    { "term": "NRK radio", "def": "Startet i 1933." },
+    { "term": "NRK TV", "def": "Ordinære sendinger fra 1960." },
+    { "term": "World Wide Web", "def": "Lansert i 1991." },
+    { "term": "Kulturmøte", "def": "Når mennesker med ulik kultur møtes." },
+    { "term": "Vikingtiden", "def": "Ca. 800–1050 – handel, plyndring og bosetting." },
+    { "term": "Den colombianske utvekslingen", "def": "Utveksling av planter, dyr og sykdommer mellom Amerika og Europa etter 1492." },
+    { "term": "Fornorsking", "def": "Politikk for å gjøre samer og kvener norske." },
+    { "term": "Flerkulturelt samfunn", "def": "Samfunn med mange kulturer, språk og religioner." },
+    { "term": "Polarisering", "def": "At meninger og grupper trekkes lenger fra hverandre." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvor oppsto kileskriften?", "options": ["I Egypt", "I Mesopotamia", "I Kina", "I Norden"], "correct": 1, "explain": "For over 5000 år siden." },
+    { "id": "q02", "text": "Hvem utviklet boktrykk med løse typer omkring 1450?", "options": ["Johannes Gutenberg", "Martin Luther", "Leonardo da Vinci", "Galileo Galilei"], "correct": 0, "explain": "Bøker ble billigere og ideer spredte seg raskt." },
+    { "id": "q03", "text": "Hvilken bevegelse spredte seg raskt på grunn av boktrykkerkunsten?", "options": ["Opplysningstiden", "Nasjonalromantikken", "Reformasjonen", "Industrialiseringen"], "correct": 2, "explain": "Luthers skrifter ble trykt i store opplag." },
+    { "id": "q04", "text": "Når startet NRK ordinære TV-sendinger?", "options": ["1933", "1905", "1991", "1960"], "correct": 3, "explain": "Radiosendingene startet i 1933." },
+    { "id": "q05", "text": "Hva er et kulturmøte?", "options": ["Når mennesker med ulik kultur møtes", "Et møte på et museum", "En konsert", "En type handel"], "correct": 0, "explain": "Det kan gi både utveksling og konflikt." },
+    { "id": "q06", "text": "Hvilke planter kom til Europa fra Amerika etter 1492?", "options": ["Hvete og bygg", "Poteter og mais", "Ris og te", "Epler og pærer"], "correct": 1, "explain": "Dette er en del av den colombianske utvekslingen." },
+    { "id": "q07", "text": "Hva gjorde vikingene i blant annet Irland og Normandie?", "options": ["Bare handlet fredelig", "Bare plyndret", "Handlet, plyndret og bosatte seg", "Ingenting"], "correct": 2, "explain": "Vikingtiden var preget av mange typer kontakt." },
+    { "id": "q08", "text": "Hva er en utfordring med internett og sosiale medier?", "options": ["For lite informasjon", "At ingen bruker dem", "At de er for dyre", "Falske nyheter og overvåking"], "correct": 3, "explain": "De gir også nye fellesskap." },
+    { "id": "q09", "text": "Hvilket spørsmål er nyttig når du vurderer et kulturmøte?", "options": ["Hvem hadde makt, og hvem tjente og tapte?", "Hvilket år var kaldest?", "Hvor mange skip var med?", "Hva het kongen?"], "correct": 0, "explain": "Kulturmøter har ofte ujevn maktfordeling." },
+    { "id": "q10", "text": "Når ble runer tatt i bruk i Norden?", "options": ["Rundt 1000 f.Kr.", "Rundt 200 e.Kr.", "Rundt 1500", "Rundt 1800"], "correct": 1, "explain": "Med kristendommen kom det latinske alfabetet." }
+  ],
+  "mindmap": {
+    "label": "Kommunikasjon og kulturmøter",
+    "children": [
+      { "label": "Skrift", "children": [
+        { "label": "Kileskrift" },
+        { "label": "Runer" },
+        { "label": "Latinsk alfabet" }
+      ] },
+      { "label": "Medier", "children": [
+        { "label": "Boktrykk ca. 1450" },
+        { "label": "Aviser" },
+        { "label": "Telegraf, radio, TV" },
+        { "label": "Internett" }
+      ] },
+      { "label": "Historiske kulturmøter", "children": [
+        { "label": "Vikingtiden" },
+        { "label": "Koloniseringen" },
+        { "label": "Samer og nordmenn" }
+      ] },
+      { "label": "I dag", "children": [
+        { "label": "Migrasjon" },
+        { "label": "Flerkulturelt Norge" },
+        { "label": "Digitale møter" }
+      ] },
+      { "label": "Vurdering", "children": [
+        { "label": "Utveksling" },
+        { "label": "Konflikt og makt" },
+        { "label": "Betydning i dag" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Skrift gjorde det mulig å føre regnskap og lage lover.", "correct": true, "explain": "Skrift ga nye muligheter for makt og kunnskap." },
+      { "id": "m02", "type": "sant-usant", "text": "Kulturmøter fører alltid bare til fred og utveksling.", "correct": false, "explain": "De kan også føre til konflikt og undertrykkelse." },
+      { "id": "m03", "type": "sant-usant", "text": "Radio og TV gjorde at hele nasjonen kunne oppleve hendelser samtidig.", "correct": true, "explain": "Det skapte felles referanser." },
+      { "id": "m04", "type": "sant-usant", "text": "World Wide Web ble lansert på 1960-tallet.", "correct": false, "explain": "Det ble lansert i 1991." },
+      { "id": "m05", "type": "flervalg", "text": "Hva tok vikingene blant annet med seg hjem fra kulturmøtene?", "options": ["Kristendommen", "Poteten", "Internett", "Kileskrift"], "correct": 0, "explain": "Kristendommen kom gradvis til Norden." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilken negativ følge fikk kulturmøtet i Amerika etter 1492?", "options": ["Flere urfolk", "Erobring, sykdommer og slaveri", "Mindre handel", "Ingen endringer"], "correct": 1, "explain": "Millioner av urfolk døde." },
+      { "id": "m07", "type": "flervalg", "text": "Hva betyr polarisering?", "options": ["Reiser til polene", "Kaldere klima", "At meninger og grupper trekkes lenger fra hverandre", "En type kommunikasjon"], "correct": 2, "explain": "Sosiale medier kan bidra til polarisering." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

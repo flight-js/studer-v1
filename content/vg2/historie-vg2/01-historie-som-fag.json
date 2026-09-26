@@ -1,0 +1,81 @@
+{
+  "id": "historie-som-fag",
+  "fagId": "historie-vg2",
+  "trinnId": "vg2",
+  "name": "Historie som fag: kilder og periodisering",
+  "intro": "Hvordan fortiden former oss, hvordan historikere utforsker fortiden med spørsmål og kilder, kildekritikk, og hvorfor og hvordan vi deler historien inn i perioder – og hvilke problemer det kan gi.",
+  "kompetansemaal": [1, 2, 3],
+  "sammendrag": "## Hvorfor historie?\n\nFortiden **former oss**: språket vi snakker, landegrensene, religionen, rettighetene vi har og konfliktene i verden er resultater av historiske prosesser. Historie hjelper oss å **forstå samtiden**, se at ting **kunne vært annerledes**, og kjenne igjen **mønstre** – uten at historien gjentar seg nøyaktig.\n\nHistorie er ikke bare «det som skjedde», men **fortellinger** om fortiden som bygger på **kilder** og **tolkninger**. Ulike historikere kan komme til ulike konklusjoner.\n\n## Å utforske fortiden\n\nHistorisk arbeid starter med et **spørsmål**, for eksempel: *Hvorfor utvandret så mange nordmenn til Amerika på 1800-tallet?* Deretter samler historikeren **kilder**, tolker dem og bruker dem til å finne svar.\n\n## Kilder\n\n- **Primærkilder** er fra den tiden som undersøkes: brev, dagbøker, lover, fotografier, gjenstander, kirkebøker og aviser.\n- **Sekundærkilder** er senere framstillinger, som lærebøker og forskningsartikler.\n\nEn kilde kan brukes på to måter:\n\n- Som **beretning** – det kilden **forteller** om noe.\n- Som **levning** – det kilden **viser** om tiden den ble til i, selv om det ikke var meningen. En reklameplakat fra 1950 forteller om et produkt, men er også en levning som viser kjønnsroller og idealer.\n\n## Kildekritikk\n\n- **Hvem** har laget kilden, og hvilken **posisjon** hadde de?\n- **Når** og **hvorfor** ble den laget? Hvem var **mottakeren**?\n- Er kilden **førstehånds** eller **annenhånds**?\n- Hva **mangler** i kildene? Mange grupper – fattige, kvinner, barn, slaver og urfolk – har etterlatt seg **få skriftlige kilder**. Da må historikere bruke andre kilder, som **arkeologi**, **muntlige overleveringer** og **statistikk**.\n\n## Periodisering\n\nHistorikere deler fortiden inn i **perioder** for å skape **oversikt**. En vanlig inndeling i Europa er\n\n- **forhistorisk tid** (før skriften)\n- **antikken** (ca. 800 f.Kr.–500 e.Kr.)\n- **middelalderen** (ca. 500–1500)\n- **tidlig nytid** (ca. 1500–1800)\n- **moderne tid** (fra ca. 1800)\n\nPerioder kan bygge på ulike **kriterier**:\n\n- **teknologi** (steinalder, bronsealder, jernalder)\n- **politikk** (unionstiden, etterkrigstiden)\n- **økonomi** (jordbrukssamfunn, industrisamfunn)\n- **religion og kultur** (vikingtid, reformasjonen)\n\n## Problemer med periodisering\n\n- Overgangene er **glidende** – ingen våknet opp en morgen i «tidlig nytid».\n- Periodene er ofte **eurosentriske**: Middelalderen er et europeisk begrep, og Kina, Midtøsten eller Afrika hadde andre utviklinger.\n- Navn på perioder kan være **verdiladede**: «Den mørke middelalder» gir et negativt bilde som mange historikere mener er urettferdig.\n\nPeriodisering er derfor et **verktøy**, ikke en fasit.",
+  "flashcards": [
+    { "term": "Primærkilde", "def": "Kilde fra den tiden som undersøkes, som brev og lover." },
+    { "term": "Sekundærkilde", "def": "Senere framstilling, som lærebøker og forskning." },
+    { "term": "Beretning", "def": "Det en kilde forteller om noe." },
+    { "term": "Levning", "def": "Det en kilde viser om tiden den ble til i." },
+    { "term": "Kildekritikk", "def": "Vurdering av hvem, når, hvorfor og hvor pålitelig en kilde er." },
+    { "term": "Førstehåndskilde", "def": "Kilde fra en som selv opplevde det som beskrives." },
+    { "term": "Taus kilde", "def": "Grupper som har etterlatt få skriftlige kilder, som fattige og kvinner." },
+    { "term": "Arkeologi", "def": "Studiet av fortiden gjennom gjenstander og spor i jorda." },
+    { "term": "Periodisering", "def": "Inndeling av fortiden i perioder." },
+    { "term": "Antikken", "def": "Ca. 800 f.Kr.–500 e.Kr." },
+    { "term": "Middelalderen", "def": "Ca. 500–1500 i europeisk historie." },
+    { "term": "Tidlig nytid", "def": "Ca. 1500–1800." },
+    { "term": "Eurosentrisme", "def": "Å se verden og historien med Europa i sentrum." },
+    { "term": "Glidende overganger", "def": "At perioder går gradvis over i hverandre." },
+    { "term": "Historisk spørsmål", "def": "Utgangspunktet for å utforske fortiden." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er en primærkilde?", "options": ["En lærebok", "En kilde fra den tiden som undersøkes", "En forskningsartikkel", "En film om fortiden"], "correct": 1, "explain": "For eksempel et brev eller en kirkebok." },
+    { "id": "q02", "text": "Hva betyr det å bruke en kilde som levning?", "options": ["Å se hva kilden viser om tiden den ble til i", "Å se hva kilden forteller", "Å kaste kilden", "Å kopiere kilden"], "correct": 0, "explain": "En gammel reklame kan vise kjønnsroller og idealer." },
+    { "id": "q03", "text": "Hvorfor er det vanskelig å skrive historien til fattige, kvinner og slaver?", "options": ["Fordi de ikke fantes", "Fordi det er forbudt", "Fordi de har etterlatt seg få skriftlige kilder", "Fordi historikere ikke er interessert"], "correct": 2, "explain": "Historikere må bruke andre kilder, som arkeologi og statistikk." },
+    { "id": "q04", "text": "Hvilket kriterium ligger bak inndelingen steinalder, bronsealder og jernalder?", "options": ["Religion", "Politikk", "Økonomi", "Teknologi"], "correct": 3, "explain": "Materialene redskapene var laget av." },
+    { "id": "q05", "text": "Hva er et problem med periodisering?", "options": ["Periodene kan være eurosentriske", "Det gir for mye oversikt", "Det er alltid riktig", "Det finnes bare én periode"], "correct": 0, "explain": "Middelalderen er et europeisk begrep." },
+    { "id": "q06", "text": "Omtrent når var middelalderen i Europa?", "options": ["800 f.Kr.–500 e.Kr.", "500–1500", "1500–1800", "1800–1900"], "correct": 1, "explain": "Deretter kom tidlig nytid." },
+    { "id": "q07", "text": "Hva er et godt første steg når man utforsker fortiden?", "options": ["Å skrive konklusjonen", "Å velge en periode", "Å stille et historisk spørsmål", "Å lese en roman"], "correct": 2, "explain": "Spørsmålet styrer valg av kilder." },
+    { "id": "q08", "text": "Hvorfor mener mange historikere at «den mørke middelalder» er et urettferdig navn?", "options": ["Fordi det var mye sol", "Fordi middelalderen varte kort", "Fordi det bare gjelder Norge", "Fordi navnet gir et ensidig negativt bilde av perioden"], "correct": 3, "explain": "Periodenavn kan være verdiladede." },
+    { "id": "q09", "text": "Hvorfor kan to historikere komme til ulike konklusjoner?", "options": ["Fordi historie bygger på kilder og tolkninger", "Fordi en av dem alltid lyver", "Fordi fortiden endrer seg", "Fordi de har ulike lærebøker"], "correct": 0, "explain": "Historie er fortellinger om fortiden." },
+    { "id": "q10", "text": "Hvilket spørsmål hører til kildekritikk?", "options": ["Hvor mange sider har kilden?", "Hvem laget kilden, når og hvorfor?", "Hvor mye koster kilden?", "Hvilken farge har kilden?"], "correct": 1, "explain": "Også: Hvem var mottakeren?" }
+  ],
+  "mindmap": {
+    "label": "Historie som fag",
+    "children": [
+      { "label": "Hvorfor historie?", "children": [
+        { "label": "Fortiden former oss" },
+        { "label": "Forstå samtiden" }
+      ] },
+      { "label": "Kilder", "children": [
+        { "label": "Primær og sekundær" },
+        { "label": "Beretning og levning" }
+      ] },
+      { "label": "Kildekritikk", "children": [
+        { "label": "Hvem, når, hvorfor" },
+        { "label": "Hva mangler?" },
+        { "label": "Arkeologi og statistikk" }
+      ] },
+      { "label": "Periodisering", "children": [
+        { "label": "Antikken" },
+        { "label": "Middelalderen" },
+        { "label": "Tidlig nytid" },
+        { "label": "Moderne tid" }
+      ] },
+      { "label": "Problemer", "children": [
+        { "label": "Glidende overganger" },
+        { "label": "Eurosentrisme" },
+        { "label": "Verdiladede navn" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Samme kilde kan brukes både som beretning og som levning.", "correct": true, "explain": "Det avhenger av spørsmålet historikeren stiller." },
+      { "id": "m02", "type": "sant-usant", "text": "Periodene i historien har skarpe grenser.", "correct": false, "explain": "Overgangene er glidende." },
+      { "id": "m03", "type": "sant-usant", "text": "En kirkebok kan være en viktig primærkilde.", "correct": true, "explain": "Kirkebøker viser fødsler, dåp, giftemål og dødsfall." },
+      { "id": "m04", "type": "sant-usant", "text": "Historien gjentar seg alltid nøyaktig.", "correct": false, "explain": "Vi kan se mønstre, men historien gjentar seg ikke nøyaktig." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er eurosentrisme?", "options": ["Å se historien med Europa i sentrum", "Å bruke euro som valuta", "En periode i Europa", "En type kilde"], "correct": 0, "explain": "Mange periodebegreper er europeiske." },
+      { "id": "m06", "type": "flervalg", "text": "Omtrent når begynner tidlig nytid?", "options": ["500", "1500", "1800", "1945"], "correct": 1, "explain": "Tidlig nytid regnes fra ca. 1500 til 1800." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilken periode bygger på et politisk kriterium?", "options": ["Jernalderen", "Industrisamfunnet", "Etterkrigstiden", "Bronsealderen"], "correct": 2, "explain": "Etterkrigstiden defineres ut fra en politisk hendelse." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
