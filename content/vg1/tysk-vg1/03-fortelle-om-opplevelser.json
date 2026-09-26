@@ -1,0 +1,78 @@
+{
+  "id": "fortelle-om-opplevelser",
+  "fagId": "tysk-vg1",
+  "trinnId": "vg1",
+  "name": "Å fortelle om opplevelser",
+  "intro": "Hvordan du forteller om opplevelser og hendelser på tysk: perfektum i muntlig språk, preteritum i skriftlige fortellinger, forskjellen på als og wenn, tidsuttrykk og plusquamperfektum.",
+  "kompetansemaal": [3, 5, 6],
+  "sammendrag": "## Perfektum – når vi snakker\n\nI **muntlig** tysk forteller vi om fortiden med **perfektum**: *haben* eller *sein* + **partisipp** til slutt.\n\n- *Ich **habe** einen Film **gesehen**.*\n- *Wir **sind** nach Berlin **gefahren**.*\n\n**sein** brukes med verb som uttrykker **bevegelse** eller **forandring**: *fahren, gehen, fliegen, kommen, bleiben, werden, passieren*.\n\n## Preteritum – når vi skriver\n\nI **skriftlige fortellinger**, som noveller, eventyr og nyhetsartikler, brukes ofte **preteritum**.\n\n**Svake verb** får **-te**: *machen → ich machte, wir machten; spielen → ich spielte*.\n\n**Sterke verb** endrer **vokalen**:\n\n| Infinitiv | Preteritum | Perfektum |\n| --- | --- | --- |\n| gehen | ging | ist gegangen |\n| kommen | kam | ist gekommen |\n| sehen | sah | hat gesehen |\n| finden | fand | hat gefunden |\n| sprechen | sprach | hat gesprochen |\n| fahren | fuhr | ist gefahren |\n| nehmen | nahm | hat genommen |\n\n*Es war einmal ein Mädchen. Es ging in den Wald und fand ein kleines Haus.*\n\n## als eller wenn?\n\nBegge betyr «da» eller «når», men:\n\n- **als** brukes om **én** hendelse eller periode i **fortiden**: *Als ich zehn war, zog ich nach Bergen.*\n- **wenn** brukes om noe som skjedde **flere ganger** (hver gang) – eller om nåtid og framtid: *Wenn wir Oma besuchten, backte sie immer Kuchen.*\n\nBegge innleder **bisetninger**, så verbet står **sist**.\n\n## Tidsuttrykk\n\n*zuerst* (først), *dann* (så), *danach* (etterpå), *später* (senere), *plötzlich* (plutselig), *schließlich / am Ende* (til slutt), *vor zwei Jahren* (for to år siden), *letzten Sommer* (i fjor sommer).\n\nHusk **inversjon**: Når tidsuttrykket står først, kommer verbet på andre plass: *Plötzlich **hörten** wir einen lauten Knall.*\n\n## Plusquamperfektum\n\n**Plusquamperfektum** brukes om noe som skjedde **før** noe annet i fortiden: *hatte/war* + partisipp.\n\n*Als wir ankamen, **war** der Zug schon **abgefahren**.* – Da vi kom fram, hadde toget allerede gått.\n\n## En god fortelling\n\n- Start med **når** og **hvor**.\n- Bruk **tidsuttrykk** for å vise rekkefølgen.\n- Beskriv **følelser**: *Ich hatte Angst. Wir waren überrascht.*\n- Avslutt med hva du **lærte** eller hvordan det **endte**.",
+  "flashcards": [
+    { "term": "Perfektum", "def": "haben/sein + partisipp – brukes mest muntlig." },
+    { "term": "Preteritum", "def": "Brukes mest i skriftlige fortellinger." },
+    { "term": "ich machte", "def": "jeg gjorde (svakt verb i preteritum)" },
+    { "term": "gehen – ging – ist gegangen", "def": "gå" },
+    { "term": "kommen – kam – ist gekommen", "def": "komme" },
+    { "term": "sehen – sah – hat gesehen", "def": "se" },
+    { "term": "finden – fand – hat gefunden", "def": "finne" },
+    { "term": "fahren – fuhr – ist gefahren", "def": "kjøre, reise" },
+    { "term": "als", "def": "da – om én hendelse i fortiden" },
+    { "term": "wenn", "def": "når – om gjentatte hendelser, nåtid og framtid" },
+    { "term": "plötzlich", "def": "plutselig" },
+    { "term": "vor zwei Jahren", "def": "for to år siden" },
+    { "term": "am Ende", "def": "til slutt" },
+    { "term": "Plusquamperfektum", "def": "hatte/war + partisipp – noe som skjedde før noe annet i fortiden" },
+    { "term": "Es war einmal …", "def": "Det var en gang …" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvilken tid brukes mest når tyskere snakker om fortiden?", "options": ["Preteritum", "Perfektum", "Futurum", "Presens"], "correct": 1, "explain": "Preteritum brukes mest skriftlig." },
+    { "id": "q02", "text": "Hva er preteritum av «gehen»?", "options": ["ging", "gehte", "gang", "gegangen"], "correct": 0, "explain": "gehen er et sterkt verb." },
+    { "id": "q03", "text": "Velg riktig: «___ ich zehn war, zog ich nach Bergen.»", "options": ["Wenn", "Wann", "Als", "Ob"], "correct": 2, "explain": "als om én periode i fortiden." },
+    { "id": "q04", "text": "Hvilket hjelpeverb bruker «fahren» i perfektum?", "options": ["haben", "werden", "können", "sein"], "correct": 3, "explain": "Bevegelse: Ich bin gefahren." },
+    { "id": "q05", "text": "Hva betyr «plötzlich»?", "options": ["plutselig", "etterpå", "til slutt", "først"], "correct": 0, "explain": "Plötzlich hörten wir einen Knall." },
+    { "id": "q06", "text": "Hvilken setning har riktig ordstilling?", "options": ["Plötzlich wir hörten einen Knall.", "Plötzlich hörten wir einen Knall.", "Wir plötzlich hörten einen Knall.", "Plötzlich wir einen Knall hörten."], "correct": 1, "explain": "Verbet står på andre plass (inversjon)." },
+    { "id": "q07", "text": "Hva uttrykker plusquamperfektum?", "options": ["Noe i framtiden", "Noe som skjer nå", "Noe som skjedde før noe annet i fortiden", "En vane"], "correct": 2, "explain": "Der Zug war schon abgefahren." },
+    { "id": "q08", "text": "Hva er preteritum av «machen» i «wir»-form?", "options": ["wir machen", "wir gemacht", "wir machtet", "wir machten"], "correct": 3, "explain": "Svake verb får -te: wir machten." },
+    { "id": "q09", "text": "Velg riktig: «___ wir Oma besuchten, backte sie immer Kuchen.»", "options": ["Wenn", "Als", "Wann", "Dass"], "correct": 0, "explain": "wenn om noe som skjedde flere ganger." },
+    { "id": "q10", "text": "Hva betyr «vor zwei Jahren»?", "options": ["om to år", "for to år siden", "i to år", "hvert annet år"], "correct": 1, "explain": "vor + tidsperiode = for … siden." }
+  ],
+  "mindmap": {
+    "label": "Fortelle om opplevelser",
+    "children": [
+      { "label": "Perfektum", "children": [
+        { "label": "haben + partisipp" },
+        { "label": "sein ved bevegelse" }
+      ] },
+      { "label": "Preteritum", "children": [
+        { "label": "Svake verb: -te" },
+        { "label": "Sterke verb: vokalskifte" }
+      ] },
+      { "label": "als og wenn", "children": [
+        { "label": "als: én gang" },
+        { "label": "wenn: flere ganger" }
+      ] },
+      { "label": "Tidsuttrykk", "children": [
+        { "label": "zuerst, dann, danach" },
+        { "label": "plötzlich" },
+        { "label": "Inversjon" }
+      ] },
+      { "label": "Plusquamperfektum", "children": [
+        { "label": "hatte/war + partisipp" },
+        { "label": "Før noe annet" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Eventyr på tysk skrives ofte i preteritum.", "correct": true, "explain": "Es war einmal …" },
+      { "id": "m02", "type": "sant-usant", "text": "«als» brukes om ting som skjedde mange ganger.", "correct": false, "explain": "Om gjentatte hendelser bruker man wenn." },
+      { "id": "m03", "type": "sant-usant", "text": "Etter «als» og «wenn» står verbet sist i setningen.", "correct": true, "explain": "De innleder bisetninger." },
+      { "id": "m04", "type": "sant-usant", "text": "«sehen» bruker «sein» i perfektum.", "correct": false, "explain": "Ich habe gesehen." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er preteritum av «kommen»?", "options": ["kommte", "kam", "kom", "gekommen"], "correct": 1, "explain": "kommen – kam – ist gekommen." },
+      { "id": "m06", "type": "flervalg", "text": "Hva betyr «Es war einmal …»?", "options": ["Det var en gang …", "Det er ofte …", "Det var bare …", "Det blir snart …"], "correct": 0, "explain": "Typisk åpning i eventyr." },
+      { "id": "m07", "type": "flervalg", "text": "Velg riktig: «Als wir ankamen, ___ der Film schon begonnen.»", "options": ["hat", "ist", "hatte", "wird"], "correct": 2, "explain": "Plusquamperfektum: hatte begonnen." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

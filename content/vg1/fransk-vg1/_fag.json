@@ -1,0 +1,55 @@
+{
+  "id": "fransk-vg1",
+  "trinnId": "vg1",
+  "name": "Fransk",
+  "lareplan": {
+    "kode": "FSP01-04",
+    "url": "https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurdering/kv966",
+    "kompetansemaal": [
+      {
+        "nr": 1,
+        "tekst": "lytte til og forstå tydelig tale om personlige og faglig relevante emner og aktuelle saker"
+      },
+      {
+        "nr": 2,
+        "tekst": "samtale i en rekke dagligdagse situasjoner om kjente og faglig relevante emner"
+      },
+      {
+        "nr": 3,
+        "tekst": "muntlig forklare faglig relevante emner, skildre opplevelser, hendelser og planer, og begrunne meninger, også spontant"
+      },
+      {
+        "nr": 4,
+        "tekst": "lese og forstå ulike typer tekster, også autentiske, om personlige og faglig relevante emner og aktuelle saker"
+      },
+      {
+        "nr": 5,
+        "tekst": "skrive ulike teksttyper om personlige og faglig relevante emner, og uttrykke og begrunne egne meninger, med og uten hjelpemidler"
+      },
+      {
+        "nr": 6,
+        "tekst": "bruke grunnleggende språklige strukturer, regler for uttale og rettskriving og språkets offisielle alfabet eller tegn for å kommunisere på en situasjonstilpasset måte"
+      },
+      {
+        "nr": 7,
+        "tekst": "bruke relevante lærings- og kommunikasjonsstrategier, digitale ressurser og erfaringer fra tidligere språklæring i læringsprosessen"
+      },
+      {
+        "nr": 8,
+        "tekst": "utforske og gjøre rede for mangfold, samfunnsforhold og historiske hendelser i områder der språket snakkes, og se sammenhenger med egen bakgrunn"
+      },
+      {
+        "nr": 9,
+        "tekst": "utforske og presentere kunstneriske og kulturelle uttrykk fra områder der språket snakkes, og gjøre rede for egne opplevelser"
+      }
+    ]
+  },
+  "temaer": [
+    "identitet-og-relasjoner",
+    "skole-og-arbeid",
+    "fortelle-om-opplevelser",
+    "samfunn-og-aktuelle-saker",
+    "historie",
+    "kunst-og-kultur"
+  ]
+}

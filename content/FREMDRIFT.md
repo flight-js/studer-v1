@@ -91,7 +91,7 @@ Kompetansemålene ligger i `scripts/innhold/lk20/` (hent flere med `lk20-hent.mj
 | psykologi-1 / psykologi-2 | PSY01-04 | KV883 / KV884 |
 | markedsforing-og-ledelse-1 / -2 | MFL01-04 | KV887 / KV888 |
 | samfunnsokonomi-1 | SOK01-04 | KV1000 |
-| kinesisk-vg1 / -vg2 | FSP01-04 | KV966 (nivå II) – sjekk om skolen bruker nivå I (KV965) |
+| kinesisk-vg1 / -vg2 | FSP01-04 | KV965 (nivå I) – valgt fordi de fleste begynner på kinesisk i vgs; bytt til KV966 hvis skolen har kinesisk på ungdomstrinnet |
 | entreprenorskap-og-bedriftsutvikling-1 | ENT01-04 | KV885 |
 | sosialkunnskap | POS02-02 | KV892 |
 | matematikk-2p | MAT05-04 | KV46 |
