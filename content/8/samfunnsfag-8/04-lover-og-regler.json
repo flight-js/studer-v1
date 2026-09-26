@@ -1,0 +1,83 @@
+{
+  "id": "lover-og-regler",
+  "fagId": "samfunnsfag-8",
+  "trinnId": "8",
+  "name": "Lover, regler og normer",
+  "intro": "Forskjellen på normer, regler og lover, hvordan rettsstaten fungerer, hvilke straffer som finnes, og hvilke konsekvenser lovbrudd kan få for den enkelte og for samfunnet.",
+  "kompetansemaal": [18],
+  "sammendrag": "## Normer, regler og lover\n\nSamfunnet trenger felles spilleregler. **Normer** er uskrevne regler for hvordan vi bør oppføre oss, som å stå i kø. **Regler** er skrevne og gjelder et bestemt sted eller en bestemt aktivitet, som skolens ordensreglement eller reglene i fotball. **Lover** er vedtatt av Stortinget og gjelder alle i landet. Brudd på lover kan straffes av staten.\n\n## Hvorfor har vi lover?\n\nLover skal beskytte liv, helse, eiendom og rettigheter, skape trygghet og løse konflikter på en rettferdig måte. **Grunnloven** er den øverste loven. Andre viktige lover er **straffeloven**, som sier hva som er straffbart, vegtrafikkloven og opplæringslova, som gir deg rett til skolegang.\n\n## Rettsstaten\n\nNorge er en **rettsstat**. Det betyr blant annet at\n\n- alle er like for loven\n- ingen kan straffes uten at det står i loven\n- du er uskyldig til det motsatte er bevist\n- du har rett til en forsvarer\n- saker avgjøres av uavhengige domstoler\n\n**Politiet** etterforsker lovbrudd, og **påtalemyndigheten** bestemmer om noen skal tiltales. Domstolene har tre nivåer: **tingretten**, **lagmannsretten** og **Høyesterett**.\n\n## Straff og reaksjoner\n\nDen **kriminelle lavalderen** i Norge er 15 år. Barn under 15 kan ikke straffes, men barnevernet kan gripe inn, og de kan måtte betale erstatning. Vanlige straffer er **bot**, **samfunnsstraff** og **fengsel**. For unge mellom 15 og 18 finnes **ungdomsstraff** og **ungdomsoppfølging**, og mange saker løses i **konfliktrådet**, der partene møtes for å gjøre opp for seg.\n\nStraff har flere formål:\n\n- **Allmennprevensjon**: avskrekke andre fra å begå lovbrudd.\n- **Individualprevensjon**: hindre at den dømte gjør det igjen.\n- **Rehabilitering**: hjelpe den dømte tilbake til et liv uten kriminalitet.\n\n## Konsekvenser av lovbrudd\n\nFor **den enkelte** kan et lovbrudd på kort sikt gi straff, skam og konflikter med familie og venner. På lang sikt kan det stå på **politiattesten**, som kreves for en del jobber og utdanninger, for eksempel arbeid med barn. For **samfunnet** gir kriminalitet utrygghet, kostnader og mindre tillit mellom folk.\n\nOgså nettet er underlagt loven. Trusler, hatefulle ytringer og deling av nakenbilder av personer under 18 år er straffbart, også om den som deler, selv er under 18.\n\n## Normbrudd\n\nBrudd på normer straffes ikke av staten, men gir **sosiale sanksjoner**, som å bli utestengt eller få et dårlig rykte. På lang sikt kan normer også endre seg, og noen ganger blir de til lover, som forbudet mot røyking på serveringssteder.",
+  "flashcards": [
+    { "term": "Norm", "def": "Uskreven regel for hvordan vi bør oppføre oss." },
+    { "term": "Regel", "def": "Skreven bestemmelse som gjelder et bestemt sted eller en aktivitet." },
+    { "term": "Lov", "def": "Regel vedtatt av Stortinget som gjelder alle i landet." },
+    { "term": "Straffeloven", "def": "Loven som sier hva som er straffbart, og hvilke straffer som kan gis." },
+    { "term": "Rettsstat", "def": "Stat der alle er like for loven og saker avgjøres av uavhengige domstoler." },
+    { "term": "Uskyldspresumpsjonen", "def": "Du er uskyldig til det motsatte er bevist." },
+    { "term": "Domstolenes tre nivåer", "def": "Tingrett, lagmannsrett og Høyesterett." },
+    { "term": "Kriminell lavalder", "def": "Alderen man kan straffes fra. I Norge er den 15 år." },
+    { "term": "Samfunnsstraff", "def": "Straff der den dømte gjør samfunnsnyttig arbeid i stedet for å sitte i fengsel." },
+    { "term": "Ungdomsstraff", "def": "Straffereaksjon for lovbrytere mellom 15 og 18 år med tett oppfølging." },
+    { "term": "Konfliktråd", "def": "Tilbud der gjerningsperson og offer møtes for å løse saken." },
+    { "term": "Allmennprevensjon", "def": "Straff skal avskrekke andre fra å begå lovbrudd." },
+    { "term": "Individualprevensjon", "def": "Straff skal hindre at den dømte gjør det igjen." },
+    { "term": "Politiattest", "def": "Dokument som viser om en person har begått visse lovbrudd. Kreves for noen jobber." },
+    { "term": "Sosial sanksjon", "def": "Reaksjon fra andre på normbrudd, som utestenging." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er forskjellen på en norm og en lov?", "options": ["Normer er uskrevne, lover er vedtatt av Stortinget", "Det er ingen forskjell", "Normer gjelder bare voksne", "Lover er uskrevne"], "correct": 0, "explain": "Bare lovbrudd kan straffes av staten." },
+    { "id": "q02", "text": "Hva er den kriminelle lavalderen i Norge?", "options": ["12 år", "15 år", "16 år", "18 år"], "correct": 1, "explain": "Barn under 15 år kan ikke straffes, men barnevernet kan gripe inn." },
+    { "id": "q03", "text": "Hva er konfliktrådet?", "options": ["En domstol for voksne", "Et fengsel for unge", "Et tilbud der partene i en sak møtes for å finne en løsning", "En komité på Stortinget"], "correct": 2, "explain": "I konfliktrådet kan gjerningspersonen gjøre opp for seg overfor den som er rammet." },
+    { "id": "q04", "text": "Hva betyr allmennprevensjon?", "options": ["At straff skal gjøre offeret glad", "At alle får samme straff", "At straff hindrer den dømte i å gjøre det igjen", "At straff skal avskrekke andre fra å begå lovbrudd"], "correct": 3, "explain": "Tanken er at synlige straffer gjør at færre bryter loven." },
+    { "id": "q05", "text": "Hva betyr det at alle er like for loven?", "options": ["At alle får samme lønn", "At lovene gjelder alle, uansett hvem de er", "At alle er like sterke", "At alle må være enige"], "correct": 1, "explain": "Også politikere, rike og kjente må følge loven." },
+    { "id": "q06", "text": "Hvilken domstol er den høyeste i Norge?", "options": ["Høyesterett", "Tingretten", "Lagmannsretten", "Konfliktrådet"], "correct": 0, "explain": "Høyesterett er siste instans, og dommene der kan ikke ankes." },
+    { "id": "q07", "text": "Hvorfor kan et lovbrudd i ungdommen få konsekvenser mange år senere?", "options": ["Fordi det kan stå på politiattesten", "Fordi man mister stemmeretten for alltid", "Fordi man må flytte fra kommunen", "Det kan det ikke"], "correct": 0, "explain": "Politiattest kreves blant annet for jobber med barn og unge." },
+    { "id": "q08", "text": "Hva er et eksempel på en regel som ikke er en lov?", "options": ["Forbudet mot tyveri", "Fartsgrensen", "Skolens ordensreglement", "Skatteplikten"], "correct": 2, "explain": "Ordensreglementet gjelder bare på skolen." },
+    { "id": "q09", "text": "Hvilket prinsipp hører til en rettsstat?", "options": ["Politiet kan straffe uten rettssak", "Man er uskyldig til det motsatte er bevist", "Regjeringen dømmer i straffesaker", "Lover gjelder bare for noen"], "correct": 1, "explain": "Det er påtalemyndigheten som må bevise skyld, ikke den tiltalte som må bevise uskyld." },
+    { "id": "q10", "text": "Hva er en konsekvens av kriminalitet for samfunnet?", "options": ["Større trygghet", "Lavere kostnader", "Mer tillit", "Utrygghet og store kostnader"], "correct": 3, "explain": "Kriminalitet koster samfunnet penger og svekker tilliten mellom folk." }
+  ],
+  "mindmap": {
+    "label": "Lover og regler",
+    "children": [
+      { "label": "Spilleregler", "children": [
+        { "label": "Normer", "note": "Uskrevne" },
+        { "label": "Regler", "note": "Bestemt sted" },
+        { "label": "Lover", "note": "Stortinget" }
+      ] },
+      { "label": "Rettsstaten", "children": [
+        { "label": "Like for loven" },
+        { "label": "Uskyldig til bevist" },
+        { "label": "Tingrett, lagmannsrett, Høyesterett" }
+      ] },
+      { "label": "Straff", "children": [
+        { "label": "Kriminell lavalder", "note": "15 år" },
+        { "label": "Bot, samfunnsstraff, fengsel" },
+        { "label": "Ungdomsstraff" },
+        { "label": "Konfliktråd" }
+      ] },
+      { "label": "Formål", "children": [
+        { "label": "Allmennprevensjon" },
+        { "label": "Individualprevensjon" },
+        { "label": "Rehabilitering" }
+      ] },
+      { "label": "Konsekvenser", "children": [
+        { "label": "Den enkelte", "note": "Politiattest" },
+        { "label": "Samfunnet", "note": "Utrygghet, kostnader" },
+        { "label": "Normbrudd", "note": "Sosiale sanksjoner" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q08", "q09"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Barn under 15 år kan ikke straffes i Norge.", "correct": true, "explain": "Barnevernet kan likevel gripe inn, og man kan måtte betale erstatning." },
+      { "id": "m02", "type": "sant-usant", "text": "Grunnloven er den øverste loven i Norge.", "correct": true, "explain": "Andre lover kan ikke være i strid med Grunnloven." },
+      { "id": "m03", "type": "sant-usant", "text": "Brudd på normer kan straffes med fengsel.", "correct": false, "explain": "Normbrudd gir sosiale sanksjoner. Bare lovbrudd kan straffes av staten." },
+      { "id": "m04", "type": "sant-usant", "text": "Det er lov å dele nakenbilder av andre under 18 år hvis du selv er under 18.", "correct": false, "explain": "Deling av slike bilder er straffbart uansett alderen til den som deler." },
+      { "id": "m05", "type": "flervalg", "text": "Hvem etterforsker lovbrudd?", "options": ["Domstolene", "Politiet", "Stortinget", "Konfliktrådet"], "correct": 1, "explain": "Politiet samler bevis, og påtalemyndigheten avgjør om det blir tiltale." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er målet med rehabilitering?", "options": ["Å gjøre straffen hardere", "Å skremme andre", "Å hjelpe den dømte tilbake til et liv uten kriminalitet", "Å gi offeret erstatning"], "correct": 2, "explain": "Norsk kriminalomsorg legger stor vekt på utdanning og arbeid under soning." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilken straffereaksjon er laget spesielt for lovbrytere mellom 15 og 18 år?", "options": ["Ungdomsstraff", "Forvaring", "Livstidsfengsel", "Bot"], "correct": 0, "explain": "Ungdomsstraff gjennomføres med tett oppfølging, ofte gjennom konfliktrådet." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

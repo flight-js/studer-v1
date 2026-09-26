@@ -1,0 +1,85 @@
+{
+  "id": "demokrati-og-politikk",
+  "fagId": "samfunnsfag-8",
+  "trinnId": "8",
+  "name": "Demokrati og det politiske systemet",
+  "intro": "Hva demokrati er, hvordan makten er delt mellom Stortinget, regjeringen og domstolene, hvordan valg og partier fungerer, og hvilke aktører som har makt i samfunnet.",
+  "kompetansemaal": [19, 16],
+  "sammendrag": "## Hva er demokrati?\n\n**Demokrati** betyr «folkestyre». I et demokrati bestemmer innbyggerne hvem som skal styre, gjennom frie og hemmelige **valg**. Viktige kjennetegn er ytringsfrihet, organisasjonsfrihet, frie medier, rettsstat og respekt for **mindretallet**. Norge er et **representativt demokrati**: Vi velger representanter som tar beslutninger på våre vegne. I et **direkte demokrati** stemmer folket selv over enkeltsaker, for eksempel i en **folkeavstemning**.\n\n## Maktfordeling\n\nGrunnloven fra 1814 deler makten i tre:\n\n- **Stortinget** er den lovgivende makten. Det vedtar lover og statsbudsjettet og kontrollerer regjeringen. Stortinget har 169 representanter.\n- **Regjeringen** er den utøvende makten. Den ledes av statsministeren og setter vedtakene ut i livet.\n- **Domstolene** er den dømmende makten. De avgjør saker etter lovene.\n\nMaktfordelingen skal hindre at noen får for mye makt. Norge er også et **konstitusjonelt monarki**: Kongen er statsoverhode, men har ingen politisk makt.\n\n## Parlamentarisme\n\nSiden 1884 har Norge hatt **parlamentarisme**. Det betyr at regjeringen må ha tillit fra Stortinget. Vedtar et flertall på Stortinget **mistillit** mot regjeringen, må den gå av.\n\n## Valg og partier\n\nDet er **stortingsvalg** hvert fjerde år og **kommunestyre- og fylkestingsvalg** to år etter. Du har stemmerett hvis du fyller 18 år i løpet av valgåret. **Politiske partier** samler folk med like verdier og lager partiprogram. Partiene plasseres ofte på en **høyre–venstre-akse**: Venstresiden vil gjerne ha mer økonomisk likhet og en større offentlig sektor, mens høyresiden legger mer vekt på private løsninger og lavere skatter.\n\n## Hvem har makt?\n\nIkke bare politikere har makt. Andre **aktører** påvirker også samfunnet:\n\n- **Interesseorganisasjoner**, som fagforeninger og miljøorganisasjoner, driver lobbyvirksomhet og aksjoner.\n- **Mediene** kalles ofte den «fjerde statsmakt», fordi de setter dagsorden og kontrollerer makthaverne.\n- **Næringslivet** har økonomisk makt gjennom investeringer og arbeidsplasser.\n- **Enkeltpersoner og influensere** kan nå mange gjennom sosiale medier.\n\nAktørene **grunngir standpunktene sine** ulikt: med verdier, fakta, egeninteresse eller hensynet til fellesskapet. Når du vurderer et utspill, bør du spørre hvem som står bak, og hvilke interesser de har.\n\n## Ungdom og påvirkning\n\nDu kan påvirke lenge før du får stemmerett: gjennom elevrådet, ungdomsrådet i kommunen, ungdomspartier, organisasjoner, underskriftskampanjer og demonstrasjoner.",
+  "flashcards": [
+    { "term": "Demokrati", "def": "Folkestyre, der innbyggerne velger hvem som skal styre." },
+    { "term": "Representativt demokrati", "def": "Folket velger representanter som tar beslutninger på deres vegne." },
+    { "term": "Direkte demokrati", "def": "Folket stemmer selv over enkeltsaker, for eksempel i en folkeavstemning." },
+    { "term": "Maktfordeling", "def": "Makten er delt mellom lovgivende, utøvende og dømmende makt." },
+    { "term": "Stortinget", "def": "Den lovgivende makten med 169 representanter. Vedtar lover og statsbudsjett." },
+    { "term": "Regjeringen", "def": "Den utøvende makten, ledet av statsministeren." },
+    { "term": "Domstolene", "def": "Den dømmende makten, som avgjør saker etter lovene." },
+    { "term": "Grunnloven", "def": "Norges øverste lov, vedtatt i 1814." },
+    { "term": "Konstitusjonelt monarki", "def": "Kongen er statsoverhode, men makten er bundet av Grunnloven." },
+    { "term": "Parlamentarisme", "def": "Regjeringen må ha tillit fra Stortinget. Innført i Norge i 1884." },
+    { "term": "Mistillit", "def": "Når et flertall på Stortinget vedtar at regjeringen må gå av." },
+    { "term": "Stemmerett", "def": "Retten til å stemme ved valg, fra året du fyller 18." },
+    { "term": "Politisk parti", "def": "Organisasjon av folk med like verdier som stiller til valg." },
+    { "term": "Interesseorganisasjon", "def": "Organisasjon som prøver å påvirke politikken i saker medlemmene er opptatt av." },
+    { "term": "Den fjerde statsmakt", "def": "Mediene, som setter dagsorden og kontrollerer makthaverne." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva betyr demokrati?", "options": ["Styre av de rike", "Folkestyre", "Styre av kongen", "Styre av militæret"], "correct": 1, "explain": "Ordet kommer fra gresk og betyr at folket styrer." },
+    { "id": "q02", "text": "Hvilken statsmakt vedtar lovene i Norge?", "options": ["Regjeringen", "Domstolene", "Kongen", "Stortinget"], "correct": 3, "explain": "Stortinget er den lovgivende makten." },
+    { "id": "q03", "text": "Hvorfor er makten delt i tre?", "options": ["For å hindre at noen får for mye makt", "For å spare penger", "Fordi det var enklest i 1814", "For at kongen skal bestemme mest"], "correct": 0, "explain": "Statsmaktene kontrollerer hverandre, slik at makten ikke samles på én hånd." },
+    { "id": "q04", "text": "Hva betyr parlamentarisme?", "options": ["At kongen velger regjeringen fritt", "At det er valg hvert år", "At regjeringen må ha tillit fra Stortinget", "At domstolene lager lover"], "correct": 2, "explain": "Mister regjeringen tilliten fra et flertall på Stortinget, må den gå av." },
+    { "id": "q05", "text": "Hvor ofte er det stortingsvalg?", "options": ["Hvert år", "Hvert andre år", "Hvert fjerde år", "Hvert sjette år"], "correct": 2, "explain": "Kommunestyre- og fylkestingsvalg holdes to år etter stortingsvalget." },
+    { "id": "q06", "text": "Hva er et representativt demokrati?", "options": ["Folket velger representanter som tar beslutninger", "Folket stemmer over alle saker", "Én person bestemmer alt", "Bare representanter har stemmerett"], "correct": 0, "explain": "Norge er et representativt demokrati der vi velger politikere til Stortinget og kommunestyrene." },
+    { "id": "q07", "text": "Hvorfor kalles mediene den fjerde statsmakt?", "options": ["Fordi de vedtar lover", "Fordi de dømmer i rettssaker", "Fordi de eies av staten", "Fordi de setter dagsorden og kontrollerer makthaverne"], "correct": 3, "explain": "Mediene har stor påvirkning, selv om de ikke er en formell statsmakt." },
+    { "id": "q08", "text": "Hva gjør en interesseorganisasjon?", "options": ["Dømmer i saker", "Prøver å påvirke politikken i saker medlemmene er opptatt av", "Leder regjeringen", "Teller stemmer ved valg"], "correct": 1, "explain": "Fagforeninger og miljøorganisasjoner er eksempler på interesseorganisasjoner." },
+    { "id": "q09", "text": "Hvem er statsoverhode i Norge?", "options": ["Kongen", "Statsministeren", "Stortingspresidenten", "Lederen av Høyesterett"], "correct": 0, "explain": "Kongen er statsoverhode, men den politiske makten ligger hos Stortinget og regjeringen." },
+    { "id": "q10", "text": "Hvordan kan en 14-åring påvirke politikken?", "options": ["Ved å stemme ved stortingsvalget", "Ved å bli statsråd", "Det er ikke mulig", "Gjennom elevråd, ungdomsråd og organisasjoner"], "correct": 3, "explain": "Ungdom kan påvirke på mange måter før de får stemmerett." }
+  ],
+  "mindmap": {
+    "label": "Demokrati og politikk",
+    "children": [
+      { "label": "Demokrati", "children": [
+        { "label": "Folkestyre" },
+        { "label": "Representativt" },
+        { "label": "Direkte", "note": "Folkeavstemning" },
+        { "label": "Rettigheter og mindretallsvern" }
+      ] },
+      { "label": "Maktfordeling", "children": [
+        { "label": "Stortinget", "note": "Lovgivende" },
+        { "label": "Regjeringen", "note": "Utøvende" },
+        { "label": "Domstolene", "note": "Dømmende" }
+      ] },
+      { "label": "Styreform", "children": [
+        { "label": "Grunnloven", "note": "1814" },
+        { "label": "Konstitusjonelt monarki" },
+        { "label": "Parlamentarisme", "note": "1884" }
+      ] },
+      { "label": "Valg og partier", "children": [
+        { "label": "Stortingsvalg", "note": "Hvert 4. år" },
+        { "label": "Lokalvalg" },
+        { "label": "Stemmerett fra 18" },
+        { "label": "Høyre og venstre" }
+      ] },
+      { "label": "Makt", "children": [
+        { "label": "Organisasjoner" },
+        { "label": "Medier" },
+        { "label": "Næringsliv" },
+        { "label": "Influensere" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Stortinget har 169 representanter.", "correct": true, "explain": "Representantene velges fra valgdistrikter over hele landet." },
+      { "id": "m02", "type": "sant-usant", "text": "Kongen har stor politisk makt i Norge i dag.", "correct": false, "explain": "Kongen er statsoverhode, men har en symbolsk og samlende rolle." },
+      { "id": "m03", "type": "sant-usant", "text": "Kommunestyre- og fylkestingsvalg holdes to år etter stortingsvalget.", "correct": true, "explain": "Derfor er det et valg i Norge annethvert år." },
+      { "id": "m04", "type": "sant-usant", "text": "I et demokrati trenger flertallet ikke å ta hensyn til mindretallet.", "correct": false, "explain": "Respekt for mindretallets rettigheter er et viktig kjennetegn ved demokrati." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken statsmakt er domstolene?", "options": ["Den lovgivende", "Den utøvende", "Den dømmende", "Den fjerde"], "correct": 2, "explain": "Domstolene avgjør saker etter lovene Stortinget har vedtatt." },
+      { "id": "m06", "type": "flervalg", "text": "Hva skjer hvis et flertall på Stortinget vedtar mistillit mot regjeringen?", "options": ["Regjeringen må gå av", "Kongen må abdisere", "Stortinget oppløses", "Ingenting"], "correct": 0, "explain": "Dette følger av parlamentarismen." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er en folkeavstemning?", "options": ["Et møte i Stortinget", "At folket stemmer direkte over en enkeltsak", "En meningsmåling", "Et partimøte"], "correct": 1, "explain": "Norge har for eksempel hatt folkeavstemninger om EU-medlemskap i 1972 og 1994." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

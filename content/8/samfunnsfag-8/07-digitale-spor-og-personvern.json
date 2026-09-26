@@ -1,0 +1,84 @@
+{
+  "id": "digitale-spor-og-personvern",
+  "fagId": "samfunnsfag-8",
+  "trinnId": "8",
+  "name": "Digitale spor, personvern og samfunnsdebatt",
+  "intro": "Hvilke digitale spor du legger igjen, hvilke rettigheter du har til personvern, sletting og opphavsrett, og hvordan digitale plattformer påvirker samfunnsdebatten.",
+  "kompetansemaal": [14, 17],
+  "sammendrag": "## Digitale spor\n\nHver gang du bruker internett, legger du igjen **digitale spor**. **Aktive spor** er det du selv legger ut: bilder, kommentarer, innlegg og likerklikk. **Passive spor** samles inn uten at du merker det: posisjonen din, søkene dine, hvilke sider du besøker og hvor lenge du ser på en video. Selskaper bruker **informasjonskapsler** (cookies) og algoritmer til å lage en **profil** av deg, som blant annet brukes til målrettet reklame.\n\n## Personvern\n\n**Personvern** handler om retten til et privatliv og retten til å bestemme over opplysninger om deg selv. **Personopplysninger** er alt som kan knyttes til deg, som navn, bilde, adresse, telefonnummer og IP-adresse. I Norge og resten av EØS gjelder **personvernforordningen (GDPR)**. Den gir deg blant annet\n\n- rett til innsyn i hvilke opplysninger som er lagret om deg\n- rett til å få feil rettet\n- **rett til sletting**, ofte kalt «retten til å bli glemt»\n- rett til å trekke tilbake et samtykke\n\n**Datatilsynet** passer på at reglene følges. Fra du er 13 år, kan du selv samtykke til at sosiale medier behandler opplysninger om deg.\n\n## Å slette spor\n\nDu kan slette egne innlegg, be nettsteder slette opplysninger og be søkemotorer fjerne treff. Men det som er delt, kan være kopiert eller tatt skjermbilde av. Derfor er det lurt å tenke før du deler.\n\n## Andres privatliv\n\nHovedregelen er at du må **spørre om lov** før du deler bilder der andre er hovedmotivet. Å dele krenkende eller private opplysninger om andre kan være ulovlig og gjøre stor skade.\n\n## Opphavsrett\n\n**Opphavsrett** gir den som har laget et verk, som en tekst, et bilde, en sang eller en film, rett til å bestemme over bruken av det. Retten varer til 70 år etter at opphavspersonen er død. Du kan derfor ikke fritt bruke andres bilder eller musikk i egne publiseringer. **Creative Commons**-lisenser lar skapere gi andre lov til å bruke verket på bestemte vilkår.\n\n## Digital samhandling og samfunnsdebatten\n\nSosiale medier, kommentarfelt, forum og spill er **plattformer for digital samhandling**. De gjør det lett for alle å delta i debatten og å mobilisere mange raskt. Samtidig påvirker de **formen** og **innholdet** i debatten:\n\n- Innleggene blir korte, raske og visuelle.\n- Algoritmer fremhever innhold som vekker sterke følelser, noe som kan gi mer **polarisering**.\n- Vi kan havne i **ekkokamre** der vi mest møter meninger som ligner våre egne.\n- **Hets og hatprat** får mange til å trekke seg fra debatten.\n\n**Ytringsfriheten** er grunnleggende i et demokrati, men den har grenser: Trusler og hatefulle ytringer er straffbare, også på nett.",
+  "flashcards": [
+    { "term": "Digitale spor", "def": "Informasjon du etterlater deg når du bruker internett." },
+    { "term": "Aktive spor", "def": "Det du selv legger ut, som bilder, kommentarer og likerklikk." },
+    { "term": "Passive spor", "def": "Data som samles inn uten at du merker det, som posisjon og søkehistorikk." },
+    { "term": "Informasjonskapsel (cookie)", "def": "Liten fil som nettsteder bruker til å huske og spore deg." },
+    { "term": "Personvern", "def": "Retten til privatliv og til å bestemme over opplysninger om deg selv." },
+    { "term": "Personopplysning", "def": "Opplysning som kan knyttes til deg, som navn, bilde eller IP-adresse." },
+    { "term": "GDPR", "def": "Personvernforordningen, som gjelder i EU og EØS, også i Norge." },
+    { "term": "Rett til sletting", "def": "Retten til å få opplysninger om deg slettet, «retten til å bli glemt»." },
+    { "term": "Datatilsynet", "def": "Myndigheten som passer på at personvernreglene følges i Norge." },
+    { "term": "Samtykke", "def": "Frivillig og tydelig ja til at noe kan skje, for eksempel at et bilde deles." },
+    { "term": "Opphavsrett", "def": "Skaperens rett til å bestemme over bruken av verket sitt, til 70 år etter død." },
+    { "term": "Creative Commons", "def": "Lisenser som lar skapere gi andre lov til å bruke verket på bestemte vilkår." },
+    { "term": "Ekkokammer", "def": "Nettmiljø der man mest møter meninger som ligner ens egne." },
+    { "term": "Polarisering", "def": "At meningene i debatten trekkes mot ytterpunktene." },
+    { "term": "Hatefulle ytringer", "def": "Ytringer som truer eller håner noen for blant annet hudfarge, religion eller legning. Straffbart." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er et passivt digitalt spor?", "options": ["Et bilde du legger ut", "En kommentar du skriver", "Posisjonen din som samles inn uten at du merker det", "Et innlegg du deler"], "correct": 2, "explain": "Passive spor samles inn i bakgrunnen mens du bruker nettet." },
+    { "id": "q02", "text": "Hva er personopplysninger?", "options": ["Bare passordet ditt", "Opplysninger som kan knyttes til deg", "Opplysninger om kjendiser", "Nyheter om deg i avisen"], "correct": 1, "explain": "Navn, bilder, adresse og IP-adresse er eksempler på personopplysninger." },
+    { "id": "q03", "text": "Hva betyr «retten til å bli glemt»?", "options": ["At du kan be om å få slettet opplysninger om deg", "At lærere ikke kan huske deg", "At du kan slette andres innlegg", "At internett sletter alt etter ett år"], "correct": 0, "explain": "Retten til sletting er en del av personvernforordningen." },
+    { "id": "q04", "text": "Hvem passer på personvernet i Norge?", "options": ["Politiet", "Stortinget", "Forbrukerrådet", "Datatilsynet"], "correct": 3, "explain": "Datatilsynet kan gi pålegg og bøter til virksomheter som bryter reglene." },
+    { "id": "q05", "text": "Hva bør du gjøre før du deler et bilde der en venn er hovedmotivet?", "options": ["Redigere bildet", "Spørre om lov", "Ingenting", "Legge på et filter"], "correct": 1, "explain": "Hovedregelen er at den som er avbildet, må samtykke." },
+    { "id": "q06", "text": "Hva gir opphavsretten?", "options": ["Rett til å bruke alle bilder på nett", "Rett til å slette andres innlegg", "Skaperen rett til å bestemme over bruken av verket", "Staten rett til å sensurere"], "correct": 2, "explain": "Du trenger tillatelse for å bruke andres bilder, musikk og tekster." },
+    { "id": "q07", "text": "Hvorfor samler selskaper inn data om deg?", "options": ["For å lage en profil og vise målrettet reklame", "For å hjelpe skolen", "Fordi loven krever det", "For å slette dem senere"], "correct": 0, "explain": "Data om deg er verdifulle fordi de gjør reklamen mer treffsikker." },
+    { "id": "q08", "text": "Hvordan kan algoritmer påvirke samfunnsdebatten?", "options": ["De gjør alle innlegg like lange", "De fjerner alt politisk innhold", "De viser bare nyheter fra staten", "De kan fremheve innhold som vekker sterke følelser"], "correct": 3, "explain": "Engasjerende og polariserende innhold får ofte mer spredning." },
+    { "id": "q09", "text": "Hva kan være en følge av hets i kommentarfelt?", "options": ["At flere deltar i debatten", "At noen trekker seg fra debatten", "At debatten blir mer saklig", "Ingen følger"], "correct": 1, "explain": "Hets kan gjøre at viktige stemmer forsvinner fra samfunnsdebatten." },
+    { "id": "q10", "text": "Hva er en Creative Commons-lisens?", "options": ["En lisens som lar skapere gi andre lov til å bruke verket", "Et forbud mot deling", "Et førerkort for droner", "En type passord"], "correct": 0, "explain": "Lisensen sier hva andre har lov til, for eksempel å dele med navn på skaperen." }
+  ],
+  "mindmap": {
+    "label": "Digitale spor og personvern",
+    "children": [
+      { "label": "Digitale spor", "children": [
+        { "label": "Aktive" },
+        { "label": "Passive" },
+        { "label": "Cookies og profiler" }
+      ] },
+      { "label": "Personvern", "children": [
+        { "label": "Personopplysninger" },
+        { "label": "GDPR" },
+        { "label": "Rett til sletting" },
+        { "label": "Datatilsynet" }
+      ] },
+      { "label": "Deling", "children": [
+        { "label": "Spør om lov" },
+        { "label": "Tenk før du deler" },
+        { "label": "Samtykke fra 13 år" }
+      ] },
+      { "label": "Opphavsrett", "children": [
+        { "label": "Tekst, bilde, musikk" },
+        { "label": "70 år etter død" },
+        { "label": "Creative Commons" }
+      ] },
+      { "label": "Samfunnsdebatten", "children": [
+        { "label": "Alle kan delta" },
+        { "label": "Algoritmer og ekkokamre" },
+        { "label": "Hets og hatprat" },
+        { "label": "Ytringsfrihet med grenser" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Et skjermbilde kan gjøre at noe du har slettet, likevel spres videre.", "correct": true, "explain": "Det som er delt, kan kopieres før du rekker å slette det." },
+      { "id": "m02", "type": "sant-usant", "text": "Ytringsfriheten betyr at du kan si hva som helst, også trusler.", "correct": false, "explain": "Trusler og hatefulle ytringer er straffbare." },
+      { "id": "m03", "type": "sant-usant", "text": "IP-adressen din kan være en personopplysning.", "correct": true, "explain": "IP-adressen kan brukes til å knytte aktivitet på nett til deg." },
+      { "id": "m04", "type": "sant-usant", "text": "Opphavsretten forsvinner når et bilde legges ut på internett.", "correct": false, "explain": "Skaperen har fortsatt opphavsretten, selv om bildet er lett å kopiere." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er et ekkokammer?", "options": ["Et rom med god akustikk", "Et nettmiljø der man mest møter meninger som ligner ens egne", "En type søkemotor", "Et lydopptak"], "correct": 1, "explain": "I ekkokamre blir egne meninger forsterket i stedet for utfordret." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er GDPR?", "options": ["Personvernforordningen, som også gjelder i Norge", "En norsk avis", "En sosial medieplattform", "Et bildeprogram"], "correct": 0, "explain": "GDPR gir alle i EU og EØS de samme grunnleggende personvernrettighetene." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilken ytring er straffbar?", "options": ["Kritikk av regjeringen", "En sterk mening om skolemat", "En hatefull ytring mot noen på grunn av hudfarge", "En negativ anmeldelse av en film"], "correct": 2, "explain": "Straffeloven forbyr hatefulle ytringer mot grupper og enkeltpersoner." }
+    ]
+  },
+  "kvalitet": { "status": "sjekkes", "merknader": ["Aldersgrensen for samtykke (13 år) kan bli endret hvis foreslått aldersgrense på 15 år for sosiale medier vedtas – sjekk gjeldende regler."] }
+}

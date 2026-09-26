@@ -1,0 +1,83 @@
+{
+  "id": "okonomi-og-forbruk",
+  "fagId": "samfunnsfag-8",
+  "trinnId": "8",
+  "name": "Arbeid, økonomi og forbruk",
+  "intro": "Hvordan arbeid, inntekt og forbruk påvirker den personlige økonomien, hvordan du lager et budsjett, hvilke rettigheter du har som forbruker, og forskjellen på levestandard og livskvalitet.",
+  "kompetansemaal": [12],
+  "sammendrag": "## Arbeid og inntekt\n\nDe fleste voksne får **inntekt** gjennom lønnet arbeid. Andre inntekter kan være pensjon, dagpenger, studiestøtte og renter. Arbeid gir ikke bare penger, men også fellesskap, mestring og mening. **Bruttolønn** er lønnen før skatt, mens **nettolønn** er det du får utbetalt etter at skatten er trukket. **Skatten** finansierer skoler, sykehus, veier og velferdsordninger som alle har nytte av.\n\n## Budsjett\n\nEt **budsjett** er en oversikt over forventede inntekter og utgifter. Det gjør det lettere å se hva du har råd til.\n\n- **Faste utgifter** kommer jevnlig og er omtrent like store hver gang, som husleie, strøm og mobilabonnement.\n- **Variable utgifter** varierer, som mat, klær og fritid.\n\nGode vaner er å sette av penger til **sparing** først, å ha en **buffer** til uforutsette utgifter og å sammenligne priser. Når prisene stiger (**inflasjon**), får du mindre for de samme pengene.\n\n## Lån og gjeld\n\nNår du låner penger, betaler du **renter** i tillegg til selve lånet. **Forbrukslån** og kredittkort har ofte høy rente. Ubetalte regninger kan gå til **inkasso**, med ekstra gebyrer, og gi betalingsanmerkning. Ordninger som «kjøp nå, betal senere» gjør det lett å bruke mer enn man har råd til.\n\n## Forbruk og påvirkning\n\n**Reklame**, influensere og algoritmer påvirker hva vi ønsker å kjøpe. Reklame på sosiale medier skal være tydelig merket. Mange opplever **kjøpepress**, for eksempel for å ha de riktige merkeklærne.\n\nSom forbruker har du rettigheter:\n\n- **Angrerett**: Handler du på nett, kan du som hovedregel angre kjøpet innen 14 dager.\n- **Reklamasjon**: Har en vare feil, kan du klage i to år, eller fem år for ting som skal vare lenge.\n\nEr du under 18 år, er du **umyndig**. Du kan bruke penger du har tjent selv, men kan ikke ta opp lån uten samtykke fra foresatte.\n\n## Levestandard og livskvalitet\n\n**Levestandard** handler om materielle forhold: inntekt, bolig og hva vi har råd til. **Livskvalitet** handler om hvordan vi har det: helse, venner, trygghet, fritid og mening. Høyere inntekt gir høyere levestandard, men ikke nødvendigvis bedre livskvalitet. Mer penger betyr mest for dem som har lite. Når grunnbehovene er dekket, blir andre ting, som relasjoner og helse, viktigere.\n\n## Bærekraftig forbruk\n\nAlt vi kjøper, krever ressurser og energi. Å kjøpe brukt, reparere, låne og dele er måter å bruke mindre på, som er bra både for lommeboka og for miljøet.",
+  "flashcards": [
+    { "term": "Inntekt", "def": "Penger du får, for eksempel lønn, pensjon eller studiestøtte." },
+    { "term": "Bruttolønn", "def": "Lønn før skatt er trukket." },
+    { "term": "Nettolønn", "def": "Lønn etter at skatten er trukket, altså det du får utbetalt." },
+    { "term": "Skatt", "def": "Penger vi betaler til fellesskapet, som finansierer skoler, sykehus og veier." },
+    { "term": "Budsjett", "def": "Oversikt over forventede inntekter og utgifter." },
+    { "term": "Faste utgifter", "def": "Utgifter som kommer jevnlig, som husleie og mobilabonnement." },
+    { "term": "Variable utgifter", "def": "Utgifter som varierer, som mat, klær og fritid." },
+    { "term": "Buffer", "def": "Sparepenger til uforutsette utgifter." },
+    { "term": "Rente", "def": "Prisen du betaler for å låne penger." },
+    { "term": "Inkasso", "def": "Innkreving av ubetalte regninger, med ekstra gebyrer." },
+    { "term": "Inflasjon", "def": "At prisene stiger, slik at pengene er mindre verdt." },
+    { "term": "Angrerett", "def": "Rett til å angre et kjøp på nett innen 14 dager." },
+    { "term": "Reklamasjon", "def": "Å klage på en vare med feil, innen to eller fem år." },
+    { "term": "Levestandard", "def": "Materielle forhold, som inntekt, bolig og forbruk." },
+    { "term": "Livskvalitet", "def": "Hvordan vi har det, som helse, relasjoner og trygghet." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er nettolønn?", "options": ["Lønn før skatt", "Lønn etter at skatten er trukket", "Lønn for overtid", "Lønn fra nettbutikker"], "correct": 1, "explain": "Nettolønnen er det som faktisk kommer inn på kontoen." },
+    { "id": "q02", "text": "Hva er et budsjett?", "options": ["En oversikt over forventede inntekter og utgifter", "Et lån i banken", "En type skatt", "En kvittering"], "correct": 0, "explain": "Budsjettet hjelper deg å planlegge hva du har råd til." },
+    { "id": "q03", "text": "Hvilken er en fast utgift?", "options": ["Kinobillett", "Godteri", "Husleie", "Ny jakke"], "correct": 2, "explain": "Husleie betales jevnlig og er omtrent like stor hver måned." },
+    { "id": "q04", "text": "Hvorfor bør man være forsiktig med forbrukslån?", "options": ["Fordi de er rentefrie", "Fordi de bare gis til barn", "Fordi de må betales tilbake samme dag", "Fordi de ofte har høy rente"], "correct": 3, "explain": "Høy rente gjør at lånet kan bli svært dyrt over tid." },
+    { "id": "q05", "text": "Hvor lenge har du som hovedregel angrerett når du handler på nett?", "options": ["3 dager", "7 dager", "14 dager", "30 dager"], "correct": 2, "explain": "Angrefristen er 14 dager fra du mottok varen." },
+    { "id": "q06", "text": "Hva er forskjellen på levestandard og livskvalitet?", "options": ["Levestandard gjelder materielle forhold, livskvalitet gjelder hvordan vi har det", "Det er det samme", "Livskvalitet måles bare i penger", "Levestandard handler om vennskap"], "correct": 0, "explain": "Man kan ha høy levestandard og likevel lav livskvalitet, og omvendt." },
+    { "id": "q07", "text": "Hva må reklame på sosiale medier være?", "options": ["Morsom", "Tydelig merket som reklame", "Gratis", "Skrevet på engelsk"], "correct": 1, "explain": "Skjult reklame er ulovlig fordi den lurer forbrukerne." },
+    { "id": "q08", "text": "Hva går skattepengene blant annet til?", "options": ["Private feriereiser", "Lønn til influensere", "Reklame for butikker", "Skoler, sykehus og veier"], "correct": 3, "explain": "Skatten finansierer fellesgoder som alle kan bruke." },
+    { "id": "q09", "text": "Hva er en buffer i personlig økonomi?", "options": ["Sparepenger til uforutsette utgifter", "En type kredittkort", "Et lån", "En skatt"], "correct": 0, "explain": "Med en buffer slipper du å låne hvis noe uventet skjer." },
+    { "id": "q10", "text": "Hva kan du gjøre som 15-åring uten samtykke fra foresatte?", "options": ["Ta opp et forbrukslån", "Kjøpe bil på avbetaling", "Bruke penger du har tjent selv", "Inngå en boliglånsavtale"], "correct": 2, "explain": "Umyndige kan råde over penger de har tjent ved eget arbeid." }
+  ],
+  "mindmap": {
+    "label": "Økonomi og forbruk",
+    "children": [
+      { "label": "Inntekt", "children": [
+        { "label": "Arbeid" },
+        { "label": "Brutto og netto" },
+        { "label": "Skatt" }
+      ] },
+      { "label": "Budsjett", "children": [
+        { "label": "Faste utgifter" },
+        { "label": "Variable utgifter" },
+        { "label": "Sparing og buffer" }
+      ] },
+      { "label": "Lån", "children": [
+        { "label": "Rente" },
+        { "label": "Forbrukslån og kreditt" },
+        { "label": "Inkasso" }
+      ] },
+      { "label": "Forbruker", "children": [
+        { "label": "Reklame og influensere" },
+        { "label": "Angrerett", "note": "14 dager" },
+        { "label": "Reklamasjon", "note": "2 eller 5 år" },
+        { "label": "Umyndig under 18" }
+      ] },
+      { "label": "Livet", "children": [
+        { "label": "Levestandard" },
+        { "label": "Livskvalitet" },
+        { "label": "Bærekraftig forbruk" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Arbeid gir bare penger og ingen andre goder.", "correct": false, "explain": "Arbeid gir også fellesskap, mestring og mening." },
+      { "id": "m02", "type": "sant-usant", "text": "Når prisene stiger, får du mindre for de samme pengene.", "correct": true, "explain": "Dette kalles inflasjon." },
+      { "id": "m03", "type": "sant-usant", "text": "Skjult reklame er lov på sosiale medier.", "correct": false, "explain": "Reklame skal være tydelig merket, også hos influensere." },
+      { "id": "m04", "type": "sant-usant", "text": "Høyere inntekt betyr mest for dem som har lite fra før.", "correct": true, "explain": "Når grunnbehovene er dekket, blir andre ting viktigere for livskvaliteten." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er reklamasjon?", "options": ["Å klage på en vare med feil eller mangel", "Å returnere en vare du angrer på", "Å lage reklame", "Å betale med kort"], "correct": 0, "explain": "Reklamasjonsfristen er to år, eller fem år for ting som skal vare lenge." },
+      { "id": "m06", "type": "flervalg", "text": "Hva kan skje hvis du ikke betaler en regning?", "options": ["Regningen forsvinner", "Du får penger tilbake", "Beløpet blir mindre", "Saken kan gå til inkasso med ekstra gebyrer"], "correct": 3, "explain": "Ubetalte regninger blir dyrere og kan gi betalingsanmerkning." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er et eksempel på bærekraftig forbruk?", "options": ["Å kjøpe nye klær hver uke", "Å reparere og kjøpe brukt", "Å kaste ting som har gått i stykker", "Å handle mest mulig på salg"], "correct": 1, "explain": "Å bruke ting lenger sparer både penger og ressurser." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
