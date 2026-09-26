@@ -1,0 +1,83 @@
+{
+  "id": "arbeidslivet-i-endring",
+  "fagId": "utdanningsvalg-9",
+  "trinnId": "9",
+  "name": "Arbeidslivet i endring",
+  "intro": "Næringer og sektorer i norsk arbeidsliv, hvordan konjunkturer påvirker jobbmulighetene, teknologi og kunstig intelligens, globalisering, det grønne skiftet og behovet for livslang læring.",
+  "kompetansemaal": [4],
+  "sammendrag": "## Næringer\n\nArbeidslivet deles ofte inn i tre typer **næringer**:\n\n- **Primærnæringer** henter ressurser direkte fra naturen: jordbruk, skogbruk, fiske og havbruk.\n- **Sekundærnæringer** bearbeider råvarer til produkter: industri, bygg og anlegg og energiproduksjon.\n- **Tertiærnæringer** er **tjenesteyting**: helse, skole, handel, transport, IT og mye mer.\n\nFor hundre år siden jobbet mange i primærnæringene. I dag jobber de aller fleste i **tjenesteytende næringer**. Olje og gass har vært svært viktig for norsk økonomi siden 1970-tallet.\n\n## Offentlig og privat sektor\n\n**Offentlig sektor** er stat, fylker og kommuner, for eksempel skoler, sykehus og politi. **Privat sektor** er bedrifter som eies av private og skal tjene penger. Norge har en stor offentlig sektor.\n\n## Konjunkturer\n\nØkonomien går i **bølger** som kalles **konjunkturer**:\n\n- I **høykonjunktur** går det godt: bedriftene selger mye, trenger flere ansatte, og **arbeidsledigheten** er lav.\n- I **lavkonjunktur** går det dårligere: salget faller, noen blir **permittert** eller mister jobben, og arbeidsledigheten øker.\n\nKonjunkturene påvirker hvilke bransjer som trenger folk. Men en utdanning tar flere år, så det er lurt å tenke **langsiktig** og ikke bare på hvordan det går akkurat nå.\n\n## Teknologi\n\n**Digitalisering**, **automatisering** og **kunstig intelligens (KI)** endrer arbeidslivet. Noen oppgaver overtas av maskiner, for eksempel rutinepreget kontorarbeid og samlebåndsarbeid. Samtidig oppstår **nye yrker**, som dataingeniører, spillutviklere og droneoperatører. Mange yrker endrer innhold: Bilmekanikere jobber med elbiler og datamaskiner, og helsefagarbeidere bruker velferdsteknologi.\n\n## Globalisering\n\n**Globalisering** betyr at landene knyttes tettere sammen gjennom handel, reiser og kommunikasjon. Norske bedrifter konkurrerer med bedrifter i hele verden, og mange jobber i internasjonale selskaper. Noen jobber flyttes til land med lavere lønn, mens andre oppstår i Norge.\n\n## Bærekraft og det grønne skiftet\n\nDet **grønne skiftet** er overgangen til et samfunn med lavere klimagassutslipp. Det gir behov for arbeidskraft innen for eksempel **fornybar energi**, **elektrifisering**, **energieffektive bygg**, **gjenvinning** og **reparasjon**. Mange eksisterende yrker må lære nye metoder.\n\n## Framtidens kompetanse\n\nArbeidslivet trenger både **fagarbeidere** og folk med **høyere utdanning**. Mange prognoser peker på stort behov for arbeidskraft i **helse og omsorg** og for **fagarbeidere**. Egenskaper som **samarbeid**, **problemløsning**, **kreativitet** og **digitale ferdigheter** blir viktigere. Fordi arbeidslivet endrer seg, må alle regne med **livslang læring** – å lære nye ting gjennom hele yrkeslivet.",
+  "flashcards": [
+    { "term": "Primærnæringer", "def": "Næringer som henter ressurser fra naturen: jordbruk, skogbruk og fiske." },
+    { "term": "Sekundærnæringer", "def": "Næringer som bearbeider råvarer: industri og bygg og anlegg." },
+    { "term": "Tertiærnæringer", "def": "Tjenesteytende næringer, som helse, handel og IT." },
+    { "term": "Offentlig sektor", "def": "Stat, fylker og kommuner, som skoler og sykehus." },
+    { "term": "Privat sektor", "def": "Bedrifter eid av private som skal tjene penger." },
+    { "term": "Konjunkturer", "def": "Svingninger i økonomien mellom gode og dårlige tider." },
+    { "term": "Høykonjunktur", "def": "Gode tider med høyt salg og lav arbeidsledighet." },
+    { "term": "Lavkonjunktur", "def": "Dårlige tider med lavere salg og økende arbeidsledighet." },
+    { "term": "Arbeidsledighet", "def": "At personer som ønsker å jobbe, ikke har arbeid." },
+    { "term": "Permittering", "def": "Midlertidig fritak fra arbeid når bedriften har for lite å gjøre." },
+    { "term": "Automatisering", "def": "At maskiner overtar oppgaver som mennesker gjorde før." },
+    { "term": "Kunstig intelligens (KI)", "def": "Teknologi som lar datamaskiner utføre oppgaver som krever en slags intelligens." },
+    { "term": "Globalisering", "def": "At landene knyttes tettere sammen gjennom handel og kommunikasjon." },
+    { "term": "Det grønne skiftet", "def": "Overgangen til et samfunn med lavere klimagassutslipp." },
+    { "term": "Livslang læring", "def": "Å lære nye ting gjennom hele yrkeslivet." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvilken næring er fiske?", "options": ["Sekundærnæring", "Primærnæring", "Tertiærnæring", "Offentlig sektor"], "correct": 1, "explain": "Primærnæringer henter ressurser direkte fra naturen." },
+    { "id": "q02", "text": "Hva kjennetegner en høykonjunktur?", "options": ["Høy arbeidsledighet", "Mange konkurser", "Høyt salg og lav arbeidsledighet", "At alle blir permittert"], "correct": 2, "explain": "I høykonjunktur trenger bedriftene flere ansatte." },
+    { "id": "q03", "text": "Hvor jobber de fleste i Norge i dag?", "options": ["I tjenesteytende næringer", "I jordbruket", "I fisket", "I gruvedrift"], "correct": 0, "explain": "Helse, handel, skole og IT er eksempler." },
+    { "id": "q04", "text": "Hva er automatisering?", "options": ["At folk jobber mer", "At bilene blir større", "At bedrifter flytter til utlandet", "At maskiner overtar oppgaver mennesker gjorde før"], "correct": 3, "explain": "Automatisering endrer mange yrker." },
+    { "id": "q05", "text": "Hva er det grønne skiftet?", "options": ["At alle maler husene grønne", "Overgangen til et samfunn med lavere klimagassutslipp", "En ny type skift på jobb", "At man bare spiser grønnsaker"], "correct": 1, "explain": "Det grønne skiftet gir nye jobber innen blant annet fornybar energi." },
+    { "id": "q06", "text": "Hva er et eksempel på offentlig sektor?", "options": ["En frisørsalong", "En dagligvarebutikk", "Et sykehus", "En restaurant"], "correct": 2, "explain": "Offentlig sektor drives av stat, fylker og kommuner." },
+    { "id": "q07", "text": "Hvorfor bør du tenke langsiktig når du velger utdanning?", "options": ["Fordi en utdanning tar flere år og konjunkturene endrer seg", "Fordi arbeidslivet aldri endrer seg", "Fordi alle jobber forsvinner", "Det er ikke nødvendig"], "correct": 0, "explain": "Det som gjelder i dag, kan være annerledes når du er ferdig." },
+    { "id": "q08", "text": "Hva er permittering?", "options": ["At man får fast jobb", "At man får lønnsøkning", "At man blir forfremmet", "Midlertidig fritak fra arbeid når bedriften har for lite å gjøre"], "correct": 3, "explain": "Permitteringer er vanlige i lavkonjunkturer." },
+    { "id": "q09", "text": "Hva betyr globalisering for arbeidslivet?", "options": ["At alle må flytte til utlandet", "At norske bedrifter konkurrerer med bedrifter i hele verden", "At handel stopper opp", "At ingen jobber i Norge"], "correct": 1, "explain": "Noen jobber flyttes ut, mens andre oppstår." },
+    { "id": "q10", "text": "Hvilke egenskaper blir viktigere i framtidens arbeidsliv?", "options": ["Å gjøre det samme hele livet", "Å jobbe alene uten å samarbeide", "Samarbeid, problemløsning og digitale ferdigheter", "Å unngå ny teknologi"], "correct": 2, "explain": "Endringer krever evne til å lære og tilpasse seg." }
+  ],
+  "mindmap": {
+    "label": "Arbeidslivet i endring",
+    "children": [
+      { "label": "Næringer", "children": [
+        { "label": "Primær" },
+        { "label": "Sekundær" },
+        { "label": "Tertiær" },
+        { "label": "Offentlig og privat" }
+      ] },
+      { "label": "Konjunkturer", "children": [
+        { "label": "Høykonjunktur" },
+        { "label": "Lavkonjunktur" },
+        { "label": "Arbeidsledighet" }
+      ] },
+      { "label": "Teknologi", "children": [
+        { "label": "Digitalisering" },
+        { "label": "Automatisering" },
+        { "label": "KI" },
+        { "label": "Nye yrker" }
+      ] },
+      { "label": "Globalt", "children": [
+        { "label": "Globalisering" },
+        { "label": "Det grønne skiftet" }
+      ] },
+      { "label": "Framtiden", "children": [
+        { "label": "Fagarbeidere" },
+        { "label": "Helse og omsorg" },
+        { "label": "Livslang læring" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Ny teknologi kan både fjerne gamle jobber og skape nye.", "correct": true, "explain": "Dataingeniør og droneoperatør er eksempler på nye yrker." },
+      { "id": "m02", "type": "sant-usant", "text": "Industri er en primærnæring.", "correct": false, "explain": "Industri er en sekundærnæring." },
+      { "id": "m03", "type": "sant-usant", "text": "I lavkonjunktur øker ofte arbeidsledigheten.", "correct": true, "explain": "Bedriftene selger mindre og trenger færre ansatte." },
+      { "id": "m04", "type": "sant-usant", "text": "Etter at man er ferdig utdannet, trenger man aldri å lære noe nytt.", "correct": false, "explain": "Arbeidslivet endrer seg, så livslang læring er nødvendig." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilket yrke har endret seg på grunn av elbiler?", "options": ["Bilmekaniker", "Frisør", "Baker", "Barnehagelærer"], "correct": 0, "explain": "Bilmekanikere jobber nå mye med elektronikk og programvare." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilken sektor har ansvar for grunnskolen?", "options": ["Privat sektor", "Primærnæringen", "Industrien", "Offentlig sektor"], "correct": 3, "explain": "Kommunene driver grunnskolene." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilket område gir nye jobber i det grønne skiftet?", "options": ["Kullgruver", "Fornybar energi", "Engangsplast", "Oljefyring"], "correct": 1, "explain": "Også gjenvinning og energieffektive bygg gir nye jobber." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

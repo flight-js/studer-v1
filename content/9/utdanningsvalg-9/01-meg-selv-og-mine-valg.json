@@ -1,0 +1,83 @@
+{
+  "id": "meg-selv-og-mine-valg",
+  "fagId": "utdanningsvalg-9",
+  "trinnId": "9",
+  "name": "Meg selv og mine valg",
+  "intro": "Hva karriere og karrierekompetanse er, hvordan du kan kartlegge interesser, verdier og styrker, hva som påvirker valgene dine, og hvordan du tar gode beslutninger.",
+  "kompetansemaal": [1, 6],
+  "sammendrag": "## Hva er utdanningsvalg?\n\nI **utdanningsvalg** lærer du om deg selv, om utdanning og om arbeidslivet, slik at du blir bedre rustet til å ta valg om framtiden. Det første store valget er hvilket **utdanningsprogram** du skal søke på i videregående skole.\n\n## Karriere\n\nOrdet **karriere** betyr ikke bare å klatre oppover i en bedrift. I utdanningsvalg betyr karriere **hele veien gjennom livet** – utdanning, jobber, fritid, familie og frivillig arbeid. **Karrierekompetanse** er evnen til å kjenne seg selv, finne informasjon om muligheter og ta gode valg underveis.\n\n## Kjenn deg selv\n\nFør du velger, kan det være lurt å kartlegge\n\n- **interesser** – hva du liker å holde på med\n- **ferdigheter** – hva du er flink til, for eksempel å regne, snakke med folk eller bruke verktøy\n- **egenskaper** – hvordan du er, for eksempel tålmodig, nysgjerrig eller strukturert\n- **verdier** – hva som er viktig for deg, for eksempel å hjelpe andre, tjene godt, være kreativ eller ha fleksibel arbeidstid\n\nEn kjent modell deler interesser i **seks typer**: **praktisk** (liker å jobbe med hendene og maskiner), **undersøkende** (liker å forstå og analysere), **kunstnerisk** (liker å skape), **sosial** (liker å hjelpe og undervise), **foretaksom** (liker å lede og overbevise) og **konvensjonell** (liker orden og systemer). De fleste er en blanding.\n\n## Hva påvirker valgene?\n\nMange forhold påvirker valgene våre, ofte uten at vi tenker over det:\n\n- **familie** og forventninger hjemmefra\n- **venner** som velger det samme\n- **lærere** og **rådgivere**\n- **medier** og **sosiale medier**, som viser noen yrker mer enn andre\n- **kjønn** og **kjønnsstereotypier**\n- **bosted** – hvilke skoler og jobber finnes i nærheten?\n- **økonomi** og **tilfeldigheter**\n\nDet er lurt å bli bevisst på slike påvirkninger, slik at du tar **ditt eget valg**.\n\n## Å ta en beslutning\n\nEn god **beslutningsprosess** kan se slik ut:\n\n1. **Kartlegg** deg selv.\n2. **Finn informasjon** om alternativene.\n3. **Vurder** fordeler og ulemper.\n4. **Velg** – og ha gjerne en plan B.\n5. **Evaluer** underveis: Ble det som du trodde?\n\n## Livsmestring\n\nValg kan føles store og vanskelige. Det er viktig å huske at **få valg er endelige** – det er mulig å gjøre **omvalg** og ta nye veier senere. Å snakke med andre, gi seg selv tid og tåle usikkerhet er en del av **livsmestring**.",
+  "flashcards": [
+    { "term": "Utdanningsvalg", "def": "Fag der man lærer om seg selv, utdanning og arbeidsliv for å kunne ta gode valg." },
+    { "term": "Karriere", "def": "Hele veien gjennom livet: utdanning, arbeid, fritid og familie." },
+    { "term": "Karrierekompetanse", "def": "Evnen til å kjenne seg selv, finne informasjon og ta gode valg." },
+    { "term": "Interesser", "def": "Det man liker å holde på med." },
+    { "term": "Ferdigheter", "def": "Det man er flink til, som å regne eller snakke med folk." },
+    { "term": "Egenskaper", "def": "Hvordan man er, for eksempel tålmodig eller nysgjerrig." },
+    { "term": "Verdier", "def": "Det som er viktig for en, som å hjelpe andre eller tjene godt." },
+    { "term": "Praktisk interessetype", "def": "Liker å jobbe med hendene, verktøy og maskiner." },
+    { "term": "Sosial interessetype", "def": "Liker å hjelpe, undervise og ta vare på andre." },
+    { "term": "Foretaksom interessetype", "def": "Liker å lede, selge og overbevise." },
+    { "term": "Kjønnsstereotypi", "def": "Forenklet forestilling om hva som passer for jenter og gutter." },
+    { "term": "Beslutningsprosess", "def": "Kartlegge, finne informasjon, vurdere, velge og evaluere." },
+    { "term": "Plan B", "def": "Et alternativ hvis førstevalget ikke går." },
+    { "term": "Omvalg", "def": "Å velge en ny vei hvis det første valget ikke passet." },
+    { "term": "Livsmestring", "def": "Å håndtere utfordringer og ta ansvar for eget liv." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva betyr karriere i utdanningsvalg?", "options": ["Bare å bli sjef", "Hele veien gjennom livet, med utdanning, arbeid, fritid og familie", "Bare den første jobben", "Å tjene mest mulig"], "correct": 1, "explain": "Karriere handler om hele livsløpet." },
+    { "id": "q02", "text": "Hva er et eksempel på en verdi?", "options": ["Å være flink i matte", "Å være høy", "Å ha lyst hår", "At det er viktig for deg å hjelpe andre"], "correct": 3, "explain": "Verdier sier noe om hva som er viktig for deg." },
+    { "id": "q03", "text": "Hva er forskjellen på en interesse og en ferdighet?", "options": ["En interesse er noe du liker, en ferdighet er noe du er flink til", "Det er det samme", "En ferdighet er noe du liker", "En interesse kan ikke endre seg"], "correct": 0, "explain": "Du kan være interessert i noe du ennå ikke er flink til." },
+    { "id": "q04", "text": "Hva er en kjønnsstereotypi?", "options": ["En lov om likestilling", "En type utdanning", "En forenklet forestilling om hva som passer for jenter og gutter", "En yrkestittel"], "correct": 2, "explain": "Stereotypier kan påvirke valg uten at vi merker det." },
+    { "id": "q05", "text": "Hvilken interessetype liker å lede og overbevise?", "options": ["Konvensjonell", "Foretaksom", "Kunstnerisk", "Undersøkende"], "correct": 1, "explain": "Foretaksomme trives ofte med salg og ledelse." },
+    { "id": "q06", "text": "Hva er det første steget i en god beslutningsprosess?", "options": ["Å velge det vennene velger", "Å evaluere", "Å ta en tilfeldig avgjørelse", "Å kartlegge seg selv"], "correct": 3, "explain": "Deretter finner man informasjon og vurderer alternativene." },
+    { "id": "q07", "text": "Hva kan påvirke utdanningsvalget ditt?", "options": ["Familie, venner, medier og bosted", "Bare karakterene", "Bare været", "Ingenting"], "correct": 0, "explain": "Det er lurt å være bevisst på påvirkningene." },
+    { "id": "q08", "text": "Hva er karrierekompetanse?", "options": ["Å ha en høy stilling", "Å ha mange sertifikater", "Evnen til å kjenne seg selv, finne informasjon og ta gode valg", "Å ha jobbet lenge"], "correct": 2, "explain": "Karrierekompetanse kan trenes gjennom hele livet." },
+    { "id": "q09", "text": "Hvorfor kan det være lurt å ha en plan B?", "options": ["Fordi plan A alltid er feil", "Fordi førstevalget ikke alltid går", "Fordi det er påbudt", "Fordi rådgiveren bestemmer"], "correct": 1, "explain": "Da står du bedre rustet hvis noe uventet skjer." },
+    { "id": "q10", "text": "Hvilken interessetype liker å jobbe med hendene og maskiner?", "options": ["Sosial", "Kunstnerisk", "Konvensjonell", "Praktisk"], "correct": 3, "explain": "Praktiske typer trives ofte i yrkesfag som bygg, elektro og industri." }
+  ],
+  "mindmap": {
+    "label": "Meg selv og mine valg",
+    "children": [
+      { "label": "Karriere", "children": [
+        { "label": "Hele livet" },
+        { "label": "Karrierekompetanse" }
+      ] },
+      { "label": "Kjenn deg selv", "children": [
+        { "label": "Interesser" },
+        { "label": "Ferdigheter" },
+        { "label": "Egenskaper" },
+        { "label": "Verdier" }
+      ] },
+      { "label": "Interessetyper", "children": [
+        { "label": "Praktisk og undersøkende" },
+        { "label": "Kunstnerisk og sosial" },
+        { "label": "Foretaksom og konvensjonell" }
+      ] },
+      { "label": "Påvirkning", "children": [
+        { "label": "Familie og venner" },
+        { "label": "Medier" },
+        { "label": "Kjønn" },
+        { "label": "Bosted og økonomi" }
+      ] },
+      { "label": "Beslutning", "children": [
+        { "label": "Kartlegg og undersøk" },
+        { "label": "Vurder og velg" },
+        { "label": "Plan B og omvalg" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "De fleste mennesker er en blanding av flere interessetyper.", "correct": true, "explain": "Få passer perfekt inn i én type." },
+      { "id": "m02", "type": "sant-usant", "text": "Et utdanningsvalg kan aldri endres.", "correct": false, "explain": "Det er mulig å gjøre omvalg og ta nye veier senere." },
+      { "id": "m03", "type": "sant-usant", "text": "Sosiale medier kan påvirke hvilke yrker vi tenker på.", "correct": true, "explain": "Noen yrker vises mye oftere enn andre." },
+      { "id": "m04", "type": "sant-usant", "text": "Egenskaper og ferdigheter betyr nøyaktig det samme.", "correct": false, "explain": "Egenskaper er hvordan du er, ferdigheter er hva du kan." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken interessetype liker orden og systemer?", "options": ["Kunstnerisk", "Praktisk", "Konvensjonell", "Sosial"], "correct": 2, "explain": "Konvensjonelle typer trives ofte med økonomi og administrasjon." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er livsmestring?", "options": ["Å håndtere utfordringer og ta ansvar for eget liv", "Å vinne konkurranser", "Å få gode karakterer", "Å ha mange venner"], "correct": 0, "explain": "Livsmestring er et tverrfaglig tema i skolen." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er det siste steget i beslutningsprosessen?", "options": ["Å kartlegge seg selv", "Å finne informasjon", "Å vurdere alternativer", "Å evaluere om valget ble som man trodde"], "correct": 3, "explain": "Evalueringen gir erfaring til neste valg." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

@@ -1,0 +1,84 @@
+{
+  "id": "utdanningssystemet",
+  "fagId": "utdanningsvalg-9",
+  "trinnId": "9",
+  "name": "Utdanningssystemet",
+  "intro": "Oversikt over det norske utdanningssystemet: grunnskole, de femten utdanningsprogrammene i videregående, studiekompetanse og fagbrev, fagskole og høyere utdanning – og hvor du finner informasjon.",
+  "kompetansemaal": [3, 2],
+  "sammendrag": "## Utdanningsløpet i Norge\n\n- **Barnehage** – frivillig, fra ett år\n- **Grunnskole** – ti år, **obligatorisk**: barneskole (1.–7.) og ungdomsskole (8.–10.)\n- **Videregående opplæring** – vanligvis tre eller fire år\n- **Fagskole** – høyere yrkesfaglig utdanning\n- **Universitet og høyskole** – høyere utdanning\n\nEtter grunnskolen har du **rett til videregående opplæring**.\n\n## Videregående: femten utdanningsprogram\n\nDet finnes **fem studieforberedende** og **ti yrkesfaglige** utdanningsprogram.\n\n**Studieforberedende** (tre år, gir **generell studiekompetanse**):\n\n- studiespesialisering\n- idrettsfag\n- musikk, dans og drama\n- kunst, design og arkitektur\n- medier og kommunikasjon\n\n**Yrkesfaglige** gir **fagbrev**, **svennebrev** eller **yrkeskompetanse**, blant annet bygg- og anleggsteknikk, elektro og datateknologi, helse- og oppvekstfag, restaurant- og matfag og teknologi- og industrifag. De fleste yrkesfag følger **2 + 2-modellen**: to år i skole og to år som **lærling** i en bedrift.\n\n## Nivåene i videregående\n\nÅrene heter **Vg1**, **Vg2** og **Vg3**. På Vg1 har alle på samme utdanningsprogram mye felles. På Vg2 og Vg3 **spesialiserer** man seg mer, for eksempel ved å velge **programfag** på studiespesialisering eller et bestemt fag i yrkesfag.\n\n## Studiekompetanse\n\n**Generell studiekompetanse** gir rett til å søke universitet og høyskole. Den får du ved å fullføre et studieforberedende program – eller ved å ta **påbygging** etter yrkesfag. Noen studier krever **spesiell studiekompetanse**, for eksempel bestemte matematikk- og realfag for å bli ingeniør eller lege.\n\n## Høyere utdanning\n\n- **Bachelorgrad**: vanligvis tre år\n- **Mastergrad**: vanligvis to år etter bachelor\n- **Ph.d.**: forskerutdanning, vanligvis tre år etter master\n- **Profesjonsstudier** som medisin, psykologi og lærer har egne løp.\n\n**Fagskoler** gir kortere, praktiske utdanninger som bygger på fagbrev eller relevant erfaring. **Y-veien** gir personer med fagbrev mulighet til å bli ingeniør.\n\n## Finne informasjon\n\n- **vilbli.no** – oversikt over utdanningsprogram og veier gjennom videregående\n- **utdanning.no** – informasjon om yrker og utdanninger, med interessetester\n- **Rådgiveren** på skolen og **karrieresentre** i fylket\n- **Åpen dag** og **hospitering** på videregående skoler\n- Samtaler med folk som jobber i yrkene\n\nVær **kildekritisk**: Informasjon fra skoler og bedrifter er ofte markedsføring. Sjekk flere kilder.",
+  "flashcards": [
+    { "term": "Obligatorisk grunnskole", "def": "Ti år skole som alle barn i Norge har rett og plikt til." },
+    { "term": "Rett til videregående opplæring", "def": "Rett alle som har fullført grunnskolen har til videregående." },
+    { "term": "Utdanningsprogram", "def": "Hovedretning i videregående, som studiespesialisering eller restaurant- og matfag." },
+    { "term": "Studieforberedende program", "def": "Fem program som gir generell studiekompetanse etter tre år." },
+    { "term": "Yrkesfaglige program", "def": "Ti program som gir fagbrev, svennebrev eller yrkeskompetanse." },
+    { "term": "Vg1, Vg2, Vg3", "def": "Første, andre og tredje år i videregående." },
+    { "term": "Programfag", "def": "Fag man velger for å fordype seg i på et utdanningsprogram." },
+    { "term": "Generell studiekompetanse", "def": "Gir rett til å søke universitet og høyskole." },
+    { "term": "Spesiell studiekompetanse", "def": "Krav om bestemte fag for å komme inn på enkelte studier." },
+    { "term": "Påbygging", "def": "Ekstra år etter yrkesfag som gir generell studiekompetanse." },
+    { "term": "Bachelorgrad", "def": "Høyere utdanning som vanligvis tar tre år." },
+    { "term": "Mastergrad", "def": "Høyere utdanning som vanligvis tar to år etter bachelor." },
+    { "term": "Fagskole", "def": "Høyere yrkesfaglig utdanning som bygger på fagbrev eller erfaring." },
+    { "term": "Vilbli.no", "def": "Nettsted med oversikt over utdanningsprogram i videregående." },
+    { "term": "Hospitering", "def": "Å besøke en skole eller arbeidsplass for å prøve den." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvor mange utdanningsprogram finnes det i videregående?", "options": ["Ti", "Femten", "Fem", "Tjue"], "correct": 1, "explain": "Fem studieforberedende og ti yrkesfaglige." },
+    { "id": "q02", "text": "Hvilket av disse er et studieforberedende utdanningsprogram?", "options": ["Idrettsfag", "Naturbruk", "Elektro og datateknologi", "Helse- og oppvekstfag"], "correct": 0, "explain": "De andre er yrkesfaglige program." },
+    { "id": "q03", "text": "Hva gir generell studiekompetanse?", "options": ["Fagbrev alene", "Ungdomsskolen", "Rett til å søke universitet og høyskole", "En lærlingplass"], "correct": 2, "explain": "Den får du etter et studieforberedende program eller påbygging." },
+    { "id": "q04", "text": "Hvor lang tid tar en bachelorgrad vanligvis?", "options": ["Ett år", "Fem år", "Åtte år", "Tre år"], "correct": 3, "explain": "En mastergrad tar vanligvis to år i tillegg." },
+    { "id": "q05", "text": "Hva er påbygging?", "options": ["Et ekstra år etter yrkesfag som gir generell studiekompetanse", "Å bygge et tilbygg på skolen", "Et utdanningsprogram på ungdomsskolen", "En type lærekontrakt"], "correct": 0, "explain": "Påbygging åpner veien til høyere utdanning." },
+    { "id": "q06", "text": "Hva er spesiell studiekompetanse?", "options": ["Det samme som fagbrev", "Krav om bestemte fag for å komme inn på enkelte studier", "Karakterer fra ungdomsskolen", "En bachelorgrad"], "correct": 1, "explain": "For eksempel krav til matematikk og fysikk for ingeniørstudier." },
+    { "id": "q07", "text": "Hvor finner du oversikt over utdanningsprogrammene i videregående?", "options": ["Yr.no", "Finn.no", "Vilbli.no", "Nrk.no"], "correct": 2, "explain": "Vilbli.no viser alle veier gjennom videregående." },
+    { "id": "q08", "text": "Hvor mange år er grunnskolen i Norge?", "options": ["Sju", "Tolv", "Ni", "Ti"], "correct": 3, "explain": "Barneskole 1.–7. og ungdomsskole 8.–10." },
+    { "id": "q09", "text": "Hvorfor bør du være kildekritisk når du leser om skoler og utdanninger?", "options": ["Fordi informasjonen ofte er markedsføring", "Fordi all informasjon er feil", "Fordi rådgiveren sier det", "Det er ikke nødvendig"], "correct": 0, "explain": "Sjekk flere kilder før du bestemmer deg." },
+    { "id": "q10", "text": "Hva er en fagskole?", "options": ["En ungdomsskole", "En barneskole", "Høyere yrkesfaglig utdanning", "Et universitet"], "correct": 2, "explain": "Fagskoler gir kortere, praktiske utdanninger." }
+  ],
+  "mindmap": {
+    "label": "Utdanningssystemet",
+    "children": [
+      { "label": "Grunnskole", "children": [
+        { "label": "Ti år" },
+        { "label": "Obligatorisk" }
+      ] },
+      { "label": "Videregående", "children": [
+        { "label": "5 studieforberedende" },
+        { "label": "10 yrkesfaglige" },
+        { "label": "Vg1, Vg2, Vg3" },
+        { "label": "2 + 2-modellen" }
+      ] },
+      { "label": "Kompetanse", "children": [
+        { "label": "Generell studiekompetanse" },
+        { "label": "Spesiell studiekompetanse" },
+        { "label": "Fagbrev" },
+        { "label": "Påbygging" }
+      ] },
+      { "label": "Høyere utdanning", "children": [
+        { "label": "Bachelor" },
+        { "label": "Master" },
+        { "label": "Fagskole" }
+      ] },
+      { "label": "Informasjon", "children": [
+        { "label": "Vilbli.no" },
+        { "label": "Utdanning.no" },
+        { "label": "Rådgiver" },
+        { "label": "Hospitering" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Medier og kommunikasjon er et studieforberedende utdanningsprogram.", "correct": true, "explain": "Programmet ble studieforberedende med fagfornyelsen." },
+      { "id": "m02", "type": "sant-usant", "text": "Med fagbrev er det umulig å bli ingeniør.", "correct": false, "explain": "Y-veien og påbygging gir muligheter videre." },
+      { "id": "m03", "type": "sant-usant", "text": "På Vg2 og Vg3 spesialiserer man seg mer enn på Vg1.", "correct": true, "explain": "Da velger man programfag eller et bestemt yrkesfag." },
+      { "id": "m04", "type": "sant-usant", "text": "Barnehage er obligatorisk i Norge.", "correct": false, "explain": "Barnehage er frivillig. Grunnskolen er obligatorisk." },
+      { "id": "m05", "type": "flervalg", "text": "Hvor lenge varer en mastergrad vanligvis etter bachelor?", "options": ["Ett år", "Tre år", "Fem år", "To år"], "correct": 3, "explain": "Bachelor tre år pluss master to år er til sammen fem år." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er programfag?", "options": ["Fag man velger for å fordype seg", "Fag på ungdomsskolen", "Fag som alle må ha", "Fag på universitetet"], "correct": 0, "explain": "For eksempel fysikk eller rettslære på studiespesialisering." },
+      { "id": "m07", "type": "flervalg", "text": "Hva betyr hospitering?", "options": ["Å være på sykehus", "Å besøke en skole eller arbeidsplass for å prøve den", "Å ta en eksamen", "Å søke jobb"], "correct": 1, "explain": "Hospitering gir et inntrykk av hvordan det er i praksis." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
