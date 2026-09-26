@@ -1,0 +1,81 @@
+{
+  "id": "nordiske-sprak-og-norront",
+  "fagId": "norsk-vg2",
+  "trinnId": "vg2",
+  "name": "Norsk, svensk, dansk og norrønt",
+  "intro": "Særtrekk ved norsk sammenlignet med svensk, dansk og norrønt – uttale, ordforråd, grammatikk og skrivemåte – falske venner mellom de skandinaviske språkene og fagspråk for å beskrive forskjellene.",
+  "kompetansemaal": [8],
+  "sammendrag": "## Én felles opprinnelse\n\nNorsk, svensk, dansk, islandsk og færøysk utviklet seg fra **urnordisk** og videre fra **norrønt** (vestnordisk) og gammelt østnordisk. I dag deler vi språkene i\n\n- **vestnordiske** språk: norsk, islandsk og færøysk\n- **østnordiske** språk: svensk og dansk\n\nNorsk har likevel fått mye til felles med dansk og svensk, blant annet på grunn av den lange unionen med Danmark. **Islandsk** er det språket som ligger nærmest **norrønt**.\n\n## Norrønt\n\nNorrønt skilte seg fra moderne norsk på mange måter:\n\n- **Fire kasus**: nominativ, akkusativ, dativ og genitiv – substantiver, adjektiver og pronomen **bøyes** etter funksjonen i setningen. Rester finnes i uttrykk som *til bords*, *i live* og *til fots*.\n- **Verb** ble bøyd etter **person** og **tall**: *ek em* (jeg er), *þú ert* (du er), *vér erum* (vi er).\n- Egne bokstaver: **þ** (thorn) og **ð** (edd), som uttales omtrent som engelsk *th*.\n- Mange ord er **gjenkjennelige**: *hús* (hus), *maðr* (mann), *kona* (kvinne), *land*, *skip*.\n\n## Uttale\n\n- **Dansk** har mye **svak** uttale av konsonanter og **stød** – et slags knekk i stemmen – og mange stavelser «svelges». Dansk er derfor ofte vanskeligere å **forstå muntlig** enn skriftlig for nordmenn.\n- **Svensk** ligner norsk i uttale og har også **tonelag**, som mange norske dialekter.\n\n## Skrivemåte\n\n| Norsk | Svensk | Dansk |\n| --- | --- | --- |\n| æ, ø | ä, ö | æ, ø |\n| hvem, hva | vem, vad | hvem, hvad |\n| ikke | inte | ikke |\n| mye | mycket | meget |\n| gå, se | gå, se | gå, se |\n\nDansk skriver ofte **b, d, g** der norsk har **p, t, k**: *købe* (kjøpe), *gade* (gate), *bog* (bok).\n\n## Tall\n\n**Danske tall** er kjent for å være kompliserte: **halvtreds** betyr 50, **tres** 60 og **halvfems** 90. Svensk og norsk har mer logiske tall: *femtio* og *femti*.\n\n## Falske venner\n\nNoen ord ser like ut, men betyr noe annet:\n\n- Svensk **rolig** = morsom – norsk *rolig* = svensk *lugn*\n- Svensk **rar** = søt, snill\n- Svensk **glass** = iskrem\n- Svensk **semester** = ferie\n- Dansk **grine** = le (på norsk betyr *grine* å gråte)\n- Dansk **frokost** = lunsj i noen sammenhenger (dansk *morgenmad* = frokost)\n\n## Grammatikk\n\n- Bestemt form: norsk *huset*, svensk *huset*, dansk *huset*. Men når det står et adjektiv foran, har dansk bare **én** bestemthetsmarkør: *det store hus*, mens norsk og svensk har **dobbel bestemthet**: *det store huset*.\n- Svensk bruker oftere **s-passiv**: *boken skrevs*.\n\n## Nabospråksforståelse\n\nSkandinaver kan i stor grad forstå hverandre når vi snakker **tydelig**, unngår **slang** og er **tålmodige**. Denne **nabospråksforståelsen** er en viktig del av det nordiske samarbeidet.",
+  "flashcards": [
+    { "term": "Vestnordiske språk", "def": "Norsk, islandsk og færøysk." },
+    { "term": "Østnordiske språk", "def": "Svensk og dansk." },
+    { "term": "Islandsk", "def": "Språket som ligger nærmest norrønt." },
+    { "term": "Fire kasus i norrønt", "def": "Nominativ, akkusativ, dativ og genitiv." },
+    { "term": "Kasusrester", "def": "Uttrykk som til bords, i live og til fots." },
+    { "term": "þ og ð", "def": "Norrøne bokstaver som uttales omtrent som engelsk th." },
+    { "term": "Stød", "def": "Et knekk i stemmen i dansk uttale." },
+    { "term": "ä, ö", "def": "Svenske bokstaver som tilsvarer norsk æ, ø." },
+    { "term": "halvtreds", "def": "Dansk for 50." },
+    { "term": "rolig (svensk)", "def": "morsom" },
+    { "term": "rar (svensk)", "def": "søt, snill" },
+    { "term": "grine (dansk)", "def": "le" },
+    { "term": "Dobbel bestemthet", "def": "det store huset – norsk og svensk; dansk: det store hus" },
+    { "term": "s-passiv", "def": "Passivform med -s, vanlig i svensk: boken skrevs." },
+    { "term": "Nabospråksforståelse", "def": "Evnen til å forstå de andre skandinaviske språkene." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvilke språk regnes som vestnordiske?", "options": ["Svensk og dansk", "Norsk, islandsk og færøysk", "Finsk og samisk", "Norsk og svensk"], "correct": 1, "explain": "Svensk og dansk er østnordiske." },
+    { "id": "q02", "text": "Hvilket språk ligger nærmest norrønt i dag?", "options": ["Islandsk", "Dansk", "Svensk", "Nynorsk"], "correct": 0, "explain": "Islandsk har blant annet beholdt kasus." },
+    { "id": "q03", "text": "Hvor mange kasus hadde norrønt?", "options": ["To", "Tre", "Fire", "Seks"], "correct": 2, "explain": "Nominativ, akkusativ, dativ og genitiv." },
+    { "id": "q04", "text": "Hva betyr det svenske ordet «rolig»?", "options": ["stille", "rolig", "trist", "morsom"], "correct": 3, "explain": "Norsk rolig heter lugn på svensk." },
+    { "id": "q05", "text": "Hva betyr det danske tallet «halvtreds»?", "options": ["50", "35", "150", "53"], "correct": 0, "explain": "Tres er 60 og halvfems 90." },
+    { "id": "q06", "text": "Hvorfor er dansk ofte vanskeligere å forstå muntlig enn skriftlig for nordmenn?", "options": ["Fordi danskene snakker fort alltid", "Fordi dansk har svak konsonantuttale, stød og «svelgede» stavelser", "Fordi dansk har et annet alfabet", "Fordi dansk har toner som kinesisk"], "correct": 1, "explain": "Skriftlig ligner dansk mye på bokmål." },
+    { "id": "q07", "text": "Hvilket uttrykk er en rest av norrøne kasus?", "options": ["på skolen", "i dag", "til fots", "om kvelden"], "correct": 2, "explain": "Også til bords og i live." },
+    { "id": "q08", "text": "Hvordan sier en danske «det store huset»?", "options": ["det store huset", "store huset", "det huset store", "det store hus"], "correct": 3, "explain": "Dansk har ikke dobbel bestemthet." },
+    { "id": "q09", "text": "Hva betyr det danske ordet «grine»?", "options": ["le", "gråte", "grue seg", "grave"], "correct": 0, "explain": "På norsk betyr grine å gråte." },
+    { "id": "q10", "text": "Hvilke svenske bokstaver tilsvarer norsk æ og ø?", "options": ["å og ø", "ä og ö", "ae og oe", "é og ó"], "correct": 1, "explain": "Norsk og dansk bruker æ og ø." }
+  ],
+  "mindmap": {
+    "label": "Nordiske språk og norrønt",
+    "children": [
+      { "label": "Slektskap", "children": [
+        { "label": "Vestnordisk" },
+        { "label": "Østnordisk" },
+        { "label": "Islandsk ≈ norrønt" }
+      ] },
+      { "label": "Norrønt", "children": [
+        { "label": "Fire kasus" },
+        { "label": "Verbbøying" },
+        { "label": "þ og ð" }
+      ] },
+      { "label": "Uttale og skrift", "children": [
+        { "label": "Dansk stød" },
+        { "label": "ä, ö" },
+        { "label": "b, d, g i dansk" }
+      ] },
+      { "label": "Ord", "children": [
+        { "label": "Falske venner" },
+        { "label": "Danske tall" }
+      ] },
+      { "label": "Grammatikk", "children": [
+        { "label": "Dobbel bestemthet" },
+        { "label": "s-passiv" },
+        { "label": "Nabospråksforståelse" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Svensk har tonelag, som mange norske dialekter.", "correct": true, "explain": "Dansk har i stedet stød." },
+      { "id": "m02", "type": "sant-usant", "text": "Dansk og svensk er vestnordiske språk.", "correct": false, "explain": "De er østnordiske." },
+      { "id": "m03", "type": "sant-usant", "text": "I norrønt ble verb bøyd etter person.", "correct": true, "explain": "ek em, þú ert, vér erum." },
+      { "id": "m04", "type": "sant-usant", "text": "Svensk «glass» betyr drikkeglass.", "correct": false, "explain": "Svensk glass betyr iskrem." },
+      { "id": "m05", "type": "flervalg", "text": "Hva heter «bok» på dansk?", "options": ["bok", "bog", "buk", "boog"], "correct": 1, "explain": "Dansk har ofte g der norsk har k." },
+      { "id": "m06", "type": "flervalg", "text": "Hva betyr svensk «semester»?", "options": ["ferie", "skoleår", "halvår", "fest"], "correct": 0, "explain": "Et klassisk eksempel på en falsk venn." },
+      { "id": "m07", "type": "flervalg", "text": "Hva betyr norrønt «maðr»?", "options": ["mat", "mor", "mann", "makt"], "correct": 2, "explain": "Mange norrøne ord er gjenkjennelige." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

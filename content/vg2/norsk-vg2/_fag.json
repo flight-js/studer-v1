@@ -1,0 +1,57 @@
+{
+  "id": "norsk-vg2",
+  "trinnId": "vg2",
+  "name": "Norsk",
+  "lareplan": {
+    "kode": "NOR01-08",
+    "url": "https://www.udir.no/lk20/nor01-08/kompetansemaal-og-vurdering/kv1112",
+    "kompetansemaal": [
+      {
+        "nr": 1,
+        "tekst": "lese norrøne tekster i oversettelse og sammenligne dem med tekster fra nyere tid"
+      },
+      {
+        "nr": 2,
+        "tekst": "lese og tolke tekster fra 1500 til 1850 i kulturhistorisk kontekst og drøfte hvordan de er relevante i dag"
+      },
+      {
+        "nr": 3,
+        "tekst": "utforske og reflektere over hvordan tekster fra romantikken og nasjonalromantikken framstiller menneske, natur og samfunn, og sammenligne med tekster fra nyere tid"
+      },
+      {
+        "nr": 4,
+        "tekst": "reflektere over sakprosatekster og gjøre rede for den retoriske situasjonen de er blitt til i"
+      },
+      {
+        "nr": 5,
+        "tekst": "skrive fagartikler som gjør rede for og drøfter tekster i kontekst"
+      },
+      {
+        "nr": 6,
+        "tekst": "bruke tilbakemeldinger og kunnskap om språk, tekst og sjanger til å utvikle egne tekster"
+      },
+      {
+        "nr": 7,
+        "tekst": "bruke fagkunnskap og retoriske ferdigheter i norskfaglige diskusjoner og presentasjoner"
+      },
+      {
+        "nr": 8,
+        "tekst": "bruke fagspråk til å beskrive særtrekk ved norsk sammenlignet med svensk, dansk og norrønt"
+      },
+      {
+        "nr": 9,
+        "tekst": "gjøre rede for den historiske bakgrunnen for språksituasjonen i Norge i dag"
+      }
+    ]
+  },
+  "temaer": [
+    "norron-litteratur",
+    "renessanse-barokk-og-opplysningstid",
+    "romantikken",
+    "retorisk-situasjon",
+    "fagartikkel-om-tekster-i-kontekst",
+    "muntlig-framforing",
+    "nordiske-sprak-og-norront",
+    "sprakhistorie-og-sprakstriden"
+  ]
+}

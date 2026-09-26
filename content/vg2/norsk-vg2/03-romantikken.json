@@ -1,0 +1,84 @@
+{
+  "id": "romantikken",
+  "fagId": "norsk-vg2",
+  "trinnId": "vg2",
+  "name": "Romantikken og nasjonalromantikken",
+  "intro": "Hvordan tekster fra romantikken og nasjonalromantikken framstiller menneske, natur og samfunn – Wergeland, Welhaven, Asbjørnsen og Moe og Ivar Aasen – og hvordan romantiske ideer lever videre i nyere tekster.",
+  "kompetansemaal": [3, 2],
+  "sammendrag": "## Romantikken\n\n**Romantikken** (ca. 1800–1850) var en reaksjon mot opplysningstidens vekt på fornuft. Romantikerne satte **følelser**, **fantasi** og **det irrasjonelle** høyt. Viktige ideer:\n\n- **Naturen** er besjelet og et uttrykk for noe **guddommelig**. I naturen kan mennesket oppleve helheten og det evige.\n- **Kunstneren** er et **geni** med evne til å se det andre ikke ser.\n- **Lengsel** – etter det fjerne, det uoppnåelige, fortiden eller kjærligheten.\n- **Fortiden**, særlig middelalderen, blir idealisert.\n\n## Wergeland og Welhaven\n\n**Henrik Wergeland** (1808–1845) var en brennende **patriot** og **opplysningsmann**. Han skrev det enorme diktet *Skabelsen, Mennesket og Messias* (1830), kjempet for **folkeopplysning** og for å oppheve forbudet mot **jøder** i Grunnloven. Diktet **«Til min Gyldenlak»** skrev han på dødsleiet.\n\n**Johan Sebastian Welhaven** (1807–1873) mente diktningen skulle være **harmonisk**, **klar** og **formfullendt**, og kritiserte Wergelands uregjerlige stil. I *Norges Dæmring* (1834) angrep han også det han mente var nasjonal selvgodhet. **Wergeland–Welhaven-striden** handlet både om **litteratur** og om **Norges forhold til Danmark** og europeisk kultur.\n\n## Nasjonalromantikken\n\nPå **1840- og 1850-tallet** kom **nasjonalromantikken**. Etter **1814** ville man vise at Norge hadde en **egen nasjonal kultur**. Man mente den ekte norske kulturen fantes hos **bøndene** – i **folkediktning**, **dialekter**, **folkemusikk** og **bygdekultur**.\n\n- **P. Chr. Asbjørnsen og Jørgen Moe** samlet og ga ut **Norske Folkeeventyr** fra **1841**, med figurer som **Askeladden** og trollene.\n- **M.B. Landstad** samlet **folkeviser** (1853).\n- **Ivar Aasen** reiste rundt og samlet **dialekter**, og laget grunnlaget for **landsmålet** (nynorsk) med en grammatikk (1848) og en ordbok (1850).\n- I **malerkunsten** skildret **Tidemand og Gude** norsk natur og bondeliv, blant annet i **Brudeferden i Hardanger** (1848).\n\n## Menneske, natur og samfunn\n\n- **Mennesket** framstilles som et **følende** individ med lengsel og indre liv – og i nasjonalromantikken ofte som en **idealisert** bonde.\n- **Naturen** er **storslagen**, **besjelet** og **nasjonal** – fjell, fjorder og fosser blir symboler på Norge.\n- **Samfunnet** blir sett gjennom **nasjonsbygging**: felles språk, historie og kultur.\n\n## Romantikken i nyere tekster\n\nRomantiske ideer lever videre:\n\n- **Naturlyrikk** og tekster om **villmark** og friluftsliv\n- **Fantasy** med troll, magi og en idealisert fortid\n- **Popmusikk** om lengsel og kjærlighet\n- **Reklame** og **turisme** som bruker norske fjell og fjorder som symbol\n- **Nasjonalisme** – på godt og vondt\n\nNår du sammenligner, spør: Hvordan framstilles **naturen**? Er den **besjelet** og **nasjonal**, eller **truet** – slik mange nyere tekster om **klima** viser?",
+  "flashcards": [
+    { "term": "Romantikken", "def": "Ca. 1800–1850 – følelser, fantasi, natur og lengsel." },
+    { "term": "Besjelet natur", "def": "Naturen som levende og et uttrykk for noe guddommelig." },
+    { "term": "Geniet", "def": "Romantikkens syn på kunstneren som særlig begavet." },
+    { "term": "Lengsel", "def": "Sentralt motiv i romantikken." },
+    { "term": "Henrik Wergeland", "def": "Patriot og dikter som kjempet for folkeopplysning og mot jødeparagrafen." },
+    { "term": "Til min Gyldenlak", "def": "Dikt Wergeland skrev på dødsleiet." },
+    { "term": "Johan Sebastian Welhaven", "def": "Dikter som ville ha harmonisk og formfullendt diktning." },
+    { "term": "Wergeland–Welhaven-striden", "def": "Strid om litteratur og Norges forhold til Danmark og Europa." },
+    { "term": "Nasjonalromantikken", "def": "1840- og 1850-tallet – norsk bondekultur som den ekte nasjonale kulturen." },
+    { "term": "Asbjørnsen og Moe", "def": "Samlet Norske Folkeeventyr fra 1841." },
+    { "term": "Askeladden", "def": "Eventyrhelt i Norske Folkeeventyr." },
+    { "term": "Ivar Aasen", "def": "Samlet dialekter og skapte landsmålet." },
+    { "term": "M.B. Landstad", "def": "Samlet norske folkeviser (1853)." },
+    { "term": "Brudeferden i Hardanger", "def": "Nasjonalromantisk maleri av Tidemand og Gude (1848)." },
+    { "term": "Nasjonsbygging", "def": "Å skape felles språk, historie og kultur for en nasjon." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva var romantikken en reaksjon mot?", "options": ["Norrøn litteratur", "Opplysningstidens vekt på fornuft", "Realismen", "Kristendommen"], "correct": 1, "explain": "Romantikerne satte følelser og fantasi høyt." },
+    { "id": "q02", "text": "Hvordan ble naturen ofte framstilt i romantikken?", "options": ["Som besjelet og et uttrykk for noe guddommelig", "Som farlig og fiendtlig", "Som en ressurs for industri", "Som uinteressant"], "correct": 0, "explain": "I naturen kunne mennesket oppleve helheten." },
+    { "id": "q03", "text": "Hvem samlet Norske Folkeeventyr?", "options": ["Wergeland og Welhaven", "Tidemand og Gude", "Asbjørnsen og Moe", "Aasen og Landstad"], "correct": 2, "explain": "Første utgave kom i 1841." },
+    { "id": "q04", "text": "Hvor mente nasjonalromantikerne at den ekte norske kulturen fantes?", "options": ["I byene", "I Danmark", "Hos embetsmennene", "Hos bøndene"], "correct": 3, "explain": "I folkediktning, dialekter og bygdekultur." },
+    { "id": "q05", "text": "Hvem skrev «Til min Gyldenlak»?", "options": ["Henrik Wergeland", "Welhaven", "Ivar Aasen", "Jørgen Moe"], "correct": 0, "explain": "Han skrev diktet på dødsleiet i 1845." },
+    { "id": "q06", "text": "Hva la Ivar Aasen grunnlaget for?", "options": ["Bokmål", "Landsmålet (nynorsk)", "Riksmål", "Samisk skriftspråk"], "correct": 1, "explain": "Han samlet dialekter og laget grammatikk og ordbok." },
+    { "id": "q07", "text": "Hva handlet Wergeland–Welhaven-striden blant annet om?", "options": ["Hvem som skulle bli konge", "Grensen mot Sverige", "Litteratur og Norges forhold til Danmark og Europa", "Religion"], "correct": 2, "explain": "Welhaven ville ha harmonisk diktning og kritiserte Wergeland." },
+    { "id": "q08", "text": "Hvilket maleri er et kjent nasjonalromantisk verk?", "options": ["Skrik", "Mona Lisa", "Guernica", "Brudeferden i Hardanger"], "correct": 3, "explain": "Malt av Tidemand og Gude i 1848." },
+    { "id": "q09", "text": "Hvorfor ble nasjonal kultur så viktig etter 1814?", "options": ["Fordi Norge ville vise at det hadde en egen nasjonal kultur", "Fordi Danmark krevde det", "Fordi kongen var norsk", "Fordi man ville bli svensk"], "correct": 0, "explain": "Nasjonsbygging var et viktig prosjekt." },
+    { "id": "q10", "text": "Hvor lever romantiske ideer videre i dag?", "options": ["Bare i gamle bøker", "I naturlyrikk, fantasy, popmusikk og reklame", "Ingen steder", "Bare i kirkene"], "correct": 1, "explain": "Fjell og fjorder brukes fortsatt som nasjonale symboler." }
+  ],
+  "mindmap": {
+    "label": "Romantikken",
+    "children": [
+      { "label": "Ideer", "children": [
+        { "label": "Følelser og fantasi" },
+        { "label": "Besjelet natur" },
+        { "label": "Geniet" },
+        { "label": "Lengsel" }
+      ] },
+      { "label": "Forfattere", "children": [
+        { "label": "Wergeland" },
+        { "label": "Welhaven" },
+        { "label": "Striden" }
+      ] },
+      { "label": "Nasjonalromantikken", "children": [
+        { "label": "Asbjørnsen og Moe" },
+        { "label": "Landstad" },
+        { "label": "Ivar Aasen" },
+        { "label": "Tidemand og Gude" }
+      ] },
+      { "label": "Framstilling", "children": [
+        { "label": "Mennesket" },
+        { "label": "Naturen" },
+        { "label": "Nasjonen" }
+      ] },
+      { "label": "I dag", "children": [
+        { "label": "Naturlyrikk" },
+        { "label": "Fantasy" },
+        { "label": "Reklame og turisme" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Wergeland kjempet for å oppheve forbudet mot jøder i Grunnloven.", "correct": true, "explain": "Forbudet ble opphevet i 1851, etter hans død." },
+      { "id": "m02", "type": "sant-usant", "text": "Romantikerne mente fornuften var det viktigste i mennesket.", "correct": false, "explain": "De satte følelser og fantasi høyere." },
+      { "id": "m03", "type": "sant-usant", "text": "Askeladden er en figur fra norske folkeeventyr.", "correct": true, "explain": "Eventyrene ble samlet av Asbjørnsen og Moe." },
+      { "id": "m04", "type": "sant-usant", "text": "Nasjonalromantikerne mente den ekte norske kulturen fantes i embetsmannsklassen.", "correct": false, "explain": "De mente den fantes hos bøndene." },
+      { "id": "m05", "type": "flervalg", "text": "Hva ville Welhaven at diktningen skulle være?", "options": ["Uregjerlig og vill", "Harmonisk, klar og formfullendt", "Skrevet på dialekt", "Politisk"], "correct": 1, "explain": "Han kritiserte Wergelands stil." },
+      { "id": "m06", "type": "flervalg", "text": "Hvordan framstilles bonden ofte i nasjonalromantikken?", "options": ["Idealisert", "Latterlig", "Fattig og ulykkelig", "Som fremmed"], "correct": 0, "explain": "Bonden ble et symbol på det ekte norske." },
+      { "id": "m07", "type": "flervalg", "text": "Hvordan skiller mange nyere tekster om natur seg fra romantikkens?", "options": ["De skildrer aldri natur", "De framstiller naturen som besjelet", "De framstiller ofte naturen som truet, for eksempel av klimaendringer", "De handler bare om byer"], "correct": 2, "explain": "Naturen er ofte sårbar i nyere tekster." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

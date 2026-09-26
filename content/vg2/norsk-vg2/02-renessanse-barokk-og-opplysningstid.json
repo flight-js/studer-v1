@@ -1,0 +1,353 @@
+{
+  "id": "renessanse-barokk-og-opplysningstid",
+  "fagId": "norsk-vg2",
+  "trinnId": "vg2",
+  "name": "Fra reformasjon til opplysningstid (1500–1800)",
+  "intro": "Tekster fra renessansen, barokken og opplysningstiden i kulturhistorisk kontekst – reformasjonen, Petter Dass, Dorothe Engelbretsdatter og Ludvig Holberg – og hvordan tekstene kan være relevante i dag.",
+  "kompetansemaal": [
+    2
+  ],
+  "sammendrag": "## Kulturhistorisk kontekst\n\nFra 1380 til 1814 var Norge i **union med Danmark**, og **dansk** ble skriftspråket. Boktrykkerkunsten og **reformasjonen** i **1537**, da Danmark-Norge ble **luthersk**, gjorde at flere fikk tilgang til Bibelen og religiøse tekster på morsmålet.\n\n## Renessansen og humanismen\n\n**Renessansen** betyr «gjenfødelse» – av interessen for antikkens kunst og tenkning. **Humanismen** satte **mennesket** i sentrum. I Norge var renessansen beskjeden, men **humanister** i Bergen og andre byer skrev om norsk historie og natur. **Peder Claussøn Friis** oversatte **Snorres kongesagaer** til dansk (utgitt 1633), noe som gjorde dem kjent for mange.\n\n## Barokken\n\n**Barokken** (ca. 1600–1720) var preget av **kontraster** – liv og død, jordisk og himmelsk – og en **pyntet**, **ordrik** stil med mange bilder og ordspill. Religionen sto sterkt, og mange tekster minner om at livet er **forgjengelig**.\n\n- **Petter Dass** (1647–1707) var prest på Alstahaug i Nordland. **Nordlands Trompet** skildrer natur, næringsliv og folk i Nord-Norge med humor og livfull detaljrikdom. Han skrev også salmer.\n- **Dorothe Engelbretsdatter** (1634–1716) fra Bergen regnes som Norges **første kjente kvinnelige forfatter**. Hun skrev religiøse dikt og salmer, blant annet *Siælens Sang-Offer*.\n\n## Opplysningstiden\n\n**Opplysningstiden** (1700-tallet) satte **fornuften** i sentrum. Man mente at mennesker gjennom **kunnskap** og **kritisk tenkning** kunne forbedre seg selv og samfunnet. Idealene – **toleranse**, **ytringsfrihet** og **menneskerettigheter** – ble viktige for den amerikanske og den franske revolusjonen, og for Grunnloven i 1814.\n\n**Ludvig Holberg** (1684–1754) ble født i **Bergen** og regnes som den første store forfatteren i dansk-norsk litteratur. Han skrev **komedier** som gjør narr av menneskelige svakheter og dumskap:\n\n- **Jeppe paa Bierget** (1722): Den fattige, drikkfeldige bonden Jeppe blir lurt til å tro at han er baron – og viser seg å bli en tyrann når han får makt. Stykket stiller spørsmål om **makt** og **menneskenatur**.\n- **Erasmus Montanus** (1723): Studenten Rasmus Berg kommer hjem fra universitetet og vil vise hvor lærd han er, blant annet ved å insistere på at jorda er rund. Stykket kritiserer både **overlegen lærdom** og **uvitenhet**.\n\nHolberg ville **opplyse** og **oppdra** publikum gjennom **latter** – satire.\n\n## Relevans i dag\n\n- Holbergs spørsmål om **makt som korrumperer** er fortsatt aktuelle – tenk på politikere eller influensere som endrer seg når de får makt og oppmerksomhet.\n- Debatten i *Erasmus Montanus* om **kunnskap**, **fakta** og **arroganse** minner om dagens diskusjoner om **faktaresistens** og **ekspertforakt**.\n- Barokkens tanker om **forgjengelighet** finnes i mye moderne litteratur og musikk.\n\nNår du tolker eldre tekster, bør du **forstå konteksten**, men også spørre: **Hva kan teksten si oss i dag?**",
+  "flashcards": [
+    {
+      "term": "Reformasjonen 1537",
+      "def": "Danmark-Norge ble luthersk."
+    },
+    {
+      "term": "Renessansen",
+      "def": "«Gjenfødelse» av interessen for antikkens kunst og tenkning."
+    },
+    {
+      "term": "Humanismen",
+      "def": "Tenkning som setter mennesket i sentrum."
+    },
+    {
+      "term": "Peder Claussøn Friis",
+      "def": "Oversatte Snorres kongesagaer til dansk."
+    },
+    {
+      "term": "Barokken",
+      "def": "Ca. 1600–1720 – kontraster, pyntet stil og tanker om forgjengelighet."
+    },
+    {
+      "term": "Forgjengelighet",
+      "def": "At alt jordisk tar slutt."
+    },
+    {
+      "term": "Petter Dass",
+      "def": "Prest og dikter som skrev Nordlands Trompet."
+    },
+    {
+      "term": "Dorothe Engelbretsdatter",
+      "def": "Norges første kjente kvinnelige forfatter."
+    },
+    {
+      "term": "Opplysningstiden",
+      "def": "1700-tallet – fornuft, kunnskap og kritisk tenkning."
+    },
+    {
+      "term": "Ludvig Holberg",
+      "def": "Forfatter fra Bergen som skrev satiriske komedier."
+    },
+    {
+      "term": "Jeppe paa Bierget",
+      "def": "Holberg-komedie (1722) om en bonde som blir lurt til å tro han er baron."
+    },
+    {
+      "term": "Erasmus Montanus",
+      "def": "Holberg-komedie (1723) om en lærd student som skaper konflikt hjemme."
+    },
+    {
+      "term": "Satire",
+      "def": "Kritikk gjennom latterliggjøring og humor."
+    },
+    {
+      "term": "Unionen med Danmark",
+      "def": "1380–1814; dansk ble skriftspråket i Norge."
+    },
+    {
+      "term": "Kulturhistorisk kontekst",
+      "def": "Tiden, samfunnet og ideene en tekst ble skrevet i."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hva skjedde i Danmark-Norge i 1537?",
+      "options": [
+        "Unionen ble oppløst",
+        "Reformasjonen – landet ble luthersk",
+        "Holberg ble født",
+        "Grunnloven ble vedtatt"
+      ],
+      "correct": 1,
+      "explain": "Reformasjonen endret kirken og religionen."
+    },
+    {
+      "id": "q02",
+      "text": "Hvem regnes som Norges første kjente kvinnelige forfatter?",
+      "options": [
+        "Dorothe Engelbretsdatter",
+        "Camilla Collett",
+        "Sigrid Undset",
+        "Amalie Skram"
+      ],
+      "correct": 0,
+      "explain": "Hun levde 1634–1716 i Bergen."
+    },
+    {
+      "id": "q03",
+      "text": "Hva satte opplysningstiden i sentrum?",
+      "options": [
+        "Følelser og natur",
+        "Kirken og kongen",
+        "Fornuften",
+        "Fortiden"
+      ],
+      "correct": 2,
+      "explain": "Kunnskap og kritisk tenkning skulle forbedre samfunnet."
+    },
+    {
+      "id": "q04",
+      "text": "Hva handler «Jeppe paa Bierget» om?",
+      "options": [
+        "En student som kommer hjem fra universitetet",
+        "En prest i Nordland",
+        "En konge som mister makten",
+        "En fattig bonde som blir lurt til å tro at han er baron"
+      ],
+      "correct": 3,
+      "explain": "Stykket viser hvordan makt kan korrumpere."
+    },
+    {
+      "id": "q05",
+      "text": "Hva kjennetegner barokken?",
+      "options": [
+        "Kontraster og en pyntet, ordrik stil",
+        "Saklig og kort stil",
+        "Fornuft og vitenskap",
+        "Enkle naturdikt"
+      ],
+      "correct": 0,
+      "explain": "Forgjengelighet var et sentralt tema."
+    },
+    {
+      "id": "q06",
+      "text": "Hvilket verk er Petter Dass mest kjent for?",
+      "options": [
+        "Heimskringla",
+        "Nordlands Trompet",
+        "Jeppe paa Bierget",
+        "Siælens Sang-Offer"
+      ],
+      "correct": 1,
+      "explain": "Det skildrer natur og folk i Nord-Norge."
+    },
+    {
+      "id": "q07",
+      "text": "Hvilket virkemiddel brukte Holberg for å opplyse publikum?",
+      "options": [
+        "Tragedie",
+        "Salmer",
+        "Satire og latter",
+        "Lange avhandlinger"
+      ],
+      "correct": 2,
+      "explain": "Komediene gjør narr av menneskelige svakheter."
+    },
+    {
+      "id": "q08",
+      "text": "Hvilket tema i «Erasmus Montanus» er relevant i dag?",
+      "options": [
+        "Hvordan man bygger båter",
+        "Fiske i Nordland",
+        "Kongens makt",
+        "Kunnskap, arroganse og uvitenhet"
+      ],
+      "correct": 3,
+      "explain": "Det minner om debatter om fakta og ekspertforakt."
+    },
+    {
+      "id": "q09",
+      "text": "Hva betyr renessanse?",
+      "options": [
+        "Gjenfødelse",
+        "Fornuft",
+        "Forgjengelighet",
+        "Opplysning"
+      ],
+      "correct": 0,
+      "explain": "Gjenfødelse av interessen for antikken."
+    },
+    {
+      "id": "q10",
+      "text": "Hvor ble Ludvig Holberg født?",
+      "options": [
+        "København",
+        "Bergen",
+        "Trondheim",
+        "Oslo"
+      ],
+      "correct": 1,
+      "explain": "Han levde senere i København."
+    }
+  ],
+  "mindmap": {
+    "label": "1500–1800",
+    "children": [
+      {
+        "label": "Kontekst",
+        "children": [
+          {
+            "label": "Union med Danmark"
+          },
+          {
+            "label": "Reformasjonen 1537"
+          },
+          {
+            "label": "Boktrykk"
+          }
+        ]
+      },
+      {
+        "label": "Renessansen",
+        "children": [
+          {
+            "label": "Humanisme"
+          },
+          {
+            "label": "Claussøn Friis"
+          }
+        ]
+      },
+      {
+        "label": "Barokken",
+        "children": [
+          {
+            "label": "Kontraster"
+          },
+          {
+            "label": "Petter Dass"
+          },
+          {
+            "label": "Dorothe Engelbretsdatter"
+          }
+        ]
+      },
+      {
+        "label": "Opplysningstiden",
+        "children": [
+          {
+            "label": "Fornuft"
+          },
+          {
+            "label": "Holberg"
+          },
+          {
+            "label": "Satire"
+          }
+        ]
+      },
+      {
+        "label": "Relevans i dag",
+        "children": [
+          {
+            "label": "Makt korrumperer"
+          },
+          {
+            "label": "Kunnskap og arroganse"
+          },
+          {
+            "label": "Forgjengelighet"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Opplysningstidens idealer påvirket Grunnloven i 1814.",
+        "correct": true,
+        "explain": "Blant annet ideer om folkesuverenitet og rettigheter."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "I unionstiden var norsk det offisielle skriftspråket i Norge.",
+        "correct": false,
+        "explain": "Dansk var skriftspråket."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Holbergs komedier brukes fortsatt på teatre i dag.",
+        "correct": true,
+        "explain": "Temaene er tidløse."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Barokken var preget av en enkel og nøktern stil.",
+        "correct": false,
+        "explain": "Barokken hadde en pyntet og ordrik stil."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er humanisme?",
+        "options": [
+          "Tenkning som setter mennesket i sentrum",
+          "En religion",
+          "En type dikt",
+          "En barokkstil"
+        ],
+        "correct": 0,
+        "explain": "Humanismen hørte til renessansen."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva handler «Erasmus Montanus» om?",
+        "options": [
+          "En bonde som blir baron",
+          "En student som vil vise hvor lærd han er",
+          "En prest i Nordland",
+          "En konge i Norge"
+        ],
+        "correct": 1,
+        "explain": "Han insisterer blant annet på at jorda er rund."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvorfor bør du kjenne konteksten når du tolker eldre tekster?",
+        "options": [
+          "Fordi eldre tekster er lettere",
+          "Fordi konteksten er uviktig",
+          "Fordi tid, samfunn og ideer påvirker hva teksten betyr",
+          "Fordi tekstene alltid handler om religion"
+        ],
+        "correct": 2,
+        "explain": "Samtidig kan du spørre hva teksten sier oss i dag."
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
+}
