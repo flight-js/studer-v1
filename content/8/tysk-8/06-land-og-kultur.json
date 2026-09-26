@@ -1,0 +1,86 @@
+{
+  "id": "land-og-kultur",
+  "fagId": "tysk-8",
+  "trinnId": "8",
+  "name": "Tyskspråklige land og kultur",
+  "intro": "Geografi, mat, tradisjoner, historie og kultur i Tyskland, Østerrike og Sveits, og forbindelsene mellom tysk og norsk.",
+  "kompetansemaal": [8, 9],
+  "sammendrag": "## Tyskspråklige land\n\n- **Deutschland** (Tyskland) har over 80 millioner innbyggere og er det folkerikeste landet i EU. Hovedstaden er **Berlin**. Landet består av **16 delstater** (*Bundesländer*), blant annet Bayern, Berlin og Hamburg.\n- **Österreich** (Østerrike) har hovedstaden **Wien**.\n- **Die Schweiz** (Sveits) har fire offisielle språk: tysk, fransk, italiensk og retoromansk. Hovedstaden er **Bern**.\n- Tysk er også offisielt språk i **Liechtenstein**, og snakkes i deler av Belgia, Luxembourg og Nord-Italia.\n\n## Geografi\n\nI nord har Tyskland kyst mot **Nordsjøen** og **Østersjøen**. I sør ligger **Alpene**, som strekker seg gjennom Østerrike og Sveits. Viktige elver er **Rhinen** (*der Rhein*), som renner forbi blant annet Köln, **Elben** og **Donau**. Store byer er Berlin, Hamburg, München, Köln og Frankfurt.\n\n## Mat og drikke\n\n- **die Brezel** – kringle av brød\n- **die Bratwurst** og **die Currywurst**, kjent fra Berlin\n- **das Schnitzel** – *Wiener Schnitzel* kommer fra Wien\n- **das Sauerkraut** – syrlig kål\n- **Kaffee und Kuchen** – kaffe og kake om ettermiddagen, en kjær tradisjon\n\n## Tradisjoner\n\n- **Das Oktoberfest** i München er verdens største folkefest og starter allerede i september.\n- **Der Weihnachtsmarkt** – julemarkeder med lys, gløgg (*Glühwein*) og pepperkaker finnes i nesten alle byer.\n- **Der Adventskalender** er en tysk oppfinnelse.\n- **Karneval** eller **Fasching** feires med kostymer og opptog før fasten, særlig i Köln og Sør-Tyskland.\n\n## Kultur og historie\n\n- **Brødrene Grimm** samlet eventyr som *Hans og Grete*, *Snøhvit* og *Rødhette*.\n- Kjente komponister er **Bach** og **Beethoven** fra Tyskland og **Mozart** fra Østerrike.\n- Etter andre verdenskrig ble Tyskland delt i øst og vest. **Berlinmuren** falt i **1989**, og landet ble **gjenforent** i **1990**.\n- **Fotball** er svært populært. Tyskland har vunnet VM for menn fire ganger.\n\n## Tysk og norsk\n\nTysk og norsk har lenge hatt tett kontakt. I middelalderen hadde tyske **hanseater** et stort handelskontor på **Bryggen** i Bergen. Derfor har norsk mange **lånord** fra tysk, som *betale*, *begynne* og *arbeide*. I dag er Tyskland en av Norges viktigste handelspartnere, og mange tyske turister besøker Norge hvert år.",
+  "flashcards": [
+    { "term": "Deutschland – Berlin", "def": "Tyskland, med hovedstaden Berlin" },
+    { "term": "Österreich – Wien", "def": "Østerrike, med hovedstaden Wien" },
+    { "term": "die Schweiz – Bern", "def": "Sveits, med hovedstaden Bern og fire offisielle språk" },
+    { "term": "die Bundesländer", "def": "Tysklands 16 delstater" },
+    { "term": "der Rhein", "def": "Rhinen, en av Tysklands viktigste elver" },
+    { "term": "die Alpen", "def": "Alpene, fjellkjeden i Sør-Tyskland, Østerrike og Sveits" },
+    { "term": "die Brezel", "def": "kringle av brød" },
+    { "term": "Kaffee und Kuchen", "def": "Tradisjon med kaffe og kake om ettermiddagen" },
+    { "term": "das Oktoberfest", "def": "Stor folkefest i München" },
+    { "term": "der Weihnachtsmarkt", "def": "julemarkedet" },
+    { "term": "Fasching / Karneval", "def": "Karnevalsfeiring før fasten" },
+    { "term": "Brødrene Grimm", "def": "Samlet eventyr som Hans og Grete og Rødhette" },
+    { "term": "Beethoven", "def": "Kjent tysk komponist" },
+    { "term": "Hanseatene", "def": "Tyske handelsfolk med kontor på Bryggen i Bergen i middelalderen" },
+    { "term": "die Wiedervereinigung", "def": "Gjenforeningen av Tyskland i 1990" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er hovedstaden i Østerrike?", "options": ["Berlin", "Wien", "Bern", "München"], "correct": 1, "explain": "Bern er hovedstaden i Sveits." },
+    { "id": "q02", "text": "Hvor mange delstater (Bundesländer) har Tyskland?", "options": ["9", "12", "16", "20"], "correct": 2, "explain": "Bayern er den største delstaten i areal." },
+    { "id": "q03", "text": "Hvilken by er kjent for Oktoberfest?", "options": ["München", "Hamburg", "Berlin", "Köln"], "correct": 0, "explain": "Oktoberfest arrangeres i München hvert år." },
+    { "id": "q04", "text": "Hva er «Kaffee und Kuchen»?", "options": ["En julesang", "En fotballklubb", "En by", "En tradisjon med kaffe og kake om ettermiddagen"], "correct": 3, "explain": "Mange tyske familier samles til kaffe og kake på søndager." },
+    { "id": "q05", "text": "Hvilke eventyr samlet brødrene Grimm?", "options": ["Askeladden", "Pippi Langstrømpe", "Hans og Grete og Rødhette", "Mummitrollet"], "correct": 2, "explain": "Brødrene Grimm samlet folkeeventyr på 1800-tallet." },
+    { "id": "q06", "text": "Når ble Tyskland gjenforent?", "options": ["1945", "1990", "1961", "2000"], "correct": 1, "explain": "Berlinmuren falt i 1989, og gjenforeningen kom året etter." },
+    { "id": "q07", "text": "Hvilken fjellkjede ligger i Sør-Tyskland, Østerrike og Sveits?", "options": ["Pyreneene", "Karpatene", "Dovrefjell", "Alpene"], "correct": 3, "explain": "Alpene er Europas største fjellkjede." },
+    { "id": "q08", "text": "Hvilke tyske handelsfolk hadde et viktig kontor på Bryggen i Bergen?", "options": ["Hanseatene", "Vikingene", "Romerne", "Normannerne"], "correct": 0, "explain": "Hanseatene handlet blant annet med tørrfisk." },
+    { "id": "q09", "text": "Hva er en «Weihnachtsmarkt»?", "options": ["Et påskemarked", "En fotballkamp", "Et julemarked", "Et loppemarked"], "correct": 2, "explain": "«Weihnachten» betyr jul." },
+    { "id": "q10", "text": "Hvor mange offisielle språk har Sveits?", "options": ["Ett", "Fire", "To", "Seks"], "correct": 1, "explain": "Tysk, fransk, italiensk og retoromansk." }
+  ],
+  "mindmap": {
+    "label": "Tyskspråklige land",
+    "children": [
+      { "label": "Land", "children": [
+        { "label": "Deutschland", "note": "Berlin" },
+        { "label": "Österreich", "note": "Wien" },
+        { "label": "Schweiz", "note": "Bern" },
+        { "label": "Liechtenstein" }
+      ] },
+      { "label": "Geografi", "children": [
+        { "label": "16 Bundesländer" },
+        { "label": "Rhein, Elbe, Donau" },
+        { "label": "Alpene" },
+        { "label": "Nordsjøen og Østersjøen" }
+      ] },
+      { "label": "Mat og tradisjoner", "children": [
+        { "label": "Brezel og Bratwurst" },
+        { "label": "Kaffee und Kuchen" },
+        { "label": "Oktoberfest" },
+        { "label": "Weihnachtsmarkt og Fasching" }
+      ] },
+      { "label": "Kultur og historie", "children": [
+        { "label": "Brødrene Grimm" },
+        { "label": "Bach, Beethoven, Mozart" },
+        { "label": "Gjenforening 1990" },
+        { "label": "Fotball" }
+      ] },
+      { "label": "Tysk og norsk", "children": [
+        { "label": "Hanseatene i Bergen" },
+        { "label": "Lånord" },
+        { "label": "Handel og turisme" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Tysk snakkes også i Østerrike og Sveits.", "correct": true, "explain": "Tysk er offisielt språk i begge landene." },
+      { "id": "m02", "type": "sant-usant", "text": "Berlin ligger i Østerrike.", "correct": false, "explain": "Berlin er hovedstaden i Tyskland." },
+      { "id": "m03", "type": "sant-usant", "text": "Mange norske ord er lånt fra tysk.", "correct": true, "explain": "Særlig fra hansatiden i middelalderen." },
+      { "id": "m04", "type": "sant-usant", "text": "Tyskland har ingen kyst.", "correct": false, "explain": "Tyskland har kyst mot både Nordsjøen og Østersjøen." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken komponist var tysk?", "options": ["Edvard Grieg", "Ludwig van Beethoven", "Frédéric Chopin", "Giuseppe Verdi"], "correct": 1, "explain": "Beethoven ble født i Bonn." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er Fasching?", "options": ["Karneval", "Jul", "Påske", "Nyttår"], "correct": 0, "explain": "Fasching feires særlig i Sør-Tyskland og Østerrike." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilken elv renner forbi Köln?", "options": ["Themsen", "Seinen", "Rhinen", "Tiberen"], "correct": 2, "explain": "Köln ligger ved Rhinen." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

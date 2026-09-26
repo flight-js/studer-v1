@@ -1,0 +1,84 @@
+{
+  "id": "grammatikk-grunnlag",
+  "fagId": "tysk-8",
+  "trinnId": "8",
+  "name": "Grammatikk – grunnlaget",
+  "intro": "Kjønn og artikler, personlige pronomen, bøying av verb i presens, de viktige verbene sein og haben, ordstilling og nektelse med nicht og kein.",
+  "kompetansemaal": [6],
+  "sammendrag": "## Tre kjønn – der, die, das\n\nAlle tyske substantiver har et **grammatisk kjønn**:\n\n- **der** – hankjønn: *der Hund*, *der Tisch*\n- **die** – hunkjønn: *die Katze*, *die Schule*\n- **das** – intetkjønn: *das Buch*, *das Haus*\n\nI **flertall** er artikkelen alltid **die**: *die Hunde*, *die Bücher*. Den **ubestemte artikkelen** er **ein** (hankjønn og intetkjønn) og **eine** (hunkjønn): *ein Hund*, *eine Katze*, *ein Buch*.\n\nKjønnet er ofte ikke det samme som på norsk, så lær alltid ordet **sammen med artikkelen**. Noen tips: Ord som slutter på **-ung**, **-heit** og **-keit** er hunkjønn (*die Zeitung*), og ord som slutter på **-chen** er intetkjønn (*das Mädchen*).\n\n## Personlige pronomen\n\n- **ich** (jeg), **du** (du), **er** (han), **sie** (hun), **es** (den/det)\n- **wir** (vi), **ihr** (dere), **sie** (de), **Sie** (De, høflig)\n\n## Verb i presens\n\nTyske verb bøyes etter person. Du tar **stammen** (infinitiv minus *-en*) og legger til en ending. Eksempel: **wohnen** (å bo):\n\n- ich wohn**e**, du wohn**st**, er/sie/es wohn**t**\n- wir wohn**en**, ihr wohn**t**, sie/Sie wohn**en**\n\nPå samme måte: *spielen*, *machen*, *kommen*, *lernen*.\n\n## Sein og haben\n\nDe viktigste verbene er uregelrette og må pugges:\n\n- **sein** (å være): ich **bin**, du **bist**, er **ist**, wir **sind**, ihr **seid**, sie **sind**\n- **haben** (å ha): ich **habe**, du **hast**, er **hat**, wir **haben**, ihr **habt**, sie **haben**\n\n## Ordstilling\n\n- I fortellende setninger står verbet på **andre plass**: *Heute **spiele** ich Fußball.*\n- I **ja/nei-spørsmål** står verbet **først**: ***Wohnst** du in Oslo?*\n- I **spørreordsspørsmål** kommer spørreordet først og verbet etter: *Wo **wohnst** du?* Spørreord er blant annet **wer** (hvem), **was** (hva), **wo** (hvor), **wann** (når), **wie** (hvordan) og **warum** (hvorfor).\n\n## Nektelse – nicht og kein\n\n- **nicht** nekter verb og adjektiver: *Ich wohne **nicht** in Berlin.* *Das ist **nicht** gut.*\n- **kein** nekter substantiver med ubestemt artikkel: *Ich habe **keinen** Hund.* *Das ist **keine** Katze.*\n\n## Flertall\n\nFlertall av substantiver lages på flere måter, for eksempel *der Hund – die Hunde*, *die Katze – die Katzen*, *das Buch – die Bücher*. Lær flertallsformen sammen med ordet.",
+  "flashcards": [
+    { "term": "der", "def": "Bestemt artikkel for hankjønn: der Hund" },
+    { "term": "die", "def": "Bestemt artikkel for hunkjønn og alle ord i flertall: die Katze, die Hunde" },
+    { "term": "das", "def": "Bestemt artikkel for intetkjønn: das Buch" },
+    { "term": "ein / eine", "def": "Ubestemt artikkel: ein Hund, eine Katze, ein Buch" },
+    { "term": "ich, du, er, sie, es", "def": "jeg, du, han, hun, den/det" },
+    { "term": "wir, ihr, sie, Sie", "def": "vi, dere, de, De (høflig)" },
+    { "term": "Stamme + ending", "def": "Slik bøyes regelrette verb: wohn + e, wohn + st, wohn + t" },
+    { "term": "du wohnst", "def": "du bor" },
+    { "term": "er wohnt", "def": "han bor" },
+    { "term": "sein", "def": "å være: ich bin, du bist, er ist, wir sind, ihr seid, sie sind" },
+    { "term": "haben", "def": "å ha: ich habe, du hast, er hat, wir haben, ihr habt, sie haben" },
+    { "term": "Verbet på plass 2", "def": "I fortellende setninger står verbet på andre plass." },
+    { "term": "Ja/nei-spørsmål", "def": "Verbet står først: Wohnst du in Oslo?" },
+    { "term": "nicht", "def": "ikke – nekter verb og adjektiver" },
+    { "term": "kein / keine", "def": "ingen, ikke noen – nekter substantiver" },
+    { "term": "-chen", "def": "Ord med denne endingen er intetkjønn: das Mädchen" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvilken artikkel bruker du foran hunkjønnsord?", "options": ["der", "das", "die", "den"], "correct": 2, "explain": "For eksempel «die Katze» og «die Schule»." },
+    { "id": "q02", "text": "Hva er riktig form av «wohnen» med «du»?", "options": ["du wohne", "du wohnst", "du wohnt", "du wohnen"], "correct": 1, "explain": "Med «du» får verbet endingen -st." },
+    { "id": "q03", "text": "Hvordan bøyes «sein» med «wir»?", "options": ["wir bist", "wir ist", "wir seid", "wir sind"], "correct": 3, "explain": "«seid» brukes med «ihr»." },
+    { "id": "q04", "text": "Hva er riktig form av «haben» med «er»?", "options": ["er hat", "er habt", "er habe", "er hast"], "correct": 0, "explain": "«haben» er uregelrett i entall." },
+    { "id": "q05", "text": "Hvilken artikkel har ord som ender på «-chen», som «Mädchen»?", "options": ["der", "das", "die", "ein"], "correct": 1, "explain": "Alle ord på -chen er intetkjønn, også «das Mädchen» (jenta)." },
+    { "id": "q06", "text": "Hvordan lager du et ja/nei-spørsmål på tysk?", "options": ["Du legger til «nicht»", "Du setter subjektet først", "Du setter verbet først", "Du endrer artikkelen"], "correct": 2, "explain": "For eksempel: «Spielst du Fußball?»" },
+    { "id": "q07", "text": "Hvordan sier du «Jeg har ikke noen hund»?", "options": ["Ich habe keinen Hund.", "Ich habe nicht Hund.", "Ich nicht habe Hund.", "Ich habe kein Hund nicht."], "correct": 0, "explain": "«kein» nekter substantiver og får samme ending som «ein»." },
+    { "id": "q08", "text": "Hva er riktig form av «sein» med «ihr»?", "options": ["ihr sind", "ihr bist", "ihr ist", "ihr seid"], "correct": 3, "explain": "«ihr seid» betyr «dere er»." },
+    { "id": "q09", "text": "Hvordan bør du lære nye substantiver?", "options": ["Uten artikkel", "Sammen med artikkelen", "Bare i flertall", "Med liten forbokstav"], "correct": 1, "explain": "Kjønnet på tysk er ofte annerledes enn på norsk." },
+    { "id": "q10", "text": "Hvilket pronomen betyr «vi»?", "options": ["ihr", "sie", "wir", "es"], "correct": 2, "explain": "«ihr» betyr dere, og «sie» betyr de eller hun." }
+  ],
+  "mindmap": {
+    "label": "Grammatikk – grunnlaget",
+    "children": [
+      { "label": "Kjønn", "children": [
+        { "label": "der" },
+        { "label": "die" },
+        { "label": "das" },
+        { "label": "ein / eine" }
+      ] },
+      { "label": "Pronomen", "children": [
+        { "label": "ich, du, er, sie, es" },
+        { "label": "wir, ihr, sie, Sie" }
+      ] },
+      { "label": "Verb i presens", "children": [
+        { "label": "Stamme + ending" },
+        { "label": "wohnen" },
+        { "label": "sein" },
+        { "label": "haben" }
+      ] },
+      { "label": "Ordstilling", "children": [
+        { "label": "Verbet på plass 2" },
+        { "label": "Ja/nei: verbet først" },
+        { "label": "Spørreord" }
+      ] },
+      { "label": "Nektelse og flertall", "children": [
+        { "label": "nicht" },
+        { "label": "kein" },
+        { "label": "Flertall varierer" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Alle substantiver i flertall har den bestemte artikkelen «die».", "correct": true, "explain": "Det gjelder uansett kjønn i entall." },
+      { "id": "m02", "type": "sant-usant", "text": "Tyske verb bøyes ikke etter person.", "correct": false, "explain": "Verbet får ulik ending for ich, du, er og så videre." },
+      { "id": "m03", "type": "sant-usant", "text": "Ord som ender på «-ung», er som regel hunkjønn.", "correct": true, "explain": "For eksempel «die Zeitung» (avisen)." },
+      { "id": "m04", "type": "sant-usant", "text": "I setningen «Heute spiele ich Fußball» står verbet på feil plass.", "correct": false, "explain": "Verbet står på andre plass, slik det skal." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er flertall av «das Buch»?", "options": ["die Buchs", "die Bücher", "die Buche", "das Bücher"], "correct": 1, "explain": "Flertall får omlyd og endingen -er." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilken setning er riktig?", "options": ["Ich bin müde.", "Ich ist müde.", "Ich bist müde.", "Ich sind müde."], "correct": 0, "explain": "«ich bin» betyr «jeg er»." },
+      { "id": "m07", "type": "flervalg", "text": "Hva betyr «ihr»?", "options": ["Jeg", "Han", "Dere", "De (høflig)"], "correct": 2, "explain": "«ihr» brukes når du snakker til flere personer du er dus med." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "fransk-10",
+  "trinnId": "10",
+  "name": "Fransk",
+  "lareplan": {
+    "kode": "FSP01-04",
+    "url": "https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurdering/kv965",
+    "kompetansemaal": [
+      {
+        "nr": 1,
+        "tekst": "lytte til og forstå enkel og tydelig tale om personlige og dagligdagse emner"
+      },
+      {
+        "nr": 2,
+        "tekst": "delta i enkle samtaler i dagligdagse situasjoner om aktiviteter og kjente emner"
+      },
+      {
+        "nr": 3,
+        "tekst": "muntlig fortelle om dagligliv og opplevelser og uttrykke meninger, også spontant"
+      },
+      {
+        "nr": 4,
+        "tekst": "lese og forstå tilpassede og enklere autentiske tekster om personlige og dagligdagse emner"
+      },
+      {
+        "nr": 5,
+        "tekst": "skrive enkle tekster om dagligliv og opplevelser som forteller, beskriver og informerer, med og uten hjelpemidler"
+      },
+      {
+        "nr": 6,
+        "tekst": "bruke enkle språklige strukturer, regler for uttale og rettskriving og språkets offisielle alfabet eller tegn for å kommunisere på en situasjonstilpasset måte"
+      },
+      {
+        "nr": 7,
+        "tekst": "bruke relevante lærings- og kommunikasjonsstrategier, digitale ressurser og erfaringer fra tidligere språklæring i læringsprosessen"
+      },
+      {
+        "nr": 8,
+        "tekst": "utforske og beskrive levemåter, tradisjoner og geografi i områder der språket snakkes, og se sammenhenger med egen bakgrunn"
+      },
+      {
+        "nr": 9,
+        "tekst": "utforske og beskrive kunstneriske og kulturelle uttrykk fra områder der språket snakkes, og gi uttrykk for egne opplevelser"
+      }
+    ]
+  },
+  "temaer": [
+    "reise-og-ferie",
+    "helse-og-kropp",
+    "framtid-og-planer",
+    "ungdom-og-medier",
+    "kunst-og-kultur",
+    "miljo-og-samfunn"
+  ]
+}

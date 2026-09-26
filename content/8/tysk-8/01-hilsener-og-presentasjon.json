@@ -1,0 +1,85 @@
+{
+  "id": "hilsener-og-presentasjon",
+  "fagId": "tysk-8",
+  "trinnId": "8",
+  "name": "Hilsener og presentasjon",
+  "intro": "Hvordan du hilser, presenterer deg selv og spør andre om navn, alder og bosted på tysk, når du bruker du og Sie, og de viktigste reglene for uttale og skrift.",
+  "kompetansemaal": [2, 6],
+  "sammendrag": "## Tysk i verden\n\nRundt 100 millioner mennesker har tysk som morsmål. Tysk er offisielt språk i **Tyskland**, **Østerrike**, **Sveits** og **Liechtenstein**, og snakkes også i deler av Belgia, Luxembourg og Italia. Tysk og norsk er i slekt, og mange ord ligner: *Haus* – hus, *Buch* – bok, *Hund* – hund.\n\n## Hilsener\n\n- **Hallo!** – Hei!\n- **Guten Morgen!** – God morgen!\n- **Guten Tag!** – God dag! (mer formelt)\n- **Guten Abend!** – God kveld!\n- **Tschüs!** – Ha det! (uformelt)\n- **Auf Wiedersehen!** – Ha det bra! (formelt)\n- **Bis bald!** – Vi ses snart!\n\n## Presentere seg selv\n\n- **Wie heißt du?** – Hva heter du? – **Ich heiße Nora.** – Jeg heter Nora.\n- **Wie alt bist du?** – Hvor gammel er du? – **Ich bin dreizehn Jahre alt.**\n- **Woher kommst du?** – Hvor kommer du fra? – **Ich komme aus Norwegen.**\n- **Wo wohnst du?** – Hvor bor du? – **Ich wohne in Bergen.**\n- **Wie geht's?** – Hvordan går det? – **Gut, danke!** / **Es geht.** / **Nicht so gut.**\n\n## Du eller Sie?\n\nTysk har to ord for «du»:\n\n- **du** brukes til venner, familie, barn og andre unge.\n- **Sie** (alltid med stor S) er høflighetsformen til voksne du ikke kjenner, som lærere og ekspeditører: *Wie heißen Sie?*\n\n## Uttale\n\n- **ei** uttales som norsk «ai»: *drei*, *heißen*\n- **ie** uttales som langt «i»: *Sie*, *vier*\n- **eu** og **äu** uttales omtrent «åi»: *neun*, *Häuser*\n- **w** uttales som norsk «v»: *wie*, *wo*\n- **v** uttales oftest som «f»: *Vater*, *vier*\n- **z** uttales «ts»: *zehn*\n- **sch** uttales «sj»: *Schule*\n- **ch** etter a, o og u er en hard lyd bak i halsen: *acht*, *Buch*. Etter e og i er den mykere, omtrent som «kj» i *kjøre*: *ich*.\n- **s** foran vokal uttales stemt, omtrent som engelsk «z»: *Sonne*\n\n## Spesielle bokstaver\n\nTysk har **omlyd**: **ä**, **ö** og **ü**, og bokstaven **ß** («eszett»), som uttales som dobbel s: *heißen*, *Straße*. Alle **substantiver** skrives med **stor forbokstav**: *der Hund*, *die Schule*, *das Buch*.\n\n## Høflige småord\n\n**Bitte** betyr både «vær så snill» og «vær så god», **Danke** betyr «takk», og **Entschuldigung** betyr «unnskyld». Med disse ordene og noen hilsener kommer du langt i møte med tysktalende!",
+  "flashcards": [
+    { "term": "Hallo!", "def": "Hei!" },
+    { "term": "Guten Morgen!", "def": "God morgen!" },
+    { "term": "Guten Tag!", "def": "God dag! (litt formelt)" },
+    { "term": "Tschüs!", "def": "Ha det! (uformelt)" },
+    { "term": "Auf Wiedersehen!", "def": "Ha det bra! (formelt)" },
+    { "term": "Wie heißt du?", "def": "Hva heter du?" },
+    { "term": "Ich heiße …", "def": "Jeg heter …" },
+    { "term": "Wie alt bist du?", "def": "Hvor gammel er du?" },
+    { "term": "Woher kommst du?", "def": "Hvor kommer du fra?" },
+    { "term": "Ich wohne in …", "def": "Jeg bor i …" },
+    { "term": "Wie geht's?", "def": "Hvordan går det?" },
+    { "term": "du / Sie", "def": "du (uformelt) / De (høflig til voksne du ikke kjenner)" },
+    { "term": "Danke", "def": "Takk" },
+    { "term": "Bitte", "def": "Vær så snill / vær så god" },
+    { "term": "Entschuldigung", "def": "Unnskyld" },
+    { "term": "ß", "def": "Eszett, uttales som dobbel s, som i heißen." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva betyr «Wie heißt du?»", "options": ["Hvor bor du?", "Hva heter du?", "Hvor gammel er du?", "Hvordan går det?"], "correct": 1, "explain": "Du svarer med «Ich heiße …»." },
+    { "id": "q02", "text": "Hvordan sier du «Jeg kommer fra Norge» på tysk?", "options": ["Ich wohne in Norwegen.", "Ich heiße Norwegen.", "Ich bin Norwegen.", "Ich komme aus Norwegen."], "correct": 3, "explain": "«aus» betyr «fra» når du forteller hvor du kommer fra." },
+    { "id": "q03", "text": "Når bruker du «Sie» i stedet for «du»?", "options": ["Til voksne du ikke kjenner, som en lærer eller ekspeditør", "Til venner", "Til søsken", "Til kjæledyr"], "correct": 0, "explain": "«Sie» er høflighetsformen." },
+    { "id": "q04", "text": "Hvordan uttales «ei» i «drei»?", "options": ["Som norsk «ei»", "Som langt «i»", "Som norsk «ai»", "Som «åi»"], "correct": 2, "explain": "«drei» uttales omtrent «drai»." },
+    { "id": "q05", "text": "Hvilken hilsen passer best når du sier ha det etter en formell samtale?", "options": ["Hallo!", "Tschüs!", "Guten Morgen!", "Auf Wiedersehen!"], "correct": 3, "explain": "«Tschüs» er uformelt, «Auf Wiedersehen» er formelt." },
+    { "id": "q06", "text": "Hvilke ord skrives alltid med stor forbokstav på tysk?", "options": ["Verb", "Substantiver", "Adjektiver", "Tallord"], "correct": 1, "explain": "Alle substantiver, som «der Hund» og «die Schule», har stor forbokstav." },
+    { "id": "q07", "text": "Hva svarer du på «Wie geht's?» hvis det går bra?", "options": ["Gut, danke!", "Ich heiße Ola.", "Auf Wiedersehen!", "Ich bin dreizehn."], "correct": 0, "explain": "«Gut, danke!» betyr «Bra, takk!»." },
+    { "id": "q08", "text": "Hvordan uttales «w» i «wo»?", "options": ["Som engelsk «w»", "Som «f»", "Som norsk «v»", "Den er stum"], "correct": 2, "explain": "«wo» uttales omtrent «vo»." },
+    { "id": "q09", "text": "Hva betyr «Entschuldigung»?", "options": ["Takk", "Unnskyld", "Vær så god", "Ha det"], "correct": 1, "explain": "Ordet brukes når du vil be om unnskyldning eller få noens oppmerksomhet." },
+    { "id": "q10", "text": "Hva er «ß»?", "options": ["En omlyd", "En stor S", "Et spørsmålstegn", "En bokstav som uttales som dobbel s"], "correct": 3, "explain": "Bokstaven kalles eszett, som i «Straße»." }
+  ],
+  "mindmap": {
+    "label": "Hilsener og presentasjon",
+    "children": [
+      { "label": "Hilsener", "children": [
+        { "label": "Hallo / Guten Tag" },
+        { "label": "Guten Morgen / Abend" },
+        { "label": "Tschüs" },
+        { "label": "Auf Wiedersehen" }
+      ] },
+      { "label": "Om meg", "children": [
+        { "label": "Ich heiße …" },
+        { "label": "Ich bin … Jahre alt" },
+        { "label": "Ich komme aus …" },
+        { "label": "Ich wohne in …" }
+      ] },
+      { "label": "du eller Sie", "children": [
+        { "label": "du", "note": "Venner og familie" },
+        { "label": "Sie", "note": "Høflig" }
+      ] },
+      { "label": "Uttale", "children": [
+        { "label": "ei = ai" },
+        { "label": "ie = langt i" },
+        { "label": "w = v, z = ts" },
+        { "label": "sch og ch" }
+      ] },
+      { "label": "Skrift", "children": [
+        { "label": "ä, ö, ü" },
+        { "label": "ß" },
+        { "label": "Substantiv med stor bokstav" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "«Tschüs» er en uformell måte å si ha det på.", "correct": true, "explain": "Til venner sier du «Tschüs!»." },
+      { "id": "m02", "type": "sant-usant", "text": "Tysk snakkes bare i Tyskland.", "correct": false, "explain": "Tysk er også offisielt språk i blant annet Østerrike og Sveits." },
+      { "id": "m03", "type": "sant-usant", "text": "Høflighetsformen «Sie» skrives alltid med stor S.", "correct": true, "explain": "Stor S skiller den fra «sie», som betyr «hun» eller «de»." },
+      { "id": "m04", "type": "sant-usant", "text": "«ie» i «vier» uttales som «i» og «e» hver for seg.", "correct": false, "explain": "«ie» uttales som en lang i-lyd." },
+      { "id": "m05", "type": "flervalg", "text": "Hva betyr «Ich bin dreizehn Jahre alt»?", "options": ["Jeg bor i Tyskland", "Jeg er tretten år gammel", "Jeg heter Dreizehn", "Jeg har tretten søsken"], "correct": 1, "explain": "«dreizehn» betyr tretten." },
+      { "id": "m06", "type": "flervalg", "text": "Hvordan uttales «z» i «zehn»?", "options": ["ts", "s", "som engelsk z", "sj"], "correct": 0, "explain": "«zehn» uttales omtrent «tsen»." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilket ord betyr «takk»?", "options": ["Bitte", "Ja", "Danke", "Hallo"], "correct": 2, "explain": "«Danke schön» betyr «tusen takk»." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

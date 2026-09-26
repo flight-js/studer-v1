@@ -1,0 +1,85 @@
+{
+  "id": "skole-og-fritid",
+  "fagId": "tysk-8",
+  "trinnId": "8",
+  "name": "Skole og fritid",
+  "intro": "Skolefag, meninger og fritidsaktiviteter på tysk, hvordan du bruker gern for å si hva du liker, ordstilling med verbet på andre plass, og hvordan skolen er i Tyskland.",
+  "kompetansemaal": [2, 3],
+  "sammendrag": "## Skolefag – die Schulfächer\n\n**Mathe**, **Deutsch**, **Englisch**, **Norwegisch**, **Sport** (kroppsøving), **Kunst** (kunst og håndverk), **Musik**, **Geschichte** (historie), **Erdkunde** (geografi), **Biologie** og **Naturwissenschaften** (naturfag).\n\n- **Mein Lieblingsfach ist Sport.** – Yndlingsfaget mitt er kroppsøving.\n- **Ich finde Mathe interessant / langweilig / leicht / schwer.** – Jeg synes matte er interessant / kjedelig / lett / vanskelig.\n\nNyttige ord i klasserommet: **der Lehrer / die Lehrerin** (læreren), **der Schüler / die Schülerin** (eleven), **das Heft** (skriveboka), **der Bleistift** (blyanten), **die Schultasche** (skolesekken).\n\n## Fritid – die Freizeit\n\n- **Fußball spielen** – spille fotball\n- **schwimmen** – svømme\n- **lesen** – lese\n- **zeichnen** – tegne\n- **tanzen** – danse\n- **Musik hören** – høre på musikk\n- **Gitarre spielen** – spille gitar\n- **Computerspiele spielen** – spille dataspill\n- **Rad fahren** – sykle\n- **Freunde treffen** – treffe venner\n\n## Å like noe – gern\n\nPå tysk sier du ofte at du liker å gjøre noe ved å sette **gern** etter verbet:\n\n- **Ich spiele gern Fußball.** – Jeg liker å spille fotball.\n- **Ich lese nicht gern.** – Jeg liker ikke å lese.\n- **Ich schwimme lieber.** – Jeg liker bedre å svømme.\n- **Am liebsten tanze ich.** – Aller helst danser jeg.\n\nSpørsmålet er **Was machst du gern?** – Hva liker du å gjøre?\n\n## Hvor ofte?\n\n**immer** (alltid), **oft** (ofte), **manchmal** (noen ganger), **selten** (sjelden), **nie** (aldri). **Am Wochenende** betyr i helgen.\n\n## Verbet på andre plass\n\nSom på norsk står verbet på **andre plass** i fortellende setninger:\n\n- *Ich spiele am Wochenende Fußball.*\n- *Am Wochenende **spiele** ich Fußball.*\n\nStarter du med et tidsuttrykk, kommer subjektet etter verbet – akkurat som på norsk: «I helgen spiller jeg fotball.»\n\n## Skolen i Tyskland\n\nAlle går på **Grundschule** i fire år, i de fleste delstater. Deretter velger elevene mellom ulike skoler, for eksempel **Gymnasium**, som forbereder til universitetet, og andre skoletyper med mer praktisk retning. I Tyskland er karakteren **1** den **beste** og **6** den dårligste – altså motsatt av i Norge.",
+  "flashcards": [
+    { "term": "das Lieblingsfach", "def": "yndlingsfaget" },
+    { "term": "Sport", "def": "kroppsøving (skolefag)" },
+    { "term": "Kunst", "def": "kunst og håndverk" },
+    { "term": "Geschichte", "def": "historie" },
+    { "term": "interessant / langweilig", "def": "interessant / kjedelig" },
+    { "term": "leicht / schwer", "def": "lett / vanskelig" },
+    { "term": "der Lehrer / die Lehrerin", "def": "læreren" },
+    { "term": "Ich spiele gern Fußball.", "def": "Jeg liker å spille fotball." },
+    { "term": "Was machst du gern?", "def": "Hva liker du å gjøre?" },
+    { "term": "lesen", "def": "å lese" },
+    { "term": "schwimmen", "def": "å svømme" },
+    { "term": "zeichnen", "def": "å tegne" },
+    { "term": "am Wochenende", "def": "i helgen" },
+    { "term": "manchmal", "def": "noen ganger" },
+    { "term": "nie", "def": "aldri" },
+    { "term": "Note 1", "def": "Den beste karakteren i tysk skole." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva betyr «Mein Lieblingsfach ist Kunst»?", "options": ["Jeg liker ikke kunst", "Kunst er vanskelig", "Kunstlæreren er snill", "Yndlingsfaget mitt er kunst"], "correct": 3, "explain": "«Lieblings-» betyr yndlings-." },
+    { "id": "q02", "text": "Hvordan sier du «Jeg liker å lese»?", "options": ["Ich lese gern.", "Ich gern lese.", "Ich lesen gern.", "Gern ich lese."], "correct": 0, "explain": "«gern» kommer etter verbet." },
+    { "id": "q03", "text": "Hva betyr «langweilig»?", "options": ["Lang", "Morsom", "Kjedelig", "Vanskelig"], "correct": 2, "explain": "Ordet betyr egentlig at tiden føles lang." },
+    { "id": "q04", "text": "Hvilken setning har riktig ordstilling?", "options": ["Am Wochenende ich spiele Fußball.", "Am Wochenende spiele ich Fußball.", "Am Wochenende Fußball ich spiele.", "Ich am Wochenende spiele Fußball."], "correct": 1, "explain": "Verbet skal stå på andre plass." },
+    { "id": "q05", "text": "Hva er den beste karakteren i tysk skole?", "options": ["1", "6", "5", "10"], "correct": 0, "explain": "I Tyskland er 1 best og 6 dårligst." },
+    { "id": "q06", "text": "Hva betyr «manchmal»?", "options": ["Alltid", "Aldri", "Ofte", "Noen ganger"], "correct": 3, "explain": "«immer» betyr alltid, og «nie» betyr aldri." },
+    { "id": "q07", "text": "Hva heter faget kroppsøving på tysk?", "options": ["Kunst", "Musik", "Sport", "Geschichte"], "correct": 2, "explain": "Som skolefag heter kroppsøving «Sport»." },
+    { "id": "q08", "text": "Hvordan spør du «Hva liker du å gjøre?»", "options": ["Was ist das?", "Was machst du gern?", "Wo wohnst du?", "Wie spät ist es?"], "correct": 1, "explain": "«machen» betyr å gjøre." },
+    { "id": "q09", "text": "Hva betyr «zeichnen»?", "options": ["Å tegne", "Å danse", "Å svømme", "Å synge"], "correct": 0, "explain": "«tanzen» betyr å danse." },
+    { "id": "q10", "text": "Hva betyr «Ich finde Mathe schwer»?", "options": ["Jeg finner mattebøkene", "Matte er lett", "Jeg synes matte er vanskelig", "Jeg liker matte best"], "correct": 2, "explain": "«Ich finde …» brukes for å si hva du synes." }
+  ],
+  "mindmap": {
+    "label": "Skole og fritid",
+    "children": [
+      { "label": "Fag", "children": [
+        { "label": "Mathe, Deutsch, Englisch" },
+        { "label": "Sport, Kunst, Musik" },
+        { "label": "Lieblingsfach" }
+      ] },
+      { "label": "Meninger", "children": [
+        { "label": "Ich finde …" },
+        { "label": "interessant / langweilig" },
+        { "label": "leicht / schwer" }
+      ] },
+      { "label": "Fritid", "children": [
+        { "label": "Fußball spielen" },
+        { "label": "lesen, zeichnen" },
+        { "label": "schwimmen, tanzen" },
+        { "label": "Musik hören" }
+      ] },
+      { "label": "gern", "children": [
+        { "label": "Ich spiele gern …" },
+        { "label": "nicht gern" },
+        { "label": "lieber, am liebsten" }
+      ] },
+      { "label": "Grammatikk og kultur", "children": [
+        { "label": "Verbet på plass 2" },
+        { "label": "oft, manchmal, nie" },
+        { "label": "Grundschule og Gymnasium" },
+        { "label": "Karakter 1 er best" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Tysk har verbet på andre plass i fortellende setninger, slik som norsk.", "correct": true, "explain": "Derfor heter det «Heute spiele ich …»." },
+      { "id": "m02", "type": "sant-usant", "text": "«nie» betyr alltid.", "correct": false, "explain": "«nie» betyr aldri. Alltid heter «immer»." },
+      { "id": "m03", "type": "sant-usant", "text": "I Tyskland går mange elever på Gymnasium etter Grundschule.", "correct": true, "explain": "Gymnasium forbereder elevene til universitetet." },
+      { "id": "m04", "type": "sant-usant", "text": "«Ich spiele nicht gern Fußball» betyr at jeg elsker fotball.", "correct": false, "explain": "Setningen betyr at jeg ikke liker å spille fotball." },
+      { "id": "m05", "type": "flervalg", "text": "Hva betyr «die Lehrerin»?", "options": ["Eleven", "Læreren (kvinne)", "Rektoren", "Klassen"], "correct": 1, "explain": "Endelsen «-in» viser at det er en kvinne." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilket ord betyr «å svømme»?", "options": ["reiten", "tanzen", "schwimmen", "singen"], "correct": 2, "explain": "«reiten» betyr å ri." },
+      { "id": "m07", "type": "flervalg", "text": "Hva betyr «am Wochenende»?", "options": ["I helgen", "På mandag", "Om kvelden", "I ferien"], "correct": 0, "explain": "«das Wochenende» betyr helgen." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

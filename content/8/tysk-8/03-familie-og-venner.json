@@ -1,0 +1,84 @@
+{
+  "id": "familie-og-venner",
+  "fagId": "tysk-8",
+  "trinnId": "8",
+  "name": "Familie og venner",
+  "intro": "Ord for familie, venner og kjæledyr på tysk, hvordan du bruker mein og meine, ein, einen og kein, og hvordan du beskriver utseende og personlighet.",
+  "kompetansemaal": [3, 5],
+  "sammendrag": "## Familien – die Familie\n\n- **der Vater** – faren, **die Mutter** – moren, **die Eltern** – foreldrene\n- **der Bruder** – broren, **die Schwester** – søsteren, **die Geschwister** – søsknene\n- **der Großvater / der Opa** – bestefaren, **die Großmutter / die Oma** – bestemoren, **die Großeltern** – besteforeldrene\n- **der Onkel** – onkelen, **die Tante** – tanten\n- **der Cousin** – fetteren, **die Cousine** – kusinen\n- **der Sohn** – sønnen, **die Tochter** – datteren\n- **das Haustier** – kjæledyret, for eksempel **der Hund** (hunden) og **die Katze** (katten)\n\nLær alltid ordene sammen med artikkelen **der**, **die** eller **das**.\n\n## Min, mitt, mine – mein og meine\n\nPå tysk avhenger formen av kjønnet på ordet:\n\n- hankjønn og intetkjønn: **mein** Vater, **mein** Haustier\n- hunkjønn og flertall: **meine** Mutter, **meine** Eltern\n\nPå samme måte: **dein/deine** (din), **sein/seine** (hans), **ihr/ihre** (hennes).\n\n## Jeg har …\n\nNår du forteller hva du har, bruker du **haben**, og hankjønnsord får formen **einen**:\n\n- **Ich habe einen Bruder.** – Jeg har en bror.\n- **Ich habe eine Schwester.** – Jeg har en søster.\n- **Ich habe ein Haustier.** – Jeg har et kjæledyr.\n- **Ich habe keine Geschwister.** – Jeg har ingen søsken.\n\n## Beskrive personer\n\n- **Er ist groß / klein.** – Han er høy / lav.\n- **Sie ist nett / lustig / sportlich.** – Hun er snill / morsom / sporty.\n- **Er ist freundlich / schüchtern.** – Han er vennlig / sjenert.\n- **Sie hat lange / kurze Haare.** – Hun har langt / kort hår.\n- **Er hat blaue / braune / grüne Augen.** – Han har blå / brune / grønne øyne.\n\n## Venner\n\n**der Freund** kan bety både venn og kjæreste, og **die Freundin** både venninne og kjæreste. **Mein bester Freund heißt Jonas.** – Min beste venn heter Jonas. **Meine beste Freundin heißt Emma.**\n\n## En kort tekst\n\n*Das ist meine Familie. Wir wohnen in Trondheim. Mein Vater heißt Lars. Er ist 45 Jahre alt und sehr lustig. Meine Mutter heißt Ingrid. Sie ist nett und sportlich. Ich habe einen Bruder und eine Schwester. Wir haben auch einen Hund. Er heißt Max.*\n\nNår du skriver om familien din, kan du bruke denne teksten som mønster og bytte ut navn, alder og beskrivelser.",
+  "flashcards": [
+    { "term": "der Vater / die Mutter", "def": "faren / moren" },
+    { "term": "die Eltern", "def": "foreldrene" },
+    { "term": "der Bruder / die Schwester", "def": "broren / søsteren" },
+    { "term": "die Geschwister", "def": "søsknene" },
+    { "term": "die Großeltern", "def": "besteforeldrene" },
+    { "term": "der Onkel / die Tante", "def": "onkelen / tanten" },
+    { "term": "der Cousin / die Cousine", "def": "fetteren / kusinen" },
+    { "term": "das Haustier", "def": "kjæledyret" },
+    { "term": "mein / meine", "def": "min, mitt / min, mine – meine brukes ved hunkjønn og flertall" },
+    { "term": "Ich habe einen Bruder.", "def": "Jeg har en bror." },
+    { "term": "Ich habe keine Geschwister.", "def": "Jeg har ingen søsken." },
+    { "term": "nett", "def": "snill, hyggelig" },
+    { "term": "lustig", "def": "morsom" },
+    { "term": "schüchtern", "def": "sjenert" },
+    { "term": "Er hat blaue Augen.", "def": "Han har blå øyne." },
+    { "term": "die Freundin", "def": "venninnen, eller kjæresten" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva betyr «die Geschwister»?", "options": ["Søsken", "Søstre", "Besteforeldre", "Foreldre"], "correct": 0, "explain": "«Geschwister» er brødre og søstre til sammen." },
+    { "id": "q02", "text": "Hva heter «foreldrene» på tysk?", "options": ["die Großeltern", "die Geschwister", "die Kinder", "die Eltern"], "correct": 3, "explain": "«die Großeltern» er besteforeldrene." },
+    { "id": "q03", "text": "Hvilken form er riktig?", "options": ["mein Mutter", "meine Mutter", "meinen Mutter", "meines Mutter"], "correct": 1, "explain": "«Mutter» er hunkjønn, derfor «meine»." },
+    { "id": "q04", "text": "Hvordan sier du «Jeg har en bror»?", "options": ["Ich habe ein Bruder.", "Ich bin einen Bruder.", "Ich habe einen Bruder.", "Ich habe eine Bruder."], "correct": 2, "explain": "Etter «haben» får hankjønnsord formen «einen»." },
+    { "id": "q05", "text": "Hva betyr «Ich habe keine Geschwister»?", "options": ["Jeg har mange søsken", "Jeg har ingen søsken", "Jeg har to søsken", "Søsknene mine er snille"], "correct": 1, "explain": "«kein/keine» betyr «ingen»." },
+    { "id": "q06", "text": "Hva betyr «lustig»?", "options": ["Lat", "Trist", "Høy", "Morsom"], "correct": 3, "explain": "Ordet ligner norsk «lystig»." },
+    { "id": "q07", "text": "Hvordan sier du «Hun har brune øyne»?", "options": ["Sie hat braune Augen.", "Sie ist braune Augen.", "Sie hat braun Auge.", "Er hat braune Augen."], "correct": 0, "explain": "«Sie» betyr «hun», og «Augen» er flertall av «Auge»." },
+    { "id": "q08", "text": "Hva er «die Tante»?", "options": ["Onkelen", "Bestemoren", "Tanten", "Kusinen"], "correct": 2, "explain": "Onkelen heter «der Onkel»." },
+    { "id": "q09", "text": "Hvilken artikkel har «Haustier» (kjæledyr)?", "options": ["der", "die", "den", "das"], "correct": 3, "explain": "Sammensatte ord får kjønnet til siste ledd, og «das Tier» (dyret) er intetkjønn." },
+    { "id": "q10", "text": "Hva betyr «Mein bester Freund heißt Jonas»?", "options": ["Min bror heter Jonas", "Min beste venn heter Jonas", "Jonas er snill", "Jonas bor her"], "correct": 1, "explain": "«bester Freund» betyr beste venn." }
+  ],
+  "mindmap": {
+    "label": "Familie og venner",
+    "children": [
+      { "label": "Nær familie", "children": [
+        { "label": "Vater, Mutter, Eltern" },
+        { "label": "Bruder, Schwester" },
+        { "label": "Geschwister" }
+      ] },
+      { "label": "Mer familie", "children": [
+        { "label": "Großeltern" },
+        { "label": "Onkel, Tante" },
+        { "label": "Cousin, Cousine" },
+        { "label": "Haustier" }
+      ] },
+      { "label": "Grammatikk", "children": [
+        { "label": "mein / meine" },
+        { "label": "Ich habe einen / eine / ein" },
+        { "label": "kein / keine" }
+      ] },
+      { "label": "Beskrive", "children": [
+        { "label": "groß / klein" },
+        { "label": "nett, lustig, sportlich" },
+        { "label": "Haare og Augen" }
+      ] },
+      { "label": "Venner", "children": [
+        { "label": "der Freund" },
+        { "label": "die Freundin" },
+        { "label": "Mein bester Freund …" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "«der Opa» betyr bestefar.", "correct": true, "explain": "Bestemor heter «die Oma»." },
+      { "id": "m02", "type": "sant-usant", "text": "«die Freundin» kan bety både venninne og kjæreste.", "correct": true, "explain": "Sammenhengen avgjør hva ordet betyr." },
+      { "id": "m03", "type": "sant-usant", "text": "Etter «Ich habe» heter det «ein Hund».", "correct": false, "explain": "Det heter «Ich habe einen Hund», fordi hankjønnsord får formen «einen»." },
+      { "id": "m04", "type": "sant-usant", "text": "«groß» betyr liten.", "correct": false, "explain": "«groß» betyr stor eller høy. Liten heter «klein»." },
+      { "id": "m05", "type": "flervalg", "text": "Hva betyr «meine Eltern»?", "options": ["Mine søsken", "Mine besteforeldre", "Mine foreldre", "Mine venner"], "correct": 2, "explain": "«Eltern» betyr foreldre." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilket ord betyr «snill» eller «hyggelig»?", "options": ["nett", "alt", "klein", "müde"], "correct": 0, "explain": "«müde» betyr trøtt, og «alt» betyr gammel." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilken artikkel har «Mutter»?", "options": ["der", "die", "das", "den"], "correct": 1, "explain": "«die Mutter» er hunkjønn." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
