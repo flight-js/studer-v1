@@ -6,6 +6,32 @@ Generert av `npm run content:check`. Ikke rediger for hånd.
 
 Alt innhold er skrevet med egne ord ut fra LK20-læreplanene. Før publisering bør en lærer lese gjennom hvert tema og sette status til «godkjent».
 
+## Matematikk (8) – 8 av 8 temaer ferdig
+
+Læreplan: [MAT01-06](https://www.udir.no/lk20/mat01-06/kompetansemaal-og-vurdering/kv1027)
+
+- 🟡 **Potenser og kvadratrøtter** – utkast (374 ord · 16 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+- 🟡 **Regnestrategier og regneregler** – utkast (405 ord · 15 kort · 10 quiz · 15 i miniprøve · 17 noder i tankekart)
+- 🟡 **Faktorisering og brøk** – utkast (415 ord · 16 kort · 10 quiz · 15 i miniprøve · 17 noder i tankekart)
+- 🟡 **Mønstre og algebraiske uttrykk** – utkast (367 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Likninger** – utkast (379 ord · 15 kort · 10 quiz · 15 i miniprøve · 17 noder i tankekart)
+- 🟡 **Ulikheter** – utkast (369 ord · 15 kort · 10 quiz · 15 i miniprøve · 17 noder i tankekart)
+- 🟡 **Funksjoner** – utkast (385 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Algoritmer og programmering** – utkast (365 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+
+## Matematikk (9) – 8 av 8 temaer ferdig
+
+Læreplan: [MAT01-06](https://www.udir.no/lk20/mat01-06/kompetansemaal-og-vurdering/kv1028)
+
+- 🟡 **Sammensatte måleenheter** – utkast (363 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Formlikhet og kongruens** – utkast (348 ord · 16 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Pytagoras' setning** – utkast (372 ord · 15 kort · 10 quiz · 15 i miniprøve · 16 noder i tankekart)
+- 🟡 **Overflate og volum** – utkast (355 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Sentralmål og spredningsmål** – utkast (362 ord · 15 kort · 10 quiz · 15 i miniprøve · 17 noder i tankekart)
+- 🟡 **Statistikk i media** – utkast (349 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Sannsynlighet** – utkast (379 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Simulering med programmering** – utkast (390 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+
 ## Kjemi 1 (vg2) – 11 av 11 temaer ferdig
 
 Læreplan: [KJE01-02](https://www.udir.no/lk20/kje01-02/kompetansemaal-og-vurdering/kv532)

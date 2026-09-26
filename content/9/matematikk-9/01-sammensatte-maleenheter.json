@@ -1,0 +1,80 @@
+{
+  "id": "sammensatte-maleenheter",
+  "fagId": "matematikk-9",
+  "trinnId": "9",
+  "name": "Sammensatte måleenheter",
+  "intro": "Fart, tetthet, pris per enhet og befolkningstetthet – enheter som består av to andre, og hvordan du regner og gjør om mellom dem.",
+  "kompetansemaal": [1],
+  "sammendrag": "## Hva er en sammensatt måleenhet?\n\nEn **sammensatt måleenhet** er laget av to andre enheter, som regel med «per» mellom seg. Kilometer per time (km/h) sier hvor mange kilometer noe beveger seg på én time, og kroner per kilo (kr/kg) sier hva ett kilo koster. Enheten forteller hvordan du skal regne: «per» betyr delt på.\n\n## Fart\n\n**Fart** er strekning delt på tid: v = s / t. En syklist som sykler 36 km på 2 timer, har farten 36 km / 2 h = 18 km/h. Formelen kan snus. Strekningen er s = v · t, og tiden er t = s / v.\n\nFart måles ofte i km/h eller m/s. For å gjøre om bruker vi at 1 km = 1000 m og 1 h = 3600 s:\n\n- 1 m/s = 3,6 km/h\n- Fra m/s til km/h: gang med 3,6. 20 m/s = 72 km/h.\n- Fra km/h til m/s: del på 3,6. 90 km/h = 25 m/s.\n\nNår tiden er oppgitt i minutter, må den ofte gjøres om til timer: 45 minutter = 0,75 h.\n\n## Tetthet\n\n**Tetthet** er masse delt på volum og måles ofte i gram per kubikkcentimeter (g/cm³). Vann har tetthet på omtrent 1 g/cm³, og jern omtrent 7,9 g/cm³. En gjenstand med lavere tetthet enn vann flyter. Har en stein masse 270 g og volum 100 cm³, er tettheten 270 g / 100 cm³ = 2,7 g/cm³.\n\n## Pris per enhet\n\n**Enhetspris** er pris delt på mengde, for eksempel kr/kg eller kr/L. Den gjør det lett å sammenligne tilbud. En pakke på 500 g til 45 kr koster 90 kr/kg, mens en pakke på 750 g til 60 kr koster 80 kr/kg. Den største pakken er billigst per kilo.\n\n## Andre eksempler\n\n- **Befolkningstetthet**: innbyggere per km².\n- **Strømforbruk**: kilowattimer (kWh) er effekt ganget med tid.\n- **Drivstofforbruk**: liter per mil.\n\n## Løse problemer\n\nEn god arbeidsmåte er å skrive enhetene med i utregningen. Da ser du om svaret får riktig enhet, og du oppdager om du har glemt å gjøre om. Lag gjerne egne oppgaver: «Hvor lang tid tar det å gå 6 km med farten 5 km/h?» (t = 6 / 5 = 1,2 h, altså 1 time og 12 minutter).",
+  "flashcards": [
+    { "term": "Sammensatt måleenhet", "def": "En enhet laget av to andre enheter med «per» imellom, for eksempel km/h eller kr/kg." },
+    { "term": "«Per»", "def": "Betyr delt på. 18 km/h betyr 18 km på hver time." },
+    { "term": "Fart", "def": "Strekning delt på tid: v = s / t." },
+    { "term": "Strekning fra fart", "def": "s = v · t. 60 km/h i 1,5 h gir 90 km." },
+    { "term": "Tid fra fart", "def": "t = s / v. 6 km med 5 km/h tar 1,2 h." },
+    { "term": "1 m/s", "def": "Er lik 3,6 km/h." },
+    { "term": "m/s til km/h", "def": "Gang med 3,6. 20 m/s = 72 km/h." },
+    { "term": "km/h til m/s", "def": "Del på 3,6. 90 km/h = 25 m/s." },
+    { "term": "Minutter til timer", "def": "Del på 60. 45 min = 0,75 h og 12 min = 0,2 h." },
+    { "term": "Tetthet", "def": "Masse delt på volum, ofte i g/cm³." },
+    { "term": "Tettheten til vann", "def": "Omtrent 1 g/cm³. Stoffer med lavere tetthet flyter i vann." },
+    { "term": "Enhetspris", "def": "Pris delt på mengde, for eksempel kr/kg eller kr/L. Brukes til å sammenligne tilbud." },
+    { "term": "Befolkningstetthet", "def": "Antall innbyggere per km²." },
+    { "term": "Kilowattime (kWh)", "def": "Enhet for energi: effekt i kilowatt ganget med tid i timer." },
+    { "term": "Enheter i utregningen", "def": "Skriv enhetene med når du regner, så ser du om svaret får riktig enhet." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "En syklist sykler 36 km på 2 timer. Hva er farten?", "options": ["72 km/h", "18 km/h", "34 km/h", "38 km/h"], "correct": 1, "explain": "Fart = strekning / tid = 36 km / 2 h = 18 km/h." },
+    { "id": "q02", "text": "Hva er 20 m/s i km/h?", "options": ["72 km/h", "5,6 km/h", "200 km/h", "20 km/h"], "correct": 0, "explain": "Fra m/s til km/h ganger vi med 3,6: 20 · 3,6 = 72 km/h." },
+    { "id": "q03", "text": "Hvor langt kjører en bil på 1,5 timer med farten 80 km/h?", "options": ["53 km", "81,5 km", "120 km", "160 km"], "correct": 2, "explain": "Strekning = fart · tid = 80 km/h · 1,5 h = 120 km." },
+    { "id": "q04", "text": "Hva er 45 minutter i timer?", "options": ["0,45 h", "4,5 h", "0,57 h", "0,75 h"], "correct": 3, "explain": "Del på 60: 45 / 60 = 0,75 h. Å skrive 0,45 h er en vanlig feil." },
+    { "id": "q05", "text": "En stein har masse 270 g og volum 100 cm³. Hva er tettheten?", "options": ["2,7 g/cm³", "27 000 g/cm³", "0,37 g/cm³", "170 g/cm³"], "correct": 0, "explain": "Tetthet = masse / volum = 270 g / 100 cm³ = 2,7 g/cm³." },
+    { "id": "q06", "text": "Hvilket tilbud er billigst per kilo?", "options": ["500 g for 45 kr", "250 g for 25 kr", "750 g for 60 kr", "1 kg for 95 kr"], "correct": 2, "explain": "Enhetsprisene er 90, 100, 80 og 95 kr/kg. 750 g for 60 kr gir 60 / 0,75 = 80 kr/kg." },
+    { "id": "q07", "text": "Hvor lang tid tar det å gå 6 km med farten 5 km/h?", "options": ["30 min", "1 time og 12 minutter", "1 time og 2 minutter", "1 time og 20 minutter"], "correct": 1, "explain": "t = s / v = 6 / 5 = 1,2 h. 0,2 h = 0,2 · 60 min = 12 min." },
+    { "id": "q08", "text": "Hva er 90 km/h i m/s?", "options": ["324 m/s", "90 m/s", "15 m/s", "25 m/s"], "correct": 3, "explain": "Fra km/h til m/s deler vi på 3,6: 90 / 3,6 = 25 m/s." },
+    { "id": "q09", "text": "Hvilken enhet passer for befolkningstetthet?", "options": ["Innbyggere per km²", "km² per innbygger", "Innbyggere · km", "km/h"], "correct": 0, "explain": "Befolkningstetthet sier hvor mange som bor på hver kvadratkilometer: innbyggere per km²." },
+    { "id": "q10", "text": "En kloss har tetthet 0,6 g/cm³. Hva skjer når den legges i vann?", "options": ["Den synker", "Den flyter", "Den løses opp", "Det kan ikke avgjøres"], "correct": 1, "explain": "Tettheten er lavere enn vannets, som er omtrent 1 g/cm³. Da flyter klossen." }
+  ],
+  "mindmap": {
+    "label": "Sammensatte måleenheter",
+    "children": [
+      { "label": "Fart", "children": [
+        { "label": "v = s / t" },
+        { "label": "s = v · t" },
+        { "label": "m/s ↔ km/h", "note": "Gang eller del med 3,6" }
+      ] },
+      { "label": "Tetthet", "children": [
+        { "label": "Masse / volum", "note": "g/cm³" },
+        { "label": "Vann ≈ 1 g/cm³" },
+        { "label": "Flyte eller synke" }
+      ] },
+      { "label": "Enhetspris", "children": [
+        { "label": "kr/kg og kr/L" },
+        { "label": "Sammenligne tilbud" }
+      ] },
+      { "label": "Andre", "children": [
+        { "label": "Befolkningstetthet", "note": "Innbyggere per km²" },
+        { "label": "kWh", "note": "Effekt · tid" },
+        { "label": "Liter per mil" }
+      ] },
+      { "label": "Arbeidsmåte", "children": [
+        { "label": "Skriv enhetene med" },
+        { "label": "Gjør om minutter til timer", "note": "Del på 60" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "«Per» i en enhet betyr at vi skal gange.", "correct": false, "explain": "«Per» betyr delt på. km/h betyr kilometer delt på timer." },
+      { "id": "m02", "type": "sant-usant", "text": "1 m/s er raskere enn 3 km/h.", "correct": true, "explain": "1 m/s = 3,6 km/h, som er litt mer enn 3 km/h." },
+      { "id": "m03", "type": "sant-usant", "text": "Den største pakken er alltid billigst per kilo.", "correct": false, "explain": "Ofte er det slik, men ikke alltid. Du må regne ut enhetsprisen for å være sikker." },
+      { "id": "m04", "type": "sant-usant", "text": "12 minutter er 0,2 timer.", "correct": true, "explain": "12 / 60 = 0,2. Altså er 12 minutter en femtedel av en time." },
+      { "id": "m05", "type": "flervalg", "text": "Et tog kjører 240 km på 3 timer. Hva er gjennomsnittsfarten?", "options": ["720 km/h", "80 km/h", "60 km/h", "243 km/h"], "correct": 1, "explain": "240 km / 3 h = 80 km/h." },
+      { "id": "m06", "type": "flervalg", "text": "En flaske med 1,5 L brus koster 30 kr. Hva er literprisen?", "options": ["45 kr/L", "20 kr/L", "15 kr/L", "31,5 kr/L"], "correct": 1, "explain": "Enhetspris = pris / mengde = 30 kr / 1,5 L = 20 kr/L." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er massen av 200 cm³ av et stoff med tetthet 2,5 g/cm³?", "options": ["80 g", "202,5 g", "500 g", "50 g"], "correct": 2, "explain": "Masse = tetthet · volum = 2,5 g/cm³ · 200 cm³ = 500 g." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

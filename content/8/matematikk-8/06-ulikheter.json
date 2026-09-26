@@ -1,0 +1,77 @@
+{
+  "id": "ulikheter",
+  "fagId": "matematikk-8",
+  "trinnId": "8",
+  "name": "Ulikheter",
+  "intro": "Ulikhetstegnene, hvordan du løser ulikheter nesten som likninger, den viktige regelen om å snu tegnet, og hvordan du viser løsningen på tallinja.",
+  "kompetansemaal": [7],
+  "sammendrag": "## Hva er en ulikhet?\n\nEn **ulikhet** sammenligner to uttrykk som ikke nødvendigvis er like store. Vi bruker fire tegn:\n\n- **<** betyr «mindre enn»: 3 < 7.\n- **>** betyr «større enn»: 10 > 4.\n- **≤** betyr «mindre enn eller lik».\n- **≥** betyr «større enn eller lik».\n\nEn huskeregel er at den åpne siden av tegnet alltid vender mot det største tallet. Ulikheten x > 2 betyr at x kan være alle tall større enn 2. Løsningen er derfor ikke ett tall, men en hel **mengde** av tall.\n\n## Løse ulikheter\n\nUlikheter løses nesten på samme måte som likninger. Du kan legge til eller trekke fra samme tall på begge sider, og du kan gange eller dele begge sider med samme **positive** tall uten at tegnet endres.\n\nEksempel: 2x + 3 < 11. Trekk fra 3: 2x < 8. Del på 2: x < 4.\n\n## Når tegnet må snus\n\nDen viktigste forskjellen fra likninger: Når du ganger eller deler begge sider med et **negativt** tall, må ulikhetstegnet snus. Vi ser hvorfor med et eksempel: 2 < 5 er sant. Ganger vi begge sider med −1, får vi −2 og −5. Men −2 er større enn −5, så det riktige blir −2 > −5.\n\nEksempel: −3x ≤ 12. Del på −3 og snu tegnet: x ≥ −4.\n\nDu kan også unngå å dele på et negativt tall ved å flytte x-leddet til den andre siden, slik at koeffisienten blir positiv.\n\n## Løsningen på tallinja\n\nLøsningen tegnes ofte på en **tallinje**. En åpen ring betyr at tallet ikke er med (ved < og >). En fylt prikk betyr at tallet er med (ved ≤ og ≥). En pil viser hvilken vei løsningen fortsetter. x ≥ −4 tegnes med fylt prikk på −4 og pil mot høyre.\n\n## Ulikheter i praksis og kontroll\n\nUlikheter passer når det er en grense: «Du har 200 kr og kjøper kinobilletter til 85 kr. Hvor mange har du råd til?» gir 85x ≤ 200 og x ≤ 2,35. Fordi billetter er hele tall, er svaret høyst 2 billetter. Kontroller alltid løsningen ved å teste et tall som skal være med og et som ikke skal være med. Sjekk også om løsningen er gyldig i situasjonen, for eksempel at antall ikke kan være negativt.",
+  "flashcards": [
+    { "term": "Ulikhet", "def": "Et utsagn som sammenligner to uttrykk med <, >, ≤ eller ≥ i stedet for =." },
+    { "term": "<", "def": "Mindre enn. 3 < 7 betyr at 3 er mindre enn 7." },
+    { "term": ">", "def": "Større enn. 10 > 4 betyr at 10 er større enn 4." },
+    { "term": "≤", "def": "Mindre enn eller lik. x ≤ 5 betyr at x kan være 5 eller alt som er mindre." },
+    { "term": "≥", "def": "Større enn eller lik. x ≥ −2 betyr at x kan være −2 eller alt som er større." },
+    { "term": "Huskeregel for tegnet", "def": "Den åpne siden av tegnet vender alltid mot det største tallet." },
+    { "term": "Løsningsmengde", "def": "Alle tallene som gjør ulikheten sann. For x > 2 er det alle tall større enn 2." },
+    { "term": "Snu tegnet", "def": "Når du ganger eller deler begge sider med et negativt tall, må ulikhetstegnet snus." },
+    { "term": "Hvorfor snu?", "def": "2 < 5, men ganget med −1 blir det −2 og −5, og −2 > −5." },
+    { "term": "Åpen ring på tallinja", "def": "Tallet er ikke med i løsningen. Brukes ved < og >." },
+    { "term": "Fylt prikk på tallinja", "def": "Tallet er med i løsningen. Brukes ved ≤ og ≥." },
+    { "term": "Positiv koeffisient", "def": "Flytt x-leddet slik at tallet foran x blir positivt, så slipper du å snu tegnet." },
+    { "term": "Teste løsningen", "def": "Sett inn ett tall som skal være med og ett som ikke skal være med, og se om ulikheten stemmer." },
+    { "term": "Gyldig løsning", "def": "En løsning som gir mening i situasjonen, for eksempel et helt, positivt antall billetter." },
+    { "term": "Høyst og minst", "def": "«Høyst 5» betyr x ≤ 5. «Minst 5» betyr x ≥ 5." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva betyr x ≥ 3?", "options": ["x er mindre enn 3", "x er større enn eller lik 3", "x er lik 3", "x er større enn 3, men ikke lik 3"], "correct": 1, "explain": "Tegnet ≥ betyr større enn eller lik. 3 er altså med i løsningen." },
+    { "id": "q02", "text": "Løs ulikheten x + 5 > 9.", "options": ["x > 14", "x < 4", "x > 4", "x = 4"], "correct": 2, "explain": "Trekk fra 5 på begge sider: x > 4. Tegnet endres ikke når du trekker fra et tall." },
+    { "id": "q03", "text": "Løs ulikheten 2x + 3 < 11.", "options": ["x < 4", "x > 4", "x < 7", "x < 8"], "correct": 0, "explain": "Trekk fra 3: 2x < 8. Del på 2 (et positivt tall): x < 4." },
+    { "id": "q04", "text": "Når må du snu ulikhetstegnet?", "options": ["Når du legger til et negativt tall", "Når du deler på et positivt tall", "Når du trekker fra et tall", "Når du ganger eller deler med et negativt tall"], "correct": 3, "explain": "Bare multiplikasjon og divisjon med negative tall snur rekkefølgen på tallene, og da må tegnet snus." },
+    { "id": "q05", "text": "Løs ulikheten −3x ≤ 12.", "options": ["x ≤ −4", "x ≥ −4", "x ≥ 4", "x ≤ 4"], "correct": 1, "explain": "Del på −3 og snu tegnet: x ≥ −4. Test x = 0: −3 · 0 = 0 ≤ 12, stemmer." },
+    { "id": "q06", "text": "Hvordan tegner du x < 2 på en tallinje?", "options": ["Åpen ring på 2 og pil mot venstre", "Fylt prikk på 2 og pil mot venstre", "Åpen ring på 2 og pil mot høyre", "Fylt prikk på 2 og pil mot høyre"], "correct": 0, "explain": "2 er ikke med (<), så ringen er åpen. Tallene mindre enn 2 ligger til venstre." },
+    { "id": "q07", "text": "Hvilket tall er en løsning av 4x − 1 > 7?", "options": ["x = 0", "x = 1", "x = 2", "x = 3"], "correct": 3, "explain": "4x − 1 > 7 gir 4x > 8 og x > 2. Bare x = 3 er større enn 2. For x = 2 blir 4 · 2 − 1 = 7, som ikke er større enn 7." },
+    { "id": "q08", "text": "Du har 200 kr, og en kinobillett koster 85 kr. Hvor mange billetter kan du høyst kjøpe?", "options": ["3", "2", "2,35", "1"], "correct": 1, "explain": "85x ≤ 200 gir x ≤ 2,35. Du kan bare kjøpe hele billetter, så svaret er høyst 2." },
+    { "id": "q09", "text": "Hvilket utsagn er sant?", "options": ["−7 > −2", "−3 < −5", "−1 > −4", "0 < −1"], "correct": 2, "explain": "På tallinja ligger −1 til høyre for −4, så −1 er størst. For negative tall er det nærmest null som er størst." },
+    { "id": "q10", "text": "«Du må være minst 15 år.» Hvilken ulikhet passer for alderen a?", "options": ["a ≥ 15", "a > 15", "a ≤ 15", "a < 15"], "correct": 0, "explain": "«Minst 15» betyr 15 eller mer, altså a ≥ 15. Den som akkurat har fylt 15, er med." }
+  ],
+  "mindmap": {
+    "label": "Ulikheter",
+    "children": [
+      { "label": "Tegn", "children": [
+        { "label": "<  og  >", "note": "Mindre enn / større enn" },
+        { "label": "≤  og  ≥", "note": "Tallet er med" },
+        { "label": "Huskeregel", "note": "Åpen side mot største tall" }
+      ] },
+      { "label": "Løse", "children": [
+        { "label": "Som likninger", "note": "Samme på begge sider" },
+        { "label": "Snu tegnet", "note": "Ved · eller : med negativt tall" },
+        { "label": "Løsningsmengde", "note": "Mange tall, ikke ett" }
+      ] },
+      { "label": "Tallinje", "children": [
+        { "label": "Åpen ring", "note": "Ikke med (<, >)" },
+        { "label": "Fylt prikk", "note": "Med (≤, ≥)" },
+        { "label": "Pil", "note": "Retning for løsningen" }
+      ] },
+      { "label": "I praksis", "children": [
+        { "label": "Høyst / minst", "note": "≤ / ≥" },
+        { "label": "Test løsningen", "note": "Et tall med, et tall utenfor" },
+        { "label": "Gyldighet", "note": "Hele tall, ikke negative" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q07", "q08", "q09"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Løsningen på en ulikhet er ofte mange tall, ikke bare ett.", "correct": true, "explain": "x > 2 er oppfylt av alle tall større enn 2, for eksempel 2,1, 3 og 100." },
+      { "id": "m02", "type": "sant-usant", "text": "Når du deler begge sider på 5, må du snu ulikhetstegnet.", "correct": false, "explain": "5 er positivt, så tegnet beholdes. Tegnet snus bare ved multiplikasjon eller divisjon med et negativt tall." },
+      { "id": "m03", "type": "sant-usant", "text": "−10 < −3.", "correct": true, "explain": "−10 ligger lenger til venstre på tallinja enn −3, og er derfor minst." },
+      { "id": "m04", "type": "sant-usant", "text": "x ≤ 6 tegnes med åpen ring på 6.", "correct": false, "explain": "Tegnet ≤ betyr at 6 er med i løsningen. Da brukes fylt prikk." },
+      { "id": "m05", "type": "flervalg", "text": "Løs ulikheten 5 − x > 2.", "options": ["x > 3", "x > −3", "x < 3", "x < −3"], "correct": 2, "explain": "Trekk fra 5: −x > −3. Gang med −1 og snu tegnet: x < 3. Test x = 0: 5 > 2, stemmer." },
+      { "id": "m06", "type": "flervalg", "text": "«Høyst 30 elever» kan skrives som", "options": ["e > 30", "e ≥ 30", "e < 30", "e ≤ 30"], "correct": 3, "explain": "Høyst 30 betyr 30 eller færre, altså e ≤ 30." },
+      { "id": "m07", "type": "flervalg", "text": "Løs ulikheten 3x − 4 ≥ 2x + 1.", "options": ["x ≥ 5", "x ≥ −3", "x ≤ 5", "x ≥ 1"], "correct": 0, "explain": "Trekk fra 2x: x − 4 ≥ 1. Legg til 4: x ≥ 5." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

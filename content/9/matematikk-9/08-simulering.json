@@ -1,0 +1,78 @@
+{
+  "id": "simulering",
+  "fagId": "matematikk-9",
+  "trinnId": "9",
+  "name": "Simulering med programmering",
+  "intro": "Hvordan du bruker tilfeldige tall og løkker i et program til å simulere tusenvis av forsøk og anslå sannsynligheter.",
+  "kompetansemaal": [11],
+  "sammendrag": "## Hva er en simulering?\n\nEn **simulering** er en etterligning av et virkelig forsøk. I stedet for å kaste en terning 10 000 ganger for hånd, lar vi en datamaskin gjøre det på et øyeblikk. Resultatet bruker vi til å regne ut **relativ frekvens**, som ifølge de store talls lov kommer nær den egentlige sannsynligheten når antall forsøk er stort.\n\nSimulering er særlig nyttig når sannsynligheten er vanskelig å regne ut direkte, for eksempel i spill med mange regler eller i forsøk med mange trinn.\n\n## Tilfeldige tall i Python\n\nI Python henter vi funksjoner for tilfeldige tall fra modulen **random**. Kommandoen randint(1, 6) gir et tilfeldig heltall fra og med 1 til og med 6, som et terningkast. Kommandoen random() gir et tilfeldig desimaltall mellom 0 og 1, og kan brukes til å simulere hendelser med kjent sannsynlighet: hvis random() < 0,3, har noe med sannsynlighet 30 % skjedd.\n\n## Oppbygningen av en simulering\n\nEn typisk simulering har fire deler:\n\n- En **teller** som starter på 0, for eksempel antall_seksere = 0.\n- En **løkke** som gjentar forsøket mange ganger, for eksempel 10 000.\n- En **betingelse** som sjekker om hendelsen skjedde, og øker telleren med 1 i så fall.\n- En **utregning** til slutt: telleren delt på antall forsøk.\n\nFor å simulere to terninger lager vi to tilfeldige tall i hver runde og sjekker for eksempel om summen er 7. Etter 10 000 runder bør den relative frekvensen ligge nær 1/6 ≈ 0,167.\n\n## Tolke resultatet\n\nEn simulering gir et **anslag**, ikke et eksakt svar. Kjører du programmet på nytt, får du et litt annet tall. Med 100 forsøk kan svaret variere mye, med 100 000 forsøk blir det stabilt. Derfor bør du kjøre simuleringen flere ganger og med ulike antall forsøk for å se hvor stor variasjonen er.\n\nNår det går an, bør du sammenligne simuleringen med den teoretiske sannsynligheten. Stemmer de godt overens, er det et tegn på at programmet er riktig. Er avviket stort, kan det være en feil i programmet, for eksempel at randint har fått feil grenser.\n\n## Eksempler på bruk\n\n- Hvor mange kast trengs i gjennomsnitt før du får en sekser?\n- Hvor sannsynlig er det at to i en klasse på 25 har samme bursdag?\n- Hvor ofte vinner den som begynner i et terningspill?\n\nSlike spørsmål er vanskelige å regne ut for hånd, men enkle å simulere.",
+  "flashcards": [
+    { "term": "Simulering", "def": "En etterligning av et virkelig forsøk, ofte gjentatt mange ganger ved hjelp av en datamaskin." },
+    { "term": "random-modulen", "def": "Python-modul med funksjoner for tilfeldige tall. Hentes med import random." },
+    { "term": "randint(1, 6)", "def": "Gir et tilfeldig heltall fra og med 1 til og med 6, som et terningkast." },
+    { "term": "random()", "def": "Gir et tilfeldig desimaltall mellom 0 og 1." },
+    { "term": "random() < 0,3", "def": "Er sant i omtrent 30 % av tilfellene. Brukes til å simulere en hendelse med sannsynlighet 0,3." },
+    { "term": "Teller", "def": "En variabel som starter på 0 og økes med 1 hver gang hendelsen skjer." },
+    { "term": "Antall forsøk", "def": "Hvor mange ganger løkka gjentar forsøket, for eksempel 10 000." },
+    { "term": "Relativ frekvens i simulering", "def": "Telleren delt på antall forsøk." },
+    { "term": "Anslag", "def": "Et omtrentlig svar. En simulering gir et anslag, ikke et eksakt svar." },
+    { "term": "Variasjon mellom kjøringer", "def": "Hver kjøring gir litt ulikt svar. Variasjonen blir mindre med flere forsøk." },
+    { "term": "Teoretisk sannsynlighet", "def": "Sannsynligheten regnet ut med gunstige/mulige. Kan brukes til å sjekke simuleringen." },
+    { "term": "Bursdagsproblemet", "def": "Sannsynligheten for at to i en gruppe har samme bursdag. Egnet for simulering." },
+    { "term": "Simulere to terninger", "def": "Lag to tilfeldige tall i hver runde og sjekk for eksempel summen." },
+    { "term": "Feil grenser", "def": "Vanlig programfeil, for eksempel randint(0, 6), som gir sju mulige tall i stedet for seks." },
+    { "term": "Når simulere?", "def": "Når sannsynligheten er vanskelig å regne ut direkte, som i spill med mange regler." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er en simulering?", "options": ["Et bevis for en formel", "En etterligning av et forsøk, ofte gjentatt mange ganger med datamaskin", "En tabell over alle utfall", "Et diagram"], "correct": 1, "explain": "I en simulering etterligner vi et virkelig forsøk, for eksempel et terningkast, og gjentar det mange ganger." },
+    { "id": "q02", "text": "Hvilke tall kan randint(1, 6) gi?", "options": ["0, 1, 2, 3, 4, 5", "Alle tall mellom 1 og 6, også desimaltall", "1, 2, 3, 4, 5, 6", "Bare 1 og 6"], "correct": 2, "explain": "randint gir heltall fra og med den første til og med den siste grensen." },
+    { "id": "q03", "text": "Hvorfor gjør vi mange forsøk i en simulering?", "options": ["For at relativ frekvens skal komme nær sannsynligheten", "For at programmet skal gå saktere", "Fordi Python krever det", "For å få et eksakt svar"], "correct": 0, "explain": "Etter de store talls lov blir den relative frekvensen mer stabil og nærmere sannsynligheten jo flere forsøk vi gjør." },
+    { "id": "q04", "text": "En simulering gir 1712 seksere på 10 000 kast. Hva er den relative frekvensen?", "options": ["1712", "0,01712", "17,12", "0,1712"], "correct": 3, "explain": "1712 / 10 000 = 0,1712, som ligger nær den teoretiske sannsynligheten 1/6 ≈ 0,167." },
+    { "id": "q05", "text": "Hva gjør vi med telleren hver gang hendelsen skjer?", "options": ["Setter den til 0", "Øker den med 1", "Deler den på 2", "Skriver den ut"], "correct": 1, "explain": "Telleren teller hvor mange ganger hendelsen har skjedd, så den økes med 1 hver gang." },
+    { "id": "q06", "text": "Du kjører samme simulering to ganger og får 0,164 og 0,169. Hva er mest sannsynlig?", "options": ["Programmet er feil", "Datamaskinen er ødelagt", "Det er vanlig variasjon mellom kjøringer", "Sannsynligheten har endret seg"], "correct": 2, "explain": "Simuleringer gir tilfeldige resultater, så små forskjeller mellom kjøringer er helt normale." },
+    { "id": "q07", "text": "Hvilken betingelse simulerer en hendelse med sannsynlighet 20 %?", "options": ["random() < 0,2", "random() > 0,2", "randint(1, 20) == 1", "random() == 0,2"], "correct": 0, "explain": "random() gir et tall mellom 0 og 1, og er mindre enn 0,2 i omtrent 20 % av tilfellene." },
+    { "id": "q08", "text": "En simulering av summen 7 med to terninger gir 0,25. Den teoretiske sannsynligheten er 1/6. Hva bør du gjøre?", "options": ["Stole på simuleringen", "Sjekke programmet for feil", "Senke antall forsøk", "Endre den teoretiske verdien"], "correct": 1, "explain": "0,25 er langt unna 1/6 ≈ 0,167. Med mange forsøk tyder et så stort avvik på en feil i programmet." },
+    { "id": "q09", "text": "Hvilken feil gjør at en simulert terning kan vise 0?", "options": ["Løkka er for kort", "Telleren starter på 0", "Antall forsøk er for lite", "randint(0, 6) i stedet for randint(1, 6)"], "correct": 3, "explain": "randint(0, 6) gir sju mulige tall, 0 til 6. En terning skal bare gi 1 til 6." },
+    { "id": "q10", "text": "Hvilket spørsmål egner seg best for simulering?", "options": ["Hva er 7 · 8?", "Hvor mange kast trengs i gjennomsnitt før du får en sekser?", "Hva er arealet av et kvadrat?", "Hva er medianen av tre tall?"], "correct": 1, "explain": "Antall kast før sekser er tilfeldig og varierer. En simulering med mange runder gir et godt anslag på gjennomsnittet." }
+  ],
+  "mindmap": {
+    "label": "Simulering",
+    "children": [
+      { "label": "Idé", "children": [
+        { "label": "Etterligne forsøk" },
+        { "label": "Mange gjentakelser" },
+        { "label": "De store talls lov" }
+      ] },
+      { "label": "Python", "children": [
+        { "label": "import random" },
+        { "label": "randint(1, 6)", "note": "Heltall 1–6" },
+        { "label": "random()", "note": "Tall mellom 0 og 1" }
+      ] },
+      { "label": "Oppbygning", "children": [
+        { "label": "Teller = 0" },
+        { "label": "Løkke", "note": "10 000 ganger" },
+        { "label": "if-betingelse", "note": "Øk telleren" },
+        { "label": "Teller / forsøk" }
+      ] },
+      { "label": "Tolke", "children": [
+        { "label": "Anslag, ikke eksakt" },
+        { "label": "Variasjon mellom kjøringer" },
+        { "label": "Sammenlign med teori", "note": "Avslører feil" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q07", "q08", "q09"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "En simulering gir alltid nøyaktig samme svar hver gang den kjøres.", "correct": false, "explain": "Simuleringer bruker tilfeldige tall, så svaret varierer litt fra kjøring til kjøring." },
+      { "id": "m02", "type": "sant-usant", "text": "Med 100 000 forsøk varierer resultatet vanligvis mindre enn med 100 forsøk.", "correct": true, "explain": "Flere forsøk gir mer stabile relative frekvenser." },
+      { "id": "m03", "type": "sant-usant", "text": "random() kan brukes til å simulere en hendelse med sannsynlighet 0,5.", "correct": true, "explain": "Betingelsen random() < 0,5 er sann omtrent halvparten av gangene, som et myntkast." },
+      { "id": "m04", "type": "sant-usant", "text": "Simulering kan bare brukes når vi allerede kjenner sannsynligheten.", "correct": false, "explain": "Simulering er nettopp nyttig når sannsynligheten er vanskelig å regne ut direkte." },
+      { "id": "m05", "type": "flervalg", "text": "Et program teller 4950 kron på 10 000 myntkast. Hva er den relative frekvensen?", "options": ["0,495", "4,95", "49,5", "0,0495"], "correct": 0, "explain": "4950 / 10 000 = 0,495, nær den teoretiske verdien 0,5." },
+      { "id": "m06", "type": "flervalg", "text": "Hva må telleren settes til før løkka starter?", "options": ["1", "10 000", "0", "Et tilfeldig tall"], "correct": 2, "explain": "Telleren skal telle fra null, så den settes til 0 før forsøkene begynner." },
+      { "id": "m07", "type": "flervalg", "text": "Hvordan simulerer du to terningkast i én runde?", "options": ["randint(2, 12)", "Lag to tilfeldige tall med randint(1, 6)", "randint(1, 6) · 2", "random() · 12"], "correct": 1, "explain": "To uavhengige tall gir riktig fordeling. randint(2, 12) gir alle summer like sannsynlige, og det stemmer ikke for to terninger." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

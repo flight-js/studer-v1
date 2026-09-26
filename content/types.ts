@@ -91,8 +91,9 @@ export type FagContent = {
   lareplan: {
     kode: string; // Udirs læreplankode, f.eks. "KJE01-02"
     url: string;
-    // Egne korte etiketter for kompetansemålene (ikke sitat), i Udirs rekkefølge
-    kompetansemaal: { nr: number; kort: string }[];
+    // Kompetansemålene i Udirs rekkefølge. «tekst» er Udirs ordlyd (læreplanen
+    // er forskrift og kan gjengis); «kort» er en valgfri egen kortversjon.
+    kompetansemaal: { nr: number; tekst: string; kort?: string }[];
   };
   temaer: string[]; // tema-id-er i anbefalt rekkefølge
 };

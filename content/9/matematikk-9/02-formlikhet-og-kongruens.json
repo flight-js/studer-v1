@@ -1,0 +1,357 @@
+{
+  "id": "formlikhet-og-kongruens",
+  "fagId": "matematikk-9",
+  "trinnId": "9",
+  "name": "Formlikhet og kongruens",
+  "intro": "Egenskaper ved trekanter og firkanter, når to figurer er kongruente eller formlike, og hvordan du bruker formlikhet og målestokk til å finne ukjente lengder.",
+  "kompetansemaal": [
+    2,
+    3,
+    5
+  ],
+  "sammendrag": "## Todimensjonale figurer\n\nEn **mangekant** er en lukket figur med rette sider. Summen av vinklene i en trekant er alltid 180°, og i en firkant 360°. Trekanter kan deles inn etter sidene (likesidet, likebeint, ulikesidet) eller etter vinklene (spissvinklet, rettvinklet, stumpvinklet). Blant firkantene finner vi kvadrat, rektangel, rombe, parallellogram og trapes, som har ulike egenskaper når det gjelder parallelle sider, like lange sider og rette vinkler. Et kvadrat er både et rektangel og en rombe.\n\n## Kongruens\n\nTo figurer er **kongruente** når de har nøyaktig samme form og størrelse. Du kan legge den ene oppå den andre slik at de dekker hverandre helt, eventuelt etter å ha snudd eller speilet den. Alle samsvarende sider og vinkler er like store.\n\nTo trekanter er kongruente hvis ett av disse kravene er oppfylt:\n\n- alle tre sidene er parvis like lange (SSS),\n- to sider og vinkelen mellom dem er like (SVS),\n- to vinkler og siden mellom dem er like (VSV).\n\n## Formlikhet\n\nTo figurer er **formlike** når de har samme form, men ikke nødvendigvis samme størrelse. Den ene er en forstørrelse eller forminskelse av den andre. Da er samsvarende vinkler like store, og forholdet mellom samsvarende sider er det samme. To trekanter er formlike allerede når to av vinklene er parvis like store, for da må også den tredje være lik.\n\nForholdet mellom samsvarende sider kalles **forstørrelsesfaktoren** eller målestokken. Er trekant ABC formlik med trekant DEF, gjelder DE/AB = EF/BC = DF/AC.\n\n## Finne ukjente lengder\n\nFormlikhet brukes til å måle ting vi ikke når. En pinne på 2 m kaster en skygge på 3 m. Samtidig kaster et tre en skygge på 18 m. Sollyset gir formlike trekanter, så treet er 2 · 18/3 = 12 m høyt.\n\n## Målestokk\n\nEt kart eller en tegning i **målestokk** 1 : 50 000 betyr at 1 cm på kartet er 50 000 cm = 500 m i virkeligheten. Kartet og landskapet er formlike.\n\n## Areal i formlike figurer\n\nNår alle lengder ganges med k, blir arealet k² ganger så stort. Dobler du sidene i et kvadrat, blir arealet fire ganger så stort. Det viser hvordan endrede forutsetninger påvirker løsningen.",
+  "flashcards": [
+    {
+      "term": "Vinkelsum i trekant",
+      "def": "Summen av vinklene i en trekant er alltid 180°."
+    },
+    {
+      "term": "Vinkelsum i firkant",
+      "def": "Summen av vinklene i en firkant er alltid 360°."
+    },
+    {
+      "term": "Likebeint trekant",
+      "def": "En trekant med to like lange sider. Vinklene ved grunnlinjen er like store."
+    },
+    {
+      "term": "Likesidet trekant",
+      "def": "En trekant der alle sidene er like lange og alle vinklene er 60°."
+    },
+    {
+      "term": "Parallellogram",
+      "def": "En firkant der begge par av motstående sider er parallelle."
+    },
+    {
+      "term": "Trapes",
+      "def": "En firkant med minst ett par parallelle sider."
+    },
+    {
+      "term": "Rombe",
+      "def": "En firkant der alle fire sider er like lange."
+    },
+    {
+      "term": "Kongruente figurer",
+      "def": "Figurer med nøyaktig samme form og størrelse. De dekker hverandre helt."
+    },
+    {
+      "term": "SSS, SVS, VSV",
+      "def": "Krav som gjør to trekanter kongruente: tre sider, to sider og vinkelen mellom, eller to vinkler og siden mellom."
+    },
+    {
+      "term": "Formlike figurer",
+      "def": "Figurer med samme form, men ulik størrelse. Vinklene er like og sidene har samme forhold."
+    },
+    {
+      "term": "Formlike trekanter",
+      "def": "To trekanter er formlike hvis to vinkler er parvis like store."
+    },
+    {
+      "term": "Samsvarende sider",
+      "def": "Sidene som ligger på samme plass i to formlike figurer, for eksempel motsatt av like vinkler."
+    },
+    {
+      "term": "Forstørrelsesfaktor",
+      "def": "Forholdet mellom samsvarende sider i formlike figurer."
+    },
+    {
+      "term": "Målestokk 1 : 50 000",
+      "def": "1 cm på kartet er 50 000 cm = 500 m i virkeligheten."
+    },
+    {
+      "term": "Areal ved forstørrelse",
+      "def": "Ganges alle lengder med k, blir arealet k² ganger så stort."
+    },
+    {
+      "term": "Skyggemetoden",
+      "def": "Sollys gir formlike trekanter. Høyden av et tre kan finnes fra skyggen til en kjent pinne."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "To vinkler i en trekant er 50° og 70°. Hvor stor er den tredje?",
+      "options": [
+        "50°",
+        "70°",
+        "60°",
+        "120°"
+      ],
+      "correct": 2,
+      "explain": "Vinkelsummen er 180°: 180° − 50° − 70° = 60°."
+    },
+    {
+      "id": "q02",
+      "text": "Hva betyr det at to figurer er kongruente?",
+      "options": [
+        "De har samme form og samme størrelse",
+        "De har samme form, men ulik størrelse",
+        "De har samme areal, men ulik form",
+        "De har like mange sider"
+      ],
+      "correct": 0,
+      "explain": "Kongruente figurer er helt like og kan legges oppå hverandre, eventuelt etter speiling."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er nok for å vite at to trekanter er formlike?",
+      "options": [
+        "At én side er lik",
+        "At arealet er likt",
+        "At to vinkler er parvis like store",
+        "At de er rettvinklede"
+      ],
+      "correct": 2,
+      "explain": "Er to vinkler like, blir også den tredje lik fordi summen er 180°. Da har trekantene samme form."
+    },
+    {
+      "id": "q04",
+      "text": "Trekant ABC er formlik med DEF. AB = 4 cm, DE = 10 cm og BC = 6 cm. Hvor lang er EF?",
+      "options": [
+        "12 cm",
+        "15 cm",
+        "2,4 cm",
+        "16 cm"
+      ],
+      "correct": 1,
+      "explain": "Forstørrelsesfaktoren er 10/4 = 2,5. EF = 6 · 2,5 = 15 cm."
+    },
+    {
+      "id": "q05",
+      "text": "En pinne på 2 m kaster en skygge på 3 m. Et tre kaster samtidig en skygge på 18 m. Hvor høyt er treet?",
+      "options": [
+        "27 m",
+        "9 m",
+        "12 m",
+        "36 m"
+      ],
+      "correct": 2,
+      "explain": "Forholdet høyde/skygge er det samme: 2/3 = h/18. Da er h = 2 · 18/3 = 12 m."
+    },
+    {
+      "id": "q06",
+      "text": "Et kart har målestokk 1 : 50 000. Hvor langt er 4 cm på kartet i virkeligheten?",
+      "options": [
+        "2 km",
+        "200 m",
+        "20 km",
+        "12,5 km"
+      ],
+      "correct": 0,
+      "explain": "4 cm · 50 000 = 200 000 cm = 2000 m = 2 km."
+    },
+    {
+      "id": "q07",
+      "text": "Sidene i et kvadrat dobles. Hva skjer med arealet?",
+      "options": [
+        "Det dobles",
+        "Det blir tre ganger så stort",
+        "Det blir åtte ganger så stort",
+        "Det blir fire ganger så stort"
+      ],
+      "correct": 3,
+      "explain": "Arealet ganges med k² = 2² = 4. Et kvadrat med side 3 har areal 9, med side 6 har det areal 36."
+    },
+    {
+      "id": "q08",
+      "text": "Hvilken firkant har alle sider like lange, men ikke nødvendigvis rette vinkler?",
+      "options": [
+        "Rektangel",
+        "Trapes",
+        "Parallellogram",
+        "Rombe"
+      ],
+      "correct": 3,
+      "explain": "En rombe har fire like lange sider. Hvis vinklene i tillegg er rette, er den et kvadrat."
+    },
+    {
+      "id": "q09",
+      "text": "Hvilket krav gir IKKE sikker kongruens mellom to trekanter?",
+      "options": [
+        "SSS",
+        "SVS",
+        "Tre like vinkler",
+        "VSV"
+      ],
+      "correct": 2,
+      "explain": "Tre like vinkler gir bare formlikhet. Trekantene kan ha samme form, men være forskjellig store."
+    },
+    {
+      "id": "q10",
+      "text": "En modell av et hus er i målestokk 1 : 100. Huset er 12 m høyt. Hvor høy er modellen?",
+      "options": [
+        "1,2 cm",
+        "12 cm",
+        "120 cm",
+        "0,12 cm"
+      ],
+      "correct": 1,
+      "explain": "12 m = 1200 cm. Del på 100: 1200 cm / 100 = 12 cm."
+    }
+  ],
+  "mindmap": {
+    "label": "Formlikhet og kongruens",
+    "children": [
+      {
+        "label": "Figurer",
+        "children": [
+          {
+            "label": "Trekanter",
+            "note": "Vinkelsum 180°"
+          },
+          {
+            "label": "Firkanter",
+            "note": "Vinkelsum 360°"
+          },
+          {
+            "label": "Kvadrat, rektangel, rombe, trapes"
+          }
+        ]
+      },
+      {
+        "label": "Kongruens",
+        "children": [
+          {
+            "label": "Samme form og størrelse"
+          },
+          {
+            "label": "SSS"
+          },
+          {
+            "label": "SVS"
+          },
+          {
+            "label": "VSV"
+          }
+        ]
+      },
+      {
+        "label": "Formlikhet",
+        "children": [
+          {
+            "label": "Samme form, ulik størrelse"
+          },
+          {
+            "label": "Like vinkler",
+            "note": "To er nok i trekanter"
+          },
+          {
+            "label": "Sider i samme forhold"
+          }
+        ]
+      },
+      {
+        "label": "Bruk",
+        "children": [
+          {
+            "label": "Ukjente lengder",
+            "note": "Skyggemetoden"
+          },
+          {
+            "label": "Målestokk",
+            "note": "Kart og modeller"
+          },
+          {
+            "label": "Areal",
+            "note": "Ganges med k²"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q09"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Alle kongruente figurer er også formlike.",
+        "correct": true,
+        "explain": "Kongruente figurer har samme form, og forstørrelsesfaktoren er 1."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Alle rektangler er formlike med hverandre.",
+        "correct": false,
+        "explain": "Vinklene er like, men forholdet mellom sidene kan være ulikt. Et 2 × 4-rektangel og et 3 × 3-kvadrat er ikke formlike."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Alle vinklene i en likesidet trekant er 60°.",
+        "correct": true,
+        "explain": "Vinklene er like store og summen er 180°, så hver vinkel er 180° / 3 = 60°."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Målestokk 1 : 100 betyr at 1 cm på tegningen er 100 m i virkeligheten.",
+        "correct": false,
+        "explain": "1 cm på tegningen er 100 cm = 1 m i virkeligheten."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Tre vinkler i en firkant er 90°, 90° og 100°. Hvor stor er den fjerde?",
+        "options": [
+          "80°",
+          "90°",
+          "100°",
+          "180°"
+        ],
+        "correct": 0,
+        "explain": "Vinkelsummen er 360°: 360° − 90° − 90° − 100° = 80°."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "En trekant har sidene 3, 4 og 5 cm. En formlik trekant har korteste side 9 cm. Hvor lang er lengste side?",
+        "options": [
+          "11 cm",
+          "15 cm",
+          "12 cm",
+          "25 cm"
+        ],
+        "correct": 1,
+        "explain": "Forstørrelsesfaktoren er 9/3 = 3. Lengste side blir 5 · 3 = 15 cm."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Alle lengder i en figur ganges med 3. Hvor mange ganger større blir arealet?",
+        "options": [
+          "3",
+          "6",
+          "27",
+          "9"
+        ],
+        "correct": 3,
+        "explain": "Arealet ganges med 3² = 9."
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
+}

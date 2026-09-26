@@ -86,6 +86,8 @@ function checkTema(file, tema, fag) {
   if (tema.trinnId !== fag.trinnId) err(where, `trinnId «${tema.trinnId}» ≠ «${fag.trinnId}»`);
 
   const kmNr = new Set(fag.lareplan.kompetansemaal.map((k) => k.nr));
+  for (const k of fag.lareplan.kompetansemaal)
+    if (!nonEmpty(k.tekst)) warn(where, `kompetansemål ${k.nr} mangler tekst fra læreplanen`);
   if (!Array.isArray(tema.kompetansemaal) || tema.kompetansemaal.length === 0)
     err(where, "mangler kompetansemål");
   else for (const nr of tema.kompetansemaal) if (!kmNr.has(nr)) err(where, `ukjent kompetansemål ${nr}`);

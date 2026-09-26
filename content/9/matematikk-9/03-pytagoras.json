@@ -1,0 +1,76 @@
+{
+  "id": "pytagoras",
+  "fagId": "matematikk-9",
+  "trinnId": "9",
+  "name": "Pytagoras' setning",
+  "intro": "Sammenhengen mellom sidene i en rettvinklet trekant, hvordan du finner en ukjent side, og hvordan setningen brukes i praktiske situasjoner.",
+  "kompetansemaal": [3, 4, 5],
+  "sammendrag": "## Den rettvinklede trekanten\n\nI en **rettvinklet trekant** er én av vinklene 90°. De to sidene som danner den rette vinkelen, kalles **kateter**. Den lengste siden, som ligger rett overfor den rette vinkelen, kalles **hypotenusen**.\n\n## Pytagoras' setning\n\n**Pytagoras' setning** sier at i en rettvinklet trekant er summen av kvadratene av katetene lik kvadratet av hypotenusen:\n\na² + b² = c²\n\nher er a og b katetene og c hypotenusen. Geometrisk betyr det at hvis vi tegner et kvadrat på hver side av trekanten, er arealet av de to små kvadratene til sammen like stort som arealet av det store.\n\n## Finne hypotenusen\n\nEn trekant har kateter på 6 cm og 8 cm. Da er c² = 6² + 8² = 36 + 64 = 100, og c = √100 = 10 cm.\n\n## Finne en katet\n\nKjenner du hypotenusen og én katet, trekker du fra: a² = c² − b². Er hypotenusen 13 cm og den ene kateten 5 cm, blir a² = 169 − 25 = 144 og a = 12 cm. En vanlig feil er å legge sammen også her. Husk at hypotenusen alltid er den lengste siden, så svaret må bli kortere enn hypotenusen.\n\n## Pytagoreiske tripler\n\nNoen sett med hele tall passer nøyaktig i setningen, for eksempel 3, 4, 5 og 5, 12, 13 og 8, 15, 17. Ganger du et slikt sett med samme tall, får du nye: 6, 8, 10 og 9, 12, 15.\n\n## Sjekke om en vinkel er rett\n\nSetningen gjelder også motsatt vei. Hvis a² + b² = c² for sidene i en trekant, er trekanten rettvinklet. Håndverkere bruker dette når de setter opp hjørner: de måler 3 m langs den ene veggen og 4 m langs den andre. Er avstanden mellom merkene 5 m, er hjørnet rett. Er c² større enn a² + b², er vinkelen stump, og er c² mindre, er den spiss.\n\n## Praktiske bruksområder\n\n- Lengden av en stige som står mot en vegg.\n- Diagonalen i et rektangel, for eksempel skjermstørrelse på en TV.\n- Korteste avstand på skrå over en fotballbane.\n- Avstanden mellom to punkter i et koordinatsystem.\n\nTegn alltid en skisse, marker den rette vinkelen og finn ut hvilken side som er hypotenusen før du regner. Vurder til slutt om svaret er rimelig.",
+  "flashcards": [
+    { "term": "Rettvinklet trekant", "def": "En trekant der én vinkel er 90°." },
+    { "term": "Katet", "def": "En av de to sidene som danner den rette vinkelen i en rettvinklet trekant." },
+    { "term": "Hypotenus", "def": "Den lengste siden i en rettvinklet trekant, rett overfor den rette vinkelen." },
+    { "term": "Pytagoras' setning", "def": "a² + b² = c², der a og b er katetene og c er hypotenusen." },
+    { "term": "Finne hypotenusen", "def": "c = √(a² + b²). Katetene 6 og 8 gir c = √100 = 10." },
+    { "term": "Finne en katet", "def": "a = √(c² − b²). Hypotenus 13 og katet 5 gir a = √144 = 12." },
+    { "term": "Kvadrater på sidene", "def": "Arealene av kvadratene på katetene er til sammen like store som kvadratet på hypotenusen." },
+    { "term": "Pytagoreisk trippel", "def": "Tre hele tall som passer i a² + b² = c², for eksempel 3, 4, 5 og 5, 12, 13." },
+    { "term": "3-4-5-regelen", "def": "Måler du 3 og 4 langs to vegger og avstanden er 5, er hjørnet rett." },
+    { "term": "Omvendt Pytagoras", "def": "Hvis a² + b² = c² for sidene i en trekant, er trekanten rettvinklet." },
+    { "term": "Stump vinkel", "def": "Hvis c² > a² + b², er vinkelen overfor c stump (over 90°)." },
+    { "term": "Diagonal i rektangel", "def": "Deler rektangelet i to rettvinklede trekanter. d = √(l² + b²)." },
+    { "term": "Avstand i koordinatsystem", "def": "Avstanden mellom to punkter er hypotenusen i en trekant med sidene Δx og Δy." },
+    { "term": "Kontroll av svar", "def": "Hypotenusen skal alltid være lengst. En katet må derfor bli kortere enn hypotenusen." },
+    { "term": "Skisse", "def": "Tegn trekanten, marker den rette vinkelen og finn hypotenusen før du regner." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva kalles den lengste siden i en rettvinklet trekant?", "options": ["Katet", "Diagonal", "Hypotenus", "Grunnlinje"], "correct": 2, "explain": "Hypotenusen ligger rett overfor den rette vinkelen og er alltid den lengste siden." },
+    { "id": "q02", "text": "Katetene er 6 cm og 8 cm. Hvor lang er hypotenusen?", "options": ["14 cm", "10 cm", "48 cm", "100 cm"], "correct": 1, "explain": "c² = 36 + 64 = 100, og c = √100 = 10 cm. 100 er c², ikke c." },
+    { "id": "q03", "text": "Hypotenusen er 13 cm og den ene kateten 5 cm. Hvor lang er den andre kateten?", "options": ["12 cm", "8 cm", "13,9 cm", "18 cm"], "correct": 0, "explain": "a² = 13² − 5² = 169 − 25 = 144, så a = 12 cm." },
+    { "id": "q04", "text": "Hvilke tall er en pytagoreisk trippel?", "options": ["2, 3, 4", "4, 5, 6", "5, 12, 13", "6, 7, 8"], "correct": 2, "explain": "5² + 12² = 25 + 144 = 169 = 13². De andre settene passer ikke." },
+    { "id": "q05", "text": "En trekant har sidene 7, 24 og 25. Er den rettvinklet?", "options": ["Nei, 7 + 24 er ikke 25", "Det kan ikke avgjøres uten vinkelmåler", "Nei, sidene er for ulike", "Ja, fordi 7² + 24² = 25²"], "correct": 3, "explain": "49 + 576 = 625 = 25². Når setningen stemmer, er trekanten rettvinklet." },
+    { "id": "q06", "text": "En stige på 5 m står 3 m fra en vegg. Hvor høyt opp på veggen når den?", "options": ["2 m", "4 m", "8 m", "5,8 m"], "correct": 1, "explain": "Stigen er hypotenusen. h² = 5² − 3² = 25 − 9 = 16, så h = 4 m." },
+    { "id": "q07", "text": "Et rektangel er 9 cm langt og 12 cm bredt. Hvor lang er diagonalen?", "options": ["21 cm", "10,5 cm", "15 cm", "225 cm"], "correct": 2, "explain": "Diagonalen er hypotenusen: d² = 81 + 144 = 225, og d = 15 cm." },
+    { "id": "q08", "text": "Du finner en katet og får 15 cm, men hypotenusen er 13 cm. Hva har skjedd?", "options": ["Du har lagt sammen i stedet for å trekke fra", "Svaret er riktig", "Trekanten er stumpvinklet", "Du har glemt å ta kvadratroten"], "correct": 0, "explain": "En katet må være kortere enn hypotenusen. Et for stort svar tyder på at du la sammen kvadratene i stedet for å trekke fra." },
+    { "id": "q09", "text": "Hva er avstanden mellom punktene (1, 1) og (4, 5)?", "options": ["7", "3", "4", "5"], "correct": 3, "explain": "Δx = 3 og Δy = 4. Avstanden er √(3² + 4²) = √25 = 5." },
+    { "id": "q10", "text": "En snekker måler 3 m og 4 m langs to vegger. Avstanden mellom merkene er 5,2 m. Hva betyr det?", "options": ["Hjørnet er nøyaktig rett", "Vinkelen er litt større enn 90°", "Vinkelen er litt mindre enn 90°", "Veggene er parallelle"], "correct": 1, "explain": "5,2² = 27,04 er større enn 3² + 4² = 25. Da er vinkelen stump, altså litt over 90°." }
+  ],
+  "mindmap": {
+    "label": "Pytagoras' setning",
+    "children": [
+      { "label": "Trekanten", "children": [
+        { "label": "Rett vinkel", "note": "90°" },
+        { "label": "Kateter", "note": "Danner den rette vinkelen" },
+        { "label": "Hypotenus", "note": "Lengst, overfor 90°" }
+      ] },
+      { "label": "Setningen", "children": [
+        { "label": "a² + b² = c²" },
+        { "label": "Kvadrater på sidene", "note": "Arealtolkning" }
+      ] },
+      { "label": "Regne", "children": [
+        { "label": "Hypotenus", "note": "c = √(a² + b²)" },
+        { "label": "Katet", "note": "a = √(c² − b²)" },
+        { "label": "Tripler", "note": "3-4-5, 5-12-13" }
+      ] },
+      { "label": "Bruk", "children": [
+        { "label": "Sjekke rett vinkel", "note": "3-4-5-regelen" },
+        { "label": "Stiger og diagonaler" },
+        { "label": "Avstand mellom punkter" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q05", "q06", "q07", "q09", "q10"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Pytagoras' setning gjelder for alle trekanter.", "correct": false, "explain": "Setningen gjelder bare for rettvinklede trekanter." },
+      { "id": "m02", "type": "sant-usant", "text": "Hypotenusen ligger rett overfor den rette vinkelen.", "correct": true, "explain": "Det er derfor hypotenusen alltid er den lengste siden." },
+      { "id": "m03", "type": "sant-usant", "text": "6, 8 og 10 er en pytagoreisk trippel.", "correct": true, "explain": "36 + 64 = 100 = 10². Settet er 3, 4, 5 ganget med 2." },
+      { "id": "m04", "type": "sant-usant", "text": "I en rettvinklet trekant med kateter 1 og 1 er hypotenusen 2.", "correct": false, "explain": "c² = 1 + 1 = 2, så c = √2 ≈ 1,41." },
+      { "id": "m05", "type": "flervalg", "text": "En TV har bredde 80 cm og høyde 60 cm. Hvor lang er diagonalen?", "options": ["140 cm", "100 cm", "70 cm", "120 cm"], "correct": 1, "explain": "d² = 80² + 60² = 6400 + 3600 = 10 000, og d = 100 cm." },
+      { "id": "m06", "type": "flervalg", "text": "Hypotenusen er 10 og én katet er 6. Hva er arealet av trekanten?", "options": ["30", "60", "24", "48"], "correct": 2, "explain": "Den andre kateten er √(100 − 36) = 8. Arealet er 6 · 8 / 2 = 24." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilken trekant er stumpvinklet?", "options": ["3, 4, 6", "3, 4, 5", "5, 12, 13", "4, 4, 5"], "correct": 0, "explain": "6² = 36 er større enn 3² + 4² = 25. Da er vinkelen overfor den lengste siden stump." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

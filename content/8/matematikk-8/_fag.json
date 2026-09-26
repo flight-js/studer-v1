@@ -1,0 +1,61 @@
+{
+  "id": "matematikk-8",
+  "trinnId": "8",
+  "name": "Matematikk",
+  "lareplan": {
+    "kode": "MAT01-06",
+    "url": "https://www.udir.no/lk20/mat01-06/kompetansemaal-og-vurdering/kv1027",
+    "kompetansemaal": [
+      {
+        "nr": 1,
+        "tekst": "rekne med potensar og kvadratrøter og forklare framgangsmåtar og resultat"
+      },
+      {
+        "nr": 2,
+        "tekst": "bruke kommutative, assosiative og distributive eigenskapar til å utvikle og kommunisere strategiar for hovudrekning og skriftleg rekning"
+      },
+      {
+        "nr": 3,
+        "tekst": "beskrive og utforske faktorisering og primtalsfaktorisering og bruke det i brøkrekning"
+      },
+      {
+        "nr": 4,
+        "tekst": "utforske og generalisere geometriske mønster og tallmønster med eigne ord og algebraisk"
+      },
+      {
+        "nr": 5,
+        "tekst": "lage og forklare rekneuttrykk med tal, variablar og konstantar knytte til praktiske situasjonar"
+      },
+      {
+        "nr": 6,
+        "tekst": "lage og løyse likningar knytte til praktiske situasjonar og kritisk vurdere løysingar"
+      },
+      {
+        "nr": 7,
+        "tekst": "bruke ulike strategiar for å løyse ulikskapar og vurdere om løysingar er gyldige"
+      },
+      {
+        "nr": 8,
+        "tekst": "beskrive, samanlikne og utforske funksjonar knytte til praktiske situasjonar"
+      },
+      {
+        "nr": 9,
+        "tekst": "bruke situasjonar, tabellar, grafar og uttrykk til å representere funksjonar og vise samanhengar mellom representasjonane"
+      },
+      {
+        "nr": 10,
+        "tekst": "utforske korleis algoritmar kan skapast, testast og forbetrast ved hjelp av programmering"
+      }
+    ]
+  },
+  "temaer": [
+    "potenser-og-kvadratrotter",
+    "regnestrategier",
+    "faktorisering-og-brok",
+    "monstre-og-algebra",
+    "likninger",
+    "ulikheter",
+    "funksjoner",
+    "algoritmer-og-programmering"
+  ]
+}

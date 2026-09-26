@@ -1,0 +1,65 @@
+{
+  "id": "matematikk-9",
+  "trinnId": "9",
+  "name": "Matematikk",
+  "lareplan": {
+    "kode": "MAT01-06",
+    "url": "https://www.udir.no/lk20/mat01-06/kompetansemaal-og-vurdering/kv1028",
+    "kompetansemaal": [
+      {
+        "nr": 1,
+        "tekst": "lage og løyse problem som handlar om samansette måleiningar"
+      },
+      {
+        "nr": 2,
+        "tekst": "utforske eigenskapane ved ulike todimensjonale figurar og forklare omgrepa formlikskap og kongruens"
+      },
+      {
+        "nr": 3,
+        "tekst": "bruke formlikskap og læresetninga til Pytagoras til utforsking av praktiske situasjonar"
+      },
+      {
+        "nr": 4,
+        "tekst": "utforske, beskrive og argumentere for samanhengar mellom sidelengdene i trekantar"
+      },
+      {
+        "nr": 5,
+        "tekst": "utforske og argumentere for korleis det å endre føresetnader i geometriske problemstillingar påverkar løysingar både praktisk og algebraisk"
+      },
+      {
+        "nr": 6,
+        "tekst": "bruke og argumentere for formlar for overflateareal og volum av tredimensjonale figurar"
+      },
+      {
+        "nr": 7,
+        "tekst": "tolke og kritisk vurdere statistiske framstillingar frå media og lokalsamfunnet"
+      },
+      {
+        "nr": 8,
+        "tekst": "rekne på sentralmål og spreiingsmål i eigne og reelle datasett og bruke resultata til å beskrive dataa"
+      },
+      {
+        "nr": 9,
+        "tekst": "samanlikne og argumentere for korleis framstillingar av tal og data kan brukast for å fremje ulike synspunkt"
+      },
+      {
+        "nr": 10,
+        "tekst": "berekne og vurdere sannsyn i statistikk og spel"
+      },
+      {
+        "nr": 11,
+        "tekst": "simulere utfall i tilfeldige forsøk og berekne sannsynet for at noko skal inntreffe, ved å bruke programmering"
+      }
+    ]
+  },
+  "temaer": [
+    "sammensatte-maleenheter",
+    "formlikhet-og-kongruens",
+    "pytagoras",
+    "overflate-og-volum",
+    "sentralmal-og-spredning",
+    "statistikk-i-media",
+    "sannsynlighet",
+    "simulering"
+  ]
+}

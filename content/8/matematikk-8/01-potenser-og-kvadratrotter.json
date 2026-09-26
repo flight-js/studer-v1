@@ -1,0 +1,84 @@
+{
+  "id": "potenser-og-kvadratrotter",
+  "fagId": "matematikk-8",
+  "trinnId": "8",
+  "name": "Potenser og kvadratrøtter",
+  "intro": "Hva en potens er, regnereglene for potenser, tall på standardform og hvordan du finner og anslår kvadratrøtter.",
+  "kompetansemaal": [1],
+  "sammendrag": "## Hva er en potens?\n\nEn **potens** er en kort måte å skrive gjentatt multiplikasjon på. I 2⁵ er 2 **grunntallet** og 5 **eksponenten**. Eksponenten forteller hvor mange ganger grunntallet skal ganges med seg selv: 2⁵ = 2 · 2 · 2 · 2 · 2 = 32. Vi leser det som «2 opphøyd i femte». Et helt tall opphøyd i andre kalles et **kvadrattall**, fordi 5² er arealet av et kvadrat med side 5. Et helt tall opphøyd i tredje kalles et **kubikktall**, fordi 3³ er volumet av en terning med side 3.\n\n## Regneregler for potenser\n\nNår potensene har samme grunntall, kan vi forenkle:\n\n- Ved multiplikasjon legger vi sammen eksponentene: 3² · 3⁴ = 3⁶.\n- Ved divisjon trekker vi eksponentene fra hverandre: 5⁷ : 5³ = 5⁴.\n- Når en potens opphøyes i en ny eksponent, ganger vi eksponentene: (2³)² = 2⁶.\n- Alle tall unntatt 0 opphøyd i null er 1: 7⁰ = 1.\n\nPass på fortegnet. (−3)² = 9 fordi hele parentesen ganges med seg selv, men −3² = −9 fordi potensen regnes ut før minustegnet brukes.\n\n## Tierpotenser og standardform\n\nTierpotenser gjør det lettere å skrive store tall: 10³ = 1000 og 10⁶ = 1 000 000. Eksponenten viser hvor mange nuller som kommer etter 1-tallet. Et tall på **standardform** skrives som et tall mellom 1 og 10 ganget med en tierpotens. For eksempel er 4 200 000 = 4,2 · 10⁶. Standardform brukes mye i naturfag, der tallene ofte er svært store.\n\n## Kvadratrøtter\n\n**Kvadratroten** av et tall er det positive tallet som ganget med seg selv gir tallet. √49 = 7 fordi 7 · 7 = 49. Å ta kvadratroten er altså det motsatte av å opphøye i andre. Er tallet ikke et kvadrattall, blir kvadratroten et desimaltall som ikke går opp, for eksempel √2 ≈ 1,41. Da kan du anslå svaret ved å finne de nærmeste kvadrattallene: √30 ligger mellom 5 og 6 fordi 25 < 30 < 36.\n\n## Rekkefølge og forklaring\n\nI regnestykker regner vi først ut parenteser, så potenser og røtter, så multiplikasjon og divisjon, og til slutt addisjon og subtraksjon. Når du forklarer en framgangsmåte, bør du vise hvert steg, for eksempel ved å skrive potensen som gjentatt multiplikasjon eller si hvilken regneregel du bruker.",
+  "flashcards": [
+    { "term": "Potens", "def": "En kort skrivemåte for gjentatt multiplikasjon, for eksempel 2⁵ = 2 · 2 · 2 · 2 · 2." },
+    { "term": "Grunntall", "def": "Tallet som ganges med seg selv i en potens. I 4³ er grunntallet 4." },
+    { "term": "Eksponent", "def": "Det lille tallet oppe til høyre i en potens. Det viser hvor mange ganger grunntallet ganges med seg selv." },
+    { "term": "Kvadrattall", "def": "Et helt tall opphøyd i andre, for eksempel 1, 4, 9, 16, 25 og 36." },
+    { "term": "Kubikktall", "def": "Et helt tall opphøyd i tredje, for eksempel 8 = 2³ og 27 = 3³." },
+    { "term": "aᵐ · aⁿ", "def": "Ved multiplikasjon av potenser med samme grunntall legges eksponentene sammen: aᵐ · aⁿ = aᵐ⁺ⁿ." },
+    { "term": "aᵐ : aⁿ", "def": "Ved divisjon av potenser med samme grunntall trekkes eksponentene fra hverandre: aᵐ : aⁿ = aᵐ⁻ⁿ." },
+    { "term": "(aᵐ)ⁿ", "def": "En potens opphøyd i en ny eksponent: eksponentene ganges. (2³)² = 2⁶." },
+    { "term": "a⁰", "def": "Alle tall unntatt 0 opphøyd i null er lik 1. For eksempel er 7⁰ = 1." },
+    { "term": "Tierpotens", "def": "En potens med grunntall 10. Eksponenten viser antall nuller: 10⁴ = 10 000." },
+    { "term": "Standardform", "def": "Et tall skrevet som a · 10ⁿ, der a er mellom 1 og 10. For eksempel er 350 000 = 3,5 · 10⁵." },
+    { "term": "Kvadratrot", "def": "Det positive tallet som ganget med seg selv gir tallet. √36 = 6 fordi 6 · 6 = 36." },
+    { "term": "(−3)² og −3²", "def": "(−3)² = 9 fordi parentesen tar med minustegnet. −3² = −9 fordi bare 3 opphøyes." },
+    { "term": "Anslå en kvadratrot", "def": "Finn de to nærmeste kvadrattallene. √50 ligger mellom 7 og 8 fordi 49 < 50 < 64." },
+    { "term": "Regnerekkefølge", "def": "Parenteser først, så potenser og røtter, så multiplikasjon og divisjon, og til slutt addisjon og subtraksjon." },
+    { "term": "Opphøye i andre", "def": "Å gange et tall med seg selv. Det motsatte er å ta kvadratroten." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er 3⁴?", "options": ["12", "81", "64", "27"], "correct": 1, "explain": "3⁴ = 3 · 3 · 3 · 3 = 81. Svaret 12 får du hvis du ganger grunntallet med eksponenten, og det er en vanlig feil." },
+    { "id": "q02", "text": "Hvilken potens er det samme som 5 · 5 · 5?", "options": ["5³", "3⁵", "15", "5 · 3"], "correct": 0, "explain": "Grunntallet 5 ganges med seg selv tre ganger, så eksponenten er 3: 5 · 5 · 5 = 5³ = 125." },
+    { "id": "q03", "text": "Forenkle 2³ · 2⁴.", "options": ["2¹²", "4⁷", "2⁷", "2¹"], "correct": 2, "explain": "Potensene har samme grunntall, så eksponentene legges sammen: 3 + 4 = 7. Grunntallet endres ikke." },
+    { "id": "q04", "text": "Hva er 10⁶?", "options": ["60", "100 000", "10 000 000", "1 000 000"], "correct": 3, "explain": "Eksponenten 6 betyr seks nuller etter 1-tallet: 10⁶ = 1 000 000, altså én million." },
+    { "id": "q05", "text": "Hva er √64?", "options": ["32", "8", "16", "4"], "correct": 1, "explain": "8 · 8 = 64, så kvadratroten av 64 er 8. Å halvere tallet (32) gir ikke kvadratroten." },
+    { "id": "q06", "text": "Hva er 9⁰?", "options": ["0", "9", "1", "Det er ikke definert"], "correct": 2, "explain": "Alle tall unntatt 0 opphøyd i null er 1. Det følger av divisjonsregelen: 9² : 9² = 9⁰, og et tall delt på seg selv er 1." },
+    { "id": "q07", "text": "Hva er −2⁴?", "options": ["−16", "16", "−8", "8"], "correct": 0, "explain": "Uten parentes regnes potensen ut først: 2⁴ = 16. Deretter brukes minustegnet, så svaret er −16." },
+    { "id": "q08", "text": "Hvordan skrives 4 700 000 på standardform?", "options": ["47 · 10⁵", "4,7 · 10⁶", "0,47 · 10⁷", "4,7 · 10⁵"], "correct": 1, "explain": "På standardform skal tallet foran tierpotensen være mellom 1 og 10. Kommaet flyttes seks plasser: 4 700 000 = 4,7 · 10⁶." },
+    { "id": "q09", "text": "Mellom hvilke to hele tall ligger √40?", "options": ["4 og 5", "5 og 6", "6 og 7", "7 og 8"], "correct": 2, "explain": "De nærmeste kvadrattallene er 36 = 6² og 49 = 7². Siden 36 < 40 < 49, ligger √40 mellom 6 og 7." },
+    { "id": "q10", "text": "Regn ut 2 + 3 · 4².", "options": ["80", "196", "146", "50"], "correct": 3, "explain": "Potensen først: 4² = 16. Så multiplikasjonen: 3 · 16 = 48. Til slutt addisjonen: 2 + 48 = 50." }
+  ],
+  "mindmap": {
+    "label": "Potenser og kvadratrøtter",
+    "children": [
+      { "label": "Potens", "children": [
+        { "label": "Grunntall", "note": "Tallet som ganges med seg selv" },
+        { "label": "Eksponent", "note": "Hvor mange faktorer" },
+        { "label": "Kvadrattall", "note": "n²: 1, 4, 9, 16 …" },
+        { "label": "Kubikktall", "note": "n³: 1, 8, 27, 64 …" }
+      ] },
+      { "label": "Regneregler", "children": [
+        { "label": "aᵐ · aⁿ = aᵐ⁺ⁿ", "note": "Legg sammen eksponentene" },
+        { "label": "aᵐ : aⁿ = aᵐ⁻ⁿ", "note": "Trekk fra eksponentene" },
+        { "label": "(aᵐ)ⁿ", "note": "Gang eksponentene" },
+        { "label": "a⁰ = 1", "note": "Gjelder når a ≠ 0" }
+      ] },
+      { "label": "Store tall", "children": [
+        { "label": "Tierpotenser", "note": "10ⁿ = 1 med n nuller" },
+        { "label": "Standardform", "note": "a · 10ⁿ, der 1 ≤ a < 10" }
+      ] },
+      { "label": "Kvadratrot", "children": [
+        { "label": "√a · √a = a", "note": "Motsatt av å opphøye i andre" },
+        { "label": "Anslå", "note": "Bruk de nærmeste kvadrattallene" }
+      ] },
+      { "label": "Regnerekkefølge", "children": [
+        { "label": "1. Parenteser" },
+        { "label": "2. Potenser og røtter" },
+        { "label": "3. Ganging og deling" },
+        { "label": "4. Pluss og minus" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q03", "q04", "q05", "q07", "q08", "q09", "q10"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "2⁵ er det samme som 2 · 5.", "correct": false, "explain": "2⁵ betyr at 2 ganges med seg selv fem ganger: 2⁵ = 32. Men 2 · 5 = 10." },
+      { "id": "m02", "type": "sant-usant", "text": "(−5)² = 25.", "correct": true, "explain": "Parentesen gjør at hele −5 opphøyes: (−5) · (−5) = 25, fordi minus ganger minus gir pluss." },
+      { "id": "m03", "type": "sant-usant", "text": "√100 = 50.", "correct": false, "explain": "√100 = 10 fordi 10 · 10 = 100. Kvadratroten er ikke det samme som halvparten." },
+      { "id": "m04", "type": "sant-usant", "text": "7³ : 7 = 7².", "correct": true, "explain": "7 er det samme som 7¹. Ved divisjon trekkes eksponentene fra hverandre: 3 − 1 = 2." },
+      { "id": "m05", "type": "flervalg", "text": "Forenkle (3²)³.", "options": ["3⁵", "3⁶", "9⁵", "3⁸"], "correct": 1, "explain": "Når en potens opphøyes i en ny eksponent, ganges eksponentene: 2 · 3 = 6. Svaret er 3⁶." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilket av tallene er et kvadrattall?", "options": ["50", "60", "72", "81"], "correct": 3, "explain": "81 = 9 · 9 = 9². Ingen av de andre tallene kan skrives som et helt tall ganget med seg selv." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er 6,2 · 10³ skrevet som et vanlig tall?", "options": ["6200", "620", "62 000", "6,2000"], "correct": 0, "explain": "Å gange med 10³ = 1000 flytter kommaet tre plasser mot høyre: 6,2 · 1000 = 6200." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

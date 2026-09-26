@@ -1,0 +1,79 @@
+{
+  "id": "algoritmer-og-programmering",
+  "fagId": "matematikk-8",
+  "trinnId": "8",
+  "name": "Algoritmer og programmering",
+  "intro": "Hva en algoritme er, og hvordan du bruker variabler, løkker og betingelser til å lage, teste og forbedre programmer som løser matematiske oppgaver.",
+  "kompetansemaal": [10],
+  "sammendrag": "## Hva er en algoritme?\n\nEn **algoritme** er en nøyaktig oppskrift som løser et problem steg for steg. Oppskriften må være så tydelig at den kan følges uten å tenke selv, og den må stoppe etter et endelig antall steg. Du bruker algoritmer hele tiden i matematikk, for eksempel når du stiller opp et gangestykke eller finner fellesnevner. Et **program** er en algoritme skrevet på et språk som en datamaskin forstår, for eksempel Python eller Scratch.\n\n## Byggesteinene i et program\n\n- **Variabler** lagrer verdier som kan endre seg. I Python skriver vi sum = 0.\n- **Sekvens** betyr at kommandoene utføres i den rekkefølgen de står.\n- **Løkker** gjentar kommandoer. En for-løkke gjentar et bestemt antall ganger, og en while-løkke gjentar så lenge en betingelse er sann.\n- **Betingelser** (if-setninger) lar programmet velge: if tall % 2 == 0 betyr «hvis tallet er delelig med 2».\n- **Input og output**: programmet kan få inn tall fra brukeren og skrive ut svar med print.\n\nEt lite eksempel som legger sammen tallene fra 1 til 100:\n\nsum = 0, så for n i området 1 til 100: sum = sum + n, og til slutt print(sum). Svaret blir 5050.\n\n## Lage, teste og forbedre\n\nArbeid med algoritmer skjer i runder. Først **lager** du en plan, gjerne som punktliste eller flytskjema. Så **tester** du programmet med tall der du vet svaret, for eksempel summen fra 1 til 4 = 10. Finner du feil, må du **feilsøke**: gå gjennom programmet linje for linje, skriv ut mellomverdier og sjekk om variablene får de verdiene du venter.\n\nTil slutt kan du **forbedre** algoritmen. Den kan bli kortere, raskere eller fungere for flere tilfeller. Summen 1 + 2 + … + n kan for eksempel regnes ut direkte med formelen n(n + 1)/2 i stedet for med en løkke. Det viser hvordan matematikk kan gjøre et program mer effektivt.\n\n## Vanlige feil\n\nTypiske feil er at en løkke stopper ett steg for tidlig eller for sent, at en variabel ikke får en startverdi, eller at en betingelse aldri blir usann slik at programmet går i evig løkke. I Python er innrykk en del av språket, så feil innrykk kan gjøre at kode havner utenfor løkka.",
+  "flashcards": [
+    { "term": "Algoritme", "def": "En nøyaktig oppskrift som løser et problem steg for steg og stopper etter et endelig antall steg." },
+    { "term": "Program", "def": "En algoritme skrevet i et programmeringsspråk som en datamaskin kan utføre." },
+    { "term": "Variabel (i programmering)", "def": "Et navn som lagrer en verdi som kan endre seg, for eksempel sum = 0." },
+    { "term": "Sekvens", "def": "Kommandoene utføres én etter én i den rekkefølgen de står." },
+    { "term": "Løkke", "def": "En del av programmet som gjentas flere ganger." },
+    { "term": "for-løkke", "def": "En løkke som gjentas et bestemt antall ganger, for eksempel for hvert tall fra 1 til 100." },
+    { "term": "while-løkke", "def": "En løkke som gjentas så lenge en betingelse er sann." },
+    { "term": "Betingelse (if)", "def": "Lar programmet velge hva som skal skje ut fra om noe er sant eller usant." },
+    { "term": "% (modulo)", "def": "Gir resten ved divisjon. 17 % 5 = 2. Et tall er partall hvis tall % 2 == 0." },
+    { "term": "print", "def": "Kommando i Python som skriver ut en verdi eller tekst på skjermen." },
+    { "term": "Flytskjema", "def": "En tegning av en algoritme med bokser for handlinger og valg, bundet sammen med piler." },
+    { "term": "Teste", "def": "Kjøre programmet med verdier der du kjenner svaret, for å se om det virker." },
+    { "term": "Feilsøke", "def": "Finne og rette feil i et program, for eksempel ved å skrive ut mellomverdier." },
+    { "term": "Evig løkke", "def": "En løkke der betingelsen aldri blir usann, slik at programmet aldri stopper." },
+    { "term": "Effektiv algoritme", "def": "En algoritme som bruker få steg. Summen 1 + … + n kan regnes direkte med n(n + 1)/2." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er en algoritme?", "options": ["Et dataprogram som bare kan skrives i Python", "En nøyaktig trinnvis oppskrift for å løse et problem", "En type graf", "Et matematisk bevis"], "correct": 1, "explain": "En algoritme er en steg-for-steg-oppskrift. Den kan skrives på papir, som flytskjema eller som et program." },
+    { "id": "q02", "text": "Hvilken byggestein brukes til å gjenta kode mange ganger?", "options": ["Variabel", "Betingelse", "print", "Løkke"], "correct": 3, "explain": "En løkke gjentar kommandoene inni seg, enten et bestemt antall ganger (for) eller så lenge noe er sant (while)." },
+    { "id": "q03", "text": "Hva er 23 % 5 i Python?", "options": ["3", "4", "4,6", "18"], "correct": 0, "explain": "% gir resten ved divisjon. 23 = 4 · 5 + 3, så resten er 3." },
+    { "id": "q04", "text": "Et program skal legge sammen tallene fra 1 til 100. Hva blir svaret?", "options": ["100", "5000", "5050", "10 100"], "correct": 2, "explain": "Med formelen n(n + 1)/2: 100 · 101 / 2 = 5050. Et riktig program med løkke gir samme svar." },
+    { "id": "q05", "text": "Hvilken betingelse sjekker om tallet t er et partall?", "options": ["t % 2 == 1", "t / 2 == 0", "t % 2 == 0", "t == 2"], "correct": 2, "explain": "Et partall gir rest 0 ved deling på 2. Derfor bruker vi t % 2 == 0." },
+    { "id": "q06", "text": "Hvorfor tester vi et program med tall der vi kjenner svaret?", "options": ["For å se om programmet gir riktig resultat", "For å gjøre programmet raskere", "Fordi datamaskinen krever det", "For å slippe å bruke variabler"], "correct": 0, "explain": "Kjenner du svaret på forhånd, kan du sammenligne og oppdage om programmet regner feil." },
+    { "id": "q07", "text": "Hva kalles en løkke som aldri stopper?", "options": ["En for-løkke", "En evig løkke", "En betingelse", "En sekvens"], "correct": 1, "explain": "Hvis betingelsen i en while-løkke aldri blir usann, fortsetter løkka i det uendelige." },
+    { "id": "q08", "text": "Hva gjør linjen sum = sum + n inne i en løkke?", "options": ["Setter sum lik n", "Sjekker om sum er lik n", "Skriver ut summen", "Legger n til den verdien sum allerede har"], "correct": 3, "explain": "Høyre side regnes ut først med den gamle verdien av sum. Resultatet lagres så som ny verdi i sum." },
+    { "id": "q09", "text": "Hvilken metode er ofte nyttig når du feilsøker?", "options": ["Slette hele programmet", "Skrive ut verdien av variablene underveis", "Bytte programmeringsspråk", "Kjøre programmet raskere"], "correct": 1, "explain": "Ved å skrive ut mellomverdier ser du hvor programmet begynner å oppføre seg annerledes enn du venter." },
+    { "id": "q10", "text": "Hva betyr det at en algoritme er forbedret?", "options": ["Den har fått flere linjer", "Den bruker flere variabler", "Den gir samme riktige svar, men er for eksempel raskere eller gjelder flere tilfeller", "Den gir et annet svar enn før"], "correct": 2, "explain": "En forbedret algoritme løser fortsatt problemet riktig, men mer effektivt, oversiktlig eller generelt." }
+  ],
+  "mindmap": {
+    "label": "Algoritmer og programmering",
+    "children": [
+      { "label": "Algoritme", "children": [
+        { "label": "Steg-for-steg-oppskrift" },
+        { "label": "Må stoppe" },
+        { "label": "Flytskjema", "note": "Tegnet algoritme" }
+      ] },
+      { "label": "Byggesteiner", "children": [
+        { "label": "Variabel", "note": "sum = 0" },
+        { "label": "Sekvens", "note": "Linje for linje" },
+        { "label": "Løkker", "note": "for og while" },
+        { "label": "Betingelser", "note": "if … else" }
+      ] },
+      { "label": "Arbeidsmåte", "children": [
+        { "label": "Lage", "note": "Plan først" },
+        { "label": "Teste", "note": "Kjente svar" },
+        { "label": "Feilsøke", "note": "Skriv ut mellomverdier" },
+        { "label": "Forbedre", "note": "Raskere, mer generell" }
+      ] },
+      { "label": "Vanlige feil", "children": [
+        { "label": "Evig løkke" },
+        { "label": "Ett steg for mye/lite" },
+        { "label": "Feil innrykk", "note": "Viktig i Python" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q07", "q08", "q10"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "En algoritme må alltid skrives i et programmeringsspråk.", "correct": false, "explain": "En algoritme kan også skrives med vanlige ord, som punktliste eller som flytskjema." },
+      { "id": "m02", "type": "sant-usant", "text": "En for-løkke brukes ofte når vi vet hvor mange ganger noe skal gjentas.", "correct": true, "explain": "For-løkka går gjennom et bestemt område, for eksempel tallene fra 1 til 10." },
+      { "id": "m03", "type": "sant-usant", "text": "I Python har innrykk betydning for hvilke linjer som hører til en løkke.", "correct": true, "explain": "Linjer med innrykk under en for- eller if-setning hører til den. Feil innrykk gir feil oppførsel." },
+      { "id": "m04", "type": "sant-usant", "text": "17 % 3 er lik 5.", "correct": false, "explain": "% gir resten. 17 = 5 · 3 + 2, så 17 % 3 = 2. Tallet 5 er kvotienten, ikke resten." },
+      { "id": "m05", "type": "flervalg", "text": "Hva skrives ut? x = 3, så x = x · 2, så print(x)", "options": ["3", "6", "5", "32"], "correct": 1, "explain": "x starter som 3. Linjen x = x · 2 gir x ny verdi 3 · 2 = 6, og det er dette som skrives ut." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilken formel gir summen 1 + 2 + … + n direkte?", "options": ["n²", "2n + 1", "n(n + 1)/2", "n + 100"], "correct": 2, "explain": "n(n + 1)/2 gir for eksempel 4 · 5 / 2 = 10 for n = 4, og 1 + 2 + 3 + 4 = 10." },
+      { "id": "m07", "type": "flervalg", "text": "Hva gjør en if-setning?", "options": ["Gjentar kode", "Lagrer en verdi", "Skriver ut tekst", "Lar programmet velge ut fra om noe er sant"], "correct": 3, "explain": "En if-setning sjekker en betingelse og utfører kode bare hvis betingelsen er sann." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

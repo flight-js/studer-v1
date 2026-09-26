@@ -1,0 +1,77 @@
+{
+  "id": "likninger",
+  "fagId": "matematikk-8",
+  "trinnId": "8",
+  "name": "Likninger",
+  "intro": "Hva en likning er, hvordan du løser den med balansemetoden, og hvordan du lager likninger til praktiske problemer og vurderer svaret.",
+  "kompetansemaal": [6],
+  "sammendrag": "## Hva er en likning?\n\nEn **likning** er et matematisk utsagn der to uttrykk er like store, og der minst ett av dem inneholder en ukjent. I likningen 3x + 5 = 20 er x den **ukjente**. Å **løse** likningen betyr å finne verdien av x som gjør at venstre og høyre side blir like. Denne verdien kalles **løsningen**.\n\n## Balansemetoden\n\nTenk på likningen som en vekt i balanse. Så lenge du gjør det samme på begge sider, holder vekten seg i balanse. Målet er å få x alene på den ene siden.\n\n- Legg til eller trekk fra samme tall på begge sider.\n- Gang eller del begge sider med samme tall (men aldri med 0).\n\nEksempel: 3x + 5 = 20\n\n- Trekk fra 5 på begge sider: 3x = 15\n- Del begge sider på 3: x = 5\n\nMange sier at et ledd «flyttes over og skifter fortegn». Det er en kortversjon av balansemetoden: å trekke fra 5 på begge sider gir samme resultat som å flytte +5 over som −5.\n\n## Ukjente på begge sider\n\nI likningen 5x − 4 = 2x + 11 samler vi først x-leddene på én side og tallene på den andre: 5x − 2x = 11 + 4, altså 3x = 15 og x = 5. Har likningen parenteser, ganger vi dem ut først. Har den brøker, kan vi gange alle ledd med fellesnevneren for å bli kvitt nevnerne.\n\n## Sett prøve\n\nDu kan alltid kontrollere svaret ved å **sette prøve**. Sett løsningen inn i den opprinnelige likningen og regn ut hver side for seg. Med x = 5 i 5x − 4 = 2x + 11 blir venstre side 21 og høyre side 21. Løsningen stemmer.\n\n## Likninger i praktiske situasjoner\n\nMange hverdagsproblemer kan løses med likninger. «En klassetur koster 1200 kr for bussen pluss 150 kr per elev. Totalt ble det 5250 kr. Hvor mange elever var med?» Vi lar x være antall elever og får 150x + 1200 = 5250. Det gir 150x = 4050 og x = 27.\n\nTil slutt må vi **vurdere løsningen kritisk**. Gir svaret mening i situasjonen? Antall elever må være et helt, positivt tall. Hvis likningen hadde gitt x = 26,4, ville det vært et tegn på regnefeil eller at oppgaven bygger på feil opplysninger.",
+  "flashcards": [
+    { "term": "Likning", "def": "Et utsagn der to uttrykk er like store og minst ett inneholder en ukjent, for eksempel 3x + 5 = 20." },
+    { "term": "Ukjent", "def": "Bokstaven i en likning som står for tallet vi skal finne, ofte x." },
+    { "term": "Løsning", "def": "Verdien av den ukjente som gjør at begge sidene av likningen blir like store." },
+    { "term": "Balansemetoden", "def": "Gjør alltid det samme på begge sider av likhetstegnet, slik at likningen holder seg i balanse." },
+    { "term": "Legge til / trekke fra", "def": "Samme tall kan legges til eller trekkes fra på begge sider uten at løsningen endres." },
+    { "term": "Gange / dele", "def": "Begge sider kan ganges eller deles med samme tall, men aldri deles på 0." },
+    { "term": "Flytte og bytte fortegn", "def": "Kortversjon av balansemetoden: +5 på én side blir −5 på den andre siden." },
+    { "term": "Samle ledd", "def": "Samle alle x-ledd på én side og alle tall på den andre før du løser videre." },
+    { "term": "Sette prøve", "def": "Sette løsningen inn i den opprinnelige likningen for å sjekke at begge sider blir like." },
+    { "term": "Venstre side (VS)", "def": "Uttrykket til venstre for likhetstegnet." },
+    { "term": "Høyre side (HS)", "def": "Uttrykket til høyre for likhetstegnet." },
+    { "term": "Likninger med brøk", "def": "Gang alle ledd med fellesnevneren for å bli kvitt nevnerne: x/2 + 3 = 7 gir x + 6 = 14." },
+    { "term": "Likninger med parentes", "def": "Gang ut parentesene først, så løs som vanlig: 2(x + 3) = 14 gir 2x + 6 = 14." },
+    { "term": "Modellere med likning", "def": "Oversette en tekstoppgave til en likning ved å la x stå for det ukjente tallet." },
+    { "term": "Vurdere løsningen", "def": "Sjekke om svaret gir mening i situasjonen, for eksempel at antall personer er et helt, positivt tall." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Løs likningen x + 7 = 15.", "options": ["x = 22", "x = 8", "x = 7", "x = 15"], "correct": 1, "explain": "Trekk fra 7 på begge sider: x = 15 − 7 = 8. Prøve: 8 + 7 = 15." },
+    { "id": "q02", "text": "Løs likningen 3x + 5 = 20.", "options": ["x = 5", "x = 25/3", "x = 15", "x = 8"], "correct": 0, "explain": "Trekk fra 5: 3x = 15. Del på 3: x = 5. Prøve: 3 · 5 + 5 = 20." },
+    { "id": "q03", "text": "Hva er det første lurt å gjøre i likningen 4x − 3 = 21?", "options": ["Dele begge sider på 4", "Trekke fra 3 på begge sider", "Legge til 3 på begge sider", "Gange begge sider med 3"], "correct": 2, "explain": "Minus 3 fjernes ved å legge til 3 på begge sider: 4x = 24. Så deler du på 4 og får x = 6." },
+    { "id": "q04", "text": "Løs likningen 5x − 4 = 2x + 11.", "options": ["x = 3", "x = 7/3", "x = 15", "x = 5"], "correct": 3, "explain": "Samle x-ledd: 5x − 2x = 3x. Samle tall: 11 + 4 = 15. Da er 3x = 15 og x = 5." },
+    { "id": "q05", "text": "Løs likningen x/3 = 6.", "options": ["x = 2", "x = 18", "x = 9", "x = 3"], "correct": 1, "explain": "Gang begge sider med 3: x = 6 · 3 = 18. Prøve: 18/3 = 6." },
+    { "id": "q06", "text": "Løs likningen 2(x + 3) = 14.", "options": ["x = 4", "x = 5,5", "x = 8", "x = 10"], "correct": 0, "explain": "Gang ut: 2x + 6 = 14. Trekk fra 6: 2x = 8. Del på 2: x = 4." },
+    { "id": "q07", "text": "Hvilken likning passer? «Buss 1200 kr pluss 150 kr per elev, totalt 5250 kr.»", "options": ["1200x + 150 = 5250", "150 + 1200 = 5250x", "150x + 1200 = 5250", "150x = 5250 + 1200"], "correct": 2, "explain": "Prisen per elev ganges med antall elever (150x), og bussen legges til én gang (1200). Summen skal bli 5250." },
+    { "id": "q08", "text": "Du har løst en likning og fått x = 6. Hvordan setter du prøve?", "options": ["Løser likningen på nytt med en annen metode", "Setter x = 6 inn i den opprinnelige likningen og sjekker at sidene blir like", "Ganger svaret med 2 og ser om det blir partall", "Deler begge sider på 6"], "correct": 1, "explain": "En prøve betyr å sette løsningen inn i den opprinnelige likningen. Blir venstre og høyre side like, er løsningen riktig." },
+    { "id": "q09", "text": "En likning om antall elever gir x = 26,4. Hva bør du tenke?", "options": ["At det var 26,4 elever", "At svaret skal rundes opp til 27 uten videre", "At svaret skal rundes ned til 26 uten videre", "At det trolig er en feil, fordi antall elever må være et helt tall"], "correct": 3, "explain": "Antall elever må være et helt, positivt tall. Et desimalsvar tyder på regnefeil eller feil i opplysningene, og bør sjekkes." },
+    { "id": "q10", "text": "Løs likningen 7 − x = 2.", "options": ["x = 5", "x = −5", "x = 9", "x = −9"], "correct": 0, "explain": "Legg til x på begge sider: 7 = 2 + x. Trekk fra 2: x = 5. Prøve: 7 − 5 = 2." }
+  ],
+  "mindmap": {
+    "label": "Likninger",
+    "children": [
+      { "label": "Begreper", "children": [
+        { "label": "Ukjent", "note": "Ofte x" },
+        { "label": "Løsning", "note": "Gjør sidene like" },
+        { "label": "VS og HS", "note": "Venstre og høyre side" }
+      ] },
+      { "label": "Balansemetoden", "children": [
+        { "label": "Pluss/minus på begge sider" },
+        { "label": "Gang/del på begge sider", "note": "Aldri del på 0" },
+        { "label": "Samle ledd", "note": "x-ledd på én side" }
+      ] },
+      { "label": "Spesielle likninger", "children": [
+        { "label": "Med parentes", "note": "Gang ut først" },
+        { "label": "Med brøk", "note": "Gang med fellesnevner" },
+        { "label": "x på begge sider" }
+      ] },
+      { "label": "Kontroll og bruk", "children": [
+        { "label": "Sett prøve", "note": "Sett inn i opprinnelig likning" },
+        { "label": "Tekstoppgaver", "note": "La x være det ukjente" },
+        { "label": "Vurder svaret", "note": "Gir det mening?" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q04", "q05", "q06", "q07", "q09", "q10"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "x = 4 er løsningen på likningen 2x + 1 = 9.", "correct": true, "explain": "Prøve: 2 · 4 + 1 = 9. Begge sider blir 9." },
+      { "id": "m02", "type": "sant-usant", "text": "Du kan dele begge sider av en likning på 0.", "correct": false, "explain": "Deling på 0 er ikke definert. Du kan gange og dele med alle andre tall." },
+      { "id": "m03", "type": "sant-usant", "text": "Å trekke fra 3 på begge sider gir samme resultat som å flytte +3 over og bytte fortegn.", "correct": true, "explain": "Å flytte og bytte fortegn er en kortversjon av balansemetoden." },
+      { "id": "m04", "type": "sant-usant", "text": "Likningen x + 3 = x + 5 har løsningen x = 2.", "correct": false, "explain": "Trekker du fra x på begge sider, får du 3 = 5, som aldri stemmer. Likningen har ingen løsning." },
+      { "id": "m05", "type": "flervalg", "text": "Løs likningen 6x = 42.", "options": ["x = 36", "x = 48", "x = 7", "x = 252"], "correct": 2, "explain": "Del begge sider på 6: x = 42 : 6 = 7." },
+      { "id": "m06", "type": "flervalg", "text": "Løs likningen x/4 + 2 = 5.", "options": ["x = 28", "x = 12", "x = 3", "x = 7"], "correct": 1, "explain": "Trekk fra 2: x/4 = 3. Gang med 4: x = 12. Prøve: 12/4 + 2 = 5." },
+      { "id": "m07", "type": "flervalg", "text": "Summen av et tall og det dobbelte av tallet er 36. Hvilket tall er det?", "options": ["12", "18", "9", "6"], "correct": 0, "explain": "x + 2x = 36 gir 3x = 36 og x = 12. Prøve: 12 + 24 = 36." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

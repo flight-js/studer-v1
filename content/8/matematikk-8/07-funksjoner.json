@@ -1,0 +1,79 @@
+{
+  "id": "funksjoner",
+  "fagId": "matematikk-8",
+  "trinnId": "8",
+  "name": "Funksjoner",
+  "intro": "Hva en funksjon er, og hvordan samme sammenheng kan vises som situasjon, tabell, graf og uttrykk.",
+  "kompetansemaal": [8, 9],
+  "sammendrag": "## Hva er en funksjon?\n\nEn **funksjon** er en sammenheng der hver inngangsverdi gir nøyaktig én utgangsverdi. Prisen på epler avhenger av hvor mange kilo du kjøper, og temperaturen i en kopp te avhenger av hvor lenge den har stått. Verdien vi velger, kalles den **uavhengige variabelen** og skrives ofte x. Verdien som blir bestemt av den, kalles den **avhengige variabelen** og skrives y eller f(x).\n\n## Fire måter å vise en funksjon på\n\nSamme sammenheng kan vises på fire måter, og det er nyttig å kunne gå fra den ene til den andre.\n\n- **Situasjon**: «Et abonnement koster 100 kr i måneden pluss 2 kr per minutt.»\n- **Uttrykk**: y = 2x + 100, der x er antall minutter og y er prisen.\n- **Tabell**: x = 0 gir y = 100, x = 50 gir y = 200, x = 100 gir y = 300.\n- **Graf**: punktene (0, 100), (50, 200) og (100, 300) tegnes i et koordinatsystem og bindes sammen.\n\nUttrykket er lettest å regne med, tabellen gir raske tall, grafen gir oversikt, og situasjonen forteller hva tallene betyr.\n\n## Koordinatsystemet\n\nEt **koordinatsystem** har en vannrett x-akse og en loddrett y-akse som krysser hverandre i **origo** (0, 0). Et punkt skrives (x, y): først hvor langt til siden, så hvor langt opp. Når vi tegner grafen til en funksjon, står den uavhengige variabelen alltid på x-aksen.\n\n## Lineære og ikke-lineære funksjoner\n\nEn funksjon der grafen er en rett linje, kalles **lineær**. Den øker eller minker med like mye for hver enhet: abonnementet ovenfor blir 2 kr dyrere per minutt. Tallet 2 kalles **stigningstallet**, og 100 er **konstantleddet**, der grafen krysser y-aksen.\n\nAndre funksjoner gir krumme grafer. Arealet av et kvadrat, A = s², vokser raskere og raskere, og te som avkjøles, synker først raskt og så sakte. Når du sammenligner funksjoner, kan du se på om de øker eller minker, hvor raskt de endrer seg, og hvor grafene krysser hverandre.\n\n## Lese grafer kritisk\n\nNår du leser av en graf, sjekk hva aksene viser og hvilke enheter som brukes. En graf kan se bratt ut bare fordi skalaen på y-aksen er strukket. Spør også om funksjonen gir mening for alle x-verdier. Antall minutter kan ikke være negativt, så grafen for abonnementet starter i x = 0.",
+  "flashcards": [
+    { "term": "Funksjon", "def": "En sammenheng der hver inngangsverdi (x) gir nøyaktig én utgangsverdi (y)." },
+    { "term": "Uavhengig variabel", "def": "Verdien vi velger fritt, ofte x. Den står på x-aksen." },
+    { "term": "Avhengig variabel", "def": "Verdien som bestemmes av x, ofte y eller f(x). Den står på y-aksen." },
+    { "term": "f(x)", "def": "Skrivemåte for funksjonsverdien. f(3) er verdien når x = 3." },
+    { "term": "Funksjonsuttrykk", "def": "En formel som gir y ut fra x, for eksempel y = 2x + 100." },
+    { "term": "Verditabell", "def": "En tabell med utvalgte x-verdier og de tilhørende y-verdiene." },
+    { "term": "Graf", "def": "Tegningen av en funksjon i et koordinatsystem." },
+    { "term": "Koordinatsystem", "def": "To akser som står vinkelrett på hverandre: x-aksen vannrett og y-aksen loddrett." },
+    { "term": "Origo", "def": "Punktet (0, 0), der x-aksen og y-aksen krysser hverandre." },
+    { "term": "Koordinater (x, y)", "def": "Et punkts plassering: først x (sideveis), så y (opp eller ned)." },
+    { "term": "Lineær funksjon", "def": "En funksjon med en rett linje som graf. Den endrer seg like mye for hver enhet i x." },
+    { "term": "Stigningstall", "def": "Hvor mye y endrer seg når x øker med 1. I y = 2x + 100 er det 2." },
+    { "term": "Konstantledd", "def": "Verdien av y når x = 0. Det er der grafen krysser y-aksen. I y = 2x + 100 er det 100." },
+    { "term": "Ikke-lineær funksjon", "def": "En funksjon med krum graf, for eksempel A = s², som vokser raskere og raskere." },
+    { "term": "Skala på aksene", "def": "Avstanden mellom tallene på aksene. En strukket skala kan få en endring til å se større ut enn den er." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er y når x = 5 i funksjonen y = 3x + 2?", "options": ["10", "17", "15", "35"], "correct": 1, "explain": "Sett inn x = 5: 3 · 5 + 2 = 15 + 2 = 17." },
+    { "id": "q02", "text": "Hva kalles punktet (0, 0) i et koordinatsystem?", "options": ["Origo", "Konstantleddet", "Stigningstallet", "Toppunktet"], "correct": 0, "explain": "Origo er punktet der x-aksen og y-aksen krysser hverandre, (0, 0)." },
+    { "id": "q03", "text": "Et abonnement koster 100 kr per måned pluss 2 kr per minutt. Hvilket uttrykk passer?", "options": ["y = 100x + 2", "y = 102x", "y = 2x + 100", "y = 2 + 100"], "correct": 2, "explain": "Minuttprisen ganges med antall minutter (2x), og den faste månedsprisen legges til (100)." },
+    { "id": "q04", "text": "Hva er stigningstallet i y = −4x + 7?", "options": ["7", "4", "x", "−4"], "correct": 3, "explain": "Stigningstallet er tallet foran x. Her er det −4, så y minker med 4 for hver gang x øker med 1." },
+    { "id": "q05", "text": "Hvor krysser grafen til y = 2x + 5 y-aksen?", "options": ["I (0, 5)", "I (5, 0)", "I (0, 2)", "I (2, 5)"], "correct": 0, "explain": "På y-aksen er x = 0. Da er y = 2 · 0 + 5 = 5, så skjæringspunktet er (0, 5)." },
+    { "id": "q06", "text": "Hvilken tabell passer til y = x + 3?", "options": ["x = 1, y = 3", "x = 2, y = 5", "x = 3, y = 3", "x = 4, y = 12"], "correct": 1, "explain": "2 + 3 = 5. Sjekk de andre: 1 + 3 = 4, 3 + 3 = 6 og 4 + 3 = 7." },
+    { "id": "q07", "text": "Hvilken funksjon har en rett linje som graf?", "options": ["A = s²", "y = x · x", "y = 5x − 1", "y = 2ˣ"], "correct": 2, "explain": "y = 5x − 1 er lineær: y øker med 5 hver gang x øker med 1. De andre vokser raskere og raskere og gir krumme grafer." },
+    { "id": "q08", "text": "I punktet (4, −2), hva er y-koordinaten?", "options": ["4", "2", "−4", "−2"], "correct": 3, "explain": "Koordinatene skrives (x, y). Den andre verdien, −2, er y-koordinaten." },
+    { "id": "q09", "text": "En graf over temperaturen i en kopp te synker raskt først og så langsommere. Hvordan ser grafen ut?", "options": ["En rett linje som stiger", "En krum linje som synker og flater ut", "En vannrett linje", "En rett linje som synker like mye hele tiden"], "correct": 1, "explain": "Endringen er ikke lik hele tiden, så grafen er krum. Den synker bratt først og blir flatere etter hvert." },
+    { "id": "q10", "text": "Hvorfor starter grafen for abonnementsprisen i x = 0?", "options": ["Fordi funksjonen ikke kan tegnes for negative tall", "Fordi prisen er 0 der", "Fordi antall minutter ikke kan være negativt", "Fordi stigningstallet er positivt"], "correct": 2, "explain": "x står for antall minutter, og det gir ikke mening med negative minutter. Grafen tegnes derfor bare for x ≥ 0." }
+  ],
+  "mindmap": {
+    "label": "Funksjoner",
+    "children": [
+      { "label": "Begreper", "children": [
+        { "label": "Uavhengig variabel", "note": "x – vi velger" },
+        { "label": "Avhengig variabel", "note": "y eller f(x)" },
+        { "label": "Én y for hver x" }
+      ] },
+      { "label": "Fire representasjoner", "children": [
+        { "label": "Situasjon", "note": "Hva tallene betyr" },
+        { "label": "Uttrykk", "note": "y = 2x + 100" },
+        { "label": "Tabell", "note": "Utvalgte verdier" },
+        { "label": "Graf", "note": "Oversikt" }
+      ] },
+      { "label": "Koordinatsystem", "children": [
+        { "label": "x-akse og y-akse" },
+        { "label": "Origo", "note": "(0, 0)" },
+        { "label": "Punkt (x, y)" }
+      ] },
+      { "label": "Typer", "children": [
+        { "label": "Lineær", "note": "Rett linje" },
+        { "label": "Stigningstall", "note": "Endring per enhet" },
+        { "label": "Konstantledd", "note": "Skjæring med y-aksen" },
+        { "label": "Ikke-lineær", "note": "Krum graf" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q07", "q09", "q10"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "I en funksjon kan én x-verdi gi to ulike y-verdier.", "correct": false, "explain": "I en funksjon gir hver x-verdi nøyaktig én y-verdi." },
+      { "id": "m02", "type": "sant-usant", "text": "Grafen til y = 3x + 1 er en rett linje.", "correct": true, "explain": "Funksjonen er lineær: y øker med 3 hver gang x øker med 1." },
+      { "id": "m03", "type": "sant-usant", "text": "Den uavhengige variabelen tegnes langs y-aksen.", "correct": false, "explain": "Den uavhengige variabelen, x, står langs den vannrette x-aksen." },
+      { "id": "m04", "type": "sant-usant", "text": "En strukket skala på y-aksen kan få en liten endring til å se stor ut.", "correct": true, "explain": "Derfor må du alltid sjekke tallene på aksene når du leser en graf." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er f(2) når f(x) = x² + 1?", "options": ["5", "3", "4", "9"], "correct": 0, "explain": "Sett inn x = 2: 2² + 1 = 4 + 1 = 5." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilket punkt ligger på grafen til y = 2x − 1?", "options": ["(1, 2)", "(2, 3)", "(3, 4)", "(0, 1)"], "correct": 1, "explain": "Med x = 2 blir y = 2 · 2 − 1 = 3. Punktet (2, 3) ligger derfor på grafen." },
+      { "id": "m07", "type": "flervalg", "text": "Et taxiselskap tar 50 kr + 12 kr per km. Hva er konstantleddet?", "options": ["12", "62", "50", "600"], "correct": 2, "explain": "Konstantleddet er den faste delen som ikke avhenger av antall km, altså 50 kr." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

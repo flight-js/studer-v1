@@ -1,0 +1,81 @@
+{
+  "id": "overflate-og-volum",
+  "fagId": "matematikk-9",
+  "trinnId": "9",
+  "name": "Overflate og volum",
+  "intro": "Formlene for volum og overflateareal av prismer, sylindre, pyramider, kjegler og kuler, og hvordan du gjør om mellom volumenheter.",
+  "kompetansemaal": [6],
+  "sammendrag": "## Tredimensjonale figurer\n\nEn **romfigur** har lengde, bredde og høyde. **Volum** er hvor mye plass figuren tar, og måles i kubikkenheter som cm³ og m³. **Overflateareal** er summen av arealet av alle flatene, og måles i kvadratenheter som cm² og m². Et godt triks for overflate er å tenke seg figuren brettet ut til en **utbretting**.\n\n## Prismer og sylindre\n\nEt **prisme** har to like, parallelle endeflater (grunnflater) og rette sideflater. Et **rett prisme** med rektangulære flater kalles et rett, firkantet prisme, og en terning er et spesialtilfelle. Volumet av alle prismer er grunnflate ganger høyde: V = G · h.\n\nEn **sylinder** er som et prisme med sirkel som grunnflate. Da blir V = πr² · h. Overflaten består av to sirkler og en krum sideflate som kan rulles ut til et rektangel med lengde lik omkretsen 2πr. Derfor er O = 2πr² + 2πrh.\n\n## Pyramider og kjegler\n\nEn **pyramide** har en mangekant som grunnflate og sideflater som møtes i en topp. En **kjegle** har sirkel som grunnflate. Begge har volum lik en tredjedel av et prisme eller en sylinder med samme grunnflate og høyde:\n\n- Pyramide: V = G · h / 3\n- Kjegle: V = πr² · h / 3\n\nDu kan sjekke dette praktisk: fyll en kjegle med vann tre ganger og hell over i en sylinder med samme grunnflate og høyde. Da blir sylinderen full.\n\n## Kule\n\nEn **kule** har volum V = 4πr³/3 og overflate O = 4πr². Overflaten til en kule er altså like stor som fire sirkler med samme radius.\n\n## Enheter\n\n1 dm³ = 1 L = 1000 cm³, og 1 m³ = 1000 L. Mellom volumenheter er det faktor 1000 per steg, fordi alle tre dimensjonene endres. Mellom arealenheter er faktoren 100 per steg: 1 m² = 100 dm² = 10 000 cm².\n\n## Argumentere for formlene\n\nFormlene kan begrunnes. Volumet av et prisme er antall lag med grunnflate stablet oppå hverandre, og hver ny centimeter i høyden gir ett lag til. I praktiske oppgaver, som å beregne hvor mye maling som trengs eller hvor mye vann et basseng rommer, må du avgjøre om oppgaven spør etter overflate eller volum.",
+  "flashcards": [
+    { "term": "Volum", "def": "Hvor mye plass en romfigur tar. Måles i cm³, dm³ eller m³." },
+    { "term": "Overflateareal", "def": "Summen av arealet av alle flatene på en romfigur. Måles i cm² eller m²." },
+    { "term": "Utbretting", "def": "En romfigur brettet ut til en flat figur. Nyttig for å finne overflatearealet." },
+    { "term": "Prisme", "def": "Romfigur med to like, parallelle grunnflater og rette sideflater. V = G · h." },
+    { "term": "Rett firkantet prisme", "def": "Et prisme der alle flatene er rektangler. V = l · b · h." },
+    { "term": "Sylinder", "def": "Romfigur med to sirkler som grunnflater. V = πr² · h." },
+    { "term": "Overflate av sylinder", "def": "O = 2πr² + 2πrh: to sirkler pluss en sideflate med lengde lik omkretsen." },
+    { "term": "Pyramide", "def": "Mangekant som grunnflate og sideflater som møtes i en topp. V = G · h / 3." },
+    { "term": "Kjegle", "def": "Sirkel som grunnflate og en spiss topp. V = πr² · h / 3." },
+    { "term": "Kule", "def": "V = 4πr³/3 og O = 4πr²." },
+    { "term": "Grunnflate (G)", "def": "Flaten figuren står på, som brukes i volumformlene." },
+    { "term": "1 L", "def": "1 liter = 1 dm³ = 1000 cm³." },
+    { "term": "1 m³", "def": "1 kubikkmeter = 1000 liter." },
+    { "term": "Faktor mellom volumenheter", "def": "1000 per steg, fordi lengde, bredde og høyde alle ganges med 10." },
+    { "term": "En tredjedel", "def": "En pyramide eller kjegle har en tredjedel av volumet til et prisme eller en sylinder med samme G og h." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er volumet av en eske som er 5 cm lang, 4 cm bred og 3 cm høy?", "options": ["12 cm³", "60 cm³", "47 cm³", "94 cm³"], "correct": 1, "explain": "V = l · b · h = 5 · 4 · 3 = 60 cm³." },
+    { "id": "q02", "text": "Hvilken formel gir volumet av en sylinder?", "options": ["2πr · h", "πr² · h / 3", "4πr³/3", "πr² · h"], "correct": 3, "explain": "Grunnflaten er en sirkel med areal πr². Den ganges med høyden: V = πr² · h." },
+    { "id": "q03", "text": "Hvor mange liter er 1 m³?", "options": ["10 L", "100 L", "1000 L", "10 000 L"], "correct": 2, "explain": "1 m³ = 1000 dm³, og 1 dm³ = 1 L. Altså er 1 m³ = 1000 L." },
+    { "id": "q04", "text": "En pyramide har grunnflate 36 cm² og høyde 10 cm. Hva er volumet?", "options": ["120 cm³", "360 cm³", "180 cm³", "46 cm³"], "correct": 0, "explain": "V = G · h / 3 = 36 · 10 / 3 = 120 cm³." },
+    { "id": "q05", "text": "Hvor stor del av en sylinders volum har en kjegle med samme grunnflate og høyde?", "options": ["Halvparten", "En tredjedel", "To tredjedeler", "Like mye"], "correct": 1, "explain": "Kjeglen har volum πr²h/3, som er en tredjedel av sylinderens πr²h." },
+    { "id": "q06", "text": "En sylinder har radius 2 cm og høyde 5 cm. Hva er volumet? (Bruk π ≈ 3,14.)", "options": ["31,4 cm³", "20 cm³", "62,8 cm³", "125,6 cm³"], "correct": 2, "explain": "V = πr²h = 3,14 · 4 · 5 = 62,8 cm³." },
+    { "id": "q07", "text": "Hva er overflatearealet av en terning med side 3 cm?", "options": ["27 cm²", "54 cm²", "18 cm²", "36 cm²"], "correct": 1, "explain": "En terning har 6 kvadratiske flater med areal 3 · 3 = 9 cm². 6 · 9 = 54 cm². 27 cm³ er volumet." },
+    { "id": "q08", "text": "Du skal male utsiden av en kasse. Hva må du regne ut?", "options": ["Volumet", "Omkretsen", "Overflatearealet", "Diagonalen"], "correct": 2, "explain": "Maling dekker flater, så det er overflatearealet som bestemmer hvor mye maling som trengs." },
+    { "id": "q09", "text": "Hvor mange cm³ er 2,5 L?", "options": ["250 cm³", "25 cm³", "25 000 cm³", "2500 cm³"], "correct": 3, "explain": "1 L = 1000 cm³, så 2,5 L = 2500 cm³." },
+    { "id": "q10", "text": "Hvilken formel gir overflatearealet av en kule?", "options": ["4πr²", "πr²", "4πr³/3", "2πr"], "correct": 0, "explain": "Overflaten av en kule er O = 4πr², altså like stor som fire sirkler med samme radius." }
+  ],
+  "mindmap": {
+    "label": "Overflate og volum",
+    "children": [
+      { "label": "Begreper", "children": [
+        { "label": "Volum", "note": "cm³, m³, L" },
+        { "label": "Overflate", "note": "cm², m²" },
+        { "label": "Utbretting" }
+      ] },
+      { "label": "Prisme og sylinder", "children": [
+        { "label": "V = G · h" },
+        { "label": "Sylinder", "note": "V = πr²h" },
+        { "label": "Sylinderoverflate", "note": "2πr² + 2πrh" }
+      ] },
+      { "label": "Pyramide og kjegle", "children": [
+        { "label": "V = G · h / 3" },
+        { "label": "Kjegle", "note": "V = πr²h / 3" },
+        { "label": "En tredjedel", "note": "Av prisme/sylinder" }
+      ] },
+      { "label": "Kule", "children": [
+        { "label": "V = 4πr³/3" },
+        { "label": "O = 4πr²" }
+      ] },
+      { "label": "Enheter", "children": [
+        { "label": "1 L = 1 dm³ = 1000 cm³" },
+        { "label": "1 m³ = 1000 L" },
+        { "label": "Areal: faktor 100", "note": "Volum: faktor 1000" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q06", "q07", "q09", "q10"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "1 dm³ er det samme som 1 liter.", "correct": true, "explain": "En kube med side 1 dm = 10 cm rommer 1000 cm³, som er 1 liter." },
+      { "id": "m02", "type": "sant-usant", "text": "1 m² = 100 cm².", "correct": false, "explain": "1 m² = 100 cm · 100 cm = 10 000 cm²." },
+      { "id": "m03", "type": "sant-usant", "text": "Volumet av et prisme er grunnflate ganger høyde.", "correct": true, "explain": "V = G · h gjelder for alle prismer, også sylindre." },
+      { "id": "m04", "type": "sant-usant", "text": "En kjegle har halvparten så stort volum som en sylinder med samme grunnflate og høyde.", "correct": false, "explain": "Kjeglen har en tredjedel av sylinderens volum." },
+      { "id": "m05", "type": "flervalg", "text": "Et basseng er 10 m langt, 5 m bredt og 2 m dypt. Hvor mange liter rommer det?", "options": ["100 L", "10 000 L", "1000 L", "100 000 L"], "correct": 3, "explain": "V = 10 · 5 · 2 = 100 m³, og 100 m³ = 100 · 1000 L = 100 000 L." },
+      { "id": "m06", "type": "flervalg", "text": "En kjegle har radius 3 cm og høyde 4 cm. Hva er volumet? (π ≈ 3,14)", "options": ["37,68 cm³", "113,04 cm³", "12,56 cm³", "28,26 cm³"], "correct": 0, "explain": "V = πr²h/3 = 3,14 · 9 · 4 / 3 = 37,68 cm³." },
+      { "id": "m07", "type": "flervalg", "text": "Hvor mange ganger større blir volumet av en terning når siden dobles?", "options": ["2", "4", "8", "6"], "correct": 2, "explain": "Alle tre dimensjonene dobles: 2 · 2 · 2 = 8." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

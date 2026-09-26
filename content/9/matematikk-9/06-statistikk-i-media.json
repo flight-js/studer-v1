@@ -1,0 +1,80 @@
+{
+  "id": "statistikk-i-media",
+  "fagId": "matematikk-9",
+  "trinnId": "9",
+  "name": "Statistikk i media",
+  "intro": "Diagramtyper, hvordan statistikk kan presenteres for å fremme et synspunkt, og hvordan du vurderer tall og grafer kritisk.",
+  "kompetansemaal": [7, 9],
+  "sammendrag": "## Diagrammer\n\nStatistikk presenteres ofte som diagrammer, og hvert diagram passer til sin type data:\n\n- **Stolpediagram** sammenligner antall eller mengder i ulike kategorier.\n- **Linjediagram** viser utvikling over tid, for eksempel temperatur gjennom et år.\n- **Sektordiagram** (kakediagram) viser hvordan en helhet er fordelt i prosent. Sektorene skal til sammen bli 100 %, og vinklene 360°.\n- **Histogram** viser hvordan tallverdier fordeler seg i intervaller, for eksempel høyder i en klasse.\n\n## Hvordan statistikk kan villede\n\nTall og diagrammer kan være riktige og likevel gi et skjevt inntrykk. Noen vanlige grep er:\n\n- **Avkuttet akse**: Starter y-aksen på 95 i stedet for 0, kan en økning fra 96 til 98 se ut som en dobling.\n- **Ujevn skala**: Avstandene på aksen står ikke for like store tall.\n- **Utvalgte perioder**: Man viser bare årene der utviklingen passer argumentet.\n- **Absolutte tall og prosent**: «Antall ulykker økte med 50 %» kan bety en økning fra 2 til 3.\n- **Tredimensjonale diagrammer**: Perspektivet kan gjøre sektorer eller stolper større enn de er.\n- **Lite utvalg**: En undersøkelse med 20 svar sier lite om hele befolkningen.\n\n## Utvalg og kilder\n\nEn **undersøkelse** spør et **utvalg** for å si noe om en større **populasjon**. Utvalget bør være stort og **representativt**, altså ligne populasjonen. En nettavstemning der alle kan svare, er ikke representativ, fordi de som bryr seg mest om saken, svarer oftest. Spør også hvem som har laget statistikken og hvorfor. En produsent som selv har finansiert en undersøkelse om eget produkt, kan ha interesse av et bestemt resultat.\n\n## Samme tall, ulike synspunkt\n\nDe samme dataene kan presenteres for å støtte ulike syn. En kommune kan si at «skatteinntektene økte med 20 millioner», mens en kritiker sier at «inntektene per innbygger falt», fordi befolkningen vokste mer. Begge kan ha rett. Derfor er det lurt å se på tallene selv og regne med både absolutte tall og prosent.\n\n## Spørsmål å stille\n\nHvor kommer tallene fra? Starter aksen på null? Hvor stort er utvalget? Hvilke tall er utelatt? Og passer diagramtypen til dataene? Med slike spørsmål kan du vurdere statistikk fra aviser, reklame, sosiale medier og lokalsamfunnet kritisk.",
+  "flashcards": [
+    { "term": "Stolpediagram", "def": "Sammenligner antall eller mengder i ulike kategorier med stolper." },
+    { "term": "Linjediagram", "def": "Viser utvikling over tid med punkter som bindes sammen." },
+    { "term": "Sektordiagram", "def": "Viser fordelingen av en helhet i prosent. Sektorene utgjør til sammen 360°." },
+    { "term": "Histogram", "def": "Viser hvordan tallverdier fordeler seg i intervaller, uten mellomrom mellom søylene." },
+    { "term": "Avkuttet akse", "def": "En y-akse som ikke starter på 0. Kan få små forskjeller til å se store ut." },
+    { "term": "Absolutt endring", "def": "Endringen målt i antall, for eksempel en økning på 5 personer." },
+    { "term": "Relativ endring", "def": "Endringen målt i prosent av startverdien. Fra 2 til 3 er en økning på 50 %." },
+    { "term": "Populasjon", "def": "Hele gruppen en undersøkelse vil si noe om, for eksempel alle ungdommer i Norge." },
+    { "term": "Utvalg", "def": "Den delen av populasjonen som faktisk blir spurt eller målt." },
+    { "term": "Representativt utvalg", "def": "Et utvalg som ligner populasjonen, slik at resultatet kan overføres." },
+    { "term": "Selvselektert utvalg", "def": "Når deltakerne selv velger å svare, som i nettavstemninger. Gir ofte skjeve resultater." },
+    { "term": "Kildekritikk", "def": "Å vurdere hvem som står bak statistikken, og om de har interesse av et bestemt resultat." },
+    { "term": "Utvalgte perioder", "def": "Å bare vise de årene som passer argumentet. Kan gi et skjevt bilde av utviklingen." },
+    { "term": "Per innbygger", "def": "Å dele et tall på antall innbyggere gjør det mulig å sammenligne steder av ulik størrelse." },
+    { "term": "3D-diagram", "def": "Tredimensjonale effekter kan få deler av diagrammet til å se større ut enn de er." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvilket diagram passer best til å vise temperaturen hver måned gjennom et år?", "options": ["Sektordiagram", "Linjediagram", "Histogram", "Stolpediagram med kategorier"], "correct": 1, "explain": "Et linjediagram viser utvikling over tid og gjør det lett å se hvordan temperaturen stiger og synker." },
+    { "id": "q02", "text": "Hva må sektorene i et sektordiagram til sammen utgjøre?", "options": ["180°", "100°", "Antallet svar", "100 %, altså 360°"], "correct": 3, "explain": "Et sektordiagram viser en helhet. Alle sektorene til sammen blir 100 % av sirkelen, som er 360°." },
+    { "id": "q03", "text": "Y-aksen i et diagram starter på 95. Hva kan det føre til?", "options": ["At små forskjeller ser store ut", "At diagrammet blir mer nøyaktig", "At dataene endres", "At gjennomsnittet blir feil"], "correct": 0, "explain": "Når aksen er kuttet, blir forskjellene mellom stolpene overdrevet visuelt, selv om tallene er riktige." },
+    { "id": "q04", "text": "Antall ulykker økte fra 2 til 3. Hvor stor er den relative økningen?", "options": ["1 %", "33 %", "50 %", "150 %"], "correct": 2, "explain": "Økningen er 1. Relativ økning = 1 / 2 = 0,5 = 50 %. Det høres mye ut, selv om det bare gjelder én ulykke." },
+    { "id": "q05", "text": "Hvorfor er en nettavstemning der alle kan stemme, lite pålitelig?", "options": ["Fordi den har for mange svar", "Fordi utvalget ikke er representativt", "Fordi nettet regner feil", "Fordi den bare gir prosent"], "correct": 1, "explain": "De som velger å svare, er ofte de som er mest engasjert i saken. Da ligner ikke utvalget befolkningen." },
+    { "id": "q06", "text": "Hva kalles hele gruppen en undersøkelse vil si noe om?", "options": ["Utvalget", "Frekvensen", "Populasjonen", "Medianen"], "correct": 2, "explain": "Populasjonen er hele gruppen, mens utvalget er de som faktisk blir spurt." },
+    { "id": "q07", "text": "En kommunes inntekter økte, men befolkningen økte mer. Hva kan da ha skjedd med inntektene per innbygger?", "options": ["De må ha økt", "De er uendret", "Det kan ikke regnes ut", "De kan ha gått ned"], "correct": 3, "explain": "Når befolkningen vokser raskere enn inntektene, blir det mindre per person. Begge påstandene kan være sanne samtidig." },
+    { "id": "q08", "text": "Hvilket diagram viser fordelingen av høyder i intervaller som 150–155 cm og 155–160 cm?", "options": ["Histogram", "Sektordiagram", "Linjediagram", "Punktdiagram over tid"], "correct": 0, "explain": "Et histogram viser hvor mange verdier som havner i hvert intervall av en tallskala." },
+    { "id": "q09", "text": "En undersøkelse om en brusmerkes smak er betalt av produsenten. Hva bør du tenke?", "options": ["At den er ekstra pålitelig", "At avsenderen kan ha interesse av et bestemt resultat", "At den må være feil", "At utvalget er stort"], "correct": 1, "explain": "Avsenderens interesser betyr ikke at tallene er feil, men du bør være ekstra kritisk til utvalg, spørsmål og presentasjon." },
+    { "id": "q10", "text": "Hvilket av disse er et eksempel på å bruke utvalgte perioder?", "options": ["Å vise alle år fra 2000 til i dag", "Å bruke et histogram", "Å bare vise de tre årene der salget økte", "Å oppgi både antall og prosent"], "correct": 2, "explain": "Å plukke ut bare de årene som passer argumentet, kan gi et helt annet inntrykk enn hele tidsserien." }
+  ],
+  "mindmap": {
+    "label": "Statistikk i media",
+    "children": [
+      { "label": "Diagramtyper", "children": [
+        { "label": "Stolpediagram", "note": "Kategorier" },
+        { "label": "Linjediagram", "note": "Utvikling over tid" },
+        { "label": "Sektordiagram", "note": "Andeler av helhet" },
+        { "label": "Histogram", "note": "Intervaller" }
+      ] },
+      { "label": "Villedende grep", "children": [
+        { "label": "Avkuttet akse" },
+        { "label": "Utvalgte perioder" },
+        { "label": "Prosent uten antall" },
+        { "label": "3D-effekter" }
+      ] },
+      { "label": "Undersøkelser", "children": [
+        { "label": "Populasjon og utvalg" },
+        { "label": "Representativt", "note": "Ligner populasjonen" },
+        { "label": "Selvselektert", "note": "Skjevt" }
+      ] },
+      { "label": "Kritiske spørsmål", "children": [
+        { "label": "Hvem står bak?" },
+        { "label": "Starter aksen på 0?" },
+        { "label": "Hvor stort er utvalget?" },
+        { "label": "Per innbygger?" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q07", "q09", "q10"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Et diagram kan gi et skjevt inntrykk selv om alle tallene er riktige.", "correct": true, "explain": "Valg av skala, utsnitt og diagramtype påvirker hvordan tallene oppfattes." },
+      { "id": "m02", "type": "sant-usant", "text": "Et stort utvalg er alltid representativt.", "correct": false, "explain": "Et stort utvalg kan fortsatt være skjevt, for eksempel hvis bare én gruppe har svart." },
+      { "id": "m03", "type": "sant-usant", "text": "Et sektordiagram passer godt til å vise utvikling over mange år.", "correct": false, "explain": "Sektordiagram viser fordelingen av en helhet på ett tidspunkt. Utvikling over tid vises best med linjediagram." },
+      { "id": "m04", "type": "sant-usant", "text": "En økning fra 10 til 15 er en relativ økning på 50 %.", "correct": true, "explain": "Økningen er 5, og 5 / 10 = 0,5 = 50 %." },
+      { "id": "m05", "type": "flervalg", "text": "30 % av 200 elever sykler til skolen. Hvor mange grader utgjør syklistene i et sektordiagram?", "options": ["30°", "60°", "108°", "90°"], "correct": 2, "explain": "30 % av 360° = 0,3 · 360° = 108°." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilket tall er best for å sammenligne kriminalitet i en storby og en liten kommune?", "options": ["Antall lovbrudd per 1000 innbyggere", "Totalt antall lovbrudd", "Antall politifolk", "Kommunens areal"], "correct": 0, "explain": "Et tall per innbygger tar hensyn til at storbyen har langt flere innbyggere." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er et representativt utvalg?", "options": ["Et utvalg der alle har samme mening", "Et utvalg som ligner populasjonen", "Et utvalg med bare eksperter", "Et utvalg som velger seg selv"], "correct": 1, "explain": "Et representativt utvalg har omtrent samme sammensetning som populasjonen, for eksempel når det gjelder alder og bosted." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

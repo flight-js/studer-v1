@@ -1,0 +1,78 @@
+{
+  "id": "faktorisering-og-brok",
+  "fagId": "matematikk-8",
+  "trinnId": "8",
+  "name": "Faktorisering og brøk",
+  "intro": "Primtall, primtallsfaktorisering og hvordan du bruker faktorer til å forkorte, utvide og regne med brøker.",
+  "kompetansemaal": [3],
+  "sammendrag": "## Faktorer og primtall\n\nÅ **faktorisere** et tall betyr å skrive det som et produkt av mindre tall. 12 kan skrives som 3 · 4 eller 2 · 6. Et **primtall** er et helt tall større enn 1 som bare er delelig med 1 og seg selv. De første primtallene er 2, 3, 5, 7, 11, 13, 17, 19 og 23. Tallet 1 er ikke et primtall, og 2 er det eneste partallet som er primtall. Tall som ikke er primtall, kalles **sammensatte tall**.\n\n## Primtallsfaktorisering\n\nAlle sammensatte tall kan skrives som et produkt av bare primtall, og det finnes bare én slik faktorisering. Du finner den ved å dele på primtall så lenge det går:\n\n- 60 : 2 = 30\n- 30 : 2 = 15\n- 15 : 3 = 5\n\nAltså er 60 = 2 · 2 · 3 · 5 = 2² · 3 · 5. Et **faktortre** er en annen måte å vise det samme på.\n\nNoen delelighetsregler gjør arbeidet raskere. Et tall er delelig med 2 hvis det slutter på et partall, med 3 hvis tverrsummen er delelig med 3, med 5 hvis det slutter på 0 eller 5, og med 10 hvis det slutter på 0.\n\n## Forkorte og utvide brøker\n\nEn brøk kan **forkortes** ved å dele teller og nevner på samme tall. 18/24 kan forkortes med 6 til 3/4. Primtallsfaktorisering viser hvilke faktorer teller og nevner har felles: 18 = 2 · 3 · 3 og 24 = 2 · 2 · 2 · 3, så de har 2 · 3 = 6 felles. En brøk er **fullstendig forkortet** når teller og nevner ikke har flere felles faktorer.\n\nÅ **utvide** en brøk betyr å gange teller og nevner med samme tall. Verdien endres ikke: 2/3 = 8/12.\n\n## Fellesnevner\n\nFor å legge sammen eller trekke fra brøker må de ha lik nevner. Den **minste fellesnevneren** er det minste tallet som alle nevnerne går opp i. For 1/6 + 3/8 faktoriserer vi: 6 = 2 · 3 og 8 = 2 · 2 · 2. Fellesnevneren må inneholde 2 · 2 · 2 · 3 = 24. Da blir 1/6 + 3/8 = 4/24 + 9/24 = 13/24.\n\n## Multiplikasjon og divisjon\n\nBrøker ganges ved å gange teller med teller og nevner med nevner: 2/3 · 5/7 = 10/21. Det lønner seg å forkorte før du ganger. Å dele på en brøk er det samme som å gange med den omvendte brøken: 3/4 : 1/2 = 3/4 · 2/1 = 6/4 = 3/2.",
+  "flashcards": [
+    { "term": "Faktorisere", "def": "Å skrive et tall eller uttrykk som et produkt av faktorer, for eksempel 12 = 3 · 4." },
+    { "term": "Primtall", "def": "Et helt tall større enn 1 som bare er delelig med 1 og seg selv: 2, 3, 5, 7, 11, 13 …" },
+    { "term": "Sammensatt tall", "def": "Et helt tall større enn 1 som ikke er et primtall, for eksempel 4, 6, 9 og 15." },
+    { "term": "Primtallsfaktorisering", "def": "Et tall skrevet som produkt av bare primtall. 60 = 2 · 2 · 3 · 5." },
+    { "term": "Faktortre", "def": "En tegning der et tall deles i faktorer grein for grein, til alle greinene ender i primtall." },
+    { "term": "Delelig med 3", "def": "Et tall er delelig med 3 når tverrsummen (summen av sifrene) er delelig med 3. 471: 4 + 7 + 1 = 12." },
+    { "term": "Teller", "def": "Tallet over brøkstreken. Det viser hvor mange deler vi har." },
+    { "term": "Nevner", "def": "Tallet under brøkstreken. Det viser hvor mange like deler helheten er delt i." },
+    { "term": "Forkorte en brøk", "def": "Dele teller og nevner på samme tall. 18/24 = 3/4 når vi deler på 6." },
+    { "term": "Utvide en brøk", "def": "Gange teller og nevner med samme tall. 2/3 = 8/12 når vi ganger med 4." },
+    { "term": "Fullstendig forkortet", "def": "En brøk der teller og nevner ikke har noen felles faktor utenom 1." },
+    { "term": "Fellesnevner", "def": "En nevner som alle brøkene i et regnestykke kan utvides til. Trengs ved addisjon og subtraksjon." },
+    { "term": "Minste fellesnevner", "def": "Det minste tallet som alle nevnerne går opp i. For 6 og 8 er det 24." },
+    { "term": "Gange brøker", "def": "Teller ganges med teller og nevner med nevner: 2/3 · 5/7 = 10/21." },
+    { "term": "Dele med en brøk", "def": "Gang med den omvendte brøken: 3/4 : 1/2 = 3/4 · 2/1." },
+    { "term": "Uekte brøk", "def": "En brøk der telleren er større enn nevneren, for eksempel 7/4 = 1 3/4." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvilket av disse tallene er et primtall?", "options": ["21", "27", "29", "33"], "correct": 2, "explain": "29 kan bare deles på 1 og 29. 21 = 3 · 7, 27 = 3 · 9 og 33 = 3 · 11 er sammensatte tall." },
+    { "id": "q02", "text": "Hva er primtallsfaktoriseringen av 36?", "options": ["4 · 9", "2 · 2 · 3 · 3", "6 · 6", "2 · 18"], "correct": 1, "explain": "Alle de andre svarene inneholder tall som ikke er primtall. 36 = 2 · 2 · 3 · 3 = 2² · 3²." },
+    { "id": "q03", "text": "Er tallet 1 et primtall?", "options": ["Nei, et primtall må være større enn 1", "Ja, fordi det bare er delelig med seg selv", "Ja, det er det minste primtallet", "Det kommer an på sammenhengen"], "correct": 0, "explain": "Et primtall har nøyaktig to ulike faktorer: 1 og seg selv. Tallet 1 har bare én, og regnes derfor ikke som primtall." },
+    { "id": "q04", "text": "Forkort 18/24 fullstendig.", "options": ["9/12", "6/8", "2/3", "3/4"], "correct": 3, "explain": "Største felles faktor for 18 og 24 er 6. 18 : 6 = 3 og 24 : 6 = 4, så brøken blir 3/4." },
+    { "id": "q05", "text": "Hvilket tall er delelig med 3?", "options": ["412", "513", "701", "830"], "correct": 1, "explain": "Tverrsummen av 513 er 5 + 1 + 3 = 9, som er delelig med 3. Da er også 513 delelig med 3 (513 = 3 · 171)." },
+    { "id": "q06", "text": "Hva er minste fellesnevner for 1/4 og 1/6?", "options": ["10", "24", "12", "2"], "correct": 2, "explain": "4 = 2 · 2 og 6 = 2 · 3. Fellesnevneren må inneholde 2 · 2 · 3 = 12. Både 4 og 6 går opp i 12." },
+    { "id": "q07", "text": "Hva er 1/6 + 3/8?", "options": ["4/14", "13/24", "4/48", "1/2"], "correct": 1, "explain": "Fellesnevner 24: 1/6 = 4/24 og 3/8 = 9/24. Summen er 13/24. Tellere og nevnere kan ikke legges sammen hver for seg." },
+    { "id": "q08", "text": "Hva er 2/3 · 5/7?", "options": ["10/21", "7/10", "10/7", "7/21"], "correct": 0, "explain": "Gang teller med teller og nevner med nevner: 2 · 5 = 10 og 3 · 7 = 21." },
+    { "id": "q09", "text": "Hva er 3/4 : 1/2?", "options": ["3/8", "1/2", "3/4", "3/2"], "correct": 3, "explain": "Å dele på 1/2 er det samme som å gange med 2: 3/4 · 2 = 6/4 = 3/2." },
+    { "id": "q10", "text": "Hvilken brøk er lik 2/5?", "options": ["4/15", "6/15", "5/2", "2/10"], "correct": 1, "explain": "Utvid 2/5 med 3: 2 · 3 = 6 og 5 · 3 = 15. Verdien er den samme, 6/15 = 2/5." }
+  ],
+  "mindmap": {
+    "label": "Faktorisering og brøk",
+    "children": [
+      { "label": "Primtall", "children": [
+        { "label": "Definisjon", "note": "Bare delelig med 1 og seg selv" },
+        { "label": "2, 3, 5, 7, 11, 13 …" },
+        { "label": "1 er ikke primtall" }
+      ] },
+      { "label": "Primtallsfaktorisering", "children": [
+        { "label": "Del på primtall", "note": "60 = 2² · 3 · 5" },
+        { "label": "Faktortre" },
+        { "label": "Delelighetsregler", "note": "2, 3, 5 og 10" }
+      ] },
+      { "label": "Forkorte og utvide", "children": [
+        { "label": "Forkorte", "note": "Del teller og nevner likt" },
+        { "label": "Utvide", "note": "Gang teller og nevner likt" },
+        { "label": "Fullstendig forkortet", "note": "Ingen felles faktorer" }
+      ] },
+      { "label": "Regne med brøk", "children": [
+        { "label": "Fellesnevner", "note": "Ved pluss og minus" },
+        { "label": "Multiplikasjon", "note": "Teller · teller, nevner · nevner" },
+        { "label": "Divisjon", "note": "Gang med omvendt brøk" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q04", "q05", "q06", "q07", "q09", "q10"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "2 er det eneste partallet som er et primtall.", "correct": true, "explain": "Alle andre partall er delelige med 2 og har derfor minst tre faktorer." },
+      { "id": "m02", "type": "sant-usant", "text": "1/3 + 1/4 = 2/7.", "correct": false, "explain": "Nevnerne kan ikke legges sammen. Med fellesnevner 12 blir det 4/12 + 3/12 = 7/12." },
+      { "id": "m03", "type": "sant-usant", "text": "Når du utvider en brøk, blir verdien større.", "correct": false, "explain": "Teller og nevner ganges med det samme tallet, så verdien er uendret. 1/2 = 3/6." },
+      { "id": "m04", "type": "sant-usant", "text": "Tallet 45 er delelig med både 3 og 5.", "correct": true, "explain": "Tverrsummen 4 + 5 = 9 er delelig med 3, og tallet slutter på 5. 45 = 3 · 3 · 5." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er primtallsfaktoriseringen av 84?", "options": ["2 · 42", "4 · 21", "2 · 2 · 3 · 7", "2 · 3 · 14"], "correct": 2, "explain": "84 : 2 = 42, 42 : 2 = 21, 21 : 3 = 7. Altså 84 = 2 · 2 · 3 · 7, og alle faktorene er primtall." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er 5/6 − 1/3?", "options": ["4/3", "1/2", "4/6", "1/3"], "correct": 1, "explain": "1/3 = 2/6. Da blir 5/6 − 2/6 = 3/6, som forkortes til 1/2." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilket tall er et sammensatt tall?", "options": ["51", "53", "47", "43"], "correct": 0, "explain": "51 = 3 · 17. Tverrsummen 5 + 1 = 6 avslører at 51 er delelig med 3. De andre er primtall." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
