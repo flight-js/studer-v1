@@ -1,0 +1,84 @@
+{
+  "id": "familie-og-venner",
+  "fagId": "fransk-8",
+  "trinnId": "8",
+  "name": "Familie og venner",
+  "intro": "Ord for familie, venner og kjæledyr på fransk, eiendomsordene mon, ma og mes, hvordan du sier hva du har og ikke har, og hvordan du beskriver utseende og personlighet.",
+  "kompetansemaal": [3, 5],
+  "sammendrag": "## Familien – la famille\n\n- **le père** – faren, **la mère** – moren, **les parents** – foreldrene\n- **le frère** – broren, **la sœur** – søsteren, **les frères et sœurs** – søsknene\n- **le grand-père** – bestefaren, **la grand-mère** – bestemoren, **les grands-parents** – besteforeldrene\n- **l'oncle** – onkelen, **la tante** – tanten\n- **le cousin** – fetteren, **la cousine** – kusinen\n- **le fils** – sønnen, **la fille** – datteren (eller jenta)\n- **le chien** – hunden, **le chat** – katten\n\nForan ord som begynner med vokal eller stum h, blir *le* og *la* til **l'**: *l'oncle*.\n\n## Min, mitt, mine\n\n- **mon** foran hankjønnsord: *mon père*\n- **ma** foran hunkjønnsord: *ma mère*\n- **mes** foran ord i flertall: *mes parents*\n\nForan hunkjønnsord som begynner med vokal, bruker man **mon** for å få bedre flyt: *mon amie*. Tilsvarende finnes **ton/ta/tes** (din) og **son/sa/ses** (hans eller hennes). Formen avhenger av ordet som følger, ikke av eieren: *sa mère* kan bety både «hans mor» og «hennes mor».\n\n## Jeg har …\n\n- **J'ai un frère.** – Jeg har en bror.\n- **J'ai une sœur.** – Jeg har en søster.\n- **J'ai un chien.** – Jeg har en hund.\n- **Je n'ai pas de frères et sœurs.** – Jeg har ingen søsken. Etter *pas* blir *un/une* til **de**.\n\n## Beskrive personer\n\nAdjektiver **bøyes** etter kjønn og tall, og de fleste står **etter** substantivet: *un chat noir* (en svart katt).\n\n- **Il est grand. Elle est grande.** – Han/hun er høy.\n- **Il est petit. Elle est petite.** – Han/hun er lav.\n- **gentil / gentille** (snill), **sportif / sportive** (sporty), **drôle** (morsom), **timide** (sjenert), **sympa** (hyggelig)\n- **Il a les cheveux courts / longs / blonds / bruns.** – Han har kort / langt / lyst / brunt hår.\n- **Elle a les yeux bleus / verts / marron.** – Hun har blå / grønne / brune øyne.\n\n## Venner\n\n**un ami / une amie** betyr venn og venninne. **un copain / une copine** betyr også venn, men kan i tillegg bety kjæreste. **Mon meilleur ami s'appelle Jonas. Ma meilleure amie s'appelle Emma.**\n\n## En kort tekst\n\n*Voici ma famille. Nous habitons à Trondheim. Mon père s'appelle Lars. Il a quarante-cinq ans et il est très drôle. Ma mère s'appelle Ingrid. Elle est gentille et sportive. J'ai un frère et une sœur. Nous avons aussi un chien. Il s'appelle Max.*\n\nBruk teksten som mønster når du skriver om din egen familie.",
+  "flashcards": [
+    { "term": "le père / la mère", "def": "faren / moren" },
+    { "term": "les parents", "def": "foreldrene" },
+    { "term": "le frère / la sœur", "def": "broren / søsteren" },
+    { "term": "les grands-parents", "def": "besteforeldrene" },
+    { "term": "l'oncle / la tante", "def": "onkelen / tanten" },
+    { "term": "le cousin / la cousine", "def": "fetteren / kusinen" },
+    { "term": "la fille", "def": "datteren, eller jenta" },
+    { "term": "le chien / le chat", "def": "hunden / katten" },
+    { "term": "mon / ma / mes", "def": "min, mitt / min / mine" },
+    { "term": "J'ai un frère.", "def": "Jeg har en bror." },
+    { "term": "Je n'ai pas de frères et sœurs.", "def": "Jeg har ingen søsken." },
+    { "term": "gentil / gentille", "def": "snill" },
+    { "term": "drôle", "def": "morsom" },
+    { "term": "Il a les yeux bleus.", "def": "Han har blå øyne." },
+    { "term": "mon meilleur ami", "def": "min beste venn" },
+    { "term": "un copain / une copine", "def": "en venn / venninne, eller kjæreste" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva betyr «les grands-parents»?", "options": ["Foreldrene", "Søsknene", "Kusinene", "Besteforeldrene"], "correct": 3, "explain": "«grand-» brukes om besteforeldre." },
+    { "id": "q02", "text": "Hvilken form er riktig?", "options": ["mon mère", "ma mère", "mes mère", "ton ma mère"], "correct": 1, "explain": "«mère» er hunkjønn, derfor «ma»." },
+    { "id": "q03", "text": "Hvordan sier du «Jeg har en søster»?", "options": ["J'ai une sœur.", "Je suis une sœur.", "J'ai un sœur.", "J'ai sœur."], "correct": 0, "explain": "«sœur» er hunkjønn og får «une»." },
+    { "id": "q04", "text": "Hva betyr «Je n'ai pas de frères et sœurs»?", "options": ["Jeg har mange søsken", "Brødrene mine er snille", "Jeg har ingen søsken", "Jeg har en bror"], "correct": 2, "explain": "«ne … pas de» betyr «ikke noen»." },
+    { "id": "q05", "text": "Hvordan blir adjektivet «grand» når det beskriver en jente?", "options": ["grand", "grande", "grands", "grandes"], "correct": 1, "explain": "Hunkjønnsformen får ofte en -e." },
+    { "id": "q06", "text": "Hva betyr «la fille»?", "options": ["Sønnen", "Moren", "Tanten", "Datteren eller jenta"], "correct": 3, "explain": "Sammenhengen avgjør om det betyr datter eller jente." },
+    { "id": "q07", "text": "Hvordan sier du «Han har blå øyne»?", "options": ["Il est les yeux bleus.", "Elle a les yeux bleus.", "Il a les yeux bleus.", "Il a bleu yeux."], "correct": 2, "explain": "På fransk bruker man bestemt artikkel: «les yeux»." },
+    { "id": "q08", "text": "Hva betyr «drôle»?", "options": ["Morsom", "Trist", "Høy", "Sjenert"], "correct": 0, "explain": "Sjenert heter «timide»." },
+    { "id": "q09", "text": "Hva betyr «mes parents»?", "options": ["Mine søsken", "Mine foreldre", "Mine venner", "Mine besteforeldre"], "correct": 1, "explain": "«mes» brukes foran ord i flertall." },
+    { "id": "q10", "text": "Hvor står de fleste adjektiver på fransk?", "options": ["Foran substantivet", "Alltid først i setningen", "Til slutt i setningen", "Etter substantivet"], "correct": 3, "explain": "For eksempel «un chat noir»." }
+  ],
+  "mindmap": {
+    "label": "Familie og venner",
+    "children": [
+      { "label": "Nær familie", "children": [
+        { "label": "père, mère, parents" },
+        { "label": "frère, sœur" },
+        { "label": "fils, fille" }
+      ] },
+      { "label": "Mer familie", "children": [
+        { "label": "grands-parents" },
+        { "label": "oncle, tante" },
+        { "label": "cousin, cousine" },
+        { "label": "chien, chat" }
+      ] },
+      { "label": "Grammatikk", "children": [
+        { "label": "mon / ma / mes" },
+        { "label": "J'ai un / une …" },
+        { "label": "ne … pas de" }
+      ] },
+      { "label": "Beskrive", "children": [
+        { "label": "grand / grande" },
+        { "label": "gentil, drôle, sympa" },
+        { "label": "cheveux og yeux" }
+      ] },
+      { "label": "Venner", "children": [
+        { "label": "ami / amie" },
+        { "label": "copain / copine" },
+        { "label": "mon meilleur ami" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "«son» og «sa» kan bety både hans og hennes.", "correct": true, "explain": "Formen avhenger av ordet som følger, ikke av eieren." },
+      { "id": "m02", "type": "sant-usant", "text": "«le chien» betyr katten.", "correct": false, "explain": "«le chien» er hunden, og «le chat» er katten." },
+      { "id": "m03", "type": "sant-usant", "text": "«une copine» kan bety både venninne og kjæreste.", "correct": true, "explain": "Sammenhengen avgjør betydningen." },
+      { "id": "m04", "type": "sant-usant", "text": "Adjektiver bøyes aldri på fransk.", "correct": false, "explain": "Adjektiver bøyes etter kjønn og tall." },
+      { "id": "m05", "type": "flervalg", "text": "Hva betyr «l'oncle»?", "options": ["Tanten", "Onkelen", "Bestefaren", "Fetteren"], "correct": 1, "explain": "«le» blir til «l'» foran vokal." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilket ord passer: «… meilleure amie s'appelle Emma»?", "options": ["Ma", "Mon", "Mes", "Ta ma"], "correct": 0, "explain": "«meilleure» er hunkjønn og begynner med konsonant." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er hunkjønnsformen av «gentil»?", "options": ["gentil", "gentile", "gentille", "gentils"], "correct": 2, "explain": "«gentil» dobler l-en i hunkjønn." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

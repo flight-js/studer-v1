@@ -1,0 +1,87 @@
+{
+  "id": "tall-og-tid",
+  "fagId": "fransk-8",
+  "trinnId": "8",
+  "name": "Tall, dager og klokka",
+  "intro": "Tallene på fransk, med de spesielle tallene fra 70 til 99, ukedager, måneder og årstider, datoen og hvordan du sier hva klokka er.",
+  "kompetansemaal": [6, 1],
+  "sammendrag": "## Tallene 0–20\n\n0 **zéro**, 1 **un**, 2 **deux**, 3 **trois**, 4 **quatre**, 5 **cinq**, 6 **six**, 7 **sept**, 8 **huit**, 9 **neuf**, 10 **dix**, 11 **onze**, 12 **douze**, 13 **treize**, 14 **quatorze**, 15 **quinze**, 16 **seize**, 17 **dix-sept**, 18 **dix-huit**, 19 **dix-neuf**, 20 **vingt**.\n\n## Tallene over 20\n\n- 21 **vingt et un**, 22 **vingt-deux**, 23 **vingt-trois** …\n- 30 **trente**, 40 **quarante**, 50 **cinquante**, 60 **soixante**\n- 70 **soixante-dix** (60 + 10), 71 **soixante et onze**, 72 **soixante-douze**\n- 80 **quatre-vingts** (4 × 20), 81 **quatre-vingt-un**\n- 90 **quatre-vingt-dix** (4 × 20 + 10)\n- 100 **cent**\n\nFra 70 til 99 regner franskmenn altså med tjuetall. I **Belgia** og **Sveits** sier mange i stedet **septante** (70) og **nonante** (90).\n\n## Ukedagene\n\n**lundi** (mandag), **mardi** (tirsdag), **mercredi** (onsdag), **jeudi** (torsdag), **vendredi** (fredag), **samedi** (lørdag) og **dimanche** (søndag). På fransk skrives ukedager og måneder med **liten forbokstav**. **Lundi** betyr «på mandag», mens **le lundi** betyr «hver mandag».\n\n## Måneder og årstider\n\n**janvier, février, mars, avril, mai, juin, juillet, août, septembre, octobre, novembre, décembre.** «I mai» heter **en mai**. Årstidene er **le printemps** (våren), **l'été** (sommeren), **l'automne** (høsten) og **l'hiver** (vinteren). «Om våren» heter **au printemps**, mens de andre får **en**: *en été*, *en automne*, *en hiver*.\n\n## Datoen\n\nPå fransk bruker man vanlige tall i datoer: **le deux mars**, **le quatorze juillet**. Unntaket er den første: **le premier mai**.\n\n- **On est le combien aujourd'hui ?** – Hvilken dato er det i dag?\n- **Mon anniversaire, c'est le trois mars.** – Bursdagen min er 3. mars.\n\n## Hva er klokka?\n\n**Quelle heure est-il ?** – Hva er klokka?\n\n- 8.00: **Il est huit heures.**\n- 8.10: **Il est huit heures dix.**\n- 8.15: **Il est huit heures et quart.**\n- 8.30: **Il est huit heures et demie.** Pass på: På fransk sier man «åtte og en halv», ikke «halv ni»!\n- 8.45: **Il est neuf heures moins le quart.** (ni minus et kvarter)\n- 12.00: **Il est midi.** 24.00: **Il est minuit.**\n\nNår du sier når noe skjer, bruker du **à**: *Le cours commence à huit heures.* – Timen begynner klokka åtte. I Frankrike brukes ofte 24-timersklokke, for eksempel *seize heures trente* (16.30).",
+  "flashcards": [
+    { "term": "onze", "def": "11" },
+    { "term": "douze", "def": "12" },
+    { "term": "seize", "def": "16" },
+    { "term": "vingt", "def": "20" },
+    { "term": "vingt et un", "def": "21" },
+    { "term": "soixante-dix", "def": "70 (60 + 10)" },
+    { "term": "quatre-vingts", "def": "80 (4 × 20)" },
+    { "term": "quatre-vingt-dix", "def": "90 (4 × 20 + 10)" },
+    { "term": "cent", "def": "100" },
+    { "term": "lundi", "def": "mandag" },
+    { "term": "mercredi", "def": "onsdag" },
+    { "term": "samedi", "def": "lørdag" },
+    { "term": "août", "def": "august" },
+    { "term": "le printemps", "def": "våren" },
+    { "term": "Quelle heure est-il ?", "def": "Hva er klokka?" },
+    { "term": "huit heures et demie", "def": "halv ni (8.30)" },
+    { "term": "neuf heures moins le quart", "def": "kvart på ni (8.45)" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er 70 på fransk?", "options": ["septante-dix", "soixante-dix", "sept-dix", "soixante-sept"], "correct": 1, "explain": "70 er «60 + 10». I Belgia og Sveits sier mange «septante»." },
+    { "id": "q02", "text": "Hva betyr «quatre-vingts»?", "options": ["24", "40", "84", "80"], "correct": 3, "explain": "Det betyr bokstavelig «fire tjuer»." },
+    { "id": "q03", "text": "Hva betyr «huit heures et demie»?", "options": ["Halv ni (8.30)", "Halv åtte (7.30)", "Kvart over åtte", "Åtte minutter"], "correct": 0, "explain": "Franskmenn sier «åtte og en halv»." },
+    { "id": "q04", "text": "Hvordan skrives ukedager og måneder på fransk?", "options": ["Med stor forbokstav", "Alltid i flertall", "Med liten forbokstav", "Med aksent"], "correct": 2, "explain": "Som på norsk skrives de med liten forbokstav." },
+    { "id": "q05", "text": "Hvordan spør du hva klokka er?", "options": ["Quelle heure est-il ?", "Tu as quel âge ?", "Ça va ?", "Comment tu t'appelles ?"], "correct": 0, "explain": "«heure» betyr time eller klokkeslett." },
+    { "id": "q06", "text": "Hva heter onsdag på fransk?", "options": ["lundi", "jeudi", "vendredi", "mercredi"], "correct": 3, "explain": "«jeudi» er torsdag og «vendredi» fredag." },
+    { "id": "q07", "text": "Hvordan sier du datoen 1. mai?", "options": ["le un mai", "le première mai", "le premier mai", "le mai un"], "correct": 2, "explain": "Bare den første i måneden får ordenstallet «premier»." },
+    { "id": "q08", "text": "Hva betyr «neuf heures moins le quart»?", "options": ["Kvart over ni", "Kvart på ni", "Halv ni", "Ni kvarter"], "correct": 1, "explain": "«moins» betyr minus." },
+    { "id": "q09", "text": "Hvilket tall er «seize»?", "options": ["6", "60", "7", "16"], "correct": 3, "explain": "6 er «six» og 60 er «soixante»." },
+    { "id": "q10", "text": "Hvordan sier du «om sommeren»?", "options": ["en été", "au été", "à l'été", "dans été"], "correct": 0, "explain": "Bare våren får «au»: «au printemps»." }
+  ],
+  "mindmap": {
+    "label": "Tall og tid",
+    "children": [
+      { "label": "Tall", "children": [
+        { "label": "0–20" },
+        { "label": "vingt et un" },
+        { "label": "70 = soixante-dix" },
+        { "label": "80 = quatre-vingts" },
+        { "label": "septante og nonante" }
+      ] },
+      { "label": "Ukedager", "children": [
+        { "label": "lundi–dimanche" },
+        { "label": "Liten forbokstav" },
+        { "label": "le lundi = hver mandag" }
+      ] },
+      { "label": "Måneder og årstider", "children": [
+        { "label": "janvier–décembre" },
+        { "label": "en mai" },
+        { "label": "au printemps, en été" }
+      ] },
+      { "label": "Dato", "children": [
+        { "label": "le premier mai" },
+        { "label": "le trois mars" },
+        { "label": "anniversaire" }
+      ] },
+      { "label": "Klokka", "children": [
+        { "label": "Quelle heure est-il ?" },
+        { "label": "et quart / et demie" },
+        { "label": "moins le quart" },
+        { "label": "à huit heures" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "I Belgia og Sveits sier mange «septante» for 70.", "correct": true, "explain": "De sier også «nonante» for 90." },
+      { "id": "m02", "type": "sant-usant", "text": "«douze» betyr 20.", "correct": false, "explain": "«douze» er 12. Tjue heter «vingt»." },
+      { "id": "m03", "type": "sant-usant", "text": "«à huit heures» betyr klokka åtte.", "correct": true, "explain": "«à» brukes når du sier når noe skjer." },
+      { "id": "m04", "type": "sant-usant", "text": "På fransk bruker man «premier» i alle datoer.", "correct": false, "explain": "Bare den første i måneden. Ellers bruker man vanlige tall." },
+      { "id": "m05", "type": "flervalg", "text": "Hva betyr «samedi»?", "options": ["Søndag", "Lørdag", "Fredag", "Torsdag"], "correct": 1, "explain": "Søndag heter «dimanche»." },
+      { "id": "m06", "type": "flervalg", "text": "Hva heter august på fransk?", "options": ["août", "auguste", "aoûte", "agosto"], "correct": 0, "explain": "«août» uttales omtrent «u» eller «ut»." },
+      { "id": "m07", "type": "flervalg", "text": "Hvordan sier du 21 på fransk?", "options": ["vingt-un", "vingt et deux", "vingt et un", "un et vingt"], "correct": 2, "explain": "21, 31, 41, 51, 61 og 71 får «et»." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

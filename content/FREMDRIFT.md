@@ -15,7 +15,15 @@ Status for arbeidet med å lage innhold til alle 78 fag (8. trinn–Vg3), og hvo
 | KRLE 8, 9, 10 | 6 + 6 + 7 |
 | Engelsk fordypning 8, 9, 10 | 5 + 5 + 5 |
 
-**Neste:** Tysk/fransk/spansk 8–10 (FSP01-04 KV965, nivå I).
+**Neste:** Fransk 8, spansk 8, deretter tysk/fransk/spansk 9 og 10.
+
+**Fremmedspråk nivå I (FSP01-04 KV965)**, samme slugs for tysk, fransk og spansk (`_fag.json` er laget). Forklaringer på norsk, eksempler og flashcard-termer på målspråket:
+
+- **8**: hilsener-og-presentasjon (2, 6), tall-og-tid (6, 1), familie-og-venner (3, 5), skole-og-fritid (2, 3), grammatikk-grunnlag (6), land-og-kultur (8, 9)
+- **9**: mat-og-drikke, hjemmet-og-hverdagen, byen-og-veibeskrivelse, klaer-og-handel, fortid, hoytider-og-tradisjoner
+- **10**: reise-og-ferie, helse-og-kropp, framtid-og-planer, ungdom-og-medier, kunst-og-kultur, miljo-og-samfunn
+
+Ferdig: tysk 8, fransk 8.
 
 ## Arbeidsflyt per fag
 

@@ -1,0 +1,85 @@
+{
+  "id": "hilsener-og-presentasjon",
+  "fagId": "fransk-8",
+  "trinnId": "8",
+  "name": "Hilsener og presentasjon",
+  "intro": "Hvordan du hilser, presenterer deg selv og spør om navn, alder og bosted på fransk, når du bruker tu og vous, og de viktigste reglene for uttale, aksenter og høflighet.",
+  "kompetansemaal": [2, 6],
+  "sammendrag": "## Fransk i verden\n\nFransk snakkes av over 300 millioner mennesker på fem kontinenter. Det er offisielt språk i **Frankrike**, **Belgia**, **Sveits**, **Luxembourg**, **Monaco**, provinsen **Québec** i Canada og i mange land i **Afrika**, som Senegal og Elfenbenskysten. Fellesskapet av fransktalende land kalles **la francophonie**. Mange norske ord kommer fra fransk, som *restaurant*, *butikk* og *sjåfør*.\n\n## Hilsener\n\n- **Bonjour !** – Hei! / God dag! Den vanligste hilsenen, både formelt og uformelt.\n- **Salut !** – Hei! eller Ha det! (uformelt)\n- **Bonsoir !** – God kveld!\n- **Au revoir !** – Ha det!\n- **À bientôt !** – Vi ses snart!\n- **Bonne nuit !** – God natt!\n\nI Frankrike hilser venner og familie ofte med **la bise**, et lett kinnkyss på hver side.\n\n## Presentere seg selv\n\n- **Comment tu t'appelles ?** – Hva heter du? – **Je m'appelle Nora.**\n- **Tu as quel âge ?** – Hvor gammel er du? – **J'ai treize ans.** Franskmenn «har» alderen sin: *j'ai* betyr «jeg har».\n- **Tu habites où ?** – Hvor bor du? – **J'habite à Bergen, en Norvège.**\n- **Ça va ?** – Hvordan går det? – **Ça va bien, merci !** / **Pas mal.** / **Ça ne va pas.**\n\n## Tu eller vous?\n\n- **tu** brukes til venner, familie og barn.\n- **vous** er høflighetsformen til voksne du ikke kjenner, og betyr også «dere»: *Comment vous appelez-vous ?*\n\n## Uttale\n\n- Konsonanter på **slutten** av ordet er ofte **stumme**: *petit*, *Paris*, *vous*.\n- **h** er stum: *hôtel*.\n- **ou** uttales som norsk «u»: *vous*. **u** uttales som norsk «y»: *tu*.\n- **oi** uttales «oa»: *moi*. **au** og **eau** uttales «o»: *beau*.\n- **ch** uttales «sj»: *chat*.\n- **r** uttales bak i halsen.\n- Fransk har **nasallyder**, der luften går gjennom nesen: *an*, *on*, *in*.\n\n## Aksenter og tegn\n\nFransk bruker **aksenter**: **é** (*café*), **è** (*père*) og **ê** (*fête*). **ç** (c med cedille) uttales som s: *ça*, *garçon*. I Frankrike settes det mellomrom foran spørsmålstegn og utropstegn: *Ça va ?*\n\n## Høflige småord\n\n**Merci** (takk), **s'il te plaît / s'il vous plaît** (vær så snill), **pardon** eller **excusez-moi** (unnskyld) og **de rien** (bare hyggelig). Med *bonjour* og *merci* kommer du langt – i Frankrike er det uhøflig å gå inn i en butikk uten å si *bonjour*!",
+  "flashcards": [
+    { "term": "Bonjour !", "def": "Hei! / God dag!" },
+    { "term": "Salut !", "def": "Hei! eller Ha det! (uformelt)" },
+    { "term": "Bonsoir !", "def": "God kveld!" },
+    { "term": "Au revoir !", "def": "Ha det!" },
+    { "term": "À bientôt !", "def": "Vi ses snart!" },
+    { "term": "Comment tu t'appelles ?", "def": "Hva heter du?" },
+    { "term": "Je m'appelle …", "def": "Jeg heter …" },
+    { "term": "Tu as quel âge ?", "def": "Hvor gammel er du?" },
+    { "term": "J'ai treize ans.", "def": "Jeg er tretten år (bokstavelig: jeg har tretten år)." },
+    { "term": "J'habite à …", "def": "Jeg bor i …" },
+    { "term": "Ça va ?", "def": "Hvordan går det?" },
+    { "term": "tu / vous", "def": "du (uformelt) / De eller dere" },
+    { "term": "Merci", "def": "Takk" },
+    { "term": "S'il te plaît", "def": "Vær så snill" },
+    { "term": "De rien", "def": "Bare hyggelig / ingen årsak" },
+    { "term": "ç", "def": "c med cedille, uttales som s: ça, garçon" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva betyr «Comment tu t'appelles ?»", "options": ["Hvor bor du?", "Hvor gammel er du?", "Hva heter du?", "Hvordan går det?"], "correct": 2, "explain": "Du svarer med «Je m'appelle …»." },
+    { "id": "q02", "text": "Hvordan sier du «Jeg er tretten år» på fransk?", "options": ["J'ai treize ans.", "Je suis treize ans.", "J'ai treize.", "Je m'appelle treize."], "correct": 0, "explain": "På fransk bruker man «avoir» (å ha) om alder." },
+    { "id": "q03", "text": "Når bruker du «vous» i stedet for «tu»?", "options": ["Til bestevennen din", "Til kjæledyret ditt", "Til søsknene dine", "Til voksne du ikke kjenner, eller til flere personer"], "correct": 3, "explain": "«vous» er både høflighetsform og flertall." },
+    { "id": "q04", "text": "Hvilken hilsen er uformell?", "options": ["Bonjour", "Salut", "Bonsoir", "Au revoir"], "correct": 1, "explain": "«Salut» brukes blant venner." },
+    { "id": "q05", "text": "Hvordan uttales «ou» i «vous»?", "options": ["Som norsk «o»", "Som norsk «y»", "Som norsk «u»", "Som «au»"], "correct": 2, "explain": "«vous» uttales omtrent «vu»." },
+    { "id": "q06", "text": "Hva er ofte spesielt med konsonanter på slutten av franske ord?", "options": ["De uttales dobbelt", "De skrives med stor bokstav", "De har alltid aksent", "De er ofte stumme"], "correct": 3, "explain": "I «Paris» uttales ikke s-en." },
+    { "id": "q07", "text": "Hva betyr «De rien»?", "options": ["Bare hyggelig / ingen årsak", "Takk", "Unnskyld", "Ha det"], "correct": 0, "explain": "Du svarer «De rien» når noen sier «Merci»." },
+    { "id": "q08", "text": "Hvordan uttales «ç» i «ça»?", "options": ["Som k", "Som s", "Som sj", "Den er stum"], "correct": 1, "explain": "Cedillen viser at c skal uttales som s." },
+    { "id": "q09", "text": "Hva sier du når du bor i Bergen?", "options": ["Je suis Bergen.", "J'ai Bergen.", "Je m'appelle Bergen.", "J'habite à Bergen."], "correct": 3, "explain": "«habiter» betyr å bo." },
+    { "id": "q10", "text": "Hva er «la bise»?", "options": ["En type brød", "En hilsen på telefon", "Kinnkyss som hilsen", "En fransk sang"], "correct": 2, "explain": "Venner og familie hilser ofte med kinnkyss i Frankrike." }
+  ],
+  "mindmap": {
+    "label": "Hilsener og presentasjon",
+    "children": [
+      { "label": "Hilsener", "children": [
+        { "label": "Bonjour / Salut" },
+        { "label": "Bonsoir" },
+        { "label": "Au revoir / À bientôt" },
+        { "label": "La bise" }
+      ] },
+      { "label": "Om meg", "children": [
+        { "label": "Je m'appelle …" },
+        { "label": "J'ai … ans" },
+        { "label": "J'habite à …" },
+        { "label": "Ça va ?" }
+      ] },
+      { "label": "tu eller vous", "children": [
+        { "label": "tu", "note": "Venner og familie" },
+        { "label": "vous", "note": "Høflig eller flertall" }
+      ] },
+      { "label": "Uttale", "children": [
+        { "label": "Stumme endelser" },
+        { "label": "ou = u, u = y" },
+        { "label": "oi = oa" },
+        { "label": "Nasallyder" }
+      ] },
+      { "label": "Skrift og høflighet", "children": [
+        { "label": "é, è, ê" },
+        { "label": "ç" },
+        { "label": "merci, s'il te plaît, de rien" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Fransk snakkes i mange land i Afrika.", "correct": true, "explain": "For eksempel i Senegal og Elfenbenskysten." },
+      { "id": "m02", "type": "sant-usant", "text": "På fransk sier man «Je suis treize ans» om alderen sin.", "correct": false, "explain": "Det heter «J'ai treize ans»." },
+      { "id": "m03", "type": "sant-usant", "text": "«Salut» kan bety både hei og ha det.", "correct": true, "explain": "Ordet brukes uformelt i begge betydningene." },
+      { "id": "m04", "type": "sant-usant", "text": "Bokstaven h uttales alltid tydelig på fransk.", "correct": false, "explain": "h er stum, som i «hôtel»." },
+      { "id": "m05", "type": "flervalg", "text": "Hva betyr «Ça va bien, merci !»?", "options": ["Jeg heter Ça", "Det går bra, takk!", "Ha det bra!", "Vær så snill!"], "correct": 1, "explain": "Det er et vanlig svar på «Ça va ?»." },
+      { "id": "m06", "type": "flervalg", "text": "Hvordan uttales «oi» i «moi»?", "options": ["oa", "oi", "å", "y"], "correct": 0, "explain": "«moi» uttales omtrent «moa»." },
+      { "id": "m07", "type": "flervalg", "text": "Hva betyr «s'il te plaît»?", "options": ["Takk", "Unnskyld", "Vær så snill", "Velkommen"], "correct": 2, "explain": "Til voksne du ikke kjenner, sier du «s'il vous plaît»." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

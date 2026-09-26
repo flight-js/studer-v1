@@ -1,0 +1,86 @@
+{
+  "id": "land-og-kultur",
+  "fagId": "fransk-8",
+  "trinnId": "8",
+  "name": "Frankrike og den fransktalende verden",
+  "intro": "Geografi, mat, tradisjoner, historie og kultur i Frankrike og andre fransktalende land, og forbindelsene mellom Frankrike og Norge.",
+  "kompetansemaal": [8, 9],
+  "sammendrag": "## Frankrike\n\n**La France** har rundt 68 millioner innbyggere, og hovedstaden er **Paris**. Frankrike har kyst mot **Atlanterhavet**, **Middelhavet** og **Den engelske kanal**. I øst ligger **Alpene** med **Mont Blanc**, det høyeste fjellet i Alpene, og i sør ligger **Pyreneene**. Viktige elver er **la Seine**, som renner gjennom Paris, **la Loire**, kjent for sine slott, og **le Rhône**. Andre store byer er Marseille, Lyon, Toulouse og Nice. Frankrike har også områder langt unna, som Martinique i Karibia og Réunion i Det indiske hav.\n\n## La francophonie\n\nFransk er offisielt språk i nesten 30 land. I **Belgia**, **Sveits**, **Luxembourg** og **Canada**, særlig i **Québec**, snakker mange fransk. Fransk er også offisielt språk i mange land i **Afrika**, som **Senegal**, **Elfenbenskysten** og **Den demokratiske republikken Kongo**, og i **Haiti**.\n\n## Mat\n\n- **la baguette** – langt, sprøtt brød, kjøpt ferskt i **la boulangerie** (bakeriet)\n- **le croissant** og **le pain au chocolat** til frokost\n- **le fromage** – Frankrike har flere hundre ostesorter\n- **les crêpes** – tynne pannekaker fra Bretagne\n- **la quiche** – terte med egg og fyll\n\nLunsjen, **le déjeuner**, er tradisjonelt et viktig måltid, og mange familier spiser middag, **le dîner**, sammen om kvelden.\n\n## Tradisjoner\n\n- **Le 14 juillet** – nasjonaldagen, til minne om stormingen av Bastillen i **1789**, med parade og fyrverkeri\n- **La Chandeleur** (2. februar) – man spiser crêpes\n- **Le poisson d'avril** (1. april) – barn fester papirfisker på ryggen til folk som aprilspøk\n- **La Fête de la musique** (21. juni) – gratis konserter overalt\n- **Le Tour de France** – verdens mest kjente sykkelritt, hver sommer\n\n## Historie og kultur\n\nDen **franske revolusjonen** i 1789 ga Frankrike mottoet **Liberté, égalité, fraternité** – frihet, likhet og brorskap. **Eiffeltårnet** ble bygd i 1889, og kunstmuseet **Louvre** har blant annet *Mona Lisa*. Kjente franske kunstnere er maleren **Claude Monet** og sangeren **Édith Piaf**, og tegneserien **Astérix** er fransk. Frankrike har vunnet fotball-VM for menn to ganger, i 1998 og 2018.\n\n## Frankrike og Norge\n\nDen franske marskalken **Jean-Baptiste Bernadotte** ble konge av Sverige og Norge i 1818 under navnet **Karl Johan** – og ga navn til Karl Johans gate i Oslo. Norsk har også mange lånord fra fransk, som *restaurant*, *butikk*, *sjåfør*, *trottoar* og *parfyme*.",
+  "flashcards": [
+    { "term": "la France – Paris", "def": "Frankrike, med hovedstaden Paris" },
+    { "term": "la francophonie", "def": "Fellesskapet av fransktalende land og mennesker" },
+    { "term": "la Seine", "def": "Elva som renner gjennom Paris" },
+    { "term": "le Mont Blanc", "def": "Det høyeste fjellet i Alpene" },
+    { "term": "la baguette", "def": "Langt, sprøtt fransk brød" },
+    { "term": "la boulangerie", "def": "bakeriet" },
+    { "term": "le fromage", "def": "osten – Frankrike har flere hundre sorter" },
+    { "term": "les crêpes", "def": "tynne pannekaker fra Bretagne" },
+    { "term": "le 14 juillet", "def": "Frankrikes nasjonaldag" },
+    { "term": "la Chandeleur", "def": "2. februar, da man spiser crêpes" },
+    { "term": "le poisson d'avril", "def": "Aprilspøk der man fester en papirfisk på ryggen til noen" },
+    { "term": "Liberté, égalité, fraternité", "def": "Frihet, likhet, brorskap – Frankrikes motto" },
+    { "term": "la tour Eiffel", "def": "Eiffeltårnet i Paris, bygd i 1889" },
+    { "term": "le Tour de France", "def": "Verdens mest kjente sykkelritt" },
+    { "term": "Karl Johan", "def": "Den franske marskalken Bernadotte, konge av Sverige og Norge fra 1818" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvilken elv renner gjennom Paris?", "options": ["Loire", "Rhône", "Seinen", "Rhinen"], "correct": 2, "explain": "Loire er kjent for slottene langs elvebredden." },
+    { "id": "q02", "text": "Hva feirer franskmennene 14. juli?", "options": ["Nasjonaldagen, til minne om stormingen av Bastillen i 1789", "Jul", "Nyttår", "Påske"], "correct": 0, "explain": "Dagen feires med parade og fyrverkeri." },
+    { "id": "q03", "text": "Hva betyr «la francophonie»?", "options": ["Fransk musikk", "Fellesskapet av fransktalende land og mennesker", "En fransk telefon", "Den franske revolusjonen"], "correct": 1, "explain": "Fransk snakkes på fem kontinenter." },
+    { "id": "q04", "text": "Hva er «une boulangerie»?", "options": ["En restaurant", "En ostebutikk", "En slakter", "Et bakeri"], "correct": 3, "explain": "Her kjøper franskmenn fersk baguette hver dag." },
+    { "id": "q05", "text": "Hva er Frankrikes motto?", "options": ["Liberté, égalité, fraternité", "Tout pour la France", "Vive le roi", "Un pour tous"], "correct": 0, "explain": "Mottoet stammer fra den franske revolusjonen." },
+    { "id": "q06", "text": "Hva spiser man på la Chandeleur 2. februar?", "options": ["Baguetter", "Snegler", "Crêpes", "Ost"], "correct": 2, "explain": "De runde, gylne pannekakene minner om sola." },
+    { "id": "q07", "text": "Hvilket land er ikke fransktalende?", "options": ["Belgia", "Senegal", "Canada (Québec)", "Portugal"], "correct": 3, "explain": "I Portugal snakker man portugisisk." },
+    { "id": "q08", "text": "Hvilken franskmann ble konge av Sverige og Norge i 1818?", "options": ["Napoléon", "Jean-Baptiste Bernadotte (Karl Johan)", "Louis XIV", "Charles de Gaulle"], "correct": 1, "explain": "Karl Johans gate i Oslo er oppkalt etter ham." },
+    { "id": "q09", "text": "Hva er Mont Blanc?", "options": ["Det høyeste fjellet i Alpene", "En by", "En ost", "Et slott"], "correct": 0, "explain": "Mont Blanc ligger på grensen mellom Frankrike og Italia." },
+    { "id": "q10", "text": "Hva er Tour de France?", "options": ["En fotballturnering", "En musikkfestival", "Et stort sykkelritt", "En togtur"], "correct": 2, "explain": "Rittet arrangeres hver sommer og avsluttes i Paris." }
+  ],
+  "mindmap": {
+    "label": "Frankrike og francophonie",
+    "children": [
+      { "label": "Frankrike", "children": [
+        { "label": "Paris" },
+        { "label": "Seine, Loire, Rhône" },
+        { "label": "Alpene og Pyreneene" },
+        { "label": "Tre hav" }
+      ] },
+      { "label": "Francophonie", "children": [
+        { "label": "Belgia og Sveits" },
+        { "label": "Québec" },
+        { "label": "Afrika" },
+        { "label": "Haiti" }
+      ] },
+      { "label": "Mat", "children": [
+        { "label": "baguette og croissant" },
+        { "label": "fromage" },
+        { "label": "crêpes" }
+      ] },
+      { "label": "Tradisjoner", "children": [
+        { "label": "14 juillet" },
+        { "label": "Chandeleur" },
+        { "label": "poisson d'avril" },
+        { "label": "Tour de France" }
+      ] },
+      { "label": "Historie og kultur", "children": [
+        { "label": "Revolusjonen 1789" },
+        { "label": "Eiffeltårnet og Louvre" },
+        { "label": "Monet, Piaf, Astérix" },
+        { "label": "Karl Johan" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Mange norske ord, som «restaurant» og «sjåfør», kommer fra fransk.", "correct": true, "explain": "Fransk var lenge et viktig kulturspråk i Europa." },
+      { "id": "m02", "type": "sant-usant", "text": "Fransk snakkes bare i Frankrike.", "correct": false, "explain": "Fransk er offisielt språk i nesten 30 land." },
+      { "id": "m03", "type": "sant-usant", "text": "Eiffeltårnet ligger i Paris.", "correct": true, "explain": "Det ble bygd til verdensutstillingen i 1889." },
+      { "id": "m04", "type": "sant-usant", "text": "På «poisson d'avril» spiser man fisk til frokost.", "correct": false, "explain": "Det er en aprilspøk der man fester papirfisker på ryggen til folk." },
+      { "id": "m05", "type": "flervalg", "text": "Hva heter hovedstaden i Frankrike?", "options": ["Lyon", "Paris", "Marseille", "Bordeaux"], "correct": 1, "explain": "Paris er også landets største by." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilket berømt maleri henger i Louvre?", "options": ["Mona Lisa", "Skrik", "Solsikker", "Nattevakten"], "correct": 0, "explain": "Mona Lisa er malt av Leonardo da Vinci." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilken kjent tegneserie er fransk?", "options": ["Donald Duck", "Peanuts", "Astérix", "Garfield"], "correct": 2, "explain": "Astérix handler om en landsby i Gallia som kjemper mot romerne." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

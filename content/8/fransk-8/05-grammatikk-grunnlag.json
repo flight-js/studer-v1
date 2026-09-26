@@ -1,0 +1,84 @@
+{
+  "id": "grammatikk-grunnlag",
+  "fagId": "fransk-8",
+  "trinnId": "8",
+  "name": "Grammatikk – grunnlaget",
+  "intro": "Kjønn og artikler, flertall, personlige pronomen, bøying av verb på -er, de viktige verbene être og avoir, elisjon, nektelse, spørsmål og adjektiver.",
+  "kompetansemaal": [6],
+  "sammendrag": "## To kjønn – le og la\n\nFranske substantiver er enten **hankjønn** eller **hunkjønn**:\n\n- **le** – hankjønn: *le livre* (boka), *le chien*\n- **la** – hunkjønn: *la maison* (huset), *la table*\n- **l'** – foran vokal eller stum h: *l'école*, *l'hôtel*\n- **les** – alle ord i flertall: *les livres*\n\nDen ubestemte artikkelen er **un** (hankjønn), **une** (hunkjønn) og **des** (flertall): *un livre*, *une maison*, *des amis*. Kjønnet stemmer ofte ikke med norsk, så lær alltid ordet sammen med artikkelen.\n\n## Flertall\n\nDe fleste ord får **-s** i flertall: *le livre – les livres*. Denne s-en uttales vanligvis ikke, så det er artikkelen som viser at ordet står i flertall.\n\n## Personlige pronomen\n\n**je** (jeg), **tu** (du), **il** (han), **elle** (hun), **on** (man, i dagligtale ofte «vi»), **nous** (vi), **vous** (dere eller De), **ils** (de, om hankjønn eller en blandet gruppe) og **elles** (de, bare om hunkjønn).\n\n## Verb på -er\n\nDe fleste franske verb ender på **-er** og bøyes likt. Eksempel: **parler** (å snakke):\n\n- je parl**e**, tu parl**es**, il/elle/on parl**e**\n- nous parl**ons**, vous parl**ez**, ils/elles parl**ent**\n\nEndelsene **-e**, **-es** og **-ent** uttales ikke, så *je parle*, *tu parles* og *ils parlent* høres helt like ut. Andre verb som bøyes slik, er *habiter*, *aimer*, *jouer* og *regarder*.\n\n## Être og avoir\n\n- **être** (å være): je **suis**, tu **es**, il **est**, nous **sommes**, vous **êtes**, ils **sont**\n- **avoir** (å ha): j'**ai**, tu **as**, il **a**, nous **avons**, vous **avez**, ils **ont**\n\nHusk at alder uttrykkes med *avoir*: *J'ai quatorze ans.*\n\n## Elisjon\n\nSmå ord som **je**, **le**, **la** og **ne** mister vokalen foran ord som begynner med vokal eller stum h: *j'aime*, *l'ami*, *je n'ai pas*.\n\n## Nektelse\n\nNektelse lages med **ne … pas** rundt verbet: *Je **ne** parle **pas** allemand.* Foran vokal blir *ne* til **n'**: *Je **n'**aime **pas** le fromage.*\n\n## Spørsmål\n\n- Med stigende tone: *Tu parles français ?*\n- Med **est-ce que**: *Est-ce que tu parles français ?*\n- Med spørreord: **où** (hvor), **quand** (når), **comment** (hvordan), **pourquoi** (hvorfor), **qui** (hvem) og **combien** (hvor mye/mange): *Tu habites où ?*\n\n## Adjektiver\n\nAdjektiver bøyes etter kjønn og tall og står vanligvis **etter** substantivet: *un chat noir*, *une voiture noire*. Noen korte adjektiver, som *grand*, *petit* og *bon*, står foran: *un petit chien*.",
+  "flashcards": [
+    { "term": "le / la / l' / les", "def": "Bestemt artikkel: hankjønn / hunkjønn / foran vokal / flertall" },
+    { "term": "un / une / des", "def": "Ubestemt artikkel: hankjønn / hunkjønn / flertall" },
+    { "term": "je, tu, il, elle, on", "def": "jeg, du, han, hun, man/vi" },
+    { "term": "nous, vous, ils, elles", "def": "vi, dere/De, de (hankjønn eller blandet), de (hunkjønn)" },
+    { "term": "je parle", "def": "jeg snakker" },
+    { "term": "nous parlons", "def": "vi snakker" },
+    { "term": "vous parlez", "def": "dere snakker / De snakker" },
+    { "term": "ils parlent", "def": "de snakker – -ent uttales ikke" },
+    { "term": "être: je suis, tu es, il est", "def": "å være: jeg er, du er, han er" },
+    { "term": "nous sommes, vous êtes, ils sont", "def": "vi er, dere er, de er" },
+    { "term": "avoir: j'ai, tu as, il a", "def": "å ha: jeg har, du har, han har" },
+    { "term": "nous avons, vous avez, ils ont", "def": "vi har, dere har, de har" },
+    { "term": "ne … pas", "def": "ikke – står rundt verbet" },
+    { "term": "est-ce que", "def": "Innleder et spørsmål: Est-ce que tu parles français ?" },
+    { "term": "Elisjon", "def": "je, le, la og ne mister vokalen foran vokal: j'aime, l'ami" },
+    { "term": "un chat noir", "def": "en svart katt – de fleste adjektiver står etter substantivet" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvilken artikkel bruker du foran et hunkjønnsord i entall?", "options": ["le", "la", "les", "un"], "correct": 1, "explain": "For eksempel «la maison»." },
+    { "id": "q02", "text": "Hva er riktig form av «parler» med «nous»?", "options": ["nous parle", "nous parlez", "nous parlent", "nous parlons"], "correct": 3, "explain": "Med «nous» får verbet endingen -ons." },
+    { "id": "q03", "text": "Hvordan bøyes «être» med «vous»?", "options": ["vous sommes", "vous sont", "vous êtes", "vous es"], "correct": 2, "explain": "«nous sommes» betyr «vi er»." },
+    { "id": "q04", "text": "Hva er riktig form av «avoir» med «ils»?", "options": ["ils ont", "ils sont", "ils avons", "ils a"], "correct": 0, "explain": "Pass på: «ils sont» er fra «être»." },
+    { "id": "q05", "text": "Hvordan sier du «Jeg snakker ikke tysk»?", "options": ["Je pas parle allemand.", "Je parle ne pas allemand.", "Je ne parle pas allemand.", "Ne je parle pas allemand."], "correct": 2, "explain": "«ne» står foran verbet og «pas» etter." },
+    { "id": "q06", "text": "Hva skjer med «je» foran et ord som begynner med vokal?", "options": ["Det forsvinner", "Det blir til j'", "Det blir til jé", "Det blir til moi"], "correct": 1, "explain": "Dette kalles elisjon: «j'aime»." },
+    { "id": "q07", "text": "Hvordan kan du gjøre en setning om til et spørsmål?", "options": ["Ved å sette «pas» foran verbet", "Ved å bytte artikkel", "Ved å sette ordet i flertall", "Ved å sette «est-ce que» først i setningen"], "correct": 3, "explain": "Du kan også bare bruke stigende tone." },
+    { "id": "q08", "text": "Hva betyr «on» i dagligtale?", "options": ["Man eller vi", "Han", "Dere", "De"], "correct": 0, "explain": "«On y va !» betyr «Vi drar!»." },
+    { "id": "q09", "text": "Hvilke endelser av «parler» uttales likt?", "options": ["-ons og -ez", "-ez og -ent", "-e, -es og -ent", "-ons og -ent"], "correct": 2, "explain": "Alle tre er stumme." },
+    { "id": "q10", "text": "Hva er flertall av «le livre»?", "options": ["la livres", "le livres", "les livre", "les livres"], "correct": 3, "explain": "Både artikkelen og substantivet endres." }
+  ],
+  "mindmap": {
+    "label": "Grammatikk – grunnlaget",
+    "children": [
+      { "label": "Artikler", "children": [
+        { "label": "le, la, l'" },
+        { "label": "les" },
+        { "label": "un, une, des" }
+      ] },
+      { "label": "Pronomen", "children": [
+        { "label": "je, tu, il, elle, on" },
+        { "label": "nous, vous, ils, elles" }
+      ] },
+      { "label": "Verb", "children": [
+        { "label": "-er-verb: parler" },
+        { "label": "être" },
+        { "label": "avoir" },
+        { "label": "Stumme endelser" }
+      ] },
+      { "label": "Setninger", "children": [
+        { "label": "ne … pas" },
+        { "label": "est-ce que" },
+        { "label": "Spørreord" },
+        { "label": "Elisjon" }
+      ] },
+      { "label": "Adjektiver", "children": [
+        { "label": "Bøyes i kjønn og tall" },
+        { "label": "Står som regel etter" },
+        { "label": "petit, grand, bon foran" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Flertalls-s på slutten av franske ord uttales vanligvis ikke.", "correct": true, "explain": "Derfor er artikkelen viktig for å høre flertall." },
+      { "id": "m02", "type": "sant-usant", "text": "«ils sont» er en form av verbet «avoir».", "correct": false, "explain": "«ils sont» kommer fra «être». «ils ont» kommer fra «avoir»." },
+      { "id": "m03", "type": "sant-usant", "text": "De fleste adjektiver står etter substantivet på fransk.", "correct": true, "explain": "For eksempel «une voiture rouge»." },
+      { "id": "m04", "type": "sant-usant", "text": "«nous» betyr dere.", "correct": false, "explain": "«nous» betyr vi. Dere heter «vous»." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er riktig form av «avoir» med «tu»?", "options": ["tu es", "tu as", "tu a", "tu ai"], "correct": 1, "explain": "«tu es» kommer fra «être»." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilken ubestemt artikkel bruker du i flertall?", "options": ["des", "les", "un", "une"], "correct": 0, "explain": "«des amis» betyr «noen venner»." },
+      { "id": "m07", "type": "flervalg", "text": "Hva betyr spørreordet «où»?", "options": ["Hva", "Når", "Hvor", "Hvorfor"], "correct": 2, "explain": "«Tu habites où ?» betyr «Hvor bor du?»." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

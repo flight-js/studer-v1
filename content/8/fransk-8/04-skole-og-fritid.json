@@ -1,0 +1,83 @@
+{
+  "id": "skole-og-fritid",
+  "fagId": "fransk-8",
+  "trinnId": "8",
+  "name": "Skole og fritid",
+  "intro": "Skolefag, meninger og fritidsaktiviteter på fransk, forskjellen på jouer à og jouer de, nektelse med ne … pas, og hvordan skolen er i Frankrike.",
+  "kompetansemaal": [2, 3],
+  "sammendrag": "## Skolefag – les matières\n\n**les maths**, **le français**, **l'anglais**, **le norvégien**, **l'histoire**, **la géographie**, **les sciences** (naturfag), **la musique**, **les arts plastiques** (kunst og håndverk) og **l'EPS** (kroppsøving).\n\n- **Ma matière préférée, c'est l'anglais.** – Yndlingsfaget mitt er engelsk.\n- **J'aime les maths.** / **Je n'aime pas l'histoire.** / **J'adore la musique.** / **Je déteste la géographie.**\n- **C'est intéressant / ennuyeux / facile / difficile.** – Det er interessant / kjedelig / lett / vanskelig.\n\nPå fransk bruker man **bestemt artikkel** etter *aimer*: *J'aime **les** maths.*\n\nI klasserommet: **le professeur** eller **le/la prof** (læreren), **l'élève** (eleven), **le cahier** (skriveboka), **le stylo** (pennen) og **la trousse** (pennalet).\n\n## Fritid – les loisirs\n\n- **nager** – svømme, **lire** – lese, **dessiner** – tegne, **danser** – danse\n- **écouter de la musique** – høre på musikk\n- **regarder des séries** – se serier\n- **faire du vélo** – sykle, **faire du sport** – drive med sport\n- **sortir avec des amis** – gå ut med venner\n- **jouer aux jeux vidéo** – spille dataspill\n\n## Jouer à eller jouer de?\n\n- Om **sport og spill** bruker du **jouer à**: *jouer **au** foot*, *jouer **au** tennis*.\n- Om **instrumenter** bruker du **jouer de**: *jouer **de la** guitare*, *jouer **du** piano*.\n\n## Å like å gjøre noe\n\nEtter **aimer** kan du sette et verb i infinitiv:\n\n- **J'aime lire.** – Jeg liker å lese.\n- **Je n'aime pas nager.** – Jeg liker ikke å svømme.\n- **Qu'est-ce que tu aimes faire ?** – Hva liker du å gjøre?\n\nNektelse lages med **ne … pas** rundt verbet: *Je **ne** joue **pas** au foot.*\n\n## Hvor ofte?\n\n**toujours** (alltid), **souvent** (ofte), **parfois** (noen ganger), **rarement** (sjelden) og **ne … jamais** (aldri): *Je ne nage jamais.* **Le week-end** betyr i helgen.\n\n## Skolen i Frankrike\n\nEtter **l'école primaire** går elevene på **le collège** fra de er rundt 11 til 15 år. Klassetrinnene telles **nedover**, fra *sixième* (6e) til *troisième* (3e). Deretter kommer **le lycée**, som avsluttes med eksamenen **le bac**. Karakterene gis ofte på en skala fra **0 til 20**, der 10 regnes som bestått. Skoledagene er lange, og mange elever spiser lunsj i skolens kantine.",
+  "flashcards": [
+    { "term": "ma matière préférée", "def": "yndlingsfaget mitt" },
+    { "term": "les maths", "def": "matte" },
+    { "term": "l'EPS", "def": "kroppsøving" },
+    { "term": "l'histoire", "def": "historie" },
+    { "term": "C'est ennuyeux.", "def": "Det er kjedelig." },
+    { "term": "facile / difficile", "def": "lett / vanskelig" },
+    { "term": "le professeur / le prof", "def": "læreren" },
+    { "term": "J'aime lire.", "def": "Jeg liker å lese." },
+    { "term": "Je n'aime pas nager.", "def": "Jeg liker ikke å svømme." },
+    { "term": "jouer au foot", "def": "spille fotball" },
+    { "term": "jouer de la guitare", "def": "spille gitar" },
+    { "term": "dessiner", "def": "å tegne" },
+    { "term": "le week-end", "def": "i helgen" },
+    { "term": "souvent / parfois / jamais", "def": "ofte / noen ganger / aldri" },
+    { "term": "le collège", "def": "ungdomsskolen i Frankrike, for elever fra ca. 11 til 15 år" },
+    { "term": "karakter 0–20", "def": "Vanlig karakterskala i Frankrike. 10 regnes som bestått." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvordan sier du «Jeg liker å lese»?", "options": ["J'aime lire.", "Je lis aime.", "J'aime de lire.", "Je aime lire."], "correct": 0, "explain": "«aimer» etterfølges av infinitiv, og «je» blir «j'» foran vokal." },
+    { "id": "q02", "text": "Hva betyr «ennuyeux»?", "options": ["Morsom", "Lett", "Kjedelig", "Vanskelig"], "correct": 2, "explain": "Ordet er i slekt med engelsk «annoying»." },
+    { "id": "q03", "text": "Hvordan sier du «spille fotball»?", "options": ["jouer de la foot", "faire le foot", "jouer du foot", "jouer au foot"], "correct": 3, "explain": "Med sport og spill bruker du «jouer à»." },
+    { "id": "q04", "text": "Hvordan sier du «spille gitar»?", "options": ["jouer à la guitare", "jouer de la guitare", "faire la guitare", "jouer guitare"], "correct": 1, "explain": "Med instrumenter bruker du «jouer de»." },
+    { "id": "q05", "text": "Hva er «le collège» i Frankrike?", "options": ["Universitetet", "Barnehagen", "Videregående skole", "Ungdomsskolen for elever fra ca. 11 til 15 år"], "correct": 3, "explain": "Videregående heter «le lycée»." },
+    { "id": "q06", "text": "Hvilken karakterskala brukes ofte i franske skoler?", "options": ["0 til 20", "1 til 6", "A til F", "1 til 10"], "correct": 0, "explain": "10 av 20 regnes som bestått." },
+    { "id": "q07", "text": "Hva betyr «parfois»?", "options": ["Alltid", "Noen ganger", "Aldri", "Ofte"], "correct": 1, "explain": "«souvent» betyr ofte, og «jamais» betyr aldri." },
+    { "id": "q08", "text": "Hva heter faget kroppsøving på fransk?", "options": ["les arts plastiques", "la musique", "l'EPS", "l'histoire"], "correct": 2, "explain": "EPS står for «éducation physique et sportive»." },
+    { "id": "q09", "text": "Hvordan spør du «Hva liker du å gjøre?»", "options": ["Qu'est-ce que tu aimes faire ?", "Tu habites où ?", "Quelle heure est-il ?", "Ça va ?"], "correct": 0, "explain": "«faire» betyr å gjøre." },
+    { "id": "q10", "text": "Hva betyr «Ma matière préférée, c'est l'histoire»?", "options": ["Jeg liker ikke historie", "Historie er vanskelig", "Læreren min underviser i historie", "Yndlingsfaget mitt er historie"], "correct": 3, "explain": "«préféré» betyr yndlings-." }
+  ],
+  "mindmap": {
+    "label": "Skole og fritid",
+    "children": [
+      { "label": "Fag", "children": [
+        { "label": "maths, français, anglais" },
+        { "label": "EPS, musique" },
+        { "label": "matière préférée" }
+      ] },
+      { "label": "Meninger", "children": [
+        { "label": "J'aime / j'adore" },
+        { "label": "Je n'aime pas / je déteste" },
+        { "label": "facile / difficile" }
+      ] },
+      { "label": "Fritid", "children": [
+        { "label": "nager, lire" },
+        { "label": "dessiner, danser" },
+        { "label": "faire du vélo" }
+      ] },
+      { "label": "Grammatikk", "children": [
+        { "label": "jouer à / jouer de" },
+        { "label": "aimer + infinitiv" },
+        { "label": "ne … pas / ne … jamais" }
+      ] },
+      { "label": "Skolen i Frankrike", "children": [
+        { "label": "collège og lycée" },
+        { "label": "6e til 3e" },
+        { "label": "Karakter 0–20" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Etter «aimer» kan du bruke et verb i infinitiv, som «J'aime danser».", "correct": true, "explain": "Det betyr «Jeg liker å danse»." },
+      { "id": "m02", "type": "sant-usant", "text": "«jamais» betyr alltid.", "correct": false, "explain": "«ne … jamais» betyr aldri. Alltid heter «toujours»." },
+      { "id": "m03", "type": "sant-usant", "text": "På franske ungdomsskoler telles klassetrinnene nedover, fra 6e til 3e.", "correct": true, "explain": "Elevene begynner i «sixième» og slutter i «troisième»." },
+      { "id": "m04", "type": "sant-usant", "text": "Man sier «jouer au piano» om å spille piano.", "correct": false, "explain": "Med instrumenter bruker man «jouer de»: «jouer du piano»." },
+      { "id": "m05", "type": "flervalg", "text": "Hva betyr «dessiner»?", "options": ["Å danse", "Å tegne", "Å svømme", "Å lese"], "correct": 1, "explain": "Ordet er i slekt med norsk «design»." },
+      { "id": "m06", "type": "flervalg", "text": "Hva betyr «le week-end»?", "options": ["Helgen", "Ferien", "Kvelden", "Uken"], "correct": 0, "explain": "Ordet er lånt fra engelsk." },
+      { "id": "m07", "type": "flervalg", "text": "Hva betyr «C'est difficile»?", "options": ["Det er lett", "Det er morsomt", "Det er vanskelig", "Det er kjedelig"], "correct": 2, "explain": "Lett heter «facile»." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
