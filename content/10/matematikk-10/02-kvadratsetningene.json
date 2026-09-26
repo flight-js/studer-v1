@@ -1,0 +1,79 @@
+{
+  "id": "kvadratsetningene",
+  "fagId": "matematikk-10",
+  "trinnId": "10",
+  "name": "Kvadratsetningene",
+  "intro": "De tre kvadratsetningene, hvordan de kan vises geometrisk med kvadrater og rektangler, og hvordan du bruker dem til hoderegning og faktorisering.",
+  "kompetansemaal": [2],
+  "sammendrag": "## De tre kvadratsetningene\n\nKvadratsetningene er tre formler for å gange ut spesielle parenteser raskt:\n\n- **Første kvadratsetning**: (a + b)² = a² + 2ab + b²\n- **Andre kvadratsetning**: (a − b)² = a² − 2ab + b²\n- **Tredje kvadratsetning** (konjugatsetningen): (a + b)(a − b) = a² − b²\n\nDe følger av vanlig multiplikasjon av parenteser. (a + b)² = (a + b)(a + b) = a² + ab + ba + b² = a² + 2ab + b². En svært vanlig feil er å skrive (a + b)² = a² + b². Da mangler det doble midtleddet 2ab.\n\n## Geometrisk tolkning\n\nFørste kvadratsetning kan tegnes. Et kvadrat med side a + b har areal (a + b)². Deler vi sidene i a og b, består kvadratet av ett kvadrat med areal a², ett med areal b² og to rektangler med areal ab hver. Til sammen blir det a² + 2ab + b². Tegningen viser tydelig hvor midtleddet kommer fra.\n\nTredje kvadratsetning kan også vises: Fra et kvadrat med areal a² klipper vi bort et lite kvadrat med areal b². Resten kan klippes og legges om til et rektangel med sidene a + b og a − b.\n\n## Kvadratsetningene som regnestrategi\n\nKvadratsetningene gjør hoderegning lettere:\n\n- 51² = (50 + 1)² = 2500 + 100 + 1 = 2601\n- 49² = (50 − 1)² = 2500 − 100 + 1 = 2401\n- 31 · 29 = (30 + 1)(30 − 1) = 900 − 1 = 899\n\n## Faktorisering baklengs\n\nKvadratsetningene kan også brukes den andre veien, for å faktorisere:\n\n- x² + 6x + 9 = (x + 3)², fordi 9 = 3² og 6x = 2 · x · 3.\n- x² − 10x + 25 = (x − 5)².\n- x² − 16 = (x + 4)(x − 4).\n\nFor å kjenne igjen et fullstendig kvadrat sjekker du om første og siste ledd er kvadrater, og om midtleddet er to ganger produktet av det som står i andre potens. Faktorisering med kvadratsetningene brukes senere til å forkorte brøker og løse andregradslikninger.",
+  "flashcards": [
+    { "term": "Første kvadratsetning", "def": "(a + b)² = a² + 2ab + b²" },
+    { "term": "Andre kvadratsetning", "def": "(a − b)² = a² − 2ab + b²" },
+    { "term": "Tredje kvadratsetning", "def": "(a + b)(a − b) = a² − b². Kalles også konjugatsetningen." },
+    { "term": "Midtleddet 2ab", "def": "Leddet som kommer fra de to rektanglene med areal ab. Glemmes ofte." },
+    { "term": "Vanlig feil", "def": "(a + b)² er ikke a² + b². Midtleddet 2ab mangler da." },
+    { "term": "Geometrisk bevis", "def": "Et kvadrat med side a + b deles i a², b² og to rektangler ab." },
+    { "term": "Konjugater", "def": "Parentesene (a + b) og (a − b). Produktet blir a² − b²." },
+    { "term": "Differansen av to kvadrater", "def": "a² − b² = (a + b)(a − b). Eksempel: x² − 16 = (x + 4)(x − 4)." },
+    { "term": "51²", "def": "(50 + 1)² = 2500 + 100 + 1 = 2601" },
+    { "term": "49²", "def": "(50 − 1)² = 2500 − 100 + 1 = 2401" },
+    { "term": "31 · 29", "def": "(30 + 1)(30 − 1) = 900 − 1 = 899" },
+    { "term": "Fullstendig kvadrat", "def": "Et uttrykk som x² + 6x + 9, som kan skrives som (x + 3)²." },
+    { "term": "Kjenne igjen fullstendig kvadrat", "def": "Første og siste ledd er kvadrater, og midtleddet er 2 · (første rot) · (andre rot)." },
+    { "term": "Faktorisere baklengs", "def": "Bruke kvadratsetningene fra høyre mot venstre: x² − 10x + 25 = (x − 5)²." },
+    { "term": "Bruk av kvadratsetningene", "def": "Hoderegning, faktorisering, forkorting av brøker og løsning av andregradslikninger." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er (x + 3)²?", "options": ["x² + 9", "x² + 6x + 9", "x² + 3x + 9", "2x + 6"], "correct": 1, "explain": "Første kvadratsetning: x² + 2 · x · 3 + 3² = x² + 6x + 9." },
+    { "id": "q02", "text": "Hva er (a − 4)²?", "options": ["a² − 16", "a² + 8a + 16", "a² − 8a − 16", "a² − 8a + 16"], "correct": 3, "explain": "Andre kvadratsetning: a² − 2 · a · 4 + 4² = a² − 8a + 16. Det siste leddet er alltid positivt." },
+    { "id": "q03", "text": "Hva er (x + 5)(x − 5)?", "options": ["x² − 25", "x² + 25", "x² − 10x − 25", "x² − 10"], "correct": 0, "explain": "Tredje kvadratsetning: x² − 5² = x² − 25. Midtleddene opphever hverandre." },
+    { "id": "q04", "text": "Hvilken feil er vanligst med første kvadratsetning?", "options": ["Å skrive a² − b²", "Å bytte fortegn på a²", "Å glemme midtleddet 2ab", "Å gange med 3"], "correct": 2, "explain": "Mange skriver (a + b)² = a² + b² og glemmer 2ab, som tilsvarer de to rektanglene i figuren." },
+    { "id": "q05", "text": "Regn ut 51² med første kvadratsetning.", "options": ["2501", "2601", "2551", "2511"], "correct": 1, "explain": "(50 + 1)² = 2500 + 2 · 50 · 1 + 1 = 2500 + 100 + 1 = 2601." },
+    { "id": "q06", "text": "Regn ut 31 · 29.", "options": ["899", "901", "869", "929"], "correct": 0, "explain": "(30 + 1)(30 − 1) = 30² − 1² = 900 − 1 = 899." },
+    { "id": "q07", "text": "Faktoriser x² + 6x + 9.", "options": ["(x + 9)(x + 1)", "(x + 6)(x + 3)", "(x − 3)²", "(x + 3)²"], "correct": 3, "explain": "9 = 3² og 6x = 2 · x · 3, så uttrykket er et fullstendig kvadrat: (x + 3)²." },
+    { "id": "q08", "text": "Faktoriser x² − 16.", "options": ["(x − 4)²", "(x + 4)(x − 4)", "(x − 8)(x + 2)", "(x + 16)(x − 1)"], "correct": 1, "explain": "Differansen av to kvadrater: x² − 4² = (x + 4)(x − 4)." },
+    { "id": "q09", "text": "I figuren for (a + b)², hva tilsvarer leddet 2ab?", "options": ["Det store kvadratet", "Det lille kvadratet", "De to rektanglene", "Hele figuren"], "correct": 2, "explain": "Kvadratet med side a + b består av a², b² og to rektangler på a · b. Rektanglene gir 2ab." },
+    { "id": "q10", "text": "Hva er (2x + 1)²?", "options": ["4x² + 4x + 1", "2x² + 4x + 1", "4x² + 1", "4x² + 2x + 1"], "correct": 0, "explain": "(2x)² + 2 · 2x · 1 + 1² = 4x² + 4x + 1. Husk at hele 2x skal opphøyes." }
+  ],
+  "mindmap": {
+    "label": "Kvadratsetningene",
+    "children": [
+      { "label": "Setningene", "children": [
+        { "label": "(a + b)²", "note": "a² + 2ab + b²" },
+        { "label": "(a − b)²", "note": "a² − 2ab + b²" },
+        { "label": "(a + b)(a − b)", "note": "a² − b²" }
+      ] },
+      { "label": "Geometri", "children": [
+        { "label": "Kvadrat med side a + b" },
+        { "label": "a², b² og to rektangler ab" }
+      ] },
+      { "label": "Hoderegning", "children": [
+        { "label": "51² = 2601" },
+        { "label": "49² = 2401" },
+        { "label": "31 · 29 = 899" }
+      ] },
+      { "label": "Faktorisering", "children": [
+        { "label": "Fullstendig kvadrat", "note": "x² + 6x + 9 = (x + 3)²" },
+        { "label": "Differanse av kvadrater", "note": "x² − 16 = (x + 4)(x − 4)" }
+      ] },
+      { "label": "Feller", "children": [
+        { "label": "Glemt 2ab" },
+        { "label": "(2x)² = 4x²", "note": "Ikke 2x²" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q05", "q06", "q07", "q08", "q10"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "(a + b)² = a² + b².", "correct": false, "explain": "Midtleddet mangler. Riktig er a² + 2ab + b²." },
+      { "id": "m02", "type": "sant-usant", "text": "(a − b)² har alltid et positivt siste ledd.", "correct": true, "explain": "Siste ledd er b², og et kvadrat er aldri negativt." },
+      { "id": "m03", "type": "sant-usant", "text": "x² + 4 kan faktoriseres med tredje kvadratsetning.", "correct": false, "explain": "Tredje kvadratsetning gjelder differansen av to kvadrater, a² − b². En sum av kvadrater kan ikke faktoriseres slik." },
+      { "id": "m04", "type": "sant-usant", "text": "99² = 9801.", "correct": true, "explain": "(100 − 1)² = 10 000 − 200 + 1 = 9801." },
+      { "id": "m05", "type": "flervalg", "text": "Faktoriser x² − 10x + 25.", "options": ["(x + 5)²", "(x − 5)(x + 5)", "(x − 25)(x − 1)", "(x − 5)²"], "correct": 3, "explain": "25 = 5² og −10x = −2 · x · 5. Det er andre kvadratsetning baklengs: (x − 5)²." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er 102 · 98?", "options": ["9996", "10 004", "9604", "9994"], "correct": 0, "explain": "(100 + 2)(100 − 2) = 10 000 − 4 = 9996." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er (3 − y)²?", "options": ["9 − y²", "9 − 6y + y²", "9 + 6y + y²", "9 − 3y + y²"], "correct": 1, "explain": "Andre kvadratsetning: 3² − 2 · 3 · y + y² = 9 − 6y + y²." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

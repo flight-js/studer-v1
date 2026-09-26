@@ -1,0 +1,76 @@
+{
+  "id": "likningssett",
+  "fagId": "matematikk-10",
+  "trinnId": "10",
+  "name": "Likningssett",
+  "intro": "To likninger med to ukjente: innsettingsmetoden, addisjonsmetoden, grafisk løsning og hvordan du lager likningssett til praktiske problemer.",
+  "kompetansemaal": [3],
+  "sammendrag": "## Hva er et likningssett?\n\nEt **likningssett** består av to (eller flere) likninger med to (eller flere) ukjente. Løsningen er de verdiene av x og y som passer i begge likningene samtidig. Med én likning og to ukjente finnes det uendelig mange løsninger, men to likninger gir som regel én bestemt løsning.\n\nEksempel:\n\n- x + y = 10\n- x − y = 4\n\nLøsningen er x = 7 og y = 3, fordi 7 + 3 = 10 og 7 − 3 = 4.\n\n## Innsettingsmetoden\n\n1. Løs den ene likningen for én av de ukjente, for eksempel y = 10 − x.\n2. Sett uttrykket inn i den andre likningen: x − (10 − x) = 4.\n3. Løs likningen: 2x − 10 = 4, altså x = 7.\n4. Sett x inn igjen for å finne y: y = 10 − 7 = 3.\n\n## Addisjonsmetoden\n\nVi legger sammen eller trekker fra likningene slik at én ukjent forsvinner. I eksempelet gir summen av likningene (x + y) + (x − y) = 10 + 4, altså 2x = 14 og x = 7. Noen ganger må vi først gange en av likningene med et tall, slik at koeffisientene foran én av de ukjente blir motsatte tall.\n\n## Grafisk løsning\n\nHver lineære likning kan skrives som en funksjon, for eksempel y = −x + 10 og y = x − 4. Grafene er rette linjer, og løsningen er **skjæringspunktet** mellom dem, her (7, 3). Grafisk løsning gir god oversikt og kan gjøres i et digitalt verktøy.\n\nTo linjer kan også være parallelle. Da har likningssettet ingen løsning. Er de to likningene egentlig samme linje, har det uendelig mange løsninger.\n\n## Praktiske problemer\n\nLikningssett passer når vi har to ukjente størrelser og to opplysninger om dem. «På en konsert ble det solgt 300 billetter. Voksne betalte 250 kr og barn 100 kr. Inntekten ble 54 000 kr. Hvor mange voksne var det?» La v være antall voksne og b antall barn:\n\n- v + b = 300\n- 250v + 100b = 54 000\n\nMed innsetting: b = 300 − v gir 250v + 100(300 − v) = 54 000, altså 150v = 24 000 og v = 160. Da er b = 140.\n\nForklar alltid hva variablene står for, og kontroller svaret i begge likningene. Vurder også om svaret gir mening: antall billetter må være hele, positive tall.",
+  "flashcards": [
+    { "term": "Likningssett", "def": "To eller flere likninger med to eller flere ukjente som skal gjelde samtidig." },
+    { "term": "Løsning av likningssett", "def": "Verdiene av de ukjente som passer i alle likningene samtidig." },
+    { "term": "Innsettingsmetoden", "def": "Løs én likning for én ukjent, og sett uttrykket inn i den andre likningen." },
+    { "term": "Addisjonsmetoden", "def": "Legg sammen eller trekk fra likningene slik at én ukjent forsvinner." },
+    { "term": "Motsatte koeffisienter", "def": "For eksempel +y og −y. Da forsvinner y når likningene legges sammen." },
+    { "term": "Gange en likning", "def": "Begge sider ganges med samme tall, ofte for å få motsatte koeffisienter før addisjon." },
+    { "term": "Grafisk løsning", "def": "Tegn begge likningene som linjer. Skjæringspunktet er løsningen." },
+    { "term": "Skjæringspunkt", "def": "Punktet der to grafer krysser hverandre." },
+    { "term": "Parallelle linjer", "def": "Linjer med samme stigningstall som aldri møtes. Likningssettet har da ingen løsning." },
+    { "term": "Sammenfallende linjer", "def": "To likninger som beskriver samme linje. Da er det uendelig mange løsninger." },
+    { "term": "Sette prøve", "def": "Sjekke at løsningen stemmer i begge de opprinnelige likningene." },
+    { "term": "Definere variabler", "def": "Skriv hva hver bokstav står for, for eksempel v = antall voksne." },
+    { "term": "To opplysninger", "def": "For å finne to ukjente trenger vi to uavhengige opplysninger, altså to likninger." },
+    { "term": "Løse for y", "def": "Omforme en likning så y står alene: x + y = 10 gir y = 10 − x." },
+    { "term": "Vurdere svaret", "def": "Sjekke at løsningen gir mening i situasjonen, for eksempel hele, positive antall." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er løsningen av likningssettet x + y = 10 og x − y = 4?", "options": ["x = 6, y = 4", "x = 7, y = 3", "x = 3, y = 7", "x = 5, y = 5"], "correct": 1, "explain": "Legg sammen likningene: 2x = 14, så x = 7. Da er y = 10 − 7 = 3. Sjekk: 7 − 3 = 4." },
+    { "id": "q02", "text": "Hva er første steg i innsettingsmetoden?", "options": ["Tegne grafene", "Legge sammen likningene", "Løse én likning for én av de ukjente", "Gange begge likningene med 2"], "correct": 2, "explain": "I innsettingsmetoden uttrykker du først én ukjent ved hjelp av den andre, for eksempel y = 10 − x." },
+    { "id": "q03", "text": "Løs likningssettet y = 2x og x + y = 9.", "options": ["x = 3, y = 6", "x = 6, y = 3", "x = 2, y = 7", "x = 4,5, y = 4,5"], "correct": 0, "explain": "Sett y = 2x inn i den andre: x + 2x = 9, så 3x = 9 og x = 3. Da er y = 2 · 3 = 6." },
+    { "id": "q04", "text": "Hva betyr skjæringspunktet mellom to linjer i et grafisk likningssett?", "options": ["At likningssettet ikke har løsning", "Stigningstallet", "Konstantleddet", "Løsningen av likningssettet"], "correct": 3, "explain": "Skjæringspunktet ligger på begge linjene, så koordinatene passer i begge likningene." },
+    { "id": "q05", "text": "Hva skjer hvis linjene i et likningssett er parallelle?", "options": ["Det finnes uendelig mange løsninger", "Det finnes ingen løsning", "x = 0", "Løsningen er origo"], "correct": 1, "explain": "Parallelle linjer møtes aldri, så det finnes ingen punkt som ligger på begge." },
+    { "id": "q06", "text": "Løs 2x + y = 11 og x − y = 1 med addisjonsmetoden.", "options": ["x = 4, y = 3", "x = 3, y = 5", "x = 5, y = 1", "x = 6, y = 5"], "correct": 0, "explain": "Legg sammen: 3x = 12, så x = 4. Sett inn: 4 − y = 1 gir y = 3. Sjekk: 2 · 4 + 3 = 11." },
+    { "id": "q07", "text": "300 billetter ble solgt, voksne til 250 kr og barn til 100 kr, totalt 54 000 kr. Hvilket likningssett passer?", "options": ["v + b = 54 000 og 250v + 100b = 300", "v · b = 300 og v + b = 54 000", "250v + 100b = 300 og v − b = 54 000", "v + b = 300 og 250v + 100b = 54 000"], "correct": 3, "explain": "Antall billetter gir v + b = 300. Inntekten gir 250v + 100b = 54 000." },
+    { "id": "q08", "text": "Hvor mange voksne var det på konserten i spørsmålet over?", "options": ["140", "150", "160", "216"], "correct": 2, "explain": "b = 300 − v gir 250v + 30 000 − 100v = 54 000, så 150v = 24 000 og v = 160." },
+    { "id": "q09", "text": "Hvorfor trenger vi to likninger for å finne to ukjente?", "options": ["Fordi én likning med to ukjente har uendelig mange løsninger", "Fordi det er en regel i matematikken uten grunn", "Fordi det gjør regningen raskere", "Fordi to likninger alltid har samme løsning"], "correct": 0, "explain": "x + y = 10 har løsninger som 1 og 9, 2 og 8 osv. En opplysning til trengs for å peke ut én løsning." },
+    { "id": "q10", "text": "Hvilket tall må du gange den andre likningen med for å fjerne y? 3x + 2y = 12 og x − y = 1", "options": ["−2", "3", "2", "−3"], "correct": 2, "explain": "Ganger du x − y = 1 med 2, får du 2x − 2y = 2. Legger du den til den første, forsvinner y: 5x = 14." }
+  ],
+  "mindmap": {
+    "label": "Likningssett",
+    "children": [
+      { "label": "Begrep", "children": [
+        { "label": "To likninger, to ukjente" },
+        { "label": "Løsning passer i begge" }
+      ] },
+      { "label": "Metoder", "children": [
+        { "label": "Innsetting", "note": "Løs for én, sett inn" },
+        { "label": "Addisjon", "note": "Fjern én ukjent" },
+        { "label": "Grafisk", "note": "Skjæringspunkt" }
+      ] },
+      { "label": "Antall løsninger", "children": [
+        { "label": "Én", "note": "Linjene krysser" },
+        { "label": "Ingen", "note": "Parallelle linjer" },
+        { "label": "Uendelig mange", "note": "Samme linje" }
+      ] },
+      { "label": "Praksis", "children": [
+        { "label": "Definer variablene" },
+        { "label": "To opplysninger → to likninger" },
+        { "label": "Sett prøve og vurder" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "En løsning av et likningssett må passe i begge likningene.", "correct": true, "explain": "Det er nettopp det som gjør den til en løsning av settet." },
+      { "id": "m02", "type": "sant-usant", "text": "Et likningssett med to lineære likninger har alltid nøyaktig én løsning.", "correct": false, "explain": "Er linjene parallelle, er det ingen løsning. Er de samme linje, er det uendelig mange." },
+      { "id": "m03", "type": "sant-usant", "text": "x = 2, y = 5 er løsningen av x + y = 7 og 2x − y = −1.", "correct": true, "explain": "2 + 5 = 7 og 2 · 2 − 5 = −1. Begge likningene stemmer." },
+      { "id": "m04", "type": "sant-usant", "text": "Grafisk løsning av et likningssett gir alltid et nøyaktig svar.", "correct": false, "explain": "Avlesning fra en graf kan være unøyaktig. Et digitalt verktøy eller regning gir sikrere svar." },
+      { "id": "m05", "type": "flervalg", "text": "Løs x + 2y = 8 og x − 2y = 0.", "options": ["x = 4, y = 2", "x = 2, y = 4", "x = 8, y = 0", "x = 0, y = 4"], "correct": 0, "explain": "Legg sammen: 2x = 8, så x = 4. Da er 4 − 2y = 0, altså y = 2." },
+      { "id": "m06", "type": "flervalg", "text": "Et eple og en banan koster 12 kr. To epler og en banan koster 17 kr. Hva koster et eple?", "options": ["7 kr", "5 kr", "6 kr", "4 kr"], "correct": 1, "explain": "Trekk den første likningen fra den andre: e = 17 − 12 = 5 kr. Da koster bananen 7 kr." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilket par av linjer gir ingen løsning?", "options": ["y = 2x + 1 og y = −x + 4", "y = x og y = −x", "y = 3x + 1 og y = 3x − 2", "y = x + 2 og y = 2x + 2"], "correct": 2, "explain": "Begge har stigningstall 3, men ulikt konstantledd. De er parallelle og møtes aldri." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

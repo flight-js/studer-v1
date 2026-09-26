@@ -1,0 +1,66 @@
+{
+  "id": "matematikk-10",
+  "trinnId": "10",
+  "name": "Matematikk",
+  "lareplan": {
+    "kode": "MAT01-06",
+    "url": "https://www.udir.no/lk20/mat01-06/kompetansemaal-og-vurdering/kv1029",
+    "kompetansemaal": [
+      {
+        "nr": 1,
+        "tekst": "bruke reknereglar og generalisere samanhengar algebraisk"
+      },
+      {
+        "nr": 2,
+        "tekst": "utforske kvadratsetningane geometrisk og algebraisk og bruke kvadratsetningane som reknestrategiar"
+      },
+      {
+        "nr": 3,
+        "tekst": "lage, løyse og forklare likningssett knytte til praktiske situasjonar"
+      },
+      {
+        "nr": 4,
+        "tekst": "utforske og samanlikne eigenskapar ved lineære funksjonar, eksponentialfunksjonar, brøkfunksjonar og andregradsfunksjonar ved å bruke digitale verktøy"
+      },
+      {
+        "nr": 5,
+        "tekst": "forklare omgrepet endring per eining og rekne ut stigningstalet til lineære funksjonar"
+      },
+      {
+        "nr": 6,
+        "tekst": "utforske og forklare samanhengen mellom konstant prosentvis endring, vekstfaktor og eksponentialfunksjonar"
+      },
+      {
+        "nr": 7,
+        "tekst": "hente ut og tolke relevant informasjon og reflektere over moglege konsekvensar ved kjøp og sal, renter på sparing, lån og kredittkjøp"
+      },
+      {
+        "nr": 8,
+        "tekst": "planleggje, utføre og presentere eit utforskande arbeid knytt til personleg økonomi"
+      },
+      {
+        "nr": 9,
+        "tekst": "modellere situasjonar, presentere resultata og vurdere kor gyldige modellane er"
+      },
+      {
+        "nr": 10,
+        "tekst": "utforske matematiske eigenskapar og samanhengar ved å bruke programmering"
+      },
+      {
+        "nr": 11,
+        "tekst": "lese og forklare tekstbasert programkode i Python"
+      }
+    ]
+  },
+  "temaer": [
+    "regneregler-og-algebra",
+    "kvadratsetningene",
+    "likningssett",
+    "funksjonstyper",
+    "lineaere-funksjoner",
+    "prosentvis-endring",
+    "personlig-okonomi",
+    "modellering",
+    "python-i-matematikk"
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "python-i-matematikk",
+  "fagId": "matematikk-10",
+  "trinnId": "10",
+  "name": "Python i matematikken",
+  "intro": "Hvordan du leser og forklarer Python-kode, og bruker programmering til å utforske tall, funksjoner og sammenhenger.",
+  "kompetansemaal": [10, 11],
+  "sammendrag": "## Lese kode\n\nÅ **lese** kode betyr å forstå hva et program gjør uten å kjøre det. Gå gjennom programmet linje for linje, og hold oversikt over hva hver variabel inneholder. En tabell der du skriver verdiene underveis, kalles en **sporingstabell**, og den er et godt verktøy når du skal forklare et program.\n\nNoen byggesteiner i Python:\n\n- **Tilordning**: x = 5 lagrer tallet 5 i variabelen x. Likhetstegnet betyr «sett lik», ikke «er lik».\n- **Regneoperatorer**: +, −, *, / og ** for potens. 2 ** 3 = 8. // gir heltallsdivisjon og % gir rest.\n- **print(x)** skriver ut verdien.\n- **for i in range(1, 6):** gjentar koden for i = 1, 2, 3, 4 og 5. Det siste tallet i range er ikke med.\n- **while**-løkker gjentar så lenge en betingelse er sann.\n- **if/elif/else** velger mellom ulike handlinger.\n- **def f(x): return 2*x + 1** lager en funksjon som kan brukes med ulike x.\n\nInnrykk viser hvilke linjer som hører til en løkke, en betingelse eller en funksjon.\n\n## Utforske med programmering\n\nProgrammering gjør det mulig å undersøke mange tilfeller raskt:\n\n- Skriv ut en **verditabell** for en funksjon med en løkke over x-verdier.\n- Finn **primtall** under 100 ved å sjekke om tallene har andre faktorer.\n- Undersøk **renters rente** år for år og finn når et beløp har doblet seg med en while-løkke.\n- Finn løsningen av en likning ved å prøve seg fram, for eksempel når 1,05ˣ passerer 2.\n\nEt eksempel: Programmet belop = 1000, ar = 0, og while belop < 2000: belop = belop * 1,05 og ar = ar + 1, skriver til slutt ut ar. Det finner hvor mange år det tar å doble 1000 kr med 5 % rente, og svaret er 15.\n\n## Fra utforsking til matematikk\n\nProgrammer kan avsløre mønstre, men de beviser ikke at mønsteret gjelder for alle tall. Når programmet viser at summen av de n første oddetallene alltid ser ut til å bli n², er neste steg å forklare hvorfor, for eksempel med algebra eller en figur. Programmering og matematisk resonnement utfyller hverandre.\n\n## Vanlige feil\n\nTypiske feil er å bruke komma i stedet for punktum i desimaltall (Python skriver 1.05, ikke 1,05), å glemme at range(1, 6) stopper på 5, og å bruke = der det skulle vært == i en betingelse. == sjekker om to verdier er like, mens = gir en variabel en ny verdi.",
+  "flashcards": [
+    { "term": "Tilordning", "def": "x = 5 lagrer verdien 5 i variabelen x. = betyr «sett lik»." },
+    { "term": "==", "def": "Sjekker om to verdier er like. Brukes i betingelser: if x == 5." },
+    { "term": "**", "def": "Potens i Python. 2 ** 3 = 8." },
+    { "term": "//", "def": "Heltallsdivisjon. 17 // 5 = 3." },
+    { "term": "%", "def": "Rest ved divisjon. 17 % 5 = 2." },
+    { "term": "range(1, 6)", "def": "Tallene 1, 2, 3, 4, 5. Det siste tallet er ikke med." },
+    { "term": "for-løkke", "def": "Gjentar kode for hver verdi i en rekke, for eksempel for i in range(10)." },
+    { "term": "while-løkke", "def": "Gjentar kode så lenge en betingelse er sann." },
+    { "term": "if / elif / else", "def": "Velger hvilken kode som kjøres ut fra betingelser." },
+    { "term": "def", "def": "Lager en funksjon: def f(x): return 2*x + 1." },
+    { "term": "return", "def": "Sender en verdi tilbake fra en funksjon." },
+    { "term": "Innrykk", "def": "Viser hvilke linjer som hører til en løkke, betingelse eller funksjon." },
+    { "term": "Sporingstabell", "def": "En tabell der du følger verdiene til variablene linje for linje når du leser kode." },
+    { "term": "Desimalpunktum", "def": "Python bruker punktum i desimaltall: 1.05, ikke 1,05." },
+    { "term": "Program vs. bevis", "def": "Et program kan vise et mønster i mange tilfeller, men beviser ikke at det gjelder for alle tall." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvilke verdier får i i for i in range(1, 5)?", "options": ["1, 2, 3, 4, 5", "0, 1, 2, 3, 4", "1, 2, 3, 4", "1 og 5"], "correct": 2, "explain": "range(1, 5) starter på 1 og stopper før 5, altså 1, 2, 3, 4." },
+    { "id": "q02", "text": "Hva er 2 ** 4 i Python?", "options": ["8", "16", "6", "24"], "correct": 1, "explain": "** betyr potens: 2⁴ = 16." },
+    { "id": "q03", "text": "Hva skrives ut? x = 3, så x = x + 4, så print(x * 2)", "options": ["14", "10", "7", "6"], "correct": 0, "explain": "x blir først 3, så 3 + 4 = 7. Til slutt skrives 7 · 2 = 14 ut." },
+    { "id": "q04", "text": "Hva er forskjellen på = og == i Python?", "options": ["Ingen forskjell", "== gir verdi, = sammenligner", "= brukes bare i løkker", "= gir en variabel verdi, == sjekker om to verdier er like"], "correct": 3, "explain": "x = 5 lagrer 5 i x. x == 5 spør om x er lik 5 og gir True eller False." },
+    { "id": "q05", "text": "Hva gir 17 % 5?", "options": ["3", "2", "3,4", "85"], "correct": 1, "explain": "% gir resten: 17 = 3 · 5 + 2, så resten er 2." },
+    { "id": "q06", "text": "Et program ganger 1000 med 1,05 til beløpet er minst 2000, og teller årene. Hva finner det?", "options": ["Rentene første år", "Beløpet etter ett år", "Hvor mange år det tar å doble beløpet", "Den nominelle renten"], "correct": 2, "explain": "while-løkka gjentar så lenge beløpet er under 2000 og teller antall år, så den finner doblingstiden." },
+    { "id": "q07", "text": "Hva gjør def f(x): return 3*x − 1?", "options": ["Lager en funksjon som gir 3x − 1 for en x", "Skriver ut 3x − 1", "Løser likningen 3x − 1 = 0", "Lager en løkke"], "correct": 0, "explain": "def lager en funksjon. f(2) vil for eksempel gi 3 · 2 − 1 = 5." },
+    { "id": "q08", "text": "Hvorfor gir 1,05 en feil i Python-kode der du mener tallet én komma null fem?", "options": ["Python kan ikke regne med desimaltall", "Python bruker punktum som desimaltegn, så det skal stå 1.05", "Tallet er for lite", "Det må stå i anførselstegn"], "correct": 1, "explain": "Python bruker punktum som desimaltegn. Et komma betyr noe annet i Python og gir ikke tallet 1,05." },
+    { "id": "q09", "text": "Et program viser at summen av de n første oddetallene er n² for n = 1 til 1000. Hva kan vi konkludere?", "options": ["At det er bevist for alle n", "At det er feil", "At det gjelder bare for n ≤ 1000", "At mønsteret er sannsynlig, men må forklares for å være bevist"], "correct": 3, "explain": "Programmet gir sterk støtte, men et bevis krever et argument som gjelder for alle n, for eksempel med algebra eller en figur." },
+    { "id": "q10", "text": "Hva er en sporingstabell?", "options": ["En tabell over variablenes verdier mens du går gjennom koden", "En feilmelding", "En liste over alle Python-kommandoer", "En verditabell for en funksjon"], "correct": 0, "explain": "I en sporingstabell noterer du verdiene linje for linje. Det gjør det lettere å forstå og forklare hva koden gjør." }
+  ],
+  "mindmap": {
+    "label": "Python i matematikken",
+    "children": [
+      { "label": "Lese kode", "children": [
+        { "label": "Linje for linje" },
+        { "label": "Sporingstabell" },
+        { "label": "Innrykk viser struktur" }
+      ] },
+      { "label": "Byggesteiner", "children": [
+        { "label": "=  og  ==", "note": "Tilordne / sammenligne" },
+        { "label": "**, //, %", "note": "Potens, heltall, rest" },
+        { "label": "for og while" },
+        { "label": "def og return" }
+      ] },
+      { "label": "Utforske", "children": [
+        { "label": "Verditabeller" },
+        { "label": "Primtall" },
+        { "label": "Renters rente", "note": "Doblingstid" }
+      ] },
+      { "label": "Resonnere", "children": [
+        { "label": "Mønster ≠ bevis" },
+        { "label": "Forklar med algebra" }
+      ] },
+      { "label": "Feller", "children": [
+        { "label": "1.05, ikke 1,05" },
+        { "label": "range stopper før slutt" },
+        { "label": "= der det skal være ==" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q09"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "range(0, 3) gir tallene 0, 1, 2 og 3.", "correct": false, "explain": "Det siste tallet er ikke med, så range(0, 3) gir 0, 1 og 2." },
+      { "id": "m02", "type": "sant-usant", "text": "I Python betyr x = x + 1 at x økes med 1.", "correct": true, "explain": "Høyre side regnes ut med den gamle verdien, og resultatet lagres som ny verdi i x." },
+      { "id": "m03", "type": "sant-usant", "text": "17 // 5 gir 3.", "correct": true, "explain": "// er heltallsdivisjon: 5 går 3 hele ganger opp i 17." },
+      { "id": "m04", "type": "sant-usant", "text": "Et program som finner et mønster for tusen tall, har bevist at mønsteret alltid gjelder.", "correct": false, "explain": "Mange eksempler er ikke et bevis. Mønsteret må forklares med et argument som gjelder for alle tall." },
+      { "id": "m05", "type": "flervalg", "text": "Hva skrives ut? s = 0, for i in range(1, 4): s = s + i, print(s)", "options": ["3", "10", "4", "6"], "correct": 3, "explain": "i blir 1, 2 og 3. s blir 0 + 1 + 2 + 3 = 6." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilken betingelse sjekker om tallet n er delelig med 7?", "options": ["n / 7 == 0", "n % 7 == 0", "n // 7 == 1", "n == 7"], "correct": 1, "explain": "n er delelig med 7 når resten ved deling på 7 er 0." },
+      { "id": "m07", "type": "flervalg", "text": "Hva gir f(4) når def f(x): return x ** 2 − 1?", "options": ["15", "7", "16", "3"], "correct": 0, "explain": "4 ** 2 − 1 = 16 − 1 = 15." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

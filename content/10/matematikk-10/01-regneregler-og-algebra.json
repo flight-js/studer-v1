@@ -1,0 +1,80 @@
+{
+  "id": "regneregler-og-algebra",
+  "fagId": "matematikk-10",
+  "trinnId": "10",
+  "name": "Regneregler og algebra",
+  "intro": "Parenteser, faktorisering, potenser med bokstaver og brøk med variabler, og hvordan du bruker algebra til å vise at en sammenheng alltid gjelder.",
+  "kompetansemaal": [1],
+  "sammendrag": "## Algebra er regning med bokstaver\n\nI algebra står bokstavene for tall. Derfor gjelder de samme regnereglene som for tall. Vi kan bare slå sammen **like ledd**: 3x + 5x = 8x, men 3x + 5y kan ikke forenkles. Ledd med x² og ledd med x er ikke like ledd.\n\n## Parenteser\n\n- Pluss foran en parentes: parentesen kan fjernes uten endringer. 4 + (x − 2) = x + 2.\n- Minus foran en parentes: alle fortegn inne i parentesen skifter. 7 − (x − 3) = 7 − x + 3 = 10 − x.\n- En faktor foran en parentes ganges med hvert ledd: −2(3x − 5) = −6x + 10.\n- To parenteser ganges ved at hvert ledd i den første ganges med hvert ledd i den andre: (x + 2)(x + 5) = x² + 5x + 2x + 10 = x² + 7x + 10.\n\n## Faktorisering\n\nÅ **faktorisere** er det motsatte av å gange ut. Vi finner en felles faktor og setter den utenfor en parentes: 6x + 9 = 3(2x + 3) og x² − 4x = x(x − 4). Faktorisering er nyttig når vi skal forkorte brøker og løse likninger.\n\n## Brøk med bokstaver\n\nBrøker med variabler forkortes ved å dele teller og nevner på samme faktor: 6x/3 = 2x og (4x + 8)/4 = x + 2. Pass på at det er faktorer og ikke ledd som strykes. I (x + 3)/x kan ikke x-ene strykes, fordi x i telleren er et ledd.\n\n## Potenser med bokstaver\n\nPotensreglene gjelder også for variabler:\n\n- a² · a³ = a⁵\n- a⁶ : a² = a⁴\n- (a²)³ = a⁶\n- (ab)² = a²b²\n- a⁻ⁿ = 1/aⁿ, for eksempel 2⁻³ = 1/8.\n\n## Generalisere\n\nAlgebra lar oss vise at noe gjelder for **alle** tall, ikke bare for eksemplene vi har prøvd. Påstand: Summen av to tall som følger etter hverandre, er alltid et oddetall. Vi kaller det første tallet n. Da er det neste n + 1, og summen blir n + (n + 1) = 2n + 1. Siden 2n alltid er et partall, er 2n + 1 alltid et oddetall. Et slikt resonnement er et enkelt **bevis**. Eksempler kan vise at noe stemmer i enkelttilfeller, men bare et algebraisk argument viser at det stemmer alltid.",
+  "flashcards": [
+    { "term": "Like ledd", "def": "Ledd med samme variabel i samme potens. 3x og 5x er like ledd, men x og x² er ikke det." },
+    { "term": "Minus foran parentes", "def": "Alle fortegn i parentesen skifter når den fjernes: 7 − (x − 3) = 7 − x + 3." },
+    { "term": "Faktor foran parentes", "def": "Faktoren ganges med hvert ledd: −2(3x − 5) = −6x + 10." },
+    { "term": "Gange to parenteser", "def": "Hvert ledd i den første ganges med hvert ledd i den andre: (x + 2)(x + 5) = x² + 7x + 10." },
+    { "term": "Faktorisere", "def": "Skrive et uttrykk som et produkt, ofte ved å sette en felles faktor utenfor: 6x + 9 = 3(2x + 3)." },
+    { "term": "Felles faktor", "def": "En faktor som finnes i alle leddene. I x² − 4x er x en felles faktor." },
+    { "term": "Forkorte brøk med variabler", "def": "Del teller og nevner på samme faktor: (4x + 8)/4 = x + 2." },
+    { "term": "Ledd kan ikke strykes", "def": "I (x + 3)/x kan ikke x strykes, fordi x i telleren er et ledd og ikke en faktor." },
+    { "term": "a² · a³", "def": "= a⁵. Ved multiplikasjon legges eksponentene sammen." },
+    { "term": "(ab)²", "def": "= a²b². Begge faktorene opphøyes." },
+    { "term": "Negativ eksponent", "def": "a⁻ⁿ = 1/aⁿ. For eksempel er 2⁻³ = 1/8 og 10⁻² = 0,01." },
+    { "term": "Generalisere", "def": "Vise at en sammenheng gjelder for alle tall, ofte med en variabel som n." },
+    { "term": "Partall og oddetall algebraisk", "def": "Et partall kan skrives 2n og et oddetall 2n + 1, der n er et helt tall." },
+    { "term": "Bevis", "def": "Et logisk argument som viser at en påstand alltid er sann. Eksempler alene er ikke et bevis." },
+    { "term": "Moteksempel", "def": "Ett eksempel som viser at en påstand ikke alltid stemmer." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Forenkle 7 − (x − 3).", "options": ["4 − x", "10 − x", "4 + x", "10 + x"], "correct": 1, "explain": "Minus foran parentesen gjør at alle fortegn inni skifter: 7 − x + 3 = 10 − x." },
+    { "id": "q02", "text": "Hva er (x + 2)(x + 5)?", "options": ["x² + 10", "x² + 7x + 7", "x² + 7x + 10", "2x + 7"], "correct": 2, "explain": "x · x + x · 5 + 2 · x + 2 · 5 = x² + 5x + 2x + 10 = x² + 7x + 10." },
+    { "id": "q03", "text": "Faktoriser 6x + 9.", "options": ["3(2x + 3)", "6(x + 9)", "3(2x + 9)", "9(x + 1)"], "correct": 0, "explain": "3 er felles faktor: 6x = 3 · 2x og 9 = 3 · 3. Sjekk ved å gange ut: 3(2x + 3) = 6x + 9." },
+    { "id": "q04", "text": "Forenkle a² · a⁴.", "options": ["a⁸", "2a⁶", "a⁶", "a²⁴"], "correct": 2, "explain": "Samme grunntall: legg sammen eksponentene. 2 + 4 = 6, så svaret er a⁶." },
+    { "id": "q05", "text": "Hva er 2⁻³?", "options": ["−8", "−6", "1/6", "1/8"], "correct": 3, "explain": "Negativ eksponent betyr én delt på potensen: 2⁻³ = 1/2³ = 1/8." },
+    { "id": "q06", "text": "Forkort (4x + 8)/4.", "options": ["x + 8", "x + 2", "4x + 2", "x"], "correct": 1, "explain": "Begge leddene i telleren deles på 4: 4x/4 + 8/4 = x + 2." },
+    { "id": "q07", "text": "Hva er −2(3x − 5)?", "options": ["−6x + 10", "−6x − 10", "−6x − 5", "6x + 10"], "correct": 0, "explain": "Gang −2 med hvert ledd: −2 · 3x = −6x og −2 · (−5) = +10." },
+    { "id": "q08", "text": "Hvordan kan et vilkårlig oddetall skrives algebraisk?", "options": ["n + 1", "2n", "n²", "2n + 1"], "correct": 3, "explain": "2n er alltid et partall når n er et helt tall. Legger vi til 1, får vi et oddetall." },
+    { "id": "q09", "text": "Hvorfor er n + (n + 1) = 2n + 1 et bevis for at summen av to påfølgende tall er oddetall?", "options": ["Fordi det gjelder for n = 1", "Fordi uttrykket gjelder for alle hele tall n", "Fordi 2n + 1 er større enn n", "Fordi vi har prøvd mange eksempler"], "correct": 1, "explain": "Argumentet bruker en vilkårlig n, så det gjelder for alle hele tall, ikke bare de vi har testet." },
+    { "id": "q10", "text": "Forenkle 3x² + 2x − x² + 4x.", "options": ["8x²", "2x² + 6x", "4x² + 6x", "2x² + 2x"], "correct": 1, "explain": "Slå sammen x²-leddene: 3x² − x² = 2x². Slå sammen x-leddene: 2x + 4x = 6x." }
+  ],
+  "mindmap": {
+    "label": "Regneregler og algebra",
+    "children": [
+      { "label": "Ledd", "children": [
+        { "label": "Like ledd", "note": "Samme variabel og potens" },
+        { "label": "x og x² er ulike" }
+      ] },
+      { "label": "Parenteser", "children": [
+        { "label": "Minus foran", "note": "Fortegn skifter" },
+        { "label": "Faktor foran", "note": "Gang hvert ledd" },
+        { "label": "To parenteser", "note": "Alle med alle" }
+      ] },
+      { "label": "Faktorisering", "children": [
+        { "label": "Felles faktor utenfor" },
+        { "label": "Forkorte brøk", "note": "Stryk faktorer, ikke ledd" }
+      ] },
+      { "label": "Potenser", "children": [
+        { "label": "a² · a³ = a⁵" },
+        { "label": "(ab)² = a²b²" },
+        { "label": "a⁻ⁿ = 1/aⁿ" }
+      ] },
+      { "label": "Generalisere", "children": [
+        { "label": "Partall 2n, oddetall 2n + 1" },
+        { "label": "Bevis", "note": "Gjelder alle n" },
+        { "label": "Moteksempel", "note": "Avkrefter påstand" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q07", "q08", "q10"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "3x + 2y kan forenkles til 5xy.", "correct": false, "explain": "3x og 2y er ikke like ledd, så uttrykket kan ikke slås sammen." },
+      { "id": "m02", "type": "sant-usant", "text": "(x + 3)/x kan forkortes til 3.", "correct": false, "explain": "x i telleren er et ledd, ikke en faktor. Brøken kan skrives 1 + 3/x, men ikke som 3." },
+      { "id": "m03", "type": "sant-usant", "text": "10⁻² = 0,01.", "correct": true, "explain": "10⁻² = 1/10² = 1/100 = 0,01." },
+      { "id": "m04", "type": "sant-usant", "text": "Ett moteksempel er nok til å vise at en påstand ikke alltid gjelder.", "correct": true, "explain": "En påstand om «alle tall» faller hvis den er usann for ett eneste tall." },
+      { "id": "m05", "type": "flervalg", "text": "Faktoriser x² − 4x.", "options": ["x(x − 4)", "4(x − x²)", "x²(1 − 4)", "(x − 2)²"], "correct": 0, "explain": "x er felles faktor: x · x − x · 4 = x(x − 4)." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er (2a)³?", "options": ["2a³", "6a³", "8a³", "6a"], "correct": 2, "explain": "Begge faktorene opphøyes: 2³ · a³ = 8a³." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er (x − 1)(x + 4)?", "options": ["x² − 4", "x² + 3x − 4", "x² + 5x − 4", "x² − 3x + 4"], "correct": 1, "explain": "x² + 4x − x − 4 = x² + 3x − 4." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

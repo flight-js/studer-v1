@@ -1,0 +1,77 @@
+{
+  "id": "prosentvis-endring",
+  "fagId": "matematikk-10",
+  "trinnId": "10",
+  "name": "Prosentvis endring og vekstfaktor",
+  "intro": "Vekstfaktor ved økning og nedgang, gjentatt prosentvis endring, og hvordan dette gir eksponentialfunksjoner.",
+  "kompetansemaal": [6],
+  "sammendrag": "## Prosent og vekstfaktor\n\nProsent betyr hundredeler: 15 % = 0,15. Når en størrelse endrer seg med en prosent, kan vi regne den nye verdien med én multiplikasjon ved hjelp av **vekstfaktoren**.\n\n- Ved økning på p %: vekstfaktor = 1 + p/100. Økning på 15 % gir 1,15.\n- Ved nedgang på p %: vekstfaktor = 1 − p/100. Nedgang på 15 % gir 0,85.\n\nNy verdi = gammel verdi · vekstfaktor. En jakke til 800 kr som settes ned 25 %, koster 800 · 0,75 = 600 kr.\n\nVi kan også regne baklengs. Koster en vare 1250 kr etter 25 % moms, var prisen uten moms 1250 / 1,25 = 1000 kr.\n\n## Prosentvis endring fra to verdier\n\nNår vi kjenner gammel og ny verdi, finner vi den prosentvise endringen slik:\n\nendring i prosent = (ny − gammel) / gammel · 100 %\n\nPrisen på en billett økte fra 80 kr til 92 kr: (92 − 80) / 80 = 0,15 = 15 %.\n\n## Prosentpoeng\n\nNår noe som allerede er i prosent endrer seg, må vi skille mellom **prosent** og **prosentpoeng**. Stiger renten fra 4 % til 5 %, er økningen 1 prosentpoeng, men 25 % målt i prosent av den gamle renten.\n\n## Gjentatt prosentvis endring\n\nØker en verdi med samme prosent flere ganger, ganger vi med vekstfaktoren like mange ganger. 10 000 kr på en konto med 4 % rente i 5 år blir 10 000 · 1,04⁵ ≈ 12 167 kr. Legg merke til at det blir mer enn 10 000 + 5 · 400 = 12 000 kr, fordi renten hvert år også beregnes av rentene fra tidligere år. Dette kalles **renters rente**.\n\nEn vanlig feil: En økning på 20 % etterfulgt av en nedgang på 20 % gir ikke startverdien tilbake, fordi 1,20 · 0,80 = 0,96. Vi ender 4 % under start.\n\n## Eksponentialfunksjoner\n\nKonstant prosentvis endring gir en **eksponentialfunksjon**: f(x) = a · bˣ, der a er startverdien og b er vekstfaktoren. Befolkningen i en by med 50 000 innbyggere som vokser med 2 % i året, kan beskrives med B(x) = 50 000 · 1,02ˣ. En bil til 300 000 kr som taper 12 % av verdien i året, har verdien V(x) = 300 000 · 0,88ˣ. Forskjellen fra lineære funksjoner er at endringen i antall blir større og større ved vekst, fordi prosenten tas av en stadig større verdi.",
+  "flashcards": [
+    { "term": "Prosent", "def": "Hundredeler. 15 % = 15/100 = 0,15." },
+    { "term": "Vekstfaktor ved økning", "def": "1 + p/100. En økning på 15 % gir vekstfaktor 1,15." },
+    { "term": "Vekstfaktor ved nedgang", "def": "1 − p/100. En nedgang på 15 % gir vekstfaktor 0,85." },
+    { "term": "Ny verdi", "def": "Gammel verdi · vekstfaktor." },
+    { "term": "Regne baklengs", "def": "Gammel verdi = ny verdi / vekstfaktor. 1250 kr med moms: 1250 / 1,25 = 1000 kr." },
+    { "term": "Prosentvis endring", "def": "(ny − gammel) / gammel · 100 %." },
+    { "term": "Prosentpoeng", "def": "Forskjellen mellom to prosenttall. Fra 4 % til 5 % er 1 prosentpoeng." },
+    { "term": "Gjentatt endring", "def": "Gang med vekstfaktoren én gang per periode: startverdi · bⁿ." },
+    { "term": "Renters rente", "def": "Renten beregnes også av tidligere opptjente renter, så beløpet vokser raskere og raskere." },
+    { "term": "+20 % og så −20 %", "def": "1,20 · 0,80 = 0,96. Du ender 4 % under startverdien." },
+    { "term": "Eksponentialfunksjon", "def": "f(x) = a · bˣ, der a er startverdien og b er vekstfaktoren." },
+    { "term": "Moms", "def": "Merverdiavgift. Vanlig sats i Norge er 25 %, så prisen med moms er prisen uten · 1,25." },
+    { "term": "Verditap", "def": "Når noe mister verdi med fast prosent, er vekstfaktoren mindre enn 1." },
+    { "term": "Lineær eller eksponentiell?", "def": "Lik endring i kroner er lineær. Lik endring i prosent er eksponentiell." },
+    { "term": "Dobling", "def": "Med 7 % vekst i året dobles et beløp på omtrent 10 år, fordi 1,07¹⁰ ≈ 1,97." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er vekstfaktoren ved en økning på 8 %?", "options": ["0,08", "1,8", "1,08", "0,92"], "correct": 2, "explain": "Vekstfaktor ved økning er 1 + 8/100 = 1,08." },
+    { "id": "q02", "text": "En jakke til 800 kr settes ned 25 %. Hva er den nye prisen?", "options": ["775 kr", "600 kr", "200 kr", "625 kr"], "correct": 1, "explain": "Vekstfaktor ved 25 % nedgang er 0,75. 800 · 0,75 = 600 kr." },
+    { "id": "q03", "text": "En billett økte fra 80 kr til 92 kr. Hvor mange prosent økte prisen?", "options": ["12 %", "13 %", "87 %", "15 %"], "correct": 3, "explain": "(92 − 80) / 80 = 12/80 = 0,15 = 15 %. 12 er endringen i kroner, ikke i prosent." },
+    { "id": "q04", "text": "En vare koster 1250 kr med 25 % moms. Hva koster den uten moms?", "options": ["1000 kr", "937,50 kr", "1225 kr", "1562,50 kr"], "correct": 0, "explain": "Del på vekstfaktoren: 1250 / 1,25 = 1000 kr. Å trekke fra 25 % av 1250 gir feil svar." },
+    { "id": "q05", "text": "Renten øker fra 4 % til 5 %. Hvor stor er økningen?", "options": ["1 %", "1 prosentpoeng, eller 25 %", "5 prosentpoeng", "20 %"], "correct": 1, "explain": "Forskjellen er 1 prosentpoeng. Målt i prosent av den gamle renten er det 1/4 = 25 %." },
+    { "id": "q06", "text": "Hva blir 10 000 kr med 4 % årlig rente etter 5 år?", "options": ["12 000 kr", "10 400 kr", "12 167 kr", "14 000 kr"], "correct": 2, "explain": "10 000 · 1,04⁵ ≈ 12 167 kr. Rentene gir også rente, så det blir mer enn 12 000 kr." },
+    { "id": "q07", "text": "En pris øker med 20 % og synker så med 20 %. Hvor ender den?", "options": ["Tilbake på startprisen", "4 % over startprisen", "40 % under startprisen", "4 % under startprisen"], "correct": 3, "explain": "1,20 · 0,80 = 0,96. Nedgangen tas av en høyere pris, så du ender 4 % under start." },
+    { "id": "q08", "text": "Hvilken funksjon beskriver en by med 50 000 innbyggere som vokser med 2 % i året?", "options": ["B(x) = 50 000 · 1,02ˣ", "B(x) = 50 000 + 2x", "B(x) = 50 000 · 0,98ˣ", "B(x) = 50 000 · 2ˣ"], "correct": 0, "explain": "Startverdien er 50 000 og vekstfaktoren 1,02. Konstant prosentvis vekst gir en eksponentialfunksjon." },
+    { "id": "q09", "text": "En bil taper 12 % av verdien hvert år. Hva er vekstfaktoren?", "options": ["1,12", "0,12", "0,88", "−0,12"], "correct": 2, "explain": "Ved nedgang er vekstfaktoren 1 − 0,12 = 0,88." },
+    { "id": "q10", "text": "Hvorfor vokser beløpet med renters rente raskere og raskere?", "options": ["Fordi renten øker hvert år", "Fordi renten beregnes av et stadig større beløp", "Fordi banken legger til en bonus", "Fordi det er en lineær funksjon"], "correct": 1, "explain": "Samme prosent av et større beløp gir flere kroner hvert år. Derfor blir økningen i kroner større og større." }
+  ],
+  "mindmap": {
+    "label": "Prosentvis endring",
+    "children": [
+      { "label": "Vekstfaktor", "children": [
+        { "label": "Økning", "note": "1 + p/100" },
+        { "label": "Nedgang", "note": "1 − p/100" },
+        { "label": "Ny = gammel · faktor" }
+      ] },
+      { "label": "Regne ut endring", "children": [
+        { "label": "(ny − gammel) / gammel" },
+        { "label": "Baklengs", "note": "Del på vekstfaktoren" },
+        { "label": "Prosentpoeng", "note": "Forskjell mellom prosenter" }
+      ] },
+      { "label": "Gjentatt endring", "children": [
+        { "label": "startverdi · bⁿ" },
+        { "label": "Renters rente" },
+        { "label": "+20 % og −20 % ≠ 0" }
+      ] },
+      { "label": "Eksponentialfunksjon", "children": [
+        { "label": "f(x) = a · bˣ" },
+        { "label": "b > 1 vekst", "note": "b < 1 nedgang" },
+        { "label": "Ikke lineær", "note": "Lik prosent, ikke lik mengde" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Vekstfaktoren ved en nedgang på 30 % er 0,3.", "correct": false, "explain": "Vekstfaktoren er 1 − 0,30 = 0,70. 0,3 er hvor mye som forsvinner." },
+      { "id": "m02", "type": "sant-usant", "text": "Med konstant prosentvis vekst blir økningen i antall større for hvert år.", "correct": true, "explain": "Prosenten tas av en stadig større verdi, så antall kroner eller innbyggere som legges til, øker." },
+      { "id": "m03", "type": "sant-usant", "text": "Å gå fra 10 % til 15 % er en økning på 5 prosentpoeng.", "correct": true, "explain": "Forskjellen mellom prosenttallene er 5 prosentpoeng. Målt i prosent er det en økning på 50 %." },
+      { "id": "m04", "type": "sant-usant", "text": "300 000 · 0,88ˣ beskriver noe som vokser.", "correct": false, "explain": "Vekstfaktoren 0,88 er mindre enn 1, så verdien avtar med 12 % per år." },
+      { "id": "m05", "type": "flervalg", "text": "En sykkel til 4000 kr blir 10 % dyrere. Hva koster den nå?", "options": ["4010 kr", "4100 kr", "4400 kr", "3600 kr"], "correct": 2, "explain": "4000 · 1,10 = 4400 kr." },
+      { "id": "m06", "type": "flervalg", "text": "Antall medlemmer gikk fra 250 til 200. Hvor stor var nedgangen i prosent?", "options": ["20 %", "25 %", "50 %", "80 %"], "correct": 0, "explain": "(200 − 250) / 250 = −50/250 = −0,20, altså en nedgang på 20 %." },
+      { "id": "m07", "type": "flervalg", "text": "Hvor mange ganger må du gange med 1,05 for å regne ut vekst over 6 år?", "options": ["1", "5", "6", "7"], "correct": 2, "explain": "Én gang per år, altså 6 ganger: startverdi · 1,05⁶." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

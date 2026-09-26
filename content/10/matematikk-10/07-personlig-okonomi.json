@@ -1,0 +1,82 @@
+{
+  "id": "personlig-okonomi",
+  "fagId": "matematikk-10",
+  "trinnId": "10",
+  "name": "Personlig økonomi",
+  "intro": "Budsjett, sparing med rente, lån og kredittkjøp, og hvordan du bruker matematikk til å sammenligne tilbud og se konsekvensene av økonomiske valg.",
+  "kompetansemaal": [7, 8],
+  "sammendrag": "## Budsjett og regnskap\n\nEt **budsjett** er en plan for inntekter og utgifter i en periode, for eksempel en måned. Et **regnskap** viser hva som faktisk ble tjent og brukt. Sammenligner du budsjett og regnskap, ser du hvor pengene gikk, og hva du kan endre. Går utgiftene over inntektene, har du et **underskudd**. Blir det penger til overs, har du et **overskudd** som kan spares.\n\n## Kjøp og salg\n\nVed kjøp og salg er det nyttig å regne på **rabatt**, **moms** og **fortjeneste**. En butikk som kjøper en vare for 400 kr og selger den for 600 kr, har en fortjeneste på 200 kr. Det er 50 % av innkjøpsprisen, men bare 33 % av salgsprisen, så det er viktig å vite hva prosenten regnes av. Sammenlign alltid tilbud ved å regne ut hva du faktisk betaler, også frakt og gebyrer.\n\n## Sparing og rente\n\nSetter du penger i banken, får du **rente**. Med renters rente vokser beløpet med vekstfaktoren hvert år: 5000 kr med 3 % rente blir 5000 · 1,03¹⁰ ≈ 6720 kr etter 10 år. Jo tidligere du begynner å spare, desto mer arbeider rentene for deg.\n\n## Lån\n\nNår du låner, betaler du tilbake **avdrag** (selve lånet) og **renter** (prisen for å låne). Summen av avdrag og renter kalles **terminbeløpet**.\n\n- **Serielån**: like store avdrag hver gang. Terminbeløpet blir mindre etter hvert, fordi renten regnes av et lavere restlån.\n- **Annuitetslån**: like store terminbeløp hele tiden. I starten går mest til renter, mot slutten mest til avdrag.\n\n## Kredittkjøp og effektiv rente\n\nVed **kredittkjøp** og forbrukslån får du varen nå, men betaler senere, ofte med høy rente og gebyrer. **Nominell rente** er renten uten gebyrer. **Effektiv rente** inkluderer alle kostnader og viser hva lånet egentlig koster per år. Bruk alltid den effektive renten når du sammenligner lån. Kredittkort og forbrukslån har ofte langt høyere effektiv rente enn boliglån.\n\nEksempel: En mobil til 9000 kr kan betales med 24 avdrag på 450 kr. Da betaler du 24 · 450 = 10 800 kr, altså 1800 kr ekstra.\n\n## Et utforskende arbeid\n\nNår du utforsker personlig økonomi, kan du for eksempel lage et budsjett for et halvt år med deltidsjobb, eller sammenligne hva det koster å spare opp til noe mot å kjøpe det på kreditt. Presenter tallene i tabeller og diagrammer, og vurder hvilke forutsetninger resultatet bygger på.",
+  "flashcards": [
+    { "term": "Budsjett", "def": "En plan for inntekter og utgifter i en periode." },
+    { "term": "Regnskap", "def": "En oversikt over faktiske inntekter og utgifter." },
+    { "term": "Underskudd", "def": "Når utgiftene er større enn inntektene." },
+    { "term": "Overskudd", "def": "Når inntektene er større enn utgiftene." },
+    { "term": "Fortjeneste", "def": "Salgspris minus innkjøpspris." },
+    { "term": "Rente", "def": "Prisen for å låne penger, eller det du får for å spare penger i banken." },
+    { "term": "Renters rente", "def": "Renten beregnes også av tidligere renter, så beløpet vokser med vekstfaktoren hvert år." },
+    { "term": "Avdrag", "def": "Den delen av en betaling som nedbetaler selve lånet." },
+    { "term": "Terminbeløp", "def": "Summen av avdrag og renter som betales hver termin." },
+    { "term": "Serielån", "def": "Like store avdrag. Terminbeløpet blir mindre etter hvert." },
+    { "term": "Annuitetslån", "def": "Like store terminbeløp. I starten går mest til renter." },
+    { "term": "Restlån", "def": "Det som gjenstår av lånet etter betalte avdrag." },
+    { "term": "Nominell rente", "def": "Renten på et lån uten gebyrer og andre kostnader." },
+    { "term": "Effektiv rente", "def": "Renten inkludert alle kostnader. Brukes til å sammenligne lån." },
+    { "term": "Kredittkjøp", "def": "Å kjøpe nå og betale senere. Blir ofte dyrere på grunn av rente og gebyrer." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er forskjellen på budsjett og regnskap?", "options": ["Budsjett er en plan, regnskap viser hva som faktisk skjedde", "De betyr det samme", "Regnskap er en plan, budsjett viser det som skjedde", "Budsjett gjelder bare bedrifter"], "correct": 0, "explain": "Budsjettet lages på forhånd. Regnskapet føres underveis og viser de faktiske tallene." },
+    { "id": "q02", "text": "En vare kjøpes inn for 400 kr og selges for 600 kr. Hvor mange prosent av innkjøpsprisen er fortjenesten?", "options": ["33 %", "20 %", "150 %", "50 %"], "correct": 3, "explain": "Fortjenesten er 200 kr. 200 / 400 = 0,5 = 50 %. Av salgsprisen er den bare 33 %." },
+    { "id": "q03", "text": "Hva blir 5000 kr med 3 % årlig rente etter 10 år?", "options": ["6500 kr", "5150 kr", "6720 kr", "8000 kr"], "correct": 2, "explain": "5000 · 1,03¹⁰ ≈ 6720 kr. Med renters rente blir det mer enn 5000 + 10 · 150 = 6500 kr." },
+    { "id": "q04", "text": "Hva kjennetegner et serielån?", "options": ["Like store terminbeløp", "Like store avdrag", "Ingen renter", "Renten stiger hvert år"], "correct": 1, "explain": "I et serielån er avdragene like. Renten synker etter hvert, så terminbeløpet blir mindre." },
+    { "id": "q05", "text": "Hva kjennetegner et annuitetslån?", "options": ["Like store terminbeløp", "Like store avdrag", "At hele lånet betales til slutt", "At det ikke har gebyrer"], "correct": 0, "explain": "Terminbeløpet er likt hele tiden. Fordelingen mellom renter og avdrag endrer seg." },
+    { "id": "q06", "text": "Hvilken rente bør du bruke når du sammenligner to lån?", "options": ["Nominell rente", "Den laveste renten i reklamen", "Effektiv rente", "Styringsrenten"], "correct": 2, "explain": "Effektiv rente tar med gebyrer og andre kostnader og viser hva lånet egentlig koster." },
+    { "id": "q07", "text": "En mobil til 9000 kr betales med 24 avdrag på 450 kr. Hvor mye ekstra betaler du?", "options": ["450 kr", "900 kr", "10 800 kr", "1800 kr"], "correct": 3, "explain": "24 · 450 = 10 800 kr. 10 800 − 9000 = 1800 kr ekstra." },
+    { "id": "q08", "text": "Hva er et terminbeløp?", "options": ["Bare rentene", "Summen av avdrag og renter", "Hele lånebeløpet", "Gebyret for å ta opp lånet"], "correct": 1, "explain": "Terminbeløpet er det du betaler hver termin, altså avdrag pluss renter." },
+    { "id": "q09", "text": "Hvorfor lønner det seg ofte å begynne å spare tidlig?", "options": ["Fordi renten er høyere for unge", "Fordi banken gir bonus til unge", "Fordi renters rente får lengre tid til å virke", "Fordi det ikke er skatt på sparing"], "correct": 2, "explain": "Jo flere år pengene står, desto flere ganger ganges de med vekstfaktoren, og veksten blir større." },
+    { "id": "q10", "text": "I starten av et annuitetslån, hva går mest av terminbeløpet til?", "options": ["Renter", "Avdrag", "Gebyrer", "Like mye til begge"], "correct": 0, "explain": "Restlånet er størst i starten, så rentene er høye. Etter hvert går en større del til avdrag." }
+  ],
+  "mindmap": {
+    "label": "Personlig økonomi",
+    "children": [
+      { "label": "Oversikt", "children": [
+        { "label": "Budsjett", "note": "Plan" },
+        { "label": "Regnskap", "note": "Faktiske tall" },
+        { "label": "Over- og underskudd" }
+      ] },
+      { "label": "Kjøp og salg", "children": [
+        { "label": "Rabatt og moms" },
+        { "label": "Fortjeneste", "note": "Prosent av hva?" },
+        { "label": "Sammenlign tilbud" }
+      ] },
+      { "label": "Sparing", "children": [
+        { "label": "Rente" },
+        { "label": "Renters rente", "note": "Beløp · vekstfaktorⁿ" },
+        { "label": "Start tidlig" }
+      ] },
+      { "label": "Lån", "children": [
+        { "label": "Avdrag + renter = terminbeløp" },
+        { "label": "Serielån", "note": "Like avdrag" },
+        { "label": "Annuitetslån", "note": "Like terminbeløp" }
+      ] },
+      { "label": "Kreditt", "children": [
+        { "label": "Nominell rente" },
+        { "label": "Effektiv rente", "note": "Med alle kostnader" },
+        { "label": "Forbrukslån og kredittkort", "note": "Ofte dyrt" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q10"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Effektiv rente er alltid lavere enn nominell rente.", "correct": false, "explain": "Effektiv rente tar med gebyrer og blir derfor som regel høyere enn den nominelle." },
+      { "id": "m02", "type": "sant-usant", "text": "I et serielån blir terminbeløpet mindre etter hvert.", "correct": true, "explain": "Avdraget er likt, men renten regnes av et lavere restlån for hver termin." },
+      { "id": "m03", "type": "sant-usant", "text": "Et budsjett med underskudd betyr at du bruker mer enn du tjener.", "correct": true, "explain": "Underskudd betyr at utgiftene er større enn inntektene." },
+      { "id": "m04", "type": "sant-usant", "text": "Å kjøpe på kreditt koster det samme som å betale kontant.", "correct": false, "explain": "Kredittkjøp har som regel renter og gebyrer, så totalprisen blir høyere." },
+      { "id": "m05", "type": "flervalg", "text": "Du har 3500 kr i inntekt og 3100 kr i utgifter i måneden. Hvor mye kan du spare på et år?", "options": ["400 kr", "4800 kr", "3500 kr", "37 200 kr"], "correct": 1, "explain": "Overskuddet er 400 kr i måneden. 400 · 12 = 4800 kr i året." },
+      { "id": "m06", "type": "flervalg", "text": "Et lån på 20 000 kr har like avdrag i 4 år. Hvor stort er hvert årlige avdrag?", "options": ["4000 kr", "80 000 kr", "5000 kr", "20 000 kr"], "correct": 2, "explain": "Like avdrag: 20 000 / 4 = 5000 kr i året. Rentene kommer i tillegg." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er avdrag?", "options": ["Nedbetalingen av selve lånet", "Prisen for å låne", "Et gebyr", "Renten på sparepenger"], "correct": 0, "explain": "Avdraget er den delen som reduserer restlånet. Rentene er prisen for å låne." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

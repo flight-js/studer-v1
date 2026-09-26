@@ -1,0 +1,76 @@
+{
+  "id": "lineaere-funksjoner",
+  "fagId": "matematikk-10",
+  "trinnId": "10",
+  "name": "Stigningstall og lineære funksjoner",
+  "intro": "Endring per enhet, hvordan du regner ut stigningstallet fra to punkter, og hva stigningstall og konstantledd betyr i praktiske situasjoner.",
+  "kompetansemaal": [5],
+  "sammendrag": "## Endring per enhet\n\nMange sammenhenger i hverdagen endrer seg med en fast mengde per enhet: prisen øker med 18 kr per liter bensin, vannstanden i et basseng stiger med 3 cm per minutt, og en lønn gir 165 kr per time. Denne faste endringen kalles **endring per enhet**. Når endringen er lik hele tiden, er sammenhengen **lineær**, og grafen blir en rett linje.\n\n## Stigningstallet\n\nEn lineær funksjon skrives f(x) = ax + b. Tallet a er **stigningstallet**. Det sier hvor mye funksjonen endrer seg når x øker med 1.\n\n- a > 0: linjen stiger.\n- a < 0: linjen synker.\n- a = 0: linjen er vannrett.\n\nJo større tallverdi a har, desto brattere er linjen.\n\n## Regne ut stigningstallet\n\nHar vi to punkter på linjen, (x₁, y₁) og (x₂, y₂), finner vi stigningstallet slik:\n\na = (y₂ − y₁) / (x₂ − x₁)\n\nMed andre ord: endringen i y delt på endringen i x. Linjen gjennom (1, 5) og (4, 11) har stigningstall (11 − 5) / (4 − 1) = 6 / 3 = 2.\n\nI et koordinatsystem kan du tegne en **stigningstrekant**: gå én enhet mot høyre, og se hvor mye linjen går opp eller ned.\n\n## Konstantleddet\n\nTallet b i f(x) = ax + b er **konstantleddet**. Det er verdien når x = 0, og viser hvor linjen krysser y-aksen. Når vi kjenner stigningstallet, kan vi finne b ved å sette inn et punkt: Med a = 2 og punktet (1, 5) blir 5 = 2 · 1 + b, altså b = 3. Funksjonen er f(x) = 2x + 3.\n\n## Tolkning i praksis\n\nI praktiske situasjoner har både a og b en betydning. En elektriker tar 600 kr i oppmøte og 750 kr per time: K(t) = 750t + 600. Stigningstallet 750 er timeprisen, og konstantleddet 600 er det du betaler selv om jobben tar null timer. Enheten til stigningstallet er alltid «y-enhet per x-enhet», her kroner per time.\n\n## Proporsjonalitet\n\nNår b = 0, går linjen gjennom origo, og sammenhengen er **proporsjonal**: y = ax. Da gir dobbel x også dobbel y. Prisen for epler til 30 kr/kg er proporsjonal med vekten, men taxiprisen med startgebyr er det ikke.",
+  "flashcards": [
+    { "term": "Endring per enhet", "def": "Hvor mye en størrelse endrer seg når en annen øker med 1, for eksempel kroner per time." },
+    { "term": "Lineær sammenheng", "def": "En sammenheng med lik endring per enhet. Grafen er en rett linje." },
+    { "term": "Stigningstall (a)", "def": "Hvor mye y endrer seg når x øker med 1. Tallet foran x i f(x) = ax + b." },
+    { "term": "Formel for stigningstall", "def": "a = (y₂ − y₁) / (x₂ − x₁): endring i y delt på endring i x." },
+    { "term": "Positivt stigningstall", "def": "Linjen stiger fra venstre mot høyre." },
+    { "term": "Negativt stigningstall", "def": "Linjen synker fra venstre mot høyre." },
+    { "term": "Stigningstall 0", "def": "Linjen er vannrett. Funksjonsverdien endrer seg ikke." },
+    { "term": "Konstantledd (b)", "def": "Verdien når x = 0. Der linjen krysser y-aksen." },
+    { "term": "Stigningstrekant", "def": "En trekant som viser hvor mye linjen stiger når man går én enhet mot høyre." },
+    { "term": "Finne b fra et punkt", "def": "Sett inn a og et kjent punkt: 5 = 2 · 1 + b gir b = 3." },
+    { "term": "Enhet for stigningstall", "def": "y-enhet per x-enhet, for eksempel kr per time eller cm per minutt." },
+    { "term": "Proporsjonal", "def": "y = ax med b = 0. Linjen går gjennom origo, og dobbel x gir dobbel y." },
+    { "term": "Brattere linje", "def": "Jo større tallverdi stigningstallet har, desto brattere er linjen." },
+    { "term": "Tolke a og b", "def": "I K(t) = 750t + 600 er 750 timeprisen og 600 oppmøteprisen." },
+    { "term": "Parallelle linjer", "def": "Linjer med samme stigningstall." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er stigningstallet til f(x) = −3x + 7?", "options": ["7", "3", "−3", "4"], "correct": 2, "explain": "Stigningstallet er tallet foran x, altså −3. Linjen synker med 3 for hver enhet x øker." },
+    { "id": "q02", "text": "Hva er stigningstallet til linjen gjennom (1, 5) og (4, 11)?", "options": ["2", "6", "3", "0,5"], "correct": 0, "explain": "a = (11 − 5) / (4 − 1) = 6 / 3 = 2." },
+    { "id": "q03", "text": "En elektriker tar 600 kr i oppmøte og 750 kr per time. Hva er stigningstallet?", "options": ["600", "1350", "750", "150"], "correct": 2, "explain": "Stigningstallet er endringen per enhet, her 750 kr per time. 600 er konstantleddet." },
+    { "id": "q04", "text": "Hvor krysser f(x) = 4x − 2 y-aksen?", "options": ["I (0, 4)", "I (−2, 0)", "I (0, 2)", "I (0, −2)"], "correct": 3, "explain": "På y-aksen er x = 0, og f(0) = −2. Konstantleddet viser skjæringen med y-aksen." },
+    { "id": "q05", "text": "En linje har stigningstall 2 og går gjennom (1, 5). Hva er funksjonsuttrykket?", "options": ["f(x) = 2x + 5", "f(x) = 2x + 3", "f(x) = 5x + 2", "f(x) = x + 5"], "correct": 1, "explain": "Sett inn punktet: 5 = 2 · 1 + b, så b = 3. Funksjonen er f(x) = 2x + 3." },
+    { "id": "q06", "text": "Hvilken sammenheng er proporsjonal?", "options": ["Epler til 30 kr/kg", "Taxi med 60 kr i startgebyr", "Abonnement med fast månedspris", "Vann som renner ut av et fullt basseng"], "correct": 0, "explain": "Eplepris = 30 · vekt. Linjen går gjennom origo, og dobbel vekt gir dobbel pris." },
+    { "id": "q07", "text": "Hva betyr et negativt stigningstall?", "options": ["At linjen er vannrett", "At linjen synker", "At linjen går gjennom origo", "At konstantleddet er negativt"], "correct": 1, "explain": "Når a < 0, blir y mindre når x øker, så linjen går nedover mot høyre." },
+    { "id": "q08", "text": "Vannstanden i et basseng stiger fra 20 cm til 50 cm på 10 minutter. Hva er endringen per minutt?", "options": ["5 cm per minutt", "30 cm per minutt", "2 cm per minutt", "3 cm per minutt"], "correct": 3, "explain": "Endringen er 50 − 20 = 30 cm på 10 minutter: 30 / 10 = 3 cm per minutt." },
+    { "id": "q09", "text": "Hvilke to linjer er parallelle?", "options": ["y = 2x + 1 og y = 2x − 5", "y = 2x og y = −2x", "y = x + 3 og y = 3x + 1", "y = 4 og y = 4x"], "correct": 0, "explain": "Parallelle linjer har samme stigningstall. Begge har stigningstall 2." },
+    { "id": "q10", "text": "Hvilken linje er brattest?", "options": ["y = 0,5x + 10", "y = 2x", "y = −5x + 1", "y = x − 3"], "correct": 2, "explain": "Brattheten avhenger av tallverdien til stigningstallet. |−5| = 5 er størst, selv om linjen synker." }
+  ],
+  "mindmap": {
+    "label": "Lineære funksjoner",
+    "children": [
+      { "label": "Endring per enhet", "children": [
+        { "label": "Lik endring hele tiden" },
+        { "label": "Kr per time, cm per minutt" }
+      ] },
+      { "label": "Stigningstall a", "children": [
+        { "label": "(y₂ − y₁) / (x₂ − x₁)" },
+        { "label": "a > 0 stiger", "note": "a < 0 synker" },
+        { "label": "Stigningstrekant" }
+      ] },
+      { "label": "Konstantledd b", "children": [
+        { "label": "Verdien når x = 0" },
+        { "label": "Skjæring med y-aksen" },
+        { "label": "Finn b med et punkt" }
+      ] },
+      { "label": "Tolkning", "children": [
+        { "label": "a = pris per enhet" },
+        { "label": "b = fast beløp" },
+        { "label": "Proporsjonal når b = 0" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q08", "q10"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "En linje med stigningstall 0 er vannrett.", "correct": true, "explain": "Da endrer ikke y seg når x øker." },
+      { "id": "m02", "type": "sant-usant", "text": "Taxipris med startgebyr er proporsjonal med antall kilometer.", "correct": false, "explain": "Startgebyret gjør at linjen ikke går gjennom origo, så prisen er ikke proporsjonal." },
+      { "id": "m03", "type": "sant-usant", "text": "Stigningstallet til en lineær funksjon er det samme uansett hvilke to punkter på linjen du bruker.", "correct": true, "explain": "En rett linje har lik endring per enhet overalt." },
+      { "id": "m04", "type": "sant-usant", "text": "Konstantleddet viser hvor linjen krysser x-aksen.", "correct": false, "explain": "Konstantleddet viser skjæringen med y-aksen, der x = 0." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er stigningstallet til linjen gjennom (2, 9) og (6, 1)?", "options": ["2", "−2", "−0,5", "4"], "correct": 1, "explain": "a = (1 − 9) / (6 − 2) = −8 / 4 = −2." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er enheten til stigningstallet når y er kroner og x er liter?", "options": ["Kroner", "Liter", "Liter per krone", "Kroner per liter"], "correct": 3, "explain": "Stigningstallet har enheten y-enhet per x-enhet, altså kroner per liter." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilken funksjon går gjennom (0, 4) og har stigningstall −1?", "options": ["f(x) = −x + 4", "f(x) = 4x − 1", "f(x) = −4x + 1", "f(x) = x − 4"], "correct": 0, "explain": "Konstantleddet er 4 fordi linjen går gjennom (0, 4), og stigningstallet er −1." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

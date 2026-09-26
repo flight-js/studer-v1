@@ -1,0 +1,349 @@
+{
+  "id": "modellering",
+  "fagId": "matematikk-10",
+  "trinnId": "10",
+  "name": "Matematisk modellering",
+  "intro": "Hvordan du lager en matematisk modell av en virkelig situasjon, bruker den til å regne og forutsi, og vurderer hvor gyldig modellen er.",
+  "kompetansemaal": [
+    9
+  ],
+  "sammendrag": "## Hva er en modell?\n\nEn **matematisk modell** er en forenklet beskrivelse av en virkelig situasjon ved hjelp av matematikk, for eksempel en funksjon, en likning eller en formel. Modeller brukes til å forstå sammenhenger og til å **forutsi** hva som vil skje. Værmeldingen, befolkningsprognoser og beregninger av strømforbruk bygger alle på modeller.\n\nEn modell er aldri helt lik virkeligheten. Den bygger på **forutsetninger**, altså antakelser som gjør problemet enklere. Å vite hvilke forutsetninger modellen bygger på, er like viktig som å regne riktig.\n\n## Modelleringsprosessen\n\nModellering skjer ofte i en syklus:\n\n- **Forstå situasjonen**: Hva spør vi etter? Hvilke størrelser henger sammen?\n- **Forenkle og gjøre antakelser**: Hva tar vi med, og hva ser vi bort fra?\n- **Lage modellen**: Velg funksjonstype ut fra dataene, for eksempel lineær ved lik endring i antall eller eksponentiell ved lik endring i prosent.\n- **Regne**: Bruk modellen til å finne svar.\n- **Tolke**: Hva betyr svaret i den virkelige situasjonen?\n- **Vurdere**: Er svaret rimelig? Trengs en bedre modell? Da går vi en runde til.\n\n## Velge modell fra data\n\nMed et digitalt verktøy kan vi legge inn målinger og finne den funksjonen som passer best, en såkalt **regresjon**. Vi kan sammenligne lineær, eksponentiell og andregrads regresjon og se hvilken som følger punktene best. Men den beste tilpasningen er ikke alltid den beste modellen. Modellen må også gi mening ut fra situasjonen.\n\n## Gyldighet\n\nEn modell har et **gyldighetsområde**. En modell for høyden til et barn fra 2 til 10 år kan være lineær, men den kan ikke brukes til å beregne høyden ved 40 år, for da ville voksne bli flere meter høye. Å bruke en modell langt utenfor dataene kalles å **ekstrapolere**, og det er risikabelt.\n\nNår du vurderer en modell, kan du spørre:\n\n- Passer modellen med dataene vi har?\n- Gir den mening for alle x-verdier vi bruker den på?\n- Hvilke forutsetninger kan være feil?\n- Hvor mye endrer svaret seg hvis forutsetningene endres?\n\n## Presentere\n\nNår du presenterer et modelleringsarbeid, bør du vise dataene, modellen, hvordan du brukte den og hva du fant, og være ærlig om begrensningene. En god presentasjon forteller ikke bare svaret, men også hvor sikkert det er.",
+  "flashcards": [
+    {
+      "term": "Matematisk modell",
+      "def": "En forenklet beskrivelse av en virkelig situasjon med matematikk, for eksempel en funksjon."
+    },
+    {
+      "term": "Forutsetning",
+      "def": "En antakelse modellen bygger på, for eksempel at veksten er lik hvert år."
+    },
+    {
+      "term": "Forutsi",
+      "def": "Bruke modellen til å si noe om hva som vil skje, for eksempel neste år."
+    },
+    {
+      "term": "Modelleringssyklus",
+      "def": "Forstå, forenkle, lage modell, regne, tolke, vurdere – og eventuelt gjenta."
+    },
+    {
+      "term": "Forenkle",
+      "def": "Bestemme hva som tas med og hva man ser bort fra i modellen."
+    },
+    {
+      "term": "Velge funksjonstype",
+      "def": "Lik endring i antall → lineær. Lik endring i prosent → eksponentiell."
+    },
+    {
+      "term": "Regresjon",
+      "def": "Å finne den funksjonen som passer best til en samling datapunkter, ofte med digitalt verktøy."
+    },
+    {
+      "term": "Gyldighetsområde",
+      "def": "De x-verdiene der modellen gir fornuftige svar."
+    },
+    {
+      "term": "Ekstrapolere",
+      "def": "Å bruke modellen utenfor området der vi har data. Kan gi urimelige svar."
+    },
+    {
+      "term": "Interpolere",
+      "def": "Å bruke modellen mellom datapunktene vi har. Er som regel tryggere enn å ekstrapolere."
+    },
+    {
+      "term": "Tolke svaret",
+      "def": "Oversette det matematiske svaret tilbake til hva det betyr i situasjonen."
+    },
+    {
+      "term": "Vurdere modellen",
+      "def": "Sjekke om den passer med data, gir mening og hvilke forutsetninger som kan være feil."
+    },
+    {
+      "term": "Begrensninger",
+      "def": "Det modellen ikke tar hensyn til. Bør alltid nevnes når man presenterer."
+    },
+    {
+      "term": "Prognose",
+      "def": "En forutsigelse av framtiden basert på en modell."
+    },
+    {
+      "term": "Beste tilpasning",
+      "def": "Den funksjonen som ligger nærmest punktene. Må også gi mening i situasjonen."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hva er en matematisk modell?",
+      "options": [
+        "En nøyaktig kopi av virkeligheten",
+        "Et diagram uten tall",
+        "En forenklet matematisk beskrivelse av en virkelig situasjon",
+        "En likning uten ukjente"
+      ],
+      "correct": 2,
+      "explain": "En modell forenkler virkeligheten slik at vi kan regne på den. Den er aldri helt lik virkeligheten."
+    },
+    {
+      "id": "q02",
+      "text": "Målinger viser at noe øker med omtrent 5 % hvert år. Hvilken modell passer best?",
+      "options": [
+        "Lineær",
+        "Omvendt proporsjonal",
+        "Konstant",
+        "Eksponentiell"
+      ],
+      "correct": 3,
+      "explain": "Lik prosentvis endring passer med en eksponentialfunksjon, f(x) = a · 1,05ˣ."
+    },
+    {
+      "id": "q03",
+      "text": "Hva betyr det å ekstrapolere?",
+      "options": [
+        "Å bruke modellen utenfor området der vi har data",
+        "Å finne den beste modellen",
+        "Å regne mellom to målinger",
+        "Å tegne en graf"
+      ],
+      "correct": 0,
+      "explain": "Ekstrapolering er å forutsi langt utenfor dataene. Det er risikabelt fordi sammenhengen kan endre seg."
+    },
+    {
+      "id": "q04",
+      "text": "En lineær modell for høyden til barn fra 2 til 10 år brukes til å beregne høyden ved 40 år. Hva er problemet?",
+      "options": [
+        "Ingen, modellen gjelder alltid",
+        "Regnefeil i modellen",
+        "At modellen er eksponentiell",
+        "At modellen brukes langt utenfor gyldighetsområdet"
+      ],
+      "correct": 3,
+      "explain": "Barn slutter å vokse. En lineær modell vil gi urimelig høye voksne, fordi den brukes utenfor området den ble laget for."
+    },
+    {
+      "id": "q05",
+      "text": "Hvilket steg kommer etter at du har regnet ut et svar med modellen?",
+      "options": [
+        "Å slette modellen",
+        "Å tolke og vurdere svaret",
+        "Å velge en ny funksjonstype uten grunn",
+        "Å legge til flere desimaler"
+      ],
+      "correct": 1,
+      "explain": "Svaret må oversettes til situasjonen og vurderes: Er det rimelig? Passer modellen?"
+    },
+    {
+      "id": "q06",
+      "text": "Hva er en forutsetning i en modell?",
+      "options": [
+        "Svaret modellen gir",
+        "Grafen til modellen",
+        "En antakelse modellen bygger på",
+        "Et datapunkt"
+      ],
+      "correct": 2,
+      "explain": "Forutsetninger er antakelsene som gjør at modellen kan brukes, for eksempel at prisen øker like mye hvert år."
+    },
+    {
+      "id": "q07",
+      "text": "Hva gjør regresjon i et digitalt verktøy?",
+      "options": [
+        "Finner den funksjonen som passer best til datapunktene",
+        "Sletter målinger som ikke passer",
+        "Tegner et stolpediagram",
+        "Regner ut gjennomsnittet"
+      ],
+      "correct": 0,
+      "explain": "Regresjon tilpasser en valgt funksjonstype til dataene, slik at vi får et funksjonsuttrykk å regne med."
+    },
+    {
+      "id": "q08",
+      "text": "Hvorfor er ikke den funksjonen som passer best med dataene alltid den beste modellen?",
+      "options": [
+        "Fordi digitale verktøy regner feil",
+        "Fordi modellen også må gi mening ut fra situasjonen",
+        "Fordi lineære modeller alltid er best",
+        "Fordi data aldri kan brukes"
+      ],
+      "correct": 1,
+      "explain": "En funksjon kan treffe punktene godt, men gi urimelige svar utenfor dem, for eksempel negative priser."
+    },
+    {
+      "id": "q09",
+      "text": "Hva bør med når du presenterer et modelleringsarbeid?",
+      "options": [
+        "Bare svaret",
+        "Bare grafen",
+        "Bare formelen",
+        "Data, modell, resultat og begrensninger"
+      ],
+      "correct": 3,
+      "explain": "En god presentasjon viser hvordan du kom fram til svaret, og hvor sikkert det er."
+    },
+    {
+      "id": "q10",
+      "text": "En modell sier at antall solgte is dobles når temperaturen øker fra 20 °C til 30 °C. Hva er en rimelig forutsetning bak modellen?",
+      "options": [
+        "At det selges like mye is hele året",
+        "At temperaturen er det som påvirker salget mest",
+        "At is ikke kan selges om vinteren",
+        "At prisen dobles"
+      ],
+      "correct": 1,
+      "explain": "Modellen antar at temperaturen er den viktigste faktoren. Andre ting, som ferie og pris, er forenklet bort."
+    }
+  ],
+  "mindmap": {
+    "label": "Matematisk modellering",
+    "children": [
+      {
+        "label": "Modell",
+        "children": [
+          {
+            "label": "Forenklet virkelighet"
+          },
+          {
+            "label": "Funksjon, likning, formel"
+          },
+          {
+            "label": "Forutsetninger"
+          }
+        ]
+      },
+      {
+        "label": "Syklusen",
+        "children": [
+          {
+            "label": "Forstå"
+          },
+          {
+            "label": "Forenkle"
+          },
+          {
+            "label": "Lage og regne"
+          },
+          {
+            "label": "Tolke og vurdere"
+          }
+        ]
+      },
+      {
+        "label": "Velge modell",
+        "children": [
+          {
+            "label": "Lik endring i antall",
+            "note": "Lineær"
+          },
+          {
+            "label": "Lik endring i prosent",
+            "note": "Eksponentiell"
+          },
+          {
+            "label": "Regresjon",
+            "note": "Digitalt verktøy"
+          }
+        ]
+      },
+      {
+        "label": "Gyldighet",
+        "children": [
+          {
+            "label": "Gyldighetsområde"
+          },
+          {
+            "label": "Ekstrapolering",
+            "note": "Risikabelt"
+          },
+          {
+            "label": "Er svaret rimelig?"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "En god modell er alltid nøyaktig lik virkeligheten.",
+        "correct": false,
+        "explain": "Alle modeller forenkler. En god modell er nyttig og passer godt nok innenfor sitt område."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Det er som regel tryggere å bruke en modell mellom datapunktene enn langt utenfor dem.",
+        "correct": true,
+        "explain": "Interpolering bygger på data rundt, mens ekstrapolering antar at sammenhengen fortsetter uendret."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Når man vurderer en modell, bør man spørre hvilke forutsetninger som kan være feil.",
+        "correct": true,
+        "explain": "Feil forutsetninger kan gi feil svar selv om regningen er riktig."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Modellering er ferdig så snart man har regnet ut ett svar.",
+        "correct": false,
+        "explain": "Svaret må tolkes og vurderes, og ofte forbedres modellen i en ny runde."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Et abonnement koster 199 kr i måneden. Hvilken modell gir totalprisen etter x måneder?",
+        "options": [
+          "P(x) = 199 · 1,01ˣ",
+          "P(x) = 199 + x",
+          "P(x) = 199x",
+          "P(x) = 199/x"
+        ],
+        "correct": 2,
+        "explain": "Totalprisen øker med 199 kr hver måned. Det er en lineær, proporsjonal modell: P(x) = 199x."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "En modell for en bys befolkning gir et negativt antall innbyggere om 80 år. Hva sier det?",
+        "options": [
+          "At byen forsvinner",
+          "At modellen ikke er gyldig så langt fram",
+          "At regnemaskinen er feil",
+          "At modellen er eksponentiell"
+        ],
+        "correct": 1,
+        "explain": "Et negativt antall er urimelig. Det viser at modellen er brukt utenfor gyldighetsområdet."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er en prognose?",
+        "options": [
+          "En forutsigelse basert på en modell",
+          "En måling fra i fjor",
+          "Et gjennomsnitt",
+          "En regnefeil"
+        ],
+        "correct": 0,
+        "explain": "En prognose er en forutsigelse av framtiden, for eksempel befolkningstall om ti år, laget med en modell."
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
+}

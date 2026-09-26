@@ -1,0 +1,82 @@
+{
+  "id": "funksjonstyper",
+  "fagId": "matematikk-10",
+  "trinnId": "10",
+  "name": "Ulike typer funksjoner",
+  "intro": "Lineære funksjoner, andregradsfunksjoner, eksponentialfunksjoner og omvendt proporsjonale funksjoner – hvordan de ser ut, og hvordan du kjenner dem igjen.",
+  "kompetansemaal": [4],
+  "sammendrag": "## Fire funksjonstyper\n\nI 10. trinn møter du fire typer funksjoner. De har hver sin form på uttrykket og hver sin form på grafen, og de passer til ulike situasjoner i virkeligheten.\n\n## Lineære funksjoner\n\nEn **lineær funksjon** har formen f(x) = ax + b. Grafen er en rett linje. Funksjonen endrer seg med like mye, a, hver gang x øker med 1. Eksempel: En mobilabonnent betaler 99 kr i måneden pluss 0,50 kr per SMS.\n\n## Andregradsfunksjoner\n\nEn **andregradsfunksjon** har formen f(x) = ax² + bx + c, der a ≠ 0. Grafen er en **parabel**. Er a positiv, smiler parabelen og har et **bunnpunkt**. Er a negativ, er den sur og har et **toppunkt**. Parabelen er symmetrisk om en loddrett linje gjennom topp- eller bunnpunktet. Eksempel: Høyden til en ball som kastes, eller arealet av et kvadrat, A(s) = s².\n\n## Eksponentialfunksjoner\n\nEn **eksponentialfunksjon** har formen f(x) = a · bˣ. Her er x i eksponenten. Funksjonen endrer seg med samme **prosent** for hver enhet, ikke med samme antall. Er b større enn 1, vokser funksjonen raskere og raskere (eksponentiell vekst). Er b mellom 0 og 1, avtar den (eksponentiell nedgang). Eksempel: penger i banken med fast rente, eller verdien av en bil som synker med 15 % i året.\n\n## Omvendt proporsjonale funksjoner (brøkfunksjoner)\n\nEn **omvendt proporsjonal funksjon** har formen f(x) = k/x. Når x dobles, halveres funksjonsverdien. Produktet x · f(x) er alltid lik konstanten k. Grafen er en **hyperbel** som nærmer seg aksene uten å treffe dem. Eksempel: Tiden det tar å kjøre 120 km er t = 120/v. Dobbelt så høy fart gir halv tid.\n\n## Sammenligne med digitale verktøy\n\nMed et digitalt verktøy som GeoGebra kan du tegne flere funksjoner i samme koordinatsystem og sammenligne dem. Du kan finne skjæringspunkter, nullpunkter (der grafen krysser x-aksen) og topp- og bunnpunkter. Et nyttig spørsmål er: Hvordan endrer funksjonen seg når x øker med 1? Lik endring i antall tyder på lineær funksjon. Lik endring i prosent tyder på eksponentialfunksjon. Dersom produktet x · y er konstant, er funksjonen omvendt proporsjonal.",
+  "flashcards": [
+    { "term": "Lineær funksjon", "def": "f(x) = ax + b. Grafen er en rett linje, og funksjonen endrer seg med like mye per enhet." },
+    { "term": "Andregradsfunksjon", "def": "f(x) = ax² + bx + c med a ≠ 0. Grafen er en parabel." },
+    { "term": "Parabel", "def": "Grafen til en andregradsfunksjon. Den er symmetrisk og har et topp- eller bunnpunkt." },
+    { "term": "Bunnpunkt", "def": "Det laveste punktet på en parabel som smiler (a > 0)." },
+    { "term": "Toppunkt", "def": "Det høyeste punktet på en parabel som er sur (a < 0)." },
+    { "term": "Eksponentialfunksjon", "def": "f(x) = a · bˣ. Endrer seg med samme prosent per enhet." },
+    { "term": "Eksponentiell vekst", "def": "b > 1. Funksjonen vokser raskere og raskere." },
+    { "term": "Eksponentiell nedgang", "def": "0 < b < 1. Funksjonen avtar, men blir aldri null." },
+    { "term": "Omvendt proporsjonal", "def": "f(x) = k/x. Når x dobles, halveres f(x). x · f(x) = k." },
+    { "term": "Hyperbel", "def": "Grafen til en omvendt proporsjonal funksjon. Den nærmer seg aksene uten å treffe dem." },
+    { "term": "Nullpunkt", "def": "En x-verdi der f(x) = 0, altså der grafen krysser x-aksen." },
+    { "term": "Symmetrilinje", "def": "Den loddrette linjen gjennom topp- eller bunnpunktet som deler parabelen i to speilbilder." },
+    { "term": "Lik endring i antall", "def": "Kjennetegn på en lineær funksjon." },
+    { "term": "Lik endring i prosent", "def": "Kjennetegn på en eksponentialfunksjon." },
+    { "term": "GeoGebra", "def": "Digitalt verktøy for å tegne grafer og finne skjæringspunkter, nullpunkter og topp- og bunnpunkter." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvilken funksjon er en eksponentialfunksjon?", "options": ["f(x) = 3x + 2", "f(x) = 500 · 1,05ˣ", "f(x) = x² − 4", "f(x) = 12/x"], "correct": 1, "explain": "I en eksponentialfunksjon står x i eksponenten. 500 · 1,05ˣ vokser med 5 % per enhet." },
+    { "id": "q02", "text": "Hvordan ser grafen til en andregradsfunksjon ut?", "options": ["En rett linje", "En hyperbel", "En parabel", "En sirkel"], "correct": 2, "explain": "Grafen til f(x) = ax² + bx + c er en parabel, som enten smiler eller er sur." },
+    { "id": "q03", "text": "f(x) = −x² + 4x. Har grafen et toppunkt eller bunnpunkt?", "options": ["Toppunkt, fordi a er negativ", "Bunnpunkt, fordi a er negativ", "Bunnpunkt, fordi 4 er positiv", "Ingen av delene"], "correct": 0, "explain": "Tallet foran x² er −1. Når det er negativt, er parabelen sur og har et toppunkt." },
+    { "id": "q04", "text": "En funksjon øker med 20 hver gang x øker med 1. Hvilken type er den?", "options": ["Eksponentiell", "Andregrads", "Omvendt proporsjonal", "Lineær"], "correct": 3, "explain": "Lik endring i antall per enhet er kjennetegnet på en lineær funksjon." },
+    { "id": "q05", "text": "Tiden for å kjøre 120 km er t = 120/v. Hva skjer med t når farten v dobles?", "options": ["t dobles", "t halveres", "t er uendret", "t blir fire ganger så stor"], "correct": 1, "explain": "Funksjonen er omvendt proporsjonal. Dobbelt så stor v gir halvparten så stor t." },
+    { "id": "q06", "text": "En bil taper 15 % av verdien hvert år. Hvilken funksjonstype passer?", "options": ["Lineær", "Andregrads", "Eksponentiell nedgang", "Omvendt proporsjonal"], "correct": 2, "explain": "Verdien synker med samme prosent hvert år, så V(x) = startverdi · 0,85ˣ, en eksponentiell nedgang." },
+    { "id": "q07", "text": "Hva er et nullpunkt?", "options": ["Der grafen krysser x-aksen", "Der grafen krysser y-aksen", "Toppunktet", "Origo"], "correct": 0, "explain": "Et nullpunkt er en x-verdi der funksjonsverdien er 0, altså der grafen skjærer x-aksen." },
+    { "id": "q08", "text": "Tabellen viser x = 1, 2, 3, 4 og y = 24, 12, 8, 6. Hvilken type funksjon er dette?", "options": ["Lineær", "Eksponentiell", "Andregrads", "Omvendt proporsjonal"], "correct": 3, "explain": "x · y = 24 i alle tilfellene: 1 · 24, 2 · 12, 3 · 8, 4 · 6. Da er funksjonen y = 24/x." },
+    { "id": "q09", "text": "Hvilket kjennetegn har f(x) = 2 · 3ˣ?", "options": ["Den øker med 3 per enhet", "Den tredobles for hver enhet x øker", "Den er en rett linje", "Den har et toppunkt"], "correct": 1, "explain": "Vekstfaktoren er 3, så funksjonsverdien ganges med 3 hver gang x øker med 1: 2, 6, 18, 54 …" },
+    { "id": "q10", "text": "Kan en eksponentialfunksjon med nedgang bli null?", "options": ["Ja, etter lang nok tid", "Ja, når x = 0", "Ja, når x = 1", "Nei, den nærmer seg null, men blir aldri null"], "correct": 3, "explain": "Hver gang ganges verdien med et tall mellom 0 og 1. Den blir mindre og mindre, men aldri nøyaktig 0." }
+  ],
+  "mindmap": {
+    "label": "Funksjonstyper",
+    "children": [
+      { "label": "Lineær", "children": [
+        { "label": "f(x) = ax + b" },
+        { "label": "Rett linje" },
+        { "label": "Lik endring i antall" }
+      ] },
+      { "label": "Andregrads", "children": [
+        { "label": "f(x) = ax² + bx + c" },
+        { "label": "Parabel", "note": "Symmetrisk" },
+        { "label": "a > 0: bunnpunkt", "note": "a < 0: toppunkt" }
+      ] },
+      { "label": "Eksponentiell", "children": [
+        { "label": "f(x) = a · bˣ" },
+        { "label": "Lik endring i prosent" },
+        { "label": "b > 1 vekst", "note": "0 < b < 1 nedgang" }
+      ] },
+      { "label": "Omvendt proporsjonal", "children": [
+        { "label": "f(x) = k/x" },
+        { "label": "Hyperbel" },
+        { "label": "x · y = k" }
+      ] },
+      { "label": "Undersøke", "children": [
+        { "label": "Nullpunkter" },
+        { "label": "Skjæringspunkter" },
+        { "label": "Digitale verktøy", "note": "GeoGebra" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q08", "q09"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Grafen til f(x) = 5x − 3 er en rett linje.", "correct": true, "explain": "Funksjonen har formen ax + b og er derfor lineær." },
+      { "id": "m02", "type": "sant-usant", "text": "I f(x) = 100 · 0,9ˣ vokser funksjonen.", "correct": false, "explain": "Vekstfaktoren 0,9 er mindre enn 1, så funksjonen avtar med 10 % per enhet." },
+      { "id": "m03", "type": "sant-usant", "text": "En parabel er symmetrisk om en loddrett linje.", "correct": true, "explain": "Symmetrilinjen går gjennom topp- eller bunnpunktet." },
+      { "id": "m04", "type": "sant-usant", "text": "Grafen til f(x) = 6/x krysser y-aksen.", "correct": false, "explain": "Funksjonen er ikke definert for x = 0, så grafen treffer aldri y-aksen." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er f(2) når f(x) = 3 · 2ˣ?", "options": ["12", "36", "6", "18"], "correct": 0, "explain": "f(2) = 3 · 2² = 3 · 4 = 12." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilken situasjon passer best med en andregradsfunksjon?", "options": ["Fast månedspris pluss pris per SMS", "Høyden til en ball som kastes opp og faller ned", "Penger med fast rente", "Tid for en fast strekning ved ulik fart"], "correct": 1, "explain": "Ballens bane stiger, når et toppunkt og faller igjen, som en sur parabel." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilken funksjon har y = 8 når x = 2 og y = 4 når x = 4?", "options": ["y = 2x + 4", "y = x²", "y = 16/x", "y = 2ˣ"], "correct": 2, "explain": "16/2 = 8 og 16/4 = 4. Produktet x · y er 16 i begge tilfellene." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
