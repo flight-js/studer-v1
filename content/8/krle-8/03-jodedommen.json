@@ -1,0 +1,85 @@
+{
+  "id": "jodedommen",
+  "fagId": "krle-8",
+  "trinnId": "8",
+  "name": "Jødedommen",
+  "intro": "Pakten med Gud, de hellige skriftene, tro og praksis, høytidene og de ulike retningene i jødedommen, og jødenes historie i verden og i Norge.",
+  "kompetansemaal": [1, 6],
+  "sammendrag": "## Et folk og en religion\n\n**Jødedommen** er den eldste av de tre **abrahamittiske religionene**. Det er rundt 15 millioner jøder i verden, og de fleste bor i **Israel** og **USA**. Å være jøde kan handle både om religion og om tilhørighet til et folk med felles historie og kultur. Mange jøder er ikke religiøse, men holder likevel på tradisjonene.\n\n## Pakten\n\nIfølge de hellige skriftene inngikk Gud en **pakt** med **Abraham**: Han skulle bli stamfar til et stort folk, og de skulle få et land. Senere førte **Moses** israelittene ut av slaveriet i Egypt. På fjellet **Sinai** fikk Moses **loven** fra Gud, blant annet **De ti bud**. Å følge loven er å leve i pakten med Gud.\n\n## Hellige skrifter\n\n- **Tanak** er den hebraiske bibelen. Den består av **Toraen** (de fem Mosebøkene), **Profetene** og **Skriftene**. Kristne kaller de samme skriftene Det gamle testamente.\n- **Toraen** er det viktigste. I synagogen leses den fra en håndskrevet rull.\n- **Talmud** er en stor samling tolkninger og diskusjoner av loven, skrevet av rabbinere gjennom flere hundre år.\n\n## Tro\n\nJødedommen er **monoteistisk**. Den viktigste bønnen, **Shema**, begynner slik: «Hør, Israel! Herren er vår Gud, Herren er én.» Mange jøder venter på **Messias**, en fredskonge som skal komme i framtiden. Jødedommen legger ofte mer vekt på hvordan man lever, enn på hva man tror.\n\n## Praksis\n\n- **Sabbaten** er ukens hviledag, fra fredag kveld til lørdag kveld. Den starter med lys, bønn og et festmåltid.\n- **Synagogen** er stedet for bønn, lesing og undervisning. **Rabbineren** er lærer og leder.\n- **Kosher**-reglene bestemmer hva man kan spise. Det er for eksempel ikke lov å spise svin, og kjøtt og melk holdes adskilt.\n- Guttebabyer **omskjæres** når de er åtte dager gamle. Ved **bar mitsva** (gutter, 13 år) og **bat mitsva** (jenter, 12 eller 13 år) blir man religiøst myndig.\n\n## Høytider\n\n- **Pesach** minner om utgangen fra Egypt.\n- **Rosh hashana** er det jødiske nyttåret, og **jom kippur**, forsoningsdagen, er årets helligste dag med faste og bønn.\n- **Hanukka** er en lysfest i desember.\n\n## Retninger\n\n**Ortodokse** jøder følger loven strengt og mener den er gitt av Gud én gang for alle. **Konservative** jøder følger mye av tradisjonen, men tilpasser den noe. **Reformjøder**, eller liberale jøder, mener at loven kan tolkes på nytt i hver tid.\n\n## Historie\n\nEtter at romerne ødela **tempelet** i Jerusalem i år 70, spredte jødene seg over hele verden. Dette kalles **diasporaen**. Jøder har gjennom historien opplevd **antisemittisme** og forfølgelse, med **Holocaust** som det verste. Staten **Israel** ble opprettet i 1948. I Norge var jøder utestengt fra riket fram til 1851. I dag finnes det synagoger i Oslo og Trondheim.",
+  "flashcards": [
+    { "term": "Jødedommen", "def": "Den eldste av de abrahamittiske religionene. Rundt 15 millioner jøder i verden." },
+    { "term": "Pakten", "def": "Avtalen mellom Gud og det jødiske folket, først inngått med Abraham." },
+    { "term": "Moses", "def": "Førte israelittene ut av Egypt og fikk loven på Sinai." },
+    { "term": "De ti bud", "def": "Grunnleggende regler for forholdet til Gud og til andre mennesker." },
+    { "term": "Tanak", "def": "Den hebraiske bibelen: Toraen, Profetene og Skriftene." },
+    { "term": "Toraen", "def": "De fem Mosebøkene, den viktigste delen av Tanak." },
+    { "term": "Talmud", "def": "Samling av rabbinernes tolkninger og diskusjoner av loven." },
+    { "term": "Shema", "def": "Den viktigste jødiske bønnen: «Hør, Israel! Herren er vår Gud, Herren er én.»" },
+    { "term": "Sabbat", "def": "Ukens hviledag, fra fredag kveld til lørdag kveld." },
+    { "term": "Synagoge", "def": "Jødenes sted for bønn, lesing og undervisning." },
+    { "term": "Kosher", "def": "Mat som følger de jødiske matreglene." },
+    { "term": "Bar og bat mitsva", "def": "Overgangsrite der gutter (13) og jenter (12–13) blir religiøst myndige." },
+    { "term": "Pesach", "def": "Høytid til minne om utgangen fra Egypt." },
+    { "term": "Jom kippur", "def": "Forsoningsdagen, årets helligste dag, med faste og bønn." },
+    { "term": "Diaspora", "def": "At jødene har levd spredt over hele verden, særlig etter år 70." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvem inngikk ifølge jødedommen den første pakten med Gud?", "options": ["Moses", "Abraham", "David", "Salomo"], "correct": 1, "explain": "Abraham regnes som stamfar for det jødiske folket." },
+    { "id": "q02", "text": "Hva er Toraen?", "options": ["En bønn", "En høytid", "En synagoge", "De fem Mosebøkene"], "correct": 3, "explain": "Toraen er den viktigste delen av de hellige skriftene." },
+    { "id": "q03", "text": "Når er sabbaten?", "options": ["Fra fredag kveld til lørdag kveld", "Hele søndagen", "Fra fredag morgen til fredag kveld", "Fra lørdag kveld til søndag kveld"], "correct": 0, "explain": "I jødisk tradisjon begynner døgnet ved solnedgang." },
+    { "id": "q04", "text": "Hva minnes jødene under pesach?", "options": ["Ødeleggelsen av tempelet", "Opprettelsen av Israel", "Utgangen fra Egypt", "Skapelsen av verden"], "correct": 2, "explain": "Under pesachmåltidet fortelles historien om hvordan Gud befridde folket." },
+    { "id": "q05", "text": "Hva er Talmud?", "options": ["Den første Mosebok", "En lysestake", "Det jødiske nyttåret", "En samling tolkninger og diskusjoner av loven"], "correct": 3, "explain": "Talmud viser hvordan loven kan forstås og brukes i hverdagen." },
+    { "id": "q06", "text": "Hva betyr det at mat er kosher?", "options": ["At den er økologisk", "At den følger de jødiske matreglene", "At den er laget i Israel", "At den er vegetarisk"], "correct": 1, "explain": "Reglene gjelder blant annet hvilke dyr man kan spise, og at kjøtt og melk holdes adskilt." },
+    { "id": "q07", "text": "Hva er diasporaen?", "options": ["En jødisk høytid", "Den jødiske kalenderen", "At jødene har levd spredt over hele verden", "Et jødisk skrift"], "correct": 2, "explain": "Etter år 70 bodde de fleste jøder utenfor Israel." },
+    { "id": "q08", "text": "Hvordan begynner bønnen Shema?", "options": ["«Hør, Israel! Herren er vår Gud, Herren er én»", "«Fader vår, du som er i himmelen»", "«Det finnes ingen gud utenom Gud»", "«Herren er min hyrde»"], "correct": 0, "explain": "Bønnen uttrykker troen på én Gud." },
+    { "id": "q09", "text": "Hvilken retning mener at loven kan tolkes på nytt i hver tid?", "options": ["Ortodoks jødedom", "Reformjødedom", "Hasidisme", "Alle retninger"], "correct": 1, "explain": "Ortodokse jøder mener at loven ikke skal endres." },
+    { "id": "q10", "text": "Hva er jom kippur?", "options": ["Den jødiske lysfesten", "Det jødiske nyttåret", "Forsoningsdagen, årets helligste dag", "Minnedagen for Holocaust"], "correct": 2, "explain": "På jom kippur faster man og ber om tilgivelse." }
+  ],
+  "mindmap": {
+    "label": "Jødedommen",
+    "children": [
+      { "label": "Historie", "children": [
+        { "label": "Abraham og pakten" },
+        { "label": "Moses og Sinai" },
+        { "label": "Diaspora" },
+        { "label": "Israel", "note": "1948" }
+      ] },
+      { "label": "Skrifter", "children": [
+        { "label": "Tanak" },
+        { "label": "Toraen" },
+        { "label": "Talmud" }
+      ] },
+      { "label": "Tro", "children": [
+        { "label": "Én Gud", "note": "Shema" },
+        { "label": "Pakten og loven" },
+        { "label": "Messias" }
+      ] },
+      { "label": "Praksis", "children": [
+        { "label": "Sabbat" },
+        { "label": "Synagoge og rabbiner" },
+        { "label": "Kosher" },
+        { "label": "Bar og bat mitsva" }
+      ] },
+      { "label": "Høytider og retninger", "children": [
+        { "label": "Pesach" },
+        { "label": "Jom kippur" },
+        { "label": "Hanukka" },
+        { "label": "Ortodoks, konservativ, reform" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "De fleste jøder i verden bor i Israel og USA.", "correct": true, "explain": "Omtrent åtte av ti jøder bor i ett av disse to landene." },
+      { "id": "m02", "type": "sant-usant", "text": "Alle jøder er religiøse.", "correct": false, "explain": "Mange jøder er sekulære, men føler tilhørighet til folket og tradisjonene." },
+      { "id": "m03", "type": "sant-usant", "text": "Jøder var utestengt fra Norge i Grunnloven fram til 1851.", "correct": true, "explain": "Henrik Wergeland kjempet for å fjerne forbudet." },
+      { "id": "m04", "type": "sant-usant", "text": "Hanukka er en høytid om sommeren.", "correct": false, "explain": "Hanukka er en lysfest som feires i desember." },
+      { "id": "m05", "type": "flervalg", "text": "Hvor gammel er en gutt ved bar mitsva?", "options": ["10 år", "13 år", "15 år", "18 år"], "correct": 1, "explain": "Fra da av regnes gutten som ansvarlig for å følge loven." },
+      { "id": "m06", "type": "flervalg", "text": "Hva kalles læreren og lederen i en synagoge?", "options": ["Imam", "Prest", "Rabbiner", "Munk"], "correct": 2, "explain": "Rabbiner betyr «min lærer»." },
+      { "id": "m07", "type": "flervalg", "text": "Hva skjedde med tempelet i Jerusalem i år 70?", "options": ["Det ble ødelagt av romerne", "Det ble bygd", "Det ble flyttet til Roma", "Det ble solgt"], "correct": 0, "explain": "Klagemuren i Jerusalem er en rest av tempelområdet." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

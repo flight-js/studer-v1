@@ -1,0 +1,84 @@
+{
+  "id": "kristendommen",
+  "fagId": "krle-8",
+  "trinnId": "8",
+  "name": "Kristendommen",
+  "intro": "Jesus og Bibelen, sentrale trosideer og praksiser i kristendommen, de ulike kirkeretningene og hvor kristendommen er utbredt i dag.",
+  "kompetansemaal": [1, 6],
+  "sammendrag": "## En verdensreligion\n\n**Kristendommen** er verdens største religion, med rundt 2,4 milliarder tilhengere, omtrent en tredjedel av jordas befolkning. Den oppsto i Palestina i det første århundret, med utgangspunkt i livet og læren til **Jesus fra Nasaret**. De kristne tror at Jesus er **Kristus**, «den salvede», og **Guds sønn**.\n\n## Jesus og Bibelen\n\nJesus var jøde og vokste opp i Galilea. Rundt 30 år gammel begynte han å forkynne om **Guds rike**, helbredet syke og samlet disipler rundt seg. Han ble **korsfestet** i Jerusalem rundt år 30. De kristne tror at han **sto opp fra de døde** den tredje dagen.\n\n**Bibelen** består av **Det gamle testamente**, som kristne deler med jødene, og **Det nye testamente**, som forteller om Jesus og de første kristne. De fire **evangeliene** – Matteus, Markus, Lukas og Johannes – forteller om Jesu liv. Brevene til apostelen **Paulus** hjalp kristendommen å spre seg også blant ikke-jøder.\n\n## Sentrale trosideer\n\n- **Monoteisme**: Det finnes én Gud.\n- **Treenigheten**: Gud er Fader, Sønn og Den hellige ånd – én Gud i tre personer.\n- **Inkarnasjonen**: Gud ble menneske i Jesus.\n- **Synd og nåde**: Mennesket er skilt fra Gud ved synd, men får tilgivelse gjennom Guds nåde.\n- **Frelse**: Gjennom Jesu død og oppstandelse kan mennesker få evig liv.\n- **Nestekjærlighet**: «Du skal elske din neste som deg selv.»\n\n## Praksis\n\nKristne samles til **gudstjeneste**, ofte på søndager. **Dåp** og **nattverd** er **sakramenter** i de fleste kirker. **Bønn**, særlig **Fadervår**, og lesing i Bibelen er viktig. Kirkeåret har tre store høytider: **jul** (Jesu fødsel), **påske** (Jesu død og oppstandelse) og **pinse** (Den hellige ånd kommer til disiplene).\n\n## Retninger\n\n- **Den katolske kirke** ledes av **paven** i Roma og er den største, med rundt halvparten av verdens kristne.\n- **Den ortodokse kirke** er utbredt i Øst-Europa, blant annet i Hellas, Russland og Ukraina. Den skilte lag med den katolske kirken i 1054.\n- **Protestantiske kirker** oppsto etter **reformasjonen**, som Martin Luther satte i gang i 1517. Den norske kirke er luthersk.\n- **Pinsebevegelsen** og karismatiske kirker legger vekt på Den hellige ånds gaver og vokser raskt.\n\n## Utbredelse i dag\n\nKristendommen finnes i hele verden. Tidligere bodde de fleste kristne i Europa, men i dag bor flest kristne i **Latin-Amerika** og **Afrika sør for Sahara**. I Norge er rundt 60 prosent av befolkningen medlemmer av **Den norske kirke**. Mange er også med i andre kristne trossamfunn, som Den katolske kirke, som har vokst mye på grunn av innvandring.",
+  "flashcards": [
+    { "term": "Kristendom", "def": "Verdens største religion, bygd på livet og læren til Jesus fra Nasaret." },
+    { "term": "Kristus", "def": "Betyr «den salvede». Kristne tror Jesus er Kristus og Guds sønn." },
+    { "term": "Bibelen", "def": "Kristendommens hellige skrift, med Det gamle og Det nye testamente." },
+    { "term": "Det nye testamente", "def": "Den delen av Bibelen som forteller om Jesus og de første kristne." },
+    { "term": "Evangelium", "def": "«Godt budskap». De fire evangeliene forteller om Jesu liv." },
+    { "term": "Monoteisme", "def": "Troen på at det finnes én Gud." },
+    { "term": "Treenigheten", "def": "Gud er Fader, Sønn og Den hellige ånd – én Gud i tre personer." },
+    { "term": "Inkarnasjonen", "def": "Troen på at Gud ble menneske i Jesus." },
+    { "term": "Nåde", "def": "Guds tilgivelse og kjærlighet, som mennesket får uten å fortjene den." },
+    { "term": "Nestekjærlighet", "def": "Å elske og hjelpe andre mennesker som seg selv." },
+    { "term": "Sakrament", "def": "Hellig handling. Dåp og nattverd er sakramenter i de fleste kirker." },
+    { "term": "Påske", "def": "Høytiden for Jesu død og oppstandelse." },
+    { "term": "Pinse", "def": "Høytiden der Den hellige ånd kom til disiplene." },
+    { "term": "Reformasjonen", "def": "Bruddet med den katolske kirken som Martin Luther satte i gang i 1517." },
+    { "term": "Hovedretninger", "def": "Katolsk, ortodoks og protestantisk kristendom." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva betyr «Kristus»?", "options": ["Den salvede", "Den hellige", "Profeten", "Kongen av Roma"], "correct": 0, "explain": "Tittelen viser til at kristne tror Jesus er den lovede frelseren." },
+    { "id": "q02", "text": "Hva er treenigheten?", "options": ["Tre ulike guder", "Tre store høytider", "At Gud er Fader, Sønn og Den hellige ånd – én Gud i tre personer", "Tre kristne retninger"], "correct": 2, "explain": "Kristne tror på én Gud som viser seg på tre måter." },
+    { "id": "q03", "text": "Hva feirer kristne i påsken?", "options": ["Jesu fødsel", "Jesu død og oppstandelse", "At Den hellige ånd kom", "At Jesus ble døpt"], "correct": 1, "explain": "Påsken er kirkeårets viktigste høytid." },
+    { "id": "q04", "text": "Hvem satte i gang reformasjonen i 1517?", "options": ["Paven", "Paulus", "Olav den hellige", "Martin Luther"], "correct": 3, "explain": "Luther kritiserte blant annet salget av avlat i den katolske kirken." },
+    { "id": "q05", "text": "Hvilke to sakramenter har de fleste kirker?", "options": ["Konfirmasjon og bryllup", "Bønn og faste", "Dåp og nattverd", "Jul og påske"], "correct": 2, "explain": "Den katolske og den ortodokse kirken har i tillegg flere sakramenter." },
+    { "id": "q06", "text": "Hvilken kristen retning er størst i verden?", "options": ["Den katolske kirke", "Den ortodokse kirke", "Den lutherske kirke", "Pinsebevegelsen"], "correct": 0, "explain": "Rundt halvparten av verdens kristne er katolikker." },
+    { "id": "q07", "text": "Hva forteller evangeliene om?", "options": ["Skapelsen av verden", "Moses og utgangen fra Egypt", "Reformasjonen", "Jesu liv, død og oppstandelse"], "correct": 3, "explain": "De fire evangeliene er Matteus, Markus, Lukas og Johannes." },
+    { "id": "q08", "text": "Hvor bor flest kristne i dag?", "options": ["I Nord-Europa", "I Latin-Amerika og Afrika sør for Sahara", "I Øst-Asia", "I Midtøsten"], "correct": 1, "explain": "Tyngdepunktet i kristendommen har flyttet seg sørover." },
+    { "id": "q09", "text": "Hva betyr inkarnasjonen?", "options": ["At Gud ble menneske i Jesus", "At man blir født på nytt i et annet liv", "At Jesus sto opp fra de døde", "At kirken ble grunnlagt"], "correct": 0, "explain": "Inkarnasjon betyr «å bli kjød», altså å bli menneske." },
+    { "id": "q10", "text": "Hva feires i pinsen?", "options": ["Jesu fødsel", "At Jesus døde", "At Den hellige ånd kom til disiplene", "At kirkeåret begynner"], "correct": 2, "explain": "Pinsen regnes ofte som kirkens fødselsdag." }
+  ],
+  "mindmap": {
+    "label": "Kristendommen",
+    "children": [
+      { "label": "Jesus", "children": [
+        { "label": "Jøde fra Galilea" },
+        { "label": "Forkynte Guds rike" },
+        { "label": "Korsfestet og oppstått" }
+      ] },
+      { "label": "Bibelen", "children": [
+        { "label": "Det gamle testamente" },
+        { "label": "Det nye testamente" },
+        { "label": "Fire evangelier" }
+      ] },
+      { "label": "Tro", "children": [
+        { "label": "Én Gud" },
+        { "label": "Treenigheten" },
+        { "label": "Synd og nåde" },
+        { "label": "Nestekjærlighet" }
+      ] },
+      { "label": "Praksis", "children": [
+        { "label": "Gudstjeneste og bønn" },
+        { "label": "Dåp og nattverd" },
+        { "label": "Jul, påske, pinse" }
+      ] },
+      { "label": "Retninger", "children": [
+        { "label": "Katolsk" },
+        { "label": "Ortodoks" },
+        { "label": "Protestantisk" },
+        { "label": "Pinsebevegelsen" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Kristne deler Det gamle testamente med jødene.", "correct": true, "explain": "Jødene kaller de samme skriftene Tanak." },
+      { "id": "m02", "type": "sant-usant", "text": "Jesus vokste opp i Roma.", "correct": false, "explain": "Jesus var jøde og vokste opp i Galilea." },
+      { "id": "m03", "type": "sant-usant", "text": "Den norske kirke er luthersk.", "correct": true, "explain": "Norge ble luthersk etter reformasjonen i 1537." },
+      { "id": "m04", "type": "sant-usant", "text": "Den ortodokse kirke ledes av paven i Roma.", "correct": false, "explain": "Paven leder den katolske kirken. Den ortodokse kirken har egne patriarker." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er monoteisme?", "options": ["Troen på mange guder", "Troen på én Gud", "Troen på at det ikke finnes noen gud", "Troen på gjenfødelse"], "correct": 1, "explain": "Kristendom, jødedom og islam er monoteistiske." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilken bønn lærte Jesus disiplene ifølge Bibelen?", "options": ["Fadervår", "Trosbekjennelsen", "Shahada", "Shema"], "correct": 0, "explain": "Fadervår er den mest kjente kristne bønnen." },
+      { "id": "m07", "type": "flervalg", "text": "Hva betyr nestekjærlighet?", "options": ["Å bare elske familien sin", "Å gi penger til kirken", "Å bry seg om og hjelpe andre mennesker", "Å gå i kirken hver søndag"], "correct": 2, "explain": "Lignelsen om den barmhjertige samaritan er et kjent eksempel." }
+    ]
+  },
+  "kvalitet": { "status": "sjekkes", "merknader": ["Tall for antall kristne i verden (rundt 2,4 milliarder) og andelen medlemmer i Den norske kirke (rundt 60 prosent) bør sjekkes mot ferske tall."] }
+}

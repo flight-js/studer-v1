@@ -1,0 +1,85 @@
+{
+  "id": "samisk-religion-og-urfolk",
+  "fagId": "krle-8",
+  "trinnId": "8",
+  "name": "Samisk religion og urfolks livssyn",
+  "intro": "Den førkristne samiske religionen, kristningen av samene, samisk religion og kultur i dag, og fellestrekk ved religionene til urfolk i andre deler av verden.",
+  "kompetansemaal": [5],
+  "sammendrag": "## Samisk førkristen religion\n\nFør samene ble kristnet, hadde de en religion som var tett knyttet til naturen og livet som jegere, fiskere og reindriftsutøvere. Kunnskapen om den bygger på muntlig tradisjon, arkeologi og skriftlige kilder fra misjonærer, som ofte så religionen negativt.\n\n- **Naturen var besjelet**: Mennesker, dyr, planter, fjell og elver hadde sjel eller ånd, og mennesket måtte leve i balanse med dem.\n- **Guder og makter**: blant andre **Beaivi** (sola), tordenguden **Horagalles** og **Máttaráhkká**, urmoren, og døtrene hennes, som hjalp ved fødsler og beskyttet hjemmet.\n- **Sieidi**: hellige steiner eller steder der folk ga offergaver for å få god fangst eller beskyttelse.\n- **Noaidi**: en religiøs spesialist, ofte kalt sjaman, som i transe kunne reise til åndeverdenen for å hjelpe, helbrede eller få kunnskap.\n- **Goavddis**: runebommen, en tromme med tegninger av guder, mennesker og dyr, som noaiden brukte.\n- **Joik**: en samisk sangform som også hadde religiøs betydning.\n\n## Kristning\n\nFra 1600- og 1700-tallet drev kirken og staten **misjon** blant samene. **Thomas von Westen** ledet misjonsarbeidet fra 1716. Runebommer ble tatt og brent, hellige steder ble ødelagt, og noaider ble forfulgt. Under **trolldomsprosessene** i Finnmark på 1600-tallet ble også samer dømt og henrettet. Joik ble i lang tid sett på som syndig.\n\nPå 1800-tallet fikk vekkelsesbevegelsen **læstadianismen**, oppkalt etter presten Lars Levi Læstadius, stor oppslutning blant samer og kvener. Den er fortsatt viktig i mange samiske lokalsamfunn.\n\n## Samisk religion i dag\n\nDe fleste samer i dag er kristne. Samtidig har interessen for den førkristne tradisjonen vokst. Joiken brukes igjen i stor grad, mange viser respekt for sieidiene, og noen praktiserer samisk sjamanisme. Kristendommen i Sápmi har også fått samiske uttrykk, med gudstjenester og salmer på samisk.\n\n## Andre urfolk\n\nDet finnes rundt 476 millioner urfolk i over 90 land. Mange urfolksreligioner har likhetstrekk:\n\n- Naturen er hellig, og alt levende henger sammen.\n- **Forfedrene** er viktige og kan hjelpe de levende.\n- Kunnskapen føres videre **muntlig** gjennom fortellinger, sang og ritualer.\n- **Sjamaner** eller medisinmenn formidler mellom menneskene og åndeverdenen.\n\nEt eksempel er **Drømmetiden** hos aboriginerne i Australia, fortellingene om hvordan forfedrene skapte landskapet. Mange urfolk har, som samene, opplevd misjon og kolonisering som truet religionen deres. I dag har urfolk rett til å praktisere og føre videre sine religiøse tradisjoner, blant annet gjennom **FNs erklæring om urfolks rettigheter** fra 2007.",
+  "flashcards": [
+    { "term": "Førkristen samisk religion", "def": "Samenes religion før kristningen, tett knyttet til naturen." },
+    { "term": "Besjelet natur", "def": "Troen på at dyr, planter, fjell og elver har sjel eller ånd." },
+    { "term": "Beaivi", "def": "Sola, en viktig makt i samisk religion." },
+    { "term": "Horagalles", "def": "Tordenguden i samisk religion." },
+    { "term": "Máttaráhkká", "def": "Urmoren, som sammen med døtrene hjalp ved fødsler og beskyttet hjemmet." },
+    { "term": "Sieidi", "def": "Hellig stein eller sted der det ble gitt offergaver." },
+    { "term": "Noaidi", "def": "Samisk religiøs spesialist som i transe kunne reise til åndeverdenen." },
+    { "term": "Goavddis", "def": "Runebommen, noaidens tromme med tegninger av guder, mennesker og dyr." },
+    { "term": "Joik", "def": "Samisk sangform som også hadde religiøs betydning." },
+    { "term": "Thomas von Westen", "def": "Prest som ledet misjonen blant samene fra 1716." },
+    { "term": "Læstadianismen", "def": "Kristen vekkelsesbevegelse fra 1800-tallet med sterk stilling blant samer og kvener." },
+    { "term": "Urfolk", "def": "Folk som bodde i et område før dagens statsgrenser. Rundt 476 millioner i verden." },
+    { "term": "Sjaman", "def": "Person som formidler mellom mennesker og åndeverdenen." },
+    { "term": "Drømmetiden", "def": "Aboriginernes fortellinger om hvordan forfedrene skapte verden og landskapet." },
+    { "term": "Muntlig tradisjon", "def": "Kunnskap som føres videre gjennom fortellinger, sang og ritualer." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er en sieidi?", "options": ["En samisk tromme", "En samisk sang", "En hellig stein eller et hellig sted der man ga offergaver", "En samisk prest"], "correct": 2, "explain": "Ved sieidien ofret man for å få god fangst eller beskyttelse." },
+    { "id": "q02", "text": "Hva var en noaidi?", "options": ["En reineier", "En religiøs spesialist som kunne reise til åndeverdenen i transe", "En misjonær", "En samisk høvding"], "correct": 1, "explain": "Noaiden kunne helbrede, hjelpe og hente kunnskap fra åndeverdenen." },
+    { "id": "q03", "text": "Hva betyr det at naturen var besjelet?", "options": ["At dyr, planter og landskap hadde sjel eller ånd", "At naturen var farlig", "At naturen var skapt av mennesker", "At bare mennesker hadde sjel"], "correct": 0, "explain": "Derfor måtte mennesket leve i balanse med naturen." },
+    { "id": "q04", "text": "Hva skjedde med mange runebommer under misjonen?", "options": ["De ble brukt i kirkene", "De ble solgt til turister", "De ble gitt til Sametinget", "De ble tatt og brent"], "correct": 3, "explain": "Misjonærene så på runebommene som redskaper for hedensk religion." },
+    { "id": "q05", "text": "Hvilken vekkelsesbevegelse fikk stor oppslutning blant samer på 1800-tallet?", "options": ["Pinsebevegelsen", "Haugianismen", "Læstadianismen", "Metodismen"], "correct": 2, "explain": "Bevegelsen er oppkalt etter presten Lars Levi Læstadius." },
+    { "id": "q06", "text": "Hvem ledet misjonen blant samene fra 1716?", "options": ["Thomas von Westen", "Martin Luther", "Lars Levi Læstadius", "Hans Nielsen Hauge"], "correct": 0, "explain": "Han ble kalt «samenes apostel»." },
+    { "id": "q07", "text": "Hva er et vanlig trekk ved mange urfolksreligioner?", "options": ["Én hellig bok", "At alle har prester", "Tro på at verden snart går under", "At naturen er hellig og forfedrene viktige"], "correct": 3, "explain": "Urfolksreligioner er ofte tett knyttet til landet folket lever på." },
+    { "id": "q08", "text": "Hva er Drømmetiden?", "options": ["En samisk høytid", "Aboriginernes fortellinger om hvordan forfedrene skapte landskapet", "En indiansk dans", "En type meditasjon"], "correct": 1, "explain": "Fortellingene knytter folket til bestemte steder i landskapet." },
+    { "id": "q09", "text": "Hvordan ble joiken sett på under kristningen?", "options": ["Som en del av gudstjenesten", "Som et skolefag", "Som syndig", "Som nasjonalsang"], "correct": 2, "explain": "I dag er joiken igjen en viktig del av samisk kultur." },
+    { "id": "q10", "text": "Hva gir FNs erklæring om urfolks rettigheter urfolk rett til?", "options": ["Å praktisere og føre videre sine religiøse tradisjoner", "Å slippe å betale skatt", "Å ha egen hær", "Å bestemme over alle land"], "correct": 0, "explain": "Erklæringen ble vedtatt i 2007." }
+  ],
+  "mindmap": {
+    "label": "Samisk religion og urfolk",
+    "children": [
+      { "label": "Førkristen tro", "children": [
+        { "label": "Besjelet natur" },
+        { "label": "Beaivi og Horagalles" },
+        { "label": "Máttaráhkká" }
+      ] },
+      { "label": "Praksis", "children": [
+        { "label": "Sieidi" },
+        { "label": "Noaidi" },
+        { "label": "Runebomme" },
+        { "label": "Joik" }
+      ] },
+      { "label": "Kristning", "children": [
+        { "label": "Misjon", "note": "fra 1716" },
+        { "label": "Runebommer brent" },
+        { "label": "Trolldomsprosesser" },
+        { "label": "Læstadianismen" }
+      ] },
+      { "label": "I dag", "children": [
+        { "label": "De fleste kristne" },
+        { "label": "Joik og revitalisering" },
+        { "label": "Samisk kirkeliv" }
+      ] },
+      { "label": "Andre urfolk", "children": [
+        { "label": "Natur og forfedre" },
+        { "label": "Muntlig tradisjon" },
+        { "label": "Drømmetiden" },
+        { "label": "Urfolkserklæringen" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "De fleste samer i dag er kristne.", "correct": true, "explain": "Samtidig har interessen for den førkristne tradisjonen økt." },
+      { "id": "m02", "type": "sant-usant", "text": "Kunnskapen om førkristen samisk religion bygger bare på samiske bøker fra middelalderen.", "correct": false, "explain": "Den bygger på muntlig tradisjon, arkeologi og kilder skrevet av misjonærer." },
+      { "id": "m03", "type": "sant-usant", "text": "Joik og samiske tradisjoner har fått en ny oppblomstring i vår tid.", "correct": true, "explain": "Dette er en del av en bredere samisk revitalisering." },
+      { "id": "m04", "type": "sant-usant", "text": "Urfolksreligioner føres som regel videre gjennom én hellig bok.", "correct": false, "explain": "De fleste urfolksreligioner bygger på muntlig tradisjon." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er goavddis?", "options": ["En hellig stein", "En runebomme som noaiden brukte", "En samisk kofte", "En reinflokk"], "correct": 1, "explain": "Tegningene på trommen viste guder, mennesker og dyr." },
+      { "id": "m06", "type": "flervalg", "text": "Hvem var Máttaráhkká?", "options": ["Tordenguden", "Sola", "Urmoren", "En misjonær"], "correct": 2, "explain": "Hun og døtrene hennes var knyttet til fødsel og hjem." },
+      { "id": "m07", "type": "flervalg", "text": "Hva kalles en som formidler mellom mennesker og åndeverdenen i mange urfolksreligioner?", "options": ["Sjaman", "Rabbiner", "Imam", "Biskop"], "correct": 0, "explain": "Hos samene ble denne rollen kalt noaidi." }
+    ]
+  },
+  "kvalitet": { "status": "sjekkes", "merknader": ["Navn og roller for samiske guder og makter varierer mellom kilder og samiske områder – bør kvalitetssikres av noen med samisk fagkompetanse."] }
+}

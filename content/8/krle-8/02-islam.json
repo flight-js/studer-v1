@@ -1,0 +1,84 @@
+{
+  "id": "islam",
+  "fagId": "krle-8",
+  "trinnId": "8",
+  "name": "Islam",
+  "intro": "Profeten Muhammad, Koranen og sunna, sentrale trosideer, de fem søylene, høytider og de ulike retningene i islam.",
+  "kompetansemaal": [1, 6],
+  "sammendrag": "## Islam i verden\n\n**Islam** betyr «underkastelse» eller «hengivelse» til Gud, og en **muslim** er en som hengir seg til Gud. Islam er verdens nest største religion, med nesten to milliarder tilhengere. Landet med flest muslimer er **Indonesia**, og bare omtrent én av fem muslimer er araber. Islam er også den nest største religionen i Norge.\n\n## Profeten Muhammad\n\n**Muhammad** ble født i **Mekka** på Den arabiske halvøy rundt år 570. Ifølge islamsk tradisjon fikk han i år 610 den første åpenbaringen fra Gud gjennom engelen **Jibril** (Gabriel). Han forkynte at det bare finnes én Gud, men møtte motstand i Mekka. I **622** dro han og tilhengerne til **Medina**. Denne utvandringen, **hijra**, er starten på den islamske tidsregningen. Da Muhammad døde i 632, var store deler av Arabia blitt muslimsk.\n\nMuslimer regner Muhammad som den siste i en lang rekke profeter, blant dem **Ibrahim** (Abraham), **Musa** (Moses) og **Isa** (Jesus). Derfor kalles islam, jødedommen og kristendommen ofte **abrahamittiske religioner**.\n\n## Koranen og sunna\n\n**Koranen** er islams hellige skrift. Muslimer tror at den er Guds ord, slik det ble åpenbart for Muhammad på arabisk. Den har 114 kapitler, kalt **suraer**. Ved siden av Koranen er **sunna** – Muhammads eksempel slik det er fortalt i **hadith**-samlingene – en viktig rettesnor for hvordan muslimer skal leve.\n\n## Tro\n\nKjernen i islam er **tawhid**, troen på Guds enhet: Det finnes bare én Gud, **Allah**, som er allmektig og barmhjertig. Muslimer tror også på engler, profetene, de hellige skriftene og **dommens dag**.\n\n## De fem søylene\n\n1. **Shahada**: trosbekjennelsen – «Det finnes ingen gud utenom Gud, og Muhammad er Guds sendebud.»\n2. **Salat**: bønn fem ganger om dagen, vendt mot Mekka.\n3. **Zakat**: å gi en del av formuen sin til fattige.\n4. **Sawm**: å faste fra soloppgang til solnedgang i måneden **ramadan**.\n5. **Hajj**: pilegrimsreise til Mekka minst én gang i livet for dem som har helse og råd.\n\nMuslimer samles i **moskeen**, og fredagsbønnen ledes ofte av en **imam**. De to store høytidene er **id al-fitr**, som avslutter ramadan, og **id al-adha**, offerfesten under pilegrimsreisen.\n\n## Retninger\n\nEtter Muhammads død ble muslimene uenige om hvem som skulle lede dem. De fleste, rundt 85–90 prosent, er **sunnimuslimer**. **Sjiamuslimene** mener at lederskapet skulle gått til Muhammads svigersønn **Ali** og etterkommerne hans. Sjiamuslimer er i flertall blant annet i **Iran** og **Irak**. **Sufisme** er en mystisk retning som søker nærhet til Gud gjennom meditasjon, musikk og dans, og som finnes både blant sunni- og sjiamuslimer.",
+  "flashcards": [
+    { "term": "Islam", "def": "«Underkastelse» eller «hengivelse» til Gud. Verdens nest største religion." },
+    { "term": "Muslim", "def": "En som hengir seg til Gud og følger islam." },
+    { "term": "Muhammad", "def": "Født i Mekka ca. 570. Regnes som den siste profeten i islam." },
+    { "term": "Hijra", "def": "Muhammads utvandring fra Mekka til Medina i 622. Starten på den islamske tidsregningen." },
+    { "term": "Koranen", "def": "Islams hellige skrift, som muslimer tror er Guds ord åpenbart på arabisk." },
+    { "term": "Sura", "def": "Et kapittel i Koranen. Det finnes 114 suraer." },
+    { "term": "Sunna og hadith", "def": "Muhammads eksempel og fortellingene om hva han sa og gjorde." },
+    { "term": "Tawhid", "def": "Troen på Guds enhet – at det bare finnes én Gud." },
+    { "term": "Shahada", "def": "Trosbekjennelsen: «Det finnes ingen gud utenom Gud, og Muhammad er Guds sendebud.»" },
+    { "term": "Salat", "def": "Bønn fem ganger om dagen, vendt mot Mekka." },
+    { "term": "Zakat", "def": "Plikten til å gi en del av formuen til fattige." },
+    { "term": "Sawm", "def": "Faste fra soloppgang til solnedgang i måneden ramadan." },
+    { "term": "Hajj", "def": "Pilegrimsreisen til Mekka, en plikt for dem som har helse og råd." },
+    { "term": "Sunni og sjia", "def": "Islams to hovedretninger. De skilte lag i striden om hvem som skulle lede etter Muhammad." },
+    { "term": "Id al-fitr", "def": "Høytiden som avslutter fasten i ramadan." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva betyr ordet islam?", "options": ["Fred på jorden", "Den rette vei", "Underkastelse eller hengivelse til Gud", "Profetens lære"], "correct": 2, "explain": "En muslim er en som hengir seg til Gud." },
+    { "id": "q02", "text": "Hvor ble Muhammad født?", "options": ["Mekka", "Medina", "Jerusalem", "Kairo"], "correct": 0, "explain": "Mekka er i dag islams helligste by." },
+    { "id": "q03", "text": "Hva er hijra?", "options": ["Pilegrimsreisen til Mekka", "Fasten i ramadan", "Bønnen fem ganger om dagen", "Muhammads utvandring fra Mekka til Medina i 622"], "correct": 3, "explain": "Den islamske kalenderen teller år fra hijra." },
+    { "id": "q04", "text": "Hva er Koranen for muslimer?", "options": ["En samling fortellinger om Muhammad", "Guds ord slik det ble åpenbart for Muhammad", "En lovbok skrevet av kalifene", "En bønnebok for høytidene"], "correct": 1, "explain": "Fortellingene om Muhammad kalles hadith og er ikke en del av Koranen." },
+    { "id": "q05", "text": "Hvilken søyle handler om å gi til fattige?", "options": ["Salat", "Zakat", "Hajj", "Shahada"], "correct": 1, "explain": "Zakat er en fast andel av formuen som gis bort hvert år." },
+    { "id": "q06", "text": "I hvilken måned faster muslimer?", "options": ["Muharram", "Shawwal", "Dhul-hijja", "Ramadan"], "correct": 3, "explain": "Muslimer faster fra soloppgang til solnedgang i hele ramadan." },
+    { "id": "q07", "text": "Hva er tawhid?", "options": ["Troen på Guds enhet", "Den islamske kalenderen", "En type moské", "Et høytidsmåltid"], "correct": 0, "explain": "Tawhid er kjernen i islamsk tro." },
+    { "id": "q08", "text": "Hva var den opprinnelige uenigheten mellom sunni- og sjiamuslimer?", "options": ["Hvilket språk Koranen skal leses på", "Om man skal be tre eller fem ganger", "Hvem som skulle lede muslimene etter Muhammad", "Om det finnes én Gud"], "correct": 2, "explain": "Sjiamuslimene mente at Ali og etterkommerne hans skulle lede." },
+    { "id": "q09", "text": "Hvilket land har flest muslimer?", "options": ["Saudi-Arabia", "Egypt", "Tyrkia", "Indonesia"], "correct": 3, "explain": "De fleste muslimer bor i Asia, ikke i Midtøsten." },
+    { "id": "q10", "text": "Hvorfor kalles islam en abrahamittisk religion?", "options": ["Fordi Abraham regnes som profet, slik som i jødedom og kristendom", "Fordi Abraham skrev Koranen", "Fordi Abraham var den siste profeten", "Fordi Abraham grunnla Mekka"], "correct": 0, "explain": "De tre religionene har felles røtter og deler mange profeter." }
+  ],
+  "mindmap": {
+    "label": "Islam",
+    "children": [
+      { "label": "Muhammad", "children": [
+        { "label": "Mekka", "note": "ca. 570" },
+        { "label": "Første åpenbaring", "note": "610" },
+        { "label": "Hijra", "note": "622" },
+        { "label": "Den siste profeten" }
+      ] },
+      { "label": "Skrifter", "children": [
+        { "label": "Koranen", "note": "114 suraer" },
+        { "label": "Sunna og hadith" }
+      ] },
+      { "label": "Tro", "children": [
+        { "label": "Tawhid" },
+        { "label": "Engler og profeter" },
+        { "label": "Dommens dag" }
+      ] },
+      { "label": "Fem søyler", "children": [
+        { "label": "Shahada" },
+        { "label": "Salat" },
+        { "label": "Zakat" },
+        { "label": "Sawm" },
+        { "label": "Hajj" }
+      ] },
+      { "label": "Retninger", "children": [
+        { "label": "Sunni" },
+        { "label": "Sjia" },
+        { "label": "Sufisme" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Muslimer regner Jesus (Isa) som en profet.", "correct": true, "explain": "Jesus er en viktig profet i islam, men ikke Guds sønn." },
+      { "id": "m02", "type": "sant-usant", "text": "De fleste muslimer i verden er arabere.", "correct": false, "explain": "Bare omtrent én av fem muslimer er araber." },
+      { "id": "m03", "type": "sant-usant", "text": "Hajj er en plikt for alle muslimer som har helse og råd til det.", "correct": true, "explain": "Pilegrimsreisen skal gjøres minst én gang i livet." },
+      { "id": "m04", "type": "sant-usant", "text": "Sjiamuslimer er i flertall i Saudi-Arabia.", "correct": false, "explain": "Saudi-Arabia har sunnimuslimsk flertall. Sjiamuslimer er i flertall i blant annet Iran og Irak." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken høytid avslutter ramadan?", "options": ["Id al-adha", "Id al-fitr", "Ashura", "Mawlid"], "correct": 1, "explain": "Id al-fitr feires med bønn, gaver og festmåltider." },
+      { "id": "m06", "type": "flervalg", "text": "Hva kalles den som leder bønnen i moskeen?", "options": ["Imam", "Kalif", "Mufti", "Sultan"], "correct": 0, "explain": "Imamen leder bønnen og holder ofte fredagspreken." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er sufisme?", "options": ["En lovskole", "En type moské", "En tidsregning", "En mystisk retning som søker nærhet til Gud"], "correct": 3, "explain": "Sufier bruker blant annet meditasjon, musikk og dans." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

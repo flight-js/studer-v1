@@ -1,0 +1,84 @@
+{
+  "id": "etiske-teorier",
+  "fagId": "krle-8",
+  "trinnId": "8",
+  "name": "Etiske teorier og dilemmaer",
+  "intro": "Forskjellen på moral og etikk, konsekvensetikk, pliktetikk, dydsetikk og sinnelagsetikk, hvordan teoriene kan brukes på dilemmaer, og hvordan du håndterer uenighet.",
+  "kompetansemaal": [11, 12],
+  "sammendrag": "## Etikk og moral\n\n**Moral** er de oppfatningene vi har om hva som er rett og galt, og hvordan vi faktisk handler. **Etikk** er å tenke systematisk over moralen: Hvorfor er noe rett eller galt? Filosofer har utviklet ulike **etiske teorier** som kan hjelpe oss å vurdere vanskelige valg.\n\n## Konsekvensetikk\n\n**Konsekvensetikk** vurderer en handling ut fra **følgene** den får. Den mest kjente formen er **utilitarismen**, utviklet av **Jeremy Bentham** og **John Stuart Mill**. Ifølge den er den rette handlingen den som gir **størst mulig lykke for flest mulig**.\n\n- Styrke: Den tar hensyn til hvordan handlingen påvirker alle.\n- Svakhet: Den kan forsvare urett mot noen få hvis flertallet tjener på det, og det er vanskelig å vite alle følgene på forhånd.\n\n## Pliktetikk\n\n**Pliktetikk** mener at noen handlinger er rette eller gale i seg selv, uansett følger. Vi har **plikter**, som å si sannheten og holde løfter. Den tyske filosofen **Immanuel Kant** (1724–1804) formulerte **det kategoriske imperativ**:\n\n- Handle bare slik at du kan ville at handlingen skal bli en **allmenn lov** for alle.\n- Behandle alltid mennesker som et **mål i seg selv**, aldri bare som et middel.\n\nStyrken er at pliktetikken verner om menneskeverdet og gir klare regler. Svakheten er at plikter kan komme i konflikt, og at det kan virke urimelig aldri å lyve, selv for å redde et liv.\n\n## Dydsetikk\n\n**Dydsetikk** spør ikke først «hva skal jeg gjøre?», men «hva slags menneske vil jeg være?». Den greske filosofen **Aristoteles** (384–322 f.Kr.) mente at vi skal utvikle gode karaktertrekk, **dyder**, som mot, rettferdighet, ærlighet og vennlighet. En dyd er ofte **den gylne middelvei** mellom to ytterpunkter: Mot ligger mellom feighet og dumdristighet.\n\n## Sinnelagsetikk\n\n**Sinnelagsetikk** legger vekt på **hensikten** bak handlingen. En handling er god hvis den gjøres i god mening, selv om resultatet blir dårlig.\n\n## Etiske dilemmaer\n\nEt **etisk dilemma** er en situasjon der man må velge mellom handlinger som alle har gode og dårlige sider. Tenk deg at en venn har jukset på en prøve og ber deg holde det hemmelig. En konsekvensetiker vil spørre hva som gir best resultat for alle. En pliktetiker vil vektlegge plikten til å være ærlig. En dydsetiker vil spørre hva en god venn og et ærlig menneske ville gjort.\n\n## Å håndtere uenighet\n\nNår vi diskuterer etiske spørsmål, er vi ofte uenige. Da er det lurt å\n\n- lytte aktivt og prøve å forstå den andres perspektiv\n- skille mellom saken og personen\n- begrunne standpunktene sine med argumenter\n- godta at uenigheten kan bestå, og behandle andre med respekt",
+  "flashcards": [
+    { "term": "Moral", "def": "Oppfatninger om rett og galt, og hvordan vi faktisk handler." },
+    { "term": "Etikk", "def": "Systematisk tenkning om moral: hvorfor noe er rett eller galt." },
+    { "term": "Konsekvensetikk", "def": "Handlinger vurderes ut fra følgene de får." },
+    { "term": "Utilitarisme", "def": "Den rette handlingen gir størst mulig lykke for flest mulig." },
+    { "term": "Bentham og Mill", "def": "Engelske filosofer som utviklet utilitarismen." },
+    { "term": "Pliktetikk", "def": "Noen handlinger er rette eller gale i seg selv, uansett følger." },
+    { "term": "Immanuel Kant", "def": "Tysk filosof (1724–1804) kjent for pliktetikken og det kategoriske imperativ." },
+    { "term": "Det kategoriske imperativ", "def": "Handle bare slik at du kan ville at handlingen blir en allmenn lov." },
+    { "term": "Mål i seg selv", "def": "Kants idé om at mennesker aldri bare skal brukes som middel." },
+    { "term": "Dydsetikk", "def": "Etikk som spør hva slags menneske man vil være, og vektlegger gode karaktertrekk." },
+    { "term": "Aristoteles", "def": "Gresk filosof (384–322 f.Kr.) som grunnla dydsetikken." },
+    { "term": "Den gylne middelvei", "def": "En dyd ligger mellom to ytterpunkter, som mot mellom feighet og dumdristighet." },
+    { "term": "Sinnelagsetikk", "def": "Hensikten bak handlingen avgjør om den er god." },
+    { "term": "Etisk dilemma", "def": "Et valg mellom handlinger som alle har gode og dårlige sider." },
+    { "term": "Aktiv lytting", "def": "Å lytte for å forstå den andre, og vise at man har forstått." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er forskjellen på moral og etikk?", "options": ["Det er ingen forskjell", "Moral er oppfatninger om rett og galt, etikk er systematisk tenkning om moralen", "Etikk gjelder bare religion", "Moral er lover, etikk er regler"], "correct": 1, "explain": "Etikk kalles også moralfilosofi." },
+    { "id": "q02", "text": "Hva sier utilitarismen?", "options": ["At man alltid skal følge pliktene sine", "At hensikten er det viktigste", "At den rette handlingen gir størst mulig lykke for flest mulig", "At man skal utvikle gode dyder"], "correct": 2, "explain": "Utilitarismen er den mest kjente formen for konsekvensetikk." },
+    { "id": "q03", "text": "Hvem formulerte det kategoriske imperativ?", "options": ["Immanuel Kant", "Aristoteles", "John Stuart Mill", "Sokrates"], "correct": 0, "explain": "Kant er den mest kjente pliktetikeren." },
+    { "id": "q04", "text": "Hva er en svakhet ved konsekvensetikk?", "options": ["Den tar ikke hensyn til følger", "Den er for enkel å bruke", "Den handler bare om plikter", "Den kan forsvare urett mot noen få hvis flertallet tjener på det"], "correct": 3, "explain": "Derfor mener kritikere at konsekvensetikken ikke verner godt nok om den enkelte." },
+    { "id": "q05", "text": "Hva betyr det å behandle mennesker som et mål i seg selv?", "options": ["Å konkurrere med dem", "At mennesker har verdi i seg selv og ikke bare skal brukes", "Å sette mål for dem", "Å bruke dem for å nå egne mål"], "correct": 1, "explain": "Dette er en av Kants formuleringer av det kategoriske imperativ." },
+    { "id": "q06", "text": "Hva spør dydsetikken først og fremst om?", "options": ["Hva gir best resultat?", "Hva sier loven?", "Hva mener flertallet?", "Hva slags menneske vil jeg være?"], "correct": 3, "explain": "Dydsetikken handler om karakter mer enn om enkelthandlinger." },
+    { "id": "q07", "text": "Hva er den gylne middelvei hos Aristoteles?", "options": ["En dyd som ligger mellom to ytterpunkter", "En regel om å dele likt", "En vei til lykke gjennom rikdom", "En plikt til å si sannheten"], "correct": 0, "explain": "Mot ligger for eksempel mellom feighet og dumdristighet." },
+    { "id": "q08", "text": "Hva legger sinnelagsetikken vekt på?", "options": ["Resultatet", "Loven", "Hensikten bak handlingen", "Flertallets mening"], "correct": 2, "explain": "En handling gjort i god mening regnes som god, selv om den går galt." },
+    { "id": "q09", "text": "Hva er et etisk dilemma?", "options": ["En enkel regel", "Et valg mellom handlinger som alle har gode og dårlige sider", "En lov", "En etisk teori"], "correct": 1, "explain": "I et dilemma finnes det ingen løsning som er helt uten ulemper." },
+    { "id": "q10", "text": "Hva er lurt når man er uenig i en etisk diskusjon?", "options": ["Å avbryte den andre", "Å angripe personen", "Å gi seg med en gang", "Å lytte aktivt og begrunne standpunktene sine"], "correct": 3, "explain": "Gode argumenter og respekt gjør det lettere å forstå hverandre." }
+  ],
+  "mindmap": {
+    "label": "Etiske teorier",
+    "children": [
+      { "label": "Grunnbegreper", "children": [
+        { "label": "Moral" },
+        { "label": "Etikk" },
+        { "label": "Etisk dilemma" }
+      ] },
+      { "label": "Konsekvensetikk", "children": [
+        { "label": "Følgene avgjør" },
+        { "label": "Utilitarisme" },
+        { "label": "Bentham og Mill" }
+      ] },
+      { "label": "Pliktetikk", "children": [
+        { "label": "Plikter i seg selv" },
+        { "label": "Kant" },
+        { "label": "Kategorisk imperativ" },
+        { "label": "Mål i seg selv" }
+      ] },
+      { "label": "Dyd og sinnelag", "children": [
+        { "label": "Aristoteles" },
+        { "label": "Dyder" },
+        { "label": "Den gylne middelvei" },
+        { "label": "Hensikten avgjør" }
+      ] },
+      { "label": "Uenighet", "children": [
+        { "label": "Aktiv lytting" },
+        { "label": "Sak, ikke person" },
+        { "label": "Begrunn standpunkt" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Kant mente at det aldri er riktig å lyve.", "correct": true, "explain": "Ifølge Kant kan ikke løgn bli en allmenn lov, uansett hva følgene blir." },
+      { "id": "m02", "type": "sant-usant", "text": "Konsekvensetikken vurderer handlinger bare ut fra hensikten.", "correct": false, "explain": "Det er sinnelagsetikken som vektlegger hensikten. Konsekvensetikken ser på følgene." },
+      { "id": "m03", "type": "sant-usant", "text": "Aristoteles mente at mot ligger mellom feighet og dumdristighet.", "correct": true, "explain": "Dette er et eksempel på den gylne middelvei." },
+      { "id": "m04", "type": "sant-usant", "text": "I en god diskusjon bør man angripe personen i stedet for saken.", "correct": false, "explain": "Personangrep gjør diskusjonen dårligere og hindrer at man forstår hverandre." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken teori spør «Hvilke følger får handlingen?»", "options": ["Pliktetikk", "Dydsetikk", "Konsekvensetikk", "Sinnelagsetikk"], "correct": 2, "explain": "Konsekvensetikken vurderer handlinger ut fra resultatet." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er en dyd?", "options": ["Et godt karaktertrekk, som mot eller ærlighet", "En lov", "En konsekvens", "En plikt"], "correct": 0, "explain": "Ifølge Aristoteles utvikler vi dyder gjennom øvelse." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilken etisk teori knyttes til Jeremy Bentham og John Stuart Mill?", "options": ["Pliktetikk", "Utilitarisme", "Dydsetikk", "Sinnelagsetikk"], "correct": 1, "explain": "Utilitarismen er en form for konsekvensetikk." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

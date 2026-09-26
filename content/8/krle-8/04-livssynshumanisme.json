@@ -1,0 +1,84 @@
+{
+  "id": "livssynshumanisme",
+  "fagId": "krle-8",
+  "trinnId": "8",
+  "name": "Livssynshumanisme og ikke-religiøse livssyn",
+  "intro": "Hva et livssyn er, sentrale ideer i livssynshumanismen og hvor de kommer fra, Human-Etisk Forbund og andre ikke-religiøse begreper som ateisme og agnostisisme.",
+  "kompetansemaal": [3, 6],
+  "sammendrag": "## Hva er et livssyn?\n\nEt **livssyn** er en grunnleggende oppfatning av hva mennesket er, hva som er viktig i livet, og hva som er rett og galt. Religioner er livssyn som bygger på tro på noe guddommelig. **Ikke-religiøse livssyn** bygger ikke på tro på gud eller guder, men på menneskelige erfaringer, fornuft og kunnskap.\n\n## Livssynshumanisme\n\n**Livssynshumanisme**, eller sekulær humanisme, er det mest kjente ikke-religiøse livssynet i Norge. Sentrale ideer er:\n\n- **Mennesket i sentrum**: Det er mennesker, ikke guder, som har ansvar for å skape et godt liv og et godt samfunn.\n- **Fornuft og vitenskap**: Kunnskap bør bygge på undersøkelser, erfaring og kritisk tenkning. Vi bør være villige til å endre mening når vi får ny kunnskap.\n- **Menneskeverd**: Alle mennesker har like stor verdi og rett til frihet og respekt.\n- **Etikk uten Gud**: Moral bygger på empati, fornuft og hensynet til hvordan handlingene våre påvirker andre. Humanister viser ofte til **den gylne regel**: Gjør mot andre det du vil at de skal gjøre mot deg.\n- **Dette livet**: De fleste humanister mener at vi bare har ett liv, og at det derfor er viktig å gjøre det meningsfullt.\n- **Livssynsfrihet**: Alle skal kunne velge livssyn selv, og staten bør behandle alle livssyn likt.\n\n## Røtter\n\nHumanismen har røtter tilbake til **antikkens filosofer**. Protagoras sa at «mennesket er alle tings mål». I **renessansen** ble interessen for mennesket og antikkens kunnskap vekket på nytt. Under **opplysningstiden** på 1700-tallet oppfordret filosofer folk til å bruke sin egen fornuft i stedet for å godta autoriteter blindt. Framveksten av **naturvitenskapen**, blant annet Darwins evolusjonsteori, ga nye forklaringer på hvordan livet har utviklet seg.\n\n## Human-Etisk Forbund\n\nI Norge organiserer **Human-Etisk Forbund**, stiftet i 1956, mange livssynshumanister. Forbundet tilbyr **humanistiske seremonier** ved viktige overganger i livet: navnefest, **humanistisk konfirmasjon**, vigsel og gravferd. Humanistisk konfirmasjon ble arrangert første gang i 1951, og i dag velger mange ungdommer den i stedet for kirkelig konfirmasjon. Forbundet arbeider også for et samfunn der alle livssyn behandles likt.\n\n## Andre begreper\n\n- **Ateisme**: overbevisningen om at det ikke finnes noen gud.\n- **Agnostisisme**: synet at vi ikke kan vite om det finnes en gud.\n- **Sekularisering**: at religion får mindre betydning i samfunnet og for den enkelte.\n\nMange i Norge i dag sier at de ikke er religiøse, uten å være medlem av noe livssynssamfunn. Et livssyn kan derfor være noe personlig som ikke er knyttet til en organisasjon. Samtidig kan mennesker med ulike livssyn være enige om mye, for eksempel om menneskerettighetene.",
+  "flashcards": [
+    { "term": "Livssyn", "def": "Grunnleggende oppfatning av mennesket, livet og hva som er rett og galt." },
+    { "term": "Ikke-religiøst livssyn", "def": "Livssyn som ikke bygger på tro på gud eller guder." },
+    { "term": "Livssynshumanisme", "def": "Livssyn som setter mennesket, fornuften og menneskeverdet i sentrum." },
+    { "term": "Menneskeverd", "def": "At alle mennesker har like stor verdi." },
+    { "term": "Den gylne regel", "def": "Gjør mot andre det du vil at de skal gjøre mot deg." },
+    { "term": "Fornuft og vitenskap", "def": "Humanister mener kunnskap bør bygge på undersøkelser og kritisk tenkning." },
+    { "term": "Human-Etisk Forbund", "def": "Norsk organisasjon for livssynshumanister, stiftet i 1956." },
+    { "term": "Humanistisk konfirmasjon", "def": "Ikke-religiøs konfirmasjon, arrangert første gang i Norge i 1951." },
+    { "term": "Humanistiske seremonier", "def": "Navnefest, konfirmasjon, vigsel og gravferd uten religiøst innhold." },
+    { "term": "Protagoras", "def": "Gresk filosof som sa at «mennesket er alle tings mål»." },
+    { "term": "Opplysningstiden", "def": "1700-tallet, da filosofer oppfordret folk til å bruke sin egen fornuft." },
+    { "term": "Ateisme", "def": "Overbevisningen om at det ikke finnes noen gud." },
+    { "term": "Agnostisisme", "def": "Synet at vi ikke kan vite om det finnes en gud." },
+    { "term": "Sekularisering", "def": "At religion får mindre betydning i samfunnet og for den enkelte." },
+    { "term": "Livssynsfrihet", "def": "Retten til å velge livssyn selv." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er et livssyn?", "options": ["En type religion", "En politisk ideologi", "En vitenskapelig teori", "En grunnleggende oppfatning av mennesket, livet og hva som er rett og galt"], "correct": 3, "explain": "Både religioner og ikke-religiøse livssyn er livssyn." },
+    { "id": "q02", "text": "Hva står i sentrum i livssynshumanismen?", "options": ["Mennesket", "Gud", "Naturen", "Staten"], "correct": 0, "explain": "Humanister mener mennesker selv har ansvar for å skape et godt liv." },
+    { "id": "q03", "text": "Hva bygger humanister etikken sin på?", "options": ["Hellige skrifter", "Kongens befalinger", "Empati, fornuft og konsekvenser for andre", "Tradisjon alene"], "correct": 2, "explain": "Humanister mener at vi kan vite hva som er godt uten å vise til en gud." },
+    { "id": "q04", "text": "Når ble Human-Etisk Forbund stiftet?", "options": ["1814", "1956", "1905", "2002"], "correct": 1, "explain": "Forbundet er i dag et av de største livssynssamfunnene i Norge." },
+    { "id": "q05", "text": "Hva er ateisme?", "options": ["Overbevisningen om at det ikke finnes noen gud", "Synet at man ikke kan vite om det finnes en gud", "Troen på mange guder", "Troen på gjenfødelse"], "correct": 0, "explain": "Det andre alternativet beskriver agnostisisme." },
+    { "id": "q06", "text": "Hva er agnostisisme?", "options": ["Troen på én Gud", "Troen på at alt er forutbestemt", "Synet at vi ikke kan vite om det finnes en gud", "Motstand mot all religion"], "correct": 2, "explain": "Ordet kommer fra gresk og betyr «uten kunnskap»." },
+    { "id": "q07", "text": "Hvem sa at «mennesket er alle tings mål»?", "options": ["Martin Luther", "Charles Darwin", "Buddha", "Protagoras"], "correct": 3, "explain": "Protagoras levde i antikkens Hellas." },
+    { "id": "q08", "text": "Hva er sekularisering?", "options": ["At flere blir religiøse", "At religion får mindre betydning i samfunnet", "At staten får en offisiell religion", "At det bygges flere kirker"], "correct": 1, "explain": "I Norge har religion fått mindre betydning for mange de siste tiårene." },
+    { "id": "q09", "text": "Hvilken seremoni tilbyr Human-Etisk Forbund?", "options": ["Dåp", "Nattverd", "Bar mitsva", "Humanistisk konfirmasjon"], "correct": 3, "explain": "Forbundet tilbyr også navnefest, vigsel og gravferd." },
+    { "id": "q10", "text": "Hva mener humanister om livssynsfrihet?", "options": ["At alle skal kunne velge livssyn selv, og at staten bør behandle alle livssyn likt", "At alle bør bli humanister", "At religion bør forbys", "At staten skal bestemme livssyn"], "correct": 0, "explain": "Livssynsfrihet er også en menneskerettighet." }
+  ],
+  "mindmap": {
+    "label": "Livssynshumanisme",
+    "children": [
+      { "label": "Livssyn", "children": [
+        { "label": "Religiøse" },
+        { "label": "Ikke-religiøse" }
+      ] },
+      { "label": "Ideer", "children": [
+        { "label": "Mennesket i sentrum" },
+        { "label": "Fornuft og vitenskap" },
+        { "label": "Menneskeverd" },
+        { "label": "Etikk uten Gud" },
+        { "label": "Ett liv" }
+      ] },
+      { "label": "Røtter", "children": [
+        { "label": "Antikken", "note": "Protagoras" },
+        { "label": "Renessansen" },
+        { "label": "Opplysningstiden" },
+        { "label": "Naturvitenskap" }
+      ] },
+      { "label": "I Norge", "children": [
+        { "label": "Human-Etisk Forbund", "note": "1956" },
+        { "label": "Humanistisk konfirmasjon", "note": "1951" },
+        { "label": "Seremonier" }
+      ] },
+      { "label": "Begreper", "children": [
+        { "label": "Ateisme" },
+        { "label": "Agnostisisme" },
+        { "label": "Sekularisering" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Livssynshumanister mener at kunnskap bør bygge på fornuft og vitenskap.", "correct": true, "explain": "Kritisk tenkning og vilje til å endre mening er sentrale verdier." },
+      { "id": "m02", "type": "sant-usant", "text": "Livssynshumanisme er en religion med egne guder.", "correct": false, "explain": "Livssynshumanisme er et ikke-religiøst livssyn." },
+      { "id": "m03", "type": "sant-usant", "text": "Humanistisk konfirmasjon ble arrangert første gang i Norge i 1951.", "correct": true, "explain": "Det var noen år før Human-Etisk Forbund ble stiftet." },
+      { "id": "m04", "type": "sant-usant", "text": "Man må være medlem av en organisasjon for å ha et livssyn.", "correct": false, "explain": "Et livssyn kan være personlig og uavhengig av organisasjoner." },
+      { "id": "m05", "type": "flervalg", "text": "Hva sier den gylne regel?", "options": ["Gjør mot andre det du vil at de skal gjøre mot deg", "Tenk alltid på deg selv først", "Følg alltid loven", "Gi bort alt du eier"], "correct": 0, "explain": "Varianter av regelen finnes i mange religioner og livssyn." },
+      { "id": "m06", "type": "flervalg", "text": "I hvilken periode oppfordret filosofer folk til å bruke sin egen fornuft?", "options": ["Vikingtiden", "Middelalderen", "Opplysningstiden", "Steinalderen"], "correct": 2, "explain": "Opplysningstiden var på 1700-tallet." },
+      { "id": "m07", "type": "flervalg", "text": "Hva mener de fleste humanister om livet etter døden?", "options": ["At man blir gjenfødt", "At vi bare har ett liv", "At alle kommer til himmelen", "At sjelen lever videre i naturen"], "correct": 1, "explain": "Derfor legger humanister vekt på å gjøre dette livet meningsfullt." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
