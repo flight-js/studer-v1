@@ -1,0 +1,93 @@
+{
+ "kode": "SAF01-05",
+ "tittel": "Læreplan i samfunnsfag",
+ "url": "https://www.udir.no/lk20/saf01-05",
+ "sett": [
+  {
+   "kode": "KV1152",
+   "tittel": "Kompetansemål og vurdering 2. trinn",
+   "maal": [
+    "utvikle og presentere samfunnsfaglege spørsmål",
+    "samtale om korleis ulike kjelder, inkludert kart, kan gi informasjon om samfunnsfaglege spørsmål",
+    "utforske og beskrive kulturminne og kultur- og naturlandskapet i nærmiljøet",
+    "utforske og presentere korleis menneska levde for éin til to menneskealdrar sidan",
+    "reflektere over kvifor menneske har ulike meiningar og tek ulike val",
+    "samtale om vennskap og tilhøyrsle og kva som påverkar relasjonar",
+    "beskrive og gi døme på mangfald i Noreg, med vekt på ulike familieformer og folkegrupper, inkludert det samiske urfolket",
+    "utforske og gi døme på korleis menneska påverkar klimaet og miljøet, og dokumentere korleis påverknadene kjem til syne i nærmiljøet",
+    "presentere og gi døme på rettar barn har i Noreg og verda, og kva barn kan gjere ved brot på desse rettane",
+    "utforske og gi døme på korleis barn kan påverke avgjerder og samarbeide om demokratiske prosessar",
+    "samtale om moglegheiter og utfordringar ved digital samhandling",
+    "samtale om kjensler, kropp, kjønn og seksualitet og korleis eigne og andre sine grenser kan uttrykkjast og respekterast",
+    "utforske og gi døme på korleis menneske i ulike delar av verda påverkar livet til kvarandre"
+   ]
+  },
+  {
+   "kode": "KV1149",
+   "tittel": "Kompetansemål og vurdering 4. trinn",
+   "maal": [
+    "utforske og presentere samfunnsfaglege spørsmål, søkje etter informasjon i ulike kjelder og vurdere kor nyttig informasjonen er til å belyse spørsmåla",
+    "utforske kulturminne og korleis menneska levde i den tida kulturminna er frå, og samanlikne med korleis vi lever i dag",
+    "beskrive kultur- og naturlandskap i Noreg og samtale om korleis historiske og geografiske kjelder, inkludert kart, kan gi informasjon om landskap",
+    "samtale om kvifor det oppstår konfliktar i skule- og nærmiljøet, lytte til andre si meining og samarbeide med andre om å finne konstruktive løysingar",
+    "presentere menneskerettar og rettar barn har, og reflektere over kvifor desse rettane finst",
+    "presentere årsaker til at samane har urfolksstatus i Noreg, og beskrive forskjellige former for samisk kultur- og samfunnsliv før og no",
+    "utforske og gi døme på nokre sider ved berekraftig utvikling",
+    "reflektere over samanhengen mellom personleg økonomi og forbruk hos den enkelte",
+    "samtale om identitet, mangfald og fellesskap og reflektere over korleis det kan opplevast ikkje å vere ein del av fellesskapet",
+    "samtale om reglar og normer for personvern, deling og beskyttelse av informasjon og om kva det vil seie å bruke dømmekraft i digital samhandling",
+    "samtale om grenser knytte til kropp, kva vald og seksuelle overgrep er, og kvar ein kan få hjelp dersom ein blir utsett for vald og seksuelle overgrep",
+    "reflektere over kven som har makt, og kva eit demokrati er, og utvikle forslag til korleis ein kan vere med på å påverke avgjerder",
+    "samtale om nokre viktige offentlege institusjonar og verksemder i Noreg og reflektere over kva dei betyr i livet til menneska"
+   ]
+  },
+  {
+   "kode": "KV1150",
+   "tittel": "Kompetansemål og vurdering 7. trinn",
+   "maal": [
+    "gjennomføre ei samfunnsfagleg undersøking og presentere resultata ved hjelp av eigna digitale verktøy",
+    "presentere ei aktuell nyheitssak og reflektere over forskjellar mellom fakta, meiningar og kommersiell bodskap i mediebiletet",
+    "samanlikne korleis ulike kjelder kan gi ulik informasjon om same tema, og reflektere over korleis kjelder kan brukast til å påverke og fremje bestemte syn",
+    "utforske korleis menneske i fortida livnærte seg, og samtale om korleis sentrale endringar i livsgrunnlag og teknologi har påverka og påverkar demografi, levekår og busetjingsmønster",
+    "beskrive geografiske hovudtrekk i ulike delar av verda og reflektere over korleis desse hovudtrekka påverkar menneska som bur der",
+    "reflektere over kvifor konfliktar oppstår, og drøfte korleis den enkelte og samfunn kan handtere konfliktar",
+    "utforske ulike sider ved mangfald i Noreg og reflektere over menneska sine behov for å vere seg sjølve og for å høyre til i fellesskap",
+    "drøfte kva likeverd og likestilling har å seie for eit demokrati, og utvikle forslag til korleis ein kan motarbeide fordommar, rasisme og diskriminering",
+    "samtale om menneske- og likeverd og samanlikne korleis menneskerettane er blitt og blir varetekne i ulike land",
+    "utforske hovudtrekk ved historia til samane og dei nasjonale minoritetane i Noreg og presentere rettar samane og dei nasjonale minoritetane i Noreg har i dag",
+    "reflektere over korleis kommersiell påverknad kan verke inn på forbruk, personleg økonomi og sjølvbilete",
+    "utforske og presentere ei global utfordring ved berekraftig utvikling og kva for konsekvensar ho kan ha, og utvikle forslag til korleis ein kan vere med på å motverke utfordringa og korleis samarbeid mellom land kan bidra",
+    "reflektere over korleis ein sjølv og andre deltek i digital samhandling, og drøfte kva det vil seie å bruke dømmekraft sett i lys av reglar, normer og grenser",
+    "reflektere over variasjonar i identitetar, seksuell orientering og kjønnsuttrykk, og eigne og andre sine grenser knytte til kjensler, kropp, kjønn og seksualitet og drøfte kva ein kan gjere om grenser blir brotne",
+    "beskrive sentrale hendingar som har ført fram til det demokratiet vi har i Noreg i dag og samanlikne korleis enkeltmenneske har høve til å påverke i ulike styresett",
+    "gi døme på kva lover, reglar og normer er og kva slags funksjon dei har i samfunn, og reflektere over konsekvensar av å bryte dei",
+    "reflektere over korleis møte mellom menneske har bidrege til å endre korleis menneske har tenkt og ulike samfunn har vore organiserte"
+   ]
+  },
+  {
+   "kode": "KV1151",
+   "tittel": "Kompetansemål og vurdering 10. trinn",
+   "maal": [
+    "bruke samfunnsfaglege metodar og digitale ressursar i eigne undersøkingar, presentere funn ved bruk av digitale verktøy og drøfte kor gyldige og relevante funna er",
+    "vurdere på kva måtar ulike kjelder gir informasjon om eit samfunnsfagleg tema, og reflektere over korleis algoritmar, einsretta kjelder eller mangel på kjelder kan prege forståinga vår",
+    "drøfte korleis framstillingar av fortida, hendingar og grupper har påverka og påverkar haldningane og handlingane til folk",
+    "utforske korleis teknologi har vore og framleis er ein endringsfaktor, og drøfte innverknaden teknologien har hatt og har på enkeltmenneske, samfunn og natur",
+    "reflektere over korleis menneske har kjempa og kjempar for endringar i samfunnet og samstundes har vore og er påverka av geografiske forhold og historisk kontekst",
+    "samanlikne korleis politiske, geografiske og historiske forhold påverkar levekår, busetjingsmønster og demografi i forskjellige delar av verda i dag",
+    "gjere greie for årsaker til og konsekvensar av sentrale historiske og notidige konfliktar og reflektere over om endringar av nokre føresetnader kunne ha hindra konfliktane",
+    "gjere greie for årsaker til og konsekvensar av terrorhandlingar og folkemord, som holocaust, og reflektere over korleis ekstreme haldningar og ekstreme handlingar kan førebyggjast",
+    "utforske og beskrive korleis menneske- og urfolksrettar og andre internasjonale avtalar og samarbeid har betydning for nasjonal politikk, livet til menneske, likestilling og likeverd",
+    "gjere greie for fornorsking av samane og dei nasjonale minoritetane og uretten dei har vore utsette for, og reflektere over kva konsekvensar det har hatt og har på individ- og samfunnsnivå",
+    "beskrive ulike dimensjonar ved berekraftig utvikling og korleis dei påverkar kvarandre, og presentere tiltak for meir berekraftige samfunn",
+    "vurdere korleis arbeid, inntekt og forbruk kan påverke personleg økonomi, levestandard og livskvalitet",
+    "reflektere over likskapar og ulikskapar i identitetar, levesett og kulturuttrykk og drøfte moglegheiter og utfordringar ved mangfald",
+    "utforske og reflektere over eigne digitale spor og høvet til å få sletta spora og å verne om retten ein sjølv og andre har til privatliv, personvern og opphavsrett",
+    "reflektere over korleis identitet, sjølvbilete og eigne grenser blir utvikla og utfordra i ulike fellesskap, og presentere forslag til korleis ein kan handtere påverknad og uønskte hendingar",
+    "reflektere over kva for aktørar som har makt i samfunnet i dag, og korleis desse grunngir standpunkta sine",
+    "utforske ulike plattformer for digital samhandling og reflektere over korleis digital deltaking og samhandling påverkar forma på og innhaldet i samfunnsdebatten",
+    "beskrive sentrale lover, reglar og normer og drøfte kva konsekvensar brot på desse kan ha for den enkelte og for samfunnet på kort og lang sikt",
+    "beskrive trekk ved det politiske systemet og velferdssamfunnet i Noreg i dag og reflektere over sentrale utfordringar"
+   ]
+  }
+ ]
+}

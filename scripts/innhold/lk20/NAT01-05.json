@@ -1,0 +1,269 @@
+{
+ "kode": "NAT01-05",
+ "tittel": "Læreplan i naturfag",
+ "url": "https://www.udir.no/lk20/nat01-05",
+ "sett": [
+  {
+   "kode": "KV1075",
+   "tittel": "Kompetansemål og vurdering 2. trinn",
+   "maal": [
+    "undre seg, utforske og lage spørsmål, og knytte dette til egne eller andres erfaringer",
+    "presentere funnene sine og beskrive hvordan eleven har kommet fram til dem",
+    "presentere egne ideer til teknologiske oppfinnelser",
+    "utforske og beskrive observerbare egenskaper til ulike objekter, materialer og stoffer og sortere etter egenskaper",
+    "samtale om hvordan vi kan ta miljøbevisste valg og gjennomføre lokale miljøtiltak",
+    "utforske et naturområde i nærmiljøet og beskrive hvordan noen organismer er tilpasset området og hverandre",
+    "oppleve naturen til ulike årstider, reflektere over hvordan naturen er i endring, og hvorfor året deles inn på ulike måter i norsk og samisk tradisjon",
+    "planlegge og gjennomføre undersøkelser av vær og himmelfenomener og sammenligne målinger, observasjoner og værtegn gjennom året",
+    "utforske sansene gjennom lek ute og inne og samtale om hvordan sansene brukes til å samle informasjon",
+    "gi eksempler på noen vanlige sykdommer og samtale om hva man kan gjøre for å verne kroppen mot smittsomme sykdommer"
+   ]
+  },
+  {
+   "kode": "KV1076",
+   "tittel": "Kompetansemål og vurdering 4. trinn",
+   "maal": [
+    "undre seg, stille spørsmål og lage hypoteser og utforske disse for å finne svar",
+    "bruke tabeller og figurer til å organisere data, lage forklaringer basert på data og presentere funn",
+    "sammenligne modeller med observasjoner og samtale om hvorfor vi bruker modeller i naturfag",
+    "utforske teknologiske systemer som er satt sammen av ulike deler, og beskrive hvordan delene fungerer og virker sammen",
+    "designe og lage et produkt basert på en kravspesifikasjon",
+    "utforske og beskrive hvordan noen stoffer kan endre seg når de blandes med andre stoffer",
+    "utforske observerbare størrelser som fart og temperatur og knytte dem til energi",
+    "samtale om hva energi er, og utforske ulike energikjeder",
+    "utforske et naturområde og drøfte bærekraftig bruk av området",
+    "utforske og sammenligne ulike dyre- og plantearters tilpasninger til miljø og levesteder og drøfte hvorfor noen arter dør ut",
+    "delta i høsting og bruk av naturressurser og drøfte hvordan naturressurser kan brukes på en bærekraftig måte",
+    "gi eksempler på god dyrevelferd og reflektere over hvordan dyrs behov kan ivaretas",
+    "utforske og beskrive vannets kretsløp og gjøre rede for hvorfor vann er viktig for livet på jorda",
+    "samtale om hva fysisk og psykisk helse er, og drøfte hvordan livsstil og trivsel påvirker helse",
+    "samtale om likheter og ulikheter mellom kjønnene, om kjønnsidentitet og om menneskets reproduksjon",
+    "beskrive hvordan muskler og skjelett fungerer, og knytte dette til bevegelse",
+    "beskrive funksjoner i kroppens ytre forsvar og samtale om hvordan dette verner mot sykdom"
+   ]
+  },
+  {
+   "kode": "KV1077",
+   "tittel": "Kompetansemål og vurdering 7. trinn",
+   "maal": [
+    "stille spørsmål og lage hypoteser om naturfaglige fenomener, identifisere variabler og samle data for å finne svar",
+    "skille mellom observasjoner og slutninger, organisere data, bruke årsak-virkning-argumenter, trekke slutninger, vurdere feilkilder og presentere funn",
+    "bruke og vurdere modeller som representerer fenomener man ikke kan observere direkte, og gjøre rede for hvorfor det brukes modeller i naturfag",
+    "lese og forstå faremerking og reflektere over hensikten med disse",
+    "gi eksempler på hvordan naturvitenskapelig kunnskap er utviklet og utvikler seg",
+    "gi eksempler på hvordan tradisjonell kunnskap har bidratt og bidrar til naturvitenskapelig kunnskap",
+    "utforske, lage og programmere teknologiske systemer som består av deler som virker sammen",
+    "designe og lage et produkt basert på brukerbehov",
+    "reflektere over hvordan teknologi kan løse utfordringer, skape muligheter og føre til nye dilemmaer",
+    "utforske faseoverganger og kjemiske reaksjoner og beskrive hva som kjennetegner dem",
+    "bruke partikkelmodellen til å forklare faseoverganger og egenskapene til faste stoffer, væsker og gasser",
+    "utforske elektriske og magnetiske krefter gjennom forsøk og samtale om hvordan vi utnytter elektrisk energi i dagliglivet",
+    "gjøre rede for hvordan organismer kan deles inn i hovedgrupper, og gi eksempler på ulike organismers særtrekk",
+    "gjøre rede for betydningen av biologisk mangfold og gjennomføre tiltak for å bevare det biologiske mangfoldet i nærmiljøet",
+    "foreslå tiltak for å bevare det biologiske mangfoldet i nordområdene og gi eksempler på betydningen av tradisjonell kunnskap i naturforvaltning",
+    "utforske og beskrive ulike næringsnett og bruke dette til å diskutere samspill i naturen",
+    "beskrive og visualisere hvordan døgn, månefaser og årstider oppstår, og samtale om hvordan dette påvirker livet på jorda",
+    "gjøre rede for jordas forutsetninger for liv og sammenligne med andre himmellegemer i universet",
+    "gjøre rede for hvordan det geologiske kretsløpet, platetektonikk og ytre krefter er med på å forme og endre ulike landskap",
+    "gjøre rede for fysiske og psykiske forandringer i puberteten og samtale om hvordan dette kan påvirke følelser, handlinger og seksualitet",
+    "gjøre rede for noen av kroppens organsystemer og beskrive hvordan systemene virker sammen"
+   ]
+  },
+  {
+   "kode": "KV1078",
+   "tittel": "Kompetansemål og vurdering 10. trinn",
+   "maal": [
+    "stille spørsmål og lage hypoteser om naturfaglige fenomener, identifisere avhengige og uavhengige variabler og samle data for å finne svar",
+    "analysere og bruke innsamlede data til å lage forklaringer, drøfte forklaringene i lys av relevant teori og vurdere kvaliteten på egne og andres utforskinger",
+    "bruke og lage modeller for å forutsi eller beskrive naturfaglige prosesser og systemer og gjøre rede for modellenes styrker og begrensninger",
+    "delta i risikovurderinger knyttet til forsøk og følge sikkerhetstiltakene",
+    "gi eksempler på dagsaktuell forskning og drøfte hvordan ny kunnskap genereres gjennom samarbeid og kritisk tilnærming til eksisterende kunnskap",
+    "utforske, forstå og lage teknologiske systemer som består av en sender og en mottaker",
+    "bruke programmering til å utforske naturfaglige fenomener",
+    "utforske kjemiske reaksjoner, forklare massebevaring og gjøre rede for betydninger av noen forbrenningsreaksjoner",
+    "bruke atommodeller og periodesystemet til å gjøre rede for egenskaper til grunnstoffer og kjemiske forbindelser",
+    "beskrive drivhuseffekten og gjøre rede for faktorer som kan forårsake globale klimaendringer",
+    "gjøre rede for energibevaring og energikvalitet og utforske ulike måter å omdanne, transportere og lagre energi på",
+    "drøfte hvordan energiproduksjon og energibruk kan påvirke miljøet lokalt og globalt",
+    "beskrive hvordan forskere har kommet fram til evolusjonsteorien og bruke denne til å forklare utvikling av biologisk mangfold",
+    "sammenligne celler hos ulike organismer og beskrive sammenhenger mellom oppbygning og funksjon",
+    "utforske sammenhenger mellom abiotiske og biotiske faktorer i et økosystem og diskutere hvordan energi og materie omdannes i kretsløp",
+    "gi eksempler på og drøfte aktuelle dilemmaer knyttet til utnyttelse av naturressurser og tap av biologisk mangfold",
+    "gi eksempler på samers tradisjonelle kunnskap om naturen og diskutere hvordan denne kunnskapen kan bidra til bærekraftig forvaltning av naturen",
+    "gjøre rede for hvordan fotosyntese og celleånding gir energi til alt levende gjennom karbonkretsløpet",
+    "bruke platetektonikkteorien til å forklare jordas utvikling over tid og gi eksempler på observasjoner som støtter teorien",
+    "drøfte spørsmål knyttet til seksuell og reproduktiv helse",
+    "sammenligne nervesystemet og hormonsystemet og beskrive hvordan rusmidler, legemidler, miljøgifter og doping påvirker signalsystemene",
+    "beskrive kroppens immunforsvar og hvordan vaksiner virker, og gjøre rede for hva vaksiner betyr for folkehelsen"
+   ]
+  },
+  {
+   "kode": "KV1079",
+   "tittel": "Kompetansemål og vurdering vg1 studieforberedende utdanningsprogram",
+   "maal": [
+    "utforske en selvvalgt naturfaglig problemstilling, presentere funn og argumentere for valg av metoder",
+    "risikovurdere egne forsøk og håndtere avfallet fra disse på en forsvarlig måte",
+    "drøfte hvordan utvikling av naturvitenskapelige hypoteser, modeller og teorier bidrar til at vi kan forstå og forklare verden",
+    "vurdere og lage programmer som modellerer naturfaglige fenomener",
+    "utforske og beskrive noen sentrale bølgefenomener",
+    "forklare hovedprinsippene for trådløs kommunikasjon og gi eksempler på hva slik teknologi brukes til",
+    "utforske og beskrive elektromagnetisk og ioniserende stråling, og vurdere informasjon om stråling og helseeffekter av ulike strålingstyper",
+    "beskrive big bang-teorien om hvordan universet har oppstått og utviklet seg, og gjøre rede for observasjoner som støtter denne teorien",
+    "utforske og gjøre rede for sammenhenger mellom kjemiske bindinger og egenskaper til ulike stoffer",
+    "utforske egenskaper og reaksjoner til noen organiske og uorganiske karbonforbindelser, gi eksempler på anvendelser og gjøre rede for karbonets betydning for livet på jorda",
+    "gjøre rede for hvordan noen miljøgifter kan akkumuleres i næringskjeder, og vurdere tiltak for å ta vare på helse og miljø",
+    "gjøre rede for funksjonene til noen næringsstoffer og diskutere hvorfor et variert kosthold er viktig i et helse- og bærekraftsperspektiv",
+    "drøfte aktuelle helse- og livsstilsspørsmål og vurdere pålitelighet i informasjon fra ulike kilder",
+    "beskrive DNA og hvordan egenskaper arves, og gjøre rede for hvordan arv er en forutsetning for evolusjon",
+    "gjøre rede for hvordan klimaendringer påvirker evolusjon, utbredelse av arter og biologisk mangfold",
+    "gi eksempler på bruk av bioteknologi og drøfte etiske spørsmål knyttet til bioteknologi"
+   ]
+  },
+  {
+   "kode": "KV1080",
+   "tittel": "Kompetansemål og vurdering vg1 bygg- og anleggsteknikk",
+   "maal": [
+    "utforske en selvvalgt problemstilling knyttet til eget utdanningsprogram, presentere funn og argumentere for valg av metoder",
+    "risikovurdere egne forsøk og håndtere avfallet fra disse på en forsvarlig måte",
+    "utforske og presentere teknologi knyttet til eget utdanningsprogram og vurdere den i et bærekraftsperspektiv",
+    "drøfte aktuelle helse- og livsstilspørsmål og vurdere pålitelighet i informasjon fra ulike kilder",
+    "gjøre rede for funksjonene til noen næringsstoffer og diskutere hvorfor et variert kosthold er viktig i et helse- og bærekraftsperspektiv",
+    "undersøke egenskapene til ulike materialer og overflatebehandlinger og vurdere bruk av disse i et bærekraftsperspektiv",
+    "bruke begrepene energiovergang, energibevaring og virkningsgrad til å vurdere energiøkonomisering i bygg"
+   ]
+  },
+  {
+   "kode": "KV1081",
+   "tittel": "Kompetansemål og vurdering vg1 elektro og datateknologi",
+   "maal": [
+    "utforske en selvvalgt problemstilling knyttet til eget utdanningsprogram, presentere funn og argumentere for valg av metoder",
+    "risikovurdere egne forsøk og håndtere avfallet fra disse på en forsvarlig måte",
+    "utforske og presentere teknologi knyttet til eget utdanningsprogram og vurdere den i et bærekraftsperspektiv",
+    "drøfte aktuelle helse- og livsstilspørsmål og vurdere pålitelighet i informasjon fra ulike kilder",
+    "gjøre rede for funksjonene til noen næringsstoffer og diskutere hvorfor et variert kosthold er viktig i et helse- og bærekraftsperspektiv",
+    "gjøre rede for sammenhenger mellom elektrisk energi og effekt og presentere noen energieffektive løsninger i bygg",
+    "bruke begrepene vekselstrømteknologi, likestrømsteknologi, energilagring og virkningsgrad for å beskrive og drøfte metoder for bærekraftig energiproduksjon"
+   ]
+  },
+  {
+   "kode": "KV1089",
+   "tittel": "Kompetansemål og vurdering vg1 frisør, blomster, interiør og eksponeringsdesign",
+   "maal": [
+    "utforske en selvvalgt problemstilling knyttet til eget utdanningsprogram, presentere funn og argumentere for valg av metoder",
+    "risikovurdere egne forsøk og håndtere avfallet fra disse på en forsvarlig måte",
+    "utforske og presentere teknologi knyttet til eget utdanningsprogram og vurdere den i et bærekraftsperspektiv",
+    "drøfte aktuelle helse- og livsstilspørsmål og vurdere pålitelighet i informasjon fra ulike kilder",
+    "gjøre rede for funksjonene til noen næringsstoffer og diskutere hvorfor et variert kosthold er viktig i et helse- og bærekraftsperspektiv",
+    "undersøke og vurdere livsløpet til ulike produkter i et bærekraftsperspektiv",
+    "utforske egenskaper og reaksjoner til noen stoffer og stoffblandinger som er relevante for eget utdanningsprogram"
+   ]
+  },
+  {
+   "kode": "KV1082",
+   "tittel": "Kompetansemål og vurdering vg1 helse- og oppvekstfag",
+   "maal": [
+    "utforske en selvvalgt problemstilling knyttet til eget utdanningsprogram, presentere funn og argumentere for valg av metoder",
+    "risikovurdere egne forsøk og håndtere avfallet fra disse på en forsvarlig måte",
+    "utforske og presentere teknologi knyttet til eget utdanningsprogram og vurdere den i et bærekraftsperspektiv",
+    "drøfte aktuelle helse- og livsstilspørsmål og vurdere pålitelighet i informasjon fra ulike kilder",
+    "gjøre rede for funksjonene til noen næringsstoffer og diskutere hvorfor et variert kosthold er viktig i et helse- og bærekraftsperspektiv",
+    "utforske egenskaper og reaksjoner til noen stoffer og stoffblandinger som er relevante for eget utdanningsprogram",
+    "drøfte hvilken betydning mikroorganismer har for kropp og helse"
+   ]
+  },
+  {
+   "kode": "KV1086",
+   "tittel": "Kompetansemål og vurdering vg1 håndverk, design og produktutvikling",
+   "maal": [
+    "utforske en selvvalgt problemstilling knyttet til eget utdanningsprogram, presentere funn og argumentere for valg av metoder",
+    "risikovurdere egne forsøk og håndtere avfallet fra disse på en forsvarlig måte",
+    "utforske og presentere teknologi knyttet til eget utdanningsprogram og vurdere den i et bærekraftsperspektiv",
+    "drøfte aktuelle helse- og livsstilspørsmål og vurdere pålitelighet i informasjon fra ulike kilder",
+    "gjøre rede for funksjonene til noen næringsstoffer og diskutere hvorfor et variert kosthold er viktig i et helse- og bærekraftsperspektiv",
+    "undersøke og vurdere livsløpet til ulike produkter i et bærekraftsperspektiv",
+    "undersøke egenskapene til ulike materialer og overflatebehandlinger og vurdere bruk av disse i et bærekraftsperspektiv"
+   ]
+  },
+  {
+   "kode": "KV1087",
+   "tittel": "Kompetansemål og vurdering vg1 informasjonsteknologi og medieproduksjon",
+   "maal": [
+    "utforske en selvvalgt problemstilling knyttet til eget utdanningsprogram, presentere funn og argumentere for valg av metoder",
+    "risikovurdere egne forsøk og håndtere avfallet fra disse på en forsvarlig måte",
+    "utforske og presentere teknologi knyttet til eget utdanningsprogram og vurdere den i et bærekraftsperspektiv",
+    "drøfte aktuelle helse- og livsstilspørsmål og vurdere pålitelighet i informasjon fra ulike kilder",
+    "gjøre rede for funksjonene til noen næringsstoffer og diskutere hvorfor et variert kosthold er viktig i et helse- og bærekraftsperspektiv",
+    "beskrive ulike typer elektromagnetisk stråling og gi eksempler på hvordan stråling benyttes i trådløs kommunikasjon",
+    "utforske bølgefenomener knyttet til lyd og akustikk"
+   ]
+  },
+  {
+   "kode": "KV1083",
+   "tittel": "Kompetansemål og vurdering vg1 naturbruk",
+   "maal": [
+    "utforske en selvvalgt problemstilling knyttet til eget utdanningsprogram, presentere funn og argumentere for valg av metoder",
+    "risikovurdere egne forsøk og håndtere avfallet fra disse på en forsvarlig måte",
+    "utforske og presentere teknologi knyttet til eget utdanningsprogram og vurdere den i et bærekraftsperspektiv",
+    "drøfte aktuelle helse- og livsstilspørsmål og vurdere pålitelighet i informasjon fra ulike kilder",
+    "gjøre rede for funksjonene til noen næringsstoffer og diskutere hvorfor et variert kosthold er viktig i et helse- og bærekraftsperspektiv",
+    "undersøke problemstillinger knyttet til arealbruk, gjøre rede for hvordan endringer kan påvirke økosystemer, og foreslå bærekraftige løsninger",
+    "gjøre rede for hvorfor noen grunnstoffer er viktige for liv, og vurdere hvordan menneskelig aktivitet kan påvirke kretsløpene til disse stoffene"
+   ]
+  },
+  {
+   "kode": "KV1084",
+   "tittel": "Kompetansemål og vurdering vg1 restaurant- og matfag",
+   "maal": [
+    "utforske en selvvalgt problemstilling knyttet til eget utdanningsprogram, presentere funn og argumentere for valg av metoder",
+    "risikovurdere egne forsøk og håndtere avfallet fra disse på en forsvarlig måte",
+    "utforske og presentere teknologi knyttet til eget utdanningsprogram og vurdere den i et bærekraftsperspektiv",
+    "drøfte aktuelle helse- og livsstilspørsmål og vurdere pålitelighet i informasjon fra ulike kilder",
+    "gjøre rede for funksjonene til noen næringsstoffer og diskutere hvorfor et variert kosthold er viktig i et helse- og bærekraftsperspektiv",
+    "utforske egenskaper og reaksjoner til noen stoffer og stoffblandinger som er relevante for eget utdanningsprogram",
+    "gjøre rede for mattrygghet og betydningen av mikroorganismer i matproduksjon, for driftshygiene og ved håndtering av mat"
+   ]
+  },
+  {
+   "kode": "KV1088",
+   "tittel": "Kompetansemål og vurdering vg1 salg, service og reiseliv",
+   "maal": [
+    "utforske en selvvalgt problemstilling knyttet til eget utdanningsprogram, presentere funn og argumentere for valg av metoder",
+    "risikovurdere egne forsøk og håndtere avfallet fra disse på en forsvarlig måte",
+    "utforske og presentere teknologi knyttet til eget utdanningsprogram og vurdere den i et bærekraftsperspektiv",
+    "drøfte aktuelle helse- og livsstilspørsmål og vurdere pålitelighet i informasjon fra ulike kilder",
+    "gjøre rede for funksjonene til noen næringsstoffer og diskutere hvorfor et variert kosthold er viktig i et helse- og bærekraftsperspektiv",
+    "undersøke ulike materialers og produkters livsløp og vurdere disse i et bærekraftsperspektiv",
+    "gjøre rede for aktuelle miljøutfordringer knyttet til handel og reiseliv og drøfte disse i et bærekraftsperspektiv"
+   ]
+  },
+  {
+   "kode": "KV1085",
+   "tittel": "Kompetansemål og vurdering vg1 teknologi- og industrifag",
+   "maal": [
+    "utforske en selvvalgt problemstilling knyttet til eget utdanningsprogram, presentere funn og argumentere for valg av metoder",
+    "risikovurdere egne forsøk og håndtere avfallet fra disse på en forsvarlig måte",
+    "utforske og presentere teknologi knyttet til eget utdanningsprogram og vurdere den i et bærekraftsperspektiv",
+    "drøfte aktuelle helse- og livsstilspørsmål og vurdere pålitelighet i informasjon fra ulike kilder",
+    "gjøre rede for funksjonene til noen næringsstoffer og diskutere hvorfor et variert kosthold er viktig i et helse- og bærekraftsperspektiv",
+    "undersøke egenskapene til ulike materialer og overflatebehandlinger og vurdere bruk av disse i et bærekraftsperspektiv",
+    "undersøke og vurdere ulike metoder for lagring og overføring av energi"
+   ]
+  },
+  {
+   "kode": "KV1090",
+   "tittel": "Kompetansemål og vurdering vg3 påbygging til generell studiekompetanse",
+   "maal": [
+    "drøfte hvordan utvikling av naturvitenskapelige hypoteser, modeller og teorier bidrar til at vi kan forstå og forklare verden",
+    "vurdere og lage programmer som modellerer naturfaglige fenomener",
+    "beskrive big bang-teorien om hvordan universet har oppstått og utviklet seg, og gjøre rede for observasjoner som støtter denne teorien",
+    "utforske og beskrive elektromagnetisk og ioniserende stråling, og vurdere informasjon om stråling og helseeffekter av ulike strålingstyper",
+    "utforske og beskrive noen sentrale bølgefenomener",
+    "forklare hovedprinsippene for trådløs kommunikasjon og gi eksempler på hva slik teknologi brukes til",
+    "beskrive DNA og hvordan egenskaper arves, og gjøre rede for hvordan arv er en forutsetning for evolusjon",
+    "gjøre rede for hvordan klimaendringer påvirker evolusjon, utbredelse av arter og biologisk mangfold",
+    "gi eksempler på bruk av bioteknologi og drøfte etiske spørsmål knyttet til bioteknologi",
+    "gjøre rede for hvordan noen miljøgifter kan akkumuleres i næringskjeder, og vurdere tiltak for å ta vare på helse og miljø"
+   ]
+  }
+ ]
+}

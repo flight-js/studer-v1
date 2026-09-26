@@ -1,0 +1,27 @@
+{
+ "kode": "MAT09-02",
+ "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)",
+ "url": "https://www.udir.no/lk20/mat09-02",
+ "sett": [
+  {
+   "kode": "KV979",
+   "tittel": "Kompetansemål og vurdering",
+   "maal": [
+    "formulere og løyse problem ved hjelp av algoritmisk tenking, ulike problemløysingsstrategiar, digitale verktøy og programmering",
+    "lese og forstå matematiske bevis og utforske og utvikle bevis i relevante matematiske emne",
+    "identifisere variable storleikar i ulike situasjonar, setje opp formlar og utforske desse ved hjelp av digitale verktøy",
+    "utforske strategiar for å løyse likningar, likningssystem og ulikskapar og argumentere for tenkjemåtane sine",
+    "forklare forskjellen mellom ein identitet, ei likning, eit algebraisk uttrykk og ein funksjon",
+    "utforske samanhengar mellom andregradslikningar og andregradsulikskapar, andregradsfunksjonar og kvadratsetningane og bruke samanhengane i problemløysing",
+    "modellere situasjonar knytte til ulike tema, drøfte, presentere og forklare resultata og argumentere for om modellane er gyldige",
+    "lese, hente ut og vurdere matematikk i relevante tekstar om ulike tema og presentere relevante berekningar og analysar av resultata",
+    "utforske og beskrive eigenskapane ved polynomfunksjonar, rasjonale funksjonar, eksponentialfunksjonar og potensfunksjonar",
+    "bruke gjennomsnittleg og momentan vekstfart i konkrete døme og gjere greie for den deriverte",
+    "forklare polynomdivisjon og bruke det til å omskrive algebraiske uttrykk, drøfte funksjonar og løyse likningar og ulikskapar",
+    "gjere greie for definisjonane av sinus, cosinus og tangens og bruke trigonometri til å berekne lengder, vinklar og areal i vilkårlege trekantar",
+    "grunngi sinus-, cosinus- og arealsetninga",
+    "bruke trigonometri til å analysere og løyse samansette teoretiske og praktiske problem med lengder, vinklar og areal"
+   ]
+  }
+ ]
+}

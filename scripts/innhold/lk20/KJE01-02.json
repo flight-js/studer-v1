@@ -1,0 +1,51 @@
+{
+ "kode": "KJE01-02",
+ "tittel": "Læreplan i kjemi",
+ "url": "https://www.udir.no/lk20/kje01-02",
+ "sett": [
+  {
+   "kode": "KV532",
+   "tittel": "Kompetansemål og vurdering kjemi 1",
+   "maal": [
+    "forstå og bruke kjemisk terminologi og regler for navnsetting i faglig kommunikasjon",
+    "planlegge og gjennomføre forsøk, estimere usikkerhet og vurdere feilkilder, presentere resultater og argumentere for gyldigheten av resultater og konklusjoner",
+    "bruke informasjon fra sikkerhetsdatablad til å gjøre vurderinger knyttet til helse, miljø og sikkerhet i praktisk arbeid",
+    "bruke data, simuleringer og beregninger i tolkninger og til å trekke konklusjoner",
+    "bruke modeller til å forklare observasjoner og kjemiske fenomener, og argumentere for modellenes styrker og begrensinger",
+    "gjøre rede for oppbygningen av periodesystemet, og bruke kjerneladning og elektronkonfigurasjon til å forklare periodiske trender",
+    "gjøre rede for kjemisk binding som elektrostatiske krefter som virker mellom partikler, og bruke dette til å forklare molekylgeometri og organiske og uorganiske stoffers struktur, sammensetning og egenskaper",
+    "utforske og gjøre beregninger på kjemiske reaksjoner, og bruke observasjoner og teoretiske vurderinger til å identifisere reaksjonstype",
+    "gjøre beregninger med ulike enheter for konsentrasjon og bruke stoffkonsentrasjon i vurderinger av vann- og luftkvalitet",
+    "gjennomføre volumetrisk og gravimetrisk titreranalyse og drøfte bruk av titreranalyse",
+    "gjøre rede for sammenhengen mellom atomets oppbygning og grunnstoffers absorbsjons- og emisjonsspektre og bruke spektroskopiske metoder i kvalitativ og kvantitativ analyse",
+    "gjøre rede for entalpi og bruke beregninger og forsøk til å utforske entalpiendringer i reaksjoner",
+    "gjøre rede for kollisjonsteori og utforske faktorer som påvirker reaksjonsfart og kjemisk likevekt",
+    "utforske løseligheten til stoffer, og gjøre rede for betydningen av ladning, polaritet og temperatur for løselighet",
+    "gjøre rede for begrepene syre, base, protolyse og pH, og utforske egenskapene til sterke og svake syrer og baser",
+    "gjøre rede for prinsipper for grønn kjemi og drøfte hvordan bruk av prinsippene kan bidra til bærekraftig utvikling",
+    "presentere kjemifaglig innhold fra ulike kilder, kritisk vurdere kildene og bruke relevant teori til å drøfte innholdet"
+   ]
+  },
+  {
+   "kode": "KV533",
+   "tittel": "Kompetansemål og vurdering kjemi 2",
+   "maal": [
+    "forstå og bruke kjemisk terminologi og fagspråk i faglig kommunikasjon",
+    "planlegge og gjennomføre forsøk, drøfte metode og tiltak for å redusere risiko og vurdere usikkerhet og feilkilder i egne og andres forsøk",
+    "gjøre rede for hvordan naturvitenskapelige modeller og teorier utvikles, og reflektere over hvordan samarbeid bidrar til kunnskapsutvikling i kjemi",
+    "utforske redoksreaksjoner og bruke beregninger til å vurdere sammenhenger mellom masse, ladning, spenning og energi i elektrokjemiske reaksjoner",
+    "utforske likevekter og bruke massevirkningsloven til å gjøre beregninger og forklare observasjoner",
+    "gjøre rede for entropibegrepet og bruke entropi og entalpi til å vurdere spontanitet og endringer i likevektsystemer",
+    "utforske og beregne pH i vannløsninger og drøfte betydningen av buffere for regulering av pH i naturlige og industrielle prosesser",
+    "utforske og gjøre beregninger av løseligheten til stoffer og gjøre vurderinger av løselighet i biologiske og industrielle prosesser",
+    "utforske katalyserte reaksjoner og gjøre rede for betydningen av katalysatorer i biologiske og industrielle prosesser",
+    "gjøre rede for reaksjonstypene addisjon, eliminasjon, substitusjon, hydrolyse og kondensasjon og bruke elektrostatiske krefter til å forklare noen enkle reaksjonsmekanismer",
+    "gjennomføre synteser og gjøre rede for faktorer som påvirker utbytte og renhet i synteser",
+    "gjøre rede for prinsipper for kromatografi og bruke kromatografi for å separere og analysere organiske stoffblandinger",
+    "beskrive oppbygningen til noen biologiske makromolekyler og vurdere hvordan ytre faktorer kan påvirke molekylenes struktur og egenskaper",
+    "gi eksempler på produksjon, gjenvinning, deponering og nedbryting av noen metaller og noen typer plast, og drøfte tiltak som er i samsvar med prinsipper for grønn kjemi",
+    "utforske en teoretisk eller praktisk problemstilling, og drøfte og presentere funn"
+   ]
+  }
+ ]
+}

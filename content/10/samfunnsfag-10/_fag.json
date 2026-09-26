@@ -1,0 +1,96 @@
+{
+  "id": "samfunnsfag-10",
+  "trinnId": "10",
+  "name": "Samfunnsfag",
+  "lareplan": {
+    "kode": "SAF01-05",
+    "url": "https://www.udir.no/lk20/saf01-05/kompetansemaal-og-vurdering/kv1151",
+    "kompetansemaal": [
+      {
+        "nr": 1,
+        "tekst": "bruke samfunnsfaglege metodar og digitale ressursar i eigne undersøkingar, presentere funn ved bruk av digitale verktøy og drøfte kor gyldige og relevante funna er"
+      },
+      {
+        "nr": 2,
+        "tekst": "vurdere på kva måtar ulike kjelder gir informasjon om eit samfunnsfagleg tema, og reflektere over korleis algoritmar, einsretta kjelder eller mangel på kjelder kan prege forståinga vår"
+      },
+      {
+        "nr": 3,
+        "tekst": "drøfte korleis framstillingar av fortida, hendingar og grupper har påverka og påverkar haldningane og handlingane til folk"
+      },
+      {
+        "nr": 4,
+        "tekst": "utforske korleis teknologi har vore og framleis er ein endringsfaktor, og drøfte innverknaden teknologien har hatt og har på enkeltmenneske, samfunn og natur"
+      },
+      {
+        "nr": 5,
+        "tekst": "reflektere over korleis menneske har kjempa og kjempar for endringar i samfunnet og samstundes har vore og er påverka av geografiske forhold og historisk kontekst"
+      },
+      {
+        "nr": 6,
+        "tekst": "samanlikne korleis politiske, geografiske og historiske forhold påverkar levekår, busetjingsmønster og demografi i forskjellige delar av verda i dag"
+      },
+      {
+        "nr": 7,
+        "tekst": "gjere greie for årsaker til og konsekvensar av sentrale historiske og notidige konfliktar og reflektere over om endringar av nokre føresetnader kunne ha hindra konfliktane"
+      },
+      {
+        "nr": 8,
+        "tekst": "gjere greie for årsaker til og konsekvensar av terrorhandlingar og folkemord, som holocaust, og reflektere over korleis ekstreme haldningar og ekstreme handlingar kan førebyggjast"
+      },
+      {
+        "nr": 9,
+        "tekst": "utforske og beskrive korleis menneske- og urfolksrettar og andre internasjonale avtalar og samarbeid har betydning for nasjonal politikk, livet til menneske, likestilling og likeverd"
+      },
+      {
+        "nr": 10,
+        "tekst": "gjere greie for fornorsking av samane og dei nasjonale minoritetane og uretten dei har vore utsette for, og reflektere over kva konsekvensar det har hatt og har på individ- og samfunnsnivå"
+      },
+      {
+        "nr": 11,
+        "tekst": "beskrive ulike dimensjonar ved berekraftig utvikling og korleis dei påverkar kvarandre, og presentere tiltak for meir berekraftige samfunn"
+      },
+      {
+        "nr": 12,
+        "tekst": "vurdere korleis arbeid, inntekt og forbruk kan påverke personleg økonomi, levestandard og livskvalitet"
+      },
+      {
+        "nr": 13,
+        "tekst": "reflektere over likskapar og ulikskapar i identitetar, levesett og kulturuttrykk og drøfte moglegheiter og utfordringar ved mangfald"
+      },
+      {
+        "nr": 14,
+        "tekst": "utforske og reflektere over eigne digitale spor og høvet til å få sletta spora og å verne om retten ein sjølv og andre har til privatliv, personvern og opphavsrett"
+      },
+      {
+        "nr": 15,
+        "tekst": "reflektere over korleis identitet, sjølvbilete og eigne grenser blir utvikla og utfordra i ulike fellesskap, og presentere forslag til korleis ein kan handtere påverknad og uønskte hendingar"
+      },
+      {
+        "nr": 16,
+        "tekst": "reflektere over kva for aktørar som har makt i samfunnet i dag, og korleis desse grunngir standpunkta sine"
+      },
+      {
+        "nr": 17,
+        "tekst": "utforske ulike plattformer for digital samhandling og reflektere over korleis digital deltaking og samhandling påverkar forma på og innhaldet i samfunnsdebatten"
+      },
+      {
+        "nr": 18,
+        "tekst": "beskrive sentrale lover, reglar og normer og drøfte kva konsekvensar brot på desse kan ha for den enkelte og for samfunnet på kort og lang sikt"
+      },
+      {
+        "nr": 19,
+        "tekst": "beskrive trekk ved det politiske systemet og velferdssamfunnet i Noreg i dag og reflektere over sentrale utfordringar"
+      }
+    ]
+  },
+  "temaer": [
+    "den-kalde-krigen",
+    "konflikter-i-var-tid",
+    "terror-og-ekstremisme",
+    "berekraftig-utvikling",
+    "velferdsstaten",
+    "mangfold-og-fordommer",
+    "makt-og-medier"
+  ]
+}

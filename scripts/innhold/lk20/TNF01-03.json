@@ -1,0 +1,51 @@
+{
+ "kode": "TNF01-03",
+ "tittel": "Læreplan i teknologi og forskningslære",
+ "url": "https://www.udir.no/lk20/tnf01-03",
+ "sett": [
+  {
+   "kode": "KV974",
+   "tittel": "Kompetansemål og vurdering teknologi og forskningslære X",
+   "maal": [
+    "bruke kravspesifikasjon og arbeidstegninger i arbeid med å utvikle og teste funksjonelle produkter",
+    "utvikle og teste et produkt som inneholder en mikrokontroller, og vurdere muligheter for utvidelser og forbedringer",
+    "analysere datamateriale fra forsøk og reflektere over og teste om usikkerheten kan reduseres",
+    "bruke kvantitativ metode i forsøk og vurdere påliteligheten til resultatene",
+    "drøfte etiske problemstillinger knyttet til teknologisk utvikling",
+    "utforske hvordan en virksomhet arbeider med teknologi, og gjøre rede for virksomheten i et bærekraftsperspektiv"
+   ]
+  },
+  {
+   "kode": "KV975",
+   "tittel": "Kompetansemål og vurdering teknologi og forskningslære 1",
+   "maal": [
+    "bruke kravspesifikasjon og arbeidstegninger i arbeid med å utvikle og teste funksjonelle produkter",
+    "utvikle og teste et produkt som inneholder en mikrokontroller, og vurdere muligheter for utvidelser og forbedringer",
+    "utforske og bruke analoge og digitale signaler fra sensorer og beskrive sensorenes ulike bruksområder",
+    "designe og lage et produkt som produserer empiriske data og presentere funn fra eget datamateriale",
+    "analysere datamateriale fra forsøk og reflektere over og teste om usikkerheten kan reduseres",
+    "bruke kvantitativ metode i forsøk og vurdere påliteligheten til resultatene",
+    "beskrive historisk utvikling av og virkemåten til et teknologisk produkt, og drøfte samfunnsnytten av dette",
+    "drøfte etiske problemstillinger knyttet til teknologisk utvikling",
+    "utforske hvordan en virksomhet arbeider med teknologi, og gjøre rede for virksomheten i et bærekraftsperspektiv"
+   ]
+  },
+  {
+   "kode": "KV976",
+   "tittel": "Kompetansemål og vurdering teknologi og forskningslære 2",
+   "maal": [
+    "drøfte hvordan ulike naturvitenskapelige prosesser og metoder brukes i forsknings- og utviklingsarbeid, og hvordan dette kan bidra til nye kunnskaper, teorier og modeller",
+    "forklare hvordan og vurdere når standardavvik, regresjon, konfidensintervall og t-test kan gi relevant informasjon om et datasett",
+    "drøfte hvordan metodevalg for å samle inn empiriske data har betydning for kvaliteten til og anvendeligheten av dataene",
+    "gjøre rede for hvordan empiriske data kan brukes for å styrke eller forkaste en hypotese",
+    "vurdere og beskrive hvordan samarbeid, datautveksling og finansiering påvirker forskningsutvikling",
+    "planlegge, gjennomføre og dokumentere selvvalgte forskningsprosjekter, og drøfte og presentere resultatene og hvordan valg av metode kan påvirke resultatene",
+    "skrive og presentere en vitenskapelig artikkel om eget forskningsarbeid, og vurdere hvordan budskapet kan påvirkes av presentasjonsform",
+    "drøfte hvilken betydning enkeltpersoner og samfunnsforhold i et historiske perspektiv har hatt for den teknologiske og vitenskapelige utviklingen",
+    "drøfte hvordan teknologi og vitenskapelige tenkemåter kan bidra og har bidratt til paradigmeskifter innenfor naturvitenskapen, og beskrive et eksempel på dette",
+    "drøfte etiske problemstillinger knyttet til forskning, naturvitenskap, teknologiutvikling og bruken av teknologi i samfunnet",
+    "analysere og gjøre rede for teknologiske tiltak knyttet til ett av FNs bærekraftsmål og vurdere hvilke virkninger og konsekvenser tiltakene kan ha"
+   ]
+  }
+ ]
+}

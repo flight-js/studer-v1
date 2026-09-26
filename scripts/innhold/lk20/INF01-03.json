@@ -1,0 +1,42 @@
+{
+ "kode": "INF01-03",
+ "tittel": "Læreplan i informasjonsteknologi",
+ "url": "https://www.udir.no/lk20/inf01-03",
+ "sett": [
+  {
+   "kode": "KV977",
+   "tittel": "Kompetansemål og vurdering informasjonsteknologi 1",
+   "maal": [
+    "drøfte dagsaktuelle temaer knyttet til hvordan informasjonsteknologi påvirker individet og samfunnet",
+    "beskrive sentrale komponenter i datamaskiner og nettverk og gjøre rede for hvilken funksjon de har",
+    "gjøre rede for og vurdere hvordan ulike typer informasjon kan representeres digitalt og struktureres ved hjelp av ulike datalagringsmetoder",
+    "utvikle nettsider ved hjelp av markeringsspråk",
+    "lagre og hente fram data, presentere data på nettsider og reflektere over hvordan representasjonsform kan påvirke tolkningen",
+    "planlegge og lage nettsider som tar hensyn til brukervennlighet og universell utforming",
+    "utvikle prosedyreorienterte programmer med prosedyrer med og uten parametre og returverdier",
+    "beskrive ulike typer algoritmer og vurdere effektiviteten av egen programkode",
+    "utforske, strukturere og kommentere programkode",
+    "gjøre rede for gjeldende personvernregelverk og hvilke konsekvenser det har for utvikling av informasjonsteknologi",
+    "drøfte problemstillinger knyttet til innhenting, bruk og misbruk av data",
+    "bruke algoritmisk tenkning og programmering for å utforske en problemstilling og presentere resultatet"
+   ]
+  },
+  {
+   "kode": "KV978",
+   "tittel": "Kompetansemål og vurdering  informasjonsteknologi 2",
+   "maal": [
+    "utforske og vurdere muligheter, utfordringer og konsekvenser ved bruk av informasjonsteknologi i ulike sammenhenger",
+    "drøfte etiske dilemmaer som oppstår som en konsekvens av informasjonsteknologi, både for individ og samfunn",
+    "utforske og vurdere alternative løsninger for design og implementering av et program",
+    "anvende objektorientert modellering til å beskrive et programs struktur",
+    "utvikle objektorienterte programmer med klasser, objekter, metoder og arv",
+    "vurdere og bruke strategier for feilsøking og testing av programkode",
+    "generalisere løsninger ved å utvikle og bruke gjenbrukbar programkode",
+    "vurdere brukervennligheten i egne og andres programmer og foreslå forbedringer",
+    "velge og bruke relevante systemutviklingsmetoder og -verktøy for samarbeid med andre",
+    "gjøre rede for standarder for lagring, utveksling og sikring av ulike typer data",
+    "bruke programmering til å innhente, analysere og presentere informasjon fra reelle datasett"
+   ]
+  }
+ ]
+}

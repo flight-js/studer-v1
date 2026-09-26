@@ -1,0 +1,43 @@
+{
+ "kode": "MAT04-02",
+ "tittel": "Læreplan i matematikk for samfunnsfag (matematikk S)",
+ "url": "https://www.udir.no/lk20/mat04-02",
+ "sett": [
+  {
+   "kode": "KV295",
+   "tittel": "Kompetansemål og vurdering matematikk S1",
+   "maal": [
+    "planlegge og gjennomføre et selvstendig arbeid med reelle datasett knyttet til samfunnsøkonomiske temaer og forhold, og analysere og presentere funn",
+    "uttrykke egne resonnementer ved hjelp av matematiske begreper og symbolspråk",
+    "forstå begrepene gjennomsnittlig og momentan vekstfart, grenseverdi og derivasjon, og bruke disse for å løse praktiske problemer",
+    "bruke ulike strategier for å utforske og bestemme grenseverdier til funksjoner, og utforske og argumentere for anvendelser av grenseverdier",
+    "anvende derivasjon til å analysere og tolke egne matematiske modeller av reelle datasett",
+    "anvende derivasjon til å analysere og forstå optimaliseringsproblemer",
+    "utforske og gjøre rede for egenskapene ved potenser og logaritmer, og gi eksempler på reelle anvendelser av disse egenskapene",
+    "utforske og forstå regneregler for potenser og logaritmer, og bruke ulike strategier for å løse eksponentialligninger og logaritmeligninger",
+    "gjøre rede for og argumentere for om en funksjon er kontinuerlig eller diskontinuerlig i et punkt i et definisjonsområde, og gi eksempler på anvendelser av funksjoner som ikke er kontinuerlige",
+    "utforske og forstå kombinatoriske forsøk med ordnede og uordnede utvalg",
+    "bruke digitale verktøy til å simulere og utforske utfall i stokastiske forsøk, og forstå begrepet stokastiske variabler",
+    "analysere et problem der sannsynlighet og kombinatorikk inngår, og bruke ulike strategier i problemløsingen",
+    "utforske og tolke binomiske og hypergeometriske fordelinger, og gi eksempler på reelle anvendelser av disse fordelingene"
+   ]
+  },
+  {
+   "kode": "KV296",
+   "tittel": "Kompetansemål og vurdering matematikk S2",
+   "maal": [
+    "utforske egenskaper ved ulike rekker og gjøre rede for praktiske anvendelser av egenskaper ved rekker",
+    "utforske rekursive sammenhenger ved å bruke programmering og presentere egne framgangsmåter",
+    "forstå definisjonen av det bestemte integralet og anvende integralet til å analysere funksjoner",
+    "gjøre rede for analysens fundamentalteorem og gjøre rede for konsekvenser av teoremet",
+    "analysere og tolke ulike funksjoner ved å bruke derivasjon og integrasjon",
+    "modellere og analysere eksponentiell og logistisk vekst i reelle datasett",
+    "forstå begrepene forventningsverdi, varians og standardavvik, og bruke disse størrelsene til å tolke stokastiske variabler",
+    "simulere utfall i, utforske og tolke ulike statistiske fordelinger, og gi eksempler på reelle anvendelser av disse fordelingene",
+    "finne grensekostnader og grenseinntekter i økonomiske modeller, og gjøre rede for betydningen av disse størrelsene",
+    "argumentere for sentralgrensesetningen og utforske og tolke praktiske situasjoner ved hjelp av normalfordelingen",
+    "gjennomføre hypotesetesting i reelle datasett og tolke resultatet"
+   ]
+  }
+ ]
+}

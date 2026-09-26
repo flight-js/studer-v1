@@ -1,0 +1,44 @@
+{
+ "kode": "PSY01-04",
+ "tittel": "Læreplan i psykologi",
+ "url": "https://www.udir.no/lk20/psy01-04",
+ "sett": [
+  {
+   "kode": "KV883",
+   "tittel": "Kompetansemål og vurdering psykologi 1",
+   "maal": [
+    "finne og vurdere informasjon for å analysere faglige spørsmål og problemstillinger",
+    "sammenligne, anvende og vurdere ulike vitenskapelige tilnærminger, teorier, perspektiver og metoder, og vurdere forskjellige forklaringer på psykologiske problemstillinger",
+    "utforske ulike temaer innenfor anvendt psykologi, og vurdere hvordan psykologi kan anvendes i ulike yrker",
+    "gjøre rede for hukommelse og reflektere over hva som kan påvirke hukommelsesprosessen",
+    "beskrive ulike perspektiver på læring, reflektere over hva som hemmer og fremmer læring, og vurdere egne læringsstrategier",
+    "drøfte sammenhengen mellom motivasjon, mestring og læring",
+    "drøfte hvordan samspillet mellom arv og miljø har betydning for utvikling av personlighet, identitet og tilknytning",
+    "utforske og gjøre rede for hvordan persepsjon og kognisjon virker inn på menneskets forståelse av seg selv og omverdenen",
+    "utforske og vurdere hvordan individuelle, sosiale og psykologiske faktorer påvirker mennesket til å ta, og unnlate å ta, bærekraftige valg",
+    "gjøre rede for psykiske kriser og drøfte mulige utfall av disse",
+    "beskrive hovedtrekk i sansesystemets, nervesystemets og hormonsystemets oppbygning og funksjon, og utforske hvordan disse systemene sammen utgjør grunnlaget for tanker, emosjoner og atferd",
+    "utforske og gjøre rede for hvordan evolusjonspsykologi forklarer menneskets tanker, emosjoner og atferd",
+    "beskrive hvordan bruk av rusmidler hos ungdom og unge voksne påvirker hjernens funksjon og reflektere over hvordan bruk av rusmidler kan påvirke psykisk helse og livskvalitet",
+    "drøfte konsekvenser av stress, vurdere betydningen av sårbarhet og resiliens og reflektere over hvordan man kan forebygge negative stressreaksjoner"
+   ]
+  },
+  {
+   "kode": "KV884",
+   "tittel": "Kompetansemål og vurdering psykologi 2",
+   "maal": [
+    "finne og vurdere informasjon for å analysere faglige spørsmål og problemstillinger",
+    "planlegge, beskrive og gjennomføre en undersøkelse av en psykologisk problemstilling, analysere og drøfte resultater",
+    "sammenligne og anvende ulike vitenskapelige tilnærminger, teorier, perspektiver og metoder, og vurdere forskjellige forklaringer på psykologiske problemstillinger",
+    "drøfte hvordan sosial påvirkning og interaksjon i grupper kan påvirke holdninger, atferd og identitet",
+    "drøfte årsaker til utenforskap og reflektere over konsekvenser for individet",
+    "gjøre rede for faktorer som påvirker utviklingen av sosial kompetanse, og reflektere over betydningen av sosial kompetanse",
+    "gjøre rede for hvordan mellommenneskelige konflikter kan oppstå og utvikle seg, og drøfte hvordan verbal og ikke-verbal kommunikasjon kan bidra til både å utvikle og å løse konflikter",
+    "drøfte hvordan ulike former for kommunikasjon påvirker sosial samhandling og livskvalitet",
+    "reflektere over hvordan synet på psykisk helse og behandling av psykiske lidelser har endret seg og er i endring",
+    "drøfte begrepene normalitet og psykisk helse og reflektere over hva som skiller psykiske vansker og psykiske lidelser",
+    "utforske samspillet mellom biologiske, psykologiske og sosiale faktorer for utvikling av god psykisk helse, og drøfte forebygging og behandling av psykiske vansker og lidelser i lys av dette"
+   ]
+  }
+ ]
+}

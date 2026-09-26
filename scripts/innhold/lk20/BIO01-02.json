@@ -1,0 +1,41 @@
+{
+ "kode": "BIO01-02",
+ "tittel": "Læreplan i biologi",
+ "url": "https://www.udir.no/lk20/bio01-02",
+ "sett": [
+  {
+   "kode": "KV538",
+   "tittel": "Kompetansemål og vurdering biologi 1",
+   "maal": [
+    "planleggje og gjennomføre undersøkingar, samle, behandle og tolke data, og presentere resultat og funn",
+    "utforske korleis dei taksonomiske kriteria har endra seg i tråd med den teknologiske utviklinga, og samanlikne organismar med omsyn til fellestrekk og variasjon",
+    "utforske samanhengar mellom anatomi og fysiologi og gjere greie for prinsippa for livsprosessane i organismar",
+    "gjere greie for korleis utvalde reguleringsmekanismar styrer homeostase hos mennesket, og undersøkje korleis livsstil kan påverke disse mekanismane",
+    "utforske samanhengar mellom cellestrukturar og -funksjonar og gjere greie for korleis cellulære membranar dannar grunnlag for kommunikasjon mellom celler",
+    "samanlikne korleis ulike celler deler seg, og gjere greie for kvifor regulering av celledeling er viktig for vekst og reparasjon",
+    "gjere greie for korleis virale og mikrobielle sjukdommar oppstår, spreier seg og blir nedkjempa",
+    "drøfte korleis vaksinar førebyggjer og vernar mot sjukdom på individ- og populasjonsnivå",
+    "gjere greie for bruk av antibiotika og drøfte moglege konsekvensar",
+    "utforske abiotiske og biotiske faktorar i eit økosystem, drøfte samanhengar som forklarer det biologiske mangfaldet og reflekter over naturens eigenverdi",
+    "utforske kva konsekvensar endringar i klima og arealutnytting kan ha for det biologiske mangfaldet, og drøfte tiltak for ei meir berekraftig forvaltning"
+   ]
+  },
+  {
+   "kode": "KV539",
+   "tittel": "Kompetansemål og vurdering biologi 2",
+   "maal": [
+    "utforske ei biologisk problemstilling, analysere innsamla data, argumentere for val av metodar og drøfte resultat og funn",
+    "utforske faktorar som regulerer vekst i og storleiken på populasjonar, og drøfte interessekonfliktar rundt forvaltning av populasjonar",
+    "utforske og dokumentere artsmangfald gjennom feltarbeid, drøfte resultat og funn og vurdere korleis artane er tilpassa økosystemet dei lever i",
+    "gjere greie for energistraum og sentrale stoffkrinsløp",
+    "drøfte korleis menneskeleg aktivitet påverkar krinsløpa, og utforske tiltak for å vareta dei",
+    "utforske korleis enzym fungerer, og gjere greie for den rolla enzym speler i metabolske prosessar",
+    "samanlikne korleis energi blir omdanna gjennom fotosyntesen og celleandinga, og vurdere kva påverknad ulike faktorar har på energiomsetning",
+    "gjere greie for genetisk kode og regulering av genuttrykk, og beskrive korleis genteknologi kan brukast for å styre og endre genuttrykk",
+    "gjere greie for korleis eigenskapar blir arva, og utforske årsaker til genotypisk og fenotypisk variasjon i populasjonar",
+    "utforske korleis evolusjonære prosessar påverkar genlageret til populasjonar, og samanlikne ulike mekanismar for artsdanning",
+    "vurdere kommersiell bruk av genteknologi i medisin og matproduksjon, og drøfte etiske problemstillingar ved bruk av slik teknologi"
+   ]
+  }
+ ]
+}

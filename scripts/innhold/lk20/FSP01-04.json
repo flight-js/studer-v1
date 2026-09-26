@@ -1,0 +1,37 @@
+{
+ "kode": "FSP01-04",
+ "tittel": "Læreplan i fremmedspråk",
+ "url": "https://www.udir.no/lk20/fsp01-04",
+ "sett": [
+  {
+   "kode": "KV965",
+   "tittel": "Kompetansemål og vurdering nivå I",
+   "maal": [
+    "lytte til og forstå enkel og tydelig tale om personlige og dagligdagse emner",
+    "delta i enkle samtaler i dagligdagse situasjoner om aktiviteter og kjente emner",
+    "muntlig fortelle om dagligliv og opplevelser og uttrykke meninger, også spontant",
+    "lese og forstå tilpassede og enklere autentiske tekster om personlige og dagligdagse emner",
+    "skrive enkle tekster om dagligliv og opplevelser som forteller, beskriver og informerer, med og uten hjelpemidler",
+    "bruke enkle språklige strukturer, regler for uttale og rettskriving og språkets offisielle alfabet eller tegn for å kommunisere på en situasjonstilpasset måte",
+    "bruke relevante lærings- og kommunikasjonsstrategier, digitale ressurser og erfaringer fra tidligere språklæring i læringsprosessen",
+    "utforske og beskrive levemåter, tradisjoner og geografi i områder der språket snakkes, og se sammenhenger med egen bakgrunn",
+    "utforske og beskrive kunstneriske og kulturelle uttrykk fra områder der språket snakkes, og gi uttrykk for egne opplevelser"
+   ]
+  },
+  {
+   "kode": "KV966",
+   "tittel": "Kompetansemål og vurdering nivå II",
+   "maal": [
+    "lytte til og forstå tydelig tale om personlige og faglig relevante emner og aktuelle saker",
+    "samtale i en rekke dagligdagse situasjoner om kjente og faglig relevante emner",
+    "muntlig forklare faglig relevante emner, skildre opplevelser, hendelser og planer, og begrunne meninger, også spontant",
+    "lese og forstå ulike typer tekster, også autentiske, om personlige og faglig relevante emner og aktuelle saker",
+    "skrive ulike teksttyper om personlige og faglig relevante emner, og uttrykke og begrunne egne meninger, med og uten hjelpemidler",
+    "bruke grunnleggende språklige strukturer, regler for uttale og rettskriving og språkets offisielle alfabet eller tegn for å kommunisere på en situasjonstilpasset måte",
+    "bruke relevante lærings- og kommunikasjonsstrategier, digitale ressurser og erfaringer fra tidligere språklæring i læringsprosessen",
+    "utforske og gjøre rede for mangfold, samfunnsforhold og historiske hendelser i områder der språket snakkes, og se sammenhenger med egen bakgrunn",
+    "utforske og presentere kunstneriske og kulturelle uttrykk fra områder der språket snakkes, og gjøre rede for egne opplevelser"
+   ]
+  }
+ ]
+}

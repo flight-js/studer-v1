@@ -1,0 +1,145 @@
+{
+ "kode": "MAT08-01",
+ "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)",
+ "url": "https://www.udir.no/lk20/mat08-01",
+ "sett": [
+  {
+   "kode": "KV31",
+   "tittel": "Kompetansemål og vurdering matematikk 1P",
+   "maal": [
+    "lese, hente ut og vurdere matematikk i tekstar om situasjonar frå lokalmiljøet, gjere berekningar knytte til dette og presentere og argumentere for resultata",
+    "utforske korleis ulike premissar vil kunne påverke korleis matematiske problem frå samfunnsliv og arbeidsliv blir løyste",
+    "modellere situasjonar knytte til tema frå samfunnsliv og arbeidsliv, presentere og argumentere for resultata og for når modellane er gyldige",
+    "identifisere variable storleikar i ulike situasjonar og bruke dei til utforsking og generalisering",
+    "tolke og bruke formlar som gjeld samfunnsliv og arbeidsliv",
+    "bruke prosent, prosentpoeng, promille og vekstfaktor i utrekningar og presentere og grunngi løysingar",
+    "utforske, beskrive og bruke omgrepa proporsjonalitet og omvend proporsjonalitet",
+    "tolke og bruke samansette måleiningar i praktiske samanhengar og velje eigna måleining",
+    "tolke og bruke funksjonar i matematisk modellering og problemløysing",
+    "planleggje, utføre og presentere sjølvstendig arbeid knytt til modellering og funksjonar innanfor samfunnsfaglege tema",
+    "bruke digitale verktøy i utforsking og problemløysing knytt til eigenskapar ved funksjonar, og diskutere løysingane",
+    "tolke og rekne med rotuttrykk, potensar og tal på standardform"
+   ]
+  },
+  {
+   "kode": "KV32",
+   "tittel": "Kompetansemål og vurdering matematikk 1P-Y for bygg- og anleggsteknikk",
+   "maal": [
+    "vurdere val knytte til personleg økonomi og reflektere over konsekvensar av å ta opp lån og å bruke kredittkort",
+    "tolke og bruke formlar som gjeld daglegliv og yrkesliv",
+    "tolke og bruke samansette måleiningar i praktiske samanhengar og velje eigna måleining",
+    "innhente data frå praksisfeltet, gjere overslag og berekningar og lage formålstenlege framstillingar av resultata og presentere desse",
+    "lese, bruke og lage rekneark i arbeidet med budsjett, anbod og kostnadsberekning knytt til bygg- og anleggsteknikk, og vurdere korleis ulike faktorar påverkar resultatet",
+    "utforske og bruke eigenskapane ved geometriske figurar, målestokk og trigonometri til å berekne lengder, vinklar og areal i problemløysing innanfor bygg- og anleggsfag"
+   ]
+  },
+  {
+   "kode": "KV28",
+   "tittel": "Kompetansemål og vurdering matematikk 1P-Y for elektro og datateknologi",
+   "maal": [
+    "vurdere val knytte til personleg økonomi og reflektere over konsekvensar av å ta opp lån og å bruke kredittkort",
+    "tolke og bruke formlar som gjeld daglegliv og yrkesliv",
+    "tolke og bruke samansette måleiningar i praktiske samanhengar og velje eigna måleining",
+    "bruke ulike strategiar for å løyse likningar",
+    "gjere greie for definisjonane av sinus, cosinus og tangens, tolke definisjonane grafisk og knyte dei til døme frå elektro og datateknologi",
+    "bruke trigonometri til å rekne ut lengder, vinklar og areal i trekantar i problemløysing innanfor elektro og datateknologi"
+   ]
+  },
+  {
+   "kode": "KV30",
+   "tittel": "Kompetansemål og vurdering matematikk 1P-Y for frisør, blomster, interiør og eksponeringsdesign",
+   "maal": [
+    "vurdere val knytte til personleg økonomi og reflektere over konsekvensar av å ta opp lån og å bruke kredittkort",
+    "tolke og bruke formlar som gjeld daglegliv og yrkesliv",
+    "tolke og bruke samansette måleiningar i praktiske samanhengar og velje eigna måleining",
+    "innhente data frå praksisfeltet, gjere overslag og berekningar og lage formålstenlege framstillingar av resultata og presentere desse",
+    "lese, bruke og lage rekneark i arbeidet med budsjett, anbod og kostnadsberekning knytt til frisør, blomster, interiør og eksponeringsdesign, og vurdere korleis ulike faktorar påverkar resultatet",
+    "utforske og bruke eigenskapane ved geometriske figurar og rekne ut lengder, vinklar, areal, volum, forhold og målestokk i problemløysing innanfor frisør, blomster, interiør og eksponeringsdesign"
+   ]
+  },
+  {
+   "kode": "KV34",
+   "tittel": "Kompetansemål og vurdering matematikk 1P-Y for håndverk, design og produktutvikling",
+   "maal": [
+    "vurdere val knytte til personleg økonomi og reflektere over konsekvensar av å ta opp lån og å bruke kredittkort",
+    "tolke og bruke formlar som gjeld daglegliv og yrkesliv",
+    "tolke og bruke samansette måleiningar i praktiske samanhengar og velje eigna måleining",
+    "innhente data frå praksisfeltet, gjere overslag og berekningar og lage formålstenlege framstillingar av resultata og presentere desse",
+    "lese, bruke og lage rekneark i arbeidet med budsjett, anbod og kostnadsberekning knytt til handverk, design og produktutvikling, og vurdere korleis ulike faktorar påverkar resultatet",
+    "utforske og bruke eigenskapane ved geometriske figurar, rekne ut lengder, vinklar, areal, volum, forhold og målestokk i problemløysing innanfor handverk, design og produktutvikling"
+   ]
+  },
+  {
+   "kode": "KV29",
+   "tittel": "Kompetansemål og vurdering matematikk 1P-Y for helse- og oppvekstfag",
+   "maal": [
+    "vurdere val knytte til personleg økonomi og reflektere over konsekvensar av å ta opp lån og å bruke kredittkort",
+    "tolke og bruke formlar som gjeld daglegliv og yrkesliv",
+    "tolke og bruke samansette måleiningar i praktiske samanhengar og velje eigna måleining",
+    "innhente data frå praksisfeltet, gjere overslag og berekningar og lage formålstenlege framstillingar av resultata og presentere desse",
+    "lese, bruke og lage rekneark i arbeidet med budsjett, anbod og kostnadsberekning knytt til helse- og oppvekstfag, og vurdere korleis ulike faktorar påverkar resultatet",
+    "gjere berekningar knytte til velferdsteknologi som har med økonomi å gjere"
+   ]
+  },
+  {
+   "kode": "KV33",
+   "tittel": "Kompetansemål og vurdering matematikk 1P-Y for informasjonsteknologi og medieproduksjon",
+   "maal": [
+    "vurdere val knytte til personleg økonomi og reflektere over konsekvensar av å ta opp lån og å bruke kredittkort",
+    "tolke og bruke formlar som gjeld daglegliv og yrkesliv",
+    "tolke og bruke samansette måleiningar i praktiske samanhengar og velje eigna måleining",
+    "innhente data og behandle store datasett, gjere berekningar og lage formålstenlege framstillingar av resultata og presentere desse",
+    "lese, bruke og lage rekneark i arbeidet med budsjett, anbod og kostnadsberekning knytt til informasjonsteknologi og medieproduksjon, og vurdere korleis ulike faktorar påverkar resultatet",
+    "utforske og bruke geometriske former og forhold og bruke det i design og produktutvikling"
+   ]
+  },
+  {
+   "kode": "KV27",
+   "tittel": "Kompetansemål og vurdering matematikk 1P-Y for naturbruk",
+   "maal": [
+    "vurdere val knytte til personleg økonomi og reflektere over konsekvensar av å ta opp lån og å bruke kredittkort",
+    "tolke og bruke formlar som gjeld daglegliv og yrkesliv",
+    "tolke og bruke samansette måleiningar i praktiske samanhengar og velje eigna måleining",
+    "innhente data frå praksisfeltet, gjere overslag og berekningar og lage formålstenlege framstillingar av resultata og presentere desse",
+    "lese, bruke og lage rekneark i arbeidet med budsjett, anbod og kostnadsberekning knytt til naturbruk, og vurdere korleis ulike faktorar påverkar resultatet",
+    "utforske og bruke eigenskapane ved geometriske figurar og rekne ut lengder, vinklar, areal, volum, forhold og målestokk i problemløysing innanfor naturbruk"
+   ]
+  },
+  {
+   "kode": "KV26",
+   "tittel": "Kompetansemål og vurdering matematikk 1P-Y for restaurant- og matfag",
+   "maal": [
+    "vurdere val knytte til personleg økonomi og reflektere over konsekvensar av å ta opp lån og å bruke kredittkort",
+    "tolke og bruke formlar som gjeld daglegliv og yrkesliv",
+    "tolke og bruke samansette måleiningar i praktiske samanhengar og velje eigna måleining",
+    "innhente data frå praksisfeltet, gjere overslag og berekningar og lage formålstenlege framstillingar av resultata og presentere desse",
+    "lese, bruke og lage rekneark i arbeidet med budsjett, anbod og kostnadsberekning knytt til restaurant- og matfag, og vurdere korleis ulike faktorar påverkar resultatet",
+    "tolke og rekne med nærings- og energiinnhald, og rekne om mellom ulike samansette einingar knytte til restaurant- og matfag"
+   ]
+  },
+  {
+   "kode": "KV25",
+   "tittel": "Kompetansemål og vurdering matematikk 1P-Y for salg, service og reiseliv",
+   "maal": [
+    "vurdere val knytte til personleg økonomi og reflektere over konsekvensar av å ta opp lån og å bruke kredittkort",
+    "tolke og bruke formlar som gjeld daglegliv og yrkesliv",
+    "tolke og bruke samansette måleiningar i praktiske samanhengar og velje eigna måleining",
+    "innhente data frå praksisfeltet, gjere overslag og berekningar og lage formålstenlege framstillingar av resultata og presentere desse",
+    "lese, bruke og lage rekneark i arbeidet med budsjett, anbod og kostnadsberekning knytt til sal, service og reiseliv, og vurdere korleis ulike faktorar påverkar resultatet",
+    "tolke og gjere berekningar med statistisk datamateriale som er relevant innanfor sal, service og reiseliv"
+   ]
+  },
+  {
+   "kode": "KV24",
+   "tittel": "Kompetansemål og vurdering matematikk 1P-Y for teknologi- og industrifag",
+   "maal": [
+    "vurdere val knytte til personleg økonomi og reflektere over konsekvensar av å ta opp lån og å bruke kredittkort",
+    "tolke og bruke formlar som gjeld daglegliv og yrkesliv",
+    "tolke og bruke samansette måleiningar i praktiske samanhengar og velje eigna måleining",
+    "innhente data frå praksisfeltet, gjere overslag og berekningar og lage formålstenlege framstillingar av resultata og presentere desse",
+    "gjere berekningar og vurderingar knytte til måleusikkerheit og toleranse",
+    "utforske og bruke eigenskapane ved geometriske figurar og rekne ut lengder, vinklar, areal, volum, forhold og målestokk i problemløysing innanfor teknologi- og industrifag"
+   ]
+  }
+ ]
+}

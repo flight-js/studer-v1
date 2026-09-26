@@ -1,0 +1,43 @@
+{
+ "kode": "MAT03-02",
+ "tittel": "Læreplan i matematikk for realfag (matematikk R)",
+ "url": "https://www.udir.no/lk20/mat03-02",
+ "sett": [
+  {
+   "kode": "KV293",
+   "tittel": "Kompetansemål og vurdering matematikk R1",
+   "maal": [
+    "planlegge og gjennomføre et selvstendig arbeid med reelle datasett knyttet til naturvitenskapelige temaer og forhold, og analysere og presentere funn",
+    "forstå begrepene vekstfart, grenseverdi, derivasjon og kontinuitet, og bruke disse for å løse praktiske problemer",
+    "bruke ulike strategier for å utforske og bestemme grenseverdier til funksjoner, og utforske og argumentere for anvendelser av grenseverdier",
+    "bestemme den deriverte i et punkt geometrisk, algebraisk og ved numeriske metoder, og gi eksempler på funksjoner som ikke er deriverbare i gitte punkter",
+    "analysere og tolke ulike funksjoner ved å bruke derivasjon",
+    "anvende derivasjon til å analysere og tolke egne matematiske modeller av reelle datasett",
+    "utforske og forstå regneregler for potenser og logaritmer, og bruke ulike strategier for å løse eksponentialligninger og logaritmeligninger",
+    "modellere og analysere eksponentiell og logistisk vekst i reelle datasett",
+    "gjøre rede for og argumentere for om en funksjon er kontinuerlig eller diskontinuerlig i et punkt i et definisjonsområde, og gi eksempler på anvendelser av diskontinuerlige funksjoner",
+    "utforske, analysere og derivere ulike funksjoner og deres omvendte funksjoner, og gjøre rede for egenskaper til og sammenhenger mellom slike funksjoner",
+    "anvende parameterframstillinger til linjer og bruke parameterframstillinger til å løse naturvitenskapelige problemer",
+    "forstå begrepet vektor og regneregler for vektorer i planet, og bruke vektorer til å beregne ulike størrelser i planet"
+   ]
+  },
+  {
+   "kode": "KV294",
+   "tittel": "Kompetansemål og vurdering matematikk R2",
+   "maal": [
+    "utforske egenskaper ved ulike rekker og gjøre rede for praktiske anvendelser av egenskaper ved rekker",
+    "utforske rekursive sammenhenger ved å bruke programmering og presentere egne framgangsmåter",
+    "gjøre rede for integral som en grenseverdi av en følge av summer, og tolke betydningen av denne grenseverdien i ulike situasjoner",
+    "gjøre rede for analysens fundamentalteorem og gjøre rede for konsekvenser av teoremet",
+    "utvikle algoritmer for å beregne integraler numerisk, og bruke programmering til å utføre algoritmene",
+    "gi eksempler på ulike situasjoner som kan modelleres ved å bruke ulike matematiske funksjoner, og modellere og analysere slike situasjoner ved å bruke reelle datasett",
+    "anvende derivasjon og integrasjon til å analysere og tolke egne matematiske modeller av reelle datasett",
+    "analysere og tolke ulike funksjoner ved å bruke derivasjon og integrasjon, og anvende integrasjon til å beregne ulike mål av omdreiningslegemer",
+    "anvende parameterframstillinger til kurver og bruke parameterframstillinger til å løse naturvitenskapelige problemer inkludert problemer knyttet til fart og akselerasjon",
+    "utforske og forstå regneregler for vektorer i rommet, og bruke vektorer til å beregne ulike størrelser i rommet",
+    "utforske egenskaper ved radianer og trigonometriske funksjoner og identiteter og anvende disse egenskapene til å løse praktiske problemer",
+    "analysere og forstå matematiske bevis, forklare de bærende ideene i et matematisk bevis og utvikle egne bevis"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "kode": "SOK01-04",
+ "tittel": "Læreplan i samfunnsøkonomi",
+ "url": "https://www.udir.no/lk20/sok01-04",
+ "sett": [
+  {
+   "kode": "KV1000",
+   "tittel": "Kompetansemål og vurdering samfunnsøkonomi 1",
+   "maal": [
+    "velge og bruke kilder, økonomiske teorier og modeller i arbeid med faglige spørsmål, emner og problemstillinger",
+    "gjøre rede for ulike markedsformer og bruke disse til å analysere ulike markeder",
+    "bruke realligningen til å analysere sammenhengen mellom tilgang på og bruk av varer og tjenester i en økonomi",
+    "beskrive hovedtrekkene i privat og offentlig sektor i Norge og drøfte muligheter og utfordringer for næringsliv og offentlig sektor i årene framover",
+    "drøfte årsaker til økonomisk vekst og reflektere over bruttonasjonalproduktet som mål for verdiskaping",
+    "reflektere over ulike sysselsettingstiltak og drøfte hvordan tiltakene kan påvirke ulike typer arbeidsledighet",
+    "gjøre rede for hvordan prisstigning måles, og drøfte årsaker til og konsekvenser av prisstigning",
+    "gjøre rede for formålet med pengepolitikk og finanspolitikk og hvordan politikken påvirker økonomien",
+    "vurdere finansmarkedenes muligheter og utfordringer for utviklingen av samfunnsøkonomien",
+    "utforske og reflektere over hva som påvirker lønnsforskjeller, inntektsfordeling og økonomisk ulikhet, og hvordan myndighetene kan påvirke dette",
+    "reflektere over sammenhengen mellom økonomisk aktivitet og miljøutfordringer, og hva som skal til for å oppnå bærekraftig vekst og utvikling",
+    "analysere hva som påvirker valutakursene, og drøfte konsekvenser av endringer i valutakursen",
+    "gjøre rede for årsaker til internasjonal handel og drøfte muligheter og utfordringer knyttet til økonomisk globalisering"
+   ]
+  },
+  {
+   "kode": "KV1001",
+   "tittel": "Kompetansemål og vurdering samfunnsøkonomi 2",
+   "maal": [
+    "velge og bruke kilder, økonomiske teorier og modeller i arbeid med faglige spørsmål, emner og problemstillinger",
+    "sammenligne markedstilpasningen for monopol og fullkommen konkurranse og analysere hvordan markedsformene påvirker ressursbruk og fordeling",
+    "reflektere over forskjellen mellom samfunnsøkonomiske og bedriftsøkonomiske vurderinger",
+    "reflektere over hva markedssvikt og samfunnsøkonomisk effektivitet innebærer, og drøfte muligheter og utfordringer ved ulike markedsformer",
+    "utforske og gjøre rede for årsaker til økonomisk vekst i ulike land, og drøfte hvilke virkemidler myndighetene kan bruke for å bidra til økonomisk utvikling på kort og på lengre sikt",
+    "gjøre rede for formålet med og retningslinjene for den økonomiske politikken i Norge og drøfte hvordan denne politikken virker",
+    "gjøre rede for ulike årsaker til arbeidsledighet og vurdere virkemidler mot ledighet",
+    "reflektere over sentrale langsiktige økonomiske utfordringer som Norge står overfor, og drøfte mulige løsninger",
+    "utforske og drøfte forholdet mellom bærekraftig utvikling og økonomisk utvikling og hvordan myndighetene kan forebygge miljøproblemer",
+    "utforske årsaker til økonomisk ulikhet og drøfte tiltak mot økonomisk ulikhet og fattigdomsproblemer i verden",
+    "gjøre rede for hvorfor land handler med hverandre, og drøfte sentrale økonomiske problemstillinger knyttet til frihandel og proteksjonisme",
+    "utforske ulike faktorer som kan påvirke valutakurser, og vurdere hvordan endringer i disse faktorene kan påvirke økonomier",
+    "utforske ulike faktorer som påvirker konkurranseevnen, og drøfte konsekvenser av endringer i konkurranseevnen",
+    "reflektere over økonomiske konsekvenser av uforutsette hendelser og økonomiske sjokk nasjonalt og globalt, og drøfte tiltak for å motvirke negative økonomiske konsekvenser"
+   ]
+  }
+ ]
+}

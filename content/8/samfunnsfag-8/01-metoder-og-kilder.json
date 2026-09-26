@@ -1,0 +1,81 @@
+{
+  "id": "metoder-og-kilder",
+  "fagId": "samfunnsfag-8",
+  "trinnId": "8",
+  "name": "Samfunnsfaglige metoder og kilder",
+  "intro": "Hvordan du undersøker samfunnet med spørreundersøkelser, intervjuer og kilder, hvordan du vurderer kildene, og hvordan algoritmer kan prege forståelsen vår.",
+  "kompetansemaal": [1, 2],
+  "sammendrag": "## Å undersøke samfunnet\n\nSamfunnsfag handler om mennesker, samfunn, historie og geografi. For å finne ut noe om samfunnet bruker vi **samfunnsfaglige metoder**. En undersøkelse starter med en **problemstilling**, et spørsmål du vil finne svar på, for eksempel «Hvor mye tid bruker elever på skolen vår på sosiale medier?».\n\n## Kvantitative og kvalitative metoder\n\n- **Kvantitative metoder** gir tall som kan telles og sammenlignes. En **spørreundersøkelse** med faste svaralternativer er et eksempel. Resultatene kan vises i tabeller og diagrammer.\n- **Kvalitative metoder** gir dypere innsikt i hva folk tenker og mener. Et **intervju** med åpne spørsmål og **observasjon** av hva folk faktisk gjør er eksempler.\n\nMange undersøkelser kombinerer metodene: Spørreundersøkelsen viser hvor vanlig noe er, og intervjuene forklarer hvorfor.\n\n## Gyldighet og pålitelighet\n\nNår du presenterer funnene, bør du **drøfte** hvor gode de er. **Gyldighet** (validitet) handler om at du faktisk måler det du vil måle. **Pålitelighet** (reliabilitet) handler om at resultatene er nøyaktige og ville blitt de samme om undersøkelsen ble gjentatt. Et lite utvalg, ledende spørsmål eller at bare noen typer mennesker svarer, kan svekke resultatene.\n\n## Kilder\n\nEn **kilde** er alt som gir informasjon om et tema: bøker, nettsider, avisartikler, statistikk, bilder, intervjuer og gjenstander. **Primærkilder** er fra tiden eller hendelsen selv, som et brev fra 1905 eller et bilde fra en demonstrasjon. **Sekundærkilder** er skrevet senere, med utgangspunkt i andre kilder, som en lærebok.\n\nNår du vurderer en kilde, spør du: Hvem har laget den, og hvorfor? Når ble den laget? Stemmer den med andre kilder? Hva sier den ikke noe om? Ulike kilder gir ofte **ulike perspektiver** på samme tema.\n\n## Algoritmer og ensrettede kilder\n\nPå sosiale medier og søkemotorer velger **algoritmer** hva du får se, ut fra hva du har klikket på før. Da kan du havne i en **filterboble**, der du mest møter informasjon og meninger som bekrefter det du allerede tror. **Ensrettede kilder**, som bare viser én side av en sak, kan gi et skjevt bilde. Også **mangel på kilder** preger forståelsen vår. Mange grupper i historien, som fattige, kvinner og minoriteter, har etterlatt få skriftlige kilder, og derfor er deres historie mindre kjent.\n\n## Digitale verktøy\n\nDigitale verktøy gjør det lettere å lage spørreundersøkelser, analysere svar og presentere funn med diagrammer og presentasjoner. Husk å ta vare på personvernet til de som deltar, for eksempel ved å gjøre svarene anonyme.",
+  "flashcards": [
+    { "term": "Problemstilling", "def": "Et spørsmål en undersøkelse skal gi svar på." },
+    { "term": "Kvantitativ metode", "def": "Metode som gir tall, som en spørreundersøkelse med faste svaralternativer." },
+    { "term": "Kvalitativ metode", "def": "Metode som gir dypere innsikt, som intervju og observasjon." },
+    { "term": "Spørreundersøkelse", "def": "Mange svarer på de samme spørsmålene, ofte med faste alternativer." },
+    { "term": "Intervju", "def": "Samtale med åpne spørsmål for å få fram tanker og erfaringer." },
+    { "term": "Observasjon", "def": "Å se på og notere hva folk faktisk gjør." },
+    { "term": "Gyldighet (validitet)", "def": "At undersøkelsen faktisk måler det den skal måle." },
+    { "term": "Pålitelighet (reliabilitet)", "def": "At resultatene er nøyaktige og ville blitt de samme ved gjentakelse." },
+    { "term": "Ledende spørsmål", "def": "Et spørsmål som styrer svaret, og som svekker undersøkelsen." },
+    { "term": "Primærkilde", "def": "Kilde fra tiden eller hendelsen selv, som et brev eller fotografi." },
+    { "term": "Sekundærkilde", "def": "Kilde skrevet senere med utgangspunkt i andre kilder, som en lærebok." },
+    { "term": "Perspektiv", "def": "Ståstedet en kilde ser en sak fra." },
+    { "term": "Algoritme", "def": "Et dataprogram som velger ut hva du får se på nett." },
+    { "term": "Filterboble", "def": "Når du mest møter informasjon som bekrefter det du allerede tror." },
+    { "term": "Mangel på kilder", "def": "Grupper som har etterlatt få kilder, får ofte mindre plass i historien." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er en kvantitativ metode?", "options": ["En metode som gir tall som kan telles", "Et dybdeintervju", "En observasjon uten notater", "Å lese en roman"], "correct": 0, "explain": "Spørreundersøkelser med faste alternativer gir tall som kan sammenlignes." },
+    { "id": "q02", "text": "Hvilken metode passer best for å forstå hvorfor ungdom velger som de gjør?", "options": ["Å telle antall elever", "Intervju med åpne spørsmål", "Å lese statistikk alene", "Å måle høyden deres"], "correct": 1, "explain": "Kvalitative metoder som intervju gir innsikt i tanker og begrunnelser." },
+    { "id": "q03", "text": "Hva er en primærkilde?", "options": ["En lærebok om 1800-tallet", "En nettside som oppsummerer historie", "Et brev skrevet av en person i 1905", "Et leksikon"], "correct": 2, "explain": "Primærkilder stammer fra tiden eller hendelsen selv." },
+    { "id": "q04", "text": "Hva betyr gyldighet i en undersøkelse?", "options": ["At den er gratis", "At mange svarer", "At den er rask", "At den måler det den skal måle"], "correct": 3, "explain": "Spør du om noe annet enn det du vil vite, blir resultatene lite gyldige." },
+    { "id": "q05", "text": "Hvilket spørsmål er ledende?", "options": ["Hvor mange timer bruker du på mobilen?", "Er du enig i at mobilbruk er skadelig?", "Hvilke apper bruker du?", "Når legger du deg?"], "correct": 1, "explain": "Formuleringen legger opp til at man skal svare ja." },
+    { "id": "q06", "text": "Hva er en filterboble?", "options": ["Når du mest møter informasjon som bekrefter det du tror", "En type spørreundersøkelse", "En kilde fra middelalderen", "Et digitalt verktøy for diagrammer"], "correct": 0, "explain": "Algoritmer viser deg innhold som ligner det du har likt før." },
+    { "id": "q07", "text": "Hvorfor vet vi mindre om hvordan fattige levde i gamle dager?", "options": ["Fordi de ikke fantes", "Fordi det var forbudt å skrive om dem", "Fordi de har etterlatt få skriftlige kilder", "Fordi historikere ikke er interessert"], "correct": 2, "explain": "Mangel på kilder gjør at noen gruppers historie er mindre kjent." },
+    { "id": "q08", "text": "Hva er en fordel med å kombinere kvantitative og kvalitative metoder?", "options": ["Det tar kortere tid", "Man får både oversikt og forklaring", "Man trenger ingen problemstilling", "Man slipper å vurdere kildene"], "correct": 1, "explain": "Tall viser hvor vanlig noe er, mens intervjuer forklarer hvorfor." },
+    { "id": "q09", "text": "Hvilket spørsmål hører til kildevurdering?", "options": ["Hvem har laget kilden, og hvorfor?", "Hvor mange sider er den?", "Hvilken farge har den?", "Hvor mye veier den?"], "correct": 0, "explain": "Avsender og formål sier mye om hvor pålitelig og nøytral kilden er." },
+    { "id": "q10", "text": "Hvordan kan du ta vare på personvernet i en spørreundersøkelse?", "options": ["Be om fødselsnummer", "Publisere navnene", "Dele svarene på nett", "Gjøre svarene anonyme"], "correct": 3, "explain": "Anonyme svar beskytter deltakerne og gir ofte ærligere svar." }
+  ],
+  "mindmap": {
+    "label": "Metoder og kilder",
+    "children": [
+      { "label": "Undersøkelse", "children": [
+        { "label": "Problemstilling" },
+        { "label": "Kvantitativ", "note": "Tall" },
+        { "label": "Kvalitativ", "note": "Intervju, observasjon" }
+      ] },
+      { "label": "Kvalitet", "children": [
+        { "label": "Gyldighet" },
+        { "label": "Pålitelighet" },
+        { "label": "Ledende spørsmål" }
+      ] },
+      { "label": "Kilder", "children": [
+        { "label": "Primærkilder" },
+        { "label": "Sekundærkilder" },
+        { "label": "Hvem, hvorfor, når?" }
+      ] },
+      { "label": "Skjev forståelse", "children": [
+        { "label": "Algoritmer og filterbobler" },
+        { "label": "Ensrettede kilder" },
+        { "label": "Mangel på kilder" }
+      ] },
+      { "label": "Presentere", "children": [
+        { "label": "Digitale verktøy" },
+        { "label": "Personvern" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q09"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "En lærebok er en sekundærkilde.", "correct": true, "explain": "Læreboka er skrevet senere med utgangspunkt i andre kilder." },
+      { "id": "m02", "type": "sant-usant", "text": "Et lite utvalg gir alltid svært pålitelige resultater.", "correct": false, "explain": "Få svar øker risikoen for tilfeldige og skjeve resultater." },
+      { "id": "m03", "type": "sant-usant", "text": "Ulike kilder kan gi ulike perspektiver på samme hendelse.", "correct": true, "explain": "Derfor er det lurt å bruke flere kilder." },
+      { "id": "m04", "type": "sant-usant", "text": "Algoritmer viser alle brukere nøyaktig det samme innholdet.", "correct": false, "explain": "Algoritmer tilpasser innholdet til den enkelte ut fra tidligere aktivitet." },
+      { "id": "m05", "type": "flervalg", "text": "Hva kalles det å se på og notere hva folk faktisk gjør?", "options": ["Spørreundersøkelse", "Observasjon", "Kildekritikk", "Statistikk"], "correct": 1, "explain": "Observasjon er en kvalitativ metode." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er en problemstilling?", "options": ["Et spørsmål undersøkelsen skal svare på", "En konklusjon", "En kildeliste", "Et diagram"], "correct": 0, "explain": "Problemstillingen gir undersøkelsen retning." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er en ensrettet kilde?", "options": ["En kilde med mange perspektiver", "En kilde fra staten", "En kilde som bare viser én side av en sak", "En gammel kilde"], "correct": 2, "explain": "Ensrettede kilder kan gi et skjevt bilde av virkeligheten." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

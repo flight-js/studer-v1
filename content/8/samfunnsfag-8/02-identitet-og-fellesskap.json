@@ -1,0 +1,82 @@
+{
+  "id": "identitet-og-fellesskap",
+  "fagId": "samfunnsfag-8",
+  "trinnId": "8",
+  "name": "Identitet, sosialisering og fellesskap",
+  "intro": "Hvordan identitet og selvbilde formes i familie, venneflokk og på nett, hva sosialisering og normer er, og hvordan du kan håndtere press og sette grenser.",
+  "kompetansemaal": [15, 13],
+  "sammendrag": "## Hva er identitet?\n\n**Identitet** handler om hvem du er og opplever deg som, og hvordan andre ser deg. Identiteten består av mange deler: kjønn, alder, familie, bosted, interesser, språk, religion, kultur og verdier. Den er ikke fast, men endrer seg gjennom livet, særlig i ungdomstiden. **Selvbildet** er hvordan du ser på deg selv, og **selvfølelsen** er hvor godt du liker deg selv.\n\n## Sosialisering\n\n**Sosialisering** er prosessen der vi lærer normer, verdier og ferdigheter som gjør at vi kan fungere i samfunnet.\n\n- **Primærsosialisering** skjer i de første leveårene, først og fremst i familien. Her lærer vi språk, grunnleggende vaner og verdier.\n- **Sekundærsosialisering** skjer senere, i barnehage, skole, fritidsaktiviteter, arbeidsliv og gjennom **medier**.\n\nDe som påvirker oss, kalles **sosialiseringsagenter**: foreldre, venner, lærere, trenere, idoler og influensere.\n\n## Normer, roller og grupper\n\n**Normer** er uskrevne regler for hvordan vi bør oppføre oss, for eksempel å hilse eller å ikke avbryte. Brudd på normer kan føre til **sanksjoner**, som et surt blikk eller utestenging. Positive sanksjoner, som ros, belønner ønsket atferd. Vi har ulike **roller** i ulike sammenhenger – elev, venn, søsken, lagkamerat – og rollene kommer med forventninger.\n\nMennesker hører til mange **grupper**. **Primærgrupper** er små og nære, som familien og nære venner. **Sekundærgrupper** er større og mer formelle, som en skoleklasse eller et idrettslag.\n\n## Press og påvirkning\n\nI fellesskap kan vi oppleve **gruppepress**, altså press til å gjøre som de andre, selv om vi ikke vil. På sosiale medier møter vi idealer for utseende og livsstil som ofte er redigerte og urealistiske, og det kan påvirke selvbildet. Reklame og **influensere** bruker kjennskap til dette for å selge produkter.\n\n## Grenser\n\nAlle har rett til å sette **egne grenser** – for hva de vil være med på, hva de vil dele, og hvem de vil være sammen med – og til å få dem respektert. Tips for å håndtere press og uønskede hendelser:\n\n- Tenk gjennom på forhånd hva du vil og ikke vil.\n- Det er lov å si nei og å ombestemme seg.\n- Snakk med noen du stoler på, som en venn, forelder, lærer eller helsesykepleier.\n- Si ifra hvis du ser at noen blir mobbet eller presset.\n\n## Mangfold\n\nMennesker er ulike i identitet, levesett og kulturuttrykk. **Mangfold** kan gi nye perspektiver og et rikere fellesskap, men kan også gi utfordringer, som misforståelser og fordommer. Respekt og nysgjerrighet på andre gjør det lettere å leve sammen.",
+  "flashcards": [
+    { "term": "Identitet", "def": "Hvem du er og opplever deg som, og hvordan andre ser deg." },
+    { "term": "Selvbilde", "def": "Hvordan du ser på deg selv." },
+    { "term": "Sosialisering", "def": "Prosessen der vi lærer normer, verdier og ferdigheter for å fungere i samfunnet." },
+    { "term": "Primærsosialisering", "def": "Sosialisering i de første leveårene, mest i familien." },
+    { "term": "Sekundærsosialisering", "def": "Senere sosialisering i skole, fritid, arbeidsliv og medier." },
+    { "term": "Sosialiseringsagent", "def": "Noen som påvirker sosialiseringen vår, som foreldre, venner og medier." },
+    { "term": "Norm", "def": "Uskrevet regel for hvordan man bør oppføre seg." },
+    { "term": "Sanksjon", "def": "Reaksjon på atferd: negativ ved normbrudd, positiv som belønning." },
+    { "term": "Rolle", "def": "Forventninger knyttet til en posisjon, som elev, venn eller søsken." },
+    { "term": "Primærgruppe", "def": "Liten og nær gruppe, som familie og nære venner." },
+    { "term": "Sekundærgruppe", "def": "Større og mer formell gruppe, som en skoleklasse eller et idrettslag." },
+    { "term": "Gruppepress", "def": "Press til å gjøre som de andre i en gruppe." },
+    { "term": "Influenser", "def": "Person med mange følgere på sosiale medier som påvirker holdninger og kjøp." },
+    { "term": "Egne grenser", "def": "Hva du vil og ikke vil være med på. Du har rett til å få dem respektert." },
+    { "term": "Mangfold", "def": "At mennesker er ulike i identitet, levesett og kultur." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er sosialisering?", "options": ["Å være sosial på fest", "Prosessen der vi lærer normer, verdier og ferdigheter", "Å bruke sosiale medier", "Å bli med i en forening"], "correct": 1, "explain": "Gjennom sosialisering lærer vi hvordan vi skal fungere sammen med andre." },
+    { "id": "q02", "text": "Hvor skjer primærsosialiseringen først og fremst?", "options": ["I familien", "På jobben", "På sosiale medier", "I politiske partier"], "correct": 0, "explain": "I de første leveårene er familien den viktigste sosialiseringsagenten." },
+    { "id": "q03", "text": "Hva er en norm?", "options": ["En skrevet lov", "En straff", "En uskrevet regel for hvordan man bør oppføre seg", "En type gruppe"], "correct": 2, "explain": "Normer er forventninger som ofte ikke står skrevet noe sted." },
+    { "id": "q04", "text": "Hva er et eksempel på en positiv sanksjon?", "options": ["Et surt blikk", "Å bli utestengt", "Å få en bot", "Å få ros"], "correct": 3, "explain": "Positive sanksjoner belønner atferd som er ønsket." },
+    { "id": "q05", "text": "Hva er en primærgruppe?", "options": ["Et stort idrettslag", "En liten og nær gruppe, som familien", "Et politisk parti", "Alle elevene på skolen"], "correct": 1, "explain": "Primærgrupper er små og preget av nære relasjoner." },
+    { "id": "q06", "text": "Hvorfor kan bilder på sosiale medier påvirke selvbildet negativt?", "options": ["Fordi de ofte viser redigerte og urealistiske idealer", "Fordi de er for små", "Fordi de alltid er ekte", "Det gjør de aldri"], "correct": 0, "explain": "Når vi sammenligner oss med redigerte bilder, kan vi føle at vi ikke strekker til." },
+    { "id": "q07", "text": "Hva er gruppepress?", "options": ["Å være leder i en gruppe", "Et lagspill", "Press til å gjøre som de andre, selv om man ikke vil", "Å lage en gruppe på nett"], "correct": 2, "explain": "Gruppepress kan få oss til å gjøre ting vi egentlig ikke ønsker." },
+    { "id": "q08", "text": "Hva kan du gjøre hvis du opplever press eller uønskede hendelser?", "options": ["Holde det for deg selv", "Gi etter for å unngå konflikt", "Slette alle kontoer", "Si nei og snakke med noen du stoler på"], "correct": 3, "explain": "Det er lov å si nei, og det hjelper å få støtte fra en voksen eller venn." },
+    { "id": "q09", "text": "Hva betyr det at identiteten ikke er fast?", "options": ["At den endrer seg gjennom livet", "At man ikke har noen identitet", "At man bytter navn ofte", "At andre bestemmer den"], "correct": 0, "explain": "Nye erfaringer, venner og interesser gjør at identiteten utvikler seg." },
+    { "id": "q10", "text": "Hva er en sosialiseringsagent?", "options": ["En hemmelig agent", "Noen som påvirker sosialiseringen vår, som foreldre og venner", "En politiker", "En type lov"], "correct": 1, "explain": "Foreldre, lærere, venner, trenere og medier er sosialiseringsagenter." }
+  ],
+  "mindmap": {
+    "label": "Identitet og fellesskap",
+    "children": [
+      { "label": "Identitet", "children": [
+        { "label": "Mange deler" },
+        { "label": "Endrer seg" },
+        { "label": "Selvbilde" }
+      ] },
+      { "label": "Sosialisering", "children": [
+        { "label": "Primær", "note": "Familien" },
+        { "label": "Sekundær", "note": "Skole, venner, medier" },
+        { "label": "Sosialiseringsagenter" }
+      ] },
+      { "label": "Samspill", "children": [
+        { "label": "Normer og sanksjoner" },
+        { "label": "Roller" },
+        { "label": "Primær- og sekundærgrupper" }
+      ] },
+      { "label": "Påvirkning", "children": [
+        { "label": "Gruppepress" },
+        { "label": "Sosiale medier" },
+        { "label": "Influensere og reklame" }
+      ] },
+      { "label": "Grenser og mangfold", "children": [
+        { "label": "Lov å si nei" },
+        { "label": "Snakk med noen" },
+        { "label": "Respekt for mangfold" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Medier kan være en sosialiseringsagent.", "correct": true, "explain": "TV, spill og sosiale medier påvirker normer og verdier." },
+      { "id": "m02", "type": "sant-usant", "text": "Man kan bare ha én rolle om gangen i livet.", "correct": false, "explain": "Vi har mange roller samtidig, som elev, venn, søsken og lagkamerat." },
+      { "id": "m03", "type": "sant-usant", "text": "Du har rett til å ombestemme deg selv om du har sagt ja tidligere.", "correct": true, "explain": "Grensene dine gjelder hele tiden, og du kan endre mening." },
+      { "id": "m04", "type": "sant-usant", "text": "Mangfold gir bare utfordringer og ingen muligheter.", "correct": false, "explain": "Mangfold kan også gi nye perspektiver, ideer og et rikere fellesskap." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken er en sekundærgruppe?", "options": ["Familien", "Bestevennen din", "Et idrettslag", "Søsknene dine"], "correct": 2, "explain": "Idrettslaget er en større og mer formell gruppe." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er selvfølelse?", "options": ["Hvor godt du liker deg selv", "Hvor mange venner du har", "Hvor gammel du er", "Hvor du bor"], "correct": 0, "explain": "Selvfølelsen handler om verdien du opplever at du har." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er et eksempel på en negativ sanksjon?", "options": ["Et klapp på skulderen", "En premie", "Et smil", "Å bli ledd av"], "correct": 3, "explain": "Negative sanksjoner er reaksjoner på brudd på normer." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

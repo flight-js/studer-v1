@@ -13,32 +13,32 @@ insert into public.trinn (id, navn, skoleniva, sortering) values
   ('vg3', 'Vg3', 'vgs', 5)
 on conflict (id) do update set navn = excluded.navn, skoleniva = excluded.skoleniva, sortering = excluded.sortering;
 insert into public.fag (id, trinn_id, navn, lareplan_kode, lareplan_url, kompetansemaal, sortering) values
-  ('norsk-8', '8', 'Norsk', null, null, '[]'::jsonb, 0),
+  ('norsk-8', '8', 'Norsk', 'NOR01-08', 'https://www.udir.no/lk20/nor01-08/kompetansemaal-og-vurdering/kv1110', '[{"nr":1,"tekst":"lese skjønnlitteratur og sakprosa på bokmål og nynorsk og i oversettelse fra samiske og andre språk, og reflektere over tekstenes formål, innhold, sjangertrekk og virkemidler"},{"nr":2,"tekst":"sammenligne og tolke romaner, noveller, lyrikk og andre tekster ut fra historisk kontekst og egen samtid"},{"nr":3,"tekst":"beskrive og reflektere over egen bruk av lesestrategier i lesing av skjønnlitteratur og sakprosa"},{"nr":4,"tekst":"lytte til og lese tekster på svensk og dansk og gjøre rede for innhold og språklige trekk"},{"nr":5,"tekst":"utforske og reflektere over hvordan tekster framstiller unges livssituasjon"},{"nr":6,"tekst":"gjenkjenne og bruke språklige virkemidler og retoriske appellformer"},{"nr":7,"tekst":"bruke kilder på en kritisk måte, markere sitater og vise til kilder på en etterrettelig måte i egne tekster"},{"nr":8,"tekst":"utforske og vurdere hvordan digitale medier påvirker og endrer språk og kommunikasjon"},{"nr":9,"tekst":"bruke fagspråk og argumentere saklig i diskusjoner, samtaler, muntlige presentasjoner og skriftlige framstillinger om norskfaglige og tverrfaglige temaer"},{"nr":10,"tekst":"informere, fortelle, argumentere og reflektere i ulike muntlige og skriftlige sjangre og for ulike formål tilpasset mottaker og medium"},{"nr":11,"tekst":"skrive tekster med funksjonell tekstbinding og riktig tegnsetting og mestre rettskriving og ordbøying på hovedmål og sidemål"},{"nr":12,"tekst":"bruke fagspråk og kunnskap om grammatikk, tekststruktur og sjanger i samtale om og bearbeiding av tekster"},{"nr":13,"tekst":"uttrykke seg i ulike sjangre og eksperimentere med sjangre på kreative måter"},{"nr":14,"tekst":"lage sammensatte tekster og begrunne valg av uttrykksformer"},{"nr":15,"tekst":"forklare den historiske bakgrunnen for bokmål og nynorsk og reflektere over statusen til de offisielle språkene i Norge i dag"},{"nr":16,"tekst":"utforske språklig variasjon og mangfold i Norge og reflektere over holdninger til ulike språk og talespråkvarianter"}]'::jsonb, 0),
   ('matematikk-8', '8', 'Matematikk', 'MAT01-06', 'https://www.udir.no/lk20/mat01-06/kompetansemaal-og-vurdering/kv1027', '[{"nr":1,"tekst":"rekne med potensar og kvadratrøter og forklare framgangsmåtar og resultat"},{"nr":2,"tekst":"bruke kommutative, assosiative og distributive eigenskapar til å utvikle og kommunisere strategiar for hovudrekning og skriftleg rekning"},{"nr":3,"tekst":"beskrive og utforske faktorisering og primtalsfaktorisering og bruke det i brøkrekning"},{"nr":4,"tekst":"utforske og generalisere geometriske mønster og tallmønster med eigne ord og algebraisk"},{"nr":5,"tekst":"lage og forklare rekneuttrykk med tal, variablar og konstantar knytte til praktiske situasjonar"},{"nr":6,"tekst":"lage og løyse likningar knytte til praktiske situasjonar og kritisk vurdere løysingar"},{"nr":7,"tekst":"bruke ulike strategiar for å løyse ulikskapar og vurdere om løysingar er gyldige"},{"nr":8,"tekst":"beskrive, samanlikne og utforske funksjonar knytte til praktiske situasjonar"},{"nr":9,"tekst":"bruke situasjonar, tabellar, grafar og uttrykk til å representere funksjonar og vise samanhengar mellom representasjonane"},{"nr":10,"tekst":"utforske korleis algoritmar kan skapast, testast og forbetrast ved hjelp av programmering"}]'::jsonb, 1),
-  ('engelsk-8', '8', 'Engelsk', null, null, '[]'::jsonb, 2),
-  ('naturfag-8', '8', 'Naturfag', null, null, '[]'::jsonb, 3),
-  ('samfunnsfag-8', '8', 'Samfunnsfag', null, null, '[]'::jsonb, 4),
+  ('engelsk-8', '8', 'Engelsk', 'ENG01-06', 'https://www.udir.no/lk20/eng01-06/kompetansemaal-og-vurdering/kv1033', '[{"nr":1,"tekst":"bruke varierte strategier i språklæring, tekstskaping og kommunikasjon"},{"nr":2,"tekst":"bruke ulike digitale ressurser og andre hjelpemidler i språklæring, tekstskaping og samhandling"},{"nr":3,"tekst":"bruke sentrale mønstre for uttale i kommunikasjon"},{"nr":4,"tekst":"lytte til og forstå ord og uttrykk i varianter av engelsk"},{"nr":5,"tekst":"uttrykke seg med flyt og sammenheng med et variert ordforråd og idiomatiske uttrykk tilpasset formål, mottaker og situasjon"},{"nr":6,"tekst":"stille spørsmål og følge opp innspill i samtaler om ulike emner tilpasset ulike formål, mottakere og situasjoner"},{"nr":7,"tekst":"utforske og beskrive noen språklige likheter og ulikheter mellom engelsk og andre språk eleven kjenner til, og bruke dette i egen språklæring"},{"nr":8,"tekst":"bruke kunnskap om ordklasser og setningsstruktur i arbeid med egne muntlige og skriftlige tekster"},{"nr":9,"tekst":"følge regler for rettskriving, ordbøying, setningsstruktur og tekststruktur"},{"nr":10,"tekst":"lese, diskutere og videreformidle innhold fra ulike typer tekster, inkludert selvvalgte tekster"},{"nr":11,"tekst":"lese, tolke og reflektere over engelskspråklig skjønnlitteratur, inkludert ungdomslitteratur"},{"nr":12,"tekst":"lese sakprosatekster og vurdere hvor pålitelige kildene er"},{"nr":13,"tekst":"bruke kilder på en kritisk og etterrettelig måte"},{"nr":14,"tekst":"skrive formelle og uformelle tekster, inkludert sammensatte, med struktur og sammenheng som beskriver, forteller og reflekterer tilpasset formål, mottaker og situasjon"},{"nr":15,"tekst":"bearbeide egne tekster ut fra tilbakemeldinger og kunnskap om språk"},{"nr":16,"tekst":"beskrive og reflektere over rollen engelsk har i Norge og i verden"},{"nr":17,"tekst":"utforske og reflektere over situasjonen til urfolk i den engelskspråklige verden og i Norge"},{"nr":18,"tekst":"utforske og beskrive levemåter, tenkesett, kommunikasjonsmønstre og mangfold i den engelskspråklige verden"},{"nr":19,"tekst":"utforske og videreformidle innhold i engelskspråklige kulturelle uttrykksformer fra ulike medier knyttet til egne interesser"}]'::jsonb, 2),
+  ('naturfag-8', '8', 'Naturfag', 'NAT01-05', 'https://www.udir.no/lk20/nat01-05/kompetansemaal-og-vurdering/kv1078', '[{"nr":1,"tekst":"stille spørsmål og lage hypoteser om naturfaglige fenomener, identifisere avhengige og uavhengige variabler og samle data for å finne svar"},{"nr":2,"tekst":"analysere og bruke innsamlede data til å lage forklaringer, drøfte forklaringene i lys av relevant teori og vurdere kvaliteten på egne og andres utforskinger"},{"nr":3,"tekst":"bruke og lage modeller for å forutsi eller beskrive naturfaglige prosesser og systemer og gjøre rede for modellenes styrker og begrensninger"},{"nr":4,"tekst":"delta i risikovurderinger knyttet til forsøk og følge sikkerhetstiltakene"},{"nr":5,"tekst":"gi eksempler på dagsaktuell forskning og drøfte hvordan ny kunnskap genereres gjennom samarbeid og kritisk tilnærming til eksisterende kunnskap"},{"nr":6,"tekst":"utforske, forstå og lage teknologiske systemer som består av en sender og en mottaker"},{"nr":7,"tekst":"bruke programmering til å utforske naturfaglige fenomener"},{"nr":8,"tekst":"utforske kjemiske reaksjoner, forklare massebevaring og gjøre rede for betydninger av noen forbrenningsreaksjoner"},{"nr":9,"tekst":"bruke atommodeller og periodesystemet til å gjøre rede for egenskaper til grunnstoffer og kjemiske forbindelser"},{"nr":10,"tekst":"beskrive drivhuseffekten og gjøre rede for faktorer som kan forårsake globale klimaendringer"},{"nr":11,"tekst":"gjøre rede for energibevaring og energikvalitet og utforske ulike måter å omdanne, transportere og lagre energi på"},{"nr":12,"tekst":"drøfte hvordan energiproduksjon og energibruk kan påvirke miljøet lokalt og globalt"},{"nr":13,"tekst":"beskrive hvordan forskere har kommet fram til evolusjonsteorien og bruke denne til å forklare utvikling av biologisk mangfold"},{"nr":14,"tekst":"sammenligne celler hos ulike organismer og beskrive sammenhenger mellom oppbygning og funksjon"},{"nr":15,"tekst":"utforske sammenhenger mellom abiotiske og biotiske faktorer i et økosystem og diskutere hvordan energi og materie omdannes i kretsløp"},{"nr":16,"tekst":"gi eksempler på og drøfte aktuelle dilemmaer knyttet til utnyttelse av naturressurser og tap av biologisk mangfold"},{"nr":17,"tekst":"gi eksempler på samers tradisjonelle kunnskap om naturen og diskutere hvordan denne kunnskapen kan bidra til bærekraftig forvaltning av naturen"},{"nr":18,"tekst":"gjøre rede for hvordan fotosyntese og celleånding gir energi til alt levende gjennom karbonkretsløpet"},{"nr":19,"tekst":"bruke platetektonikkteorien til å forklare jordas utvikling over tid og gi eksempler på observasjoner som støtter teorien"},{"nr":20,"tekst":"drøfte spørsmål knyttet til seksuell og reproduktiv helse"},{"nr":21,"tekst":"sammenligne nervesystemet og hormonsystemet og beskrive hvordan rusmidler, legemidler, miljøgifter og doping påvirker signalsystemene"},{"nr":22,"tekst":"beskrive kroppens immunforsvar og hvordan vaksiner virker, og gjøre rede for hva vaksiner betyr for folkehelsen"}]'::jsonb, 3),
+  ('samfunnsfag-8', '8', 'Samfunnsfag', 'SAF01-05', 'https://www.udir.no/lk20/saf01-05/kompetansemaal-og-vurdering/kv1151', '[{"nr":1,"tekst":"bruke samfunnsfaglege metodar og digitale ressursar i eigne undersøkingar, presentere funn ved bruk av digitale verktøy og drøfte kor gyldige og relevante funna er"},{"nr":2,"tekst":"vurdere på kva måtar ulike kjelder gir informasjon om eit samfunnsfagleg tema, og reflektere over korleis algoritmar, einsretta kjelder eller mangel på kjelder kan prege forståinga vår"},{"nr":3,"tekst":"drøfte korleis framstillingar av fortida, hendingar og grupper har påverka og påverkar haldningane og handlingane til folk"},{"nr":4,"tekst":"utforske korleis teknologi har vore og framleis er ein endringsfaktor, og drøfte innverknaden teknologien har hatt og har på enkeltmenneske, samfunn og natur"},{"nr":5,"tekst":"reflektere over korleis menneske har kjempa og kjempar for endringar i samfunnet og samstundes har vore og er påverka av geografiske forhold og historisk kontekst"},{"nr":6,"tekst":"samanlikne korleis politiske, geografiske og historiske forhold påverkar levekår, busetjingsmønster og demografi i forskjellige delar av verda i dag"},{"nr":7,"tekst":"gjere greie for årsaker til og konsekvensar av sentrale historiske og notidige konfliktar og reflektere over om endringar av nokre føresetnader kunne ha hindra konfliktane"},{"nr":8,"tekst":"gjere greie for årsaker til og konsekvensar av terrorhandlingar og folkemord, som holocaust, og reflektere over korleis ekstreme haldningar og ekstreme handlingar kan førebyggjast"},{"nr":9,"tekst":"utforske og beskrive korleis menneske- og urfolksrettar og andre internasjonale avtalar og samarbeid har betydning for nasjonal politikk, livet til menneske, likestilling og likeverd"},{"nr":10,"tekst":"gjere greie for fornorsking av samane og dei nasjonale minoritetane og uretten dei har vore utsette for, og reflektere over kva konsekvensar det har hatt og har på individ- og samfunnsnivå"},{"nr":11,"tekst":"beskrive ulike dimensjonar ved berekraftig utvikling og korleis dei påverkar kvarandre, og presentere tiltak for meir berekraftige samfunn"},{"nr":12,"tekst":"vurdere korleis arbeid, inntekt og forbruk kan påverke personleg økonomi, levestandard og livskvalitet"},{"nr":13,"tekst":"reflektere over likskapar og ulikskapar i identitetar, levesett og kulturuttrykk og drøfte moglegheiter og utfordringar ved mangfald"},{"nr":14,"tekst":"utforske og reflektere over eigne digitale spor og høvet til å få sletta spora og å verne om retten ein sjølv og andre har til privatliv, personvern og opphavsrett"},{"nr":15,"tekst":"reflektere over korleis identitet, sjølvbilete og eigne grenser blir utvikla og utfordra i ulike fellesskap, og presentere forslag til korleis ein kan handtere påverknad og uønskte hendingar"},{"nr":16,"tekst":"reflektere over kva for aktørar som har makt i samfunnet i dag, og korleis desse grunngir standpunkta sine"},{"nr":17,"tekst":"utforske ulike plattformer for digital samhandling og reflektere over korleis digital deltaking og samhandling påverkar forma på og innhaldet i samfunnsdebatten"},{"nr":18,"tekst":"beskrive sentrale lover, reglar og normer og drøfte kva konsekvensar brot på desse kan ha for den enkelte og for samfunnet på kort og lang sikt"},{"nr":19,"tekst":"beskrive trekk ved det politiske systemet og velferdssamfunnet i Noreg i dag og reflektere over sentrale utfordringar"}]'::jsonb, 4),
   ('krle-8', '8', 'KRLE', null, null, '[]'::jsonb, 5),
   ('tysk-8', '8', 'Tysk', null, null, '[]'::jsonb, 6),
   ('fransk-8', '8', 'Fransk', null, null, '[]'::jsonb, 7),
   ('spansk-8', '8', 'Spansk', null, null, '[]'::jsonb, 8),
   ('arbeidslivsfag-8', '8', 'Arbeidslivsfag', null, null, '[]'::jsonb, 9),
-  ('norsk-9', '9', 'Norsk', null, null, '[]'::jsonb, 0),
+  ('norsk-9', '9', 'Norsk', 'NOR01-08', 'https://www.udir.no/lk20/nor01-08/kompetansemaal-og-vurdering/kv1110', '[{"nr":1,"tekst":"lese skjønnlitteratur og sakprosa på bokmål og nynorsk og i oversettelse fra samiske og andre språk, og reflektere over tekstenes formål, innhold, sjangertrekk og virkemidler"},{"nr":2,"tekst":"sammenligne og tolke romaner, noveller, lyrikk og andre tekster ut fra historisk kontekst og egen samtid"},{"nr":3,"tekst":"beskrive og reflektere over egen bruk av lesestrategier i lesing av skjønnlitteratur og sakprosa"},{"nr":4,"tekst":"lytte til og lese tekster på svensk og dansk og gjøre rede for innhold og språklige trekk"},{"nr":5,"tekst":"utforske og reflektere over hvordan tekster framstiller unges livssituasjon"},{"nr":6,"tekst":"gjenkjenne og bruke språklige virkemidler og retoriske appellformer"},{"nr":7,"tekst":"bruke kilder på en kritisk måte, markere sitater og vise til kilder på en etterrettelig måte i egne tekster"},{"nr":8,"tekst":"utforske og vurdere hvordan digitale medier påvirker og endrer språk og kommunikasjon"},{"nr":9,"tekst":"bruke fagspråk og argumentere saklig i diskusjoner, samtaler, muntlige presentasjoner og skriftlige framstillinger om norskfaglige og tverrfaglige temaer"},{"nr":10,"tekst":"informere, fortelle, argumentere og reflektere i ulike muntlige og skriftlige sjangre og for ulike formål tilpasset mottaker og medium"},{"nr":11,"tekst":"skrive tekster med funksjonell tekstbinding og riktig tegnsetting og mestre rettskriving og ordbøying på hovedmål og sidemål"},{"nr":12,"tekst":"bruke fagspråk og kunnskap om grammatikk, tekststruktur og sjanger i samtale om og bearbeiding av tekster"},{"nr":13,"tekst":"uttrykke seg i ulike sjangre og eksperimentere med sjangre på kreative måter"},{"nr":14,"tekst":"lage sammensatte tekster og begrunne valg av uttrykksformer"},{"nr":15,"tekst":"forklare den historiske bakgrunnen for bokmål og nynorsk og reflektere over statusen til de offisielle språkene i Norge i dag"},{"nr":16,"tekst":"utforske språklig variasjon og mangfold i Norge og reflektere over holdninger til ulike språk og talespråkvarianter"}]'::jsonb, 0),
   ('matematikk-9', '9', 'Matematikk', 'MAT01-06', 'https://www.udir.no/lk20/mat01-06/kompetansemaal-og-vurdering/kv1028', '[{"nr":1,"tekst":"lage og løyse problem som handlar om samansette måleiningar"},{"nr":2,"tekst":"utforske eigenskapane ved ulike todimensjonale figurar og forklare omgrepa formlikskap og kongruens"},{"nr":3,"tekst":"bruke formlikskap og læresetninga til Pytagoras til utforsking av praktiske situasjonar"},{"nr":4,"tekst":"utforske, beskrive og argumentere for samanhengar mellom sidelengdene i trekantar"},{"nr":5,"tekst":"utforske og argumentere for korleis det å endre føresetnader i geometriske problemstillingar påverkar løysingar både praktisk og algebraisk"},{"nr":6,"tekst":"bruke og argumentere for formlar for overflateareal og volum av tredimensjonale figurar"},{"nr":7,"tekst":"tolke og kritisk vurdere statistiske framstillingar frå media og lokalsamfunnet"},{"nr":8,"tekst":"rekne på sentralmål og spreiingsmål i eigne og reelle datasett og bruke resultata til å beskrive dataa"},{"nr":9,"tekst":"samanlikne og argumentere for korleis framstillingar av tal og data kan brukast for å fremje ulike synspunkt"},{"nr":10,"tekst":"berekne og vurdere sannsyn i statistikk og spel"},{"nr":11,"tekst":"simulere utfall i tilfeldige forsøk og berekne sannsynet for at noko skal inntreffe, ved å bruke programmering"}]'::jsonb, 1),
-  ('engelsk-9', '9', 'Engelsk', null, null, '[]'::jsonb, 2),
-  ('naturfag-9', '9', 'Naturfag', null, null, '[]'::jsonb, 3),
-  ('samfunnsfag-9', '9', 'Samfunnsfag', null, null, '[]'::jsonb, 4),
+  ('engelsk-9', '9', 'Engelsk', 'ENG01-06', 'https://www.udir.no/lk20/eng01-06/kompetansemaal-og-vurdering/kv1033', '[{"nr":1,"tekst":"bruke varierte strategier i språklæring, tekstskaping og kommunikasjon"},{"nr":2,"tekst":"bruke ulike digitale ressurser og andre hjelpemidler i språklæring, tekstskaping og samhandling"},{"nr":3,"tekst":"bruke sentrale mønstre for uttale i kommunikasjon"},{"nr":4,"tekst":"lytte til og forstå ord og uttrykk i varianter av engelsk"},{"nr":5,"tekst":"uttrykke seg med flyt og sammenheng med et variert ordforråd og idiomatiske uttrykk tilpasset formål, mottaker og situasjon"},{"nr":6,"tekst":"stille spørsmål og følge opp innspill i samtaler om ulike emner tilpasset ulike formål, mottakere og situasjoner"},{"nr":7,"tekst":"utforske og beskrive noen språklige likheter og ulikheter mellom engelsk og andre språk eleven kjenner til, og bruke dette i egen språklæring"},{"nr":8,"tekst":"bruke kunnskap om ordklasser og setningsstruktur i arbeid med egne muntlige og skriftlige tekster"},{"nr":9,"tekst":"følge regler for rettskriving, ordbøying, setningsstruktur og tekststruktur"},{"nr":10,"tekst":"lese, diskutere og videreformidle innhold fra ulike typer tekster, inkludert selvvalgte tekster"},{"nr":11,"tekst":"lese, tolke og reflektere over engelskspråklig skjønnlitteratur, inkludert ungdomslitteratur"},{"nr":12,"tekst":"lese sakprosatekster og vurdere hvor pålitelige kildene er"},{"nr":13,"tekst":"bruke kilder på en kritisk og etterrettelig måte"},{"nr":14,"tekst":"skrive formelle og uformelle tekster, inkludert sammensatte, med struktur og sammenheng som beskriver, forteller og reflekterer tilpasset formål, mottaker og situasjon"},{"nr":15,"tekst":"bearbeide egne tekster ut fra tilbakemeldinger og kunnskap om språk"},{"nr":16,"tekst":"beskrive og reflektere over rollen engelsk har i Norge og i verden"},{"nr":17,"tekst":"utforske og reflektere over situasjonen til urfolk i den engelskspråklige verden og i Norge"},{"nr":18,"tekst":"utforske og beskrive levemåter, tenkesett, kommunikasjonsmønstre og mangfold i den engelskspråklige verden"},{"nr":19,"tekst":"utforske og videreformidle innhold i engelskspråklige kulturelle uttrykksformer fra ulike medier knyttet til egne interesser"}]'::jsonb, 2),
+  ('naturfag-9', '9', 'Naturfag', 'NAT01-05', 'https://www.udir.no/lk20/nat01-05/kompetansemaal-og-vurdering/kv1078', '[{"nr":1,"tekst":"stille spørsmål og lage hypoteser om naturfaglige fenomener, identifisere avhengige og uavhengige variabler og samle data for å finne svar"},{"nr":2,"tekst":"analysere og bruke innsamlede data til å lage forklaringer, drøfte forklaringene i lys av relevant teori og vurdere kvaliteten på egne og andres utforskinger"},{"nr":3,"tekst":"bruke og lage modeller for å forutsi eller beskrive naturfaglige prosesser og systemer og gjøre rede for modellenes styrker og begrensninger"},{"nr":4,"tekst":"delta i risikovurderinger knyttet til forsøk og følge sikkerhetstiltakene"},{"nr":5,"tekst":"gi eksempler på dagsaktuell forskning og drøfte hvordan ny kunnskap genereres gjennom samarbeid og kritisk tilnærming til eksisterende kunnskap"},{"nr":6,"tekst":"utforske, forstå og lage teknologiske systemer som består av en sender og en mottaker"},{"nr":7,"tekst":"bruke programmering til å utforske naturfaglige fenomener"},{"nr":8,"tekst":"utforske kjemiske reaksjoner, forklare massebevaring og gjøre rede for betydninger av noen forbrenningsreaksjoner"},{"nr":9,"tekst":"bruke atommodeller og periodesystemet til å gjøre rede for egenskaper til grunnstoffer og kjemiske forbindelser"},{"nr":10,"tekst":"beskrive drivhuseffekten og gjøre rede for faktorer som kan forårsake globale klimaendringer"},{"nr":11,"tekst":"gjøre rede for energibevaring og energikvalitet og utforske ulike måter å omdanne, transportere og lagre energi på"},{"nr":12,"tekst":"drøfte hvordan energiproduksjon og energibruk kan påvirke miljøet lokalt og globalt"},{"nr":13,"tekst":"beskrive hvordan forskere har kommet fram til evolusjonsteorien og bruke denne til å forklare utvikling av biologisk mangfold"},{"nr":14,"tekst":"sammenligne celler hos ulike organismer og beskrive sammenhenger mellom oppbygning og funksjon"},{"nr":15,"tekst":"utforske sammenhenger mellom abiotiske og biotiske faktorer i et økosystem og diskutere hvordan energi og materie omdannes i kretsløp"},{"nr":16,"tekst":"gi eksempler på og drøfte aktuelle dilemmaer knyttet til utnyttelse av naturressurser og tap av biologisk mangfold"},{"nr":17,"tekst":"gi eksempler på samers tradisjonelle kunnskap om naturen og diskutere hvordan denne kunnskapen kan bidra til bærekraftig forvaltning av naturen"},{"nr":18,"tekst":"gjøre rede for hvordan fotosyntese og celleånding gir energi til alt levende gjennom karbonkretsløpet"},{"nr":19,"tekst":"bruke platetektonikkteorien til å forklare jordas utvikling over tid og gi eksempler på observasjoner som støtter teorien"},{"nr":20,"tekst":"drøfte spørsmål knyttet til seksuell og reproduktiv helse"},{"nr":21,"tekst":"sammenligne nervesystemet og hormonsystemet og beskrive hvordan rusmidler, legemidler, miljøgifter og doping påvirker signalsystemene"},{"nr":22,"tekst":"beskrive kroppens immunforsvar og hvordan vaksiner virker, og gjøre rede for hva vaksiner betyr for folkehelsen"}]'::jsonb, 3),
+  ('samfunnsfag-9', '9', 'Samfunnsfag', 'SAF01-05', 'https://www.udir.no/lk20/saf01-05/kompetansemaal-og-vurdering/kv1151', '[{"nr":1,"tekst":"bruke samfunnsfaglege metodar og digitale ressursar i eigne undersøkingar, presentere funn ved bruk av digitale verktøy og drøfte kor gyldige og relevante funna er"},{"nr":2,"tekst":"vurdere på kva måtar ulike kjelder gir informasjon om eit samfunnsfagleg tema, og reflektere over korleis algoritmar, einsretta kjelder eller mangel på kjelder kan prege forståinga vår"},{"nr":3,"tekst":"drøfte korleis framstillingar av fortida, hendingar og grupper har påverka og påverkar haldningane og handlingane til folk"},{"nr":4,"tekst":"utforske korleis teknologi har vore og framleis er ein endringsfaktor, og drøfte innverknaden teknologien har hatt og har på enkeltmenneske, samfunn og natur"},{"nr":5,"tekst":"reflektere over korleis menneske har kjempa og kjempar for endringar i samfunnet og samstundes har vore og er påverka av geografiske forhold og historisk kontekst"},{"nr":6,"tekst":"samanlikne korleis politiske, geografiske og historiske forhold påverkar levekår, busetjingsmønster og demografi i forskjellige delar av verda i dag"},{"nr":7,"tekst":"gjere greie for årsaker til og konsekvensar av sentrale historiske og notidige konfliktar og reflektere over om endringar av nokre føresetnader kunne ha hindra konfliktane"},{"nr":8,"tekst":"gjere greie for årsaker til og konsekvensar av terrorhandlingar og folkemord, som holocaust, og reflektere over korleis ekstreme haldningar og ekstreme handlingar kan førebyggjast"},{"nr":9,"tekst":"utforske og beskrive korleis menneske- og urfolksrettar og andre internasjonale avtalar og samarbeid har betydning for nasjonal politikk, livet til menneske, likestilling og likeverd"},{"nr":10,"tekst":"gjere greie for fornorsking av samane og dei nasjonale minoritetane og uretten dei har vore utsette for, og reflektere over kva konsekvensar det har hatt og har på individ- og samfunnsnivå"},{"nr":11,"tekst":"beskrive ulike dimensjonar ved berekraftig utvikling og korleis dei påverkar kvarandre, og presentere tiltak for meir berekraftige samfunn"},{"nr":12,"tekst":"vurdere korleis arbeid, inntekt og forbruk kan påverke personleg økonomi, levestandard og livskvalitet"},{"nr":13,"tekst":"reflektere over likskapar og ulikskapar i identitetar, levesett og kulturuttrykk og drøfte moglegheiter og utfordringar ved mangfald"},{"nr":14,"tekst":"utforske og reflektere over eigne digitale spor og høvet til å få sletta spora og å verne om retten ein sjølv og andre har til privatliv, personvern og opphavsrett"},{"nr":15,"tekst":"reflektere over korleis identitet, sjølvbilete og eigne grenser blir utvikla og utfordra i ulike fellesskap, og presentere forslag til korleis ein kan handtere påverknad og uønskte hendingar"},{"nr":16,"tekst":"reflektere over kva for aktørar som har makt i samfunnet i dag, og korleis desse grunngir standpunkta sine"},{"nr":17,"tekst":"utforske ulike plattformer for digital samhandling og reflektere over korleis digital deltaking og samhandling påverkar forma på og innhaldet i samfunnsdebatten"},{"nr":18,"tekst":"beskrive sentrale lover, reglar og normer og drøfte kva konsekvensar brot på desse kan ha for den enkelte og for samfunnet på kort og lang sikt"},{"nr":19,"tekst":"beskrive trekk ved det politiske systemet og velferdssamfunnet i Noreg i dag og reflektere over sentrale utfordringar"}]'::jsonb, 4),
   ('krle-9', '9', 'KRLE', null, null, '[]'::jsonb, 5),
   ('tysk-9', '9', 'Tysk', null, null, '[]'::jsonb, 6),
   ('fransk-9', '9', 'Fransk', null, null, '[]'::jsonb, 7),
   ('spansk-9', '9', 'Spansk', null, null, '[]'::jsonb, 8),
   ('arbeidslivsfag-9', '9', 'Arbeidslivsfag', null, null, '[]'::jsonb, 9),
   ('utdanningsvalg-9', '9', 'Utdanningsvalg', null, null, '[]'::jsonb, 10),
-  ('norsk-10', '10', 'Norsk', null, null, '[]'::jsonb, 0),
-  ('matematikk-10', '10', 'Matematikk', null, null, '[]'::jsonb, 1),
-  ('engelsk-10', '10', 'Engelsk', null, null, '[]'::jsonb, 2),
-  ('naturfag-10', '10', 'Naturfag', null, null, '[]'::jsonb, 3),
-  ('samfunnsfag-10', '10', 'Samfunnsfag', null, null, '[]'::jsonb, 4),
+  ('norsk-10', '10', 'Norsk', 'NOR01-08', 'https://www.udir.no/lk20/nor01-08/kompetansemaal-og-vurdering/kv1110', '[{"nr":1,"tekst":"lese skjønnlitteratur og sakprosa på bokmål og nynorsk og i oversettelse fra samiske og andre språk, og reflektere over tekstenes formål, innhold, sjangertrekk og virkemidler"},{"nr":2,"tekst":"sammenligne og tolke romaner, noveller, lyrikk og andre tekster ut fra historisk kontekst og egen samtid"},{"nr":3,"tekst":"beskrive og reflektere over egen bruk av lesestrategier i lesing av skjønnlitteratur og sakprosa"},{"nr":4,"tekst":"lytte til og lese tekster på svensk og dansk og gjøre rede for innhold og språklige trekk"},{"nr":5,"tekst":"utforske og reflektere over hvordan tekster framstiller unges livssituasjon"},{"nr":6,"tekst":"gjenkjenne og bruke språklige virkemidler og retoriske appellformer"},{"nr":7,"tekst":"bruke kilder på en kritisk måte, markere sitater og vise til kilder på en etterrettelig måte i egne tekster"},{"nr":8,"tekst":"utforske og vurdere hvordan digitale medier påvirker og endrer språk og kommunikasjon"},{"nr":9,"tekst":"bruke fagspråk og argumentere saklig i diskusjoner, samtaler, muntlige presentasjoner og skriftlige framstillinger om norskfaglige og tverrfaglige temaer"},{"nr":10,"tekst":"informere, fortelle, argumentere og reflektere i ulike muntlige og skriftlige sjangre og for ulike formål tilpasset mottaker og medium"},{"nr":11,"tekst":"skrive tekster med funksjonell tekstbinding og riktig tegnsetting og mestre rettskriving og ordbøying på hovedmål og sidemål"},{"nr":12,"tekst":"bruke fagspråk og kunnskap om grammatikk, tekststruktur og sjanger i samtale om og bearbeiding av tekster"},{"nr":13,"tekst":"uttrykke seg i ulike sjangre og eksperimentere med sjangre på kreative måter"},{"nr":14,"tekst":"lage sammensatte tekster og begrunne valg av uttrykksformer"},{"nr":15,"tekst":"forklare den historiske bakgrunnen for bokmål og nynorsk og reflektere over statusen til de offisielle språkene i Norge i dag"},{"nr":16,"tekst":"utforske språklig variasjon og mangfold i Norge og reflektere over holdninger til ulike språk og talespråkvarianter"}]'::jsonb, 0),
+  ('matematikk-10', '10', 'Matematikk', 'MAT01-06', 'https://www.udir.no/lk20/mat01-06/kompetansemaal-og-vurdering/kv1029', '[{"nr":1,"tekst":"bruke reknereglar og generalisere samanhengar algebraisk"},{"nr":2,"tekst":"utforske kvadratsetningane geometrisk og algebraisk og bruke kvadratsetningane som reknestrategiar"},{"nr":3,"tekst":"lage, løyse og forklare likningssett knytte til praktiske situasjonar"},{"nr":4,"tekst":"utforske og samanlikne eigenskapar ved lineære funksjonar, eksponentialfunksjonar, brøkfunksjonar og andregradsfunksjonar ved å bruke digitale verktøy"},{"nr":5,"tekst":"forklare omgrepet endring per eining og rekne ut stigningstalet til lineære funksjonar"},{"nr":6,"tekst":"utforske og forklare samanhengen mellom konstant prosentvis endring, vekstfaktor og eksponentialfunksjonar"},{"nr":7,"tekst":"hente ut og tolke relevant informasjon og reflektere over moglege konsekvensar ved kjøp og sal, renter på sparing, lån og kredittkjøp"},{"nr":8,"tekst":"planleggje, utføre og presentere eit utforskande arbeid knytt til personleg økonomi"},{"nr":9,"tekst":"modellere situasjonar, presentere resultata og vurdere kor gyldige modellane er"},{"nr":10,"tekst":"utforske matematiske eigenskapar og samanhengar ved å bruke programmering"},{"nr":11,"tekst":"lese og forklare tekstbasert programkode i Python"}]'::jsonb, 1),
+  ('engelsk-10', '10', 'Engelsk', 'ENG01-06', 'https://www.udir.no/lk20/eng01-06/kompetansemaal-og-vurdering/kv1033', '[{"nr":1,"tekst":"bruke varierte strategier i språklæring, tekstskaping og kommunikasjon"},{"nr":2,"tekst":"bruke ulike digitale ressurser og andre hjelpemidler i språklæring, tekstskaping og samhandling"},{"nr":3,"tekst":"bruke sentrale mønstre for uttale i kommunikasjon"},{"nr":4,"tekst":"lytte til og forstå ord og uttrykk i varianter av engelsk"},{"nr":5,"tekst":"uttrykke seg med flyt og sammenheng med et variert ordforråd og idiomatiske uttrykk tilpasset formål, mottaker og situasjon"},{"nr":6,"tekst":"stille spørsmål og følge opp innspill i samtaler om ulike emner tilpasset ulike formål, mottakere og situasjoner"},{"nr":7,"tekst":"utforske og beskrive noen språklige likheter og ulikheter mellom engelsk og andre språk eleven kjenner til, og bruke dette i egen språklæring"},{"nr":8,"tekst":"bruke kunnskap om ordklasser og setningsstruktur i arbeid med egne muntlige og skriftlige tekster"},{"nr":9,"tekst":"følge regler for rettskriving, ordbøying, setningsstruktur og tekststruktur"},{"nr":10,"tekst":"lese, diskutere og videreformidle innhold fra ulike typer tekster, inkludert selvvalgte tekster"},{"nr":11,"tekst":"lese, tolke og reflektere over engelskspråklig skjønnlitteratur, inkludert ungdomslitteratur"},{"nr":12,"tekst":"lese sakprosatekster og vurdere hvor pålitelige kildene er"},{"nr":13,"tekst":"bruke kilder på en kritisk og etterrettelig måte"},{"nr":14,"tekst":"skrive formelle og uformelle tekster, inkludert sammensatte, med struktur og sammenheng som beskriver, forteller og reflekterer tilpasset formål, mottaker og situasjon"},{"nr":15,"tekst":"bearbeide egne tekster ut fra tilbakemeldinger og kunnskap om språk"},{"nr":16,"tekst":"beskrive og reflektere over rollen engelsk har i Norge og i verden"},{"nr":17,"tekst":"utforske og reflektere over situasjonen til urfolk i den engelskspråklige verden og i Norge"},{"nr":18,"tekst":"utforske og beskrive levemåter, tenkesett, kommunikasjonsmønstre og mangfold i den engelskspråklige verden"},{"nr":19,"tekst":"utforske og videreformidle innhold i engelskspråklige kulturelle uttrykksformer fra ulike medier knyttet til egne interesser"}]'::jsonb, 2),
+  ('naturfag-10', '10', 'Naturfag', 'NAT01-05', 'https://www.udir.no/lk20/nat01-05/kompetansemaal-og-vurdering/kv1078', '[{"nr":1,"tekst":"stille spørsmål og lage hypoteser om naturfaglige fenomener, identifisere avhengige og uavhengige variabler og samle data for å finne svar"},{"nr":2,"tekst":"analysere og bruke innsamlede data til å lage forklaringer, drøfte forklaringene i lys av relevant teori og vurdere kvaliteten på egne og andres utforskinger"},{"nr":3,"tekst":"bruke og lage modeller for å forutsi eller beskrive naturfaglige prosesser og systemer og gjøre rede for modellenes styrker og begrensninger"},{"nr":4,"tekst":"delta i risikovurderinger knyttet til forsøk og følge sikkerhetstiltakene"},{"nr":5,"tekst":"gi eksempler på dagsaktuell forskning og drøfte hvordan ny kunnskap genereres gjennom samarbeid og kritisk tilnærming til eksisterende kunnskap"},{"nr":6,"tekst":"utforske, forstå og lage teknologiske systemer som består av en sender og en mottaker"},{"nr":7,"tekst":"bruke programmering til å utforske naturfaglige fenomener"},{"nr":8,"tekst":"utforske kjemiske reaksjoner, forklare massebevaring og gjøre rede for betydninger av noen forbrenningsreaksjoner"},{"nr":9,"tekst":"bruke atommodeller og periodesystemet til å gjøre rede for egenskaper til grunnstoffer og kjemiske forbindelser"},{"nr":10,"tekst":"beskrive drivhuseffekten og gjøre rede for faktorer som kan forårsake globale klimaendringer"},{"nr":11,"tekst":"gjøre rede for energibevaring og energikvalitet og utforske ulike måter å omdanne, transportere og lagre energi på"},{"nr":12,"tekst":"drøfte hvordan energiproduksjon og energibruk kan påvirke miljøet lokalt og globalt"},{"nr":13,"tekst":"beskrive hvordan forskere har kommet fram til evolusjonsteorien og bruke denne til å forklare utvikling av biologisk mangfold"},{"nr":14,"tekst":"sammenligne celler hos ulike organismer og beskrive sammenhenger mellom oppbygning og funksjon"},{"nr":15,"tekst":"utforske sammenhenger mellom abiotiske og biotiske faktorer i et økosystem og diskutere hvordan energi og materie omdannes i kretsløp"},{"nr":16,"tekst":"gi eksempler på og drøfte aktuelle dilemmaer knyttet til utnyttelse av naturressurser og tap av biologisk mangfold"},{"nr":17,"tekst":"gi eksempler på samers tradisjonelle kunnskap om naturen og diskutere hvordan denne kunnskapen kan bidra til bærekraftig forvaltning av naturen"},{"nr":18,"tekst":"gjøre rede for hvordan fotosyntese og celleånding gir energi til alt levende gjennom karbonkretsløpet"},{"nr":19,"tekst":"bruke platetektonikkteorien til å forklare jordas utvikling over tid og gi eksempler på observasjoner som støtter teorien"},{"nr":20,"tekst":"drøfte spørsmål knyttet til seksuell og reproduktiv helse"},{"nr":21,"tekst":"sammenligne nervesystemet og hormonsystemet og beskrive hvordan rusmidler, legemidler, miljøgifter og doping påvirker signalsystemene"},{"nr":22,"tekst":"beskrive kroppens immunforsvar og hvordan vaksiner virker, og gjøre rede for hva vaksiner betyr for folkehelsen"}]'::jsonb, 3),
+  ('samfunnsfag-10', '10', 'Samfunnsfag', 'SAF01-05', 'https://www.udir.no/lk20/saf01-05/kompetansemaal-og-vurdering/kv1151', '[{"nr":1,"tekst":"bruke samfunnsfaglege metodar og digitale ressursar i eigne undersøkingar, presentere funn ved bruk av digitale verktøy og drøfte kor gyldige og relevante funna er"},{"nr":2,"tekst":"vurdere på kva måtar ulike kjelder gir informasjon om eit samfunnsfagleg tema, og reflektere over korleis algoritmar, einsretta kjelder eller mangel på kjelder kan prege forståinga vår"},{"nr":3,"tekst":"drøfte korleis framstillingar av fortida, hendingar og grupper har påverka og påverkar haldningane og handlingane til folk"},{"nr":4,"tekst":"utforske korleis teknologi har vore og framleis er ein endringsfaktor, og drøfte innverknaden teknologien har hatt og har på enkeltmenneske, samfunn og natur"},{"nr":5,"tekst":"reflektere over korleis menneske har kjempa og kjempar for endringar i samfunnet og samstundes har vore og er påverka av geografiske forhold og historisk kontekst"},{"nr":6,"tekst":"samanlikne korleis politiske, geografiske og historiske forhold påverkar levekår, busetjingsmønster og demografi i forskjellige delar av verda i dag"},{"nr":7,"tekst":"gjere greie for årsaker til og konsekvensar av sentrale historiske og notidige konfliktar og reflektere over om endringar av nokre føresetnader kunne ha hindra konfliktane"},{"nr":8,"tekst":"gjere greie for årsaker til og konsekvensar av terrorhandlingar og folkemord, som holocaust, og reflektere over korleis ekstreme haldningar og ekstreme handlingar kan førebyggjast"},{"nr":9,"tekst":"utforske og beskrive korleis menneske- og urfolksrettar og andre internasjonale avtalar og samarbeid har betydning for nasjonal politikk, livet til menneske, likestilling og likeverd"},{"nr":10,"tekst":"gjere greie for fornorsking av samane og dei nasjonale minoritetane og uretten dei har vore utsette for, og reflektere over kva konsekvensar det har hatt og har på individ- og samfunnsnivå"},{"nr":11,"tekst":"beskrive ulike dimensjonar ved berekraftig utvikling og korleis dei påverkar kvarandre, og presentere tiltak for meir berekraftige samfunn"},{"nr":12,"tekst":"vurdere korleis arbeid, inntekt og forbruk kan påverke personleg økonomi, levestandard og livskvalitet"},{"nr":13,"tekst":"reflektere over likskapar og ulikskapar i identitetar, levesett og kulturuttrykk og drøfte moglegheiter og utfordringar ved mangfald"},{"nr":14,"tekst":"utforske og reflektere over eigne digitale spor og høvet til å få sletta spora og å verne om retten ein sjølv og andre har til privatliv, personvern og opphavsrett"},{"nr":15,"tekst":"reflektere over korleis identitet, sjølvbilete og eigne grenser blir utvikla og utfordra i ulike fellesskap, og presentere forslag til korleis ein kan handtere påverknad og uønskte hendingar"},{"nr":16,"tekst":"reflektere over kva for aktørar som har makt i samfunnet i dag, og korleis desse grunngir standpunkta sine"},{"nr":17,"tekst":"utforske ulike plattformer for digital samhandling og reflektere over korleis digital deltaking og samhandling påverkar forma på og innhaldet i samfunnsdebatten"},{"nr":18,"tekst":"beskrive sentrale lover, reglar og normer og drøfte kva konsekvensar brot på desse kan ha for den enkelte og for samfunnet på kort og lang sikt"},{"nr":19,"tekst":"beskrive trekk ved det politiske systemet og velferdssamfunnet i Noreg i dag og reflektere over sentrale utfordringar"}]'::jsonb, 4),
   ('krle-10', '10', 'KRLE', null, null, '[]'::jsonb, 5),
   ('tysk-10', '10', 'Tysk', null, null, '[]'::jsonb, 6),
   ('fransk-10', '10', 'Fransk', null, null, '[]'::jsonb, 7),
@@ -87,6 +87,586 @@ insert into public.fag (id, trinn_id, navn, lareplan_kode, lareplan_url, kompeta
   ('markedsforing-og-ledelse-2', 'vg3', 'Markedsføring og ledelse 2', null, null, '[]'::jsonb, 11)
 on conflict (id) do update set trinn_id = excluded.trinn_id, navn = excluded.navn, lareplan_kode = excluded.lareplan_kode,
   lareplan_url = excluded.lareplan_url, kompetansemaal = excluded.kompetansemaal, sortering = excluded.sortering;
+
+-- Norsk (8): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'norsk-8' and slug not in ('lesestrategier', 'fortelling-og-novelle', 'sakprosa', 'ordklasser', 'rettskriving-og-tegnsetting', 'sammensatte-tekster', 'nynorsk-grunnkurs');
+
+-- Norsk: Lesestrategier
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('norsk-8:lesestrategier', 'norsk-8', 'lesestrategier', 'Lesestrategier', 'Hvordan du leser før, under og etter lesingen, og hvilke strategier som passer til skjønnlitteratur og sakprosa.', array[3, 1]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('norsk-8:lesestrategier', '## Hvorfor lesestrategier?
+
+En **lesestrategi** er en bevisst måte å lese på for å forstå og huske bedre. Gode lesere bruker strategier uten å tenke over det, men alle kan lære dem. Hvilken strategi du velger, avhenger av **formålet** med lesingen og av **teksttypen**. Leser du en novelle for å oppleve, leser du annerledes enn når du leser et kapittel i naturfagboka for å lære til en prøve.
+
+## Før lesingen
+
+- **Skumlese**: Se raskt over tittel, ingresser, mellomtitler, bilder og uthevet tekst for å få et overblikk.
+- **Aktivere forkunnskaper**: Hva vet du fra før om temaet? Å koble ny kunnskap til det du kan, gjør den lettere å huske.
+- **Stille spørsmål**: Hva vil jeg finne ut av? Gjør gjerne overskriftene om til spørsmål.
+
+## Under lesingen
+
+- **Nærlese**: Les nøye og stopp opp ved det som er vanskelig.
+- **Sjekke forståelsen**: Kan jeg si med egne ord hva avsnittet handler om?
+- **Slå opp ukjente ord** eller finne betydningen ut fra sammenhengen.
+- **Understreke og notere**: Marker nøkkelord, ikke hele setninger.
+- **Søkelese**: Let raskt etter bestemte opplysninger, som et årstall eller et navn.
+
+## Etter lesingen
+
+- **Oppsummere**: Skriv et kort sammendrag med egne ord.
+- **Lage tankekart** eller tabeller som viser sammenhenger.
+- **Tolke og reflektere**: Hva mener teksten, og hva mener jeg?
+
+## Skjønnlitteratur og sakprosa
+
+**Skjønnlitteratur** er oppdiktede tekster som noveller, romaner og dikt. Her er det lurt å legge merke til personer, miljø, handling, synsvinkel og tema, og å stille spørsmål som «Hvorfor gjør personen dette?». **Sakprosa** er tekster om virkeligheten, som fagtekster, artikler og nyheter. Her er det viktig å finne hovedpoenger, skille fakta fra meninger og vurdere hvem som står bak teksten.
+
+## Reflektere over egen lesing
+
+Å reflektere over egen lesing betyr å tenke gjennom hvilke strategier som fungerer for deg. Merker du at du har lest en side uten å huske noe, er det et tegn på at du må bytte strategi, for eksempel ved å stoppe og oppsummere hvert avsnitt. Å kunne forklare hvordan du leste, og hvorfor, er en del av det å være en god leser.', '{"label":"Lesestrategier","children":[{"label":"Før","children":[{"label":"Skumlese","note":"Overblikk"},{"label":"Forkunnskaper"},{"label":"Still spørsmål"}]},{"label":"Under","children":[{"label":"Nærlese"},{"label":"Søkelese","note":"Finn opplysninger"},{"label":"Nøkkelord"},{"label":"Sjekk forståelsen"}]},{"label":"Etter","children":[{"label":"Oppsummere"},{"label":"Tankekart"},{"label":"Tolke og reflektere"}]},{"label":"Teksttype","children":[{"label":"Skjønnlitteratur","note":"Personer, tema"},{"label":"Sakprosa","note":"Hovedpoeng, avsender"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'norsk-8:lesestrategier';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('norsk-8:lesestrategier', 'Lesestrategi', 'En bevisst måte å lese på for å forstå og huske bedre.', 0),
+  ('norsk-8:lesestrategier', 'Formål med lesingen', 'Hvorfor du leser: for å oppleve, lære, finne informasjon eller vurdere.', 1),
+  ('norsk-8:lesestrategier', 'Skumlese', 'Lese raskt over tittel, mellomtitler, bilder og uthevet tekst for å få overblikk.', 2),
+  ('norsk-8:lesestrategier', 'Søkelese', 'Lete raskt etter en bestemt opplysning, for eksempel et årstall eller navn.', 3),
+  ('norsk-8:lesestrategier', 'Nærlese', 'Lese nøye og grundig, ofte flere ganger, for å forstå detaljer.', 4),
+  ('norsk-8:lesestrategier', 'Forkunnskaper', 'Det du vet fra før om et tema. Å aktivere dem gjør ny kunnskap lettere å forstå.', 5),
+  ('norsk-8:lesestrategier', 'Førlesing', 'Det du gjør før du leser: skumleser, tenker over hva du vet og stiller spørsmål.', 6),
+  ('norsk-8:lesestrategier', 'Oppsummere', 'Gjengi hovedinnholdet kort med egne ord.', 7),
+  ('norsk-8:lesestrategier', 'Nøkkelord', 'De viktigste ordene i en tekst, som bærer hovedinnholdet.', 8),
+  ('norsk-8:lesestrategier', 'Tankekart', 'En tegning som viser et tema i midten og hvordan underpunktene henger sammen.', 9),
+  ('norsk-8:lesestrategier', 'Skjønnlitteratur', 'Oppdiktede tekster, som noveller, romaner og dikt.', 10),
+  ('norsk-8:lesestrategier', 'Sakprosa', 'Tekster om virkeligheten, som fagtekster, artikler og nyheter.', 11),
+  ('norsk-8:lesestrategier', 'Ingress', 'Innledningen i en artikkel, ofte i fet skrift, som oppsummerer det viktigste.', 12),
+  ('norsk-8:lesestrategier', 'Sjekke forståelsen', 'Stoppe opp og spørre seg selv om man kan forklare det man nettopp har lest.', 13),
+  ('norsk-8:lesestrategier', 'Reflektere over lesing', 'Tenke over hvilke strategier som fungerte, og hva du kan gjøre annerledes.', 14);
+delete from public.quiz_sporsmal where tema_id = 'norsk-8:lesestrategier';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('norsk-8:lesestrategier', 'q01', 'flervalg', 'Hva gjør du når du skumleser?', array['Leser hvert ord nøye', 'Ser raskt over titler, bilder og uthevet tekst', 'Leser teksten høyt', 'Skriver av teksten']::text[], 1, 'Skumlesing gir et raskt overblikk før du leser grundig.', true, true, 0),
+  ('norsk-8:lesestrategier', 'q02', 'flervalg', 'Du skal finne hvilket år en oppfinnelse ble gjort. Hvilken strategi passer best?', array['Søkelesing', 'Nærlesing', 'Tankekart', 'Høytlesing']::text[], 0, 'Når du leter etter en bestemt opplysning, søker du raskt gjennom teksten etter den.', true, true, 1),
+  ('norsk-8:lesestrategier', 'q03', 'flervalg', 'Hvorfor er det lurt å aktivere forkunnskaper før du leser?', array['Fordi du slipper å lese hele teksten', 'Fordi det gjør teksten kortere', 'Fordi ny kunnskap blir lettere å forstå og huske når den kobles til det du kan', 'Fordi læreren krever det']::text[], 2, 'Hjernen husker bedre når ny informasjon kan knyttes til noe den allerede kjenner.', true, true, 2),
+  ('norsk-8:lesestrategier', 'q04', 'flervalg', 'Hvilken tekst er sakprosa?', array['En novelle', 'Et eventyr', 'Et dikt', 'En fagartikkel om klimaendringer']::text[], 3, 'Sakprosa handler om virkeligheten. Novelle, eventyr og dikt er skjønnlitteratur.', true, true, 3),
+  ('norsk-8:lesestrategier', 'q05', 'flervalg', 'Hva bør du understreke når du leser en fagtekst?', array['Hele setninger', 'Nøkkelord', 'Alle ord du kjenner', 'Ingenting']::text[], 1, 'Nøkkelord bærer hovedinnholdet. Understreker du alt, blir det ingen hjelp når du skal repetere.', true, true, 4),
+  ('norsk-8:lesestrategier', 'q06', 'flervalg', 'Du har lest en side, men husker ingenting. Hva er et godt tiltak?', array['Lese videre raskere', 'Stoppe og oppsummere hvert avsnitt med egne ord', 'Hoppe over kapittelet', 'Lese siden baklengs']::text[], 1, 'Å oppsummere avsnitt for avsnitt tvinger deg til å bearbeide innholdet, og du merker med en gang hva du ikke har forstått.', true, true, 5),
+  ('norsk-8:lesestrategier', 'q07', 'flervalg', 'Hva er en ingress?', array['Siste avsnitt i en novelle', 'En bildetekst', 'Innledningen i en artikkel som oppsummerer det viktigste', 'En fotnote']::text[], 2, 'Ingressen står etter overskriften, ofte i fet skrift, og gir et sammendrag av saken.', true, true, 6),
+  ('norsk-8:lesestrategier', 'q08', 'flervalg', 'Hvilket spørsmål passer best når du leser skjønnlitteratur?', array['Hvorfor handler personen slik?', 'Hvem finansierte undersøkelsen?', 'Hvilket årstall står i tabellen?', 'Hva er kilden til tallene?']::text[], 0, 'I skjønnlitteratur er det ofte personenes motiver og tekstens tema som er interessant å tolke.', true, false, 7),
+  ('norsk-8:lesestrategier', 'q09', 'flervalg', 'Hva er en typisk strategi etter lesingen?', array['Skumlese', 'Aktivere forkunnskaper', 'Se på bildene først', 'Lage et tankekart over innholdet']::text[], 3, 'Etter lesingen bearbeider du stoffet, for eksempel med tankekart eller sammendrag.', true, true, 8),
+  ('norsk-8:lesestrategier', 'q10', 'flervalg', 'Hva betyr det å reflektere over egen lesing?', array['Å lese teksten en gang til', 'Å tenke over hvilke strategier som fungerer for deg og hvorfor', 'Å lese høyt for andre', 'Å skrive en bokanmeldelse']::text[], 1, 'Refleksjon over egen lesing handler om å bli bevisst hvordan du leser, slik at du kan velge bedre strategier.', true, false, 9),
+  ('norsk-8:lesestrategier', 'm01', 'sant-usant', 'Du bør alltid lese alle tekster på samme måte.', array['Sant', 'Usant']::text[], 1, 'Strategien bør tilpasses formålet og teksttypen.', false, true, 10),
+  ('norsk-8:lesestrategier', 'm02', 'sant-usant', 'En roman er et eksempel på skjønnlitteratur.', array['Sant', 'Usant']::text[], 0, 'Romaner er oppdiktede fortellinger og hører til skjønnlitteraturen.', false, true, 11),
+  ('norsk-8:lesestrategier', 'm03', 'sant-usant', 'Å oppsummere med egne ord hjelper deg å huske det du har lest.', array['Sant', 'Usant']::text[], 0, 'Når du omformulerer innholdet, bearbeider du det og husker det bedre.', false, true, 12),
+  ('norsk-8:lesestrategier', 'm04', 'sant-usant', 'Nærlesing betyr å lese raskt for å få overblikk.', array['Sant', 'Usant']::text[], 1, 'Det er skumlesing. Nærlesing er grundig lesing av detaljer.', false, true, 13),
+  ('norsk-8:lesestrategier', 'm05', 'flervalg', 'Hvilken strategi hører hjemme før lesingen?', array['Skrive sammendrag', 'Lage tankekart over innholdet', 'Tolke budskapet', 'Se over titler og mellomtitler']::text[], 3, 'Å se over titler og mellomtitler er en førlesingsstrategi som gir overblikk.', false, true, 14),
+  ('norsk-8:lesestrategier', 'm06', 'flervalg', 'Hva er viktig å vurdere når du leser sakprosa?', array['Hvem som står bak teksten', 'Hvilket rim diktet har', 'Hvem hovedpersonen er forelsket i', 'Hvilken farge omslaget har']::text[], 0, 'I sakprosa må du vurdere avsenderen og om teksten skiller fakta fra meninger.', false, true, 15),
+  ('norsk-8:lesestrategier', 'm07', 'flervalg', 'Hva kan du gjøre med et ukjent ord?', array['Alltid hoppe over det', 'Slå det opp eller finne betydningen ut fra sammenhengen', 'Slutte å lese', 'Bytte det ut med et annet ord']::text[], 1, 'Ofte gir sammenhengen et hint. Er ordet viktig, bør du slå det opp.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('norsk-8:lesestrategier', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Norsk: Fortelling og novelle
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('norsk-8:fortelling-og-novelle', 'norsk-8', 'fortelling-og-novelle', 'Fortelling og novelle', 'Kjennetegn ved novellen, oppbygning og spenningskurve, forteller og synsvinkel, og hvordan du analyserer og skriver fortellende tekster.', array[1, 13, 12]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('norsk-8:fortelling-og-novelle', '## Fortellende tekster
+
+En **fortelling** presenterer hendelser i en bestemt rekkefølge, med personer, et miljø og en handling. Fortellinger finnes i mange sjangre: eventyr, sagn, fabler, noveller og romaner. Felles for dem er at de har en **forteller** som formidler handlingen til leseren.
+
+## Novellen
+
+En **novelle** er en kort, skjønnlitterær fortelling. Typiske kjennetegn er:
+
+- få personer og ofte ett hovedmiljø,
+- handlingen foregår over kort tid,
+- den begynner gjerne **brått**, midt i handlingen (in medias res),
+- den har ofte et **vendepunkt**, der noe endrer seg for hovedpersonen,
+- slutten er gjerne **åpen**, slik at leseren må tolke selv.
+
+## Oppbygning og spenning
+
+Mange fortellinger følger en **spenningskurve**: en innledning som presenterer personer og miljø, en **presentasjon av konflikten**, en **opptrapping** der spenningen øker, et **klimaks** (høydepunkt), og til slutt en **avslutning**. I noveller er innledningen ofte svært kort. Forfattere kan også bruke **tilbakeblikk**, der handlingen hopper bakover i tid, eller **frampek**, som hinter om noe som skal skje.
+
+## Forteller og synsvinkel
+
+- **Førstepersonsforteller**: En person i fortellingen forteller selv, med «jeg». Vi ser alt gjennom denne personens øyne.
+- **Tredjepersonsforteller**: Fortelleren står utenfor og omtaler personene som «han», «hun» eller ved navn. En **allvitende** forteller kan se inn i tankene til alle, mens en **personal** forteller følger én person tett.
+
+Synsvinkelen påvirker hva leseren får vite, og hvem leseren får sympati med.
+
+## Personer og miljø
+
+Forfattere **karakteriserer** personer på to måter: **direkte**, når fortelleren sier rett ut hvordan personen er («Hun var feig»), og **indirekte**, når vi forstår det gjennom handlinger, replikker og tanker. Miljøet, altså tid og sted, kan speile stemningen, for eksempel regn og mørke i en trist scene.
+
+## Tema og budskap
+
+**Temaet** er hva teksten handler om på et overordnet plan, som vennskap, svik eller ensomhet. **Budskapet** er hva teksten vil si om temaet. Når du analyserer en novelle, beskriver du først handling, personer og oppbygning, og så tolker du tema og budskap med eksempler fra teksten. Når du selv skriver, kan du bruke de samme virkemidlene: start brått, vis i stedet for å fortelle, og la slutten gi leseren noe å tenke på.', '{"label":"Fortelling og novelle","children":[{"label":"Novellen","children":[{"label":"Kort, få personer"},{"label":"Brå start","note":"In medias res"},{"label":"Vendepunkt"},{"label":"Åpen slutt"}]},{"label":"Oppbygning","children":[{"label":"Spenningskurve"},{"label":"Klimaks"},{"label":"Tilbakeblikk og frampek"}]},{"label":"Forteller","children":[{"label":"Førsteperson","note":"«jeg»"},{"label":"Allvitende"},{"label":"Personal"}]},{"label":"Personer og miljø","children":[{"label":"Direkte karakteristikk"},{"label":"Indirekte karakteristikk"},{"label":"Miljø speiler stemning"}]},{"label":"Tolkning","children":[{"label":"Tema"},{"label":"Budskap"},{"label":"Belegg i teksten"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'norsk-8:fortelling-og-novelle';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('norsk-8:fortelling-og-novelle', 'Novelle', 'En kort skjønnlitterær fortelling med få personer, kort tid, brå start og ofte åpen slutt.', 0),
+  ('norsk-8:fortelling-og-novelle', 'In medias res', 'At fortellingen starter midt i handlingen, uten lang innledning.', 1),
+  ('norsk-8:fortelling-og-novelle', 'Vendepunkt', 'Øyeblikket der noe avgjørende endrer seg for hovedpersonen.', 2),
+  ('norsk-8:fortelling-og-novelle', 'Åpen slutt', 'En slutt der ikke alt blir forklart, slik at leseren må tolke selv.', 3),
+  ('norsk-8:fortelling-og-novelle', 'Spenningskurve', 'Innledning, konflikt, opptrapping, klimaks og avslutning.', 4),
+  ('norsk-8:fortelling-og-novelle', 'Klimaks', 'Høydepunktet i handlingen, der spenningen er størst.', 5),
+  ('norsk-8:fortelling-og-novelle', 'Tilbakeblikk', 'Når fortellingen hopper bakover i tid og viser noe som skjedde tidligere.', 6),
+  ('norsk-8:fortelling-og-novelle', 'Frampek', 'Et hint om noe som skal skje senere i fortellingen.', 7),
+  ('norsk-8:fortelling-og-novelle', 'Førstepersonsforteller', 'En person i fortellingen forteller selv, med «jeg».', 8),
+  ('norsk-8:fortelling-og-novelle', 'Allvitende forteller', 'En tredjepersonsforteller som kan se inn i tankene til alle personene.', 9),
+  ('norsk-8:fortelling-og-novelle', 'Personal forteller', 'En tredjepersonsforteller som følger én person tett og ser verden fra den personens ståsted.', 10),
+  ('norsk-8:fortelling-og-novelle', 'Direkte karakteristikk', 'Fortelleren sier rett ut hvordan en person er.', 11),
+  ('norsk-8:fortelling-og-novelle', 'Indirekte karakteristikk', 'Vi forstår hvordan en person er gjennom handlinger, replikker og tanker.', 12),
+  ('norsk-8:fortelling-og-novelle', 'Tema', 'Det teksten handler om på et overordnet plan, som vennskap eller ensomhet.', 13),
+  ('norsk-8:fortelling-og-novelle', 'Budskap', 'Det teksten vil si om temaet, altså tekstens «poeng».', 14);
+delete from public.quiz_sporsmal where tema_id = 'norsk-8:fortelling-og-novelle';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('norsk-8:fortelling-og-novelle', 'q01', 'flervalg', 'Hva er typisk for en novelle?', array['Mange personer og lang tidsperiode', 'Kort tekst, få personer og ofte brå start', 'Alltid lykkelig slutt', 'Rim og rytme']::text[], 1, 'Novellen er kort, har få personer, foregår over kort tid og starter gjerne midt i handlingen.', true, true, 0),
+  ('norsk-8:fortelling-og-novelle', 'q02', 'flervalg', 'Hva betyr «in medias res»?', array['At teksten slutter brått', 'At teksten har en moral', 'At fortellingen starter midt i handlingen', 'At fortelleren er allvitende']::text[], 2, 'Uttrykket er latin og betyr «midt i tingene». Leseren kastes rett inn i handlingen.', true, true, 1),
+  ('norsk-8:fortelling-og-novelle', 'q03', 'flervalg', '«Jeg løp så fort jeg kunne.» Hvilken forteller er dette?', array['Førstepersonsforteller', 'Allvitende forteller', 'Personal tredjepersonsforteller', 'Ingen forteller']::text[], 0, 'Fortelleren bruker «jeg» og er selv en person i handlingen.', true, true, 2),
+  ('norsk-8:fortelling-og-novelle', 'q04', 'flervalg', 'Hva kalles høydepunktet i spenningskurven?', array['Innledning', 'Tilbakeblikk', 'Frampek', 'Klimaks']::text[], 3, 'Klimaks er stedet der spenningen er på topp, rett før handlingen løses eller vender.', true, true, 3),
+  ('norsk-8:fortelling-og-novelle', 'q05', 'flervalg', 'Emma deler matpakken sin med en ny elev uten å si noe. Hva slags karakteristikk er dette?', array['Direkte', 'Indirekte', 'Allvitende', 'Åpen']::text[], 1, 'Vi forstår at Emma er omtenksom ut fra handlingen hennes, ikke fordi fortelleren sier det rett ut.', true, true, 4),
+  ('norsk-8:fortelling-og-novelle', 'q06', 'flervalg', 'Hva er forskjellen på tema og budskap?', array['Tema er hva teksten handler om, budskap er hva den vil si om det', 'De betyr det samme', 'Tema er handlingen, budskap er slutten', 'Budskap er tittelen']::text[], 0, 'Temaet kan være vennskap. Budskapet kan være at ekte vennskap tåler uenighet.', true, true, 5),
+  ('norsk-8:fortelling-og-novelle', 'q07', 'flervalg', 'Hva er et frampek?', array['Et hopp bakover i tid', 'Tekstens siste setning', 'Et hint om noe som skal skje senere', 'En beskrivelse av miljøet']::text[], 2, 'Frampek bygger forventning og spenning ved å antyde hva som kommer.', true, true, 6),
+  ('norsk-8:fortelling-og-novelle', 'q08', 'flervalg', 'Hvorfor har mange noveller åpen slutt?', array['Fordi forfatteren gikk tom for ideer', 'Fordi noveller må være korte', 'Fordi det er en regel', 'For å la leseren tolke og tenke videre selv']::text[], 3, 'Den åpne slutten engasjerer leseren og gir rom for ulike tolkninger.', true, false, 7),
+  ('norsk-8:fortelling-og-novelle', 'q09', 'flervalg', 'Hva kan miljøet i en fortelling brukes til?', array['Bare å fortelle hvor handlingen foregår', 'Å speile stemningen og personenes følelser', 'Å erstatte personene', 'Å gi fakta om geografi']::text[], 1, 'Været, årstiden og stedet kan forsterke stemningen, for eksempel mørke og regn i en trist scene.', true, false, 8),
+  ('norsk-8:fortelling-og-novelle', 'q10', 'flervalg', 'Hva kjennetegner en allvitende forteller?', array['Fortelleren vet hva alle personene tenker og føler', 'Fortelleren er hovedpersonen', 'Fortelleren vet bare det én person vet', 'Fortelleren snakker til leseren som «du»']::text[], 0, 'Den allvitende fortelleren står utenfor handlingen og kan se inn i alle personene.', true, true, 9),
+  ('norsk-8:fortelling-og-novelle', 'm01', 'sant-usant', 'En novelle er vanligvis lengre enn en roman.', array['Sant', 'Usant']::text[], 1, 'Novellen er en kort fortelling. Romanen er lengre og har gjerne flere personer og handlingstråder.', false, true, 10),
+  ('norsk-8:fortelling-og-novelle', 'm02', 'sant-usant', 'Et tilbakeblikk viser noe som skjedde før handlingen i nåtid.', array['Sant', 'Usant']::text[], 0, 'Tilbakeblikk hopper bakover i tid og gir leseren bakgrunn.', false, true, 11),
+  ('norsk-8:fortelling-og-novelle', 'm03', 'sant-usant', 'Synsvinkelen påvirker hvilke personer leseren får sympati med.', array['Sant', 'Usant']::text[], 0, 'Vi forstår ofte best den personen vi ser handlingen gjennom.', false, true, 12),
+  ('norsk-8:fortelling-og-novelle', 'm04', 'sant-usant', '«Han var den snilleste i klassen» er indirekte karakteristikk.', array['Sant', 'Usant']::text[], 1, 'Fortelleren sier rett ut hvordan personen er. Det er direkte karakteristikk.', false, true, 13),
+  ('norsk-8:fortelling-og-novelle', 'm05', 'flervalg', 'Hva kalles delen av spenningskurven der spenningen øker?', array['Innledning', 'Avslutning', 'Opptrapping', 'Vendepunkt']::text[], 2, 'I opptrappingen bygges spenningen opp mot klimaks.', false, true, 14),
+  ('norsk-8:fortelling-og-novelle', 'm06', 'flervalg', 'Hvilket tema passer til en novelle om en gutt som blir holdt utenfor?', array['Utenforskap', 'Sjanger', 'Tredjepersonsforteller', 'Klimaks']::text[], 0, 'Temaet er det overordnede emnet teksten handler om, her utenforskap eller ensomhet.', false, true, 15),
+  ('norsk-8:fortelling-og-novelle', 'm07', 'flervalg', 'Hva er et godt skrivetips for en novelle?', array['Forklar alt i detalj på slutten', 'Start med en lang presentasjon av alle personene', 'Unngå dialog', 'Vis følelser gjennom handling i stedet for å si dem rett ut']::text[], 3, '«Vis, ikke fortell» gjør teksten levende og lar leseren tolke.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('norsk-8:fortelling-og-novelle', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Norsk: Sakprosa og fagtekster
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('norsk-8:sakprosa', 'norsk-8', 'sakprosa', 'Sakprosa og fagtekster', 'Hva sakprosa er, de vanligste sakprosasjangrene, hvordan en fagtekst er bygd opp, og hvordan du skriver informerende tekster.', array[1, 10]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('norsk-8:sakprosa', '## Hva er sakprosa?
+
+**Sakprosa** er tekster som handler om virkeligheten. De skal informere, forklare, argumentere eller påvirke, og leseren skal kunne stole på at det som står der, er sant, eller i alle fall ment som forfatterens ærlige mening. Sakprosa står i motsetning til **skjønnlitteratur**, som er oppdiktet. Sakprosa kan likevel bruke fortellergrep, for eksempel når en reportasje starter med en scene.
+
+## Sjangrer
+
+- **Nyhetsartikkel**: informerer om noe nytt og viktig. Det viktigste står først.
+- **Reportasje**: tar leseren med til et sted eller en hendelse, ofte med beskrivelser og intervjuer.
+- **Fagtekst**: forklarer et emne, som i lærebøker og leksikon.
+- **Debattinnlegg og leserbrev**: argumenterer for en mening.
+- **Kåseri**: en humoristisk og personlig tekst om et hverdagslig emne.
+- **Intervju**, **rapport** og **instruksjon** (bruksanvisning) er andre eksempler.
+
+## Nyhetstrekanten
+
+Nyhetsartikler er bygd opp som en **omvendt trekant** eller **nyhetstrekant**: Det viktigste kommer først, i tittel og ingress, og detaljene kommer lenger ned. Da kan leseren slutte når som helst og likevel ha fått med seg hovedsaken. Ingressen svarer ofte på de viktigste **hv-spørsmålene**: hva, hvem, hvor, når, hvorfor og hvordan.
+
+## Fagtekstens oppbygning
+
+En god fagtekst har gjerne:
+
+- en **innledning** som presenterer emnet,
+- en **hoveddel** delt inn i avsnitt, ofte med mellomtitler,
+- en **avslutning** som oppsummerer.
+
+Hvert avsnitt har én hovedtanke, ofte uttrykt i en **temasetning** først i avsnittet. Resten av avsnittet utdyper, forklarer eller gir eksempler. Fagtekster bruker **fagord**, og gode fagtekster forklarer dem.
+
+## Språk og stil
+
+Sakprosa har ofte et **nøytralt** og **presist** språk, særlig fagtekster og nyheter. Meningstekster som debattinnlegg kan være mer personlige. Når du leser sakprosa, bør du skille mellom **fakta** (det som kan sjekkes) og **meninger** (det noen synes).
+
+## Skrive en informerende tekst
+
+Når du skal informere, bør du tenke på **mottakeren**: Hva vet de fra før, og hva trenger de å vite? Samle fakta fra pålitelige kilder, sorter stoffet i en logisk rekkefølge, skriv tydelige temasetninger, og forklar fagordene. Avslutt gjerne med en kort oppsummering.', '{"label":"Sakprosa","children":[{"label":"Kjennetegn","children":[{"label":"Om virkeligheten"},{"label":"Informere, forklare, påvirke"}]},{"label":"Sjangrer","children":[{"label":"Nyhetsartikkel"},{"label":"Reportasje"},{"label":"Fagtekst"},{"label":"Debattinnlegg og kåseri"}]},{"label":"Oppbygning","children":[{"label":"Nyhetstrekanten","note":"Viktigst først"},{"label":"Innledning – hoveddel – avslutning"},{"label":"Temasetning","note":"Én tanke per avsnitt"}]},{"label":"Lese kritisk","children":[{"label":"Fakta"},{"label":"Meninger"},{"label":"Avsender"}]},{"label":"Skrive","children":[{"label":"Tenk på mottakeren"},{"label":"Forklar fagord"},{"label":"Pålitelige kilder"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'norsk-8:sakprosa';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('norsk-8:sakprosa', 'Sakprosa', 'Tekster om virkeligheten som skal informere, forklare, argumentere eller påvirke.', 0),
+  ('norsk-8:sakprosa', 'Skjønnlitteratur', 'Oppdiktede tekster, som noveller, romaner og dikt.', 1),
+  ('norsk-8:sakprosa', 'Nyhetsartikkel', 'Sakprosasjanger som informerer om noe nytt og viktig, med det viktigste først.', 2),
+  ('norsk-8:sakprosa', 'Reportasje', 'Tar leseren med til et sted eller en hendelse med beskrivelser og intervjuer.', 3),
+  ('norsk-8:sakprosa', 'Fagtekst', 'En tekst som forklarer et emne, for eksempel i lærebøker.', 4),
+  ('norsk-8:sakprosa', 'Kåseri', 'En humoristisk og personlig tekst om et hverdagslig emne.', 5),
+  ('norsk-8:sakprosa', 'Debattinnlegg', 'En tekst som argumenterer for en mening i en sak.', 6),
+  ('norsk-8:sakprosa', 'Nyhetstrekanten', 'Oppbygning der det viktigste kommer først og detaljene til slutt.', 7),
+  ('norsk-8:sakprosa', 'Hv-spørsmål', 'Hva, hvem, hvor, når, hvorfor og hvordan. Ingressen svarer ofte på dem.', 8),
+  ('norsk-8:sakprosa', 'Temasetning', 'Setning, ofte først i avsnittet, som sier hva avsnittet handler om.', 9),
+  ('norsk-8:sakprosa', 'Avsnitt', 'En del av teksten med én hovedtanke. Markeres med ny linje eller innrykk.', 10),
+  ('norsk-8:sakprosa', 'Fagord', 'Ord som hører til et bestemt fag, og som bør forklares for leseren.', 11),
+  ('norsk-8:sakprosa', 'Fakta', 'Opplysninger som kan sjekkes og bekreftes.', 12),
+  ('norsk-8:sakprosa', 'Mening', 'Det noen synes eller mener. Kan ikke bevises som sant eller usant.', 13),
+  ('norsk-8:sakprosa', 'Mottaker', 'Den teksten er skrevet for. Innhold og språk bør tilpasses mottakeren.', 14);
+delete from public.quiz_sporsmal where tema_id = 'norsk-8:sakprosa';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('norsk-8:sakprosa', 'q01', 'flervalg', 'Hva er sakprosa?', array['Oppdiktede fortellinger', 'Tekster som handler om virkeligheten', 'Bare tekster fra aviser', 'Dikt uten rim']::text[], 1, 'Sakprosa handler om virkelige forhold og kan være alt fra lærebøker til debattinnlegg.', true, true, 0),
+  ('norsk-8:sakprosa', 'q02', 'flervalg', 'Hvordan er en nyhetsartikkel bygd opp?', array['Det viktigste kommer først', 'Det viktigste kommer til slutt', 'Den starter alltid med et sitat', 'Den har spenningskurve med klimaks']::text[], 0, 'Nyhetstrekanten gjør at leseren får hovedsaken med én gang, og kan lese videre for detaljer.', true, true, 1),
+  ('norsk-8:sakprosa', 'q03', 'flervalg', 'Hvilken sjanger er humoristisk og personlig og handler ofte om noe hverdagslig?', array['Rapport', 'Nyhetsartikkel', 'Instruksjon', 'Kåseri']::text[], 3, 'Kåseriet er en lett og underholdende sjanger med personlig stil.', true, true, 2),
+  ('norsk-8:sakprosa', 'q04', 'flervalg', 'Hva er en temasetning?', array['Siste setning i teksten', 'Overskriften', 'En setning som sier hva avsnittet handler om', 'Et sitat fra en kilde']::text[], 2, 'Temasetningen står ofte først i avsnittet og gir leseren avsnittets hovedtanke.', true, true, 3),
+  ('norsk-8:sakprosa', 'q05', 'flervalg', 'Hvilket utsagn er en mening og ikke et faktum?', array['Oslo er hovedstaden i Norge', 'Skoledagen bør starte klokka ni', 'Vann koker ved 100 °C ved normalt lufttrykk', 'Norge har over fem millioner innbyggere']::text[], 1, 'At skoledagen bør starte senere, er noe man mener. De andre kan sjekkes.', true, true, 4),
+  ('norsk-8:sakprosa', 'q06', 'flervalg', 'Hvilke spørsmål svarer ingressen i en nyhetsartikkel ofte på?', array['Hv-spørsmålene: hva, hvem, hvor, når, hvorfor, hvordan', 'Hvordan artikkelen slutter', 'Hva journalisten mener', 'Hvilke kilder som er brukt']::text[], 0, 'Ingressen gir en rask oppsummering av de viktigste opplysningene.', true, true, 5),
+  ('norsk-8:sakprosa', 'q07', 'flervalg', 'Hva kjennetegner en reportasje?', array['Den er alltid kortest mulig', 'Den består bare av tall', 'Den tar leseren med til stedet med beskrivelser og intervjuer', 'Den er oppdiktet']::text[], 2, 'Reportasjen er levende sakprosa som lar leseren oppleve et sted eller en hendelse.', true, false, 6),
+  ('norsk-8:sakprosa', 'q08', 'flervalg', 'Hva bør du tenke på først når du skal skrive en informerende tekst?', array['Hvor mange sider teksten skal være', 'Hvilke ord som rimer', 'Hvordan du kan skjule kildene', 'Hvem mottakeren er og hva de trenger å vite']::text[], 3, 'Innhold, fagord og språk må tilpasses den som skal lese teksten.', true, true, 7),
+  ('norsk-8:sakprosa', 'q09', 'flervalg', 'Hvor mange hovedtanker bør et avsnitt ha?', array['Én', 'To', 'Så mange som mulig', 'Ingen']::text[], 0, 'Ett avsnitt, én hovedtanke. Det gjør teksten oversiktlig.', true, false, 8),
+  ('norsk-8:sakprosa', 'q10', 'flervalg', 'Hvilken sjanger argumenterer for en mening?', array['Fagtekst', 'Debattinnlegg', 'Bruksanvisning', 'Leksikonartikkel']::text[], 1, 'Debattinnlegget skal overbevise leseren om et standpunkt.', true, true, 9),
+  ('norsk-8:sakprosa', 'm01', 'sant-usant', 'En lærebok i naturfag er sakprosa.', array['Sant', 'Usant']::text[], 0, 'Lærebøker forklarer virkelige forhold og er typiske fagtekster.', false, true, 10),
+  ('norsk-8:sakprosa', 'm02', 'sant-usant', 'I en nyhetsartikkel kommer de viktigste opplysningene til slutt.', array['Sant', 'Usant']::text[], 1, 'Nyhetsartikler har det viktigste først, etter nyhetstrekanten.', false, true, 11),
+  ('norsk-8:sakprosa', 'm03', 'sant-usant', 'Sakprosa kan bruke fortellergrep, som å starte med en scene.', array['Sant', 'Usant']::text[], 0, 'Særlig reportasjer bruker skjønnlitterære grep for å gjøre teksten levende.', false, true, 12),
+  ('norsk-8:sakprosa', 'm04', 'sant-usant', 'En mening kan sjekkes og bevises på samme måte som et faktum.', array['Sant', 'Usant']::text[], 1, 'Meninger handler om hva noen synes. Fakta kan kontrolleres.', false, true, 13),
+  ('norsk-8:sakprosa', 'm05', 'flervalg', 'Hvilken tekst er en instruksjon?', array['En bruksanvisning til en kaffemaskin', 'Et dikt om høsten', 'Et leserbrev om bompenger', 'En novelle']::text[], 0, 'En instruksjon forklarer steg for steg hvordan man gjør noe.', false, true, 14),
+  ('norsk-8:sakprosa', 'm06', 'flervalg', 'Hva bør en god avslutning i en fagtekst gjøre?', array['Introdusere et nytt emne', 'Oppsummere hovedpoengene', 'Gjenta innledningen ord for ord', 'Stille leseren et vanskelig spørsmål uten svar']::text[], 1, 'Avslutningen samler trådene og minner leseren om det viktigste.', false, true, 15),
+  ('norsk-8:sakprosa', 'm07', 'flervalg', 'Hvorfor bør fagord forklares i en fagtekst?', array['For å gjøre teksten lengre', 'Fordi det er en regel i rettskrivingen', 'For at leseren skal forstå innholdet', 'For å unngå avsnitt']::text[], 2, 'Fagord er nødvendige for presisjon, men leseren må forstå dem for å få utbytte av teksten.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('norsk-8:sakprosa', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Norsk: Ordklasser
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('norsk-8:ordklasser', 'norsk-8', 'ordklasser', 'Ordklasser', 'De ti ordklassene i norsk skolegrammatikk, hvordan du kjenner dem igjen, og hvordan substantiv, verb og adjektiv bøyes.', array[12, 11]::int[], 3, 'utkast', array['Antall ordklasser varierer mellom framstillinger (ti, eventuelt med infinitivsmerke som egen klasse). Sjekk mot læreverket skolen bruker.']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('norsk-8:ordklasser', '## Hvorfor ordklasser?
+
+Alle ord hører til en **ordklasse**. Ordklassen forteller hva slags jobb ordet gjør og hvordan det kan bøyes. Å kjenne ordklassene gjør det lettere å snakke om språk, rette egne tekster og lære andre språk. I norsk skolegrammatikk regner vi vanligvis med ti ordklasser.
+
+## De bøyelige ordklassene
+
+- **Substantiv** er navn på ting, personer, steder, dyr og begreper: bil, Oslo, glede. Substantiv bøyes i **kjønn** (hankjønn, hunkjønn, intetkjønn), **tall** (entall og flertall) og **bestemthet** (ubestemt og bestemt form): en bil – bilen – biler – bilene. **Egennavn** skrives med stor forbokstav.
+- **Verb** sier hva noen gjør eller hva som skjer: løpe, tenke, regne. Verb bøyes i tid: infinitiv (å kaste), presens (kaster), preteritum (kastet), presens perfektum (har kastet) og imperativ (kast!).
+- **Adjektiv** beskriver substantiv: en rød bil, huset er stort. Adjektiv bøyes etter substantivet og kan **gradbøyes**: stor – større – størst.
+- **Pronomen** står i stedet for substantiv: jeg, du, hun, den, vi, dem, seg.
+- **Determinativ** bestemmer substantivet nærmere: min bil, denne boka, tre epler, alle elevene.
+
+## De ubøyelige ordklassene
+
+- **Adverb** sier noe om hvordan, hvor eller når: fort, her, i morgen, ikke.
+- **Preposisjon** viser forhold mellom ord, ofte sted eller tid: på, i, under, etter, med.
+- **Konjunksjon** binder sammen likeverdige ord og setninger: og, men, eller, for, så.
+- **Subjunksjon** innleder leddsetninger: at, fordi, hvis, når, som, om.
+- **Interjeksjon** er utrop og lydord: au, hei, jaså, pang.
+
+I tillegg regnes **infinitivsmerket** «å» ofte som en egen liten ordklasse.
+
+## Samme ord, ulik ordklasse
+
+Noen ord kan høre til flere ordklasser. «Kast» er substantiv i «et langt kast», men verb i imperativ i «kast ballen!». Du må derfor se på hvordan ordet brukes i setningen.
+
+## Tester
+
+- Kan du sette «en», «ei» eller «et» foran ordet? Da er det trolig et substantiv.
+- Kan du sette «å» foran eller bøye ordet i tid? Da er det et verb.
+- Kan ordet stå mellom «en» og et substantiv, eller gradbøyes? Da er det et adjektiv.', '{"label":"Ordklasser","children":[{"label":"Bøyelige","children":[{"label":"Substantiv","note":"Kjønn, tall, bestemthet"},{"label":"Verb","note":"Bøyes i tid"},{"label":"Adjektiv","note":"Gradbøying"},{"label":"Pronomen"},{"label":"Determinativ"}]},{"label":"Ubøyelige","children":[{"label":"Adverb","note":"Hvordan, hvor, når"},{"label":"Preposisjon","note":"på, i, under"},{"label":"Konjunksjon","note":"og, men, eller"},{"label":"Subjunksjon","note":"at, fordi, hvis"},{"label":"Interjeksjon","note":"au, hei"}]},{"label":"Verbformer","children":[{"label":"Infinitiv","note":"å kaste"},{"label":"Presens","note":"kaster"},{"label":"Preteritum","note":"kastet"},{"label":"Perfektum","note":"har kastet"},{"label":"Imperativ","note":"kast!"}]},{"label":"Tester","children":[{"label":"en/ei/et foran?","note":"Substantiv"},{"label":"å foran?","note":"Verb"},{"label":"Se på bruken i setningen"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'norsk-8:ordklasser';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('norsk-8:ordklasser', 'Ordklasse', 'En gruppe ord med samme funksjon og bøyningsmåte, for eksempel substantiv eller verb.', 0),
+  ('norsk-8:ordklasser', 'Substantiv', 'Navn på ting, personer, steder og begreper. Bøyes i kjønn, tall og bestemthet.', 1),
+  ('norsk-8:ordklasser', 'Egennavn', 'Substantiv som er navn på en bestemt person eller et sted. Skrives med stor forbokstav.', 2),
+  ('norsk-8:ordklasser', 'Verb', 'Ord for handling eller det som skjer. Bøyes i tid: kaste – kaster – kastet – har kastet.', 3),
+  ('norsk-8:ordklasser', 'Infinitiv', 'Verbets grunnform, ofte med «å» foran: å løpe.', 4),
+  ('norsk-8:ordklasser', 'Imperativ', 'Verbets bydeform: Løp! Kast!', 5),
+  ('norsk-8:ordklasser', 'Adjektiv', 'Beskriver substantiv. Kan gradbøyes: stor – større – størst.', 6),
+  ('norsk-8:ordklasser', 'Pronomen', 'Står i stedet for substantiv: jeg, du, han, hun, den, vi, dere, de.', 7),
+  ('norsk-8:ordklasser', 'Determinativ', 'Bestemmer substantivet nærmere: min, denne, tre, alle, noen.', 8),
+  ('norsk-8:ordklasser', 'Adverb', 'Sier noe om hvordan, hvor eller når: fort, her, i dag, ikke.', 9),
+  ('norsk-8:ordklasser', 'Preposisjon', 'Viser forhold mellom ord, ofte sted eller tid: på, i, under, etter.', 10),
+  ('norsk-8:ordklasser', 'Konjunksjon', 'Binder sammen likeverdige ord og setninger: og, men, eller, for, så.', 11),
+  ('norsk-8:ordklasser', 'Subjunksjon', 'Innleder leddsetninger: at, fordi, hvis, når, som, om.', 12),
+  ('norsk-8:ordklasser', 'Interjeksjon', 'Utrop og lydord: au, hei, uff, pang.', 13),
+  ('norsk-8:ordklasser', 'Infinitivsmerke', '«å» foran verb i infinitiv. Regnes ofte som en egen liten ordklasse.', 14);
+delete from public.quiz_sporsmal where tema_id = 'norsk-8:ordklasser';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('norsk-8:ordklasser', 'q01', 'flervalg', 'Hvilken ordklasse er «glede» i setningen «Gleden var stor»?', array['Verb', 'Adjektiv', 'Substantiv', 'Adverb']::text[], 2, '«Gleden» er bestemt form av substantivet glede. Du kan si «en glede».', true, true, 0),
+  ('norsk-8:ordklasser', 'q02', 'flervalg', 'Hva er preteritum av «kaste»?', array['kaster', 'kastet', 'har kastet', 'kast']::text[], 1, 'Preteritum er fortid: Jeg kastet ballen i går.', true, true, 1),
+  ('norsk-8:ordklasser', 'q03', 'flervalg', 'Hvilket ord er en subjunksjon?', array['fordi', 'og', 'på', 'fort']::text[], 0, '«Fordi» innleder en leddsetning: … fordi det regnet. «Og» er konjunksjon.', true, true, 2),
+  ('norsk-8:ordklasser', 'q04', 'flervalg', 'Hvilken ordklasse er «under» i «Katten sover under bordet»?', array['Adverb', 'Konjunksjon', 'Substantiv', 'Preposisjon']::text[], 3, '«Under» viser forholdet mellom katten og bordet, altså et stedsforhold.', true, true, 3),
+  ('norsk-8:ordklasser', 'q05', 'flervalg', 'Hva er riktig gradbøying av «god»?', array['god – godere – godest', 'god – bedre – best', 'god – godt – gode', 'god – mer god – mest god']::text[], 1, '«God» har uregelrett gradbøying: god – bedre – best.', true, true, 4),
+  ('norsk-8:ordklasser', 'q06', 'flervalg', 'Hvilket ord er et pronomen?', array['denne', 'min', 'hun', 'tre']::text[], 2, '«Hun» står i stedet for et substantiv. «Denne», «min» og «tre» er determinativer som står sammen med et substantiv.', true, true, 5),
+  ('norsk-8:ordklasser', 'q07', 'flervalg', 'Hvilken ordklasse er «ikke»?', array['Adverb', 'Pronomen', 'Interjeksjon', 'Preposisjon']::text[], 0, '«Ikke» er et adverb som sier noe om verbet eller hele setningen.', true, false, 6),
+  ('norsk-8:ordklasser', 'q08', 'flervalg', 'Hva er bestemt form flertall av «bil»?', array['biler', 'bilen', 'en bil', 'bilene']::text[], 3, 'en bil – bilen – biler – bilene. Bestemt flertall er «bilene».', true, true, 7),
+  ('norsk-8:ordklasser', 'q09', 'flervalg', '«Kast ballen!» Hvilken form har verbet?', array['Infinitiv', 'Presens', 'Imperativ', 'Preteritum']::text[], 2, 'Imperativ er bydeformen, som brukes når vi gir beskjed eller ordre.', true, true, 8),
+  ('norsk-8:ordklasser', 'q10', 'flervalg', 'Hvilket ord binder sammen to likeverdige setninger i «Jeg var sulten, men maten var ikke ferdig»?', array['men', 'var', 'ikke', 'maten']::text[], 0, '«Men» er en konjunksjon som binder sammen to hovedsetninger.', true, false, 9),
+  ('norsk-8:ordklasser', 'm01', 'sant-usant', 'Et ord kan høre til ulike ordklasser avhengig av hvordan det brukes.', array['Sant', 'Usant']::text[], 0, '«Kast» er substantiv i «et godt kast», men verb i «kast ballen!».', false, true, 10),
+  ('norsk-8:ordklasser', 'm02', 'sant-usant', 'Preposisjoner bøyes i tid.', array['Sant', 'Usant']::text[], 1, 'Preposisjoner er ubøyelige. Det er verbene som bøyes i tid.', false, true, 11),
+  ('norsk-8:ordklasser', 'm03', 'sant-usant', '«Au!» er en interjeksjon.', array['Sant', 'Usant']::text[], 0, 'Utrop og lydord hører til ordklassen interjeksjon.', false, true, 12),
+  ('norsk-8:ordklasser', 'm04', 'sant-usant', 'Egennavn skrives med liten forbokstav.', array['Sant', 'Usant']::text[], 1, 'Egennavn som Oslo og Maria skrives med stor forbokstav.', false, true, 13),
+  ('norsk-8:ordklasser', 'm05', 'flervalg', 'Hvilket ord er et adjektiv?', array['løpe', 'grønn', 'raskt', 'under']::text[], 1, '«Grønn» beskriver et substantiv og kan bøyes: grønn – grønt – grønne.', false, true, 14),
+  ('norsk-8:ordklasser', 'm06', 'flervalg', 'Hvilken ordklasse er «denne» i «denne boka»?', array['Pronomen', 'Adverb', 'Determinativ', 'Substantiv']::text[], 2, '«Denne» står sammen med substantivet og bestemmer hvilken bok det gjelder.', false, true, 15),
+  ('norsk-8:ordklasser', 'm07', 'flervalg', 'Hva er presens perfektum av «skrive»?', array['skrev', 'skriver', 'skriv', 'har skrevet']::text[], 3, 'Presens perfektum består av «har» og perfektum partisipp: har skrevet.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('norsk-8:ordklasser', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Norsk: Rettskriving og tegnsetting
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('norsk-8:rettskriving-og-tegnsetting', 'norsk-8', 'rettskriving-og-tegnsetting', 'Rettskriving og tegnsetting', 'De vanligste rettskrivingsfellene på bokmål – og/å, de/dem, dobbel konsonant og særskriving – og de viktigste kommareglene.', array[11]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('norsk-8:rettskriving-og-tegnsetting', '## Hvorfor rettskriving?
+
+Riktig rettskriving og tegnsetting gjør teksten lettere å lese og viser at du tar leseren på alvor. Mange feil går igjen hos mange skrivere, så det lønner seg å kjenne de vanligste fellene.
+
+## Og eller å?
+
+**Å** står foran verb i infinitiv: Jeg liker å lese. **Og** binder sammen ord og setninger: brød og smør. Tips: Kan du bytte ordet med «samt» eller «pluss», er det «og». Står det et verb rett etter, er det ofte «å».
+
+## De eller dem?
+
+**De** er subjektsform: De spiller fotball. **Dem** er objektsform og brukes etter preposisjoner: Jeg så dem. Jeg snakket med dem. Tips: Bytt med «vi/oss». Passer «vi», skal det være «de». Passer «oss», skal det være «dem».
+
+## Dobbel konsonant
+
+Etter **kort vokal** skriver vi som regel dobbel konsonant: takk, hopp, katt. Etter **lang vokal** skriver vi enkel konsonant: tak, hop, kat. Si ordet høyt og lytt etter vokallengden. Unntak finnes, for eksempel at ord ikke ender på dobbel m: dum, rom, hvem.
+
+## Stum h, g og d
+
+Noen ord har bokstaver som ikke uttales: **hv**- (hva, hvem, hvor), **hj**- (hjem, hjelp), **gj**- (gjest, gjøre), og stum **d** i ord som land, kald og ord.
+
+## Særskriving
+
+Sammensatte ord skrives i **ett ord** på norsk: fotballtrening, ungdomsskole, røykfritt. Skriver du dem i to ord, kan betydningen endres helt: «røyk fritt» betyr at det er lov å røyke.
+
+## Stor og liten forbokstav
+
+Stor forbokstav brukes først i setninger og i egennavn: Maria, Bergen, Norge. Liten forbokstav brukes for dager, måneder, høytider i vanlige sammensetninger, språk og nasjonaliteter: mandag, januar, norsk, nordmann.
+
+## De viktigste kommareglene
+
+- Komma mellom to **helsetninger** bundet sammen med og, men, eller, for, så: Det regnet, men vi gikk tur.
+- Komma etter en **leddsetning** som står først: Når det regner, blir vi inne.
+- Komma rundt **innskutte** leddsetninger: Boka, som jeg fikk i gave, var spennende.
+- Komma ved **oppramsing**, men ikke foran det siste «og»: epler, pærer og bananer.
+- Komma etter **tiltale** og foran etterstilte tillegg: Ola, kom hit!
+
+Det skal ikke være komma foran «at» når at-setningen kommer etter hovedsetningen: Jeg tror at det blir fint.
+
+## Korrektur
+
+Les teksten høyt eller baklengs setning for setning. Da oppdager du lettere feil som rettekontrollen ikke fanger opp, for eksempel riktig stavede ord brukt feil.', '{"label":"Rettskriving og tegnsetting","children":[{"label":"Vanlige feller","children":[{"label":"og / å","note":"å foran verb"},{"label":"de / dem","note":"vi/oss-testen"},{"label":"Særskriving","note":"Sammensatte ord i ett"}]},{"label":"Stavemåte","children":[{"label":"Kort vokal → dobbel konsonant"},{"label":"Stum h, g og d","note":"hva, gjest, land"},{"label":"Ikke -mm til slutt"}]},{"label":"Forbokstav","children":[{"label":"Stor","note":"Egennavn, setningsstart"},{"label":"Liten","note":"Dager, måneder, språk"}]},{"label":"Komma","children":[{"label":"Mellom helsetninger","note":"og, men, for, så"},{"label":"Etter leddsetning først"},{"label":"Rundt innskutte"},{"label":"Oppramsing","note":"Ikke før siste og"}]},{"label":"Korrektur","children":[{"label":"Les høyt"},{"label":"Ikke stol bare på rettekontroll"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'norsk-8:rettskriving-og-tegnsetting';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('norsk-8:rettskriving-og-tegnsetting', 'Å', 'Infinitivsmerke foran verb: Jeg liker å lese.', 0),
+  ('norsk-8:rettskriving-og-tegnsetting', 'Og', 'Konjunksjon som binder sammen ord og setninger: brød og smør.', 1),
+  ('norsk-8:rettskriving-og-tegnsetting', 'De', 'Subjektsform: De spiller fotball. Test: passer «vi»?', 2),
+  ('norsk-8:rettskriving-og-tegnsetting', 'Dem', 'Objektsform og etter preposisjon: Jeg så dem. Test: passer «oss»?', 3),
+  ('norsk-8:rettskriving-og-tegnsetting', 'Dobbel konsonant', 'Etter kort vokal skrives ofte dobbel konsonant: takk, katt, hopp.', 4),
+  ('norsk-8:rettskriving-og-tegnsetting', 'Enkel konsonant', 'Etter lang vokal skrives enkel konsonant: tak, kat, hop.', 5),
+  ('norsk-8:rettskriving-og-tegnsetting', 'Aldri dobbel m til slutt', 'Ord ender ikke på -mm: dum, rom, hvem.', 6),
+  ('norsk-8:rettskriving-og-tegnsetting', 'Stum h', 'hv- og hj- i ord som hva, hvem, hjem og hjelp.', 7),
+  ('norsk-8:rettskriving-og-tegnsetting', 'Særskriving', 'Feil der sammensatte ord deles i to. Riktig: fotballtrening, ikke fotball trening.', 8),
+  ('norsk-8:rettskriving-og-tegnsetting', 'Liten forbokstav', 'Dager, måneder, språk og nasjonaliteter: mandag, mai, norsk, nordmann.', 9),
+  ('norsk-8:rettskriving-og-tegnsetting', 'Komma mellom helsetninger', 'Foran og, men, eller, for, så når de binder to helsetninger: Det regnet, men vi gikk.', 10),
+  ('norsk-8:rettskriving-og-tegnsetting', 'Komma etter leddsetning først', 'Når det regner, blir vi inne.', 11),
+  ('norsk-8:rettskriving-og-tegnsetting', 'Innskutt leddsetning', 'Står midt i en helsetning og har komma på begge sider: Boka, som jeg fikk, var god.', 12),
+  ('norsk-8:rettskriving-og-tegnsetting', 'Oppramsing', 'Komma mellom ledd, men ikke foran det siste «og»: epler, pærer og bananer.', 13),
+  ('norsk-8:rettskriving-og-tegnsetting', 'Ikke komma foran «at»', 'Når at-setningen kommer etter hovedsetningen: Jeg tror at det blir fint.', 14);
+delete from public.quiz_sporsmal where tema_id = 'norsk-8:rettskriving-og-tegnsetting';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('norsk-8:rettskriving-og-tegnsetting', 'q01', 'flervalg', 'Hvilken setning er riktig?', array['Jeg liker og svømme.', 'Jeg liker å svømme.', 'Jeg liker og å svømme.', 'Jeg liker svømme.']::text[], 1, '«Svømme» er et verb i infinitiv, og da skal det stå «å» foran.', true, true, 0),
+  ('norsk-8:rettskriving-og-tegnsetting', 'q02', 'flervalg', 'Hvilken setning er riktig?', array['Jeg snakket med de i går.', 'Dem kom for sent.', 'Jeg snakket med dem i går.', 'De og dem betyr det samme.']::text[], 2, 'Etter preposisjonen «med» skal det være objektsformen «dem». Test: med oss, ikke med vi.', true, true, 1),
+  ('norsk-8:rettskriving-og-tegnsetting', 'q03', 'flervalg', 'Hvilket ord er riktig stavet?', array['Takk for maten', 'Tak for maten', 'Takkk for maten', 'Tagg for maten']::text[], 0, 'Vokalen i «takk» er kort, så det skal være dobbel konsonant. «Tak» er det som er over huset.', true, true, 2),
+  ('norsk-8:rettskriving-og-tegnsetting', 'q04', 'flervalg', 'Hvilket alternativ er skrevet riktig i ett ord?', array['ungdoms skole', 'fotball trening', 'røyk fritt', 'ungdomsskole']::text[], 3, 'Sammensatte ord skrives i ett ord på norsk. De andre er eksempler på særskriving.', true, true, 3),
+  ('norsk-8:rettskriving-og-tegnsetting', 'q05', 'flervalg', 'Hvor skal kommaet stå? «Når vi kommer hjem skal vi spise.»', array['Etter «Når»', 'Etter «hjem»', 'Etter «vi»', 'Det skal ikke være komma']::text[], 1, 'Leddsetningen «Når vi kommer hjem» står først, og da skal det være komma etter den.', true, true, 4),
+  ('norsk-8:rettskriving-og-tegnsetting', 'q06', 'flervalg', 'Hvilket ord skal ha liten forbokstav midt i en setning?', array['Oslo', 'Norge', 'Maria', 'januar']::text[], 3, 'Måneder skrives med liten forbokstav på norsk. Oslo, Norge og Maria er egennavn.', true, false, 5),
+  ('norsk-8:rettskriving-og-tegnsetting', 'q07', 'flervalg', 'Hvilken setning har riktig komma?', array['Jeg kjøpte epler, pærer, og bananer.', 'Jeg kjøpte, epler pærer og bananer.', 'Jeg kjøpte epler, pærer og bananer.', 'Jeg kjøpte epler pærer, og bananer.']::text[], 2, 'Ved oppramsing skal det være komma mellom leddene, men ikke foran det siste «og».', true, true, 6),
+  ('norsk-8:rettskriving-og-tegnsetting', 'q08', 'flervalg', 'Hvilken setning har riktig tegnsetting?', array['Jeg tror, at det blir fint.', 'Jeg tror at det blir fint.', 'Jeg, tror at det blir fint.', 'Jeg tror at, det blir fint.']::text[], 1, 'Det skal ikke være komma foran «at» når at-setningen kommer etter hovedsetningen.', true, true, 7),
+  ('norsk-8:rettskriving-og-tegnsetting', 'q09', 'flervalg', 'Hva betyr skiltet «røyk fritt»?', array['At det er lov å røyke', 'At røyking er forbudt', 'At røyk er gratis', 'Ingenting']::text[], 0, 'Særskrivingen endrer betydningen: «røyk fritt» betyr «røyk så mye du vil». Riktig er «røykfritt».', true, false, 8),
+  ('norsk-8:rettskriving-og-tegnsetting', 'q10', 'flervalg', 'Hvilken setning trenger komma?', array['Jeg vet at du kommer.', 'Hun sa hei.', 'Vi dro på tur og vi hadde det gøy.', 'Han løp fort.']::text[], 2, 'To helsetninger bundet sammen med «og» skal ha komma: Vi dro på tur, og vi hadde det gøy.', true, true, 9),
+  ('norsk-8:rettskriving-og-tegnsetting', 'm01', 'sant-usant', 'Norsk skrives med stor forbokstav når det gjelder språket.', array['Sant', 'Usant']::text[], 1, 'Språk og nasjonaliteter skrives med liten forbokstav: norsk, engelsk, nordmann.', false, true, 10),
+  ('norsk-8:rettskriving-og-tegnsetting', 'm02', 'sant-usant', '«Hvem» skrives med stum h.', array['Sant', 'Usant']::text[], 0, 'hv- i begynnelsen av ord som hva, hvem og hvor har stum h.', false, true, 11),
+  ('norsk-8:rettskriving-og-tegnsetting', 'm03', 'sant-usant', '«Dum» skal skrives «dumm» fordi vokalen er kort.', array['Sant', 'Usant']::text[], 1, 'Ord ender ikke på dobbel m i norsk: dum, rom, hvem.', false, true, 12),
+  ('norsk-8:rettskriving-og-tegnsetting', 'm04', 'sant-usant', 'En innskutt leddsetning skal ha komma på begge sider.', array['Sant', 'Usant']::text[], 0, 'Eksempel: Boka, som jeg fikk i gave, var spennende.', false, true, 13),
+  ('norsk-8:rettskriving-og-tegnsetting', 'm05', 'flervalg', 'Hvilket ord mangler? «Jeg ga … boka.»', array['de', 'dem', 'dems', 'di']::text[], 1, 'Ordet er indirekte objekt: Jeg ga dem boka. Test: Jeg ga oss boka.', false, true, 14),
+  ('norsk-8:rettskriving-og-tegnsetting', 'm06', 'flervalg', 'Hvilken skrivemåte er riktig?', array['gjest', 'jest', 'gest', 'hjest']::text[], 0, '«Gjest» skrives med stum g: gj-.', false, true, 15),
+  ('norsk-8:rettskriving-og-tegnsetting', 'm07', 'flervalg', 'Hvor skal kommaet stå når du tiltaler noen?', array['Ola kom hit!', 'Ola, kom hit!', 'Ola kom, hit!', 'Ola, kom, hit!']::text[], 1, 'Det skal være komma etter tiltale: Ola, kom hit!', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('norsk-8:rettskriving-og-tegnsetting', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Norsk: Sammensatte tekster
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('norsk-8:sammensatte-tekster', 'norsk-8', 'sammensatte-tekster', 'Sammensatte tekster', 'Tekster som kombinerer skrift, bilde, lyd og layout – hvordan de ulike uttrykksformene spiller sammen, og hvordan du lager og begrunner egne sammensatte tekster.', array[14, 6]::int[], 5, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('norsk-8:sammensatte-tekster', '## Hva er en sammensatt tekst?
+
+En **sammensatt tekst** kombinerer flere **uttrykksformer** (modaliteter), for eksempel skrift, bilde, lyd, farger, film og layout. Eksempler er reklameplakater, nettsider, tegneserier, filmer, presentasjoner og innlegg på sosiale medier. Nesten alle tekster vi møter i dag, er sammensatte.
+
+Når vi leser en sammensatt tekst, må vi se på hvordan de ulike delene spiller sammen. Bildet og teksten kan si det samme og **forsterke** hverandre, de kan **utfylle** hverandre ved at hver del gir ny informasjon, eller de kan stå i **kontrast**, noe som ofte brukes for å skape humor eller ironi.
+
+## Virkemidler i bilder
+
+- **Utsnitt**: Nærbilde viser følelser, totalbilde viser miljø og sammenheng.
+- **Perspektiv**: Froskeperspektiv (nedenfra) får motivet til å virke stort og mektig. Fugleperspektiv (ovenfra) får det til å virke lite eller sårbart. Normalperspektiv virker nøytralt.
+- **Farger**: Varme farger som rødt og oransje kan gi energi eller fare, kalde farger som blått kan gi ro eller tristhet.
+- **Komposisjon**: Hvor elementene er plassert, avgjør hva vi legger merke til først. Blikkfanget er det øyet trekkes mot.
+
+## Layout og typografi
+
+**Layout** er hvordan elementene er plassert på siden. Store overskrifter, luft rundt viktig innhold og tydelige kontraster styrer leserens blikk. **Typografi** er valg av skrifttype, størrelse og stil. En leken skrift passer til en barnebursdag, men ikke til en nyhetssak.
+
+## Reklame
+
+Reklame er en typisk sammensatt tekst. Den har gjerne et **blikkfang**, en **slagord** (slogan), en **logo** og et bilde som skaper en følelse. Reklamen bruker ofte appellformer, særlig følelser (patos), for å få oss til å kjøpe noe.
+
+## Lage egne sammensatte tekster
+
+Når du lager en sammensatt tekst, for eksempel en plakat eller presentasjon, bør du:
+
+- tenke på **formål** og **mottaker**,
+- velge uttrykksformer som støtter budskapet,
+- unngå for mye tekst på lysbilder,
+- sørge for at bilder og tekst henger sammen,
+- oppgi kilder til bilder og opplysninger.
+
+Du bør også kunne **begrunne** valgene dine: Hvorfor valgte du akkurat det bildet, den fargen og den skriften? Å forklare hvordan valgene støtter budskapet, viser at du forstår hvordan sammensatte tekster virker.', '{"label":"Sammensatte tekster","children":[{"label":"Uttrykksformer","children":[{"label":"Skrift"},{"label":"Bilde"},{"label":"Lyd og film"},{"label":"Layout og farge"}]},{"label":"Samspill","children":[{"label":"Forsterke"},{"label":"Utfylle"},{"label":"Kontrast","note":"Humor og ironi"}]},{"label":"Bilde","children":[{"label":"Utsnitt","note":"Nærbilde, totalbilde"},{"label":"Perspektiv","note":"Frosk, fugl"},{"label":"Farger og komposisjon"}]},{"label":"Reklame","children":[{"label":"Blikkfang"},{"label":"Slagord og logo"},{"label":"Patos"}]},{"label":"Lage selv","children":[{"label":"Formål og mottaker"},{"label":"Lite tekst på lysbilder"},{"label":"Begrunn valgene"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'norsk-8:sammensatte-tekster';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('norsk-8:sammensatte-tekster', 'Sammensatt tekst', 'En tekst som kombinerer flere uttrykksformer, som skrift, bilde, lyd og layout.', 0),
+  ('norsk-8:sammensatte-tekster', 'Uttrykksform (modalitet)', 'En måte å formidle på: skrift, bilde, lyd, farge, bevegelse.', 1),
+  ('norsk-8:sammensatte-tekster', 'Forsterke', 'Når bilde og tekst sier det samme og styrker budskapet.', 2),
+  ('norsk-8:sammensatte-tekster', 'Utfylle', 'Når bilde og tekst gir hver sin del av informasjonen.', 3),
+  ('norsk-8:sammensatte-tekster', 'Kontrast mellom bilde og tekst', 'Når bilde og tekst spiller mot hverandre, ofte for humor eller ironi.', 4),
+  ('norsk-8:sammensatte-tekster', 'Nærbilde', 'Viser detaljer og følelser, for eksempel et ansikt.', 5),
+  ('norsk-8:sammensatte-tekster', 'Totalbilde', 'Viser hele miljøet og sammenhengen.', 6),
+  ('norsk-8:sammensatte-tekster', 'Froskeperspektiv', 'Motivet sett nedenfra. Får det til å virke stort og mektig.', 7),
+  ('norsk-8:sammensatte-tekster', 'Fugleperspektiv', 'Motivet sett ovenfra. Får det til å virke lite eller sårbart.', 8),
+  ('norsk-8:sammensatte-tekster', 'Blikkfang', 'Det som først fanger leserens oppmerksomhet.', 9),
+  ('norsk-8:sammensatte-tekster', 'Layout', 'Hvordan tekst, bilder og luft er plassert på en side eller skjerm.', 10),
+  ('norsk-8:sammensatte-tekster', 'Typografi', 'Valg av skrifttype, størrelse og stil.', 11),
+  ('norsk-8:sammensatte-tekster', 'Slagord (slogan)', 'En kort, fengende setning i reklame som skal huskes.', 12),
+  ('norsk-8:sammensatte-tekster', 'Komposisjon', 'Hvordan elementene i et bilde er plassert i forhold til hverandre.', 13),
+  ('norsk-8:sammensatte-tekster', 'Begrunne valg', 'Forklare hvorfor du valgte bilder, farger og skrift, og hvordan de støtter budskapet.', 14);
+delete from public.quiz_sporsmal where tema_id = 'norsk-8:sammensatte-tekster';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('norsk-8:sammensatte-tekster', 'q01', 'flervalg', 'Hvilken tekst er en sammensatt tekst?', array['En reklameplakat med bilde og slagord', 'En lydløs tanke', 'En tom side', 'Et enkelt ord']::text[], 0, 'Reklameplakaten kombinerer bilde, skrift og layout, altså flere uttrykksformer.', true, true, 0),
+  ('norsk-8:sammensatte-tekster', 'q02', 'flervalg', 'Et bilde er tatt nedenfra og får en person til å virke mektig. Hva kalles perspektivet?', array['Fugleperspektiv', 'Normalperspektiv', 'Froskeperspektiv', 'Nærbilde']::text[], 2, 'Froskeperspektiv er sett nedenfra og gir inntrykk av styrke og makt.', true, true, 1),
+  ('norsk-8:sammensatte-tekster', 'q03', 'flervalg', 'Hva viser et nærbilde best?', array['Hele landskapet', 'Følelser og detaljer', 'Hvor mange personer som er til stede', 'Været']::text[], 1, 'Et nærbilde av et ansikt får fram følelser som ellers lett forsvinner.', true, true, 2),
+  ('norsk-8:sammensatte-tekster', 'q04', 'flervalg', 'Bildet viser et øsende regnvær, mens teksten sier «Perfekt dag for piknik!». Hvordan spiller bilde og tekst sammen?', array['De forsterker hverandre', 'De utfyller hverandre', 'De er like', 'De står i kontrast og skaper ironi']::text[], 3, 'Bildet og teksten sier motsatte ting, og kontrasten skaper humor.', true, true, 3),
+  ('norsk-8:sammensatte-tekster', 'q05', 'flervalg', 'Hva er layout?', array['Valg av farger i et maleri', 'Hvordan elementene er plassert på en side', 'Et reklameslagord', 'En type skrift']::text[], 1, 'Layout handler om plassering av tekst, bilder og luft, og styrer hvordan vi leser siden.', true, true, 4),
+  ('norsk-8:sammensatte-tekster', 'q06', 'flervalg', 'Hva er typografi?', array['Valg av skrifttype, størrelse og stil', 'Et fotografi', 'En logo', 'En bildetekst']::text[], 0, 'Typografi er alt som har med utseendet til bokstavene å gjøre.', true, false, 5),
+  ('norsk-8:sammensatte-tekster', 'q07', 'flervalg', 'Hvilken appellform bruker reklame ofte mest?', array['Logos', 'Etos', 'Patos', 'Ingen']::text[], 2, 'Reklame spiller ofte på følelser, som glede, lengsel eller frykt for å gå glipp av noe.', true, true, 6),
+  ('norsk-8:sammensatte-tekster', 'q08', 'flervalg', 'Hva er et godt råd når du lager en lysbildepresentasjon?', array['Skriv hele manuset på lysbildene', 'Bruk så mange skrifttyper som mulig', 'Unngå bilder', 'Bruk lite tekst og bilder som støtter det du sier']::text[], 3, 'Lysbildene skal støtte det du sier, ikke erstatte det. For mye tekst gjør at publikum leser i stedet for å lytte.', true, true, 7),
+  ('norsk-8:sammensatte-tekster', 'q09', 'flervalg', 'Hva kalles det som først fanger oppmerksomheten på en plakat?', array['Blikkfang', 'Slagord', 'Utsnitt', 'Kildehenvisning']::text[], 0, 'Blikkfanget kan være et stort bilde, en sterk farge eller en stor overskrift.', true, false, 8),
+  ('norsk-8:sammensatte-tekster', 'q10', 'flervalg', 'Hvorfor bør du kunne begrunne valgene i en sammensatt tekst?', array['For å vise at du forstår hvordan valgene støtter budskapet', 'Fordi det gjør teksten lengre', 'Fordi bilder alltid er viktigst', 'For å slippe å oppgi kilder']::text[], 0, 'Begrunnelser viser at du har tenkt bevisst over formål, mottaker og virkemidler.', true, true, 9),
+  ('norsk-8:sammensatte-tekster', 'm01', 'sant-usant', 'En tegneserie er en sammensatt tekst.', array['Sant', 'Usant']::text[], 0, 'Tegneserier kombinerer tegninger og skrift, ofte med snakkebobler og lydord.', false, true, 10),
+  ('norsk-8:sammensatte-tekster', 'm02', 'sant-usant', 'Fugleperspektiv får motivet til å virke stort og mektig.', array['Sant', 'Usant']::text[], 1, 'Fugleperspektiv er sett ovenfra og får motivet til å virke lite. Froskeperspektiv gir inntrykk av makt.', false, true, 11),
+  ('norsk-8:sammensatte-tekster', 'm03', 'sant-usant', 'Du bør oppgi kilder til bilder du bruker i en presentasjon.', array['Sant', 'Usant']::text[], 0, 'Bilder er andres åndsverk, og kildehenvisning viser hvor de kommer fra.', false, true, 12),
+  ('norsk-8:sammensatte-tekster', 'm04', 'sant-usant', 'Valg av skrifttype har ingen betydning for hvordan en tekst oppfattes.', array['Sant', 'Usant']::text[], 1, 'Typografi påvirker stemningen. En leken skrift passer dårlig til en alvorlig nyhet.', false, true, 13),
+  ('norsk-8:sammensatte-tekster', 'm05', 'flervalg', 'Hvilken farge forbindes ofte med ro?', array['Rødt', 'Oransje', 'Blått', 'Gult']::text[], 2, 'Kalde farger som blått forbindes ofte med ro, avstand eller tristhet.', false, true, 14),
+  ('norsk-8:sammensatte-tekster', 'm06', 'flervalg', 'Hva gjør et totalbilde?', array['Viser et ansikt tett på', 'Viser hele miljøet og sammenhengen', 'Viser bare en detalj', 'Viser motivet ovenfra']::text[], 1, 'Totalbildet gir oversikt over stedet og situasjonen.', false, true, 15),
+  ('norsk-8:sammensatte-tekster', 'm07', 'flervalg', 'Hva er et slagord?', array['En kort, fengende setning i reklame', 'En lang fagtekst', 'En bildetekst med kilde', 'En overskrift i en nyhetssak']::text[], 0, 'Slagordet skal være lett å huske og knytte seg til produktet.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('norsk-8:sammensatte-tekster', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Norsk: Nynorsk: grunnkurs
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('norsk-8:nynorsk-grunnkurs', 'norsk-8', 'nynorsk-grunnkurs', 'Nynorsk: grunnkurs', 'De vanligste ordene og bøyningsmønstrene i nynorsk – pronomen, spørreord, substantiv og verb – for deg som har bokmål som hovedmål.', array[11, 1]::int[], 6, 'sjekkes', array['Nynorskformer (valfrie former som «honom», «me», «òg») bør kontrolleres mot gjeldende nynorsknormal fra 2012.']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('norsk-8:nynorsk-grunnkurs', '## Sidemål
+
+I Norge har vi to likestilte skriftspråk, **bokmål** og **nynorsk**. Det du bruker mest, er **hovedmålet** ditt, og det andre er **sidemålet**. Fra 8. trinn skal alle lære å skrive begge. Mange ord er like, men noen små, hyppige ord og bøyningsendingene skiller seg ut. Lærer du dem, har du kommet langt.
+
+## Viktige småord
+
+- jeg → **eg**, ikke → **ikkje**, nå → **no**, bare → **berre**, mye → **mykje**, hele → **heile**, være → **vere**, noe → **noko**, også → **òg** eller **også**.
+- Spørreord: hva → **kva**, hvem → **kven**, hvor → **kvar**, hvordan → **korleis**, hvorfor → **kvifor**, hvilken → **kva for ein**.
+
+## Pronomen
+
+Subjektsform og objektsform: eg – meg, du – deg, han – han (eller honom), ho – henne (eller ho), det – det, vi/me – oss, de – dykk, dei – dei. Legg merke til at «hun» heter **ho**, og at «de» i tredje person flertall heter **dei**.
+
+## Substantiv
+
+Nynorsk har tre kjønn, og hokjønn brukes alltid. Artiklene er **ein** (hankjønn), **ei** (hokjønn) og **eit** (inkjekjønn).
+
+- Hankjønn: ein gut – guten – gutar – gutane
+- Hokjønn: ei jente – jenta – jenter – jentene
+- Inkjekjønn: eit hus – huset – hus – husa
+
+Merk at hankjønn får **-ar/-ane** i fleirtal, og at inkjekjønn får **-a** i bestemt fleirtal.
+
+## Verb
+
+Nynorsk har flere bøyningsgrupper. De to viktigste svake gruppene er:
+
+- **a-verb**: å kaste – kastar – kasta – har kasta
+- **e-verb**: å kjøpe – kjøper – kjøpte – har kjøpt
+
+Sterke verb skifter vokal, som på bokmål: å skrive – skriv – skreiv – har skrive. Presens av sterke verb har ofte ingen ending: eg skriv, ho les, han søv.
+
+Du kan velge mellom **e-infinitiv** (å kaste) og **a-infinitiv** (å kasta), men må være konsekvent i hele teksten.
+
+## Tips for å skrive nynorsk
+
+- Bruk en nynorsk ordbok, for eksempel Nynorskordboka på nett.
+- Slå på nynorsk retteprogram, men les over selv.
+- Les nynorske tekster, så blir ordbildet kjent.
+- Unngå å oversette ord for ord fra bokmål. Noen ord er helt ulike: «begynne» heter ofte **byrje**, «spørsmål» heter **spørsmål**, men «forsøke» heter **freiste** eller **prøve**.', '{"label":"Nynorsk grunnkurs","children":[{"label":"Småord","children":[{"label":"eg, ikkje, no"},{"label":"berre, mykje, heile"},{"label":"kva, kven, kvar","note":"korleis, kvifor"}]},{"label":"Pronomen","children":[{"label":"ho – henne","note":"hun"},{"label":"de – dykk","note":"dere"},{"label":"dei","note":"de/dem"}]},{"label":"Substantiv","children":[{"label":"Hankjønn","note":"gutar – gutane"},{"label":"Hokjønn","note":"jenter – jentene"},{"label":"Inkjekjønn","note":"hus – husa"}]},{"label":"Verb","children":[{"label":"a-verb","note":"kastar – kasta"},{"label":"e-verb","note":"kjøper – kjøpte"},{"label":"Sterke verb","note":"skriv – skreiv"},{"label":"e- eller a-infinitiv"}]},{"label":"Tips","children":[{"label":"Nynorskordboka"},{"label":"Les nynorsk"},{"label":"Ikke ord for ord"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'norsk-8:nynorsk-grunnkurs';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('norsk-8:nynorsk-grunnkurs', 'eg', 'Nynorsk for «jeg».', 0),
+  ('norsk-8:nynorsk-grunnkurs', 'ikkje', 'Nynorsk for «ikke».', 1),
+  ('norsk-8:nynorsk-grunnkurs', 'ho', 'Nynorsk for «hun». Objektsform: henne (eller ho).', 2),
+  ('norsk-8:nynorsk-grunnkurs', 'dei', 'Nynorsk for «de/dem» i tredje person flertall.', 3),
+  ('norsk-8:nynorsk-grunnkurs', 'dykk', 'Nynorsk objektsform av «de» i andre person flertall (bokmål: dere).', 4),
+  ('norsk-8:nynorsk-grunnkurs', 'kva, kven, kvar', 'Nynorsk for hva, hvem og hvor.', 5),
+  ('norsk-8:nynorsk-grunnkurs', 'korleis og kvifor', 'Nynorsk for hvordan og hvorfor.', 6),
+  ('norsk-8:nynorsk-grunnkurs', 'berre og mykje', 'Nynorsk for bare og mye.', 7),
+  ('norsk-8:nynorsk-grunnkurs', 'ein, ei, eit', 'Ubestemte artikler i hankjønn, hokjønn og inkjekjønn.', 8),
+  ('norsk-8:nynorsk-grunnkurs', 'Hankjønn', 'ein gut – guten – gutar – gutane', 9),
+  ('norsk-8:nynorsk-grunnkurs', 'Hokjønn', 'ei jente – jenta – jenter – jentene', 10),
+  ('norsk-8:nynorsk-grunnkurs', 'Inkjekjønn', 'eit hus – huset – hus – husa', 11),
+  ('norsk-8:nynorsk-grunnkurs', 'a-verb', 'å kaste – kastar – kasta – har kasta', 12),
+  ('norsk-8:nynorsk-grunnkurs', 'e-verb', 'å kjøpe – kjøper – kjøpte – har kjøpt', 13),
+  ('norsk-8:nynorsk-grunnkurs', 'e- eller a-infinitiv', 'Du kan skrive «å kaste» eller «å kasta», men må være konsekvent.', 14);
+delete from public.quiz_sporsmal where tema_id = 'norsk-8:nynorsk-grunnkurs';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('norsk-8:nynorsk-grunnkurs', 'q01', 'flervalg', 'Hva heter «jeg» på nynorsk?', array['je', 'eg', 'ek', 'jeg']::text[], 1, '«Eg» er nynorsk for «jeg».', true, true, 0),
+  ('norsk-8:nynorsk-grunnkurs', 'q02', 'flervalg', 'Hva heter «hvordan» på nynorsk?', array['kvordan', 'korleis', 'kvifor', 'kven']::text[], 1, '«Korleis» betyr hvordan. «Kvifor» er hvorfor, og «kven» er hvem.', true, true, 1),
+  ('norsk-8:nynorsk-grunnkurs', 'q03', 'flervalg', 'Hva er bestemt form flertall av «gut» på nynorsk?', array['gutene', 'gutar', 'gutane', 'gutter']::text[], 2, 'Hankjønn: ein gut – guten – gutar – gutane.', true, true, 2),
+  ('norsk-8:nynorsk-grunnkurs', 'q04', 'flervalg', 'Hva er presens av a-verbet «å kaste» på nynorsk?', array['kastar', 'kaster', 'kasta', 'kast']::text[], 0, 'a-verb får -ar i presens: eg kastar.', true, true, 3),
+  ('norsk-8:nynorsk-grunnkurs', 'q05', 'flervalg', 'Hva heter «hun» på nynorsk?', array['hu', 'hon', 'ho', 'hun']::text[], 2, '«Ho» er nynorsk for «hun».', true, true, 4),
+  ('norsk-8:nynorsk-grunnkurs', 'q06', 'flervalg', 'Hva er bestemt form flertall av «hus» på nynorsk?', array['husene', 'husa', 'husane', 'hus']::text[], 1, 'Inkjekjønn: eit hus – huset – hus – husa.', true, true, 5),
+  ('norsk-8:nynorsk-grunnkurs', 'q07', 'flervalg', 'Hvilken setning er skrevet på nynorsk?', array['Jeg vet ikke hva hun heter.', 'Eg veit ikkje kva ho heiter.', 'Eg vet ikke hva ho heter.', 'Jeg veit ikkje kva hun heiter.']::text[], 1, 'Alle ordene er på nynorsk: eg, veit, ikkje, kva, ho, heiter.', true, true, 6),
+  ('norsk-8:nynorsk-grunnkurs', 'q08', 'flervalg', 'Hva er preteritum av e-verbet «å kjøpe»?', array['kjøpa', 'kjøpar', 'kjøpet', 'kjøpte']::text[], 3, 'e-verb: å kjøpe – kjøper – kjøpte – har kjøpt.', true, true, 7),
+  ('norsk-8:nynorsk-grunnkurs', 'q09', 'flervalg', 'Hva betyr «dei» på nynorsk?', array['de/dem i tredje person flertall', 'deg', 'denne', 'det']::text[], 0, '«Dei» brukes både som subjekt og objekt: Dei kom. Eg såg dei.', true, false, 8),
+  ('norsk-8:nynorsk-grunnkurs', 'q10', 'flervalg', 'Hva gjelder for valg av infinitivsending i nynorsk?', array['Du må alltid bruke -a', 'Du må alltid bruke -e', 'Du kan velge -e eller -a, men må være konsekvent', 'Du kan blande fritt']::text[], 2, 'Både e-infinitiv og a-infinitiv er tillatt, men du må holde deg til én i samme tekst.', true, false, 9),
+  ('norsk-8:nynorsk-grunnkurs', 'm01', 'sant-usant', 'Bokmål og nynorsk er likestilte skriftspråk.', array['Sant', 'Usant']::text[], 0, 'Begge er offisielle skriftformer av norsk og er likestilte.', false, true, 10),
+  ('norsk-8:nynorsk-grunnkurs', 'm02', 'sant-usant', '«Ikkje» er nynorsk for «ikke».', array['Sant', 'Usant']::text[], 0, 'Ikkje er den nynorske formen.', false, true, 11),
+  ('norsk-8:nynorsk-grunnkurs', 'm03', 'sant-usant', 'Hokjønn kan sløyfes på nynorsk, slik som på bokmål.', array['Sant', 'Usant']::text[], 1, 'Nynorsk har alltid tre kjønn, og hokjønnsord får «ei» og -a i bestemt form.', false, true, 12),
+  ('norsk-8:nynorsk-grunnkurs', 'm04', 'sant-usant', '«Kvifor» betyr hvorfor.', array['Sant', 'Usant']::text[], 0, 'Kvifor = hvorfor. Korleis = hvordan.', false, true, 13),
+  ('norsk-8:nynorsk-grunnkurs', 'm05', 'flervalg', 'Hva heter «bare» på nynorsk?', array['bara', 'berre', 'bere', 'bære']::text[], 1, '«Berre» er nynorsk for bare.', false, true, 14),
+  ('norsk-8:nynorsk-grunnkurs', 'm06', 'flervalg', 'Hvilken artikkel står foran hokjønnsordet «jente»?', array['ein', 'eit', 'ei', 'en']::text[], 2, 'Hokjønn har artikkelen «ei»: ei jente.', false, true, 15),
+  ('norsk-8:nynorsk-grunnkurs', 'm07', 'flervalg', 'Hva er presens av «å skrive» på nynorsk?', array['skriv', 'skrivar', 'skriver', 'skreiv']::text[], 0, 'Sterke verb har ofte ingen ending i presens på nynorsk: eg skriv.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('norsk-8:nynorsk-grunnkurs', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Matematikk (8): rydd bort fjernede temaer
 delete from public.temaer where fag_id = 'matematikk-8' and slug not in ('potenser-og-kvadratrotter', 'regnestrategier', 'faktorisering-og-brok', 'monstre-og-algebra', 'likninger', 'ulikheter', 'funksjoner', 'algoritmer-og-programmering');
@@ -698,6 +1278,1811 @@ insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, ri
   ('matematikk-8:algoritmer-og-programmering', 'm07', 'flervalg', 'Hva gjør en if-setning?', array['Gjentar kode', 'Lagrer en verdi', 'Skriver ut tekst', 'Lar programmet velge ut fra om noe er sant']::text[], 3, 'En if-setning sjekker en betingelse og utfører kode bare hvis betingelsen er sann.', false, true, 16);
 insert into public.miniprover (tema_id, minutter) values
   ('matematikk-8:algoritmer-og-programmering', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Engelsk (8): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'engelsk-8' and slug not in ('word-classes-and-sentences', 'verb-tenses', 'learning-strategies-and-vocabulary', 'writing-narratives', 'english-around-the-world', 'the-united-kingdom');
+
+-- Engelsk: Word classes and sentence structure
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('engelsk-8:word-classes-and-sentences', 'engelsk-8', 'word-classes-and-sentences', 'Word classes and sentence structure', 'The main word classes in English, basic word order, and how knowing them helps you write clearer and more correct sentences.', array[8, 9]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('engelsk-8:word-classes-and-sentences', '## Why grammar?
+
+Knowing the **word classes** (parts of speech) and how English sentences are built helps you understand texts, avoid common mistakes and explain why something is right or wrong. Many terms are similar to Norwegian grammar, which makes them easier to learn.
+
+## The main word classes
+
+- **Nouns** name people, places, things and ideas: teacher, London, happiness. Most nouns have a plural form: book – books, child – children.
+- **Verbs** show actions or states: run, think, be. Verbs change with tense: walk – walked.
+- **Adjectives** describe nouns: a **tall** building, the book is **boring**. English adjectives do not change for plural: tall buildings.
+- **Adverbs** describe verbs, adjectives or whole sentences, often telling how, when or where: She sings **beautifully**. Many adverbs end in **-ly**.
+- **Pronouns** replace nouns: I, you, he, she, it, we, they, me, him, her, us, them.
+- **Prepositions** show relations in place and time: in, on, at, under, after.
+- **Conjunctions** join words and clauses: and, but, or, because, although.
+- **Determiners** come before nouns: a, an, the, this, my, some.
+
+## Articles
+
+Use **a** before a consonant sound and **an** before a vowel sound: a book, an apple, **an hour** (silent h), **a university** (the word starts with a “you” sound). **The** is used about something specific or already mentioned.
+
+## Word order
+
+The basic word order in an English statement is **subject – verb – object** (S-V-O): **Emma** (S) **likes** (V) **pizza** (O). Unlike Norwegian, English keeps this order even when a sentence starts with a time expression: “Yesterday **I went** to the cinema”, not “Yesterday went I”.
+
+Questions and negatives with most verbs need the helping verb **do/does/did**: Do you like pizza? She does not (doesn''t) like fish.
+
+## Sentences and clauses
+
+A **sentence** starts with a capital letter and ends with a full stop, question mark or exclamation mark. A **clause** contains a subject and a verb. A **main clause** can stand alone: I stayed at home. A **subordinate clause** cannot: because it was raining. Together they form a **complex sentence**: I stayed at home because it was raining.
+
+## Using grammar when you write
+
+When you revise your own texts, check that every sentence has a subject and a verb, that word order is S-V-O, that you have used a/an correctly, and that you have not written a subordinate clause on its own as a full sentence.', '{"label":"Word classes and sentences","children":[{"label":"Word classes","children":[{"label":"Noun","note":"book – books"},{"label":"Verb","note":"walk – walked"},{"label":"Adjective","note":"No plural ending"},{"label":"Adverb","note":"Often -ly"},{"label":"Pronoun, preposition, conjunction"}]},{"label":"Articles","children":[{"label":"a / an","note":"Sound decides"},{"label":"the","note":"Specific thing"}]},{"label":"Word order","children":[{"label":"S-V-O"},{"label":"Time first, still S-V"},{"label":"do/does/did","note":"Questions, negatives"}]},{"label":"Clauses","children":[{"label":"Main clause"},{"label":"Subordinate clause"},{"label":"Complex sentence"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'engelsk-8:word-classes-and-sentences';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('engelsk-8:word-classes-and-sentences', 'Noun', 'A word that names a person, place, thing or idea: teacher, Oslo, happiness.', 0),
+  ('engelsk-8:word-classes-and-sentences', 'Verb', 'A word that shows an action or a state: run, think, be.', 1),
+  ('engelsk-8:word-classes-and-sentences', 'Adjective', 'A word that describes a noun: a tall building. Does not change in the plural.', 2),
+  ('engelsk-8:word-classes-and-sentences', 'Adverb', 'Describes a verb, adjective or sentence, often how, when or where. Many end in -ly.', 3),
+  ('engelsk-8:word-classes-and-sentences', 'Pronoun', 'A word that replaces a noun: I, you, she, they, them.', 4),
+  ('engelsk-8:word-classes-and-sentences', 'Preposition', 'Shows relation in place or time: in, on, at, under, after.', 5),
+  ('engelsk-8:word-classes-and-sentences', 'Conjunction', 'Joins words and clauses: and, but, or, because.', 6),
+  ('engelsk-8:word-classes-and-sentences', 'Determiner', 'Comes before a noun: a, the, this, my, some.', 7),
+  ('engelsk-8:word-classes-and-sentences', 'a or an?', '“a” before a consonant sound, “an” before a vowel sound: an hour, a university.', 8),
+  ('engelsk-8:word-classes-and-sentences', 'S-V-O', 'Subject – verb – object: basic English word order. Emma likes pizza.', 9),
+  ('engelsk-8:word-classes-and-sentences', 'Time expression first', 'English keeps S-V: “Yesterday I went”, not “Yesterday went I”.', 10),
+  ('engelsk-8:word-classes-and-sentences', 'do-support', 'Questions and negatives with most verbs use do/does/did: Do you like it?', 11),
+  ('engelsk-8:word-classes-and-sentences', 'Clause', 'A group of words with a subject and a verb.', 12),
+  ('engelsk-8:word-classes-and-sentences', 'Main clause', 'A clause that can stand alone as a sentence.', 13),
+  ('engelsk-8:word-classes-and-sentences', 'Subordinate clause', 'A clause that cannot stand alone: because it was raining.', 14);
+delete from public.quiz_sporsmal where tema_id = 'engelsk-8:word-classes-and-sentences';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('engelsk-8:word-classes-and-sentences', 'q01', 'flervalg', 'Which word is an adjective in “The old dog slept quietly”?', array['dog', 'old', 'slept', 'quietly']::text[], 1, '“Old” describes the noun “dog”. “Quietly” is an adverb describing how the dog slept.', true, true, 0),
+  ('engelsk-8:word-classes-and-sentences', 'q02', 'flervalg', 'Which is correct?', array['a hour', 'an university', 'an hour', 'a apple']::text[], 2, '“Hour” starts with a vowel sound because the h is silent, so we use “an”.', true, true, 1),
+  ('engelsk-8:word-classes-and-sentences', 'q03', 'flervalg', 'Which sentence has correct English word order?', array['Yesterday I went to the cinema.', 'Yesterday went I to the cinema.', 'Yesterday to the cinema I went.', 'I yesterday went to the cinema to.']::text[], 0, 'English keeps subject + verb even when the sentence starts with a time expression.', true, true, 2),
+  ('engelsk-8:word-classes-and-sentences', 'q04', 'flervalg', 'What is the plural of “child”?', array['childs', 'childes', 'childrens', 'children']::text[], 3, '“Child” has an irregular plural: children.', true, true, 3),
+  ('engelsk-8:word-classes-and-sentences', 'q05', 'flervalg', 'Which word is a conjunction?', array['under', 'because', 'quickly', 'they']::text[], 1, '“Because” joins a subordinate clause to a main clause.', true, true, 4),
+  ('engelsk-8:word-classes-and-sentences', 'q06', 'flervalg', 'How do you make “She likes fish” negative?', array['She not likes fish.', 'She don''t like fish.', 'She doesn''t like fish.', 'She likes not fish.']::text[], 2, 'Most verbs need do-support in negatives. With he/she/it we use “does not” (doesn''t) + the base form.', true, true, 5),
+  ('engelsk-8:word-classes-and-sentences', 'q07', 'flervalg', 'What is the subject in “My brother plays football”?', array['My brother', 'plays', 'football', 'plays football']::text[], 0, 'The subject is who does the action: my brother.', true, false, 6),
+  ('engelsk-8:word-classes-and-sentences', 'q08', 'flervalg', 'Which is NOT a complete sentence?', array['I stayed at home.', 'It was raining.', 'Because it was raining.', 'I stayed at home because it was raining.']::text[], 2, '“Because it was raining” is a subordinate clause and cannot stand alone.', true, true, 7),
+  ('engelsk-8:word-classes-and-sentences', 'q09', 'flervalg', 'Which word is an adverb?', array['beautiful', 'beauty', 'beautify', 'beautifully']::text[], 3, '“Beautifully” tells how something is done. Many adverbs are formed by adding -ly to an adjective.', true, false, 8),
+  ('engelsk-8:word-classes-and-sentences', 'q10', 'flervalg', 'Which is correct?', array['They are tall buildings.', 'They are talls buildings.', 'They are tall buildingses.', 'They are talls building.']::text[], 0, 'English adjectives never take a plural ending. Only the noun changes: buildings.', true, true, 9),
+  ('engelsk-8:word-classes-and-sentences', 'm01', 'sant-usant', 'English adjectives get an -s in the plural, like “bigs cars”.', array['Sant', 'Usant']::text[], 1, 'English adjectives never change for plural: big cars.', false, true, 10),
+  ('engelsk-8:word-classes-and-sentences', 'm02', 'sant-usant', '“An” is used before words that start with a vowel sound.', array['Sant', 'Usant']::text[], 0, 'It is the sound, not the letter, that decides: an hour, a university.', false, true, 11),
+  ('engelsk-8:word-classes-and-sentences', 'm03', 'sant-usant', 'A subordinate clause can stand alone as a full sentence.', array['Sant', 'Usant']::text[], 1, 'A subordinate clause needs a main clause to make a complete sentence.', false, true, 12),
+  ('engelsk-8:word-classes-and-sentences', 'm04', 'sant-usant', '“Under” is a preposition.', array['Sant', 'Usant']::text[], 0, '“Under” shows a relation in place: under the table.', false, true, 13),
+  ('engelsk-8:word-classes-and-sentences', 'm05', 'flervalg', 'Which question is correct?', array['Like you pizza?', 'Do you like pizza?', 'You like pizza do?', 'Does you like pizza?']::text[], 1, 'Questions with most verbs need “do” before the subject: Do you like pizza?', false, true, 14),
+  ('engelsk-8:word-classes-and-sentences', 'm06', 'flervalg', 'Which word is a pronoun?', array['them', 'table', 'green', 'slowly']::text[], 0, '“Them” replaces a noun, for example “the students”.', false, true, 15),
+  ('engelsk-8:word-classes-and-sentences', 'm07', 'flervalg', 'Which article is correct? “She is … engineer.”', array['a', 'the a', 'an', 'no article']::text[], 2, '“Engineer” starts with a vowel sound, so we use “an”. English also needs an article with jobs: She is an engineer.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('engelsk-8:word-classes-and-sentences', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Engelsk: Verb tenses
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('engelsk-8:verb-tenses', 'engelsk-8', 'verb-tenses', 'Verb tenses', 'Present simple and continuous, past simple, present perfect and the future – how they are formed, when to use them, and the most common irregular verbs.', array[9, 8]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('engelsk-8:verb-tenses', '## Tense tells us when
+
+The **tense** of a verb shows when something happens. English has more tense forms in everyday use than Norwegian, and choosing the right one is one of the most important parts of writing correct English.
+
+## Present simple
+
+The **present simple** is used for habits, routines and facts: I **walk** to school every day. Water **boils** at 100 °C. With **he, she and it**, the verb gets an **-s**: she walks, he watches, it goes. This “third person -s” is one of the most common mistakes Norwegian learners make.
+
+## Present continuous
+
+The **present continuous** is used for things happening **right now** or around now: I **am reading** a great book. It is formed with **am/is/are + verb-ing**. Compare: I **play** football (a habit) and I **am playing** football (at this moment). Some verbs, like know, like and want, are rarely used in the continuous form: I know the answer, not “I am knowing”.
+
+## Past simple
+
+The **past simple** is used for finished actions at a specific time in the past: I **visited** London **last year**. Regular verbs add **-ed**: play – played. Many common verbs are **irregular** and must be learned: go – went, see – saw, take – took, buy – bought, write – wrote.
+
+## Present perfect
+
+The **present perfect** is formed with **have/has + past participle**: I **have visited** London. It connects the past to the present, and is used when the time is not stated or is not finished: I have lived here **since 2020**. She has **never** been to Spain. We cannot use it with a finished time like “yesterday”: “I have seen him yesterday” is wrong; it should be “I saw him yesterday”.
+
+## The future
+
+- **will + verb** for predictions and quick decisions: It **will** rain tomorrow. I''ll help you!
+- **be going to + verb** for plans and things we can see coming: I **am going to** study tonight. Look at those clouds – it''s **going to** rain.
+- **Present continuous** for fixed arrangements: We **are meeting** at six.
+
+## Irregular verbs to know
+
+be – was/were – been, have – had – had, do – did – done, go – went – gone, get – got – got, make – made – made, say – said – said, see – saw – seen, come – came – come, know – knew – known, think – thought – thought, take – took – taken.
+
+## Tip
+
+When you write a story in the past, stay in the past tense. Switching between present and past by accident makes the text confusing.', '{"label":"Verb tenses","children":[{"label":"Present","children":[{"label":"Simple","note":"Habits, facts"},{"label":"Third person -s"},{"label":"Continuous","note":"am/is/are + -ing"}]},{"label":"Past","children":[{"label":"Past simple","note":"Finished time"},{"label":"Regular -ed"},{"label":"Irregular","note":"went, saw, bought"}]},{"label":"Present perfect","children":[{"label":"have/has + participle"},{"label":"since / for"},{"label":"Not with “yesterday”"}]},{"label":"Future","children":[{"label":"will","note":"Predictions, decisions"},{"label":"going to","note":"Plans, evidence"},{"label":"Present continuous","note":"Arrangements"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'engelsk-8:verb-tenses';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('engelsk-8:verb-tenses', 'Present simple', 'Habits, routines and facts: I walk to school every day.', 0),
+  ('engelsk-8:verb-tenses', 'Third person -s', 'He, she and it add -s in the present simple: she walks, he goes.', 1),
+  ('engelsk-8:verb-tenses', 'Present continuous', 'am/is/are + -ing, for things happening now: I am reading.', 2),
+  ('engelsk-8:verb-tenses', 'Past simple', 'Finished actions at a specific past time: I visited London last year.', 3),
+  ('engelsk-8:verb-tenses', 'Regular past', 'Add -ed: play – played, walk – walked.', 4),
+  ('engelsk-8:verb-tenses', 'Present perfect', 'have/has + past participle: I have visited London. Links past and present.', 5),
+  ('engelsk-8:verb-tenses', 'Present perfect + since/for', 'I have lived here since 2020 / for five years.', 6),
+  ('engelsk-8:verb-tenses', 'Not with finished time', 'Use past simple with “yesterday”: I saw him yesterday, not “have seen”.', 7),
+  ('engelsk-8:verb-tenses', 'will', 'Predictions and quick decisions: It will rain. I''ll help you!', 8),
+  ('engelsk-8:verb-tenses', 'be going to', 'Plans and things we can see coming: I''m going to study tonight.', 9),
+  ('engelsk-8:verb-tenses', 'go – went – gone', 'Irregular verb.', 10),
+  ('engelsk-8:verb-tenses', 'see – saw – seen', 'Irregular verb.', 11),
+  ('engelsk-8:verb-tenses', 'buy – bought – bought', 'Irregular verb.', 12),
+  ('engelsk-8:verb-tenses', 'write – wrote – written', 'Irregular verb.', 13),
+  ('engelsk-8:verb-tenses', 'Stative verbs', 'Verbs like know, like and want are rarely used with -ing: I know, not “I am knowing”.', 14);
+delete from public.quiz_sporsmal where tema_id = 'engelsk-8:verb-tenses';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('engelsk-8:verb-tenses', 'q01', 'flervalg', 'Choose the correct form: “She … to school every day.”', array['walk', 'walks', 'walking', 'is walk']::text[], 1, 'A daily routine uses the present simple, and “she” needs the third person -s: walks.', true, true, 0),
+  ('engelsk-8:verb-tenses', 'q02', 'flervalg', 'Choose the correct form: “Be quiet! The baby …”', array['sleeps', 'slept', 'is sleeping', 'has slept']::text[], 2, 'Something happening right now uses the present continuous: is sleeping.', true, true, 1),
+  ('engelsk-8:verb-tenses', 'q03', 'flervalg', 'What is the past simple of “go”?', array['goed', 'gone', 'going', 'went']::text[], 3, '“Go” is irregular: go – went – gone.', true, true, 2),
+  ('engelsk-8:verb-tenses', 'q04', 'flervalg', 'Which sentence is correct?', array['I saw him yesterday.', 'I have seen him yesterday.', 'I have see him yesterday.', 'I seen him yesterday.']::text[], 0, '“Yesterday” is a finished time, so we need the past simple: I saw him yesterday.', true, true, 3),
+  ('engelsk-8:verb-tenses', 'q05', 'flervalg', 'Choose the correct form: “We … here since 2020.”', array['live', 'lived', 'have lived', 'are live']::text[], 2, 'An action that started in the past and continues now, with “since”, uses the present perfect.', true, true, 4),
+  ('engelsk-8:verb-tenses', 'q06', 'flervalg', 'Which future form fits best? “Look at those dark clouds! It … rain.”', array['is going to', 'rains', 'has rained', 'rained']::text[], 0, 'When we can see something coming, we use “be going to”.', true, true, 5),
+  ('engelsk-8:verb-tenses', 'q07', 'flervalg', 'What is the past participle of “write”?', array['wrote', 'writed', 'written', 'writing']::text[], 2, 'write – wrote – written. The past participle is used with have/has: I have written.', true, true, 6),
+  ('engelsk-8:verb-tenses', 'q08', 'flervalg', 'Which sentence is correct?', array['I am knowing the answer.', 'I know the answer.', 'I knowing the answer.', 'I am know the answer.']::text[], 1, '“Know” is a stative verb and is not normally used in the continuous form.', true, false, 7),
+  ('engelsk-8:verb-tenses', 'q09', 'flervalg', 'What is the past simple of “buy”?', array['buyed', 'bought', 'brought', 'buy']::text[], 1, 'buy – bought – bought. Do not mix it up with bring – brought.', true, false, 8),
+  ('engelsk-8:verb-tenses', 'q10', 'flervalg', 'Choose the correct form: “She has never … to Spain.”', array['be', 'was', 'went', 'been']::text[], 3, 'The present perfect uses has + past participle. The past participle of “be” is “been”.', true, true, 9),
+  ('engelsk-8:verb-tenses', 'm01', 'sant-usant', '“He play football” is correct in the present simple.', array['Sant', 'Usant']::text[], 1, 'With “he”, the verb needs an -s: he plays.', false, true, 10),
+  ('engelsk-8:verb-tenses', 'm02', 'sant-usant', 'The present perfect is formed with have/has + past participle.', array['Sant', 'Usant']::text[], 0, 'Example: I have finished my homework.', false, true, 11),
+  ('engelsk-8:verb-tenses', 'm03', 'sant-usant', '“I''m going to” can be used about plans.', array['Sant', 'Usant']::text[], 0, 'Example: I''m going to visit my grandmother this weekend.', false, true, 12),
+  ('engelsk-8:verb-tenses', 'm04', 'sant-usant', 'All English verbs form the past simple by adding -ed.', array['Sant', 'Usant']::text[], 1, 'Many common verbs are irregular: go – went, see – saw.', false, true, 13),
+  ('engelsk-8:verb-tenses', 'm05', 'flervalg', 'What is the past simple of “think”?', array['thinked', 'thought', 'thank', 'thunk']::text[], 1, 'think – thought – thought.', false, true, 14),
+  ('engelsk-8:verb-tenses', 'm06', 'flervalg', 'Choose the correct form: “I … my keys. I can''t find them anywhere.”', array['lose', 'am losing', 'have lost', 'lost yesterday']::text[], 2, 'The present perfect shows a past action with a result now: the keys are still lost.', false, true, 15),
+  ('engelsk-8:verb-tenses', 'm07', 'flervalg', 'Choose the correct form: “Every summer we … to the mountains.”', array['go', 'are going now', 'gone', 'has gone']::text[], 0, '“Every summer” shows a habit, so we use the present simple.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('engelsk-8:verb-tenses', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Engelsk: Learning strategies and vocabulary
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('engelsk-8:learning-strategies-and-vocabulary', 'engelsk-8', 'learning-strategies-and-vocabulary', 'Learning strategies and vocabulary', 'Smart ways to learn and remember English words, use dictionaries and digital tools wisely, and build a varied vocabulary with idioms and synonyms.', array[1, 2, 5]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('engelsk-8:learning-strategies-and-vocabulary', '## Learning a language takes strategies
+
+Nobody learns a language just by sitting still. Good language learners use **strategies**: conscious methods that help them understand, remember and use new words and structures. The good news is that you can learn these strategies, and try out which ones work best for you.
+
+## Learning new words
+
+- **Learn words in context**: A word is easier to remember in a sentence than on a list. Write down the whole phrase: “make a decision”, not just “decision”.
+- **Spaced repetition**: Repeat words after a day, then after a few days, then after a week. Flashcards are perfect for this.
+- **Use the words**: Try to use new words when you speak and write. Words you use become active vocabulary.
+- **Group words**: Learn words about the same topic together, for example weather or school.
+- **Guess from context**: When you meet an unknown word, look at the sentence around it before you look it up.
+
+## Dictionaries and digital tools
+
+A **dictionary** gives you meaning, pronunciation, word class and example sentences. **English–English** dictionaries explain words in English and help you think in English. **Translation tools** can be useful, but they often translate word by word and can choose the wrong meaning. Always check whether the result sounds natural. **Spell checkers** find many mistakes, but not all, for example “their” used instead of “there”.
+
+## Building a varied vocabulary
+
+A text becomes more interesting when you vary your words.
+
+- **Synonyms** are words with similar meaning: big – large – huge – enormous.
+- **Antonyms** are opposites: happy – sad.
+- Replace overused words like “nice”, “good” and “said”: The food was **delicious**. “Stop!” she **shouted**.
+- **Collocations** are words that naturally go together: “heavy rain”, “make a mistake”, “do homework”.
+
+## Idioms
+
+**Idioms** are expressions where the meaning is different from the individual words: “It''s raining cats and dogs” means that it is raining heavily. “Break a leg” means good luck. “Piece of cake” means very easy. Idioms make your English sound natural, but they must be used in the right situation, since many are informal.
+
+## Reflect on your learning
+
+Think about which strategies help you most. Do you remember better when you write, when you listen or when you speak? Setting small goals, like learning ten new words a week, and checking your progress helps you keep going.', '{"label":"Learning strategies and vocabulary","children":[{"label":"Learning words","children":[{"label":"In context"},{"label":"Spaced repetition"},{"label":"Use them actively"},{"label":"Guess from context"}]},{"label":"Tools","children":[{"label":"Dictionaries"},{"label":"Translation tools","note":"Check the result"},{"label":"Spell checkers","note":"Not perfect"}]},{"label":"Varied vocabulary","children":[{"label":"Synonyms"},{"label":"Antonyms"},{"label":"Collocations","note":"make a mistake"},{"label":"Replace “nice”, “good”"}]},{"label":"Idioms","children":[{"label":"Piece of cake"},{"label":"Break a leg"},{"label":"Raining cats and dogs"}]},{"label":"Reflection","children":[{"label":"What works for me?"},{"label":"Small goals"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'engelsk-8:learning-strategies-and-vocabulary';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('engelsk-8:learning-strategies-and-vocabulary', 'Learning strategy', 'A conscious method that helps you understand, remember and use a language.', 0),
+  ('engelsk-8:learning-strategies-and-vocabulary', 'Context', 'The words and sentences around a word, which help you understand its meaning.', 1),
+  ('engelsk-8:learning-strategies-and-vocabulary', 'Spaced repetition', 'Repeating words with longer and longer gaps: after a day, a few days, a week.', 2),
+  ('engelsk-8:learning-strategies-and-vocabulary', 'Active vocabulary', 'Words you can use yourself when you speak and write.', 3),
+  ('engelsk-8:learning-strategies-and-vocabulary', 'Passive vocabulary', 'Words you understand when you read or hear them, but do not use yourself.', 4),
+  ('engelsk-8:learning-strategies-and-vocabulary', 'English–English dictionary', 'A dictionary that explains English words in English.', 5),
+  ('engelsk-8:learning-strategies-and-vocabulary', 'Translation tool', 'Useful, but often translates word by word and can choose the wrong meaning.', 6),
+  ('engelsk-8:learning-strategies-and-vocabulary', 'Synonym', 'A word with a similar meaning: big – large – huge.', 7),
+  ('engelsk-8:learning-strategies-and-vocabulary', 'Antonym', 'A word with the opposite meaning: happy – sad.', 8),
+  ('engelsk-8:learning-strategies-and-vocabulary', 'Collocation', 'Words that naturally go together: heavy rain, make a mistake.', 9),
+  ('engelsk-8:learning-strategies-and-vocabulary', 'Idiom', 'An expression whose meaning is different from its individual words.', 10),
+  ('engelsk-8:learning-strategies-and-vocabulary', 'It''s raining cats and dogs', 'It is raining heavily.', 11),
+  ('engelsk-8:learning-strategies-and-vocabulary', 'Piece of cake', 'Something very easy.', 12),
+  ('engelsk-8:learning-strategies-and-vocabulary', 'Break a leg', 'Good luck (often said before a performance).', 13),
+  ('engelsk-8:learning-strategies-and-vocabulary', 'Overused words', 'Words like nice, good and said, which can be replaced by more precise words.', 14);
+delete from public.quiz_sporsmal where tema_id = 'engelsk-8:learning-strategies-and-vocabulary';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('engelsk-8:learning-strategies-and-vocabulary', 'q01', 'flervalg', 'Why is it smart to learn words in context?', array['Because it is faster to write', 'Because words are easier to remember and use correctly in a sentence', 'Because lists are forbidden', 'Because context words are shorter']::text[], 1, 'In a sentence you see how the word is used, which helps you remember it and use it correctly.', true, true, 0),
+  ('engelsk-8:learning-strategies-and-vocabulary', 'q02', 'flervalg', 'What does “spaced repetition” mean?', array['Repeating words with longer and longer gaps', 'Repeating a word 100 times in a row', 'Writing words with spaces between the letters', 'Learning only new words']::text[], 0, 'Repeating words just before you forget them helps them stay in your long-term memory.', true, true, 1),
+  ('engelsk-8:learning-strategies-and-vocabulary', 'q03', 'flervalg', 'Which word is a synonym of “enormous”?', array['tiny', 'quick', 'huge', 'empty']::text[], 2, '“Huge” and “enormous” both mean very big. “Tiny” is an antonym.', true, true, 2),
+  ('engelsk-8:learning-strategies-and-vocabulary', 'q04', 'flervalg', 'What does the idiom “piece of cake” mean?', array['A dessert', 'A small part of something', 'A birthday', 'Something very easy']::text[], 3, '“The test was a piece of cake” means the test was very easy.', true, true, 3),
+  ('engelsk-8:learning-strategies-and-vocabulary', 'q05', 'flervalg', 'Which is a natural collocation?', array['make a mistake', 'do a mistake', 'take a mistake', 'create a mistake']::text[], 0, 'In English we “make” a mistake. Collocations must often be learned as fixed phrases.', true, true, 4),
+  ('engelsk-8:learning-strategies-and-vocabulary', 'q06', 'flervalg', 'What is a risk with translation tools?', array['They are always correct', 'They can translate word by word and choose the wrong meaning', 'They only work in Norwegian', 'They make texts shorter']::text[], 1, 'Translation tools can miss the context. Always check if the result sounds natural.', true, true, 5),
+  ('engelsk-8:learning-strategies-and-vocabulary', 'q07', 'flervalg', 'Which word could replace “said” to show that someone was angry?', array['whispered', 'mumbled', 'asked', 'shouted']::text[], 3, '“Shouted” shows volume and emotion, which makes the text more vivid.', true, false, 6),
+  ('engelsk-8:learning-strategies-and-vocabulary', 'q08', 'flervalg', 'What does “It''s raining cats and dogs” mean?', array['Animals are falling from the sky', 'It is raining heavily', 'It is a nice day', 'It has stopped raining']::text[], 1, 'This idiom means that it is raining very hard.', true, true, 7),
+  ('engelsk-8:learning-strategies-and-vocabulary', 'q09', 'flervalg', 'What is an antonym of “ancient”?', array['old', 'historic', 'modern', 'large']::text[], 2, '“Ancient” means very old, and “modern” is the opposite.', true, false, 8),
+  ('engelsk-8:learning-strategies-and-vocabulary', 'q10', 'flervalg', 'Which mistake will a spell checker often NOT find?', array['“their” used instead of “there”', '“becuase” instead of “because”', '“teh” instead of “the”', '“freind” instead of “friend”']::text[], 0, '“Their” is a real word, so the spell checker does not react, even when it is used wrongly.', true, true, 9),
+  ('engelsk-8:learning-strategies-and-vocabulary', 'm01', 'sant-usant', 'An idiom always means exactly what the words say.', array['Sant', 'Usant']::text[], 1, 'An idiom has a meaning that is different from the individual words.', false, true, 10),
+  ('engelsk-8:learning-strategies-and-vocabulary', 'm02', 'sant-usant', 'Using new words when you speak helps you remember them.', array['Sant', 'Usant']::text[], 0, 'Words you use actively become part of your active vocabulary.', false, true, 11),
+  ('engelsk-8:learning-strategies-and-vocabulary', 'm03', 'sant-usant', '“Heavy rain” is a common collocation in English.', array['Sant', 'Usant']::text[], 0, 'English speakers say “heavy rain”, not “strong rain”.', false, true, 12),
+  ('engelsk-8:learning-strategies-and-vocabulary', 'm04', 'sant-usant', 'A translation tool is always right.', array['Sant', 'Usant']::text[], 1, 'Translation tools can misunderstand context and give unnatural or wrong results.', false, true, 13),
+  ('engelsk-8:learning-strategies-and-vocabulary', 'm05', 'flervalg', 'What does “break a leg” usually mean?', array['Be careful', 'Good luck', 'Go home', 'Hurry up']::text[], 1, '“Break a leg” is said to wish someone good luck, especially before a performance.', false, true, 14),
+  ('engelsk-8:learning-strategies-and-vocabulary', 'm06', 'flervalg', 'Which word is more precise than “good” in “The film was good”?', array['thing', 'fine', 'brilliant', 'ok']::text[], 2, '“Brilliant” gives a clearer picture of how good the film was.', false, true, 15),
+  ('engelsk-8:learning-strategies-and-vocabulary', 'm07', 'flervalg', 'What should you do first when you meet an unknown word?', array['Try to guess its meaning from the context', 'Stop reading', 'Skip the whole paragraph', 'Translate the whole text']::text[], 0, 'The context often gives you a clue. Look the word up if it is important.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('engelsk-8:learning-strategies-and-vocabulary', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Engelsk: Writing narratives
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('engelsk-8:writing-narratives', 'engelsk-8', 'writing-narratives', 'Writing narratives', 'How to plan, write and revise a story in English: structure, point of view, dialogue, descriptive language and using feedback.', array[14, 15, 9]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('engelsk-8:writing-narratives', '## What is a narrative?
+
+A **narrative** is a text that tells a story. It can be a short story, a personal story about something that happened to you, or a fairy tale. Most narratives have **characters**, a **setting** (where and when), and a **plot** (what happens).
+
+## Structure
+
+A classic story follows a simple pattern:
+
+- **Beginning (exposition)**: introduce the main character and the setting.
+- **Conflict**: something happens that creates a problem.
+- **Rising action**: the tension builds.
+- **Climax**: the most exciting moment, the turning point.
+- **Ending (resolution)**: the problem is solved, or the story ends in an open way.
+
+You do not have to start at the beginning. A story that starts in the middle of the action grabs the reader''s attention: “The door slammed shut behind me, and the lights went out.”
+
+## Point of view
+
+A **first-person narrator** tells the story as “I”, which makes the reader feel close to the character. A **third-person narrator** tells the story about “he”, “she” or “they”, and can show several characters'' thoughts. Choose one point of view and stick to it.
+
+## Show, don''t tell
+
+Instead of telling the reader that someone is scared, **show** it: “Her hands were shaking, and she could hear her own heartbeat.” Use your senses – what can the character see, hear, smell, feel and taste? Choose precise verbs and adjectives: “crept” instead of “walked slowly”, “freezing” instead of “very cold”.
+
+## Dialogue
+
+Dialogue brings characters to life. In English, dialogue is written with **quotation marks**, and a **new line** starts every time a new person speaks:
+
+“Where are you going?” Mum asked.
+
+“Nowhere,” I mumbled.
+
+Vary the verbs: asked, whispered, shouted, replied, mumbled.
+
+## Tense and linking words
+
+Most stories are written in the **past tense**. Stay in the same tense throughout. **Linking words** show the order of events and create flow: first, then, suddenly, meanwhile, after that, finally.
+
+## Revising your story
+
+When you get **feedback**, use it actively. Read your story aloud and ask: Is the beginning interesting? Is there a clear conflict? Have I shown feelings instead of just telling them? Have I checked tense, spelling and punctuation? Good writers always revise; the first draft is never the final version.', '{"label":"Writing narratives","children":[{"label":"Elements","children":[{"label":"Characters"},{"label":"Setting"},{"label":"Plot"}]},{"label":"Structure","children":[{"label":"Beginning"},{"label":"Conflict"},{"label":"Rising action"},{"label":"Climax"},{"label":"Ending"}]},{"label":"Point of view","children":[{"label":"First person","note":"“I”"},{"label":"Third person","note":"“he”, “she”"}]},{"label":"Language","children":[{"label":"Show, don''t tell"},{"label":"The five senses"},{"label":"Precise verbs"},{"label":"Dialogue rules"}]},{"label":"Revising","children":[{"label":"Same tense"},{"label":"Linking words"},{"label":"Use feedback"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'engelsk-8:writing-narratives';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('engelsk-8:writing-narratives', 'Narrative', 'A text that tells a story, real or made up.', 0),
+  ('engelsk-8:writing-narratives', 'Character', 'A person or creature in a story.', 1),
+  ('engelsk-8:writing-narratives', 'Setting', 'Where and when a story takes place.', 2),
+  ('engelsk-8:writing-narratives', 'Plot', 'What happens in the story; the sequence of events.', 3),
+  ('engelsk-8:writing-narratives', 'Conflict', 'The problem or struggle that drives the story forward.', 4),
+  ('engelsk-8:writing-narratives', 'Climax', 'The most exciting moment and turning point of the story.', 5),
+  ('engelsk-8:writing-narratives', 'Resolution', 'The ending, where the problem is solved or the story is rounded off.', 6),
+  ('engelsk-8:writing-narratives', 'In medias res', 'Starting a story in the middle of the action.', 7),
+  ('engelsk-8:writing-narratives', 'First-person narrator', 'The story is told by a character using “I”.', 8),
+  ('engelsk-8:writing-narratives', 'Third-person narrator', 'The story is told about “he”, “she” or “they”.', 9),
+  ('engelsk-8:writing-narratives', 'Show, don''t tell', 'Show feelings through actions and details instead of naming them.', 10),
+  ('engelsk-8:writing-narratives', 'Dialogue', 'Characters speaking. Use quotation marks and a new line for each speaker.', 11),
+  ('engelsk-8:writing-narratives', 'Linking words', 'Words like first, suddenly, meanwhile, finally that create flow.', 12),
+  ('engelsk-8:writing-narratives', 'Past tense in stories', 'Most stories are written in the past tense. Keep the same tense throughout.', 13),
+  ('engelsk-8:writing-narratives', 'Revise', 'Improve a text after feedback: content, structure, language and spelling.', 14);
+delete from public.quiz_sporsmal where tema_id = 'engelsk-8:writing-narratives';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('engelsk-8:writing-narratives', 'q01', 'flervalg', 'What is the setting of a story?', array['The main character', 'Where and when the story takes place', 'The ending', 'The title']::text[], 1, 'The setting tells the reader the place and time of the story.', true, true, 0),
+  ('engelsk-8:writing-narratives', 'q02', 'flervalg', 'What is the climax of a story?', array['The first sentence', 'The list of characters', 'The most exciting moment and turning point', 'The author''s name']::text[], 2, 'The climax is where the tension is highest and something important changes.', true, true, 1),
+  ('engelsk-8:writing-narratives', 'q03', 'flervalg', 'Which sentence “shows” rather than “tells”?', array['She was very nervous.', 'He was sad.', 'They were happy.', 'Her hands were shaking as she opened the letter.']::text[], 3, 'The shaking hands show that she is nervous, without naming the feeling.', true, true, 2),
+  ('engelsk-8:writing-narratives', 'q04', 'flervalg', 'How is dialogue usually written in English?', array['With quotation marks and a new line for each speaker', 'In capital letters', 'Without any punctuation', 'In brackets']::text[], 0, 'Quotation marks show what is said, and a new line makes it clear who is speaking.', true, true, 3),
+  ('engelsk-8:writing-narratives', 'q05', 'flervalg', 'What tense are most stories written in?', array['Present continuous', 'Past tense', 'Future tense', 'It does not matter, you can change often']::text[], 1, 'Most stories use the past tense, and it is important to stay in the same tense.', true, true, 4),
+  ('engelsk-8:writing-narratives', 'q06', 'flervalg', 'What does a first-person narrator use?', array['“I”', '“he” or “she”', '“you”', '“they” only']::text[], 0, 'The first-person narrator is a character in the story who tells it as “I”.', true, false, 5),
+  ('engelsk-8:writing-narratives', 'q07', 'flervalg', 'Which verb is more precise than “walked slowly”?', array['went', 'moved', 'crept', 'did']::text[], 2, '“Crept” tells the reader that the character moved slowly and quietly.', true, true, 6),
+  ('engelsk-8:writing-narratives', 'q08', 'flervalg', 'What is the conflict in a story?', array['The title', 'The problem or struggle that drives the story', 'The setting', 'The last sentence']::text[], 1, 'Without a conflict, there is little to keep the reader interested.', true, true, 7),
+  ('engelsk-8:writing-narratives', 'q09', 'flervalg', 'Which is a linking word that shows something unexpected?', array['finally', 'first', 'then', 'suddenly']::text[], 3, '“Suddenly” signals a surprising change in the story.', true, false, 8),
+  ('engelsk-8:writing-narratives', 'q10', 'flervalg', 'What should you do with feedback on your story?', array['Ignore it', 'Use it to revise and improve the text', 'Delete the story', 'Only fix the title']::text[], 1, 'Feedback helps you see your text through a reader''s eyes, so you can make it better.', true, true, 9),
+  ('engelsk-8:writing-narratives', 'm01', 'sant-usant', 'A story must always start at the very beginning of the events.', array['Sant', 'Usant']::text[], 1, 'Many stories start in the middle of the action to catch the reader''s attention.', false, true, 10),
+  ('engelsk-8:writing-narratives', 'm02', 'sant-usant', 'You should start a new line when a new character speaks.', array['Sant', 'Usant']::text[], 0, 'This makes it clear who is speaking in a dialogue.', false, true, 11),
+  ('engelsk-8:writing-narratives', 'm03', 'sant-usant', 'Using your senses in descriptions makes a story more vivid.', array['Sant', 'Usant']::text[], 0, 'Details about what characters see, hear and feel bring the story to life.', false, true, 12),
+  ('engelsk-8:writing-narratives', 'm04', 'sant-usant', 'It is good style to switch between past and present tense often.', array['Sant', 'Usant']::text[], 1, 'Switching tense by accident confuses the reader. Stay in one tense.', false, true, 13),
+  ('engelsk-8:writing-narratives', 'm05', 'flervalg', 'Which opening grabs the reader''s attention best?', array['This is a story about a boy.', 'The door slammed shut behind me, and the lights went out.', 'Once there was a day.', 'I will now tell a story.']::text[], 1, 'Starting in the middle of dramatic action makes the reader want to know more.', false, true, 14),
+  ('engelsk-8:writing-narratives', 'm06', 'flervalg', 'What is the resolution of a story?', array['The beginning', 'The climax', 'The ending, where the problem is solved or rounded off', 'The dialogue']::text[], 2, 'The resolution ties up the story after the climax.', false, true, 15),
+  ('engelsk-8:writing-narratives', 'm07', 'flervalg', 'Which verb could replace “said” when someone speaks very quietly?', array['whispered', 'yelled', 'screamed', 'shouted']::text[], 0, '“Whispered” tells the reader that the character speaks very quietly.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('engelsk-8:writing-narratives', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Engelsk: English around the world
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('engelsk-8:english-around-the-world', 'engelsk-8', 'english-around-the-world', 'English around the world', 'Why English became a world language, where it is spoken, differences between British and American English, and the role English plays in Norway.', array[16, 4, 7]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('engelsk-8:english-around-the-world', '## A global language
+
+English is spoken all over the world. Several hundred million people have English as their **first language**, and many more use it as a **second language** or **foreign language**. In total, well over a billion people can communicate in English. When people with different first languages use English to talk to each other, it works as a **lingua franca** – a shared language.
+
+## How did this happen?
+
+English spread mainly for two reasons. First, the **British Empire** ruled large parts of the world from the 1600s to the 1900s and brought English to North America, Australia, Africa and Asia. Second, the **United States** became the world''s leading economic and cultural power in the 1900s. Films, music, science, business and later the internet made English even more important.
+
+## Where is English spoken?
+
+English is the main language in countries like the **United Kingdom**, the **United States**, **Canada**, **Australia**, **New Zealand** and **Ireland**. It is an official language in many others, for example **India**, **Nigeria**, **South Africa**, **Kenya** and **Singapore**, where it lives side by side with local languages.
+
+## Varieties of English
+
+English is not one single variety. There are many **accents** and **dialects**, and each English-speaking country has its own words and expressions.
+
+- **Spelling**: British colour, centre, organise – American color, center, organize.
+- **Vocabulary**: British flat, lift, biscuit, autumn, trousers – American apartment, elevator, cookie, fall, pants.
+- **Pronunciation**: Many Americans pronounce the r in “car”, while many British speakers do not.
+
+No variety is more “correct” than another. When you write, it is a good idea to be **consistent** and stick to either British or American spelling.
+
+## English in Norway
+
+In Norway, English is everywhere: in films, series, games, music and social media. Norwegians learn English from the first year at school, and many companies use English as a working language. Norwegian has also borrowed many English words, like “weekend”, “streaming” and “deadline”.
+
+Some people worry that English will push Norwegian aside in areas like research and business. This is sometimes called **domain loss**. Others point out that knowing English gives Norwegians great opportunities to study, work and communicate internationally.
+
+## Learning from other languages
+
+Comparing English with Norwegian and other languages you know can help you learn. Many words are similar (hus – house, bok – book), but watch out for **false friends**: “eventually” means “til slutt”, not “eventuelt”.', '{"label":"English around the world","children":[{"label":"World language","children":[{"label":"First language"},{"label":"Second/foreign language"},{"label":"Lingua franca"}]},{"label":"History","children":[{"label":"British Empire"},{"label":"USA","note":"1900s"},{"label":"Internet and media"}]},{"label":"Where","children":[{"label":"UK, USA, Canada"},{"label":"Australia, New Zealand, Ireland"},{"label":"India, Nigeria, South Africa"}]},{"label":"Varieties","children":[{"label":"Spelling","note":"colour/color"},{"label":"Words","note":"flat/apartment"},{"label":"Accents"}]},{"label":"English in Norway","children":[{"label":"Media and school"},{"label":"Loanwords"},{"label":"Domain loss"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'engelsk-8:english-around-the-world';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('engelsk-8:english-around-the-world', 'First language', 'The language a person learns first, as a child.', 0),
+  ('engelsk-8:english-around-the-world', 'Second language', 'A language used in daily life in addition to the first language, often in the country one lives in.', 1),
+  ('engelsk-8:english-around-the-world', 'Lingua franca', 'A shared language used between people with different first languages.', 2),
+  ('engelsk-8:english-around-the-world', 'British Empire', 'The territories ruled by Britain from the 1600s to the 1900s, which spread English around the world.', 3),
+  ('engelsk-8:english-around-the-world', 'Why English spread', 'The British Empire, and later the economic and cultural power of the USA.', 4),
+  ('engelsk-8:english-around-the-world', 'Official language', 'A language with legal status in a country, like English in India and Nigeria.', 5),
+  ('engelsk-8:english-around-the-world', 'Accent', 'The way people pronounce a language.', 6),
+  ('engelsk-8:english-around-the-world', 'Dialect', 'A variety of a language with its own words, grammar and pronunciation.', 7),
+  ('engelsk-8:english-around-the-world', 'colour / color', 'British and American spelling of the same word.', 8),
+  ('engelsk-8:english-around-the-world', 'flat / apartment', 'British and American words for “leilighet”.', 9),
+  ('engelsk-8:english-around-the-world', 'autumn / fall', 'British and American words for “høst”.', 10),
+  ('engelsk-8:english-around-the-world', 'Be consistent', 'Stick to either British or American spelling in one text.', 11),
+  ('engelsk-8:english-around-the-world', 'Domain loss', 'When a language, like Norwegian, is pushed aside by another language in an area such as research.', 12),
+  ('engelsk-8:english-around-the-world', 'Loanword', 'A word borrowed from another language, like “weekend” in Norwegian.', 13),
+  ('engelsk-8:english-around-the-world', 'eventually', 'False friend: means “til slutt”, not “eventuelt”.', 14);
+delete from public.quiz_sporsmal where tema_id = 'engelsk-8:english-around-the-world';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('engelsk-8:english-around-the-world', 'q01', 'flervalg', 'What is a lingua franca?', array['A French dialect', 'A shared language between people with different first languages', 'An old form of English', 'A type of accent']::text[], 1, 'English often works as a lingua franca, for example when a Norwegian and a Japanese person talk together.', true, true, 0),
+  ('engelsk-8:english-around-the-world', 'q02', 'flervalg', 'Which historical development spread English to many continents?', array['The Viking Age', 'The Roman Empire', 'The British Empire', 'The Olympic Games']::text[], 2, 'The British Empire brought English to North America, Australia, Africa and Asia.', true, true, 1),
+  ('engelsk-8:english-around-the-world', 'q03', 'flervalg', 'Which is the American spelling?', array['colour', 'centre', 'organise', 'color']::text[], 3, 'Americans write “color”, British English uses “colour”.', true, true, 2),
+  ('engelsk-8:english-around-the-world', 'q04', 'flervalg', 'What is the British word for American “elevator”?', array['lift', 'stairs', 'flat', 'tube']::text[], 0, 'British English says “lift”, American English says “elevator”.', true, true, 3),
+  ('engelsk-8:english-around-the-world', 'q05', 'flervalg', 'In which country is English an official language alongside many local languages?', array['Norway', 'India', 'Brazil', 'Japan']::text[], 1, 'India has English as one of its official languages, together with Hindi and many regional languages.', true, true, 4),
+  ('engelsk-8:english-around-the-world', 'q06', 'flervalg', 'What does “eventually” mean?', array['eventuelt', 'kanskje', 'til slutt', 'straks']::text[], 2, '“Eventually” is a false friend. It means “til slutt” or “etter hvert”.', true, true, 5),
+  ('engelsk-8:english-around-the-world', 'q07', 'flervalg', 'What is domain loss?', array['When a language is pushed aside by another language in an area like research or business', 'When you lose a website', 'When a dialect disappears', 'When you forget words']::text[], 0, 'Some fear that Norwegian may lose ground to English in areas like higher education and business.', true, true, 6),
+  ('engelsk-8:english-around-the-world', 'q08', 'flervalg', 'Which of these is a loanword from English in Norwegian?', array['hus', 'skog', 'weekend', 'fjell']::text[], 2, '“Weekend” has been borrowed from English and is widely used in Norwegian.', true, false, 7),
+  ('engelsk-8:english-around-the-world', 'q09', 'flervalg', 'Is British English more correct than American English?', array['Yes, always', 'Only in writing', 'Only in the UK', 'No, they are equally correct varieties']::text[], 3, 'Both are standard varieties. The important thing is to be consistent.', true, true, 8),
+  ('engelsk-8:english-around-the-world', 'q10', 'flervalg', 'What is the American word for British “biscuit”?', array['cookie', 'candy', 'cracker', 'chip']::text[], 0, 'British “biscuit” is usually “cookie” in American English.', true, false, 9),
+  ('engelsk-8:english-around-the-world', 'm01', 'sant-usant', 'English is an official language in Nigeria.', array['Sant', 'Usant']::text[], 0, 'English is the official language of Nigeria, where hundreds of other languages are also spoken.', false, true, 10),
+  ('engelsk-8:english-around-the-world', 'm02', 'sant-usant', 'British and American English are two completely different languages.', array['Sant', 'Usant']::text[], 1, 'They are varieties of the same language, with some differences in spelling, words and pronunciation.', false, true, 11),
+  ('engelsk-8:english-around-the-world', 'm03', 'sant-usant', '“Fall” is the American word for autumn.', array['Sant', 'Usant']::text[], 0, 'Americans usually say “fall”, British speakers “autumn”.', false, true, 12),
+  ('engelsk-8:english-around-the-world', 'm04', 'sant-usant', 'You should mix British and American spelling in the same text.', array['Sant', 'Usant']::text[], 1, 'It is best to be consistent and choose one variety.', false, true, 13),
+  ('engelsk-8:english-around-the-world', 'm05', 'flervalg', 'What is the British word for American “pants”?', array['shorts', 'trousers', 'jeans', 'socks']::text[], 1, 'British “trousers” are American “pants”. In British English, “pants” means underwear.', false, true, 14),
+  ('engelsk-8:english-around-the-world', 'm06', 'flervalg', 'Which country became the leading economic and cultural power in the 1900s?', array['Canada', 'Australia', 'The United States', 'Ireland']::text[], 2, 'American films, music, business and technology spread English further in the 1900s.', false, true, 15),
+  ('engelsk-8:english-around-the-world', 'm07', 'flervalg', 'What is an accent?', array['The way people pronounce a language', 'A spelling mistake', 'A type of grammar', 'A dictionary']::text[], 0, 'An accent is about pronunciation. People from different places have different accents.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('engelsk-8:english-around-the-world', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Engelsk: The United Kingdom
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('engelsk-8:the-united-kingdom', 'engelsk-8', 'the-united-kingdom', 'The United Kingdom', 'The four nations of the UK, the difference between Great Britain and the UK, how the country is governed, and life and diversity in British society.', array[18, 16]::int[], 5, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('engelsk-8:the-united-kingdom', '## Four nations, one kingdom
+
+The **United Kingdom of Great Britain and Northern Ireland** – the **UK** for short – consists of four nations: **England**, **Scotland**, **Wales** and **Northern Ireland**. Their capitals are **London**, **Edinburgh**, **Cardiff** and **Belfast**. London is also the capital of the whole UK.
+
+People often mix up the names. **Great Britain** is the largest island and includes England, Scotland and Wales. The **UK** also includes Northern Ireland. The **British Isles** is a geographical name for Great Britain, Ireland and many smaller islands. The **Republic of Ireland** is an independent country and not part of the UK.
+
+## Government
+
+The UK is a **constitutional monarchy**. The **King** is head of state, but he has little real political power. The country is governed by **Parliament** in London, which has two chambers: the elected **House of Commons** and the **House of Lords**. The leader of the largest party in the House of Commons usually becomes **Prime Minister**. Scotland, Wales and Northern Ireland also have their own parliaments or assemblies that decide on matters like education and health.
+
+## The UK and Europe
+
+The UK was a member of the **European Union** from 1973. In a **referendum** in 2016, a small majority voted to leave, and the UK left the EU in 2020. This process is known as **Brexit**. It was, and still is, a much debated topic in British politics.
+
+## Languages and identity
+
+English is the main language, but **Welsh** is spoken by many people in Wales, and **Scottish Gaelic** and **Irish** are also used. Many people feel strongly connected to their own nation and call themselves Scottish, Welsh or English as well as British. The flag, the **Union Jack**, combines the crosses of England, Scotland and Ireland.
+
+## A diverse society
+
+The UK is a **multicultural** society. Many people have roots in former colonies in the Caribbean, Africa and South Asia, and more recently in other European countries. Big cities like London, Birmingham and Manchester are home to people from all over the world, which is reflected in food, music, religion and language.
+
+## Culture
+
+Britain has given the world famous writers like **William Shakespeare** and **J.K. Rowling**, bands like **The Beatles**, and sports like **football**, **rugby** and **cricket**. The **BBC** is a well-known public broadcaster. Traditions like afternoon tea, fish and chips and the Premier League are part of the image many people have of Britain, but everyday life is as varied as in any modern country.', '{"label":"The United Kingdom","children":[{"label":"Four nations","children":[{"label":"England","note":"London"},{"label":"Scotland","note":"Edinburgh"},{"label":"Wales","note":"Cardiff"},{"label":"Northern Ireland","note":"Belfast"}]},{"label":"Names","children":[{"label":"Great Britain","note":"The island"},{"label":"UK","note":"+ Northern Ireland"},{"label":"British Isles","note":"Geography"}]},{"label":"Government","children":[{"label":"Constitutional monarchy"},{"label":"Parliament","note":"Commons and Lords"},{"label":"Prime Minister"}]},{"label":"Society","children":[{"label":"Brexit","note":"2016 vote, left 2020"},{"label":"Multicultural"},{"label":"Welsh and Gaelic"}]},{"label":"Culture","children":[{"label":"Shakespeare"},{"label":"Football, rugby, cricket"},{"label":"BBC"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'engelsk-8:the-united-kingdom';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('engelsk-8:the-united-kingdom', 'The United Kingdom (UK)', 'England, Scotland, Wales and Northern Ireland.', 0),
+  ('engelsk-8:the-united-kingdom', 'Great Britain', 'The largest island: England, Scotland and Wales.', 1),
+  ('engelsk-8:the-united-kingdom', 'British Isles', 'Geographical name for Great Britain, Ireland and the smaller islands around them.', 2),
+  ('engelsk-8:the-united-kingdom', 'Republic of Ireland', 'An independent country, not part of the UK.', 3),
+  ('engelsk-8:the-united-kingdom', 'Capitals', 'London (England and UK), Edinburgh (Scotland), Cardiff (Wales), Belfast (Northern Ireland).', 4),
+  ('engelsk-8:the-united-kingdom', 'Constitutional monarchy', 'A system with a king or queen as head of state, but where elected politicians govern.', 5),
+  ('engelsk-8:the-united-kingdom', 'Parliament', 'The UK''s law-making body, with the House of Commons and the House of Lords.', 6),
+  ('engelsk-8:the-united-kingdom', 'House of Commons', 'The elected chamber of Parliament.', 7),
+  ('engelsk-8:the-united-kingdom', 'Prime Minister', 'The head of government, usually the leader of the largest party in the House of Commons.', 8),
+  ('engelsk-8:the-united-kingdom', 'Brexit', 'The UK leaving the EU after the referendum in 2016. The UK left in 2020.', 9),
+  ('engelsk-8:the-united-kingdom', 'Referendum', 'A vote where all voters decide on a single question.', 10),
+  ('engelsk-8:the-united-kingdom', 'Welsh', 'A Celtic language spoken by many in Wales.', 11),
+  ('engelsk-8:the-united-kingdom', 'Union Jack', 'The UK flag, combining the crosses of England, Scotland and Ireland.', 12),
+  ('engelsk-8:the-united-kingdom', 'Multicultural', 'A society with people from many different cultures and backgrounds.', 13),
+  ('engelsk-8:the-united-kingdom', 'BBC', 'The British Broadcasting Corporation, the UK''s public broadcaster.', 14);
+delete from public.quiz_sporsmal where tema_id = 'engelsk-8:the-united-kingdom';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('engelsk-8:the-united-kingdom', 'q01', 'flervalg', 'Which four nations make up the UK?', array['England, Scotland, Wales and Ireland', 'England, Scotland, Wales and Northern Ireland', 'England, Wales, Ireland and Iceland', 'England, Scotland, Ireland and Norway']::text[], 1, 'The UK consists of England, Scotland, Wales and Northern Ireland. The Republic of Ireland is a separate country.', true, true, 0),
+  ('engelsk-8:the-united-kingdom', 'q02', 'flervalg', 'What is the capital of Scotland?', array['Glasgow', 'Cardiff', 'Edinburgh', 'Belfast']::text[], 2, 'Edinburgh is the capital of Scotland. Glasgow is the largest city.', true, true, 1),
+  ('engelsk-8:the-united-kingdom', 'q03', 'flervalg', 'What is the difference between Great Britain and the UK?', array['They are exactly the same', 'Great Britain is bigger than the UK', 'The UK is only England', 'The UK also includes Northern Ireland']::text[], 3, 'Great Britain is the island with England, Scotland and Wales. The UK adds Northern Ireland.', true, true, 2),
+  ('engelsk-8:the-united-kingdom', 'q04', 'flervalg', 'What is the elected chamber of the British Parliament called?', array['The House of Commons', 'The House of Lords', 'The Senate', 'Downing Street']::text[], 0, 'Members of the House of Commons are elected by the people.', true, true, 3),
+  ('engelsk-8:the-united-kingdom', 'q05', 'flervalg', 'What does “Brexit” refer to?', array['A British sport', 'The UK leaving the European Union', 'A new British coin', 'The British royal family']::text[], 1, 'Brexit is short for “Britain exit”, the UK leaving the EU after the 2016 referendum.', true, true, 4),
+  ('engelsk-8:the-united-kingdom', 'q06', 'flervalg', 'Which language is spoken by many people in Wales?', array['Gaelic', 'Cornish', 'Welsh', 'Scots']::text[], 2, 'Welsh is a Celtic language with official status in Wales.', true, true, 5),
+  ('engelsk-8:the-united-kingdom', 'q07', 'flervalg', 'What type of government does the UK have?', array['A constitutional monarchy', 'A dictatorship', 'A republic with a president', 'An absolute monarchy']::text[], 0, 'The King is head of state, but Parliament and the government hold the political power.', true, true, 6),
+  ('engelsk-8:the-united-kingdom', 'q08', 'flervalg', 'Who becomes Prime Minister in the UK?', array['The King''s oldest child', 'The mayor of London', 'The oldest member of Parliament', 'Usually the leader of the largest party in the House of Commons']::text[], 3, 'The Prime Minister is usually the leader of the party that can command a majority in the House of Commons.', true, true, 7),
+  ('engelsk-8:the-united-kingdom', 'q09', 'flervalg', 'Which famous playwright was British?', array['Henrik Ibsen', 'William Shakespeare', 'Mark Twain', 'Astrid Lindgren']::text[], 1, 'William Shakespeare is one of the most famous writers in the English language.', true, false, 8),
+  ('engelsk-8:the-united-kingdom', 'q10', 'flervalg', 'Why is the UK a multicultural society?', array['Because everyone has the same background', 'Because only English is spoken', 'Because people with roots in many countries live there', 'Because of the weather']::text[], 2, 'Immigration from former colonies and other countries has made the UK very diverse.', true, false, 9),
+  ('engelsk-8:the-united-kingdom', 'm01', 'sant-usant', 'The Republic of Ireland is part of the UK.', array['Sant', 'Usant']::text[], 1, 'The Republic of Ireland is an independent country. Only Northern Ireland is part of the UK.', false, true, 10),
+  ('engelsk-8:the-united-kingdom', 'm02', 'sant-usant', 'The King of the UK has little real political power.', array['Sant', 'Usant']::text[], 0, 'In a constitutional monarchy, elected politicians govern.', false, true, 11),
+  ('engelsk-8:the-united-kingdom', 'm03', 'sant-usant', 'Cardiff is the capital of Wales.', array['Sant', 'Usant']::text[], 0, 'Cardiff is the capital and largest city of Wales.', false, true, 12),
+  ('engelsk-8:the-united-kingdom', 'm04', 'sant-usant', 'Scotland has its own parliament that decides on some matters.', array['Sant', 'Usant']::text[], 0, 'The Scottish Parliament decides on issues like education and health.', false, true, 13),
+  ('engelsk-8:the-united-kingdom', 'm05', 'flervalg', 'When did the UK leave the EU?', array['1973', '2016', '2020', '2008']::text[], 2, 'The referendum was in 2016, but the UK formally left the EU in 2020.', false, true, 14),
+  ('engelsk-8:the-united-kingdom', 'm06', 'flervalg', 'What does the Union Jack combine?', array['The crosses of England, Scotland and Ireland', 'The colours of the EU', 'Symbols of London', 'The flags of all Commonwealth countries']::text[], 0, 'The flag combines the crosses of St George, St Andrew and St Patrick.', false, true, 15),
+  ('engelsk-8:the-united-kingdom', 'm07', 'flervalg', 'What is the BBC?', array['A football club', 'The UK''s public broadcaster', 'A political party', 'A bank']::text[], 1, 'The British Broadcasting Corporation is a well-known public broadcaster.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('engelsk-8:the-united-kingdom', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Naturfag (8): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'naturfag-8' and slug not in ('naturvitenskapelig-metode', 'celler', 'fotosyntese-og-celleanding', 'okosystemer', 'atomer-og-periodesystemet', 'kjemiske-reaksjoner', 'platetektonikk');
+
+-- Naturfag: Naturvitenskapelig metode
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('naturfag-8:naturvitenskapelig-metode', 'naturfag-8', 'naturvitenskapelig-metode', 'Naturvitenskapelig metode', 'Hvordan naturforskere arbeider: problemstilling, hypotese, variabler, forsøk, datainnsamling, konklusjon – og hvordan du gjennomfører forsøk trygt.', array[1, 2, 4]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('naturfag-8:naturvitenskapelig-metode', '## Hvordan vet vi det vi vet?
+
+Naturvitenskapen bygger på **observasjoner** og **forsøk**. I stedet for å stole på gjetting eller autoriteter, tester forskerne ideene sine mot virkeligheten. Måten de gjør det på, kalles **naturvitenskapelig metode**. Den kan beskrives som en rekke steg, selv om forskning i praksis ofte går fram og tilbake.
+
+## Stegene
+
+- **Observasjon og spørsmål**: Du legger merke til noe og lurer på hvorfor. Hvorfor visner planten i vinduskarmen?
+- **Hypotese**: en mulig forklaring som kan testes. «Planten visner fordi den får for mye sol.» En god hypotese kan vise seg å være feil.
+- **Planlegging av forsøk**: Hvordan kan hypotesen testes?
+- **Gjennomføring og datainnsamling**: Du måler og noterer resultatene nøyaktig, gjerne i en tabell.
+- **Analyse**: Du sorterer dataene, lager diagrammer og ser etter mønstre.
+- **Konklusjon**: Stemmer resultatene med hypotesen? Hvis ikke, må hypotesen endres eller forkastes.
+- **Rapport og deling**: Du beskriver hva du gjorde, slik at andre kan kontrollere og gjenta forsøket.
+
+## Variabler
+
+I et godt forsøk endrer du bare **én ting om gangen**.
+
+- Den **uavhengige variabelen** er det du selv endrer, for eksempel mengden lys.
+- Den **avhengige variabelen** er det du måler, for eksempel hvor mye planten vokser.
+- **Kontrollerte variabler** holdes like, som vannmengde, jord og temperatur. Ellers vet du ikke hva som forårsaket resultatet.
+
+Mange forsøk har også en **kontrollgruppe** som ikke utsettes for endringen, slik at du har noe å sammenligne med.
+
+## Pålitelige resultater
+
+Resultatene blir mer **pålitelige** når forsøket gjentas flere ganger, og når andre kan få samme resultat. Alle målinger har **usikkerhet**, og det kan finnes **feilkilder**, som unøyaktig måleutstyr eller at noe har endret seg underveis. En god rapport drøfter feilkildene og vurderer hvor sikker konklusjonen er.
+
+## Sikkerhet
+
+Før et forsøk gjør du en **risikovurdering**: Hva kan gå galt, og hvordan unngår du det? Les **faresymbolene** på kjemikaliene, bruk **vernebriller** og eventuelt hansker, ha langt hår satt opp, og vit hvor brannslukningsapparat, øyedusj og førstehjelpsutstyr er. Følg alltid lærerens instruksjoner, og rydd og vask opp etter deg.', '{"label":"Naturvitenskapelig metode","children":[{"label":"Stegene","children":[{"label":"Observasjon og spørsmål"},{"label":"Hypotese"},{"label":"Forsøk og data"},{"label":"Analyse og konklusjon"},{"label":"Rapport"}]},{"label":"Variabler","children":[{"label":"Uavhengig","note":"Du endrer"},{"label":"Avhengig","note":"Du måler"},{"label":"Kontrollerte","note":"Holdes like"},{"label":"Kontrollgruppe"}]},{"label":"Kvalitet","children":[{"label":"Gjenta forsøket"},{"label":"Usikkerhet"},{"label":"Feilkilder"}]},{"label":"Sikkerhet","children":[{"label":"Risikovurdering"},{"label":"Faresymboler"},{"label":"Vernebriller"},{"label":"Følg instruksjoner"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'naturfag-8:naturvitenskapelig-metode';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('naturfag-8:naturvitenskapelig-metode', 'Naturvitenskapelig metode', 'Måten forskere undersøker naturen på: spørsmål, hypotese, forsøk, analyse og konklusjon.', 0),
+  ('naturfag-8:naturvitenskapelig-metode', 'Observasjon', 'Noe du legger merke til med sansene eller måleinstrumenter.', 1),
+  ('naturfag-8:naturvitenskapelig-metode', 'Hypotese', 'En mulig forklaring som kan testes med forsøk eller observasjoner.', 2),
+  ('naturfag-8:naturvitenskapelig-metode', 'Uavhengig variabel', 'Det du selv endrer i et forsøk.', 3),
+  ('naturfag-8:naturvitenskapelig-metode', 'Avhengig variabel', 'Det du måler for å se virkningen av endringen.', 4),
+  ('naturfag-8:naturvitenskapelig-metode', 'Kontrollerte variabler', 'Faktorer som holdes like, slik at bare én ting endres om gangen.', 5),
+  ('naturfag-8:naturvitenskapelig-metode', 'Kontrollgruppe', 'En gruppe som ikke utsettes for endringen, og som brukes til sammenligning.', 6),
+  ('naturfag-8:naturvitenskapelig-metode', 'Data', 'Målinger og observasjoner som samles inn under et forsøk.', 7),
+  ('naturfag-8:naturvitenskapelig-metode', 'Konklusjon', 'Svaret forsøket gir: støtter eller svekker resultatene hypotesen?', 8),
+  ('naturfag-8:naturvitenskapelig-metode', 'Pålitelighet', 'Hvor mye vi kan stole på resultatene. Øker når forsøket gjentas og gir samme svar.', 9),
+  ('naturfag-8:naturvitenskapelig-metode', 'Feilkilde', 'Noe som kan ha påvirket resultatet, som unøyaktig utstyr.', 10),
+  ('naturfag-8:naturvitenskapelig-metode', 'Rapport', 'En beskrivelse av forsøket slik at andre kan kontrollere og gjenta det.', 11),
+  ('naturfag-8:naturvitenskapelig-metode', 'Risikovurdering', 'Å tenke gjennom hva som kan gå galt i et forsøk, og hvordan det unngås.', 12),
+  ('naturfag-8:naturvitenskapelig-metode', 'Faresymbol', 'Symbol på kjemikalier som viser farer, for eksempel brannfarlig eller etsende.', 13),
+  ('naturfag-8:naturvitenskapelig-metode', 'Vernebriller', 'Beskytter øynene mot sprut og splinter under forsøk.', 14);
+delete from public.quiz_sporsmal where tema_id = 'naturfag-8:naturvitenskapelig-metode';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('naturfag-8:naturvitenskapelig-metode', 'q01', 'flervalg', 'Hva er en hypotese?', array['Et bevist faktum', 'En mulig forklaring som kan testes', 'Resultatet av et forsøk', 'En tabell med data']::text[], 1, 'En hypotese er en foreløpig forklaring. Den testes med forsøk og kan vise seg å være feil.', true, true, 0),
+  ('naturfag-8:naturvitenskapelig-metode', 'q02', 'flervalg', 'Du undersøker om mengden lys påvirker hvor mye en plante vokser. Hva er den uavhengige variabelen?', array['Hvor mye planten vokser', 'Mengden vann', 'Mengden lys', 'Typen jord']::text[], 2, 'Den uavhengige variabelen er det du selv endrer, her lysmengden.', true, true, 1),
+  ('naturfag-8:naturvitenskapelig-metode', 'q03', 'flervalg', 'I samme forsøk, hva er den avhengige variabelen?', array['Hvor mye planten vokser', 'Mengden lys', 'Temperaturen', 'Potten']::text[], 0, 'Den avhengige variabelen er det du måler, altså veksten.', true, true, 2),
+  ('naturfag-8:naturvitenskapelig-metode', 'q04', 'flervalg', 'Hvorfor skal du bare endre én ting om gangen i et forsøk?', array['For at forsøket skal gå raskere', 'Fordi det er billigere', 'Fordi det er en regel uten grunn', 'For å vite hva som forårsaket resultatet']::text[], 3, 'Endrer du flere ting samtidig, kan du ikke vite hvilken av dem som ga virkningen.', true, true, 3),
+  ('naturfag-8:naturvitenskapelig-metode', 'q05', 'flervalg', 'Hva er en kontrollgruppe?', array['Gruppen som får mest behandling', 'En gruppe som ikke utsettes for endringen, og som brukes til sammenligning', 'Lærerens gruppe', 'Gruppen som skriver rapporten']::text[], 1, 'Kontrollgruppen viser hva som skjer uten endringen, slik at du kan se effekten.', true, true, 4),
+  ('naturfag-8:naturvitenskapelig-metode', 'q06', 'flervalg', 'Hva gjør resultatene mer pålitelige?', array['Å gjenta forsøket flere ganger', 'Å bare gjøre forsøket én gang', 'Å endre mange variabler', 'Å gjette resultatet først']::text[], 0, 'Når gjentatte forsøk gir samme resultat, kan vi stole mer på det.', true, true, 5),
+  ('naturfag-8:naturvitenskapelig-metode', 'q07', 'flervalg', 'Resultatet stemmer ikke med hypotesen. Hva bør du gjøre?', array['Endre dataene', 'Endre eller forkaste hypotesen og eventuelt teste på nytt', 'Skjule resultatet', 'Si at forsøket var feil uten å sjekke']::text[], 1, 'Data som ikke passer, er verdifulle. De viser at forklaringen må forbedres.', true, true, 6),
+  ('naturfag-8:naturvitenskapelig-metode', 'q08', 'flervalg', 'Hva er en feilkilde?', array['En kjemikalieflaske', 'Hypotesen', 'Konklusjonen', 'Noe som kan ha påvirket resultatet, som unøyaktig måleutstyr']::text[], 3, 'Feilkilder bør drøftes i rapporten, fordi de påvirker hvor sikker konklusjonen er.', true, false, 7),
+  ('naturfag-8:naturvitenskapelig-metode', 'q09', 'flervalg', 'Hva bør du gjøre før du starter et forsøk med kjemikalier?', array['Blande alt raskt', 'Gjøre en risikovurdering og ta på vernebriller', 'Smake på kjemikaliene', 'Ta av vernebrillene']::text[], 1, 'Risikovurdering og riktig verneutstyr forebygger skader.', true, true, 8),
+  ('naturfag-8:naturvitenskapelig-metode', 'q10', 'flervalg', 'Hvorfor skal forsøket beskrives nøyaktig i en rapport?', array['For at andre skal kunne kontrollere og gjenta det', 'For at det skal bli langt', 'For å skjule feil', 'Fordi ingen skal lese den']::text[], 0, 'At andre kan gjenta forsøket og få samme resultat, er en grunnstein i naturvitenskapen.', true, false, 9),
+  ('naturfag-8:naturvitenskapelig-metode', 'm01', 'sant-usant', 'En hypotese må alltid vise seg å være riktig.', array['Sant', 'Usant']::text[], 1, 'Hypoteser kan like gjerne vise seg å være feil. Det er også ny kunnskap.', false, true, 10),
+  ('naturfag-8:naturvitenskapelig-metode', 'm02', 'sant-usant', 'Kontrollerte variabler skal holdes like gjennom hele forsøket.', array['Sant', 'Usant']::text[], 0, 'Da vet du at endringen i resultatet skyldes den uavhengige variabelen.', false, true, 11),
+  ('naturfag-8:naturvitenskapelig-metode', 'm03', 'sant-usant', 'Alle målinger har en viss usikkerhet.', array['Sant', 'Usant']::text[], 0, 'Ingen måleinstrumenter er helt nøyaktige, og det bør tas med i vurderingen.', false, true, 12),
+  ('naturfag-8:naturvitenskapelig-metode', 'm04', 'sant-usant', 'Det er greit å lukte tett innpå ukjente kjemikalier for å finne ut hva de er.', array['Sant', 'Usant']::text[], 1, 'Ukjente kjemikalier kan være farlige. Følg alltid sikkerhetsinstruksene.', false, true, 13),
+  ('naturfag-8:naturvitenskapelig-metode', 'm05', 'flervalg', 'Hvilken påstand er en testbar hypotese?', array['Planter er fine', 'Planter vokser raskere i varme enn i kulde', 'Jeg liker planter', 'Planter er grønne fordi de er grønne']::text[], 1, 'Denne påstanden kan testes ved å måle vekst ved ulike temperaturer.', false, true, 14),
+  ('naturfag-8:naturvitenskapelig-metode', 'm06', 'flervalg', 'Hvor bør du notere målingene underveis?', array['I hodet', 'Ingen steder', 'I en tabell', 'Bare i konklusjonen']::text[], 2, 'En tabell gir oversikt og gjør det lett å analysere dataene etterpå.', false, true, 15),
+  ('naturfag-8:naturvitenskapelig-metode', 'm07', 'flervalg', 'Hva viser et faresymbol på en flaske?', array['Hvilken fare kjemikaliet utgjør', 'Prisen', 'Hvem som har laget flasken', 'Hvor mye som er igjen']::text[], 0, 'Faresymboler varsler om farer som brann, etsing eller giftighet.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('naturfag-8:naturvitenskapelig-metode', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Naturfag: Celler
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('naturfag-8:celler', 'naturfag-8', 'celler', 'Celler', 'Cellen som livets minste enhet, forskjellen på plante-, dyre- og bakterieceller, og hvordan cellenes oppbygning henger sammen med funksjonen.', array[14]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('naturfag-8:celler', '## Livets byggesteiner
+
+Alle levende organismer er bygd opp av **celler**. Noen organismer, som bakterier, består av bare én celle. Andre, som mennesker, består av mange milliarder celler som samarbeider. Cellen er den minste enheten som kan leve selvstendig, og nye celler dannes bare fra celler som allerede finnes, ved **celledeling**. Siden de fleste celler er for små til å se med det blotte øye, bruker vi **mikroskop** for å studere dem.
+
+## Dyreceller
+
+En typisk dyrecelle har:
+
+- **cellemembran**, en tynn hinne som holder cellen samlet og bestemmer hva som slipper inn og ut,
+- **cytoplasma**, en geléaktig væske der mange av cellens prosesser skjer,
+- **cellekjerne**, som inneholder **DNA**, arvestoffet med oppskriften på cellen,
+- **mitokondrier**, der cellen frigjør energi fra næring ved **celleånding**.
+
+## Planteceller
+
+Planteceller har de samme delene, og i tillegg:
+
+- **cellevegg** av cellulose utenfor membranen, som gir stivhet og form,
+- **kloroplaster** med det grønne stoffet **klorofyll**, der **fotosyntesen** skjer,
+- en stor **vakuole**, et væskefylt rom som lagrer vann og hjelper cellen å holde seg spent.
+
+## Bakterier
+
+Bakterieceller er mye mindre og enklere. De har **ikke cellekjerne**; arvestoffet ligger fritt i cytoplasmaet. De har cellemembran og cellevegg, og noen har en **flagell**, en slags hale de kan bevege seg med. Celler uten cellekjerne kalles **prokaryote**, mens celler med kjerne, som dyre-, plante- og soppceller, kalles **eukaryote**.
+
+## Form og funksjon
+
+I flercellede organismer er cellene **spesialisert** for ulike oppgaver, og formen passer til jobben:
+
+- **Nerveceller** er lange og greinete, slik at de kan sende signaler over lange avstander.
+- **Røde blodceller** er små og flate uten kjerne, slik at de har plass til mye oksygen og kan presse seg gjennom smale årer.
+- **Muskelceller** er lange og kan trekke seg sammen.
+- **Rothårceller** i planter har lange utløpere som gir stor overflate for å ta opp vann.
+
+Celler av samme type som samarbeider, danner **vev**. Ulike vev danner **organer**, som hjertet, og organer som samarbeider, danner **organsystemer**.', '{"label":"Celler","children":[{"label":"Felles deler","children":[{"label":"Cellemembran"},{"label":"Cytoplasma"},{"label":"Cellekjerne","note":"DNA"},{"label":"Mitokondrier"}]},{"label":"Plantecelle","children":[{"label":"Cellevegg"},{"label":"Kloroplaster"},{"label":"Stor vakuole"}]},{"label":"Bakterie","children":[{"label":"Ingen kjerne","note":"Prokaryot"},{"label":"Cellevegg"},{"label":"Flagell"}]},{"label":"Form og funksjon","children":[{"label":"Nerveceller"},{"label":"Røde blodceller"},{"label":"Rothårceller"}]},{"label":"Organisering","children":[{"label":"Celle → vev"},{"label":"Organ"},{"label":"Organsystem"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'naturfag-8:celler';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('naturfag-8:celler', 'Celle', 'Den minste enheten som kan leve selvstendig. Alle organismer er bygd av celler.', 0),
+  ('naturfag-8:celler', 'Cellemembran', 'Tynn hinne rundt cellen som bestemmer hva som slipper inn og ut.', 1),
+  ('naturfag-8:celler', 'Cytoplasma', 'Geléaktig væske i cellen der mange prosesser skjer.', 2),
+  ('naturfag-8:celler', 'Cellekjerne', 'Inneholder DNA og styrer cellens aktiviteter.', 3),
+  ('naturfag-8:celler', 'DNA', 'Arvestoffet, som inneholder oppskriften på cellen og organismen.', 4),
+  ('naturfag-8:celler', 'Mitokondrie', 'Cellens «kraftverk», der energi frigjøres ved celleånding.', 5),
+  ('naturfag-8:celler', 'Cellevegg', 'Stiv vegg utenfor membranen hos planter, sopp og bakterier.', 6),
+  ('naturfag-8:celler', 'Kloroplast', 'Grønn cellebit i planteceller der fotosyntesen skjer.', 7),
+  ('naturfag-8:celler', 'Klorofyll', 'Grønt stoff i kloroplastene som fanger opp lysenergi.', 8),
+  ('naturfag-8:celler', 'Vakuole', 'Stort væskefylt rom i planteceller som lagrer vann.', 9),
+  ('naturfag-8:celler', 'Prokaryot celle', 'Celle uten cellekjerne, som bakterier.', 10),
+  ('naturfag-8:celler', 'Eukaryot celle', 'Celle med cellekjerne, som dyre-, plante- og soppceller.', 11),
+  ('naturfag-8:celler', 'Spesialiserte celler', 'Celler med form og innhold tilpasset en bestemt oppgave.', 12),
+  ('naturfag-8:celler', 'Vev', 'En gruppe like celler som samarbeider om en oppgave.', 13),
+  ('naturfag-8:celler', 'Celle → vev → organ → organsystem', 'Organiseringen i flercellede organismer.', 14);
+delete from public.quiz_sporsmal where tema_id = 'naturfag-8:celler';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('naturfag-8:celler', 'q01', 'flervalg', 'Hvilken del av cellen inneholder DNA?', array['Cellemembranen', 'Cellekjernen', 'Vakuolen', 'Celleveggen']::text[], 1, 'I eukaryote celler ligger DNA-et i cellekjernen.', true, true, 0),
+  ('naturfag-8:celler', 'q02', 'flervalg', 'Hva finnes i planteceller, men ikke i dyreceller?', array['Cellemembran og cytoplasma', 'Mitokondrier', 'Cellevegg og kloroplaster', 'Cellekjerne']::text[], 2, 'Planteceller har cellevegg, kloroplaster og en stor vakuole i tillegg.', true, true, 1),
+  ('naturfag-8:celler', 'q03', 'flervalg', 'Hvor skjer fotosyntesen?', array['I mitokondriene', 'I kloroplastene', 'I cellekjernen', 'I cellemembranen']::text[], 1, 'Kloroplastene inneholder klorofyll, som fanger lysenergien til fotosyntesen.', true, true, 2),
+  ('naturfag-8:celler', 'q04', 'flervalg', 'Hva kjennetegner bakterieceller?', array['De har ikke cellekjerne', 'De har kloroplaster', 'De er større enn dyreceller', 'De har ikke cellemembran']::text[], 0, 'Bakterier er prokaryote. Arvestoffet ligger fritt i cytoplasmaet.', true, true, 3),
+  ('naturfag-8:celler', 'q05', 'flervalg', 'Hva gjør mitokondriene?', array['Lagrer vann', 'Lager proteiner fra lys', 'Beskytter cellen', 'Frigjør energi fra næring ved celleånding']::text[], 3, 'Mitokondriene kalles ofte cellens kraftverk.', true, true, 4),
+  ('naturfag-8:celler', 'q06', 'flervalg', 'Hvorfor er nerveceller lange og greinete?', array['For å lagre fett', 'For å sende signaler over lange avstander', 'For å fange lys', 'For å frakte oksygen']::text[], 1, 'Formen gjør det mulig å nå langt og koble seg til mange andre celler.', true, true, 5),
+  ('naturfag-8:celler', 'q07', 'flervalg', 'Hva kalles en gruppe like celler som samarbeider?', array['Organ', 'Organisme', 'Vev', 'Organsystem']::text[], 2, 'Like celler danner vev, for eksempel muskelvev.', true, true, 6),
+  ('naturfag-8:celler', 'q08', 'flervalg', 'Hva gjør cellemembranen?', array['Gir planten grønn farge', 'Inneholder arvestoffet', 'Frigjør energi', 'Holder cellen samlet og bestemmer hva som slipper inn og ut']::text[], 3, 'Membranen er en selektiv grense mellom cellen og omgivelsene.', true, false, 7),
+  ('naturfag-8:celler', 'q09', 'flervalg', 'Hva er en eukaryot celle?', array['En celle med cellekjerne', 'En celle uten kjerne', 'En bakteriecelle', 'En død celle']::text[], 0, 'Dyre-, plante- og soppceller har kjerne og er eukaryote.', true, true, 8),
+  ('naturfag-8:celler', 'q10', 'flervalg', 'Hvorfor har røde blodceller ingen kjerne?', array['Fordi de er døde', 'For å få plass til mer oksygen', 'Fordi de er bakterier', 'For å lage fotosyntese']::text[], 1, 'Uten kjerne har de mer plass til hemoglobin, som frakter oksygen.', true, false, 9),
+  ('naturfag-8:celler', 'm01', 'sant-usant', 'Alle levende organismer er bygd opp av celler.', array['Sant', 'Usant']::text[], 0, 'Cellen er livets grunnleggende enhet.', false, true, 10),
+  ('naturfag-8:celler', 'm02', 'sant-usant', 'Dyreceller har cellevegg.', array['Sant', 'Usant']::text[], 1, 'Dyreceller har bare cellemembran. Planter, sopp og bakterier har cellevegg.', false, true, 11),
+  ('naturfag-8:celler', 'm03', 'sant-usant', 'Nye celler dannes ved at eksisterende celler deler seg.', array['Sant', 'Usant']::text[], 0, 'Celler oppstår fra andre celler gjennom celledeling.', false, true, 12),
+  ('naturfag-8:celler', 'm04', 'sant-usant', 'Bakterier har cellekjerne.', array['Sant', 'Usant']::text[], 1, 'Bakterier er prokaryote og mangler cellekjerne.', false, true, 13),
+  ('naturfag-8:celler', 'm05', 'flervalg', 'Hva gjør vakuolen i en plantecelle?', array['Lagrer vann og holder cellen spent', 'Lager energi', 'Inneholder DNA', 'Fanger lys']::text[], 0, 'Den store vakuolen fylles med vann og hjelper planten å stå oppreist.', false, true, 14),
+  ('naturfag-8:celler', 'm06', 'flervalg', 'Hva kalles et hjerte, som består av flere typer vev?', array['En celle', 'Et organ', 'Et vev', 'En organisme']::text[], 1, 'Et organ består av ulike vev som samarbeider.', false, true, 15),
+  ('naturfag-8:celler', 'm07', 'flervalg', 'Hvilket instrument trenger du for å se de fleste celler?', array['Kikkert', 'Termometer', 'Mikroskop', 'Vekt']::text[], 2, 'De fleste celler er for små til å ses uten mikroskop.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('naturfag-8:celler', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Naturfag: Fotosyntese, celleånding og karbonkretsløpet
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('naturfag-8:fotosyntese-og-celleanding', 'naturfag-8', 'fotosyntese-og-celleanding', 'Fotosyntese, celleånding og karbonkretsløpet', 'Hvordan planter fanger solenergi og lager sukker, hvordan alle organismer frigjør energien igjen, og hvordan karbon går i kretsløp i naturen.', array[18]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('naturfag-8:fotosyntese-og-celleanding', '## Energi til alt levende
+
+Alle levende organismer trenger energi for å vokse, bevege seg og holde seg i live. Nesten all denne energien kommer opprinnelig fra **sola**. Planter, alger og noen bakterier kan fange solenergien og lagre den i sukker ved **fotosyntese**. Deretter kan både de selv og andre organismer frigjøre energien ved **celleånding**. De to prosessene henger tett sammen.
+
+## Fotosyntesen
+
+Fotosyntesen skjer i **kloroplastene** i grønne planteceller. Planten tar opp **karbondioksid** (CO₂) fra lufta gjennom små åpninger i bladene, og **vann** (H₂O) gjennom røttene. Med energi fra sollys omdannes disse til **glukose** (sukker) og **oksygen** (O₂):
+
+6CO₂ + 6H₂O + lysenergi → C₆H₁₂O₆ + 6O₂
+
+Glukosen brukes som energikilde og byggemateriale, for eksempel til å lage stivelse og cellulose. Oksygenet slippes ut i lufta. Nesten alt oksygenet vi puster inn, kommer fra fotosyntese.
+
+## Celleåndingen
+
+Celleånding skjer i **mitokondriene** i nesten alle celler, både hos planter og dyr. Glukose reagerer med oksygen, og energien som var lagret i glukosen, frigjøres:
+
+C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + energi
+
+Legg merke til at celleånding er fotosyntesen «baklengs». Stoffene som dannes i den ene prosessen, brukes i den andre. Planter driver med celleånding hele døgnet, men fotosyntese bare når det er lys.
+
+## Karbonkretsløpet
+
+Karbon er et grunnstoff som finnes i alt levende. Det går i et **kretsløp** mellom luft, levende organismer, jord og hav:
+
+- **Fotosyntesen** tar CO₂ ut av lufta og binder karbonet i plantene.
+- Dyr får karbon når de spiser planter eller andre dyr.
+- **Celleånding** hos planter, dyr og nedbrytere slipper CO₂ ut igjen.
+- **Nedbrytere**, som sopp og bakterier, bryter ned døde organismer og frigjør karbon.
+- Havet tar opp og avgir CO₂.
+
+Noe karbon har vært lagret i millioner av år som **fossile brensler** – kull, olje og gass – dannet av rester etter planter og dyr. Når vi brenner fossile brensler, frigjøres dette karbonet raskt som CO₂. Det forstyrrer balansen i kretsløpet og øker mengden CO₂ i atmosfæren, noe som forsterker **drivhuseffekten**.', '{"label":"Fotosyntese og celleånding","children":[{"label":"Fotosyntese","children":[{"label":"I kloroplastene"},{"label":"CO₂ + vann + lys"},{"label":"→ glukose + O₂"}]},{"label":"Celleånding","children":[{"label":"I mitokondriene"},{"label":"Glukose + O₂"},{"label":"→ CO₂ + vann + energi"}]},{"label":"Sammenheng","children":[{"label":"Motsatte prosesser"},{"label":"Planter: begge","note":"Fotosyntese bare i lys"}]},{"label":"Karbonkretsløpet","children":[{"label":"Luft ↔ organismer"},{"label":"Nedbrytere"},{"label":"Havet"},{"label":"Fossile brensler"}]},{"label":"Mennesket","children":[{"label":"Forbrenning av fossilt"},{"label":"Mer CO₂","note":"Drivhuseffekt"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'naturfag-8:fotosyntese-og-celleanding';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('naturfag-8:fotosyntese-og-celleanding', 'Fotosyntese', 'Prosessen der planter bruker lysenergi til å lage glukose og oksygen av CO₂ og vann.', 0),
+  ('naturfag-8:fotosyntese-og-celleanding', 'Fotosyntesens likning', '6CO₂ + 6H₂O + lysenergi → C₆H₁₂O₆ + 6O₂', 1),
+  ('naturfag-8:fotosyntese-og-celleanding', 'Celleånding', 'Prosessen der glukose og oksygen gir energi, CO₂ og vann.', 2),
+  ('naturfag-8:fotosyntese-og-celleanding', 'Celleåndingens likning', 'C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + energi', 3),
+  ('naturfag-8:fotosyntese-og-celleanding', 'Glukose', 'Et sukker (C₆H₁₂O₆) som lagrer energi.', 4),
+  ('naturfag-8:fotosyntese-og-celleanding', 'Kloroplast', 'Cellebiten der fotosyntesen skjer.', 5),
+  ('naturfag-8:fotosyntese-og-celleanding', 'Mitokondrie', 'Cellebiten der celleåndingen skjer.', 6),
+  ('naturfag-8:fotosyntese-og-celleanding', 'Klorofyll', 'Grønt stoff som fanger lysenergi.', 7),
+  ('naturfag-8:fotosyntese-og-celleanding', 'Produsent', 'Organisme som lager sin egen næring ved fotosyntese, som planter og alger.', 8),
+  ('naturfag-8:fotosyntese-og-celleanding', 'Karbonkretsløpet', 'Karbonets vandring mellom luft, levende organismer, jord og hav.', 9),
+  ('naturfag-8:fotosyntese-og-celleanding', 'Nedbrytere', 'Sopp og bakterier som bryter ned døde organismer og frigjør næringsstoffer og CO₂.', 10),
+  ('naturfag-8:fotosyntese-og-celleanding', 'Fossile brensler', 'Kull, olje og gass, dannet av rester etter planter og dyr for millioner av år siden.', 11),
+  ('naturfag-8:fotosyntese-og-celleanding', 'Stivelse', 'Lagringsform for glukose i planter, for eksempel i poteter.', 12),
+  ('naturfag-8:fotosyntese-og-celleanding', 'Planter om natta', 'Driver bare celleånding, fordi fotosyntesen trenger lys.', 13),
+  ('naturfag-8:fotosyntese-og-celleanding', 'Fotosyntese og celleånding', 'Motsatte prosesser: produktene i den ene er utgangsstoffer i den andre.', 14);
+delete from public.quiz_sporsmal where tema_id = 'naturfag-8:fotosyntese-og-celleanding';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('naturfag-8:fotosyntese-og-celleanding', 'q01', 'flervalg', 'Hvilke stoffer trenger planten til fotosyntesen?', array['Oksygen og glukose', 'Karbondioksid og vann', 'Nitrogen og oksygen', 'Glukose og vann']::text[], 1, 'Planten bruker CO₂ fra lufta og vann fra jorda, og energi fra sollys.', true, true, 0),
+  ('naturfag-8:fotosyntese-og-celleanding', 'q02', 'flervalg', 'Hva dannes i fotosyntesen?', array['Karbondioksid og vann', 'Oksygen og nitrogen', 'Glukose og oksygen', 'Bare energi']::text[], 2, 'Produktene er glukose, som lagrer energi, og oksygen, som slippes ut.', true, true, 1),
+  ('naturfag-8:fotosyntese-og-celleanding', 'q03', 'flervalg', 'Hvor i cellen skjer celleåndingen?', array['I mitokondriene', 'I kloroplastene', 'I cellekjernen', 'I vakuolen']::text[], 0, 'Mitokondriene frigjør energi fra glukose ved celleånding.', true, true, 2),
+  ('naturfag-8:fotosyntese-og-celleanding', 'q04', 'flervalg', 'Hvilke organismer driver med celleånding?', array['Bare dyr', 'Bare planter', 'Bare bakterier', 'Nesten alle organismer, både planter og dyr']::text[], 3, 'Alle celler trenger energi, så nesten alle organismer driver med celleånding.', true, true, 3),
+  ('naturfag-8:fotosyntese-og-celleanding', 'q05', 'flervalg', 'Hvorfor kalles celleånding fotosyntesen «baklengs»?', array['Fordi den skjer om natta', 'Fordi utgangsstoffene i den ene er produktene i den andre', 'Fordi den går saktere', 'Fordi den skjer i røttene']::text[], 1, 'Fotosyntesen lager glukose og oksygen, som celleåndingen bruker til å lage CO₂ og vann.', true, true, 4),
+  ('naturfag-8:fotosyntese-og-celleanding', 'q06', 'flervalg', 'Hva skjer i en plante om natta?', array['Bare fotosyntese', 'Ingenting', 'Bare celleånding', 'Planten dør']::text[], 2, 'Fotosyntesen trenger lys. Celleåndingen fortsetter hele døgnet.', true, true, 5),
+  ('naturfag-8:fotosyntese-og-celleanding', 'q07', 'flervalg', 'Hvilken prosess tar CO₂ ut av atmosfæren?', array['Fotosyntese', 'Celleånding', 'Forbrenning', 'Nedbryting']::text[], 0, 'Fotosyntesen binder karbon fra CO₂ i planter og alger.', true, true, 6),
+  ('naturfag-8:fotosyntese-og-celleanding', 'q08', 'flervalg', 'Hva er fossile brensler dannet av?', array['Vulkansk stein', 'Sand og vann', 'Luft', 'Rester etter planter og dyr som levde for millioner av år siden']::text[], 3, 'Kull, olje og gass er lagret karbon fra gamle organismer.', true, false, 7),
+  ('naturfag-8:fotosyntese-og-celleanding', 'q09', 'flervalg', 'Hvilken rolle har nedbrytere i karbonkretsløpet?', array['De lager oksygen', 'De bryter ned døde organismer og frigjør CO₂', 'De binder karbon i stein', 'De driver med fotosyntese']::text[], 1, 'Sopp og bakterier bryter ned dødt materiale og slipper karbonet ut igjen.', true, false, 8),
+  ('naturfag-8:fotosyntese-og-celleanding', 'q10', 'flervalg', 'Hvorfor forstyrrer bruk av fossile brensler karbonkretsløpet?', array['Fordi de frigjør karbon som har vært lagret i millioner av år, svært raskt', 'Fordi de lager oksygen', 'Fordi de fjerner CO₂', 'De påvirker ikke kretsløpet']::text[], 0, 'Utslippene øker CO₂-mengden i lufta raskere enn naturen klarer å binde den.', true, true, 9),
+  ('naturfag-8:fotosyntese-og-celleanding', 'm01', 'sant-usant', 'Nesten all energi i levende organismer kommer opprinnelig fra sola.', array['Sant', 'Usant']::text[], 0, 'Solenergien fanges ved fotosyntese og går videre i næringskjedene.', false, true, 10),
+  ('naturfag-8:fotosyntese-og-celleanding', 'm02', 'sant-usant', 'Dyr driver med fotosyntese.', array['Sant', 'Usant']::text[], 1, 'Dyr mangler kloroplaster. De får energi ved å spise andre organismer.', false, true, 11),
+  ('naturfag-8:fotosyntese-og-celleanding', 'm03', 'sant-usant', 'Oksygenet vi puster inn, kommer i hovedsak fra fotosyntese.', array['Sant', 'Usant']::text[], 0, 'Planter og alger slipper ut oksygen når de lager glukose.', false, true, 12),
+  ('naturfag-8:fotosyntese-og-celleanding', 'm04', 'sant-usant', 'Celleånding skjer bare om natta.', array['Sant', 'Usant']::text[], 1, 'Celleånding skjer hele tiden, dag og natt.', false, true, 13),
+  ('naturfag-8:fotosyntese-og-celleanding', 'm05', 'flervalg', 'Hva er den kjemiske formelen for glukose?', array['CO₂', 'H₂O', 'C₆H₁₂O₆', 'O₂']::text[], 2, 'Glukose består av 6 karbonatomer, 12 hydrogenatomer og 6 oksygenatomer.', false, true, 14),
+  ('naturfag-8:fotosyntese-og-celleanding', 'm06', 'flervalg', 'Hvilken form lagrer poteter energi i?', array['Stivelse', 'Oksygen', 'Protein', 'Vann']::text[], 0, 'Planter lagrer overskudd av glukose som stivelse.', false, true, 15),
+  ('naturfag-8:fotosyntese-og-celleanding', 'm07', 'flervalg', 'Hva slipper celleåndingen ut?', array['Oksygen', 'Glukose', 'Karbondioksid og vann', 'Klorofyll']::text[], 2, 'Når glukose brytes ned med oksygen, dannes CO₂ og vann.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('naturfag-8:fotosyntese-og-celleanding', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Naturfag: Økosystemer
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('naturfag-8:okosystemer', 'naturfag-8', 'okosystemer', 'Økosystemer', 'Biotiske og abiotiske faktorer, næringskjeder og næringsnett, energiflyt og kretsløp av stoffer i naturen.', array[15]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('naturfag-8:okosystemer', '## Hva er et økosystem?
+
+Et **økosystem** er et område i naturen der levende organismer og omgivelsene påvirker hverandre. En skog, en innsjø, en myr og et korallrev er eksempler. Alle organismene av samme art i et område kalles en **populasjon**, og alle populasjonene sammen er et **samfunn**.
+
+## Biotiske og abiotiske faktorer
+
+- **Biotiske faktorer** er de levende delene av økosystemet: planter, dyr, sopp og bakterier, og hvordan de påvirker hverandre gjennom konkurranse, samarbeid, beiting og predasjon.
+- **Abiotiske faktorer** er de ikke-levende delene: lys, temperatur, vann, vind, jordsmonn og næringsstoffer.
+
+De abiotiske faktorene avgjør hvilke organismer som kan leve et sted. På fjellet er det kaldt og vindfullt, og bare noen planter klarer seg der. Endres en abiotisk faktor, for eksempel ved tørke, påvirkes hele økosystemet.
+
+## Roller i økosystemet
+
+- **Produsenter**, som planter og alger, lager næring ved fotosyntese.
+- **Konsumenter** spiser andre organismer. **Planteetere** (primærkonsumenter) spiser planter, og **rovdyr** (sekundær- og tertiærkonsumenter) spiser andre dyr.
+- **Nedbrytere**, som sopp, bakterier og meitemark, bryter ned døde organismer og avfall til næringsstoffer som planter kan bruke igjen.
+
+## Næringskjeder og næringsnett
+
+En **næringskjede** viser hvem som spiser hvem: gress → hare → rev. I virkeligheten spiser de fleste dyr flere ting og blir spist av flere, slik at kjedene vever seg sammen til et **næringsnett**.
+
+## Energi og materie
+
+**Energi** går én vei gjennom økosystemet: fra sola, til produsentene og videre til konsumentene. På hvert trinn i næringskjeden brukes mye av energien til livsprosesser og forsvinner som varme. Bare rundt en tidel går videre til neste trinn. Derfor finnes det langt færre rovdyr enn planteetere, og næringskjeder har sjelden mer enn fire–fem ledd.
+
+**Materie**, altså stoffene, går derimot i **kretsløp**. Karbon, nitrogen og vann sirkulerer mellom organismer, jord, vann og luft. Nedbryterne er avgjørende for at næringsstoffene kommer tilbake i kretsløpet.
+
+## Balanse og endringer
+
+Et økosystem er i en viss **balanse**, men kan endres. Fjernes et rovdyr, kan byttedyrene bli så mange at de spiser opp vegetasjonen. Innførte, **fremmede arter**, forurensning og klimaendringer kan også forstyrre balansen.', '{"label":"Økosystemer","children":[{"label":"Faktorer","children":[{"label":"Biotiske","note":"Levende"},{"label":"Abiotiske","note":"Lys, vann, temperatur"}]},{"label":"Roller","children":[{"label":"Produsenter"},{"label":"Konsumenter","note":"Planteetere, rovdyr"},{"label":"Nedbrytere"}]},{"label":"Næring","children":[{"label":"Næringskjede"},{"label":"Næringsnett"}]},{"label":"Energi og materie","children":[{"label":"Energi går én vei","note":"Ca. 1/10 videre"},{"label":"Materie går i kretsløp"}]},{"label":"Balanse","children":[{"label":"Rovdyr og byttedyr"},{"label":"Fremmede arter"},{"label":"Forurensning og klima"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'naturfag-8:okosystemer';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('naturfag-8:okosystemer', 'Økosystem', 'Et område der organismer og omgivelsene påvirker hverandre, som en skog eller en innsjø.', 0),
+  ('naturfag-8:okosystemer', 'Populasjon', 'Alle individer av samme art i et område.', 1),
+  ('naturfag-8:okosystemer', 'Biotiske faktorer', 'Levende deler av økosystemet: planter, dyr, sopp og bakterier.', 2),
+  ('naturfag-8:okosystemer', 'Abiotiske faktorer', 'Ikke-levende deler: lys, temperatur, vann, jord og næringsstoffer.', 3),
+  ('naturfag-8:okosystemer', 'Produsent', 'Organisme som lager egen næring ved fotosyntese.', 4),
+  ('naturfag-8:okosystemer', 'Konsument', 'Organisme som spiser andre organismer.', 5),
+  ('naturfag-8:okosystemer', 'Primærkonsument', 'Planteeter, som spiser produsenter.', 6),
+  ('naturfag-8:okosystemer', 'Rovdyr', 'Dyr som spiser andre dyr.', 7),
+  ('naturfag-8:okosystemer', 'Nedbryter', 'Sopp, bakterier og smådyr som bryter ned døde organismer til næringsstoffer.', 8),
+  ('naturfag-8:okosystemer', 'Næringskjede', 'Viser hvem som spiser hvem: gress → hare → rev.', 9),
+  ('naturfag-8:okosystemer', 'Næringsnett', 'Mange sammenvevde næringskjeder.', 10),
+  ('naturfag-8:okosystemer', 'Energiflyt', 'Energi går én vei fra sola via produsenter til konsumenter, og tapes som varme.', 11),
+  ('naturfag-8:okosystemer', 'En tidel', 'Omtrent så mye av energien går videre til neste trinn i næringskjeden.', 12),
+  ('naturfag-8:okosystemer', 'Kretsløp av materie', 'Stoffer som karbon, nitrogen og vann sirkulerer og brukes om igjen.', 13),
+  ('naturfag-8:okosystemer', 'Fremmed art', 'En art som er innført til et område der den ikke hører naturlig hjemme.', 14);
+delete from public.quiz_sporsmal where tema_id = 'naturfag-8:okosystemer';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('naturfag-8:okosystemer', 'q01', 'flervalg', 'Hvilken er en abiotisk faktor?', array['Et tre', 'En elg', 'Temperatur', 'En sopp']::text[], 2, 'Temperatur er ikke-levende. Tre, elg og sopp er biotiske faktorer.', true, true, 0),
+  ('naturfag-8:okosystemer', 'q02', 'flervalg', 'Hva er en produsent?', array['En organisme som lager egen næring ved fotosyntese', 'Et rovdyr', 'En nedbryter', 'En planteeter']::text[], 0, 'Planter og alger er produsenter og står nederst i næringskjeden.', true, true, 1),
+  ('naturfag-8:okosystemer', 'q03', 'flervalg', 'I næringskjeden gress → hare → rev, hva er haren?', array['Produsent', 'Nedbryter', 'Rovdyr på toppen', 'Primærkonsument']::text[], 3, 'Haren spiser planter og er derfor planteeter, eller primærkonsument.', true, true, 2),
+  ('naturfag-8:okosystemer', 'q04', 'flervalg', 'Hva gjør nedbryterne?', array['Lager oksygen', 'Bryter ned døde organismer til næringsstoffer', 'Spiser rovdyr', 'Fanger sollys']::text[], 1, 'Nedbryterne sørger for at næringsstoffene kommer tilbake i kretsløpet.', true, true, 3),
+  ('naturfag-8:okosystemer', 'q05', 'flervalg', 'Hvorfor finnes det færre rovdyr enn planteetere?', array['Fordi rovdyr lever lenger', 'Fordi det bare går videre omtrent en tidel av energien til hvert nytt trinn', 'Fordi rovdyr ikke trenger mat', 'Fordi planteetere er større']::text[], 1, 'Energitapet på hvert trinn gjør at det er mindre energi tilgjengelig høyere opp.', true, true, 4),
+  ('naturfag-8:okosystemer', 'q06', 'flervalg', 'Hva er forskjellen på energi og materie i et økosystem?', array['Begge går i kretsløp', 'Begge går én vei', 'Energi går én vei, materie går i kretsløp', 'Materie går én vei, energi går i kretsløp']::text[], 2, 'Energien kommer fra sola og tapes som varme, mens stoffene brukes om og om igjen.', true, true, 5),
+  ('naturfag-8:okosystemer', 'q07', 'flervalg', 'Hva er et næringsnett?', array['Mange sammenvevde næringskjeder', 'Et fiskegarn', 'En liste over planter', 'Et kretsløp for vann']::text[], 0, 'De fleste dyr spiser og blir spist av flere arter, så kjedene henger sammen i et nett.', true, true, 6),
+  ('naturfag-8:okosystemer', 'q08', 'flervalg', 'Hva kan skje hvis rovdyrene forsvinner fra et område?', array['Ingenting', 'Plantene forsvinner umiddelbart', 'Nedbryterne dør', 'Byttedyrene kan bli så mange at de spiser opp vegetasjonen']::text[], 3, 'Uten rovdyr kan byttedyrbestanden vokse kraftig og forstyrre balansen.', true, true, 7),
+  ('naturfag-8:okosystemer', 'q09', 'flervalg', 'Hva er en populasjon?', array['Alle arter i en skog', 'Alle individer av samme art i et område', 'Alle abiotiske faktorer', 'Et helt kontinent']::text[], 1, 'For eksempel alle elgene i en bestemt skog.', true, false, 8),
+  ('naturfag-8:okosystemer', 'q10', 'flervalg', 'Hvor kommer nesten all energi i et økosystem fra?', array['Sola', 'Jorda', 'Vannet', 'Nedbryterne']::text[], 0, 'Produsentene fanger solenergi, og den går videre gjennom næringskjedene.', true, false, 9),
+  ('naturfag-8:okosystemer', 'm01', 'sant-usant', 'Meitemark er en nedbryter.', array['Sant', 'Usant']::text[], 0, 'Meitemark spiser dødt plantemateriale og bidrar til nedbrytingen.', false, true, 10),
+  ('naturfag-8:okosystemer', 'm02', 'sant-usant', 'Energi går i kretsløp akkurat som karbon.', array['Sant', 'Usant']::text[], 1, 'Energi går én vei og tapes som varme. Stoffer som karbon går i kretsløp.', false, true, 11),
+  ('naturfag-8:okosystemer', 'm03', 'sant-usant', 'Abiotiske faktorer avgjør hvilke organismer som kan leve et sted.', array['Sant', 'Usant']::text[], 0, 'Temperatur, lys og vann bestemmer levevilkårene.', false, true, 12),
+  ('naturfag-8:okosystemer', 'm04', 'sant-usant', 'Næringskjeder har ofte 15–20 ledd.', array['Sant', 'Usant']::text[], 1, 'På grunn av energitapet har næringskjeder sjelden mer enn fire–fem ledd.', false, true, 13),
+  ('naturfag-8:okosystemer', 'm05', 'flervalg', 'Hvilken organisme er en produsent?', array['Rev', 'Blåbærlyng', 'Hare', 'Sopp']::text[], 1, 'Blåbærlyng er en plante som driver fotosyntese.', false, true, 14),
+  ('naturfag-8:okosystemer', 'm06', 'flervalg', 'Hva er et eksempel på en fremmed art i Norge?', array['Elg', 'Rev', 'Hagelupin', 'Bjørk']::text[], 2, 'Hagelupin er innført og sprer seg på bekostning av norske arter.', false, true, 15),
+  ('naturfag-8:okosystemer', 'm07', 'flervalg', 'Hva kalles et dyr som spiser andre dyr?', array['Rovdyr', 'Produsent', 'Planteeter', 'Nedbryter']::text[], 0, 'Rovdyr, som rev og ulv, spiser andre dyr.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('naturfag-8:okosystemer', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Naturfag: Atomer og periodesystemet
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('naturfag-8:atomer-og-periodesystemet', 'naturfag-8', 'atomer-og-periodesystemet', 'Atomer og periodesystemet', 'Atomets oppbygning, grunnstoffer og kjemiske forbindelser, og hvordan periodesystemet ordner grunnstoffene etter egenskaper.', array[9, 3]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('naturfag-8:atomer-og-periodesystemet', '## Alt er laget av atomer
+
+All materie – luft, vann, mennesker og stjerner – er bygd opp av bittesmå partikler som kalles **atomer**. Et atom er så lite at det ville gått millioner av atomer på bredden av et hårstrå. For å forklare hvordan atomer er bygd opp, bruker vi **atommodeller**. Modellene er forenklinger, men de hjelper oss å forstå og forutsi egenskapene til stoffer.
+
+## Atomets oppbygning
+
+Et atom har en liten **kjerne** i midten med positivt ladde **protoner** og nøytrale **nøytroner**. Rundt kjernen beveger negativt ladde **elektroner** seg i **skall**. Et atom har like mange elektroner som protoner og er derfor elektrisk nøytralt. Antall protoner kalles **atomnummeret**, og det bestemmer hvilket grunnstoff atomet er. Alle atomer med 6 protoner er karbon, og alle med 8 protoner er oksygen.
+
+## Grunnstoffer og forbindelser
+
+Et **grunnstoff** består av bare én type atomer, for eksempel gull (Au), jern (Fe) eller oksygen (O). Det finnes rundt 118 kjente grunnstoffer. Når atomer av ulike grunnstoffer binder seg sammen, får vi en **kjemisk forbindelse** med helt nye egenskaper. Vann, H₂O, består av to hydrogenatomer og ett oksygenatom. Natrium er et metall som reagerer voldsomt med vann, og klor er en giftig gass, men sammen danner de bordsalt, NaCl. Et **molekyl** er en gruppe atomer som er bundet sammen, som H₂O eller CO₂.
+
+## Periodesystemet
+
+I **periodesystemet** er grunnstoffene ordnet etter økende atomnummer. Den russiske kjemikeren **Dmitrij Mendelejev** lagde et tidlig periodesystem i 1869, og han lot til og med stå åpne plasser for grunnstoffer som ikke var oppdaget ennå.
+
+- De vannrette radene kalles **perioder**. Periodenummeret sier hvor mange elektronskall atomene har.
+- De loddrette kolonnene kalles **grupper**. Grunnstoffer i samme gruppe har like mange elektroner i ytterste skall og ligner hverandre kjemisk.
+
+## Noen viktige grupper
+
+- **Gruppe 1, alkalimetallene** (litium, natrium, kalium): myke, svært reaktive metaller.
+- **Gruppe 17, halogenene** (fluor, klor): reaktive ikke-metaller som lett danner salter.
+- **Gruppe 18, edelgassene** (helium, neon, argon): nesten helt ureaktive fordi det ytterste skallet er fullt.
+
+**Metallene** står til venstre og i midten. De leder strøm og varme og er blanke. **Ikke-metallene** står til høyre. Skillet mellom dem går som en trapp gjennom systemet.', '{"label":"Atomer og periodesystemet","children":[{"label":"Atomet","children":[{"label":"Kjerne","note":"Protoner (+), nøytroner"},{"label":"Elektroner (−)","note":"I skall"},{"label":"Atomnummer","note":"Antall protoner"}]},{"label":"Stoffer","children":[{"label":"Grunnstoff","note":"Én type atomer"},{"label":"Forbindelse","note":"H₂O, NaCl"},{"label":"Molekyl"}]},{"label":"Periodesystemet","children":[{"label":"Perioder","note":"Antall skall"},{"label":"Grupper","note":"Like egenskaper"},{"label":"Mendelejev 1869"}]},{"label":"Grupper","children":[{"label":"Alkalimetaller","note":"Gruppe 1"},{"label":"Halogener","note":"Gruppe 17"},{"label":"Edelgasser","note":"Gruppe 18"}]},{"label":"Metaller og ikke-metaller","children":[{"label":"Metaller: venstre og midten"},{"label":"Ikke-metaller: høyre"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'naturfag-8:atomer-og-periodesystemet';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('naturfag-8:atomer-og-periodesystemet', 'Atom', 'Den minste enheten av et grunnstoff. Består av kjerne og elektroner.', 0),
+  ('naturfag-8:atomer-og-periodesystemet', 'Proton', 'Positivt ladd partikkel i atomkjernen.', 1),
+  ('naturfag-8:atomer-og-periodesystemet', 'Nøytron', 'Nøytral partikkel i atomkjernen.', 2),
+  ('naturfag-8:atomer-og-periodesystemet', 'Elektron', 'Negativt ladd partikkel som beveger seg i skall rundt kjernen.', 3),
+  ('naturfag-8:atomer-og-periodesystemet', 'Atomnummer', 'Antall protoner i kjernen. Bestemmer hvilket grunnstoff atomet er.', 4),
+  ('naturfag-8:atomer-og-periodesystemet', 'Grunnstoff', 'Et stoff som består av bare én type atomer, som gull eller oksygen.', 5),
+  ('naturfag-8:atomer-og-periodesystemet', 'Kjemisk forbindelse', 'Stoff dannet av atomer fra ulike grunnstoffer, som vann (H₂O).', 6),
+  ('naturfag-8:atomer-og-periodesystemet', 'Molekyl', 'En gruppe atomer som er bundet sammen, som H₂O eller CO₂.', 7),
+  ('naturfag-8:atomer-og-periodesystemet', 'Periodesystemet', 'Oversikt over grunnstoffene ordnet etter atomnummer.', 8),
+  ('naturfag-8:atomer-og-periodesystemet', 'Periode', 'En vannrett rad i periodesystemet. Viser antall elektronskall.', 9),
+  ('naturfag-8:atomer-og-periodesystemet', 'Gruppe', 'En loddrett kolonne. Grunnstoffene har like mange elektroner i ytterste skall.', 10),
+  ('naturfag-8:atomer-og-periodesystemet', 'Alkalimetaller', 'Gruppe 1: myke og svært reaktive metaller.', 11),
+  ('naturfag-8:atomer-og-periodesystemet', 'Edelgasser', 'Gruppe 18: nesten ureaktive gasser med fullt ytterskall.', 12),
+  ('naturfag-8:atomer-og-periodesystemet', 'Mendelejev', 'Russisk kjemiker som lagde et tidlig periodesystem i 1869.', 13),
+  ('naturfag-8:atomer-og-periodesystemet', 'Atommodell', 'En forenklet framstilling av atomet som hjelper oss å forstå og forutsi.', 14);
+delete from public.quiz_sporsmal where tema_id = 'naturfag-8:atomer-og-periodesystemet';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('naturfag-8:atomer-og-periodesystemet', 'q01', 'flervalg', 'Hvilken ladning har et proton?', array['Negativ', 'Positiv', 'Ingen', 'Det varierer']::text[], 1, 'Protoner er positive, elektroner negative og nøytroner nøytrale.', true, true, 0),
+  ('naturfag-8:atomer-og-periodesystemet', 'q02', 'flervalg', 'Hva bestemmer hvilket grunnstoff et atom er?', array['Antall nøytroner', 'Antall elektronskall', 'Antall protoner', 'Størrelsen']::text[], 2, 'Atomnummeret, altså antall protoner, bestemmer grunnstoffet.', true, true, 1),
+  ('naturfag-8:atomer-og-periodesystemet', 'q03', 'flervalg', 'Hva er vann, H₂O?', array['En kjemisk forbindelse', 'Et grunnstoff', 'Et atom', 'En edelgass']::text[], 0, 'Vann består av to grunnstoffer, hydrogen og oksygen, og er derfor en forbindelse.', true, true, 2),
+  ('naturfag-8:atomer-og-periodesystemet', 'q04', 'flervalg', 'Hva kalles de loddrette kolonnene i periodesystemet?', array['Perioder', 'Skall', 'Rader', 'Grupper']::text[], 3, 'Kolonnene kalles grupper. De vannrette radene kalles perioder.', true, true, 3),
+  ('naturfag-8:atomer-og-periodesystemet', 'q05', 'flervalg', 'Hvorfor reagerer edelgassene nesten ikke med andre stoffer?', array['Fordi de er metaller', 'Fordi de har fullt ytterste elektronskall', 'Fordi de er tunge', 'Fordi de er faste stoffer']::text[], 1, 'Et fullt ytterskall gjør atomene stabile, så de har lite behov for å reagere.', true, true, 4),
+  ('naturfag-8:atomer-og-periodesystemet', 'q06', 'flervalg', 'Hvor står metallene i periodesystemet?', array['Bare helt til høyre', 'Bare øverst', 'Til venstre og i midten', 'Bare i gruppe 18']::text[], 2, 'De fleste grunnstoffene er metaller og står til venstre og i midten.', true, true, 5),
+  ('naturfag-8:atomer-og-periodesystemet', 'q07', 'flervalg', 'Natrium og klor danner sammen et stoff. Hvilket?', array['Bordsalt', 'Vann', 'Karbondioksid', 'Sukker']::text[], 0, 'Natrium og klor danner natriumklorid, NaCl, som er bordsalt.', true, true, 6),
+  ('naturfag-8:atomer-og-periodesystemet', 'q08', 'flervalg', 'Hvilken gruppe tilhører natrium og kalium?', array['Halogenene', 'Edelgassene', 'Overgangsmetallene', 'Alkalimetallene']::text[], 3, 'Natrium og kalium står i gruppe 1, alkalimetallene.', true, false, 7),
+  ('naturfag-8:atomer-og-periodesystemet', 'q09', 'flervalg', 'Hvorfor er et atom elektrisk nøytralt?', array['Fordi det ikke har partikler med ladning', 'Fordi det har like mange elektroner som protoner', 'Fordi nøytronene nøytraliserer alt', 'Fordi det er lite']::text[], 1, 'Like mange positive protoner og negative elektroner opphever hverandres ladning.', true, true, 8),
+  ('naturfag-8:atomer-og-periodesystemet', 'q10', 'flervalg', 'Hva gjorde Mendelejev spesielt?', array['Han oppdaget elektronet', 'Han lagde et periodesystem og lot plass til ukjente grunnstoffer', 'Han fant opp mikroskopet', 'Han delte atomet']::text[], 1, 'Mendelejev forutså grunnstoffer som senere ble oppdaget, noe som styrket systemet hans.', true, false, 9),
+  ('naturfag-8:atomer-og-periodesystemet', 'm01', 'sant-usant', 'Nøytroner har negativ ladning.', array['Sant', 'Usant']::text[], 1, 'Nøytroner er nøytrale. Elektronene er negative.', false, true, 10),
+  ('naturfag-8:atomer-og-periodesystemet', 'm02', 'sant-usant', 'Grunnstoffer i samme gruppe har ofte like kjemiske egenskaper.', array['Sant', 'Usant']::text[], 0, 'De har like mange elektroner i ytterste skall.', false, true, 11),
+  ('naturfag-8:atomer-og-periodesystemet', 'm03', 'sant-usant', 'En kjemisk forbindelse har de samme egenskapene som grunnstoffene den er laget av.', array['Sant', 'Usant']::text[], 1, 'Forbindelser har nye egenskaper. Bordsalt er verken et reaktivt metall eller en giftig gass.', false, true, 12),
+  ('naturfag-8:atomer-og-periodesystemet', 'm04', 'sant-usant', 'En atommodell er en forenkling av virkeligheten.', array['Sant', 'Usant']::text[], 0, 'Modeller hjelper oss å forstå, men viser ikke alt nøyaktig.', false, true, 13),
+  ('naturfag-8:atomer-og-periodesystemet', 'm05', 'flervalg', 'Hva er atomnummeret til karbon?', array['12', '8', '6', '1']::text[], 2, 'Karbon har 6 protoner og derfor atomnummer 6.', false, true, 14),
+  ('naturfag-8:atomer-og-periodesystemet', 'm06', 'flervalg', 'Hvilket grunnstoff er en edelgass?', array['Helium', 'Natrium', 'Klor', 'Jern']::text[], 0, 'Helium står i gruppe 18 sammen med de andre edelgassene.', false, true, 15),
+  ('naturfag-8:atomer-og-periodesystemet', 'm07', 'flervalg', 'Hva forteller periodenummeret?', array['Antall protoner', 'Antall elektronskall', 'Om stoffet er fast', 'Atomets masse']::text[], 1, 'Atomer i periode 3 har for eksempel tre elektronskall.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('naturfag-8:atomer-og-periodesystemet', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Naturfag: Kjemiske reaksjoner og forbrenning
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('naturfag-8:kjemiske-reaksjoner', 'naturfag-8', 'kjemiske-reaksjoner', 'Kjemiske reaksjoner og forbrenning', 'Hvordan du kjenner igjen en kjemisk reaksjon, loven om massebevaring, reaksjonslikninger og hva som skjer når noe brenner.', array[8, 4]::int[], 5, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('naturfag-8:kjemiske-reaksjoner', '## Fysisk eller kjemisk endring?
+
+Når is smelter til vann, er det fortsatt det samme stoffet, bare i en annen form. Det er en **fysisk endring**. I en **kjemisk reaksjon** dannes derimot **nye stoffer** med nye egenskaper. Atomene i utgangsstoffene bytter partnere og settes sammen på nye måter.
+
+## Tegn på en kjemisk reaksjon
+
+- Det dannes **gass** (bobler).
+- **Fargen** endres.
+- Det blir **varmere** eller **kaldere**.
+- Det avgis **lys**.
+- Det dannes et **bunnfall**, et fast stoff i en væske.
+
+## Reaktanter og produkter
+
+Stoffene vi starter med, kalles **reaktanter** (utgangsstoffer), og stoffene som dannes, kalles **produkter**. Vi viser reaksjonen med en **reaksjonslikning**, der pilen betyr «reagerer til»:
+
+2H₂ + O₂ → 2H₂O
+
+Tallene foran formlene kalles **koeffisienter** og viser hvor mange molekyler som reagerer.
+
+## Loven om massebevaring
+
+I en kjemisk reaksjon forsvinner ingen atomer, og ingen nye oppstår. De bare omorganiseres. Derfor er den samlede **massen** av produktene lik massen av reaktantene. Den franske kjemikeren **Antoine Lavoisier** viste dette på 1700-tallet. En reaksjonslikning må derfor være **balansert**: Det skal være like mange atomer av hvert grunnstoff på begge sider. I eksempelet over er det fire hydrogenatomer og to oksygenatomer på hver side.
+
+Når en fyrstikk brenner, ser det ut som om noe forsvinner. Men atomene går over i gasser som slipper ut i lufta. Veier du alt i et lukket system, er massen den samme før og etter.
+
+## Forbrenning
+
+**Forbrenning** er en reaksjon der et stoff reagerer med **oksygen** og avgir varme og lys. For at noe skal brenne, trengs tre ting, som vises i **branntrekanten**: **brensel**, **oksygen** og **høy nok temperatur**. Fjerner du én av dem, slokner brannen. Derfor kveler vi en brann med et brannteppe (fjerner oksygen) eller kjøler den med vann (senker temperaturen).
+
+Når stoffer med karbon og hydrogen brenner fullstendig, dannes **karbondioksid** og **vann**. Er det for lite oksygen, blir forbrenningen **ufullstendig**, og det kan dannes sot og den giftige gassen **karbonmonoksid** (CO).
+
+## Betydning
+
+Forbrenning gir oss varme, strøm og drivstoff til transport. Men forbrenning av fossile brensler slipper ut CO₂, som bidrar til global oppvarming, og kan gi luftforurensning. Kroppens celleånding er også en slags langsom forbrenning.', '{"label":"Kjemiske reaksjoner","children":[{"label":"Kjennetegn","children":[{"label":"Nye stoffer"},{"label":"Gass, farge, varme, lys, bunnfall"},{"label":"Ikke fysisk endring"}]},{"label":"Likninger","children":[{"label":"Reaktanter → produkter"},{"label":"Koeffisienter"},{"label":"Balansert"}]},{"label":"Massebevaring","children":[{"label":"Ingen atomer forsvinner"},{"label":"Lavoisier"},{"label":"Lukket system"}]},{"label":"Forbrenning","children":[{"label":"Branntrekanten"},{"label":"Fullstendig → CO₂ + H₂O"},{"label":"Ufullstendig → CO og sot"}]},{"label":"Betydning","children":[{"label":"Energi og varme"},{"label":"CO₂-utslipp"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'naturfag-8:kjemiske-reaksjoner';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('naturfag-8:kjemiske-reaksjoner', 'Fysisk endring', 'Stoffet endrer form, men er det samme stoffet, som når is smelter.', 0),
+  ('naturfag-8:kjemiske-reaksjoner', 'Kjemisk reaksjon', 'Nye stoffer med nye egenskaper dannes ved at atomene omorganiseres.', 1),
+  ('naturfag-8:kjemiske-reaksjoner', 'Tegn på kjemisk reaksjon', 'Gass, fargeendring, varme eller kulde, lys og bunnfall.', 2),
+  ('naturfag-8:kjemiske-reaksjoner', 'Reaktanter', 'Stoffene man starter med i en reaksjon.', 3),
+  ('naturfag-8:kjemiske-reaksjoner', 'Produkter', 'Stoffene som dannes i en reaksjon.', 4),
+  ('naturfag-8:kjemiske-reaksjoner', 'Reaksjonslikning', 'Viser en reaksjon med formler: 2H₂ + O₂ → 2H₂O.', 5),
+  ('naturfag-8:kjemiske-reaksjoner', 'Koeffisient', 'Tallet foran en formel i en reaksjonslikning.', 6),
+  ('naturfag-8:kjemiske-reaksjoner', 'Loven om massebevaring', 'Massen av produktene er lik massen av reaktantene.', 7),
+  ('naturfag-8:kjemiske-reaksjoner', 'Lavoisier', 'Fransk kjemiker som viste massebevaring på 1700-tallet.', 8),
+  ('naturfag-8:kjemiske-reaksjoner', 'Balansert likning', 'Like mange atomer av hvert grunnstoff på begge sider av pilen.', 9),
+  ('naturfag-8:kjemiske-reaksjoner', 'Forbrenning', 'Et stoff reagerer med oksygen og avgir varme og lys.', 10),
+  ('naturfag-8:kjemiske-reaksjoner', 'Branntrekanten', 'Brensel, oksygen og høy nok temperatur. Fjernes én, slokner brannen.', 11),
+  ('naturfag-8:kjemiske-reaksjoner', 'Fullstendig forbrenning', 'Gir CO₂ og vann når det er nok oksygen.', 12),
+  ('naturfag-8:kjemiske-reaksjoner', 'Ufullstendig forbrenning', 'For lite oksygen. Kan gi sot og giftig karbonmonoksid (CO).', 13),
+  ('naturfag-8:kjemiske-reaksjoner', 'Bunnfall', 'Et fast stoff som dannes i en væske ved en reaksjon.', 14);
+delete from public.quiz_sporsmal where tema_id = 'naturfag-8:kjemiske-reaksjoner';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('naturfag-8:kjemiske-reaksjoner', 'q01', 'flervalg', 'Hvilken endring er en kjemisk reaksjon?', array['Is som smelter', 'Vann som koker', 'Et stearinlys som brenner', 'Sukker som løses i te']::text[], 2, 'Når stearinet brenner, dannes nye stoffer som CO₂ og vann.', true, true, 0),
+  ('naturfag-8:kjemiske-reaksjoner', 'q02', 'flervalg', 'Hva sier loven om massebevaring?', array['Massen av produktene er lik massen av reaktantene', 'Massen øker i alle reaksjoner', 'Gasser har ingen masse', 'Massen forsvinner ved forbrenning']::text[], 0, 'Atomene omorganiseres, men ingen forsvinner eller oppstår.', true, true, 1),
+  ('naturfag-8:kjemiske-reaksjoner', 'q03', 'flervalg', 'Hva kalles stoffene man starter med i en reaksjon?', array['Produkter', 'Koeffisienter', 'Katalysatorer', 'Reaktanter']::text[], 3, 'Reaktantene er utgangsstoffene. Produktene dannes i reaksjonen.', true, true, 2),
+  ('naturfag-8:kjemiske-reaksjoner', 'q04', 'flervalg', 'Hvilke tre ting trengs for at noe skal brenne?', array['Vann, lys og luft', 'Brensel, oksygen og høy nok temperatur', 'Karbon, nitrogen og vann', 'Metall, salt og varme']::text[], 1, 'Dette er branntrekanten.', true, true, 3),
+  ('naturfag-8:kjemiske-reaksjoner', 'q05', 'flervalg', 'Hvorfor slokner en brann når du legger et brannteppe over?', array['Fordi temperaturen øker', 'Fordi brenselet forsvinner', 'Fordi oksygentilførselen stoppes', 'Fordi teppet er vått']::text[], 2, 'Teppet kveler brannen ved å fjerne oksygenet fra branntrekanten.', true, true, 4),
+  ('naturfag-8:kjemiske-reaksjoner', 'q06', 'flervalg', 'Hva dannes ved fullstendig forbrenning av stoffer med karbon og hydrogen?', array['Karbondioksid og vann', 'Oksygen og sukker', 'Karbonmonoksid og sot', 'Bare vann']::text[], 0, 'Med nok oksygen blir karbonet til CO₂ og hydrogenet til H₂O.', true, true, 5),
+  ('naturfag-8:kjemiske-reaksjoner', 'q07', 'flervalg', 'Hvorfor er ufullstendig forbrenning farlig?', array['Den gir for mye oksygen', 'Den er for kald', 'Den gir ikke varme', 'Den kan danne den giftige gassen karbonmonoksid']::text[], 3, 'Karbonmonoksid er luktfritt og svært giftig, fordi det hindrer blodet i å frakte oksygen.', true, true, 6),
+  ('naturfag-8:kjemiske-reaksjoner', 'q08', 'flervalg', 'Hvor mange oksygenatomer er det på hver side i 2H₂ + O₂ → 2H₂O?', array['Ett', 'To', 'Fire', 'Tre']::text[], 1, 'O₂ har to oksygenatomer, og 2H₂O har også to. Likningen er balansert.', true, true, 7),
+  ('naturfag-8:kjemiske-reaksjoner', 'q09', 'flervalg', 'Hvilket er IKKE et tegn på kjemisk reaksjon?', array['Gassbobler dannes', 'Fargen endres', 'Et stoff endrer form fra fast til flytende', 'Det avgis lys']::text[], 2, 'Smelting er en fysisk endring. Stoffet er det samme.', true, false, 8),
+  ('naturfag-8:kjemiske-reaksjoner', 'q10', 'flervalg', 'En fyrstikk brenner og ser lettere ut etterpå. Hvor ble massen av?', array['Den forsvant', 'Den gikk over i gasser som slapp ut i lufta', 'Den ble til energi', 'Den gikk inn i bordet']::text[], 1, 'Atomene finnes fortsatt, men i gasser som CO₂ og vanndamp.', true, false, 9),
+  ('naturfag-8:kjemiske-reaksjoner', 'm01', 'sant-usant', 'I en kjemisk reaksjon kan atomer forsvinne.', array['Sant', 'Usant']::text[], 1, 'Atomene bevares. De bare kobles sammen på nye måter.', false, true, 10),
+  ('naturfag-8:kjemiske-reaksjoner', 'm02', 'sant-usant', 'Vann kan slokke en brann fordi det senker temperaturen.', array['Sant', 'Usant']::text[], 0, 'Vann kjøler ned og fjerner dermed «høy nok temperatur» fra branntrekanten.', false, true, 11),
+  ('naturfag-8:kjemiske-reaksjoner', 'm03', 'sant-usant', 'Karbonmonoksid er en ufarlig gass.', array['Sant', 'Usant']::text[], 1, 'Karbonmonoksid er svært giftig og kan ikke kjennes på lukt.', false, true, 12),
+  ('naturfag-8:kjemiske-reaksjoner', 'm04', 'sant-usant', 'Et bunnfall er et tegn på at det har skjedd en kjemisk reaksjon.', array['Sant', 'Usant']::text[], 0, 'Når et fast stoff dannes i en væske, har det oppstått et nytt stoff.', false, true, 13),
+  ('naturfag-8:kjemiske-reaksjoner', 'm05', 'flervalg', 'Hva kalles stoffene som dannes i en reaksjon?', array['Reaktanter', 'Koeffisienter', 'Produkter', 'Brensel']::text[], 2, 'Produktene står på høyre side av pilen.', false, true, 14),
+  ('naturfag-8:kjemiske-reaksjoner', 'm06', 'flervalg', 'Hvilken gass trengs til forbrenning?', array['Oksygen', 'Nitrogen', 'Helium', 'Karbondioksid']::text[], 0, 'Forbrenning er en reaksjon med oksygen.', false, true, 15),
+  ('naturfag-8:kjemiske-reaksjoner', 'm07', 'flervalg', 'Hvilken er en fysisk endring?', array['Rust på en sykkel', 'Brød som ristes svart', 'Vann som fryser til is', 'Ved som brenner']::text[], 2, 'Is er fortsatt vann, bare i fast form.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('naturfag-8:kjemiske-reaksjoner', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Naturfag: Platetektonikk og jordas utvikling
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('naturfag-8:platetektonikk', 'naturfag-8', 'platetektonikk', 'Platetektonikk og jordas utvikling', 'Jordas indre oppbygning, teorien om platetektonikk, hva som skjer ved plategrensene, og hvilke observasjoner som støtter teorien.', array[19, 3]::int[], 6, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('naturfag-8:platetektonikk', '## Jordas oppbygning
+
+Jorda er bygd opp i lag:
+
+- **Jordskorpa** er det tynne, harde ytterlaget vi bor på.
+- **Mantelen** er et tykt lag med varm stein. Den er fast, men kan bevege seg svært langsomt, omtrent som tykk deig, over lang tid.
+- **Den ytre kjernen** er flytende og består mest av jern og nikkel.
+- **Den indre kjernen** er fast og svært varm.
+
+Jordskorpa og den øverste, stive delen av mantelen kalles **litosfæren**. Den er delt i store stykker som kalles **plater**.
+
+## Platetektonikk
+
+Teorien om **platetektonikk** sier at litosfæreplatene flyter på den seige mantelen under og beveger seg noen få centimeter i året – omtrent like raskt som neglene dine vokser. Bevegelsen drives blant annet av **konveksjonsstrømmer** i mantelen, der varm stein stiger opp og kaldere stein synker ned.
+
+## Kontinentaldrift
+
+Allerede i 1912 foreslo den tyske forskeren **Alfred Wegener** at kontinentene en gang hadde vært samlet i ett superkontinent, **Pangea**, og at de hadde drevet fra hverandre. Mange forskere avviste ideen, fordi han ikke kunne forklare hva som fikk kontinentene til å bevege seg. Først på 1960-tallet, med nye undersøkelser av havbunnen, ble teorien allment godtatt.
+
+## Plategrenser
+
+- **Divergerende grenser**: Platene beveger seg fra hverandre. Ny havbunn dannes når magma strømmer opp, som ved **Midtatlanterhavsryggen**. Island ligger på denne ryggen.
+- **Konvergerende grenser**: Platene beveger seg mot hverandre. En havplate kan skyves under en annen plate (subduksjon), og det dannes dyphavsgroper og vulkaner. Når to kontinentalplater kolliderer, presses fjellkjeder opp, som **Himalaya**.
+- **Transformgrenser**: Platene glir forbi hverandre sidelengs, som ved **San Andreas-forkastningen** i California. Dette gir ofte jordskjelv.
+
+De fleste **jordskjelv** og **vulkaner** finnes langs plategrensene.
+
+## Bevis for teorien
+
+- **Kystlinjene** til Sør-Amerika og Afrika passer sammen som puslebiter.
+- De samme **fossilene** og **bergartene** finnes på kontinenter som i dag ligger langt fra hverandre.
+- **Havbunnen** er yngst nær midthavsryggene og eldre jo lenger unna den ligger.
+- **Magnetiske striper** i havbunnen viser et symmetrisk mønster på begge sider av ryggene.
+- **GPS-målinger** viser i dag at platene faktisk beveger seg.
+
+## Norge
+
+Norge ligger midt på den eurasiske platen, langt fra plategrensene, og har derfor få og svake jordskjelv. Men fjellene våre ble en gang dannet i en stor kollisjon mellom kontinenter, for over 400 millioner år siden.', '{"label":"Platetektonikk","children":[{"label":"Jordas lag","children":[{"label":"Jordskorpe"},{"label":"Mantel"},{"label":"Ytre kjerne","note":"Flytende"},{"label":"Indre kjerne","note":"Fast"}]},{"label":"Teorien","children":[{"label":"Litosfæreplater"},{"label":"Konveksjonsstrømmer"},{"label":"Wegener og Pangea"}]},{"label":"Plategrenser","children":[{"label":"Divergerende","note":"Fra hverandre"},{"label":"Konvergerende","note":"Mot hverandre"},{"label":"Transform","note":"Forbi hverandre"}]},{"label":"Følger","children":[{"label":"Jordskjelv"},{"label":"Vulkaner"},{"label":"Fjellkjeder"}]},{"label":"Bevis","children":[{"label":"Kystlinjer"},{"label":"Fossiler og bergarter"},{"label":"Havbunnens alder"},{"label":"GPS"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'naturfag-8:platetektonikk';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('naturfag-8:platetektonikk', 'Jordskorpa', 'Jordas tynne, harde ytterlag.', 0),
+  ('naturfag-8:platetektonikk', 'Mantelen', 'Tykt lag med varm stein som beveger seg svært langsomt.', 1),
+  ('naturfag-8:platetektonikk', 'Kjernen', 'Består mest av jern og nikkel. Ytre kjerne er flytende, indre kjerne fast.', 2),
+  ('naturfag-8:platetektonikk', 'Litosfæren', 'Jordskorpa og den stive øverste delen av mantelen, delt i plater.', 3),
+  ('naturfag-8:platetektonikk', 'Platetektonikk', 'Teorien om at litosfæreplatene beveger seg og former jordoverflaten.', 4),
+  ('naturfag-8:platetektonikk', 'Konveksjonsstrømmer', 'Strømmer i mantelen der varm stein stiger og kald synker. Driver platene.', 5),
+  ('naturfag-8:platetektonikk', 'Alfred Wegener', 'Tysk forsker som i 1912 foreslo teorien om kontinentaldrift.', 6),
+  ('naturfag-8:platetektonikk', 'Pangea', 'Superkontinentet der alle kontinentene en gang var samlet.', 7),
+  ('naturfag-8:platetektonikk', 'Divergerende grense', 'Platene beveger seg fra hverandre, og ny havbunn dannes.', 8),
+  ('naturfag-8:platetektonikk', 'Konvergerende grense', 'Platene beveger seg mot hverandre. Gir fjellkjeder, dyphavsgroper og vulkaner.', 9),
+  ('naturfag-8:platetektonikk', 'Transformgrense', 'Platene glir forbi hverandre sidelengs, som ved San Andreas-forkastningen.', 10),
+  ('naturfag-8:platetektonikk', 'Subduksjon', 'En plate skyves ned under en annen plate.', 11),
+  ('naturfag-8:platetektonikk', 'Midtatlanterhavsryggen', 'Divergerende plategrense i Atlanterhavet. Island ligger på den.', 12),
+  ('naturfag-8:platetektonikk', 'Bevis for platetektonikk', 'Kystlinjer som passer, like fossiler, havbunnens alder, magnetiske striper og GPS.', 13),
+  ('naturfag-8:platetektonikk', 'Platenes fart', 'Noen få centimeter i året, omtrent like raskt som negler vokser.', 14);
+delete from public.quiz_sporsmal where tema_id = 'naturfag-8:platetektonikk';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('naturfag-8:platetektonikk', 'q01', 'flervalg', 'Hvilket lag i jorda er flytende?', array['Jordskorpa', 'Den ytre kjernen', 'Den indre kjernen', 'Litosfæren']::text[], 1, 'Den ytre kjernen er flytende jern og nikkel. Den indre kjernen er fast.', true, true, 0),
+  ('naturfag-8:platetektonikk', 'q02', 'flervalg', 'Hvem foreslo teorien om kontinentaldrift i 1912?', array['Charles Darwin', 'Isaac Newton', 'Alfred Wegener', 'Dmitrij Mendelejev']::text[], 2, 'Alfred Wegener mente at kontinentene en gang hadde vært samlet i Pangea.', true, true, 1),
+  ('naturfag-8:platetektonikk', 'q03', 'flervalg', 'Hva skjer ved en divergerende plategrense?', array['Platene beveger seg fra hverandre', 'Platene kolliderer', 'Platene glir forbi hverandre', 'Platene står stille']::text[], 0, 'Magma strømmer opp og danner ny havbunn, som ved Midtatlanterhavsryggen.', true, true, 2),
+  ('naturfag-8:platetektonikk', 'q04', 'flervalg', 'Hvordan ble Himalaya dannet?', array['Av et vulkanutbrudd', 'Ved at platene gled fra hverandre', 'Av isbreer', 'Ved at to kontinentalplater kolliderte']::text[], 3, 'Kollisjonen mellom den indiske og den eurasiske platen presset opp fjellkjeden.', true, true, 3),
+  ('naturfag-8:platetektonikk', 'q05', 'flervalg', 'Hvor fort beveger platene seg?', array['Flere meter i sekundet', 'Noen få centimeter i året', 'Flere kilometer i året', 'De beveger seg ikke']::text[], 1, 'Bevegelsen er omtrent like rask som negler vokser.', true, true, 4),
+  ('naturfag-8:platetektonikk', 'q06', 'flervalg', 'Hvilken observasjon støtter platetektonikken?', array['At havet er salt', 'At fjell er høye', 'At samme fossiler finnes på kontinenter langt fra hverandre', 'At det er kaldt på Nordpolen']::text[], 2, 'Like fossiler og bergarter tyder på at kontinentene en gang lå sammen.', true, true, 5),
+  ('naturfag-8:platetektonikk', 'q07', 'flervalg', 'Hvor finnes de fleste jordskjelv og vulkaner?', array['Langs plategrensene', 'Midt på platene', 'Bare i Norge', 'Bare i havet']::text[], 0, 'Det er ved plategrensene at platene støter mot, skiller seg fra eller glir forbi hverandre.', true, true, 6),
+  ('naturfag-8:platetektonikk', 'q08', 'flervalg', 'Hvorfor har Norge få kraftige jordskjelv?', array['Fordi landet er kaldt', 'Fordi det ikke finnes plater under Norge', 'Fordi fjellene stopper dem', 'Fordi Norge ligger midt på en plate, langt fra grensene']::text[], 3, 'Norge ligger inne på den eurasiske platen, der det er lite bevegelse.', true, false, 7),
+  ('naturfag-8:platetektonikk', 'q09', 'flervalg', 'Hva driver platebevegelsene?', array['Tidevannet', 'Konveksjonsstrømmer i mantelen', 'Vinden', 'Månens bevegelse']::text[], 1, 'Varm stein stiger og kaldere synker i mantelen, og dette drar med seg platene.', true, true, 8),
+  ('naturfag-8:platetektonikk', 'q10', 'flervalg', 'Hvor på havbunnen er berggrunnen yngst?', array['Nær kontinentene', 'Nær midthavsryggene', 'På de dypeste stedene', 'Overalt like gammel']::text[], 1, 'Ny havbunn dannes ved ryggene og skyves utover, så den eldste ligger lengst unna.', true, false, 9),
+  ('naturfag-8:platetektonikk', 'm01', 'sant-usant', 'Island ligger på en divergerende plategrense.', array['Sant', 'Usant']::text[], 0, 'Island ligger på Midtatlanterhavsryggen, der platene beveger seg fra hverandre.', false, true, 10),
+  ('naturfag-8:platetektonikk', 'm02', 'sant-usant', 'Wegeners teori ble godtatt av alle med en gang.', array['Sant', 'Usant']::text[], 1, 'Mange avviste teorien fordi han ikke kunne forklare hva som drev bevegelsen.', false, true, 11),
+  ('naturfag-8:platetektonikk', 'm03', 'sant-usant', 'San Andreas-forkastningen er et eksempel på en transformgrense.', array['Sant', 'Usant']::text[], 0, 'Der glir to plater sidelengs forbi hverandre.', false, true, 12),
+  ('naturfag-8:platetektonikk', 'm04', 'sant-usant', 'Kontinentene ligger fast og har aldri beveget seg.', array['Sant', 'Usant']::text[], 1, 'Kontinentene beveger seg noen centimeter i året og har flyttet seg mye over millioner av år.', false, true, 13),
+  ('naturfag-8:platetektonikk', 'm05', 'flervalg', 'Hva kalles det når en plate skyves ned under en annen?', array['Erosjon', 'Subduksjon', 'Konveksjon', 'Forvitring']::text[], 1, 'Subduksjon skjer ved konvergerende grenser og gir dyphavsgroper og vulkaner.', false, true, 14),
+  ('naturfag-8:platetektonikk', 'm06', 'flervalg', 'Hva het superkontinentet der alle kontinentene var samlet?', array['Atlantis', 'Eurasia', 'Pangea', 'Gondwana-Norge']::text[], 2, 'Pangea betyr «hele jorda».', false, true, 15),
+  ('naturfag-8:platetektonikk', 'm07', 'flervalg', 'Hvilken moderne teknologi viser at platene beveger seg i dag?', array['GPS-målinger', 'Termometre', 'Mikroskoper', 'Barometre']::text[], 0, 'Presise GPS-målinger viser at punkter på ulike plater flytter seg i forhold til hverandre.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('naturfag-8:platetektonikk', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Samfunnsfag (8): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'samfunnsfag-8' and slug not in ('metoder-og-kilder', 'identitet-og-fellesskap');
+
+-- Samfunnsfag: Samfunnsfaglige metoder og kilder
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('samfunnsfag-8:metoder-og-kilder', 'samfunnsfag-8', 'metoder-og-kilder', 'Samfunnsfaglige metoder og kilder', 'Hvordan du undersøker samfunnet med spørreundersøkelser, intervjuer og kilder, hvordan du vurderer kildene, og hvordan algoritmer kan prege forståelsen vår.', array[1, 2]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('samfunnsfag-8:metoder-og-kilder', '## Å undersøke samfunnet
+
+Samfunnsfag handler om mennesker, samfunn, historie og geografi. For å finne ut noe om samfunnet bruker vi **samfunnsfaglige metoder**. En undersøkelse starter med en **problemstilling**, et spørsmål du vil finne svar på, for eksempel «Hvor mye tid bruker elever på skolen vår på sosiale medier?».
+
+## Kvantitative og kvalitative metoder
+
+- **Kvantitative metoder** gir tall som kan telles og sammenlignes. En **spørreundersøkelse** med faste svaralternativer er et eksempel. Resultatene kan vises i tabeller og diagrammer.
+- **Kvalitative metoder** gir dypere innsikt i hva folk tenker og mener. Et **intervju** med åpne spørsmål og **observasjon** av hva folk faktisk gjør er eksempler.
+
+Mange undersøkelser kombinerer metodene: Spørreundersøkelsen viser hvor vanlig noe er, og intervjuene forklarer hvorfor.
+
+## Gyldighet og pålitelighet
+
+Når du presenterer funnene, bør du **drøfte** hvor gode de er. **Gyldighet** (validitet) handler om at du faktisk måler det du vil måle. **Pålitelighet** (reliabilitet) handler om at resultatene er nøyaktige og ville blitt de samme om undersøkelsen ble gjentatt. Et lite utvalg, ledende spørsmål eller at bare noen typer mennesker svarer, kan svekke resultatene.
+
+## Kilder
+
+En **kilde** er alt som gir informasjon om et tema: bøker, nettsider, avisartikler, statistikk, bilder, intervjuer og gjenstander. **Primærkilder** er fra tiden eller hendelsen selv, som et brev fra 1905 eller et bilde fra en demonstrasjon. **Sekundærkilder** er skrevet senere, med utgangspunkt i andre kilder, som en lærebok.
+
+Når du vurderer en kilde, spør du: Hvem har laget den, og hvorfor? Når ble den laget? Stemmer den med andre kilder? Hva sier den ikke noe om? Ulike kilder gir ofte **ulike perspektiver** på samme tema.
+
+## Algoritmer og ensrettede kilder
+
+På sosiale medier og søkemotorer velger **algoritmer** hva du får se, ut fra hva du har klikket på før. Da kan du havne i en **filterboble**, der du mest møter informasjon og meninger som bekrefter det du allerede tror. **Ensrettede kilder**, som bare viser én side av en sak, kan gi et skjevt bilde. Også **mangel på kilder** preger forståelsen vår. Mange grupper i historien, som fattige, kvinner og minoriteter, har etterlatt få skriftlige kilder, og derfor er deres historie mindre kjent.
+
+## Digitale verktøy
+
+Digitale verktøy gjør det lettere å lage spørreundersøkelser, analysere svar og presentere funn med diagrammer og presentasjoner. Husk å ta vare på personvernet til de som deltar, for eksempel ved å gjøre svarene anonyme.', '{"label":"Metoder og kilder","children":[{"label":"Undersøkelse","children":[{"label":"Problemstilling"},{"label":"Kvantitativ","note":"Tall"},{"label":"Kvalitativ","note":"Intervju, observasjon"}]},{"label":"Kvalitet","children":[{"label":"Gyldighet"},{"label":"Pålitelighet"},{"label":"Ledende spørsmål"}]},{"label":"Kilder","children":[{"label":"Primærkilder"},{"label":"Sekundærkilder"},{"label":"Hvem, hvorfor, når?"}]},{"label":"Skjev forståelse","children":[{"label":"Algoritmer og filterbobler"},{"label":"Ensrettede kilder"},{"label":"Mangel på kilder"}]},{"label":"Presentere","children":[{"label":"Digitale verktøy"},{"label":"Personvern"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'samfunnsfag-8:metoder-og-kilder';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('samfunnsfag-8:metoder-og-kilder', 'Problemstilling', 'Et spørsmål en undersøkelse skal gi svar på.', 0),
+  ('samfunnsfag-8:metoder-og-kilder', 'Kvantitativ metode', 'Metode som gir tall, som en spørreundersøkelse med faste svaralternativer.', 1),
+  ('samfunnsfag-8:metoder-og-kilder', 'Kvalitativ metode', 'Metode som gir dypere innsikt, som intervju og observasjon.', 2),
+  ('samfunnsfag-8:metoder-og-kilder', 'Spørreundersøkelse', 'Mange svarer på de samme spørsmålene, ofte med faste alternativer.', 3),
+  ('samfunnsfag-8:metoder-og-kilder', 'Intervju', 'Samtale med åpne spørsmål for å få fram tanker og erfaringer.', 4),
+  ('samfunnsfag-8:metoder-og-kilder', 'Observasjon', 'Å se på og notere hva folk faktisk gjør.', 5),
+  ('samfunnsfag-8:metoder-og-kilder', 'Gyldighet (validitet)', 'At undersøkelsen faktisk måler det den skal måle.', 6),
+  ('samfunnsfag-8:metoder-og-kilder', 'Pålitelighet (reliabilitet)', 'At resultatene er nøyaktige og ville blitt de samme ved gjentakelse.', 7),
+  ('samfunnsfag-8:metoder-og-kilder', 'Ledende spørsmål', 'Et spørsmål som styrer svaret, og som svekker undersøkelsen.', 8),
+  ('samfunnsfag-8:metoder-og-kilder', 'Primærkilde', 'Kilde fra tiden eller hendelsen selv, som et brev eller fotografi.', 9),
+  ('samfunnsfag-8:metoder-og-kilder', 'Sekundærkilde', 'Kilde skrevet senere med utgangspunkt i andre kilder, som en lærebok.', 10),
+  ('samfunnsfag-8:metoder-og-kilder', 'Perspektiv', 'Ståstedet en kilde ser en sak fra.', 11),
+  ('samfunnsfag-8:metoder-og-kilder', 'Algoritme', 'Et dataprogram som velger ut hva du får se på nett.', 12),
+  ('samfunnsfag-8:metoder-og-kilder', 'Filterboble', 'Når du mest møter informasjon som bekrefter det du allerede tror.', 13),
+  ('samfunnsfag-8:metoder-og-kilder', 'Mangel på kilder', 'Grupper som har etterlatt få kilder, får ofte mindre plass i historien.', 14);
+delete from public.quiz_sporsmal where tema_id = 'samfunnsfag-8:metoder-og-kilder';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('samfunnsfag-8:metoder-og-kilder', 'q01', 'flervalg', 'Hva er en kvantitativ metode?', array['En metode som gir tall som kan telles', 'Et dybdeintervju', 'En observasjon uten notater', 'Å lese en roman']::text[], 0, 'Spørreundersøkelser med faste alternativer gir tall som kan sammenlignes.', true, true, 0),
+  ('samfunnsfag-8:metoder-og-kilder', 'q02', 'flervalg', 'Hvilken metode passer best for å forstå hvorfor ungdom velger som de gjør?', array['Å telle antall elever', 'Intervju med åpne spørsmål', 'Å lese statistikk alene', 'Å måle høyden deres']::text[], 1, 'Kvalitative metoder som intervju gir innsikt i tanker og begrunnelser.', true, true, 1),
+  ('samfunnsfag-8:metoder-og-kilder', 'q03', 'flervalg', 'Hva er en primærkilde?', array['En lærebok om 1800-tallet', 'En nettside som oppsummerer historie', 'Et brev skrevet av en person i 1905', 'Et leksikon']::text[], 2, 'Primærkilder stammer fra tiden eller hendelsen selv.', true, true, 2),
+  ('samfunnsfag-8:metoder-og-kilder', 'q04', 'flervalg', 'Hva betyr gyldighet i en undersøkelse?', array['At den er gratis', 'At mange svarer', 'At den er rask', 'At den måler det den skal måle']::text[], 3, 'Spør du om noe annet enn det du vil vite, blir resultatene lite gyldige.', true, true, 3),
+  ('samfunnsfag-8:metoder-og-kilder', 'q05', 'flervalg', 'Hvilket spørsmål er ledende?', array['Hvor mange timer bruker du på mobilen?', 'Er du enig i at mobilbruk er skadelig?', 'Hvilke apper bruker du?', 'Når legger du deg?']::text[], 1, 'Formuleringen legger opp til at man skal svare ja.', true, true, 4),
+  ('samfunnsfag-8:metoder-og-kilder', 'q06', 'flervalg', 'Hva er en filterboble?', array['Når du mest møter informasjon som bekrefter det du tror', 'En type spørreundersøkelse', 'En kilde fra middelalderen', 'Et digitalt verktøy for diagrammer']::text[], 0, 'Algoritmer viser deg innhold som ligner det du har likt før.', true, true, 5),
+  ('samfunnsfag-8:metoder-og-kilder', 'q07', 'flervalg', 'Hvorfor vet vi mindre om hvordan fattige levde i gamle dager?', array['Fordi de ikke fantes', 'Fordi det var forbudt å skrive om dem', 'Fordi de har etterlatt få skriftlige kilder', 'Fordi historikere ikke er interessert']::text[], 2, 'Mangel på kilder gjør at noen gruppers historie er mindre kjent.', true, true, 6),
+  ('samfunnsfag-8:metoder-og-kilder', 'q08', 'flervalg', 'Hva er en fordel med å kombinere kvantitative og kvalitative metoder?', array['Det tar kortere tid', 'Man får både oversikt og forklaring', 'Man trenger ingen problemstilling', 'Man slipper å vurdere kildene']::text[], 1, 'Tall viser hvor vanlig noe er, mens intervjuer forklarer hvorfor.', true, false, 7),
+  ('samfunnsfag-8:metoder-og-kilder', 'q09', 'flervalg', 'Hvilket spørsmål hører til kildevurdering?', array['Hvem har laget kilden, og hvorfor?', 'Hvor mange sider er den?', 'Hvilken farge har den?', 'Hvor mye veier den?']::text[], 0, 'Avsender og formål sier mye om hvor pålitelig og nøytral kilden er.', true, true, 8),
+  ('samfunnsfag-8:metoder-og-kilder', 'q10', 'flervalg', 'Hvordan kan du ta vare på personvernet i en spørreundersøkelse?', array['Be om fødselsnummer', 'Publisere navnene', 'Dele svarene på nett', 'Gjøre svarene anonyme']::text[], 3, 'Anonyme svar beskytter deltakerne og gir ofte ærligere svar.', true, false, 9),
+  ('samfunnsfag-8:metoder-og-kilder', 'm01', 'sant-usant', 'En lærebok er en sekundærkilde.', array['Sant', 'Usant']::text[], 0, 'Læreboka er skrevet senere med utgangspunkt i andre kilder.', false, true, 10),
+  ('samfunnsfag-8:metoder-og-kilder', 'm02', 'sant-usant', 'Et lite utvalg gir alltid svært pålitelige resultater.', array['Sant', 'Usant']::text[], 1, 'Få svar øker risikoen for tilfeldige og skjeve resultater.', false, true, 11),
+  ('samfunnsfag-8:metoder-og-kilder', 'm03', 'sant-usant', 'Ulike kilder kan gi ulike perspektiver på samme hendelse.', array['Sant', 'Usant']::text[], 0, 'Derfor er det lurt å bruke flere kilder.', false, true, 12),
+  ('samfunnsfag-8:metoder-og-kilder', 'm04', 'sant-usant', 'Algoritmer viser alle brukere nøyaktig det samme innholdet.', array['Sant', 'Usant']::text[], 1, 'Algoritmer tilpasser innholdet til den enkelte ut fra tidligere aktivitet.', false, true, 13),
+  ('samfunnsfag-8:metoder-og-kilder', 'm05', 'flervalg', 'Hva kalles det å se på og notere hva folk faktisk gjør?', array['Spørreundersøkelse', 'Observasjon', 'Kildekritikk', 'Statistikk']::text[], 1, 'Observasjon er en kvalitativ metode.', false, true, 14),
+  ('samfunnsfag-8:metoder-og-kilder', 'm06', 'flervalg', 'Hva er en problemstilling?', array['Et spørsmål undersøkelsen skal svare på', 'En konklusjon', 'En kildeliste', 'Et diagram']::text[], 0, 'Problemstillingen gir undersøkelsen retning.', false, true, 15),
+  ('samfunnsfag-8:metoder-og-kilder', 'm07', 'flervalg', 'Hva er en ensrettet kilde?', array['En kilde med mange perspektiver', 'En kilde fra staten', 'En kilde som bare viser én side av en sak', 'En gammel kilde']::text[], 2, 'Ensrettede kilder kan gi et skjevt bilde av virkeligheten.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('samfunnsfag-8:metoder-og-kilder', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Samfunnsfag: Identitet, sosialisering og fellesskap
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('samfunnsfag-8:identitet-og-fellesskap', 'samfunnsfag-8', 'identitet-og-fellesskap', 'Identitet, sosialisering og fellesskap', 'Hvordan identitet og selvbilde formes i familie, venneflokk og på nett, hva sosialisering og normer er, og hvordan du kan håndtere press og sette grenser.', array[15, 13]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('samfunnsfag-8:identitet-og-fellesskap', '## Hva er identitet?
+
+**Identitet** handler om hvem du er og opplever deg som, og hvordan andre ser deg. Identiteten består av mange deler: kjønn, alder, familie, bosted, interesser, språk, religion, kultur og verdier. Den er ikke fast, men endrer seg gjennom livet, særlig i ungdomstiden. **Selvbildet** er hvordan du ser på deg selv, og **selvfølelsen** er hvor godt du liker deg selv.
+
+## Sosialisering
+
+**Sosialisering** er prosessen der vi lærer normer, verdier og ferdigheter som gjør at vi kan fungere i samfunnet.
+
+- **Primærsosialisering** skjer i de første leveårene, først og fremst i familien. Her lærer vi språk, grunnleggende vaner og verdier.
+- **Sekundærsosialisering** skjer senere, i barnehage, skole, fritidsaktiviteter, arbeidsliv og gjennom **medier**.
+
+De som påvirker oss, kalles **sosialiseringsagenter**: foreldre, venner, lærere, trenere, idoler og influensere.
+
+## Normer, roller og grupper
+
+**Normer** er uskrevne regler for hvordan vi bør oppføre oss, for eksempel å hilse eller å ikke avbryte. Brudd på normer kan føre til **sanksjoner**, som et surt blikk eller utestenging. Positive sanksjoner, som ros, belønner ønsket atferd. Vi har ulike **roller** i ulike sammenhenger – elev, venn, søsken, lagkamerat – og rollene kommer med forventninger.
+
+Mennesker hører til mange **grupper**. **Primærgrupper** er små og nære, som familien og nære venner. **Sekundærgrupper** er større og mer formelle, som en skoleklasse eller et idrettslag.
+
+## Press og påvirkning
+
+I fellesskap kan vi oppleve **gruppepress**, altså press til å gjøre som de andre, selv om vi ikke vil. På sosiale medier møter vi idealer for utseende og livsstil som ofte er redigerte og urealistiske, og det kan påvirke selvbildet. Reklame og **influensere** bruker kjennskap til dette for å selge produkter.
+
+## Grenser
+
+Alle har rett til å sette **egne grenser** – for hva de vil være med på, hva de vil dele, og hvem de vil være sammen med – og til å få dem respektert. Tips for å håndtere press og uønskede hendelser:
+
+- Tenk gjennom på forhånd hva du vil og ikke vil.
+- Det er lov å si nei og å ombestemme seg.
+- Snakk med noen du stoler på, som en venn, forelder, lærer eller helsesykepleier.
+- Si ifra hvis du ser at noen blir mobbet eller presset.
+
+## Mangfold
+
+Mennesker er ulike i identitet, levesett og kulturuttrykk. **Mangfold** kan gi nye perspektiver og et rikere fellesskap, men kan også gi utfordringer, som misforståelser og fordommer. Respekt og nysgjerrighet på andre gjør det lettere å leve sammen.', '{"label":"Identitet og fellesskap","children":[{"label":"Identitet","children":[{"label":"Mange deler"},{"label":"Endrer seg"},{"label":"Selvbilde"}]},{"label":"Sosialisering","children":[{"label":"Primær","note":"Familien"},{"label":"Sekundær","note":"Skole, venner, medier"},{"label":"Sosialiseringsagenter"}]},{"label":"Samspill","children":[{"label":"Normer og sanksjoner"},{"label":"Roller"},{"label":"Primær- og sekundærgrupper"}]},{"label":"Påvirkning","children":[{"label":"Gruppepress"},{"label":"Sosiale medier"},{"label":"Influensere og reklame"}]},{"label":"Grenser og mangfold","children":[{"label":"Lov å si nei"},{"label":"Snakk med noen"},{"label":"Respekt for mangfold"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'samfunnsfag-8:identitet-og-fellesskap';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('samfunnsfag-8:identitet-og-fellesskap', 'Identitet', 'Hvem du er og opplever deg som, og hvordan andre ser deg.', 0),
+  ('samfunnsfag-8:identitet-og-fellesskap', 'Selvbilde', 'Hvordan du ser på deg selv.', 1),
+  ('samfunnsfag-8:identitet-og-fellesskap', 'Sosialisering', 'Prosessen der vi lærer normer, verdier og ferdigheter for å fungere i samfunnet.', 2),
+  ('samfunnsfag-8:identitet-og-fellesskap', 'Primærsosialisering', 'Sosialisering i de første leveårene, mest i familien.', 3),
+  ('samfunnsfag-8:identitet-og-fellesskap', 'Sekundærsosialisering', 'Senere sosialisering i skole, fritid, arbeidsliv og medier.', 4),
+  ('samfunnsfag-8:identitet-og-fellesskap', 'Sosialiseringsagent', 'Noen som påvirker sosialiseringen vår, som foreldre, venner og medier.', 5),
+  ('samfunnsfag-8:identitet-og-fellesskap', 'Norm', 'Uskrevet regel for hvordan man bør oppføre seg.', 6),
+  ('samfunnsfag-8:identitet-og-fellesskap', 'Sanksjon', 'Reaksjon på atferd: negativ ved normbrudd, positiv som belønning.', 7),
+  ('samfunnsfag-8:identitet-og-fellesskap', 'Rolle', 'Forventninger knyttet til en posisjon, som elev, venn eller søsken.', 8),
+  ('samfunnsfag-8:identitet-og-fellesskap', 'Primærgruppe', 'Liten og nær gruppe, som familie og nære venner.', 9),
+  ('samfunnsfag-8:identitet-og-fellesskap', 'Sekundærgruppe', 'Større og mer formell gruppe, som en skoleklasse eller et idrettslag.', 10),
+  ('samfunnsfag-8:identitet-og-fellesskap', 'Gruppepress', 'Press til å gjøre som de andre i en gruppe.', 11),
+  ('samfunnsfag-8:identitet-og-fellesskap', 'Influenser', 'Person med mange følgere på sosiale medier som påvirker holdninger og kjøp.', 12),
+  ('samfunnsfag-8:identitet-og-fellesskap', 'Egne grenser', 'Hva du vil og ikke vil være med på. Du har rett til å få dem respektert.', 13),
+  ('samfunnsfag-8:identitet-og-fellesskap', 'Mangfold', 'At mennesker er ulike i identitet, levesett og kultur.', 14);
+delete from public.quiz_sporsmal where tema_id = 'samfunnsfag-8:identitet-og-fellesskap';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('samfunnsfag-8:identitet-og-fellesskap', 'q01', 'flervalg', 'Hva er sosialisering?', array['Å være sosial på fest', 'Prosessen der vi lærer normer, verdier og ferdigheter', 'Å bruke sosiale medier', 'Å bli med i en forening']::text[], 1, 'Gjennom sosialisering lærer vi hvordan vi skal fungere sammen med andre.', true, true, 0),
+  ('samfunnsfag-8:identitet-og-fellesskap', 'q02', 'flervalg', 'Hvor skjer primærsosialiseringen først og fremst?', array['I familien', 'På jobben', 'På sosiale medier', 'I politiske partier']::text[], 0, 'I de første leveårene er familien den viktigste sosialiseringsagenten.', true, true, 1),
+  ('samfunnsfag-8:identitet-og-fellesskap', 'q03', 'flervalg', 'Hva er en norm?', array['En skrevet lov', 'En straff', 'En uskrevet regel for hvordan man bør oppføre seg', 'En type gruppe']::text[], 2, 'Normer er forventninger som ofte ikke står skrevet noe sted.', true, true, 2),
+  ('samfunnsfag-8:identitet-og-fellesskap', 'q04', 'flervalg', 'Hva er et eksempel på en positiv sanksjon?', array['Et surt blikk', 'Å bli utestengt', 'Å få en bot', 'Å få ros']::text[], 3, 'Positive sanksjoner belønner atferd som er ønsket.', true, true, 3),
+  ('samfunnsfag-8:identitet-og-fellesskap', 'q05', 'flervalg', 'Hva er en primærgruppe?', array['Et stort idrettslag', 'En liten og nær gruppe, som familien', 'Et politisk parti', 'Alle elevene på skolen']::text[], 1, 'Primærgrupper er små og preget av nære relasjoner.', true, true, 4),
+  ('samfunnsfag-8:identitet-og-fellesskap', 'q06', 'flervalg', 'Hvorfor kan bilder på sosiale medier påvirke selvbildet negativt?', array['Fordi de ofte viser redigerte og urealistiske idealer', 'Fordi de er for små', 'Fordi de alltid er ekte', 'Det gjør de aldri']::text[], 0, 'Når vi sammenligner oss med redigerte bilder, kan vi føle at vi ikke strekker til.', true, true, 5),
+  ('samfunnsfag-8:identitet-og-fellesskap', 'q07', 'flervalg', 'Hva er gruppepress?', array['Å være leder i en gruppe', 'Et lagspill', 'Press til å gjøre som de andre, selv om man ikke vil', 'Å lage en gruppe på nett']::text[], 2, 'Gruppepress kan få oss til å gjøre ting vi egentlig ikke ønsker.', true, true, 6),
+  ('samfunnsfag-8:identitet-og-fellesskap', 'q08', 'flervalg', 'Hva kan du gjøre hvis du opplever press eller uønskede hendelser?', array['Holde det for deg selv', 'Gi etter for å unngå konflikt', 'Slette alle kontoer', 'Si nei og snakke med noen du stoler på']::text[], 3, 'Det er lov å si nei, og det hjelper å få støtte fra en voksen eller venn.', true, true, 7),
+  ('samfunnsfag-8:identitet-og-fellesskap', 'q09', 'flervalg', 'Hva betyr det at identiteten ikke er fast?', array['At den endrer seg gjennom livet', 'At man ikke har noen identitet', 'At man bytter navn ofte', 'At andre bestemmer den']::text[], 0, 'Nye erfaringer, venner og interesser gjør at identiteten utvikler seg.', true, false, 8),
+  ('samfunnsfag-8:identitet-og-fellesskap', 'q10', 'flervalg', 'Hva er en sosialiseringsagent?', array['En hemmelig agent', 'Noen som påvirker sosialiseringen vår, som foreldre og venner', 'En politiker', 'En type lov']::text[], 1, 'Foreldre, lærere, venner, trenere og medier er sosialiseringsagenter.', true, false, 9),
+  ('samfunnsfag-8:identitet-og-fellesskap', 'm01', 'sant-usant', 'Medier kan være en sosialiseringsagent.', array['Sant', 'Usant']::text[], 0, 'TV, spill og sosiale medier påvirker normer og verdier.', false, true, 10),
+  ('samfunnsfag-8:identitet-og-fellesskap', 'm02', 'sant-usant', 'Man kan bare ha én rolle om gangen i livet.', array['Sant', 'Usant']::text[], 1, 'Vi har mange roller samtidig, som elev, venn, søsken og lagkamerat.', false, true, 11),
+  ('samfunnsfag-8:identitet-og-fellesskap', 'm03', 'sant-usant', 'Du har rett til å ombestemme deg selv om du har sagt ja tidligere.', array['Sant', 'Usant']::text[], 0, 'Grensene dine gjelder hele tiden, og du kan endre mening.', false, true, 12),
+  ('samfunnsfag-8:identitet-og-fellesskap', 'm04', 'sant-usant', 'Mangfold gir bare utfordringer og ingen muligheter.', array['Sant', 'Usant']::text[], 1, 'Mangfold kan også gi nye perspektiver, ideer og et rikere fellesskap.', false, true, 13),
+  ('samfunnsfag-8:identitet-og-fellesskap', 'm05', 'flervalg', 'Hvilken er en sekundærgruppe?', array['Familien', 'Bestevennen din', 'Et idrettslag', 'Søsknene dine']::text[], 2, 'Idrettslaget er en større og mer formell gruppe.', false, true, 14),
+  ('samfunnsfag-8:identitet-og-fellesskap', 'm06', 'flervalg', 'Hva er selvfølelse?', array['Hvor godt du liker deg selv', 'Hvor mange venner du har', 'Hvor gammel du er', 'Hvor du bor']::text[], 0, 'Selvfølelsen handler om verdien du opplever at du har.', false, true, 15),
+  ('samfunnsfag-8:identitet-og-fellesskap', 'm07', 'flervalg', 'Hva er et eksempel på en negativ sanksjon?', array['Et klapp på skulderen', 'En premie', 'Et smil', 'Å bli ledd av']::text[], 3, 'Negative sanksjoner er reaksjoner på brudd på normer.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('samfunnsfag-8:identitet-og-fellesskap', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Norsk (9): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'norsk-9' and slug not in ('lyrikk', 'retorikk-og-argumentasjon', 'setningsledd', 'tekstbinding', 'kildebruk', 'nabosprak', 'ungdom-i-litteraturen');
+
+-- Norsk: Lyrikk og språklige virkemidler
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('norsk-9:lyrikk', 'norsk-9', 'lyrikk', 'Lyrikk og språklige virkemidler', 'Hva som kjennetegner dikt, de viktigste språklige virkemidlene som metafor, besjeling og rim, og hvordan du analyserer og tolker et dikt.', array[2, 6, 1]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('norsk-9:lyrikk', '## Hva er lyrikk?
+
+**Lyrikk** er dikt. Dikt er ofte korte og **fortettede**, det vil si at mye mening er pakket inn i få ord. Språket brukes bevisst for å skape bilder, stemning og rytme. Et dikt er delt i **verselinjer**, og linjene er gjerne samlet i **strofer**. Den som «snakker» i diktet, kalles **det lyriske jeget**. Det er ikke nødvendigvis det samme som forfatteren.
+
+## Klang og rytme
+
+- **Enderim**: ord som rimer på slutten av linjene (sol – stol).
+- **Bokstavrim** (allitterasjon): flere ord som begynner på samme lyd (store, stille stjerner).
+- **Rytme**: vekslingen mellom trykktunge og trykklette stavelser.
+- **Lydmalende ord**: ord som ligner lyden de beskriver (plask, surr, knitre).
+- **Gjentakelse**: ord eller linjer som kommer igjen, for å forsterke noe.
+
+Eldre dikt har ofte fast rim og rytme. Mange moderne dikt er skrevet på **frie vers**, uten fast rim eller rytme.
+
+## Bilder i språket
+
+- **Sammenligning**: to ting sammenlignes med «som» eller «lik»: Hun var sterk som en bjørn.
+- **Metafor**: noe beskrives som noe annet, uten «som»: Livet er en reise.
+- **Besjeling** (personifikasjon): ting, dyr eller natur får menneskelige egenskaper: Vinden hvisket i trærne.
+- **Symbol**: et konkret bilde som står for noe mer, for eksempel en due for fred.
+- **Kontrast**: motsetninger som lys og mørke, liv og død.
+- **Ironi**: å si det motsatte av det man mener.
+
+## Diktformer
+
+Noen diktformer har faste regler. **Haiku** kommer fra Japan og har tre linjer med 5, 7 og 5 stavelser. En **sonett** har 14 linjer. Et **prosadikt** er skrevet uten linjeskift, men har diktets fortetting og bilder.
+
+## Analysere og tolke
+
+En god diktanalyse har tre deler:
+
+- **Beskrivelse**: Hva handler diktet om på det konkrete planet? Hvordan er det bygd opp?
+- **Virkemidler**: Hvilke virkemidler brukes, og hvilken **effekt** har de? Det er ikke nok å finne en metafor, du må forklare hva den gjør med diktet.
+- **Tolkning**: Hva er temaet, og hva kan diktet bety? Støtt tolkningen med sitater.
+
+## Dikt i tid
+
+Dikt må ofte forstås ut fra **historisk kontekst**. Et naturdikt fra romantikken kan uttrykke kjærlighet til fedrelandet, mens et moderne dikt om naturen kan handle om klimaendringer. Samtidig kan gamle dikt si noe om vår egen tid, fordi temaer som kjærlighet, sorg og ensomhet er tidløse.', '{"label":"Lyrikk","children":[{"label":"Form","children":[{"label":"Verselinje og strofe"},{"label":"Det lyriske jeget"},{"label":"Frie vers"}]},{"label":"Klang","children":[{"label":"Enderim"},{"label":"Bokstavrim"},{"label":"Rytme"},{"label":"Lydmalende ord"}]},{"label":"Bilder","children":[{"label":"Sammenligning","note":"som / lik"},{"label":"Metafor"},{"label":"Besjeling"},{"label":"Symbol"}]},{"label":"Diktformer","children":[{"label":"Haiku","note":"5-7-5"},{"label":"Sonett","note":"14 linjer"},{"label":"Prosadikt"}]},{"label":"Analyse","children":[{"label":"Beskriv"},{"label":"Virkemidler og effekt"},{"label":"Tolk med sitater"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'norsk-9:lyrikk';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('norsk-9:lyrikk', 'Lyrikk', 'Dikt. Tekster med fortettet språk, bilder og ofte rytme.', 0),
+  ('norsk-9:lyrikk', 'Verselinje', 'En linje i et dikt.', 1),
+  ('norsk-9:lyrikk', 'Strofe', 'En gruppe verselinjer, som et avsnitt i diktet.', 2),
+  ('norsk-9:lyrikk', 'Det lyriske jeget', 'Den som «snakker» i diktet. Ikke nødvendigvis forfatteren.', 3),
+  ('norsk-9:lyrikk', 'Enderim', 'Ord som rimer på slutten av verselinjene: sol – stol.', 4),
+  ('norsk-9:lyrikk', 'Bokstavrim', 'Flere ord som begynner på samme lyd: store, stille stjerner.', 5),
+  ('norsk-9:lyrikk', 'Lydmalende ord', 'Ord som ligner lyden de beskriver: plask, surr, knitre.', 6),
+  ('norsk-9:lyrikk', 'Frie vers', 'Dikt uten fast rim eller rytme.', 7),
+  ('norsk-9:lyrikk', 'Sammenligning', 'To ting sammenlignes med «som» eller «lik»: sterk som en bjørn.', 8),
+  ('norsk-9:lyrikk', 'Metafor', 'Noe beskrives som noe annet, uten «som»: Livet er en reise.', 9),
+  ('norsk-9:lyrikk', 'Besjeling', 'Ting, dyr eller natur får menneskelige egenskaper: Vinden hvisket.', 10),
+  ('norsk-9:lyrikk', 'Symbol', 'Et konkret bilde som står for noe mer, som en due for fred.', 11),
+  ('norsk-9:lyrikk', 'Kontrast', 'Motsetninger som settes opp mot hverandre, som lys og mørke.', 12),
+  ('norsk-9:lyrikk', 'Haiku', 'Japansk diktform med tre linjer på 5, 7 og 5 stavelser.', 13),
+  ('norsk-9:lyrikk', 'Effekt av virkemiddel', 'Hva virkemidlet gjør med diktet, for eksempel skaper stemning eller forsterker et tema.', 14);
+delete from public.quiz_sporsmal where tema_id = 'norsk-9:lyrikk';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('norsk-9:lyrikk', 'q01', 'flervalg', '«Vinden hvisket i trærne.» Hvilket virkemiddel er dette?', array['Sammenligning', 'Besjeling', 'Enderim', 'Bokstavrim']::text[], 1, 'Vinden får en menneskelig egenskap, å hviske. Det er besjeling.', true, true, 0),
+  ('norsk-9:lyrikk', 'q02', 'flervalg', 'Hva er forskjellen på en metafor og en sammenligning?', array['Sammenligningen bruker «som» eller «lik», metaforen gjør det ikke', 'Metaforen rimer, sammenligningen ikke', 'De er det samme', 'Metaforen er alltid lengre']::text[], 0, '«Sterk som en bjørn» er sammenligning. «Han er en bjørn» er metafor.', true, true, 1),
+  ('norsk-9:lyrikk', 'q03', 'flervalg', 'Hvor mange stavelser har en haiku til sammen?', array['14', '12', '17', '20']::text[], 2, 'En haiku har 5 + 7 + 5 = 17 stavelser.', true, true, 2),
+  ('norsk-9:lyrikk', 'q04', 'flervalg', 'Hva kalles den som snakker i et dikt?', array['Forfatteren', 'Fortelleren', 'Hovedpersonen', 'Det lyriske jeget']::text[], 3, 'Det lyriske jeget er stemmen i diktet, og det kan være en helt annen enn forfatteren.', true, true, 3),
+  ('norsk-9:lyrikk', 'q05', 'flervalg', '«Store, stille stjerner» er et eksempel på', array['enderim', 'bokstavrim', 'metafor', 'ironi']::text[], 1, 'Ordene begynner på samme lyd, s. Det kalles bokstavrim eller allitterasjon.', true, true, 4),
+  ('norsk-9:lyrikk', 'q06', 'flervalg', 'Hva er frie vers?', array['Dikt som alle kan lese gratis', 'Dikt uten fast rim og rytme', 'Dikt med 14 linjer', 'Dikt skrevet på dialekt']::text[], 1, 'Frie vers er vanlig i moderne lyrikk og har ingen faste regler for rim og rytme.', true, false, 5),
+  ('norsk-9:lyrikk', 'q07', 'flervalg', 'Hva er det viktigste å gjøre når du har funnet et virkemiddel i en analyse?', array['Tell hvor mange det er', 'Skriv det med store bokstaver', 'Forklar hvilken effekt det har', 'Bytt det ut med et annet ord']::text[], 2, 'En analyse blir god når du forklarer hva virkemidlet gjør med diktet, ikke bare at det finnes.', true, true, 6),
+  ('norsk-9:lyrikk', 'q08', 'flervalg', 'En hvit due i et dikt står for fred. Hva kalles dette?', array['Symbol', 'Kontrast', 'Rim', 'Lydmaling']::text[], 0, 'Et symbol er et konkret bilde som peker mot noe større og abstrakt.', true, true, 7),
+  ('norsk-9:lyrikk', 'q09', 'flervalg', 'Hvilket ord er lydmalende?', array['stille', 'hus', 'blå', 'plask']::text[], 3, '«Plask» ligner lyden av noe som faller i vann.', true, true, 8),
+  ('norsk-9:lyrikk', 'q10', 'flervalg', 'Hvorfor kan det være nyttig å kjenne den historiske konteksten til et dikt?', array['Fordi dikt aldri kan forstås uten den', 'Fordi den kan forklare hvorfor diktet handler om det det gjør', 'Fordi alle gamle dikt handler om det samme', 'Fordi konteksten bestemmer rimmønsteret']::text[], 1, 'Tiden diktet ble skrevet i, kan gi bakgrunn for tema og bilder, selv om diktet også kan leses i lys av vår egen tid.', true, false, 9),
+  ('norsk-9:lyrikk', 'm01', 'sant-usant', 'Det lyriske jeget er alltid forfatteren selv.', array['Sant', 'Usant']::text[], 1, 'Det lyriske jeget er stemmen i diktet og kan være en oppdiktet person.', false, true, 10),
+  ('norsk-9:lyrikk', 'm02', 'sant-usant', '«Hun var rask som vinden» er en sammenligning.', array['Sant', 'Usant']::text[], 0, 'Ordet «som» viser at to ting sammenlignes.', false, true, 11),
+  ('norsk-9:lyrikk', 'm03', 'sant-usant', 'Alle dikt må rime.', array['Sant', 'Usant']::text[], 1, 'Mange dikt, særlig moderne, er skrevet på frie vers uten rim.', false, true, 12),
+  ('norsk-9:lyrikk', 'm04', 'sant-usant', 'En sonett har 14 linjer.', array['Sant', 'Usant']::text[], 0, 'Sonetten er en fast diktform med 14 verselinjer.', false, true, 13),
+  ('norsk-9:lyrikk', 'm05', 'flervalg', '«Tiden er en tyv.» Hvilket virkemiddel er dette?', array['Sammenligning', 'Bokstavrim', 'Lydmaling', 'Metafor']::text[], 3, 'Tiden beskrives som en tyv uten «som». Det er en metafor for at tiden tar noe fra oss.', false, true, 14),
+  ('norsk-9:lyrikk', 'm06', 'flervalg', 'Hva er en strofe?', array['En gruppe verselinjer', 'Et rimord', 'En diktsamling', 'Tittelen på et dikt']::text[], 0, 'En strofe er en samling verselinjer, omtrent som et avsnitt i prosa.', false, true, 15),
+  ('norsk-9:lyrikk', 'm07', 'flervalg', 'Lys og mørke i samme dikt er et eksempel på', array['rim', 'kontrast', 'besjeling', 'haiku']::text[], 1, 'Motsetninger som settes opp mot hverandre, kalles kontrast.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('norsk-9:lyrikk', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Norsk: Retorikk og argumentasjon
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('norsk-9:retorikk-og-argumentasjon', 'norsk-9', 'retorikk-og-argumentasjon', 'Retorikk og argumentasjon', 'Appellformene etos, patos og logos, retoriske virkemidler, saklig og usaklig argumentasjon, og hvordan du bygger opp en argumenterende tekst.', array[6, 9, 10]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('norsk-9:retorikk-og-argumentasjon', '## Hva er retorikk?
+
+**Retorikk** er læren om å overbevise gjennom tale og skrift. Den ble utviklet i antikkens Hellas, og filosofen **Aristoteles** beskrev tre måter å overbevise på. Disse kalles **appellformer**, og de brukes fortsatt i debatter, reklame og taler.
+
+## De tre appellformene
+
+- **Etos** handler om avsenderens **troverdighet**. Vi lytter mer til en lege som snakker om helse enn til en tilfeldig person. Etos bygges ved å vise kunnskap, erfaring, ærlighet og velvilje.
+- **Patos** appellerer til **følelser**, som medfølelse, frykt, glede eller sinne. Personlige historier og sterke bilder er typisk patos.
+- **Logos** appellerer til **fornuften** gjennom fakta, tall, eksempler og logiske resonnementer.
+
+De beste talene og tekstene kombinerer alle tre.
+
+## Retoriske virkemidler
+
+- **Retoriske spørsmål**: spørsmål som ikke krever svar, men får mottakeren til å tenke: Vil vi virkelig ha det slik?
+- **Gjentakelse**: å gjenta ord eller fraser for å forsterke budskapet.
+- **Tretall**: å ramse opp tre ting gir rytme og tyngde.
+- **Kontrast**: å sette to ting opp mot hverandre.
+- **Direkte tiltale**: å snakke til mottakeren med «du» eller «dere».
+
+## Saklig og usaklig argumentasjon
+
+Et **saklig argument** handler om saken og kan begrunnes. Et **usaklig argument** forsøker å vinne på andre måter. Noen vanlige **hersketeknikker** og usaklige grep er:
+
+- **Personangrep**: å angripe personen i stedet for argumentet.
+- **Stråmann**: å gjengi motpartens syn feil og så angripe den feilaktige versjonen.
+- **Svartmaling**: å beskrive konsekvensene av motpartens forslag mye verre enn de er.
+- **Generalisering**: å trekke bastante konklusjoner fra ett eller få eksempler.
+
+## Argumenterende tekster
+
+En argumenterende tekst, som et **debattinnlegg**, har ofte denne oppbygningen:
+
+- **Innledning** med en fengende start og en tydelig **påstand** (tese).
+- **Hoveddel** med argumenter, gjerne det sterkeste til slutt, og med belegg i form av fakta og eksempler.
+- **Motargumenter** som du imøtegår. Det styrker troverdigheten din.
+- **Avslutning** som gjentar påstanden og gjerne har en **oppfordring**.
+
+## Muntlig argumentasjon
+
+I en diskusjon er det viktig å lytte, svare på det motparten faktisk sier, bruke fagbegreper og holde en saklig tone. Du kan være uenig i sak uten å være ufin mot personen.', '{"label":"Retorikk og argumentasjon","children":[{"label":"Appellformer","children":[{"label":"Etos","note":"Troverdighet"},{"label":"Patos","note":"Følelser"},{"label":"Logos","note":"Fornuft"}]},{"label":"Virkemidler","children":[{"label":"Retoriske spørsmål"},{"label":"Gjentakelse og tretall"},{"label":"Kontrast"},{"label":"Direkte tiltale"}]},{"label":"Usaklig","children":[{"label":"Personangrep"},{"label":"Stråmann"},{"label":"Svartmaling"},{"label":"Generalisering"}]},{"label":"Debattinnlegg","children":[{"label":"Påstand i innledningen"},{"label":"Argumenter med belegg"},{"label":"Motargumenter"},{"label":"Oppfordring til slutt"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'norsk-9:retorikk-og-argumentasjon';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('norsk-9:retorikk-og-argumentasjon', 'Retorikk', 'Læren om å overbevise gjennom tale og skrift.', 0),
+  ('norsk-9:retorikk-og-argumentasjon', 'Appellform', 'En måte å overbevise på: etos, patos eller logos.', 1),
+  ('norsk-9:retorikk-og-argumentasjon', 'Etos', 'Overbevisning gjennom avsenderens troverdighet, kunnskap og karakter.', 2),
+  ('norsk-9:retorikk-og-argumentasjon', 'Patos', 'Overbevisning gjennom følelser, som medfølelse eller frykt.', 3),
+  ('norsk-9:retorikk-og-argumentasjon', 'Logos', 'Overbevisning gjennom fornuft: fakta, tall og logiske argumenter.', 4),
+  ('norsk-9:retorikk-og-argumentasjon', 'Aristoteles', 'Gresk filosof som beskrev de tre appellformene i antikken.', 5),
+  ('norsk-9:retorikk-og-argumentasjon', 'Retorisk spørsmål', 'Et spørsmål som ikke krever svar, men skal få mottakeren til å tenke.', 6),
+  ('norsk-9:retorikk-og-argumentasjon', 'Tretall', 'Oppramsing av tre ting for å gi rytme og tyngde.', 7),
+  ('norsk-9:retorikk-og-argumentasjon', 'Påstand (tese)', 'Standpunktet en argumenterende tekst forsvarer.', 8),
+  ('norsk-9:retorikk-og-argumentasjon', 'Motargument', 'Et argument mot din påstand. Å imøtegå det styrker teksten.', 9),
+  ('norsk-9:retorikk-og-argumentasjon', 'Personangrep', 'Usaklig grep der man angriper personen i stedet for argumentet.', 10),
+  ('norsk-9:retorikk-og-argumentasjon', 'Stråmann', 'Å gjengi motpartens syn feil og så angripe den feilaktige versjonen.', 11),
+  ('norsk-9:retorikk-og-argumentasjon', 'Svartmaling', 'Å beskrive konsekvensene av et forslag mye verre enn de er.', 12),
+  ('norsk-9:retorikk-og-argumentasjon', 'Generalisering', 'Å trekke bastante konklusjoner ut fra ett eller få eksempler.', 13),
+  ('norsk-9:retorikk-og-argumentasjon', 'Saklig argument', 'Et argument som handler om saken og kan begrunnes med fakta og fornuft.', 14);
+delete from public.quiz_sporsmal where tema_id = 'norsk-9:retorikk-og-argumentasjon';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('norsk-9:retorikk-og-argumentasjon', 'q01', 'flervalg', 'Hvilken appellform bruker en lege som viser til sin erfaring?', array['Patos', 'Logos', 'Etos', 'Ironi']::text[], 2, 'Legen bygger troverdighet gjennom fagkunnskap og erfaring. Det er etos.', true, true, 0),
+  ('norsk-9:retorikk-og-argumentasjon', 'q02', 'flervalg', 'En reklame viser en trist hundevalp for å få folk til å gi penger. Hvilken appellform er det?', array['Patos', 'Logos', 'Etos', 'Stråmann']::text[], 0, 'Bildet vekker medfølelse, altså følelser. Det er patos.', true, true, 1),
+  ('norsk-9:retorikk-og-argumentasjon', 'q03', 'flervalg', '«80 % av elevene sover under åtte timer, og forskning viser at søvnmangel svekker læringen.» Hvilken appellform er dette?', array['Etos', 'Patos', 'Personangrep', 'Logos']::text[], 3, 'Tall og forskning appellerer til fornuften, altså logos.', true, true, 2),
+  ('norsk-9:retorikk-og-argumentasjon', 'q04', 'flervalg', 'Hva er et retorisk spørsmål?', array['Et spørsmål i en quiz', 'Et spørsmål som ikke krever svar, men skal få deg til å tenke', 'Et spørsmål læreren stiller', 'Et spørsmål uten spørsmålstegn']::text[], 1, 'Eksempel: «Vil vi virkelig at barna våre skal vokse opp i et forurenset land?»', true, true, 3),
+  ('norsk-9:retorikk-og-argumentasjon', 'q05', 'flervalg', '«Du er jo bare 14 år, hva vet du om politikk?» Hva slags argument er dette?', array['Et saklig argument', 'Et personangrep', 'Logos', 'Et tretall']::text[], 1, 'Utsagnet angriper personens alder i stedet for å svare på det personen faktisk mener.', true, true, 4),
+  ('norsk-9:retorikk-og-argumentasjon', 'q06', 'flervalg', 'Hva betyr det å bruke en stråmann?', array['Å gjengi motpartens syn feil og angripe den feilaktige versjonen', 'Å bruke et sterkt bilde', 'Å vise til en ekspert', 'Å gjenta et ord tre ganger']::text[], 0, 'Stråmannen er lettere å slå enn det motparten egentlig mente.', true, true, 5),
+  ('norsk-9:retorikk-og-argumentasjon', 'q07', 'flervalg', 'Hvor bør påstanden stå i et debattinnlegg?', array['Bare i avslutningen', 'Den skal ikke stå der', 'Tydelig i innledningen, og gjerne gjentatt til slutt', 'I en fotnote']::text[], 2, 'Leseren skal vite tidlig hva du mener. Å gjenta påstanden til slutt gir teksten en tydelig ramme.', true, false, 6),
+  ('norsk-9:retorikk-og-argumentasjon', 'q08', 'flervalg', 'Hvorfor kan det lønne seg å ta med motargumenter i en argumenterende tekst?', array['For å bytte side', 'For å gjøre teksten lengre', 'For å forvirre leseren', 'Fordi det viser at du kjenner saken, og styrker troverdigheten']::text[], 3, 'Når du imøtegår motargumenter, viser du at du har vurdert saken fra flere sider. Det styrker etos.', true, true, 7),
+  ('norsk-9:retorikk-og-argumentasjon', 'q09', 'flervalg', 'Hvilket av disse er en generalisering?', array['«Min kusine ble mobbet på nett, så alle ungdommer blir mobbet på nett.»', '«Undersøkelsen viser at 12 % har opplevd nettmobbing.»', '«Nettmobbing er et problem for noen.»', '«Jeg mener skolen bør gjøre mer mot mobbing.»']::text[], 0, 'Konklusjonen om «alle» bygger på ett enkelt eksempel.', true, true, 8),
+  ('norsk-9:retorikk-og-argumentasjon', 'q10', 'flervalg', 'Hvilken appellform handler om avsenderens troverdighet?', array['Logos', 'Patos', 'Etos', 'Kairos']::text[], 2, 'Etos er knyttet til hvem avsenderen er og om vi stoler på vedkommende.', true, false, 9),
+  ('norsk-9:retorikk-og-argumentasjon', 'm01', 'sant-usant', 'Gode talere bruker ofte alle tre appellformene.', array['Sant', 'Usant']::text[], 0, 'En kombinasjon av troverdighet, følelser og fakta overbeviser flest.', false, true, 10),
+  ('norsk-9:retorikk-og-argumentasjon', 'm02', 'sant-usant', 'Et personangrep er et saklig argument.', array['Sant', 'Usant']::text[], 1, 'Personangrep handler om personen, ikke saken, og er usaklig.', false, true, 11),
+  ('norsk-9:retorikk-og-argumentasjon', 'm03', 'sant-usant', 'Logos bygger på fakta og logiske resonnementer.', array['Sant', 'Usant']::text[], 0, 'Logos appellerer til mottakerens fornuft.', false, true, 12),
+  ('norsk-9:retorikk-og-argumentasjon', 'm04', 'sant-usant', 'Du må være ufin mot motparten for å vinne en diskusjon.', array['Sant', 'Usant']::text[], 1, 'Man kan være uenig i sak og likevel respektfull mot personen. Det styrker også troverdigheten.', false, true, 13),
+  ('norsk-9:retorikk-og-argumentasjon', 'm05', 'flervalg', 'Hva kalles det når konsekvensene av et forslag beskrives mye verre enn de er?', array['Tretall', 'Svartmaling', 'Logos', 'Etos']::text[], 1, 'Svartmaling skaper frykt for motpartens forslag på et overdrevet grunnlag.', false, true, 14),
+  ('norsk-9:retorikk-og-argumentasjon', 'm06', 'flervalg', 'Hvilket retorisk virkemiddel er dette: «Vi skal kjempe for fremtiden, for naturen og for hverandre»?', array['Stråmann', 'Personangrep', 'Tretall', 'Retorisk spørsmål']::text[], 2, 'Tre ledd ramses opp etter hverandre og gir rytme og tyngde.', false, true, 15),
+  ('norsk-9:retorikk-og-argumentasjon', 'm07', 'flervalg', 'Hva hører typisk hjemme i avslutningen av et debattinnlegg?', array['En oppfordring og en gjentakelse av påstanden', 'Et nytt tema', 'Alle kildene i fulltekst', 'En novelle']::text[], 0, 'Avslutningen samler trådene og ber gjerne leseren om å handle eller tenke nytt.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('norsk-9:retorikk-og-argumentasjon', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Norsk: Setningsledd og setningstyper
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('norsk-9:setningsledd', 'norsk-9', 'setningsledd', 'Setningsledd og setningstyper', 'Subjekt, verbal, objekt, predikativ og adverbial, forskjellen på helsetninger og leddsetninger, og hvordan setningsanalyse hjelper deg å skrive bedre.', array[12, 11]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('norsk-9:setningsledd', '## Ordklasser og setningsledd
+
+Ordklassene forteller hva slags ord vi har. **Setningsleddene** forteller hvilken **jobb** ordene gjør i en bestemt setning. Et setningsledd kan bestå av ett ord eller flere ord som hører sammen, for eksempel «den gamle mannen».
+
+## De viktigste setningsleddene
+
+- **Verbal** er verbet eller verbene som sier hva som skjer: Kari **har spist** frokost. Start alltid med å finne verbalet.
+- **Subjekt** er den eller det som gjør noe, eller som setningen handler om. Spør «hvem eller hva + verbal?»: Hvem har spist? **Kari**.
+- **Direkte objekt** er den eller det som blir rammet av handlingen. Spør «hvem eller hva + verbal + subjekt?»: Hva har Kari spist? **frokost**.
+- **Indirekte objekt** er mottakeren, den noe gjøres for eller gis til: Kari ga **broren** en gave. Ofte kan du sette «til» eller «for» foran.
+- **Predikativ** sier noe om subjektet eller objektet, ofte etter verbene være, bli og hete: Kari er **trøtt**. Han heter **Ali**.
+- **Adverbial** forteller hvor, når, hvordan eller hvorfor: Kari spiste **i går** **på kjøkkenet**. Ordet «ikke» regnes også som adverbial.
+
+## Helsetninger og leddsetninger
+
+En **helsetning** har minst subjekt og verbal og kan stå alene: Det regnet. En **leddsetning** har også subjekt og verbal, men kan ikke stå alene, fordi den er en del av en større setning. Den innledes som regel av en **subjunksjon** som at, fordi, når, hvis eller som: … **fordi det regnet**.
+
+Når en leddsetning står først, bytter subjekt og verbal plass i helsetningen etterpå: **Fordi det regnet, ble** vi inne. Dette kalles **inversjon**.
+
+## Sideordning og underordning
+
+To helsetninger kan **sideordnes** med en konjunksjon (og, men, eller, for, så): Det regnet, og vi ble våte. Når en leddsetning henger på en helsetning, er den **underordnet**: Vi ble våte fordi det regnet.
+
+## Hvorfor analysere setninger?
+
+Setningsanalyse er nyttig når du skriver. Den hjelper deg å:
+
+- plassere **komma** riktig, for eksempel etter en leddsetning som står først,
+- unngå **ufullstendige setninger**, som «Fordi jeg var syk.» uten helsetning,
+- variere setningsbyggingen, slik at teksten ikke bare består av korte helsetninger,
+- forstå grammatikk i andre språk.', '{"label":"Setningsledd","children":[{"label":"Kjerneledd","children":[{"label":"Verbal","note":"Finn først"},{"label":"Subjekt","note":"Hvem/hva + verbal?"}]},{"label":"Objekter","children":[{"label":"Direkte objekt","note":"Rammes av handlingen"},{"label":"Indirekte objekt","note":"Mottaker"}]},{"label":"Andre ledd","children":[{"label":"Predikativ","note":"Etter være, bli, hete"},{"label":"Adverbial","note":"Hvor, når, hvordan, hvorfor"}]},{"label":"Setningstyper","children":[{"label":"Helsetning","note":"Kan stå alene"},{"label":"Leddsetning","note":"Innledes av subjunksjon"},{"label":"Inversjon"}]},{"label":"Nytte","children":[{"label":"Riktig komma"},{"label":"Unngå ufullstendige setninger"},{"label":"Variere setningene"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'norsk-9:setningsledd';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('norsk-9:setningsledd', 'Setningsledd', 'Ett eller flere ord som har en bestemt funksjon i setningen, som subjekt eller objekt.', 0),
+  ('norsk-9:setningsledd', 'Verbal', 'Verbet eller verbene i setningen: Kari har spist.', 1),
+  ('norsk-9:setningsledd', 'Subjekt', 'Den som gjør noe. Finnes ved å spørre «hvem/hva + verbal?».', 2),
+  ('norsk-9:setningsledd', 'Direkte objekt', 'Den eller det handlingen rammer. «Hvem/hva + verbal + subjekt?»', 3),
+  ('norsk-9:setningsledd', 'Indirekte objekt', 'Mottakeren: Kari ga broren en gave. Kan ofte få «til» foran.', 4),
+  ('norsk-9:setningsledd', 'Predikativ', 'Sier noe om subjektet etter være, bli eller hete: Kari er trøtt.', 5),
+  ('norsk-9:setningsledd', 'Adverbial', 'Forteller hvor, når, hvordan eller hvorfor: i går, på kjøkkenet.', 6),
+  ('norsk-9:setningsledd', 'Helsetning', 'Har subjekt og verbal og kan stå alene: Det regnet.', 7),
+  ('norsk-9:setningsledd', 'Leddsetning', 'Har subjekt og verbal, men kan ikke stå alene. Innledes ofte av en subjunksjon.', 8),
+  ('norsk-9:setningsledd', 'Subjunksjon', 'Ord som innleder leddsetninger: at, fordi, når, hvis, som.', 9),
+  ('norsk-9:setningsledd', 'Inversjon', 'Verbal før subjekt, for eksempel etter en leddsetning: … ble vi inne.', 10),
+  ('norsk-9:setningsledd', 'Sideordning', 'To likeverdige setninger bundet med og, men, eller, for, så.', 11),
+  ('norsk-9:setningsledd', 'Underordning', 'En leddsetning som er en del av en helsetning.', 12),
+  ('norsk-9:setningsledd', 'Ufullstendig setning', 'En leddsetning som står alene som om den var en helsetning: «Fordi jeg var syk.»', 13),
+  ('norsk-9:setningsledd', 'Finne verbalet først', 'Første steg i setningsanalyse. Så finner du subjektet ved å spørre hvem/hva.', 14);
+delete from public.quiz_sporsmal where tema_id = 'norsk-9:setningsledd';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('norsk-9:setningsledd', 'q01', 'flervalg', 'Hva er subjektet i «Hunden bet postbudet»?', array['bet', 'postbudet', 'Hunden', 'Hunden bet']::text[], 2, 'Hvem bet? Hunden. Den som gjør handlingen, er subjektet.', true, true, 0),
+  ('norsk-9:setningsledd', 'q02', 'flervalg', 'Hva er det direkte objektet i «Kari spiste en brødskive»?', array['Kari', 'spiste', 'en brødskive', 'Det finnes ikke']::text[], 2, 'Hva spiste Kari? En brødskive. Det er det handlingen rammer.', true, true, 1),
+  ('norsk-9:setningsledd', 'q03', 'flervalg', 'Hvilket ledd er «trøtt» i «Kari er trøtt»?', array['Direkte objekt', 'Predikativ', 'Adverbial', 'Subjekt']::text[], 1, '«Trøtt» sier noe om subjektet etter verbet «er». Det er predikativ.', true, true, 2),
+  ('norsk-9:setningsledd', 'q04', 'flervalg', 'Hvilket ledd er «i går» i «Vi spilte fotball i går»?', array['Adverbial', 'Subjekt', 'Verbal', 'Indirekte objekt']::text[], 0, '«I går» svarer på når. Tid, sted, måte og årsak er adverbialer.', true, true, 3),
+  ('norsk-9:setningsledd', 'q05', 'flervalg', 'Hva er det indirekte objektet i «Mor ga barna is»?', array['Mor', 'ga', 'is', 'barna']::text[], 3, 'Barna er mottakerne. Du kan si «ga is til barna».', true, true, 4),
+  ('norsk-9:setningsledd', 'q06', 'flervalg', 'Hvilken av disse er en leddsetning?', array['Jeg var syk.', 'fordi jeg var syk', 'Kom hit!', 'Det regnet i går.']::text[], 1, '«Fordi jeg var syk» innledes av en subjunksjon og kan ikke stå alene som en fullstendig setning.', true, true, 5),
+  ('norsk-9:setningsledd', 'q07', 'flervalg', 'Hva er inversjon?', array['At subjektet kommer før verbalet', 'At setningen mangler verbal', 'At verbalet kommer før subjektet', 'At setningen står i fortid']::text[], 2, 'Etter en leddsetning først bytter subjekt og verbal plass: Fordi det regnet, ble vi inne.', true, true, 6),
+  ('norsk-9:setningsledd', 'q08', 'flervalg', 'Hva er verbalet i «Elevene har lest boka»?', array['Elevene', 'har lest', 'boka', 'lest boka']::text[], 1, 'Verbalet kan bestå av flere verb. Her er det «har lest».', true, false, 7),
+  ('norsk-9:setningsledd', 'q09', 'flervalg', 'Hvorfor er setningsanalyse nyttig når du skriver?', array['Den hjelper deg å sette komma riktig og unngå ufullstendige setninger', 'Den gjør teksten lengre', 'Den erstatter rettskriving', 'Den er bare nyttig i matematikk']::text[], 0, 'Når du ser hvor helsetninger og leddsetninger begynner og slutter, blir tegnsettingen riktigere.', true, false, 8),
+  ('norsk-9:setningsledd', 'q10', 'flervalg', 'Hvilken setning har to sideordnede helsetninger?', array['Jeg vet at du kommer.', 'Hvis det regner, blir vi inne.', 'Boka som ligger der, er min.', 'Det regnet, og vi ble våte.']::text[], 3, '«Det regnet» og «vi ble våte» kan begge stå alene og er bundet sammen med konjunksjonen «og».', true, true, 9),
+  ('norsk-9:setningsledd', 'm01', 'sant-usant', 'En helsetning kan stå alene.', array['Sant', 'Usant']::text[], 0, 'Helsetninger har subjekt og verbal og gir mening alene.', false, true, 10),
+  ('norsk-9:setningsledd', 'm02', 'sant-usant', 'Et setningsledd består alltid av ett ord.', array['Sant', 'Usant']::text[], 1, 'Et ledd kan bestå av flere ord, som «den gamle mannen» eller «har spist».', false, true, 11),
+  ('norsk-9:setningsledd', 'm03', 'sant-usant', '«Ikke» regnes som adverbial i setningsanalysen.', array['Sant', 'Usant']::text[], 0, '«Ikke» sier noe om verbalet eller hele setningen og analyseres som adverbial.', false, true, 12),
+  ('norsk-9:setningsledd', 'm04', 'sant-usant', '«Når jeg kommer hjem.» er en fullstendig setning.', array['Sant', 'Usant']::text[], 1, 'Dette er en leddsetning som mangler en helsetning, for eksempel «…, skal jeg spise.»', false, true, 13),
+  ('norsk-9:setningsledd', 'm05', 'flervalg', 'Hvilket ledd er «Ali» i «Han heter Ali»?', array['Direkte objekt', 'Subjekt', 'Predikativ', 'Adverbial']::text[], 2, 'Etter verbet «heter» sier «Ali» noe om subjektet. Det er predikativ.', false, true, 14),
+  ('norsk-9:setningsledd', 'm06', 'flervalg', 'Hvilket ord innleder en leddsetning?', array['hvis', 'og', 'men', 'eller']::text[], 0, '«Hvis» er en subjunksjon. «Og», «men» og «eller» er konjunksjoner.', false, true, 15),
+  ('norsk-9:setningsledd', 'm07', 'flervalg', 'Hva er subjektet i «I morgen skal Emma reise»?', array['I morgen', 'skal reise', 'reise', 'Emma']::text[], 3, 'Hvem skal reise? Emma. Adverbialet står først, og derfor kommer verbalet før subjektet.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('norsk-9:setningsledd', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Norsk: Tekstbinding og tekststruktur
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('norsk-9:tekstbinding', 'norsk-9', 'tekstbinding', 'Tekstbinding og tekststruktur', 'Hvordan du binder setninger og avsnitt sammen med bindeord, gjentakelser og henvisninger, og hvordan du bygger opp en tekst med rød tråd.', array[11, 12]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('norsk-9:tekstbinding', '## Rød tråd
+
+En god tekst har en **rød tråd**: Leseren forstår hvordan hver setning og hvert avsnitt henger sammen med resten. Det du bruker for å lage sammenheng mellom setninger og avsnitt, kalles **tekstbinding**. **Funksjonell** tekstbinding betyr at bindingen hjelper leseren å følge tankegangen.
+
+## Bindeord (konnektiver)
+
+**Bindeord** viser hvordan tankene henger sammen. De kan deles inn etter hva de uttrykker:
+
+- **Tillegg**: og, dessuten, i tillegg, også
+- **Motsetning**: men, likevel, derimot, på den andre siden
+- **Årsak**: fordi, siden, ettersom, for
+- **Følge**: derfor, dermed, så, av den grunn
+- **Tid og rekkefølge**: først, deretter, til slutt, samtidig
+- **Eksempel**: for eksempel, blant annet, slik som
+- **Oppsummering**: altså, kort sagt, alt i alt
+
+Bruk bindeord bevisst. For mange «og så» gjør teksten ensformig, mens et presist bindeord viser leseren nøyaktig hvordan argumentene henger sammen.
+
+## Andre måter å binde tekst på
+
+- **Pronomen** som viser tilbake: Ibsen skrev mange skuespill. **Han** er kjent over hele verden.
+- **Gjentakelse** av nøkkelord: Nøkkelord som går igjen, holder temaet samlet.
+- **Synonymer og omskrivninger**: Ibsen – dramatikeren – forfatteren. Da slipper du å gjenta samme ord hele tiden.
+- **Ord fra samme område**: skole, lærer, elev og timeplan hører sammen og binder teksten.
+
+Pass på at henvisningene er tydelige. Står det «Hun sa til venninnen at hun var sliten», er det uklart hvem som var sliten.
+
+## Avsnitt og struktur
+
+Et **avsnitt** samler én hovedtanke. Det starter gjerne med en **temasetning**, fortsetter med **kommentarsetninger** som utdyper, og kan avsluttes med en **overgang** til neste avsnitt. Nytt avsnitt markeres med blank linje eller innrykk.
+
+Mange tekster følger strukturen **innledning – hoveddel – avslutning**. Innledningen presenterer temaet og vekker interesse. Hoveddelen utdyper i flere avsnitt i en logisk rekkefølge, for eksempel etter tid, viktighet eller for og mot. Avslutningen oppsummerer eller konkluderer uten å introdusere nye poenger.
+
+## Bearbeide tekst
+
+Når du bearbeider en tekst, kan du spørre: Har hvert avsnitt én hovedtanke? Går det tydelig fram hvordan avsnittene henger sammen? Er bindeordene presise? Har jeg gjentatt samme ord for mye? Å lese teksten høyt avslører ofte hopp i tankegangen.', '{"label":"Tekstbinding","children":[{"label":"Bindeord","children":[{"label":"Tillegg","note":"dessuten"},{"label":"Motsetning","note":"likevel, derimot"},{"label":"Årsak","note":"fordi, ettersom"},{"label":"Følge","note":"derfor, dermed"},{"label":"Oppsummering","note":"altså, kort sagt"}]},{"label":"Henvisninger","children":[{"label":"Pronomen"},{"label":"Synonymer og omskrivninger"},{"label":"Unngå uklar henvisning"}]},{"label":"Avsnitt","children":[{"label":"Én hovedtanke"},{"label":"Temasetning"},{"label":"Kommentarsetninger"}]},{"label":"Struktur","children":[{"label":"Innledning"},{"label":"Hoveddel","note":"Logisk rekkefølge"},{"label":"Avslutning","note":"Ingen nye poenger"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'norsk-9:tekstbinding';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('norsk-9:tekstbinding', 'Rød tråd', 'At leseren kan følge sammenhengen i teksten fra start til slutt.', 0),
+  ('norsk-9:tekstbinding', 'Tekstbinding', 'Det som knytter setninger og avsnitt sammen, som bindeord, pronomen og gjentakelser.', 1),
+  ('norsk-9:tekstbinding', 'Bindeord (konnektiv)', 'Ord som viser forholdet mellom tanker: derfor, likevel, dessuten.', 2),
+  ('norsk-9:tekstbinding', 'Tillegg', 'Bindeord som legger til: og, dessuten, i tillegg.', 3),
+  ('norsk-9:tekstbinding', 'Motsetning', 'Bindeord som viser kontrast: men, likevel, derimot.', 4),
+  ('norsk-9:tekstbinding', 'Årsak', 'Bindeord som forklarer hvorfor: fordi, siden, ettersom.', 5),
+  ('norsk-9:tekstbinding', 'Følge', 'Bindeord som viser konsekvens: derfor, dermed, av den grunn.', 6),
+  ('norsk-9:tekstbinding', 'Oppsummering', 'Bindeord som samler trådene: altså, kort sagt, alt i alt.', 7),
+  ('norsk-9:tekstbinding', 'Pronomen som tekstbinding', 'Pronomen viser tilbake til noe som er nevnt: Ibsen … Han …', 8),
+  ('norsk-9:tekstbinding', 'Synonym', 'Et ord med samme eller nesten samme betydning. Gir variasjon.', 9),
+  ('norsk-9:tekstbinding', 'Uklar henvisning', 'Når det ikke går fram hvem et pronomen viser til.', 10),
+  ('norsk-9:tekstbinding', 'Temasetning', 'Setningen som sier hva avsnittet handler om.', 11),
+  ('norsk-9:tekstbinding', 'Kommentarsetning', 'Setninger i avsnittet som utdyper, forklarer eller gir eksempler.', 12),
+  ('norsk-9:tekstbinding', 'Innledning – hoveddel – avslutning', 'Vanlig struktur i fagtekster og argumenterende tekster.', 13),
+  ('norsk-9:tekstbinding', 'Bearbeide', 'Forbedre en tekst ved å se på innhold, struktur, bindeord og språk.', 14);
+delete from public.quiz_sporsmal where tema_id = 'norsk-9:tekstbinding';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('norsk-9:tekstbinding', 'q01', 'flervalg', 'Hvilket bindeord uttrykker motsetning?', array['derfor', 'likevel', 'dessuten', 'først']::text[], 1, '«Likevel» viser at noe skjer til tross for det som er sagt før. Det er motsetning.', true, true, 0),
+  ('norsk-9:tekstbinding', 'q02', 'flervalg', 'Hvilket bindeord passer? «Det var glatt ute. … kjørte bussen sakte.»', array['Derfor', 'Derimot', 'For eksempel', 'Dessuten']::text[], 0, 'Glatt føre er årsaken, og at bussen kjørte sakte er følgen. «Derfor» uttrykker følge.', true, true, 1),
+  ('norsk-9:tekstbinding', 'q03', 'flervalg', 'Hva er en rød tråd i en tekst?', array['En tråd i tekstilfaget', 'At teksten har rød skrift', 'At leseren kan følge sammenhengen gjennom hele teksten', 'At teksten har mange avsnitt']::text[], 2, 'Rød tråd betyr at tankene henger logisk sammen fra start til slutt.', true, true, 2),
+  ('norsk-9:tekstbinding', 'q04', 'flervalg', '«Ibsen skrev Et dukkehjem. Dramatikeren ble verdensberømt.» Hvordan er setningene bundet sammen?', array['Med et bindeord', 'Med tegnsetting', 'Med en temasetning', 'Med en omskrivning av Ibsen']::text[], 3, '«Dramatikeren» viser tilbake til Ibsen. Omskrivninger binder teksten uten å gjenta samme ord.', true, true, 3),
+  ('norsk-9:tekstbinding', 'q05', 'flervalg', 'Hva er galt med «Lise sa til Maria at hun hadde vunnet»?', array['Setningen mangler verbal', 'Det er uklart hvem «hun» viser til', 'Det skal være komma før «at»', 'Ingenting']::text[], 1, '«Hun» kan vise til både Lise og Maria. Uklare henvisninger bør omskrives.', true, true, 4),
+  ('norsk-9:tekstbinding', 'q06', 'flervalg', 'Hvor står temasetningen vanligvis?', array['Først i avsnittet', 'I overskriften', 'Sist i teksten', 'I en fotnote']::text[], 0, 'Temasetningen står ofte først og forteller leseren hva avsnittet skal handle om.', true, true, 5),
+  ('norsk-9:tekstbinding', 'q07', 'flervalg', 'Hvilket bindeord uttrykker årsak?', array['altså', 'deretter', 'ettersom', 'derimot']::text[], 2, '«Ettersom» betyr omtrent det samme som «fordi» og forklarer årsaken.', true, true, 6),
+  ('norsk-9:tekstbinding', 'q08', 'flervalg', 'Hva bør avslutningen av en fagtekst IKKE gjøre?', array['Oppsummere', 'Konkludere', 'Knytte tilbake til innledningen', 'Introdusere et helt nytt poeng']::text[], 3, 'Nye poenger hører hjemme i hoveddelen. Avslutningen skal samle trådene.', true, true, 7),
+  ('norsk-9:tekstbinding', 'q09', 'flervalg', 'Hvorfor bør du variere bindeordene?', array['For at teksten ikke skal bli ensformig og for å vise presist hvordan tankene henger sammen', 'Fordi det er forbudt å bruke «og»', 'For å gjøre teksten kortere', 'For at leseren skal bli forvirret']::text[], 0, 'Mange «og så» gjør teksten monoton. Presise bindeord viser leseren tankegangen.', true, false, 8),
+  ('norsk-9:tekstbinding', 'q10', 'flervalg', 'Hvilket bindeord innleder en oppsummering?', array['først', 'kort sagt', 'fordi', 'for eksempel']::text[], 1, '«Kort sagt» varsler at det kommer en oppsummering av det som er sagt.', true, false, 9),
+  ('norsk-9:tekstbinding', 'm01', 'sant-usant', '«Dessuten» er et bindeord som uttrykker tillegg.', array['Sant', 'Usant']::text[], 0, '«Dessuten» legger til et nytt poeng i samme retning.', false, true, 10),
+  ('norsk-9:tekstbinding', 'm02', 'sant-usant', 'Et avsnitt bør inneholde mange ulike hovedtanker.', array['Sant', 'Usant']::text[], 1, 'Et avsnitt bør samle én hovedtanke. Nye tanker får nye avsnitt.', false, true, 11),
+  ('norsk-9:tekstbinding', 'm03', 'sant-usant', 'Å gjenta nøkkelord kan være en måte å binde teksten sammen på.', array['Sant', 'Usant']::text[], 0, 'Nøkkelord som går igjen, holder temaet samlet. Men varier gjerne med synonymer.', false, true, 12),
+  ('norsk-9:tekstbinding', 'm04', 'sant-usant', '«Derfor» uttrykker motsetning.', array['Sant', 'Usant']::text[], 1, '«Derfor» uttrykker følge eller konsekvens.', false, true, 13),
+  ('norsk-9:tekstbinding', 'm05', 'flervalg', 'Hvilket bindeord passer? «Mange liker sommeren. Jeg, …, foretrekker vinteren.»', array['derfor', 'altså', 'derimot', 'fordi']::text[], 2, 'Setningen står i motsetning til den forrige, og «derimot» markerer kontrasten.', false, true, 14),
+  ('norsk-9:tekstbinding', 'm06', 'flervalg', 'Hva gjør du enklest for å avsløre hopp i tankegangen?', array['Leser teksten høyt', 'Teller ordene', 'Bytter skrifttype', 'Sletter avsnitt']::text[], 0, 'Når du leser høyt, hører du lettere hvor overgangene mangler.', false, true, 15),
+  ('norsk-9:tekstbinding', 'm07', 'flervalg', 'Hva kalles setningene i et avsnitt som utdyper temasetningen?', array['Overskrifter', 'Kommentarsetninger', 'Leddsetninger', 'Ingresser']::text[], 1, 'Kommentarsetninger forklarer, begrunner og gir eksempler på det temasetningen sier.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('norsk-9:tekstbinding', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Norsk: Kildebruk og kildekritikk
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('norsk-9:kildebruk', 'norsk-9', 'kildebruk', 'Kildebruk og kildekritikk', 'Hvordan du vurderer om en kilde er pålitelig, hvordan du siterer og gjengir med egne ord, og hvordan du viser til kilder og unngår plagiat.', array[7]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('norsk-9:kildebruk', '## Hva er en kilde?
+
+En **kilde** er der du henter informasjon fra: en bok, en nettside, en avisartikkel, et intervju, en video eller et leksikon. Når du skriver fagtekster, må du både vurdere kildene kritisk og vise leseren hvor opplysningene kommer fra.
+
+## Kildekritikk
+
+**Kildekritikk** betyr å vurdere hvor pålitelig en kilde er. Nyttige spørsmål er:
+
+- **Hvem** står bak? Er det en fagperson, en offentlig etat, en avis eller en anonym bruker?
+- **Hvorfor** er teksten laget? For å informere, selge noe eller påvirke meninger?
+- **Når** ble den laget eller oppdatert? Er informasjonen fortsatt riktig?
+- **Hvor** er den publisert? Har noen kvalitetssikret innholdet?
+- Stemmer opplysningene med **andre kilder**?
+
+En **primærkilde** er en original kilde, som en undersøkelse, et dagbokinnlegg eller et intervju med en øyenvitne. En **sekundærkilde** omtaler eller bearbeider andre kilder, som en lærebok eller et leksikon. Et nettleksikon som alle kan redigere, kan være et godt sted å starte, men du bør sjekke viktige opplysninger i andre kilder.
+
+## Sitat og parafrase
+
+Et **sitat** er andres ord gjengitt nøyaktig. Korte sitater settes i anførselstegn, «slik», inne i teksten. Lengre sitater settes ofte som et eget avsnitt med innrykk. Sitater bør være korte og brukes når ordlyden i seg selv er viktig.
+
+En **parafrase** er en gjengivelse av andres tanker med **egne ord**. Også parafraser skal ha kildehenvisning, fordi ideen fortsatt er hentet fra noen andre.
+
+## Kildehenvisning og kildeliste
+
+I teksten viser du til kilden, for eksempel med forfatterens etternavn og årstall i parentes, eller med en fotnote. Til slutt lager du en **kildeliste** med alle kildene du har brukt. For en nettside tar du med forfatter eller avsender, tittel, år, nettadresse og datoen du leste den. Følg den malen skolen eller læreren bruker, og vær **konsekvent**.
+
+## Plagiat og opphavsrett
+
+**Plagiat** er å presentere andres tekst eller ideer som sine egne. Det er uærlig og regnes som fusk. Andres tekster, bilder og musikk er dessuten beskyttet av **opphavsrett**. Bilder fra nettet kan ikke brukes fritt uten at du har lov eller de har en åpen lisens, og du må alltid oppgi hvem som har laget dem.
+
+Bruker du **KI-verktøy** (kunstig intelligens) i arbeidet, bør du oppgi hvordan du har brukt dem, og kontrollere opplysningene, fordi slike verktøy kan finne på fakta og kilder som ikke finnes.', '{"label":"Kildebruk","children":[{"label":"Kildekritikk","children":[{"label":"Hvem?"},{"label":"Hvorfor?"},{"label":"Når?"},{"label":"Stemmer med andre kilder?"}]},{"label":"Typer kilder","children":[{"label":"Primærkilde","note":"Original"},{"label":"Sekundærkilde","note":"Bearbeidet"}]},{"label":"Bruke kilder","children":[{"label":"Sitat","note":"«…» og henvisning"},{"label":"Parafrase","note":"Egne ord + henvisning"},{"label":"Kildeliste","note":"Konsekvent mal"}]},{"label":"Etikk","children":[{"label":"Plagiat","note":"Fusk"},{"label":"Opphavsrett"},{"label":"KI","note":"Oppgi og kontroller"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'norsk-9:kildebruk';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('norsk-9:kildebruk', 'Kilde', 'Der du henter informasjon fra, som en bok, nettside eller et intervju.', 0),
+  ('norsk-9:kildebruk', 'Kildekritikk', 'Å vurdere hvor pålitelig en kilde er: hvem, hvorfor, når og hvor.', 1),
+  ('norsk-9:kildebruk', 'Primærkilde', 'En original kilde, som en undersøkelse, et brev eller et intervju.', 2),
+  ('norsk-9:kildebruk', 'Sekundærkilde', 'En kilde som bearbeider andre kilder, som en lærebok eller et leksikon.', 3),
+  ('norsk-9:kildebruk', 'Sitat', 'Andres ord gjengitt nøyaktig, i anførselstegn «slik».', 4),
+  ('norsk-9:kildebruk', 'Parafrase', 'Å gjengi andres tanker med egne ord. Trenger også kildehenvisning.', 5),
+  ('norsk-9:kildebruk', 'Kildehenvisning', 'En henvisning i teksten som viser hvor en opplysning kommer fra.', 6),
+  ('norsk-9:kildebruk', 'Kildeliste', 'En oversikt over alle kildene, bakerst i teksten.', 7),
+  ('norsk-9:kildebruk', 'Nettkilde i kildelisten', 'Avsender, tittel, år, nettadresse og dato du leste den.', 8),
+  ('norsk-9:kildebruk', 'Plagiat', 'Å presentere andres tekst eller ideer som sine egne. Regnes som fusk.', 9),
+  ('norsk-9:kildebruk', 'Opphavsrett', 'Retten den som har laget et verk, har til å bestemme over bruken av det.', 10),
+  ('norsk-9:kildebruk', 'Åpen lisens', 'En lisens som gir lov til å bruke et verk på visse vilkår, ofte med navngivelse.', 11),
+  ('norsk-9:kildebruk', 'Avsender', 'Den som står bak en tekst. Påvirker hvor mye du kan stole på den.', 12),
+  ('norsk-9:kildebruk', 'Sjekke mot andre kilder', 'Bekrefte viktige opplysninger i minst én uavhengig kilde til.', 13),
+  ('norsk-9:kildebruk', 'KI-verktøy og kilder', 'KI kan finne på fakta og kilder. Oppgi bruken og kontroller opplysningene.', 14);
+delete from public.quiz_sporsmal where tema_id = 'norsk-9:kildebruk';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('norsk-9:kildebruk', 'q01', 'flervalg', 'Hva betyr kildekritikk?', array['Å kritisere forfatteren', 'Å vurdere hvor pålitelig en kilde er', 'Å bruke så få kilder som mulig', 'Å slette kilder man er uenig i']::text[], 1, 'Kildekritikk handler om å vurdere hvem som står bak, hvorfor, når og hvor noe er publisert.', true, true, 0),
+  ('norsk-9:kildebruk', 'q02', 'flervalg', 'Hvilken kilde er en primærkilde?', array['En lærebok om andre verdenskrig', 'Et leksikon', 'En dagbok skrevet under andre verdenskrig', 'En nettside som oppsummerer bøker']::text[], 2, 'Dagboken er skrevet av en som opplevde hendelsene, og er derfor en original kilde.', true, true, 1),
+  ('norsk-9:kildebruk', 'q03', 'flervalg', 'Hvordan markerer du et kort sitat i teksten?', array['Med kursiv uten henvisning', 'Med anførselstegn og kildehenvisning', 'Med store bokstaver', 'Det trenger ingen markering']::text[], 1, 'Sitatet settes i anførselstegn, og du viser til hvor det kommer fra.', true, true, 2),
+  ('norsk-9:kildebruk', 'q04', 'flervalg', 'Hva er en parafrase?', array['Et langt sitat', 'En kildeliste', 'En gjengivelse av andres tanker med egne ord', 'En bildetekst']::text[], 2, 'En parafrase formulerer andres innhold med egne ord, men krever fortsatt kildehenvisning.', true, true, 3),
+  ('norsk-9:kildebruk', 'q05', 'flervalg', 'Hva er plagiat?', array['Å presentere andres tekst eller ideer som sine egne', 'Å bruke mange kilder', 'Å sitere riktig', 'Å skrive en kildeliste']::text[], 0, 'Plagiat er uærlig fordi du tar æren for noe andre har laget.', true, true, 4),
+  ('norsk-9:kildebruk', 'q06', 'flervalg', 'Hva bør du ta med når du oppgir en nettside i kildelisten?', array['Bare nettadressen', 'Bare tittelen', 'Bare datoen', 'Avsender, tittel, år, nettadresse og dato du leste den']::text[], 3, 'Nettsider kan endres, så datoen du leste er viktig i tillegg til avsender og adresse.', true, true, 5),
+  ('norsk-9:kildebruk', 'q07', 'flervalg', 'Du finner en påstand på en ukjent blogg. Hva bør du gjøre?', array['Bruke den uten videre', 'Sjekke om påstanden stemmer med andre, pålitelige kilder', 'Skrive at den er sann', 'Kopiere hele bloggen']::text[], 1, 'Ukjente avsendere bør kontrolleres mot andre kilder før du bruker opplysningene.', true, false, 6),
+  ('norsk-9:kildebruk', 'q08', 'flervalg', 'Trenger en parafrase kildehenvisning?', array['Nei, fordi du har brukt egne ord', 'Bare hvis den er lang', 'Bare i nettartikler', 'Ja, fordi ideen er hentet fra noen andre']::text[], 3, 'Selv om ordene er dine, er innholdet hentet fra en kilde, og det må leseren få vite.', true, true, 7),
+  ('norsk-9:kildebruk', 'q09', 'flervalg', 'Hvorfor bør du være forsiktig med fakta fra KI-verktøy?', array['Fordi de alltid er for korte', 'Fordi de kan finne på fakta og kilder som ikke finnes', 'Fordi de bare svarer på engelsk', 'Fordi de er ulovlige']::text[], 1, 'KI-verktøy kan gi svar som høres riktige ut, men er feil. Kontroller opplysningene og oppgi bruken.', true, false, 8),
+  ('norsk-9:kildebruk', 'q10', 'flervalg', 'Kan du bruke et hvilket som helst bilde fra nettet i en presentasjon?', array['Ja, alt på nettet er gratis', 'Ja, hvis bildet er pent', 'Nei, bilder er beskyttet av opphavsrett med mindre du har lov eller de har åpen lisens', 'Ja, hvis du endrer fargene']::text[], 2, 'Bilder er åndsverk. Bruk bilder med åpen lisens eller egne bilder, og oppgi alltid kilden.', true, true, 9),
+  ('norsk-9:kildebruk', 'm01', 'sant-usant', 'En lærebok er en sekundærkilde.', array['Sant', 'Usant']::text[], 0, 'Læreboka bearbeider og oppsummerer andre kilder.', false, true, 10),
+  ('norsk-9:kildebruk', 'm02', 'sant-usant', 'Du trenger ikke oppgi kilde hvis du skriver med egne ord.', array['Sant', 'Usant']::text[], 1, 'Innhold og ideer fra andre skal alltid ha kildehenvisning, også når de er omformulert.', false, true, 11),
+  ('norsk-9:kildebruk', 'm03', 'sant-usant', 'Det er lurt å sjekke viktige opplysninger i mer enn én kilde.', array['Sant', 'Usant']::text[], 0, 'Når flere uavhengige kilder sier det samme, er opplysningen mer pålitelig.', false, true, 12),
+  ('norsk-9:kildebruk', 'm04', 'sant-usant', 'En nettside som selger et produkt, er alltid en nøytral kilde om produktet.', array['Sant', 'Usant']::text[], 1, 'Avsenderen har interesse av å selge og kan derfor fremstille produktet positivt.', false, true, 13),
+  ('norsk-9:kildebruk', 'm05', 'flervalg', 'Hvilket spørsmål er en del av kildekritikk?', array['Hvem har laget teksten?', 'Hvor lang er teksten?', 'Hvilken skrifttype er brukt?', 'Hvor mange bilder er det?']::text[], 0, 'Avsenderen sier mye om hvor pålitelig og nøytral en kilde er.', false, true, 14),
+  ('norsk-9:kildebruk', 'm06', 'flervalg', 'Hvor står kildelisten vanligvis?', array['Først i teksten', 'I overskriften', 'Bakerst i teksten', 'Midt i hoveddelen']::text[], 2, 'Kildelisten samler alle kildene til slutt, slik at leseren kan finne dem.', false, true, 15),
+  ('norsk-9:kildebruk', 'm07', 'flervalg', 'Når bør du bruke et sitat i stedet for en parafrase?', array['Alltid', 'Når ordlyden i seg selv er viktig', 'Når teksten er lang', 'Aldri']::text[], 1, 'Sitater passer når nøyaktig formulering betyr noe, for eksempel en berømt uttalelse.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('norsk-9:kildebruk', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Norsk: Nabospråk: svensk og dansk
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('norsk-9:nabosprak', 'norsk-9', 'nabosprak', 'Nabospråk: svensk og dansk', 'Hva som er likt og ulikt i norsk, svensk og dansk, typiske kjennetegn ved skrift og uttale, og falske venner som kan skape misforståelser.', array[4]::int[], 5, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('norsk-9:nabosprak', '## Skandinaviske språk
+
+Norsk, svensk og dansk er **nordgermanske språk** som har utviklet seg fra det samme norrøne språket. De er så like at folk i Skandinavia i stor grad kan forstå hverandre når de snakker hvert sitt språk. Dette kalles **nabospråkforståelse**. Islandsk og færøysk er også nordgermanske, men de er vanskeligere å forstå for oss fordi de har holdt på mer av det gamle språket.
+
+## Svensk
+
+Svensk skrift har noen bokstaver og ord som skiller seg fra norsk:
+
+- **ä** og **ö** tilsvarer norsk æ og ø: här (her), öga (øye).
+- Mange småord er ulike: och (og), inte (ikke), jag (jeg), hon (hun), vad (hva), också (også).
+- Svensk bruker ofte **-a** der bokmål har -e: flicka (jente), gata (gata/gaten).
+- Flertall kan ende på **-ar, -er, -or**: bilar (biler), flickor (jenter).
+
+Svensk uttale er ofte tydelig og «syngende», og mange nordmenn synes svensk er lettest å forstå muntlig.
+
+## Dansk
+
+Dansk skrift ligner bokmål mye, fordi bokmål har utviklet seg fra dansk skriftspråk. Uttalen er derimot ofte vanskeligere:
+
+- Mange konsonanter uttales **bløtt**: mad (mat), gade (gate), købe (kjøpe).
+- Dansk har **stød**, et lite brudd i stemmen som kan skille ord.
+- Tallene er vanskelige: halvtreds betyr 50 og halvfjerds betyr 70.
+- Skriftlig bruker dansk b, d, g der vi har p, t, k: købe, gade, bog.
+
+## Falske venner
+
+**Falske venner** er ord som ser like ut, men betyr noe annet. De kan gi morsomme misforståelser:
+
+- Svensk **rolig** betyr morsom, ikke rolig.
+- Svensk **glass** betyr iskrem.
+- Svensk **semester** betyr ferie.
+- Svensk **kjol** betyr skjørt.
+- Dansk **frokost** betyr lunsj, og **morgenmad** er frokost.
+- Dansk **grine** betyr å le.
+- Dansk og svensk **rar** betyr snill eller søt (på dansk særlig om personer, på svensk også om ting).
+
+## Lytte og lese
+
+Når du lytter til eller leser nabospråk, hjelper det å lese høyt, se etter ord som ligner norsk, og bruke sammenhengen. Film, TV-serier, podkaster og musikk fra Sverige og Danmark er gode måter å venne øret til språkene på.', '{"label":"Nabospråk","children":[{"label":"Felles opphav","children":[{"label":"Norrønt"},{"label":"Nordgermanske språk"},{"label":"Nabospråkforståelse"}]},{"label":"Svensk","children":[{"label":"ä og ö"},{"label":"och, inte, jag"},{"label":"flicka – flickor"}]},{"label":"Dansk","children":[{"label":"Skrift ligner bokmål"},{"label":"Bløte konsonanter"},{"label":"Stød"},{"label":"halvtreds = 50"}]},{"label":"Falske venner","children":[{"label":"rolig = morsom","note":"sv."},{"label":"glass = iskrem","note":"sv."},{"label":"frokost = lunsj","note":"da."},{"label":"grine = le","note":"da."}]},{"label":"Lytte og lese","children":[{"label":"Se etter likheter"},{"label":"Bruk sammenhengen"},{"label":"Serier og musikk"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'norsk-9:nabosprak';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('norsk-9:nabosprak', 'Nabospråk', 'Svensk og dansk, som ligger så nær norsk at vi stort sett forstår dem.', 0),
+  ('norsk-9:nabosprak', 'Nordgermanske språk', 'Norsk, svensk, dansk, islandsk og færøysk. Alle kommer fra norrønt.', 1),
+  ('norsk-9:nabosprak', 'ä og ö', 'Svenske bokstaver som tilsvarer norsk æ og ø.', 2),
+  ('norsk-9:nabosprak', 'och og inte', 'Svensk for «og» og «ikke».', 3),
+  ('norsk-9:nabosprak', 'flicka', 'Svensk for «jente».', 4),
+  ('norsk-9:nabosprak', 'Bløte konsonanter', 'Dansk uttale der for eksempel d i «mad» uttales mykt.', 5),
+  ('norsk-9:nabosprak', 'Stød', 'Et lite brudd i stemmen i dansk uttale som kan skille ord fra hverandre.', 6),
+  ('norsk-9:nabosprak', 'halvtreds', 'Dansk for 50.', 7),
+  ('norsk-9:nabosprak', 'Falske venner', 'Ord som ser like ut i to språk, men betyr noe forskjellig.', 8),
+  ('norsk-9:nabosprak', 'rolig (svensk)', 'Betyr morsom.', 9),
+  ('norsk-9:nabosprak', 'glass (svensk)', 'Betyr iskrem.', 10),
+  ('norsk-9:nabosprak', 'semester (svensk)', 'Betyr ferie.', 11),
+  ('norsk-9:nabosprak', 'frokost (dansk)', 'Betyr lunsj. Dansk «morgenmad» er frokost.', 12),
+  ('norsk-9:nabosprak', 'grine (dansk)', 'Betyr å le.', 13),
+  ('norsk-9:nabosprak', 'Bokmål og dansk', 'Bokmål har utviklet seg fra dansk skriftspråk, derfor er skriften ganske lik.', 14);
+delete from public.quiz_sporsmal where tema_id = 'norsk-9:nabosprak';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('norsk-9:nabosprak', 'q01', 'flervalg', 'Hva betyr det svenske ordet «rolig»?', array['Rolig', 'Morsom', 'Sint', 'Trøtt']::text[], 1, '«Rolig» på svensk betyr morsom. Det er en falsk venn.', true, true, 0),
+  ('norsk-9:nabosprak', 'q02', 'flervalg', 'Hva betyr det svenske ordet «glass»?', array['Et drikkeglass', 'Et vindu', 'Iskrem', 'Is på vannet']::text[], 2, '«Glass» er svensk for iskrem. Et drikkeglass heter «glas».', true, true, 1),
+  ('norsk-9:nabosprak', 'q03', 'flervalg', 'Hva betyr dansk «frokost»?', array['Lunsj', 'Frokost', 'Middag', 'Kveldsmat']::text[], 0, 'På dansk er «frokost» lunsj. Morgenmåltidet heter «morgenmad».', true, true, 2),
+  ('norsk-9:nabosprak', 'q04', 'flervalg', 'Hvilke svenske bokstaver tilsvarer norsk æ og ø?', array['å og ø', 'ü og ö', 'æ og ø', 'ä og ö']::text[], 3, 'Svensk bruker ä og ö der norsk har æ og ø.', true, true, 3),
+  ('norsk-9:nabosprak', 'q05', 'flervalg', 'Hvorfor ligner dansk skrift på bokmål?', array['Fordi dansk har lånt fra bokmål', 'Fordi bokmål har utviklet seg fra dansk skriftspråk', 'Fordi det er tilfeldig', 'Fordi dansk og bokmål er samme språk']::text[], 1, 'Norge brukte dansk skriftspråk i flere hundre år, og bokmål er en videreutvikling av det.', true, true, 4),
+  ('norsk-9:nabosprak', 'q06', 'flervalg', 'Hva betyr svensk «inte»?', array['inne', 'inntil', 'ikke', 'inni']::text[], 2, '«Inte» er svensk for «ikke».', true, true, 5),
+  ('norsk-9:nabosprak', 'q07', 'flervalg', 'Hva betyr dansk «halvtreds»?', array['50', '30', '25', '53']::text[], 0, 'Det danske tallsystemet er annerledes. «Halvtreds» betyr 50.', true, true, 6),
+  ('norsk-9:nabosprak', 'q08', 'flervalg', 'Hva er falske venner?', array['Ord som ser like ut i to språk, men betyr noe annet', 'Ord som er helt like i alle språk', 'Venner som lyver', 'Lånord fra engelsk']::text[], 0, 'Falske venner kan skape misforståelser fordi vi tror vi forstår dem.', true, true, 7),
+  ('norsk-9:nabosprak', 'q09', 'flervalg', 'Hva kjennetegner dansk uttale for mange nordmenn?', array['Den er lett fordi den er lik skriften', 'Den har bløte konsonanter og stød som gjør den vanskeligere', 'Den har ingen vokaler', 'Den er lik islandsk']::text[], 1, 'Bløte konsonanter og stød gjør at dansk kan være vanskeligere å forstå muntlig enn skriftlig.', true, false, 8),
+  ('norsk-9:nabosprak', 'q10', 'flervalg', 'Hva betyr svensk «semester»?', array['Et skolehalvår', 'En eksamen', 'Et kurs', 'Ferie']::text[], 3, 'Svensk «semester» betyr ferie. Et skolehalvår heter «termin».', true, false, 9),
+  ('norsk-9:nabosprak', 'm01', 'sant-usant', 'Norsk, svensk og dansk har utviklet seg fra norrønt.', array['Sant', 'Usant']::text[], 0, 'Alle de skandinaviske språkene har røtter i det norrøne språket.', false, true, 10),
+  ('norsk-9:nabosprak', 'm02', 'sant-usant', 'Dansk «grine» betyr å gråte.', array['Sant', 'Usant']::text[], 1, 'Dansk «grine» betyr å le.', false, true, 11),
+  ('norsk-9:nabosprak', 'm03', 'sant-usant', 'Svensk «kjol» betyr skjørt.', array['Sant', 'Usant']::text[], 0, '«Kjol» er en falsk venn: det betyr skjørt, ikke kjole.', false, true, 12),
+  ('norsk-9:nabosprak', 'm04', 'sant-usant', 'Islandsk er like lett for nordmenn å forstå som svensk.', array['Sant', 'Usant']::text[], 1, 'Islandsk har holdt på mer av det gamle språket og er mye vanskeligere å forstå for nordmenn.', false, true, 13),
+  ('norsk-9:nabosprak', 'm05', 'flervalg', 'Hva betyr svensk «och»?', array['også', 'eller', 'og', 'ok']::text[], 2, '«Och» er svensk for «og».', false, true, 14),
+  ('norsk-9:nabosprak', 'm06', 'flervalg', 'Hvilket svensk ord betyr «jente»?', array['flicka', 'jente', 'pige', 'kvinde']::text[], 0, '«Flicka» er svensk for jente. «Pige» og «kvinde» er dansk, og «jente» er norsk.', false, true, 15),
+  ('norsk-9:nabosprak', 'm07', 'flervalg', 'Hva betyr dansk «morgenmad»?', array['Lunsj', 'Frokost', 'Kveldsmat', 'Middag']::text[], 1, '«Morgenmad» er frokost på dansk.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('norsk-9:nabosprak', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Norsk: Ungdom i tekster
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('norsk-9:ungdom-i-litteraturen', 'norsk-9', 'ungdom-i-litteraturen', 'Ungdom i tekster', 'Hvordan romaner, noveller, film og serier framstiller unges liv – temaer, perspektiv og virkemidler – og hvordan du kan reflektere over framstillingen.', array[5, 1, 2]::int[], 6, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('norsk-9:ungdom-i-litteraturen', '## Unge i litteratur og film
+
+Mange tekster handler om det å være ung. **Ungdomslitteratur** er skrevet med unge lesere som målgruppe, men også voksenlitteratur, film, TV-serier og sangtekster skildrer ungdomstiden. Et kjent norsk eksempel er NRK-serien **SKAM** (2015–2017), som ble lagt merke til både i Norden og internasjonalt fordi den viste ungdomslivet på en realistisk måte og brukte sosiale medier som en del av fortellingen.
+
+## Typiske temaer
+
+Tekster om unge tar ofte opp:
+
+- **Identitet**: Hvem er jeg, og hvem vil jeg være?
+- **Vennskap og kjærlighet**, og forelskelse for første gang.
+- **Utenforskap** og mobbing: å stå utenfor fellesskapet.
+- **Familie**: konflikter med foreldre, samlivsbrudd, søsken.
+- **Psykisk helse**: press, angst, ensomhet og sorg.
+- **Sosiale medier** og forventninger om å være perfekt.
+- **Løsrivelse**: å finne sin egen vei.
+
+Et sentralt trekk er ofte en **utviklingsfortelling**: hovedpersonen står overfor en utfordring og har forandret seg når fortellingen er slutt.
+
+## Perspektiv og språk
+
+Mange ungdomsromaner er skrevet i **førsteperson**, slik at leseren kommer tett på hovedpersonens tanker og følelser. Språket kan ligne ungdoms eget muntlige språk, med slang, engelske ord og meldinger eller chat som en del av teksten. Det gir **autentisitet**, altså et inntrykk av at teksten er ekte og troverdig.
+
+## Realistisk eller stereotyp?
+
+Når du reflekterer over hvordan unge framstilles, kan du spørre:
+
+- Er personene **sammensatte**, med både gode og dårlige sider, eller er de **stereotypier**, som «den populære», «nerden» eller «den rebelske»?
+- **Hvem** er representert, og hvem mangler? Kjenner ulike lesere seg igjen?
+- Blir problemer skildret på en ærlig måte, eller forenklet?
+- Hvilket bilde av ungdom gir teksten, og hvem er det laget av? Voksne som skriver om unge, kan ha et annet blikk enn unge selv.
+
+## Før og nå
+
+Å sammenligne tekster fra ulike tider viser hvordan ungdomstiden har endret seg. Temaer som forelskelse og løsrivelse fra foreldre går igjen, mens rammene, som teknologi, skole og samfunnets forventninger, endrer seg. En eldre tekst om en ung person som må jobbe i stedet for å gå på skole, sier noe om historisk kontekst. En ny tekst om sosiale medier sier noe om vår egen samtid.
+
+## Skrive om tekstene
+
+Når du skriver om hvordan en tekst framstiller unge, bør du beskrive personene og temaene, vise til konkrete eksempler og sitater, og reflektere over om framstillingen er troverdig, og hvorfor den er laget slik.', '{"label":"Ungdom i tekster","children":[{"label":"Temaer","children":[{"label":"Identitet"},{"label":"Vennskap og kjærlighet"},{"label":"Utenforskap"},{"label":"Psykisk helse"},{"label":"Sosiale medier"}]},{"label":"Form","children":[{"label":"Førsteperson"},{"label":"Ungdomsspråk og slang"},{"label":"Utviklingsfortelling"}]},{"label":"Vurdere","children":[{"label":"Sammensatt eller stereotyp?"},{"label":"Representasjon"},{"label":"Hvem har laget teksten?"}]},{"label":"Før og nå","children":[{"label":"Historisk kontekst"},{"label":"Tidløse temaer"},{"label":"Nye rammer","note":"Teknologi, skole"}]},{"label":"Eksempler","children":[{"label":"Ungdomsromaner"},{"label":"SKAM","note":"NRK 2015–2017"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'norsk-9:ungdom-i-litteraturen';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('norsk-9:ungdom-i-litteraturen', 'Ungdomslitteratur', 'Litteratur skrevet med unge lesere som målgruppe.', 0),
+  ('norsk-9:ungdom-i-litteraturen', 'SKAM', 'NRK-serie (2015–2017) om ungdom i Oslo, kjent for realistisk skildring og bruk av sosiale medier.', 1),
+  ('norsk-9:ungdom-i-litteraturen', 'Identitet', 'Hvem man er og opplever seg som. Et sentralt tema i tekster om unge.', 2),
+  ('norsk-9:ungdom-i-litteraturen', 'Utenforskap', 'Å stå utenfor fellesskapet, for eksempel på grunn av mobbing.', 3),
+  ('norsk-9:ungdom-i-litteraturen', 'Løsrivelse', 'Å bli selvstendig og finne sin egen vei, ofte i konflikt med foreldre.', 4),
+  ('norsk-9:ungdom-i-litteraturen', 'Utviklingsfortelling', 'En fortelling der hovedpersonen forandrer seg gjennom en utfordring.', 5),
+  ('norsk-9:ungdom-i-litteraturen', 'Førstepersonsperspektiv', 'Fortellingen fortelles av hovedpersonen selv, med «jeg».', 6),
+  ('norsk-9:ungdom-i-litteraturen', 'Autentisitet', 'Inntrykket av at en tekst er ekte og troverdig.', 7),
+  ('norsk-9:ungdom-i-litteraturen', 'Slang', 'Uformelle ord og uttrykk, ofte brukt av en bestemt gruppe, som ungdom.', 8),
+  ('norsk-9:ungdom-i-litteraturen', 'Stereotypi', 'En forenklet og fastlåst framstilling av en gruppe mennesker.', 9),
+  ('norsk-9:ungdom-i-litteraturen', 'Sammensatt person', 'En person i en tekst med både gode og dårlige sider, som virker menneskelig.', 10),
+  ('norsk-9:ungdom-i-litteraturen', 'Representasjon', 'Hvilke grupper og erfaringer som er med i tekster, og hvordan de framstilles.', 11),
+  ('norsk-9:ungdom-i-litteraturen', 'Historisk kontekst', 'Tiden og samfunnet teksten ble skrevet i.', 12),
+  ('norsk-9:ungdom-i-litteraturen', 'Samtid', 'Vår egen tid.', 13),
+  ('norsk-9:ungdom-i-litteraturen', 'Målgruppe', 'De en tekst er laget for.', 14);
+delete from public.quiz_sporsmal where tema_id = 'norsk-9:ungdom-i-litteraturen';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('norsk-9:ungdom-i-litteraturen', 'q01', 'flervalg', 'Hva er en utviklingsfortelling?', array['En fortelling om teknologi', 'En fortelling der hovedpersonen forandrer seg gjennom en utfordring', 'En fortelling uten handling', 'En fagtekst om ungdom']::text[], 1, 'I en utviklingsfortelling har hovedpersonen lært noe eller endret seg når historien er slutt.', true, true, 0),
+  ('norsk-9:ungdom-i-litteraturen', 'q02', 'flervalg', 'Hvorfor er mange ungdomsromaner skrevet i førsteperson?', array['For å gjøre dem kortere', 'Fordi det er påbudt', 'For at leseren skal komme tett på hovedpersonens tanker og følelser', 'For å skjule hovedpersonen']::text[], 2, 'Førsteperson gir nærhet og gjør det lettere å identifisere seg med hovedpersonen.', true, true, 1),
+  ('norsk-9:ungdom-i-litteraturen', 'q03', 'flervalg', 'Hva er en stereotypi?', array['En forenklet og fastlåst framstilling av en gruppe', 'En sammensatt person', 'En type rim', 'En sann historie']::text[], 0, 'Stereotypier som «nerden» eller «den populære» gir et forenklet bilde av mennesker.', true, true, 2),
+  ('norsk-9:ungdom-i-litteraturen', 'q04', 'flervalg', 'Hva betyr autentisitet i en tekst?', array['At teksten er lang', 'At teksten har mange bilder', 'At teksten er skrevet av en kjent forfatter', 'At teksten virker ekte og troverdig']::text[], 3, 'Et autentisk språk og troverdige situasjoner gjør at leseren tror på fortellingen.', true, true, 3),
+  ('norsk-9:ungdom-i-litteraturen', 'q05', 'flervalg', 'Hvilket tema er typisk i tekster om unge?', array['Pensjon', 'Identitet og vennskap', 'Skattereglene', 'Gamle krigsminner']::text[], 1, 'Spørsmål om hvem man er, og hvem man hører til, går igjen i mange tekster om unge.', true, true, 4),
+  ('norsk-9:ungdom-i-litteraturen', 'q06', 'flervalg', 'Hvilket spørsmål hjelper deg å vurdere hvordan unge framstilles?', array['Hvor mange sider har boka?', 'Hvilken farge har omslaget?', 'Er personene sammensatte eller stereotype?', 'Hvor mye kostet boka?']::text[], 2, 'Om personene virker menneskelige og nyanserte, sier mye om hvor troverdig framstillingen er.', true, true, 5),
+  ('norsk-9:ungdom-i-litteraturen', 'q07', 'flervalg', 'Hva var spesielt med serien SKAM?', array['Den var en tegnefilm', 'Den brukte sosiale medier som en del av fortellingen', 'Den handlet om voksne', 'Den var på svensk']::text[], 1, 'Klipp, meldinger og innlegg ble publisert på nett i sanntid, som om personene fantes.', true, false, 6),
+  ('norsk-9:ungdom-i-litteraturen', 'q08', 'flervalg', 'Hva kan en eldre tekst om ungdom fortelle oss?', array['Ingenting, fordi den er gammel', 'Bare hvordan man snakket før', 'Hvordan ungdom levde i en annen tid, og hva som er likt og ulikt i dag', 'Hvordan ungdom lever i dag']::text[], 2, 'Sammenligning med eldre tekster viser både det tidløse og det som har endret seg.', true, true, 7),
+  ('norsk-9:ungdom-i-litteraturen', 'q09', 'flervalg', 'Hva betyr representasjon i litteratur?', array['Hvem og hvilke erfaringer som er med i tekstene, og hvordan de framstilles', 'At boka har mange kapitler', 'At forfatteren representerer et forlag', 'At teksten er oversatt']::text[], 0, 'Representasjon handler om hvem som får plass i fortellingene, og om ulike lesere kjenner seg igjen.', true, true, 8),
+  ('norsk-9:ungdom-i-litteraturen', 'q10', 'flervalg', 'Hva bør du ha med når du skriver om hvordan en tekst framstiller unge?', array['Bare din egen mening', 'Bare et sammendrag av handlingen', 'Beskrivelse, konkrete eksempler og en refleksjon over framstillingen', 'Bare sitater']::text[], 2, 'En god tekst beskriver, viser til eksempler og reflekterer over hvorfor framstillingen er som den er.', true, false, 9),
+  ('norsk-9:ungdom-i-litteraturen', 'm01', 'sant-usant', 'Bare bøker kan skildre unges liv, ikke film og serier.', array['Sant', 'Usant']::text[], 1, 'Film, serier, sanger og sosiale medier skildrer også ungdomstiden.', false, true, 10),
+  ('norsk-9:ungdom-i-litteraturen', 'm02', 'sant-usant', 'Slang kan gjøre dialogen i en ungdomsroman mer troverdig.', array['Sant', 'Usant']::text[], 0, 'Språk som ligner ungdoms eget, kan gi autentisitet.', false, true, 11),
+  ('norsk-9:ungdom-i-litteraturen', 'm03', 'sant-usant', 'En sammensatt person har bare gode egenskaper.', array['Sant', 'Usant']::text[], 1, 'En sammensatt person har både gode og dårlige sider, slik ekte mennesker har.', false, true, 12),
+  ('norsk-9:ungdom-i-litteraturen', 'm04', 'sant-usant', 'Noen temaer, som forelskelse, går igjen i tekster om unge fra ulike tider.', array['Sant', 'Usant']::text[], 0, 'Tidløse temaer finnes i både gamle og nye tekster, selv om rammene endrer seg.', false, true, 13),
+  ('norsk-9:ungdom-i-litteraturen', 'm05', 'flervalg', 'Hvilket begrep beskriver å bli selvstendig og finne sin egen vei?', array['Løsrivelse', 'Stereotypi', 'Autentisitet', 'Målgruppe']::text[], 0, 'Løsrivelse fra foreldre og barndom er et klassisk tema i tekster om unge.', false, true, 14),
+  ('norsk-9:ungdom-i-litteraturen', 'm06', 'flervalg', 'Hva kalles de en tekst er laget for?', array['Avsender', 'Forteller', 'Målgruppe', 'Kontekst']::text[], 2, 'Ungdomslitteratur har unge lesere som målgruppe.', false, true, 15),
+  ('norsk-9:ungdom-i-litteraturen', 'm07', 'flervalg', 'Hvorfor kan det være viktig å spørre hvem som har laget en tekst om unge?', array['Fordi voksne og unge kan ha ulikt blikk på ungdomstiden', 'Fordi bare unge kan skrive', 'Fordi det avgjør hvor lang teksten er', 'Det har ingen betydning']::text[], 0, 'Avsenderens ståsted kan farge framstillingen av ungdom.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('norsk-9:ungdom-i-litteraturen', 15)
 on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Matematikk (9): rydd bort fjernede temaer
@@ -1342,6 +3727,3432 @@ insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, ri
 insert into public.miniprover (tema_id, minutter) values
   ('matematikk-9:simulering', 15)
 on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Engelsk (9): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'engelsk-9' and slug not in ('pronunciation', 'common-grammar-mistakes', 'short-stories', 'formal-and-informal-writing', 'the-united-states', 'indigenous-peoples');
+
+-- Engelsk: Pronunciation
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('engelsk-9:pronunciation', 'engelsk-9', 'pronunciation', 'Pronunciation', 'The English sounds Norwegians find hardest, silent letters, word stress and intonation, and how to practise pronunciation.', array[3, 4, 7]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('engelsk-9:pronunciation', '## Why pronunciation matters
+
+Good pronunciation does not mean sounding like a native speaker. It means being **easy to understand**. Some mistakes can change the meaning of a word, for example if “very” sounds like “wery” or “three” sounds like “tree”. Knowing which sounds are difficult for Norwegians helps you focus your practice.
+
+## Difficult sounds for Norwegians
+
+- **th**: English has two th-sounds. The voiceless one in **think**, **three** and **month**, and the voiced one in **this**, **that** and **mother**. Put the tip of your tongue between your teeth. Avoid saying “tink” or “dis”.
+- **v and w**: **v** is made with the top teeth on the lower lip (very, van). **w** is made with rounded lips, like a short “u” (we, west). Practise pairs like “vine – wine” and “vest – west”.
+- **z** at the end of words: many plurals and verbs end in a buzzing z-sound: dogs, is, was, rose. Norwegians often say a sharp s instead.
+- **sh and ch**: **ship** and **chip** are different words.
+- **Final consonants**: English keeps voiced sounds at the end of words: “bag” and “back” must sound different.
+
+## Silent letters
+
+Many English words have letters that are not pronounced: **k** in know and knife, **w** in write and wrong, **b** in climb and doubt, **l** in walk and could, **gh** in night and though, and **h** in hour and honest.
+
+## Word stress
+
+In English words with more than one syllable, one syllable is **stressed** – pronounced louder and longer. Stress can change the meaning or word class: **RE**cord (noun) and re**CORD** (verb), **PRE**sent (noun) and pre**SENT** (verb). Some words are often stressed wrongly by Norwegians: it is ho**TEL** and e**VENT**, not **HO**tel and **E**vent.
+
+## Intonation
+
+**Intonation** is the melody of speech. In most statements, the voice goes **down** at the end. In yes/no questions, it often goes **up**: “Are you coming?” Norwegian intonation is different, so listening carefully to English speakers helps.
+
+## Varieties
+
+There is no single correct accent. **British** and **American** English differ, for example in the r-sound (“car”) and in words like “tomato” and “schedule”. Australian, Irish, Indian and Nigerian English all have their own features. It is useful to understand many varieties, but choose one model for yourself.
+
+## How to practise
+
+Listen actively to podcasts, series and songs. Repeat sentences after a speaker (**shadowing**). Record yourself and compare. Use online dictionaries that play the pronunciation of words, and learn the stress when you learn a new word.', '{"label":"Pronunciation","children":[{"label":"Difficult sounds","children":[{"label":"th","note":"think / this"},{"label":"v and w","note":"vine / wine"},{"label":"z at the end","note":"dogs, is"},{"label":"sh and ch"}]},{"label":"Silent letters","children":[{"label":"k","note":"know"},{"label":"w","note":"write"},{"label":"b","note":"climb"},{"label":"h","note":"hour"}]},{"label":"Stress","children":[{"label":"One strong syllable"},{"label":"RE-cord / re-CORD"}]},{"label":"Intonation","children":[{"label":"Down in statements"},{"label":"Up in yes/no questions"}]},{"label":"Practice","children":[{"label":"Listen actively"},{"label":"Shadowing"},{"label":"Record yourself"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'engelsk-9:pronunciation';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('engelsk-9:pronunciation', 'Voiceless th', 'The sound in think, three and month. Tongue between the teeth, no voice.', 0),
+  ('engelsk-9:pronunciation', 'Voiced th', 'The sound in this, that and mother. Tongue between the teeth, with voice.', 1),
+  ('engelsk-9:pronunciation', 'v', 'Top teeth on the lower lip: very, van, vest.', 2),
+  ('engelsk-9:pronunciation', 'w', 'Rounded lips like a short “u”: we, west, wine.', 3),
+  ('engelsk-9:pronunciation', 'z at the end', 'Plurals and verbs often end in a buzzing z-sound: dogs, is, was.', 4),
+  ('engelsk-9:pronunciation', 'Silent k', 'know, knife, knee.', 5),
+  ('engelsk-9:pronunciation', 'Silent w', 'write, wrong, who.', 6),
+  ('engelsk-9:pronunciation', 'Silent b', 'climb, doubt, thumb.', 7),
+  ('engelsk-9:pronunciation', 'Silent h', 'hour, honest, honour.', 8),
+  ('engelsk-9:pronunciation', 'Word stress', 'One syllable is pronounced louder and longer: ho-TEL.', 9),
+  ('engelsk-9:pronunciation', 'RE-cord / re-CORD', 'Noun with stress on the first syllable, verb on the second.', 10),
+  ('engelsk-9:pronunciation', 'Intonation', 'The melody of speech. Usually falling in statements, often rising in yes/no questions.', 11),
+  ('engelsk-9:pronunciation', 'Shadowing', 'Repeating what a speaker says right after them, to practise pronunciation.', 12),
+  ('engelsk-9:pronunciation', 'Intelligibility', 'Being easy to understand. More important than sounding like a native speaker.', 13),
+  ('engelsk-9:pronunciation', 'Minimal pair', 'Two words that differ in only one sound: vine – wine, ship – chip.', 14);
+delete from public.quiz_sporsmal where tema_id = 'engelsk-9:pronunciation';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('engelsk-9:pronunciation', 'q01', 'flervalg', 'Which word has a silent letter?', array['knife', 'kind', 'keep', 'kite']::text[], 0, 'The k in “knife” is silent.', true, true, 0),
+  ('engelsk-9:pronunciation', 'q02', 'flervalg', 'How do you make the th-sound in “think”?', array['Like a t', 'With the tongue between the teeth', 'With rounded lips', 'Like an f']::text[], 1, 'The tongue tip goes between the teeth. Saying “tink” is a common mistake.', true, true, 1),
+  ('engelsk-9:pronunciation', 'q03', 'flervalg', 'Which pair is a minimal pair for practising v and w?', array['vine – wine', 'very – vary', 'west – east', 'van – man']::text[], 0, '“Vine” and “wine” differ only in the first sound, v or w.', true, true, 2),
+  ('engelsk-9:pronunciation', 'q04', 'flervalg', 'Where is the stress in the verb “record” (to record a song)?', array['RE-cord', 'Both syllables equally', 're-CORD', 'It has no stress']::text[], 2, 'As a verb, “record” is stressed on the second syllable. The noun is RE-cord.', true, true, 3),
+  ('engelsk-9:pronunciation', 'q05', 'flervalg', 'Which word has a silent w?', array['water', 'write', 'west', 'wind']::text[], 1, 'In “write”, the w is not pronounced.', true, true, 4),
+  ('engelsk-9:pronunciation', 'q06', 'flervalg', 'What usually happens with intonation in a yes/no question like “Are you coming?”', array['It goes down', 'It stays flat', 'It goes up at the end', 'It stops']::text[], 2, 'Yes/no questions often have rising intonation at the end.', true, true, 5),
+  ('engelsk-9:pronunciation', 'q07', 'flervalg', 'What is most important in pronunciation?', array['Sounding exactly like the King', 'Speaking as fast as possible', 'Using only American accent', 'Being easy to understand']::text[], 3, 'Clear, intelligible pronunciation matters more than sounding like a native speaker.', true, false, 6),
+  ('engelsk-9:pronunciation', 'q08', 'flervalg', 'Which word has a silent h?', array['hour', 'house', 'happy', 'hotel']::text[], 0, '“Hour” is pronounced like “our”. That is also why we say “an hour”.', true, true, 7),
+  ('engelsk-9:pronunciation', 'q09', 'flervalg', 'What sound should the s in “dogs” have?', array['A sharp s', 'A buzzing z-sound', 'A sh-sound', 'It is silent']::text[], 1, 'After voiced sounds, the plural -s is pronounced like z: dogz.', true, true, 8),
+  ('engelsk-9:pronunciation', 'q10', 'flervalg', 'What is shadowing?', array['Reading in the dark', 'Writing words many times', 'Repeating what a speaker says right after them', 'Translating to Norwegian']::text[], 2, 'Shadowing trains rhythm, stress and intonation by copying a speaker closely.', true, false, 9),
+  ('engelsk-9:pronunciation', 'm01', 'sant-usant', 'The b in “climb” is pronounced.', array['Sant', 'Usant']::text[], 1, 'The b in “climb” is silent.', false, true, 10),
+  ('engelsk-9:pronunciation', 'm02', 'sant-usant', 'There is only one correct English accent.', array['Sant', 'Usant']::text[], 1, 'There are many accents. Choose one model, but learn to understand many.', false, true, 11),
+  ('engelsk-9:pronunciation', 'm03', 'sant-usant', 'The noun “present” (a gift) is stressed on the first syllable.', array['Sant', 'Usant']::text[], 0, 'PRE-sent (noun) and pre-SENT (verb).', false, true, 12),
+  ('engelsk-9:pronunciation', 'm04', 'sant-usant', 'Saying “tree” instead of “three” can cause misunderstandings.', array['Sant', 'Usant']::text[], 0, 'The th-sound changes the meaning, so it is important to get it right.', false, true, 13),
+  ('engelsk-9:pronunciation', 'm05', 'flervalg', 'Which word starts with a voiced th-sound?', array['think', 'three', 'this', 'thank']::text[], 2, '“This” has the voiced th. The others have the voiceless th.', false, true, 14),
+  ('engelsk-9:pronunciation', 'm06', 'flervalg', 'In which word is the l silent?', array['walk', 'lamp', 'late', 'silk']::text[], 0, 'The l in “walk” is not pronounced.', false, true, 15),
+  ('engelsk-9:pronunciation', 'm07', 'flervalg', 'How do you make the w-sound?', array['With the teeth on the lip', 'With rounded lips', 'With the tongue between the teeth', 'Through the nose']::text[], 1, 'The w is made with rounded lips, like a short “u”.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('engelsk-9:pronunciation', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Engelsk: Common mistakes and false friends
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('engelsk-9:common-grammar-mistakes', 'engelsk-9', 'common-grammar-mistakes', 'Common mistakes and false friends', 'The grammar mistakes Norwegian learners make most often – subject–verb agreement, much/many, it/there, the article – and false friends between Norwegian and English.', array[9, 7, 8]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('engelsk-9:common-grammar-mistakes', '## Learning from mistakes
+
+Norwegian and English are closely related, which makes English easier to learn. But the similarities also cause typical mistakes, because we are tempted to translate directly. Knowing the most common traps helps you avoid them.
+
+## Subject–verb agreement
+
+The verb must agree with the subject. In the present simple, **he, she and it** need **-s**: She **plays**, it **works**. With **there is / there are**, the verb agrees with what comes after: There **is** a problem. There **are** two problems. Words like **everybody**, **nobody** and **each** are singular: Everybody **is** here. **People** and **police** are plural: The police **are** coming.
+
+## Much or many?
+
+**Many** is used with things we can count: many books, many people. **Much** is used with things we cannot count: much water, much time. The same goes for **few/little** and **fewer/less**. Some nouns are uncountable in English but countable in Norwegian: **information**, **advice**, **furniture**, **news**, **homework**. We say “a piece of advice”, not “an advice”, and “The news **is** good”.
+
+## It or there?
+
+Norwegian “det” can be both **it** and **there** in English. Use **there** when something exists or is present: **There is** a cat in the garden. Use **it** about something already mentioned, or about weather and time: **It is** raining. **It is** late.
+
+## Articles
+
+English uses **a/an** with jobs: She is **a** doctor. English usually does **not** use the article with general ideas, meals and many institutions: **Life** is short. We had **dinner**. He is in **hospital** (British).
+
+## Adjective or adverb?
+
+Use an **adjective** to describe a noun and an **adverb** to describe a verb: She is a **good** singer. She sings **well**. He drives **carefully**, not “careful”.
+
+## False friends
+
+**False friends** look similar to Norwegian words but mean something else:
+
+- **eventually** = til slutt (not eventuelt – that is “possibly”)
+- **actually** = faktisk (not aktuelt – that is “relevant”)
+- **sensible** = fornuftig (not sensibel – that is “sensitive”)
+- **fabric** = stoff (not fabrikk – that is “factory”)
+- **become** = bli (not bekomme)
+- **brave** = modig (not brav – that is “well-behaved”)
+
+## Tip
+
+Make your own list of mistakes you often make, and check your texts for them before you hand them in.', '{"label":"Common mistakes","children":[{"label":"Agreement","children":[{"label":"he/she/it + s"},{"label":"There is / are"},{"label":"Everybody is"},{"label":"The police are"}]},{"label":"Countable?","children":[{"label":"many / much"},{"label":"few / little"},{"label":"advice, news, information","note":"Uncountable"}]},{"label":"It or there","children":[{"label":"There = exists"},{"label":"It = weather, time"}]},{"label":"Other traps","children":[{"label":"a/an with jobs"},{"label":"Adjective vs adverb","note":"good / well"}]},{"label":"False friends","children":[{"label":"eventually = til slutt"},{"label":"actually = faktisk"},{"label":"sensible = fornuftig"},{"label":"brave = modig"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'engelsk-9:common-grammar-mistakes';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('engelsk-9:common-grammar-mistakes', 'Subject–verb agreement', 'The verb must match the subject: she plays, they play.', 0),
+  ('engelsk-9:common-grammar-mistakes', 'There is / there are', 'The verb agrees with what follows: there is a cat, there are two cats.', 1),
+  ('engelsk-9:common-grammar-mistakes', 'Everybody is', 'Everybody, nobody and each are singular.', 2),
+  ('engelsk-9:common-grammar-mistakes', 'The police are', 'Police and people are plural in English.', 3),
+  ('engelsk-9:common-grammar-mistakes', 'many', 'With countable nouns: many books, many people.', 4),
+  ('engelsk-9:common-grammar-mistakes', 'much', 'With uncountable nouns: much water, much time.', 5),
+  ('engelsk-9:common-grammar-mistakes', 'Uncountable nouns', 'information, advice, furniture, news, homework – no plural and no “a”.', 6),
+  ('engelsk-9:common-grammar-mistakes', 'It or there?', 'There = something exists. It = something already mentioned, weather, time.', 7),
+  ('engelsk-9:common-grammar-mistakes', 'She is a doctor', 'English uses a/an with jobs.', 8),
+  ('engelsk-9:common-grammar-mistakes', 'good / well', 'Adjective and adverb: a good singer, she sings well.', 9),
+  ('engelsk-9:common-grammar-mistakes', 'eventually', 'False friend: til slutt.', 10),
+  ('engelsk-9:common-grammar-mistakes', 'actually', 'False friend: faktisk.', 11),
+  ('engelsk-9:common-grammar-mistakes', 'sensible', 'False friend: fornuftig. (sensitive = sensibel)', 12),
+  ('engelsk-9:common-grammar-mistakes', 'fabric', 'False friend: stoff. (factory = fabrikk)', 13),
+  ('engelsk-9:common-grammar-mistakes', 'brave', 'False friend: modig. (well-behaved = brav)', 14);
+delete from public.quiz_sporsmal where tema_id = 'engelsk-9:common-grammar-mistakes';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('engelsk-9:common-grammar-mistakes', 'q01', 'flervalg', 'Choose the correct sentence.', array['She play the guitar.', 'She plays the guitar.', 'She playing the guitar.', 'She are playing the guitar.']::text[], 1, 'With “she” in the present simple, the verb needs -s: she plays.', true, true, 0),
+  ('engelsk-9:common-grammar-mistakes', 'q02', 'flervalg', 'Choose the correct word: “There … two cars outside.”', array['is', 'be', 'are', 'am']::text[], 2, 'The verb agrees with “two cars”, which is plural: there are.', true, true, 1),
+  ('engelsk-9:common-grammar-mistakes', 'q03', 'flervalg', 'Choose the correct word: “How … money do you have?”', array['much', 'many', 'few', 'a lot']::text[], 0, 'Money is uncountable, so we use “much”.', true, true, 2),
+  ('engelsk-9:common-grammar-mistakes', 'q04', 'flervalg', 'Which sentence is correct?', array['Can you give me an advice?', 'Can you give me some advices?', 'Can you give me a advice?', 'Can you give me some advice?']::text[], 3, '“Advice” is uncountable in English. Say “some advice” or “a piece of advice”.', true, true, 3),
+  ('engelsk-9:common-grammar-mistakes', 'q05', 'flervalg', 'Choose the correct word: “… is raining again.”', array['There', 'It', 'This', 'Here']::text[], 1, 'We use “it” about the weather: It is raining.', true, true, 4),
+  ('engelsk-9:common-grammar-mistakes', 'q06', 'flervalg', 'What does “eventually” mean?', array['eventuelt', 'vanligvis', 'til slutt', 'straks']::text[], 2, '“Eventually” means “til slutt”. “Eventuelt” is “possibly” or “if necessary”.', true, true, 5),
+  ('engelsk-9:common-grammar-mistakes', 'q07', 'flervalg', 'Which sentence is correct?', array['She is doctor.', 'She is a doctor.', 'She is the doctor for job.', 'She doctor is.']::text[], 1, 'English uses a/an before jobs: She is a doctor.', true, false, 6),
+  ('engelsk-9:common-grammar-mistakes', 'q08', 'flervalg', 'Choose the correct word: “He drives very …”', array['careful', 'carefully', 'care', 'carefulness']::text[], 1, 'An adverb describes how he drives: carefully.', true, true, 7),
+  ('engelsk-9:common-grammar-mistakes', 'q09', 'flervalg', 'What does “sensible” mean?', array['fornuftig', 'sensibel', 'følsom', 'sanselig']::text[], 0, '“Sensible” means “fornuftig”. “Sensibel” in Norwegian is “sensitive” in English.', true, false, 8),
+  ('engelsk-9:common-grammar-mistakes', 'q10', 'flervalg', 'Choose the correct sentence.', array['Everybody are here.', 'Everybody were here now.', 'Everybody is here.', 'Everybody be here.']::text[], 2, '“Everybody” is grammatically singular: Everybody is here.', true, true, 9),
+  ('engelsk-9:common-grammar-mistakes', 'm01', 'sant-usant', '“The news are good” is correct English.', array['Sant', 'Usant']::text[], 1, '“News” is uncountable and singular: The news is good.', false, true, 10),
+  ('engelsk-9:common-grammar-mistakes', 'm02', 'sant-usant', '“Actually” means “faktisk”.', array['Sant', 'Usant']::text[], 0, '“Actually” is a false friend. “Aktuelt” is “relevant” or “current”.', false, true, 11),
+  ('engelsk-9:common-grammar-mistakes', 'm03', 'sant-usant', '“Many” is used with uncountable nouns like water.', array['Sant', 'Usant']::text[], 1, '“Many” is for countable nouns. With water we use “much”.', false, true, 12),
+  ('engelsk-9:common-grammar-mistakes', 'm04', 'sant-usant', '“There is a cat in the garden” uses “there” because the sentence says that something exists.', array['Sant', 'Usant']::text[], 0, '“There is/are” introduces something that exists or is present.', false, true, 13),
+  ('engelsk-9:common-grammar-mistakes', 'm05', 'flervalg', 'What does “fabric” mean?', array['fabrikk', 'stoff', 'fabel', 'fasade']::text[], 1, '“Fabric” is cloth or material. A factory is “fabrikk”.', false, true, 14),
+  ('engelsk-9:common-grammar-mistakes', 'm06', 'flervalg', 'Choose the correct word: “There were … people at the concert than last year.”', array['less', 'little', 'fewer', 'much']::text[], 2, '“People” is countable, so we use “fewer”.', false, true, 15),
+  ('engelsk-9:common-grammar-mistakes', 'm07', 'flervalg', 'Which sentence uses “good” and “well” correctly?', array['She sings good.', 'She is a well singer.', 'She sings goodly.', 'She sings well.']::text[], 3, '“Well” is the adverb that describes how she sings.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('engelsk-9:common-grammar-mistakes', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Engelsk: Short stories and literary analysis
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('engelsk-9:short-stories', 'engelsk-9', 'short-stories', 'Short stories and literary analysis', 'Key features of short stories, literary terms like theme, symbol and irony, and how to write a short analysis of a story in English.', array[11, 10]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('engelsk-9:short-stories', '## What is a short story?
+
+A **short story** is a short work of fiction that can usually be read in one sitting. It has few characters, often one main setting and a limited time span. Many short stories start close to the action, build up to a **turning point**, and end in a way that makes the reader think.
+
+## Literary terms
+
+To talk about stories in English, you need some key terms:
+
+- **Protagonist**: the main character. **Antagonist**: a character or force working against the protagonist.
+- **Plot**: the sequence of events. **Conflict**: the central problem. It can be **external** (person against person, nature or society) or **internal** (a struggle inside a character''s mind).
+- **Setting**: time and place. The setting can create **atmosphere** – the mood of the story.
+- **Narrator** and **point of view**: who tells the story, in first or third person.
+- **Theme**: the main idea or message, such as friendship, identity or prejudice. A theme is usually expressed in a sentence: “The story shows that…”
+- **Symbol**: an object, place or colour that stands for something more, like a locked door standing for isolation.
+- **Foreshadowing**: hints about what will happen later.
+- **Irony**: when the opposite of what we expect happens, or when words mean the opposite of what is said.
+- **Open ending**: an ending that leaves questions unanswered.
+
+## Characterisation
+
+Authors show us characters through **direct characterisation** (the narrator tells us what they are like) and **indirect characterisation** (we learn from their actions, words, thoughts and how others react to them). A **round** character is complex and changes, while a **flat** character has few traits and does not develop.
+
+## Writing a short analysis
+
+A good analysis in English has:
+
+- an **introduction** with title, author and a short summary (two or three sentences),
+- **body paragraphs** about characters, setting, narrator, literary devices and theme – each with a clear **topic sentence**,
+- **quotations** from the story as evidence, followed by your own explanation,
+- a **conclusion** that sums up your interpretation and perhaps your personal response.
+
+Use the **present tense** when you write about what happens in a story: “The narrator **feels** lonely”, not “felt”. Avoid retelling the whole plot – focus on **how** and **why** the story works.
+
+## Useful phrases
+
+“The story is set in…”, “The narrator is…”, “This suggests that…”, “The author uses… to show…”, “One of the main themes is…”, “In conclusion…”.', '{"label":"Short stories","children":[{"label":"Features","children":[{"label":"Few characters"},{"label":"Short time span"},{"label":"Turning point"},{"label":"Open ending"}]},{"label":"Characters","children":[{"label":"Protagonist / antagonist"},{"label":"Direct / indirect"},{"label":"Round / flat"}]},{"label":"Elements","children":[{"label":"Plot and conflict"},{"label":"Setting and atmosphere"},{"label":"Narrator and point of view"}]},{"label":"Devices","children":[{"label":"Symbol"},{"label":"Foreshadowing"},{"label":"Irony"}]},{"label":"Analysis","children":[{"label":"Intro with short summary"},{"label":"Topic sentences"},{"label":"Quotations as evidence"},{"label":"Present tense"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'engelsk-9:short-stories';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('engelsk-9:short-stories', 'Short story', 'A short work of fiction with few characters, often one setting and a short time span.', 0),
+  ('engelsk-9:short-stories', 'Protagonist', 'The main character in a story.', 1),
+  ('engelsk-9:short-stories', 'Antagonist', 'A character or force that works against the protagonist.', 2),
+  ('engelsk-9:short-stories', 'External conflict', 'A struggle between a character and another person, nature or society.', 3),
+  ('engelsk-9:short-stories', 'Internal conflict', 'A struggle inside a character''s mind.', 4),
+  ('engelsk-9:short-stories', 'Atmosphere', 'The mood or feeling of a story, often created by the setting.', 5),
+  ('engelsk-9:short-stories', 'Theme', 'The main idea or message of a story, such as identity or friendship.', 6),
+  ('engelsk-9:short-stories', 'Symbol', 'An object, place or colour that stands for something more.', 7),
+  ('engelsk-9:short-stories', 'Foreshadowing', 'Hints about what will happen later in the story.', 8),
+  ('engelsk-9:short-stories', 'Irony', 'When the opposite of what is expected happens, or words mean the opposite of what is said.', 9),
+  ('engelsk-9:short-stories', 'Open ending', 'An ending that leaves questions unanswered.', 10),
+  ('engelsk-9:short-stories', 'Indirect characterisation', 'We learn about a character through actions, words and thoughts.', 11),
+  ('engelsk-9:short-stories', 'Round character', 'A complex character who changes during the story.', 12),
+  ('engelsk-9:short-stories', 'Flat character', 'A simple character with few traits who does not develop.', 13),
+  ('engelsk-9:short-stories', 'Present tense in analysis', 'Write about stories in the present tense: “The narrator feels lonely.”', 14);
+delete from public.quiz_sporsmal where tema_id = 'engelsk-9:short-stories';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('engelsk-9:short-stories', 'q01', 'flervalg', 'What is the protagonist?', array['The villain', 'The main character', 'The narrator''s friend', 'The setting']::text[], 1, 'The protagonist is the main character, the one the story is mostly about.', true, true, 0),
+  ('engelsk-9:short-stories', 'q02', 'flervalg', 'A girl struggles to decide whether to tell the truth. What kind of conflict is this?', array['Internal conflict', 'External conflict with nature', 'External conflict with society', 'No conflict']::text[], 0, 'The struggle happens inside her mind, so it is an internal conflict.', true, true, 1),
+  ('engelsk-9:short-stories', 'q03', 'flervalg', 'What is a theme?', array['The title', 'The place where the story happens', 'The main idea or message of the story', 'The first sentence']::text[], 2, 'The theme is what the story is really about on a deeper level, like loneliness or courage.', true, true, 2),
+  ('engelsk-9:short-stories', 'q04', 'flervalg', 'A fire station burns down. What literary device is this an example of?', array['Foreshadowing', 'Symbol', 'Flat character', 'Irony']::text[], 3, 'It is the opposite of what we would expect, which is situational irony.', true, true, 3),
+  ('engelsk-9:short-stories', 'q05', 'flervalg', 'Which tense should you use when writing an analysis of a story?', array['Present tense', 'Past tense', 'Future tense', 'Past perfect']::text[], 0, 'Literary analysis uses the present tense: “The narrator describes…”.', true, true, 4),
+  ('engelsk-9:short-stories', 'q06', 'flervalg', 'What is foreshadowing?', array['A description of shadows', 'Hints about what will happen later', 'The ending of the story', 'A flashback']::text[], 1, 'Foreshadowing builds suspense by hinting at future events.', true, true, 5),
+  ('engelsk-9:short-stories', 'q07', 'flervalg', 'What is indirect characterisation?', array['The narrator tells us what a character is like', 'We learn about a character through actions, words and thoughts', 'The character is not important', 'The character is described in a list']::text[], 1, 'Indirect characterisation lets the reader draw conclusions from what the character does and says.', true, false, 6),
+  ('engelsk-9:short-stories', 'q08', 'flervalg', 'What should a good body paragraph in an analysis contain?', array['Only a long quotation', 'A retelling of the whole plot', 'A topic sentence, evidence from the text and your own explanation', 'Only your personal opinion']::text[], 2, 'A clear point, evidence and explanation show that your interpretation is based on the text.', true, true, 7),
+  ('engelsk-9:short-stories', 'q09', 'flervalg', 'A character who changes and develops during the story is called', array['a flat character', 'a narrator', 'an antagonist', 'a round character']::text[], 3, 'Round characters are complex and often change, while flat characters stay the same.', true, true, 8),
+  ('engelsk-9:short-stories', 'q10', 'flervalg', 'What is an open ending?', array['An ending that leaves questions unanswered', 'A happy ending', 'An ending where everyone dies', 'The first chapter']::text[], 0, 'An open ending invites the reader to think and interpret for themselves.', true, false, 9),
+  ('engelsk-9:short-stories', 'm01', 'sant-usant', 'A good analysis retells the whole plot in detail.', array['Sant', 'Usant']::text[], 1, 'A short summary is enough. The analysis should explain how and why the story works.', false, true, 10),
+  ('engelsk-9:short-stories', 'm02', 'sant-usant', 'The setting can help create atmosphere in a story.', array['Sant', 'Usant']::text[], 0, 'A dark, stormy night creates a very different mood from a sunny beach.', false, true, 11),
+  ('engelsk-9:short-stories', 'm03', 'sant-usant', 'The antagonist is always a person.', array['Sant', 'Usant']::text[], 1, 'The antagonist can also be nature, society or another force.', false, true, 12),
+  ('engelsk-9:short-stories', 'm04', 'sant-usant', 'Quotations can be used as evidence for your interpretation.', array['Sant', 'Usant']::text[], 0, 'Quotations show that your points are based on the text.', false, true, 13),
+  ('engelsk-9:short-stories', 'm05', 'flervalg', 'A locked door appears several times in a story about a lonely boy. What might it be?', array['A symbol of isolation', 'An antagonist', 'The narrator', 'Foreshadowing of a party']::text[], 0, 'The locked door can stand for the boy being shut out or shutting others out.', false, true, 14),
+  ('engelsk-9:short-stories', 'm06', 'flervalg', 'Which phrase is useful when you explain a quotation?', array['Once upon a time…', 'This suggests that…', 'The end.', 'Dear Sir or Madam,']::text[], 1, '“This suggests that…” helps you explain what the quotation shows.', false, true, 15),
+  ('engelsk-9:short-stories', 'm07', 'flervalg', 'What is atmosphere?', array['The weather only', 'The title', 'The mood or feeling of a story', 'The main character''s name']::text[], 2, 'Atmosphere is the overall mood, created by setting, language and events.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('engelsk-9:short-stories', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Engelsk: Formal and informal writing
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('engelsk-9:formal-and-informal-writing', 'engelsk-9', 'formal-and-informal-writing', 'Formal and informal writing', 'How to adapt your English to purpose, receiver and situation – with rules for formal emails and letters, and the features of informal texts.', array[14, 5, 9]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('engelsk-9:formal-and-informal-writing', '## Register
+
+The way we use language changes with the situation. This is called **register**. You write differently to a friend than to a company or a school principal. Before you write, ask yourself: What is the **purpose**? Who is the **receiver**? What is the **situation**? The answers decide whether your text should be **formal** or **informal**.
+
+## Informal writing
+
+Informal texts are written to people you know well: friends, family, classmates. Typical features:
+
+- Greetings like **Hi**, **Hey** or **Hello Tom**.
+- **Contractions**: I''m, don''t, can''t, we''ll.
+- Everyday words and sometimes slang: stuff, cool, awesome.
+- Short sentences, exclamation marks and questions to the reader.
+- Endings like **See you soon!**, **Take care** or **Love**.
+
+## Formal writing
+
+Formal texts are written to people you do not know, or in official situations: job applications, complaints, emails to a teacher or a company. Typical features:
+
+- A formal greeting: **Dear Mr Smith** or **Dear Ms Jones** if you know the name, **Dear Sir or Madam** if you do not.
+- **No contractions**: I am, do not, cannot.
+- Polite and precise language: **I would like to…**, **Could you please…**, **I would be grateful if…**
+- No slang, and full, well-structured sentences.
+- A clear structure: why you are writing, the details, and what you want to happen next.
+- A formal ending. In British English, **Yours sincerely** is used after “Dear Mr Smith”, and **Yours faithfully** after “Dear Sir or Madam”. **Kind regards** or **Best regards** are common in emails.
+
+## Example phrases
+
+- Opening: “I am writing to enquire about…”, “I am writing to complain about…”
+- Asking: “Could you please send me more information about…?”
+- Closing: “I look forward to hearing from you.”
+
+## Common text types
+
+- **Application letter**: presents you and explains why you are suited for a job or a course.
+- **Letter of complaint**: explains a problem politely but firmly and says what you expect.
+- **Blog post**: often informal and personal, but should still be clear and well organised.
+- **Article**: more neutral and informative, with a catchy headline.
+
+## Mixing registers
+
+A common mistake is mixing registers, like starting “Dear Sir or Madam” and ending “See ya!”. Choose one register and keep it throughout. When you revise your text, check greetings, endings, contractions and vocabulary.', '{"label":"Formal and informal writing","children":[{"label":"Register","children":[{"label":"Purpose"},{"label":"Receiver"},{"label":"Situation"}]},{"label":"Informal","children":[{"label":"Hi / Hey"},{"label":"Contractions"},{"label":"Everyday words"},{"label":"See you soon!"}]},{"label":"Formal","children":[{"label":"Dear Mr Smith / Sir or Madam"},{"label":"No contractions"},{"label":"I would like to…"},{"label":"Yours sincerely / faithfully"}]},{"label":"Text types","children":[{"label":"Application letter"},{"label":"Complaint"},{"label":"Blog post"},{"label":"Article"}]},{"label":"Revise","children":[{"label":"Don''t mix registers"},{"label":"Check greeting and ending"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'engelsk-9:formal-and-informal-writing';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('engelsk-9:formal-and-informal-writing', 'Register', 'How formal or informal language is, adapted to the situation.', 0),
+  ('engelsk-9:formal-and-informal-writing', 'Purpose, receiver, situation', 'Three questions that decide how formal a text should be.', 1),
+  ('engelsk-9:formal-and-informal-writing', 'Contraction', 'A short form like I''m, don''t, can''t. Common in informal writing.', 2),
+  ('engelsk-9:formal-and-informal-writing', 'Informal greeting', 'Hi, Hey, Hello Tom.', 3),
+  ('engelsk-9:formal-and-informal-writing', 'Formal greeting, name known', 'Dear Mr Smith / Dear Ms Jones.', 4),
+  ('engelsk-9:formal-and-informal-writing', 'Formal greeting, name unknown', 'Dear Sir or Madam.', 5),
+  ('engelsk-9:formal-and-informal-writing', 'Yours sincerely', 'British formal ending after “Dear Mr Smith”.', 6),
+  ('engelsk-9:formal-and-informal-writing', 'Yours faithfully', 'British formal ending after “Dear Sir or Madam”.', 7),
+  ('engelsk-9:formal-and-informal-writing', 'Kind regards', 'A polite, common ending in emails.', 8),
+  ('engelsk-9:formal-and-informal-writing', 'I would like to…', 'A polite formal phrase for saying what you want.', 9),
+  ('engelsk-9:formal-and-informal-writing', 'I am writing to enquire about…', 'A formal opening for asking for information.', 10),
+  ('engelsk-9:formal-and-informal-writing', 'I look forward to hearing from you.', 'A standard formal closing sentence.', 11),
+  ('engelsk-9:formal-and-informal-writing', 'Application letter', 'A formal letter presenting yourself for a job or course.', 12),
+  ('engelsk-9:formal-and-informal-writing', 'Letter of complaint', 'A formal letter that explains a problem and what you expect.', 13),
+  ('engelsk-9:formal-and-informal-writing', 'Mixing registers', 'Using both formal and informal language in one text. Should be avoided.', 14);
+delete from public.quiz_sporsmal where tema_id = 'engelsk-9:formal-and-informal-writing';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('engelsk-9:formal-and-informal-writing', 'q01', 'flervalg', 'Which greeting is best in an email to a company when you do not know the name?', array['Hey guys!', 'Dear Sir or Madam,', 'Hi there,', 'Yo,']::text[], 1, '“Dear Sir or Madam” is the standard formal greeting when you do not know the receiver''s name.', true, true, 0),
+  ('engelsk-9:formal-and-informal-writing', 'q02', 'flervalg', 'Which sentence is formal?', array['I''m gonna need the info asap.', 'Send me the stuff!', 'Could you please send me more information?', 'Gimme the details.']::text[], 2, 'Polite phrases like “Could you please…” and no slang or contractions make it formal.', true, true, 1),
+  ('engelsk-9:formal-and-informal-writing', 'q03', 'flervalg', 'In British English, which ending goes with “Dear Mr Smith”?', array['Yours sincerely', 'Yours faithfully', 'Love', 'See you']::text[], 0, 'When you know the name, the traditional British ending is “Yours sincerely”.', true, true, 2),
+  ('engelsk-9:formal-and-informal-writing', 'q04', 'flervalg', 'What is a contraction?', array['A long word', 'A formal greeting', 'A type of letter', 'A short form like “don''t” or “I''m”']::text[], 3, 'Contractions combine two words. They are common in informal writing, but avoided in formal texts.', true, true, 3),
+  ('engelsk-9:formal-and-informal-writing', 'q05', 'flervalg', 'Which phrase is a good formal opening?', array['What''s up?', 'I am writing to complain about the product I bought.', 'So, this thing broke.', 'Hey, just wanted to say…']::text[], 1, '“I am writing to…” clearly and politely states the purpose of a formal letter.', true, true, 4),
+  ('engelsk-9:formal-and-informal-writing', 'q06', 'flervalg', 'What is register?', array['How formal or informal language is', 'A list of names', 'The length of a text', 'A spelling rule']::text[], 0, 'Register is about adapting language to purpose, receiver and situation.', true, true, 5),
+  ('engelsk-9:formal-and-informal-writing', 'q07', 'flervalg', 'Which of these is a mistake in a formal letter?', array['Using full sentences', 'Using “I would like to”', 'Ending with “See ya!”', 'Stating the purpose early']::text[], 2, '“See ya!” is informal slang and does not fit in a formal letter.', true, true, 6),
+  ('engelsk-9:formal-and-informal-writing', 'q08', 'flervalg', 'Which ending is common and polite in emails?', array['Bye bye', 'Kind regards', 'Later!', 'XOXO']::text[], 1, '“Kind regards” or “Best regards” are polite endings suitable for most emails.', true, false, 7),
+  ('engelsk-9:formal-and-informal-writing', 'q09', 'flervalg', 'Which text is usually most informal?', array['A job application', 'A letter of complaint', 'An email to the principal', 'A text message to a friend']::text[], 3, 'Messages to friends are personal and informal.', true, false, 8),
+  ('engelsk-9:formal-and-informal-writing', 'q10', 'flervalg', 'Which sentence closes a formal letter well?', array['I look forward to hearing from you.', 'Hope u reply soon!!', 'That''s it.', 'Whatever.']::text[], 0, '“I look forward to hearing from you” is a standard, polite formal closing.', true, true, 9),
+  ('engelsk-9:formal-and-informal-writing', 'm01', 'sant-usant', 'Contractions like “can''t” are best avoided in formal letters.', array['Sant', 'Usant']::text[], 0, 'In formal writing we write the full forms: cannot, do not, I am.', false, true, 10),
+  ('engelsk-9:formal-and-informal-writing', 'm02', 'sant-usant', '“Yours faithfully” is used when you know the receiver''s name.', array['Sant', 'Usant']::text[], 1, 'In British English, “Yours faithfully” goes with “Dear Sir or Madam”, when you do not know the name.', false, true, 11),
+  ('engelsk-9:formal-and-informal-writing', 'm03', 'sant-usant', 'A blog post can be informal and personal.', array['Sant', 'Usant']::text[], 0, 'Many blog posts use a personal, informal style, but should still be clear.', false, true, 12),
+  ('engelsk-9:formal-and-informal-writing', 'm04', 'sant-usant', 'Slang words make a job application more professional.', array['Sant', 'Usant']::text[], 1, 'Slang is informal and does not belong in a job application.', false, true, 13),
+  ('engelsk-9:formal-and-informal-writing', 'm05', 'flervalg', 'Which phrase fits best in a letter of complaint?', array['This is totally lame!', 'I would be grateful if you could replace the product.', 'Fix it now or else!', 'Whatever, just refund it.']::text[], 1, 'A complaint should be polite but firm, and say clearly what you expect.', false, true, 14),
+  ('engelsk-9:formal-and-informal-writing', 'm06', 'flervalg', 'What should you write to a teacher whose name is Anna Brown?', array['Hey Anna!', 'Yo teacher,', 'Dear Ms Brown,', 'Dear Sir or Madam,']::text[], 2, 'When you know the name, use “Dear” + title + surname.', false, true, 15),
+  ('engelsk-9:formal-and-informal-writing', 'm07', 'flervalg', 'Which is an informal ending?', array['Take care!', 'Yours sincerely', 'Yours faithfully', 'Best regards']::text[], 0, '“Take care!” is friendly and informal.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('engelsk-9:formal-and-informal-writing', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Engelsk: The United States
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('engelsk-9:the-united-states', 'engelsk-9', 'the-united-states', 'The United States', 'How the USA is governed, key moments in American history, the civil rights movement, and diversity and ways of life in American society.', array[18, 17, 10]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('engelsk-9:the-united-states', '## A large and varied country
+
+The **United States of America** consists of **50 states** and the capital, **Washington, D.C.**, which is not part of any state. The country stretches from the Atlantic to the Pacific, and includes Alaska and Hawaii. With more than 300 million inhabitants, it is the third most populous country in the world. The biggest city is **New York**, and other major cities include Los Angeles, Chicago and Houston.
+
+## History in brief
+
+- Before Europeans arrived, the land was home to many **Native American** peoples.
+- From the 1600s, **British colonies** were founded along the east coast.
+- In **1776**, the thirteen colonies declared their independence from Britain in the **Declaration of Independence**, which says that “all men are created equal”.
+- The **Constitution** from 1787 still forms the basis of American government.
+- In the 1800s, the country expanded westwards, often at the expense of Native Americans.
+- The **Civil War** (1861–1865) was fought between the northern and southern states, largely over slavery. The North won, and slavery was abolished.
+
+## The civil rights movement
+
+Even after slavery ended, African Americans faced **segregation** and discrimination, especially in the South. In the 1950s and 1960s, the **civil rights movement** fought for equal rights through peaceful protests. **Rosa Parks** refused to give up her seat on a bus in 1955, and **Martin Luther King Jr.** gave his famous “I Have a Dream” speech in 1963. New laws in the 1960s banned discrimination, but questions about racism and equality are still debated today.
+
+## Government
+
+The USA is a **federal republic**. Power is divided between the **federal government** and the **states**, which make many of their own laws. At federal level, power is split into three branches that control each other – **checks and balances**:
+
+- **Congress** (the Senate and the House of Representatives) makes laws.
+- The **President** leads the government and the armed forces, and is elected every four years.
+- The **Supreme Court** decides whether laws follow the Constitution.
+
+American politics is dominated by two parties: the **Democrats** and the **Republicans**.
+
+## A diverse society
+
+The USA is often called a **nation of immigrants**. People have come from Europe, Africa (many against their will as enslaved people), Latin America and Asia. The idea of a **melting pot** describes cultures blending together, while the **salad bowl** describes cultures living side by side while keeping their identities. Spanish is widely spoken, and the country has great religious and cultural diversity.
+
+## The American Dream
+
+The **American Dream** is the idea that anyone can succeed through hard work, regardless of background. Many people still believe in it, while others argue that inequality makes it hard to achieve for many Americans.', '{"label":"The United States","children":[{"label":"Facts","children":[{"label":"50 states"},{"label":"Washington, D.C."},{"label":"Over 300 million people"}]},{"label":"History","children":[{"label":"Native Americans"},{"label":"1776 Independence"},{"label":"Civil War 1861–65"},{"label":"Civil rights movement"}]},{"label":"Government","children":[{"label":"Federal republic"},{"label":"Congress","note":"Laws"},{"label":"President","note":"4-year term"},{"label":"Supreme Court"}]},{"label":"Society","children":[{"label":"Nation of immigrants"},{"label":"Melting pot / salad bowl"},{"label":"Democrats and Republicans"}]},{"label":"Ideas","children":[{"label":"“All men are created equal”"},{"label":"The American Dream"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'engelsk-9:the-united-states';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('engelsk-9:the-united-states', '50 states', 'The USA consists of 50 states plus the capital, Washington, D.C.', 0),
+  ('engelsk-9:the-united-states', 'Washington, D.C.', 'The capital of the USA, not part of any state.', 1),
+  ('engelsk-9:the-united-states', 'Declaration of Independence', 'Declared the colonies'' independence from Britain in 1776.', 2),
+  ('engelsk-9:the-united-states', 'Constitution', 'The basic law of the USA from 1787.', 3),
+  ('engelsk-9:the-united-states', 'Civil War', 'War between the northern and southern states, 1861–1865, largely over slavery.', 4),
+  ('engelsk-9:the-united-states', 'Segregation', 'Separation of people by race, for example in schools and on buses.', 5),
+  ('engelsk-9:the-united-states', 'Civil rights movement', 'The struggle for equal rights for African Americans in the 1950s and 1960s.', 6),
+  ('engelsk-9:the-united-states', 'Rosa Parks', 'Refused to give up her bus seat in 1955, a key moment in the civil rights movement.', 7),
+  ('engelsk-9:the-united-states', 'Martin Luther King Jr.', 'Civil rights leader known for the “I Have a Dream” speech (1963).', 8),
+  ('engelsk-9:the-united-states', 'Federal republic', 'A country where power is shared between a central government and states.', 9),
+  ('engelsk-9:the-united-states', 'Checks and balances', 'The three branches of government control each other.', 10),
+  ('engelsk-9:the-united-states', 'Congress', 'The Senate and the House of Representatives, which make federal laws.', 11),
+  ('engelsk-9:the-united-states', 'Supreme Court', 'The highest court, which decides if laws follow the Constitution.', 12),
+  ('engelsk-9:the-united-states', 'Melting pot / salad bowl', 'Two images of diversity: cultures blending together, or living side by side.', 13),
+  ('engelsk-9:the-united-states', 'The American Dream', 'The idea that anyone can succeed through hard work.', 14);
+delete from public.quiz_sporsmal where tema_id = 'engelsk-9:the-united-states';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('engelsk-9:the-united-states', 'q01', 'flervalg', 'How many states does the USA have?', array['48', '52', '50', '13']::text[], 2, 'The USA has 50 states. The first thirteen were the original colonies.', true, true, 0),
+  ('engelsk-9:the-united-states', 'q02', 'flervalg', 'What happened in 1776?', array['The Civil War ended', 'The colonies declared independence from Britain', 'Slavery was abolished', 'The first president was elected']::text[], 1, 'The Declaration of Independence was adopted on 4 July 1776.', true, true, 1),
+  ('engelsk-9:the-united-states', 'q03', 'flervalg', 'What was the Civil War largely about?', array['Slavery', 'Independence from Britain', 'Oil', 'Taxes on tea']::text[], 0, 'The war between the North and the South (1861–1865) was largely about slavery.', true, true, 2),
+  ('engelsk-9:the-united-states', 'q04', 'flervalg', 'Who gave the famous “I Have a Dream” speech?', array['Abraham Lincoln', 'Rosa Parks', 'Barack Obama', 'Martin Luther King Jr.']::text[], 3, 'Martin Luther King Jr. gave the speech in Washington in 1963.', true, true, 3),
+  ('engelsk-9:the-united-states', 'q05', 'flervalg', 'Which body makes federal laws in the USA?', array['The Supreme Court', 'Congress', 'The President alone', 'The states']::text[], 1, 'Congress, consisting of the Senate and the House of Representatives, makes federal laws.', true, true, 4),
+  ('engelsk-9:the-united-states', 'q06', 'flervalg', 'What does “checks and balances” mean?', array['The three branches of government control each other', 'The president decides everything', 'A way of paying taxes', 'A type of bank account']::text[], 0, 'The system prevents any one branch from getting too much power.', true, true, 5),
+  ('engelsk-9:the-united-states', 'q07', 'flervalg', 'What was segregation?', array['A voting system', 'A type of school subject', 'Separation of people by race', 'A trade agreement']::text[], 2, 'Segregation meant separate schools, buses and public places for Black and white people, especially in the South.', true, true, 6),
+  ('engelsk-9:the-united-states', 'q08', 'flervalg', 'What does the “salad bowl” image describe?', array['American food', 'Cultures blending completely into one', 'A political party', 'Cultures living side by side while keeping their identities']::text[], 3, 'In a salad bowl the ingredients are mixed, but each keeps its own character.', true, false, 7),
+  ('engelsk-9:the-united-states', 'q09', 'flervalg', 'How often is the US President elected?', array['Every two years', 'Every four years', 'Every six years', 'For life']::text[], 1, 'Presidential elections are held every four years.', true, true, 8),
+  ('engelsk-9:the-united-states', 'q10', 'flervalg', 'What is the American Dream?', array['The idea that anyone can succeed through hard work', 'A famous film', 'The national anthem', 'A law from 1787']::text[], 0, 'The American Dream is about opportunity and success, though many debate how real it is for everyone.', true, false, 9),
+  ('engelsk-9:the-united-states', 'm01', 'sant-usant', 'Washington, D.C. is one of the 50 states.', array['Sant', 'Usant']::text[], 1, 'Washington, D.C. is a federal district and not part of any state.', false, true, 10),
+  ('engelsk-9:the-united-states', 'm02', 'sant-usant', 'Rosa Parks refused to give up her seat on a bus in 1955.', array['Sant', 'Usant']::text[], 0, 'Her protest led to the Montgomery bus boycott.', false, true, 11),
+  ('engelsk-9:the-united-states', 'm03', 'sant-usant', 'The states in the USA can make many of their own laws.', array['Sant', 'Usant']::text[], 0, 'In a federal system, states have their own laws on many issues.', false, true, 12),
+  ('engelsk-9:the-united-states', 'm04', 'sant-usant', 'The USA has many political parties with equal power.', array['Sant', 'Usant']::text[], 1, 'American politics is dominated by two parties: the Democrats and the Republicans.', false, true, 13),
+  ('engelsk-9:the-united-states', 'm05', 'flervalg', 'Which city is the biggest in the USA?', array['Washington, D.C.', 'Los Angeles', 'New York', 'Chicago']::text[], 2, 'New York is the largest city in the USA.', false, true, 14),
+  ('engelsk-9:the-united-states', 'm06', 'flervalg', 'What does the Supreme Court do?', array['Leads the army', 'Decides whether laws follow the Constitution', 'Elects the president', 'Collects taxes']::text[], 1, 'The Supreme Court is the highest court and interprets the Constitution.', false, true, 15),
+  ('engelsk-9:the-united-states', 'm07', 'flervalg', 'Who lived in North America before Europeans arrived?', array['Native American peoples', 'Nobody', 'The British', 'The Vikings only']::text[], 0, 'Many Native American peoples lived across the continent for thousands of years.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('engelsk-9:the-united-states', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Engelsk: Indigenous peoples
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('engelsk-9:indigenous-peoples', 'engelsk-9', 'indigenous-peoples', 'Indigenous peoples', 'Indigenous peoples in the English-speaking world and in Norway – colonisation, assimilation, the fight for rights, and reconciliation today.', array[17, 18]::int[], 5, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('engelsk-9:indigenous-peoples', '## Who are indigenous peoples?
+
+**Indigenous peoples** are descendants of the people who lived in an area before it was colonised or before today''s national borders were drawn. They often have their own languages, traditions and close ties to the land. Examples are **Native Americans** in the USA, **First Nations**, **Inuit** and **Métis** in Canada, **Aboriginal and Torres Strait Islander peoples** in Australia, the **Māori** in New Zealand, and the **Sámi** in Norway, Sweden, Finland and Russia.
+
+## Colonisation and its consequences
+
+When Europeans colonised North America, Australia and New Zealand, indigenous peoples lost much of their **land**. Many died from diseases brought by the settlers, and others were killed in wars. Treaties were often broken. Many were forced onto **reservations** or pushed away from their traditional areas.
+
+## Assimilation
+
+**Assimilation** means forcing a minority to give up its culture and adopt the culture of the majority. In **Canada**, many indigenous children were sent to **residential schools**, where they were forbidden to speak their own languages. In **Australia**, many Aboriginal children were taken from their families; they are called the **Stolen Generations**. The Australian government made a formal apology in **2008**.
+
+## The Sámi in Norway
+
+Norway also has a history of assimilation. From the 1800s until well into the 1900s, the policy of **Norwegianisation** (fornorskning) pressured the Sámi and the Kven people to give up their languages and culture. In schools, children were often not allowed to speak Sámi. Today, the Sámi have their own parliament, the **Sámediggi** (opened in 1989), and Sámi languages have official status. In 2023, a **Truth and Reconciliation Commission** presented a report on the injustice done by the Norwegian state.
+
+## Rights and revival
+
+Indigenous peoples have fought for their rights to land, language and self-determination. In **2007**, the United Nations adopted the **Declaration on the Rights of Indigenous Peoples**. In New Zealand, the **Treaty of Waitangi** (1840) between the British Crown and Māori chiefs is still central in debates about rights, and the Māori language has experienced a revival. Across the world, indigenous languages, art, music and traditional knowledge are gaining new attention.
+
+## Challenges today
+
+Many indigenous communities still face challenges like poorer health, lower income, discrimination and loss of language. Conflicts about land use, for example between reindeer herding and wind power or mining, show that questions of rights are still relevant. **Reconciliation** means recognising past injustice and working for a fairer future.', '{"label":"Indigenous peoples","children":[{"label":"Peoples","children":[{"label":"Native Americans","note":"USA"},{"label":"First Nations, Inuit, Métis","note":"Canada"},{"label":"Aboriginal peoples","note":"Australia"},{"label":"Māori","note":"New Zealand"},{"label":"Sámi","note":"Norway"}]},{"label":"History","children":[{"label":"Colonisation"},{"label":"Loss of land"},{"label":"Reservations"}]},{"label":"Assimilation","children":[{"label":"Residential schools"},{"label":"Stolen Generations"},{"label":"Norwegianisation"}]},{"label":"Rights","children":[{"label":"UN Declaration 2007"},{"label":"Treaty of Waitangi"},{"label":"Sámediggi 1989"}]},{"label":"Today","children":[{"label":"Reconciliation"},{"label":"Language revival"},{"label":"Land conflicts"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'engelsk-9:indigenous-peoples';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('engelsk-9:indigenous-peoples', 'Indigenous peoples', 'Descendants of the people who lived in an area before colonisation or before today''s borders.', 0),
+  ('engelsk-9:indigenous-peoples', 'First Nations', 'Indigenous peoples in Canada, alongside the Inuit and the Métis.', 1),
+  ('engelsk-9:indigenous-peoples', 'Aboriginal and Torres Strait Islander peoples', 'The indigenous peoples of Australia.', 2),
+  ('engelsk-9:indigenous-peoples', 'Māori', 'The indigenous people of New Zealand.', 3),
+  ('engelsk-9:indigenous-peoples', 'Sámi', 'The indigenous people of Norway, Sweden, Finland and Russia.', 4),
+  ('engelsk-9:indigenous-peoples', 'Colonisation', 'When a country takes control over another area and its people.', 5),
+  ('engelsk-9:indigenous-peoples', 'Reservation', 'An area set aside for Native Americans, often after they lost their land.', 6),
+  ('engelsk-9:indigenous-peoples', 'Assimilation', 'Forcing a minority to give up its culture and adopt the majority culture.', 7),
+  ('engelsk-9:indigenous-peoples', 'Residential schools', 'Schools in Canada where indigenous children were forbidden to use their own languages.', 8),
+  ('engelsk-9:indigenous-peoples', 'Stolen Generations', 'Aboriginal children taken from their families in Australia. Formal apology in 2008.', 9),
+  ('engelsk-9:indigenous-peoples', 'Norwegianisation', 'Norwegian policy that pressured the Sámi and Kven to give up language and culture.', 10),
+  ('engelsk-9:indigenous-peoples', 'Sámediggi', 'The Sámi Parliament in Norway, opened in 1989.', 11),
+  ('engelsk-9:indigenous-peoples', 'Treaty of Waitangi', 'Agreement from 1840 between the British Crown and Māori chiefs.', 12),
+  ('engelsk-9:indigenous-peoples', 'UN Declaration (2007)', 'The UN Declaration on the Rights of Indigenous Peoples.', 13),
+  ('engelsk-9:indigenous-peoples', 'Reconciliation', 'Recognising past injustice and working for a fairer future.', 14);
+delete from public.quiz_sporsmal where tema_id = 'engelsk-9:indigenous-peoples';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('engelsk-9:indigenous-peoples', 'q01', 'flervalg', 'What does “indigenous” mean?', array['Newly arrived', 'Descended from the original inhabitants of an area', 'Living in cities', 'Speaking English']::text[], 1, 'Indigenous peoples descend from those who lived in an area before colonisation or modern borders.', true, true, 0),
+  ('engelsk-9:indigenous-peoples', 'q02', 'flervalg', 'Who are the Māori?', array['The indigenous people of Australia', 'The indigenous people of Canada', 'The indigenous people of New Zealand', 'A people in Scotland']::text[], 2, 'The Māori are the indigenous people of New Zealand.', true, true, 1),
+  ('engelsk-9:indigenous-peoples', 'q03', 'flervalg', 'What is assimilation?', array['Forcing a minority to give up its culture and adopt the majority culture', 'Learning several languages', 'Moving to another country', 'Building new schools']::text[], 0, 'Assimilation policies tried to make indigenous peoples abandon their languages and traditions.', true, true, 2),
+  ('engelsk-9:indigenous-peoples', 'q04', 'flervalg', 'What are the “Stolen Generations”?', array['Soldiers in the Civil War', 'British colonists', 'Sámi reindeer herders', 'Aboriginal children taken from their families in Australia']::text[], 3, 'For decades, many Aboriginal children were removed from their families. The government apologised in 2008.', true, true, 3),
+  ('engelsk-9:indigenous-peoples', 'q05', 'flervalg', 'What was Norwegianisation?', array['A policy that pressured the Sámi and Kven to give up language and culture', 'A Norwegian sports event', 'A law about fishing', 'The Norwegian constitution']::text[], 0, 'Norwegianisation (fornorskning) lasted from the 1800s well into the 1900s.', true, true, 4),
+  ('engelsk-9:indigenous-peoples', 'q06', 'flervalg', 'When did the Sámi Parliament in Norway open?', array['1814', '1905', '1989', '2023']::text[], 2, 'The Sámediggi opened in 1989.', true, true, 5),
+  ('engelsk-9:indigenous-peoples', 'q07', 'flervalg', 'What were residential schools in Canada?', array['Holiday camps', 'Universities for indigenous leaders', 'Schools where indigenous children were forbidden to use their own languages', 'Schools only for adults']::text[], 2, 'The residential school system tried to separate children from their culture and language.', true, false, 6),
+  ('engelsk-9:indigenous-peoples', 'q08', 'flervalg', 'What did the UN adopt in 2007?', array['A ban on reservations', 'The Declaration on the Rights of Indigenous Peoples', 'A new flag', 'The Treaty of Waitangi']::text[], 1, 'The declaration sets out rights to land, culture, language and self-determination.', true, true, 7),
+  ('engelsk-9:indigenous-peoples', 'q09', 'flervalg', 'What is the Treaty of Waitangi?', array['A 1776 American document', 'A Canadian school law', 'A Sámi song', 'An 1840 agreement between the British Crown and Māori chiefs']::text[], 3, 'The treaty is still central to discussions about Māori rights in New Zealand.', true, false, 8),
+  ('engelsk-9:indigenous-peoples', 'q10', 'flervalg', 'What does reconciliation mean in this context?', array['Recognising past injustice and working for a fairer future', 'Forgetting history', 'Moving people to new areas', 'Building more roads']::text[], 0, 'Reconciliation involves truth, recognition and concrete steps to improve the situation.', true, true, 9),
+  ('engelsk-9:indigenous-peoples', 'm01', 'sant-usant', 'The Sámi live only in Norway.', array['Sant', 'Usant']::text[], 1, 'The Sámi live in Norway, Sweden, Finland and Russia.', false, true, 10),
+  ('engelsk-9:indigenous-peoples', 'm02', 'sant-usant', 'Norway has also had a policy of assimilation towards indigenous people.', array['Sant', 'Usant']::text[], 0, 'The Norwegianisation policy pressured the Sámi and Kven to give up their languages.', false, true, 11),
+  ('engelsk-9:indigenous-peoples', 'm03', 'sant-usant', 'Questions about indigenous land rights belong only to the past.', array['Sant', 'Usant']::text[], 1, 'Conflicts about land use, like wind power and reindeer herding, are still debated today.', false, true, 12),
+  ('engelsk-9:indigenous-peoples', 'm04', 'sant-usant', 'Many indigenous peoples died from diseases brought by European settlers.', array['Sant', 'Usant']::text[], 0, 'Diseases like smallpox had devastating effects on populations without immunity.', false, true, 13),
+  ('engelsk-9:indigenous-peoples', 'm05', 'flervalg', 'What did the Truth and Reconciliation Commission in Norway present in 2023?', array['A new flag', 'A report on injustice done to the Sámi and Kven/Norwegian Finns', 'A sports law', 'A new constitution']::text[], 1, 'The commission examined the consequences of Norwegianisation policy.', false, true, 14),
+  ('engelsk-9:indigenous-peoples', 'm06', 'flervalg', 'What is a reservation in the USA?', array['A hotel booking', 'A national park', 'An area set aside for Native Americans', 'A military base']::text[], 2, 'Many Native Americans were moved to reservations after losing their lands.', false, true, 15),
+  ('engelsk-9:indigenous-peoples', 'm07', 'flervalg', 'Which country made a formal apology to the Stolen Generations in 2008?', array['Australia', 'Canada', 'New Zealand', 'The USA']::text[], 0, 'The Australian government apologised in 2008.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('engelsk-9:indigenous-peoples', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Naturfag (9): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'naturfag-9' and slug not in ('evolusjon', 'biologisk-mangfold', 'energi', 'energi-og-miljo', 'drivhuseffekten-og-klima', 'sender-og-mottaker', 'programmering-i-naturfag');
+
+-- Naturfag: Evolusjon
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('naturfag-9:evolusjon', 'naturfag-9', 'evolusjon', 'Evolusjon', 'Hvordan Darwin og andre forskere kom fram til evolusjonsteorien, hvordan naturlig utvalg virker, og hvordan evolusjon forklarer det biologiske mangfoldet.', array[13, 5]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('naturfag-9:evolusjon', '## Hva er evolusjon?
+
+**Evolusjon** betyr at arter endrer seg gradvis over mange generasjoner. Alle organismer på jorda stammer fra felles forfedre, og det enorme **biologiske mangfoldet** vi ser i dag, har utviklet seg over flere milliarder år.
+
+## Veien til teorien
+
+Før 1800-tallet mente de fleste at artene var uforanderlige. Den franske forskeren **Jean-Baptiste Lamarck** foreslo tidlig at arter kunne endre seg, men han trodde at egenskaper man skaffer seg i løpet av livet, går i arv. Det har vist seg å være feil.
+
+Den britiske naturforskeren **Charles Darwin** reiste jorda rundt med skipet Beagle på 1830-tallet. På **Galápagosøyene** la han merke til at finker på ulike øyer hadde ulike nebb, tilpasset maten der. Etter mange års arbeid ga han i **1859** ut boka *Artenes opprinnelse*. **Alfred Russel Wallace** kom uavhengig fram til de samme ideene omtrent samtidig.
+
+## Naturlig utvalg
+
+Darwins forklaring kalles **naturlig utvalg**. Den bygger på noen enkle observasjoner:
+
+- Individer i en art er **ulike** (variasjon).
+- Mange egenskaper **arves** fra foreldrene.
+- Det fødes **flere** avkom enn det er mat og plass til, så det blir **konkurranse**.
+- Individer med egenskaper som passer godt til miljøet, overlever og får **flere avkom**.
+
+Over mange generasjoner blir de nyttige egenskapene vanligere. Arten blir **tilpasset** miljøet. Endres miljøet, kan andre egenskaper bli fordelaktige.
+
+## Arv og mutasjoner
+
+Darwin visste ikke hvordan egenskaper ble arvet. I dag vet vi at egenskapene styres av **gener** i **DNA**. Tilfeldige endringer i DNA kalles **mutasjoner**. De fleste er nøytrale eller skadelige, men noen få gir fordeler. Sammen med blandingen av gener ved kjønnet formering gir mutasjoner variasjonen som naturlig utvalg virker på.
+
+## Nye arter
+
+Når to grupper av en art blir skilt fra hverandre, for eksempel av hav eller fjell, utvikler de seg hver for seg. Etter lang tid kan de bli så ulike at de ikke lenger kan få felles avkom. Da har det oppstått en **ny art**.
+
+## Bevis for evolusjon
+
+- **Fossiler** viser at livet har endret seg over tid.
+- **Homologe organer**, som armen til mennesket, vingen til flaggermusen og luffen til hvalen, har samme grunnleggende benstruktur.
+- **DNA** viser at nært beslektede arter har mer likt arvestoff.
+- Vi kan se evolusjon skje i dag, for eksempel når bakterier blir **resistente** mot antibiotika.
+
+Evolusjonsteorien er en av de best underbygde teoriene i naturvitenskapen, og den er fortsatt et levende forskningsfelt.', '{"label":"Evolusjon","children":[{"label":"Historie","children":[{"label":"Lamarck","note":"Feil om arv"},{"label":"Darwin","note":"1859"},{"label":"Wallace"},{"label":"Galápagosfinker"}]},{"label":"Naturlig utvalg","children":[{"label":"Variasjon"},{"label":"Arv"},{"label":"Konkurranse"},{"label":"Tilpasning"}]},{"label":"Arv i dag","children":[{"label":"Gener og DNA"},{"label":"Mutasjoner"}]},{"label":"Nye arter","children":[{"label":"Isolasjon"},{"label":"Utvikling hver for seg"}]},{"label":"Bevis","children":[{"label":"Fossiler"},{"label":"Homologe organer"},{"label":"DNA-likhet"},{"label":"Antibiotikaresistens"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'naturfag-9:evolusjon';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('naturfag-9:evolusjon', 'Evolusjon', 'At arter endrer seg gradvis over mange generasjoner.', 0),
+  ('naturfag-9:evolusjon', 'Charles Darwin', 'Britisk naturforsker som forklarte evolusjon med naturlig utvalg. Ga ut Artenes opprinnelse i 1859.', 1),
+  ('naturfag-9:evolusjon', 'Alfred Russel Wallace', 'Kom uavhengig av Darwin fram til teorien om naturlig utvalg.', 2),
+  ('naturfag-9:evolusjon', 'Lamarck', 'Mente at egenskaper man skaffer seg i livet, arves. Det stemmer ikke.', 3),
+  ('naturfag-9:evolusjon', 'Galápagosfinkene', 'Finker med ulike nebb på ulike øyer, tilpasset ulik mat.', 4),
+  ('naturfag-9:evolusjon', 'Naturlig utvalg', 'Individer med gunstige egenskaper overlever og får flere avkom.', 5),
+  ('naturfag-9:evolusjon', 'Variasjon', 'At individer i en art er forskjellige.', 6),
+  ('naturfag-9:evolusjon', 'Tilpasning', 'En egenskap som gjør en organisme bedre egnet til miljøet.', 7),
+  ('naturfag-9:evolusjon', 'Gen', 'Et stykke DNA som styrer en egenskap.', 8),
+  ('naturfag-9:evolusjon', 'Mutasjon', 'En tilfeldig endring i DNA-et.', 9),
+  ('naturfag-9:evolusjon', 'Art', 'En gruppe organismer som kan få levedyktig avkom med hverandre.', 10),
+  ('naturfag-9:evolusjon', 'Artsdannelse', 'Nye arter oppstår når grupper blir skilt og utvikler seg hver for seg.', 11),
+  ('naturfag-9:evolusjon', 'Fossil', 'Rester eller avtrykk av organismer fra lenge siden, bevart i stein.', 12),
+  ('naturfag-9:evolusjon', 'Homologe organer', 'Organer med samme grunnstruktur hos ulike arter, som arm, vinge og luffe.', 13),
+  ('naturfag-9:evolusjon', 'Antibiotikaresistens', 'Bakterier som tåler antibiotika. Et eksempel på evolusjon i dag.', 14);
+delete from public.quiz_sporsmal where tema_id = 'naturfag-9:evolusjon';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('naturfag-9:evolusjon', 'q01', 'flervalg', 'Hva betyr evolusjon?', array['At et individ forandrer seg i løpet av livet', 'At arter endrer seg gradvis over mange generasjoner', 'At arter aldri endrer seg', 'At dyr lærer nye ting']::text[], 1, 'Evolusjon skjer i populasjoner over mange generasjoner, ikke hos enkeltindivider.', true, true, 0),
+  ('naturfag-9:evolusjon', 'q02', 'flervalg', 'Hvilken bok ga Darwin ut i 1859?', array['Artenes opprinnelse', 'Sult', 'Principia', 'Et dukkehjem']::text[], 0, 'I Artenes opprinnelse presenterte Darwin teorien om naturlig utvalg.', true, true, 1),
+  ('naturfag-9:evolusjon', 'q03', 'flervalg', 'Hva la Darwin merke til hos finkene på Galápagos?', array['At de var helt like', 'At de ikke kunne fly', 'At de hadde ulike nebb tilpasset ulik mat', 'At de levde i vann']::text[], 2, 'Nebbformene passet til maten på hver øy, noe som tydet på tilpasning.', true, true, 2),
+  ('naturfag-9:evolusjon', 'q04', 'flervalg', 'Hva er naturlig utvalg?', array['At mennesker velger ut dyr', 'At alle individer overlever', 'At de sterkeste alltid vinner slåsskamper', 'At individer med gunstige egenskaper overlever og får flere avkom']::text[], 3, 'Egenskapene som gir flest levedyktige avkom, blir vanligere over tid.', true, true, 3),
+  ('naturfag-9:evolusjon', 'q05', 'flervalg', 'Hva mente Lamarck som viste seg å være feil?', array['At arter kan endre seg', 'At egenskaper man skaffer seg i livet, går i arv', 'At fossiler finnes', 'At jorda er gammel']::text[], 1, 'En som trener muskler, får ikke barn med større muskler. Tillærte egenskaper arves ikke.', true, true, 4),
+  ('naturfag-9:evolusjon', 'q06', 'flervalg', 'Hva er en mutasjon?', array['En tilfeldig endring i DNA', 'En ny art', 'Et fossil', 'En type celle']::text[], 0, 'Mutasjoner gir ny variasjon som naturlig utvalg kan virke på.', true, true, 5),
+  ('naturfag-9:evolusjon', 'q07', 'flervalg', 'Hva er homologe organer?', array['Organer som har samme funksjon, men ulik bygning', 'Organer som bare finnes hos mennesker', 'Organer med samme grunnstruktur hos ulike arter', 'Organer som ikke lenger brukes']::text[], 2, 'Arm, vinge og luffe har samme benstruktur, noe som tyder på felles opphav.', true, true, 6),
+  ('naturfag-9:evolusjon', 'q08', 'flervalg', 'Hvordan kan en ny art oppstå?', array['Ved at et individ bestemmer seg', 'Over én natt', 'Ved at dyr lærer nye triks', 'Ved at grupper blir skilt og utvikler seg hver for seg over lang tid']::text[], 3, 'Isolasjon gjør at gruppene utvikler seg ulikt til de ikke lenger kan få felles avkom.', true, false, 7),
+  ('naturfag-9:evolusjon', 'q09', 'flervalg', 'Hvilket eksempel viser evolusjon i vår tid?', array['At barn blir høyere', 'At bakterier blir resistente mot antibiotika', 'At hunder lærer triks', 'At fjell eroderer']::text[], 1, 'Bakterier som tåler antibiotika, overlever og formerer seg, slik at resistensen sprer seg.', true, true, 8),
+  ('naturfag-9:evolusjon', 'q10', 'flervalg', 'Hvem kom uavhengig av Darwin fram til teorien om naturlig utvalg?', array['Alfred Russel Wallace', 'Isaac Newton', 'Gregor Mendel', 'Alfred Wegener']::text[], 0, 'Wallace sendte Darwin et manuskript med de samme ideene, og de presenterte arbeidene sine sammen i 1858.', true, false, 9),
+  ('naturfag-9:evolusjon', 'm01', 'sant-usant', 'Et enkelt individ kan utvikle seg til en ny art i løpet av livet sitt.', array['Sant', 'Usant']::text[], 1, 'Evolusjon skjer i populasjoner over mange generasjoner.', false, true, 10),
+  ('naturfag-9:evolusjon', 'm02', 'sant-usant', 'Darwin visste ikke hvordan egenskaper ble arvet.', array['Sant', 'Usant']::text[], 0, 'Genetikken var ukjent for Darwin. Kunnskap om gener og DNA kom senere.', false, true, 11),
+  ('naturfag-9:evolusjon', 'm03', 'sant-usant', 'De fleste mutasjoner gir store fordeler.', array['Sant', 'Usant']::text[], 1, 'De fleste mutasjoner er nøytrale eller skadelige. Bare noen få er gunstige.', false, true, 12),
+  ('naturfag-9:evolusjon', 'm04', 'sant-usant', 'Nært beslektede arter har mer likt DNA enn fjernt beslektede arter.', array['Sant', 'Usant']::text[], 0, 'DNA-sammenligning bekrefter slektskapet mellom arter.', false, true, 13),
+  ('naturfag-9:evolusjon', 'm05', 'flervalg', 'Hva kalles en egenskap som gjør en organisme bedre egnet til miljøet?', array['Mutasjon', 'Tilpasning', 'Fossil', 'Art']::text[], 1, 'En tilpasning øker sjansen for å overleve og få avkom.', false, true, 14),
+  ('naturfag-9:evolusjon', 'm06', 'flervalg', 'Hva er et fossil?', array['En levende organisme', 'En type stein uten liv', 'Rester eller avtrykk av organismer fra lenge siden', 'En mutasjon']::text[], 2, 'Fossiler viser hvordan livet på jorda har vært og endret seg.', false, true, 15),
+  ('naturfag-9:evolusjon', 'm07', 'flervalg', 'Hva gir variasjonen som naturlig utvalg virker på?', array['Mutasjoner og blanding av gener ved kjønnet formering', 'At dyr trener', 'Klimaet alene', 'Mat']::text[], 0, 'Nye genvarianter og nye kombinasjoner gir forskjeller mellom individer.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('naturfag-9:evolusjon', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Naturfag: Biologisk mangfold og naturressurser
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('naturfag-9:biologisk-mangfold', 'naturfag-9', 'biologisk-mangfold', 'Biologisk mangfold og naturressurser', 'Hva biologisk mangfold er, hvorfor det er truet, dilemmaer knyttet til bruk av naturen, og hvordan samisk tradisjonell kunnskap kan bidra til bærekraftig forvaltning.', array[16, 17]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('naturfag-9:biologisk-mangfold', '## Hva er biologisk mangfold?
+
+**Biologisk mangfold** (biodiversitet) er variasjonen av liv på jorda. Det omfatter tre nivåer:
+
+- **Mangfold av arter**: hvor mange ulike arter som finnes.
+- **Genetisk mangfold**: variasjonen innenfor hver art, som gjør at arten kan tilpasse seg endringer.
+- **Mangfold av økosystemer**: skog, myr, fjell, hav, elver og kulturlandskap.
+
+Naturen gir oss mat, rent vann, ren luft, byggematerialer, medisiner og opplevelser. Slike goder kalles **økosystemtjenester**. Insekter som **pollinerer** avlingene våre, og myrer som lagrer karbon og demper flom, er eksempler.
+
+## Trusler
+
+Forskere mener at arter nå forsvinner mye raskere enn det som er naturlig. De viktigste truslene er:
+
+- **Arealendringer**: skog, myr og strandsoner bygges ned til veier, hytter, boliger og industri. Dette regnes som den største trusselen i Norge.
+- **Overbeskatning**: for mye fiske, jakt eller hogst.
+- **Forurensning**, for eksempel plast og miljøgifter.
+- **Klimaendringer**, som endrer levevilkårene for mange arter.
+- **Fremmede arter** som fortrenger stedegne arter.
+
+Arter som står i fare for å dø ut, føres på **Rødlista**. I Norge lager Artsdatabanken denne oversikten.
+
+## Dilemmaer
+
+Bruk av naturen innebærer ofte **dilemmaer**, der ulike gode hensyn står mot hverandre. Vindkraft gir fornybar energi, men kan ta store naturområder og forstyrre fugler og reinbeite. Gruvedrift gir mineraler til teknologi og arbeidsplasser, men kan forurense fjorder. Hytter gir fritid og inntekter til bygder, men bygger ned natur. Når du drøfter slike saker, bør du få fram argumenter for og mot, og tenke på både mennesker, natur og framtidige generasjoner.
+
+## Samisk tradisjonell kunnskap
+
+Samene har levd i nært samspill med naturen i nordområdene i tusenvis av år, med **reindrift**, fiske, jakt og sanking. Gjennom generasjoner har de utviklet **tradisjonell kunnskap** om vær, snø, beite, dyrs atferd og årstidenes vekslinger. Samisk har for eksempel svært mange ord for ulike typer snø og snøforhold, som er viktig for å vurdere beite og ferdsel.
+
+Et viktig prinsipp i tradisjonell samisk bruk av naturen er å **ikke ta mer enn naturen tåler**, slik at ressursene er der også for kommende generasjoner. Denne kunnskapen kan utfylle naturvitenskapelige målinger, for eksempel når det gjelder endringer i klima og beiteforhold, og kan bidra til en mer **bærekraftig forvaltning**.
+
+## Bærekraftig forvaltning
+
+**Bærekraftig** bruk betyr å dekke dagens behov uten å ødelegge mulighetene for framtidige generasjoner. Verneområder, fiskekvoter, restaurering av natur og å bygge i allerede utbygde områder er eksempler på tiltak.', '{"label":"Biologisk mangfold","children":[{"label":"Nivåer","children":[{"label":"Arter"},{"label":"Genetisk variasjon"},{"label":"Økosystemer"}]},{"label":"Verdi","children":[{"label":"Økosystemtjenester"},{"label":"Pollinering"},{"label":"Karbonlagring i myr"}]},{"label":"Trusler","children":[{"label":"Arealendringer","note":"Størst i Norge"},{"label":"Overbeskatning"},{"label":"Forurensning og klima"},{"label":"Fremmede arter"}]},{"label":"Dilemmaer","children":[{"label":"Vindkraft"},{"label":"Gruvedrift"},{"label":"Hytteutbygging"}]},{"label":"Samisk kunnskap","children":[{"label":"Reindrift"},{"label":"Kunnskap om snø og beite"},{"label":"Ta ikke mer enn naturen tåler"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'naturfag-9:biologisk-mangfold';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('naturfag-9:biologisk-mangfold', 'Biologisk mangfold', 'Variasjonen av liv: arter, genetisk variasjon og økosystemer.', 0),
+  ('naturfag-9:biologisk-mangfold', 'Genetisk mangfold', 'Variasjonen innenfor en art, som gjør at arten kan tilpasse seg endringer.', 1),
+  ('naturfag-9:biologisk-mangfold', 'Økosystemtjenester', 'Goder naturen gir oss, som mat, rent vann, pollinering og karbonlagring.', 2),
+  ('naturfag-9:biologisk-mangfold', 'Pollinering', 'Overføring av pollen, ofte av insekter, som gjør at planter får frukt og frø.', 3),
+  ('naturfag-9:biologisk-mangfold', 'Arealendringer', 'At natur bygges ned eller endres. Den største trusselen mot naturmangfoldet i Norge.', 4),
+  ('naturfag-9:biologisk-mangfold', 'Overbeskatning', 'Å høste mer av en ressurs enn den tåler, som overfiske.', 5),
+  ('naturfag-9:biologisk-mangfold', 'Rødlista', 'Oversikt over arter som står i fare for å dø ut. Lages av Artsdatabanken i Norge.', 6),
+  ('naturfag-9:biologisk-mangfold', 'Fremmed art', 'En art som er spredt av mennesker til områder der den ikke hører hjemme.', 7),
+  ('naturfag-9:biologisk-mangfold', 'Dilemma', 'En situasjon der ulike gode hensyn står mot hverandre.', 8),
+  ('naturfag-9:biologisk-mangfold', 'Myr', 'Våtmark som lagrer mye karbon og demper flom.', 9),
+  ('naturfag-9:biologisk-mangfold', 'Reindrift', 'Samisk næring med tamrein som flyttes mellom årstidsbeiter.', 10),
+  ('naturfag-9:biologisk-mangfold', 'Tradisjonell kunnskap', 'Kunnskap om naturen utviklet og overlevert gjennom generasjoner.', 11),
+  ('naturfag-9:biologisk-mangfold', 'Ikke ta mer enn naturen tåler', 'Prinsipp i tradisjonell samisk naturbruk.', 12),
+  ('naturfag-9:biologisk-mangfold', 'Bærekraftig forvaltning', 'Å bruke naturen slik at også framtidige generasjoner kan dekke sine behov.', 13),
+  ('naturfag-9:biologisk-mangfold', 'Verneområde', 'Område der naturen er beskyttet mot inngrep, som nasjonalparker.', 14);
+delete from public.quiz_sporsmal where tema_id = 'naturfag-9:biologisk-mangfold';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('naturfag-9:biologisk-mangfold', 'q01', 'flervalg', 'Hvilke tre nivåer omfatter biologisk mangfold?', array['Planter, dyr og sopp', 'Arter, genetisk variasjon og økosystemer', 'Land, luft og vann', 'Fjell, skog og hav']::text[], 1, 'Biologisk mangfold handler om artsmangfold, genetisk mangfold og mangfold av økosystemer.', true, true, 0),
+  ('naturfag-9:biologisk-mangfold', 'q02', 'flervalg', 'Hva regnes som den største trusselen mot naturmangfoldet i Norge?', array['Vulkanutbrudd', 'Meteorer', 'Arealendringer', 'For mye regn']::text[], 2, 'Nedbygging av natur til veier, hytter og industri fjerner leveområder for mange arter.', true, true, 1),
+  ('naturfag-9:biologisk-mangfold', 'q03', 'flervalg', 'Hva er en økosystemtjeneste?', array['Et gode naturen gir oss, som pollinering', 'En offentlig etat', 'En type skog', 'En turistbedrift']::text[], 0, 'Pollinering, rent vann og karbonlagring er eksempler på tjenester naturen gir.', true, true, 2),
+  ('naturfag-9:biologisk-mangfold', 'q04', 'flervalg', 'Hva er Rødlista?', array['En liste over giftige planter', 'En liste over fremmede arter', 'En liste over nasjonalparker', 'En oversikt over arter som står i fare for å dø ut']::text[], 3, 'I Norge lager Artsdatabanken Rødlista.', true, true, 3),
+  ('naturfag-9:biologisk-mangfold', 'q05', 'flervalg', 'Hvorfor er genetisk mangfold viktig?', array['Det gjør artene større', 'Det gjør at arten bedre kan tilpasse seg endringer', 'Det gir flere fargerike dyr', 'Det har ingen betydning']::text[], 1, 'Med stor variasjon er det større sjanse for at noen individer tåler nye forhold.', true, true, 4),
+  ('naturfag-9:biologisk-mangfold', 'q06', 'flervalg', 'Hvilket er et dilemma knyttet til vindkraft?', array['Den gir fornybar energi, men kan ta store naturområder', 'Den forurenser med CO₂', 'Den virker bare om natta', 'Den er ulovlig']::text[], 0, 'Fornybar energi og naturvern er begge gode hensyn som kan stå mot hverandre.', true, true, 5),
+  ('naturfag-9:biologisk-mangfold', 'q07', 'flervalg', 'Hvilket prinsipp står sentralt i tradisjonell samisk naturbruk?', array['Å ta mest mulig så raskt som mulig', 'Å bare bruke maskiner', 'Å ikke ta mer enn naturen tåler', 'Å unngå naturen']::text[], 2, 'Ressursene skal være der også for kommende generasjoner.', true, true, 6),
+  ('naturfag-9:biologisk-mangfold', 'q08', 'flervalg', 'Hvordan kan samisk tradisjonell kunnskap bidra i dag?', array['Den erstatter all forskning', 'Den er ikke relevant', 'Den gjelder bare fortiden', 'Den kan utfylle forskning om for eksempel klima- og beiteendringer']::text[], 3, 'Erfaringsbasert kunnskap om snø, beite og vær gir verdifull informasjon om endringer i naturen.', true, true, 7),
+  ('naturfag-9:biologisk-mangfold', 'q09', 'flervalg', 'Hva betyr overbeskatning?', array['For høye skatter', 'Å høste mer av en ressurs enn den tåler', 'Å verne for mye natur', 'Å plante for mange trær']::text[], 1, 'Overfiske er et eksempel: bestanden rekker ikke å fornye seg.', true, false, 8),
+  ('naturfag-9:biologisk-mangfold', 'q10', 'flervalg', 'Hvorfor er myrer viktige?', array['De lagrer mye karbon og demper flom', 'De er gode byggetomter', 'De har ingen arter', 'De gir mye olje']::text[], 0, 'Myrer er viktige karbonlagre og holder på vann. Når de dreneres, slippes karbon ut.', true, false, 9),
+  ('naturfag-9:biologisk-mangfold', 'm01', 'sant-usant', 'Arter forsvinner nå raskere enn det som er naturlig.', array['Sant', 'Usant']::text[], 0, 'Forskere mener menneskelig påvirkning har økt utryddelsestakten kraftig.', false, true, 10),
+  ('naturfag-9:biologisk-mangfold', 'm02', 'sant-usant', 'Biologisk mangfold handler bare om hvor mange dyrearter som finnes.', array['Sant', 'Usant']::text[], 1, 'Det omfatter også planter, sopp, bakterier, genetisk variasjon og økosystemer.', false, true, 11),
+  ('naturfag-9:biologisk-mangfold', 'm03', 'sant-usant', 'Et dilemma er en situasjon der ulike gode hensyn står mot hverandre.', array['Sant', 'Usant']::text[], 0, 'Derfor finnes det sjelden ett enkelt, riktig svar.', false, true, 12),
+  ('naturfag-9:biologisk-mangfold', 'm04', 'sant-usant', 'Tradisjonell kunnskap er alltid ubrukelig i moderne forvaltning.', array['Sant', 'Usant']::text[], 1, 'Tradisjonell kunnskap kan utfylle naturvitenskapelige målinger.', false, true, 13),
+  ('naturfag-9:biologisk-mangfold', 'm05', 'flervalg', 'Hva er et tiltak for bærekraftig forvaltning av fisk?', array['Fiskekvoter', 'Mer fiske', 'Dumping av avfall', 'Å tørke ut elver']::text[], 0, 'Kvoter begrenser fangsten slik at bestandene kan fornye seg.', false, true, 14),
+  ('naturfag-9:biologisk-mangfold', 'm06', 'flervalg', 'Hvilken organisasjon lager Rødlista i Norge?', array['NRK', 'Artsdatabanken', 'Stortinget', 'Statens vegvesen']::text[], 1, 'Artsdatabanken vurderer risikoen for at arter dør ut.', false, true, 15),
+  ('naturfag-9:biologisk-mangfold', 'm07', 'flervalg', 'Hva betyr bærekraftig bruk av naturen?', array['Å bruke opp ressursene raskt', 'Å aldri bruke naturen', 'Å dekke dagens behov uten å ødelegge for framtidige generasjoner', 'Å bare bygge i naturen']::text[], 2, 'Bærekraft handler om å tenke langsiktig.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('naturfag-9:biologisk-mangfold', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Naturfag: Energi: former, bevaring og kvalitet
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('naturfag-9:energi', 'naturfag-9', 'energi', 'Energi: former, bevaring og kvalitet', 'Ulike energiformer, loven om energibevaring, energikvalitet og virkningsgrad, og hvordan energi omdannes, transporteres og lagres.', array[11]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('naturfag-9:energi', '## Hva er energi?
+
+**Energi** er evnen til å utføre arbeid eller skape endring – å flytte noe, varme noe opp eller få noe til å lyse. Energi måles i **joule** (J). Til strøm bruker vi ofte **kilowattimer** (kWh), der 1 kWh = 3,6 millioner joule. **Effekt** er hvor mye energi som omdannes per sekund, og måles i **watt** (W). En ovn på 1000 W som står på i én time, bruker 1 kWh.
+
+## Energiformer
+
+- **Bevegelsesenergi** (kinetisk energi): energien et legeme har fordi det beveger seg.
+- **Stillingsenergi** (potensiell energi): energi lagret fordi noe er høyt oppe, som vann i et fjellmagasin.
+- **Kjemisk energi**: energi lagret i stoffer, som mat, ved og bensin.
+- **Elektrisk energi**: energien i elektrisk strøm.
+- **Varmeenergi** (termisk energi): partiklenes bevegelse i et stoff.
+- **Strålingsenergi**: energi i lys og annen stråling, som fra sola.
+- **Kjerneenergi**: energi lagret i atomkjerner.
+
+## Energibevaring
+
+En av de viktigste lovene i naturvitenskapen er **loven om energibevaring**: Energi kan ikke skapes eller forsvinne, bare **omdannes** fra én form til en annen. I et vannkraftverk blir stillingsenergien i vannet til bevegelsesenergi når vannet faller, og turbinen og generatoren gjør den om til elektrisk energi. Når vi bruker strømmen, blir den til lys, bevegelse og varme.
+
+## Energikvalitet
+
+Selv om energien ikke forsvinner, blir den mindre **nyttig** for hver omdanning. Elektrisk energi har **høy kvalitet**, fordi den lett kan gjøres om til mange andre former. Varme ved lav temperatur har **lav kvalitet**; den sprer seg utover og er vanskelig å bruke til noe. Når vi sier at vi «bruker» energi, mener vi egentlig at vi gjør energi med høy kvalitet om til energi med lav kvalitet.
+
+## Virkningsgrad
+
+**Virkningsgraden** sier hvor stor del av den tilførte energien som blir til nyttig energi:
+
+virkningsgrad = nyttig energi / tilført energi
+
+En LED-pære har høy virkningsgrad, fordi det meste blir lys. En gammeldags glødepære har lav virkningsgrad, fordi det meste blir varme. Vannkraftverk kan ha virkningsgrad på rundt 90 %, mens en bensinmotor bare utnytter rundt en tredel av energien.
+
+## Transport og lagring
+
+Elektrisk energi transporteres i **strømnettet** over lange avstander. Energi kan **lagres** som stillingsenergi i vannmagasiner, som kjemisk energi i **batterier** og drivstoff, og som varme i varmtvannstanker. Lagring blir stadig viktigere, fordi sol- og vindkraft varierer med vær og tid på døgnet.', '{"label":"Energi","children":[{"label":"Enheter","children":[{"label":"Joule (J)"},{"label":"kWh","note":"= 3,6 MJ"},{"label":"Effekt i watt"}]},{"label":"Former","children":[{"label":"Bevegelse og stilling"},{"label":"Kjemisk"},{"label":"Elektrisk"},{"label":"Varme og stråling"}]},{"label":"Bevaring","children":[{"label":"Kan ikke skapes eller forsvinne"},{"label":"Omdannes","note":"Vannkraftverk"}]},{"label":"Kvalitet","children":[{"label":"Høy: elektrisk"},{"label":"Lav: lunken varme"},{"label":"Virkningsgrad","note":"Nyttig / tilført"}]},{"label":"Transport og lagring","children":[{"label":"Strømnett"},{"label":"Batterier"},{"label":"Vannmagasiner"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'naturfag-9:energi';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('naturfag-9:energi', 'Energi', 'Evnen til å utføre arbeid eller skape endring. Måles i joule (J).', 0),
+  ('naturfag-9:energi', 'Kilowattime (kWh)', 'Enhet for energi. 1 kWh = 3,6 millioner joule.', 1),
+  ('naturfag-9:energi', 'Effekt', 'Energi omdannet per sekund. Måles i watt (W).', 2),
+  ('naturfag-9:energi', 'Bevegelsesenergi', 'Kinetisk energi – energien et legeme har fordi det beveger seg.', 3),
+  ('naturfag-9:energi', 'Stillingsenergi', 'Potensiell energi – energi lagret fordi noe er høyt oppe.', 4),
+  ('naturfag-9:energi', 'Kjemisk energi', 'Energi lagret i stoffer, som mat, ved og drivstoff.', 5),
+  ('naturfag-9:energi', 'Strålingsenergi', 'Energi i lys og annen stråling, som fra sola.', 6),
+  ('naturfag-9:energi', 'Loven om energibevaring', 'Energi kan ikke skapes eller forsvinne, bare omdannes.', 7),
+  ('naturfag-9:energi', 'Energiomdanning i vannkraftverk', 'Stillingsenergi → bevegelsesenergi → elektrisk energi.', 8),
+  ('naturfag-9:energi', 'Energikvalitet', 'Hvor nyttig energien er. Elektrisk energi har høy, lunken varme lav kvalitet.', 9),
+  ('naturfag-9:energi', 'Virkningsgrad', 'Nyttig energi delt på tilført energi.', 10),
+  ('naturfag-9:energi', 'LED-pære', 'Har høy virkningsgrad fordi det meste av energien blir lys.', 11),
+  ('naturfag-9:energi', 'Glødepære', 'Har lav virkningsgrad fordi det meste blir varme.', 12),
+  ('naturfag-9:energi', 'Energilagring', 'Vannmagasiner, batterier, drivstoff og varmtvannstanker.', 13),
+  ('naturfag-9:energi', 'Å «bruke» energi', 'Å gjøre energi med høy kvalitet om til energi med lav kvalitet.', 14);
+delete from public.quiz_sporsmal where tema_id = 'naturfag-9:energi';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('naturfag-9:energi', 'q01', 'flervalg', 'Hva sier loven om energibevaring?', array['Energi kan skapes av ingenting', 'Energi kan ikke skapes eller forsvinne, bare omdannes', 'Energi forsvinner når vi bruker den', 'Energi finnes bare i strøm']::text[], 1, 'Den totale mengden energi er konstant. Den bare skifter form.', true, true, 0),
+  ('naturfag-9:energi', 'q02', 'flervalg', 'Hvilken energiform har vannet i et høyt fjellmagasin?', array['Bevegelsesenergi', 'Kjemisk energi', 'Stillingsenergi', 'Strålingsenergi']::text[], 2, 'Vannet har stillingsenergi, eller potensiell energi, fordi det ligger høyt.', true, true, 1),
+  ('naturfag-9:energi', 'q03', 'flervalg', 'Hvilken energiform har høyest kvalitet?', array['Elektrisk energi', 'Lunkent vann', 'Varme i lufta i et rom', 'Varme fra en motor som er avkjølt']::text[], 0, 'Elektrisk energi kan lett gjøres om til mange andre former og har derfor høy kvalitet.', true, true, 2),
+  ('naturfag-9:energi', 'q04', 'flervalg', 'En lyspære får 100 J og gir 20 J lys. Hva er virkningsgraden?', array['80 %', '5 %', '100 %', '20 %']::text[], 3, 'Virkningsgrad = nyttig / tilført = 20 / 100 = 0,20 = 20 %.', true, true, 3),
+  ('naturfag-9:energi', 'q05', 'flervalg', 'Hva blir resten av energien i en glødepære til?', array['Den forsvinner', 'Varme', 'Kjemisk energi', 'Stillingsenergi']::text[], 1, 'Energien forsvinner ikke. Det meste blir til varme med lav kvalitet.', true, true, 4),
+  ('naturfag-9:energi', 'q06', 'flervalg', 'En ovn på 2000 W står på i 3 timer. Hvor mye energi bruker den?', array['6 kWh', '2 kWh', '600 kWh', '0,6 kWh']::text[], 0, '2000 W = 2 kW. 2 kW · 3 h = 6 kWh.', true, true, 5),
+  ('naturfag-9:energi', 'q07', 'flervalg', 'Hvilken energiomdanning skjer i et vannkraftverk?', array['Kjemisk → elektrisk', 'Strålingsenergi → varme', 'Stillingsenergi → bevegelsesenergi → elektrisk energi', 'Elektrisk → stillingsenergi']::text[], 2, 'Fallende vann driver turbinen, og generatoren lager strøm.', true, true, 6),
+  ('naturfag-9:energi', 'q08', 'flervalg', 'Hva måles effekt i?', array['Joule', 'Kilowattimer', 'Newton', 'Watt']::text[], 3, 'Effekt er energi per tid og måles i watt. 1 W = 1 J per sekund.', true, true, 7),
+  ('naturfag-9:energi', 'q09', 'flervalg', 'Hvorfor blir energilagring viktigere med mer sol- og vindkraft?', array['Fordi sol og vind varierer med vær og tid', 'Fordi sol og vind gir for mye kjemisk energi', 'Fordi batterier er gratis', 'Fordi sol og vind ikke gir strøm']::text[], 0, 'Energien må kunne lagres fra perioder med mye produksjon til perioder med lite.', true, false, 8),
+  ('naturfag-9:energi', 'q10', 'flervalg', 'Hvilken energiform er lagret i mat?', array['Stillingsenergi', 'Kjemisk energi', 'Strålingsenergi', 'Kjerneenergi']::text[], 1, 'Maten inneholder kjemisk energi som kroppen frigjør ved celleånding.', true, false, 9),
+  ('naturfag-9:energi', 'm01', 'sant-usant', 'Energi forsvinner når en bil bremser.', array['Sant', 'Usant']::text[], 1, 'Bevegelsesenergien blir til varme i bremsene. Den forsvinner ikke.', false, true, 10),
+  ('naturfag-9:energi', 'm02', 'sant-usant', 'Varme ved lav temperatur har lav energikvalitet.', array['Sant', 'Usant']::text[], 0, 'Slik varme er spredt og vanskelig å gjøre om til noe nyttig.', false, true, 11),
+  ('naturfag-9:energi', 'm03', 'sant-usant', 'En LED-pære har høyere virkningsgrad enn en glødepære.', array['Sant', 'Usant']::text[], 0, 'LED-pæra gjør mer av strømmen om til lys og mindre til varme.', false, true, 12),
+  ('naturfag-9:energi', 'm04', 'sant-usant', '1 kWh er det samme som 1 joule.', array['Sant', 'Usant']::text[], 1, '1 kWh = 3,6 millioner joule.', false, true, 13),
+  ('naturfag-9:energi', 'm05', 'flervalg', 'Hvilken energiform har en syklist i fart?', array['Kjerneenergi', 'Stillingsenergi', 'Bevegelsesenergi', 'Strålingsenergi']::text[], 2, 'Alt som beveger seg, har bevegelsesenergi (kinetisk energi).', false, true, 14),
+  ('naturfag-9:energi', 'm06', 'flervalg', 'Hvor lagres energi i et batteri?', array['Som kjemisk energi', 'Som stillingsenergi', 'Som lys', 'Som lyd']::text[], 0, 'Batterier lagrer kjemisk energi som omdannes til elektrisk energi.', false, true, 15),
+  ('naturfag-9:energi', 'm07', 'flervalg', 'Hva er virkningsgraden hvis 900 J av 1000 J blir nyttig energi?', array['10 %', '90 %', '9 %', '100 %']::text[], 1, '900 / 1000 = 0,90 = 90 %.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('naturfag-9:energi', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Naturfag: Energiproduksjon og miljø
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('naturfag-9:energi-og-miljo', 'naturfag-9', 'energi-og-miljo', 'Energiproduksjon og miljø', 'Fornybare og ikke-fornybare energikilder, hvordan de påvirker miljøet lokalt og globalt, og hvordan vi kan bruke energi smartere.', array[12, 11]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('naturfag-9:energi-og-miljo', '## Energikilder
+
+Vi deler energikildene i to grupper:
+
+- **Ikke-fornybare** energikilder brukes opp og fornyes ikke i menneskelig tidsperspektiv: **kull**, **olje**, **naturgass** og **uran** (kjernekraft).
+- **Fornybare** energikilder fornyes hele tiden: **vannkraft**, **vindkraft**, **solenergi**, **bioenergi**, **bølge- og tidevannskraft** og **jordvarme**.
+
+Mesteparten av energien i verden kommer fortsatt fra fossile brensler. I Norge kommer derimot nesten all strømmen fra **vannkraft**, supplert med en økende andel vindkraft.
+
+## Globale miljøvirkninger
+
+Når fossile brensler brennes, slippes **karbondioksid** (CO₂) ut. CO₂ er en **klimagass** som forsterker drivhuseffekten og bidrar til **global oppvarming**. Forbrenning kan også gi **luftforurensning** med sot og partikler som skader helsen, og **sur nedbør** fra svovel- og nitrogenforbindelser.
+
+## Lokale miljøvirkninger
+
+Også fornybar energi har ulemper, særlig lokalt:
+
+- **Vannkraft** krever dammer og regulerte elver. Det endrer landskapet og kan skade fisk, som laks.
+- **Vindkraft** gir støy og synlige turbiner, kan beslaglegge store naturområder, forstyrre reinbeite og skade fugler.
+- **Solcelleparker** tar mye areal, og produksjonen av solceller krever energi og mineraler.
+- **Bioenergi** kan føre til hogst av skog hvis den ikke drives bærekraftig.
+- **Kjernekraft** gir lite CO₂, men gir radioaktivt avfall som må lagres trygt i svært lang tid.
+
+Det finnes altså ingen energikilde helt uten miljøkostnader. Valgene handler om å veie fordeler og ulemper opp mot hverandre.
+
+## Energisparing og energieffektivisering
+
+Den reneste energien er den vi ikke bruker. **Energieffektivisering** betyr å få samme nytte med mindre energi, for eksempel:
+
+- bedre isolerte hus,
+- **varmepumper**, som henter varme fra luft, jord eller vann,
+- LED-lys i stedet for glødepærer,
+- elbiler, som har høyere virkningsgrad enn bensinbiler,
+- kollektivtransport, sykkel og gange.
+
+## Framtidas energisystem
+
+For å redusere klimagassutslippene må verden gå over fra fossile til fornybare energikilder. Det krever mer strøm fra sol og vind, bedre **energilagring**, smartere strømnett og nye løsninger som **hydrogen** for tungtransport og industri. Samtidig må vi ta hensyn til naturen, slik at klimatiltak ikke går på bekostning av det biologiske mangfoldet.', '{"label":"Energi og miljø","children":[{"label":"Ikke-fornybar","children":[{"label":"Kull, olje, gass"},{"label":"Uran"}]},{"label":"Fornybar","children":[{"label":"Vannkraft","note":"Norge"},{"label":"Vind og sol"},{"label":"Bioenergi"}]},{"label":"Globale virkninger","children":[{"label":"CO₂ og oppvarming"},{"label":"Luftforurensning"},{"label":"Sur nedbør"}]},{"label":"Lokale virkninger","children":[{"label":"Regulerte elver"},{"label":"Arealbruk og støy"},{"label":"Radioaktivt avfall"}]},{"label":"Løsninger","children":[{"label":"Energieffektivisering"},{"label":"Varmepumper og LED"},{"label":"Lagring og hydrogen"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'naturfag-9:energi-og-miljo';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('naturfag-9:energi-og-miljo', 'Ikke-fornybar energikilde', 'Brukes opp og fornyes ikke i menneskelig tidsperspektiv: kull, olje, gass, uran.', 0),
+  ('naturfag-9:energi-og-miljo', 'Fornybar energikilde', 'Fornyes hele tiden: vann, vind, sol, bioenergi, bølger og jordvarme.', 1),
+  ('naturfag-9:energi-og-miljo', 'Fossile brensler', 'Kull, olje og gass. Gir CO₂-utslipp når de brennes.', 2),
+  ('naturfag-9:energi-og-miljo', 'Vannkraft', 'Gir nesten all strømmen i Norge. Krever dammer og regulerte elver.', 3),
+  ('naturfag-9:energi-og-miljo', 'Klimagass', 'Gass som forsterker drivhuseffekten, som CO₂ og metan.', 4),
+  ('naturfag-9:energi-og-miljo', 'Global oppvarming', 'Økningen i jordas gjennomsnittstemperatur, forsterket av klimagassutslipp.', 5),
+  ('naturfag-9:energi-og-miljo', 'Sur nedbør', 'Nedbør gjort sur av svovel- og nitrogenforbindelser fra forbrenning.', 6),
+  ('naturfag-9:energi-og-miljo', 'Vindkraft – ulemper', 'Støy, synlige turbiner, arealbruk, fugler og reinbeite.', 7),
+  ('naturfag-9:energi-og-miljo', 'Kjernekraft', 'Gir lite CO₂, men radioaktivt avfall som må lagres i svært lang tid.', 8),
+  ('naturfag-9:energi-og-miljo', 'Bioenergi', 'Energi fra biologisk materiale, som ved og biogass.', 9),
+  ('naturfag-9:energi-og-miljo', 'Energieffektivisering', 'Å få samme nytte med mindre energi.', 10),
+  ('naturfag-9:energi-og-miljo', 'Varmepumpe', 'Henter varme fra luft, jord eller vann og gir mer varme enn strømmen den bruker.', 11),
+  ('naturfag-9:energi-og-miljo', 'Elbil', 'Har høyere virkningsgrad enn bensinbil og ingen utslipp fra eksosrør.', 12),
+  ('naturfag-9:energi-og-miljo', 'Hydrogen', 'Mulig energibærer for tungtransport og industri i framtida.', 13),
+  ('naturfag-9:energi-og-miljo', 'Ingen energikilde uten kostnad', 'Alle energikilder har ulemper for miljøet, lokalt eller globalt.', 14);
+delete from public.quiz_sporsmal where tema_id = 'naturfag-9:energi-og-miljo';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('naturfag-9:energi-og-miljo', 'q01', 'flervalg', 'Hvilken energikilde er fornybar?', array['Kull', 'Naturgass', 'Vindkraft', 'Olje']::text[], 2, 'Vinden fornyes hele tiden. Kull, olje og gass er fossile og brukes opp.', true, true, 0),
+  ('naturfag-9:energi-og-miljo', 'q02', 'flervalg', 'Hvor kommer det meste av strømmen i Norge fra?', array['Vannkraft', 'Kullkraft', 'Kjernekraft', 'Solenergi']::text[], 0, 'Norge har mange fjell og mye nedbør, og nesten all strøm kommer fra vannkraft.', true, true, 1),
+  ('naturfag-9:energi-og-miljo', 'q03', 'flervalg', 'Hvilken gass slippes ut når fossile brensler brennes, og forsterker drivhuseffekten?', array['Oksygen', 'Nitrogen', 'Helium', 'Karbondioksid']::text[], 3, 'CO₂ er den viktigste klimagassen fra menneskelig aktivitet.', true, true, 2),
+  ('naturfag-9:energi-og-miljo', 'q04', 'flervalg', 'Hvilken er en lokal ulempe ved vannkraft?', array['Store CO₂-utslipp', 'Regulerte elver som kan skade fisk', 'Radioaktivt avfall', 'Sur nedbør']::text[], 1, 'Dammer og regulering endrer vannføringen og kan påvirke fisk som laks.', true, true, 3),
+  ('naturfag-9:energi-og-miljo', 'q05', 'flervalg', 'Hva er den største ulempen med kjernekraft?', array['Store CO₂-utslipp', 'Den virker bare når det blåser', 'Radioaktivt avfall som må lagres i svært lang tid', 'Den gir sur nedbør']::text[], 2, 'Kjernekraft gir lite CO₂, men avfallet er farlig i tusenvis av år.', true, true, 4),
+  ('naturfag-9:energi-og-miljo', 'q06', 'flervalg', 'Hva betyr energieffektivisering?', array['Å få samme nytte med mindre energi', 'Å bruke mer energi', 'Å bygge flere kraftverk', 'Å skru av alt strøm']::text[], 0, 'Eksempler er etterisolering, LED-lys og varmepumper.', true, true, 5),
+  ('naturfag-9:energi-og-miljo', 'q07', 'flervalg', 'Hvilket er et argument mot vindkraft på land?', array['Den gir CO₂', 'Den bruker kull', 'Den er ikke fornybar', 'Den kan beslaglegge store naturområder og forstyrre dyreliv']::text[], 3, 'Store vindkraftanlegg kan påvirke natur, fugler og reinbeite.', true, true, 6),
+  ('naturfag-9:energi-og-miljo', 'q08', 'flervalg', 'Hvorfor sparer en varmepumpe energi?', array['Den henter varme fra omgivelsene og gir mer varme enn strømmen den bruker', 'Den bruker ikke strøm', 'Den lager energi av ingenting', 'Den kjøler huset']::text[], 0, 'Varmepumpen flytter varme fra luft, jord eller vann inn i huset.', true, false, 7),
+  ('naturfag-9:energi-og-miljo', 'q09', 'flervalg', 'Hva er sur nedbør forårsaket av?', array['CO₂ fra planter', 'Svovel- og nitrogenforbindelser fra forbrenning', 'Vanndamp', 'Solcellepaneler']::text[], 1, 'Utslipp fra forbrenning av kull og olje kan gjøre nedbøren sur.', true, false, 8),
+  ('naturfag-9:energi-og-miljo', 'q10', 'flervalg', 'Finnes det en energikilde helt uten miljøkostnader?', array['Ja, vindkraft', 'Ja, vannkraft', 'Nei, alle har ulemper lokalt eller globalt', 'Ja, solenergi']::text[], 2, 'Alle energikilder har noen ulemper, så valgene handler om å veie fordeler og ulemper.', true, true, 9),
+  ('naturfag-9:energi-og-miljo', 'm01', 'sant-usant', 'Mesteparten av energien i verden kommer fortsatt fra fossile brensler.', array['Sant', 'Usant']::text[], 0, 'Selv om fornybar energi vokser, dominerer fortsatt kull, olje og gass.', false, true, 10),
+  ('naturfag-9:energi-og-miljo', 'm02', 'sant-usant', 'Solenergi har ingen miljøkostnader.', array['Sant', 'Usant']::text[], 1, 'Produksjon av solceller krever energi og mineraler, og solcelleparker tar areal.', false, true, 11),
+  ('naturfag-9:energi-og-miljo', 'm03', 'sant-usant', 'Elbiler har høyere virkningsgrad enn bensinbiler.', array['Sant', 'Usant']::text[], 0, 'Elmotorer utnytter en mye større del av energien enn forbrenningsmotorer.', false, true, 12),
+  ('naturfag-9:energi-og-miljo', 'm04', 'sant-usant', 'Uran er en fornybar energikilde.', array['Sant', 'Usant']::text[], 1, 'Uran brukes opp og fornyes ikke. Kjernekraft er derfor ikke fornybar.', false, true, 13),
+  ('naturfag-9:energi-og-miljo', 'm05', 'flervalg', 'Hva er bioenergi?', array['Energi fra biologisk materiale, som ved og biogass', 'Energi fra kull', 'Energi fra atomkjerner', 'Energi fra vind']::text[], 0, 'Bioenergi kommer fra planter og annet organisk materiale.', false, true, 14),
+  ('naturfag-9:energi-og-miljo', 'm06', 'flervalg', 'Hvilket tiltak er energieffektivisering?', array['Å bygge et nytt kullkraftverk', 'Å etterisolere et hus', 'Å kjøre mer bil', 'Å bruke glødepærer']::text[], 1, 'Bedre isolasjon gir samme varme med mindre energi.', false, true, 15),
+  ('naturfag-9:energi-og-miljo', 'm07', 'flervalg', 'Hvilken energikilde kan utnytte varme dypt nede i jorda?', array['Tidevannskraft', 'Vindkraft', 'Jordvarme', 'Solenergi']::text[], 2, 'Jordvarme henter varme fra grunnen, ofte med varmepumpe.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('naturfag-9:energi-og-miljo', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Naturfag: Drivhuseffekten og klimaendringer
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('naturfag-9:drivhuseffekten-og-klima', 'naturfag-9', 'drivhuseffekten-og-klima', 'Drivhuseffekten og klimaendringer', 'Den naturlige og den forsterkede drivhuseffekten, faktorer som påvirker jordas klima, og følgene av global oppvarming.', array[10, 5]::int[], 4, 'sjekkes', array['Tallene for CO₂-nivå (over 420 ppm) og global oppvarming (over 1 °C) endrer seg over tid og bør kontrolleres mot ferske tall fra IPCC/NOAA.']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('naturfag-9:drivhuseffekten-og-klima', '## Vær og klima
+
+**Vær** er forholdene i atmosfæren på et bestemt sted og tidspunkt: temperatur, nedbør og vind i dag. **Klima** er gjennomsnittsværet over lang tid, vanligvis 30 år. En kald vinter betyr derfor ikke at klimaet ikke blir varmere.
+
+## Den naturlige drivhuseffekten
+
+Sollys går gjennom atmosfæren og varmer opp jordoverflaten. Jorda sender så energien ut igjen som **varmestråling** (infrarød stråling). Noen gasser i atmosfæren, **drivhusgassene**, tar opp en del av denne varmestrålingen og sender den tilbake mot jorda. Det kalles **drivhuseffekten**. Uten den ville gjennomsnittstemperaturen på jorda vært rundt −18 °C i stedet for rundt +15 °C, og livet slik vi kjenner det, ville ikke vært mulig.
+
+De viktigste drivhusgassene er **vanndamp**, **karbondioksid** (CO₂), **metan** (CH₄) og **lystgass** (N₂O).
+
+## Den forsterkede drivhuseffekten
+
+Siden den industrielle revolusjonen har mennesker sluppet ut store mengder drivhusgasser, særlig ved å brenne kull, olje og gass, og ved avskoging og landbruk. Mengden CO₂ i atmosfæren har økt fra rundt 280 ppm før industrialiseringen til over 420 ppm i dag. Når det blir mer drivhusgasser, holdes mer varme igjen, og temperaturen stiger. Dette kalles den **forsterkede drivhuseffekten**. Jordas gjennomsnittstemperatur har allerede steget med over 1 °C.
+
+## Andre faktorer som påvirker klimaet
+
+- **Sola**: små variasjoner i solaktiviteten.
+- **Jordbanen**: langsomme endringer i jordas bane og helning har gitt istider og mellomistider over hundretusenvis av år.
+- **Vulkanutbrudd**: partikler i atmosfæren kan kjøle ned klimaet et par år.
+- **Havstrømmer**, som Golfstrømmen, frakter varme rundt på kloden.
+- **Albedo**: hvite flater som is og snø reflekterer sollys. Når isen smelter, tar mørkere hav og land opp mer varme, og oppvarmingen forsterkes. Dette er et eksempel på en **tilbakekobling**.
+
+Forskerne i **FNs klimapanel** (IPCC) har vurdert alle disse faktorene og konkludert med at menneskelig aktivitet er hovedårsaken til oppvarmingen de siste tiårene.
+
+## Følger
+
+- Høyere **havnivå**, fordi isbreer smelter og havvannet utvider seg når det blir varmere.
+- Mer **ekstremvær**, som hetebølger, tørke og kraftig nedbør.
+- **Havforsuring**, fordi havet tar opp CO₂.
+- Endrede levevilkår for mange arter.
+
+## Hva gjøres?
+
+I **Parisavtalen** fra 2015 ble landene enige om å begrense oppvarmingen til godt under 2 °C, og helst 1,5 °C. Det krever store kutt i utslippene, blant annet ved overgang til fornybar energi, energieffektivisering og vern av skog og myr.', '{"label":"Drivhuseffekten og klima","children":[{"label":"Begreper","children":[{"label":"Vær","note":"Nå"},{"label":"Klima","note":"30 års snitt"}]},{"label":"Drivhuseffekten","children":[{"label":"Varmestråling holdes igjen"},{"label":"−18 °C → +15 °C"},{"label":"CO₂, metan, vanndamp, lystgass"}]},{"label":"Forsterket","children":[{"label":"Fossile brensler"},{"label":"Avskoging"},{"label":"280 → over 420 ppm CO₂"}]},{"label":"Andre faktorer","children":[{"label":"Sola og jordbanen"},{"label":"Vulkaner"},{"label":"Havstrømmer"},{"label":"Albedo"}]},{"label":"Følger og tiltak","children":[{"label":"Havnivå og ekstremvær"},{"label":"Havforsuring"},{"label":"Parisavtalen 2015"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'naturfag-9:drivhuseffekten-og-klima';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('naturfag-9:drivhuseffekten-og-klima', 'Vær', 'Forholdene i atmosfæren på et bestemt sted og tidspunkt.', 0),
+  ('naturfag-9:drivhuseffekten-og-klima', 'Klima', 'Gjennomsnittsværet over lang tid, vanligvis 30 år.', 1),
+  ('naturfag-9:drivhuseffekten-og-klima', 'Drivhuseffekten', 'Drivhusgasser holder på varmestråling fra jorda og gjør jorda varmere.', 2),
+  ('naturfag-9:drivhuseffekten-og-klima', 'Uten drivhuseffekt', 'Jorda ville hatt en gjennomsnittstemperatur på rundt −18 °C i stedet for +15 °C.', 3),
+  ('naturfag-9:drivhuseffekten-og-klima', 'Drivhusgasser', 'Vanndamp, karbondioksid (CO₂), metan (CH₄) og lystgass (N₂O).', 4),
+  ('naturfag-9:drivhuseffekten-og-klima', 'Forsterket drivhuseffekt', 'Økt drivhuseffekt på grunn av menneskeskapte utslipp.', 5),
+  ('naturfag-9:drivhuseffekten-og-klima', 'CO₂ i atmosfæren', 'Økt fra rundt 280 ppm før industrialiseringen til over 420 ppm i dag.', 6),
+  ('naturfag-9:drivhuseffekten-og-klima', 'Albedo', 'Hvor mye sollys en flate reflekterer. Snø og is har høy albedo.', 7),
+  ('naturfag-9:drivhuseffekten-og-klima', 'Tilbakekobling', 'En endring som forsterker eller demper seg selv, som når smeltende is gir mer oppvarming.', 8),
+  ('naturfag-9:drivhuseffekten-og-klima', 'FNs klimapanel (IPCC)', 'Sammenstiller klimaforskningen og har konkludert med at mennesker er hovedårsaken til oppvarmingen.', 9),
+  ('naturfag-9:drivhuseffekten-og-klima', 'Parisavtalen', 'Avtale fra 2015 om å begrense oppvarmingen til godt under 2 °C, helst 1,5 °C.', 10),
+  ('naturfag-9:drivhuseffekten-og-klima', 'Havnivåstigning', 'Skyldes smeltende isbreer og at varmere havvann utvider seg.', 11),
+  ('naturfag-9:drivhuseffekten-og-klima', 'Havforsuring', 'Havet blir surere når det tar opp CO₂.', 12),
+  ('naturfag-9:drivhuseffekten-og-klima', 'Vulkanutbrudd og klima', 'Partikler fra store utbrudd kan kjøle ned klimaet i et par år.', 13),
+  ('naturfag-9:drivhuseffekten-og-klima', 'Istider', 'Skyldes blant annet langsomme endringer i jordas bane og helning.', 14);
+delete from public.quiz_sporsmal where tema_id = 'naturfag-9:drivhuseffekten-og-klima';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('naturfag-9:drivhuseffekten-og-klima', 'q01', 'flervalg', 'Hva er forskjellen på vær og klima?', array['Det er det samme', 'Vær er hvordan det er nå, klima er gjennomsnittet over lang tid', 'Klima er været i morgen', 'Vær gjelder hele jorda, klima ett sted']::text[], 1, 'Klima er gjennomsnittsværet over rundt 30 år.', true, true, 0),
+  ('naturfag-9:drivhuseffekten-og-klima', 'q02', 'flervalg', 'Hva ville gjennomsnittstemperaturen på jorda vært uten den naturlige drivhuseffekten?', array['Rundt −18 °C', 'Rundt +30 °C', 'Rundt 0 °C', 'Rundt +15 °C']::text[], 0, 'Drivhuseffekten hever temperaturen fra rundt −18 °C til rundt +15 °C.', true, true, 1),
+  ('naturfag-9:drivhuseffekten-og-klima', 'q03', 'flervalg', 'Hvilken er en drivhusgass?', array['Oksygen', 'Nitrogen', 'Metan', 'Argon']::text[], 2, 'Metan er en kraftig drivhusgass. Oksygen og nitrogen er ikke drivhusgasser.', true, true, 2),
+  ('naturfag-9:drivhuseffekten-og-klima', 'q04', 'flervalg', 'Hva er hovedårsaken til den forsterkede drivhuseffekten?', array['Flere vulkanutbrudd', 'At sola har blitt mye sterkere', 'Endringer i jordbanen', 'Menneskeskapte utslipp av drivhusgasser']::text[], 3, 'Forbrenning av fossile brensler og avskoging har økt mengden drivhusgasser.', true, true, 3),
+  ('naturfag-9:drivhuseffekten-og-klima', 'q05', 'flervalg', 'Hvorfor forsterker smeltende is oppvarmingen?', array['Fordi isen er varm', 'Fordi mørkere hav og land tar opp mer sollys enn hvit is', 'Fordi isen slipper ut CO₂', 'Den forsterker ikke oppvarmingen']::text[], 1, 'Dette er en tilbakekobling via albedo: mindre is gir mer oppvarming, som gir enda mindre is.', true, true, 4),
+  ('naturfag-9:drivhuseffekten-og-klima', 'q06', 'flervalg', 'Hva ble landene enige om i Parisavtalen?', array['Å begrense oppvarmingen til godt under 2 °C, helst 1,5 °C', 'Å stoppe all bilkjøring', 'Å øke oljeproduksjonen', 'Å flytte til Mars']::text[], 0, 'Parisavtalen fra 2015 setter målet for den globale temperaturøkningen.', true, true, 5),
+  ('naturfag-9:drivhuseffekten-og-klima', 'q07', 'flervalg', 'Hvorfor stiger havnivået?', array['Fordi det regner mer', 'Fordi fisk tar mer plass', 'Fordi isbreer smelter og varmt havvann utvider seg', 'Fordi havbunnen stiger']::text[], 2, 'Både smeltevann fra is på land og termisk utvidelse av havvannet bidrar.', true, true, 6),
+  ('naturfag-9:drivhuseffekten-og-klima', 'q08', 'flervalg', 'Hva kan et stort vulkanutbrudd gjøre med klimaet?', array['Gjøre det varmere i mange hundre år', 'Ingenting', 'Stoppe drivhuseffekten', 'Kjøle det ned i et par år']::text[], 3, 'Partikler i atmosfæren reflekterer sollys og gir en kortvarig nedkjøling.', true, false, 7),
+  ('naturfag-9:drivhuseffekten-og-klima', 'q09', 'flervalg', 'Hva er FNs klimapanel (IPCC)?', array['En organisasjon som sammenstiller klimaforskningen', 'Et selskap som selger strøm', 'En norsk forskningsstasjon', 'En værmelding']::text[], 0, 'IPCC vurderer forskningen og gir rapporter om klimaendringer.', true, false, 8),
+  ('naturfag-9:drivhuseffekten-og-klima', 'q10', 'flervalg', 'Hvorfor blir havet surere?', array['På grunn av plast', 'Fordi havet tar opp CO₂', 'På grunn av salt', 'Fordi det blir kaldere']::text[], 1, 'CO₂ løses i sjøvann og danner en svak syre. Det kalles havforsuring.', true, true, 9),
+  ('naturfag-9:drivhuseffekten-og-klima', 'm01', 'sant-usant', 'Den naturlige drivhuseffekten er nødvendig for livet på jorda.', array['Sant', 'Usant']::text[], 0, 'Uten den ville jorda vært altfor kald.', false, true, 10),
+  ('naturfag-9:drivhuseffekten-og-klima', 'm02', 'sant-usant', 'En kald vinter i Norge beviser at global oppvarming ikke skjer.', array['Sant', 'Usant']::text[], 1, 'Én vinter er vær. Klima handler om gjennomsnittet over mange år og hele kloden.', false, true, 11),
+  ('naturfag-9:drivhuseffekten-og-klima', 'm03', 'sant-usant', 'Endringer i jordbanen har bidratt til istider.', array['Sant', 'Usant']::text[], 0, 'Langsomme endringer i banen og helningen påvirker hvor mye sollys som når jorda.', false, true, 12),
+  ('naturfag-9:drivhuseffekten-og-klima', 'm04', 'sant-usant', 'Vanndamp er ikke en drivhusgass.', array['Sant', 'Usant']::text[], 1, 'Vanndamp er faktisk den drivhusgassen som bidrar mest til den naturlige drivhuseffekten.', false, true, 13),
+  ('naturfag-9:drivhuseffekten-og-klima', 'm05', 'flervalg', 'Hva slags stråling holder drivhusgassene igjen?', array['Radiobølger', 'Varmestråling (infrarød)', 'Røntgenstråling', 'Lydbølger']::text[], 1, 'Jorda sender ut infrarød varmestråling, som drivhusgassene tar opp.', false, true, 14),
+  ('naturfag-9:drivhuseffekten-og-klima', 'm06', 'flervalg', 'Hvor mye har jordas gjennomsnittstemperatur steget siden førindustriell tid?', array['Over 1 °C', 'Over 10 °C', '0 °C', 'Over 5 °C']::text[], 0, 'Oppvarmingen er allerede over 1 °C, og den fortsetter.', false, true, 15),
+  ('naturfag-9:drivhuseffekten-og-klima', 'm07', 'flervalg', 'Hvilket tiltak reduserer utslippene av klimagasser?', array['Mer kullkraft', 'Hogst av regnskog', 'Overgang til fornybar energi', 'Drenering av myr']::text[], 2, 'Fornybar energi erstatter fossile brensler og gir lavere utslipp.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('naturfag-9:drivhuseffekten-og-klima', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Naturfag: Teknologi: sender og mottaker
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('naturfag-9:sender-og-mottaker', 'naturfag-9', 'sender-og-mottaker', 'Teknologi: sender og mottaker', 'Hvordan teknologiske systemer overfører signaler fra en sender til en mottaker – med sensorer, mikrokontrollere, lys, lyd og radiobølger.', array[6, 7]::int[], 5, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('naturfag-9:sender-og-mottaker', '## Signaler overalt
+
+Mobiltelefoner, fjernkontroller, bluetooth-høyttalere, trådløst nett og røykvarslere har én ting felles: De overfører **informasjon** fra en **sender** til en **mottaker** ved hjelp av et **signal**. Et slikt teknologisk system kan beskrives med tre deler: sender, overføring (kanal) og mottaker.
+
+## Sender, kanal og mottaker
+
+- **Senderen** gjør informasjon om til et signal, for eksempel lys, lyd, elektrisk strøm eller radiobølger.
+- **Kanalen** er det signalet går gjennom: luft, en ledning, en optisk fiber eller tomt rom.
+- **Mottakeren** fanger opp signalet og gjør det om til noe nyttig igjen, som lyd, bilde eller en handling.
+
+Et eksempel er en **fjernkontroll**. Når du trykker på en knapp, sender en lysdiode ut **infrarødt lys** i et bestemt mønster. En sensor i TV-en fanger opp lyset, og TV-en tolker mønsteret og skifter kanal.
+
+## Typer signaler
+
+- **Lyd** er trykkbølger i lufta. Den brukes i for eksempel ekkolodd og alarmer.
+- **Lys** og **infrarødt lys** brukes i fjernkontroller og **optiske fibre**, der lys sendes gjennom tynne glasstråder og gir svært raskt internett.
+- **Radiobølger** er elektromagnetiske bølger som brukes i mobilnett, wifi, bluetooth, radio og GPS. De går med lysets fart.
+
+Signaler kan være **analoge**, der signalet varierer jevnt, eller **digitale**, der informasjonen er gjort om til ett-tall og null-tall. Digitale signaler er mindre utsatt for støy og kan lett lagres og kopieres.
+
+## Sensorer og mikrokontrollere
+
+Mange systemer bruker **sensorer**, som måler noe i omgivelsene: temperatur, lys, avstand, bevegelse eller fuktighet. En **mikrokontroller** – en liten programmerbar datamaskin, som en micro:bit eller Arduino – leser verdiene og bestemmer hva som skal skje, for eksempel å sende et signal til en annen enhet. To micro:biter kan sende radiosignaler til hverandre, slik at den ene fungerer som sender og den andre som mottaker.
+
+## Lage og forbedre systemer
+
+Når du lager et teknologisk system, følger du ofte en **utviklingsprosess**: finne et behov, lage en plan, bygge en **prototype**, teste og forbedre. Et eksempel kan være en alarm som gir beskjed når døra åpnes: En sensor på døra (sender) oppdager bevegelsen og sender et radiosignal til en mottaker som piper. Du kan teste rekkevidden, hvor raskt alarmen reagerer, og om den gir falske alarmer, og så forbedre konstruksjonen og programmet.', '{"label":"Sender og mottaker","children":[{"label":"Systemet","children":[{"label":"Sender"},{"label":"Kanal"},{"label":"Mottaker"}]},{"label":"Signaltyper","children":[{"label":"Lyd"},{"label":"Lys og infrarødt"},{"label":"Radiobølger"}]},{"label":"Analogt og digitalt","children":[{"label":"Analogt","note":"Jevn variasjon"},{"label":"Digitalt","note":"0 og 1"}]},{"label":"Komponenter","children":[{"label":"Sensorer"},{"label":"Mikrokontroller","note":"micro:bit, Arduino"}]},{"label":"Utvikling","children":[{"label":"Behov og plan"},{"label":"Prototype"},{"label":"Test og forbedre"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'naturfag-9:sender-og-mottaker';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('naturfag-9:sender-og-mottaker', 'Signal', 'Noe som bærer informasjon fra en sender til en mottaker, som lys, lyd eller radiobølger.', 0),
+  ('naturfag-9:sender-og-mottaker', 'Sender', 'Delen som gjør informasjon om til et signal.', 1),
+  ('naturfag-9:sender-og-mottaker', 'Mottaker', 'Delen som fanger opp signalet og gjør det om til noe nyttig.', 2),
+  ('naturfag-9:sender-og-mottaker', 'Kanal', 'Det signalet går gjennom: luft, ledning, optisk fiber eller tomt rom.', 3),
+  ('naturfag-9:sender-og-mottaker', 'Infrarødt lys', 'Usynlig lys som brukes i fjernkontroller.', 4),
+  ('naturfag-9:sender-og-mottaker', 'Radiobølger', 'Elektromagnetiske bølger brukt i mobilnett, wifi, bluetooth og GPS.', 5),
+  ('naturfag-9:sender-og-mottaker', 'Optisk fiber', 'Tynn glasstråd som leder lys og gir svært rask dataoverføring.', 6),
+  ('naturfag-9:sender-og-mottaker', 'Analogt signal', 'Et signal som varierer jevnt og kontinuerlig.', 7),
+  ('naturfag-9:sender-og-mottaker', 'Digitalt signal', 'Informasjon gjort om til ett-tall og null-tall.', 8),
+  ('naturfag-9:sender-og-mottaker', 'Sensor', 'En komponent som måler noe i omgivelsene, som lys eller temperatur.', 9),
+  ('naturfag-9:sender-og-mottaker', 'Mikrokontroller', 'En liten programmerbar datamaskin, som micro:bit eller Arduino.', 10),
+  ('naturfag-9:sender-og-mottaker', 'Prototype', 'En tidlig, enkel versjon av et produkt som testes og forbedres.', 11),
+  ('naturfag-9:sender-og-mottaker', 'Utviklingsprosess', 'Behov → plan → prototype → test → forbedring.', 12),
+  ('naturfag-9:sender-og-mottaker', 'Ekkolodd', 'Sender lydbølger og måler ekkoet for å finne dybde eller fisk.', 13),
+  ('naturfag-9:sender-og-mottaker', 'Støy', 'Uønskede forstyrrelser i et signal. Digitale signaler er mindre utsatt.', 14);
+delete from public.quiz_sporsmal where tema_id = 'naturfag-9:sender-og-mottaker';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('naturfag-9:sender-og-mottaker', 'q01', 'flervalg', 'Hva gjør senderen i et teknologisk system?', array['Fanger opp signalet', 'Gjør informasjon om til et signal', 'Lagrer strøm', 'Måler temperatur']::text[], 1, 'Senderen omformer informasjon til et signal som kan overføres.', true, true, 0),
+  ('naturfag-9:sender-og-mottaker', 'q02', 'flervalg', 'Hva slags signal bruker en vanlig TV-fjernkontroll?', array['Infrarødt lys', 'Lyd', 'Røntgenstråler', 'Kabel']::text[], 0, 'Fjernkontrollen sender pulser av infrarødt lys som TV-en fanger opp.', true, true, 1),
+  ('naturfag-9:sender-og-mottaker', 'q03', 'flervalg', 'Hvilken teknologi bruker radiobølger?', array['Optisk fiber', 'Fjernkontroll med infrarødt lys', 'Wifi og bluetooth', 'Et stetoskop']::text[], 2, 'Wifi, bluetooth, mobilnett og GPS bruker radiobølger.', true, true, 2),
+  ('naturfag-9:sender-og-mottaker', 'q04', 'flervalg', 'Hva er et digitalt signal?', array['Et signal som varierer jevnt', 'Et lydsignal', 'Et signal i en fiber', 'Informasjon gjort om til ett-tall og null-tall']::text[], 3, 'Digitale signaler består av binære verdier og er mindre utsatt for støy.', true, true, 3),
+  ('naturfag-9:sender-og-mottaker', 'q05', 'flervalg', 'Hva er en sensor?', array['En komponent som måler noe i omgivelsene', 'En høyttaler', 'En type batteri', 'Et program']::text[], 0, 'Sensorer kan måle for eksempel lys, temperatur, avstand og bevegelse.', true, true, 4),
+  ('naturfag-9:sender-og-mottaker', 'q06', 'flervalg', 'Hva er en mikrokontroller?', array['Et lite mikroskop', 'En liten programmerbar datamaskin', 'En type lyspære', 'En radiostasjon']::text[], 1, 'Micro:bit og Arduino er eksempler på mikrokontrollere.', true, true, 5),
+  ('naturfag-9:sender-og-mottaker', 'q07', 'flervalg', 'Hva sendes gjennom en optisk fiber?', array['Strøm', 'Vann', 'Lyd', 'Lys']::text[], 3, 'Optiske fibre leder lys og kan overføre enorme datamengder raskt.', true, false, 6),
+  ('naturfag-9:sender-og-mottaker', 'q08', 'flervalg', 'Hva er en prototype?', array['Det ferdige produktet', 'En tidlig versjon som testes og forbedres', 'En type sensor', 'En reklame']::text[], 1, 'Prototyper gjør det mulig å teste ideer før man lager det endelige produktet.', true, true, 7),
+  ('naturfag-9:sender-og-mottaker', 'q09', 'flervalg', 'I en dørlarm med to micro:biter, hva er senderen?', array['Micro:biten som piper', 'Døra', 'Micro:biten som oppdager at døra åpnes og sender signal', 'Batteriet']::text[], 2, 'Enheten som registrerer bevegelsen og sender signalet, er senderen.', true, true, 8),
+  ('naturfag-9:sender-og-mottaker', 'q10', 'flervalg', 'Hvorfor er digitale signaler mindre utsatt for støy?', array['Fordi de bare har to verdier som er lette å skille fra hverandre', 'Fordi de er svakere', 'Fordi de går saktere', 'Fordi de bruker lyd']::text[], 0, 'Selv med litt støy er det lett å se om signalet er 0 eller 1.', true, false, 9),
+  ('naturfag-9:sender-og-mottaker', 'm01', 'sant-usant', 'Radiobølger går med lysets fart.', array['Sant', 'Usant']::text[], 0, 'Radiobølger er elektromagnetiske bølger, som lys.', false, true, 10),
+  ('naturfag-9:sender-og-mottaker', 'm02', 'sant-usant', 'Lyd kan sendes gjennom tomt rom (vakuum).', array['Sant', 'Usant']::text[], 1, 'Lyd trenger et stoff å bevege seg i, som luft eller vann.', false, true, 11),
+  ('naturfag-9:sender-og-mottaker', 'm03', 'sant-usant', 'En fjernkontroll er både sender og mottaker.', array['Sant', 'Usant']::text[], 1, 'Fjernkontrollen er sender. TV-en er mottakeren.', false, true, 12),
+  ('naturfag-9:sender-og-mottaker', 'm04', 'sant-usant', 'Å teste og forbedre er en viktig del av å lage et teknologisk system.', array['Sant', 'Usant']::text[], 0, 'Testing avslører svakheter som kan rettes i neste versjon.', false, true, 13),
+  ('naturfag-9:sender-og-mottaker', 'm05', 'flervalg', 'Hvilken teknologi bruker lydbølger for å måle dybde?', array['GPS', 'Ekkolodd', 'Wifi', 'Optisk fiber']::text[], 1, 'Ekkoloddet sender lyd og måler hvor lang tid ekkoet bruker.', false, true, 14),
+  ('naturfag-9:sender-og-mottaker', 'm06', 'flervalg', 'Hva kan en lyssensor brukes til?', array['Å måle hvor mye lys det er, for eksempel for å skru på gatelys', 'Å måle temperatur', 'Å lage lyd', 'Å veie ting']::text[], 0, 'Lyssensorer brukes blant annet i automatiske lys.', false, true, 15),
+  ('naturfag-9:sender-og-mottaker', 'm07', 'flervalg', 'Hva er kanalen når to mobiler kommuniserer trådløst?', array['En kabel', 'Glassfiber', 'Lufta og rommet radiobølgene går gjennom', 'Batteriet']::text[], 2, 'Radiobølgene går gjennom lufta mellom mobilen og basestasjonen.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('naturfag-9:sender-og-mottaker', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Naturfag: Programmering i naturfag
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('naturfag-9:programmering-i-naturfag', 'naturfag-9', 'programmering-i-naturfag', 'Programmering i naturfag', 'Hvordan programmering brukes til å samle inn måledata, lage simuleringer og modeller, og utforske naturfaglige fenomener.', array[7, 3, 1]::int[], 6, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('naturfag-9:programmering-i-naturfag', '## Hvorfor programmere i naturfag?
+
+Forskere bruker programmering hele tiden. Datamaskiner kan samle inn tusenvis av målinger automatisk, regne ut sammenhenger raskt og **simulere** prosesser som er for store, for små, for farlige eller for langsomme til å undersøkes direkte. Værmeldinger, klimamodeller og beregninger av hvordan smitte sprer seg, bygger alle på programmering.
+
+## Samle inn data med sensorer
+
+Med en **mikrokontroller**, som en micro:bit, og **sensorer** kan du lage din egen måleutrustning. Programmet kan for eksempel:
+
+- lese av temperaturen hvert minutt gjennom et døgn,
+- måle lysstyrken i klasserommet,
+- registrere hvor mange ganger en bevegelsessensor utløses.
+
+Målingene lagres i en **liste** og kan senere overføres til et regneark eller vises som en **graf**. Automatisk måling gir flere og jevnere data enn manuelle målinger, men du må fortsatt vurdere om sensoren måler riktig, altså kontrollere den mot et vanlig termometer eller lignende.
+
+## Simuleringer og modeller
+
+En **simulering** er et program som etterligner en naturfaglig prosess etter bestemte regler. Eksempler:
+
+- **Populasjonsvekst**: Hvor mange bakterier blir det hvis antallet dobles hver tjuende minutt?
+- **Rovdyr og byttedyr**: Hvordan svinger antallet harer og gauper når de påvirker hverandre?
+- **Radioaktiv nedbrytning**: Hvor mye av et stoff er igjen etter flere halveringstider?
+- **Smittespredning**: Hvordan påvirker vaksinasjon hvor mange som blir smittet?
+
+En simulering bygger på en **modell** med forenklinger. Den er bare så god som reglene og tallene vi legger inn. Derfor må vi sammenligne resultatene med virkelige data og vurdere modellens **styrker og begrensninger**.
+
+## Byggesteiner
+
+I naturfagprogrammer bruker du de samme byggesteinene som ellers: **variabler** for størrelser som tid, temperatur og antall, **løkker** som gjentar beregningen for hvert tidssteg, og **betingelser** som for eksempel skrur på en vifte hvis temperaturen blir for høy. Tilfeldige tall kan brukes til å etterligne tilfeldige hendelser, som hvilke atomer som henfaller.
+
+## Utforske med programmering
+
+Programmering gjør det lett å endre én variabel og se hva som skjer: Hva om bakteriene deler seg dobbelt så raskt? Hva om vaksinasjonsgraden øker fra 50 % til 80 %? Slike **hva-om-spørsmål** gir innsikt i hvordan systemet oppfører seg, og kan føre til nye hypoteser som kan testes.', '{"label":"Programmering i naturfag","children":[{"label":"Datainnsamling","children":[{"label":"Sensorer"},{"label":"Mikrokontroller"},{"label":"Lister og grafer"},{"label":"Kontroller sensoren"}]},{"label":"Simuleringer","children":[{"label":"Populasjonsvekst"},{"label":"Rovdyr og byttedyr"},{"label":"Radioaktivitet"},{"label":"Smittespredning"}]},{"label":"Byggesteiner","children":[{"label":"Variabler"},{"label":"Løkker","note":"Tidssteg"},{"label":"Betingelser"},{"label":"Tilfeldige tall"}]},{"label":"Vurdere","children":[{"label":"Modellens forenklinger"},{"label":"Sammenlign med data"},{"label":"Hva-om-spørsmål"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'naturfag-9:programmering-i-naturfag';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('naturfag-9:programmering-i-naturfag', 'Simulering', 'Et program som etterligner en naturfaglig prosess etter bestemte regler.', 0),
+  ('naturfag-9:programmering-i-naturfag', 'Modell', 'En forenklet beskrivelse av virkeligheten som simuleringer bygger på.', 1),
+  ('naturfag-9:programmering-i-naturfag', 'Mikrokontroller', 'Liten programmerbar datamaskin, som micro:bit, som kan lese sensorer.', 2),
+  ('naturfag-9:programmering-i-naturfag', 'Sensor', 'Måler noe i omgivelsene, som temperatur, lys eller bevegelse.', 3),
+  ('naturfag-9:programmering-i-naturfag', 'Automatisk måling', 'Programmet tar målinger med faste mellomrom, uten at noen må lese av.', 4),
+  ('naturfag-9:programmering-i-naturfag', 'Liste', 'Struktur i et program som lagrer mange verdier, for eksempel målinger.', 5),
+  ('naturfag-9:programmering-i-naturfag', 'Tidssteg', 'Et lite tidsintervall som simuleringen regner ut ett og ett av, i en løkke.', 6),
+  ('naturfag-9:programmering-i-naturfag', 'Populasjonsvekst', 'Økningen i antall individer, som kan simuleres med et program.', 7),
+  ('naturfag-9:programmering-i-naturfag', 'Rovdyr–byttedyr-modell', 'Simulering av hvordan antall rovdyr og byttedyr påvirker hverandre.', 8),
+  ('naturfag-9:programmering-i-naturfag', 'Halveringstid', 'Tiden det tar før halvparten av et radioaktivt stoff har brutt ned.', 9),
+  ('naturfag-9:programmering-i-naturfag', 'Betingelse i måleprogram', 'For eksempel: hvis temperaturen er over 25 °C, skru på vifta.', 10),
+  ('naturfag-9:programmering-i-naturfag', 'Tilfeldige tall', 'Brukes til å etterligne tilfeldige hendelser i simuleringer.', 11),
+  ('naturfag-9:programmering-i-naturfag', 'Kontrollere sensoren', 'Sammenligne sensorens verdier med et kjent måleinstrument.', 12),
+  ('naturfag-9:programmering-i-naturfag', 'Hva-om-spørsmål', 'Å endre én variabel i en simulering for å se hvordan systemet reagerer.', 13),
+  ('naturfag-9:programmering-i-naturfag', 'Modellens begrensninger', 'Forenklingene gjør at modellen ikke stemmer helt med virkeligheten.', 14);
+delete from public.quiz_sporsmal where tema_id = 'naturfag-9:programmering-i-naturfag';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('naturfag-9:programmering-i-naturfag', 'q01', 'flervalg', 'Hva er en simulering?', array['Et program som etterligner en prosess etter bestemte regler', 'Et vanlig forsøk på lab', 'En type sensor', 'Et regneark uten data']::text[], 0, 'Simuleringer lar oss utforske prosesser som er vanskelige å undersøke direkte.', true, true, 0),
+  ('naturfag-9:programmering-i-naturfag', 'q02', 'flervalg', 'Hva er en fordel med automatisk måling med sensor?', array['Man trenger aldri å kontrollere resultatene', 'Den gir mange og jevne målinger over lang tid', 'Den er alltid helt nøyaktig', 'Den krever ingen strøm']::text[], 1, 'Programmet kan måle for eksempel hvert minutt i et helt døgn.', true, true, 1),
+  ('naturfag-9:programmering-i-naturfag', 'q03', 'flervalg', 'Bakterier dobles hvert 20. minutt. Hvor mange blir én bakterie til etter 1 time?', array['3', '6', '8', '20']::text[], 2, 'På én time er det tre doblinger: 1 → 2 → 4 → 8.', true, true, 2),
+  ('naturfag-9:programmering-i-naturfag', 'q04', 'flervalg', 'Hvorfor må vi sammenligne en simulering med virkelige data?', array['Fordi datamaskiner alltid regner feil', 'Fordi det er gøy', 'For å gjøre programmet raskere', 'Fordi simuleringen bygger på forenklinger som kan være feil']::text[], 3, 'En modell er bare så god som reglene og tallene den bygger på.', true, true, 3),
+  ('naturfag-9:programmering-i-naturfag', 'q05', 'flervalg', 'Hva brukes en løkke til i en simulering?', array['Å gjenta beregningen for hvert tidssteg', 'Å lagre en enkelt verdi', 'Å koble til sensoren', 'Å skrive ut en tittel']::text[], 0, 'Løkka regner ut ett tidssteg om gangen, for eksempel ett minutt eller én generasjon.', true, true, 4),
+  ('naturfag-9:programmering-i-naturfag', 'q06', 'flervalg', 'Et program skal skru på en vifte når det blir for varmt. Hva trengs?', array['Bare en løkke', 'Bare en liste', 'En betingelse, som «hvis temperaturen er over 25 °C»', 'Ingen programmering']::text[], 2, 'Betingelsen avgjør når vifta skal gå.', true, true, 5),
+  ('naturfag-9:programmering-i-naturfag', 'q07', 'flervalg', 'Hvorfor kan tilfeldige tall være nyttige i simuleringer?', array['For å gjøre programmet feilfritt', 'For å etterligne tilfeldige hendelser, som radioaktivt henfall', 'For å erstatte alle målinger', 'De er aldri nyttige']::text[], 1, 'Mange prosesser i naturen har et tilfeldig element som kan etterlignes med tilfeldige tall.', true, false, 6),
+  ('naturfag-9:programmering-i-naturfag', 'q08', 'flervalg', 'Hva gjør du når du kontrollerer en temperatursensor?', array['Sammenligner verdiene med et vanlig termometer', 'Sletter programmet', 'Bytter batteri', 'Legger den i fryseren for alltid']::text[], 0, 'Da ser du om sensoren viser riktige verdier.', true, true, 7),
+  ('naturfag-9:programmering-i-naturfag', 'q09', 'flervalg', 'Hva er et hva-om-spørsmål i en simulering?', array['Et spørsmål om programmets navn', 'Å endre én variabel for å se hvordan systemet reagerer', 'Å slette data', 'Å skrive rapport']::text[], 1, 'Eksempel: Hva skjer med smittespredningen hvis flere er vaksinert?', true, false, 8),
+  ('naturfag-9:programmering-i-naturfag', 'q10', 'flervalg', 'Hvilket fenomen egner seg godt for simulering fordi det tar lang tid i virkeligheten?', array['Å veie et eple', 'Å måle romtemperaturen nå', 'Radioaktiv nedbrytning over tusenvis av år', 'Å telle elevene i klassen']::text[], 2, 'Simuleringer kan vise prosesser som tar altfor lang tid å observere direkte.', true, true, 9),
+  ('naturfag-9:programmering-i-naturfag', 'm01', 'sant-usant', 'En simulering gir alltid nøyaktig samme resultat som virkeligheten.', array['Sant', 'Usant']::text[], 1, 'Simuleringer bygger på forenklinger og kan avvike fra virkeligheten.', false, true, 10),
+  ('naturfag-9:programmering-i-naturfag', 'm02', 'sant-usant', 'Værmeldinger bygger på dataprogrammer som simulerer atmosfæren.', array['Sant', 'Usant']::text[], 0, 'Meteorologer bruker store datamodeller for å beregne været.', false, true, 11),
+  ('naturfag-9:programmering-i-naturfag', 'm03', 'sant-usant', 'Målinger fra en sensor kan lagres i en liste i programmet.', array['Sant', 'Usant']::text[], 0, 'Lister gjør det mulig å lagre og senere analysere mange målinger.', false, true, 12),
+  ('naturfag-9:programmering-i-naturfag', 'm04', 'sant-usant', 'Man trenger aldri å vurdere om en sensor måler riktig.', array['Sant', 'Usant']::text[], 1, 'Sensorer kan være unøyaktige og bør kontrolleres.', false, true, 13),
+  ('naturfag-9:programmering-i-naturfag', 'm05', 'flervalg', 'Hvor mye er igjen av et radioaktivt stoff etter to halveringstider?', array['Halvparten', 'En firedel', 'Ingenting', 'En tredel']::text[], 1, 'Etter én halveringstid er halvparten igjen, etter to er det en firedel.', false, true, 14),
+  ('naturfag-9:programmering-i-naturfag', 'm06', 'flervalg', 'Hvilken byggestein lagrer størrelser som tid og temperatur i et program?', array['Variabler', 'Kommentarer', 'Tabeller på papir', 'Skrifttyper']::text[], 0, 'Variabler holder på verdiene programmet regner med.', false, true, 15),
+  ('naturfag-9:programmering-i-naturfag', 'm07', 'flervalg', 'Hva er en modell i naturfag?', array['En person som poserer', 'En nøyaktig kopi av virkeligheten', 'En forenklet beskrivelse som hjelper oss å forstå og forutsi', 'Et forsøk']::text[], 2, 'Modeller forenkler virkeligheten slik at vi kan regne på den og forstå den.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('naturfag-9:programmering-i-naturfag', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Samfunnsfag (9): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'samfunnsfag-9';
+
+-- Norsk (10): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'norsk-10' and slug not in ('litteraturhistorie', 'romanen', 'bokmal-og-nynorsk-historie', 'sprakvariasjon', 'digitale-medier-og-sprak', 'artikkel-og-debattinnlegg', 'nynorsk-skriving');
+
+-- Norsk: Litteraturhistorie i korte trekk
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('norsk-10:litteraturhistorie', 'norsk-10', 'litteraturhistorie', 'Litteraturhistorie i korte trekk', 'De store epokene i norsk litteratur – fra norrøn tid og folkediktning via romantikk og realisme til modernisme – og hvordan tekster henger sammen med tiden de ble skrevet i.', array[2, 1]::int[], 0, 'utkast', array['Årstallene for epokene er omtrentlige og varierer mellom læreverk.']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('norsk-10:litteraturhistorie', '## Hvorfor litteraturhistorie?
+
+Litteratur blir skrevet i en bestemt tid, og tiden preger hva forfatterne skriver om og hvordan de skriver. Når du kjenner **epokene**, kan du forstå eldre tekster bedre og se hvordan nye tekster bygger videre på eller bryter med de gamle.
+
+## Norrøn tid og folkediktning
+
+I **norrøn tid** (ca. 800–1350) ble det laget **skaldedikt**, **eddadikt** om guder og helter, og **sagaer** om konger og slekter. **Snorre Sturlason** skrev kongesagaene i Heimskringla på 1200-tallet.
+
+**Folkediktningen** ble fortalt og sunget muntlig i generasjoner: eventyr, sagn, folkeviser og ordtak. På 1800-tallet samlet **Asbjørnsen og Moe** eventyrene og ga dem ut, fra 1841.
+
+## Romantikken (ca. 1800–1850)
+
+Romantikerne satte **følelser**, **fantasi** og **naturen** høyt. De var opptatt av fortiden og av det som var særegent for folket. I Norge ble dette til **nasjonalromantikk**, som dyrket bondekultur, fjell og folkediktning. **Henrik Wergeland** er en av de store dikterne fra denne tiden.
+
+## Realismen (ca. 1870–1890)
+
+Realistene ville skildre samfunnet slik det **faktisk var**, og **sette problemer under debatt**, som kvinners rettigheter, dobbeltmoral og fattigdom. Perioden kalles også **det moderne gjennombrudd**. **Henrik Ibsen** skrev skuespillet **Et dukkehjem** (1879), der Nora forlater mann og barn. **Bjørnstjerne Bjørnson**, **Alexander Kielland** og **Amalie Skram** var andre viktige forfattere. Skram skrev i en enda mer usminket stil, **naturalismen**.
+
+## Nyromantikken (1890-tallet)
+
+På 1890-tallet vendte flere forfattere blikket innover, mot **sjelelivet**, drømmer og det uforklarlige. **Knut Hamsuns** roman **Sult** (1890) skildrer tankene og følelsene til en sulten forfatter i Kristiania.
+
+## Modernismen (1900-tallet)
+
+**Modernistene** brøt med tradisjonelle former. Dikt på **frie vers** uten rim og fast rytme ble vanlige, og mange tekster skildret byliv, teknologi og fremmedgjøring. **Rolf Jacobsens** diktsamling **Jord og jern** (1933) regnes ofte som et tidlig eksempel på norsk modernistisk lyrikk.
+
+## Samtidslitteratur
+
+Dagens litteratur er mangfoldig, med alt fra krimromaner og selvbiografiske romaner til ungdomsbøker og spoken word. Forfattere skriver om identitet, klima, teknologi og et flerkulturelt samfunn. Å sammenligne en tekst fra samtiden med en fra en tidligere epoke kan vise både hva som har endret seg, og hvilke temaer som er tidløse.', '{"label":"Litteraturhistorie","children":[{"label":"Norrøn tid","children":[{"label":"Edda og skaldedikt"},{"label":"Sagaer","note":"Snorre"}]},{"label":"Folkediktning","children":[{"label":"Eventyr, sagn, folkeviser"},{"label":"Asbjørnsen og Moe","note":"Fra 1841"}]},{"label":"Romantikken","children":[{"label":"Følelser og natur"},{"label":"Nasjonalromantikk"},{"label":"Wergeland"}]},{"label":"Realismen","children":[{"label":"Problemer under debatt"},{"label":"Ibsen: Et dukkehjem","note":"1879"},{"label":"Skram: naturalisme"}]},{"label":"Nyromantikk","children":[{"label":"Sjelelivet"},{"label":"Hamsun: Sult","note":"1890"}]},{"label":"Modernisme og samtid","children":[{"label":"Frie vers"},{"label":"Jacobsen: Jord og jern","note":"1933"},{"label":"Mangfold i dag"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'norsk-10:litteraturhistorie';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('norsk-10:litteraturhistorie', 'Epoke', 'En periode i litteraturhistorien med felles trekk, som romantikken eller realismen.', 0),
+  ('norsk-10:litteraturhistorie', 'Norrøn tid', 'Ca. 800–1350. Eddadikt, skaldedikt og sagaer.', 1),
+  ('norsk-10:litteraturhistorie', 'Snorre Sturlason', 'Islandsk forfatter som skrev kongesagaene i Heimskringla på 1200-tallet.', 2),
+  ('norsk-10:litteraturhistorie', 'Folkediktning', 'Muntlig overlevert diktning: eventyr, sagn, folkeviser og ordtak.', 3),
+  ('norsk-10:litteraturhistorie', 'Asbjørnsen og Moe', 'Samlet og ga ut norske folkeeventyr fra 1841.', 4),
+  ('norsk-10:litteraturhistorie', 'Romantikken', 'Ca. 1800–1850. Følelser, fantasi, natur og interesse for fortiden.', 5),
+  ('norsk-10:litteraturhistorie', 'Nasjonalromantikk', 'Norsk romantikk som dyrket bondekultur, natur og det nasjonale.', 6),
+  ('norsk-10:litteraturhistorie', 'Henrik Wergeland', 'Dikter i romantikken (1808–1845).', 7),
+  ('norsk-10:litteraturhistorie', 'Realismen', 'Ca. 1870–1890. Skildret samfunnet som det var og satte problemer under debatt.', 8),
+  ('norsk-10:litteraturhistorie', 'Det moderne gjennombrudd', 'Navn på overgangen til realismen, der litteraturen skulle debattere samfunnsproblemer.', 9),
+  ('norsk-10:litteraturhistorie', 'Et dukkehjem', 'Skuespill av Henrik Ibsen fra 1879 om Nora, som bryter ut av ekteskapet.', 10),
+  ('norsk-10:litteraturhistorie', 'Naturalismen', 'En enda mer usminket form for realisme. Amalie Skram er et norsk eksempel.', 11),
+  ('norsk-10:litteraturhistorie', 'Nyromantikken', '1890-tallet. Vendte blikket mot sjelelivet, drømmer og det uforklarlige.', 12),
+  ('norsk-10:litteraturhistorie', 'Sult', 'Roman av Knut Hamsun fra 1890 om en sulten forfatter i Kristiania.', 13),
+  ('norsk-10:litteraturhistorie', 'Modernismen', '1900-tallet. Brudd med tradisjonelle former, frie vers og skildring av moderne liv.', 14);
+delete from public.quiz_sporsmal where tema_id = 'norsk-10:litteraturhistorie';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('norsk-10:litteraturhistorie', 'q01', 'flervalg', 'Hvilken epoke satte følelser, natur og fortid i sentrum?', array['Realismen', 'Romantikken', 'Modernismen', 'Naturalismen']::text[], 1, 'Romantikerne dyrket følelser, fantasi og naturen, og var opptatt av fortiden.', true, true, 0),
+  ('norsk-10:litteraturhistorie', 'q02', 'flervalg', 'Hvem skrev Et dukkehjem?', array['Knut Hamsun', 'Henrik Wergeland', 'Henrik Ibsen', 'Amalie Skram']::text[], 2, 'Henrik Ibsen skrev skuespillet i 1879, i realismens periode.', true, true, 1),
+  ('norsk-10:litteraturhistorie', 'q03', 'flervalg', 'Hva ville realistene med litteraturen?', array['Skildre samfunnet som det var og sette problemer under debatt', 'Flykte fra virkeligheten til eventyrverdenen', 'Skrive bare om naturen', 'Bryte med alle regler for form']::text[], 0, 'Realistene tok opp problemer som kvinners stilling og dobbeltmoral.', true, true, 2),
+  ('norsk-10:litteraturhistorie', 'q04', 'flervalg', 'Hva samlet Asbjørnsen og Moe?', array['Sagaer', 'Skuespill', 'Moderne dikt', 'Folkeeventyr']::text[], 3, 'De samlet eventyr som var fortalt muntlig, og ga dem ut fra 1841.', true, true, 3),
+  ('norsk-10:litteraturhistorie', 'q05', 'flervalg', 'Hvilken roman av Knut Hamsun kom i 1890?', array['Sult', 'Et dukkehjem', 'Jord og jern', 'Heimskringla']::text[], 0, 'Sult skildrer en sulten forfatters indre liv og regnes som et viktig verk i nyromantikken.', true, true, 4),
+  ('norsk-10:litteraturhistorie', 'q06', 'flervalg', 'Hva kjennetegner modernismen?', array['Faste rim og rytme', 'Folkeeventyr', 'Brudd med tradisjonelle former, blant annet frie vers', 'Kongesagaer']::text[], 2, 'Modernistene eksperimenterte med formen og skrev om det moderne livet.', true, true, 5),
+  ('norsk-10:litteraturhistorie', 'q07', 'flervalg', 'Når omtrent var norrøn tid?', array['1800–1850', 'Ca. 800–1350', '1870–1890', '1900–2000']::text[], 1, 'Norrøn tid strekker seg omtrent fra vikingtiden til midten av 1300-tallet.', true, true, 6),
+  ('norsk-10:litteraturhistorie', 'q08', 'flervalg', 'Hva er nasjonalromantikk?', array['En retning som dyrket det særegne norske, som bondekultur og natur', 'En kjærlighetsroman', 'Modernistisk lyrikk', 'En type krim']::text[], 0, 'Nasjonalromantikken knyttet romantikkens ideer til byggingen av en norsk nasjonal identitet.', true, false, 7),
+  ('norsk-10:litteraturhistorie', 'q09', 'flervalg', 'Hvilken forfatter forbindes med naturalismen?', array['Henrik Wergeland', 'Snorre Sturlason', 'Rolf Jacobsen', 'Amalie Skram']::text[], 3, 'Amalie Skram skrev usminket om blant annet kvinners situasjon, i naturalismens stil.', true, false, 8),
+  ('norsk-10:litteraturhistorie', 'q10', 'flervalg', 'Hvorfor er det nyttig å kjenne den historiske konteksten til en tekst?', array['Fordi den forklarer hvorfor teksten tar opp de temaene den gjør', 'Fordi alle tekster handler om historie', 'Fordi den bestemmer hvor lang teksten er', 'Den er ikke nyttig']::text[], 0, 'Tiden teksten ble skrevet i, preger temaer, verdier og form.', true, true, 9),
+  ('norsk-10:litteraturhistorie', 'm01', 'sant-usant', 'Folkeeventyrene ble først fortalt muntlig før de ble skrevet ned.', array['Sant', 'Usant']::text[], 0, 'Eventyrene gikk i arv muntlig i generasjoner før Asbjørnsen og Moe samlet dem.', false, true, 10),
+  ('norsk-10:litteraturhistorie', 'm02', 'sant-usant', 'Realismen kom før romantikken.', array['Sant', 'Usant']::text[], 1, 'Romantikken var ca. 1800–1850, realismen ca. 1870–1890.', false, true, 11),
+  ('norsk-10:litteraturhistorie', 'm03', 'sant-usant', 'Det moderne gjennombrudd er et annet navn for overgangen til realismen.', array['Sant', 'Usant']::text[], 0, 'Begrepet beskriver at litteraturen begynte å debattere samfunnsproblemer.', false, true, 12),
+  ('norsk-10:litteraturhistorie', 'm04', 'sant-usant', 'Modernistiske dikt har alltid fast rim og rytme.', array['Sant', 'Usant']::text[], 1, 'Modernistene skrev ofte på frie vers uten rim og fast rytme.', false, true, 13),
+  ('norsk-10:litteraturhistorie', 'm05', 'flervalg', 'Hvilken epoke vendte blikket mot sjelelivet og drømmer på 1890-tallet?', array['Realismen', 'Nyromantikken', 'Norrøn tid', 'Folkediktningen']::text[], 1, 'Nyromantikken reagerte mot realismen og var opptatt av menneskets indre liv.', false, true, 14),
+  ('norsk-10:litteraturhistorie', 'm06', 'flervalg', 'Hva handler Et dukkehjem om?', array['En sulten forfatter', 'Norrøne konger', 'Nora, som bryter ut av ekteskapet sitt', 'En reise til månen']::text[], 2, 'Nora oppdager at hun har levd som en «dukke» og forlater mann og barn.', false, true, 15),
+  ('norsk-10:litteraturhistorie', 'm07', 'flervalg', 'Hvem skrev kongesagaene i Heimskringla?', array['Snorre Sturlason', 'Henrik Ibsen', 'Jørgen Moe', 'Knut Hamsun']::text[], 0, 'Snorre Sturlason skrev Heimskringla på Island på 1200-tallet.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('norsk-10:litteraturhistorie', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Norsk: Romanen og romananalyse
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('norsk-10:romanen', 'norsk-10', 'romanen', 'Romanen og romananalyse', 'Hva som kjennetegner romanen, ulike romantyper, fortellerteknikk og komposisjon, og hvordan du skriver en god analyse av en roman eller et utdrag.', array[2, 1, 12]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('norsk-10:romanen', '## Hva er en roman?
+
+En **roman** er en lang, skjønnlitterær fortelling på prosa. Sammenlignet med novellen har romanen ofte flere personer, flere miljøer og flere **handlingstråder**, og den kan strekke seg over lang tid. Det gir rom for å vise hvordan personer utvikler seg og hvordan de påvirkes av samfunnet rundt seg.
+
+## Romantyper
+
+- **Utviklingsroman**: følger hovedpersonen fra barndom eller ungdom mot voksenlivet.
+- **Samfunnsroman**: viser og kritiserer forhold i samfunnet.
+- **Kriminalroman**: bygger opp spenning rundt en forbrytelse som skal oppklares.
+- **Historisk roman**: foregår i en tidligere tid, gjerne med virkelige hendelser som bakteppe.
+- **Fantasy og science fiction**: skaper oppdiktede verdener eller framtider.
+- **Selvbiografisk roman**: bygger på forfatterens eget liv, men er likevel skjønnlitteratur.
+
+## Komposisjon
+
+**Komposisjon** er hvordan handlingen er satt sammen. En roman kan fortelles **kronologisk**, i den rekkefølgen tingene skjer, eller bruke **tilbakeblikk** og **frampek**. Noen romaner har en **rammefortelling**, der en fortelling rammer inn en annen. Andre veksler mellom flere synsvinkler kapittel for kapittel.
+
+## Fortellerteknikk
+
+Fortelleren kan være en **førstepersonsforteller** eller en **tredjepersonsforteller**, allvitende eller personal. **Indre monolog** gjengir personens tanker direkte, slik de farer gjennom hodet. **Dialog** gjør scenene levende og viser personene gjennom det de sier. Fortellertempoet varierer: Noen scener skildres i detalj, mens år kan gå på én setning.
+
+## Analysere en roman eller et utdrag
+
+En analyse bør:
+
+- presentere verket kort (forfatter, tittel, år, sjanger),
+- beskrive handlingen kort og **ikke gjenfortelle alt**,
+- karakterisere hovedpersonene og vise hvordan de utvikler seg,
+- beskrive komposisjon, forteller og språklige virkemidler, og forklare **effekten** av dem,
+- tolke **tema** og **budskap**, med **sitater** som belegg,
+- gjerne sette teksten inn i en **kontekst**: tiden den ble skrevet i, eller vår egen tid.
+
+Når du analyserer et **utdrag**, bør du vise hvordan utdraget henger sammen med resten av romanen, og gå tett inn på detaljer i språket.
+
+## Sammenligne tekster
+
+Å sammenligne to romaner, for eksempel en fra realismen og en fra samtiden, kan vise hvordan synet på temaer som kjærlighet, frihet eller familie har endret seg. Se etter likheter og forskjeller i tema, personer, form og historisk bakgrunn.', '{"label":"Romanen","children":[{"label":"Kjennetegn","children":[{"label":"Lang prosafortelling"},{"label":"Flere handlingstråder"},{"label":"Utvikling over tid"}]},{"label":"Typer","children":[{"label":"Utviklingsroman"},{"label":"Samfunnsroman"},{"label":"Krim og historisk"},{"label":"Selvbiografisk"}]},{"label":"Komposisjon","children":[{"label":"Kronologisk"},{"label":"Tilbakeblikk og frampek"},{"label":"Rammefortelling"}]},{"label":"Fortellerteknikk","children":[{"label":"Forteller og synsvinkel"},{"label":"Indre monolog"},{"label":"Dialog"},{"label":"Tempo"}]},{"label":"Analyse","children":[{"label":"Kort om handlingen"},{"label":"Personer og virkemidler"},{"label":"Tema, budskap, sitater"},{"label":"Kontekst"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'norsk-10:romanen';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('norsk-10:romanen', 'Roman', 'En lang skjønnlitterær fortelling på prosa, ofte med flere personer og handlingstråder.', 0),
+  ('norsk-10:romanen', 'Handlingstråd', 'En av flere historier som går parallelt i en roman.', 1),
+  ('norsk-10:romanen', 'Utviklingsroman', 'Følger hovedpersonen fra barndom eller ungdom mot voksenlivet.', 2),
+  ('norsk-10:romanen', 'Samfunnsroman', 'Viser og kritiserer forhold i samfunnet.', 3),
+  ('norsk-10:romanen', 'Historisk roman', 'Foregår i en tidligere tid, gjerne med virkelige hendelser i bakgrunnen.', 4),
+  ('norsk-10:romanen', 'Selvbiografisk roman', 'Bygger på forfatterens eget liv, men er skjønnlitteratur.', 5),
+  ('norsk-10:romanen', 'Komposisjon', 'Hvordan handlingen er satt sammen, for eksempel kronologisk eller med tilbakeblikk.', 6),
+  ('norsk-10:romanen', 'Kronologisk', 'Handlingen fortelles i den rekkefølgen tingene skjer.', 7),
+  ('norsk-10:romanen', 'Rammefortelling', 'En fortelling som rammer inn en annen fortelling.', 8),
+  ('norsk-10:romanen', 'Indre monolog', 'Gjengir en persons tanker direkte, slik de farer gjennom hodet.', 9),
+  ('norsk-10:romanen', 'Dialog', 'Replikkveksling mellom personer. Gjør scener levende.', 10),
+  ('norsk-10:romanen', 'Fortellertempo', 'Hvor raskt tiden går i fortellingen: detaljerte scener eller store tidshopp.', 11),
+  ('norsk-10:romanen', 'Utdrag', 'Et stykke av en lengre tekst. Må ses i sammenheng med helheten.', 12),
+  ('norsk-10:romanen', 'Belegg', 'Sitater og eksempler fra teksten som støtter tolkningen din.', 13),
+  ('norsk-10:romanen', 'Ikke gjenfortell alt', 'I en analyse skal handlingen oppsummeres kort. Vekten ligger på tolkning og virkemidler.', 14);
+delete from public.quiz_sporsmal where tema_id = 'norsk-10:romanen';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('norsk-10:romanen', 'q01', 'flervalg', 'Hva skiller en roman fra en novelle?', array['Romanen er alltid sann', 'Romanen er lengre og har ofte flere personer og handlingstråder', 'Romanen rimer', 'Romanen har ingen forteller']::text[], 1, 'Romanen gir plass til flere personer, miljøer og lengre tidsforløp enn novellen.', true, true, 0),
+  ('norsk-10:romanen', 'q02', 'flervalg', 'En roman følger en jente fra hun er 10 til hun er 20 år. Hvilken romantype er dette mest sannsynlig?', array['Kriminalroman', 'Science fiction', 'Utviklingsroman', 'Rammefortelling']::text[], 2, 'Utviklingsromanen skildrer hvordan en person vokser opp og forandrer seg.', true, true, 1),
+  ('norsk-10:romanen', 'q03', 'flervalg', 'Hva er indre monolog?', array['Personens tanker gjengitt direkte', 'En samtale mellom to personer', 'En beskrivelse av miljøet', 'Forfatterens forord']::text[], 0, 'Indre monolog gir leseren tilgang til tankestrømmen til en person.', true, true, 2),
+  ('norsk-10:romanen', 'q04', 'flervalg', 'Hva betyr at en roman er fortalt kronologisk?', array['At den har mange tilbakeblikk', 'At den foregår i framtiden', 'At den har to fortellere', 'At handlingen kommer i den rekkefølgen den skjer']::text[], 3, 'Kronologisk betyr i tidsrekkefølge, fra begynnelse til slutt.', true, true, 3),
+  ('norsk-10:romanen', 'q05', 'flervalg', 'Hva er det viktigste å unngå i en romananalyse?', array['Å bruke sitater', 'Å tolke temaet', 'Å gjenfortelle hele handlingen i detalj', 'Å nevne forfatteren']::text[], 2, 'En analyse skal tolke og forklare, ikke gjenfortelle. Handlingen oppsummeres kort.', true, true, 4),
+  ('norsk-10:romanen', 'q06', 'flervalg', 'Hva er en rammefortelling?', array['En fortelling som rammer inn en annen fortelling', 'En fortelling med bilder', 'En fortelling uten slutt', 'En fortelling om et maleri']::text[], 0, 'For eksempel kan en gammel mann fortelle en historie fra ungdommen, og fortellingen hans er inni rammen.', true, true, 5),
+  ('norsk-10:romanen', 'q07', 'flervalg', 'Hvorfor bruker man sitater i en analyse?', array['For å gjøre teksten lengre', 'Som belegg for tolkningen', 'Fordi man ikke har egne ord', 'For å gjenfortelle handlingen']::text[], 1, 'Sitater viser at tolkningen din bygger på teksten og ikke bare på synsing.', true, true, 6),
+  ('norsk-10:romanen', 'q08', 'flervalg', 'Hva må du tenke på når du analyserer et utdrag?', array['At utdraget alltid er slutten', 'At utdraget ikke har noe med resten å gjøre', 'Å bare se på tittelen', 'Hvordan utdraget henger sammen med resten av romanen']::text[], 3, 'Utdraget får mye av betydningen sin fra helheten det er hentet fra.', true, true, 7),
+  ('norsk-10:romanen', 'q09', 'flervalg', 'Hva kjennetegner en samfunnsroman?', array['Den foregår i verdensrommet', 'Den viser og kritiserer forhold i samfunnet', 'Den handler bare om kjærlighet', 'Den er alltid morsom']::text[], 1, 'Samfunnsromanen bruker fiksjonen til å belyse samfunnsproblemer.', true, false, 8),
+  ('norsk-10:romanen', 'q10', 'flervalg', 'Hva betyr fortellertempo?', array['Hvor fort leseren leser', 'Hvor mange sider boka har', 'Hvor raskt tiden går i fortellingen', 'Hvor fort forfatteren skrev']::text[], 2, 'Noen hendelser skildres over mange sider, mens år kan passere på én setning.', true, false, 9),
+  ('norsk-10:romanen', 'm01', 'sant-usant', 'En selvbiografisk roman er sakprosa.', array['Sant', 'Usant']::text[], 1, 'Selv om den bygger på forfatterens liv, er den en roman og regnes som skjønnlitteratur.', false, true, 10),
+  ('norsk-10:romanen', 'm02', 'sant-usant', 'En roman kan veksle mellom flere synsvinkler.', array['Sant', 'Usant']::text[], 0, 'Mange romaner lar ulike personer fortelle i ulike kapitler.', false, true, 11),
+  ('norsk-10:romanen', 'm03', 'sant-usant', 'I en analyse er det nok å finne virkemidler uten å forklare effekten.', array['Sant', 'Usant']::text[], 1, 'Effekten er det viktigste. Du må vise hva virkemidlet gjør med teksten.', false, true, 12),
+  ('norsk-10:romanen', 'm04', 'sant-usant', 'En historisk roman kan ha virkelige hendelser som bakteppe.', array['Sant', 'Usant']::text[], 0, 'Historiske romaner blander fiksjon med virkelige hendelser og miljøer.', false, true, 13),
+  ('norsk-10:romanen', 'm05', 'flervalg', 'Hva bør med i presentasjonen av verket i en analyse?', array['Forfatter, tittel, år og sjanger', 'Hele handlingen', 'Din favorittperson', 'Antall sider']::text[], 0, 'En kort presentasjon gir leseren de viktigste opplysningene om verket.', false, true, 14),
+  ('norsk-10:romanen', 'm06', 'flervalg', 'Hva gjør dialog med en fortelling?', array['Gjør den kortere', 'Gjør scenene levende og viser personene gjennom det de sier', 'Fjerner spenningen', 'Erstatter fortelleren helt']::text[], 1, 'Gjennom replikkene kan leseren selv tolke hvordan personene er.', false, true, 15),
+  ('norsk-10:romanen', 'm07', 'flervalg', 'Hva er et godt utgangspunkt for å sammenligne to romaner fra ulike tider?', array['Antall kapitler', 'Fargen på omslaget', 'Hvordan de framstiller et felles tema, som frihet eller familie', 'Hvilken som er lengst']::text[], 2, 'Et felles tema gjør det mulig å se likheter og forskjeller i syn og form.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('norsk-10:romanen', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Norsk: Bokmål, nynorsk og språkene i Norge
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('norsk-10:bokmal-og-nynorsk-historie', 'norsk-10', 'bokmal-og-nynorsk-historie', 'Bokmål, nynorsk og språkene i Norge', 'Hvorfor Norge har to skriftspråk, Ivar Aasen og Knud Knudsen, de viktigste årstallene i språkstriden, og hvilken status de offisielle språkene har i dag.', array[15]::int[], 2, 'sjekkes', array['Andelen elever med nynorsk som hovedmål («rundt en av ti») bør sjekkes mot fersk statistikk fra SSB/Språkrådet.']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('norsk-10:bokmal-og-nynorsk-historie', '## Fra norrønt til dansk
+
+I middelalderen hadde Norge et eget skriftspråk, **norrønt**. Etter Svartedauden på 1300-tallet og unionen med Danmark ble **dansk** det vanlige skriftspråket i Norge. I om lag fire hundre år skrev nordmenn dansk, mens de fortsatte å snakke norske dialekter.
+
+## 1814 og et nytt språkspørsmål
+
+I **1814** fikk Norge sin egen grunnlov og ble en egen stat, men i union med Sverige. Mange mente at et selvstendig folk også trengte et eget skriftspråk. To ulike løsninger vokste fram.
+
+## Ivar Aasen og landsmålet
+
+**Ivar Aasen** (1813–1896) reiste rundt i landet og studerte dialektene. Han ga ut en grammatikk (1848) og en ordbok (1850) over det norske folkespråket. Ut fra dialektene, og med blikk til norrønt, lagde han et nytt skriftspråk: **landsmålet**. Det er grunnlaget for dagens **nynorsk**.
+
+## Knud Knudsen og riksmålet
+
+**Knud Knudsen** (1812–1895) ville heller **fornorske** det danske skriftspråket gradvis, blant annet etter talemålet til de dannede i byene. Denne linjen førte til **riksmålet**, som er grunnlaget for dagens **bokmål**.
+
+## Viktige årstall
+
+- **1885**: Stortinget vedtok **jamstillingsvedtaket**. Landsmålet ble likestilt med det dansk-norske skriftspråket.
+- **1907**: Den første store rettskrivingsreformen fornorsket riksmålet.
+- **1929**: Navnene **bokmål** og **nynorsk** ble vedtatt i stedet for riksmål og landsmål.
+- **1938**: En reform skulle føre de to målformene nærmere hverandre, mot et felles **samnorsk**. Tanken om samnorsk ble senere oppgitt.
+- **2005** (bokmål) og **2012** (nynorsk): de siste store rettskrivingsreformene.
+
+## Språkene i Norge i dag
+
+**Språkloven**, som trådte i kraft i **2022**, slår fast at **norsk** er hovedspråket i Norge, og at bokmål og nynorsk er **likestilte** skriftspråk. **Samisk** er urfolksspråk og likestilt med norsk. **Kvensk**, **romani**, **romanes** og **skogfinsk** er nasjonale minoritetsspråk, og **norsk tegnspråk** har også en særskilt status. I tillegg snakkes det mange andre språk i Norge.
+
+Nynorsk er hovedmål for rundt en av ti elever i grunnskolen, flest på Vestlandet. Statlige organer må bruke begge målformene, og elever lærer både **hovedmål** og **sidemål**. Mange diskuterer fortsatt hvor sterkt sidemålet skal stå i skolen, og hvordan nynorsk kan klare seg i konkurranse med bokmål og engelsk.', '{"label":"Bokmål og nynorsk","children":[{"label":"Bakgrunn","children":[{"label":"Norrønt","note":"Middelalderen"},{"label":"Dansk","note":"Ca. 400 år"},{"label":"1814","note":"Egen grunnlov"}]},{"label":"To løsninger","children":[{"label":"Ivar Aasen","note":"Landsmål → nynorsk"},{"label":"Knud Knudsen","note":"Riksmål → bokmål"}]},{"label":"Årstall","children":[{"label":"1885","note":"Jamstillingsvedtaket"},{"label":"1907","note":"Reform"},{"label":"1929","note":"Nye navn"},{"label":"1938","note":"Samnorsk-reform"},{"label":"2005 / 2012","note":"Siste reformer"}]},{"label":"I dag","children":[{"label":"Språkloven 2022"},{"label":"Samisk","note":"Urfolksspråk"},{"label":"Minoritetsspråk","note":"Kvensk, romani, romanes, skogfinsk"},{"label":"Norsk tegnspråk"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'norsk-10:bokmal-og-nynorsk-historie';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('norsk-10:bokmal-og-nynorsk-historie', 'Norrønt', 'Skriftspråket i Norge i middelalderen.', 0),
+  ('norsk-10:bokmal-og-nynorsk-historie', 'Dansk skriftspråk i Norge', 'Ble det vanlige skriftspråket etter unionen med Danmark og ble brukt i om lag 400 år.', 1),
+  ('norsk-10:bokmal-og-nynorsk-historie', '1814', 'Norge fikk egen grunnlov og ble en egen stat, i union med Sverige.', 2),
+  ('norsk-10:bokmal-og-nynorsk-historie', 'Ivar Aasen', 'Samlet dialekter og lagde landsmålet, grunnlaget for nynorsk.', 3),
+  ('norsk-10:bokmal-og-nynorsk-historie', 'Landsmål', 'Aasens skriftspråk bygd på norske dialekter. Grunnlaget for nynorsk.', 4),
+  ('norsk-10:bokmal-og-nynorsk-historie', 'Knud Knudsen', 'Ville fornorske dansk gradvis. Hans linje førte til riksmålet og bokmålet.', 5),
+  ('norsk-10:bokmal-og-nynorsk-historie', 'Riksmål', 'Fornorsket dansk skriftspråk. Grunnlaget for bokmål.', 6),
+  ('norsk-10:bokmal-og-nynorsk-historie', 'Jamstillingsvedtaket 1885', 'Stortinget likestilte landsmålet med det dansk-norske skriftspråket.', 7),
+  ('norsk-10:bokmal-og-nynorsk-historie', '1929', 'Navnene bokmål og nynorsk ble vedtatt.', 8),
+  ('norsk-10:bokmal-og-nynorsk-historie', 'Samnorsk', 'Ideen om å slå sammen bokmål og nynorsk til ett språk. Senere oppgitt.', 9),
+  ('norsk-10:bokmal-og-nynorsk-historie', 'Språkloven', 'Lov i kraft fra 2022: norsk er hovedspråket, og bokmål og nynorsk er likestilte.', 10),
+  ('norsk-10:bokmal-og-nynorsk-historie', 'Samisk', 'Urfolksspråk i Norge, likestilt med norsk.', 11),
+  ('norsk-10:bokmal-og-nynorsk-historie', 'Nasjonale minoritetsspråk', 'Kvensk, romani, romanes og skogfinsk.', 12),
+  ('norsk-10:bokmal-og-nynorsk-historie', 'Hovedmål og sidemål', 'Hovedmålet er den målformen eleven bruker mest. Sidemålet er den andre.', 13),
+  ('norsk-10:bokmal-og-nynorsk-historie', 'Rettskrivingsreformer', 'De siste store: bokmål i 2005 og nynorsk i 2012.', 14);
+delete from public.quiz_sporsmal where tema_id = 'norsk-10:bokmal-og-nynorsk-historie';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('norsk-10:bokmal-og-nynorsk-historie', 'q01', 'flervalg', 'Hvorfor skrev nordmenn dansk i flere hundre år?', array['Fordi Norge var i union med Danmark', 'Fordi norsk ikke fantes', 'Fordi dansk var lettere', 'Fordi kongen kom fra Sverige']::text[], 0, 'Under unionen med Danmark ble dansk det vanlige skriftspråket, mens folk snakket norske dialekter.', true, true, 0),
+  ('norsk-10:bokmal-og-nynorsk-historie', 'q02', 'flervalg', 'Hvem lagde landsmålet?', array['Knud Knudsen', 'Henrik Ibsen', 'Ivar Aasen', 'Henrik Wergeland']::text[], 2, 'Ivar Aasen bygde landsmålet på dialektene. Det er grunnlaget for nynorsk.', true, true, 1),
+  ('norsk-10:bokmal-og-nynorsk-historie', 'q03', 'flervalg', 'Hva ville Knud Knudsen?', array['Innføre svensk', 'Fornorske det danske skriftspråket gradvis', 'Lage et nytt språk fra dialektene', 'Gå tilbake til norrønt']::text[], 1, 'Knudsen ville gradvis gjøre dansk mer norsk. Det førte til riksmål og senere bokmål.', true, true, 2),
+  ('norsk-10:bokmal-og-nynorsk-historie', 'q04', 'flervalg', 'Hva skjedde i 1885?', array['Norge fikk grunnlov', 'Bokmål fikk navnet sitt', 'Samnorsk ble innført', 'Landsmålet ble likestilt med det dansk-norske skriftspråket']::text[], 3, 'Stortingets jamstillingsvedtak i 1885 ga landsmålet samme status som det offisielle skriftspråket.', true, true, 3),
+  ('norsk-10:bokmal-og-nynorsk-historie', 'q05', 'flervalg', 'Når fikk bokmål og nynorsk navnene sine?', array['1814', '1885', '1929', '2005']::text[], 2, 'I 1929 ble navnene bokmål og nynorsk vedtatt i stedet for riksmål og landsmål.', true, true, 4),
+  ('norsk-10:bokmal-og-nynorsk-historie', 'q06', 'flervalg', 'Hva var samnorsk?', array['Et samisk språk', 'Ideen om å slå sammen bokmål og nynorsk til ett språk', 'Et nordisk fellesspråk', 'En dialekt fra Nord-Norge']::text[], 1, 'Samnorsk var et mål i språkpolitikken i deler av 1900-tallet, men ble senere oppgitt.', true, false, 5),
+  ('norsk-10:bokmal-og-nynorsk-historie', 'q07', 'flervalg', 'Hva sier språkloven om bokmål og nynorsk?', array['At bokmål er viktigst', 'At nynorsk skal fases ut', 'At de er likestilte skriftspråk', 'At de skal slås sammen']::text[], 2, 'Språkloven fra 2022 slår fast at bokmål og nynorsk er likestilte skriftspråk.', true, true, 6),
+  ('norsk-10:bokmal-og-nynorsk-historie', 'q08', 'flervalg', 'Hvilken status har samisk i Norge?', array['Urfolksspråk, likestilt med norsk', 'Nasjonalt minoritetsspråk', 'Fremmedspråk', 'Dialekt']::text[], 0, 'Samisk er urfolksspråk og likestilt med norsk.', true, true, 7),
+  ('norsk-10:bokmal-og-nynorsk-historie', 'q09', 'flervalg', 'Hvilket språk er et nasjonalt minoritetsspråk i Norge?', array['Engelsk', 'Samisk', 'Polsk', 'Kvensk']::text[], 3, 'Kvensk, romani, romanes og skogfinsk er nasjonale minoritetsspråk. Samisk har status som urfolksspråk.', true, true, 8),
+  ('norsk-10:bokmal-og-nynorsk-historie', 'q10', 'flervalg', 'Hva bygde Ivar Aasen landsmålet på?', array['Dansk skriftspråk', 'Norske dialekter, med blikk til norrønt', 'Svensk', 'Byfolkets talemål']::text[], 1, 'Aasen studerte dialekter over hele landet og brukte dem som grunnlag.', true, false, 9),
+  ('norsk-10:bokmal-og-nynorsk-historie', 'm01', 'sant-usant', 'Nynorsk bygger på landsmålet til Ivar Aasen.', array['Sant', 'Usant']::text[], 0, 'Landsmålet fikk navnet nynorsk i 1929.', false, true, 10),
+  ('norsk-10:bokmal-og-nynorsk-historie', 'm02', 'sant-usant', 'Bokmål bygger på det danske skriftspråket.', array['Sant', 'Usant']::text[], 0, 'Bokmål er en videreutvikling av dansk skriftspråk gjennom fornorsking.', false, true, 11),
+  ('norsk-10:bokmal-og-nynorsk-historie', 'm03', 'sant-usant', 'Samnorsk er det offisielle skriftspråket i Norge i dag.', array['Sant', 'Usant']::text[], 1, 'Samnorsk ble aldri innført. Bokmål og nynorsk er de likestilte skriftspråkene.', false, true, 12),
+  ('norsk-10:bokmal-og-nynorsk-historie', 'm04', 'sant-usant', 'De fleste elever i grunnskolen har nynorsk som hovedmål.', array['Sant', 'Usant']::text[], 1, 'Rundt en av ti elever har nynorsk som hovedmål. De fleste har bokmål.', false, true, 13),
+  ('norsk-10:bokmal-og-nynorsk-historie', 'm05', 'flervalg', 'Hva var jamstillingsvedtaket?', array['Et vedtak om å likestille landsmålet med det dansk-norske skriftspråket', 'En lov om samisk', 'En reform av bokmål', 'Grunnloven av 1814']::text[], 0, 'Vedtaket i 1885 ga landsmålet offisiell status.', false, true, 14),
+  ('norsk-10:bokmal-og-nynorsk-historie', 'm06', 'flervalg', 'Hvor bor det flest nynorskbrukere?', array['I Oslo', 'I Finnmark', 'På Vestlandet', 'I Trøndelag']::text[], 2, 'Nynorsk står sterkest på Vestlandet.', false, true, 15),
+  ('norsk-10:bokmal-og-nynorsk-historie', 'm07', 'flervalg', 'Når trådte språkloven i kraft?', array['1885', '1929', '2005', '2022']::text[], 3, 'Språkloven trådte i kraft 1. januar 2022.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('norsk-10:bokmal-og-nynorsk-historie', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Norsk: Språklig variasjon og dialekter
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('norsk-10:sprakvariasjon', 'norsk-10', 'sprakvariasjon', 'Språklig variasjon og dialekter', 'Dialekter, sosiolekter, etnolekter og multietnolekt, hvordan språket varierer med situasjon, og hvilke holdninger folk har til ulike måter å snakke på.', array[16]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('norsk-10:sprakvariasjon', '## Norge – et land med mange måter å snakke på
+
+I Norge er det vanlig å snakke **dialekt**, også i skolen, på jobb og på TV. Det finnes ikke noe offisielt standard talemål. Det er uvanlig i europeisk sammenheng, der mange land har et normert talemål som regnes som «riktig». Talemålet vårt varierer etter hvor vi kommer fra, hvem vi er, og hvilken situasjon vi er i.
+
+## Dialekter
+
+En **dialekt** er en geografisk variant av et språk. Norske dialekter deles ofte i fire hovedgrupper: **østnorsk**, **vestnorsk**, **trøndersk** og **nordnorsk**. Noen kjennetegn som skiller dem, er:
+
+- **Skarre-r** (bakre r), som er vanlig på Sør- og Vestlandet, mot **rulle-r** i store deler av landet ellers.
+- **Personlige pronomen**: jeg kan være eg, æ, je, i eller jæ.
+- **Infinitivsendelse**: å væra, å vere, å kaste, å kast.
+- **Tjukk l**, en særegen l-lyd i mange østnorske og trønderske dialekter.
+
+## Sosiolekt, etnolekt og multietnolekt
+
+- En **sosiolekt** er en språkvariant knyttet til en sosial gruppe, for eksempel yrke, utdanning eller samfunnslag.
+- En **etnolekt** er en variant knyttet til en etnisk gruppe.
+- En **multietnolekt** oppstår der unge med mange ulike språkbakgrunner vokser opp sammen, som i deler av Oslo. Den blander trekk fra flere språk, for eksempel ord som **wolla** (jeg sverger) og **sjofe** (se), og kan ha en annen ordstilling: «I går jeg var på kino».
+
+## Situasjon og stil
+
+Alle varierer språket etter **situasjonen**. Vi snakker annerledes til venner enn i et jobbintervju. Å bytte mellom språkvarianter etter situasjonen kalles **kodeveksling**. Et **idiolekt** er den personlige måten hver enkelt snakker på.
+
+## Språkendring og påvirkning
+
+Språk endrer seg hele tiden. Dialekter påvirkes av flytting, urbanisering og medier. Mange mener at dialektene blir mer like hverandre, særlig rundt de store byene. Samtidig tar norsk inn mange **lånord**, i dag særlig fra engelsk.
+
+## Holdninger til språk
+
+Folk har ofte sterke meninger om hvordan andre snakker. Noen dialekter blir oppfattet som «fine», andre som «bondske» eller «tøffe». Slike **holdninger** sier mer om fordommer og status enn om språket selv. Språkforskere beskriver språket slik det brukes, uten å rangere dialekter som bedre eller dårligere. Det er lurt å reflektere over hvilke holdninger man selv har, og hvorfor.', '{"label":"Språklig variasjon","children":[{"label":"Dialekter","children":[{"label":"Østnorsk, vestnorsk, trøndersk, nordnorsk"},{"label":"Skarre-r og rulle-r"},{"label":"Tjukk l"},{"label":"Pronomen","note":"eg, æ, je"}]},{"label":"Andre varianter","children":[{"label":"Sosiolekt"},{"label":"Etnolekt"},{"label":"Multietnolekt"},{"label":"Idiolekt"}]},{"label":"Situasjon","children":[{"label":"Kodeveksling"},{"label":"Formelt og uformelt"}]},{"label":"Endring","children":[{"label":"Urbanisering"},{"label":"Lånord fra engelsk"},{"label":"Utjevning av dialekter"}]},{"label":"Holdninger","children":[{"label":"Status og fordommer"},{"label":"Ingen offisiell standard"},{"label":"Reflekter over egne holdninger"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'norsk-10:sprakvariasjon';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('norsk-10:sprakvariasjon', 'Dialekt', 'En geografisk variant av et språk.', 0),
+  ('norsk-10:sprakvariasjon', 'Fire dialektgrupper', 'Østnorsk, vestnorsk, trøndersk og nordnorsk.', 1),
+  ('norsk-10:sprakvariasjon', 'Skarre-r', 'Bakre r-lyd, vanlig på Sør- og Vestlandet.', 2),
+  ('norsk-10:sprakvariasjon', 'Tjukk l', 'En særegen l-lyd i mange østnorske og trønderske dialekter.', 3),
+  ('norsk-10:sprakvariasjon', 'Sosiolekt', 'Språkvariant knyttet til en sosial gruppe, som yrke eller samfunnslag.', 4),
+  ('norsk-10:sprakvariasjon', 'Etnolekt', 'Språkvariant knyttet til en etnisk gruppe.', 5),
+  ('norsk-10:sprakvariasjon', 'Multietnolekt', 'Språkvariant som oppstår der unge med mange språkbakgrunner vokser opp sammen.', 6),
+  ('norsk-10:sprakvariasjon', 'Idiolekt', 'Den personlige måten hver enkelt snakker på.', 7),
+  ('norsk-10:sprakvariasjon', 'Kodeveksling', 'Å bytte mellom språkvarianter eller språk etter situasjonen.', 8),
+  ('norsk-10:sprakvariasjon', 'Standardtalemål', 'Et offisielt «riktig» talemål. Norge har ikke noe slikt.', 9),
+  ('norsk-10:sprakvariasjon', 'Lånord', 'Ord hentet fra andre språk, i dag særlig fra engelsk.', 10),
+  ('norsk-10:sprakvariasjon', 'Urbanisering', 'At flere flytter til byer. Påvirker dialektene.', 11),
+  ('norsk-10:sprakvariasjon', 'Språkholdninger', 'Meninger om språk og dialekter, ofte knyttet til status og fordommer.', 12),
+  ('norsk-10:sprakvariasjon', 'Beskrivende syn på språk', 'Språkforskere beskriver språket slik det brukes, uten å rangere dialekter.', 13),
+  ('norsk-10:sprakvariasjon', 'wolla', 'Ord fra multietnolekt som betyr «jeg sverger».', 14);
+delete from public.quiz_sporsmal where tema_id = 'norsk-10:sprakvariasjon';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('norsk-10:sprakvariasjon', 'q01', 'flervalg', 'Hva er en dialekt?', array['En sosial språkvariant', 'En geografisk variant av et språk', 'Et fremmedspråk', 'En personlig måte å skrive på']::text[], 1, 'Dialekter er knyttet til hvor man kommer fra.', true, true, 0),
+  ('norsk-10:sprakvariasjon', 'q02', 'flervalg', 'Hva er en sosiolekt?', array['En språkvariant knyttet til en sosial gruppe', 'En dialekt fra Vestlandet', 'Et samisk språk', 'Et ord fra engelsk']::text[], 0, 'Sosiolekter henger sammen med sosial bakgrunn, som yrke eller utdanning.', true, true, 1),
+  ('norsk-10:sprakvariasjon', 'q03', 'flervalg', 'Hvor er skarre-r særlig vanlig?', array['I Nord-Norge', 'I Trøndelag', 'På Sør- og Vestlandet', 'Østafjells']::text[], 2, 'Den bakre r-en er vanlig langs kysten fra Sørlandet til Vestlandet.', true, true, 2),
+  ('norsk-10:sprakvariasjon', 'q04', 'flervalg', 'Hva er en multietnolekt?', array['En dialekt fra én bygd', 'Et offisielt språk', 'En type skriftspråk', 'En språkvariant som oppstår der unge med ulike språkbakgrunner vokser opp sammen']::text[], 3, 'Multietnolekter blander trekk fra flere språk og er vanlige i flerspråklige bymiljøer.', true, true, 3),
+  ('norsk-10:sprakvariasjon', 'q05', 'flervalg', 'Hva er kodeveksling?', array['Å bytte språkvariant etter situasjonen', 'Å skrive kode på datamaskin', 'Å lære et nytt språk', 'Å bytte dialekt for alltid']::text[], 0, 'Vi kodeveksler når vi snakker annerledes med venner enn i formelle situasjoner.', true, true, 4),
+  ('norsk-10:sprakvariasjon', 'q06', 'flervalg', 'Hva er spesielt med Norge når det gjelder talemål?', array['Alle må snakke bokmål', 'Vi har ikke noe offisielt standardtalemål', 'Dialekter er forbudt på TV', 'Alle snakker likt']::text[], 1, 'I Norge er det vanlig og akseptert å bruke dialekt i nesten alle sammenhenger.', true, true, 5),
+  ('norsk-10:sprakvariasjon', 'q07', 'flervalg', 'Hva betyr idiolekt?', array['En dialekt fra Oslo', 'Et lånord', 'Den personlige måten hver enkelt snakker på', 'Et gammelt språk']::text[], 2, 'Ingen snakker helt likt. Idiolekten er ditt eget, personlige språk.', true, false, 6),
+  ('norsk-10:sprakvariasjon', 'q08', 'flervalg', 'Hvilket språk henter norsk flest lånord fra i dag?', array['Tysk', 'Latin', 'Svensk', 'Engelsk']::text[], 3, 'Gjennom medier, teknologi og populærkultur kommer mange nye ord fra engelsk.', true, true, 7),
+  ('norsk-10:sprakvariasjon', 'q09', 'flervalg', 'Hva sier språkforskere om at noen dialekter er «finere» enn andre?', array['At det stemmer', 'At slike vurderinger handler om holdninger og status, ikke om språket selv', 'At bydialekter alltid er finest', 'At bare skriftspråk er fint']::text[], 1, 'Forskere beskriver språket slik det brukes. Rangering av dialekter bygger på fordommer.', true, true, 8),
+  ('norsk-10:sprakvariasjon', 'q10', 'flervalg', 'Hvilke fire hovedgrupper deles norske dialekter ofte i?', array['Bokmål, nynorsk, riksmål, høgnorsk', 'Nord, sør, øst, vest', 'By, bygd, fjell, kyst', 'Østnorsk, vestnorsk, trøndersk og nordnorsk']::text[], 3, 'Dette er den vanlige inndelingen av norske dialekter i fire hovedgrupper.', true, false, 9),
+  ('norsk-10:sprakvariasjon', 'm01', 'sant-usant', 'Alle i Norge har samme idiolekt.', array['Sant', 'Usant']::text[], 1, 'Idiolekten er personlig, så ingen snakker helt likt.', false, true, 10),
+  ('norsk-10:sprakvariasjon', 'm02', 'sant-usant', 'Dialekter kan endre seg over tid.', array['Sant', 'Usant']::text[], 0, 'Flytting, urbanisering og medier påvirker hvordan folk snakker.', false, true, 11),
+  ('norsk-10:sprakvariasjon', 'm03', 'sant-usant', 'Å snakke annerledes med bestemor enn med venner er et eksempel på kodeveksling.', array['Sant', 'Usant']::text[], 0, 'Vi tilpasser språket til situasjonen og mottakeren.', false, true, 12),
+  ('norsk-10:sprakvariasjon', 'm04', 'sant-usant', 'Bokmål er det offisielle talemålet i Norge.', array['Sant', 'Usant']::text[], 1, 'Bokmål er et skriftspråk. Norge har ikke noe offisielt standardtalemål.', false, true, 13),
+  ('norsk-10:sprakvariasjon', 'm05', 'flervalg', 'Hva er et typisk trekk ved multietnolekt?', array['Bare gamle norske ord', 'Ord fra flere språk og av og til en annen ordstilling', 'Skarre-r', 'Nynorsk skriftform']::text[], 1, 'Multietnolekter blander trekk fra ulike språk, som «wolla», og kan ha annen ordstilling.', false, true, 14),
+  ('norsk-10:sprakvariasjon', 'm06', 'flervalg', 'Hva kalles en språkvariant knyttet til en etnisk gruppe?', array['Sosiolekt', 'Idiolekt', 'Etnolekt', 'Dialekt']::text[], 2, 'Etnolekt er knyttet til etnisk bakgrunn.', false, true, 15),
+  ('norsk-10:sprakvariasjon', 'm07', 'flervalg', 'Hvilken form av «jeg» er typisk for mange vestnorske dialekter?', array['eg', 'jæ', 'æ', 'je']::text[], 0, '«Eg» er vanlig på Vestlandet. «Æ» er vanlig i Trøndelag og Nord-Norge.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('norsk-10:sprakvariasjon', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Norsk: Digitale medier, språk og kommunikasjon
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('norsk-10:digitale-medier-og-sprak', 'norsk-10', 'digitale-medier-og-sprak', 'Digitale medier, språk og kommunikasjon', 'Hvordan meldinger, sosiale medier og algoritmer påvirker språket vårt og måten vi kommuniserer på, og hvordan du kan vurdere dette kritisk.', array[8]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('norsk-10:digitale-medier-og-sprak', '## Et nytt skriftlig hverdagsspråk
+
+Før skrev de fleste mest på skolen og i jobben. I dag skriver vi hele tiden: meldinger, kommentarer, innlegg og chatter. Mye av dette er **skriftlig**, men ligner **muntlig** språk. Vi skriver raskt, uformelt og ofte på dialekt. Språkforskere kaller dette gjerne en **muntlig skriftkultur**.
+
+## Kjennetegn ved digitalt språk
+
+- **Forkortelser**: lol, btw, idk, mvh.
+- **Emojier og GIF-er** som viser følelser og tone, omtrent som kroppsspråk og tonefall gjør muntlig.
+- **Dialekt og lydskrift**: «ka du gjør?» og «e du hjemme?».
+- **Engelske ord og uttrykk**: «det var så random», «cringe».
+- **Korte ytringer** og raske turvekslinger, som i en samtale.
+- **Uformell tegnsetting**: ofte ingen punktum, eller mange utropstegn!!!
+
+Noen er bekymret for at dette ødelegger språket. Andre påpeker at de fleste unge veksler mellom uformelt språk på nett og mer formelt språk på skolen, altså at de **kodeveksler**. Det viktigste er å vite hvilket språk som passer i hvilken situasjon.
+
+## Tone og misforståelser
+
+I skriftlige meldinger mangler vi tonefall, ansiktsuttrykk og kroppsspråk. Derfor kan en kort melding som «ok.» oppfattes som sur, selv om den ikke var ment slik. Emojier og utropstegn brukes ofte for å myke opp tonen. Det lønner seg å tenke over hvordan mottakeren kan lese meldingen.
+
+## Algoritmer og ekkokamre
+
+Sosiale medier bruker **algoritmer** som velger ut hva du får se, ofte basert på hva du har likt og klikket på før. Det kan føre til **ekkokamre** eller **filterbobler**, der du mest møter meninger som ligner dine egne. Mange innlegg er dessuten laget for å skape reaksjoner, fordi engasjement gir spredning. Det påvirker både hva vi diskuterer, og hvordan vi diskuterer.
+
+## Nettvett og ytringer
+
+Det vi skriver på nett, kan spres raskt og bli liggende lenge. **Netthets**, **deling av bilder uten samtykke** og **falske nyheter** er eksempler på hvordan digital kommunikasjon kan skade. Ytringsfriheten gjelder også på nett, men den har grenser, for eksempel mot trusler og hatefulle ytringer.
+
+## Nye sjangre
+
+Digitale medier har gitt oss nye sjangre, som blogginnlegg, vlogger, podkaster, memer og korte videoer. De kombinerer ofte tekst, bilde og lyd, og er dermed **sammensatte tekster**. Mange av dem bygger videre på gamle sjangre: En podkast ligner en radiosamtale, og et blogginnlegg kan ligne et kåseri.', '{"label":"Digitale medier og språk","children":[{"label":"Digitalt språk","children":[{"label":"Forkortelser"},{"label":"Emojier"},{"label":"Dialekt og lydskrift"},{"label":"Engelske ord"}]},{"label":"Kommunikasjon","children":[{"label":"Mangler tonefall"},{"label":"Misforståelser"},{"label":"Kodeveksling"}]},{"label":"Algoritmer","children":[{"label":"Velger innhold"},{"label":"Ekkokammer og filterboble"},{"label":"Engasjement gir spredning"}]},{"label":"Nettvett","children":[{"label":"Netthets"},{"label":"Samtykke til deling"},{"label":"Falske nyheter"},{"label":"Ytringsfrihet og grenser"}]},{"label":"Nye sjangre","children":[{"label":"Blogg og vlogg"},{"label":"Podkast"},{"label":"Memer"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'norsk-10:digitale-medier-og-sprak';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('norsk-10:digitale-medier-og-sprak', 'Muntlig skriftkultur', 'Skriftlig kommunikasjon, som meldinger, som ligner muntlig språk.', 0),
+  ('norsk-10:digitale-medier-og-sprak', 'Forkortelse', 'En kortform av ord eller uttrykk: lol, btw, mvh.', 1),
+  ('norsk-10:digitale-medier-og-sprak', 'Emoji', 'Bildesymbol som uttrykker følelser og tone i digitale meldinger.', 2),
+  ('norsk-10:digitale-medier-og-sprak', 'Lydskrift på nett', 'Å skrive slik man snakker, ofte på dialekt: «ka du gjør?».', 3),
+  ('norsk-10:digitale-medier-og-sprak', 'Kodeveksling', 'Å veksle mellom uformelt og formelt språk etter situasjonen.', 4),
+  ('norsk-10:digitale-medier-og-sprak', 'Tone i meldinger', 'Uten tonefall og kroppsspråk kan korte meldinger lett misforstås.', 5),
+  ('norsk-10:digitale-medier-og-sprak', 'Algoritme (sosiale medier)', 'Et dataprogram som velger ut hva du får se, basert på hva du har likt og klikket på.', 6),
+  ('norsk-10:digitale-medier-og-sprak', 'Ekkokammer', 'Når du mest møter meninger som ligner dine egne.', 7),
+  ('norsk-10:digitale-medier-og-sprak', 'Filterboble', 'Et utvalg av innhold som algoritmer lager for deg, slik at du ser en begrenset del av virkeligheten.', 8),
+  ('norsk-10:digitale-medier-og-sprak', 'Engasjement', 'Likerklikk, delinger og kommentarer. Innhold som skaper reaksjoner, spres ofte mer.', 9),
+  ('norsk-10:digitale-medier-og-sprak', 'Netthets', 'Trakassering og hets på nett.', 10),
+  ('norsk-10:digitale-medier-og-sprak', 'Samtykke', 'At noen har sagt ja, for eksempel til at et bilde av dem kan deles.', 11),
+  ('norsk-10:digitale-medier-og-sprak', 'Falske nyheter', 'Oppdiktede eller villedende saker presentert som nyheter.', 12),
+  ('norsk-10:digitale-medier-og-sprak', 'Ytringsfrihet', 'Retten til å si sin mening. Gjelder også på nett, men har grenser mot trusler og hatefulle ytringer.', 13),
+  ('norsk-10:digitale-medier-og-sprak', 'Meme', 'Et bilde eller en video med tekst som spres og endres av mange brukere.', 14);
+delete from public.quiz_sporsmal where tema_id = 'norsk-10:digitale-medier-og-sprak';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('norsk-10:digitale-medier-og-sprak', 'q01', 'flervalg', 'Hva menes med muntlig skriftkultur?', array['At vi leser høyt', 'At skriftlige meldinger ligner muntlig språk', 'At vi bare snakker', 'At vi skriver med penn']::text[], 1, 'Meldinger og chat er skriftlige, men har mange trekk fra muntlig språk.', true, true, 0),
+  ('norsk-10:digitale-medier-og-sprak', 'q02', 'flervalg', 'Hvorfor kan meldingen «ok.» oppfattes som sur?', array['Fordi den er feilstavet', 'Fordi den er for lang', 'Fordi tonefall og kroppsspråk mangler, og punktum kan virke kort', 'Fordi den er på engelsk']::text[], 2, 'Uten tone og ansiktsuttrykk leser mottakeren meldingen ut fra små signaler, som et punktum.', true, true, 1),
+  ('norsk-10:digitale-medier-og-sprak', 'q03', 'flervalg', 'Hva gjør algoritmer i sosiale medier?', array['Velger ut hva du får se basert på tidligere aktivitet', 'Retter skrivefeil', 'Oversetter innlegg', 'Sletter alle reklamer']::text[], 0, 'Algoritmene prioriterer innhold de tror du vil like og reagere på.', true, true, 2),
+  ('norsk-10:digitale-medier-og-sprak', 'q04', 'flervalg', 'Hva er et ekkokammer?', array['Et rom med ekko', 'En type podkast', 'Et innlegg som blir slettet', 'Når du mest møter meninger som ligner dine egne']::text[], 3, 'I et ekkokammer forsterkes egne meninger, fordi motstemmer sjelden slipper til.', true, true, 3),
+  ('norsk-10:digitale-medier-og-sprak', 'q05', 'flervalg', 'Hva er kodeveksling?', array['Å veksle mellom uformelt og formelt språk etter situasjonen', 'Å bytte passord', 'Å programmere', 'Å oversette fra engelsk']::text[], 0, 'De fleste skriver annerledes i en melding til en venn enn i en skoleoppgave.', true, true, 4),
+  ('norsk-10:digitale-medier-og-sprak', 'q06', 'flervalg', 'Hvilken funksjon har emojier ofte i meldinger?', array['De erstatter alle ord', 'De viser følelser og tone, omtrent som kroppsspråk', 'De gjør meldingen formell', 'De har ingen funksjon']::text[], 1, 'Emojier kan myke opp tonen og vise hvordan en melding er ment.', true, true, 5),
+  ('norsk-10:digitale-medier-og-sprak', 'q07', 'flervalg', 'Hvorfor spres innhold som skaper sterke reaksjoner ofte mer?', array['Fordi det er sant', 'Fordi det er kort', 'Fordi engasjement belønnes av algoritmene', 'Fordi det er skrevet på dialekt']::text[], 2, 'Kommentarer, delinger og likerklikk gjør at algoritmene viser innholdet til flere.', true, false, 6),
+  ('norsk-10:digitale-medier-og-sprak', 'q08', 'flervalg', 'Har ytringsfriheten grenser på nett?', array['Nei, alt er lov på nett', 'Ja, for eksempel mot trusler og hatefulle ytringer', 'Bare på skolens nettsider', 'Bare for voksne']::text[], 1, 'Ytringsfriheten gjelder også på nett, men lovverket setter grenser for blant annet trusler og hat.', true, true, 7),
+  ('norsk-10:digitale-medier-og-sprak', 'q09', 'flervalg', 'Hvilken sjanger ligner en podkast mest på?', array['Et dikt', 'En roman', 'En radiosamtale', 'En plakat']::text[], 2, 'Podkasten bygger videre på radioformatet med samtaler og intervjuer.', true, false, 8),
+  ('norsk-10:digitale-medier-og-sprak', 'q10', 'flervalg', 'Hva bør du gjøre før du deler et bilde av en venn?', array['Spørre om samtykke', 'Redigere bildet', 'Legge til en emoji', 'Ingenting']::text[], 0, 'Andre har rett til å bestemme over bilder av seg selv. Spør alltid først.', true, true, 9),
+  ('norsk-10:digitale-medier-og-sprak', 'm01', 'sant-usant', 'Det du publiserer på nett, kan bli liggende og spres i lang tid.', array['Sant', 'Usant']::text[], 0, 'Innhold kan kopieres og deles videre, selv om du sletter originalen.', false, true, 10),
+  ('norsk-10:digitale-medier-og-sprak', 'm02', 'sant-usant', 'Alle unge skriver like uformelt i skoleoppgaver som i meldinger.', array['Sant', 'Usant']::text[], 1, 'De fleste tilpasser språket til situasjonen og skriver mer formelt i skolen.', false, true, 11),
+  ('norsk-10:digitale-medier-og-sprak', 'm03', 'sant-usant', 'En filterboble kan gjøre at du ser en begrenset del av virkeligheten.', array['Sant', 'Usant']::text[], 0, 'Algoritmene viser mest av det du har vist interesse for, og mindre av annet.', false, true, 12),
+  ('norsk-10:digitale-medier-og-sprak', 'm04', 'sant-usant', 'Memer er et eksempel på sammensatte tekster.', array['Sant', 'Usant']::text[], 0, 'Memer kombinerer bilde og tekst.', false, true, 13),
+  ('norsk-10:digitale-medier-og-sprak', 'm05', 'flervalg', 'Hva er falske nyheter?', array['Nyheter fra i fjor', 'Oppdiktede eller villedende saker presentert som nyheter', 'Nyheter om kjendiser', 'Nyheter på dialekt']::text[], 1, 'Falske nyheter later som de er ekte journalistikk, men er oppdiktet eller villedende.', false, true, 14),
+  ('norsk-10:digitale-medier-og-sprak', 'm06', 'flervalg', 'Hvilket av disse er en forkortelse brukt i digitale meldinger?', array['mvh', 'hus', 'løpe', 'grønn']::text[], 0, '«Mvh» betyr «med vennlig hilsen».', false, true, 15),
+  ('norsk-10:digitale-medier-og-sprak', 'm07', 'flervalg', 'Hva kan du gjøre for å unngå at en kort melding blir misforstått?', array['Skrive i store bokstaver', 'Sende den på nytt', 'Tenke over tonen og eventuelt utdype eller bruke emoji', 'Slette appen']::text[], 2, 'Litt mer tekst eller en emoji kan vise at meldingen er vennlig ment.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('norsk-10:digitale-medier-og-sprak', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Norsk: Artikkel, drøfting og debattinnlegg
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('norsk-10:artikkel-og-debattinnlegg', 'norsk-10', 'artikkel-og-debattinnlegg', 'Artikkel, drøfting og debattinnlegg', 'Hvordan du skriver en fagartikkel, en drøftende tekst og et debattinnlegg, og hvordan du tilpasser språk og innhold til formål, mottaker og medium.', array[10, 9, 7]::int[], 5, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('norsk-10:artikkel-og-debattinnlegg', '## Formål, mottaker og medium
+
+All skriving starter med tre spørsmål: **Hva** er formålet – skal du informere, forklare, argumentere eller reflektere? **Hvem** skriver du for? **Hvor** skal teksten publiseres? Et debattinnlegg i en lokalavis skrives annerledes enn en fagartikkel til læreren eller et innlegg på sosiale medier.
+
+## Fagartikkelen
+
+En **fagartikkel** forklarer et emne og bygger på kilder. Den har en **tittel** som vekker interesse, en **innledning** som presenterer emnet og gjerne en **problemstilling**, en **hoveddel** med avsnitt og mellomtitler, og en **avslutning** som oppsummerer eller svarer på problemstillingen. Språket er saklig og presist, fagbegreper forklares, og kildene oppgis.
+
+## Den drøftende teksten
+
+Å **drøfte** betyr å se en sak fra flere sider før du konkluderer. En drøftende tekst:
+
+- presenterer en problemstilling, gjerne som spørsmål: «Bør skoledagen starte senere?»
+- legger fram argumenter **for** og **mot**, med belegg,
+- **vurderer** argumentene: Hvilke er sterkest, og hvorfor?
+- ender med en **konklusjon** som bygger på drøftingen.
+
+Ord som «på den ene siden», «på den andre siden», «likevel» og «derfor» hjelper leseren å følge resonnementet. Konklusjonen kan gjerne være nyansert: «Det er gode grunner for …, men …».
+
+## Debattinnlegget
+
+Et **debattinnlegg** skal overbevise. Det har en tydelig **påstand** tidlig, argumenter med belegg, gjerne et motargument som tilbakevises, og en avslutning med en oppfordring. Språket kan være mer personlig og engasjert, og retoriske virkemidler som retoriske spørsmål, tretall og eksempler fra virkeligheten brukes bevisst. Et **leserinnlegg** er et kort debattinnlegg fra en leser.
+
+## Reflekterende tekster
+
+En **reflekterende tekst**, som et **essay** eller et **kåseri**, undrer seg og utforsker et tema fra flere vinkler, ofte med personlige erfaringer. Den trenger ikke komme fram til en fast konklusjon.
+
+## Muntlig
+
+Muntlig argumentasjon følger mange av de samme prinsippene. I en **muntlig presentasjon** bør du ha en tydelig struktur, bruke fagspråk, ha kontakt med publikum og bruke manus eller stikkord. I en **debatt** bør du lytte til motparten, svare saklig og holde deg til saken.
+
+## Sjekkliste
+
+Før du leverer: Svarer teksten på oppgaven? Er påstanden eller problemstillingen tydelig? Har hvert avsnitt én hovedtanke? Er argumentene begrunnet med belegg? Passer språket til mottakeren? Er kildene oppgitt?', '{"label":"Artikkel, drøfting og debatt","children":[{"label":"Utgangspunkt","children":[{"label":"Formål"},{"label":"Mottaker"},{"label":"Medium"}]},{"label":"Fagartikkel","children":[{"label":"Problemstilling"},{"label":"Avsnitt og mellomtitler"},{"label":"Kilder"}]},{"label":"Drøfting","children":[{"label":"For og mot"},{"label":"Vurdere argumentene"},{"label":"Nyansert konklusjon"}]},{"label":"Debattinnlegg","children":[{"label":"Tydelig påstand"},{"label":"Belegg og motargument"},{"label":"Oppfordring"}]},{"label":"Reflekterende","children":[{"label":"Essay"},{"label":"Kåseri"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'norsk-10:artikkel-og-debattinnlegg';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('norsk-10:artikkel-og-debattinnlegg', 'Formål', 'Hvorfor teksten skrives: informere, forklare, argumentere eller reflektere.', 0),
+  ('norsk-10:artikkel-og-debattinnlegg', 'Mottaker', 'Den teksten er skrevet for. Påvirker språk og innhold.', 1),
+  ('norsk-10:artikkel-og-debattinnlegg', 'Medium', 'Der teksten publiseres, for eksempel avis, nettside eller sosiale medier.', 2),
+  ('norsk-10:artikkel-og-debattinnlegg', 'Fagartikkel', 'En saklig tekst som forklarer et emne og bygger på kilder.', 3),
+  ('norsk-10:artikkel-og-debattinnlegg', 'Problemstilling', 'Et spørsmål teksten skal undersøke eller svare på.', 4),
+  ('norsk-10:artikkel-og-debattinnlegg', 'Drøfte', 'Å se en sak fra flere sider og vurdere argumenter for og mot før man konkluderer.', 5),
+  ('norsk-10:artikkel-og-debattinnlegg', 'Konklusjon', 'Det svaret teksten kommer fram til, basert på drøftingen.', 6),
+  ('norsk-10:artikkel-og-debattinnlegg', 'Nyansert konklusjon', 'En konklusjon som tar hensyn til at saken har flere sider.', 7),
+  ('norsk-10:artikkel-og-debattinnlegg', 'Debattinnlegg', 'En tekst som skal overbevise leseren om et standpunkt.', 8),
+  ('norsk-10:artikkel-og-debattinnlegg', 'Leserinnlegg', 'Et kort debattinnlegg sendt inn av en leser.', 9),
+  ('norsk-10:artikkel-og-debattinnlegg', 'Påstand', 'Standpunktet et debattinnlegg forsvarer.', 10),
+  ('norsk-10:artikkel-og-debattinnlegg', 'Belegg', 'Fakta, eksempler og kilder som støtter et argument.', 11),
+  ('norsk-10:artikkel-og-debattinnlegg', 'Essay', 'En reflekterende og personlig tekst som undrer seg over et tema.', 12),
+  ('norsk-10:artikkel-og-debattinnlegg', 'Drøftingsord', 'Ord som «på den ene siden», «likevel» og «derfor» som viser resonnementet.', 13),
+  ('norsk-10:artikkel-og-debattinnlegg', 'Muntlig presentasjon', 'Tydelig struktur, fagspråk, kontakt med publikum og stikkord.', 14);
+delete from public.quiz_sporsmal where tema_id = 'norsk-10:artikkel-og-debattinnlegg';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('norsk-10:artikkel-og-debattinnlegg', 'q01', 'flervalg', 'Hva betyr det å drøfte?', array['Å skrive bare egen mening', 'Å se en sak fra flere sider og vurdere argumentene før man konkluderer', 'Å gjenfortelle en tekst', 'Å skrive et dikt']::text[], 1, 'Drøfting handler om å veie argumenter for og mot opp mot hverandre.', true, true, 0),
+  ('norsk-10:artikkel-og-debattinnlegg', 'q02', 'flervalg', 'Hva hører hjemme i innledningen av en fagartikkel?', array['Kildelisten', 'Konklusjonen', 'En presentasjon av emnet og gjerne en problemstilling', 'Alle argumentene']::text[], 2, 'Innledningen forteller leseren hva artikkelen skal handle om.', true, true, 1),
+  ('norsk-10:artikkel-og-debattinnlegg', 'q03', 'flervalg', 'Hva er det viktigste formålet med et debattinnlegg?', array['Å overbevise leseren', 'Å underholde', 'Å gi en nøytral oversikt', 'Å fortelle en oppdiktet historie']::text[], 0, 'Debattinnlegget argumenterer for et standpunkt og vil påvirke leseren.', true, true, 2),
+  ('norsk-10:artikkel-og-debattinnlegg', 'q04', 'flervalg', 'Hvilket uttrykk passer i en drøftende tekst?', array['Det er helt åpenbart at …', 'Alle vet at …', 'Jeg gidder ikke …', 'På den ene siden … på den andre siden …']::text[], 3, 'Slike uttrykk viser at du veier ulike synspunkter mot hverandre.', true, true, 3),
+  ('norsk-10:artikkel-og-debattinnlegg', 'q05', 'flervalg', 'Hva kjennetegner et essay?', array['Det er en reflekterende og personlig tekst som undrer seg', 'Det er alltid en nyhetssak', 'Det har alltid en fast konklusjon', 'Det består bare av tall']::text[], 0, 'Essayet utforsker et tema fra flere vinkler og kan være personlig.', true, false, 4),
+  ('norsk-10:artikkel-og-debattinnlegg', 'q06', 'flervalg', 'Hvorfor bør du tenke på mottakeren når du skriver?', array['Fordi mottakeren bestemmer tittelen', 'Fordi språk og innhold bør tilpasses den som skal lese', 'Fordi mottakeren skal rette teksten', 'Det er ikke viktig']::text[], 1, 'En tekst til ungdom på nett skrives annerledes enn en fagartikkel til en lærer.', true, true, 5),
+  ('norsk-10:artikkel-og-debattinnlegg', 'q07', 'flervalg', 'Hva er en problemstilling?', array['Et sammendrag', 'En overskrift uten spørsmål', 'Et spørsmål teksten skal undersøke eller svare på', 'Et sitat']::text[], 2, 'Problemstillingen gir teksten retning, for eksempel «Bør mobiler forbys i skolen?».', true, true, 6),
+  ('norsk-10:artikkel-og-debattinnlegg', 'q08', 'flervalg', 'Hva gjør en god konklusjon i en drøftende tekst?', array['Introduserer nye argumenter', 'Gjentar innledningen ordrett', 'Er uten sammenheng med drøftingen', 'Bygger på drøftingen og kan være nyansert']::text[], 3, 'Konklusjonen skal følge logisk av vurderingen av argumentene.', true, true, 7),
+  ('norsk-10:artikkel-og-debattinnlegg', 'q09', 'flervalg', 'Hvorfor kan det styrke et debattinnlegg å ta med et motargument?', array['Det viser at du har vurdert saken fra flere sider', 'Det gjør innlegget lengre', 'Det bytter side for deg', 'Det er påbudt']::text[], 0, 'Når du tilbakeviser et motargument, framstår du som grundig og troverdig.', true, true, 8),
+  ('norsk-10:artikkel-og-debattinnlegg', 'q10', 'flervalg', 'Hva bør du gjøre i en muntlig debatt?', array['Avbryte motparten ofte', 'Lytte til motparten og svare saklig', 'Snakke så lenge som mulig', 'Bare lese opp et manus']::text[], 1, 'God debattkultur handler om å lytte, svare på det som faktisk blir sagt, og holde seg til saken.', true, false, 9),
+  ('norsk-10:artikkel-og-debattinnlegg', 'm01', 'sant-usant', 'En drøftende tekst må alltid konkludere helt på den ene siden.', array['Sant', 'Usant']::text[], 1, 'Konklusjonen kan være nyansert og ta hensyn til flere sider.', false, true, 10),
+  ('norsk-10:artikkel-og-debattinnlegg', 'm02', 'sant-usant', 'En fagartikkel skal oppgi kildene den bygger på.', array['Sant', 'Usant']::text[], 0, 'Kildene gjør det mulig for leseren å kontrollere opplysningene.', false, true, 11),
+  ('norsk-10:artikkel-og-debattinnlegg', 'm03', 'sant-usant', 'Et debattinnlegg kan bruke retoriske virkemidler som retoriske spørsmål.', array['Sant', 'Usant']::text[], 0, 'Retoriske virkemidler brukes bevisst for å overbevise.', false, true, 12),
+  ('norsk-10:artikkel-og-debattinnlegg', 'm04', 'sant-usant', 'Formål og mottaker har liten betydning for hvordan en tekst bør skrives.', array['Sant', 'Usant']::text[], 1, 'Formål og mottaker er avgjørende for innhold, oppbygning og språk.', false, true, 13),
+  ('norsk-10:artikkel-og-debattinnlegg', 'm05', 'flervalg', 'Hvilken tekst skal typisk undre seg og utforske et tema uten fast konklusjon?', array['Nyhetsartikkel', 'Bruksanvisning', 'Essay', 'Leserinnlegg']::text[], 2, 'Essayet er reflekterende og undrende.', false, true, 14),
+  ('norsk-10:artikkel-og-debattinnlegg', 'm06', 'flervalg', 'Hva er belegg?', array['Fakta, eksempler og kilder som støtter et argument', 'Tittelen på teksten', 'En type rim', 'Avslutningen']::text[], 0, 'Argumenter blir sterkere når de støttes av belegg.', false, true, 15),
+  ('norsk-10:artikkel-og-debattinnlegg', 'm07', 'flervalg', 'Hva bør et debattinnlegg ofte avslutte med?', array['En ny problemstilling', 'En kildeliste over ti sider', 'En oppfordring og en gjentakelse av påstanden', 'Et dikt']::text[], 2, 'Avslutningen samler budskapet og ber leseren tenke eller handle.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('norsk-10:artikkel-og-debattinnlegg', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Norsk: Nynorsk: skriv betre
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('norsk-10:nynorsk-skriving', 'norsk-10', 'nynorsk-skriving', 'Nynorsk: skriv betre', 'Vanlege feil og nyttige ord når du skriv nynorsk som sidemål: substantiv, verb, pronomen, adjektiv, passiv og ord som skil seg frå bokmål.', array[11]::int[], 6, 'sjekkes', array['Sjekk nynorskformene mot nynorsknormalen frå 2012, særleg valfrie former (me/vi, begynne/byrje, tyding/betydning) og tekst skrive på nynorsk.']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('norsk-10:nynorsk-skriving', '## Frå grunnkurs til sikker skriving
+
+Når du har lært dei vanlegaste orda og bøyingane, er neste steg å unngå dei typiske feila. Mange av dei kjem av at vi skriv bokmål med nynorske ord i staden for å tenkje nynorsk. Dette sammendraget er skrive på nynorsk, slik at du ser språket i bruk.
+
+## Substantiv
+
+Nynorsk har tre kjønn, og **hokjønn** skal alltid brukast: ei bok – boka – bøker – bøkene. Hankjønn får **-ar** og **-ane** i fleirtal: ein bil – bilen – bilar – bilane. Inkjekjønn får **-a** i bestemt fleirtal: eit tre – treet – tre – trea. Ein vanleg feil er å skrive «bilene» eller «husene» på nynorsk.
+
+## Verb
+
+Hald styr på **a-verb** og **e-verb**:
+
+- a-verb: å snakke – snakkar – snakka – har snakka
+- e-verb: å lese – les – las – har lese (sterkt), å høyre – høyrer – høyrde – har høyrt (svakt)
+
+Merk at mange sterke verb ikkje har ending i presens: eg skriv, ho et, dei søv.
+
+## Passiv
+
+På bokmål brukar vi ofte **s-passiv**: «Huset bygges». På nynorsk er det vanlegast med **bli-passiv** eller **vere-passiv**: «Huset blir bygt». s-passiv kan berre brukast etter modalverb: «Huset skal byggjast».
+
+## Pronomen og småord
+
+- eg, meg, han, ho, det, vi (me), oss, de, dykk, dei
+- sin/si/sitt/sine blir brukt som på bokmål.
+- **Ikkje** «ikke», **kva** «hva», **kvar** «hvor/hver», **korleis** «hvordan», **kvifor** «hvorfor», **nokon** «noen», **noko** «noe», **mykje** «mye», **berre** «bare».
+
+## Ord som skil seg ut
+
+Nokre bokmålsord har eigne nynorske ord: begynne → **byrje** (eller begynne), spørre → **spørje**, hjemme → **heime**, gjennom → **gjennom**, bare → **berre**, skje → **hende** eller **skje**, fremtid → **framtid**, kun → **berre**, betydning → **tyding** eller **betydning**. Ord som ender på **-het** og **-else** på bokmål, får ofte andre former: kjærlighet → **kjærleik**, frihet → **fridom**, forståelse → **forståing**.
+
+## Arbeidsmåte
+
+Skriv heile teksten på nynorsk frå starten i staden for å omsetje frå bokmål. Bruk **Nynorskordboka** og retteprogram, men les over sjølv. Lag ei liste over dine eigne vanlegaste feil, og øv spesielt på dei. Les nynorske tekstar, for eksempel nyheiter på nynorsk, så blir språket meir naturleg.', '{"label":"Nynorsk: skriv betre","children":[{"label":"Substantiv","children":[{"label":"Hokjønn alltid","note":"boka"},{"label":"Hankjønn -ar/-ane"},{"label":"Inkjekjønn -a","note":"husa"}]},{"label":"Verb","children":[{"label":"a-verb","note":"snakkar – snakka"},{"label":"e-verb","note":"høyrer – høyrde"},{"label":"Sterke verb","note":"les – las"}]},{"label":"Passiv","children":[{"label":"bli-passiv","note":"blir bygt"},{"label":"s-passiv etter modalverb","note":"skal byggjast"}]},{"label":"Småord","children":[{"label":"ikkje, kva, korleis"},{"label":"nokon, noko, mykje"}]},{"label":"Eigne ord","children":[{"label":"byrje, spørje, heime"},{"label":"kjærleik, fridom"},{"label":"forståing"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'norsk-10:nynorsk-skriving';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('norsk-10:nynorsk-skriving', 'Hokjønn på nynorsk', 'Alltid i bruk: ei bok – boka – bøker – bøkene.', 0),
+  ('norsk-10:nynorsk-skriving', 'Hankjønn fleirtal', '-ar og -ane: bilar – bilane. Ikkje «bilene».', 1),
+  ('norsk-10:nynorsk-skriving', 'Inkjekjønn bestemt fleirtal', '-a: husa, trea, barna.', 2),
+  ('norsk-10:nynorsk-skriving', 'a-verb', 'snakke – snakkar – snakka – har snakka', 3),
+  ('norsk-10:nynorsk-skriving', 'Svakt e-verb', 'høyre – høyrer – høyrde – har høyrt', 4),
+  ('norsk-10:nynorsk-skriving', 'Sterkt verb', 'lese – les – las – har lese. Ofte inga ending i presens.', 5),
+  ('norsk-10:nynorsk-skriving', 'bli-passiv', 'Vanlegaste passiv på nynorsk: Huset blir bygt.', 6),
+  ('norsk-10:nynorsk-skriving', 's-passiv på nynorsk', 'Berre etter modalverb: Huset skal byggjast.', 7),
+  ('norsk-10:nynorsk-skriving', 'nokon og noko', 'Nynorsk for «noen» og «noe».', 8),
+  ('norsk-10:nynorsk-skriving', 'byrje', 'Nynorsk for «begynne» (begynne er òg tillate).', 9),
+  ('norsk-10:nynorsk-skriving', 'spørje', 'Nynorsk for «spørre».', 10),
+  ('norsk-10:nynorsk-skriving', 'heime', 'Nynorsk for «hjemme».', 11),
+  ('norsk-10:nynorsk-skriving', 'kjærleik', 'Nynorsk for «kjærlighet».', 12),
+  ('norsk-10:nynorsk-skriving', 'fridom', 'Nynorsk for «frihet».', 13),
+  ('norsk-10:nynorsk-skriving', 'forståing', 'Nynorsk for «forståelse».', 14);
+delete from public.quiz_sporsmal where tema_id = 'norsk-10:nynorsk-skriving';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('norsk-10:nynorsk-skriving', 'q01', 'flervalg', 'Kva er bestemt form fleirtal av «bil» på nynorsk?', array['bilene', 'bilane', 'bilarne', 'bila']::text[], 1, 'Hankjønn: ein bil – bilen – bilar – bilane.', true, true, 0),
+  ('norsk-10:nynorsk-skriving', 'q02', 'flervalg', 'Kva er bestemt form eintal av «bok» på nynorsk?', array['boken', 'boka', 'boki', 'bokane']::text[], 1, 'Bok er hokjønn: ei bok – boka.', true, true, 1),
+  ('norsk-10:nynorsk-skriving', 'q03', 'flervalg', 'Kva for ein setning har rett passiv på nynorsk?', array['Huset bygges no.', 'Huset byggjest no.', 'Huset blir bygt no.', 'Huset bygger no.']::text[], 2, 'På nynorsk bruker vi helst bli-passiv. s-passiv kan berre stå etter modalverb.', true, true, 2),
+  ('norsk-10:nynorsk-skriving', 'q04', 'flervalg', 'Kva heiter «kjærlighet» på nynorsk?', array['kjærleik', 'kjærlighet', 'kjærligheit', 'kjærleiken']::text[], 0, 'Kjærleik er den nynorske forma.', true, true, 3),
+  ('norsk-10:nynorsk-skriving', 'q05', 'flervalg', 'Kva er presens av «å snakke» på nynorsk?', array['snakker', 'snakk', 'snakka', 'snakkar']::text[], 3, 'Snakke er eit a-verb, og a-verb får -ar i presens.', true, true, 4),
+  ('norsk-10:nynorsk-skriving', 'q06', 'flervalg', 'Kva heiter «noe» på nynorsk?', array['noe', 'nokon', 'noko', 'nåke']::text[], 2, 'Noko = noe. Nokon = noen.', true, true, 5),
+  ('norsk-10:nynorsk-skriving', 'q07', 'flervalg', 'Kva heiter «hjemme» på nynorsk?', array['heime', 'hjemme', 'heima', 'hjeime']::text[], 0, 'Heime er den nynorske forma.', true, false, 6),
+  ('norsk-10:nynorsk-skriving', 'q08', 'flervalg', 'Kva er bestemt fleirtal av «hus» på nynorsk?', array['husene', 'husane', 'huse', 'husa']::text[], 3, 'Inkjekjønn får -a i bestemt fleirtal: husa.', true, true, 7),
+  ('norsk-10:nynorsk-skriving', 'q09', 'flervalg', 'Kva er det beste rådet når du skriv nynorsk?', array['Skriv på bokmål og omset etterpå', 'Skriv på nynorsk frå starten og bruk ordbok', 'Bruk berre retteprogram og ikkje les over', 'Bland bokmål og nynorsk fritt']::text[], 1, 'Når du tenkjer nynorsk frå starten, unngår du mange bokmålsprega feil.', true, false, 8),
+  ('norsk-10:nynorsk-skriving', 'q10', 'flervalg', 'Kva heiter «frihet» på nynorsk?', array['friheit', 'fridom', 'frihet', 'friskap']::text[], 1, 'Fridom er nynorsk for frihet.', true, true, 9),
+  ('norsk-10:nynorsk-skriving', 'm01', 'sant-usant', '«Bilene» er rett bestemt fleirtal på nynorsk.', array['Sant', 'Usant']::text[], 1, 'Rett form er «bilane».', false, true, 10),
+  ('norsk-10:nynorsk-skriving', 'm02', 'sant-usant', 'På nynorsk kan s-passiv brukast etter modalverb, som «skal byggjast».', array['Sant', 'Usant']::text[], 0, 'Etter modalverb som skal, må og kan er s-passiv tillate.', false, true, 11),
+  ('norsk-10:nynorsk-skriving', 'm03', 'sant-usant', '«Spørje» er nynorsk for «spørre».', array['Sant', 'Usant']::text[], 0, 'Spørje er den nynorske forma.', false, true, 12),
+  ('norsk-10:nynorsk-skriving', 'm04', 'sant-usant', 'Nynorsk har berre to kjønn.', array['Sant', 'Usant']::text[], 1, 'Nynorsk har tre kjønn: hankjønn, hokjønn og inkjekjønn.', false, true, 13),
+  ('norsk-10:nynorsk-skriving', 'm05', 'flervalg', 'Kva heiter «forståelse» på nynorsk?', array['forståelse', 'forståing', 'forståelsen', 'forstånad']::text[], 1, 'Forståing er nynorsk for forståelse.', false, true, 14),
+  ('norsk-10:nynorsk-skriving', 'm06', 'flervalg', 'Kva er preteritum av «å høyre» på nynorsk?', array['høyrte', 'høyra', 'høyrde', 'hørte']::text[], 2, 'Høyre er eit svakt e-verb: høyrer – høyrde – har høyrt.', false, true, 15),
+  ('norsk-10:nynorsk-skriving', 'm07', 'flervalg', 'Kva heiter «noen» på nynorsk?', array['nokon', 'noko', 'noen', 'nokre']::text[], 0, 'Nokon = noen. (Nokre brukast òg i fleirtal: nokre bøker.)', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('norsk-10:nynorsk-skriving', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk (10): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'matematikk-10' and slug not in ('regneregler-og-algebra', 'kvadratsetningene', 'likningssett', 'funksjonstyper', 'lineaere-funksjoner', 'prosentvis-endring', 'personlig-okonomi', 'modellering', 'python-i-matematikk');
+
+-- Matematikk: Regneregler og algebra
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-10:regneregler-og-algebra', 'matematikk-10', 'regneregler-og-algebra', 'Regneregler og algebra', 'Parenteser, faktorisering, potenser med bokstaver og brøk med variabler, og hvordan du bruker algebra til å vise at en sammenheng alltid gjelder.', array[1]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-10:regneregler-og-algebra', '## Algebra er regning med bokstaver
+
+I algebra står bokstavene for tall. Derfor gjelder de samme regnereglene som for tall. Vi kan bare slå sammen **like ledd**: 3x + 5x = 8x, men 3x + 5y kan ikke forenkles. Ledd med x² og ledd med x er ikke like ledd.
+
+## Parenteser
+
+- Pluss foran en parentes: parentesen kan fjernes uten endringer. 4 + (x − 2) = x + 2.
+- Minus foran en parentes: alle fortegn inne i parentesen skifter. 7 − (x − 3) = 7 − x + 3 = 10 − x.
+- En faktor foran en parentes ganges med hvert ledd: −2(3x − 5) = −6x + 10.
+- To parenteser ganges ved at hvert ledd i den første ganges med hvert ledd i den andre: (x + 2)(x + 5) = x² + 5x + 2x + 10 = x² + 7x + 10.
+
+## Faktorisering
+
+Å **faktorisere** er det motsatte av å gange ut. Vi finner en felles faktor og setter den utenfor en parentes: 6x + 9 = 3(2x + 3) og x² − 4x = x(x − 4). Faktorisering er nyttig når vi skal forkorte brøker og løse likninger.
+
+## Brøk med bokstaver
+
+Brøker med variabler forkortes ved å dele teller og nevner på samme faktor: 6x/3 = 2x og (4x + 8)/4 = x + 2. Pass på at det er faktorer og ikke ledd som strykes. I (x + 3)/x kan ikke x-ene strykes, fordi x i telleren er et ledd.
+
+## Potenser med bokstaver
+
+Potensreglene gjelder også for variabler:
+
+- a² · a³ = a⁵
+- a⁶ : a² = a⁴
+- (a²)³ = a⁶
+- (ab)² = a²b²
+- a⁻ⁿ = 1/aⁿ, for eksempel 2⁻³ = 1/8.
+
+## Generalisere
+
+Algebra lar oss vise at noe gjelder for **alle** tall, ikke bare for eksemplene vi har prøvd. Påstand: Summen av to tall som følger etter hverandre, er alltid et oddetall. Vi kaller det første tallet n. Da er det neste n + 1, og summen blir n + (n + 1) = 2n + 1. Siden 2n alltid er et partall, er 2n + 1 alltid et oddetall. Et slikt resonnement er et enkelt **bevis**. Eksempler kan vise at noe stemmer i enkelttilfeller, men bare et algebraisk argument viser at det stemmer alltid.', '{"label":"Regneregler og algebra","children":[{"label":"Ledd","children":[{"label":"Like ledd","note":"Samme variabel og potens"},{"label":"x og x² er ulike"}]},{"label":"Parenteser","children":[{"label":"Minus foran","note":"Fortegn skifter"},{"label":"Faktor foran","note":"Gang hvert ledd"},{"label":"To parenteser","note":"Alle med alle"}]},{"label":"Faktorisering","children":[{"label":"Felles faktor utenfor"},{"label":"Forkorte brøk","note":"Stryk faktorer, ikke ledd"}]},{"label":"Potenser","children":[{"label":"a² · a³ = a⁵"},{"label":"(ab)² = a²b²"},{"label":"a⁻ⁿ = 1/aⁿ"}]},{"label":"Generalisere","children":[{"label":"Partall 2n, oddetall 2n + 1"},{"label":"Bevis","note":"Gjelder alle n"},{"label":"Moteksempel","note":"Avkrefter påstand"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-10:regneregler-og-algebra';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-10:regneregler-og-algebra', 'Like ledd', 'Ledd med samme variabel i samme potens. 3x og 5x er like ledd, men x og x² er ikke det.', 0),
+  ('matematikk-10:regneregler-og-algebra', 'Minus foran parentes', 'Alle fortegn i parentesen skifter når den fjernes: 7 − (x − 3) = 7 − x + 3.', 1),
+  ('matematikk-10:regneregler-og-algebra', 'Faktor foran parentes', 'Faktoren ganges med hvert ledd: −2(3x − 5) = −6x + 10.', 2),
+  ('matematikk-10:regneregler-og-algebra', 'Gange to parenteser', 'Hvert ledd i den første ganges med hvert ledd i den andre: (x + 2)(x + 5) = x² + 7x + 10.', 3),
+  ('matematikk-10:regneregler-og-algebra', 'Faktorisere', 'Skrive et uttrykk som et produkt, ofte ved å sette en felles faktor utenfor: 6x + 9 = 3(2x + 3).', 4),
+  ('matematikk-10:regneregler-og-algebra', 'Felles faktor', 'En faktor som finnes i alle leddene. I x² − 4x er x en felles faktor.', 5),
+  ('matematikk-10:regneregler-og-algebra', 'Forkorte brøk med variabler', 'Del teller og nevner på samme faktor: (4x + 8)/4 = x + 2.', 6),
+  ('matematikk-10:regneregler-og-algebra', 'Ledd kan ikke strykes', 'I (x + 3)/x kan ikke x strykes, fordi x i telleren er et ledd og ikke en faktor.', 7),
+  ('matematikk-10:regneregler-og-algebra', 'a² · a³', '= a⁵. Ved multiplikasjon legges eksponentene sammen.', 8),
+  ('matematikk-10:regneregler-og-algebra', '(ab)²', '= a²b². Begge faktorene opphøyes.', 9),
+  ('matematikk-10:regneregler-og-algebra', 'Negativ eksponent', 'a⁻ⁿ = 1/aⁿ. For eksempel er 2⁻³ = 1/8 og 10⁻² = 0,01.', 10),
+  ('matematikk-10:regneregler-og-algebra', 'Generalisere', 'Vise at en sammenheng gjelder for alle tall, ofte med en variabel som n.', 11),
+  ('matematikk-10:regneregler-og-algebra', 'Partall og oddetall algebraisk', 'Et partall kan skrives 2n og et oddetall 2n + 1, der n er et helt tall.', 12),
+  ('matematikk-10:regneregler-og-algebra', 'Bevis', 'Et logisk argument som viser at en påstand alltid er sann. Eksempler alene er ikke et bevis.', 13),
+  ('matematikk-10:regneregler-og-algebra', 'Moteksempel', 'Ett eksempel som viser at en påstand ikke alltid stemmer.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-10:regneregler-og-algebra';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-10:regneregler-og-algebra', 'q01', 'flervalg', 'Forenkle 7 − (x − 3).', array['4 − x', '10 − x', '4 + x', '10 + x']::text[], 1, 'Minus foran parentesen gjør at alle fortegn inni skifter: 7 − x + 3 = 10 − x.', true, true, 0),
+  ('matematikk-10:regneregler-og-algebra', 'q02', 'flervalg', 'Hva er (x + 2)(x + 5)?', array['x² + 10', 'x² + 7x + 7', 'x² + 7x + 10', '2x + 7']::text[], 2, 'x · x + x · 5 + 2 · x + 2 · 5 = x² + 5x + 2x + 10 = x² + 7x + 10.', true, true, 1),
+  ('matematikk-10:regneregler-og-algebra', 'q03', 'flervalg', 'Faktoriser 6x + 9.', array['3(2x + 3)', '6(x + 9)', '3(2x + 9)', '9(x + 1)']::text[], 0, '3 er felles faktor: 6x = 3 · 2x og 9 = 3 · 3. Sjekk ved å gange ut: 3(2x + 3) = 6x + 9.', true, true, 2),
+  ('matematikk-10:regneregler-og-algebra', 'q04', 'flervalg', 'Forenkle a² · a⁴.', array['a⁸', '2a⁶', 'a⁶', 'a²⁴']::text[], 2, 'Samme grunntall: legg sammen eksponentene. 2 + 4 = 6, så svaret er a⁶.', true, true, 3),
+  ('matematikk-10:regneregler-og-algebra', 'q05', 'flervalg', 'Hva er 2⁻³?', array['−8', '−6', '1/6', '1/8']::text[], 3, 'Negativ eksponent betyr én delt på potensen: 2⁻³ = 1/2³ = 1/8.', true, true, 4),
+  ('matematikk-10:regneregler-og-algebra', 'q06', 'flervalg', 'Forkort (4x + 8)/4.', array['x + 8', 'x + 2', '4x + 2', 'x']::text[], 1, 'Begge leddene i telleren deles på 4: 4x/4 + 8/4 = x + 2.', true, false, 5),
+  ('matematikk-10:regneregler-og-algebra', 'q07', 'flervalg', 'Hva er −2(3x − 5)?', array['−6x + 10', '−6x − 10', '−6x − 5', '6x + 10']::text[], 0, 'Gang −2 med hvert ledd: −2 · 3x = −6x og −2 · (−5) = +10.', true, true, 6),
+  ('matematikk-10:regneregler-og-algebra', 'q08', 'flervalg', 'Hvordan kan et vilkårlig oddetall skrives algebraisk?', array['n + 1', '2n', 'n²', '2n + 1']::text[], 3, '2n er alltid et partall når n er et helt tall. Legger vi til 1, får vi et oddetall.', true, true, 7),
+  ('matematikk-10:regneregler-og-algebra', 'q09', 'flervalg', 'Hvorfor er n + (n + 1) = 2n + 1 et bevis for at summen av to påfølgende tall er oddetall?', array['Fordi det gjelder for n = 1', 'Fordi uttrykket gjelder for alle hele tall n', 'Fordi 2n + 1 er større enn n', 'Fordi vi har prøvd mange eksempler']::text[], 1, 'Argumentet bruker en vilkårlig n, så det gjelder for alle hele tall, ikke bare de vi har testet.', true, false, 8),
+  ('matematikk-10:regneregler-og-algebra', 'q10', 'flervalg', 'Forenkle 3x² + 2x − x² + 4x.', array['8x²', '2x² + 6x', '4x² + 6x', '2x² + 2x']::text[], 1, 'Slå sammen x²-leddene: 3x² − x² = 2x². Slå sammen x-leddene: 2x + 4x = 6x.', true, true, 9),
+  ('matematikk-10:regneregler-og-algebra', 'm01', 'sant-usant', '3x + 2y kan forenkles til 5xy.', array['Sant', 'Usant']::text[], 1, '3x og 2y er ikke like ledd, så uttrykket kan ikke slås sammen.', false, true, 10),
+  ('matematikk-10:regneregler-og-algebra', 'm02', 'sant-usant', '(x + 3)/x kan forkortes til 3.', array['Sant', 'Usant']::text[], 1, 'x i telleren er et ledd, ikke en faktor. Brøken kan skrives 1 + 3/x, men ikke som 3.', false, true, 11),
+  ('matematikk-10:regneregler-og-algebra', 'm03', 'sant-usant', '10⁻² = 0,01.', array['Sant', 'Usant']::text[], 0, '10⁻² = 1/10² = 1/100 = 0,01.', false, true, 12),
+  ('matematikk-10:regneregler-og-algebra', 'm04', 'sant-usant', 'Ett moteksempel er nok til å vise at en påstand ikke alltid gjelder.', array['Sant', 'Usant']::text[], 0, 'En påstand om «alle tall» faller hvis den er usann for ett eneste tall.', false, true, 13),
+  ('matematikk-10:regneregler-og-algebra', 'm05', 'flervalg', 'Faktoriser x² − 4x.', array['x(x − 4)', '4(x − x²)', 'x²(1 − 4)', '(x − 2)²']::text[], 0, 'x er felles faktor: x · x − x · 4 = x(x − 4).', false, true, 14),
+  ('matematikk-10:regneregler-og-algebra', 'm06', 'flervalg', 'Hva er (2a)³?', array['2a³', '6a³', '8a³', '6a']::text[], 2, 'Begge faktorene opphøyes: 2³ · a³ = 8a³.', false, true, 15),
+  ('matematikk-10:regneregler-og-algebra', 'm07', 'flervalg', 'Hva er (x − 1)(x + 4)?', array['x² − 4', 'x² + 3x − 4', 'x² + 5x − 4', 'x² − 3x + 4']::text[], 1, 'x² + 4x − x − 4 = x² + 3x − 4.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-10:regneregler-og-algebra', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk: Kvadratsetningene
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-10:kvadratsetningene', 'matematikk-10', 'kvadratsetningene', 'Kvadratsetningene', 'De tre kvadratsetningene, hvordan de kan vises geometrisk med kvadrater og rektangler, og hvordan du bruker dem til hoderegning og faktorisering.', array[2]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-10:kvadratsetningene', '## De tre kvadratsetningene
+
+Kvadratsetningene er tre formler for å gange ut spesielle parenteser raskt:
+
+- **Første kvadratsetning**: (a + b)² = a² + 2ab + b²
+- **Andre kvadratsetning**: (a − b)² = a² − 2ab + b²
+- **Tredje kvadratsetning** (konjugatsetningen): (a + b)(a − b) = a² − b²
+
+De følger av vanlig multiplikasjon av parenteser. (a + b)² = (a + b)(a + b) = a² + ab + ba + b² = a² + 2ab + b². En svært vanlig feil er å skrive (a + b)² = a² + b². Da mangler det doble midtleddet 2ab.
+
+## Geometrisk tolkning
+
+Første kvadratsetning kan tegnes. Et kvadrat med side a + b har areal (a + b)². Deler vi sidene i a og b, består kvadratet av ett kvadrat med areal a², ett med areal b² og to rektangler med areal ab hver. Til sammen blir det a² + 2ab + b². Tegningen viser tydelig hvor midtleddet kommer fra.
+
+Tredje kvadratsetning kan også vises: Fra et kvadrat med areal a² klipper vi bort et lite kvadrat med areal b². Resten kan klippes og legges om til et rektangel med sidene a + b og a − b.
+
+## Kvadratsetningene som regnestrategi
+
+Kvadratsetningene gjør hoderegning lettere:
+
+- 51² = (50 + 1)² = 2500 + 100 + 1 = 2601
+- 49² = (50 − 1)² = 2500 − 100 + 1 = 2401
+- 31 · 29 = (30 + 1)(30 − 1) = 900 − 1 = 899
+
+## Faktorisering baklengs
+
+Kvadratsetningene kan også brukes den andre veien, for å faktorisere:
+
+- x² + 6x + 9 = (x + 3)², fordi 9 = 3² og 6x = 2 · x · 3.
+- x² − 10x + 25 = (x − 5)².
+- x² − 16 = (x + 4)(x − 4).
+
+For å kjenne igjen et fullstendig kvadrat sjekker du om første og siste ledd er kvadrater, og om midtleddet er to ganger produktet av det som står i andre potens. Faktorisering med kvadratsetningene brukes senere til å forkorte brøker og løse andregradslikninger.', '{"label":"Kvadratsetningene","children":[{"label":"Setningene","children":[{"label":"(a + b)²","note":"a² + 2ab + b²"},{"label":"(a − b)²","note":"a² − 2ab + b²"},{"label":"(a + b)(a − b)","note":"a² − b²"}]},{"label":"Geometri","children":[{"label":"Kvadrat med side a + b"},{"label":"a², b² og to rektangler ab"}]},{"label":"Hoderegning","children":[{"label":"51² = 2601"},{"label":"49² = 2401"},{"label":"31 · 29 = 899"}]},{"label":"Faktorisering","children":[{"label":"Fullstendig kvadrat","note":"x² + 6x + 9 = (x + 3)²"},{"label":"Differanse av kvadrater","note":"x² − 16 = (x + 4)(x − 4)"}]},{"label":"Feller","children":[{"label":"Glemt 2ab"},{"label":"(2x)² = 4x²","note":"Ikke 2x²"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-10:kvadratsetningene';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-10:kvadratsetningene', 'Første kvadratsetning', '(a + b)² = a² + 2ab + b²', 0),
+  ('matematikk-10:kvadratsetningene', 'Andre kvadratsetning', '(a − b)² = a² − 2ab + b²', 1),
+  ('matematikk-10:kvadratsetningene', 'Tredje kvadratsetning', '(a + b)(a − b) = a² − b². Kalles også konjugatsetningen.', 2),
+  ('matematikk-10:kvadratsetningene', 'Midtleddet 2ab', 'Leddet som kommer fra de to rektanglene med areal ab. Glemmes ofte.', 3),
+  ('matematikk-10:kvadratsetningene', 'Vanlig feil', '(a + b)² er ikke a² + b². Midtleddet 2ab mangler da.', 4),
+  ('matematikk-10:kvadratsetningene', 'Geometrisk bevis', 'Et kvadrat med side a + b deles i a², b² og to rektangler ab.', 5),
+  ('matematikk-10:kvadratsetningene', 'Konjugater', 'Parentesene (a + b) og (a − b). Produktet blir a² − b².', 6),
+  ('matematikk-10:kvadratsetningene', 'Differansen av to kvadrater', 'a² − b² = (a + b)(a − b). Eksempel: x² − 16 = (x + 4)(x − 4).', 7),
+  ('matematikk-10:kvadratsetningene', '51²', '(50 + 1)² = 2500 + 100 + 1 = 2601', 8),
+  ('matematikk-10:kvadratsetningene', '49²', '(50 − 1)² = 2500 − 100 + 1 = 2401', 9),
+  ('matematikk-10:kvadratsetningene', '31 · 29', '(30 + 1)(30 − 1) = 900 − 1 = 899', 10),
+  ('matematikk-10:kvadratsetningene', 'Fullstendig kvadrat', 'Et uttrykk som x² + 6x + 9, som kan skrives som (x + 3)².', 11),
+  ('matematikk-10:kvadratsetningene', 'Kjenne igjen fullstendig kvadrat', 'Første og siste ledd er kvadrater, og midtleddet er 2 · (første rot) · (andre rot).', 12),
+  ('matematikk-10:kvadratsetningene', 'Faktorisere baklengs', 'Bruke kvadratsetningene fra høyre mot venstre: x² − 10x + 25 = (x − 5)².', 13),
+  ('matematikk-10:kvadratsetningene', 'Bruk av kvadratsetningene', 'Hoderegning, faktorisering, forkorting av brøker og løsning av andregradslikninger.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-10:kvadratsetningene';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-10:kvadratsetningene', 'q01', 'flervalg', 'Hva er (x + 3)²?', array['x² + 9', 'x² + 6x + 9', 'x² + 3x + 9', '2x + 6']::text[], 1, 'Første kvadratsetning: x² + 2 · x · 3 + 3² = x² + 6x + 9.', true, true, 0),
+  ('matematikk-10:kvadratsetningene', 'q02', 'flervalg', 'Hva er (a − 4)²?', array['a² − 16', 'a² + 8a + 16', 'a² − 8a − 16', 'a² − 8a + 16']::text[], 3, 'Andre kvadratsetning: a² − 2 · a · 4 + 4² = a² − 8a + 16. Det siste leddet er alltid positivt.', true, true, 1),
+  ('matematikk-10:kvadratsetningene', 'q03', 'flervalg', 'Hva er (x + 5)(x − 5)?', array['x² − 25', 'x² + 25', 'x² − 10x − 25', 'x² − 10']::text[], 0, 'Tredje kvadratsetning: x² − 5² = x² − 25. Midtleddene opphever hverandre.', true, true, 2),
+  ('matematikk-10:kvadratsetningene', 'q04', 'flervalg', 'Hvilken feil er vanligst med første kvadratsetning?', array['Å skrive a² − b²', 'Å bytte fortegn på a²', 'Å glemme midtleddet 2ab', 'Å gange med 3']::text[], 2, 'Mange skriver (a + b)² = a² + b² og glemmer 2ab, som tilsvarer de to rektanglene i figuren.', true, false, 3),
+  ('matematikk-10:kvadratsetningene', 'q05', 'flervalg', 'Regn ut 51² med første kvadratsetning.', array['2501', '2601', '2551', '2511']::text[], 1, '(50 + 1)² = 2500 + 2 · 50 · 1 + 1 = 2500 + 100 + 1 = 2601.', true, true, 4),
+  ('matematikk-10:kvadratsetningene', 'q06', 'flervalg', 'Regn ut 31 · 29.', array['899', '901', '869', '929']::text[], 0, '(30 + 1)(30 − 1) = 30² − 1² = 900 − 1 = 899.', true, true, 5),
+  ('matematikk-10:kvadratsetningene', 'q07', 'flervalg', 'Faktoriser x² + 6x + 9.', array['(x + 9)(x + 1)', '(x + 6)(x + 3)', '(x − 3)²', '(x + 3)²']::text[], 3, '9 = 3² og 6x = 2 · x · 3, så uttrykket er et fullstendig kvadrat: (x + 3)².', true, true, 6),
+  ('matematikk-10:kvadratsetningene', 'q08', 'flervalg', 'Faktoriser x² − 16.', array['(x − 4)²', '(x + 4)(x − 4)', '(x − 8)(x + 2)', '(x + 16)(x − 1)']::text[], 1, 'Differansen av to kvadrater: x² − 4² = (x + 4)(x − 4).', true, true, 7),
+  ('matematikk-10:kvadratsetningene', 'q09', 'flervalg', 'I figuren for (a + b)², hva tilsvarer leddet 2ab?', array['Det store kvadratet', 'Det lille kvadratet', 'De to rektanglene', 'Hele figuren']::text[], 2, 'Kvadratet med side a + b består av a², b² og to rektangler på a · b. Rektanglene gir 2ab.', true, false, 8),
+  ('matematikk-10:kvadratsetningene', 'q10', 'flervalg', 'Hva er (2x + 1)²?', array['4x² + 4x + 1', '2x² + 4x + 1', '4x² + 1', '4x² + 2x + 1']::text[], 0, '(2x)² + 2 · 2x · 1 + 1² = 4x² + 4x + 1. Husk at hele 2x skal opphøyes.', true, true, 9),
+  ('matematikk-10:kvadratsetningene', 'm01', 'sant-usant', '(a + b)² = a² + b².', array['Sant', 'Usant']::text[], 1, 'Midtleddet mangler. Riktig er a² + 2ab + b².', false, true, 10),
+  ('matematikk-10:kvadratsetningene', 'm02', 'sant-usant', '(a − b)² har alltid et positivt siste ledd.', array['Sant', 'Usant']::text[], 0, 'Siste ledd er b², og et kvadrat er aldri negativt.', false, true, 11),
+  ('matematikk-10:kvadratsetningene', 'm03', 'sant-usant', 'x² + 4 kan faktoriseres med tredje kvadratsetning.', array['Sant', 'Usant']::text[], 1, 'Tredje kvadratsetning gjelder differansen av to kvadrater, a² − b². En sum av kvadrater kan ikke faktoriseres slik.', false, true, 12),
+  ('matematikk-10:kvadratsetningene', 'm04', 'sant-usant', '99² = 9801.', array['Sant', 'Usant']::text[], 0, '(100 − 1)² = 10 000 − 200 + 1 = 9801.', false, true, 13),
+  ('matematikk-10:kvadratsetningene', 'm05', 'flervalg', 'Faktoriser x² − 10x + 25.', array['(x + 5)²', '(x − 5)(x + 5)', '(x − 25)(x − 1)', '(x − 5)²']::text[], 3, '25 = 5² og −10x = −2 · x · 5. Det er andre kvadratsetning baklengs: (x − 5)².', false, true, 14),
+  ('matematikk-10:kvadratsetningene', 'm06', 'flervalg', 'Hva er 102 · 98?', array['9996', '10 004', '9604', '9994']::text[], 0, '(100 + 2)(100 − 2) = 10 000 − 4 = 9996.', false, true, 15),
+  ('matematikk-10:kvadratsetningene', 'm07', 'flervalg', 'Hva er (3 − y)²?', array['9 − y²', '9 − 6y + y²', '9 + 6y + y²', '9 − 3y + y²']::text[], 1, 'Andre kvadratsetning: 3² − 2 · 3 · y + y² = 9 − 6y + y².', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-10:kvadratsetningene', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk: Likningssett
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-10:likningssett', 'matematikk-10', 'likningssett', 'Likningssett', 'To likninger med to ukjente: innsettingsmetoden, addisjonsmetoden, grafisk løsning og hvordan du lager likningssett til praktiske problemer.', array[3]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-10:likningssett', '## Hva er et likningssett?
+
+Et **likningssett** består av to (eller flere) likninger med to (eller flere) ukjente. Løsningen er de verdiene av x og y som passer i begge likningene samtidig. Med én likning og to ukjente finnes det uendelig mange løsninger, men to likninger gir som regel én bestemt løsning.
+
+Eksempel:
+
+- x + y = 10
+- x − y = 4
+
+Løsningen er x = 7 og y = 3, fordi 7 + 3 = 10 og 7 − 3 = 4.
+
+## Innsettingsmetoden
+
+1. Løs den ene likningen for én av de ukjente, for eksempel y = 10 − x.
+2. Sett uttrykket inn i den andre likningen: x − (10 − x) = 4.
+3. Løs likningen: 2x − 10 = 4, altså x = 7.
+4. Sett x inn igjen for å finne y: y = 10 − 7 = 3.
+
+## Addisjonsmetoden
+
+Vi legger sammen eller trekker fra likningene slik at én ukjent forsvinner. I eksempelet gir summen av likningene (x + y) + (x − y) = 10 + 4, altså 2x = 14 og x = 7. Noen ganger må vi først gange en av likningene med et tall, slik at koeffisientene foran én av de ukjente blir motsatte tall.
+
+## Grafisk løsning
+
+Hver lineære likning kan skrives som en funksjon, for eksempel y = −x + 10 og y = x − 4. Grafene er rette linjer, og løsningen er **skjæringspunktet** mellom dem, her (7, 3). Grafisk løsning gir god oversikt og kan gjøres i et digitalt verktøy.
+
+To linjer kan også være parallelle. Da har likningssettet ingen løsning. Er de to likningene egentlig samme linje, har det uendelig mange løsninger.
+
+## Praktiske problemer
+
+Likningssett passer når vi har to ukjente størrelser og to opplysninger om dem. «På en konsert ble det solgt 300 billetter. Voksne betalte 250 kr og barn 100 kr. Inntekten ble 54 000 kr. Hvor mange voksne var det?» La v være antall voksne og b antall barn:
+
+- v + b = 300
+- 250v + 100b = 54 000
+
+Med innsetting: b = 300 − v gir 250v + 100(300 − v) = 54 000, altså 150v = 24 000 og v = 160. Da er b = 140.
+
+Forklar alltid hva variablene står for, og kontroller svaret i begge likningene. Vurder også om svaret gir mening: antall billetter må være hele, positive tall.', '{"label":"Likningssett","children":[{"label":"Begrep","children":[{"label":"To likninger, to ukjente"},{"label":"Løsning passer i begge"}]},{"label":"Metoder","children":[{"label":"Innsetting","note":"Løs for én, sett inn"},{"label":"Addisjon","note":"Fjern én ukjent"},{"label":"Grafisk","note":"Skjæringspunkt"}]},{"label":"Antall løsninger","children":[{"label":"Én","note":"Linjene krysser"},{"label":"Ingen","note":"Parallelle linjer"},{"label":"Uendelig mange","note":"Samme linje"}]},{"label":"Praksis","children":[{"label":"Definer variablene"},{"label":"To opplysninger → to likninger"},{"label":"Sett prøve og vurder"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-10:likningssett';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-10:likningssett', 'Likningssett', 'To eller flere likninger med to eller flere ukjente som skal gjelde samtidig.', 0),
+  ('matematikk-10:likningssett', 'Løsning av likningssett', 'Verdiene av de ukjente som passer i alle likningene samtidig.', 1),
+  ('matematikk-10:likningssett', 'Innsettingsmetoden', 'Løs én likning for én ukjent, og sett uttrykket inn i den andre likningen.', 2),
+  ('matematikk-10:likningssett', 'Addisjonsmetoden', 'Legg sammen eller trekk fra likningene slik at én ukjent forsvinner.', 3),
+  ('matematikk-10:likningssett', 'Motsatte koeffisienter', 'For eksempel +y og −y. Da forsvinner y når likningene legges sammen.', 4),
+  ('matematikk-10:likningssett', 'Gange en likning', 'Begge sider ganges med samme tall, ofte for å få motsatte koeffisienter før addisjon.', 5),
+  ('matematikk-10:likningssett', 'Grafisk løsning', 'Tegn begge likningene som linjer. Skjæringspunktet er løsningen.', 6),
+  ('matematikk-10:likningssett', 'Skjæringspunkt', 'Punktet der to grafer krysser hverandre.', 7),
+  ('matematikk-10:likningssett', 'Parallelle linjer', 'Linjer med samme stigningstall som aldri møtes. Likningssettet har da ingen løsning.', 8),
+  ('matematikk-10:likningssett', 'Sammenfallende linjer', 'To likninger som beskriver samme linje. Da er det uendelig mange løsninger.', 9),
+  ('matematikk-10:likningssett', 'Sette prøve', 'Sjekke at løsningen stemmer i begge de opprinnelige likningene.', 10),
+  ('matematikk-10:likningssett', 'Definere variabler', 'Skriv hva hver bokstav står for, for eksempel v = antall voksne.', 11),
+  ('matematikk-10:likningssett', 'To opplysninger', 'For å finne to ukjente trenger vi to uavhengige opplysninger, altså to likninger.', 12),
+  ('matematikk-10:likningssett', 'Løse for y', 'Omforme en likning så y står alene: x + y = 10 gir y = 10 − x.', 13),
+  ('matematikk-10:likningssett', 'Vurdere svaret', 'Sjekke at løsningen gir mening i situasjonen, for eksempel hele, positive antall.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-10:likningssett';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-10:likningssett', 'q01', 'flervalg', 'Hva er løsningen av likningssettet x + y = 10 og x − y = 4?', array['x = 6, y = 4', 'x = 7, y = 3', 'x = 3, y = 7', 'x = 5, y = 5']::text[], 1, 'Legg sammen likningene: 2x = 14, så x = 7. Da er y = 10 − 7 = 3. Sjekk: 7 − 3 = 4.', true, true, 0),
+  ('matematikk-10:likningssett', 'q02', 'flervalg', 'Hva er første steg i innsettingsmetoden?', array['Tegne grafene', 'Legge sammen likningene', 'Løse én likning for én av de ukjente', 'Gange begge likningene med 2']::text[], 2, 'I innsettingsmetoden uttrykker du først én ukjent ved hjelp av den andre, for eksempel y = 10 − x.', true, true, 1),
+  ('matematikk-10:likningssett', 'q03', 'flervalg', 'Løs likningssettet y = 2x og x + y = 9.', array['x = 3, y = 6', 'x = 6, y = 3', 'x = 2, y = 7', 'x = 4,5, y = 4,5']::text[], 0, 'Sett y = 2x inn i den andre: x + 2x = 9, så 3x = 9 og x = 3. Da er y = 2 · 3 = 6.', true, true, 2),
+  ('matematikk-10:likningssett', 'q04', 'flervalg', 'Hva betyr skjæringspunktet mellom to linjer i et grafisk likningssett?', array['At likningssettet ikke har løsning', 'Stigningstallet', 'Konstantleddet', 'Løsningen av likningssettet']::text[], 3, 'Skjæringspunktet ligger på begge linjene, så koordinatene passer i begge likningene.', true, true, 3),
+  ('matematikk-10:likningssett', 'q05', 'flervalg', 'Hva skjer hvis linjene i et likningssett er parallelle?', array['Det finnes uendelig mange løsninger', 'Det finnes ingen løsning', 'x = 0', 'Løsningen er origo']::text[], 1, 'Parallelle linjer møtes aldri, så det finnes ingen punkt som ligger på begge.', true, true, 4),
+  ('matematikk-10:likningssett', 'q06', 'flervalg', 'Løs 2x + y = 11 og x − y = 1 med addisjonsmetoden.', array['x = 4, y = 3', 'x = 3, y = 5', 'x = 5, y = 1', 'x = 6, y = 5']::text[], 0, 'Legg sammen: 3x = 12, så x = 4. Sett inn: 4 − y = 1 gir y = 3. Sjekk: 2 · 4 + 3 = 11.', true, true, 5),
+  ('matematikk-10:likningssett', 'q07', 'flervalg', '300 billetter ble solgt, voksne til 250 kr og barn til 100 kr, totalt 54 000 kr. Hvilket likningssett passer?', array['v + b = 54 000 og 250v + 100b = 300', 'v · b = 300 og v + b = 54 000', '250v + 100b = 300 og v − b = 54 000', 'v + b = 300 og 250v + 100b = 54 000']::text[], 3, 'Antall billetter gir v + b = 300. Inntekten gir 250v + 100b = 54 000.', true, true, 6),
+  ('matematikk-10:likningssett', 'q08', 'flervalg', 'Hvor mange voksne var det på konserten i spørsmålet over?', array['140', '150', '160', '216']::text[], 2, 'b = 300 − v gir 250v + 30 000 − 100v = 54 000, så 150v = 24 000 og v = 160.', true, true, 7),
+  ('matematikk-10:likningssett', 'q09', 'flervalg', 'Hvorfor trenger vi to likninger for å finne to ukjente?', array['Fordi én likning med to ukjente har uendelig mange løsninger', 'Fordi det er en regel i matematikken uten grunn', 'Fordi det gjør regningen raskere', 'Fordi to likninger alltid har samme løsning']::text[], 0, 'x + y = 10 har løsninger som 1 og 9, 2 og 8 osv. En opplysning til trengs for å peke ut én løsning.', true, false, 8),
+  ('matematikk-10:likningssett', 'q10', 'flervalg', 'Hvilket tall må du gange den andre likningen med for å fjerne y? 3x + 2y = 12 og x − y = 1', array['−2', '3', '2', '−3']::text[], 2, 'Ganger du x − y = 1 med 2, får du 2x − 2y = 2. Legger du den til den første, forsvinner y: 5x = 14.', true, false, 9),
+  ('matematikk-10:likningssett', 'm01', 'sant-usant', 'En løsning av et likningssett må passe i begge likningene.', array['Sant', 'Usant']::text[], 0, 'Det er nettopp det som gjør den til en løsning av settet.', false, true, 10),
+  ('matematikk-10:likningssett', 'm02', 'sant-usant', 'Et likningssett med to lineære likninger har alltid nøyaktig én løsning.', array['Sant', 'Usant']::text[], 1, 'Er linjene parallelle, er det ingen løsning. Er de samme linje, er det uendelig mange.', false, true, 11),
+  ('matematikk-10:likningssett', 'm03', 'sant-usant', 'x = 2, y = 5 er løsningen av x + y = 7 og 2x − y = −1.', array['Sant', 'Usant']::text[], 0, '2 + 5 = 7 og 2 · 2 − 5 = −1. Begge likningene stemmer.', false, true, 12),
+  ('matematikk-10:likningssett', 'm04', 'sant-usant', 'Grafisk løsning av et likningssett gir alltid et nøyaktig svar.', array['Sant', 'Usant']::text[], 1, 'Avlesning fra en graf kan være unøyaktig. Et digitalt verktøy eller regning gir sikrere svar.', false, true, 13),
+  ('matematikk-10:likningssett', 'm05', 'flervalg', 'Løs x + 2y = 8 og x − 2y = 0.', array['x = 4, y = 2', 'x = 2, y = 4', 'x = 8, y = 0', 'x = 0, y = 4']::text[], 0, 'Legg sammen: 2x = 8, så x = 4. Da er 4 − 2y = 0, altså y = 2.', false, true, 14),
+  ('matematikk-10:likningssett', 'm06', 'flervalg', 'Et eple og en banan koster 12 kr. To epler og en banan koster 17 kr. Hva koster et eple?', array['7 kr', '5 kr', '6 kr', '4 kr']::text[], 1, 'Trekk den første likningen fra den andre: e = 17 − 12 = 5 kr. Da koster bananen 7 kr.', false, true, 15),
+  ('matematikk-10:likningssett', 'm07', 'flervalg', 'Hvilket par av linjer gir ingen løsning?', array['y = 2x + 1 og y = −x + 4', 'y = x og y = −x', 'y = 3x + 1 og y = 3x − 2', 'y = x + 2 og y = 2x + 2']::text[], 2, 'Begge har stigningstall 3, men ulikt konstantledd. De er parallelle og møtes aldri.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-10:likningssett', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk: Ulike typer funksjoner
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-10:funksjonstyper', 'matematikk-10', 'funksjonstyper', 'Ulike typer funksjoner', 'Lineære funksjoner, andregradsfunksjoner, eksponentialfunksjoner og omvendt proporsjonale funksjoner – hvordan de ser ut, og hvordan du kjenner dem igjen.', array[4]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-10:funksjonstyper', '## Fire funksjonstyper
+
+I 10. trinn møter du fire typer funksjoner. De har hver sin form på uttrykket og hver sin form på grafen, og de passer til ulike situasjoner i virkeligheten.
+
+## Lineære funksjoner
+
+En **lineær funksjon** har formen f(x) = ax + b. Grafen er en rett linje. Funksjonen endrer seg med like mye, a, hver gang x øker med 1. Eksempel: En mobilabonnent betaler 99 kr i måneden pluss 0,50 kr per SMS.
+
+## Andregradsfunksjoner
+
+En **andregradsfunksjon** har formen f(x) = ax² + bx + c, der a ≠ 0. Grafen er en **parabel**. Er a positiv, smiler parabelen og har et **bunnpunkt**. Er a negativ, er den sur og har et **toppunkt**. Parabelen er symmetrisk om en loddrett linje gjennom topp- eller bunnpunktet. Eksempel: Høyden til en ball som kastes, eller arealet av et kvadrat, A(s) = s².
+
+## Eksponentialfunksjoner
+
+En **eksponentialfunksjon** har formen f(x) = a · bˣ. Her er x i eksponenten. Funksjonen endrer seg med samme **prosent** for hver enhet, ikke med samme antall. Er b større enn 1, vokser funksjonen raskere og raskere (eksponentiell vekst). Er b mellom 0 og 1, avtar den (eksponentiell nedgang). Eksempel: penger i banken med fast rente, eller verdien av en bil som synker med 15 % i året.
+
+## Omvendt proporsjonale funksjoner (brøkfunksjoner)
+
+En **omvendt proporsjonal funksjon** har formen f(x) = k/x. Når x dobles, halveres funksjonsverdien. Produktet x · f(x) er alltid lik konstanten k. Grafen er en **hyperbel** som nærmer seg aksene uten å treffe dem. Eksempel: Tiden det tar å kjøre 120 km er t = 120/v. Dobbelt så høy fart gir halv tid.
+
+## Sammenligne med digitale verktøy
+
+Med et digitalt verktøy som GeoGebra kan du tegne flere funksjoner i samme koordinatsystem og sammenligne dem. Du kan finne skjæringspunkter, nullpunkter (der grafen krysser x-aksen) og topp- og bunnpunkter. Et nyttig spørsmål er: Hvordan endrer funksjonen seg når x øker med 1? Lik endring i antall tyder på lineær funksjon. Lik endring i prosent tyder på eksponentialfunksjon. Dersom produktet x · y er konstant, er funksjonen omvendt proporsjonal.', '{"label":"Funksjonstyper","children":[{"label":"Lineær","children":[{"label":"f(x) = ax + b"},{"label":"Rett linje"},{"label":"Lik endring i antall"}]},{"label":"Andregrads","children":[{"label":"f(x) = ax² + bx + c"},{"label":"Parabel","note":"Symmetrisk"},{"label":"a > 0: bunnpunkt","note":"a < 0: toppunkt"}]},{"label":"Eksponentiell","children":[{"label":"f(x) = a · bˣ"},{"label":"Lik endring i prosent"},{"label":"b > 1 vekst","note":"0 < b < 1 nedgang"}]},{"label":"Omvendt proporsjonal","children":[{"label":"f(x) = k/x"},{"label":"Hyperbel"},{"label":"x · y = k"}]},{"label":"Undersøke","children":[{"label":"Nullpunkter"},{"label":"Skjæringspunkter"},{"label":"Digitale verktøy","note":"GeoGebra"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-10:funksjonstyper';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-10:funksjonstyper', 'Lineær funksjon', 'f(x) = ax + b. Grafen er en rett linje, og funksjonen endrer seg med like mye per enhet.', 0),
+  ('matematikk-10:funksjonstyper', 'Andregradsfunksjon', 'f(x) = ax² + bx + c med a ≠ 0. Grafen er en parabel.', 1),
+  ('matematikk-10:funksjonstyper', 'Parabel', 'Grafen til en andregradsfunksjon. Den er symmetrisk og har et topp- eller bunnpunkt.', 2),
+  ('matematikk-10:funksjonstyper', 'Bunnpunkt', 'Det laveste punktet på en parabel som smiler (a > 0).', 3),
+  ('matematikk-10:funksjonstyper', 'Toppunkt', 'Det høyeste punktet på en parabel som er sur (a < 0).', 4),
+  ('matematikk-10:funksjonstyper', 'Eksponentialfunksjon', 'f(x) = a · bˣ. Endrer seg med samme prosent per enhet.', 5),
+  ('matematikk-10:funksjonstyper', 'Eksponentiell vekst', 'b > 1. Funksjonen vokser raskere og raskere.', 6),
+  ('matematikk-10:funksjonstyper', 'Eksponentiell nedgang', '0 < b < 1. Funksjonen avtar, men blir aldri null.', 7),
+  ('matematikk-10:funksjonstyper', 'Omvendt proporsjonal', 'f(x) = k/x. Når x dobles, halveres f(x). x · f(x) = k.', 8),
+  ('matematikk-10:funksjonstyper', 'Hyperbel', 'Grafen til en omvendt proporsjonal funksjon. Den nærmer seg aksene uten å treffe dem.', 9),
+  ('matematikk-10:funksjonstyper', 'Nullpunkt', 'En x-verdi der f(x) = 0, altså der grafen krysser x-aksen.', 10),
+  ('matematikk-10:funksjonstyper', 'Symmetrilinje', 'Den loddrette linjen gjennom topp- eller bunnpunktet som deler parabelen i to speilbilder.', 11),
+  ('matematikk-10:funksjonstyper', 'Lik endring i antall', 'Kjennetegn på en lineær funksjon.', 12),
+  ('matematikk-10:funksjonstyper', 'Lik endring i prosent', 'Kjennetegn på en eksponentialfunksjon.', 13),
+  ('matematikk-10:funksjonstyper', 'GeoGebra', 'Digitalt verktøy for å tegne grafer og finne skjæringspunkter, nullpunkter og topp- og bunnpunkter.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-10:funksjonstyper';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-10:funksjonstyper', 'q01', 'flervalg', 'Hvilken funksjon er en eksponentialfunksjon?', array['f(x) = 3x + 2', 'f(x) = 500 · 1,05ˣ', 'f(x) = x² − 4', 'f(x) = 12/x']::text[], 1, 'I en eksponentialfunksjon står x i eksponenten. 500 · 1,05ˣ vokser med 5 % per enhet.', true, true, 0),
+  ('matematikk-10:funksjonstyper', 'q02', 'flervalg', 'Hvordan ser grafen til en andregradsfunksjon ut?', array['En rett linje', 'En hyperbel', 'En parabel', 'En sirkel']::text[], 2, 'Grafen til f(x) = ax² + bx + c er en parabel, som enten smiler eller er sur.', true, true, 1),
+  ('matematikk-10:funksjonstyper', 'q03', 'flervalg', 'f(x) = −x² + 4x. Har grafen et toppunkt eller bunnpunkt?', array['Toppunkt, fordi a er negativ', 'Bunnpunkt, fordi a er negativ', 'Bunnpunkt, fordi 4 er positiv', 'Ingen av delene']::text[], 0, 'Tallet foran x² er −1. Når det er negativt, er parabelen sur og har et toppunkt.', true, true, 2),
+  ('matematikk-10:funksjonstyper', 'q04', 'flervalg', 'En funksjon øker med 20 hver gang x øker med 1. Hvilken type er den?', array['Eksponentiell', 'Andregrads', 'Omvendt proporsjonal', 'Lineær']::text[], 3, 'Lik endring i antall per enhet er kjennetegnet på en lineær funksjon.', true, true, 3),
+  ('matematikk-10:funksjonstyper', 'q05', 'flervalg', 'Tiden for å kjøre 120 km er t = 120/v. Hva skjer med t når farten v dobles?', array['t dobles', 't halveres', 't er uendret', 't blir fire ganger så stor']::text[], 1, 'Funksjonen er omvendt proporsjonal. Dobbelt så stor v gir halvparten så stor t.', true, true, 4),
+  ('matematikk-10:funksjonstyper', 'q06', 'flervalg', 'En bil taper 15 % av verdien hvert år. Hvilken funksjonstype passer?', array['Lineær', 'Andregrads', 'Eksponentiell nedgang', 'Omvendt proporsjonal']::text[], 2, 'Verdien synker med samme prosent hvert år, så V(x) = startverdi · 0,85ˣ, en eksponentiell nedgang.', true, true, 5),
+  ('matematikk-10:funksjonstyper', 'q07', 'flervalg', 'Hva er et nullpunkt?', array['Der grafen krysser x-aksen', 'Der grafen krysser y-aksen', 'Toppunktet', 'Origo']::text[], 0, 'Et nullpunkt er en x-verdi der funksjonsverdien er 0, altså der grafen skjærer x-aksen.', true, false, 6),
+  ('matematikk-10:funksjonstyper', 'q08', 'flervalg', 'Tabellen viser x = 1, 2, 3, 4 og y = 24, 12, 8, 6. Hvilken type funksjon er dette?', array['Lineær', 'Eksponentiell', 'Andregrads', 'Omvendt proporsjonal']::text[], 3, 'x · y = 24 i alle tilfellene: 1 · 24, 2 · 12, 3 · 8, 4 · 6. Da er funksjonen y = 24/x.', true, true, 7),
+  ('matematikk-10:funksjonstyper', 'q09', 'flervalg', 'Hvilket kjennetegn har f(x) = 2 · 3ˣ?', array['Den øker med 3 per enhet', 'Den tredobles for hver enhet x øker', 'Den er en rett linje', 'Den har et toppunkt']::text[], 1, 'Vekstfaktoren er 3, så funksjonsverdien ganges med 3 hver gang x øker med 1: 2, 6, 18, 54 …', true, true, 8),
+  ('matematikk-10:funksjonstyper', 'q10', 'flervalg', 'Kan en eksponentialfunksjon med nedgang bli null?', array['Ja, etter lang nok tid', 'Ja, når x = 0', 'Ja, når x = 1', 'Nei, den nærmer seg null, men blir aldri null']::text[], 3, 'Hver gang ganges verdien med et tall mellom 0 og 1. Den blir mindre og mindre, men aldri nøyaktig 0.', true, false, 9),
+  ('matematikk-10:funksjonstyper', 'm01', 'sant-usant', 'Grafen til f(x) = 5x − 3 er en rett linje.', array['Sant', 'Usant']::text[], 0, 'Funksjonen har formen ax + b og er derfor lineær.', false, true, 10),
+  ('matematikk-10:funksjonstyper', 'm02', 'sant-usant', 'I f(x) = 100 · 0,9ˣ vokser funksjonen.', array['Sant', 'Usant']::text[], 1, 'Vekstfaktoren 0,9 er mindre enn 1, så funksjonen avtar med 10 % per enhet.', false, true, 11),
+  ('matematikk-10:funksjonstyper', 'm03', 'sant-usant', 'En parabel er symmetrisk om en loddrett linje.', array['Sant', 'Usant']::text[], 0, 'Symmetrilinjen går gjennom topp- eller bunnpunktet.', false, true, 12),
+  ('matematikk-10:funksjonstyper', 'm04', 'sant-usant', 'Grafen til f(x) = 6/x krysser y-aksen.', array['Sant', 'Usant']::text[], 1, 'Funksjonen er ikke definert for x = 0, så grafen treffer aldri y-aksen.', false, true, 13),
+  ('matematikk-10:funksjonstyper', 'm05', 'flervalg', 'Hva er f(2) når f(x) = 3 · 2ˣ?', array['12', '36', '6', '18']::text[], 0, 'f(2) = 3 · 2² = 3 · 4 = 12.', false, true, 14),
+  ('matematikk-10:funksjonstyper', 'm06', 'flervalg', 'Hvilken situasjon passer best med en andregradsfunksjon?', array['Fast månedspris pluss pris per SMS', 'Høyden til en ball som kastes opp og faller ned', 'Penger med fast rente', 'Tid for en fast strekning ved ulik fart']::text[], 1, 'Ballens bane stiger, når et toppunkt og faller igjen, som en sur parabel.', false, true, 15),
+  ('matematikk-10:funksjonstyper', 'm07', 'flervalg', 'Hvilken funksjon har y = 8 når x = 2 og y = 4 når x = 4?', array['y = 2x + 4', 'y = x²', 'y = 16/x', 'y = 2ˣ']::text[], 2, '16/2 = 8 og 16/4 = 4. Produktet x · y er 16 i begge tilfellene.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-10:funksjonstyper', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk: Stigningstall og lineære funksjoner
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-10:lineaere-funksjoner', 'matematikk-10', 'lineaere-funksjoner', 'Stigningstall og lineære funksjoner', 'Endring per enhet, hvordan du regner ut stigningstallet fra to punkter, og hva stigningstall og konstantledd betyr i praktiske situasjoner.', array[5]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-10:lineaere-funksjoner', '## Endring per enhet
+
+Mange sammenhenger i hverdagen endrer seg med en fast mengde per enhet: prisen øker med 18 kr per liter bensin, vannstanden i et basseng stiger med 3 cm per minutt, og en lønn gir 165 kr per time. Denne faste endringen kalles **endring per enhet**. Når endringen er lik hele tiden, er sammenhengen **lineær**, og grafen blir en rett linje.
+
+## Stigningstallet
+
+En lineær funksjon skrives f(x) = ax + b. Tallet a er **stigningstallet**. Det sier hvor mye funksjonen endrer seg når x øker med 1.
+
+- a > 0: linjen stiger.
+- a < 0: linjen synker.
+- a = 0: linjen er vannrett.
+
+Jo større tallverdi a har, desto brattere er linjen.
+
+## Regne ut stigningstallet
+
+Har vi to punkter på linjen, (x₁, y₁) og (x₂, y₂), finner vi stigningstallet slik:
+
+a = (y₂ − y₁) / (x₂ − x₁)
+
+Med andre ord: endringen i y delt på endringen i x. Linjen gjennom (1, 5) og (4, 11) har stigningstall (11 − 5) / (4 − 1) = 6 / 3 = 2.
+
+I et koordinatsystem kan du tegne en **stigningstrekant**: gå én enhet mot høyre, og se hvor mye linjen går opp eller ned.
+
+## Konstantleddet
+
+Tallet b i f(x) = ax + b er **konstantleddet**. Det er verdien når x = 0, og viser hvor linjen krysser y-aksen. Når vi kjenner stigningstallet, kan vi finne b ved å sette inn et punkt: Med a = 2 og punktet (1, 5) blir 5 = 2 · 1 + b, altså b = 3. Funksjonen er f(x) = 2x + 3.
+
+## Tolkning i praksis
+
+I praktiske situasjoner har både a og b en betydning. En elektriker tar 600 kr i oppmøte og 750 kr per time: K(t) = 750t + 600. Stigningstallet 750 er timeprisen, og konstantleddet 600 er det du betaler selv om jobben tar null timer. Enheten til stigningstallet er alltid «y-enhet per x-enhet», her kroner per time.
+
+## Proporsjonalitet
+
+Når b = 0, går linjen gjennom origo, og sammenhengen er **proporsjonal**: y = ax. Da gir dobbel x også dobbel y. Prisen for epler til 30 kr/kg er proporsjonal med vekten, men taxiprisen med startgebyr er det ikke.', '{"label":"Lineære funksjoner","children":[{"label":"Endring per enhet","children":[{"label":"Lik endring hele tiden"},{"label":"Kr per time, cm per minutt"}]},{"label":"Stigningstall a","children":[{"label":"(y₂ − y₁) / (x₂ − x₁)"},{"label":"a > 0 stiger","note":"a < 0 synker"},{"label":"Stigningstrekant"}]},{"label":"Konstantledd b","children":[{"label":"Verdien når x = 0"},{"label":"Skjæring med y-aksen"},{"label":"Finn b med et punkt"}]},{"label":"Tolkning","children":[{"label":"a = pris per enhet"},{"label":"b = fast beløp"},{"label":"Proporsjonal når b = 0"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-10:lineaere-funksjoner';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-10:lineaere-funksjoner', 'Endring per enhet', 'Hvor mye en størrelse endrer seg når en annen øker med 1, for eksempel kroner per time.', 0),
+  ('matematikk-10:lineaere-funksjoner', 'Lineær sammenheng', 'En sammenheng med lik endring per enhet. Grafen er en rett linje.', 1),
+  ('matematikk-10:lineaere-funksjoner', 'Stigningstall (a)', 'Hvor mye y endrer seg når x øker med 1. Tallet foran x i f(x) = ax + b.', 2),
+  ('matematikk-10:lineaere-funksjoner', 'Formel for stigningstall', 'a = (y₂ − y₁) / (x₂ − x₁): endring i y delt på endring i x.', 3),
+  ('matematikk-10:lineaere-funksjoner', 'Positivt stigningstall', 'Linjen stiger fra venstre mot høyre.', 4),
+  ('matematikk-10:lineaere-funksjoner', 'Negativt stigningstall', 'Linjen synker fra venstre mot høyre.', 5),
+  ('matematikk-10:lineaere-funksjoner', 'Stigningstall 0', 'Linjen er vannrett. Funksjonsverdien endrer seg ikke.', 6),
+  ('matematikk-10:lineaere-funksjoner', 'Konstantledd (b)', 'Verdien når x = 0. Der linjen krysser y-aksen.', 7),
+  ('matematikk-10:lineaere-funksjoner', 'Stigningstrekant', 'En trekant som viser hvor mye linjen stiger når man går én enhet mot høyre.', 8),
+  ('matematikk-10:lineaere-funksjoner', 'Finne b fra et punkt', 'Sett inn a og et kjent punkt: 5 = 2 · 1 + b gir b = 3.', 9),
+  ('matematikk-10:lineaere-funksjoner', 'Enhet for stigningstall', 'y-enhet per x-enhet, for eksempel kr per time eller cm per minutt.', 10),
+  ('matematikk-10:lineaere-funksjoner', 'Proporsjonal', 'y = ax med b = 0. Linjen går gjennom origo, og dobbel x gir dobbel y.', 11),
+  ('matematikk-10:lineaere-funksjoner', 'Brattere linje', 'Jo større tallverdi stigningstallet har, desto brattere er linjen.', 12),
+  ('matematikk-10:lineaere-funksjoner', 'Tolke a og b', 'I K(t) = 750t + 600 er 750 timeprisen og 600 oppmøteprisen.', 13),
+  ('matematikk-10:lineaere-funksjoner', 'Parallelle linjer', 'Linjer med samme stigningstall.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-10:lineaere-funksjoner';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-10:lineaere-funksjoner', 'q01', 'flervalg', 'Hva er stigningstallet til f(x) = −3x + 7?', array['7', '3', '−3', '4']::text[], 2, 'Stigningstallet er tallet foran x, altså −3. Linjen synker med 3 for hver enhet x øker.', true, true, 0),
+  ('matematikk-10:lineaere-funksjoner', 'q02', 'flervalg', 'Hva er stigningstallet til linjen gjennom (1, 5) og (4, 11)?', array['2', '6', '3', '0,5']::text[], 0, 'a = (11 − 5) / (4 − 1) = 6 / 3 = 2.', true, true, 1),
+  ('matematikk-10:lineaere-funksjoner', 'q03', 'flervalg', 'En elektriker tar 600 kr i oppmøte og 750 kr per time. Hva er stigningstallet?', array['600', '1350', '750', '150']::text[], 2, 'Stigningstallet er endringen per enhet, her 750 kr per time. 600 er konstantleddet.', true, true, 2),
+  ('matematikk-10:lineaere-funksjoner', 'q04', 'flervalg', 'Hvor krysser f(x) = 4x − 2 y-aksen?', array['I (0, 4)', 'I (−2, 0)', 'I (0, 2)', 'I (0, −2)']::text[], 3, 'På y-aksen er x = 0, og f(0) = −2. Konstantleddet viser skjæringen med y-aksen.', true, true, 3),
+  ('matematikk-10:lineaere-funksjoner', 'q05', 'flervalg', 'En linje har stigningstall 2 og går gjennom (1, 5). Hva er funksjonsuttrykket?', array['f(x) = 2x + 5', 'f(x) = 2x + 3', 'f(x) = 5x + 2', 'f(x) = x + 5']::text[], 1, 'Sett inn punktet: 5 = 2 · 1 + b, så b = 3. Funksjonen er f(x) = 2x + 3.', true, true, 4),
+  ('matematikk-10:lineaere-funksjoner', 'q06', 'flervalg', 'Hvilken sammenheng er proporsjonal?', array['Epler til 30 kr/kg', 'Taxi med 60 kr i startgebyr', 'Abonnement med fast månedspris', 'Vann som renner ut av et fullt basseng']::text[], 0, 'Eplepris = 30 · vekt. Linjen går gjennom origo, og dobbel vekt gir dobbel pris.', true, true, 5),
+  ('matematikk-10:lineaere-funksjoner', 'q07', 'flervalg', 'Hva betyr et negativt stigningstall?', array['At linjen er vannrett', 'At linjen synker', 'At linjen går gjennom origo', 'At konstantleddet er negativt']::text[], 1, 'Når a < 0, blir y mindre når x øker, så linjen går nedover mot høyre.', true, false, 6),
+  ('matematikk-10:lineaere-funksjoner', 'q08', 'flervalg', 'Vannstanden i et basseng stiger fra 20 cm til 50 cm på 10 minutter. Hva er endringen per minutt?', array['5 cm per minutt', '30 cm per minutt', '2 cm per minutt', '3 cm per minutt']::text[], 3, 'Endringen er 50 − 20 = 30 cm på 10 minutter: 30 / 10 = 3 cm per minutt.', true, true, 7),
+  ('matematikk-10:lineaere-funksjoner', 'q09', 'flervalg', 'Hvilke to linjer er parallelle?', array['y = 2x + 1 og y = 2x − 5', 'y = 2x og y = −2x', 'y = x + 3 og y = 3x + 1', 'y = 4 og y = 4x']::text[], 0, 'Parallelle linjer har samme stigningstall. Begge har stigningstall 2.', true, false, 8),
+  ('matematikk-10:lineaere-funksjoner', 'q10', 'flervalg', 'Hvilken linje er brattest?', array['y = 0,5x + 10', 'y = 2x', 'y = −5x + 1', 'y = x − 3']::text[], 2, 'Brattheten avhenger av tallverdien til stigningstallet. |−5| = 5 er størst, selv om linjen synker.', true, true, 9),
+  ('matematikk-10:lineaere-funksjoner', 'm01', 'sant-usant', 'En linje med stigningstall 0 er vannrett.', array['Sant', 'Usant']::text[], 0, 'Da endrer ikke y seg når x øker.', false, true, 10),
+  ('matematikk-10:lineaere-funksjoner', 'm02', 'sant-usant', 'Taxipris med startgebyr er proporsjonal med antall kilometer.', array['Sant', 'Usant']::text[], 1, 'Startgebyret gjør at linjen ikke går gjennom origo, så prisen er ikke proporsjonal.', false, true, 11),
+  ('matematikk-10:lineaere-funksjoner', 'm03', 'sant-usant', 'Stigningstallet til en lineær funksjon er det samme uansett hvilke to punkter på linjen du bruker.', array['Sant', 'Usant']::text[], 0, 'En rett linje har lik endring per enhet overalt.', false, true, 12),
+  ('matematikk-10:lineaere-funksjoner', 'm04', 'sant-usant', 'Konstantleddet viser hvor linjen krysser x-aksen.', array['Sant', 'Usant']::text[], 1, 'Konstantleddet viser skjæringen med y-aksen, der x = 0.', false, true, 13),
+  ('matematikk-10:lineaere-funksjoner', 'm05', 'flervalg', 'Hva er stigningstallet til linjen gjennom (2, 9) og (6, 1)?', array['2', '−2', '−0,5', '4']::text[], 1, 'a = (1 − 9) / (6 − 2) = −8 / 4 = −2.', false, true, 14),
+  ('matematikk-10:lineaere-funksjoner', 'm06', 'flervalg', 'Hva er enheten til stigningstallet når y er kroner og x er liter?', array['Kroner', 'Liter', 'Liter per krone', 'Kroner per liter']::text[], 3, 'Stigningstallet har enheten y-enhet per x-enhet, altså kroner per liter.', false, true, 15),
+  ('matematikk-10:lineaere-funksjoner', 'm07', 'flervalg', 'Hvilken funksjon går gjennom (0, 4) og har stigningstall −1?', array['f(x) = −x + 4', 'f(x) = 4x − 1', 'f(x) = −4x + 1', 'f(x) = x − 4']::text[], 0, 'Konstantleddet er 4 fordi linjen går gjennom (0, 4), og stigningstallet er −1.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-10:lineaere-funksjoner', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk: Prosentvis endring og vekstfaktor
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-10:prosentvis-endring', 'matematikk-10', 'prosentvis-endring', 'Prosentvis endring og vekstfaktor', 'Vekstfaktor ved økning og nedgang, gjentatt prosentvis endring, og hvordan dette gir eksponentialfunksjoner.', array[6]::int[], 5, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-10:prosentvis-endring', '## Prosent og vekstfaktor
+
+Prosent betyr hundredeler: 15 % = 0,15. Når en størrelse endrer seg med en prosent, kan vi regne den nye verdien med én multiplikasjon ved hjelp av **vekstfaktoren**.
+
+- Ved økning på p %: vekstfaktor = 1 + p/100. Økning på 15 % gir 1,15.
+- Ved nedgang på p %: vekstfaktor = 1 − p/100. Nedgang på 15 % gir 0,85.
+
+Ny verdi = gammel verdi · vekstfaktor. En jakke til 800 kr som settes ned 25 %, koster 800 · 0,75 = 600 kr.
+
+Vi kan også regne baklengs. Koster en vare 1250 kr etter 25 % moms, var prisen uten moms 1250 / 1,25 = 1000 kr.
+
+## Prosentvis endring fra to verdier
+
+Når vi kjenner gammel og ny verdi, finner vi den prosentvise endringen slik:
+
+endring i prosent = (ny − gammel) / gammel · 100 %
+
+Prisen på en billett økte fra 80 kr til 92 kr: (92 − 80) / 80 = 0,15 = 15 %.
+
+## Prosentpoeng
+
+Når noe som allerede er i prosent endrer seg, må vi skille mellom **prosent** og **prosentpoeng**. Stiger renten fra 4 % til 5 %, er økningen 1 prosentpoeng, men 25 % målt i prosent av den gamle renten.
+
+## Gjentatt prosentvis endring
+
+Øker en verdi med samme prosent flere ganger, ganger vi med vekstfaktoren like mange ganger. 10 000 kr på en konto med 4 % rente i 5 år blir 10 000 · 1,04⁵ ≈ 12 167 kr. Legg merke til at det blir mer enn 10 000 + 5 · 400 = 12 000 kr, fordi renten hvert år også beregnes av rentene fra tidligere år. Dette kalles **renters rente**.
+
+En vanlig feil: En økning på 20 % etterfulgt av en nedgang på 20 % gir ikke startverdien tilbake, fordi 1,20 · 0,80 = 0,96. Vi ender 4 % under start.
+
+## Eksponentialfunksjoner
+
+Konstant prosentvis endring gir en **eksponentialfunksjon**: f(x) = a · bˣ, der a er startverdien og b er vekstfaktoren. Befolkningen i en by med 50 000 innbyggere som vokser med 2 % i året, kan beskrives med B(x) = 50 000 · 1,02ˣ. En bil til 300 000 kr som taper 12 % av verdien i året, har verdien V(x) = 300 000 · 0,88ˣ. Forskjellen fra lineære funksjoner er at endringen i antall blir større og større ved vekst, fordi prosenten tas av en stadig større verdi.', '{"label":"Prosentvis endring","children":[{"label":"Vekstfaktor","children":[{"label":"Økning","note":"1 + p/100"},{"label":"Nedgang","note":"1 − p/100"},{"label":"Ny = gammel · faktor"}]},{"label":"Regne ut endring","children":[{"label":"(ny − gammel) / gammel"},{"label":"Baklengs","note":"Del på vekstfaktoren"},{"label":"Prosentpoeng","note":"Forskjell mellom prosenter"}]},{"label":"Gjentatt endring","children":[{"label":"startverdi · bⁿ"},{"label":"Renters rente"},{"label":"+20 % og −20 % ≠ 0"}]},{"label":"Eksponentialfunksjon","children":[{"label":"f(x) = a · bˣ"},{"label":"b > 1 vekst","note":"b < 1 nedgang"},{"label":"Ikke lineær","note":"Lik prosent, ikke lik mengde"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-10:prosentvis-endring';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-10:prosentvis-endring', 'Prosent', 'Hundredeler. 15 % = 15/100 = 0,15.', 0),
+  ('matematikk-10:prosentvis-endring', 'Vekstfaktor ved økning', '1 + p/100. En økning på 15 % gir vekstfaktor 1,15.', 1),
+  ('matematikk-10:prosentvis-endring', 'Vekstfaktor ved nedgang', '1 − p/100. En nedgang på 15 % gir vekstfaktor 0,85.', 2),
+  ('matematikk-10:prosentvis-endring', 'Ny verdi', 'Gammel verdi · vekstfaktor.', 3),
+  ('matematikk-10:prosentvis-endring', 'Regne baklengs', 'Gammel verdi = ny verdi / vekstfaktor. 1250 kr med moms: 1250 / 1,25 = 1000 kr.', 4),
+  ('matematikk-10:prosentvis-endring', 'Prosentvis endring', '(ny − gammel) / gammel · 100 %.', 5),
+  ('matematikk-10:prosentvis-endring', 'Prosentpoeng', 'Forskjellen mellom to prosenttall. Fra 4 % til 5 % er 1 prosentpoeng.', 6),
+  ('matematikk-10:prosentvis-endring', 'Gjentatt endring', 'Gang med vekstfaktoren én gang per periode: startverdi · bⁿ.', 7),
+  ('matematikk-10:prosentvis-endring', 'Renters rente', 'Renten beregnes også av tidligere opptjente renter, så beløpet vokser raskere og raskere.', 8),
+  ('matematikk-10:prosentvis-endring', '+20 % og så −20 %', '1,20 · 0,80 = 0,96. Du ender 4 % under startverdien.', 9),
+  ('matematikk-10:prosentvis-endring', 'Eksponentialfunksjon', 'f(x) = a · bˣ, der a er startverdien og b er vekstfaktoren.', 10),
+  ('matematikk-10:prosentvis-endring', 'Moms', 'Merverdiavgift. Vanlig sats i Norge er 25 %, så prisen med moms er prisen uten · 1,25.', 11),
+  ('matematikk-10:prosentvis-endring', 'Verditap', 'Når noe mister verdi med fast prosent, er vekstfaktoren mindre enn 1.', 12),
+  ('matematikk-10:prosentvis-endring', 'Lineær eller eksponentiell?', 'Lik endring i kroner er lineær. Lik endring i prosent er eksponentiell.', 13),
+  ('matematikk-10:prosentvis-endring', 'Dobling', 'Med 7 % vekst i året dobles et beløp på omtrent 10 år, fordi 1,07¹⁰ ≈ 1,97.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-10:prosentvis-endring';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-10:prosentvis-endring', 'q01', 'flervalg', 'Hva er vekstfaktoren ved en økning på 8 %?', array['0,08', '1,8', '1,08', '0,92']::text[], 2, 'Vekstfaktor ved økning er 1 + 8/100 = 1,08.', true, true, 0),
+  ('matematikk-10:prosentvis-endring', 'q02', 'flervalg', 'En jakke til 800 kr settes ned 25 %. Hva er den nye prisen?', array['775 kr', '600 kr', '200 kr', '625 kr']::text[], 1, 'Vekstfaktor ved 25 % nedgang er 0,75. 800 · 0,75 = 600 kr.', true, true, 1),
+  ('matematikk-10:prosentvis-endring', 'q03', 'flervalg', 'En billett økte fra 80 kr til 92 kr. Hvor mange prosent økte prisen?', array['12 %', '13 %', '87 %', '15 %']::text[], 3, '(92 − 80) / 80 = 12/80 = 0,15 = 15 %. 12 er endringen i kroner, ikke i prosent.', true, true, 2),
+  ('matematikk-10:prosentvis-endring', 'q04', 'flervalg', 'En vare koster 1250 kr med 25 % moms. Hva koster den uten moms?', array['1000 kr', '937,50 kr', '1225 kr', '1562,50 kr']::text[], 0, 'Del på vekstfaktoren: 1250 / 1,25 = 1000 kr. Å trekke fra 25 % av 1250 gir feil svar.', true, true, 3),
+  ('matematikk-10:prosentvis-endring', 'q05', 'flervalg', 'Renten øker fra 4 % til 5 %. Hvor stor er økningen?', array['1 %', '1 prosentpoeng, eller 25 %', '5 prosentpoeng', '20 %']::text[], 1, 'Forskjellen er 1 prosentpoeng. Målt i prosent av den gamle renten er det 1/4 = 25 %.', true, true, 4),
+  ('matematikk-10:prosentvis-endring', 'q06', 'flervalg', 'Hva blir 10 000 kr med 4 % årlig rente etter 5 år?', array['12 000 kr', '10 400 kr', '12 167 kr', '14 000 kr']::text[], 2, '10 000 · 1,04⁵ ≈ 12 167 kr. Rentene gir også rente, så det blir mer enn 12 000 kr.', true, true, 5),
+  ('matematikk-10:prosentvis-endring', 'q07', 'flervalg', 'En pris øker med 20 % og synker så med 20 %. Hvor ender den?', array['Tilbake på startprisen', '4 % over startprisen', '40 % under startprisen', '4 % under startprisen']::text[], 3, '1,20 · 0,80 = 0,96. Nedgangen tas av en høyere pris, så du ender 4 % under start.', true, true, 6),
+  ('matematikk-10:prosentvis-endring', 'q08', 'flervalg', 'Hvilken funksjon beskriver en by med 50 000 innbyggere som vokser med 2 % i året?', array['B(x) = 50 000 · 1,02ˣ', 'B(x) = 50 000 + 2x', 'B(x) = 50 000 · 0,98ˣ', 'B(x) = 50 000 · 2ˣ']::text[], 0, 'Startverdien er 50 000 og vekstfaktoren 1,02. Konstant prosentvis vekst gir en eksponentialfunksjon.', true, true, 7),
+  ('matematikk-10:prosentvis-endring', 'q09', 'flervalg', 'En bil taper 12 % av verdien hvert år. Hva er vekstfaktoren?', array['1,12', '0,12', '0,88', '−0,12']::text[], 2, 'Ved nedgang er vekstfaktoren 1 − 0,12 = 0,88.', true, false, 8),
+  ('matematikk-10:prosentvis-endring', 'q10', 'flervalg', 'Hvorfor vokser beløpet med renters rente raskere og raskere?', array['Fordi renten øker hvert år', 'Fordi renten beregnes av et stadig større beløp', 'Fordi banken legger til en bonus', 'Fordi det er en lineær funksjon']::text[], 1, 'Samme prosent av et større beløp gir flere kroner hvert år. Derfor blir økningen i kroner større og større.', true, false, 9),
+  ('matematikk-10:prosentvis-endring', 'm01', 'sant-usant', 'Vekstfaktoren ved en nedgang på 30 % er 0,3.', array['Sant', 'Usant']::text[], 1, 'Vekstfaktoren er 1 − 0,30 = 0,70. 0,3 er hvor mye som forsvinner.', false, true, 10),
+  ('matematikk-10:prosentvis-endring', 'm02', 'sant-usant', 'Med konstant prosentvis vekst blir økningen i antall større for hvert år.', array['Sant', 'Usant']::text[], 0, 'Prosenten tas av en stadig større verdi, så antall kroner eller innbyggere som legges til, øker.', false, true, 11),
+  ('matematikk-10:prosentvis-endring', 'm03', 'sant-usant', 'Å gå fra 10 % til 15 % er en økning på 5 prosentpoeng.', array['Sant', 'Usant']::text[], 0, 'Forskjellen mellom prosenttallene er 5 prosentpoeng. Målt i prosent er det en økning på 50 %.', false, true, 12),
+  ('matematikk-10:prosentvis-endring', 'm04', 'sant-usant', '300 000 · 0,88ˣ beskriver noe som vokser.', array['Sant', 'Usant']::text[], 1, 'Vekstfaktoren 0,88 er mindre enn 1, så verdien avtar med 12 % per år.', false, true, 13),
+  ('matematikk-10:prosentvis-endring', 'm05', 'flervalg', 'En sykkel til 4000 kr blir 10 % dyrere. Hva koster den nå?', array['4010 kr', '4100 kr', '4400 kr', '3600 kr']::text[], 2, '4000 · 1,10 = 4400 kr.', false, true, 14),
+  ('matematikk-10:prosentvis-endring', 'm06', 'flervalg', 'Antall medlemmer gikk fra 250 til 200. Hvor stor var nedgangen i prosent?', array['20 %', '25 %', '50 %', '80 %']::text[], 0, '(200 − 250) / 250 = −50/250 = −0,20, altså en nedgang på 20 %.', false, true, 15),
+  ('matematikk-10:prosentvis-endring', 'm07', 'flervalg', 'Hvor mange ganger må du gange med 1,05 for å regne ut vekst over 6 år?', array['1', '5', '6', '7']::text[], 2, 'Én gang per år, altså 6 ganger: startverdi · 1,05⁶.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-10:prosentvis-endring', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk: Personlig økonomi
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-10:personlig-okonomi', 'matematikk-10', 'personlig-okonomi', 'Personlig økonomi', 'Budsjett, sparing med rente, lån og kredittkjøp, og hvordan du bruker matematikk til å sammenligne tilbud og se konsekvensene av økonomiske valg.', array[7, 8]::int[], 6, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-10:personlig-okonomi', '## Budsjett og regnskap
+
+Et **budsjett** er en plan for inntekter og utgifter i en periode, for eksempel en måned. Et **regnskap** viser hva som faktisk ble tjent og brukt. Sammenligner du budsjett og regnskap, ser du hvor pengene gikk, og hva du kan endre. Går utgiftene over inntektene, har du et **underskudd**. Blir det penger til overs, har du et **overskudd** som kan spares.
+
+## Kjøp og salg
+
+Ved kjøp og salg er det nyttig å regne på **rabatt**, **moms** og **fortjeneste**. En butikk som kjøper en vare for 400 kr og selger den for 600 kr, har en fortjeneste på 200 kr. Det er 50 % av innkjøpsprisen, men bare 33 % av salgsprisen, så det er viktig å vite hva prosenten regnes av. Sammenlign alltid tilbud ved å regne ut hva du faktisk betaler, også frakt og gebyrer.
+
+## Sparing og rente
+
+Setter du penger i banken, får du **rente**. Med renters rente vokser beløpet med vekstfaktoren hvert år: 5000 kr med 3 % rente blir 5000 · 1,03¹⁰ ≈ 6720 kr etter 10 år. Jo tidligere du begynner å spare, desto mer arbeider rentene for deg.
+
+## Lån
+
+Når du låner, betaler du tilbake **avdrag** (selve lånet) og **renter** (prisen for å låne). Summen av avdrag og renter kalles **terminbeløpet**.
+
+- **Serielån**: like store avdrag hver gang. Terminbeløpet blir mindre etter hvert, fordi renten regnes av et lavere restlån.
+- **Annuitetslån**: like store terminbeløp hele tiden. I starten går mest til renter, mot slutten mest til avdrag.
+
+## Kredittkjøp og effektiv rente
+
+Ved **kredittkjøp** og forbrukslån får du varen nå, men betaler senere, ofte med høy rente og gebyrer. **Nominell rente** er renten uten gebyrer. **Effektiv rente** inkluderer alle kostnader og viser hva lånet egentlig koster per år. Bruk alltid den effektive renten når du sammenligner lån. Kredittkort og forbrukslån har ofte langt høyere effektiv rente enn boliglån.
+
+Eksempel: En mobil til 9000 kr kan betales med 24 avdrag på 450 kr. Da betaler du 24 · 450 = 10 800 kr, altså 1800 kr ekstra.
+
+## Et utforskende arbeid
+
+Når du utforsker personlig økonomi, kan du for eksempel lage et budsjett for et halvt år med deltidsjobb, eller sammenligne hva det koster å spare opp til noe mot å kjøpe det på kreditt. Presenter tallene i tabeller og diagrammer, og vurder hvilke forutsetninger resultatet bygger på.', '{"label":"Personlig økonomi","children":[{"label":"Oversikt","children":[{"label":"Budsjett","note":"Plan"},{"label":"Regnskap","note":"Faktiske tall"},{"label":"Over- og underskudd"}]},{"label":"Kjøp og salg","children":[{"label":"Rabatt og moms"},{"label":"Fortjeneste","note":"Prosent av hva?"},{"label":"Sammenlign tilbud"}]},{"label":"Sparing","children":[{"label":"Rente"},{"label":"Renters rente","note":"Beløp · vekstfaktorⁿ"},{"label":"Start tidlig"}]},{"label":"Lån","children":[{"label":"Avdrag + renter = terminbeløp"},{"label":"Serielån","note":"Like avdrag"},{"label":"Annuitetslån","note":"Like terminbeløp"}]},{"label":"Kreditt","children":[{"label":"Nominell rente"},{"label":"Effektiv rente","note":"Med alle kostnader"},{"label":"Forbrukslån og kredittkort","note":"Ofte dyrt"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-10:personlig-okonomi';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-10:personlig-okonomi', 'Budsjett', 'En plan for inntekter og utgifter i en periode.', 0),
+  ('matematikk-10:personlig-okonomi', 'Regnskap', 'En oversikt over faktiske inntekter og utgifter.', 1),
+  ('matematikk-10:personlig-okonomi', 'Underskudd', 'Når utgiftene er større enn inntektene.', 2),
+  ('matematikk-10:personlig-okonomi', 'Overskudd', 'Når inntektene er større enn utgiftene.', 3),
+  ('matematikk-10:personlig-okonomi', 'Fortjeneste', 'Salgspris minus innkjøpspris.', 4),
+  ('matematikk-10:personlig-okonomi', 'Rente', 'Prisen for å låne penger, eller det du får for å spare penger i banken.', 5),
+  ('matematikk-10:personlig-okonomi', 'Renters rente', 'Renten beregnes også av tidligere renter, så beløpet vokser med vekstfaktoren hvert år.', 6),
+  ('matematikk-10:personlig-okonomi', 'Avdrag', 'Den delen av en betaling som nedbetaler selve lånet.', 7),
+  ('matematikk-10:personlig-okonomi', 'Terminbeløp', 'Summen av avdrag og renter som betales hver termin.', 8),
+  ('matematikk-10:personlig-okonomi', 'Serielån', 'Like store avdrag. Terminbeløpet blir mindre etter hvert.', 9),
+  ('matematikk-10:personlig-okonomi', 'Annuitetslån', 'Like store terminbeløp. I starten går mest til renter.', 10),
+  ('matematikk-10:personlig-okonomi', 'Restlån', 'Det som gjenstår av lånet etter betalte avdrag.', 11),
+  ('matematikk-10:personlig-okonomi', 'Nominell rente', 'Renten på et lån uten gebyrer og andre kostnader.', 12),
+  ('matematikk-10:personlig-okonomi', 'Effektiv rente', 'Renten inkludert alle kostnader. Brukes til å sammenligne lån.', 13),
+  ('matematikk-10:personlig-okonomi', 'Kredittkjøp', 'Å kjøpe nå og betale senere. Blir ofte dyrere på grunn av rente og gebyrer.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-10:personlig-okonomi';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-10:personlig-okonomi', 'q01', 'flervalg', 'Hva er forskjellen på budsjett og regnskap?', array['Budsjett er en plan, regnskap viser hva som faktisk skjedde', 'De betyr det samme', 'Regnskap er en plan, budsjett viser det som skjedde', 'Budsjett gjelder bare bedrifter']::text[], 0, 'Budsjettet lages på forhånd. Regnskapet føres underveis og viser de faktiske tallene.', true, true, 0),
+  ('matematikk-10:personlig-okonomi', 'q02', 'flervalg', 'En vare kjøpes inn for 400 kr og selges for 600 kr. Hvor mange prosent av innkjøpsprisen er fortjenesten?', array['33 %', '20 %', '150 %', '50 %']::text[], 3, 'Fortjenesten er 200 kr. 200 / 400 = 0,5 = 50 %. Av salgsprisen er den bare 33 %.', true, true, 1),
+  ('matematikk-10:personlig-okonomi', 'q03', 'flervalg', 'Hva blir 5000 kr med 3 % årlig rente etter 10 år?', array['6500 kr', '5150 kr', '6720 kr', '8000 kr']::text[], 2, '5000 · 1,03¹⁰ ≈ 6720 kr. Med renters rente blir det mer enn 5000 + 10 · 150 = 6500 kr.', true, true, 2),
+  ('matematikk-10:personlig-okonomi', 'q04', 'flervalg', 'Hva kjennetegner et serielån?', array['Like store terminbeløp', 'Like store avdrag', 'Ingen renter', 'Renten stiger hvert år']::text[], 1, 'I et serielån er avdragene like. Renten synker etter hvert, så terminbeløpet blir mindre.', true, true, 3),
+  ('matematikk-10:personlig-okonomi', 'q05', 'flervalg', 'Hva kjennetegner et annuitetslån?', array['Like store terminbeløp', 'Like store avdrag', 'At hele lånet betales til slutt', 'At det ikke har gebyrer']::text[], 0, 'Terminbeløpet er likt hele tiden. Fordelingen mellom renter og avdrag endrer seg.', true, true, 4),
+  ('matematikk-10:personlig-okonomi', 'q06', 'flervalg', 'Hvilken rente bør du bruke når du sammenligner to lån?', array['Nominell rente', 'Den laveste renten i reklamen', 'Effektiv rente', 'Styringsrenten']::text[], 2, 'Effektiv rente tar med gebyrer og andre kostnader og viser hva lånet egentlig koster.', true, true, 5),
+  ('matematikk-10:personlig-okonomi', 'q07', 'flervalg', 'En mobil til 9000 kr betales med 24 avdrag på 450 kr. Hvor mye ekstra betaler du?', array['450 kr', '900 kr', '10 800 kr', '1800 kr']::text[], 3, '24 · 450 = 10 800 kr. 10 800 − 9000 = 1800 kr ekstra.', true, true, 6),
+  ('matematikk-10:personlig-okonomi', 'q08', 'flervalg', 'Hva er et terminbeløp?', array['Bare rentene', 'Summen av avdrag og renter', 'Hele lånebeløpet', 'Gebyret for å ta opp lånet']::text[], 1, 'Terminbeløpet er det du betaler hver termin, altså avdrag pluss renter.', true, false, 7),
+  ('matematikk-10:personlig-okonomi', 'q09', 'flervalg', 'Hvorfor lønner det seg ofte å begynne å spare tidlig?', array['Fordi renten er høyere for unge', 'Fordi banken gir bonus til unge', 'Fordi renters rente får lengre tid til å virke', 'Fordi det ikke er skatt på sparing']::text[], 2, 'Jo flere år pengene står, desto flere ganger ganges de med vekstfaktoren, og veksten blir større.', true, false, 8),
+  ('matematikk-10:personlig-okonomi', 'q10', 'flervalg', 'I starten av et annuitetslån, hva går mest av terminbeløpet til?', array['Renter', 'Avdrag', 'Gebyrer', 'Like mye til begge']::text[], 0, 'Restlånet er størst i starten, så rentene er høye. Etter hvert går en større del til avdrag.', true, true, 9),
+  ('matematikk-10:personlig-okonomi', 'm01', 'sant-usant', 'Effektiv rente er alltid lavere enn nominell rente.', array['Sant', 'Usant']::text[], 1, 'Effektiv rente tar med gebyrer og blir derfor som regel høyere enn den nominelle.', false, true, 10),
+  ('matematikk-10:personlig-okonomi', 'm02', 'sant-usant', 'I et serielån blir terminbeløpet mindre etter hvert.', array['Sant', 'Usant']::text[], 0, 'Avdraget er likt, men renten regnes av et lavere restlån for hver termin.', false, true, 11),
+  ('matematikk-10:personlig-okonomi', 'm03', 'sant-usant', 'Et budsjett med underskudd betyr at du bruker mer enn du tjener.', array['Sant', 'Usant']::text[], 0, 'Underskudd betyr at utgiftene er større enn inntektene.', false, true, 12),
+  ('matematikk-10:personlig-okonomi', 'm04', 'sant-usant', 'Å kjøpe på kreditt koster det samme som å betale kontant.', array['Sant', 'Usant']::text[], 1, 'Kredittkjøp har som regel renter og gebyrer, så totalprisen blir høyere.', false, true, 13),
+  ('matematikk-10:personlig-okonomi', 'm05', 'flervalg', 'Du har 3500 kr i inntekt og 3100 kr i utgifter i måneden. Hvor mye kan du spare på et år?', array['400 kr', '4800 kr', '3500 kr', '37 200 kr']::text[], 1, 'Overskuddet er 400 kr i måneden. 400 · 12 = 4800 kr i året.', false, true, 14),
+  ('matematikk-10:personlig-okonomi', 'm06', 'flervalg', 'Et lån på 20 000 kr har like avdrag i 4 år. Hvor stort er hvert årlige avdrag?', array['4000 kr', '80 000 kr', '5000 kr', '20 000 kr']::text[], 2, 'Like avdrag: 20 000 / 4 = 5000 kr i året. Rentene kommer i tillegg.', false, true, 15),
+  ('matematikk-10:personlig-okonomi', 'm07', 'flervalg', 'Hva er avdrag?', array['Nedbetalingen av selve lånet', 'Prisen for å låne', 'Et gebyr', 'Renten på sparepenger']::text[], 0, 'Avdraget er den delen som reduserer restlånet. Rentene er prisen for å låne.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-10:personlig-okonomi', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk: Matematisk modellering
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-10:modellering', 'matematikk-10', 'modellering', 'Matematisk modellering', 'Hvordan du lager en matematisk modell av en virkelig situasjon, bruker den til å regne og forutsi, og vurderer hvor gyldig modellen er.', array[9]::int[], 7, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-10:modellering', '## Hva er en modell?
+
+En **matematisk modell** er en forenklet beskrivelse av en virkelig situasjon ved hjelp av matematikk, for eksempel en funksjon, en likning eller en formel. Modeller brukes til å forstå sammenhenger og til å **forutsi** hva som vil skje. Værmeldingen, befolkningsprognoser og beregninger av strømforbruk bygger alle på modeller.
+
+En modell er aldri helt lik virkeligheten. Den bygger på **forutsetninger**, altså antakelser som gjør problemet enklere. Å vite hvilke forutsetninger modellen bygger på, er like viktig som å regne riktig.
+
+## Modelleringsprosessen
+
+Modellering skjer ofte i en syklus:
+
+- **Forstå situasjonen**: Hva spør vi etter? Hvilke størrelser henger sammen?
+- **Forenkle og gjøre antakelser**: Hva tar vi med, og hva ser vi bort fra?
+- **Lage modellen**: Velg funksjonstype ut fra dataene, for eksempel lineær ved lik endring i antall eller eksponentiell ved lik endring i prosent.
+- **Regne**: Bruk modellen til å finne svar.
+- **Tolke**: Hva betyr svaret i den virkelige situasjonen?
+- **Vurdere**: Er svaret rimelig? Trengs en bedre modell? Da går vi en runde til.
+
+## Velge modell fra data
+
+Med et digitalt verktøy kan vi legge inn målinger og finne den funksjonen som passer best, en såkalt **regresjon**. Vi kan sammenligne lineær, eksponentiell og andregrads regresjon og se hvilken som følger punktene best. Men den beste tilpasningen er ikke alltid den beste modellen. Modellen må også gi mening ut fra situasjonen.
+
+## Gyldighet
+
+En modell har et **gyldighetsområde**. En modell for høyden til et barn fra 2 til 10 år kan være lineær, men den kan ikke brukes til å beregne høyden ved 40 år, for da ville voksne bli flere meter høye. Å bruke en modell langt utenfor dataene kalles å **ekstrapolere**, og det er risikabelt.
+
+Når du vurderer en modell, kan du spørre:
+
+- Passer modellen med dataene vi har?
+- Gir den mening for alle x-verdier vi bruker den på?
+- Hvilke forutsetninger kan være feil?
+- Hvor mye endrer svaret seg hvis forutsetningene endres?
+
+## Presentere
+
+Når du presenterer et modelleringsarbeid, bør du vise dataene, modellen, hvordan du brukte den og hva du fant, og være ærlig om begrensningene. En god presentasjon forteller ikke bare svaret, men også hvor sikkert det er.', '{"label":"Matematisk modellering","children":[{"label":"Modell","children":[{"label":"Forenklet virkelighet"},{"label":"Funksjon, likning, formel"},{"label":"Forutsetninger"}]},{"label":"Syklusen","children":[{"label":"Forstå"},{"label":"Forenkle"},{"label":"Lage og regne"},{"label":"Tolke og vurdere"}]},{"label":"Velge modell","children":[{"label":"Lik endring i antall","note":"Lineær"},{"label":"Lik endring i prosent","note":"Eksponentiell"},{"label":"Regresjon","note":"Digitalt verktøy"}]},{"label":"Gyldighet","children":[{"label":"Gyldighetsområde"},{"label":"Ekstrapolering","note":"Risikabelt"},{"label":"Er svaret rimelig?"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-10:modellering';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-10:modellering', 'Matematisk modell', 'En forenklet beskrivelse av en virkelig situasjon med matematikk, for eksempel en funksjon.', 0),
+  ('matematikk-10:modellering', 'Forutsetning', 'En antakelse modellen bygger på, for eksempel at veksten er lik hvert år.', 1),
+  ('matematikk-10:modellering', 'Forutsi', 'Bruke modellen til å si noe om hva som vil skje, for eksempel neste år.', 2),
+  ('matematikk-10:modellering', 'Modelleringssyklus', 'Forstå, forenkle, lage modell, regne, tolke, vurdere – og eventuelt gjenta.', 3),
+  ('matematikk-10:modellering', 'Forenkle', 'Bestemme hva som tas med og hva man ser bort fra i modellen.', 4),
+  ('matematikk-10:modellering', 'Velge funksjonstype', 'Lik endring i antall → lineær. Lik endring i prosent → eksponentiell.', 5),
+  ('matematikk-10:modellering', 'Regresjon', 'Å finne den funksjonen som passer best til en samling datapunkter, ofte med digitalt verktøy.', 6),
+  ('matematikk-10:modellering', 'Gyldighetsområde', 'De x-verdiene der modellen gir fornuftige svar.', 7),
+  ('matematikk-10:modellering', 'Ekstrapolere', 'Å bruke modellen utenfor området der vi har data. Kan gi urimelige svar.', 8),
+  ('matematikk-10:modellering', 'Interpolere', 'Å bruke modellen mellom datapunktene vi har. Er som regel tryggere enn å ekstrapolere.', 9),
+  ('matematikk-10:modellering', 'Tolke svaret', 'Oversette det matematiske svaret tilbake til hva det betyr i situasjonen.', 10),
+  ('matematikk-10:modellering', 'Vurdere modellen', 'Sjekke om den passer med data, gir mening og hvilke forutsetninger som kan være feil.', 11),
+  ('matematikk-10:modellering', 'Begrensninger', 'Det modellen ikke tar hensyn til. Bør alltid nevnes når man presenterer.', 12),
+  ('matematikk-10:modellering', 'Prognose', 'En forutsigelse av framtiden basert på en modell.', 13),
+  ('matematikk-10:modellering', 'Beste tilpasning', 'Den funksjonen som ligger nærmest punktene. Må også gi mening i situasjonen.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-10:modellering';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-10:modellering', 'q01', 'flervalg', 'Hva er en matematisk modell?', array['En nøyaktig kopi av virkeligheten', 'Et diagram uten tall', 'En forenklet matematisk beskrivelse av en virkelig situasjon', 'En likning uten ukjente']::text[], 2, 'En modell forenkler virkeligheten slik at vi kan regne på den. Den er aldri helt lik virkeligheten.', true, true, 0),
+  ('matematikk-10:modellering', 'q02', 'flervalg', 'Målinger viser at noe øker med omtrent 5 % hvert år. Hvilken modell passer best?', array['Lineær', 'Omvendt proporsjonal', 'Konstant', 'Eksponentiell']::text[], 3, 'Lik prosentvis endring passer med en eksponentialfunksjon, f(x) = a · 1,05ˣ.', true, true, 1),
+  ('matematikk-10:modellering', 'q03', 'flervalg', 'Hva betyr det å ekstrapolere?', array['Å bruke modellen utenfor området der vi har data', 'Å finne den beste modellen', 'Å regne mellom to målinger', 'Å tegne en graf']::text[], 0, 'Ekstrapolering er å forutsi langt utenfor dataene. Det er risikabelt fordi sammenhengen kan endre seg.', true, true, 2),
+  ('matematikk-10:modellering', 'q04', 'flervalg', 'En lineær modell for høyden til barn fra 2 til 10 år brukes til å beregne høyden ved 40 år. Hva er problemet?', array['Ingen, modellen gjelder alltid', 'Regnefeil i modellen', 'At modellen er eksponentiell', 'At modellen brukes langt utenfor gyldighetsområdet']::text[], 3, 'Barn slutter å vokse. En lineær modell vil gi urimelig høye voksne, fordi den brukes utenfor området den ble laget for.', true, true, 3),
+  ('matematikk-10:modellering', 'q05', 'flervalg', 'Hvilket steg kommer etter at du har regnet ut et svar med modellen?', array['Å slette modellen', 'Å tolke og vurdere svaret', 'Å velge en ny funksjonstype uten grunn', 'Å legge til flere desimaler']::text[], 1, 'Svaret må oversettes til situasjonen og vurderes: Er det rimelig? Passer modellen?', true, true, 4),
+  ('matematikk-10:modellering', 'q06', 'flervalg', 'Hva er en forutsetning i en modell?', array['Svaret modellen gir', 'Grafen til modellen', 'En antakelse modellen bygger på', 'Et datapunkt']::text[], 2, 'Forutsetninger er antakelsene som gjør at modellen kan brukes, for eksempel at prisen øker like mye hvert år.', true, true, 5),
+  ('matematikk-10:modellering', 'q07', 'flervalg', 'Hva gjør regresjon i et digitalt verktøy?', array['Finner den funksjonen som passer best til datapunktene', 'Sletter målinger som ikke passer', 'Tegner et stolpediagram', 'Regner ut gjennomsnittet']::text[], 0, 'Regresjon tilpasser en valgt funksjonstype til dataene, slik at vi får et funksjonsuttrykk å regne med.', true, true, 6),
+  ('matematikk-10:modellering', 'q08', 'flervalg', 'Hvorfor er ikke den funksjonen som passer best med dataene alltid den beste modellen?', array['Fordi digitale verktøy regner feil', 'Fordi modellen også må gi mening ut fra situasjonen', 'Fordi lineære modeller alltid er best', 'Fordi data aldri kan brukes']::text[], 1, 'En funksjon kan treffe punktene godt, men gi urimelige svar utenfor dem, for eksempel negative priser.', true, true, 7),
+  ('matematikk-10:modellering', 'q09', 'flervalg', 'Hva bør med når du presenterer et modelleringsarbeid?', array['Bare svaret', 'Bare grafen', 'Bare formelen', 'Data, modell, resultat og begrensninger']::text[], 3, 'En god presentasjon viser hvordan du kom fram til svaret, og hvor sikkert det er.', true, false, 8),
+  ('matematikk-10:modellering', 'q10', 'flervalg', 'En modell sier at antall solgte is dobles når temperaturen øker fra 20 °C til 30 °C. Hva er en rimelig forutsetning bak modellen?', array['At det selges like mye is hele året', 'At temperaturen er det som påvirker salget mest', 'At is ikke kan selges om vinteren', 'At prisen dobles']::text[], 1, 'Modellen antar at temperaturen er den viktigste faktoren. Andre ting, som ferie og pris, er forenklet bort.', true, false, 9),
+  ('matematikk-10:modellering', 'm01', 'sant-usant', 'En god modell er alltid nøyaktig lik virkeligheten.', array['Sant', 'Usant']::text[], 1, 'Alle modeller forenkler. En god modell er nyttig og passer godt nok innenfor sitt område.', false, true, 10),
+  ('matematikk-10:modellering', 'm02', 'sant-usant', 'Det er som regel tryggere å bruke en modell mellom datapunktene enn langt utenfor dem.', array['Sant', 'Usant']::text[], 0, 'Interpolering bygger på data rundt, mens ekstrapolering antar at sammenhengen fortsetter uendret.', false, true, 11),
+  ('matematikk-10:modellering', 'm03', 'sant-usant', 'Når man vurderer en modell, bør man spørre hvilke forutsetninger som kan være feil.', array['Sant', 'Usant']::text[], 0, 'Feil forutsetninger kan gi feil svar selv om regningen er riktig.', false, true, 12),
+  ('matematikk-10:modellering', 'm04', 'sant-usant', 'Modellering er ferdig så snart man har regnet ut ett svar.', array['Sant', 'Usant']::text[], 1, 'Svaret må tolkes og vurderes, og ofte forbedres modellen i en ny runde.', false, true, 13),
+  ('matematikk-10:modellering', 'm05', 'flervalg', 'Et abonnement koster 199 kr i måneden. Hvilken modell gir totalprisen etter x måneder?', array['P(x) = 199 · 1,01ˣ', 'P(x) = 199 + x', 'P(x) = 199x', 'P(x) = 199/x']::text[], 2, 'Totalprisen øker med 199 kr hver måned. Det er en lineær, proporsjonal modell: P(x) = 199x.', false, true, 14),
+  ('matematikk-10:modellering', 'm06', 'flervalg', 'En modell for en bys befolkning gir et negativt antall innbyggere om 80 år. Hva sier det?', array['At byen forsvinner', 'At modellen ikke er gyldig så langt fram', 'At regnemaskinen er feil', 'At modellen er eksponentiell']::text[], 1, 'Et negativt antall er urimelig. Det viser at modellen er brukt utenfor gyldighetsområdet.', false, true, 15),
+  ('matematikk-10:modellering', 'm07', 'flervalg', 'Hva er en prognose?', array['En forutsigelse basert på en modell', 'En måling fra i fjor', 'Et gjennomsnitt', 'En regnefeil']::text[], 0, 'En prognose er en forutsigelse av framtiden, for eksempel befolkningstall om ti år, laget med en modell.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-10:modellering', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk: Python i matematikken
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-10:python-i-matematikk', 'matematikk-10', 'python-i-matematikk', 'Python i matematikken', 'Hvordan du leser og forklarer Python-kode, og bruker programmering til å utforske tall, funksjoner og sammenhenger.', array[10, 11]::int[], 8, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-10:python-i-matematikk', '## Lese kode
+
+Å **lese** kode betyr å forstå hva et program gjør uten å kjøre det. Gå gjennom programmet linje for linje, og hold oversikt over hva hver variabel inneholder. En tabell der du skriver verdiene underveis, kalles en **sporingstabell**, og den er et godt verktøy når du skal forklare et program.
+
+Noen byggesteiner i Python:
+
+- **Tilordning**: x = 5 lagrer tallet 5 i variabelen x. Likhetstegnet betyr «sett lik», ikke «er lik».
+- **Regneoperatorer**: +, −, *, / og ** for potens. 2 ** 3 = 8. // gir heltallsdivisjon og % gir rest.
+- **print(x)** skriver ut verdien.
+- **for i in range(1, 6):** gjentar koden for i = 1, 2, 3, 4 og 5. Det siste tallet i range er ikke med.
+- **while**-løkker gjentar så lenge en betingelse er sann.
+- **if/elif/else** velger mellom ulike handlinger.
+- **def f(x): return 2*x + 1** lager en funksjon som kan brukes med ulike x.
+
+Innrykk viser hvilke linjer som hører til en løkke, en betingelse eller en funksjon.
+
+## Utforske med programmering
+
+Programmering gjør det mulig å undersøke mange tilfeller raskt:
+
+- Skriv ut en **verditabell** for en funksjon med en løkke over x-verdier.
+- Finn **primtall** under 100 ved å sjekke om tallene har andre faktorer.
+- Undersøk **renters rente** år for år og finn når et beløp har doblet seg med en while-løkke.
+- Finn løsningen av en likning ved å prøve seg fram, for eksempel når 1,05ˣ passerer 2.
+
+Et eksempel: Programmet belop = 1000, ar = 0, og while belop < 2000: belop = belop * 1,05 og ar = ar + 1, skriver til slutt ut ar. Det finner hvor mange år det tar å doble 1000 kr med 5 % rente, og svaret er 15.
+
+## Fra utforsking til matematikk
+
+Programmer kan avsløre mønstre, men de beviser ikke at mønsteret gjelder for alle tall. Når programmet viser at summen av de n første oddetallene alltid ser ut til å bli n², er neste steg å forklare hvorfor, for eksempel med algebra eller en figur. Programmering og matematisk resonnement utfyller hverandre.
+
+## Vanlige feil
+
+Typiske feil er å bruke komma i stedet for punktum i desimaltall (Python skriver 1.05, ikke 1,05), å glemme at range(1, 6) stopper på 5, og å bruke = der det skulle vært == i en betingelse. == sjekker om to verdier er like, mens = gir en variabel en ny verdi.', '{"label":"Python i matematikken","children":[{"label":"Lese kode","children":[{"label":"Linje for linje"},{"label":"Sporingstabell"},{"label":"Innrykk viser struktur"}]},{"label":"Byggesteiner","children":[{"label":"=  og  ==","note":"Tilordne / sammenligne"},{"label":"**, //, %","note":"Potens, heltall, rest"},{"label":"for og while"},{"label":"def og return"}]},{"label":"Utforske","children":[{"label":"Verditabeller"},{"label":"Primtall"},{"label":"Renters rente","note":"Doblingstid"}]},{"label":"Resonnere","children":[{"label":"Mønster ≠ bevis"},{"label":"Forklar med algebra"}]},{"label":"Feller","children":[{"label":"1.05, ikke 1,05"},{"label":"range stopper før slutt"},{"label":"= der det skal være =="}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-10:python-i-matematikk';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-10:python-i-matematikk', 'Tilordning', 'x = 5 lagrer verdien 5 i variabelen x. = betyr «sett lik».', 0),
+  ('matematikk-10:python-i-matematikk', '==', 'Sjekker om to verdier er like. Brukes i betingelser: if x == 5.', 1),
+  ('matematikk-10:python-i-matematikk', '**', 'Potens i Python. 2 ** 3 = 8.', 2),
+  ('matematikk-10:python-i-matematikk', '//', 'Heltallsdivisjon. 17 // 5 = 3.', 3),
+  ('matematikk-10:python-i-matematikk', '%', 'Rest ved divisjon. 17 % 5 = 2.', 4),
+  ('matematikk-10:python-i-matematikk', 'range(1, 6)', 'Tallene 1, 2, 3, 4, 5. Det siste tallet er ikke med.', 5),
+  ('matematikk-10:python-i-matematikk', 'for-løkke', 'Gjentar kode for hver verdi i en rekke, for eksempel for i in range(10).', 6),
+  ('matematikk-10:python-i-matematikk', 'while-løkke', 'Gjentar kode så lenge en betingelse er sann.', 7),
+  ('matematikk-10:python-i-matematikk', 'if / elif / else', 'Velger hvilken kode som kjøres ut fra betingelser.', 8),
+  ('matematikk-10:python-i-matematikk', 'def', 'Lager en funksjon: def f(x): return 2*x + 1.', 9),
+  ('matematikk-10:python-i-matematikk', 'return', 'Sender en verdi tilbake fra en funksjon.', 10),
+  ('matematikk-10:python-i-matematikk', 'Innrykk', 'Viser hvilke linjer som hører til en løkke, betingelse eller funksjon.', 11),
+  ('matematikk-10:python-i-matematikk', 'Sporingstabell', 'En tabell der du følger verdiene til variablene linje for linje når du leser kode.', 12),
+  ('matematikk-10:python-i-matematikk', 'Desimalpunktum', 'Python bruker punktum i desimaltall: 1.05, ikke 1,05.', 13),
+  ('matematikk-10:python-i-matematikk', 'Program vs. bevis', 'Et program kan vise et mønster i mange tilfeller, men beviser ikke at det gjelder for alle tall.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-10:python-i-matematikk';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-10:python-i-matematikk', 'q01', 'flervalg', 'Hvilke verdier får i i for i in range(1, 5)?', array['1, 2, 3, 4, 5', '0, 1, 2, 3, 4', '1, 2, 3, 4', '1 og 5']::text[], 2, 'range(1, 5) starter på 1 og stopper før 5, altså 1, 2, 3, 4.', true, true, 0),
+  ('matematikk-10:python-i-matematikk', 'q02', 'flervalg', 'Hva er 2 ** 4 i Python?', array['8', '16', '6', '24']::text[], 1, '** betyr potens: 2⁴ = 16.', true, true, 1),
+  ('matematikk-10:python-i-matematikk', 'q03', 'flervalg', 'Hva skrives ut? x = 3, så x = x + 4, så print(x * 2)', array['14', '10', '7', '6']::text[], 0, 'x blir først 3, så 3 + 4 = 7. Til slutt skrives 7 · 2 = 14 ut.', true, true, 2),
+  ('matematikk-10:python-i-matematikk', 'q04', 'flervalg', 'Hva er forskjellen på = og == i Python?', array['Ingen forskjell', '== gir verdi, = sammenligner', '= brukes bare i løkker', '= gir en variabel verdi, == sjekker om to verdier er like']::text[], 3, 'x = 5 lagrer 5 i x. x == 5 spør om x er lik 5 og gir True eller False.', true, true, 3),
+  ('matematikk-10:python-i-matematikk', 'q05', 'flervalg', 'Hva gir 17 % 5?', array['3', '2', '3,4', '85']::text[], 1, '% gir resten: 17 = 3 · 5 + 2, så resten er 2.', true, true, 4),
+  ('matematikk-10:python-i-matematikk', 'q06', 'flervalg', 'Et program ganger 1000 med 1,05 til beløpet er minst 2000, og teller årene. Hva finner det?', array['Rentene første år', 'Beløpet etter ett år', 'Hvor mange år det tar å doble beløpet', 'Den nominelle renten']::text[], 2, 'while-løkka gjentar så lenge beløpet er under 2000 og teller antall år, så den finner doblingstiden.', true, true, 5),
+  ('matematikk-10:python-i-matematikk', 'q07', 'flervalg', 'Hva gjør def f(x): return 3*x − 1?', array['Lager en funksjon som gir 3x − 1 for en x', 'Skriver ut 3x − 1', 'Løser likningen 3x − 1 = 0', 'Lager en løkke']::text[], 0, 'def lager en funksjon. f(2) vil for eksempel gi 3 · 2 − 1 = 5.', true, true, 6),
+  ('matematikk-10:python-i-matematikk', 'q08', 'flervalg', 'Hvorfor gir 1,05 en feil i Python-kode der du mener tallet én komma null fem?', array['Python kan ikke regne med desimaltall', 'Python bruker punktum som desimaltegn, så det skal stå 1.05', 'Tallet er for lite', 'Det må stå i anførselstegn']::text[], 1, 'Python bruker punktum som desimaltegn. Et komma betyr noe annet i Python og gir ikke tallet 1,05.', true, false, 7),
+  ('matematikk-10:python-i-matematikk', 'q09', 'flervalg', 'Et program viser at summen av de n første oddetallene er n² for n = 1 til 1000. Hva kan vi konkludere?', array['At det er bevist for alle n', 'At det er feil', 'At det gjelder bare for n ≤ 1000', 'At mønsteret er sannsynlig, men må forklares for å være bevist']::text[], 3, 'Programmet gir sterk støtte, men et bevis krever et argument som gjelder for alle n, for eksempel med algebra eller en figur.', true, true, 8),
+  ('matematikk-10:python-i-matematikk', 'q10', 'flervalg', 'Hva er en sporingstabell?', array['En tabell over variablenes verdier mens du går gjennom koden', 'En feilmelding', 'En liste over alle Python-kommandoer', 'En verditabell for en funksjon']::text[], 0, 'I en sporingstabell noterer du verdiene linje for linje. Det gjør det lettere å forstå og forklare hva koden gjør.', true, false, 9),
+  ('matematikk-10:python-i-matematikk', 'm01', 'sant-usant', 'range(0, 3) gir tallene 0, 1, 2 og 3.', array['Sant', 'Usant']::text[], 1, 'Det siste tallet er ikke med, så range(0, 3) gir 0, 1 og 2.', false, true, 10),
+  ('matematikk-10:python-i-matematikk', 'm02', 'sant-usant', 'I Python betyr x = x + 1 at x økes med 1.', array['Sant', 'Usant']::text[], 0, 'Høyre side regnes ut med den gamle verdien, og resultatet lagres som ny verdi i x.', false, true, 11),
+  ('matematikk-10:python-i-matematikk', 'm03', 'sant-usant', '17 // 5 gir 3.', array['Sant', 'Usant']::text[], 0, '// er heltallsdivisjon: 5 går 3 hele ganger opp i 17.', false, true, 12),
+  ('matematikk-10:python-i-matematikk', 'm04', 'sant-usant', 'Et program som finner et mønster for tusen tall, har bevist at mønsteret alltid gjelder.', array['Sant', 'Usant']::text[], 1, 'Mange eksempler er ikke et bevis. Mønsteret må forklares med et argument som gjelder for alle tall.', false, true, 13),
+  ('matematikk-10:python-i-matematikk', 'm05', 'flervalg', 'Hva skrives ut? s = 0, for i in range(1, 4): s = s + i, print(s)', array['3', '10', '4', '6']::text[], 3, 'i blir 1, 2 og 3. s blir 0 + 1 + 2 + 3 = 6.', false, true, 14),
+  ('matematikk-10:python-i-matematikk', 'm06', 'flervalg', 'Hvilken betingelse sjekker om tallet n er delelig med 7?', array['n / 7 == 0', 'n % 7 == 0', 'n // 7 == 1', 'n == 7']::text[], 1, 'n er delelig med 7 når resten ved deling på 7 er 0.', false, true, 15),
+  ('matematikk-10:python-i-matematikk', 'm07', 'flervalg', 'Hva gir f(4) når def f(x): return x ** 2 − 1?', array['15', '7', '16', '3']::text[], 0, '4 ** 2 − 1 = 16 − 1 = 15.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-10:python-i-matematikk', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Engelsk (10): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'engelsk-10' and slug not in ('advanced-grammar', 'argumentative-writing', 'sources-and-reliability', 'oral-communication', 'youth-literature', 'film-music-and-media', 'australia-new-zealand-and-canada');
+
+-- Engelsk: Passive, conditionals and reported speech
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('engelsk-10:advanced-grammar', 'engelsk-10', 'advanced-grammar', 'Passive, conditionals and reported speech', 'Three grammar structures that make your English more flexible: the passive voice, conditional sentences with “if”, and reported speech.', array[8, 9, 15]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('engelsk-10:advanced-grammar', '## The passive voice
+
+In an **active** sentence, the subject does the action: **The chef cooked the meal.** In a **passive** sentence, the focus moves to what the action is done to: **The meal was cooked (by the chef).**
+
+The passive is formed with **be + past participle**: is made, was built, has been sold, will be announced. We use it when the doer is unknown, unimportant or obvious: **My bike was stolen.** English is made in many countries. It is also common in news and science: **The results were published yesterday.** Do not overuse it – active sentences are usually clearer.
+
+## Conditional sentences
+
+Conditional sentences describe what happens if something else happens. They have an **if-clause** and a **main clause**.
+
+- **Zero conditional** (always true): If you **heat** ice, it **melts**. (present + present)
+- **First conditional** (real possibility in the future): If it **rains** tomorrow, we **will stay** inside. (present + will)
+- **Second conditional** (unreal or unlikely now): If I **had** a million kroner, I **would travel** the world. (past + would)
+- **Third conditional** (unreal past): If she **had studied**, she **would have passed**. (had + past participle + would have)
+
+A common mistake is putting “would” in the if-clause: “If I would have money” is wrong – it should be “If I had money”. In formal English, “If I **were** you, I would…” is used with all persons.
+
+## Reported speech
+
+**Direct speech** repeats someone''s exact words: She said, “I am tired.” **Reported speech** (indirect speech) retells what someone said: She said (that) she **was** tired.
+
+When the reporting verb is in the past (said, told, asked), the verb in the reported sentence usually moves **one step back** in time:
+
+- am/is → was, do → did, will → would, can → could
+- have done → had done, did → had done
+
+Pronouns and time words also change: “I will call you **tomorrow**” → He said he would call me **the next day**. Questions become statements: “Where do you live?” → She asked where I **lived**. For yes/no questions, use **if** or **whether**: He asked **if** I liked football.
+
+## Why learn this?
+
+These structures let you vary your writing, express possibilities and wishes, and retell conversations and sources accurately – skills you need in essays, articles and discussions.', '{"label":"Advanced grammar","children":[{"label":"Passive","children":[{"label":"be + past participle"},{"label":"Doer unknown/unimportant"},{"label":"News and science"}]},{"label":"Conditionals","children":[{"label":"Zero","note":"Always true"},{"label":"First","note":"Real future"},{"label":"Second","note":"Unreal now"},{"label":"Third","note":"Unreal past"}]},{"label":"Reported speech","children":[{"label":"Backshift","note":"will → would"},{"label":"Pronouns change"},{"label":"tomorrow → the next day"},{"label":"asked if / whether"}]},{"label":"Traps","children":[{"label":"No would in if-clause"},{"label":"Don''t overuse passive"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'engelsk-10:advanced-grammar';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('engelsk-10:advanced-grammar', 'Active voice', 'The subject does the action: The chef cooked the meal.', 0),
+  ('engelsk-10:advanced-grammar', 'Passive voice', 'Focus on what the action is done to: The meal was cooked.', 1),
+  ('engelsk-10:advanced-grammar', 'Forming the passive', 'be + past participle: is made, was built, has been sold.', 2),
+  ('engelsk-10:advanced-grammar', 'When to use the passive', 'When the doer is unknown, unimportant or obvious; common in news and science.', 3),
+  ('engelsk-10:advanced-grammar', 'Zero conditional', 'Always true: If you heat ice, it melts.', 4),
+  ('engelsk-10:advanced-grammar', 'First conditional', 'Real future possibility: If it rains, we will stay inside.', 5),
+  ('engelsk-10:advanced-grammar', 'Second conditional', 'Unreal now: If I had money, I would travel.', 6),
+  ('engelsk-10:advanced-grammar', 'Third conditional', 'Unreal past: If she had studied, she would have passed.', 7),
+  ('engelsk-10:advanced-grammar', 'No “would” in the if-clause', 'Say “If I had money”, not “If I would have money”.', 8),
+  ('engelsk-10:advanced-grammar', 'If I were you', 'Formal form used with all persons in the second conditional.', 9),
+  ('engelsk-10:advanced-grammar', 'Direct speech', 'Someone''s exact words in quotation marks: “I am tired.”', 10),
+  ('engelsk-10:advanced-grammar', 'Reported speech', 'Retelling what someone said: She said she was tired.', 11),
+  ('engelsk-10:advanced-grammar', 'Backshift', 'In reported speech, the verb moves one step back: will → would, is → was.', 12),
+  ('engelsk-10:advanced-grammar', 'tomorrow → the next day', 'Time words change in reported speech.', 13),
+  ('engelsk-10:advanced-grammar', 'Reported yes/no questions', 'Use if or whether: He asked if I liked football.', 14);
+delete from public.quiz_sporsmal where tema_id = 'engelsk-10:advanced-grammar';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('engelsk-10:advanced-grammar', 'q01', 'flervalg', 'Which sentence is passive?', array['The dog bit the man.', 'The man was bitten by the dog.', 'The man bit the sandwich.', 'The dog is biting.']::text[], 1, 'The passive uses be + past participle (was bitten), and the focus is on the man.', true, true, 0),
+  ('engelsk-10:advanced-grammar', 'q02', 'flervalg', 'Make the sentence passive: “Someone stole my bike.”', array['My bike stole.', 'My bike has stealing.', 'My bike was stolen.', 'My bike is steal.']::text[], 2, 'was + past participle (stolen). We leave out “by someone” because it adds nothing.', true, true, 1),
+  ('engelsk-10:advanced-grammar', 'q03', 'flervalg', 'Which conditional is this? “If it rains tomorrow, we will stay inside.”', array['First conditional', 'Zero conditional', 'Second conditional', 'Third conditional']::text[], 0, 'It describes a real possibility in the future: present + will.', true, true, 2),
+  ('engelsk-10:advanced-grammar', 'q04', 'flervalg', 'Complete: “If I … a million kroner, I would buy a house.”', array['have', 'would have', 'will have', 'had']::text[], 3, 'The second conditional uses the past tense in the if-clause: If I had…', true, true, 3),
+  ('engelsk-10:advanced-grammar', 'q05', 'flervalg', 'Complete: “If she … harder, she would have passed the test.”', array['studied', 'had studied', 'would study', 'studies']::text[], 1, 'The third conditional uses had + past participle in the if-clause.', true, true, 4),
+  ('engelsk-10:advanced-grammar', 'q06', 'flervalg', 'Change to reported speech: She said, “I am tired.”', array['She said she was tired.', 'She said I am tired.', 'She said she is tiring.', 'She says she were tired.']::text[], 0, 'The pronoun changes (I → she) and the verb moves back (am → was).', true, true, 5),
+  ('engelsk-10:advanced-grammar', 'q07', 'flervalg', 'Change to reported speech: He said, “I will call you.”', array['He said he will call me.', 'He said I call you.', 'He said he would call me.', 'He said he called you tomorrow.']::text[], 2, '“Will” becomes “would”, and the pronouns change to fit the new speaker.', true, true, 6),
+  ('engelsk-10:advanced-grammar', 'q08', 'flervalg', 'How do you report the question “Do you like football?”', array['He asked do I like football.', 'He asked did I like football?', 'He asked that I like football.', 'He asked if I liked football.']::text[], 3, 'Reported yes/no questions use if/whether and normal statement word order.', true, true, 7),
+  ('engelsk-10:advanced-grammar', 'q09', 'flervalg', 'Which zero conditional sentence is correct?', array['If you heat ice, it melts.', 'If you heated ice, it would melt yesterday.', 'If you will heat ice, it melts.', 'If you heat ice, it would melt.']::text[], 0, 'The zero conditional uses present + present for things that are always true.', true, false, 8),
+  ('engelsk-10:advanced-grammar', 'q10', 'flervalg', 'When is the passive especially useful?', array['When you want to be informal', 'When the doer is unknown or unimportant', 'When you tell a joke', 'When you write dialogue']::text[], 1, '“The window was broken” works well when we do not know or care who broke it.', true, false, 9),
+  ('engelsk-10:advanced-grammar', 'm01', 'sant-usant', '“If I would have time, I would help you” is correct.', array['Sant', 'Usant']::text[], 1, 'We do not use “would” in the if-clause. Correct: If I had time, I would help you.', false, true, 10),
+  ('engelsk-10:advanced-grammar', 'm02', 'sant-usant', 'The passive is formed with a form of “be” and the past participle.', array['Sant', 'Usant']::text[], 0, 'Examples: is made, was built, has been sold.', false, true, 11),
+  ('engelsk-10:advanced-grammar', 'm03', 'sant-usant', 'In reported speech, “can” often becomes “could”.', array['Sant', 'Usant']::text[], 0, 'Backshift: can → could, will → would.', false, true, 12),
+  ('engelsk-10:advanced-grammar', 'm04', 'sant-usant', 'Passive sentences are always clearer than active sentences.', array['Sant', 'Usant']::text[], 1, 'Active sentences are usually clearer. Use the passive when there is a reason to.', false, true, 13),
+  ('engelsk-10:advanced-grammar', 'm05', 'flervalg', 'Which sentence is the second conditional?', array['If I win, I will celebrate.', 'If I won, I would celebrate.', 'If I had won, I would have celebrated.', 'If you win, you celebrate.']::text[], 1, 'The second conditional: past in the if-clause + would.', false, true, 14),
+  ('engelsk-10:advanced-grammar', 'm06', 'flervalg', 'Make passive: “They build new houses every year.”', array['New houses build every year.', 'New houses were building every year.', 'New houses are built every year.', 'New houses have build every year.']::text[], 2, 'Present passive: are + built.', false, true, 15),
+  ('engelsk-10:advanced-grammar', 'm07', 'flervalg', 'Report: “Where do you live?” she asked.', array['She asked where I lived.', 'She asked where do I live.', 'She asked where did I live.', 'She asked if where I lived.']::text[], 0, 'The question word stays, the word order becomes a statement, and the verb moves back.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('engelsk-10:advanced-grammar', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Engelsk: Argumentative essays
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('engelsk-10:argumentative-writing', 'engelsk-10', 'argumentative-writing', 'Argumentative essays', 'How to write a clear argumentative essay in English: thesis statement, paragraph structure, evidence, counterarguments, linking words and revising.', array[14, 15, 5]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('engelsk-10:argumentative-writing', '## What is an argumentative essay?
+
+An **argumentative essay** takes a position on an issue and tries to convince the reader through logical arguments and evidence. Typical topics could be “Should mobile phones be banned in schools?” or “Should the voting age be lowered to 16?”. Your goal is not only to state your opinion, but to **support** it and show that you have considered other views.
+
+## Structure
+
+A classic essay has five parts, but it can be longer:
+
+- **Introduction**: Catch the reader''s interest with a **hook** – a question, a surprising fact or a short example. Give some background and end with your **thesis statement**: one clear sentence that states your position.
+- **Body paragraphs**: Each paragraph presents **one argument**. Use the **PEEL** model: **P**oint (topic sentence), **E**vidence (facts, examples, statistics, quotes), **E**xplanation (why this supports your view) and **L**ink (back to the thesis or on to the next paragraph).
+- **Counterargument**: Present an opposing view fairly and then **refute** it: “Some argue that… However, …”. This makes your essay more convincing.
+- **Conclusion**: Sum up your main points and restate your thesis in new words. End with a final thought or a call to action. Do not add new arguments.
+
+## Language
+
+Argumentative essays are usually **formal**. Avoid slang and contractions, and use precise words. **Linking words** show how your ideas connect:
+
+- Adding: furthermore, moreover, in addition
+- Contrasting: however, on the other hand, nevertheless
+- Cause and effect: therefore, as a result, consequently
+- Giving examples: for instance, for example, such as
+- Concluding: in conclusion, to sum up, all in all
+
+Use hedging when needed: “This **may** lead to…”, “Studies **suggest** that…”. It shows that you are careful and fair.
+
+## Evidence and sources
+
+Arguments are stronger with **evidence**. Use reliable sources, and tell the reader where your information comes from: “According to a report from the World Health Organization, …”. Avoid claims like “everybody knows” without support.
+
+## Revising
+
+When you revise, check that your thesis is clear, that each paragraph has one main point and a topic sentence, that you have evidence and explanations, and that your counterargument is answered. Finally, check grammar, spelling and punctuation. Use the **feedback** you get to improve your next essay.', '{"label":"Argumentative essays","children":[{"label":"Introduction","children":[{"label":"Hook"},{"label":"Background"},{"label":"Thesis statement"}]},{"label":"Body","children":[{"label":"One argument per paragraph"},{"label":"PEEL"},{"label":"Evidence and sources"}]},{"label":"Counterargument","children":[{"label":"Present fairly"},{"label":"Refute","note":"However, …"}]},{"label":"Conclusion","children":[{"label":"Sum up"},{"label":"Restate thesis"},{"label":"No new arguments"}]},{"label":"Language","children":[{"label":"Formal register"},{"label":"Linking words"},{"label":"Hedging"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'engelsk-10:argumentative-writing';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('engelsk-10:argumentative-writing', 'Argumentative essay', 'An essay that takes a position and supports it with arguments and evidence.', 0),
+  ('engelsk-10:argumentative-writing', 'Hook', 'An opening that catches the reader''s interest: a question, fact or example.', 1),
+  ('engelsk-10:argumentative-writing', 'Thesis statement', 'One clear sentence in the introduction that states your position.', 2),
+  ('engelsk-10:argumentative-writing', 'Body paragraph', 'A paragraph that presents one argument.', 3),
+  ('engelsk-10:argumentative-writing', 'PEEL', 'Point, Evidence, Explanation, Link – a model for body paragraphs.', 4),
+  ('engelsk-10:argumentative-writing', 'Topic sentence', 'The first sentence of a paragraph, stating its main point.', 5),
+  ('engelsk-10:argumentative-writing', 'Evidence', 'Facts, examples, statistics or quotes that support a point.', 6),
+  ('engelsk-10:argumentative-writing', 'Counterargument', 'An opposing view that you present fairly and then refute.', 7),
+  ('engelsk-10:argumentative-writing', 'Refute', 'To show that an argument is wrong or weaker than yours.', 8),
+  ('engelsk-10:argumentative-writing', 'Conclusion', 'Sums up the main points and restates the thesis without new arguments.', 9),
+  ('engelsk-10:argumentative-writing', 'furthermore / moreover', 'Linking words for adding a point.', 10),
+  ('engelsk-10:argumentative-writing', 'however / nevertheless', 'Linking words for contrast.', 11),
+  ('engelsk-10:argumentative-writing', 'therefore / consequently', 'Linking words for cause and effect.', 12),
+  ('engelsk-10:argumentative-writing', 'Hedging', 'Careful language like “may”, “suggest”, “it is likely that”.', 13),
+  ('engelsk-10:argumentative-writing', 'Call to action', 'An ending that encourages the reader to do or think something.', 14);
+delete from public.quiz_sporsmal where tema_id = 'engelsk-10:argumentative-writing';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('engelsk-10:argumentative-writing', 'q01', 'flervalg', 'What is a thesis statement?', array['The title of the essay', 'One clear sentence that states your position', 'A list of sources', 'The last paragraph']::text[], 1, 'The thesis statement tells the reader exactly what you are going to argue.', true, true, 0),
+  ('engelsk-10:argumentative-writing', 'q02', 'flervalg', 'What does the first “E” in PEEL stand for?', array['Evidence', 'Ending', 'Example sentence', 'Essay']::text[], 0, 'PEEL = Point, Evidence, Explanation, Link.', true, true, 1),
+  ('engelsk-10:argumentative-writing', 'q03', 'flervalg', 'Why should you include a counterargument?', array['To change your opinion', 'To make the essay longer', 'To show that you have considered other views and can refute them', 'Because the teacher says so']::text[], 2, 'Answering a counterargument makes your own position more convincing.', true, true, 2),
+  ('engelsk-10:argumentative-writing', 'q04', 'flervalg', 'Which linking word shows contrast?', array['furthermore', 'therefore', 'for example', 'however']::text[], 3, '“However” introduces a contrasting idea.', true, true, 3),
+  ('engelsk-10:argumentative-writing', 'q05', 'flervalg', 'What should the conclusion NOT do?', array['Sum up the main points', 'Restate the thesis', 'Introduce new arguments', 'End with a final thought']::text[], 2, 'New arguments belong in the body paragraphs.', true, true, 4),
+  ('engelsk-10:argumentative-writing', 'q06', 'flervalg', 'Which is the best hook for an essay about school phones?', array['This essay is about phones.', 'Did you know that many students check their phones over a hundred times a day?', 'Phones.', 'I will now write an essay.']::text[], 1, 'A question with a surprising fact catches the reader''s interest.', true, true, 5),
+  ('engelsk-10:argumentative-writing', 'q07', 'flervalg', 'Which sentence is an example of hedging?', array['This proves everything.', 'Everybody knows this is true.', 'Studies suggest that this may improve concentration.', 'This is 100 % certain.']::text[], 2, '“Suggest” and “may” show careful, fair language.', true, true, 6),
+  ('engelsk-10:argumentative-writing', 'q08', 'flervalg', 'What register is usually best for an argumentative essay?', array['Formal', 'Very informal with slang', 'Text-message style', 'Poetic']::text[], 0, 'Essays use formal language without slang and contractions.', true, false, 7),
+  ('engelsk-10:argumentative-writing', 'q09', 'flervalg', 'How many main arguments should a body paragraph contain?', array['None', 'As many as possible', 'Three', 'One']::text[], 3, 'One argument per paragraph keeps the essay clear and organised.', true, true, 8),
+  ('engelsk-10:argumentative-writing', 'q10', 'flervalg', 'Which phrase introduces a source?', array['Everybody knows that…', 'According to a report from…', 'I think maybe…', 'Whatever…']::text[], 1, '“According to…” shows where your information comes from.', true, false, 9),
+  ('engelsk-10:argumentative-writing', 'm01', 'sant-usant', 'The thesis statement usually comes at the end of the introduction.', array['Sant', 'Usant']::text[], 0, 'The introduction leads up to the thesis, which tells the reader your position.', false, true, 10),
+  ('engelsk-10:argumentative-writing', 'm02', 'sant-usant', 'Contractions like “don''t” are ideal in a formal essay.', array['Sant', 'Usant']::text[], 1, 'Formal essays use full forms: do not, cannot.', false, true, 11),
+  ('engelsk-10:argumentative-writing', 'm03', 'sant-usant', '“Consequently” shows cause and effect.', array['Sant', 'Usant']::text[], 0, '“Consequently” means “as a result”.', false, true, 12),
+  ('engelsk-10:argumentative-writing', 'm04', 'sant-usant', 'An argumentative essay only needs your opinion, not evidence.', array['Sant', 'Usant']::text[], 1, 'Evidence makes arguments convincing. Opinions alone are weak.', false, true, 13),
+  ('engelsk-10:argumentative-writing', 'm05', 'flervalg', 'Which linking word adds a point?', array['however', 'moreover', 'although', 'nevertheless']::text[], 1, '“Moreover” adds another point in the same direction.', false, true, 14),
+  ('engelsk-10:argumentative-writing', 'm06', 'flervalg', 'What does “refute” mean?', array['To agree completely', 'To repeat', 'To show that an argument is wrong or weaker', 'To summarise']::text[], 2, 'Refuting a counterargument strengthens your own position.', false, true, 15),
+  ('engelsk-10:argumentative-writing', 'm07', 'flervalg', 'What is a call to action?', array['An ending that encourages the reader to do or think something', 'A phone call', 'A source', 'A topic sentence']::text[], 0, 'For example: “It is time for schools to act.”', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('engelsk-10:argumentative-writing', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Engelsk: Sources and reliability
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('engelsk-10:sources-and-reliability', 'engelsk-10', 'sources-and-reliability', 'Sources and reliability', 'How to evaluate English-language sources, recognise fake news and bias, and quote, paraphrase and reference sources correctly in your own texts.', array[12, 13, 10]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('engelsk-10:sources-and-reliability', '## Why evaluate sources?
+
+When you search for information in English, you get millions of results. Some are written by experts, some by companies that want to sell something, and some by people who spread false information on purpose. Being **source-critical** means asking questions before you trust and use what you read.
+
+## Questions to ask
+
+A simple checklist is the **5 W''s of source evaluation**:
+
+- **Who** wrote it? Is the author or organisation an expert? Can you find out who they are?
+- **What** is the purpose? To inform, to entertain, to persuade or to sell?
+- **When** was it published or updated? Is the information still current?
+- **Where** is it published? A well-known newspaper, a government site, a research institution or an anonymous blog?
+- **Why** should you trust it? Does it give evidence and sources, and do other reliable sources say the same?
+
+## Fake news, bias and clickbait
+
+**Fake news** is false information presented as real news, often spread on social media. Warning signs include shocking headlines, no named author, no sources, poor language and websites that imitate real newspapers.
+
+**Bias** means presenting information in a one-sided way. A text can be biased without being false, for example by only including facts that support one side. **Clickbait** uses exaggerated headlines to make you click.
+
+A useful method is **lateral reading**: instead of reading one site carefully, open new tabs and check what other sources say about the site and the claim. **Fact-checking** sites can also help.
+
+## Using sources in your text
+
+- **Quoting**: using someone''s exact words in quotation marks, with a reference: As the report states, “…”.
+- **Paraphrasing**: expressing someone''s ideas in your own words. You must still give the source.
+- **Summarising**: giving the main points of a longer text briefly.
+
+Introduce sources with **signal phrases**: According to…, As … points out, … argues that…
+
+## References
+
+At the end of your text, include a **list of references** with author, title, date and URL (and the date you accessed it). Follow one style and be **consistent**. Presenting other people''s work as your own is **plagiarism**, which is a serious form of cheating.
+
+## AI tools
+
+AI chatbots can be useful for ideas and language help, but they can produce convincing text that is wrong, and even invent sources. Always check facts in reliable sources, and be open about how you have used AI.', '{"label":"Sources and reliability","children":[{"label":"Evaluate","children":[{"label":"Who?"},{"label":"What purpose?"},{"label":"When?"},{"label":"Where?"},{"label":"Why trust it?"}]},{"label":"Watch out","children":[{"label":"Fake news"},{"label":"Bias"},{"label":"Clickbait"}]},{"label":"Methods","children":[{"label":"Lateral reading"},{"label":"Fact-checking"}]},{"label":"Using sources","children":[{"label":"Quote"},{"label":"Paraphrase"},{"label":"Summarise"},{"label":"Signal phrases"}]},{"label":"Honesty","children":[{"label":"List of references"},{"label":"No plagiarism"},{"label":"Be open about AI"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'engelsk-10:sources-and-reliability';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('engelsk-10:sources-and-reliability', 'Source-critical', 'Asking questions about a source before trusting and using it.', 0),
+  ('engelsk-10:sources-and-reliability', 'Who, what, when, where, why', 'Five questions for evaluating a source.', 1),
+  ('engelsk-10:sources-and-reliability', 'Purpose', 'Why a text was made: to inform, entertain, persuade or sell.', 2),
+  ('engelsk-10:sources-and-reliability', 'Fake news', 'False information presented as real news.', 3),
+  ('engelsk-10:sources-and-reliability', 'Bias', 'A one-sided presentation of information.', 4),
+  ('engelsk-10:sources-and-reliability', 'Clickbait', 'Exaggerated headlines designed to make you click.', 5),
+  ('engelsk-10:sources-and-reliability', 'Lateral reading', 'Checking what other sources say about a website or claim, in new tabs.', 6),
+  ('engelsk-10:sources-and-reliability', 'Fact-checking', 'Checking whether a claim is true, often using specialised sites.', 7),
+  ('engelsk-10:sources-and-reliability', 'Quoting', 'Using someone''s exact words in quotation marks, with a reference.', 8),
+  ('engelsk-10:sources-and-reliability', 'Paraphrasing', 'Expressing someone''s ideas in your own words, still with a reference.', 9),
+  ('engelsk-10:sources-and-reliability', 'Summarising', 'Giving the main points of a longer text briefly.', 10),
+  ('engelsk-10:sources-and-reliability', 'Signal phrase', 'Words that introduce a source: According to…, As … argues…', 11),
+  ('engelsk-10:sources-and-reliability', 'List of references', 'A list of all sources used, with author, title, date and URL.', 12),
+  ('engelsk-10:sources-and-reliability', 'Plagiarism', 'Presenting someone else''s work or ideas as your own.', 13),
+  ('engelsk-10:sources-and-reliability', 'AI and sources', 'AI tools can invent facts and sources. Always check and be open about your use.', 14);
+delete from public.quiz_sporsmal where tema_id = 'engelsk-10:sources-and-reliability';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('engelsk-10:sources-and-reliability', 'q01', 'flervalg', 'Which question helps you find out if a source is current?', array['Who wrote it?', 'When was it published or updated?', 'Why was it written?', 'Where is it published?']::text[], 1, 'The date tells you whether the information might be outdated.', true, true, 0),
+  ('engelsk-10:sources-and-reliability', 'q02', 'flervalg', 'What is bias?', array['A spelling mistake', 'A one-sided presentation of information', 'A reference list', 'A type of website']::text[], 1, 'A biased text may leave out information that does not support its view.', true, true, 1),
+  ('engelsk-10:sources-and-reliability', 'q03', 'flervalg', 'Which is a warning sign of fake news?', array['A named expert author', 'Links to research', 'A shocking headline and no sources', 'A recent date']::text[], 2, 'Sensational headlines without sources are typical of fake news.', true, true, 2),
+  ('engelsk-10:sources-and-reliability', 'q04', 'flervalg', 'What is paraphrasing?', array['Copying a text word for word', 'Writing a reference list', 'Deleting sources', 'Expressing someone''s ideas in your own words']::text[], 3, 'Paraphrasing uses your own words, but you must still give the source.', true, true, 3),
+  ('engelsk-10:sources-and-reliability', 'q05', 'flervalg', 'What is lateral reading?', array['Checking what other sources say about a site or claim', 'Reading from left to right', 'Reading only the headline', 'Reading very slowly']::text[], 0, 'Fact-checkers often leave a site quickly to see what others say about it.', true, true, 4),
+  ('engelsk-10:sources-and-reliability', 'q06', 'flervalg', 'Which is a signal phrase?', array['Once upon a time', 'According to the World Health Organization,', 'Yours sincerely', 'The end']::text[], 1, '“According to…” introduces a source in your text.', true, true, 5),
+  ('engelsk-10:sources-and-reliability', 'q07', 'flervalg', 'What is plagiarism?', array['Using many sources', 'Quoting correctly', 'Presenting someone else''s work as your own', 'Writing a summary']::text[], 2, 'Plagiarism is a serious form of cheating.', true, true, 6),
+  ('engelsk-10:sources-and-reliability', 'q08', 'flervalg', 'Why should you check facts from an AI chatbot?', array['Because AI is always right', 'Because AI only writes in Norwegian', 'Because it is forbidden to use AI', 'Because AI can produce convincing text that is wrong']::text[], 3, 'AI tools can make mistakes and even invent sources.', true, false, 7),
+  ('engelsk-10:sources-and-reliability', 'q09', 'flervalg', 'What is clickbait?', array['A fishing tool', 'A headline designed to make you click, often exaggerated', 'A reliable news source', 'A type of reference']::text[], 1, 'Clickbait often promises more than the article delivers.', true, false, 8),
+  ('engelsk-10:sources-and-reliability', 'q10', 'flervalg', 'What should a reference list include for a web page?', array['Only the URL', 'Only the title', 'Author, title, date and URL', 'Only your opinion of the page']::text[], 2, 'Enough information for the reader to find and check the source.', true, true, 9),
+  ('engelsk-10:sources-and-reliability', 'm01', 'sant-usant', 'A text can be biased even if all the facts in it are true.', array['Sant', 'Usant']::text[], 0, 'Bias can come from what is left out or how facts are presented.', false, true, 10),
+  ('engelsk-10:sources-and-reliability', 'm02', 'sant-usant', 'You do not need to give a source when you paraphrase.', array['Sant', 'Usant']::text[], 1, 'Paraphrased ideas still come from someone else and need a reference.', false, true, 11),
+  ('engelsk-10:sources-and-reliability', 'm03', 'sant-usant', 'AI chatbots can invent sources that do not exist.', array['Sant', 'Usant']::text[], 0, 'This is why all facts and references from AI must be checked.', false, true, 12),
+  ('engelsk-10:sources-and-reliability', 'm04', 'sant-usant', 'An anonymous blog is always as reliable as a research institution.', array['Sant', 'Usant']::text[], 1, 'Without a known author and sources, it is hard to judge reliability.', false, true, 13),
+  ('engelsk-10:sources-and-reliability', 'm05', 'flervalg', 'What is the purpose of an advertisement?', array['To sell or persuade', 'To give neutral information', 'To report news', 'To entertain only']::text[], 0, 'Advertisements want you to buy something, so they present only the positive sides.', false, true, 14),
+  ('engelsk-10:sources-and-reliability', 'm06', 'flervalg', 'Which source is usually most reliable for health information?', array['An anonymous forum post', 'A national health authority''s website', 'A product advertisement', 'A meme']::text[], 1, 'Official health authorities base their information on research and expert review.', false, true, 15),
+  ('engelsk-10:sources-and-reliability', 'm07', 'flervalg', 'What does summarising mean?', array['Copying the whole text', 'Adding your own opinions only', 'Giving the main points of a text briefly', 'Translating a text']::text[], 2, 'A summary shortens a text to its key ideas.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('engelsk-10:sources-and-reliability', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Engelsk: Oral communication
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('engelsk-10:oral-communication', 'engelsk-10', 'oral-communication', 'Oral communication', 'How to take part in discussions, ask follow-up questions, give presentations and use natural, idiomatic English when you speak.', array[6, 5, 3]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('engelsk-10:oral-communication', '## Speaking with confidence
+
+Speaking English is not about being perfect. It is about getting your message across, listening to others and keeping the conversation going. Many Norwegians understand English well but feel unsure when they speak. The best cure is practice – and some useful phrases.
+
+## Taking part in a discussion
+
+In a good discussion, people **listen**, **respond** to each other and **build on** what others say. Useful phrases:
+
+- Giving your opinion: In my opinion…, I believe that…, As I see it…
+- Agreeing: I agree with you. That''s a good point. Exactly!
+- Disagreeing politely: I see what you mean, but… I''m not sure I agree… That''s true, however…
+- Interrupting politely: Sorry to interrupt, but… Can I just add something?
+- Asking for clarification: What do you mean by…? Could you give an example?
+
+## Follow-up questions
+
+**Follow-up questions** show that you are listening and help the conversation continue. Instead of just saying “OK”, ask: Why do you think so? How did that make you feel? What happened next? **Open questions** (starting with why, how, what) give longer answers than **closed questions** (yes/no).
+
+## Presentations
+
+A good presentation has a clear **structure**:
+
+- **Introduction**: greet the audience, present your topic and tell them what you will talk about.
+- **Main part**: two to four main points, with examples.
+- **Conclusion**: sum up and thank the audience. Invite questions.
+
+Use **signposting** to guide your listeners: First, I will talk about… Moving on to… Finally… Speak slowly and clearly, look at your audience, and use notes with keywords rather than reading a full script. Slides should support you, not replace you.
+
+## Fluency and idiomatic English
+
+**Fluency** means speaking smoothly without too many long pauses. **Fillers** like “well”, “you know” and “let me think” give you time without switching to Norwegian. **Idiomatic expressions** make your English sound natural: “It''s up to you”, “to be honest”, “that makes sense”, “I''m on the fence” (I haven''t decided).
+
+Adapt your language to the situation. With friends you can be informal; in a job interview or formal debate, be more careful and polite.
+
+## Pronunciation and clarity
+
+Clear pronunciation matters more than a perfect accent. Stress important words, pause between ideas, and vary your intonation so you do not sound monotonous.', '{"label":"Oral communication","children":[{"label":"Discussion","children":[{"label":"Give opinion","note":"In my opinion…"},{"label":"Agree / disagree politely"},{"label":"Interrupt politely"}]},{"label":"Questions","children":[{"label":"Follow-up questions"},{"label":"Open vs closed"},{"label":"Ask for clarification"}]},{"label":"Presentations","children":[{"label":"Introduction – main part – conclusion"},{"label":"Signposting"},{"label":"Keyword notes"},{"label":"Eye contact"}]},{"label":"Fluency","children":[{"label":"Fillers"},{"label":"Idioms","note":"on the fence"},{"label":"Adapt to situation"}]},{"label":"Clarity","children":[{"label":"Stress key words"},{"label":"Vary intonation"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'engelsk-10:oral-communication';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('engelsk-10:oral-communication', 'In my opinion…', 'A phrase for giving your opinion.', 0),
+  ('engelsk-10:oral-communication', 'I see what you mean, but…', 'A polite way to disagree.', 1),
+  ('engelsk-10:oral-communication', 'Sorry to interrupt, but…', 'A polite way to interrupt.', 2),
+  ('engelsk-10:oral-communication', 'Could you give an example?', 'A phrase for asking for clarification.', 3),
+  ('engelsk-10:oral-communication', 'Follow-up question', 'A question that builds on what someone just said: Why do you think so?', 4),
+  ('engelsk-10:oral-communication', 'Open question', 'A question starting with why, how or what, which invites a longer answer.', 5),
+  ('engelsk-10:oral-communication', 'Closed question', 'A question that can be answered with yes or no.', 6),
+  ('engelsk-10:oral-communication', 'Signposting', 'Phrases that guide listeners: First… Moving on to… Finally…', 7),
+  ('engelsk-10:oral-communication', 'Keyword notes', 'Short notes instead of a full script, so you can speak freely.', 8),
+  ('engelsk-10:oral-communication', 'Fluency', 'Speaking smoothly without too many long pauses.', 9),
+  ('engelsk-10:oral-communication', 'Fillers', 'Words like “well” and “let me think” that give you time to think.', 10),
+  ('engelsk-10:oral-communication', 'I''m on the fence', 'I haven''t decided yet.', 11),
+  ('engelsk-10:oral-communication', 'That makes sense', 'I understand and agree with the logic.', 12),
+  ('engelsk-10:oral-communication', 'It''s up to you', 'You decide.', 13),
+  ('engelsk-10:oral-communication', 'Intonation', 'The melody of speech. Varying it keeps listeners interested.', 14);
+delete from public.quiz_sporsmal where tema_id = 'engelsk-10:oral-communication';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('engelsk-10:oral-communication', 'q01', 'flervalg', 'Which phrase is a polite way to disagree?', array['You''re wrong!', 'I see what you mean, but I''m not sure I agree.', 'That''s stupid.', 'Whatever.']::text[], 1, 'Acknowledging the other person''s point before disagreeing keeps the discussion respectful.', true, true, 0),
+  ('engelsk-10:oral-communication', 'q02', 'flervalg', 'Which is an open question?', array['Do you like football?', 'Is it raining?', 'Why do you think the law should change?', 'Are you ready?']::text[], 2, 'Open questions start with words like why, how and what, and invite longer answers.', true, true, 1),
+  ('engelsk-10:oral-communication', 'q03', 'flervalg', 'What is signposting in a presentation?', array['Phrases that guide the audience through your talk', 'Drawing road signs', 'Holding up a poster', 'Reading the whole script']::text[], 0, 'Phrases like “Moving on to…” help the audience follow your structure.', true, true, 2),
+  ('engelsk-10:oral-communication', 'q04', 'flervalg', 'What does “I''m on the fence” mean?', array['I''m sitting outside', 'I''m angry', 'I agree completely', 'I haven''t decided yet']::text[], 3, 'The idiom means you have not made up your mind.', true, true, 3),
+  ('engelsk-10:oral-communication', 'q05', 'flervalg', 'Why are follow-up questions useful?', array['They end the conversation', 'They show you are listening and keep the conversation going', 'They change the topic', 'They are required by law']::text[], 1, 'Follow-up questions show interest and help the other person say more.', true, true, 4),
+  ('engelsk-10:oral-communication', 'q06', 'flervalg', 'What is best to use as support during a presentation?', array['A full script you read word for word', 'No preparation', 'Short notes with keywords', 'Only your phone screen']::text[], 2, 'Keyword notes help you remember your points while still speaking freely to the audience.', true, true, 5),
+  ('engelsk-10:oral-communication', 'q07', 'flervalg', 'Which phrase can you use to interrupt politely?', array['Stop talking!', 'Be quiet!', 'Sorry to interrupt, but can I add something?', 'Hey, listen to me!']::text[], 2, 'Apologising before interrupting is polite in English-speaking cultures.', true, true, 6),
+  ('engelsk-10:oral-communication', 'q08', 'flervalg', 'What is fluency?', array['Speaking smoothly without too many long pauses', 'Having no accent', 'Speaking very fast', 'Using difficult words']::text[], 0, 'Fluency is about flow. You can be fluent and still have an accent.', true, false, 7),
+  ('engelsk-10:oral-communication', 'q09', 'flervalg', 'What can you say to gain time when you need to think?', array['Nothing, just stop', 'Switch to Norwegian', 'Leave the room', 'Well, let me think…']::text[], 3, 'Fillers like “well, let me think” keep the conversation going in English.', true, true, 8),
+  ('engelsk-10:oral-communication', 'q10', 'flervalg', 'What should the conclusion of a presentation include?', array['A completely new topic', 'A summary and a thank you, and an invitation for questions', 'Only a joke', 'Nothing']::text[], 1, 'The conclusion wraps up and gives the audience a chance to ask questions.', true, false, 9),
+  ('engelsk-10:oral-communication', 'm01', 'sant-usant', 'You must speak without any accent to communicate well in English.', array['Sant', 'Usant']::text[], 1, 'Clarity matters more than accent. Many fluent speakers have an accent.', false, true, 10),
+  ('engelsk-10:oral-communication', 'm02', 'sant-usant', '“That''s a good point” is a way of agreeing.', array['Sant', 'Usant']::text[], 0, 'It shows that you appreciate what the other person said.', false, true, 11),
+  ('engelsk-10:oral-communication', 'm03', 'sant-usant', 'Slides should replace what you say in a presentation.', array['Sant', 'Usant']::text[], 1, 'Slides should support your talk, not replace it.', false, true, 12),
+  ('engelsk-10:oral-communication', 'm04', 'sant-usant', '“To be honest” is an idiomatic expression.', array['Sant', 'Usant']::text[], 0, 'It is a common phrase used to introduce an honest opinion.', false, true, 13),
+  ('engelsk-10:oral-communication', 'm05', 'flervalg', 'Which is a closed question?', array['How did you feel?', 'What happened next?', 'Did you like the film?', 'Why do you think so?']::text[], 2, '“Did you like the film?” can be answered with yes or no.', false, true, 14),
+  ('engelsk-10:oral-communication', 'm06', 'flervalg', 'What does “It''s up to you” mean?', array['You decide', 'Go upstairs', 'It is your turn to pay', 'You are late']::text[], 0, '“It''s up to you” means the choice is yours.', false, true, 15),
+  ('engelsk-10:oral-communication', 'm07', 'flervalg', 'Which phrase is signposting?', array['I''m on the fence.', 'Moving on to my second point…', 'Sorry to interrupt.', 'That makes sense.']::text[], 1, '“Moving on to…” tells the audience you are starting a new part.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('engelsk-10:oral-communication', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Engelsk: Young adult literature
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('engelsk-10:youth-literature', 'engelsk-10', 'youth-literature', 'Young adult literature', 'What young adult fiction is, typical genres and themes, some well-known English-language novels, and how to read, interpret and write about a novel.', array[11, 10, 18]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('engelsk-10:youth-literature', '## What is young adult fiction?
+
+**Young adult fiction** (YA) is written mainly for readers between about 12 and 18, although many adults enjoy it too. The main characters are usually teenagers, and the stories deal with the challenges of growing up. YA books are often written in the **first person**, with a strong, personal voice that makes the reader feel close to the narrator.
+
+## Common themes
+
+- **Identity**: Who am I, and where do I belong?
+- **Friendship and first love**
+- **Family conflicts** and becoming independent
+- **Fitting in** and being an outsider
+- **Injustice**, racism and prejudice
+- **Mental health**, grief and loss
+
+Many YA novels are **coming-of-age stories** (sometimes called a *bildungsroman*), where the main character grows and changes through the story.
+
+## Genres
+
+YA includes **realistic fiction** about everyday life, **fantasy** with magic and other worlds, **science fiction**, and **dystopian fiction**, which shows a frightening future society, often with a teenager who fights against the system.
+
+## Some well-known novels
+
+- **The Catcher in the Rye** (1951) by J.D. Salinger – a teenager''s alienation from the adult world.
+- **The Outsiders** (1967) by S.E. Hinton, written when she was a teenager herself – rival gangs and loyalty.
+- **The Curious Incident of the Dog in the Night-Time** (2003) by Mark Haddon – told by a boy who sees the world in his own way.
+- **The Hunger Games** (2008) by Suzanne Collins – a dystopian story about power and survival.
+- **Wonder** (2012) by R.J. Palacio – a boy with a facial difference starts school.
+- **The Hate U Give** (2017) by Angie Thomas – a girl who witnesses police violence and finds her voice.
+
+## Reading a novel
+
+While reading, keep notes about the **characters** and how they change, the **setting**, the **narrator**, important **events** and **quotations** that stand out. Ask yourself what the book says about society and about growing up.
+
+## Writing about a novel
+
+A text about a novel, like a **book review** or an **analysis**, should include:
+
+- title, author, year and genre,
+- a short summary without spoilers (in a review) or with focus on key events (in an analysis),
+- discussion of characters, themes and language, with **quotations**,
+- your **personal response**: What did the book make you think or feel, and why?
+
+Write in the **present tense** about the story, and connect the book to the world around you: How does it compare to your own life, or to other books and films you know?', '{"label":"Young adult literature","children":[{"label":"YA fiction","children":[{"label":"Teenage main characters"},{"label":"First-person voice"},{"label":"Coming-of-age"}]},{"label":"Themes","children":[{"label":"Identity"},{"label":"Friendship and love"},{"label":"Injustice"},{"label":"Mental health"}]},{"label":"Genres","children":[{"label":"Realistic"},{"label":"Fantasy"},{"label":"Dystopian"}]},{"label":"Novels","children":[{"label":"The Outsiders","note":"1967"},{"label":"The Hunger Games","note":"2008"},{"label":"Wonder","note":"2012"},{"label":"The Hate U Give","note":"2017"}]},{"label":"Writing","children":[{"label":"Review without spoilers"},{"label":"Quotations"},{"label":"Personal response"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'engelsk-10:youth-literature';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('engelsk-10:youth-literature', 'Young adult fiction (YA)', 'Fiction written mainly for readers aged about 12–18, with teenage main characters.', 0),
+  ('engelsk-10:youth-literature', 'Coming-of-age story', 'A story where the main character grows up and changes.', 1),
+  ('engelsk-10:youth-literature', 'Bildungsroman', 'Another term for a coming-of-age novel.', 2),
+  ('engelsk-10:youth-literature', 'Dystopian fiction', 'Stories about a frightening, oppressive future society.', 3),
+  ('engelsk-10:youth-literature', 'Realistic fiction', 'Stories about everyday life that could really happen.', 4),
+  ('engelsk-10:youth-literature', 'The Catcher in the Rye', 'Novel by J.D. Salinger (1951) about a teenager''s alienation.', 5),
+  ('engelsk-10:youth-literature', 'The Outsiders', 'Novel by S.E. Hinton (1967) about rival gangs and loyalty.', 6),
+  ('engelsk-10:youth-literature', 'The Hunger Games', 'Dystopian novel by Suzanne Collins (2008).', 7),
+  ('engelsk-10:youth-literature', 'Wonder', 'Novel by R.J. Palacio (2012) about a boy with a facial difference starting school.', 8),
+  ('engelsk-10:youth-literature', 'The Hate U Give', 'Novel by Angie Thomas (2017) about racism and police violence.', 9),
+  ('engelsk-10:youth-literature', 'First-person voice', 'Common in YA; makes the reader feel close to the narrator.', 10),
+  ('engelsk-10:youth-literature', 'Book review', 'A text that presents a book and gives the writer''s evaluation, without spoilers.', 11),
+  ('engelsk-10:youth-literature', 'Spoiler', 'Information that reveals important plot twists or the ending.', 12),
+  ('engelsk-10:youth-literature', 'Personal response', 'Your own reflection on what the book made you think or feel, and why.', 13),
+  ('engelsk-10:youth-literature', 'Present tense', 'Used when writing about what happens in a story.', 14);
+delete from public.quiz_sporsmal where tema_id = 'engelsk-10:youth-literature';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('engelsk-10:youth-literature', 'q01', 'flervalg', 'What is young adult fiction?', array['Books only for adults', 'Fiction mainly for teenage readers, with teenage main characters', 'Non-fiction about youth', 'Picture books']::text[], 1, 'YA is aimed at readers of about 12–18, though many adults read it too.', true, true, 0),
+  ('engelsk-10:youth-literature', 'q02', 'flervalg', 'What is a coming-of-age story?', array['A story about old people', 'A story where the main character grows up and changes', 'A story about time travel', 'A story without characters']::text[], 1, 'The main character matures through experiences and challenges.', true, true, 1),
+  ('engelsk-10:youth-literature', 'q03', 'flervalg', 'What is dystopian fiction?', array['Stories about a perfect society', 'Love stories', 'Stories about a frightening, oppressive future society', 'Biographies']::text[], 2, 'Dystopias show societies with control, fear and injustice, like in The Hunger Games.', true, true, 2),
+  ('engelsk-10:youth-literature', 'q04', 'flervalg', 'Who wrote The Hate U Give?', array['Angie Thomas', 'Suzanne Collins', 'J.D. Salinger', 'Mark Haddon']::text[], 0, 'Angie Thomas published the novel in 2017.', true, true, 3),
+  ('engelsk-10:youth-literature', 'q05', 'flervalg', 'Why is the first-person voice common in YA?', array['It is required', 'It makes the reader feel close to the narrator', 'It makes the book shorter', 'It hides the main character']::text[], 1, 'The personal “I” lets readers experience the character''s thoughts and feelings directly.', true, true, 4),
+  ('engelsk-10:youth-literature', 'q06', 'flervalg', 'What should a book review avoid?', array['The title', 'The author', 'The writer''s opinion', 'Spoilers that reveal the ending']::text[], 3, 'A review should make readers curious, not reveal the big surprises.', true, true, 5),
+  ('engelsk-10:youth-literature', 'q07', 'flervalg', 'Which theme is common in YA literature?', array['Retirement', 'Tax law', 'Identity and belonging', 'Gardening techniques']::text[], 2, 'Questions about who you are and where you belong are central in many YA books.', true, true, 6),
+  ('engelsk-10:youth-literature', 'q08', 'flervalg', 'What is S.E. Hinton known for?', array['Writing The Outsiders as a teenager', 'Writing Harry Potter', 'Writing The Hunger Games', 'Directing films']::text[], 0, 'Hinton wrote The Outsiders while she was still in high school; it was published in 1967.', true, false, 7),
+  ('engelsk-10:youth-literature', 'q09', 'flervalg', 'Which tense should you use when you write about events in a novel?', array['Future tense', 'Past perfect', 'Present tense', 'Any tense, mixed']::text[], 2, 'Literary texts are discussed in the present tense: “The narrator describes…”.', true, true, 8),
+  ('engelsk-10:youth-literature', 'q10', 'flervalg', 'What is a personal response?', array['A summary of the plot', 'Your own reflection on what the book made you think or feel', 'The author''s biography', 'A list of characters']::text[], 1, 'A personal response connects the book to your own thoughts and experiences.', true, false, 9),
+  ('engelsk-10:youth-literature', 'm01', 'sant-usant', 'Only teenagers read young adult fiction.', array['Sant', 'Usant']::text[], 1, 'Many adults also read and enjoy YA books.', false, true, 10),
+  ('engelsk-10:youth-literature', 'm02', 'sant-usant', 'The Hunger Games is an example of dystopian fiction.', array['Sant', 'Usant']::text[], 0, 'It shows an oppressive future society where teenagers must fight to survive.', false, true, 11),
+  ('engelsk-10:youth-literature', 'm03', 'sant-usant', 'A good book review includes the writer''s evaluation of the book.', array['Sant', 'Usant']::text[], 0, 'A review tells the reader what you thought and why.', false, true, 12),
+  ('engelsk-10:youth-literature', 'm04', 'sant-usant', 'The Catcher in the Rye was published in 2008.', array['Sant', 'Usant']::text[], 1, 'The Catcher in the Rye by J.D. Salinger was published in 1951.', false, true, 13),
+  ('engelsk-10:youth-literature', 'm05', 'flervalg', 'Which novel is about a boy with a facial difference who starts school?', array['The Outsiders', 'Wonder', 'The Hunger Games', 'The Catcher in the Rye']::text[], 1, 'Wonder by R.J. Palacio follows Auggie as he starts school.', false, true, 14),
+  ('engelsk-10:youth-literature', 'm06', 'flervalg', 'What is a spoiler?', array['A bad review', 'Information that reveals important plot twists or the ending', 'A book cover', 'A genre']::text[], 1, 'Spoilers ruin the surprise for readers who have not read the book.', false, true, 15),
+  ('engelsk-10:youth-literature', 'm07', 'flervalg', 'What should you note while reading a novel?', array['Only the page numbers', 'Characters, setting, events and striking quotations', 'The price of the book', 'Nothing, just read']::text[], 1, 'Notes make it much easier to write about the novel afterwards.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('engelsk-10:youth-literature', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Engelsk: Film, music and media
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('engelsk-10:film-music-and-media', 'engelsk-10', 'film-music-and-media', 'Film, music and media', 'How to explore and talk about English-language films, series, songs and games – with film techniques, song analysis and writing reviews.', array[19, 10, 14]::int[], 5, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('engelsk-10:film-music-and-media', '## Culture you already know
+
+Most of the English you hear outside school comes from films, series, music, games, podcasts and social media. These are **cultural expressions**, and they can be explored just like literature. When you connect schoolwork to your own interests, you learn more – and you have more to say.
+
+## Talking about films and series
+
+Films tell stories with images and sound. Useful terms:
+
+- **Genre**: drama, comedy, thriller, horror, science fiction, documentary.
+- **Plot**, **characters** and **setting**, as in literature.
+- **Camera shots**: a **close-up** shows emotions, a **long shot** shows the setting, and a **point-of-view shot** shows what a character sees.
+- **Camera angles**: a **low angle** makes a character look powerful, a **high angle** makes them look small or weak.
+- **Soundtrack** and **sound effects** create mood and tension.
+- **Lighting** and **colours**: dark lighting can create suspense, bright colours a happy mood.
+- **Editing**: fast cuts create energy, slow scenes create calm.
+
+## Analysing a song
+
+Songs are poems set to music. When you analyse a song, look at:
+
+- the **lyrics**: What is the song about? Who is the speaker?
+- **literary devices**: metaphors, repetition, rhyme and imagery,
+- the **chorus**, which is repeated and often carries the main message,
+- how the **music** – tempo, instruments, the singer''s voice – supports the lyrics,
+- the **context**: when was it made, and what was happening in the world?
+
+Protest songs, for example, have been important in movements for civil rights and peace.
+
+## Games and other media
+
+Video games tell stories too, often letting the player make choices that change the story. Podcasts and YouTube channels introduce you to different accents and topics. When you explore these, think about **who made them**, **for whom** and **why** – and how they present people and cultures.
+
+## Writing a review
+
+A **review** presents and evaluates a film, series, album or game. It usually includes:
+
+- a catchy **title** and an **introduction** with basic facts (title, director or artist, year, genre),
+- a short summary **without spoilers**,
+- your evaluation of acting, story, music, visuals or gameplay, with **examples**,
+- a **conclusion** with a recommendation, often with a rating.
+
+Use vivid adjectives: gripping, predictable, breathtaking, clichéd, hilarious, moving. Explain **why** you think something works or does not work.
+
+## Culture and diversity
+
+English-language culture comes from many countries – not only the USA and the UK, but also Nigeria, India, Ireland, Australia, Jamaica and more. Exploring cultural expressions from different places shows you the variety of the English-speaking world.', '{"label":"Film, music and media","children":[{"label":"Film","children":[{"label":"Genre"},{"label":"Shots","note":"Close-up, long shot"},{"label":"Angles","note":"Low, high"},{"label":"Sound and lighting"}]},{"label":"Music","children":[{"label":"Lyrics"},{"label":"Chorus"},{"label":"Literary devices"},{"label":"Context"}]},{"label":"Other media","children":[{"label":"Games","note":"Player choices"},{"label":"Podcasts"},{"label":"Who made it, and why?"}]},{"label":"Review","children":[{"label":"Facts and short summary"},{"label":"No spoilers"},{"label":"Evaluation with examples"},{"label":"Recommendation"}]},{"label":"Diversity","children":[{"label":"Many English-speaking countries"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'engelsk-10:film-music-and-media';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('engelsk-10:film-music-and-media', 'Cultural expression', 'Films, music, art, games and other creative works that express culture.', 0),
+  ('engelsk-10:film-music-and-media', 'Genre', 'A category of film, music or literature: comedy, thriller, horror, documentary.', 1),
+  ('engelsk-10:film-music-and-media', 'Close-up', 'A camera shot showing a face or detail up close, often to show emotion.', 2),
+  ('engelsk-10:film-music-and-media', 'Long shot', 'A camera shot that shows the whole setting.', 3),
+  ('engelsk-10:film-music-and-media', 'Point-of-view shot', 'Shows what a character sees.', 4),
+  ('engelsk-10:film-music-and-media', 'Low angle', 'Camera looks up at a character, making them look powerful.', 5),
+  ('engelsk-10:film-music-and-media', 'High angle', 'Camera looks down at a character, making them look small or weak.', 6),
+  ('engelsk-10:film-music-and-media', 'Soundtrack', 'The music in a film, which creates mood and tension.', 7),
+  ('engelsk-10:film-music-and-media', 'Editing', 'How shots are put together. Fast cuts create energy.', 8),
+  ('engelsk-10:film-music-and-media', 'Lyrics', 'The words of a song.', 9),
+  ('engelsk-10:film-music-and-media', 'Chorus', 'The repeated part of a song, often carrying its main message.', 10),
+  ('engelsk-10:film-music-and-media', 'Protest song', 'A song that criticises injustice or supports a cause.', 11),
+  ('engelsk-10:film-music-and-media', 'Review', 'A text that presents and evaluates a film, album, book or game.', 12),
+  ('engelsk-10:film-music-and-media', 'Gripping / predictable', 'Adjectives for reviews: very exciting / easy to guess.', 13),
+  ('engelsk-10:film-music-and-media', 'Rating', 'A score, like stars, given at the end of a review.', 14);
+delete from public.quiz_sporsmal where tema_id = 'engelsk-10:film-music-and-media';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('engelsk-10:film-music-and-media', 'q01', 'flervalg', 'What does a close-up usually show?', array['The whole landscape', 'A character''s emotions or an important detail', 'The credits', 'The audience']::text[], 1, 'Close-ups bring us near a face or object so we notice feelings and details.', true, true, 0),
+  ('engelsk-10:film-music-and-media', 'q02', 'flervalg', 'What effect does a low camera angle often have?', array['The character looks powerful', 'The character looks weak', 'The scene looks funny', 'The scene becomes silent']::text[], 0, 'Looking up at someone makes them seem bigger and more powerful.', true, true, 1),
+  ('engelsk-10:film-music-and-media', 'q03', 'flervalg', 'What is the chorus of a song?', array['The first line', 'The instruments', 'The repeated part that often carries the main message', 'The singer''s name']::text[], 2, 'The chorus is repeated, which makes its message stick.', true, true, 2),
+  ('engelsk-10:film-music-and-media', 'q04', 'flervalg', 'What should a review include at the end?', array['A spoiler', 'A list of all actors', 'The whole plot', 'A conclusion with a recommendation']::text[], 3, 'Readers want to know whether you recommend the film, album or game.', true, true, 3),
+  ('engelsk-10:film-music-and-media', 'q05', 'flervalg', 'What does the soundtrack do in a film?', array['Shows the setting', 'Creates mood and tension', 'Lists the actors', 'Translates the dialogue']::text[], 1, 'Music strongly affects how we feel during a scene.', true, true, 4),
+  ('engelsk-10:film-music-and-media', 'q06', 'flervalg', 'Which adjective means “easy to guess” in a review?', array['predictable', 'breathtaking', 'gripping', 'moving']::text[], 0, 'A predictable plot has no surprises.', true, true, 5),
+  ('engelsk-10:film-music-and-media', 'q07', 'flervalg', 'What is a protest song?', array['A love song', 'A song for children', 'A song that criticises injustice or supports a cause', 'A song without lyrics']::text[], 2, 'Protest songs have been important in movements for civil rights and peace.', true, false, 6),
+  ('engelsk-10:film-music-and-media', 'q08', 'flervalg', 'Which shot shows the whole setting?', array['Close-up', 'Long shot', 'Point-of-view shot', 'Extreme close-up']::text[], 1, 'A long shot shows characters in their surroundings.', true, true, 7),
+  ('engelsk-10:film-music-and-media', 'q09', 'flervalg', 'Why is context important when analysing a song?', array['It is not important', 'It tells you the song''s length', 'It changes the lyrics', 'It helps explain what the song is reacting to']::text[], 3, 'Knowing when and why a song was made can explain its message.', true, false, 8),
+  ('engelsk-10:film-music-and-media', 'q10', 'flervalg', 'What can fast editing create in a film?', array['Calm and peace', 'Silence', 'Energy and tension', 'Longer scenes']::text[], 2, 'Quick cuts make action scenes feel intense and exciting.', true, true, 9),
+  ('engelsk-10:film-music-and-media', 'm01', 'sant-usant', 'A high camera angle can make a character look small or weak.', array['Sant', 'Usant']::text[], 0, 'Looking down on a character makes them seem vulnerable.', false, true, 10),
+  ('engelsk-10:film-music-and-media', 'm02', 'sant-usant', 'Songs can be analysed using some of the same terms as poems.', array['Sant', 'Usant']::text[], 0, 'Lyrics use metaphors, rhyme and repetition, just like poems.', false, true, 11),
+  ('engelsk-10:film-music-and-media', 'm03', 'sant-usant', 'A review should reveal the ending of the film.', array['Sant', 'Usant']::text[], 1, 'Reviews avoid spoilers so that readers can enjoy the film themselves.', false, true, 12),
+  ('engelsk-10:film-music-and-media', 'm04', 'sant-usant', 'English-language culture comes only from the USA and the UK.', array['Sant', 'Usant']::text[], 1, 'Many countries, like Nigeria, India, Ireland and Jamaica, produce English-language culture.', false, true, 13),
+  ('engelsk-10:film-music-and-media', 'm05', 'flervalg', 'Which word could describe a film that made you cry?', array['moving', 'predictable', 'clichéd', 'boring']::text[], 0, '“Moving” means that it touched your emotions.', false, true, 14),
+  ('engelsk-10:film-music-and-media', 'm06', 'flervalg', 'What is a point-of-view shot?', array['A shot of the audience', 'A shot showing what a character sees', 'A shot from above', 'A shot of the credits']::text[], 1, 'It lets the viewer see through a character''s eyes.', false, true, 15),
+  ('engelsk-10:film-music-and-media', 'm07', 'flervalg', 'What makes many video games different from films as storytelling?', array['They have no characters', 'They never have music', 'The player can make choices that change the story', 'They are always silent']::text[], 2, 'Interactivity lets the player influence what happens.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('engelsk-10:film-music-and-media', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Engelsk: Australia, New Zealand and Canada
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('engelsk-10:australia-new-zealand-and-canada', 'engelsk-10', 'australia-new-zealand-and-canada', 'Australia, New Zealand and Canada', 'Three English-speaking countries with British roots – their geography, history, indigenous peoples, languages and multicultural societies.', array[18, 17, 16]::int[], 6, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('engelsk-10:australia-new-zealand-and-canada', '## Three former British colonies
+
+**Australia**, **New Zealand** and **Canada** were all colonised by Britain and are today independent democracies. They are members of the **Commonwealth**, an association of countries mostly with historical ties to Britain, and the British monarch is still their formal head of state. In practice, they are governed by their own elected parliaments and prime ministers.
+
+## Australia
+
+Australia is both a country and a continent. The capital is **Canberra**, while the largest cities are **Sydney** and **Melbourne**. Most people live along the coast, while much of the interior – the **outback** – is dry and sparsely populated. The British established a penal colony in 1788, and the colonies joined together as the **Commonwealth of Australia** in **1901**.
+
+**Aboriginal and Torres Strait Islander peoples** have lived in Australia for tens of thousands of years, making their cultures among the oldest continuous cultures in the world. Colonisation led to loss of land and the tragedy of the **Stolen Generations**. Today, Australia is highly multicultural, with many immigrants from Europe and Asia.
+
+## New Zealand
+
+New Zealand consists of two main islands, the **North Island** and the **South Island**. The capital is **Wellington**, and the largest city is **Auckland**. The **Māori** arrived from Polynesia several hundred years before Europeans. The **Treaty of Waitangi** (1840) between the British Crown and Māori chiefs is seen as the country''s founding document, though its interpretation has been disputed. **Te reo Māori** is an official language, and Māori culture, like the **haka**, is visible in national life. New Zealand was the first country to give women the right to vote in national elections, in **1893**.
+
+## Canada
+
+Canada is the second largest country in the world by area. The capital is **Ottawa**, and the largest city is **Toronto**. Canada has **ten provinces and three territories**, and became a self-governing country in **1867**. It is officially **bilingual**: English and **French** are both official languages, and French is the majority language in the province of **Quebec**. The indigenous peoples of Canada are the **First Nations**, the **Inuit** and the **Métis**. Canada is known for welcoming many immigrants and describes itself as a **cultural mosaic**.
+
+## Comparing the three
+
+All three countries share a British colonial history, parliamentary democracy, a strong position for English and a history of injustice towards indigenous peoples. In recent decades, all three have worked, in different ways, with **reconciliation** and recognition of indigenous rights and languages.', '{"label":"Australia, New Zealand and Canada","children":[{"label":"Australia","children":[{"label":"Canberra","note":"Capital"},{"label":"Federation 1901"},{"label":"Outback"},{"label":"Aboriginal peoples"}]},{"label":"New Zealand","children":[{"label":"Wellington","note":"Capital"},{"label":"Māori"},{"label":"Treaty of Waitangi 1840"},{"label":"Women''s vote 1893"}]},{"label":"Canada","children":[{"label":"Ottawa","note":"Capital"},{"label":"English and French"},{"label":"Quebec"},{"label":"First Nations, Inuit, Métis"}]},{"label":"In common","children":[{"label":"British colonies"},{"label":"Commonwealth"},{"label":"Reconciliation"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'engelsk-10:australia-new-zealand-and-canada';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('engelsk-10:australia-new-zealand-and-canada', 'Commonwealth', 'An association of countries mostly with historical ties to Britain.', 0),
+  ('engelsk-10:australia-new-zealand-and-canada', 'Canberra', 'The capital of Australia.', 1),
+  ('engelsk-10:australia-new-zealand-and-canada', 'Outback', 'The dry, sparsely populated interior of Australia.', 2),
+  ('engelsk-10:australia-new-zealand-and-canada', '1901 (Australia)', 'The Australian colonies joined as the Commonwealth of Australia.', 3),
+  ('engelsk-10:australia-new-zealand-and-canada', 'Aboriginal and Torres Strait Islander peoples', 'Australia''s indigenous peoples, with among the oldest continuous cultures in the world.', 4),
+  ('engelsk-10:australia-new-zealand-and-canada', 'Wellington', 'The capital of New Zealand.', 5),
+  ('engelsk-10:australia-new-zealand-and-canada', 'Auckland', 'The largest city in New Zealand.', 6),
+  ('engelsk-10:australia-new-zealand-and-canada', 'Treaty of Waitangi', '1840 agreement between the British Crown and Māori chiefs.', 7),
+  ('engelsk-10:australia-new-zealand-and-canada', 'Te reo Māori', 'The Māori language, an official language of New Zealand.', 8),
+  ('engelsk-10:australia-new-zealand-and-canada', '1893 (New Zealand)', 'First country to give women the vote in national elections.', 9),
+  ('engelsk-10:australia-new-zealand-and-canada', 'Ottawa', 'The capital of Canada.', 10),
+  ('engelsk-10:australia-new-zealand-and-canada', 'Bilingual Canada', 'English and French are both official languages.', 11),
+  ('engelsk-10:australia-new-zealand-and-canada', 'Quebec', 'Canadian province where French is the majority language.', 12),
+  ('engelsk-10:australia-new-zealand-and-canada', 'First Nations, Inuit, Métis', 'The indigenous peoples of Canada.', 13),
+  ('engelsk-10:australia-new-zealand-and-canada', 'Cultural mosaic', 'Canada''s image of cultures living side by side.', 14);
+delete from public.quiz_sporsmal where tema_id = 'engelsk-10:australia-new-zealand-and-canada';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('engelsk-10:australia-new-zealand-and-canada', 'q01', 'flervalg', 'What is the capital of Australia?', array['Sydney', 'Melbourne', 'Canberra', 'Perth']::text[], 2, 'Canberra is the capital. Sydney and Melbourne are the largest cities.', true, true, 0),
+  ('engelsk-10:australia-new-zealand-and-canada', 'q02', 'flervalg', 'What is the capital of New Zealand?', array['Wellington', 'Auckland', 'Christchurch', 'Sydney']::text[], 0, 'Wellington is the capital. Auckland is the largest city.', true, true, 1),
+  ('engelsk-10:australia-new-zealand-and-canada', 'q03', 'flervalg', 'Which two languages are official in Canada?', array['English and Spanish', 'English and Inuktitut only', 'French and German', 'English and French']::text[], 3, 'Canada is officially bilingual, with English and French.', true, true, 2),
+  ('engelsk-10:australia-new-zealand-and-canada', 'q04', 'flervalg', 'What is the Commonwealth?', array['A British bank', 'An association of countries mostly with historical ties to Britain', 'The Australian parliament', 'A sports competition only']::text[], 1, 'The Commonwealth includes many former British colonies.', true, true, 3),
+  ('engelsk-10:australia-new-zealand-and-canada', 'q05', 'flervalg', 'What was special about New Zealand in 1893?', array['It became independent', 'It became the first country to give women the vote in national elections', 'It joined the EU', 'It changed its capital']::text[], 1, 'New Zealand was the first self-governing country where women could vote in national elections.', true, true, 4),
+  ('engelsk-10:australia-new-zealand-and-canada', 'q06', 'flervalg', 'In which Canadian province is French the majority language?', array['Ontario', 'British Columbia', 'Alberta', 'Quebec']::text[], 3, 'Most people in Quebec speak French as their first language.', true, true, 5),
+  ('engelsk-10:australia-new-zealand-and-canada', 'q07', 'flervalg', 'What is the Treaty of Waitangi?', array['An 1840 agreement between the British Crown and Māori chiefs', 'Australia''s constitution', 'A Canadian peace treaty', 'A sports trophy']::text[], 0, 'It is regarded as New Zealand''s founding document.', true, true, 6),
+  ('engelsk-10:australia-new-zealand-and-canada', 'q08', 'flervalg', 'What is the outback?', array['Canada''s northern islands', 'A New Zealand dance', 'The dry, sparsely populated interior of Australia', 'A British tradition']::text[], 2, 'Most Australians live along the coast, while the outback has few people.', true, false, 7),
+  ('engelsk-10:australia-new-zealand-and-canada', 'q09', 'flervalg', 'Who are the indigenous peoples of Canada?', array['The Māori', 'First Nations, Inuit and Métis', 'The Sámi', 'Aboriginal Australians']::text[], 1, 'Canada recognises three groups of indigenous peoples.', true, true, 8),
+  ('engelsk-10:australia-new-zealand-and-canada', 'q10', 'flervalg', 'What do Australia, New Zealand and Canada have in common?', array['They all have French as an official language', 'They were never colonised', 'They are all republics with presidents', 'They were British colonies and are now democracies in the Commonwealth']::text[], 3, 'All three share British colonial roots and parliamentary democracy.', true, false, 9),
+  ('engelsk-10:australia-new-zealand-and-canada', 'm01', 'sant-usant', 'Sydney is the capital of Australia.', array['Sant', 'Usant']::text[], 1, 'Canberra is the capital. Sydney is the largest city.', false, true, 10),
+  ('engelsk-10:australia-new-zealand-and-canada', 'm02', 'sant-usant', 'Te reo Māori is an official language of New Zealand.', array['Sant', 'Usant']::text[], 0, 'The Māori language has official status.', false, true, 11),
+  ('engelsk-10:australia-new-zealand-and-canada', 'm03', 'sant-usant', 'Canada is the second largest country in the world by area.', array['Sant', 'Usant']::text[], 0, 'Only Russia is larger.', false, true, 12),
+  ('engelsk-10:australia-new-zealand-and-canada', 'm04', 'sant-usant', 'Aboriginal Australians arrived in Australia after the British.', array['Sant', 'Usant']::text[], 1, 'They have lived there for tens of thousands of years.', false, true, 13),
+  ('engelsk-10:australia-new-zealand-and-canada', 'm05', 'flervalg', 'What is the largest city in Canada?', array['Ottawa', 'Montreal', 'Toronto', 'Vancouver']::text[], 2, 'Toronto is the largest city. Ottawa is the capital.', false, true, 14),
+  ('engelsk-10:australia-new-zealand-and-canada', 'm06', 'flervalg', 'What is the haka?', array['A Canadian food', 'A traditional Māori dance', 'An Australian animal', 'A type of boat']::text[], 1, 'The haka is a Māori ceremonial dance, known for example from rugby matches.', false, true, 15),
+  ('engelsk-10:australia-new-zealand-and-canada', 'm07', 'flervalg', 'When did Canada become self-governing?', array['1867', '1776', '1901', '1945']::text[], 0, 'Canadian Confederation took place in 1867.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('engelsk-10:australia-new-zealand-and-canada', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Naturfag (10): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'naturfag-10' and slug not in ('nervesystemet-og-hormoner', 'rus-legemidler-og-miljogifter', 'immunforsvar-og-vaksiner', 'seksuell-og-reproduktiv-helse', 'modeller-i-naturfag', 'forskning-og-kunnskap');
+
+-- Naturfag: Nervesystemet og hormonsystemet
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('naturfag-10:nervesystemet-og-hormoner', 'naturfag-10', 'nervesystemet-og-hormoner', 'Nervesystemet og hormonsystemet', 'Kroppens to signalsystemer – hvordan nerver og hormoner sender beskjeder, hvordan de skiller seg fra hverandre, og hvordan de samarbeider.', array[21]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('naturfag-10:nervesystemet-og-hormoner', '## To signalsystemer
+
+Kroppen må hele tiden samordne det som skjer i ulike organer. Til det har vi to **signalsystemer**: **nervesystemet**, som sender raske elektriske signaler, og **hormonsystemet**, som sender kjemiske budbringere med blodet.
+
+## Nervesystemet
+
+Nervesystemet deles i to:
+
+- **Sentralnervesystemet** (CNS) er **hjernen** og **ryggmargen**. Her bearbeides informasjon og tas beslutninger.
+- **Det perifere nervesystemet** er nervene som går ut i hele kroppen, til muskler, hud og organer.
+
+Nervesystemet er bygd opp av **nerveceller** (nevroner). En nervecelle har korte utløpere som tar imot signaler, og en lang utløper som sender signalet videre som en elektrisk impuls. Mellom to nerveceller er det en liten spalte, en **synapse**. Når impulsen når synapsen, skilles det ut **signalstoffer** (nevrotransmittere), som dopamin og serotonin. De fester seg til neste celle og overfører beskjeden.
+
+**Sanseceller** i øyne, ører, hud, nese og tunge registrerer inntrykk og sender signaler til hjernen. Hjernen sender så beskjeder til musklene.
+
+## Reflekser
+
+Noen reaksjoner går så raskt at hjernen ikke rekker å bestemme. Når du tar på en varm kokeplate, går signalet til **ryggmargen**, som sender beskjed rett tilbake til musklene om å trekke hånda bort. Dette kalles en **refleks**, og veien signalet går, kalles en **refleksbue**. Du kjenner smerten etterpå, når signalet har nådd hjernen.
+
+## Hormonsystemet
+
+**Hormoner** er kjemiske signalstoffer som lages i **kjertler** og fraktes med blodet til hele kroppen. Bare celler med riktige **reseptorer** reagerer på et bestemt hormon. Noen viktige kjertler og hormoner:
+
+- **Hypofysen** i hjernen styrer mange andre kjertler og lager blant annet veksthormon.
+- **Bukspyttkjertelen** lager **insulin**, som senker blodsukkeret, og glukagon, som øker det.
+- **Binyrene** lager **adrenalin**, som gjør kroppen klar til «kamp eller flukt».
+- **Kjønnskjertlene** lager **østrogen** og **testosteron**, som styrer puberteten.
+- **Skjoldbruskkjertelen** påvirker stoffskiftet.
+
+## Sammenligning
+
+Nervesignaler er **raske** (brøkdeler av et sekund), går til **bestemte** steder og varer **kort**. Hormoner virker **langsommere**, sprer seg til **hele kroppen** og kan virke **lenge**, i timer, måneder eller år. Systemene samarbeider: Ved fare sender nervesystemet beskjed til binyrene, som skiller ut adrenalin. Mange hormoner reguleres ved **tilbakekobling**: Når blodsukkeret stiger etter et måltid, skilles det ut insulin, og når blodsukkeret faller igjen, stopper utskillingen.', '{"label":"Nerver og hormoner","children":[{"label":"Nervesystemet","children":[{"label":"Sentralt","note":"Hjerne og ryggmarg"},{"label":"Perifert","note":"Nerver i kroppen"},{"label":"Nerveceller"},{"label":"Synapser og signalstoffer"}]},{"label":"Reflekser","children":[{"label":"Refleksbue"},{"label":"Via ryggmargen"}]},{"label":"Hormonsystemet","children":[{"label":"Kjertler"},{"label":"Med blodet"},{"label":"Reseptorer"}]},{"label":"Hormoner","children":[{"label":"Insulin","note":"Blodsukker"},{"label":"Adrenalin","note":"Kamp eller flukt"},{"label":"Østrogen og testosteron"}]},{"label":"Sammenligning","children":[{"label":"Nerver: raskt og kort"},{"label":"Hormoner: langsomt og lenge"},{"label":"Tilbakekobling"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'naturfag-10:nervesystemet-og-hormoner';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('naturfag-10:nervesystemet-og-hormoner', 'Sentralnervesystemet', 'Hjernen og ryggmargen.', 0),
+  ('naturfag-10:nervesystemet-og-hormoner', 'Perifere nervesystem', 'Nervene som går ut i kroppen til muskler, hud og organer.', 1),
+  ('naturfag-10:nervesystemet-og-hormoner', 'Nervecelle (nevron)', 'Celle som leder elektriske signaler.', 2),
+  ('naturfag-10:nervesystemet-og-hormoner', 'Synapse', 'Den lille spalten mellom to nerveceller der signalstoffer overfører beskjeden.', 3),
+  ('naturfag-10:nervesystemet-og-hormoner', 'Signalstoff (nevrotransmitter)', 'Kjemisk stoff som overfører signaler i synapsen, som dopamin og serotonin.', 4),
+  ('naturfag-10:nervesystemet-og-hormoner', 'Sanseceller', 'Celler som registrerer inntrykk som lys, lyd, trykk og smak.', 5),
+  ('naturfag-10:nervesystemet-og-hormoner', 'Refleks', 'En rask, automatisk reaksjon der signalet går via ryggmargen uten at hjernen bestemmer.', 6),
+  ('naturfag-10:nervesystemet-og-hormoner', 'Hormon', 'Kjemisk signalstoff som lages i kjertler og fraktes med blodet.', 7),
+  ('naturfag-10:nervesystemet-og-hormoner', 'Reseptor', 'Mottaker på cellen som bare passer til bestemte signalstoffer eller hormoner.', 8),
+  ('naturfag-10:nervesystemet-og-hormoner', 'Hypofysen', 'Kjertel i hjernen som styrer mange andre kjertler.', 9),
+  ('naturfag-10:nervesystemet-og-hormoner', 'Insulin', 'Hormon fra bukspyttkjertelen som senker blodsukkeret.', 10),
+  ('naturfag-10:nervesystemet-og-hormoner', 'Adrenalin', 'Hormon fra binyrene som gjør kroppen klar til kamp eller flukt.', 11),
+  ('naturfag-10:nervesystemet-og-hormoner', 'Østrogen og testosteron', 'Kjønnshormoner som styrer puberteten.', 12),
+  ('naturfag-10:nervesystemet-og-hormoner', 'Nerve vs. hormon', 'Nerver: raskt, presist, kortvarig. Hormoner: langsommere, hele kroppen, langvarig.', 13),
+  ('naturfag-10:nervesystemet-og-hormoner', 'Tilbakekobling', 'Regulering der en endring stopper sin egen årsak, som insulin og blodsukker.', 14);
+delete from public.quiz_sporsmal where tema_id = 'naturfag-10:nervesystemet-og-hormoner';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('naturfag-10:nervesystemet-og-hormoner', 'q01', 'flervalg', 'Hva består sentralnervesystemet av?', array['Hjernen og ryggmargen', 'Alle nervene i armene', 'Hjertet og lungene', 'Kjertlene']::text[], 0, 'Sentralnervesystemet er hjernen og ryggmargen. Resten av nervene er det perifere nervesystemet.', true, true, 0),
+  ('naturfag-10:nervesystemet-og-hormoner', 'q02', 'flervalg', 'Hva skjer i en synapse?', array['Blodet renses', 'Signalstoffer overfører beskjeden fra én nervecelle til den neste', 'Det lages hormoner', 'Muskler trekker seg sammen']::text[], 1, 'Den elektriske impulsen gjør at signalstoffer skilles ut og fester seg til neste celle.', true, true, 1),
+  ('naturfag-10:nervesystemet-og-hormoner', 'q03', 'flervalg', 'Hvorfor trekker du hånda raskt bort fra en varm kokeplate?', array['Fordi hjernen tenker seg om', 'Fordi hormoner virker raskt', 'På grunn av en refleks via ryggmargen', 'Fordi huden er kald']::text[], 2, 'Refleksen går via ryggmargen, som sender signal direkte til musklene.', true, true, 2),
+  ('naturfag-10:nervesystemet-og-hormoner', 'q04', 'flervalg', 'Hvordan fraktes hormoner rundt i kroppen?', array['Gjennom nervene', 'Gjennom luftveiene', 'Gjennom lymfen alene', 'Med blodet']::text[], 3, 'Hormoner skilles ut fra kjertler og fraktes med blodet til hele kroppen.', true, true, 3),
+  ('naturfag-10:nervesystemet-og-hormoner', 'q05', 'flervalg', 'Hvilket hormon senker blodsukkeret?', array['Adrenalin', 'Insulin', 'Testosteron', 'Veksthormon']::text[], 1, 'Insulin fra bukspyttkjertelen hjelper cellene å ta opp sukker fra blodet.', true, true, 4),
+  ('naturfag-10:nervesystemet-og-hormoner', 'q06', 'flervalg', 'Hva gjør adrenalin?', array['Gjør kroppen klar til kamp eller flukt', 'Senker pulsen', 'Får oss til å sove', 'Styrer fordøyelsen']::text[], 0, 'Adrenalin øker puls og pust og gir musklene mer energi ved fare.', true, true, 5),
+  ('naturfag-10:nervesystemet-og-hormoner', 'q07', 'flervalg', 'Hvilken påstand stemmer om hormonsystemet sammenlignet med nervesystemet?', array['Hormoner virker raskere', 'Hormoner går bare til ett bestemt sted', 'Hormoner virker langsommere, men ofte lenger', 'Hormoner er elektriske signaler']::text[], 2, 'Hormoner sprer seg med blodet og kan ha virkning i timer, måneder eller år.', true, true, 6),
+  ('naturfag-10:nervesystemet-og-hormoner', 'q08', 'flervalg', 'Hvilken kjertel styrer mange av de andre kjertlene?', array['Binyrene', 'Skjoldbruskkjertelen', 'Bukspyttkjertelen', 'Hypofysen']::text[], 3, 'Hypofysen i hjernen kalles ofte en overordnet kjertel.', true, false, 7),
+  ('naturfag-10:nervesystemet-og-hormoner', 'q09', 'flervalg', 'Hvorfor reagerer bare noen celler på et bestemt hormon?', array['Fordi bare de har riktige reseptorer', 'Fordi hormonet ikke når de andre', 'Fordi de andre cellene er døde', 'Fordi hormonet er for stort']::text[], 0, 'Hormonet passer som en nøkkel i en lås, og bare celler med riktig reseptor reagerer.', true, true, 8),
+  ('naturfag-10:nervesystemet-og-hormoner', 'q10', 'flervalg', 'Hvilke hormoner styrer puberteten?', array['Insulin og glukagon', 'Østrogen og testosteron', 'Adrenalin og dopamin', 'Serotonin og melatonin']::text[], 1, 'Kjønnshormonene østrogen og testosteron gir kroppsendringene i puberteten.', true, false, 9),
+  ('naturfag-10:nervesystemet-og-hormoner', 'm01', 'sant-usant', 'Nervesignaler går mye raskere enn hormonsignaler.', array['Sant', 'Usant']::text[], 0, 'Nervesignaler når fram på brøkdeler av et sekund.', false, true, 10),
+  ('naturfag-10:nervesystemet-og-hormoner', 'm02', 'sant-usant', 'Dopamin og serotonin er eksempler på signalstoffer i hjernen.', array['Sant', 'Usant']::text[], 0, 'De overfører signaler mellom nerveceller.', false, true, 11),
+  ('naturfag-10:nervesystemet-og-hormoner', 'm03', 'sant-usant', 'Ved en refleks bestemmer hjernen først hva som skal skje.', array['Sant', 'Usant']::text[], 1, 'Refleksen går via ryggmargen. Hjernen får beskjed etterpå.', false, true, 12),
+  ('naturfag-10:nervesystemet-og-hormoner', 'm04', 'sant-usant', 'Hormoner påvirker alle celler i kroppen likt.', array['Sant', 'Usant']::text[], 1, 'Bare celler med riktige reseptorer reagerer på et bestemt hormon.', false, true, 13),
+  ('naturfag-10:nervesystemet-og-hormoner', 'm05', 'flervalg', 'Hvilken kjertel lager adrenalin?', array['Hypofysen', 'Binyrene', 'Bukspyttkjertelen', 'Skjoldbruskkjertelen']::text[], 1, 'Binyrene sitter på toppen av nyrene og lager adrenalin.', false, true, 14),
+  ('naturfag-10:nervesystemet-og-hormoner', 'm06', 'flervalg', 'Hva registrerer sansecellene i huden?', array['Lys', 'Lyd', 'Smak', 'Trykk, temperatur og smerte']::text[], 3, 'Huden har sanseceller for berøring, trykk, varme, kulde og smerte.', false, true, 15),
+  ('naturfag-10:nervesystemet-og-hormoner', 'm07', 'flervalg', 'Hva skjer med insulinutskillingen når blodsukkeret faller?', array['Den stopper', 'Den øker kraftig', 'Den blir til adrenalin', 'Ingenting']::text[], 0, 'Dette er tilbakekobling: Lavt blodsukker stopper utskillingen av insulin.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('naturfag-10:nervesystemet-og-hormoner', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Naturfag: Rusmidler, legemidler, miljøgifter og doping
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('naturfag-10:rus-legemidler-og-miljogifter', 'naturfag-10', 'rus-legemidler-og-miljogifter', 'Rusmidler, legemidler, miljøgifter og doping', 'Hvordan ulike stoffer påvirker kroppens signalsystemer – fra rusmidler og legemidler til miljøgifter og doping – og hvorfor unge hjerner er ekstra sårbare.', array[21]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('naturfag-10:rus-legemidler-og-miljogifter', '## Stoffer som påvirker signalsystemene
+
+Mange stoffer virker ved å påvirke kroppens **signalsystemer**. De kan etterligne kroppens egne signalstoffer eller hormoner, blokkere reseptorer eller endre hvor mye signalstoff som skilles ut. Noen slike stoffer er nyttige medisiner, andre er skadelige.
+
+## Rusmidler
+
+**Rusmidler** påvirker hjernen og endrer hvordan vi tenker, føler og oppfører oss. Mange av dem påvirker hjernens **belønningssystem** og fører til at det skilles ut mye **dopamin**, som gir en følelse av velvære. Dette kan gjøre at man vil ha mer.
+
+- **Alkohol** demper sentralnervesystemet. Det gir dårligere dømmekraft, reaksjonsevne og koordinasjon, og store mengder kan gi alkoholforgiftning.
+- **Nikotin** i snus, sigaretter og e-sigaretter er sterkt avhengighetsskapende.
+- **Cannabis** kan svekke hukommelse, konsentrasjon og læring, særlig hos unge, og kan øke risikoen for psykiske lidelser hos noen.
+
+Ved jevnlig bruk kan man utvikle **toleranse**, altså at man trenger mer for å få samme effekt. **Avhengighet** betyr at man får sterk trang til stoffet, og **abstinenser** er ubehagelige symptomer når man slutter. Hjernen utvikler seg til man er rundt 25 år, og derfor er unge ekstra sårbare for skader og avhengighet.
+
+## Legemidler
+
+**Legemidler** brukes til å forebygge, lindre eller kurere sykdom. Smertestillende midler demper smertesignaler, og insulin hjelper personer med diabetes. **Antibiotika** virker mot **bakterier**, men ikke mot virus. Alle legemidler kan ha **bivirkninger**, og derfor må mange legemidler skrives ut på **resept** av lege. Feil bruk av legemidler kan være farlig, og noen legemidler kan misbrukes som rusmidler.
+
+## Miljøgifter
+
+**Miljøgifter** er stoffer som er giftige, brytes langsomt ned i naturen og hoper seg opp i levende organismer. Eksempler er **tungmetaller** som kvikksølv og bly, og organiske stoffer som **PCB** og **PFAS**. Noen miljøgifter er **hormonforstyrrende**, fordi de ligner kroppens hormoner og kan påvirke vekst, forplantning og utvikling.
+
+Miljøgifter tas opp i små organismer og **hoper seg opp** oppover i næringskjeden. Rovdyr på toppen, som isbjørn, rovfugler og store rovfisk, kan få svært høye konsentrasjoner. Dette kalles **biomagnifisering**. Derfor gir Mattilsynet kostråd om for eksempel store rovfisk.
+
+## Doping
+
+**Doping** er bruk av forbudte stoffer eller metoder for å prestere bedre i idrett. **Anabole steroider** ligner testosteron og øker muskelmassen, men kan gi alvorlige bivirkninger som hjerteproblemer, humørsvingninger og hormonforstyrrelser. **EPO** øker produksjonen av røde blodceller og dermed oksygentransporten, men gjør blodet tykkere og øker risikoen for blodpropp. Doping er juks og kan være farlig for helsen.', '{"label":"Stoffer og signalsystemer","children":[{"label":"Rusmidler","children":[{"label":"Belønningssystemet","note":"Dopamin"},{"label":"Alkohol, nikotin, cannabis"},{"label":"Toleranse og avhengighet"},{"label":"Unge er sårbare"}]},{"label":"Legemidler","children":[{"label":"Forebygge, lindre, kurere"},{"label":"Antibiotika","note":"Bare mot bakterier"},{"label":"Bivirkninger og resept"}]},{"label":"Miljøgifter","children":[{"label":"Kvikksølv, bly, PCB, PFAS"},{"label":"Hormonforstyrrende"},{"label":"Biomagnifisering"}]},{"label":"Doping","children":[{"label":"Anabole steroider"},{"label":"EPO"},{"label":"Juks og helserisiko"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'naturfag-10:rus-legemidler-og-miljogifter';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('naturfag-10:rus-legemidler-og-miljogifter', 'Rusmiddel', 'Stoff som påvirker hjernen og endrer tanker, følelser og atferd.', 0),
+  ('naturfag-10:rus-legemidler-og-miljogifter', 'Belønningssystemet', 'Del av hjernen som gir velvære via dopamin. Påvirkes av mange rusmidler.', 1),
+  ('naturfag-10:rus-legemidler-og-miljogifter', 'Alkohol', 'Demper sentralnervesystemet og svekker dømmekraft og reaksjonsevne.', 2),
+  ('naturfag-10:rus-legemidler-og-miljogifter', 'Nikotin', 'Sterkt avhengighetsskapende stoff i snus, sigaretter og e-sigaretter.', 3),
+  ('naturfag-10:rus-legemidler-og-miljogifter', 'Toleranse', 'At man trenger mer av et stoff for å få samme effekt.', 4),
+  ('naturfag-10:rus-legemidler-og-miljogifter', 'Avhengighet', 'Sterk trang til et stoff, og vansker med å slutte.', 5),
+  ('naturfag-10:rus-legemidler-og-miljogifter', 'Abstinenser', 'Ubehagelige symptomer når man slutter med et stoff man er avhengig av.', 6),
+  ('naturfag-10:rus-legemidler-og-miljogifter', 'Hjernens utvikling', 'Hjernen utvikles til man er rundt 25 år, og unge er derfor ekstra sårbare.', 7),
+  ('naturfag-10:rus-legemidler-og-miljogifter', 'Legemiddel', 'Stoff som brukes til å forebygge, lindre eller kurere sykdom.', 8),
+  ('naturfag-10:rus-legemidler-og-miljogifter', 'Antibiotika', 'Legemidler som virker mot bakterier, men ikke mot virus.', 9),
+  ('naturfag-10:rus-legemidler-og-miljogifter', 'Bivirkning', 'Uønsket virkning av et legemiddel.', 10),
+  ('naturfag-10:rus-legemidler-og-miljogifter', 'Miljøgift', 'Giftig stoff som brytes langsomt ned og hoper seg opp i organismer.', 11),
+  ('naturfag-10:rus-legemidler-og-miljogifter', 'Biomagnifisering', 'Miljøgifter hoper seg opp oppover i næringskjeden.', 12),
+  ('naturfag-10:rus-legemidler-og-miljogifter', 'Hormonforstyrrende stoffer', 'Stoffer som ligner kroppens hormoner og kan påvirke vekst og forplantning.', 13),
+  ('naturfag-10:rus-legemidler-og-miljogifter', 'Anabole steroider', 'Dopingmiddel som ligner testosteron. Øker muskler, men gir alvorlige bivirkninger.', 14);
+delete from public.quiz_sporsmal where tema_id = 'naturfag-10:rus-legemidler-og-miljogifter';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('naturfag-10:rus-legemidler-og-miljogifter', 'q01', 'flervalg', 'Hvilket signalstoff er sentralt i hjernens belønningssystem?', array['Insulin', 'Dopamin', 'Adrenalin', 'Østrogen']::text[], 1, 'Mange rusmidler øker utskillingen av dopamin, som gir følelse av velvære.', true, true, 0),
+  ('naturfag-10:rus-legemidler-og-miljogifter', 'q02', 'flervalg', 'Hva betyr toleranse?', array['At man tåler alt', 'At man ikke blir påvirket', 'At man trenger mer av stoffet for å få samme effekt', 'At man slutter lett']::text[], 2, 'Kroppen venner seg til stoffet, og effekten blir svakere.', true, true, 1),
+  ('naturfag-10:rus-legemidler-og-miljogifter', 'q03', 'flervalg', 'Hvorfor er unge ekstra sårbare for rusmidler?', array['Fordi hjernen fortsatt utvikler seg', 'Fordi de veier mindre enn voksne', 'Fordi de har mindre blod', 'De er ikke mer sårbare']::text[], 0, 'Hjernen utvikles til rundt 25 års alder, og rusmidler kan påvirke utviklingen.', true, true, 2),
+  ('naturfag-10:rus-legemidler-og-miljogifter', 'q04', 'flervalg', 'Hva virker antibiotika mot?', array['Virus', 'Sopp og virus', 'Alle sykdommer', 'Bakterier']::text[], 3, 'Antibiotika virker ikke mot virus som gir forkjølelse og influensa.', true, true, 3),
+  ('naturfag-10:rus-legemidler-og-miljogifter', 'q05', 'flervalg', 'Hva er en miljøgift?', array['Et giftig stoff som brytes langsomt ned og hoper seg opp i organismer', 'Alt som lukter vondt', 'Et vanlig næringsstoff', 'Et legemiddel']::text[], 0, 'Eksempler er kvikksølv, PCB og PFAS.', true, true, 4),
+  ('naturfag-10:rus-legemidler-og-miljogifter', 'q06', 'flervalg', 'Hva er biomagnifisering?', array['At miljøgifter forsvinner i naturen', 'At dyr blir større', 'At miljøgifter hoper seg opp oppover i næringskjeden', 'At planter vokser raskere']::text[], 2, 'Rovdyr på toppen av næringskjeden får derfor de høyeste konsentrasjonene.', true, true, 5),
+  ('naturfag-10:rus-legemidler-og-miljogifter', 'q07', 'flervalg', 'Hvilke dyr får typisk høyest konsentrasjon av miljøgifter?', array['Planteplankton', 'Små krepsdyr', 'Gress', 'Rovdyr på toppen av næringskjeden, som isbjørn']::text[], 3, 'De spiser mange byttedyr som hver inneholder litt miljøgift.', true, false, 6),
+  ('naturfag-10:rus-legemidler-og-miljogifter', 'q08', 'flervalg', 'Hva gjør EPO som dopingmiddel?', array['Gir større muskler', 'Øker produksjonen av røde blodceller', 'Senker pulsen', 'Gjør deg søvnig']::text[], 1, 'Flere røde blodceller gir bedre oksygentransport, men tykkere blod og økt risiko for blodpropp.', true, true, 7),
+  ('naturfag-10:rus-legemidler-og-miljogifter', 'q09', 'flervalg', 'Hvordan virker alkohol på sentralnervesystemet?', array['Det demper det', 'Det stimulerer det kraftig', 'Det har ingen virkning', 'Det reparerer nerveceller']::text[], 0, 'Alkohol demper signaloverføringen og svekker dømmekraft og reaksjonsevne.', true, false, 8),
+  ('naturfag-10:rus-legemidler-og-miljogifter', 'q10', 'flervalg', 'Hva er abstinenser?', array['En type vitamin', 'Et dopingmiddel', 'Ubehagelige symptomer når man slutter med et stoff man er avhengig av', 'En bivirkning av antibiotika']::text[], 2, 'Abstinenser er et tegn på at kroppen har vent seg til stoffet.', true, true, 9),
+  ('naturfag-10:rus-legemidler-og-miljogifter', 'm01', 'sant-usant', 'Nikotin er avhengighetsskapende.', array['Sant', 'Usant']::text[], 0, 'Nikotin gir raskt avhengighet, også gjennom snus og e-sigaretter.', false, true, 10),
+  ('naturfag-10:rus-legemidler-og-miljogifter', 'm02', 'sant-usant', 'Antibiotika hjelper mot forkjølelse.', array['Sant', 'Usant']::text[], 1, 'Forkjølelse skyldes virus, og antibiotika virker bare mot bakterier.', false, true, 11),
+  ('naturfag-10:rus-legemidler-og-miljogifter', 'm03', 'sant-usant', 'Alle legemidler kan ha bivirkninger.', array['Sant', 'Usant']::text[], 0, 'Derfor er det viktig å bruke legemidler riktig og følge legens råd.', false, true, 12),
+  ('naturfag-10:rus-legemidler-og-miljogifter', 'm04', 'sant-usant', 'Miljøgifter brytes raskt ned i naturen.', array['Sant', 'Usant']::text[], 1, 'Miljøgifter brytes langsomt ned og hoper seg derfor opp.', false, true, 13),
+  ('naturfag-10:rus-legemidler-og-miljogifter', 'm05', 'flervalg', 'Hvilket stoff ligner testosteron og brukes som doping?', array['EPO', 'Insulin', 'Anabole steroider', 'Koffein']::text[], 2, 'Anabole steroider øker muskelmassen, men gir mange alvorlige bivirkninger.', false, true, 14),
+  ('naturfag-10:rus-legemidler-og-miljogifter', 'm06', 'flervalg', 'Hvorfor gir Mattilsynet kostråd om store rovfisk?', array['Fordi de kan inneholde mye miljøgifter', 'Fordi de er dyre', 'Fordi de smaker dårlig', 'Fordi de er fredet']::text[], 0, 'Store rovfisk står høyt i næringskjeden og kan ha opphopning av for eksempel kvikksølv.', false, true, 15),
+  ('naturfag-10:rus-legemidler-og-miljogifter', 'm07', 'flervalg', 'Hva er et eksempel på et tungmetall som er en miljøgift?', array['Kalsium', 'Kvikksølv', 'Oksygen', 'Natrium']::text[], 1, 'Kvikksølv er giftig og hoper seg opp i næringskjeden.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('naturfag-10:rus-legemidler-og-miljogifter', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Naturfag: Immunforsvaret og vaksiner
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('naturfag-10:immunforsvar-og-vaksiner', 'naturfag-10', 'immunforsvar-og-vaksiner', 'Immunforsvaret og vaksiner', 'Kroppens forsvar mot sykdomsfremkallende mikroorganismer, hvordan antistoffer og hukommelsesceller virker, og hvorfor vaksiner er viktige for folkehelsen.', array[22]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('naturfag-10:immunforsvar-og-vaksiner', '## Sykdomsfremkallende mikroorganismer
+
+Mange **bakterier** og **virus** er ufarlige eller nyttige, men noen kan gjøre oss syke. Slike mikroorganismer kalles **patogener** eller **smittestoffer**. Bakterier er levende celler som kan formere seg selv. Virus er mye mindre og må trenge inn i kroppens celler for å formere seg. Smitte kan spres gjennom luft, berøring, mat, vann og blod.
+
+## Første forsvarslinje
+
+Kroppens første forsvar hindrer smittestoffene i å komme inn:
+
+- **Huden** er en tett barriere.
+- **Slimhinner** i nese og luftveier fanger opp mikrober, og **flimmerhår** feier dem ut.
+- **Magesyre** dreper mange mikrober i maten.
+- **Tårer** og spytt inneholder stoffer som bryter ned bakterier.
+
+## Andre forsvarslinje
+
+Kommer smittestoffene inn, for eksempel gjennom et sår, starter en **betennelse**: Området blir rødt, varmt og hovent fordi mer blod strømmer til. **Hvite blodceller** som kalles **eteceller** (fagocytter) spiser opp mikrobene. **Feber** kan også hjelpe kroppen, fordi mange mikrober trives dårlig ved høyere temperatur.
+
+## Tredje forsvarslinje: det spesifikke immunforsvaret
+
+Det spesifikke immunforsvaret retter seg mot **bestemte** smittestoffer. Alle mikrober har **antigener**, kjennetegn på overflaten.
+
+- **B-celler** lager **antistoffer** som passer akkurat til antigenene, som en nøkkel i en lås. Antistoffene binder seg til mikrobene og gjør dem ufarlige eller merker dem for etecellene.
+- **T-celler** hjelper til med å styre forsvaret, og noen dreper kroppsceller som er infisert av virus.
+- Etter infeksjonen blir det igjen **hukommelsesceller**. Møter kroppen det samme smittestoffet igjen, reagerer den raskt og kraftig, ofte før vi merker at vi er smittet. Vi har blitt **immune**.
+
+## Vaksiner
+
+En **vaksine** lærer immunforsvaret å kjenne igjen et smittestoff uten at vi blir syke. Vaksinen kan inneholde svekkede eller drepte mikrober, deler av dem, eller en **oppskrift** (for eksempel mRNA) som får cellene til å lage et ufarlig protein fra smittestoffet. Kroppen lager antistoffer og hukommelsesceller, og vi blir beskyttet.
+
+Når mange nok er vaksinert, får smittestoffet vanskelig for å spre seg. Det beskytter også dem som ikke kan vaksineres, som nyfødte og syke. Dette kalles **flokkimmunitet**.
+
+## Vaksiner og folkehelse
+
+Vaksiner er blant de viktigste framskrittene i medisinens historie. **Kopper** er erklært utryddet (1980) takket være vaksinasjon, og sykdommer som meslinger, polio og kikhoste har blitt sjeldne i land med høy vaksinasjonsdekning. I Norge tilbys alle barn gratis vaksiner gjennom **barnevaksinasjonsprogrammet**. Synker vaksinasjonsdekningen, kan sykdommer komme tilbake.', '{"label":"Immunforsvar og vaksiner","children":[{"label":"Smittestoffer","children":[{"label":"Bakterier"},{"label":"Virus"},{"label":"Smitteveier"}]},{"label":"1. forsvarslinje","children":[{"label":"Hud"},{"label":"Slimhinner og flimmerhår"},{"label":"Magesyre"}]},{"label":"2. forsvarslinje","children":[{"label":"Betennelse"},{"label":"Eteceller"},{"label":"Feber"}]},{"label":"3. forsvarslinje","children":[{"label":"B-celler og antistoffer"},{"label":"T-celler"},{"label":"Hukommelsesceller"}]},{"label":"Vaksiner","children":[{"label":"Lærer immunforsvaret"},{"label":"Flokkimmunitet"},{"label":"Barnevaksinasjonsprogrammet"},{"label":"Kopper utryddet"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'naturfag-10:immunforsvar-og-vaksiner';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('naturfag-10:immunforsvar-og-vaksiner', 'Patogen', 'Mikroorganisme som kan gi sykdom, som enkelte bakterier og virus.', 0),
+  ('naturfag-10:immunforsvar-og-vaksiner', 'Bakterie', 'Levende encellet organisme som kan formere seg selv.', 1),
+  ('naturfag-10:immunforsvar-og-vaksiner', 'Virus', 'Svært liten smittepartikkel som må inn i kroppens celler for å formere seg.', 2),
+  ('naturfag-10:immunforsvar-og-vaksiner', 'Første forsvarslinje', 'Hud, slimhinner, flimmerhår, magesyre, tårer og spytt.', 3),
+  ('naturfag-10:immunforsvar-og-vaksiner', 'Betennelse', 'Rødme, varme og hevelse når kroppen bekjemper mikrober i et område.', 4),
+  ('naturfag-10:immunforsvar-og-vaksiner', 'Eteceller (fagocytter)', 'Hvite blodceller som spiser opp mikrober.', 5),
+  ('naturfag-10:immunforsvar-og-vaksiner', 'Antigen', 'Kjennetegn på overflaten av et smittestoff.', 6),
+  ('naturfag-10:immunforsvar-og-vaksiner', 'B-celler', 'Hvite blodceller som lager antistoffer.', 7),
+  ('naturfag-10:immunforsvar-og-vaksiner', 'Antistoff', 'Protein som passer til et bestemt antigen og uskadeliggjør smittestoffet.', 8),
+  ('naturfag-10:immunforsvar-og-vaksiner', 'T-celler', 'Hvite blodceller som styrer forsvaret og dreper virusinfiserte celler.', 9),
+  ('naturfag-10:immunforsvar-og-vaksiner', 'Hukommelsesceller', 'Celler som husker smittestoffet og gir rask reaksjon neste gang.', 10),
+  ('naturfag-10:immunforsvar-og-vaksiner', 'Immun', 'Beskyttet mot en sykdom fordi kroppen husker smittestoffet.', 11),
+  ('naturfag-10:immunforsvar-og-vaksiner', 'Vaksine', 'Lærer immunforsvaret å kjenne igjen et smittestoff uten at man blir syk.', 12),
+  ('naturfag-10:immunforsvar-og-vaksiner', 'Flokkimmunitet', 'Når mange nok er vaksinert, sprer smitten seg dårlig, og også uvaksinerte beskyttes.', 13),
+  ('naturfag-10:immunforsvar-og-vaksiner', 'Kopper', 'Sykdom som er erklært utryddet (1980) takket være vaksinasjon.', 14);
+delete from public.quiz_sporsmal where tema_id = 'naturfag-10:immunforsvar-og-vaksiner';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('naturfag-10:immunforsvar-og-vaksiner', 'q01', 'flervalg', 'Hva er forskjellen på bakterier og virus?', array['Det finnes ingen forskjell', 'Bakterier er levende celler, virus må inn i celler for å formere seg', 'Virus er større enn bakterier', 'Bakterier kan bare leve i vann']::text[], 1, 'Virus mangler egne celleprosesser og bruker kroppens celler til å lage nye virus.', true, true, 0),
+  ('naturfag-10:immunforsvar-og-vaksiner', 'q02', 'flervalg', 'Hvilken er en del av kroppens første forsvarslinje?', array['Huden', 'Antistoffer', 'Hukommelsesceller', 'T-celler']::text[], 0, 'Huden hindrer smittestoffer i å komme inn i kroppen.', true, true, 1),
+  ('naturfag-10:immunforsvar-og-vaksiner', 'q03', 'flervalg', 'Hva lager B-cellene?', array['Hormoner', 'Magesyre', 'Antistoffer', 'Røde blodceller']::text[], 2, 'Antistoffene passer til antigenene på et bestemt smittestoff.', true, true, 2),
+  ('naturfag-10:immunforsvar-og-vaksiner', 'q04', 'flervalg', 'Hvorfor blir du sjelden syk av samme sykdom to ganger?', array['Fordi smittestoffet dør ut', 'Fordi du får feber', 'Fordi huden blir tykkere', 'Fordi hukommelsesceller gjør at kroppen reagerer raskt neste gang']::text[], 3, 'Hukommelsescellene gjenkjenner smittestoffet og setter raskt i gang forsvaret.', true, true, 3),
+  ('naturfag-10:immunforsvar-og-vaksiner', 'q05', 'flervalg', 'Hvordan virker en vaksine?', array['Den lærer immunforsvaret å kjenne igjen et smittestoff uten at du blir syk', 'Den dreper alle bakterier i kroppen', 'Den erstatter immunforsvaret', 'Den virker som antibiotika']::text[], 0, 'Vaksinen gir kroppen antistoffer og hukommelsesceller mot smittestoffet.', true, true, 4),
+  ('naturfag-10:immunforsvar-og-vaksiner', 'q06', 'flervalg', 'Hva er flokkimmunitet?', array['At dyr er immune', 'At bare voksne er beskyttet', 'At smitte sprer seg dårlig når mange er immune, slik at også uvaksinerte beskyttes', 'At man blir immun av å være i en gruppe']::text[], 2, 'Når få kan bli smittet, finner smittestoffet få nye verter.', true, true, 5),
+  ('naturfag-10:immunforsvar-og-vaksiner', 'q07', 'flervalg', 'Hva gjør eteceller?', array['Lager antistoffer', 'Spiser opp mikrober', 'Frakter oksygen', 'Lager hormoner']::text[], 1, 'Eteceller (fagocytter) er hvite blodceller som omslutter og bryter ned mikrober.', true, true, 6),
+  ('naturfag-10:immunforsvar-og-vaksiner', 'q08', 'flervalg', 'Hvilken sykdom er erklært utryddet takket være vaksiner?', array['Influensa', 'Forkjølelse', 'Meslinger', 'Kopper']::text[], 3, 'WHO erklærte kopper utryddet i 1980.', true, false, 7),
+  ('naturfag-10:immunforsvar-og-vaksiner', 'q09', 'flervalg', 'Hva er et antigen?', array['Et kjennetegn på overflaten av et smittestoff', 'En type vaksine', 'Et legemiddel', 'En hvit blodcelle']::text[], 0, 'Immunforsvaret kjenner igjen smittestoffer på antigenene deres.', true, false, 8),
+  ('naturfag-10:immunforsvar-og-vaksiner', 'q10', 'flervalg', 'Hva kan skje hvis vaksinasjonsdekningen synker?', array['Ingenting', 'Sykdommene blir farligere for vaksinerte', 'Sykdommer som har vært sjeldne, kan komme tilbake', 'Alle blir immune automatisk']::text[], 2, 'Flokkimmuniteten svekkes, og smitte kan spre seg igjen, som ved meslingutbrudd.', true, true, 9),
+  ('naturfag-10:immunforsvar-og-vaksiner', 'm01', 'sant-usant', 'Alle bakterier er farlige.', array['Sant', 'Usant']::text[], 1, 'De fleste bakterier er ufarlige, og mange er nyttige, for eksempel i tarmen.', false, true, 10),
+  ('naturfag-10:immunforsvar-og-vaksiner', 'm02', 'sant-usant', 'Et antistoff passer bare til et bestemt antigen.', array['Sant', 'Usant']::text[], 0, 'Antistoffer er spesifikke, som en nøkkel som passer i én lås.', false, true, 11),
+  ('naturfag-10:immunforsvar-og-vaksiner', 'm03', 'sant-usant', 'Feber kan hjelpe kroppen å bekjempe infeksjoner.', array['Sant', 'Usant']::text[], 0, 'Mange mikrober trives dårligere ved høyere temperatur.', false, true, 12),
+  ('naturfag-10:immunforsvar-og-vaksiner', 'm04', 'sant-usant', 'Barnevaksinasjonsprogrammet i Norge koster penger for familiene.', array['Sant', 'Usant']::text[], 1, 'Vaksinene i barnevaksinasjonsprogrammet er gratis.', false, true, 13),
+  ('naturfag-10:immunforsvar-og-vaksiner', 'm05', 'flervalg', 'Hva slags vaksine gir cellene en oppskrift på et ufarlig protein fra viruset?', array['mRNA-vaksine', 'Antibiotika', 'Levende bakterier', 'Serum']::text[], 0, 'mRNA-vaksiner får cellene til å lage et protein som immunforsvaret lærer å kjenne igjen.', false, true, 14),
+  ('naturfag-10:immunforsvar-og-vaksiner', 'm06', 'flervalg', 'Hvilke celler dreper kroppsceller som er infisert av virus?', array['Røde blodceller', 'Noen typer T-celler', 'Nerveceller', 'Hudceller']::text[], 1, 'Såkalte drepe-T-celler fjerner infiserte celler.', false, true, 15),
+  ('naturfag-10:immunforsvar-og-vaksiner', 'm07', 'flervalg', 'Hva er tegn på betennelse?', array['Kulde og blekhet', 'Kløe og nysing alltid', 'Rødme, varme og hevelse', 'Nummenhet']::text[], 2, 'Mer blod strømmer til området for å bekjempe smittestoffene.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('naturfag-10:immunforsvar-og-vaksiner', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Naturfag: Seksuell og reproduktiv helse
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('naturfag-10:seksuell-og-reproduktiv-helse', 'naturfag-10', 'seksuell-og-reproduktiv-helse', 'Seksuell og reproduktiv helse', 'Puberteten, forplantning og menstruasjonssyklusen, prevensjon og seksuelt overførbare infeksjoner – og samtykke, grenser og mangfold.', array[20]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('naturfag-10:seksuell-og-reproduktiv-helse', '## Hva er seksuell og reproduktiv helse?
+
+**Seksuell helse** handler om å ha det godt med egen kropp og seksualitet, å kunne ta trygge valg og å bli respektert. **Reproduktiv helse** handler om forplantning: å kunne velge om og når man vil få barn, og å beskytte seg mot sykdom.
+
+## Puberteten
+
+I **puberteten** begynner kroppen å produsere mer **kjønnshormoner**, som **østrogen** og **testosteron**. Kroppen endrer seg: Man vokser, får hår under armene og i skrittet, huden kan bli fetere, og stemmen endrer seg. Mange får **menstruasjon**, og mange får **sædavgang**. Puberteten starter på ulike tidspunkter for ulike personer, og det er helt vanlig.
+
+## Forplantning og menstruasjonssyklus
+
+I eggstokkene modnes **egg**. Omtrent én gang i måneden skjer **eggløsning**, der et egg slippes ut og går gjennom egglederen mot livmoren. Hvis egget møter en **sædcelle**, kan det bli **befruktet**. Det befruktede egget fester seg i livmorveggen og kan utvikle seg til et foster. Blir egget ikke befruktet, støtes slimhinnen i livmoren ut som menstruasjon. En menstruasjonssyklus varer ofte rundt 28 dager, men den varierer, særlig de første årene.
+
+## Prevensjon
+
+**Prevensjon** hindrer graviditet. Noen vanlige metoder:
+
+- **Kondom** hindrer at sædceller når egget, og er den eneste vanlige metoden som også beskytter mot **seksuelt overførbare infeksjoner** (SOI).
+- **Hormonell prevensjon**, som p-piller, p-stav og hormonspiral, hindrer eggløsning eller gjør det vanskelig for sædceller å nå fram.
+- **Nødprevensjon** («angrepille») kan tas etter ubeskyttet sex, jo tidligere desto bedre.
+
+På **helsestasjon for ungdom** kan unge få gratis veiledning og hjelp.
+
+## Seksuelt overførbare infeksjoner
+
+SOI smitter ved seksuell kontakt. **Klamydia** er en av de vanligste blant unge i Norge. Den gir ofte ingen symptomer, men kan ubehandlet føre til nedsatt fruktbarhet. Andre SOI er **gonoré**, **herpes**, **HPV** og **hiv**. Mange SOI kan behandles, og mot HPV finnes det vaksine i barnevaksinasjonsprogrammet. Kondom og testing er de viktigste måtene å forebygge og oppdage smitte på.
+
+## Samtykke og grenser
+
+All seksuell aktivitet skal være **frivillig**. **Samtykke** betyr at alle involverte ønsker det og sier ja, og at man når som helst kan ombestemme seg. Den seksuelle **lavalderen** i Norge er 16 år. Å dele nakenbilder av andre uten samtykke er ulovlig. Alle har rett til å sette egne grenser og få dem respektert.
+
+## Mangfold
+
+Mennesker er ulike når det gjelder **seksuell orientering** – hvem man forelsker seg i og tiltrekkes av – og **kjønnsidentitet**, altså hvilket kjønn man opplever seg som. Kunnskap og respekt for mangfold bidrar til at alle kan ha god seksuell helse.', '{"label":"Seksuell og reproduktiv helse","children":[{"label":"Pubertet","children":[{"label":"Kjønnshormoner"},{"label":"Kroppsendringer"},{"label":"Ulik start"}]},{"label":"Forplantning","children":[{"label":"Eggløsning"},{"label":"Befruktning"},{"label":"Menstruasjon"}]},{"label":"Prevensjon","children":[{"label":"Kondom","note":"Beskytter også mot SOI"},{"label":"Hormonell prevensjon"},{"label":"Nødprevensjon"},{"label":"Helsestasjon for ungdom"}]},{"label":"SOI","children":[{"label":"Klamydia"},{"label":"Gonoré, herpes, hiv"},{"label":"HPV-vaksine"},{"label":"Test deg"}]},{"label":"Respekt","children":[{"label":"Samtykke"},{"label":"Lavalder 16 år"},{"label":"Mangfold"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'naturfag-10:seksuell-og-reproduktiv-helse';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('naturfag-10:seksuell-og-reproduktiv-helse', 'Seksuell helse', 'Å ha det godt med egen kropp og seksualitet, ta trygge valg og bli respektert.', 0),
+  ('naturfag-10:seksuell-og-reproduktiv-helse', 'Reproduktiv helse', 'Å kunne velge om og når man vil få barn, og beskytte seg mot sykdom.', 1),
+  ('naturfag-10:seksuell-og-reproduktiv-helse', 'Pubertet', 'Perioden der kroppen utvikles til en voksen kropp, styrt av kjønnshormoner.', 2),
+  ('naturfag-10:seksuell-og-reproduktiv-helse', 'Eggløsning', 'Når et modent egg slippes ut fra eggstokken, omtrent én gang i måneden.', 3),
+  ('naturfag-10:seksuell-og-reproduktiv-helse', 'Befruktning', 'Når en sædcelle og et egg smelter sammen.', 4),
+  ('naturfag-10:seksuell-og-reproduktiv-helse', 'Menstruasjon', 'Livmorslimhinnen støtes ut når egget ikke er befruktet.', 5),
+  ('naturfag-10:seksuell-og-reproduktiv-helse', 'Menstruasjonssyklus', 'Ofte rundt 28 dager, men varierer, særlig de første årene.', 6),
+  ('naturfag-10:seksuell-og-reproduktiv-helse', 'Prevensjon', 'Metoder som hindrer graviditet.', 7),
+  ('naturfag-10:seksuell-og-reproduktiv-helse', 'Kondom', 'Beskytter både mot graviditet og mot seksuelt overførbare infeksjoner.', 8),
+  ('naturfag-10:seksuell-og-reproduktiv-helse', 'Hormonell prevensjon', 'P-piller, p-stav og hormonspiral hindrer blant annet eggløsning.', 9),
+  ('naturfag-10:seksuell-og-reproduktiv-helse', 'SOI', 'Seksuelt overførbare infeksjoner, som klamydia, gonoré, herpes, HPV og hiv.', 10),
+  ('naturfag-10:seksuell-og-reproduktiv-helse', 'Klamydia', 'En av de vanligste SOI blant unge. Gir ofte ingen symptomer.', 11),
+  ('naturfag-10:seksuell-og-reproduktiv-helse', 'HPV-vaksine', 'Vaksine mot humant papillomavirus, del av barnevaksinasjonsprogrammet.', 12),
+  ('naturfag-10:seksuell-og-reproduktiv-helse', 'Samtykke', 'At alle involverte frivillig sier ja, og kan ombestemme seg når som helst.', 13),
+  ('naturfag-10:seksuell-og-reproduktiv-helse', 'Seksuell lavalder', '16 år i Norge.', 14);
+delete from public.quiz_sporsmal where tema_id = 'naturfag-10:seksuell-og-reproduktiv-helse';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('naturfag-10:seksuell-og-reproduktiv-helse', 'q01', 'flervalg', 'Hvilke hormoner styrer puberteten?', array['Insulin og glukagon', 'Østrogen og testosteron', 'Adrenalin og kortisol', 'Dopamin og serotonin']::text[], 1, 'Kjønnshormonene gir kroppsendringene i puberteten.', true, true, 0),
+  ('naturfag-10:seksuell-og-reproduktiv-helse', 'q02', 'flervalg', 'Hva er eggløsning?', array['Når et modent egg slippes ut fra eggstokken', 'Når fosteret blir født', 'Når menstruasjonen starter', 'Når sædceller dannes']::text[], 0, 'Eggløsningen skjer omtrent én gang i måneden.', true, true, 1),
+  ('naturfag-10:seksuell-og-reproduktiv-helse', 'q03', 'flervalg', 'Hvilken prevensjonsmetode beskytter også mot seksuelt overførbare infeksjoner?', array['P-piller', 'P-stav', 'Kondom', 'Hormonspiral']::text[], 2, 'Kondomet hindrer kontakt med kroppsvæsker og beskytter derfor også mot SOI.', true, true, 2),
+  ('naturfag-10:seksuell-og-reproduktiv-helse', 'q04', 'flervalg', 'Hvorfor er klamydia lett å overse?', array['Den gir alltid høy feber', 'Den smitter ikke', 'Den varer bare én dag', 'Den gir ofte ingen symptomer']::text[], 3, 'Mange merker ingenting, derfor er testing viktig.', true, true, 3),
+  ('naturfag-10:seksuell-og-reproduktiv-helse', 'q05', 'flervalg', 'Hva betyr samtykke?', array['At alle involverte frivillig sier ja og kan ombestemme seg', 'At man har sagt ja én gang for alltid', 'At foreldrene har sagt ja', 'At man ikke har sagt nei']::text[], 0, 'Samtykke må være frivillig og kan trekkes tilbake når som helst.', true, true, 4),
+  ('naturfag-10:seksuell-og-reproduktiv-helse', 'q06', 'flervalg', 'Hva er den seksuelle lavalderen i Norge?', array['14 år', '15 år', '16 år', '18 år']::text[], 2, 'Den seksuelle lavalderen i Norge er 16 år.', true, true, 5),
+  ('naturfag-10:seksuell-og-reproduktiv-helse', 'q07', 'flervalg', 'Hva skjer hvis egget ikke blir befruktet?', array['Det utvikler seg likevel til et foster', 'Livmorslimhinnen støtes ut som menstruasjon', 'Egget blir i eggstokken for alltid', 'Det dannes nye sædceller']::text[], 1, 'Slimhinnen som ble bygd opp, trengs ikke og støtes ut.', true, true, 6),
+  ('naturfag-10:seksuell-og-reproduktiv-helse', 'q08', 'flervalg', 'Hvilken SOI finnes det vaksine mot i barnevaksinasjonsprogrammet?', array['Klamydia', 'Gonoré', 'Herpes', 'HPV']::text[], 3, 'HPV-vaksinen beskytter blant annet mot livmorhalskreft.', true, true, 7),
+  ('naturfag-10:seksuell-og-reproduktiv-helse', 'q09', 'flervalg', 'Hvor kan unge få gratis veiledning om prevensjon og seksuell helse?', array['Helsestasjon for ungdom', 'Bare hos privatlege mot betaling', 'Ingen steder', 'I butikken']::text[], 0, 'Helsestasjon for ungdom tilbyr gratis og konfidensiell hjelp.', true, false, 8),
+  ('naturfag-10:seksuell-og-reproduktiv-helse', 'q10', 'flervalg', 'Er det lovlig å dele nakenbilder av andre uten samtykke?', array['Ja, hvis bildet ble sendt til deg', 'Ja, hvis det er en venn', 'Nei, det er ulovlig', 'Ja, hvis man er over 16']::text[], 2, 'Deling av slike bilder uten samtykke er straffbart og kan skade den som blir utsatt for det.', true, false, 9),
+  ('naturfag-10:seksuell-og-reproduktiv-helse', 'm01', 'sant-usant', 'Puberteten starter på samme alder for alle.', array['Sant', 'Usant']::text[], 1, 'Puberteten starter på ulike tidspunkter, og det er helt normalt.', false, true, 10),
+  ('naturfag-10:seksuell-og-reproduktiv-helse', 'm02', 'sant-usant', 'P-piller beskytter mot seksuelt overførbare infeksjoner.', array['Sant', 'Usant']::text[], 1, 'P-piller hindrer graviditet, men beskytter ikke mot SOI. Kondom gjør det.', false, true, 11),
+  ('naturfag-10:seksuell-og-reproduktiv-helse', 'm03', 'sant-usant', 'Man kan ombestemme seg selv om man har sagt ja tidligere.', array['Sant', 'Usant']::text[], 0, 'Samtykke kan trekkes tilbake når som helst.', false, true, 12),
+  ('naturfag-10:seksuell-og-reproduktiv-helse', 'm04', 'sant-usant', 'Mange seksuelt overførbare infeksjoner kan behandles.', array['Sant', 'Usant']::text[], 0, 'For eksempel kan klamydia behandles med antibiotika. Derfor er testing viktig.', false, true, 13),
+  ('naturfag-10:seksuell-og-reproduktiv-helse', 'm05', 'flervalg', 'Hva er seksuell orientering?', array['Hvilket kjønn man er født med', 'Hvem man forelsker seg i og tiltrekkes av', 'Hvor gammel man er', 'Hvilken prevensjon man bruker']::text[], 1, 'Seksuell orientering handler om tiltrekning og forelskelse.', false, true, 14),
+  ('naturfag-10:seksuell-og-reproduktiv-helse', 'm06', 'flervalg', 'Hvor lang er en menstruasjonssyklus ofte?', array['7 dager', '14 dager', 'Rundt 28 dager', '60 dager']::text[], 2, 'Rundt 28 dager er vanlig, men syklusen varierer mye.', false, true, 15),
+  ('naturfag-10:seksuell-og-reproduktiv-helse', 'm07', 'flervalg', 'Hva kan klamydia føre til hvis den ikke behandles?', array['Bedre immunforsvar', 'Nedsatt fruktbarhet', 'Ingenting', 'Høyere blodsukker']::text[], 1, 'Ubehandlet klamydia kan gi betennelser som skader fruktbarheten.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('naturfag-10:seksuell-og-reproduktiv-helse', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Naturfag: Modeller i naturfag
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('naturfag-10:modeller-i-naturfag', 'naturfag-10', 'modeller-i-naturfag', 'Modeller i naturfag', 'Hva modeller er, ulike typer modeller, hvordan de brukes til å forklare og forutsi, og hvorfor alle modeller har styrker og begrensninger.', array[3, 2]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('naturfag-10:modeller-i-naturfag', '## Hvorfor modeller?
+
+Mye av det naturfag handler om, er for lite, for stort, for raskt, for langsomt eller for komplisert til at vi kan se det direkte. Atomer er for små, solsystemet er for stort, og klimaet er for sammensatt. Da bruker vi **modeller**. En modell er en **forenklet framstilling** av virkeligheten som hjelper oss å **forklare** observasjoner og **forutsi** hva som vil skje.
+
+## Typer modeller
+
+- **Fysiske modeller** kan tas og føles på, som en globus, en modell av et DNA-molekyl eller en kulemodell av et vannmolekyl.
+- **Tegninger og diagrammer**, som en tegning av vannets kretsløp eller en næringskjede.
+- **Begrepsmodeller** (konseptuelle modeller) beskriver sammenhenger med ord og begreper, som partikkelmodellen for faste stoffer, væsker og gasser.
+- **Matematiske modeller** beskriver sammenhenger med formler, som s = v · t.
+- **Datamodeller** og **simuleringer** bruker programmer til å regne på komplekse systemer, som værmeldinger og klimamodeller.
+
+## Styrker og begrensninger
+
+Alle modeller har **styrker**: De gjør noe komplisert forståelig og lar oss gjøre forutsigelser. Men de har også **begrensninger**, fordi de forenkler. En globus viser jordas form og kontinentenes plassering, men ikke at jorda er litt flattrykt ved polene eller hvor høye fjellene er. En tegning av et atom med elektroner i sirkelbaner er nyttig for å forstå skall og periodesystemet, men elektronene beveger seg ikke egentlig slik. Når du bruker en modell, bør du alltid spørre: Hva viser modellen godt, og hva viser den ikke?
+
+## Modeller endres
+
+Modeller er ikke endelige sannheter. Når nye observasjoner ikke passer med modellen, blir den forbedret eller erstattet. **Atommodellen** er et godt eksempel:
+
+- **John Dalton** (tidlig 1800-tall) så atomer som små, udelelige kuler.
+- **J.J. Thomson** oppdaget elektronet (1897) og så for seg atomet som en positiv masse med elektroner i, som rosiner i en kake.
+- **Ernest Rutherford** viste (1911) at atomet har en liten, tett kjerne med mye tomrom rundt.
+- **Niels Bohr** (1913) plasserte elektronene i bestemte skall rundt kjernen.
+
+I dag beskriver forskerne elektronene med en kvantemekanisk modell, der de ikke har bestemte baner. Hver ny modell forklarte flere observasjoner enn den forrige.
+
+## Lage egne modeller
+
+Når du lager en modell selv, for eksempel av en celle, et økosystem eller en elektrisk krets, må du velge hva som skal være med og hva som kan utelates. Å forklare disse valgene, og å vurdere modellens styrker og svakheter, viser at du forstår både fenomenet og modellen.', '{"label":"Modeller i naturfag","children":[{"label":"Hvorfor?","children":[{"label":"For lite, stort, raskt eller sakte"},{"label":"Forklare"},{"label":"Forutsi"}]},{"label":"Typer","children":[{"label":"Fysiske"},{"label":"Tegninger"},{"label":"Begrepsmodeller"},{"label":"Matematiske"},{"label":"Datamodeller"}]},{"label":"Vurdere","children":[{"label":"Styrker"},{"label":"Begrensninger"},{"label":"Hva viser den ikke?"}]},{"label":"Atommodellen","children":[{"label":"Dalton","note":"Udelelig kule"},{"label":"Thomson","note":"Rosinbolle"},{"label":"Rutherford","note":"Kjerne"},{"label":"Bohr","note":"Skall"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'naturfag-10:modeller-i-naturfag';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('naturfag-10:modeller-i-naturfag', 'Modell', 'En forenklet framstilling av virkeligheten som hjelper oss å forklare og forutsi.', 0),
+  ('naturfag-10:modeller-i-naturfag', 'Fysisk modell', 'En modell man kan ta på, som en globus eller en molekylmodell.', 1),
+  ('naturfag-10:modeller-i-naturfag', 'Begrepsmodell', 'En modell som beskriver sammenhenger med ord og begreper, som partikkelmodellen.', 2),
+  ('naturfag-10:modeller-i-naturfag', 'Matematisk modell', 'En modell som bruker formler, som s = v · t.', 3),
+  ('naturfag-10:modeller-i-naturfag', 'Datamodell', 'Et dataprogram som simulerer et komplekst system, som klimaet.', 4),
+  ('naturfag-10:modeller-i-naturfag', 'Forutsi', 'Bruke en modell til å si hva som vil skje.', 5),
+  ('naturfag-10:modeller-i-naturfag', 'Modellens styrker', 'Gjør noe komplisert forståelig og gir mulighet for forutsigelser.', 6),
+  ('naturfag-10:modeller-i-naturfag', 'Modellens begrensninger', 'Det modellen ikke viser eller forenkler bort.', 7),
+  ('naturfag-10:modeller-i-naturfag', 'Partikkelmodellen', 'Stoffer består av partikler som ligger tett i faste stoffer og beveger seg fritt i gasser.', 8),
+  ('naturfag-10:modeller-i-naturfag', 'Dalton', 'Så atomer som små, udelelige kuler (tidlig 1800-tall).', 9),
+  ('naturfag-10:modeller-i-naturfag', 'Thomson', 'Oppdaget elektronet i 1897. «Rosinbollemodellen».', 10),
+  ('naturfag-10:modeller-i-naturfag', 'Rutherford', 'Viste i 1911 at atomet har en liten, tett kjerne.', 11),
+  ('naturfag-10:modeller-i-naturfag', 'Bohr', 'Plasserte elektronene i bestemte skall rundt kjernen (1913).', 12),
+  ('naturfag-10:modeller-i-naturfag', 'Modeller endres', 'Når nye observasjoner ikke passer, forbedres eller erstattes modellen.', 13),
+  ('naturfag-10:modeller-i-naturfag', 'Globus', 'Viser jordas form og kontinenter, men ikke høyder eller at jorda er litt flattrykt.', 14);
+delete from public.quiz_sporsmal where tema_id = 'naturfag-10:modeller-i-naturfag';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('naturfag-10:modeller-i-naturfag', 'q01', 'flervalg', 'Hva er en modell i naturfag?', array['En eksakt kopi av virkeligheten', 'En forenklet framstilling som hjelper oss å forklare og forutsi', 'En person som viser klær', 'Et forsøk på lab']::text[], 1, 'Modeller forenkler for å gjøre noe forståelig og for å kunne forutsi.', true, true, 0),
+  ('naturfag-10:modeller-i-naturfag', 'q02', 'flervalg', 'Hvilken er en matematisk modell?', array['En globus', 'En tegning av en celle', 'Formelen s = v · t', 'En kulemodell av vann']::text[], 2, 'Matematiske modeller beskriver sammenhenger med formler.', true, true, 1),
+  ('naturfag-10:modeller-i-naturfag', 'q03', 'flervalg', 'Hva er en begrensning ved en globus?', array['Den viser ikke høyden på fjellene', 'Den viser ikke kontinentene', 'Den er ikke rund', 'Den viser ikke havene']::text[], 0, 'Globusen forenkler bort blant annet høydeforskjeller.', true, true, 2),
+  ('naturfag-10:modeller-i-naturfag', 'q04', 'flervalg', 'Hvem oppdaget at atomet har en liten, tett kjerne?', array['John Dalton', 'J.J. Thomson', 'Niels Bohr', 'Ernest Rutherford']::text[], 3, 'Rutherfords forsøk i 1911 viste at det meste av atomet er tomrom rundt en liten kjerne.', true, true, 3),
+  ('naturfag-10:modeller-i-naturfag', 'q05', 'flervalg', 'Hvorfor endres modeller over tid?', array['Fordi forskere liker å forandre ting', 'Fordi nye observasjoner ikke passer med den gamle modellen', 'Fordi gamle modeller blir slitt', 'De endres aldri']::text[], 1, 'Når en modell ikke kan forklare nye observasjoner, må den forbedres eller erstattes.', true, true, 4),
+  ('naturfag-10:modeller-i-naturfag', 'q06', 'flervalg', 'Hva slags modell er en værmelding basert på?', array['En fysisk modell', 'En tegning', 'En datamodell som simulerer atmosfæren', 'En begrepsmodell uten tall']::text[], 2, 'Meteorologer bruker store datamodeller som regner på atmosfæren.', true, true, 5),
+  ('naturfag-10:modeller-i-naturfag', 'q07', 'flervalg', 'Hvem plasserte elektronene i bestemte skall rundt kjernen?', array['Niels Bohr', 'John Dalton', 'Isaac Newton', 'Charles Darwin']::text[], 0, 'Bohrs modell fra 1913 forklarte blant annet lysspektre fra atomer.', true, false, 6),
+  ('naturfag-10:modeller-i-naturfag', 'q08', 'flervalg', 'Hva bør du alltid spørre om når du bruker en modell?', array['Hvem har laget den?', 'Hvor mye koster den?', 'Hvor stor er den?', 'Hva viser den godt, og hva viser den ikke?']::text[], 3, 'Da blir du bevisst både styrkene og begrensningene.', true, true, 7),
+  ('naturfag-10:modeller-i-naturfag', 'q09', 'flervalg', 'Hva beskriver partikkelmodellen?', array['Hvordan stoffer består av partikler som oppfører seg ulikt i faste stoffer, væsker og gasser', 'Hvordan planeter går rundt sola', 'Hvordan celler deler seg', 'Hvordan vær oppstår']::text[], 0, 'Partikkelmodellen forklarer blant annet smelting, fordamping og trykk.', true, false, 8),
+  ('naturfag-10:modeller-i-naturfag', 'q10', 'flervalg', 'Hva så Thomson for seg etter at han oppdaget elektronet?', array['Atomet som en udelelig kule', 'Atomet som en positiv masse med elektroner i, som rosiner i en kake', 'Elektroner i skall', 'En tett kjerne med tomrom rundt']::text[], 1, 'Thomsons modell kalles ofte rosinbollemodellen.', true, true, 9),
+  ('naturfag-10:modeller-i-naturfag', 'm01', 'sant-usant', 'En god modell viser alt nøyaktig slik det er i virkeligheten.', array['Sant', 'Usant']::text[], 1, 'Alle modeller forenkler. En god modell er nyttig for formålet.', false, true, 10),
+  ('naturfag-10:modeller-i-naturfag', 'm02', 'sant-usant', 'Dagens atommodell er den samme som Daltons.', array['Sant', 'Usant']::text[], 1, 'Atommodellen har blitt endret mange ganger siden Dalton.', false, true, 11),
+  ('naturfag-10:modeller-i-naturfag', 'm03', 'sant-usant', 'En næringskjede er en form for modell.', array['Sant', 'Usant']::text[], 0, 'Den forenkler sammenhengene i et økosystem.', false, true, 12),
+  ('naturfag-10:modeller-i-naturfag', 'm04', 'sant-usant', 'Modeller kan brukes til å forutsi hva som vil skje.', array['Sant', 'Usant']::text[], 0, 'Klimamodeller og værmeldinger er eksempler.', false, true, 13),
+  ('naturfag-10:modeller-i-naturfag', 'm05', 'flervalg', 'Hvilken modell er en fysisk modell?', array['s = v · t', 'En kulemodell av et molekyl', 'En begrepsdefinisjon', 'Et regneark']::text[], 1, 'Fysiske modeller kan tas og føles på.', false, true, 14),
+  ('naturfag-10:modeller-i-naturfag', 'm06', 'flervalg', 'Hva er en begrensning ved en tegning av et atom med elektroner i sirkelbaner?', array['Elektronene beveger seg ikke egentlig i slike baner', 'Den viser ikke kjernen', 'Den er for stor', 'Den har ingen begrensninger']::text[], 0, 'Modellen er nyttig, men dagens kvantemekaniske modell viser at elektronene ikke har faste baner.', false, true, 15),
+  ('naturfag-10:modeller-i-naturfag', 'm07', 'flervalg', 'Når oppdaget Thomson elektronet?', array['1803', '1911', '1897', '1913']::text[], 2, 'J.J. Thomson oppdaget elektronet i 1897.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('naturfag-10:modeller-i-naturfag', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Naturfag: Forskning og ny kunnskap
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('naturfag-10:forskning-og-kunnskap', 'naturfag-10', 'forskning-og-kunnskap', 'Forskning og ny kunnskap', 'Hvordan ny naturvitenskapelig kunnskap blir til gjennom samarbeid, fagfellevurdering og kritisk testing, med eksempler på dagsaktuell forskning.', array[5, 2]::int[], 5, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('naturfag-10:forskning-og-kunnskap', '## Kunnskap som stadig testes
+
+Naturvitenskapelig kunnskap er ikke en samling faste fakta, men en **prosess** der ideer hele tiden testes, forbedres og av og til forkastes. Det som gjør kunnskapen pålitelig, er at den er basert på **observasjoner og forsøk**, og at andre forskere **kritisk** kan kontrollere den.
+
+## Hvordan forskningen fungerer
+
+- **Samarbeid**: Moderne forskning skjer ofte i store team, gjerne på tvers av land og fag. Store prosjekter, som partikkelfysikk ved CERN eller klimaforskning, involverer tusenvis av forskere.
+- **Publisering**: Resultater publiseres i vitenskapelige tidsskrifter, slik at andre kan lese og bygge videre på dem.
+- **Fagfellevurdering**: Før en artikkel publiseres, blir den vurdert av andre eksperter innen feltet. De ser etter svakheter i metode, analyse og konklusjoner.
+- **Replikasjon**: Andre forskere prøver å gjenta forsøkene. Får de samme resultat, blir funnene mer pålitelige.
+- **Konsensus**: Når mange uavhengige undersøkelser peker samme vei, oppstår en bred enighet blant forskerne, for eksempel om at klimaet endrer seg på grunn av menneskelig aktivitet.
+
+## Kritisk tilnærming
+
+Forskere skal være **kritiske**, også til sine egne resultater. Noen viktige prinsipper:
+
+- **Korrelasjon er ikke det samme som årsak**. At to ting henger sammen, betyr ikke at den ene forårsaker den andre. Salg av is og antall drukningsulykker øker begge om sommeren, men isen forårsaker ikke drukningene – begge skyldes varmt vær.
+- **Store og gode utvalg** gir sikrere svar enn få forsøk.
+- **Interessekonflikter** bør oppgis, for eksempel hvis en undersøkelse er betalt av et firma som tjener på resultatet.
+
+## Dagsaktuell forskning
+
+Noen eksempler på forskning som har preget de siste årene:
+
+- **mRNA-vaksiner** ble tatt i bruk i stor skala under koronapandemien. Forskningen bak ble belønnet med Nobelprisen i medisin i 2023.
+- **CRISPR** er en metode for å redigere gener svært presist, belønnet med Nobelprisen i kjemi i 2020. Den åpner for nye behandlinger, men reiser også etiske spørsmål.
+- **James Webb-romteleskopet**, skutt opp i 2021, gir nye bilder av de tidligste galaksene.
+- **Klimaforskning** overvåker is, hav og atmosfære og forbedrer modellene for framtidas klima.
+
+## Kunnskap i endring
+
+At forskere endrer mening når nye data kommer, er en **styrke** ved naturvitenskapen, ikke en svakhet. Samtidig er mye kunnskap så grundig testet at den regnes som svært sikker, som at jorda går rundt sola eller at sykdommer kan skyldes mikroorganismer.', '{"label":"Forskning og kunnskap","children":[{"label":"Prosessen","children":[{"label":"Samarbeid"},{"label":"Publisering"},{"label":"Fagfellevurdering"},{"label":"Replikasjon"},{"label":"Konsensus"}]},{"label":"Kritisk","children":[{"label":"Korrelasjon ≠ årsak"},{"label":"Store utvalg"},{"label":"Interessekonflikter"}]},{"label":"Aktuell forskning","children":[{"label":"mRNA-vaksiner","note":"Nobel 2023"},{"label":"CRISPR","note":"Nobel 2020"},{"label":"James Webb","note":"2021"},{"label":"Klimaforskning"}]},{"label":"Kunnskap","children":[{"label":"Endres med nye data"},{"label":"Noe er svært sikkert"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'naturfag-10:forskning-og-kunnskap';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('naturfag-10:forskning-og-kunnskap', 'Fagfellevurdering', 'Andre eksperter vurderer en forskningsartikkel før den publiseres.', 0),
+  ('naturfag-10:forskning-og-kunnskap', 'Replikasjon', 'Å gjenta et forsøk for å se om man får samme resultat.', 1),
+  ('naturfag-10:forskning-og-kunnskap', 'Konsensus', 'Bred enighet blant forskere, basert på mange uavhengige undersøkelser.', 2),
+  ('naturfag-10:forskning-og-kunnskap', 'Vitenskapelig tidsskrift', 'Publikasjon der forskningsresultater gjøres kjent for andre forskere.', 3),
+  ('naturfag-10:forskning-og-kunnskap', 'Korrelasjon', 'At to ting varierer sammen.', 4),
+  ('naturfag-10:forskning-og-kunnskap', 'Årsakssammenheng', 'At én ting faktisk forårsaker en annen.', 5),
+  ('naturfag-10:forskning-og-kunnskap', 'Korrelasjon ≠ årsak', 'Is-salg og drukninger øker samtidig fordi begge skyldes varmt vær.', 6),
+  ('naturfag-10:forskning-og-kunnskap', 'Interessekonflikt', 'Når forskeren eller finansieringskilden kan tjene på et bestemt resultat.', 7),
+  ('naturfag-10:forskning-og-kunnskap', 'mRNA-vaksiner', 'Vaksiner som gir cellene oppskrift på et virusprotein. Nobelpris i medisin 2023.', 8),
+  ('naturfag-10:forskning-og-kunnskap', 'CRISPR', 'Metode for presis genredigering. Nobelpris i kjemi 2020.', 9),
+  ('naturfag-10:forskning-og-kunnskap', 'James Webb-teleskopet', 'Romteleskop skutt opp i 2021 som studerer de tidligste galaksene.', 10),
+  ('naturfag-10:forskning-og-kunnskap', 'CERN', 'Stort europeisk forskningssenter for partikkelfysikk med forskere fra mange land.', 11),
+  ('naturfag-10:forskning-og-kunnskap', 'Kritisk tilnærming', 'Å vurdere metoder, data og konklusjoner nøye, også sine egne.', 12),
+  ('naturfag-10:forskning-og-kunnskap', 'Kunnskap i endring', 'At forskere endrer syn ved nye data er en styrke ved naturvitenskapen.', 13),
+  ('naturfag-10:forskning-og-kunnskap', 'Utvalgsstørrelse', 'Store og gode utvalg gir sikrere konklusjoner enn få forsøk.', 14);
+delete from public.quiz_sporsmal where tema_id = 'naturfag-10:forskning-og-kunnskap';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('naturfag-10:forskning-og-kunnskap', 'q01', 'flervalg', 'Hva er fagfellevurdering?', array['At venner leser artikkelen', 'At andre eksperter vurderer forskningen før den publiseres', 'At journalister skriver om forskningen', 'At forskeren vurderer seg selv']::text[], 1, 'Fagfeller ser etter svakheter i metode, analyse og konklusjoner.', true, true, 0),
+  ('naturfag-10:forskning-og-kunnskap', 'q02', 'flervalg', 'Hvorfor er replikasjon viktig?', array['Fordi det gjør forskningen dyrere', 'Fordi det viser om resultatet holder når andre gjentar forsøket', 'Fordi det er påbudt ved lov', 'Fordi resultater ellers forsvinner']::text[], 1, 'Resultater som kan gjentas av uavhengige forskere, er mer pålitelige.', true, true, 1),
+  ('naturfag-10:forskning-og-kunnskap', 'q03', 'flervalg', 'Salg av is og antall drukninger øker om sommeren. Hva kan vi konkludere?', array['At is forårsaker drukning', 'At drukning gjør folk sultne på is', 'At begge trolig skyldes en tredje faktor, som varmt vær', 'At tallene er feil']::text[], 2, 'Korrelasjon er ikke årsak. Varmt vær får flere til både å kjøpe is og å bade.', true, true, 2),
+  ('naturfag-10:forskning-og-kunnskap', 'q04', 'flervalg', 'Hva er konsensus i forskning?', array['At én forsker har bestemt noe', 'At alle forsøk gir samme tall', 'En avstemning blant politikere', 'Bred enighet basert på mange uavhengige undersøkelser']::text[], 3, 'Konsensus bygger på samlet evidens fra mange studier.', true, true, 3),
+  ('naturfag-10:forskning-og-kunnskap', 'q05', 'flervalg', 'Hvilken metode for genredigering fikk Nobelprisen i kjemi i 2020?', array['CRISPR', 'mRNA', 'PCR', 'Kloning']::text[], 0, 'CRISPR gjør det mulig å endre gener svært presist.', true, true, 4),
+  ('naturfag-10:forskning-og-kunnskap', 'q06', 'flervalg', 'Hva fikk Nobelprisen i medisin i 2023?', array['Oppdagelsen av penicillin', 'Forskningen bak mRNA-vaksiner', 'Kartleggingen av menneskets DNA', 'CRISPR']::text[], 1, 'Forskningen gjorde det mulig å utvikle mRNA-vaksiner, blant annet mot covid-19.', true, true, 5),
+  ('naturfag-10:forskning-og-kunnskap', 'q07', 'flervalg', 'Hva er en interessekonflikt i forskning?', array['Når forskere er uenige', 'Når forskningen er kjedelig', 'Når noen kan tjene på et bestemt resultat', 'Når forsøket mislykkes']::text[], 2, 'Interessekonflikter bør oppgis, fordi de kan påvirke hvordan forskningen gjøres eller presenteres.', true, true, 6),
+  ('naturfag-10:forskning-og-kunnskap', 'q08', 'flervalg', 'Er det en svakhet at forskere endrer mening når nye data kommer?', array['Ja, det viser at forskning ikke kan stoles på', 'Ja, forskere bør aldri endre mening', 'Det har ingen betydning', 'Nei, det er en styrke at kunnskapen forbedres']::text[], 3, 'Naturvitenskapen er selvkorrigerende: bedre data gir bedre kunnskap.', true, true, 7),
+  ('naturfag-10:forskning-og-kunnskap', 'q09', 'flervalg', 'Hva studerer James Webb-romteleskopet blant annet?', array['De tidligste galaksene', 'Jordas indre', 'Bakterier i havet', 'Været i Norge']::text[], 0, 'Teleskopet ser infrarødt lys fra svært fjerne og gamle galakser.', true, false, 8),
+  ('naturfag-10:forskning-og-kunnskap', 'q10', 'flervalg', 'Hvorfor gir et stort utvalg sikrere svar?', array['Fordi det ser bedre ut', 'Fordi tilfeldigheter jevner seg ut når det er mange observasjoner', 'Fordi det er billigere', 'Det gir ikke sikrere svar']::text[], 1, 'Med få observasjoner kan tilfeldigheter gi et misvisende resultat.', true, false, 9),
+  ('naturfag-10:forskning-og-kunnskap', 'm01', 'sant-usant', 'Moderne forskning skjer ofte i store internasjonale team.', array['Sant', 'Usant']::text[], 0, 'Store prosjekter krever samarbeid mellom mange forskere og land.', false, true, 10),
+  ('naturfag-10:forskning-og-kunnskap', 'm02', 'sant-usant', 'At to ting henger sammen, beviser at den ene forårsaker den andre.', array['Sant', 'Usant']::text[], 1, 'Korrelasjon er ikke det samme som årsak.', false, true, 11),
+  ('naturfag-10:forskning-og-kunnskap', 'm03', 'sant-usant', 'CRISPR reiser også etiske spørsmål.', array['Sant', 'Usant']::text[], 0, 'Muligheten til å endre gener, også hos mennesker, gir viktige etiske diskusjoner.', false, true, 12),
+  ('naturfag-10:forskning-og-kunnskap', 'm04', 'sant-usant', 'Et enkelt forsøk er nok til å endre konsensus i forskningen.', array['Sant', 'Usant']::text[], 1, 'Konsensus bygger på mange undersøkelser, og ett avvikende resultat må gjentas og testes.', false, true, 13),
+  ('naturfag-10:forskning-og-kunnskap', 'm05', 'flervalg', 'Hvor publiseres forskningsresultater vanligvis?', array['I vitenskapelige tidsskrifter', 'Bare på sosiale medier', 'I reklame', 'De publiseres ikke']::text[], 0, 'Tidsskriftene sørger for fagfellevurdering og gjør funnene tilgjengelige.', false, true, 14),
+  ('naturfag-10:forskning-og-kunnskap', 'm06', 'flervalg', 'Når ble James Webb-teleskopet skutt opp?', array['1990', '2021', '2009', '2015']::text[], 1, 'Teleskopet ble skutt opp i desember 2021.', false, true, 15),
+  ('naturfag-10:forskning-og-kunnskap', 'm07', 'flervalg', 'Hva er CERN?', array['Et norsk universitet', 'En vaksine', 'Et stort europeisk forskningssenter for partikkelfysikk', 'Et romteleskop']::text[], 2, 'Ved CERN samarbeider forskere fra hele verden om å forstå materiens minste byggesteiner.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('naturfag-10:forskning-og-kunnskap', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Samfunnsfag (10): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'samfunnsfag-10';
 
 -- Kjemi 1 (vg2): rydd bort fjernede temaer
 delete from public.temaer where fag_id = 'kjemi-1' and slug not in ('atomet-og-periodesystemet', 'kjemisk-binding', 'formler-og-navnsetting', 'stoffmengde-og-stokiometri', 'reaksjonstyper-og-redoks', 'losninger-og-konsentrasjon', 'syrer-baser-og-ph', 'energi-og-entalpi', 'reaksjonsfart-og-likevekt', 'titrering-og-spektroskopi', 'gronn-kjemi');
