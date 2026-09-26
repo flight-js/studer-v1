@@ -1,0 +1,83 @@
+{
+  "id": "samfunn-og-aktuelle-saker",
+  "fagId": "spansk-vg1",
+  "trinnId": "vg1",
+  "name": "Samfunn i Spania og Latin-Amerika",
+  "intro": "Den spansktalende verden, Spanias regioner og språk, mangfold, ulikhet og migrasjon i Latin-Amerika – og hvordan du uttrykker meninger og ønsker på spansk, blant annet med en første innføring i subjuntivo.",
+  "kompetansemaal": [4, 5, 8],
+  "sammendrag": "## Den spansktalende verden\n\nSpansk er morsmål for rundt **500 millioner** mennesker og offisielt språk i **21 land**: **Spania**, **Ekvatorial-Guinea** i Afrika og en rekke land i **Latin-Amerika**. **Mexico** er landet med flest spansktalende. Spansk er også mye brukt i **USA**.\n\n## Spania\n\nSpania er et **konstitusjonelt monarki** med **17 autonome regioner** (*comunidades autónomas*), som har stor grad av selvstyre. I tillegg til spansk (*castellano*) har flere regioner egne offisielle språk:\n\n- **katalansk** (*catalán*) i Catalonia\n- **baskisk** (*euskera*) i Baskerland – et språk som ikke er i slekt med noe annet kjent språk\n- **galisisk** (*gallego*) i Galicia\n\nI **Catalonia** har spørsmålet om **uavhengighet** skapt store politiske konflikter.\n\n## Latin-Amerika\n\nLatin-Amerika er preget av stort **mangfold**:\n\n- **Urfolk**, som mayaer, quechuaer og aymaraer, med egne språk og kulturer\n- Etterkommere av **europeere** og **afrikanere**, og mange med blandet bakgrunn\n- **Store byer**, som Mexico by, Buenos Aires og Bogotá, og **landsbygd**\n\nMange land har **store forskjeller** mellom rike og fattige. Andre aktuelle temaer er **migrasjon** – blant annet til USA og Spania – **korrupsjon**, **kriminalitet**, **avskoging** i Amazonas og **urfolks rettigheter**.\n\n## Å uttrykke meninger\n\n- *En mi opinión, … / Para mí, …* – Etter min mening …\n- *Creo que / Pienso que + indikativ* – *Creo que **es** importante.*\n- *Estoy a favor / en contra de …* – Jeg er for / mot …\n- *Por un lado …, por otro lado …* – På den ene siden …, på den andre …\n- *Sin embargo* – likevel, *además* – dessuten\n\n## Subjuntivo – en første innføring\n\n**Subjuntivo** er en egen verbform som brukes etter uttrykk for **ønsker**, **følelser**, **tvil** og **nektede meninger**.\n\nForm: ta **yo**-formen i presens, fjern -o, og bytt vokal: **-ar → -e**, **-er/-ir → -a**.\n\n- hablar → habl**e**, comer → com**a**, tener → teng**a**, hacer → hag**a**\n- Uregelmessige: *ser → sea*, *ir → vaya*, *estar → esté*\n\nEksempler:\n\n- *Quiero que **vengas**.* – Jeg vil at du skal komme.\n- *Espero que **tengas** suerte.* – Jeg håper du har flaks.\n- *No creo que **sea** verdad.* – Jeg tror ikke det er sant.\n- *Es importante que todos **puedan** estudiar.*\n\nLegg merke til forskjellen: *Creo que **es** verdad* (indikativ) – *No creo que **sea** verdad* (subjuntivo).",
+  "flashcards": [
+    { "term": "21 land", "def": "antall land med spansk som offisielt språk" },
+    { "term": "México", "def": "landet med flest spansktalende" },
+    { "term": "las comunidades autónomas", "def": "Spanias 17 autonome regioner" },
+    { "term": "el catalán", "def": "katalansk – språk i Catalonia" },
+    { "term": "el euskera", "def": "baskisk – ikke i slekt med noe annet kjent språk" },
+    { "term": "el gallego", "def": "galisisk – språk i Galicia" },
+    { "term": "los pueblos indígenas", "def": "urfolkene" },
+    { "term": "la desigualdad", "def": "ulikheten" },
+    { "term": "la migración", "def": "migrasjonen" },
+    { "term": "En mi opinión …", "def": "Etter min mening …" },
+    { "term": "Estoy en contra de …", "def": "Jeg er mot …" },
+    { "term": "por un lado … por otro lado", "def": "på den ene siden … på den andre" },
+    { "term": "Quiero que vengas.", "def": "Jeg vil at du skal komme. (subjuntivo)" },
+    { "term": "Espero que tengas suerte.", "def": "Jeg håper du har flaks." },
+    { "term": "No creo que sea verdad.", "def": "Jeg tror ikke det er sant." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvilket land har flest spansktalende?", "options": ["Spania", "Mexico", "Argentina", "USA"], "correct": 1, "explain": "Mexico har over 100 millioner innbyggere." },
+    { "id": "q02", "text": "Hvilket språk snakkes i Baskerland?", "options": ["Euskera", "Catalán", "Gallego", "Portugisisk"], "correct": 0, "explain": "Baskisk er ikke i slekt med noe annet kjent språk." },
+    { "id": "q03", "text": "Hvor mange autonome regioner har Spania?", "options": ["5", "10", "17", "50"], "correct": 2, "explain": "Regionene har stor grad av selvstyre." },
+    { "id": "q04", "text": "Velg riktig: «Quiero que tú ___ conmigo.»", "options": ["vienes", "venir", "vendrás", "vengas"], "correct": 3, "explain": "Etter ønsker med que brukes subjuntivo." },
+    { "id": "q05", "text": "Velg riktig: «Creo que ___ importante.»", "options": ["es", "sea", "está", "ser"], "correct": 0, "explain": "creo que + indikativ." },
+    { "id": "q06", "text": "Hvilken region har hatt store konflikter om uavhengighet?", "options": ["Andalucía", "Catalonia", "Madrid", "Kanariøyene"], "correct": 1, "explain": "Mange katalanere ønsker uavhengighet, andre ikke." },
+    { "id": "q07", "text": "Velg riktig: «No creo que ___ verdad.»", "options": ["es", "está", "sea", "será"], "correct": 2, "explain": "Nektet mening + que → subjuntivo." },
+    { "id": "q08", "text": "Hva betyr «la desigualdad»?", "options": ["likheten", "uavhengigheten", "ulykken", "ulikheten"], "correct": 3, "explain": "Mange latinamerikanske land har store forskjeller mellom rike og fattige." },
+    { "id": "q09", "text": "Hva er subjuntivo av «tener» i tú-form?", "options": ["tengas", "tienes", "tenes", "tendrás"], "correct": 0, "explain": "yo tengo → teng- + -as." },
+    { "id": "q10", "text": "Hva betyr «Estoy a favor»?", "options": ["Jeg er mot.", "Jeg er for.", "Jeg er takknemlig.", "Jeg er favoritt."], "correct": 1, "explain": "a favor = for, en contra = mot." }
+  ],
+  "mindmap": {
+    "label": "Samfunn i den spansktalende verden",
+    "children": [
+      { "label": "Spansk i verden", "children": [
+        { "label": "21 land" },
+        { "label": "Mexico" },
+        { "label": "USA" }
+      ] },
+      { "label": "Spania", "children": [
+        { "label": "17 regioner" },
+        { "label": "catalán, euskera, gallego" },
+        { "label": "Catalonia" }
+      ] },
+      { "label": "Latin-Amerika", "children": [
+        { "label": "Urfolk" },
+        { "label": "Ulikhet" },
+        { "label": "Migrasjon" },
+        { "label": "Amazonas" }
+      ] },
+      { "label": "Meninger", "children": [
+        { "label": "En mi opinión" },
+        { "label": "a favor / en contra" },
+        { "label": "por un lado …" }
+      ] },
+      { "label": "Subjuntivo", "children": [
+        { "label": "Quiero que …" },
+        { "label": "Espero que …" },
+        { "label": "No creo que …" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Spansk er offisielt språk i Ekvatorial-Guinea i Afrika.", "correct": true, "explain": "Landet var tidligere en spansk koloni." },
+      { "id": "m02", "type": "sant-usant", "text": "Spania er en republikk uten konge.", "correct": false, "explain": "Spania er et konstitusjonelt monarki." },
+      { "id": "m03", "type": "sant-usant", "text": "«Espero que» etterfølges av subjuntivo.", "correct": true, "explain": "Espero que tengas un buen día." },
+      { "id": "m04", "type": "sant-usant", "text": "Alle i Latin-Amerika har samme kulturelle bakgrunn.", "correct": false, "explain": "Latin-Amerika er preget av stort mangfold." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er subjuntivo av «ser» i yo-form?", "options": ["soy", "sea", "sería", "fuera"], "correct": 1, "explain": "ser er uregelmessig: sea." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilket urfolk er knyttet til Andesfjellene?", "options": ["Quechua", "Samer", "Maori", "Inuitter"], "correct": 0, "explain": "Quechua er også et levende språk." },
+      { "id": "m07", "type": "flervalg", "text": "Hva betyr «sin embargo»?", "options": ["dessuten", "derfor", "likevel", "først"], "correct": 2, "explain": "Brukes for å vise motsetning." }
+    ]
+  },
+  "kvalitet": { "status": "sjekkes", "merknader": ["Sjekk tallet på spansktalende (rundt 500 millioner morsmålsbrukere) og antall land med spansk som offisielt språk."] }
+}

@@ -1,0 +1,352 @@
+{
+  "id": "skole-og-arbeid",
+  "fagId": "spansk-vg1",
+  "trinnId": "vg1",
+  "name": "Skole, utdanning og framtid",
+  "intro": "Skolesystemet i Spania, ungdom og arbeid, jobbsøknad og intervju, og hvordan du snakker om framtiden med ir a, futuro simple og si-setninger på spansk.",
+  "kompetansemaal": [
+    1,
+    2,
+    5
+  ],
+  "sammendrag": "## Skolen i Spania\n\n- **Educación Primaria** – barneskolen, fra 6 til 12 år\n- **ESO** (*Educación Secundaria Obligatoria*) – obligatorisk ungdomsskole, fra 12 til 16 år\n- **Bachillerato** – to år med studieforberedende utdanning, eller **Formación Profesional** (FP) – yrkesfag\n- Etter bachillerato tar mange en **opptaksprøve** til universitetet.\n\nSpanske skoledager kan vare til midt på ettermiddagen, og **lunsjen** spises ofte senere enn i Norge. Karakterskalaen går fra **0 til 10**, der 5 er bestått.\n\n## Ungdom og arbeid\n\nSpania har i lange perioder hatt **høy arbeidsledighet blant unge**. Mange flytter til andre land for å jobbe, eller bor hjemme hos foreldrene lenge. Andre tar **deltidsjobber** i turisme og service.\n\n## Framtid med ir a\n\n**Ir a + infinitiv** brukes om planer og det som skal skje snart:\n*Voy a estudiar medicina.* – Jeg skal studere medisin.\n\n## Futuro simple\n\n**Futuro simple** lages ved å legge endelser til **infinitiven**:\n\n| | trabajar |\n| --- | --- |\n| yo | trabajar**é** |\n| tú | trabajar**ás** |\n| él/ella/usted | trabajar**á** |\n| nosotros | trabajar**emos** |\n| vosotros | trabajar**éis** |\n| ellos/ustedes | trabajar**án** |\n\n**Uregelmessige stammer**: *tener → **tendr**é*, *hacer → **har**é*, *poder → **podr**é*, *salir → **saldr**é*, *decir → **dir**é*, *venir → **vendr**é*, *saber → **sabr**é*.\n\n*En el futuro **viviré** en Madrid y **tendré** un perro.*\n\n## Si-setninger\n\n**Si + presens → futuro**: *Si apruebo el examen, **iré** a la universidad.* – Hvis jeg består eksamen, skal jeg gå på universitetet.\n\n## Jobb og søknad\n\n- *las prácticas* (praksisplass), *un trabajo de verano* (sommerjobb), *el sueldo* (lønnen)\n- *el currículum*, *la carta de presentación* (søknadsbrevet), *la entrevista de trabajo* (jobbintervjuet)\n\nFormell hilsen: **Estimado/a señor/a:** – legg merke til **kolon** etter hilsenen på spansk. Avslutning: **Atentamente** eller **Un cordial saludo**.\n\n*Me gustaría trabajar en su empresa porque …* – Jeg vil gjerne jobbe i bedriften deres fordi …\n\n## Yrker\n\n*el médico / la médica*, *el enfermero / la enfermera*, *el abogado / la abogada*, *el ingeniero / la ingeniera*, *el/la periodista*. Etter **ser** står yrket **uten artikkel**: *Mi madre es enfermera.*",
+  "flashcards": [
+    {
+      "term": "la ESO",
+      "def": "obligatorisk ungdomsskole i Spania (12–16 år)"
+    },
+    {
+      "term": "el bachillerato",
+      "def": "to år studieforberedende utdanning"
+    },
+    {
+      "term": "la Formación Profesional (FP)",
+      "def": "yrkesfaglig utdanning"
+    },
+    {
+      "term": "Voy a estudiar …",
+      "def": "Jeg skal studere … (ir a + infinitiv)"
+    },
+    {
+      "term": "trabajaré",
+      "def": "jeg skal/vil jobbe (futuro)"
+    },
+    {
+      "term": "tendré",
+      "def": "jeg skal/vil ha"
+    },
+    {
+      "term": "haré",
+      "def": "jeg skal/vil gjøre"
+    },
+    {
+      "term": "podré",
+      "def": "jeg vil kunne"
+    },
+    {
+      "term": "Si apruebo, iré …",
+      "def": "Hvis jeg består, skal jeg dra …"
+    },
+    {
+      "term": "las prácticas",
+      "def": "praksisplassen"
+    },
+    {
+      "term": "el sueldo",
+      "def": "lønnen"
+    },
+    {
+      "term": "la carta de presentación",
+      "def": "søknadsbrevet"
+    },
+    {
+      "term": "la entrevista de trabajo",
+      "def": "jobbintervjuet"
+    },
+    {
+      "term": "Estimado/a señor/a:",
+      "def": "formell hilsen"
+    },
+    {
+      "term": "Atentamente",
+      "def": "Med vennlig hilsen (formelt)"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hva er ESO?",
+      "options": [
+        "Universitetet",
+        "Obligatorisk ungdomsskole i Spania",
+        "Barneskolen",
+        "Yrkesskolen"
+      ],
+      "correct": 1,
+      "explain": "ESO er for elever fra 12 til 16 år."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er futuro av «tener» i jeg-form?",
+      "options": [
+        "tendré",
+        "teneré",
+        "tengo",
+        "tuve"
+      ],
+      "correct": 0,
+      "explain": "tener har stammen tendr-."
+    },
+    {
+      "id": "q03",
+      "text": "Hvordan sier du «Jeg skal studere medisin» med ir a?",
+      "options": [
+        "Voy estudiar medicina.",
+        "Voy de estudiar medicina.",
+        "Voy a estudiar medicina.",
+        "Iré a estudio medicina."
+      ],
+      "correct": 2,
+      "explain": "ir a + infinitiv."
+    },
+    {
+      "id": "q04",
+      "text": "Velg riktig: «Si tengo dinero, ___ a México.»",
+      "options": [
+        "iba",
+        "iría",
+        "fui",
+        "iré"
+      ],
+      "correct": 3,
+      "explain": "si + presens → futuro."
+    },
+    {
+      "id": "q05",
+      "text": "Hva betyr «el sueldo»?",
+      "options": [
+        "lønnen",
+        "sola",
+        "bakken",
+        "søknaden"
+      ],
+      "correct": 0,
+      "explain": "Også «el salario»."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er futuro av «hacer» i jeg-form?",
+      "options": [
+        "haceré",
+        "haré",
+        "hice",
+        "hago"
+      ],
+      "correct": 1,
+      "explain": "hacer har stammen har-."
+    },
+    {
+      "id": "q07",
+      "text": "Hvilket tegn står etter hilsenen i et formelt spansk brev?",
+      "options": [
+        "Komma",
+        "Utropstegn",
+        "Kolon",
+        "Punktum"
+      ],
+      "correct": 2,
+      "explain": "Estimado señor:"
+    },
+    {
+      "id": "q08",
+      "text": "Hvordan sier du «Moren min er sykepleier»?",
+      "options": [
+        "Mi madre está enfermera.",
+        "Mi madre es una la enfermera.",
+        "Mi madre tiene enfermera.",
+        "Mi madre es enfermera."
+      ],
+      "correct": 3,
+      "explain": "ser + yrke uten artikkel."
+    },
+    {
+      "id": "q09",
+      "text": "Hvilken karakter er bestått i spanske skoler?",
+      "options": [
+        "5 av 10",
+        "2 av 6",
+        "D",
+        "50 av 100"
+      ],
+      "correct": 0,
+      "explain": "Skalaen går fra 0 til 10."
+    },
+    {
+      "id": "q10",
+      "text": "Hva betyr «la entrevista de trabajo»?",
+      "options": [
+        "arbeidsdagen",
+        "jobbintervjuet",
+        "arbeidskontrakten",
+        "arbeidsplassen"
+      ],
+      "correct": 1,
+      "explain": "Man blir invitert etter søknaden."
+    }
+  ],
+  "mindmap": {
+    "label": "Skole og framtid",
+    "children": [
+      {
+        "label": "Skolen",
+        "children": [
+          {
+            "label": "Primaria"
+          },
+          {
+            "label": "ESO"
+          },
+          {
+            "label": "Bachillerato og FP"
+          }
+        ]
+      },
+      {
+        "label": "Ungdom og arbeid",
+        "children": [
+          {
+            "label": "Arbeidsledighet"
+          },
+          {
+            "label": "Deltidsjobber"
+          }
+        ]
+      },
+      {
+        "label": "Framtid",
+        "children": [
+          {
+            "label": "ir a + infinitiv"
+          },
+          {
+            "label": "futuro simple"
+          },
+          {
+            "label": "tendré, haré, podré"
+          }
+        ]
+      },
+      {
+        "label": "Si-setninger",
+        "children": [
+          {
+            "label": "si + presens"
+          },
+          {
+            "label": "→ futuro"
+          }
+        ]
+      },
+      {
+        "label": "Søknad",
+        "children": [
+          {
+            "label": "currículum"
+          },
+          {
+            "label": "carta de presentación"
+          },
+          {
+            "label": "Estimado señor:"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Futuro simple lages ved å legge endelser til infinitiven.",
+        "correct": true,
+        "explain": "trabajar → trabajaré."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Spania har alltid hatt svært lav arbeidsledighet blant unge.",
+        "correct": false,
+        "explain": "Spania har i lange perioder hatt høy ungdomsledighet."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "«Atentamente» er en formell avslutning.",
+        "correct": true,
+        "explain": "Brukes i brev og e-poster."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Etter «si» bruker man futuro i samme ledd.",
+        "correct": false,
+        "explain": "Etter si bruker man presens: Si tengo tiempo …"
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er futuro av «poder» i vi-form?",
+        "options": [
+          "poderemos",
+          "podremos",
+          "podemos",
+          "pudimos"
+        ],
+        "correct": 1,
+        "explain": "poder har stammen podr-."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva betyr «las prácticas»?",
+        "options": [
+          "praksisplassen",
+          "treningen",
+          "prøvene",
+          "lekser"
+        ],
+        "correct": 0,
+        "explain": "Hacer prácticas en una empresa."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva betyr «Voy a salir esta noche»?",
+        "options": [
+          "Jeg gikk ut i går kveld.",
+          "Jeg går ut hver kveld.",
+          "Jeg skal gå ut i kveld.",
+          "Jeg ville gått ut i kveld."
+        ],
+        "correct": 2,
+        "explain": "ir a + infinitiv om planer."
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "id": "kunst-og-kultur",
+  "fagId": "spansk-vg1",
+  "trinnId": "vg1",
+  "name": "Litteratur, kunst, musikk og film",
+  "intro": "Kjente kunstnere og verk fra den spansktalende verden – Don Quijote, Velázquez, Picasso, Frida Kahlo, García Márquez, flamenco, tango og latinsk musikk – og hvordan du bruker condicional til ønsker og hypotetiske situasjoner.",
+  "kompetansemaal": [9, 3],
+  "sammendrag": "## Litteratur\n\n- **Miguel de Cervantes** skrev **Don Quijote** (første del **1605**), om en adelsmann som har lest så mange ridderromaner at han selv drar ut som ridder – sammen med den praktiske væpneren **Sancho Panza**. Den regnes ofte som den første moderne romanen. Uttrykket «å kjempe mot vindmøller» kommer fra denne boka.\n- **Gabriel García Márquez** fra Colombia skrev **Hundre års ensomhet** (*Cien años de soledad*, **1967**), et hovedverk innen **magisk realisme**, der det overnaturlige beskrives som en del av hverdagen. Han fikk **Nobelprisen** i **1982**.\n- Andre kjente forfattere er **Isabel Allende** (Chile) og **Pablo Neruda** (Chile), som skrev kjærlighetsdikt og politisk poesi.\n\n## Kunst\n\n- **Diego Velázquez** malte **Las Meninas** (1656), et av verdens mest analyserte malerier, som leker med hvem som ser på hvem.\n- **Pablo Picasso** var med på å skape **kubismen**. **Guernica** (1937) viser bombingen av den baskiske byen under borgerkrigen og er et av de sterkeste antikrigsbildene som finnes.\n- **Salvador Dalí** er kjent for **surrealistiske** malerier med smeltende klokker.\n- **Frida Kahlo** fra Mexico malte mange **selvportretter** om smerte, identitet og meksikansk kultur.\n\n## Musikk og dans\n\n- **Flamenco** fra Andalucía kombinerer sang, gitar og dans og står på UNESCOs liste over **immateriell kulturarv**.\n- **Tango** oppsto i **Buenos Aires** og Montevideo.\n- **Salsa**, **cumbia** og **reggaetón** er populære latinamerikanske sjangre. Artister som **Shakira** og **Bad Bunny** har gjort spanskspråklig musikk populær over hele verden.\n\n## Film\n\n**Pedro Almodóvar** er Spanias mest kjente filmregissør, med fargerike filmer om familie, kjærlighet og identitet. Mexico har regissører som **Guillermo del Toro** og **Alfonso Cuarón**, som begge har vunnet Oscar.\n\n## Condicional – ønsker og høflighet\n\n**Condicional** lages ved å legge **-ía**-endelser til infinitiven: *hablar → hablar**ía***, *comer → comer**ía***. Uregelmessige stammer er de samme som i futuro: *tener → **tendr**ía*, *hacer → **har**ía*, *poder → **podr**ía*.\n\n- *Me **gustaría** visitar México.* – Jeg skulle gjerne besøkt Mexico.\n- ***Podría** ayudarme?* – Kunne De hjelpe meg?\n- *Sería genial.* – Det ville vært kjempebra.\n\n## Å snakke om egne opplevelser\n\n- *Me ha gustado mucho la película porque …*\n- *Esta canción me recuerda a …* – Denne sangen minner meg om …\n- *Lo que más me gusta es …* – Det jeg liker best, er …",
+  "flashcards": [
+    { "term": "Don Quijote", "def": "roman av Cervantes (1605), ofte kalt den første moderne romanen" },
+    { "term": "Sancho Panza", "def": "Don Quijotes praktiske væpner" },
+    { "term": "Cien años de soledad", "def": "Hundre års ensomhet (1967) av García Márquez" },
+    { "term": "el realismo mágico", "def": "magisk realisme – det overnaturlige som en del av hverdagen" },
+    { "term": "Las Meninas", "def": "maleri av Velázquez (1656)" },
+    { "term": "Guernica", "def": "Picassos antikrigsmaleri fra 1937" },
+    { "term": "el cubismo", "def": "kubismen – kunstretning Picasso var med på å skape" },
+    { "term": "Frida Kahlo", "def": "meksikansk kunstner kjent for selvportretter" },
+    { "term": "el flamenco", "def": "sang, gitar og dans fra Andalucía" },
+    { "term": "el tango", "def": "dans og musikk fra Buenos Aires og Montevideo" },
+    { "term": "Pedro Almodóvar", "def": "Spanias mest kjente filmregissør" },
+    { "term": "Me gustaría …", "def": "Jeg skulle gjerne …" },
+    { "term": "¿Podría ayudarme?", "def": "Kunne De hjelpe meg?" },
+    { "term": "Sería genial.", "def": "Det ville vært kjempebra." },
+    { "term": "Esta canción me recuerda a …", "def": "Denne sangen minner meg om …" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvem skrev «Don Quijote»?", "options": ["García Márquez", "Miguel de Cervantes", "Pablo Neruda", "Isabel Allende"], "correct": 1, "explain": "Første del kom i 1605." },
+    { "id": "q02", "text": "Hva viser Picassos «Guernica»?", "options": ["Bombingen av en baskisk by under borgerkrigen", "Et landskap i Andalucía", "Et portrett av kongen", "En flamencodanser"], "correct": 0, "explain": "Maleriet er fra 1937." },
+    { "id": "q03", "text": "Hva er magisk realisme?", "options": ["Kunst om magikere", "Fantasy med drager", "Litteratur der det overnaturlige beskrives som en del av hverdagen", "Realistiske malerier"], "correct": 2, "explain": "Hundre års ensomhet er et hovedverk." },
+    { "id": "q04", "text": "Hvor oppsto tangoen?", "options": ["Madrid", "Mexico by", "Havanna", "Buenos Aires og Montevideo"], "correct": 3, "explain": "Tango er knyttet til Argentina og Uruguay." },
+    { "id": "q05", "text": "Hva betyr «Me gustaría visitar México»?", "options": ["Jeg skulle gjerne besøkt Mexico.", "Jeg besøkte Mexico.", "Jeg liker Mexico.", "Jeg skal besøke Mexico."], "correct": 0, "explain": "Condicional uttrykker ønske." },
+    { "id": "q06", "text": "Hvem malte mange selvportretter om smerte og identitet?", "options": ["Salvador Dalí", "Frida Kahlo", "Velázquez", "Picasso"], "correct": 1, "explain": "Frida Kahlo var fra Mexico." },
+    { "id": "q07", "text": "Hva er condicional av «poder» i usted-form?", "options": ["puede", "pudo", "podría", "poderá"], "correct": 2, "explain": "poder har stammen podr- + -ía." },
+    { "id": "q08", "text": "Hvor kommer flamencoen fra?", "options": ["Catalonia", "Galicia", "Baskerland", "Andalucía"], "correct": 3, "explain": "Flamenco er på UNESCOs liste over immateriell kulturarv." },
+    { "id": "q09", "text": "Hvilken kunstretning var Picasso med på å skape?", "options": ["Kubismen", "Impresjonismen", "Surrealismen", "Romantikken"], "correct": 0, "explain": "Dalí er kjent for surrealismen." },
+    { "id": "q10", "text": "Hvilket år fikk García Márquez Nobelprisen i litteratur?", "options": ["1967", "1982", "1605", "2010"], "correct": 1, "explain": "Hundre års ensomhet kom i 1967." }
+  ],
+  "mindmap": {
+    "label": "Kunst og kultur",
+    "children": [
+      { "label": "Litteratur", "children": [
+        { "label": "Don Quijote" },
+        { "label": "García Márquez" },
+        { "label": "Neruda og Allende" }
+      ] },
+      { "label": "Kunst", "children": [
+        { "label": "Velázquez" },
+        { "label": "Picasso: Guernica" },
+        { "label": "Dalí og Kahlo" }
+      ] },
+      { "label": "Musikk og dans", "children": [
+        { "label": "Flamenco" },
+        { "label": "Tango" },
+        { "label": "Reggaetón" }
+      ] },
+      { "label": "Film", "children": [
+        { "label": "Almodóvar" },
+        { "label": "del Toro og Cuarón" }
+      ] },
+      { "label": "Condicional", "children": [
+        { "label": "me gustaría" },
+        { "label": "podría" },
+        { "label": "sería" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Uttrykket «å kjempe mot vindmøller» kommer fra Don Quijote.", "correct": true, "explain": "Don Quijote tror vindmøllene er kjemper." },
+      { "id": "m02", "type": "sant-usant", "text": "Frida Kahlo var fra Spania.", "correct": false, "explain": "Frida Kahlo var fra Mexico." },
+      { "id": "m03", "type": "sant-usant", "text": "Condicional og futuro har de samme uregelmessige stammene.", "correct": true, "explain": "tendré – tendría, haré – haría." },
+      { "id": "m04", "type": "sant-usant", "text": "Salvador Dalí er kjent for kubistiske malerier med smeltende klokker.", "correct": false, "explain": "Dalí var surrealist." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er condicional av «hacer» i yo-form?", "options": ["hacería", "haría", "hice", "hago"], "correct": 1, "explain": "hacer har stammen har-." },
+      { "id": "m06", "type": "flervalg", "text": "Hvem malte «Las Meninas»?", "options": ["Velázquez", "Goya", "Picasso", "Dalí"], "correct": 0, "explain": "Maleriet er fra 1656." },
+      { "id": "m07", "type": "flervalg", "text": "Hva betyr «Esta canción me recuerda a mi abuela»?", "options": ["Bestemor liker denne sangen.", "Denne sangen handler om bestemor.", "Denne sangen minner meg om bestemoren min.", "Jeg sang denne sangen for bestemor."], "correct": 2, "explain": "recordar a = minne om." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
