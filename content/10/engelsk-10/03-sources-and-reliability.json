@@ -1,0 +1,364 @@
+{
+  "id": "sources-and-reliability",
+  "fagId": "engelsk-10",
+  "trinnId": "10",
+  "name": "Sources and reliability",
+  "intro": "How to evaluate English-language sources, recognise fake news and bias, and quote, paraphrase and reference sources correctly in your own texts.",
+  "kompetansemaal": [
+    12,
+    13,
+    10
+  ],
+  "sammendrag": "## Why evaluate sources?\n\nWhen you search for information in English, you get millions of results. Some are written by experts, some by companies that want to sell something, and some by people who spread false information on purpose. Being **source-critical** means asking questions before you trust and use what you read.\n\n## Questions to ask\n\nA simple checklist is the **5 W's of source evaluation**:\n\n- **Who** wrote it? Is the author or organisation an expert? Can you find out who they are?\n- **What** is the purpose? To inform, to entertain, to persuade or to sell?\n- **When** was it published or updated? Is the information still current?\n- **Where** is it published? A well-known newspaper, a government site, a research institution or an anonymous blog?\n- **Why** should you trust it? Does it give evidence and sources, and do other reliable sources say the same?\n\n## Fake news, bias and clickbait\n\n**Fake news** is false information presented as real news, often spread on social media. Warning signs include shocking headlines, no named author, no sources, poor language and websites that imitate real newspapers.\n\n**Bias** means presenting information in a one-sided way. A text can be biased without being false, for example by only including facts that support one side. **Clickbait** uses exaggerated headlines to make you click.\n\nA useful method is **lateral reading**: instead of reading one site carefully, open new tabs and check what other sources say about the site and the claim. **Fact-checking** sites can also help.\n\n## Using sources in your text\n\n- **Quoting**: using someone's exact words in quotation marks, with a reference: As the report states, “…”.\n- **Paraphrasing**: expressing someone's ideas in your own words. You must still give the source.\n- **Summarising**: giving the main points of a longer text briefly.\n\nIntroduce sources with **signal phrases**: According to…, As … points out, … argues that…\n\n## References\n\nAt the end of your text, include a **list of references** with author, title, date and URL (and the date you accessed it). Follow one style and be **consistent**. Presenting other people's work as your own is **plagiarism**, which is a serious form of cheating.\n\n## AI tools\n\nAI chatbots can be useful for ideas and language help, but they can produce convincing text that is wrong, and even invent sources. Always check facts in reliable sources, and be open about how you have used AI.",
+  "flashcards": [
+    {
+      "term": "Source-critical",
+      "def": "Asking questions about a source before trusting and using it."
+    },
+    {
+      "term": "Who, what, when, where, why",
+      "def": "Five questions for evaluating a source."
+    },
+    {
+      "term": "Purpose",
+      "def": "Why a text was made: to inform, entertain, persuade or sell."
+    },
+    {
+      "term": "Fake news",
+      "def": "False information presented as real news."
+    },
+    {
+      "term": "Bias",
+      "def": "A one-sided presentation of information."
+    },
+    {
+      "term": "Clickbait",
+      "def": "Exaggerated headlines designed to make you click."
+    },
+    {
+      "term": "Lateral reading",
+      "def": "Checking what other sources say about a website or claim, in new tabs."
+    },
+    {
+      "term": "Fact-checking",
+      "def": "Checking whether a claim is true, often using specialised sites."
+    },
+    {
+      "term": "Quoting",
+      "def": "Using someone's exact words in quotation marks, with a reference."
+    },
+    {
+      "term": "Paraphrasing",
+      "def": "Expressing someone's ideas in your own words, still with a reference."
+    },
+    {
+      "term": "Summarising",
+      "def": "Giving the main points of a longer text briefly."
+    },
+    {
+      "term": "Signal phrase",
+      "def": "Words that introduce a source: According to…, As … argues…"
+    },
+    {
+      "term": "List of references",
+      "def": "A list of all sources used, with author, title, date and URL."
+    },
+    {
+      "term": "Plagiarism",
+      "def": "Presenting someone else's work or ideas as your own."
+    },
+    {
+      "term": "AI and sources",
+      "def": "AI tools can invent facts and sources. Always check and be open about your use."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Which question helps you find out if a source is current?",
+      "options": [
+        "Who wrote it?",
+        "When was it published or updated?",
+        "Why was it written?",
+        "Where is it published?"
+      ],
+      "correct": 1,
+      "explain": "The date tells you whether the information might be outdated."
+    },
+    {
+      "id": "q02",
+      "text": "What is bias?",
+      "options": [
+        "A spelling mistake",
+        "A one-sided presentation of information",
+        "A reference list",
+        "A type of website"
+      ],
+      "correct": 1,
+      "explain": "A biased text may leave out information that does not support its view."
+    },
+    {
+      "id": "q03",
+      "text": "Which is a warning sign of fake news?",
+      "options": [
+        "A named expert author",
+        "Links to research",
+        "A shocking headline and no sources",
+        "A recent date"
+      ],
+      "correct": 2,
+      "explain": "Sensational headlines without sources are typical of fake news."
+    },
+    {
+      "id": "q04",
+      "text": "What is paraphrasing?",
+      "options": [
+        "Copying a text word for word",
+        "Writing a reference list",
+        "Deleting sources",
+        "Expressing someone's ideas in your own words"
+      ],
+      "correct": 3,
+      "explain": "Paraphrasing uses your own words, but you must still give the source."
+    },
+    {
+      "id": "q05",
+      "text": "What is lateral reading?",
+      "options": [
+        "Checking what other sources say about a site or claim",
+        "Reading from left to right",
+        "Reading only the headline",
+        "Reading very slowly"
+      ],
+      "correct": 0,
+      "explain": "Fact-checkers often leave a site quickly to see what others say about it."
+    },
+    {
+      "id": "q06",
+      "text": "Which is a signal phrase?",
+      "options": [
+        "Once upon a time",
+        "According to the World Health Organization,",
+        "Yours sincerely",
+        "The end"
+      ],
+      "correct": 1,
+      "explain": "“According to…” introduces a source in your text."
+    },
+    {
+      "id": "q07",
+      "text": "What is plagiarism?",
+      "options": [
+        "Using many sources",
+        "Quoting correctly",
+        "Presenting someone else's work as your own",
+        "Writing a summary"
+      ],
+      "correct": 2,
+      "explain": "Plagiarism is a serious form of cheating."
+    },
+    {
+      "id": "q08",
+      "text": "Why should you check facts from an AI chatbot?",
+      "options": [
+        "Because AI is always right",
+        "Because AI only writes in Norwegian",
+        "Because it is forbidden to use AI",
+        "Because AI can produce convincing text that is wrong"
+      ],
+      "correct": 3,
+      "explain": "AI tools can make mistakes and even invent sources."
+    },
+    {
+      "id": "q09",
+      "text": "What is clickbait?",
+      "options": [
+        "A fishing tool",
+        "A headline designed to make you click, often exaggerated",
+        "A reliable news source",
+        "A type of reference"
+      ],
+      "correct": 1,
+      "explain": "Clickbait often promises more than the article delivers."
+    },
+    {
+      "id": "q10",
+      "text": "What should a reference list include for a web page?",
+      "options": [
+        "Only the URL",
+        "Only the title",
+        "Author, title, date and URL",
+        "Only your opinion of the page"
+      ],
+      "correct": 2,
+      "explain": "Enough information for the reader to find and check the source."
+    }
+  ],
+  "mindmap": {
+    "label": "Sources and reliability",
+    "children": [
+      {
+        "label": "Evaluate",
+        "children": [
+          {
+            "label": "Who?"
+          },
+          {
+            "label": "What purpose?"
+          },
+          {
+            "label": "When?"
+          },
+          {
+            "label": "Where?"
+          },
+          {
+            "label": "Why trust it?"
+          }
+        ]
+      },
+      {
+        "label": "Watch out",
+        "children": [
+          {
+            "label": "Fake news"
+          },
+          {
+            "label": "Bias"
+          },
+          {
+            "label": "Clickbait"
+          }
+        ]
+      },
+      {
+        "label": "Methods",
+        "children": [
+          {
+            "label": "Lateral reading"
+          },
+          {
+            "label": "Fact-checking"
+          }
+        ]
+      },
+      {
+        "label": "Using sources",
+        "children": [
+          {
+            "label": "Quote"
+          },
+          {
+            "label": "Paraphrase"
+          },
+          {
+            "label": "Summarise"
+          },
+          {
+            "label": "Signal phrases"
+          }
+        ]
+      },
+      {
+        "label": "Honesty",
+        "children": [
+          {
+            "label": "List of references"
+          },
+          {
+            "label": "No plagiarism"
+          },
+          {
+            "label": "Be open about AI"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q10"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "A text can be biased even if all the facts in it are true.",
+        "correct": true,
+        "explain": "Bias can come from what is left out or how facts are presented."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "You do not need to give a source when you paraphrase.",
+        "correct": false,
+        "explain": "Paraphrased ideas still come from someone else and need a reference."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "AI chatbots can invent sources that do not exist.",
+        "correct": true,
+        "explain": "This is why all facts and references from AI must be checked."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "An anonymous blog is always as reliable as a research institution.",
+        "correct": false,
+        "explain": "Without a known author and sources, it is hard to judge reliability."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "What is the purpose of an advertisement?",
+        "options": [
+          "To sell or persuade",
+          "To give neutral information",
+          "To report news",
+          "To entertain only"
+        ],
+        "correct": 0,
+        "explain": "Advertisements want you to buy something, so they present only the positive sides."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Which source is usually most reliable for health information?",
+        "options": [
+          "An anonymous forum post",
+          "A national health authority's website",
+          "A product advertisement",
+          "A meme"
+        ],
+        "correct": 1,
+        "explain": "Official health authorities base their information on research and expert review."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "What does summarising mean?",
+        "options": [
+          "Copying the whole text",
+          "Adding your own opinions only",
+          "Giving the main points of a text briefly",
+          "Translating a text"
+        ],
+        "correct": 2,
+        "explain": "A summary shortens a text to its key ideas."
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
+}

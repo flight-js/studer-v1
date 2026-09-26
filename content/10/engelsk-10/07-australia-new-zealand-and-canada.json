@@ -1,0 +1,356 @@
+{
+  "id": "australia-new-zealand-and-canada",
+  "fagId": "engelsk-10",
+  "trinnId": "10",
+  "name": "Australia, New Zealand and Canada",
+  "intro": "Three English-speaking countries with British roots – their geography, history, indigenous peoples, languages and multicultural societies.",
+  "kompetansemaal": [
+    18,
+    17,
+    16
+  ],
+  "sammendrag": "## Three former British colonies\n\n**Australia**, **New Zealand** and **Canada** were all colonised by Britain and are today independent democracies. They are members of the **Commonwealth**, an association of countries mostly with historical ties to Britain, and the British monarch is still their formal head of state. In practice, they are governed by their own elected parliaments and prime ministers.\n\n## Australia\n\nAustralia is both a country and a continent. The capital is **Canberra**, while the largest cities are **Sydney** and **Melbourne**. Most people live along the coast, while much of the interior – the **outback** – is dry and sparsely populated. The British established a penal colony in 1788, and the colonies joined together as the **Commonwealth of Australia** in **1901**.\n\n**Aboriginal and Torres Strait Islander peoples** have lived in Australia for tens of thousands of years, making their cultures among the oldest continuous cultures in the world. Colonisation led to loss of land and the tragedy of the **Stolen Generations**. Today, Australia is highly multicultural, with many immigrants from Europe and Asia.\n\n## New Zealand\n\nNew Zealand consists of two main islands, the **North Island** and the **South Island**. The capital is **Wellington**, and the largest city is **Auckland**. The **Māori** arrived from Polynesia several hundred years before Europeans. The **Treaty of Waitangi** (1840) between the British Crown and Māori chiefs is seen as the country's founding document, though its interpretation has been disputed. **Te reo Māori** is an official language, and Māori culture, like the **haka**, is visible in national life. New Zealand was the first country to give women the right to vote in national elections, in **1893**.\n\n## Canada\n\nCanada is the second largest country in the world by area. The capital is **Ottawa**, and the largest city is **Toronto**. Canada has **ten provinces and three territories**, and became a self-governing country in **1867**. It is officially **bilingual**: English and **French** are both official languages, and French is the majority language in the province of **Quebec**. The indigenous peoples of Canada are the **First Nations**, the **Inuit** and the **Métis**. Canada is known for welcoming many immigrants and describes itself as a **cultural mosaic**.\n\n## Comparing the three\n\nAll three countries share a British colonial history, parliamentary democracy, a strong position for English and a history of injustice towards indigenous peoples. In recent decades, all three have worked, in different ways, with **reconciliation** and recognition of indigenous rights and languages.",
+  "flashcards": [
+    {
+      "term": "Commonwealth",
+      "def": "An association of countries mostly with historical ties to Britain."
+    },
+    {
+      "term": "Canberra",
+      "def": "The capital of Australia."
+    },
+    {
+      "term": "Outback",
+      "def": "The dry, sparsely populated interior of Australia."
+    },
+    {
+      "term": "1901 (Australia)",
+      "def": "The Australian colonies joined as the Commonwealth of Australia."
+    },
+    {
+      "term": "Aboriginal and Torres Strait Islander peoples",
+      "def": "Australia's indigenous peoples, with among the oldest continuous cultures in the world."
+    },
+    {
+      "term": "Wellington",
+      "def": "The capital of New Zealand."
+    },
+    {
+      "term": "Auckland",
+      "def": "The largest city in New Zealand."
+    },
+    {
+      "term": "Treaty of Waitangi",
+      "def": "1840 agreement between the British Crown and Māori chiefs."
+    },
+    {
+      "term": "Te reo Māori",
+      "def": "The Māori language, an official language of New Zealand."
+    },
+    {
+      "term": "1893 (New Zealand)",
+      "def": "First country to give women the vote in national elections."
+    },
+    {
+      "term": "Ottawa",
+      "def": "The capital of Canada."
+    },
+    {
+      "term": "Bilingual Canada",
+      "def": "English and French are both official languages."
+    },
+    {
+      "term": "Quebec",
+      "def": "Canadian province where French is the majority language."
+    },
+    {
+      "term": "First Nations, Inuit, Métis",
+      "def": "The indigenous peoples of Canada."
+    },
+    {
+      "term": "Cultural mosaic",
+      "def": "Canada's image of cultures living side by side."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "What is the capital of Australia?",
+      "options": [
+        "Sydney",
+        "Melbourne",
+        "Canberra",
+        "Perth"
+      ],
+      "correct": 2,
+      "explain": "Canberra is the capital. Sydney and Melbourne are the largest cities."
+    },
+    {
+      "id": "q02",
+      "text": "What is the capital of New Zealand?",
+      "options": [
+        "Wellington",
+        "Auckland",
+        "Christchurch",
+        "Sydney"
+      ],
+      "correct": 0,
+      "explain": "Wellington is the capital. Auckland is the largest city."
+    },
+    {
+      "id": "q03",
+      "text": "Which two languages are official in Canada?",
+      "options": [
+        "English and Spanish",
+        "English and Inuktitut only",
+        "French and German",
+        "English and French"
+      ],
+      "correct": 3,
+      "explain": "Canada is officially bilingual, with English and French."
+    },
+    {
+      "id": "q04",
+      "text": "What is the Commonwealth?",
+      "options": [
+        "A British bank",
+        "An association of countries mostly with historical ties to Britain",
+        "The Australian parliament",
+        "A sports competition only"
+      ],
+      "correct": 1,
+      "explain": "The Commonwealth includes many former British colonies."
+    },
+    {
+      "id": "q05",
+      "text": "What was special about New Zealand in 1893?",
+      "options": [
+        "It became independent",
+        "It became the first country to give women the vote in national elections",
+        "It joined the EU",
+        "It changed its capital"
+      ],
+      "correct": 1,
+      "explain": "New Zealand was the first self-governing country where women could vote in national elections."
+    },
+    {
+      "id": "q06",
+      "text": "In which Canadian province is French the majority language?",
+      "options": [
+        "Ontario",
+        "British Columbia",
+        "Alberta",
+        "Quebec"
+      ],
+      "correct": 3,
+      "explain": "Most people in Quebec speak French as their first language."
+    },
+    {
+      "id": "q07",
+      "text": "What is the Treaty of Waitangi?",
+      "options": [
+        "An 1840 agreement between the British Crown and Māori chiefs",
+        "Australia's constitution",
+        "A Canadian peace treaty",
+        "A sports trophy"
+      ],
+      "correct": 0,
+      "explain": "It is regarded as New Zealand's founding document."
+    },
+    {
+      "id": "q08",
+      "text": "What is the outback?",
+      "options": [
+        "Canada's northern islands",
+        "A New Zealand dance",
+        "The dry, sparsely populated interior of Australia",
+        "A British tradition"
+      ],
+      "correct": 2,
+      "explain": "Most Australians live along the coast, while the outback has few people."
+    },
+    {
+      "id": "q09",
+      "text": "Who are the indigenous peoples of Canada?",
+      "options": [
+        "The Māori",
+        "First Nations, Inuit and Métis",
+        "The Sámi",
+        "Aboriginal Australians"
+      ],
+      "correct": 1,
+      "explain": "Canada recognises three groups of indigenous peoples."
+    },
+    {
+      "id": "q10",
+      "text": "What do Australia, New Zealand and Canada have in common?",
+      "options": [
+        "They all have French as an official language",
+        "They were never colonised",
+        "They are all republics with presidents",
+        "They were British colonies and are now democracies in the Commonwealth"
+      ],
+      "correct": 3,
+      "explain": "All three share British colonial roots and parliamentary democracy."
+    }
+  ],
+  "mindmap": {
+    "label": "Australia, New Zealand and Canada",
+    "children": [
+      {
+        "label": "Australia",
+        "children": [
+          {
+            "label": "Canberra",
+            "note": "Capital"
+          },
+          {
+            "label": "Federation 1901"
+          },
+          {
+            "label": "Outback"
+          },
+          {
+            "label": "Aboriginal peoples"
+          }
+        ]
+      },
+      {
+        "label": "New Zealand",
+        "children": [
+          {
+            "label": "Wellington",
+            "note": "Capital"
+          },
+          {
+            "label": "Māori"
+          },
+          {
+            "label": "Treaty of Waitangi 1840"
+          },
+          {
+            "label": "Women's vote 1893"
+          }
+        ]
+      },
+      {
+        "label": "Canada",
+        "children": [
+          {
+            "label": "Ottawa",
+            "note": "Capital"
+          },
+          {
+            "label": "English and French"
+          },
+          {
+            "label": "Quebec"
+          },
+          {
+            "label": "First Nations, Inuit, Métis"
+          }
+        ]
+      },
+      {
+        "label": "In common",
+        "children": [
+          {
+            "label": "British colonies"
+          },
+          {
+            "label": "Commonwealth"
+          },
+          {
+            "label": "Reconciliation"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q09"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Sydney is the capital of Australia.",
+        "correct": false,
+        "explain": "Canberra is the capital. Sydney is the largest city."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Te reo Māori is an official language of New Zealand.",
+        "correct": true,
+        "explain": "The Māori language has official status."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Canada is the second largest country in the world by area.",
+        "correct": true,
+        "explain": "Only Russia is larger."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Aboriginal Australians arrived in Australia after the British.",
+        "correct": false,
+        "explain": "They have lived there for tens of thousands of years."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "What is the largest city in Canada?",
+        "options": [
+          "Ottawa",
+          "Montreal",
+          "Toronto",
+          "Vancouver"
+        ],
+        "correct": 2,
+        "explain": "Toronto is the largest city. Ottawa is the capital."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "What is the haka?",
+        "options": [
+          "A Canadian food",
+          "A traditional Māori dance",
+          "An Australian animal",
+          "A type of boat"
+        ],
+        "correct": 1,
+        "explain": "The haka is a Māori ceremonial dance, known for example from rugby matches."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "When did Canada become self-governing?",
+        "options": [
+          "1867",
+          "1776",
+          "1901",
+          "1945"
+        ],
+        "correct": 0,
+        "explain": "Canadian Confederation took place in 1867."
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
+}

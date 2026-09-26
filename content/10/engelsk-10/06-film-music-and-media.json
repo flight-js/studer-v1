@@ -1,0 +1,364 @@
+{
+  "id": "film-music-and-media",
+  "fagId": "engelsk-10",
+  "trinnId": "10",
+  "name": "Film, music and media",
+  "intro": "How to explore and talk about English-language films, series, songs and games – with film techniques, song analysis and writing reviews.",
+  "kompetansemaal": [
+    19,
+    10,
+    14
+  ],
+  "sammendrag": "## Culture you already know\n\nMost of the English you hear outside school comes from films, series, music, games, podcasts and social media. These are **cultural expressions**, and they can be explored just like literature. When you connect schoolwork to your own interests, you learn more – and you have more to say.\n\n## Talking about films and series\n\nFilms tell stories with images and sound. Useful terms:\n\n- **Genre**: drama, comedy, thriller, horror, science fiction, documentary.\n- **Plot**, **characters** and **setting**, as in literature.\n- **Camera shots**: a **close-up** shows emotions, a **long shot** shows the setting, and a **point-of-view shot** shows what a character sees.\n- **Camera angles**: a **low angle** makes a character look powerful, a **high angle** makes them look small or weak.\n- **Soundtrack** and **sound effects** create mood and tension.\n- **Lighting** and **colours**: dark lighting can create suspense, bright colours a happy mood.\n- **Editing**: fast cuts create energy, slow scenes create calm.\n\n## Analysing a song\n\nSongs are poems set to music. When you analyse a song, look at:\n\n- the **lyrics**: What is the song about? Who is the speaker?\n- **literary devices**: metaphors, repetition, rhyme and imagery,\n- the **chorus**, which is repeated and often carries the main message,\n- how the **music** – tempo, instruments, the singer's voice – supports the lyrics,\n- the **context**: when was it made, and what was happening in the world?\n\nProtest songs, for example, have been important in movements for civil rights and peace.\n\n## Games and other media\n\nVideo games tell stories too, often letting the player make choices that change the story. Podcasts and YouTube channels introduce you to different accents and topics. When you explore these, think about **who made them**, **for whom** and **why** – and how they present people and cultures.\n\n## Writing a review\n\nA **review** presents and evaluates a film, series, album or game. It usually includes:\n\n- a catchy **title** and an **introduction** with basic facts (title, director or artist, year, genre),\n- a short summary **without spoilers**,\n- your evaluation of acting, story, music, visuals or gameplay, with **examples**,\n- a **conclusion** with a recommendation, often with a rating.\n\nUse vivid adjectives: gripping, predictable, breathtaking, clichéd, hilarious, moving. Explain **why** you think something works or does not work.\n\n## Culture and diversity\n\nEnglish-language culture comes from many countries – not only the USA and the UK, but also Nigeria, India, Ireland, Australia, Jamaica and more. Exploring cultural expressions from different places shows you the variety of the English-speaking world.",
+  "flashcards": [
+    {
+      "term": "Cultural expression",
+      "def": "Films, music, art, games and other creative works that express culture."
+    },
+    {
+      "term": "Genre",
+      "def": "A category of film, music or literature: comedy, thriller, horror, documentary."
+    },
+    {
+      "term": "Close-up",
+      "def": "A camera shot showing a face or detail up close, often to show emotion."
+    },
+    {
+      "term": "Long shot",
+      "def": "A camera shot that shows the whole setting."
+    },
+    {
+      "term": "Point-of-view shot",
+      "def": "Shows what a character sees."
+    },
+    {
+      "term": "Low angle",
+      "def": "Camera looks up at a character, making them look powerful."
+    },
+    {
+      "term": "High angle",
+      "def": "Camera looks down at a character, making them look small or weak."
+    },
+    {
+      "term": "Soundtrack",
+      "def": "The music in a film, which creates mood and tension."
+    },
+    {
+      "term": "Editing",
+      "def": "How shots are put together. Fast cuts create energy."
+    },
+    {
+      "term": "Lyrics",
+      "def": "The words of a song."
+    },
+    {
+      "term": "Chorus",
+      "def": "The repeated part of a song, often carrying its main message."
+    },
+    {
+      "term": "Protest song",
+      "def": "A song that criticises injustice or supports a cause."
+    },
+    {
+      "term": "Review",
+      "def": "A text that presents and evaluates a film, album, book or game."
+    },
+    {
+      "term": "Gripping / predictable",
+      "def": "Adjectives for reviews: very exciting / easy to guess."
+    },
+    {
+      "term": "Rating",
+      "def": "A score, like stars, given at the end of a review."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "What does a close-up usually show?",
+      "options": [
+        "The whole landscape",
+        "A character's emotions or an important detail",
+        "The credits",
+        "The audience"
+      ],
+      "correct": 1,
+      "explain": "Close-ups bring us near a face or object so we notice feelings and details."
+    },
+    {
+      "id": "q02",
+      "text": "What effect does a low camera angle often have?",
+      "options": [
+        "The character looks powerful",
+        "The character looks weak",
+        "The scene looks funny",
+        "The scene becomes silent"
+      ],
+      "correct": 0,
+      "explain": "Looking up at someone makes them seem bigger and more powerful."
+    },
+    {
+      "id": "q03",
+      "text": "What is the chorus of a song?",
+      "options": [
+        "The first line",
+        "The instruments",
+        "The repeated part that often carries the main message",
+        "The singer's name"
+      ],
+      "correct": 2,
+      "explain": "The chorus is repeated, which makes its message stick."
+    },
+    {
+      "id": "q04",
+      "text": "What should a review include at the end?",
+      "options": [
+        "A spoiler",
+        "A list of all actors",
+        "The whole plot",
+        "A conclusion with a recommendation"
+      ],
+      "correct": 3,
+      "explain": "Readers want to know whether you recommend the film, album or game."
+    },
+    {
+      "id": "q05",
+      "text": "What does the soundtrack do in a film?",
+      "options": [
+        "Shows the setting",
+        "Creates mood and tension",
+        "Lists the actors",
+        "Translates the dialogue"
+      ],
+      "correct": 1,
+      "explain": "Music strongly affects how we feel during a scene."
+    },
+    {
+      "id": "q06",
+      "text": "Which adjective means “easy to guess” in a review?",
+      "options": [
+        "predictable",
+        "breathtaking",
+        "gripping",
+        "moving"
+      ],
+      "correct": 0,
+      "explain": "A predictable plot has no surprises."
+    },
+    {
+      "id": "q07",
+      "text": "What is a protest song?",
+      "options": [
+        "A love song",
+        "A song for children",
+        "A song that criticises injustice or supports a cause",
+        "A song without lyrics"
+      ],
+      "correct": 2,
+      "explain": "Protest songs have been important in movements for civil rights and peace."
+    },
+    {
+      "id": "q08",
+      "text": "Which shot shows the whole setting?",
+      "options": [
+        "Close-up",
+        "Long shot",
+        "Point-of-view shot",
+        "Extreme close-up"
+      ],
+      "correct": 1,
+      "explain": "A long shot shows characters in their surroundings."
+    },
+    {
+      "id": "q09",
+      "text": "Why is context important when analysing a song?",
+      "options": [
+        "It is not important",
+        "It tells you the song's length",
+        "It changes the lyrics",
+        "It helps explain what the song is reacting to"
+      ],
+      "correct": 3,
+      "explain": "Knowing when and why a song was made can explain its message."
+    },
+    {
+      "id": "q10",
+      "text": "What can fast editing create in a film?",
+      "options": [
+        "Calm and peace",
+        "Silence",
+        "Energy and tension",
+        "Longer scenes"
+      ],
+      "correct": 2,
+      "explain": "Quick cuts make action scenes feel intense and exciting."
+    }
+  ],
+  "mindmap": {
+    "label": "Film, music and media",
+    "children": [
+      {
+        "label": "Film",
+        "children": [
+          {
+            "label": "Genre"
+          },
+          {
+            "label": "Shots",
+            "note": "Close-up, long shot"
+          },
+          {
+            "label": "Angles",
+            "note": "Low, high"
+          },
+          {
+            "label": "Sound and lighting"
+          }
+        ]
+      },
+      {
+        "label": "Music",
+        "children": [
+          {
+            "label": "Lyrics"
+          },
+          {
+            "label": "Chorus"
+          },
+          {
+            "label": "Literary devices"
+          },
+          {
+            "label": "Context"
+          }
+        ]
+      },
+      {
+        "label": "Other media",
+        "children": [
+          {
+            "label": "Games",
+            "note": "Player choices"
+          },
+          {
+            "label": "Podcasts"
+          },
+          {
+            "label": "Who made it, and why?"
+          }
+        ]
+      },
+      {
+        "label": "Review",
+        "children": [
+          {
+            "label": "Facts and short summary"
+          },
+          {
+            "label": "No spoilers"
+          },
+          {
+            "label": "Evaluation with examples"
+          },
+          {
+            "label": "Recommendation"
+          }
+        ]
+      },
+      {
+        "label": "Diversity",
+        "children": [
+          {
+            "label": "Many English-speaking countries"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q08",
+      "q10"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "A high camera angle can make a character look small or weak.",
+        "correct": true,
+        "explain": "Looking down on a character makes them seem vulnerable."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Songs can be analysed using some of the same terms as poems.",
+        "correct": true,
+        "explain": "Lyrics use metaphors, rhyme and repetition, just like poems."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "A review should reveal the ending of the film.",
+        "correct": false,
+        "explain": "Reviews avoid spoilers so that readers can enjoy the film themselves."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "English-language culture comes only from the USA and the UK.",
+        "correct": false,
+        "explain": "Many countries, like Nigeria, India, Ireland and Jamaica, produce English-language culture."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Which word could describe a film that made you cry?",
+        "options": [
+          "moving",
+          "predictable",
+          "clichéd",
+          "boring"
+        ],
+        "correct": 0,
+        "explain": "“Moving” means that it touched your emotions."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "What is a point-of-view shot?",
+        "options": [
+          "A shot of the audience",
+          "A shot showing what a character sees",
+          "A shot from above",
+          "A shot of the credits"
+        ],
+        "correct": 1,
+        "explain": "It lets the viewer see through a character's eyes."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "What makes many video games different from films as storytelling?",
+        "options": [
+          "They have no characters",
+          "They never have music",
+          "The player can make choices that change the story",
+          "They are always silent"
+        ],
+        "correct": 2,
+        "explain": "Interactivity lets the player influence what happens."
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
+}

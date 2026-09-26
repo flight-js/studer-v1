@@ -1,0 +1,368 @@
+{
+  "id": "youth-literature",
+  "fagId": "engelsk-10",
+  "trinnId": "10",
+  "name": "Young adult literature",
+  "intro": "What young adult fiction is, typical genres and themes, some well-known English-language novels, and how to read, interpret and write about a novel.",
+  "kompetansemaal": [
+    11,
+    10,
+    18
+  ],
+  "sammendrag": "## What is young adult fiction?\n\n**Young adult fiction** (YA) is written mainly for readers between about 12 and 18, although many adults enjoy it too. The main characters are usually teenagers, and the stories deal with the challenges of growing up. YA books are often written in the **first person**, with a strong, personal voice that makes the reader feel close to the narrator.\n\n## Common themes\n\n- **Identity**: Who am I, and where do I belong?\n- **Friendship and first love**\n- **Family conflicts** and becoming independent\n- **Fitting in** and being an outsider\n- **Injustice**, racism and prejudice\n- **Mental health**, grief and loss\n\nMany YA novels are **coming-of-age stories** (sometimes called a *bildungsroman*), where the main character grows and changes through the story.\n\n## Genres\n\nYA includes **realistic fiction** about everyday life, **fantasy** with magic and other worlds, **science fiction**, and **dystopian fiction**, which shows a frightening future society, often with a teenager who fights against the system.\n\n## Some well-known novels\n\n- **The Catcher in the Rye** (1951) by J.D. Salinger – a teenager's alienation from the adult world.\n- **The Outsiders** (1967) by S.E. Hinton, written when she was a teenager herself – rival gangs and loyalty.\n- **The Curious Incident of the Dog in the Night-Time** (2003) by Mark Haddon – told by a boy who sees the world in his own way.\n- **The Hunger Games** (2008) by Suzanne Collins – a dystopian story about power and survival.\n- **Wonder** (2012) by R.J. Palacio – a boy with a facial difference starts school.\n- **The Hate U Give** (2017) by Angie Thomas – a girl who witnesses police violence and finds her voice.\n\n## Reading a novel\n\nWhile reading, keep notes about the **characters** and how they change, the **setting**, the **narrator**, important **events** and **quotations** that stand out. Ask yourself what the book says about society and about growing up.\n\n## Writing about a novel\n\nA text about a novel, like a **book review** or an **analysis**, should include:\n\n- title, author, year and genre,\n- a short summary without spoilers (in a review) or with focus on key events (in an analysis),\n- discussion of characters, themes and language, with **quotations**,\n- your **personal response**: What did the book make you think or feel, and why?\n\nWrite in the **present tense** about the story, and connect the book to the world around you: How does it compare to your own life, or to other books and films you know?",
+  "flashcards": [
+    {
+      "term": "Young adult fiction (YA)",
+      "def": "Fiction written mainly for readers aged about 12–18, with teenage main characters."
+    },
+    {
+      "term": "Coming-of-age story",
+      "def": "A story where the main character grows up and changes."
+    },
+    {
+      "term": "Bildungsroman",
+      "def": "Another term for a coming-of-age novel."
+    },
+    {
+      "term": "Dystopian fiction",
+      "def": "Stories about a frightening, oppressive future society."
+    },
+    {
+      "term": "Realistic fiction",
+      "def": "Stories about everyday life that could really happen."
+    },
+    {
+      "term": "The Catcher in the Rye",
+      "def": "Novel by J.D. Salinger (1951) about a teenager's alienation."
+    },
+    {
+      "term": "The Outsiders",
+      "def": "Novel by S.E. Hinton (1967) about rival gangs and loyalty."
+    },
+    {
+      "term": "The Hunger Games",
+      "def": "Dystopian novel by Suzanne Collins (2008)."
+    },
+    {
+      "term": "Wonder",
+      "def": "Novel by R.J. Palacio (2012) about a boy with a facial difference starting school."
+    },
+    {
+      "term": "The Hate U Give",
+      "def": "Novel by Angie Thomas (2017) about racism and police violence."
+    },
+    {
+      "term": "First-person voice",
+      "def": "Common in YA; makes the reader feel close to the narrator."
+    },
+    {
+      "term": "Book review",
+      "def": "A text that presents a book and gives the writer's evaluation, without spoilers."
+    },
+    {
+      "term": "Spoiler",
+      "def": "Information that reveals important plot twists or the ending."
+    },
+    {
+      "term": "Personal response",
+      "def": "Your own reflection on what the book made you think or feel, and why."
+    },
+    {
+      "term": "Present tense",
+      "def": "Used when writing about what happens in a story."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "What is young adult fiction?",
+      "options": [
+        "Books only for adults",
+        "Fiction mainly for teenage readers, with teenage main characters",
+        "Non-fiction about youth",
+        "Picture books"
+      ],
+      "correct": 1,
+      "explain": "YA is aimed at readers of about 12–18, though many adults read it too."
+    },
+    {
+      "id": "q02",
+      "text": "What is a coming-of-age story?",
+      "options": [
+        "A story about old people",
+        "A story where the main character grows up and changes",
+        "A story about time travel",
+        "A story without characters"
+      ],
+      "correct": 1,
+      "explain": "The main character matures through experiences and challenges."
+    },
+    {
+      "id": "q03",
+      "text": "What is dystopian fiction?",
+      "options": [
+        "Stories about a perfect society",
+        "Love stories",
+        "Stories about a frightening, oppressive future society",
+        "Biographies"
+      ],
+      "correct": 2,
+      "explain": "Dystopias show societies with control, fear and injustice, like in The Hunger Games."
+    },
+    {
+      "id": "q04",
+      "text": "Who wrote The Hate U Give?",
+      "options": [
+        "Angie Thomas",
+        "Suzanne Collins",
+        "J.D. Salinger",
+        "Mark Haddon"
+      ],
+      "correct": 0,
+      "explain": "Angie Thomas published the novel in 2017."
+    },
+    {
+      "id": "q05",
+      "text": "Why is the first-person voice common in YA?",
+      "options": [
+        "It is required",
+        "It makes the reader feel close to the narrator",
+        "It makes the book shorter",
+        "It hides the main character"
+      ],
+      "correct": 1,
+      "explain": "The personal “I” lets readers experience the character's thoughts and feelings directly."
+    },
+    {
+      "id": "q06",
+      "text": "What should a book review avoid?",
+      "options": [
+        "The title",
+        "The author",
+        "The writer's opinion",
+        "Spoilers that reveal the ending"
+      ],
+      "correct": 3,
+      "explain": "A review should make readers curious, not reveal the big surprises."
+    },
+    {
+      "id": "q07",
+      "text": "Which theme is common in YA literature?",
+      "options": [
+        "Retirement",
+        "Tax law",
+        "Identity and belonging",
+        "Gardening techniques"
+      ],
+      "correct": 2,
+      "explain": "Questions about who you are and where you belong are central in many YA books."
+    },
+    {
+      "id": "q08",
+      "text": "What is S.E. Hinton known for?",
+      "options": [
+        "Writing The Outsiders as a teenager",
+        "Writing Harry Potter",
+        "Writing The Hunger Games",
+        "Directing films"
+      ],
+      "correct": 0,
+      "explain": "Hinton wrote The Outsiders while she was still in high school; it was published in 1967."
+    },
+    {
+      "id": "q09",
+      "text": "Which tense should you use when you write about events in a novel?",
+      "options": [
+        "Future tense",
+        "Past perfect",
+        "Present tense",
+        "Any tense, mixed"
+      ],
+      "correct": 2,
+      "explain": "Literary texts are discussed in the present tense: “The narrator describes…”."
+    },
+    {
+      "id": "q10",
+      "text": "What is a personal response?",
+      "options": [
+        "A summary of the plot",
+        "Your own reflection on what the book made you think or feel",
+        "The author's biography",
+        "A list of characters"
+      ],
+      "correct": 1,
+      "explain": "A personal response connects the book to your own thoughts and experiences."
+    }
+  ],
+  "mindmap": {
+    "label": "Young adult literature",
+    "children": [
+      {
+        "label": "YA fiction",
+        "children": [
+          {
+            "label": "Teenage main characters"
+          },
+          {
+            "label": "First-person voice"
+          },
+          {
+            "label": "Coming-of-age"
+          }
+        ]
+      },
+      {
+        "label": "Themes",
+        "children": [
+          {
+            "label": "Identity"
+          },
+          {
+            "label": "Friendship and love"
+          },
+          {
+            "label": "Injustice"
+          },
+          {
+            "label": "Mental health"
+          }
+        ]
+      },
+      {
+        "label": "Genres",
+        "children": [
+          {
+            "label": "Realistic"
+          },
+          {
+            "label": "Fantasy"
+          },
+          {
+            "label": "Dystopian"
+          }
+        ]
+      },
+      {
+        "label": "Novels",
+        "children": [
+          {
+            "label": "The Outsiders",
+            "note": "1967"
+          },
+          {
+            "label": "The Hunger Games",
+            "note": "2008"
+          },
+          {
+            "label": "Wonder",
+            "note": "2012"
+          },
+          {
+            "label": "The Hate U Give",
+            "note": "2017"
+          }
+        ]
+      },
+      {
+        "label": "Writing",
+        "children": [
+          {
+            "label": "Review without spoilers"
+          },
+          {
+            "label": "Quotations"
+          },
+          {
+            "label": "Personal response"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q09"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Only teenagers read young adult fiction.",
+        "correct": false,
+        "explain": "Many adults also read and enjoy YA books."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "The Hunger Games is an example of dystopian fiction.",
+        "correct": true,
+        "explain": "It shows an oppressive future society where teenagers must fight to survive."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "A good book review includes the writer's evaluation of the book.",
+        "correct": true,
+        "explain": "A review tells the reader what you thought and why."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "The Catcher in the Rye was published in 2008.",
+        "correct": false,
+        "explain": "The Catcher in the Rye by J.D. Salinger was published in 1951."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Which novel is about a boy with a facial difference who starts school?",
+        "options": [
+          "The Outsiders",
+          "Wonder",
+          "The Hunger Games",
+          "The Catcher in the Rye"
+        ],
+        "correct": 1,
+        "explain": "Wonder by R.J. Palacio follows Auggie as he starts school."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "What is a spoiler?",
+        "options": [
+          "A bad review",
+          "Information that reveals important plot twists or the ending",
+          "A book cover",
+          "A genre"
+        ],
+        "correct": 1,
+        "explain": "Spoilers ruin the surprise for readers who have not read the book."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "What should you note while reading a novel?",
+        "options": [
+          "Only the page numbers",
+          "Characters, setting, events and striking quotations",
+          "The price of the book",
+          "Nothing, just read"
+        ],
+        "correct": 1,
+        "explain": "Notes make it much easier to write about the novel afterwards."
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
+}

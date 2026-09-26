@@ -1,0 +1,356 @@
+{
+  "id": "argumentative-writing",
+  "fagId": "engelsk-10",
+  "trinnId": "10",
+  "name": "Argumentative essays",
+  "intro": "How to write a clear argumentative essay in English: thesis statement, paragraph structure, evidence, counterarguments, linking words and revising.",
+  "kompetansemaal": [
+    14,
+    15,
+    5
+  ],
+  "sammendrag": "## What is an argumentative essay?\n\nAn **argumentative essay** takes a position on an issue and tries to convince the reader through logical arguments and evidence. Typical topics could be “Should mobile phones be banned in schools?” or “Should the voting age be lowered to 16?”. Your goal is not only to state your opinion, but to **support** it and show that you have considered other views.\n\n## Structure\n\nA classic essay has five parts, but it can be longer:\n\n- **Introduction**: Catch the reader's interest with a **hook** – a question, a surprising fact or a short example. Give some background and end with your **thesis statement**: one clear sentence that states your position.\n- **Body paragraphs**: Each paragraph presents **one argument**. Use the **PEEL** model: **P**oint (topic sentence), **E**vidence (facts, examples, statistics, quotes), **E**xplanation (why this supports your view) and **L**ink (back to the thesis or on to the next paragraph).\n- **Counterargument**: Present an opposing view fairly and then **refute** it: “Some argue that… However, …”. This makes your essay more convincing.\n- **Conclusion**: Sum up your main points and restate your thesis in new words. End with a final thought or a call to action. Do not add new arguments.\n\n## Language\n\nArgumentative essays are usually **formal**. Avoid slang and contractions, and use precise words. **Linking words** show how your ideas connect:\n\n- Adding: furthermore, moreover, in addition\n- Contrasting: however, on the other hand, nevertheless\n- Cause and effect: therefore, as a result, consequently\n- Giving examples: for instance, for example, such as\n- Concluding: in conclusion, to sum up, all in all\n\nUse hedging when needed: “This **may** lead to…”, “Studies **suggest** that…”. It shows that you are careful and fair.\n\n## Evidence and sources\n\nArguments are stronger with **evidence**. Use reliable sources, and tell the reader where your information comes from: “According to a report from the World Health Organization, …”. Avoid claims like “everybody knows” without support.\n\n## Revising\n\nWhen you revise, check that your thesis is clear, that each paragraph has one main point and a topic sentence, that you have evidence and explanations, and that your counterargument is answered. Finally, check grammar, spelling and punctuation. Use the **feedback** you get to improve your next essay.",
+  "flashcards": [
+    {
+      "term": "Argumentative essay",
+      "def": "An essay that takes a position and supports it with arguments and evidence."
+    },
+    {
+      "term": "Hook",
+      "def": "An opening that catches the reader's interest: a question, fact or example."
+    },
+    {
+      "term": "Thesis statement",
+      "def": "One clear sentence in the introduction that states your position."
+    },
+    {
+      "term": "Body paragraph",
+      "def": "A paragraph that presents one argument."
+    },
+    {
+      "term": "PEEL",
+      "def": "Point, Evidence, Explanation, Link – a model for body paragraphs."
+    },
+    {
+      "term": "Topic sentence",
+      "def": "The first sentence of a paragraph, stating its main point."
+    },
+    {
+      "term": "Evidence",
+      "def": "Facts, examples, statistics or quotes that support a point."
+    },
+    {
+      "term": "Counterargument",
+      "def": "An opposing view that you present fairly and then refute."
+    },
+    {
+      "term": "Refute",
+      "def": "To show that an argument is wrong or weaker than yours."
+    },
+    {
+      "term": "Conclusion",
+      "def": "Sums up the main points and restates the thesis without new arguments."
+    },
+    {
+      "term": "furthermore / moreover",
+      "def": "Linking words for adding a point."
+    },
+    {
+      "term": "however / nevertheless",
+      "def": "Linking words for contrast."
+    },
+    {
+      "term": "therefore / consequently",
+      "def": "Linking words for cause and effect."
+    },
+    {
+      "term": "Hedging",
+      "def": "Careful language like “may”, “suggest”, “it is likely that”."
+    },
+    {
+      "term": "Call to action",
+      "def": "An ending that encourages the reader to do or think something."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "What is a thesis statement?",
+      "options": [
+        "The title of the essay",
+        "One clear sentence that states your position",
+        "A list of sources",
+        "The last paragraph"
+      ],
+      "correct": 1,
+      "explain": "The thesis statement tells the reader exactly what you are going to argue."
+    },
+    {
+      "id": "q02",
+      "text": "What does the first “E” in PEEL stand for?",
+      "options": [
+        "Evidence",
+        "Ending",
+        "Example sentence",
+        "Essay"
+      ],
+      "correct": 0,
+      "explain": "PEEL = Point, Evidence, Explanation, Link."
+    },
+    {
+      "id": "q03",
+      "text": "Why should you include a counterargument?",
+      "options": [
+        "To change your opinion",
+        "To make the essay longer",
+        "To show that you have considered other views and can refute them",
+        "Because the teacher says so"
+      ],
+      "correct": 2,
+      "explain": "Answering a counterargument makes your own position more convincing."
+    },
+    {
+      "id": "q04",
+      "text": "Which linking word shows contrast?",
+      "options": [
+        "furthermore",
+        "therefore",
+        "for example",
+        "however"
+      ],
+      "correct": 3,
+      "explain": "“However” introduces a contrasting idea."
+    },
+    {
+      "id": "q05",
+      "text": "What should the conclusion NOT do?",
+      "options": [
+        "Sum up the main points",
+        "Restate the thesis",
+        "Introduce new arguments",
+        "End with a final thought"
+      ],
+      "correct": 2,
+      "explain": "New arguments belong in the body paragraphs."
+    },
+    {
+      "id": "q06",
+      "text": "Which is the best hook for an essay about school phones?",
+      "options": [
+        "This essay is about phones.",
+        "Did you know that many students check their phones over a hundred times a day?",
+        "Phones.",
+        "I will now write an essay."
+      ],
+      "correct": 1,
+      "explain": "A question with a surprising fact catches the reader's interest."
+    },
+    {
+      "id": "q07",
+      "text": "Which sentence is an example of hedging?",
+      "options": [
+        "This proves everything.",
+        "Everybody knows this is true.",
+        "Studies suggest that this may improve concentration.",
+        "This is 100 % certain."
+      ],
+      "correct": 2,
+      "explain": "“Suggest” and “may” show careful, fair language."
+    },
+    {
+      "id": "q08",
+      "text": "What register is usually best for an argumentative essay?",
+      "options": [
+        "Formal",
+        "Very informal with slang",
+        "Text-message style",
+        "Poetic"
+      ],
+      "correct": 0,
+      "explain": "Essays use formal language without slang and contractions."
+    },
+    {
+      "id": "q09",
+      "text": "How many main arguments should a body paragraph contain?",
+      "options": [
+        "None",
+        "As many as possible",
+        "Three",
+        "One"
+      ],
+      "correct": 3,
+      "explain": "One argument per paragraph keeps the essay clear and organised."
+    },
+    {
+      "id": "q10",
+      "text": "Which phrase introduces a source?",
+      "options": [
+        "Everybody knows that…",
+        "According to a report from…",
+        "I think maybe…",
+        "Whatever…"
+      ],
+      "correct": 1,
+      "explain": "“According to…” shows where your information comes from."
+    }
+  ],
+  "mindmap": {
+    "label": "Argumentative essays",
+    "children": [
+      {
+        "label": "Introduction",
+        "children": [
+          {
+            "label": "Hook"
+          },
+          {
+            "label": "Background"
+          },
+          {
+            "label": "Thesis statement"
+          }
+        ]
+      },
+      {
+        "label": "Body",
+        "children": [
+          {
+            "label": "One argument per paragraph"
+          },
+          {
+            "label": "PEEL"
+          },
+          {
+            "label": "Evidence and sources"
+          }
+        ]
+      },
+      {
+        "label": "Counterargument",
+        "children": [
+          {
+            "label": "Present fairly"
+          },
+          {
+            "label": "Refute",
+            "note": "However, …"
+          }
+        ]
+      },
+      {
+        "label": "Conclusion",
+        "children": [
+          {
+            "label": "Sum up"
+          },
+          {
+            "label": "Restate thesis"
+          },
+          {
+            "label": "No new arguments"
+          }
+        ]
+      },
+      {
+        "label": "Language",
+        "children": [
+          {
+            "label": "Formal register"
+          },
+          {
+            "label": "Linking words"
+          },
+          {
+            "label": "Hedging"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q09"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "The thesis statement usually comes at the end of the introduction.",
+        "correct": true,
+        "explain": "The introduction leads up to the thesis, which tells the reader your position."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Contractions like “don't” are ideal in a formal essay.",
+        "correct": false,
+        "explain": "Formal essays use full forms: do not, cannot."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "“Consequently” shows cause and effect.",
+        "correct": true,
+        "explain": "“Consequently” means “as a result”."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "An argumentative essay only needs your opinion, not evidence.",
+        "correct": false,
+        "explain": "Evidence makes arguments convincing. Opinions alone are weak."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Which linking word adds a point?",
+        "options": [
+          "however",
+          "moreover",
+          "although",
+          "nevertheless"
+        ],
+        "correct": 1,
+        "explain": "“Moreover” adds another point in the same direction."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "What does “refute” mean?",
+        "options": [
+          "To agree completely",
+          "To repeat",
+          "To show that an argument is wrong or weaker",
+          "To summarise"
+        ],
+        "correct": 2,
+        "explain": "Refuting a counterargument strengthens your own position."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "What is a call to action?",
+        "options": [
+          "An ending that encourages the reader to do or think something",
+          "A phone call",
+          "A source",
+          "A topic sentence"
+        ],
+        "correct": 0,
+        "explain": "For example: “It is time for schools to act.”"
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
+}

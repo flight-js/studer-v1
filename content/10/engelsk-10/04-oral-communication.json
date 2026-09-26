@@ -1,0 +1,360 @@
+{
+  "id": "oral-communication",
+  "fagId": "engelsk-10",
+  "trinnId": "10",
+  "name": "Oral communication",
+  "intro": "How to take part in discussions, ask follow-up questions, give presentations and use natural, idiomatic English when you speak.",
+  "kompetansemaal": [
+    6,
+    5,
+    3
+  ],
+  "sammendrag": "## Speaking with confidence\n\nSpeaking English is not about being perfect. It is about getting your message across, listening to others and keeping the conversation going. Many Norwegians understand English well but feel unsure when they speak. The best cure is practice – and some useful phrases.\n\n## Taking part in a discussion\n\nIn a good discussion, people **listen**, **respond** to each other and **build on** what others say. Useful phrases:\n\n- Giving your opinion: In my opinion…, I believe that…, As I see it…\n- Agreeing: I agree with you. That's a good point. Exactly!\n- Disagreeing politely: I see what you mean, but… I'm not sure I agree… That's true, however…\n- Interrupting politely: Sorry to interrupt, but… Can I just add something?\n- Asking for clarification: What do you mean by…? Could you give an example?\n\n## Follow-up questions\n\n**Follow-up questions** show that you are listening and help the conversation continue. Instead of just saying “OK”, ask: Why do you think so? How did that make you feel? What happened next? **Open questions** (starting with why, how, what) give longer answers than **closed questions** (yes/no).\n\n## Presentations\n\nA good presentation has a clear **structure**:\n\n- **Introduction**: greet the audience, present your topic and tell them what you will talk about.\n- **Main part**: two to four main points, with examples.\n- **Conclusion**: sum up and thank the audience. Invite questions.\n\nUse **signposting** to guide your listeners: First, I will talk about… Moving on to… Finally… Speak slowly and clearly, look at your audience, and use notes with keywords rather than reading a full script. Slides should support you, not replace you.\n\n## Fluency and idiomatic English\n\n**Fluency** means speaking smoothly without too many long pauses. **Fillers** like “well”, “you know” and “let me think” give you time without switching to Norwegian. **Idiomatic expressions** make your English sound natural: “It's up to you”, “to be honest”, “that makes sense”, “I'm on the fence” (I haven't decided).\n\nAdapt your language to the situation. With friends you can be informal; in a job interview or formal debate, be more careful and polite.\n\n## Pronunciation and clarity\n\nClear pronunciation matters more than a perfect accent. Stress important words, pause between ideas, and vary your intonation so you do not sound monotonous.",
+  "flashcards": [
+    {
+      "term": "In my opinion…",
+      "def": "A phrase for giving your opinion."
+    },
+    {
+      "term": "I see what you mean, but…",
+      "def": "A polite way to disagree."
+    },
+    {
+      "term": "Sorry to interrupt, but…",
+      "def": "A polite way to interrupt."
+    },
+    {
+      "term": "Could you give an example?",
+      "def": "A phrase for asking for clarification."
+    },
+    {
+      "term": "Follow-up question",
+      "def": "A question that builds on what someone just said: Why do you think so?"
+    },
+    {
+      "term": "Open question",
+      "def": "A question starting with why, how or what, which invites a longer answer."
+    },
+    {
+      "term": "Closed question",
+      "def": "A question that can be answered with yes or no."
+    },
+    {
+      "term": "Signposting",
+      "def": "Phrases that guide listeners: First… Moving on to… Finally…"
+    },
+    {
+      "term": "Keyword notes",
+      "def": "Short notes instead of a full script, so you can speak freely."
+    },
+    {
+      "term": "Fluency",
+      "def": "Speaking smoothly without too many long pauses."
+    },
+    {
+      "term": "Fillers",
+      "def": "Words like “well” and “let me think” that give you time to think."
+    },
+    {
+      "term": "I'm on the fence",
+      "def": "I haven't decided yet."
+    },
+    {
+      "term": "That makes sense",
+      "def": "I understand and agree with the logic."
+    },
+    {
+      "term": "It's up to you",
+      "def": "You decide."
+    },
+    {
+      "term": "Intonation",
+      "def": "The melody of speech. Varying it keeps listeners interested."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Which phrase is a polite way to disagree?",
+      "options": [
+        "You're wrong!",
+        "I see what you mean, but I'm not sure I agree.",
+        "That's stupid.",
+        "Whatever."
+      ],
+      "correct": 1,
+      "explain": "Acknowledging the other person's point before disagreeing keeps the discussion respectful."
+    },
+    {
+      "id": "q02",
+      "text": "Which is an open question?",
+      "options": [
+        "Do you like football?",
+        "Is it raining?",
+        "Why do you think the law should change?",
+        "Are you ready?"
+      ],
+      "correct": 2,
+      "explain": "Open questions start with words like why, how and what, and invite longer answers."
+    },
+    {
+      "id": "q03",
+      "text": "What is signposting in a presentation?",
+      "options": [
+        "Phrases that guide the audience through your talk",
+        "Drawing road signs",
+        "Holding up a poster",
+        "Reading the whole script"
+      ],
+      "correct": 0,
+      "explain": "Phrases like “Moving on to…” help the audience follow your structure."
+    },
+    {
+      "id": "q04",
+      "text": "What does “I'm on the fence” mean?",
+      "options": [
+        "I'm sitting outside",
+        "I'm angry",
+        "I agree completely",
+        "I haven't decided yet"
+      ],
+      "correct": 3,
+      "explain": "The idiom means you have not made up your mind."
+    },
+    {
+      "id": "q05",
+      "text": "Why are follow-up questions useful?",
+      "options": [
+        "They end the conversation",
+        "They show you are listening and keep the conversation going",
+        "They change the topic",
+        "They are required by law"
+      ],
+      "correct": 1,
+      "explain": "Follow-up questions show interest and help the other person say more."
+    },
+    {
+      "id": "q06",
+      "text": "What is best to use as support during a presentation?",
+      "options": [
+        "A full script you read word for word",
+        "No preparation",
+        "Short notes with keywords",
+        "Only your phone screen"
+      ],
+      "correct": 2,
+      "explain": "Keyword notes help you remember your points while still speaking freely to the audience."
+    },
+    {
+      "id": "q07",
+      "text": "Which phrase can you use to interrupt politely?",
+      "options": [
+        "Stop talking!",
+        "Be quiet!",
+        "Sorry to interrupt, but can I add something?",
+        "Hey, listen to me!"
+      ],
+      "correct": 2,
+      "explain": "Apologising before interrupting is polite in English-speaking cultures."
+    },
+    {
+      "id": "q08",
+      "text": "What is fluency?",
+      "options": [
+        "Speaking smoothly without too many long pauses",
+        "Having no accent",
+        "Speaking very fast",
+        "Using difficult words"
+      ],
+      "correct": 0,
+      "explain": "Fluency is about flow. You can be fluent and still have an accent."
+    },
+    {
+      "id": "q09",
+      "text": "What can you say to gain time when you need to think?",
+      "options": [
+        "Nothing, just stop",
+        "Switch to Norwegian",
+        "Leave the room",
+        "Well, let me think…"
+      ],
+      "correct": 3,
+      "explain": "Fillers like “well, let me think” keep the conversation going in English."
+    },
+    {
+      "id": "q10",
+      "text": "What should the conclusion of a presentation include?",
+      "options": [
+        "A completely new topic",
+        "A summary and a thank you, and an invitation for questions",
+        "Only a joke",
+        "Nothing"
+      ],
+      "correct": 1,
+      "explain": "The conclusion wraps up and gives the audience a chance to ask questions."
+    }
+  ],
+  "mindmap": {
+    "label": "Oral communication",
+    "children": [
+      {
+        "label": "Discussion",
+        "children": [
+          {
+            "label": "Give opinion",
+            "note": "In my opinion…"
+          },
+          {
+            "label": "Agree / disagree politely"
+          },
+          {
+            "label": "Interrupt politely"
+          }
+        ]
+      },
+      {
+        "label": "Questions",
+        "children": [
+          {
+            "label": "Follow-up questions"
+          },
+          {
+            "label": "Open vs closed"
+          },
+          {
+            "label": "Ask for clarification"
+          }
+        ]
+      },
+      {
+        "label": "Presentations",
+        "children": [
+          {
+            "label": "Introduction – main part – conclusion"
+          },
+          {
+            "label": "Signposting"
+          },
+          {
+            "label": "Keyword notes"
+          },
+          {
+            "label": "Eye contact"
+          }
+        ]
+      },
+      {
+        "label": "Fluency",
+        "children": [
+          {
+            "label": "Fillers"
+          },
+          {
+            "label": "Idioms",
+            "note": "on the fence"
+          },
+          {
+            "label": "Adapt to situation"
+          }
+        ]
+      },
+      {
+        "label": "Clarity",
+        "children": [
+          {
+            "label": "Stress key words"
+          },
+          {
+            "label": "Vary intonation"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q09"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "You must speak without any accent to communicate well in English.",
+        "correct": false,
+        "explain": "Clarity matters more than accent. Many fluent speakers have an accent."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "“That's a good point” is a way of agreeing.",
+        "correct": true,
+        "explain": "It shows that you appreciate what the other person said."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Slides should replace what you say in a presentation.",
+        "correct": false,
+        "explain": "Slides should support your talk, not replace it."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "“To be honest” is an idiomatic expression.",
+        "correct": true,
+        "explain": "It is a common phrase used to introduce an honest opinion."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Which is a closed question?",
+        "options": [
+          "How did you feel?",
+          "What happened next?",
+          "Did you like the film?",
+          "Why do you think so?"
+        ],
+        "correct": 2,
+        "explain": "“Did you like the film?” can be answered with yes or no."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "What does “It's up to you” mean?",
+        "options": [
+          "You decide",
+          "Go upstairs",
+          "It is your turn to pay",
+          "You are late"
+        ],
+        "correct": 0,
+        "explain": "“It's up to you” means the choice is yours."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Which phrase is signposting?",
+        "options": [
+          "I'm on the fence.",
+          "Moving on to my second point…",
+          "Sorry to interrupt.",
+          "That makes sense."
+        ],
+        "correct": 1,
+        "explain": "“Moving on to…” tells the audience you are starting a new part."
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
+}

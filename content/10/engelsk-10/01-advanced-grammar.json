@@ -1,0 +1,352 @@
+{
+  "id": "advanced-grammar",
+  "fagId": "engelsk-10",
+  "trinnId": "10",
+  "name": "Passive, conditionals and reported speech",
+  "intro": "Three grammar structures that make your English more flexible: the passive voice, conditional sentences with “if”, and reported speech.",
+  "kompetansemaal": [
+    8,
+    9,
+    15
+  ],
+  "sammendrag": "## The passive voice\n\nIn an **active** sentence, the subject does the action: **The chef cooked the meal.** In a **passive** sentence, the focus moves to what the action is done to: **The meal was cooked (by the chef).**\n\nThe passive is formed with **be + past participle**: is made, was built, has been sold, will be announced. We use it when the doer is unknown, unimportant or obvious: **My bike was stolen.** English is made in many countries. It is also common in news and science: **The results were published yesterday.** Do not overuse it – active sentences are usually clearer.\n\n## Conditional sentences\n\nConditional sentences describe what happens if something else happens. They have an **if-clause** and a **main clause**.\n\n- **Zero conditional** (always true): If you **heat** ice, it **melts**. (present + present)\n- **First conditional** (real possibility in the future): If it **rains** tomorrow, we **will stay** inside. (present + will)\n- **Second conditional** (unreal or unlikely now): If I **had** a million kroner, I **would travel** the world. (past + would)\n- **Third conditional** (unreal past): If she **had studied**, she **would have passed**. (had + past participle + would have)\n\nA common mistake is putting “would” in the if-clause: “If I would have money” is wrong – it should be “If I had money”. In formal English, “If I **were** you, I would…” is used with all persons.\n\n## Reported speech\n\n**Direct speech** repeats someone's exact words: She said, “I am tired.” **Reported speech** (indirect speech) retells what someone said: She said (that) she **was** tired.\n\nWhen the reporting verb is in the past (said, told, asked), the verb in the reported sentence usually moves **one step back** in time:\n\n- am/is → was, do → did, will → would, can → could\n- have done → had done, did → had done\n\nPronouns and time words also change: “I will call you **tomorrow**” → He said he would call me **the next day**. Questions become statements: “Where do you live?” → She asked where I **lived**. For yes/no questions, use **if** or **whether**: He asked **if** I liked football.\n\n## Why learn this?\n\nThese structures let you vary your writing, express possibilities and wishes, and retell conversations and sources accurately – skills you need in essays, articles and discussions.",
+  "flashcards": [
+    {
+      "term": "Active voice",
+      "def": "The subject does the action: The chef cooked the meal."
+    },
+    {
+      "term": "Passive voice",
+      "def": "Focus on what the action is done to: The meal was cooked."
+    },
+    {
+      "term": "Forming the passive",
+      "def": "be + past participle: is made, was built, has been sold."
+    },
+    {
+      "term": "When to use the passive",
+      "def": "When the doer is unknown, unimportant or obvious; common in news and science."
+    },
+    {
+      "term": "Zero conditional",
+      "def": "Always true: If you heat ice, it melts."
+    },
+    {
+      "term": "First conditional",
+      "def": "Real future possibility: If it rains, we will stay inside."
+    },
+    {
+      "term": "Second conditional",
+      "def": "Unreal now: If I had money, I would travel."
+    },
+    {
+      "term": "Third conditional",
+      "def": "Unreal past: If she had studied, she would have passed."
+    },
+    {
+      "term": "No “would” in the if-clause",
+      "def": "Say “If I had money”, not “If I would have money”."
+    },
+    {
+      "term": "If I were you",
+      "def": "Formal form used with all persons in the second conditional."
+    },
+    {
+      "term": "Direct speech",
+      "def": "Someone's exact words in quotation marks: “I am tired.”"
+    },
+    {
+      "term": "Reported speech",
+      "def": "Retelling what someone said: She said she was tired."
+    },
+    {
+      "term": "Backshift",
+      "def": "In reported speech, the verb moves one step back: will → would, is → was."
+    },
+    {
+      "term": "tomorrow → the next day",
+      "def": "Time words change in reported speech."
+    },
+    {
+      "term": "Reported yes/no questions",
+      "def": "Use if or whether: He asked if I liked football."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Which sentence is passive?",
+      "options": [
+        "The dog bit the man.",
+        "The man was bitten by the dog.",
+        "The man bit the sandwich.",
+        "The dog is biting."
+      ],
+      "correct": 1,
+      "explain": "The passive uses be + past participle (was bitten), and the focus is on the man."
+    },
+    {
+      "id": "q02",
+      "text": "Make the sentence passive: “Someone stole my bike.”",
+      "options": [
+        "My bike stole.",
+        "My bike has stealing.",
+        "My bike was stolen.",
+        "My bike is steal."
+      ],
+      "correct": 2,
+      "explain": "was + past participle (stolen). We leave out “by someone” because it adds nothing."
+    },
+    {
+      "id": "q03",
+      "text": "Which conditional is this? “If it rains tomorrow, we will stay inside.”",
+      "options": [
+        "First conditional",
+        "Zero conditional",
+        "Second conditional",
+        "Third conditional"
+      ],
+      "correct": 0,
+      "explain": "It describes a real possibility in the future: present + will."
+    },
+    {
+      "id": "q04",
+      "text": "Complete: “If I … a million kroner, I would buy a house.”",
+      "options": [
+        "have",
+        "would have",
+        "will have",
+        "had"
+      ],
+      "correct": 3,
+      "explain": "The second conditional uses the past tense in the if-clause: If I had…"
+    },
+    {
+      "id": "q05",
+      "text": "Complete: “If she … harder, she would have passed the test.”",
+      "options": [
+        "studied",
+        "had studied",
+        "would study",
+        "studies"
+      ],
+      "correct": 1,
+      "explain": "The third conditional uses had + past participle in the if-clause."
+    },
+    {
+      "id": "q06",
+      "text": "Change to reported speech: She said, “I am tired.”",
+      "options": [
+        "She said she was tired.",
+        "She said I am tired.",
+        "She said she is tiring.",
+        "She says she were tired."
+      ],
+      "correct": 0,
+      "explain": "The pronoun changes (I → she) and the verb moves back (am → was)."
+    },
+    {
+      "id": "q07",
+      "text": "Change to reported speech: He said, “I will call you.”",
+      "options": [
+        "He said he will call me.",
+        "He said I call you.",
+        "He said he would call me.",
+        "He said he called you tomorrow."
+      ],
+      "correct": 2,
+      "explain": "“Will” becomes “would”, and the pronouns change to fit the new speaker."
+    },
+    {
+      "id": "q08",
+      "text": "How do you report the question “Do you like football?”",
+      "options": [
+        "He asked do I like football.",
+        "He asked did I like football?",
+        "He asked that I like football.",
+        "He asked if I liked football."
+      ],
+      "correct": 3,
+      "explain": "Reported yes/no questions use if/whether and normal statement word order."
+    },
+    {
+      "id": "q09",
+      "text": "Which zero conditional sentence is correct?",
+      "options": [
+        "If you heat ice, it melts.",
+        "If you heated ice, it would melt yesterday.",
+        "If you will heat ice, it melts.",
+        "If you heat ice, it would melt."
+      ],
+      "correct": 0,
+      "explain": "The zero conditional uses present + present for things that are always true."
+    },
+    {
+      "id": "q10",
+      "text": "When is the passive especially useful?",
+      "options": [
+        "When you want to be informal",
+        "When the doer is unknown or unimportant",
+        "When you tell a joke",
+        "When you write dialogue"
+      ],
+      "correct": 1,
+      "explain": "“The window was broken” works well when we do not know or care who broke it."
+    }
+  ],
+  "mindmap": {
+    "label": "Advanced grammar",
+    "children": [
+      {
+        "label": "Passive",
+        "children": [
+          {
+            "label": "be + past participle"
+          },
+          {
+            "label": "Doer unknown/unimportant"
+          },
+          {
+            "label": "News and science"
+          }
+        ]
+      },
+      {
+        "label": "Conditionals",
+        "children": [
+          {
+            "label": "Zero",
+            "note": "Always true"
+          },
+          {
+            "label": "First",
+            "note": "Real future"
+          },
+          {
+            "label": "Second",
+            "note": "Unreal now"
+          },
+          {
+            "label": "Third",
+            "note": "Unreal past"
+          }
+        ]
+      },
+      {
+        "label": "Reported speech",
+        "children": [
+          {
+            "label": "Backshift",
+            "note": "will → would"
+          },
+          {
+            "label": "Pronouns change"
+          },
+          {
+            "label": "tomorrow → the next day"
+          },
+          {
+            "label": "asked if / whether"
+          }
+        ]
+      },
+      {
+        "label": "Traps",
+        "children": [
+          {
+            "label": "No would in if-clause"
+          },
+          {
+            "label": "Don't overuse passive"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "“If I would have time, I would help you” is correct.",
+        "correct": false,
+        "explain": "We do not use “would” in the if-clause. Correct: If I had time, I would help you."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "The passive is formed with a form of “be” and the past participle.",
+        "correct": true,
+        "explain": "Examples: is made, was built, has been sold."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "In reported speech, “can” often becomes “could”.",
+        "correct": true,
+        "explain": "Backshift: can → could, will → would."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Passive sentences are always clearer than active sentences.",
+        "correct": false,
+        "explain": "Active sentences are usually clearer. Use the passive when there is a reason to."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Which sentence is the second conditional?",
+        "options": [
+          "If I win, I will celebrate.",
+          "If I won, I would celebrate.",
+          "If I had won, I would have celebrated.",
+          "If you win, you celebrate."
+        ],
+        "correct": 1,
+        "explain": "The second conditional: past in the if-clause + would."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Make passive: “They build new houses every year.”",
+        "options": [
+          "New houses build every year.",
+          "New houses were building every year.",
+          "New houses are built every year.",
+          "New houses have build every year."
+        ],
+        "correct": 2,
+        "explain": "Present passive: are + built."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Report: “Where do you live?” she asked.",
+        "options": [
+          "She asked where I lived.",
+          "She asked where do I live.",
+          "She asked where did I live.",
+          "She asked if where I lived."
+        ],
+        "correct": 0,
+        "explain": "The question word stays, the word order becomes a statement, and the verb moves back."
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
+}
