@@ -1,0 +1,82 @@
+{
+  "id": "atommodeller-og-fusjon",
+  "fagId": "fysikk-1",
+  "trinnId": "vg2",
+  "name": "Atommodeller, spektre og fusjon",
+  "intro": "Hvordan atommodellen har utviklet seg fra Dalton til Bohr og kvantefysikken, fotoner og linjespektre, fotoelektrisk effekt, og hvordan fusjon i stjerner og eksplosjoner har dannet grunnstoffene.",
+  "kompetansemaal": [13, 14],
+  "sammendrag": "## Atommodeller gjennom tidene\n\nAtommodellen er et godt eksempel på hvordan **modeller** endres når nye forsøk gir nye resultater.\n\n- **Dalton** (rundt 1800): Alt stoff består av små, udelelige **atomer**.\n- **Thomson** (1897) oppdaget **elektronet**. Han foreslo en modell der negative elektroner satt i en jevnt fordelt positiv masse – «rosinbollemodellen».\n- **Rutherford** (1911) sendte alfapartikler mot tynn **gullfolie**. De fleste gikk rett gjennom, men noen få ble kastet tilbake. Konklusjon: Atomet er for det meste **tomrom**, med en liten, tung, positiv **kjerne**.\n- **Bohr** (1913): Elektronene kan bare ha bestemte **energinivåer**. Modellen forklarte **linjespekteret** til hydrogen.\n- **Kvantemekanisk modell**: Elektronene beskrives som **sannsynlighetsskyer** (orbitaler), ikke som små planeter i baner.\n\n## Fotoner\n\nLys består av **fotoner** – energipakker med energien\n\n**E = h · f = h · c / λ**\n\nder **h = 6,63 · 10⁻³⁴ J·s** er Plancks konstant. Et foton med bølgelengde 500 nm har E ≈ **4,0 · 10⁻¹⁹ J**. Kortere bølgelengde betyr mer energi per foton.\n\nDen **fotoelektriske effekten** viste at lys oppfører seg som partikler: Lys kan slå løs elektroner fra et metall, men bare hvis **frekvensen** er høy nok – uansett hvor sterkt lyset er. **Einstein** forklarte dette i 1905.\n\n## Linjespektre\n\nNår et elektron **faller** fra et høyere til et lavere energinivå, sendes det ut et foton med energi lik **forskjellen** mellom nivåene. Fordi nivåene er bestemte, får vi bare bestemte bølgelengder – et **emisjonsspekter** med lyse linjer. En kald gass foran en lyskilde **absorberer** de samme bølgelengdene og gir mørke linjer – et **absorpsjonsspekter**.\n\nFor hydrogen er energinivåene **Eₙ = −B / n²**, med B = 2,18 · 10⁻¹⁸ J. Overgangen fra n = 3 til n = 2 gir et foton med bølgelengde **656 nm** – rødt lys.\n\nHvert grunnstoff har sitt eget **spektrale fingeravtrykk**. Slik vet vi hva stjernene består av – **helium** ble faktisk oppdaget i solspekteret før det ble funnet på jorda.\n\n## Fusjon\n\nI **fusjon** smelter lette kjerner sammen til tyngre. I sola blir **hydrogen** til **helium** – netto blir fire hydrogenkjerner til én heliumkjerne. Heliumkjernen har litt **mindre masse** enn de fire protonene til sammen, og massedifferansen blir til energi etter **Einsteins formel**:\n\n**E = m · c²**\n\nOmtrent 0,7 % av massen omformes. Sola omformer rundt fire millioner tonn masse til energi hvert sekund.\n\n## Hvordan grunnstoffene ble dannet\n\n- **Big Bang** dannet nesten bare **hydrogen** og **helium** (og litt litium).\n- I **stjerner** fusjoneres lettere grunnstoffer til tyngre: karbon, oksygen, silisium – helt opp til **jern**.\n- Fusjon forbi jern **frigjør ikke** energi, fordi jern har den mest stabile kjernen. Derfor stopper energiproduksjonen der.\n- Grunnstoffer **tyngre enn jern** dannes blant annet i **supernovaer** og når **nøytronstjerner kolliderer**. En slik kollisjon ble observert i 2017, og den viste at det dannes blant annet gull og platina.\n\nKarbonet i kroppen din og jernet i blodet ditt ble altså laget i stjerner – vi består bokstavelig talt av **stjernestøv**.",
+  "flashcards": [
+    { "term": "Thomsons modell", "def": "Elektroner i en jevnt fordelt positiv masse – rosinbollemodellen (1897)." },
+    { "term": "Rutherfords gullfolieforsøk", "def": "Viste at atomet har en liten, tung, positiv kjerne (1911)." },
+    { "term": "Bohrs atommodell", "def": "Elektroner i bestemte energinivåer (1913)." },
+    { "term": "Kvantemekanisk modell", "def": "Elektroner som sannsynlighetsskyer (orbitaler)." },
+    { "term": "Foton", "def": "Energipakke av lys med E = hf." },
+    { "term": "Plancks konstant h", "def": "6,63 · 10⁻³⁴ J·s" },
+    { "term": "Fotoelektrisk effekt", "def": "Lys slår løs elektroner bare over en viss frekvens – forklart av Einstein i 1905." },
+    { "term": "Emisjonsspekter", "def": "Lyse linjer fra elektroner som faller til lavere energinivå." },
+    { "term": "Absorpsjonsspekter", "def": "Mørke linjer der kald gass har absorbert bestemte bølgelengder." },
+    { "term": "Hydrogenets energinivåer", "def": "Eₙ = −B / n², B = 2,18 · 10⁻¹⁸ J" },
+    { "term": "Fusjon", "def": "Lette kjerner smelter sammen til tyngre og frigjør energi." },
+    { "term": "E = mc²", "def": "Masse kan omformes til energi." },
+    { "term": "Jern", "def": "Grensen for energigivende fusjon i stjerner." },
+    { "term": "Supernova", "def": "Eksploderende stjerne der tunge grunnstoffer dannes." },
+    { "term": "Nøytronstjernekollisjon", "def": "Danner tunge grunnstoffer som gull – observert i 2017." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva viste Rutherfords gullfolieforsøk?", "options": ["At atomet er udelelig", "At atomet har en liten, tung, positiv kjerne", "At elektroner finnes", "At lys er partikler"], "correct": 1, "explain": "Noen få alfapartikler ble kastet tilbake." },
+    { "id": "q02", "text": "Hva var det nye i Bohrs atommodell?", "options": ["At elektronene bare kan ha bestemte energinivåer", "At atomet er en rosinbolle", "At atomet er udelelig", "At kjernen er negativ"], "correct": 0, "explain": "Den forklarte hydrogenets linjespekter." },
+    { "id": "q03", "text": "Hva skjer når et elektron faller til et lavere energinivå?", "options": ["Det absorberer et foton", "Atomet blir alltid ionisert", "Det sendes ut et foton med energi lik forskjellen mellom nivåene", "Kjernen deler seg"], "correct": 2, "explain": "Slik oppstår emisjonsspekteret." },
+    { "id": "q04", "text": "Hvilken formel gir energien til et foton?", "options": ["E = mgh", "E = ½mv²", "E = UIt", "E = hf"], "correct": 3, "explain": "h er Plancks konstant." },
+    { "id": "q05", "text": "Hva skjer i fusjonen i sola?", "options": ["Hydrogen blir til helium", "Uran spaltes", "Jern blir til gull", "Helium blir til hydrogen"], "correct": 0, "explain": "Massedifferansen blir energi." },
+    { "id": "q06", "text": "Hvorfor stopper energigivende fusjon i stjerner ved jern?", "options": ["Fordi jern er magnetisk", "Fordi jern har den mest stabile kjernen, så videre fusjon krever energi", "Fordi stjernen blir for kald", "Fordi jern er tyngst av alle"], "correct": 1, "explain": "Tyngre grunnstoffer dannes på andre måter." },
+    { "id": "q07", "text": "Hvor dannes grunnstoffer som gull?", "options": ["I Big Bang", "I vanlige stjerner som sola", "I supernovaer og kollisjoner mellom nøytronstjerner", "I jordas kjerne"], "correct": 2, "explain": "En nøytronstjernekollisjon ble observert i 2017." },
+    { "id": "q08", "text": "Hva viste den fotoelektriske effekten?", "options": ["At lys bare er bølger", "At atomet har en kjerne", "At jern er stabilt", "At lys oppfører seg som partikler (fotoner)"], "correct": 3, "explain": "Frekvensen, ikke lysstyrken, avgjør om elektroner slås løs." },
+    { "id": "q09", "text": "Hvordan vet vi hva stjernene består av?", "options": ["Fra linjene i spekteret deres", "Fra romsonder som har landet der", "Fra fargen på natthimmelen", "Vi vet det ikke"], "correct": 0, "explain": "Hvert grunnstoff har sitt spektrale fingeravtrykk." },
+    { "id": "q10", "text": "Hvilke grunnstoffer ble i hovedsak dannet i Big Bang?", "options": ["Karbon og oksygen", "Hydrogen og helium", "Jern og nikkel", "Gull og platina"], "correct": 1, "explain": "Pluss litt litium." }
+  ],
+  "mindmap": {
+    "label": "Atommodeller og fusjon",
+    "children": [
+      { "label": "Atommodeller", "children": [
+        { "label": "Dalton" },
+        { "label": "Thomson" },
+        { "label": "Rutherford" },
+        { "label": "Bohr" },
+        { "label": "Kvantemekanikk" }
+      ] },
+      { "label": "Fotoner", "children": [
+        { "label": "E = hf" },
+        { "label": "Fotoelektrisk effekt" }
+      ] },
+      { "label": "Spektre", "children": [
+        { "label": "Emisjon" },
+        { "label": "Absorpsjon" },
+        { "label": "Fingeravtrykk" }
+      ] },
+      { "label": "Fusjon", "children": [
+        { "label": "H → He" },
+        { "label": "E = mc²" }
+      ] },
+      { "label": "Grunnstoffdannelse", "children": [
+        { "label": "Big Bang" },
+        { "label": "Stjerner opp til jern" },
+        { "label": "Supernovaer og nøytronstjerner" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Atomet er for det meste tomrom.", "correct": true, "explain": "Det viste Rutherfords forsøk." },
+      { "id": "m02", "type": "sant-usant", "text": "Rødt lys har mer energi per foton enn blått lys.", "correct": false, "explain": "Blått lys har kortere bølgelengde og mer energi per foton." },
+      { "id": "m03", "type": "sant-usant", "text": "Helium ble oppdaget i solspekteret før det ble funnet på jorda.", "correct": true, "explain": "Navnet kommer av det greske ordet for sol." },
+      { "id": "m04", "type": "sant-usant", "text": "I fusjon er massen etterpå større enn før.", "correct": false, "explain": "Massen blir litt mindre, og differansen blir energi." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken bølgelengde har fotonet fra overgangen n = 3 til n = 2 i hydrogen?", "options": ["122 nm", "656 nm", "486 nm", "1875 nm"], "correct": 1, "explain": "Den røde linjen i hydrogenspekteret." },
+      { "id": "m06", "type": "flervalg", "text": "Hvem oppdaget elektronet?", "options": ["Thomson", "Rutherford", "Bohr", "Dalton"], "correct": 0, "explain": "I 1897." },
+      { "id": "m07", "type": "flervalg", "text": "Hva betyr det at vi består av «stjernestøv»?", "options": ["At vi lyser i mørket", "At vi kommer fra månen", "At grunnstoffene i kroppen ble dannet i stjerner", "At vi består av helium"], "correct": 2, "explain": "Karbon, oksygen og jern er laget ved fusjon og eksplosjoner." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

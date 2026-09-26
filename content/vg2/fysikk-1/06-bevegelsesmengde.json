@@ -1,0 +1,79 @@
+{
+  "id": "bevegelsesmengde",
+  "fagId": "fysikk-1",
+  "trinnId": "vg2",
+  "name": "Bevegelsesmengde, impuls og støt",
+  "intro": "Bevegelsesmengde og impuls, loven om bevaring av bevegelsesmengde, elastiske og uelastiske støt, rekyl og hvordan kollisjonssikkerhet bygger på fysikk.",
+  "kompetansemaal": [7],
+  "sammendrag": "## Bevegelsesmengde\n\n**Bevegelsesmengden** til et legeme er massen ganger farten:\n\n**p = m · v**, enhet **kg·m/s**.\n\nBevegelsesmengde er en **vektor** – den har samme retning som farten. En lastebil og en sykkel med samme fart har svært ulik bevegelsesmengde.\n\n## Impuls\n\nNår en kraft virker i en tid, gir den legemet en **impuls**:\n\n**I = F · Δt = Δp**\n\nImpulsen er lik **endringen i bevegelsesmengde** (impulsloven). Enheten er **N·s**, som er det samme som kg·m/s.\n\n**Eksempel**: En fotball blir sparket med en gjennomsnittlig kraft på 500 N i 0,020 s. Impulsen blir I = 500 · 0,020 = **10 N·s**, og ballen får en endring i bevegelsesmengde på 10 kg·m/s.\n\n## Kollisjonssikkerhet\n\nFor en gitt endring i bevegelsesmengde gir **lengre tid** **mindre kraft**: F = Δp / Δt. Derfor har biler **kollisjonssoner** og **kollisjonsputer**, og derfor bøyer du knærne når du lander etter et hopp. Hjelmer og fallunderlag virker på samme måte.\n\n## Bevaring av bevegelsesmengde\n\nI et **isolert system** – der ytre krefter kan ses bort fra – er den **samlede bevegelsesmengden bevart**:\n\n**m₁v₁ + m₂v₂ = m₁v₁' + m₂v₂'**\n\nDette følger av **Newtons 3. lov**: Kreftene mellom legemene er like store og motsatt rettet, og virker like lenge, så impulsene opphever hverandre.\n\n## Typer støt\n\n- **Fullstendig elastisk støt**: Både bevegelsesmengde og **kinetisk energi** er bevart. Nær elastisk er for eksempel støt mellom biljardkuler.\n- **Uelastisk støt**: Bevegelsesmengden er bevart, men noe kinetisk energi går over til varme, lyd og deformasjon.\n- **Fullstendig uelastisk støt**: Legemene **henger sammen** etter støtet.\n\n**Eksempel**: En vogn på 2,0 kg med fart 3,0 m/s kolliderer med en vogn på 1,0 kg i ro, og de henger sammen.\n\n2,0 · 3,0 + 0 = (2,0 + 1,0) · v → v = **2,0 m/s**\n\nKinetisk energi før: ½ · 2,0 · 3,0² = 9,0 J. Etter: ½ · 3,0 · 2,0² = 6,0 J. **3,0 J** er omformet til andre energiformer.\n\n## Rekyl og eksplosjoner\n\nNår noe **skytes ut** eller **sprenges**, er den samlede bevegelsesmengden null før og etter. En kule på 0,010 kg med fart 400 m/s fra et gevær på 4,0 kg gir geværet en rekylfart:\n\n0 = 0,010 · 400 + 4,0 · v → v = **−1,0 m/s** (motsatt retning).\n\nSamme prinsipp driver **raketter**: Gassen skytes bakover, og raketten får bevegelsesmengde framover.\n\n## Framgangsmåte\n\n1. Velg **positiv retning**.\n2. Skriv opp bevegelsesmengden **før** og **etter** – husk fortegn.\n3. Sett dem like og løs.\n4. Sjekk **kinetisk energi** hvis du skal avgjøre hvilken type støt det er.",
+  "flashcards": [
+    { "term": "Bevegelsesmengde", "def": "p = m · v, enhet kg·m/s." },
+    { "term": "Impuls", "def": "I = F · Δt, enhet N·s." },
+    { "term": "Impulsloven", "def": "Impulsen er lik endringen i bevegelsesmengde." },
+    { "term": "Isolert system", "def": "System der ytre krefter kan ses bort fra." },
+    { "term": "Bevaring av bevegelsesmengde", "def": "Samlet p er lik før og etter i et isolert system." },
+    { "term": "Fullstendig elastisk støt", "def": "Både p og kinetisk energi er bevart." },
+    { "term": "Uelastisk støt", "def": "p er bevart, men noe Eₖ går tapt til andre former." },
+    { "term": "Fullstendig uelastisk støt", "def": "Legemene henger sammen etter støtet." },
+    { "term": "Rekyl", "def": "Bakoverbevegelse når noe skytes ut forover." },
+    { "term": "Kollisjonspute", "def": "Øker tiden for stansen og reduserer kraften." },
+    { "term": "F = Δp / Δt", "def": "Lengre tid gir mindre kraft." },
+    { "term": "Rakettprinsippet", "def": "Gass skytes bakover, raketten får p framover." },
+    { "term": "Vektor", "def": "Størrelse med både tallverdi og retning." },
+    { "term": "Sammenheng med Newtons 3. lov", "def": "Like store, motsatte impulser mellom legemene." },
+    { "term": "N·s", "def": "Samme enhet som kg·m/s." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er bevegelsesmengde?", "options": ["Masse ganger akselerasjon", "Masse ganger fart", "Kraft ganger vei", "Fart delt på tid"], "correct": 1, "explain": "p = m · v." },
+    { "id": "q02", "text": "En ball sparkes med 500 N i 0,020 s. Hva er impulsen?", "options": ["10 N·s", "25 000 N·s", "500 N·s", "0,04 N·s"], "correct": 0, "explain": "I = F · Δt." },
+    { "id": "q03", "text": "En vogn på 2,0 kg (3,0 m/s) kolliderer med en vogn på 1,0 kg i ro, og de henger sammen. Hva blir farten?", "options": ["3,0 m/s", "1,0 m/s", "2,0 m/s", "1,5 m/s"], "correct": 2, "explain": "6,0 kg·m/s / 3,0 kg." },
+    { "id": "q04", "text": "Hva kjennetegner et fullstendig elastisk støt?", "options": ["Legemene henger sammen", "Bare energien er bevart", "Ingenting er bevart", "Både bevegelsesmengde og kinetisk energi er bevart"], "correct": 3, "explain": "Ingen kinetisk energi går tapt." },
+    { "id": "q05", "text": "Hvorfor reduserer en kollisjonspute skadene?", "options": ["Den øker tiden for stansen, slik at kraften blir mindre", "Den øker farten", "Den fjerner bevegelsesmengden", "Den øker massen"], "correct": 0, "explain": "F = Δp / Δt." },
+    { "id": "q06", "text": "Når er bevegelsesmengden bevart?", "options": ["Alltid for hvert legeme", "I et isolert system", "Bare i elastiske støt", "Bare når farten er null"], "correct": 1, "explain": "Ytre krefter må kunne ses bort fra." },
+    { "id": "q07", "text": "En kule på 0,010 kg skytes ut med 400 m/s fra et gevær på 4,0 kg. Hva blir rekylfarten?", "options": ["4,0 m/s", "0,10 m/s", "1,0 m/s motsatt vei", "400 m/s"], "correct": 2, "explain": "0,010 · 400 / 4,0." },
+    { "id": "q08", "text": "Hvor mye kinetisk energi går tapt i støtet mellom vognene på 2,0 kg og 1,0 kg?", "options": ["0 J", "9,0 J", "6,0 J", "3,0 J"], "correct": 3, "explain": "9,0 J før, 6,0 J etter." },
+    { "id": "q09", "text": "Hvilken lov ligger bak bevaring av bevegelsesmengde?", "options": ["Newtons 3. lov", "Ohms lov", "Wiens lov", "Hookes lov"], "correct": 0, "explain": "Like store, motsatt rettede krefter." },
+    { "id": "q10", "text": "Hva er enheten for bevegelsesmengde?", "options": ["kg·m/s²", "kg·m/s", "J", "W"], "correct": 1, "explain": "Samme som N·s." }
+  ],
+  "mindmap": {
+    "label": "Bevegelsesmengde",
+    "children": [
+      { "label": "Begreper", "children": [
+        { "label": "p = mv" },
+        { "label": "I = FΔt" },
+        { "label": "Impulsloven" }
+      ] },
+      { "label": "Sikkerhet", "children": [
+        { "label": "Kollisjonspute" },
+        { "label": "Lengre tid – mindre kraft" }
+      ] },
+      { "label": "Bevaring", "children": [
+        { "label": "Isolert system" },
+        { "label": "Newtons 3. lov" }
+      ] },
+      { "label": "Støt", "children": [
+        { "label": "Elastisk" },
+        { "label": "Uelastisk" },
+        { "label": "Fullstendig uelastisk" }
+      ] },
+      { "label": "Rekyl", "children": [
+        { "label": "Gevær" },
+        { "label": "Rakett" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Bevegelsesmengde har retning.", "correct": true, "explain": "Den er en vektor med samme retning som farten." },
+      { "id": "m02", "type": "sant-usant", "text": "I et fullstendig uelastisk støt er bevegelsesmengden ikke bevart.", "correct": false, "explain": "Bevegelsesmengden er bevart; det er kinetisk energi som går tapt." },
+      { "id": "m03", "type": "sant-usant", "text": "En rakett kan akselerere i verdensrommet uten noe å skyve mot.", "correct": true, "explain": "Den skyver gass bakover og får bevegelsesmengde framover." },
+      { "id": "m04", "type": "sant-usant", "text": "Kortere bremsetid gir mindre kraft ved en kollisjon.", "correct": false, "explain": "Kortere tid gir større kraft." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er bevegelsesmengden til en bil på 1000 kg med fart 20 m/s?", "options": ["50 kg·m/s", "20 000 kg·m/s", "200 000 kg·m/s", "1020 kg·m/s"], "correct": 1, "explain": "p = 1000 · 20." },
+      { "id": "m06", "type": "flervalg", "text": "Hvorfor bøyer du knærne når du lander etter et hopp?", "options": ["For å øke tiden stansen tar og redusere kraften", "For å øke farten", "For å øke bevegelsesmengden", "For å hoppe høyere"], "correct": 0, "explain": "F = Δp / Δt." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er samlet bevegelsesmengde før et gevær avfyres?", "options": ["Lik kulens", "Lik geværets", "Null", "Uendelig"], "correct": 2, "explain": "Alt er i ro før skuddet." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

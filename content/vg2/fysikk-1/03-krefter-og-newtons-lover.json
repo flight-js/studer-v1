@@ -1,0 +1,81 @@
+{
+  "id": "krefter-og-newtons-lover",
+  "fagId": "fysikk-1",
+  "trinnId": "vg2",
+  "name": "Krefter og Newtons lover",
+  "intro": "Newtons tre lover, vanlige krefter – tyngdekraft, normalkraft, friksjon, luftmotstand og snordrag – kraftdiagrammer, summen av krefter og beregninger på skråplan og i heiser.",
+  "kompetansemaal": [5],
+  "sammendrag": "## Kraft\n\nEn **kraft** er en påvirkning som kan endre et legemes **bevegelse** eller **form**. Kraft har både **størrelse** og **retning** (en vektor) og måles i **newton** (N).\n\n## Newtons tre lover\n\n**Newtons 1. lov** (treghetsloven): Hvis **summen av kreftene** på et legeme er **null**, er legemet i **ro** eller beveger seg med **konstant fart** i en **rett linje**.\n\n**Newtons 2. lov**: **ΣF = m · a**. Summen av kreftene er lik massen ganger akselerasjonen, og akselerasjonen har samme retning som kraftsummen.\n\n**Newtons 3. lov**: Når legeme A virker på legeme B med en kraft, virker B på A med en **like stor**, **motsatt rettet** kraft. Kreftene virker på **hvert sitt legeme** – derfor opphever de ikke hverandre.\n\n## Vanlige krefter\n\n- **Tyngdekraft**: **G = m · g**. En person på 70 kg har G = 70 · 9,81 ≈ **687 N**.\n- **Normalkraft** (N): kraft fra et underlag, **vinkelrett** på underlaget.\n- **Friksjon** (R): motvirker bevegelse langs et underlag. **R = μ · N**, der μ er **friksjonstallet**.\n- **Luftmotstand** (L): øker med farten, ofte tilnærmet L = k · v².\n- **Snordrag** (S): kraft fra en snor eller et tau.\n\n## Kraftdiagram\n\nTegn **alle kreftene** som virker **på** legemet, som piler fra et punkt. Deretter finner du **kraftsummen** i hver retning.\n\n**Eksempel**: En kloss på 5,0 kg dras bortover et bord med μ = 0,30. Normalkraften er N = mg = 5,0 · 9,81 ≈ 49 N, og friksjonen er R = 0,30 · 49 ≈ **15 N**. Drar du med 20 N, blir ΣF = 20 − 15 = 5 N, og a = 5/5,0 = **1,0 m/s²**.\n\n## Skråplan\n\nPå et **skråplan** med helningsvinkel α deler vi tyngdekraften i to komponenter:\n\n- **langs** planet: **G · sin α**\n- **vinkelrett** på planet: **G · cos α**, som balanseres av normalkraften\n\nUten friksjon blir akselerasjonen nedover planet **a = g · sin α**.\n\n## Heis\n\nNår en heis **akselererer oppover**, må normalkraften fra gulvet være **større** enn tyngden: N − mg = ma → N = m(g + a). Du føler deg **tyngre**. Når heisen akselererer nedover, føler du deg **lettere**. Ved **fritt fall** blir normalkraften **null** – vektløshet.\n\n## Framgangsmåte\n\n1. Tegn **kraftdiagram**.\n2. Velg **positiv retning** – helst i akselerasjonens retning.\n3. Sett opp **ΣF = ma** i hver retning.\n4. Løs og kontroller **enheter** og **rimelighet**.",
+  "flashcards": [
+    { "term": "Kraft", "def": "Påvirkning som kan endre bevegelse eller form, målt i newton." },
+    { "term": "Newtons 1. lov", "def": "ΣF = 0 gir ro eller konstant fart i rett linje." },
+    { "term": "Newtons 2. lov", "def": "ΣF = m · a" },
+    { "term": "Newtons 3. lov", "def": "Kraft og motkraft er like store, motsatt rettet og virker på hvert sitt legeme." },
+    { "term": "Tyngdekraft", "def": "G = m · g" },
+    { "term": "Normalkraft", "def": "Kraft fra underlaget, vinkelrett på underlaget." },
+    { "term": "Friksjon", "def": "R = μ · N – motvirker bevegelse langs underlaget." },
+    { "term": "Friksjonstall μ", "def": "Tall som beskriver hvor stor friksjonen er mellom to flater." },
+    { "term": "Luftmotstand", "def": "Øker med farten, ofte L = k · v²." },
+    { "term": "Snordrag", "def": "Kraft fra en snor eller et tau." },
+    { "term": "Kraftdiagram", "def": "Figur som viser alle kreftene som virker på et legeme." },
+    { "term": "Skråplan: langs planet", "def": "G · sin α" },
+    { "term": "Skråplan: vinkelrett på planet", "def": "G · cos α" },
+    { "term": "Heis som akselererer opp", "def": "N = m(g + a) – man føler seg tyngre." },
+    { "term": "Vektløshet", "def": "Normalkraften er null, som i fritt fall." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva sier Newtons 2. lov?", "options": ["Kraft og motkraft er like store", "ΣF = m · a", "Alt faller like fort", "Energi er bevart"], "correct": 1, "explain": "Akselerasjonen har samme retning som kraftsummen." },
+    { "id": "q02", "text": "Hva er tyngdekraften på en person på 70 kg?", "options": ["Omtrent 687 N", "70 N", "Omtrent 7 N", "Omtrent 6870 N"], "correct": 0, "explain": "G = 70 · 9,81." },
+    { "id": "q03", "text": "Hvorfor opphever ikke kraft og motkraft (Newtons 3. lov) hverandre?", "options": ["Fordi de er ulike store", "Fordi de har samme retning", "Fordi de virker på hvert sitt legeme", "Fordi de er fiktive"], "correct": 2, "explain": "Bare krefter på samme legeme kan summeres." },
+    { "id": "q04", "text": "En kloss på 5,0 kg dras på et bord med μ = 0,30. Hvor stor er friksjonen?", "options": ["1,5 N", "5,0 N", "49 N", "Omtrent 15 N"], "correct": 3, "explain": "R = μ · mg = 0,30 · 49 N." },
+    { "id": "q05", "text": "Hva sier Newtons 1. lov?", "options": ["Når ΣF = 0, er legemet i ro eller har konstant fart", "Alle legemer akselererer", "Kraft er masse ganger fart", "Friksjon er alltid null"], "correct": 0, "explain": "Kalles også treghetsloven." },
+    { "id": "q06", "text": "Hva er komponenten av tyngdekraften langs et skråplan med vinkel α?", "options": ["G · cos α", "G · sin α", "G · tan α", "G"], "correct": 1, "explain": "G · cos α står vinkelrett på planet." },
+    { "id": "q07", "text": "En heis akselererer oppover. Hvordan er normalkraften fra gulvet?", "options": ["Mindre enn tyngden", "Lik null", "Større enn tyngden", "Lik tyngden"], "correct": 2, "explain": "N = m(g + a)." },
+    { "id": "q08", "text": "En kloss på 5,0 kg dras med 20 N, og friksjonen er 15 N. Hva er akselerasjonen?", "options": ["4,0 m/s²", "3,0 m/s²", "7,0 m/s²", "1,0 m/s²"], "correct": 3, "explain": "ΣF = 5 N, a = 5/5,0." },
+    { "id": "q09", "text": "Hvilken retning har normalkraften?", "options": ["Vinkelrett på underlaget", "Langs underlaget", "Alltid rett ned", "I bevegelsesretningen"], "correct": 0, "explain": "Den virker ut fra underlaget." },
+    { "id": "q10", "text": "Hva skjer med normalkraften i fritt fall?", "options": ["Den dobles", "Den blir null", "Den blir lik tyngden", "Den blir negativ"], "correct": 1, "explain": "Det oppleves som vektløshet." }
+  ],
+  "mindmap": {
+    "label": "Krefter og Newtons lover",
+    "children": [
+      { "label": "Newtons lover", "children": [
+        { "label": "1: treghet" },
+        { "label": "2: ΣF = ma" },
+        { "label": "3: kraft og motkraft" }
+      ] },
+      { "label": "Krefter", "children": [
+        { "label": "G = mg" },
+        { "label": "Normalkraft" },
+        { "label": "Friksjon R = μN" },
+        { "label": "Luftmotstand" }
+      ] },
+      { "label": "Kraftdiagram", "children": [
+        { "label": "Alle krefter på legemet" },
+        { "label": "Positiv retning" }
+      ] },
+      { "label": "Skråplan", "children": [
+        { "label": "G sin α" },
+        { "label": "G cos α" },
+        { "label": "a = g sin α" }
+      ] },
+      { "label": "Heis", "children": [
+        { "label": "Tyngre ved akselerasjon opp" },
+        { "label": "Vektløshet" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Et legeme kan bevege seg med konstant fart selv om summen av kreftene er null.", "correct": true, "explain": "Newtons 1. lov." },
+      { "id": "m02", "type": "sant-usant", "text": "Luftmotstanden er uavhengig av farten.", "correct": false, "explain": "Luftmotstanden øker med farten." },
+      { "id": "m03", "type": "sant-usant", "text": "Uten friksjon er akselerasjonen ned et skråplan g · sin α.", "correct": true, "explain": "Komponenten av tyngden langs planet gir akselerasjonen." },
+      { "id": "m04", "type": "sant-usant", "text": "Kraft måles i joule.", "correct": false, "explain": "Kraft måles i newton." },
+      { "id": "m05", "type": "flervalg", "text": "En bil på 1200 kg akselererer med 3,0 m/s². Hva er kraftsummen?", "options": ["400 N", "3600 N", "1203 N", "36 000 N"], "correct": 1, "explain": "ΣF = 1200 · 3,0." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er μ i R = μ · N?", "options": ["Friksjonstallet", "Massen", "Normalkraften", "Farten"], "correct": 0, "explain": "Det avhenger av flatene." },
+      { "id": "m07", "type": "flervalg", "text": "Hva skal et kraftdiagram vise?", "options": ["Kreftene legemet virker med på andre", "Bare tyngdekraften", "Alle kreftene som virker på legemet", "Farten til legemet"], "correct": 2, "explain": "Kreftene på legemet bestemmer akselerasjonen." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

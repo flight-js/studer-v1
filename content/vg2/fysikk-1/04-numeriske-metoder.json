@@ -1,0 +1,80 @@
+{
+  "id": "numeriske-metoder",
+  "fagId": "fysikk-1",
+  "trinnId": "vg2",
+  "name": "Numeriske metoder og programmering",
+  "intro": "Hvordan du bruker Eulers metode og et enkelt program til å beregne bevegelse når akselerasjonen ikke er konstant – for eksempel fall med luftmotstand og terminalfart.",
+  "kompetansemaal": [6],
+  "sammendrag": "## Når likningene ikke strekker til\n\nBevegelseslikningene gjelder bare når **akselerasjonen er konstant**. I virkeligheten endrer ofte kreftene seg underveis. En fallskjermhopper får **større luftmotstand** jo raskere hopperen faller, og da **avtar akselerasjonen**. Slike problemer løser vi med **numeriske metoder**: Vi deler tiden opp i **små tidssteg** og regner ut bevegelsen steg for steg.\n\n## Eulers metode\n\nIdeen er at akselerasjonen og farten er **tilnærmet konstante** i et kort tidssteg **Δt**. For hvert steg gjør vi dette:\n\n1. Finn **kraftsummen** ΣF ut fra nåværende fart og posisjon.\n2. Finn **akselerasjonen**: a = ΣF / m.\n3. Oppdater **farten**: v_ny = v + a · Δt.\n4. Oppdater **posisjonen**: s_ny = s + v · Δt.\n5. Oppdater **tiden**: t_ny = t + Δt.\n\nGjenta til ønsket tid er nådd.\n\n## Fall med luftmotstand\n\nFor et legeme som faller, med positiv retning nedover:\n\n**ΣF = mg − kv²**\n\nher er k en **luftmotstandskonstant** som avhenger av form, areal og luftens tetthet.\n\nI starten er farten liten, luftmotstanden liten og akselerasjonen nær **g**. Etter hvert øker luftmotstanden til den er **like stor som tyngden**. Da er ΣF = 0, og legemet faller med konstant **terminalfart**:\n\nmg = kv_t² → **v_t = √(mg / k)**\n\n**Eksempel**: En hopper med m = 80 kg og k = 0,25 kg/m får v_t = √(80 · 9,81 / 0,25) ≈ **56 m/s**, omtrent 200 km/t.\n\n## Et enkelt program\n\n```python\nm, k, g = 80, 0.25, 9.81\ndt = 0.01                  # tidssteg i sekunder\nt, s, v = 0, 0, 0\nwhile t < 20:\n    a = (m*g - k*v**2) / m\n    v = v + a*dt\n    s = s + v*dt\n    t = t + dt\nprint(round(v, 1))         # nær terminalfarten\n```\n\nProgrammet kan utvides med lister som lagrer t, s og v, slik at du kan **plotte** grafene.\n\n## Tidssteget\n\n- Et **mindre** tidssteg gir **mer nøyaktig** resultat, men flere beregninger.\n- Et **for stort** tidssteg kan gi tydelige **feil**.\n- Test gjerne ved å **halvere** Δt: Hvis resultatet nesten ikke endres, er tidssteget lite nok.\n\n## Vurdere resultatet\n\nSammenlign med det du vet: Uten luftmotstand (k = 0) skal programmet gi samme svar som bevegelseslikningene. Farten skal nærme seg **terminalfarten**, men ikke gå forbi den. Numeriske metoder er en **modell**, og kvaliteten avhenger av om kreftene er riktig beskrevet.",
+  "flashcards": [
+    { "term": "Numerisk metode", "def": "Å løse et problem steg for steg med små tidssteg." },
+    { "term": "Eulers metode", "def": "Oppdaterer fart og posisjon med v + aΔt og s + vΔt." },
+    { "term": "Tidssteg Δt", "def": "Den lille tiden vi antar at a og v er konstante i." },
+    { "term": "Ikke-konstant akselerasjon", "def": "Når kreftene endrer seg underveis – krever numeriske metoder." },
+    { "term": "Luftmotstand kv²", "def": "Modell der luftmotstanden øker med kvadratet av farten." },
+    { "term": "Luftmotstandskonstant k", "def": "Avhenger av form, areal og luftens tetthet." },
+    { "term": "Terminalfart", "def": "Konstant fart når luftmotstanden er like stor som tyngden." },
+    { "term": "v_t = √(mg / k)", "def": "Formel for terminalfart med luftmotstand kv²." },
+    { "term": "Løkke (while)", "def": "Gjentar beregningene til en betingelse ikke lenger er oppfylt." },
+    { "term": "Mindre tidssteg", "def": "Mer nøyaktig, men flere beregninger." },
+    { "term": "Halvere Δt", "def": "Test av om tidssteget er lite nok." },
+    { "term": "Kontroll med k = 0", "def": "Programmet skal gi samme svar som bevegelseslikningene." },
+    { "term": "a = ΣF / m", "def": "Newtons 2. lov brukt i hvert tidssteg." },
+    { "term": "Plotte resultater", "def": "Lagre t, s og v i lister og tegne grafer." },
+    { "term": "Fallskjermhopper", "def": "Klassisk eksempel på bevegelse med ikke-konstant akselerasjon." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Når trenger vi numeriske metoder for bevegelse?", "options": ["Når akselerasjonen er konstant", "Når akselerasjonen ikke er konstant", "Når legemet er i ro", "Aldri"], "correct": 1, "explain": "Bevegelseslikningene forutsetter konstant akselerasjon." },
+    { "id": "q02", "text": "Hvordan oppdateres farten i Eulers metode?", "options": ["v_ny = v + a · Δt", "v_ny = a / Δt", "v_ny = s · Δt", "v_ny = v − s"], "correct": 0, "explain": "Endringen i fart er a · Δt." },
+    { "id": "q03", "text": "Hva er terminalfart?", "options": ["Den største akselerasjonen", "Farten i starten", "Konstant fart når luftmotstand og tyngde er like store", "Farten uten luftmotstand"], "correct": 2, "explain": "Da er ΣF = 0." },
+    { "id": "q04", "text": "Hva er kraftsummen på et fallende legeme med luftmotstand kv² (positiv retning ned)?", "options": ["mg + kv²", "kv²", "mg", "mg − kv²"], "correct": 3, "explain": "Luftmotstanden virker mot bevegelsen." },
+    { "id": "q05", "text": "Hva skjer med akselerasjonen til en fallskjermhopper før utløsning?", "options": ["Den avtar mot null", "Den øker", "Den er konstant lik g", "Den blir negativ med en gang"], "correct": 0, "explain": "Luftmotstanden øker med farten." },
+    { "id": "q06", "text": "Hva er terminalfarten for m = 80 kg og k = 0,25 kg/m?", "options": ["Omtrent 18 m/s", "Omtrent 56 m/s", "Omtrent 320 m/s", "Omtrent 9,8 m/s"], "correct": 1, "explain": "√(80 · 9,81 / 0,25) ≈ 56 m/s." },
+    { "id": "q07", "text": "Hva skjer hvis tidssteget er for stort?", "options": ["Programmet går raskere og blir mer nøyaktig", "Ingenting", "Resultatet kan få tydelige feil", "Farten blir alltid null"], "correct": 2, "explain": "Tilnærmingen om konstant a blir dårligere." },
+    { "id": "q08", "text": "Hvordan kan du teste om programmet ditt er riktig?", "options": ["Bruke større tidssteg", "Fjerne løkken", "Endre massen", "Sette k = 0 og sammenligne med bevegelseslikningene"], "correct": 3, "explain": "Da skal svarene stemme." },
+    { "id": "q09", "text": "Hvordan oppdateres posisjonen i Eulers metode?", "options": ["s_ny = s + v · Δt", "s_ny = v / Δt", "s_ny = a · s", "s_ny = s − a"], "correct": 0, "explain": "Endringen i posisjon er v · Δt." },
+    { "id": "q10", "text": "Hvordan finner du akselerasjonen i hvert tidssteg?", "options": ["a = v · t", "a = ΣF / m", "a = m · g alltid", "a = s / t"], "correct": 1, "explain": "Newtons 2. lov." }
+  ],
+  "mindmap": {
+    "label": "Numeriske metoder",
+    "children": [
+      { "label": "Hvorfor", "children": [
+        { "label": "Ikke-konstant akselerasjon" },
+        { "label": "Kreftene endres" }
+      ] },
+      { "label": "Eulers metode", "children": [
+        { "label": "a = ΣF/m" },
+        { "label": "v + aΔt" },
+        { "label": "s + vΔt" }
+      ] },
+      { "label": "Luftmotstand", "children": [
+        { "label": "mg − kv²" },
+        { "label": "Terminalfart" },
+        { "label": "√(mg/k)" }
+      ] },
+      { "label": "Program", "children": [
+        { "label": "Løkke" },
+        { "label": "Lister og plott" }
+      ] },
+      { "label": "Kvalitet", "children": [
+        { "label": "Lite tidssteg" },
+        { "label": "Halvere Δt" },
+        { "label": "Kontroll med k = 0" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Et mindre tidssteg gir vanligvis et mer nøyaktig resultat.", "correct": true, "explain": "Men programmet må gjøre flere beregninger." },
+      { "id": "m02", "type": "sant-usant", "text": "Ved terminalfart er akselerasjonen lik g.", "correct": false, "explain": "Ved terminalfart er akselerasjonen null." },
+      { "id": "m03", "type": "sant-usant", "text": "Luftmotstandskonstanten k avhenger blant annet av formen på legemet.", "correct": true, "explain": "Også av areal og luftens tetthet." },
+      { "id": "m04", "type": "sant-usant", "text": "Eulers metode gir alltid helt eksakte svar.", "correct": false, "explain": "Den gir en tilnærming som avhenger av tidssteget." },
+      { "id": "m05", "type": "flervalg", "text": "Hvor stor er akselerasjonen i starten av et fall fra ro med luftmotstand?", "options": ["Null", "Omtrent g", "2g", "Negativ"], "correct": 1, "explain": "Farten og dermed luftmotstanden er null i starten." },
+      { "id": "m06", "type": "flervalg", "text": "Hva skjer med terminalfarten hvis k blir større, for eksempel når fallskjermen åpnes?", "options": ["Den blir mindre", "Den blir større", "Den er uendret", "Den blir lik g"], "correct": 0, "explain": "v_t = √(mg/k)." },
+      { "id": "m07", "type": "flervalg", "text": "Hva gjør linjen «t = t + dt» i programmet?", "options": ["Beregner farten", "Beregner kraften", "Øker tiden med ett tidssteg", "Stopper programmet"], "correct": 2, "explain": "Løkken går til t når sluttiden." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

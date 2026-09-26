@@ -1,0 +1,82 @@
+{
+  "id": "varme-og-temperatur",
+  "fagId": "fysikk-1",
+  "trinnId": "vg2",
+  "name": "Varme, temperatur og indre energi",
+  "intro": "Forskjellen på temperatur, varme og indre energi, kelvinskalaen, spesifikk varmekapasitet, faseoverganger, varmetransport og termodynamikkens første og andre lov.",
+  "kompetansemaal": [10],
+  "sammendrag": "## Temperatur\n\nAlle stoffer består av partikler i **bevegelse**. **Temperaturen** er et mål på den **gjennomsnittlige kinetiske energien** til partiklene. Jo varmere, desto raskere beveger de seg.\n\nI fysikken bruker vi ofte **kelvinskalaen**: **T = t + 273** (mer nøyaktig 273,15). **Det absolutte nullpunktet**, 0 K = −273,15 °C, er den laveste temperaturen som er mulig. En temperaturendring på 1 K er like stor som 1 °C.\n\n## Indre energi og varme\n\n- **Indre energi** U er den samlede energien til alle partiklene i et stoff – både bevegelsesenergi og energi knyttet til kreftene mellom dem.\n- **Varme** Q er energi som overføres **på grunn av en temperaturforskjell**. Varme er altså energi **i overføring**, ikke noe et legeme «har».\n\n**Termodynamikkens første lov**: Endringen i indre energi er lik tilført varme pluss arbeid gjort **på** systemet:\n\n**ΔU = Q + W**\n\nDette er energiprinsippet brukt på varme. Du kan varme opp hendene både ved å holde dem over en ovn (varme) og ved å gni dem mot hverandre (arbeid).\n\n## Spesifikk varmekapasitet\n\nDen **spesifikke varmekapasiteten** c forteller hvor mye energi som trengs for å varme opp 1 kg av et stoff med 1 K:\n\n**Q = c · m · ΔT**\n\nVann har en svært høy verdi: c ≈ **4180 J/(kg·K)**. Det er derfor havet jevner ut temperaturen langs kysten.\n\n**Eksempel**: Å varme 1,0 kg vann fra 20 °C til 100 °C krever Q = 4180 · 1,0 · 80 ≈ **3,3 · 10⁵ J** (334 kJ).\n\n## Faseoverganger\n\nNår et stoff **smelter** eller **fordamper**, går energien med til å bryte bindinger mellom partiklene, og **temperaturen er konstant** under overgangen.\n\n- **Spesifikk smeltevarme** for is: l_s ≈ 334 kJ/kg. Å smelte 0,50 kg is ved 0 °C krever 0,50 · 334 ≈ **167 kJ**.\n- **Spesifikk fordampningsvarme** for vann: l_f ≈ 2,26 MJ/kg – nesten sju ganger så mye.\n\nNår damp **kondenserer** eller vann **fryser**, frigjøres den samme energien.\n\n## Varmetransport\n\n- **Varmeledning**: Energi overføres gjennom et stoff ved at partikler støter mot hverandre. Metaller leder godt, luft og isopor dårlig.\n- **Konveksjon** (strømning): Varm væske eller gass stiger og fører energi med seg, som i en panelovn eller i havstrømmer.\n- **Stråling**: Alle legemer sender ut elektromagnetisk stråling – slik får vi energi fra sola gjennom tomt rom.\n\n## Termodynamikkens andre lov\n\nVarme går **av seg selv** bare fra **varmt til kaldt**. For å flytte varme fra kaldt til varmt må vi tilføre **arbeid** – slik fungerer et **kjøleskap** og en **varmepumpe**. Loven forklarer også hvorfor ingen varmekraftmaskin kan omforme all varme til arbeid, og hvorfor energikvaliteten synker.",
+  "flashcards": [
+    { "term": "Temperatur", "def": "Mål på partiklenes gjennomsnittlige kinetiske energi." },
+    { "term": "Kelvin", "def": "T = t + 273,15" },
+    { "term": "Absolutt nullpunkt", "def": "0 K = −273,15 °C, laveste mulige temperatur." },
+    { "term": "Indre energi", "def": "Samlet energi til alle partiklene i et stoff." },
+    { "term": "Varme", "def": "Energi som overføres på grunn av temperaturforskjell." },
+    { "term": "Termodynamikkens 1. lov", "def": "ΔU = Q + W" },
+    { "term": "Spesifikk varmekapasitet", "def": "Energi for å varme 1 kg med 1 K; Q = cmΔT." },
+    { "term": "c for vann", "def": "Omtrent 4180 J/(kg·K)." },
+    { "term": "Spesifikk smeltevarme for is", "def": "Omtrent 334 kJ/kg." },
+    { "term": "Spesifikk fordampningsvarme for vann", "def": "Omtrent 2,26 MJ/kg." },
+    { "term": "Faseovergang", "def": "Temperaturen er konstant mens stoffet smelter eller fordamper." },
+    { "term": "Varmeledning", "def": "Energioverføring ved at partikler støter mot hverandre." },
+    { "term": "Konveksjon", "def": "Varm væske eller gass strømmer og fører energi med seg." },
+    { "term": "Varmestråling", "def": "Elektromagnetisk stråling fra alle legemer." },
+    { "term": "Termodynamikkens 2. lov", "def": "Varme går av seg selv bare fra varmt til kaldt." },
+    { "term": "Varmepumpe", "def": "Flytter varme fra kaldt til varmt ved hjelp av arbeid." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er temperatur et mål på?", "options": ["Hvor mye varme et legeme har", "Partiklenes gjennomsnittlige kinetiske energi", "Massen til et stoff", "Trykket i en gass"], "correct": 1, "explain": "Varme er energi i overføring." },
+    { "id": "q02", "text": "Hvor mye energi trengs for å varme 1,0 kg vann fra 20 °C til 100 °C?", "options": ["Omtrent 334 kJ", "Omtrent 84 J", "Omtrent 4,2 kJ", "Omtrent 2,26 MJ"], "correct": 0, "explain": "Q = 4180 · 1,0 · 80." },
+    { "id": "q03", "text": "Hva er 27 °C i kelvin?", "options": ["27 K", "−246 K", "300 K", "373 K"], "correct": 2, "explain": "T = 27 + 273." },
+    { "id": "q04", "text": "Hva skjer med temperaturen mens is smelter?", "options": ["Den stiger jevnt", "Den synker", "Den svinger", "Den er konstant"], "correct": 3, "explain": "Energien går til å bryte bindinger." },
+    { "id": "q05", "text": "Hva sier termodynamikkens første lov?", "options": ["ΔU = Q + W", "Varme går fra kaldt til varmt", "Q = cmΔT", "Temperaturen er alltid konstant"], "correct": 0, "explain": "Energiprinsippet brukt på varme." },
+    { "id": "q06", "text": "Hvilken form for varmetransport skjer gjennom tomt rom?", "options": ["Varmeledning", "Stråling", "Konveksjon", "Kondensasjon"], "correct": 1, "explain": "Slik får vi energi fra sola." },
+    { "id": "q07", "text": "Hvor mye energi trengs for å smelte 0,50 kg is ved 0 °C?", "options": ["334 kJ", "2,1 kJ", "Omtrent 167 kJ", "1,13 MJ"], "correct": 2, "explain": "0,50 · 334 kJ." },
+    { "id": "q08", "text": "Hva sier termodynamikkens andre lov?", "options": ["Energi kan skapes", "All varme kan omformes til arbeid", "Temperaturen er alltid 0 K", "Varme går av seg selv bare fra varmt til kaldt"], "correct": 3, "explain": "Kjøleskap og varmepumper må tilføres arbeid." },
+    { "id": "q09", "text": "Hvorfor jevner havet ut temperaturen langs kysten?", "options": ["Vann har høy spesifikk varmekapasitet", "Vann leder ikke varme", "Vann er alltid 4 °C", "Havet reflekterer alt sollys"], "correct": 0, "explain": "Det trengs mye energi for å endre temperaturen." },
+    { "id": "q10", "text": "Hva er konveksjon?", "options": ["Stråling fra varme legemer", "Varm væske eller gass som strømmer og fører energi med seg", "At partikler støter mot hverandre i et fast stoff", "At et stoff smelter"], "correct": 1, "explain": "For eksempel i en panelovn." }
+  ],
+  "mindmap": {
+    "label": "Varme og temperatur",
+    "children": [
+      { "label": "Begreper", "children": [
+        { "label": "Temperatur" },
+        { "label": "Indre energi" },
+        { "label": "Varme" }
+      ] },
+      { "label": "Kelvin", "children": [
+        { "label": "T = t + 273" },
+        { "label": "Absolutt nullpunkt" }
+      ] },
+      { "label": "Beregninger", "children": [
+        { "label": "Q = cmΔT" },
+        { "label": "Smeltevarme" },
+        { "label": "Fordampningsvarme" }
+      ] },
+      { "label": "Varmetransport", "children": [
+        { "label": "Ledning" },
+        { "label": "Konveksjon" },
+        { "label": "Stråling" }
+      ] },
+      { "label": "Termodynamikk", "children": [
+        { "label": "1. lov: ΔU = Q + W" },
+        { "label": "2. lov: varmt til kaldt" },
+        { "label": "Varmepumpe" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "En temperaturendring på 1 K er like stor som en endring på 1 °C.", "correct": true, "explain": "Skalaene har samme gradstørrelse." },
+      { "id": "m02", "type": "sant-usant", "text": "Et legeme inneholder varme.", "correct": false, "explain": "Et legeme har indre energi; varme er energi i overføring." },
+      { "id": "m03", "type": "sant-usant", "text": "Det krever mer energi å fordampe 1 kg vann enn å smelte 1 kg is.", "correct": true, "explain": "2,26 MJ mot 334 kJ." },
+      { "id": "m04", "type": "sant-usant", "text": "Luft er en god varmeleder.", "correct": false, "explain": "Luft leder varme dårlig – derfor isolerer ull og isopor." },
+      { "id": "m05", "type": "flervalg", "text": "Du gnir hendene mot hverandre og de blir varme. Hva skjer?", "options": ["Varme tilføres fra lufta", "Arbeid øker den indre energien", "Temperaturen synker", "Energi forsvinner"], "correct": 1, "explain": "ΔU = Q + W med W > 0." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er det absolutte nullpunktet?", "options": ["−273,15 °C", "0 °C", "−100 °C", "−459 °C"], "correct": 0, "explain": "0 K." },
+      { "id": "m07", "type": "flervalg", "text": "Hvordan kan en varmepumpe hente varme fra kald uteluft?", "options": ["Den skaper energi", "Varmen går av seg selv fra kaldt til varmt", "Den bruker arbeid (elektrisk energi) til å flytte varmen", "Den bruker ingen energi"], "correct": 2, "explain": "Termodynamikkens andre lov krever tilført arbeid." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
