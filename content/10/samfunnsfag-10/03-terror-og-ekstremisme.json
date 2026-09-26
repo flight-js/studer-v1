@@ -1,0 +1,85 @@
+{
+  "id": "terror-og-ekstremisme",
+  "fagId": "samfunnsfag-10",
+  "trinnId": "10",
+  "name": "Terror og ekstremisme",
+  "intro": "Hva terror, ekstremisme og radikalisering er, eksempler på terrorangrep, årsaker og konsekvenser, og hvordan ekstreme holdninger og handlinger kan forebygges.",
+  "kompetansemaal": [8],
+  "sammendrag": "## Hva er terror?\n\n**Terror** er vold eller trusler om vold mot sivile for å skape frykt og oppnå politiske, religiøse eller ideologiske mål. Terroristene vil at handlingen skal få stor oppmerksomhet og påvirke langt flere enn dem som rammes direkte. **Ekstremisme** er holdninger som godtar bruk av vold for å nå et mål. Å ha radikale meninger er lov i et demokrati, men det blir ekstremisme når man aksepterer vold.\n\n## Ulike former for ekstremisme\n\n- **Høyreekstremisme**: ofte rasisme, fremmedfiendtlighet og tanken om at «eget folk» er truet.\n- **Islamistisk ekstremisme**: grupper som al-Qaida og IS, som vil innføre sin tolkning av islam med vold.\n- **Venstreekstremisme**: vold mot det man ser som kapitalisme og undertrykkende stater.\n- **Separatistisk terror**: vold for å skille ut et område som egen stat.\n\n## Terrorangrep\n\n- **11. september 2001** kapret al-Qaida fire fly i USA. Nesten 3000 mennesker ble drept. USA svarte med krig i Afghanistan og det som ble kalt «krigen mot terror».\n- **22. juli 2011** ble 77 mennesker drept da en høyreekstrem terrorist bombet Regjeringskvartalet i Oslo og skjøt ungdommer på AUFs sommerleir på **Utøya**. Det er det verste angrepet i Norge siden andre verdenskrig.\n- I 2019 drepte en høyreekstrem terrorist 51 mennesker i to moskeer i **Christchurch** på New Zealand. Samme år angrep en norsk høyreekstremist en moské i Bærum.\n- **25. juni 2022** ble to mennesker drept i et islamistisk terrorangrep i Oslo under Pride-feiringen.\n\n## Radikalisering\n\n**Radikalisering** er prosessen der en person gradvis får ekstreme holdninger og kan komme til å bruke vold. Mulige årsaker er\n\n- en følelse av **utenforskap**, urettferdighet eller krenkelse\n- søken etter **identitet**, mening og fellesskap\n- **propaganda** og **konspirasjonsteorier** på nett, der algoritmer og **ekkokamre** forsterker budskapet\n- personlige kriser og kontakt med ekstreme miljøer\n\n## Konsekvenser\n\nTerror gir tap av liv, alvorlige skader og traumer for overlevende, pårørende og hele samfunnet. Den kan skape **frykt** og **mistillit**, og noen ganger blir hele grupper mistenkeliggjort. Samfunn svarer ofte med mer overvåking og strengere sikkerhetstiltak, og da må vi veie **sikkerhet** mot **frihet og personvern**. Etter 22. juli samlet likevel mange seg i rosetog for å vise samhold og støtte til demokratiet.\n\n## Forebygging\n\n- **Inkludering** og gode fellesskap, slik at ingen blir stående utenfor\n- **Kunnskap** og **kildekritikk** mot propaganda, hatprat og konspirasjonsteorier\n- Å **ta bekymringer på alvor** og snakke med en voksen hvis noen du kjenner, endrer seg og uttrykker støtte til vold\n- **Demokratisk debatt**, der uenighet møtes med argumenter\n- Arbeid fra **PST** og politiet, og internasjonalt samarbeid",
+  "flashcards": [
+    { "term": "Terror", "def": "Vold eller trusler mot sivile for å skape frykt og oppnå politiske, religiøse eller ideologiske mål." },
+    { "term": "Ekstremisme", "def": "Holdninger som godtar bruk av vold for å nå et mål." },
+    { "term": "Radikalisering", "def": "Prosessen der en person gradvis får ekstreme holdninger." },
+    { "term": "Høyreekstremisme", "def": "Ekstremisme preget av rasisme og fremmedfiendtlighet." },
+    { "term": "Islamistisk ekstremisme", "def": "Voldelig ekstremisme som vil innføre en bestemt tolkning av islam, for eksempel al-Qaida og IS." },
+    { "term": "Venstreekstremisme", "def": "Voldelig ekstremisme rettet mot kapitalisme og det man ser som undertrykkende stater." },
+    { "term": "11. september 2001", "def": "Al-Qaidas angrep i USA der nesten 3000 mennesker ble drept." },
+    { "term": "22. juli 2011", "def": "Høyreekstreme terrorangrep mot Regjeringskvartalet og Utøya. 77 ble drept." },
+    { "term": "Konspirasjonsteori", "def": "Forestilling om at hemmelige grupper i skjul styrer hendelser, uten godt bevis." },
+    { "term": "Utenforskap", "def": "Å føle seg utenfor fellesskapet, for eksempel i skole, arbeid eller vennegjeng." },
+    { "term": "Ekkokammer", "def": "Miljø der man mest møter meninger som bekrefter ens egne." },
+    { "term": "PST", "def": "Politiets sikkerhetstjeneste, som blant annet skal avdekke og forebygge terror." },
+    { "term": "Propaganda", "def": "Ensidig informasjon som skal påvirke holdninger og handlinger." },
+    { "term": "Sikkerhet mot frihet", "def": "Avveiningen mellom å beskytte samfunnet og å bevare personvern og frihet." },
+    { "term": "Forebygging", "def": "Tiltak som hindrer at noen blir radikalisert eller utfører vold." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er terror?", "options": ["Vold eller trusler mot sivile for å skape frykt og oppnå politiske mål", "All kriminalitet", "Krig mellom to land", "En demonstrasjon"], "correct": 0, "explain": "Terror retter seg mot sivile og skal påvirke mange flere enn dem som rammes." },
+    { "id": "q02", "text": "Når blir radikale meninger til ekstremisme?", "options": ["Når man er uenig med regjeringen", "Når man godtar bruk av vold for å nå målet", "Når man skriver leserinnlegg", "Når man demonstrerer"], "correct": 1, "explain": "Radikale meninger er lov i et demokrati, men ikke å bruke vold." },
+    { "id": "q03", "text": "Hvor mange ble drept i terrorangrepene 22. juli 2011?", "options": ["12", "35", "77", "3000"], "correct": 2, "explain": "Åtte ble drept i Regjeringskvartalet og 69 på Utøya." },
+    { "id": "q04", "text": "Hva er radikalisering?", "options": ["Å bli medlem av et parti", "Å endre mening etter en debatt", "Å flytte til et annet land", "Prosessen der en person gradvis får ekstreme holdninger"], "correct": 3, "explain": "Radikalisering skjer som regel over tid og har flere årsaker." },
+    { "id": "q05", "text": "Hvordan kan internett bidra til radikalisering?", "options": ["Algoritmer og ekkokamre kan forsterke ekstreme budskap", "Internett gjør alle mer tolerante", "Internett stopper all propaganda", "Det kan det ikke"], "correct": 0, "explain": "Ekstreme miljøer på nett kan gi fellesskap og normalisere voldelige ideer." },
+    { "id": "q06", "text": "Hva skjedde 11. september 2001?", "options": ["Berlinmuren falt", "Al-Qaida kapret fly og angrep mål i USA", "Terrorangrepet på Utøya", "Terrorangrepet under Pride i Oslo"], "correct": 1, "explain": "Angrepene fikk store følger for internasjonal politikk." },
+    { "id": "q07", "text": "Hvilken avveining må samfunnet gjøre etter terrorangrep?", "options": ["Mellom sport og kultur", "Mellom skatt og lønn", "Mellom by og land", "Mellom sikkerhet og frihet og personvern"], "correct": 3, "explain": "Mer overvåking kan gi tryggere samfunn, men også begrense friheten." },
+    { "id": "q08", "text": "Hva er et tiltak for å forebygge ekstremisme?", "options": ["Å utestenge dem som er annerledes", "Inkludering og gode fellesskap", "Å spre konspirasjonsteorier", "Å unngå å snakke om vanskelige temaer"], "correct": 1, "explain": "Tilhørighet gjør det mindre fristende å søke fellesskap i ekstreme miljøer." },
+    { "id": "q09", "text": "Hva bør du gjøre hvis en venn begynner å uttrykke støtte til vold?", "options": ["Ignorere det", "Le av det", "Si ifra og snakke med en voksen du stoler på", "Dele innleggene videre"], "correct": 2, "explain": "Tidlig hjelp kan hindre at noen blir radikalisert." },
+    { "id": "q10", "text": "Hvilken etat har et særlig ansvar for å avdekke terrorplaner i Norge?", "options": ["NAV", "Datatilsynet", "Skatteetaten", "PST"], "correct": 3, "explain": "Politiets sikkerhetstjeneste jobber med å forebygge og avdekke terror." }
+  ],
+  "mindmap": {
+    "label": "Terror og ekstremisme",
+    "children": [
+      { "label": "Begreper", "children": [
+        { "label": "Terror" },
+        { "label": "Ekstremisme" },
+        { "label": "Radikalisering" }
+      ] },
+      { "label": "Former", "children": [
+        { "label": "Høyreekstrem" },
+        { "label": "Islamistisk" },
+        { "label": "Venstreekstrem" },
+        { "label": "Separatistisk" }
+      ] },
+      { "label": "Angrep", "children": [
+        { "label": "11. september 2001" },
+        { "label": "22. juli 2011" },
+        { "label": "Christchurch 2019" },
+        { "label": "Oslo 2022" }
+      ] },
+      { "label": "Årsaker", "children": [
+        { "label": "Utenforskap" },
+        { "label": "Identitet og fellesskap" },
+        { "label": "Propaganda og konspirasjonsteorier" }
+      ] },
+      { "label": "Konsekvenser og forebygging", "children": [
+        { "label": "Frykt og mistillit" },
+        { "label": "Sikkerhet mot frihet" },
+        { "label": "Inkludering og kunnskap" },
+        { "label": "Si ifra" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Det er lov å ha radikale meninger i et demokrati.", "correct": true, "explain": "Grensen går ved vold, trusler og hatefulle ytringer." },
+      { "id": "m02", "type": "sant-usant", "text": "Terror utføres bare av én bestemt religiøs gruppe.", "correct": false, "explain": "Terror har blitt utført av mange ulike grupper og ideologier." },
+      { "id": "m03", "type": "sant-usant", "text": "Etter 22. juli samlet mange seg i rosetog for å vise samhold.", "correct": true, "explain": "Rosetogene ble et symbol på svaret mot terroren." },
+      { "id": "m04", "type": "sant-usant", "text": "Mer overvåking har aldri noen ulemper.", "correct": false, "explain": "Overvåking kan gå ut over personvernet og friheten til alle." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er en konspirasjonsteori?", "options": ["En vitenskapelig bevist teori", "En forestilling om at hemmelige grupper i skjul styrer hendelser, uten godt bevis", "En type nyhetsartikkel", "En lov"], "correct": 1, "explain": "Konspirasjonsteorier brukes ofte til å skape fiendebilder." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er utenforskap?", "options": ["Å føle seg utenfor fellesskapet", "Å bo i utlandet", "Å være på ferie", "Å være medlem i mange klubber"], "correct": 0, "explain": "Utenforskap kan gjøre noen mer sårbare for ekstreme miljøer." },
+      { "id": "m07", "type": "flervalg", "text": "Hvor skjedde terrorangrepet mot to moskeer i 2019, der 51 ble drept?", "options": ["Oslo", "Paris", "Christchurch", "London"], "correct": 2, "explain": "Angrepet i Christchurch på New Zealand ble utført av en høyreekstremist." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

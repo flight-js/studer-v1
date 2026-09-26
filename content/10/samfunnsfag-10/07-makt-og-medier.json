@@ -1,0 +1,88 @@
+{
+  "id": "makt-og-medier",
+  "fagId": "samfunnsfag-10",
+  "trinnId": "10",
+  "name": "Makt, medier og digital debatt",
+  "intro": "Hvem som har makt i samfunnet i dag og hvordan de argumenterer, hvordan mediene og digitale plattformer former samfunnsdebatten, og hvordan du vurderer kilder kritisk.",
+  "kompetansemaal": [16, 17, 2],
+  "sammendrag": "## Hva er makt?\n\n**Makt** er evnen til å få andre til å gjøre noe de ellers ikke ville gjort, eller til å påvirke utviklingen i samfunnet. Makt kan være **politisk** (å vedta lover), **økonomisk** (å eie og investere), **kunnskapsmakt** (å være ekspert) og **mediemakt** (å bestemme hva folk får vite om, og hvordan).\n\n## Hvem har makt i dag?\n\n- **Stortinget og regjeringen** har den formelle politiske makten, og **domstolene** kan sette grenser for den.\n- **Interesseorganisasjoner**, som LO, NHO og miljøorganisasjoner, påvirker gjennom forhandlinger, høringer og kampanjer. **Lobbyister** prøver å påvirke politikere på vegne av bedrifter og organisasjoner.\n- **Næringslivet** har makt gjennom arbeidsplasser og investeringer.\n- **Internasjonale teknologiselskaper** som eier sosiale medier og søkemotorer, bestemmer gjennom algoritmene hva milliarder av mennesker ser.\n- **Mediene** setter dagsorden og avslører maktmisbruk, og **influensere** kan nå mange raskt.\n- Gjennom **EØS-avtalen** får regler vedtatt i EU også betydning i Norge.\n\n## Hvordan grunngir aktørene standpunktene sine?\n\nAktører bruker ulike argumenter: **verdier** (frihet, likhet, solidaritet, trygghet), **fakta og forskning**, **konsekvenser** og **egeninteresse**. I retorikken skilles det mellom **etos** (troverdighet), **patos** (følelser) og **logos** (fornuft og fakta). Når du vurderer et utspill, bør du spørre: Hvem er avsenderen, hvilke interesser har de, og hvilke argumenter mangler?\n\n## Redaktørstyrte medier\n\nAviser, radio og TV med en ansvarlig **redaktør** følger de presseetiske reglene i **Vær Varsom-plakaten**, og klager kan behandles av **Pressens Faglige Utvalg** (PFU). Mediene skal være samfunnets **vaktbikkje**. Samtidig påvirker de oss gjennom hvilke saker de velger (**dagsorden**) og hvordan de vinkler dem.\n\n## Digital deltakelse og samfunnsdebatten\n\nPå sosiale medier kan alle delta, og nye stemmer blir hørt. Men plattformene påvirker både **formen** og **innholdet** i debatten:\n\n- Formen blir kort, visuell og følelsesladd, med memes og korte videoer.\n- **Algoritmer** belønner engasjement, og det kan fremme spisse og polariserende utspill.\n- **Desinformasjon** og **KI-lagede** bilder og videoer (deepfakes) kan spre seg raskt.\n- **Filterbobler** gjør at vi mest møter meninger vi allerede er enige i.\n- Hets kan skremme folk bort fra debatten.\n\n## Kildekritikk\n\nKilder gir informasjon på ulike måter: som fakta, meninger, statistikk eller personlige erfaringer. **Ensrettede kilder** viser bare én side, og **mangel på kilder** kan gi et skjevt bilde. Gode vaner er å sjekke hvem som står bak kilden, når og hvorfor den ble laget, sammenligne flere kilder og bruke faktasjekk-tjenester som **Faktisk.no**.",
+  "flashcards": [
+    { "term": "Makt", "def": "Evnen til å få andre til å gjøre noe eller påvirke utviklingen i samfunnet." },
+    { "term": "Politisk makt", "def": "Makt til å vedta lover og budsjetter." },
+    { "term": "Økonomisk makt", "def": "Makt gjennom eierskap, investeringer og arbeidsplasser." },
+    { "term": "Mediemakt", "def": "Makt til å bestemme hva folk får vite om, og hvordan det framstilles." },
+    { "term": "Lobbyisme", "def": "Å prøve å påvirke politikere på vegne av bedrifter eller organisasjoner." },
+    { "term": "Etos", "def": "Appell til avsenderens troverdighet." },
+    { "term": "Patos", "def": "Appell til følelser." },
+    { "term": "Logos", "def": "Appell til fornuft, fakta og logikk." },
+    { "term": "Redaktørstyrte medier", "def": "Medier med en ansvarlig redaktør som følger presseetiske regler." },
+    { "term": "Vær Varsom-plakaten", "def": "Presseetiske regler for norske medier." },
+    { "term": "PFU", "def": "Pressens Faglige Utvalg, som behandler klager på medier." },
+    { "term": "Dagsorden", "def": "Hvilke saker som får oppmerksomhet i samfunnet." },
+    { "term": "Desinformasjon", "def": "Bevisst falsk eller villedende informasjon." },
+    { "term": "Deepfake", "def": "KI-laget bilde eller video som ser ekte ut." },
+    { "term": "Faktasjekk", "def": "Å undersøke om en påstand stemmer, for eksempel med Faktisk.no." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er makt?", "options": ["Evnen til å påvirke andre eller utviklingen i samfunnet", "Å ha mange venner", "Å være fysisk sterk", "Å ha mye fritid"], "correct": 0, "explain": "Makt kan være politisk, økonomisk, kunnskapsbasert eller knyttet til medier." },
+    { "id": "q02", "text": "Hva gjør en lobbyist?", "options": ["Dømmer i rettssaker", "Prøver å påvirke politikere på vegne av bedrifter eller organisasjoner", "Skriver nyheter", "Teller stemmer"], "correct": 1, "explain": "Lobbyisme er lovlig, men åpenhet om hvem som påvirker, er viktig i et demokrati." },
+    { "id": "q03", "text": "Hvilken appellform bygger på følelser?", "options": ["Etos", "Logos", "Patos", "Ingen av dem"], "correct": 2, "explain": "Patos spiller for eksempel på medfølelse, frykt eller sinne." },
+    { "id": "q04", "text": "Hvorfor har internasjonale teknologiselskaper stor makt?", "options": ["Fordi de vedtar norske lover", "Fordi de eier alle aviser", "Fordi de styrer domstolene", "Fordi algoritmene deres bestemmer hva milliarder ser"], "correct": 3, "explain": "Algoritmene påvirker hvilke nyheter og meninger vi møter." },
+    { "id": "q05", "text": "Hva er Vær Varsom-plakaten?", "options": ["Presseetiske regler for redaktørstyrte medier", "En trafikkregel", "En lov om sosiale medier", "En plakat i klasserommet"], "correct": 0, "explain": "Reglene handler blant annet om kildebruk, personvern og retten til å svare på kritikk." },
+    { "id": "q06", "text": "Hvordan kan algoritmer påvirke formen på samfunnsdebatten?", "options": ["De gjør innleggene lengre og roligere", "De belønner engasjement og kan fremme spisse utspill", "De fjerner alle meninger", "De har ingen påvirkning"], "correct": 1, "explain": "Innlegg som vekker sterke følelser, får ofte mest spredning." },
+    { "id": "q07", "text": "Hva er en deepfake?", "options": ["En falsk nyhetsavis", "En type datavirus", "Et KI-laget bilde eller en video som ser ekte ut", "En hemmelig chat"], "correct": 2, "explain": "Deepfakes kan brukes til å spre desinformasjon." },
+    { "id": "q08", "text": "Hva betyr det at mediene setter dagsorden?", "options": ["At de bestemmer lovene", "At de lager timeplaner", "At de velger politikere", "At de påvirker hvilke saker folk snakker om"], "correct": 3, "explain": "Det mediene skriver mye om, blir ofte det politikerne må svare på." },
+    { "id": "q09", "text": "Hvilket spørsmål er viktig når du vurderer et politisk utspill?", "options": ["Hvem er avsenderen, og hvilke interesser har de?", "Hvor mange liker innlegget?", "Hvilken farge har logoen?", "Hvor lang er teksten?"], "correct": 0, "explain": "Interessene til avsenderen kan påvirke hvilke argumenter som brukes." },
+    { "id": "q10", "text": "Hva er en ensrettet kilde?", "options": ["En kilde med mange perspektiver", "En kilde som bare viser én side av en sak", "En offentlig statistikk", "En kilde som er oppdatert"], "correct": 1, "explain": "Ensrettede kilder bør suppleres med andre kilder." }
+  ],
+  "mindmap": {
+    "label": "Makt og medier",
+    "children": [
+      { "label": "Makt", "children": [
+        { "label": "Politisk" },
+        { "label": "Økonomisk" },
+        { "label": "Kunnskap" },
+        { "label": "Medier" }
+      ] },
+      { "label": "Aktører", "children": [
+        { "label": "Storting og regjering" },
+        { "label": "Organisasjoner og lobbyister" },
+        { "label": "Næringsliv og techselskaper" },
+        { "label": "Medier og influensere" },
+        { "label": "EU gjennom EØS" }
+      ] },
+      { "label": "Argumentasjon", "children": [
+        { "label": "Verdier og interesser" },
+        { "label": "Etos" },
+        { "label": "Patos" },
+        { "label": "Logos" }
+      ] },
+      { "label": "Digital debatt", "children": [
+        { "label": "Lav terskel" },
+        { "label": "Algoritmer og polarisering" },
+        { "label": "Desinformasjon og deepfakes" },
+        { "label": "Filterbobler" }
+      ] },
+      { "label": "Kildekritikk", "children": [
+        { "label": "Avsender og formål" },
+        { "label": "Flere kilder" },
+        { "label": "Faktasjekk" },
+        { "label": "Redaktørstyrte medier" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Regler vedtatt i EU kan få betydning i Norge gjennom EØS-avtalen.", "correct": true, "explain": "Norge er ikke medlem av EU, men må ta inn mange EU-regler gjennom EØS." },
+      { "id": "m02", "type": "sant-usant", "text": "Alt som deles på sosiale medier, følger presseetiske regler.", "correct": false, "explain": "Bare redaktørstyrte medier er bundet av Vær Varsom-plakaten." },
+      { "id": "m03", "type": "sant-usant", "text": "Mangel på kilder kan gi et skjevt bilde av en sak.", "correct": true, "explain": "Stemmer som mangler, kan gjøre at bildet blir ufullstendig." },
+      { "id": "m04", "type": "sant-usant", "text": "Et argument som bygger på følelser, kalles logos.", "correct": false, "explain": "Følelsesargumenter kalles patos. Logos bygger på fornuft og fakta." },
+      { "id": "m05", "type": "flervalg", "text": "Hvor kan du klage hvis en avis bryter god presseskikk?", "options": ["Pressens Faglige Utvalg (PFU)", "Datatilsynet", "Stortinget", "NAV"], "correct": 0, "explain": "PFU vurderer om mediene har fulgt Vær Varsom-plakaten." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er desinformasjon?", "options": ["Korrekte nyheter", "Bevisst falsk eller villedende informasjon", "Reklame", "Statistikk"], "correct": 1, "explain": "Desinformasjon spres med vilje for å villede." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er etos?", "options": ["Et argument basert på statistikk", "Et argument som spiller på frykt", "Troverdigheten til avsenderen", "En type kilde"], "correct": 2, "explain": "Vi lytter gjerne mer til en avsender vi opplever som troverdig og kunnskapsrik." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

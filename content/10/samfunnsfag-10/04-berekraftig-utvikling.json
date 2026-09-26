@@ -1,0 +1,81 @@
+{
+  "id": "berekraftig-utvikling",
+  "fagId": "samfunnsfag-10",
+  "trinnId": "10",
+  "name": "Bærekraftig utvikling",
+  "intro": "Hva bærekraftig utvikling betyr, hvordan den miljømessige, økonomiske og sosiale dimensjonen påvirker hverandre, og hvilke tiltak som kan gi mer bærekraftige samfunn.",
+  "kompetansemaal": [11],
+  "sammendrag": "## Hva er bærekraftig utvikling?\n\nI rapporten **Vår felles framtid** fra 1987 definerte **Brundtland-kommisjonen**, ledet av Gro Harlem Brundtland, bærekraftig utvikling som utvikling som dekker dagens behov uten å ødelegge mulighetene for at kommende generasjoner skal få dekket sine behov. Tanken er at vi ikke kan bruke opp jordas ressurser eller skade naturen så mye at de som kommer etter oss, får det vanskeligere.\n\n## Tre dimensjoner\n\n- **Miljømessig**: Naturen må tåle det vi gjør. Det handler om klima, naturmangfold, rent vann, ren luft og at vi ikke bruker ressurser raskere enn de fornyes.\n- **Økonomisk**: Samfunnet må ha en økonomi som gir arbeid, inntekt og velferd over tid, uten å bygge på **rovdrift**.\n- **Sosial**: Alle skal ha tilgang til grunnleggende behov som mat, helse og utdanning, og det må være rettferdig fordeling, likestilling og trygghet.\n\n## Dimensjonene påvirker hverandre\n\nDimensjonene henger tett sammen, og noen ganger trekker de i hver sin retning:\n\n- Fattigdom (sosialt) kan tvinge folk til å hogge ned skog for å overleve (miljø).\n- Klimaendringer (miljø) rammer ofte de fattigste hardest, gjennom tørke, flom og dårligere avlinger (sosialt og økonomisk).\n- Å avvikle olje- og gassproduksjon kan redusere utslipp (miljø), men også gi tap av arbeidsplasser og inntekter (økonomisk og sosialt).\n\nDerfor må tiltak vurderes ut fra alle tre dimensjonene.\n\n## FNs bærekraftsmål og Parisavtalen\n\nI 2015 vedtok FN **17 bærekraftsmål** som skal nås innen **2030**. De handler blant annet om å utrydde fattigdom og sult, sikre god utdanning og helse, likestilling, rent vann, ren energi, stoppe klimaendringene og ta vare på livet i havet og på land. Samme år ble **Parisavtalen** vedtatt. Målet er å begrense den globale oppvarmingen til godt under 2 °C, helst 1,5 °C.\n\n## Tiltak for mer bærekraftige samfunn\n\n- **Enkeltpersoner** kan kjøpe mindre og bruke ting lenger, reparere, sortere avfall, spise mer plantebasert og gå, sykle eller reise kollektivt.\n- **Kommuner** kan satse på kollektivtransport, sykkelveier og energieffektive bygg.\n- **Staten** kan bruke avgifter og støtte, for eksempel for å gjøre elbiler billigere. I dag er de aller fleste nye personbiler som selges i Norge, elbiler.\n- **Land** kan samarbeide om klimaavtaler, handel og bistand.\n- **Sirkulær økonomi** betyr at ressursene holdes i kretsløp gjennom gjenbruk og resirkulering, i stedet for å bli avfall.\n\n## Dilemmaer\n\nNorge har mye fornybar vannkraft, men tjener også store penger på å eksportere olje og gass som gir utslipp i andre land. Slike **dilemmaer** viser at bærekraft ofte krever vanskelige valg og kompromisser mellom ulike hensyn.",
+  "flashcards": [
+    { "term": "Bærekraftig utvikling", "def": "Utvikling som dekker dagens behov uten å ødelegge mulighetene for kommende generasjoner." },
+    { "term": "Brundtland-kommisjonen", "def": "FN-kommisjon som i 1987 la fram rapporten «Vår felles framtid»." },
+    { "term": "Miljømessig dimensjon", "def": "At naturen tåler det vi gjør: klima, naturmangfold, rent vann og ren luft." },
+    { "term": "Økonomisk dimensjon", "def": "En økonomi som gir arbeid, inntekt og velferd over tid uten rovdrift." },
+    { "term": "Sosial dimensjon", "def": "Rettferdig fordeling og tilgang til mat, helse, utdanning og trygghet." },
+    { "term": "FNs bærekraftsmål", "def": "17 mål vedtatt i 2015 som skal nås innen 2030." },
+    { "term": "Parisavtalen", "def": "Klimaavtale fra 2015: oppvarmingen skal holdes godt under 2 °C, helst 1,5 °C." },
+    { "term": "Naturmangfold", "def": "Variasjonen av arter, gener og økosystemer." },
+    { "term": "Fornybar energi", "def": "Energi fra kilder som ikke tar slutt, som vann, vind og sol." },
+    { "term": "Rovdrift", "def": "At ressurser brukes raskere enn de fornyes." },
+    { "term": "Sirkulær økonomi", "def": "Ressursene holdes i kretsløp gjennom gjenbruk og resirkulering." },
+    { "term": "Klimagass", "def": "Gass som forsterker drivhuseffekten, som CO₂ og metan." },
+    { "term": "Avgift", "def": "Et virkemiddel staten kan bruke for å gjøre miljøskadelige varer dyrere." },
+    { "term": "Dilemma", "def": "Et valg mellom to hensyn som begge er viktige." },
+    { "term": "Kommende generasjoner", "def": "De som skal leve etter oss, og som bærekraft skal ta hensyn til." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvem la fram definisjonen av bærekraftig utvikling i 1987?", "options": ["FNs sikkerhetsråd", "Brundtland-kommisjonen", "EU", "NATO"], "correct": 1, "explain": "Kommisjonen ble ledet av Gro Harlem Brundtland." },
+    { "id": "q02", "text": "Hvilke tre dimensjoner har bærekraftig utvikling?", "options": ["Miljømessig, økonomisk og sosial", "Politisk, militær og religiøs", "Lokal, nasjonal og global", "Fortid, nåtid og framtid"], "correct": 0, "explain": "Alle tre må ivaretas for at utviklingen skal være bærekraftig." },
+    { "id": "q03", "text": "Hvor mange bærekraftsmål vedtok FN i 2015?", "options": ["5", "10", "17", "30"], "correct": 2, "explain": "Målene gjelder alle land og skal etter planen nås innen 2030." },
+    { "id": "q04", "text": "Hva er målet i Parisavtalen?", "options": ["Å stoppe all bilkjøring", "Å øke oljeproduksjonen", "At alle land skal bli med i EU", "Å begrense oppvarmingen til godt under 2 °C, helst 1,5 °C"], "correct": 3, "explain": "Landene skal kutte klimagassutslipp for å nå målet." },
+    { "id": "q05", "text": "Hvordan kan fattigdom påvirke miljøet?", "options": ["Fattige mennesker kan bli tvunget til å hogge skog for å overleve", "Fattigdom gir alltid renere natur", "Fattigdom har ingen sammenheng med miljø", "Fattigdom gir mindre avfall overalt"], "correct": 0, "explain": "Her påvirker den sosiale dimensjonen den miljømessige." },
+    { "id": "q06", "text": "Hva er sirkulær økonomi?", "options": ["At pengene går i ring mellom bankene", "At ressursene holdes i kretsløp gjennom gjenbruk og resirkulering", "At alle varer lages av plast", "At man bare handler lokalt"], "correct": 1, "explain": "Målet er at minst mulig blir til avfall." },
+    { "id": "q07", "text": "Hvilket tiltak kan en kommune gjøre for mer bærekraft?", "options": ["Legge ned bussrutene", "Bygge flere motorveier inn til sentrum", "Øke antall parkeringsplasser", "Satse på kollektivtransport og sykkelveier"], "correct": 3, "explain": "Det gjør det lettere for innbyggerne å reise uten bil." },
+    { "id": "q08", "text": "Hvorfor kan det å avvikle oljeindustrien være et dilemma?", "options": ["Fordi det gir mer utslipp", "Fordi det kan redusere utslipp, men gi tap av arbeidsplasser og inntekter", "Fordi olje er fornybar", "Det er ikke noe dilemma"], "correct": 1, "explain": "Miljøhensyn og økonomiske hensyn trekker i hver sin retning." },
+    { "id": "q09", "text": "Hva betyr det at klimaendringer har en sosial dimensjon?", "options": ["At de ofte rammer de fattigste hardest", "At de bare påvirker naturen", "At de er gode for økonomien", "At de bare skjer i rike land"], "correct": 0, "explain": "De fattigste har minst ressurser til å tilpasse seg tørke og flom." },
+    { "id": "q10", "text": "Hva kan du som enkeltperson gjøre for mer bærekraft?", "options": ["Kjøpe mer og kaste oftere", "Kjøre bil korte strekninger", "Reparere, gjenbruke og reise kollektivt", "Kaste avfall usortert"], "correct": 2, "explain": "Mange små valg til sammen kan utgjøre en forskjell." }
+  ],
+  "mindmap": {
+    "label": "Bærekraftig utvikling",
+    "children": [
+      { "label": "Definisjon", "children": [
+        { "label": "Brundtland", "note": "1987" },
+        { "label": "Dagens og framtidens behov" }
+      ] },
+      { "label": "Dimensjoner", "children": [
+        { "label": "Miljømessig" },
+        { "label": "Økonomisk" },
+        { "label": "Sosial" }
+      ] },
+      { "label": "Sammenhenger", "children": [
+        { "label": "Fattigdom og avskoging" },
+        { "label": "Klima rammer fattige" },
+        { "label": "Olje og arbeidsplasser" }
+      ] },
+      { "label": "Avtaler", "children": [
+        { "label": "17 bærekraftsmål", "note": "2030" },
+        { "label": "Parisavtalen", "note": "2015" }
+      ] },
+      { "label": "Tiltak", "children": [
+        { "label": "Enkeltpersoner" },
+        { "label": "Kommuner" },
+        { "label": "Staten" },
+        { "label": "Sirkulær økonomi" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Bærekraftig utvikling handler bare om miljø.", "correct": false, "explain": "Den handler også om økonomi og sosiale forhold." },
+      { "id": "m02", "type": "sant-usant", "text": "FNs bærekraftsmål skal etter planen nås innen 2030.", "correct": true, "explain": "Målene ble vedtatt i 2015 med en frist på 15 år." },
+      { "id": "m03", "type": "sant-usant", "text": "De aller fleste nye personbiler som selges i Norge, er elbiler.", "correct": true, "explain": "Avgiftsfordeler har gjort elbiler svært populære i Norge." },
+      { "id": "m04", "type": "sant-usant", "text": "Miljøtiltak kan aldri komme i konflikt med økonomiske hensyn.", "correct": false, "explain": "Tiltak for miljøet kan for eksempel koste arbeidsplasser eller penger." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er fornybar energi?", "options": ["Energi fra kilder som ikke tar slutt, som vann, vind og sol", "Energi fra kull og olje", "Energi som bare kan brukes én gang", "Energi fra naturgass"], "correct": 0, "explain": "Fornybar energi gir lite klimagassutslipp i bruk." },
+      { "id": "m06", "type": "flervalg", "text": "Hva betyr rovdrift?", "options": ["At man sparer ressurser", "At man planter trær", "At ressurser brukes raskere enn de fornyes", "At man resirkulerer"], "correct": 2, "explain": "Overfiske er et eksempel på rovdrift." },
+      { "id": "m07", "type": "flervalg", "text": "Hva handler den sosiale dimensjonen om?", "options": ["Bare om sosiale medier", "Rettferdig fordeling, helse, utdanning og trygghet", "Bare om økonomisk vekst", "Bare om dyreliv"], "correct": 1, "explain": "Et bærekraftig samfunn må være rettferdig for alle." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

@@ -1,0 +1,83 @@
+{
+  "id": "den-kalde-krigen",
+  "fagId": "samfunnsfag-10",
+  "trinnId": "10",
+  "name": "Den kalde krigen",
+  "intro": "Årsakene til og forløpet av konflikten mellom USA og Sovjetunionen 1947–1991, hvordan Europa ble delt, Norges rolle, og hvordan den kalde krigen tok slutt.",
+  "kompetansemaal": [7],
+  "sammendrag": "## En kald krig\n\n**Den kalde krigen** var en langvarig konflikt mellom de to **supermaktene** **USA** og **Sovjetunionen** fra slutten av 1940-tallet til 1991. Den kalles «kald» fordi supermaktene aldri kriget direkte mot hverandre. I stedet konkurrerte de om makt, våpen, teknologi og innflytelse over hele verden.\n\n## Årsaker\n\nUnder andre verdenskrig var USA og Sovjetunionen allierte, men de hadde svært ulike **ideologier**:\n\n- **USA**: demokrati, frie valg og **kapitalisme**, der privat eierskap og markedet styrer økonomien.\n- **Sovjetunionen**: **kommunisme**, ettpartistat og planøkonomi, der staten eier og styrer produksjonen.\n\nEtter krigen fikk Sovjetunionen kontroll over Øst-Europa, og mistilliten vokste. Churchill beskrev et **jernteppe** som delte Europa. USA ville hindre at kommunismen spredte seg, og ga gjennom **Marshallplanen** økonomisk hjelp til gjenoppbyggingen av Vest-Europa.\n\n## Et delt Europa\n\n- **NATO** ble dannet i 1949 med USA i spissen, og Norge var med fra starten.\n- Sovjetunionen og landene i øst dannet **Warszawapakten** i 1955.\n- **Tyskland** ble delt i Vest-Tyskland og Øst-Tyskland. I 1961 bygde Øst-Tyskland **Berlinmuren** for å hindre at folk flyktet vestover.\n\n## Våpenkappløp og konflikter\n\nSupermaktene bygde opp tusenvis av **atomvåpen**. Begge visste at en atomkrig ville ødelegge dem begge, og denne **terrorbalansen** kan ha hindret en direkte krig. Under **Cubakrisen** i 1962 var verden likevel svært nær atomkrig, etter at Sovjetunionen hadde plassert raketter på Cuba.\n\nAndre steder ble det «varme» kriger. I **stedfortrederkriger** støttet supermaktene hver sin side, som i **Koreakrigen** (1950–1953), **Vietnamkrigen** og krigen i Afghanistan. Rivaliseringen gjaldt også **romkappløpet**: Sovjetunionen sendte opp den første satellitten, Sputnik, i 1957, og USA landet på månen i 1969.\n\n## Norge i den kalde krigen\n\nNorge hadde grense mot Sovjetunionen i nord. Landet ble med i NATO, men førte en **basepolitikk**: Det skulle ikke være faste utenlandske militærbaser eller atomvåpen i Norge i fredstid. Slik ville Norge redusere spenningen i nord.\n\n## Slutten\n\nPå 1980-tallet var Sovjetunionens økonomi svak. **Mikhail Gorbatsjov** innførte reformer med mer åpenhet (glasnost) og omstrukturering (perestrojka). I 1989 kom revolusjoner i Øst-Europa, og **Berlinmuren falt 9. november 1989**. Tyskland ble samlet i 1990, og **Sovjetunionen ble oppløst i 1991**.\n\n## Konsekvenser\n\nEtter den kalde krigen ble mange land i Øst-Europa demokratier, og flere ble med i NATO og EU. USA sto igjen som eneste supermakt. Spenningen mellom Russland og Vesten har likevel økt igjen, særlig etter at Russland gikk til fullskala angrep på Ukraina i 2022.",
+  "flashcards": [
+    { "term": "Den kalde krigen", "def": "Konflikten mellom USA og Sovjetunionen fra slutten av 1940-tallet til 1991." },
+    { "term": "Supermakt", "def": "Stat med så stor militær, økonomisk og politisk makt at den påvirker hele verden." },
+    { "term": "Kapitalisme", "def": "Økonomisk system med privat eierskap der markedet styrer." },
+    { "term": "Kommunisme", "def": "Ideologi der staten eier produksjonen og ett parti styrer." },
+    { "term": "Jernteppet", "def": "Churchills bilde på grensen som delte Europa i øst og vest." },
+    { "term": "Marshallplanen", "def": "Amerikansk økonomisk hjelp til gjenoppbyggingen av Vest-Europa etter krigen." },
+    { "term": "NATO", "def": "Forsvarsallianse dannet i 1949 med USA i spissen. Norge var med fra start." },
+    { "term": "Warszawapakten", "def": "Militærallianse fra 1955 mellom Sovjetunionen og landene i Øst-Europa." },
+    { "term": "Berlinmuren", "def": "Muren som delte Berlin fra 1961 til 1989." },
+    { "term": "Terrorbalansen", "def": "Begge supermaktene hadde så mange atomvåpen at en krig ville ødelegge begge." },
+    { "term": "Stedfortrederkrig", "def": "Krig der supermaktene støtter hver sin side i et annet land." },
+    { "term": "Cubakrisen", "def": "Krisen i 1962 der verden var nær atomkrig på grunn av sovjetiske raketter på Cuba." },
+    { "term": "Romkappløpet", "def": "Konkurransen om romfart. Sputnik i 1957 og månelandingen i 1969." },
+    { "term": "Basepolitikken", "def": "Norges politikk om ingen faste utenlandske baser eller atomvåpen i fredstid." },
+    { "term": "Gorbatsjov", "def": "Sovjetisk leder fra 1985 som innførte reformene glasnost og perestrojka." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvilke to supermakter sto mot hverandre under den kalde krigen?", "options": ["USA og Sovjetunionen", "Storbritannia og Frankrike", "Kina og Japan", "Tyskland og Italia"], "correct": 0, "explain": "De to supermaktene hadde svært ulike ideologier." },
+    { "id": "q02", "text": "Hvorfor kalles krigen «kald»?", "options": ["Fordi den foregikk om vinteren", "Fordi supermaktene aldri kriget direkte mot hverandre", "Fordi den foregikk i Arktis", "Fordi ingen døde"], "correct": 1, "explain": "Konflikten foregikk gjennom våpenkappløp, propaganda og stedfortrederkriger." },
+    { "id": "q03", "text": "Hva var Marshallplanen?", "options": ["En sovjetisk militærplan", "En plan for månelanding", "Amerikansk økonomisk hjelp til gjenoppbyggingen av Europa", "En fredsavtale med Japan"], "correct": 2, "explain": "Hjelpen skulle også hindre at kommunismen fikk fotfeste i Vest-Europa." },
+    { "id": "q04", "text": "Når ble Berlinmuren bygd?", "options": ["1945", "1949", "1989", "1961"], "correct": 3, "explain": "Muren skulle hindre østtyskere i å flykte til Vest-Berlin." },
+    { "id": "q05", "text": "Hva var Cubakrisen i 1962?", "options": ["En krise der verden var nær atomkrig på grunn av sovjetiske raketter på Cuba", "En økonomisk krise på Cuba", "En borgerkrig i Latin-Amerika", "En orkan"], "correct": 0, "explain": "Krisen ble løst gjennom forhandlinger, og Sovjetunionen trakk rakettene tilbake." },
+    { "id": "q06", "text": "Hva er en stedfortrederkrig?", "options": ["En krig mellom to supermakter direkte", "En krig der supermaktene støtter hver sin side i en konflikt i et annet land", "En handelskrig", "En krig uten våpen"], "correct": 1, "explain": "Koreakrigen og Vietnamkrigen er eksempler." },
+    { "id": "q07", "text": "Hvilken militærallianse ble Norge med i i 1949?", "options": ["Warszawapakten", "EU", "NATO", "FN"], "correct": 2, "explain": "Norge var et av de tolv landene som grunnla NATO." },
+    { "id": "q08", "text": "Hva var terrorbalansen?", "options": ["At begge supermaktene hadde så mange atomvåpen at en krig ville ødelegge begge", "At ingen hadde atomvåpen", "At terrorister styrte verden", "At Europa var nøytralt"], "correct": 0, "explain": "Frykten for gjensidig ødeleggelse kan ha hindret en direkte krig." },
+    { "id": "q09", "text": "Hva skjedde 9. november 1989?", "options": ["Sovjetunionen ble oppløst", "Cubakrisen startet", "NATO ble dannet", "Berlinmuren falt"], "correct": 3, "explain": "Murens fall ble et symbol på slutten av den kalde krigen." },
+    { "id": "q10", "text": "Hvilken sovjetisk leder innførte reformene glasnost og perestrojka?", "options": ["Stalin", "Khrusjtsjov", "Gorbatsjov", "Putin"], "correct": 2, "explain": "Reformene ga mer åpenhet, men bidro også til at Sovjetunionen gikk i oppløsning." }
+  ],
+  "mindmap": {
+    "label": "Den kalde krigen",
+    "children": [
+      { "label": "Supermaktene", "children": [
+        { "label": "USA", "note": "Kapitalisme, demokrati" },
+        { "label": "Sovjetunionen", "note": "Kommunisme, ettpartistat" }
+      ] },
+      { "label": "Europa delt", "children": [
+        { "label": "Jernteppet" },
+        { "label": "Marshallplanen" },
+        { "label": "NATO og Warszawapakten" },
+        { "label": "Berlinmuren", "note": "1961–1989" }
+      ] },
+      { "label": "Konfrontasjoner", "children": [
+        { "label": "Våpenkappløp og terrorbalanse" },
+        { "label": "Korea og Vietnam" },
+        { "label": "Cubakrisen", "note": "1962" },
+        { "label": "Romkappløpet" }
+      ] },
+      { "label": "Norge", "children": [
+        { "label": "NATO-medlem" },
+        { "label": "Grense mot Sovjet" },
+        { "label": "Basepolitikk" }
+      ] },
+      { "label": "Slutten", "children": [
+        { "label": "Gorbatsjov" },
+        { "label": "Muren faller", "note": "1989" },
+        { "label": "Sovjet oppløst", "note": "1991" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Sovjetunionen ble oppløst i 1991.", "correct": true, "explain": "Sovjetunionen ble delt i 15 selvstendige stater, blant dem Russland og Ukraina." },
+      { "id": "m02", "type": "sant-usant", "text": "Norge tillot faste utenlandske militærbaser i fredstid under den kalde krigen.", "correct": false, "explain": "Basepolitikken sa nei til faste utenlandske baser i fredstid." },
+      { "id": "m03", "type": "sant-usant", "text": "Romkappløpet var en del av rivaliseringen mellom supermaktene.", "correct": true, "explain": "Teknologiske seire ble brukt som bevis på at eget system var best." },
+      { "id": "m04", "type": "sant-usant", "text": "Tyskland var samlet under hele den kalde krigen.", "correct": false, "explain": "Tyskland var delt fra 1949 til 1990." },
+      { "id": "m05", "type": "flervalg", "text": "Hva kalte Churchill grensen mellom øst og vest i Europa?", "options": ["Berlinmuren", "Jernteppet", "Den kalde fronten", "Østgrensen"], "correct": 1, "explain": "Uttrykket ble kjent etter en tale i 1946." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilken allianse ledet Sovjetunionen?", "options": ["Warszawapakten", "NATO", "EU", "Folkeforbundet"], "correct": 0, "explain": "Warszawapakten ble oppløst i 1991." },
+      { "id": "m07", "type": "flervalg", "text": "Hva var en konsekvens av at den kalde krigen tok slutt?", "options": ["Berlinmuren ble bygd", "Europa ble delt", "Mange land i Øst-Europa ble demokratier", "Koreakrigen startet"], "correct": 2, "explain": "Flere av landene ble senere med i både NATO og EU." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

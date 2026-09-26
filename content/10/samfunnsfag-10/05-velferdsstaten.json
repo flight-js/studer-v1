@@ -1,0 +1,87 @@
+{
+  "id": "velferdsstaten",
+  "fagId": "samfunnsfag-10",
+  "trinnId": "10",
+  "name": "Velferdsstaten og det politiske systemet",
+  "intro": "Kjennetegn ved den norske velferdsstaten og den nordiske modellen, hvem som har ansvar for hva, hvordan velferden finansieres, og hvilke utfordringer den står overfor.",
+  "kompetansemaal": [19],
+  "sammendrag": "## Hva er en velferdsstat?\n\nEn **velferdsstat** er et samfunn der staten tar et stort ansvar for at alle innbyggerne har det trygt og godt. Det offentlige sørger for **utdanning**, **helsetjenester** og **økonomisk trygghet** når du blir syk, arbeidsløs, ufør eller gammel. Norge har en slik velferdsstat, og den ble i stor grad bygd opp etter andre verdenskrig. En milepæl var **folketrygden** i 1967.\n\n## Den nordiske modellen\n\nNorge, Sverige, Danmark, Finland og Island har mange likheter, ofte kalt **den nordiske modellen**:\n\n- **Universelle ordninger**: Mange goder gjelder alle, uansett inntekt, som gratis skole og barnetrygd.\n- **Høye skatter** som finansierer fellesskapet.\n- **Trepartssamarbeid** mellom staten, arbeidsgiverne og arbeidstakerne.\n- **Høy tillit** mellom folk og til myndighetene, og relativt **små økonomiske forskjeller**.\n\n## Viktige velferdsordninger\n\n- Gratis offentlig skole, og ingen skolepenger ved offentlige universiteter\n- Helsetjenester med fastlege og sykehus, der du betaler en begrenset **egenandel**\n- **Barnetrygd** og **foreldrepermisjon**\n- **Sykepenger**, **dagpenger** ved arbeidsløshet og **uføretrygd**\n- **Alderspensjon**\n- **Sosialhjelp** som siste sikkerhetsnett\n\nMange av ordningene forvaltes av **NAV**.\n\n## Hvem gjør hva?\n\nVelferden leveres på tre nivåer:\n\n- **Kommunen**: barnehage, grunnskole, fastlege, hjemmetjeneste og sykehjem\n- **Fylkeskommunen**: videregående skole, kollektivtransport og fylkesveier\n- **Staten**: sykehus, politi, forsvar, universiteter og NAV\n\n## Hvordan betales velferden?\n\nVelferden finansieres først og fremst gjennom **skatter og avgifter**. I tillegg har Norge **Statens pensjonsfond utland**, ofte kalt **oljefondet**. Statens inntekter fra olje og gass settes inn i fondet, og **handlingsregelen** sier at staten over tid bare skal bruke omtrent den forventede avkastningen, ikke selve fondet.\n\n## Utfordringer\n\n- **Eldrebølgen**: Vi lever lenger, og det blir flere eldre per person i arbeid. Det gir større utgifter til pensjon og omsorg.\n- **Utenforskap**: Mange unge står utenfor både arbeid og utdanning.\n- **Økende forskjeller**: Over 100 000 barn vokser opp i familier med vedvarende lav inntekt.\n- **Press på helsevesenet**: mangel på helsepersonell og lange ventetider.\n- **Integrering** av innvandrere i arbeidslivet.\n- **Omstilling** fra olje og gass til nye næringer.\n\n## Å reflektere\n\nPartiene er uenige om løsningene. Noen vil ha mer offentlig ansvar og høyere skatt, andre vil ha mer privat konkurranse og lavere skatt. Et sentralt spørsmål er hvordan vi kan bevare velferden for framtidige generasjoner.",
+  "flashcards": [
+    { "term": "Velferdsstat", "def": "Samfunn der staten tar stort ansvar for innbyggernes trygghet, helse og utdanning." },
+    { "term": "Folketrygden", "def": "Innført i 1967. Gir blant annet pensjon, sykepenger og uføretrygd." },
+    { "term": "Den nordiske modellen", "def": "Universelle ordninger, høy skatt, trepartssamarbeid, høy tillit og små forskjeller." },
+    { "term": "Universell ordning", "def": "Velferdsordning som gjelder alle, uansett inntekt." },
+    { "term": "Trepartssamarbeid", "def": "Samarbeid mellom staten, arbeidsgiverne og arbeidstakerne." },
+    { "term": "Egenandel", "def": "Den delen av prisen du selv betaler for en offentlig tjeneste." },
+    { "term": "Barnetrygd", "def": "Månedlig støtte til alle som har barn under 18 år." },
+    { "term": "Dagpenger", "def": "Økonomisk støtte når du er arbeidsløs." },
+    { "term": "Sykepenger", "def": "Erstatter lønnen når du er syk og ikke kan jobbe." },
+    { "term": "NAV", "def": "Arbeids- og velferdsforvaltningen, som forvalter mange velferdsordninger." },
+    { "term": "Kommunens oppgaver", "def": "Blant annet barnehage, grunnskole, fastlege og sykehjem." },
+    { "term": "Fylkeskommunens oppgaver", "def": "Blant annet videregående skole, kollektivtransport og fylkesveier." },
+    { "term": "Oljefondet", "def": "Statens pensjonsfond utland, der statens olje- og gassinntekter spares." },
+    { "term": "Handlingsregelen", "def": "Staten skal over tid bare bruke omtrent den forventede avkastningen av oljefondet." },
+    { "term": "Eldrebølgen", "def": "At andelen eldre øker, slik at det blir færre i arbeid per pensjonist." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er en velferdsstat?", "options": ["Et samfunn der staten tar stort ansvar for innbyggernes trygghet og velferd", "En stat uten skatter", "En stat der alle er rike", "En stat styrt av kongen"], "correct": 0, "explain": "Staten sørger blant annet for utdanning, helse og økonomisk trygghet." },
+    { "id": "q02", "text": "Hva betyr det at en velferdsordning er universell?", "options": ["At den bare gjelder fattige", "At den gjelder alle, uansett inntekt", "At den gjelder hele verden", "At den er frivillig"], "correct": 1, "explain": "Barnetrygd og gratis skole er eksempler på universelle ordninger." },
+    { "id": "q03", "text": "Hvilket forvaltningsnivå har ansvaret for videregående skole?", "options": ["Kommunen", "Staten", "Fylkeskommunen", "NAV"], "correct": 2, "explain": "Fylkeskommunen har også ansvar for kollektivtransport og fylkesveier." },
+    { "id": "q04", "text": "Hva er trepartssamarbeidet?", "options": ["Samarbeid mellom tre politiske partier", "Samarbeid mellom Norge, Sverige og Danmark", "Samarbeid mellom tre kommuner", "Samarbeid mellom staten, arbeidsgiverne og arbeidstakerne"], "correct": 3, "explain": "Samarbeidet er et viktig kjennetegn ved den nordiske modellen." },
+    { "id": "q05", "text": "Hva er eldrebølgen?", "options": ["At det blir flere eldre per person i arbeid", "At eldre flytter til utlandet", "At pensjonsalderen senkes", "At det blir færre eldre"], "correct": 0, "explain": "Vi lever lenger, og store årskull går av med pensjon." },
+    { "id": "q06", "text": "Hva sier handlingsregelen?", "options": ["At all oljeformuen skal brukes med en gang", "At staten over tid bare skal bruke omtrent den forventede avkastningen av oljefondet", "At oljen skal selges til Sverige", "At skatten skal fjernes"], "correct": 1, "explain": "Slik skal også framtidige generasjoner få glede av oljeinntektene." },
+    { "id": "q07", "text": "Hvem har ansvaret for fastlege og sykehjem?", "options": ["Staten", "Fylkeskommunen", "Private bedrifter", "Kommunen"], "correct": 3, "explain": "Kommunen har ansvar for de fleste nære tjenestene til innbyggerne." },
+    { "id": "q08", "text": "Hvordan finansieres velferdsstaten først og fremst?", "options": ["Gjennom skatter og avgifter", "Gjennom lotteri", "Gjennom lån fra andre land", "Gjennom frivillige gaver"], "correct": 0, "explain": "Oljefondet bidrar også, men skatter og avgifter er den viktigste kilden." },
+    { "id": "q09", "text": "Hva er dagpenger?", "options": ["Penger du får hver dag på skolen", "Lommepenger fra foreldre", "Økonomisk støtte når du er arbeidsløs", "Lønn for overtid"], "correct": 2, "explain": "Dagpenger skal gi trygghet mens man søker ny jobb." },
+    { "id": "q10", "text": "Hvilken utfordring handler om unge som står utenfor både arbeid og utdanning?", "options": ["Eldrebølgen", "Utenforskap", "Sentralisering", "Inflasjon"], "correct": 1, "explain": "Utenforskap er kostbart for samfunnet og vanskelig for den enkelte." }
+  ],
+  "mindmap": {
+    "label": "Velferdsstaten",
+    "children": [
+      { "label": "Kjennetegn", "children": [
+        { "label": "Staten tar ansvar" },
+        { "label": "Folketrygden", "note": "1967" },
+        { "label": "Universelle ordninger" }
+      ] },
+      { "label": "Nordisk modell", "children": [
+        { "label": "Høy skatt" },
+        { "label": "Trepartssamarbeid" },
+        { "label": "Høy tillit" },
+        { "label": "Små forskjeller" }
+      ] },
+      { "label": "Ordninger", "children": [
+        { "label": "Skole og helse" },
+        { "label": "Barnetrygd og permisjon" },
+        { "label": "Syke- og dagpenger" },
+        { "label": "Pensjon og NAV" }
+      ] },
+      { "label": "Ansvar og penger", "children": [
+        { "label": "Kommune" },
+        { "label": "Fylkeskommune" },
+        { "label": "Stat" },
+        { "label": "Skatt og oljefondet" }
+      ] },
+      { "label": "Utfordringer", "children": [
+        { "label": "Eldrebølgen" },
+        { "label": "Utenforskap" },
+        { "label": "Forskjeller" },
+        { "label": "Helsevesenet" },
+        { "label": "Omstilling" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Folketrygden ble innført i 1967.", "correct": true, "explain": "Folketrygden samlet flere trygdeordninger i én." },
+      { "id": "m02", "type": "sant-usant", "text": "I Norge må alle betale full pris for sykehusbehandling.", "correct": false, "explain": "Sykehusbehandling er i hovedsak gratis, og egenandelene har et tak." },
+      { "id": "m03", "type": "sant-usant", "text": "Den nordiske modellen kjennetegnes av høy tillit og relativt små forskjeller.", "correct": true, "explain": "Tillit gjør det lettere å samarbeide og å kreve inn skatt." },
+      { "id": "m04", "type": "sant-usant", "text": "Alle politiske partier er enige om hvordan velferdsstaten skal utvikles.", "correct": false, "explain": "Partiene er uenige om blant annet skatt, privatisering og hvor mye staten skal gjøre." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken etat forvalter mange av velferdsordningene, som dagpenger og pensjon?", "options": ["Skatteetaten", "NAV", "Politiet", "Datatilsynet"], "correct": 1, "explain": "NAV ble opprettet i 2006." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er en egenandel?", "options": ["Den delen av prisen du selv betaler for en offentlig tjeneste", "En skatt på eiendom", "En del av lønnen", "En type trygd"], "correct": 0, "explain": "Du betaler for eksempel en egenandel hos fastlegen." },
+      { "id": "m07", "type": "flervalg", "text": "Hvorfor gir eldrebølgen utfordringer for velferdsstaten?", "options": ["Eldre betaler mer skatt enn andre", "Det blir færre sykehjem", "Utgiftene til pensjon og omsorg øker, mens det blir færre i arbeid per pensjonist", "Eldre trenger ikke helsetjenester"], "correct": 2, "explain": "Færre skal betale for velferden til flere." }
+    ]
+  },
+  "kvalitet": { "status": "sjekkes", "merknader": ["Tallet på barn i familier med vedvarende lav inntekt (over 100 000) bør sjekkes mot siste tall fra SSB."] }
+}

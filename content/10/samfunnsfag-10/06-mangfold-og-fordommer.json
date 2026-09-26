@@ -1,0 +1,85 @@
+{
+  "id": "mangfold-og-fordommer",
+  "fagId": "samfunnsfag-10",
+  "trinnId": "10",
+  "name": "Mangfold, fordommer og framstillinger",
+  "intro": "Likheter og ulikheter i identitet, levesett og kultur, muligheter og utfordringer ved mangfold, og hvordan framstillinger av fortiden og av grupper påvirker holdninger og handlinger.",
+  "kompetansemaal": [13, 3],
+  "sammendrag": "## Identitet, levesett og kultur\n\nMennesker er både **like** og **ulike**. Vi har mange av de samme behovene og drømmene, men skiller oss fra hverandre i **identitet**, **levesett** og **kulturuttrykk**. **Kultur** er kunnskap, verdier, normer, tradisjoner og språk som en gruppe deler. **Kulturuttrykk** er måter kulturen vises på, som musikk, mat, klær, kunst, religion og høytider. Kultur endrer seg hele tiden, og de fleste er preget av flere kulturer samtidig.\n\n## Mangfold i Norge\n\nNorge har alltid hatt et **mangfold**: samer, nasjonale minoriteter, ulike dialekter og forskjeller mellom by og land. I dag er omtrent én av fem innbyggere enten innvandrer eller født i Norge med innvandrerforeldre. Mangfoldet gjelder også religion, livssyn, seksuell orientering, kjønnsidentitet og funksjonsevne.\n\nMangfold kan gi **muligheter**: nye perspektiver og ideer, flere språk og kontakter i verden, arbeidskraft og et rikere kulturliv. Det kan også gi **utfordringer**: misforståelser, uenighet om verdier, utenforskap og **diskriminering**.\n\n## Holdninger til andre\n\n- **Etnosentrisme** er å bedømme andre kulturer ut fra ens egen og se på sin egen som best.\n- **Kulturrelativisme** er å forsøke å forstå en kultur ut fra dens egne forutsetninger. Tatt helt ut kan det føre til at man godtar brudd på menneskerettighetene.\n- **Stereotypier** er forenklede bilder av en gruppe, som «alle fra X er …».\n- **Fordommer** er negative holdninger til en gruppe uten god kunnskap.\n- **Diskriminering** er når noen blir behandlet dårligere på grunn av hvem de er, for eksempel når de søker jobb eller bolig. Det er forbudt ved lov.\n- **Rasisme** er ideen om at noen er mindre verdt på grunn av hudfarge eller etnisk bakgrunn.\n\n## Integrering\n\n**Integrering** betyr at minoriteter deltar i samfunnet, for eksempel i skole og arbeidsliv, samtidig som de kan beholde sin egen kultur. **Assimilering** er når minoriteten må gi opp sin kultur og bli lik majoriteten, slik det skjedde under fornorskingen. **Segregering** er når grupper lever atskilt.\n\n## Framstillinger påvirker holdninger\n\nHvordan fortiden, hendelser og grupper blir **framstilt** i lærebøker, filmer, nyheter og sosiale medier, påvirker hvordan folk tenker og handler:\n\n- Nazistisk propaganda framstilte jøder som farlige og bidro til Holocaust.\n- Eldre lærebøker og utstillinger framstilte samer og folk i koloniene som «primitive», og det ble brukt til å forsvare undertrykkelse.\n- Når nyheter om en gruppe mest handler om kriminalitet eller konflikt, kan fordommene øke.\n- Hvilke historier som løftes fram i minnesmerker, filmer og bøker, påvirker hvem vi ser på som helter og ofre.\n\nForfatteren Chimamanda Ngozi Adichie har advart mot **faren ved én enkelt historie**: Når vi bare hører én fortelling om en gruppe, blir bildet forenklet. Derfor er det viktig å spørre hvem som forteller, hvem som mangler, og hvilket bilde fortellingen skaper.",
+  "flashcards": [
+    { "term": "Kultur", "def": "Kunnskap, verdier, normer, tradisjoner og språk som en gruppe deler." },
+    { "term": "Kulturuttrykk", "def": "Måter kulturen vises på, som musikk, mat, klær, kunst og høytider." },
+    { "term": "Mangfold", "def": "At mennesker i et samfunn er ulike i blant annet kultur, religion og identitet." },
+    { "term": "Majoritet", "def": "Den største gruppen i et samfunn." },
+    { "term": "Minoritet", "def": "En mindre gruppe som skiller seg fra majoriteten, for eksempel i språk eller religion." },
+    { "term": "Etnosentrisme", "def": "Å bedømme andre kulturer ut fra ens egen og se på sin egen som best." },
+    { "term": "Kulturrelativisme", "def": "Å forstå en kultur ut fra dens egne forutsetninger." },
+    { "term": "Stereotypi", "def": "Forenklet bilde av en gruppe." },
+    { "term": "Fordom", "def": "Negativ holdning til en gruppe uten god kunnskap." },
+    { "term": "Diskriminering", "def": "Å behandle noen dårligere på grunn av hvem de er. Forbudt ved lov." },
+    { "term": "Rasisme", "def": "Ideen om at noen er mindre verdt på grunn av hudfarge eller etnisk bakgrunn." },
+    { "term": "Integrering", "def": "Minoriteter deltar i samfunnet og kan samtidig beholde sin kultur." },
+    { "term": "Assimilering", "def": "Minoriteten må gi opp sin kultur og bli lik majoriteten." },
+    { "term": "Segregering", "def": "At grupper lever atskilt fra hverandre." },
+    { "term": "Faren ved én enkelt historie", "def": "Adichies advarsel om at én fortelling om en gruppe gir et forenklet bilde." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er etnosentrisme?", "options": ["Å bedømme andre kulturer ut fra ens egen og se på sin egen som best", "Å lære mange språk", "Å reise mye", "Å forstå andre kulturer ut fra deres egne forutsetninger"], "correct": 0, "explain": "Det siste alternativet beskriver kulturrelativisme." },
+    { "id": "q02", "text": "Hva er forskjellen på en fordom og diskriminering?", "options": ["Det er ingen forskjell", "En fordom er en holdning, diskriminering er en handling", "Diskriminering er en holdning, en fordom er en handling", "Fordommer er alltid positive"], "correct": 1, "explain": "Når fordommer påvirker hvordan vi behandler andre, blir det diskriminering." },
+    { "id": "q03", "text": "Hva betyr integrering?", "options": ["At minoriteten må gi opp sin kultur", "At grupper lever atskilt", "At minoriteter deltar i samfunnet og samtidig kan beholde sin kultur", "At alle må flytte"], "correct": 2, "explain": "Integrering skiller seg fra assimilering, der man må gi opp sin kultur." },
+    { "id": "q04", "text": "Hva er et eksempel på kulturuttrykk?", "options": ["En lov", "Et politisk parti", "En type skatt", "Musikk, mat, klær eller høytider"], "correct": 3, "explain": "Kulturuttrykk er måter kulturen vises på." },
+    { "id": "q05", "text": "Hva er en stereotypi?", "options": ["Et forenklet bilde av en gruppe", "En type musikk", "En vitenskapelig undersøkelse", "Et lydanlegg"], "correct": 0, "explain": "Stereotypier overser at mennesker i en gruppe er forskjellige." },
+    { "id": "q06", "text": "Hvordan kan framstillinger i nyhetene påvirke holdninger?", "options": ["De påvirker ikke holdninger", "Ensidig dekning av en gruppe kan forsterke fordommer", "De gjør alltid folk mer tolerante", "De bestemmer lovene direkte"], "correct": 1, "explain": "Hvis vi mest hører negative historier om en gruppe, kan bildet bli skjevt." },
+    { "id": "q07", "text": "Hva var fornorskingen av samer og kvener et eksempel på?", "options": ["Integrering", "Segregering", "Assimilering", "Kulturrelativisme"], "correct": 2, "explain": "Minoritetene skulle gi opp språk og kultur og bli «norske»." },
+    { "id": "q08", "text": "Hva er en mulighet ved mangfold?", "options": ["Flere misforståelser", "Mindre kontakt med verden", "Mer diskriminering", "Nye perspektiver og ideer"], "correct": 3, "explain": "Ulike erfaringer kan gi nye løsninger og et rikere samfunn." },
+    { "id": "q09", "text": "Hva mener Adichie med «faren ved én enkelt historie»?", "options": ["At bare én fortelling om en gruppe gir et forenklet bilde", "At historie er et farlig fag", "At man bare skal lese én bok", "At alle historier er løgn"], "correct": 0, "explain": "Flere fortellinger gir et mer sammensatt og riktig bilde." },
+    { "id": "q10", "text": "Hvilken utfordring kan en ekstrem kulturrelativisme føre med seg?", "options": ["At man ikke lærer om andre", "At man godtar brudd på menneskerettighetene", "At man blir etnosentrisk", "At man ikke reiser"], "correct": 1, "explain": "Menneskerettighetene gjelder alle, uansett kultur." }
+  ],
+  "mindmap": {
+    "label": "Mangfold og fordommer",
+    "children": [
+      { "label": "Kultur og identitet", "children": [
+        { "label": "Likheter og ulikheter" },
+        { "label": "Kulturuttrykk" },
+        { "label": "Kultur endrer seg" }
+      ] },
+      { "label": "Mangfold i Norge", "children": [
+        { "label": "Samer og minoriteter" },
+        { "label": "Innvandring" },
+        { "label": "Religion og livssyn" },
+        { "label": "Muligheter og utfordringer" }
+      ] },
+      { "label": "Holdninger", "children": [
+        { "label": "Etnosentrisme" },
+        { "label": "Kulturrelativisme" },
+        { "label": "Stereotypier og fordommer" },
+        { "label": "Diskriminering og rasisme" }
+      ] },
+      { "label": "Samfunnet", "children": [
+        { "label": "Integrering" },
+        { "label": "Assimilering" },
+        { "label": "Segregering" }
+      ] },
+      { "label": "Framstillinger", "children": [
+        { "label": "Propaganda" },
+        { "label": "Lærebøker og utstillinger" },
+        { "label": "Nyheter" },
+        { "label": "Én enkelt historie" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Kultur er noe som aldri endrer seg.", "correct": false, "explain": "Kultur endrer seg hele tiden gjennom kontakt med andre og nye ideer." },
+      { "id": "m02", "type": "sant-usant", "text": "Omtrent én av fem innbyggere i Norge er innvandrer eller født i Norge med innvandrerforeldre.", "correct": true, "explain": "Andelen har økt mye siden 1970-tallet." },
+      { "id": "m03", "type": "sant-usant", "text": "Nazistisk propaganda framstilte jøder negativt for å skape støtte til forfølgelsen.", "correct": true, "explain": "Propagandaen avhumaniserte jøder og gjorde forfølgelsen lettere å godta." },
+      { "id": "m04", "type": "sant-usant", "text": "Det er lov å avvise en jobbsøker på grunn av hudfarge.", "correct": false, "explain": "Diskriminering på grunn av etnisitet er forbudt etter likestillings- og diskrimineringsloven." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er segregering?", "options": ["At grupper lever atskilt fra hverandre", "At alle blir like", "At man lærer et nytt språk", "At man flytter til byen"], "correct": 0, "explain": "Segregering kan skje gjennom lover eller gjennom bosettingsmønstre." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er rasisme?", "options": ["Kritikk av politikere", "Ideen om at noen er mindre verdt på grunn av hudfarge eller etnisk bakgrunn", "Interesse for andre kulturer", "Et sportsbegrep"], "correct": 1, "explain": "Rasisme bryter med prinsippet om at alle mennesker er likeverdige." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilket spørsmål er nyttig når du vurderer en framstilling av en gruppe?", "options": ["Hvor lang er teksten?", "Hvilken skrifttype er brukt?", "Hvem forteller, og hvem mangler?", "Hvor mange bilder har den?"], "correct": 2, "explain": "Avsender og manglende stemmer sier mye om hvilket bilde som skapes." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

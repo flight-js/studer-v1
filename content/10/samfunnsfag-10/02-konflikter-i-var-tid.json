@@ -1,0 +1,84 @@
+{
+  "id": "konflikter-i-var-tid",
+  "fagId": "samfunnsfag-10",
+  "trinnId": "10",
+  "name": "Konflikter i vår tid",
+  "intro": "Hvordan du analyserer en konflikt, vanlige årsaker til væpnede konflikter, eksempler fra vår tid, konsekvensene for mennesker og verden, og hvordan konflikter kan løses.",
+  "kompetansemaal": [7],
+  "sammendrag": "## Hva er en konflikt?\n\nEn **konflikt** er en uenighet mellom parter som har motstridende mål eller interesser. Ikke alle konflikter blir voldelige, men når de gjør det, kan de føre til **krig**. I dag er de fleste væpnede konflikter **borgerkriger** inne i ett land, ofte med innblanding fra andre stater. Kriger mellom stater, som Russlands krig mot Ukraina, er sjeldnere, men får store konsekvenser.\n\n## Å analysere en konflikt\n\nEn **konfliktanalyse** stiller spørsmål som:\n\n- **Årsaker**: Hva handler konflikten om?\n- **Aktører**: Hvem er partene, og hvem støtter dem?\n- **Interesser**: Hva vil partene oppnå?\n- **Konsekvenser**: Hvem rammes, og hvordan?\n- **Løsninger**: Hva kan få slutt på konflikten?\n\n## Vanlige årsaker\n\n- **Territorium og ressurser**, som land, vann, olje og mineraler\n- **Identitet**, som etnisitet, religion og språk\n- **Makt og ideologi**, for eksempel kamp om hvem som skal styre\n- **Historiske forhold**, som grenser trukket av kolonimakter uten hensyn til folkegruppene\n- **Fattigdom og ulikhet**, som gjør det lettere å rekruttere til væpnede grupper\n- **Klimaendringer**, som kan forsterke kampen om vann og jord\n\nOfte virker flere årsaker sammen, og vi skiller mellom **langsiktige** og **utløsende** årsaker.\n\n## Eksempler\n\n- **Russland og Ukraina**: Russland annekterte **Krim** i 2014 og gikk til **fullskala invasjon** av Ukraina 24. februar 2022. Konflikten handler om territorium, sikkerhetspolitikk, identitet og Ukrainas ønske om tilknytning til Vesten.\n- **Israel og Palestina**: Konflikten har røtter tilbake til opprettelsen av Israel i 1948 og handler om land, sikkerhet, Jerusalem og palestinernes krav om egen stat. **Oslo-avtalen** fra 1993 ga håp om fred, men ble aldri fullført. Hamas' angrep på Israel 7. oktober 2023 ble fulgt av en krig i Gaza med svært mange drepte.\n- **Syria**: En borgerkrig brøt ut i 2011 etter at regimet slo ned på fredelige protester, og millioner flyktet.\n\n## Konsekvenser\n\nVæpnede konflikter fører til død, skader og traumer, ødelagte hjem, skoler og sykehus, sult og **flukt**. Over 100 millioner mennesker i verden er i dag på flukt. Konflikter påvirker også resten av verden gjennom høyere mat- og energipriser og økt spenning mellom stormaktene.\n\n## Konfliktløsning\n\n- **Forhandlinger** og **mekling**, der en nøytral tredjepart hjelper partene. Norge har vært mekler i flere konflikter, blant annet i Colombia.\n- **FN** kan sende fredsbevarende styrker og vedta sanksjoner. Men i **Sikkerhetsrådet** har de fem faste medlemmene **vetorett**, og det gjør det ofte vanskelig å bli enige.\n- **Våpenhvile**, fredsavtaler og gjenoppbygging.\n\n## Kunne konflikten vært hindret?\n\nVi kan spørre hva som ville skjedd hvis noen **forutsetninger** hadde vært annerledes. Kunne tidligere forhandlinger, andre grenser eller mindre ulikhet ha forebygget volden? Slike spørsmål har ikke sikre svar, men hjelper oss å forstå årsakene bedre.",
+  "flashcards": [
+    { "term": "Konflikt", "def": "Uenighet mellom parter med motstridende mål eller interesser." },
+    { "term": "Borgerkrig", "def": "Væpnet konflikt mellom grupper inne i ett land." },
+    { "term": "Mellomstatlig krig", "def": "Krig mellom to eller flere stater." },
+    { "term": "Konfliktanalyse", "def": "Systematisk undersøkelse av årsaker, aktører, interesser, konsekvenser og løsninger." },
+    { "term": "Aktør", "def": "En part som deltar i eller påvirker en konflikt." },
+    { "term": "Langsiktig årsak", "def": "Dypere forhold som bygger opp en konflikt over tid." },
+    { "term": "Utløsende årsak", "def": "Hendelsen som setter i gang en konflikt." },
+    { "term": "Kolonigrenser", "def": "Grenser trukket av kolonimakter uten hensyn til folkegruppene." },
+    { "term": "Annektering", "def": "Å innlemme et område i sin egen stat, ofte med makt, som Russland gjorde med Krim i 2014." },
+    { "term": "Fullskala invasjon", "def": "Russlands angrep på hele Ukraina fra 24. februar 2022." },
+    { "term": "Oslo-avtalen", "def": "Avtale fra 1993 mellom Israel og PLO som skulle lede til fred." },
+    { "term": "Flyktning", "def": "Person som har flyktet fra hjemlandet på grunn av forfølgelse eller krig." },
+    { "term": "Mekling", "def": "En nøytral tredjepart hjelper partene å finne en løsning." },
+    { "term": "Sikkerhetsrådet", "def": "FNs viktigste organ for fred og sikkerhet, med 5 faste og 10 valgte medlemmer." },
+    { "term": "Vetorett", "def": "Retten de fem faste medlemmene i Sikkerhetsrådet har til å stoppe et vedtak." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er den vanligste typen væpnet konflikt i dag?", "options": ["Kriger mellom stormakter", "Borgerkriger inne i ett land", "Kriger om kolonier", "Verdenskriger"], "correct": 1, "explain": "Mange borgerkriger får likevel innblanding fra andre land." },
+    { "id": "q02", "text": "Hvilket spørsmål hører til en konfliktanalyse?", "options": ["Hvem er partene, og hva vil de oppnå?", "Hvilken farge har flaggene?", "Hvor mange innbyggere har hovedstaden?", "Hva heter nasjonalsangen?"], "correct": 0, "explain": "Aktører og interesser er sentrale for å forstå en konflikt." },
+    { "id": "q03", "text": "Hvordan kan kolonitiden være en årsak til konflikter i dag?", "options": ["Kolonimaktene bygde for mange skoler", "Koloniene fikk for mye makt", "Kolonimaktene trakk grenser uten hensyn til folkegruppene", "Kolonitiden har ingen betydning"], "correct": 2, "explain": "Grupper som ble delt eller tvunget sammen, har ofte havnet i konflikt." },
+    { "id": "q04", "text": "Når gikk Russland til fullskala invasjon av Ukraina?", "options": ["2014", "1991", "2008", "2022"], "correct": 3, "explain": "Invasjonen startet 24. februar 2022, åtte år etter annekteringen av Krim." },
+    { "id": "q05", "text": "Hva er mekling?", "options": ["At en nøytral tredjepart hjelper partene å finne en løsning", "At én part vinner krigen", "At FN sender soldater", "At et land innfører sanksjoner"], "correct": 0, "explain": "Norge har ofte hatt rollen som mekler." },
+    { "id": "q06", "text": "Hva var Oslo-avtalen fra 1993?", "options": ["En handelsavtale mellom Norge og EU", "En avtale mellom Israel og PLO som skulle føre til fred", "En avtale om NATO-medlemskap", "En klimaavtale"], "correct": 1, "explain": "Avtalen ga palestinerne begrenset selvstyre, men den endelige fredsavtalen kom aldri." },
+    { "id": "q07", "text": "Hvorfor er det ofte vanskelig for FNs sikkerhetsråd å gripe inn?", "options": ["Fordi FN ikke har penger", "Fordi Sikkerhetsrådet bare møtes hvert tiende år", "Fordi Norge har vetorett", "Fordi de fem faste medlemmene har vetorett"], "correct": 3, "explain": "USA, Russland, Kina, Storbritannia og Frankrike kan hver for seg stoppe et vedtak." },
+    { "id": "q08", "text": "Hvordan kan en krig i ett land påvirke resten av verden?", "options": ["Den kan gi høyere mat- og energipriser og flere flyktninger", "Den påvirker aldri andre land", "Den gjør alt billigere", "Den gir mindre spenning mellom stormakter"], "correct": 0, "explain": "Krigen i Ukraina ga for eksempel høyere priser på korn og energi i mange land." },
+    { "id": "q09", "text": "Hva er en utløsende årsak?", "options": ["Den dypeste grunnen til en konflikt", "Konsekvensen av en krig", "Hendelsen som setter i gang en konflikt", "En fredsavtale"], "correct": 2, "explain": "Utløsende årsaker virker sammen med langsiktige årsaker." },
+    { "id": "q10", "text": "Hvordan kan klimaendringer bidra til konflikter?", "options": ["Ved å gi mer regn overalt", "Ved å forsterke kampen om vann og dyrkbar jord", "Ved å stoppe all krig", "Klima har ingen betydning"], "correct": 1, "explain": "Tørke og knapphet kan skape spenninger mellom grupper." }
+  ],
+  "mindmap": {
+    "label": "Konflikter i vår tid",
+    "children": [
+      { "label": "Konflikt", "children": [
+        { "label": "Motstridende mål" },
+        { "label": "Borgerkrig" },
+        { "label": "Mellomstatlig krig" }
+      ] },
+      { "label": "Årsaker", "children": [
+        { "label": "Territorium og ressurser" },
+        { "label": "Identitet" },
+        { "label": "Makt og ideologi" },
+        { "label": "Kolonigrenser" },
+        { "label": "Fattigdom og klima" }
+      ] },
+      { "label": "Eksempler", "children": [
+        { "label": "Russland og Ukraina" },
+        { "label": "Israel og Palestina" },
+        { "label": "Syria" }
+      ] },
+      { "label": "Konsekvenser", "children": [
+        { "label": "Død og traumer" },
+        { "label": "Flukt" },
+        { "label": "Globale ringvirkninger" }
+      ] },
+      { "label": "Løsninger", "children": [
+        { "label": "Forhandlinger og mekling" },
+        { "label": "FN og Sikkerhetsrådet" },
+        { "label": "Kunne den vært hindret?" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Alle konflikter blir voldelige.", "correct": false, "explain": "De fleste konflikter løses uten vold, for eksempel gjennom forhandlinger." },
+      { "id": "m02", "type": "sant-usant", "text": "Russland annekterte Krim i 2014.", "correct": true, "explain": "Annekteringen ble ikke anerkjent av de fleste land i verden." },
+      { "id": "m03", "type": "sant-usant", "text": "Norge har vært mekler i fredsprosesser i andre land.", "correct": true, "explain": "Blant annet i Colombia, Sri Lanka og mellom Israel og palestinerne." },
+      { "id": "m04", "type": "sant-usant", "text": "Konflikter har som regel bare én årsak.", "correct": false, "explain": "Som regel virker flere årsaker sammen." },
+      { "id": "m05", "type": "flervalg", "text": "Hvem har vetorett i FNs sikkerhetsråd?", "options": ["Alle FNs medlemsland", "Bare USA", "De fem faste medlemmene", "Generalsekretæren"], "correct": 2, "explain": "USA, Russland, Kina, Storbritannia og Frankrike." },
+      { "id": "m06", "type": "flervalg", "text": "Hva betyr å annektere et område?", "options": ["Å innlemme et område i sin egen stat, ofte med makt", "Å gi et område selvstendighet", "Å handle med et område", "Å sende nødhjelp til et område"], "correct": 0, "explain": "Annektering med makt er i strid med folkeretten." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilken konflikt startet med at regimet slo ned på fredelige protester i 2011?", "options": ["Koreakrigen", "Borgerkrigen i Syria", "Krigen i Ukraina", "Vietnamkrigen"], "correct": 1, "explain": "Protestene var en del av den arabiske våren." }
+    ]
+  },
+  "kvalitet": { "status": "sjekkes", "merknader": ["Pågående konflikter (Ukraina, Israel/Gaza, Syria) endrer seg raskt – sjekk at beskrivelsene fortsatt er dekkende.", "Tallet på mennesker på flukt (over 100 millioner) bør sjekkes mot siste tall fra UNHCR."] }
+}
