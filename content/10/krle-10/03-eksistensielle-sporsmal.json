@@ -1,0 +1,85 @@
+{
+  "id": "eksistensielle-sporsmal",
+  "fagId": "krle-10",
+  "trinnId": "10",
+  "name": "Eksistensielle spørsmål",
+  "intro": "De store spørsmålene om mening, frihet, lidelse og død, svar fra religioner, livssyn og eksistensialistiske filosofer, og hva det vil si å vokse opp i et mangfoldig og globalt samfunn.",
+  "kompetansemaal": [13],
+  "sammendrag": "## Hva er eksistensielle spørsmål?\n\n**Eksistensielle spørsmål** er de store spørsmålene om livet og hva det vil si å være menneske:\n\n- Hvem er jeg, og hvem vil jeg være?\n- Hva er meningen med livet?\n- Hvorfor finnes det lidelse?\n- Hva skjer når vi dør?\n- Er jeg fri til å velge selv?\n\nSlike spørsmål har ikke fasitsvar, men alle mennesker møter dem, særlig i ungdomstiden og i vanskelige perioder.\n\n## Svar fra religioner og livssyn\n\n- **Kristendom**: Mennesket er skapt og elsket av Gud. Livet har mening fordi vi er en del av Guds plan, og det finnes håp om **evig liv**.\n- **Islam**: Livet er en **prøve** fra Gud. Mennesket skal leve etter Guds vilje, og på **dommens dag** avgjøres det som skjer etter døden.\n- **Hinduisme og buddhisme**: Livet er en del av kretsløpet av gjenfødelser. Målet er frigjøring, **moksha** eller **nirvana**.\n- **Livssynshumanisme**: Vi har ett liv, og det er vi selv som skaper **mening**, gjennom relasjoner, arbeid, kunnskap og det vi gjør for andre.\n\n## Eksistensialismen\n\nDen danske filosofen **Søren Kierkegaard** (1813–1855) mente at hvert menneske må velge selv og ta ansvar for livet sitt, og at denne friheten kan skape **angst**. Den franske filosofen **Jean-Paul Sartre** sa at «eksistensen går forut for essensen»: Vi blir ikke født med en ferdig mening, men skaper oss selv gjennom valgene vi tar. Mennesket er «dømt til å være fritt». **Albert Camus** skrev om det **absurde**, at vi søker mening i en verden som ikke gir klare svar. Han mente at vi likevel kan leve fullt og engasjert.\n\n## Å vokse opp i et mangfoldig og globalt samfunn\n\nUnge i dag møter mange valg og mange inntrykk:\n\n- **Identitet**: Mange vokser opp med flere kulturer, språk eller religioner og kan oppleve å høre til flere steder – eller ingen steder helt.\n- **Frihet og press**: Det finnes mange muligheter, men også press om å lykkes med skole, utseende og venner.\n- **Sosiale medier** gir fellesskap, men kan også føre til sammenligning og en følelse av å ikke være god nok.\n- **Globale utfordringer** som krig og klimaendringer kan gi uro og **framtidsangst**, men også engasjement.\n- **Ensomhet** og ønsket om å høre til er noe mange kjenner på.\n\n## Livskriser\n\nSorg, tap, sykdom, samlivsbrudd eller mobbing kan gjøre de eksistensielle spørsmålene ekstra sterke. Det er vanlig å føle seg alene med tankene, men det hjelper ofte å snakke med noen: venner, familie, en lærer eller helsesykepleieren. Du kan også ringe **Alarmtelefonen for barn og unge** på 116 111 eller **Mental Helses hjelpetelefon** på 116 123.\n\n## Å reflektere\n\nÅ tenke over eksistensielle spørsmål kan gjøre oss bedre kjent med oss selv og andre. Når vi lytter til hvordan mennesker med andre livssyn svarer, kan vi få nye perspektiver og forstå at det finnes mange måter å finne mening på.",
+  "flashcards": [
+    { "term": "Eksistensielle spørsmål", "def": "De store spørsmålene om mening, frihet, lidelse og død." },
+    { "term": "Kristent svar", "def": "Mennesket er skapt og elsket av Gud, med håp om evig liv." },
+    { "term": "Islamsk svar", "def": "Livet er en prøve fra Gud, og dommens dag avgjør det som skjer etter døden." },
+    { "term": "Moksha og nirvana", "def": "Frigjøring fra gjenfødelsene i hinduisme og buddhisme." },
+    { "term": "Humanistisk svar", "def": "Vi har ett liv og skaper mening selv, blant annet gjennom relasjoner." },
+    { "term": "Eksistensialisme", "def": "Filosofisk retning om menneskets frihet, valg og ansvar." },
+    { "term": "Søren Kierkegaard", "def": "Dansk filosof (1813–1855) som skrev om valg, ansvar og angst." },
+    { "term": "Jean-Paul Sartre", "def": "Fransk filosof som mente at mennesket er «dømt til å være fritt»." },
+    { "term": "«Eksistensen går forut for essensen»", "def": "Vi er ikke født med en ferdig mening, men skaper oss selv gjennom valg." },
+    { "term": "Det absurde", "def": "Camus' begrep om at vi søker mening i en verden som ikke gir klare svar." },
+    { "term": "Identitet i et mangfoldig samfunn", "def": "Mange vokser opp med flere kulturer og kan høre til flere steder." },
+    { "term": "Framtidsangst", "def": "Uro for framtiden, for eksempel på grunn av krig eller klimaendringer." },
+    { "term": "Livskrise", "def": "Vanskelig periode, for eksempel etter sorg, tap eller sykdom." },
+    { "term": "Alarmtelefonen for barn og unge", "def": "Gratis hjelpetelefon: 116 111." },
+    { "term": "Mental Helses hjelpetelefon", "def": "Gratis hjelpetelefon for alle som trenger noen å snakke med: 116 123." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er et eksistensielt spørsmål?", "options": ["Hva er klokka?", "Hva koster en bussbillett?", "Hva er meningen med livet?", "Hvilken dag er det i dag?"], "correct": 2, "explain": "Eksistensielle spørsmål handler om de store sidene ved det å være menneske." },
+    { "id": "q02", "text": "Hva sa Sartre om menneskets frihet?", "options": ["At vi er «dømt til å være frie»", "At alt er forutbestemt", "At bare Gud er fri", "At frihet ikke finnes"], "correct": 0, "explain": "Ifølge Sartre kan vi ikke unngå å velge, og vi har ansvar for valgene våre." },
+    { "id": "q03", "text": "Hvordan svarer livssynshumanismen på spørsmålet om meningen med livet?", "options": ["At meningen er gitt av Gud", "At vi selv skaper mening, for eksempel gjennom relasjoner og å hjelpe andre", "At livet ikke har noen mening", "At meningen er å bli gjenfødt"], "correct": 1, "explain": "Humanister mener at mening skapes av mennesker." },
+    { "id": "q04", "text": "Hvem var Søren Kierkegaard?", "options": ["En norsk prest", "En tysk fysiker", "En fransk forfatter", "En dansk filosof som skrev om valg, ansvar og angst"], "correct": 3, "explain": "Kierkegaard regnes som en forløper for eksistensialismen." },
+    { "id": "q05", "text": "Hva betyr «eksistensen går forut for essensen»?", "options": ["At Gud skapte alt", "At vi ikke er født med en ferdig mening, men skaper oss selv gjennom valg", "At alt er bestemt på forhånd", "At bare essensen betyr noe"], "correct": 1, "explain": "Først finnes vi, så blir vi den vi er gjennom det vi gjør." },
+    { "id": "q06", "text": "Hvordan ser islam på livet?", "options": ["Som en drøm", "Som en tilfeldighet", "Som en prøve fra Gud", "Som ett av mange liv i samsara"], "correct": 2, "explain": "Hvordan man lever, har betydning på dommens dag." },
+    { "id": "q07", "text": "Hva mente Albert Camus med det absurde?", "options": ["At livet bare er morsomt", "At vi ikke bør bry oss om noe", "At Gud styrer alt", "At vi søker mening i en verden som ikke gir klare svar"], "correct": 3, "explain": "Camus mente vi likevel kan leve fullt og engasjert." },
+    { "id": "q08", "text": "Hvilken utfordring kan sosiale medier gi?", "options": ["Sammenligning og følelsen av å ikke være god nok", "At man lærer for mye", "At man får for lite fritid", "Ingen utfordringer"], "correct": 0, "explain": "Det man ser på sosiale medier, er ofte et redigert bilde av livet." },
+    { "id": "q09", "text": "Hva kan du gjøre hvis du går gjennom en livskrise?", "options": ["Holde alt for deg selv", "Unngå alle andre", "Snakke med noen du stoler på eller ringe en hjelpetelefon", "Late som ingenting"], "correct": 2, "explain": "Det hjelper ofte å dele tankene med noen." },
+    { "id": "q10", "text": "Hva er målet i hinduisme og buddhisme?", "options": ["Å bli rik", "Frigjøring fra gjenfødelsene, moksha eller nirvana", "Å leve evig på jorda", "Å få mange barn"], "correct": 1, "explain": "Begge religionene ser livet som en del av et kretsløp." }
+  ],
+  "mindmap": {
+    "label": "Eksistensielle spørsmål",
+    "children": [
+      { "label": "Spørsmålene", "children": [
+        { "label": "Hvem er jeg?" },
+        { "label": "Meningen med livet" },
+        { "label": "Lidelse og død" },
+        { "label": "Frihet" }
+      ] },
+      { "label": "Religiøse svar", "children": [
+        { "label": "Kristendom" },
+        { "label": "Islam" },
+        { "label": "Hinduisme og buddhisme" }
+      ] },
+      { "label": "Ikke-religiøse svar", "children": [
+        { "label": "Humanisme" },
+        { "label": "Kierkegaard" },
+        { "label": "Sartre" },
+        { "label": "Camus" }
+      ] },
+      { "label": "Å vokse opp i dag", "children": [
+        { "label": "Flere kulturer" },
+        { "label": "Frihet og press" },
+        { "label": "Sosiale medier" },
+        { "label": "Framtidsangst" }
+      ] },
+      { "label": "Livskriser", "children": [
+        { "label": "Sorg og tap" },
+        { "label": "Snakk med noen" },
+        { "label": "116 111 og 116 123" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Eksistensielle spørsmål har ett riktig fasitsvar.", "correct": false, "explain": "Religioner, livssyn og enkeltmennesker svarer ulikt." },
+      { "id": "m02", "type": "sant-usant", "text": "Mange som vokser opp med flere kulturer, kan oppleve å høre til flere steder.", "correct": true, "explain": "Det kan være både en styrke og en utfordring." },
+      { "id": "m03", "type": "sant-usant", "text": "Klimaendringer kan gi både framtidsangst og engasjement.", "correct": true, "explain": "Mange unge engasjerer seg for klimaet." },
+      { "id": "m04", "type": "sant-usant", "text": "Det er uvanlig å tenke på døden og meningen med livet i ungdomstiden.", "correct": false, "explain": "Ungdomstiden er en periode der mange tenker mye over slike spørsmål." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilket nummer har Alarmtelefonen for barn og unge?", "options": ["112", "116 111", "113", "110"], "correct": 1, "explain": "Telefonen er gratis og åpen for barn og unge som trenger hjelp." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er et kristent svar på hva som skjer etter døden?", "options": ["Håp om evig liv", "Gjenfødelse som dyr", "At ingenting skjer", "At man blir en ånd i naturen"], "correct": 0, "explain": "Håpet bygger på troen på Jesu oppstandelse." },
+      { "id": "m07", "type": "flervalg", "text": "Hva mente Kierkegaard at friheten til å velge kan skape?", "options": ["Bare glede", "Kjedsomhet", "Angst", "Rikdom"], "correct": 2, "explain": "Når vi selv må velge, kjenner vi på ansvaret." }
+    ]
+  },
+  "kvalitet": { "status": "sjekkes", "merknader": ["Telefonnumrene til Alarmtelefonen (116 111) og Mental Helses hjelpetelefon (116 123) bør sjekkes før lansering."] }
+}

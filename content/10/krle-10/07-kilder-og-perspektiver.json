@@ -1,0 +1,86 @@
+{
+  "id": "kilder-og-perspektiver",
+  "fagId": "krle-10",
+  "trinnId": "10",
+  "name": "Kilder, perspektiver og fagbegreper",
+  "intro": "Ulike kilder til kunnskap om religioner og livssyn, innenfra- og utenfraperspektiv, kildekritikk og religionskritikk, og fagbegreper som gjør det lettere å sammenligne religioner.",
+  "kompetansemaal": [7, 6],
+  "sammendrag": "## Hvordan får vi kunnskap om religioner?\n\nDet finnes mange **kilder** til kunnskap om religioner og livssyn:\n\n- **Hellige skrifter**, som Bibelen, Koranen og Vedaene\n- **Troende selv**, for eksempel gjennom intervjuer eller besøk i et gudshus\n- **Trossamfunnenes egne** nettsider og publikasjoner\n- **Lærebøker**, leksikon og **forskning** i religionsvitenskap\n- **Statistikk**, for eksempel fra SSB\n- **Nyheter**, dokumentarer og **sosiale medier**\n\nHver kilde gir et bestemt bilde. En hellig tekst sier noe om hva en religion lærer, men ikke nødvendigvis om hvordan troende faktisk lever. Nyheter handler ofte om konflikter og det uvanlige, ikke om vanlig hverdagsliv.\n\n## Innenfra og utenfra\n\nEt **innenfraperspektiv** er hvordan de troende selv forstår sin religion. Et **utenfraperspektiv** er hvordan forskere, journalister eller andre som ikke tilhører religionen, beskriver den. Begge perspektivene er nyttige. Troende kan gi innsikt i hva religionen betyr for dem, mens et utenfraperspektiv kan sammenligne og se ting de troende tar for gitt.\n\n## Hvem snakker for en religion?\n\nAlle religioner har et stort **mangfold**. En imam, en prest eller en rabbiner snakker ikke nødvendigvis for alle troende. Unge, kvinner, konvertitter og liberale og konservative troende kan ha svært ulike syn. Derfor bør man være forsiktig med å si at «muslimer mener» eller «kristne mener».\n\n## Kildekritikk\n\nNår du vurderer en kilde om religion, kan du spørre:\n\n- Hvem er **avsenderen**, og hva er **formålet**? Vil de informere, overbevise eller kritisere?\n- Er kilden skrevet **innenfra** eller **utenfra**?\n- Er den **ensidig**, eller kommer flere syn fram?\n- Er den **representativ**, eller viser den bare én gruppe?\n- Når ble den laget?\n\n## Religionskritikk\n\n**Religionskritikk** er kritiske spørsmål til religioners påstander eller praksis. Filosofen **Ludwig Feuerbach** mente at gudene er menneskenes egne idealer, og **Karl Marx** kalte religion «folkets opium» fordi han mente den fikk folk til å godta urettferdighet. Andre kritiserer religioner for synet på kvinner eller seksualitet. Det finnes også kritikk **innenfra**, som da Luther kritiserte kirken. Religionskritikk er en del av ytringsfriheten, men det er viktig å skille mellom kritikk av ideer og hets av mennesker.\n\n## Fagbegreper\n\nReligionsforskeren **Ninian Smart** beskrev religioner ut fra sju **dimensjoner**, som kan brukes til å sammenligne dem:\n\n1. **Lære**: hva man tror\n2. **Fortellinger** og myter\n3. **Etikk**: hvordan man bør leve\n4. **Ritualer**: bønn, gudstjeneste, høytider og **overgangsriter** som dåp og konfirmasjon\n5. **Erfaring**: opplevelser av det hellige\n6. **Organisasjon**: fellesskap og ledere\n7. **Materielle uttrykk**: bygninger, kunst og **symboler**\n\nAndre nyttige begreper er **monoteisme** og **polyteisme**, **ortodoksi** (rett lære) og **ortopraksi** (rett praksis), **fundamentalisme** og **sekularisering**. Presise begreper gjør det lettere å sammenligne religioner uten å ta side.",
+  "flashcards": [
+    { "term": "Kilde", "def": "Alt som gir informasjon om et tema, som skrifter, intervjuer og statistikk." },
+    { "term": "Innenfraperspektiv", "def": "Hvordan de troende selv forstår sin religion." },
+    { "term": "Utenfraperspektiv", "def": "Hvordan forskere og andre som ikke tilhører religionen, beskriver den." },
+    { "term": "Religionsvitenskap", "def": "Forskning som beskriver og sammenligner religioner utenfra." },
+    { "term": "Representativ", "def": "At en kilde viser et bilde som gjelder mange, ikke bare én gruppe." },
+    { "term": "Kildekritikk", "def": "Å vurdere avsender, formål, tid og ensidighet i en kilde." },
+    { "term": "Religionskritikk", "def": "Kritiske spørsmål til religioners påstander eller praksis." },
+    { "term": "Ludwig Feuerbach", "def": "Filosof som mente at gudene er menneskenes egne idealer." },
+    { "term": "Karl Marx", "def": "Kalte religion «folkets opium»." },
+    { "term": "Ninian Smart", "def": "Religionsforsker som beskrev religioner ut fra sju dimensjoner." },
+    { "term": "Religionens dimensjoner", "def": "Lære, fortellinger, etikk, ritualer, erfaring, organisasjon og materielle uttrykk." },
+    { "term": "Overgangsrite", "def": "Ritual som markerer en ny fase i livet, som dåp, konfirmasjon og bryllup." },
+    { "term": "Ortodoksi og ortopraksi", "def": "Vekt på rett lære og vekt på rett praksis." },
+    { "term": "Fundamentalisme", "def": "Å holde strengt fast på det man ser som religionens opprinnelige grunnlag." },
+    { "term": "Polyteisme", "def": "Tro på mange guder." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er et innenfraperspektiv?", "options": ["Hvordan forskere beskriver en religion", "Hvordan nyheter framstiller religion", "Hvordan de troende selv forstår sin religion", "Hvordan staten ser på religion"], "correct": 2, "explain": "Innenfraperspektivet viser hva religionen betyr for de troende." },
+    { "id": "q02", "text": "Hvorfor kan nyheter gi et skjevt bilde av religion?", "options": ["Fordi de ofte handler om konflikter og det uvanlige", "Fordi journalister ikke kan lese", "Fordi de alltid er positive", "Fordi de bare handler om høytider"], "correct": 0, "explain": "Vanlig hverdagsliv blir sjelden nyheter." },
+    { "id": "q03", "text": "Hvorfor bør man være forsiktig med å si «muslimer mener» eller «kristne mener»?", "options": ["Fordi det er forbudt", "Fordi religioner ikke har meninger", "Fordi alle mener det samme", "Fordi det er stort mangfold innenfor hver religion"], "correct": 3, "explain": "Troende i samme religion kan ha svært ulike syn." },
+    { "id": "q04", "text": "Hva kalte Karl Marx religion?", "options": ["«Livets lys»", "«Folkets opium»", "«Menneskets mål»", "«Fornuftens fiende»"], "correct": 1, "explain": "Marx mente religion fikk folk til å godta urettferdighet." },
+    { "id": "q05", "text": "Hva er en overgangsrite?", "options": ["En pilegrimsreise", "En type bønn", "Et ritual som markerer en ny fase i livet, som konfirmasjon", "En høytid om våren"], "correct": 2, "explain": "Dåp, konfirmasjon, bryllup og gravferd er eksempler." },
+    { "id": "q06", "text": "Hva er forskjellen på ortodoksi og ortopraksi?", "options": ["Det er det samme", "Ortodoksi gjelder bare kristne", "Ortopraksi er en kirke", "Ortodoksi er rett lære, ortopraksi er rett praksis"], "correct": 3, "explain": "Noen religioner legger mest vekt på tro, andre på handling." },
+    { "id": "q07", "text": "Hvem beskrev religioner ut fra sju dimensjoner?", "options": ["Ninian Smart", "Karl Marx", "Martin Luther", "Ludwig Feuerbach"], "correct": 0, "explain": "Dimensjonene brukes ofte til å sammenligne religioner." },
+    { "id": "q08", "text": "Hvilket spørsmål hører til kildekritikk?", "options": ["Hvor mange sider har kilden?", "Hvem er avsenderen, og hva er formålet?", "Hvilken farge har forsiden?", "Hvor mye koster boka?"], "correct": 1, "explain": "Avsender og formål påvirker hvilket bilde kilden gir." },
+    { "id": "q09", "text": "Hva er viktig å skille mellom i religionskritikk?", "options": ["Bøker og filmer", "Religion og kultur", "Store og små religioner", "Kritikk av ideer og hets av mennesker"], "correct": 3, "explain": "Ideer kan kritiseres, men mennesker skal ikke hetses." },
+    { "id": "q10", "text": "Hva sier en hellig tekst mest om?", "options": ["Hva en religion lærer", "Hvordan alle troende faktisk lever i dag", "Hvor mange medlemmer religionen har", "Hva journalister mener"], "correct": 0, "explain": "For å vite hvordan troende lever, trenger man andre kilder." }
+  ],
+  "mindmap": {
+    "label": "Kilder og perspektiver",
+    "children": [
+      { "label": "Kilder", "children": [
+        { "label": "Hellige skrifter" },
+        { "label": "Troende selv" },
+        { "label": "Forskning og lærebøker" },
+        { "label": "Statistikk" },
+        { "label": "Nyheter og sosiale medier" }
+      ] },
+      { "label": "Perspektiver", "children": [
+        { "label": "Innenfra" },
+        { "label": "Utenfra" },
+        { "label": "Mangfold innad" }
+      ] },
+      { "label": "Kildekritikk", "children": [
+        { "label": "Avsender og formål" },
+        { "label": "Ensidighet" },
+        { "label": "Representativitet" }
+      ] },
+      { "label": "Religionskritikk", "children": [
+        { "label": "Feuerbach" },
+        { "label": "Marx" },
+        { "label": "Kritikk innenfra" },
+        { "label": "Ideer, ikke mennesker" }
+      ] },
+      { "label": "Fagbegreper", "children": [
+        { "label": "Sju dimensjoner" },
+        { "label": "Ritual og overgangsrite" },
+        { "label": "Ortodoksi og ortopraksi" },
+        { "label": "Mono- og polyteisme" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Både innenfra- og utenfraperspektiv kan gi nyttig kunnskap.", "correct": true, "explain": "Perspektivene utfyller hverandre." },
+      { "id": "m02", "type": "sant-usant", "text": "En imam snakker alltid på vegne av alle muslimer.", "correct": false, "explain": "Ingen enkeltperson kan snakke for alle troende i en religion." },
+      { "id": "m03", "type": "sant-usant", "text": "Religionskritikk er en del av ytringsfriheten.", "correct": true, "explain": "Det er lov å kritisere religiøse ideer og praksiser." },
+      { "id": "m04", "type": "sant-usant", "text": "Statistikk forteller alt om hva en religion betyr for de troende.", "correct": false, "explain": "Statistikk viser tall, men ikke hva troen betyr for den enkelte." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken av disse er en av Smarts dimensjoner?", "options": ["Økonomi", "Ritualer", "Sport", "Geografi"], "correct": 1, "explain": "Ritualer er for eksempel bønn, gudstjeneste og høytider." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er polyteisme?", "options": ["Tro på mange guder", "Tro på én Gud", "Ingen tro", "Tro på at man ikke kan vite"], "correct": 0, "explain": "Norrøn religion og mange former for hinduisme er polyteistiske." },
+      { "id": "m07", "type": "flervalg", "text": "Hva mente Feuerbach om gudene?", "options": ["At de bor i naturen", "At de er farlige", "At de er menneskenes egne idealer", "At de styrer historien"], "correct": 2, "explain": "Han mente mennesker projiserer sine beste egenskaper over på gudene." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

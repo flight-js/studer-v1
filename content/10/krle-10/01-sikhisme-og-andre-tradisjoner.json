@@ -1,0 +1,83 @@
+{
+  "id": "sikhisme-og-andre-tradisjoner",
+  "fagId": "krle-10",
+  "trinnId": "10",
+  "name": "Sikhisme og andre religiøse tradisjoner",
+  "intro": "Sikhismens guruer, tro og praksis, og sentrale trekk ved daoisme, konfutsianisme, shinto og bahá'í.",
+  "kompetansemaal": [1],
+  "sammendrag": "## Sikhismen\n\n**Sikhismen** er en av verdens yngste store religioner, med rundt 25–30 millioner tilhengere. De fleste bor i delstaten **Punjab** i India, men det finnes også store sikhmiljøer i blant annet Storbritannia og Canada. Ordet **sikh** betyr «elev» eller «disippel».\n\n## Guruene\n\nSikhismen ble grunnlagt av **Guru Nanak** (1469–1539). Han vokste opp i et område med både hinduer og muslimer og forkynte at det bare finnes én Gud, og at alle mennesker er like mye verdt. Etter Nanak fulgte ni andre guruer. Den tiende, **Guru Gobind Singh**, grunnla fellesskapet **Khalsa** i 1699 og bestemte at den hellige skriften, **Guru Granth Sahib**, skulle være guru for alltid.\n\n## Tro\n\n- **Én Gud**: Sikhismen er monoteistisk. Gud kalles ofte **Waheguru** og beskrives som skaperen, uten form og uten kjønn.\n- **Likeverd**: Guruene avviste **kastesystemet** og la vekt på at kvinner og menn er likestilte.\n- **Karma** og **gjenfødelse**: Målet er å bli forent med Gud og frigjort fra kretsløpet av gjenfødelser.\n- **Tre plikter**: å meditere over Guds navn, å arbeide ærlig og å dele med andre.\n\n## Praksis\n\nSikhenes gudshus heter **gurdwara**. Der leses og synges det fra Guru Granth Sahib, og alle gurdwaraer har et **langar**, et gratis kjøkken der alle, uansett religion og bakgrunn, får et måltid og sitter sammen på gulvet. Det mest kjente gudshuset er **Det gylne tempel** i **Amritsar**.\n\nSikher som er innviet i Khalsa, bærer **de fem K-ene**: uklipt hår (**kesh**), ofte under en **turban**, en kam, et stålarmbånd, et lite seremonielt sverd og en spesiell type undertøy. Menn får ofte navnet **Singh** («løve») og kvinner **Kaur** («prinsesse»), noe som også skulle vise at kaste ikke betyr noe. I Norge finnes det gurdwaraer, blant annet i Oslo-området.\n\n## Andre tradisjoner\n\n- **Daoisme** (Kina) bygger på skriftene som tilskrives **Laozi**. **Dao** betyr «veien», den naturlige orden i alt. Man skal leve i harmoni med naturen og finne balansen mellom **yin og yang**.\n- **Konfutsianisme** (Kina) bygger på **Konfutses** lære om respekt for foreldre og eldre, gode relasjoner og et harmonisk samfunn.\n- **Shinto** (Japan) handler om **kami**, ånder og guddommelige krefter i naturen, forfedrene og hellige steder. Helligdommene har ofte en rød port, **torii**. Mange japanere kombinerer shinto og buddhisme.\n- **Bahá'í** oppsto i Persia (Iran) på 1800-tallet, og grunnleggeren var **Bahá'u'lláh**. Troen legger vekt på at det finnes én Gud, at alle religioner har samme kilde, og at menneskeheten er én.\n\n## Fellestrekk og forskjeller\n\nFlere av disse tradisjonene legger vekt på harmoni, likeverd og å leve etisk i hverdagen. Men de er ulike i synet på det guddommelige: Sikhisme og bahá'í er monoteistiske, daoisme og konfutsianisme er i stor grad livsfilosofier, og shinto har mange kami.",
+  "flashcards": [
+    { "term": "Sikhisme", "def": "Monoteistisk religion fra Punjab i India med rundt 25–30 millioner tilhengere." },
+    { "term": "Guru Nanak", "def": "Sikhismens grunnlegger (1469–1539)." },
+    { "term": "Guru Gobind Singh", "def": "Den tiende guruen, som grunnla Khalsa i 1699." },
+    { "term": "Khalsa", "def": "Fellesskapet av innviede sikher." },
+    { "term": "Guru Granth Sahib", "def": "Sikhismens hellige skrift, som regnes som evig guru." },
+    { "term": "Waheguru", "def": "Et vanlig navn på Gud i sikhismen." },
+    { "term": "Gurdwara", "def": "Sikhenes gudshus." },
+    { "term": "Langar", "def": "Gratis kjøkken i gurdwaraen der alle får mat, uansett bakgrunn." },
+    { "term": "Det gylne tempel", "def": "Sikhismens mest kjente gudshus, i Amritsar." },
+    { "term": "De fem K-ene", "def": "Kjennetegn innviede sikher bærer, blant annet uklipt hår og stålarmbånd." },
+    { "term": "Singh og Kaur", "def": "Navn for sikhmenn («løve») og sikhkvinner («prinsesse»)." },
+    { "term": "Dao", "def": "«Veien», den naturlige orden i alt i daoismen." },
+    { "term": "Yin og yang", "def": "To motsatte krefter som hører sammen og må være i balanse." },
+    { "term": "Shinto", "def": "Japansk religion om kami, ånder og guddommelige krefter i naturen og hos forfedrene." },
+    { "term": "Bahá'í", "def": "Religion fra 1800-tallets Persia som vektlegger én Gud og menneskehetens enhet." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvem grunnla sikhismen?", "options": ["Guru Gobind Singh", "Bahá'u'lláh", "Guru Nanak", "Laozi"], "correct": 2, "explain": "Guru Nanak levde fra 1469 til 1539." },
+    { "id": "q02", "text": "Hva er langar?", "options": ["Et gratis kjøkken i gurdwaraen der alle får mat", "En hellig bok", "En turban", "En høytid"], "correct": 0, "explain": "Langar er et uttrykk for likeverd og deling." },
+    { "id": "q03", "text": "Hva er Guru Granth Sahib?", "options": ["Den første guruen", "Et tempel i Amritsar", "Et seremonielt sverd", "Sikhismens hellige skrift, som regnes som evig guru"], "correct": 3, "explain": "Etter den tiende guruen har skriften vært sikhenes guru." },
+    { "id": "q04", "text": "Hva mente guruene om kastesystemet?", "options": ["At det var gitt av Gud", "At det skulle avvises fordi alle er likeverdige", "At det bare gjaldt i Punjab", "At det var nødvendig"], "correct": 1, "explain": "Likeverd er et grunnleggende prinsipp i sikhismen." },
+    { "id": "q05", "text": "Hva er de fem K-ene?", "options": ["Fem hellige byer", "Fem guruer", "Fem daglige bønner", "Fem kjennetegn som innviede sikher bærer"], "correct": 3, "explain": "Blant dem er uklipt hår, en kam og et stålarmbånd." },
+    { "id": "q06", "text": "Hva betyr Dao i daoismen?", "options": ["Kraften", "Guden", "Veien, den naturlige orden i alt", "Himmelen"], "correct": 2, "explain": "Daoister søker å leve i harmoni med dao." },
+    { "id": "q07", "text": "Hva er kami i shinto?", "options": ["Ånder og guddommelige krefter i naturen, forfedrene og hellige steder", "En munk", "En hellig bok", "En port"], "correct": 0, "explain": "Kami kan finnes i fjell, trær, elver og forfedre." },
+    { "id": "q08", "text": "Hva legger bahá'í vekt på?", "options": ["At bare én religion er sann", "At det finnes én Gud, og at religionene har samme kilde", "At det finnes mange guder", "At naturen er hellig"], "correct": 1, "explain": "Bahá'í vektlegger også menneskehetens enhet." },
+    { "id": "q09", "text": "Hvor ligger Det gylne tempel?", "options": ["Delhi", "Lahore", "Amritsar", "Varanasi"], "correct": 2, "explain": "Tempelet i Amritsar besøkes av mange tusen mennesker hver dag." },
+    { "id": "q10", "text": "Hvilken tradisjon legger vekt på respekt for foreldre og et harmonisk samfunn?", "options": ["Shinto", "Sikhisme", "Bahá'í", "Konfutsianisme"], "correct": 3, "explain": "Konfutsianismen har preget kinesisk kultur i over 2000 år." }
+  ],
+  "mindmap": {
+    "label": "Sikhisme og andre tradisjoner",
+    "children": [
+      { "label": "Sikhismen", "children": [
+        { "label": "Guru Nanak" },
+        { "label": "Ti guruer" },
+        { "label": "Guru Granth Sahib" },
+        { "label": "Punjab" }
+      ] },
+      { "label": "Sikh-tro og praksis", "children": [
+        { "label": "Én Gud" },
+        { "label": "Likeverd" },
+        { "label": "Gurdwara og langar" },
+        { "label": "De fem K-ene" }
+      ] },
+      { "label": "Kina", "children": [
+        { "label": "Daoisme", "note": "Dao, yin og yang" },
+        { "label": "Konfutsianisme" }
+      ] },
+      { "label": "Japan", "children": [
+        { "label": "Shinto" },
+        { "label": "Kami" },
+        { "label": "Torii" }
+      ] },
+      { "label": "Bahá'í", "children": [
+        { "label": "Én Gud" },
+        { "label": "Religionenes enhet" },
+        { "label": "Menneskehetens enhet" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Sikhismen er monoteistisk.", "correct": true, "explain": "Sikher tror på én Gud, ofte kalt Waheguru." },
+      { "id": "m02", "type": "sant-usant", "text": "Bare sikher får spise i langar.", "correct": false, "explain": "Alle er velkomne, uansett religion og bakgrunn." },
+      { "id": "m03", "type": "sant-usant", "text": "Mange japanere kombinerer shinto og buddhisme.", "correct": true, "explain": "Shinto brukes ofte ved fødsel og bryllup, buddhisme ved død og gravferd." },
+      { "id": "m04", "type": "sant-usant", "text": "Sikhismen er over 3000 år gammel.", "correct": false, "explain": "Sikhismen oppsto på 1400- og 1500-tallet." },
+      { "id": "m05", "type": "flervalg", "text": "Hva betyr navnet Singh?", "options": ["Løve", "Prinsesse", "Lærer", "Elev"], "correct": 0, "explain": "Kvinner får navnet Kaur, som betyr «prinsesse»." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er yin og yang?", "options": ["To guruer", "To motsatte krefter som hører sammen og må være i balanse", "To japanske helligdommer", "To hellige bøker"], "correct": 1, "explain": "For eksempel lys og mørke, varmt og kaldt." },
+      { "id": "m07", "type": "flervalg", "text": "Hva heter sikhenes gudshus?", "options": ["Moské", "Synagoge", "Pagode", "Gurdwara"], "correct": 3, "explain": "Gurdwara betyr «guruens dør»." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

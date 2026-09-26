@@ -1,0 +1,85 @@
+{
+  "id": "kjonn-og-seksualitet",
+  "fagId": "krle-10",
+  "trinnId": "10",
+  "name": "Kjønn og seksualitet i religioner og livssyn",
+  "intro": "Ulike syn på kjønnsroller, seksualitet og likekjønnet samliv i kristendom, islam, jødedom, hinduisme og livssynshumanisme, og hva norsk lov sier.",
+  "kompetansemaal": [8],
+  "sammendrag": "## Et omstridt tema\n\nSpørsmål om **kjønn** og **seksualitet** handler om hvordan kvinner og menn skal leve, hvem man kan gifte seg med, og hva som er rett og galt i samliv. Religioner og livssyn har ulike svar, og det er ofte stor uenighet også **innad** i hver tradisjon. Uenigheten handler gjerne om hvordan hellige tekster skal **tolkes**, og hvor mye vekt man skal legge på **tradisjon**, **fornuft** og **menneskerettigheter**.\n\n## Syn på kjønnsroller\n\nMange religiøse tradisjoner har hatt ulike roller for kvinner og menn, der menn har ledet og kvinner har hatt ansvar for hjem og barn. I dag er synene svært ulike:\n\n- **Kristendom**: Den norske kirke fikk sin første kvinnelige prest, **Ingrid Bjerkås**, i 1961 og sin første kvinnelige biskop, **Rosemarie Köhn**, i 1993. Den katolske og den ortodokse kirken har bare mannlige prester, og noen frikirker har bare mannlige ledere.\n- **Islam**: Mange muslimer mener at kvinner og menn er likeverdige, men har ulike roller. Imamer er som regel menn. Noen muslimske feminister tolker Koranen på nye måter og krever større likestilling.\n- **Jødedom**: Ortodokse jøder har bare mannlige rabbinere, mens reformjødedommen har kvinnelige rabbinere.\n- **Livssynshumanisme**: Humanister legger vekt på full **likestilling**, og at kjønn ikke skal avgjøre hvilke muligheter man har.\n\n## Seksualitet og samliv\n\nI mange religioner er **ekteskapet** mellom mann og kvinne den rette rammen for seksualitet. Den katolske kirken er for eksempel imot kunstig prevensjon. Andre retninger og mange enkeltpersoner mener at samliv og seksualitet er et privat ansvar, der **gjensidig respekt** og **samtykke** er det viktigste.\n\n## Homofili og likekjønnet ekteskap\n\n- **Den norske kirke** vedtok i **2016** at likekjønnede par kan vies i kirken. Noen prester og menigheter er likevel uenige.\n- **Den katolske kirke** lærer at homofil legning ikke er synd, men at homofilt samliv er det. I 2023 åpnet paven for at prester kan velsigne likekjønnede par, men ikke vie dem.\n- Mange **muslimer** og **ortodokse jøder** mener at homofilt samliv er i strid med religionen, mens liberale muslimer og reformjøder ofte er mer åpne.\n- **Humanister** støtter at alle skal ha samme rett til å gifte seg.\n- I Sør-Asia finnes en gammel tradisjon med et **tredje kjønn**, som også har plass i hinduistiske fortellinger.\n\n## Norsk lov\n\nNorske lover gjelder for alle, uansett religion. Siden **2009** har ekteskapsloven vært **kjønnsnøytral**, og diskriminering på grunn av kjønn, seksuell orientering og kjønnsidentitet er forbudt. Trossamfunn har likevel rett til å bestemme hvem de vil vie, og hvem som kan være prest, imam eller rabbiner.\n\n## Å reflektere\n\nNår vi diskuterer kjønn og seksualitet, er det viktig å huske at det finnes **mangfold** innenfor alle religioner og livssyn, og at temaet berører mennesker personlig. Vi bør lytte til argumentene, skille mellom tro og fordommer, og vise respekt for at andre kan mene noe annet.",
+  "flashcards": [
+    { "term": "Kjønnsroller", "def": "Forventninger til hvordan kvinner og menn skal oppføre seg og hva de skal gjøre." },
+    { "term": "Tolkning", "def": "Hvordan hellige tekster forstås. Ulike tolkninger gir ulike syn på kjønn og seksualitet." },
+    { "term": "Ingrid Bjerkås", "def": "Den norske kirkes første kvinnelige prest, ordinert i 1961." },
+    { "term": "Rosemarie Köhn", "def": "Den norske kirkes første kvinnelige biskop, fra 1993." },
+    { "term": "Mannlige prester", "def": "Den katolske og den ortodokse kirken har bare menn som prester." },
+    { "term": "Muslimsk feminisme", "def": "Muslimer som tolker Koranen på nye måter og krever større likestilling." },
+    { "term": "Kvinnelige rabbinere", "def": "Finnes i reformjødedommen, men ikke i ortodoks jødedom." },
+    { "term": "Likestilling", "def": "At kjønn ikke skal avgjøre rettigheter og muligheter." },
+    { "term": "Samtykke", "def": "Et frivillig og tydelig ja." },
+    { "term": "Likekjønnet vigsel", "def": "Den norske kirke vedtok i 2016 at likekjønnede par kan vies i kirken." },
+    { "term": "Katolsk syn på homofili", "def": "Legningen er ikke synd, men homofilt samliv regnes som synd." },
+    { "term": "Tredje kjønn", "def": "Gammel tradisjon i Sør-Asia med en egen kjønnskategori ved siden av mann og kvinne." },
+    { "term": "Kjønnsnøytral ekteskapslov", "def": "Siden 2009 kan to av samme kjønn gifte seg i Norge." },
+    { "term": "Unntak for trossamfunn", "def": "Trossamfunn kan selv bestemme hvem de vier, og hvem som kan være religiøse ledere." },
+    { "term": "Mangfold innad", "def": "At troende i samme religion kan ha svært ulike syn." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva handler uenigheten om kjønn og seksualitet i religioner ofte om?", "options": ["Hvilke høytider man feirer", "Hvordan hellige tekster skal tolkes", "Hvilket språk man ber på", "Hvor gudshusene ligger"], "correct": 1, "explain": "Samme tekst kan tolkes svært ulikt av ulike troende." },
+    { "id": "q02", "text": "Når fikk Den norske kirke sin første kvinnelige prest?", "options": ["1814", "1913", "1993", "1961"], "correct": 3, "explain": "Ingrid Bjerkås ble ordinert i 1961." },
+    { "id": "q03", "text": "Hvilken kirke har bare mannlige prester?", "options": ["Den katolske kirke", "Den norske kirke", "Alle lutherske kirker", "Ingen kirker"], "correct": 0, "explain": "Også den ortodokse kirken har bare mannlige prester." },
+    { "id": "q04", "text": "Hva vedtok Den norske kirke i 2016?", "options": ["At kvinner kan bli prester", "At kirken skal skilles fra staten", "At likekjønnede par kan vies i kirken", "At prevensjon er forbudt"], "correct": 2, "explain": "Vedtaket ble gjort av Kirkemøtet." },
+    { "id": "q05", "text": "Hva lærer Den katolske kirke om homofili?", "options": ["At homofil legning ikke er synd, men at homofilt samliv er det", "At alt er tillatt", "At homofile ikke kan være katolikker", "At homofile par kan vies i kirken"], "correct": 0, "explain": "Kirken skiller mellom legning og handling." },
+    { "id": "q06", "text": "Hva mener livssynshumanister om kjønn?", "options": ["At menn skal lede", "At kvinner skal være hjemme", "At kjønn avgjør hvilke yrker man kan ha", "At det skal være full likestilling"], "correct": 3, "explain": "Humanister bygger på menneskeverd og menneskerettigheter." },
+    { "id": "q07", "text": "Hvor finnes en gammel tradisjon med et tredje kjønn?", "options": ["I Den katolske kirke", "I Sør-Asia", "I ortodoks jødedom", "I Skandinavia"], "correct": 1, "explain": "Tradisjonen har også plass i hinduistiske fortellinger." },
+    { "id": "q08", "text": "Hvordan har ekteskapsloven vært siden 2009?", "options": ["Bare for mann og kvinne", "Bare for kristne", "Kjønnsnøytral", "Avskaffet"], "correct": 2, "explain": "To av samme kjønn kan gifte seg i Norge." },
+    { "id": "q09", "text": "Hvilken rett har trossamfunn i Norge?", "options": ["Å sette norsk lov til side", "Å straffe medlemmene sine", "Å bestemme hvem som blir statsminister", "Å bestemme hvem de vil vie, og hvem som kan være religiøse ledere"], "correct": 3, "explain": "Dette er et unntak fra diskrimineringsloven for religiøse spørsmål." },
+    { "id": "q10", "text": "Hvorfor er det viktig å huske mangfoldet innenfor hver religion?", "options": ["Fordi troende i samme religion kan mene svært ulike ting", "Fordi alle religioner er like", "Fordi religioner aldri endrer seg", "Fordi bare lederne har meninger"], "correct": 0, "explain": "Det hindrer at vi generaliserer om alle troende." }
+  ],
+  "mindmap": {
+    "label": "Kjønn og seksualitet",
+    "children": [
+      { "label": "Tolkning", "children": [
+        { "label": "Hellige tekster" },
+        { "label": "Tradisjon" },
+        { "label": "Fornuft og menneskerettigheter" },
+        { "label": "Mangfold innad" }
+      ] },
+      { "label": "Kjønnsroller", "children": [
+        { "label": "Kvinnelige prester", "note": "1961" },
+        { "label": "Katolsk: bare menn" },
+        { "label": "Muslimsk feminisme" },
+        { "label": "Ortodoks og reform" }
+      ] },
+      { "label": "Seksualitet", "children": [
+        { "label": "Ekteskapet som ramme" },
+        { "label": "Prevensjon" },
+        { "label": "Samtykke og respekt" }
+      ] },
+      { "label": "Homofili", "children": [
+        { "label": "Den norske kirke", "note": "2016" },
+        { "label": "Katolsk syn" },
+        { "label": "Islam og jødedom" },
+        { "label": "Humanisme" }
+      ] },
+      { "label": "Norsk lov", "children": [
+        { "label": "Kjønnsnøytral ekteskapslov", "note": "2009" },
+        { "label": "Forbud mot diskriminering" },
+        { "label": "Unntak for trossamfunn" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Rosemarie Köhn ble Den norske kirkes første kvinnelige biskop i 1993.", "correct": true, "explain": "Hun ble biskop i Hamar." },
+      { "id": "m02", "type": "sant-usant", "text": "Alle muslimer har nøyaktig samme syn på kvinners rolle.", "correct": false, "explain": "Det finnes stort mangfold av syn blant muslimer." },
+      { "id": "m03", "type": "sant-usant", "text": "Reformjødedommen har kvinnelige rabbinere.", "correct": true, "explain": "Ortodoks jødedom har bare mannlige rabbinere." },
+      { "id": "m04", "type": "sant-usant", "text": "Norske lover gjelder ikke for medlemmer av trossamfunn.", "correct": false, "explain": "Norske lover gjelder for alle, men trossamfunn har visse unntak i religiøse spørsmål." },
+      { "id": "m05", "type": "flervalg", "text": "Hva åpnet paven for i 2023?", "options": ["At kvinner kan bli prester", "At prester kan velsigne likekjønnede par", "At likekjønnede par kan vies", "At prester kan gifte seg"], "correct": 1, "explain": "Velsignelse er ikke det samme som vigsel, og ordningen er omstridt i kirken." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er samtykke?", "options": ["Et frivillig og tydelig ja", "En religiøs regel", "En type ekteskap", "Et løfte i kirken"], "correct": 0, "explain": "Samtykke er grunnleggende for all seksuell kontakt." },
+      { "id": "m07", "type": "flervalg", "text": "Hva sier norsk lov om diskriminering på grunn av seksuell orientering?", "options": ["At det er lov i alle sammenhenger", "At det er lov for arbeidsgivere", "At det er forbudt", "At det bare er forbudt i skolen"], "correct": 2, "explain": "Likestillings- og diskrimineringsloven forbyr slik diskriminering." }
+    ]
+  },
+  "kvalitet": { "status": "sjekkes", "merknader": ["Sensitivt tema – bør gjennomgås av lærer for balanse og presisjon i beskrivelsen av de ulike religionenes syn.", "Den katolske kirkes ordning med velsignelse av likekjønnede par (2023) bør sjekkes mot gjeldende praksis."] }
+}

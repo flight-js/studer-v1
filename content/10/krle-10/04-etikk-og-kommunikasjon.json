@@ -1,0 +1,84 @@
+{
+  "id": "etikk-og-kommunikasjon",
+  "fagId": "krle-10",
+  "trinnId": "10",
+  "name": "Etikk, kommunikasjon og uenighet",
+  "intro": "Etiske problemstillinger knyttet til sannhet, hemmeligheter og digital kommunikasjon, og hvordan du kan håndtere uenighet og kjenne igjen usaklige teknikker.",
+  "kompetansemaal": [14, 12],
+  "sammendrag": "## Kommunikasjon og etikk\n\nVi kommuniserer hele tiden: ansikt til ansikt, i meldinger, på sosiale medier, i bilder og gjennom kroppsspråk. Måten vi kommuniserer på, kan bygge opp eller rive ned andre. Derfor reiser kommunikasjon mange **etiske problemstillinger**.\n\n## Sannhet og løgn\n\nEr det alltid galt å lyve? En **pliktetiker** som Kant vil si ja. En **konsekvensetiker** vil spørre om en **hvit løgn** – for eksempel å si at du liker en gave – gjør mer godt enn vondt. Mange mener at ærlighet er grunnlaget for **tillit**, men at man også må tenke på hvordan sannheten blir sagt.\n\n## Hemmeligheter og taushet\n\nNår noen forteller deg noe i **fortrolighet**, har du et ansvar. Samtidig finnes det situasjoner der du bør si fra til en voksen, for eksempel hvis en venn blir utsatt for vold eller kan komme til å skade seg selv. Da kan plikten til å hjelpe veie tyngre enn løftet om å tie.\n\n## Digital kommunikasjon\n\nNettet gjør det lett å nå mange, men gir også egne utfordringer:\n\n- **Nettmobbing** og **netthets**: Når vi ikke ser ansiktet til mottakeren, blir terskelen for å si sårende ting lavere.\n- **Deling av bilder**: Du må ha **samtykke** før du deler bilder der andre er hovedmotivet, og deling av nakenbilder av personer under 18 år er straffbart.\n- **Ryktespredning** og baksnakking kan spre seg raskt og være vanskelig å stoppe.\n- **Anonymitet** kan beskytte folk som varsler om kritikkverdige forhold, men også gjøre det lettere å hetse.\n- **Falske nyheter**, deepfakes og falske profiler kan lure oss og skade andre.\n- **Humor** kan skape fellesskap, men også såre. Det som er morsomt for én, kan være krenkende for en annen.\n\n**Ytringsfriheten** gir oss rett til å si hva vi mener, men vi har også **ansvar** for hvordan ordene våre påvirker andre. **Den gylne regel** er en god rettesnor også på nett.\n\n## Å møte uenighet\n\n**Meningsbrytning**, at ulike meninger møtes og prøves mot hverandre, er viktig i et demokrati. Men det krever at vi håndterer uenighet på en god måte:\n\n- **Dialog** handler om å forstå hverandre, mens **debatt** ofte handler om å vinne. Begge har sin plass.\n- **Aktiv lytting** og **perspektivtaking**: Prøv å forstå hvorfor den andre mener det de mener.\n- Bruk **saklige argumenter**, og skill mellom sak og person.\n- Bruk **jeg-budskap** («Jeg blir lei meg når …») i stedet for å anklage.\n\n## Usaklige teknikker\n\nNoen prøver å vinne diskusjoner på urettferdige måter:\n\n- **Personangrep**: å angripe personen i stedet for argumentet\n- **Stråmann**: å gjengi motpartens syn på en forvrengt måte og så angripe det\n- **Hersketeknikker**: måter å undertrykke andre på, som å overse, latterliggjøre eller holde tilbake informasjon. Begrepet ble gjort kjent av den norske sosialpsykologen og politikeren **Berit Ås**.\n\nÅ kjenne igjen slike teknikker gjør det lettere å svare på dem – og å la være å bruke dem selv.",
+  "flashcards": [
+    { "term": "Etisk problemstilling", "def": "Et spørsmål om hva som er rett og galt å gjøre." },
+    { "term": "Hvit løgn", "def": "En liten løgn for å skåne noen." },
+    { "term": "Fortrolighet", "def": "Når noen forteller deg noe i tillit om at du ikke sprer det videre." },
+    { "term": "Nettmobbing", "def": "Gjentatt plaging, utestenging eller hets via digitale kanaler." },
+    { "term": "Samtykke til deling", "def": "Du må spørre før du deler bilder der andre er hovedmotivet." },
+    { "term": "Ryktespredning", "def": "Å spre påstander om andre som kan være usanne eller sårende." },
+    { "term": "Anonymitet", "def": "Å ytre seg uten navn. Kan beskytte varslere, men gjøre hets lettere." },
+    { "term": "Ytringsfrihet og ansvar", "def": "Retten til å si sin mening, sammen med ansvaret for hvordan ordene påvirker andre." },
+    { "term": "Meningsbrytning", "def": "At ulike meninger møtes og prøves mot hverandre." },
+    { "term": "Dialog og debatt", "def": "Dialog handler om å forstå, debatt ofte om å vinne." },
+    { "term": "Perspektivtaking", "def": "Å prøve å forstå hvordan den andre tenker og opplever en sak." },
+    { "term": "Jeg-budskap", "def": "Å si hvordan man selv opplever noe, i stedet for å anklage." },
+    { "term": "Personangrep", "def": "Å angripe personen i stedet for argumentet." },
+    { "term": "Stråmann", "def": "Å forvrenge motpartens syn og så angripe den forvrengte versjonen." },
+    { "term": "Hersketeknikk", "def": "Måte å undertrykke andre på, som å overse eller latterliggjøre. Gjort kjent av Berit Ås." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er en hvit løgn?", "options": ["En løgn som skader mange", "En løgn i retten", "En løgn på nett", "En liten løgn for å skåne noen"], "correct": 3, "explain": "Etiske teorier vurderer hvite løgner ulikt." },
+    { "id": "q02", "text": "Hvordan vil en pliktetiker som Kant se på å lyve?", "options": ["At det er greit hvis det gir gode følger", "At det alltid er galt", "At det er opp til hver enkelt", "At det bare er galt på nett"], "correct": 1, "explain": "Kant mente at plikten til å si sannheten gjelder uansett følger." },
+    { "id": "q03", "text": "Når kan det være riktig å bryte et løfte om å holde noe hemmelig?", "options": ["Når hemmeligheten er kjedelig", "Når du er sint på vennen", "Når en venn blir utsatt for vold eller kan komme til å skade seg selv", "Aldri"], "correct": 2, "explain": "Plikten til å hjelpe kan veie tyngre enn løftet om å tie." },
+    { "id": "q04", "text": "Hvorfor kan terskelen for sårende kommentarer være lavere på nett?", "options": ["Fordi vi ikke ser ansiktet og reaksjonen til mottakeren", "Fordi alle er anonyme", "Fordi det er lov", "Fordi ingen leser det"], "correct": 0, "explain": "Avstanden gjør det lettere å glemme at det er et menneske på den andre siden." },
+    { "id": "q05", "text": "Hva er forskjellen på dialog og debatt?", "options": ["Det er ingen forskjell", "Debatt er alltid bedre", "Dialog handler om å forstå, debatt ofte om å vinne", "Dialog er bare skriftlig"], "correct": 2, "explain": "Begge formene kan være nyttige i ulike situasjoner." },
+    { "id": "q06", "text": "Hva er et stråmannsargument?", "options": ["Et argument med mange fakta", "Et argument om landbruk", "Et spørsmål til motparten", "Å forvrenge motpartens syn og så angripe det"], "correct": 3, "explain": "Det er lettere å angripe en forenklet versjon av det motparten mener." },
+    { "id": "q07", "text": "Hva er et jeg-budskap?", "options": ["Å snakke bare om seg selv", "Å si hvordan man selv opplever noe, i stedet for å anklage", "Å skrive dagbok", "Å alltid ta ordet først"], "correct": 1, "explain": "Jeg-budskap gjør det lettere for den andre å lytte uten å gå i forsvar." },
+    { "id": "q08", "text": "Hvem gjorde begrepet hersketeknikker kjent i Norge?", "options": ["Berit Ås", "Henrik Ibsen", "Gro Harlem Brundtland", "Sigrid Undset"], "correct": 0, "explain": "Hun beskrev fem hersketeknikker, blant annet usynliggjøring og latterliggjøring." },
+    { "id": "q09", "text": "Hva er en etisk utfordring ved anonymitet på nett?", "options": ["At ingen kan skrive", "At det blir for mange innlegg", "At alle blir mer høflige", "At det kan gjøre det lettere å hetse andre"], "correct": 3, "explain": "Anonymitet kan likevel være viktig for varslere." },
+    { "id": "q10", "text": "Hva sier den gylne regel om kommunikasjon?", "options": ["Si alltid det du vil", "Snakk til andre slik du selv vil bli snakket til", "Svar aldri på meldinger", "Del alt du ser"], "correct": 1, "explain": "Regelen passer like godt på nett som ansikt til ansikt." }
+  ],
+  "mindmap": {
+    "label": "Etikk og kommunikasjon",
+    "children": [
+      { "label": "Sannhet", "children": [
+        { "label": "Hvit løgn" },
+        { "label": "Plikt eller konsekvens" },
+        { "label": "Tillit" }
+      ] },
+      { "label": "Fortrolighet", "children": [
+        { "label": "Holde på hemmeligheter" },
+        { "label": "Når du bør si fra" }
+      ] },
+      { "label": "Digitalt", "children": [
+        { "label": "Nettmobbing" },
+        { "label": "Bildedeling og samtykke" },
+        { "label": "Rykter" },
+        { "label": "Anonymitet" },
+        { "label": "Falske nyheter" }
+      ] },
+      { "label": "Uenighet", "children": [
+        { "label": "Dialog og debatt" },
+        { "label": "Aktiv lytting" },
+        { "label": "Perspektivtaking" },
+        { "label": "Jeg-budskap" }
+      ] },
+      { "label": "Usaklige grep", "children": [
+        { "label": "Personangrep" },
+        { "label": "Stråmann" },
+        { "label": "Hersketeknikker" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Ytringsfrihet betyr at man ikke har noe ansvar for det man sier.", "correct": false, "explain": "Med friheten følger ansvar, og noen ytringer er forbudt, som trusler." },
+      { "id": "m02", "type": "sant-usant", "text": "Latterliggjøring kan være en hersketeknikk.", "correct": true, "explain": "Latterliggjøring gjør at andre ikke blir tatt på alvor." },
+      { "id": "m03", "type": "sant-usant", "text": "Du trenger samtykke før du deler bilder der andre er hovedmotivet.", "correct": true, "explain": "Hovedregelen er at den som er avbildet, må spørres." },
+      { "id": "m04", "type": "sant-usant", "text": "Humor kan aldri være krenkende.", "correct": false, "explain": "Det som er morsomt for én, kan såre en annen." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er perspektivtaking?", "options": ["Å ta bilder fra ulike vinkler", "Å prøve å forstå hvordan den andre tenker og opplever saken", "Å alltid være enig", "Å bytte mening ofte"], "correct": 1, "explain": "Perspektivtaking gjør det lettere å håndtere uenighet." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er et personangrep i en diskusjon?", "options": ["Å angripe personen i stedet for argumentet", "Å gi ros", "Å stille spørsmål", "Å vise til fakta"], "correct": 0, "explain": "Personangrep svarer ikke på saken." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er meningsbrytning?", "options": ["At man slutter å snakke sammen", "At alle mener det samme", "At ulike meninger møtes og prøves mot hverandre", "At man bryter et løfte"], "correct": 2, "explain": "Meningsbrytning er en viktig del av demokratiet." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

@@ -1,0 +1,84 @@
+{
+  "id": "filosofi-og-aktuell-etikk",
+  "fagId": "krle-10",
+  "trinnId": "10",
+  "name": "Filosofer og aktuelle etiske spørsmål",
+  "intro": "Etiske ideer fra filosofer fra antikken til i dag, og hvordan ideene kan brukes til å drøfte aktuelle spørsmål om dyr, kunstig intelligens og klima.",
+  "kompetansemaal": [11],
+  "sammendrag": "## Filosofer og de store spørsmålene\n\nGjennom historien har filosofer spurt: Hva er et godt liv? Hva er rettferdighet? Hvordan bør vi behandle hverandre? Ideene deres kan fortsatt hjelpe oss å drøfte aktuelle spørsmål.\n\n## Antikken\n\n- **Sokrates** (ca. 470–399 f.Kr.) gikk rundt i Athen og stilte spørsmål for å få folk til å tenke selv. Han mente at «et uransaket liv er ikke verdt å leve», og at det er bedre å lide urett enn å gjøre urett.\n- **Platon**, eleven hans, mente at det finnes et evig og uforanderlig **gode**, og at et rettferdig samfunn bør ledes av kloke mennesker.\n- **Aristoteles** mente at målet med livet er **lykke** i betydningen et godt og meningsfullt liv, og at vi når det ved å utvikle **dyder**.\n- **Epikur** mente at lykke er fravær av smerte og uro, og anbefalte vennskap, enkle gleder og måtehold.\n\n## Nyere tid\n\n- **Immanuel Kant** mente at vi må behandle mennesker som **mål i seg selv**, aldri bare som middel.\n- **John Stuart Mill** formulerte **skadeprinsippet**: Staten bør bare begrense friheten til et menneske for å hindre at andre blir skadet.\n- **Hannah Arendt** fulgte rettssaken mot nazisten Adolf Eichmann og skrev om **ondskapens banalitet**: Store forbrytelser kan utføres av vanlige mennesker som slutter å tenke selv og bare følger ordre.\n- Den danske filosofen **K.E. Løgstrup** skrev om **den etiske fordring**: Vi har alltid noe av et annet menneskes liv i våre hender, og møtet med den andre krever at vi tar ansvar.\n- **Peter Singer** mener at dyrs lidelse må telle like mye som menneskers lignende lidelse, og at rike mennesker har plikt til å hjelpe fattige.\n\n## Aktuelle spørsmål\n\n**Dyreetikk**: Er det riktig å spise kjøtt? Med Singers konsekvensetikk kan man argumentere for at vi må redusere dyrs lidelse, for eksempel ved å spise mindre kjøtt og stille strenge krav til dyrevelferd. Andre mener at mennesker har større verdi enn dyr, men at vi likevel har plikt til å behandle dyr godt.\n\n**Kunstig intelligens**: KI kan hjelpe leger, lærere og forskere, men kan også brukes til overvåking, juks og **deepfakes**. Hvem har ansvaret når en KI gjør feil? Kants tanke om menneskeverd kan brukes til å kreve at mennesker aldri bare behandles som data.\n\n**Klima og framtidige generasjoner**: Har vi ansvar for mennesker som ennå ikke er født? Både Løgstrups etiske fordring og konsekvensetikkens hensyn til alle som berøres, kan brukes til å argumentere for at vi må kutte utslipp i dag.\n\n## Å drøfte\n\nÅ **drøfte** betyr å se et spørsmål fra flere sider, veie argumenter for og mot og komme fram til en begrunnet konklusjon. De filosofiske ideene gir ikke fasitsvar, men de gir oss **verktøy** til å tenke klarere og argumentere bedre.",
+  "flashcards": [
+    { "term": "Sokrates", "def": "Gresk filosof som stilte spørsmål for å få folk til å tenke selv." },
+    { "term": "«Et uransaket liv er ikke verdt å leve»", "def": "Sokrates' tanke om at vi må tenke over hvordan vi lever." },
+    { "term": "Platon", "def": "Sokrates' elev, som mente det finnes et evig og uforanderlig gode." },
+    { "term": "Aristoteles og lykke", "def": "Målet med livet er et godt og meningsfullt liv, nådd gjennom dyder." },
+    { "term": "Epikur", "def": "Mente at lykke er fravær av smerte og uro." },
+    { "term": "Kant og menneskeverd", "def": "Mennesker skal behandles som mål i seg selv, aldri bare som middel." },
+    { "term": "Skadeprinsippet", "def": "Mills prinsipp: Friheten bør bare begrenses for å hindre skade på andre." },
+    { "term": "Hannah Arendt", "def": "Filosof som skrev om ondskapens banalitet etter Eichmann-rettssaken." },
+    { "term": "Ondskapens banalitet", "def": "At vanlige mennesker kan gjøre store forbrytelser ved å slutte å tenke selv." },
+    { "term": "K.E. Løgstrup", "def": "Dansk filosof som skrev om den etiske fordring." },
+    { "term": "Den etiske fordring", "def": "Vi har alltid noe av et annet menneskes liv i våre hender." },
+    { "term": "Peter Singer", "def": "Filosof som mener dyrs lidelse teller, og at rike har plikt til å hjelpe fattige." },
+    { "term": "Dyreetikk", "def": "Spørsmål om hvordan vi bør behandle dyr." },
+    { "term": "KI-etikk", "def": "Spørsmål om ansvar, personvern og menneskeverd ved bruk av kunstig intelligens." },
+    { "term": "Å drøfte", "def": "Å veie argumenter fra flere sider og komme fram til en begrunnet konklusjon." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvordan arbeidet Sokrates?", "options": ["Han stilte spørsmål for å få folk til å tenke selv", "Han skrev mange bøker", "Han var konge i Athen", "Han bygde templer"], "correct": 0, "explain": "Det vi vet om Sokrates, kommer i stor grad fra eleven Platon." },
+    { "id": "q02", "text": "Hva sier Mills skadeprinsipp?", "options": ["At man alltid skal si sannheten", "At dyr har samme verdi som mennesker", "At lykke er fravær av smerte", "At staten bare bør begrense friheten for å hindre skade på andre"], "correct": 3, "explain": "Prinsippet brukes ofte i debatter om forbud og frihet." },
+    { "id": "q03", "text": "Hva mente Hannah Arendt med ondskapens banalitet?", "options": ["At onde mennesker er sjeldne", "At ondskap alltid er lett å oppdage", "At vanlige mennesker kan gjøre store forbrytelser ved å slutte å tenke selv", "At ondskap er morsomt"], "correct": 2, "explain": "Arendt mente Eichmann ikke var et monster, men en byråkrat som fulgte ordre." },
+    { "id": "q04", "text": "Hva er den etiske fordring hos Løgstrup?", "options": ["At man alltid må følge loven", "At vi alltid har noe av et annet menneskes liv i våre hender", "At man skal søke egen lykke", "At dyr er viktigere enn mennesker"], "correct": 1, "explain": "Møtet med et annet menneske gir oss ansvar." },
+    { "id": "q05", "text": "Hva mente Epikur at lykke er?", "options": ["Rikdom og makt", "Å vinne diskusjoner", "Å leve i kloster", "Fravær av smerte og uro"], "correct": 3, "explain": "Epikur anbefalte vennskap og enkle gleder." },
+    { "id": "q06", "text": "Hvilken filosof mener at dyrs lidelse må telle like mye som menneskers lignende lidelse?", "options": ["Peter Singer", "Immanuel Kant", "Platon", "Sokrates"], "correct": 0, "explain": "Singer er en av de mest kjente dyreetikerne." },
+    { "id": "q07", "text": "Hva betyr det å drøfte et spørsmål?", "options": ["Å gi et kort svar", "Å gjenta det læreren sier", "Å veie argumenter fra flere sider og komme fram til en begrunnet konklusjon", "Å bare si sin egen mening"], "correct": 2, "explain": "Drøfting krever at man tar motargumenter på alvor." },
+    { "id": "q08", "text": "Hvilken etisk utfordring knyttes til kunstig intelligens?", "options": ["At den ikke kan regne", "Hvem som har ansvaret når den gjør feil", "At den er for treg", "At den bare virker på engelsk"], "correct": 1, "explain": "Ansvar er vanskelig å plassere når en maskin tar avgjørelser." },
+    { "id": "q09", "text": "Hvordan kan Kants ideer brukes i debatten om KI?", "options": ["Til å si at KI alltid er god", "Til å si at KI skal bestemme alt", "Til å si at menneskeverd ikke betyr noe", "Til å kreve at mennesker aldri bare behandles som data"], "correct": 3, "explain": "Kants tanke om menneskeverd kan brukes som et krav til teknologien." },
+    { "id": "q10", "text": "Hva mente Aristoteles er målet med livet?", "options": ["Rikdom", "Makt", "Lykke i betydningen et godt og meningsfullt liv", "Å klare seg uten andre"], "correct": 2, "explain": "Aristoteles mente vi når lykke ved å utvikle gode dyder." }
+  ],
+  "mindmap": {
+    "label": "Filosofi og aktuell etikk",
+    "children": [
+      { "label": "Antikken", "children": [
+        { "label": "Sokrates" },
+        { "label": "Platon" },
+        { "label": "Aristoteles" },
+        { "label": "Epikur" }
+      ] },
+      { "label": "Nyere tid", "children": [
+        { "label": "Kant" },
+        { "label": "Mill", "note": "Skadeprinsippet" },
+        { "label": "Arendt" },
+        { "label": "Løgstrup" },
+        { "label": "Singer" }
+      ] },
+      { "label": "Dyreetikk", "children": [
+        { "label": "Dyrs lidelse" },
+        { "label": "Kjøtt og dyrevelferd" }
+      ] },
+      { "label": "Kunstig intelligens", "children": [
+        { "label": "Ansvar ved feil" },
+        { "label": "Menneskeverd" },
+        { "label": "Deepfakes" }
+      ] },
+      { "label": "Klima", "children": [
+        { "label": "Framtidige generasjoner" },
+        { "label": "Den etiske fordring" },
+        { "label": "Å drøfte" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Sokrates mente at det er bedre å lide urett enn å gjøre urett.", "correct": true, "explain": "Tanken er kjent fra Platons dialoger." },
+      { "id": "m02", "type": "sant-usant", "text": "Filosofiske ideer gir fasitsvar på alle aktuelle etiske spørsmål.", "correct": false, "explain": "Ideene gir verktøy for å tenke, men ikke ferdige svar." },
+      { "id": "m03", "type": "sant-usant", "text": "Hannah Arendt fulgte rettssaken mot Adolf Eichmann.", "correct": true, "explain": "Rettssaken ble holdt i Jerusalem i 1961." },
+      { "id": "m04", "type": "sant-usant", "text": "Løgstrup mente at vi ikke har ansvar for andre mennesker.", "correct": false, "explain": "Løgstrup mente tvert imot at møtet med den andre gir oss ansvar." },
+      { "id": "m05", "type": "flervalg", "text": "Hvem var elev av Sokrates?", "options": ["Kant", "Platon", "Mill", "Singer"], "correct": 1, "explain": "Platon skrev ned mange samtaler med Sokrates." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilket argument kan brukes for å spise mindre kjøtt?", "options": ["At det reduserer dyrs lidelse og klimagassutslipp", "At kjøtt er dyrt", "At dyr ikke kan føle smerte", "At det er påbudt"], "correct": 0, "explain": "Både dyreetikk og klimahensyn trekkes inn i debatten." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilken tanke kan brukes for å argumentere for at vi har ansvar for framtidige generasjoner?", "options": ["At bare de som lever nå, teller", "At klimaet ikke påvirker mennesker", "At følgene for alle som berøres, må tas med", "At framtiden ikke kan påvirkes"], "correct": 2, "explain": "Konsekvensetikken tar hensyn til alle som påvirkes av en handling." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
