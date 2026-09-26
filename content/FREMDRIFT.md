@@ -11,8 +11,9 @@ Status for arbeidet med å lage innhold til alle 72 fag (8. trinn–Vg3), og hvo
 | Norsk 8, 9, 10 | 7 + 7 + 7 |
 | Engelsk 8, 9, 10 | 6 + 6 + 7 |
 | Naturfag 8, 9, 10 | 7 + 7 + 6 |
+| Samfunnsfag 8, 9, 10 | 7 + 7 + 7 |
 
-**Påbegynt:** Samfunnsfag 8 (2 av 7 temaer skrevet: `metoder-og-kilder`, `identitet-og-fellesskap`).
+**Neste:** KRLE 8–10 (`_fag.json` er laget, se temainndeling under).
 
 ## Arbeidsflyt per fag
 
@@ -72,12 +73,12 @@ Kompetansemålene ligger i `scripts/innhold/lk20/` (hent flere med `lk20-hent.mj
 
 ## Planlagt temainndeling (ikke skrevet ennå)
 
-- **Samfunnsfag 8** (resten): demokrati-og-politikk (19, 16), lover-og-regler (18), okonomi-og-forbruk (12), befolkning-og-levekar (6), digitale-spor-og-personvern (14, 17)
-- **Samfunnsfag 9**: industrialisering-og-teknologi (4), kamp-for-endring (5), forste-verdenskrig (7), mellomkrigstid-og-andre-verdenskrig (7, 8), holocaust-og-folkemord (8), fornorsking-og-minoriteter (10), menneskerettigheter (9)
-- **Samfunnsfag 10**: den-kalde-krigen (7), konflikter-i-var-tid (7), terror-og-ekstremisme (8), berekraftig-utvikling (11), velferdsstaten (19), mangfold-og-fordommer (13, 3), makt-og-medier (16, 17, 2)
+RLE01-04 KV1145 har 15 mål for hele ungdomstrinnet:
 
-`_fag.json` for samfunnsfag 8–10 er allerede laget med disse slugene.
+- **KRLE 8**: kristendommen (1, 6), islam (1, 6), jodedommen (1, 6), livssynshumanisme (3, 6), samisk-religion-og-urfolk (5), etiske-teorier (11, 12)
+- **KRLE 9**: hinduismen (1, 6), buddhismen (1, 6), religion-og-historie (2), religiost-mangfold (4), religion-i-populaerkultur (9), etiske-forbilder (10)
+- **KRLE 10**: sikhisme-og-andre-tradisjoner (1), kjonn-og-seksualitet (8), eksistensielle-sporsmal (13), etikk-og-kommunikasjon (14, 12), filosofi-og-aktuell-etikk (11), menneskerettigheter-og-fattigdom (15), kilder-og-perspektiver (7, 6)
 
-## Gjenstår etter samfunnsfag
+## Gjenstår etter KRLE
 
-KRLE 8–10, tysk/fransk/spansk 8–10 (nivå I, ~6 temaer per trinn), arbeidslivsfag 8–10, utdanningsvalg 9–10, alle Vg1-fag, alle Vg2-fag unntatt Kjemi 1, alle Vg3-fag.
+Tysk/fransk/spansk 8–10 (nivå I, ~6 temaer per trinn), arbeidslivsfag 8–10, utdanningsvalg 9–10, alle Vg1-fag, alle Vg2-fag unntatt Kjemi 1, alle Vg3-fag.

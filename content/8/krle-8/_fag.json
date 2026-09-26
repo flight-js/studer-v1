@@ -1,0 +1,79 @@
+{
+  "id": "krle-8",
+  "trinnId": "8",
+  "name": "KRLE",
+  "lareplan": {
+    "kode": "RLE01-04",
+    "url": "https://www.udir.no/lk20/rle01-04/kompetansemaal-og-vurdering/kv1145",
+    "kompetansemaal": [
+      {
+        "nr": 1,
+        "tekst": "utforske og presentere sentrale trekk ved kristendom og andre religions- og livssynstradisjoner og deres utbredelse i dag"
+      },
+      {
+        "nr": 2,
+        "tekst": "utforske og drøfte hvordan kristendom og andre religioner inngår i historiske endringsprosesser globalt og nasjonalt"
+      },
+      {
+        "nr": 3,
+        "tekst": "undersøke og presentere sentrale ideer fra livssynshumanisme og andre ikke-religiøse livssyn"
+      },
+      {
+        "nr": 4,
+        "tekst": "utforske og presentere religiøst mangfold og religiøse praksiser utenfor etablerte religionssamfunn"
+      },
+      {
+        "nr": 5,
+        "tekst": "gjøre rede for og reflektere over samenes og andre urfolks religions- og livssynstradisjoner"
+      },
+      {
+        "nr": 6,
+        "tekst": "bruke og drøfte fagbegreper om religioner og livssyn"
+      },
+      {
+        "nr": 7,
+        "tekst": "sammenligne og vurdere kritisk ulike kilder til kunnskap om religioner og livssyn"
+      },
+      {
+        "nr": 8,
+        "tekst": "gjøre rede for og reflektere over ulike syn på kjønn og seksualitet i kristendom og andre religioner og livssyn"
+      },
+      {
+        "nr": 9,
+        "tekst": "utforske og presentere hvordan elementer fra kristendom og andre religioner og livssyn kommer til uttrykk i medier og populærkultur"
+      },
+      {
+        "nr": 10,
+        "tekst": "utforske og sammenligne etiske ideer fra sentrale skikkelser i religiøse og livssynsbaserte tradisjoner"
+      },
+      {
+        "nr": 11,
+        "tekst": "utforske etiske ideer fra sentrale skikkelser i filosofihistorien og anvende ideene til å drøfte aktuelle etiske spørsmål"
+      },
+      {
+        "nr": 12,
+        "tekst": "utforske andres perspektiv og håndtere uenighet og meningsbrytning"
+      },
+      {
+        "nr": 13,
+        "tekst": "reflektere over eksistensielle spørsmål knyttet til det å vokse opp og leve i et mangfoldig og globalt samfunn"
+      },
+      {
+        "nr": 14,
+        "tekst": "identifisere og drøfte etiske problemstillinger knyttet til ulike former for kommunikasjon"
+      },
+      {
+        "nr": 15,
+        "tekst": "identifisere og drøfte aktuelle etiske problemstillinger knyttet til menneskerettigheter, bærekraft og fattigdom"
+      }
+    ]
+  },
+  "temaer": [
+    "kristendommen",
+    "islam",
+    "jodedommen",
+    "livssynshumanisme",
+    "samisk-religion-og-urfolk",
+    "etiske-teorier"
+  ]
+}
