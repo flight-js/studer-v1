@@ -1,0 +1,85 @@
+{
+  "id": "video-games",
+  "fagId": "engelsk-fordypning-10",
+  "trinnId": "10",
+  "name": "Video games as texts",
+  "intro": "How video games tell stories and create worlds, how they are built, their purposes, gaming language, and debates about games and society.",
+  "kompetansemaal": [4, 7],
+  "sammendrag": "## Games as texts\n\nVideo games are one of the world's biggest forms of entertainment. Like books and films, games are **texts** that tell stories, create worlds and communicate messages. What makes them special is **interactivity**: the player takes part and influences what happens.\n\n## Content: stories and worlds\n\nMany games have a **narrative** with characters, conflicts and themes such as friendship, survival, war or identity. Some games have a fixed story, while others offer **branching narratives**, where the player's choices lead to different endings. **World-building** – creating a believable setting with its own history, rules and culture – is important in role-playing and open-world games.\n\n## Form: how games are built\n\n- **Genre**: action, adventure, role-playing games (RPGs), strategy, puzzle, simulation, sports and shooters.\n- **Gameplay**: the rules and actions the player can take.\n- **Game mechanics**: the systems that make the game work, like points, levels, health and inventory.\n- **Perspective**: first-person, third-person or top-down view.\n- **Sound and music**: create atmosphere and signal danger or success.\n- **Cutscenes**: short film sequences that tell the story.\n\n## Purpose\n\nGames can **entertain**, **tell stories**, **teach** (educational games), **train** (simulators), make us **reflect** on serious issues, or **make money**. Many free-to-play games earn money through **in-game purchases** and **loot boxes**. These are designed to make players spend more, and many people have compared loot boxes to gambling.\n\n## Language in games\n\nGaming has its own **jargon**: NPC (non-player character), noob, GG (good game), lag, respawn, grind, buff and nerf. Players from around the world use English to communicate in online games, and this helps many young people learn English. At the same time, chat can include **toxic language**, so many games have rules and ways to report other players.\n\n## Games and society\n\nGames raise many questions:\n\n- **Representation**: How are gender, ethnicity and different groups shown?\n- **Violence**: Can violent games affect players? Research does not give a simple answer.\n- **Screen time and health**: How much gaming is healthy?\n- **Community**: Games can create friendships and communities across countries.\n- **E-sports**: Competitive gaming has become a profession, with big tournaments and audiences.\n\n## Analysing a game\n\nDescribe the genre, story and gameplay. Analyse how the game uses mechanics, perspective, sound and choices to create meaning. Discuss the purpose and target audience, and give your own opinion with reasons.",
+  "flashcards": [
+    { "term": "Interactivity", "def": "The player takes part and influences what happens." },
+    { "term": "Narrative", "def": "The story told in a game, with characters, conflict and themes." },
+    { "term": "Branching narrative", "def": "A story where the player's choices lead to different endings." },
+    { "term": "World-building", "def": "Creating a believable setting with its own history, rules and culture." },
+    { "term": "RPG", "def": "Role-playing game, where you develop a character in a story world." },
+    { "term": "Gameplay", "def": "The rules and actions the player can take." },
+    { "term": "Game mechanics", "def": "The systems that make a game work, like points, levels and health." },
+    { "term": "Perspective", "def": "How the player sees the game: first-person, third-person or top-down." },
+    { "term": "Cutscene", "def": "A short film sequence in a game that tells the story." },
+    { "term": "In-game purchases", "def": "Things you can buy with real money inside a game." },
+    { "term": "Loot box", "def": "A random reward you can buy in a game, often compared to gambling." },
+    { "term": "NPC", "def": "Non-player character, a character controlled by the game." },
+    { "term": "Jargon", "def": "Special words used by a group, like GG, lag and respawn in gaming." },
+    { "term": "Representation", "def": "How different groups are shown in games and other media." },
+    { "term": "E-sports", "def": "Competitive gaming, often with big tournaments." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "What makes video games different from books and films?", "options": ["They have no stories", "Interactivity – the player takes part and influences what happens", "They have no sound", "They are always short"], "correct": 1, "explain": "The player is not just watching, but acting." },
+    { "id": "q02", "text": "What is a branching narrative?", "options": ["A story about trees", "A game without a story", "A cutscene", "A story where the player's choices lead to different endings"], "correct": 3, "explain": "Branching narratives make choices meaningful." },
+    { "id": "q03", "text": "What is an NPC?", "options": ["A non-player character controlled by the game", "A new player", "A type of weapon", "A game genre"], "correct": 0, "explain": "Shopkeepers and enemies are often NPCs." },
+    { "id": "q04", "text": "What is world-building?", "options": ["Building houses in a game", "Playing online with friends", "Creating a believable setting with its own history, rules and culture", "Designing the menu"], "correct": 2, "explain": "A rich world makes the story more believable." },
+    { "id": "q05", "text": "What is a cutscene?", "options": ["A mistake in the game", "A level", "A type of weapon", "A short film sequence that tells the story"], "correct": 3, "explain": "During a cutscene, the player usually watches instead of playing." },
+    { "id": "q06", "text": "Why are loot boxes debated?", "options": ["They are too cheap", "They have been compared to gambling", "They make games shorter", "They improve graphics"], "correct": 1, "explain": "Players pay for random rewards without knowing what they will get." },
+    { "id": "q07", "text": "What are game mechanics?", "options": ["The people who repair consoles", "The story of a game", "The systems that make the game work, like points, levels and health", "The music"], "correct": 2, "explain": "Mechanics decide how the player interacts with the game." },
+    { "id": "q08", "text": "What purpose does an educational game have?", "options": ["To teach", "To sell weapons", "To replace school", "To make players angry"], "correct": 0, "explain": "Educational games are used in many schools." },
+    { "id": "q09", "text": "What does GG mean in gaming?", "options": ["Get going", "Great graphics", "Game glitch", "Good game"], "correct": 3, "explain": "Players often write GG at the end of a match." },
+    { "id": "q10", "text": "What is e-sports?", "options": ["Sports on TV", "Competitive gaming, often with big tournaments", "Exercise games", "Electronic sports equipment"], "correct": 1, "explain": "The best e-sports players are professionals." }
+  ],
+  "mindmap": {
+    "label": "Video games",
+    "children": [
+      { "label": "Content", "children": [
+        { "label": "Narrative" },
+        { "label": "Branching stories" },
+        { "label": "World-building" }
+      ] },
+      { "label": "Form", "children": [
+        { "label": "Genres" },
+        { "label": "Gameplay and mechanics" },
+        { "label": "Perspective" },
+        { "label": "Sound and cutscenes" }
+      ] },
+      { "label": "Purpose", "children": [
+        { "label": "Entertain" },
+        { "label": "Teach and train" },
+        { "label": "Reflect" },
+        { "label": "Make money" }
+      ] },
+      { "label": "Language", "children": [
+        { "label": "Gaming jargon" },
+        { "label": "English as shared language" },
+        { "label": "Toxic chat" }
+      ] },
+      { "label": "Society", "children": [
+        { "label": "Representation" },
+        { "label": "Violence debate" },
+        { "label": "Health" },
+        { "label": "Communities and e-sports" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Many young people practise English through online games.", "correct": true, "explain": "English is often the shared language in international games." },
+      { "id": "m02", "type": "sant-usant", "text": "All games have exactly the same story for every player.", "correct": false, "explain": "In many games, the player's choices change the story." },
+      { "id": "m03", "type": "sant-usant", "text": "Sound and music in games can signal danger.", "correct": true, "explain": "Music often changes when an enemy is near." },
+      { "id": "m04", "type": "sant-usant", "text": "Research clearly shows that all violent games make players violent.", "correct": false, "explain": "Research does not give a simple answer." },
+      { "id": "m05", "type": "flervalg", "text": "What is gameplay?", "options": ["The rules and actions the player can take", "The game's price", "The box cover", "The credits"], "correct": 0, "explain": "Gameplay is what you actually do in the game." },
+      { "id": "m06", "type": "flervalg", "text": "Which genre lets the player develop a character in a story world?", "options": ["Puzzle", "Sports", "Role-playing game (RPG)", "Racing"], "correct": 2, "explain": "In RPGs, characters grow stronger through the story." },
+      { "id": "m07", "type": "flervalg", "text": "What does representation in games mean?", "options": ["How the game is sold", "How different groups are shown", "How fast the game runs", "How many levels there are"], "correct": 1, "explain": "Representation affects how players see different groups." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

@@ -1,0 +1,86 @@
+{
+  "id": "language-in-the-media",
+  "fagId": "engelsk-fordypning-10",
+  "trinnId": "10",
+  "name": "Language in different media",
+  "intro": "How language and devices vary between news, social media, advertising, spoken media and formal writing, how to compare them, and differences between varieties of English.",
+  "kompetansemaal": [7],
+  "sammendrag": "## Language changes with the medium\n\nWe adapt our language to where we communicate. A news article, a text message, an advert and a podcast all use English – but in very different ways. Comparing them shows how **language** and **devices** (techniques) are chosen to fit the **medium**, **purpose** and **audience**.\n\n## News\n\nNews articles aim to inform. They often follow the **inverted pyramid**: the most important information comes first (who, what, when, where, why), then the details. **Headlines** are short and catchy and often leave out small words: “PM resigns after scandal”. **Tabloid** newspapers use more dramatic language, puns and emotional words than **broadsheet** newspapers.\n\n## Social media\n\nLanguage on social media is short, informal and quick:\n\n- **abbreviations** like tbh, idk and imo\n- **emojis**, **hashtags** and **memes**\n- **slang** that changes fast\n- posts written to get **engagement**: likes, comments and shares\n\nMany influencers mix personal stories with marketing.\n\n## Advertising\n\nAdverts want to **sell**. Common devices are\n\n- **imperatives** (commands): “Buy now!”, “Just try it!”\n- **positive adjectives**: new, amazing, fresh, best\n- **slogans**: short, memorable phrases\n- **alliteration**, rhymes and wordplay\n- **direct address**: talking to “you”\n- promises about how the product will make you feel\n\n## Spoken media\n\n**Podcasts**, radio and online videos use spoken language with **fillers** (um, like, you know), questions to the audience and a conversational tone. Speeches often use **rhetorical questions**, repetition and the **rule of three**: listing three things for rhythm and effect.\n\n## Formal writing\n\nReports, essays and applications use **formal** language: complete sentences, precise vocabulary, no slang and few contractions. The tone is neutral and objective.\n\n## Comparing texts\n\nWhen you compare language in different media, look at\n\n- **register**: formal or informal?\n- **sentence length** and structure\n- **word choice**: neutral, emotional, technical or slang?\n- **devices**: imperatives, rhetorical questions, repetition, alliteration\n- **visual elements**: pictures, emojis and layout\n- **purpose and audience**: Why is the language like this?\n\n## English around the world\n\nEnglish also varies between countries. **British English** (colour, lorry, flat) and **American English** (color, truck, apartment) differ in spelling and vocabulary. Other varieties, such as Australian, Indian and Nigerian English, add their own words and expressions. Choose one variety and use it consistently in your writing.",
+  "flashcards": [
+    { "term": "Medium", "def": "The channel used to communicate, like a newspaper, podcast or social media." },
+    { "term": "Device", "def": "A language technique used for a particular effect." },
+    { "term": "Inverted pyramid", "def": "A news structure with the most important information first." },
+    { "term": "Headline", "def": "The short title of a news article." },
+    { "term": "Tabloid", "def": "A newspaper with dramatic, emotional language and big headlines." },
+    { "term": "Broadsheet", "def": "A newspaper with more serious, neutral language." },
+    { "term": "Hashtag", "def": "A word or phrase with # that groups posts on social media." },
+    { "term": "Engagement", "def": "Likes, comments and shares on social media." },
+    { "term": "Imperative", "def": "A command, like “Buy now!”" },
+    { "term": "Slogan", "def": "A short, memorable phrase used in advertising." },
+    { "term": "Direct address", "def": "Talking directly to the audience as “you”." },
+    { "term": "Fillers", "def": "Words like um, like and you know in spoken language." },
+    { "term": "Rhetorical question", "def": "A question asked for effect, not to get an answer." },
+    { "term": "Rule of three", "def": "Listing three things for rhythm and effect." },
+    { "term": "British and American English", "def": "Varieties with different spelling and words, like colour/color and flat/apartment." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "What is the inverted pyramid in news writing?", "options": ["A type of headline", "A picture layout", "A way to end an article", "Putting the most important information first"], "correct": 3, "explain": "Readers get the key facts even if they stop early." },
+    { "id": "q02", "text": "Which of these is an imperative?", "options": ["The shoes are new.", "Buy now!", "Do you like it?", "It was amazing."], "correct": 1, "explain": "Imperatives tell the reader to do something." },
+    { "id": "q03", "text": "What is a slogan?", "options": ["A long article", "A news report", "A short, memorable phrase used in advertising", "A type of podcast"], "correct": 2, "explain": "Good slogans are easy to remember." },
+    { "id": "q04", "text": "Which is typical of language on social media?", "options": ["Hashtags, emojis and abbreviations", "Long, formal sentences", "Footnotes", "No pictures"], "correct": 0, "explain": "Social media language is short and informal." },
+    { "id": "q05", "text": "What is a rhetorical question?", "options": ["A question in a quiz", "A question asked for effect, not to get an answer", "A question to the teacher", "A question in an interview"], "correct": 1, "explain": "“Who doesn't love summer?” is an example." },
+    { "id": "q06", "text": "Which headline is typical of a tabloid newspaper?", "options": ["Government publishes annual report", "Interest rates unchanged", "Minister attends meeting", "SHOCK AS STAR'S SECRET REVEALED!"], "correct": 3, "explain": "Tabloids use dramatic, emotional language." },
+    { "id": "q07", "text": "Which word is American English?", "options": ["Apartment", "Flat", "Lorry", "Colour"], "correct": 0, "explain": "The British word is “flat”." },
+    { "id": "q08", "text": "What are fillers?", "options": ["Headlines", "Hashtags", "Words like um, like and you know in speech", "Adjectives in adverts"], "correct": 2, "explain": "Fillers make spoken language sound natural." },
+    { "id": "q09", "text": "Which features are typical of formal writing?", "options": ["Slang and emojis", "Abbreviations like idk", "Short posts for engagement", "Complete sentences, precise vocabulary and no slang"], "correct": 3, "explain": "Formal writing is used in reports, essays and applications." },
+    { "id": "q10", "text": "Why do adverts often use the word “you”?", "options": ["Because it is required", "To speak directly to the audience and involve them", "To sound formal", "To avoid saying the product's name"], "correct": 1, "explain": "Direct address makes the reader feel personally involved." }
+  ],
+  "mindmap": {
+    "label": "Language in the media",
+    "children": [
+      { "label": "News", "children": [
+        { "label": "Inverted pyramid" },
+        { "label": "Headlines" },
+        { "label": "Tabloid or broadsheet" }
+      ] },
+      { "label": "Social media", "children": [
+        { "label": "Abbreviations" },
+        { "label": "Emojis and hashtags" },
+        { "label": "Slang" },
+        { "label": "Engagement" }
+      ] },
+      { "label": "Advertising", "children": [
+        { "label": "Imperatives" },
+        { "label": "Positive adjectives" },
+        { "label": "Slogans" },
+        { "label": "Direct address" }
+      ] },
+      { "label": "Spoken and formal", "children": [
+        { "label": "Fillers" },
+        { "label": "Rhetorical questions" },
+        { "label": "Rule of three" },
+        { "label": "Formal writing" }
+      ] },
+      { "label": "Comparing", "children": [
+        { "label": "Register" },
+        { "label": "Word choice" },
+        { "label": "Purpose and audience" },
+        { "label": "British and American" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "News headlines often leave out small words.", "correct": true, "explain": "“PM resigns after scandal” leaves out words like “the” and “has”." },
+      { "id": "m02", "type": "sant-usant", "text": "Adverts usually use neutral, objective language.", "correct": false, "explain": "Adverts use positive and emotional language to sell." },
+      { "id": "m03", "type": "sant-usant", "text": "British and American English can have different spelling.", "correct": true, "explain": "For example colour and color." },
+      { "id": "m04", "type": "sant-usant", "text": "The same kind of language is used in all media.", "correct": false, "explain": "Language is adapted to each medium, purpose and audience." },
+      { "id": "m05", "type": "flervalg", "text": "What is the rule of three?", "options": ["Listing three things for rhythm and effect", "Writing only three sentences", "Using three pictures", "Three rules for headlines"], "correct": 0, "explain": "“Faster, stronger, better” is an example." },
+      { "id": "m06", "type": "flervalg", "text": "Which word describes how formal or informal language is?", "options": ["Headline", "Register", "Slogan", "Hashtag"], "correct": 1, "explain": "We choose register based on the situation." },
+      { "id": "m07", "type": "flervalg", "text": "What is engagement on social media?", "options": ["A promise to marry", "Followers you buy", "Likes, comments and shares", "A type of advert"], "correct": 2, "explain": "Many posts are written to get as much engagement as possible." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

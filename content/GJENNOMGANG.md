@@ -18,17 +18,31 @@ Læreplan: [ENG01-06](https://www.udir.no/lk20/eng01-06/kompetansemaal-og-vurder
 - 🟡 **Film, music and media** – utkast (423 ord · 15 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
 - 🟡 **Australia, New Zealand and Canada** – utkast (421 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
 
-## KRLE (10) – 0 av 7 temaer ferdig
+## Engelsk fordypning (10) – 5 av 5 temaer ferdig
+
+Læreplan: [ENG03-02](https://www.udir.no/lk20/eng03-02/kompetansemaal-og-vurdering/kv13)
+
+- 🟡 **Video games as texts** – utkast (403 ord · 15 kort · 10 quiz · 15 i miniprøve · 24 noder i tankekart)
+- 🟡 **Creating digital products** – utkast (390 ord · 15 kort · 10 quiz · 15 i miniprøve · 26 noder i tankekart)
+- 🟡 **Language in different media** – utkast (369 ord · 15 kort · 10 quiz · 15 i miniprøve · 25 noder i tankekart)
+- 🟡 **Persuasion and rhetoric** – utkast (384 ord · 15 kort · 10 quiz · 15 i miniprøve · 25 noder i tankekart)
+- 🟡 **Self-presentation online** – utkast (407 ord · 15 kort · 10 quiz · 15 i miniprøve · 24 noder i tankekart)
+
+## KRLE (10) – 7 av 7 temaer ferdig
 
 Læreplan: [RLE01-04](https://www.udir.no/lk20/rle01-04/kompetansemaal-og-vurdering/kv1145)
 
-- ⬜ **sikhisme-og-andre-tradisjoner** – ikke skrevet ennå
-- ⬜ **kjonn-og-seksualitet** – ikke skrevet ennå
-- ⬜ **eksistensielle-sporsmal** – ikke skrevet ennå
-- ⬜ **etikk-og-kommunikasjon** – ikke skrevet ennå
-- ⬜ **filosofi-og-aktuell-etikk** – ikke skrevet ennå
-- ⬜ **menneskerettigheter-og-fattigdom** – ikke skrevet ennå
-- ⬜ **kilder-og-perspektiver** – ikke skrevet ennå
+- 🟡 **Sikhisme og andre religiøse tradisjoner** – utkast (450 ord · 15 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+- 🔴 **Kjønn og seksualitet i religioner og livssyn** – sjekkes (464 ord · 15 kort · 10 quiz · 15 i miniprøve · 24 noder i tankekart)
+  - Sjekk: Sensitivt tema – bør gjennomgås av lærer for balanse og presisjon i beskrivelsen av de ulike religionenes syn.
+  - Sjekk: Den katolske kirkes ordning med velsignelse av likekjønnede par (2023) bør sjekkes mot gjeldende praksis.
+- 🔴 **Eksistensielle spørsmål** – sjekkes (466 ord · 15 kort · 10 quiz · 15 i miniprøve · 24 noder i tankekart)
+  - Sjekk: Telefonnumrene til Alarmtelefonen (116 111) og Mental Helses hjelpetelefon (116 123) bør sjekkes før lansering.
+- 🟡 **Etikk, kommunikasjon og uenighet** – utkast (473 ord · 15 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+- 🟡 **Filosofer og aktuelle etiske spørsmål** – utkast (451 ord · 15 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+- 🔴 **Menneskerettigheter, bærekraft og fattigdom** – sjekkes (477 ord · 15 kort · 10 quiz · 15 i miniprøve · 24 noder i tankekart)
+  - Sjekk: Verdensbankens grense for ekstrem fattigdom (rundt 3 dollar om dagen) og hvor mange som lever under den, bør sjekkes mot siste tall.
+- 🟡 **Kilder, perspektiver og fagbegreper** – utkast (434 ord · 15 kort · 10 quiz · 15 i miniprøve · 25 noder i tankekart)
 
 ## Matematikk (10) – 9 av 9 temaer ferdig
 
@@ -95,6 +109,16 @@ Læreplan: [ENG01-06](https://www.udir.no/lk20/eng01-06/kompetansemaal-og-vurder
 - 🟡 **Writing narratives** – utkast (372 ord · 15 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
 - 🟡 **English around the world** – utkast (409 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
 - 🟡 **The United Kingdom** – utkast (421 ord · 15 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+
+## Engelsk fordypning (8) – 5 av 5 temaer ferdig
+
+Læreplan: [ENG03-02](https://www.udir.no/lk20/eng03-02/kompetansemaal-og-vurdering/kv13)
+
+- 🟡 **Communicating online** – utkast (381 ord · 15 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+- 🟡 **Presenting your interests** – utkast (369 ord · 15 kort · 10 quiz · 15 i miniprøve · 24 noder i tankekart)
+- 🟡 **Music and lyrics** – utkast (406 ord · 15 kort · 10 quiz · 15 i miniprøve · 24 noder i tankekart)
+- 🟡 **Feedback and revision** – utkast (390 ord · 15 kort · 10 quiz · 15 i miniprøve · 25 noder i tankekart)
+- 🟡 **Privacy, copyright and your online identity** – utkast (382 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
 
 ## KRLE (8) – 6 av 6 temaer ferdig
 
@@ -172,16 +196,27 @@ Læreplan: [ENG01-06](https://www.udir.no/lk20/eng01-06/kompetansemaal-og-vurder
 - 🟡 **The United States** – utkast (447 ord · 15 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
 - 🟡 **Indigenous peoples** – utkast (406 ord · 15 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
 
-## KRLE (9) – 0 av 6 temaer ferdig
+## Engelsk fordypning (9) – 5 av 5 temaer ferdig
+
+Læreplan: [ENG03-02](https://www.udir.no/lk20/eng03-02/kompetansemaal-og-vurdering/kv13)
+
+- 🟡 **Film language** – utkast (424 ord · 15 kort · 10 quiz · 15 i miniprøve · 26 noder i tankekart)
+- 🟡 **Storytelling across media** – utkast (369 ord · 15 kort · 10 quiz · 15 i miniprøve · 26 noder i tankekart)
+- 🟡 **Point of view, sender and bias** – utkast (381 ord · 15 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+- 🟡 **Cultures of communication** – utkast (416 ord · 15 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+- 🟡 **Reliable sources and honest use** – utkast (397 ord · 15 kort · 10 quiz · 15 i miniprøve · 25 noder i tankekart)
+
+## KRLE (9) – 6 av 6 temaer ferdig
 
 Læreplan: [RLE01-04](https://www.udir.no/lk20/rle01-04/kompetansemaal-og-vurdering/kv1145)
 
-- ⬜ **hinduismen** – ikke skrevet ennå
-- ⬜ **buddhismen** – ikke skrevet ennå
-- ⬜ **religion-og-historie** – ikke skrevet ennå
-- ⬜ **religiost-mangfold** – ikke skrevet ennå
-- ⬜ **religion-i-populaerkultur** – ikke skrevet ennå
-- ⬜ **etiske-forbilder** – ikke skrevet ennå
+- 🟡 **Hinduismen** – utkast (424 ord · 15 kort · 10 quiz · 15 i miniprøve · 26 noder i tankekart)
+- 🟡 **Buddhismen** – utkast (415 ord · 15 kort · 10 quiz · 15 i miniprøve · 24 noder i tankekart)
+- 🟡 **Religion i historiske endringer** – utkast (477 ord · 15 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+- 🔴 **Religiøst mangfold og nyreligiøsitet** – sjekkes (388 ord · 15 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+  - Sjekk: Andelen medlemmer i Den norske kirke (rundt 60 prosent) bør sjekkes mot ferske tall fra SSB.
+- 🟡 **Religion i medier og populærkultur** – utkast (414 ord · 15 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+- 🟡 **Etiske forbilder i religioner og livssyn** – utkast (428 ord · 15 kort · 10 quiz · 15 i miniprøve · 24 noder i tankekart)
 
 ## Matematikk (9) – 8 av 8 temaer ferdig
 

@@ -1,0 +1,86 @@
+{
+  "id": "persuasion-and-rhetoric",
+  "fagId": "engelsk-fordypning-10",
+  "trinnId": "10",
+  "name": "Persuasion and rhetoric",
+  "intro": "How senders persuade with ethos, pathos and logos, common persuasive techniques, when persuasion becomes manipulation, and how to be a critical receiver and a responsible persuader.",
+  "kompetansemaal": [8],
+  "sammendrag": "## The art of persuasion\n\nEvery day, someone is trying to **persuade** you: adverts, influencers, politicians, campaigns and even friends. **Rhetoric** is the art of using language effectively to persuade. It goes back to the Greek philosopher **Aristotle**, who described three ways to appeal to an audience.\n\n## Ethos, pathos and logos\n\n- **Ethos** – an appeal to **credibility**. The audience trusts the sender because of their expertise, experience or character: “As a doctor with 20 years of experience, I recommend …”\n- **Pathos** – an appeal to **emotions** like fear, hope, anger, pity or pride. Stories, pictures and music are powerful pathos tools.\n- **Logos** – an appeal to **logic**: facts, statistics, examples and reasoning: “Studies show that …”\n\nStrong arguments often combine all three.\n\n## Persuasive techniques\n\n- **Rhetorical questions**: “Do we really want to live like this?”\n- **Repetition** and the **rule of three**\n- **Inclusive language**: we, us, together\n- **Hyperbole** (exaggeration): “the best phone ever made”\n- **Bandwagon**: “Everyone is doing it – join them!”\n- **Testimonials**: famous people or satisfied customers recommend a product\n- **Fear appeals**: showing what will happen if you don't act\n\n## The sender matters\n\nThe **sender** and their **point of view** shape the message. A campaign against sugary drinks from a health organisation and an advert from a soft-drink company will present very different “facts”. Ask:\n\n- Who is the sender, and what do they gain?\n- What is the purpose – to inform, to sell or to change opinions?\n- Which perspectives are missing?\n\n## When persuasion becomes manipulation\n\nPersuasion is a normal part of democracy and everyday life. But some techniques are **manipulative**:\n\n- **Propaganda**: one-sided information spread to control what people think, often by governments or extremist groups\n- **Misleading statistics**: numbers without context\n- **Straw man**: twisting the other side's argument and attacking that version\n- **Personal attacks** instead of arguments\n- **Deepfakes** and edited pictures\n\n## Being a critical receiver\n\n- Separate **facts** from **opinions**.\n- Notice which **appeal** is used. Are emotions replacing arguments?\n- Check claims in other sources.\n- Think about what the sender wants you to **do** or **believe**.\n\n## Being a responsible persuader\n\nWhen you write persuasive texts, such as a speech or an **opinion piece**, use strong arguments, honest facts and respectful language. Consider **counterarguments** and answer them – this makes you more convincing.",
+  "flashcards": [
+    { "term": "Persuade", "def": "To make someone believe or do something." },
+    { "term": "Rhetoric", "def": "The art of using language effectively to persuade." },
+    { "term": "Aristotle", "def": "Greek philosopher who described ethos, pathos and logos." },
+    { "term": "Ethos", "def": "An appeal to the sender's credibility." },
+    { "term": "Pathos", "def": "An appeal to emotions." },
+    { "term": "Logos", "def": "An appeal to logic, facts and reasoning." },
+    { "term": "Hyperbole", "def": "Exaggeration for effect." },
+    { "term": "Bandwagon", "def": "The technique of saying that everyone is doing it, so you should too." },
+    { "term": "Testimonial", "def": "A recommendation from a famous person or satisfied customer." },
+    { "term": "Inclusive language", "def": "Words like we, us and together that make the audience feel included." },
+    { "term": "Fear appeal", "def": "Showing what bad things will happen if you don't act." },
+    { "term": "Propaganda", "def": "One-sided information spread to control what people think." },
+    { "term": "Straw man", "def": "Twisting the other side's argument and attacking that version." },
+    { "term": "Counterargument", "def": "An argument against your own view, which you should answer." },
+    { "term": "Opinion piece", "def": "A text where the writer argues for a view on an issue." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "What is rhetoric?", "options": ["The art of using language effectively to persuade", "A type of poem", "A grammar rule", "A news headline"], "correct": 0, "explain": "Rhetoric has been studied since ancient Greece." },
+    { "id": "q02", "text": "Which appeal uses facts and statistics?", "options": ["Ethos", "Pathos", "Logos", "Bandwagon"], "correct": 2, "explain": "Logos appeals to reason." },
+    { "id": "q03", "text": "“As a doctor with 20 years of experience, I recommend …” Which appeal is this?", "options": ["Pathos", "Ethos", "Logos", "Hyperbole"], "correct": 1, "explain": "The sender's expertise makes the message credible." },
+    { "id": "q04", "text": "What is the bandwagon technique?", "options": ["Using facts", "Showing a doctor", "Using a rhetorical question", "Saying that everyone is doing it, so you should too"], "correct": 3, "explain": "It plays on our wish to fit in." },
+    { "id": "q05", "text": "Which of these appeals mostly to emotions?", "options": ["A table of statistics", "A list of sources", "A picture of a sad, hungry animal", "A doctor's title"], "correct": 2, "explain": "Pictures that make us feel pity are typical pathos." },
+    { "id": "q06", "text": "What is propaganda?", "options": ["One-sided information spread to control what people think", "A balanced news report", "A school essay", "A scientific study"], "correct": 0, "explain": "Propaganda hides other perspectives." },
+    { "id": "q07", "text": "What is a straw man argument?", "options": ["A strong argument with facts", "A question to the audience", "A famous quotation", "Twisting the other side's argument and attacking that version"], "correct": 3, "explain": "It is easier to defeat a weaker version of an argument." },
+    { "id": "q08", "text": "Why should you answer counterarguments in a persuasive text?", "options": ["To make the text longer", "To be more convincing", "To confuse the reader", "Because it is a grammar rule"], "correct": 1, "explain": "It shows that you have thought about other views." },
+    { "id": "q09", "text": "Why is it important to know the sender of a persuasive message?", "options": ["Because the sender's interests shape the message", "Because senders are always honest", "To know their age", "It is not important"], "correct": 0, "explain": "Ask what the sender gains." },
+    { "id": "q10", "text": "Which is an example of inclusive language?", "options": ["You must obey.", "They are wrong.", "Together we can make a difference.", "I know best."], "correct": 2, "explain": "“We” and “together” create a sense of community." }
+  ],
+  "mindmap": {
+    "label": "Persuasion and rhetoric",
+    "children": [
+      { "label": "Appeals", "children": [
+        { "label": "Ethos" },
+        { "label": "Pathos" },
+        { "label": "Logos" }
+      ] },
+      { "label": "Techniques", "children": [
+        { "label": "Rhetorical questions" },
+        { "label": "Repetition" },
+        { "label": "Inclusive language" },
+        { "label": "Bandwagon and testimonials" },
+        { "label": "Hyperbole" }
+      ] },
+      { "label": "Sender", "children": [
+        { "label": "Who gains?" },
+        { "label": "Purpose" },
+        { "label": "Missing perspectives" }
+      ] },
+      { "label": "Manipulation", "children": [
+        { "label": "Propaganda" },
+        { "label": "Misleading statistics" },
+        { "label": "Straw man" },
+        { "label": "Deepfakes" }
+      ] },
+      { "label": "Critical and responsible", "children": [
+        { "label": "Fact or opinion" },
+        { "label": "Check claims" },
+        { "label": "Counterarguments" },
+        { "label": "Respectful language" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Persuasion is always manipulation.", "correct": false, "explain": "Honest persuasion is a normal part of democracy." },
+      { "id": "m02", "type": "sant-usant", "text": "Aristotle described ethos, pathos and logos.", "correct": true, "explain": "His ideas are still used to analyse persuasion." },
+      { "id": "m03", "type": "sant-usant", "text": "Strong arguments often combine ethos, pathos and logos.", "correct": true, "explain": "Credibility, feelings and facts support each other." },
+      { "id": "m04", "type": "sant-usant", "text": "Misleading statistics always show numbers with full context.", "correct": false, "explain": "Statistics become misleading when context is left out." },
+      { "id": "m05", "type": "flervalg", "text": "What is hyperbole?", "options": ["A fact", "A question", "An exaggeration", "A quotation"], "correct": 2, "explain": "“The best phone ever made” is hyperbole." },
+      { "id": "m06", "type": "flervalg", "text": "What is a testimonial?", "options": ["A law", "A recommendation from a famous person or satisfied customer", "A news report", "A rhetorical question"], "correct": 1, "explain": "Testimonials borrow credibility from others." },
+      { "id": "m07", "type": "flervalg", "text": "What should you do as a critical receiver?", "options": ["Check claims in other sources", "Believe the first source you find", "Share without reading", "Ignore facts"], "correct": 0, "explain": "Checking claims protects you from manipulation." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

@@ -13,8 +13,9 @@ Status for arbeidet med å lage innhold til alle 78 fag (8. trinn–Vg3), og hvo
 | Naturfag 8, 9, 10 | 7 + 7 + 6 |
 | Samfunnsfag 8, 9, 10 | 7 + 7 + 7 |
 | KRLE 8, 9, 10 | 6 + 6 + 7 |
+| Engelsk fordypning 8, 9, 10 | 5 + 5 + 5 |
 
-**Neste:** Engelsk fordypning 8–10, deretter tysk/fransk/spansk 8–10 (se «Gjenstår»).
+**Neste:** Tysk/fransk/spansk 8–10 (FSP01-04 KV965, nivå I).
 
 ## Arbeidsflyt per fag
 
@@ -85,4 +86,4 @@ RLE01-04 KV1145 har 15 mål for hele ungdomstrinnet:
 
 ## Gjenstår etter KRLE
 
-Engelsk fordypning 8–10 (skrives på engelsk), tysk/fransk/spansk 8–10 (nivå I, ~6 temaer per trinn), arbeidslivsfag 8–10, utdanningsvalg 9–10, alle Vg1-fag (inkl. kinesisk), alle Vg2-fag unntatt Kjemi 1 (inkl. kinesisk og entreprenørskap og bedriftsutvikling 1), alle Vg3-fag.
+Tysk/fransk/spansk 8–10 (nivå I, ~6 temaer per trinn), arbeidslivsfag 8–10, utdanningsvalg 9–10, alle Vg1-fag (inkl. kinesisk), alle Vg2-fag unntatt Kjemi 1 (inkl. kinesisk og entreprenørskap og bedriftsutvikling 1), alle Vg3-fag.

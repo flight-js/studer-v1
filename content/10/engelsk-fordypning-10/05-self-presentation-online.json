@@ -1,0 +1,85 @@
+{
+  "id": "self-presentation-online",
+  "fagId": "engelsk-fordypning-10",
+  "trinnId": "10",
+  "name": "Self-presentation online",
+  "intro": "Your different roles in the media, curated lives and influencers, how you present yourself and others online, algorithms, and how to reflect critically on your own online behaviour.",
+  "kompetansemaal": [10, 5],
+  "sammendrag": "## You on the internet\n\nOn social media, you are both a **consumer** and a **creator**. You watch, like and comment, but you also post, share and build an **online identity**. This topic is about your own role in the media, and how you present yourself and others.\n\n## Your roles online\n\nYou can be\n\n- a **consumer**: reading, watching and scrolling\n- a **participant**: liking, commenting and sharing\n- a **creator**: posting pictures, videos and texts\n- a **bystander**: seeing something happen – such as bullying – without acting\n\nEach role comes with **responsibility**. A share or a like can spread content quickly, for good or for bad.\n\n## Curated lives\n\nMost people **curate** their profiles: they choose the best pictures, use **filters** and share highlights rather than everyday life. This is normal, but it can create **unrealistic ideals**. Comparing yourself with edited images can affect your **self-esteem**. Remember that what you see is often a performance, not the whole truth.\n\n## Influencers\n\n**Influencers** earn money by promoting products and lifestyles. Their content can look personal and spontaneous, but it is often carefully planned. In many countries, including Norway and the UK, **sponsored content** must be clearly marked as advertising. Ask yourself: Is this post an advert? Why is this person showing me this?\n\n## Presenting others\n\nHow you present **other people** matters too:\n\n- Ask for **consent** before posting pictures or videos of others.\n- Avoid sharing content that makes fun of people or spreads rumours.\n- Be aware of **stereotypes**: how groups are shown online can affect how people see them in real life.\n\n## Algorithms and identity\n\n**Algorithms** decide what appears in your feed, based on what you have clicked on before. This can create **filter bubbles** and push content that makes you feel you must look or live a certain way. Taking control – following different accounts, muting some and taking breaks – can make your feed healthier.\n\n## Virtual and real life\n\nOnline identity and real-life identity influence each other. Some people feel more confident online and can explore interests and identities there. Others experience pressure or **cyberbullying**. Many young people feel they must be “always on”.\n\n## Reflect critically\n\n- Would I be comfortable if my family, teacher or future employer saw this?\n- Does this post show a fair picture of me – and of others?\n- How do I feel after scrolling?\n- What kind of online culture do I want to contribute to?",
+  "flashcards": [
+    { "term": "Online identity", "def": "The way you present yourself online." },
+    { "term": "Consumer", "def": "Someone who reads, watches and scrolls." },
+    { "term": "Participant", "def": "Someone who likes, comments and shares." },
+    { "term": "Creator", "def": "Someone who posts their own pictures, videos and texts." },
+    { "term": "Bystander", "def": "Someone who sees something happen, like bullying, without acting." },
+    { "term": "Curate", "def": "To choose carefully what to show." },
+    { "term": "Filter", "def": "An effect that changes how a picture or video looks." },
+    { "term": "Unrealistic ideals", "def": "Images of how people should look or live that are hard or impossible to reach." },
+    { "term": "Self-esteem", "def": "How much you value and like yourself." },
+    { "term": "Influencer", "def": "Someone who earns money by promoting products and lifestyles online." },
+    { "term": "Sponsored content", "def": "Paid advertising that must be clearly marked." },
+    { "term": "Consent", "def": "Permission, for example to post a picture of someone." },
+    { "term": "Stereotype", "def": "A simplified idea about a group of people." },
+    { "term": "Filter bubble", "def": "When you mostly see content that matches what you already like and think." },
+    { "term": "Cyberbullying", "def": "Bullying through digital channels." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "What does it mean to curate your profile?", "options": ["To delete it", "To make it private", "To choose carefully what to show", "To post everything"], "correct": 2, "explain": "Most people share highlights rather than everyday life." },
+    { "id": "q02", "text": "What is a bystander online?", "options": ["Someone who creates content", "An influencer", "A moderator", "Someone who sees something happen, like bullying, without acting"], "correct": 3, "explain": "Bystanders can help by reporting or supporting the victim." },
+    { "id": "q03", "text": "Why can edited images affect self-esteem?", "options": ["Because comparing yourself with unrealistic ideals can make you feel you are not good enough", "Because they are always ugly", "Because they are illegal", "Because they are too small"], "correct": 0, "explain": "Edited pictures show a reality that does not exist." },
+    { "id": "q04", "text": "What must sponsored content be?", "options": ["Funny", "Clearly marked as advertising", "Written in English", "Free"], "correct": 1, "explain": "Hidden advertising misleads the audience." },
+    { "id": "q05", "text": "What decides what appears in your feed?", "options": ["Your teacher", "The government", "Chance only", "Algorithms based on what you have clicked on"], "correct": 3, "explain": "Algorithms learn from your behaviour." },
+    { "id": "q06", "text": "What should you do before posting a video of a friend?", "options": ["Ask for their consent", "Add music", "Tag strangers", "Nothing"], "correct": 0, "explain": "Everyone has the right to decide over pictures of themselves." },
+    { "id": "q07", "text": "What is an influencer?", "options": ["A news journalist", "A politician", "Someone who earns money by promoting products and lifestyles online", "A computer program"], "correct": 2, "explain": "Influencers can have large audiences, especially among young people." },
+    { "id": "q08", "text": "What is a filter bubble?", "options": ["A soap bubble", "When you mostly see content that matches what you already like and think", "A photo filter", "A privacy setting"], "correct": 1, "explain": "Filter bubbles can limit the perspectives you meet." },
+    { "id": "q09", "text": "Which question helps you reflect on your own posts?", "options": ["How many likes can I get?", "Which filter is best?", "Should I post more often?", "Would I be comfortable if a future employer saw this?"], "correct": 3, "explain": "What you post can stay online for a long time." },
+    { "id": "q10", "text": "How can you make your feed healthier?", "options": ["Follow different accounts, mute some and take breaks", "Scroll even more", "Follow only influencers", "Turn off all privacy settings"], "correct": 0, "explain": "You can influence what the algorithm shows you." }
+  ],
+  "mindmap": {
+    "label": "Self-presentation online",
+    "children": [
+      { "label": "Roles", "children": [
+        { "label": "Consumer" },
+        { "label": "Participant" },
+        { "label": "Creator" },
+        { "label": "Bystander" }
+      ] },
+      { "label": "Curated lives", "children": [
+        { "label": "Filters" },
+        { "label": "Highlights" },
+        { "label": "Unrealistic ideals" },
+        { "label": "Self-esteem" }
+      ] },
+      { "label": "Influencers", "children": [
+        { "label": "Sponsored content" },
+        { "label": "Planned content" },
+        { "label": "Is this an advert?" }
+      ] },
+      { "label": "Presenting others", "children": [
+        { "label": "Consent" },
+        { "label": "No rumours" },
+        { "label": "Stereotypes" }
+      ] },
+      { "label": "Algorithms and reflection", "children": [
+        { "label": "Filter bubbles" },
+        { "label": "Always on" },
+        { "label": "Cyberbullying" },
+        { "label": "Critical questions" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "What you see on social media is often a performance, not the whole truth.", "correct": true, "explain": "Most people share carefully chosen moments." },
+      { "id": "m02", "type": "sant-usant", "text": "A like or share has no effect on how content spreads.", "correct": false, "explain": "Likes and shares tell the algorithm to show content to more people." },
+      { "id": "m03", "type": "sant-usant", "text": "Some people feel more confident online than offline.", "correct": true, "explain": "Online spaces can let people explore interests and identities." },
+      { "id": "m04", "type": "sant-usant", "text": "Influencer posts are always spontaneous and unplanned.", "correct": false, "explain": "Much influencer content is carefully planned and sometimes paid for." },
+      { "id": "m05", "type": "flervalg", "text": "What is cyberbullying?", "options": ["A computer virus", "Bullying through digital channels", "A video game", "A type of filter"], "correct": 1, "explain": "Cyberbullying can follow people everywhere through their phones." },
+      { "id": "m06", "type": "flervalg", "text": "Which role are you in when you post your own videos?", "options": ["Consumer", "Bystander", "Creator", "Moderator"], "correct": 2, "explain": "As a creator, you are responsible for what you publish." },
+      { "id": "m07", "type": "flervalg", "text": "How can stereotypes online affect real life?", "options": ["They can shape how people see groups in real life", "They have no effect", "They only affect games", "They make everyone equal"], "correct": 0, "explain": "Repeated images influence our attitudes." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

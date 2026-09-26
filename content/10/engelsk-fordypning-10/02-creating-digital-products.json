@@ -1,0 +1,87 @@
+{
+  "id": "creating-digital-products",
+  "fagId": "engelsk-fordypning-10",
+  "trinnId": "10",
+  "name": "Creating digital products",
+  "intro": "How to plan, create, edit and publish digital products in English that combine text, pictures, video and sound, from podcasts and videos to websites and infographics.",
+  "kompetansemaal": [6, 2],
+  "sammendrag": "## Digital products\n\nA **digital product** is something you create with digital tools that combines different **media types**: text, pictures, video, sound, animation and interactive elements. Examples are a podcast, a short film, a website, a digital poster, a slideshow, an animation, a vlog or a digital story.\n\n## Start with purpose and audience\n\nBefore choosing tools, ask:\n\n- **Purpose**: Do you want to inform, explain, tell a story, persuade or entertain?\n- **Audience**: Who is it for? Classmates, younger pupils or a global audience?\n- **Message**: What is the one thing you want the audience to remember?\n\n## Choose the right format\n\n- A **podcast** suits interviews, discussions and storytelling with sound.\n- A **video** is good for showing actions, places and emotions.\n- A **website** or blog can combine long texts, pictures and links.\n- An **infographic** presents facts and numbers visually.\n- A **digital story** combines narration, pictures and music into a short personal story.\n\n## Plan your product\n\n1. **Brainstorm** ideas and research your topic.\n2. Write a **script** or outline: What will be said and shown?\n3. Make a **storyboard** – simple sketches of each scene or page.\n4. Collect or create **material**: photos, recordings and music.\n5. Make a **timeline** for the work, especially in group projects.\n\n## Combining media types\n\nGood digital products use media types that **support each other**:\n\n- Pictures and text should say something together, not repeat each other word for word.\n- Music should match the mood and not drown out speech.\n- Use **captions** or subtitles to make videos accessible.\n- Keep a **consistent design** with the same fonts, colours and style.\n- Think about **accessibility**: readable text, good contrast and clear sound.\n\n## Recording and editing\n\n- Record sound in a quiet room, and keep the microphone close.\n- Film with steady hands or a tripod, and use natural light.\n- When **editing**, cut away mistakes and long pauses, use transitions sparingly and adjust the sound level.\n- Watch or listen to the whole product before publishing.\n\n## Feedback and publishing\n\nTest your product on someone from the target audience and ask for **feedback**. Improve it before you publish. Remember:\n\n- **Copyright**: use your own material or material you have permission to use, and credit your sources.\n- **Privacy**: get **consent** from everyone who appears in your product.\n- Think about **where** you publish: in class, on a school platform or openly online.",
+  "flashcards": [
+    { "term": "Digital product", "def": "Something created with digital tools that combines different media types." },
+    { "term": "Media types", "def": "Text, pictures, video, sound, animation and interactive elements." },
+    { "term": "Purpose", "def": "What you want to achieve: inform, explain, tell, persuade or entertain." },
+    { "term": "Audience", "def": "The people your product is made for." },
+    { "term": "Message", "def": "The main thing you want the audience to remember." },
+    { "term": "Podcast", "def": "An audio programme, good for interviews, discussions and stories." },
+    { "term": "Infographic", "def": "A visual presentation of facts and numbers." },
+    { "term": "Digital story", "def": "A short personal story told with narration, pictures and music." },
+    { "term": "Script", "def": "A written plan of what will be said and shown." },
+    { "term": "Storyboard", "def": "Simple sketches of each scene or page." },
+    { "term": "Captions", "def": "Text on screen that shows what is said." },
+    { "term": "Consistent design", "def": "Using the same fonts, colours and style throughout." },
+    { "term": "Accessibility", "def": "Making a product easy for as many people as possible to use." },
+    { "term": "Editing", "def": "Cutting, arranging and improving recorded material." },
+    { "term": "Consent", "def": "Permission from people who appear in your product." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "What is a digital product?", "options": ["A product you buy online", "A computer", "Something you create with digital tools that combines media types", "An app store"], "correct": 2, "explain": "Podcasts, videos and websites are examples." },
+    { "id": "q02", "text": "What should you decide before choosing tools?", "options": ["Your purpose, audience and message", "The price of the software", "The colour of your laptop", "The length of your name"], "correct": 0, "explain": "Purpose and audience decide which format fits best." },
+    { "id": "q03", "text": "Which format is best for presenting facts and numbers visually?", "options": ["A podcast", "A radio drama", "A novel", "An infographic"], "correct": 3, "explain": "Infographics use charts, icons and short texts." },
+    { "id": "q04", "text": "What is a storyboard?", "options": ["A finished film", "Simple sketches of each scene or page", "A list of sources", "A music track"], "correct": 1, "explain": "Storyboards help you plan before you record." },
+    { "id": "q05", "text": "Why should you add captions to a video?", "options": ["To make it accessible to more people", "To make it longer", "Because music is not allowed", "To hide mistakes"], "correct": 0, "explain": "Captions help people who cannot hear the sound or are watching without it." },
+    { "id": "q06", "text": "How should pictures and text work together?", "options": ["They should repeat each other word for word", "Text should always be larger than pictures", "They should say something together and support each other", "Pictures are not needed"], "correct": 2, "explain": "Each media type should add something." },
+    { "id": "q07", "text": "What is a good tip for recording sound?", "options": ["Record in a noisy café", "Hold the microphone far away", "Use loud background music", "Record in a quiet room with the microphone close"], "correct": 3, "explain": "Clear sound is essential in podcasts and videos." },
+    { "id": "q08", "text": "What must you get from people who appear in your video?", "options": ["Money", "Consent", "Their passwords", "Nothing"], "correct": 1, "explain": "Everyone has the right to decide over pictures and videos of themselves." },
+    { "id": "q09", "text": "What is a script?", "options": ["A computer virus", "A type of font", "A written plan of what will be said and shown", "A picture"], "correct": 2, "explain": "A script makes recording easier and more structured." },
+    { "id": "q10", "text": "Why should you test your product on someone from the target audience?", "options": ["To get feedback and improve it before publishing", "To finish faster", "Because it is required by law", "To avoid editing"], "correct": 0, "explain": "Feedback shows what works and what is unclear." }
+  ],
+  "mindmap": {
+    "label": "Creating digital products",
+    "children": [
+      { "label": "Start", "children": [
+        { "label": "Purpose" },
+        { "label": "Audience" },
+        { "label": "Message" }
+      ] },
+      { "label": "Formats", "children": [
+        { "label": "Podcast" },
+        { "label": "Video" },
+        { "label": "Website or blog" },
+        { "label": "Infographic" },
+        { "label": "Digital story" }
+      ] },
+      { "label": "Plan", "children": [
+        { "label": "Brainstorm" },
+        { "label": "Script" },
+        { "label": "Storyboard" },
+        { "label": "Timeline" }
+      ] },
+      { "label": "Combine and edit", "children": [
+        { "label": "Media that support each other" },
+        { "label": "Captions and accessibility" },
+        { "label": "Consistent design" },
+        { "label": "Recording and editing" }
+      ] },
+      { "label": "Publish", "children": [
+        { "label": "Feedback" },
+        { "label": "Copyright" },
+        { "label": "Consent" },
+        { "label": "Where to publish" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Music should be loud enough to drown out the speech.", "correct": false, "explain": "Music should support the speech, not compete with it." },
+      { "id": "m02", "type": "sant-usant", "text": "A consistent design uses the same fonts, colours and style.", "correct": true, "explain": "Consistency makes a product look professional." },
+      { "id": "m03", "type": "sant-usant", "text": "A podcast can be a digital product.", "correct": true, "explain": "Podcasts combine voice, music and sound effects." },
+      { "id": "m04", "type": "sant-usant", "text": "You don't need to credit sources in digital products.", "correct": false, "explain": "All sources and borrowed material must be credited." },
+      { "id": "m05", "type": "flervalg", "text": "What is accessibility?", "options": ["Making a product easy for as many people as possible to use", "Making it expensive", "Hiding it", "Making it very long"], "correct": 0, "explain": "Good contrast, captions and clear sound improve accessibility." },
+      { "id": "m06", "type": "flervalg", "text": "Which format suits interviews and discussions with sound?", "options": ["An infographic", "A podcast", "A poster", "A comic"], "correct": 1, "explain": "Podcasts are built around voices." },
+      { "id": "m07", "type": "flervalg", "text": "What happens in the editing stage?", "options": ["You choose your topic", "You write the script", "You cut away mistakes and adjust the sound", "You find your audience"], "correct": 2, "explain": "Editing turns raw recordings into a finished product." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

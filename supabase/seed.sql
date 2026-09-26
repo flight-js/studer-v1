@@ -16,35 +16,38 @@ insert into public.fag (id, trinn_id, navn, lareplan_kode, lareplan_url, kompeta
   ('norsk-8', '8', 'Norsk', 'NOR01-08', 'https://www.udir.no/lk20/nor01-08/kompetansemaal-og-vurdering/kv1110', '[{"nr":1,"tekst":"lese skjønnlitteratur og sakprosa på bokmål og nynorsk og i oversettelse fra samiske og andre språk, og reflektere over tekstenes formål, innhold, sjangertrekk og virkemidler"},{"nr":2,"tekst":"sammenligne og tolke romaner, noveller, lyrikk og andre tekster ut fra historisk kontekst og egen samtid"},{"nr":3,"tekst":"beskrive og reflektere over egen bruk av lesestrategier i lesing av skjønnlitteratur og sakprosa"},{"nr":4,"tekst":"lytte til og lese tekster på svensk og dansk og gjøre rede for innhold og språklige trekk"},{"nr":5,"tekst":"utforske og reflektere over hvordan tekster framstiller unges livssituasjon"},{"nr":6,"tekst":"gjenkjenne og bruke språklige virkemidler og retoriske appellformer"},{"nr":7,"tekst":"bruke kilder på en kritisk måte, markere sitater og vise til kilder på en etterrettelig måte i egne tekster"},{"nr":8,"tekst":"utforske og vurdere hvordan digitale medier påvirker og endrer språk og kommunikasjon"},{"nr":9,"tekst":"bruke fagspråk og argumentere saklig i diskusjoner, samtaler, muntlige presentasjoner og skriftlige framstillinger om norskfaglige og tverrfaglige temaer"},{"nr":10,"tekst":"informere, fortelle, argumentere og reflektere i ulike muntlige og skriftlige sjangre og for ulike formål tilpasset mottaker og medium"},{"nr":11,"tekst":"skrive tekster med funksjonell tekstbinding og riktig tegnsetting og mestre rettskriving og ordbøying på hovedmål og sidemål"},{"nr":12,"tekst":"bruke fagspråk og kunnskap om grammatikk, tekststruktur og sjanger i samtale om og bearbeiding av tekster"},{"nr":13,"tekst":"uttrykke seg i ulike sjangre og eksperimentere med sjangre på kreative måter"},{"nr":14,"tekst":"lage sammensatte tekster og begrunne valg av uttrykksformer"},{"nr":15,"tekst":"forklare den historiske bakgrunnen for bokmål og nynorsk og reflektere over statusen til de offisielle språkene i Norge i dag"},{"nr":16,"tekst":"utforske språklig variasjon og mangfold i Norge og reflektere over holdninger til ulike språk og talespråkvarianter"}]'::jsonb, 0),
   ('matematikk-8', '8', 'Matematikk', 'MAT01-06', 'https://www.udir.no/lk20/mat01-06/kompetansemaal-og-vurdering/kv1027', '[{"nr":1,"tekst":"rekne med potensar og kvadratrøter og forklare framgangsmåtar og resultat"},{"nr":2,"tekst":"bruke kommutative, assosiative og distributive eigenskapar til å utvikle og kommunisere strategiar for hovudrekning og skriftleg rekning"},{"nr":3,"tekst":"beskrive og utforske faktorisering og primtalsfaktorisering og bruke det i brøkrekning"},{"nr":4,"tekst":"utforske og generalisere geometriske mønster og tallmønster med eigne ord og algebraisk"},{"nr":5,"tekst":"lage og forklare rekneuttrykk med tal, variablar og konstantar knytte til praktiske situasjonar"},{"nr":6,"tekst":"lage og løyse likningar knytte til praktiske situasjonar og kritisk vurdere løysingar"},{"nr":7,"tekst":"bruke ulike strategiar for å løyse ulikskapar og vurdere om løysingar er gyldige"},{"nr":8,"tekst":"beskrive, samanlikne og utforske funksjonar knytte til praktiske situasjonar"},{"nr":9,"tekst":"bruke situasjonar, tabellar, grafar og uttrykk til å representere funksjonar og vise samanhengar mellom representasjonane"},{"nr":10,"tekst":"utforske korleis algoritmar kan skapast, testast og forbetrast ved hjelp av programmering"}]'::jsonb, 1),
   ('engelsk-8', '8', 'Engelsk', 'ENG01-06', 'https://www.udir.no/lk20/eng01-06/kompetansemaal-og-vurdering/kv1033', '[{"nr":1,"tekst":"bruke varierte strategier i språklæring, tekstskaping og kommunikasjon"},{"nr":2,"tekst":"bruke ulike digitale ressurser og andre hjelpemidler i språklæring, tekstskaping og samhandling"},{"nr":3,"tekst":"bruke sentrale mønstre for uttale i kommunikasjon"},{"nr":4,"tekst":"lytte til og forstå ord og uttrykk i varianter av engelsk"},{"nr":5,"tekst":"uttrykke seg med flyt og sammenheng med et variert ordforråd og idiomatiske uttrykk tilpasset formål, mottaker og situasjon"},{"nr":6,"tekst":"stille spørsmål og følge opp innspill i samtaler om ulike emner tilpasset ulike formål, mottakere og situasjoner"},{"nr":7,"tekst":"utforske og beskrive noen språklige likheter og ulikheter mellom engelsk og andre språk eleven kjenner til, og bruke dette i egen språklæring"},{"nr":8,"tekst":"bruke kunnskap om ordklasser og setningsstruktur i arbeid med egne muntlige og skriftlige tekster"},{"nr":9,"tekst":"følge regler for rettskriving, ordbøying, setningsstruktur og tekststruktur"},{"nr":10,"tekst":"lese, diskutere og videreformidle innhold fra ulike typer tekster, inkludert selvvalgte tekster"},{"nr":11,"tekst":"lese, tolke og reflektere over engelskspråklig skjønnlitteratur, inkludert ungdomslitteratur"},{"nr":12,"tekst":"lese sakprosatekster og vurdere hvor pålitelige kildene er"},{"nr":13,"tekst":"bruke kilder på en kritisk og etterrettelig måte"},{"nr":14,"tekst":"skrive formelle og uformelle tekster, inkludert sammensatte, med struktur og sammenheng som beskriver, forteller og reflekterer tilpasset formål, mottaker og situasjon"},{"nr":15,"tekst":"bearbeide egne tekster ut fra tilbakemeldinger og kunnskap om språk"},{"nr":16,"tekst":"beskrive og reflektere over rollen engelsk har i Norge og i verden"},{"nr":17,"tekst":"utforske og reflektere over situasjonen til urfolk i den engelskspråklige verden og i Norge"},{"nr":18,"tekst":"utforske og beskrive levemåter, tenkesett, kommunikasjonsmønstre og mangfold i den engelskspråklige verden"},{"nr":19,"tekst":"utforske og videreformidle innhold i engelskspråklige kulturelle uttrykksformer fra ulike medier knyttet til egne interesser"}]'::jsonb, 2),
-  ('naturfag-8', '8', 'Naturfag', 'NAT01-05', 'https://www.udir.no/lk20/nat01-05/kompetansemaal-og-vurdering/kv1078', '[{"nr":1,"tekst":"stille spørsmål og lage hypoteser om naturfaglige fenomener, identifisere avhengige og uavhengige variabler og samle data for å finne svar"},{"nr":2,"tekst":"analysere og bruke innsamlede data til å lage forklaringer, drøfte forklaringene i lys av relevant teori og vurdere kvaliteten på egne og andres utforskinger"},{"nr":3,"tekst":"bruke og lage modeller for å forutsi eller beskrive naturfaglige prosesser og systemer og gjøre rede for modellenes styrker og begrensninger"},{"nr":4,"tekst":"delta i risikovurderinger knyttet til forsøk og følge sikkerhetstiltakene"},{"nr":5,"tekst":"gi eksempler på dagsaktuell forskning og drøfte hvordan ny kunnskap genereres gjennom samarbeid og kritisk tilnærming til eksisterende kunnskap"},{"nr":6,"tekst":"utforske, forstå og lage teknologiske systemer som består av en sender og en mottaker"},{"nr":7,"tekst":"bruke programmering til å utforske naturfaglige fenomener"},{"nr":8,"tekst":"utforske kjemiske reaksjoner, forklare massebevaring og gjøre rede for betydninger av noen forbrenningsreaksjoner"},{"nr":9,"tekst":"bruke atommodeller og periodesystemet til å gjøre rede for egenskaper til grunnstoffer og kjemiske forbindelser"},{"nr":10,"tekst":"beskrive drivhuseffekten og gjøre rede for faktorer som kan forårsake globale klimaendringer"},{"nr":11,"tekst":"gjøre rede for energibevaring og energikvalitet og utforske ulike måter å omdanne, transportere og lagre energi på"},{"nr":12,"tekst":"drøfte hvordan energiproduksjon og energibruk kan påvirke miljøet lokalt og globalt"},{"nr":13,"tekst":"beskrive hvordan forskere har kommet fram til evolusjonsteorien og bruke denne til å forklare utvikling av biologisk mangfold"},{"nr":14,"tekst":"sammenligne celler hos ulike organismer og beskrive sammenhenger mellom oppbygning og funksjon"},{"nr":15,"tekst":"utforske sammenhenger mellom abiotiske og biotiske faktorer i et økosystem og diskutere hvordan energi og materie omdannes i kretsløp"},{"nr":16,"tekst":"gi eksempler på og drøfte aktuelle dilemmaer knyttet til utnyttelse av naturressurser og tap av biologisk mangfold"},{"nr":17,"tekst":"gi eksempler på samers tradisjonelle kunnskap om naturen og diskutere hvordan denne kunnskapen kan bidra til bærekraftig forvaltning av naturen"},{"nr":18,"tekst":"gjøre rede for hvordan fotosyntese og celleånding gir energi til alt levende gjennom karbonkretsløpet"},{"nr":19,"tekst":"bruke platetektonikkteorien til å forklare jordas utvikling over tid og gi eksempler på observasjoner som støtter teorien"},{"nr":20,"tekst":"drøfte spørsmål knyttet til seksuell og reproduktiv helse"},{"nr":21,"tekst":"sammenligne nervesystemet og hormonsystemet og beskrive hvordan rusmidler, legemidler, miljøgifter og doping påvirker signalsystemene"},{"nr":22,"tekst":"beskrive kroppens immunforsvar og hvordan vaksiner virker, og gjøre rede for hva vaksiner betyr for folkehelsen"}]'::jsonb, 3),
-  ('samfunnsfag-8', '8', 'Samfunnsfag', 'SAF01-05', 'https://www.udir.no/lk20/saf01-05/kompetansemaal-og-vurdering/kv1151', '[{"nr":1,"tekst":"bruke samfunnsfaglege metodar og digitale ressursar i eigne undersøkingar, presentere funn ved bruk av digitale verktøy og drøfte kor gyldige og relevante funna er"},{"nr":2,"tekst":"vurdere på kva måtar ulike kjelder gir informasjon om eit samfunnsfagleg tema, og reflektere over korleis algoritmar, einsretta kjelder eller mangel på kjelder kan prege forståinga vår"},{"nr":3,"tekst":"drøfte korleis framstillingar av fortida, hendingar og grupper har påverka og påverkar haldningane og handlingane til folk"},{"nr":4,"tekst":"utforske korleis teknologi har vore og framleis er ein endringsfaktor, og drøfte innverknaden teknologien har hatt og har på enkeltmenneske, samfunn og natur"},{"nr":5,"tekst":"reflektere over korleis menneske har kjempa og kjempar for endringar i samfunnet og samstundes har vore og er påverka av geografiske forhold og historisk kontekst"},{"nr":6,"tekst":"samanlikne korleis politiske, geografiske og historiske forhold påverkar levekår, busetjingsmønster og demografi i forskjellige delar av verda i dag"},{"nr":7,"tekst":"gjere greie for årsaker til og konsekvensar av sentrale historiske og notidige konfliktar og reflektere over om endringar av nokre føresetnader kunne ha hindra konfliktane"},{"nr":8,"tekst":"gjere greie for årsaker til og konsekvensar av terrorhandlingar og folkemord, som holocaust, og reflektere over korleis ekstreme haldningar og ekstreme handlingar kan førebyggjast"},{"nr":9,"tekst":"utforske og beskrive korleis menneske- og urfolksrettar og andre internasjonale avtalar og samarbeid har betydning for nasjonal politikk, livet til menneske, likestilling og likeverd"},{"nr":10,"tekst":"gjere greie for fornorsking av samane og dei nasjonale minoritetane og uretten dei har vore utsette for, og reflektere over kva konsekvensar det har hatt og har på individ- og samfunnsnivå"},{"nr":11,"tekst":"beskrive ulike dimensjonar ved berekraftig utvikling og korleis dei påverkar kvarandre, og presentere tiltak for meir berekraftige samfunn"},{"nr":12,"tekst":"vurdere korleis arbeid, inntekt og forbruk kan påverke personleg økonomi, levestandard og livskvalitet"},{"nr":13,"tekst":"reflektere over likskapar og ulikskapar i identitetar, levesett og kulturuttrykk og drøfte moglegheiter og utfordringar ved mangfald"},{"nr":14,"tekst":"utforske og reflektere over eigne digitale spor og høvet til å få sletta spora og å verne om retten ein sjølv og andre har til privatliv, personvern og opphavsrett"},{"nr":15,"tekst":"reflektere over korleis identitet, sjølvbilete og eigne grenser blir utvikla og utfordra i ulike fellesskap, og presentere forslag til korleis ein kan handtere påverknad og uønskte hendingar"},{"nr":16,"tekst":"reflektere over kva for aktørar som har makt i samfunnet i dag, og korleis desse grunngir standpunkta sine"},{"nr":17,"tekst":"utforske ulike plattformer for digital samhandling og reflektere over korleis digital deltaking og samhandling påverkar forma på og innhaldet i samfunnsdebatten"},{"nr":18,"tekst":"beskrive sentrale lover, reglar og normer og drøfte kva konsekvensar brot på desse kan ha for den enkelte og for samfunnet på kort og lang sikt"},{"nr":19,"tekst":"beskrive trekk ved det politiske systemet og velferdssamfunnet i Noreg i dag og reflektere over sentrale utfordringar"}]'::jsonb, 4),
-  ('krle-8', '8', 'KRLE', 'RLE01-04', 'https://www.udir.no/lk20/rle01-04/kompetansemaal-og-vurdering/kv1145', '[{"nr":1,"tekst":"utforske og presentere sentrale trekk ved kristendom og andre religions- og livssynstradisjoner og deres utbredelse i dag"},{"nr":2,"tekst":"utforske og drøfte hvordan kristendom og andre religioner inngår i historiske endringsprosesser globalt og nasjonalt"},{"nr":3,"tekst":"undersøke og presentere sentrale ideer fra livssynshumanisme og andre ikke-religiøse livssyn"},{"nr":4,"tekst":"utforske og presentere religiøst mangfold og religiøse praksiser utenfor etablerte religionssamfunn"},{"nr":5,"tekst":"gjøre rede for og reflektere over samenes og andre urfolks religions- og livssynstradisjoner"},{"nr":6,"tekst":"bruke og drøfte fagbegreper om religioner og livssyn"},{"nr":7,"tekst":"sammenligne og vurdere kritisk ulike kilder til kunnskap om religioner og livssyn"},{"nr":8,"tekst":"gjøre rede for og reflektere over ulike syn på kjønn og seksualitet i kristendom og andre religioner og livssyn"},{"nr":9,"tekst":"utforske og presentere hvordan elementer fra kristendom og andre religioner og livssyn kommer til uttrykk i medier og populærkultur"},{"nr":10,"tekst":"utforske og sammenligne etiske ideer fra sentrale skikkelser i religiøse og livssynsbaserte tradisjoner"},{"nr":11,"tekst":"utforske etiske ideer fra sentrale skikkelser i filosofihistorien og anvende ideene til å drøfte aktuelle etiske spørsmål"},{"nr":12,"tekst":"utforske andres perspektiv og håndtere uenighet og meningsbrytning"},{"nr":13,"tekst":"reflektere over eksistensielle spørsmål knyttet til det å vokse opp og leve i et mangfoldig og globalt samfunn"},{"nr":14,"tekst":"identifisere og drøfte etiske problemstillinger knyttet til ulike former for kommunikasjon"},{"nr":15,"tekst":"identifisere og drøfte aktuelle etiske problemstillinger knyttet til menneskerettigheter, bærekraft og fattigdom"}]'::jsonb, 5),
-  ('tysk-8', '8', 'Tysk', null, null, '[]'::jsonb, 6),
-  ('fransk-8', '8', 'Fransk', null, null, '[]'::jsonb, 7),
-  ('spansk-8', '8', 'Spansk', null, null, '[]'::jsonb, 8),
-  ('arbeidslivsfag-8', '8', 'Arbeidslivsfag', null, null, '[]'::jsonb, 9),
+  ('engelsk-fordypning-8', '8', 'Engelsk fordypning', 'ENG03-02', 'https://www.udir.no/lk20/eng03-02/kompetansemaal-og-vurdering/kv13', '[{"nr":1,"tekst":"bruke engelsk muntlig og skriftlig i digital samhandling tilpasset formål, mottaker og situasjon"},{"nr":2,"tekst":"skape ulike typer muntlige og skriftlige tekster om selvvalgte emner som presenterer, forteller eller forklarer gjennom ulike medier"},{"nr":3,"tekst":"videreutvikle egne muntlige og skriftlige tekster på bakgrunn av tilbakemeldinger"},{"nr":4,"tekst":"utforske og presentere innhold, form og formål i spill, film og musikk"},{"nr":5,"tekst":"reflektere over variasjon i tenkesett, kommunikasjonsmønstre og samhandlingsformer i den virtuelle og virkelige verden"},{"nr":6,"tekst":"skape digitale produkter som kombinerer ulike medietyper"},{"nr":7,"tekst":"utforske og sammenligne språkbruk og virkemidler i ulike medier og sammenhenger"},{"nr":8,"tekst":"utforske og reflektere over hvordan synsvinkel og avsender kan påvirke et budskap"},{"nr":9,"tekst":"presentere selvvalgte interesseområder"},{"nr":10,"tekst":"gjøre rede for egen rolle i ulike medier og reflektere kritisk over hvordan eleven framstiller seg selv og andre på nett"},{"nr":11,"tekst":"bruke kilder på en kritisk og etterrettelig måte og følge regler for personvern og opphavsrett"}]'::jsonb, 3),
+  ('naturfag-8', '8', 'Naturfag', 'NAT01-05', 'https://www.udir.no/lk20/nat01-05/kompetansemaal-og-vurdering/kv1078', '[{"nr":1,"tekst":"stille spørsmål og lage hypoteser om naturfaglige fenomener, identifisere avhengige og uavhengige variabler og samle data for å finne svar"},{"nr":2,"tekst":"analysere og bruke innsamlede data til å lage forklaringer, drøfte forklaringene i lys av relevant teori og vurdere kvaliteten på egne og andres utforskinger"},{"nr":3,"tekst":"bruke og lage modeller for å forutsi eller beskrive naturfaglige prosesser og systemer og gjøre rede for modellenes styrker og begrensninger"},{"nr":4,"tekst":"delta i risikovurderinger knyttet til forsøk og følge sikkerhetstiltakene"},{"nr":5,"tekst":"gi eksempler på dagsaktuell forskning og drøfte hvordan ny kunnskap genereres gjennom samarbeid og kritisk tilnærming til eksisterende kunnskap"},{"nr":6,"tekst":"utforske, forstå og lage teknologiske systemer som består av en sender og en mottaker"},{"nr":7,"tekst":"bruke programmering til å utforske naturfaglige fenomener"},{"nr":8,"tekst":"utforske kjemiske reaksjoner, forklare massebevaring og gjøre rede for betydninger av noen forbrenningsreaksjoner"},{"nr":9,"tekst":"bruke atommodeller og periodesystemet til å gjøre rede for egenskaper til grunnstoffer og kjemiske forbindelser"},{"nr":10,"tekst":"beskrive drivhuseffekten og gjøre rede for faktorer som kan forårsake globale klimaendringer"},{"nr":11,"tekst":"gjøre rede for energibevaring og energikvalitet og utforske ulike måter å omdanne, transportere og lagre energi på"},{"nr":12,"tekst":"drøfte hvordan energiproduksjon og energibruk kan påvirke miljøet lokalt og globalt"},{"nr":13,"tekst":"beskrive hvordan forskere har kommet fram til evolusjonsteorien og bruke denne til å forklare utvikling av biologisk mangfold"},{"nr":14,"tekst":"sammenligne celler hos ulike organismer og beskrive sammenhenger mellom oppbygning og funksjon"},{"nr":15,"tekst":"utforske sammenhenger mellom abiotiske og biotiske faktorer i et økosystem og diskutere hvordan energi og materie omdannes i kretsløp"},{"nr":16,"tekst":"gi eksempler på og drøfte aktuelle dilemmaer knyttet til utnyttelse av naturressurser og tap av biologisk mangfold"},{"nr":17,"tekst":"gi eksempler på samers tradisjonelle kunnskap om naturen og diskutere hvordan denne kunnskapen kan bidra til bærekraftig forvaltning av naturen"},{"nr":18,"tekst":"gjøre rede for hvordan fotosyntese og celleånding gir energi til alt levende gjennom karbonkretsløpet"},{"nr":19,"tekst":"bruke platetektonikkteorien til å forklare jordas utvikling over tid og gi eksempler på observasjoner som støtter teorien"},{"nr":20,"tekst":"drøfte spørsmål knyttet til seksuell og reproduktiv helse"},{"nr":21,"tekst":"sammenligne nervesystemet og hormonsystemet og beskrive hvordan rusmidler, legemidler, miljøgifter og doping påvirker signalsystemene"},{"nr":22,"tekst":"beskrive kroppens immunforsvar og hvordan vaksiner virker, og gjøre rede for hva vaksiner betyr for folkehelsen"}]'::jsonb, 4),
+  ('samfunnsfag-8', '8', 'Samfunnsfag', 'SAF01-05', 'https://www.udir.no/lk20/saf01-05/kompetansemaal-og-vurdering/kv1151', '[{"nr":1,"tekst":"bruke samfunnsfaglege metodar og digitale ressursar i eigne undersøkingar, presentere funn ved bruk av digitale verktøy og drøfte kor gyldige og relevante funna er"},{"nr":2,"tekst":"vurdere på kva måtar ulike kjelder gir informasjon om eit samfunnsfagleg tema, og reflektere over korleis algoritmar, einsretta kjelder eller mangel på kjelder kan prege forståinga vår"},{"nr":3,"tekst":"drøfte korleis framstillingar av fortida, hendingar og grupper har påverka og påverkar haldningane og handlingane til folk"},{"nr":4,"tekst":"utforske korleis teknologi har vore og framleis er ein endringsfaktor, og drøfte innverknaden teknologien har hatt og har på enkeltmenneske, samfunn og natur"},{"nr":5,"tekst":"reflektere over korleis menneske har kjempa og kjempar for endringar i samfunnet og samstundes har vore og er påverka av geografiske forhold og historisk kontekst"},{"nr":6,"tekst":"samanlikne korleis politiske, geografiske og historiske forhold påverkar levekår, busetjingsmønster og demografi i forskjellige delar av verda i dag"},{"nr":7,"tekst":"gjere greie for årsaker til og konsekvensar av sentrale historiske og notidige konfliktar og reflektere over om endringar av nokre føresetnader kunne ha hindra konfliktane"},{"nr":8,"tekst":"gjere greie for årsaker til og konsekvensar av terrorhandlingar og folkemord, som holocaust, og reflektere over korleis ekstreme haldningar og ekstreme handlingar kan førebyggjast"},{"nr":9,"tekst":"utforske og beskrive korleis menneske- og urfolksrettar og andre internasjonale avtalar og samarbeid har betydning for nasjonal politikk, livet til menneske, likestilling og likeverd"},{"nr":10,"tekst":"gjere greie for fornorsking av samane og dei nasjonale minoritetane og uretten dei har vore utsette for, og reflektere over kva konsekvensar det har hatt og har på individ- og samfunnsnivå"},{"nr":11,"tekst":"beskrive ulike dimensjonar ved berekraftig utvikling og korleis dei påverkar kvarandre, og presentere tiltak for meir berekraftige samfunn"},{"nr":12,"tekst":"vurdere korleis arbeid, inntekt og forbruk kan påverke personleg økonomi, levestandard og livskvalitet"},{"nr":13,"tekst":"reflektere over likskapar og ulikskapar i identitetar, levesett og kulturuttrykk og drøfte moglegheiter og utfordringar ved mangfald"},{"nr":14,"tekst":"utforske og reflektere over eigne digitale spor og høvet til å få sletta spora og å verne om retten ein sjølv og andre har til privatliv, personvern og opphavsrett"},{"nr":15,"tekst":"reflektere over korleis identitet, sjølvbilete og eigne grenser blir utvikla og utfordra i ulike fellesskap, og presentere forslag til korleis ein kan handtere påverknad og uønskte hendingar"},{"nr":16,"tekst":"reflektere over kva for aktørar som har makt i samfunnet i dag, og korleis desse grunngir standpunkta sine"},{"nr":17,"tekst":"utforske ulike plattformer for digital samhandling og reflektere over korleis digital deltaking og samhandling påverkar forma på og innhaldet i samfunnsdebatten"},{"nr":18,"tekst":"beskrive sentrale lover, reglar og normer og drøfte kva konsekvensar brot på desse kan ha for den enkelte og for samfunnet på kort og lang sikt"},{"nr":19,"tekst":"beskrive trekk ved det politiske systemet og velferdssamfunnet i Noreg i dag og reflektere over sentrale utfordringar"}]'::jsonb, 5),
+  ('krle-8', '8', 'KRLE', 'RLE01-04', 'https://www.udir.no/lk20/rle01-04/kompetansemaal-og-vurdering/kv1145', '[{"nr":1,"tekst":"utforske og presentere sentrale trekk ved kristendom og andre religions- og livssynstradisjoner og deres utbredelse i dag"},{"nr":2,"tekst":"utforske og drøfte hvordan kristendom og andre religioner inngår i historiske endringsprosesser globalt og nasjonalt"},{"nr":3,"tekst":"undersøke og presentere sentrale ideer fra livssynshumanisme og andre ikke-religiøse livssyn"},{"nr":4,"tekst":"utforske og presentere religiøst mangfold og religiøse praksiser utenfor etablerte religionssamfunn"},{"nr":5,"tekst":"gjøre rede for og reflektere over samenes og andre urfolks religions- og livssynstradisjoner"},{"nr":6,"tekst":"bruke og drøfte fagbegreper om religioner og livssyn"},{"nr":7,"tekst":"sammenligne og vurdere kritisk ulike kilder til kunnskap om religioner og livssyn"},{"nr":8,"tekst":"gjøre rede for og reflektere over ulike syn på kjønn og seksualitet i kristendom og andre religioner og livssyn"},{"nr":9,"tekst":"utforske og presentere hvordan elementer fra kristendom og andre religioner og livssyn kommer til uttrykk i medier og populærkultur"},{"nr":10,"tekst":"utforske og sammenligne etiske ideer fra sentrale skikkelser i religiøse og livssynsbaserte tradisjoner"},{"nr":11,"tekst":"utforske etiske ideer fra sentrale skikkelser i filosofihistorien og anvende ideene til å drøfte aktuelle etiske spørsmål"},{"nr":12,"tekst":"utforske andres perspektiv og håndtere uenighet og meningsbrytning"},{"nr":13,"tekst":"reflektere over eksistensielle spørsmål knyttet til det å vokse opp og leve i et mangfoldig og globalt samfunn"},{"nr":14,"tekst":"identifisere og drøfte etiske problemstillinger knyttet til ulike former for kommunikasjon"},{"nr":15,"tekst":"identifisere og drøfte aktuelle etiske problemstillinger knyttet til menneskerettigheter, bærekraft og fattigdom"}]'::jsonb, 6),
+  ('tysk-8', '8', 'Tysk', null, null, '[]'::jsonb, 7),
+  ('fransk-8', '8', 'Fransk', null, null, '[]'::jsonb, 8),
+  ('spansk-8', '8', 'Spansk', null, null, '[]'::jsonb, 9),
+  ('arbeidslivsfag-8', '8', 'Arbeidslivsfag', null, null, '[]'::jsonb, 10),
   ('norsk-9', '9', 'Norsk', 'NOR01-08', 'https://www.udir.no/lk20/nor01-08/kompetansemaal-og-vurdering/kv1110', '[{"nr":1,"tekst":"lese skjønnlitteratur og sakprosa på bokmål og nynorsk og i oversettelse fra samiske og andre språk, og reflektere over tekstenes formål, innhold, sjangertrekk og virkemidler"},{"nr":2,"tekst":"sammenligne og tolke romaner, noveller, lyrikk og andre tekster ut fra historisk kontekst og egen samtid"},{"nr":3,"tekst":"beskrive og reflektere over egen bruk av lesestrategier i lesing av skjønnlitteratur og sakprosa"},{"nr":4,"tekst":"lytte til og lese tekster på svensk og dansk og gjøre rede for innhold og språklige trekk"},{"nr":5,"tekst":"utforske og reflektere over hvordan tekster framstiller unges livssituasjon"},{"nr":6,"tekst":"gjenkjenne og bruke språklige virkemidler og retoriske appellformer"},{"nr":7,"tekst":"bruke kilder på en kritisk måte, markere sitater og vise til kilder på en etterrettelig måte i egne tekster"},{"nr":8,"tekst":"utforske og vurdere hvordan digitale medier påvirker og endrer språk og kommunikasjon"},{"nr":9,"tekst":"bruke fagspråk og argumentere saklig i diskusjoner, samtaler, muntlige presentasjoner og skriftlige framstillinger om norskfaglige og tverrfaglige temaer"},{"nr":10,"tekst":"informere, fortelle, argumentere og reflektere i ulike muntlige og skriftlige sjangre og for ulike formål tilpasset mottaker og medium"},{"nr":11,"tekst":"skrive tekster med funksjonell tekstbinding og riktig tegnsetting og mestre rettskriving og ordbøying på hovedmål og sidemål"},{"nr":12,"tekst":"bruke fagspråk og kunnskap om grammatikk, tekststruktur og sjanger i samtale om og bearbeiding av tekster"},{"nr":13,"tekst":"uttrykke seg i ulike sjangre og eksperimentere med sjangre på kreative måter"},{"nr":14,"tekst":"lage sammensatte tekster og begrunne valg av uttrykksformer"},{"nr":15,"tekst":"forklare den historiske bakgrunnen for bokmål og nynorsk og reflektere over statusen til de offisielle språkene i Norge i dag"},{"nr":16,"tekst":"utforske språklig variasjon og mangfold i Norge og reflektere over holdninger til ulike språk og talespråkvarianter"}]'::jsonb, 0),
   ('matematikk-9', '9', 'Matematikk', 'MAT01-06', 'https://www.udir.no/lk20/mat01-06/kompetansemaal-og-vurdering/kv1028', '[{"nr":1,"tekst":"lage og løyse problem som handlar om samansette måleiningar"},{"nr":2,"tekst":"utforske eigenskapane ved ulike todimensjonale figurar og forklare omgrepa formlikskap og kongruens"},{"nr":3,"tekst":"bruke formlikskap og læresetninga til Pytagoras til utforsking av praktiske situasjonar"},{"nr":4,"tekst":"utforske, beskrive og argumentere for samanhengar mellom sidelengdene i trekantar"},{"nr":5,"tekst":"utforske og argumentere for korleis det å endre føresetnader i geometriske problemstillingar påverkar løysingar både praktisk og algebraisk"},{"nr":6,"tekst":"bruke og argumentere for formlar for overflateareal og volum av tredimensjonale figurar"},{"nr":7,"tekst":"tolke og kritisk vurdere statistiske framstillingar frå media og lokalsamfunnet"},{"nr":8,"tekst":"rekne på sentralmål og spreiingsmål i eigne og reelle datasett og bruke resultata til å beskrive dataa"},{"nr":9,"tekst":"samanlikne og argumentere for korleis framstillingar av tal og data kan brukast for å fremje ulike synspunkt"},{"nr":10,"tekst":"berekne og vurdere sannsyn i statistikk og spel"},{"nr":11,"tekst":"simulere utfall i tilfeldige forsøk og berekne sannsynet for at noko skal inntreffe, ved å bruke programmering"}]'::jsonb, 1),
   ('engelsk-9', '9', 'Engelsk', 'ENG01-06', 'https://www.udir.no/lk20/eng01-06/kompetansemaal-og-vurdering/kv1033', '[{"nr":1,"tekst":"bruke varierte strategier i språklæring, tekstskaping og kommunikasjon"},{"nr":2,"tekst":"bruke ulike digitale ressurser og andre hjelpemidler i språklæring, tekstskaping og samhandling"},{"nr":3,"tekst":"bruke sentrale mønstre for uttale i kommunikasjon"},{"nr":4,"tekst":"lytte til og forstå ord og uttrykk i varianter av engelsk"},{"nr":5,"tekst":"uttrykke seg med flyt og sammenheng med et variert ordforråd og idiomatiske uttrykk tilpasset formål, mottaker og situasjon"},{"nr":6,"tekst":"stille spørsmål og følge opp innspill i samtaler om ulike emner tilpasset ulike formål, mottakere og situasjoner"},{"nr":7,"tekst":"utforske og beskrive noen språklige likheter og ulikheter mellom engelsk og andre språk eleven kjenner til, og bruke dette i egen språklæring"},{"nr":8,"tekst":"bruke kunnskap om ordklasser og setningsstruktur i arbeid med egne muntlige og skriftlige tekster"},{"nr":9,"tekst":"følge regler for rettskriving, ordbøying, setningsstruktur og tekststruktur"},{"nr":10,"tekst":"lese, diskutere og videreformidle innhold fra ulike typer tekster, inkludert selvvalgte tekster"},{"nr":11,"tekst":"lese, tolke og reflektere over engelskspråklig skjønnlitteratur, inkludert ungdomslitteratur"},{"nr":12,"tekst":"lese sakprosatekster og vurdere hvor pålitelige kildene er"},{"nr":13,"tekst":"bruke kilder på en kritisk og etterrettelig måte"},{"nr":14,"tekst":"skrive formelle og uformelle tekster, inkludert sammensatte, med struktur og sammenheng som beskriver, forteller og reflekterer tilpasset formål, mottaker og situasjon"},{"nr":15,"tekst":"bearbeide egne tekster ut fra tilbakemeldinger og kunnskap om språk"},{"nr":16,"tekst":"beskrive og reflektere over rollen engelsk har i Norge og i verden"},{"nr":17,"tekst":"utforske og reflektere over situasjonen til urfolk i den engelskspråklige verden og i Norge"},{"nr":18,"tekst":"utforske og beskrive levemåter, tenkesett, kommunikasjonsmønstre og mangfold i den engelskspråklige verden"},{"nr":19,"tekst":"utforske og videreformidle innhold i engelskspråklige kulturelle uttrykksformer fra ulike medier knyttet til egne interesser"}]'::jsonb, 2),
-  ('naturfag-9', '9', 'Naturfag', 'NAT01-05', 'https://www.udir.no/lk20/nat01-05/kompetansemaal-og-vurdering/kv1078', '[{"nr":1,"tekst":"stille spørsmål og lage hypoteser om naturfaglige fenomener, identifisere avhengige og uavhengige variabler og samle data for å finne svar"},{"nr":2,"tekst":"analysere og bruke innsamlede data til å lage forklaringer, drøfte forklaringene i lys av relevant teori og vurdere kvaliteten på egne og andres utforskinger"},{"nr":3,"tekst":"bruke og lage modeller for å forutsi eller beskrive naturfaglige prosesser og systemer og gjøre rede for modellenes styrker og begrensninger"},{"nr":4,"tekst":"delta i risikovurderinger knyttet til forsøk og følge sikkerhetstiltakene"},{"nr":5,"tekst":"gi eksempler på dagsaktuell forskning og drøfte hvordan ny kunnskap genereres gjennom samarbeid og kritisk tilnærming til eksisterende kunnskap"},{"nr":6,"tekst":"utforske, forstå og lage teknologiske systemer som består av en sender og en mottaker"},{"nr":7,"tekst":"bruke programmering til å utforske naturfaglige fenomener"},{"nr":8,"tekst":"utforske kjemiske reaksjoner, forklare massebevaring og gjøre rede for betydninger av noen forbrenningsreaksjoner"},{"nr":9,"tekst":"bruke atommodeller og periodesystemet til å gjøre rede for egenskaper til grunnstoffer og kjemiske forbindelser"},{"nr":10,"tekst":"beskrive drivhuseffekten og gjøre rede for faktorer som kan forårsake globale klimaendringer"},{"nr":11,"tekst":"gjøre rede for energibevaring og energikvalitet og utforske ulike måter å omdanne, transportere og lagre energi på"},{"nr":12,"tekst":"drøfte hvordan energiproduksjon og energibruk kan påvirke miljøet lokalt og globalt"},{"nr":13,"tekst":"beskrive hvordan forskere har kommet fram til evolusjonsteorien og bruke denne til å forklare utvikling av biologisk mangfold"},{"nr":14,"tekst":"sammenligne celler hos ulike organismer og beskrive sammenhenger mellom oppbygning og funksjon"},{"nr":15,"tekst":"utforske sammenhenger mellom abiotiske og biotiske faktorer i et økosystem og diskutere hvordan energi og materie omdannes i kretsløp"},{"nr":16,"tekst":"gi eksempler på og drøfte aktuelle dilemmaer knyttet til utnyttelse av naturressurser og tap av biologisk mangfold"},{"nr":17,"tekst":"gi eksempler på samers tradisjonelle kunnskap om naturen og diskutere hvordan denne kunnskapen kan bidra til bærekraftig forvaltning av naturen"},{"nr":18,"tekst":"gjøre rede for hvordan fotosyntese og celleånding gir energi til alt levende gjennom karbonkretsløpet"},{"nr":19,"tekst":"bruke platetektonikkteorien til å forklare jordas utvikling over tid og gi eksempler på observasjoner som støtter teorien"},{"nr":20,"tekst":"drøfte spørsmål knyttet til seksuell og reproduktiv helse"},{"nr":21,"tekst":"sammenligne nervesystemet og hormonsystemet og beskrive hvordan rusmidler, legemidler, miljøgifter og doping påvirker signalsystemene"},{"nr":22,"tekst":"beskrive kroppens immunforsvar og hvordan vaksiner virker, og gjøre rede for hva vaksiner betyr for folkehelsen"}]'::jsonb, 3),
-  ('samfunnsfag-9', '9', 'Samfunnsfag', 'SAF01-05', 'https://www.udir.no/lk20/saf01-05/kompetansemaal-og-vurdering/kv1151', '[{"nr":1,"tekst":"bruke samfunnsfaglege metodar og digitale ressursar i eigne undersøkingar, presentere funn ved bruk av digitale verktøy og drøfte kor gyldige og relevante funna er"},{"nr":2,"tekst":"vurdere på kva måtar ulike kjelder gir informasjon om eit samfunnsfagleg tema, og reflektere over korleis algoritmar, einsretta kjelder eller mangel på kjelder kan prege forståinga vår"},{"nr":3,"tekst":"drøfte korleis framstillingar av fortida, hendingar og grupper har påverka og påverkar haldningane og handlingane til folk"},{"nr":4,"tekst":"utforske korleis teknologi har vore og framleis er ein endringsfaktor, og drøfte innverknaden teknologien har hatt og har på enkeltmenneske, samfunn og natur"},{"nr":5,"tekst":"reflektere over korleis menneske har kjempa og kjempar for endringar i samfunnet og samstundes har vore og er påverka av geografiske forhold og historisk kontekst"},{"nr":6,"tekst":"samanlikne korleis politiske, geografiske og historiske forhold påverkar levekår, busetjingsmønster og demografi i forskjellige delar av verda i dag"},{"nr":7,"tekst":"gjere greie for årsaker til og konsekvensar av sentrale historiske og notidige konfliktar og reflektere over om endringar av nokre føresetnader kunne ha hindra konfliktane"},{"nr":8,"tekst":"gjere greie for årsaker til og konsekvensar av terrorhandlingar og folkemord, som holocaust, og reflektere over korleis ekstreme haldningar og ekstreme handlingar kan førebyggjast"},{"nr":9,"tekst":"utforske og beskrive korleis menneske- og urfolksrettar og andre internasjonale avtalar og samarbeid har betydning for nasjonal politikk, livet til menneske, likestilling og likeverd"},{"nr":10,"tekst":"gjere greie for fornorsking av samane og dei nasjonale minoritetane og uretten dei har vore utsette for, og reflektere over kva konsekvensar det har hatt og har på individ- og samfunnsnivå"},{"nr":11,"tekst":"beskrive ulike dimensjonar ved berekraftig utvikling og korleis dei påverkar kvarandre, og presentere tiltak for meir berekraftige samfunn"},{"nr":12,"tekst":"vurdere korleis arbeid, inntekt og forbruk kan påverke personleg økonomi, levestandard og livskvalitet"},{"nr":13,"tekst":"reflektere over likskapar og ulikskapar i identitetar, levesett og kulturuttrykk og drøfte moglegheiter og utfordringar ved mangfald"},{"nr":14,"tekst":"utforske og reflektere over eigne digitale spor og høvet til å få sletta spora og å verne om retten ein sjølv og andre har til privatliv, personvern og opphavsrett"},{"nr":15,"tekst":"reflektere over korleis identitet, sjølvbilete og eigne grenser blir utvikla og utfordra i ulike fellesskap, og presentere forslag til korleis ein kan handtere påverknad og uønskte hendingar"},{"nr":16,"tekst":"reflektere over kva for aktørar som har makt i samfunnet i dag, og korleis desse grunngir standpunkta sine"},{"nr":17,"tekst":"utforske ulike plattformer for digital samhandling og reflektere over korleis digital deltaking og samhandling påverkar forma på og innhaldet i samfunnsdebatten"},{"nr":18,"tekst":"beskrive sentrale lover, reglar og normer og drøfte kva konsekvensar brot på desse kan ha for den enkelte og for samfunnet på kort og lang sikt"},{"nr":19,"tekst":"beskrive trekk ved det politiske systemet og velferdssamfunnet i Noreg i dag og reflektere over sentrale utfordringar"}]'::jsonb, 4),
-  ('krle-9', '9', 'KRLE', 'RLE01-04', 'https://www.udir.no/lk20/rle01-04/kompetansemaal-og-vurdering/kv1145', '[{"nr":1,"tekst":"utforske og presentere sentrale trekk ved kristendom og andre religions- og livssynstradisjoner og deres utbredelse i dag"},{"nr":2,"tekst":"utforske og drøfte hvordan kristendom og andre religioner inngår i historiske endringsprosesser globalt og nasjonalt"},{"nr":3,"tekst":"undersøke og presentere sentrale ideer fra livssynshumanisme og andre ikke-religiøse livssyn"},{"nr":4,"tekst":"utforske og presentere religiøst mangfold og religiøse praksiser utenfor etablerte religionssamfunn"},{"nr":5,"tekst":"gjøre rede for og reflektere over samenes og andre urfolks religions- og livssynstradisjoner"},{"nr":6,"tekst":"bruke og drøfte fagbegreper om religioner og livssyn"},{"nr":7,"tekst":"sammenligne og vurdere kritisk ulike kilder til kunnskap om religioner og livssyn"},{"nr":8,"tekst":"gjøre rede for og reflektere over ulike syn på kjønn og seksualitet i kristendom og andre religioner og livssyn"},{"nr":9,"tekst":"utforske og presentere hvordan elementer fra kristendom og andre religioner og livssyn kommer til uttrykk i medier og populærkultur"},{"nr":10,"tekst":"utforske og sammenligne etiske ideer fra sentrale skikkelser i religiøse og livssynsbaserte tradisjoner"},{"nr":11,"tekst":"utforske etiske ideer fra sentrale skikkelser i filosofihistorien og anvende ideene til å drøfte aktuelle etiske spørsmål"},{"nr":12,"tekst":"utforske andres perspektiv og håndtere uenighet og meningsbrytning"},{"nr":13,"tekst":"reflektere over eksistensielle spørsmål knyttet til det å vokse opp og leve i et mangfoldig og globalt samfunn"},{"nr":14,"tekst":"identifisere og drøfte etiske problemstillinger knyttet til ulike former for kommunikasjon"},{"nr":15,"tekst":"identifisere og drøfte aktuelle etiske problemstillinger knyttet til menneskerettigheter, bærekraft og fattigdom"}]'::jsonb, 5),
-  ('tysk-9', '9', 'Tysk', null, null, '[]'::jsonb, 6),
-  ('fransk-9', '9', 'Fransk', null, null, '[]'::jsonb, 7),
-  ('spansk-9', '9', 'Spansk', null, null, '[]'::jsonb, 8),
-  ('arbeidslivsfag-9', '9', 'Arbeidslivsfag', null, null, '[]'::jsonb, 9),
-  ('utdanningsvalg-9', '9', 'Utdanningsvalg', null, null, '[]'::jsonb, 10),
+  ('engelsk-fordypning-9', '9', 'Engelsk fordypning', 'ENG03-02', 'https://www.udir.no/lk20/eng03-02/kompetansemaal-og-vurdering/kv13', '[{"nr":1,"tekst":"bruke engelsk muntlig og skriftlig i digital samhandling tilpasset formål, mottaker og situasjon"},{"nr":2,"tekst":"skape ulike typer muntlige og skriftlige tekster om selvvalgte emner som presenterer, forteller eller forklarer gjennom ulike medier"},{"nr":3,"tekst":"videreutvikle egne muntlige og skriftlige tekster på bakgrunn av tilbakemeldinger"},{"nr":4,"tekst":"utforske og presentere innhold, form og formål i spill, film og musikk"},{"nr":5,"tekst":"reflektere over variasjon i tenkesett, kommunikasjonsmønstre og samhandlingsformer i den virtuelle og virkelige verden"},{"nr":6,"tekst":"skape digitale produkter som kombinerer ulike medietyper"},{"nr":7,"tekst":"utforske og sammenligne språkbruk og virkemidler i ulike medier og sammenhenger"},{"nr":8,"tekst":"utforske og reflektere over hvordan synsvinkel og avsender kan påvirke et budskap"},{"nr":9,"tekst":"presentere selvvalgte interesseområder"},{"nr":10,"tekst":"gjøre rede for egen rolle i ulike medier og reflektere kritisk over hvordan eleven framstiller seg selv og andre på nett"},{"nr":11,"tekst":"bruke kilder på en kritisk og etterrettelig måte og følge regler for personvern og opphavsrett"}]'::jsonb, 3),
+  ('naturfag-9', '9', 'Naturfag', 'NAT01-05', 'https://www.udir.no/lk20/nat01-05/kompetansemaal-og-vurdering/kv1078', '[{"nr":1,"tekst":"stille spørsmål og lage hypoteser om naturfaglige fenomener, identifisere avhengige og uavhengige variabler og samle data for å finne svar"},{"nr":2,"tekst":"analysere og bruke innsamlede data til å lage forklaringer, drøfte forklaringene i lys av relevant teori og vurdere kvaliteten på egne og andres utforskinger"},{"nr":3,"tekst":"bruke og lage modeller for å forutsi eller beskrive naturfaglige prosesser og systemer og gjøre rede for modellenes styrker og begrensninger"},{"nr":4,"tekst":"delta i risikovurderinger knyttet til forsøk og følge sikkerhetstiltakene"},{"nr":5,"tekst":"gi eksempler på dagsaktuell forskning og drøfte hvordan ny kunnskap genereres gjennom samarbeid og kritisk tilnærming til eksisterende kunnskap"},{"nr":6,"tekst":"utforske, forstå og lage teknologiske systemer som består av en sender og en mottaker"},{"nr":7,"tekst":"bruke programmering til å utforske naturfaglige fenomener"},{"nr":8,"tekst":"utforske kjemiske reaksjoner, forklare massebevaring og gjøre rede for betydninger av noen forbrenningsreaksjoner"},{"nr":9,"tekst":"bruke atommodeller og periodesystemet til å gjøre rede for egenskaper til grunnstoffer og kjemiske forbindelser"},{"nr":10,"tekst":"beskrive drivhuseffekten og gjøre rede for faktorer som kan forårsake globale klimaendringer"},{"nr":11,"tekst":"gjøre rede for energibevaring og energikvalitet og utforske ulike måter å omdanne, transportere og lagre energi på"},{"nr":12,"tekst":"drøfte hvordan energiproduksjon og energibruk kan påvirke miljøet lokalt og globalt"},{"nr":13,"tekst":"beskrive hvordan forskere har kommet fram til evolusjonsteorien og bruke denne til å forklare utvikling av biologisk mangfold"},{"nr":14,"tekst":"sammenligne celler hos ulike organismer og beskrive sammenhenger mellom oppbygning og funksjon"},{"nr":15,"tekst":"utforske sammenhenger mellom abiotiske og biotiske faktorer i et økosystem og diskutere hvordan energi og materie omdannes i kretsløp"},{"nr":16,"tekst":"gi eksempler på og drøfte aktuelle dilemmaer knyttet til utnyttelse av naturressurser og tap av biologisk mangfold"},{"nr":17,"tekst":"gi eksempler på samers tradisjonelle kunnskap om naturen og diskutere hvordan denne kunnskapen kan bidra til bærekraftig forvaltning av naturen"},{"nr":18,"tekst":"gjøre rede for hvordan fotosyntese og celleånding gir energi til alt levende gjennom karbonkretsløpet"},{"nr":19,"tekst":"bruke platetektonikkteorien til å forklare jordas utvikling over tid og gi eksempler på observasjoner som støtter teorien"},{"nr":20,"tekst":"drøfte spørsmål knyttet til seksuell og reproduktiv helse"},{"nr":21,"tekst":"sammenligne nervesystemet og hormonsystemet og beskrive hvordan rusmidler, legemidler, miljøgifter og doping påvirker signalsystemene"},{"nr":22,"tekst":"beskrive kroppens immunforsvar og hvordan vaksiner virker, og gjøre rede for hva vaksiner betyr for folkehelsen"}]'::jsonb, 4),
+  ('samfunnsfag-9', '9', 'Samfunnsfag', 'SAF01-05', 'https://www.udir.no/lk20/saf01-05/kompetansemaal-og-vurdering/kv1151', '[{"nr":1,"tekst":"bruke samfunnsfaglege metodar og digitale ressursar i eigne undersøkingar, presentere funn ved bruk av digitale verktøy og drøfte kor gyldige og relevante funna er"},{"nr":2,"tekst":"vurdere på kva måtar ulike kjelder gir informasjon om eit samfunnsfagleg tema, og reflektere over korleis algoritmar, einsretta kjelder eller mangel på kjelder kan prege forståinga vår"},{"nr":3,"tekst":"drøfte korleis framstillingar av fortida, hendingar og grupper har påverka og påverkar haldningane og handlingane til folk"},{"nr":4,"tekst":"utforske korleis teknologi har vore og framleis er ein endringsfaktor, og drøfte innverknaden teknologien har hatt og har på enkeltmenneske, samfunn og natur"},{"nr":5,"tekst":"reflektere over korleis menneske har kjempa og kjempar for endringar i samfunnet og samstundes har vore og er påverka av geografiske forhold og historisk kontekst"},{"nr":6,"tekst":"samanlikne korleis politiske, geografiske og historiske forhold påverkar levekår, busetjingsmønster og demografi i forskjellige delar av verda i dag"},{"nr":7,"tekst":"gjere greie for årsaker til og konsekvensar av sentrale historiske og notidige konfliktar og reflektere over om endringar av nokre føresetnader kunne ha hindra konfliktane"},{"nr":8,"tekst":"gjere greie for årsaker til og konsekvensar av terrorhandlingar og folkemord, som holocaust, og reflektere over korleis ekstreme haldningar og ekstreme handlingar kan førebyggjast"},{"nr":9,"tekst":"utforske og beskrive korleis menneske- og urfolksrettar og andre internasjonale avtalar og samarbeid har betydning for nasjonal politikk, livet til menneske, likestilling og likeverd"},{"nr":10,"tekst":"gjere greie for fornorsking av samane og dei nasjonale minoritetane og uretten dei har vore utsette for, og reflektere over kva konsekvensar det har hatt og har på individ- og samfunnsnivå"},{"nr":11,"tekst":"beskrive ulike dimensjonar ved berekraftig utvikling og korleis dei påverkar kvarandre, og presentere tiltak for meir berekraftige samfunn"},{"nr":12,"tekst":"vurdere korleis arbeid, inntekt og forbruk kan påverke personleg økonomi, levestandard og livskvalitet"},{"nr":13,"tekst":"reflektere over likskapar og ulikskapar i identitetar, levesett og kulturuttrykk og drøfte moglegheiter og utfordringar ved mangfald"},{"nr":14,"tekst":"utforske og reflektere over eigne digitale spor og høvet til å få sletta spora og å verne om retten ein sjølv og andre har til privatliv, personvern og opphavsrett"},{"nr":15,"tekst":"reflektere over korleis identitet, sjølvbilete og eigne grenser blir utvikla og utfordra i ulike fellesskap, og presentere forslag til korleis ein kan handtere påverknad og uønskte hendingar"},{"nr":16,"tekst":"reflektere over kva for aktørar som har makt i samfunnet i dag, og korleis desse grunngir standpunkta sine"},{"nr":17,"tekst":"utforske ulike plattformer for digital samhandling og reflektere over korleis digital deltaking og samhandling påverkar forma på og innhaldet i samfunnsdebatten"},{"nr":18,"tekst":"beskrive sentrale lover, reglar og normer og drøfte kva konsekvensar brot på desse kan ha for den enkelte og for samfunnet på kort og lang sikt"},{"nr":19,"tekst":"beskrive trekk ved det politiske systemet og velferdssamfunnet i Noreg i dag og reflektere over sentrale utfordringar"}]'::jsonb, 5),
+  ('krle-9', '9', 'KRLE', 'RLE01-04', 'https://www.udir.no/lk20/rle01-04/kompetansemaal-og-vurdering/kv1145', '[{"nr":1,"tekst":"utforske og presentere sentrale trekk ved kristendom og andre religions- og livssynstradisjoner og deres utbredelse i dag"},{"nr":2,"tekst":"utforske og drøfte hvordan kristendom og andre religioner inngår i historiske endringsprosesser globalt og nasjonalt"},{"nr":3,"tekst":"undersøke og presentere sentrale ideer fra livssynshumanisme og andre ikke-religiøse livssyn"},{"nr":4,"tekst":"utforske og presentere religiøst mangfold og religiøse praksiser utenfor etablerte religionssamfunn"},{"nr":5,"tekst":"gjøre rede for og reflektere over samenes og andre urfolks religions- og livssynstradisjoner"},{"nr":6,"tekst":"bruke og drøfte fagbegreper om religioner og livssyn"},{"nr":7,"tekst":"sammenligne og vurdere kritisk ulike kilder til kunnskap om religioner og livssyn"},{"nr":8,"tekst":"gjøre rede for og reflektere over ulike syn på kjønn og seksualitet i kristendom og andre religioner og livssyn"},{"nr":9,"tekst":"utforske og presentere hvordan elementer fra kristendom og andre religioner og livssyn kommer til uttrykk i medier og populærkultur"},{"nr":10,"tekst":"utforske og sammenligne etiske ideer fra sentrale skikkelser i religiøse og livssynsbaserte tradisjoner"},{"nr":11,"tekst":"utforske etiske ideer fra sentrale skikkelser i filosofihistorien og anvende ideene til å drøfte aktuelle etiske spørsmål"},{"nr":12,"tekst":"utforske andres perspektiv og håndtere uenighet og meningsbrytning"},{"nr":13,"tekst":"reflektere over eksistensielle spørsmål knyttet til det å vokse opp og leve i et mangfoldig og globalt samfunn"},{"nr":14,"tekst":"identifisere og drøfte etiske problemstillinger knyttet til ulike former for kommunikasjon"},{"nr":15,"tekst":"identifisere og drøfte aktuelle etiske problemstillinger knyttet til menneskerettigheter, bærekraft og fattigdom"}]'::jsonb, 6),
+  ('tysk-9', '9', 'Tysk', null, null, '[]'::jsonb, 7),
+  ('fransk-9', '9', 'Fransk', null, null, '[]'::jsonb, 8),
+  ('spansk-9', '9', 'Spansk', null, null, '[]'::jsonb, 9),
+  ('arbeidslivsfag-9', '9', 'Arbeidslivsfag', null, null, '[]'::jsonb, 10),
+  ('utdanningsvalg-9', '9', 'Utdanningsvalg', null, null, '[]'::jsonb, 11),
   ('norsk-10', '10', 'Norsk', 'NOR01-08', 'https://www.udir.no/lk20/nor01-08/kompetansemaal-og-vurdering/kv1110', '[{"nr":1,"tekst":"lese skjønnlitteratur og sakprosa på bokmål og nynorsk og i oversettelse fra samiske og andre språk, og reflektere over tekstenes formål, innhold, sjangertrekk og virkemidler"},{"nr":2,"tekst":"sammenligne og tolke romaner, noveller, lyrikk og andre tekster ut fra historisk kontekst og egen samtid"},{"nr":3,"tekst":"beskrive og reflektere over egen bruk av lesestrategier i lesing av skjønnlitteratur og sakprosa"},{"nr":4,"tekst":"lytte til og lese tekster på svensk og dansk og gjøre rede for innhold og språklige trekk"},{"nr":5,"tekst":"utforske og reflektere over hvordan tekster framstiller unges livssituasjon"},{"nr":6,"tekst":"gjenkjenne og bruke språklige virkemidler og retoriske appellformer"},{"nr":7,"tekst":"bruke kilder på en kritisk måte, markere sitater og vise til kilder på en etterrettelig måte i egne tekster"},{"nr":8,"tekst":"utforske og vurdere hvordan digitale medier påvirker og endrer språk og kommunikasjon"},{"nr":9,"tekst":"bruke fagspråk og argumentere saklig i diskusjoner, samtaler, muntlige presentasjoner og skriftlige framstillinger om norskfaglige og tverrfaglige temaer"},{"nr":10,"tekst":"informere, fortelle, argumentere og reflektere i ulike muntlige og skriftlige sjangre og for ulike formål tilpasset mottaker og medium"},{"nr":11,"tekst":"skrive tekster med funksjonell tekstbinding og riktig tegnsetting og mestre rettskriving og ordbøying på hovedmål og sidemål"},{"nr":12,"tekst":"bruke fagspråk og kunnskap om grammatikk, tekststruktur og sjanger i samtale om og bearbeiding av tekster"},{"nr":13,"tekst":"uttrykke seg i ulike sjangre og eksperimentere med sjangre på kreative måter"},{"nr":14,"tekst":"lage sammensatte tekster og begrunne valg av uttrykksformer"},{"nr":15,"tekst":"forklare den historiske bakgrunnen for bokmål og nynorsk og reflektere over statusen til de offisielle språkene i Norge i dag"},{"nr":16,"tekst":"utforske språklig variasjon og mangfold i Norge og reflektere over holdninger til ulike språk og talespråkvarianter"}]'::jsonb, 0),
   ('matematikk-10', '10', 'Matematikk', 'MAT01-06', 'https://www.udir.no/lk20/mat01-06/kompetansemaal-og-vurdering/kv1029', '[{"nr":1,"tekst":"bruke reknereglar og generalisere samanhengar algebraisk"},{"nr":2,"tekst":"utforske kvadratsetningane geometrisk og algebraisk og bruke kvadratsetningane som reknestrategiar"},{"nr":3,"tekst":"lage, løyse og forklare likningssett knytte til praktiske situasjonar"},{"nr":4,"tekst":"utforske og samanlikne eigenskapar ved lineære funksjonar, eksponentialfunksjonar, brøkfunksjonar og andregradsfunksjonar ved å bruke digitale verktøy"},{"nr":5,"tekst":"forklare omgrepet endring per eining og rekne ut stigningstalet til lineære funksjonar"},{"nr":6,"tekst":"utforske og forklare samanhengen mellom konstant prosentvis endring, vekstfaktor og eksponentialfunksjonar"},{"nr":7,"tekst":"hente ut og tolke relevant informasjon og reflektere over moglege konsekvensar ved kjøp og sal, renter på sparing, lån og kredittkjøp"},{"nr":8,"tekst":"planleggje, utføre og presentere eit utforskande arbeid knytt til personleg økonomi"},{"nr":9,"tekst":"modellere situasjonar, presentere resultata og vurdere kor gyldige modellane er"},{"nr":10,"tekst":"utforske matematiske eigenskapar og samanhengar ved å bruke programmering"},{"nr":11,"tekst":"lese og forklare tekstbasert programkode i Python"}]'::jsonb, 1),
   ('engelsk-10', '10', 'Engelsk', 'ENG01-06', 'https://www.udir.no/lk20/eng01-06/kompetansemaal-og-vurdering/kv1033', '[{"nr":1,"tekst":"bruke varierte strategier i språklæring, tekstskaping og kommunikasjon"},{"nr":2,"tekst":"bruke ulike digitale ressurser og andre hjelpemidler i språklæring, tekstskaping og samhandling"},{"nr":3,"tekst":"bruke sentrale mønstre for uttale i kommunikasjon"},{"nr":4,"tekst":"lytte til og forstå ord og uttrykk i varianter av engelsk"},{"nr":5,"tekst":"uttrykke seg med flyt og sammenheng med et variert ordforråd og idiomatiske uttrykk tilpasset formål, mottaker og situasjon"},{"nr":6,"tekst":"stille spørsmål og følge opp innspill i samtaler om ulike emner tilpasset ulike formål, mottakere og situasjoner"},{"nr":7,"tekst":"utforske og beskrive noen språklige likheter og ulikheter mellom engelsk og andre språk eleven kjenner til, og bruke dette i egen språklæring"},{"nr":8,"tekst":"bruke kunnskap om ordklasser og setningsstruktur i arbeid med egne muntlige og skriftlige tekster"},{"nr":9,"tekst":"følge regler for rettskriving, ordbøying, setningsstruktur og tekststruktur"},{"nr":10,"tekst":"lese, diskutere og videreformidle innhold fra ulike typer tekster, inkludert selvvalgte tekster"},{"nr":11,"tekst":"lese, tolke og reflektere over engelskspråklig skjønnlitteratur, inkludert ungdomslitteratur"},{"nr":12,"tekst":"lese sakprosatekster og vurdere hvor pålitelige kildene er"},{"nr":13,"tekst":"bruke kilder på en kritisk og etterrettelig måte"},{"nr":14,"tekst":"skrive formelle og uformelle tekster, inkludert sammensatte, med struktur og sammenheng som beskriver, forteller og reflekterer tilpasset formål, mottaker og situasjon"},{"nr":15,"tekst":"bearbeide egne tekster ut fra tilbakemeldinger og kunnskap om språk"},{"nr":16,"tekst":"beskrive og reflektere over rollen engelsk har i Norge og i verden"},{"nr":17,"tekst":"utforske og reflektere over situasjonen til urfolk i den engelskspråklige verden og i Norge"},{"nr":18,"tekst":"utforske og beskrive levemåter, tenkesett, kommunikasjonsmønstre og mangfold i den engelskspråklige verden"},{"nr":19,"tekst":"utforske og videreformidle innhold i engelskspråklige kulturelle uttrykksformer fra ulike medier knyttet til egne interesser"}]'::jsonb, 2),
-  ('naturfag-10', '10', 'Naturfag', 'NAT01-05', 'https://www.udir.no/lk20/nat01-05/kompetansemaal-og-vurdering/kv1078', '[{"nr":1,"tekst":"stille spørsmål og lage hypoteser om naturfaglige fenomener, identifisere avhengige og uavhengige variabler og samle data for å finne svar"},{"nr":2,"tekst":"analysere og bruke innsamlede data til å lage forklaringer, drøfte forklaringene i lys av relevant teori og vurdere kvaliteten på egne og andres utforskinger"},{"nr":3,"tekst":"bruke og lage modeller for å forutsi eller beskrive naturfaglige prosesser og systemer og gjøre rede for modellenes styrker og begrensninger"},{"nr":4,"tekst":"delta i risikovurderinger knyttet til forsøk og følge sikkerhetstiltakene"},{"nr":5,"tekst":"gi eksempler på dagsaktuell forskning og drøfte hvordan ny kunnskap genereres gjennom samarbeid og kritisk tilnærming til eksisterende kunnskap"},{"nr":6,"tekst":"utforske, forstå og lage teknologiske systemer som består av en sender og en mottaker"},{"nr":7,"tekst":"bruke programmering til å utforske naturfaglige fenomener"},{"nr":8,"tekst":"utforske kjemiske reaksjoner, forklare massebevaring og gjøre rede for betydninger av noen forbrenningsreaksjoner"},{"nr":9,"tekst":"bruke atommodeller og periodesystemet til å gjøre rede for egenskaper til grunnstoffer og kjemiske forbindelser"},{"nr":10,"tekst":"beskrive drivhuseffekten og gjøre rede for faktorer som kan forårsake globale klimaendringer"},{"nr":11,"tekst":"gjøre rede for energibevaring og energikvalitet og utforske ulike måter å omdanne, transportere og lagre energi på"},{"nr":12,"tekst":"drøfte hvordan energiproduksjon og energibruk kan påvirke miljøet lokalt og globalt"},{"nr":13,"tekst":"beskrive hvordan forskere har kommet fram til evolusjonsteorien og bruke denne til å forklare utvikling av biologisk mangfold"},{"nr":14,"tekst":"sammenligne celler hos ulike organismer og beskrive sammenhenger mellom oppbygning og funksjon"},{"nr":15,"tekst":"utforske sammenhenger mellom abiotiske og biotiske faktorer i et økosystem og diskutere hvordan energi og materie omdannes i kretsløp"},{"nr":16,"tekst":"gi eksempler på og drøfte aktuelle dilemmaer knyttet til utnyttelse av naturressurser og tap av biologisk mangfold"},{"nr":17,"tekst":"gi eksempler på samers tradisjonelle kunnskap om naturen og diskutere hvordan denne kunnskapen kan bidra til bærekraftig forvaltning av naturen"},{"nr":18,"tekst":"gjøre rede for hvordan fotosyntese og celleånding gir energi til alt levende gjennom karbonkretsløpet"},{"nr":19,"tekst":"bruke platetektonikkteorien til å forklare jordas utvikling over tid og gi eksempler på observasjoner som støtter teorien"},{"nr":20,"tekst":"drøfte spørsmål knyttet til seksuell og reproduktiv helse"},{"nr":21,"tekst":"sammenligne nervesystemet og hormonsystemet og beskrive hvordan rusmidler, legemidler, miljøgifter og doping påvirker signalsystemene"},{"nr":22,"tekst":"beskrive kroppens immunforsvar og hvordan vaksiner virker, og gjøre rede for hva vaksiner betyr for folkehelsen"}]'::jsonb, 3),
-  ('samfunnsfag-10', '10', 'Samfunnsfag', 'SAF01-05', 'https://www.udir.no/lk20/saf01-05/kompetansemaal-og-vurdering/kv1151', '[{"nr":1,"tekst":"bruke samfunnsfaglege metodar og digitale ressursar i eigne undersøkingar, presentere funn ved bruk av digitale verktøy og drøfte kor gyldige og relevante funna er"},{"nr":2,"tekst":"vurdere på kva måtar ulike kjelder gir informasjon om eit samfunnsfagleg tema, og reflektere over korleis algoritmar, einsretta kjelder eller mangel på kjelder kan prege forståinga vår"},{"nr":3,"tekst":"drøfte korleis framstillingar av fortida, hendingar og grupper har påverka og påverkar haldningane og handlingane til folk"},{"nr":4,"tekst":"utforske korleis teknologi har vore og framleis er ein endringsfaktor, og drøfte innverknaden teknologien har hatt og har på enkeltmenneske, samfunn og natur"},{"nr":5,"tekst":"reflektere over korleis menneske har kjempa og kjempar for endringar i samfunnet og samstundes har vore og er påverka av geografiske forhold og historisk kontekst"},{"nr":6,"tekst":"samanlikne korleis politiske, geografiske og historiske forhold påverkar levekår, busetjingsmønster og demografi i forskjellige delar av verda i dag"},{"nr":7,"tekst":"gjere greie for årsaker til og konsekvensar av sentrale historiske og notidige konfliktar og reflektere over om endringar av nokre føresetnader kunne ha hindra konfliktane"},{"nr":8,"tekst":"gjere greie for årsaker til og konsekvensar av terrorhandlingar og folkemord, som holocaust, og reflektere over korleis ekstreme haldningar og ekstreme handlingar kan førebyggjast"},{"nr":9,"tekst":"utforske og beskrive korleis menneske- og urfolksrettar og andre internasjonale avtalar og samarbeid har betydning for nasjonal politikk, livet til menneske, likestilling og likeverd"},{"nr":10,"tekst":"gjere greie for fornorsking av samane og dei nasjonale minoritetane og uretten dei har vore utsette for, og reflektere over kva konsekvensar det har hatt og har på individ- og samfunnsnivå"},{"nr":11,"tekst":"beskrive ulike dimensjonar ved berekraftig utvikling og korleis dei påverkar kvarandre, og presentere tiltak for meir berekraftige samfunn"},{"nr":12,"tekst":"vurdere korleis arbeid, inntekt og forbruk kan påverke personleg økonomi, levestandard og livskvalitet"},{"nr":13,"tekst":"reflektere over likskapar og ulikskapar i identitetar, levesett og kulturuttrykk og drøfte moglegheiter og utfordringar ved mangfald"},{"nr":14,"tekst":"utforske og reflektere over eigne digitale spor og høvet til å få sletta spora og å verne om retten ein sjølv og andre har til privatliv, personvern og opphavsrett"},{"nr":15,"tekst":"reflektere over korleis identitet, sjølvbilete og eigne grenser blir utvikla og utfordra i ulike fellesskap, og presentere forslag til korleis ein kan handtere påverknad og uønskte hendingar"},{"nr":16,"tekst":"reflektere over kva for aktørar som har makt i samfunnet i dag, og korleis desse grunngir standpunkta sine"},{"nr":17,"tekst":"utforske ulike plattformer for digital samhandling og reflektere over korleis digital deltaking og samhandling påverkar forma på og innhaldet i samfunnsdebatten"},{"nr":18,"tekst":"beskrive sentrale lover, reglar og normer og drøfte kva konsekvensar brot på desse kan ha for den enkelte og for samfunnet på kort og lang sikt"},{"nr":19,"tekst":"beskrive trekk ved det politiske systemet og velferdssamfunnet i Noreg i dag og reflektere over sentrale utfordringar"}]'::jsonb, 4),
-  ('krle-10', '10', 'KRLE', 'RLE01-04', 'https://www.udir.no/lk20/rle01-04/kompetansemaal-og-vurdering/kv1145', '[{"nr":1,"tekst":"utforske og presentere sentrale trekk ved kristendom og andre religions- og livssynstradisjoner og deres utbredelse i dag"},{"nr":2,"tekst":"utforske og drøfte hvordan kristendom og andre religioner inngår i historiske endringsprosesser globalt og nasjonalt"},{"nr":3,"tekst":"undersøke og presentere sentrale ideer fra livssynshumanisme og andre ikke-religiøse livssyn"},{"nr":4,"tekst":"utforske og presentere religiøst mangfold og religiøse praksiser utenfor etablerte religionssamfunn"},{"nr":5,"tekst":"gjøre rede for og reflektere over samenes og andre urfolks religions- og livssynstradisjoner"},{"nr":6,"tekst":"bruke og drøfte fagbegreper om religioner og livssyn"},{"nr":7,"tekst":"sammenligne og vurdere kritisk ulike kilder til kunnskap om religioner og livssyn"},{"nr":8,"tekst":"gjøre rede for og reflektere over ulike syn på kjønn og seksualitet i kristendom og andre religioner og livssyn"},{"nr":9,"tekst":"utforske og presentere hvordan elementer fra kristendom og andre religioner og livssyn kommer til uttrykk i medier og populærkultur"},{"nr":10,"tekst":"utforske og sammenligne etiske ideer fra sentrale skikkelser i religiøse og livssynsbaserte tradisjoner"},{"nr":11,"tekst":"utforske etiske ideer fra sentrale skikkelser i filosofihistorien og anvende ideene til å drøfte aktuelle etiske spørsmål"},{"nr":12,"tekst":"utforske andres perspektiv og håndtere uenighet og meningsbrytning"},{"nr":13,"tekst":"reflektere over eksistensielle spørsmål knyttet til det å vokse opp og leve i et mangfoldig og globalt samfunn"},{"nr":14,"tekst":"identifisere og drøfte etiske problemstillinger knyttet til ulike former for kommunikasjon"},{"nr":15,"tekst":"identifisere og drøfte aktuelle etiske problemstillinger knyttet til menneskerettigheter, bærekraft og fattigdom"}]'::jsonb, 5),
-  ('tysk-10', '10', 'Tysk', null, null, '[]'::jsonb, 6),
-  ('fransk-10', '10', 'Fransk', null, null, '[]'::jsonb, 7),
-  ('spansk-10', '10', 'Spansk', null, null, '[]'::jsonb, 8),
-  ('arbeidslivsfag-10', '10', 'Arbeidslivsfag', null, null, '[]'::jsonb, 9),
-  ('utdanningsvalg-10', '10', 'Utdanningsvalg', null, null, '[]'::jsonb, 10),
+  ('engelsk-fordypning-10', '10', 'Engelsk fordypning', 'ENG03-02', 'https://www.udir.no/lk20/eng03-02/kompetansemaal-og-vurdering/kv13', '[{"nr":1,"tekst":"bruke engelsk muntlig og skriftlig i digital samhandling tilpasset formål, mottaker og situasjon"},{"nr":2,"tekst":"skape ulike typer muntlige og skriftlige tekster om selvvalgte emner som presenterer, forteller eller forklarer gjennom ulike medier"},{"nr":3,"tekst":"videreutvikle egne muntlige og skriftlige tekster på bakgrunn av tilbakemeldinger"},{"nr":4,"tekst":"utforske og presentere innhold, form og formål i spill, film og musikk"},{"nr":5,"tekst":"reflektere over variasjon i tenkesett, kommunikasjonsmønstre og samhandlingsformer i den virtuelle og virkelige verden"},{"nr":6,"tekst":"skape digitale produkter som kombinerer ulike medietyper"},{"nr":7,"tekst":"utforske og sammenligne språkbruk og virkemidler i ulike medier og sammenhenger"},{"nr":8,"tekst":"utforske og reflektere over hvordan synsvinkel og avsender kan påvirke et budskap"},{"nr":9,"tekst":"presentere selvvalgte interesseområder"},{"nr":10,"tekst":"gjøre rede for egen rolle i ulike medier og reflektere kritisk over hvordan eleven framstiller seg selv og andre på nett"},{"nr":11,"tekst":"bruke kilder på en kritisk og etterrettelig måte og følge regler for personvern og opphavsrett"}]'::jsonb, 3),
+  ('naturfag-10', '10', 'Naturfag', 'NAT01-05', 'https://www.udir.no/lk20/nat01-05/kompetansemaal-og-vurdering/kv1078', '[{"nr":1,"tekst":"stille spørsmål og lage hypoteser om naturfaglige fenomener, identifisere avhengige og uavhengige variabler og samle data for å finne svar"},{"nr":2,"tekst":"analysere og bruke innsamlede data til å lage forklaringer, drøfte forklaringene i lys av relevant teori og vurdere kvaliteten på egne og andres utforskinger"},{"nr":3,"tekst":"bruke og lage modeller for å forutsi eller beskrive naturfaglige prosesser og systemer og gjøre rede for modellenes styrker og begrensninger"},{"nr":4,"tekst":"delta i risikovurderinger knyttet til forsøk og følge sikkerhetstiltakene"},{"nr":5,"tekst":"gi eksempler på dagsaktuell forskning og drøfte hvordan ny kunnskap genereres gjennom samarbeid og kritisk tilnærming til eksisterende kunnskap"},{"nr":6,"tekst":"utforske, forstå og lage teknologiske systemer som består av en sender og en mottaker"},{"nr":7,"tekst":"bruke programmering til å utforske naturfaglige fenomener"},{"nr":8,"tekst":"utforske kjemiske reaksjoner, forklare massebevaring og gjøre rede for betydninger av noen forbrenningsreaksjoner"},{"nr":9,"tekst":"bruke atommodeller og periodesystemet til å gjøre rede for egenskaper til grunnstoffer og kjemiske forbindelser"},{"nr":10,"tekst":"beskrive drivhuseffekten og gjøre rede for faktorer som kan forårsake globale klimaendringer"},{"nr":11,"tekst":"gjøre rede for energibevaring og energikvalitet og utforske ulike måter å omdanne, transportere og lagre energi på"},{"nr":12,"tekst":"drøfte hvordan energiproduksjon og energibruk kan påvirke miljøet lokalt og globalt"},{"nr":13,"tekst":"beskrive hvordan forskere har kommet fram til evolusjonsteorien og bruke denne til å forklare utvikling av biologisk mangfold"},{"nr":14,"tekst":"sammenligne celler hos ulike organismer og beskrive sammenhenger mellom oppbygning og funksjon"},{"nr":15,"tekst":"utforske sammenhenger mellom abiotiske og biotiske faktorer i et økosystem og diskutere hvordan energi og materie omdannes i kretsløp"},{"nr":16,"tekst":"gi eksempler på og drøfte aktuelle dilemmaer knyttet til utnyttelse av naturressurser og tap av biologisk mangfold"},{"nr":17,"tekst":"gi eksempler på samers tradisjonelle kunnskap om naturen og diskutere hvordan denne kunnskapen kan bidra til bærekraftig forvaltning av naturen"},{"nr":18,"tekst":"gjøre rede for hvordan fotosyntese og celleånding gir energi til alt levende gjennom karbonkretsløpet"},{"nr":19,"tekst":"bruke platetektonikkteorien til å forklare jordas utvikling over tid og gi eksempler på observasjoner som støtter teorien"},{"nr":20,"tekst":"drøfte spørsmål knyttet til seksuell og reproduktiv helse"},{"nr":21,"tekst":"sammenligne nervesystemet og hormonsystemet og beskrive hvordan rusmidler, legemidler, miljøgifter og doping påvirker signalsystemene"},{"nr":22,"tekst":"beskrive kroppens immunforsvar og hvordan vaksiner virker, og gjøre rede for hva vaksiner betyr for folkehelsen"}]'::jsonb, 4),
+  ('samfunnsfag-10', '10', 'Samfunnsfag', 'SAF01-05', 'https://www.udir.no/lk20/saf01-05/kompetansemaal-og-vurdering/kv1151', '[{"nr":1,"tekst":"bruke samfunnsfaglege metodar og digitale ressursar i eigne undersøkingar, presentere funn ved bruk av digitale verktøy og drøfte kor gyldige og relevante funna er"},{"nr":2,"tekst":"vurdere på kva måtar ulike kjelder gir informasjon om eit samfunnsfagleg tema, og reflektere over korleis algoritmar, einsretta kjelder eller mangel på kjelder kan prege forståinga vår"},{"nr":3,"tekst":"drøfte korleis framstillingar av fortida, hendingar og grupper har påverka og påverkar haldningane og handlingane til folk"},{"nr":4,"tekst":"utforske korleis teknologi har vore og framleis er ein endringsfaktor, og drøfte innverknaden teknologien har hatt og har på enkeltmenneske, samfunn og natur"},{"nr":5,"tekst":"reflektere over korleis menneske har kjempa og kjempar for endringar i samfunnet og samstundes har vore og er påverka av geografiske forhold og historisk kontekst"},{"nr":6,"tekst":"samanlikne korleis politiske, geografiske og historiske forhold påverkar levekår, busetjingsmønster og demografi i forskjellige delar av verda i dag"},{"nr":7,"tekst":"gjere greie for årsaker til og konsekvensar av sentrale historiske og notidige konfliktar og reflektere over om endringar av nokre føresetnader kunne ha hindra konfliktane"},{"nr":8,"tekst":"gjere greie for årsaker til og konsekvensar av terrorhandlingar og folkemord, som holocaust, og reflektere over korleis ekstreme haldningar og ekstreme handlingar kan førebyggjast"},{"nr":9,"tekst":"utforske og beskrive korleis menneske- og urfolksrettar og andre internasjonale avtalar og samarbeid har betydning for nasjonal politikk, livet til menneske, likestilling og likeverd"},{"nr":10,"tekst":"gjere greie for fornorsking av samane og dei nasjonale minoritetane og uretten dei har vore utsette for, og reflektere over kva konsekvensar det har hatt og har på individ- og samfunnsnivå"},{"nr":11,"tekst":"beskrive ulike dimensjonar ved berekraftig utvikling og korleis dei påverkar kvarandre, og presentere tiltak for meir berekraftige samfunn"},{"nr":12,"tekst":"vurdere korleis arbeid, inntekt og forbruk kan påverke personleg økonomi, levestandard og livskvalitet"},{"nr":13,"tekst":"reflektere over likskapar og ulikskapar i identitetar, levesett og kulturuttrykk og drøfte moglegheiter og utfordringar ved mangfald"},{"nr":14,"tekst":"utforske og reflektere over eigne digitale spor og høvet til å få sletta spora og å verne om retten ein sjølv og andre har til privatliv, personvern og opphavsrett"},{"nr":15,"tekst":"reflektere over korleis identitet, sjølvbilete og eigne grenser blir utvikla og utfordra i ulike fellesskap, og presentere forslag til korleis ein kan handtere påverknad og uønskte hendingar"},{"nr":16,"tekst":"reflektere over kva for aktørar som har makt i samfunnet i dag, og korleis desse grunngir standpunkta sine"},{"nr":17,"tekst":"utforske ulike plattformer for digital samhandling og reflektere over korleis digital deltaking og samhandling påverkar forma på og innhaldet i samfunnsdebatten"},{"nr":18,"tekst":"beskrive sentrale lover, reglar og normer og drøfte kva konsekvensar brot på desse kan ha for den enkelte og for samfunnet på kort og lang sikt"},{"nr":19,"tekst":"beskrive trekk ved det politiske systemet og velferdssamfunnet i Noreg i dag og reflektere over sentrale utfordringar"}]'::jsonb, 5),
+  ('krle-10', '10', 'KRLE', 'RLE01-04', 'https://www.udir.no/lk20/rle01-04/kompetansemaal-og-vurdering/kv1145', '[{"nr":1,"tekst":"utforske og presentere sentrale trekk ved kristendom og andre religions- og livssynstradisjoner og deres utbredelse i dag"},{"nr":2,"tekst":"utforske og drøfte hvordan kristendom og andre religioner inngår i historiske endringsprosesser globalt og nasjonalt"},{"nr":3,"tekst":"undersøke og presentere sentrale ideer fra livssynshumanisme og andre ikke-religiøse livssyn"},{"nr":4,"tekst":"utforske og presentere religiøst mangfold og religiøse praksiser utenfor etablerte religionssamfunn"},{"nr":5,"tekst":"gjøre rede for og reflektere over samenes og andre urfolks religions- og livssynstradisjoner"},{"nr":6,"tekst":"bruke og drøfte fagbegreper om religioner og livssyn"},{"nr":7,"tekst":"sammenligne og vurdere kritisk ulike kilder til kunnskap om religioner og livssyn"},{"nr":8,"tekst":"gjøre rede for og reflektere over ulike syn på kjønn og seksualitet i kristendom og andre religioner og livssyn"},{"nr":9,"tekst":"utforske og presentere hvordan elementer fra kristendom og andre religioner og livssyn kommer til uttrykk i medier og populærkultur"},{"nr":10,"tekst":"utforske og sammenligne etiske ideer fra sentrale skikkelser i religiøse og livssynsbaserte tradisjoner"},{"nr":11,"tekst":"utforske etiske ideer fra sentrale skikkelser i filosofihistorien og anvende ideene til å drøfte aktuelle etiske spørsmål"},{"nr":12,"tekst":"utforske andres perspektiv og håndtere uenighet og meningsbrytning"},{"nr":13,"tekst":"reflektere over eksistensielle spørsmål knyttet til det å vokse opp og leve i et mangfoldig og globalt samfunn"},{"nr":14,"tekst":"identifisere og drøfte etiske problemstillinger knyttet til ulike former for kommunikasjon"},{"nr":15,"tekst":"identifisere og drøfte aktuelle etiske problemstillinger knyttet til menneskerettigheter, bærekraft og fattigdom"}]'::jsonb, 6),
+  ('tysk-10', '10', 'Tysk', null, null, '[]'::jsonb, 7),
+  ('fransk-10', '10', 'Fransk', null, null, '[]'::jsonb, 8),
+  ('spansk-10', '10', 'Spansk', null, null, '[]'::jsonb, 9),
+  ('arbeidslivsfag-10', '10', 'Arbeidslivsfag', null, null, '[]'::jsonb, 10),
+  ('utdanningsvalg-10', '10', 'Utdanningsvalg', null, null, '[]'::jsonb, 11),
   ('norsk-vg1', 'vg1', 'Norsk', null, null, '[]'::jsonb, 0),
   ('matematikk-1p', 'vg1', 'Matematikk 1P', null, null, '[]'::jsonb, 1),
   ('matematikk-1t', 'vg1', 'Matematikk 1T', null, null, '[]'::jsonb, 2),
@@ -55,24 +58,27 @@ insert into public.fag (id, trinn_id, navn, lareplan_kode, lareplan_url, kompeta
   ('tysk-vg1', 'vg1', 'Tysk', null, null, '[]'::jsonb, 7),
   ('fransk-vg1', 'vg1', 'Fransk', null, null, '[]'::jsonb, 8),
   ('spansk-vg1', 'vg1', 'Spansk', null, null, '[]'::jsonb, 9),
+  ('kinesisk-vg1', 'vg1', 'Kinesisk', null, null, '[]'::jsonb, 10),
   ('norsk-vg2', 'vg2', 'Norsk', null, null, '[]'::jsonb, 0),
   ('historie-vg2', 'vg2', 'Historie', null, null, '[]'::jsonb, 1),
   ('tysk-vg2', 'vg2', 'Tysk', null, null, '[]'::jsonb, 2),
   ('fransk-vg2', 'vg2', 'Fransk', null, null, '[]'::jsonb, 3),
   ('spansk-vg2', 'vg2', 'Spansk', null, null, '[]'::jsonb, 4),
-  ('kjemi-1', 'vg2', 'Kjemi 1', 'KJE01-02', 'https://www.udir.no/lk20/kje01-02/kompetansemaal-og-vurdering/kv532', '[{"nr":1,"kort":"Kjemisk terminologi og navnsetting","tekst":"forstå og bruke kjemisk terminologi og regler for navnsetting i faglig kommunikasjon"},{"nr":2,"kort":"Forsøk, usikkerhet og feilkilder","tekst":"planlegge og gjennomføre forsøk, estimere usikkerhet og vurdere feilkilder, presentere resultater og argumentere for gyldigheten av resultater og konklusjoner"},{"nr":3,"kort":"Sikkerhetsdatablad og HMS","tekst":"bruke informasjon fra sikkerhetsdatablad til å gjøre vurderinger knyttet til helse, miljø og sikkerhet i praktisk arbeid"},{"nr":4,"kort":"Data, simuleringer og beregninger","tekst":"bruke data, simuleringer og beregninger i tolkninger og til å trekke konklusjoner"},{"nr":5,"kort":"Modeller, styrker og begrensninger","tekst":"bruke modeller til å forklare observasjoner og kjemiske fenomener, og argumentere for modellenes styrker og begrensinger"},{"nr":6,"kort":"Periodesystemet og periodiske trender","tekst":"gjøre rede for oppbygningen av periodesystemet, og bruke kjerneladning og elektronkonfigurasjon til å forklare periodiske trender"},{"nr":7,"kort":"Kjemisk binding, molekylgeometri og struktur","tekst":"gjøre rede for kjemisk binding som elektrostatiske krefter som virker mellom partikler, og bruke dette til å forklare molekylgeometri og organiske og uorganiske stoffers struktur, sammensetning og egenskaper"},{"nr":8,"kort":"Beregninger på reaksjoner og reaksjonstyper","tekst":"utforske og gjøre beregninger på kjemiske reaksjoner, og bruke observasjoner og teoretiske vurderinger til å identifisere reaksjonstype"},{"nr":9,"kort":"Konsentrasjon og ulike enheter","tekst":"gjøre beregninger med ulike enheter for konsentrasjon og bruke stoffkonsentrasjon i vurderinger av vann- og luftkvalitet"},{"nr":10,"kort":"Volumetrisk og gravimetrisk titreranalyse","tekst":"gjennomføre volumetrisk og gravimetrisk titreranalyse og drøfte bruk av titreranalyse"},{"nr":11,"kort":"Atomets oppbygning, spektre og spektroskopi","tekst":"gjøre rede for sammenhengen mellom atomets oppbygning og grunnstoffers absorbsjons- og emisjonsspektre og bruke spektroskopiske metoder i kvalitativ og kvantitativ analyse"},{"nr":12,"kort":"Entalpi og entalpiendringer","tekst":"gjøre rede for entalpi og bruke beregninger og forsøk til å utforske entalpiendringer i reaksjoner"},{"nr":13,"kort":"Kollisjonsteori, reaksjonsfart og likevekt","tekst":"gjøre rede for kollisjonsteori og utforske faktorer som påvirker reaksjonsfart og kjemisk likevekt"},{"nr":14,"kort":"Løselighet: ladning, polaritet og temperatur","tekst":"utforske løseligheten til stoffer, og gjøre rede for betydningen av ladning, polaritet og temperatur for løselighet"},{"nr":15,"kort":"Syre, base, protolyse og pH","tekst":"gjøre rede for begrepene syre, base, protolyse og pH, og utforske egenskapene til sterke og svake syrer og baser"},{"nr":16,"kort":"Grønn kjemi og bærekraft","tekst":"gjøre rede for prinsipper for grønn kjemi og drøfte hvordan bruk av prinsippene kan bidra til bærekraftig utvikling"},{"nr":17,"kort":"Kilder og kildekritikk","tekst":"presentere kjemifaglig innhold fra ulike kilder, kritisk vurdere kildene og bruke relevant teori til å drøfte innholdet"}]'::jsonb, 5),
-  ('fysikk-1', 'vg2', 'Fysikk 1', null, null, '[]'::jsonb, 6),
-  ('biologi-1', 'vg2', 'Biologi 1', null, null, '[]'::jsonb, 7),
-  ('matematikk-r1', 'vg2', 'Matematikk R1', null, null, '[]'::jsonb, 8),
-  ('matematikk-s1', 'vg2', 'Matematikk S1', null, null, '[]'::jsonb, 9),
-  ('informasjonsteknologi-1', 'vg2', 'Informasjonsteknologi 1', null, null, '[]'::jsonb, 10),
-  ('teknologi-og-forskningslare-1', 'vg2', 'Teknologi og forskningslære 1', null, null, '[]'::jsonb, 11),
-  ('sosiologi-og-sosialantropologi', 'vg2', 'Sosiologi og sosialantropologi', null, null, '[]'::jsonb, 12),
-  ('politikk-og-menneskerettigheter', 'vg2', 'Politikk og menneskerettigheter', null, null, '[]'::jsonb, 13),
-  ('rettslare-1', 'vg2', 'Rettslære 1', null, null, '[]'::jsonb, 14),
-  ('psykologi-1', 'vg2', 'Psykologi 1', null, null, '[]'::jsonb, 15),
-  ('markedsforing-og-ledelse-1', 'vg2', 'Markedsføring og ledelse 1', null, null, '[]'::jsonb, 16),
-  ('samfunnsokonomi-1', 'vg2', 'Samfunnsøkonomi 1', null, null, '[]'::jsonb, 17),
+  ('kinesisk-vg2', 'vg2', 'Kinesisk', null, null, '[]'::jsonb, 5),
+  ('kjemi-1', 'vg2', 'Kjemi 1', 'KJE01-02', 'https://www.udir.no/lk20/kje01-02/kompetansemaal-og-vurdering/kv532', '[{"nr":1,"kort":"Kjemisk terminologi og navnsetting","tekst":"forstå og bruke kjemisk terminologi og regler for navnsetting i faglig kommunikasjon"},{"nr":2,"kort":"Forsøk, usikkerhet og feilkilder","tekst":"planlegge og gjennomføre forsøk, estimere usikkerhet og vurdere feilkilder, presentere resultater og argumentere for gyldigheten av resultater og konklusjoner"},{"nr":3,"kort":"Sikkerhetsdatablad og HMS","tekst":"bruke informasjon fra sikkerhetsdatablad til å gjøre vurderinger knyttet til helse, miljø og sikkerhet i praktisk arbeid"},{"nr":4,"kort":"Data, simuleringer og beregninger","tekst":"bruke data, simuleringer og beregninger i tolkninger og til å trekke konklusjoner"},{"nr":5,"kort":"Modeller, styrker og begrensninger","tekst":"bruke modeller til å forklare observasjoner og kjemiske fenomener, og argumentere for modellenes styrker og begrensinger"},{"nr":6,"kort":"Periodesystemet og periodiske trender","tekst":"gjøre rede for oppbygningen av periodesystemet, og bruke kjerneladning og elektronkonfigurasjon til å forklare periodiske trender"},{"nr":7,"kort":"Kjemisk binding, molekylgeometri og struktur","tekst":"gjøre rede for kjemisk binding som elektrostatiske krefter som virker mellom partikler, og bruke dette til å forklare molekylgeometri og organiske og uorganiske stoffers struktur, sammensetning og egenskaper"},{"nr":8,"kort":"Beregninger på reaksjoner og reaksjonstyper","tekst":"utforske og gjøre beregninger på kjemiske reaksjoner, og bruke observasjoner og teoretiske vurderinger til å identifisere reaksjonstype"},{"nr":9,"kort":"Konsentrasjon og ulike enheter","tekst":"gjøre beregninger med ulike enheter for konsentrasjon og bruke stoffkonsentrasjon i vurderinger av vann- og luftkvalitet"},{"nr":10,"kort":"Volumetrisk og gravimetrisk titreranalyse","tekst":"gjennomføre volumetrisk og gravimetrisk titreranalyse og drøfte bruk av titreranalyse"},{"nr":11,"kort":"Atomets oppbygning, spektre og spektroskopi","tekst":"gjøre rede for sammenhengen mellom atomets oppbygning og grunnstoffers absorbsjons- og emisjonsspektre og bruke spektroskopiske metoder i kvalitativ og kvantitativ analyse"},{"nr":12,"kort":"Entalpi og entalpiendringer","tekst":"gjøre rede for entalpi og bruke beregninger og forsøk til å utforske entalpiendringer i reaksjoner"},{"nr":13,"kort":"Kollisjonsteori, reaksjonsfart og likevekt","tekst":"gjøre rede for kollisjonsteori og utforske faktorer som påvirker reaksjonsfart og kjemisk likevekt"},{"nr":14,"kort":"Løselighet: ladning, polaritet og temperatur","tekst":"utforske løseligheten til stoffer, og gjøre rede for betydningen av ladning, polaritet og temperatur for løselighet"},{"nr":15,"kort":"Syre, base, protolyse og pH","tekst":"gjøre rede for begrepene syre, base, protolyse og pH, og utforske egenskapene til sterke og svake syrer og baser"},{"nr":16,"kort":"Grønn kjemi og bærekraft","tekst":"gjøre rede for prinsipper for grønn kjemi og drøfte hvordan bruk av prinsippene kan bidra til bærekraftig utvikling"},{"nr":17,"kort":"Kilder og kildekritikk","tekst":"presentere kjemifaglig innhold fra ulike kilder, kritisk vurdere kildene og bruke relevant teori til å drøfte innholdet"}]'::jsonb, 6),
+  ('fysikk-1', 'vg2', 'Fysikk 1', null, null, '[]'::jsonb, 7),
+  ('biologi-1', 'vg2', 'Biologi 1', null, null, '[]'::jsonb, 8),
+  ('matematikk-r1', 'vg2', 'Matematikk R1', null, null, '[]'::jsonb, 9),
+  ('matematikk-s1', 'vg2', 'Matematikk S1', null, null, '[]'::jsonb, 10),
+  ('informasjonsteknologi-1', 'vg2', 'Informasjonsteknologi 1', null, null, '[]'::jsonb, 11),
+  ('teknologi-og-forskningslare-1', 'vg2', 'Teknologi og forskningslære 1', null, null, '[]'::jsonb, 12),
+  ('sosiologi-og-sosialantropologi', 'vg2', 'Sosiologi og sosialantropologi', null, null, '[]'::jsonb, 13),
+  ('politikk-og-menneskerettigheter', 'vg2', 'Politikk og menneskerettigheter', null, null, '[]'::jsonb, 14),
+  ('rettslare-1', 'vg2', 'Rettslære 1', null, null, '[]'::jsonb, 15),
+  ('psykologi-1', 'vg2', 'Psykologi 1', null, null, '[]'::jsonb, 16),
+  ('markedsforing-og-ledelse-1', 'vg2', 'Markedsføring og ledelse 1', null, null, '[]'::jsonb, 17),
+  ('entreprenorskap-og-bedriftsutvikling-1', 'vg2', 'Entreprenørskap og bedriftsutvikling 1', null, null, '[]'::jsonb, 18),
+  ('samfunnsokonomi-1', 'vg2', 'Samfunnsøkonomi 1', null, null, '[]'::jsonb, 19),
   ('norsk-vg3', 'vg3', 'Norsk', null, null, '[]'::jsonb, 0),
   ('historie-vg3', 'vg3', 'Historie', null, null, '[]'::jsonb, 1),
   ('religion-og-etikk', 'vg3', 'Religion og etikk', null, null, '[]'::jsonb, 2),
@@ -1763,6 +1769,467 @@ insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, ri
   ('engelsk-8:the-united-kingdom', 'm07', 'flervalg', 'What is the BBC?', array['A football club', 'The UK''s public broadcaster', 'A political party', 'A bank']::text[], 1, 'The British Broadcasting Corporation is a well-known public broadcaster.', false, true, 16);
 insert into public.miniprover (tema_id, minutter) values
   ('engelsk-8:the-united-kingdom', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Engelsk fordypning (8): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'engelsk-fordypning-8' and slug not in ('online-communication', 'presenting-your-interests', 'music-and-lyrics', 'feedback-and-revision', 'privacy-and-copyright');
+
+-- Engelsk fordypning: Communicating online
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('engelsk-fordypning-8:online-communication', 'engelsk-fordypning-8', 'online-communication', 'Communicating online', 'How to adapt your English to purpose, receiver and situation in digital communication, how to write a good email, netiquette, and how online communication differs from face-to-face communication.', array[1, 5]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('engelsk-fordypning-8:online-communication', '## Communicating in a digital world
+
+Much of our communication today happens online: in chats, emails, comments, video calls and games. To communicate well, you must adapt your language to the **purpose** (why you write), the **receiver** (who reads it) and the **situation** (where and when).
+
+## Formal and informal language
+
+- **Informal** language is used with friends and family: short sentences, **contractions** (I''m, don''t), slang, emojis and abbreviations like LOL or BRB.
+- **Formal** language is used with teachers, employers or people you don''t know: full sentences, polite phrases, correct spelling and no slang.
+
+Choosing the right **register** shows respect and helps the receiver understand you.
+
+## Writing a good email
+
+A formal email usually has
+
+- a clear **subject line**
+- a **greeting**: Dear Ms Smith, / Hello Mr Jones,
+- a short **introduction** explaining why you are writing
+- the **main message**, with one idea per paragraph
+- a polite **closing**: Kind regards, / Best wishes, followed by your name
+
+Avoid writing only in capital letters – it looks like SHOUTING.
+
+## Netiquette
+
+**Netiquette** (net + etiquette) means good manners online:
+
+- Think before you post. Would you say it face to face?
+- Be polite, even when you disagree.
+- Don''t share other people''s pictures or personal information without permission.
+- Remember that tone of voice and body language are missing online, so jokes and irony can easily be misunderstood.
+
+## Online versus offline communication
+
+Communication online differs from face-to-face communication:
+
+- It can be **asynchronous** – people answer when it suits them, as in email – or **synchronous**, like a video call.
+- There are fewer **non-verbal cues**, such as facial expressions and tone of voice.
+- People may feel **anonymous** and act differently than they would in real life.
+- Messages can be **saved, screenshotted and shared**, so they may last for a very long time.
+
+## Different ways of thinking
+
+People from different cultures communicate in different ways. Some are **direct** and say exactly what they mean, while others are more **indirect** and careful. In English, words like **please**, **thank you** and **sorry**, and phrases like **Could you …?** or **Would you mind …?**, are very important. Being aware of such differences helps you avoid misunderstandings when you talk to people around the world, for example in online games or international school projects.', '{"label":"Online communication","children":[{"label":"Adapting","children":[{"label":"Purpose"},{"label":"Receiver"},{"label":"Situation"}]},{"label":"Register","children":[{"label":"Formal"},{"label":"Informal"},{"label":"Contractions and slang"}]},{"label":"Email","children":[{"label":"Subject line"},{"label":"Greeting"},{"label":"Main message"},{"label":"Closing"}]},{"label":"Netiquette","children":[{"label":"Think before you post"},{"label":"Be polite"},{"label":"Ask before sharing"}]},{"label":"Online vs offline","children":[{"label":"Synchronous or asynchronous"},{"label":"Fewer non-verbal cues"},{"label":"Anonymity"},{"label":"Direct or indirect cultures"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'engelsk-fordypning-8:online-communication';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('engelsk-fordypning-8:online-communication', 'Purpose', 'Why a text is written, for example to inform, ask or entertain.', 0),
+  ('engelsk-fordypning-8:online-communication', 'Receiver', 'The person or group who reads or listens to a message.', 1),
+  ('engelsk-fordypning-8:online-communication', 'Register', 'How formal or informal your language is.', 2),
+  ('engelsk-fordypning-8:online-communication', 'Informal language', 'Relaxed language used with friends: contractions, slang and emojis.', 3),
+  ('engelsk-fordypning-8:online-communication', 'Formal language', 'Polite, correct language used with teachers, employers and strangers.', 4),
+  ('engelsk-fordypning-8:online-communication', 'Contraction', 'A short form of two words, like don''t (do not) or I''m (I am).', 5),
+  ('engelsk-fordypning-8:online-communication', 'Subject line', 'A short line that tells the receiver what an email is about.', 6),
+  ('engelsk-fordypning-8:online-communication', 'Greeting', 'How you start a letter or email, like “Dear Ms Smith,”.', 7),
+  ('engelsk-fordypning-8:online-communication', 'Closing', 'How you end a formal email, like “Kind regards,” followed by your name.', 8),
+  ('engelsk-fordypning-8:online-communication', 'Netiquette', 'Good manners online.', 9),
+  ('engelsk-fordypning-8:online-communication', 'Asynchronous communication', 'Communication where people answer when it suits them, like email.', 10),
+  ('engelsk-fordypning-8:online-communication', 'Synchronous communication', 'Communication in real time, like a video call or a live chat.', 11),
+  ('engelsk-fordypning-8:online-communication', 'Non-verbal cues', 'Facial expressions, tone of voice and body language.', 12),
+  ('engelsk-fordypning-8:online-communication', 'Direct communication', 'Saying exactly what you mean.', 13),
+  ('engelsk-fordypning-8:online-communication', 'Indirect communication', 'Expressing yourself more carefully and politely, often with hints.', 14);
+delete from public.quiz_sporsmal where tema_id = 'engelsk-fordypning-8:online-communication';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('engelsk-fordypning-8:online-communication', 'q01', 'flervalg', 'What does register mean?', array['The list of students in a class', 'How formal or informal your language is', 'A type of email', 'The subject line']::text[], 1, 'You choose your register depending on who you are talking to.', true, true, 0),
+  ('engelsk-fordypning-8:online-communication', 'q02', 'flervalg', 'Which greeting fits a formal email to a teacher?', array['Hey dude!', 'Yo!', 'Sup', 'Dear Ms Smith,']::text[], 3, 'Formal emails start with a polite greeting and the person''s name.', true, true, 1),
+  ('engelsk-fordypning-8:online-communication', 'q03', 'flervalg', 'What is netiquette?', array['Good manners online', 'A type of computer virus', 'A social media app', 'A formal letter']::text[], 0, 'The word combines “net” and “etiquette”.', true, true, 2),
+  ('engelsk-fordypning-8:online-communication', 'q04', 'flervalg', 'Which is an example of informal language?', array['I would be grateful if you could reply.', 'Kind regards', 'lol brb, gonna grab food', 'Dear Sir or Madam']::text[], 2, 'Abbreviations and slang are typical of informal chat.', true, true, 3),
+  ('engelsk-fordypning-8:online-communication', 'q05', 'flervalg', 'Why can jokes easily be misunderstood online?', array['Because the internet is slow', 'Because nobody reads them', 'Because tone of voice and body language are missing', 'Because jokes are not allowed']::text[], 2, 'Without non-verbal cues, irony can be taken seriously.', true, true, 4),
+  ('engelsk-fordypning-8:online-communication', 'q06', 'flervalg', 'What is asynchronous communication?', array['Communication where people answer when it suits them, like email', 'A live video call', 'Talking face to face', 'A phone call']::text[], 0, 'The other options happen in real time.', true, true, 5),
+  ('engelsk-fordypning-8:online-communication', 'q07', 'flervalg', 'Why should you avoid writing only in capital letters?', array['It is against the law', 'It uses more data', 'It is hard to type', 'It looks like shouting']::text[], 3, 'Capital letters are read as a raised voice online.', true, true, 6),
+  ('engelsk-fordypning-8:online-communication', 'q08', 'flervalg', 'Which phrase is a polite way to ask for something in English?', array['Give me that.', 'Could you help me, please?', 'Do it now.', 'I want it.']::text[], 1, '“Could you” and “please” make a request polite.', true, true, 7),
+  ('engelsk-fordypning-8:online-communication', 'q09', 'flervalg', 'Why should you think before you post?', array['Because messages can be saved and shared and last a long time', 'Because posting is expensive', 'Because only teachers can post', 'Because posts disappear immediately']::text[], 0, 'Screenshots can spread even if you delete a post.', true, false, 8),
+  ('engelsk-fordypning-8:online-communication', 'q10', 'flervalg', 'What is the difference between direct and indirect communication?', array['Direct is written, indirect is spoken', 'Direct is formal, indirect is informal', 'There is no difference', 'Direct means saying exactly what you mean, indirect means being more careful and polite']::text[], 3, 'Cultures often differ in how direct people are.', true, false, 9),
+  ('engelsk-fordypning-8:online-communication', 'm01', 'sant-usant', 'It is fine to use slang in a job application email.', array['Sant', 'Usant']::text[], 1, 'A job application should be written in formal language.', false, true, 10),
+  ('engelsk-fordypning-8:online-communication', 'm02', 'sant-usant', 'Online, you have fewer non-verbal cues than face to face.', array['Sant', 'Usant']::text[], 0, 'Facial expressions and tone of voice are often missing.', false, true, 11),
+  ('engelsk-fordypning-8:online-communication', 'm03', 'sant-usant', 'A good email should have a clear subject line.', array['Sant', 'Usant']::text[], 0, 'The subject line tells the receiver what the email is about.', false, true, 12),
+  ('engelsk-fordypning-8:online-communication', 'm04', 'sant-usant', 'People always behave the same online as they do offline.', array['Sant', 'Usant']::text[], 1, 'Feeling anonymous can make people act differently.', false, true, 13),
+  ('engelsk-fordypning-8:online-communication', 'm05', 'flervalg', 'Which closing fits a formal email?', array['Cya!', 'Kind regards,', 'XOXO', 'Later!']::text[], 1, '“Kind regards” and “Best wishes” are polite closings.', false, true, 14),
+  ('engelsk-fordypning-8:online-communication', 'm06', 'flervalg', 'What is the purpose of a text?', array['Why the text is written', 'How long the text is', 'Who wrote the text', 'Where the text is published']::text[], 0, 'Purpose, receiver and situation decide how you write.', false, true, 15),
+  ('engelsk-fordypning-8:online-communication', 'm07', 'flervalg', 'Which of these is a contraction?', array['do not', 'cannot', 'don''t', 'will not']::text[], 2, 'A contraction combines two words with an apostrophe.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('engelsk-fordypning-8:online-communication', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Engelsk fordypning: Presenting your interests
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('engelsk-fordypning-8:presenting-your-interests', 'engelsk-fordypning-8', 'presenting-your-interests', 'Presenting your interests', 'How to plan, structure and give a presentation in English about a topic you choose yourself, with good visual aids and confident speaking.', array[9, 2]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('engelsk-fordypning-8:presenting-your-interests', '## Sharing what you care about
+
+In this subject you will often **present** topics you choose yourself: a hobby, a sport, a band, a game, an animal or a place you love. When you care about your topic, it is easier to engage your audience. Still, a good presentation needs **planning**.
+
+## Before you start
+
+- **Narrow your topic.** “Football” is too wide. “Why football is the world''s most popular sport” is easier to cover well.
+- **Think about your audience.** What do they already know? What will interest them?
+- **Find good sources** and take notes in your own words.
+- **Decide your purpose.** Do you want to inform, explain, tell a story or persuade?
+
+## Structure
+
+A clear presentation has three parts:
+
+1. **Introduction**: Catch the audience''s attention with a **hook** – a question, a surprising fact or a short story. Tell them what you will talk about.
+2. **Main part**: Present two to four main points in a logical order. Use examples, pictures or short clips.
+3. **Conclusion**: Sum up the main points and end with something memorable, for example a question or a personal reflection.
+
+Use **linking words** to guide your audience: first, next, another reason is, for example, however, finally, to sum up.
+
+## Visual aids
+
+Slides, pictures, videos and objects can make your presentation clearer. Good slides have
+
+- few words – **key words**, not full sentences
+- large, readable text
+- relevant pictures with sources
+- a consistent design
+
+Remember: the slides support you. They should not do the talking for you.
+
+## Speaking tips
+
+- **Practise** out loud several times, and time yourself.
+- Use **cue cards** with key words instead of reading from a manuscript.
+- Look at your audience and keep **eye contact**.
+- Speak **clearly** and not too fast. **Pause** after important points.
+- Use your **body language**: stand up straight and use your hands naturally.
+- Be ready for **questions** at the end.
+
+## Other ways to present
+
+You can also present through a **podcast**, a **video**, a **blog post** or a **poster**. The same principles apply: know your audience, have a clear structure and make it engaging. Whatever format you choose, it is fine to be a little nervous – good preparation is the best cure.', '{"label":"Presenting your interests","children":[{"label":"Planning","children":[{"label":"Narrow topic"},{"label":"Audience"},{"label":"Purpose"},{"label":"Sources"}]},{"label":"Structure","children":[{"label":"Introduction and hook"},{"label":"Main points"},{"label":"Conclusion"},{"label":"Linking words"}]},{"label":"Visual aids","children":[{"label":"Few words"},{"label":"Readable text"},{"label":"Pictures with sources"}]},{"label":"Speaking","children":[{"label":"Practise"},{"label":"Cue cards"},{"label":"Eye contact"},{"label":"Pace and pauses"}]},{"label":"Other formats","children":[{"label":"Podcast"},{"label":"Video"},{"label":"Blog or poster"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'engelsk-fordypning-8:presenting-your-interests';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('engelsk-fordypning-8:presenting-your-interests', 'Presentation', 'A talk where you share information about a topic with an audience.', 0),
+  ('engelsk-fordypning-8:presenting-your-interests', 'Narrow a topic', 'Make a wide topic smaller and more specific.', 1),
+  ('engelsk-fordypning-8:presenting-your-interests', 'Audience', 'The people who listen to or watch your presentation.', 2),
+  ('engelsk-fordypning-8:presenting-your-interests', 'Purpose', 'What you want to achieve: inform, explain, tell a story or persuade.', 3),
+  ('engelsk-fordypning-8:presenting-your-interests', 'Hook', 'An opening that catches the audience''s attention.', 4),
+  ('engelsk-fordypning-8:presenting-your-interests', 'Main points', 'The two to four most important ideas in the main part.', 5),
+  ('engelsk-fordypning-8:presenting-your-interests', 'Conclusion', 'The ending, where you sum up and leave the audience with something memorable.', 6),
+  ('engelsk-fordypning-8:presenting-your-interests', 'Linking words', 'Words that guide the audience: first, however, finally, to sum up.', 7),
+  ('engelsk-fordypning-8:presenting-your-interests', 'Visual aids', 'Slides, pictures, videos or objects that support your talk.', 8),
+  ('engelsk-fordypning-8:presenting-your-interests', 'Key words', 'Short words on slides or cards instead of full sentences.', 9),
+  ('engelsk-fordypning-8:presenting-your-interests', 'Cue cards', 'Small cards with key words that help you remember what to say.', 10),
+  ('engelsk-fordypning-8:presenting-your-interests', 'Eye contact', 'Looking at your audience to connect with them.', 11),
+  ('engelsk-fordypning-8:presenting-your-interests', 'Pace', 'How fast you speak. Not too fast, with pauses after important points.', 12),
+  ('engelsk-fordypning-8:presenting-your-interests', 'Body language', 'How you use your posture, face and hands when you speak.', 13),
+  ('engelsk-fordypning-8:presenting-your-interests', 'Q&A', 'Questions and answers, often at the end of a presentation.', 14);
+delete from public.quiz_sporsmal where tema_id = 'engelsk-fordypning-8:presenting-your-interests';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('engelsk-fordypning-8:presenting-your-interests', 'q01', 'flervalg', 'Why should you narrow your topic?', array['To make it clearer and easier to cover well', 'To make the presentation longer', 'To avoid using sources', 'Because wide topics are not allowed']::text[], 0, 'A specific topic lets you go deeper in a short time.', true, true, 0),
+  ('engelsk-fordypning-8:presenting-your-interests', 'q02', 'flervalg', 'What is a good way to start a presentation?', array['Reading your slides word for word', 'Saying “I don''t know much about this”', 'Asking a question or sharing a surprising fact', 'Showing the last slide first']::text[], 2, 'A hook makes the audience curious.', true, true, 1),
+  ('engelsk-fordypning-8:presenting-your-interests', 'q03', 'flervalg', 'How many main points should a short presentation usually have?', array['One', 'Two to four', 'Ten or more', 'As many as possible']::text[], 1, 'A few well-explained points are easier to remember.', true, true, 2),
+  ('engelsk-fordypning-8:presenting-your-interests', 'q04', 'flervalg', 'What should good slides have?', array['Long paragraphs', 'Tiny text', 'No pictures', 'Few words and large, readable text']::text[], 3, 'The audience should listen to you, not read long texts.', true, true, 3),
+  ('engelsk-fordypning-8:presenting-your-interests', 'q05', 'flervalg', 'What are cue cards?', array['Tickets to a show', 'Small cards with key words to help you remember', 'Slides with pictures', 'A type of handout']::text[], 1, 'Cue cards help you speak freely instead of reading.', true, true, 4),
+  ('engelsk-fordypning-8:presenting-your-interests', 'q06', 'flervalg', 'Which of these is a linking word?', array['Football', 'Slides', 'Audience', 'However']::text[], 3, '“However” shows a contrast between two ideas.', true, true, 5),
+  ('engelsk-fordypning-8:presenting-your-interests', 'q07', 'flervalg', 'What should the conclusion do?', array['Sum up the main points and end with something memorable', 'Introduce a completely new topic', 'Apologise for the presentation', 'Only list your sources']::text[], 0, 'A strong ending helps the audience remember your message.', true, true, 6),
+  ('engelsk-fordypning-8:presenting-your-interests', 'q08', 'flervalg', 'Why is eye contact important?', array['It makes you speak faster', 'It is required by law', 'It helps you connect with the audience', 'It makes the presentation shorter']::text[], 2, 'Looking at people makes them feel included.', true, true, 7),
+  ('engelsk-fordypning-8:presenting-your-interests', 'q09', 'flervalg', 'What is the purpose of a persuasive presentation?', array['To tell a funny story', 'To list facts only', 'To describe a picture', 'To convince the audience of something']::text[], 3, 'Persuasive presentations use arguments to change opinions.', true, false, 8),
+  ('engelsk-fordypning-8:presenting-your-interests', 'q10', 'flervalg', 'What should you think about when you consider your audience?', array['What they already know and what will interest them', 'What they are wearing', 'How tall they are', 'Nothing at all']::text[], 0, 'Adapting to your audience makes your presentation more engaging.', true, false, 9),
+  ('engelsk-fordypning-8:presenting-your-interests', 'm01', 'sant-usant', 'Your slides should contain your whole manuscript.', array['Sant', 'Usant']::text[], 1, 'Slides should only have key words and pictures.', false, true, 10),
+  ('engelsk-fordypning-8:presenting-your-interests', 'm02', 'sant-usant', 'Practising out loud helps you time your presentation.', array['Sant', 'Usant']::text[], 0, 'You also discover where you need to improve.', false, true, 11),
+  ('engelsk-fordypning-8:presenting-your-interests', 'm03', 'sant-usant', 'A podcast can also be a way to present a topic.', array['Sant', 'Usant']::text[], 0, 'The same principles of structure and audience apply.', false, true, 12),
+  ('engelsk-fordypning-8:presenting-your-interests', 'm04', 'sant-usant', 'You don''t need to show sources for pictures you use.', array['Sant', 'Usant']::text[], 1, 'Pictures are protected by copyright, so you must credit them.', false, true, 13),
+  ('engelsk-fordypning-8:presenting-your-interests', 'm05', 'flervalg', 'Which linking words introduce the conclusion?', array['First', 'For example', 'To sum up', 'Another reason']::text[], 2, '“To sum up” signals that you are ending.', false, true, 14),
+  ('engelsk-fordypning-8:presenting-your-interests', 'm06', 'flervalg', 'What does good pace mean?', array['Not too fast, with pauses after important points', 'As fast as possible', 'Very quietly', 'Without stopping at all']::text[], 0, 'Pauses give the audience time to think.', false, true, 15),
+  ('engelsk-fordypning-8:presenting-your-interests', 'm07', 'flervalg', 'What is a hook?', array['The last slide', 'An opening that catches the audience''s attention', 'A type of cue card', 'A question at the end']::text[], 1, 'A good hook can be a question, a fact or a short story.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('engelsk-fordypning-8:presenting-your-interests', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Engelsk fordypning: Music and lyrics
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('engelsk-fordypning-8:music-and-lyrics', 'engelsk-fordypning-8', 'music-and-lyrics', 'Music and lyrics', 'How to explore content, form and purpose in songs, the literary devices songwriters use, genres, and how music works in films, games and adverts.', array[4, 7]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('engelsk-fordypning-8:music-and-lyrics', '## Why study music?
+
+Music is everywhere: on streaming services, in films, games, adverts and on social media. Songs are **texts** with content, form and purpose, just like poems and stories. Exploring them helps you understand how language and music work together to create meaning and feelings.
+
+## Content: What is the song about?
+
+Many songs deal with universal **themes**: love, heartbreak, friendship, identity, growing up, protest and hope. Ask yourself: Who is the **speaker** in the song? Who is the song addressed to? What story or message does it tell?
+
+## Form: How is the song built?
+
+- **Verse**: tells the story and changes from verse to verse.
+- **Chorus**: repeats the main message and is often the catchiest part.
+- **Bridge**: a contrasting part, often near the end.
+- **Rhyme**: words with the same ending sound (night – light).
+- **Rhythm**: the beat and flow of the words.
+- **Repetition**: repeating words or lines makes them memorable and emphasises the message.
+
+## Language and literary devices
+
+Songwriters use the same devices as poets:
+
+- **Metaphor**: saying something is something else (“You are my sunshine”).
+- **Simile**: comparing with “like” or “as” (“She runs like the wind”).
+- **Alliteration**: repeating the first sound (“big, bright balloons”).
+- **Imagery**: words that create pictures in your mind.
+- **Slang and informal language**, which can make a song feel personal and real.
+
+## Purpose: Why was the song made?
+
+Songs can **entertain**, **express feelings**, **tell stories**, **protest** or **sell** something. **Protest songs** have been important in history. In the 1960s, songs like Bob Dylan''s *Blowin'' in the Wind* became anthems for the civil rights and peace movements. Today, artists still use music to speak about racism, mental health and climate change.
+
+## Genres
+
+Different **genres** have their own typical features: **pop** (catchy choruses), **hip hop** (rhythm, rhyme and wordplay, often about life and society), **rock**, **country** (storytelling), **R&B** and **electronic music**. Genres often mix.
+
+## Music in other media
+
+Music is used in **films** and **games** to build mood and tension, and in **adverts** to make products memorable. A **music video** adds pictures and often a story to the song.
+
+## How to analyse a song
+
+1. Listen several times and read the lyrics.
+2. Describe the content: theme, speaker and message.
+3. Look at the form and the language devices.
+4. Discuss the purpose and how the music and lyrics work together.
+5. Give your own opinion with reasons.', '{"label":"Music and lyrics","children":[{"label":"Content","children":[{"label":"Themes"},{"label":"Speaker"},{"label":"Message"}]},{"label":"Form","children":[{"label":"Verse, chorus, bridge"},{"label":"Rhyme"},{"label":"Rhythm"},{"label":"Repetition"}]},{"label":"Devices","children":[{"label":"Metaphor"},{"label":"Simile"},{"label":"Alliteration"},{"label":"Imagery"}]},{"label":"Purpose","children":[{"label":"Entertain"},{"label":"Express feelings"},{"label":"Protest"},{"label":"Sell"}]},{"label":"Genres and media","children":[{"label":"Pop, hip hop, rock, country"},{"label":"Films and games"},{"label":"Music videos"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'engelsk-fordypning-8:music-and-lyrics';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('engelsk-fordypning-8:music-and-lyrics', 'Speaker', 'The voice or character who talks in the lyrics.', 0),
+  ('engelsk-fordypning-8:music-and-lyrics', 'Theme', 'What a song is about on a deeper level, like love or identity.', 1),
+  ('engelsk-fordypning-8:music-and-lyrics', 'Verse', 'The part of a song that tells the story and changes each time.', 2),
+  ('engelsk-fordypning-8:music-and-lyrics', 'Chorus', 'The repeated part with the main message, often the catchiest.', 3),
+  ('engelsk-fordypning-8:music-and-lyrics', 'Bridge', 'A contrasting part of a song, often near the end.', 4),
+  ('engelsk-fordypning-8:music-and-lyrics', 'Rhyme', 'Words with the same ending sound, like night and light.', 5),
+  ('engelsk-fordypning-8:music-and-lyrics', 'Rhythm', 'The beat and flow of words and music.', 6),
+  ('engelsk-fordypning-8:music-and-lyrics', 'Repetition', 'Repeating words or lines to make them memorable.', 7),
+  ('engelsk-fordypning-8:music-and-lyrics', 'Metaphor', 'Saying something is something else: “You are my sunshine”.', 8),
+  ('engelsk-fordypning-8:music-and-lyrics', 'Simile', 'A comparison with like or as: “She runs like the wind”.', 9),
+  ('engelsk-fordypning-8:music-and-lyrics', 'Alliteration', 'Repeating the first sound in several words.', 10),
+  ('engelsk-fordypning-8:music-and-lyrics', 'Imagery', 'Words that create pictures in your mind.', 11),
+  ('engelsk-fordypning-8:music-and-lyrics', 'Protest song', 'A song that criticises something in society.', 12),
+  ('engelsk-fordypning-8:music-and-lyrics', 'Genre', 'A type of music with typical features, like pop, hip hop or country.', 13),
+  ('engelsk-fordypning-8:music-and-lyrics', 'Music video', 'A video that adds pictures and often a story to a song.', 14);
+delete from public.quiz_sporsmal where tema_id = 'engelsk-fordypning-8:music-and-lyrics';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('engelsk-fordypning-8:music-and-lyrics', 'q01', 'flervalg', 'What is the chorus of a song?', array['The first line', 'The instrumental part', 'The part that repeats the main message and is often the catchiest', 'The last word']::text[], 2, 'The chorus is usually what people remember and sing along to.', true, true, 0),
+  ('engelsk-fordypning-8:music-and-lyrics', 'q02', 'flervalg', 'Which line contains a simile?', array['She runs like the wind', 'The city never sleeps', 'Big, bright balloons', 'I''m on top of the world']::text[], 0, 'A simile uses “like” or “as” to compare.', true, true, 1),
+  ('engelsk-fordypning-8:music-and-lyrics', 'q03', 'flervalg', 'What is alliteration?', array['Words that rhyme at the end of lines', 'A comparison using like or as', 'A repeated chorus', 'Repeating the first sound in several words']::text[], 3, '“Big, bright balloons” is an example.', true, true, 2),
+  ('engelsk-fordypning-8:music-and-lyrics', 'q04', 'flervalg', 'What is a protest song?', array['A song about love', 'A song that criticises something in society', 'A song for children', 'A song without lyrics']::text[], 1, 'Protest songs were important in the civil rights movement.', true, true, 3),
+  ('engelsk-fordypning-8:music-and-lyrics', 'q05', 'flervalg', 'Why do songwriters use repetition?', array['To make lines memorable and emphasise the message', 'Because they run out of ideas', 'To make the song shorter', 'To avoid rhyme']::text[], 0, 'Repetition makes the message stick.', true, true, 4),
+  ('engelsk-fordypning-8:music-and-lyrics', 'q06', 'flervalg', 'What is a metaphor?', array['A comparison with like or as', 'A song genre', 'Saying something is something else', 'A long verse']::text[], 2, '“You are my sunshine” describes a person as the sun.', true, true, 5),
+  ('engelsk-fordypning-8:music-and-lyrics', 'q07', 'flervalg', 'Which genre is known for rhythm, rhyme and wordplay about life and society?', array['Country', 'Hip hop', 'Classical', 'Opera']::text[], 1, 'Hip hop lyrics often tell stories about everyday life and society.', true, true, 6),
+  ('engelsk-fordypning-8:music-and-lyrics', 'q08', 'flervalg', 'What is the speaker in a song?', array['The loudspeaker', 'The producer', 'The person who buys the song', 'The voice or character that talks in the lyrics']::text[], 3, 'The speaker is not always the same as the singer.', true, true, 7),
+  ('engelsk-fordypning-8:music-and-lyrics', 'q09', 'flervalg', 'How is music often used in films and games?', array['To replace the dialogue completely', 'To make the film shorter', 'To build mood and tension', 'To show the credits']::text[], 2, 'Music tells us how to feel about what we see.', true, false, 8),
+  ('engelsk-fordypning-8:music-and-lyrics', 'q10', 'flervalg', 'What is the first step when analysing a song?', array['Listen several times and read the lyrics', 'Write your opinion', 'Look up the singer''s age', 'Count the words']::text[], 0, 'You need to know the song well before you can analyse it.', true, false, 9),
+  ('engelsk-fordypning-8:music-and-lyrics', 'm01', 'sant-usant', 'Songs can be analysed as texts, just like poems.', array['Sant', 'Usant']::text[], 0, 'Songs have content, form and purpose.', false, true, 10),
+  ('engelsk-fordypning-8:music-and-lyrics', 'm02', 'sant-usant', 'The bridge is always the first part of a song.', array['Sant', 'Usant']::text[], 1, 'The bridge usually comes near the end.', false, true, 11),
+  ('engelsk-fordypning-8:music-and-lyrics', 'm03', 'sant-usant', '“Night” and “light” are an example of rhyme.', array['Sant', 'Usant']::text[], 0, 'They have the same ending sound.', false, true, 12),
+  ('engelsk-fordypning-8:music-and-lyrics', 'm04', 'sant-usant', 'Music in adverts has no purpose.', array['Sant', 'Usant']::text[], 1, 'Music makes products memorable and creates feelings.', false, true, 13),
+  ('engelsk-fordypning-8:music-and-lyrics', 'm05', 'flervalg', 'What does imagery mean?', array['Pictures in a music video', 'Words that create pictures in your mind', 'The album cover', 'A photo of the band']::text[], 1, 'Imagery appeals to our senses through words.', false, true, 14),
+  ('engelsk-fordypning-8:music-and-lyrics', 'm06', 'flervalg', 'Which of these is a typical theme in songs?', array['Heartbreak', 'Tax law', 'Plumbing', 'Algebra']::text[], 0, 'Love and heartbreak are among the most common themes.', false, true, 15),
+  ('engelsk-fordypning-8:music-and-lyrics', 'm07', 'flervalg', 'What does a music video add to a song?', array['More verses', 'A longer running time', 'Pictures and often a story', 'A new chorus']::text[], 2, 'The video can strengthen or change how we understand the song.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('engelsk-fordypning-8:music-and-lyrics', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Engelsk fordypning: Feedback and revision
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('engelsk-fordypning-8:feedback-and-revision', 'engelsk-fordypning-8', 'feedback-and-revision', 'Feedback and revision', 'The writing process, how to give and receive useful feedback, and how to revise and edit your own oral and written English texts.', array[3]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('engelsk-fordypning-8:feedback-and-revision', '## Writing is a process
+
+Good texts are rarely perfect the first time. Most writers go through several stages, called the **writing process**:
+
+1. **Pre-writing**: brainstorm ideas, make a mind map and plan your structure.
+2. **Drafting**: write a first version without worrying too much about mistakes.
+3. **Getting feedback**: let someone read and comment on your text.
+4. **Revising**: improve content, structure and language.
+5. **Editing and proofreading**: correct spelling, grammar and punctuation.
+6. **Publishing**: share the final version.
+
+The same process works for **oral texts** like presentations or podcasts: plan, rehearse, get feedback and improve.
+
+## Giving good feedback
+
+Feedback is most useful when it is **specific**, **kind** and **helpful**. A popular method is **“two stars and a wish”**: two things that work well and one thing to improve.
+
+- Instead of “Good text!”, say “Your introduction catches my attention because you start with a question.”
+- Instead of “Bad ending”, say “The ending feels a bit sudden. Could you add a sentence that sums up your main point?”
+- Focus on the **text**, not the person.
+
+## Receiving feedback
+
+- Listen or read carefully, and ask questions if something is unclear.
+- Don''t take it personally – feedback is about the text.
+- You decide which advice to follow, but think about why the reader reacted the way they did.
+
+## Revising: bigger changes
+
+When you **revise**, you look at the whole text:
+
+- Is the **message** clear?
+- Is the **structure** logical, with an introduction, a main part and a conclusion?
+- Does each **paragraph** have one main idea and a **topic sentence**?
+- Are there good **linking words** between sentences and paragraphs?
+- Is the **language** varied? Replace repeated words with **synonyms**, and use precise verbs and adjectives.
+
+## Editing: smaller changes
+
+When you **edit**, you check the details:
+
+- **Spelling**: their/there/they''re, your/you''re, its/it''s
+- **Grammar**: subject–verb agreement (she **goes**, not she go) and correct tense
+- **Punctuation** and **capital letters**: I, names, days, months and nationalities, like Monday and Norwegian
+
+Reading your text **aloud** is a great way to discover mistakes. Spell checkers help, but they do not catch everything.
+
+## Using digital tools and AI
+
+Digital tools, including AI, can suggest improvements. But you must still decide what to change, make sure the text is really your own, and follow your school''s rules.', '{"label":"Feedback and revision","children":[{"label":"Writing process","children":[{"label":"Pre-writing"},{"label":"Drafting"},{"label":"Feedback"},{"label":"Revising and editing"},{"label":"Publishing"}]},{"label":"Giving feedback","children":[{"label":"Specific"},{"label":"Kind"},{"label":"Two stars and a wish"}]},{"label":"Receiving feedback","children":[{"label":"Listen"},{"label":"Ask questions"},{"label":"You decide"}]},{"label":"Revising","children":[{"label":"Clear message"},{"label":"Structure"},{"label":"Topic sentences"},{"label":"Varied language"}]},{"label":"Editing","children":[{"label":"Spelling"},{"label":"Grammar"},{"label":"Punctuation"},{"label":"Read aloud"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'engelsk-fordypning-8:feedback-and-revision';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('engelsk-fordypning-8:feedback-and-revision', 'Writing process', 'The stages of writing: pre-writing, drafting, feedback, revising, editing and publishing.', 0),
+  ('engelsk-fordypning-8:feedback-and-revision', 'Pre-writing', 'Brainstorming and planning before you start writing.', 1),
+  ('engelsk-fordypning-8:feedback-and-revision', 'Draft', 'A first or early version of a text.', 2),
+  ('engelsk-fordypning-8:feedback-and-revision', 'Feedback', 'Comments from a reader about what works and what can be improved.', 3),
+  ('engelsk-fordypning-8:feedback-and-revision', 'Two stars and a wish', 'Feedback with two positive comments and one suggestion.', 4),
+  ('engelsk-fordypning-8:feedback-and-revision', 'Revising', 'Making bigger changes to content, structure and language.', 5),
+  ('engelsk-fordypning-8:feedback-and-revision', 'Editing', 'Correcting details like spelling, grammar and punctuation.', 6),
+  ('engelsk-fordypning-8:feedback-and-revision', 'Proofreading', 'A final careful check for small mistakes.', 7),
+  ('engelsk-fordypning-8:feedback-and-revision', 'Topic sentence', 'A sentence that presents the main idea of a paragraph.', 8),
+  ('engelsk-fordypning-8:feedback-and-revision', 'Paragraph', 'A group of sentences about one main idea.', 9),
+  ('engelsk-fordypning-8:feedback-and-revision', 'Synonym', 'A word with the same or similar meaning, like big and large.', 10),
+  ('engelsk-fordypning-8:feedback-and-revision', 'Subject–verb agreement', 'The verb must match the subject: she goes, they go.', 11),
+  ('engelsk-fordypning-8:feedback-and-revision', 'Their / there / they''re', 'Their = belonging to them, there = a place, they''re = they are.', 12),
+  ('engelsk-fordypning-8:feedback-and-revision', 'Its / it''s', 'Its = belonging to it, it''s = it is.', 13),
+  ('engelsk-fordypning-8:feedback-and-revision', 'Reading aloud', 'A good way to discover mistakes in your own text.', 14);
+delete from public.quiz_sporsmal where tema_id = 'engelsk-fordypning-8:feedback-and-revision';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('engelsk-fordypning-8:feedback-and-revision', 'q01', 'flervalg', 'What happens in the drafting stage?', array['You publish your text', 'You correct spelling only', 'You brainstorm ideas', 'You write a first version']::text[], 3, 'In the draft, getting ideas down matters more than being perfect.', true, true, 0),
+  ('engelsk-fordypning-8:feedback-and-revision', 'q02', 'flervalg', 'Which comment is the most useful feedback?', array['Good job!', 'Your introduction works well because you start with a question', 'I didn''t like it', 'Bad ending']::text[], 1, 'Specific feedback explains what works and why.', true, true, 1),
+  ('engelsk-fordypning-8:feedback-and-revision', 'q03', 'flervalg', 'What is the difference between revising and editing?', array['Revising means bigger changes to content and structure, editing means checking details', 'They mean the same', 'Editing is done before writing', 'Revising is only about spelling']::text[], 0, 'Revise first, then edit the details.', true, true, 2),
+  ('engelsk-fordypning-8:feedback-and-revision', 'q04', 'flervalg', 'What is “two stars and a wish”?', array['A grading system', 'A type of poem', 'Two positive comments and one suggestion', 'A way to start an essay']::text[], 2, 'The method keeps feedback both kind and useful.', true, true, 3),
+  ('engelsk-fordypning-8:feedback-and-revision', 'q05', 'flervalg', 'Which sentence is correct?', array['She go to school every day.', 'She going to school every day.', 'She goes to school every day.', 'She gone to school every day.']::text[], 2, 'With he, she and it, the verb gets an -s in the present simple.', true, true, 4),
+  ('engelsk-fordypning-8:feedback-and-revision', 'q06', 'flervalg', 'Which sentence uses “their” correctly?', array['Their going home.', 'Put it over their.', 'Their is a problem.', 'The students forgot their books.']::text[], 3, '“Their” shows that something belongs to them.', true, true, 5),
+  ('engelsk-fordypning-8:feedback-and-revision', 'q07', 'flervalg', 'What is a topic sentence?', array['The title of a text', 'A sentence that presents the main idea of a paragraph', 'The last sentence of a text', 'A quotation']::text[], 1, 'It is often the first sentence of the paragraph.', true, true, 6),
+  ('engelsk-fordypning-8:feedback-and-revision', 'q08', 'flervalg', 'Why is reading your text aloud useful?', array['It helps you discover mistakes', 'It makes the text longer', 'It replaces feedback', 'It is required by the teacher']::text[], 0, 'You often hear mistakes that you do not see.', true, true, 7),
+  ('engelsk-fordypning-8:feedback-and-revision', 'q09', 'flervalg', 'How should you react to feedback?', array['Ignore it', 'Get angry', 'Delete your text', 'Listen carefully, ask questions and think about why the reader reacted that way']::text[], 3, 'Feedback is about the text, not about you as a person.', true, false, 8),
+  ('engelsk-fordypning-8:feedback-and-revision', 'q10', 'flervalg', 'What should you remember when using AI tools to improve a text?', array['That AI is always right', 'That you must decide what to change and make sure the text is your own', 'That AI can write everything for you', 'That school rules don''t apply']::text[], 1, 'You are responsible for your own text.', true, false, 9),
+  ('engelsk-fordypning-8:feedback-and-revision', 'm01', 'sant-usant', 'Good writers usually write a perfect text the first time.', array['Sant', 'Usant']::text[], 1, 'Most writers revise their texts several times.', false, true, 10),
+  ('engelsk-fordypning-8:feedback-and-revision', 'm02', 'sant-usant', 'Spell checkers catch all mistakes.', array['Sant', 'Usant']::text[], 1, 'A spell checker will not notice if you write “there” instead of “their”.', false, true, 11),
+  ('engelsk-fordypning-8:feedback-and-revision', 'm03', 'sant-usant', 'Feedback should focus on the text, not the person.', array['Sant', 'Usant']::text[], 0, 'This makes feedback easier to receive and use.', false, true, 12),
+  ('engelsk-fordypning-8:feedback-and-revision', 'm04', 'sant-usant', 'The writing process can also be used for oral texts.', array['Sant', 'Usant']::text[], 0, 'Presentations and podcasts also improve with planning and feedback.', false, true, 13),
+  ('engelsk-fordypning-8:feedback-and-revision', 'm05', 'flervalg', 'Which word is a synonym for “big”?', array['Small', 'Large', 'Quick', 'Old']::text[], 1, 'Synonyms help you avoid repeating the same word.', false, true, 14),
+  ('engelsk-fordypning-8:feedback-and-revision', 'm06', 'flervalg', 'Which sentence uses the apostrophe correctly?', array['It''s a nice day.', 'Its a nice day.', 'Its'' a nice day.', 'It is'' a nice day.']::text[], 0, '“It''s” is short for “it is”.', false, true, 15),
+  ('engelsk-fordypning-8:feedback-and-revision', 'm07', 'flervalg', 'Which of these words must start with a capital letter in English?', array['school', 'friend', 'Norwegian', 'apple']::text[], 2, 'Nationalities and languages always have a capital letter in English.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('engelsk-fordypning-8:feedback-and-revision', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Engelsk fordypning: Privacy, copyright and your online identity
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('engelsk-fordypning-8:privacy-and-copyright', 'engelsk-fordypning-8', 'privacy-and-copyright', 'Privacy, copyright and your online identity', 'Your digital footprint and online identity, how to protect your own and others'' privacy, and how to use other people''s work fairly with copyright, Creative Commons and source lists.', array[11, 10]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('engelsk-fordypning-8:privacy-and-copyright', '## Your digital footprint
+
+Everything you do online leaves a **digital footprint**: posts, comments, likes, pictures, searches and the apps you use. Some of it is **active** (what you post yourself) and some is **passive** (data collected about you, like your location). Your footprint can be seen by friends, schools and future employers – and by companies that use your data for advertising.
+
+## Privacy
+
+**Privacy** is your right to control information about yourself. **Personal data** is any information that can identify you: your name, address, phone number, photos and even your IP address. In Norway and the rest of the EEA, the **GDPR** gives you rights, such as the right to see what data a company has about you and the right to have it deleted.
+
+Tips to protect your privacy:
+
+- Use strong, different **passwords** and **two-step verification**.
+- Check your **privacy settings**.
+- Think before sharing your location or personal details.
+- Never share your passwords, not even with friends.
+
+## Respecting others
+
+You are also responsible for **other people''s privacy**. Always ask for **consent** before posting pictures or videos of others. Sharing embarrassing or private content can hurt people – and may be illegal.
+
+## How do you present yourself online?
+
+The way you present yourself online is your **online identity**. Many people show only the best sides of their lives – edited photos and highlights. Ask yourself: Is this how I want to be seen? Would I be OK with this post in five years? Remember that other people''s online lives are often just as edited as yours.
+
+## Copyright
+
+**Copyright** protects the people who create **original works**: texts, photos, music, films, drawings and games. In Norway, copyright lasts until 70 years after the creator''s death. This means you cannot freely use other people''s work in your own projects.
+
+- **Quote** short parts and always **credit** the source.
+- Use pictures and music with a **Creative Commons** licence or from free image libraries, and follow the licence terms.
+- Or create your own pictures and music!
+
+## Using sources honestly
+
+Using someone else''s words or ideas without saying where they come from is called **plagiarism**. It is dishonest, and in school it can be treated as cheating. Always include a **source list** with the author, title, website and date you read it.', '{"label":"Privacy and copyright","children":[{"label":"Digital footprint","children":[{"label":"Active"},{"label":"Passive"},{"label":"Who can see it?"}]},{"label":"Privacy","children":[{"label":"Personal data"},{"label":"GDPR rights"},{"label":"Passwords and settings"}]},{"label":"Respecting others","children":[{"label":"Consent"},{"label":"Don''t share private content"}]},{"label":"Online identity","children":[{"label":"Self-presentation"},{"label":"Edited highlights"},{"label":"Think long-term"}]},{"label":"Copyright","children":[{"label":"Original works"},{"label":"70 years"},{"label":"Creative Commons"},{"label":"Plagiarism and sources"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'engelsk-fordypning-8:privacy-and-copyright';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('engelsk-fordypning-8:privacy-and-copyright', 'Digital footprint', 'The traces you leave online.', 0),
+  ('engelsk-fordypning-8:privacy-and-copyright', 'Active footprint', 'What you post yourself, like pictures, comments and likes.', 1),
+  ('engelsk-fordypning-8:privacy-and-copyright', 'Passive footprint', 'Data collected about you without you noticing, like your location.', 2),
+  ('engelsk-fordypning-8:privacy-and-copyright', 'Privacy', 'Your right to control information about yourself.', 3),
+  ('engelsk-fordypning-8:privacy-and-copyright', 'Personal data', 'Information that can identify you, like your name, photo or IP address.', 4),
+  ('engelsk-fordypning-8:privacy-and-copyright', 'GDPR', 'EU privacy rules that also apply in Norway.', 5),
+  ('engelsk-fordypning-8:privacy-and-copyright', 'Privacy settings', 'Settings that decide who can see what you share.', 6),
+  ('engelsk-fordypning-8:privacy-and-copyright', 'Two-step verification', 'An extra security step, like a code sent to your phone.', 7),
+  ('engelsk-fordypning-8:privacy-and-copyright', 'Consent', 'A clear yes to something, like having your picture shared.', 8),
+  ('engelsk-fordypning-8:privacy-and-copyright', 'Online identity', 'The way you present yourself online.', 9),
+  ('engelsk-fordypning-8:privacy-and-copyright', 'Copyright', 'The creator''s right to decide how their work is used. Lasts until 70 years after death.', 10),
+  ('engelsk-fordypning-8:privacy-and-copyright', 'Creative Commons', 'Licences that let creators allow others to use their work on certain conditions.', 11),
+  ('engelsk-fordypning-8:privacy-and-copyright', 'Credit', 'Saying who made something and where it comes from.', 12),
+  ('engelsk-fordypning-8:privacy-and-copyright', 'Plagiarism', 'Using someone else''s words or ideas without saying where they come from.', 13),
+  ('engelsk-fordypning-8:privacy-and-copyright', 'Source list', 'A list of the sources you have used, with author, title, website and date.', 14);
+delete from public.quiz_sporsmal where tema_id = 'engelsk-fordypning-8:privacy-and-copyright';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('engelsk-fordypning-8:privacy-and-copyright', 'q01', 'flervalg', 'What is a digital footprint?', array['A shoe print in the snow', 'The traces you leave online', 'A type of password', 'A computer virus']::text[], 1, 'Posts, likes and searches all become part of your footprint.', true, true, 0),
+  ('engelsk-fordypning-8:privacy-and-copyright', 'q02', 'flervalg', 'Which of these is personal data?', array['The weather forecast', 'A famous painting', 'Your phone number', 'A recipe']::text[], 2, 'Personal data can be linked to you as a person.', true, true, 1),
+  ('engelsk-fordypning-8:privacy-and-copyright', 'q03', 'flervalg', 'What does the GDPR give you the right to?', array['Free internet', 'Unlimited downloads', 'Use any picture online', 'Have your personal data deleted']::text[], 3, 'This is often called “the right to be forgotten”.', true, true, 2),
+  ('engelsk-fordypning-8:privacy-and-copyright', 'q04', 'flervalg', 'What should you do before posting a picture of a friend?', array['Ask for their consent', 'Add a filter', 'Tag everyone', 'Nothing']::text[], 0, 'Everyone has the right to decide over pictures of themselves.', true, true, 3),
+  ('engelsk-fordypning-8:privacy-and-copyright', 'q05', 'flervalg', 'How long does copyright last in Norway?', array['5 years', 'Until the work is posted online', 'Forever', 'Until 70 years after the creator''s death']::text[], 3, 'After that, the work becomes free for everyone to use.', true, true, 4),
+  ('engelsk-fordypning-8:privacy-and-copyright', 'q06', 'flervalg', 'What is plagiarism?', array['Using a spell checker', 'Using someone else''s words or ideas without saying where they come from', 'Writing a long text', 'Quoting with a source']::text[], 1, 'Plagiarism is a form of cheating.', true, true, 5),
+  ('engelsk-fordypning-8:privacy-and-copyright', 'q07', 'flervalg', 'What is a Creative Commons licence?', array['A ban on sharing', 'A password', 'A licence that allows others to use a work on certain conditions', 'A type of camera']::text[], 2, 'For example, you may have to credit the creator.', true, true, 6),
+  ('engelsk-fordypning-8:privacy-and-copyright', 'q08', 'flervalg', 'Why should you think before posting?', array['Because your digital footprint can be seen by others for a long time', 'Because posting costs money', 'Because nobody reads posts', 'Because posts disappear after one day']::text[], 0, 'Future schools and employers may see what you post.', true, true, 7),
+  ('engelsk-fordypning-8:privacy-and-copyright', 'q09', 'flervalg', 'Which is a good way to protect your privacy?', array['Sharing your password with friends', 'Using strong, different passwords and two-step verification', 'Posting your address', 'Using the same password everywhere']::text[], 1, 'Strong passwords make it harder for others to access your accounts.', true, false, 8),
+  ('engelsk-fordypning-8:privacy-and-copyright', 'q10', 'flervalg', 'What is a passive digital footprint?', array['A photo you post', 'A comment you write', 'A like you give', 'Data collected about you, like your location']::text[], 3, 'Passive data is collected in the background.', true, false, 9),
+  ('engelsk-fordypning-8:privacy-and-copyright', 'm01', 'sant-usant', 'An IP address can be personal data.', array['Sant', 'Usant']::text[], 0, 'It can be used to link online activity to you.', false, true, 10),
+  ('engelsk-fordypning-8:privacy-and-copyright', 'm02', 'sant-usant', 'If a picture is on the internet, you can use it freely.', array['Sant', 'Usant']::text[], 1, 'Pictures online are still protected by copyright.', false, true, 11),
+  ('engelsk-fordypning-8:privacy-and-copyright', 'm03', 'sant-usant', 'You should include a source list when you use sources.', array['Sant', 'Usant']::text[], 0, 'It shows where your information comes from.', false, true, 12),
+  ('engelsk-fordypning-8:privacy-and-copyright', 'm04', 'sant-usant', 'Most people show a completely realistic picture of their lives online.', array['Sant', 'Usant']::text[], 1, 'Many people share mostly edited highlights.', false, true, 13),
+  ('engelsk-fordypning-8:privacy-and-copyright', 'm05', 'flervalg', 'What does it mean to credit a source?', array['To pay for it', 'To say who made it and where it comes from', 'To delete it', 'To copy it']::text[], 1, 'Crediting is fair to the creator and honest to the reader.', false, true, 14),
+  ('engelsk-fordypning-8:privacy-and-copyright', 'm06', 'flervalg', 'Which of these is protected by copyright?', array['A song someone wrote', 'The alphabet', 'The weather', 'A mathematical fact']::text[], 0, 'Copyright protects original creative works.', false, true, 15),
+  ('engelsk-fordypning-8:privacy-and-copyright', 'm07', 'flervalg', 'What is your online identity?', array['Your passport', 'Your bank account', 'The way you present yourself online', 'Your home address']::text[], 2, 'Your posts, profile and comments build your online identity.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('engelsk-fordypning-8:privacy-and-copyright', 15)
 on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Naturfag (8): rydd bort fjernede temaer
@@ -5135,6 +5602,451 @@ insert into public.miniprover (tema_id, minutter) values
   ('engelsk-9:indigenous-peoples', 15)
 on conflict (tema_id) do update set minutter = excluded.minutter;
 
+-- Engelsk fordypning (9): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'engelsk-fordypning-9' and slug not in ('film-language', 'storytelling-across-media', 'point-of-view-and-bias', 'cultures-of-communication', 'reliable-sources');
+
+-- Engelsk fordypning: Film language
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('engelsk-fordypning-9:film-language', 'engelsk-fordypning-9', 'film-language', 'Film language', 'How films create meaning with camera shots, angles, sound, light and editing, how genres and narrative structure work, and how to write about a film.', array[4, 7]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('engelsk-fordypning-9:film-language', '## Film as a text
+
+A film tells a story with **pictures**, **sound** and **editing**, not just words. Filmmakers make careful choices to create meaning and feelings. When you analyse a film, you look at **content** (what it is about), **form** (how it is made) and **purpose** (why it was made).
+
+## Camera shots
+
+- **Extreme long shot**: shows a large landscape and sets the scene. When it opens a scene, it is called an **establishing shot**.
+- **Long shot**: shows a whole person and their surroundings.
+- **Medium shot**: shows a person from the waist up, common in conversations.
+- **Close-up**: shows a face and makes us feel the character''s emotions.
+- **Extreme close-up**: shows a detail, like an eye or a hand, and can build tension.
+
+## Camera angles
+
+- **Low angle**: the camera looks up, making a character seem powerful.
+- **High angle**: the camera looks down, making a character seem small or weak.
+- **Eye level**: neutral – we meet the character as an equal.
+- **Point-of-view shot**: we see what the character sees.
+
+## Sound
+
+Sound includes **dialogue**, **music**, **sound effects** and **silence**, which can be very powerful. Sound that the characters can hear, like their voices or a door slamming, is called **diegetic**. Sound that only the audience hears, like background music or a narrator, is **non-diegetic**.
+
+## Editing and light
+
+**Editing** is how the shots are put together. Fast cuts create speed and tension, while slow cuts give calm. **Flashbacks** show events from the past. **Lighting** also creates mood: dark, shadowy light is typical of horror and crime films, while bright light feels safe and happy.
+
+## Genre and narrative
+
+Films belong to **genres** with typical features, such as action, comedy, drama, horror, science fiction, romance and animation. Most films follow a **narrative structure**: an introduction to characters and setting, a **conflict**, rising action, a **climax** and a resolution. Many heroes follow the **hero''s journey**: they leave home, face challenges, change and return.
+
+## Purpose and audience
+
+Films can **entertain**, **inform**, as documentaries do, **persuade** or make us **reflect**. Think about the **target audience**: an animated film for children uses different techniques from a thriller for adults. **Trailers** are made to persuade us to watch the film.
+
+## Writing about a film
+
+Name the film, the director and the genre. Summarise the plot briefly, analyse two or three techniques with examples, and explain how they create meaning. End with your own evaluation, supported by reasons.', '{"label":"Film language","children":[{"label":"Shots","children":[{"label":"Establishing shot"},{"label":"Long and medium shot"},{"label":"Close-up"},{"label":"Extreme close-up"}]},{"label":"Angles","children":[{"label":"Low"},{"label":"High"},{"label":"Eye level"},{"label":"Point of view"}]},{"label":"Sound and light","children":[{"label":"Dialogue and music"},{"label":"Diegetic or non-diegetic"},{"label":"Silence"},{"label":"Lighting and mood"}]},{"label":"Editing and story","children":[{"label":"Fast and slow cuts"},{"label":"Flashbacks"},{"label":"Narrative structure"},{"label":"Hero''s journey"}]},{"label":"Purpose","children":[{"label":"Genres"},{"label":"Target audience"},{"label":"Trailers"},{"label":"Writing about a film"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'engelsk-fordypning-9:film-language';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('engelsk-fordypning-9:film-language', 'Establishing shot', 'A wide shot that shows where a scene takes place.', 0),
+  ('engelsk-fordypning-9:film-language', 'Long shot', 'A shot showing a whole person and their surroundings.', 1),
+  ('engelsk-fordypning-9:film-language', 'Medium shot', 'A shot showing a person from the waist up.', 2),
+  ('engelsk-fordypning-9:film-language', 'Close-up', 'A shot of a face that shows emotions.', 3),
+  ('engelsk-fordypning-9:film-language', 'Extreme close-up', 'A shot of a small detail, like an eye or a hand.', 4),
+  ('engelsk-fordypning-9:film-language', 'Low angle', 'The camera looks up, making a character seem powerful.', 5),
+  ('engelsk-fordypning-9:film-language', 'High angle', 'The camera looks down, making a character seem small or weak.', 6),
+  ('engelsk-fordypning-9:film-language', 'Point-of-view shot', 'A shot that shows what a character sees.', 7),
+  ('engelsk-fordypning-9:film-language', 'Diegetic sound', 'Sound the characters can hear, like dialogue or footsteps.', 8),
+  ('engelsk-fordypning-9:film-language', 'Non-diegetic sound', 'Sound only the audience hears, like background music.', 9),
+  ('engelsk-fordypning-9:film-language', 'Editing', 'How the shots are put together.', 10),
+  ('engelsk-fordypning-9:film-language', 'Flashback', 'A scene that shows events from the past.', 11),
+  ('engelsk-fordypning-9:film-language', 'Climax', 'The most exciting turning point of a story.', 12),
+  ('engelsk-fordypning-9:film-language', 'Hero''s journey', 'A story pattern where the hero leaves home, faces challenges, changes and returns.', 13),
+  ('engelsk-fordypning-9:film-language', 'Target audience', 'The group of people a film is made for.', 14);
+delete from public.quiz_sporsmal where tema_id = 'engelsk-fordypning-9:film-language';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('engelsk-fordypning-9:film-language', 'q01', 'flervalg', 'Which shot shows a character''s face and emotions?', array['Long shot', 'Extreme long shot', 'Close-up', 'Establishing shot']::text[], 2, 'Close-ups bring us near the character''s feelings.', true, true, 0),
+  ('engelsk-fordypning-9:film-language', 'q02', 'flervalg', 'What effect does a low camera angle often have?', array['It makes the character seem powerful', 'It makes the character seem weak', 'It shows the landscape', 'It shows the past']::text[], 0, 'Looking up at someone makes them seem bigger and stronger.', true, true, 1),
+  ('engelsk-fordypning-9:film-language', 'q03', 'flervalg', 'What is non-diegetic sound?', array['Dialogue between characters', 'Footsteps in the scene', 'A door slamming in the scene', 'Sound only the audience hears, like background music']::text[], 3, 'The characters cannot hear the background music.', true, true, 2),
+  ('engelsk-fordypning-9:film-language', 'q04', 'flervalg', 'What do fast cuts usually create?', array['Calm', 'Speed and tension', 'Silence', 'A happy ending']::text[], 1, 'Fast cuts are common in action scenes.', true, true, 3),
+  ('engelsk-fordypning-9:film-language', 'q05', 'flervalg', 'What is a flashback?', array['A camera angle', 'A type of light', 'The ending of a film', 'A scene showing events from the past']::text[], 3, 'Flashbacks can explain why characters act as they do.', true, true, 4),
+  ('engelsk-fordypning-9:film-language', 'q06', 'flervalg', 'What is the climax of a story?', array['The introduction', 'The credits', 'The most exciting turning point', 'The first scene']::text[], 2, 'The conflict reaches its peak at the climax.', true, true, 5),
+  ('engelsk-fordypning-9:film-language', 'q07', 'flervalg', 'What is an establishing shot?', array['A wide shot that shows where the story takes place', 'A close-up of a face', 'A shot of the credits', 'A sound effect']::text[], 0, 'It helps the audience understand the setting.', true, true, 6),
+  ('engelsk-fordypning-9:film-language', 'q08', 'flervalg', 'What is the main purpose of a trailer?', array['To tell the whole story', 'To persuade people to watch the film', 'To show the credits', 'To replace the film']::text[], 1, 'A trailer is a form of advertising.', true, true, 7),
+  ('engelsk-fordypning-9:film-language', 'q09', 'flervalg', 'Which genre often uses dark, shadowy lighting?', array['Romantic comedy', 'Animation for young children', 'Horror', 'Musical']::text[], 2, 'Darkness creates fear and uncertainty.', true, false, 8),
+  ('engelsk-fordypning-9:film-language', 'q10', 'flervalg', 'What is the hero''s journey?', array['A pattern where the hero leaves home, faces challenges, changes and returns', 'A type of camera movement', 'A famous film studio', 'A film festival']::text[], 0, 'Many adventure and fantasy films follow this pattern.', true, false, 9),
+  ('engelsk-fordypning-9:film-language', 'm01', 'sant-usant', 'A high camera angle can make a character seem small or weak.', array['Sant', 'Usant']::text[], 0, 'Looking down on someone makes them seem vulnerable.', false, true, 10),
+  ('engelsk-fordypning-9:film-language', 'm02', 'sant-usant', 'Silence can never be used as an effect in films.', array['Sant', 'Usant']::text[], 1, 'Sudden silence can create strong tension.', false, true, 11),
+  ('engelsk-fordypning-9:film-language', 'm03', 'sant-usant', 'Documentaries are films that mainly inform.', array['Sant', 'Usant']::text[], 0, 'Documentaries show real people and events.', false, true, 12),
+  ('engelsk-fordypning-9:film-language', 'm04', 'sant-usant', 'All films are made for the same target audience.', array['Sant', 'Usant']::text[], 1, 'Films are made for different ages and interests.', false, true, 13),
+  ('engelsk-fordypning-9:film-language', 'm05', 'flervalg', 'What is a point-of-view shot?', array['A shot from high above', 'A shot showing what a character sees', 'A shot of the audience', 'A shot with no sound']::text[], 1, 'It lets us see the world through the character''s eyes.', false, true, 14),
+  ('engelsk-fordypning-9:film-language', 'm06', 'flervalg', 'Which of these is diegetic sound?', array['A character''s voice in a conversation', 'Background music added later', 'A narrator nobody in the film hears', 'The theme song over the credits']::text[], 0, 'The other characters in the scene can hear the voice.', false, true, 15),
+  ('engelsk-fordypning-9:film-language', 'm07', 'flervalg', 'What does editing mean in film?', array['Writing the script', 'Choosing the actors', 'Putting the shots together', 'Selling tickets']::text[], 2, 'Editing decides the rhythm of a film.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('engelsk-fordypning-9:film-language', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Engelsk fordypning: Storytelling across media
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('engelsk-fordypning-9:storytelling-across-media', 'engelsk-fordypning-9', 'storytelling-across-media', 'Storytelling across media', 'How to present, tell and explain through different media, the elements of a good story, multimodal texts, and how to plan your own digital product.', array[2, 6]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('engelsk-fordypning-9:storytelling-across-media', '## Stories everywhere
+
+People have always told stories – around the fire, in books, on stage and on screen. Today, stories are told in many **media**: novels, comics, films, podcasts, video games, short videos and blogs. The same story can be told in different ways depending on the medium.
+
+## Three purposes
+
+When you create a text, think about whether you want to
+
+- **present** something (show facts or ideas),
+- **tell** a story (narrate), or
+- **explain** how or why something happens.
+
+## Elements of a good story
+
+- **Characters**: Who is the story about? A good **protagonist** wants something.
+- **Setting**: Where and when does it take place?
+- **Plot**: What happens? Most stories have a beginning, a **conflict**, a **climax** and an ending.
+- **Point of view**: Is the story told in the **first person** (I) or the **third person** (he, she, they)?
+- **Show, don''t tell**: Instead of writing “She was scared”, write “Her hands were shaking as she opened the door.”
+
+## Multimodal texts
+
+A **multimodal text** combines different **modes**: written words, spoken words, pictures, sound, music, movement and layout. Comics, websites, videos and presentations are examples. Each mode adds something:
+
+- **Pictures** show feelings and settings quickly.
+- **Sound and music** create mood.
+- **Written text** explains details and adds a voice.
+- **Layout** – colours, fonts and placement – guides the reader''s eye.
+
+When the modes **work together**, the message becomes stronger.
+
+## Different media, different techniques
+
+- **Comics and graphic novels** use panels, speech bubbles and captions. The gaps between panels let readers imagine what happens.
+- **Podcasts** rely on voice, music and sound effects. Listeners must “see” the story with their ears.
+- **Short videos** need a strong **hook** in the first seconds and often use text on screen.
+- **Blogs** combine written text with pictures and links, and often have a personal voice.
+- **Video games** let the player take part in the story and make choices.
+
+## Planning a digital product
+
+1. Decide your **purpose** and **audience**.
+2. Choose the **medium** that fits your story best.
+3. Make a **storyboard** or plan: What will the audience see, hear and read?
+4. Create, get **feedback** and improve.
+5. Remember **copyright**: use your own material or material you are allowed to use.', '{"label":"Storytelling across media","children":[{"label":"Purposes","children":[{"label":"Present"},{"label":"Tell"},{"label":"Explain"}]},{"label":"Story elements","children":[{"label":"Characters"},{"label":"Setting"},{"label":"Plot and conflict"},{"label":"Point of view"},{"label":"Show, don''t tell"}]},{"label":"Multimodal texts","children":[{"label":"Words"},{"label":"Pictures"},{"label":"Sound"},{"label":"Layout"}]},{"label":"Media","children":[{"label":"Comics"},{"label":"Podcasts"},{"label":"Short videos"},{"label":"Blogs and games"}]},{"label":"Planning","children":[{"label":"Purpose and audience"},{"label":"Storyboard"},{"label":"Feedback"},{"label":"Copyright"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'engelsk-fordypning-9:storytelling-across-media';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('engelsk-fordypning-9:storytelling-across-media', 'Medium', 'A way of communicating a story, like a book, film, podcast or game.', 0),
+  ('engelsk-fordypning-9:storytelling-across-media', 'Narrate', 'To tell a story.', 1),
+  ('engelsk-fordypning-9:storytelling-across-media', 'Protagonist', 'The main character, who usually wants something.', 2),
+  ('engelsk-fordypning-9:storytelling-across-media', 'Setting', 'Where and when a story takes place.', 3),
+  ('engelsk-fordypning-9:storytelling-across-media', 'Plot', 'What happens in a story.', 4),
+  ('engelsk-fordypning-9:storytelling-across-media', 'Conflict', 'The main problem or struggle in a story.', 5),
+  ('engelsk-fordypning-9:storytelling-across-media', 'First-person narrator', 'A narrator who tells the story as “I”.', 6),
+  ('engelsk-fordypning-9:storytelling-across-media', 'Third-person narrator', 'A narrator who tells the story about “he”, “she” or “they”.', 7),
+  ('engelsk-fordypning-9:storytelling-across-media', 'Show, don''t tell', 'Showing feelings through actions and details instead of naming them.', 8),
+  ('engelsk-fordypning-9:storytelling-across-media', 'Multimodal text', 'A text that combines modes like words, pictures and sound.', 9),
+  ('engelsk-fordypning-9:storytelling-across-media', 'Mode', 'A way of creating meaning: writing, speech, pictures, sound, movement or layout.', 10),
+  ('engelsk-fordypning-9:storytelling-across-media', 'Layout', 'How colours, fonts and placement are arranged on a page or screen.', 11),
+  ('engelsk-fordypning-9:storytelling-across-media', 'Panel and speech bubble', 'The frames in a comic and the bubbles that show what characters say.', 12),
+  ('engelsk-fordypning-9:storytelling-across-media', 'Storyboard', 'A plan with sketches of what the audience will see and hear.', 13),
+  ('engelsk-fordypning-9:storytelling-across-media', 'Hook', 'An opening that catches the audience''s attention.', 14);
+delete from public.quiz_sporsmal where tema_id = 'engelsk-fordypning-9:storytelling-across-media';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('engelsk-fordypning-9:storytelling-across-media', 'q01', 'flervalg', 'What is a multimodal text?', array['A text with many chapters', 'A text that combines modes like words, pictures and sound', 'A text in many languages', 'A very long novel']::text[], 1, 'Comics and videos are typical multimodal texts.', true, true, 0),
+  ('engelsk-fordypning-9:storytelling-across-media', 'q02', 'flervalg', 'Which sentence follows the “show, don''t tell” rule?', array['She was scared.', 'He was angry.', 'They were happy.', 'Her hands were shaking as she opened the door.']::text[], 3, 'The reader understands the fear from the details.', true, true, 1),
+  ('engelsk-fordypning-9:storytelling-across-media', 'q03', 'flervalg', 'What is a protagonist?', array['The main character, who usually wants something', 'The villain', 'The narrator of a podcast', 'The setting']::text[], 0, 'The protagonist''s goal drives the story forward.', true, true, 2),
+  ('engelsk-fordypning-9:storytelling-across-media', 'q04', 'flervalg', 'Which pronoun is typical of a first-person narrator?', array['She', 'They', 'I', 'He']::text[], 2, 'A first-person narrator tells the story from inside.', true, true, 3),
+  ('engelsk-fordypning-9:storytelling-across-media', 'q05', 'flervalg', 'What is a storyboard?', array['A plan with sketches of what the audience will see and hear', 'A board game', 'A list of characters', 'The final version of a film']::text[], 0, 'Storyboards help you plan videos and comics.', true, true, 4),
+  ('engelsk-fordypning-9:storytelling-across-media', 'q06', 'flervalg', 'What do podcasts mostly rely on?', array['Pictures', 'Panels', 'Layout', 'Voice, music and sound effects']::text[], 3, 'Podcasts create pictures in the listener''s mind through sound.', true, true, 5),
+  ('engelsk-fordypning-9:storytelling-across-media', 'q07', 'flervalg', 'Why do short videos need a strong hook?', array['Because they are long', 'Because viewers decide in a few seconds whether to keep watching', 'Because they have no sound', 'Because they are for adults only']::text[], 1, 'Viewers scroll quickly past videos that do not grab them.', true, true, 6),
+  ('engelsk-fordypning-9:storytelling-across-media', 'q08', 'flervalg', 'What is the setting of a story?', array['The main problem', 'The ending', 'Where and when the story takes place', 'The narrator']::text[], 2, 'The setting can also create mood.', true, true, 7),
+  ('engelsk-fordypning-9:storytelling-across-media', 'q09', 'flervalg', 'What makes video games different from films as a storytelling medium?', array['They have no characters', 'The player can take part in the story and make choices', 'They have no sound', 'They are always shorter']::text[], 1, 'Interactivity is the special feature of games.', true, false, 8),
+  ('engelsk-fordypning-9:storytelling-across-media', 'q10', 'flervalg', 'What does layout do in a multimodal text?', array['It adds music', 'It tells the plot', 'It records the voice', 'It guides the reader''s eye with colours, fonts and placement']::text[], 3, 'Good layout makes a text easy to read.', true, false, 9),
+  ('engelsk-fordypning-9:storytelling-across-media', 'm01', 'sant-usant', 'The same story can be told in different media.', array['Sant', 'Usant']::text[], 0, 'Many books have been made into films, series and games.', false, true, 10),
+  ('engelsk-fordypning-9:storytelling-across-media', 'm02', 'sant-usant', 'A comic is a multimodal text.', array['Sant', 'Usant']::text[], 0, 'It combines pictures, words and layout.', false, true, 11),
+  ('engelsk-fordypning-9:storytelling-across-media', 'm03', 'sant-usant', 'Every story must be told in the first person.', array['Sant', 'Usant']::text[], 1, 'Stories can be told in the first or the third person.', false, true, 12),
+  ('engelsk-fordypning-9:storytelling-across-media', 'm04', 'sant-usant', 'You can freely use any music you find online in your video.', array['Sant', 'Usant']::text[], 1, 'Most music is protected by copyright.', false, true, 13),
+  ('engelsk-fordypning-9:storytelling-across-media', 'm05', 'flervalg', 'What is the conflict in a story?', array['The main problem or struggle', 'The title', 'The setting', 'The last page']::text[], 0, 'Without a conflict, there is little to drive the story.', false, true, 14),
+  ('engelsk-fordypning-9:storytelling-across-media', 'm06', 'flervalg', 'What do comics use to show what characters say?', array['Captions only', 'Footnotes', 'Speech bubbles', 'Subtitles']::text[], 2, 'Thought bubbles show what characters think.', false, true, 15),
+  ('engelsk-fordypning-9:storytelling-across-media', 'm07', 'flervalg', 'Which purpose fits a text that describes how something works?', array['Tell a story', 'Explain', 'Entertain only', 'Present a character']::text[], 1, 'Explaining texts answer how and why.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('engelsk-fordypning-9:storytelling-across-media', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Engelsk fordypning: Point of view, sender and bias
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('engelsk-fordypning-9:point-of-view-and-bias', 'engelsk-fordypning-9', 'point-of-view-and-bias', 'Point of view, sender and bias', 'How the sender and point of view shape a message, different types of narrators, bias, loaded words and framing, and how to tell fact from opinion.', array[8]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('engelsk-fordypning-9:point-of-view-and-bias', '## Who is behind the message?
+
+Every text has a **sender** – a person, organisation or company – and a **purpose**. The sender''s background, interests and **point of view** influence what they say and how they say it. Being aware of this helps you understand and evaluate messages critically.
+
+## Point of view in stories
+
+In fiction, the **narrator** decides what we know:
+
+- A **first-person narrator** (“I”) lets us into one character''s thoughts, but may be **unreliable** – they can misunderstand or even lie.
+- A **third-person limited** narrator follows one character closely.
+- A **third-person omniscient** (all-knowing) narrator knows what everyone thinks and feels.
+
+The same event can feel completely different when told by another character. Try retelling a fairy tale from the wolf''s point of view!
+
+## Point of view in non-fiction
+
+News, adverts, speeches and social media posts also have a point of view. Ask:
+
+- **Who** is the sender, and what do they want?
+- **Who** is the target audience?
+- **What** is included – and what is left out?
+- **Which words** are used? “Freedom fighters” and “rebels” can describe the same group, but create very different impressions.
+
+## Bias
+
+**Bias** means presenting something in a one-sided or unfair way. It can mean
+
+- choosing only facts that support one side,
+- using **loaded words** with strong positive or negative feelings,
+- showing some groups often and others rarely, or only in certain roles,
+- using pictures or headlines that give a particular impression.
+
+Everyone has some bias. The important thing is to recognise it – in others and in yourself.
+
+## Framing
+
+**Framing** is how a story is presented. The headlines “Crime falls by 10 %” and “Still thousands of crimes every year” can describe the same statistics. Photos, camera angles and the order of information also frame a story.
+
+## Fact or opinion?
+
+A **fact** can be checked and proved true or false: “London is the capital of the UK.” An **opinion** is what someone thinks or feels: “London is the best city in the world.” Good texts make it clear which is which.
+
+## Different voices
+
+Hearing **different perspectives** gives a fuller picture. When you read about an issue, try to find sources from people with different backgrounds and opinions. This is especially important for issues that involve conflict, minorities or other countries.', '{"label":"Point of view and bias","children":[{"label":"Sender","children":[{"label":"Who?"},{"label":"Purpose"},{"label":"Target audience"}]},{"label":"Narrators","children":[{"label":"First person"},{"label":"Unreliable"},{"label":"Third-person limited"},{"label":"Omniscient"}]},{"label":"Bias","children":[{"label":"One-sided facts"},{"label":"Loaded words"},{"label":"Representation"}]},{"label":"Framing","children":[{"label":"Headlines"},{"label":"Photos and angles"},{"label":"Order of information"}]},{"label":"Critical reading","children":[{"label":"Fact or opinion"},{"label":"What is left out?"},{"label":"Different perspectives"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'engelsk-fordypning-9:point-of-view-and-bias';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('engelsk-fordypning-9:point-of-view-and-bias', 'Sender', 'The person or organisation behind a message.', 0),
+  ('engelsk-fordypning-9:point-of-view-and-bias', 'Point of view', 'The position or perspective a message is told from.', 1),
+  ('engelsk-fordypning-9:point-of-view-and-bias', 'Narrator', 'The voice that tells a story.', 2),
+  ('engelsk-fordypning-9:point-of-view-and-bias', 'First-person narrator', 'A narrator who is a character and tells the story as “I”.', 3),
+  ('engelsk-fordypning-9:point-of-view-and-bias', 'Unreliable narrator', 'A narrator we cannot fully trust, who may misunderstand or lie.', 4),
+  ('engelsk-fordypning-9:point-of-view-and-bias', 'Third-person limited', 'A narrator who follows one character closely.', 5),
+  ('engelsk-fordypning-9:point-of-view-and-bias', 'Omniscient narrator', 'An all-knowing narrator who knows what everyone thinks and feels.', 6),
+  ('engelsk-fordypning-9:point-of-view-and-bias', 'Target audience', 'The group a message is made for.', 7),
+  ('engelsk-fordypning-9:point-of-view-and-bias', 'Bias', 'Presenting something in a one-sided or unfair way.', 8),
+  ('engelsk-fordypning-9:point-of-view-and-bias', 'Loaded words', 'Words with strong positive or negative feelings.', 9),
+  ('engelsk-fordypning-9:point-of-view-and-bias', 'Framing', 'How a story is presented, which affects how we understand it.', 10),
+  ('engelsk-fordypning-9:point-of-view-and-bias', 'Fact', 'Something that can be checked and proved true or false.', 11),
+  ('engelsk-fordypning-9:point-of-view-and-bias', 'Opinion', 'What someone thinks or feels about something.', 12),
+  ('engelsk-fordypning-9:point-of-view-and-bias', 'Perspective', 'A way of seeing an issue, shaped by background and interests.', 13),
+  ('engelsk-fordypning-9:point-of-view-and-bias', 'Representation', 'How different groups are shown in texts and media.', 14);
+delete from public.quiz_sporsmal where tema_id = 'engelsk-fordypning-9:point-of-view-and-bias';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('engelsk-fordypning-9:point-of-view-and-bias', 'q01', 'flervalg', 'What is bias?', array['Presenting something in a one-sided or unfair way', 'A type of narrator', 'A fact that can be checked', 'A news headline']::text[], 0, 'Bias can be both conscious and unconscious.', true, true, 0),
+  ('engelsk-fordypning-9:point-of-view-and-bias', 'q02', 'flervalg', 'Which narrator knows what all the characters think and feel?', array['First-person narrator', 'Unreliable narrator', 'Omniscient narrator', 'Third-person limited narrator']::text[], 2, 'Omniscient means all-knowing.', true, true, 1),
+  ('engelsk-fordypning-9:point-of-view-and-bias', 'q03', 'flervalg', 'Which sentence is an opinion?', array['London is the capital of the UK.', 'London is the best city in the world.', 'London has millions of inhabitants.', 'The Thames flows through London.']::text[], 1, '“The best” is a judgement that cannot be proved.', true, true, 2),
+  ('engelsk-fordypning-9:point-of-view-and-bias', 'q04', 'flervalg', 'What are loaded words?', array['Very long words', 'Words from another language', 'Technical terms', 'Words with strong positive or negative feelings']::text[], 3, 'Loaded words try to influence how we feel.', true, true, 3),
+  ('engelsk-fordypning-9:point-of-view-and-bias', 'q05', 'flervalg', 'What is framing?', array['Putting a picture in a frame', 'Writing a story in the first person', 'How a story is presented, which affects how we understand it', 'Checking facts']::text[], 2, 'The same facts can be framed in positive or negative ways.', true, true, 4),
+  ('engelsk-fordypning-9:point-of-view-and-bias', 'q06', 'flervalg', 'Why can a first-person narrator be unreliable?', array['Because they can misunderstand or even lie', 'Because they know everything', 'Because they never speak', 'Because they are always the villain']::text[], 0, 'We only see the story through one person''s eyes.', true, true, 5),
+  ('engelsk-fordypning-9:point-of-view-and-bias', 'q07', 'flervalg', 'Which question helps you think critically about a message?', array['How many words does it have?', 'What font is used?', 'Is it printed or digital?', 'What is included, and what is left out?']::text[], 3, 'What is missing can be as important as what is there.', true, true, 6),
+  ('engelsk-fordypning-9:point-of-view-and-bias', 'q08', 'flervalg', 'Why should you look for different perspectives?', array['To make your text longer', 'To get a fuller and fairer picture', 'Because one source is always wrong', 'To confuse the reader']::text[], 1, 'Different voices show different sides of an issue.', true, true, 7),
+  ('engelsk-fordypning-9:point-of-view-and-bias', 'q09', 'flervalg', 'What is a sender?', array['The person or organisation behind a message', 'The reader', 'The postman', 'The headline']::text[], 0, 'Knowing the sender helps you understand the purpose.', true, false, 8),
+  ('engelsk-fordypning-9:point-of-view-and-bias', 'q10', 'flervalg', 'Two headlines describe the same statistics very differently. What does this show?', array['That one of them is lying', 'That statistics are useless', 'That framing affects how we understand information', 'That headlines are always neutral']::text[], 2, 'Both headlines can be true, but they create different impressions.', true, false, 9),
+  ('engelsk-fordypning-9:point-of-view-and-bias', 'm01', 'sant-usant', 'Everyone has some bias.', array['Sant', 'Usant']::text[], 0, 'Our background and experiences shape how we see things.', false, true, 10),
+  ('engelsk-fordypning-9:point-of-view-and-bias', 'm02', 'sant-usant', 'A fact is something that cannot be checked.', array['Sant', 'Usant']::text[], 1, 'Facts can be checked and proved true or false.', false, true, 11),
+  ('engelsk-fordypning-9:point-of-view-and-bias', 'm03', 'sant-usant', 'Photos and camera angles can frame a news story.', array['Sant', 'Usant']::text[], 0, 'The choice of picture affects how we understand the story.', false, true, 12),
+  ('engelsk-fordypning-9:point-of-view-and-bias', 'm04', 'sant-usant', 'News articles never have a point of view.', array['Sant', 'Usant']::text[], 1, 'Choices about what to include always reflect a point of view.', false, true, 13),
+  ('engelsk-fordypning-9:point-of-view-and-bias', 'm05', 'flervalg', 'What does third-person limited mean?', array['The narrator follows one character closely', 'The narrator knows everything', 'The narrator is “I”', 'There is no narrator']::text[], 0, 'We know the thoughts of one character, but not the others.', false, true, 14),
+  ('engelsk-fordypning-9:point-of-view-and-bias', 'm06', 'flervalg', '“Freedom fighters” and “rebels” can describe the same group. What does this show?', array['Words are always neutral', 'Word choice can create different impressions', 'Both words mean soldiers', 'One word is a spelling mistake']::text[], 1, 'Loaded words reveal the sender''s point of view.', false, true, 15),
+  ('engelsk-fordypning-9:point-of-view-and-bias', 'm07', 'flervalg', 'What is the target audience?', array['The sender', 'The purpose', 'The group a message is made for', 'The headline']::text[], 2, 'Messages are adapted to the audience they want to reach.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('engelsk-fordypning-9:point-of-view-and-bias', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Engelsk fordypning: Cultures of communication
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('engelsk-fordypning-9:cultures-of-communication', 'engelsk-fordypning-9', 'cultures-of-communication', 'Cultures of communication', 'How culture shapes communication, direct and indirect styles, politeness and small talk, body language, online communities and different ways of thinking.', array[5, 1]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('engelsk-fordypning-9:cultures-of-communication', '## Communication is cultural
+
+The way we communicate is shaped by our **culture**: our language, values, traditions and experiences. When people from different cultures meet – in real life or online – misunderstandings can happen, even when everyone speaks English. English is a **lingua franca**, a shared language used by people with different first languages.
+
+## Direct and indirect communication
+
+- In **direct** cultures, people say exactly what they mean. “No, that won''t work” is normal and polite.
+- In **indirect** cultures, people often hint and avoid saying no directly to protect relationships. “That might be difficult” can actually mean no.
+
+British English is often described as quite indirect and polite. Phrases like “I''m not sure that''s a good idea” can hide strong disagreement. Norwegians are often seen as direct, and may sound rude in English if they skip words like **please** and **could you**.
+
+## Politeness and small talk
+
+In many English-speaking countries, **small talk** – short, friendly conversation about the weather, the weekend or sports – is an important way to build relationships. “How are you?” is usually a greeting, not a real question. The expected answer is “Fine, thanks. And you?”
+
+## Body language and personal space
+
+Gestures, eye contact and **personal space** vary between cultures. In some cultures, long eye contact shows honesty, while in others it can seem rude. A thumbs-up is positive in many countries, but offensive in some. Online, **emojis** often replace body language – but their meaning can also vary between people and cultures.
+
+## Virtual and real-world communities
+
+Many young people belong to **online communities**: gaming clans, fan groups, chat servers and forums. These communities have their own **norms**, slang and rules. People from all over the world work together, compete and make friends. At the same time, anonymity can make some people act rudely, and **toxic behaviour** like harassment can occur.
+
+Online and offline communication influence each other. Slang from games and memes spreads into everyday speech, and friendships from online communities can continue offline.
+
+## Ways of thinking
+
+People also have different **mindsets**: views on time (being punctual or relaxed), on **hierarchy** (how you address teachers or bosses), and on **individualism** versus **collectivism** (focus on “me” or “us”). None of these is right or wrong, but being aware of them makes communication easier.
+
+## Being a good communicator
+
+- Be curious and open-minded.
+- Ask if you are unsure what someone means.
+- Avoid **stereotypes** – every person is an individual.
+- Adapt your language to the situation.', '{"label":"Cultures of communication","children":[{"label":"Direct or indirect","children":[{"label":"English as lingua franca"},{"label":"Saying no"},{"label":"British politeness"},{"label":"Norwegian directness"}]},{"label":"Politeness","children":[{"label":"Small talk"},{"label":"“How are you?”"},{"label":"Please and could you"}]},{"label":"Body language","children":[{"label":"Eye contact"},{"label":"Gestures"},{"label":"Personal space"},{"label":"Emojis"}]},{"label":"Online communities","children":[{"label":"Norms and slang"},{"label":"Global friendships"},{"label":"Toxic behaviour"}]},{"label":"Mindsets","children":[{"label":"Time"},{"label":"Hierarchy"},{"label":"Individualism and collectivism"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'engelsk-fordypning-9:cultures-of-communication';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('engelsk-fordypning-9:cultures-of-communication', 'Culture', 'The language, values, traditions and experiences a group shares.', 0),
+  ('engelsk-fordypning-9:cultures-of-communication', 'Lingua franca', 'A shared language used by people with different first languages.', 1),
+  ('engelsk-fordypning-9:cultures-of-communication', 'Direct communication', 'Saying exactly what you mean.', 2),
+  ('engelsk-fordypning-9:cultures-of-communication', 'Indirect communication', 'Hinting and avoiding a direct no to protect relationships.', 3),
+  ('engelsk-fordypning-9:cultures-of-communication', 'Small talk', 'Short, friendly conversation about everyday topics.', 4),
+  ('engelsk-fordypning-9:cultures-of-communication', '“How are you?”', 'Usually a greeting. The expected answer is “Fine, thanks. And you?”', 5),
+  ('engelsk-fordypning-9:cultures-of-communication', 'Politeness markers', 'Words like please, thank you, sorry and could you.', 6),
+  ('engelsk-fordypning-9:cultures-of-communication', 'Body language', 'Gestures, facial expressions, posture and eye contact.', 7),
+  ('engelsk-fordypning-9:cultures-of-communication', 'Personal space', 'The distance people like to keep between themselves and others.', 8),
+  ('engelsk-fordypning-9:cultures-of-communication', 'Emojis', 'Small pictures that often replace body language online.', 9),
+  ('engelsk-fordypning-9:cultures-of-communication', 'Online community', 'A group of people who meet and interact online.', 10),
+  ('engelsk-fordypning-9:cultures-of-communication', 'Norms', 'Unwritten rules for how to behave in a group.', 11),
+  ('engelsk-fordypning-9:cultures-of-communication', 'Toxic behaviour', 'Harassment and rude behaviour towards others, often online.', 12),
+  ('engelsk-fordypning-9:cultures-of-communication', 'Individualism', 'A focus on the individual and personal freedom.', 13),
+  ('engelsk-fordypning-9:cultures-of-communication', 'Collectivism', 'A focus on the group and on “us”.', 14);
+delete from public.quiz_sporsmal where tema_id = 'engelsk-fordypning-9:cultures-of-communication';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('engelsk-fordypning-9:cultures-of-communication', 'q01', 'flervalg', 'What is a lingua franca?', array['A French dialect', 'A type of slang', 'An online community', 'A shared language used by people with different first languages']::text[], 3, 'English is the most widely used lingua franca today.', true, true, 0),
+  ('engelsk-fordypning-9:cultures-of-communication', 'q02', 'flervalg', 'What might “That might be difficult” mean in an indirect culture?', array['Yes, definitely', 'No', 'I don''t understand', 'Let''s start now']::text[], 1, 'Indirect speakers often avoid saying no directly.', true, true, 1),
+  ('engelsk-fordypning-9:cultures-of-communication', 'q03', 'flervalg', 'What is small talk?', array['A talk about a small topic in class', 'Speaking very quietly', 'Short, friendly conversation about everyday topics', 'An argument']::text[], 2, 'Small talk builds relationships.', true, true, 2),
+  ('engelsk-fordypning-9:cultures-of-communication', 'q04', 'flervalg', 'How should you usually answer “How are you?” in English?', array['“Fine, thanks. And you?”', 'With a long story about your problems', 'By ignoring it', '“Why do you ask?”']::text[], 0, 'The question is usually a friendly greeting.', true, true, 3),
+  ('engelsk-fordypning-9:cultures-of-communication', 'q05', 'flervalg', 'Why might Norwegians sometimes sound rude in English?', array['Because they speak too quietly', 'Because they sometimes skip polite words like please and could you', 'Because they use too much small talk', 'Because they are very indirect']::text[], 1, 'Norwegian is often more direct than English.', true, true, 4),
+  ('engelsk-fordypning-9:cultures-of-communication', 'q06', 'flervalg', 'What is an online community?', array['A town with good internet', 'A news website', 'A single computer game', 'A group of people who meet and interact online']::text[], 3, 'Gaming clans and fan groups are examples.', true, true, 5),
+  ('engelsk-fordypning-9:cultures-of-communication', 'q07', 'flervalg', 'What is toxic behaviour online?', array['Harassment and rude behaviour towards others', 'Sharing helpful tips', 'Winning a game', 'Using emojis']::text[], 0, 'Anonymity can make toxic behaviour more common.', true, true, 6),
+  ('engelsk-fordypning-9:cultures-of-communication', 'q08', 'flervalg', 'What is collectivism?', array['A focus on the individual', 'Collecting things', 'A focus on the group and “us”', 'A political party']::text[], 2, 'In collectivist cultures, family and group needs often come first.', true, true, 7),
+  ('engelsk-fordypning-9:cultures-of-communication', 'q09', 'flervalg', 'What can a thumbs-up mean in different cultures?', array['It means the same everywhere', 'It is always rude', 'It means stop', 'It is positive in many countries, but offensive in some']::text[], 3, 'Gestures do not always travel well between cultures.', true, false, 8),
+  ('engelsk-fordypning-9:cultures-of-communication', 'q10', 'flervalg', 'What is a good way to avoid misunderstandings across cultures?', array['Always assume you are right', 'Ask if you are unsure what someone means', 'Rely on stereotypes', 'Avoid talking to people']::text[], 1, 'Asking shows interest and prevents mistakes.', true, false, 9),
+  ('engelsk-fordypning-9:cultures-of-communication', 'm01', 'sant-usant', 'Everyone who speaks English communicates in exactly the same way.', array['Sant', 'Usant']::text[], 1, 'Culture shapes how people use English.', false, true, 10),
+  ('engelsk-fordypning-9:cultures-of-communication', 'm02', 'sant-usant', 'Online communities often have their own norms and slang.', array['Sant', 'Usant']::text[], 0, 'New members learn these unwritten rules over time.', false, true, 11),
+  ('engelsk-fordypning-9:cultures-of-communication', 'm03', 'sant-usant', 'Emojis can be understood differently by different people.', array['Sant', 'Usant']::text[], 0, 'The same emoji can be friendly to one person and sarcastic to another.', false, true, 12),
+  ('engelsk-fordypning-9:cultures-of-communication', 'm04', 'sant-usant', 'Direct communication is always better than indirect communication.', array['Sant', 'Usant']::text[], 1, 'Both styles are normal in different cultures.', false, true, 13),
+  ('engelsk-fordypning-9:cultures-of-communication', 'm05', 'flervalg', 'What is personal space?', array['Your bedroom', 'The distance people like to keep between themselves and others', 'Your online profile', 'A place in outer space']::text[], 1, 'The comfortable distance varies between cultures.', false, true, 14),
+  ('engelsk-fordypning-9:cultures-of-communication', 'm06', 'flervalg', 'Which phrase is a polite way to disagree in British English?', array['You''re wrong.', 'No way!', 'I''m not sure that''s a good idea.', 'That''s stupid.']::text[], 2, 'Polite phrases soften disagreement.', false, true, 15),
+  ('engelsk-fordypning-9:cultures-of-communication', 'm07', 'flervalg', 'What is a stereotype?', array['A simplified idea about a group of people', 'A type of music player', 'A friendly greeting', 'A cultural festival']::text[], 0, 'Stereotypes ignore that people are individuals.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('engelsk-fordypning-9:cultures-of-communication', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Engelsk fordypning: Reliable sources and honest use
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('engelsk-fordypning-9:reliable-sources', 'engelsk-fordypning-9', 'reliable-sources', 'Reliable sources and honest use', 'How to evaluate and check sources, misinformation and disinformation, using AI critically, and how to quote, paraphrase and make a source list while respecting privacy and copyright.', array[11]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('engelsk-fordypning-9:reliable-sources', '## Why check your sources?
+
+The internet gives us more information than ever – but not all of it is reliable. Some sources contain mistakes, some are one-sided, and some spread **misinformation** (false information, often shared by people who believe it) or **disinformation** (false information spread on purpose). When you write or present in English, you must use sources **critically** and **honestly**.
+
+## Evaluating a source
+
+Ask these questions:
+
+- **Who** made it? Is the author or organisation an expert? Is it a known newspaper, a university, a government site – or an anonymous blog?
+- **Why** was it made? To inform, to sell, to entertain or to persuade?
+- **When** was it published or updated? Is it still up to date?
+- **What** evidence does it give? Are there facts, references and links?
+- **Does it agree** with other reliable sources?
+
+Websites of governments, universities and well-known news organisations are often reliable, but you should always think for yourself. **Wikipedia** can be a good starting point, but check the references at the bottom of the article.
+
+## Checking facts
+
+- **Lateral reading**: Instead of staying on one website, open new tabs and see what other sources say about the topic and the sender.
+- A **reverse image search** can reveal whether a picture is old, edited or taken out of context.
+- **Fact-checking websites** examine viral claims.
+- Be extra careful with content that makes you very angry or excited – it may be designed to go viral.
+
+## AI and sources
+
+AI chatbots can help with ideas and explanations, but they can **make things up** and even invent sources that do not exist. Always check important facts in reliable sources, and follow your school''s rules for using AI.
+
+## Using sources honestly
+
+- **Quote**: use the exact words in quotation marks and name the source.
+- **Paraphrase**: explain the idea in your own words – and still name the source.
+- Make a **source list** (bibliography) with the author, title, website or publisher, publication date and the date you read it.
+
+Using someone''s words or ideas without giving credit is **plagiarism**.
+
+## Privacy and copyright
+
+When you use sources and create content, you must follow the rules for **privacy** and **copyright**. Don''t publish personal information or pictures of others without consent, and only use pictures, music and videos you are allowed to use, such as your own or those with a **Creative Commons** licence.', '{"label":"Reliable sources","children":[{"label":"Problems","children":[{"label":"Mistakes"},{"label":"One-sided sources"},{"label":"Misinformation"},{"label":"Disinformation"}]},{"label":"Evaluate","children":[{"label":"Who?"},{"label":"Why?"},{"label":"When?"},{"label":"Evidence"}]},{"label":"Check","children":[{"label":"Lateral reading"},{"label":"Reverse image search"},{"label":"Fact-checking sites"},{"label":"Strong emotions"}]},{"label":"AI","children":[{"label":"Can make things up"},{"label":"Check facts"},{"label":"School rules"}]},{"label":"Honest use","children":[{"label":"Quote"},{"label":"Paraphrase"},{"label":"Source list"},{"label":"Privacy and copyright"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'engelsk-fordypning-9:reliable-sources';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('engelsk-fordypning-9:reliable-sources', 'Reliable source', 'A source you can trust because of its expertise, evidence and purpose.', 0),
+  ('engelsk-fordypning-9:reliable-sources', 'Misinformation', 'False information, often shared by people who believe it is true.', 1),
+  ('engelsk-fordypning-9:reliable-sources', 'Disinformation', 'False information spread on purpose to deceive.', 2),
+  ('engelsk-fordypning-9:reliable-sources', 'Sender', 'The person or organisation behind a source.', 3),
+  ('engelsk-fordypning-9:reliable-sources', 'Up to date', 'Recent enough to still be correct.', 4),
+  ('engelsk-fordypning-9:reliable-sources', 'Evidence', 'Facts, data and references that support a claim.', 5),
+  ('engelsk-fordypning-9:reliable-sources', 'Lateral reading', 'Opening new tabs to see what other sources say about a topic and sender.', 6),
+  ('engelsk-fordypning-9:reliable-sources', 'Reverse image search', 'Searching with a picture to find where else it has been published.', 7),
+  ('engelsk-fordypning-9:reliable-sources', 'Fact-checking', 'Examining whether a claim is true.', 8),
+  ('engelsk-fordypning-9:reliable-sources', 'AI that makes things up', 'AI chatbots can give wrong facts and invent sources.', 9),
+  ('engelsk-fordypning-9:reliable-sources', 'Quote', 'Exact words from a source in quotation marks.', 10),
+  ('engelsk-fordypning-9:reliable-sources', 'Paraphrase', 'Explaining an idea from a source in your own words.', 11),
+  ('engelsk-fordypning-9:reliable-sources', 'Bibliography', 'A list of the sources you have used.', 12),
+  ('engelsk-fordypning-9:reliable-sources', 'Plagiarism', 'Using someone''s words or ideas without giving credit.', 13),
+  ('engelsk-fordypning-9:reliable-sources', 'Creative Commons', 'Licences that let creators allow others to use their work on certain conditions.', 14);
+delete from public.quiz_sporsmal where tema_id = 'engelsk-fordypning-9:reliable-sources';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('engelsk-fordypning-9:reliable-sources', 'q01', 'flervalg', 'What is disinformation?', array['Information that is out of date', 'Information in another language', 'False information spread on purpose', 'Information from a university']::text[], 2, 'Disinformation is meant to deceive.', true, true, 0),
+  ('engelsk-fordypning-9:reliable-sources', 'q02', 'flervalg', 'What is lateral reading?', array['Opening new tabs to see what other sources say about a topic and sender', 'Reading a text from right to left', 'Reading only headlines', 'Reading very fast']::text[], 0, 'Professional fact-checkers use this method.', true, true, 1),
+  ('engelsk-fordypning-9:reliable-sources', 'q03', 'flervalg', 'What can a reverse image search reveal?', array['The photographer''s password', 'The price of the picture', 'How many people liked it', 'Whether a picture is old, edited or taken out of context']::text[], 3, 'Old pictures are often reused in fake news.', true, true, 2),
+  ('engelsk-fordypning-9:reliable-sources', 'q04', 'flervalg', 'What is a paraphrase?', array['An exact quote', 'Explaining an idea in your own words', 'A list of sources', 'A picture']::text[], 1, 'You must still name the source when you paraphrase.', true, true, 3),
+  ('engelsk-fordypning-9:reliable-sources', 'q05', 'flervalg', 'What should you remember about AI chatbots?', array['They are always correct', 'They never make mistakes about sources', 'They should replace all other sources', 'They can make things up and invent sources']::text[], 3, 'Always check important facts in reliable sources.', true, true, 4),
+  ('engelsk-fordypning-9:reliable-sources', 'q06', 'flervalg', 'Why should you check when a source was published?', array['Old sources are always wrong', 'To know the author''s age', 'To make sure the information is still up to date', 'Because dates are required by law']::text[], 2, 'Facts like statistics can change over time.', true, true, 5),
+  ('engelsk-fordypning-9:reliable-sources', 'q07', 'flervalg', 'How should you use Wikipedia?', array['As the only source', 'As a starting point, and check the references', 'Never', 'Only for pictures']::text[], 1, 'Anyone can edit Wikipedia, so check where the information comes from.', true, true, 6),
+  ('engelsk-fordypning-9:reliable-sources', 'q08', 'flervalg', 'What should a source list include?', array['Author, title, website or publisher and dates', 'Only the website name', 'Only your opinion', 'Nothing']::text[], 0, 'The reader should be able to find the source.', true, true, 7),
+  ('engelsk-fordypning-9:reliable-sources', 'q09', 'flervalg', 'Why should you be careful with content that makes you very angry?', array['Because anger is bad for you', 'Because it is always true', 'Because it may be designed to go viral', 'Because it is always old']::text[], 2, 'Strong emotions make people share without checking.', true, false, 8),
+  ('engelsk-fordypning-9:reliable-sources', 'q10', 'flervalg', 'What must you do when you quote someone''s exact words?', array['Change some words', 'Hide the source', 'Translate them into Norwegian', 'Use quotation marks and name the source']::text[], 3, 'This shows clearly which words are not your own.', true, false, 9),
+  ('engelsk-fordypning-9:reliable-sources', 'm01', 'sant-usant', 'All information on the internet is reliable.', array['Sant', 'Usant']::text[], 1, 'Anyone can publish online, so you must evaluate sources.', false, true, 10),
+  ('engelsk-fordypning-9:reliable-sources', 'm02', 'sant-usant', 'Paraphrasing without naming the source can be plagiarism.', array['Sant', 'Usant']::text[], 0, 'The idea still belongs to someone else.', false, true, 11),
+  ('engelsk-fordypning-9:reliable-sources', 'm03', 'sant-usant', 'A good source often gives evidence and references.', array['Sant', 'Usant']::text[], 0, 'References let you check where the information comes from.', false, true, 12),
+  ('engelsk-fordypning-9:reliable-sources', 'm04', 'sant-usant', 'You can publish pictures of other people without asking them.', array['Sant', 'Usant']::text[], 1, 'You need consent to publish pictures of others.', false, true, 13),
+  ('engelsk-fordypning-9:reliable-sources', 'm05', 'flervalg', 'What is misinformation?', array['A reliable news article', 'False information, often shared by people who believe it', 'An exact quote', 'A source list']::text[], 1, 'Misinformation is not necessarily spread on purpose.', false, true, 14),
+  ('engelsk-fordypning-9:reliable-sources', 'm06', 'flervalg', 'Which question helps you evaluate a source?', array['Who made it, and why?', 'What colour is the website?', 'How many pictures does it have?', 'Is it long?']::text[], 0, 'The sender and purpose tell you a lot about reliability.', false, true, 15),
+  ('engelsk-fordypning-9:reliable-sources', 'm07', 'flervalg', 'Which of these can you usually use in your project?', array['Any song from a streaming service', 'A photo from a stranger''s profile', 'A picture with a Creative Commons licence, following the terms', 'A clip from a new cinema film']::text[], 2, 'Creative Commons licences give permission on certain conditions.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('engelsk-fordypning-9:reliable-sources', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
 -- Naturfag (9): rydd bort fjernede temaer
 delete from public.temaer where fag_id = 'naturfag-9' and slug not in ('evolusjon', 'biologisk-mangfold', 'energi', 'energi-og-miljo', 'drivhuseffekten-og-klima', 'sender-og-mottaker', 'programmering-i-naturfag');
 
@@ -6287,7 +7199,509 @@ insert into public.miniprover (tema_id, minutter) values
 on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- KRLE (9): rydd bort fjernede temaer
-delete from public.temaer where fag_id = 'krle-9';
+delete from public.temaer where fag_id = 'krle-9' and slug not in ('hinduismen', 'buddhismen', 'religion-og-historie', 'religiost-mangfold', 'religion-i-populaerkultur', 'etiske-forbilder');
+
+-- KRLE: Hinduismen
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('krle-9:hinduismen', 'krle-9', 'hinduismen', 'Hinduismen', 'Hellige skrifter, sentrale begreper som karma, samsara og moksha, guder og gudinner, veiene til frigjøring, praksis og høytider, og kastesystemet i hinduismen.', array[1, 6]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('krle-9:hinduismen', '## En eldgammel religion
+
+**Hinduismen** er verdens tredje største religion, med rundt 1,2 milliarder tilhengere. De fleste bor i **India** og **Nepal**. Hinduismen har ingen grunnlegger og ingen felles lære som alle må følge. Den har vokst fram over mer enn 3000 år og rommer mange ulike tradisjoner. Mange hinduer kaller religionen **sanatana dharma**, «den evige orden».
+
+## Hellige skrifter
+
+- **Vedaene** er de eldste skriftene, med hymner og ritualer.
+- **Upanishadene** er filosofiske tekster om forholdet mellom mennesket og det guddommelige.
+- De store eposene **Mahabharata** og **Ramayana** forteller om guder og helter. En del av Mahabharata, **Bhagavadgita**, er en av de mest leste hellige tekstene i hinduismen.
+
+## Sentrale begreper
+
+- **Brahman**: den guddommelige kraften som er i alt og bak alt.
+- **Atman**: menneskets sjel eller innerste selv. Mange hinduer mener at atman og Brahman i bunn og grunn er det samme.
+- **Samsara**: kretsløpet av fødsel, død og gjenfødelse.
+- **Karma**: loven om at alle handlinger får følger, i dette eller et senere liv.
+- **Dharma**: plikten og den rette måten å leve på for hver enkelt.
+- **Moksha**: frigjøring fra samsara, det endelige målet.
+
+## Mange guder – én guddom
+
+Hinduismen har mange guder og gudinner. Tre viktige er **Brahma** (skaperen), **Vishnu** (opprettholderen) og **Shiva** (den som ødelegger og fornyer). Ifølge tradisjonen kommer Vishnu til jorda i ulike skikkelser, **avatarer**, som **Rama** og **Krishna**. Populære gudinner er **Lakshmi**, **Durga** og **Sarasvati**, og mange ber til **Ganesha** med elefanthodet. Mange hinduer ser gudene som ulike sider av det samme guddommelige.
+
+## Tre veier til frigjøring
+
+- **Kunnskapens vei**: innsikt gjennom studier og meditasjon
+- **Handlingens vei**: å gjøre pliktene sine uten egoistiske motiver
+- **Hengivelsens vei** (bhakti): kjærlighet til og tilbedelse av en gud
+
+## Praksis og høytider
+
+Den vanligste formen for gudsdyrkelse er **puja**, der man ofrer blomster, mat, lys og røkelse til gudebilder hjemme eller i **tempelet**. Mange drar på **pilegrimsreise**, for eksempel til byen **Varanasi** ved elva Ganges. **Yoga** og meditasjon har røtter i hinduismen. Mange hinduer er vegetarianere, og kua regnes som hellig. Store høytider er **divali**, lysfesten, og **holi**, fargefesten om våren.
+
+## Kastesystemet
+
+Det tradisjonelle samfunnet i India var delt inn i **kaster**, grupper man ble født inn i. Utenfor systemet sto **dalittene**, som ble utsatt for grov diskriminering. Indias grunnlov fra 1950 forbyr kastediskriminering, men den forekommer fortsatt. Mange hinduer mener at kastesystemet ikke hører hjemme i religionen.
+
+## Hinduisme i Norge
+
+Det finnes flere hindutempler i Norge. Mange norske hinduer har bakgrunn fra India eller er tamiler fra Sri Lanka.', '{"label":"Hinduismen","children":[{"label":"Kjennetegn","children":[{"label":"Ingen grunnlegger"},{"label":"Over 3000 år"},{"label":"India og Nepal"}]},{"label":"Skrifter","children":[{"label":"Vedaene"},{"label":"Upanishadene"},{"label":"Mahabharata og Bhagavadgita"},{"label":"Ramayana"}]},{"label":"Begreper","children":[{"label":"Brahman og atman"},{"label":"Samsara"},{"label":"Karma"},{"label":"Dharma"},{"label":"Moksha"}]},{"label":"Guder","children":[{"label":"Brahma"},{"label":"Vishnu","note":"Avatarer"},{"label":"Shiva"},{"label":"Gudinner og Ganesha"}]},{"label":"Praksis","children":[{"label":"Puja og tempel"},{"label":"Tre veier"},{"label":"Divali og holi"},{"label":"Kastesystemet"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'krle-9:hinduismen';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('krle-9:hinduismen', 'Hinduisme', 'Verdens tredje største religion, uten grunnlegger, med røtter over 3000 år tilbake.', 0),
+  ('krle-9:hinduismen', 'Vedaene', 'Hinduismens eldste hellige skrifter, med hymner og ritualer.', 1),
+  ('krle-9:hinduismen', 'Bhagavadgita', 'Del av eposet Mahabharata og en av de mest leste hinduistiske tekstene.', 2),
+  ('krle-9:hinduismen', 'Brahman', 'Den guddommelige kraften som er i alt og bak alt.', 3),
+  ('krle-9:hinduismen', 'Atman', 'Menneskets sjel eller innerste selv.', 4),
+  ('krle-9:hinduismen', 'Samsara', 'Kretsløpet av fødsel, død og gjenfødelse.', 5),
+  ('krle-9:hinduismen', 'Karma', 'Loven om at alle handlinger får følger, i dette eller et senere liv.', 6),
+  ('krle-9:hinduismen', 'Dharma', 'Plikten og den rette måten å leve på.', 7),
+  ('krle-9:hinduismen', 'Moksha', 'Frigjøring fra samsara, det endelige målet.', 8),
+  ('krle-9:hinduismen', 'Brahma, Vishnu og Shiva', 'Skaperen, opprettholderen og den som ødelegger og fornyer.', 9),
+  ('krle-9:hinduismen', 'Avatar', 'En skikkelse en gud tar når den kommer til jorda, som Rama og Krishna.', 10),
+  ('krle-9:hinduismen', 'Bhakti', 'Hengivelsens vei: kjærlighet til og tilbedelse av en gud.', 11),
+  ('krle-9:hinduismen', 'Puja', 'Tilbedelse der man ofrer blomster, mat, lys og røkelse til gudebilder.', 12),
+  ('krle-9:hinduismen', 'Divali', 'Lysfesten, en av hinduismens største høytider.', 13),
+  ('krle-9:hinduismen', 'Dalitter', 'Grupper utenfor kastesystemet som har vært utsatt for grov diskriminering.', 14);
+delete from public.quiz_sporsmal where tema_id = 'krle-9:hinduismen';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('krle-9:hinduismen', 'q01', 'flervalg', 'Hvor bor de fleste hinduer?', array['Kina', 'Indonesia', 'Sri Lanka', 'India og Nepal']::text[], 3, 'Omtrent åtte av ti indere er hinduer.', true, true, 0),
+  ('krle-9:hinduismen', 'q02', 'flervalg', 'Hva er samsara?', array['Frigjøring fra gjenfødelse', 'Kretsløpet av fødsel, død og gjenfødelse', 'En hellig elv', 'En type tempel']::text[], 1, 'Målet er å bli fri fra samsara.', true, true, 1),
+  ('krle-9:hinduismen', 'q03', 'flervalg', 'Hva betyr karma?', array['At alle handlinger får følger', 'Den guddommelige kraften i alt', 'Plikten til å be', 'En høytid']::text[], 0, 'Gode og dårlige handlinger påvirker hvordan man blir født på nytt.', true, true, 2),
+  ('krle-9:hinduismen', 'q04', 'flervalg', 'Hva er moksha?', array['Et tempel', 'En gudinne', 'Frigjøring fra samsara', 'En type yoga']::text[], 2, 'Moksha er det endelige målet i hinduismen.', true, true, 3),
+  ('krle-9:hinduismen', 'q05', 'flervalg', 'Hvilken gud kalles opprettholderen og kommer til jorda som avatarer?', array['Shiva', 'Vishnu', 'Brahma', 'Ganesha']::text[], 1, 'Rama og Krishna regnes som avatarer av Vishnu.', true, true, 4),
+  ('krle-9:hinduismen', 'q06', 'flervalg', 'Hva er puja?', array['En hellig bok', 'En kaste', 'En pilegrimsby', 'Tilbedelse med offergaver til gudebilder']::text[], 3, 'Puja kan gjøres ved et alter hjemme eller i tempelet.', true, true, 5),
+  ('krle-9:hinduismen', 'q07', 'flervalg', 'Hva er Bhagavadgita?', array['En del av eposet Mahabharata', 'Den eldste vedaen', 'En lysfest', 'Et tempel i Varanasi']::text[], 0, 'Teksten er en samtale mellom guden Krishna og krigeren Arjuna.', true, true, 6),
+  ('krle-9:hinduismen', 'q08', 'flervalg', 'Hva er divali?', array['Fargefesten om våren', 'En faste', 'Lysfesten', 'En pilegrimsreise']::text[], 2, 'Under divali tennes lys og lamper som symbol på at det gode seirer.', true, true, 7),
+  ('krle-9:hinduismen', 'q09', 'flervalg', 'Hva sier Indias grunnlov om kastediskriminering?', array['At den er påbudt', 'At den bare gjelder i byene', 'At den er en del av religionen', 'At den er forbudt']::text[], 3, 'Grunnloven fra 1950 forbyr diskriminering på grunn av kaste.', true, false, 8),
+  ('krle-9:hinduismen', 'q10', 'flervalg', 'Hva er atman?', array['Menneskets sjel eller innerste selv', 'En gud med elefanthode', 'En hellig ku', 'Et epos']::text[], 0, 'Mange hinduer mener at atman i bunn og grunn er ett med Brahman.', true, false, 9),
+  ('krle-9:hinduismen', 'm01', 'sant-usant', 'Hinduismen har én grunnlegger, slik kristendommen har Jesus.', array['Sant', 'Usant']::text[], 1, 'Hinduismen har vokst fram gradvis og har ingen grunnlegger.', false, true, 10),
+  ('krle-9:hinduismen', 'm02', 'sant-usant', 'Mange hinduer ser de ulike gudene som sider av det samme guddommelige.', array['Sant', 'Usant']::text[], 0, 'Gudene kan forstås som uttrykk for Brahman.', false, true, 11),
+  ('krle-9:hinduismen', 'm03', 'sant-usant', 'Yoga har røtter i hinduismen.', array['Sant', 'Usant']::text[], 0, 'Yoga var opprinnelig en vei til åndelig innsikt.', false, true, 12),
+  ('krle-9:hinduismen', 'm04', 'sant-usant', 'Alle hinduer følger nøyaktig den samme læren.', array['Sant', 'Usant']::text[], 1, 'Hinduismen rommer svært mange ulike tradisjoner.', false, true, 13),
+  ('krle-9:hinduismen', 'm05', 'flervalg', 'Hva kalles hengivelsens vei?', array['Karma', 'Bhakti', 'Dharma', 'Puja']::text[], 1, 'Bhakti er den mest utbredte veien blant hinduer i dag.', false, true, 14),
+  ('krle-9:hinduismen', 'm06', 'flervalg', 'Hvilken by ved Ganges er et viktig pilegrimsmål?', array['Delhi', 'Mumbai', 'Varanasi', 'Kolkata']::text[], 2, 'Mange ønsker å bli kremert i Varanasi og få asken strødd i Ganges.', false, true, 15),
+  ('krle-9:hinduismen', 'm07', 'flervalg', 'Hva er dharma?', array['Plikten og den rette måten å leve på', 'En hellig elv', 'En type meditasjon', 'En gudinne']::text[], 0, 'Dharma kan være ulik for ulike mennesker og livsfaser.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('krle-9:hinduismen', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- KRLE: Buddhismen
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('krle-9:buddhismen', 'krle-9', 'buddhismen', 'Buddhismen', 'Buddhas liv, de fire edle sannheter og den åttedelte vei, de tre juvelene, de viktigste retningene i buddhismen og buddhistisk praksis i dag.', array[1, 6]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('krle-9:buddhismen', '## Buddhismen i verden
+
+**Buddhismen** har rundt en halv milliard tilhengere, de fleste i Asia, blant annet i Kina, Thailand, Japan, Myanmar, Sri Lanka og Tibet. Buddhismen oppsto i Nord-India for rundt 2500 år siden. Den har ingen skapergud i sentrum, men handler om å forstå hvorfor mennesker lider, og hvordan lidelsen kan ta slutt.
+
+## Buddhas liv
+
+**Siddhartha Gautama** ble ifølge tradisjonen født som prins i **Lumbini** i dagens Nepal. Faren skjermet ham fra alt vondt, men utenfor palasset møtte han en gammel mann, en syk mann, et lik og en asket. Disse **fire møtene** viste ham at alle mennesker blir gamle, syke og dør. Han forlot palasset for å finne en vei ut av lidelsen. Etter år med streng **askese** innså han at verken luksus eller selvpining var veien, men **middelveien**. Under et tre i Bodh Gaya fikk han **oppvåkningen** og ble **Buddha**, «den oppvåknede».
+
+## De fire edle sannheter
+
+1. Livet er preget av **lidelse** og utilfredshet (dukkha).
+2. Lidelsen skyldes **begjær** og tørst etter ting, opplevelser og å holde fast på det som forandrer seg.
+3. Lidelsen kan **opphøre**. Denne tilstanden kalles **nirvana**.
+4. Veien dit er **den åttedelte vei**.
+
+## Den åttedelte vei
+
+Veien består av rett forståelse, rett tanke, rett tale, rett handling, rett levevei, rett innsats, rett oppmerksomhet og rett konsentrasjon. Den kan deles i tre: **visdom**, **moral** og **meditasjon**.
+
+## Andre sentrale ideer
+
+- **Karma** og **samsara**: Handlingene våre får følger, og vi fødes på nytt til vi når nirvana.
+- **Forgjengelighet**: Alt forandrer seg, ingenting er varig.
+- **Ikke-selv**: Det finnes ikke et fast og uforanderlig «jeg».
+- **Medfølelse** med alt levende.
+
+## De tre juvelene
+
+Buddhister søker tilflukt i **de tre juvelene**: **Buddha**, **dharma** (læren) og **sangha** (fellesskapet av munker, nonner og troende). De **fem forskriftene** sier at man ikke skal drepe, stjele, lyve, misbruke seksualitet eller ruse seg.
+
+## Retninger
+
+- **Theravada** er vanligst i Sri Lanka, Thailand og Myanmar. Klosterlivet står sentralt.
+- **Mahayana** er vanligst i Kina, Japan, Korea og Vietnam. Her er **bodhisattvaer** viktige, opplyste vesener som hjelper andre. **Zen** er en mahayanaretning.
+- **Tibetansk buddhisme** ledes av **Dalai Lama** og bruker blant annet mantraer og ritualer.
+
+## Praksis
+
+**Meditasjon** er sentralt for å trene oppmerksomhet og ro. Buddhister besøker **templer** og **stupaer**, gir mat til munker og feirer **vesak**, minnet om Buddhas fødsel, oppvåkning og død. Den moderne treningsformen **mindfulness** har røtter i buddhistisk meditasjon. I Norge har mange buddhister bakgrunn fra blant annet Vietnam, Thailand og Sri Lanka.', '{"label":"Buddhismen","children":[{"label":"Buddha","children":[{"label":"Siddhartha Gautama"},{"label":"De fire møtene"},{"label":"Middelveien"},{"label":"Oppvåkningen"}]},{"label":"Læren","children":[{"label":"Fire edle sannheter"},{"label":"Åttedelt vei"},{"label":"Karma og samsara"},{"label":"Nirvana"}]},{"label":"Tre juveler","children":[{"label":"Buddha"},{"label":"Dharma"},{"label":"Sangha"}]},{"label":"Retninger","children":[{"label":"Theravada"},{"label":"Mahayana og zen"},{"label":"Tibetansk","note":"Dalai Lama"}]},{"label":"Praksis","children":[{"label":"Meditasjon"},{"label":"Fem forskrifter"},{"label":"Templer og stupaer"},{"label":"Vesak"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'krle-9:buddhismen';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('krle-9:buddhismen', 'Buddhisme', 'Religion som oppsto i India for rundt 2500 år siden, med rundt en halv milliard tilhengere.', 0),
+  ('krle-9:buddhismen', 'Siddhartha Gautama', 'Prinsen som ble Buddha. Født i Lumbini i dagens Nepal.', 1),
+  ('krle-9:buddhismen', 'Buddha', '«Den oppvåknede».', 2),
+  ('krle-9:buddhismen', 'De fire møtene', 'En gammel mann, en syk mann, et lik og en asket, som fikk Siddhartha til å forlate palasset.', 3),
+  ('krle-9:buddhismen', 'Middelveien', 'Å unngå både luksus og streng askese.', 4),
+  ('krle-9:buddhismen', 'De fire edle sannheter', 'Lidelse, årsaken til lidelse, at lidelsen kan opphøre, og veien dit.', 5),
+  ('krle-9:buddhismen', 'Dukkha', 'Lidelse og utilfredshet, som ifølge buddhismen preger livet.', 6),
+  ('krle-9:buddhismen', 'Den åttedelte vei', 'Veien ut av lidelsen, delt i visdom, moral og meditasjon.', 7),
+  ('krle-9:buddhismen', 'Nirvana', 'Tilstanden der lidelsen og gjenfødelsen opphører.', 8),
+  ('krle-9:buddhismen', 'De tre juvelene', 'Buddha, dharma (læren) og sangha (fellesskapet).', 9),
+  ('krle-9:buddhismen', 'Sangha', 'Fellesskapet av munker, nonner og troende.', 10),
+  ('krle-9:buddhismen', 'Theravada', 'Buddhistisk retning i Sri Lanka, Thailand og Myanmar, med vekt på klosterliv.', 11),
+  ('krle-9:buddhismen', 'Mahayana', 'Buddhistisk retning i Kina, Japan, Korea og Vietnam, med vekt på bodhisattvaer.', 12),
+  ('krle-9:buddhismen', 'Dalai Lama', 'Leder i tibetansk buddhisme.', 13),
+  ('krle-9:buddhismen', 'Vesak', 'Høytid til minne om Buddhas fødsel, oppvåkning og død.', 14);
+delete from public.quiz_sporsmal where tema_id = 'krle-9:buddhismen';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('krle-9:buddhismen', 'q01', 'flervalg', 'Hva betyr Buddha?', array['Den oppvåknede', 'Den hellige', 'Kongen', 'Læreren fra India']::text[], 0, 'Siddhartha ble kalt Buddha etter oppvåkningen under treet i Bodh Gaya.', true, true, 0),
+  ('krle-9:buddhismen', 'q02', 'flervalg', 'Hva fikk Siddhartha til å forlate palasset?', array['Møter med kongen og dronningen', 'Møter med fire munker i et tempel', 'Møter med en gammel mann, en syk mann, et lik og en asket', 'Møter med fire guder']::text[], 2, 'Møtene viste ham at alle mennesker rammes av lidelse.', true, true, 1),
+  ('krle-9:buddhismen', 'q03', 'flervalg', 'Hva sier den første edle sannheten?', array['At alle skal bli munker', 'At lidelsen kan opphøre', 'At veien er den åttedelte vei', 'At livet er preget av lidelse']::text[], 3, 'Buddhismen starter med å erkjenne at livet inneholder lidelse og utilfredshet.', true, true, 2),
+  ('krle-9:buddhismen', 'q04', 'flervalg', 'Hva skyldes lidelsen ifølge buddhismen?', array['Gudene', 'Begjær og tørst etter ting', 'Dårlig vær', 'Fattigdom']::text[], 1, 'Vi lider fordi vi holder fast på ting som forandrer seg.', true, true, 3),
+  ('krle-9:buddhismen', 'q05', 'flervalg', 'Hva er nirvana?', array['Tilstanden der lidelsen og gjenfødelsen opphører', 'En hellig by', 'Et kloster', 'En gud']::text[], 0, 'Nirvana er målet for buddhister.', true, true, 4),
+  ('krle-9:buddhismen', 'q06', 'flervalg', 'Hva er middelveien?', array['En vei gjennom India', 'Å leve som prins', 'Å unngå både luksus og streng askese', 'En type meditasjon']::text[], 2, 'Buddha hadde prøvd både overflod og selvpining.', true, true, 5),
+  ('krle-9:buddhismen', 'q07', 'flervalg', 'Hva er de tre juvelene?', array['Tre hellige steiner', 'Buddha, læren (dharma) og fellesskapet (sangha)', 'Tre store templer', 'Tre høytider']::text[], 1, 'Å søke tilflukt i de tre juvelene er å bekjenne seg som buddhist.', true, true, 6),
+  ('krle-9:buddhismen', 'q08', 'flervalg', 'Hvilken retning er vanligst i Sri Lanka, Thailand og Myanmar?', array['Mahayana', 'Zen', 'Tibetansk buddhisme', 'Theravada']::text[], 3, 'Theravada betyr «de eldres lære».', true, true, 7),
+  ('krle-9:buddhismen', 'q09', 'flervalg', 'Hvem er leder i tibetansk buddhisme?', array['Paven', 'Keiseren av Japan', 'Dalai Lama', 'Buddha selv']::text[], 2, 'Dalai Lama fikk Nobels fredspris i 1989.', true, false, 8),
+  ('krle-9:buddhismen', 'q10', 'flervalg', 'Hva feires under vesak?', array['Buddhas fødsel, oppvåkning og død', 'Nyttår', 'Innhøstingen', 'Dalai Lamas fødsel']::text[], 0, 'Vesak er den viktigste buddhistiske høytiden.', true, false, 9),
+  ('krle-9:buddhismen', 'm01', 'sant-usant', 'Buddhismen oppsto for rundt 2500 år siden.', array['Sant', 'Usant']::text[], 0, 'Den oppsto i Nord-India.', false, true, 10),
+  ('krle-9:buddhismen', 'm02', 'sant-usant', 'Buddhismen lærer at Buddha er en allmektig skapergud.', array['Sant', 'Usant']::text[], 1, 'Buddha regnes som et menneske som ble oppvåknet, ikke som en skapergud.', false, true, 11),
+  ('krle-9:buddhismen', 'm03', 'sant-usant', 'Mindfulness har røtter i buddhistisk meditasjon.', array['Sant', 'Usant']::text[], 0, 'Mindfulness brukes i dag ofte uten religiøst innhold.', false, true, 12),
+  ('krle-9:buddhismen', 'm04', 'sant-usant', 'Alle buddhister må leve som munker eller nonner.', array['Sant', 'Usant']::text[], 1, 'De fleste buddhister lever vanlige liv og støtter klostrene.', false, true, 13),
+  ('krle-9:buddhismen', 'm05', 'flervalg', 'Hvor ble Siddhartha Gautama født ifølge tradisjonen?', array['Beijing', 'Lumbini i dagens Nepal', 'Tokyo', 'Colombo']::text[], 1, 'Lumbini er i dag et viktig pilegrimsmål.', false, true, 14),
+  ('krle-9:buddhismen', 'm06', 'flervalg', 'Hva er sangha?', array['Et hellig tre', 'En meditasjonsform', 'En gud', 'Fellesskapet av munker, nonner og troende']::text[], 3, 'Sangha er en av de tre juvelene.', false, true, 15),
+  ('krle-9:buddhismen', 'm07', 'flervalg', 'Hvilken av disse hører til den åttedelte vei?', array['Rett tale', 'Rett rikdom', 'Rett makt', 'Rett hevn']::text[], 0, 'Rett tale betyr å unngå løgn, baksnakking og sårende ord.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('krle-9:buddhismen', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- KRLE: Religion i historiske endringer
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('krle-9:religion-og-historie', 'krle-9', 'religion-og-historie', 'Religion i historiske endringer', 'Hvordan kristendom og islam har vært med på å forme historien i verden og i Norge, fra Romerriket og kristningen av Norge til reformasjonen, misjonen og skillet mellom kirke og stat.', array[2]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('krle-9:religion-og-historie', '## Religion og endring
+
+Religioner har vært med på å forme historien. De har samlet riker, skapt lover og kultur, ført til kriger og inspirert kamp for rettferdighet. Samtidig har religionene selv endret seg i møte med nye samfunn.
+
+## Kristendommen blir verdensreligion
+
+De første kristne ble forfulgt i **Romerriket**. I 313 fikk de religionsfrihet under keiser **Konstantin**, og i 380 ble kristendommen statsreligion. Kirken ble etter hvert en av de mektigste institusjonene i Europa. Klostrene tok vare på kunnskap og drev skoler og sykehus.
+
+## Kristningen av Norge
+
+Rundt år 1000 prøvde kongene **Olav Tryggvason** og **Olav Haraldsson** å gjøre Norge kristent, ofte med makt. Olav Haraldsson falt i **slaget på Stiklestad** i **1030**, men ble snart dyrket som helgen, **Olav den hellige**. **Nidaros** (Trondheim) ble et av Nord-Europas viktigste pilegrimsmål. Kristningen førte til store endringer:
+
+- nye lover, blant annet forbud mot å sette ut barn og mot å ofre til de gamle gudene
+- kirker, klostre og en egen **kirkeorganisasjon**, med erkebiskop i Nidaros fra 1150-tallet
+- **skriftkultur** med latinske bokstaver og bøker
+- en ny kalender med kristne høytider
+
+## Islams spredning
+
+Etter Muhammads død spredte islam seg raskt, og på 700-tallet strakte det muslimske riket seg fra **Spania** til **India**. I islams **gullalder** var byer som **Bagdad** sentre for vitenskap. Muslimske lærde utviklet **algebra**, spredte tallsystemet vi bruker i dag, og tok vare på tekstene til greske filosofer.
+
+## Korstog og reformasjon
+
+Fra 1096 til 1291 førte europeiske kristne **korstog** for å erobre Jerusalem. **Reformasjonen**, som Martin Luther startet i 1517, delte kirken i Europa. I Danmark-Norge ble reformasjonen innført i **1537**. Kongen ble kirkens overhode, kirkens eiendommer gikk til kongen, og etter hvert fikk folk Bibelen og gudstjenesten på morsmålet. Striden mellom katolikker og protestanter førte også til blodige kriger.
+
+## Misjon og kolonialisme
+
+Fra 1500-tallet fulgte **misjonærer** med de europeiske kolonimaktene til Amerika, Afrika og Asia. Misjonen bygde skoler og sykehus, men var også en del av en kolonialisme som undertrykte lokale kulturer og religioner. Også norske organisasjoner, som **Det Norske Misjonsselskap** fra 1842, drev misjon, blant annet på **Madagaskar** og i **Sør-Afrika**.
+
+## Religion som drivkraft for rettferdighet
+
+Religiøse ledere har også gått i spissen for endring. **Hans Nielsen Hauge** startet rundt 1800 en vekkelse som styrket selvtilliten og næringslivet blant vanlige folk i Norge. **Martin Luther King** var baptistprest, og **Mahatma Gandhi** bygde sin ikkevoldskamp på hinduistiske og andre religiøse ideer.
+
+## Fra statskirke til livssynsåpent samfunn
+
+**Grunnloven** av 1814 slo fast at den evangelisk-lutherske religion var statens religion. **Dissenterloven** av 1845 ga andre kristne rett til å danne egne trossamfunn. Gradvis ble religionsfriheten utvidet, og i **2017** ble Den norske kirke skilt fra staten som et selvstendig trossamfunn. I dag er Norge et samfunn med mange religioner og livssyn, og religion har fått mindre betydning for mange. Denne utviklingen kalles **sekularisering**.', '{"label":"Religion og historie","children":[{"label":"Kristendommen sprer seg","children":[{"label":"Forfølgelse i Romerriket"},{"label":"Konstantin","note":"313"},{"label":"Statsreligion","note":"380"}]},{"label":"Norge kristnes","children":[{"label":"Olavene"},{"label":"Stiklestad","note":"1030"},{"label":"Nidaros"},{"label":"Lover og skrift"}]},{"label":"Islam","children":[{"label":"Spania til India"},{"label":"Gullalder i Bagdad"},{"label":"Algebra og vitenskap"}]},{"label":"Europa","children":[{"label":"Korstogene"},{"label":"Reformasjonen","note":"1517 / 1537"},{"label":"Religionskriger"}]},{"label":"Misjon og samfunn","children":[{"label":"Misjon og kolonialisme"},{"label":"Hauge, King og Gandhi"},{"label":"Kirke og stat skilt","note":"2017"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'krle-9:religion-og-historie';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('krle-9:religion-og-historie', 'Konstantin', 'Romersk keiser som ga de kristne religionsfrihet i 313.', 0),
+  ('krle-9:religion-og-historie', 'Statsreligion', 'Religion som staten har gjort offisiell. Kristendommen ble det i Romerriket i 380.', 1),
+  ('krle-9:religion-og-historie', 'Kristningen av Norge', 'Overgangen fra norrøn religion til kristendom, særlig rundt år 1000.', 2),
+  ('krle-9:religion-og-historie', 'Slaget på Stiklestad', 'Slaget i 1030 der Olav Haraldsson falt.', 3),
+  ('krle-9:religion-og-historie', 'Olav den hellige', 'Olav Haraldsson, som ble dyrket som helgen etter sin død.', 4),
+  ('krle-9:religion-og-historie', 'Nidaros', 'Trondheim, erkebispesete og et viktig pilegrimsmål i middelalderen.', 5),
+  ('krle-9:religion-og-historie', 'Islams gullalder', 'Periode der byer som Bagdad var sentre for vitenskap og filosofi.', 6),
+  ('krle-9:religion-og-historie', 'Algebra', 'Gren av matematikken som ble utviklet av muslimske lærde.', 7),
+  ('krle-9:religion-og-historie', 'Korstogene', 'Kriger fra 1096 til 1291 for å erobre Jerusalem.', 8),
+  ('krle-9:religion-og-historie', 'Reformasjonen i Norge', 'Innført i Danmark-Norge i 1537. Kongen ble kirkens overhode.', 9),
+  ('krle-9:religion-og-historie', 'Misjon', 'Arbeid for å spre en religion til nye folk.', 10),
+  ('krle-9:religion-og-historie', 'Det Norske Misjonsselskap', 'Norsk misjonsorganisasjon fra 1842, blant annet aktiv på Madagaskar.', 11),
+  ('krle-9:religion-og-historie', 'Hans Nielsen Hauge', 'Lekpredikant som startet en vekkelse i Norge rundt 1800.', 12),
+  ('krle-9:religion-og-historie', 'Dissenterloven', 'Lov fra 1845 som ga andre kristne rett til egne trossamfunn.', 13),
+  ('krle-9:religion-og-historie', 'Sekularisering', 'At religion får mindre betydning i samfunnet og for den enkelte.', 14);
+delete from public.quiz_sporsmal where tema_id = 'krle-9:religion-og-historie';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('krle-9:religion-og-historie', 'q01', 'flervalg', 'Hvilken romersk keiser ga de kristne religionsfrihet i 313?', array['Nero', 'Augustus', 'Konstantin', 'Cæsar']::text[], 2, 'Etter dette vokste kristendommen raskt i Romerriket.', true, true, 0),
+  ('krle-9:religion-og-historie', 'q02', 'flervalg', 'Hva skjedde på Stiklestad i 1030?', array['Olav Haraldsson falt i slag', 'Norge ble kristnet på én dag', 'Nidarosdomen sto ferdig', 'Reformasjonen startet']::text[], 0, 'Kort tid etter ble han dyrket som helgen.', true, true, 1),
+  ('krle-9:religion-og-historie', 'q03', 'flervalg', 'Hvilken endring førte kristningen med seg i Norge?', array['Norrøn religion ble statsreligion', 'Runer ble den eneste skriften', 'Tingene ble avskaffet', 'Nye lover, kirker og skriftkultur']::text[], 3, 'Kirken brakte med seg latinske bokstaver, bøker og en ny organisasjon.', true, true, 2),
+  ('krle-9:religion-og-historie', 'q04', 'flervalg', 'Hva bidro muslimske lærde med i islams gullalder?', array['Boktrykkerkunsten', 'Algebra og bevaring av greske tekster', 'Dampmaskinen', 'Oppdagelsen av Amerika']::text[], 1, 'Mye av den greske filosofien nådde Europa via arabiske oversettelser.', true, true, 3),
+  ('krle-9:religion-og-historie', 'q05', 'flervalg', 'Når ble reformasjonen innført i Danmark-Norge?', array['1030', '1814', '1096', '1537']::text[], 3, 'Norge har vært luthersk siden da.', true, true, 4),
+  ('krle-9:religion-og-historie', 'q06', 'flervalg', 'Hva var korstogene?', array['Europeiske kristnes kriger for å erobre Jerusalem', 'Misjonsreiser til Amerika', 'Pilegrimsreiser til Nidaros', 'Handelsreiser til India']::text[], 0, 'Korstogene varte fra 1096 til 1291.', true, true, 5),
+  ('krle-9:religion-og-historie', 'q07', 'flervalg', 'Hva er en kritikk av misjonen i kolonitiden?', array['At den bygde skoler', 'At den ga folk sykehus', 'At den var en del av en kolonialisme som undertrykte lokale kulturer', 'At den var for liten']::text[], 2, 'Misjonen hadde både positive og negative følger for folkene den møtte.', true, true, 6),
+  ('krle-9:religion-og-historie', 'q08', 'flervalg', 'Hva ga dissenterloven av 1845?', array['Forbud mot alle andre religioner', 'Andre kristne rett til å danne egne trossamfunn', 'Religionsundervisning i skolen', 'Skille mellom kirke og stat']::text[], 1, 'Loven var et viktig steg mot religionsfrihet i Norge.', true, true, 7),
+  ('krle-9:religion-og-historie', 'q09', 'flervalg', 'Når ble Den norske kirke skilt fra staten som et selvstendig trossamfunn?', array['2017', '1814', '1905', '1945']::text[], 0, 'Grunnloven ble endret allerede i 2012, og skillet trådte i kraft i 2017.', true, false, 8),
+  ('krle-9:religion-og-historie', 'q10', 'flervalg', 'Hvem startet en vekkelse i Norge rundt 1800?', array['Martin Luther', 'Olav Tryggvason', 'Thomas von Westen', 'Hans Nielsen Hauge']::text[], 3, 'Hauge-bevegelsen styrket også vanlige folks selvtillit og næringsliv.', true, false, 9),
+  ('krle-9:religion-og-historie', 'm01', 'sant-usant', 'De første kristne ble forfulgt i Romerriket.', array['Sant', 'Usant']::text[], 0, 'Forfølgelsen tok slutt da Konstantin ga dem religionsfrihet i 313.', false, true, 10),
+  ('krle-9:religion-og-historie', 'm02', 'sant-usant', 'Kristningen av Norge skjedde helt fredelig.', array['Sant', 'Usant']::text[], 1, 'Kongene brukte ofte makt og tvang for å kristne folket.', false, true, 11),
+  ('krle-9:religion-og-historie', 'm03', 'sant-usant', 'Etter reformasjonen ble kongen overhode for kirken i Danmark-Norge.', array['Sant', 'Usant']::text[], 0, 'Paven mistet all makt over kirken i Norge.', false, true, 12),
+  ('krle-9:religion-og-historie', 'm04', 'sant-usant', 'Religion har bare ført til konflikter og aldri til positiv endring.', array['Sant', 'Usant']::text[], 1, 'Religion har også inspirert kamp for rettferdighet, utdanning og omsorg.', false, true, 13),
+  ('krle-9:religion-og-historie', 'm05', 'flervalg', 'Hvilken by ble et viktig pilegrimsmål etter Olav den hellige?', array['Bergen', 'Oslo', 'Nidaros (Trondheim)', 'Stavanger']::text[], 2, 'Olav ble gravlagt i Nidaros, der Nidarosdomen senere ble bygd.', false, true, 14),
+  ('krle-9:religion-og-historie', 'm06', 'flervalg', 'Hvor drev Det Norske Misjonsselskap blant annet misjon?', array['Island', 'Madagaskar', 'Grønland', 'Sicilia']::text[], 1, 'Misjonsselskapet var også aktivt i Sør-Afrika.', false, true, 15),
+  ('krle-9:religion-og-historie', 'm07', 'flervalg', 'Hva er sekularisering?', array['At religion får mindre betydning i samfunnet', 'At det bygges flere kirker', 'At staten får en ny religion', 'At flere går i kirken']::text[], 0, 'Sekularisering har preget Norge og mange andre land de siste hundre årene.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('krle-9:religion-og-historie', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- KRLE: Religiøst mangfold og nyreligiøsitet
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('krle-9:religiost-mangfold', 'krle-9', 'religiost-mangfold', 'Religiøst mangfold og nyreligiøsitet', 'Det religiøse landskapet i Norge, nyreligiøsitet og alternativ spiritualitet, nye religiøse bevegelser, folkereligiøsitet og sivilreligion, og hvordan du kan vurdere slike praksiser kritisk.', array[4]::int[], 3, 'sjekkes', array['Andelen medlemmer i Den norske kirke (rundt 60 prosent) bør sjekkes mot ferske tall fra SSB.']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('krle-9:religiost-mangfold', '## Et mangfoldig religiøst landskap
+
+Norge har i dag et stort **religiøst mangfold**. Rundt 60 prosent er medlemmer av Den norske kirke, men det finnes også hundrevis av andre **tros- og livssynssamfunn**: katolske og ortodokse kirker, frikirker, moskeer, templer, synagoger, buddhistiske sentre og humanistiske organisasjoner. Samtidig er det mange som tror på eller praktiserer noe religiøst **utenfor** de etablerte religionssamfunnene.
+
+## Nyreligiøsitet og alternativ spiritualitet
+
+**Nyreligiøsitet**, eller alternativ spiritualitet, er en samlebetegnelse for tro og praksiser som ofte blander elementer fra ulike religioner, psykologi og naturvitenskapelige begreper. Eksempler er
+
+- **healing** og tro på energier som kan helbrede
+- **astrologi**, horoskoper og tarotkort
+- tro på **engler** og kontakt med de døde gjennom **medier**
+- **krystaller** og steiner med antatte krefter
+- **reinkarnasjon**, troen på at sjelen blir født på nytt
+
+Et fellestrekk er vekt på **den enkeltes erfaring** og personlige utvikling. Mange mener at det guddommelige finnes inne i mennesket selv. Man velger det som passer for seg, og dette kalles ofte **privatreligiøsitet**.
+
+## Praksiser med ny betydning
+
+- **Yoga**, **meditasjon** og **mindfulness** har røtter i hinduisme og buddhisme, men praktiseres av mange uten religiøst innhold.
+- **Pilegrimsvandring**, for eksempel langs **St. Olavsleden** til Nidaros, er blitt populært igjen, både som religiøs praksis og som naturopplevelse.
+- **Sjamanisme** og norrøn tro, **åsatro**, har fått nye tilhengere. Noen åsatrusamfunn er registrerte trossamfunn.
+
+## Nye religiøse bevegelser
+
+Noen bevegelser som har oppstått de siste 200 årene, er **Jehovas vitner**, **Jesu Kristi Kirke av Siste Dagers Hellige** (mormonene), **bahá''í** og **Hare Krishna**-bevegelsen. De har egne organisasjoner, men blir ofte sett på som annerledes av majoriteten.
+
+## Folkereligiøsitet og sivilreligion
+
+Mange har **folkereligiøse** vaner uten å tenke over det: å banke i bordet, å unngå tallet 13 eller å legge ned blomster og lys der noen har dødd. **Sivilreligion** er ritualer og symboler som samler et folk, som feiringen av 17. mai og minnemarkeringer etter nasjonale tragedier.
+
+## Å vurdere kritisk
+
+Religionsfriheten gir alle rett til å tro og praktisere det de vil. Samtidig er det viktig å være **kritisk** når noen hevder at alternative metoder kan kurere sykdommer, eller når tro blir en lønnsom forretning. I Norge regulerer **lov om alternativ behandling** hva utøvere har lov til, blant annet er det begrensninger på å behandle alvorlige sykdommer. Man kan vise respekt for andres tro og samtidig stille spørsmål ved påstander som kan undersøkes.', '{"label":"Religiøst mangfold","children":[{"label":"Landskapet","children":[{"label":"Den norske kirke"},{"label":"Andre trossamfunn"},{"label":"Livssynssamfunn"}]},{"label":"Nyreligiøsitet","children":[{"label":"Healing"},{"label":"Astrologi og tarot"},{"label":"Engler og medier"},{"label":"Reinkarnasjon"},{"label":"Egen erfaring"}]},{"label":"Praksiser","children":[{"label":"Yoga og mindfulness"},{"label":"Pilegrimsvandring"},{"label":"Sjamanisme og åsatro"}]},{"label":"Bevegelser og folketro","children":[{"label":"Nye religiøse bevegelser"},{"label":"Folkereligiøsitet"},{"label":"Sivilreligion"}]},{"label":"Kritisk blikk","children":[{"label":"Religionsfrihet"},{"label":"Helsepåstander"},{"label":"Lov om alternativ behandling"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'krle-9:religiost-mangfold';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('krle-9:religiost-mangfold', 'Religiøst mangfold', 'At mange ulike religioner og livssyn finnes side om side i et samfunn.', 0),
+  ('krle-9:religiost-mangfold', 'Tros- og livssynssamfunn', 'Organisert fellesskap for en religion eller et livssyn.', 1),
+  ('krle-9:religiost-mangfold', 'Nyreligiøsitet', 'Tro og praksiser som blander elementer fra ulike tradisjoner og vektlegger egen erfaring.', 2),
+  ('krle-9:religiost-mangfold', 'Alternativ spiritualitet', 'Annet ord for nyreligiøsitet, for eksempel healing, astrologi og engletro.', 3),
+  ('krle-9:religiost-mangfold', 'Healing', 'Tro på at energier eller håndspåleggelse kan helbrede.', 4),
+  ('krle-9:religiost-mangfold', 'Astrologi', 'Troen på at stjernenes og planetenes stilling påvirker livet vårt.', 5),
+  ('krle-9:religiost-mangfold', 'Reinkarnasjon', 'Troen på at sjelen blir født på nytt i en ny kropp.', 6),
+  ('krle-9:religiost-mangfold', 'Privatreligiøsitet', 'At den enkelte selv velger og setter sammen det hun eller han tror på.', 7),
+  ('krle-9:religiost-mangfold', 'Mindfulness', 'Oppmerksomhetstrening med røtter i buddhistisk meditasjon.', 8),
+  ('krle-9:religiost-mangfold', 'St. Olavsleden', 'Pilegrimsled til Nidaros som er blitt populær igjen.', 9),
+  ('krle-9:religiost-mangfold', 'Åsatro', 'Norrøn tro som har fått nye tilhengere i vår tid.', 10),
+  ('krle-9:religiost-mangfold', 'Nye religiøse bevegelser', 'Bevegelser fra de siste 200 årene, som Jehovas vitner og bahá''í.', 11),
+  ('krle-9:religiost-mangfold', 'Folkereligiøsitet', 'Religiøse vaner og overtro i hverdagen, som å banke i bordet.', 12),
+  ('krle-9:religiost-mangfold', 'Sivilreligion', 'Ritualer og symboler som samler et folk, som 17. mai.', 13),
+  ('krle-9:religiost-mangfold', 'Lov om alternativ behandling', 'Norsk lov som regulerer hva utøvere av alternativ behandling har lov til.', 14);
+delete from public.quiz_sporsmal where tema_id = 'krle-9:religiost-mangfold';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('krle-9:religiost-mangfold', 'q01', 'flervalg', 'Hva er nyreligiøsitet?', array['En ny kristen kirke', 'Tro og praksiser som blander elementer fra ulike tradisjoner og vektlegger egen erfaring', 'En type ateisme', 'Et politisk parti']::text[], 1, 'Nyreligiøsitet kalles også alternativ spiritualitet.', true, true, 0),
+  ('krle-9:religiost-mangfold', 'q02', 'flervalg', 'Hva er et eksempel på alternativ spiritualitet?', array['Nattverd', 'Fredagsbønn', 'Sabbat', 'Healing med energier']::text[], 3, 'De andre er praksiser i etablerte religioner.', true, true, 1),
+  ('krle-9:religiost-mangfold', 'q03', 'flervalg', 'Hva er privatreligiøsitet?', array['At man selv velger og setter sammen det man tror på', 'At man ber alene i kirken', 'At religion er forbudt', 'At staten bestemmer religion']::text[], 0, 'Mange henter elementer fra flere tradisjoner.', true, true, 2),
+  ('krle-9:religiost-mangfold', 'q04', 'flervalg', 'Hvilken praksis har røtter i buddhismen, men brukes ofte uten religiøst innhold?', array['Nattverd', 'Faste i ramadan', 'Mindfulness', 'Omskjæring']::text[], 2, 'Mindfulness brukes blant annet i skoler og helsevesen.', true, true, 3),
+  ('krle-9:religiost-mangfold', 'q05', 'flervalg', 'Hva er St. Olavsleden?', array['En gammel handelsvei til Sverige', 'En skiløype', 'En pilegrimsled til Nidaros', 'En kirke i Oslo']::text[], 2, 'Pilegrimsvandring har fått en ny oppblomstring de siste tiårene.', true, true, 4),
+  ('krle-9:religiost-mangfold', 'q06', 'flervalg', 'Hva er åsatro?', array['En buddhistisk retning', 'Norrøn tro som har fått nye tilhengere', 'En type yoga', 'En katolsk orden']::text[], 1, 'Noen åsatrusamfunn er registrerte trossamfunn i Norge.', true, true, 5),
+  ('krle-9:religiost-mangfold', 'q07', 'flervalg', 'Hva er sivilreligion?', array['En religion for sivile, ikke soldater', 'En ny religiøs bevegelse', 'Religion i privatlivet', 'Ritualer og symboler som samler et folk, som 17. mai']::text[], 3, 'Sivilreligion viser seg også i minnemarkeringer etter nasjonale tragedier.', true, true, 6),
+  ('krle-9:religiost-mangfold', 'q08', 'flervalg', 'Hvilken av disse er en ny religiøs bevegelse?', array['Jehovas vitner', 'Den katolske kirke', 'Sunni-islam', 'Ortodoks jødedom']::text[], 0, 'Jehovas vitner oppsto i USA på 1870-tallet.', true, true, 7),
+  ('krle-9:religiost-mangfold', 'q09', 'flervalg', 'Hvorfor er det viktig å være kritisk til noen alternative behandlingsformer?', array['Fordi all tro er feil', 'Fordi noen hevder å kunne kurere sykdommer uten dokumentasjon', 'Fordi de er forbudt', 'Fordi de alltid er dyre']::text[], 1, 'Å velge bort vanlig behandling kan være farlig ved alvorlig sykdom.', true, false, 8),
+  ('krle-9:religiost-mangfold', 'q10', 'flervalg', 'Hva er et eksempel på folkereligiøsitet?', array['Å konfirmere seg', 'Å gå i moskeen', 'Å lese Koranen', 'Å banke i bordet for å unngå uhell']::text[], 3, 'Folkereligiøse vaner følges ofte uten at man tenker over dem.', true, false, 9),
+  ('krle-9:religiost-mangfold', 'm01', 'sant-usant', 'Mange i Norge praktiserer noe religiøst utenfor de etablerte religionssamfunnene.', array['Sant', 'Usant']::text[], 0, 'For eksempel healing, astrologi, meditasjon eller pilegrimsvandring.', false, true, 10),
+  ('krle-9:religiost-mangfold', 'm02', 'sant-usant', 'Yoga kan bare praktiseres av hinduer.', array['Sant', 'Usant']::text[], 1, 'Yoga har røtter i hinduismen, men praktiseres av mange uten religiøst innhold.', false, true, 11),
+  ('krle-9:religiost-mangfold', 'm03', 'sant-usant', 'Religionsfriheten gir alle rett til å tro på det de vil.', array['Sant', 'Usant']::text[], 0, 'Religionsfrihet er en menneskerettighet.', false, true, 12),
+  ('krle-9:religiost-mangfold', 'm04', 'sant-usant', 'Nyreligiøsitet legger vanligvis mest vekt på en felles, fast lære.', array['Sant', 'Usant']::text[], 1, 'Nyreligiøsitet vektlegger som regel den enkeltes erfaring og valg.', false, true, 13),
+  ('krle-9:religiost-mangfold', 'm05', 'flervalg', 'Hva er reinkarnasjon?', array['Troen på at sjelen blir født på nytt', 'Troen på engler', 'En type healing', 'Troen på én Gud']::text[], 0, 'Ideen finnes blant annet i hinduisme og buddhisme, og hos mange nyreligiøse.', false, true, 14),
+  ('krle-9:religiost-mangfold', 'm06', 'flervalg', 'Hva er astrologi?', array['Vitenskapen om stjerner og planeter', 'Troen på at stjernenes og planetenes stilling påvirker livet vårt', 'En type meditasjon', 'En pilegrimsreise']::text[], 1, 'Vitenskapen om himmellegemene heter astronomi.', false, true, 15),
+  ('krle-9:religiost-mangfold', 'm07', 'flervalg', 'Hva regulerer lov om alternativ behandling?', array['Hvem som kan bli prest', 'Hvilke høytider som er fridager', 'Hva utøvere av alternativ behandling har lov til', 'Hvor mange trossamfunn det kan være']::text[], 2, 'Loven skal beskytte pasienter, særlig ved alvorlig sykdom.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('krle-9:religiost-mangfold', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- KRLE: Religion i medier og populærkultur
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('krle-9:religion-i-populaerkultur', 'krle-9', 'religion-i-populaerkultur', 'Religion i medier og populærkultur', 'Hvordan elementer fra kristendom og andre religioner og livssyn dukker opp i film, serier, musikk, spill og reklame, og hvordan religion framstilles og debatteres i mediene.', array[9]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('krle-9:religion-i-populaerkultur', '## Religion overalt
+
+Selv om mange ikke er religiøse, møter vi religion hele tiden i **medier og populærkultur**: i filmer, serier, musikk, spill, reklame og sosiale medier. Religioner har store fortellinger, sterke symboler og kjente figurer som kunstnere gjerne låner fra. Kunnskap om religion gjør det lettere å oppdage og forstå slike referanser.
+
+## Film og serier
+
+- **Kristusfigurer** er personer som ofrer seg for andre, dør eller nesten dør, og kommer tilbake. Løven **Aslan** i *Narnia*, som C.S. Lewis skrev med kristen bakgrunn, er et tydelig eksempel. Også **Harry Potter** og **Neo** i *The Matrix* har trekk av frelserfigurer.
+- *The Matrix* bruker også ideer fra hinduisme og buddhisme om at verden vi ser, er en illusjon.
+- **Kraften** og jediene i *Star Wars* minner om ideer fra buddhisme og daoisme, med meditasjon og balanse.
+- **Norrøn mytologi** dukker opp i Marvel-filmene om **Thor** og i serien *Ragnarok*.
+- I NRK-serien *Skam* var **Sana** en muslimsk hovedperson, og serien fikk ros for å vise en ung muslim på en nyansert måte.
+
+## Musikk
+
+**Gospel** og **spirituals** vokste fram blant svarte kristne i USA og har påvirket soul, rock og pop. Mange sanger bruker bibelske bilder, som Leonard Cohens *Hallelujah*. Julesanger er kanskje den mest kjente religiøse musikken. Samtidig har noen miljøer, som deler av norsk **black metal** på 1990-tallet, gjort opprør mot kristendommen.
+
+## Spill
+
+Spill som *God of War* og *Age of Mythology* bygger på gresk og norrøn mytologi. Andre spill lar spilleren utforske historiske religiøse konflikter eller møte guder og ånder.
+
+## Reklame og hverdagskultur
+
+Reklame bruker ofte religiøse symboler, som engler, glorier og ordet «himmelsk», for å gi produkter et preg av noe rent og godt. Kors og andre religiøse symboler brukes også som smykker og mote, noen ganger uten at den som bærer dem, er religiøs.
+
+## Humor, kritikk og krenkelse
+
+Religion har lenge vært et tema for **satire**. Filmen *Life of Brian* (1979) vakte sterke reaksjoner, og **Muhammed-tegningene** i 2005 førte til protester i mange land. Slike saker reiser spørsmål om **ytringsfrihet** og **respekt** for andres tro. I Norge er **blasfemiparagrafen**, som forbød å håne religion, fjernet fra straffeloven. Hatefulle ytringer mot mennesker på grunn av religion er fortsatt forbudt.
+
+## Hvordan framstilles religion?
+
+Medier kan forsterke **stereotypier**, for eksempel når muslimer mest vises i nyheter om konflikt og terror, eller når kristne framstilles som trangsynte. Når du ser en film eller serie, kan du spørre: Hvilke religiøse elementer brukes? Hvordan framstilles de troende? Og hvem har laget framstillingen?', '{"label":"Religion i populærkultur","children":[{"label":"Film og serier","children":[{"label":"Kristusfigurer"},{"label":"Matrix og Star Wars"},{"label":"Thor og Ragnarok"},{"label":"Skam"}]},{"label":"Musikk","children":[{"label":"Gospel og spirituals"},{"label":"Bibelske bilder"},{"label":"Opprør i black metal"}]},{"label":"Spill og reklame","children":[{"label":"Mytologi i spill"},{"label":"Engler og glorier"},{"label":"Symboler som mote"}]},{"label":"Humor og kritikk","children":[{"label":"Satire"},{"label":"Life of Brian"},{"label":"Muhammed-tegningene"},{"label":"Ytringsfrihet og respekt"}]},{"label":"Framstilling","children":[{"label":"Stereotypier"},{"label":"Nyanserte bilder"},{"label":"Hvem forteller?"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'krle-9:religion-i-populaerkultur';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('krle-9:religion-i-populaerkultur', 'Populærkultur', 'Kultur som når mange, som film, serier, musikk, spill og reklame.', 0),
+  ('krle-9:religion-i-populaerkultur', 'Kristusfigur', 'Person i en fortelling som ofrer seg for andre og kommer tilbake.', 1),
+  ('krle-9:religion-i-populaerkultur', 'Aslan', 'Løven i Narnia, en tydelig Kristusfigur.', 2),
+  ('krle-9:religion-i-populaerkultur', 'The Matrix', 'Film med frelserfiguren Neo og ideen om at verden er en illusjon.', 3),
+  ('krle-9:religion-i-populaerkultur', 'Kraften i Star Wars', 'Ide som minner om buddhisme og daoisme, med meditasjon og balanse.', 4),
+  ('krle-9:religion-i-populaerkultur', 'Norrøn mytologi i film', 'Brukes blant annet i Marvel-filmene om Thor og i serien Ragnarok.', 5),
+  ('krle-9:religion-i-populaerkultur', 'Sana i Skam', 'Muslimsk hovedperson som fikk ros for en nyansert framstilling.', 6),
+  ('krle-9:religion-i-populaerkultur', 'Gospel', 'Kristen musikk som vokste fram blant svarte kristne i USA.', 7),
+  ('krle-9:religion-i-populaerkultur', 'Spirituals', 'Religiøse sanger fra slaveriets tid i USA, forløperen til gospel.', 8),
+  ('krle-9:religion-i-populaerkultur', 'Religiøse symboler i reklame', 'Engler, glorier og «himmelsk» brukes for å gi produkter et rent og godt preg.', 9),
+  ('krle-9:religion-i-populaerkultur', 'Satire', 'Humor og kritikk som gjør narr av noe.', 10),
+  ('krle-9:religion-i-populaerkultur', 'Life of Brian', 'Film fra 1979 som vakte sterke reaksjoner for måten den behandlet religion på.', 11),
+  ('krle-9:religion-i-populaerkultur', 'Muhammed-tegningene', 'Tegninger fra 2005 som førte til protester og debatt om ytringsfrihet og respekt.', 12),
+  ('krle-9:religion-i-populaerkultur', 'Blasfemiparagrafen', 'Tidligere bestemmelse som forbød å håne religion. Den er fjernet fra straffeloven.', 13),
+  ('krle-9:religion-i-populaerkultur', 'Stereotypi', 'Forenklet bilde av en gruppe, for eksempel av troende i en religion.', 14);
+delete from public.quiz_sporsmal where tema_id = 'krle-9:religion-i-populaerkultur';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('krle-9:religion-i-populaerkultur', 'q01', 'flervalg', 'Hva er en Kristusfigur i en film?', array['En skuespiller som spiller Jesus', 'En prest i en film', 'En figur som alltid er ond', 'En person som ofrer seg for andre og kommer tilbake']::text[], 3, 'Figuren trenger ikke være religiøs, men ligner Jesus i det den gjør.', true, true, 0),
+  ('krle-9:religion-i-populaerkultur', 'q02', 'flervalg', 'Hvilken figur i Narnia regnes som en tydelig Kristusfigur?', array['Løven Aslan', 'Den hvite heksa', 'Faunen Tumnus', 'Peter']::text[], 0, 'Aslan ofrer livet for Edmund og står opp igjen.', true, true, 1),
+  ('krle-9:religion-i-populaerkultur', 'q03', 'flervalg', 'Hvilken mytologi bygger Marvel-filmene om Thor på?', array['Gresk', 'Egyptisk', 'Norrøn', 'Romersk']::text[], 2, 'Tor var tordenguden i norrøn religion.', true, true, 2),
+  ('krle-9:religion-i-populaerkultur', 'q04', 'flervalg', 'Hvor vokste gospel og spirituals fram?', array['Blant munker i Europa', 'Blant svarte kristne i USA', 'I norske bedehus', 'I India']::text[], 1, 'Musikken har påvirket soul, rock og pop.', true, true, 3),
+  ('krle-9:religion-i-populaerkultur', 'q05', 'flervalg', 'Hvilken religiøs idé bruker The Matrix blant annet?', array['At verden vi ser, er en illusjon', 'At man skal faste i ramadan', 'At sabbaten er hellig', 'At kua er hellig']::text[], 0, 'Ideen finnes blant annet i hinduisme og buddhisme.', true, true, 4),
+  ('krle-9:religion-i-populaerkultur', 'q06', 'flervalg', 'Hvorfor bruker reklame ofte engler og glorier?', array['Fordi det er påbudt', 'Fordi alle kunder er religiøse', 'For å gjøre produktet dyrere', 'For å gi produktet et preg av noe rent og godt']::text[], 3, 'Religiøse symboler har sterke assosiasjoner som reklamen utnytter.', true, true, 5),
+  ('krle-9:religion-i-populaerkultur', 'q07', 'flervalg', 'Hvilke spørsmål reiste Muhammed-tegningene i 2005?', array['Spørsmål om skatt og avgifter', 'Spørsmål om ytringsfrihet og respekt for andres tro', 'Spørsmål om klimaendringer', 'Spørsmål om skolemat']::text[], 1, 'Saken skapte debatt og protester i mange land.', true, true, 6),
+  ('krle-9:religion-i-populaerkultur', 'q08', 'flervalg', 'Hva var blasfemiparagrafen?', array['En regel om julefeiring', 'En lov om kirkebygg', 'En bestemmelse som forbød å håne religion', 'En lov om religionsfrihet']::text[], 2, 'Bestemmelsen er fjernet fra straffeloven.', true, true, 7),
+  ('krle-9:religion-i-populaerkultur', 'q09', 'flervalg', 'Hvorfor fikk serien Skam ros for karakteren Sana?', array['Fordi hun viste en ung muslim på en nyansert måte', 'Fordi hun var skurken', 'Fordi hun var prest', 'Fordi hun ikke hadde noen religion']::text[], 0, 'Mange mente serien motvirket stereotypier om muslimer.', true, false, 8),
+  ('krle-9:religion-i-populaerkultur', 'q10', 'flervalg', 'Hvilket spørsmål er nyttig når du analyserer religion i en film?', array['Hvor lang er filmen?', 'Hvor mye kostet billetten?', 'Hvordan framstilles de troende?', 'Hvem er vennene til skuespillerne?']::text[], 2, 'Framstillingen kan påvirke hvordan seerne ser på en religion.', true, false, 9),
+  ('krle-9:religion-i-populaerkultur', 'm01', 'sant-usant', 'Kunnskap om religion gjør det lettere å forstå referanser i film og musikk.', array['Sant', 'Usant']::text[], 0, 'Mange fortellinger låner motiver fra religiøse tekster.', false, true, 10),
+  ('krle-9:religion-i-populaerkultur', 'm02', 'sant-usant', 'Det er forbudt å lage satire om religion i Norge.', array['Sant', 'Usant']::text[], 1, 'Satire om religion er lov, men hatefulle ytringer mot mennesker er forbudt.', false, true, 11),
+  ('krle-9:religion-i-populaerkultur', 'm03', 'sant-usant', 'Hatefulle ytringer mot mennesker på grunn av religion er forbudt i Norge.', array['Sant', 'Usant']::text[], 0, 'Straffeloven verner mennesker, ikke religioner som sådan.', false, true, 12),
+  ('krle-9:religion-i-populaerkultur', 'm04', 'sant-usant', 'Religiøse symboler brukes bare av religiøse mennesker.', array['Sant', 'Usant']::text[], 1, 'Kors og andre symboler brukes også som mote og i reklame.', false, true, 13),
+  ('krle-9:religion-i-populaerkultur', 'm05', 'flervalg', 'Hvilke religiøse tradisjoner minner Kraften og jediene i Star Wars om?', array['Islam', 'Jødedom', 'Buddhisme og daoisme', 'Norrøn religion']::text[], 2, 'Jediene mediterer og søker balanse, omtrent som munker.', false, true, 14),
+  ('krle-9:religion-i-populaerkultur', 'm06', 'flervalg', 'Hva er satire?', array['Humor og kritikk som gjør narr av noe', 'En type bønn', 'En hellig tekst', 'En religiøs høytid']::text[], 0, 'Satire er en gammel form for samfunnskritikk.', false, true, 15),
+  ('krle-9:religion-i-populaerkultur', 'm07', 'flervalg', 'Hvilken film fra 1979 vakte sterke reaksjoner for måten den behandlet religion på?', array['Star Wars', 'Life of Brian', 'Løvenes konge', 'Titanic']::text[], 1, 'Filmen ble en tid forbudt i flere land, blant annet i Norge.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('krle-9:religion-i-populaerkultur', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- KRLE: Etiske forbilder i religioner og livssyn
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('krle-9:etiske-forbilder', 'krle-9', 'etiske-forbilder', 'Etiske forbilder i religioner og livssyn', 'Etiske ideer fra Jesus, Muhammad, Buddha, Hillel og Konfutse, moderne forbilder som Gandhi, Martin Luther King og Desmond Tutu, og likheter og forskjeller mellom dem.', array[10]::int[], 5, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('krle-9:etiske-forbilder', '## Forbilder i etikken
+
+Alle religioner og livssyn har **sentrale skikkelser** som mange ser opp til. Ordene og handlingene deres gir retning for hvordan man bør leve. Når vi sammenligner dem, ser vi både **fellestrekk** og **forskjeller**.
+
+## Jesus
+
+**Jesus** forkynte **nestekjærlighet**: «Du skal elske din neste som deg selv.» I **Bergprekenen** gikk han lenger: «Elsk deres fiender.» Lignelsen om **den barmhjertige samaritan** viser at nesten er den som trenger hjelp, uansett hvem det er. Jesus formulerte også **den gylne regel**: «Alt dere vil at andre skal gjøre mot dere, skal dere gjøre mot dem.»
+
+## Muhammad
+
+Ifølge islamsk tradisjon la **Muhammad** vekt på **rettferdighet**, **barmhjertighet** og omsorg for fattige, enker og foreldreløse. Et kjent hadith sier at ingen virkelig tror før han ønsker for sin bror det han ønsker for seg selv. **Zakat**, plikten til å gi til de fattige, er en av islams søyler.
+
+## Buddha
+
+**Buddha** lærte **medfølelse** med alt levende og **ikkevold**. De **fem forskriftene** sier blant annet at man ikke skal drepe, stjele eller lyve. **Middelveien** betyr å unngå ytterpunkter, og handlingene våre får følger gjennom **karma**.
+
+## Hillel og Konfutse
+
+Den jødiske læreren **Hillel** levde omtrent på Jesu tid. Han sa: «Det som er hatefullt for deg, skal du ikke gjøre mot din neste. Det er hele Toraen, resten er forklaring.» Den kinesiske filosofen **Konfutse** sa noe lignende rundt 500 år tidligere. Han la også vekt på respekt for foreldre, gode relasjoner og at ledere skal være gode forbilder.
+
+## Moderne forbilder
+
+- **Mahatma Gandhi** bygde på hinduistiske ideer om **ahimsa**, ikkevold, og ledet Indias kamp for selvstendighet uten våpen.
+- **Martin Luther King** var baptistprest og bygde på Jesu kjærlighetsbud og Gandhis metoder i kampen mot rasisme i USA.
+- **Mor Teresa**, en katolsk nonne, stelte syke og døende i Kolkata og fikk Nobels fredspris i 1979.
+- **Dalai Lama**, lederen i tibetansk buddhisme, har gjort medfølelse og ikkevold kjent over hele verden.
+- **Desmond Tutu** var anglikansk erkebiskop og kjempet mot apartheid i Sør-Afrika. Han la vekt på **forsoning** og tanken om **ubuntu**: «Jeg er fordi vi er.»
+
+## Sammenligning
+
+**Fellestrekk**: Nesten alle tradisjoner har en variant av **den gylne regel**, og mange vektlegger medfølelse, ikkevold, rettferdighet og omsorg for de svake.
+
+**Forskjeller**: Begrunnelsen varierer. Noen viser til **Guds bud**, andre til **karma**, fornuft eller menneskelig erfaring. Tradisjonene er også ulike i synet på for eksempel om vold noen gang kan være rett.
+
+Forbilder er mennesker, og mange av dem har også blitt kritisert. Det kan derfor være nyttig å skille mellom ideene og personen.', '{"label":"Etiske forbilder","children":[{"label":"Religionsstiftere","children":[{"label":"Jesus","note":"Nestekjærlighet"},{"label":"Muhammad","note":"Barmhjertighet og rettferd"},{"label":"Buddha","note":"Medfølelse og ikkevold"}]},{"label":"Lærere","children":[{"label":"Hillel"},{"label":"Konfutse"},{"label":"Den gylne regel"}]},{"label":"Moderne forbilder","children":[{"label":"Gandhi"},{"label":"Martin Luther King"},{"label":"Mor Teresa"},{"label":"Dalai Lama"},{"label":"Desmond Tutu"}]},{"label":"Fellestrekk","children":[{"label":"Medfølelse"},{"label":"Ikkevold"},{"label":"Omsorg for de svake"}]},{"label":"Forskjeller","children":[{"label":"Guds bud"},{"label":"Karma"},{"label":"Fornuft og erfaring"},{"label":"Syn på vold"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'krle-9:etiske-forbilder';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('krle-9:etiske-forbilder', 'Nestekjærlighet', 'Jesu bud om å elske sin neste som seg selv.', 0),
+  ('krle-9:etiske-forbilder', 'Bergprekenen', 'Jesu tale der han blant annet sier «Elsk deres fiender».', 1),
+  ('krle-9:etiske-forbilder', 'Den barmhjertige samaritan', 'Lignelse som viser at nesten er den som trenger hjelp, uansett hvem det er.', 2),
+  ('krle-9:etiske-forbilder', 'Den gylne regel', 'Gjør mot andre det du vil at de skal gjøre mot deg. Finnes i mange tradisjoner.', 3),
+  ('krle-9:etiske-forbilder', 'Barmhjertighet i islam', 'Muhammad la vekt på omsorg for fattige, enker og foreldreløse.', 4),
+  ('krle-9:etiske-forbilder', 'Medfølelse', 'Å føle med og ville hjelpe andre som lider. Sentralt i buddhismen.', 5),
+  ('krle-9:etiske-forbilder', 'De fem forskriftene', 'Buddhistiske regler: ikke drepe, stjele, lyve, misbruke seksualitet eller ruse seg.', 6),
+  ('krle-9:etiske-forbilder', 'Hillel', 'Jødisk lærer: «Det som er hatefullt for deg, skal du ikke gjøre mot din neste.»', 7),
+  ('krle-9:etiske-forbilder', 'Konfutse', 'Kinesisk filosof som vektla respekt, gode relasjoner og gode ledere.', 8),
+  ('krle-9:etiske-forbilder', 'Ahimsa', 'Ikkevold. Sentralt i hinduisme, buddhisme og for Gandhi.', 9),
+  ('krle-9:etiske-forbilder', 'Mahatma Gandhi', 'Ledet Indias kamp for selvstendighet med ikkevold.', 10),
+  ('krle-9:etiske-forbilder', 'Martin Luther King', 'Baptistprest som ledet ikkevoldelig kamp mot rasisme i USA.', 11),
+  ('krle-9:etiske-forbilder', 'Mor Teresa', 'Katolsk nonne som stelte syke og døende i Kolkata. Fredsprisen 1979.', 12),
+  ('krle-9:etiske-forbilder', 'Desmond Tutu', 'Anglikansk erkebiskop som kjempet mot apartheid og for forsoning.', 13),
+  ('krle-9:etiske-forbilder', 'Ubuntu', 'Sørafrikansk tanke: «Jeg er fordi vi er.»', 14);
+delete from public.quiz_sporsmal where tema_id = 'krle-9:etiske-forbilder';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('krle-9:etiske-forbilder', 'q01', 'flervalg', 'Hva lærer lignelsen om den barmhjertige samaritan?', array['At man bare skal hjelpe familien', 'At nesten er den som trenger hjelp, uansett hvem det er', 'At man skal gå i tempelet', 'At samaritanere var onde']::text[], 1, 'Samaritanen hjalp en fremmed som andre hadde gått forbi.', true, true, 0),
+  ('krle-9:etiske-forbilder', 'q02', 'flervalg', 'Hvilken lærer sa: «Det som er hatefullt for deg, skal du ikke gjøre mot din neste»?', array['Buddha', 'Gandhi', 'Muhammad', 'Hillel']::text[], 3, 'Hillel mente at dette var kjernen i hele Toraen.', true, true, 1),
+  ('krle-9:etiske-forbilder', 'q03', 'flervalg', 'Hva betyr ahimsa?', array['Medfølelse', 'Sannhet', 'Ikkevold', 'Plikt']::text[], 2, 'Ahimsa var grunnlaget for Gandhis kamp.', true, true, 2),
+  ('krle-9:etiske-forbilder', 'q04', 'flervalg', 'Hvem stelte syke og døende i Kolkata og fikk Nobels fredspris i 1979?', array['Mor Teresa', 'Dalai Lama', 'Desmond Tutu', 'Malala Yousafzai']::text[], 0, 'Hun grunnla en orden som arbeider blant de fattigste.', true, true, 3),
+  ('krle-9:etiske-forbilder', 'q05', 'flervalg', 'Hva er et fellestrekk ved mange religiøse og livssynsbaserte tradisjoner?', array['At de har samme gud', 'At de har samme matregler', 'At de har samme høytider', 'At de har en variant av den gylne regel']::text[], 3, 'Varianter av regelen finnes hos Jesus, Hillel, Konfutse og mange andre.', true, true, 4),
+  ('krle-9:etiske-forbilder', 'q06', 'flervalg', 'Hvem bygde på Gandhis metoder i kampen mot rasisme i USA?', array['Desmond Tutu', 'Martin Luther King', 'Konfutse', 'Hillel']::text[], 1, 'King kombinerte Jesu kjærlighetsbud med Gandhis ikkevold.', true, true, 5),
+  ('krle-9:etiske-forbilder', 'q07', 'flervalg', 'Hva betyr ubuntu?', array['«Jeg er fordi vi er»', '«Elsk deres fiender»', '«Ingen vold»', '«Følg middelveien»']::text[], 0, 'Ubuntu understreker at mennesker henger sammen og trenger hverandre.', true, true, 6),
+  ('krle-9:etiske-forbilder', 'q08', 'flervalg', 'Hva sa Jesus i Bergprekenen om fiender?', array['At man skal hevne seg', 'At man skal unngå dem', 'At man skal elske dem', 'At man skal frykte dem']::text[], 2, 'Budet om å elske fiendene var radikalt i sin samtid.', true, true, 7),
+  ('krle-9:etiske-forbilder', 'q09', 'flervalg', 'Hvordan kan begrunnelsen for etikk være forskjellig i ulike tradisjoner?', array['Den er alltid den samme', 'Alle viser til karma', 'Alle viser til fornuft', 'Noen viser til Guds bud, andre til karma eller fornuft']::text[], 3, 'Tradisjoner kan komme fram til like regler av ulike grunner.', true, false, 8),
+  ('krle-9:etiske-forbilder', 'q10', 'flervalg', 'Hvilken islamsk plikt handler om å hjelpe fattige?', array['Hajj', 'Zakat', 'Salat', 'Shahada']::text[], 1, 'Zakat er en av islams fem søyler.', true, false, 9),
+  ('krle-9:etiske-forbilder', 'm01', 'sant-usant', 'Konfutse levde flere hundre år før Jesus.', array['Sant', 'Usant']::text[], 0, 'Konfutse levde på 500-tallet før vår tidsregning.', false, true, 10),
+  ('krle-9:etiske-forbilder', 'm02', 'sant-usant', 'Gandhi ledet Indias kamp for selvstendighet gjennom væpnet opprør.', array['Sant', 'Usant']::text[], 1, 'Gandhi brukte ikkevold, som marsjer, boikott og sivil ulydighet.', false, true, 11),
+  ('krle-9:etiske-forbilder', 'm03', 'sant-usant', 'Desmond Tutu la vekt på forsoning etter apartheid.', array['Sant', 'Usant']::text[], 0, 'Han ledet Sannhets- og forsoningskommisjonen i Sør-Afrika.', false, true, 12),
+  ('krle-9:etiske-forbilder', 'm04', 'sant-usant', 'Alle religioner begrunner etikken på nøyaktig samme måte.', array['Sant', 'Usant']::text[], 1, 'Begrunnelsene varierer, selv om reglene ofte ligner.', false, true, 13),
+  ('krle-9:etiske-forbilder', 'm05', 'flervalg', 'Hva sier de buddhistiske forskriftene blant annet?', array['At man skal be fem ganger om dagen', 'At man ikke skal drepe, stjele eller lyve', 'At man skal holde sabbaten', 'At man skal gi bort alt man eier']::text[], 1, 'Forskriftene gjelder alle buddhister, ikke bare munker.', false, true, 14),
+  ('krle-9:etiske-forbilder', 'm06', 'flervalg', 'Hvem er den kjente lederen i tibetansk buddhisme som har gjort medfølelse kjent i verden?', array['Dalai Lama', 'Konfutse', 'Hillel', 'Mor Teresa']::text[], 0, 'Dalai Lama fikk Nobels fredspris i 1989.', false, true, 15),
+  ('krle-9:etiske-forbilder', 'm07', 'flervalg', 'Hvorfor kan det være nyttig å skille mellom ideene og personen når vi ser på forbilder?', array['Fordi forbilder aldri tar feil', 'Fordi ideer ikke betyr noe', 'Fordi forbilder også er mennesker som kan ha gjort feil', 'Fordi personer ikke betyr noe']::text[], 2, 'Gode ideer kan ha verdi selv om personen bak dem har svakheter.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('krle-9:etiske-forbilder', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Norsk (10): rydd bort fjernede temaer
 delete from public.temaer where fag_id = 'norsk-10' and slug not in ('litteraturhistorie', 'romanen', 'bokmal-og-nynorsk-historie', 'sprakvariasjon', 'digitale-medier-og-sprak', 'artikkel-og-debattinnlegg', 'nynorsk-skriving');
@@ -8161,6 +9575,486 @@ insert into public.miniprover (tema_id, minutter) values
   ('engelsk-10:australia-new-zealand-and-canada', 15)
 on conflict (tema_id) do update set minutter = excluded.minutter;
 
+-- Engelsk fordypning (10): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'engelsk-fordypning-10' and slug not in ('video-games', 'creating-digital-products', 'language-in-the-media', 'persuasion-and-rhetoric', 'self-presentation-online');
+
+-- Engelsk fordypning: Video games as texts
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('engelsk-fordypning-10:video-games', 'engelsk-fordypning-10', 'video-games', 'Video games as texts', 'How video games tell stories and create worlds, how they are built, their purposes, gaming language, and debates about games and society.', array[4, 7]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('engelsk-fordypning-10:video-games', '## Games as texts
+
+Video games are one of the world''s biggest forms of entertainment. Like books and films, games are **texts** that tell stories, create worlds and communicate messages. What makes them special is **interactivity**: the player takes part and influences what happens.
+
+## Content: stories and worlds
+
+Many games have a **narrative** with characters, conflicts and themes such as friendship, survival, war or identity. Some games have a fixed story, while others offer **branching narratives**, where the player''s choices lead to different endings. **World-building** – creating a believable setting with its own history, rules and culture – is important in role-playing and open-world games.
+
+## Form: how games are built
+
+- **Genre**: action, adventure, role-playing games (RPGs), strategy, puzzle, simulation, sports and shooters.
+- **Gameplay**: the rules and actions the player can take.
+- **Game mechanics**: the systems that make the game work, like points, levels, health and inventory.
+- **Perspective**: first-person, third-person or top-down view.
+- **Sound and music**: create atmosphere and signal danger or success.
+- **Cutscenes**: short film sequences that tell the story.
+
+## Purpose
+
+Games can **entertain**, **tell stories**, **teach** (educational games), **train** (simulators), make us **reflect** on serious issues, or **make money**. Many free-to-play games earn money through **in-game purchases** and **loot boxes**. These are designed to make players spend more, and many people have compared loot boxes to gambling.
+
+## Language in games
+
+Gaming has its own **jargon**: NPC (non-player character), noob, GG (good game), lag, respawn, grind, buff and nerf. Players from around the world use English to communicate in online games, and this helps many young people learn English. At the same time, chat can include **toxic language**, so many games have rules and ways to report other players.
+
+## Games and society
+
+Games raise many questions:
+
+- **Representation**: How are gender, ethnicity and different groups shown?
+- **Violence**: Can violent games affect players? Research does not give a simple answer.
+- **Screen time and health**: How much gaming is healthy?
+- **Community**: Games can create friendships and communities across countries.
+- **E-sports**: Competitive gaming has become a profession, with big tournaments and audiences.
+
+## Analysing a game
+
+Describe the genre, story and gameplay. Analyse how the game uses mechanics, perspective, sound and choices to create meaning. Discuss the purpose and target audience, and give your own opinion with reasons.', '{"label":"Video games","children":[{"label":"Content","children":[{"label":"Narrative"},{"label":"Branching stories"},{"label":"World-building"}]},{"label":"Form","children":[{"label":"Genres"},{"label":"Gameplay and mechanics"},{"label":"Perspective"},{"label":"Sound and cutscenes"}]},{"label":"Purpose","children":[{"label":"Entertain"},{"label":"Teach and train"},{"label":"Reflect"},{"label":"Make money"}]},{"label":"Language","children":[{"label":"Gaming jargon"},{"label":"English as shared language"},{"label":"Toxic chat"}]},{"label":"Society","children":[{"label":"Representation"},{"label":"Violence debate"},{"label":"Health"},{"label":"Communities and e-sports"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'engelsk-fordypning-10:video-games';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('engelsk-fordypning-10:video-games', 'Interactivity', 'The player takes part and influences what happens.', 0),
+  ('engelsk-fordypning-10:video-games', 'Narrative', 'The story told in a game, with characters, conflict and themes.', 1),
+  ('engelsk-fordypning-10:video-games', 'Branching narrative', 'A story where the player''s choices lead to different endings.', 2),
+  ('engelsk-fordypning-10:video-games', 'World-building', 'Creating a believable setting with its own history, rules and culture.', 3),
+  ('engelsk-fordypning-10:video-games', 'RPG', 'Role-playing game, where you develop a character in a story world.', 4),
+  ('engelsk-fordypning-10:video-games', 'Gameplay', 'The rules and actions the player can take.', 5),
+  ('engelsk-fordypning-10:video-games', 'Game mechanics', 'The systems that make a game work, like points, levels and health.', 6),
+  ('engelsk-fordypning-10:video-games', 'Perspective', 'How the player sees the game: first-person, third-person or top-down.', 7),
+  ('engelsk-fordypning-10:video-games', 'Cutscene', 'A short film sequence in a game that tells the story.', 8),
+  ('engelsk-fordypning-10:video-games', 'In-game purchases', 'Things you can buy with real money inside a game.', 9),
+  ('engelsk-fordypning-10:video-games', 'Loot box', 'A random reward you can buy in a game, often compared to gambling.', 10),
+  ('engelsk-fordypning-10:video-games', 'NPC', 'Non-player character, a character controlled by the game.', 11),
+  ('engelsk-fordypning-10:video-games', 'Jargon', 'Special words used by a group, like GG, lag and respawn in gaming.', 12),
+  ('engelsk-fordypning-10:video-games', 'Representation', 'How different groups are shown in games and other media.', 13),
+  ('engelsk-fordypning-10:video-games', 'E-sports', 'Competitive gaming, often with big tournaments.', 14);
+delete from public.quiz_sporsmal where tema_id = 'engelsk-fordypning-10:video-games';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('engelsk-fordypning-10:video-games', 'q01', 'flervalg', 'What makes video games different from books and films?', array['They have no stories', 'Interactivity – the player takes part and influences what happens', 'They have no sound', 'They are always short']::text[], 1, 'The player is not just watching, but acting.', true, true, 0),
+  ('engelsk-fordypning-10:video-games', 'q02', 'flervalg', 'What is a branching narrative?', array['A story about trees', 'A game without a story', 'A cutscene', 'A story where the player''s choices lead to different endings']::text[], 3, 'Branching narratives make choices meaningful.', true, true, 1),
+  ('engelsk-fordypning-10:video-games', 'q03', 'flervalg', 'What is an NPC?', array['A non-player character controlled by the game', 'A new player', 'A type of weapon', 'A game genre']::text[], 0, 'Shopkeepers and enemies are often NPCs.', true, true, 2),
+  ('engelsk-fordypning-10:video-games', 'q04', 'flervalg', 'What is world-building?', array['Building houses in a game', 'Playing online with friends', 'Creating a believable setting with its own history, rules and culture', 'Designing the menu']::text[], 2, 'A rich world makes the story more believable.', true, true, 3),
+  ('engelsk-fordypning-10:video-games', 'q05', 'flervalg', 'What is a cutscene?', array['A mistake in the game', 'A level', 'A type of weapon', 'A short film sequence that tells the story']::text[], 3, 'During a cutscene, the player usually watches instead of playing.', true, true, 4),
+  ('engelsk-fordypning-10:video-games', 'q06', 'flervalg', 'Why are loot boxes debated?', array['They are too cheap', 'They have been compared to gambling', 'They make games shorter', 'They improve graphics']::text[], 1, 'Players pay for random rewards without knowing what they will get.', true, true, 5),
+  ('engelsk-fordypning-10:video-games', 'q07', 'flervalg', 'What are game mechanics?', array['The people who repair consoles', 'The story of a game', 'The systems that make the game work, like points, levels and health', 'The music']::text[], 2, 'Mechanics decide how the player interacts with the game.', true, true, 6),
+  ('engelsk-fordypning-10:video-games', 'q08', 'flervalg', 'What purpose does an educational game have?', array['To teach', 'To sell weapons', 'To replace school', 'To make players angry']::text[], 0, 'Educational games are used in many schools.', true, true, 7),
+  ('engelsk-fordypning-10:video-games', 'q09', 'flervalg', 'What does GG mean in gaming?', array['Get going', 'Great graphics', 'Game glitch', 'Good game']::text[], 3, 'Players often write GG at the end of a match.', true, false, 8),
+  ('engelsk-fordypning-10:video-games', 'q10', 'flervalg', 'What is e-sports?', array['Sports on TV', 'Competitive gaming, often with big tournaments', 'Exercise games', 'Electronic sports equipment']::text[], 1, 'The best e-sports players are professionals.', true, false, 9),
+  ('engelsk-fordypning-10:video-games', 'm01', 'sant-usant', 'Many young people practise English through online games.', array['Sant', 'Usant']::text[], 0, 'English is often the shared language in international games.', false, true, 10),
+  ('engelsk-fordypning-10:video-games', 'm02', 'sant-usant', 'All games have exactly the same story for every player.', array['Sant', 'Usant']::text[], 1, 'In many games, the player''s choices change the story.', false, true, 11),
+  ('engelsk-fordypning-10:video-games', 'm03', 'sant-usant', 'Sound and music in games can signal danger.', array['Sant', 'Usant']::text[], 0, 'Music often changes when an enemy is near.', false, true, 12),
+  ('engelsk-fordypning-10:video-games', 'm04', 'sant-usant', 'Research clearly shows that all violent games make players violent.', array['Sant', 'Usant']::text[], 1, 'Research does not give a simple answer.', false, true, 13),
+  ('engelsk-fordypning-10:video-games', 'm05', 'flervalg', 'What is gameplay?', array['The rules and actions the player can take', 'The game''s price', 'The box cover', 'The credits']::text[], 0, 'Gameplay is what you actually do in the game.', false, true, 14),
+  ('engelsk-fordypning-10:video-games', 'm06', 'flervalg', 'Which genre lets the player develop a character in a story world?', array['Puzzle', 'Sports', 'Role-playing game (RPG)', 'Racing']::text[], 2, 'In RPGs, characters grow stronger through the story.', false, true, 15),
+  ('engelsk-fordypning-10:video-games', 'm07', 'flervalg', 'What does representation in games mean?', array['How the game is sold', 'How different groups are shown', 'How fast the game runs', 'How many levels there are']::text[], 1, 'Representation affects how players see different groups.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('engelsk-fordypning-10:video-games', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Engelsk fordypning: Creating digital products
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('engelsk-fordypning-10:creating-digital-products', 'engelsk-fordypning-10', 'creating-digital-products', 'Creating digital products', 'How to plan, create, edit and publish digital products in English that combine text, pictures, video and sound, from podcasts and videos to websites and infographics.', array[6, 2]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('engelsk-fordypning-10:creating-digital-products', '## Digital products
+
+A **digital product** is something you create with digital tools that combines different **media types**: text, pictures, video, sound, animation and interactive elements. Examples are a podcast, a short film, a website, a digital poster, a slideshow, an animation, a vlog or a digital story.
+
+## Start with purpose and audience
+
+Before choosing tools, ask:
+
+- **Purpose**: Do you want to inform, explain, tell a story, persuade or entertain?
+- **Audience**: Who is it for? Classmates, younger pupils or a global audience?
+- **Message**: What is the one thing you want the audience to remember?
+
+## Choose the right format
+
+- A **podcast** suits interviews, discussions and storytelling with sound.
+- A **video** is good for showing actions, places and emotions.
+- A **website** or blog can combine long texts, pictures and links.
+- An **infographic** presents facts and numbers visually.
+- A **digital story** combines narration, pictures and music into a short personal story.
+
+## Plan your product
+
+1. **Brainstorm** ideas and research your topic.
+2. Write a **script** or outline: What will be said and shown?
+3. Make a **storyboard** – simple sketches of each scene or page.
+4. Collect or create **material**: photos, recordings and music.
+5. Make a **timeline** for the work, especially in group projects.
+
+## Combining media types
+
+Good digital products use media types that **support each other**:
+
+- Pictures and text should say something together, not repeat each other word for word.
+- Music should match the mood and not drown out speech.
+- Use **captions** or subtitles to make videos accessible.
+- Keep a **consistent design** with the same fonts, colours and style.
+- Think about **accessibility**: readable text, good contrast and clear sound.
+
+## Recording and editing
+
+- Record sound in a quiet room, and keep the microphone close.
+- Film with steady hands or a tripod, and use natural light.
+- When **editing**, cut away mistakes and long pauses, use transitions sparingly and adjust the sound level.
+- Watch or listen to the whole product before publishing.
+
+## Feedback and publishing
+
+Test your product on someone from the target audience and ask for **feedback**. Improve it before you publish. Remember:
+
+- **Copyright**: use your own material or material you have permission to use, and credit your sources.
+- **Privacy**: get **consent** from everyone who appears in your product.
+- Think about **where** you publish: in class, on a school platform or openly online.', '{"label":"Creating digital products","children":[{"label":"Start","children":[{"label":"Purpose"},{"label":"Audience"},{"label":"Message"}]},{"label":"Formats","children":[{"label":"Podcast"},{"label":"Video"},{"label":"Website or blog"},{"label":"Infographic"},{"label":"Digital story"}]},{"label":"Plan","children":[{"label":"Brainstorm"},{"label":"Script"},{"label":"Storyboard"},{"label":"Timeline"}]},{"label":"Combine and edit","children":[{"label":"Media that support each other"},{"label":"Captions and accessibility"},{"label":"Consistent design"},{"label":"Recording and editing"}]},{"label":"Publish","children":[{"label":"Feedback"},{"label":"Copyright"},{"label":"Consent"},{"label":"Where to publish"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'engelsk-fordypning-10:creating-digital-products';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('engelsk-fordypning-10:creating-digital-products', 'Digital product', 'Something created with digital tools that combines different media types.', 0),
+  ('engelsk-fordypning-10:creating-digital-products', 'Media types', 'Text, pictures, video, sound, animation and interactive elements.', 1),
+  ('engelsk-fordypning-10:creating-digital-products', 'Purpose', 'What you want to achieve: inform, explain, tell, persuade or entertain.', 2),
+  ('engelsk-fordypning-10:creating-digital-products', 'Audience', 'The people your product is made for.', 3),
+  ('engelsk-fordypning-10:creating-digital-products', 'Message', 'The main thing you want the audience to remember.', 4),
+  ('engelsk-fordypning-10:creating-digital-products', 'Podcast', 'An audio programme, good for interviews, discussions and stories.', 5),
+  ('engelsk-fordypning-10:creating-digital-products', 'Infographic', 'A visual presentation of facts and numbers.', 6),
+  ('engelsk-fordypning-10:creating-digital-products', 'Digital story', 'A short personal story told with narration, pictures and music.', 7),
+  ('engelsk-fordypning-10:creating-digital-products', 'Script', 'A written plan of what will be said and shown.', 8),
+  ('engelsk-fordypning-10:creating-digital-products', 'Storyboard', 'Simple sketches of each scene or page.', 9),
+  ('engelsk-fordypning-10:creating-digital-products', 'Captions', 'Text on screen that shows what is said.', 10),
+  ('engelsk-fordypning-10:creating-digital-products', 'Consistent design', 'Using the same fonts, colours and style throughout.', 11),
+  ('engelsk-fordypning-10:creating-digital-products', 'Accessibility', 'Making a product easy for as many people as possible to use.', 12),
+  ('engelsk-fordypning-10:creating-digital-products', 'Editing', 'Cutting, arranging and improving recorded material.', 13),
+  ('engelsk-fordypning-10:creating-digital-products', 'Consent', 'Permission from people who appear in your product.', 14);
+delete from public.quiz_sporsmal where tema_id = 'engelsk-fordypning-10:creating-digital-products';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('engelsk-fordypning-10:creating-digital-products', 'q01', 'flervalg', 'What is a digital product?', array['A product you buy online', 'A computer', 'Something you create with digital tools that combines media types', 'An app store']::text[], 2, 'Podcasts, videos and websites are examples.', true, true, 0),
+  ('engelsk-fordypning-10:creating-digital-products', 'q02', 'flervalg', 'What should you decide before choosing tools?', array['Your purpose, audience and message', 'The price of the software', 'The colour of your laptop', 'The length of your name']::text[], 0, 'Purpose and audience decide which format fits best.', true, true, 1),
+  ('engelsk-fordypning-10:creating-digital-products', 'q03', 'flervalg', 'Which format is best for presenting facts and numbers visually?', array['A podcast', 'A radio drama', 'A novel', 'An infographic']::text[], 3, 'Infographics use charts, icons and short texts.', true, true, 2),
+  ('engelsk-fordypning-10:creating-digital-products', 'q04', 'flervalg', 'What is a storyboard?', array['A finished film', 'Simple sketches of each scene or page', 'A list of sources', 'A music track']::text[], 1, 'Storyboards help you plan before you record.', true, true, 3),
+  ('engelsk-fordypning-10:creating-digital-products', 'q05', 'flervalg', 'Why should you add captions to a video?', array['To make it accessible to more people', 'To make it longer', 'Because music is not allowed', 'To hide mistakes']::text[], 0, 'Captions help people who cannot hear the sound or are watching without it.', true, true, 4),
+  ('engelsk-fordypning-10:creating-digital-products', 'q06', 'flervalg', 'How should pictures and text work together?', array['They should repeat each other word for word', 'Text should always be larger than pictures', 'They should say something together and support each other', 'Pictures are not needed']::text[], 2, 'Each media type should add something.', true, true, 5),
+  ('engelsk-fordypning-10:creating-digital-products', 'q07', 'flervalg', 'What is a good tip for recording sound?', array['Record in a noisy café', 'Hold the microphone far away', 'Use loud background music', 'Record in a quiet room with the microphone close']::text[], 3, 'Clear sound is essential in podcasts and videos.', true, true, 6),
+  ('engelsk-fordypning-10:creating-digital-products', 'q08', 'flervalg', 'What must you get from people who appear in your video?', array['Money', 'Consent', 'Their passwords', 'Nothing']::text[], 1, 'Everyone has the right to decide over pictures and videos of themselves.', true, true, 7),
+  ('engelsk-fordypning-10:creating-digital-products', 'q09', 'flervalg', 'What is a script?', array['A computer virus', 'A type of font', 'A written plan of what will be said and shown', 'A picture']::text[], 2, 'A script makes recording easier and more structured.', true, false, 8),
+  ('engelsk-fordypning-10:creating-digital-products', 'q10', 'flervalg', 'Why should you test your product on someone from the target audience?', array['To get feedback and improve it before publishing', 'To finish faster', 'Because it is required by law', 'To avoid editing']::text[], 0, 'Feedback shows what works and what is unclear.', true, false, 9),
+  ('engelsk-fordypning-10:creating-digital-products', 'm01', 'sant-usant', 'Music should be loud enough to drown out the speech.', array['Sant', 'Usant']::text[], 1, 'Music should support the speech, not compete with it.', false, true, 10),
+  ('engelsk-fordypning-10:creating-digital-products', 'm02', 'sant-usant', 'A consistent design uses the same fonts, colours and style.', array['Sant', 'Usant']::text[], 0, 'Consistency makes a product look professional.', false, true, 11),
+  ('engelsk-fordypning-10:creating-digital-products', 'm03', 'sant-usant', 'A podcast can be a digital product.', array['Sant', 'Usant']::text[], 0, 'Podcasts combine voice, music and sound effects.', false, true, 12),
+  ('engelsk-fordypning-10:creating-digital-products', 'm04', 'sant-usant', 'You don''t need to credit sources in digital products.', array['Sant', 'Usant']::text[], 1, 'All sources and borrowed material must be credited.', false, true, 13),
+  ('engelsk-fordypning-10:creating-digital-products', 'm05', 'flervalg', 'What is accessibility?', array['Making a product easy for as many people as possible to use', 'Making it expensive', 'Hiding it', 'Making it very long']::text[], 0, 'Good contrast, captions and clear sound improve accessibility.', false, true, 14),
+  ('engelsk-fordypning-10:creating-digital-products', 'm06', 'flervalg', 'Which format suits interviews and discussions with sound?', array['An infographic', 'A podcast', 'A poster', 'A comic']::text[], 1, 'Podcasts are built around voices.', false, true, 15),
+  ('engelsk-fordypning-10:creating-digital-products', 'm07', 'flervalg', 'What happens in the editing stage?', array['You choose your topic', 'You write the script', 'You cut away mistakes and adjust the sound', 'You find your audience']::text[], 2, 'Editing turns raw recordings into a finished product.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('engelsk-fordypning-10:creating-digital-products', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Engelsk fordypning: Language in different media
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('engelsk-fordypning-10:language-in-the-media', 'engelsk-fordypning-10', 'language-in-the-media', 'Language in different media', 'How language and devices vary between news, social media, advertising, spoken media and formal writing, how to compare them, and differences between varieties of English.', array[7]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('engelsk-fordypning-10:language-in-the-media', '## Language changes with the medium
+
+We adapt our language to where we communicate. A news article, a text message, an advert and a podcast all use English – but in very different ways. Comparing them shows how **language** and **devices** (techniques) are chosen to fit the **medium**, **purpose** and **audience**.
+
+## News
+
+News articles aim to inform. They often follow the **inverted pyramid**: the most important information comes first (who, what, when, where, why), then the details. **Headlines** are short and catchy and often leave out small words: “PM resigns after scandal”. **Tabloid** newspapers use more dramatic language, puns and emotional words than **broadsheet** newspapers.
+
+## Social media
+
+Language on social media is short, informal and quick:
+
+- **abbreviations** like tbh, idk and imo
+- **emojis**, **hashtags** and **memes**
+- **slang** that changes fast
+- posts written to get **engagement**: likes, comments and shares
+
+Many influencers mix personal stories with marketing.
+
+## Advertising
+
+Adverts want to **sell**. Common devices are
+
+- **imperatives** (commands): “Buy now!”, “Just try it!”
+- **positive adjectives**: new, amazing, fresh, best
+- **slogans**: short, memorable phrases
+- **alliteration**, rhymes and wordplay
+- **direct address**: talking to “you”
+- promises about how the product will make you feel
+
+## Spoken media
+
+**Podcasts**, radio and online videos use spoken language with **fillers** (um, like, you know), questions to the audience and a conversational tone. Speeches often use **rhetorical questions**, repetition and the **rule of three**: listing three things for rhythm and effect.
+
+## Formal writing
+
+Reports, essays and applications use **formal** language: complete sentences, precise vocabulary, no slang and few contractions. The tone is neutral and objective.
+
+## Comparing texts
+
+When you compare language in different media, look at
+
+- **register**: formal or informal?
+- **sentence length** and structure
+- **word choice**: neutral, emotional, technical or slang?
+- **devices**: imperatives, rhetorical questions, repetition, alliteration
+- **visual elements**: pictures, emojis and layout
+- **purpose and audience**: Why is the language like this?
+
+## English around the world
+
+English also varies between countries. **British English** (colour, lorry, flat) and **American English** (color, truck, apartment) differ in spelling and vocabulary. Other varieties, such as Australian, Indian and Nigerian English, add their own words and expressions. Choose one variety and use it consistently in your writing.', '{"label":"Language in the media","children":[{"label":"News","children":[{"label":"Inverted pyramid"},{"label":"Headlines"},{"label":"Tabloid or broadsheet"}]},{"label":"Social media","children":[{"label":"Abbreviations"},{"label":"Emojis and hashtags"},{"label":"Slang"},{"label":"Engagement"}]},{"label":"Advertising","children":[{"label":"Imperatives"},{"label":"Positive adjectives"},{"label":"Slogans"},{"label":"Direct address"}]},{"label":"Spoken and formal","children":[{"label":"Fillers"},{"label":"Rhetorical questions"},{"label":"Rule of three"},{"label":"Formal writing"}]},{"label":"Comparing","children":[{"label":"Register"},{"label":"Word choice"},{"label":"Purpose and audience"},{"label":"British and American"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'engelsk-fordypning-10:language-in-the-media';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('engelsk-fordypning-10:language-in-the-media', 'Medium', 'The channel used to communicate, like a newspaper, podcast or social media.', 0),
+  ('engelsk-fordypning-10:language-in-the-media', 'Device', 'A language technique used for a particular effect.', 1),
+  ('engelsk-fordypning-10:language-in-the-media', 'Inverted pyramid', 'A news structure with the most important information first.', 2),
+  ('engelsk-fordypning-10:language-in-the-media', 'Headline', 'The short title of a news article.', 3),
+  ('engelsk-fordypning-10:language-in-the-media', 'Tabloid', 'A newspaper with dramatic, emotional language and big headlines.', 4),
+  ('engelsk-fordypning-10:language-in-the-media', 'Broadsheet', 'A newspaper with more serious, neutral language.', 5),
+  ('engelsk-fordypning-10:language-in-the-media', 'Hashtag', 'A word or phrase with # that groups posts on social media.', 6),
+  ('engelsk-fordypning-10:language-in-the-media', 'Engagement', 'Likes, comments and shares on social media.', 7),
+  ('engelsk-fordypning-10:language-in-the-media', 'Imperative', 'A command, like “Buy now!”', 8),
+  ('engelsk-fordypning-10:language-in-the-media', 'Slogan', 'A short, memorable phrase used in advertising.', 9),
+  ('engelsk-fordypning-10:language-in-the-media', 'Direct address', 'Talking directly to the audience as “you”.', 10),
+  ('engelsk-fordypning-10:language-in-the-media', 'Fillers', 'Words like um, like and you know in spoken language.', 11),
+  ('engelsk-fordypning-10:language-in-the-media', 'Rhetorical question', 'A question asked for effect, not to get an answer.', 12),
+  ('engelsk-fordypning-10:language-in-the-media', 'Rule of three', 'Listing three things for rhythm and effect.', 13),
+  ('engelsk-fordypning-10:language-in-the-media', 'British and American English', 'Varieties with different spelling and words, like colour/color and flat/apartment.', 14);
+delete from public.quiz_sporsmal where tema_id = 'engelsk-fordypning-10:language-in-the-media';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('engelsk-fordypning-10:language-in-the-media', 'q01', 'flervalg', 'What is the inverted pyramid in news writing?', array['A type of headline', 'A picture layout', 'A way to end an article', 'Putting the most important information first']::text[], 3, 'Readers get the key facts even if they stop early.', true, true, 0),
+  ('engelsk-fordypning-10:language-in-the-media', 'q02', 'flervalg', 'Which of these is an imperative?', array['The shoes are new.', 'Buy now!', 'Do you like it?', 'It was amazing.']::text[], 1, 'Imperatives tell the reader to do something.', true, true, 1),
+  ('engelsk-fordypning-10:language-in-the-media', 'q03', 'flervalg', 'What is a slogan?', array['A long article', 'A news report', 'A short, memorable phrase used in advertising', 'A type of podcast']::text[], 2, 'Good slogans are easy to remember.', true, true, 2),
+  ('engelsk-fordypning-10:language-in-the-media', 'q04', 'flervalg', 'Which is typical of language on social media?', array['Hashtags, emojis and abbreviations', 'Long, formal sentences', 'Footnotes', 'No pictures']::text[], 0, 'Social media language is short and informal.', true, true, 3),
+  ('engelsk-fordypning-10:language-in-the-media', 'q05', 'flervalg', 'What is a rhetorical question?', array['A question in a quiz', 'A question asked for effect, not to get an answer', 'A question to the teacher', 'A question in an interview']::text[], 1, '“Who doesn''t love summer?” is an example.', true, true, 4),
+  ('engelsk-fordypning-10:language-in-the-media', 'q06', 'flervalg', 'Which headline is typical of a tabloid newspaper?', array['Government publishes annual report', 'Interest rates unchanged', 'Minister attends meeting', 'SHOCK AS STAR''S SECRET REVEALED!']::text[], 3, 'Tabloids use dramatic, emotional language.', true, true, 5),
+  ('engelsk-fordypning-10:language-in-the-media', 'q07', 'flervalg', 'Which word is American English?', array['Apartment', 'Flat', 'Lorry', 'Colour']::text[], 0, 'The British word is “flat”.', true, true, 6),
+  ('engelsk-fordypning-10:language-in-the-media', 'q08', 'flervalg', 'What are fillers?', array['Headlines', 'Hashtags', 'Words like um, like and you know in speech', 'Adjectives in adverts']::text[], 2, 'Fillers make spoken language sound natural.', true, true, 7),
+  ('engelsk-fordypning-10:language-in-the-media', 'q09', 'flervalg', 'Which features are typical of formal writing?', array['Slang and emojis', 'Abbreviations like idk', 'Short posts for engagement', 'Complete sentences, precise vocabulary and no slang']::text[], 3, 'Formal writing is used in reports, essays and applications.', true, false, 8),
+  ('engelsk-fordypning-10:language-in-the-media', 'q10', 'flervalg', 'Why do adverts often use the word “you”?', array['Because it is required', 'To speak directly to the audience and involve them', 'To sound formal', 'To avoid saying the product''s name']::text[], 1, 'Direct address makes the reader feel personally involved.', true, false, 9),
+  ('engelsk-fordypning-10:language-in-the-media', 'm01', 'sant-usant', 'News headlines often leave out small words.', array['Sant', 'Usant']::text[], 0, '“PM resigns after scandal” leaves out words like “the” and “has”.', false, true, 10),
+  ('engelsk-fordypning-10:language-in-the-media', 'm02', 'sant-usant', 'Adverts usually use neutral, objective language.', array['Sant', 'Usant']::text[], 1, 'Adverts use positive and emotional language to sell.', false, true, 11),
+  ('engelsk-fordypning-10:language-in-the-media', 'm03', 'sant-usant', 'British and American English can have different spelling.', array['Sant', 'Usant']::text[], 0, 'For example colour and color.', false, true, 12),
+  ('engelsk-fordypning-10:language-in-the-media', 'm04', 'sant-usant', 'The same kind of language is used in all media.', array['Sant', 'Usant']::text[], 1, 'Language is adapted to each medium, purpose and audience.', false, true, 13),
+  ('engelsk-fordypning-10:language-in-the-media', 'm05', 'flervalg', 'What is the rule of three?', array['Listing three things for rhythm and effect', 'Writing only three sentences', 'Using three pictures', 'Three rules for headlines']::text[], 0, '“Faster, stronger, better” is an example.', false, true, 14),
+  ('engelsk-fordypning-10:language-in-the-media', 'm06', 'flervalg', 'Which word describes how formal or informal language is?', array['Headline', 'Register', 'Slogan', 'Hashtag']::text[], 1, 'We choose register based on the situation.', false, true, 15),
+  ('engelsk-fordypning-10:language-in-the-media', 'm07', 'flervalg', 'What is engagement on social media?', array['A promise to marry', 'Followers you buy', 'Likes, comments and shares', 'A type of advert']::text[], 2, 'Many posts are written to get as much engagement as possible.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('engelsk-fordypning-10:language-in-the-media', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Engelsk fordypning: Persuasion and rhetoric
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('engelsk-fordypning-10:persuasion-and-rhetoric', 'engelsk-fordypning-10', 'persuasion-and-rhetoric', 'Persuasion and rhetoric', 'How senders persuade with ethos, pathos and logos, common persuasive techniques, when persuasion becomes manipulation, and how to be a critical receiver and a responsible persuader.', array[8]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('engelsk-fordypning-10:persuasion-and-rhetoric', '## The art of persuasion
+
+Every day, someone is trying to **persuade** you: adverts, influencers, politicians, campaigns and even friends. **Rhetoric** is the art of using language effectively to persuade. It goes back to the Greek philosopher **Aristotle**, who described three ways to appeal to an audience.
+
+## Ethos, pathos and logos
+
+- **Ethos** – an appeal to **credibility**. The audience trusts the sender because of their expertise, experience or character: “As a doctor with 20 years of experience, I recommend …”
+- **Pathos** – an appeal to **emotions** like fear, hope, anger, pity or pride. Stories, pictures and music are powerful pathos tools.
+- **Logos** – an appeal to **logic**: facts, statistics, examples and reasoning: “Studies show that …”
+
+Strong arguments often combine all three.
+
+## Persuasive techniques
+
+- **Rhetorical questions**: “Do we really want to live like this?”
+- **Repetition** and the **rule of three**
+- **Inclusive language**: we, us, together
+- **Hyperbole** (exaggeration): “the best phone ever made”
+- **Bandwagon**: “Everyone is doing it – join them!”
+- **Testimonials**: famous people or satisfied customers recommend a product
+- **Fear appeals**: showing what will happen if you don''t act
+
+## The sender matters
+
+The **sender** and their **point of view** shape the message. A campaign against sugary drinks from a health organisation and an advert from a soft-drink company will present very different “facts”. Ask:
+
+- Who is the sender, and what do they gain?
+- What is the purpose – to inform, to sell or to change opinions?
+- Which perspectives are missing?
+
+## When persuasion becomes manipulation
+
+Persuasion is a normal part of democracy and everyday life. But some techniques are **manipulative**:
+
+- **Propaganda**: one-sided information spread to control what people think, often by governments or extremist groups
+- **Misleading statistics**: numbers without context
+- **Straw man**: twisting the other side''s argument and attacking that version
+- **Personal attacks** instead of arguments
+- **Deepfakes** and edited pictures
+
+## Being a critical receiver
+
+- Separate **facts** from **opinions**.
+- Notice which **appeal** is used. Are emotions replacing arguments?
+- Check claims in other sources.
+- Think about what the sender wants you to **do** or **believe**.
+
+## Being a responsible persuader
+
+When you write persuasive texts, such as a speech or an **opinion piece**, use strong arguments, honest facts and respectful language. Consider **counterarguments** and answer them – this makes you more convincing.', '{"label":"Persuasion and rhetoric","children":[{"label":"Appeals","children":[{"label":"Ethos"},{"label":"Pathos"},{"label":"Logos"}]},{"label":"Techniques","children":[{"label":"Rhetorical questions"},{"label":"Repetition"},{"label":"Inclusive language"},{"label":"Bandwagon and testimonials"},{"label":"Hyperbole"}]},{"label":"Sender","children":[{"label":"Who gains?"},{"label":"Purpose"},{"label":"Missing perspectives"}]},{"label":"Manipulation","children":[{"label":"Propaganda"},{"label":"Misleading statistics"},{"label":"Straw man"},{"label":"Deepfakes"}]},{"label":"Critical and responsible","children":[{"label":"Fact or opinion"},{"label":"Check claims"},{"label":"Counterarguments"},{"label":"Respectful language"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'engelsk-fordypning-10:persuasion-and-rhetoric';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('engelsk-fordypning-10:persuasion-and-rhetoric', 'Persuade', 'To make someone believe or do something.', 0),
+  ('engelsk-fordypning-10:persuasion-and-rhetoric', 'Rhetoric', 'The art of using language effectively to persuade.', 1),
+  ('engelsk-fordypning-10:persuasion-and-rhetoric', 'Aristotle', 'Greek philosopher who described ethos, pathos and logos.', 2),
+  ('engelsk-fordypning-10:persuasion-and-rhetoric', 'Ethos', 'An appeal to the sender''s credibility.', 3),
+  ('engelsk-fordypning-10:persuasion-and-rhetoric', 'Pathos', 'An appeal to emotions.', 4),
+  ('engelsk-fordypning-10:persuasion-and-rhetoric', 'Logos', 'An appeal to logic, facts and reasoning.', 5),
+  ('engelsk-fordypning-10:persuasion-and-rhetoric', 'Hyperbole', 'Exaggeration for effect.', 6),
+  ('engelsk-fordypning-10:persuasion-and-rhetoric', 'Bandwagon', 'The technique of saying that everyone is doing it, so you should too.', 7),
+  ('engelsk-fordypning-10:persuasion-and-rhetoric', 'Testimonial', 'A recommendation from a famous person or satisfied customer.', 8),
+  ('engelsk-fordypning-10:persuasion-and-rhetoric', 'Inclusive language', 'Words like we, us and together that make the audience feel included.', 9),
+  ('engelsk-fordypning-10:persuasion-and-rhetoric', 'Fear appeal', 'Showing what bad things will happen if you don''t act.', 10),
+  ('engelsk-fordypning-10:persuasion-and-rhetoric', 'Propaganda', 'One-sided information spread to control what people think.', 11),
+  ('engelsk-fordypning-10:persuasion-and-rhetoric', 'Straw man', 'Twisting the other side''s argument and attacking that version.', 12),
+  ('engelsk-fordypning-10:persuasion-and-rhetoric', 'Counterargument', 'An argument against your own view, which you should answer.', 13),
+  ('engelsk-fordypning-10:persuasion-and-rhetoric', 'Opinion piece', 'A text where the writer argues for a view on an issue.', 14);
+delete from public.quiz_sporsmal where tema_id = 'engelsk-fordypning-10:persuasion-and-rhetoric';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('engelsk-fordypning-10:persuasion-and-rhetoric', 'q01', 'flervalg', 'What is rhetoric?', array['The art of using language effectively to persuade', 'A type of poem', 'A grammar rule', 'A news headline']::text[], 0, 'Rhetoric has been studied since ancient Greece.', true, true, 0),
+  ('engelsk-fordypning-10:persuasion-and-rhetoric', 'q02', 'flervalg', 'Which appeal uses facts and statistics?', array['Ethos', 'Pathos', 'Logos', 'Bandwagon']::text[], 2, 'Logos appeals to reason.', true, true, 1),
+  ('engelsk-fordypning-10:persuasion-and-rhetoric', 'q03', 'flervalg', '“As a doctor with 20 years of experience, I recommend …” Which appeal is this?', array['Pathos', 'Ethos', 'Logos', 'Hyperbole']::text[], 1, 'The sender''s expertise makes the message credible.', true, true, 2),
+  ('engelsk-fordypning-10:persuasion-and-rhetoric', 'q04', 'flervalg', 'What is the bandwagon technique?', array['Using facts', 'Showing a doctor', 'Using a rhetorical question', 'Saying that everyone is doing it, so you should too']::text[], 3, 'It plays on our wish to fit in.', true, true, 3),
+  ('engelsk-fordypning-10:persuasion-and-rhetoric', 'q05', 'flervalg', 'Which of these appeals mostly to emotions?', array['A table of statistics', 'A list of sources', 'A picture of a sad, hungry animal', 'A doctor''s title']::text[], 2, 'Pictures that make us feel pity are typical pathos.', true, true, 4),
+  ('engelsk-fordypning-10:persuasion-and-rhetoric', 'q06', 'flervalg', 'What is propaganda?', array['One-sided information spread to control what people think', 'A balanced news report', 'A school essay', 'A scientific study']::text[], 0, 'Propaganda hides other perspectives.', true, true, 5),
+  ('engelsk-fordypning-10:persuasion-and-rhetoric', 'q07', 'flervalg', 'What is a straw man argument?', array['A strong argument with facts', 'A question to the audience', 'A famous quotation', 'Twisting the other side''s argument and attacking that version']::text[], 3, 'It is easier to defeat a weaker version of an argument.', true, true, 6),
+  ('engelsk-fordypning-10:persuasion-and-rhetoric', 'q08', 'flervalg', 'Why should you answer counterarguments in a persuasive text?', array['To make the text longer', 'To be more convincing', 'To confuse the reader', 'Because it is a grammar rule']::text[], 1, 'It shows that you have thought about other views.', true, true, 7),
+  ('engelsk-fordypning-10:persuasion-and-rhetoric', 'q09', 'flervalg', 'Why is it important to know the sender of a persuasive message?', array['Because the sender''s interests shape the message', 'Because senders are always honest', 'To know their age', 'It is not important']::text[], 0, 'Ask what the sender gains.', true, false, 8),
+  ('engelsk-fordypning-10:persuasion-and-rhetoric', 'q10', 'flervalg', 'Which is an example of inclusive language?', array['You must obey.', 'They are wrong.', 'Together we can make a difference.', 'I know best.']::text[], 2, '“We” and “together” create a sense of community.', true, false, 9),
+  ('engelsk-fordypning-10:persuasion-and-rhetoric', 'm01', 'sant-usant', 'Persuasion is always manipulation.', array['Sant', 'Usant']::text[], 1, 'Honest persuasion is a normal part of democracy.', false, true, 10),
+  ('engelsk-fordypning-10:persuasion-and-rhetoric', 'm02', 'sant-usant', 'Aristotle described ethos, pathos and logos.', array['Sant', 'Usant']::text[], 0, 'His ideas are still used to analyse persuasion.', false, true, 11),
+  ('engelsk-fordypning-10:persuasion-and-rhetoric', 'm03', 'sant-usant', 'Strong arguments often combine ethos, pathos and logos.', array['Sant', 'Usant']::text[], 0, 'Credibility, feelings and facts support each other.', false, true, 12),
+  ('engelsk-fordypning-10:persuasion-and-rhetoric', 'm04', 'sant-usant', 'Misleading statistics always show numbers with full context.', array['Sant', 'Usant']::text[], 1, 'Statistics become misleading when context is left out.', false, true, 13),
+  ('engelsk-fordypning-10:persuasion-and-rhetoric', 'm05', 'flervalg', 'What is hyperbole?', array['A fact', 'A question', 'An exaggeration', 'A quotation']::text[], 2, '“The best phone ever made” is hyperbole.', false, true, 14),
+  ('engelsk-fordypning-10:persuasion-and-rhetoric', 'm06', 'flervalg', 'What is a testimonial?', array['A law', 'A recommendation from a famous person or satisfied customer', 'A news report', 'A rhetorical question']::text[], 1, 'Testimonials borrow credibility from others.', false, true, 15),
+  ('engelsk-fordypning-10:persuasion-and-rhetoric', 'm07', 'flervalg', 'What should you do as a critical receiver?', array['Check claims in other sources', 'Believe the first source you find', 'Share without reading', 'Ignore facts']::text[], 0, 'Checking claims protects you from manipulation.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('engelsk-fordypning-10:persuasion-and-rhetoric', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Engelsk fordypning: Self-presentation online
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('engelsk-fordypning-10:self-presentation-online', 'engelsk-fordypning-10', 'self-presentation-online', 'Self-presentation online', 'Your different roles in the media, curated lives and influencers, how you present yourself and others online, algorithms, and how to reflect critically on your own online behaviour.', array[10, 5]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('engelsk-fordypning-10:self-presentation-online', '## You on the internet
+
+On social media, you are both a **consumer** and a **creator**. You watch, like and comment, but you also post, share and build an **online identity**. This topic is about your own role in the media, and how you present yourself and others.
+
+## Your roles online
+
+You can be
+
+- a **consumer**: reading, watching and scrolling
+- a **participant**: liking, commenting and sharing
+- a **creator**: posting pictures, videos and texts
+- a **bystander**: seeing something happen – such as bullying – without acting
+
+Each role comes with **responsibility**. A share or a like can spread content quickly, for good or for bad.
+
+## Curated lives
+
+Most people **curate** their profiles: they choose the best pictures, use **filters** and share highlights rather than everyday life. This is normal, but it can create **unrealistic ideals**. Comparing yourself with edited images can affect your **self-esteem**. Remember that what you see is often a performance, not the whole truth.
+
+## Influencers
+
+**Influencers** earn money by promoting products and lifestyles. Their content can look personal and spontaneous, but it is often carefully planned. In many countries, including Norway and the UK, **sponsored content** must be clearly marked as advertising. Ask yourself: Is this post an advert? Why is this person showing me this?
+
+## Presenting others
+
+How you present **other people** matters too:
+
+- Ask for **consent** before posting pictures or videos of others.
+- Avoid sharing content that makes fun of people or spreads rumours.
+- Be aware of **stereotypes**: how groups are shown online can affect how people see them in real life.
+
+## Algorithms and identity
+
+**Algorithms** decide what appears in your feed, based on what you have clicked on before. This can create **filter bubbles** and push content that makes you feel you must look or live a certain way. Taking control – following different accounts, muting some and taking breaks – can make your feed healthier.
+
+## Virtual and real life
+
+Online identity and real-life identity influence each other. Some people feel more confident online and can explore interests and identities there. Others experience pressure or **cyberbullying**. Many young people feel they must be “always on”.
+
+## Reflect critically
+
+- Would I be comfortable if my family, teacher or future employer saw this?
+- Does this post show a fair picture of me – and of others?
+- How do I feel after scrolling?
+- What kind of online culture do I want to contribute to?', '{"label":"Self-presentation online","children":[{"label":"Roles","children":[{"label":"Consumer"},{"label":"Participant"},{"label":"Creator"},{"label":"Bystander"}]},{"label":"Curated lives","children":[{"label":"Filters"},{"label":"Highlights"},{"label":"Unrealistic ideals"},{"label":"Self-esteem"}]},{"label":"Influencers","children":[{"label":"Sponsored content"},{"label":"Planned content"},{"label":"Is this an advert?"}]},{"label":"Presenting others","children":[{"label":"Consent"},{"label":"No rumours"},{"label":"Stereotypes"}]},{"label":"Algorithms and reflection","children":[{"label":"Filter bubbles"},{"label":"Always on"},{"label":"Cyberbullying"},{"label":"Critical questions"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'engelsk-fordypning-10:self-presentation-online';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('engelsk-fordypning-10:self-presentation-online', 'Online identity', 'The way you present yourself online.', 0),
+  ('engelsk-fordypning-10:self-presentation-online', 'Consumer', 'Someone who reads, watches and scrolls.', 1),
+  ('engelsk-fordypning-10:self-presentation-online', 'Participant', 'Someone who likes, comments and shares.', 2),
+  ('engelsk-fordypning-10:self-presentation-online', 'Creator', 'Someone who posts their own pictures, videos and texts.', 3),
+  ('engelsk-fordypning-10:self-presentation-online', 'Bystander', 'Someone who sees something happen, like bullying, without acting.', 4),
+  ('engelsk-fordypning-10:self-presentation-online', 'Curate', 'To choose carefully what to show.', 5),
+  ('engelsk-fordypning-10:self-presentation-online', 'Filter', 'An effect that changes how a picture or video looks.', 6),
+  ('engelsk-fordypning-10:self-presentation-online', 'Unrealistic ideals', 'Images of how people should look or live that are hard or impossible to reach.', 7),
+  ('engelsk-fordypning-10:self-presentation-online', 'Self-esteem', 'How much you value and like yourself.', 8),
+  ('engelsk-fordypning-10:self-presentation-online', 'Influencer', 'Someone who earns money by promoting products and lifestyles online.', 9),
+  ('engelsk-fordypning-10:self-presentation-online', 'Sponsored content', 'Paid advertising that must be clearly marked.', 10),
+  ('engelsk-fordypning-10:self-presentation-online', 'Consent', 'Permission, for example to post a picture of someone.', 11),
+  ('engelsk-fordypning-10:self-presentation-online', 'Stereotype', 'A simplified idea about a group of people.', 12),
+  ('engelsk-fordypning-10:self-presentation-online', 'Filter bubble', 'When you mostly see content that matches what you already like and think.', 13),
+  ('engelsk-fordypning-10:self-presentation-online', 'Cyberbullying', 'Bullying through digital channels.', 14);
+delete from public.quiz_sporsmal where tema_id = 'engelsk-fordypning-10:self-presentation-online';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('engelsk-fordypning-10:self-presentation-online', 'q01', 'flervalg', 'What does it mean to curate your profile?', array['To delete it', 'To make it private', 'To choose carefully what to show', 'To post everything']::text[], 2, 'Most people share highlights rather than everyday life.', true, true, 0),
+  ('engelsk-fordypning-10:self-presentation-online', 'q02', 'flervalg', 'What is a bystander online?', array['Someone who creates content', 'An influencer', 'A moderator', 'Someone who sees something happen, like bullying, without acting']::text[], 3, 'Bystanders can help by reporting or supporting the victim.', true, true, 1),
+  ('engelsk-fordypning-10:self-presentation-online', 'q03', 'flervalg', 'Why can edited images affect self-esteem?', array['Because comparing yourself with unrealistic ideals can make you feel you are not good enough', 'Because they are always ugly', 'Because they are illegal', 'Because they are too small']::text[], 0, 'Edited pictures show a reality that does not exist.', true, true, 2),
+  ('engelsk-fordypning-10:self-presentation-online', 'q04', 'flervalg', 'What must sponsored content be?', array['Funny', 'Clearly marked as advertising', 'Written in English', 'Free']::text[], 1, 'Hidden advertising misleads the audience.', true, true, 3),
+  ('engelsk-fordypning-10:self-presentation-online', 'q05', 'flervalg', 'What decides what appears in your feed?', array['Your teacher', 'The government', 'Chance only', 'Algorithms based on what you have clicked on']::text[], 3, 'Algorithms learn from your behaviour.', true, true, 4),
+  ('engelsk-fordypning-10:self-presentation-online', 'q06', 'flervalg', 'What should you do before posting a video of a friend?', array['Ask for their consent', 'Add music', 'Tag strangers', 'Nothing']::text[], 0, 'Everyone has the right to decide over pictures of themselves.', true, true, 5),
+  ('engelsk-fordypning-10:self-presentation-online', 'q07', 'flervalg', 'What is an influencer?', array['A news journalist', 'A politician', 'Someone who earns money by promoting products and lifestyles online', 'A computer program']::text[], 2, 'Influencers can have large audiences, especially among young people.', true, true, 6),
+  ('engelsk-fordypning-10:self-presentation-online', 'q08', 'flervalg', 'What is a filter bubble?', array['A soap bubble', 'When you mostly see content that matches what you already like and think', 'A photo filter', 'A privacy setting']::text[], 1, 'Filter bubbles can limit the perspectives you meet.', true, true, 7),
+  ('engelsk-fordypning-10:self-presentation-online', 'q09', 'flervalg', 'Which question helps you reflect on your own posts?', array['How many likes can I get?', 'Which filter is best?', 'Should I post more often?', 'Would I be comfortable if a future employer saw this?']::text[], 3, 'What you post can stay online for a long time.', true, false, 8),
+  ('engelsk-fordypning-10:self-presentation-online', 'q10', 'flervalg', 'How can you make your feed healthier?', array['Follow different accounts, mute some and take breaks', 'Scroll even more', 'Follow only influencers', 'Turn off all privacy settings']::text[], 0, 'You can influence what the algorithm shows you.', true, false, 9),
+  ('engelsk-fordypning-10:self-presentation-online', 'm01', 'sant-usant', 'What you see on social media is often a performance, not the whole truth.', array['Sant', 'Usant']::text[], 0, 'Most people share carefully chosen moments.', false, true, 10),
+  ('engelsk-fordypning-10:self-presentation-online', 'm02', 'sant-usant', 'A like or share has no effect on how content spreads.', array['Sant', 'Usant']::text[], 1, 'Likes and shares tell the algorithm to show content to more people.', false, true, 11),
+  ('engelsk-fordypning-10:self-presentation-online', 'm03', 'sant-usant', 'Some people feel more confident online than offline.', array['Sant', 'Usant']::text[], 0, 'Online spaces can let people explore interests and identities.', false, true, 12),
+  ('engelsk-fordypning-10:self-presentation-online', 'm04', 'sant-usant', 'Influencer posts are always spontaneous and unplanned.', array['Sant', 'Usant']::text[], 1, 'Much influencer content is carefully planned and sometimes paid for.', false, true, 13),
+  ('engelsk-fordypning-10:self-presentation-online', 'm05', 'flervalg', 'What is cyberbullying?', array['A computer virus', 'Bullying through digital channels', 'A video game', 'A type of filter']::text[], 1, 'Cyberbullying can follow people everywhere through their phones.', false, true, 14),
+  ('engelsk-fordypning-10:self-presentation-online', 'm06', 'flervalg', 'Which role are you in when you post your own videos?', array['Consumer', 'Bystander', 'Creator', 'Moderator']::text[], 2, 'As a creator, you are responsible for what you publish.', false, true, 15),
+  ('engelsk-fordypning-10:self-presentation-online', 'm07', 'flervalg', 'How can stereotypes online affect real life?', array['They can shape how people see groups in real life', 'They have no effect', 'They only affect games', 'They make everyone equal']::text[], 0, 'Repeated images influence our attitudes.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('engelsk-fordypning-10:self-presentation-online', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
 -- Naturfag (10): rydd bort fjernede temaer
 delete from public.temaer where fag_id = 'naturfag-10' and slug not in ('nervesystemet-og-hormoner', 'rus-legemidler-og-miljogifter', 'immunforsvar-og-vaksiner', 'seksuell-og-reproduktiv-helse', 'modeller-i-naturfag', 'forskning-og-kunnskap');
 
@@ -9248,7 +11142,600 @@ insert into public.miniprover (tema_id, minutter) values
 on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- KRLE (10): rydd bort fjernede temaer
-delete from public.temaer where fag_id = 'krle-10';
+delete from public.temaer where fag_id = 'krle-10' and slug not in ('sikhisme-og-andre-tradisjoner', 'kjonn-og-seksualitet', 'eksistensielle-sporsmal', 'etikk-og-kommunikasjon', 'filosofi-og-aktuell-etikk', 'menneskerettigheter-og-fattigdom', 'kilder-og-perspektiver');
+
+-- KRLE: Sikhisme og andre religiøse tradisjoner
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('krle-10:sikhisme-og-andre-tradisjoner', 'krle-10', 'sikhisme-og-andre-tradisjoner', 'Sikhisme og andre religiøse tradisjoner', 'Sikhismens guruer, tro og praksis, og sentrale trekk ved daoisme, konfutsianisme, shinto og bahá''í.', array[1]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('krle-10:sikhisme-og-andre-tradisjoner', '## Sikhismen
+
+**Sikhismen** er en av verdens yngste store religioner, med rundt 25–30 millioner tilhengere. De fleste bor i delstaten **Punjab** i India, men det finnes også store sikhmiljøer i blant annet Storbritannia og Canada. Ordet **sikh** betyr «elev» eller «disippel».
+
+## Guruene
+
+Sikhismen ble grunnlagt av **Guru Nanak** (1469–1539). Han vokste opp i et område med både hinduer og muslimer og forkynte at det bare finnes én Gud, og at alle mennesker er like mye verdt. Etter Nanak fulgte ni andre guruer. Den tiende, **Guru Gobind Singh**, grunnla fellesskapet **Khalsa** i 1699 og bestemte at den hellige skriften, **Guru Granth Sahib**, skulle være guru for alltid.
+
+## Tro
+
+- **Én Gud**: Sikhismen er monoteistisk. Gud kalles ofte **Waheguru** og beskrives som skaperen, uten form og uten kjønn.
+- **Likeverd**: Guruene avviste **kastesystemet** og la vekt på at kvinner og menn er likestilte.
+- **Karma** og **gjenfødelse**: Målet er å bli forent med Gud og frigjort fra kretsløpet av gjenfødelser.
+- **Tre plikter**: å meditere over Guds navn, å arbeide ærlig og å dele med andre.
+
+## Praksis
+
+Sikhenes gudshus heter **gurdwara**. Der leses og synges det fra Guru Granth Sahib, og alle gurdwaraer har et **langar**, et gratis kjøkken der alle, uansett religion og bakgrunn, får et måltid og sitter sammen på gulvet. Det mest kjente gudshuset er **Det gylne tempel** i **Amritsar**.
+
+Sikher som er innviet i Khalsa, bærer **de fem K-ene**: uklipt hår (**kesh**), ofte under en **turban**, en kam, et stålarmbånd, et lite seremonielt sverd og en spesiell type undertøy. Menn får ofte navnet **Singh** («løve») og kvinner **Kaur** («prinsesse»), noe som også skulle vise at kaste ikke betyr noe. I Norge finnes det gurdwaraer, blant annet i Oslo-området.
+
+## Andre tradisjoner
+
+- **Daoisme** (Kina) bygger på skriftene som tilskrives **Laozi**. **Dao** betyr «veien», den naturlige orden i alt. Man skal leve i harmoni med naturen og finne balansen mellom **yin og yang**.
+- **Konfutsianisme** (Kina) bygger på **Konfutses** lære om respekt for foreldre og eldre, gode relasjoner og et harmonisk samfunn.
+- **Shinto** (Japan) handler om **kami**, ånder og guddommelige krefter i naturen, forfedrene og hellige steder. Helligdommene har ofte en rød port, **torii**. Mange japanere kombinerer shinto og buddhisme.
+- **Bahá''í** oppsto i Persia (Iran) på 1800-tallet, og grunnleggeren var **Bahá''u''lláh**. Troen legger vekt på at det finnes én Gud, at alle religioner har samme kilde, og at menneskeheten er én.
+
+## Fellestrekk og forskjeller
+
+Flere av disse tradisjonene legger vekt på harmoni, likeverd og å leve etisk i hverdagen. Men de er ulike i synet på det guddommelige: Sikhisme og bahá''í er monoteistiske, daoisme og konfutsianisme er i stor grad livsfilosofier, og shinto har mange kami.', '{"label":"Sikhisme og andre tradisjoner","children":[{"label":"Sikhismen","children":[{"label":"Guru Nanak"},{"label":"Ti guruer"},{"label":"Guru Granth Sahib"},{"label":"Punjab"}]},{"label":"Sikh-tro og praksis","children":[{"label":"Én Gud"},{"label":"Likeverd"},{"label":"Gurdwara og langar"},{"label":"De fem K-ene"}]},{"label":"Kina","children":[{"label":"Daoisme","note":"Dao, yin og yang"},{"label":"Konfutsianisme"}]},{"label":"Japan","children":[{"label":"Shinto"},{"label":"Kami"},{"label":"Torii"}]},{"label":"Bahá''í","children":[{"label":"Én Gud"},{"label":"Religionenes enhet"},{"label":"Menneskehetens enhet"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'krle-10:sikhisme-og-andre-tradisjoner';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('krle-10:sikhisme-og-andre-tradisjoner', 'Sikhisme', 'Monoteistisk religion fra Punjab i India med rundt 25–30 millioner tilhengere.', 0),
+  ('krle-10:sikhisme-og-andre-tradisjoner', 'Guru Nanak', 'Sikhismens grunnlegger (1469–1539).', 1),
+  ('krle-10:sikhisme-og-andre-tradisjoner', 'Guru Gobind Singh', 'Den tiende guruen, som grunnla Khalsa i 1699.', 2),
+  ('krle-10:sikhisme-og-andre-tradisjoner', 'Khalsa', 'Fellesskapet av innviede sikher.', 3),
+  ('krle-10:sikhisme-og-andre-tradisjoner', 'Guru Granth Sahib', 'Sikhismens hellige skrift, som regnes som evig guru.', 4),
+  ('krle-10:sikhisme-og-andre-tradisjoner', 'Waheguru', 'Et vanlig navn på Gud i sikhismen.', 5),
+  ('krle-10:sikhisme-og-andre-tradisjoner', 'Gurdwara', 'Sikhenes gudshus.', 6),
+  ('krle-10:sikhisme-og-andre-tradisjoner', 'Langar', 'Gratis kjøkken i gurdwaraen der alle får mat, uansett bakgrunn.', 7),
+  ('krle-10:sikhisme-og-andre-tradisjoner', 'Det gylne tempel', 'Sikhismens mest kjente gudshus, i Amritsar.', 8),
+  ('krle-10:sikhisme-og-andre-tradisjoner', 'De fem K-ene', 'Kjennetegn innviede sikher bærer, blant annet uklipt hår og stålarmbånd.', 9),
+  ('krle-10:sikhisme-og-andre-tradisjoner', 'Singh og Kaur', 'Navn for sikhmenn («løve») og sikhkvinner («prinsesse»).', 10),
+  ('krle-10:sikhisme-og-andre-tradisjoner', 'Dao', '«Veien», den naturlige orden i alt i daoismen.', 11),
+  ('krle-10:sikhisme-og-andre-tradisjoner', 'Yin og yang', 'To motsatte krefter som hører sammen og må være i balanse.', 12),
+  ('krle-10:sikhisme-og-andre-tradisjoner', 'Shinto', 'Japansk religion om kami, ånder og guddommelige krefter i naturen og hos forfedrene.', 13),
+  ('krle-10:sikhisme-og-andre-tradisjoner', 'Bahá''í', 'Religion fra 1800-tallets Persia som vektlegger én Gud og menneskehetens enhet.', 14);
+delete from public.quiz_sporsmal where tema_id = 'krle-10:sikhisme-og-andre-tradisjoner';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('krle-10:sikhisme-og-andre-tradisjoner', 'q01', 'flervalg', 'Hvem grunnla sikhismen?', array['Guru Gobind Singh', 'Bahá''u''lláh', 'Guru Nanak', 'Laozi']::text[], 2, 'Guru Nanak levde fra 1469 til 1539.', true, true, 0),
+  ('krle-10:sikhisme-og-andre-tradisjoner', 'q02', 'flervalg', 'Hva er langar?', array['Et gratis kjøkken i gurdwaraen der alle får mat', 'En hellig bok', 'En turban', 'En høytid']::text[], 0, 'Langar er et uttrykk for likeverd og deling.', true, true, 1),
+  ('krle-10:sikhisme-og-andre-tradisjoner', 'q03', 'flervalg', 'Hva er Guru Granth Sahib?', array['Den første guruen', 'Et tempel i Amritsar', 'Et seremonielt sverd', 'Sikhismens hellige skrift, som regnes som evig guru']::text[], 3, 'Etter den tiende guruen har skriften vært sikhenes guru.', true, true, 2),
+  ('krle-10:sikhisme-og-andre-tradisjoner', 'q04', 'flervalg', 'Hva mente guruene om kastesystemet?', array['At det var gitt av Gud', 'At det skulle avvises fordi alle er likeverdige', 'At det bare gjaldt i Punjab', 'At det var nødvendig']::text[], 1, 'Likeverd er et grunnleggende prinsipp i sikhismen.', true, true, 3),
+  ('krle-10:sikhisme-og-andre-tradisjoner', 'q05', 'flervalg', 'Hva er de fem K-ene?', array['Fem hellige byer', 'Fem guruer', 'Fem daglige bønner', 'Fem kjennetegn som innviede sikher bærer']::text[], 3, 'Blant dem er uklipt hår, en kam og et stålarmbånd.', true, true, 4),
+  ('krle-10:sikhisme-og-andre-tradisjoner', 'q06', 'flervalg', 'Hva betyr Dao i daoismen?', array['Kraften', 'Guden', 'Veien, den naturlige orden i alt', 'Himmelen']::text[], 2, 'Daoister søker å leve i harmoni med dao.', true, true, 5),
+  ('krle-10:sikhisme-og-andre-tradisjoner', 'q07', 'flervalg', 'Hva er kami i shinto?', array['Ånder og guddommelige krefter i naturen, forfedrene og hellige steder', 'En munk', 'En hellig bok', 'En port']::text[], 0, 'Kami kan finnes i fjell, trær, elver og forfedre.', true, true, 6),
+  ('krle-10:sikhisme-og-andre-tradisjoner', 'q08', 'flervalg', 'Hva legger bahá''í vekt på?', array['At bare én religion er sann', 'At det finnes én Gud, og at religionene har samme kilde', 'At det finnes mange guder', 'At naturen er hellig']::text[], 1, 'Bahá''í vektlegger også menneskehetens enhet.', true, true, 7),
+  ('krle-10:sikhisme-og-andre-tradisjoner', 'q09', 'flervalg', 'Hvor ligger Det gylne tempel?', array['Delhi', 'Lahore', 'Amritsar', 'Varanasi']::text[], 2, 'Tempelet i Amritsar besøkes av mange tusen mennesker hver dag.', true, false, 8),
+  ('krle-10:sikhisme-og-andre-tradisjoner', 'q10', 'flervalg', 'Hvilken tradisjon legger vekt på respekt for foreldre og et harmonisk samfunn?', array['Shinto', 'Sikhisme', 'Bahá''í', 'Konfutsianisme']::text[], 3, 'Konfutsianismen har preget kinesisk kultur i over 2000 år.', true, false, 9),
+  ('krle-10:sikhisme-og-andre-tradisjoner', 'm01', 'sant-usant', 'Sikhismen er monoteistisk.', array['Sant', 'Usant']::text[], 0, 'Sikher tror på én Gud, ofte kalt Waheguru.', false, true, 10),
+  ('krle-10:sikhisme-og-andre-tradisjoner', 'm02', 'sant-usant', 'Bare sikher får spise i langar.', array['Sant', 'Usant']::text[], 1, 'Alle er velkomne, uansett religion og bakgrunn.', false, true, 11),
+  ('krle-10:sikhisme-og-andre-tradisjoner', 'm03', 'sant-usant', 'Mange japanere kombinerer shinto og buddhisme.', array['Sant', 'Usant']::text[], 0, 'Shinto brukes ofte ved fødsel og bryllup, buddhisme ved død og gravferd.', false, true, 12),
+  ('krle-10:sikhisme-og-andre-tradisjoner', 'm04', 'sant-usant', 'Sikhismen er over 3000 år gammel.', array['Sant', 'Usant']::text[], 1, 'Sikhismen oppsto på 1400- og 1500-tallet.', false, true, 13),
+  ('krle-10:sikhisme-og-andre-tradisjoner', 'm05', 'flervalg', 'Hva betyr navnet Singh?', array['Løve', 'Prinsesse', 'Lærer', 'Elev']::text[], 0, 'Kvinner får navnet Kaur, som betyr «prinsesse».', false, true, 14),
+  ('krle-10:sikhisme-og-andre-tradisjoner', 'm06', 'flervalg', 'Hva er yin og yang?', array['To guruer', 'To motsatte krefter som hører sammen og må være i balanse', 'To japanske helligdommer', 'To hellige bøker']::text[], 1, 'For eksempel lys og mørke, varmt og kaldt.', false, true, 15),
+  ('krle-10:sikhisme-og-andre-tradisjoner', 'm07', 'flervalg', 'Hva heter sikhenes gudshus?', array['Moské', 'Synagoge', 'Pagode', 'Gurdwara']::text[], 3, 'Gurdwara betyr «guruens dør».', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('krle-10:sikhisme-og-andre-tradisjoner', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- KRLE: Kjønn og seksualitet i religioner og livssyn
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('krle-10:kjonn-og-seksualitet', 'krle-10', 'kjonn-og-seksualitet', 'Kjønn og seksualitet i religioner og livssyn', 'Ulike syn på kjønnsroller, seksualitet og likekjønnet samliv i kristendom, islam, jødedom, hinduisme og livssynshumanisme, og hva norsk lov sier.', array[8]::int[], 1, 'sjekkes', array['Sensitivt tema – bør gjennomgås av lærer for balanse og presisjon i beskrivelsen av de ulike religionenes syn.', 'Den katolske kirkes ordning med velsignelse av likekjønnede par (2023) bør sjekkes mot gjeldende praksis.']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('krle-10:kjonn-og-seksualitet', '## Et omstridt tema
+
+Spørsmål om **kjønn** og **seksualitet** handler om hvordan kvinner og menn skal leve, hvem man kan gifte seg med, og hva som er rett og galt i samliv. Religioner og livssyn har ulike svar, og det er ofte stor uenighet også **innad** i hver tradisjon. Uenigheten handler gjerne om hvordan hellige tekster skal **tolkes**, og hvor mye vekt man skal legge på **tradisjon**, **fornuft** og **menneskerettigheter**.
+
+## Syn på kjønnsroller
+
+Mange religiøse tradisjoner har hatt ulike roller for kvinner og menn, der menn har ledet og kvinner har hatt ansvar for hjem og barn. I dag er synene svært ulike:
+
+- **Kristendom**: Den norske kirke fikk sin første kvinnelige prest, **Ingrid Bjerkås**, i 1961 og sin første kvinnelige biskop, **Rosemarie Köhn**, i 1993. Den katolske og den ortodokse kirken har bare mannlige prester, og noen frikirker har bare mannlige ledere.
+- **Islam**: Mange muslimer mener at kvinner og menn er likeverdige, men har ulike roller. Imamer er som regel menn. Noen muslimske feminister tolker Koranen på nye måter og krever større likestilling.
+- **Jødedom**: Ortodokse jøder har bare mannlige rabbinere, mens reformjødedommen har kvinnelige rabbinere.
+- **Livssynshumanisme**: Humanister legger vekt på full **likestilling**, og at kjønn ikke skal avgjøre hvilke muligheter man har.
+
+## Seksualitet og samliv
+
+I mange religioner er **ekteskapet** mellom mann og kvinne den rette rammen for seksualitet. Den katolske kirken er for eksempel imot kunstig prevensjon. Andre retninger og mange enkeltpersoner mener at samliv og seksualitet er et privat ansvar, der **gjensidig respekt** og **samtykke** er det viktigste.
+
+## Homofili og likekjønnet ekteskap
+
+- **Den norske kirke** vedtok i **2016** at likekjønnede par kan vies i kirken. Noen prester og menigheter er likevel uenige.
+- **Den katolske kirke** lærer at homofil legning ikke er synd, men at homofilt samliv er det. I 2023 åpnet paven for at prester kan velsigne likekjønnede par, men ikke vie dem.
+- Mange **muslimer** og **ortodokse jøder** mener at homofilt samliv er i strid med religionen, mens liberale muslimer og reformjøder ofte er mer åpne.
+- **Humanister** støtter at alle skal ha samme rett til å gifte seg.
+- I Sør-Asia finnes en gammel tradisjon med et **tredje kjønn**, som også har plass i hinduistiske fortellinger.
+
+## Norsk lov
+
+Norske lover gjelder for alle, uansett religion. Siden **2009** har ekteskapsloven vært **kjønnsnøytral**, og diskriminering på grunn av kjønn, seksuell orientering og kjønnsidentitet er forbudt. Trossamfunn har likevel rett til å bestemme hvem de vil vie, og hvem som kan være prest, imam eller rabbiner.
+
+## Å reflektere
+
+Når vi diskuterer kjønn og seksualitet, er det viktig å huske at det finnes **mangfold** innenfor alle religioner og livssyn, og at temaet berører mennesker personlig. Vi bør lytte til argumentene, skille mellom tro og fordommer, og vise respekt for at andre kan mene noe annet.', '{"label":"Kjønn og seksualitet","children":[{"label":"Tolkning","children":[{"label":"Hellige tekster"},{"label":"Tradisjon"},{"label":"Fornuft og menneskerettigheter"},{"label":"Mangfold innad"}]},{"label":"Kjønnsroller","children":[{"label":"Kvinnelige prester","note":"1961"},{"label":"Katolsk: bare menn"},{"label":"Muslimsk feminisme"},{"label":"Ortodoks og reform"}]},{"label":"Seksualitet","children":[{"label":"Ekteskapet som ramme"},{"label":"Prevensjon"},{"label":"Samtykke og respekt"}]},{"label":"Homofili","children":[{"label":"Den norske kirke","note":"2016"},{"label":"Katolsk syn"},{"label":"Islam og jødedom"},{"label":"Humanisme"}]},{"label":"Norsk lov","children":[{"label":"Kjønnsnøytral ekteskapslov","note":"2009"},{"label":"Forbud mot diskriminering"},{"label":"Unntak for trossamfunn"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'krle-10:kjonn-og-seksualitet';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('krle-10:kjonn-og-seksualitet', 'Kjønnsroller', 'Forventninger til hvordan kvinner og menn skal oppføre seg og hva de skal gjøre.', 0),
+  ('krle-10:kjonn-og-seksualitet', 'Tolkning', 'Hvordan hellige tekster forstås. Ulike tolkninger gir ulike syn på kjønn og seksualitet.', 1),
+  ('krle-10:kjonn-og-seksualitet', 'Ingrid Bjerkås', 'Den norske kirkes første kvinnelige prest, ordinert i 1961.', 2),
+  ('krle-10:kjonn-og-seksualitet', 'Rosemarie Köhn', 'Den norske kirkes første kvinnelige biskop, fra 1993.', 3),
+  ('krle-10:kjonn-og-seksualitet', 'Mannlige prester', 'Den katolske og den ortodokse kirken har bare menn som prester.', 4),
+  ('krle-10:kjonn-og-seksualitet', 'Muslimsk feminisme', 'Muslimer som tolker Koranen på nye måter og krever større likestilling.', 5),
+  ('krle-10:kjonn-og-seksualitet', 'Kvinnelige rabbinere', 'Finnes i reformjødedommen, men ikke i ortodoks jødedom.', 6),
+  ('krle-10:kjonn-og-seksualitet', 'Likestilling', 'At kjønn ikke skal avgjøre rettigheter og muligheter.', 7),
+  ('krle-10:kjonn-og-seksualitet', 'Samtykke', 'Et frivillig og tydelig ja.', 8),
+  ('krle-10:kjonn-og-seksualitet', 'Likekjønnet vigsel', 'Den norske kirke vedtok i 2016 at likekjønnede par kan vies i kirken.', 9),
+  ('krle-10:kjonn-og-seksualitet', 'Katolsk syn på homofili', 'Legningen er ikke synd, men homofilt samliv regnes som synd.', 10),
+  ('krle-10:kjonn-og-seksualitet', 'Tredje kjønn', 'Gammel tradisjon i Sør-Asia med en egen kjønnskategori ved siden av mann og kvinne.', 11),
+  ('krle-10:kjonn-og-seksualitet', 'Kjønnsnøytral ekteskapslov', 'Siden 2009 kan to av samme kjønn gifte seg i Norge.', 12),
+  ('krle-10:kjonn-og-seksualitet', 'Unntak for trossamfunn', 'Trossamfunn kan selv bestemme hvem de vier, og hvem som kan være religiøse ledere.', 13),
+  ('krle-10:kjonn-og-seksualitet', 'Mangfold innad', 'At troende i samme religion kan ha svært ulike syn.', 14);
+delete from public.quiz_sporsmal where tema_id = 'krle-10:kjonn-og-seksualitet';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('krle-10:kjonn-og-seksualitet', 'q01', 'flervalg', 'Hva handler uenigheten om kjønn og seksualitet i religioner ofte om?', array['Hvilke høytider man feirer', 'Hvordan hellige tekster skal tolkes', 'Hvilket språk man ber på', 'Hvor gudshusene ligger']::text[], 1, 'Samme tekst kan tolkes svært ulikt av ulike troende.', true, true, 0),
+  ('krle-10:kjonn-og-seksualitet', 'q02', 'flervalg', 'Når fikk Den norske kirke sin første kvinnelige prest?', array['1814', '1913', '1993', '1961']::text[], 3, 'Ingrid Bjerkås ble ordinert i 1961.', true, true, 1),
+  ('krle-10:kjonn-og-seksualitet', 'q03', 'flervalg', 'Hvilken kirke har bare mannlige prester?', array['Den katolske kirke', 'Den norske kirke', 'Alle lutherske kirker', 'Ingen kirker']::text[], 0, 'Også den ortodokse kirken har bare mannlige prester.', true, true, 2),
+  ('krle-10:kjonn-og-seksualitet', 'q04', 'flervalg', 'Hva vedtok Den norske kirke i 2016?', array['At kvinner kan bli prester', 'At kirken skal skilles fra staten', 'At likekjønnede par kan vies i kirken', 'At prevensjon er forbudt']::text[], 2, 'Vedtaket ble gjort av Kirkemøtet.', true, true, 3),
+  ('krle-10:kjonn-og-seksualitet', 'q05', 'flervalg', 'Hva lærer Den katolske kirke om homofili?', array['At homofil legning ikke er synd, men at homofilt samliv er det', 'At alt er tillatt', 'At homofile ikke kan være katolikker', 'At homofile par kan vies i kirken']::text[], 0, 'Kirken skiller mellom legning og handling.', true, true, 4),
+  ('krle-10:kjonn-og-seksualitet', 'q06', 'flervalg', 'Hva mener livssynshumanister om kjønn?', array['At menn skal lede', 'At kvinner skal være hjemme', 'At kjønn avgjør hvilke yrker man kan ha', 'At det skal være full likestilling']::text[], 3, 'Humanister bygger på menneskeverd og menneskerettigheter.', true, true, 5),
+  ('krle-10:kjonn-og-seksualitet', 'q07', 'flervalg', 'Hvor finnes en gammel tradisjon med et tredje kjønn?', array['I Den katolske kirke', 'I Sør-Asia', 'I ortodoks jødedom', 'I Skandinavia']::text[], 1, 'Tradisjonen har også plass i hinduistiske fortellinger.', true, true, 6),
+  ('krle-10:kjonn-og-seksualitet', 'q08', 'flervalg', 'Hvordan har ekteskapsloven vært siden 2009?', array['Bare for mann og kvinne', 'Bare for kristne', 'Kjønnsnøytral', 'Avskaffet']::text[], 2, 'To av samme kjønn kan gifte seg i Norge.', true, true, 7),
+  ('krle-10:kjonn-og-seksualitet', 'q09', 'flervalg', 'Hvilken rett har trossamfunn i Norge?', array['Å sette norsk lov til side', 'Å straffe medlemmene sine', 'Å bestemme hvem som blir statsminister', 'Å bestemme hvem de vil vie, og hvem som kan være religiøse ledere']::text[], 3, 'Dette er et unntak fra diskrimineringsloven for religiøse spørsmål.', true, false, 8),
+  ('krle-10:kjonn-og-seksualitet', 'q10', 'flervalg', 'Hvorfor er det viktig å huske mangfoldet innenfor hver religion?', array['Fordi troende i samme religion kan mene svært ulike ting', 'Fordi alle religioner er like', 'Fordi religioner aldri endrer seg', 'Fordi bare lederne har meninger']::text[], 0, 'Det hindrer at vi generaliserer om alle troende.', true, false, 9),
+  ('krle-10:kjonn-og-seksualitet', 'm01', 'sant-usant', 'Rosemarie Köhn ble Den norske kirkes første kvinnelige biskop i 1993.', array['Sant', 'Usant']::text[], 0, 'Hun ble biskop i Hamar.', false, true, 10),
+  ('krle-10:kjonn-og-seksualitet', 'm02', 'sant-usant', 'Alle muslimer har nøyaktig samme syn på kvinners rolle.', array['Sant', 'Usant']::text[], 1, 'Det finnes stort mangfold av syn blant muslimer.', false, true, 11),
+  ('krle-10:kjonn-og-seksualitet', 'm03', 'sant-usant', 'Reformjødedommen har kvinnelige rabbinere.', array['Sant', 'Usant']::text[], 0, 'Ortodoks jødedom har bare mannlige rabbinere.', false, true, 12),
+  ('krle-10:kjonn-og-seksualitet', 'm04', 'sant-usant', 'Norske lover gjelder ikke for medlemmer av trossamfunn.', array['Sant', 'Usant']::text[], 1, 'Norske lover gjelder for alle, men trossamfunn har visse unntak i religiøse spørsmål.', false, true, 13),
+  ('krle-10:kjonn-og-seksualitet', 'm05', 'flervalg', 'Hva åpnet paven for i 2023?', array['At kvinner kan bli prester', 'At prester kan velsigne likekjønnede par', 'At likekjønnede par kan vies', 'At prester kan gifte seg']::text[], 1, 'Velsignelse er ikke det samme som vigsel, og ordningen er omstridt i kirken.', false, true, 14),
+  ('krle-10:kjonn-og-seksualitet', 'm06', 'flervalg', 'Hva er samtykke?', array['Et frivillig og tydelig ja', 'En religiøs regel', 'En type ekteskap', 'Et løfte i kirken']::text[], 0, 'Samtykke er grunnleggende for all seksuell kontakt.', false, true, 15),
+  ('krle-10:kjonn-og-seksualitet', 'm07', 'flervalg', 'Hva sier norsk lov om diskriminering på grunn av seksuell orientering?', array['At det er lov i alle sammenhenger', 'At det er lov for arbeidsgivere', 'At det er forbudt', 'At det bare er forbudt i skolen']::text[], 2, 'Likestillings- og diskrimineringsloven forbyr slik diskriminering.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('krle-10:kjonn-og-seksualitet', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- KRLE: Eksistensielle spørsmål
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('krle-10:eksistensielle-sporsmal', 'krle-10', 'eksistensielle-sporsmal', 'Eksistensielle spørsmål', 'De store spørsmålene om mening, frihet, lidelse og død, svar fra religioner, livssyn og eksistensialistiske filosofer, og hva det vil si å vokse opp i et mangfoldig og globalt samfunn.', array[13]::int[], 2, 'sjekkes', array['Telefonnumrene til Alarmtelefonen (116 111) og Mental Helses hjelpetelefon (116 123) bør sjekkes før lansering.']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('krle-10:eksistensielle-sporsmal', '## Hva er eksistensielle spørsmål?
+
+**Eksistensielle spørsmål** er de store spørsmålene om livet og hva det vil si å være menneske:
+
+- Hvem er jeg, og hvem vil jeg være?
+- Hva er meningen med livet?
+- Hvorfor finnes det lidelse?
+- Hva skjer når vi dør?
+- Er jeg fri til å velge selv?
+
+Slike spørsmål har ikke fasitsvar, men alle mennesker møter dem, særlig i ungdomstiden og i vanskelige perioder.
+
+## Svar fra religioner og livssyn
+
+- **Kristendom**: Mennesket er skapt og elsket av Gud. Livet har mening fordi vi er en del av Guds plan, og det finnes håp om **evig liv**.
+- **Islam**: Livet er en **prøve** fra Gud. Mennesket skal leve etter Guds vilje, og på **dommens dag** avgjøres det som skjer etter døden.
+- **Hinduisme og buddhisme**: Livet er en del av kretsløpet av gjenfødelser. Målet er frigjøring, **moksha** eller **nirvana**.
+- **Livssynshumanisme**: Vi har ett liv, og det er vi selv som skaper **mening**, gjennom relasjoner, arbeid, kunnskap og det vi gjør for andre.
+
+## Eksistensialismen
+
+Den danske filosofen **Søren Kierkegaard** (1813–1855) mente at hvert menneske må velge selv og ta ansvar for livet sitt, og at denne friheten kan skape **angst**. Den franske filosofen **Jean-Paul Sartre** sa at «eksistensen går forut for essensen»: Vi blir ikke født med en ferdig mening, men skaper oss selv gjennom valgene vi tar. Mennesket er «dømt til å være fritt». **Albert Camus** skrev om det **absurde**, at vi søker mening i en verden som ikke gir klare svar. Han mente at vi likevel kan leve fullt og engasjert.
+
+## Å vokse opp i et mangfoldig og globalt samfunn
+
+Unge i dag møter mange valg og mange inntrykk:
+
+- **Identitet**: Mange vokser opp med flere kulturer, språk eller religioner og kan oppleve å høre til flere steder – eller ingen steder helt.
+- **Frihet og press**: Det finnes mange muligheter, men også press om å lykkes med skole, utseende og venner.
+- **Sosiale medier** gir fellesskap, men kan også føre til sammenligning og en følelse av å ikke være god nok.
+- **Globale utfordringer** som krig og klimaendringer kan gi uro og **framtidsangst**, men også engasjement.
+- **Ensomhet** og ønsket om å høre til er noe mange kjenner på.
+
+## Livskriser
+
+Sorg, tap, sykdom, samlivsbrudd eller mobbing kan gjøre de eksistensielle spørsmålene ekstra sterke. Det er vanlig å føle seg alene med tankene, men det hjelper ofte å snakke med noen: venner, familie, en lærer eller helsesykepleieren. Du kan også ringe **Alarmtelefonen for barn og unge** på 116 111 eller **Mental Helses hjelpetelefon** på 116 123.
+
+## Å reflektere
+
+Å tenke over eksistensielle spørsmål kan gjøre oss bedre kjent med oss selv og andre. Når vi lytter til hvordan mennesker med andre livssyn svarer, kan vi få nye perspektiver og forstå at det finnes mange måter å finne mening på.', '{"label":"Eksistensielle spørsmål","children":[{"label":"Spørsmålene","children":[{"label":"Hvem er jeg?"},{"label":"Meningen med livet"},{"label":"Lidelse og død"},{"label":"Frihet"}]},{"label":"Religiøse svar","children":[{"label":"Kristendom"},{"label":"Islam"},{"label":"Hinduisme og buddhisme"}]},{"label":"Ikke-religiøse svar","children":[{"label":"Humanisme"},{"label":"Kierkegaard"},{"label":"Sartre"},{"label":"Camus"}]},{"label":"Å vokse opp i dag","children":[{"label":"Flere kulturer"},{"label":"Frihet og press"},{"label":"Sosiale medier"},{"label":"Framtidsangst"}]},{"label":"Livskriser","children":[{"label":"Sorg og tap"},{"label":"Snakk med noen"},{"label":"116 111 og 116 123"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'krle-10:eksistensielle-sporsmal';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('krle-10:eksistensielle-sporsmal', 'Eksistensielle spørsmål', 'De store spørsmålene om mening, frihet, lidelse og død.', 0),
+  ('krle-10:eksistensielle-sporsmal', 'Kristent svar', 'Mennesket er skapt og elsket av Gud, med håp om evig liv.', 1),
+  ('krle-10:eksistensielle-sporsmal', 'Islamsk svar', 'Livet er en prøve fra Gud, og dommens dag avgjør det som skjer etter døden.', 2),
+  ('krle-10:eksistensielle-sporsmal', 'Moksha og nirvana', 'Frigjøring fra gjenfødelsene i hinduisme og buddhisme.', 3),
+  ('krle-10:eksistensielle-sporsmal', 'Humanistisk svar', 'Vi har ett liv og skaper mening selv, blant annet gjennom relasjoner.', 4),
+  ('krle-10:eksistensielle-sporsmal', 'Eksistensialisme', 'Filosofisk retning om menneskets frihet, valg og ansvar.', 5),
+  ('krle-10:eksistensielle-sporsmal', 'Søren Kierkegaard', 'Dansk filosof (1813–1855) som skrev om valg, ansvar og angst.', 6),
+  ('krle-10:eksistensielle-sporsmal', 'Jean-Paul Sartre', 'Fransk filosof som mente at mennesket er «dømt til å være fritt».', 7),
+  ('krle-10:eksistensielle-sporsmal', '«Eksistensen går forut for essensen»', 'Vi er ikke født med en ferdig mening, men skaper oss selv gjennom valg.', 8),
+  ('krle-10:eksistensielle-sporsmal', 'Det absurde', 'Camus'' begrep om at vi søker mening i en verden som ikke gir klare svar.', 9),
+  ('krle-10:eksistensielle-sporsmal', 'Identitet i et mangfoldig samfunn', 'Mange vokser opp med flere kulturer og kan høre til flere steder.', 10),
+  ('krle-10:eksistensielle-sporsmal', 'Framtidsangst', 'Uro for framtiden, for eksempel på grunn av krig eller klimaendringer.', 11),
+  ('krle-10:eksistensielle-sporsmal', 'Livskrise', 'Vanskelig periode, for eksempel etter sorg, tap eller sykdom.', 12),
+  ('krle-10:eksistensielle-sporsmal', 'Alarmtelefonen for barn og unge', 'Gratis hjelpetelefon: 116 111.', 13),
+  ('krle-10:eksistensielle-sporsmal', 'Mental Helses hjelpetelefon', 'Gratis hjelpetelefon for alle som trenger noen å snakke med: 116 123.', 14);
+delete from public.quiz_sporsmal where tema_id = 'krle-10:eksistensielle-sporsmal';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('krle-10:eksistensielle-sporsmal', 'q01', 'flervalg', 'Hva er et eksistensielt spørsmål?', array['Hva er klokka?', 'Hva koster en bussbillett?', 'Hva er meningen med livet?', 'Hvilken dag er det i dag?']::text[], 2, 'Eksistensielle spørsmål handler om de store sidene ved det å være menneske.', true, true, 0),
+  ('krle-10:eksistensielle-sporsmal', 'q02', 'flervalg', 'Hva sa Sartre om menneskets frihet?', array['At vi er «dømt til å være frie»', 'At alt er forutbestemt', 'At bare Gud er fri', 'At frihet ikke finnes']::text[], 0, 'Ifølge Sartre kan vi ikke unngå å velge, og vi har ansvar for valgene våre.', true, true, 1),
+  ('krle-10:eksistensielle-sporsmal', 'q03', 'flervalg', 'Hvordan svarer livssynshumanismen på spørsmålet om meningen med livet?', array['At meningen er gitt av Gud', 'At vi selv skaper mening, for eksempel gjennom relasjoner og å hjelpe andre', 'At livet ikke har noen mening', 'At meningen er å bli gjenfødt']::text[], 1, 'Humanister mener at mening skapes av mennesker.', true, true, 2),
+  ('krle-10:eksistensielle-sporsmal', 'q04', 'flervalg', 'Hvem var Søren Kierkegaard?', array['En norsk prest', 'En tysk fysiker', 'En fransk forfatter', 'En dansk filosof som skrev om valg, ansvar og angst']::text[], 3, 'Kierkegaard regnes som en forløper for eksistensialismen.', true, true, 3),
+  ('krle-10:eksistensielle-sporsmal', 'q05', 'flervalg', 'Hva betyr «eksistensen går forut for essensen»?', array['At Gud skapte alt', 'At vi ikke er født med en ferdig mening, men skaper oss selv gjennom valg', 'At alt er bestemt på forhånd', 'At bare essensen betyr noe']::text[], 1, 'Først finnes vi, så blir vi den vi er gjennom det vi gjør.', true, true, 4),
+  ('krle-10:eksistensielle-sporsmal', 'q06', 'flervalg', 'Hvordan ser islam på livet?', array['Som en drøm', 'Som en tilfeldighet', 'Som en prøve fra Gud', 'Som ett av mange liv i samsara']::text[], 2, 'Hvordan man lever, har betydning på dommens dag.', true, true, 5),
+  ('krle-10:eksistensielle-sporsmal', 'q07', 'flervalg', 'Hva mente Albert Camus med det absurde?', array['At livet bare er morsomt', 'At vi ikke bør bry oss om noe', 'At Gud styrer alt', 'At vi søker mening i en verden som ikke gir klare svar']::text[], 3, 'Camus mente vi likevel kan leve fullt og engasjert.', true, true, 6),
+  ('krle-10:eksistensielle-sporsmal', 'q08', 'flervalg', 'Hvilken utfordring kan sosiale medier gi?', array['Sammenligning og følelsen av å ikke være god nok', 'At man lærer for mye', 'At man får for lite fritid', 'Ingen utfordringer']::text[], 0, 'Det man ser på sosiale medier, er ofte et redigert bilde av livet.', true, true, 7),
+  ('krle-10:eksistensielle-sporsmal', 'q09', 'flervalg', 'Hva kan du gjøre hvis du går gjennom en livskrise?', array['Holde alt for deg selv', 'Unngå alle andre', 'Snakke med noen du stoler på eller ringe en hjelpetelefon', 'Late som ingenting']::text[], 2, 'Det hjelper ofte å dele tankene med noen.', true, false, 8),
+  ('krle-10:eksistensielle-sporsmal', 'q10', 'flervalg', 'Hva er målet i hinduisme og buddhisme?', array['Å bli rik', 'Frigjøring fra gjenfødelsene, moksha eller nirvana', 'Å leve evig på jorda', 'Å få mange barn']::text[], 1, 'Begge religionene ser livet som en del av et kretsløp.', true, false, 9),
+  ('krle-10:eksistensielle-sporsmal', 'm01', 'sant-usant', 'Eksistensielle spørsmål har ett riktig fasitsvar.', array['Sant', 'Usant']::text[], 1, 'Religioner, livssyn og enkeltmennesker svarer ulikt.', false, true, 10),
+  ('krle-10:eksistensielle-sporsmal', 'm02', 'sant-usant', 'Mange som vokser opp med flere kulturer, kan oppleve å høre til flere steder.', array['Sant', 'Usant']::text[], 0, 'Det kan være både en styrke og en utfordring.', false, true, 11),
+  ('krle-10:eksistensielle-sporsmal', 'm03', 'sant-usant', 'Klimaendringer kan gi både framtidsangst og engasjement.', array['Sant', 'Usant']::text[], 0, 'Mange unge engasjerer seg for klimaet.', false, true, 12),
+  ('krle-10:eksistensielle-sporsmal', 'm04', 'sant-usant', 'Det er uvanlig å tenke på døden og meningen med livet i ungdomstiden.', array['Sant', 'Usant']::text[], 1, 'Ungdomstiden er en periode der mange tenker mye over slike spørsmål.', false, true, 13),
+  ('krle-10:eksistensielle-sporsmal', 'm05', 'flervalg', 'Hvilket nummer har Alarmtelefonen for barn og unge?', array['112', '116 111', '113', '110']::text[], 1, 'Telefonen er gratis og åpen for barn og unge som trenger hjelp.', false, true, 14),
+  ('krle-10:eksistensielle-sporsmal', 'm06', 'flervalg', 'Hva er et kristent svar på hva som skjer etter døden?', array['Håp om evig liv', 'Gjenfødelse som dyr', 'At ingenting skjer', 'At man blir en ånd i naturen']::text[], 0, 'Håpet bygger på troen på Jesu oppstandelse.', false, true, 15),
+  ('krle-10:eksistensielle-sporsmal', 'm07', 'flervalg', 'Hva mente Kierkegaard at friheten til å velge kan skape?', array['Bare glede', 'Kjedsomhet', 'Angst', 'Rikdom']::text[], 2, 'Når vi selv må velge, kjenner vi på ansvaret.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('krle-10:eksistensielle-sporsmal', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- KRLE: Etikk, kommunikasjon og uenighet
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('krle-10:etikk-og-kommunikasjon', 'krle-10', 'etikk-og-kommunikasjon', 'Etikk, kommunikasjon og uenighet', 'Etiske problemstillinger knyttet til sannhet, hemmeligheter og digital kommunikasjon, og hvordan du kan håndtere uenighet og kjenne igjen usaklige teknikker.', array[14, 12]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('krle-10:etikk-og-kommunikasjon', '## Kommunikasjon og etikk
+
+Vi kommuniserer hele tiden: ansikt til ansikt, i meldinger, på sosiale medier, i bilder og gjennom kroppsspråk. Måten vi kommuniserer på, kan bygge opp eller rive ned andre. Derfor reiser kommunikasjon mange **etiske problemstillinger**.
+
+## Sannhet og løgn
+
+Er det alltid galt å lyve? En **pliktetiker** som Kant vil si ja. En **konsekvensetiker** vil spørre om en **hvit løgn** – for eksempel å si at du liker en gave – gjør mer godt enn vondt. Mange mener at ærlighet er grunnlaget for **tillit**, men at man også må tenke på hvordan sannheten blir sagt.
+
+## Hemmeligheter og taushet
+
+Når noen forteller deg noe i **fortrolighet**, har du et ansvar. Samtidig finnes det situasjoner der du bør si fra til en voksen, for eksempel hvis en venn blir utsatt for vold eller kan komme til å skade seg selv. Da kan plikten til å hjelpe veie tyngre enn løftet om å tie.
+
+## Digital kommunikasjon
+
+Nettet gjør det lett å nå mange, men gir også egne utfordringer:
+
+- **Nettmobbing** og **netthets**: Når vi ikke ser ansiktet til mottakeren, blir terskelen for å si sårende ting lavere.
+- **Deling av bilder**: Du må ha **samtykke** før du deler bilder der andre er hovedmotivet, og deling av nakenbilder av personer under 18 år er straffbart.
+- **Ryktespredning** og baksnakking kan spre seg raskt og være vanskelig å stoppe.
+- **Anonymitet** kan beskytte folk som varsler om kritikkverdige forhold, men også gjøre det lettere å hetse.
+- **Falske nyheter**, deepfakes og falske profiler kan lure oss og skade andre.
+- **Humor** kan skape fellesskap, men også såre. Det som er morsomt for én, kan være krenkende for en annen.
+
+**Ytringsfriheten** gir oss rett til å si hva vi mener, men vi har også **ansvar** for hvordan ordene våre påvirker andre. **Den gylne regel** er en god rettesnor også på nett.
+
+## Å møte uenighet
+
+**Meningsbrytning**, at ulike meninger møtes og prøves mot hverandre, er viktig i et demokrati. Men det krever at vi håndterer uenighet på en god måte:
+
+- **Dialog** handler om å forstå hverandre, mens **debatt** ofte handler om å vinne. Begge har sin plass.
+- **Aktiv lytting** og **perspektivtaking**: Prøv å forstå hvorfor den andre mener det de mener.
+- Bruk **saklige argumenter**, og skill mellom sak og person.
+- Bruk **jeg-budskap** («Jeg blir lei meg når …») i stedet for å anklage.
+
+## Usaklige teknikker
+
+Noen prøver å vinne diskusjoner på urettferdige måter:
+
+- **Personangrep**: å angripe personen i stedet for argumentet
+- **Stråmann**: å gjengi motpartens syn på en forvrengt måte og så angripe det
+- **Hersketeknikker**: måter å undertrykke andre på, som å overse, latterliggjøre eller holde tilbake informasjon. Begrepet ble gjort kjent av den norske sosialpsykologen og politikeren **Berit Ås**.
+
+Å kjenne igjen slike teknikker gjør det lettere å svare på dem – og å la være å bruke dem selv.', '{"label":"Etikk og kommunikasjon","children":[{"label":"Sannhet","children":[{"label":"Hvit løgn"},{"label":"Plikt eller konsekvens"},{"label":"Tillit"}]},{"label":"Fortrolighet","children":[{"label":"Holde på hemmeligheter"},{"label":"Når du bør si fra"}]},{"label":"Digitalt","children":[{"label":"Nettmobbing"},{"label":"Bildedeling og samtykke"},{"label":"Rykter"},{"label":"Anonymitet"},{"label":"Falske nyheter"}]},{"label":"Uenighet","children":[{"label":"Dialog og debatt"},{"label":"Aktiv lytting"},{"label":"Perspektivtaking"},{"label":"Jeg-budskap"}]},{"label":"Usaklige grep","children":[{"label":"Personangrep"},{"label":"Stråmann"},{"label":"Hersketeknikker"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'krle-10:etikk-og-kommunikasjon';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('krle-10:etikk-og-kommunikasjon', 'Etisk problemstilling', 'Et spørsmål om hva som er rett og galt å gjøre.', 0),
+  ('krle-10:etikk-og-kommunikasjon', 'Hvit løgn', 'En liten løgn for å skåne noen.', 1),
+  ('krle-10:etikk-og-kommunikasjon', 'Fortrolighet', 'Når noen forteller deg noe i tillit om at du ikke sprer det videre.', 2),
+  ('krle-10:etikk-og-kommunikasjon', 'Nettmobbing', 'Gjentatt plaging, utestenging eller hets via digitale kanaler.', 3),
+  ('krle-10:etikk-og-kommunikasjon', 'Samtykke til deling', 'Du må spørre før du deler bilder der andre er hovedmotivet.', 4),
+  ('krle-10:etikk-og-kommunikasjon', 'Ryktespredning', 'Å spre påstander om andre som kan være usanne eller sårende.', 5),
+  ('krle-10:etikk-og-kommunikasjon', 'Anonymitet', 'Å ytre seg uten navn. Kan beskytte varslere, men gjøre hets lettere.', 6),
+  ('krle-10:etikk-og-kommunikasjon', 'Ytringsfrihet og ansvar', 'Retten til å si sin mening, sammen med ansvaret for hvordan ordene påvirker andre.', 7),
+  ('krle-10:etikk-og-kommunikasjon', 'Meningsbrytning', 'At ulike meninger møtes og prøves mot hverandre.', 8),
+  ('krle-10:etikk-og-kommunikasjon', 'Dialog og debatt', 'Dialog handler om å forstå, debatt ofte om å vinne.', 9),
+  ('krle-10:etikk-og-kommunikasjon', 'Perspektivtaking', 'Å prøve å forstå hvordan den andre tenker og opplever en sak.', 10),
+  ('krle-10:etikk-og-kommunikasjon', 'Jeg-budskap', 'Å si hvordan man selv opplever noe, i stedet for å anklage.', 11),
+  ('krle-10:etikk-og-kommunikasjon', 'Personangrep', 'Å angripe personen i stedet for argumentet.', 12),
+  ('krle-10:etikk-og-kommunikasjon', 'Stråmann', 'Å forvrenge motpartens syn og så angripe den forvrengte versjonen.', 13),
+  ('krle-10:etikk-og-kommunikasjon', 'Hersketeknikk', 'Måte å undertrykke andre på, som å overse eller latterliggjøre. Gjort kjent av Berit Ås.', 14);
+delete from public.quiz_sporsmal where tema_id = 'krle-10:etikk-og-kommunikasjon';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('krle-10:etikk-og-kommunikasjon', 'q01', 'flervalg', 'Hva er en hvit løgn?', array['En løgn som skader mange', 'En løgn i retten', 'En løgn på nett', 'En liten løgn for å skåne noen']::text[], 3, 'Etiske teorier vurderer hvite løgner ulikt.', true, true, 0),
+  ('krle-10:etikk-og-kommunikasjon', 'q02', 'flervalg', 'Hvordan vil en pliktetiker som Kant se på å lyve?', array['At det er greit hvis det gir gode følger', 'At det alltid er galt', 'At det er opp til hver enkelt', 'At det bare er galt på nett']::text[], 1, 'Kant mente at plikten til å si sannheten gjelder uansett følger.', true, true, 1),
+  ('krle-10:etikk-og-kommunikasjon', 'q03', 'flervalg', 'Når kan det være riktig å bryte et løfte om å holde noe hemmelig?', array['Når hemmeligheten er kjedelig', 'Når du er sint på vennen', 'Når en venn blir utsatt for vold eller kan komme til å skade seg selv', 'Aldri']::text[], 2, 'Plikten til å hjelpe kan veie tyngre enn løftet om å tie.', true, true, 2),
+  ('krle-10:etikk-og-kommunikasjon', 'q04', 'flervalg', 'Hvorfor kan terskelen for sårende kommentarer være lavere på nett?', array['Fordi vi ikke ser ansiktet og reaksjonen til mottakeren', 'Fordi alle er anonyme', 'Fordi det er lov', 'Fordi ingen leser det']::text[], 0, 'Avstanden gjør det lettere å glemme at det er et menneske på den andre siden.', true, true, 3),
+  ('krle-10:etikk-og-kommunikasjon', 'q05', 'flervalg', 'Hva er forskjellen på dialog og debatt?', array['Det er ingen forskjell', 'Debatt er alltid bedre', 'Dialog handler om å forstå, debatt ofte om å vinne', 'Dialog er bare skriftlig']::text[], 2, 'Begge formene kan være nyttige i ulike situasjoner.', true, true, 4),
+  ('krle-10:etikk-og-kommunikasjon', 'q06', 'flervalg', 'Hva er et stråmannsargument?', array['Et argument med mange fakta', 'Et argument om landbruk', 'Et spørsmål til motparten', 'Å forvrenge motpartens syn og så angripe det']::text[], 3, 'Det er lettere å angripe en forenklet versjon av det motparten mener.', true, true, 5),
+  ('krle-10:etikk-og-kommunikasjon', 'q07', 'flervalg', 'Hva er et jeg-budskap?', array['Å snakke bare om seg selv', 'Å si hvordan man selv opplever noe, i stedet for å anklage', 'Å skrive dagbok', 'Å alltid ta ordet først']::text[], 1, 'Jeg-budskap gjør det lettere for den andre å lytte uten å gå i forsvar.', true, true, 6),
+  ('krle-10:etikk-og-kommunikasjon', 'q08', 'flervalg', 'Hvem gjorde begrepet hersketeknikker kjent i Norge?', array['Berit Ås', 'Henrik Ibsen', 'Gro Harlem Brundtland', 'Sigrid Undset']::text[], 0, 'Hun beskrev fem hersketeknikker, blant annet usynliggjøring og latterliggjøring.', true, true, 7),
+  ('krle-10:etikk-og-kommunikasjon', 'q09', 'flervalg', 'Hva er en etisk utfordring ved anonymitet på nett?', array['At ingen kan skrive', 'At det blir for mange innlegg', 'At alle blir mer høflige', 'At det kan gjøre det lettere å hetse andre']::text[], 3, 'Anonymitet kan likevel være viktig for varslere.', true, false, 8),
+  ('krle-10:etikk-og-kommunikasjon', 'q10', 'flervalg', 'Hva sier den gylne regel om kommunikasjon?', array['Si alltid det du vil', 'Snakk til andre slik du selv vil bli snakket til', 'Svar aldri på meldinger', 'Del alt du ser']::text[], 1, 'Regelen passer like godt på nett som ansikt til ansikt.', true, false, 9),
+  ('krle-10:etikk-og-kommunikasjon', 'm01', 'sant-usant', 'Ytringsfrihet betyr at man ikke har noe ansvar for det man sier.', array['Sant', 'Usant']::text[], 1, 'Med friheten følger ansvar, og noen ytringer er forbudt, som trusler.', false, true, 10),
+  ('krle-10:etikk-og-kommunikasjon', 'm02', 'sant-usant', 'Latterliggjøring kan være en hersketeknikk.', array['Sant', 'Usant']::text[], 0, 'Latterliggjøring gjør at andre ikke blir tatt på alvor.', false, true, 11),
+  ('krle-10:etikk-og-kommunikasjon', 'm03', 'sant-usant', 'Du trenger samtykke før du deler bilder der andre er hovedmotivet.', array['Sant', 'Usant']::text[], 0, 'Hovedregelen er at den som er avbildet, må spørres.', false, true, 12),
+  ('krle-10:etikk-og-kommunikasjon', 'm04', 'sant-usant', 'Humor kan aldri være krenkende.', array['Sant', 'Usant']::text[], 1, 'Det som er morsomt for én, kan såre en annen.', false, true, 13),
+  ('krle-10:etikk-og-kommunikasjon', 'm05', 'flervalg', 'Hva er perspektivtaking?', array['Å ta bilder fra ulike vinkler', 'Å prøve å forstå hvordan den andre tenker og opplever saken', 'Å alltid være enig', 'Å bytte mening ofte']::text[], 1, 'Perspektivtaking gjør det lettere å håndtere uenighet.', false, true, 14),
+  ('krle-10:etikk-og-kommunikasjon', 'm06', 'flervalg', 'Hva er et personangrep i en diskusjon?', array['Å angripe personen i stedet for argumentet', 'Å gi ros', 'Å stille spørsmål', 'Å vise til fakta']::text[], 0, 'Personangrep svarer ikke på saken.', false, true, 15),
+  ('krle-10:etikk-og-kommunikasjon', 'm07', 'flervalg', 'Hva er meningsbrytning?', array['At man slutter å snakke sammen', 'At alle mener det samme', 'At ulike meninger møtes og prøves mot hverandre', 'At man bryter et løfte']::text[], 2, 'Meningsbrytning er en viktig del av demokratiet.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('krle-10:etikk-og-kommunikasjon', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- KRLE: Filosofer og aktuelle etiske spørsmål
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('krle-10:filosofi-og-aktuell-etikk', 'krle-10', 'filosofi-og-aktuell-etikk', 'Filosofer og aktuelle etiske spørsmål', 'Etiske ideer fra filosofer fra antikken til i dag, og hvordan ideene kan brukes til å drøfte aktuelle spørsmål om dyr, kunstig intelligens og klima.', array[11]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('krle-10:filosofi-og-aktuell-etikk', '## Filosofer og de store spørsmålene
+
+Gjennom historien har filosofer spurt: Hva er et godt liv? Hva er rettferdighet? Hvordan bør vi behandle hverandre? Ideene deres kan fortsatt hjelpe oss å drøfte aktuelle spørsmål.
+
+## Antikken
+
+- **Sokrates** (ca. 470–399 f.Kr.) gikk rundt i Athen og stilte spørsmål for å få folk til å tenke selv. Han mente at «et uransaket liv er ikke verdt å leve», og at det er bedre å lide urett enn å gjøre urett.
+- **Platon**, eleven hans, mente at det finnes et evig og uforanderlig **gode**, og at et rettferdig samfunn bør ledes av kloke mennesker.
+- **Aristoteles** mente at målet med livet er **lykke** i betydningen et godt og meningsfullt liv, og at vi når det ved å utvikle **dyder**.
+- **Epikur** mente at lykke er fravær av smerte og uro, og anbefalte vennskap, enkle gleder og måtehold.
+
+## Nyere tid
+
+- **Immanuel Kant** mente at vi må behandle mennesker som **mål i seg selv**, aldri bare som middel.
+- **John Stuart Mill** formulerte **skadeprinsippet**: Staten bør bare begrense friheten til et menneske for å hindre at andre blir skadet.
+- **Hannah Arendt** fulgte rettssaken mot nazisten Adolf Eichmann og skrev om **ondskapens banalitet**: Store forbrytelser kan utføres av vanlige mennesker som slutter å tenke selv og bare følger ordre.
+- Den danske filosofen **K.E. Løgstrup** skrev om **den etiske fordring**: Vi har alltid noe av et annet menneskes liv i våre hender, og møtet med den andre krever at vi tar ansvar.
+- **Peter Singer** mener at dyrs lidelse må telle like mye som menneskers lignende lidelse, og at rike mennesker har plikt til å hjelpe fattige.
+
+## Aktuelle spørsmål
+
+**Dyreetikk**: Er det riktig å spise kjøtt? Med Singers konsekvensetikk kan man argumentere for at vi må redusere dyrs lidelse, for eksempel ved å spise mindre kjøtt og stille strenge krav til dyrevelferd. Andre mener at mennesker har større verdi enn dyr, men at vi likevel har plikt til å behandle dyr godt.
+
+**Kunstig intelligens**: KI kan hjelpe leger, lærere og forskere, men kan også brukes til overvåking, juks og **deepfakes**. Hvem har ansvaret når en KI gjør feil? Kants tanke om menneskeverd kan brukes til å kreve at mennesker aldri bare behandles som data.
+
+**Klima og framtidige generasjoner**: Har vi ansvar for mennesker som ennå ikke er født? Både Løgstrups etiske fordring og konsekvensetikkens hensyn til alle som berøres, kan brukes til å argumentere for at vi må kutte utslipp i dag.
+
+## Å drøfte
+
+Å **drøfte** betyr å se et spørsmål fra flere sider, veie argumenter for og mot og komme fram til en begrunnet konklusjon. De filosofiske ideene gir ikke fasitsvar, men de gir oss **verktøy** til å tenke klarere og argumentere bedre.', '{"label":"Filosofi og aktuell etikk","children":[{"label":"Antikken","children":[{"label":"Sokrates"},{"label":"Platon"},{"label":"Aristoteles"},{"label":"Epikur"}]},{"label":"Nyere tid","children":[{"label":"Kant"},{"label":"Mill","note":"Skadeprinsippet"},{"label":"Arendt"},{"label":"Løgstrup"},{"label":"Singer"}]},{"label":"Dyreetikk","children":[{"label":"Dyrs lidelse"},{"label":"Kjøtt og dyrevelferd"}]},{"label":"Kunstig intelligens","children":[{"label":"Ansvar ved feil"},{"label":"Menneskeverd"},{"label":"Deepfakes"}]},{"label":"Klima","children":[{"label":"Framtidige generasjoner"},{"label":"Den etiske fordring"},{"label":"Å drøfte"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'krle-10:filosofi-og-aktuell-etikk';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('krle-10:filosofi-og-aktuell-etikk', 'Sokrates', 'Gresk filosof som stilte spørsmål for å få folk til å tenke selv.', 0),
+  ('krle-10:filosofi-og-aktuell-etikk', '«Et uransaket liv er ikke verdt å leve»', 'Sokrates'' tanke om at vi må tenke over hvordan vi lever.', 1),
+  ('krle-10:filosofi-og-aktuell-etikk', 'Platon', 'Sokrates'' elev, som mente det finnes et evig og uforanderlig gode.', 2),
+  ('krle-10:filosofi-og-aktuell-etikk', 'Aristoteles og lykke', 'Målet med livet er et godt og meningsfullt liv, nådd gjennom dyder.', 3),
+  ('krle-10:filosofi-og-aktuell-etikk', 'Epikur', 'Mente at lykke er fravær av smerte og uro.', 4),
+  ('krle-10:filosofi-og-aktuell-etikk', 'Kant og menneskeverd', 'Mennesker skal behandles som mål i seg selv, aldri bare som middel.', 5),
+  ('krle-10:filosofi-og-aktuell-etikk', 'Skadeprinsippet', 'Mills prinsipp: Friheten bør bare begrenses for å hindre skade på andre.', 6),
+  ('krle-10:filosofi-og-aktuell-etikk', 'Hannah Arendt', 'Filosof som skrev om ondskapens banalitet etter Eichmann-rettssaken.', 7),
+  ('krle-10:filosofi-og-aktuell-etikk', 'Ondskapens banalitet', 'At vanlige mennesker kan gjøre store forbrytelser ved å slutte å tenke selv.', 8),
+  ('krle-10:filosofi-og-aktuell-etikk', 'K.E. Løgstrup', 'Dansk filosof som skrev om den etiske fordring.', 9),
+  ('krle-10:filosofi-og-aktuell-etikk', 'Den etiske fordring', 'Vi har alltid noe av et annet menneskes liv i våre hender.', 10),
+  ('krle-10:filosofi-og-aktuell-etikk', 'Peter Singer', 'Filosof som mener dyrs lidelse teller, og at rike har plikt til å hjelpe fattige.', 11),
+  ('krle-10:filosofi-og-aktuell-etikk', 'Dyreetikk', 'Spørsmål om hvordan vi bør behandle dyr.', 12),
+  ('krle-10:filosofi-og-aktuell-etikk', 'KI-etikk', 'Spørsmål om ansvar, personvern og menneskeverd ved bruk av kunstig intelligens.', 13),
+  ('krle-10:filosofi-og-aktuell-etikk', 'Å drøfte', 'Å veie argumenter fra flere sider og komme fram til en begrunnet konklusjon.', 14);
+delete from public.quiz_sporsmal where tema_id = 'krle-10:filosofi-og-aktuell-etikk';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('krle-10:filosofi-og-aktuell-etikk', 'q01', 'flervalg', 'Hvordan arbeidet Sokrates?', array['Han stilte spørsmål for å få folk til å tenke selv', 'Han skrev mange bøker', 'Han var konge i Athen', 'Han bygde templer']::text[], 0, 'Det vi vet om Sokrates, kommer i stor grad fra eleven Platon.', true, true, 0),
+  ('krle-10:filosofi-og-aktuell-etikk', 'q02', 'flervalg', 'Hva sier Mills skadeprinsipp?', array['At man alltid skal si sannheten', 'At dyr har samme verdi som mennesker', 'At lykke er fravær av smerte', 'At staten bare bør begrense friheten for å hindre skade på andre']::text[], 3, 'Prinsippet brukes ofte i debatter om forbud og frihet.', true, true, 1),
+  ('krle-10:filosofi-og-aktuell-etikk', 'q03', 'flervalg', 'Hva mente Hannah Arendt med ondskapens banalitet?', array['At onde mennesker er sjeldne', 'At ondskap alltid er lett å oppdage', 'At vanlige mennesker kan gjøre store forbrytelser ved å slutte å tenke selv', 'At ondskap er morsomt']::text[], 2, 'Arendt mente Eichmann ikke var et monster, men en byråkrat som fulgte ordre.', true, true, 2),
+  ('krle-10:filosofi-og-aktuell-etikk', 'q04', 'flervalg', 'Hva er den etiske fordring hos Løgstrup?', array['At man alltid må følge loven', 'At vi alltid har noe av et annet menneskes liv i våre hender', 'At man skal søke egen lykke', 'At dyr er viktigere enn mennesker']::text[], 1, 'Møtet med et annet menneske gir oss ansvar.', true, true, 3),
+  ('krle-10:filosofi-og-aktuell-etikk', 'q05', 'flervalg', 'Hva mente Epikur at lykke er?', array['Rikdom og makt', 'Å vinne diskusjoner', 'Å leve i kloster', 'Fravær av smerte og uro']::text[], 3, 'Epikur anbefalte vennskap og enkle gleder.', true, true, 4),
+  ('krle-10:filosofi-og-aktuell-etikk', 'q06', 'flervalg', 'Hvilken filosof mener at dyrs lidelse må telle like mye som menneskers lignende lidelse?', array['Peter Singer', 'Immanuel Kant', 'Platon', 'Sokrates']::text[], 0, 'Singer er en av de mest kjente dyreetikerne.', true, true, 5),
+  ('krle-10:filosofi-og-aktuell-etikk', 'q07', 'flervalg', 'Hva betyr det å drøfte et spørsmål?', array['Å gi et kort svar', 'Å gjenta det læreren sier', 'Å veie argumenter fra flere sider og komme fram til en begrunnet konklusjon', 'Å bare si sin egen mening']::text[], 2, 'Drøfting krever at man tar motargumenter på alvor.', true, true, 6),
+  ('krle-10:filosofi-og-aktuell-etikk', 'q08', 'flervalg', 'Hvilken etisk utfordring knyttes til kunstig intelligens?', array['At den ikke kan regne', 'Hvem som har ansvaret når den gjør feil', 'At den er for treg', 'At den bare virker på engelsk']::text[], 1, 'Ansvar er vanskelig å plassere når en maskin tar avgjørelser.', true, true, 7),
+  ('krle-10:filosofi-og-aktuell-etikk', 'q09', 'flervalg', 'Hvordan kan Kants ideer brukes i debatten om KI?', array['Til å si at KI alltid er god', 'Til å si at KI skal bestemme alt', 'Til å si at menneskeverd ikke betyr noe', 'Til å kreve at mennesker aldri bare behandles som data']::text[], 3, 'Kants tanke om menneskeverd kan brukes som et krav til teknologien.', true, false, 8),
+  ('krle-10:filosofi-og-aktuell-etikk', 'q10', 'flervalg', 'Hva mente Aristoteles er målet med livet?', array['Rikdom', 'Makt', 'Lykke i betydningen et godt og meningsfullt liv', 'Å klare seg uten andre']::text[], 2, 'Aristoteles mente vi når lykke ved å utvikle gode dyder.', true, false, 9),
+  ('krle-10:filosofi-og-aktuell-etikk', 'm01', 'sant-usant', 'Sokrates mente at det er bedre å lide urett enn å gjøre urett.', array['Sant', 'Usant']::text[], 0, 'Tanken er kjent fra Platons dialoger.', false, true, 10),
+  ('krle-10:filosofi-og-aktuell-etikk', 'm02', 'sant-usant', 'Filosofiske ideer gir fasitsvar på alle aktuelle etiske spørsmål.', array['Sant', 'Usant']::text[], 1, 'Ideene gir verktøy for å tenke, men ikke ferdige svar.', false, true, 11),
+  ('krle-10:filosofi-og-aktuell-etikk', 'm03', 'sant-usant', 'Hannah Arendt fulgte rettssaken mot Adolf Eichmann.', array['Sant', 'Usant']::text[], 0, 'Rettssaken ble holdt i Jerusalem i 1961.', false, true, 12),
+  ('krle-10:filosofi-og-aktuell-etikk', 'm04', 'sant-usant', 'Løgstrup mente at vi ikke har ansvar for andre mennesker.', array['Sant', 'Usant']::text[], 1, 'Løgstrup mente tvert imot at møtet med den andre gir oss ansvar.', false, true, 13),
+  ('krle-10:filosofi-og-aktuell-etikk', 'm05', 'flervalg', 'Hvem var elev av Sokrates?', array['Kant', 'Platon', 'Mill', 'Singer']::text[], 1, 'Platon skrev ned mange samtaler med Sokrates.', false, true, 14),
+  ('krle-10:filosofi-og-aktuell-etikk', 'm06', 'flervalg', 'Hvilket argument kan brukes for å spise mindre kjøtt?', array['At det reduserer dyrs lidelse og klimagassutslipp', 'At kjøtt er dyrt', 'At dyr ikke kan føle smerte', 'At det er påbudt']::text[], 0, 'Både dyreetikk og klimahensyn trekkes inn i debatten.', false, true, 15),
+  ('krle-10:filosofi-og-aktuell-etikk', 'm07', 'flervalg', 'Hvilken tanke kan brukes for å argumentere for at vi har ansvar for framtidige generasjoner?', array['At bare de som lever nå, teller', 'At klimaet ikke påvirker mennesker', 'At følgene for alle som berøres, må tas med', 'At framtiden ikke kan påvirkes']::text[], 2, 'Konsekvensetikken tar hensyn til alle som påvirkes av en handling.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('krle-10:filosofi-og-aktuell-etikk', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- KRLE: Menneskerettigheter, bærekraft og fattigdom
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('krle-10:menneskerettigheter-og-fattigdom', 'krle-10', 'menneskerettigheter-og-fattigdom', 'Menneskerettigheter, bærekraft og fattigdom', 'Etiske problemstillinger knyttet til fattigdom, plikten til å hjelpe, handel og menneskerettigheter, og rettferdig fordeling av klimaansvaret.', array[15]::int[], 5, 'sjekkes', array['Verdensbankens grense for ekstrem fattigdom (rundt 3 dollar om dagen) og hvor mange som lever under den, bør sjekkes mot siste tall.']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('krle-10:menneskerettigheter-og-fattigdom', '## Etiske spørsmål i en urettferdig verden
+
+Verden har aldri vært rikere, men godene er svært ujevnt fordelt. Det reiser vanskelige **etiske spørsmål**: Hvem har ansvar for å hjelpe? Hva kan vi kreve av bedrifter og stater? Og hvordan kan vi bekjempe fattigdom uten å ødelegge klimaet og naturen?
+
+## Fattigdom
+
+**Absolutt fattigdom** betyr at man ikke har nok til å dekke grunnleggende behov som mat, rent vann, bolig og helsehjelp. Verdensbanken regner som **ekstremt fattige** dem som lever for under rundt 3 dollar om dagen, og det gjelder flere hundre millioner mennesker, de fleste i Afrika sør for Sahara. **Relativ fattigdom** betyr at man har mye mindre enn de fleste andre i samfunnet man bor i. Det finnes også i Norge.
+
+Årsakene er sammensatte: krig og konflikt, korrupsjon, klimaendringer, urettferdig handel, gjeld og mangel på utdanning og helsetjenester.
+
+## Har vi plikt til å hjelpe?
+
+Filosofen **Peter Singer** har brukt dette eksempelet: Ser du et barn drukne i en dam, hopper du uti selv om du ødelegger de nye skoene dine. Da har vi også plikt til å gi penger som kan redde liv langt borte, mener han. Andre mener at vi har størst ansvar for dem som står oss nær, eller at det viktigste er å endre urettferdige systemer.
+
+Religioner og livssyn begrunner ansvaret på ulike måter. I **kristendommen** sier Jesus at det man gjør mot «en av disse mine minste», gjør man mot ham. **Zakat** i islam er en plikt til å gi til fattige. **Buddhismen** vektlegger medfølelse, og **humanister** viser til menneskeverd og **solidaritet**. Organisasjoner som **Kirkens Nødhjelp**, **Islamic Relief** og **Norsk Folkehjelp** arbeider mot fattigdom, og hvert år samler **TV-aksjonen** inn penger til et godt formål.
+
+## Handel og menneskerettigheter
+
+Mange varer vi kjøper, lages under dårlige forhold:
+
+- I **2013** raste fabrikkbygningen **Rana Plaza** i Bangladesh sammen, og over 1100 tekstilarbeidere døde.
+- **Barnearbeid** forekommer blant annet i produksjon av kakao og i gruver.
+- Metaller til mobiltelefoner og batterier, som **kobolt**, utvinnes noen steder under farlige forhold.
+
+Etiske spørsmål er: Hvilket ansvar har vi som forbrukere? Bør Norge handle med land som bryter menneskerettighetene? **Oljefondet** har etiske retningslinjer, og selskaper kan bli **utelukket** hvis de bidrar til grove brudd på menneskerettighetene eller alvorlig miljøskade. Merkeordninger som **Fairtrade** skal sikre bedre lønn og arbeidsforhold.
+
+## Bærekraft og rettferdighet
+
+Fattige land har rett til utvikling, men utvikling basert på kull og olje gir store utslipp. Samtidig er det de rike landene som har sluppet ut mest klimagasser gjennom historien, mens de fattige rammes hardest av tørke og flom. **Klimarettferdighet** handler om hvordan byrdene skal fordeles. Mange mener at rike land må kutte mest og hjelpe fattige land med å velge fornybar energi.
+
+## Hva kan du gjøre?
+
+Du kan sette deg inn i hvordan varene du kjøper blir laget, kjøpe mindre og bruke ting lenger, støtte organisasjoner, delta i aksjoner og si din mening i samfunnsdebatten.', '{"label":"Menneskerettigheter og fattigdom","children":[{"label":"Fattigdom","children":[{"label":"Absolutt"},{"label":"Ekstrem","note":"Under ca. 3 dollar"},{"label":"Relativ"},{"label":"Årsaker"}]},{"label":"Plikt til å hjelpe?","children":[{"label":"Singers barn"},{"label":"Nærhet og ansvar"},{"label":"Endre systemer"}]},{"label":"Religion og livssyn","children":[{"label":"Kristendom"},{"label":"Zakat"},{"label":"Medfølelse"},{"label":"Solidaritet"}]},{"label":"Handel","children":[{"label":"Rana Plaza"},{"label":"Barnearbeid"},{"label":"Kobolt"},{"label":"Oljefondet og Fairtrade"}]},{"label":"Bærekraft","children":[{"label":"Rett til utvikling"},{"label":"Klimarettferdighet"},{"label":"Hva kan du gjøre?"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'krle-10:menneskerettigheter-og-fattigdom';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('krle-10:menneskerettigheter-og-fattigdom', 'Absolutt fattigdom', 'Å mangle nok til grunnleggende behov som mat, vann, bolig og helsehjelp.', 0),
+  ('krle-10:menneskerettigheter-og-fattigdom', 'Ekstrem fattigdom', 'Ifølge Verdensbanken å leve for under rundt 3 dollar om dagen.', 1),
+  ('krle-10:menneskerettigheter-og-fattigdom', 'Relativ fattigdom', 'Å ha mye mindre enn de fleste andre i samfunnet man bor i.', 2),
+  ('krle-10:menneskerettigheter-og-fattigdom', 'Årsaker til fattigdom', 'Blant annet krig, korrupsjon, klimaendringer, urettferdig handel og mangel på utdanning.', 3),
+  ('krle-10:menneskerettigheter-og-fattigdom', 'Singers druknende barn', 'Eksempel som skal vise at vi har plikt til å hjelpe mennesker i nød, også langt borte.', 4),
+  ('krle-10:menneskerettigheter-og-fattigdom', 'Solidaritet', 'Å stå sammen med og hjelpe andre, særlig de som har det vanskelig.', 5),
+  ('krle-10:menneskerettigheter-og-fattigdom', '«En av disse mine minste»', 'Jesu ord om at det man gjør mot de svakeste, gjør man mot ham.', 6),
+  ('krle-10:menneskerettigheter-og-fattigdom', 'Zakat', 'Islamsk plikt til å gi en del av formuen til fattige.', 7),
+  ('krle-10:menneskerettigheter-og-fattigdom', 'Rana Plaza', 'Fabrikkbygning i Bangladesh som raste sammen i 2013. Over 1100 døde.', 8),
+  ('krle-10:menneskerettigheter-og-fattigdom', 'Barnearbeid', 'Arbeid som hindrer barn i skolegang eller skader helsen deres.', 9),
+  ('krle-10:menneskerettigheter-og-fattigdom', 'Kobolt', 'Metall til batterier som noen steder utvinnes under farlige forhold.', 10),
+  ('krle-10:menneskerettigheter-og-fattigdom', 'Oljefondets etiske retningslinjer', 'Regler som gjør at selskaper kan utelukkes ved grove brudd på menneskerettigheter.', 11),
+  ('krle-10:menneskerettigheter-og-fattigdom', 'Fairtrade', 'Merkeordning som skal sikre bedre lønn og arbeidsforhold for produsenter.', 12),
+  ('krle-10:menneskerettigheter-og-fattigdom', 'Klimarettferdighet', 'Hvordan byrdene ved klimaendringer og kutt skal fordeles rettferdig.', 13),
+  ('krle-10:menneskerettigheter-og-fattigdom', 'TV-aksjonen', 'Årlig innsamling i Norge til et godt formål.', 14);
+delete from public.quiz_sporsmal where tema_id = 'krle-10:menneskerettigheter-og-fattigdom';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('krle-10:menneskerettigheter-og-fattigdom', 'q01', 'flervalg', 'Hva er absolutt fattigdom?', array['Å ha mindre enn naboen', 'Å mangle nok til grunnleggende behov som mat, vann og bolig', 'Å ikke ha bil', 'Å ha lav lønn i Norge']::text[], 1, 'Relativ fattigdom handler derimot om å ha mye mindre enn andre.', true, true, 0),
+  ('krle-10:menneskerettigheter-og-fattigdom', 'q02', 'flervalg', 'Hva er relativ fattigdom?', array['Å ikke ha mat i det hele tatt', 'Fattigdom som bare finnes i Afrika', 'Å ha mye mindre enn de fleste andre i samfunnet man bor i', 'Å ha gjeld']::text[], 2, 'Relativ fattigdom finnes også i rike land som Norge.', true, true, 1),
+  ('krle-10:menneskerettigheter-og-fattigdom', 'q03', 'flervalg', 'Hva vil Peter Singer vise med eksempelet om barnet som drukner?', array['At vi har plikt til å hjelpe mennesker i nød, også langt borte', 'At man ikke bør bade', 'At sko er viktige', 'At man bare skal hjelpe familien']::text[], 0, 'Singer mener avstand ikke fjerner plikten til å hjelpe.', true, true, 2),
+  ('krle-10:menneskerettigheter-og-fattigdom', 'q04', 'flervalg', 'Hva skjedde ved Rana Plaza i 2013?', array['En stor fotballturnering', 'En fredsavtale ble inngått', 'En klimakonferanse', 'En fabrikkbygning i Bangladesh raste sammen, og over 1100 arbeidere døde']::text[], 3, 'Ulykken satte søkelys på forholdene i tekstilindustrien.', true, true, 3),
+  ('krle-10:menneskerettigheter-og-fattigdom', 'q05', 'flervalg', 'Hvordan kan oljefondet reagere hvis et selskap bryter menneskerettighetene grovt?', array['Det kan kjøpe flere aksjer', 'Det kan utelukke selskapet', 'Det kan straffe selskapet i retten', 'Det har ingen regler']::text[], 1, 'Fondet har etiske retningslinjer for hvilke selskaper det investerer i.', true, true, 4),
+  ('krle-10:menneskerettigheter-og-fattigdom', 'q06', 'flervalg', 'Hva er klimarettferdighet?', array['Hvordan byrdene ved klimaendringer og kutt skal fordeles rettferdig', 'At alle land skal ha samme temperatur', 'En domstol for klima', 'En type fornybar energi']::text[], 0, 'De som har sluppet ut minst, rammes ofte hardest.', true, true, 5),
+  ('krle-10:menneskerettigheter-og-fattigdom', 'q07', 'flervalg', 'Hva skal merkeordningen Fairtrade sikre?', array['Billigere varer', 'Raskere levering', 'Mer reklame', 'Bedre lønn og arbeidsforhold for produsentene']::text[], 3, 'Fairtrade finnes blant annet på kaffe, kakao og bananer.', true, true, 6),
+  ('krle-10:menneskerettigheter-og-fattigdom', 'q08', 'flervalg', 'Hvilken religiøs plikt i islam handler om å gi til fattige?', array['Hajj', 'Salat', 'Zakat', 'Sawm']::text[], 2, 'Zakat er en av islams fem søyler.', true, true, 7),
+  ('krle-10:menneskerettigheter-og-fattigdom', 'q09', 'flervalg', 'Hvorfor kan utvikling i fattige land være et etisk dilemma knyttet til bærekraft?', array['Fordi fattige land ikke vil utvikle seg', 'Fordi utvikling basert på kull og olje gir store utslipp', 'Fordi utvikling alltid er dårlig', 'Det er ikke noe dilemma']::text[], 1, 'Retten til utvikling og hensynet til klimaet trekker i hver sin retning.', true, false, 8),
+  ('krle-10:menneskerettigheter-og-fattigdom', 'q10', 'flervalg', 'Hva kan du gjøre for en mer rettferdig verden?', array['Kaste mer', 'Kjøpe så mye som mulig', 'Unngå å lære om saken', 'Sette deg inn i hvordan varene lages og kjøpe mindre']::text[], 3, 'Små valg og engasjement kan til sammen gjøre en forskjell.', true, false, 9),
+  ('krle-10:menneskerettigheter-og-fattigdom', 'm01', 'sant-usant', 'Relativ fattigdom finnes også i Norge.', array['Sant', 'Usant']::text[], 0, 'Mange barn i Norge vokser opp i familier med lav inntekt.', false, true, 10),
+  ('krle-10:menneskerettigheter-og-fattigdom', 'm02', 'sant-usant', 'De fattigste landene har sluppet ut mest klimagasser gjennom historien.', array['Sant', 'Usant']::text[], 1, 'Det er de rike industrilandene som har sluppet ut mest.', false, true, 11),
+  ('krle-10:menneskerettigheter-og-fattigdom', 'm03', 'sant-usant', 'Barnearbeid forekommer fortsatt, blant annet i kakaoproduksjon.', array['Sant', 'Usant']::text[], 0, 'Derfor finnes det merkeordninger som skal sikre at varer er produsert uten barnearbeid.', false, true, 12),
+  ('krle-10:menneskerettigheter-og-fattigdom', 'm04', 'sant-usant', 'Alle er enige om hvor stort ansvar rike land har for å hjelpe.', array['Sant', 'Usant']::text[], 1, 'Spørsmålet er omdiskutert både blant filosofer og politikere.', false, true, 13),
+  ('krle-10:menneskerettigheter-og-fattigdom', 'm05', 'flervalg', 'Hvor lever de fleste ekstremt fattige?', array['Europa', 'Nord-Amerika', 'Afrika sør for Sahara', 'Australia']::text[], 2, 'Krig, klimaendringer og svake institusjoner gjør fattigdommen vanskelig å bekjempe der.', false, true, 14),
+  ('krle-10:menneskerettigheter-og-fattigdom', 'm06', 'flervalg', 'Hvilket metall til batterier utvinnes noen steder under farlige forhold?', array['Kobolt', 'Gull', 'Sølv', 'Jern']::text[], 0, 'Kobolt brukes i batterier til mobiltelefoner og elbiler.', false, true, 15),
+  ('krle-10:menneskerettigheter-og-fattigdom', 'm07', 'flervalg', 'Hva sier Jesus om det man gjør mot «en av disse mine minste»?', array['At det ikke betyr noe', 'At man gjør det mot ham', 'At man bør unngå dem', 'At det bare gjelder prester']::text[], 1, 'Ordene brukes ofte som begrunnelse for kristent hjelpearbeid.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('krle-10:menneskerettigheter-og-fattigdom', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- KRLE: Kilder, perspektiver og fagbegreper
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('krle-10:kilder-og-perspektiver', 'krle-10', 'kilder-og-perspektiver', 'Kilder, perspektiver og fagbegreper', 'Ulike kilder til kunnskap om religioner og livssyn, innenfra- og utenfraperspektiv, kildekritikk og religionskritikk, og fagbegreper som gjør det lettere å sammenligne religioner.', array[7, 6]::int[], 6, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('krle-10:kilder-og-perspektiver', '## Hvordan får vi kunnskap om religioner?
+
+Det finnes mange **kilder** til kunnskap om religioner og livssyn:
+
+- **Hellige skrifter**, som Bibelen, Koranen og Vedaene
+- **Troende selv**, for eksempel gjennom intervjuer eller besøk i et gudshus
+- **Trossamfunnenes egne** nettsider og publikasjoner
+- **Lærebøker**, leksikon og **forskning** i religionsvitenskap
+- **Statistikk**, for eksempel fra SSB
+- **Nyheter**, dokumentarer og **sosiale medier**
+
+Hver kilde gir et bestemt bilde. En hellig tekst sier noe om hva en religion lærer, men ikke nødvendigvis om hvordan troende faktisk lever. Nyheter handler ofte om konflikter og det uvanlige, ikke om vanlig hverdagsliv.
+
+## Innenfra og utenfra
+
+Et **innenfraperspektiv** er hvordan de troende selv forstår sin religion. Et **utenfraperspektiv** er hvordan forskere, journalister eller andre som ikke tilhører religionen, beskriver den. Begge perspektivene er nyttige. Troende kan gi innsikt i hva religionen betyr for dem, mens et utenfraperspektiv kan sammenligne og se ting de troende tar for gitt.
+
+## Hvem snakker for en religion?
+
+Alle religioner har et stort **mangfold**. En imam, en prest eller en rabbiner snakker ikke nødvendigvis for alle troende. Unge, kvinner, konvertitter og liberale og konservative troende kan ha svært ulike syn. Derfor bør man være forsiktig med å si at «muslimer mener» eller «kristne mener».
+
+## Kildekritikk
+
+Når du vurderer en kilde om religion, kan du spørre:
+
+- Hvem er **avsenderen**, og hva er **formålet**? Vil de informere, overbevise eller kritisere?
+- Er kilden skrevet **innenfra** eller **utenfra**?
+- Er den **ensidig**, eller kommer flere syn fram?
+- Er den **representativ**, eller viser den bare én gruppe?
+- Når ble den laget?
+
+## Religionskritikk
+
+**Religionskritikk** er kritiske spørsmål til religioners påstander eller praksis. Filosofen **Ludwig Feuerbach** mente at gudene er menneskenes egne idealer, og **Karl Marx** kalte religion «folkets opium» fordi han mente den fikk folk til å godta urettferdighet. Andre kritiserer religioner for synet på kvinner eller seksualitet. Det finnes også kritikk **innenfra**, som da Luther kritiserte kirken. Religionskritikk er en del av ytringsfriheten, men det er viktig å skille mellom kritikk av ideer og hets av mennesker.
+
+## Fagbegreper
+
+Religionsforskeren **Ninian Smart** beskrev religioner ut fra sju **dimensjoner**, som kan brukes til å sammenligne dem:
+
+1. **Lære**: hva man tror
+2. **Fortellinger** og myter
+3. **Etikk**: hvordan man bør leve
+4. **Ritualer**: bønn, gudstjeneste, høytider og **overgangsriter** som dåp og konfirmasjon
+5. **Erfaring**: opplevelser av det hellige
+6. **Organisasjon**: fellesskap og ledere
+7. **Materielle uttrykk**: bygninger, kunst og **symboler**
+
+Andre nyttige begreper er **monoteisme** og **polyteisme**, **ortodoksi** (rett lære) og **ortopraksi** (rett praksis), **fundamentalisme** og **sekularisering**. Presise begreper gjør det lettere å sammenligne religioner uten å ta side.', '{"label":"Kilder og perspektiver","children":[{"label":"Kilder","children":[{"label":"Hellige skrifter"},{"label":"Troende selv"},{"label":"Forskning og lærebøker"},{"label":"Statistikk"},{"label":"Nyheter og sosiale medier"}]},{"label":"Perspektiver","children":[{"label":"Innenfra"},{"label":"Utenfra"},{"label":"Mangfold innad"}]},{"label":"Kildekritikk","children":[{"label":"Avsender og formål"},{"label":"Ensidighet"},{"label":"Representativitet"}]},{"label":"Religionskritikk","children":[{"label":"Feuerbach"},{"label":"Marx"},{"label":"Kritikk innenfra"},{"label":"Ideer, ikke mennesker"}]},{"label":"Fagbegreper","children":[{"label":"Sju dimensjoner"},{"label":"Ritual og overgangsrite"},{"label":"Ortodoksi og ortopraksi"},{"label":"Mono- og polyteisme"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'krle-10:kilder-og-perspektiver';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('krle-10:kilder-og-perspektiver', 'Kilde', 'Alt som gir informasjon om et tema, som skrifter, intervjuer og statistikk.', 0),
+  ('krle-10:kilder-og-perspektiver', 'Innenfraperspektiv', 'Hvordan de troende selv forstår sin religion.', 1),
+  ('krle-10:kilder-og-perspektiver', 'Utenfraperspektiv', 'Hvordan forskere og andre som ikke tilhører religionen, beskriver den.', 2),
+  ('krle-10:kilder-og-perspektiver', 'Religionsvitenskap', 'Forskning som beskriver og sammenligner religioner utenfra.', 3),
+  ('krle-10:kilder-og-perspektiver', 'Representativ', 'At en kilde viser et bilde som gjelder mange, ikke bare én gruppe.', 4),
+  ('krle-10:kilder-og-perspektiver', 'Kildekritikk', 'Å vurdere avsender, formål, tid og ensidighet i en kilde.', 5),
+  ('krle-10:kilder-og-perspektiver', 'Religionskritikk', 'Kritiske spørsmål til religioners påstander eller praksis.', 6),
+  ('krle-10:kilder-og-perspektiver', 'Ludwig Feuerbach', 'Filosof som mente at gudene er menneskenes egne idealer.', 7),
+  ('krle-10:kilder-og-perspektiver', 'Karl Marx', 'Kalte religion «folkets opium».', 8),
+  ('krle-10:kilder-og-perspektiver', 'Ninian Smart', 'Religionsforsker som beskrev religioner ut fra sju dimensjoner.', 9),
+  ('krle-10:kilder-og-perspektiver', 'Religionens dimensjoner', 'Lære, fortellinger, etikk, ritualer, erfaring, organisasjon og materielle uttrykk.', 10),
+  ('krle-10:kilder-og-perspektiver', 'Overgangsrite', 'Ritual som markerer en ny fase i livet, som dåp, konfirmasjon og bryllup.', 11),
+  ('krle-10:kilder-og-perspektiver', 'Ortodoksi og ortopraksi', 'Vekt på rett lære og vekt på rett praksis.', 12),
+  ('krle-10:kilder-og-perspektiver', 'Fundamentalisme', 'Å holde strengt fast på det man ser som religionens opprinnelige grunnlag.', 13),
+  ('krle-10:kilder-og-perspektiver', 'Polyteisme', 'Tro på mange guder.', 14);
+delete from public.quiz_sporsmal where tema_id = 'krle-10:kilder-og-perspektiver';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('krle-10:kilder-og-perspektiver', 'q01', 'flervalg', 'Hva er et innenfraperspektiv?', array['Hvordan forskere beskriver en religion', 'Hvordan nyheter framstiller religion', 'Hvordan de troende selv forstår sin religion', 'Hvordan staten ser på religion']::text[], 2, 'Innenfraperspektivet viser hva religionen betyr for de troende.', true, true, 0),
+  ('krle-10:kilder-og-perspektiver', 'q02', 'flervalg', 'Hvorfor kan nyheter gi et skjevt bilde av religion?', array['Fordi de ofte handler om konflikter og det uvanlige', 'Fordi journalister ikke kan lese', 'Fordi de alltid er positive', 'Fordi de bare handler om høytider']::text[], 0, 'Vanlig hverdagsliv blir sjelden nyheter.', true, true, 1),
+  ('krle-10:kilder-og-perspektiver', 'q03', 'flervalg', 'Hvorfor bør man være forsiktig med å si «muslimer mener» eller «kristne mener»?', array['Fordi det er forbudt', 'Fordi religioner ikke har meninger', 'Fordi alle mener det samme', 'Fordi det er stort mangfold innenfor hver religion']::text[], 3, 'Troende i samme religion kan ha svært ulike syn.', true, true, 2),
+  ('krle-10:kilder-og-perspektiver', 'q04', 'flervalg', 'Hva kalte Karl Marx religion?', array['«Livets lys»', '«Folkets opium»', '«Menneskets mål»', '«Fornuftens fiende»']::text[], 1, 'Marx mente religion fikk folk til å godta urettferdighet.', true, true, 3),
+  ('krle-10:kilder-og-perspektiver', 'q05', 'flervalg', 'Hva er en overgangsrite?', array['En pilegrimsreise', 'En type bønn', 'Et ritual som markerer en ny fase i livet, som konfirmasjon', 'En høytid om våren']::text[], 2, 'Dåp, konfirmasjon, bryllup og gravferd er eksempler.', true, true, 4),
+  ('krle-10:kilder-og-perspektiver', 'q06', 'flervalg', 'Hva er forskjellen på ortodoksi og ortopraksi?', array['Det er det samme', 'Ortodoksi gjelder bare kristne', 'Ortopraksi er en kirke', 'Ortodoksi er rett lære, ortopraksi er rett praksis']::text[], 3, 'Noen religioner legger mest vekt på tro, andre på handling.', true, true, 5),
+  ('krle-10:kilder-og-perspektiver', 'q07', 'flervalg', 'Hvem beskrev religioner ut fra sju dimensjoner?', array['Ninian Smart', 'Karl Marx', 'Martin Luther', 'Ludwig Feuerbach']::text[], 0, 'Dimensjonene brukes ofte til å sammenligne religioner.', true, true, 6),
+  ('krle-10:kilder-og-perspektiver', 'q08', 'flervalg', 'Hvilket spørsmål hører til kildekritikk?', array['Hvor mange sider har kilden?', 'Hvem er avsenderen, og hva er formålet?', 'Hvilken farge har forsiden?', 'Hvor mye koster boka?']::text[], 1, 'Avsender og formål påvirker hvilket bilde kilden gir.', true, true, 7),
+  ('krle-10:kilder-og-perspektiver', 'q09', 'flervalg', 'Hva er viktig å skille mellom i religionskritikk?', array['Bøker og filmer', 'Religion og kultur', 'Store og små religioner', 'Kritikk av ideer og hets av mennesker']::text[], 3, 'Ideer kan kritiseres, men mennesker skal ikke hetses.', true, false, 8),
+  ('krle-10:kilder-og-perspektiver', 'q10', 'flervalg', 'Hva sier en hellig tekst mest om?', array['Hva en religion lærer', 'Hvordan alle troende faktisk lever i dag', 'Hvor mange medlemmer religionen har', 'Hva journalister mener']::text[], 0, 'For å vite hvordan troende lever, trenger man andre kilder.', true, false, 9),
+  ('krle-10:kilder-og-perspektiver', 'm01', 'sant-usant', 'Både innenfra- og utenfraperspektiv kan gi nyttig kunnskap.', array['Sant', 'Usant']::text[], 0, 'Perspektivene utfyller hverandre.', false, true, 10),
+  ('krle-10:kilder-og-perspektiver', 'm02', 'sant-usant', 'En imam snakker alltid på vegne av alle muslimer.', array['Sant', 'Usant']::text[], 1, 'Ingen enkeltperson kan snakke for alle troende i en religion.', false, true, 11),
+  ('krle-10:kilder-og-perspektiver', 'm03', 'sant-usant', 'Religionskritikk er en del av ytringsfriheten.', array['Sant', 'Usant']::text[], 0, 'Det er lov å kritisere religiøse ideer og praksiser.', false, true, 12),
+  ('krle-10:kilder-og-perspektiver', 'm04', 'sant-usant', 'Statistikk forteller alt om hva en religion betyr for de troende.', array['Sant', 'Usant']::text[], 1, 'Statistikk viser tall, men ikke hva troen betyr for den enkelte.', false, true, 13),
+  ('krle-10:kilder-og-perspektiver', 'm05', 'flervalg', 'Hvilken av disse er en av Smarts dimensjoner?', array['Økonomi', 'Ritualer', 'Sport', 'Geografi']::text[], 1, 'Ritualer er for eksempel bønn, gudstjeneste og høytider.', false, true, 14),
+  ('krle-10:kilder-og-perspektiver', 'm06', 'flervalg', 'Hva er polyteisme?', array['Tro på mange guder', 'Tro på én Gud', 'Ingen tro', 'Tro på at man ikke kan vite']::text[], 0, 'Norrøn religion og mange former for hinduisme er polyteistiske.', false, true, 15),
+  ('krle-10:kilder-og-perspektiver', 'm07', 'flervalg', 'Hva mente Feuerbach om gudene?', array['At de bor i naturen', 'At de er farlige', 'At de er menneskenes egne idealer', 'At de styrer historien']::text[], 2, 'Han mente mennesker projiserer sine beste egenskaper over på gudene.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('krle-10:kilder-og-perspektiver', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Kjemi 1 (vg2): rydd bort fjernede temaer
 delete from public.temaer where fag_id = 'kjemi-1' and slug not in ('atomet-og-periodesystemet', 'kjemisk-binding', 'formler-og-navnsetting', 'stoffmengde-og-stokiometri', 'reaksjonstyper-og-redoks', 'losninger-og-konsentrasjon', 'syrer-baser-og-ph', 'energi-og-entalpi', 'reaksjonsfart-og-likevekt', 'titrering-og-spektroskopi', 'gronn-kjemi');
