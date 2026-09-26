@@ -1,0 +1,83 @@
+{
+  "id": "personlig-okonomi-og-forbruk",
+  "fagId": "samfunnskunnskap-vg1",
+  "trinnId": "vg1",
+  "name": "Personlig økonomi, reklame og forbruk",
+  "intro": "Budsjett, lønn og skatt, sparing og lån, forbrukslån og gjeldsproblemer, reklame og kommersiell påvirkning i sosiale medier, forbrukerrettigheter – og hvordan forbruk påvirker enkeltpersoner, grupper og samfunnet.",
+  "kompetansemaal": [4],
+  "sammendrag": "## Budsjett\n\nEt **budsjett** er en plan for **inntekter** og **utgifter**. Det gir oversikt og hjelper deg å unngå å bruke mer enn du har. Skill mellom **faste utgifter** (husleie, mobilabonnement, strømmetjenester) og **variable utgifter** (mat, klær, fritid). Et godt råd er å sette av penger til **sparing** og en **buffer** til uforutsette utgifter.\n\n## Lønn og skatt\n\n**Bruttolønn** er lønn før skatt, og **nettolønn** er det som blir utbetalt. Skatten finansierer **fellesskapet**: skole, helsevesen, veier og trygder. Med **frikort** betaler unge med lav inntekt ikke skatt opp til en viss grense.\n\n## Sparing og lån\n\n- **Sparing** gir en buffer og mulighet til å kjøpe større ting senere. Med **renters rente** vokser sparepengene over tid.\n- **Lån** gjør det mulig å kjøpe noe nå og betale senere – men det koster **renter** og **gebyrer**.\n- **Boliglån** og **studielån** gir ofte lav rente, mens **forbrukslån** og **kredittkortgjeld** har svært **høy rente**.\n- Sammenlign alltid **effektiv rente**, som tar med alle kostnader.\n\n## Når gjelden blir et problem\n\nBetaler du ikke regningene, kan det føre til **purring**, **inkasso** og **betalingsanmerkning**, som gjør det vanskelig å leie bolig, få lån eller mobilabonnement. **Gjeldsregisteret** viser hvor mye usikret gjeld folk har, slik at bankene kan sjekke det før de gir nye lån. Unge kan havne i problemer med **«kjøp nå, betal senere»**-løsninger. Får du problemer, kan **NAV** gi gratis **økonomisk rådgivning**.\n\n## Kommersiell påvirkning\n\nBedrifter bruker mye penger på å påvirke hva vi kjøper:\n\n- **Reklame** i tradisjonelle og digitale medier\n- **Influensere** som får betalt eller gratis produkter for å vise dem fram\n- **Målrettet reklame** basert på dataene våre\n- **Kjøpepress** gjennom tilbud, «bare i dag» og **tidsbegrensede** kampanjer\n\nEtter **markedsføringsloven** skal reklame være **tydelig merket**, også når influensere får betalt. **Retusjert** reklame der kroppens form, størrelse eller hud er endret, skal merkes. **Forbrukertilsynet** passer på at reglene følges, og **Forbrukerrådet** hjelper forbrukere.\n\n## Forbrukerrettigheter\n\nKjøper du en vare med feil, har du **reklamasjonsrett**. Ved kjøp på nett har du vanligvis **angrerett** i **14 dager**.\n\n## Forbruk og samfunn\n\nForbruket vårt påvirker\n\n- **enkeltpersoner**: økonomi, stress, status og tilhørighet\n- **grupper**: ungdom kan oppleve **press** om å ha dyre merkeklær og ny mobil, og familier med dårlig råd kan føle seg **utenfor**\n- **samfunnet**: forbruk skaper **arbeidsplasser** og økonomisk vekst, men gir også **klimautslipp**, **avfall** og press på naturressurser – ofte i andre land\n\nÅ være en **bevisst forbruker** betyr å tenke over **behov**, **kvalitet**, **pris** og **konsekvenser** før man kjøper.",
+  "flashcards": [
+    { "term": "Budsjett", "def": "Plan for inntekter og utgifter." },
+    { "term": "Faste utgifter", "def": "Utgifter som er like hver måned, som husleie og abonnement." },
+    { "term": "Variable utgifter", "def": "Utgifter som varierer, som mat og fritid." },
+    { "term": "Buffer", "def": "Penger satt av til uforutsette utgifter." },
+    { "term": "Nettolønn", "def": "Lønn etter skatt – det som utbetales." },
+    { "term": "Forbrukslån", "def": "Lån uten sikkerhet med svært høy rente." },
+    { "term": "Effektiv rente", "def": "Rente inkludert alle kostnader og gebyrer." },
+    { "term": "Inkasso", "def": "Innkreving av ubetalte regninger, med ekstra gebyrer." },
+    { "term": "Betalingsanmerkning", "def": "Registrering av ubetalt gjeld som gjør det vanskelig å få lån og leie bolig." },
+    { "term": "Gjeldsregisteret", "def": "Register over usikret gjeld som bankene sjekker før nye lån." },
+    { "term": "Influenser", "def": "Person i sosiale medier som påvirker følgerne, ofte med betalt samarbeid." },
+    { "term": "Markedsføringsloven", "def": "Lov som blant annet krever at reklame er tydelig merket." },
+    { "term": "Retusjeringsmerke", "def": "Merke på reklame der kroppens form, størrelse eller hud er endret." },
+    { "term": "Angrerett", "def": "Rett til å angre kjøp på nett, vanligvis i 14 dager." },
+    { "term": "Bevisst forbruker", "def": "En som tenker over behov, kvalitet, pris og konsekvenser før kjøp." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er et budsjett?", "options": ["En type lån", "En plan for inntekter og utgifter", "En skatt", "En regning"], "correct": 1, "explain": "Budsjettet gir oversikt over økonomien." },
+    { "id": "q02", "text": "Hvilken type lån har vanligvis høyest rente?", "options": ["Forbrukslån", "Boliglån", "Studielån", "Billån med sikkerhet"], "correct": 0, "explain": "Forbrukslån har ingen sikkerhet og derfor høy rente." },
+    { "id": "q03", "text": "Hva kan en betalingsanmerkning føre til?", "options": ["Lavere skatt", "Høyere lønn", "At det blir vanskelig å få lån og leie bolig", "Gratis mobilabonnement"], "correct": 2, "explain": "Ubetalt gjeld kan få store konsekvenser." },
+    { "id": "q04", "text": "Hva krever markedsføringsloven når en influenser får betalt for å vise et produkt?", "options": ["At produktet er norsk", "At influenseren har mange følgere", "At produktet er billig", "At reklamen er tydelig merket"], "correct": 3, "explain": "Følgerne skal forstå at det er reklame." },
+    { "id": "q05", "text": "Hvor lenge har du vanligvis angrerett ved kjøp på nett?", "options": ["14 dager", "1 dag", "1 år", "Ingen angrerett"], "correct": 0, "explain": "Angreretten gjelder de fleste varer kjøpt på nett." },
+    { "id": "q06", "text": "Hva er effektiv rente?", "options": ["Renten før skatt", "Renten inkludert alle kostnader og gebyrer", "Renten på sparekonto", "Renten etter ett år"], "correct": 1, "explain": "Bruk effektiv rente når du sammenligner lån." },
+    { "id": "q07", "text": "Hvordan kan forbruk påvirke samfunnet negativt?", "options": ["Det gir flere arbeidsplasser", "Det gir økonomisk vekst", "Det gir klimautslipp, avfall og press på naturressurser", "Det gir mer fritid"], "correct": 2, "explain": "Forbruk har både positive og negative sider." },
+    { "id": "q08", "text": "Hvem kan gi gratis økonomisk rådgivning til folk med gjeldsproblemer?", "options": ["Inkassoselskaper", "Forbrukslånsbanker", "Influensere", "NAV"], "correct": 3, "explain": "NAV har økonomisk rådgivning for alle." },
+    { "id": "q09", "text": "Hva er en buffer i privatøkonomien?", "options": ["Penger satt av til uforutsette utgifter", "Et lån", "En type reklame", "En skatt"], "correct": 0, "explain": "En buffer gjør det lettere å takle en uventet regning." },
+    { "id": "q10", "text": "Hvorfor kan tilbud som «bare i dag» være problematiske?", "options": ["Fordi de alltid er ulovlige", "Fordi de skaper kjøpepress og får oss til å handle raskt uten å tenke", "Fordi varene er dårlige", "Fordi de bare gjelder voksne"], "correct": 1, "explain": "Tidspress er en vanlig påvirkningsteknikk." }
+  ],
+  "mindmap": {
+    "label": "Personlig økonomi og forbruk",
+    "children": [
+      { "label": "Budsjett", "children": [
+        { "label": "Inntekter" },
+        { "label": "Faste og variable utgifter" },
+        { "label": "Sparing og buffer" }
+      ] },
+      { "label": "Lån", "children": [
+        { "label": "Renter og gebyrer" },
+        { "label": "Forbrukslån" },
+        { "label": "Effektiv rente" }
+      ] },
+      { "label": "Gjeldsproblemer", "children": [
+        { "label": "Inkasso" },
+        { "label": "Betalingsanmerkning" },
+        { "label": "Hjelp fra NAV" }
+      ] },
+      { "label": "Påvirkning", "children": [
+        { "label": "Reklame" },
+        { "label": "Influensere" },
+        { "label": "Merking" },
+        { "label": "Kjøpepress" }
+      ] },
+      { "label": "Forbruk og samfunn", "children": [
+        { "label": "Rettigheter" },
+        { "label": "Press og utenforskap" },
+        { "label": "Miljø" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Retusjert reklame der kroppens form er endret, skal merkes.", "correct": true, "explain": "Kravet skal redusere kroppspress." },
+      { "id": "m02", "type": "sant-usant", "text": "Kredittkortgjeld har vanligvis lav rente.", "correct": false, "explain": "Kredittkortgjeld har ofte svært høy rente." },
+      { "id": "m03", "type": "sant-usant", "text": "Du har reklamasjonsrett hvis en vare du har kjøpt, har feil.", "correct": true, "explain": "Selgeren må da reparere, bytte eller gi pengene tilbake." },
+      { "id": "m04", "type": "sant-usant", "text": "Målrettet reklame bygger aldri på dataene våre.", "correct": false, "explain": "Målrettet reklame bygger nettopp på data om oss." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er en fast utgift?", "options": ["Kinobilletter", "Klær", "Husleie", "Gaver"], "correct": 2, "explain": "Faste utgifter er like hver måned." },
+      { "id": "m06", "type": "flervalg", "text": "Hvem passer på at reglene for markedsføring følges?", "options": ["Forbrukertilsynet", "Politiet", "Skolen", "Bankene"], "correct": 0, "explain": "Forbrukerrådet hjelper forbrukere med klager." },
+      { "id": "m07", "type": "flervalg", "text": "Hva betyr det å være en bevisst forbruker?", "options": ["Å kjøpe det billigste alltid", "Å tenke over behov, kvalitet, pris og konsekvenser før man kjøper", "Å aldri kjøpe noe", "Å kjøpe det influensere anbefaler"], "correct": 1, "explain": "Bevisste valg er bra både for økonomien og miljøet." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

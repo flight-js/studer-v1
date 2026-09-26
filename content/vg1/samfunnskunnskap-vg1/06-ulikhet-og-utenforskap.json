@@ -1,0 +1,82 @@
+{
+  "id": "ulikhet-og-utenforskap",
+  "fagId": "samfunnskunnskap-vg1",
+  "trinnId": "vg1",
+  "name": "Sosial ulikhet og utenforskap",
+  "intro": "Ulike former for sosial ulikhet i Norge – økonomi, helse, utdanning og bosted – hvordan ulikhet måles, sosial mobilitet, og hvordan ulikhet henger sammen med utenforskap.",
+  "kompetansemaal": [7],
+  "sammendrag": "## Hva er sosial ulikhet?\n\n**Sosial ulikhet** betyr at grupper i samfunnet har **ulik tilgang** til goder som **inntekt**, **formue**, **helse**, **utdanning**, **bolig** og **makt**. Norge regnes som et land med **små forskjeller** sammenlignet med de fleste andre land, men forskjellene har **økt** de siste tiårene, særlig når det gjelder **formue**.\n\n## Former for ulikhet\n\n- **Økonomisk ulikhet**: forskjeller i **inntekt** og **formue**. Formue – for eksempel bolig, aksjer og bedrifter – er mye **skjevere fordelt** enn inntekt.\n- **Helseulikhet**: Personer med høy utdanning og inntekt **lever lenger** og har bedre helse enn personer med lav utdanning og inntekt.\n- **Utdanningsulikhet**: Barn av foreldre med høy utdanning tar oftere høyere utdanning selv.\n- **Geografisk ulikhet**: forskjeller mellom **by og bygd** og mellom **bydeler** – for eksempel mellom øst og vest i Oslo.\n- **Ulikhet mellom grupper**: forskjeller mellom kvinner og menn, og mellom majoritet og minoriteter.\n\n## Hvordan måles ulikhet?\n\n- **Gini-koeffisienten** går fra 0 (alle har like mye) til 1 (én har alt).\n- **Lavinntekt**: SSB regner husholdninger med inntekt under en viss andel av medianinntekten som lavinntektshusholdninger. Mange barn i Norge vokser opp i familier med **vedvarende lavinntekt**.\n\n## Sosial mobilitet\n\n**Sosial mobilitet** handler om muligheten til å bevege seg mellom sosiale lag – for eksempel at barn av foreldre med lav inntekt får høyere inntekt enn foreldrene. Gratis utdanning, **studielån** og **velferdsordninger** har gitt relativt **høy** sosial mobilitet i Norge. Likevel **arves** mye: økonomi, nettverk og holdninger til utdanning.\n\n## Ulikhet og utenforskap\n\n**Utenforskap** betyr å stå **utenfor** viktige fellesskap som **arbeid**, **utdanning** og **sosiale nettverk**. Ulikhet og utenforskap henger sammen:\n\n- Barn i familier med **dårlig råd** kan få vanskeligere for å delta i **fritidsaktiviteter**, noe som kan gi **ensomhet**.\n- Å ikke **fullføre videregående** øker risikoen for å stå utenfor arbeidslivet.\n- **Helseproblemer**, **rus** og **diskriminering** kan gjøre det vanskelig å få jobb.\n- Utenforskap kan igjen føre til **dårligere økonomi** og **helse** – en **ond sirkel**.\n\n## Hvorfor er ulikhet et problem – eller ikke?\n\nDet finnes **ulike syn**:\n\n- Noen mener store forskjeller svekker **tilliten**, **fellesskapet** og **demokratiet**, og at samfunnet bør **omfordele** mer gjennom skatt og velferd.\n- Andre mener noe ulikhet er **rimelig** fordi det belønner **innsats**, **risiko** og **utdanning**, og at det viktigste er at alle har **like muligheter**.\n\n## Tiltak\n\n**Skatt** og **overføringer**, **gratis skole**, **barnehage** og **helsetjenester**, **tilskudd** til fritidsaktiviteter, **arbeidsinkludering** og tiltak mot **frafall** i skolen er eksempler på virkemidler for å redusere ulikhet og utenforskap.",
+  "flashcards": [
+    { "term": "Sosial ulikhet", "def": "At grupper har ulik tilgang til goder som inntekt, helse og utdanning." },
+    { "term": "Inntekt", "def": "Penger man tjener i en periode." },
+    { "term": "Formue", "def": "Verdier man eier, som bolig, aksjer og bedrifter." },
+    { "term": "Formuesulikhet", "def": "Formue er mye skjevere fordelt enn inntekt." },
+    { "term": "Helseulikhet", "def": "Personer med høy utdanning og inntekt lever lenger og har bedre helse." },
+    { "term": "Gini-koeffisient", "def": "Mål på ulikhet fra 0 (helt likt) til 1 (én har alt)." },
+    { "term": "Vedvarende lavinntekt", "def": "Når en husholdning har lav inntekt over flere år." },
+    { "term": "Medianinntekt", "def": "Inntekten i midten når alle er sortert fra lavest til høyest." },
+    { "term": "Sosial mobilitet", "def": "Muligheten til å bevege seg mellom sosiale lag." },
+    { "term": "Sosial arv", "def": "At økonomi, nettverk og holdninger går i arv." },
+    { "term": "Utenforskap", "def": "Å stå utenfor fellesskap som arbeid, utdanning og sosiale nettverk." },
+    { "term": "Ond sirkel", "def": "Når problemer forsterker hverandre, som dårlig økonomi og utenforskap." },
+    { "term": "Omfordeling", "def": "Å flytte ressurser fra de som har mye til de som har lite, via skatt og velferd." },
+    { "term": "Like muligheter", "def": "At alle skal ha samme sjanser, uansett bakgrunn." },
+    { "term": "Arbeidsinkludering", "def": "Tiltak for å få flere inn i arbeidslivet." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er sosial ulikhet?", "options": ["At alle har like mye", "At grupper har ulik tilgang til goder som inntekt, helse og utdanning", "At noen er høyere enn andre", "At folk har ulike hobbyer"], "correct": 1, "explain": "Ulikhet handler om fordelingen av goder." },
+    { "id": "q02", "text": "Hva er skjevest fordelt i Norge?", "options": ["Formue", "Inntekt", "Skolegang", "Stemmerett"], "correct": 0, "explain": "Formue er mye skjevere fordelt enn inntekt." },
+    { "id": "q03", "text": "Hva viser en Gini-koeffisient på 0?", "options": ["At én person har alt", "At det er stor ulikhet", "At alle har like mye", "At ingen har noe"], "correct": 2, "explain": "1 betyr at én har alt." },
+    { "id": "q04", "text": "Hva er sosial mobilitet?", "options": ["At folk flytter mye", "At folk bruker mobil", "At samfunnet endrer seg", "Muligheten til å bevege seg mellom sosiale lag"], "correct": 3, "explain": "Gratis utdanning har bidratt til høy sosial mobilitet i Norge." },
+    { "id": "q05", "text": "Hvordan kan ulikhet føre til utenforskap for barn?", "options": ["Barn i familier med dårlig råd kan få vanskeligere for å delta i fritidsaktiviteter", "Ulikhet påvirker ikke barn", "Barn med dårlig råd får flere venner", "Alle barn har like muligheter uansett"], "correct": 0, "explain": "Det kan gi ensomhet og utenforskap." },
+    { "id": "q06", "text": "Hva er helseulikhet?", "options": ["At alle har lik helse", "At personer med høy utdanning og inntekt lever lenger og har bedre helse", "At leger tjener mye", "At sykehus er ulikt fordelt"], "correct": 1, "explain": "Helse henger sammen med sosial bakgrunn." },
+    { "id": "q07", "text": "Hvilket argument brukes for mer omfordeling?", "options": ["Ulikhet belønner innsats", "Lavere skatt gir mer vekst", "Store forskjeller kan svekke tilliten og fellesskapet", "Ulikhet er alltid rettferdig"], "correct": 2, "explain": "Andre mener noe ulikhet er rimelig." },
+    { "id": "q08", "text": "Hva er en ond sirkel i forbindelse med utenforskap?", "options": ["En type sport", "En skatteordning", "Et velferdstiltak", "Når dårlig økonomi, helse og utenforskap forsterker hverandre"], "correct": 3, "explain": "Derfor er tidlig innsats viktig." },
+    { "id": "q09", "text": "Hva er medianinntekt?", "options": ["Inntekten i midten når alle er sortert", "Gjennomsnittsinntekten", "Den høyeste inntekten", "Minstelønnen"], "correct": 0, "explain": "Medianen påvirkes lite av noen få svært høye inntekter." },
+    { "id": "q10", "text": "Hvilket tiltak kan redusere frafall og utenforskap?", "options": ["Høyere skolepenger", "Oppfølging og tilpasset opplæring i skolen", "Færre skoler", "Kortere skoletid"], "correct": 1, "explain": "Å fullføre videregående gir bedre muligheter i arbeidslivet." }
+  ],
+  "mindmap": {
+    "label": "Ulikhet og utenforskap",
+    "children": [
+      { "label": "Former", "children": [
+        { "label": "Inntekt og formue" },
+        { "label": "Helse" },
+        { "label": "Utdanning" },
+        { "label": "Bosted" }
+      ] },
+      { "label": "Måling", "children": [
+        { "label": "Gini" },
+        { "label": "Lavinntekt" },
+        { "label": "Median" }
+      ] },
+      { "label": "Mobilitet", "children": [
+        { "label": "Sosial mobilitet" },
+        { "label": "Sosial arv" }
+      ] },
+      { "label": "Utenforskap", "children": [
+        { "label": "Arbeid og utdanning" },
+        { "label": "Fritid og ensomhet" },
+        { "label": "Ond sirkel" }
+      ] },
+      { "label": "Syn og tiltak", "children": [
+        { "label": "Omfordeling" },
+        { "label": "Like muligheter" },
+        { "label": "Velferd og skole" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Norge har små økonomiske forskjeller sammenlignet med de fleste land.", "correct": true, "explain": "Men forskjellene har økt de siste tiårene." },
+      { "id": "m02", "type": "sant-usant", "text": "Det er ingen forskjeller i levealder mellom sosiale grupper i Norge.", "correct": false, "explain": "Personer med høy utdanning og inntekt lever i gjennomsnitt lenger." },
+      { "id": "m03", "type": "sant-usant", "text": "Å ikke fullføre videregående øker risikoen for å stå utenfor arbeidslivet.", "correct": true, "explain": "Mange jobber krever fullført utdanning." },
+      { "id": "m04", "type": "sant-usant", "text": "Alle er enige om at all ulikhet er et problem.", "correct": false, "explain": "Noen mener noe ulikhet er rimelig fordi den belønner innsats." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken av disse er formue?", "options": ["Månedslønn", "Barnetrygd", "En bolig man eier", "Studielån"], "correct": 2, "explain": "Formue er verdier man eier." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er sosial arv?", "options": ["At økonomi, nettverk og holdninger går i arv", "Arv etter en rik slektning", "Et velferdstiltak", "En skatt"], "correct": 0, "explain": "Sosial arv kan begrense sosial mobilitet." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er et eksempel på geografisk ulikhet i Norge?", "options": ["Forskjeller mellom kvinner og menn", "Forskjeller mellom bydeler i Oslo", "Forskjeller i skostørrelse", "Forskjeller i årstider"], "correct": 1, "explain": "Levekår varierer mellom bydeler og regioner." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

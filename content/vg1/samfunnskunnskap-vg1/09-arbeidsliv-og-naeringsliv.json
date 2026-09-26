@@ -1,0 +1,83 @@
+{
+  "id": "arbeidsliv-og-naeringsliv",
+  "fagId": "samfunnskunnskap-vg1",
+  "trinnId": "vg1",
+  "name": "Næringsliv, innovasjon og lokalsamfunn",
+  "intro": "Hvordan næringsgrunnlag, innovasjon og teknologi former arbeidsliv og lokalsamfunn i Norge – fra industristeder og fiskevær til teknologiklynger – og hvordan automatisering, KI og det grønne skiftet endrer jobbene.",
+  "kompetansemaal": [10],
+  "sammendrag": "## Næringsgrunnlag\n\n**Næringsgrunnlaget** er de næringene og arbeidsplassene et sted lever av. Det avhenger av **naturressurser**, **beliggenhet**, **kompetanse**, **infrastruktur** og **historie**.\n\n- **Kystsamfunn** har ofte fiske, havbruk og fiskeforedling.\n- **Industristeder** vokste fram rundt vannkraft og metallindustri, som **Mo i Rana**, **Årdal** og **Sunndalsøra**.\n- **Oljebyer** som **Stavanger** har vokst med petroleumsnæringen.\n- **Storbyene** har mange arbeidsplasser innen tjenester, offentlig sektor, IT og finans.\n- **Distriktene** har ofte jordbruk, reiseliv og offentlige arbeidsplasser.\n\nEt lokalsamfunn med **ensidig næringsliv** er **sårbart**: Hvis den store bedriften legger ned, kan mange miste jobben samtidig, og folk flytter. Et **variert** næringsliv gir større robusthet.\n\n## Innovasjon\n\n**Innovasjon** betyr å utvikle **nye eller forbedrede** produkter, tjenester eller måter å jobbe på som tas i bruk. Innovasjon skjer i både private bedrifter og offentlig sektor, og kan være alt fra ny teknologi til nye forretningsmodeller. **Gründere** starter nye bedrifter, og **klynger** – der bedrifter, forskningsmiljøer og utdanning samarbeider i samme region – kan gi mye innovasjon. Eksempler er havbruksteknologi, maritim industri og teknologimiljøer rundt universitetene.\n\n## Teknologi endrer arbeidslivet\n\n- **Automatisering** og **roboter** overtar mange rutineoppgaver i industri og lager.\n- **Digitalisering** endrer kontorarbeid, handel og bank – mange tjenester går nå på nett.\n- **Kunstig intelligens (KI)** kan analysere data, skrive tekst og kjenne igjen bilder, og kan endre mange yrker.\n- **Hjemmekontor** og **fleksibelt arbeid** har blitt vanligere.\n\nTeknologien kan gi **høyere produktivitet** og **nye jobber**, men noen jobber **forsvinner**, og kravene til **kompetanse** øker. **Livslang læring** blir derfor viktigere.\n\n## Det grønne skiftet\n\nOvergangen til et samfunn med lavere utslipp krever nye næringer, som **havvind**, **hydrogen**, **batterier**, **karbonfangst** og **grønn skipsfart**. Dette kan gi nye arbeidsplasser – også i lokalsamfunn som i dag er avhengige av olje og gass eller kraftkrevende industri. Samtidig er det usikkert hvor raskt nye næringer kan erstatte de gamle.\n\n## Arbeidslivet i endring\n\nFlere jobber **midlertidig**, som **frilansere** eller via **plattformer** som leveringstjenester. Det gir fleksibilitet, men ofte **svakere rettigheter**. Arbeidsinnvandring har vært viktig for bygg, industri og landbruk. Og mange bransjer, som helse og bygg, mangler **fagarbeidere**.\n\n## Drøfting\n\nSpørsmål å drøfte: Bør staten støtte **distriktsarbeidsplasser**? Hvem vinner og hvem taper på **automatisering**? Hvordan kan lokalsamfunn bli mer **robuste**? Og hvordan sikrer vi **gode arbeidsvilkår** i nye former for arbeid?",
+  "flashcards": [
+    { "term": "Næringsgrunnlag", "def": "De næringene og arbeidsplassene et sted lever av." },
+    { "term": "Ensidig næringsliv", "def": "Når et sted er avhengig av én bedrift eller næring." },
+    { "term": "Industristed", "def": "Sted som vokste fram rundt industri, som Mo i Rana og Årdal." },
+    { "term": "Innovasjon", "def": "Nye eller forbedrede produkter, tjenester eller arbeidsmåter som tas i bruk." },
+    { "term": "Gründer", "def": "Person som starter en ny bedrift." },
+    { "term": "Klynge", "def": "Bedrifter, forskning og utdanning som samarbeider i samme region." },
+    { "term": "Automatisering", "def": "At maskiner og roboter overtar oppgaver." },
+    { "term": "Digitalisering", "def": "At prosesser og tjenester flyttes over til digitale løsninger." },
+    { "term": "Kunstig intelligens", "def": "Teknologi som lar datamaskiner utføre oppgaver som krever en slags intelligens." },
+    { "term": "Produktivitet", "def": "Hvor mye som produseres per arbeidstime." },
+    { "term": "Livslang læring", "def": "Å fortsette å lære gjennom hele arbeidslivet." },
+    { "term": "Det grønne skiftet", "def": "Overgangen til et samfunn med lavere utslipp." },
+    { "term": "Plattformarbeid", "def": "Arbeid formidlet gjennom apper, for eksempel leveringstjenester." },
+    { "term": "Frilanser", "def": "Person som tar oppdrag for flere uten fast ansettelse." },
+    { "term": "Robust lokalsamfunn", "def": "Lokalsamfunn med variert næringsliv som tåler endringer." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er næringsgrunnlaget til et sted?", "options": ["Antall innbyggere", "De næringene og arbeidsplassene stedet lever av", "Skatteinntektene", "Stedets historie"], "correct": 1, "explain": "Det avhenger av ressurser, beliggenhet og kompetanse." },
+    { "id": "q02", "text": "Hvorfor er et lokalsamfunn med ensidig næringsliv sårbart?", "options": ["Fordi mange kan miste jobben samtidig hvis den store bedriften legger ned", "Fordi det har for mange arbeidsplasser", "Fordi skattene blir for lave", "Det er ikke sårbart"], "correct": 0, "explain": "Et variert næringsliv gir større robusthet." },
+    { "id": "q03", "text": "Hva er innovasjon?", "options": ["Å gjøre ting som før", "Å kopiere andre", "Nye eller forbedrede produkter, tjenester eller arbeidsmåter som tas i bruk", "Å legge ned bedrifter"], "correct": 2, "explain": "Innovasjon skjer både i privat og offentlig sektor." },
+    { "id": "q04", "text": "Hva er en klynge i næringslivet?", "options": ["En gruppe konkurrenter som ikke samarbeider", "Et kjøpesenter", "En fagforening", "Bedrifter, forskning og utdanning som samarbeider i samme region"], "correct": 3, "explain": "Klynger kan gi mye innovasjon." },
+    { "id": "q05", "text": "Hvilke oppgaver er mest utsatt for automatisering?", "options": ["Rutineoppgaver", "Omsorg for eldre", "Kreative oppgaver", "Ledelse"], "correct": 0, "explain": "Roboter og programmer egner seg for gjentakende oppgaver." },
+    { "id": "q06", "text": "Hvilken næring er et eksempel på det grønne skiftet?", "options": ["Kullgruver", "Havvind", "Oljeboring", "Engangsplast"], "correct": 1, "explain": "Hydrogen, batterier og karbonfangst er andre eksempler." },
+    { "id": "q07", "text": "Hva er en ulempe med plattformarbeid?", "options": ["Det gir alltid fast ansettelse", "Det gir høy pensjon", "Det gir ofte svakere rettigheter", "Det krever ingen app"], "correct": 2, "explain": "Mange er ikke ansatt og har færre rettigheter." },
+    { "id": "q08", "text": "Hvorfor blir livslang læring viktigere?", "options": ["Fordi arbeidslivet aldri endrer seg", "Fordi skolen blir kortere", "Fordi alle skal bli lærere", "Fordi teknologi endrer jobbene og kravene til kompetanse øker"], "correct": 3, "explain": "Mange må lære nye ting gjennom hele karrieren." },
+    { "id": "q09", "text": "Hvilket sted vokste fram rundt vannkraft og metallindustri?", "options": ["Mo i Rana", "Geilo", "Tromsø sentrum", "Lofoten"], "correct": 0, "explain": "Også Årdal og Sunndalsøra er slike industristeder." },
+    { "id": "q10", "text": "Hva er produktivitet?", "options": ["Antall ansatte", "Hvor mye som produseres per arbeidstime", "Lønnsnivået", "Antall bedrifter"], "correct": 1, "explain": "Teknologi kan øke produktiviteten." }
+  ],
+  "mindmap": {
+    "label": "Næringsliv og lokalsamfunn",
+    "children": [
+      { "label": "Næringsgrunnlag", "children": [
+        { "label": "Kyst og havbruk" },
+        { "label": "Industristeder" },
+        { "label": "Storbyer" },
+        { "label": "Sårbarhet" }
+      ] },
+      { "label": "Innovasjon", "children": [
+        { "label": "Gründere" },
+        { "label": "Klynger" },
+        { "label": "Offentlig sektor" }
+      ] },
+      { "label": "Teknologi", "children": [
+        { "label": "Automatisering" },
+        { "label": "Digitalisering" },
+        { "label": "KI" }
+      ] },
+      { "label": "Grønt skifte", "children": [
+        { "label": "Havvind" },
+        { "label": "Hydrogen og batterier" },
+        { "label": "Nye arbeidsplasser" }
+      ] },
+      { "label": "Nytt arbeidsliv", "children": [
+        { "label": "Plattformarbeid" },
+        { "label": "Mangel på fagarbeidere" },
+        { "label": "Livslang læring" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Innovasjon kan også skje i offentlig sektor.", "correct": true, "explain": "For eksempel digitale tjenester i kommuner og NAV." },
+      { "id": "m02", "type": "sant-usant", "text": "Teknologi fører bare til at jobber forsvinner.", "correct": false, "explain": "Teknologi skaper også nye jobber." },
+      { "id": "m03", "type": "sant-usant", "text": "Mange bransjer i Norge mangler fagarbeidere.", "correct": true, "explain": "Særlig helse og bygg." },
+      { "id": "m04", "type": "sant-usant", "text": "Et variert næringsliv gjør et lokalsamfunn mer sårbart.", "correct": false, "explain": "Et variert næringsliv gir større robusthet." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken by har vokst med petroleumsnæringen?", "options": ["Stavanger", "Røros", "Kautokeino", "Lillehammer"], "correct": 0, "explain": "Stavanger kalles ofte oljehovedstaden." },
+      { "id": "m06", "type": "flervalg", "text": "Hva gjør en gründer?", "options": ["Leder en fagforening", "Starter en ny bedrift", "Jobber i staten", "Underviser på universitet"], "correct": 1, "explain": "Gründere er viktige for innovasjon." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilket spørsmål er relevant å drøfte om automatisering?", "options": ["Hvilken farge robotene har", "Hvor mange roboter som finnes i Japan", "Hvem vinner og hvem taper på automatisering", "Om roboter kan sove"], "correct": 2, "explain": "Automatisering har ulike konsekvenser for ulike grupper." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

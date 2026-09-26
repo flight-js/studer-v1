@@ -1,0 +1,82 @@
+{
+  "id": "menneskerettigheter-og-ytringsfrihet",
+  "fagId": "samfunnskunnskap-vg1",
+  "trinnId": "vg1",
+  "name": "Menneskerettigheter, rasisme og ytringsfrihet",
+  "intro": "Grunnlaget for menneskerettighetene og eksempler på brudd nasjonalt og globalt, årsaker til og tiltak mot rasisme, diskriminering og hatefulle ytringer – og hvor grensene for ytringsfriheten går.",
+  "kompetansemaal": [13, 14],
+  "sammendrag": "## Grunnlaget for menneskerettighetene\n\n**Menneskerettighetene** bygger på ideen om at alle mennesker har **lik verdi** og visse rettigheter bare fordi de er mennesker. Etter grusomhetene under andre verdenskrig vedtok FN **Verdenserklæringen om menneskerettigheter** **10. desember 1948**. Senere har konvensjoner gjort rettighetene **juridisk bindende**:\n\n- **Den europeiske menneskerettskonvensjonen (EMK)** fra 1950, med **Den europeiske menneskerettsdomstolen** i Strasbourg\n- FNs konvensjoner om **sivile og politiske** og om **økonomiske, sosiale og kulturelle** rettigheter\n- **Barnekonvensjonen** fra 1989\n\nI Norge er de viktigste konvensjonene gjort til norsk lov gjennom **menneskerettsloven**, og siden **2014** har **Grunnloven** et eget kapittel om menneskerettigheter.\n\nMan skiller ofte mellom **sivile og politiske** rettigheter (ytringsfrihet, stemmerett, rettferdig rettergang) og **økonomiske, sosiale og kulturelle** rettigheter (utdanning, helse, arbeid).\n\n## Brudd på menneskerettighetene\n\n- **Globalt**: forfølgelse av politiske motstandere, **tortur**, **dødsstraff**, undertrykkelse av **minoriteter** – som uigurene i Kina – **barnearbeid**, sensur og angrep på sivile i **krig**.\n- **Nasjonalt**: Også Norge har blitt **dømt** i Den europeiske menneskerettsdomstolen, blant annet i saker om **barnevern**. Andre kritiserte forhold er bruk av **isolasjon** i fengsler og behandlingen av **asylsøkere**.\n\n## Rasisme og diskriminering\n\n**Rasisme** er å se ned på eller behandle mennesker dårligere på grunn av **hudfarge**, **etnisitet**, **nasjonalitet** eller **religion**. **Diskriminering** er urettferdig forskjellsbehandling – for eksempel at søkere med utenlandsk navn blir kalt inn til **færre jobbintervjuer**.\n\n**Årsaker** kan være **fordommer**, **stereotypier**, frykt for det ukjente, **«vi og dem»-tenkning**, dårlige økonomiske tider og politisk retorikk. **Strukturell rasisme** er når regler og praksis i samfunnet gir dårligere muligheter for noen grupper, selv om ingen har ment det slik.\n\n## Hatefulle ytringer\n\n**Hatefulle ytringer** er ytringer som truer eller håner mennesker på grunn av for eksempel hudfarge, religion, seksuell orientering, kjønnsidentitet eller funksjonsnedsettelse. De grove er **straffbare** etter **straffeloven § 185**. Mye hets skjer i **sosiale medier**.\n\n## Ytringsfrihet og grensene\n\n**Ytringsfriheten** er vernet i **Grunnloven § 100**. Den er en **grunnpilar** i demokratiet: Uten den kan vi ikke kritisere makthavere eller diskutere fritt. Ytringsfriheten gjelder også ytringer som er **ubehagelige** eller **provoserende**.\n\nMen den er **ikke grenseløs**. Det er for eksempel ikke lov med **trusler**, **grove hatefulle ytringer**, **ærekrenkelser** eller å dele **private bilder** uten samtykke. Debatten handler om **hvor** grensen skal gå: Noen mener hatefulle ytringer bør møtes med **motargumenter** heller enn straff. Andre mener hets kan **skremme** folk fra å delta i debatten – og dermed svekke ytringsfriheten for dem som rammes.\n\n## Tiltak mot rasisme og hat\n\n**Kunnskap** og **møter** mellom mennesker, **lover** mot diskriminering, **anonymiserte** jobbsøknader, **moderering** i sosiale medier, **si fra** når noen blir hetset, og at **ledere** og **mediene** tar ansvar for språkbruken.",
+  "flashcards": [
+    { "term": "Menneskerettigheter", "def": "Rettigheter alle har fordi de er mennesker." },
+    { "term": "Verdenserklæringen", "def": "FNs erklæring om menneskerettigheter, vedtatt 10. desember 1948." },
+    { "term": "EMK", "def": "Den europeiske menneskerettskonvensjonen fra 1950." },
+    { "term": "Barnekonvensjonen", "def": "FN-konvensjon om barns rettigheter fra 1989." },
+    { "term": "Menneskerettsloven", "def": "Norsk lov som gjør sentrale konvensjoner til norsk lov." },
+    { "term": "Grunnloven 2014", "def": "Fikk eget kapittel om menneskerettigheter." },
+    { "term": "Sivile og politiske rettigheter", "def": "For eksempel ytringsfrihet og stemmerett." },
+    { "term": "Økonomiske, sosiale og kulturelle rettigheter", "def": "For eksempel utdanning, helse og arbeid." },
+    { "term": "Rasisme", "def": "Å behandle mennesker dårligere på grunn av hudfarge, etnisitet eller religion." },
+    { "term": "Diskriminering", "def": "Urettferdig forskjellsbehandling." },
+    { "term": "Strukturell rasisme", "def": "Når regler og praksis gir dårligere muligheter for noen grupper." },
+    { "term": "Hatefulle ytringer", "def": "Ytringer som truer eller håner mennesker på grunn av gruppetilhørighet." },
+    { "term": "Straffeloven § 185", "def": "Paragrafen som forbyr grove hatefulle ytringer." },
+    { "term": "Grunnloven § 100", "def": "Paragrafen som verner ytringsfriheten." },
+    { "term": "Grenser for ytringsfriheten", "def": "Blant annet trusler, grove hatefulle ytringer og ærekrenkelser." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Når ble Verdenserklæringen om menneskerettigheter vedtatt?", "options": ["1814", "1948", "1989", "2014"], "correct": 1, "explain": "Den ble vedtatt etter andre verdenskrig." },
+    { "id": "q02", "text": "Hvilken paragraf i Grunnloven verner ytringsfriheten?", "options": ["§ 100", "§ 185", "§ 108", "§ 1"], "correct": 0, "explain": "Straffeloven § 185 forbyr grove hatefulle ytringer." },
+    { "id": "q03", "text": "Hva er strukturell rasisme?", "options": ["Rasisme i bygninger", "En enkelt persons fordommer", "Når regler og praksis gir dårligere muligheter for noen grupper", "Rasisme i historiebøker"], "correct": 2, "explain": "Det kan skje uten at noen har ment det slik." },
+    { "id": "q04", "text": "Hvilken rettighet er en sivil og politisk rettighet?", "options": ["Retten til helse", "Retten til utdanning", "Retten til arbeid", "Ytringsfriheten"], "correct": 3, "explain": "Stemmerett og rettferdig rettergang er andre eksempler." },
+    { "id": "q05", "text": "Hvor avgjøres saker om brudd på EMK?", "options": ["I Den europeiske menneskerettsdomstolen i Strasbourg", "I FNs sikkerhetsråd", "I Stortinget", "I Høyesterett i USA"], "correct": 0, "explain": "Norge har blitt dømt der, blant annet i barnevernssaker." },
+    { "id": "q06", "text": "Er det lov å si ting som er ubehagelige eller provoserende i Norge?", "options": ["Nei, aldri", "Ja, ytringsfriheten gjelder også slike ytringer, men ikke trusler og grove hatytringer", "Bare for politikere", "Bare på papir"], "correct": 1, "explain": "Ytringsfriheten har grenser, men de er snevre." },
+    { "id": "q07", "text": "Hva er et eksempel på diskriminering i arbeidslivet?", "options": ["At alle får samme lønn", "At man må ha utdanning til en jobb", "At søkere med utenlandsk navn blir kalt inn til færre intervjuer", "At det er intervjuer"], "correct": 2, "explain": "Forskning har vist slik diskriminering." },
+    { "id": "q08", "text": "Hvilket argument brukes for strengere grenser mot hatefulle ytringer?", "options": ["Alle ytringer er like viktige", "Motargumenter er alltid nok", "Straff er alltid feil", "Hets kan skremme folk fra å delta i debatten"], "correct": 3, "explain": "Andre mener hat bør møtes med motargumenter." },
+    { "id": "q09", "text": "Når ble Barnekonvensjonen vedtatt?", "options": ["1989", "1948", "1950", "2014"], "correct": 0, "explain": "Den gir barn egne rettigheter." },
+    { "id": "q10", "text": "Hvilket tiltak kan motvirke diskriminering ved ansettelser?", "options": ["Å kreve bilde i søknaden", "Anonymiserte jobbsøknader", "Å spørre om religion", "Å bare ansette bekjente"], "correct": 1, "explain": "Da vurderes søkeren ut fra kompetanse." }
+  ],
+  "mindmap": {
+    "label": "Menneskerettigheter og ytringsfrihet",
+    "children": [
+      { "label": "Grunnlag", "children": [
+        { "label": "Lik verdi" },
+        { "label": "Verdenserklæringen 1948" },
+        { "label": "EMK og Barnekonvensjonen" },
+        { "label": "Grunnloven 2014" }
+      ] },
+      { "label": "Brudd", "children": [
+        { "label": "Globalt" },
+        { "label": "Nasjonalt" }
+      ] },
+      { "label": "Rasisme", "children": [
+        { "label": "Fordommer" },
+        { "label": "Diskriminering" },
+        { "label": "Strukturell rasisme" }
+      ] },
+      { "label": "Hatefulle ytringer", "children": [
+        { "label": "Straffeloven § 185" },
+        { "label": "Sosiale medier" }
+      ] },
+      { "label": "Ytringsfrihet", "children": [
+        { "label": "Grunnloven § 100" },
+        { "label": "Grenser" },
+        { "label": "Debatt" },
+        { "label": "Tiltak" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Norge har blitt dømt i Den europeiske menneskerettsdomstolen.", "correct": true, "explain": "Blant annet i flere barnevernssaker." },
+      { "id": "m02", "type": "sant-usant", "text": "Ytringsfriheten gir rett til å true andre.", "correct": false, "explain": "Trusler er ikke vernet av ytringsfriheten." },
+      { "id": "m03", "type": "sant-usant", "text": "Retten til utdanning er en sosial rettighet.", "correct": true, "explain": "Den hører til de økonomiske, sosiale og kulturelle rettighetene." },
+      { "id": "m04", "type": "sant-usant", "text": "Verdenserklæringen ble vedtatt før andre verdenskrig.", "correct": false, "explain": "Den ble vedtatt i 1948, etter krigen." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken lov gjør sentrale menneskerettighetskonvensjoner til norsk lov?", "options": ["Menneskerettsloven", "Opplæringsloven", "Straffeloven", "Arbeidsmiljøloven"], "correct": 0, "explain": "Konvensjonene går foran annen lov ved motstrid." },
+      { "id": "m06", "type": "flervalg", "text": "Hva kan være en årsak til rasisme?", "options": ["Kunnskap om andre kulturer", "Fordommer og «vi og dem»-tenkning", "Møter mellom mennesker", "Lover mot diskriminering"], "correct": 1, "explain": "De andre alternativene motvirker rasisme." },
+      { "id": "m07", "type": "flervalg", "text": "Hvorfor er ytringsfriheten viktig i et demokrati?", "options": ["Fordi den gir rett til å true andre", "Fordi den gjør alle enige", "Fordi den gjør det mulig å kritisere makthavere og diskutere fritt", "Fordi den forbyr kritikk"], "correct": 2, "explain": "Ytringsfriheten er en grunnpilar i demokratiet." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

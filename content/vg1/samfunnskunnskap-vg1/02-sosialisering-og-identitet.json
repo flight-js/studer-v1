@@ -1,0 +1,82 @@
+{
+  "id": "sosialisering-og-identitet",
+  "fagId": "samfunnskunnskap-vg1",
+  "trinnId": "vg1",
+  "name": "Sosialisering, identitet og selvfølelse",
+  "intro": "Hva sosialisering er, primær og sekundær sosialisering, normer, roller og sanksjoner, og hvordan familie, venner, skole, medier og sosiale medier påvirker identiteten og selvfølelsen til ungdom.",
+  "kompetansemaal": [3],
+  "sammendrag": "## Hva er sosialisering?\n\n**Sosialisering** er prosessen der vi lærer **normer**, **verdier**, **språk** og **ferdigheter** som gjør oss i stand til å fungere i samfunnet. Sosialisering varer **hele livet**.\n\n- **Primær sosialisering** skjer i de første leveårene, først og fremst i **familien**. Her lærer vi språk, grunnleggende normer og følelsesmessige bånd.\n- **Sekundær sosialisering** skjer senere gjennom **barnehage**, **skole**, **venner**, **fritidsaktiviteter**, **arbeidsliv**, **medier** og **sosiale medier**.\n\nDe som påvirker oss, kalles **sosialiseringsagenter**.\n\n## Normer, roller og sanksjoner\n\n- **Normer** er regler for hvordan vi bør oppføre oss. **Formelle normer** er skrevne regler og lover. **Uformelle normer** er uskrevne forventninger – som å hilse eller ikke snakke høyt på bussen.\n- **Sanksjoner** er reaksjoner på atferd: **positive** (ros, likes, belønning) og **negative** (kritikk, utestenging, straff).\n- **Roller** er forventninger knyttet til en posisjon, som elev, venn, datter eller arbeidstaker. Når ulike roller krever ulike ting, oppstår **rollekonflikt**.\n\nNår vi har gjort normene til våre egne, sier vi at de er **internalisert**.\n\n## Identitet\n\n**Identitet** er hvem vi er og opplever oss som. Den har en **personlig** side – egenskaper, interesser og verdier – og en **sosial** side – grupper vi tilhører, som kjønn, familie, religion, nasjonalitet, venneflokk eller idrettslag. Ungdomstiden er en periode der mange **prøver ut** ulike sider av seg selv.\n\n## Selvfølelse og selvtillit\n\n- **Selvtillit** handler om hva du tror du **får til**.\n- **Selvfølelse** handler om hvordan du **verdsetter deg selv** som person, uavhengig av prestasjoner.\n\nGod selvfølelse gjør det lettere å tåle motgang og å stå imot press.\n\n## Sosiale medier\n\nSosiale medier er en viktig sosialiseringsagent for ungdom. Sosiologen **Erving Goffman** beskrev hvordan vi **presenterer oss selv** for andre, som skuespillere på en **scene**. På sosiale medier velger vi ofte ut de beste bildene og øyeblikkene. Det kan gi\n\n- **fellesskap**, **tilhørighet** og muligheter til å uttrykke seg\n- **sammenligning** med andres polerte liv\n- **kroppspress** og **prestasjonspress**\n- jakt på **likes** som positive sanksjoner\n\nAlgoritmer viser oss mer av det vi allerede liker, noe som kan forsterke idealer og holdninger.\n\n## Press og mestring\n\nMange unge opplever **press** – på skolearbeid, utseende og sosialt liv. Det kan hjelpe å være **bevisst** på hvordan medier fungerer, ha **trygge relasjoner**, gjøre ting man **mestrer** og **snakke** med noen man stoler på. Samfunnet kan også bidra, for eksempel gjennom kravet om at **retusjert reklame** skal merkes.",
+  "flashcards": [
+    { "term": "Sosialisering", "def": "Prosessen der vi lærer normer, verdier og ferdigheter for å fungere i samfunnet." },
+    { "term": "Primær sosialisering", "def": "Sosialisering i de første leveårene, først og fremst i familien." },
+    { "term": "Sekundær sosialisering", "def": "Senere sosialisering gjennom skole, venner, medier og arbeidsliv." },
+    { "term": "Sosialiseringsagent", "def": "Person eller institusjon som påvirker sosialiseringen." },
+    { "term": "Norm", "def": "Regel for hvordan vi bør oppføre oss." },
+    { "term": "Uformell norm", "def": "Uskreven forventning, som å hilse." },
+    { "term": "Sanksjon", "def": "Positiv eller negativ reaksjon på atferd." },
+    { "term": "Rolle", "def": "Forventninger knyttet til en posisjon." },
+    { "term": "Rollekonflikt", "def": "Når ulike roller krever ulike ting." },
+    { "term": "Internalisering", "def": "At normer blir en del av en selv." },
+    { "term": "Identitet", "def": "Hvem man er og opplever seg som." },
+    { "term": "Selvtillit", "def": "Troen på hva man får til." },
+    { "term": "Selvfølelse", "def": "Hvordan man verdsetter seg selv som person." },
+    { "term": "Erving Goffman", "def": "Sosiolog som beskrev hvordan vi presenterer oss for andre som på en scene." },
+    { "term": "Kroppspress", "def": "Press om å se ut på en bestemt måte." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er primær sosialisering?", "options": ["Sosialisering på arbeidsplassen", "Sosialisering i de første leveårene, særlig i familien", "Sosialisering gjennom sosiale medier", "Sosialisering i videregående skole"], "correct": 1, "explain": "Familien er den viktigste sosialiseringsagenten i de første årene." },
+    { "id": "q02", "text": "Hva er et eksempel på en uformell norm?", "options": ["Å hilse når man møter noen", "Fartsgrensen", "Skoleloven", "Skatteregler"], "correct": 0, "explain": "Uformelle normer er uskrevne forventninger." },
+    { "id": "q03", "text": "Hva er en positiv sanksjon?", "options": ["Straff", "Utestenging", "Ros eller likes", "Kritikk"], "correct": 2, "explain": "Positive sanksjoner belønner atferd." },
+    { "id": "q04", "text": "Hva er forskjellen på selvtillit og selvfølelse?", "options": ["Det er det samme", "Selvfølelse handler om prestasjoner", "Selvtillit handler om utseende", "Selvtillit handler om hva du får til, selvfølelse om hvordan du verdsetter deg selv"], "correct": 3, "explain": "God selvfølelse er ikke avhengig av prestasjoner." },
+    { "id": "q05", "text": "Hva er en rollekonflikt?", "options": ["Når ulike roller krever ulike ting", "En krangel mellom venner", "En konflikt i et teaterstykke", "Når man ikke har noen roller"], "correct": 0, "explain": "For eksempel når trening og skole krever tid samtidig." },
+    { "id": "q06", "text": "Hva beskrev Erving Goffman?", "options": ["Hvordan økonomien fungerer", "Hvordan vi presenterer oss selv for andre, som på en scene", "Hvordan stater styres", "Hvordan barn lærer språk"], "correct": 1, "explain": "Teorien brukes mye om sosiale medier." },
+    { "id": "q07", "text": "Hvilken av disse er en sekundær sosialiseringsagent?", "options": ["Mor og far i de første leveårene", "Genene", "Skolen", "Fødselen"], "correct": 2, "explain": "Skole, venner og medier er sekundære sosialiseringsagenter." },
+    { "id": "q08", "text": "Hvordan kan algoritmer i sosiale medier påvirke ungdom?", "options": ["De viser alltid et balansert bilde", "De har ingen påvirkning", "De viser bare nyheter", "De viser mer av det man allerede liker og kan forsterke idealer"], "correct": 3, "explain": "Det kan for eksempel forsterke kroppspress." },
+    { "id": "q09", "text": "Hva betyr det at en norm er internalisert?", "options": ["At den er blitt en del av en selv", "At den er skrevet ned i en lov", "At den gjelder i utlandet", "At den er glemt"], "correct": 0, "explain": "Da følger vi normen uten at noen passer på." },
+    { "id": "q10", "text": "Hvilket tiltak skal redusere kroppspress fra reklame?", "options": ["Forbud mot all reklame", "Krav om at retusjert reklame skal merkes", "Krav om at alle bilder skal være svart-hvitt", "Forbud mot sosiale medier"], "correct": 1, "explain": "Merkingen viser at bildet er endret." }
+  ],
+  "mindmap": {
+    "label": "Sosialisering og identitet",
+    "children": [
+      { "label": "Sosialisering", "children": [
+        { "label": "Primær" },
+        { "label": "Sekundær" },
+        { "label": "Sosialiseringsagenter" }
+      ] },
+      { "label": "Normer og roller", "children": [
+        { "label": "Formelle og uformelle normer" },
+        { "label": "Sanksjoner" },
+        { "label": "Rollekonflikt" }
+      ] },
+      { "label": "Identitet", "children": [
+        { "label": "Personlig" },
+        { "label": "Sosial" },
+        { "label": "Prøve ut" }
+      ] },
+      { "label": "Selvbilde", "children": [
+        { "label": "Selvtillit" },
+        { "label": "Selvfølelse" }
+      ] },
+      { "label": "Sosiale medier", "children": [
+        { "label": "Goffman: scene" },
+        { "label": "Sammenligning" },
+        { "label": "Kroppspress" },
+        { "label": "Algoritmer" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Sosialisering varer hele livet.", "correct": true, "explain": "Vi lærer nye normer i nye situasjoner, for eksempel i arbeidslivet." },
+      { "id": "m02", "type": "sant-usant", "text": "Identitet påvirkes bare av familien.", "correct": false, "explain": "Venner, skole, medier og mange andre påvirker også." },
+      { "id": "m03", "type": "sant-usant", "text": "Utestenging fra en venneflokk er en negativ sanksjon.", "correct": true, "explain": "Negative sanksjoner reagerer på uønsket atferd." },
+      { "id": "m04", "type": "sant-usant", "text": "På sosiale medier viser folk alltid et helt realistisk bilde av livet sitt.", "correct": false, "explain": "Mange velger ut de beste øyeblikkene." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er en formell norm?", "options": ["En uskreven forventning", "En skreven regel eller lov", "En følelse", "En rolle"], "correct": 1, "explain": "Lover og skolereglement er formelle normer." },
+      { "id": "m06", "type": "flervalg", "text": "Hva hører til den sosiale siden av identiteten?", "options": ["Gruppene vi tilhører", "Blodtypen vår", "Høyden vår", "Hvor mye vi sover"], "correct": 0, "explain": "Kjønn, religion, nasjonalitet og venneflokk er eksempler." },
+      { "id": "m07", "type": "flervalg", "text": "Hva kan hjelpe unge som opplever press?", "options": ["Å sammenligne seg mer med andre", "Å slutte å snakke med folk", "Å ha trygge relasjoner og snakke med noen de stoler på", "Å bruke mer tid på sosiale medier"], "correct": 2, "explain": "Mestring og trygge relasjoner styrker selvfølelsen." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

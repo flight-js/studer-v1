@@ -1,0 +1,89 @@
+{
+  "id": "samfunnskunnskap-vg1",
+  "trinnId": "vg1",
+  "name": "Samfunnskunnskap",
+  "lareplan": {
+    "kode": "SAK01-01",
+    "url": "https://www.udir.no/lk20/sak01-01/kompetansemaal-og-vurdering/kv48",
+    "kompetansemaal": [
+      {
+        "nr": 1,
+        "tekst": "utforske og presentere dagsaktuelle tema eller debatter ved å bruke samfunnsfaglege metodar, kjelder og digitale ressursar, og argumentere for sine eigne og andre sine meiningar og verdiar"
+      },
+      {
+        "nr": 2,
+        "tekst": "utforske korleis interesser og ideologisk ståstad påverkar våre argument og val av kjelder, og reflektere over korleis det gir seg utslag i forskjellige meiningar"
+      },
+      {
+        "nr": 3,
+        "tekst": "gjere greie for sosialisering og drøfte korleis identiteten og sjølvkjensla til ungdom blir påverka gjennom sosialisering"
+      },
+      {
+        "nr": 4,
+        "tekst": "drøfte korleis personleg økonomi, kommersiell påverknad og forbruk påverkar enkeltpersonar, grupper og samfunnet"
+      },
+      {
+        "nr": 5,
+        "tekst": "reflektere over utfordringar i samband med grensesetjing og drøfte ulike verdiar, normer og lover som gjeld kjønn, seksualitet og kropp"
+      },
+      {
+        "nr": 6,
+        "tekst": "reflektere over eigne digitale spor, utforske kven som har tilgang til spora, og drøfte korleis data og personopplysningar kan brukast eller misbrukast"
+      },
+      {
+        "nr": 7,
+        "tekst": "innhente informasjon om forskjellige former for sosial ulikskap i Noreg og drøfte samanhengen mellom ulikskap og utanforskap"
+      },
+      {
+        "nr": 8,
+        "tekst": "reflektere over likskapar og ulikskapar i kulturuttrykk, identitet og levesett innanfor og mellom majoritet og minoritet i Noreg og Sápmi/Sábme/Sáepmie"
+      },
+      {
+        "nr": 9,
+        "tekst": "utforske og beskrive korleis organiseringa av samfunnet og arbeidslivet i Noreg har endra seg, og drøfte korleis den nordiske samfunnsmodellen møter utfordringar enkeltpersonar og samfunnet står overfor"
+      },
+      {
+        "nr": 10,
+        "tekst": "utforske og drøfte korleis næringsgrunnlag, innovasjon og teknologi formar og påverkar arbeidsliv og lokalsamfunn i Noreg"
+      },
+      {
+        "nr": 11,
+        "tekst": "reflektere over kva det inneber å vere medborgar, og samanlikne korleis politiske system er organiserte i forskjellige land og område"
+      },
+      {
+        "nr": 12,
+        "tekst": "vurdere korleis utøving av makt påverkar enkeltpersonar og samfunn"
+      },
+      {
+        "nr": 13,
+        "tekst": "gjere greie for grunnlaget for menneskerettane og utforske og gi døme på brot på menneskerettane nasjonalt eller globalt"
+      },
+      {
+        "nr": 14,
+        "tekst": "vurdere årsaker til og tiltak som kan førebyggje rasisme, diskriminering og hatefulle ytringar, og drøfte grensene for ytringsfridommen"
+      },
+      {
+        "nr": 15,
+        "tekst": "utforske ei utfordring eller ein konflikt på lokalt, nasjonalt eller globalt nivå og drøfte korleis utfordringa eller konflikten påverkar forskjellige grupper"
+      },
+      {
+        "nr": 16,
+        "tekst": "drøfte samanhengen mellom økonomisk vekst, levestandard og livskvalitet i eit globalt og berekraftig perspektiv"
+      }
+    ]
+  },
+  "temaer": [
+    "metode-og-ideologi",
+    "sosialisering-og-identitet",
+    "personlig-okonomi-og-forbruk",
+    "kjonn-seksualitet-og-grenser",
+    "digitale-spor-og-personvern",
+    "ulikhet-og-utenforskap",
+    "majoritet-og-minoritet",
+    "den-nordiske-modellen",
+    "arbeidsliv-og-naeringsliv",
+    "politikk-makt-og-medborgerskap",
+    "menneskerettigheter-og-ytringsfrihet",
+    "konflikter-og-utfordringer"
+  ]
+}

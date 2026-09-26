@@ -1,0 +1,82 @@
+{
+  "id": "kjonn-seksualitet-og-grenser",
+  "fagId": "samfunnskunnskap-vg1",
+  "trinnId": "vg1",
+  "name": "Kjønn, seksualitet, kropp og grenser",
+  "intro": "Grensesetting og samtykke, verdier, normer og lover om kjønn, seksualitet og kropp – seksuell lavalder, deling av bilder, kjønnsmangfold og diskrimineringsvern – og hvordan normene har endret seg over tid.",
+  "kompetansemaal": [5],
+  "sammendrag": "## Grenser og samtykke\n\nAlle har rett til å bestemme over **egen kropp**. Å sette **grenser** betyr å si fra om hva man vil og ikke vil – og å **respektere** andres grenser. Det kan være vanskelig: Man kan være redd for å skuffe andre, føle **press** fra venner eller kjæreste, eller være påvirket av alkohol.\n\n**Samtykke** betyr at alle involverte **frivillig** sier ja. Samtykke må være **tydelig**, kan **trekkes tilbake** når som helst, og kan ikke gis av noen som sover, er bevisstløs eller svært beruset. Stillhet er **ikke** et ja.\n\n## Lover om seksualitet og kropp\n\n- Den **seksuelle lavalderen** i Norge er **16 år**.\n- Seksuell omgang uten samtykke er **voldtekt**, og det er straffbart.\n- Å lage, ha eller dele **seksualiserte bilder** av personer **under 18 år** er straffbart – også når de er tatt av den unge selv.\n- Å dele **krenkende bilder** av andre uten samtykke er straffbart.\n- **Seksuell trakassering** – uønsket seksuell oppmerksomhet – er forbudt etter likestillings- og diskrimineringsloven.\n\nHvis noen deler bilder av deg, kan du få hjelp fra blant annet **politiet**, **Slettmeg.no** og voksne du stoler på.\n\n## Kjønn og kjønnsmangfold\n\nVi skiller ofte mellom **biologisk kjønn** og **kjønnsidentitet** – hvilket kjønn man opplever å være. **Kjønnsuttrykk** er hvordan man viser kjønn gjennom klær, stil og væremåte. Noen er **transpersoner**, og noen opplever seg som **ikke-binære**. I Norge kan personer fra **16 år** selv endre **juridisk kjønn**.\n\n**Seksuell orientering** handler om hvem man blir forelsket i eller tiltrukket av. Norge fikk en **kjønnsnøytral ekteskapslov** i **2009**. Likevel opplever mange **skeive** fortsatt fordommer og hets.\n\n**Likestillings- og diskrimineringsloven** forbyr diskriminering på grunn av blant annet **kjønn**, **seksuell orientering**, **kjønnsidentitet** og **kjønnsuttrykk**.\n\n## Verdier og normer i endring\n\nNormer om kjønn, seksualitet og kropp har endret seg mye. For noen tiår siden var homofili straffbart i Norge (til **1972**), og kvinner og menn hadde svært ulike roller. Samtidig finnes det i dag **ulike syn** i samfunnet, blant annet påvirket av **religion**, **kultur**, **generasjon** og **politikk**. Temaer som **abort**, **kjønnsidentitet** og **pornografi** skaper fortsatt debatt.\n\n## Kroppspress\n\nReklame, sosiale medier og idealer i vennegjengen kan gi **kroppspress**. Mange unge sammenligner seg med **redigerte** bilder. Tiltak som **merking av retusjert reklame** og **undervisning i kildekritikk** skal motvirke dette. Kroppen er ikke et prosjekt som må perfeksjoneres – den er din.\n\n## Drøfte verdier\n\nNår du drøfter slike spørsmål, bør du skille mellom **lover** (hva som er lov), **normer** (hva som forventes) og **verdier** (hva man mener er riktig), vise **respekt** for ulike syn – og samtidig stå fast på at alle har rett til å bli behandlet med **verdighet**.",
+  "flashcards": [
+    { "term": "Grensesetting", "def": "Å si fra om hva man vil og ikke vil." },
+    { "term": "Samtykke", "def": "At alle involverte frivillig og tydelig sier ja." },
+    { "term": "Samtykke kan trekkes tilbake", "def": "Man kan ombestemme seg når som helst." },
+    { "term": "Seksuell lavalder", "def": "16 år i Norge." },
+    { "term": "Seksualiserte bilder av personer under 18 år", "def": "Straffbart å lage, ha eller dele." },
+    { "term": "Seksuell trakassering", "def": "Uønsket seksuell oppmerksomhet – forbudt etter loven." },
+    { "term": "Slettmeg.no", "def": "Tjeneste som hjelper folk med krenkende innhold på nett." },
+    { "term": "Kjønnsidentitet", "def": "Hvilket kjønn man opplever å være." },
+    { "term": "Kjønnsuttrykk", "def": "Hvordan man viser kjønn gjennom klær, stil og væremåte." },
+    { "term": "Ikke-binær", "def": "Person som ikke opplever seg som bare kvinne eller mann." },
+    { "term": "Endring av juridisk kjønn", "def": "Kan gjøres selv fra 16 år i Norge." },
+    { "term": "Seksuell orientering", "def": "Hvem man blir forelsket i eller tiltrukket av." },
+    { "term": "Kjønnsnøytral ekteskapslov", "def": "Innført i Norge i 2009." },
+    { "term": "1972", "def": "Året homofili sluttet å være straffbart i Norge." },
+    { "term": "Lover, normer og verdier", "def": "Hva som er lov, hva som forventes og hva man mener er riktig." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er den seksuelle lavalderen i Norge?", "options": ["14 år", "16 år", "18 år", "15 år"], "correct": 1, "explain": "Loven skal beskytte barn og unge." },
+    { "id": "q02", "text": "Hva kjennetegner et gyldig samtykke?", "options": ["Det er frivillig og tydelig, og kan trekkes tilbake", "Det gjelder for alltid", "Stillhet er nok", "Det kan gis av noen som sover"], "correct": 0, "explain": "Stillhet er ikke et ja." },
+    { "id": "q03", "text": "Er det lov å dele et seksualisert bilde av en 16-åring, selv om hun har tatt det selv?", "options": ["Ja, hvis hun sier ja", "Ja, fordi hun er over den seksuelle lavalderen", "Nei, det er straffbart å dele seksualiserte bilder av personer under 18 år", "Ja, hvis det bare deles med én person"], "correct": 2, "explain": "Aldersgrensen for slike bilder er 18 år." },
+    { "id": "q04", "text": "Hva er kjønnsuttrykk?", "options": ["Hvilket kjønn man er født med", "Hvem man er tiltrukket av", "Et juridisk begrep", "Hvordan man viser kjønn gjennom klær, stil og væremåte"], "correct": 3, "explain": "Kjønnsidentitet er hvilket kjønn man opplever å være." },
+    { "id": "q05", "text": "Når fikk Norge en kjønnsnøytral ekteskapslov?", "options": ["2009", "1972", "1990", "2020"], "correct": 0, "explain": "Da fikk likekjønnede par rett til å gifte seg." },
+    { "id": "q06", "text": "Hvilken lov forbyr diskriminering på grunn av seksuell orientering og kjønnsidentitet?", "options": ["Opplæringsloven", "Likestillings- og diskrimineringsloven", "Markedsføringsloven", "Ekteskapsloven"], "correct": 1, "explain": "Loven verner også mot seksuell trakassering." },
+    { "id": "q07", "text": "Når sluttet homofili å være straffbart i Norge?", "options": ["1814", "1945", "1972", "2009"], "correct": 2, "explain": "Normene om seksualitet har endret seg mye." },
+    { "id": "q08", "text": "Hva er seksuell trakassering?", "options": ["Et kompliment", "En kjæresterelasjon", "En type flørt begge vil ha", "Uønsket seksuell oppmerksomhet"], "correct": 3, "explain": "Det avgjørende er at oppmerksomheten er uønsket." },
+    { "id": "q09", "text": "Hvorfor kan det være vanskelig å sette grenser?", "options": ["Fordi man kan føle press eller være redd for å skuffe andre", "Fordi grenser er ulovlige", "Fordi alle har de samme grensene", "Fordi det aldri er nødvendig"], "correct": 0, "explain": "Derfor er det viktig å respektere andres grenser." },
+    { "id": "q10", "text": "Hva er forskjellen på lover, normer og verdier?", "options": ["Det er det samme", "Lover er hva som er lov, normer hva som forventes, verdier hva man mener er riktig", "Normer er alltid skrevet ned", "Verdier bestemmes av Stortinget"], "correct": 1, "explain": "Å skille disse gjør drøftingen tydeligere." }
+  ],
+  "mindmap": {
+    "label": "Kjønn, seksualitet og grenser",
+    "children": [
+      { "label": "Grenser", "children": [
+        { "label": "Egen kropp" },
+        { "label": "Samtykke" },
+        { "label": "Press" }
+      ] },
+      { "label": "Lover", "children": [
+        { "label": "Lavalder 16 år" },
+        { "label": "Bilder under 18 år" },
+        { "label": "Trakassering" }
+      ] },
+      { "label": "Kjønn", "children": [
+        { "label": "Kjønnsidentitet" },
+        { "label": "Kjønnsuttrykk" },
+        { "label": "Juridisk kjønn" }
+      ] },
+      { "label": "Seksualitet", "children": [
+        { "label": "Seksuell orientering" },
+        { "label": "Ekteskapsloven 2009" },
+        { "label": "Diskrimineringsvern" }
+      ] },
+      { "label": "Endring og debatt", "children": [
+        { "label": "Normer i endring" },
+        { "label": "Ulike syn" },
+        { "label": "Kroppspress" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Et samtykke kan trekkes tilbake når som helst.", "correct": true, "explain": "Man kan alltid ombestemme seg." },
+      { "id": "m02", "type": "sant-usant", "text": "En person som er svært beruset, kan gi et gyldig samtykke.", "correct": false, "explain": "Den som er svært beruset, kan ikke gi et gyldig samtykke." },
+      { "id": "m03", "type": "sant-usant", "text": "I Norge kan man fra 16 år selv endre juridisk kjønn.", "correct": true, "explain": "Yngre barn kan gjøre det med samtykke fra foreldrene." },
+      { "id": "m04", "type": "sant-usant", "text": "Normer om kjønn og seksualitet har vært like i hundrevis av år.", "correct": false, "explain": "Normene har endret seg mye, særlig de siste tiårene." },
+      { "id": "m05", "type": "flervalg", "text": "Hva kan du gjøre hvis noen deler krenkende bilder av deg?", "options": ["Ingenting", "Kontakte politiet, Slettmeg.no eller en voksen du stoler på", "Dele bilder av dem tilbake", "Slette kontoen din og ikke si noe"], "correct": 1, "explain": "Det er straffbart å dele krenkende bilder uten samtykke." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er seksuell orientering?", "options": ["Hvem man blir forelsket i eller tiltrukket av", "Hvilket kjønn man opplever å være", "Hvordan man kler seg", "Hvilket kjønn som står i passet"], "correct": 0, "explain": "Kjønnsidentitet er noe annet." },
+      { "id": "m07", "type": "flervalg", "text": "Hva påvirker ulike syn på kjønn og seksualitet i samfunnet?", "options": ["Bare alder", "Bare lover", "Blant annet religion, kultur, generasjon og politikk", "Bare sosiale medier"], "correct": 2, "explain": "Mange faktorer spiller inn." }
+    ]
+  },
+  "kvalitet": { "status": "sjekkes", "merknader": ["Sensitivt tema – læreren bør gå gjennom formuleringene.", "Sjekk gjeldende regler om samtykke i straffeloven (voldtektsbestemmelsen ble endret i 2025) og aldersgrensen for endring av juridisk kjønn."] }
+}

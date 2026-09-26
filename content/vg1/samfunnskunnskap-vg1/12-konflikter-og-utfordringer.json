@@ -1,0 +1,82 @@
+{
+  "id": "konflikter-og-utfordringer",
+  "fagId": "samfunnskunnskap-vg1",
+  "trinnId": "vg1",
+  "name": "Å analysere en konflikt eller utfordring",
+  "intro": "En framgangsmåte for å utforske en utfordring eller konflikt på lokalt, nasjonalt eller globalt nivå – parter, årsaker, interesser, maktforhold og konsekvenser for ulike grupper – og hvordan konflikter kan håndteres og løses.",
+  "kompetansemaal": [15],
+  "sammendrag": "## Konflikter og utfordringer\n\nEn **konflikt** oppstår når parter har **uforenlige mål eller interesser**. En **utfordring** kan være et samfunnsproblem som ikke nødvendigvis har tydelige motparter, som klimaendringer eller ensomhet. Konflikter finnes på alle nivåer:\n\n- **Lokalt**: nedleggelse av en skole, bompenger, vindkraft i nærområdet\n- **Nasjonalt**: fordeling av velferd, innvandringspolitikk, rovdyrpolitikk\n- **Globalt**: kriger, klimaforhandlinger, handelskonflikter\n\n## En analysemodell\n\n**1. Hva handler konflikten om?**\nBeskriv saken kort. Er det en konflikt om **ressurser** (land, vann, penger), **makt**, **identitet** (religion, etnisitet) eller **verdier**?\n\n**2. Hvem er partene?**\nHvem er **hovedpartene**, og hvem er **tredjeparter** – for eksempel andre stater, FN eller organisasjoner?\n\n**3. Årsaker**\nSkill mellom **bakenforliggende årsaker** (historie, fattigdom, ulik fordeling) og **utløsende årsaker** (en hendelse som startet konflikten).\n\n**4. Interesser og argumenter**\nHva vil partene oppnå? Hvilke argumenter bruker de? Hva har de å **vinne** eller **tape**?\n\n**5. Maktforhold**\nHvem har mest **økonomisk**, **militær** eller **politisk** makt? Hvem har **mediemakt** og får fortelle sin versjon?\n\n**6. Konsekvenser for ulike grupper**\nKonflikter rammer **ulikt**. I kriger rammes ofte **sivile**, **barn**, **kvinner**, **eldre** og **minoriteter** hardest. En lokal konflikt om en skolenedleggelse rammer familier, lærere og bygda på forskjellige måter.\n\n**7. Løsninger**\nHvordan kan konflikten **håndteres** eller **løses**? Eksempler er **forhandlinger**, **mekling**, **kompromisser**, **rettssaker**, **valg**, **sanksjoner** og **fredsoperasjoner**. Norge har for eksempel vært **tilrettelegger** i flere fredsprosesser.\n\n## Eskalering og deeskalering\n\nKonflikter kan **eskalere** – bli mer alvorlige – når partene slutter å snakke sammen, ser hverandre som fiender og tyr til trusler eller vold. De kan **deeskaleres** gjennom dialog, tillitsskapende tiltak og hjelp fra tredjeparter.\n\n## Eksempler\n\n- **Krigen i Ukraina**: Russlands fullskala invasjon **24. februar 2022** har gitt store tap av menneskeliv, millioner på flukt og konsekvenser for energi og matpriser i hele verden.\n- **Klimaendringer**: en global utfordring der landene har ulike interesser – rike land med store historiske utslipp, fattige land som rammes hardt, og land som lever av fossil energi.\n- **Arealkonflikter i Norge**, som vindkraft i reinbeiteområder.\n\n## Kildekritikk\n\nI konflikter er **informasjon** ofte et **våpen**. Partene sprer sin versjon, og **propaganda** og **desinformasjon** er vanlig. Bruk **flere kilder** fra ulike sider, sjekk hvem som står bak, og vær forsiktig med ubekreftede bilder og videoer.",
+  "flashcards": [
+    { "term": "Konflikt", "def": "Når parter har uforenlige mål eller interesser." },
+    { "term": "Hovedparter", "def": "De som står direkte mot hverandre i en konflikt." },
+    { "term": "Tredjepart", "def": "Aktør utenfor konflikten som påvirker den, som FN." },
+    { "term": "Bakenforliggende årsaker", "def": "Dypere årsaker som historie, fattigdom og ulik fordeling." },
+    { "term": "Utløsende årsak", "def": "En hendelse som startet konflikten." },
+    { "term": "Ressurskonflikt", "def": "Konflikt om land, vann, penger eller andre ressurser." },
+    { "term": "Identitetskonflikt", "def": "Konflikt knyttet til religion, etnisitet eller nasjonalitet." },
+    { "term": "Maktforhold", "def": "Hvem som har mest økonomisk, militær, politisk og mediemakt." },
+    { "term": "Eskalering", "def": "At en konflikt blir mer alvorlig." },
+    { "term": "Deeskalering", "def": "At en konflikt blir mindre alvorlig." },
+    { "term": "Mekling", "def": "At en nøytral tredjepart hjelper partene å finne en løsning." },
+    { "term": "Kompromiss", "def": "Løsning der begge parter gir litt." },
+    { "term": "Sanksjoner", "def": "Straffetiltak, for eksempel handelsrestriksjoner, mot en stat." },
+    { "term": "Propaganda", "def": "Ensidig informasjon som skal påvirke holdninger." },
+    { "term": "24. februar 2022", "def": "Russland startet fullskala invasjon av Ukraina." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er en konflikt?", "options": ["En uenighet uten betydning", "Når parter har uforenlige mål eller interesser", "En diskusjon mellom venner", "En type krig"], "correct": 1, "explain": "Konflikter kan være alt fra lokale til globale." },
+    { "id": "q02", "text": "Hva er forskjellen på bakenforliggende og utløsende årsaker?", "options": ["Bakenforliggende årsaker er dype, langvarige forhold, mens utløsende årsaker er hendelsen som starter konflikten", "Det er det samme", "Utløsende årsaker er alltid historiske", "Bakenforliggende årsaker er alltid tilfeldige"], "correct": 0, "explain": "Begge er viktige i en analyse." },
+    { "id": "q03", "text": "Hvem rammes ofte hardest i kriger?", "options": ["Generalene", "Politikerne", "Sivile, barn, kvinner og minoriteter", "Våpenprodusentene"], "correct": 2, "explain": "Konflikter har ulike konsekvenser for ulike grupper." },
+    { "id": "q04", "text": "Hva er mekling?", "options": ["Å velge side i en konflikt", "Å straffe en part", "Å avslutte en konflikt med vold", "At en nøytral tredjepart hjelper partene å finne en løsning"], "correct": 3, "explain": "Norge har vært tilrettelegger i flere fredsprosesser." },
+    { "id": "q05", "text": "Når startet Russland fullskala invasjon av Ukraina?", "options": ["24. februar 2022", "1. september 1939", "11. september 2001", "9. april 1940"], "correct": 0, "explain": "Krigen har hatt store globale konsekvenser." },
+    { "id": "q06", "text": "Hva betyr at en konflikt eskalerer?", "options": ["At den løses", "At den blir mer alvorlig", "At den blir glemt", "At partene blir enige"], "correct": 1, "explain": "Deeskalering betyr at den blir mindre alvorlig." },
+    { "id": "q07", "text": "Hvorfor er kildekritikk særlig viktig i konflikter?", "options": ["Fordi det finnes få kilder", "Fordi alle kilder er nøytrale", "Fordi partene sprer sin versjon, og propaganda og desinformasjon er vanlig", "Fordi mediene ikke dekker konflikter"], "correct": 2, "explain": "Bruk flere kilder fra ulike sider." },
+    { "id": "q08", "text": "Hva er et eksempel på en lokal konflikt?", "options": ["Krigen i Ukraina", "Klimaforhandlinger i FN", "Handelskrig mellom USA og Kina", "Nedleggelse av en skole i en kommune"], "correct": 3, "explain": "Lokale konflikter angår nærmiljøet." },
+    { "id": "q09", "text": "Hva er sanksjoner?", "options": ["Straffetiltak som handelsrestriksjoner mot en stat", "Belønninger", "Fredsavtaler", "Valg"], "correct": 0, "explain": "Sanksjoner skal presse en stat til å endre politikk." },
+    { "id": "q10", "text": "Hvorfor er klimaendringene en vanskelig global utfordring å løse?", "options": ["Fordi ingen land slipper ut klimagasser", "Fordi landene har ulike interesser og ansvar", "Fordi alle land rammes likt", "Fordi det ikke finnes løsninger"], "correct": 1, "explain": "Rike, fattige og oljeproduserende land har ulike interesser." }
+  ],
+  "mindmap": {
+    "label": "Analysere en konflikt",
+    "children": [
+      { "label": "Nivåer", "children": [
+        { "label": "Lokalt" },
+        { "label": "Nasjonalt" },
+        { "label": "Globalt" }
+      ] },
+      { "label": "Analyse", "children": [
+        { "label": "Hva handler det om?" },
+        { "label": "Parter" },
+        { "label": "Årsaker" },
+        { "label": "Interesser" }
+      ] },
+      { "label": "Makt og konsekvenser", "children": [
+        { "label": "Maktforhold" },
+        { "label": "Sivile og sårbare grupper" }
+      ] },
+      { "label": "Utvikling", "children": [
+        { "label": "Eskalering" },
+        { "label": "Deeskalering" }
+      ] },
+      { "label": "Løsninger", "children": [
+        { "label": "Forhandlinger og mekling" },
+        { "label": "Kompromiss" },
+        { "label": "Sanksjoner" },
+        { "label": "Kildekritikk" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Konflikter kan handle om både ressurser, makt, identitet og verdier.", "correct": true, "explain": "Ofte er flere typer blandet." },
+      { "id": "m02", "type": "sant-usant", "text": "Alle grupper rammes likt av en konflikt.", "correct": false, "explain": "Konsekvensene varierer mye mellom grupper." },
+      { "id": "m03", "type": "sant-usant", "text": "Dialog og tillitsskapende tiltak kan deeskalere en konflikt.", "correct": true, "explain": "Tredjeparter kan også hjelpe." },
+      { "id": "m04", "type": "sant-usant", "text": "Ubekreftede videoer fra en krig kan alltid stoles på.", "correct": false, "explain": "Bilder og videoer kan være manipulert eller tatt ut av sammenheng." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er en tredjepart i en konflikt?", "options": ["Den som vinner", "En aktør utenfor konflikten som påvirker den", "Den svakeste parten", "Et politisk parti"], "correct": 1, "explain": "FN og andre stater er eksempler." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er et kompromiss?", "options": ["En løsning der begge parter gir litt", "At én part vinner alt", "At konflikten fortsetter", "En type sanksjon"], "correct": 0, "explain": "Kompromisser er vanlige i politikken." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilken konflikttype er en strid om vannrettigheter?", "options": ["Identitetskonflikt", "Verdikonflikt", "Ressurskonflikt", "Ingen konflikt"], "correct": 2, "explain": "Vann er en knapp ressurs mange steder." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

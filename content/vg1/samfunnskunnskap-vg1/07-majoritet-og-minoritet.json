@@ -1,0 +1,83 @@
+{
+  "id": "majoritet-og-minoritet",
+  "fagId": "samfunnskunnskap-vg1",
+  "trinnId": "vg1",
+  "name": "Majoritet og minoriteter i Norge og Sápmi",
+  "intro": "Likheter og ulikheter i kulturuttrykk, identitet og levesett innenfor og mellom majoritet og minoriteter i Norge: samene som urfolk, de nasjonale minoritetene og innvandrere – og begreper som integrering, assimilering og flerkulturell identitet.",
+  "kompetansemaal": [8],
+  "sammendrag": "## Majoritet og minoritet\n\nEn **majoritet** er den største eller dominerende gruppen i et samfunn. En **minoritet** er en mindre gruppe som skiller seg fra majoriteten, for eksempel når det gjelder **språk**, **religion**, **kultur** eller **opprinnelse**. Minoriteter har ofte hatt **mindre makt** og har måttet kjempe for sine rettigheter.\n\n## Samene – et urfolk\n\n**Samene** er et **urfolk** som har bodd i **Sápmi** – nordlige deler av Norge, Sverige, Finland og Kolahalvøya i Russland – lenge før statsgrensene ble trukket. Samisk kultur omfatter blant annet **samiske språk**, **joik**, **duodji** (samisk håndverk), **kofte** og næringer som **reindrift**, fiske og jordbruk. De fleste samer lever i dag moderne liv i byer og bygder over hele landet, og mange har en identitet som både **samisk og norsk**.\n\nEtter en lang periode med **fornorsking** har samene fått sterkere rettigheter: **Sametinget** (1989), **Grunnloven § 108** og rett til opplæring i samisk. **Samenes nasjonaldag** er **6. februar**.\n\n## De nasjonale minoritetene\n\nNorge har fem **nasjonale minoriteter** – grupper med **langvarig tilknytning** til landet:\n\n- **Jøder**\n- **Kvener/norskfinner**\n- **Skogfinner**\n- **Rom**\n- **Romanifolk/tatere**\n\nFlere av dem ble utsatt for **fornorsking** og **diskriminering**. Romanifolk ble blant annet utsatt for **tvangssterilisering** og at barn ble tatt fra familiene, og norske jøder ble **deportert** under andre verdenskrig. Staten har senere beklaget overgrepene.\n\n## Innvandrere\n\nEn stor del av befolkningen i Norge er **innvandrere** eller **norskfødte med innvandrerforeldre**, med bakgrunn fra mer enn 200 land. De største gruppene har bakgrunn fra blant annet **Polen**, **Litauen**, **Sverige**, **Syria**, **Ukraina** og **Somalia**. Folk kommer som **arbeidsinnvandrere**, **flyktninger**, **familiegjenforente** eller **studenter**.\n\n## Integrering og assimilering\n\n- **Assimilering**: Minoriteten må gi opp sin kultur og bli lik majoriteten – slik fornorskingspolitikken forsøkte.\n- **Integrering**: Minoriteten deltar fullt i samfunnet – arbeid, skole, politikk – og kan samtidig **beholde** sin kultur.\n- **Segregering**: Gruppene lever atskilt.\n\n## Identitet og levesett\n\nMange har en **flerkulturell identitet**: De føler tilhørighet til flere kulturer og kan **veksle** mellom språk og normer. Likheter og ulikheter i levesett går ofte **på tvers** av majoritet og minoritet – for eksempel mellom generasjoner, by og bygd, religiøse og ikke-religiøse. **Kultur** er ikke noe fast, men noe som stadig **endrer** seg når mennesker møtes.\n\n## Utfordringer\n\nMinoriteter kan møte **fordommer**, **diskriminering** i arbeids- og boligmarkedet og **hatefulle ytringer**. Samtidig bidrar kulturelt mangfold med nye perspektiver, språk, mat, musikk og arbeidskraft. En viktig diskusjon er hvordan samfunnet kan sikre både **felles verdier** og **rom for forskjeller**.",
+  "flashcards": [
+    { "term": "Majoritet", "def": "Den største eller dominerende gruppen i et samfunn." },
+    { "term": "Minoritet", "def": "En mindre gruppe som skiller seg fra majoriteten." },
+    { "term": "Urfolk", "def": "Folk som bodde i et område før dagens statsgrenser, som samene." },
+    { "term": "Duodji", "def": "Samisk håndverk." },
+    { "term": "Joik", "def": "Tradisjonell samisk sangform." },
+    { "term": "Nasjonale minoriteter", "def": "Jøder, kvener/norskfinner, skogfinner, rom og romanifolk/tatere." },
+    { "term": "Kvener/norskfinner", "def": "Nasjonal minoritet med finsk opprinnelse, særlig i Nord-Norge." },
+    { "term": "Romanifolk/tatere", "def": "Nasjonal minoritet som ble utsatt for blant annet tvangssterilisering." },
+    { "term": "Innvandrer", "def": "Person som er født i utlandet og har flyttet til Norge." },
+    { "term": "Norskfødte med innvandrerforeldre", "def": "Personer født i Norge med to foreldre som har innvandret." },
+    { "term": "Assimilering", "def": "At minoriteten må gi opp sin kultur og bli lik majoriteten." },
+    { "term": "Integrering", "def": "At minoriteten deltar fullt i samfunnet og kan beholde sin kultur." },
+    { "term": "Segregering", "def": "At grupper lever atskilt fra hverandre." },
+    { "term": "Flerkulturell identitet", "def": "Å føle tilhørighet til flere kulturer." },
+    { "term": "6. februar", "def": "Samenes nasjonaldag." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvilken status har samene i Norge?", "options": ["Nasjonal minoritet", "Urfolk", "Innvandrergruppe", "Majoritet"], "correct": 1, "explain": "Samene har egne rettigheter som urfolk." },
+    { "id": "q02", "text": "Hvilken av disse er en nasjonal minoritet i Norge?", "options": ["Kvener/norskfinner", "Samer", "Svensker", "Polakker"], "correct": 0, "explain": "De fem nasjonale minoritetene er jøder, kvener/norskfinner, skogfinner, rom og romanifolk/tatere." },
+    { "id": "q03", "text": "Hva er forskjellen på integrering og assimilering?", "options": ["Det er det samme", "Assimilering betyr å beholde sin kultur", "Ved integrering deltar minoriteten i samfunnet og kan beholde sin kultur, ved assimilering må den gi den opp", "Integrering betyr å leve atskilt"], "correct": 2, "explain": "Fornorskingspolitikken var en assimileringspolitikk." },
+    { "id": "q04", "text": "Hva er duodji?", "options": ["En samisk høytid", "Et samisk språk", "En samisk rett", "Samisk håndverk"], "correct": 3, "explain": "Duodji er en viktig del av samisk kultur." },
+    { "id": "q05", "text": "Hva ble romanifolk/tatere blant annet utsatt for?", "options": ["Tvangssterilisering og at barn ble tatt fra familiene", "Egne skoler med morsmålsopplæring", "Særlig gode rettigheter", "Egen stat"], "correct": 0, "explain": "Staten har senere beklaget overgrepene." },
+    { "id": "q06", "text": "Hva betyr flerkulturell identitet?", "options": ["Å ikke ha noen identitet", "Å føle tilhørighet til flere kulturer", "Å bare tilhøre majoriteten", "Å ha mange pass"], "correct": 1, "explain": "Mange kan veksle mellom språk og normer." },
+    { "id": "q07", "text": "Hva er segregering?", "options": ["At alle blir like", "At minoriteter deltar i samfunnet", "At grupper lever atskilt fra hverandre", "At minoriteter får egne rettigheter"], "correct": 2, "explain": "Segregering kan gi lite kontakt og mer fordommer." },
+    { "id": "q08", "text": "Hvorfor sier vi at kultur ikke er noe fast?", "options": ["Fordi kulturer er like", "Fordi kultur bare handler om mat", "Fordi kultur er bestemt av staten", "Fordi kultur endrer seg når mennesker møtes"], "correct": 3, "explain": "Kulturer påvirker hverandre hele tiden." },
+    { "id": "q09", "text": "Hvilken utfordring kan minoriteter møte i Norge?", "options": ["Diskriminering i arbeids- og boligmarkedet", "For mange rettigheter", "Ingen utfordringer", "For høy lønn"], "correct": 0, "explain": "Diskriminering er forbudt, men forekommer." },
+    { "id": "q10", "text": "Hvilke likheter og ulikheter i levesett går ofte på tvers av majoritet og minoritet?", "options": ["Ingen", "Forskjeller mellom generasjoner og mellom by og bygd", "Bare forskjeller i religion", "Bare forskjeller i språk"], "correct": 1, "explain": "Grupper er ikke ensartede." }
+  ],
+  "mindmap": {
+    "label": "Majoritet og minoritet",
+    "children": [
+      { "label": "Begreper", "children": [
+        { "label": "Majoritet" },
+        { "label": "Minoritet" },
+        { "label": "Makt" }
+      ] },
+      { "label": "Samer", "children": [
+        { "label": "Urfolk" },
+        { "label": "Språk, joik, duodji" },
+        { "label": "Rettigheter" }
+      ] },
+      { "label": "Nasjonale minoriteter", "children": [
+        { "label": "Jøder" },
+        { "label": "Kvener/norskfinner" },
+        { "label": "Skogfinner" },
+        { "label": "Rom og romanifolk" }
+      ] },
+      { "label": "Innvandrere", "children": [
+        { "label": "Arbeid" },
+        { "label": "Flukt" },
+        { "label": "Familie" }
+      ] },
+      { "label": "Samspill", "children": [
+        { "label": "Integrering" },
+        { "label": "Assimilering" },
+        { "label": "Flerkulturell identitet" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Norge har fem nasjonale minoriteter.", "correct": true, "explain": "Jøder, kvener/norskfinner, skogfinner, rom og romanifolk/tatere." },
+      { "id": "m02", "type": "sant-usant", "text": "Alle samer driver med reindrift.", "correct": false, "explain": "De fleste samer har andre yrker og bor i byer og bygder over hele landet." },
+      { "id": "m03", "type": "sant-usant", "text": "Norske jøder ble deportert under andre verdenskrig.", "correct": true, "explain": "Mange ble drept i Auschwitz." },
+      { "id": "m04", "type": "sant-usant", "text": "Fornorskingspolitikken var en integreringspolitikk.", "correct": false, "explain": "Den var en assimileringspolitikk." },
+      { "id": "m05", "type": "flervalg", "text": "Når er samenes nasjonaldag?", "options": ["17. mai", "6. februar", "24. desember", "1. mai"], "correct": 1, "explain": "Den minner om det første samiske landsmøtet i 1917." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er en norskfødt med innvandrerforeldre?", "options": ["En person født i Norge med to foreldre som har innvandret", "En person som har flyttet til Norge", "En person med én norsk forelder", "En turist"], "correct": 0, "explain": "SSB bruker dette begrepet i statistikken." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilket organ ble opprettet for samene i 1989?", "options": ["Stortinget", "Høyesterett", "Sametinget", "Samerådet"], "correct": 2, "explain": "Sametinget er samenes folkevalgte organ." }
+    ]
+  },
+  "kvalitet": { "status": "sjekkes", "merknader": ["Sjekk hvilke land de største innvandrergruppene i Norge kommer fra mot fersk statistikk fra SSB."] }
+}
