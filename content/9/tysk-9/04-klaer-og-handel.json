@@ -1,0 +1,84 @@
+{
+  "id": "klaer-og-handel",
+  "fagId": "tysk-9",
+  "trinnId": "9",
+  "name": "Klær og handel",
+  "intro": "Klær og farger på tysk, nyttige uttrykk i butikken, priser i euro, adjektiver foran substantiv og pronomenene ihn, sie og es.",
+  "kompetansemaal": [2, 6],
+  "sammendrag": "## Klær – die Kleidung\n\n- **das T-Shirt**, **das Hemd** (skjorta), **die Bluse**\n- **der Pullover** (genseren), **die Jacke** (jakka), **der Mantel** (kåpa, frakken)\n- **die Hose** (buksa), **die Jeans**, **der Rock** (skjørtet), **das Kleid** (kjolen)\n- **die Schuhe** (skoene), **die Turnschuhe** (joggeskoene), **die Socken**\n- **die Mütze** (lua), **der Schal** (skjerfet), **die Handschuhe** (hanskene)\n\n## Farger – die Farben\n\n**rot** (rød), **blau** (blå), **grün** (grønn), **gelb** (gul), **schwarz** (svart), **weiß** (hvit), **grau** (grå), **braun** (brun), **rosa**, **lila** og **bunt** (fargerik).\n\nNår adjektivet står **foran** substantivet etter *der*, *die* eller *das*, får det endingen **-e**: *der blau**e** Pullover*, *die rot**e** Jacke*, *das weiß**e** Hemd*. Står det etter verbet, bøyes det ikke: *Die Jacke ist rot.*\n\n## I butikken – im Geschäft\n\n- **Kann ich Ihnen helfen?** – Kan jeg hjelpe Dem?\n- **Ich suche eine Jacke.** – Jeg ser etter en jakke.\n- **Welche Größe haben Sie?** – Hvilken størrelse bruker De? – **Größe M.**\n- **Kann ich das anprobieren?** – Kan jeg prøve den på? Du prøver klær i **die Umkleidekabine** (prøverommet).\n- **Das passt mir gut / nicht.** – Den passer / passer ikke.\n- **Das ist zu groß / zu klein / zu teuer.** – Den er for stor / for liten / for dyr.\n- **Wie viel kostet das?** eller **Was kostet der Pullover?** – Hva koster genseren?\n- **Er kostet 29,99 Euro.** – Den koster *neunundzwanzig Euro neunundneunzig*.\n- **Ich nehme ihn.** – Jeg tar den. Du betaler ved **die Kasse**.\n\nAndre nyttige ord er **billig** (billig), **teuer** (dyr) og **im Angebot** (på tilbud). I Tyskland betaler man med **euro**, og som på norsk brukes komma i priser.\n\n## Ihn, sie, es – «den» og «det»\n\nNår du viser tilbake til et plagg, velger du pronomen etter kjønnet på ordet: **der Pullover → ihn**, **die Jacke → sie**, **das Hemd → es**. *Der Pullover ist schön. Ich nehme **ihn**.*\n\n## Si hva du synes\n\n- **Wie findest du die Jacke?** – Hva synes du om jakka?\n- **Ich finde sie schön / cool / hässlich.** – Jeg synes den er fin / kul / stygg.\n- **Die Hose steht dir gut!** – Buksa kler deg!\n\n## Bærekraftig shopping\n\nMange unge i Tyskland kjøper brukte klær på **Flohmarkt** (loppemarked) eller i bruktbutikker. Det er både billigere og bedre for miljøet.",
+  "flashcards": [
+    { "term": "die Kleidung", "def": "klærne" },
+    { "term": "die Hose", "def": "buksa" },
+    { "term": "der Rock", "def": "skjørtet" },
+    { "term": "das Kleid", "def": "kjolen" },
+    { "term": "die Jacke", "def": "jakka" },
+    { "term": "der Pullover", "def": "genseren" },
+    { "term": "die Schuhe", "def": "skoene" },
+    { "term": "die Mütze", "def": "lua" },
+    { "term": "rot, blau, schwarz", "def": "rød, blå, svart" },
+    { "term": "die Größe", "def": "størrelsen" },
+    { "term": "anprobieren", "def": "å prøve på (klær)" },
+    { "term": "Das ist zu teuer.", "def": "Det er for dyrt." },
+    { "term": "Wie viel kostet das?", "def": "Hva koster det?" },
+    { "term": "billig / teuer", "def": "billig / dyr" },
+    { "term": "Ich nehme ihn.", "def": "Jeg tar den (om et hankjønnsord)." },
+    { "term": "die Umkleidekabine", "def": "prøverommet" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva betyr «die Hose»?", "options": ["Buksa", "Skjørtet", "Jakka", "Sokkene"], "correct": 0, "explain": "Skjørtet heter «der Rock»." },
+    { "id": "q02", "text": "Hvordan spør du hva noe koster?", "options": ["Wo ist das?", "Wie heißt das?", "Wie viel kostet das?", "Was ist das?"], "correct": 2, "explain": "Du kan også si «Was kostet das?»." },
+    { "id": "q03", "text": "Hva betyr «Kann ich das anprobieren?»?", "options": ["Kan jeg kjøpe dette?", "Kan jeg prøve dette på?", "Kan jeg levere dette tilbake?", "Kan jeg få rabatt?"], "correct": 1, "explain": "«anprobieren» betyr å prøve på." },
+    { "id": "q04", "text": "Hva betyr «Das ist zu teuer»?", "options": ["Det er for stort", "Det er for lite", "Det er for billig", "Det er for dyrt"], "correct": 3, "explain": "«teuer» betyr dyr." },
+    { "id": "q05", "text": "Hvilken farge er «gelb»?", "options": ["Grønn", "Blå", "Gul", "Rød"], "correct": 2, "explain": "Grønn heter «grün»." },
+    { "id": "q06", "text": "Hva betyr «Welche Größe haben Sie?»?", "options": ["Hvilken størrelse bruker De?", "Hvilken farge liker De?", "Hvor mye penger har De?", "Hvor gammel er De?"], "correct": 0, "explain": "«die Größe» betyr størrelsen." },
+    { "id": "q07", "text": "Du vil kjøpe genseren (der Pullover). Hva sier du?", "options": ["Ich nehme sie.", "Ich nehme es.", "Ich nehme er.", "Ich nehme ihn."], "correct": 3, "explain": "«der Pullover» er hankjønn, og som objekt blir pronomenet «ihn»." },
+    { "id": "q08", "text": "Hva er «die Umkleidekabine»?", "options": ["Kassen", "Prøverommet", "Skoavdelingen", "Utgangen"], "correct": 1, "explain": "«umkleiden» betyr å skifte klær." },
+    { "id": "q09", "text": "Hvordan sier du «den røde jakka»?", "options": ["die rote Jacke", "die Jacke rot", "der rote Jacke", "die roten Jacke"], "correct": 0, "explain": "Etter «die» får adjektivet endingen -e." },
+    { "id": "q10", "text": "Hva betyr «billig»?", "options": ["Dyr", "Pen", "Billig", "Stor"], "correct": 2, "explain": "Dyr heter «teuer»." }
+  ],
+  "mindmap": {
+    "label": "Klær og handel",
+    "children": [
+      { "label": "Klær", "children": [
+        { "label": "Hose, Rock, Kleid" },
+        { "label": "Pullover, Jacke" },
+        { "label": "Schuhe, Mütze" }
+      ] },
+      { "label": "Farger", "children": [
+        { "label": "rot, blau, grün" },
+        { "label": "schwarz, weiß" },
+        { "label": "die rote Jacke" }
+      ] },
+      { "label": "I butikken", "children": [
+        { "label": "Ich suche …" },
+        { "label": "Größe" },
+        { "label": "anprobieren" },
+        { "label": "zu groß, zu teuer" }
+      ] },
+      { "label": "Pris og kjøp", "children": [
+        { "label": "Wie viel kostet das?" },
+        { "label": "Euro og komma" },
+        { "label": "Ich nehme ihn / sie / es" }
+      ] },
+      { "label": "Meninger og miljø", "children": [
+        { "label": "Ich finde sie schön" },
+        { "label": "steht dir gut" },
+        { "label": "Flohmarkt" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "«das Kleid» betyr kjolen.", "correct": true, "explain": "Flertall er «die Kleider», som også kan bety klær." },
+      { "id": "m02", "type": "sant-usant", "text": "I Tyskland betaler man med norske kroner.", "correct": false, "explain": "Tyskland bruker euro." },
+      { "id": "m03", "type": "sant-usant", "text": "«Das passt mir nicht» betyr at plagget ikke passer.", "correct": true, "explain": "«passen» betyr å passe." },
+      { "id": "m04", "type": "sant-usant", "text": "«schwarz» betyr hvit.", "correct": false, "explain": "«schwarz» betyr svart. Hvit heter «weiß»." },
+      { "id": "m05", "type": "flervalg", "text": "Hva betyr «im Angebot»?", "options": ["Utsolgt", "På tilbud", "I butikken", "Ny"], "correct": 1, "explain": "Varer på tilbud er billigere enn vanlig." },
+      { "id": "m06", "type": "flervalg", "text": "Hva betyr «Die Jacke steht dir gut»?", "options": ["Jakka kler deg", "Jakka står i skapet", "Jakka er for stor", "Jakka er dyr"], "correct": 0, "explain": "«stehen» brukes her i betydningen å kle noen." },
+      { "id": "m07", "type": "flervalg", "text": "Hvordan leser du prisen 29,99 €?", "options": ["zwei neun neun neun Euro", "neunundzwanzig Komma neunundneunzig", "neunundzwanzig Euro neunundneunzig", "dreißig Euro"], "correct": 2, "explain": "Først eurobeløpet, så centene." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

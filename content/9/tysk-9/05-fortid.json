@@ -1,0 +1,83 @@
+{
+  "id": "fortid",
+  "fagId": "tysk-9",
+  "trinnId": "9",
+  "name": "Å fortelle om fortiden – Perfekt",
+  "intro": "Hvordan du forteller om noe som har skjedd med perfektum på tysk, regelrette og uregelrette partisipper, når du bruker haben og sein, ordstilling, war og hatte, og nyttige tidsuttrykk.",
+  "kompetansemaal": [3, 6],
+  "sammendrag": "## Å fortelle om fortiden\n\nNår du forteller hva du **har gjort** – i helgen, i ferien eller i går – bruker du som regel **perfektum** (*das Perfekt*) på tysk. Det er den vanligste fortidsformen i muntlig tysk og i uformelle tekster, og den ligner norsk: *Ich **habe** Fußball **gespielt**.* – Jeg har spilt fotball / jeg spilte fotball.\n\n## Slik lages perfektum\n\nPerfektum = **haben** eller **sein** + **partisipp** (*Partizip II*).\n\n**Regelrette verb**: **ge-** + stamme + **-t**\n\n- spielen → **gespielt**, machen → **gemacht**, kaufen → **gekauft**, hören → **gehört**\n\n**Uregelrette verb**: **ge-** + stamme, ofte med endret vokal, + **-en**. Disse må læres:\n\n- essen → **gegessen**, trinken → **getrunken**, sehen → **gesehen**, lesen → **gelesen**, schreiben → **geschrieben**\n\n**Spesielle tilfeller**:\n\n- Verb på **-ieren** får ikke *ge-*: telefonieren → **telefoniert**\n- **Delbare verb** får *ge-* i midten: aufstehen → **aufgestanden**, einkaufen → **eingekauft**\n- Verb med forstavelsene **be-**, **ver-** og **er-** får ikke *ge-*: besuchen → **besucht**, vergessen → **vergessen**\n\n## Haben eller sein?\n\nDe fleste verb bruker **haben**. Verb som uttrykker **bevegelse** fra ett sted til et annet eller en **forandring**, bruker **sein**:\n\n- **gehen** → *ich **bin** gegangen*\n- **fahren** → *ich **bin** gefahren*\n- **kommen** → *ich **bin** gekommen*\n- **fliegen** → *ich **bin** geflogen*\n- Også **bleiben** (bli) og **sein** (være): *ich **bin** geblieben*, *ich **bin** gewesen*\n\n## Ordstilling\n\nHjelpeverbet står på **andre plass**, og partisippet står **til slutt**:\n\n- *Ich **habe** gestern Fußball **gespielt**.*\n- *Letzten Sommer **sind** wir nach Spanien **geflogen**.*\n\n## War og hatte\n\nFor **sein** og **haben** bruker man oftere preteritum: **ich war** (jeg var) og **ich hatte** (jeg hadde). *Es **war** toll! Ich **hatte** viel Spaß.* – Det var kjempegøy! Jeg hadde det veldig morsomt.\n\n## Tidsuttrykk\n\n**gestern** (i går), **vorgestern** (i forgårs), **letzte Woche** (forrige uke), **letztes Wochenende** (forrige helg), **letzten Sommer** (i fjor sommer) og **vor zwei Tagen** (for to dager siden).\n\n## Eksempeltekst\n\n*Letztes Wochenende **bin** ich mit meiner Familie nach Hamburg **gefahren**. Am Samstag **haben** wir den Hafen **gesehen** und Fischbrötchen **gegessen**. Am Abend **sind** wir ins Kino **gegangen**. Es **war** super!*",
+  "flashcards": [
+    { "term": "das Perfekt", "def": "perfektum – den vanligste fortidsformen i muntlig tysk" },
+    { "term": "ich habe gespielt", "def": "jeg har spilt / jeg spilte" },
+    { "term": "ich habe gemacht", "def": "jeg har gjort / jeg gjorde" },
+    { "term": "ich habe gegessen", "def": "jeg har spist / jeg spiste" },
+    { "term": "ich habe getrunken", "def": "jeg har drukket / jeg drakk" },
+    { "term": "ich habe gesehen", "def": "jeg har sett / jeg så" },
+    { "term": "ich bin gegangen", "def": "jeg har gått / jeg gikk" },
+    { "term": "ich bin gefahren", "def": "jeg har reist, kjørt / jeg reiste, kjørte" },
+    { "term": "ich bin gekommen", "def": "jeg har kommet / jeg kom" },
+    { "term": "ich bin geblieben", "def": "jeg har blitt / jeg ble (værende)" },
+    { "term": "ich war", "def": "jeg var" },
+    { "term": "ich hatte", "def": "jeg hadde" },
+    { "term": "gestern", "def": "i går" },
+    { "term": "letztes Wochenende", "def": "forrige helg" },
+    { "term": "vor zwei Tagen", "def": "for to dager siden" },
+    { "term": "Partisippet står sist", "def": "Ich habe gestern Fußball gespielt." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er partisippet av «spielen»?", "options": ["spielt", "gespielen", "gespielt", "spielte"], "correct": 2, "explain": "Regelrette verb får ge- + stamme + -t." },
+    { "id": "q02", "text": "Hvilket hjelpeverb bruker du med «fahren» i perfektum?", "options": ["sein", "haben", "werden", "möchten"], "correct": 0, "explain": "«fahren» uttrykker bevegelse: «ich bin gefahren»." },
+    { "id": "q03", "text": "Hvilken setning er riktig?", "options": ["Ich habe gespielt gestern Fußball.", "Ich gestern habe Fußball gespielt.", "Gestern ich habe Fußball gespielt.", "Ich habe gestern Fußball gespielt."], "correct": 3, "explain": "Hjelpeverbet står på andre plass og partisippet til slutt." },
+    { "id": "q04", "text": "Hva er partisippet av «essen»?", "options": ["geesst", "gegessen", "gessen", "geessen"], "correct": 1, "explain": "«essen» er uregelrett: gegessen." },
+    { "id": "q05", "text": "Hvordan sier du «Jeg reiste til Berlin»?", "options": ["Ich habe nach Berlin gefahren.", "Ich fahre nach Berlin gefahren.", "Ich bin nach Berlin gefahrt.", "Ich bin nach Berlin gefahren."], "correct": 3, "explain": "«fahren» bruker «sein», og partisippet er «gefahren»." },
+    { "id": "q06", "text": "Hva betyr «Es war toll»?", "options": ["Det er gal", "Det var kjempebra", "Det blir fint", "Det var kjedelig"], "correct": 1, "explain": "«toll» betyr fantastisk eller kjempebra." },
+    { "id": "q07", "text": "Hva betyr «letztes Wochenende»?", "options": ["Forrige helg", "Neste helg", "Hver helg", "Helgen som kommer"], "correct": 0, "explain": "«letzt» betyr forrige eller siste." },
+    { "id": "q08", "text": "Hva er partisippet av «aufstehen»?", "options": ["geaufstanden", "aufstehen", "aufgestanden", "aufgesteht"], "correct": 2, "explain": "Delbare verb får ge- i midten." },
+    { "id": "q09", "text": "Hva er «ich hatte»?", "options": ["Presens av haben", "Perfektum av sein", "Futurum av haben", "Preteritum av haben: jeg hadde"], "correct": 3, "explain": "«hatte» brukes oftere enn «habe gehabt»." },
+    { "id": "q10", "text": "Hvordan lages partisippet av mange regelrette verb?", "options": ["ge- + stamme + -t", "stamme + -en", "ge- + stamme + -en", "stamme + -te"], "correct": 0, "explain": "For eksempel machen → gemacht." }
+  ],
+  "mindmap": {
+    "label": "Perfekt",
+    "children": [
+      { "label": "Formen", "children": [
+        { "label": "haben/sein + partisipp" },
+        { "label": "Vanligst i muntlig tysk" }
+      ] },
+      { "label": "Partisipper", "children": [
+        { "label": "ge- … -t", "note": "gespielt" },
+        { "label": "ge- … -en", "note": "gegessen" },
+        { "label": "-ieren uten ge-" },
+        { "label": "aufgestanden" }
+      ] },
+      { "label": "haben eller sein", "children": [
+        { "label": "haben: de fleste" },
+        { "label": "sein: bevegelse" },
+        { "label": "gegangen, gefahren, geblieben" }
+      ] },
+      { "label": "Ordstilling", "children": [
+        { "label": "Hjelpeverb på plass 2" },
+        { "label": "Partisipp sist" }
+      ] },
+      { "label": "Mer", "children": [
+        { "label": "war og hatte" },
+        { "label": "gestern" },
+        { "label": "letztes Wochenende" },
+        { "label": "vor zwei Tagen" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Perfektum er den vanligste fortidsformen i muntlig tysk.", "correct": true, "explain": "Preteritum brukes mer i skriftlige fortellinger." },
+      { "id": "m02", "type": "sant-usant", "text": "Verb på -ieren får ge- i partisippet, som «getelefoniert».", "correct": false, "explain": "Det heter «telefoniert», uten ge-." },
+      { "id": "m03", "type": "sant-usant", "text": "«Ich bin zu Hause geblieben» betyr jeg ble hjemme.", "correct": true, "explain": "«bleiben» bruker «sein» i perfektum." },
+      { "id": "m04", "type": "sant-usant", "text": "I perfektum står partisippet på andre plass i setningen.", "correct": false, "explain": "Hjelpeverbet står på andre plass, og partisippet står til slutt." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er partisippet av «trinken»?", "options": ["getrinkt", "getrunken", "getranken", "trunken"], "correct": 1, "explain": "«trinken» er uregelrett." },
+      { "id": "m06", "type": "flervalg", "text": "Hva betyr «vor zwei Tagen»?", "options": ["For to dager siden", "Om to dager", "I to dager", "Før klokka to"], "correct": 0, "explain": "«vor» + tid betyr «for … siden»." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilket hjelpeverb bruker du med «sehen»?", "options": ["sein", "werden", "haben", "mögen"], "correct": 2, "explain": "«sehen» uttrykker ikke bevegelse: «ich habe gesehen»." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

@@ -1,0 +1,85 @@
+{
+  "id": "hoytider-og-tradisjoner",
+  "fagId": "tysk-9",
+  "trinnId": "9",
+  "name": "Høytider og tradisjoner",
+  "intro": "Jul, nyttår, påske, karneval og andre tradisjoner i tyskspråklige land, hvordan du gratulerer og ønsker god høytid på tysk, og likheter og forskjeller med Norge.",
+  "kompetansemaal": [8, 9],
+  "sammendrag": "## Jul – Weihnachten\n\nAdvent er en viktig tid i tyskspråklige land. Mange har en **Adventskranz**, en krans med fire lys, og barna har **Adventskalender** – begge deler er tyske tradisjoner. I byene er det **Weihnachtsmärkte**, julemarkeder med gløgg (*Glühwein*), pepperkaker (*Lebkuchen*) og julepynt.\n\n- **Der Nikolaustag** (6. desember): Kvelden før setter barna fram skoene sine, og om morgenen er de fylt med godteri og nøtter.\n- **Heiligabend** (24. desember): Som i Norge åpner man gavene på julaften. Gavene kommer fra **das Christkind** eller **der Weihnachtsmann**.\n- **Der erste und zweite Weihnachtstag** (25. og 26. desember) er fridager.\n\nJuletreet (*der Weihnachtsbaum*) er en tradisjon med røtter i tyskspråklige områder, og julesangen **«Stille Nacht, heilige Nacht»**, som vi kjenner som «Glade jul», ble skrevet i **Østerrike** i 1818. Man ønsker hverandre **«Frohe Weihnachten!»**.\n\n## Nyttår – Silvester\n\nNyttårsaften heter **Silvester** og feires med fyrverkeri og fest. Før nyttår ønsker man hverandre **«Guten Rutsch!»**, og etter midnatt sier man **«Frohes neues Jahr!»**.\n\n## Påske – Ostern\n\nI påsken gjemmer **der Osterhase** (påskeharen) malte egg og sjokolade i hagen, og barna leter etter dem. Man ønsker hverandre **«Frohe Ostern!»**.\n\n## Karneval – Fasching\n\nFør fasten feires **Karneval** eller **Fasching** med kostymer, musikk og opptog. Høydepunktet er **Rosenmontag**, med store parader i byer som **Köln**, **Mainz** og **Düsseldorf**.\n\n## Andre tradisjoner\n\n- **Sankt Martin** (11. november): Barn går i tog med **lykter** (*Laternen*) og synger sanger.\n- **Das Oktoberfest** i München begynner allerede i september og samler millioner av besøkende.\n- **Der Tag der Deutschen Einheit** (3. oktober) er Tysklands nasjonaldag, til minne om gjenforeningen i 1990.\n- **Die Schultüte**: På første skoledag får barna en stor kjegle fylt med godteri og skolesaker.\n- **Der Geburtstag**: Mange mener det bringer ulykke å gratulere noen **før** bursdagen. Man sier **«Alles Gute zum Geburtstag!»** eller **«Herzlichen Glückwunsch!»**.\n\n## Likheter og forskjeller\n\nMange tyske tradisjoner ligner norske: julaften 24. desember, adventslys og påskeegg. Samtidig har vi ikke karneval eller Sankt Martin på samme måte i Norge. Å sammenligne tradisjoner gir innsikt i både egen og andres kultur.",
+  "flashcards": [
+    { "term": "Weihnachten", "def": "jul" },
+    { "term": "Heiligabend", "def": "julaften, 24. desember" },
+    { "term": "der Adventskranz", "def": "adventskransen med fire lys" },
+    { "term": "der Nikolaustag", "def": "6. desember, da barna får godteri i skoene" },
+    { "term": "der Weihnachtsmarkt", "def": "julemarkedet" },
+    { "term": "Frohe Weihnachten!", "def": "God jul!" },
+    { "term": "Silvester", "def": "nyttårsaften" },
+    { "term": "Guten Rutsch!", "def": "Godt nytt år! (sagt før nyttår)" },
+    { "term": "Ostern", "def": "påske" },
+    { "term": "der Osterhase", "def": "påskeharen, som gjemmer egg" },
+    { "term": "Fasching / Karneval", "def": "karneval før fasten" },
+    { "term": "Rosenmontag", "def": "Høydepunktet i karnevalet, med store parader" },
+    { "term": "Sankt Martin", "def": "11. november, da barna går i lyktetog" },
+    { "term": "Tag der Deutschen Einheit", "def": "Tysklands nasjonaldag, 3. oktober" },
+    { "term": "die Schultüte", "def": "Kjegle med godteri og gaver på første skoledag" },
+    { "term": "Alles Gute zum Geburtstag!", "def": "Gratulerer med dagen!" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Når får tyske barn julegaver?", "options": ["1. juledag", "Julaften, 24. desember", "Nyttårsaften", "6. januar"], "correct": 1, "explain": "Som i Norge åpnes gavene på julaften." },
+    { "id": "q02", "text": "Hva skjer på Nikolaustag 6. desember?", "options": ["Man tenner julelysene", "Man pynter treet", "Man spiser påskeegg", "Barn får godteri i skoene de har satt fram"], "correct": 3, "explain": "Skoene settes fram kvelden før." },
+    { "id": "q03", "text": "Hva betyr «Guten Rutsch!»?", "options": ["Godt nytt år! (sagt før nyttår)", "God tur!", "God jul!", "Lykke til på skiene!"], "correct": 0, "explain": "Man ønsker hverandre en god «skli» inn i det nye året." },
+    { "id": "q04", "text": "Hva er Tysklands nasjonaldag?", "options": ["17. mai", "14. juli", "3. oktober", "1. august"], "correct": 2, "explain": "Dagen minner om gjenforeningen i 1990." },
+    { "id": "q05", "text": "Hvem gjemmer påskeeggene ifølge tysk tradisjon?", "options": ["Der Osterhase", "Der Nikolaus", "Das Christkind", "Der Weihnachtsmann"], "correct": 0, "explain": "Barna leter etter eggene i hagen." },
+    { "id": "q06", "text": "Hva gjør barn på Sankt Martin 11. november?", "options": ["Kler seg ut som hekser", "Kaster tomater", "Går i tog med lykter", "Hopper over bål"], "correct": 2, "explain": "Barna lager ofte lyktene selv." },
+    { "id": "q07", "text": "Hva er en «Schultüte»?", "options": ["En skolesekk", "En pose med skolemat", "En skoleuniform", "En stor kjegle med godteri og gaver på første skoledag"], "correct": 3, "explain": "Den skal gjøre første skoledag litt søtere." },
+    { "id": "q08", "text": "Hvor ble julesangen «Stille Nacht» (Glade jul) skrevet?", "options": ["Norge", "Østerrike", "Sverige", "England"], "correct": 1, "explain": "Sangen ble skrevet i 1818." },
+    { "id": "q09", "text": "Hvilken dag er høydepunktet i karnevalet i Köln?", "options": ["Silvester", "Heiligabend", "Nikolaustag", "Rosenmontag"], "correct": 3, "explain": "Da går store parader gjennom byen." },
+    { "id": "q10", "text": "Hvordan gratulerer du med dagen på tysk?", "options": ["Alles Gute zum Geburtstag!", "Guten Appetit!", "Frohe Ostern!", "Gute Nacht!"], "correct": 0, "explain": "Du kan også si «Herzlichen Glückwunsch!»." }
+  ],
+  "mindmap": {
+    "label": "Høytider og tradisjoner",
+    "children": [
+      { "label": "Jul", "children": [
+        { "label": "Adventskranz og -kalender" },
+        { "label": "Weihnachtsmarkt" },
+        { "label": "Nikolaustag" },
+        { "label": "Heiligabend" }
+      ] },
+      { "label": "Nyttår og påske", "children": [
+        { "label": "Silvester" },
+        { "label": "Guten Rutsch!" },
+        { "label": "Osterhase" }
+      ] },
+      { "label": "Karneval", "children": [
+        { "label": "Fasching" },
+        { "label": "Rosenmontag" },
+        { "label": "Köln og Mainz" }
+      ] },
+      { "label": "Andre tradisjoner", "children": [
+        { "label": "Sankt Martin" },
+        { "label": "Oktoberfest" },
+        { "label": "3. oktober" },
+        { "label": "Schultüte" }
+      ] },
+      { "label": "Hilsener", "children": [
+        { "label": "Frohe Weihnachten!" },
+        { "label": "Frohe Ostern!" },
+        { "label": "Alles Gute zum Geburtstag!" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Adventskransen med fire lys er en tysk tradisjon.", "correct": true, "explain": "Den ble tatt i bruk i Tyskland på 1800-tallet." },
+      { "id": "m02", "type": "sant-usant", "text": "Oktoberfest begynner først i november.", "correct": false, "explain": "Oktoberfest begynner allerede i september." },
+      { "id": "m03", "type": "sant-usant", "text": "«Frohe Weihnachten!» betyr God jul!", "correct": true, "explain": "«froh» betyr glad." },
+      { "id": "m04", "type": "sant-usant", "text": "I Tyskland er det vanlig å gratulere noen med bursdagen dagen før.", "correct": false, "explain": "Mange mener det bringer ulykke å gratulere før dagen." },
+      { "id": "m05", "type": "flervalg", "text": "Hva heter nyttårsaften på tysk?", "options": ["Neujahr", "Silvester", "Heiligabend", "Ostern"], "correct": 1, "explain": "«Neujahr» er første nyttårsdag." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er «der Adventskranz»?", "options": ["En krans med fire lys", "En julekake", "En julesang", "En kalender"], "correct": 0, "explain": "Man tenner ett nytt lys hver adventssøndag." },
+      { "id": "m07", "type": "flervalg", "text": "Hvorfor feires Tag der Deutschen Einheit 3. oktober?", "options": ["Til minne om slutten på andre verdenskrig", "Fordi det er høstferie", "Til minne om gjenforeningen i 1990", "Fordi Oktoberfest slutter"], "correct": 2, "explain": "Øst- og Vest-Tyskland ble ett land 3. oktober 1990." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

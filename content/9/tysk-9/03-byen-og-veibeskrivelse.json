@@ -1,0 +1,86 @@
+{
+  "id": "byen-og-veibeskrivelse",
+  "fagId": "tysk-9",
+  "trinnId": "9",
+  "name": "Byen og veibeskrivelse",
+  "intro": "Steder i byen, hvordan du spør om og forstår en veibeskrivelse på tysk, zum og zur, transportmidler og lyttestrategier.",
+  "kompetansemaal": [2, 1],
+  "sammendrag": "## I byen – in der Stadt\n\n- **der Bahnhof** – jernbanestasjonen, **die Bushaltestelle** – bussholdeplassen, **der Flughafen** – flyplassen\n- **das Krankenhaus** – sykehuset, **die Apotheke** – apoteket\n- **die Bank** og **die Post** – postkontoret\n- **die Bibliothek** – biblioteket, **das Museum** og **das Kino**\n- **der Supermarkt** og **das Einkaufszentrum** – kjøpesenteret\n- **der Park**, **die Kirche** – kirken, **das Rathaus** – rådhuset\n- **die Straße** – gata, **die Ampel** – trafikklyset, **die Kreuzung** – krysset\n\n## Spørre om veien\n\n- **Entschuldigung, wo ist der Bahnhof?** – Unnskyld, hvor er jernbanestasjonen?\n- **Wie komme ich zum Museum?** – Hvordan kommer jeg til museet?\n- **Gibt es hier eine Apotheke?** – Finnes det et apotek her?\n- **Ist das weit?** – Er det langt? – **Nein, nur fünf Minuten zu Fuß.**\n\n## Veibeskrivelse\n\n- **Gehen Sie geradeaus.** – Gå rett fram.\n- **Biegen Sie links / rechts ab.** – Ta til venstre / høyre.\n- **Nehmen Sie die erste / zweite Straße links.** – Ta den første / andre gata til venstre.\n- **an der Ampel** – ved lyskrysset, **an der Kreuzung** – i krysset\n- **Das Museum ist auf der rechten Seite.** – Museet er på høyre side.\n- **Die Post ist neben der Bank / gegenüber dem Park.** – Posten er ved siden av banken / overfor parken.\n\nVeibeskrivelser til fremmede gis ofte i **Sie**-form.\n\n## Zum og zur\n\nNår du skal **til** et sted, bruker du **zu**, som smelter sammen med artikkelen:\n\n- **zu + dem = zum** (hankjønn og intetkjønn): *zum Bahnhof*, *zum Museum*\n- **zu + der = zur** (hunkjønn): *zur Post*, *zur Schule*\n\n## Transport\n\n**mit dem Bus**, **mit dem Zug** (toget), **mit der U-Bahn** (T-banen), **mit der Straßenbahn** (trikken), **mit dem Fahrrad** (sykkelen) og **zu Fuß** (til fots). Mange tyske byer har godt utbygd kollektivtrafikk, og sykkelen er populær.\n\n## Lyttestrategier\n\nVeibeskrivelser går ofte fort. Lytt etter **nøkkelord** som *links*, *rechts* og *geradeaus*, og gjenta det du har forstått. Det er helt greit å be om hjelp:\n\n- **Können Sie das bitte wiederholen?** – Kan De gjenta det?\n- **Langsamer, bitte.** – Litt saktere, takk.\n- **Können Sie mir das auf der Karte zeigen?** – Kan De vise meg det på kartet?\n\nNår du selv forklarer veien, kan du bruke hendene og peke. Kroppsspråk hjelper mye når språket ikke strekker til.",
+  "flashcards": [
+    { "term": "der Bahnhof", "def": "jernbanestasjonen" },
+    { "term": "die Bushaltestelle", "def": "bussholdeplassen" },
+    { "term": "die Apotheke", "def": "apoteket" },
+    { "term": "die Bibliothek", "def": "biblioteket" },
+    { "term": "das Rathaus", "def": "rådhuset" },
+    { "term": "die Ampel", "def": "trafikklyset" },
+    { "term": "die Kreuzung", "def": "krysset" },
+    { "term": "geradeaus", "def": "rett fram" },
+    { "term": "links / rechts", "def": "til venstre / til høyre" },
+    { "term": "Biegen Sie links ab.", "def": "Ta til venstre." },
+    { "term": "gegenüber", "def": "overfor" },
+    { "term": "Wie komme ich zum …?", "def": "Hvordan kommer jeg til …?" },
+    { "term": "zum / zur", "def": "til (zu + dem / zu + der)" },
+    { "term": "zu Fuß", "def": "til fots" },
+    { "term": "mit der U-Bahn", "def": "med T-banen" },
+    { "term": "Können Sie das bitte wiederholen?", "def": "Kan De gjenta det?" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er «der Bahnhof»?", "options": ["Flyplassen", "Bussholdeplassen", "Havnen", "Jernbanestasjonen"], "correct": 3, "explain": "«die Bahn» betyr jernbanen." },
+    { "id": "q02", "text": "Hva betyr «geradeaus»?", "options": ["Til venstre", "Rett fram", "Til høyre", "Tilbake"], "correct": 1, "explain": "«gerade» betyr rett." },
+    { "id": "q03", "text": "Hvordan spør du hvordan du kommer til museet?", "options": ["Wo wohnst du?", "Was kostet das Museum?", "Wie komme ich zum Museum?", "Ist das Museum schön?"], "correct": 2, "explain": "«Wie komme ich zum …?» brukes når du spør om veien." },
+    { "id": "q04", "text": "Hva er «die Apotheke»?", "options": ["Apoteket", "Biblioteket", "Banken", "Postkontoret"], "correct": 0, "explain": "Biblioteket heter «die Bibliothek»." },
+    { "id": "q05", "text": "Hvorfor heter det «zur Post», men «zum Bahnhof»?", "options": ["Fordi Post er et sted", "Fordi «Post» er hunkjønn og «Bahnhof» hankjønn", "Fordi Bahnhof er større", "Det er tilfeldig"], "correct": 1, "explain": "zu + der blir zur, og zu + dem blir zum." },
+    { "id": "q06", "text": "Hva betyr «Biegen Sie an der Ampel rechts ab»?", "options": ["Gå rett fram forbi lyskrysset", "Stopp ved lyskrysset", "Snu ved lyskrysset", "Ta til høyre ved lyskrysset"], "correct": 3, "explain": "«abbiegen» betyr å svinge." },
+    { "id": "q07", "text": "Hva betyr «zu Fuß»?", "options": ["Til fots", "Med bil", "Med sykkel", "Med tog"], "correct": 0, "explain": "«der Fuß» betyr foten." },
+    { "id": "q08", "text": "Hva betyr «gegenüber»?", "options": ["Bak", "Under", "Overfor", "Ved siden av"], "correct": 2, "explain": "Ved siden av heter «neben»." },
+    { "id": "q09", "text": "Hva er en nyttig strategi hvis du ikke forstår en veibeskrivelse?", "options": ["Å gå hjem", "Å late som du forstår", "Å snakke norsk", "Å be om at det gjentas langsommere"], "correct": 3, "explain": "«Können Sie das bitte wiederholen?»" },
+    { "id": "q10", "text": "Hva er «das Rathaus»?", "options": ["Et hus for rotter", "Rådhuset", "Et bibliotek", "En restaurant"], "correct": 1, "explain": "«der Rat» betyr rådet." }
+  ],
+  "mindmap": {
+    "label": "Byen og veibeskrivelse",
+    "children": [
+      { "label": "Steder", "children": [
+        { "label": "Bahnhof, Bushaltestelle" },
+        { "label": "Apotheke, Krankenhaus" },
+        { "label": "Bibliothek, Museum" },
+        { "label": "Rathaus, Kirche" }
+      ] },
+      { "label": "Spørre", "children": [
+        { "label": "Wo ist …?" },
+        { "label": "Wie komme ich zum …?" },
+        { "label": "Ist das weit?" }
+      ] },
+      { "label": "Forklare", "children": [
+        { "label": "geradeaus" },
+        { "label": "links / rechts abbiegen" },
+        { "label": "an der Ampel" },
+        { "label": "neben, gegenüber" }
+      ] },
+      { "label": "Grammatikk og transport", "children": [
+        { "label": "zum / zur" },
+        { "label": "mit dem Bus" },
+        { "label": "mit der U-Bahn" },
+        { "label": "zu Fuß" }
+      ] },
+      { "label": "Lyttestrategier", "children": [
+        { "label": "Nøkkelord" },
+        { "label": "Bitte wiederholen" },
+        { "label": "Langsamer, bitte" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "«links» betyr venstre.", "correct": true, "explain": "Høyre heter «rechts»." },
+      { "id": "m02", "type": "sant-usant", "text": "«die Bibliothek» er en bokhandel.", "correct": false, "explain": "«die Bibliothek» er biblioteket. En bokhandel heter «die Buchhandlung»." },
+      { "id": "m03", "type": "sant-usant", "text": "«mit dem Bus» betyr med bussen.", "correct": true, "explain": "Etter «mit» brukes dativ: dem Bus." },
+      { "id": "m04", "type": "sant-usant", "text": "«die Kreuzung» betyr kirken.", "correct": false, "explain": "«die Kreuzung» betyr krysset. Kirken heter «die Kirche»." },
+      { "id": "m05", "type": "flervalg", "text": "Hvordan sier du «Er det langt?»?", "options": ["Ist das weit?", "Ist das hier?", "Wo ist das?", "Was ist das?"], "correct": 0, "explain": "«weit» betyr langt unna." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er «die U-Bahn»?", "options": ["Et fly", "Undergrunnsbanen, T-banen", "En båt", "En buss"], "correct": 1, "explain": "U står for «Untergrund»." },
+      { "id": "m07", "type": "flervalg", "text": "Hva betyr «Nehmen Sie die zweite Straße links»?", "options": ["Ta den første gata til høyre", "Gå to kvartaler rett fram", "Ta den andre gata til venstre", "Kryss gata to ganger"], "correct": 2, "explain": "«zweite» betyr andre." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

@@ -23,7 +23,7 @@ Status for arbeidet med å lage innhold til alle 78 fag (8. trinn–Vg3), og hvo
 - **9**: mat-og-drikke, hjemmet-og-hverdagen, byen-og-veibeskrivelse, klaer-og-handel, fortid, hoytider-og-tradisjoner
 - **10**: reise-og-ferie, helse-og-kropp, framtid-og-planer, ungdom-og-medier, kunst-og-kultur, miljo-og-samfunn
 
-Ferdig: tysk 8, fransk 8, spansk 8. Neste: tysk 9.
+Ferdig: tysk 8–9, fransk 8, spansk 8. Neste: fransk 9.
 
 ## Arbeidsflyt per fag
 

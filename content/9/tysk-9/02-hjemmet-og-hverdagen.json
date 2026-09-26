@@ -1,0 +1,84 @@
+{
+  "id": "hjemmet-og-hverdagen",
+  "fagId": "tysk-9",
+  "trinnId": "9",
+  "name": "Hjemmet og hverdagen",
+  "intro": "Rom og møbler på tysk, hvordan du beskriver rommet ditt og en vanlig dag, delbare og refleksive verb, og ord som hjelper deg å fortelle i rekkefølge.",
+  "kompetansemaal": [3, 5],
+  "sammendrag": "## Hjemmet – das Zuhause\n\nMange i Tyskland bor i **eine Wohnung** (leilighet), særlig i byene. Andre bor i **ein Haus** (hus). Rommene heter:\n\n- **die Küche** – kjøkkenet\n- **das Wohnzimmer** – stua\n- **das Schlafzimmer** – soverommet\n- **das Badezimmer** eller **das Bad** – badet\n- **das Kinderzimmer** – barnerommet\n- **der Garten** – hagen, **der Keller** – kjelleren, **der Balkon**\n\n## Mitt rom – mein Zimmer\n\nMøbler: **das Bett** (senga), **der Tisch** (bordet), **der Schreibtisch** (skrivebordet), **der Stuhl** (stolen), **der Schrank** (skapet), **das Regal** (hylla), **das Sofa**, **die Lampe** og **das Fenster** (vinduet).\n\n- **Mein Zimmer ist klein, aber gemütlich.** – Rommet mitt er lite, men koselig.\n- **Das Bett steht neben dem Fenster.** – Senga står ved siden av vinduet.\n- **Der Computer ist auf dem Schreibtisch.** – Datamaskinen er på skrivebordet.\n\nNyttige preposisjoner for plassering er **in** (i), **auf** (på), **unter** (under), **neben** (ved siden av), **vor** (foran) og **hinter** (bak).\n\n## Hverdagen – der Alltag\n\n- **Ich stehe um sieben Uhr auf.** – Jeg står opp klokka sju.\n- **Ich dusche mich und ziehe mich an.** – Jeg dusjer og kler på meg.\n- **Ich frühstücke.** – Jeg spiser frokost.\n- **Ich fahre mit dem Bus zur Schule.** – Jeg tar bussen til skolen.\n- **Nach der Schule mache ich Hausaufgaben.** – Etter skolen gjør jeg lekser.\n- **Am Abend sehe ich fern.** – Om kvelden ser jeg på TV.\n- **Um zehn Uhr gehe ich ins Bett.** – Klokka ti legger jeg meg.\n\nHjemme hjelper mange til: **Ich räume mein Zimmer auf** (rydder rommet), **ich wasche ab** (vasker opp) og **ich sauge Staub** (støvsuger).\n\n## Delbare verb\n\nMange tyske verb har en **forstavelse** som skilles fra verbet og flyttes til **slutten av setningen**: **aufstehen** → *Ich stehe um sieben Uhr **auf**.* Andre eksempler er **fernsehen**, **aufräumen**, **anrufen** (ringe) og **einkaufen** (handle).\n\n## Refleksive verb\n\nNoen verb har et **refleksivt pronomen**, akkurat som «seg» på norsk: **sich duschen** → *Ich dusche **mich**. Du duschst **dich**. Er duscht **sich**.*\n\n## Fortelle i rekkefølge\n\nBruk **zuerst** (først), **dann** (så), **danach** (etterpå), **später** (senere) og **zum Schluss** (til slutt). Husk at verbet står på andre plass: *Dann **esse** ich Frühstück.*",
+  "flashcards": [
+    { "term": "die Wohnung", "def": "leiligheten" },
+    { "term": "das Zimmer", "def": "rommet" },
+    { "term": "die Küche", "def": "kjøkkenet" },
+    { "term": "das Wohnzimmer", "def": "stua" },
+    { "term": "das Schlafzimmer", "def": "soverommet" },
+    { "term": "das Badezimmer", "def": "badet" },
+    { "term": "der Schrank", "def": "skapet" },
+    { "term": "der Schreibtisch", "def": "skrivebordet" },
+    { "term": "gemütlich", "def": "koselig" },
+    { "term": "aufstehen – Ich stehe auf.", "def": "å stå opp – Jeg står opp." },
+    { "term": "fernsehen – Ich sehe fern.", "def": "å se på TV – Jeg ser på TV." },
+    { "term": "aufräumen", "def": "å rydde" },
+    { "term": "sich duschen – Ich dusche mich.", "def": "å dusje – Jeg dusjer." },
+    { "term": "Hausaufgaben machen", "def": "å gjøre lekser" },
+    { "term": "zuerst, dann, danach", "def": "først, så, etterpå" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva betyr «die Wohnung»?", "options": ["Huset", "Leiligheten", "Rommet", "Hagen"], "correct": 1, "explain": "«wohnen» betyr å bo." },
+    { "id": "q02", "text": "Hvor lager man mat?", "options": ["im Schlafzimmer", "im Badezimmer", "im Keller", "in der Küche"], "correct": 3, "explain": "«die Küche» betyr kjøkkenet." },
+    { "id": "q03", "text": "Hvordan sier du «Jeg står opp klokka sju»?", "options": ["Ich stehe um sieben Uhr auf.", "Ich aufstehe um sieben Uhr.", "Ich stehe auf um sieben Uhr auf.", "Um sieben Uhr ich stehe auf."], "correct": 0, "explain": "Forstavelsen «auf» flyttes til slutten." },
+    { "id": "q04", "text": "Hva skjer med forstavelsen i et delbart verb som «fernsehen»?", "options": ["Den forsvinner", "Den står først", "Den flyttes til slutten av setningen", "Den dobles"], "correct": 2, "explain": "«Ich sehe am Abend fern.»" },
+    { "id": "q05", "text": "Hva betyr «gemütlich»?", "options": ["Kaldt", "Rotete", "Koselig", "Stort"], "correct": 2, "explain": "Ordet brukes mye om hjem og kafeer." },
+    { "id": "q06", "text": "Hvordan sier du «Jeg dusjer»?", "options": ["Ich dusche mich.", "Ich bin duschen.", "Ich dusche dich.", "Mich dusche ich nicht."], "correct": 0, "explain": "«sich duschen» er et refleksivt verb." },
+    { "id": "q07", "text": "Hva betyr «Ich räume mein Zimmer auf»?", "options": ["Jeg maler rommet mitt", "Jeg forlater rommet mitt", "Jeg liker rommet mitt", "Jeg rydder rommet mitt"], "correct": 3, "explain": "«aufräumen» betyr å rydde." },
+    { "id": "q08", "text": "Hva er «der Schreibtisch»?", "options": ["Senga", "Skrivebordet", "Skapet", "Stolen"], "correct": 1, "explain": "«schreiben» betyr å skrive." },
+    { "id": "q09", "text": "Hvilket ord betyr «først»?", "options": ["dann", "danach", "zuerst", "später"], "correct": 2, "explain": "«dann» betyr så, og «danach» betyr etterpå." },
+    { "id": "q10", "text": "Hva betyr «Ich sehe am Abend fern»?", "options": ["Jeg ser langt om kvelden", "Jeg går ut om kvelden", "Jeg leser om kvelden", "Jeg ser på TV om kvelden"], "correct": 3, "explain": "«fernsehen» betyr å se på TV." }
+  ],
+  "mindmap": {
+    "label": "Hjemmet og hverdagen",
+    "children": [
+      { "label": "Rom", "children": [
+        { "label": "Küche" },
+        { "label": "Wohnzimmer" },
+        { "label": "Schlafzimmer" },
+        { "label": "Badezimmer" }
+      ] },
+      { "label": "Mitt rom", "children": [
+        { "label": "Bett, Tisch, Stuhl" },
+        { "label": "Schrank, Regal" },
+        { "label": "in, auf, unter, neben" }
+      ] },
+      { "label": "Hverdagen", "children": [
+        { "label": "aufstehen" },
+        { "label": "zur Schule fahren" },
+        { "label": "Hausaufgaben machen" },
+        { "label": "ins Bett gehen" }
+      ] },
+      { "label": "Grammatikk", "children": [
+        { "label": "Delbare verb" },
+        { "label": "Refleksive verb" },
+        { "label": "Verbet på plass 2" }
+      ] },
+      { "label": "Rekkefølge", "children": [
+        { "label": "zuerst" },
+        { "label": "dann, danach" },
+        { "label": "zum Schluss" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "«das Badezimmer» er badet.", "correct": true, "explain": "Det kalles ofte bare «das Bad»." },
+      { "id": "m02", "type": "sant-usant", "text": "«aufstehen» er et delbart verb.", "correct": true, "explain": "«Ich stehe früh auf.»" },
+      { "id": "m03", "type": "sant-usant", "text": "«der Stuhl» betyr bordet.", "correct": false, "explain": "«der Stuhl» er stolen. Bordet heter «der Tisch»." },
+      { "id": "m04", "type": "sant-usant", "text": "Setningen «Dann ich esse Frühstück» har riktig ordstilling.", "correct": false, "explain": "Verbet skal stå på andre plass: «Dann esse ich Frühstück»." },
+      { "id": "m05", "type": "flervalg", "text": "Hva betyr «Hausaufgaben machen»?", "options": ["Å gjøre lekser", "Å vaske huset", "Å lage mat", "Å bygge hus"], "correct": 0, "explain": "«Hausaufgaben» betyr hjemmelekser." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilket rom sover du i?", "options": ["die Küche", "das Schlafzimmer", "das Wohnzimmer", "der Garten"], "correct": 1, "explain": "«schlafen» betyr å sove." },
+      { "id": "m07", "type": "flervalg", "text": "Hva betyr «danach»?", "options": ["Før", "Aldri", "Etterpå", "I dag"], "correct": 2, "explain": "Ordet brukes når du forteller hva som skjer etterpå." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
