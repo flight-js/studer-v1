@@ -1,0 +1,361 @@
+{
+  "id": "english-around-the-world",
+  "fagId": "engelsk-8",
+  "trinnId": "8",
+  "name": "English around the world",
+  "intro": "Why English became a world language, where it is spoken, differences between British and American English, and the role English plays in Norway.",
+  "kompetansemaal": [
+    16,
+    4,
+    7
+  ],
+  "sammendrag": "## A global language\n\nEnglish is spoken all over the world. Several hundred million people have English as their **first language**, and many more use it as a **second language** or **foreign language**. In total, well over a billion people can communicate in English. When people with different first languages use English to talk to each other, it works as a **lingua franca** – a shared language.\n\n## How did this happen?\n\nEnglish spread mainly for two reasons. First, the **British Empire** ruled large parts of the world from the 1600s to the 1900s and brought English to North America, Australia, Africa and Asia. Second, the **United States** became the world's leading economic and cultural power in the 1900s. Films, music, science, business and later the internet made English even more important.\n\n## Where is English spoken?\n\nEnglish is the main language in countries like the **United Kingdom**, the **United States**, **Canada**, **Australia**, **New Zealand** and **Ireland**. It is an official language in many others, for example **India**, **Nigeria**, **South Africa**, **Kenya** and **Singapore**, where it lives side by side with local languages.\n\n## Varieties of English\n\nEnglish is not one single variety. There are many **accents** and **dialects**, and each English-speaking country has its own words and expressions.\n\n- **Spelling**: British colour, centre, organise – American color, center, organize.\n- **Vocabulary**: British flat, lift, biscuit, autumn, trousers – American apartment, elevator, cookie, fall, pants.\n- **Pronunciation**: Many Americans pronounce the r in “car”, while many British speakers do not.\n\nNo variety is more “correct” than another. When you write, it is a good idea to be **consistent** and stick to either British or American spelling.\n\n## English in Norway\n\nIn Norway, English is everywhere: in films, series, games, music and social media. Norwegians learn English from the first year at school, and many companies use English as a working language. Norwegian has also borrowed many English words, like “weekend”, “streaming” and “deadline”.\n\nSome people worry that English will push Norwegian aside in areas like research and business. This is sometimes called **domain loss**. Others point out that knowing English gives Norwegians great opportunities to study, work and communicate internationally.\n\n## Learning from other languages\n\nComparing English with Norwegian and other languages you know can help you learn. Many words are similar (hus – house, bok – book), but watch out for **false friends**: “eventually” means “til slutt”, not “eventuelt”.",
+  "flashcards": [
+    {
+      "term": "First language",
+      "def": "The language a person learns first, as a child."
+    },
+    {
+      "term": "Second language",
+      "def": "A language used in daily life in addition to the first language, often in the country one lives in."
+    },
+    {
+      "term": "Lingua franca",
+      "def": "A shared language used between people with different first languages."
+    },
+    {
+      "term": "British Empire",
+      "def": "The territories ruled by Britain from the 1600s to the 1900s, which spread English around the world."
+    },
+    {
+      "term": "Why English spread",
+      "def": "The British Empire, and later the economic and cultural power of the USA."
+    },
+    {
+      "term": "Official language",
+      "def": "A language with legal status in a country, like English in India and Nigeria."
+    },
+    {
+      "term": "Accent",
+      "def": "The way people pronounce a language."
+    },
+    {
+      "term": "Dialect",
+      "def": "A variety of a language with its own words, grammar and pronunciation."
+    },
+    {
+      "term": "colour / color",
+      "def": "British and American spelling of the same word."
+    },
+    {
+      "term": "flat / apartment",
+      "def": "British and American words for “leilighet”."
+    },
+    {
+      "term": "autumn / fall",
+      "def": "British and American words for “høst”."
+    },
+    {
+      "term": "Be consistent",
+      "def": "Stick to either British or American spelling in one text."
+    },
+    {
+      "term": "Domain loss",
+      "def": "When a language, like Norwegian, is pushed aside by another language in an area such as research."
+    },
+    {
+      "term": "Loanword",
+      "def": "A word borrowed from another language, like “weekend” in Norwegian."
+    },
+    {
+      "term": "eventually",
+      "def": "False friend: means “til slutt”, not “eventuelt”."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "What is a lingua franca?",
+      "options": [
+        "A French dialect",
+        "A shared language between people with different first languages",
+        "An old form of English",
+        "A type of accent"
+      ],
+      "correct": 1,
+      "explain": "English often works as a lingua franca, for example when a Norwegian and a Japanese person talk together."
+    },
+    {
+      "id": "q02",
+      "text": "Which historical development spread English to many continents?",
+      "options": [
+        "The Viking Age",
+        "The Roman Empire",
+        "The British Empire",
+        "The Olympic Games"
+      ],
+      "correct": 2,
+      "explain": "The British Empire brought English to North America, Australia, Africa and Asia."
+    },
+    {
+      "id": "q03",
+      "text": "Which is the American spelling?",
+      "options": [
+        "colour",
+        "centre",
+        "organise",
+        "color"
+      ],
+      "correct": 3,
+      "explain": "Americans write “color”, British English uses “colour”."
+    },
+    {
+      "id": "q04",
+      "text": "What is the British word for American “elevator”?",
+      "options": [
+        "lift",
+        "stairs",
+        "flat",
+        "tube"
+      ],
+      "correct": 0,
+      "explain": "British English says “lift”, American English says “elevator”."
+    },
+    {
+      "id": "q05",
+      "text": "In which country is English an official language alongside many local languages?",
+      "options": [
+        "Norway",
+        "India",
+        "Brazil",
+        "Japan"
+      ],
+      "correct": 1,
+      "explain": "India has English as one of its official languages, together with Hindi and many regional languages."
+    },
+    {
+      "id": "q06",
+      "text": "What does “eventually” mean?",
+      "options": [
+        "eventuelt",
+        "kanskje",
+        "til slutt",
+        "straks"
+      ],
+      "correct": 2,
+      "explain": "“Eventually” is a false friend. It means “til slutt” or “etter hvert”."
+    },
+    {
+      "id": "q07",
+      "text": "What is domain loss?",
+      "options": [
+        "When a language is pushed aside by another language in an area like research or business",
+        "When you lose a website",
+        "When a dialect disappears",
+        "When you forget words"
+      ],
+      "correct": 0,
+      "explain": "Some fear that Norwegian may lose ground to English in areas like higher education and business."
+    },
+    {
+      "id": "q08",
+      "text": "Which of these is a loanword from English in Norwegian?",
+      "options": [
+        "hus",
+        "skog",
+        "weekend",
+        "fjell"
+      ],
+      "correct": 2,
+      "explain": "“Weekend” has been borrowed from English and is widely used in Norwegian."
+    },
+    {
+      "id": "q09",
+      "text": "Is British English more correct than American English?",
+      "options": [
+        "Yes, always",
+        "Only in writing",
+        "Only in the UK",
+        "No, they are equally correct varieties"
+      ],
+      "correct": 3,
+      "explain": "Both are standard varieties. The important thing is to be consistent."
+    },
+    {
+      "id": "q10",
+      "text": "What is the American word for British “biscuit”?",
+      "options": [
+        "cookie",
+        "candy",
+        "cracker",
+        "chip"
+      ],
+      "correct": 0,
+      "explain": "British “biscuit” is usually “cookie” in American English."
+    }
+  ],
+  "mindmap": {
+    "label": "English around the world",
+    "children": [
+      {
+        "label": "World language",
+        "children": [
+          {
+            "label": "First language"
+          },
+          {
+            "label": "Second/foreign language"
+          },
+          {
+            "label": "Lingua franca"
+          }
+        ]
+      },
+      {
+        "label": "History",
+        "children": [
+          {
+            "label": "British Empire"
+          },
+          {
+            "label": "USA",
+            "note": "1900s"
+          },
+          {
+            "label": "Internet and media"
+          }
+        ]
+      },
+      {
+        "label": "Where",
+        "children": [
+          {
+            "label": "UK, USA, Canada"
+          },
+          {
+            "label": "Australia, New Zealand, Ireland"
+          },
+          {
+            "label": "India, Nigeria, South Africa"
+          }
+        ]
+      },
+      {
+        "label": "Varieties",
+        "children": [
+          {
+            "label": "Spelling",
+            "note": "colour/color"
+          },
+          {
+            "label": "Words",
+            "note": "flat/apartment"
+          },
+          {
+            "label": "Accents"
+          }
+        ]
+      },
+      {
+        "label": "English in Norway",
+        "children": [
+          {
+            "label": "Media and school"
+          },
+          {
+            "label": "Loanwords"
+          },
+          {
+            "label": "Domain loss"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q09"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "English is an official language in Nigeria.",
+        "correct": true,
+        "explain": "English is the official language of Nigeria, where hundreds of other languages are also spoken."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "British and American English are two completely different languages.",
+        "correct": false,
+        "explain": "They are varieties of the same language, with some differences in spelling, words and pronunciation."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "“Fall” is the American word for autumn.",
+        "correct": true,
+        "explain": "Americans usually say “fall”, British speakers “autumn”."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "You should mix British and American spelling in the same text.",
+        "correct": false,
+        "explain": "It is best to be consistent and choose one variety."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "What is the British word for American “pants”?",
+        "options": [
+          "shorts",
+          "trousers",
+          "jeans",
+          "socks"
+        ],
+        "correct": 1,
+        "explain": "British “trousers” are American “pants”. In British English, “pants” means underwear."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Which country became the leading economic and cultural power in the 1900s?",
+        "options": [
+          "Canada",
+          "Australia",
+          "The United States",
+          "Ireland"
+        ],
+        "correct": 2,
+        "explain": "American films, music, business and technology spread English further in the 1900s."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "What is an accent?",
+        "options": [
+          "The way people pronounce a language",
+          "A spelling mistake",
+          "A type of grammar",
+          "A dictionary"
+        ],
+        "correct": 0,
+        "explain": "An accent is about pronunciation. People from different places have different accents."
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
+}

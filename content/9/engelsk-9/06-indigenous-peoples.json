@@ -1,0 +1,368 @@
+{
+  "id": "indigenous-peoples",
+  "fagId": "engelsk-9",
+  "trinnId": "9",
+  "name": "Indigenous peoples",
+  "intro": "Indigenous peoples in the English-speaking world and in Norway – colonisation, assimilation, the fight for rights, and reconciliation today.",
+  "kompetansemaal": [
+    17,
+    18
+  ],
+  "sammendrag": "## Who are indigenous peoples?\n\n**Indigenous peoples** are descendants of the people who lived in an area before it was colonised or before today's national borders were drawn. They often have their own languages, traditions and close ties to the land. Examples are **Native Americans** in the USA, **First Nations**, **Inuit** and **Métis** in Canada, **Aboriginal and Torres Strait Islander peoples** in Australia, the **Māori** in New Zealand, and the **Sámi** in Norway, Sweden, Finland and Russia.\n\n## Colonisation and its consequences\n\nWhen Europeans colonised North America, Australia and New Zealand, indigenous peoples lost much of their **land**. Many died from diseases brought by the settlers, and others were killed in wars. Treaties were often broken. Many were forced onto **reservations** or pushed away from their traditional areas.\n\n## Assimilation\n\n**Assimilation** means forcing a minority to give up its culture and adopt the culture of the majority. In **Canada**, many indigenous children were sent to **residential schools**, where they were forbidden to speak their own languages. In **Australia**, many Aboriginal children were taken from their families; they are called the **Stolen Generations**. The Australian government made a formal apology in **2008**.\n\n## The Sámi in Norway\n\nNorway also has a history of assimilation. From the 1800s until well into the 1900s, the policy of **Norwegianisation** (fornorskning) pressured the Sámi and the Kven people to give up their languages and culture. In schools, children were often not allowed to speak Sámi. Today, the Sámi have their own parliament, the **Sámediggi** (opened in 1989), and Sámi languages have official status. In 2023, a **Truth and Reconciliation Commission** presented a report on the injustice done by the Norwegian state.\n\n## Rights and revival\n\nIndigenous peoples have fought for their rights to land, language and self-determination. In **2007**, the United Nations adopted the **Declaration on the Rights of Indigenous Peoples**. In New Zealand, the **Treaty of Waitangi** (1840) between the British Crown and Māori chiefs is still central in debates about rights, and the Māori language has experienced a revival. Across the world, indigenous languages, art, music and traditional knowledge are gaining new attention.\n\n## Challenges today\n\nMany indigenous communities still face challenges like poorer health, lower income, discrimination and loss of language. Conflicts about land use, for example between reindeer herding and wind power or mining, show that questions of rights are still relevant. **Reconciliation** means recognising past injustice and working for a fairer future.",
+  "flashcards": [
+    {
+      "term": "Indigenous peoples",
+      "def": "Descendants of the people who lived in an area before colonisation or before today's borders."
+    },
+    {
+      "term": "First Nations",
+      "def": "Indigenous peoples in Canada, alongside the Inuit and the Métis."
+    },
+    {
+      "term": "Aboriginal and Torres Strait Islander peoples",
+      "def": "The indigenous peoples of Australia."
+    },
+    {
+      "term": "Māori",
+      "def": "The indigenous people of New Zealand."
+    },
+    {
+      "term": "Sámi",
+      "def": "The indigenous people of Norway, Sweden, Finland and Russia."
+    },
+    {
+      "term": "Colonisation",
+      "def": "When a country takes control over another area and its people."
+    },
+    {
+      "term": "Reservation",
+      "def": "An area set aside for Native Americans, often after they lost their land."
+    },
+    {
+      "term": "Assimilation",
+      "def": "Forcing a minority to give up its culture and adopt the majority culture."
+    },
+    {
+      "term": "Residential schools",
+      "def": "Schools in Canada where indigenous children were forbidden to use their own languages."
+    },
+    {
+      "term": "Stolen Generations",
+      "def": "Aboriginal children taken from their families in Australia. Formal apology in 2008."
+    },
+    {
+      "term": "Norwegianisation",
+      "def": "Norwegian policy that pressured the Sámi and Kven to give up language and culture."
+    },
+    {
+      "term": "Sámediggi",
+      "def": "The Sámi Parliament in Norway, opened in 1989."
+    },
+    {
+      "term": "Treaty of Waitangi",
+      "def": "Agreement from 1840 between the British Crown and Māori chiefs."
+    },
+    {
+      "term": "UN Declaration (2007)",
+      "def": "The UN Declaration on the Rights of Indigenous Peoples."
+    },
+    {
+      "term": "Reconciliation",
+      "def": "Recognising past injustice and working for a fairer future."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "What does “indigenous” mean?",
+      "options": [
+        "Newly arrived",
+        "Descended from the original inhabitants of an area",
+        "Living in cities",
+        "Speaking English"
+      ],
+      "correct": 1,
+      "explain": "Indigenous peoples descend from those who lived in an area before colonisation or modern borders."
+    },
+    {
+      "id": "q02",
+      "text": "Who are the Māori?",
+      "options": [
+        "The indigenous people of Australia",
+        "The indigenous people of Canada",
+        "The indigenous people of New Zealand",
+        "A people in Scotland"
+      ],
+      "correct": 2,
+      "explain": "The Māori are the indigenous people of New Zealand."
+    },
+    {
+      "id": "q03",
+      "text": "What is assimilation?",
+      "options": [
+        "Forcing a minority to give up its culture and adopt the majority culture",
+        "Learning several languages",
+        "Moving to another country",
+        "Building new schools"
+      ],
+      "correct": 0,
+      "explain": "Assimilation policies tried to make indigenous peoples abandon their languages and traditions."
+    },
+    {
+      "id": "q04",
+      "text": "What are the “Stolen Generations”?",
+      "options": [
+        "Soldiers in the Civil War",
+        "British colonists",
+        "Sámi reindeer herders",
+        "Aboriginal children taken from their families in Australia"
+      ],
+      "correct": 3,
+      "explain": "For decades, many Aboriginal children were removed from their families. The government apologised in 2008."
+    },
+    {
+      "id": "q05",
+      "text": "What was Norwegianisation?",
+      "options": [
+        "A policy that pressured the Sámi and Kven to give up language and culture",
+        "A Norwegian sports event",
+        "A law about fishing",
+        "The Norwegian constitution"
+      ],
+      "correct": 0,
+      "explain": "Norwegianisation (fornorskning) lasted from the 1800s well into the 1900s."
+    },
+    {
+      "id": "q06",
+      "text": "When did the Sámi Parliament in Norway open?",
+      "options": [
+        "1814",
+        "1905",
+        "1989",
+        "2023"
+      ],
+      "correct": 2,
+      "explain": "The Sámediggi opened in 1989."
+    },
+    {
+      "id": "q07",
+      "text": "What were residential schools in Canada?",
+      "options": [
+        "Holiday camps",
+        "Universities for indigenous leaders",
+        "Schools where indigenous children were forbidden to use their own languages",
+        "Schools only for adults"
+      ],
+      "correct": 2,
+      "explain": "The residential school system tried to separate children from their culture and language."
+    },
+    {
+      "id": "q08",
+      "text": "What did the UN adopt in 2007?",
+      "options": [
+        "A ban on reservations",
+        "The Declaration on the Rights of Indigenous Peoples",
+        "A new flag",
+        "The Treaty of Waitangi"
+      ],
+      "correct": 1,
+      "explain": "The declaration sets out rights to land, culture, language and self-determination."
+    },
+    {
+      "id": "q09",
+      "text": "What is the Treaty of Waitangi?",
+      "options": [
+        "A 1776 American document",
+        "A Canadian school law",
+        "A Sámi song",
+        "An 1840 agreement between the British Crown and Māori chiefs"
+      ],
+      "correct": 3,
+      "explain": "The treaty is still central to discussions about Māori rights in New Zealand."
+    },
+    {
+      "id": "q10",
+      "text": "What does reconciliation mean in this context?",
+      "options": [
+        "Recognising past injustice and working for a fairer future",
+        "Forgetting history",
+        "Moving people to new areas",
+        "Building more roads"
+      ],
+      "correct": 0,
+      "explain": "Reconciliation involves truth, recognition and concrete steps to improve the situation."
+    }
+  ],
+  "mindmap": {
+    "label": "Indigenous peoples",
+    "children": [
+      {
+        "label": "Peoples",
+        "children": [
+          {
+            "label": "Native Americans",
+            "note": "USA"
+          },
+          {
+            "label": "First Nations, Inuit, Métis",
+            "note": "Canada"
+          },
+          {
+            "label": "Aboriginal peoples",
+            "note": "Australia"
+          },
+          {
+            "label": "Māori",
+            "note": "New Zealand"
+          },
+          {
+            "label": "Sámi",
+            "note": "Norway"
+          }
+        ]
+      },
+      {
+        "label": "History",
+        "children": [
+          {
+            "label": "Colonisation"
+          },
+          {
+            "label": "Loss of land"
+          },
+          {
+            "label": "Reservations"
+          }
+        ]
+      },
+      {
+        "label": "Assimilation",
+        "children": [
+          {
+            "label": "Residential schools"
+          },
+          {
+            "label": "Stolen Generations"
+          },
+          {
+            "label": "Norwegianisation"
+          }
+        ]
+      },
+      {
+        "label": "Rights",
+        "children": [
+          {
+            "label": "UN Declaration 2007"
+          },
+          {
+            "label": "Treaty of Waitangi"
+          },
+          {
+            "label": "Sámediggi 1989"
+          }
+        ]
+      },
+      {
+        "label": "Today",
+        "children": [
+          {
+            "label": "Reconciliation"
+          },
+          {
+            "label": "Language revival"
+          },
+          {
+            "label": "Land conflicts"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q08",
+      "q10"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "The Sámi live only in Norway.",
+        "correct": false,
+        "explain": "The Sámi live in Norway, Sweden, Finland and Russia."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Norway has also had a policy of assimilation towards indigenous people.",
+        "correct": true,
+        "explain": "The Norwegianisation policy pressured the Sámi and Kven to give up their languages."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Questions about indigenous land rights belong only to the past.",
+        "correct": false,
+        "explain": "Conflicts about land use, like wind power and reindeer herding, are still debated today."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Many indigenous peoples died from diseases brought by European settlers.",
+        "correct": true,
+        "explain": "Diseases like smallpox had devastating effects on populations without immunity."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "What did the Truth and Reconciliation Commission in Norway present in 2023?",
+        "options": [
+          "A new flag",
+          "A report on injustice done to the Sámi and Kven/Norwegian Finns",
+          "A sports law",
+          "A new constitution"
+        ],
+        "correct": 1,
+        "explain": "The commission examined the consequences of Norwegianisation policy."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "What is a reservation in the USA?",
+        "options": [
+          "A hotel booking",
+          "A national park",
+          "An area set aside for Native Americans",
+          "A military base"
+        ],
+        "correct": 2,
+        "explain": "Many Native Americans were moved to reservations after losing their lands."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Which country made a formal apology to the Stolen Generations in 2008?",
+        "options": [
+          "Australia",
+          "Canada",
+          "New Zealand",
+          "The USA"
+        ],
+        "correct": 0,
+        "explain": "The Australian government apologised in 2008."
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
+}

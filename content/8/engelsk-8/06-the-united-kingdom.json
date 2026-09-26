@@ -1,0 +1,369 @@
+{
+  "id": "the-united-kingdom",
+  "fagId": "engelsk-8",
+  "trinnId": "8",
+  "name": "The United Kingdom",
+  "intro": "The four nations of the UK, the difference between Great Britain and the UK, how the country is governed, and life and diversity in British society.",
+  "kompetansemaal": [
+    18,
+    16
+  ],
+  "sammendrag": "## Four nations, one kingdom\n\nThe **United Kingdom of Great Britain and Northern Ireland** – the **UK** for short – consists of four nations: **England**, **Scotland**, **Wales** and **Northern Ireland**. Their capitals are **London**, **Edinburgh**, **Cardiff** and **Belfast**. London is also the capital of the whole UK.\n\nPeople often mix up the names. **Great Britain** is the largest island and includes England, Scotland and Wales. The **UK** also includes Northern Ireland. The **British Isles** is a geographical name for Great Britain, Ireland and many smaller islands. The **Republic of Ireland** is an independent country and not part of the UK.\n\n## Government\n\nThe UK is a **constitutional monarchy**. The **King** is head of state, but he has little real political power. The country is governed by **Parliament** in London, which has two chambers: the elected **House of Commons** and the **House of Lords**. The leader of the largest party in the House of Commons usually becomes **Prime Minister**. Scotland, Wales and Northern Ireland also have their own parliaments or assemblies that decide on matters like education and health.\n\n## The UK and Europe\n\nThe UK was a member of the **European Union** from 1973. In a **referendum** in 2016, a small majority voted to leave, and the UK left the EU in 2020. This process is known as **Brexit**. It was, and still is, a much debated topic in British politics.\n\n## Languages and identity\n\nEnglish is the main language, but **Welsh** is spoken by many people in Wales, and **Scottish Gaelic** and **Irish** are also used. Many people feel strongly connected to their own nation and call themselves Scottish, Welsh or English as well as British. The flag, the **Union Jack**, combines the crosses of England, Scotland and Ireland.\n\n## A diverse society\n\nThe UK is a **multicultural** society. Many people have roots in former colonies in the Caribbean, Africa and South Asia, and more recently in other European countries. Big cities like London, Birmingham and Manchester are home to people from all over the world, which is reflected in food, music, religion and language.\n\n## Culture\n\nBritain has given the world famous writers like **William Shakespeare** and **J.K. Rowling**, bands like **The Beatles**, and sports like **football**, **rugby** and **cricket**. The **BBC** is a well-known public broadcaster. Traditions like afternoon tea, fish and chips and the Premier League are part of the image many people have of Britain, but everyday life is as varied as in any modern country.",
+  "flashcards": [
+    {
+      "term": "The United Kingdom (UK)",
+      "def": "England, Scotland, Wales and Northern Ireland."
+    },
+    {
+      "term": "Great Britain",
+      "def": "The largest island: England, Scotland and Wales."
+    },
+    {
+      "term": "British Isles",
+      "def": "Geographical name for Great Britain, Ireland and the smaller islands around them."
+    },
+    {
+      "term": "Republic of Ireland",
+      "def": "An independent country, not part of the UK."
+    },
+    {
+      "term": "Capitals",
+      "def": "London (England and UK), Edinburgh (Scotland), Cardiff (Wales), Belfast (Northern Ireland)."
+    },
+    {
+      "term": "Constitutional monarchy",
+      "def": "A system with a king or queen as head of state, but where elected politicians govern."
+    },
+    {
+      "term": "Parliament",
+      "def": "The UK's law-making body, with the House of Commons and the House of Lords."
+    },
+    {
+      "term": "House of Commons",
+      "def": "The elected chamber of Parliament."
+    },
+    {
+      "term": "Prime Minister",
+      "def": "The head of government, usually the leader of the largest party in the House of Commons."
+    },
+    {
+      "term": "Brexit",
+      "def": "The UK leaving the EU after the referendum in 2016. The UK left in 2020."
+    },
+    {
+      "term": "Referendum",
+      "def": "A vote where all voters decide on a single question."
+    },
+    {
+      "term": "Welsh",
+      "def": "A Celtic language spoken by many in Wales."
+    },
+    {
+      "term": "Union Jack",
+      "def": "The UK flag, combining the crosses of England, Scotland and Ireland."
+    },
+    {
+      "term": "Multicultural",
+      "def": "A society with people from many different cultures and backgrounds."
+    },
+    {
+      "term": "BBC",
+      "def": "The British Broadcasting Corporation, the UK's public broadcaster."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Which four nations make up the UK?",
+      "options": [
+        "England, Scotland, Wales and Ireland",
+        "England, Scotland, Wales and Northern Ireland",
+        "England, Wales, Ireland and Iceland",
+        "England, Scotland, Ireland and Norway"
+      ],
+      "correct": 1,
+      "explain": "The UK consists of England, Scotland, Wales and Northern Ireland. The Republic of Ireland is a separate country."
+    },
+    {
+      "id": "q02",
+      "text": "What is the capital of Scotland?",
+      "options": [
+        "Glasgow",
+        "Cardiff",
+        "Edinburgh",
+        "Belfast"
+      ],
+      "correct": 2,
+      "explain": "Edinburgh is the capital of Scotland. Glasgow is the largest city."
+    },
+    {
+      "id": "q03",
+      "text": "What is the difference between Great Britain and the UK?",
+      "options": [
+        "They are exactly the same",
+        "Great Britain is bigger than the UK",
+        "The UK is only England",
+        "The UK also includes Northern Ireland"
+      ],
+      "correct": 3,
+      "explain": "Great Britain is the island with England, Scotland and Wales. The UK adds Northern Ireland."
+    },
+    {
+      "id": "q04",
+      "text": "What is the elected chamber of the British Parliament called?",
+      "options": [
+        "The House of Commons",
+        "The House of Lords",
+        "The Senate",
+        "Downing Street"
+      ],
+      "correct": 0,
+      "explain": "Members of the House of Commons are elected by the people."
+    },
+    {
+      "id": "q05",
+      "text": "What does “Brexit” refer to?",
+      "options": [
+        "A British sport",
+        "The UK leaving the European Union",
+        "A new British coin",
+        "The British royal family"
+      ],
+      "correct": 1,
+      "explain": "Brexit is short for “Britain exit”, the UK leaving the EU after the 2016 referendum."
+    },
+    {
+      "id": "q06",
+      "text": "Which language is spoken by many people in Wales?",
+      "options": [
+        "Gaelic",
+        "Cornish",
+        "Welsh",
+        "Scots"
+      ],
+      "correct": 2,
+      "explain": "Welsh is a Celtic language with official status in Wales."
+    },
+    {
+      "id": "q07",
+      "text": "What type of government does the UK have?",
+      "options": [
+        "A constitutional monarchy",
+        "A dictatorship",
+        "A republic with a president",
+        "An absolute monarchy"
+      ],
+      "correct": 0,
+      "explain": "The King is head of state, but Parliament and the government hold the political power."
+    },
+    {
+      "id": "q08",
+      "text": "Who becomes Prime Minister in the UK?",
+      "options": [
+        "The King's oldest child",
+        "The mayor of London",
+        "The oldest member of Parliament",
+        "Usually the leader of the largest party in the House of Commons"
+      ],
+      "correct": 3,
+      "explain": "The Prime Minister is usually the leader of the party that can command a majority in the House of Commons."
+    },
+    {
+      "id": "q09",
+      "text": "Which famous playwright was British?",
+      "options": [
+        "Henrik Ibsen",
+        "William Shakespeare",
+        "Mark Twain",
+        "Astrid Lindgren"
+      ],
+      "correct": 1,
+      "explain": "William Shakespeare is one of the most famous writers in the English language."
+    },
+    {
+      "id": "q10",
+      "text": "Why is the UK a multicultural society?",
+      "options": [
+        "Because everyone has the same background",
+        "Because only English is spoken",
+        "Because people with roots in many countries live there",
+        "Because of the weather"
+      ],
+      "correct": 2,
+      "explain": "Immigration from former colonies and other countries has made the UK very diverse."
+    }
+  ],
+  "mindmap": {
+    "label": "The United Kingdom",
+    "children": [
+      {
+        "label": "Four nations",
+        "children": [
+          {
+            "label": "England",
+            "note": "London"
+          },
+          {
+            "label": "Scotland",
+            "note": "Edinburgh"
+          },
+          {
+            "label": "Wales",
+            "note": "Cardiff"
+          },
+          {
+            "label": "Northern Ireland",
+            "note": "Belfast"
+          }
+        ]
+      },
+      {
+        "label": "Names",
+        "children": [
+          {
+            "label": "Great Britain",
+            "note": "The island"
+          },
+          {
+            "label": "UK",
+            "note": "+ Northern Ireland"
+          },
+          {
+            "label": "British Isles",
+            "note": "Geography"
+          }
+        ]
+      },
+      {
+        "label": "Government",
+        "children": [
+          {
+            "label": "Constitutional monarchy"
+          },
+          {
+            "label": "Parliament",
+            "note": "Commons and Lords"
+          },
+          {
+            "label": "Prime Minister"
+          }
+        ]
+      },
+      {
+        "label": "Society",
+        "children": [
+          {
+            "label": "Brexit",
+            "note": "2016 vote, left 2020"
+          },
+          {
+            "label": "Multicultural"
+          },
+          {
+            "label": "Welsh and Gaelic"
+          }
+        ]
+      },
+      {
+        "label": "Culture",
+        "children": [
+          {
+            "label": "Shakespeare"
+          },
+          {
+            "label": "Football, rugby, cricket"
+          },
+          {
+            "label": "BBC"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "The Republic of Ireland is part of the UK.",
+        "correct": false,
+        "explain": "The Republic of Ireland is an independent country. Only Northern Ireland is part of the UK."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "The King of the UK has little real political power.",
+        "correct": true,
+        "explain": "In a constitutional monarchy, elected politicians govern."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Cardiff is the capital of Wales.",
+        "correct": true,
+        "explain": "Cardiff is the capital and largest city of Wales."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Scotland has its own parliament that decides on some matters.",
+        "correct": true,
+        "explain": "The Scottish Parliament decides on issues like education and health."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "When did the UK leave the EU?",
+        "options": [
+          "1973",
+          "2016",
+          "2020",
+          "2008"
+        ],
+        "correct": 2,
+        "explain": "The referendum was in 2016, but the UK formally left the EU in 2020."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "What does the Union Jack combine?",
+        "options": [
+          "The crosses of England, Scotland and Ireland",
+          "The colours of the EU",
+          "Symbols of London",
+          "The flags of all Commonwealth countries"
+        ],
+        "correct": 0,
+        "explain": "The flag combines the crosses of St George, St Andrew and St Patrick."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "What is the BBC?",
+        "options": [
+          "A football club",
+          "The UK's public broadcaster",
+          "A political party",
+          "A bank"
+        ],
+        "correct": 1,
+        "explain": "The British Broadcasting Corporation is a well-known public broadcaster."
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
+}

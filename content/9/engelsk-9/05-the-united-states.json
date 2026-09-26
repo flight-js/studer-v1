@@ -1,0 +1,363 @@
+{
+  "id": "the-united-states",
+  "fagId": "engelsk-9",
+  "trinnId": "9",
+  "name": "The United States",
+  "intro": "How the USA is governed, key moments in American history, the civil rights movement, and diversity and ways of life in American society.",
+  "kompetansemaal": [
+    18,
+    17,
+    10
+  ],
+  "sammendrag": "## A large and varied country\n\nThe **United States of America** consists of **50 states** and the capital, **Washington, D.C.**, which is not part of any state. The country stretches from the Atlantic to the Pacific, and includes Alaska and Hawaii. With more than 300 million inhabitants, it is the third most populous country in the world. The biggest city is **New York**, and other major cities include Los Angeles, Chicago and Houston.\n\n## History in brief\n\n- Before Europeans arrived, the land was home to many **Native American** peoples.\n- From the 1600s, **British colonies** were founded along the east coast.\n- In **1776**, the thirteen colonies declared their independence from Britain in the **Declaration of Independence**, which says that “all men are created equal”.\n- The **Constitution** from 1787 still forms the basis of American government.\n- In the 1800s, the country expanded westwards, often at the expense of Native Americans.\n- The **Civil War** (1861–1865) was fought between the northern and southern states, largely over slavery. The North won, and slavery was abolished.\n\n## The civil rights movement\n\nEven after slavery ended, African Americans faced **segregation** and discrimination, especially in the South. In the 1950s and 1960s, the **civil rights movement** fought for equal rights through peaceful protests. **Rosa Parks** refused to give up her seat on a bus in 1955, and **Martin Luther King Jr.** gave his famous “I Have a Dream” speech in 1963. New laws in the 1960s banned discrimination, but questions about racism and equality are still debated today.\n\n## Government\n\nThe USA is a **federal republic**. Power is divided between the **federal government** and the **states**, which make many of their own laws. At federal level, power is split into three branches that control each other – **checks and balances**:\n\n- **Congress** (the Senate and the House of Representatives) makes laws.\n- The **President** leads the government and the armed forces, and is elected every four years.\n- The **Supreme Court** decides whether laws follow the Constitution.\n\nAmerican politics is dominated by two parties: the **Democrats** and the **Republicans**.\n\n## A diverse society\n\nThe USA is often called a **nation of immigrants**. People have come from Europe, Africa (many against their will as enslaved people), Latin America and Asia. The idea of a **melting pot** describes cultures blending together, while the **salad bowl** describes cultures living side by side while keeping their identities. Spanish is widely spoken, and the country has great religious and cultural diversity.\n\n## The American Dream\n\nThe **American Dream** is the idea that anyone can succeed through hard work, regardless of background. Many people still believe in it, while others argue that inequality makes it hard to achieve for many Americans.",
+  "flashcards": [
+    {
+      "term": "50 states",
+      "def": "The USA consists of 50 states plus the capital, Washington, D.C."
+    },
+    {
+      "term": "Washington, D.C.",
+      "def": "The capital of the USA, not part of any state."
+    },
+    {
+      "term": "Declaration of Independence",
+      "def": "Declared the colonies' independence from Britain in 1776."
+    },
+    {
+      "term": "Constitution",
+      "def": "The basic law of the USA from 1787."
+    },
+    {
+      "term": "Civil War",
+      "def": "War between the northern and southern states, 1861–1865, largely over slavery."
+    },
+    {
+      "term": "Segregation",
+      "def": "Separation of people by race, for example in schools and on buses."
+    },
+    {
+      "term": "Civil rights movement",
+      "def": "The struggle for equal rights for African Americans in the 1950s and 1960s."
+    },
+    {
+      "term": "Rosa Parks",
+      "def": "Refused to give up her bus seat in 1955, a key moment in the civil rights movement."
+    },
+    {
+      "term": "Martin Luther King Jr.",
+      "def": "Civil rights leader known for the “I Have a Dream” speech (1963)."
+    },
+    {
+      "term": "Federal republic",
+      "def": "A country where power is shared between a central government and states."
+    },
+    {
+      "term": "Checks and balances",
+      "def": "The three branches of government control each other."
+    },
+    {
+      "term": "Congress",
+      "def": "The Senate and the House of Representatives, which make federal laws."
+    },
+    {
+      "term": "Supreme Court",
+      "def": "The highest court, which decides if laws follow the Constitution."
+    },
+    {
+      "term": "Melting pot / salad bowl",
+      "def": "Two images of diversity: cultures blending together, or living side by side."
+    },
+    {
+      "term": "The American Dream",
+      "def": "The idea that anyone can succeed through hard work."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "How many states does the USA have?",
+      "options": [
+        "48",
+        "52",
+        "50",
+        "13"
+      ],
+      "correct": 2,
+      "explain": "The USA has 50 states. The first thirteen were the original colonies."
+    },
+    {
+      "id": "q02",
+      "text": "What happened in 1776?",
+      "options": [
+        "The Civil War ended",
+        "The colonies declared independence from Britain",
+        "Slavery was abolished",
+        "The first president was elected"
+      ],
+      "correct": 1,
+      "explain": "The Declaration of Independence was adopted on 4 July 1776."
+    },
+    {
+      "id": "q03",
+      "text": "What was the Civil War largely about?",
+      "options": [
+        "Slavery",
+        "Independence from Britain",
+        "Oil",
+        "Taxes on tea"
+      ],
+      "correct": 0,
+      "explain": "The war between the North and the South (1861–1865) was largely about slavery."
+    },
+    {
+      "id": "q04",
+      "text": "Who gave the famous “I Have a Dream” speech?",
+      "options": [
+        "Abraham Lincoln",
+        "Rosa Parks",
+        "Barack Obama",
+        "Martin Luther King Jr."
+      ],
+      "correct": 3,
+      "explain": "Martin Luther King Jr. gave the speech in Washington in 1963."
+    },
+    {
+      "id": "q05",
+      "text": "Which body makes federal laws in the USA?",
+      "options": [
+        "The Supreme Court",
+        "Congress",
+        "The President alone",
+        "The states"
+      ],
+      "correct": 1,
+      "explain": "Congress, consisting of the Senate and the House of Representatives, makes federal laws."
+    },
+    {
+      "id": "q06",
+      "text": "What does “checks and balances” mean?",
+      "options": [
+        "The three branches of government control each other",
+        "The president decides everything",
+        "A way of paying taxes",
+        "A type of bank account"
+      ],
+      "correct": 0,
+      "explain": "The system prevents any one branch from getting too much power."
+    },
+    {
+      "id": "q07",
+      "text": "What was segregation?",
+      "options": [
+        "A voting system",
+        "A type of school subject",
+        "Separation of people by race",
+        "A trade agreement"
+      ],
+      "correct": 2,
+      "explain": "Segregation meant separate schools, buses and public places for Black and white people, especially in the South."
+    },
+    {
+      "id": "q08",
+      "text": "What does the “salad bowl” image describe?",
+      "options": [
+        "American food",
+        "Cultures blending completely into one",
+        "A political party",
+        "Cultures living side by side while keeping their identities"
+      ],
+      "correct": 3,
+      "explain": "In a salad bowl the ingredients are mixed, but each keeps its own character."
+    },
+    {
+      "id": "q09",
+      "text": "How often is the US President elected?",
+      "options": [
+        "Every two years",
+        "Every four years",
+        "Every six years",
+        "For life"
+      ],
+      "correct": 1,
+      "explain": "Presidential elections are held every four years."
+    },
+    {
+      "id": "q10",
+      "text": "What is the American Dream?",
+      "options": [
+        "The idea that anyone can succeed through hard work",
+        "A famous film",
+        "The national anthem",
+        "A law from 1787"
+      ],
+      "correct": 0,
+      "explain": "The American Dream is about opportunity and success, though many debate how real it is for everyone."
+    }
+  ],
+  "mindmap": {
+    "label": "The United States",
+    "children": [
+      {
+        "label": "Facts",
+        "children": [
+          {
+            "label": "50 states"
+          },
+          {
+            "label": "Washington, D.C."
+          },
+          {
+            "label": "Over 300 million people"
+          }
+        ]
+      },
+      {
+        "label": "History",
+        "children": [
+          {
+            "label": "Native Americans"
+          },
+          {
+            "label": "1776 Independence"
+          },
+          {
+            "label": "Civil War 1861–65"
+          },
+          {
+            "label": "Civil rights movement"
+          }
+        ]
+      },
+      {
+        "label": "Government",
+        "children": [
+          {
+            "label": "Federal republic"
+          },
+          {
+            "label": "Congress",
+            "note": "Laws"
+          },
+          {
+            "label": "President",
+            "note": "4-year term"
+          },
+          {
+            "label": "Supreme Court"
+          }
+        ]
+      },
+      {
+        "label": "Society",
+        "children": [
+          {
+            "label": "Nation of immigrants"
+          },
+          {
+            "label": "Melting pot / salad bowl"
+          },
+          {
+            "label": "Democrats and Republicans"
+          }
+        ]
+      },
+      {
+        "label": "Ideas",
+        "children": [
+          {
+            "label": "“All men are created equal”"
+          },
+          {
+            "label": "The American Dream"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q09"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Washington, D.C. is one of the 50 states.",
+        "correct": false,
+        "explain": "Washington, D.C. is a federal district and not part of any state."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Rosa Parks refused to give up her seat on a bus in 1955.",
+        "correct": true,
+        "explain": "Her protest led to the Montgomery bus boycott."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "The states in the USA can make many of their own laws.",
+        "correct": true,
+        "explain": "In a federal system, states have their own laws on many issues."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "The USA has many political parties with equal power.",
+        "correct": false,
+        "explain": "American politics is dominated by two parties: the Democrats and the Republicans."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Which city is the biggest in the USA?",
+        "options": [
+          "Washington, D.C.",
+          "Los Angeles",
+          "New York",
+          "Chicago"
+        ],
+        "correct": 2,
+        "explain": "New York is the largest city in the USA."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "What does the Supreme Court do?",
+        "options": [
+          "Leads the army",
+          "Decides whether laws follow the Constitution",
+          "Elects the president",
+          "Collects taxes"
+        ],
+        "correct": 1,
+        "explain": "The Supreme Court is the highest court and interprets the Constitution."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Who lived in North America before Europeans arrived?",
+        "options": [
+          "Native American peoples",
+          "Nobody",
+          "The British",
+          "The Vikings only"
+        ],
+        "correct": 0,
+        "explain": "Many Native American peoples lived across the continent for thousands of years."
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
+}

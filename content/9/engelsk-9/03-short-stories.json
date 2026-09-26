@@ -1,0 +1,363 @@
+{
+  "id": "short-stories",
+  "fagId": "engelsk-9",
+  "trinnId": "9",
+  "name": "Short stories and literary analysis",
+  "intro": "Key features of short stories, literary terms like theme, symbol and irony, and how to write a short analysis of a story in English.",
+  "kompetansemaal": [
+    11,
+    10
+  ],
+  "sammendrag": "## What is a short story?\n\nA **short story** is a short work of fiction that can usually be read in one sitting. It has few characters, often one main setting and a limited time span. Many short stories start close to the action, build up to a **turning point**, and end in a way that makes the reader think.\n\n## Literary terms\n\nTo talk about stories in English, you need some key terms:\n\n- **Protagonist**: the main character. **Antagonist**: a character or force working against the protagonist.\n- **Plot**: the sequence of events. **Conflict**: the central problem. It can be **external** (person against person, nature or society) or **internal** (a struggle inside a character's mind).\n- **Setting**: time and place. The setting can create **atmosphere** – the mood of the story.\n- **Narrator** and **point of view**: who tells the story, in first or third person.\n- **Theme**: the main idea or message, such as friendship, identity or prejudice. A theme is usually expressed in a sentence: “The story shows that…”\n- **Symbol**: an object, place or colour that stands for something more, like a locked door standing for isolation.\n- **Foreshadowing**: hints about what will happen later.\n- **Irony**: when the opposite of what we expect happens, or when words mean the opposite of what is said.\n- **Open ending**: an ending that leaves questions unanswered.\n\n## Characterisation\n\nAuthors show us characters through **direct characterisation** (the narrator tells us what they are like) and **indirect characterisation** (we learn from their actions, words, thoughts and how others react to them). A **round** character is complex and changes, while a **flat** character has few traits and does not develop.\n\n## Writing a short analysis\n\nA good analysis in English has:\n\n- an **introduction** with title, author and a short summary (two or three sentences),\n- **body paragraphs** about characters, setting, narrator, literary devices and theme – each with a clear **topic sentence**,\n- **quotations** from the story as evidence, followed by your own explanation,\n- a **conclusion** that sums up your interpretation and perhaps your personal response.\n\nUse the **present tense** when you write about what happens in a story: “The narrator **feels** lonely”, not “felt”. Avoid retelling the whole plot – focus on **how** and **why** the story works.\n\n## Useful phrases\n\n“The story is set in…”, “The narrator is…”, “This suggests that…”, “The author uses… to show…”, “One of the main themes is…”, “In conclusion…”.",
+  "flashcards": [
+    {
+      "term": "Short story",
+      "def": "A short work of fiction with few characters, often one setting and a short time span."
+    },
+    {
+      "term": "Protagonist",
+      "def": "The main character in a story."
+    },
+    {
+      "term": "Antagonist",
+      "def": "A character or force that works against the protagonist."
+    },
+    {
+      "term": "External conflict",
+      "def": "A struggle between a character and another person, nature or society."
+    },
+    {
+      "term": "Internal conflict",
+      "def": "A struggle inside a character's mind."
+    },
+    {
+      "term": "Atmosphere",
+      "def": "The mood or feeling of a story, often created by the setting."
+    },
+    {
+      "term": "Theme",
+      "def": "The main idea or message of a story, such as identity or friendship."
+    },
+    {
+      "term": "Symbol",
+      "def": "An object, place or colour that stands for something more."
+    },
+    {
+      "term": "Foreshadowing",
+      "def": "Hints about what will happen later in the story."
+    },
+    {
+      "term": "Irony",
+      "def": "When the opposite of what is expected happens, or words mean the opposite of what is said."
+    },
+    {
+      "term": "Open ending",
+      "def": "An ending that leaves questions unanswered."
+    },
+    {
+      "term": "Indirect characterisation",
+      "def": "We learn about a character through actions, words and thoughts."
+    },
+    {
+      "term": "Round character",
+      "def": "A complex character who changes during the story."
+    },
+    {
+      "term": "Flat character",
+      "def": "A simple character with few traits who does not develop."
+    },
+    {
+      "term": "Present tense in analysis",
+      "def": "Write about stories in the present tense: “The narrator feels lonely.”"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "What is the protagonist?",
+      "options": [
+        "The villain",
+        "The main character",
+        "The narrator's friend",
+        "The setting"
+      ],
+      "correct": 1,
+      "explain": "The protagonist is the main character, the one the story is mostly about."
+    },
+    {
+      "id": "q02",
+      "text": "A girl struggles to decide whether to tell the truth. What kind of conflict is this?",
+      "options": [
+        "Internal conflict",
+        "External conflict with nature",
+        "External conflict with society",
+        "No conflict"
+      ],
+      "correct": 0,
+      "explain": "The struggle happens inside her mind, so it is an internal conflict."
+    },
+    {
+      "id": "q03",
+      "text": "What is a theme?",
+      "options": [
+        "The title",
+        "The place where the story happens",
+        "The main idea or message of the story",
+        "The first sentence"
+      ],
+      "correct": 2,
+      "explain": "The theme is what the story is really about on a deeper level, like loneliness or courage."
+    },
+    {
+      "id": "q04",
+      "text": "A fire station burns down. What literary device is this an example of?",
+      "options": [
+        "Foreshadowing",
+        "Symbol",
+        "Flat character",
+        "Irony"
+      ],
+      "correct": 3,
+      "explain": "It is the opposite of what we would expect, which is situational irony."
+    },
+    {
+      "id": "q05",
+      "text": "Which tense should you use when writing an analysis of a story?",
+      "options": [
+        "Present tense",
+        "Past tense",
+        "Future tense",
+        "Past perfect"
+      ],
+      "correct": 0,
+      "explain": "Literary analysis uses the present tense: “The narrator describes…”."
+    },
+    {
+      "id": "q06",
+      "text": "What is foreshadowing?",
+      "options": [
+        "A description of shadows",
+        "Hints about what will happen later",
+        "The ending of the story",
+        "A flashback"
+      ],
+      "correct": 1,
+      "explain": "Foreshadowing builds suspense by hinting at future events."
+    },
+    {
+      "id": "q07",
+      "text": "What is indirect characterisation?",
+      "options": [
+        "The narrator tells us what a character is like",
+        "We learn about a character through actions, words and thoughts",
+        "The character is not important",
+        "The character is described in a list"
+      ],
+      "correct": 1,
+      "explain": "Indirect characterisation lets the reader draw conclusions from what the character does and says."
+    },
+    {
+      "id": "q08",
+      "text": "What should a good body paragraph in an analysis contain?",
+      "options": [
+        "Only a long quotation",
+        "A retelling of the whole plot",
+        "A topic sentence, evidence from the text and your own explanation",
+        "Only your personal opinion"
+      ],
+      "correct": 2,
+      "explain": "A clear point, evidence and explanation show that your interpretation is based on the text."
+    },
+    {
+      "id": "q09",
+      "text": "A character who changes and develops during the story is called",
+      "options": [
+        "a flat character",
+        "a narrator",
+        "an antagonist",
+        "a round character"
+      ],
+      "correct": 3,
+      "explain": "Round characters are complex and often change, while flat characters stay the same."
+    },
+    {
+      "id": "q10",
+      "text": "What is an open ending?",
+      "options": [
+        "An ending that leaves questions unanswered",
+        "A happy ending",
+        "An ending where everyone dies",
+        "The first chapter"
+      ],
+      "correct": 0,
+      "explain": "An open ending invites the reader to think and interpret for themselves."
+    }
+  ],
+  "mindmap": {
+    "label": "Short stories",
+    "children": [
+      {
+        "label": "Features",
+        "children": [
+          {
+            "label": "Few characters"
+          },
+          {
+            "label": "Short time span"
+          },
+          {
+            "label": "Turning point"
+          },
+          {
+            "label": "Open ending"
+          }
+        ]
+      },
+      {
+        "label": "Characters",
+        "children": [
+          {
+            "label": "Protagonist / antagonist"
+          },
+          {
+            "label": "Direct / indirect"
+          },
+          {
+            "label": "Round / flat"
+          }
+        ]
+      },
+      {
+        "label": "Elements",
+        "children": [
+          {
+            "label": "Plot and conflict"
+          },
+          {
+            "label": "Setting and atmosphere"
+          },
+          {
+            "label": "Narrator and point of view"
+          }
+        ]
+      },
+      {
+        "label": "Devices",
+        "children": [
+          {
+            "label": "Symbol"
+          },
+          {
+            "label": "Foreshadowing"
+          },
+          {
+            "label": "Irony"
+          }
+        ]
+      },
+      {
+        "label": "Analysis",
+        "children": [
+          {
+            "label": "Intro with short summary"
+          },
+          {
+            "label": "Topic sentences"
+          },
+          {
+            "label": "Quotations as evidence"
+          },
+          {
+            "label": "Present tense"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q08",
+      "q09"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "A good analysis retells the whole plot in detail.",
+        "correct": false,
+        "explain": "A short summary is enough. The analysis should explain how and why the story works."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "The setting can help create atmosphere in a story.",
+        "correct": true,
+        "explain": "A dark, stormy night creates a very different mood from a sunny beach."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "The antagonist is always a person.",
+        "correct": false,
+        "explain": "The antagonist can also be nature, society or another force."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Quotations can be used as evidence for your interpretation.",
+        "correct": true,
+        "explain": "Quotations show that your points are based on the text."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "A locked door appears several times in a story about a lonely boy. What might it be?",
+        "options": [
+          "A symbol of isolation",
+          "An antagonist",
+          "The narrator",
+          "Foreshadowing of a party"
+        ],
+        "correct": 0,
+        "explain": "The locked door can stand for the boy being shut out or shutting others out."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Which phrase is useful when you explain a quotation?",
+        "options": [
+          "Once upon a time…",
+          "This suggests that…",
+          "The end.",
+          "Dear Sir or Madam,"
+        ],
+        "correct": 1,
+        "explain": "“This suggests that…” helps you explain what the quotation shows."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "What is atmosphere?",
+        "options": [
+          "The weather only",
+          "The title",
+          "The mood or feeling of a story",
+          "The main character's name"
+        ],
+        "correct": 2,
+        "explain": "Atmosphere is the overall mood, created by setting, language and events."
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
+}

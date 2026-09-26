@@ -1,0 +1,360 @@
+{
+  "id": "common-grammar-mistakes",
+  "fagId": "engelsk-9",
+  "trinnId": "9",
+  "name": "Common mistakes and false friends",
+  "intro": "The grammar mistakes Norwegian learners make most often – subject–verb agreement, much/many, it/there, the article – and false friends between Norwegian and English.",
+  "kompetansemaal": [
+    9,
+    7,
+    8
+  ],
+  "sammendrag": "## Learning from mistakes\n\nNorwegian and English are closely related, which makes English easier to learn. But the similarities also cause typical mistakes, because we are tempted to translate directly. Knowing the most common traps helps you avoid them.\n\n## Subject–verb agreement\n\nThe verb must agree with the subject. In the present simple, **he, she and it** need **-s**: She **plays**, it **works**. With **there is / there are**, the verb agrees with what comes after: There **is** a problem. There **are** two problems. Words like **everybody**, **nobody** and **each** are singular: Everybody **is** here. **People** and **police** are plural: The police **are** coming.\n\n## Much or many?\n\n**Many** is used with things we can count: many books, many people. **Much** is used with things we cannot count: much water, much time. The same goes for **few/little** and **fewer/less**. Some nouns are uncountable in English but countable in Norwegian: **information**, **advice**, **furniture**, **news**, **homework**. We say “a piece of advice”, not “an advice”, and “The news **is** good”.\n\n## It or there?\n\nNorwegian “det” can be both **it** and **there** in English. Use **there** when something exists or is present: **There is** a cat in the garden. Use **it** about something already mentioned, or about weather and time: **It is** raining. **It is** late.\n\n## Articles\n\nEnglish uses **a/an** with jobs: She is **a** doctor. English usually does **not** use the article with general ideas, meals and many institutions: **Life** is short. We had **dinner**. He is in **hospital** (British).\n\n## Adjective or adverb?\n\nUse an **adjective** to describe a noun and an **adverb** to describe a verb: She is a **good** singer. She sings **well**. He drives **carefully**, not “careful”.\n\n## False friends\n\n**False friends** look similar to Norwegian words but mean something else:\n\n- **eventually** = til slutt (not eventuelt – that is “possibly”)\n- **actually** = faktisk (not aktuelt – that is “relevant”)\n- **sensible** = fornuftig (not sensibel – that is “sensitive”)\n- **fabric** = stoff (not fabrikk – that is “factory”)\n- **become** = bli (not bekomme)\n- **brave** = modig (not brav – that is “well-behaved”)\n\n## Tip\n\nMake your own list of mistakes you often make, and check your texts for them before you hand them in.",
+  "flashcards": [
+    {
+      "term": "Subject–verb agreement",
+      "def": "The verb must match the subject: she plays, they play."
+    },
+    {
+      "term": "There is / there are",
+      "def": "The verb agrees with what follows: there is a cat, there are two cats."
+    },
+    {
+      "term": "Everybody is",
+      "def": "Everybody, nobody and each are singular."
+    },
+    {
+      "term": "The police are",
+      "def": "Police and people are plural in English."
+    },
+    {
+      "term": "many",
+      "def": "With countable nouns: many books, many people."
+    },
+    {
+      "term": "much",
+      "def": "With uncountable nouns: much water, much time."
+    },
+    {
+      "term": "Uncountable nouns",
+      "def": "information, advice, furniture, news, homework – no plural and no “a”."
+    },
+    {
+      "term": "It or there?",
+      "def": "There = something exists. It = something already mentioned, weather, time."
+    },
+    {
+      "term": "She is a doctor",
+      "def": "English uses a/an with jobs."
+    },
+    {
+      "term": "good / well",
+      "def": "Adjective and adverb: a good singer, she sings well."
+    },
+    {
+      "term": "eventually",
+      "def": "False friend: til slutt."
+    },
+    {
+      "term": "actually",
+      "def": "False friend: faktisk."
+    },
+    {
+      "term": "sensible",
+      "def": "False friend: fornuftig. (sensitive = sensibel)"
+    },
+    {
+      "term": "fabric",
+      "def": "False friend: stoff. (factory = fabrikk)"
+    },
+    {
+      "term": "brave",
+      "def": "False friend: modig. (well-behaved = brav)"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Choose the correct sentence.",
+      "options": [
+        "She play the guitar.",
+        "She plays the guitar.",
+        "She playing the guitar.",
+        "She are playing the guitar."
+      ],
+      "correct": 1,
+      "explain": "With “she” in the present simple, the verb needs -s: she plays."
+    },
+    {
+      "id": "q02",
+      "text": "Choose the correct word: “There … two cars outside.”",
+      "options": [
+        "is",
+        "be",
+        "are",
+        "am"
+      ],
+      "correct": 2,
+      "explain": "The verb agrees with “two cars”, which is plural: there are."
+    },
+    {
+      "id": "q03",
+      "text": "Choose the correct word: “How … money do you have?”",
+      "options": [
+        "much",
+        "many",
+        "few",
+        "a lot"
+      ],
+      "correct": 0,
+      "explain": "Money is uncountable, so we use “much”."
+    },
+    {
+      "id": "q04",
+      "text": "Which sentence is correct?",
+      "options": [
+        "Can you give me an advice?",
+        "Can you give me some advices?",
+        "Can you give me a advice?",
+        "Can you give me some advice?"
+      ],
+      "correct": 3,
+      "explain": "“Advice” is uncountable in English. Say “some advice” or “a piece of advice”."
+    },
+    {
+      "id": "q05",
+      "text": "Choose the correct word: “… is raining again.”",
+      "options": [
+        "There",
+        "It",
+        "This",
+        "Here"
+      ],
+      "correct": 1,
+      "explain": "We use “it” about the weather: It is raining."
+    },
+    {
+      "id": "q06",
+      "text": "What does “eventually” mean?",
+      "options": [
+        "eventuelt",
+        "vanligvis",
+        "til slutt",
+        "straks"
+      ],
+      "correct": 2,
+      "explain": "“Eventually” means “til slutt”. “Eventuelt” is “possibly” or “if necessary”."
+    },
+    {
+      "id": "q07",
+      "text": "Which sentence is correct?",
+      "options": [
+        "She is doctor.",
+        "She is a doctor.",
+        "She is the doctor for job.",
+        "She doctor is."
+      ],
+      "correct": 1,
+      "explain": "English uses a/an before jobs: She is a doctor."
+    },
+    {
+      "id": "q08",
+      "text": "Choose the correct word: “He drives very …”",
+      "options": [
+        "careful",
+        "carefully",
+        "care",
+        "carefulness"
+      ],
+      "correct": 1,
+      "explain": "An adverb describes how he drives: carefully."
+    },
+    {
+      "id": "q09",
+      "text": "What does “sensible” mean?",
+      "options": [
+        "fornuftig",
+        "sensibel",
+        "følsom",
+        "sanselig"
+      ],
+      "correct": 0,
+      "explain": "“Sensible” means “fornuftig”. “Sensibel” in Norwegian is “sensitive” in English."
+    },
+    {
+      "id": "q10",
+      "text": "Choose the correct sentence.",
+      "options": [
+        "Everybody are here.",
+        "Everybody were here now.",
+        "Everybody is here.",
+        "Everybody be here."
+      ],
+      "correct": 2,
+      "explain": "“Everybody” is grammatically singular: Everybody is here."
+    }
+  ],
+  "mindmap": {
+    "label": "Common mistakes",
+    "children": [
+      {
+        "label": "Agreement",
+        "children": [
+          {
+            "label": "he/she/it + s"
+          },
+          {
+            "label": "There is / are"
+          },
+          {
+            "label": "Everybody is"
+          },
+          {
+            "label": "The police are"
+          }
+        ]
+      },
+      {
+        "label": "Countable?",
+        "children": [
+          {
+            "label": "many / much"
+          },
+          {
+            "label": "few / little"
+          },
+          {
+            "label": "advice, news, information",
+            "note": "Uncountable"
+          }
+        ]
+      },
+      {
+        "label": "It or there",
+        "children": [
+          {
+            "label": "There = exists"
+          },
+          {
+            "label": "It = weather, time"
+          }
+        ]
+      },
+      {
+        "label": "Other traps",
+        "children": [
+          {
+            "label": "a/an with jobs"
+          },
+          {
+            "label": "Adjective vs adverb",
+            "note": "good / well"
+          }
+        ]
+      },
+      {
+        "label": "False friends",
+        "children": [
+          {
+            "label": "eventually = til slutt"
+          },
+          {
+            "label": "actually = faktisk"
+          },
+          {
+            "label": "sensible = fornuftig"
+          },
+          {
+            "label": "brave = modig"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q08",
+      "q10"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "“The news are good” is correct English.",
+        "correct": false,
+        "explain": "“News” is uncountable and singular: The news is good."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "“Actually” means “faktisk”.",
+        "correct": true,
+        "explain": "“Actually” is a false friend. “Aktuelt” is “relevant” or “current”."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "“Many” is used with uncountable nouns like water.",
+        "correct": false,
+        "explain": "“Many” is for countable nouns. With water we use “much”."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "“There is a cat in the garden” uses “there” because the sentence says that something exists.",
+        "correct": true,
+        "explain": "“There is/are” introduces something that exists or is present."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "What does “fabric” mean?",
+        "options": [
+          "fabrikk",
+          "stoff",
+          "fabel",
+          "fasade"
+        ],
+        "correct": 1,
+        "explain": "“Fabric” is cloth or material. A factory is “fabrikk”."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Choose the correct word: “There were … people at the concert than last year.”",
+        "options": [
+          "less",
+          "little",
+          "fewer",
+          "much"
+        ],
+        "correct": 2,
+        "explain": "“People” is countable, so we use “fewer”."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Which sentence uses “good” and “well” correctly?",
+        "options": [
+          "She sings good.",
+          "She is a well singer.",
+          "She sings goodly.",
+          "She sings well."
+        ],
+        "correct": 3,
+        "explain": "“Well” is the adverb that describes how she sings."
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
+}

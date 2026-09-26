@@ -1,0 +1,366 @@
+{
+  "id": "writing-narratives",
+  "fagId": "engelsk-8",
+  "trinnId": "8",
+  "name": "Writing narratives",
+  "intro": "How to plan, write and revise a story in English: structure, point of view, dialogue, descriptive language and using feedback.",
+  "kompetansemaal": [
+    14,
+    15,
+    9
+  ],
+  "sammendrag": "## What is a narrative?\n\nA **narrative** is a text that tells a story. It can be a short story, a personal story about something that happened to you, or a fairy tale. Most narratives have **characters**, a **setting** (where and when), and a **plot** (what happens).\n\n## Structure\n\nA classic story follows a simple pattern:\n\n- **Beginning (exposition)**: introduce the main character and the setting.\n- **Conflict**: something happens that creates a problem.\n- **Rising action**: the tension builds.\n- **Climax**: the most exciting moment, the turning point.\n- **Ending (resolution)**: the problem is solved, or the story ends in an open way.\n\nYou do not have to start at the beginning. A story that starts in the middle of the action grabs the reader's attention: “The door slammed shut behind me, and the lights went out.”\n\n## Point of view\n\nA **first-person narrator** tells the story as “I”, which makes the reader feel close to the character. A **third-person narrator** tells the story about “he”, “she” or “they”, and can show several characters' thoughts. Choose one point of view and stick to it.\n\n## Show, don't tell\n\nInstead of telling the reader that someone is scared, **show** it: “Her hands were shaking, and she could hear her own heartbeat.” Use your senses – what can the character see, hear, smell, feel and taste? Choose precise verbs and adjectives: “crept” instead of “walked slowly”, “freezing” instead of “very cold”.\n\n## Dialogue\n\nDialogue brings characters to life. In English, dialogue is written with **quotation marks**, and a **new line** starts every time a new person speaks:\n\n“Where are you going?” Mum asked.\n\n“Nowhere,” I mumbled.\n\nVary the verbs: asked, whispered, shouted, replied, mumbled.\n\n## Tense and linking words\n\nMost stories are written in the **past tense**. Stay in the same tense throughout. **Linking words** show the order of events and create flow: first, then, suddenly, meanwhile, after that, finally.\n\n## Revising your story\n\nWhen you get **feedback**, use it actively. Read your story aloud and ask: Is the beginning interesting? Is there a clear conflict? Have I shown feelings instead of just telling them? Have I checked tense, spelling and punctuation? Good writers always revise; the first draft is never the final version.",
+  "flashcards": [
+    {
+      "term": "Narrative",
+      "def": "A text that tells a story, real or made up."
+    },
+    {
+      "term": "Character",
+      "def": "A person or creature in a story."
+    },
+    {
+      "term": "Setting",
+      "def": "Where and when a story takes place."
+    },
+    {
+      "term": "Plot",
+      "def": "What happens in the story; the sequence of events."
+    },
+    {
+      "term": "Conflict",
+      "def": "The problem or struggle that drives the story forward."
+    },
+    {
+      "term": "Climax",
+      "def": "The most exciting moment and turning point of the story."
+    },
+    {
+      "term": "Resolution",
+      "def": "The ending, where the problem is solved or the story is rounded off."
+    },
+    {
+      "term": "In medias res",
+      "def": "Starting a story in the middle of the action."
+    },
+    {
+      "term": "First-person narrator",
+      "def": "The story is told by a character using “I”."
+    },
+    {
+      "term": "Third-person narrator",
+      "def": "The story is told about “he”, “she” or “they”."
+    },
+    {
+      "term": "Show, don't tell",
+      "def": "Show feelings through actions and details instead of naming them."
+    },
+    {
+      "term": "Dialogue",
+      "def": "Characters speaking. Use quotation marks and a new line for each speaker."
+    },
+    {
+      "term": "Linking words",
+      "def": "Words like first, suddenly, meanwhile, finally that create flow."
+    },
+    {
+      "term": "Past tense in stories",
+      "def": "Most stories are written in the past tense. Keep the same tense throughout."
+    },
+    {
+      "term": "Revise",
+      "def": "Improve a text after feedback: content, structure, language and spelling."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "What is the setting of a story?",
+      "options": [
+        "The main character",
+        "Where and when the story takes place",
+        "The ending",
+        "The title"
+      ],
+      "correct": 1,
+      "explain": "The setting tells the reader the place and time of the story."
+    },
+    {
+      "id": "q02",
+      "text": "What is the climax of a story?",
+      "options": [
+        "The first sentence",
+        "The list of characters",
+        "The most exciting moment and turning point",
+        "The author's name"
+      ],
+      "correct": 2,
+      "explain": "The climax is where the tension is highest and something important changes."
+    },
+    {
+      "id": "q03",
+      "text": "Which sentence “shows” rather than “tells”?",
+      "options": [
+        "She was very nervous.",
+        "He was sad.",
+        "They were happy.",
+        "Her hands were shaking as she opened the letter."
+      ],
+      "correct": 3,
+      "explain": "The shaking hands show that she is nervous, without naming the feeling."
+    },
+    {
+      "id": "q04",
+      "text": "How is dialogue usually written in English?",
+      "options": [
+        "With quotation marks and a new line for each speaker",
+        "In capital letters",
+        "Without any punctuation",
+        "In brackets"
+      ],
+      "correct": 0,
+      "explain": "Quotation marks show what is said, and a new line makes it clear who is speaking."
+    },
+    {
+      "id": "q05",
+      "text": "What tense are most stories written in?",
+      "options": [
+        "Present continuous",
+        "Past tense",
+        "Future tense",
+        "It does not matter, you can change often"
+      ],
+      "correct": 1,
+      "explain": "Most stories use the past tense, and it is important to stay in the same tense."
+    },
+    {
+      "id": "q06",
+      "text": "What does a first-person narrator use?",
+      "options": [
+        "“I”",
+        "“he” or “she”",
+        "“you”",
+        "“they” only"
+      ],
+      "correct": 0,
+      "explain": "The first-person narrator is a character in the story who tells it as “I”."
+    },
+    {
+      "id": "q07",
+      "text": "Which verb is more precise than “walked slowly”?",
+      "options": [
+        "went",
+        "moved",
+        "crept",
+        "did"
+      ],
+      "correct": 2,
+      "explain": "“Crept” tells the reader that the character moved slowly and quietly."
+    },
+    {
+      "id": "q08",
+      "text": "What is the conflict in a story?",
+      "options": [
+        "The title",
+        "The problem or struggle that drives the story",
+        "The setting",
+        "The last sentence"
+      ],
+      "correct": 1,
+      "explain": "Without a conflict, there is little to keep the reader interested."
+    },
+    {
+      "id": "q09",
+      "text": "Which is a linking word that shows something unexpected?",
+      "options": [
+        "finally",
+        "first",
+        "then",
+        "suddenly"
+      ],
+      "correct": 3,
+      "explain": "“Suddenly” signals a surprising change in the story."
+    },
+    {
+      "id": "q10",
+      "text": "What should you do with feedback on your story?",
+      "options": [
+        "Ignore it",
+        "Use it to revise and improve the text",
+        "Delete the story",
+        "Only fix the title"
+      ],
+      "correct": 1,
+      "explain": "Feedback helps you see your text through a reader's eyes, so you can make it better."
+    }
+  ],
+  "mindmap": {
+    "label": "Writing narratives",
+    "children": [
+      {
+        "label": "Elements",
+        "children": [
+          {
+            "label": "Characters"
+          },
+          {
+            "label": "Setting"
+          },
+          {
+            "label": "Plot"
+          }
+        ]
+      },
+      {
+        "label": "Structure",
+        "children": [
+          {
+            "label": "Beginning"
+          },
+          {
+            "label": "Conflict"
+          },
+          {
+            "label": "Rising action"
+          },
+          {
+            "label": "Climax"
+          },
+          {
+            "label": "Ending"
+          }
+        ]
+      },
+      {
+        "label": "Point of view",
+        "children": [
+          {
+            "label": "First person",
+            "note": "“I”"
+          },
+          {
+            "label": "Third person",
+            "note": "“he”, “she”"
+          }
+        ]
+      },
+      {
+        "label": "Language",
+        "children": [
+          {
+            "label": "Show, don't tell"
+          },
+          {
+            "label": "The five senses"
+          },
+          {
+            "label": "Precise verbs"
+          },
+          {
+            "label": "Dialogue rules"
+          }
+        ]
+      },
+      {
+        "label": "Revising",
+        "children": [
+          {
+            "label": "Same tense"
+          },
+          {
+            "label": "Linking words"
+          },
+          {
+            "label": "Use feedback"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q07",
+      "q08",
+      "q10"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "A story must always start at the very beginning of the events.",
+        "correct": false,
+        "explain": "Many stories start in the middle of the action to catch the reader's attention."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "You should start a new line when a new character speaks.",
+        "correct": true,
+        "explain": "This makes it clear who is speaking in a dialogue."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Using your senses in descriptions makes a story more vivid.",
+        "correct": true,
+        "explain": "Details about what characters see, hear and feel bring the story to life."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "It is good style to switch between past and present tense often.",
+        "correct": false,
+        "explain": "Switching tense by accident confuses the reader. Stay in one tense."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Which opening grabs the reader's attention best?",
+        "options": [
+          "This is a story about a boy.",
+          "The door slammed shut behind me, and the lights went out.",
+          "Once there was a day.",
+          "I will now tell a story."
+        ],
+        "correct": 1,
+        "explain": "Starting in the middle of dramatic action makes the reader want to know more."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "What is the resolution of a story?",
+        "options": [
+          "The beginning",
+          "The climax",
+          "The ending, where the problem is solved or rounded off",
+          "The dialogue"
+        ],
+        "correct": 2,
+        "explain": "The resolution ties up the story after the climax."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Which verb could replace “said” when someone speaks very quietly?",
+        "options": [
+          "whispered",
+          "yelled",
+          "screamed",
+          "shouted"
+        ],
+        "correct": 0,
+        "explain": "“Whispered” tells the reader that the character speaks very quietly."
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
+}

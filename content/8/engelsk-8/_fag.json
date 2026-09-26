@@ -1,0 +1,95 @@
+{
+  "id": "engelsk-8",
+  "trinnId": "8",
+  "name": "Engelsk",
+  "lareplan": {
+    "kode": "ENG01-06",
+    "url": "https://www.udir.no/lk20/eng01-06/kompetansemaal-og-vurdering/kv1033",
+    "kompetansemaal": [
+      {
+        "nr": 1,
+        "tekst": "bruke varierte strategier i språklæring, tekstskaping og kommunikasjon"
+      },
+      {
+        "nr": 2,
+        "tekst": "bruke ulike digitale ressurser og andre hjelpemidler i språklæring, tekstskaping og samhandling"
+      },
+      {
+        "nr": 3,
+        "tekst": "bruke sentrale mønstre for uttale i kommunikasjon"
+      },
+      {
+        "nr": 4,
+        "tekst": "lytte til og forstå ord og uttrykk i varianter av engelsk"
+      },
+      {
+        "nr": 5,
+        "tekst": "uttrykke seg med flyt og sammenheng med et variert ordforråd og idiomatiske uttrykk tilpasset formål, mottaker og situasjon"
+      },
+      {
+        "nr": 6,
+        "tekst": "stille spørsmål og følge opp innspill i samtaler om ulike emner tilpasset ulike formål, mottakere og situasjoner"
+      },
+      {
+        "nr": 7,
+        "tekst": "utforske og beskrive noen språklige likheter og ulikheter mellom engelsk og andre språk eleven kjenner til, og bruke dette i egen språklæring"
+      },
+      {
+        "nr": 8,
+        "tekst": "bruke kunnskap om ordklasser og setningsstruktur i arbeid med egne muntlige og skriftlige tekster"
+      },
+      {
+        "nr": 9,
+        "tekst": "følge regler for rettskriving, ordbøying, setningsstruktur og tekststruktur"
+      },
+      {
+        "nr": 10,
+        "tekst": "lese, diskutere og videreformidle innhold fra ulike typer tekster, inkludert selvvalgte tekster"
+      },
+      {
+        "nr": 11,
+        "tekst": "lese, tolke og reflektere over engelskspråklig skjønnlitteratur, inkludert ungdomslitteratur"
+      },
+      {
+        "nr": 12,
+        "tekst": "lese sakprosatekster og vurdere hvor pålitelige kildene er"
+      },
+      {
+        "nr": 13,
+        "tekst": "bruke kilder på en kritisk og etterrettelig måte"
+      },
+      {
+        "nr": 14,
+        "tekst": "skrive formelle og uformelle tekster, inkludert sammensatte, med struktur og sammenheng som beskriver, forteller og reflekterer tilpasset formål, mottaker og situasjon"
+      },
+      {
+        "nr": 15,
+        "tekst": "bearbeide egne tekster ut fra tilbakemeldinger og kunnskap om språk"
+      },
+      {
+        "nr": 16,
+        "tekst": "beskrive og reflektere over rollen engelsk har i Norge og i verden"
+      },
+      {
+        "nr": 17,
+        "tekst": "utforske og reflektere over situasjonen til urfolk i den engelskspråklige verden og i Norge"
+      },
+      {
+        "nr": 18,
+        "tekst": "utforske og beskrive levemåter, tenkesett, kommunikasjonsmønstre og mangfold i den engelskspråklige verden"
+      },
+      {
+        "nr": 19,
+        "tekst": "utforske og videreformidle innhold i engelskspråklige kulturelle uttrykksformer fra ulike medier knyttet til egne interesser"
+      }
+    ]
+  },
+  "temaer": [
+    "word-classes-and-sentences",
+    "verb-tenses",
+    "learning-strategies-and-vocabulary",
+    "writing-narratives",
+    "english-around-the-world",
+    "the-united-kingdom"
+  ]
+}

@@ -1,0 +1,364 @@
+{
+  "id": "formal-and-informal-writing",
+  "fagId": "engelsk-9",
+  "trinnId": "9",
+  "name": "Formal and informal writing",
+  "intro": "How to adapt your English to purpose, receiver and situation – with rules for formal emails and letters, and the features of informal texts.",
+  "kompetansemaal": [
+    14,
+    5,
+    9
+  ],
+  "sammendrag": "## Register\n\nThe way we use language changes with the situation. This is called **register**. You write differently to a friend than to a company or a school principal. Before you write, ask yourself: What is the **purpose**? Who is the **receiver**? What is the **situation**? The answers decide whether your text should be **formal** or **informal**.\n\n## Informal writing\n\nInformal texts are written to people you know well: friends, family, classmates. Typical features:\n\n- Greetings like **Hi**, **Hey** or **Hello Tom**.\n- **Contractions**: I'm, don't, can't, we'll.\n- Everyday words and sometimes slang: stuff, cool, awesome.\n- Short sentences, exclamation marks and questions to the reader.\n- Endings like **See you soon!**, **Take care** or **Love**.\n\n## Formal writing\n\nFormal texts are written to people you do not know, or in official situations: job applications, complaints, emails to a teacher or a company. Typical features:\n\n- A formal greeting: **Dear Mr Smith** or **Dear Ms Jones** if you know the name, **Dear Sir or Madam** if you do not.\n- **No contractions**: I am, do not, cannot.\n- Polite and precise language: **I would like to…**, **Could you please…**, **I would be grateful if…**\n- No slang, and full, well-structured sentences.\n- A clear structure: why you are writing, the details, and what you want to happen next.\n- A formal ending. In British English, **Yours sincerely** is used after “Dear Mr Smith”, and **Yours faithfully** after “Dear Sir or Madam”. **Kind regards** or **Best regards** are common in emails.\n\n## Example phrases\n\n- Opening: “I am writing to enquire about…”, “I am writing to complain about…”\n- Asking: “Could you please send me more information about…?”\n- Closing: “I look forward to hearing from you.”\n\n## Common text types\n\n- **Application letter**: presents you and explains why you are suited for a job or a course.\n- **Letter of complaint**: explains a problem politely but firmly and says what you expect.\n- **Blog post**: often informal and personal, but should still be clear and well organised.\n- **Article**: more neutral and informative, with a catchy headline.\n\n## Mixing registers\n\nA common mistake is mixing registers, like starting “Dear Sir or Madam” and ending “See ya!”. Choose one register and keep it throughout. When you revise your text, check greetings, endings, contractions and vocabulary.",
+  "flashcards": [
+    {
+      "term": "Register",
+      "def": "How formal or informal language is, adapted to the situation."
+    },
+    {
+      "term": "Purpose, receiver, situation",
+      "def": "Three questions that decide how formal a text should be."
+    },
+    {
+      "term": "Contraction",
+      "def": "A short form like I'm, don't, can't. Common in informal writing."
+    },
+    {
+      "term": "Informal greeting",
+      "def": "Hi, Hey, Hello Tom."
+    },
+    {
+      "term": "Formal greeting, name known",
+      "def": "Dear Mr Smith / Dear Ms Jones."
+    },
+    {
+      "term": "Formal greeting, name unknown",
+      "def": "Dear Sir or Madam."
+    },
+    {
+      "term": "Yours sincerely",
+      "def": "British formal ending after “Dear Mr Smith”."
+    },
+    {
+      "term": "Yours faithfully",
+      "def": "British formal ending after “Dear Sir or Madam”."
+    },
+    {
+      "term": "Kind regards",
+      "def": "A polite, common ending in emails."
+    },
+    {
+      "term": "I would like to…",
+      "def": "A polite formal phrase for saying what you want."
+    },
+    {
+      "term": "I am writing to enquire about…",
+      "def": "A formal opening for asking for information."
+    },
+    {
+      "term": "I look forward to hearing from you.",
+      "def": "A standard formal closing sentence."
+    },
+    {
+      "term": "Application letter",
+      "def": "A formal letter presenting yourself for a job or course."
+    },
+    {
+      "term": "Letter of complaint",
+      "def": "A formal letter that explains a problem and what you expect."
+    },
+    {
+      "term": "Mixing registers",
+      "def": "Using both formal and informal language in one text. Should be avoided."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Which greeting is best in an email to a company when you do not know the name?",
+      "options": [
+        "Hey guys!",
+        "Dear Sir or Madam,",
+        "Hi there,",
+        "Yo,"
+      ],
+      "correct": 1,
+      "explain": "“Dear Sir or Madam” is the standard formal greeting when you do not know the receiver's name."
+    },
+    {
+      "id": "q02",
+      "text": "Which sentence is formal?",
+      "options": [
+        "I'm gonna need the info asap.",
+        "Send me the stuff!",
+        "Could you please send me more information?",
+        "Gimme the details."
+      ],
+      "correct": 2,
+      "explain": "Polite phrases like “Could you please…” and no slang or contractions make it formal."
+    },
+    {
+      "id": "q03",
+      "text": "In British English, which ending goes with “Dear Mr Smith”?",
+      "options": [
+        "Yours sincerely",
+        "Yours faithfully",
+        "Love",
+        "See you"
+      ],
+      "correct": 0,
+      "explain": "When you know the name, the traditional British ending is “Yours sincerely”."
+    },
+    {
+      "id": "q04",
+      "text": "What is a contraction?",
+      "options": [
+        "A long word",
+        "A formal greeting",
+        "A type of letter",
+        "A short form like “don't” or “I'm”"
+      ],
+      "correct": 3,
+      "explain": "Contractions combine two words. They are common in informal writing, but avoided in formal texts."
+    },
+    {
+      "id": "q05",
+      "text": "Which phrase is a good formal opening?",
+      "options": [
+        "What's up?",
+        "I am writing to complain about the product I bought.",
+        "So, this thing broke.",
+        "Hey, just wanted to say…"
+      ],
+      "correct": 1,
+      "explain": "“I am writing to…” clearly and politely states the purpose of a formal letter."
+    },
+    {
+      "id": "q06",
+      "text": "What is register?",
+      "options": [
+        "How formal or informal language is",
+        "A list of names",
+        "The length of a text",
+        "A spelling rule"
+      ],
+      "correct": 0,
+      "explain": "Register is about adapting language to purpose, receiver and situation."
+    },
+    {
+      "id": "q07",
+      "text": "Which of these is a mistake in a formal letter?",
+      "options": [
+        "Using full sentences",
+        "Using “I would like to”",
+        "Ending with “See ya!”",
+        "Stating the purpose early"
+      ],
+      "correct": 2,
+      "explain": "“See ya!” is informal slang and does not fit in a formal letter."
+    },
+    {
+      "id": "q08",
+      "text": "Which ending is common and polite in emails?",
+      "options": [
+        "Bye bye",
+        "Kind regards",
+        "Later!",
+        "XOXO"
+      ],
+      "correct": 1,
+      "explain": "“Kind regards” or “Best regards” are polite endings suitable for most emails."
+    },
+    {
+      "id": "q09",
+      "text": "Which text is usually most informal?",
+      "options": [
+        "A job application",
+        "A letter of complaint",
+        "An email to the principal",
+        "A text message to a friend"
+      ],
+      "correct": 3,
+      "explain": "Messages to friends are personal and informal."
+    },
+    {
+      "id": "q10",
+      "text": "Which sentence closes a formal letter well?",
+      "options": [
+        "I look forward to hearing from you.",
+        "Hope u reply soon!!",
+        "That's it.",
+        "Whatever."
+      ],
+      "correct": 0,
+      "explain": "“I look forward to hearing from you” is a standard, polite formal closing."
+    }
+  ],
+  "mindmap": {
+    "label": "Formal and informal writing",
+    "children": [
+      {
+        "label": "Register",
+        "children": [
+          {
+            "label": "Purpose"
+          },
+          {
+            "label": "Receiver"
+          },
+          {
+            "label": "Situation"
+          }
+        ]
+      },
+      {
+        "label": "Informal",
+        "children": [
+          {
+            "label": "Hi / Hey"
+          },
+          {
+            "label": "Contractions"
+          },
+          {
+            "label": "Everyday words"
+          },
+          {
+            "label": "See you soon!"
+          }
+        ]
+      },
+      {
+        "label": "Formal",
+        "children": [
+          {
+            "label": "Dear Mr Smith / Sir or Madam"
+          },
+          {
+            "label": "No contractions"
+          },
+          {
+            "label": "I would like to…"
+          },
+          {
+            "label": "Yours sincerely / faithfully"
+          }
+        ]
+      },
+      {
+        "label": "Text types",
+        "children": [
+          {
+            "label": "Application letter"
+          },
+          {
+            "label": "Complaint"
+          },
+          {
+            "label": "Blog post"
+          },
+          {
+            "label": "Article"
+          }
+        ]
+      },
+      {
+        "label": "Revise",
+        "children": [
+          {
+            "label": "Don't mix registers"
+          },
+          {
+            "label": "Check greeting and ending"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q10"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Contractions like “can't” are best avoided in formal letters.",
+        "correct": true,
+        "explain": "In formal writing we write the full forms: cannot, do not, I am."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "“Yours faithfully” is used when you know the receiver's name.",
+        "correct": false,
+        "explain": "In British English, “Yours faithfully” goes with “Dear Sir or Madam”, when you do not know the name."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "A blog post can be informal and personal.",
+        "correct": true,
+        "explain": "Many blog posts use a personal, informal style, but should still be clear."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Slang words make a job application more professional.",
+        "correct": false,
+        "explain": "Slang is informal and does not belong in a job application."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Which phrase fits best in a letter of complaint?",
+        "options": [
+          "This is totally lame!",
+          "I would be grateful if you could replace the product.",
+          "Fix it now or else!",
+          "Whatever, just refund it."
+        ],
+        "correct": 1,
+        "explain": "A complaint should be polite but firm, and say clearly what you expect."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "What should you write to a teacher whose name is Anna Brown?",
+        "options": [
+          "Hey Anna!",
+          "Yo teacher,",
+          "Dear Ms Brown,",
+          "Dear Sir or Madam,"
+        ],
+        "correct": 2,
+        "explain": "When you know the name, use “Dear” + title + surname."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Which is an informal ending?",
+        "options": [
+          "Take care!",
+          "Yours sincerely",
+          "Yours faithfully",
+          "Best regards"
+        ],
+        "correct": 0,
+        "explain": "“Take care!” is friendly and informal."
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
+}

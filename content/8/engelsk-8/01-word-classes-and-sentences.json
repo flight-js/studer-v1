@@ -1,0 +1,353 @@
+{
+  "id": "word-classes-and-sentences",
+  "fagId": "engelsk-8",
+  "trinnId": "8",
+  "name": "Word classes and sentence structure",
+  "intro": "The main word classes in English, basic word order, and how knowing them helps you write clearer and more correct sentences.",
+  "kompetansemaal": [
+    8,
+    9
+  ],
+  "sammendrag": "## Why grammar?\n\nKnowing the **word classes** (parts of speech) and how English sentences are built helps you understand texts, avoid common mistakes and explain why something is right or wrong. Many terms are similar to Norwegian grammar, which makes them easier to learn.\n\n## The main word classes\n\n- **Nouns** name people, places, things and ideas: teacher, London, happiness. Most nouns have a plural form: book – books, child – children.\n- **Verbs** show actions or states: run, think, be. Verbs change with tense: walk – walked.\n- **Adjectives** describe nouns: a **tall** building, the book is **boring**. English adjectives do not change for plural: tall buildings.\n- **Adverbs** describe verbs, adjectives or whole sentences, often telling how, when or where: She sings **beautifully**. Many adverbs end in **-ly**.\n- **Pronouns** replace nouns: I, you, he, she, it, we, they, me, him, her, us, them.\n- **Prepositions** show relations in place and time: in, on, at, under, after.\n- **Conjunctions** join words and clauses: and, but, or, because, although.\n- **Determiners** come before nouns: a, an, the, this, my, some.\n\n## Articles\n\nUse **a** before a consonant sound and **an** before a vowel sound: a book, an apple, **an hour** (silent h), **a university** (the word starts with a “you” sound). **The** is used about something specific or already mentioned.\n\n## Word order\n\nThe basic word order in an English statement is **subject – verb – object** (S-V-O): **Emma** (S) **likes** (V) **pizza** (O). Unlike Norwegian, English keeps this order even when a sentence starts with a time expression: “Yesterday **I went** to the cinema”, not “Yesterday went I”.\n\nQuestions and negatives with most verbs need the helping verb **do/does/did**: Do you like pizza? She does not (doesn't) like fish.\n\n## Sentences and clauses\n\nA **sentence** starts with a capital letter and ends with a full stop, question mark or exclamation mark. A **clause** contains a subject and a verb. A **main clause** can stand alone: I stayed at home. A **subordinate clause** cannot: because it was raining. Together they form a **complex sentence**: I stayed at home because it was raining.\n\n## Using grammar when you write\n\nWhen you revise your own texts, check that every sentence has a subject and a verb, that word order is S-V-O, that you have used a/an correctly, and that you have not written a subordinate clause on its own as a full sentence.",
+  "flashcards": [
+    {
+      "term": "Noun",
+      "def": "A word that names a person, place, thing or idea: teacher, Oslo, happiness."
+    },
+    {
+      "term": "Verb",
+      "def": "A word that shows an action or a state: run, think, be."
+    },
+    {
+      "term": "Adjective",
+      "def": "A word that describes a noun: a tall building. Does not change in the plural."
+    },
+    {
+      "term": "Adverb",
+      "def": "Describes a verb, adjective or sentence, often how, when or where. Many end in -ly."
+    },
+    {
+      "term": "Pronoun",
+      "def": "A word that replaces a noun: I, you, she, they, them."
+    },
+    {
+      "term": "Preposition",
+      "def": "Shows relation in place or time: in, on, at, under, after."
+    },
+    {
+      "term": "Conjunction",
+      "def": "Joins words and clauses: and, but, or, because."
+    },
+    {
+      "term": "Determiner",
+      "def": "Comes before a noun: a, the, this, my, some."
+    },
+    {
+      "term": "a or an?",
+      "def": "“a” before a consonant sound, “an” before a vowel sound: an hour, a university."
+    },
+    {
+      "term": "S-V-O",
+      "def": "Subject – verb – object: basic English word order. Emma likes pizza."
+    },
+    {
+      "term": "Time expression first",
+      "def": "English keeps S-V: “Yesterday I went”, not “Yesterday went I”."
+    },
+    {
+      "term": "do-support",
+      "def": "Questions and negatives with most verbs use do/does/did: Do you like it?"
+    },
+    {
+      "term": "Clause",
+      "def": "A group of words with a subject and a verb."
+    },
+    {
+      "term": "Main clause",
+      "def": "A clause that can stand alone as a sentence."
+    },
+    {
+      "term": "Subordinate clause",
+      "def": "A clause that cannot stand alone: because it was raining."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Which word is an adjective in “The old dog slept quietly”?",
+      "options": [
+        "dog",
+        "old",
+        "slept",
+        "quietly"
+      ],
+      "correct": 1,
+      "explain": "“Old” describes the noun “dog”. “Quietly” is an adverb describing how the dog slept."
+    },
+    {
+      "id": "q02",
+      "text": "Which is correct?",
+      "options": [
+        "a hour",
+        "an university",
+        "an hour",
+        "a apple"
+      ],
+      "correct": 2,
+      "explain": "“Hour” starts with a vowel sound because the h is silent, so we use “an”."
+    },
+    {
+      "id": "q03",
+      "text": "Which sentence has correct English word order?",
+      "options": [
+        "Yesterday I went to the cinema.",
+        "Yesterday went I to the cinema.",
+        "Yesterday to the cinema I went.",
+        "I yesterday went to the cinema to."
+      ],
+      "correct": 0,
+      "explain": "English keeps subject + verb even when the sentence starts with a time expression."
+    },
+    {
+      "id": "q04",
+      "text": "What is the plural of “child”?",
+      "options": [
+        "childs",
+        "childes",
+        "childrens",
+        "children"
+      ],
+      "correct": 3,
+      "explain": "“Child” has an irregular plural: children."
+    },
+    {
+      "id": "q05",
+      "text": "Which word is a conjunction?",
+      "options": [
+        "under",
+        "because",
+        "quickly",
+        "they"
+      ],
+      "correct": 1,
+      "explain": "“Because” joins a subordinate clause to a main clause."
+    },
+    {
+      "id": "q06",
+      "text": "How do you make “She likes fish” negative?",
+      "options": [
+        "She not likes fish.",
+        "She don't like fish.",
+        "She doesn't like fish.",
+        "She likes not fish."
+      ],
+      "correct": 2,
+      "explain": "Most verbs need do-support in negatives. With he/she/it we use “does not” (doesn't) + the base form."
+    },
+    {
+      "id": "q07",
+      "text": "What is the subject in “My brother plays football”?",
+      "options": [
+        "My brother",
+        "plays",
+        "football",
+        "plays football"
+      ],
+      "correct": 0,
+      "explain": "The subject is who does the action: my brother."
+    },
+    {
+      "id": "q08",
+      "text": "Which is NOT a complete sentence?",
+      "options": [
+        "I stayed at home.",
+        "It was raining.",
+        "Because it was raining.",
+        "I stayed at home because it was raining."
+      ],
+      "correct": 2,
+      "explain": "“Because it was raining” is a subordinate clause and cannot stand alone."
+    },
+    {
+      "id": "q09",
+      "text": "Which word is an adverb?",
+      "options": [
+        "beautiful",
+        "beauty",
+        "beautify",
+        "beautifully"
+      ],
+      "correct": 3,
+      "explain": "“Beautifully” tells how something is done. Many adverbs are formed by adding -ly to an adjective."
+    },
+    {
+      "id": "q10",
+      "text": "Which is correct?",
+      "options": [
+        "They are tall buildings.",
+        "They are talls buildings.",
+        "They are tall buildingses.",
+        "They are talls building."
+      ],
+      "correct": 0,
+      "explain": "English adjectives never take a plural ending. Only the noun changes: buildings."
+    }
+  ],
+  "mindmap": {
+    "label": "Word classes and sentences",
+    "children": [
+      {
+        "label": "Word classes",
+        "children": [
+          {
+            "label": "Noun",
+            "note": "book – books"
+          },
+          {
+            "label": "Verb",
+            "note": "walk – walked"
+          },
+          {
+            "label": "Adjective",
+            "note": "No plural ending"
+          },
+          {
+            "label": "Adverb",
+            "note": "Often -ly"
+          },
+          {
+            "label": "Pronoun, preposition, conjunction"
+          }
+        ]
+      },
+      {
+        "label": "Articles",
+        "children": [
+          {
+            "label": "a / an",
+            "note": "Sound decides"
+          },
+          {
+            "label": "the",
+            "note": "Specific thing"
+          }
+        ]
+      },
+      {
+        "label": "Word order",
+        "children": [
+          {
+            "label": "S-V-O"
+          },
+          {
+            "label": "Time first, still S-V"
+          },
+          {
+            "label": "do/does/did",
+            "note": "Questions, negatives"
+          }
+        ]
+      },
+      {
+        "label": "Clauses",
+        "children": [
+          {
+            "label": "Main clause"
+          },
+          {
+            "label": "Subordinate clause"
+          },
+          {
+            "label": "Complex sentence"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q08",
+      "q10"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "English adjectives get an -s in the plural, like “bigs cars”.",
+        "correct": false,
+        "explain": "English adjectives never change for plural: big cars."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "“An” is used before words that start with a vowel sound.",
+        "correct": true,
+        "explain": "It is the sound, not the letter, that decides: an hour, a university."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "A subordinate clause can stand alone as a full sentence.",
+        "correct": false,
+        "explain": "A subordinate clause needs a main clause to make a complete sentence."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "“Under” is a preposition.",
+        "correct": true,
+        "explain": "“Under” shows a relation in place: under the table."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Which question is correct?",
+        "options": [
+          "Like you pizza?",
+          "Do you like pizza?",
+          "You like pizza do?",
+          "Does you like pizza?"
+        ],
+        "correct": 1,
+        "explain": "Questions with most verbs need “do” before the subject: Do you like pizza?"
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Which word is a pronoun?",
+        "options": [
+          "them",
+          "table",
+          "green",
+          "slowly"
+        ],
+        "correct": 0,
+        "explain": "“Them” replaces a noun, for example “the students”."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Which article is correct? “She is … engineer.”",
+        "options": [
+          "a",
+          "the a",
+          "an",
+          "no article"
+        ],
+        "correct": 2,
+        "explain": "“Engineer” starts with a vowel sound, so we use “an”. English also needs an article with jobs: She is an engineer."
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
+}

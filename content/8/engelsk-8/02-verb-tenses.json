@@ -1,0 +1,350 @@
+{
+  "id": "verb-tenses",
+  "fagId": "engelsk-8",
+  "trinnId": "8",
+  "name": "Verb tenses",
+  "intro": "Present simple and continuous, past simple, present perfect and the future – how they are formed, when to use them, and the most common irregular verbs.",
+  "kompetansemaal": [
+    9,
+    8
+  ],
+  "sammendrag": "## Tense tells us when\n\nThe **tense** of a verb shows when something happens. English has more tense forms in everyday use than Norwegian, and choosing the right one is one of the most important parts of writing correct English.\n\n## Present simple\n\nThe **present simple** is used for habits, routines and facts: I **walk** to school every day. Water **boils** at 100 °C. With **he, she and it**, the verb gets an **-s**: she walks, he watches, it goes. This “third person -s” is one of the most common mistakes Norwegian learners make.\n\n## Present continuous\n\nThe **present continuous** is used for things happening **right now** or around now: I **am reading** a great book. It is formed with **am/is/are + verb-ing**. Compare: I **play** football (a habit) and I **am playing** football (at this moment). Some verbs, like know, like and want, are rarely used in the continuous form: I know the answer, not “I am knowing”.\n\n## Past simple\n\nThe **past simple** is used for finished actions at a specific time in the past: I **visited** London **last year**. Regular verbs add **-ed**: play – played. Many common verbs are **irregular** and must be learned: go – went, see – saw, take – took, buy – bought, write – wrote.\n\n## Present perfect\n\nThe **present perfect** is formed with **have/has + past participle**: I **have visited** London. It connects the past to the present, and is used when the time is not stated or is not finished: I have lived here **since 2020**. She has **never** been to Spain. We cannot use it with a finished time like “yesterday”: “I have seen him yesterday” is wrong; it should be “I saw him yesterday”.\n\n## The future\n\n- **will + verb** for predictions and quick decisions: It **will** rain tomorrow. I'll help you!\n- **be going to + verb** for plans and things we can see coming: I **am going to** study tonight. Look at those clouds – it's **going to** rain.\n- **Present continuous** for fixed arrangements: We **are meeting** at six.\n\n## Irregular verbs to know\n\nbe – was/were – been, have – had – had, do – did – done, go – went – gone, get – got – got, make – made – made, say – said – said, see – saw – seen, come – came – come, know – knew – known, think – thought – thought, take – took – taken.\n\n## Tip\n\nWhen you write a story in the past, stay in the past tense. Switching between present and past by accident makes the text confusing.",
+  "flashcards": [
+    {
+      "term": "Present simple",
+      "def": "Habits, routines and facts: I walk to school every day."
+    },
+    {
+      "term": "Third person -s",
+      "def": "He, she and it add -s in the present simple: she walks, he goes."
+    },
+    {
+      "term": "Present continuous",
+      "def": "am/is/are + -ing, for things happening now: I am reading."
+    },
+    {
+      "term": "Past simple",
+      "def": "Finished actions at a specific past time: I visited London last year."
+    },
+    {
+      "term": "Regular past",
+      "def": "Add -ed: play – played, walk – walked."
+    },
+    {
+      "term": "Present perfect",
+      "def": "have/has + past participle: I have visited London. Links past and present."
+    },
+    {
+      "term": "Present perfect + since/for",
+      "def": "I have lived here since 2020 / for five years."
+    },
+    {
+      "term": "Not with finished time",
+      "def": "Use past simple with “yesterday”: I saw him yesterday, not “have seen”."
+    },
+    {
+      "term": "will",
+      "def": "Predictions and quick decisions: It will rain. I'll help you!"
+    },
+    {
+      "term": "be going to",
+      "def": "Plans and things we can see coming: I'm going to study tonight."
+    },
+    {
+      "term": "go – went – gone",
+      "def": "Irregular verb."
+    },
+    {
+      "term": "see – saw – seen",
+      "def": "Irregular verb."
+    },
+    {
+      "term": "buy – bought – bought",
+      "def": "Irregular verb."
+    },
+    {
+      "term": "write – wrote – written",
+      "def": "Irregular verb."
+    },
+    {
+      "term": "Stative verbs",
+      "def": "Verbs like know, like and want are rarely used with -ing: I know, not “I am knowing”."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Choose the correct form: “She … to school every day.”",
+      "options": [
+        "walk",
+        "walks",
+        "walking",
+        "is walk"
+      ],
+      "correct": 1,
+      "explain": "A daily routine uses the present simple, and “she” needs the third person -s: walks."
+    },
+    {
+      "id": "q02",
+      "text": "Choose the correct form: “Be quiet! The baby …”",
+      "options": [
+        "sleeps",
+        "slept",
+        "is sleeping",
+        "has slept"
+      ],
+      "correct": 2,
+      "explain": "Something happening right now uses the present continuous: is sleeping."
+    },
+    {
+      "id": "q03",
+      "text": "What is the past simple of “go”?",
+      "options": [
+        "goed",
+        "gone",
+        "going",
+        "went"
+      ],
+      "correct": 3,
+      "explain": "“Go” is irregular: go – went – gone."
+    },
+    {
+      "id": "q04",
+      "text": "Which sentence is correct?",
+      "options": [
+        "I saw him yesterday.",
+        "I have seen him yesterday.",
+        "I have see him yesterday.",
+        "I seen him yesterday."
+      ],
+      "correct": 0,
+      "explain": "“Yesterday” is a finished time, so we need the past simple: I saw him yesterday."
+    },
+    {
+      "id": "q05",
+      "text": "Choose the correct form: “We … here since 2020.”",
+      "options": [
+        "live",
+        "lived",
+        "have lived",
+        "are live"
+      ],
+      "correct": 2,
+      "explain": "An action that started in the past and continues now, with “since”, uses the present perfect."
+    },
+    {
+      "id": "q06",
+      "text": "Which future form fits best? “Look at those dark clouds! It … rain.”",
+      "options": [
+        "is going to",
+        "rains",
+        "has rained",
+        "rained"
+      ],
+      "correct": 0,
+      "explain": "When we can see something coming, we use “be going to”."
+    },
+    {
+      "id": "q07",
+      "text": "What is the past participle of “write”?",
+      "options": [
+        "wrote",
+        "writed",
+        "written",
+        "writing"
+      ],
+      "correct": 2,
+      "explain": "write – wrote – written. The past participle is used with have/has: I have written."
+    },
+    {
+      "id": "q08",
+      "text": "Which sentence is correct?",
+      "options": [
+        "I am knowing the answer.",
+        "I know the answer.",
+        "I knowing the answer.",
+        "I am know the answer."
+      ],
+      "correct": 1,
+      "explain": "“Know” is a stative verb and is not normally used in the continuous form."
+    },
+    {
+      "id": "q09",
+      "text": "What is the past simple of “buy”?",
+      "options": [
+        "buyed",
+        "bought",
+        "brought",
+        "buy"
+      ],
+      "correct": 1,
+      "explain": "buy – bought – bought. Do not mix it up with bring – brought."
+    },
+    {
+      "id": "q10",
+      "text": "Choose the correct form: “She has never … to Spain.”",
+      "options": [
+        "be",
+        "was",
+        "went",
+        "been"
+      ],
+      "correct": 3,
+      "explain": "The present perfect uses has + past participle. The past participle of “be” is “been”."
+    }
+  ],
+  "mindmap": {
+    "label": "Verb tenses",
+    "children": [
+      {
+        "label": "Present",
+        "children": [
+          {
+            "label": "Simple",
+            "note": "Habits, facts"
+          },
+          {
+            "label": "Third person -s"
+          },
+          {
+            "label": "Continuous",
+            "note": "am/is/are + -ing"
+          }
+        ]
+      },
+      {
+        "label": "Past",
+        "children": [
+          {
+            "label": "Past simple",
+            "note": "Finished time"
+          },
+          {
+            "label": "Regular -ed"
+          },
+          {
+            "label": "Irregular",
+            "note": "went, saw, bought"
+          }
+        ]
+      },
+      {
+        "label": "Present perfect",
+        "children": [
+          {
+            "label": "have/has + participle"
+          },
+          {
+            "label": "since / for"
+          },
+          {
+            "label": "Not with “yesterday”"
+          }
+        ]
+      },
+      {
+        "label": "Future",
+        "children": [
+          {
+            "label": "will",
+            "note": "Predictions, decisions"
+          },
+          {
+            "label": "going to",
+            "note": "Plans, evidence"
+          },
+          {
+            "label": "Present continuous",
+            "note": "Arrangements"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q10"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "“He play football” is correct in the present simple.",
+        "correct": false,
+        "explain": "With “he”, the verb needs an -s: he plays."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "The present perfect is formed with have/has + past participle.",
+        "correct": true,
+        "explain": "Example: I have finished my homework."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "“I'm going to” can be used about plans.",
+        "correct": true,
+        "explain": "Example: I'm going to visit my grandmother this weekend."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "All English verbs form the past simple by adding -ed.",
+        "correct": false,
+        "explain": "Many common verbs are irregular: go – went, see – saw."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "What is the past simple of “think”?",
+        "options": [
+          "thinked",
+          "thought",
+          "thank",
+          "thunk"
+        ],
+        "correct": 1,
+        "explain": "think – thought – thought."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Choose the correct form: “I … my keys. I can't find them anywhere.”",
+        "options": [
+          "lose",
+          "am losing",
+          "have lost",
+          "lost yesterday"
+        ],
+        "correct": 2,
+        "explain": "The present perfect shows a past action with a result now: the keys are still lost."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Choose the correct form: “Every summer we … to the mountains.”",
+        "options": [
+          "go",
+          "are going now",
+          "gone",
+          "has gone"
+        ],
+        "correct": 0,
+        "explain": "“Every summer” shows a habit, so we use the present simple."
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
+}

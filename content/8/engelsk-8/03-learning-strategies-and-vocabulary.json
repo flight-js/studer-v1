@@ -1,0 +1,364 @@
+{
+  "id": "learning-strategies-and-vocabulary",
+  "fagId": "engelsk-8",
+  "trinnId": "8",
+  "name": "Learning strategies and vocabulary",
+  "intro": "Smart ways to learn and remember English words, use dictionaries and digital tools wisely, and build a varied vocabulary with idioms and synonyms.",
+  "kompetansemaal": [
+    1,
+    2,
+    5
+  ],
+  "sammendrag": "## Learning a language takes strategies\n\nNobody learns a language just by sitting still. Good language learners use **strategies**: conscious methods that help them understand, remember and use new words and structures. The good news is that you can learn these strategies, and try out which ones work best for you.\n\n## Learning new words\n\n- **Learn words in context**: A word is easier to remember in a sentence than on a list. Write down the whole phrase: “make a decision”, not just “decision”.\n- **Spaced repetition**: Repeat words after a day, then after a few days, then after a week. Flashcards are perfect for this.\n- **Use the words**: Try to use new words when you speak and write. Words you use become active vocabulary.\n- **Group words**: Learn words about the same topic together, for example weather or school.\n- **Guess from context**: When you meet an unknown word, look at the sentence around it before you look it up.\n\n## Dictionaries and digital tools\n\nA **dictionary** gives you meaning, pronunciation, word class and example sentences. **English–English** dictionaries explain words in English and help you think in English. **Translation tools** can be useful, but they often translate word by word and can choose the wrong meaning. Always check whether the result sounds natural. **Spell checkers** find many mistakes, but not all, for example “their” used instead of “there”.\n\n## Building a varied vocabulary\n\nA text becomes more interesting when you vary your words.\n\n- **Synonyms** are words with similar meaning: big – large – huge – enormous.\n- **Antonyms** are opposites: happy – sad.\n- Replace overused words like “nice”, “good” and “said”: The food was **delicious**. “Stop!” she **shouted**.\n- **Collocations** are words that naturally go together: “heavy rain”, “make a mistake”, “do homework”.\n\n## Idioms\n\n**Idioms** are expressions where the meaning is different from the individual words: “It's raining cats and dogs” means that it is raining heavily. “Break a leg” means good luck. “Piece of cake” means very easy. Idioms make your English sound natural, but they must be used in the right situation, since many are informal.\n\n## Reflect on your learning\n\nThink about which strategies help you most. Do you remember better when you write, when you listen or when you speak? Setting small goals, like learning ten new words a week, and checking your progress helps you keep going.",
+  "flashcards": [
+    {
+      "term": "Learning strategy",
+      "def": "A conscious method that helps you understand, remember and use a language."
+    },
+    {
+      "term": "Context",
+      "def": "The words and sentences around a word, which help you understand its meaning."
+    },
+    {
+      "term": "Spaced repetition",
+      "def": "Repeating words with longer and longer gaps: after a day, a few days, a week."
+    },
+    {
+      "term": "Active vocabulary",
+      "def": "Words you can use yourself when you speak and write."
+    },
+    {
+      "term": "Passive vocabulary",
+      "def": "Words you understand when you read or hear them, but do not use yourself."
+    },
+    {
+      "term": "English–English dictionary",
+      "def": "A dictionary that explains English words in English."
+    },
+    {
+      "term": "Translation tool",
+      "def": "Useful, but often translates word by word and can choose the wrong meaning."
+    },
+    {
+      "term": "Synonym",
+      "def": "A word with a similar meaning: big – large – huge."
+    },
+    {
+      "term": "Antonym",
+      "def": "A word with the opposite meaning: happy – sad."
+    },
+    {
+      "term": "Collocation",
+      "def": "Words that naturally go together: heavy rain, make a mistake."
+    },
+    {
+      "term": "Idiom",
+      "def": "An expression whose meaning is different from its individual words."
+    },
+    {
+      "term": "It's raining cats and dogs",
+      "def": "It is raining heavily."
+    },
+    {
+      "term": "Piece of cake",
+      "def": "Something very easy."
+    },
+    {
+      "term": "Break a leg",
+      "def": "Good luck (often said before a performance)."
+    },
+    {
+      "term": "Overused words",
+      "def": "Words like nice, good and said, which can be replaced by more precise words."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Why is it smart to learn words in context?",
+      "options": [
+        "Because it is faster to write",
+        "Because words are easier to remember and use correctly in a sentence",
+        "Because lists are forbidden",
+        "Because context words are shorter"
+      ],
+      "correct": 1,
+      "explain": "In a sentence you see how the word is used, which helps you remember it and use it correctly."
+    },
+    {
+      "id": "q02",
+      "text": "What does “spaced repetition” mean?",
+      "options": [
+        "Repeating words with longer and longer gaps",
+        "Repeating a word 100 times in a row",
+        "Writing words with spaces between the letters",
+        "Learning only new words"
+      ],
+      "correct": 0,
+      "explain": "Repeating words just before you forget them helps them stay in your long-term memory."
+    },
+    {
+      "id": "q03",
+      "text": "Which word is a synonym of “enormous”?",
+      "options": [
+        "tiny",
+        "quick",
+        "huge",
+        "empty"
+      ],
+      "correct": 2,
+      "explain": "“Huge” and “enormous” both mean very big. “Tiny” is an antonym."
+    },
+    {
+      "id": "q04",
+      "text": "What does the idiom “piece of cake” mean?",
+      "options": [
+        "A dessert",
+        "A small part of something",
+        "A birthday",
+        "Something very easy"
+      ],
+      "correct": 3,
+      "explain": "“The test was a piece of cake” means the test was very easy."
+    },
+    {
+      "id": "q05",
+      "text": "Which is a natural collocation?",
+      "options": [
+        "make a mistake",
+        "do a mistake",
+        "take a mistake",
+        "create a mistake"
+      ],
+      "correct": 0,
+      "explain": "In English we “make” a mistake. Collocations must often be learned as fixed phrases."
+    },
+    {
+      "id": "q06",
+      "text": "What is a risk with translation tools?",
+      "options": [
+        "They are always correct",
+        "They can translate word by word and choose the wrong meaning",
+        "They only work in Norwegian",
+        "They make texts shorter"
+      ],
+      "correct": 1,
+      "explain": "Translation tools can miss the context. Always check if the result sounds natural."
+    },
+    {
+      "id": "q07",
+      "text": "Which word could replace “said” to show that someone was angry?",
+      "options": [
+        "whispered",
+        "mumbled",
+        "asked",
+        "shouted"
+      ],
+      "correct": 3,
+      "explain": "“Shouted” shows volume and emotion, which makes the text more vivid."
+    },
+    {
+      "id": "q08",
+      "text": "What does “It's raining cats and dogs” mean?",
+      "options": [
+        "Animals are falling from the sky",
+        "It is raining heavily",
+        "It is a nice day",
+        "It has stopped raining"
+      ],
+      "correct": 1,
+      "explain": "This idiom means that it is raining very hard."
+    },
+    {
+      "id": "q09",
+      "text": "What is an antonym of “ancient”?",
+      "options": [
+        "old",
+        "historic",
+        "modern",
+        "large"
+      ],
+      "correct": 2,
+      "explain": "“Ancient” means very old, and “modern” is the opposite."
+    },
+    {
+      "id": "q10",
+      "text": "Which mistake will a spell checker often NOT find?",
+      "options": [
+        "“their” used instead of “there”",
+        "“becuase” instead of “because”",
+        "“teh” instead of “the”",
+        "“freind” instead of “friend”"
+      ],
+      "correct": 0,
+      "explain": "“Their” is a real word, so the spell checker does not react, even when it is used wrongly."
+    }
+  ],
+  "mindmap": {
+    "label": "Learning strategies and vocabulary",
+    "children": [
+      {
+        "label": "Learning words",
+        "children": [
+          {
+            "label": "In context"
+          },
+          {
+            "label": "Spaced repetition"
+          },
+          {
+            "label": "Use them actively"
+          },
+          {
+            "label": "Guess from context"
+          }
+        ]
+      },
+      {
+        "label": "Tools",
+        "children": [
+          {
+            "label": "Dictionaries"
+          },
+          {
+            "label": "Translation tools",
+            "note": "Check the result"
+          },
+          {
+            "label": "Spell checkers",
+            "note": "Not perfect"
+          }
+        ]
+      },
+      {
+        "label": "Varied vocabulary",
+        "children": [
+          {
+            "label": "Synonyms"
+          },
+          {
+            "label": "Antonyms"
+          },
+          {
+            "label": "Collocations",
+            "note": "make a mistake"
+          },
+          {
+            "label": "Replace “nice”, “good”"
+          }
+        ]
+      },
+      {
+        "label": "Idioms",
+        "children": [
+          {
+            "label": "Piece of cake"
+          },
+          {
+            "label": "Break a leg"
+          },
+          {
+            "label": "Raining cats and dogs"
+          }
+        ]
+      },
+      {
+        "label": "Reflection",
+        "children": [
+          {
+            "label": "What works for me?"
+          },
+          {
+            "label": "Small goals"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q08",
+      "q10"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "An idiom always means exactly what the words say.",
+        "correct": false,
+        "explain": "An idiom has a meaning that is different from the individual words."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Using new words when you speak helps you remember them.",
+        "correct": true,
+        "explain": "Words you use actively become part of your active vocabulary."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "“Heavy rain” is a common collocation in English.",
+        "correct": true,
+        "explain": "English speakers say “heavy rain”, not “strong rain”."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "A translation tool is always right.",
+        "correct": false,
+        "explain": "Translation tools can misunderstand context and give unnatural or wrong results."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "What does “break a leg” usually mean?",
+        "options": [
+          "Be careful",
+          "Good luck",
+          "Go home",
+          "Hurry up"
+        ],
+        "correct": 1,
+        "explain": "“Break a leg” is said to wish someone good luck, especially before a performance."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Which word is more precise than “good” in “The film was good”?",
+        "options": [
+          "thing",
+          "fine",
+          "brilliant",
+          "ok"
+        ],
+        "correct": 2,
+        "explain": "“Brilliant” gives a clearer picture of how good the film was."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "What should you do first when you meet an unknown word?",
+        "options": [
+          "Try to guess its meaning from the context",
+          "Stop reading",
+          "Skip the whole paragraph",
+          "Translate the whole text"
+        ],
+        "correct": 0,
+        "explain": "The context often gives you a clue. Look the word up if it is important."
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
+}

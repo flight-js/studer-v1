@@ -1,0 +1,365 @@
+{
+  "id": "pronunciation",
+  "fagId": "engelsk-9",
+  "trinnId": "9",
+  "name": "Pronunciation",
+  "intro": "The English sounds Norwegians find hardest, silent letters, word stress and intonation, and how to practise pronunciation.",
+  "kompetansemaal": [
+    3,
+    4,
+    7
+  ],
+  "sammendrag": "## Why pronunciation matters\n\nGood pronunciation does not mean sounding like a native speaker. It means being **easy to understand**. Some mistakes can change the meaning of a word, for example if “very” sounds like “wery” or “three” sounds like “tree”. Knowing which sounds are difficult for Norwegians helps you focus your practice.\n\n## Difficult sounds for Norwegians\n\n- **th**: English has two th-sounds. The voiceless one in **think**, **three** and **month**, and the voiced one in **this**, **that** and **mother**. Put the tip of your tongue between your teeth. Avoid saying “tink” or “dis”.\n- **v and w**: **v** is made with the top teeth on the lower lip (very, van). **w** is made with rounded lips, like a short “u” (we, west). Practise pairs like “vine – wine” and “vest – west”.\n- **z** at the end of words: many plurals and verbs end in a buzzing z-sound: dogs, is, was, rose. Norwegians often say a sharp s instead.\n- **sh and ch**: **ship** and **chip** are different words.\n- **Final consonants**: English keeps voiced sounds at the end of words: “bag” and “back” must sound different.\n\n## Silent letters\n\nMany English words have letters that are not pronounced: **k** in know and knife, **w** in write and wrong, **b** in climb and doubt, **l** in walk and could, **gh** in night and though, and **h** in hour and honest.\n\n## Word stress\n\nIn English words with more than one syllable, one syllable is **stressed** – pronounced louder and longer. Stress can change the meaning or word class: **RE**cord (noun) and re**CORD** (verb), **PRE**sent (noun) and pre**SENT** (verb). Some words are often stressed wrongly by Norwegians: it is ho**TEL** and e**VENT**, not **HO**tel and **E**vent.\n\n## Intonation\n\n**Intonation** is the melody of speech. In most statements, the voice goes **down** at the end. In yes/no questions, it often goes **up**: “Are you coming?” Norwegian intonation is different, so listening carefully to English speakers helps.\n\n## Varieties\n\nThere is no single correct accent. **British** and **American** English differ, for example in the r-sound (“car”) and in words like “tomato” and “schedule”. Australian, Irish, Indian and Nigerian English all have their own features. It is useful to understand many varieties, but choose one model for yourself.\n\n## How to practise\n\nListen actively to podcasts, series and songs. Repeat sentences after a speaker (**shadowing**). Record yourself and compare. Use online dictionaries that play the pronunciation of words, and learn the stress when you learn a new word.",
+  "flashcards": [
+    {
+      "term": "Voiceless th",
+      "def": "The sound in think, three and month. Tongue between the teeth, no voice."
+    },
+    {
+      "term": "Voiced th",
+      "def": "The sound in this, that and mother. Tongue between the teeth, with voice."
+    },
+    {
+      "term": "v",
+      "def": "Top teeth on the lower lip: very, van, vest."
+    },
+    {
+      "term": "w",
+      "def": "Rounded lips like a short “u”: we, west, wine."
+    },
+    {
+      "term": "z at the end",
+      "def": "Plurals and verbs often end in a buzzing z-sound: dogs, is, was."
+    },
+    {
+      "term": "Silent k",
+      "def": "know, knife, knee."
+    },
+    {
+      "term": "Silent w",
+      "def": "write, wrong, who."
+    },
+    {
+      "term": "Silent b",
+      "def": "climb, doubt, thumb."
+    },
+    {
+      "term": "Silent h",
+      "def": "hour, honest, honour."
+    },
+    {
+      "term": "Word stress",
+      "def": "One syllable is pronounced louder and longer: ho-TEL."
+    },
+    {
+      "term": "RE-cord / re-CORD",
+      "def": "Noun with stress on the first syllable, verb on the second."
+    },
+    {
+      "term": "Intonation",
+      "def": "The melody of speech. Usually falling in statements, often rising in yes/no questions."
+    },
+    {
+      "term": "Shadowing",
+      "def": "Repeating what a speaker says right after them, to practise pronunciation."
+    },
+    {
+      "term": "Intelligibility",
+      "def": "Being easy to understand. More important than sounding like a native speaker."
+    },
+    {
+      "term": "Minimal pair",
+      "def": "Two words that differ in only one sound: vine – wine, ship – chip."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Which word has a silent letter?",
+      "options": [
+        "knife",
+        "kind",
+        "keep",
+        "kite"
+      ],
+      "correct": 0,
+      "explain": "The k in “knife” is silent."
+    },
+    {
+      "id": "q02",
+      "text": "How do you make the th-sound in “think”?",
+      "options": [
+        "Like a t",
+        "With the tongue between the teeth",
+        "With rounded lips",
+        "Like an f"
+      ],
+      "correct": 1,
+      "explain": "The tongue tip goes between the teeth. Saying “tink” is a common mistake."
+    },
+    {
+      "id": "q03",
+      "text": "Which pair is a minimal pair for practising v and w?",
+      "options": [
+        "vine – wine",
+        "very – vary",
+        "west – east",
+        "van – man"
+      ],
+      "correct": 0,
+      "explain": "“Vine” and “wine” differ only in the first sound, v or w."
+    },
+    {
+      "id": "q04",
+      "text": "Where is the stress in the verb “record” (to record a song)?",
+      "options": [
+        "RE-cord",
+        "Both syllables equally",
+        "re-CORD",
+        "It has no stress"
+      ],
+      "correct": 2,
+      "explain": "As a verb, “record” is stressed on the second syllable. The noun is RE-cord."
+    },
+    {
+      "id": "q05",
+      "text": "Which word has a silent w?",
+      "options": [
+        "water",
+        "write",
+        "west",
+        "wind"
+      ],
+      "correct": 1,
+      "explain": "In “write”, the w is not pronounced."
+    },
+    {
+      "id": "q06",
+      "text": "What usually happens with intonation in a yes/no question like “Are you coming?”",
+      "options": [
+        "It goes down",
+        "It stays flat",
+        "It goes up at the end",
+        "It stops"
+      ],
+      "correct": 2,
+      "explain": "Yes/no questions often have rising intonation at the end."
+    },
+    {
+      "id": "q07",
+      "text": "What is most important in pronunciation?",
+      "options": [
+        "Sounding exactly like the King",
+        "Speaking as fast as possible",
+        "Using only American accent",
+        "Being easy to understand"
+      ],
+      "correct": 3,
+      "explain": "Clear, intelligible pronunciation matters more than sounding like a native speaker."
+    },
+    {
+      "id": "q08",
+      "text": "Which word has a silent h?",
+      "options": [
+        "hour",
+        "house",
+        "happy",
+        "hotel"
+      ],
+      "correct": 0,
+      "explain": "“Hour” is pronounced like “our”. That is also why we say “an hour”."
+    },
+    {
+      "id": "q09",
+      "text": "What sound should the s in “dogs” have?",
+      "options": [
+        "A sharp s",
+        "A buzzing z-sound",
+        "A sh-sound",
+        "It is silent"
+      ],
+      "correct": 1,
+      "explain": "After voiced sounds, the plural -s is pronounced like z: dogz."
+    },
+    {
+      "id": "q10",
+      "text": "What is shadowing?",
+      "options": [
+        "Reading in the dark",
+        "Writing words many times",
+        "Repeating what a speaker says right after them",
+        "Translating to Norwegian"
+      ],
+      "correct": 2,
+      "explain": "Shadowing trains rhythm, stress and intonation by copying a speaker closely."
+    }
+  ],
+  "mindmap": {
+    "label": "Pronunciation",
+    "children": [
+      {
+        "label": "Difficult sounds",
+        "children": [
+          {
+            "label": "th",
+            "note": "think / this"
+          },
+          {
+            "label": "v and w",
+            "note": "vine / wine"
+          },
+          {
+            "label": "z at the end",
+            "note": "dogs, is"
+          },
+          {
+            "label": "sh and ch"
+          }
+        ]
+      },
+      {
+        "label": "Silent letters",
+        "children": [
+          {
+            "label": "k",
+            "note": "know"
+          },
+          {
+            "label": "w",
+            "note": "write"
+          },
+          {
+            "label": "b",
+            "note": "climb"
+          },
+          {
+            "label": "h",
+            "note": "hour"
+          }
+        ]
+      },
+      {
+        "label": "Stress",
+        "children": [
+          {
+            "label": "One strong syllable"
+          },
+          {
+            "label": "RE-cord / re-CORD"
+          }
+        ]
+      },
+      {
+        "label": "Intonation",
+        "children": [
+          {
+            "label": "Down in statements"
+          },
+          {
+            "label": "Up in yes/no questions"
+          }
+        ]
+      },
+      {
+        "label": "Practice",
+        "children": [
+          {
+            "label": "Listen actively"
+          },
+          {
+            "label": "Shadowing"
+          },
+          {
+            "label": "Record yourself"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q08",
+      "q09"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "The b in “climb” is pronounced.",
+        "correct": false,
+        "explain": "The b in “climb” is silent."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "There is only one correct English accent.",
+        "correct": false,
+        "explain": "There are many accents. Choose one model, but learn to understand many."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "The noun “present” (a gift) is stressed on the first syllable.",
+        "correct": true,
+        "explain": "PRE-sent (noun) and pre-SENT (verb)."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Saying “tree” instead of “three” can cause misunderstandings.",
+        "correct": true,
+        "explain": "The th-sound changes the meaning, so it is important to get it right."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Which word starts with a voiced th-sound?",
+        "options": [
+          "think",
+          "three",
+          "this",
+          "thank"
+        ],
+        "correct": 2,
+        "explain": "“This” has the voiced th. The others have the voiceless th."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "In which word is the l silent?",
+        "options": [
+          "walk",
+          "lamp",
+          "late",
+          "silk"
+        ],
+        "correct": 0,
+        "explain": "The l in “walk” is not pronounced."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "How do you make the w-sound?",
+        "options": [
+          "With the teeth on the lip",
+          "With rounded lips",
+          "With the tongue between the teeth",
+          "Through the nose"
+        ],
+        "correct": 1,
+        "explain": "The w is made with rounded lips, like a short “u”."
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
+}
