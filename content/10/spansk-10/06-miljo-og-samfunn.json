@@ -1,0 +1,84 @@
+{
+  "id": "miljo-og-samfunn",
+  "fagId": "spansk-10",
+  "trinnId": "10",
+  "name": "Miljø og samfunn",
+  "intro": "Miljøutfordringer som tørke og skogbranner, avfall og energi i Spania, regnskogen og Andesfjellene i Latin-Amerika, hvordan du uttrykker meninger på spansk, og trekk ved samfunnene i den spansktalende verden.",
+  "kompetansemaal": [8, 5],
+  "sammendrag": "## Miljø – el medio ambiente\n\n**El cambio climático** (klimaendringene) merkes godt i Spania. Somrene blir varmere, og **la sequía** (tørke) og **los incendios forestales** (skogbranner) er store problemer. Også **la contaminación** (forurensningen) i storbyene er en utfordring.\n\n## Avfall og gjenvinning\n\nI Spania sorterer man **la basura** (søppelet) i fargede **contenedores** (containere) på gata:\n\n- **amarillo** (gul) – plast- og metallemballasje\n- **azul** (blå) – papir og papp\n- **verde** (grønn) – glass\n- **marrón** eller **gris** – matavfall og restavfall\n\nÅ gjenvinne heter **reciclar**.\n\n## Energi og transport\n\n- Spania har mye sol og er blant Europas ledende land på **energía solar** (solenergi). Landet satser også på **energía eólica** (vindkraft).\n- Mange byer bygger ut **el transporte público** (kollektivtransport) og sykkelveier.\n- **Ahorrar energía y agua** – å spare energi og vann – er særlig viktig i et land med lite regn.\n\n## Latin-Amerika\n\n- **La selva amazónica** (Amazonas-regnskogen) strekker seg gjennom flere land, blant annet Peru, Colombia og Bolivia. **La deforestación** (avskoging) truer dyreliv, urfolk og klimaet.\n- Isbreene i **Andesfjellene** smelter, og det truer vannforsyningen i flere land.\n- **Galápagosøyene** i Ecuador har et unikt dyreliv som er strengt vernet.\n\n## Hva kan vi gjøre?\n\n- **Hay que reciclar.** – Man må gjenvinne.\n- **Deberíamos usar más el transporte público.** – Vi burde bruke kollektivtransport mer.\n- **Es importante ahorrar agua.** – Det er viktig å spare vann.\n- **Estoy a favor de / en contra de …** – Jeg er for / mot …\n\n## Samfunnet i Spania\n\n- Fra 1939 til 1975 var Spania et **diktatur** under **Francisco Franco**. Etter hans død ble landet et demokrati, og i **1978** fikk Spania en ny **grunnlov**. I dag er Spania et **konstitusjonelt monarki**, som Norge.\n- Landet har **17 autonome regioner** med stor grad av selvstyre, og flere språk.\n- **Arbeidsledigheten blant unge** har lenge vært høy, og mange unge bor hjemme lenge.\n\n## Samfunnet i Latin-Amerika\n\nBefolkningen i Latin-Amerika har røtter i **urfolk**, **Europa** og **Afrika**. Mange land har store økonomiske forskjeller, og mange har flyttet til USA og Spania for å finne arbeid.\n\n## Spania, Latin-Amerika og Norge\n\nÅ sammenligne hvordan landene møter utfordringer som klima, tørke og ulikhet, gir nye perspektiver på vår egen hverdag i Norge.",
+  "flashcards": [
+    { "term": "el medio ambiente", "def": "miljøet" },
+    { "term": "el cambio climático", "def": "klimaendringene" },
+    { "term": "la contaminación", "def": "forurensningen" },
+    { "term": "la sequía", "def": "tørken" },
+    { "term": "los incendios forestales", "def": "skogbrannene" },
+    { "term": "la basura", "def": "søppelet" },
+    { "term": "reciclar", "def": "å gjenvinne" },
+    { "term": "los contenedores", "def": "containerne for avfall" },
+    { "term": "las energías renovables", "def": "fornybar energi" },
+    { "term": "la energía solar", "def": "solenergi" },
+    { "term": "el transporte público", "def": "kollektivtransport" },
+    { "term": "Deberíamos …", "def": "Vi burde …" },
+    { "term": "Estoy a favor de / en contra de …", "def": "Jeg er for / mot …" },
+    { "term": "la deforestación", "def": "avskogingen" },
+    { "term": "la Constitución de 1978", "def": "Spanias demokratiske grunnlov" },
+    { "term": "la dictadura de Franco", "def": "diktaturet i Spania fra 1939 til 1975" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva betyr «el medio ambiente»?", "options": ["Verden", "Byen", "Miljøet", "Været"], "correct": 2, "explain": "Verden heter «el mundo»." },
+    { "id": "q02", "text": "Hva er «la sequía»?", "options": ["Tørke", "Flom", "Snø", "Storm"], "correct": 0, "explain": "«seco» betyr tørr." },
+    { "id": "q03", "text": "Hvilken fornybar energikilde er Spania blant Europas ledende land på?", "options": ["Kull", "Olje", "Atomkraft", "Solenergi"], "correct": 3, "explain": "Spania har svært mange soldager." },
+    { "id": "q04", "text": "Hva betyr «reciclar»?", "options": ["Å sykle", "Å gjenvinne", "Å kaste", "Å kjøpe"], "correct": 1, "explain": "Å sykle heter «montar en bici»." },
+    { "id": "q05", "text": "Hva er «la deforestación» i Amazonas?", "options": ["Planting av trær", "En ny nasjonalpark", "Et turistområde", "Avskoging, at regnskogen hogges ned"], "correct": 3, "explain": "Avskoging truer både dyreliv, urfolk og klimaet." },
+    { "id": "q06", "text": "Hva betyr «Deberíamos usar más el transporte público»?", "options": ["Vi bruker aldri kollektivtransport", "Kollektivtransport er dyrt", "Vi burde bruke kollektivtransport mer", "Vi må kjøre bil"], "correct": 2, "explain": "«deberíamos» betyr vi burde." },
+    { "id": "q07", "text": "Når fikk Spania sin demokratiske grunnlov etter Franco-diktaturet?", "options": ["1978", "1939", "1992", "2004"], "correct": 0, "explain": "Franco døde i 1975, og overgangen til demokrati fulgte." },
+    { "id": "q08", "text": "Hva betyr «Estoy en contra de …»?", "options": ["Jeg er for …", "Jeg er mot …", "Jeg vet ikke om …", "Jeg liker …"], "correct": 1, "explain": "«a favor de» betyr for." },
+    { "id": "q09", "text": "Hva er et stort miljøproblem i Spania om sommeren?", "options": ["Snøskred", "Isbreer", "Orkaner", "Skogbranner og tørke"], "correct": 3, "explain": "Varme somre med lite regn øker faren for branner." },
+    { "id": "q10", "text": "Hva betyr «el transporte público»?", "options": ["Kollektivtransport", "Privatbil", "Fly", "Sykkel"], "correct": 0, "explain": "«público» betyr offentlig." }
+  ],
+  "mindmap": {
+    "label": "Miljø og samfunn",
+    "children": [
+      { "label": "Miljø i Spania", "children": [
+        { "label": "cambio climático" },
+        { "label": "sequía" },
+        { "label": "incendios forestales" }
+      ] },
+      { "label": "Avfall og energi", "children": [
+        { "label": "Fargede containere" },
+        { "label": "reciclar" },
+        { "label": "energía solar" }
+      ] },
+      { "label": "Latin-Amerika", "children": [
+        { "label": "Amazonas og avskoging" },
+        { "label": "Andesfjellene" },
+        { "label": "Galápagos" }
+      ] },
+      { "label": "Samfunn", "children": [
+        { "label": "Franco og 1978" },
+        { "label": "Konstitusjonelt monarki" },
+        { "label": "17 regioner" },
+        { "label": "Ungdomsledighet" }
+      ] },
+      { "label": "Meninger", "children": [
+        { "label": "Hay que …" },
+        { "label": "Deberíamos …" },
+        { "label": "a favor / en contra" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "I Spania sorteres avfall i fargede containere på gata.", "correct": true, "explain": "Gul for emballasje, blå for papir og grønn for glass." },
+      { "id": "m02", "type": "sant-usant", "text": "Spania har vært et diktatur siden 1978.", "correct": false, "explain": "Spania har vært et demokrati siden slutten av 1970-tallet." },
+      { "id": "m03", "type": "sant-usant", "text": "Amazonas-regnskogen strekker seg gjennom flere land i Sør-Amerika.", "correct": true, "explain": "Blant annet Brasil, Peru, Colombia og Bolivia." },
+      { "id": "m04", "type": "sant-usant", "text": "«la basura» betyr gjenvinning.", "correct": false, "explain": "«la basura» betyr søppel." },
+      { "id": "m05", "type": "flervalg", "text": "Hva betyr «ahorrar agua»?", "options": ["Å spare vann", "Å selge vann", "Å drikke vann", "Å rense vann"], "correct": 0, "explain": "«ahorrar» betyr å spare." },
+      { "id": "m06", "type": "flervalg", "text": "Hvem styrte Spania som diktator fra 1939 til 1975?", "options": ["Kong Felipe", "Francisco Franco", "Pablo Picasso", "Simón Bolívar"], "correct": 1, "explain": "Franco kom til makten etter den spanske borgerkrigen." },
+      { "id": "m07", "type": "flervalg", "text": "Hva betyr «Es importante reciclar»?", "options": ["Gjenvinning er dyrt", "Jeg liker ikke å gjenvinne", "Det er viktig å gjenvinne", "Man kan ikke gjenvinne"], "correct": 2, "explain": "«Es importante» + infinitiv betyr det er viktig å …" }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

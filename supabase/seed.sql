@@ -20,9 +20,9 @@ insert into public.fag (id, trinn_id, navn, lareplan_kode, lareplan_url, kompeta
   ('naturfag-8', '8', 'Naturfag', 'NAT01-05', 'https://www.udir.no/lk20/nat01-05/kompetansemaal-og-vurdering/kv1078', '[{"nr":1,"tekst":"stille spørsmål og lage hypoteser om naturfaglige fenomener, identifisere avhengige og uavhengige variabler og samle data for å finne svar"},{"nr":2,"tekst":"analysere og bruke innsamlede data til å lage forklaringer, drøfte forklaringene i lys av relevant teori og vurdere kvaliteten på egne og andres utforskinger"},{"nr":3,"tekst":"bruke og lage modeller for å forutsi eller beskrive naturfaglige prosesser og systemer og gjøre rede for modellenes styrker og begrensninger"},{"nr":4,"tekst":"delta i risikovurderinger knyttet til forsøk og følge sikkerhetstiltakene"},{"nr":5,"tekst":"gi eksempler på dagsaktuell forskning og drøfte hvordan ny kunnskap genereres gjennom samarbeid og kritisk tilnærming til eksisterende kunnskap"},{"nr":6,"tekst":"utforske, forstå og lage teknologiske systemer som består av en sender og en mottaker"},{"nr":7,"tekst":"bruke programmering til å utforske naturfaglige fenomener"},{"nr":8,"tekst":"utforske kjemiske reaksjoner, forklare massebevaring og gjøre rede for betydninger av noen forbrenningsreaksjoner"},{"nr":9,"tekst":"bruke atommodeller og periodesystemet til å gjøre rede for egenskaper til grunnstoffer og kjemiske forbindelser"},{"nr":10,"tekst":"beskrive drivhuseffekten og gjøre rede for faktorer som kan forårsake globale klimaendringer"},{"nr":11,"tekst":"gjøre rede for energibevaring og energikvalitet og utforske ulike måter å omdanne, transportere og lagre energi på"},{"nr":12,"tekst":"drøfte hvordan energiproduksjon og energibruk kan påvirke miljøet lokalt og globalt"},{"nr":13,"tekst":"beskrive hvordan forskere har kommet fram til evolusjonsteorien og bruke denne til å forklare utvikling av biologisk mangfold"},{"nr":14,"tekst":"sammenligne celler hos ulike organismer og beskrive sammenhenger mellom oppbygning og funksjon"},{"nr":15,"tekst":"utforske sammenhenger mellom abiotiske og biotiske faktorer i et økosystem og diskutere hvordan energi og materie omdannes i kretsløp"},{"nr":16,"tekst":"gi eksempler på og drøfte aktuelle dilemmaer knyttet til utnyttelse av naturressurser og tap av biologisk mangfold"},{"nr":17,"tekst":"gi eksempler på samers tradisjonelle kunnskap om naturen og diskutere hvordan denne kunnskapen kan bidra til bærekraftig forvaltning av naturen"},{"nr":18,"tekst":"gjøre rede for hvordan fotosyntese og celleånding gir energi til alt levende gjennom karbonkretsløpet"},{"nr":19,"tekst":"bruke platetektonikkteorien til å forklare jordas utvikling over tid og gi eksempler på observasjoner som støtter teorien"},{"nr":20,"tekst":"drøfte spørsmål knyttet til seksuell og reproduktiv helse"},{"nr":21,"tekst":"sammenligne nervesystemet og hormonsystemet og beskrive hvordan rusmidler, legemidler, miljøgifter og doping påvirker signalsystemene"},{"nr":22,"tekst":"beskrive kroppens immunforsvar og hvordan vaksiner virker, og gjøre rede for hva vaksiner betyr for folkehelsen"}]'::jsonb, 4),
   ('samfunnsfag-8', '8', 'Samfunnsfag', 'SAF01-05', 'https://www.udir.no/lk20/saf01-05/kompetansemaal-og-vurdering/kv1151', '[{"nr":1,"tekst":"bruke samfunnsfaglege metodar og digitale ressursar i eigne undersøkingar, presentere funn ved bruk av digitale verktøy og drøfte kor gyldige og relevante funna er"},{"nr":2,"tekst":"vurdere på kva måtar ulike kjelder gir informasjon om eit samfunnsfagleg tema, og reflektere over korleis algoritmar, einsretta kjelder eller mangel på kjelder kan prege forståinga vår"},{"nr":3,"tekst":"drøfte korleis framstillingar av fortida, hendingar og grupper har påverka og påverkar haldningane og handlingane til folk"},{"nr":4,"tekst":"utforske korleis teknologi har vore og framleis er ein endringsfaktor, og drøfte innverknaden teknologien har hatt og har på enkeltmenneske, samfunn og natur"},{"nr":5,"tekst":"reflektere over korleis menneske har kjempa og kjempar for endringar i samfunnet og samstundes har vore og er påverka av geografiske forhold og historisk kontekst"},{"nr":6,"tekst":"samanlikne korleis politiske, geografiske og historiske forhold påverkar levekår, busetjingsmønster og demografi i forskjellige delar av verda i dag"},{"nr":7,"tekst":"gjere greie for årsaker til og konsekvensar av sentrale historiske og notidige konfliktar og reflektere over om endringar av nokre føresetnader kunne ha hindra konfliktane"},{"nr":8,"tekst":"gjere greie for årsaker til og konsekvensar av terrorhandlingar og folkemord, som holocaust, og reflektere over korleis ekstreme haldningar og ekstreme handlingar kan førebyggjast"},{"nr":9,"tekst":"utforske og beskrive korleis menneske- og urfolksrettar og andre internasjonale avtalar og samarbeid har betydning for nasjonal politikk, livet til menneske, likestilling og likeverd"},{"nr":10,"tekst":"gjere greie for fornorsking av samane og dei nasjonale minoritetane og uretten dei har vore utsette for, og reflektere over kva konsekvensar det har hatt og har på individ- og samfunnsnivå"},{"nr":11,"tekst":"beskrive ulike dimensjonar ved berekraftig utvikling og korleis dei påverkar kvarandre, og presentere tiltak for meir berekraftige samfunn"},{"nr":12,"tekst":"vurdere korleis arbeid, inntekt og forbruk kan påverke personleg økonomi, levestandard og livskvalitet"},{"nr":13,"tekst":"reflektere over likskapar og ulikskapar i identitetar, levesett og kulturuttrykk og drøfte moglegheiter og utfordringar ved mangfald"},{"nr":14,"tekst":"utforske og reflektere over eigne digitale spor og høvet til å få sletta spora og å verne om retten ein sjølv og andre har til privatliv, personvern og opphavsrett"},{"nr":15,"tekst":"reflektere over korleis identitet, sjølvbilete og eigne grenser blir utvikla og utfordra i ulike fellesskap, og presentere forslag til korleis ein kan handtere påverknad og uønskte hendingar"},{"nr":16,"tekst":"reflektere over kva for aktørar som har makt i samfunnet i dag, og korleis desse grunngir standpunkta sine"},{"nr":17,"tekst":"utforske ulike plattformer for digital samhandling og reflektere over korleis digital deltaking og samhandling påverkar forma på og innhaldet i samfunnsdebatten"},{"nr":18,"tekst":"beskrive sentrale lover, reglar og normer og drøfte kva konsekvensar brot på desse kan ha for den enkelte og for samfunnet på kort og lang sikt"},{"nr":19,"tekst":"beskrive trekk ved det politiske systemet og velferdssamfunnet i Noreg i dag og reflektere over sentrale utfordringar"}]'::jsonb, 5),
   ('krle-8', '8', 'KRLE', 'RLE01-04', 'https://www.udir.no/lk20/rle01-04/kompetansemaal-og-vurdering/kv1145', '[{"nr":1,"tekst":"utforske og presentere sentrale trekk ved kristendom og andre religions- og livssynstradisjoner og deres utbredelse i dag"},{"nr":2,"tekst":"utforske og drøfte hvordan kristendom og andre religioner inngår i historiske endringsprosesser globalt og nasjonalt"},{"nr":3,"tekst":"undersøke og presentere sentrale ideer fra livssynshumanisme og andre ikke-religiøse livssyn"},{"nr":4,"tekst":"utforske og presentere religiøst mangfold og religiøse praksiser utenfor etablerte religionssamfunn"},{"nr":5,"tekst":"gjøre rede for og reflektere over samenes og andre urfolks religions- og livssynstradisjoner"},{"nr":6,"tekst":"bruke og drøfte fagbegreper om religioner og livssyn"},{"nr":7,"tekst":"sammenligne og vurdere kritisk ulike kilder til kunnskap om religioner og livssyn"},{"nr":8,"tekst":"gjøre rede for og reflektere over ulike syn på kjønn og seksualitet i kristendom og andre religioner og livssyn"},{"nr":9,"tekst":"utforske og presentere hvordan elementer fra kristendom og andre religioner og livssyn kommer til uttrykk i medier og populærkultur"},{"nr":10,"tekst":"utforske og sammenligne etiske ideer fra sentrale skikkelser i religiøse og livssynsbaserte tradisjoner"},{"nr":11,"tekst":"utforske etiske ideer fra sentrale skikkelser i filosofihistorien og anvende ideene til å drøfte aktuelle etiske spørsmål"},{"nr":12,"tekst":"utforske andres perspektiv og håndtere uenighet og meningsbrytning"},{"nr":13,"tekst":"reflektere over eksistensielle spørsmål knyttet til det å vokse opp og leve i et mangfoldig og globalt samfunn"},{"nr":14,"tekst":"identifisere og drøfte etiske problemstillinger knyttet til ulike former for kommunikasjon"},{"nr":15,"tekst":"identifisere og drøfte aktuelle etiske problemstillinger knyttet til menneskerettigheter, bærekraft og fattigdom"}]'::jsonb, 6),
-  ('tysk-8', '8', 'Tysk', null, null, '[]'::jsonb, 7),
-  ('fransk-8', '8', 'Fransk', null, null, '[]'::jsonb, 8),
-  ('spansk-8', '8', 'Spansk', null, null, '[]'::jsonb, 9),
+  ('tysk-8', '8', 'Tysk', 'FSP01-04', 'https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurdering/kv965', '[{"nr":1,"tekst":"lytte til og forstå enkel og tydelig tale om personlige og dagligdagse emner"},{"nr":2,"tekst":"delta i enkle samtaler i dagligdagse situasjoner om aktiviteter og kjente emner"},{"nr":3,"tekst":"muntlig fortelle om dagligliv og opplevelser og uttrykke meninger, også spontant"},{"nr":4,"tekst":"lese og forstå tilpassede og enklere autentiske tekster om personlige og dagligdagse emner"},{"nr":5,"tekst":"skrive enkle tekster om dagligliv og opplevelser som forteller, beskriver og informerer, med og uten hjelpemidler"},{"nr":6,"tekst":"bruke enkle språklige strukturer, regler for uttale og rettskriving og språkets offisielle alfabet eller tegn for å kommunisere på en situasjonstilpasset måte"},{"nr":7,"tekst":"bruke relevante lærings- og kommunikasjonsstrategier, digitale ressurser og erfaringer fra tidligere språklæring i læringsprosessen"},{"nr":8,"tekst":"utforske og beskrive levemåter, tradisjoner og geografi i områder der språket snakkes, og se sammenhenger med egen bakgrunn"},{"nr":9,"tekst":"utforske og beskrive kunstneriske og kulturelle uttrykk fra områder der språket snakkes, og gi uttrykk for egne opplevelser"}]'::jsonb, 7),
+  ('fransk-8', '8', 'Fransk', 'FSP01-04', 'https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurdering/kv965', '[{"nr":1,"tekst":"lytte til og forstå enkel og tydelig tale om personlige og dagligdagse emner"},{"nr":2,"tekst":"delta i enkle samtaler i dagligdagse situasjoner om aktiviteter og kjente emner"},{"nr":3,"tekst":"muntlig fortelle om dagligliv og opplevelser og uttrykke meninger, også spontant"},{"nr":4,"tekst":"lese og forstå tilpassede og enklere autentiske tekster om personlige og dagligdagse emner"},{"nr":5,"tekst":"skrive enkle tekster om dagligliv og opplevelser som forteller, beskriver og informerer, med og uten hjelpemidler"},{"nr":6,"tekst":"bruke enkle språklige strukturer, regler for uttale og rettskriving og språkets offisielle alfabet eller tegn for å kommunisere på en situasjonstilpasset måte"},{"nr":7,"tekst":"bruke relevante lærings- og kommunikasjonsstrategier, digitale ressurser og erfaringer fra tidligere språklæring i læringsprosessen"},{"nr":8,"tekst":"utforske og beskrive levemåter, tradisjoner og geografi i områder der språket snakkes, og se sammenhenger med egen bakgrunn"},{"nr":9,"tekst":"utforske og beskrive kunstneriske og kulturelle uttrykk fra områder der språket snakkes, og gi uttrykk for egne opplevelser"}]'::jsonb, 8),
+  ('spansk-8', '8', 'Spansk', 'FSP01-04', 'https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurdering/kv965', '[{"nr":1,"tekst":"lytte til og forstå enkel og tydelig tale om personlige og dagligdagse emner"},{"nr":2,"tekst":"delta i enkle samtaler i dagligdagse situasjoner om aktiviteter og kjente emner"},{"nr":3,"tekst":"muntlig fortelle om dagligliv og opplevelser og uttrykke meninger, også spontant"},{"nr":4,"tekst":"lese og forstå tilpassede og enklere autentiske tekster om personlige og dagligdagse emner"},{"nr":5,"tekst":"skrive enkle tekster om dagligliv og opplevelser som forteller, beskriver og informerer, med og uten hjelpemidler"},{"nr":6,"tekst":"bruke enkle språklige strukturer, regler for uttale og rettskriving og språkets offisielle alfabet eller tegn for å kommunisere på en situasjonstilpasset måte"},{"nr":7,"tekst":"bruke relevante lærings- og kommunikasjonsstrategier, digitale ressurser og erfaringer fra tidligere språklæring i læringsprosessen"},{"nr":8,"tekst":"utforske og beskrive levemåter, tradisjoner og geografi i områder der språket snakkes, og se sammenhenger med egen bakgrunn"},{"nr":9,"tekst":"utforske og beskrive kunstneriske og kulturelle uttrykk fra områder der språket snakkes, og gi uttrykk for egne opplevelser"}]'::jsonb, 9),
   ('arbeidslivsfag-8', '8', 'Arbeidslivsfag', null, null, '[]'::jsonb, 10),
   ('norsk-9', '9', 'Norsk', 'NOR01-08', 'https://www.udir.no/lk20/nor01-08/kompetansemaal-og-vurdering/kv1110', '[{"nr":1,"tekst":"lese skjønnlitteratur og sakprosa på bokmål og nynorsk og i oversettelse fra samiske og andre språk, og reflektere over tekstenes formål, innhold, sjangertrekk og virkemidler"},{"nr":2,"tekst":"sammenligne og tolke romaner, noveller, lyrikk og andre tekster ut fra historisk kontekst og egen samtid"},{"nr":3,"tekst":"beskrive og reflektere over egen bruk av lesestrategier i lesing av skjønnlitteratur og sakprosa"},{"nr":4,"tekst":"lytte til og lese tekster på svensk og dansk og gjøre rede for innhold og språklige trekk"},{"nr":5,"tekst":"utforske og reflektere over hvordan tekster framstiller unges livssituasjon"},{"nr":6,"tekst":"gjenkjenne og bruke språklige virkemidler og retoriske appellformer"},{"nr":7,"tekst":"bruke kilder på en kritisk måte, markere sitater og vise til kilder på en etterrettelig måte i egne tekster"},{"nr":8,"tekst":"utforske og vurdere hvordan digitale medier påvirker og endrer språk og kommunikasjon"},{"nr":9,"tekst":"bruke fagspråk og argumentere saklig i diskusjoner, samtaler, muntlige presentasjoner og skriftlige framstillinger om norskfaglige og tverrfaglige temaer"},{"nr":10,"tekst":"informere, fortelle, argumentere og reflektere i ulike muntlige og skriftlige sjangre og for ulike formål tilpasset mottaker og medium"},{"nr":11,"tekst":"skrive tekster med funksjonell tekstbinding og riktig tegnsetting og mestre rettskriving og ordbøying på hovedmål og sidemål"},{"nr":12,"tekst":"bruke fagspråk og kunnskap om grammatikk, tekststruktur og sjanger i samtale om og bearbeiding av tekster"},{"nr":13,"tekst":"uttrykke seg i ulike sjangre og eksperimentere med sjangre på kreative måter"},{"nr":14,"tekst":"lage sammensatte tekster og begrunne valg av uttrykksformer"},{"nr":15,"tekst":"forklare den historiske bakgrunnen for bokmål og nynorsk og reflektere over statusen til de offisielle språkene i Norge i dag"},{"nr":16,"tekst":"utforske språklig variasjon og mangfold i Norge og reflektere over holdninger til ulike språk og talespråkvarianter"}]'::jsonb, 0),
   ('matematikk-9', '9', 'Matematikk', 'MAT01-06', 'https://www.udir.no/lk20/mat01-06/kompetansemaal-og-vurdering/kv1028', '[{"nr":1,"tekst":"lage og løyse problem som handlar om samansette måleiningar"},{"nr":2,"tekst":"utforske eigenskapane ved ulike todimensjonale figurar og forklare omgrepa formlikskap og kongruens"},{"nr":3,"tekst":"bruke formlikskap og læresetninga til Pytagoras til utforsking av praktiske situasjonar"},{"nr":4,"tekst":"utforske, beskrive og argumentere for samanhengar mellom sidelengdene i trekantar"},{"nr":5,"tekst":"utforske og argumentere for korleis det å endre føresetnader i geometriske problemstillingar påverkar løysingar både praktisk og algebraisk"},{"nr":6,"tekst":"bruke og argumentere for formlar for overflateareal og volum av tredimensjonale figurar"},{"nr":7,"tekst":"tolke og kritisk vurdere statistiske framstillingar frå media og lokalsamfunnet"},{"nr":8,"tekst":"rekne på sentralmål og spreiingsmål i eigne og reelle datasett og bruke resultata til å beskrive dataa"},{"nr":9,"tekst":"samanlikne og argumentere for korleis framstillingar av tal og data kan brukast for å fremje ulike synspunkt"},{"nr":10,"tekst":"berekne og vurdere sannsyn i statistikk og spel"},{"nr":11,"tekst":"simulere utfall i tilfeldige forsøk og berekne sannsynet for at noko skal inntreffe, ved å bruke programmering"}]'::jsonb, 1),
@@ -31,9 +31,9 @@ insert into public.fag (id, trinn_id, navn, lareplan_kode, lareplan_url, kompeta
   ('naturfag-9', '9', 'Naturfag', 'NAT01-05', 'https://www.udir.no/lk20/nat01-05/kompetansemaal-og-vurdering/kv1078', '[{"nr":1,"tekst":"stille spørsmål og lage hypoteser om naturfaglige fenomener, identifisere avhengige og uavhengige variabler og samle data for å finne svar"},{"nr":2,"tekst":"analysere og bruke innsamlede data til å lage forklaringer, drøfte forklaringene i lys av relevant teori og vurdere kvaliteten på egne og andres utforskinger"},{"nr":3,"tekst":"bruke og lage modeller for å forutsi eller beskrive naturfaglige prosesser og systemer og gjøre rede for modellenes styrker og begrensninger"},{"nr":4,"tekst":"delta i risikovurderinger knyttet til forsøk og følge sikkerhetstiltakene"},{"nr":5,"tekst":"gi eksempler på dagsaktuell forskning og drøfte hvordan ny kunnskap genereres gjennom samarbeid og kritisk tilnærming til eksisterende kunnskap"},{"nr":6,"tekst":"utforske, forstå og lage teknologiske systemer som består av en sender og en mottaker"},{"nr":7,"tekst":"bruke programmering til å utforske naturfaglige fenomener"},{"nr":8,"tekst":"utforske kjemiske reaksjoner, forklare massebevaring og gjøre rede for betydninger av noen forbrenningsreaksjoner"},{"nr":9,"tekst":"bruke atommodeller og periodesystemet til å gjøre rede for egenskaper til grunnstoffer og kjemiske forbindelser"},{"nr":10,"tekst":"beskrive drivhuseffekten og gjøre rede for faktorer som kan forårsake globale klimaendringer"},{"nr":11,"tekst":"gjøre rede for energibevaring og energikvalitet og utforske ulike måter å omdanne, transportere og lagre energi på"},{"nr":12,"tekst":"drøfte hvordan energiproduksjon og energibruk kan påvirke miljøet lokalt og globalt"},{"nr":13,"tekst":"beskrive hvordan forskere har kommet fram til evolusjonsteorien og bruke denne til å forklare utvikling av biologisk mangfold"},{"nr":14,"tekst":"sammenligne celler hos ulike organismer og beskrive sammenhenger mellom oppbygning og funksjon"},{"nr":15,"tekst":"utforske sammenhenger mellom abiotiske og biotiske faktorer i et økosystem og diskutere hvordan energi og materie omdannes i kretsløp"},{"nr":16,"tekst":"gi eksempler på og drøfte aktuelle dilemmaer knyttet til utnyttelse av naturressurser og tap av biologisk mangfold"},{"nr":17,"tekst":"gi eksempler på samers tradisjonelle kunnskap om naturen og diskutere hvordan denne kunnskapen kan bidra til bærekraftig forvaltning av naturen"},{"nr":18,"tekst":"gjøre rede for hvordan fotosyntese og celleånding gir energi til alt levende gjennom karbonkretsløpet"},{"nr":19,"tekst":"bruke platetektonikkteorien til å forklare jordas utvikling over tid og gi eksempler på observasjoner som støtter teorien"},{"nr":20,"tekst":"drøfte spørsmål knyttet til seksuell og reproduktiv helse"},{"nr":21,"tekst":"sammenligne nervesystemet og hormonsystemet og beskrive hvordan rusmidler, legemidler, miljøgifter og doping påvirker signalsystemene"},{"nr":22,"tekst":"beskrive kroppens immunforsvar og hvordan vaksiner virker, og gjøre rede for hva vaksiner betyr for folkehelsen"}]'::jsonb, 4),
   ('samfunnsfag-9', '9', 'Samfunnsfag', 'SAF01-05', 'https://www.udir.no/lk20/saf01-05/kompetansemaal-og-vurdering/kv1151', '[{"nr":1,"tekst":"bruke samfunnsfaglege metodar og digitale ressursar i eigne undersøkingar, presentere funn ved bruk av digitale verktøy og drøfte kor gyldige og relevante funna er"},{"nr":2,"tekst":"vurdere på kva måtar ulike kjelder gir informasjon om eit samfunnsfagleg tema, og reflektere over korleis algoritmar, einsretta kjelder eller mangel på kjelder kan prege forståinga vår"},{"nr":3,"tekst":"drøfte korleis framstillingar av fortida, hendingar og grupper har påverka og påverkar haldningane og handlingane til folk"},{"nr":4,"tekst":"utforske korleis teknologi har vore og framleis er ein endringsfaktor, og drøfte innverknaden teknologien har hatt og har på enkeltmenneske, samfunn og natur"},{"nr":5,"tekst":"reflektere over korleis menneske har kjempa og kjempar for endringar i samfunnet og samstundes har vore og er påverka av geografiske forhold og historisk kontekst"},{"nr":6,"tekst":"samanlikne korleis politiske, geografiske og historiske forhold påverkar levekår, busetjingsmønster og demografi i forskjellige delar av verda i dag"},{"nr":7,"tekst":"gjere greie for årsaker til og konsekvensar av sentrale historiske og notidige konfliktar og reflektere over om endringar av nokre føresetnader kunne ha hindra konfliktane"},{"nr":8,"tekst":"gjere greie for årsaker til og konsekvensar av terrorhandlingar og folkemord, som holocaust, og reflektere over korleis ekstreme haldningar og ekstreme handlingar kan førebyggjast"},{"nr":9,"tekst":"utforske og beskrive korleis menneske- og urfolksrettar og andre internasjonale avtalar og samarbeid har betydning for nasjonal politikk, livet til menneske, likestilling og likeverd"},{"nr":10,"tekst":"gjere greie for fornorsking av samane og dei nasjonale minoritetane og uretten dei har vore utsette for, og reflektere over kva konsekvensar det har hatt og har på individ- og samfunnsnivå"},{"nr":11,"tekst":"beskrive ulike dimensjonar ved berekraftig utvikling og korleis dei påverkar kvarandre, og presentere tiltak for meir berekraftige samfunn"},{"nr":12,"tekst":"vurdere korleis arbeid, inntekt og forbruk kan påverke personleg økonomi, levestandard og livskvalitet"},{"nr":13,"tekst":"reflektere over likskapar og ulikskapar i identitetar, levesett og kulturuttrykk og drøfte moglegheiter og utfordringar ved mangfald"},{"nr":14,"tekst":"utforske og reflektere over eigne digitale spor og høvet til å få sletta spora og å verne om retten ein sjølv og andre har til privatliv, personvern og opphavsrett"},{"nr":15,"tekst":"reflektere over korleis identitet, sjølvbilete og eigne grenser blir utvikla og utfordra i ulike fellesskap, og presentere forslag til korleis ein kan handtere påverknad og uønskte hendingar"},{"nr":16,"tekst":"reflektere over kva for aktørar som har makt i samfunnet i dag, og korleis desse grunngir standpunkta sine"},{"nr":17,"tekst":"utforske ulike plattformer for digital samhandling og reflektere over korleis digital deltaking og samhandling påverkar forma på og innhaldet i samfunnsdebatten"},{"nr":18,"tekst":"beskrive sentrale lover, reglar og normer og drøfte kva konsekvensar brot på desse kan ha for den enkelte og for samfunnet på kort og lang sikt"},{"nr":19,"tekst":"beskrive trekk ved det politiske systemet og velferdssamfunnet i Noreg i dag og reflektere over sentrale utfordringar"}]'::jsonb, 5),
   ('krle-9', '9', 'KRLE', 'RLE01-04', 'https://www.udir.no/lk20/rle01-04/kompetansemaal-og-vurdering/kv1145', '[{"nr":1,"tekst":"utforske og presentere sentrale trekk ved kristendom og andre religions- og livssynstradisjoner og deres utbredelse i dag"},{"nr":2,"tekst":"utforske og drøfte hvordan kristendom og andre religioner inngår i historiske endringsprosesser globalt og nasjonalt"},{"nr":3,"tekst":"undersøke og presentere sentrale ideer fra livssynshumanisme og andre ikke-religiøse livssyn"},{"nr":4,"tekst":"utforske og presentere religiøst mangfold og religiøse praksiser utenfor etablerte religionssamfunn"},{"nr":5,"tekst":"gjøre rede for og reflektere over samenes og andre urfolks religions- og livssynstradisjoner"},{"nr":6,"tekst":"bruke og drøfte fagbegreper om religioner og livssyn"},{"nr":7,"tekst":"sammenligne og vurdere kritisk ulike kilder til kunnskap om religioner og livssyn"},{"nr":8,"tekst":"gjøre rede for og reflektere over ulike syn på kjønn og seksualitet i kristendom og andre religioner og livssyn"},{"nr":9,"tekst":"utforske og presentere hvordan elementer fra kristendom og andre religioner og livssyn kommer til uttrykk i medier og populærkultur"},{"nr":10,"tekst":"utforske og sammenligne etiske ideer fra sentrale skikkelser i religiøse og livssynsbaserte tradisjoner"},{"nr":11,"tekst":"utforske etiske ideer fra sentrale skikkelser i filosofihistorien og anvende ideene til å drøfte aktuelle etiske spørsmål"},{"nr":12,"tekst":"utforske andres perspektiv og håndtere uenighet og meningsbrytning"},{"nr":13,"tekst":"reflektere over eksistensielle spørsmål knyttet til det å vokse opp og leve i et mangfoldig og globalt samfunn"},{"nr":14,"tekst":"identifisere og drøfte etiske problemstillinger knyttet til ulike former for kommunikasjon"},{"nr":15,"tekst":"identifisere og drøfte aktuelle etiske problemstillinger knyttet til menneskerettigheter, bærekraft og fattigdom"}]'::jsonb, 6),
-  ('tysk-9', '9', 'Tysk', null, null, '[]'::jsonb, 7),
-  ('fransk-9', '9', 'Fransk', null, null, '[]'::jsonb, 8),
-  ('spansk-9', '9', 'Spansk', null, null, '[]'::jsonb, 9),
+  ('tysk-9', '9', 'Tysk', 'FSP01-04', 'https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurdering/kv965', '[{"nr":1,"tekst":"lytte til og forstå enkel og tydelig tale om personlige og dagligdagse emner"},{"nr":2,"tekst":"delta i enkle samtaler i dagligdagse situasjoner om aktiviteter og kjente emner"},{"nr":3,"tekst":"muntlig fortelle om dagligliv og opplevelser og uttrykke meninger, også spontant"},{"nr":4,"tekst":"lese og forstå tilpassede og enklere autentiske tekster om personlige og dagligdagse emner"},{"nr":5,"tekst":"skrive enkle tekster om dagligliv og opplevelser som forteller, beskriver og informerer, med og uten hjelpemidler"},{"nr":6,"tekst":"bruke enkle språklige strukturer, regler for uttale og rettskriving og språkets offisielle alfabet eller tegn for å kommunisere på en situasjonstilpasset måte"},{"nr":7,"tekst":"bruke relevante lærings- og kommunikasjonsstrategier, digitale ressurser og erfaringer fra tidligere språklæring i læringsprosessen"},{"nr":8,"tekst":"utforske og beskrive levemåter, tradisjoner og geografi i områder der språket snakkes, og se sammenhenger med egen bakgrunn"},{"nr":9,"tekst":"utforske og beskrive kunstneriske og kulturelle uttrykk fra områder der språket snakkes, og gi uttrykk for egne opplevelser"}]'::jsonb, 7),
+  ('fransk-9', '9', 'Fransk', 'FSP01-04', 'https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurdering/kv965', '[{"nr":1,"tekst":"lytte til og forstå enkel og tydelig tale om personlige og dagligdagse emner"},{"nr":2,"tekst":"delta i enkle samtaler i dagligdagse situasjoner om aktiviteter og kjente emner"},{"nr":3,"tekst":"muntlig fortelle om dagligliv og opplevelser og uttrykke meninger, også spontant"},{"nr":4,"tekst":"lese og forstå tilpassede og enklere autentiske tekster om personlige og dagligdagse emner"},{"nr":5,"tekst":"skrive enkle tekster om dagligliv og opplevelser som forteller, beskriver og informerer, med og uten hjelpemidler"},{"nr":6,"tekst":"bruke enkle språklige strukturer, regler for uttale og rettskriving og språkets offisielle alfabet eller tegn for å kommunisere på en situasjonstilpasset måte"},{"nr":7,"tekst":"bruke relevante lærings- og kommunikasjonsstrategier, digitale ressurser og erfaringer fra tidligere språklæring i læringsprosessen"},{"nr":8,"tekst":"utforske og beskrive levemåter, tradisjoner og geografi i områder der språket snakkes, og se sammenhenger med egen bakgrunn"},{"nr":9,"tekst":"utforske og beskrive kunstneriske og kulturelle uttrykk fra områder der språket snakkes, og gi uttrykk for egne opplevelser"}]'::jsonb, 8),
+  ('spansk-9', '9', 'Spansk', 'FSP01-04', 'https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurdering/kv965', '[{"nr":1,"tekst":"lytte til og forstå enkel og tydelig tale om personlige og dagligdagse emner"},{"nr":2,"tekst":"delta i enkle samtaler i dagligdagse situasjoner om aktiviteter og kjente emner"},{"nr":3,"tekst":"muntlig fortelle om dagligliv og opplevelser og uttrykke meninger, også spontant"},{"nr":4,"tekst":"lese og forstå tilpassede og enklere autentiske tekster om personlige og dagligdagse emner"},{"nr":5,"tekst":"skrive enkle tekster om dagligliv og opplevelser som forteller, beskriver og informerer, med og uten hjelpemidler"},{"nr":6,"tekst":"bruke enkle språklige strukturer, regler for uttale og rettskriving og språkets offisielle alfabet eller tegn for å kommunisere på en situasjonstilpasset måte"},{"nr":7,"tekst":"bruke relevante lærings- og kommunikasjonsstrategier, digitale ressurser og erfaringer fra tidligere språklæring i læringsprosessen"},{"nr":8,"tekst":"utforske og beskrive levemåter, tradisjoner og geografi i områder der språket snakkes, og se sammenhenger med egen bakgrunn"},{"nr":9,"tekst":"utforske og beskrive kunstneriske og kulturelle uttrykk fra områder der språket snakkes, og gi uttrykk for egne opplevelser"}]'::jsonb, 9),
   ('arbeidslivsfag-9', '9', 'Arbeidslivsfag', null, null, '[]'::jsonb, 10),
   ('utdanningsvalg-9', '9', 'Utdanningsvalg', null, null, '[]'::jsonb, 11),
   ('norsk-10', '10', 'Norsk', 'NOR01-08', 'https://www.udir.no/lk20/nor01-08/kompetansemaal-og-vurdering/kv1110', '[{"nr":1,"tekst":"lese skjønnlitteratur og sakprosa på bokmål og nynorsk og i oversettelse fra samiske og andre språk, og reflektere over tekstenes formål, innhold, sjangertrekk og virkemidler"},{"nr":2,"tekst":"sammenligne og tolke romaner, noveller, lyrikk og andre tekster ut fra historisk kontekst og egen samtid"},{"nr":3,"tekst":"beskrive og reflektere over egen bruk av lesestrategier i lesing av skjønnlitteratur og sakprosa"},{"nr":4,"tekst":"lytte til og lese tekster på svensk og dansk og gjøre rede for innhold og språklige trekk"},{"nr":5,"tekst":"utforske og reflektere over hvordan tekster framstiller unges livssituasjon"},{"nr":6,"tekst":"gjenkjenne og bruke språklige virkemidler og retoriske appellformer"},{"nr":7,"tekst":"bruke kilder på en kritisk måte, markere sitater og vise til kilder på en etterrettelig måte i egne tekster"},{"nr":8,"tekst":"utforske og vurdere hvordan digitale medier påvirker og endrer språk og kommunikasjon"},{"nr":9,"tekst":"bruke fagspråk og argumentere saklig i diskusjoner, samtaler, muntlige presentasjoner og skriftlige framstillinger om norskfaglige og tverrfaglige temaer"},{"nr":10,"tekst":"informere, fortelle, argumentere og reflektere i ulike muntlige og skriftlige sjangre og for ulike formål tilpasset mottaker og medium"},{"nr":11,"tekst":"skrive tekster med funksjonell tekstbinding og riktig tegnsetting og mestre rettskriving og ordbøying på hovedmål og sidemål"},{"nr":12,"tekst":"bruke fagspråk og kunnskap om grammatikk, tekststruktur og sjanger i samtale om og bearbeiding av tekster"},{"nr":13,"tekst":"uttrykke seg i ulike sjangre og eksperimentere med sjangre på kreative måter"},{"nr":14,"tekst":"lage sammensatte tekster og begrunne valg av uttrykksformer"},{"nr":15,"tekst":"forklare den historiske bakgrunnen for bokmål og nynorsk og reflektere over statusen til de offisielle språkene i Norge i dag"},{"nr":16,"tekst":"utforske språklig variasjon og mangfold i Norge og reflektere over holdninger til ulike språk og talespråkvarianter"}]'::jsonb, 0),
@@ -43,9 +43,9 @@ insert into public.fag (id, trinn_id, navn, lareplan_kode, lareplan_url, kompeta
   ('naturfag-10', '10', 'Naturfag', 'NAT01-05', 'https://www.udir.no/lk20/nat01-05/kompetansemaal-og-vurdering/kv1078', '[{"nr":1,"tekst":"stille spørsmål og lage hypoteser om naturfaglige fenomener, identifisere avhengige og uavhengige variabler og samle data for å finne svar"},{"nr":2,"tekst":"analysere og bruke innsamlede data til å lage forklaringer, drøfte forklaringene i lys av relevant teori og vurdere kvaliteten på egne og andres utforskinger"},{"nr":3,"tekst":"bruke og lage modeller for å forutsi eller beskrive naturfaglige prosesser og systemer og gjøre rede for modellenes styrker og begrensninger"},{"nr":4,"tekst":"delta i risikovurderinger knyttet til forsøk og følge sikkerhetstiltakene"},{"nr":5,"tekst":"gi eksempler på dagsaktuell forskning og drøfte hvordan ny kunnskap genereres gjennom samarbeid og kritisk tilnærming til eksisterende kunnskap"},{"nr":6,"tekst":"utforske, forstå og lage teknologiske systemer som består av en sender og en mottaker"},{"nr":7,"tekst":"bruke programmering til å utforske naturfaglige fenomener"},{"nr":8,"tekst":"utforske kjemiske reaksjoner, forklare massebevaring og gjøre rede for betydninger av noen forbrenningsreaksjoner"},{"nr":9,"tekst":"bruke atommodeller og periodesystemet til å gjøre rede for egenskaper til grunnstoffer og kjemiske forbindelser"},{"nr":10,"tekst":"beskrive drivhuseffekten og gjøre rede for faktorer som kan forårsake globale klimaendringer"},{"nr":11,"tekst":"gjøre rede for energibevaring og energikvalitet og utforske ulike måter å omdanne, transportere og lagre energi på"},{"nr":12,"tekst":"drøfte hvordan energiproduksjon og energibruk kan påvirke miljøet lokalt og globalt"},{"nr":13,"tekst":"beskrive hvordan forskere har kommet fram til evolusjonsteorien og bruke denne til å forklare utvikling av biologisk mangfold"},{"nr":14,"tekst":"sammenligne celler hos ulike organismer og beskrive sammenhenger mellom oppbygning og funksjon"},{"nr":15,"tekst":"utforske sammenhenger mellom abiotiske og biotiske faktorer i et økosystem og diskutere hvordan energi og materie omdannes i kretsløp"},{"nr":16,"tekst":"gi eksempler på og drøfte aktuelle dilemmaer knyttet til utnyttelse av naturressurser og tap av biologisk mangfold"},{"nr":17,"tekst":"gi eksempler på samers tradisjonelle kunnskap om naturen og diskutere hvordan denne kunnskapen kan bidra til bærekraftig forvaltning av naturen"},{"nr":18,"tekst":"gjøre rede for hvordan fotosyntese og celleånding gir energi til alt levende gjennom karbonkretsløpet"},{"nr":19,"tekst":"bruke platetektonikkteorien til å forklare jordas utvikling over tid og gi eksempler på observasjoner som støtter teorien"},{"nr":20,"tekst":"drøfte spørsmål knyttet til seksuell og reproduktiv helse"},{"nr":21,"tekst":"sammenligne nervesystemet og hormonsystemet og beskrive hvordan rusmidler, legemidler, miljøgifter og doping påvirker signalsystemene"},{"nr":22,"tekst":"beskrive kroppens immunforsvar og hvordan vaksiner virker, og gjøre rede for hva vaksiner betyr for folkehelsen"}]'::jsonb, 4),
   ('samfunnsfag-10', '10', 'Samfunnsfag', 'SAF01-05', 'https://www.udir.no/lk20/saf01-05/kompetansemaal-og-vurdering/kv1151', '[{"nr":1,"tekst":"bruke samfunnsfaglege metodar og digitale ressursar i eigne undersøkingar, presentere funn ved bruk av digitale verktøy og drøfte kor gyldige og relevante funna er"},{"nr":2,"tekst":"vurdere på kva måtar ulike kjelder gir informasjon om eit samfunnsfagleg tema, og reflektere over korleis algoritmar, einsretta kjelder eller mangel på kjelder kan prege forståinga vår"},{"nr":3,"tekst":"drøfte korleis framstillingar av fortida, hendingar og grupper har påverka og påverkar haldningane og handlingane til folk"},{"nr":4,"tekst":"utforske korleis teknologi har vore og framleis er ein endringsfaktor, og drøfte innverknaden teknologien har hatt og har på enkeltmenneske, samfunn og natur"},{"nr":5,"tekst":"reflektere over korleis menneske har kjempa og kjempar for endringar i samfunnet og samstundes har vore og er påverka av geografiske forhold og historisk kontekst"},{"nr":6,"tekst":"samanlikne korleis politiske, geografiske og historiske forhold påverkar levekår, busetjingsmønster og demografi i forskjellige delar av verda i dag"},{"nr":7,"tekst":"gjere greie for årsaker til og konsekvensar av sentrale historiske og notidige konfliktar og reflektere over om endringar av nokre føresetnader kunne ha hindra konfliktane"},{"nr":8,"tekst":"gjere greie for årsaker til og konsekvensar av terrorhandlingar og folkemord, som holocaust, og reflektere over korleis ekstreme haldningar og ekstreme handlingar kan førebyggjast"},{"nr":9,"tekst":"utforske og beskrive korleis menneske- og urfolksrettar og andre internasjonale avtalar og samarbeid har betydning for nasjonal politikk, livet til menneske, likestilling og likeverd"},{"nr":10,"tekst":"gjere greie for fornorsking av samane og dei nasjonale minoritetane og uretten dei har vore utsette for, og reflektere over kva konsekvensar det har hatt og har på individ- og samfunnsnivå"},{"nr":11,"tekst":"beskrive ulike dimensjonar ved berekraftig utvikling og korleis dei påverkar kvarandre, og presentere tiltak for meir berekraftige samfunn"},{"nr":12,"tekst":"vurdere korleis arbeid, inntekt og forbruk kan påverke personleg økonomi, levestandard og livskvalitet"},{"nr":13,"tekst":"reflektere over likskapar og ulikskapar i identitetar, levesett og kulturuttrykk og drøfte moglegheiter og utfordringar ved mangfald"},{"nr":14,"tekst":"utforske og reflektere over eigne digitale spor og høvet til å få sletta spora og å verne om retten ein sjølv og andre har til privatliv, personvern og opphavsrett"},{"nr":15,"tekst":"reflektere over korleis identitet, sjølvbilete og eigne grenser blir utvikla og utfordra i ulike fellesskap, og presentere forslag til korleis ein kan handtere påverknad og uønskte hendingar"},{"nr":16,"tekst":"reflektere over kva for aktørar som har makt i samfunnet i dag, og korleis desse grunngir standpunkta sine"},{"nr":17,"tekst":"utforske ulike plattformer for digital samhandling og reflektere over korleis digital deltaking og samhandling påverkar forma på og innhaldet i samfunnsdebatten"},{"nr":18,"tekst":"beskrive sentrale lover, reglar og normer og drøfte kva konsekvensar brot på desse kan ha for den enkelte og for samfunnet på kort og lang sikt"},{"nr":19,"tekst":"beskrive trekk ved det politiske systemet og velferdssamfunnet i Noreg i dag og reflektere over sentrale utfordringar"}]'::jsonb, 5),
   ('krle-10', '10', 'KRLE', 'RLE01-04', 'https://www.udir.no/lk20/rle01-04/kompetansemaal-og-vurdering/kv1145', '[{"nr":1,"tekst":"utforske og presentere sentrale trekk ved kristendom og andre religions- og livssynstradisjoner og deres utbredelse i dag"},{"nr":2,"tekst":"utforske og drøfte hvordan kristendom og andre religioner inngår i historiske endringsprosesser globalt og nasjonalt"},{"nr":3,"tekst":"undersøke og presentere sentrale ideer fra livssynshumanisme og andre ikke-religiøse livssyn"},{"nr":4,"tekst":"utforske og presentere religiøst mangfold og religiøse praksiser utenfor etablerte religionssamfunn"},{"nr":5,"tekst":"gjøre rede for og reflektere over samenes og andre urfolks religions- og livssynstradisjoner"},{"nr":6,"tekst":"bruke og drøfte fagbegreper om religioner og livssyn"},{"nr":7,"tekst":"sammenligne og vurdere kritisk ulike kilder til kunnskap om religioner og livssyn"},{"nr":8,"tekst":"gjøre rede for og reflektere over ulike syn på kjønn og seksualitet i kristendom og andre religioner og livssyn"},{"nr":9,"tekst":"utforske og presentere hvordan elementer fra kristendom og andre religioner og livssyn kommer til uttrykk i medier og populærkultur"},{"nr":10,"tekst":"utforske og sammenligne etiske ideer fra sentrale skikkelser i religiøse og livssynsbaserte tradisjoner"},{"nr":11,"tekst":"utforske etiske ideer fra sentrale skikkelser i filosofihistorien og anvende ideene til å drøfte aktuelle etiske spørsmål"},{"nr":12,"tekst":"utforske andres perspektiv og håndtere uenighet og meningsbrytning"},{"nr":13,"tekst":"reflektere over eksistensielle spørsmål knyttet til det å vokse opp og leve i et mangfoldig og globalt samfunn"},{"nr":14,"tekst":"identifisere og drøfte etiske problemstillinger knyttet til ulike former for kommunikasjon"},{"nr":15,"tekst":"identifisere og drøfte aktuelle etiske problemstillinger knyttet til menneskerettigheter, bærekraft og fattigdom"}]'::jsonb, 6),
-  ('tysk-10', '10', 'Tysk', null, null, '[]'::jsonb, 7),
-  ('fransk-10', '10', 'Fransk', null, null, '[]'::jsonb, 8),
-  ('spansk-10', '10', 'Spansk', null, null, '[]'::jsonb, 9),
+  ('tysk-10', '10', 'Tysk', 'FSP01-04', 'https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurdering/kv965', '[{"nr":1,"tekst":"lytte til og forstå enkel og tydelig tale om personlige og dagligdagse emner"},{"nr":2,"tekst":"delta i enkle samtaler i dagligdagse situasjoner om aktiviteter og kjente emner"},{"nr":3,"tekst":"muntlig fortelle om dagligliv og opplevelser og uttrykke meninger, også spontant"},{"nr":4,"tekst":"lese og forstå tilpassede og enklere autentiske tekster om personlige og dagligdagse emner"},{"nr":5,"tekst":"skrive enkle tekster om dagligliv og opplevelser som forteller, beskriver og informerer, med og uten hjelpemidler"},{"nr":6,"tekst":"bruke enkle språklige strukturer, regler for uttale og rettskriving og språkets offisielle alfabet eller tegn for å kommunisere på en situasjonstilpasset måte"},{"nr":7,"tekst":"bruke relevante lærings- og kommunikasjonsstrategier, digitale ressurser og erfaringer fra tidligere språklæring i læringsprosessen"},{"nr":8,"tekst":"utforske og beskrive levemåter, tradisjoner og geografi i områder der språket snakkes, og se sammenhenger med egen bakgrunn"},{"nr":9,"tekst":"utforske og beskrive kunstneriske og kulturelle uttrykk fra områder der språket snakkes, og gi uttrykk for egne opplevelser"}]'::jsonb, 7),
+  ('fransk-10', '10', 'Fransk', 'FSP01-04', 'https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurdering/kv965', '[{"nr":1,"tekst":"lytte til og forstå enkel og tydelig tale om personlige og dagligdagse emner"},{"nr":2,"tekst":"delta i enkle samtaler i dagligdagse situasjoner om aktiviteter og kjente emner"},{"nr":3,"tekst":"muntlig fortelle om dagligliv og opplevelser og uttrykke meninger, også spontant"},{"nr":4,"tekst":"lese og forstå tilpassede og enklere autentiske tekster om personlige og dagligdagse emner"},{"nr":5,"tekst":"skrive enkle tekster om dagligliv og opplevelser som forteller, beskriver og informerer, med og uten hjelpemidler"},{"nr":6,"tekst":"bruke enkle språklige strukturer, regler for uttale og rettskriving og språkets offisielle alfabet eller tegn for å kommunisere på en situasjonstilpasset måte"},{"nr":7,"tekst":"bruke relevante lærings- og kommunikasjonsstrategier, digitale ressurser og erfaringer fra tidligere språklæring i læringsprosessen"},{"nr":8,"tekst":"utforske og beskrive levemåter, tradisjoner og geografi i områder der språket snakkes, og se sammenhenger med egen bakgrunn"},{"nr":9,"tekst":"utforske og beskrive kunstneriske og kulturelle uttrykk fra områder der språket snakkes, og gi uttrykk for egne opplevelser"}]'::jsonb, 8),
+  ('spansk-10', '10', 'Spansk', 'FSP01-04', 'https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurdering/kv965', '[{"nr":1,"tekst":"lytte til og forstå enkel og tydelig tale om personlige og dagligdagse emner"},{"nr":2,"tekst":"delta i enkle samtaler i dagligdagse situasjoner om aktiviteter og kjente emner"},{"nr":3,"tekst":"muntlig fortelle om dagligliv og opplevelser og uttrykke meninger, også spontant"},{"nr":4,"tekst":"lese og forstå tilpassede og enklere autentiske tekster om personlige og dagligdagse emner"},{"nr":5,"tekst":"skrive enkle tekster om dagligliv og opplevelser som forteller, beskriver og informerer, med og uten hjelpemidler"},{"nr":6,"tekst":"bruke enkle språklige strukturer, regler for uttale og rettskriving og språkets offisielle alfabet eller tegn for å kommunisere på en situasjonstilpasset måte"},{"nr":7,"tekst":"bruke relevante lærings- og kommunikasjonsstrategier, digitale ressurser og erfaringer fra tidligere språklæring i læringsprosessen"},{"nr":8,"tekst":"utforske og beskrive levemåter, tradisjoner og geografi i områder der språket snakkes, og se sammenhenger med egen bakgrunn"},{"nr":9,"tekst":"utforske og beskrive kunstneriske og kulturelle uttrykk fra områder der språket snakkes, og gi uttrykk for egne opplevelser"}]'::jsonb, 9),
   ('arbeidslivsfag-10', '10', 'Arbeidslivsfag', null, null, '[]'::jsonb, 10),
   ('utdanningsvalg-10', '10', 'Utdanningsvalg', null, null, '[]'::jsonb, 11),
   ('norsk-vg1', 'vg1', 'Norsk', null, null, '[]'::jsonb, 0),
@@ -3870,6 +3870,1675 @@ insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, ri
   ('krle-8:etiske-teorier', 'm07', 'flervalg', 'Hvilken etisk teori knyttes til Jeremy Bentham og John Stuart Mill?', array['Pliktetikk', 'Utilitarisme', 'Dydsetikk', 'Sinnelagsetikk']::text[], 1, 'Utilitarismen er en form for konsekvensetikk.', false, true, 16);
 insert into public.miniprover (tema_id, minutter) values
   ('krle-8:etiske-teorier', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Tysk (8): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'tysk-8' and slug not in ('hilsener-og-presentasjon', 'tall-og-tid', 'familie-og-venner', 'skole-og-fritid', 'grammatikk-grunnlag', 'land-og-kultur');
+
+-- Tysk: Hilsener og presentasjon
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('tysk-8:hilsener-og-presentasjon', 'tysk-8', 'hilsener-og-presentasjon', 'Hilsener og presentasjon', 'Hvordan du hilser, presenterer deg selv og spør andre om navn, alder og bosted på tysk, når du bruker du og Sie, og de viktigste reglene for uttale og skrift.', array[2, 6]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('tysk-8:hilsener-og-presentasjon', '## Tysk i verden
+
+Rundt 100 millioner mennesker har tysk som morsmål. Tysk er offisielt språk i **Tyskland**, **Østerrike**, **Sveits** og **Liechtenstein**, og snakkes også i deler av Belgia, Luxembourg og Italia. Tysk og norsk er i slekt, og mange ord ligner: *Haus* – hus, *Buch* – bok, *Hund* – hund.
+
+## Hilsener
+
+- **Hallo!** – Hei!
+- **Guten Morgen!** – God morgen!
+- **Guten Tag!** – God dag! (mer formelt)
+- **Guten Abend!** – God kveld!
+- **Tschüs!** – Ha det! (uformelt)
+- **Auf Wiedersehen!** – Ha det bra! (formelt)
+- **Bis bald!** – Vi ses snart!
+
+## Presentere seg selv
+
+- **Wie heißt du?** – Hva heter du? – **Ich heiße Nora.** – Jeg heter Nora.
+- **Wie alt bist du?** – Hvor gammel er du? – **Ich bin dreizehn Jahre alt.**
+- **Woher kommst du?** – Hvor kommer du fra? – **Ich komme aus Norwegen.**
+- **Wo wohnst du?** – Hvor bor du? – **Ich wohne in Bergen.**
+- **Wie geht''s?** – Hvordan går det? – **Gut, danke!** / **Es geht.** / **Nicht so gut.**
+
+## Du eller Sie?
+
+Tysk har to ord for «du»:
+
+- **du** brukes til venner, familie, barn og andre unge.
+- **Sie** (alltid med stor S) er høflighetsformen til voksne du ikke kjenner, som lærere og ekspeditører: *Wie heißen Sie?*
+
+## Uttale
+
+- **ei** uttales som norsk «ai»: *drei*, *heißen*
+- **ie** uttales som langt «i»: *Sie*, *vier*
+- **eu** og **äu** uttales omtrent «åi»: *neun*, *Häuser*
+- **w** uttales som norsk «v»: *wie*, *wo*
+- **v** uttales oftest som «f»: *Vater*, *vier*
+- **z** uttales «ts»: *zehn*
+- **sch** uttales «sj»: *Schule*
+- **ch** etter a, o og u er en hard lyd bak i halsen: *acht*, *Buch*. Etter e og i er den mykere, omtrent som «kj» i *kjøre*: *ich*.
+- **s** foran vokal uttales stemt, omtrent som engelsk «z»: *Sonne*
+
+## Spesielle bokstaver
+
+Tysk har **omlyd**: **ä**, **ö** og **ü**, og bokstaven **ß** («eszett»), som uttales som dobbel s: *heißen*, *Straße*. Alle **substantiver** skrives med **stor forbokstav**: *der Hund*, *die Schule*, *das Buch*.
+
+## Høflige småord
+
+**Bitte** betyr både «vær så snill» og «vær så god», **Danke** betyr «takk», og **Entschuldigung** betyr «unnskyld». Med disse ordene og noen hilsener kommer du langt i møte med tysktalende!', '{"label":"Hilsener og presentasjon","children":[{"label":"Hilsener","children":[{"label":"Hallo / Guten Tag"},{"label":"Guten Morgen / Abend"},{"label":"Tschüs"},{"label":"Auf Wiedersehen"}]},{"label":"Om meg","children":[{"label":"Ich heiße …"},{"label":"Ich bin … Jahre alt"},{"label":"Ich komme aus …"},{"label":"Ich wohne in …"}]},{"label":"du eller Sie","children":[{"label":"du","note":"Venner og familie"},{"label":"Sie","note":"Høflig"}]},{"label":"Uttale","children":[{"label":"ei = ai"},{"label":"ie = langt i"},{"label":"w = v, z = ts"},{"label":"sch og ch"}]},{"label":"Skrift","children":[{"label":"ä, ö, ü"},{"label":"ß"},{"label":"Substantiv med stor bokstav"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'tysk-8:hilsener-og-presentasjon';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('tysk-8:hilsener-og-presentasjon', 'Hallo!', 'Hei!', 0),
+  ('tysk-8:hilsener-og-presentasjon', 'Guten Morgen!', 'God morgen!', 1),
+  ('tysk-8:hilsener-og-presentasjon', 'Guten Tag!', 'God dag! (litt formelt)', 2),
+  ('tysk-8:hilsener-og-presentasjon', 'Tschüs!', 'Ha det! (uformelt)', 3),
+  ('tysk-8:hilsener-og-presentasjon', 'Auf Wiedersehen!', 'Ha det bra! (formelt)', 4),
+  ('tysk-8:hilsener-og-presentasjon', 'Wie heißt du?', 'Hva heter du?', 5),
+  ('tysk-8:hilsener-og-presentasjon', 'Ich heiße …', 'Jeg heter …', 6),
+  ('tysk-8:hilsener-og-presentasjon', 'Wie alt bist du?', 'Hvor gammel er du?', 7),
+  ('tysk-8:hilsener-og-presentasjon', 'Woher kommst du?', 'Hvor kommer du fra?', 8),
+  ('tysk-8:hilsener-og-presentasjon', 'Ich wohne in …', 'Jeg bor i …', 9),
+  ('tysk-8:hilsener-og-presentasjon', 'Wie geht''s?', 'Hvordan går det?', 10),
+  ('tysk-8:hilsener-og-presentasjon', 'du / Sie', 'du (uformelt) / De (høflig til voksne du ikke kjenner)', 11),
+  ('tysk-8:hilsener-og-presentasjon', 'Danke', 'Takk', 12),
+  ('tysk-8:hilsener-og-presentasjon', 'Bitte', 'Vær så snill / vær så god', 13),
+  ('tysk-8:hilsener-og-presentasjon', 'Entschuldigung', 'Unnskyld', 14),
+  ('tysk-8:hilsener-og-presentasjon', 'ß', 'Eszett, uttales som dobbel s, som i heißen.', 15);
+delete from public.quiz_sporsmal where tema_id = 'tysk-8:hilsener-og-presentasjon';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('tysk-8:hilsener-og-presentasjon', 'q01', 'flervalg', 'Hva betyr «Wie heißt du?»', array['Hvor bor du?', 'Hva heter du?', 'Hvor gammel er du?', 'Hvordan går det?']::text[], 1, 'Du svarer med «Ich heiße …».', true, true, 0),
+  ('tysk-8:hilsener-og-presentasjon', 'q02', 'flervalg', 'Hvordan sier du «Jeg kommer fra Norge» på tysk?', array['Ich wohne in Norwegen.', 'Ich heiße Norwegen.', 'Ich bin Norwegen.', 'Ich komme aus Norwegen.']::text[], 3, '«aus» betyr «fra» når du forteller hvor du kommer fra.', true, true, 1),
+  ('tysk-8:hilsener-og-presentasjon', 'q03', 'flervalg', 'Når bruker du «Sie» i stedet for «du»?', array['Til voksne du ikke kjenner, som en lærer eller ekspeditør', 'Til venner', 'Til søsken', 'Til kjæledyr']::text[], 0, '«Sie» er høflighetsformen.', true, true, 2),
+  ('tysk-8:hilsener-og-presentasjon', 'q04', 'flervalg', 'Hvordan uttales «ei» i «drei»?', array['Som norsk «ei»', 'Som langt «i»', 'Som norsk «ai»', 'Som «åi»']::text[], 2, '«drei» uttales omtrent «drai».', true, true, 3),
+  ('tysk-8:hilsener-og-presentasjon', 'q05', 'flervalg', 'Hvilken hilsen passer best når du sier ha det etter en formell samtale?', array['Hallo!', 'Tschüs!', 'Guten Morgen!', 'Auf Wiedersehen!']::text[], 3, '«Tschüs» er uformelt, «Auf Wiedersehen» er formelt.', true, true, 4),
+  ('tysk-8:hilsener-og-presentasjon', 'q06', 'flervalg', 'Hvilke ord skrives alltid med stor forbokstav på tysk?', array['Verb', 'Substantiver', 'Adjektiver', 'Tallord']::text[], 1, 'Alle substantiver, som «der Hund» og «die Schule», har stor forbokstav.', true, true, 5),
+  ('tysk-8:hilsener-og-presentasjon', 'q07', 'flervalg', 'Hva svarer du på «Wie geht''s?» hvis det går bra?', array['Gut, danke!', 'Ich heiße Ola.', 'Auf Wiedersehen!', 'Ich bin dreizehn.']::text[], 0, '«Gut, danke!» betyr «Bra, takk!».', true, true, 6),
+  ('tysk-8:hilsener-og-presentasjon', 'q08', 'flervalg', 'Hvordan uttales «w» i «wo»?', array['Som engelsk «w»', 'Som «f»', 'Som norsk «v»', 'Den er stum']::text[], 2, '«wo» uttales omtrent «vo».', true, true, 7),
+  ('tysk-8:hilsener-og-presentasjon', 'q09', 'flervalg', 'Hva betyr «Entschuldigung»?', array['Takk', 'Unnskyld', 'Vær så god', 'Ha det']::text[], 1, 'Ordet brukes når du vil be om unnskyldning eller få noens oppmerksomhet.', true, false, 8),
+  ('tysk-8:hilsener-og-presentasjon', 'q10', 'flervalg', 'Hva er «ß»?', array['En omlyd', 'En stor S', 'Et spørsmålstegn', 'En bokstav som uttales som dobbel s']::text[], 3, 'Bokstaven kalles eszett, som i «Straße».', true, false, 9),
+  ('tysk-8:hilsener-og-presentasjon', 'm01', 'sant-usant', '«Tschüs» er en uformell måte å si ha det på.', array['Sant', 'Usant']::text[], 0, 'Til venner sier du «Tschüs!».', false, true, 10),
+  ('tysk-8:hilsener-og-presentasjon', 'm02', 'sant-usant', 'Tysk snakkes bare i Tyskland.', array['Sant', 'Usant']::text[], 1, 'Tysk er også offisielt språk i blant annet Østerrike og Sveits.', false, true, 11),
+  ('tysk-8:hilsener-og-presentasjon', 'm03', 'sant-usant', 'Høflighetsformen «Sie» skrives alltid med stor S.', array['Sant', 'Usant']::text[], 0, 'Stor S skiller den fra «sie», som betyr «hun» eller «de».', false, true, 12),
+  ('tysk-8:hilsener-og-presentasjon', 'm04', 'sant-usant', '«ie» i «vier» uttales som «i» og «e» hver for seg.', array['Sant', 'Usant']::text[], 1, '«ie» uttales som en lang i-lyd.', false, true, 13),
+  ('tysk-8:hilsener-og-presentasjon', 'm05', 'flervalg', 'Hva betyr «Ich bin dreizehn Jahre alt»?', array['Jeg bor i Tyskland', 'Jeg er tretten år gammel', 'Jeg heter Dreizehn', 'Jeg har tretten søsken']::text[], 1, '«dreizehn» betyr tretten.', false, true, 14),
+  ('tysk-8:hilsener-og-presentasjon', 'm06', 'flervalg', 'Hvordan uttales «z» i «zehn»?', array['ts', 's', 'som engelsk z', 'sj']::text[], 0, '«zehn» uttales omtrent «tsen».', false, true, 15),
+  ('tysk-8:hilsener-og-presentasjon', 'm07', 'flervalg', 'Hvilket ord betyr «takk»?', array['Bitte', 'Ja', 'Danke', 'Hallo']::text[], 2, '«Danke schön» betyr «tusen takk».', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('tysk-8:hilsener-og-presentasjon', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Tysk: Tall, dager og klokka
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('tysk-8:tall-og-tid', 'tysk-8', 'tall-og-tid', 'Tall, dager og klokka', 'Tallene på tysk, ukedager, måneder og årstider, hvordan du sier datoen og bursdagen din, og hvordan du spør om og sier hva klokka er.', array[6, 1]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('tysk-8:tall-og-tid', '## Tallene 0–20
+
+0 **null**, 1 **eins**, 2 **zwei**, 3 **drei**, 4 **vier**, 5 **fünf**, 6 **sechs**, 7 **sieben**, 8 **acht**, 9 **neun**, 10 **zehn**, 11 **elf**, 12 **zwölf**, 13 **dreizehn**, 14 **vierzehn**, 15 **fünfzehn**, 16 **sechzehn**, 17 **siebzehn**, 18 **achtzehn**, 19 **neunzehn**, 20 **zwanzig**.
+
+Legg merke til at 16 og 17 er forkortet: *sechzehn* og *siebzehn*.
+
+## Tallene over 20
+
+På tysk sier man **enerne før tierne**, slik man også gjorde i gammel norsk telling: 21 = **einundzwanzig** («en-og-tjue»), 34 = **vierunddreißig**, 58 = **achtundfünfzig**. Tallene skrives i ett ord.
+
+Tierne er 30 **dreißig**, 40 **vierzig**, 50 **fünfzig**, 60 **sechzig**, 70 **siebzig**, 80 **achtzig** og 90 **neunzig**. 100 er **hundert**. Merk at 30 skrives med **ß**, og at 60 og 70 er forkortet.
+
+## Ukedagene
+
+**Montag** (mandag), **Dienstag** (tirsdag), **Mittwoch** (onsdag), **Donnerstag** (torsdag), **Freitag** (fredag), **Samstag** (lørdag, i Nord-Tyskland også *Sonnabend*) og **Sonntag** (søndag). «På mandag» heter **am Montag**.
+
+## Måneder og årstider
+
+**Januar, Februar, März, April, Mai, Juni, Juli, August, September, Oktober, November, Dezember.** «I mai» heter **im Mai**. Årstidene er **der Frühling** (våren), **der Sommer**, **der Herbst** (høsten) og **der Winter**. Som alle substantiver skrives de med stor forbokstav.
+
+## Dato og bursdag
+
+- **Heute ist der erste Mai.** – I dag er det første mai.
+- **Wann hast du Geburtstag?** – Når har du bursdag?
+- **Ich habe am dritten März Geburtstag.** – Jeg har bursdag 3. mars.
+
+## Hva er klokka?
+
+Du kan spørre **Wie spät ist es?** eller **Wie viel Uhr ist es?**
+
+- 8.00: **Es ist acht Uhr.**
+- 8.10: **Es ist zehn nach acht.**
+- 8.15: **Es ist Viertel nach acht.** (kvart over åtte)
+- 8.30: **Es ist halb neun.** (halv ni – akkurat som på norsk!)
+- 8.45: **Es ist Viertel vor neun.** (kvart på ni)
+- 8.50: **Es ist zehn vor neun.**
+
+Når du forteller **når** noe skjer, bruker du **um**: *Die Schule beginnt um acht Uhr.* – Skolen begynner klokka åtte.
+
+## Tips for å lære tall
+
+Øv ved å si telefonnummeret ditt, bursdagen din eller prisene i en butikk høyt på tysk. Lytt etter tall i tyske sanger og videoer. Å skrive tallene med bokstaver hjelper også på rettskrivingen.', '{"label":"Tall og tid","children":[{"label":"Tall","children":[{"label":"0–20"},{"label":"einundzwanzig","note":"21"},{"label":"Tierne"},{"label":"dreißig med ß"}]},{"label":"Ukedager","children":[{"label":"Montag–Sonntag"},{"label":"am Montag"}]},{"label":"Måneder og årstider","children":[{"label":"Januar–Dezember"},{"label":"im Mai"},{"label":"Frühling, Sommer, Herbst, Winter"}]},{"label":"Klokka","children":[{"label":"Wie spät ist es?"},{"label":"Viertel nach / vor"},{"label":"halb neun"},{"label":"um acht Uhr"}]},{"label":"Dato","children":[{"label":"der erste Mai"},{"label":"Geburtstag"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'tysk-8:tall-og-tid';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('tysk-8:tall-og-tid', 'zwölf', '12', 0),
+  ('tysk-8:tall-og-tid', 'zwanzig', '20', 1),
+  ('tysk-8:tall-og-tid', 'einundzwanzig', '21 – enerne kommer før tierne', 2),
+  ('tysk-8:tall-og-tid', 'dreißig', '30 – skrives med ß', 3),
+  ('tysk-8:tall-og-tid', 'hundert', '100', 4),
+  ('tysk-8:tall-og-tid', 'Montag', 'mandag', 5),
+  ('tysk-8:tall-og-tid', 'Mittwoch', 'onsdag', 6),
+  ('tysk-8:tall-og-tid', 'Donnerstag', 'torsdag', 7),
+  ('tysk-8:tall-og-tid', 'Samstag', 'lørdag', 8),
+  ('tysk-8:tall-og-tid', 'der Frühling', 'våren', 9),
+  ('tysk-8:tall-og-tid', 'der Herbst', 'høsten', 10),
+  ('tysk-8:tall-og-tid', 'Wie spät ist es?', 'Hva er klokka?', 11),
+  ('tysk-8:tall-og-tid', 'halb neun', 'halv ni (8.30)', 12),
+  ('tysk-8:tall-og-tid', 'Viertel nach drei', 'kvart over tre', 13),
+  ('tysk-8:tall-og-tid', 'Viertel vor vier', 'kvart på fire', 14),
+  ('tysk-8:tall-og-tid', 'der Geburtstag', 'bursdagen', 15);
+delete from public.quiz_sporsmal where tema_id = 'tysk-8:tall-og-tid';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('tysk-8:tall-og-tid', 'q01', 'flervalg', 'Hvordan skriver du 21 på tysk?', array['zwanzigeins', 'zweiundeins', 'einundzwanzig', 'zwanzig und eins']::text[], 2, 'Enerne kommer først: «en-og-tjue».', true, true, 0),
+  ('tysk-8:tall-og-tid', 'q02', 'flervalg', 'Hva betyr «halb vier»?', array['Halv fire (3.30)', 'Halv tre (2.30)', 'Kvart over fire', 'Fire timer']::text[], 0, 'Som på norsk betyr «halb vier» en halv time før fire.', true, true, 1),
+  ('tysk-8:tall-og-tid', 'q03', 'flervalg', 'Hvilken ukedag er «Mittwoch»?', array['Mandag', 'Tirsdag', 'Torsdag', 'Onsdag']::text[], 3, '«Mittwoch» betyr egentlig «midtuke».', true, true, 2),
+  ('tysk-8:tall-og-tid', 'q04', 'flervalg', 'Hvordan spør du hva klokka er?', array['Wie alt bist du?', 'Wie spät ist es?', 'Wo wohnst du?', 'Wie geht''s?']::text[], 1, 'Du kan også si «Wie viel Uhr ist es?».', true, true, 3),
+  ('tysk-8:tall-og-tid', 'q05', 'flervalg', 'Hvordan skrives tallet 30 på tysk?', array['dreizig', 'dreizehn', 'dreißig', 'dreisig']::text[], 2, '30 skrives med ß, i motsetning til de andre tierne som slutter på -zig.', true, true, 4),
+  ('tysk-8:tall-og-tid', 'q06', 'flervalg', 'Hva betyr «Viertel vor vier»?', array['Kvart på fire', 'Kvart over fire', 'Halv fire', 'Fire og et kvarter']::text[], 0, '«vor» betyr «før» eller «på».', true, true, 5),
+  ('tysk-8:tall-og-tid', 'q07', 'flervalg', 'Hvordan sier du «i mai» på tysk?', array['am Mai', 'um Mai', 'in Mai', 'im Mai']::text[], 3, 'Med måneder og årstider bruker du «im».', true, true, 6),
+  ('tysk-8:tall-og-tid', 'q08', 'flervalg', 'Hvilket tall er «sechzig»?', array['16', '60', '6', '600']::text[], 1, '16 er «sechzehn», 60 er «sechzig».', true, true, 7),
+  ('tysk-8:tall-og-tid', 'q09', 'flervalg', 'Hvordan sier du «på mandag»?', array['am Montag', 'im Montag', 'um Montag', 'in Montag']::text[], 0, 'Med ukedager bruker du «am».', true, false, 8),
+  ('tysk-8:tall-og-tid', 'q10', 'flervalg', 'Hva heter høsten på tysk?', array['der Frühling', 'der Sommer', 'der Herbst', 'der Winter']::text[], 2, '«Herbst» ligner det engelske «harvest», innhøsting.', true, false, 9),
+  ('tysk-8:tall-og-tid', 'm01', 'sant-usant', 'På tysk sier man enerne før tierne, som i «fünfundvierzig» (45).', array['Sant', 'Usant']::text[], 0, 'Slik telte man også på norsk før.', false, true, 10),
+  ('tysk-8:tall-og-tid', 'm02', 'sant-usant', 'Månedsnavn skrives med liten forbokstav på tysk.', array['Sant', 'Usant']::text[], 1, 'Månedene er substantiver og skrives med stor forbokstav.', false, true, 11),
+  ('tysk-8:tall-og-tid', 'm03', 'sant-usant', '«um acht Uhr» betyr klokka åtte.', array['Sant', 'Usant']::text[], 0, '«um» brukes når du sier når noe skjer.', false, true, 12),
+  ('tysk-8:tall-og-tid', 'm04', 'sant-usant', '«zwölf» betyr tjue.', array['Sant', 'Usant']::text[], 1, '«zwölf» er 12. Tjue heter «zwanzig».', false, true, 13),
+  ('tysk-8:tall-og-tid', 'm05', 'flervalg', 'Hva betyr «Ich habe am dritten März Geburtstag»?', array['Jeg er tre år gammel', 'Jeg har bursdag 3. mars', 'Jeg har tre bursdager', 'Det er tre dager til mars']::text[], 1, '«am dritten März» betyr «den tredje mars».', false, true, 14),
+  ('tysk-8:tall-og-tid', 'm06', 'flervalg', 'Hvilket ord betyr «lørdag»?', array['Sonntag', 'Freitag', 'Samstag', 'Dienstag']::text[], 2, 'I Nord-Tyskland sier noen også «Sonnabend».', false, true, 15),
+  ('tysk-8:tall-og-tid', 'm07', 'flervalg', 'Hva betyr «Viertel nach drei»?', array['Kvart over tre', 'Kvart på tre', 'Halv tre', 'Tre kvarter']::text[], 0, '«nach» betyr «etter» eller «over».', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('tysk-8:tall-og-tid', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Tysk: Familie og venner
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('tysk-8:familie-og-venner', 'tysk-8', 'familie-og-venner', 'Familie og venner', 'Ord for familie, venner og kjæledyr på tysk, hvordan du bruker mein og meine, ein, einen og kein, og hvordan du beskriver utseende og personlighet.', array[3, 5]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('tysk-8:familie-og-venner', '## Familien – die Familie
+
+- **der Vater** – faren, **die Mutter** – moren, **die Eltern** – foreldrene
+- **der Bruder** – broren, **die Schwester** – søsteren, **die Geschwister** – søsknene
+- **der Großvater / der Opa** – bestefaren, **die Großmutter / die Oma** – bestemoren, **die Großeltern** – besteforeldrene
+- **der Onkel** – onkelen, **die Tante** – tanten
+- **der Cousin** – fetteren, **die Cousine** – kusinen
+- **der Sohn** – sønnen, **die Tochter** – datteren
+- **das Haustier** – kjæledyret, for eksempel **der Hund** (hunden) og **die Katze** (katten)
+
+Lær alltid ordene sammen med artikkelen **der**, **die** eller **das**.
+
+## Min, mitt, mine – mein og meine
+
+På tysk avhenger formen av kjønnet på ordet:
+
+- hankjønn og intetkjønn: **mein** Vater, **mein** Haustier
+- hunkjønn og flertall: **meine** Mutter, **meine** Eltern
+
+På samme måte: **dein/deine** (din), **sein/seine** (hans), **ihr/ihre** (hennes).
+
+## Jeg har …
+
+Når du forteller hva du har, bruker du **haben**, og hankjønnsord får formen **einen**:
+
+- **Ich habe einen Bruder.** – Jeg har en bror.
+- **Ich habe eine Schwester.** – Jeg har en søster.
+- **Ich habe ein Haustier.** – Jeg har et kjæledyr.
+- **Ich habe keine Geschwister.** – Jeg har ingen søsken.
+
+## Beskrive personer
+
+- **Er ist groß / klein.** – Han er høy / lav.
+- **Sie ist nett / lustig / sportlich.** – Hun er snill / morsom / sporty.
+- **Er ist freundlich / schüchtern.** – Han er vennlig / sjenert.
+- **Sie hat lange / kurze Haare.** – Hun har langt / kort hår.
+- **Er hat blaue / braune / grüne Augen.** – Han har blå / brune / grønne øyne.
+
+## Venner
+
+**der Freund** kan bety både venn og kjæreste, og **die Freundin** både venninne og kjæreste. **Mein bester Freund heißt Jonas.** – Min beste venn heter Jonas. **Meine beste Freundin heißt Emma.**
+
+## En kort tekst
+
+*Das ist meine Familie. Wir wohnen in Trondheim. Mein Vater heißt Lars. Er ist 45 Jahre alt und sehr lustig. Meine Mutter heißt Ingrid. Sie ist nett und sportlich. Ich habe einen Bruder und eine Schwester. Wir haben auch einen Hund. Er heißt Max.*
+
+Når du skriver om familien din, kan du bruke denne teksten som mønster og bytte ut navn, alder og beskrivelser.', '{"label":"Familie og venner","children":[{"label":"Nær familie","children":[{"label":"Vater, Mutter, Eltern"},{"label":"Bruder, Schwester"},{"label":"Geschwister"}]},{"label":"Mer familie","children":[{"label":"Großeltern"},{"label":"Onkel, Tante"},{"label":"Cousin, Cousine"},{"label":"Haustier"}]},{"label":"Grammatikk","children":[{"label":"mein / meine"},{"label":"Ich habe einen / eine / ein"},{"label":"kein / keine"}]},{"label":"Beskrive","children":[{"label":"groß / klein"},{"label":"nett, lustig, sportlich"},{"label":"Haare og Augen"}]},{"label":"Venner","children":[{"label":"der Freund"},{"label":"die Freundin"},{"label":"Mein bester Freund …"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'tysk-8:familie-og-venner';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('tysk-8:familie-og-venner', 'der Vater / die Mutter', 'faren / moren', 0),
+  ('tysk-8:familie-og-venner', 'die Eltern', 'foreldrene', 1),
+  ('tysk-8:familie-og-venner', 'der Bruder / die Schwester', 'broren / søsteren', 2),
+  ('tysk-8:familie-og-venner', 'die Geschwister', 'søsknene', 3),
+  ('tysk-8:familie-og-venner', 'die Großeltern', 'besteforeldrene', 4),
+  ('tysk-8:familie-og-venner', 'der Onkel / die Tante', 'onkelen / tanten', 5),
+  ('tysk-8:familie-og-venner', 'der Cousin / die Cousine', 'fetteren / kusinen', 6),
+  ('tysk-8:familie-og-venner', 'das Haustier', 'kjæledyret', 7),
+  ('tysk-8:familie-og-venner', 'mein / meine', 'min, mitt / min, mine – meine brukes ved hunkjønn og flertall', 8),
+  ('tysk-8:familie-og-venner', 'Ich habe einen Bruder.', 'Jeg har en bror.', 9),
+  ('tysk-8:familie-og-venner', 'Ich habe keine Geschwister.', 'Jeg har ingen søsken.', 10),
+  ('tysk-8:familie-og-venner', 'nett', 'snill, hyggelig', 11),
+  ('tysk-8:familie-og-venner', 'lustig', 'morsom', 12),
+  ('tysk-8:familie-og-venner', 'schüchtern', 'sjenert', 13),
+  ('tysk-8:familie-og-venner', 'Er hat blaue Augen.', 'Han har blå øyne.', 14),
+  ('tysk-8:familie-og-venner', 'die Freundin', 'venninnen, eller kjæresten', 15);
+delete from public.quiz_sporsmal where tema_id = 'tysk-8:familie-og-venner';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('tysk-8:familie-og-venner', 'q01', 'flervalg', 'Hva betyr «die Geschwister»?', array['Søsken', 'Søstre', 'Besteforeldre', 'Foreldre']::text[], 0, '«Geschwister» er brødre og søstre til sammen.', true, true, 0),
+  ('tysk-8:familie-og-venner', 'q02', 'flervalg', 'Hva heter «foreldrene» på tysk?', array['die Großeltern', 'die Geschwister', 'die Kinder', 'die Eltern']::text[], 3, '«die Großeltern» er besteforeldrene.', true, true, 1),
+  ('tysk-8:familie-og-venner', 'q03', 'flervalg', 'Hvilken form er riktig?', array['mein Mutter', 'meine Mutter', 'meinen Mutter', 'meines Mutter']::text[], 1, '«Mutter» er hunkjønn, derfor «meine».', true, true, 2),
+  ('tysk-8:familie-og-venner', 'q04', 'flervalg', 'Hvordan sier du «Jeg har en bror»?', array['Ich habe ein Bruder.', 'Ich bin einen Bruder.', 'Ich habe einen Bruder.', 'Ich habe eine Bruder.']::text[], 2, 'Etter «haben» får hankjønnsord formen «einen».', true, true, 3),
+  ('tysk-8:familie-og-venner', 'q05', 'flervalg', 'Hva betyr «Ich habe keine Geschwister»?', array['Jeg har mange søsken', 'Jeg har ingen søsken', 'Jeg har to søsken', 'Søsknene mine er snille']::text[], 1, '«kein/keine» betyr «ingen».', true, true, 4),
+  ('tysk-8:familie-og-venner', 'q06', 'flervalg', 'Hva betyr «lustig»?', array['Lat', 'Trist', 'Høy', 'Morsom']::text[], 3, 'Ordet ligner norsk «lystig».', true, true, 5),
+  ('tysk-8:familie-og-venner', 'q07', 'flervalg', 'Hvordan sier du «Hun har brune øyne»?', array['Sie hat braune Augen.', 'Sie ist braune Augen.', 'Sie hat braun Auge.', 'Er hat braune Augen.']::text[], 0, '«Sie» betyr «hun», og «Augen» er flertall av «Auge».', true, true, 6),
+  ('tysk-8:familie-og-venner', 'q08', 'flervalg', 'Hva er «die Tante»?', array['Onkelen', 'Bestemoren', 'Tanten', 'Kusinen']::text[], 2, 'Onkelen heter «der Onkel».', true, true, 7),
+  ('tysk-8:familie-og-venner', 'q09', 'flervalg', 'Hvilken artikkel har «Haustier» (kjæledyr)?', array['der', 'die', 'den', 'das']::text[], 3, 'Sammensatte ord får kjønnet til siste ledd, og «das Tier» (dyret) er intetkjønn.', true, false, 8),
+  ('tysk-8:familie-og-venner', 'q10', 'flervalg', 'Hva betyr «Mein bester Freund heißt Jonas»?', array['Min bror heter Jonas', 'Min beste venn heter Jonas', 'Jonas er snill', 'Jonas bor her']::text[], 1, '«bester Freund» betyr beste venn.', true, false, 9),
+  ('tysk-8:familie-og-venner', 'm01', 'sant-usant', '«der Opa» betyr bestefar.', array['Sant', 'Usant']::text[], 0, 'Bestemor heter «die Oma».', false, true, 10),
+  ('tysk-8:familie-og-venner', 'm02', 'sant-usant', '«die Freundin» kan bety både venninne og kjæreste.', array['Sant', 'Usant']::text[], 0, 'Sammenhengen avgjør hva ordet betyr.', false, true, 11),
+  ('tysk-8:familie-og-venner', 'm03', 'sant-usant', 'Etter «Ich habe» heter det «ein Hund».', array['Sant', 'Usant']::text[], 1, 'Det heter «Ich habe einen Hund», fordi hankjønnsord får formen «einen».', false, true, 12),
+  ('tysk-8:familie-og-venner', 'm04', 'sant-usant', '«groß» betyr liten.', array['Sant', 'Usant']::text[], 1, '«groß» betyr stor eller høy. Liten heter «klein».', false, true, 13),
+  ('tysk-8:familie-og-venner', 'm05', 'flervalg', 'Hva betyr «meine Eltern»?', array['Mine søsken', 'Mine besteforeldre', 'Mine foreldre', 'Mine venner']::text[], 2, '«Eltern» betyr foreldre.', false, true, 14),
+  ('tysk-8:familie-og-venner', 'm06', 'flervalg', 'Hvilket ord betyr «snill» eller «hyggelig»?', array['nett', 'alt', 'klein', 'müde']::text[], 0, '«müde» betyr trøtt, og «alt» betyr gammel.', false, true, 15),
+  ('tysk-8:familie-og-venner', 'm07', 'flervalg', 'Hvilken artikkel har «Mutter»?', array['der', 'die', 'das', 'den']::text[], 1, '«die Mutter» er hunkjønn.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('tysk-8:familie-og-venner', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Tysk: Skole og fritid
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('tysk-8:skole-og-fritid', 'tysk-8', 'skole-og-fritid', 'Skole og fritid', 'Skolefag, meninger og fritidsaktiviteter på tysk, hvordan du bruker gern for å si hva du liker, ordstilling med verbet på andre plass, og hvordan skolen er i Tyskland.', array[2, 3]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('tysk-8:skole-og-fritid', '## Skolefag – die Schulfächer
+
+**Mathe**, **Deutsch**, **Englisch**, **Norwegisch**, **Sport** (kroppsøving), **Kunst** (kunst og håndverk), **Musik**, **Geschichte** (historie), **Erdkunde** (geografi), **Biologie** og **Naturwissenschaften** (naturfag).
+
+- **Mein Lieblingsfach ist Sport.** – Yndlingsfaget mitt er kroppsøving.
+- **Ich finde Mathe interessant / langweilig / leicht / schwer.** – Jeg synes matte er interessant / kjedelig / lett / vanskelig.
+
+Nyttige ord i klasserommet: **der Lehrer / die Lehrerin** (læreren), **der Schüler / die Schülerin** (eleven), **das Heft** (skriveboka), **der Bleistift** (blyanten), **die Schultasche** (skolesekken).
+
+## Fritid – die Freizeit
+
+- **Fußball spielen** – spille fotball
+- **schwimmen** – svømme
+- **lesen** – lese
+- **zeichnen** – tegne
+- **tanzen** – danse
+- **Musik hören** – høre på musikk
+- **Gitarre spielen** – spille gitar
+- **Computerspiele spielen** – spille dataspill
+- **Rad fahren** – sykle
+- **Freunde treffen** – treffe venner
+
+## Å like noe – gern
+
+På tysk sier du ofte at du liker å gjøre noe ved å sette **gern** etter verbet:
+
+- **Ich spiele gern Fußball.** – Jeg liker å spille fotball.
+- **Ich lese nicht gern.** – Jeg liker ikke å lese.
+- **Ich schwimme lieber.** – Jeg liker bedre å svømme.
+- **Am liebsten tanze ich.** – Aller helst danser jeg.
+
+Spørsmålet er **Was machst du gern?** – Hva liker du å gjøre?
+
+## Hvor ofte?
+
+**immer** (alltid), **oft** (ofte), **manchmal** (noen ganger), **selten** (sjelden), **nie** (aldri). **Am Wochenende** betyr i helgen.
+
+## Verbet på andre plass
+
+Som på norsk står verbet på **andre plass** i fortellende setninger:
+
+- *Ich spiele am Wochenende Fußball.*
+- *Am Wochenende **spiele** ich Fußball.*
+
+Starter du med et tidsuttrykk, kommer subjektet etter verbet – akkurat som på norsk: «I helgen spiller jeg fotball.»
+
+## Skolen i Tyskland
+
+Alle går på **Grundschule** i fire år, i de fleste delstater. Deretter velger elevene mellom ulike skoler, for eksempel **Gymnasium**, som forbereder til universitetet, og andre skoletyper med mer praktisk retning. I Tyskland er karakteren **1** den **beste** og **6** den dårligste – altså motsatt av i Norge.', '{"label":"Skole og fritid","children":[{"label":"Fag","children":[{"label":"Mathe, Deutsch, Englisch"},{"label":"Sport, Kunst, Musik"},{"label":"Lieblingsfach"}]},{"label":"Meninger","children":[{"label":"Ich finde …"},{"label":"interessant / langweilig"},{"label":"leicht / schwer"}]},{"label":"Fritid","children":[{"label":"Fußball spielen"},{"label":"lesen, zeichnen"},{"label":"schwimmen, tanzen"},{"label":"Musik hören"}]},{"label":"gern","children":[{"label":"Ich spiele gern …"},{"label":"nicht gern"},{"label":"lieber, am liebsten"}]},{"label":"Grammatikk og kultur","children":[{"label":"Verbet på plass 2"},{"label":"oft, manchmal, nie"},{"label":"Grundschule og Gymnasium"},{"label":"Karakter 1 er best"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'tysk-8:skole-og-fritid';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('tysk-8:skole-og-fritid', 'das Lieblingsfach', 'yndlingsfaget', 0),
+  ('tysk-8:skole-og-fritid', 'Sport', 'kroppsøving (skolefag)', 1),
+  ('tysk-8:skole-og-fritid', 'Kunst', 'kunst og håndverk', 2),
+  ('tysk-8:skole-og-fritid', 'Geschichte', 'historie', 3),
+  ('tysk-8:skole-og-fritid', 'interessant / langweilig', 'interessant / kjedelig', 4),
+  ('tysk-8:skole-og-fritid', 'leicht / schwer', 'lett / vanskelig', 5),
+  ('tysk-8:skole-og-fritid', 'der Lehrer / die Lehrerin', 'læreren', 6),
+  ('tysk-8:skole-og-fritid', 'Ich spiele gern Fußball.', 'Jeg liker å spille fotball.', 7),
+  ('tysk-8:skole-og-fritid', 'Was machst du gern?', 'Hva liker du å gjøre?', 8),
+  ('tysk-8:skole-og-fritid', 'lesen', 'å lese', 9),
+  ('tysk-8:skole-og-fritid', 'schwimmen', 'å svømme', 10),
+  ('tysk-8:skole-og-fritid', 'zeichnen', 'å tegne', 11),
+  ('tysk-8:skole-og-fritid', 'am Wochenende', 'i helgen', 12),
+  ('tysk-8:skole-og-fritid', 'manchmal', 'noen ganger', 13),
+  ('tysk-8:skole-og-fritid', 'nie', 'aldri', 14),
+  ('tysk-8:skole-og-fritid', 'Note 1', 'Den beste karakteren i tysk skole.', 15);
+delete from public.quiz_sporsmal where tema_id = 'tysk-8:skole-og-fritid';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('tysk-8:skole-og-fritid', 'q01', 'flervalg', 'Hva betyr «Mein Lieblingsfach ist Kunst»?', array['Jeg liker ikke kunst', 'Kunst er vanskelig', 'Kunstlæreren er snill', 'Yndlingsfaget mitt er kunst']::text[], 3, '«Lieblings-» betyr yndlings-.', true, true, 0),
+  ('tysk-8:skole-og-fritid', 'q02', 'flervalg', 'Hvordan sier du «Jeg liker å lese»?', array['Ich lese gern.', 'Ich gern lese.', 'Ich lesen gern.', 'Gern ich lese.']::text[], 0, '«gern» kommer etter verbet.', true, true, 1),
+  ('tysk-8:skole-og-fritid', 'q03', 'flervalg', 'Hva betyr «langweilig»?', array['Lang', 'Morsom', 'Kjedelig', 'Vanskelig']::text[], 2, 'Ordet betyr egentlig at tiden føles lang.', true, true, 2),
+  ('tysk-8:skole-og-fritid', 'q04', 'flervalg', 'Hvilken setning har riktig ordstilling?', array['Am Wochenende ich spiele Fußball.', 'Am Wochenende spiele ich Fußball.', 'Am Wochenende Fußball ich spiele.', 'Ich am Wochenende spiele Fußball.']::text[], 1, 'Verbet skal stå på andre plass.', true, true, 3),
+  ('tysk-8:skole-og-fritid', 'q05', 'flervalg', 'Hva er den beste karakteren i tysk skole?', array['1', '6', '5', '10']::text[], 0, 'I Tyskland er 1 best og 6 dårligst.', true, true, 4),
+  ('tysk-8:skole-og-fritid', 'q06', 'flervalg', 'Hva betyr «manchmal»?', array['Alltid', 'Aldri', 'Ofte', 'Noen ganger']::text[], 3, '«immer» betyr alltid, og «nie» betyr aldri.', true, true, 5),
+  ('tysk-8:skole-og-fritid', 'q07', 'flervalg', 'Hva heter faget kroppsøving på tysk?', array['Kunst', 'Musik', 'Sport', 'Geschichte']::text[], 2, 'Som skolefag heter kroppsøving «Sport».', true, true, 6),
+  ('tysk-8:skole-og-fritid', 'q08', 'flervalg', 'Hvordan spør du «Hva liker du å gjøre?»', array['Was ist das?', 'Was machst du gern?', 'Wo wohnst du?', 'Wie spät ist es?']::text[], 1, '«machen» betyr å gjøre.', true, true, 7),
+  ('tysk-8:skole-og-fritid', 'q09', 'flervalg', 'Hva betyr «zeichnen»?', array['Å tegne', 'Å danse', 'Å svømme', 'Å synge']::text[], 0, '«tanzen» betyr å danse.', true, false, 8),
+  ('tysk-8:skole-og-fritid', 'q10', 'flervalg', 'Hva betyr «Ich finde Mathe schwer»?', array['Jeg finner mattebøkene', 'Matte er lett', 'Jeg synes matte er vanskelig', 'Jeg liker matte best']::text[], 2, '«Ich finde …» brukes for å si hva du synes.', true, false, 9),
+  ('tysk-8:skole-og-fritid', 'm01', 'sant-usant', 'Tysk har verbet på andre plass i fortellende setninger, slik som norsk.', array['Sant', 'Usant']::text[], 0, 'Derfor heter det «Heute spiele ich …».', false, true, 10),
+  ('tysk-8:skole-og-fritid', 'm02', 'sant-usant', '«nie» betyr alltid.', array['Sant', 'Usant']::text[], 1, '«nie» betyr aldri. Alltid heter «immer».', false, true, 11),
+  ('tysk-8:skole-og-fritid', 'm03', 'sant-usant', 'I Tyskland går mange elever på Gymnasium etter Grundschule.', array['Sant', 'Usant']::text[], 0, 'Gymnasium forbereder elevene til universitetet.', false, true, 12),
+  ('tysk-8:skole-og-fritid', 'm04', 'sant-usant', '«Ich spiele nicht gern Fußball» betyr at jeg elsker fotball.', array['Sant', 'Usant']::text[], 1, 'Setningen betyr at jeg ikke liker å spille fotball.', false, true, 13),
+  ('tysk-8:skole-og-fritid', 'm05', 'flervalg', 'Hva betyr «die Lehrerin»?', array['Eleven', 'Læreren (kvinne)', 'Rektoren', 'Klassen']::text[], 1, 'Endelsen «-in» viser at det er en kvinne.', false, true, 14),
+  ('tysk-8:skole-og-fritid', 'm06', 'flervalg', 'Hvilket ord betyr «å svømme»?', array['reiten', 'tanzen', 'schwimmen', 'singen']::text[], 2, '«reiten» betyr å ri.', false, true, 15),
+  ('tysk-8:skole-og-fritid', 'm07', 'flervalg', 'Hva betyr «am Wochenende»?', array['I helgen', 'På mandag', 'Om kvelden', 'I ferien']::text[], 0, '«das Wochenende» betyr helgen.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('tysk-8:skole-og-fritid', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Tysk: Grammatikk – grunnlaget
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('tysk-8:grammatikk-grunnlag', 'tysk-8', 'grammatikk-grunnlag', 'Grammatikk – grunnlaget', 'Kjønn og artikler, personlige pronomen, bøying av verb i presens, de viktige verbene sein og haben, ordstilling og nektelse med nicht og kein.', array[6]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('tysk-8:grammatikk-grunnlag', '## Tre kjønn – der, die, das
+
+Alle tyske substantiver har et **grammatisk kjønn**:
+
+- **der** – hankjønn: *der Hund*, *der Tisch*
+- **die** – hunkjønn: *die Katze*, *die Schule*
+- **das** – intetkjønn: *das Buch*, *das Haus*
+
+I **flertall** er artikkelen alltid **die**: *die Hunde*, *die Bücher*. Den **ubestemte artikkelen** er **ein** (hankjønn og intetkjønn) og **eine** (hunkjønn): *ein Hund*, *eine Katze*, *ein Buch*.
+
+Kjønnet er ofte ikke det samme som på norsk, så lær alltid ordet **sammen med artikkelen**. Noen tips: Ord som slutter på **-ung**, **-heit** og **-keit** er hunkjønn (*die Zeitung*), og ord som slutter på **-chen** er intetkjønn (*das Mädchen*).
+
+## Personlige pronomen
+
+- **ich** (jeg), **du** (du), **er** (han), **sie** (hun), **es** (den/det)
+- **wir** (vi), **ihr** (dere), **sie** (de), **Sie** (De, høflig)
+
+## Verb i presens
+
+Tyske verb bøyes etter person. Du tar **stammen** (infinitiv minus *-en*) og legger til en ending. Eksempel: **wohnen** (å bo):
+
+- ich wohn**e**, du wohn**st**, er/sie/es wohn**t**
+- wir wohn**en**, ihr wohn**t**, sie/Sie wohn**en**
+
+På samme måte: *spielen*, *machen*, *kommen*, *lernen*.
+
+## Sein og haben
+
+De viktigste verbene er uregelrette og må pugges:
+
+- **sein** (å være): ich **bin**, du **bist**, er **ist**, wir **sind**, ihr **seid**, sie **sind**
+- **haben** (å ha): ich **habe**, du **hast**, er **hat**, wir **haben**, ihr **habt**, sie **haben**
+
+## Ordstilling
+
+- I fortellende setninger står verbet på **andre plass**: *Heute **spiele** ich Fußball.*
+- I **ja/nei-spørsmål** står verbet **først**: ***Wohnst** du in Oslo?*
+- I **spørreordsspørsmål** kommer spørreordet først og verbet etter: *Wo **wohnst** du?* Spørreord er blant annet **wer** (hvem), **was** (hva), **wo** (hvor), **wann** (når), **wie** (hvordan) og **warum** (hvorfor).
+
+## Nektelse – nicht og kein
+
+- **nicht** nekter verb og adjektiver: *Ich wohne **nicht** in Berlin.* *Das ist **nicht** gut.*
+- **kein** nekter substantiver med ubestemt artikkel: *Ich habe **keinen** Hund.* *Das ist **keine** Katze.*
+
+## Flertall
+
+Flertall av substantiver lages på flere måter, for eksempel *der Hund – die Hunde*, *die Katze – die Katzen*, *das Buch – die Bücher*. Lær flertallsformen sammen med ordet.', '{"label":"Grammatikk – grunnlaget","children":[{"label":"Kjønn","children":[{"label":"der"},{"label":"die"},{"label":"das"},{"label":"ein / eine"}]},{"label":"Pronomen","children":[{"label":"ich, du, er, sie, es"},{"label":"wir, ihr, sie, Sie"}]},{"label":"Verb i presens","children":[{"label":"Stamme + ending"},{"label":"wohnen"},{"label":"sein"},{"label":"haben"}]},{"label":"Ordstilling","children":[{"label":"Verbet på plass 2"},{"label":"Ja/nei: verbet først"},{"label":"Spørreord"}]},{"label":"Nektelse og flertall","children":[{"label":"nicht"},{"label":"kein"},{"label":"Flertall varierer"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'tysk-8:grammatikk-grunnlag';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('tysk-8:grammatikk-grunnlag', 'der', 'Bestemt artikkel for hankjønn: der Hund', 0),
+  ('tysk-8:grammatikk-grunnlag', 'die', 'Bestemt artikkel for hunkjønn og alle ord i flertall: die Katze, die Hunde', 1),
+  ('tysk-8:grammatikk-grunnlag', 'das', 'Bestemt artikkel for intetkjønn: das Buch', 2),
+  ('tysk-8:grammatikk-grunnlag', 'ein / eine', 'Ubestemt artikkel: ein Hund, eine Katze, ein Buch', 3),
+  ('tysk-8:grammatikk-grunnlag', 'ich, du, er, sie, es', 'jeg, du, han, hun, den/det', 4),
+  ('tysk-8:grammatikk-grunnlag', 'wir, ihr, sie, Sie', 'vi, dere, de, De (høflig)', 5),
+  ('tysk-8:grammatikk-grunnlag', 'Stamme + ending', 'Slik bøyes regelrette verb: wohn + e, wohn + st, wohn + t', 6),
+  ('tysk-8:grammatikk-grunnlag', 'du wohnst', 'du bor', 7),
+  ('tysk-8:grammatikk-grunnlag', 'er wohnt', 'han bor', 8),
+  ('tysk-8:grammatikk-grunnlag', 'sein', 'å være: ich bin, du bist, er ist, wir sind, ihr seid, sie sind', 9),
+  ('tysk-8:grammatikk-grunnlag', 'haben', 'å ha: ich habe, du hast, er hat, wir haben, ihr habt, sie haben', 10),
+  ('tysk-8:grammatikk-grunnlag', 'Verbet på plass 2', 'I fortellende setninger står verbet på andre plass.', 11),
+  ('tysk-8:grammatikk-grunnlag', 'Ja/nei-spørsmål', 'Verbet står først: Wohnst du in Oslo?', 12),
+  ('tysk-8:grammatikk-grunnlag', 'nicht', 'ikke – nekter verb og adjektiver', 13),
+  ('tysk-8:grammatikk-grunnlag', 'kein / keine', 'ingen, ikke noen – nekter substantiver', 14),
+  ('tysk-8:grammatikk-grunnlag', '-chen', 'Ord med denne endingen er intetkjønn: das Mädchen', 15);
+delete from public.quiz_sporsmal where tema_id = 'tysk-8:grammatikk-grunnlag';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('tysk-8:grammatikk-grunnlag', 'q01', 'flervalg', 'Hvilken artikkel bruker du foran hunkjønnsord?', array['der', 'das', 'die', 'den']::text[], 2, 'For eksempel «die Katze» og «die Schule».', true, true, 0),
+  ('tysk-8:grammatikk-grunnlag', 'q02', 'flervalg', 'Hva er riktig form av «wohnen» med «du»?', array['du wohne', 'du wohnst', 'du wohnt', 'du wohnen']::text[], 1, 'Med «du» får verbet endingen -st.', true, true, 1),
+  ('tysk-8:grammatikk-grunnlag', 'q03', 'flervalg', 'Hvordan bøyes «sein» med «wir»?', array['wir bist', 'wir ist', 'wir seid', 'wir sind']::text[], 3, '«seid» brukes med «ihr».', true, true, 2),
+  ('tysk-8:grammatikk-grunnlag', 'q04', 'flervalg', 'Hva er riktig form av «haben» med «er»?', array['er hat', 'er habt', 'er habe', 'er hast']::text[], 0, '«haben» er uregelrett i entall.', true, true, 3),
+  ('tysk-8:grammatikk-grunnlag', 'q05', 'flervalg', 'Hvilken artikkel har ord som ender på «-chen», som «Mädchen»?', array['der', 'das', 'die', 'ein']::text[], 1, 'Alle ord på -chen er intetkjønn, også «das Mädchen» (jenta).', true, true, 4),
+  ('tysk-8:grammatikk-grunnlag', 'q06', 'flervalg', 'Hvordan lager du et ja/nei-spørsmål på tysk?', array['Du legger til «nicht»', 'Du setter subjektet først', 'Du setter verbet først', 'Du endrer artikkelen']::text[], 2, 'For eksempel: «Spielst du Fußball?»', true, true, 5),
+  ('tysk-8:grammatikk-grunnlag', 'q07', 'flervalg', 'Hvordan sier du «Jeg har ikke noen hund»?', array['Ich habe keinen Hund.', 'Ich habe nicht Hund.', 'Ich nicht habe Hund.', 'Ich habe kein Hund nicht.']::text[], 0, '«kein» nekter substantiver og får samme ending som «ein».', true, true, 6),
+  ('tysk-8:grammatikk-grunnlag', 'q08', 'flervalg', 'Hva er riktig form av «sein» med «ihr»?', array['ihr sind', 'ihr bist', 'ihr ist', 'ihr seid']::text[], 3, '«ihr seid» betyr «dere er».', true, true, 7),
+  ('tysk-8:grammatikk-grunnlag', 'q09', 'flervalg', 'Hvordan bør du lære nye substantiver?', array['Uten artikkel', 'Sammen med artikkelen', 'Bare i flertall', 'Med liten forbokstav']::text[], 1, 'Kjønnet på tysk er ofte annerledes enn på norsk.', true, false, 8),
+  ('tysk-8:grammatikk-grunnlag', 'q10', 'flervalg', 'Hvilket pronomen betyr «vi»?', array['ihr', 'sie', 'wir', 'es']::text[], 2, '«ihr» betyr dere, og «sie» betyr de eller hun.', true, false, 9),
+  ('tysk-8:grammatikk-grunnlag', 'm01', 'sant-usant', 'Alle substantiver i flertall har den bestemte artikkelen «die».', array['Sant', 'Usant']::text[], 0, 'Det gjelder uansett kjønn i entall.', false, true, 10),
+  ('tysk-8:grammatikk-grunnlag', 'm02', 'sant-usant', 'Tyske verb bøyes ikke etter person.', array['Sant', 'Usant']::text[], 1, 'Verbet får ulik ending for ich, du, er og så videre.', false, true, 11),
+  ('tysk-8:grammatikk-grunnlag', 'm03', 'sant-usant', 'Ord som ender på «-ung», er som regel hunkjønn.', array['Sant', 'Usant']::text[], 0, 'For eksempel «die Zeitung» (avisen).', false, true, 12),
+  ('tysk-8:grammatikk-grunnlag', 'm04', 'sant-usant', 'I setningen «Heute spiele ich Fußball» står verbet på feil plass.', array['Sant', 'Usant']::text[], 1, 'Verbet står på andre plass, slik det skal.', false, true, 13),
+  ('tysk-8:grammatikk-grunnlag', 'm05', 'flervalg', 'Hva er flertall av «das Buch»?', array['die Buchs', 'die Bücher', 'die Buche', 'das Bücher']::text[], 1, 'Flertall får omlyd og endingen -er.', false, true, 14),
+  ('tysk-8:grammatikk-grunnlag', 'm06', 'flervalg', 'Hvilken setning er riktig?', array['Ich bin müde.', 'Ich ist müde.', 'Ich bist müde.', 'Ich sind müde.']::text[], 0, '«ich bin» betyr «jeg er».', false, true, 15),
+  ('tysk-8:grammatikk-grunnlag', 'm07', 'flervalg', 'Hva betyr «ihr»?', array['Jeg', 'Han', 'Dere', 'De (høflig)']::text[], 2, '«ihr» brukes når du snakker til flere personer du er dus med.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('tysk-8:grammatikk-grunnlag', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Tysk: Tyskspråklige land og kultur
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('tysk-8:land-og-kultur', 'tysk-8', 'land-og-kultur', 'Tyskspråklige land og kultur', 'Geografi, mat, tradisjoner, historie og kultur i Tyskland, Østerrike og Sveits, og forbindelsene mellom tysk og norsk.', array[8, 9]::int[], 5, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('tysk-8:land-og-kultur', '## Tyskspråklige land
+
+- **Deutschland** (Tyskland) har over 80 millioner innbyggere og er det folkerikeste landet i EU. Hovedstaden er **Berlin**. Landet består av **16 delstater** (*Bundesländer*), blant annet Bayern, Berlin og Hamburg.
+- **Österreich** (Østerrike) har hovedstaden **Wien**.
+- **Die Schweiz** (Sveits) har fire offisielle språk: tysk, fransk, italiensk og retoromansk. Hovedstaden er **Bern**.
+- Tysk er også offisielt språk i **Liechtenstein**, og snakkes i deler av Belgia, Luxembourg og Nord-Italia.
+
+## Geografi
+
+I nord har Tyskland kyst mot **Nordsjøen** og **Østersjøen**. I sør ligger **Alpene**, som strekker seg gjennom Østerrike og Sveits. Viktige elver er **Rhinen** (*der Rhein*), som renner forbi blant annet Köln, **Elben** og **Donau**. Store byer er Berlin, Hamburg, München, Köln og Frankfurt.
+
+## Mat og drikke
+
+- **die Brezel** – kringle av brød
+- **die Bratwurst** og **die Currywurst**, kjent fra Berlin
+- **das Schnitzel** – *Wiener Schnitzel* kommer fra Wien
+- **das Sauerkraut** – syrlig kål
+- **Kaffee und Kuchen** – kaffe og kake om ettermiddagen, en kjær tradisjon
+
+## Tradisjoner
+
+- **Das Oktoberfest** i München er verdens største folkefest og starter allerede i september.
+- **Der Weihnachtsmarkt** – julemarkeder med lys, gløgg (*Glühwein*) og pepperkaker finnes i nesten alle byer.
+- **Der Adventskalender** er en tysk oppfinnelse.
+- **Karneval** eller **Fasching** feires med kostymer og opptog før fasten, særlig i Köln og Sør-Tyskland.
+
+## Kultur og historie
+
+- **Brødrene Grimm** samlet eventyr som *Hans og Grete*, *Snøhvit* og *Rødhette*.
+- Kjente komponister er **Bach** og **Beethoven** fra Tyskland og **Mozart** fra Østerrike.
+- Etter andre verdenskrig ble Tyskland delt i øst og vest. **Berlinmuren** falt i **1989**, og landet ble **gjenforent** i **1990**.
+- **Fotball** er svært populært. Tyskland har vunnet VM for menn fire ganger.
+
+## Tysk og norsk
+
+Tysk og norsk har lenge hatt tett kontakt. I middelalderen hadde tyske **hanseater** et stort handelskontor på **Bryggen** i Bergen. Derfor har norsk mange **lånord** fra tysk, som *betale*, *begynne* og *arbeide*. I dag er Tyskland en av Norges viktigste handelspartnere, og mange tyske turister besøker Norge hvert år.', '{"label":"Tyskspråklige land","children":[{"label":"Land","children":[{"label":"Deutschland","note":"Berlin"},{"label":"Österreich","note":"Wien"},{"label":"Schweiz","note":"Bern"},{"label":"Liechtenstein"}]},{"label":"Geografi","children":[{"label":"16 Bundesländer"},{"label":"Rhein, Elbe, Donau"},{"label":"Alpene"},{"label":"Nordsjøen og Østersjøen"}]},{"label":"Mat og tradisjoner","children":[{"label":"Brezel og Bratwurst"},{"label":"Kaffee und Kuchen"},{"label":"Oktoberfest"},{"label":"Weihnachtsmarkt og Fasching"}]},{"label":"Kultur og historie","children":[{"label":"Brødrene Grimm"},{"label":"Bach, Beethoven, Mozart"},{"label":"Gjenforening 1990"},{"label":"Fotball"}]},{"label":"Tysk og norsk","children":[{"label":"Hanseatene i Bergen"},{"label":"Lånord"},{"label":"Handel og turisme"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'tysk-8:land-og-kultur';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('tysk-8:land-og-kultur', 'Deutschland – Berlin', 'Tyskland, med hovedstaden Berlin', 0),
+  ('tysk-8:land-og-kultur', 'Österreich – Wien', 'Østerrike, med hovedstaden Wien', 1),
+  ('tysk-8:land-og-kultur', 'die Schweiz – Bern', 'Sveits, med hovedstaden Bern og fire offisielle språk', 2),
+  ('tysk-8:land-og-kultur', 'die Bundesländer', 'Tysklands 16 delstater', 3),
+  ('tysk-8:land-og-kultur', 'der Rhein', 'Rhinen, en av Tysklands viktigste elver', 4),
+  ('tysk-8:land-og-kultur', 'die Alpen', 'Alpene, fjellkjeden i Sør-Tyskland, Østerrike og Sveits', 5),
+  ('tysk-8:land-og-kultur', 'die Brezel', 'kringle av brød', 6),
+  ('tysk-8:land-og-kultur', 'Kaffee und Kuchen', 'Tradisjon med kaffe og kake om ettermiddagen', 7),
+  ('tysk-8:land-og-kultur', 'das Oktoberfest', 'Stor folkefest i München', 8),
+  ('tysk-8:land-og-kultur', 'der Weihnachtsmarkt', 'julemarkedet', 9),
+  ('tysk-8:land-og-kultur', 'Fasching / Karneval', 'Karnevalsfeiring før fasten', 10),
+  ('tysk-8:land-og-kultur', 'Brødrene Grimm', 'Samlet eventyr som Hans og Grete og Rødhette', 11),
+  ('tysk-8:land-og-kultur', 'Beethoven', 'Kjent tysk komponist', 12),
+  ('tysk-8:land-og-kultur', 'Hanseatene', 'Tyske handelsfolk med kontor på Bryggen i Bergen i middelalderen', 13),
+  ('tysk-8:land-og-kultur', 'die Wiedervereinigung', 'Gjenforeningen av Tyskland i 1990', 14);
+delete from public.quiz_sporsmal where tema_id = 'tysk-8:land-og-kultur';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('tysk-8:land-og-kultur', 'q01', 'flervalg', 'Hva er hovedstaden i Østerrike?', array['Berlin', 'Wien', 'Bern', 'München']::text[], 1, 'Bern er hovedstaden i Sveits.', true, true, 0),
+  ('tysk-8:land-og-kultur', 'q02', 'flervalg', 'Hvor mange delstater (Bundesländer) har Tyskland?', array['9', '12', '16', '20']::text[], 2, 'Bayern er den største delstaten i areal.', true, true, 1),
+  ('tysk-8:land-og-kultur', 'q03', 'flervalg', 'Hvilken by er kjent for Oktoberfest?', array['München', 'Hamburg', 'Berlin', 'Köln']::text[], 0, 'Oktoberfest arrangeres i München hvert år.', true, true, 2),
+  ('tysk-8:land-og-kultur', 'q04', 'flervalg', 'Hva er «Kaffee und Kuchen»?', array['En julesang', 'En fotballklubb', 'En by', 'En tradisjon med kaffe og kake om ettermiddagen']::text[], 3, 'Mange tyske familier samles til kaffe og kake på søndager.', true, true, 3),
+  ('tysk-8:land-og-kultur', 'q05', 'flervalg', 'Hvilke eventyr samlet brødrene Grimm?', array['Askeladden', 'Pippi Langstrømpe', 'Hans og Grete og Rødhette', 'Mummitrollet']::text[], 2, 'Brødrene Grimm samlet folkeeventyr på 1800-tallet.', true, true, 4),
+  ('tysk-8:land-og-kultur', 'q06', 'flervalg', 'Når ble Tyskland gjenforent?', array['1945', '1990', '1961', '2000']::text[], 1, 'Berlinmuren falt i 1989, og gjenforeningen kom året etter.', true, true, 5),
+  ('tysk-8:land-og-kultur', 'q07', 'flervalg', 'Hvilken fjellkjede ligger i Sør-Tyskland, Østerrike og Sveits?', array['Pyreneene', 'Karpatene', 'Dovrefjell', 'Alpene']::text[], 3, 'Alpene er Europas største fjellkjede.', true, true, 6),
+  ('tysk-8:land-og-kultur', 'q08', 'flervalg', 'Hvilke tyske handelsfolk hadde et viktig kontor på Bryggen i Bergen?', array['Hanseatene', 'Vikingene', 'Romerne', 'Normannerne']::text[], 0, 'Hanseatene handlet blant annet med tørrfisk.', true, true, 7),
+  ('tysk-8:land-og-kultur', 'q09', 'flervalg', 'Hva er en «Weihnachtsmarkt»?', array['Et påskemarked', 'En fotballkamp', 'Et julemarked', 'Et loppemarked']::text[], 2, '«Weihnachten» betyr jul.', true, false, 8),
+  ('tysk-8:land-og-kultur', 'q10', 'flervalg', 'Hvor mange offisielle språk har Sveits?', array['Ett', 'Fire', 'To', 'Seks']::text[], 1, 'Tysk, fransk, italiensk og retoromansk.', true, false, 9),
+  ('tysk-8:land-og-kultur', 'm01', 'sant-usant', 'Tysk snakkes også i Østerrike og Sveits.', array['Sant', 'Usant']::text[], 0, 'Tysk er offisielt språk i begge landene.', false, true, 10),
+  ('tysk-8:land-og-kultur', 'm02', 'sant-usant', 'Berlin ligger i Østerrike.', array['Sant', 'Usant']::text[], 1, 'Berlin er hovedstaden i Tyskland.', false, true, 11),
+  ('tysk-8:land-og-kultur', 'm03', 'sant-usant', 'Mange norske ord er lånt fra tysk.', array['Sant', 'Usant']::text[], 0, 'Særlig fra hansatiden i middelalderen.', false, true, 12),
+  ('tysk-8:land-og-kultur', 'm04', 'sant-usant', 'Tyskland har ingen kyst.', array['Sant', 'Usant']::text[], 1, 'Tyskland har kyst mot både Nordsjøen og Østersjøen.', false, true, 13),
+  ('tysk-8:land-og-kultur', 'm05', 'flervalg', 'Hvilken komponist var tysk?', array['Edvard Grieg', 'Ludwig van Beethoven', 'Frédéric Chopin', 'Giuseppe Verdi']::text[], 1, 'Beethoven ble født i Bonn.', false, true, 14),
+  ('tysk-8:land-og-kultur', 'm06', 'flervalg', 'Hva er Fasching?', array['Karneval', 'Jul', 'Påske', 'Nyttår']::text[], 0, 'Fasching feires særlig i Sør-Tyskland og Østerrike.', false, true, 15),
+  ('tysk-8:land-og-kultur', 'm07', 'flervalg', 'Hvilken elv renner forbi Köln?', array['Themsen', 'Seinen', 'Rhinen', 'Tiberen']::text[], 2, 'Köln ligger ved Rhinen.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('tysk-8:land-og-kultur', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Fransk (8): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'fransk-8' and slug not in ('hilsener-og-presentasjon', 'tall-og-tid', 'familie-og-venner', 'skole-og-fritid', 'grammatikk-grunnlag', 'land-og-kultur');
+
+-- Fransk: Hilsener og presentasjon
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('fransk-8:hilsener-og-presentasjon', 'fransk-8', 'hilsener-og-presentasjon', 'Hilsener og presentasjon', 'Hvordan du hilser, presenterer deg selv og spør om navn, alder og bosted på fransk, når du bruker tu og vous, og de viktigste reglene for uttale, aksenter og høflighet.', array[2, 6]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('fransk-8:hilsener-og-presentasjon', '## Fransk i verden
+
+Fransk snakkes av over 300 millioner mennesker på fem kontinenter. Det er offisielt språk i **Frankrike**, **Belgia**, **Sveits**, **Luxembourg**, **Monaco**, provinsen **Québec** i Canada og i mange land i **Afrika**, som Senegal og Elfenbenskysten. Fellesskapet av fransktalende land kalles **la francophonie**. Mange norske ord kommer fra fransk, som *restaurant*, *butikk* og *sjåfør*.
+
+## Hilsener
+
+- **Bonjour !** – Hei! / God dag! Den vanligste hilsenen, både formelt og uformelt.
+- **Salut !** – Hei! eller Ha det! (uformelt)
+- **Bonsoir !** – God kveld!
+- **Au revoir !** – Ha det!
+- **À bientôt !** – Vi ses snart!
+- **Bonne nuit !** – God natt!
+
+I Frankrike hilser venner og familie ofte med **la bise**, et lett kinnkyss på hver side.
+
+## Presentere seg selv
+
+- **Comment tu t''appelles ?** – Hva heter du? – **Je m''appelle Nora.**
+- **Tu as quel âge ?** – Hvor gammel er du? – **J''ai treize ans.** Franskmenn «har» alderen sin: *j''ai* betyr «jeg har».
+- **Tu habites où ?** – Hvor bor du? – **J''habite à Bergen, en Norvège.**
+- **Ça va ?** – Hvordan går det? – **Ça va bien, merci !** / **Pas mal.** / **Ça ne va pas.**
+
+## Tu eller vous?
+
+- **tu** brukes til venner, familie og barn.
+- **vous** er høflighetsformen til voksne du ikke kjenner, og betyr også «dere»: *Comment vous appelez-vous ?*
+
+## Uttale
+
+- Konsonanter på **slutten** av ordet er ofte **stumme**: *petit*, *Paris*, *vous*.
+- **h** er stum: *hôtel*.
+- **ou** uttales som norsk «u»: *vous*. **u** uttales som norsk «y»: *tu*.
+- **oi** uttales «oa»: *moi*. **au** og **eau** uttales «o»: *beau*.
+- **ch** uttales «sj»: *chat*.
+- **r** uttales bak i halsen.
+- Fransk har **nasallyder**, der luften går gjennom nesen: *an*, *on*, *in*.
+
+## Aksenter og tegn
+
+Fransk bruker **aksenter**: **é** (*café*), **è** (*père*) og **ê** (*fête*). **ç** (c med cedille) uttales som s: *ça*, *garçon*. I Frankrike settes det mellomrom foran spørsmålstegn og utropstegn: *Ça va ?*
+
+## Høflige småord
+
+**Merci** (takk), **s''il te plaît / s''il vous plaît** (vær så snill), **pardon** eller **excusez-moi** (unnskyld) og **de rien** (bare hyggelig). Med *bonjour* og *merci* kommer du langt – i Frankrike er det uhøflig å gå inn i en butikk uten å si *bonjour*!', '{"label":"Hilsener og presentasjon","children":[{"label":"Hilsener","children":[{"label":"Bonjour / Salut"},{"label":"Bonsoir"},{"label":"Au revoir / À bientôt"},{"label":"La bise"}]},{"label":"Om meg","children":[{"label":"Je m''appelle …"},{"label":"J''ai … ans"},{"label":"J''habite à …"},{"label":"Ça va ?"}]},{"label":"tu eller vous","children":[{"label":"tu","note":"Venner og familie"},{"label":"vous","note":"Høflig eller flertall"}]},{"label":"Uttale","children":[{"label":"Stumme endelser"},{"label":"ou = u, u = y"},{"label":"oi = oa"},{"label":"Nasallyder"}]},{"label":"Skrift og høflighet","children":[{"label":"é, è, ê"},{"label":"ç"},{"label":"merci, s''il te plaît, de rien"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'fransk-8:hilsener-og-presentasjon';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('fransk-8:hilsener-og-presentasjon', 'Bonjour !', 'Hei! / God dag!', 0),
+  ('fransk-8:hilsener-og-presentasjon', 'Salut !', 'Hei! eller Ha det! (uformelt)', 1),
+  ('fransk-8:hilsener-og-presentasjon', 'Bonsoir !', 'God kveld!', 2),
+  ('fransk-8:hilsener-og-presentasjon', 'Au revoir !', 'Ha det!', 3),
+  ('fransk-8:hilsener-og-presentasjon', 'À bientôt !', 'Vi ses snart!', 4),
+  ('fransk-8:hilsener-og-presentasjon', 'Comment tu t''appelles ?', 'Hva heter du?', 5),
+  ('fransk-8:hilsener-og-presentasjon', 'Je m''appelle …', 'Jeg heter …', 6),
+  ('fransk-8:hilsener-og-presentasjon', 'Tu as quel âge ?', 'Hvor gammel er du?', 7),
+  ('fransk-8:hilsener-og-presentasjon', 'J''ai treize ans.', 'Jeg er tretten år (bokstavelig: jeg har tretten år).', 8),
+  ('fransk-8:hilsener-og-presentasjon', 'J''habite à …', 'Jeg bor i …', 9),
+  ('fransk-8:hilsener-og-presentasjon', 'Ça va ?', 'Hvordan går det?', 10),
+  ('fransk-8:hilsener-og-presentasjon', 'tu / vous', 'du (uformelt) / De eller dere', 11),
+  ('fransk-8:hilsener-og-presentasjon', 'Merci', 'Takk', 12),
+  ('fransk-8:hilsener-og-presentasjon', 'S''il te plaît', 'Vær så snill', 13),
+  ('fransk-8:hilsener-og-presentasjon', 'De rien', 'Bare hyggelig / ingen årsak', 14),
+  ('fransk-8:hilsener-og-presentasjon', 'ç', 'c med cedille, uttales som s: ça, garçon', 15);
+delete from public.quiz_sporsmal where tema_id = 'fransk-8:hilsener-og-presentasjon';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('fransk-8:hilsener-og-presentasjon', 'q01', 'flervalg', 'Hva betyr «Comment tu t''appelles ?»', array['Hvor bor du?', 'Hvor gammel er du?', 'Hva heter du?', 'Hvordan går det?']::text[], 2, 'Du svarer med «Je m''appelle …».', true, true, 0),
+  ('fransk-8:hilsener-og-presentasjon', 'q02', 'flervalg', 'Hvordan sier du «Jeg er tretten år» på fransk?', array['J''ai treize ans.', 'Je suis treize ans.', 'J''ai treize.', 'Je m''appelle treize.']::text[], 0, 'På fransk bruker man «avoir» (å ha) om alder.', true, true, 1),
+  ('fransk-8:hilsener-og-presentasjon', 'q03', 'flervalg', 'Når bruker du «vous» i stedet for «tu»?', array['Til bestevennen din', 'Til kjæledyret ditt', 'Til søsknene dine', 'Til voksne du ikke kjenner, eller til flere personer']::text[], 3, '«vous» er både høflighetsform og flertall.', true, true, 2),
+  ('fransk-8:hilsener-og-presentasjon', 'q04', 'flervalg', 'Hvilken hilsen er uformell?', array['Bonjour', 'Salut', 'Bonsoir', 'Au revoir']::text[], 1, '«Salut» brukes blant venner.', true, true, 3),
+  ('fransk-8:hilsener-og-presentasjon', 'q05', 'flervalg', 'Hvordan uttales «ou» i «vous»?', array['Som norsk «o»', 'Som norsk «y»', 'Som norsk «u»', 'Som «au»']::text[], 2, '«vous» uttales omtrent «vu».', true, true, 4),
+  ('fransk-8:hilsener-og-presentasjon', 'q06', 'flervalg', 'Hva er ofte spesielt med konsonanter på slutten av franske ord?', array['De uttales dobbelt', 'De skrives med stor bokstav', 'De har alltid aksent', 'De er ofte stumme']::text[], 3, 'I «Paris» uttales ikke s-en.', true, true, 5),
+  ('fransk-8:hilsener-og-presentasjon', 'q07', 'flervalg', 'Hva betyr «De rien»?', array['Bare hyggelig / ingen årsak', 'Takk', 'Unnskyld', 'Ha det']::text[], 0, 'Du svarer «De rien» når noen sier «Merci».', true, true, 6),
+  ('fransk-8:hilsener-og-presentasjon', 'q08', 'flervalg', 'Hvordan uttales «ç» i «ça»?', array['Som k', 'Som s', 'Som sj', 'Den er stum']::text[], 1, 'Cedillen viser at c skal uttales som s.', true, true, 7),
+  ('fransk-8:hilsener-og-presentasjon', 'q09', 'flervalg', 'Hva sier du når du bor i Bergen?', array['Je suis Bergen.', 'J''ai Bergen.', 'Je m''appelle Bergen.', 'J''habite à Bergen.']::text[], 3, '«habiter» betyr å bo.', true, false, 8),
+  ('fransk-8:hilsener-og-presentasjon', 'q10', 'flervalg', 'Hva er «la bise»?', array['En type brød', 'En hilsen på telefon', 'Kinnkyss som hilsen', 'En fransk sang']::text[], 2, 'Venner og familie hilser ofte med kinnkyss i Frankrike.', true, false, 9),
+  ('fransk-8:hilsener-og-presentasjon', 'm01', 'sant-usant', 'Fransk snakkes i mange land i Afrika.', array['Sant', 'Usant']::text[], 0, 'For eksempel i Senegal og Elfenbenskysten.', false, true, 10),
+  ('fransk-8:hilsener-og-presentasjon', 'm02', 'sant-usant', 'På fransk sier man «Je suis treize ans» om alderen sin.', array['Sant', 'Usant']::text[], 1, 'Det heter «J''ai treize ans».', false, true, 11),
+  ('fransk-8:hilsener-og-presentasjon', 'm03', 'sant-usant', '«Salut» kan bety både hei og ha det.', array['Sant', 'Usant']::text[], 0, 'Ordet brukes uformelt i begge betydningene.', false, true, 12),
+  ('fransk-8:hilsener-og-presentasjon', 'm04', 'sant-usant', 'Bokstaven h uttales alltid tydelig på fransk.', array['Sant', 'Usant']::text[], 1, 'h er stum, som i «hôtel».', false, true, 13),
+  ('fransk-8:hilsener-og-presentasjon', 'm05', 'flervalg', 'Hva betyr «Ça va bien, merci !»?', array['Jeg heter Ça', 'Det går bra, takk!', 'Ha det bra!', 'Vær så snill!']::text[], 1, 'Det er et vanlig svar på «Ça va ?».', false, true, 14),
+  ('fransk-8:hilsener-og-presentasjon', 'm06', 'flervalg', 'Hvordan uttales «oi» i «moi»?', array['oa', 'oi', 'å', 'y']::text[], 0, '«moi» uttales omtrent «moa».', false, true, 15),
+  ('fransk-8:hilsener-og-presentasjon', 'm07', 'flervalg', 'Hva betyr «s''il te plaît»?', array['Takk', 'Unnskyld', 'Vær så snill', 'Velkommen']::text[], 2, 'Til voksne du ikke kjenner, sier du «s''il vous plaît».', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('fransk-8:hilsener-og-presentasjon', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Fransk: Tall, dager og klokka
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('fransk-8:tall-og-tid', 'fransk-8', 'tall-og-tid', 'Tall, dager og klokka', 'Tallene på fransk, med de spesielle tallene fra 70 til 99, ukedager, måneder og årstider, datoen og hvordan du sier hva klokka er.', array[6, 1]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('fransk-8:tall-og-tid', '## Tallene 0–20
+
+0 **zéro**, 1 **un**, 2 **deux**, 3 **trois**, 4 **quatre**, 5 **cinq**, 6 **six**, 7 **sept**, 8 **huit**, 9 **neuf**, 10 **dix**, 11 **onze**, 12 **douze**, 13 **treize**, 14 **quatorze**, 15 **quinze**, 16 **seize**, 17 **dix-sept**, 18 **dix-huit**, 19 **dix-neuf**, 20 **vingt**.
+
+## Tallene over 20
+
+- 21 **vingt et un**, 22 **vingt-deux**, 23 **vingt-trois** …
+- 30 **trente**, 40 **quarante**, 50 **cinquante**, 60 **soixante**
+- 70 **soixante-dix** (60 + 10), 71 **soixante et onze**, 72 **soixante-douze**
+- 80 **quatre-vingts** (4 × 20), 81 **quatre-vingt-un**
+- 90 **quatre-vingt-dix** (4 × 20 + 10)
+- 100 **cent**
+
+Fra 70 til 99 regner franskmenn altså med tjuetall. I **Belgia** og **Sveits** sier mange i stedet **septante** (70) og **nonante** (90).
+
+## Ukedagene
+
+**lundi** (mandag), **mardi** (tirsdag), **mercredi** (onsdag), **jeudi** (torsdag), **vendredi** (fredag), **samedi** (lørdag) og **dimanche** (søndag). På fransk skrives ukedager og måneder med **liten forbokstav**. **Lundi** betyr «på mandag», mens **le lundi** betyr «hver mandag».
+
+## Måneder og årstider
+
+**janvier, février, mars, avril, mai, juin, juillet, août, septembre, octobre, novembre, décembre.** «I mai» heter **en mai**. Årstidene er **le printemps** (våren), **l''été** (sommeren), **l''automne** (høsten) og **l''hiver** (vinteren). «Om våren» heter **au printemps**, mens de andre får **en**: *en été*, *en automne*, *en hiver*.
+
+## Datoen
+
+På fransk bruker man vanlige tall i datoer: **le deux mars**, **le quatorze juillet**. Unntaket er den første: **le premier mai**.
+
+- **On est le combien aujourd''hui ?** – Hvilken dato er det i dag?
+- **Mon anniversaire, c''est le trois mars.** – Bursdagen min er 3. mars.
+
+## Hva er klokka?
+
+**Quelle heure est-il ?** – Hva er klokka?
+
+- 8.00: **Il est huit heures.**
+- 8.10: **Il est huit heures dix.**
+- 8.15: **Il est huit heures et quart.**
+- 8.30: **Il est huit heures et demie.** Pass på: På fransk sier man «åtte og en halv», ikke «halv ni»!
+- 8.45: **Il est neuf heures moins le quart.** (ni minus et kvarter)
+- 12.00: **Il est midi.** 24.00: **Il est minuit.**
+
+Når du sier når noe skjer, bruker du **à**: *Le cours commence à huit heures.* – Timen begynner klokka åtte. I Frankrike brukes ofte 24-timersklokke, for eksempel *seize heures trente* (16.30).', '{"label":"Tall og tid","children":[{"label":"Tall","children":[{"label":"0–20"},{"label":"vingt et un"},{"label":"70 = soixante-dix"},{"label":"80 = quatre-vingts"},{"label":"septante og nonante"}]},{"label":"Ukedager","children":[{"label":"lundi–dimanche"},{"label":"Liten forbokstav"},{"label":"le lundi = hver mandag"}]},{"label":"Måneder og årstider","children":[{"label":"janvier–décembre"},{"label":"en mai"},{"label":"au printemps, en été"}]},{"label":"Dato","children":[{"label":"le premier mai"},{"label":"le trois mars"},{"label":"anniversaire"}]},{"label":"Klokka","children":[{"label":"Quelle heure est-il ?"},{"label":"et quart / et demie"},{"label":"moins le quart"},{"label":"à huit heures"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'fransk-8:tall-og-tid';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('fransk-8:tall-og-tid', 'onze', '11', 0),
+  ('fransk-8:tall-og-tid', 'douze', '12', 1),
+  ('fransk-8:tall-og-tid', 'seize', '16', 2),
+  ('fransk-8:tall-og-tid', 'vingt', '20', 3),
+  ('fransk-8:tall-og-tid', 'vingt et un', '21', 4),
+  ('fransk-8:tall-og-tid', 'soixante-dix', '70 (60 + 10)', 5),
+  ('fransk-8:tall-og-tid', 'quatre-vingts', '80 (4 × 20)', 6),
+  ('fransk-8:tall-og-tid', 'quatre-vingt-dix', '90 (4 × 20 + 10)', 7),
+  ('fransk-8:tall-og-tid', 'cent', '100', 8),
+  ('fransk-8:tall-og-tid', 'lundi', 'mandag', 9),
+  ('fransk-8:tall-og-tid', 'mercredi', 'onsdag', 10),
+  ('fransk-8:tall-og-tid', 'samedi', 'lørdag', 11),
+  ('fransk-8:tall-og-tid', 'août', 'august', 12),
+  ('fransk-8:tall-og-tid', 'le printemps', 'våren', 13),
+  ('fransk-8:tall-og-tid', 'Quelle heure est-il ?', 'Hva er klokka?', 14),
+  ('fransk-8:tall-og-tid', 'huit heures et demie', 'halv ni (8.30)', 15),
+  ('fransk-8:tall-og-tid', 'neuf heures moins le quart', 'kvart på ni (8.45)', 16);
+delete from public.quiz_sporsmal where tema_id = 'fransk-8:tall-og-tid';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('fransk-8:tall-og-tid', 'q01', 'flervalg', 'Hva er 70 på fransk?', array['septante-dix', 'soixante-dix', 'sept-dix', 'soixante-sept']::text[], 1, '70 er «60 + 10». I Belgia og Sveits sier mange «septante».', true, true, 0),
+  ('fransk-8:tall-og-tid', 'q02', 'flervalg', 'Hva betyr «quatre-vingts»?', array['24', '40', '84', '80']::text[], 3, 'Det betyr bokstavelig «fire tjuer».', true, true, 1),
+  ('fransk-8:tall-og-tid', 'q03', 'flervalg', 'Hva betyr «huit heures et demie»?', array['Halv ni (8.30)', 'Halv åtte (7.30)', 'Kvart over åtte', 'Åtte minutter']::text[], 0, 'Franskmenn sier «åtte og en halv».', true, true, 2),
+  ('fransk-8:tall-og-tid', 'q04', 'flervalg', 'Hvordan skrives ukedager og måneder på fransk?', array['Med stor forbokstav', 'Alltid i flertall', 'Med liten forbokstav', 'Med aksent']::text[], 2, 'Som på norsk skrives de med liten forbokstav.', true, true, 3),
+  ('fransk-8:tall-og-tid', 'q05', 'flervalg', 'Hvordan spør du hva klokka er?', array['Quelle heure est-il ?', 'Tu as quel âge ?', 'Ça va ?', 'Comment tu t''appelles ?']::text[], 0, '«heure» betyr time eller klokkeslett.', true, true, 4),
+  ('fransk-8:tall-og-tid', 'q06', 'flervalg', 'Hva heter onsdag på fransk?', array['lundi', 'jeudi', 'vendredi', 'mercredi']::text[], 3, '«jeudi» er torsdag og «vendredi» fredag.', true, true, 5),
+  ('fransk-8:tall-og-tid', 'q07', 'flervalg', 'Hvordan sier du datoen 1. mai?', array['le un mai', 'le première mai', 'le premier mai', 'le mai un']::text[], 2, 'Bare den første i måneden får ordenstallet «premier».', true, true, 6),
+  ('fransk-8:tall-og-tid', 'q08', 'flervalg', 'Hva betyr «neuf heures moins le quart»?', array['Kvart over ni', 'Kvart på ni', 'Halv ni', 'Ni kvarter']::text[], 1, '«moins» betyr minus.', true, true, 7),
+  ('fransk-8:tall-og-tid', 'q09', 'flervalg', 'Hvilket tall er «seize»?', array['6', '60', '7', '16']::text[], 3, '6 er «six» og 60 er «soixante».', true, false, 8),
+  ('fransk-8:tall-og-tid', 'q10', 'flervalg', 'Hvordan sier du «om sommeren»?', array['en été', 'au été', 'à l''été', 'dans été']::text[], 0, 'Bare våren får «au»: «au printemps».', true, false, 9),
+  ('fransk-8:tall-og-tid', 'm01', 'sant-usant', 'I Belgia og Sveits sier mange «septante» for 70.', array['Sant', 'Usant']::text[], 0, 'De sier også «nonante» for 90.', false, true, 10),
+  ('fransk-8:tall-og-tid', 'm02', 'sant-usant', '«douze» betyr 20.', array['Sant', 'Usant']::text[], 1, '«douze» er 12. Tjue heter «vingt».', false, true, 11),
+  ('fransk-8:tall-og-tid', 'm03', 'sant-usant', '«à huit heures» betyr klokka åtte.', array['Sant', 'Usant']::text[], 0, '«à» brukes når du sier når noe skjer.', false, true, 12),
+  ('fransk-8:tall-og-tid', 'm04', 'sant-usant', 'På fransk bruker man «premier» i alle datoer.', array['Sant', 'Usant']::text[], 1, 'Bare den første i måneden. Ellers bruker man vanlige tall.', false, true, 13),
+  ('fransk-8:tall-og-tid', 'm05', 'flervalg', 'Hva betyr «samedi»?', array['Søndag', 'Lørdag', 'Fredag', 'Torsdag']::text[], 1, 'Søndag heter «dimanche».', false, true, 14),
+  ('fransk-8:tall-og-tid', 'm06', 'flervalg', 'Hva heter august på fransk?', array['août', 'auguste', 'aoûte', 'agosto']::text[], 0, '«août» uttales omtrent «u» eller «ut».', false, true, 15),
+  ('fransk-8:tall-og-tid', 'm07', 'flervalg', 'Hvordan sier du 21 på fransk?', array['vingt-un', 'vingt et deux', 'vingt et un', 'un et vingt']::text[], 2, '21, 31, 41, 51, 61 og 71 får «et».', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('fransk-8:tall-og-tid', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Fransk: Familie og venner
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('fransk-8:familie-og-venner', 'fransk-8', 'familie-og-venner', 'Familie og venner', 'Ord for familie, venner og kjæledyr på fransk, eiendomsordene mon, ma og mes, hvordan du sier hva du har og ikke har, og hvordan du beskriver utseende og personlighet.', array[3, 5]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('fransk-8:familie-og-venner', '## Familien – la famille
+
+- **le père** – faren, **la mère** – moren, **les parents** – foreldrene
+- **le frère** – broren, **la sœur** – søsteren, **les frères et sœurs** – søsknene
+- **le grand-père** – bestefaren, **la grand-mère** – bestemoren, **les grands-parents** – besteforeldrene
+- **l''oncle** – onkelen, **la tante** – tanten
+- **le cousin** – fetteren, **la cousine** – kusinen
+- **le fils** – sønnen, **la fille** – datteren (eller jenta)
+- **le chien** – hunden, **le chat** – katten
+
+Foran ord som begynner med vokal eller stum h, blir *le* og *la* til **l''**: *l''oncle*.
+
+## Min, mitt, mine
+
+- **mon** foran hankjønnsord: *mon père*
+- **ma** foran hunkjønnsord: *ma mère*
+- **mes** foran ord i flertall: *mes parents*
+
+Foran hunkjønnsord som begynner med vokal, bruker man **mon** for å få bedre flyt: *mon amie*. Tilsvarende finnes **ton/ta/tes** (din) og **son/sa/ses** (hans eller hennes). Formen avhenger av ordet som følger, ikke av eieren: *sa mère* kan bety både «hans mor» og «hennes mor».
+
+## Jeg har …
+
+- **J''ai un frère.** – Jeg har en bror.
+- **J''ai une sœur.** – Jeg har en søster.
+- **J''ai un chien.** – Jeg har en hund.
+- **Je n''ai pas de frères et sœurs.** – Jeg har ingen søsken. Etter *pas* blir *un/une* til **de**.
+
+## Beskrive personer
+
+Adjektiver **bøyes** etter kjønn og tall, og de fleste står **etter** substantivet: *un chat noir* (en svart katt).
+
+- **Il est grand. Elle est grande.** – Han/hun er høy.
+- **Il est petit. Elle est petite.** – Han/hun er lav.
+- **gentil / gentille** (snill), **sportif / sportive** (sporty), **drôle** (morsom), **timide** (sjenert), **sympa** (hyggelig)
+- **Il a les cheveux courts / longs / blonds / bruns.** – Han har kort / langt / lyst / brunt hår.
+- **Elle a les yeux bleus / verts / marron.** – Hun har blå / grønne / brune øyne.
+
+## Venner
+
+**un ami / une amie** betyr venn og venninne. **un copain / une copine** betyr også venn, men kan i tillegg bety kjæreste. **Mon meilleur ami s''appelle Jonas. Ma meilleure amie s''appelle Emma.**
+
+## En kort tekst
+
+*Voici ma famille. Nous habitons à Trondheim. Mon père s''appelle Lars. Il a quarante-cinq ans et il est très drôle. Ma mère s''appelle Ingrid. Elle est gentille et sportive. J''ai un frère et une sœur. Nous avons aussi un chien. Il s''appelle Max.*
+
+Bruk teksten som mønster når du skriver om din egen familie.', '{"label":"Familie og venner","children":[{"label":"Nær familie","children":[{"label":"père, mère, parents"},{"label":"frère, sœur"},{"label":"fils, fille"}]},{"label":"Mer familie","children":[{"label":"grands-parents"},{"label":"oncle, tante"},{"label":"cousin, cousine"},{"label":"chien, chat"}]},{"label":"Grammatikk","children":[{"label":"mon / ma / mes"},{"label":"J''ai un / une …"},{"label":"ne … pas de"}]},{"label":"Beskrive","children":[{"label":"grand / grande"},{"label":"gentil, drôle, sympa"},{"label":"cheveux og yeux"}]},{"label":"Venner","children":[{"label":"ami / amie"},{"label":"copain / copine"},{"label":"mon meilleur ami"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'fransk-8:familie-og-venner';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('fransk-8:familie-og-venner', 'le père / la mère', 'faren / moren', 0),
+  ('fransk-8:familie-og-venner', 'les parents', 'foreldrene', 1),
+  ('fransk-8:familie-og-venner', 'le frère / la sœur', 'broren / søsteren', 2),
+  ('fransk-8:familie-og-venner', 'les grands-parents', 'besteforeldrene', 3),
+  ('fransk-8:familie-og-venner', 'l''oncle / la tante', 'onkelen / tanten', 4),
+  ('fransk-8:familie-og-venner', 'le cousin / la cousine', 'fetteren / kusinen', 5),
+  ('fransk-8:familie-og-venner', 'la fille', 'datteren, eller jenta', 6),
+  ('fransk-8:familie-og-venner', 'le chien / le chat', 'hunden / katten', 7),
+  ('fransk-8:familie-og-venner', 'mon / ma / mes', 'min, mitt / min / mine', 8),
+  ('fransk-8:familie-og-venner', 'J''ai un frère.', 'Jeg har en bror.', 9),
+  ('fransk-8:familie-og-venner', 'Je n''ai pas de frères et sœurs.', 'Jeg har ingen søsken.', 10),
+  ('fransk-8:familie-og-venner', 'gentil / gentille', 'snill', 11),
+  ('fransk-8:familie-og-venner', 'drôle', 'morsom', 12),
+  ('fransk-8:familie-og-venner', 'Il a les yeux bleus.', 'Han har blå øyne.', 13),
+  ('fransk-8:familie-og-venner', 'mon meilleur ami', 'min beste venn', 14),
+  ('fransk-8:familie-og-venner', 'un copain / une copine', 'en venn / venninne, eller kjæreste', 15);
+delete from public.quiz_sporsmal where tema_id = 'fransk-8:familie-og-venner';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('fransk-8:familie-og-venner', 'q01', 'flervalg', 'Hva betyr «les grands-parents»?', array['Foreldrene', 'Søsknene', 'Kusinene', 'Besteforeldrene']::text[], 3, '«grand-» brukes om besteforeldre.', true, true, 0),
+  ('fransk-8:familie-og-venner', 'q02', 'flervalg', 'Hvilken form er riktig?', array['mon mère', 'ma mère', 'mes mère', 'ton ma mère']::text[], 1, '«mère» er hunkjønn, derfor «ma».', true, true, 1),
+  ('fransk-8:familie-og-venner', 'q03', 'flervalg', 'Hvordan sier du «Jeg har en søster»?', array['J''ai une sœur.', 'Je suis une sœur.', 'J''ai un sœur.', 'J''ai sœur.']::text[], 0, '«sœur» er hunkjønn og får «une».', true, true, 2),
+  ('fransk-8:familie-og-venner', 'q04', 'flervalg', 'Hva betyr «Je n''ai pas de frères et sœurs»?', array['Jeg har mange søsken', 'Brødrene mine er snille', 'Jeg har ingen søsken', 'Jeg har en bror']::text[], 2, '«ne … pas de» betyr «ikke noen».', true, true, 3),
+  ('fransk-8:familie-og-venner', 'q05', 'flervalg', 'Hvordan blir adjektivet «grand» når det beskriver en jente?', array['grand', 'grande', 'grands', 'grandes']::text[], 1, 'Hunkjønnsformen får ofte en -e.', true, true, 4),
+  ('fransk-8:familie-og-venner', 'q06', 'flervalg', 'Hva betyr «la fille»?', array['Sønnen', 'Moren', 'Tanten', 'Datteren eller jenta']::text[], 3, 'Sammenhengen avgjør om det betyr datter eller jente.', true, true, 5),
+  ('fransk-8:familie-og-venner', 'q07', 'flervalg', 'Hvordan sier du «Han har blå øyne»?', array['Il est les yeux bleus.', 'Elle a les yeux bleus.', 'Il a les yeux bleus.', 'Il a bleu yeux.']::text[], 2, 'På fransk bruker man bestemt artikkel: «les yeux».', true, true, 6),
+  ('fransk-8:familie-og-venner', 'q08', 'flervalg', 'Hva betyr «drôle»?', array['Morsom', 'Trist', 'Høy', 'Sjenert']::text[], 0, 'Sjenert heter «timide».', true, true, 7),
+  ('fransk-8:familie-og-venner', 'q09', 'flervalg', 'Hva betyr «mes parents»?', array['Mine søsken', 'Mine foreldre', 'Mine venner', 'Mine besteforeldre']::text[], 1, '«mes» brukes foran ord i flertall.', true, false, 8),
+  ('fransk-8:familie-og-venner', 'q10', 'flervalg', 'Hvor står de fleste adjektiver på fransk?', array['Foran substantivet', 'Alltid først i setningen', 'Til slutt i setningen', 'Etter substantivet']::text[], 3, 'For eksempel «un chat noir».', true, false, 9),
+  ('fransk-8:familie-og-venner', 'm01', 'sant-usant', '«son» og «sa» kan bety både hans og hennes.', array['Sant', 'Usant']::text[], 0, 'Formen avhenger av ordet som følger, ikke av eieren.', false, true, 10),
+  ('fransk-8:familie-og-venner', 'm02', 'sant-usant', '«le chien» betyr katten.', array['Sant', 'Usant']::text[], 1, '«le chien» er hunden, og «le chat» er katten.', false, true, 11),
+  ('fransk-8:familie-og-venner', 'm03', 'sant-usant', '«une copine» kan bety både venninne og kjæreste.', array['Sant', 'Usant']::text[], 0, 'Sammenhengen avgjør betydningen.', false, true, 12),
+  ('fransk-8:familie-og-venner', 'm04', 'sant-usant', 'Adjektiver bøyes aldri på fransk.', array['Sant', 'Usant']::text[], 1, 'Adjektiver bøyes etter kjønn og tall.', false, true, 13),
+  ('fransk-8:familie-og-venner', 'm05', 'flervalg', 'Hva betyr «l''oncle»?', array['Tanten', 'Onkelen', 'Bestefaren', 'Fetteren']::text[], 1, '«le» blir til «l''» foran vokal.', false, true, 14),
+  ('fransk-8:familie-og-venner', 'm06', 'flervalg', 'Hvilket ord passer: «… meilleure amie s''appelle Emma»?', array['Ma', 'Mon', 'Mes', 'Ta ma']::text[], 0, '«meilleure» er hunkjønn og begynner med konsonant.', false, true, 15),
+  ('fransk-8:familie-og-venner', 'm07', 'flervalg', 'Hva er hunkjønnsformen av «gentil»?', array['gentil', 'gentile', 'gentille', 'gentils']::text[], 2, '«gentil» dobler l-en i hunkjønn.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('fransk-8:familie-og-venner', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Fransk: Skole og fritid
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('fransk-8:skole-og-fritid', 'fransk-8', 'skole-og-fritid', 'Skole og fritid', 'Skolefag, meninger og fritidsaktiviteter på fransk, forskjellen på jouer à og jouer de, nektelse med ne … pas, og hvordan skolen er i Frankrike.', array[2, 3]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('fransk-8:skole-og-fritid', '## Skolefag – les matières
+
+**les maths**, **le français**, **l''anglais**, **le norvégien**, **l''histoire**, **la géographie**, **les sciences** (naturfag), **la musique**, **les arts plastiques** (kunst og håndverk) og **l''EPS** (kroppsøving).
+
+- **Ma matière préférée, c''est l''anglais.** – Yndlingsfaget mitt er engelsk.
+- **J''aime les maths.** / **Je n''aime pas l''histoire.** / **J''adore la musique.** / **Je déteste la géographie.**
+- **C''est intéressant / ennuyeux / facile / difficile.** – Det er interessant / kjedelig / lett / vanskelig.
+
+På fransk bruker man **bestemt artikkel** etter *aimer*: *J''aime **les** maths.*
+
+I klasserommet: **le professeur** eller **le/la prof** (læreren), **l''élève** (eleven), **le cahier** (skriveboka), **le stylo** (pennen) og **la trousse** (pennalet).
+
+## Fritid – les loisirs
+
+- **nager** – svømme, **lire** – lese, **dessiner** – tegne, **danser** – danse
+- **écouter de la musique** – høre på musikk
+- **regarder des séries** – se serier
+- **faire du vélo** – sykle, **faire du sport** – drive med sport
+- **sortir avec des amis** – gå ut med venner
+- **jouer aux jeux vidéo** – spille dataspill
+
+## Jouer à eller jouer de?
+
+- Om **sport og spill** bruker du **jouer à**: *jouer **au** foot*, *jouer **au** tennis*.
+- Om **instrumenter** bruker du **jouer de**: *jouer **de la** guitare*, *jouer **du** piano*.
+
+## Å like å gjøre noe
+
+Etter **aimer** kan du sette et verb i infinitiv:
+
+- **J''aime lire.** – Jeg liker å lese.
+- **Je n''aime pas nager.** – Jeg liker ikke å svømme.
+- **Qu''est-ce que tu aimes faire ?** – Hva liker du å gjøre?
+
+Nektelse lages med **ne … pas** rundt verbet: *Je **ne** joue **pas** au foot.*
+
+## Hvor ofte?
+
+**toujours** (alltid), **souvent** (ofte), **parfois** (noen ganger), **rarement** (sjelden) og **ne … jamais** (aldri): *Je ne nage jamais.* **Le week-end** betyr i helgen.
+
+## Skolen i Frankrike
+
+Etter **l''école primaire** går elevene på **le collège** fra de er rundt 11 til 15 år. Klassetrinnene telles **nedover**, fra *sixième* (6e) til *troisième* (3e). Deretter kommer **le lycée**, som avsluttes med eksamenen **le bac**. Karakterene gis ofte på en skala fra **0 til 20**, der 10 regnes som bestått. Skoledagene er lange, og mange elever spiser lunsj i skolens kantine.', '{"label":"Skole og fritid","children":[{"label":"Fag","children":[{"label":"maths, français, anglais"},{"label":"EPS, musique"},{"label":"matière préférée"}]},{"label":"Meninger","children":[{"label":"J''aime / j''adore"},{"label":"Je n''aime pas / je déteste"},{"label":"facile / difficile"}]},{"label":"Fritid","children":[{"label":"nager, lire"},{"label":"dessiner, danser"},{"label":"faire du vélo"}]},{"label":"Grammatikk","children":[{"label":"jouer à / jouer de"},{"label":"aimer + infinitiv"},{"label":"ne … pas / ne … jamais"}]},{"label":"Skolen i Frankrike","children":[{"label":"collège og lycée"},{"label":"6e til 3e"},{"label":"Karakter 0–20"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'fransk-8:skole-og-fritid';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('fransk-8:skole-og-fritid', 'ma matière préférée', 'yndlingsfaget mitt', 0),
+  ('fransk-8:skole-og-fritid', 'les maths', 'matte', 1),
+  ('fransk-8:skole-og-fritid', 'l''EPS', 'kroppsøving', 2),
+  ('fransk-8:skole-og-fritid', 'l''histoire', 'historie', 3),
+  ('fransk-8:skole-og-fritid', 'C''est ennuyeux.', 'Det er kjedelig.', 4),
+  ('fransk-8:skole-og-fritid', 'facile / difficile', 'lett / vanskelig', 5),
+  ('fransk-8:skole-og-fritid', 'le professeur / le prof', 'læreren', 6),
+  ('fransk-8:skole-og-fritid', 'J''aime lire.', 'Jeg liker å lese.', 7),
+  ('fransk-8:skole-og-fritid', 'Je n''aime pas nager.', 'Jeg liker ikke å svømme.', 8),
+  ('fransk-8:skole-og-fritid', 'jouer au foot', 'spille fotball', 9),
+  ('fransk-8:skole-og-fritid', 'jouer de la guitare', 'spille gitar', 10),
+  ('fransk-8:skole-og-fritid', 'dessiner', 'å tegne', 11),
+  ('fransk-8:skole-og-fritid', 'le week-end', 'i helgen', 12),
+  ('fransk-8:skole-og-fritid', 'souvent / parfois / jamais', 'ofte / noen ganger / aldri', 13),
+  ('fransk-8:skole-og-fritid', 'le collège', 'ungdomsskolen i Frankrike, for elever fra ca. 11 til 15 år', 14),
+  ('fransk-8:skole-og-fritid', 'karakter 0–20', 'Vanlig karakterskala i Frankrike. 10 regnes som bestått.', 15);
+delete from public.quiz_sporsmal where tema_id = 'fransk-8:skole-og-fritid';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('fransk-8:skole-og-fritid', 'q01', 'flervalg', 'Hvordan sier du «Jeg liker å lese»?', array['J''aime lire.', 'Je lis aime.', 'J''aime de lire.', 'Je aime lire.']::text[], 0, '«aimer» etterfølges av infinitiv, og «je» blir «j''» foran vokal.', true, true, 0),
+  ('fransk-8:skole-og-fritid', 'q02', 'flervalg', 'Hva betyr «ennuyeux»?', array['Morsom', 'Lett', 'Kjedelig', 'Vanskelig']::text[], 2, 'Ordet er i slekt med engelsk «annoying».', true, true, 1),
+  ('fransk-8:skole-og-fritid', 'q03', 'flervalg', 'Hvordan sier du «spille fotball»?', array['jouer de la foot', 'faire le foot', 'jouer du foot', 'jouer au foot']::text[], 3, 'Med sport og spill bruker du «jouer à».', true, true, 2),
+  ('fransk-8:skole-og-fritid', 'q04', 'flervalg', 'Hvordan sier du «spille gitar»?', array['jouer à la guitare', 'jouer de la guitare', 'faire la guitare', 'jouer guitare']::text[], 1, 'Med instrumenter bruker du «jouer de».', true, true, 3),
+  ('fransk-8:skole-og-fritid', 'q05', 'flervalg', 'Hva er «le collège» i Frankrike?', array['Universitetet', 'Barnehagen', 'Videregående skole', 'Ungdomsskolen for elever fra ca. 11 til 15 år']::text[], 3, 'Videregående heter «le lycée».', true, true, 4),
+  ('fransk-8:skole-og-fritid', 'q06', 'flervalg', 'Hvilken karakterskala brukes ofte i franske skoler?', array['0 til 20', '1 til 6', 'A til F', '1 til 10']::text[], 0, '10 av 20 regnes som bestått.', true, true, 5),
+  ('fransk-8:skole-og-fritid', 'q07', 'flervalg', 'Hva betyr «parfois»?', array['Alltid', 'Noen ganger', 'Aldri', 'Ofte']::text[], 1, '«souvent» betyr ofte, og «jamais» betyr aldri.', true, true, 6),
+  ('fransk-8:skole-og-fritid', 'q08', 'flervalg', 'Hva heter faget kroppsøving på fransk?', array['les arts plastiques', 'la musique', 'l''EPS', 'l''histoire']::text[], 2, 'EPS står for «éducation physique et sportive».', true, true, 7),
+  ('fransk-8:skole-og-fritid', 'q09', 'flervalg', 'Hvordan spør du «Hva liker du å gjøre?»', array['Qu''est-ce que tu aimes faire ?', 'Tu habites où ?', 'Quelle heure est-il ?', 'Ça va ?']::text[], 0, '«faire» betyr å gjøre.', true, false, 8),
+  ('fransk-8:skole-og-fritid', 'q10', 'flervalg', 'Hva betyr «Ma matière préférée, c''est l''histoire»?', array['Jeg liker ikke historie', 'Historie er vanskelig', 'Læreren min underviser i historie', 'Yndlingsfaget mitt er historie']::text[], 3, '«préféré» betyr yndlings-.', true, false, 9),
+  ('fransk-8:skole-og-fritid', 'm01', 'sant-usant', 'Etter «aimer» kan du bruke et verb i infinitiv, som «J''aime danser».', array['Sant', 'Usant']::text[], 0, 'Det betyr «Jeg liker å danse».', false, true, 10),
+  ('fransk-8:skole-og-fritid', 'm02', 'sant-usant', '«jamais» betyr alltid.', array['Sant', 'Usant']::text[], 1, '«ne … jamais» betyr aldri. Alltid heter «toujours».', false, true, 11),
+  ('fransk-8:skole-og-fritid', 'm03', 'sant-usant', 'På franske ungdomsskoler telles klassetrinnene nedover, fra 6e til 3e.', array['Sant', 'Usant']::text[], 0, 'Elevene begynner i «sixième» og slutter i «troisième».', false, true, 12),
+  ('fransk-8:skole-og-fritid', 'm04', 'sant-usant', 'Man sier «jouer au piano» om å spille piano.', array['Sant', 'Usant']::text[], 1, 'Med instrumenter bruker man «jouer de»: «jouer du piano».', false, true, 13),
+  ('fransk-8:skole-og-fritid', 'm05', 'flervalg', 'Hva betyr «dessiner»?', array['Å danse', 'Å tegne', 'Å svømme', 'Å lese']::text[], 1, 'Ordet er i slekt med norsk «design».', false, true, 14),
+  ('fransk-8:skole-og-fritid', 'm06', 'flervalg', 'Hva betyr «le week-end»?', array['Helgen', 'Ferien', 'Kvelden', 'Uken']::text[], 0, 'Ordet er lånt fra engelsk.', false, true, 15),
+  ('fransk-8:skole-og-fritid', 'm07', 'flervalg', 'Hva betyr «C''est difficile»?', array['Det er lett', 'Det er morsomt', 'Det er vanskelig', 'Det er kjedelig']::text[], 2, 'Lett heter «facile».', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('fransk-8:skole-og-fritid', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Fransk: Grammatikk – grunnlaget
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('fransk-8:grammatikk-grunnlag', 'fransk-8', 'grammatikk-grunnlag', 'Grammatikk – grunnlaget', 'Kjønn og artikler, flertall, personlige pronomen, bøying av verb på -er, de viktige verbene être og avoir, elisjon, nektelse, spørsmål og adjektiver.', array[6]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('fransk-8:grammatikk-grunnlag', '## To kjønn – le og la
+
+Franske substantiver er enten **hankjønn** eller **hunkjønn**:
+
+- **le** – hankjønn: *le livre* (boka), *le chien*
+- **la** – hunkjønn: *la maison* (huset), *la table*
+- **l''** – foran vokal eller stum h: *l''école*, *l''hôtel*
+- **les** – alle ord i flertall: *les livres*
+
+Den ubestemte artikkelen er **un** (hankjønn), **une** (hunkjønn) og **des** (flertall): *un livre*, *une maison*, *des amis*. Kjønnet stemmer ofte ikke med norsk, så lær alltid ordet sammen med artikkelen.
+
+## Flertall
+
+De fleste ord får **-s** i flertall: *le livre – les livres*. Denne s-en uttales vanligvis ikke, så det er artikkelen som viser at ordet står i flertall.
+
+## Personlige pronomen
+
+**je** (jeg), **tu** (du), **il** (han), **elle** (hun), **on** (man, i dagligtale ofte «vi»), **nous** (vi), **vous** (dere eller De), **ils** (de, om hankjønn eller en blandet gruppe) og **elles** (de, bare om hunkjønn).
+
+## Verb på -er
+
+De fleste franske verb ender på **-er** og bøyes likt. Eksempel: **parler** (å snakke):
+
+- je parl**e**, tu parl**es**, il/elle/on parl**e**
+- nous parl**ons**, vous parl**ez**, ils/elles parl**ent**
+
+Endelsene **-e**, **-es** og **-ent** uttales ikke, så *je parle*, *tu parles* og *ils parlent* høres helt like ut. Andre verb som bøyes slik, er *habiter*, *aimer*, *jouer* og *regarder*.
+
+## Être og avoir
+
+- **être** (å være): je **suis**, tu **es**, il **est**, nous **sommes**, vous **êtes**, ils **sont**
+- **avoir** (å ha): j''**ai**, tu **as**, il **a**, nous **avons**, vous **avez**, ils **ont**
+
+Husk at alder uttrykkes med *avoir*: *J''ai quatorze ans.*
+
+## Elisjon
+
+Små ord som **je**, **le**, **la** og **ne** mister vokalen foran ord som begynner med vokal eller stum h: *j''aime*, *l''ami*, *je n''ai pas*.
+
+## Nektelse
+
+Nektelse lages med **ne … pas** rundt verbet: *Je **ne** parle **pas** allemand.* Foran vokal blir *ne* til **n''**: *Je **n''**aime **pas** le fromage.*
+
+## Spørsmål
+
+- Med stigende tone: *Tu parles français ?*
+- Med **est-ce que**: *Est-ce que tu parles français ?*
+- Med spørreord: **où** (hvor), **quand** (når), **comment** (hvordan), **pourquoi** (hvorfor), **qui** (hvem) og **combien** (hvor mye/mange): *Tu habites où ?*
+
+## Adjektiver
+
+Adjektiver bøyes etter kjønn og tall og står vanligvis **etter** substantivet: *un chat noir*, *une voiture noire*. Noen korte adjektiver, som *grand*, *petit* og *bon*, står foran: *un petit chien*.', '{"label":"Grammatikk – grunnlaget","children":[{"label":"Artikler","children":[{"label":"le, la, l''"},{"label":"les"},{"label":"un, une, des"}]},{"label":"Pronomen","children":[{"label":"je, tu, il, elle, on"},{"label":"nous, vous, ils, elles"}]},{"label":"Verb","children":[{"label":"-er-verb: parler"},{"label":"être"},{"label":"avoir"},{"label":"Stumme endelser"}]},{"label":"Setninger","children":[{"label":"ne … pas"},{"label":"est-ce que"},{"label":"Spørreord"},{"label":"Elisjon"}]},{"label":"Adjektiver","children":[{"label":"Bøyes i kjønn og tall"},{"label":"Står som regel etter"},{"label":"petit, grand, bon foran"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'fransk-8:grammatikk-grunnlag';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('fransk-8:grammatikk-grunnlag', 'le / la / l'' / les', 'Bestemt artikkel: hankjønn / hunkjønn / foran vokal / flertall', 0),
+  ('fransk-8:grammatikk-grunnlag', 'un / une / des', 'Ubestemt artikkel: hankjønn / hunkjønn / flertall', 1),
+  ('fransk-8:grammatikk-grunnlag', 'je, tu, il, elle, on', 'jeg, du, han, hun, man/vi', 2),
+  ('fransk-8:grammatikk-grunnlag', 'nous, vous, ils, elles', 'vi, dere/De, de (hankjønn eller blandet), de (hunkjønn)', 3),
+  ('fransk-8:grammatikk-grunnlag', 'je parle', 'jeg snakker', 4),
+  ('fransk-8:grammatikk-grunnlag', 'nous parlons', 'vi snakker', 5),
+  ('fransk-8:grammatikk-grunnlag', 'vous parlez', 'dere snakker / De snakker', 6),
+  ('fransk-8:grammatikk-grunnlag', 'ils parlent', 'de snakker – -ent uttales ikke', 7),
+  ('fransk-8:grammatikk-grunnlag', 'être: je suis, tu es, il est', 'å være: jeg er, du er, han er', 8),
+  ('fransk-8:grammatikk-grunnlag', 'nous sommes, vous êtes, ils sont', 'vi er, dere er, de er', 9),
+  ('fransk-8:grammatikk-grunnlag', 'avoir: j''ai, tu as, il a', 'å ha: jeg har, du har, han har', 10),
+  ('fransk-8:grammatikk-grunnlag', 'nous avons, vous avez, ils ont', 'vi har, dere har, de har', 11),
+  ('fransk-8:grammatikk-grunnlag', 'ne … pas', 'ikke – står rundt verbet', 12),
+  ('fransk-8:grammatikk-grunnlag', 'est-ce que', 'Innleder et spørsmål: Est-ce que tu parles français ?', 13),
+  ('fransk-8:grammatikk-grunnlag', 'Elisjon', 'je, le, la og ne mister vokalen foran vokal: j''aime, l''ami', 14),
+  ('fransk-8:grammatikk-grunnlag', 'un chat noir', 'en svart katt – de fleste adjektiver står etter substantivet', 15);
+delete from public.quiz_sporsmal where tema_id = 'fransk-8:grammatikk-grunnlag';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('fransk-8:grammatikk-grunnlag', 'q01', 'flervalg', 'Hvilken artikkel bruker du foran et hunkjønnsord i entall?', array['le', 'la', 'les', 'un']::text[], 1, 'For eksempel «la maison».', true, true, 0),
+  ('fransk-8:grammatikk-grunnlag', 'q02', 'flervalg', 'Hva er riktig form av «parler» med «nous»?', array['nous parle', 'nous parlez', 'nous parlent', 'nous parlons']::text[], 3, 'Med «nous» får verbet endingen -ons.', true, true, 1),
+  ('fransk-8:grammatikk-grunnlag', 'q03', 'flervalg', 'Hvordan bøyes «être» med «vous»?', array['vous sommes', 'vous sont', 'vous êtes', 'vous es']::text[], 2, '«nous sommes» betyr «vi er».', true, true, 2),
+  ('fransk-8:grammatikk-grunnlag', 'q04', 'flervalg', 'Hva er riktig form av «avoir» med «ils»?', array['ils ont', 'ils sont', 'ils avons', 'ils a']::text[], 0, 'Pass på: «ils sont» er fra «être».', true, true, 3),
+  ('fransk-8:grammatikk-grunnlag', 'q05', 'flervalg', 'Hvordan sier du «Jeg snakker ikke tysk»?', array['Je pas parle allemand.', 'Je parle ne pas allemand.', 'Je ne parle pas allemand.', 'Ne je parle pas allemand.']::text[], 2, '«ne» står foran verbet og «pas» etter.', true, true, 4),
+  ('fransk-8:grammatikk-grunnlag', 'q06', 'flervalg', 'Hva skjer med «je» foran et ord som begynner med vokal?', array['Det forsvinner', 'Det blir til j''', 'Det blir til jé', 'Det blir til moi']::text[], 1, 'Dette kalles elisjon: «j''aime».', true, true, 5),
+  ('fransk-8:grammatikk-grunnlag', 'q07', 'flervalg', 'Hvordan kan du gjøre en setning om til et spørsmål?', array['Ved å sette «pas» foran verbet', 'Ved å bytte artikkel', 'Ved å sette ordet i flertall', 'Ved å sette «est-ce que» først i setningen']::text[], 3, 'Du kan også bare bruke stigende tone.', true, true, 6),
+  ('fransk-8:grammatikk-grunnlag', 'q08', 'flervalg', 'Hva betyr «on» i dagligtale?', array['Man eller vi', 'Han', 'Dere', 'De']::text[], 0, '«On y va !» betyr «Vi drar!».', true, true, 7),
+  ('fransk-8:grammatikk-grunnlag', 'q09', 'flervalg', 'Hvilke endelser av «parler» uttales likt?', array['-ons og -ez', '-ez og -ent', '-e, -es og -ent', '-ons og -ent']::text[], 2, 'Alle tre er stumme.', true, false, 8),
+  ('fransk-8:grammatikk-grunnlag', 'q10', 'flervalg', 'Hva er flertall av «le livre»?', array['la livres', 'le livres', 'les livre', 'les livres']::text[], 3, 'Både artikkelen og substantivet endres.', true, false, 9),
+  ('fransk-8:grammatikk-grunnlag', 'm01', 'sant-usant', 'Flertalls-s på slutten av franske ord uttales vanligvis ikke.', array['Sant', 'Usant']::text[], 0, 'Derfor er artikkelen viktig for å høre flertall.', false, true, 10),
+  ('fransk-8:grammatikk-grunnlag', 'm02', 'sant-usant', '«ils sont» er en form av verbet «avoir».', array['Sant', 'Usant']::text[], 1, '«ils sont» kommer fra «être». «ils ont» kommer fra «avoir».', false, true, 11),
+  ('fransk-8:grammatikk-grunnlag', 'm03', 'sant-usant', 'De fleste adjektiver står etter substantivet på fransk.', array['Sant', 'Usant']::text[], 0, 'For eksempel «une voiture rouge».', false, true, 12),
+  ('fransk-8:grammatikk-grunnlag', 'm04', 'sant-usant', '«nous» betyr dere.', array['Sant', 'Usant']::text[], 1, '«nous» betyr vi. Dere heter «vous».', false, true, 13),
+  ('fransk-8:grammatikk-grunnlag', 'm05', 'flervalg', 'Hva er riktig form av «avoir» med «tu»?', array['tu es', 'tu as', 'tu a', 'tu ai']::text[], 1, '«tu es» kommer fra «être».', false, true, 14),
+  ('fransk-8:grammatikk-grunnlag', 'm06', 'flervalg', 'Hvilken ubestemt artikkel bruker du i flertall?', array['des', 'les', 'un', 'une']::text[], 0, '«des amis» betyr «noen venner».', false, true, 15),
+  ('fransk-8:grammatikk-grunnlag', 'm07', 'flervalg', 'Hva betyr spørreordet «où»?', array['Hva', 'Når', 'Hvor', 'Hvorfor']::text[], 2, '«Tu habites où ?» betyr «Hvor bor du?».', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('fransk-8:grammatikk-grunnlag', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Fransk: Frankrike og den fransktalende verden
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('fransk-8:land-og-kultur', 'fransk-8', 'land-og-kultur', 'Frankrike og den fransktalende verden', 'Geografi, mat, tradisjoner, historie og kultur i Frankrike og andre fransktalende land, og forbindelsene mellom Frankrike og Norge.', array[8, 9]::int[], 5, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('fransk-8:land-og-kultur', '## Frankrike
+
+**La France** har rundt 68 millioner innbyggere, og hovedstaden er **Paris**. Frankrike har kyst mot **Atlanterhavet**, **Middelhavet** og **Den engelske kanal**. I øst ligger **Alpene** med **Mont Blanc**, det høyeste fjellet i Alpene, og i sør ligger **Pyreneene**. Viktige elver er **la Seine**, som renner gjennom Paris, **la Loire**, kjent for sine slott, og **le Rhône**. Andre store byer er Marseille, Lyon, Toulouse og Nice. Frankrike har også områder langt unna, som Martinique i Karibia og Réunion i Det indiske hav.
+
+## La francophonie
+
+Fransk er offisielt språk i nesten 30 land. I **Belgia**, **Sveits**, **Luxembourg** og **Canada**, særlig i **Québec**, snakker mange fransk. Fransk er også offisielt språk i mange land i **Afrika**, som **Senegal**, **Elfenbenskysten** og **Den demokratiske republikken Kongo**, og i **Haiti**.
+
+## Mat
+
+- **la baguette** – langt, sprøtt brød, kjøpt ferskt i **la boulangerie** (bakeriet)
+- **le croissant** og **le pain au chocolat** til frokost
+- **le fromage** – Frankrike har flere hundre ostesorter
+- **les crêpes** – tynne pannekaker fra Bretagne
+- **la quiche** – terte med egg og fyll
+
+Lunsjen, **le déjeuner**, er tradisjonelt et viktig måltid, og mange familier spiser middag, **le dîner**, sammen om kvelden.
+
+## Tradisjoner
+
+- **Le 14 juillet** – nasjonaldagen, til minne om stormingen av Bastillen i **1789**, med parade og fyrverkeri
+- **La Chandeleur** (2. februar) – man spiser crêpes
+- **Le poisson d''avril** (1. april) – barn fester papirfisker på ryggen til folk som aprilspøk
+- **La Fête de la musique** (21. juni) – gratis konserter overalt
+- **Le Tour de France** – verdens mest kjente sykkelritt, hver sommer
+
+## Historie og kultur
+
+Den **franske revolusjonen** i 1789 ga Frankrike mottoet **Liberté, égalité, fraternité** – frihet, likhet og brorskap. **Eiffeltårnet** ble bygd i 1889, og kunstmuseet **Louvre** har blant annet *Mona Lisa*. Kjente franske kunstnere er maleren **Claude Monet** og sangeren **Édith Piaf**, og tegneserien **Astérix** er fransk. Frankrike har vunnet fotball-VM for menn to ganger, i 1998 og 2018.
+
+## Frankrike og Norge
+
+Den franske marskalken **Jean-Baptiste Bernadotte** ble konge av Sverige og Norge i 1818 under navnet **Karl Johan** – og ga navn til Karl Johans gate i Oslo. Norsk har også mange lånord fra fransk, som *restaurant*, *butikk*, *sjåfør*, *trottoar* og *parfyme*.', '{"label":"Frankrike og francophonie","children":[{"label":"Frankrike","children":[{"label":"Paris"},{"label":"Seine, Loire, Rhône"},{"label":"Alpene og Pyreneene"},{"label":"Tre hav"}]},{"label":"Francophonie","children":[{"label":"Belgia og Sveits"},{"label":"Québec"},{"label":"Afrika"},{"label":"Haiti"}]},{"label":"Mat","children":[{"label":"baguette og croissant"},{"label":"fromage"},{"label":"crêpes"}]},{"label":"Tradisjoner","children":[{"label":"14 juillet"},{"label":"Chandeleur"},{"label":"poisson d''avril"},{"label":"Tour de France"}]},{"label":"Historie og kultur","children":[{"label":"Revolusjonen 1789"},{"label":"Eiffeltårnet og Louvre"},{"label":"Monet, Piaf, Astérix"},{"label":"Karl Johan"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'fransk-8:land-og-kultur';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('fransk-8:land-og-kultur', 'la France – Paris', 'Frankrike, med hovedstaden Paris', 0),
+  ('fransk-8:land-og-kultur', 'la francophonie', 'Fellesskapet av fransktalende land og mennesker', 1),
+  ('fransk-8:land-og-kultur', 'la Seine', 'Elva som renner gjennom Paris', 2),
+  ('fransk-8:land-og-kultur', 'le Mont Blanc', 'Det høyeste fjellet i Alpene', 3),
+  ('fransk-8:land-og-kultur', 'la baguette', 'Langt, sprøtt fransk brød', 4),
+  ('fransk-8:land-og-kultur', 'la boulangerie', 'bakeriet', 5),
+  ('fransk-8:land-og-kultur', 'le fromage', 'osten – Frankrike har flere hundre sorter', 6),
+  ('fransk-8:land-og-kultur', 'les crêpes', 'tynne pannekaker fra Bretagne', 7),
+  ('fransk-8:land-og-kultur', 'le 14 juillet', 'Frankrikes nasjonaldag', 8),
+  ('fransk-8:land-og-kultur', 'la Chandeleur', '2. februar, da man spiser crêpes', 9),
+  ('fransk-8:land-og-kultur', 'le poisson d''avril', 'Aprilspøk der man fester en papirfisk på ryggen til noen', 10),
+  ('fransk-8:land-og-kultur', 'Liberté, égalité, fraternité', 'Frihet, likhet, brorskap – Frankrikes motto', 11),
+  ('fransk-8:land-og-kultur', 'la tour Eiffel', 'Eiffeltårnet i Paris, bygd i 1889', 12),
+  ('fransk-8:land-og-kultur', 'le Tour de France', 'Verdens mest kjente sykkelritt', 13),
+  ('fransk-8:land-og-kultur', 'Karl Johan', 'Den franske marskalken Bernadotte, konge av Sverige og Norge fra 1818', 14);
+delete from public.quiz_sporsmal where tema_id = 'fransk-8:land-og-kultur';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('fransk-8:land-og-kultur', 'q01', 'flervalg', 'Hvilken elv renner gjennom Paris?', array['Loire', 'Rhône', 'Seinen', 'Rhinen']::text[], 2, 'Loire er kjent for slottene langs elvebredden.', true, true, 0),
+  ('fransk-8:land-og-kultur', 'q02', 'flervalg', 'Hva feirer franskmennene 14. juli?', array['Nasjonaldagen, til minne om stormingen av Bastillen i 1789', 'Jul', 'Nyttår', 'Påske']::text[], 0, 'Dagen feires med parade og fyrverkeri.', true, true, 1),
+  ('fransk-8:land-og-kultur', 'q03', 'flervalg', 'Hva betyr «la francophonie»?', array['Fransk musikk', 'Fellesskapet av fransktalende land og mennesker', 'En fransk telefon', 'Den franske revolusjonen']::text[], 1, 'Fransk snakkes på fem kontinenter.', true, true, 2),
+  ('fransk-8:land-og-kultur', 'q04', 'flervalg', 'Hva er «une boulangerie»?', array['En restaurant', 'En ostebutikk', 'En slakter', 'Et bakeri']::text[], 3, 'Her kjøper franskmenn fersk baguette hver dag.', true, true, 3),
+  ('fransk-8:land-og-kultur', 'q05', 'flervalg', 'Hva er Frankrikes motto?', array['Liberté, égalité, fraternité', 'Tout pour la France', 'Vive le roi', 'Un pour tous']::text[], 0, 'Mottoet stammer fra den franske revolusjonen.', true, true, 4),
+  ('fransk-8:land-og-kultur', 'q06', 'flervalg', 'Hva spiser man på la Chandeleur 2. februar?', array['Baguetter', 'Snegler', 'Crêpes', 'Ost']::text[], 2, 'De runde, gylne pannekakene minner om sola.', true, true, 5),
+  ('fransk-8:land-og-kultur', 'q07', 'flervalg', 'Hvilket land er ikke fransktalende?', array['Belgia', 'Senegal', 'Canada (Québec)', 'Portugal']::text[], 3, 'I Portugal snakker man portugisisk.', true, true, 6),
+  ('fransk-8:land-og-kultur', 'q08', 'flervalg', 'Hvilken franskmann ble konge av Sverige og Norge i 1818?', array['Napoléon', 'Jean-Baptiste Bernadotte (Karl Johan)', 'Louis XIV', 'Charles de Gaulle']::text[], 1, 'Karl Johans gate i Oslo er oppkalt etter ham.', true, true, 7),
+  ('fransk-8:land-og-kultur', 'q09', 'flervalg', 'Hva er Mont Blanc?', array['Det høyeste fjellet i Alpene', 'En by', 'En ost', 'Et slott']::text[], 0, 'Mont Blanc ligger på grensen mellom Frankrike og Italia.', true, false, 8),
+  ('fransk-8:land-og-kultur', 'q10', 'flervalg', 'Hva er Tour de France?', array['En fotballturnering', 'En musikkfestival', 'Et stort sykkelritt', 'En togtur']::text[], 2, 'Rittet arrangeres hver sommer og avsluttes i Paris.', true, false, 9),
+  ('fransk-8:land-og-kultur', 'm01', 'sant-usant', 'Mange norske ord, som «restaurant» og «sjåfør», kommer fra fransk.', array['Sant', 'Usant']::text[], 0, 'Fransk var lenge et viktig kulturspråk i Europa.', false, true, 10),
+  ('fransk-8:land-og-kultur', 'm02', 'sant-usant', 'Fransk snakkes bare i Frankrike.', array['Sant', 'Usant']::text[], 1, 'Fransk er offisielt språk i nesten 30 land.', false, true, 11),
+  ('fransk-8:land-og-kultur', 'm03', 'sant-usant', 'Eiffeltårnet ligger i Paris.', array['Sant', 'Usant']::text[], 0, 'Det ble bygd til verdensutstillingen i 1889.', false, true, 12),
+  ('fransk-8:land-og-kultur', 'm04', 'sant-usant', 'På «poisson d''avril» spiser man fisk til frokost.', array['Sant', 'Usant']::text[], 1, 'Det er en aprilspøk der man fester papirfisker på ryggen til folk.', false, true, 13),
+  ('fransk-8:land-og-kultur', 'm05', 'flervalg', 'Hva heter hovedstaden i Frankrike?', array['Lyon', 'Paris', 'Marseille', 'Bordeaux']::text[], 1, 'Paris er også landets største by.', false, true, 14),
+  ('fransk-8:land-og-kultur', 'm06', 'flervalg', 'Hvilket berømt maleri henger i Louvre?', array['Mona Lisa', 'Skrik', 'Solsikker', 'Nattevakten']::text[], 0, 'Mona Lisa er malt av Leonardo da Vinci.', false, true, 15),
+  ('fransk-8:land-og-kultur', 'm07', 'flervalg', 'Hvilken kjent tegneserie er fransk?', array['Donald Duck', 'Peanuts', 'Astérix', 'Garfield']::text[], 2, 'Astérix handler om en landsby i Gallia som kjemper mot romerne.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('fransk-8:land-og-kultur', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Spansk (8): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'spansk-8' and slug not in ('hilsener-og-presentasjon', 'tall-og-tid', 'familie-og-venner', 'skole-og-fritid', 'grammatikk-grunnlag', 'land-og-kultur');
+
+-- Spansk: Hilsener og presentasjon
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('spansk-8:hilsener-og-presentasjon', 'spansk-8', 'hilsener-og-presentasjon', 'Hilsener og presentasjon', 'Hvordan du hilser, presenterer deg selv og spør om navn, alder og bosted på spansk, når du bruker tú og usted, og de viktigste reglene for uttale og skrift.', array[2, 6]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('spansk-8:hilsener-og-presentasjon', '## Spansk i verden
+
+Spansk er morsmål for rundt 500 millioner mennesker – flere enn noe annet språk bortsett fra kinesisk. Det er offisielt språk i **Spania**, i de fleste land i **Latin-Amerika**, som **Mexico**, **Colombia**, **Argentina**, **Peru** og **Chile**, og i **Ekvatorial-Guinea** i Afrika – til sammen over 20 land. Landet med flest spansktalende er **Mexico**. Også i **USA** har mange millioner spansk som morsmål.
+
+## Hilsener
+
+- **¡Hola!** – Hei!
+- **¡Buenos días!** – God morgen! (til rundt klokka tolv)
+- **¡Buenas tardes!** – God ettermiddag! (til det blir mørkt)
+- **¡Buenas noches!** – God kveld! / God natt!
+- **¡Adiós!** – Ha det!
+- **¡Hasta luego!** – Vi ses! **¡Hasta mañana!** – Vi ses i morgen!
+
+I Spania hilser mange med **dos besos**, et kinnkyss på hver side.
+
+## Presentere seg selv
+
+- **¿Cómo te llamas?** – Hva heter du? – **Me llamo Nora.**
+- **¿Cuántos años tienes?** – Hvor gammel er du? – **Tengo trece años.** På spansk «har» man alderen sin: *tengo* betyr «jeg har».
+- **¿De dónde eres?** – Hvor er du fra? – **Soy de Noruega. Soy noruego / noruega.**
+- **¿Dónde vives?** – Hvor bor du? – **Vivo en Bergen.**
+- **¿Qué tal?** eller **¿Cómo estás?** – Hvordan går det? – **Muy bien, gracias.** / **Regular.** / **Mal.**
+- **Encantado / Encantada.** – Hyggelig å treffe deg.
+
+## Tú eller usted?
+
+- **tú** brukes til venner, familie og barn.
+- **usted** er høflighetsformen til voksne du ikke kjenner: *¿Cómo se llama usted?*
+
+## Uttale
+
+- Vokalene **a, e, i, o, u** uttales alltid klart og likt.
+- **h** er stum: *hola*.
+- **j**, og **g** foran e og i, uttales som en hard h-lyd bak i halsen: *jamón*, *gente*.
+- **ll** uttales i de fleste områder omtrent som norsk «j»: *me llamo*.
+- **ñ** uttales «nj»: *España*, *año*.
+- **z**, og **c** foran e og i, uttales i det meste av Spania som engelsk «th», men som «s» i Latin-Amerika: *gracias*.
+- **r** rulles, og **rr** rulles kraftig: *perro*.
+- **qu** uttales «k»: *¿qué?*
+
+## Skrift
+
+Spansk har **aksenter** som viser hvor trykket ligger: *adiós*, *también*. Spørsmål og utrop har et opp-ned-tegn i begynnelsen: **¿…?** og **¡…!**
+
+## Høflige småord
+
+**Por favor** (vær så snill), **gracias** (takk), **de nada** (bare hyggelig) og **perdón** eller **lo siento** (unnskyld).', '{"label":"Hilsener og presentasjon","children":[{"label":"Hilsener","children":[{"label":"¡Hola!"},{"label":"Buenos días / tardes / noches"},{"label":"¡Adiós! / ¡Hasta luego!"},{"label":"Dos besos"}]},{"label":"Om meg","children":[{"label":"Me llamo …"},{"label":"Tengo … años"},{"label":"Soy de …"},{"label":"Vivo en …"}]},{"label":"tú eller usted","children":[{"label":"tú","note":"Venner og familie"},{"label":"usted","note":"Høflig"}]},{"label":"Uttale","children":[{"label":"Klare vokaler"},{"label":"h er stum"},{"label":"j, ll, ñ"},{"label":"z og c"},{"label":"Rullende r"}]},{"label":"Skrift og høflighet","children":[{"label":"Aksenter"},{"label":"¿ og ¡"},{"label":"por favor, gracias, de nada"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'spansk-8:hilsener-og-presentasjon';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('spansk-8:hilsener-og-presentasjon', '¡Hola!', 'Hei!', 0),
+  ('spansk-8:hilsener-og-presentasjon', '¡Buenos días!', 'God morgen!', 1),
+  ('spansk-8:hilsener-og-presentasjon', '¡Buenas tardes!', 'God ettermiddag!', 2),
+  ('spansk-8:hilsener-og-presentasjon', '¡Buenas noches!', 'God kveld! / God natt!', 3),
+  ('spansk-8:hilsener-og-presentasjon', '¡Adiós! / ¡Hasta luego!', 'Ha det! / Vi ses!', 4),
+  ('spansk-8:hilsener-og-presentasjon', '¿Cómo te llamas?', 'Hva heter du?', 5),
+  ('spansk-8:hilsener-og-presentasjon', 'Me llamo …', 'Jeg heter …', 6),
+  ('spansk-8:hilsener-og-presentasjon', '¿Cuántos años tienes?', 'Hvor gammel er du?', 7),
+  ('spansk-8:hilsener-og-presentasjon', 'Tengo trece años.', 'Jeg er tretten år (bokstavelig: jeg har tretten år).', 8),
+  ('spansk-8:hilsener-og-presentasjon', '¿De dónde eres?', 'Hvor er du fra?', 9),
+  ('spansk-8:hilsener-og-presentasjon', 'Soy de Noruega.', 'Jeg er fra Norge.', 10),
+  ('spansk-8:hilsener-og-presentasjon', 'Vivo en …', 'Jeg bor i …', 11),
+  ('spansk-8:hilsener-og-presentasjon', '¿Qué tal?', 'Hvordan går det?', 12),
+  ('spansk-8:hilsener-og-presentasjon', 'tú / usted', 'du (uformelt) / De (høflig)', 13),
+  ('spansk-8:hilsener-og-presentasjon', 'Gracias / De nada', 'Takk / Bare hyggelig', 14),
+  ('spansk-8:hilsener-og-presentasjon', 'ñ', 'Uttales «nj», som i España', 15);
+delete from public.quiz_sporsmal where tema_id = 'spansk-8:hilsener-og-presentasjon';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('spansk-8:hilsener-og-presentasjon', 'q01', 'flervalg', 'Hva betyr «¿Cómo te llamas?»', array['Hvor bor du?', 'Hvor gammel er du?', 'Hvordan går det?', 'Hva heter du?']::text[], 3, 'Du svarer med «Me llamo …».', true, true, 0),
+  ('spansk-8:hilsener-og-presentasjon', 'q02', 'flervalg', 'Hvordan sier du «Jeg er tretten år» på spansk?', array['Soy trece años.', 'Tengo trece años.', 'Estoy trece años.', 'Me llamo trece.']::text[], 1, 'På spansk bruker man «tener» (å ha) om alder.', true, true, 1),
+  ('spansk-8:hilsener-og-presentasjon', 'q03', 'flervalg', 'Når sier du «¡Buenas noches!»?', array['Om morgenen', 'Midt på dagen', 'Om kvelden og natta', 'Aldri']::text[], 2, 'Hilsenen betyr både god kveld og god natt.', true, true, 2),
+  ('spansk-8:hilsener-og-presentasjon', 'q04', 'flervalg', 'Hva er spesielt med spørsmål og utrop på spansk?', array['De har et opp-ned-tegn i begynnelsen: ¿ og ¡', 'De skrives med store bokstaver', 'De har ingen tegn', 'De slutter alltid med punktum']::text[], 0, 'Tegnet viser at et spørsmål eller utrop begynner.', true, true, 3),
+  ('spansk-8:hilsener-og-presentasjon', 'q05', 'flervalg', 'Hvordan uttales «ñ» i «España»?', array['Som n', 'Som nj', 'Som ng', 'Den er stum']::text[], 1, '«España» uttales omtrent «espanja».', true, true, 4),
+  ('spansk-8:hilsener-og-presentasjon', 'q06', 'flervalg', 'Når bruker du «usted»?', array['Til venner', 'Til søsken', 'Til kjæledyr', 'Til voksne du ikke kjenner, for å være høflig']::text[], 3, '«usted» er høflighetsformen.', true, true, 5),
+  ('spansk-8:hilsener-og-presentasjon', 'q07', 'flervalg', 'Hvordan uttales «h» i «hola»?', array['Den er stum', 'Som norsk h', 'Som k', 'Som j']::text[], 0, '«hola» uttales omtrent «ola».', true, true, 6),
+  ('spansk-8:hilsener-og-presentasjon', 'q08', 'flervalg', 'Hva betyr «Soy de Noruega»?', array['Jeg bor i Norge', 'Jeg liker Norge', 'Jeg er fra Norge', 'Norge er fint']::text[], 2, '«ser de» brukes om hvor man kommer fra.', true, true, 7),
+  ('spansk-8:hilsener-og-presentasjon', 'q09', 'flervalg', 'Hva svarer du når noen sier «Gracias»?', array['Por favor', 'Hola', 'Adiós', 'De nada']::text[], 3, '«De nada» betyr «bare hyggelig».', true, false, 8),
+  ('spansk-8:hilsener-og-presentasjon', 'q10', 'flervalg', 'Hvordan uttales «j» i «jamón»?', array['Som norsk j', 'Som en hard h-lyd bak i halsen', 'Som sj', 'Den er stum']::text[], 1, 'Lyden ligner den tyske ch-lyden i «Bach».', true, false, 9),
+  ('spansk-8:hilsener-og-presentasjon', 'm01', 'sant-usant', 'Spansk er offisielt språk i over 20 land.', array['Sant', 'Usant']::text[], 0, 'De fleste av dem ligger i Latin-Amerika.', false, true, 10),
+  ('spansk-8:hilsener-og-presentasjon', 'm02', 'sant-usant', 'På spansk sier man «Soy trece años» om alderen sin.', array['Sant', 'Usant']::text[], 1, 'Det heter «Tengo trece años».', false, true, 11),
+  ('spansk-8:hilsener-og-presentasjon', 'm03', 'sant-usant', '«ll» uttales i de fleste områder omtrent som norsk j.', array['Sant', 'Usant']::text[], 0, '«me llamo» uttales omtrent «me jamo».', false, true, 12),
+  ('spansk-8:hilsener-og-presentasjon', 'm04', 'sant-usant', 'I hele den spansktalende verden uttales z som engelsk «th».', array['Sant', 'Usant']::text[], 1, 'Det gjelder det meste av Spania. I Latin-Amerika uttales z som s.', false, true, 13),
+  ('spansk-8:hilsener-og-presentasjon', 'm05', 'flervalg', 'Hva betyr «¿Qué tal?»?', array['Hva heter du?', 'Hvordan går det?', 'Hvor er du?', 'Hva er det?']::text[], 1, 'Du kan svare «Muy bien, gracias».', false, true, 14),
+  ('spansk-8:hilsener-og-presentasjon', 'm06', 'flervalg', 'Hvilket land har flest spansktalende?', array['Mexico', 'Spania', 'Argentina', 'Colombia']::text[], 0, 'Mexico har over 120 millioner innbyggere.', false, true, 15),
+  ('spansk-8:hilsener-og-presentasjon', 'm07', 'flervalg', 'Hva betyr «Encantado» eller «Encantada»?', array['Unnskyld', 'Ha det', 'Hyggelig å treffe deg', 'Takk for maten']::text[], 2, 'Gutter sier «encantado», jenter sier «encantada».', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('spansk-8:hilsener-og-presentasjon', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Spansk: Tall, dager og klokka
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('spansk-8:tall-og-tid', 'spansk-8', 'tall-og-tid', 'Tall, dager og klokka', 'Tallene på spansk, ukedager, måneder og årstider, datoen og bursdagen din, og hvordan du spør om og sier hva klokka er.', array[6, 1]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('spansk-8:tall-og-tid', '## Tallene 0–20
+
+0 **cero**, 1 **uno**, 2 **dos**, 3 **tres**, 4 **cuatro**, 5 **cinco**, 6 **seis**, 7 **siete**, 8 **ocho**, 9 **nueve**, 10 **diez**, 11 **once**, 12 **doce**, 13 **trece**, 14 **catorce**, 15 **quince**, 16 **dieciséis**, 17 **diecisiete**, 18 **dieciocho**, 19 **diecinueve**, 20 **veinte**.
+
+## Tallene over 20
+
+- 21–29 skrives i ett ord: **veintiuno**, **veintidós**, **veintitrés** …
+- 30 **treinta**, 40 **cuarenta**, 50 **cincuenta**, 60 **sesenta**, 70 **setenta**, 80 **ochenta**, 90 **noventa**
+- Fra 31 brukes **y** (og): **treinta y uno**, **cuarenta y cinco**
+- 100 **cien**, 101 **ciento uno**
+
+## Ukedagene
+
+**lunes** (mandag), **martes** (tirsdag), **miércoles** (onsdag), **jueves** (torsdag), **viernes** (fredag), **sábado** (lørdag) og **domingo** (søndag). På spansk skrives ukedager og måneder med **liten forbokstav**. **El lunes** betyr «på mandag», og **los lunes** betyr «på mandager».
+
+## Måneder og årstider
+
+**enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, octubre, noviembre, diciembre.** «I mai» heter **en mayo**. Årstidene er **la primavera** (våren), **el verano** (sommeren), **el otoño** (høsten) og **el invierno** (vinteren). I land på den sørlige halvkule, som **Argentina** og **Chile**, er årstidene omvendt: Der er det sommer i desember og januar.
+
+## Datoen
+
+- **¿Qué fecha es hoy?** – Hvilken dato er det i dag? – **Hoy es el dos de marzo.**
+- **Mi cumpleaños es el tres de marzo.** – Bursdagen min er 3. mars.
+
+## Hva er klokka?
+
+**¿Qué hora es?** – Hva er klokka?
+
+- 1.00: **Es la una.** (entall, fordi det er ett)
+- 2.00: **Son las dos.** (flertall fra to og oppover)
+- 8.10: **Son las ocho y diez.**
+- 8.15: **Son las ocho y cuarto.**
+- 8.30: **Son las ocho y media.** Spansk sier «åtte og en halv», ikke «halv ni».
+- 8.45: **Son las nueve menos cuarto.** (ni minus et kvarter)
+
+Når du sier når noe skjer, bruker du **a**: *La clase empieza **a las** ocho.* – Timen begynner klokka åtte. Du kan legge til **de la mañana** (om morgenen), **de la tarde** (om ettermiddagen) eller **de la noche** (om kvelden).
+
+## Tips
+
+Tall er lettere å huske når du bruker dem. Si telefonnummeret ditt, bursdagen din og klokkeslett høyt på spansk, og lytt etter tall i sanger og videoer.', '{"label":"Tall og tid","children":[{"label":"Tall","children":[{"label":"0–20"},{"label":"veintiuno i ett ord"},{"label":"treinta y uno"},{"label":"cien"}]},{"label":"Ukedager","children":[{"label":"lunes–domingo"},{"label":"Liten forbokstav"},{"label":"el lunes / los lunes"}]},{"label":"Måneder og årstider","children":[{"label":"enero–diciembre"},{"label":"en mayo"},{"label":"Omvendte årstider i sør"}]},{"label":"Dato","children":[{"label":"el dos de marzo"},{"label":"cumpleaños"}]},{"label":"Klokka","children":[{"label":"¿Qué hora es?"},{"label":"Es la una / Son las dos"},{"label":"y cuarto / y media"},{"label":"menos cuarto"},{"label":"a las ocho"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'spansk-8:tall-og-tid';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('spansk-8:tall-og-tid', 'once', '11', 0),
+  ('spansk-8:tall-og-tid', 'quince', '15', 1),
+  ('spansk-8:tall-og-tid', 'dieciséis', '16', 2),
+  ('spansk-8:tall-og-tid', 'veinte', '20', 3),
+  ('spansk-8:tall-og-tid', 'veintiuno', '21 – skrives i ett ord', 4),
+  ('spansk-8:tall-og-tid', 'treinta y uno', '31', 5),
+  ('spansk-8:tall-og-tid', 'cincuenta', '50', 6),
+  ('spansk-8:tall-og-tid', 'cien', '100', 7),
+  ('spansk-8:tall-og-tid', 'lunes', 'mandag', 8),
+  ('spansk-8:tall-og-tid', 'miércoles', 'onsdag', 9),
+  ('spansk-8:tall-og-tid', 'sábado', 'lørdag', 10),
+  ('spansk-8:tall-og-tid', 'julio', 'juli', 11),
+  ('spansk-8:tall-og-tid', 'la primavera', 'våren', 12),
+  ('spansk-8:tall-og-tid', '¿Qué hora es?', 'Hva er klokka?', 13),
+  ('spansk-8:tall-og-tid', 'Es la una.', 'Klokka er ett.', 14),
+  ('spansk-8:tall-og-tid', 'Son las ocho y media.', 'Klokka er halv ni (8.30).', 15),
+  ('spansk-8:tall-og-tid', 'Son las nueve menos cuarto.', 'Klokka er kvart på ni (8.45).', 16);
+delete from public.quiz_sporsmal where tema_id = 'spansk-8:tall-og-tid';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('spansk-8:tall-og-tid', 'q01', 'flervalg', 'Hvordan sier du 31 på spansk?', array['treintauno', 'treinta uno', 'treinta y uno', 'uno y treinta']::text[], 2, 'Fra 31 skrives tallene med «y» (og).', true, true, 0),
+  ('spansk-8:tall-og-tid', 'q02', 'flervalg', 'Hva betyr «Son las ocho y media»?', array['Klokka er halv ni (8.30)', 'Klokka er halv åtte', 'Klokka er kvart over åtte', 'Klokka er åtte']::text[], 0, 'Spansk sier «åtte og en halv».', true, true, 1),
+  ('spansk-8:tall-og-tid', 'q03', 'flervalg', 'Hvilken ukedag er «miércoles»?', array['Mandag', 'Tirsdag', 'Torsdag', 'Onsdag']::text[], 3, 'Torsdag heter «jueves».', true, true, 2),
+  ('spansk-8:tall-og-tid', 'q04', 'flervalg', 'Hvordan spør du hva klokka er?', array['¿Cuántos años tienes?', '¿Qué hora es?', '¿Dónde vives?', '¿Qué tal?']::text[], 1, '«hora» betyr time eller klokkeslett.', true, true, 3),
+  ('spansk-8:tall-og-tid', 'q05', 'flervalg', 'Hvorfor heter det «Es la una», men «Son las dos»?', array['Fordi det er morgen', 'Fordi det er natt', 'Fordi to er et partall', 'Fordi ett er entall og de andre er flertall']::text[], 3, 'Verbet bøyes etter antall timer.', true, true, 4),
+  ('spansk-8:tall-og-tid', 'q06', 'flervalg', 'Hva betyr «las nueve menos cuarto»?', array['Kvart over ni', 'Halv ni', 'Kvart på ni', 'Ni kvarter']::text[], 2, '«menos» betyr minus.', true, true, 5),
+  ('spansk-8:tall-og-tid', 'q07', 'flervalg', 'Hvordan skrives ukedager og måneder på spansk?', array['Med liten forbokstav', 'Med stor forbokstav', 'Alltid med aksent', 'Alltid i flertall']::text[], 0, 'Som på norsk skrives de med liten forbokstav.', true, true, 6),
+  ('spansk-8:tall-og-tid', 'q08', 'flervalg', 'Hva er 100 på spansk?', array['ciento', 'cien', 'cento', 'mil']::text[], 1, '«cien» brukes om akkurat hundre. 101 heter «ciento uno».', true, true, 7),
+  ('spansk-8:tall-og-tid', 'q09', 'flervalg', 'Når er det sommer i Argentina og Chile?', array['I juni og juli', 'Hele året', 'I desember og januar', 'Aldri']::text[], 2, 'Landene ligger på den sørlige halvkule.', true, false, 8),
+  ('spansk-8:tall-og-tid', 'q10', 'flervalg', 'Hvordan sier du «klokka åtte» når du forteller når noe skjer?', array['en las ocho', 'son ocho', 'de las ocho', 'a las ocho']::text[], 3, 'For eksempel: «Como a las ocho».', true, false, 9),
+  ('spansk-8:tall-og-tid', 'm01', 'sant-usant', 'Tallene fra 16 til 29 skrives i ett ord på spansk, som «dieciséis» og «veintidós».', array['Sant', 'Usant']::text[], 0, 'Fra 31 skrives de i flere ord med «y».', false, true, 10),
+  ('spansk-8:tall-og-tid', 'm02', 'sant-usant', '«sábado» betyr søndag.', array['Sant', 'Usant']::text[], 1, '«sábado» er lørdag. Søndag heter «domingo».', false, true, 11),
+  ('spansk-8:tall-og-tid', 'm03', 'sant-usant', '«el lunes» betyr på mandag.', array['Sant', 'Usant']::text[], 0, 'På spansk bruker man artikkel foran ukedager.', false, true, 12),
+  ('spansk-8:tall-og-tid', 'm04', 'sant-usant', '«quince» betyr 50.', array['Sant', 'Usant']::text[], 1, '«quince» er 15. 50 heter «cincuenta».', false, true, 13),
+  ('spansk-8:tall-og-tid', 'm05', 'flervalg', 'Hva betyr «Mi cumpleaños es el tres de marzo»?', array['Jeg er tre år', 'Bursdagen min er 3. mars', 'Det er tre dager til mars', 'Mars er yndlingsmåneden min']::text[], 1, '«cumpleaños» betyr bursdag.', false, true, 14),
+  ('spansk-8:tall-og-tid', 'm06', 'flervalg', 'Hvilken årstid er «el otoño»?', array['Høsten', 'Våren', 'Sommeren', 'Vinteren']::text[], 0, 'Ordet ligner det engelske «autumn».', false, true, 15),
+  ('spansk-8:tall-og-tid', 'm07', 'flervalg', 'Hva betyr «Son las ocho y cuarto»?', array['Kvart på åtte', 'Halv åtte', 'Kvart over åtte', 'Åtte minutter over']::text[], 2, '«y cuarto» betyr og et kvarter.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('spansk-8:tall-og-tid', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Spansk: Familie og venner
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('spansk-8:familie-og-venner', 'spansk-8', 'familie-og-venner', 'Familie og venner', 'Ord for familie, venner og kjæledyr på spansk, eiendomsordene mi og mis, verbet tener, hvordan du beskriver utseende og personlighet, og spanske etternavn.', array[3, 5]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('spansk-8:familie-og-venner', '## Familien – la familia
+
+- **el padre** – faren, **la madre** – moren, **los padres** – foreldrene
+- **el hermano** – broren, **la hermana** – søsteren, **los hermanos** – brødrene eller søsknene
+- **el abuelo** – bestefaren, **la abuela** – bestemoren, **los abuelos** – besteforeldrene
+- **el tío** – onkelen, **la tía** – tanten
+- **el primo** – fetteren, **la prima** – kusinen
+- **el hijo** – sønnen, **la hija** – datteren
+- **la mascota** – kjæledyret, for eksempel **el perro** (hunden) og **el gato** (katten)
+
+Hankjønn slutter ofte på **-o** og hunkjønn på **-a**. I flertall brukes hankjønnsformen om en blandet gruppe: *los hermanos* kan bety både «brødrene» og «søsknene».
+
+## Min, din, hans
+
+- **mi** padre, **mi** madre – **mis** padres (min, mine)
+- **tu** hermano – **tus** hermanos (din, dine)
+- **su** abuelo – **sus** abuelos (hans, hennes, deres)
+
+## Jeg har …
+
+Med verbet **tener** (å ha):
+
+- **Tengo un hermano y una hermana.** – Jeg har en bror og en søster.
+- **Tengo un perro.** – Jeg har en hund.
+- **No tengo hermanos.** – Jeg har ingen søsken. Nektelse lages ved å sette **no** foran verbet.
+
+## Beskrive personer
+
+Adjektiver **bøyes** etter kjønn og tall, og de står som regel **etter** substantivet: *un perro negro* (en svart hund).
+
+- **Es alto. Es alta.** – Han/hun er høy. **Es bajo / baja.** – Han/hun er lav.
+- **simpático / simpática** (hyggelig), **divertido / divertida** (morsom), **tímido / tímida** (sjenert)
+- Adjektiver som slutter på **-e** eller en konsonant, har samme form for begge kjønn: *inteligente*, *joven*. Det gjelder også *deportista*.
+- **Tiene el pelo largo / corto / rubio / moreno.** – Hun/han har langt / kort / lyst / mørkt hår.
+- **Tiene los ojos azules / verdes / marrones.** – Hun/han har blå / grønne / brune øyne.
+
+## Venner
+
+**el amigo / la amiga** betyr venn og venninne. **Mi mejor amigo se llama Jonas. Mi mejor amiga se llama Lucía.** **el novio / la novia** betyr kjæreste.
+
+## To etternavn
+
+I Spania og Latin-Amerika har de fleste **to etternavn**: det første etternavnet til faren og det første etternavnet til moren, for eksempel *María García López*.
+
+## En kort tekst
+
+*Esta es mi familia. Vivimos en Trondheim. Mi padre se llama Lars. Tiene cuarenta y cinco años y es muy divertido. Mi madre se llama Ingrid. Es simpática y deportista. Tengo un hermano y una hermana. También tenemos un perro. Se llama Max.*', '{"label":"Familie og venner","children":[{"label":"Nær familie","children":[{"label":"padre, madre, padres"},{"label":"hermano, hermana"},{"label":"hijo, hija"}]},{"label":"Mer familie","children":[{"label":"abuelos"},{"label":"tío, tía"},{"label":"primo, prima"},{"label":"perro, gato"}]},{"label":"Grammatikk","children":[{"label":"mi / mis"},{"label":"Tengo un / una …"},{"label":"no foran verbet"}]},{"label":"Beskrive","children":[{"label":"alto / alta"},{"label":"simpático, divertido"},{"label":"pelo og ojos"}]},{"label":"Venner og navn","children":[{"label":"amigo, amiga"},{"label":"mi mejor amigo"},{"label":"To etternavn"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'spansk-8:familie-og-venner';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('spansk-8:familie-og-venner', 'el padre / la madre', 'faren / moren', 0),
+  ('spansk-8:familie-og-venner', 'los padres', 'foreldrene', 1),
+  ('spansk-8:familie-og-venner', 'el hermano / la hermana', 'broren / søsteren', 2),
+  ('spansk-8:familie-og-venner', 'los hermanos', 'brødrene, eller søsknene', 3),
+  ('spansk-8:familie-og-venner', 'los abuelos', 'besteforeldrene', 4),
+  ('spansk-8:familie-og-venner', 'el tío / la tía', 'onkelen / tanten', 5),
+  ('spansk-8:familie-og-venner', 'el primo / la prima', 'fetteren / kusinen', 6),
+  ('spansk-8:familie-og-venner', 'el perro / el gato', 'hunden / katten', 7),
+  ('spansk-8:familie-og-venner', 'mi / mis', 'min, mitt / mine', 8),
+  ('spansk-8:familie-og-venner', 'Tengo un hermano.', 'Jeg har en bror.', 9),
+  ('spansk-8:familie-og-venner', 'No tengo hermanos.', 'Jeg har ingen søsken.', 10),
+  ('spansk-8:familie-og-venner', 'simpático / simpática', 'hyggelig', 11),
+  ('spansk-8:familie-og-venner', 'divertido / divertida', 'morsom', 12),
+  ('spansk-8:familie-og-venner', 'Tiene los ojos azules.', 'Han/hun har blå øyne.', 13),
+  ('spansk-8:familie-og-venner', 'mi mejor amigo', 'min beste venn', 14),
+  ('spansk-8:familie-og-venner', 'el novio / la novia', 'kjæresten', 15);
+delete from public.quiz_sporsmal where tema_id = 'spansk-8:familie-og-venner';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('spansk-8:familie-og-venner', 'q01', 'flervalg', 'Hva betyr «los abuelos»?', array['Besteforeldrene', 'Foreldrene', 'Søsknene', 'Kusinene']::text[], 0, '«abuelo» betyr bestefar.', true, true, 0),
+  ('spansk-8:familie-og-venner', 'q02', 'flervalg', 'Hva heter «foreldrene» på spansk?', array['los hermanos', 'los abuelos', 'los primos', 'los padres']::text[], 3, '«los padres» kan også bety fedrene, men betyr som regel foreldrene.', true, true, 1),
+  ('spansk-8:familie-og-venner', 'q03', 'flervalg', 'Hvilken form er riktig?', array['mis madre', 'mi madre', 'mía madre', 'mi madres']::text[], 1, '«mi» brukes foran ord i entall.', true, true, 2),
+  ('spansk-8:familie-og-venner', 'q04', 'flervalg', 'Hvordan sier du «Jeg har en søster»?', array['Soy una hermana.', 'Estoy una hermana.', 'Tengo una hermana.', 'Tengo un hermana.']::text[], 2, '«hermana» er hunkjønn og får «una».', true, true, 3),
+  ('spansk-8:familie-og-venner', 'q05', 'flervalg', 'Hvordan blir «alto» når det beskriver en jente?', array['alto', 'altos', 'alta', 'altas']::text[], 2, 'Hunkjønnsformen slutter på -a.', true, true, 4),
+  ('spansk-8:familie-og-venner', 'q06', 'flervalg', 'Hva betyr «No tengo hermanos»?', array['Jeg har ingen søsken', 'Jeg har mange søsken', 'Brødrene mine er høye', 'Jeg har en bror']::text[], 0, '«no» foran verbet gjør setningen nektende.', true, true, 5),
+  ('spansk-8:familie-og-venner', 'q07', 'flervalg', 'Hva betyr «divertido»?', array['Sjenert', 'Høy', 'Trist', 'Morsom']::text[], 3, 'Sjenert heter «tímido».', true, true, 6),
+  ('spansk-8:familie-og-venner', 'q08', 'flervalg', 'Hvordan sier du «Hun har blå øyne»?', array['Es los ojos azules.', 'Tiene los ojos azules.', 'Tengo los ojos azules.', 'Tiene azules ojos.']::text[], 1, '«tiene» betyr «hun/han har».', true, true, 7),
+  ('spansk-8:familie-og-venner', 'q09', 'flervalg', 'Hvor mange etternavn har de fleste i Spania og Latin-Amerika?', array['To – ett fra faren og ett fra moren', 'Ett', 'Tre', 'Ingen']::text[], 0, 'For eksempel María García López.', true, false, 8),
+  ('spansk-8:familie-og-venner', 'q10', 'flervalg', 'Hva betyr «la novia»?', array['Kusinen', 'Tanten', 'Kjæresten', 'Bestemoren']::text[], 2, '«el novio» er en gutt som er kjæreste.', true, false, 9),
+  ('spansk-8:familie-og-venner', 'm01', 'sant-usant', '«los hermanos» kan bety både brødrene og søsknene.', array['Sant', 'Usant']::text[], 0, 'Hankjønnsformen brukes om blandede grupper.', false, true, 10),
+  ('spansk-8:familie-og-venner', 'm02', 'sant-usant', '«el perro» betyr katten.', array['Sant', 'Usant']::text[], 1, '«el perro» er hunden, og «el gato» er katten.', false, true, 11),
+  ('spansk-8:familie-og-venner', 'm03', 'sant-usant', '«inteligente» har samme form for gutter og jenter.', array['Sant', 'Usant']::text[], 0, 'Adjektiver på -e bøyes ikke i kjønn.', false, true, 12),
+  ('spansk-8:familie-og-venner', 'm04', 'sant-usant', 'Adjektiver står alltid foran substantivet på spansk.', array['Sant', 'Usant']::text[], 1, 'De fleste adjektiver står etter substantivet.', false, true, 13),
+  ('spansk-8:familie-og-venner', 'm05', 'flervalg', 'Hva betyr «el tío»?', array['Fetteren', 'Onkelen', 'Bestefaren', 'Broren']::text[], 1, 'Tanten heter «la tía».', false, true, 14),
+  ('spansk-8:familie-og-venner', 'm06', 'flervalg', 'Hvilket ord passer: «… padres son simpáticos»?', array['Mi', 'Mía', 'Mis', 'Tu mi']::text[], 2, '«padres» står i flertall, derfor «mis».', false, true, 15),
+  ('spansk-8:familie-og-venner', 'm07', 'flervalg', 'Hva betyr «Mi mejor amiga se llama Lucía»?', array['Min beste venninne heter Lucía', 'Søsteren min heter Lucía', 'Lucía er snill', 'Lucía bor her']::text[], 0, '«mejor» betyr beste.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('spansk-8:familie-og-venner', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Spansk: Skole og fritid
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('spansk-8:skole-og-fritid', 'spansk-8', 'skole-og-fritid', 'Skole og fritid', 'Skolefag, meninger og fritidsaktiviteter på spansk, hvordan du bruker gustar for å si hva du liker, forskjellen på jugar og tocar, og hvordan skolen er i Spania.', array[2, 3]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('spansk-8:skole-og-fritid', '## Skolefag – las asignaturas
+
+**las matemáticas** (ofte *las mates*), **el español**, **el inglés**, **el noruego**, **la historia**, **la geografía**, **las ciencias naturales** (naturfag), **la música**, **la plástica** (kunst og håndverk) og **la educación física** (kroppsøving).
+
+- **Mi asignatura favorita es el inglés.** – Yndlingsfaget mitt er engelsk.
+- **Es interesante / aburrido / fácil / difícil.** – Det er interessant / kjedelig / lett / vanskelig.
+
+I klasserommet: **el profesor / la profesora** (læreren), **el alumno / la alumna** (eleven), **el cuaderno** (skriveboka), **el bolígrafo** (kulepennen), **el lápiz** (blyanten) og **la mochila** (sekken).
+
+## Å like – gustar
+
+Spansk bruker verbet **gustar** når man sier hva man liker. Det betyr egentlig at noe «behager» en:
+
+- **Me gusta el inglés.** – Jeg liker engelsk. (entall → *gusta*)
+- **Me gustan las matemáticas.** – Jeg liker matte. (flertall → *gustan*)
+- **No me gusta la historia.** – Jeg liker ikke historie.
+- **Me encanta la música.** – Jeg elsker musikk.
+- **Me gusta leer.** – Jeg liker å lese. (med infinitiv → *gusta*)
+- **¿Te gusta nadar?** – Liker du å svømme?
+
+## Fritid – el tiempo libre
+
+- **nadar** – svømme, **leer** – lese, **dibujar** – tegne, **bailar** – danse, **cantar** – synge
+- **escuchar música** – høre på musikk
+- **ver series** – se serier
+- **montar en bici** – sykle
+- **salir con amigos** – gå ut med venner
+- **jugar a los videojuegos** – spille dataspill
+
+## Jugar eller tocar?
+
+- Om **sport og spill** bruker du **jugar a**: *jugar **al** fútbol*, *jugar **al** baloncesto*.
+- Om **instrumenter** bruker du **tocar**: *tocar la guitarra*, *tocar el piano*.
+
+## Hvor ofte?
+
+**siempre** (alltid), **a menudo** (ofte), **a veces** (noen ganger) og **nunca** (aldri). **Los fines de semana** betyr i helgene.
+
+## Skolen i Spania
+
+Elevene går på **la escuela primaria** fra de er 6 til 12 år, og deretter på den obligatoriske ungdomsskolen **la ESO** (*Educación Secundaria Obligatoria*) fra 12 til 16 år. Etter det kan de ta **el Bachillerato**, som forbereder til universitetet. Karakterene gis ofte på en skala fra **0 til 10**, der **5** er bestått. I Spania spiser mange lunsj sent, rundt klokka to eller tre.', '{"label":"Skole og fritid","children":[{"label":"Fag","children":[{"label":"matemáticas, inglés"},{"label":"educación física, música"},{"label":"asignatura favorita"}]},{"label":"gustar","children":[{"label":"Me gusta + entall"},{"label":"Me gustan + flertall"},{"label":"No me gusta"},{"label":"Me encanta"}]},{"label":"Fritid","children":[{"label":"nadar, leer"},{"label":"dibujar, bailar"},{"label":"salir con amigos"}]},{"label":"jugar eller tocar","children":[{"label":"jugar al fútbol"},{"label":"tocar la guitarra"},{"label":"a veces, nunca"}]},{"label":"Skolen i Spania","children":[{"label":"Primaria og ESO"},{"label":"Bachillerato"},{"label":"Karakter 0–10"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'spansk-8:skole-og-fritid';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('spansk-8:skole-og-fritid', 'mi asignatura favorita', 'yndlingsfaget mitt', 0),
+  ('spansk-8:skole-og-fritid', 'las matemáticas', 'matte', 1),
+  ('spansk-8:skole-og-fritid', 'la educación física', 'kroppsøving', 2),
+  ('spansk-8:skole-og-fritid', 'la historia', 'historie', 3),
+  ('spansk-8:skole-og-fritid', 'aburrido / aburrida', 'kjedelig', 4),
+  ('spansk-8:skole-og-fritid', 'fácil / difícil', 'lett / vanskelig', 5),
+  ('spansk-8:skole-og-fritid', 'el profesor / la profesora', 'læreren', 6),
+  ('spansk-8:skole-og-fritid', 'Me gusta leer.', 'Jeg liker å lese.', 7),
+  ('spansk-8:skole-og-fritid', 'Me gustan los deportes.', 'Jeg liker sport. (flertall → gustan)', 8),
+  ('spansk-8:skole-og-fritid', 'No me gusta nadar.', 'Jeg liker ikke å svømme.', 9),
+  ('spansk-8:skole-og-fritid', 'Me encanta la música.', 'Jeg elsker musikk.', 10),
+  ('spansk-8:skole-og-fritid', 'jugar al fútbol', 'spille fotball', 11),
+  ('spansk-8:skole-og-fritid', 'tocar la guitarra', 'spille gitar', 12),
+  ('spansk-8:skole-og-fritid', 'dibujar', 'å tegne', 13),
+  ('spansk-8:skole-og-fritid', 'los fines de semana', 'i helgene', 14),
+  ('spansk-8:skole-og-fritid', 'a veces / nunca', 'noen ganger / aldri', 15),
+  ('spansk-8:skole-og-fritid', 'la ESO', 'den obligatoriske ungdomsskolen i Spania, 12–16 år', 16);
+delete from public.quiz_sporsmal where tema_id = 'spansk-8:skole-og-fritid';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('spansk-8:skole-og-fritid', 'q01', 'flervalg', 'Hvordan sier du «Jeg liker å lese»?', array['Yo gusto leer.', 'Me gusta leer.', 'Me gustan leer.', 'Gusto leer.']::text[], 1, 'Med «gustar» sier man «me gusta» + infinitiv.', true, true, 0),
+  ('spansk-8:skole-og-fritid', 'q02', 'flervalg', 'Hvilken setning er riktig?', array['Me gusta las matemáticas.', 'Me gusto las matemáticas.', 'Yo gustan las matemáticas.', 'Me gustan las matemáticas.']::text[], 3, '«las matemáticas» er flertall, derfor «gustan».', true, true, 1),
+  ('spansk-8:skole-og-fritid', 'q03', 'flervalg', 'Hva betyr «aburrido»?', array['Kjedelig', 'Morsom', 'Lett', 'Vanskelig']::text[], 0, 'Morsom heter «divertido».', true, true, 2),
+  ('spansk-8:skole-og-fritid', 'q04', 'flervalg', 'Hvordan sier du «spille gitar»?', array['jugar la guitarra', 'jugar a la guitarra', 'tocar la guitarra', 'hacer la guitarra']::text[], 2, 'Med instrumenter bruker man «tocar».', true, true, 3),
+  ('spansk-8:skole-og-fritid', 'q05', 'flervalg', 'Hvordan sier du «spille fotball»?', array['jugar al fútbol', 'tocar el fútbol', 'hacer fútbol', 'jugar el fútbol a']::text[], 0, 'Med sport bruker man «jugar a», og «a + el» blir «al».', true, true, 4),
+  ('spansk-8:skole-og-fritid', 'q06', 'flervalg', 'Hva betyr «Me encanta la música»?', array['Jeg liker ikke musikk', 'Musikk er kjedelig', 'Jeg spiller musikk', 'Jeg elsker musikk']::text[], 3, '«encantar» er sterkere enn «gustar».', true, true, 5),
+  ('spansk-8:skole-og-fritid', 'q07', 'flervalg', 'Hva heter faget kroppsøving på spansk?', array['la plástica', 'la educación física', 'la música', 'la historia']::text[], 1, '«la plástica» er kunst og håndverk.', true, true, 6),
+  ('spansk-8:skole-og-fritid', 'q08', 'flervalg', 'Hva betyr «a veces»?', array['Alltid', 'Aldri', 'Noen ganger', 'Ofte']::text[], 2, '«siempre» betyr alltid, og «nunca» betyr aldri.', true, true, 7),
+  ('spansk-8:skole-og-fritid', 'q09', 'flervalg', 'Hvilken karakterskala brukes ofte i spanske skoler?', array['1 til 6', 'A til F', '0 til 20', '0 til 10']::text[], 3, '5 regnes som bestått.', true, false, 8),
+  ('spansk-8:skole-og-fritid', 'q10', 'flervalg', 'Hva betyr «los fines de semana»?', array['I helgene', 'På mandager', 'I ferien', 'Om kveldene']::text[], 0, '«el fin de semana» betyr helgen.', true, false, 9),
+  ('spansk-8:skole-og-fritid', 'm01', 'sant-usant', 'Med «gustar» sier man egentlig at noe «behager» en.', array['Sant', 'Usant']::text[], 0, 'Derfor bøyes verbet etter det man liker.', false, true, 10),
+  ('spansk-8:skole-og-fritid', 'm02', 'sant-usant', '«nunca» betyr alltid.', array['Sant', 'Usant']::text[], 1, '«nunca» betyr aldri. Alltid heter «siempre».', false, true, 11),
+  ('spansk-8:skole-og-fritid', 'm03', 'sant-usant', 'ESO er den obligatoriske ungdomsskolen i Spania.', array['Sant', 'Usant']::text[], 0, 'Elevene går der fra de er 12 til 16 år.', false, true, 12),
+  ('spansk-8:skole-og-fritid', 'm04', 'sant-usant', 'Man sier «jugar la guitarra» om å spille gitar.', array['Sant', 'Usant']::text[], 1, 'Det heter «tocar la guitarra».', false, true, 13),
+  ('spansk-8:skole-og-fritid', 'm05', 'flervalg', 'Hva betyr «dibujar»?', array['Å danse', 'Å tegne', 'Å svømme', 'Å synge']::text[], 1, 'Å danse heter «bailar».', false, true, 14),
+  ('spansk-8:skole-og-fritid', 'm06', 'flervalg', 'Hva betyr «¿Te gusta el inglés?»?', array['Liker du engelsk?', 'Snakker du engelsk?', 'Er du engelsk?', 'Har du engelsk i dag?']::text[], 0, '«te gusta» betyr «du liker».', false, true, 15),
+  ('spansk-8:skole-og-fritid', 'm07', 'flervalg', 'Hva betyr «Es difícil»?', array['Det er lett', 'Det er morsomt', 'Det er vanskelig', 'Det er kjedelig']::text[], 2, 'Lett heter «fácil».', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('spansk-8:skole-og-fritid', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Spansk: Grammatikk – grunnlaget
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('spansk-8:grammatikk-grunnlag', 'spansk-8', 'grammatikk-grunnlag', 'Grammatikk – grunnlaget', 'Kjønn og artikler, flertall, personlige pronomen, regelrette verb i presens, forskjellen på ser og estar, verbet tener, nektelse, spørreord og adjektiver.', array[6]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('spansk-8:grammatikk-grunnlag', '## To kjønn – el og la
+
+Spanske substantiver er enten **hankjønn** eller **hunkjønn**:
+
+- **el** – hankjønn, ofte ord på **-o**: *el libro* (boka), *el perro*
+- **la** – hunkjønn, ofte ord på **-a**: *la casa* (huset), *la mesa*
+- I flertall: **los** libros, **las** casas
+- Ubestemt artikkel: **un** libro, **una** casa, **unos** libros, **unas** casas
+
+Det finnes unntak, som *el día* (dagen), *el problema* og *la mano* (hånden), så lær ordet sammen med artikkelen.
+
+## Flertall
+
+Ord som slutter på vokal, får **-s**: *libro – libros*. Ord som slutter på konsonant, får **-es**: *ciudad – ciudades*.
+
+## Personlige pronomen
+
+**yo** (jeg), **tú** (du), **él** (han), **ella** (hun), **usted** (De), **nosotros/nosotras** (vi), **vosotros/vosotras** (dere, brukes i Spania), **ellos/ellas** (de) og **ustedes** (dere eller De; i Latin-Amerika brukes *ustedes* for alle «dere»).
+
+Fordi verbendelsen viser hvem som gjør noe, **sløyfes pronomenet ofte**: *Hablo español.* – Jeg snakker spansk.
+
+## Regelrette verb i presens
+
+Spanske verb ender på **-ar**, **-er** eller **-ir**:
+
+- **hablar** (snakke): habl**o**, habl**as**, habl**a**, habl**amos**, habl**áis**, habl**an**
+- **comer** (spise): com**o**, com**es**, com**e**, com**emos**, com**éis**, com**en**
+- **vivir** (bo): viv**o**, viv**es**, viv**e**, viv**imos**, viv**ís**, viv**en**
+
+## Ser og estar – to måter å si «være»
+
+- **ser** brukes om identitet, opprinnelse, yrke og varige egenskaper: *Soy Nora. Soy de Noruega. Es alta.* Bøying: soy, eres, es, somos, sois, son.
+- **estar** brukes om tilstander og sted: *Estoy cansado.* (Jeg er trøtt.) *Madrid está en España.* Bøying: estoy, estás, está, estamos, estáis, están.
+
+## Tener – å ha
+
+**tengo, tienes, tiene, tenemos, tenéis, tienen.** Verbet brukes også om alder: *Tengo catorce años.*
+
+## Nektelse og spørsmål
+
+Nektelse lages med **no** foran verbet: *No hablo alemán.* Spørsmål skrives med **¿ … ?**, og spørreordene har alltid aksent: **¿qué?** (hva), **¿quién?** (hvem), **¿dónde?** (hvor), **¿cuándo?** (når), **¿cómo?** (hvordan), **¿por qué?** (hvorfor) og **¿cuánto?** (hvor mye).
+
+## Adjektiver
+
+Adjektiver bøyes etter kjønn og tall og står vanligvis **etter** substantivet: *un coche rojo*, *una casa roja*, *unas casas rojas*.', '{"label":"Grammatikk – grunnlaget","children":[{"label":"Artikler","children":[{"label":"el, la"},{"label":"los, las"},{"label":"un, una"},{"label":"Unntak: el día"}]},{"label":"Pronomen","children":[{"label":"yo, tú, él, ella, usted"},{"label":"nosotros, vosotros, ellos, ustedes"},{"label":"Sløyfes ofte"}]},{"label":"Verb","children":[{"label":"-ar: hablar"},{"label":"-er: comer"},{"label":"-ir: vivir"},{"label":"tener"}]},{"label":"ser og estar","children":[{"label":"ser: identitet, egenskap"},{"label":"estar: tilstand, sted"}]},{"label":"Setninger","children":[{"label":"no + verb"},{"label":"¿ … ?"},{"label":"Spørreord med aksent"},{"label":"Adjektiv etter substantiv"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'spansk-8:grammatikk-grunnlag';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('spansk-8:grammatikk-grunnlag', 'el / la / los / las', 'Bestemt artikkel: hankjønn / hunkjønn / flertall hankjønn / flertall hunkjønn', 0),
+  ('spansk-8:grammatikk-grunnlag', 'un / una', 'Ubestemt artikkel: en / ei', 1),
+  ('spansk-8:grammatikk-grunnlag', 'yo, tú, él, ella, usted', 'jeg, du, han, hun, De', 2),
+  ('spansk-8:grammatikk-grunnlag', 'nosotros, vosotros, ellos, ustedes', 'vi, dere (Spania), de, dere/De', 3),
+  ('spansk-8:grammatikk-grunnlag', 'hablo, hablas, habla', 'jeg snakker, du snakker, han/hun snakker', 4),
+  ('spansk-8:grammatikk-grunnlag', 'hablamos, habláis, hablan', 'vi snakker, dere snakker, de snakker', 5),
+  ('spansk-8:grammatikk-grunnlag', 'como / vivo', 'jeg spiser / jeg bor', 6),
+  ('spansk-8:grammatikk-grunnlag', 'ser: soy, eres, es', 'å være (identitet og egenskaper): jeg er, du er, han/hun er', 7),
+  ('spansk-8:grammatikk-grunnlag', 'estar: estoy, estás, está', 'å være (tilstand og sted): jeg er, du er, han/hun er', 8),
+  ('spansk-8:grammatikk-grunnlag', 'ser eller estar?', 'ser = hvem/hva noe er, estar = hvordan eller hvor noe er', 9),
+  ('spansk-8:grammatikk-grunnlag', 'tener: tengo, tienes, tiene', 'å ha: jeg har, du har, han/hun har', 10),
+  ('spansk-8:grammatikk-grunnlag', 'no + verb', 'Nektelse: No hablo alemán.', 11),
+  ('spansk-8:grammatikk-grunnlag', '¿dónde? ¿cuándo? ¿por qué?', 'hvor? når? hvorfor?', 12),
+  ('spansk-8:grammatikk-grunnlag', 'Hablo español.', 'Jeg snakker spansk – pronomenet sløyfes ofte', 13),
+  ('spansk-8:grammatikk-grunnlag', 'ciudad – ciudades', 'Ord på konsonant får -es i flertall', 14);
+delete from public.quiz_sporsmal where tema_id = 'spansk-8:grammatikk-grunnlag';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('spansk-8:grammatikk-grunnlag', 'q01', 'flervalg', 'Hvilken artikkel bruker du foran «casa» (hus), som er hunkjønn?', array['el', 'los', 'la', 'un']::text[], 2, '«la casa» betyr huset.', true, true, 0),
+  ('spansk-8:grammatikk-grunnlag', 'q02', 'flervalg', 'Hva er riktig form av «hablar» med «yo»?', array['hablo', 'hablas', 'habla', 'hablan']::text[], 0, 'Med «yo» ender verbet på -o.', true, true, 1),
+  ('spansk-8:grammatikk-grunnlag', 'q03', 'flervalg', 'Hvilket verb passer i «Madrid … en España»?', array['es', 'tiene', 'son', 'está']::text[], 3, 'Sted uttrykkes med «estar».', true, true, 2),
+  ('spansk-8:grammatikk-grunnlag', 'q04', 'flervalg', 'Hvilket verb passer i «… de Noruega» (jeg er fra Norge)?', array['Estoy', 'Soy', 'Tengo', 'Vivo']::text[], 1, 'Opprinnelse uttrykkes med «ser».', true, true, 3),
+  ('spansk-8:grammatikk-grunnlag', 'q05', 'flervalg', 'Hva er flertall av «la ciudad» (byen)?', array['las ciudads', 'las ciudades', 'los ciudades', 'la ciudades']::text[], 1, 'Ord som slutter på konsonant, får -es.', true, true, 4),
+  ('spansk-8:grammatikk-grunnlag', 'q06', 'flervalg', 'Hvorfor kan man ofte sløyfe pronomenet på spansk?', array['Fordi det er uhøflig', 'Fordi pronomen ikke finnes', 'Fordi det alltid står til slutt', 'Fordi verbendelsen viser hvem som gjør noe']::text[], 3, '«Hablo» kan bare bety «jeg snakker».', true, true, 5),
+  ('spansk-8:grammatikk-grunnlag', 'q07', 'flervalg', 'Hvordan sier du «Jeg bor ikke i Madrid»?', array['No vivo en Madrid.', 'Vivo no en Madrid.', 'Vivo en Madrid no.', 'Yo no vive en Madrid.']::text[], 0, '«no» står rett foran verbet.', true, true, 6),
+  ('spansk-8:grammatikk-grunnlag', 'q08', 'flervalg', 'Hva er riktig form av «tener» med «tú»?', array['tengo', 'tiene', 'tienes', 'tenemos']::text[], 2, '«tienes» betyr «du har».', true, true, 7),
+  ('spansk-8:grammatikk-grunnlag', 'q09', 'flervalg', 'Hvilken form av «vivir» passer med «nosotros»?', array['vivo', 'viven', 'vivís', 'vivimos']::text[], 3, 'Med «nosotros» ender -ir-verb på -imos.', true, false, 8),
+  ('spansk-8:grammatikk-grunnlag', 'q10', 'flervalg', 'Hva betyr spørreordet «¿cuándo?»?', array['Hvor', 'Når', 'Hvem', 'Hvorfor']::text[], 1, 'Hvor heter «¿dónde?».', true, false, 9),
+  ('spansk-8:grammatikk-grunnlag', 'm01', 'sant-usant', '«el día» er hankjønn selv om ordet slutter på -a.', array['Sant', 'Usant']::text[], 0, 'Det er et av unntakene du må lære.', false, true, 10),
+  ('spansk-8:grammatikk-grunnlag', 'm02', 'sant-usant', '«estar» brukes om varige egenskaper, som at noen er høy.', array['Sant', 'Usant']::text[], 1, 'Varige egenskaper uttrykkes med «ser»: «Es alta».', false, true, 11),
+  ('spansk-8:grammatikk-grunnlag', 'm03', 'sant-usant', 'Spørreord som «qué» og «dónde» skrives med aksent.', array['Sant', 'Usant']::text[], 0, 'Aksenten skiller dem fra andre ord, som «que» (som/at).', false, true, 12),
+  ('spansk-8:grammatikk-grunnlag', 'm04', 'sant-usant', '«vosotros» brukes mye i Latin-Amerika.', array['Sant', 'Usant']::text[], 1, 'I Latin-Amerika bruker man «ustedes» i stedet.', false, true, 13),
+  ('spansk-8:grammatikk-grunnlag', 'm05', 'flervalg', 'Hva er riktig form av «comer» med «ella»?', array['como', 'come', 'comes', 'comen']::text[], 1, '«ella come» betyr «hun spiser».', false, true, 14),
+  ('spansk-8:grammatikk-grunnlag', 'm06', 'flervalg', 'Hvilken setning er riktig?', array['Estoy cansado.', 'Soy cansado hoy.', 'Tengo cansado.', 'Es cansado yo.']::text[], 0, 'Å være trøtt er en tilstand, derfor «estar».', false, true, 15),
+  ('spansk-8:grammatikk-grunnlag', 'm07', 'flervalg', 'Hva betyr «ellos»?', array['Vi', 'Dere', 'De', 'Han']::text[], 2, '«ellas» brukes om en gruppe med bare jenter eller kvinner.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('spansk-8:grammatikk-grunnlag', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Spansk: Spania og Latin-Amerika
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('spansk-8:land-og-kultur', 'spansk-8', 'land-og-kultur', 'Spania og Latin-Amerika', 'Geografi, språk, mat, tradisjoner og kultur i Spania og de spansktalende landene i Latin-Amerika.', array[8, 9]::int[], 5, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('spansk-8:land-og-kultur', '## Spania
+
+**España** har rundt 48 millioner innbyggere, og hovedstaden er **Madrid**. Landet ligger på **Den iberiske halvøy** sammen med Portugal, med kyst mot **Middelhavet** og **Atlanterhavet**. I nord skiller **Pyreneene** Spania fra Frankrike. Til Spania hører også **Balearene**, blant annet Mallorca, og **Kanariøyene**, som er et populært feriemål for nordmenn. Store byer er Madrid, Barcelona, Valencia, Sevilla og Málaga. Spania er delt i **17 autonome regioner**. I tillegg til spansk (*castellano*) snakkes også **katalansk**, **galisisk** og **baskisk** i enkelte regioner.
+
+## Latin-Amerika
+
+Spansk kom til Amerika etter at **Columbus** kom dit i **1492**, og i dag er spansk hovedspråket i de fleste land i Mellom- og Sør-Amerika. **Mexico** er landet med flest spansktalende. I **Peru** ligger inkabyen **Machu Picchu**, og fra **Argentina** kommer **tangoen**. Mange urfolk snakker egne språk, som quechua, guaraní og maya-språk. Brasil er unntaket – der snakker man portugisisk.
+
+## Mat og måltider
+
+- **las tapas** – små retter som deles
+- **la paella** – risrett fra Valencia
+- **la tortilla española** – potetomelett
+- **los churros con chocolate** – friterte deigstenger med tykk sjokolade
+- I Mexico: **tacos**, **tortillas** av mais og **guacamole**
+
+I Spania spiser man sent: **lunsj** rundt klokka to eller tre, og **middag** gjerne klokka ni eller ti om kvelden.
+
+## Tradisjoner
+
+- **La Semana Santa** – påskeuken, med store prosesjoner, særlig i Sevilla
+- **Los Reyes Magos** (6. januar) – de tre vise menn gir barna gaver
+- **Las doce uvas** – ved midnatt på nyttårsaften spiser man tolv druer, én for hvert klokkeslag
+- **La Tomatina** – i august kaster folk i byen Buñol tomater på hverandre
+- **El Día de Muertos** (1.–2. november) – i Mexico minnes man de døde med fargerike altere, blomster og hodeskaller av sukker
+
+## Kunst og kultur
+
+**Flamenco** er dans og musikk fra Andalucía i Sør-Spania. Kjente kunstnere er **Pablo Picasso** og **Salvador Dalí** fra Spania og **Frida Kahlo** fra Mexico. Arkitekten **Antoni Gaudí** tegnet kirken **Sagrada Família** i Barcelona. Romanen *Don Quijote* av **Miguel de Cervantes** regnes som en av verdens første moderne romaner. **Fotball** er enormt populært, med klubber som Real Madrid og FC Barcelona, og spansktalende musikk som reggaeton og latinpop er populær over hele verden.', '{"label":"Spania og Latin-Amerika","children":[{"label":"Spania","children":[{"label":"Madrid"},{"label":"17 regioner"},{"label":"Katalansk, galisisk, baskisk"},{"label":"Balearene og Kanariøyene"}]},{"label":"Latin-Amerika","children":[{"label":"Mexico"},{"label":"Peru og Machu Picchu"},{"label":"Argentina og tango"},{"label":"Urfolksspråk"}]},{"label":"Mat","children":[{"label":"tapas og paella"},{"label":"tortilla española"},{"label":"churros"},{"label":"Sene måltider"}]},{"label":"Tradisjoner","children":[{"label":"Semana Santa"},{"label":"Reyes Magos"},{"label":"doce uvas"},{"label":"Día de Muertos"}]},{"label":"Kunst og kultur","children":[{"label":"Flamenco"},{"label":"Picasso, Dalí, Kahlo"},{"label":"Gaudí"},{"label":"Don Quijote"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'spansk-8:land-og-kultur';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('spansk-8:land-og-kultur', 'España – Madrid', 'Spania, med hovedstaden Madrid', 0),
+  ('spansk-8:land-og-kultur', 'las comunidades autónomas', 'Spanias 17 autonome regioner', 1),
+  ('spansk-8:land-og-kultur', 'Latinoamérica', 'Latin-Amerika, der spansk er hovedspråk i de fleste land', 2),
+  ('spansk-8:land-og-kultur', 'México', 'Landet med flest spansktalende i verden', 3),
+  ('spansk-8:land-og-kultur', 'Machu Picchu', 'Inkaby i fjellene i Peru', 4),
+  ('spansk-8:land-og-kultur', 'las tapas', 'små retter som deles', 5),
+  ('spansk-8:land-og-kultur', 'la paella', 'risrett fra Valencia', 6),
+  ('spansk-8:land-og-kultur', 'la tortilla española', 'potetomelett', 7),
+  ('spansk-8:land-og-kultur', 'los churros', 'friterte deigstenger, ofte med sjokolade', 8),
+  ('spansk-8:land-og-kultur', 'la Semana Santa', 'påskeuken, med store prosesjoner', 9),
+  ('spansk-8:land-og-kultur', 'el Día de Muertos', 'De dødes dag i Mexico, 1.–2. november', 10),
+  ('spansk-8:land-og-kultur', 'los Reyes Magos', 'De tre vise menn, som gir barna gaver 6. januar', 11),
+  ('spansk-8:land-og-kultur', 'las doce uvas', 'Tolv druer som spises ved midnatt på nyttårsaften', 12),
+  ('spansk-8:land-og-kultur', 'el flamenco', 'Dans og musikk fra Andalucía', 13),
+  ('spansk-8:land-og-kultur', 'Gaudí', 'Arkitekten bak Sagrada Família i Barcelona', 14),
+  ('spansk-8:land-og-kultur', 'Frida Kahlo', 'Kjent meksikansk kunstner', 15);
+delete from public.quiz_sporsmal where tema_id = 'spansk-8:land-og-kultur';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('spansk-8:land-og-kultur', 'q01', 'flervalg', 'Hva er hovedstaden i Spania?', array['Barcelona', 'Madrid', 'Sevilla', 'Valencia']::text[], 1, 'Barcelona er Spanias nest største by.', true, true, 0),
+  ('spansk-8:land-og-kultur', 'q02', 'flervalg', 'Hvilke språk snakkes i Spania i tillegg til spansk?', array['Portugisisk og italiensk', 'Fransk og tysk', 'Engelsk og arabisk', 'Katalansk, galisisk og baskisk']::text[], 3, 'Disse språkene har offisiell status i sine regioner.', true, true, 1),
+  ('spansk-8:land-og-kultur', 'q03', 'flervalg', 'Hva er «tortilla española»?', array['Potetomelett', 'Maisbrød', 'Et bakverk', 'En suppe']::text[], 0, 'I Mexico er en tortilla derimot et flatt brød av mais.', true, true, 2),
+  ('spansk-8:land-og-kultur', 'q04', 'flervalg', 'Hva feires i Mexico 1. og 2. november?', array['Uavhengighetsdagen', 'Jul', 'Día de Muertos, de dødes dag', 'Nyttår']::text[], 2, 'Familier minnes sine døde med altere, blomster og mat.', true, true, 3),
+  ('spansk-8:land-og-kultur', 'q05', 'flervalg', 'Hvem gir barna gaver 6. januar i Spania?', array['Julenissen', 'Påskeharen', 'Mormor', 'Los Reyes Magos, de tre vise menn']::text[], 3, 'Dagen kalles også helligtrekongersdag.', true, true, 4),
+  ('spansk-8:land-og-kultur', 'q06', 'flervalg', 'Hvilken arkitekt tegnet Sagrada Família i Barcelona?', array['Pablo Picasso', 'Antoni Gaudí', 'Salvador Dalí', 'Diego Velázquez']::text[], 1, 'Kirken har vært under bygging i over hundre år.', true, true, 5),
+  ('spansk-8:land-og-kultur', 'q07', 'flervalg', 'Hva gjør mange spanjoler ved midnatt på nyttårsaften?', array['Hopper i sjøen', 'Spiser pannekaker', 'Spiser tolv druer', 'Synger nasjonalsangen']::text[], 2, 'Én drue for hvert klokkeslag skal gi lykke i det nye året.', true, true, 6),
+  ('spansk-8:land-og-kultur', 'q08', 'flervalg', 'Hvilket land har inkabyen Machu Picchu?', array['Peru', 'Mexico', 'Argentina', 'Cuba']::text[], 0, 'Machu Picchu ligger høyt oppe i Andesfjellene.', true, true, 7),
+  ('spansk-8:land-og-kultur', 'q09', 'flervalg', 'Hvilken dans kommer fra Andalucía i Sør-Spania?', array['Tango', 'Flamenco', 'Salsa', 'Samba']::text[], 1, 'Tango kommer fra Argentina og Uruguay.', true, false, 8),
+  ('spansk-8:land-og-kultur', 'q10', 'flervalg', 'Når spiser mange spanjoler middag?', array['Klokka 16', 'Klokka 17', 'Klokka 18', 'Rundt klokka 21 eller 22']::text[], 3, 'Spanjoler spiser både lunsj og middag senere enn nordmenn.', true, false, 9),
+  ('spansk-8:land-og-kultur', 'm01', 'sant-usant', 'Spansk er hovedspråket i de fleste land i Mellom- og Sør-Amerika.', array['Sant', 'Usant']::text[], 0, 'Brasil er det største unntaket.', false, true, 10),
+  ('spansk-8:land-og-kultur', 'm02', 'sant-usant', 'Brasil er et spansktalende land.', array['Sant', 'Usant']::text[], 1, 'I Brasil snakker man portugisisk.', false, true, 11),
+  ('spansk-8:land-og-kultur', 'm03', 'sant-usant', 'Kanariøyene er et populært feriemål for nordmenn.', array['Sant', 'Usant']::text[], 0, 'Øyene har mildt klima hele året.', false, true, 12),
+  ('spansk-8:land-og-kultur', 'm04', 'sant-usant', 'Tango kommer opprinnelig fra Spania.', array['Sant', 'Usant']::text[], 1, 'Tango oppsto i Argentina og Uruguay.', false, true, 13),
+  ('spansk-8:land-og-kultur', 'm05', 'flervalg', 'Hva er tapas?', array['Små retter som deles', 'En type dans', 'En festival', 'Et fotballag']::text[], 0, 'Tapas spises ofte sammen med venner.', false, true, 14),
+  ('spansk-8:land-og-kultur', 'm06', 'flervalg', 'Hvilken kunstner var fra Mexico?', array['Pablo Picasso', 'Salvador Dalí', 'Frida Kahlo', 'Joan Miró']::text[], 2, 'Frida Kahlo er kjent for sine selvportretter.', false, true, 15),
+  ('spansk-8:land-og-kultur', 'm07', 'flervalg', 'Hva er La Tomatina?', array['En tomatsuppe', 'En fest der folk kaster tomater på hverandre', 'En sang', 'En fotballklubb']::text[], 1, 'Festen holdes i byen Buñol i august.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('spansk-8:land-og-kultur', 15)
 on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Norsk (9): rydd bort fjernede temaer
@@ -7701,6 +9370,1684 @@ insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, ri
   ('krle-9:etiske-forbilder', 'm07', 'flervalg', 'Hvorfor kan det være nyttig å skille mellom ideene og personen når vi ser på forbilder?', array['Fordi forbilder aldri tar feil', 'Fordi ideer ikke betyr noe', 'Fordi forbilder også er mennesker som kan ha gjort feil', 'Fordi personer ikke betyr noe']::text[], 2, 'Gode ideer kan ha verdi selv om personen bak dem har svakheter.', false, true, 16);
 insert into public.miniprover (tema_id, minutter) values
   ('krle-9:etiske-forbilder', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Tysk (9): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'tysk-9' and slug not in ('mat-og-drikke', 'hjemmet-og-hverdagen', 'byen-og-veibeskrivelse', 'klaer-og-handel', 'fortid', 'hoytider-og-tradisjoner');
+
+-- Tysk: Mat og drikke
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('tysk-9:mat-og-drikke', 'tysk-9', 'mat-og-drikke', 'Mat og drikke', 'Måltider, mat og drikke på tysk, hvordan du sier hva du liker, hvordan du bestiller på kafé og restaurant, og akkusativ med den og einen.', array[2, 4]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('tysk-9:mat-og-drikke', '## Måltider – die Mahlzeiten
+
+- **das Frühstück** – frokosten. Mange tyskere spiser **Brötchen** (rundstykker) med **Butter**, **Käse**, **Wurst** (pølsepålegg) eller syltetøy (**Marmelade**).
+- **das Mittagessen** – måltidet midt på dagen. Tradisjonelt var dette dagens varme hovedmåltid.
+- **das Abendessen** eller **das Abendbrot** – kveldsmaten. I mange familier består den av brød med pålegg.
+
+## Mat – das Essen
+
+- **das Brot** (brødet), **das Ei** (egget), **das Müsli**
+- **das Obst** (frukt): **der Apfel**, **die Banane**, **die Orange**
+- **das Gemüse** (grønnsaker): **die Kartoffel**, **die Tomate**, **die Karotte**
+- **das Fleisch** (kjøttet), **das Hähnchen** (kyllingen), **der Fisch**
+- **die Nudeln** (pasta), **der Reis**, **die Suppe** og **der Kuchen** (kaken)
+
+## Drikke – die Getränke
+
+**das Wasser**, **der Saft** (juicen), **die Milch**, **der Tee**, **der Kaffee** og **die Limonade**. Vann med kullsyre heter **Wasser mit Kohlensäure** eller **Sprudel**.
+
+## Si hva du liker
+
+- **Ich esse gern Pizza.** – Jeg liker å spise pizza.
+- **Ich trinke gern Tee.** – Jeg liker å drikke te.
+- **Ich mag Äpfel.** – Jeg liker epler. **Ich mag keinen Fisch.** – Jeg liker ikke fisk.
+- **Ich habe Hunger / Durst.** – Jeg er sulten / tørst. Bokstavelig: Jeg har sult / tørst.
+
+## Viktige verb
+
+- **essen** (spise): ich esse, du **isst**, er **isst**, wir essen
+- **nehmen** (ta): ich nehme, du **nimmst**, er **nimmt**
+- **mögen** (like): ich **mag**, du **magst**, er **mag**
+- **möchten** (ville gjerne ha, høflig): ich möchte, du möchtest, er möchte
+
+## På kafé og restaurant
+
+- **Die Speisekarte, bitte.** – Menyen, takk.
+- **Was möchtest du?** / **Was möchten Sie?** – Hva vil du/De ha?
+- **Ich möchte eine Suppe und ein Wasser, bitte.** – Jeg vil gjerne ha en suppe og et vann.
+- **Ich nehme den Fisch.** – Jeg tar fisken.
+- **Guten Appetit!** – God appetitt! **Prost!** – Skål!
+- **Die Rechnung, bitte!** eller **Zahlen, bitte!** – Regningen, takk!
+- **Das macht zwölf Euro.** – Det blir tolv euro.
+
+I Tyskland er det vanlig å **runde opp** eller gi litt **Trinkgeld** (tips), ofte 5–10 prosent.
+
+## Akkusativ – den og einen
+
+Når noe er **objekt** i setningen, endres hankjønnsartikkelen: **der → den** og **ein → einen**. *Ich nehme **den** Salat. Ich möchte **einen** Apfel.* Hunkjønn og intetkjønn endres ikke: *Ich möchte **eine** Banane und **ein** Brötchen.*', '{"label":"Mat og drikke","children":[{"label":"Måltider","children":[{"label":"Frühstück"},{"label":"Mittagessen"},{"label":"Abendbrot"}]},{"label":"Mat og drikke","children":[{"label":"Obst og Gemüse"},{"label":"Fleisch, Fisch, Hähnchen"},{"label":"Wasser, Saft, Tee"}]},{"label":"Liker","children":[{"label":"Ich esse gern …"},{"label":"Ich mag …"},{"label":"Hunger og Durst"}]},{"label":"Restaurant","children":[{"label":"Die Speisekarte, bitte"},{"label":"Ich möchte …"},{"label":"Die Rechnung, bitte"},{"label":"Trinkgeld"}]},{"label":"Grammatikk","children":[{"label":"essen, nehmen"},{"label":"mögen, möchten"},{"label":"den og einen"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'tysk-9:mat-og-drikke';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('tysk-9:mat-og-drikke', 'das Frühstück', 'frokosten', 0),
+  ('tysk-9:mat-og-drikke', 'das Mittagessen', 'måltidet midt på dagen', 1),
+  ('tysk-9:mat-og-drikke', 'das Abendbrot', 'kveldsmaten, ofte brød med pålegg', 2),
+  ('tysk-9:mat-og-drikke', 'das Brötchen', 'rundstykket', 3),
+  ('tysk-9:mat-og-drikke', 'der Käse', 'osten', 4),
+  ('tysk-9:mat-og-drikke', 'die Wurst', 'pølsa, også pølsepålegg', 5),
+  ('tysk-9:mat-og-drikke', 'das Obst', 'frukt', 6),
+  ('tysk-9:mat-og-drikke', 'das Gemüse', 'grønnsaker', 7),
+  ('tysk-9:mat-og-drikke', 'das Hähnchen', 'kyllingen', 8),
+  ('tysk-9:mat-og-drikke', 'der Saft', 'juicen', 9),
+  ('tysk-9:mat-og-drikke', 'Ich habe Hunger.', 'Jeg er sulten.', 10),
+  ('tysk-9:mat-og-drikke', 'Ich möchte …', 'Jeg vil gjerne ha …', 11),
+  ('tysk-9:mat-og-drikke', 'die Speisekarte', 'menyen', 12),
+  ('tysk-9:mat-og-drikke', 'Die Rechnung, bitte!', 'Regningen, takk!', 13),
+  ('tysk-9:mat-og-drikke', 'Guten Appetit!', 'God appetitt!', 14),
+  ('tysk-9:mat-og-drikke', 'essen: du isst, er isst', 'å spise – uregelrett i entall', 15);
+delete from public.quiz_sporsmal where tema_id = 'tysk-9:mat-og-drikke';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('tysk-9:mat-og-drikke', 'q01', 'flervalg', 'Hva betyr «das Frühstück»?', array['Middag', 'Lunsj', 'Frokost', 'Kveldsmat']::text[], 2, '«früh» betyr tidlig.', true, true, 0),
+  ('tysk-9:mat-og-drikke', 'q02', 'flervalg', 'Hvordan sier du «Jeg er sulten»?', array['Ich habe Hunger.', 'Ich bin Hunger.', 'Ich habe Durst.', 'Ich esse Hunger.']::text[], 0, 'På tysk «har» man sult.', true, true, 1),
+  ('tysk-9:mat-og-drikke', 'q03', 'flervalg', 'Hva er riktig form av «essen» med «du»?', array['du esse', 'du essen', 'du esst', 'du isst']::text[], 3, '«essen» bytter vokal i entall: du isst, er isst.', true, true, 2),
+  ('tysk-9:mat-og-drikke', 'q04', 'flervalg', 'Hvordan bestiller du høflig en te?', array['Ich will Tee!', 'Ich möchte einen Tee, bitte.', 'Tee jetzt!', 'Du Tee?']::text[], 1, '«Ich möchte …, bitte» er høflig.', true, true, 3),
+  ('tysk-9:mat-og-drikke', 'q05', 'flervalg', 'Hvordan ber du om regningen?', array['Guten Appetit!', 'Prost!', 'Die Speisekarte, bitte.', 'Die Rechnung, bitte.']::text[], 3, 'Du kan også si «Zahlen, bitte!».', true, true, 4),
+  ('tysk-9:mat-og-drikke', 'q06', 'flervalg', 'Hva er «das Obst»?', array['Grønnsaker', 'Kjøtt', 'Frukt', 'Brød']::text[], 2, 'Grønnsaker heter «das Gemüse».', true, true, 5),
+  ('tysk-9:mat-og-drikke', 'q07', 'flervalg', 'Hvilken setning er riktig?', array['Ich möchte ein Apfel.', 'Ich möchte einen Apfel.', 'Ich möchte eine Apfel.', 'Ich möchte einer Apfel.']::text[], 1, '«Apfel» er hankjønn og står som objekt, derfor «einen».', true, true, 6),
+  ('tysk-9:mat-og-drikke', 'q08', 'flervalg', 'Hva sier du før måltidet?', array['Guten Appetit!', 'Auf Wiedersehen!', 'Zahlen, bitte!', 'Gute Nacht!']::text[], 0, 'Det betyr «God appetitt!».', true, true, 7),
+  ('tysk-9:mat-og-drikke', 'q09', 'flervalg', 'Hva er «das Abendbrot» i mange tyske familier?', array['En varm middag', 'Kake', 'Frokost', 'Et kveldsmåltid med brød og pålegg']::text[], 3, 'Ordet betyr bokstavelig «kveldsbrød».', true, false, 8),
+  ('tysk-9:mat-og-drikke', 'q10', 'flervalg', 'Hva betyr «die Speisekarte»?', array['Regningen', 'Bordet', 'Menyen', 'Kokken']::text[], 2, '«Speise» betyr rett eller mat.', true, false, 9),
+  ('tysk-9:mat-og-drikke', 'm01', 'sant-usant', '«Ich habe Durst» betyr jeg er tørst.', array['Sant', 'Usant']::text[], 0, '«Durst» betyr tørst.', false, true, 10),
+  ('tysk-9:mat-og-drikke', 'm02', 'sant-usant', '«das Gemüse» betyr frukt.', array['Sant', 'Usant']::text[], 1, '«das Gemüse» betyr grønnsaker. Frukt heter «das Obst».', false, true, 11),
+  ('tysk-9:mat-og-drikke', 'm03', 'sant-usant', 'I Tyskland er det vanlig å runde opp eller gi litt tips på restaurant.', array['Sant', 'Usant']::text[], 0, 'Tips kalles «Trinkgeld».', false, true, 12),
+  ('tysk-9:mat-og-drikke', 'm04', 'sant-usant', '«nehmen» bøyes «du nehmst».', array['Sant', 'Usant']::text[], 1, 'Det heter «du nimmst» og «er nimmt».', false, true, 13),
+  ('tysk-9:mat-og-drikke', 'm05', 'flervalg', 'Hva betyr «Ich mag keinen Fisch»?', array['Jeg liker fisk', 'Jeg liker ikke fisk', 'Jeg har fisk', 'Jeg spiser fisk i dag']::text[], 1, '«kein» nekter substantivet.', false, true, 14),
+  ('tysk-9:mat-og-drikke', 'm06', 'flervalg', 'Hva er «das Brötchen»?', array['Et rundstykke', 'En kake', 'En pølse', 'Et egg']::text[], 0, 'Endelsen -chen betyr at noe er lite: et lite brød.', false, true, 15),
+  ('tysk-9:mat-og-drikke', 'm07', 'flervalg', 'Hva sier man når man skåler?', array['Guten Appetit!', 'Danke!', 'Prost!', 'Tschüs!']::text[], 2, '«Prost!» betyr «Skål!».', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('tysk-9:mat-og-drikke', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Tysk: Hjemmet og hverdagen
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('tysk-9:hjemmet-og-hverdagen', 'tysk-9', 'hjemmet-og-hverdagen', 'Hjemmet og hverdagen', 'Rom og møbler på tysk, hvordan du beskriver rommet ditt og en vanlig dag, delbare og refleksive verb, og ord som hjelper deg å fortelle i rekkefølge.', array[3, 5]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('tysk-9:hjemmet-og-hverdagen', '## Hjemmet – das Zuhause
+
+Mange i Tyskland bor i **eine Wohnung** (leilighet), særlig i byene. Andre bor i **ein Haus** (hus). Rommene heter:
+
+- **die Küche** – kjøkkenet
+- **das Wohnzimmer** – stua
+- **das Schlafzimmer** – soverommet
+- **das Badezimmer** eller **das Bad** – badet
+- **das Kinderzimmer** – barnerommet
+- **der Garten** – hagen, **der Keller** – kjelleren, **der Balkon**
+
+## Mitt rom – mein Zimmer
+
+Møbler: **das Bett** (senga), **der Tisch** (bordet), **der Schreibtisch** (skrivebordet), **der Stuhl** (stolen), **der Schrank** (skapet), **das Regal** (hylla), **das Sofa**, **die Lampe** og **das Fenster** (vinduet).
+
+- **Mein Zimmer ist klein, aber gemütlich.** – Rommet mitt er lite, men koselig.
+- **Das Bett steht neben dem Fenster.** – Senga står ved siden av vinduet.
+- **Der Computer ist auf dem Schreibtisch.** – Datamaskinen er på skrivebordet.
+
+Nyttige preposisjoner for plassering er **in** (i), **auf** (på), **unter** (under), **neben** (ved siden av), **vor** (foran) og **hinter** (bak).
+
+## Hverdagen – der Alltag
+
+- **Ich stehe um sieben Uhr auf.** – Jeg står opp klokka sju.
+- **Ich dusche mich und ziehe mich an.** – Jeg dusjer og kler på meg.
+- **Ich frühstücke.** – Jeg spiser frokost.
+- **Ich fahre mit dem Bus zur Schule.** – Jeg tar bussen til skolen.
+- **Nach der Schule mache ich Hausaufgaben.** – Etter skolen gjør jeg lekser.
+- **Am Abend sehe ich fern.** – Om kvelden ser jeg på TV.
+- **Um zehn Uhr gehe ich ins Bett.** – Klokka ti legger jeg meg.
+
+Hjemme hjelper mange til: **Ich räume mein Zimmer auf** (rydder rommet), **ich wasche ab** (vasker opp) og **ich sauge Staub** (støvsuger).
+
+## Delbare verb
+
+Mange tyske verb har en **forstavelse** som skilles fra verbet og flyttes til **slutten av setningen**: **aufstehen** → *Ich stehe um sieben Uhr **auf**.* Andre eksempler er **fernsehen**, **aufräumen**, **anrufen** (ringe) og **einkaufen** (handle).
+
+## Refleksive verb
+
+Noen verb har et **refleksivt pronomen**, akkurat som «seg» på norsk: **sich duschen** → *Ich dusche **mich**. Du duschst **dich**. Er duscht **sich**.*
+
+## Fortelle i rekkefølge
+
+Bruk **zuerst** (først), **dann** (så), **danach** (etterpå), **später** (senere) og **zum Schluss** (til slutt). Husk at verbet står på andre plass: *Dann **esse** ich Frühstück.*', '{"label":"Hjemmet og hverdagen","children":[{"label":"Rom","children":[{"label":"Küche"},{"label":"Wohnzimmer"},{"label":"Schlafzimmer"},{"label":"Badezimmer"}]},{"label":"Mitt rom","children":[{"label":"Bett, Tisch, Stuhl"},{"label":"Schrank, Regal"},{"label":"in, auf, unter, neben"}]},{"label":"Hverdagen","children":[{"label":"aufstehen"},{"label":"zur Schule fahren"},{"label":"Hausaufgaben machen"},{"label":"ins Bett gehen"}]},{"label":"Grammatikk","children":[{"label":"Delbare verb"},{"label":"Refleksive verb"},{"label":"Verbet på plass 2"}]},{"label":"Rekkefølge","children":[{"label":"zuerst"},{"label":"dann, danach"},{"label":"zum Schluss"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'tysk-9:hjemmet-og-hverdagen';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('tysk-9:hjemmet-og-hverdagen', 'die Wohnung', 'leiligheten', 0),
+  ('tysk-9:hjemmet-og-hverdagen', 'das Zimmer', 'rommet', 1),
+  ('tysk-9:hjemmet-og-hverdagen', 'die Küche', 'kjøkkenet', 2),
+  ('tysk-9:hjemmet-og-hverdagen', 'das Wohnzimmer', 'stua', 3),
+  ('tysk-9:hjemmet-og-hverdagen', 'das Schlafzimmer', 'soverommet', 4),
+  ('tysk-9:hjemmet-og-hverdagen', 'das Badezimmer', 'badet', 5),
+  ('tysk-9:hjemmet-og-hverdagen', 'der Schrank', 'skapet', 6),
+  ('tysk-9:hjemmet-og-hverdagen', 'der Schreibtisch', 'skrivebordet', 7),
+  ('tysk-9:hjemmet-og-hverdagen', 'gemütlich', 'koselig', 8),
+  ('tysk-9:hjemmet-og-hverdagen', 'aufstehen – Ich stehe auf.', 'å stå opp – Jeg står opp.', 9),
+  ('tysk-9:hjemmet-og-hverdagen', 'fernsehen – Ich sehe fern.', 'å se på TV – Jeg ser på TV.', 10),
+  ('tysk-9:hjemmet-og-hverdagen', 'aufräumen', 'å rydde', 11),
+  ('tysk-9:hjemmet-og-hverdagen', 'sich duschen – Ich dusche mich.', 'å dusje – Jeg dusjer.', 12),
+  ('tysk-9:hjemmet-og-hverdagen', 'Hausaufgaben machen', 'å gjøre lekser', 13),
+  ('tysk-9:hjemmet-og-hverdagen', 'zuerst, dann, danach', 'først, så, etterpå', 14);
+delete from public.quiz_sporsmal where tema_id = 'tysk-9:hjemmet-og-hverdagen';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('tysk-9:hjemmet-og-hverdagen', 'q01', 'flervalg', 'Hva betyr «die Wohnung»?', array['Huset', 'Leiligheten', 'Rommet', 'Hagen']::text[], 1, '«wohnen» betyr å bo.', true, true, 0),
+  ('tysk-9:hjemmet-og-hverdagen', 'q02', 'flervalg', 'Hvor lager man mat?', array['im Schlafzimmer', 'im Badezimmer', 'im Keller', 'in der Küche']::text[], 3, '«die Küche» betyr kjøkkenet.', true, true, 1),
+  ('tysk-9:hjemmet-og-hverdagen', 'q03', 'flervalg', 'Hvordan sier du «Jeg står opp klokka sju»?', array['Ich stehe um sieben Uhr auf.', 'Ich aufstehe um sieben Uhr.', 'Ich stehe auf um sieben Uhr auf.', 'Um sieben Uhr ich stehe auf.']::text[], 0, 'Forstavelsen «auf» flyttes til slutten.', true, true, 2),
+  ('tysk-9:hjemmet-og-hverdagen', 'q04', 'flervalg', 'Hva skjer med forstavelsen i et delbart verb som «fernsehen»?', array['Den forsvinner', 'Den står først', 'Den flyttes til slutten av setningen', 'Den dobles']::text[], 2, '«Ich sehe am Abend fern.»', true, true, 3),
+  ('tysk-9:hjemmet-og-hverdagen', 'q05', 'flervalg', 'Hva betyr «gemütlich»?', array['Kaldt', 'Rotete', 'Koselig', 'Stort']::text[], 2, 'Ordet brukes mye om hjem og kafeer.', true, true, 4),
+  ('tysk-9:hjemmet-og-hverdagen', 'q06', 'flervalg', 'Hvordan sier du «Jeg dusjer»?', array['Ich dusche mich.', 'Ich bin duschen.', 'Ich dusche dich.', 'Mich dusche ich nicht.']::text[], 0, '«sich duschen» er et refleksivt verb.', true, true, 5),
+  ('tysk-9:hjemmet-og-hverdagen', 'q07', 'flervalg', 'Hva betyr «Ich räume mein Zimmer auf»?', array['Jeg maler rommet mitt', 'Jeg forlater rommet mitt', 'Jeg liker rommet mitt', 'Jeg rydder rommet mitt']::text[], 3, '«aufräumen» betyr å rydde.', true, true, 6),
+  ('tysk-9:hjemmet-og-hverdagen', 'q08', 'flervalg', 'Hva er «der Schreibtisch»?', array['Senga', 'Skrivebordet', 'Skapet', 'Stolen']::text[], 1, '«schreiben» betyr å skrive.', true, true, 7),
+  ('tysk-9:hjemmet-og-hverdagen', 'q09', 'flervalg', 'Hvilket ord betyr «først»?', array['dann', 'danach', 'zuerst', 'später']::text[], 2, '«dann» betyr så, og «danach» betyr etterpå.', true, false, 8),
+  ('tysk-9:hjemmet-og-hverdagen', 'q10', 'flervalg', 'Hva betyr «Ich sehe am Abend fern»?', array['Jeg ser langt om kvelden', 'Jeg går ut om kvelden', 'Jeg leser om kvelden', 'Jeg ser på TV om kvelden']::text[], 3, '«fernsehen» betyr å se på TV.', true, false, 9),
+  ('tysk-9:hjemmet-og-hverdagen', 'm01', 'sant-usant', '«das Badezimmer» er badet.', array['Sant', 'Usant']::text[], 0, 'Det kalles ofte bare «das Bad».', false, true, 10),
+  ('tysk-9:hjemmet-og-hverdagen', 'm02', 'sant-usant', '«aufstehen» er et delbart verb.', array['Sant', 'Usant']::text[], 0, '«Ich stehe früh auf.»', false, true, 11),
+  ('tysk-9:hjemmet-og-hverdagen', 'm03', 'sant-usant', '«der Stuhl» betyr bordet.', array['Sant', 'Usant']::text[], 1, '«der Stuhl» er stolen. Bordet heter «der Tisch».', false, true, 12),
+  ('tysk-9:hjemmet-og-hverdagen', 'm04', 'sant-usant', 'Setningen «Dann ich esse Frühstück» har riktig ordstilling.', array['Sant', 'Usant']::text[], 1, 'Verbet skal stå på andre plass: «Dann esse ich Frühstück».', false, true, 13),
+  ('tysk-9:hjemmet-og-hverdagen', 'm05', 'flervalg', 'Hva betyr «Hausaufgaben machen»?', array['Å gjøre lekser', 'Å vaske huset', 'Å lage mat', 'Å bygge hus']::text[], 0, '«Hausaufgaben» betyr hjemmelekser.', false, true, 14),
+  ('tysk-9:hjemmet-og-hverdagen', 'm06', 'flervalg', 'Hvilket rom sover du i?', array['die Küche', 'das Schlafzimmer', 'das Wohnzimmer', 'der Garten']::text[], 1, '«schlafen» betyr å sove.', false, true, 15),
+  ('tysk-9:hjemmet-og-hverdagen', 'm07', 'flervalg', 'Hva betyr «danach»?', array['Før', 'Aldri', 'Etterpå', 'I dag']::text[], 2, 'Ordet brukes når du forteller hva som skjer etterpå.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('tysk-9:hjemmet-og-hverdagen', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Tysk: Byen og veibeskrivelse
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('tysk-9:byen-og-veibeskrivelse', 'tysk-9', 'byen-og-veibeskrivelse', 'Byen og veibeskrivelse', 'Steder i byen, hvordan du spør om og forstår en veibeskrivelse på tysk, zum og zur, transportmidler og lyttestrategier.', array[2, 1]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('tysk-9:byen-og-veibeskrivelse', '## I byen – in der Stadt
+
+- **der Bahnhof** – jernbanestasjonen, **die Bushaltestelle** – bussholdeplassen, **der Flughafen** – flyplassen
+- **das Krankenhaus** – sykehuset, **die Apotheke** – apoteket
+- **die Bank** og **die Post** – postkontoret
+- **die Bibliothek** – biblioteket, **das Museum** og **das Kino**
+- **der Supermarkt** og **das Einkaufszentrum** – kjøpesenteret
+- **der Park**, **die Kirche** – kirken, **das Rathaus** – rådhuset
+- **die Straße** – gata, **die Ampel** – trafikklyset, **die Kreuzung** – krysset
+
+## Spørre om veien
+
+- **Entschuldigung, wo ist der Bahnhof?** – Unnskyld, hvor er jernbanestasjonen?
+- **Wie komme ich zum Museum?** – Hvordan kommer jeg til museet?
+- **Gibt es hier eine Apotheke?** – Finnes det et apotek her?
+- **Ist das weit?** – Er det langt? – **Nein, nur fünf Minuten zu Fuß.**
+
+## Veibeskrivelse
+
+- **Gehen Sie geradeaus.** – Gå rett fram.
+- **Biegen Sie links / rechts ab.** – Ta til venstre / høyre.
+- **Nehmen Sie die erste / zweite Straße links.** – Ta den første / andre gata til venstre.
+- **an der Ampel** – ved lyskrysset, **an der Kreuzung** – i krysset
+- **Das Museum ist auf der rechten Seite.** – Museet er på høyre side.
+- **Die Post ist neben der Bank / gegenüber dem Park.** – Posten er ved siden av banken / overfor parken.
+
+Veibeskrivelser til fremmede gis ofte i **Sie**-form.
+
+## Zum og zur
+
+Når du skal **til** et sted, bruker du **zu**, som smelter sammen med artikkelen:
+
+- **zu + dem = zum** (hankjønn og intetkjønn): *zum Bahnhof*, *zum Museum*
+- **zu + der = zur** (hunkjønn): *zur Post*, *zur Schule*
+
+## Transport
+
+**mit dem Bus**, **mit dem Zug** (toget), **mit der U-Bahn** (T-banen), **mit der Straßenbahn** (trikken), **mit dem Fahrrad** (sykkelen) og **zu Fuß** (til fots). Mange tyske byer har godt utbygd kollektivtrafikk, og sykkelen er populær.
+
+## Lyttestrategier
+
+Veibeskrivelser går ofte fort. Lytt etter **nøkkelord** som *links*, *rechts* og *geradeaus*, og gjenta det du har forstått. Det er helt greit å be om hjelp:
+
+- **Können Sie das bitte wiederholen?** – Kan De gjenta det?
+- **Langsamer, bitte.** – Litt saktere, takk.
+- **Können Sie mir das auf der Karte zeigen?** – Kan De vise meg det på kartet?
+
+Når du selv forklarer veien, kan du bruke hendene og peke. Kroppsspråk hjelper mye når språket ikke strekker til.', '{"label":"Byen og veibeskrivelse","children":[{"label":"Steder","children":[{"label":"Bahnhof, Bushaltestelle"},{"label":"Apotheke, Krankenhaus"},{"label":"Bibliothek, Museum"},{"label":"Rathaus, Kirche"}]},{"label":"Spørre","children":[{"label":"Wo ist …?"},{"label":"Wie komme ich zum …?"},{"label":"Ist das weit?"}]},{"label":"Forklare","children":[{"label":"geradeaus"},{"label":"links / rechts abbiegen"},{"label":"an der Ampel"},{"label":"neben, gegenüber"}]},{"label":"Grammatikk og transport","children":[{"label":"zum / zur"},{"label":"mit dem Bus"},{"label":"mit der U-Bahn"},{"label":"zu Fuß"}]},{"label":"Lyttestrategier","children":[{"label":"Nøkkelord"},{"label":"Bitte wiederholen"},{"label":"Langsamer, bitte"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'tysk-9:byen-og-veibeskrivelse';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('tysk-9:byen-og-veibeskrivelse', 'der Bahnhof', 'jernbanestasjonen', 0),
+  ('tysk-9:byen-og-veibeskrivelse', 'die Bushaltestelle', 'bussholdeplassen', 1),
+  ('tysk-9:byen-og-veibeskrivelse', 'die Apotheke', 'apoteket', 2),
+  ('tysk-9:byen-og-veibeskrivelse', 'die Bibliothek', 'biblioteket', 3),
+  ('tysk-9:byen-og-veibeskrivelse', 'das Rathaus', 'rådhuset', 4),
+  ('tysk-9:byen-og-veibeskrivelse', 'die Ampel', 'trafikklyset', 5),
+  ('tysk-9:byen-og-veibeskrivelse', 'die Kreuzung', 'krysset', 6),
+  ('tysk-9:byen-og-veibeskrivelse', 'geradeaus', 'rett fram', 7),
+  ('tysk-9:byen-og-veibeskrivelse', 'links / rechts', 'til venstre / til høyre', 8),
+  ('tysk-9:byen-og-veibeskrivelse', 'Biegen Sie links ab.', 'Ta til venstre.', 9),
+  ('tysk-9:byen-og-veibeskrivelse', 'gegenüber', 'overfor', 10),
+  ('tysk-9:byen-og-veibeskrivelse', 'Wie komme ich zum …?', 'Hvordan kommer jeg til …?', 11),
+  ('tysk-9:byen-og-veibeskrivelse', 'zum / zur', 'til (zu + dem / zu + der)', 12),
+  ('tysk-9:byen-og-veibeskrivelse', 'zu Fuß', 'til fots', 13),
+  ('tysk-9:byen-og-veibeskrivelse', 'mit der U-Bahn', 'med T-banen', 14),
+  ('tysk-9:byen-og-veibeskrivelse', 'Können Sie das bitte wiederholen?', 'Kan De gjenta det?', 15);
+delete from public.quiz_sporsmal where tema_id = 'tysk-9:byen-og-veibeskrivelse';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('tysk-9:byen-og-veibeskrivelse', 'q01', 'flervalg', 'Hva er «der Bahnhof»?', array['Flyplassen', 'Bussholdeplassen', 'Havnen', 'Jernbanestasjonen']::text[], 3, '«die Bahn» betyr jernbanen.', true, true, 0),
+  ('tysk-9:byen-og-veibeskrivelse', 'q02', 'flervalg', 'Hva betyr «geradeaus»?', array['Til venstre', 'Rett fram', 'Til høyre', 'Tilbake']::text[], 1, '«gerade» betyr rett.', true, true, 1),
+  ('tysk-9:byen-og-veibeskrivelse', 'q03', 'flervalg', 'Hvordan spør du hvordan du kommer til museet?', array['Wo wohnst du?', 'Was kostet das Museum?', 'Wie komme ich zum Museum?', 'Ist das Museum schön?']::text[], 2, '«Wie komme ich zum …?» brukes når du spør om veien.', true, true, 2),
+  ('tysk-9:byen-og-veibeskrivelse', 'q04', 'flervalg', 'Hva er «die Apotheke»?', array['Apoteket', 'Biblioteket', 'Banken', 'Postkontoret']::text[], 0, 'Biblioteket heter «die Bibliothek».', true, true, 3),
+  ('tysk-9:byen-og-veibeskrivelse', 'q05', 'flervalg', 'Hvorfor heter det «zur Post», men «zum Bahnhof»?', array['Fordi Post er et sted', 'Fordi «Post» er hunkjønn og «Bahnhof» hankjønn', 'Fordi Bahnhof er større', 'Det er tilfeldig']::text[], 1, 'zu + der blir zur, og zu + dem blir zum.', true, true, 4),
+  ('tysk-9:byen-og-veibeskrivelse', 'q06', 'flervalg', 'Hva betyr «Biegen Sie an der Ampel rechts ab»?', array['Gå rett fram forbi lyskrysset', 'Stopp ved lyskrysset', 'Snu ved lyskrysset', 'Ta til høyre ved lyskrysset']::text[], 3, '«abbiegen» betyr å svinge.', true, true, 5),
+  ('tysk-9:byen-og-veibeskrivelse', 'q07', 'flervalg', 'Hva betyr «zu Fuß»?', array['Til fots', 'Med bil', 'Med sykkel', 'Med tog']::text[], 0, '«der Fuß» betyr foten.', true, true, 6),
+  ('tysk-9:byen-og-veibeskrivelse', 'q08', 'flervalg', 'Hva betyr «gegenüber»?', array['Bak', 'Under', 'Overfor', 'Ved siden av']::text[], 2, 'Ved siden av heter «neben».', true, true, 7),
+  ('tysk-9:byen-og-veibeskrivelse', 'q09', 'flervalg', 'Hva er en nyttig strategi hvis du ikke forstår en veibeskrivelse?', array['Å gå hjem', 'Å late som du forstår', 'Å snakke norsk', 'Å be om at det gjentas langsommere']::text[], 3, '«Können Sie das bitte wiederholen?»', true, false, 8),
+  ('tysk-9:byen-og-veibeskrivelse', 'q10', 'flervalg', 'Hva er «das Rathaus»?', array['Et hus for rotter', 'Rådhuset', 'Et bibliotek', 'En restaurant']::text[], 1, '«der Rat» betyr rådet.', true, false, 9),
+  ('tysk-9:byen-og-veibeskrivelse', 'm01', 'sant-usant', '«links» betyr venstre.', array['Sant', 'Usant']::text[], 0, 'Høyre heter «rechts».', false, true, 10),
+  ('tysk-9:byen-og-veibeskrivelse', 'm02', 'sant-usant', '«die Bibliothek» er en bokhandel.', array['Sant', 'Usant']::text[], 1, '«die Bibliothek» er biblioteket. En bokhandel heter «die Buchhandlung».', false, true, 11),
+  ('tysk-9:byen-og-veibeskrivelse', 'm03', 'sant-usant', '«mit dem Bus» betyr med bussen.', array['Sant', 'Usant']::text[], 0, 'Etter «mit» brukes dativ: dem Bus.', false, true, 12),
+  ('tysk-9:byen-og-veibeskrivelse', 'm04', 'sant-usant', '«die Kreuzung» betyr kirken.', array['Sant', 'Usant']::text[], 1, '«die Kreuzung» betyr krysset. Kirken heter «die Kirche».', false, true, 13),
+  ('tysk-9:byen-og-veibeskrivelse', 'm05', 'flervalg', 'Hvordan sier du «Er det langt?»?', array['Ist das weit?', 'Ist das hier?', 'Wo ist das?', 'Was ist das?']::text[], 0, '«weit» betyr langt unna.', false, true, 14),
+  ('tysk-9:byen-og-veibeskrivelse', 'm06', 'flervalg', 'Hva er «die U-Bahn»?', array['Et fly', 'Undergrunnsbanen, T-banen', 'En båt', 'En buss']::text[], 1, 'U står for «Untergrund».', false, true, 15),
+  ('tysk-9:byen-og-veibeskrivelse', 'm07', 'flervalg', 'Hva betyr «Nehmen Sie die zweite Straße links»?', array['Ta den første gata til høyre', 'Gå to kvartaler rett fram', 'Ta den andre gata til venstre', 'Kryss gata to ganger']::text[], 2, '«zweite» betyr andre.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('tysk-9:byen-og-veibeskrivelse', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Tysk: Klær og handel
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('tysk-9:klaer-og-handel', 'tysk-9', 'klaer-og-handel', 'Klær og handel', 'Klær og farger på tysk, nyttige uttrykk i butikken, priser i euro, adjektiver foran substantiv og pronomenene ihn, sie og es.', array[2, 6]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('tysk-9:klaer-og-handel', '## Klær – die Kleidung
+
+- **das T-Shirt**, **das Hemd** (skjorta), **die Bluse**
+- **der Pullover** (genseren), **die Jacke** (jakka), **der Mantel** (kåpa, frakken)
+- **die Hose** (buksa), **die Jeans**, **der Rock** (skjørtet), **das Kleid** (kjolen)
+- **die Schuhe** (skoene), **die Turnschuhe** (joggeskoene), **die Socken**
+- **die Mütze** (lua), **der Schal** (skjerfet), **die Handschuhe** (hanskene)
+
+## Farger – die Farben
+
+**rot** (rød), **blau** (blå), **grün** (grønn), **gelb** (gul), **schwarz** (svart), **weiß** (hvit), **grau** (grå), **braun** (brun), **rosa**, **lila** og **bunt** (fargerik).
+
+Når adjektivet står **foran** substantivet etter *der*, *die* eller *das*, får det endingen **-e**: *der blau**e** Pullover*, *die rot**e** Jacke*, *das weiß**e** Hemd*. Står det etter verbet, bøyes det ikke: *Die Jacke ist rot.*
+
+## I butikken – im Geschäft
+
+- **Kann ich Ihnen helfen?** – Kan jeg hjelpe Dem?
+- **Ich suche eine Jacke.** – Jeg ser etter en jakke.
+- **Welche Größe haben Sie?** – Hvilken størrelse bruker De? – **Größe M.**
+- **Kann ich das anprobieren?** – Kan jeg prøve den på? Du prøver klær i **die Umkleidekabine** (prøverommet).
+- **Das passt mir gut / nicht.** – Den passer / passer ikke.
+- **Das ist zu groß / zu klein / zu teuer.** – Den er for stor / for liten / for dyr.
+- **Wie viel kostet das?** eller **Was kostet der Pullover?** – Hva koster genseren?
+- **Er kostet 29,99 Euro.** – Den koster *neunundzwanzig Euro neunundneunzig*.
+- **Ich nehme ihn.** – Jeg tar den. Du betaler ved **die Kasse**.
+
+Andre nyttige ord er **billig** (billig), **teuer** (dyr) og **im Angebot** (på tilbud). I Tyskland betaler man med **euro**, og som på norsk brukes komma i priser.
+
+## Ihn, sie, es – «den» og «det»
+
+Når du viser tilbake til et plagg, velger du pronomen etter kjønnet på ordet: **der Pullover → ihn**, **die Jacke → sie**, **das Hemd → es**. *Der Pullover ist schön. Ich nehme **ihn**.*
+
+## Si hva du synes
+
+- **Wie findest du die Jacke?** – Hva synes du om jakka?
+- **Ich finde sie schön / cool / hässlich.** – Jeg synes den er fin / kul / stygg.
+- **Die Hose steht dir gut!** – Buksa kler deg!
+
+## Bærekraftig shopping
+
+Mange unge i Tyskland kjøper brukte klær på **Flohmarkt** (loppemarked) eller i bruktbutikker. Det er både billigere og bedre for miljøet.', '{"label":"Klær og handel","children":[{"label":"Klær","children":[{"label":"Hose, Rock, Kleid"},{"label":"Pullover, Jacke"},{"label":"Schuhe, Mütze"}]},{"label":"Farger","children":[{"label":"rot, blau, grün"},{"label":"schwarz, weiß"},{"label":"die rote Jacke"}]},{"label":"I butikken","children":[{"label":"Ich suche …"},{"label":"Größe"},{"label":"anprobieren"},{"label":"zu groß, zu teuer"}]},{"label":"Pris og kjøp","children":[{"label":"Wie viel kostet das?"},{"label":"Euro og komma"},{"label":"Ich nehme ihn / sie / es"}]},{"label":"Meninger og miljø","children":[{"label":"Ich finde sie schön"},{"label":"steht dir gut"},{"label":"Flohmarkt"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'tysk-9:klaer-og-handel';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('tysk-9:klaer-og-handel', 'die Kleidung', 'klærne', 0),
+  ('tysk-9:klaer-og-handel', 'die Hose', 'buksa', 1),
+  ('tysk-9:klaer-og-handel', 'der Rock', 'skjørtet', 2),
+  ('tysk-9:klaer-og-handel', 'das Kleid', 'kjolen', 3),
+  ('tysk-9:klaer-og-handel', 'die Jacke', 'jakka', 4),
+  ('tysk-9:klaer-og-handel', 'der Pullover', 'genseren', 5),
+  ('tysk-9:klaer-og-handel', 'die Schuhe', 'skoene', 6),
+  ('tysk-9:klaer-og-handel', 'die Mütze', 'lua', 7),
+  ('tysk-9:klaer-og-handel', 'rot, blau, schwarz', 'rød, blå, svart', 8),
+  ('tysk-9:klaer-og-handel', 'die Größe', 'størrelsen', 9),
+  ('tysk-9:klaer-og-handel', 'anprobieren', 'å prøve på (klær)', 10),
+  ('tysk-9:klaer-og-handel', 'Das ist zu teuer.', 'Det er for dyrt.', 11),
+  ('tysk-9:klaer-og-handel', 'Wie viel kostet das?', 'Hva koster det?', 12),
+  ('tysk-9:klaer-og-handel', 'billig / teuer', 'billig / dyr', 13),
+  ('tysk-9:klaer-og-handel', 'Ich nehme ihn.', 'Jeg tar den (om et hankjønnsord).', 14),
+  ('tysk-9:klaer-og-handel', 'die Umkleidekabine', 'prøverommet', 15);
+delete from public.quiz_sporsmal where tema_id = 'tysk-9:klaer-og-handel';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('tysk-9:klaer-og-handel', 'q01', 'flervalg', 'Hva betyr «die Hose»?', array['Buksa', 'Skjørtet', 'Jakka', 'Sokkene']::text[], 0, 'Skjørtet heter «der Rock».', true, true, 0),
+  ('tysk-9:klaer-og-handel', 'q02', 'flervalg', 'Hvordan spør du hva noe koster?', array['Wo ist das?', 'Wie heißt das?', 'Wie viel kostet das?', 'Was ist das?']::text[], 2, 'Du kan også si «Was kostet das?».', true, true, 1),
+  ('tysk-9:klaer-og-handel', 'q03', 'flervalg', 'Hva betyr «Kann ich das anprobieren?»?', array['Kan jeg kjøpe dette?', 'Kan jeg prøve dette på?', 'Kan jeg levere dette tilbake?', 'Kan jeg få rabatt?']::text[], 1, '«anprobieren» betyr å prøve på.', true, true, 2),
+  ('tysk-9:klaer-og-handel', 'q04', 'flervalg', 'Hva betyr «Das ist zu teuer»?', array['Det er for stort', 'Det er for lite', 'Det er for billig', 'Det er for dyrt']::text[], 3, '«teuer» betyr dyr.', true, true, 3),
+  ('tysk-9:klaer-og-handel', 'q05', 'flervalg', 'Hvilken farge er «gelb»?', array['Grønn', 'Blå', 'Gul', 'Rød']::text[], 2, 'Grønn heter «grün».', true, true, 4),
+  ('tysk-9:klaer-og-handel', 'q06', 'flervalg', 'Hva betyr «Welche Größe haben Sie?»?', array['Hvilken størrelse bruker De?', 'Hvilken farge liker De?', 'Hvor mye penger har De?', 'Hvor gammel er De?']::text[], 0, '«die Größe» betyr størrelsen.', true, true, 5),
+  ('tysk-9:klaer-og-handel', 'q07', 'flervalg', 'Du vil kjøpe genseren (der Pullover). Hva sier du?', array['Ich nehme sie.', 'Ich nehme es.', 'Ich nehme er.', 'Ich nehme ihn.']::text[], 3, '«der Pullover» er hankjønn, og som objekt blir pronomenet «ihn».', true, true, 6),
+  ('tysk-9:klaer-og-handel', 'q08', 'flervalg', 'Hva er «die Umkleidekabine»?', array['Kassen', 'Prøverommet', 'Skoavdelingen', 'Utgangen']::text[], 1, '«umkleiden» betyr å skifte klær.', true, true, 7),
+  ('tysk-9:klaer-og-handel', 'q09', 'flervalg', 'Hvordan sier du «den røde jakka»?', array['die rote Jacke', 'die Jacke rot', 'der rote Jacke', 'die roten Jacke']::text[], 0, 'Etter «die» får adjektivet endingen -e.', true, false, 8),
+  ('tysk-9:klaer-og-handel', 'q10', 'flervalg', 'Hva betyr «billig»?', array['Dyr', 'Pen', 'Billig', 'Stor']::text[], 2, 'Dyr heter «teuer».', true, false, 9),
+  ('tysk-9:klaer-og-handel', 'm01', 'sant-usant', '«das Kleid» betyr kjolen.', array['Sant', 'Usant']::text[], 0, 'Flertall er «die Kleider», som også kan bety klær.', false, true, 10),
+  ('tysk-9:klaer-og-handel', 'm02', 'sant-usant', 'I Tyskland betaler man med norske kroner.', array['Sant', 'Usant']::text[], 1, 'Tyskland bruker euro.', false, true, 11),
+  ('tysk-9:klaer-og-handel', 'm03', 'sant-usant', '«Das passt mir nicht» betyr at plagget ikke passer.', array['Sant', 'Usant']::text[], 0, '«passen» betyr å passe.', false, true, 12),
+  ('tysk-9:klaer-og-handel', 'm04', 'sant-usant', '«schwarz» betyr hvit.', array['Sant', 'Usant']::text[], 1, '«schwarz» betyr svart. Hvit heter «weiß».', false, true, 13),
+  ('tysk-9:klaer-og-handel', 'm05', 'flervalg', 'Hva betyr «im Angebot»?', array['Utsolgt', 'På tilbud', 'I butikken', 'Ny']::text[], 1, 'Varer på tilbud er billigere enn vanlig.', false, true, 14),
+  ('tysk-9:klaer-og-handel', 'm06', 'flervalg', 'Hva betyr «Die Jacke steht dir gut»?', array['Jakka kler deg', 'Jakka står i skapet', 'Jakka er for stor', 'Jakka er dyr']::text[], 0, '«stehen» brukes her i betydningen å kle noen.', false, true, 15),
+  ('tysk-9:klaer-og-handel', 'm07', 'flervalg', 'Hvordan leser du prisen 29,99 €?', array['zwei neun neun neun Euro', 'neunundzwanzig Komma neunundneunzig', 'neunundzwanzig Euro neunundneunzig', 'dreißig Euro']::text[], 2, 'Først eurobeløpet, så centene.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('tysk-9:klaer-og-handel', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Tysk: Å fortelle om fortiden – Perfekt
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('tysk-9:fortid', 'tysk-9', 'fortid', 'Å fortelle om fortiden – Perfekt', 'Hvordan du forteller om noe som har skjedd med perfektum på tysk, regelrette og uregelrette partisipper, når du bruker haben og sein, ordstilling, war og hatte, og nyttige tidsuttrykk.', array[3, 6]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('tysk-9:fortid', '## Å fortelle om fortiden
+
+Når du forteller hva du **har gjort** – i helgen, i ferien eller i går – bruker du som regel **perfektum** (*das Perfekt*) på tysk. Det er den vanligste fortidsformen i muntlig tysk og i uformelle tekster, og den ligner norsk: *Ich **habe** Fußball **gespielt**.* – Jeg har spilt fotball / jeg spilte fotball.
+
+## Slik lages perfektum
+
+Perfektum = **haben** eller **sein** + **partisipp** (*Partizip II*).
+
+**Regelrette verb**: **ge-** + stamme + **-t**
+
+- spielen → **gespielt**, machen → **gemacht**, kaufen → **gekauft**, hören → **gehört**
+
+**Uregelrette verb**: **ge-** + stamme, ofte med endret vokal, + **-en**. Disse må læres:
+
+- essen → **gegessen**, trinken → **getrunken**, sehen → **gesehen**, lesen → **gelesen**, schreiben → **geschrieben**
+
+**Spesielle tilfeller**:
+
+- Verb på **-ieren** får ikke *ge-*: telefonieren → **telefoniert**
+- **Delbare verb** får *ge-* i midten: aufstehen → **aufgestanden**, einkaufen → **eingekauft**
+- Verb med forstavelsene **be-**, **ver-** og **er-** får ikke *ge-*: besuchen → **besucht**, vergessen → **vergessen**
+
+## Haben eller sein?
+
+De fleste verb bruker **haben**. Verb som uttrykker **bevegelse** fra ett sted til et annet eller en **forandring**, bruker **sein**:
+
+- **gehen** → *ich **bin** gegangen*
+- **fahren** → *ich **bin** gefahren*
+- **kommen** → *ich **bin** gekommen*
+- **fliegen** → *ich **bin** geflogen*
+- Også **bleiben** (bli) og **sein** (være): *ich **bin** geblieben*, *ich **bin** gewesen*
+
+## Ordstilling
+
+Hjelpeverbet står på **andre plass**, og partisippet står **til slutt**:
+
+- *Ich **habe** gestern Fußball **gespielt**.*
+- *Letzten Sommer **sind** wir nach Spanien **geflogen**.*
+
+## War og hatte
+
+For **sein** og **haben** bruker man oftere preteritum: **ich war** (jeg var) og **ich hatte** (jeg hadde). *Es **war** toll! Ich **hatte** viel Spaß.* – Det var kjempegøy! Jeg hadde det veldig morsomt.
+
+## Tidsuttrykk
+
+**gestern** (i går), **vorgestern** (i forgårs), **letzte Woche** (forrige uke), **letztes Wochenende** (forrige helg), **letzten Sommer** (i fjor sommer) og **vor zwei Tagen** (for to dager siden).
+
+## Eksempeltekst
+
+*Letztes Wochenende **bin** ich mit meiner Familie nach Hamburg **gefahren**. Am Samstag **haben** wir den Hafen **gesehen** und Fischbrötchen **gegessen**. Am Abend **sind** wir ins Kino **gegangen**. Es **war** super!*', '{"label":"Perfekt","children":[{"label":"Formen","children":[{"label":"haben/sein + partisipp"},{"label":"Vanligst i muntlig tysk"}]},{"label":"Partisipper","children":[{"label":"ge- … -t","note":"gespielt"},{"label":"ge- … -en","note":"gegessen"},{"label":"-ieren uten ge-"},{"label":"aufgestanden"}]},{"label":"haben eller sein","children":[{"label":"haben: de fleste"},{"label":"sein: bevegelse"},{"label":"gegangen, gefahren, geblieben"}]},{"label":"Ordstilling","children":[{"label":"Hjelpeverb på plass 2"},{"label":"Partisipp sist"}]},{"label":"Mer","children":[{"label":"war og hatte"},{"label":"gestern"},{"label":"letztes Wochenende"},{"label":"vor zwei Tagen"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'tysk-9:fortid';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('tysk-9:fortid', 'das Perfekt', 'perfektum – den vanligste fortidsformen i muntlig tysk', 0),
+  ('tysk-9:fortid', 'ich habe gespielt', 'jeg har spilt / jeg spilte', 1),
+  ('tysk-9:fortid', 'ich habe gemacht', 'jeg har gjort / jeg gjorde', 2),
+  ('tysk-9:fortid', 'ich habe gegessen', 'jeg har spist / jeg spiste', 3),
+  ('tysk-9:fortid', 'ich habe getrunken', 'jeg har drukket / jeg drakk', 4),
+  ('tysk-9:fortid', 'ich habe gesehen', 'jeg har sett / jeg så', 5),
+  ('tysk-9:fortid', 'ich bin gegangen', 'jeg har gått / jeg gikk', 6),
+  ('tysk-9:fortid', 'ich bin gefahren', 'jeg har reist, kjørt / jeg reiste, kjørte', 7),
+  ('tysk-9:fortid', 'ich bin gekommen', 'jeg har kommet / jeg kom', 8),
+  ('tysk-9:fortid', 'ich bin geblieben', 'jeg har blitt / jeg ble (værende)', 9),
+  ('tysk-9:fortid', 'ich war', 'jeg var', 10),
+  ('tysk-9:fortid', 'ich hatte', 'jeg hadde', 11),
+  ('tysk-9:fortid', 'gestern', 'i går', 12),
+  ('tysk-9:fortid', 'letztes Wochenende', 'forrige helg', 13),
+  ('tysk-9:fortid', 'vor zwei Tagen', 'for to dager siden', 14),
+  ('tysk-9:fortid', 'Partisippet står sist', 'Ich habe gestern Fußball gespielt.', 15);
+delete from public.quiz_sporsmal where tema_id = 'tysk-9:fortid';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('tysk-9:fortid', 'q01', 'flervalg', 'Hva er partisippet av «spielen»?', array['spielt', 'gespielen', 'gespielt', 'spielte']::text[], 2, 'Regelrette verb får ge- + stamme + -t.', true, true, 0),
+  ('tysk-9:fortid', 'q02', 'flervalg', 'Hvilket hjelpeverb bruker du med «fahren» i perfektum?', array['sein', 'haben', 'werden', 'möchten']::text[], 0, '«fahren» uttrykker bevegelse: «ich bin gefahren».', true, true, 1),
+  ('tysk-9:fortid', 'q03', 'flervalg', 'Hvilken setning er riktig?', array['Ich habe gespielt gestern Fußball.', 'Ich gestern habe Fußball gespielt.', 'Gestern ich habe Fußball gespielt.', 'Ich habe gestern Fußball gespielt.']::text[], 3, 'Hjelpeverbet står på andre plass og partisippet til slutt.', true, true, 2),
+  ('tysk-9:fortid', 'q04', 'flervalg', 'Hva er partisippet av «essen»?', array['geesst', 'gegessen', 'gessen', 'geessen']::text[], 1, '«essen» er uregelrett: gegessen.', true, true, 3),
+  ('tysk-9:fortid', 'q05', 'flervalg', 'Hvordan sier du «Jeg reiste til Berlin»?', array['Ich habe nach Berlin gefahren.', 'Ich fahre nach Berlin gefahren.', 'Ich bin nach Berlin gefahrt.', 'Ich bin nach Berlin gefahren.']::text[], 3, '«fahren» bruker «sein», og partisippet er «gefahren».', true, true, 4),
+  ('tysk-9:fortid', 'q06', 'flervalg', 'Hva betyr «Es war toll»?', array['Det er gal', 'Det var kjempebra', 'Det blir fint', 'Det var kjedelig']::text[], 1, '«toll» betyr fantastisk eller kjempebra.', true, true, 5),
+  ('tysk-9:fortid', 'q07', 'flervalg', 'Hva betyr «letztes Wochenende»?', array['Forrige helg', 'Neste helg', 'Hver helg', 'Helgen som kommer']::text[], 0, '«letzt» betyr forrige eller siste.', true, true, 6),
+  ('tysk-9:fortid', 'q08', 'flervalg', 'Hva er partisippet av «aufstehen»?', array['geaufstanden', 'aufstehen', 'aufgestanden', 'aufgesteht']::text[], 2, 'Delbare verb får ge- i midten.', true, true, 7),
+  ('tysk-9:fortid', 'q09', 'flervalg', 'Hva er «ich hatte»?', array['Presens av haben', 'Perfektum av sein', 'Futurum av haben', 'Preteritum av haben: jeg hadde']::text[], 3, '«hatte» brukes oftere enn «habe gehabt».', true, false, 8),
+  ('tysk-9:fortid', 'q10', 'flervalg', 'Hvordan lages partisippet av mange regelrette verb?', array['ge- + stamme + -t', 'stamme + -en', 'ge- + stamme + -en', 'stamme + -te']::text[], 0, 'For eksempel machen → gemacht.', true, false, 9),
+  ('tysk-9:fortid', 'm01', 'sant-usant', 'Perfektum er den vanligste fortidsformen i muntlig tysk.', array['Sant', 'Usant']::text[], 0, 'Preteritum brukes mer i skriftlige fortellinger.', false, true, 10),
+  ('tysk-9:fortid', 'm02', 'sant-usant', 'Verb på -ieren får ge- i partisippet, som «getelefoniert».', array['Sant', 'Usant']::text[], 1, 'Det heter «telefoniert», uten ge-.', false, true, 11),
+  ('tysk-9:fortid', 'm03', 'sant-usant', '«Ich bin zu Hause geblieben» betyr jeg ble hjemme.', array['Sant', 'Usant']::text[], 0, '«bleiben» bruker «sein» i perfektum.', false, true, 12),
+  ('tysk-9:fortid', 'm04', 'sant-usant', 'I perfektum står partisippet på andre plass i setningen.', array['Sant', 'Usant']::text[], 1, 'Hjelpeverbet står på andre plass, og partisippet står til slutt.', false, true, 13),
+  ('tysk-9:fortid', 'm05', 'flervalg', 'Hva er partisippet av «trinken»?', array['getrinkt', 'getrunken', 'getranken', 'trunken']::text[], 1, '«trinken» er uregelrett.', false, true, 14),
+  ('tysk-9:fortid', 'm06', 'flervalg', 'Hva betyr «vor zwei Tagen»?', array['For to dager siden', 'Om to dager', 'I to dager', 'Før klokka to']::text[], 0, '«vor» + tid betyr «for … siden».', false, true, 15),
+  ('tysk-9:fortid', 'm07', 'flervalg', 'Hvilket hjelpeverb bruker du med «sehen»?', array['sein', 'werden', 'haben', 'mögen']::text[], 2, '«sehen» uttrykker ikke bevegelse: «ich habe gesehen».', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('tysk-9:fortid', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Tysk: Høytider og tradisjoner
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('tysk-9:hoytider-og-tradisjoner', 'tysk-9', 'hoytider-og-tradisjoner', 'Høytider og tradisjoner', 'Jul, nyttår, påske, karneval og andre tradisjoner i tyskspråklige land, hvordan du gratulerer og ønsker god høytid på tysk, og likheter og forskjeller med Norge.', array[8, 9]::int[], 5, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('tysk-9:hoytider-og-tradisjoner', '## Jul – Weihnachten
+
+Advent er en viktig tid i tyskspråklige land. Mange har en **Adventskranz**, en krans med fire lys, og barna har **Adventskalender** – begge deler er tyske tradisjoner. I byene er det **Weihnachtsmärkte**, julemarkeder med gløgg (*Glühwein*), pepperkaker (*Lebkuchen*) og julepynt.
+
+- **Der Nikolaustag** (6. desember): Kvelden før setter barna fram skoene sine, og om morgenen er de fylt med godteri og nøtter.
+- **Heiligabend** (24. desember): Som i Norge åpner man gavene på julaften. Gavene kommer fra **das Christkind** eller **der Weihnachtsmann**.
+- **Der erste und zweite Weihnachtstag** (25. og 26. desember) er fridager.
+
+Juletreet (*der Weihnachtsbaum*) er en tradisjon med røtter i tyskspråklige områder, og julesangen **«Stille Nacht, heilige Nacht»**, som vi kjenner som «Glade jul», ble skrevet i **Østerrike** i 1818. Man ønsker hverandre **«Frohe Weihnachten!»**.
+
+## Nyttår – Silvester
+
+Nyttårsaften heter **Silvester** og feires med fyrverkeri og fest. Før nyttår ønsker man hverandre **«Guten Rutsch!»**, og etter midnatt sier man **«Frohes neues Jahr!»**.
+
+## Påske – Ostern
+
+I påsken gjemmer **der Osterhase** (påskeharen) malte egg og sjokolade i hagen, og barna leter etter dem. Man ønsker hverandre **«Frohe Ostern!»**.
+
+## Karneval – Fasching
+
+Før fasten feires **Karneval** eller **Fasching** med kostymer, musikk og opptog. Høydepunktet er **Rosenmontag**, med store parader i byer som **Köln**, **Mainz** og **Düsseldorf**.
+
+## Andre tradisjoner
+
+- **Sankt Martin** (11. november): Barn går i tog med **lykter** (*Laternen*) og synger sanger.
+- **Das Oktoberfest** i München begynner allerede i september og samler millioner av besøkende.
+- **Der Tag der Deutschen Einheit** (3. oktober) er Tysklands nasjonaldag, til minne om gjenforeningen i 1990.
+- **Die Schultüte**: På første skoledag får barna en stor kjegle fylt med godteri og skolesaker.
+- **Der Geburtstag**: Mange mener det bringer ulykke å gratulere noen **før** bursdagen. Man sier **«Alles Gute zum Geburtstag!»** eller **«Herzlichen Glückwunsch!»**.
+
+## Likheter og forskjeller
+
+Mange tyske tradisjoner ligner norske: julaften 24. desember, adventslys og påskeegg. Samtidig har vi ikke karneval eller Sankt Martin på samme måte i Norge. Å sammenligne tradisjoner gir innsikt i både egen og andres kultur.', '{"label":"Høytider og tradisjoner","children":[{"label":"Jul","children":[{"label":"Adventskranz og -kalender"},{"label":"Weihnachtsmarkt"},{"label":"Nikolaustag"},{"label":"Heiligabend"}]},{"label":"Nyttår og påske","children":[{"label":"Silvester"},{"label":"Guten Rutsch!"},{"label":"Osterhase"}]},{"label":"Karneval","children":[{"label":"Fasching"},{"label":"Rosenmontag"},{"label":"Köln og Mainz"}]},{"label":"Andre tradisjoner","children":[{"label":"Sankt Martin"},{"label":"Oktoberfest"},{"label":"3. oktober"},{"label":"Schultüte"}]},{"label":"Hilsener","children":[{"label":"Frohe Weihnachten!"},{"label":"Frohe Ostern!"},{"label":"Alles Gute zum Geburtstag!"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'tysk-9:hoytider-og-tradisjoner';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('tysk-9:hoytider-og-tradisjoner', 'Weihnachten', 'jul', 0),
+  ('tysk-9:hoytider-og-tradisjoner', 'Heiligabend', 'julaften, 24. desember', 1),
+  ('tysk-9:hoytider-og-tradisjoner', 'der Adventskranz', 'adventskransen med fire lys', 2),
+  ('tysk-9:hoytider-og-tradisjoner', 'der Nikolaustag', '6. desember, da barna får godteri i skoene', 3),
+  ('tysk-9:hoytider-og-tradisjoner', 'der Weihnachtsmarkt', 'julemarkedet', 4),
+  ('tysk-9:hoytider-og-tradisjoner', 'Frohe Weihnachten!', 'God jul!', 5),
+  ('tysk-9:hoytider-og-tradisjoner', 'Silvester', 'nyttårsaften', 6),
+  ('tysk-9:hoytider-og-tradisjoner', 'Guten Rutsch!', 'Godt nytt år! (sagt før nyttår)', 7),
+  ('tysk-9:hoytider-og-tradisjoner', 'Ostern', 'påske', 8),
+  ('tysk-9:hoytider-og-tradisjoner', 'der Osterhase', 'påskeharen, som gjemmer egg', 9),
+  ('tysk-9:hoytider-og-tradisjoner', 'Fasching / Karneval', 'karneval før fasten', 10),
+  ('tysk-9:hoytider-og-tradisjoner', 'Rosenmontag', 'Høydepunktet i karnevalet, med store parader', 11),
+  ('tysk-9:hoytider-og-tradisjoner', 'Sankt Martin', '11. november, da barna går i lyktetog', 12),
+  ('tysk-9:hoytider-og-tradisjoner', 'Tag der Deutschen Einheit', 'Tysklands nasjonaldag, 3. oktober', 13),
+  ('tysk-9:hoytider-og-tradisjoner', 'die Schultüte', 'Kjegle med godteri og gaver på første skoledag', 14),
+  ('tysk-9:hoytider-og-tradisjoner', 'Alles Gute zum Geburtstag!', 'Gratulerer med dagen!', 15);
+delete from public.quiz_sporsmal where tema_id = 'tysk-9:hoytider-og-tradisjoner';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('tysk-9:hoytider-og-tradisjoner', 'q01', 'flervalg', 'Når får tyske barn julegaver?', array['1. juledag', 'Julaften, 24. desember', 'Nyttårsaften', '6. januar']::text[], 1, 'Som i Norge åpnes gavene på julaften.', true, true, 0),
+  ('tysk-9:hoytider-og-tradisjoner', 'q02', 'flervalg', 'Hva skjer på Nikolaustag 6. desember?', array['Man tenner julelysene', 'Man pynter treet', 'Man spiser påskeegg', 'Barn får godteri i skoene de har satt fram']::text[], 3, 'Skoene settes fram kvelden før.', true, true, 1),
+  ('tysk-9:hoytider-og-tradisjoner', 'q03', 'flervalg', 'Hva betyr «Guten Rutsch!»?', array['Godt nytt år! (sagt før nyttår)', 'God tur!', 'God jul!', 'Lykke til på skiene!']::text[], 0, 'Man ønsker hverandre en god «skli» inn i det nye året.', true, true, 2),
+  ('tysk-9:hoytider-og-tradisjoner', 'q04', 'flervalg', 'Hva er Tysklands nasjonaldag?', array['17. mai', '14. juli', '3. oktober', '1. august']::text[], 2, 'Dagen minner om gjenforeningen i 1990.', true, true, 3),
+  ('tysk-9:hoytider-og-tradisjoner', 'q05', 'flervalg', 'Hvem gjemmer påskeeggene ifølge tysk tradisjon?', array['Der Osterhase', 'Der Nikolaus', 'Das Christkind', 'Der Weihnachtsmann']::text[], 0, 'Barna leter etter eggene i hagen.', true, true, 4),
+  ('tysk-9:hoytider-og-tradisjoner', 'q06', 'flervalg', 'Hva gjør barn på Sankt Martin 11. november?', array['Kler seg ut som hekser', 'Kaster tomater', 'Går i tog med lykter', 'Hopper over bål']::text[], 2, 'Barna lager ofte lyktene selv.', true, true, 5),
+  ('tysk-9:hoytider-og-tradisjoner', 'q07', 'flervalg', 'Hva er en «Schultüte»?', array['En skolesekk', 'En pose med skolemat', 'En skoleuniform', 'En stor kjegle med godteri og gaver på første skoledag']::text[], 3, 'Den skal gjøre første skoledag litt søtere.', true, true, 6),
+  ('tysk-9:hoytider-og-tradisjoner', 'q08', 'flervalg', 'Hvor ble julesangen «Stille Nacht» (Glade jul) skrevet?', array['Norge', 'Østerrike', 'Sverige', 'England']::text[], 1, 'Sangen ble skrevet i 1818.', true, true, 7),
+  ('tysk-9:hoytider-og-tradisjoner', 'q09', 'flervalg', 'Hvilken dag er høydepunktet i karnevalet i Köln?', array['Silvester', 'Heiligabend', 'Nikolaustag', 'Rosenmontag']::text[], 3, 'Da går store parader gjennom byen.', true, false, 8),
+  ('tysk-9:hoytider-og-tradisjoner', 'q10', 'flervalg', 'Hvordan gratulerer du med dagen på tysk?', array['Alles Gute zum Geburtstag!', 'Guten Appetit!', 'Frohe Ostern!', 'Gute Nacht!']::text[], 0, 'Du kan også si «Herzlichen Glückwunsch!».', true, false, 9),
+  ('tysk-9:hoytider-og-tradisjoner', 'm01', 'sant-usant', 'Adventskransen med fire lys er en tysk tradisjon.', array['Sant', 'Usant']::text[], 0, 'Den ble tatt i bruk i Tyskland på 1800-tallet.', false, true, 10),
+  ('tysk-9:hoytider-og-tradisjoner', 'm02', 'sant-usant', 'Oktoberfest begynner først i november.', array['Sant', 'Usant']::text[], 1, 'Oktoberfest begynner allerede i september.', false, true, 11),
+  ('tysk-9:hoytider-og-tradisjoner', 'm03', 'sant-usant', '«Frohe Weihnachten!» betyr God jul!', array['Sant', 'Usant']::text[], 0, '«froh» betyr glad.', false, true, 12),
+  ('tysk-9:hoytider-og-tradisjoner', 'm04', 'sant-usant', 'I Tyskland er det vanlig å gratulere noen med bursdagen dagen før.', array['Sant', 'Usant']::text[], 1, 'Mange mener det bringer ulykke å gratulere før dagen.', false, true, 13),
+  ('tysk-9:hoytider-og-tradisjoner', 'm05', 'flervalg', 'Hva heter nyttårsaften på tysk?', array['Neujahr', 'Silvester', 'Heiligabend', 'Ostern']::text[], 1, '«Neujahr» er første nyttårsdag.', false, true, 14),
+  ('tysk-9:hoytider-og-tradisjoner', 'm06', 'flervalg', 'Hva er «der Adventskranz»?', array['En krans med fire lys', 'En julekake', 'En julesang', 'En kalender']::text[], 0, 'Man tenner ett nytt lys hver adventssøndag.', false, true, 15),
+  ('tysk-9:hoytider-og-tradisjoner', 'm07', 'flervalg', 'Hvorfor feires Tag der Deutschen Einheit 3. oktober?', array['Til minne om slutten på andre verdenskrig', 'Fordi det er høstferie', 'Til minne om gjenforeningen i 1990', 'Fordi Oktoberfest slutter']::text[], 2, 'Øst- og Vest-Tyskland ble ett land 3. oktober 1990.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('tysk-9:hoytider-og-tradisjoner', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Fransk (9): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'fransk-9' and slug not in ('mat-og-drikke', 'hjemmet-og-hverdagen', 'byen-og-veibeskrivelse', 'klaer-og-handel', 'fortid', 'hoytider-og-tradisjoner');
+
+-- Fransk: Mat og drikke
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('fransk-9:mat-og-drikke', 'fransk-9', 'mat-og-drikke', 'Mat og drikke', 'Franske måltider, mat og drikke, delingsartikkelen du, de la og des, verbene boire og prendre, og hvordan du bestiller på restaurant.', array[2, 4]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('fransk-9:mat-og-drikke', '## Måltider – les repas
+
+- **le petit-déjeuner** – frokosten. Mange franskmenn spiser en **tartine** (brødskive med smør og syltetøy) eller en **croissant**, og drikker **café au lait** eller **chocolat chaud** – ofte fra en bolle.
+- **le déjeuner** – lunsjen, rundt klokka tolv–ett. Den består ofte av flere retter: **l''entrée** (forrett), **le plat principal** (hovedrett), **le fromage** og **le dessert**.
+- **le goûter** – ettermiddagsmat for barn, rundt klokka fire.
+- **le dîner** – middagen, gjerne rundt halv åtte eller åtte om kvelden.
+
+## Mat og drikke
+
+- **le pain** (brødet), **le beurre** (smøret), **la confiture** (syltetøyet), **le fromage** (osten), **le jambon** (skinka), **l''œuf** (egget)
+- **la viande** (kjøttet), **le poulet** (kyllingen), **le poisson** (fisken)
+- **les légumes** (grønnsakene), **les fruits** (frukten): **la pomme** (eplet), **la fraise** (jordbæret)
+- **les pâtes** (pasta), **le riz** (risen), **les frites** (pommes frites), **la soupe**, **la salade**, **le gâteau** (kaken)
+- **l''eau** (vannet), **le jus d''orange**, **le lait** (melka), **le thé**, **le café**
+
+## Delingsartikkelen – du, de la, des
+
+Når du snakker om en **ubestemt mengde** av noe, bruker fransk **delingsartikkel**:
+
+- **du** (hankjønn): *Je mange **du** pain.* – Jeg spiser brød.
+- **de la** (hunkjønn): *Je prends **de la** confiture.*
+- **de l''** (foran vokal): *Je bois **de l''**eau.*
+- **des** (flertall): *Je mange **des** fraises.*
+
+Etter nektelse blir alle til **de**: *Je ne mange pas **de** viande.* Men etter *aimer*, *adorer* og *préférer* bruker du **bestemt artikkel**: *J''aime **le** chocolat.*
+
+## Sulten og tørst
+
+På fransk «har» man sult og tørst: **J''ai faim.** – Jeg er sulten. **J''ai soif.** – Jeg er tørst.
+
+## Viktige verb
+
+- **boire** (drikke): je bois, tu bois, il boit, nous **buvons**, vous **buvez**, ils **boivent**
+- **prendre** (ta): je prends, tu prends, il prend, nous prenons, vous prenez, ils **prennent**
+- **je voudrais** (jeg vil gjerne ha) – den høflige formen av *vouloir*
+
+## På restaurant
+
+- **La carte, s''il vous plaît.** – Menyen, takk. *Le menu* betyr en fast meny til fast pris.
+- **Je voudrais une salade, s''il vous plaît.** – Jeg vil gjerne ha en salat.
+- **Comme plat principal, je prends le poulet.** – Til hovedrett tar jeg kyllingen.
+- **Bon appétit !** – God appetitt! **Santé !** – Skål!
+- **L''addition, s''il vous plaît !** – Regningen, takk!
+
+I Frankrike er service vanligvis inkludert i prisen (*service compris*), men mange legger igjen litt ekstra.', '{"label":"Mat og drikke","children":[{"label":"Måltider","children":[{"label":"petit-déjeuner"},{"label":"déjeuner","note":"flere retter"},{"label":"goûter"},{"label":"dîner"}]},{"label":"Mat og drikke","children":[{"label":"pain, fromage, jambon"},{"label":"légumes og fruits"},{"label":"eau, lait, jus"}]},{"label":"Delingsartikkel","children":[{"label":"du, de la, de l'', des"},{"label":"pas de"},{"label":"aimer + le/la/les"}]},{"label":"Verb","children":[{"label":"boire"},{"label":"prendre"},{"label":"je voudrais"},{"label":"J''ai faim / soif"}]},{"label":"Restaurant","children":[{"label":"la carte / le menu"},{"label":"Bon appétit !"},{"label":"L''addition"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'fransk-9:mat-og-drikke';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('fransk-9:mat-og-drikke', 'le petit-déjeuner', 'frokosten', 0),
+  ('fransk-9:mat-og-drikke', 'le déjeuner', 'lunsjen', 1),
+  ('fransk-9:mat-og-drikke', 'le goûter', 'ettermiddagsmat for barn', 2),
+  ('fransk-9:mat-og-drikke', 'le dîner', 'middagen om kvelden', 3),
+  ('fransk-9:mat-og-drikke', 'le pain', 'brødet', 4),
+  ('fransk-9:mat-og-drikke', 'le fromage', 'osten', 5),
+  ('fransk-9:mat-og-drikke', 'les légumes', 'grønnsakene', 6),
+  ('fransk-9:mat-og-drikke', 'les fruits', 'frukten', 7),
+  ('fransk-9:mat-og-drikke', 'le poulet', 'kyllingen', 8),
+  ('fransk-9:mat-og-drikke', 'l''eau', 'vannet', 9),
+  ('fransk-9:mat-og-drikke', 'J''ai faim. / J''ai soif.', 'Jeg er sulten. / Jeg er tørst.', 10),
+  ('fransk-9:mat-og-drikke', 'du, de la, de l'', des', 'delingsartikkel for ubestemt mengde: noe, litt', 11),
+  ('fransk-9:mat-og-drikke', 'Je voudrais …', 'Jeg vil gjerne ha …', 12),
+  ('fransk-9:mat-og-drikke', 'la carte', 'menyen på en restaurant', 13),
+  ('fransk-9:mat-og-drikke', 'L''addition, s''il vous plaît !', 'Regningen, takk!', 14),
+  ('fransk-9:mat-og-drikke', 'boire: je bois, nous buvons', 'å drikke: jeg drikker, vi drikker', 15),
+  ('fransk-9:mat-og-drikke', 'Bon appétit !', 'God appetitt!', 16);
+delete from public.quiz_sporsmal where tema_id = 'fransk-9:mat-og-drikke';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('fransk-9:mat-og-drikke', 'q01', 'flervalg', 'Hva er «le goûter»?', array['Frokost', 'Lunsj', 'Middag', 'Ettermiddagsmat for barn']::text[], 3, 'Barna spiser ofte goûter når de kommer hjem fra skolen.', true, true, 0),
+  ('fransk-9:mat-og-drikke', 'q02', 'flervalg', 'Hvordan sier du «Jeg er sulten»?', array['Je suis faim.', 'J''ai faim.', 'J''ai soif.', 'Je mange faim.']::text[], 1, 'På fransk «har» man sult.', true, true, 1),
+  ('fransk-9:mat-og-drikke', 'q03', 'flervalg', 'Hvilken artikkel passer: «Je mange … pain»?', array['du', 'de la', 'des', 'de l''']::text[], 0, '«pain» er hankjønn, og det er en ubestemt mengde.', true, true, 2),
+  ('fransk-9:mat-og-drikke', 'q04', 'flervalg', 'Hvordan bestiller du høflig?', array['Je veux un café !', 'Donne-moi un café.', 'Je voudrais un café, s''il vous plaît.', 'Un café, vite !']::text[], 2, '«Je voudrais» er høfligere enn «je veux».', true, true, 3),
+  ('fransk-9:mat-og-drikke', 'q05', 'flervalg', 'Hvordan ber du om regningen?', array['La carte, s''il vous plaît.', 'Bon appétit !', 'L''addition, s''il vous plaît.', 'Santé !']::text[], 2, '«l''addition» betyr regningen.', true, true, 4),
+  ('fransk-9:mat-og-drikke', 'q06', 'flervalg', 'Hva betyr «Je ne mange pas de viande»?', array['Jeg spiser ikke kjøtt', 'Jeg spiser mye kjøtt', 'Jeg liker kjøtt', 'Jeg har kjøtt']::text[], 0, 'Etter nektelse blir delingsartikkelen til «de».', true, true, 5),
+  ('fransk-9:mat-og-drikke', 'q07', 'flervalg', 'Hva er riktig form av «boire» med «nous»?', array['nous boivons', 'nous boirons', 'nous boit', 'nous buvons']::text[], 3, '«boire» er uregelrett: nous buvons, vous buvez.', true, true, 6),
+  ('fransk-9:mat-og-drikke', 'q08', 'flervalg', 'Hva betyr «la carte» på en restaurant?', array['Kartet', 'Menyen', 'Regningen', 'Bordet']::text[], 1, '«le menu» er derimot en fast meny.', true, true, 7),
+  ('fransk-9:mat-og-drikke', 'q09', 'flervalg', 'Hvilket ord betyr grønnsaker?', array['les légumes', 'les fruits', 'les pâtes', 'les frites']::text[], 0, '«les fruits» betyr frukt.', true, false, 8),
+  ('fransk-9:mat-og-drikke', 'q10', 'flervalg', 'Hvilken artikkel bruker du etter «aimer»: «J''aime … chocolat»?', array['du', 'un', 'le', 'de']::text[], 2, 'Etter aimer, adorer og préférer bruker man bestemt artikkel.', true, false, 9),
+  ('fransk-9:mat-og-drikke', 'm01', 'sant-usant', 'Mange franske barn drikker kakao fra en bolle til frokost.', array['Sant', 'Usant']::text[], 0, 'En bolle heter «un bol» på fransk.', false, true, 10),
+  ('fransk-9:mat-og-drikke', 'm02', 'sant-usant', '«J''ai soif» betyr jeg er sulten.', array['Sant', 'Usant']::text[], 1, '«J''ai soif» betyr jeg er tørst.', false, true, 11),
+  ('fransk-9:mat-og-drikke', 'm03', 'sant-usant', 'I Frankrike består lunsjen ofte av flere retter.', array['Sant', 'Usant']::text[], 0, 'Forrett, hovedrett, ost og dessert er vanlig.', false, true, 12),
+  ('fransk-9:mat-og-drikke', 'm04', 'sant-usant', '«le menu» betyr alltid hele menyen på en restaurant.', array['Sant', 'Usant']::text[], 1, '«le menu» er en fast meny til fast pris. Hele menyen heter «la carte».', false, true, 13),
+  ('fransk-9:mat-og-drikke', 'm05', 'flervalg', 'Hva betyr «de l''eau»?', array['Vannet', 'Noe vann', 'Ikke vann', 'Mye vann']::text[], 1, 'Delingsartikkelen viser en ubestemt mengde.', false, true, 14),
+  ('fransk-9:mat-og-drikke', 'm06', 'flervalg', 'Hva betyr «Je prends le poisson»?', array['Jeg tar fisken', 'Jeg liker ikke fisk', 'Jeg fisker', 'Jeg har fisk']::text[], 0, '«prendre» brukes ofte når man bestiller.', false, true, 15),
+  ('fransk-9:mat-og-drikke', 'm07', 'flervalg', 'Hva er «le fromage»?', array['Brød', 'Smør', 'Ost', 'Skinke']::text[], 2, 'Frankrike har flere hundre ostesorter.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('fransk-9:mat-og-drikke', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Fransk: Hjemmet og hverdagen
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('fransk-9:hjemmet-og-hverdagen', 'fransk-9', 'hjemmet-og-hverdagen', 'Hjemmet og hverdagen', 'Rom og møbler på fransk, il y a og preposisjoner for plassering, en vanlig dag med refleksive verb, verbene aller og faire, og ord som hjelper deg å fortelle i rekkefølge.', array[3, 5]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('fransk-9:hjemmet-og-hverdagen', '## Hjemmet – la maison
+
+Mange franskmenn i byene bor i **un appartement** (en leilighet), mens andre bor i **une maison** (et hus). Rommene – **les pièces** – heter:
+
+- **la cuisine** – kjøkkenet
+- **le salon** – stua
+- **la chambre** – soverommet
+- **la salle de bains** – badet, **les toilettes** – toalettet
+- **le jardin** – hagen, **le balcon** og **le garage**
+
+## Mitt rom – ma chambre
+
+Møbler: **le lit** (senga), **la table** (bordet), **le bureau** (skrivebordet), **la chaise** (stolen), **l''armoire** (skapet), **l''étagère** (hylla), **le canapé** (sofaen), **la lampe** og **la fenêtre** (vinduet).
+
+- **Dans ma chambre, il y a un lit et un bureau.** – På rommet mitt er det en seng og et skrivebord. **Il y a** betyr «det er» eller «det finnes».
+- **Ma chambre est petite mais confortable.** – Rommet mitt er lite, men koselig.
+
+Preposisjoner for plassering: **dans** (i), **sur** (på), **sous** (under), **devant** (foran), **derrière** (bak), **à côté de** (ved siden av) og **en face de** (overfor).
+
+## Hverdagen – la vie quotidienne
+
+- **Je me réveille à sept heures.** – Jeg våkner klokka sju.
+- **Je me lève, je me douche et je m''habille.** – Jeg står opp, dusjer og kler på meg.
+- **Je prends le petit-déjeuner.** – Jeg spiser frokost.
+- **Je vais à l''école en bus.** – Jeg tar bussen til skolen.
+- **Après l''école, je fais mes devoirs.** – Etter skolen gjør jeg leksene mine.
+- **Le soir, je regarde la télé.** – Om kvelden ser jeg på TV.
+- **Je me couche à dix heures.** – Jeg legger meg klokka ti.
+
+Hjemme hjelper mange til: **ranger ma chambre** (rydde rommet), **faire la vaisselle** (ta oppvasken) og **passer l''aspirateur** (støvsuge).
+
+## Refleksive verb
+
+Mange hverdagsverb er **refleksive**. Pronomenet står **foran** verbet: **se lever** (stå opp) → je **me** lève, tu **te** lèves, il **se** lève, nous **nous** levons, vous **vous** levez, ils **se** lèvent.
+
+## Aller og faire
+
+- **aller** (gå, dra): je vais, tu vas, il va, nous allons, vous allez, ils vont
+- **faire** (gjøre, lage): je fais, tu fais, il fait, nous faisons, vous faites, ils font
+
+## Fortelle i rekkefølge
+
+Bruk **d''abord** (først), **ensuite** eller **puis** (så), **après** (etterpå) og **enfin** (til slutt): *D''abord, je me lève. Ensuite, je prends le petit-déjeuner. Enfin, je vais à l''école.*', '{"label":"Hjemmet og hverdagen","children":[{"label":"Rom","children":[{"label":"cuisine"},{"label":"salon"},{"label":"chambre"},{"label":"salle de bains"}]},{"label":"Mitt rom","children":[{"label":"lit, bureau, chaise"},{"label":"il y a"},{"label":"dans, sur, sous, à côté de"}]},{"label":"Hverdagen","children":[{"label":"je me lève"},{"label":"je vais à l''école"},{"label":"je fais mes devoirs"},{"label":"je me couche"}]},{"label":"Verb","children":[{"label":"Refleksive verb"},{"label":"aller"},{"label":"faire"}]},{"label":"Rekkefølge","children":[{"label":"d''abord"},{"label":"ensuite, puis"},{"label":"enfin"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'fransk-9:hjemmet-og-hverdagen';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('fransk-9:hjemmet-og-hverdagen', 'l''appartement', 'leiligheten', 0),
+  ('fransk-9:hjemmet-og-hverdagen', 'la chambre', 'soverommet', 1),
+  ('fransk-9:hjemmet-og-hverdagen', 'la cuisine', 'kjøkkenet', 2),
+  ('fransk-9:hjemmet-og-hverdagen', 'le salon', 'stua', 3),
+  ('fransk-9:hjemmet-og-hverdagen', 'la salle de bains', 'badet', 4),
+  ('fransk-9:hjemmet-og-hverdagen', 'le lit', 'senga', 5),
+  ('fransk-9:hjemmet-og-hverdagen', 'l''armoire', 'skapet', 6),
+  ('fransk-9:hjemmet-og-hverdagen', 'le bureau', 'skrivebordet', 7),
+  ('fransk-9:hjemmet-og-hverdagen', 'il y a', 'det er, det finnes', 8),
+  ('fransk-9:hjemmet-og-hverdagen', 'je me lève', 'jeg står opp', 9),
+  ('fransk-9:hjemmet-og-hverdagen', 'je me douche', 'jeg dusjer', 10),
+  ('fransk-9:hjemmet-og-hverdagen', 'je me couche', 'jeg legger meg', 11),
+  ('fransk-9:hjemmet-og-hverdagen', 'aller: je vais', 'å gå, dra: jeg går, drar', 12),
+  ('fransk-9:hjemmet-og-hverdagen', 'faire mes devoirs', 'å gjøre leksene mine', 13),
+  ('fransk-9:hjemmet-og-hverdagen', 'ranger ma chambre', 'å rydde rommet mitt', 14),
+  ('fransk-9:hjemmet-og-hverdagen', 'd''abord, ensuite, enfin', 'først, så, til slutt', 15);
+delete from public.quiz_sporsmal where tema_id = 'fransk-9:hjemmet-og-hverdagen';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('fransk-9:hjemmet-og-hverdagen', 'q01', 'flervalg', 'Hva betyr «la chambre»?', array['Kjøkkenet', 'Stua', 'Soverommet', 'Badet']::text[], 2, 'Stua heter «le salon».', true, true, 0),
+  ('fransk-9:hjemmet-og-hverdagen', 'q02', 'flervalg', 'Hva betyr «il y a»?', array['Det er / det finnes', 'Han har', 'Han går', 'Det var']::text[], 0, '«Il y a un lit» betyr «det er en seng».', true, true, 1),
+  ('fransk-9:hjemmet-og-hverdagen', 'q03', 'flervalg', 'Hvordan sier du «Jeg står opp klokka sju»?', array['Je lève à sept heures.', 'Je suis lève à sept heures.', 'Me je lève à sept heures.', 'Je me lève à sept heures.']::text[], 3, '«se lever» er refleksivt: je me lève.', true, true, 2),
+  ('fransk-9:hjemmet-og-hverdagen', 'q04', 'flervalg', 'Hva er riktig form av «aller» med «je»?', array['je alle', 'je vais', 'je va', 'j''aller']::text[], 1, '«aller» er uregelrett.', true, true, 3),
+  ('fransk-9:hjemmet-og-hverdagen', 'q05', 'flervalg', 'Hva betyr «faire mes devoirs»?', array['Å lage mat', 'Å rydde', 'Å gå på skolen', 'Å gjøre leksene mine']::text[], 3, '«les devoirs» betyr leksene.', true, true, 4),
+  ('fransk-9:hjemmet-og-hverdagen', 'q06', 'flervalg', 'Hvor står refleksivpronomenet i «je me couche»?', array['Etter verbet', 'Til slutt i setningen', 'Foran verbet', 'Det finnes ikke']::text[], 2, 'På fransk står det foran verbet.', true, true, 5),
+  ('fransk-9:hjemmet-og-hverdagen', 'q07', 'flervalg', 'Hva betyr «le salon»?', array['Stua', 'Frisøren', 'Kjøkkenet', 'Kjelleren']::text[], 0, 'Ordet brukes om stua i et hjem.', true, true, 6),
+  ('fransk-9:hjemmet-og-hverdagen', 'q08', 'flervalg', 'Hva er «le bureau» på et soverom?', array['Senga', 'Skrivebordet', 'Skapet', 'Vinduet']::text[], 1, '«le bureau» kan også bety kontoret.', true, true, 7),
+  ('fransk-9:hjemmet-og-hverdagen', 'q09', 'flervalg', 'Hvilket ord betyr «først»?', array['ensuite', 'enfin', 'd''abord', 'après']::text[], 2, '«enfin» betyr til slutt.', true, false, 8),
+  ('fransk-9:hjemmet-og-hverdagen', 'q10', 'flervalg', 'Hva betyr «faire la vaisselle»?', array['Å dekke bordet', 'Å handle', 'Å vaske klær', 'Å ta oppvasken']::text[], 3, '«la vaisselle» betyr servisen eller oppvasken.', true, false, 9),
+  ('fransk-9:hjemmet-og-hverdagen', 'm01', 'sant-usant', '«la salle de bains» er badet.', array['Sant', 'Usant']::text[], 0, 'Toalettet heter ofte «les toilettes».', false, true, 10),
+  ('fransk-9:hjemmet-og-hverdagen', 'm02', 'sant-usant', '«se lever» er et refleksivt verb.', array['Sant', 'Usant']::text[], 0, '«Je me lève» betyr «jeg står opp».', false, true, 11),
+  ('fransk-9:hjemmet-og-hverdagen', 'm03', 'sant-usant', '«sous» betyr på.', array['Sant', 'Usant']::text[], 1, '«sous» betyr under. På heter «sur».', false, true, 12),
+  ('fransk-9:hjemmet-og-hverdagen', 'm04', 'sant-usant', '«ils font» er en form av verbet «aller».', array['Sant', 'Usant']::text[], 1, '«ils font» kommer fra «faire». Fra «aller» heter det «ils vont».', false, true, 13),
+  ('fransk-9:hjemmet-og-hverdagen', 'm05', 'flervalg', 'Hva betyr «Ma chambre est petite mais confortable»?', array['Rommet mitt er lite, men koselig', 'Rommet mitt er stort', 'Jeg liker ikke rommet mitt', 'Rommet mitt er rotete']::text[], 0, '«mais» betyr men.', false, true, 14),
+  ('fransk-9:hjemmet-og-hverdagen', 'm06', 'flervalg', 'Hva betyr «à côté de»?', array['Bak', 'Ved siden av', 'Under', 'Foran']::text[], 1, '«en face de» betyr overfor.', false, true, 15),
+  ('fransk-9:hjemmet-og-hverdagen', 'm07', 'flervalg', 'Hvilket ord passer: «nous … levons»?', array['me', 'se', 'nous', 'vous']::text[], 2, 'Med «nous» er refleksivpronomenet også «nous».', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('fransk-9:hjemmet-og-hverdagen', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Fransk: Byen og veibeskrivelse
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('fransk-9:byen-og-veibeskrivelse', 'fransk-9', 'byen-og-veibeskrivelse', 'Byen og veibeskrivelse', 'Steder i byen, hvordan du spør om og forstår en veibeskrivelse på fransk, sammentrekningene au og du, transportmidler og lyttestrategier.', array[2, 1]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('fransk-9:byen-og-veibeskrivelse', '## I byen – en ville
+
+- **la gare** – jernbanestasjonen, **l''arrêt de bus** – bussholdeplassen, **l''aéroport** – flyplassen
+- **l''hôpital** – sykehuset, **la pharmacie** – apoteket
+- **la banque** og **la poste** – postkontoret
+- **la bibliothèque** – biblioteket, **le musée** og **le cinéma**
+- **le supermarché** og **le centre commercial** – kjøpesenteret
+- **le parc**, **l''église** – kirken, **la mairie** – rådhuset, **l''office de tourisme** – turistkontoret
+- **la rue** – gata, **la place** – torget, **le pont** – brua, **le feu** – trafikklyset, **le carrefour** – krysset
+
+## Spørre om veien
+
+- **Excusez-moi, où est la gare ?** – Unnskyld, hvor er jernbanestasjonen?
+- **Pour aller au musée, s''il vous plaît ?** – Hvordan kommer jeg til museet?
+- **Est-ce qu''il y a une pharmacie près d''ici ?** – Finnes det et apotek i nærheten?
+- **C''est loin ?** – Er det langt? – **Non, c''est à cinq minutes à pied.**
+
+## Veibeskrivelse
+
+- **Allez tout droit.** – Gå rett fram.
+- **Tournez à gauche / à droite.** – Ta til venstre / høyre.
+- **Prenez la première / deuxième rue à gauche.** – Ta den første / andre gata til venstre.
+- **au feu** – ved lyskrysset, **au carrefour** – i krysset
+- **Traversez la place.** – Gå over torget.
+- **C''est sur votre droite.** – Det er på høyre side.
+- **La poste est à côté de la banque / en face du parc.** – Posten er ved siden av banken / overfor parken.
+
+## Au, à la, aux – og du
+
+Preposisjonen **à** smelter sammen med artikkelen *le* og *les*:
+
+- **à + le = au**: *au musée*, *au cinéma*
+- **à + la = à la**: *à la gare*
+- **à + l'' = à l''**: *à l''hôpital*
+- **à + les = aux**: *aux toilettes*
+
+På samme måte blir **de + le = du**: *en face **du** parc*.
+
+## Transport
+
+**en bus**, **en métro**, **en train**, **en voiture** (med bil), **à vélo** (med sykkel) og **à pied** (til fots). Paris har en av verdens eldste T-baner, **le métro**, som åpnet i 1900.
+
+## Lyttestrategier
+
+Lytt etter **nøkkelord** som *à gauche*, *à droite* og *tout droit*. Hvis det går for fort, kan du si:
+
+- **Vous pouvez répéter, s''il vous plaît ?** – Kan De gjenta?
+- **Plus lentement, s''il vous plaît.** – Saktere, takk.
+- **Vous pouvez me montrer sur le plan ?** – Kan De vise meg på kartet?
+
+Når du selv forklarer veien, kan du peke og bruke hendene. Kroppsspråk hjelper mye når ordene ikke strekker til.', '{"label":"Byen og veibeskrivelse","children":[{"label":"Steder","children":[{"label":"gare, arrêt de bus"},{"label":"pharmacie, hôpital"},{"label":"bibliothèque, musée"},{"label":"mairie, église"}]},{"label":"Spørre","children":[{"label":"Où est … ?"},{"label":"Pour aller au … ?"},{"label":"C''est loin ?"}]},{"label":"Forklare","children":[{"label":"tout droit"},{"label":"à gauche / à droite"},{"label":"au feu, au carrefour"},{"label":"à côté de, en face de"}]},{"label":"Grammatikk og transport","children":[{"label":"au, à la, aux"},{"label":"du"},{"label":"en bus, en métro"},{"label":"à pied"}]},{"label":"Lyttestrategier","children":[{"label":"Nøkkelord"},{"label":"Vous pouvez répéter ?"},{"label":"Plus lentement"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'fransk-9:byen-og-veibeskrivelse';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('fransk-9:byen-og-veibeskrivelse', 'la gare', 'jernbanestasjonen', 0),
+  ('fransk-9:byen-og-veibeskrivelse', 'l''arrêt de bus', 'bussholdeplassen', 1),
+  ('fransk-9:byen-og-veibeskrivelse', 'la pharmacie', 'apoteket', 2),
+  ('fransk-9:byen-og-veibeskrivelse', 'la bibliothèque', 'biblioteket', 3),
+  ('fransk-9:byen-og-veibeskrivelse', 'la mairie', 'rådhuset', 4),
+  ('fransk-9:byen-og-veibeskrivelse', 'le feu', 'trafikklyset', 5),
+  ('fransk-9:byen-og-veibeskrivelse', 'le carrefour', 'krysset', 6),
+  ('fransk-9:byen-og-veibeskrivelse', 'tout droit', 'rett fram', 7),
+  ('fransk-9:byen-og-veibeskrivelse', 'à gauche / à droite', 'til venstre / til høyre', 8),
+  ('fransk-9:byen-og-veibeskrivelse', 'Tournez à gauche.', 'Ta til venstre.', 9),
+  ('fransk-9:byen-og-veibeskrivelse', 'en face de', 'overfor', 10),
+  ('fransk-9:byen-og-veibeskrivelse', 'Pour aller au …, s''il vous plaît ?', 'Hvordan kommer jeg til …?', 11),
+  ('fransk-9:byen-og-veibeskrivelse', 'au / à la / aux', 'til (à + le / à + la / à + les)', 12),
+  ('fransk-9:byen-og-veibeskrivelse', 'à pied', 'til fots', 13),
+  ('fransk-9:byen-og-veibeskrivelse', 'en métro', 'med T-banen', 14),
+  ('fransk-9:byen-og-veibeskrivelse', 'Vous pouvez répéter, s''il vous plaît ?', 'Kan De gjenta?', 15);
+delete from public.quiz_sporsmal where tema_id = 'fransk-9:byen-og-veibeskrivelse';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('fransk-9:byen-og-veibeskrivelse', 'q01', 'flervalg', 'Hva er «la gare»?', array['Flyplassen', 'Jernbanestasjonen', 'Garasjen', 'Havnen']::text[], 1, 'Garasjen heter «le garage».', true, true, 0),
+  ('fransk-9:byen-og-veibeskrivelse', 'q02', 'flervalg', 'Hva betyr «tout droit»?', array['Til venstre', 'Til høyre', 'Tilbake', 'Rett fram']::text[], 3, 'Pass på: «à droite» betyr til høyre.', true, true, 1),
+  ('fransk-9:byen-og-veibeskrivelse', 'q03', 'flervalg', 'Hvordan spør du om veien til museet?', array['Tu habites où ?', 'Le musée est beau ?', 'Pour aller au musée, s''il vous plaît ?', 'Combien coûte le musée ?']::text[], 2, 'Dette er en vanlig og høflig måte å spørre på.', true, true, 2),
+  ('fransk-9:byen-og-veibeskrivelse', 'q04', 'flervalg', 'Hva er «la pharmacie»?', array['Apoteket', 'Gården', 'Biblioteket', 'Banken']::text[], 0, 'Apoteker i Frankrike har ofte et grønt kors utenfor.', true, true, 3),
+  ('fransk-9:byen-og-veibeskrivelse', 'q05', 'flervalg', 'Hvorfor heter det «au musée», men «à la gare»?', array['Fordi museet er større', 'Fordi «musée» er hankjønn og «gare» hunkjønn', 'Fordi gare er et sted', 'Det er tilfeldig']::text[], 1, 'à + le blir au, mens à + la ikke endres.', true, true, 4),
+  ('fransk-9:byen-og-veibeskrivelse', 'q06', 'flervalg', 'Hva betyr «Tournez à droite au feu»?', array['Gå rett fram ved lyskrysset', 'Stopp ved lyskrysset', 'Snu ved brua', 'Ta til høyre ved lyskrysset']::text[], 3, '«le feu» betyr trafikklyset.', true, true, 5),
+  ('fransk-9:byen-og-veibeskrivelse', 'q07', 'flervalg', 'Hva betyr «à pied»?', array['Til fots', 'Med bil', 'Med sykkel', 'Med tog']::text[], 0, '«le pied» betyr foten.', true, true, 6),
+  ('fransk-9:byen-og-veibeskrivelse', 'q08', 'flervalg', 'Hva betyr «en face de»?', array['Bak', 'Under', 'Overfor', 'Ved siden av']::text[], 2, 'Ved siden av heter «à côté de».', true, true, 7),
+  ('fransk-9:byen-og-veibeskrivelse', 'q09', 'flervalg', 'Hva sier du hvis du ikke forstod veibeskrivelsen?', array['Au revoir !', 'Bon appétit !', 'Merci beaucoup !', 'Vous pouvez répéter, s''il vous plaît ?']::text[], 3, 'Det er helt greit å be om at noe blir gjentatt.', true, false, 8),
+  ('fransk-9:byen-og-veibeskrivelse', 'q10', 'flervalg', 'Hva er «la mairie»?', array['Havet', 'Rådhuset', 'Kirken', 'Markedet']::text[], 1, '«le maire» betyr ordføreren.', true, false, 9),
+  ('fransk-9:byen-og-veibeskrivelse', 'm01', 'sant-usant', '«à gauche» betyr til venstre.', array['Sant', 'Usant']::text[], 0, 'Til høyre heter «à droite».', false, true, 10),
+  ('fransk-9:byen-og-veibeskrivelse', 'm02', 'sant-usant', '«la bibliothèque» er en bokhandel.', array['Sant', 'Usant']::text[], 1, '«la bibliothèque» er biblioteket. En bokhandel heter «la librairie».', false, true, 11),
+  ('fransk-9:byen-og-veibeskrivelse', 'm03', 'sant-usant', '«en métro» betyr med T-banen.', array['Sant', 'Usant']::text[], 0, 'Metroen i Paris åpnet i 1900.', false, true, 12),
+  ('fransk-9:byen-og-veibeskrivelse', 'm04', 'sant-usant', '«le carrefour» betyr kirken.', array['Sant', 'Usant']::text[], 1, '«le carrefour» betyr krysset. Kirken heter «l''église».', false, true, 13),
+  ('fransk-9:byen-og-veibeskrivelse', 'm05', 'flervalg', 'Hvordan sier du «Er det langt?»?', array['C''est loin ?', 'C''est où ?', 'C''est quoi ?', 'C''est ici ?']::text[], 0, '«loin» betyr langt unna.', false, true, 14),
+  ('fransk-9:byen-og-veibeskrivelse', 'm06', 'flervalg', 'Hva er «l''arrêt de bus»?', array['Bussjåføren', 'Bussholdeplassen', 'Busskortet', 'Bussen']::text[], 1, '«arrêter» betyr å stoppe.', false, true, 15),
+  ('fransk-9:byen-og-veibeskrivelse', 'm07', 'flervalg', 'Hva betyr «Prenez la deuxième rue à gauche»?', array['Ta den første gata til høyre', 'Gå to kvartaler rett fram', 'Ta den andre gata til venstre', 'Kryss gata to ganger']::text[], 2, '«deuxième» betyr andre.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('fransk-9:byen-og-veibeskrivelse', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Fransk: Klær og handel
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('fransk-9:klaer-og-handel', 'fransk-9', 'klaer-og-handel', 'Klær og handel', 'Klær og farger på fransk, adjektiver som bøyes, nyttige uttrykk i butikken, priser, ce, cette og ces, og pronomenene le, la og les.', array[2, 6]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('fransk-9:klaer-og-handel', '## Klær – les vêtements
+
+- **le tee-shirt**, **la chemise** (skjorta), **le chemisier** (blusen)
+- **le pull** (genseren), **la veste** (jakka), **le manteau** (kåpa, frakken)
+- **le pantalon** (buksa), **le jean**, **la jupe** (skjørtet), **la robe** (kjolen)
+- **les chaussures** (skoene), **les baskets** (joggeskoene), **les chaussettes** (sokkene)
+- **le bonnet** (lua), **l''écharpe** (skjerfet), **les gants** (hanskene)
+
+## Farger – les couleurs
+
+**rouge** (rød), **bleu** (blå), **vert** (grønn), **jaune** (gul), **noir** (svart), **blanc** (hvit), **gris** (grå), **rose**, **violet**, **marron** (brun) og **orange**.
+
+Fargene står **etter** substantivet og bøyes etter kjønn og tall: *un pull bleu*, *une jupe bleu**e***, *des chaussures noir**es***. *Blanc* blir **blanche** i hunkjønn. *Marron* og *orange* bøyes ikke.
+
+## I butikken – dans le magasin
+
+- **Je peux vous aider ?** – Kan jeg hjelpe Dem?
+- **Je cherche une veste.** – Jeg ser etter en jakke.
+- **Quelle taille faites-vous ?** – Hvilken størrelse bruker De? – **Je fais du M.** Skostørrelse heter **la pointure**.
+- **Je peux l''essayer ?** – Kan jeg prøve den? Du prøver klær i **la cabine d''essayage**.
+- **Ça me va bien / Ça ne me va pas.** – Den passer / passer ikke.
+- **C''est trop grand / trop petit / trop cher.** – Den er for stor / for liten / for dyr.
+- **C''est combien ?** eller **Combien coûte ce pull ?** – Hva koster genseren?
+- **Il coûte 29,99 euros.** – *vingt-neuf euros quatre-vingt-dix-neuf*.
+- **Je le prends.** – Jeg tar den. Du betaler ved **la caisse**.
+
+Andre nyttige ord er **bon marché** (billig), **cher** (dyr) og **en solde** (på salg). I Frankrike er det store utsalg, **les soldes**, to ganger i året, i januar og om sommeren.
+
+## Denne, dette, disse – ce, cette, ces
+
+- **ce** pull (hankjønn), **cet** anorak (hankjønn foran vokal)
+- **cette** jupe (hunkjønn)
+- **ces** chaussures (flertall)
+
+## Le, la, les – den og dem
+
+Når du viser tilbake til et plagg, velger du pronomen etter kjønnet: **le pull → le**, **la jupe → la**, **les chaussures → les**. Pronomenet står **foran** verbet: *Je **la** prends.*
+
+## Si hva du synes
+
+- **Comment tu trouves cette robe ?** – Hva synes du om denne kjolen?
+- **Je la trouve jolie / chouette / moche.** – Jeg synes den er fin / kul / stygg.
+- **Elle te va bien !** – Den kler deg!
+
+## Mote og miljø
+
+Paris regnes som en av verdens **motehovedsteder**, med store motehus og moteuker. Samtidig kjøper stadig flere unge franskmenn brukte klær, **des vêtements d''occasion**, for å spare penger og miljøet.', '{"label":"Klær og handel","children":[{"label":"Klær","children":[{"label":"pantalon, jupe, robe"},{"label":"pull, veste"},{"label":"chaussures, bonnet"}]},{"label":"Farger","children":[{"label":"rouge, bleu, vert"},{"label":"noir, blanc"},{"label":"une jupe bleue"}]},{"label":"I butikken","children":[{"label":"Je cherche …"},{"label":"taille og pointure"},{"label":"essayer"},{"label":"trop grand, trop cher"}]},{"label":"Grammatikk","children":[{"label":"ce, cette, ces"},{"label":"le, la, les"},{"label":"Je le prends"}]},{"label":"Meninger og mote","children":[{"label":"Je la trouve jolie"},{"label":"Elle te va bien"},{"label":"les soldes"},{"label":"vêtements d''occasion"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'fransk-9:klaer-og-handel';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('fransk-9:klaer-og-handel', 'les vêtements', 'klærne', 0),
+  ('fransk-9:klaer-og-handel', 'le pantalon', 'buksa', 1),
+  ('fransk-9:klaer-og-handel', 'la jupe', 'skjørtet', 2),
+  ('fransk-9:klaer-og-handel', 'la robe', 'kjolen', 3),
+  ('fransk-9:klaer-og-handel', 'la veste', 'jakka', 4),
+  ('fransk-9:klaer-og-handel', 'le pull', 'genseren', 5),
+  ('fransk-9:klaer-og-handel', 'les chaussures', 'skoene', 6),
+  ('fransk-9:klaer-og-handel', 'les baskets', 'joggeskoene', 7),
+  ('fransk-9:klaer-og-handel', 'rouge, bleu, noir', 'rød, blå, svart', 8),
+  ('fransk-9:klaer-og-handel', 'la taille', 'størrelsen', 9),
+  ('fransk-9:klaer-og-handel', 'essayer', 'å prøve (på)', 10),
+  ('fransk-9:klaer-og-handel', 'C''est trop cher.', 'Det er for dyrt.', 11),
+  ('fransk-9:klaer-og-handel', 'C''est combien ?', 'Hva koster det?', 12),
+  ('fransk-9:klaer-og-handel', 'bon marché / cher', 'billig / dyr', 13),
+  ('fransk-9:klaer-og-handel', 'les soldes', 'utsalget', 14),
+  ('fransk-9:klaer-og-handel', 'Je le prends.', 'Jeg tar den (om et hankjønnsord).', 15),
+  ('fransk-9:klaer-og-handel', 'ce / cette / ces', 'denne, dette / denne / disse', 16);
+delete from public.quiz_sporsmal where tema_id = 'fransk-9:klaer-og-handel';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('fransk-9:klaer-og-handel', 'q01', 'flervalg', 'Hva betyr «le pantalon»?', array['Buksa', 'Skjørtet', 'Jakka', 'Sokkene']::text[], 0, 'Skjørtet heter «la jupe».', true, true, 0),
+  ('fransk-9:klaer-og-handel', 'q02', 'flervalg', 'Hvordan spør du hva noe koster?', array['C''est où ?', 'C''est quoi ?', 'C''est combien ?', 'C''est qui ?']::text[], 2, '«combien» betyr hvor mye.', true, true, 1),
+  ('fransk-9:klaer-og-handel', 'q03', 'flervalg', 'Hva betyr «Je peux l''essayer ?»?', array['Kan jeg kjøpe den?', 'Kan jeg prøve den på?', 'Kan jeg levere den tilbake?', 'Kan jeg få rabatt?']::text[], 1, '«essayer» betyr å prøve.', true, true, 2),
+  ('fransk-9:klaer-og-handel', 'q04', 'flervalg', 'Hva betyr «C''est trop cher»?', array['Det er for stort', 'Det er for lite', 'Det er for billig', 'Det er for dyrt']::text[], 3, '«cher» betyr dyr.', true, true, 3),
+  ('fransk-9:klaer-og-handel', 'q05', 'flervalg', 'Hvordan blir «bleu» etter et hunkjønnsord, som i «une jupe …»?', array['bleu', 'bleus', 'bleue', 'bleues']::text[], 2, 'Hunkjønn får -e.', true, true, 4),
+  ('fransk-9:klaer-og-handel', 'q06', 'flervalg', 'Hva betyr «Quelle taille faites-vous ?»?', array['Hvilken størrelse bruker De?', 'Hvilken farge liker De?', 'Hvor mye penger har De?', 'Hvor høy er De?']::text[], 0, '«la taille» betyr størrelsen.', true, true, 5),
+  ('fransk-9:klaer-og-handel', 'q07', 'flervalg', 'Du vil kjøpe skjørtet (la jupe). Hva sier du?', array['Je le prends.', 'Je les prends.', 'Je lui prends.', 'Je la prends.']::text[], 3, '«la jupe» er hunkjønn, derfor «la».', true, true, 6),
+  ('fransk-9:klaer-og-handel', 'q08', 'flervalg', 'Hva er «les soldes»?', array['Soldatene', 'Utsalget', 'Prøverommet', 'Kassen']::text[], 1, 'Utsalgene i Frankrike er i januar og om sommeren.', true, true, 7),
+  ('fransk-9:klaer-og-handel', 'q09', 'flervalg', 'Hvilket ord passer: «… chaussures sont belles»?', array['Ces', 'Ce', 'Cette', 'Cet']::text[], 0, '«chaussures» står i flertall.', true, false, 8),
+  ('fransk-9:klaer-og-handel', 'q10', 'flervalg', 'Hva betyr «bon marché»?', array['Dyr', 'Pen', 'Billig', 'Stor']::text[], 2, 'Ordet betyr egentlig «godt kjøp».', true, false, 9),
+  ('fransk-9:klaer-og-handel', 'm01', 'sant-usant', '«la robe» betyr kjolen.', array['Sant', 'Usant']::text[], 0, 'Ordet er i slekt med det engelske «robe».', false, true, 10),
+  ('fransk-9:klaer-og-handel', 'm02', 'sant-usant', 'I Frankrike betaler man fortsatt med franc.', array['Sant', 'Usant']::text[], 1, 'Frankrike har brukt euro siden 2002.', false, true, 11),
+  ('fransk-9:klaer-og-handel', 'm03', 'sant-usant', '«Ça me va bien» betyr at plagget passer eller kler meg.', array['Sant', 'Usant']::text[], 0, '«aller» brukes her om å passe.', false, true, 12),
+  ('fransk-9:klaer-og-handel', 'm04', 'sant-usant', '«noir» betyr hvit.', array['Sant', 'Usant']::text[], 1, '«noir» betyr svart. Hvit heter «blanc».', false, true, 13),
+  ('fransk-9:klaer-og-handel', 'm05', 'flervalg', 'Hva heter skostørrelse på fransk?', array['la taille', 'la pointure', 'la mesure', 'le numéro']::text[], 1, '«la taille» brukes om klesstørrelse.', false, true, 14),
+  ('fransk-9:klaer-og-handel', 'm06', 'flervalg', 'Hva betyr «Elle te va bien !»?', array['Den kler deg!', 'Den er for liten!', 'Den er dyr!', 'Den er min!']::text[], 0, 'Du sier det når noen har på seg noe som passer dem.', false, true, 15),
+  ('fransk-9:klaer-og-handel', 'm07', 'flervalg', 'Hvordan leser du prisen 29,99 €?', array['vingt-neuf virgule neuf neuf', 'deux neuf neuf neuf euros', 'vingt-neuf euros quatre-vingt-dix-neuf', 'trente euros']::text[], 2, 'Først eurobeløpet, så centene.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('fransk-9:klaer-og-handel', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Fransk: Å fortelle om fortiden – passé composé
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('fransk-9:fortid', 'fransk-9', 'fortid', 'Å fortelle om fortiden – passé composé', 'Hvordan du forteller om noe som har skjedd med passé composé, regelrette og uregelrette partisipper, når du bruker avoir og être, nektelse, c''était og nyttige tidsuttrykk.', array[3, 6]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('fransk-9:fortid', '## Passé composé
+
+Når du forteller om noe som **har skjedd** – i helgen, i ferien eller i går – bruker du **passé composé** på fransk. Formen ligner norsk perfektum: *J''**ai regardé** un film.* – Jeg (har) sett en film.
+
+Passé composé = **avoir** eller **être** i presens + **partisipp** (*participe passé*).
+
+## Slik lages partisippet
+
+- Verb på **-er**: *-er* → **-é**: parler → **parlé**, manger → **mangé**, regarder → **regardé**
+- Verb på **-ir**: *-ir* → **-i**: finir → **fini**, choisir → **choisi**
+- Verb på **-re**: *-re* → **-u**: vendre → **vendu**, attendre → **attendu**
+
+**Uregelrette partisipper** må læres: avoir → **eu**, être → **été**, faire → **fait**, prendre → **pris**, boire → **bu**, voir → **vu**, lire → **lu**, écrire → **écrit** og mettre → **mis**.
+
+## Avoir eller être?
+
+De fleste verb bruker **avoir**: *J''**ai** mangé une pizza.*
+
+Noen verb, særlig verb for **bevegelse** og **forandring**, bruker **être**: **aller** (allé), **venir** (venu), **arriver**, **partir** (parti), **entrer**, **sortir** (sorti), **monter**, **descendre** (descendu), **rester**, **tomber**, **naître** (né) og **mourir** (mort). Også alle **refleksive verb** bruker *être*: *Je **me suis** levé à sept heures.*
+
+Med *être* bøyes partisippet etter **subjektet**:
+
+- *Il est allé* / *Elle est allé**e***
+- *Ils sont parti**s*** / *Elles sont arrivé**es***
+
+## Nektelse
+
+*ne … pas* står **rundt hjelpeverbet**: *Je **n''**ai **pas** mangé.* *Nous **ne** sommes **pas** allés à la plage.*
+
+## C''était …
+
+Når du beskriver hvordan noe **var**, bruker du ofte en annen fortidsform, **imparfait**: **C''était génial !** (Det var kjempebra!) **Il faisait beau.** (Det var fint vær.)
+
+## Tidsuttrykk
+
+**hier** (i går), **avant-hier** (i forgårs), **le week-end dernier** (forrige helg), **la semaine dernière** (forrige uke), **l''été dernier** (i fjor sommer) og **il y a deux jours** (for to dager siden).
+
+## Eksempeltekst
+
+*Le week-end dernier, **je suis allé** à Paris avec ma famille. Samedi, **nous avons visité** la tour Eiffel et **nous avons mangé** des crêpes. Le soir, **nous sommes allés** au cinéma. **C''était** super !*', '{"label":"Passé composé","children":[{"label":"Formen","children":[{"label":"avoir/être + partisipp"},{"label":"Som norsk perfektum"}]},{"label":"Partisipper","children":[{"label":"-er → -é"},{"label":"-ir → -i"},{"label":"-re → -u"},{"label":"fait, pris, vu, bu"}]},{"label":"avoir eller être","children":[{"label":"avoir: de fleste"},{"label":"être: bevegelse"},{"label":"Refleksive verb"},{"label":"elle est allée"}]},{"label":"Nektelse og beskrivelse","children":[{"label":"Je n''ai pas …"},{"label":"C''était …"},{"label":"Il faisait beau"}]},{"label":"Tidsuttrykk","children":[{"label":"hier"},{"label":"le week-end dernier"},{"label":"il y a deux jours"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'fransk-9:fortid';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('fransk-9:fortid', 'le passé composé', 'fortidsform med avoir/être + partisipp', 0),
+  ('fransk-9:fortid', 'j''ai parlé', 'jeg (har) snakket', 1),
+  ('fransk-9:fortid', 'j''ai mangé', 'jeg (har) spist', 2),
+  ('fransk-9:fortid', 'j''ai fini', 'jeg (har) blitt ferdig', 3),
+  ('fransk-9:fortid', 'j''ai fait', 'jeg (har) gjort', 4),
+  ('fransk-9:fortid', 'j''ai pris', 'jeg (har) tatt', 5),
+  ('fransk-9:fortid', 'j''ai vu', 'jeg (har) sett', 6),
+  ('fransk-9:fortid', 'j''ai bu', 'jeg (har) drukket', 7),
+  ('fransk-9:fortid', 'je suis allé(e)', 'jeg dro / har dratt', 8),
+  ('fransk-9:fortid', 'je suis parti(e)', 'jeg reiste / har reist', 9),
+  ('fransk-9:fortid', 'je suis resté(e)', 'jeg ble / har blitt (værende)', 10),
+  ('fransk-9:fortid', 'elle est allée', 'hun dro – partisippet får -e', 11),
+  ('fransk-9:fortid', 'je me suis levé(e)', 'jeg sto opp', 12),
+  ('fransk-9:fortid', 'c''était', 'det var', 13),
+  ('fransk-9:fortid', 'hier', 'i går', 14),
+  ('fransk-9:fortid', 'le week-end dernier', 'forrige helg', 15),
+  ('fransk-9:fortid', 'il y a deux jours', 'for to dager siden', 16);
+delete from public.quiz_sporsmal where tema_id = 'fransk-9:fortid';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('fransk-9:fortid', 'q01', 'flervalg', 'Hva er partisippet av «manger»?', array['mangi', 'mangu', 'mangé', 'mangeait']::text[], 2, 'Verb på -er får -é.', true, true, 0),
+  ('fransk-9:fortid', 'q02', 'flervalg', 'Hvilket hjelpeverb bruker du med «aller» i passé composé?', array['être', 'avoir', 'faire', 'aller']::text[], 0, '«aller» er et bevegelsesverb: «je suis allé».', true, true, 1),
+  ('fransk-9:fortid', 'q03', 'flervalg', 'Hvilken setning er riktig?', array['J''ai allé au cinéma.', 'Je suis allé cinéma au.', 'Je allé suis au cinéma.', 'Je suis allé au cinéma.']::text[], 3, '«aller» bruker «être».', true, true, 2),
+  ('fransk-9:fortid', 'q04', 'flervalg', 'Hva er partisippet av «faire»?', array['faisé', 'fait', 'fairu', 'faité']::text[], 1, '«faire» er uregelrett: «j''ai fait».', true, true, 3),
+  ('fransk-9:fortid', 'q05', 'flervalg', 'Hvordan sier du «Hun dro til Paris»?', array['Elle a allé à Paris.', 'Elle est allé à Paris.', 'Elle va allée à Paris.', 'Elle est allée à Paris.']::text[], 3, 'Med «être» bøyes partisippet etter subjektet.', true, true, 4),
+  ('fransk-9:fortid', 'q06', 'flervalg', 'Hva betyr «C''était génial !»?', array['Det er genialt!', 'Det var kjempebra!', 'Det blir fint!', 'Det var kjedelig!']::text[], 1, '«c''était» betyr det var.', true, true, 5),
+  ('fransk-9:fortid', 'q07', 'flervalg', 'Hva betyr «le week-end dernier»?', array['Forrige helg', 'Neste helg', 'Hver helg', 'Siste dag i helgen']::text[], 0, '«dernier» betyr forrige eller siste.', true, true, 6),
+  ('fransk-9:fortid', 'q08', 'flervalg', 'Hvordan nekter du «J''ai mangé»?', array['Je ai pas mangé.', 'Je n''ai mangé pas.', 'Je n''ai pas mangé.', 'Je pas ai mangé.']::text[], 2, '«ne … pas» står rundt hjelpeverbet.', true, true, 7),
+  ('fransk-9:fortid', 'q09', 'flervalg', 'Hva er partisippet av «voir»?', array['voiré', 'voit', 'vuit', 'vu']::text[], 3, '«J''ai vu» betyr jeg så.', true, false, 8),
+  ('fransk-9:fortid', 'q10', 'flervalg', 'Hva består passé composé av?', array['avoir eller être + partisipp', 'verb + -ait', 'aller + infinitiv', 'infinitiv alene']::text[], 0, 'For eksempel «j''ai parlé» og «je suis allé».', true, false, 9),
+  ('fransk-9:fortid', 'm01', 'sant-usant', 'Refleksive verb bruker «être» i passé composé.', array['Sant', 'Usant']::text[], 0, 'For eksempel «je me suis levé».', false, true, 10),
+  ('fransk-9:fortid', 'm02', 'sant-usant', 'Partisippet av «finir» er «finé».', array['Sant', 'Usant']::text[], 1, 'Verb på -ir får -i: «fini».', false, true, 11),
+  ('fransk-9:fortid', 'm03', 'sant-usant', 'Med «être» bøyes partisippet etter subjektet, som i «elles sont arrivées».', array['Sant', 'Usant']::text[], 0, 'Hunkjønn får -e og flertall -s.', false, true, 12),
+  ('fransk-9:fortid', 'm04', 'sant-usant', '«hier» betyr i morgen.', array['Sant', 'Usant']::text[], 1, '«hier» betyr i går. I morgen heter «demain».', false, true, 13),
+  ('fransk-9:fortid', 'm05', 'flervalg', 'Hva er partisippet av «prendre»?', array['prendu', 'pris', 'prené', 'prit']::text[], 1, '«J''ai pris le bus» betyr jeg tok bussen.', false, true, 14),
+  ('fransk-9:fortid', 'm06', 'flervalg', 'Hva betyr «il y a deux jours»?', array['For to dager siden', 'Om to dager', 'I to dager', 'Det er to dager']::text[], 0, '«il y a» + tid betyr «for … siden».', false, true, 15),
+  ('fransk-9:fortid', 'm07', 'flervalg', 'Hvilket hjelpeverb bruker du med «regarder»?', array['être', 'aller', 'avoir', 'faire']::text[], 2, '«regarder» uttrykker ikke bevegelse: «j''ai regardé».', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('fransk-9:fortid', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Fransk: Høytider og tradisjoner
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('fransk-9:hoytider-og-tradisjoner', 'fransk-9', 'hoytider-og-tradisjoner', 'Høytider og tradisjoner', 'Jul, nyttår, påske og andre høytider og tradisjoner i Frankrike og den fransktalende verden, og hvordan du ønsker god høytid og gratulerer på fransk.', array[8, 9]::int[], 5, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('fransk-9:hoytider-og-tradisjoner', '## Jul – Noël
+
+I desember pynter franske familier **le sapin** (juletreet), og mange setter fram **la crèche**, en julekrybbe med små figurer. På julaften spiser man **le réveillon**, et stort festmåltid som kan vare langt ut på natta, gjerne med østers, laks og kalkun. Til dessert er det **la bûche de Noël**, en kake formet som en vedkubbe. Barna får ofte gavene fra **le Père Noël** natt til eller morgenen 25. desember. Man ønsker hverandre **«Joyeux Noël !»**.
+
+## Nyttår og helligtrekonger
+
+Nyttårsaften heter **la Saint-Sylvestre** og feires også med *réveillon*. Etter midnatt sier man **«Bonne année !»**. Rundt **6. januar** spiser mange **la galette des rois**, en butterdeigskake med mandelfyll. I kaka er det gjemt en liten figur, **la fève**. Den som finner den, blir konge eller dronning for en dag og får bære en papirkrone.
+
+## Vinter og vår
+
+- **La Chandeleur** (2. februar): Man steker **crêpes**. Mange prøver å snu pannekaken mens de holder en mynt i den andre hånda – det skal gi lykke.
+- **Le Carnaval**: Karnevalet i **Nice** er et av verdens mest kjente, med blomsterparader.
+- **Pâques** (påske): Ifølge fransk tradisjon flyr **les cloches de Pâques** – kirkeklokkene – til Roma og kommer tilbake med sjokoladeegg som barna leter etter i hagen. Man sier **«Joyeuses Pâques !»**.
+- **Le poisson d''avril** (1. april): Barna fester papirfisker på ryggen til folk.
+- **Le 1er mai**: Man gir hverandre **liljekonvall** (*le muguet*), som skal bringe lykke.
+
+## Sommer og høst
+
+- **La Fête de la musique** (21. juni): gratis konserter over hele landet
+- **Le 14 juillet**: nasjonaldagen, med militærparade på Champs-Élysées og fyrverkeri
+- **La Toussaint** (1. november): Mange legger blomster, ofte krysantemum, på gravene til familiemedlemmer.
+- **Le 11 novembre**: minnedag for slutten på første verdenskrig
+
+## I den fransktalende verden
+
+I **Québec** feirer man **le temps des sucres** om våren, når lønnetrærne tappes for sevje som blir til lønnesirup. I **Belgia** kommer **Saint-Nicolas** med gaver 6. desember, og i **Senegal** er den muslimske høytiden **Tabaski** en av årets største fester.
+
+## Gratulasjoner
+
+**Joyeux anniversaire !** eller **Bon anniversaire !** betyr «Gratulerer med dagen!». **Bonnes fêtes !** betyr «God høytid!».', '{"label":"Høytider og tradisjoner","children":[{"label":"Jul","children":[{"label":"sapin og crèche"},{"label":"réveillon"},{"label":"bûche de Noël"},{"label":"Père Noël"}]},{"label":"Nyttår og januar","children":[{"label":"Saint-Sylvestre"},{"label":"Bonne année !"},{"label":"galette des rois"}]},{"label":"Vår","children":[{"label":"Chandeleur"},{"label":"Carnaval i Nice"},{"label":"cloches de Pâques"},{"label":"muguet 1. mai"}]},{"label":"Sommer og høst","children":[{"label":"Fête de la musique"},{"label":"14 juillet"},{"label":"Toussaint"},{"label":"11 novembre"}]},{"label":"Francophonie","children":[{"label":"temps des sucres"},{"label":"Saint-Nicolas i Belgia"},{"label":"Tabaski i Senegal"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'fransk-9:hoytider-og-tradisjoner';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('fransk-9:hoytider-og-tradisjoner', 'Noël', 'jul', 0),
+  ('fransk-9:hoytider-og-tradisjoner', 'le réveillon', 'stort festmåltid på julaften og nyttårsaften', 1),
+  ('fransk-9:hoytider-og-tradisjoner', 'la bûche de Noël', 'julekake formet som en vedkubbe', 2),
+  ('fransk-9:hoytider-og-tradisjoner', 'le Père Noël', 'julenissen', 3),
+  ('fransk-9:hoytider-og-tradisjoner', 'Joyeux Noël !', 'God jul!', 4),
+  ('fransk-9:hoytider-og-tradisjoner', 'la Saint-Sylvestre', 'nyttårsaften', 5),
+  ('fransk-9:hoytider-og-tradisjoner', 'Bonne année !', 'Godt nytt år!', 6),
+  ('fransk-9:hoytider-og-tradisjoner', 'la galette des rois', 'kake som spises rundt 6. januar', 7),
+  ('fransk-9:hoytider-og-tradisjoner', 'la fève', 'liten figur gjemt i kongekaka', 8),
+  ('fransk-9:hoytider-og-tradisjoner', 'la Chandeleur', '2. februar, da man steker crêpes', 9),
+  ('fransk-9:hoytider-og-tradisjoner', 'les cloches de Pâques', 'påskeklokkene, som ifølge tradisjonen kommer med sjokoladeegg', 10),
+  ('fransk-9:hoytider-og-tradisjoner', 'le muguet', 'liljekonvall, som gis bort 1. mai', 11),
+  ('fransk-9:hoytider-og-tradisjoner', 'le 14 juillet', 'Frankrikes nasjonaldag', 12),
+  ('fransk-9:hoytider-og-tradisjoner', 'la Toussaint', 'allehelgensdag, 1. november', 13),
+  ('fransk-9:hoytider-og-tradisjoner', 'Joyeux anniversaire !', 'Gratulerer med dagen!', 14),
+  ('fransk-9:hoytider-og-tradisjoner', 'le temps des sucres', 'tiden om våren da man lager lønnesirup i Québec', 15);
+delete from public.quiz_sporsmal where tema_id = 'fransk-9:hoytider-og-tradisjoner';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('fransk-9:hoytider-og-tradisjoner', 'q01', 'flervalg', 'Hva er «la bûche de Noël»?', array['En julesang', 'En kake formet som en vedkubbe', 'Et juletre', 'En julegave']::text[], 1, '«la bûche» betyr vedkubben.', true, true, 0),
+  ('fransk-9:hoytider-og-tradisjoner', 'q02', 'flervalg', 'Hva spiser mange i Frankrike rundt helligtrekongersdag 6. januar?', array['Crêpes', 'Pepperkaker', 'Risgrøt', 'La galette des rois']::text[], 3, '«rois» betyr konger.', true, true, 1),
+  ('fransk-9:hoytider-og-tradisjoner', 'q03', 'flervalg', 'Hva skjer med den som finner «la fève» i kaka?', array['Den blir konge eller dronning for en dag og får en krone', 'Den må vaske opp', 'Den får ikke dessert', 'Den må synge']::text[], 0, 'Kaka selges ofte med en papirkrone.', true, true, 2),
+  ('fransk-9:hoytider-og-tradisjoner', 'q04', 'flervalg', 'Hva kommer med sjokoladeegg i påsken ifølge fransk tradisjon?', array['Påskeharen', 'Julenissen', 'Kirkeklokkene, les cloches de Pâques', 'Heksene']::text[], 2, 'Klokkene «flyr til Roma» og kommer tilbake påskemorgen.', true, true, 3),
+  ('fransk-9:hoytider-og-tradisjoner', 'q05', 'flervalg', 'Hva gir franskmenn hverandre 1. mai?', array['Liljekonvall (le muguet)', 'Roser', 'Sjokolade', 'Påskeegg']::text[], 0, 'Liljekonvallen skal bringe lykke.', true, true, 4),
+  ('fransk-9:hoytider-og-tradisjoner', 'q06', 'flervalg', 'Hva betyr «Bonne année !»?', array['God jul!', 'God påske!', 'Godt nytt år!', 'Gratulerer med dagen!']::text[], 2, '«l''année» betyr året.', true, true, 5),
+  ('fransk-9:hoytider-og-tradisjoner', 'q07', 'flervalg', 'Hva gjør mange franskmenn på la Toussaint 1. november?', array['Spiser crêpes', 'Går i karneval', 'Ser fyrverkeri', 'Legger blomster på gravene']::text[], 3, 'Dagen er allehelgensdag.', true, true, 6),
+  ('fransk-9:hoytider-og-tradisjoner', 'q08', 'flervalg', 'Hva er «le réveillon»?', array['En julesang', 'Et stort festmåltid på julaften og nyttårsaften', 'En vekkerklokke', 'En kirke']::text[], 1, 'Måltidet kan vare langt ut på natta.', true, true, 7),
+  ('fransk-9:hoytider-og-tradisjoner', 'q09', 'flervalg', 'Hvilken dag er Frankrikes nasjonaldag?', array['17. mai', '1. mai', '25. desember', '14. juli']::text[], 3, 'Dagen minner om stormingen av Bastillen i 1789.', true, false, 8),
+  ('fransk-9:hoytider-og-tradisjoner', 'q10', 'flervalg', 'Hva er «le temps des sucres» i Québec?', array['Tiden om våren da man lager lønnesirup', 'En julefeiring', 'En skoleferie', 'En sukkerfri uke']::text[], 0, 'Lønnesirup er et symbol på Québec og Canada.', true, false, 9),
+  ('fransk-9:hoytider-og-tradisjoner', 'm01', 'sant-usant', '«Joyeux Noël !» betyr God jul!', array['Sant', 'Usant']::text[], 0, '«joyeux» betyr glad.', false, true, 10),
+  ('fransk-9:hoytider-og-tradisjoner', 'm02', 'sant-usant', 'La Chandeleur feires med påskeegg.', array['Sant', 'Usant']::text[], 1, 'På la Chandeleur steker man crêpes.', false, true, 11),
+  ('fransk-9:hoytider-og-tradisjoner', 'm03', 'sant-usant', 'Karnevalet i Nice er kjent over hele verden.', array['Sant', 'Usant']::text[], 0, 'Det er kjent for blomsterparadene.', false, true, 12),
+  ('fransk-9:hoytider-og-tradisjoner', 'm04', 'sant-usant', 'I fransk tradisjon er det julenissen som kommer med påskeeggene.', array['Sant', 'Usant']::text[], 1, 'Ifølge tradisjonen er det kirkeklokkene, les cloches de Pâques.', false, true, 13),
+  ('fransk-9:hoytider-og-tradisjoner', 'm05', 'flervalg', 'Hva betyr «Joyeux anniversaire !»?', array['God jul!', 'Gratulerer med dagen!', 'Godt nytt år!', 'God påske!']::text[], 1, '«l''anniversaire» betyr bursdagen.', false, true, 14),
+  ('fransk-9:hoytider-og-tradisjoner', 'm06', 'flervalg', 'Hva markeres 11. november i Frankrike?', array['Slutten på første verdenskrig', 'Nyttår', 'Jul', 'Revolusjonen']::text[], 0, 'Våpenhvilen ble inngått 11. november 1918.', false, true, 15),
+  ('fransk-9:hoytider-og-tradisjoner', 'm07', 'flervalg', 'Hva heter nyttårsaften på fransk?', array['la Toussaint', 'la Chandeleur', 'la Saint-Sylvestre', 'le 14 juillet']::text[], 2, 'Dagen er oppkalt etter pave Silvester.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('fransk-9:hoytider-og-tradisjoner', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Spansk (9): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'spansk-9' and slug not in ('mat-og-drikke', 'hjemmet-og-hverdagen', 'byen-og-veibeskrivelse', 'klaer-og-handel', 'fortid', 'hoytider-og-tradisjoner');
+
+-- Spansk: Mat og drikke
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('spansk-9:mat-og-drikke', 'spansk-9', 'mat-og-drikke', 'Mat og drikke', 'Spanske måltider og matvaner, mat og drikke, forskjeller mellom Spania og Latin-Amerika, verb som endrer vokal, og hvordan du bestiller på restaurant.', array[2, 4]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('spansk-9:mat-og-drikke', '## Måltider – las comidas
+
+- **el desayuno** – frokosten. I Spania er den ofte lett: **café con leche**, **una tostada** (ristet brød) med tomat og olivenolje, kjeks eller churros.
+- **la comida** eller **el almuerzo** – dagens største måltid, gjerne rundt klokka to eller tre. Det består ofte av **el primer plato** (første rett), **el segundo plato** (hovedrett) og **el postre** (dessert).
+- **la merienda** – et mellommåltid på ettermiddagen, særlig for barn.
+- **la cena** – kveldsmaten, som ofte spises sent, rundt klokka ni eller ti.
+
+## Mat og drikke
+
+- **el pan** (brødet), **el queso** (osten), **el jamón** (skinka), **el huevo** (egget)
+- **la carne** (kjøttet), **el pollo** (kyllingen), **el pescado** (fisken)
+- **las verduras** (grønnsakene), **la fruta** (frukten): **la manzana** (eplet), **la naranja** (appelsinen), **la fresa** (jordbæret)
+- **el arroz** (risen), **la ensalada**, **la sopa** og **el pastel** (kaken)
+- **el agua**, **la leche** (melka), **el té**, **el café** og **el refresco** (brus)
+
+Noen ord varierer mellom Spania og Latin-Amerika: poteter heter **las patatas** i Spania og **las papas** i Latin-Amerika, og juice heter **el zumo** i Spania og **el jugo** i Latin-Amerika.
+
+## Sulten og tørst
+
+På spansk «har» man sult og tørst: **Tengo hambre.** – Jeg er sulten. **Tengo sed.** – Jeg er tørst.
+
+## Si hva du liker
+
+- **Me gusta el chocolate.** – Jeg liker sjokolade.
+- **Me gustan las fresas.** – Jeg liker jordbær.
+- **No me gusta el pescado.** – Jeg liker ikke fisk.
+- **Prefiero el pollo.** – Jeg foretrekker kylling.
+
+## Verb som endrer vokal
+
+Noen verb endrer vokal i stammen i de fleste personene:
+
+- **querer** (ville ha): quiero, quieres, quiere, queremos, queréis, quieren
+- **preferir** (foretrekke): prefiero, prefieres, prefiere …
+- **pedir** (bestille, be om): pido, pides, pide …
+
+## På restaurant
+
+- **La carta, por favor.** – Menyen, takk. Mange restauranter i Spania har **el menú del día**, en dagens meny til fast pris.
+- **¿Qué va a tomar?** – Hva vil De ha?
+- **Para mí, una ensalada, por favor.** – Til meg en salat, takk. Du kan også si **Quisiera …** (jeg vil gjerne ha).
+- **De primero, sopa. De segundo, pollo. De postre, un helado.** – Til første rett suppe, til hovedrett kylling og til dessert en is.
+- **¡Buen provecho!** – God appetitt! **¡Salud!** – Skål!
+- **La cuenta, por favor.** – Regningen, takk.
+
+I Spania er det vanlig å gi litt **propina** (tips) når man er fornøyd, men det er ikke påkrevd.', '{"label":"Mat og drikke","children":[{"label":"Måltider","children":[{"label":"desayuno"},{"label":"comida","note":"klokka 14–15"},{"label":"merienda"},{"label":"cena","note":"klokka 21–22"}]},{"label":"Mat og drikke","children":[{"label":"pan, queso, jamón"},{"label":"verduras og fruta"},{"label":"patatas eller papas"}]},{"label":"Liker","children":[{"label":"Me gusta / me gustan"},{"label":"Prefiero …"},{"label":"Tengo hambre / sed"}]},{"label":"Verb","children":[{"label":"querer: quiero"},{"label":"preferir: prefiero"},{"label":"pedir: pido"}]},{"label":"Restaurant","children":[{"label":"la carta"},{"label":"menú del día"},{"label":"¡Buen provecho!"},{"label":"La cuenta"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'spansk-9:mat-og-drikke';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('spansk-9:mat-og-drikke', 'el desayuno', 'frokosten', 0),
+  ('spansk-9:mat-og-drikke', 'la comida / el almuerzo', 'dagens største måltid, midt på dagen', 1),
+  ('spansk-9:mat-og-drikke', 'la merienda', 'mellommåltid på ettermiddagen', 2),
+  ('spansk-9:mat-og-drikke', 'la cena', 'kveldsmaten', 3),
+  ('spansk-9:mat-og-drikke', 'el pan', 'brødet', 4),
+  ('spansk-9:mat-og-drikke', 'el queso', 'osten', 5),
+  ('spansk-9:mat-og-drikke', 'las verduras', 'grønnsakene', 6),
+  ('spansk-9:mat-og-drikke', 'la fruta', 'frukten', 7),
+  ('spansk-9:mat-og-drikke', 'el pollo', 'kyllingen', 8),
+  ('spansk-9:mat-og-drikke', 'el agua', 'vannet', 9),
+  ('spansk-9:mat-og-drikke', 'Tengo hambre. / Tengo sed.', 'Jeg er sulten. / Jeg er tørst.', 10),
+  ('spansk-9:mat-og-drikke', 'quiero', 'jeg vil ha (av querer)', 11),
+  ('spansk-9:mat-og-drikke', 'Quisiera …', 'Jeg vil gjerne ha … (høflig)', 12),
+  ('spansk-9:mat-og-drikke', 'la carta', 'menyen', 13),
+  ('spansk-9:mat-og-drikke', 'La cuenta, por favor.', 'Regningen, takk.', 14),
+  ('spansk-9:mat-og-drikke', 'el menú del día', 'dagens meny til fast pris', 15),
+  ('spansk-9:mat-og-drikke', '¡Buen provecho!', 'God appetitt!', 16);
+delete from public.quiz_sporsmal where tema_id = 'spansk-9:mat-og-drikke';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('spansk-9:mat-og-drikke', 'q01', 'flervalg', 'Når spiser mange spanjoler «la cena»?', array['Om morgenen', 'Rundt klokka tolv', 'Sent om kvelden, rundt klokka ni eller ti', 'Klokka fire']::text[], 2, 'Spanjoler spiser både lunsj og kveldsmat sent.', true, true, 0),
+  ('spansk-9:mat-og-drikke', 'q02', 'flervalg', 'Hvordan sier du «Jeg er tørst»?', array['Tengo sed.', 'Soy sed.', 'Tengo hambre.', 'Estoy sed.']::text[], 0, 'På spansk «har» man tørst.', true, true, 1),
+  ('spansk-9:mat-og-drikke', 'q03', 'flervalg', 'Hva er riktig form av «querer» med «yo»?', array['quero', 'querro', 'quiere', 'quiero']::text[], 3, 'e blir til ie i stammen: quiero.', true, true, 2),
+  ('spansk-9:mat-og-drikke', 'q04', 'flervalg', 'Hvordan bestiller du høflig?', array['¡Dame agua!', 'Para mí, un agua, por favor.', 'Agua, ya.', 'Quiero agua ahora mismo.']::text[], 1, '«Para mí …, por favor» er høflig.', true, true, 3),
+  ('spansk-9:mat-og-drikke', 'q05', 'flervalg', 'Hvordan ber du om regningen?', array['¡Buen provecho!', '¡Salud!', 'La carta, por favor.', 'La cuenta, por favor.']::text[], 3, '«la cuenta» betyr regningen.', true, true, 4),
+  ('spansk-9:mat-og-drikke', 'q06', 'flervalg', 'Hva er «el menú del día»?', array['Hele menyen', 'Barnemenyen', 'Dagens meny til fast pris', 'Drikkemenyen']::text[], 2, 'Den består ofte av to retter, dessert og drikke.', true, true, 5),
+  ('spansk-9:mat-og-drikke', 'q07', 'flervalg', 'Hvilken setning er riktig?', array['Me gustan las fresas.', 'Me gusta las fresas.', 'Me gusto las fresas.', 'Yo gustan las fresas.']::text[], 0, '«las fresas» er flertall, derfor «gustan».', true, true, 6),
+  ('spansk-9:mat-og-drikke', 'q08', 'flervalg', 'Hva er «la merienda»?', array['Frokost', 'Et mellommåltid på ettermiddagen', 'Middag', 'Nattmat']::text[], 1, 'Barn spiser ofte merienda etter skolen.', true, true, 7),
+  ('spansk-9:mat-og-drikke', 'q09', 'flervalg', 'Hva heter poteter i Latin-Amerika?', array['las patatas', 'las pastas', 'las papas', 'las piñas']::text[], 2, 'I Spania heter det «las patatas».', true, false, 8),
+  ('spansk-9:mat-og-drikke', 'q10', 'flervalg', 'Hva betyr «las verduras»?', array['Frukt', 'Kjøtt', 'Brød', 'Grønnsaker']::text[], 3, 'Frukt heter «la fruta».', true, false, 9),
+  ('spansk-9:mat-og-drikke', 'm01', 'sant-usant', 'I Spania er lunsjen, la comida, ofte dagens største måltid.', array['Sant', 'Usant']::text[], 0, 'Den spises gjerne rundt klokka to eller tre.', false, true, 10),
+  ('spansk-9:mat-og-drikke', 'm02', 'sant-usant', '«el zumo» og «el jugo» betyr begge juice.', array['Sant', 'Usant']::text[], 0, '«zumo» brukes i Spania og «jugo» i Latin-Amerika.', false, true, 11),
+  ('spansk-9:mat-og-drikke', 'm03', 'sant-usant', '«Tengo hambre» betyr jeg er trøtt.', array['Sant', 'Usant']::text[], 1, '«Tengo hambre» betyr jeg er sulten.', false, true, 12),
+  ('spansk-9:mat-og-drikke', 'm04', 'sant-usant', '«pedir» betyr å betale.', array['Sant', 'Usant']::text[], 1, '«pedir» betyr å bestille eller be om. Å betale heter «pagar».', false, true, 13),
+  ('spansk-9:mat-og-drikke', 'm05', 'flervalg', 'Hva betyr «¡Buen provecho!»?', array['Skål!', 'God appetitt!', 'Ha det!', 'Takk for maten!']::text[], 1, 'I Spania sier man også «¡Que aproveche!».', false, true, 14),
+  ('spansk-9:mat-og-drikke', 'm06', 'flervalg', 'Hva betyr «De postre, quiero un helado»?', array['Til dessert vil jeg ha en is', 'Til forrett vil jeg ha suppe', 'Jeg vil ikke ha is', 'Isen er god']::text[], 0, '«el postre» betyr desserten.', false, true, 15),
+  ('spansk-9:mat-og-drikke', 'm07', 'flervalg', 'Hva er «el pescado»?', array['Kylling', 'Svinekjøtt', 'Fisk', 'Egg']::text[], 2, 'Levende fisk i vannet heter «el pez».', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('spansk-9:mat-og-drikke', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Spansk: Hjemmet og hverdagen
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('spansk-9:hjemmet-og-hverdagen', 'spansk-9', 'hjemmet-og-hverdagen', 'Hjemmet og hverdagen', 'Rom og møbler på spansk, hay og estar for plassering, en vanlig dag med refleksive verb, verbene ir og hacer, og ord som hjelper deg å fortelle i rekkefølge.', array[3, 5]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('spansk-9:hjemmet-og-hverdagen', '## Hjemmet – la casa
+
+Mange i spanske byer bor i **un piso** (en leilighet; i Latin-Amerika sier man ofte **un apartamento**). Andre bor i **una casa** (et hus). Rommene heter:
+
+- **la cocina** – kjøkkenet
+- **el salón** – stua
+- **la habitación** eller **el dormitorio** – soverommet
+- **el cuarto de baño** – badet
+- **el jardín** – hagen, **la terraza** og **el garaje**
+
+## Mitt rom – mi habitación
+
+Møbler: **la cama** (senga), **la mesa** (bordet), **el escritorio** (skrivebordet), **la silla** (stolen), **el armario** (skapet), **la estantería** (hylla), **el sofá**, **la lámpara** og **la ventana** (vinduet).
+
+- **En mi habitación hay una cama y un escritorio.** – På rommet mitt er det en seng og et skrivebord. **Hay** betyr «det er» eller «det finnes».
+- **Mi habitación es pequeña pero bonita.** – Rommet mitt er lite, men fint.
+- **La lámpara está encima del escritorio.** – Lampen står på skrivebordet. Plassering uttrykkes med **estar**.
+
+Preposisjoner for plassering: **en** (i), **encima de** (oppå), **debajo de** (under), **delante de** (foran), **detrás de** (bak), **al lado de** (ved siden av) og **enfrente de** (overfor).
+
+## Hverdagen – la rutina diaria
+
+- **Me despierto a las siete.** – Jeg våkner klokka sju.
+- **Me levanto, me ducho y me visto.** – Jeg står opp, dusjer og kler på meg.
+- **Desayuno.** – Jeg spiser frokost.
+- **Voy al instituto en autobús.** – Jeg tar bussen til skolen.
+- **Después de clase, hago los deberes.** – Etter skolen gjør jeg lekser.
+- **Por la noche, veo la tele.** – Om kvelden ser jeg på TV.
+- **Me acuesto a las diez.** – Jeg legger meg klokka ti.
+
+Hjemme hjelper mange til: **ordenar mi habitación** (rydde rommet), **fregar los platos** (ta oppvasken), **poner la mesa** (dekke bordet) og **pasar la aspiradora** (støvsuge).
+
+## Refleksive verb
+
+Mange hverdagsverb er **refleksive**. Pronomenet står **foran** verbet: **levantarse** (stå opp) → **me** levanto, **te** levantas, **se** levanta, **nos** levantamos, **os** levantáis, **se** levantan. Noen av dem endrer også vokal: *me despierto*, *me acuesto*.
+
+## Ir og hacer
+
+- **ir** (gå, dra): voy, vas, va, vamos, vais, van
+- **hacer** (gjøre, lage): hago, haces, hace, hacemos, hacéis, hacen
+
+## Fortelle i rekkefølge
+
+Bruk **primero** (først), **luego** (så), **después** (etterpå), **más tarde** (senere) og **por último** (til slutt): *Primero me levanto. Luego desayuno. Por último, voy al instituto.*', '{"label":"Hjemmet og hverdagen","children":[{"label":"Rom","children":[{"label":"cocina"},{"label":"salón"},{"label":"habitación"},{"label":"cuarto de baño"}]},{"label":"Mitt rom","children":[{"label":"cama, mesa, silla"},{"label":"hay"},{"label":"estar + encima de, debajo de"}]},{"label":"Hverdagen","children":[{"label":"me levanto"},{"label":"voy al instituto"},{"label":"hago los deberes"},{"label":"me acuesto"}]},{"label":"Verb","children":[{"label":"Refleksive verb"},{"label":"ir"},{"label":"hacer"}]},{"label":"Rekkefølge","children":[{"label":"primero"},{"label":"luego, después"},{"label":"por último"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'spansk-9:hjemmet-og-hverdagen';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('spansk-9:hjemmet-og-hverdagen', 'el piso', 'leiligheten (i Spania)', 0),
+  ('spansk-9:hjemmet-og-hverdagen', 'la habitación', 'soverommet, rommet', 1),
+  ('spansk-9:hjemmet-og-hverdagen', 'la cocina', 'kjøkkenet', 2),
+  ('spansk-9:hjemmet-og-hverdagen', 'el salón', 'stua', 3),
+  ('spansk-9:hjemmet-og-hverdagen', 'el cuarto de baño', 'badet', 4),
+  ('spansk-9:hjemmet-og-hverdagen', 'la cama', 'senga', 5),
+  ('spansk-9:hjemmet-og-hverdagen', 'el armario', 'skapet', 6),
+  ('spansk-9:hjemmet-og-hverdagen', 'el escritorio', 'skrivebordet', 7),
+  ('spansk-9:hjemmet-og-hverdagen', 'hay', 'det er, det finnes', 8),
+  ('spansk-9:hjemmet-og-hverdagen', 'me levanto', 'jeg står opp', 9),
+  ('spansk-9:hjemmet-og-hverdagen', 'me ducho', 'jeg dusjer', 10),
+  ('spansk-9:hjemmet-og-hverdagen', 'me acuesto', 'jeg legger meg', 11),
+  ('spansk-9:hjemmet-og-hverdagen', 'ir: voy', 'å gå, dra: jeg går, drar', 12),
+  ('spansk-9:hjemmet-og-hverdagen', 'hacer los deberes', 'å gjøre lekser', 13),
+  ('spansk-9:hjemmet-og-hverdagen', 'ordenar mi habitación', 'å rydde rommet mitt', 14),
+  ('spansk-9:hjemmet-og-hverdagen', 'primero, luego, por último', 'først, så, til slutt', 15);
+delete from public.quiz_sporsmal where tema_id = 'spansk-9:hjemmet-og-hverdagen';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('spansk-9:hjemmet-og-hverdagen', 'q01', 'flervalg', 'Hva betyr «la cocina»?', array['Soverommet', 'Kjøkkenet', 'Badet', 'Stua']::text[], 1, '«cocinar» betyr å lage mat.', true, true, 0),
+  ('spansk-9:hjemmet-og-hverdagen', 'q02', 'flervalg', 'Hva betyr «hay»?', array['Han har', 'Det var', 'Han går', 'Det er / det finnes']::text[], 3, '«Hay una cama» betyr «det er en seng».', true, true, 1),
+  ('spansk-9:hjemmet-og-hverdagen', 'q03', 'flervalg', 'Hvordan sier du «Jeg står opp klokka sju»?', array['Me levanto a las siete.', 'Levanto a las siete.', 'Yo levanta a las siete.', 'Me levanta a las siete.']::text[], 0, '«levantarse» er refleksivt: me levanto.', true, true, 2),
+  ('spansk-9:hjemmet-og-hverdagen', 'q04', 'flervalg', 'Hva er riktig form av «ir» med «yo»?', array['iro', 'va', 'voy', 'vo']::text[], 2, '«ir» er helt uregelrett.', true, true, 3),
+  ('spansk-9:hjemmet-og-hverdagen', 'q05', 'flervalg', 'Hva betyr «hacer los deberes»?', array['Å lage mat', 'Å rydde', 'Å gjøre lekser', 'Å gå på skolen']::text[], 2, '«los deberes» betyr leksene.', true, true, 4),
+  ('spansk-9:hjemmet-og-hverdagen', 'q06', 'flervalg', 'Hvor står refleksivpronomenet i «me acuesto»?', array['Foran verbet', 'Etter verbet', 'Til slutt i setningen', 'Det finnes ikke']::text[], 0, 'I vanlige setninger står pronomenet foran verbet.', true, true, 5),
+  ('spansk-9:hjemmet-og-hverdagen', 'q07', 'flervalg', 'Hva betyr «el armario»?', array['Senga', 'Stolen', 'Vinduet', 'Skapet']::text[], 3, 'Ordet ligner norsk «arméskap».', true, true, 6),
+  ('spansk-9:hjemmet-og-hverdagen', 'q08', 'flervalg', 'Hva heter en leilighet i Spania?', array['la casa', 'el piso', 'el jardín', 'la terraza']::text[], 1, '«el piso» kan også bety etasje.', true, true, 7),
+  ('spansk-9:hjemmet-og-hverdagen', 'q09', 'flervalg', 'Hvilket uttrykk betyr «til slutt»?', array['primero', 'luego', 'después', 'por último']::text[], 3, '«primero» betyr først.', true, false, 8),
+  ('spansk-9:hjemmet-og-hverdagen', 'q10', 'flervalg', 'Hva betyr «fregar los platos»?', array['Å dekke bordet', 'Å handle', 'Å ta oppvasken', 'Å vaske klær']::text[], 2, '«los platos» betyr tallerkenene.', true, false, 9),
+  ('spansk-9:hjemmet-og-hverdagen', 'm01', 'sant-usant', '«el cuarto de baño» er badet.', array['Sant', 'Usant']::text[], 0, 'Man sier ofte bare «el baño».', false, true, 10),
+  ('spansk-9:hjemmet-og-hverdagen', 'm02', 'sant-usant', '«levantarse» er et refleksivt verb.', array['Sant', 'Usant']::text[], 0, '«Me levanto» betyr jeg står opp.', false, true, 11),
+  ('spansk-9:hjemmet-og-hverdagen', 'm03', 'sant-usant', '«debajo de» betyr på.', array['Sant', 'Usant']::text[], 1, '«debajo de» betyr under. Oppå heter «encima de».', false, true, 12),
+  ('spansk-9:hjemmet-og-hverdagen', 'm04', 'sant-usant', '«hago» er en form av verbet «ir».', array['Sant', 'Usant']::text[], 1, '«hago» kommer fra «hacer». Fra «ir» heter det «voy».', false, true, 13),
+  ('spansk-9:hjemmet-og-hverdagen', 'm05', 'flervalg', 'Hva betyr «Mi habitación es pequeña pero bonita»?', array['Rommet mitt er lite, men fint', 'Rommet mitt er stort', 'Jeg liker ikke rommet mitt', 'Rommet mitt er rotete']::text[], 0, '«pero» betyr men.', false, true, 14),
+  ('spansk-9:hjemmet-og-hverdagen', 'm06', 'flervalg', 'Hva betyr «al lado de»?', array['Bak', 'Ved siden av', 'Under', 'Foran']::text[], 1, '«enfrente de» betyr overfor.', false, true, 15),
+  ('spansk-9:hjemmet-og-hverdagen', 'm07', 'flervalg', 'Hvilket ord passer: «nosotros … levantamos»?', array['me', 'se', 'nos', 'os']::text[], 2, 'Med «nosotros» er refleksivpronomenet «nos».', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('spansk-9:hjemmet-og-hverdagen', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Spansk: Byen og veibeskrivelse
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('spansk-9:byen-og-veibeskrivelse', 'spansk-9', 'byen-og-veibeskrivelse', 'Byen og veibeskrivelse', 'Steder i byen, hvordan du spør om og forstår en veibeskrivelse på spansk, sammentrekningene al og del, transportmidler og lyttestrategier.', array[2, 1]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('spansk-9:byen-og-veibeskrivelse', '## I byen – en la ciudad
+
+- **la estación de tren** – jernbanestasjonen, **la parada de autobús** – bussholdeplassen, **el aeropuerto** – flyplassen
+- **el hospital** – sykehuset, **la farmacia** – apoteket
+- **el banco** og **correos** – postkontoret
+- **la biblioteca** – biblioteket, **el museo** og **el cine**
+- **el supermercado** og **el centro comercial** – kjøpesenteret
+- **el parque**, **la iglesia** – kirken, **el ayuntamiento** – rådhuset
+- **la calle** – gata, **la plaza** – torget, **el puente** – brua, **el semáforo** – trafikklyset, **el cruce** – krysset, **la esquina** – hjørnet
+
+Mange spanske byer har en **Plaza Mayor**, et stort torg i sentrum der folk møtes.
+
+## Spørre om veien
+
+- **Perdone, ¿dónde está la estación?** – Unnskyld, hvor er stasjonen?
+- **¿Cómo se va al museo?** – Hvordan kommer jeg til museet?
+- **¿Hay una farmacia por aquí?** – Finnes det et apotek her i nærheten?
+- **¿Está lejos?** – Er det langt? – **No, está a cinco minutos a pie.**
+
+## Veibeskrivelse
+
+- **Siga todo recto.** – Gå rett fram.
+- **Gire a la izquierda / a la derecha.** – Ta til venstre / høyre.
+- **Tome la primera / segunda calle a la izquierda.** – Ta den første / andre gata til venstre.
+- **en el semáforo** – ved lyskrysset, **en la esquina** – på hjørnet
+- **Cruce la plaza.** – Gå over torget.
+- **Está a la derecha.** – Det er på høyre side.
+- **Correos está al lado del banco / enfrente del parque.** – Posten er ved siden av banken / overfor parken.
+
+Veibeskrivelser til fremmede gis ofte i **usted**-form, som *siga*, *gire* og *tome*.
+
+## Al og del
+
+Preposisjonene **a** og **de** smelter sammen med artikkelen **el**:
+
+- **a + el = al**: *Voy **al** museo.*
+- **de + el = del**: *al lado **del** parque*
+
+Med *la*, *los* og *las* skjer ingen sammentrekning: *a la plaza*, *de las tiendas*.
+
+## Transport
+
+**en autobús**, **en metro**, **en tren**, **en coche** (med bil; i Latin-Amerika ofte **en carro**), **en bici** (med sykkel) og **a pie** (til fots).
+
+## Lyttestrategier
+
+Lytt etter **nøkkelord** som *izquierda*, *derecha* og *todo recto*. Hvis det går for fort, kan du si:
+
+- **¿Puede repetir, por favor?** – Kan De gjenta?
+- **Más despacio, por favor.** – Saktere, takk.
+- **¿Me lo puede enseñar en el mapa?** – Kan De vise meg det på kartet?
+
+Når du selv forklarer veien, kan du peke og bruke hendene. Kroppsspråk hjelper når ordene ikke strekker til.', '{"label":"Byen og veibeskrivelse","children":[{"label":"Steder","children":[{"label":"estación, parada"},{"label":"farmacia, hospital"},{"label":"biblioteca, museo"},{"label":"ayuntamiento, Plaza Mayor"}]},{"label":"Spørre","children":[{"label":"¿Dónde está …?"},{"label":"¿Cómo se va al …?"},{"label":"¿Está lejos?"}]},{"label":"Forklare","children":[{"label":"todo recto"},{"label":"a la izquierda / derecha"},{"label":"en el semáforo"},{"label":"al lado de, enfrente de"}]},{"label":"Grammatikk og transport","children":[{"label":"al og del"},{"label":"en autobús, en metro"},{"label":"a pie"}]},{"label":"Lyttestrategier","children":[{"label":"Nøkkelord"},{"label":"¿Puede repetir?"},{"label":"Más despacio"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'spansk-9:byen-og-veibeskrivelse';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('spansk-9:byen-og-veibeskrivelse', 'la estación de tren', 'jernbanestasjonen', 0),
+  ('spansk-9:byen-og-veibeskrivelse', 'la parada de autobús', 'bussholdeplassen', 1),
+  ('spansk-9:byen-og-veibeskrivelse', 'la farmacia', 'apoteket', 2),
+  ('spansk-9:byen-og-veibeskrivelse', 'la biblioteca', 'biblioteket', 3),
+  ('spansk-9:byen-og-veibeskrivelse', 'el ayuntamiento', 'rådhuset', 4),
+  ('spansk-9:byen-og-veibeskrivelse', 'el semáforo', 'trafikklyset', 5),
+  ('spansk-9:byen-og-veibeskrivelse', 'la esquina', 'hjørnet', 6),
+  ('spansk-9:byen-og-veibeskrivelse', 'todo recto', 'rett fram', 7),
+  ('spansk-9:byen-og-veibeskrivelse', 'a la izquierda / a la derecha', 'til venstre / til høyre', 8),
+  ('spansk-9:byen-og-veibeskrivelse', 'Gire a la izquierda.', 'Ta til venstre.', 9),
+  ('spansk-9:byen-og-veibeskrivelse', 'enfrente de', 'overfor', 10),
+  ('spansk-9:byen-og-veibeskrivelse', '¿Cómo se va al …?', 'Hvordan kommer jeg til …?', 11),
+  ('spansk-9:byen-og-veibeskrivelse', 'al / del', 'a + el / de + el', 12),
+  ('spansk-9:byen-og-veibeskrivelse', 'a pie', 'til fots', 13),
+  ('spansk-9:byen-og-veibeskrivelse', 'en metro', 'med T-banen', 14),
+  ('spansk-9:byen-og-veibeskrivelse', '¿Puede repetir, por favor?', 'Kan De gjenta?', 15);
+delete from public.quiz_sporsmal where tema_id = 'spansk-9:byen-og-veibeskrivelse';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('spansk-9:byen-og-veibeskrivelse', 'q01', 'flervalg', 'Hva er «la estación de tren»?', array['Flyplassen', 'Bussholdeplassen', 'Havnen', 'Jernbanestasjonen']::text[], 3, '«el tren» betyr toget.', true, true, 0),
+  ('spansk-9:byen-og-veibeskrivelse', 'q02', 'flervalg', 'Hva betyr «todo recto»?', array['Til venstre', 'Rett fram', 'Til høyre', 'Tilbake']::text[], 1, 'Man kan også si «todo derecho» i Latin-Amerika.', true, true, 1),
+  ('spansk-9:byen-og-veibeskrivelse', 'q03', 'flervalg', 'Hvordan spør du om veien til museet?', array['¿Dónde vives?', '¿Cuánto cuesta el museo?', '¿Cómo se va al museo?', '¿Es bonito el museo?']::text[], 2, '«¿Cómo se va a …?» brukes når du spør om veien.', true, true, 2),
+  ('spansk-9:byen-og-veibeskrivelse', 'q04', 'flervalg', 'Hva er «la farmacia»?', array['Apoteket', 'Gården', 'Biblioteket', 'Banken']::text[], 0, 'En gård heter «la granja».', true, true, 3),
+  ('spansk-9:byen-og-veibeskrivelse', 'q05', 'flervalg', 'Hvorfor heter det «al museo», men «a la plaza»?', array['Fordi museet er større', 'Fordi «museo» er hankjønn og a + el blir al', 'Fordi plaza er et torg', 'Det er tilfeldig']::text[], 1, 'Bare a + el trekkes sammen.', true, true, 4),
+  ('spansk-9:byen-og-veibeskrivelse', 'q06', 'flervalg', 'Hva betyr «Gire a la derecha en el semáforo»?', array['Gå rett fram ved lyskrysset', 'Stopp ved lyskrysset', 'Snu ved brua', 'Ta til høyre ved lyskrysset']::text[], 3, '«girar» betyr å svinge.', true, true, 5),
+  ('spansk-9:byen-og-veibeskrivelse', 'q07', 'flervalg', 'Hva betyr «a pie»?', array['Til fots', 'Med bil', 'Med sykkel', 'Med tog']::text[], 0, '«el pie» betyr foten.', true, true, 6),
+  ('spansk-9:byen-og-veibeskrivelse', 'q08', 'flervalg', 'Hva betyr «enfrente de»?', array['Bak', 'Under', 'Overfor', 'Ved siden av']::text[], 2, 'Ved siden av heter «al lado de».', true, true, 7),
+  ('spansk-9:byen-og-veibeskrivelse', 'q09', 'flervalg', 'Hva sier du hvis du ikke forstod veibeskrivelsen?', array['¡Adiós!', '¡Buen provecho!', '¡Muchas gracias!', '¿Puede repetir, por favor?']::text[], 3, 'Det er helt greit å be om at noe blir gjentatt.', true, false, 8),
+  ('spansk-9:byen-og-veibeskrivelse', 'q10', 'flervalg', 'Hva er «el ayuntamiento»?', array['Havet', 'Rådhuset', 'Kirken', 'Markedet']::text[], 1, 'Rådhuset ligger ofte ved Plaza Mayor.', true, false, 9),
+  ('spansk-9:byen-og-veibeskrivelse', 'm01', 'sant-usant', '«a la izquierda» betyr til venstre.', array['Sant', 'Usant']::text[], 0, 'Til høyre heter «a la derecha».', false, true, 10),
+  ('spansk-9:byen-og-veibeskrivelse', 'm02', 'sant-usant', '«la biblioteca» er en bokhandel.', array['Sant', 'Usant']::text[], 1, '«la biblioteca» er biblioteket. En bokhandel heter «la librería».', false, true, 11),
+  ('spansk-9:byen-og-veibeskrivelse', 'm03', 'sant-usant', '«en metro» betyr med T-banen.', array['Sant', 'Usant']::text[], 0, 'Madrid og Mexico by har store T-banenett.', false, true, 12),
+  ('spansk-9:byen-og-veibeskrivelse', 'm04', 'sant-usant', '«la esquina» betyr kirken.', array['Sant', 'Usant']::text[], 1, '«la esquina» betyr hjørnet. Kirken heter «la iglesia».', false, true, 13),
+  ('spansk-9:byen-og-veibeskrivelse', 'm05', 'flervalg', 'Hvordan sier du «Er det langt?»?', array['¿Está lejos?', '¿Dónde está?', '¿Qué es?', '¿Está aquí?']::text[], 0, '«lejos» betyr langt unna.', false, true, 14),
+  ('spansk-9:byen-og-veibeskrivelse', 'm06', 'flervalg', 'Hva er «la parada de autobús»?', array['Bussjåføren', 'Bussholdeplassen', 'Busskortet', 'Bussen']::text[], 1, '«parar» betyr å stoppe.', false, true, 15),
+  ('spansk-9:byen-og-veibeskrivelse', 'm07', 'flervalg', 'Hva betyr «Tome la segunda calle a la izquierda»?', array['Ta den første gata til høyre', 'Gå to kvartaler rett fram', 'Ta den andre gata til venstre', 'Kryss gata to ganger']::text[], 2, '«segunda» betyr andre.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('spansk-9:byen-og-veibeskrivelse', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Spansk: Klær og handel
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('spansk-9:klaer-og-handel', 'spansk-9', 'klaer-og-handel', 'Klær og handel', 'Klær og farger på spansk, adjektiver som bøyes, nyttige uttrykk i butikken, priser og valuta, este og esta, og pronomenene lo, la, los og las.', array[2, 6]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('spansk-9:klaer-og-handel', '## Klær – la ropa
+
+- **la camiseta** (t-skjorta), **la camisa** (skjorta), **la blusa**
+- **el jersey** (genseren; i Latin-Amerika ofte **el suéter**), **la chaqueta** (jakka), **el abrigo** (kåpa, frakken)
+- **los pantalones** (buksa), **los vaqueros** (dongeribuksa), **la falda** (skjørtet), **el vestido** (kjolen)
+- **los zapatos** (skoene), **las zapatillas** (joggeskoene), **los calcetines** (sokkene)
+- **el gorro** (lua), **la bufanda** (skjerfet), **los guantes** (hanskene)
+
+## Farger – los colores
+
+**rojo** (rød), **azul** (blå), **verde** (grønn), **amarillo** (gul), **negro** (svart), **blanco** (hvit), **gris** (grå), **marrón** (brun), **rosa**, **morado** (lilla) og **naranja**.
+
+Fargene står **etter** substantivet og bøyes etter kjønn og tall: *una falda roj**a***, *unos pantalones negr**os***. Farger som ender på *-e* eller konsonant, som **verde**, **azul** og **gris**, har samme form for begge kjønn. **Rosa** og **naranja** bøyes vanligvis ikke.
+
+## I butikken – en la tienda
+
+- **¿En qué puedo ayudarle?** – Hva kan jeg hjelpe Dem med?
+- **Busco una chaqueta.** – Jeg ser etter en jakke.
+- **¿Qué talla usa?** – Hvilken størrelse bruker De? – **Uso la M.** Skostørrelse heter **el número**.
+- **¿Puedo probármelo?** – Kan jeg prøve den på? Du prøver klær i **el probador**.
+- **Me queda bien / No me queda bien.** – Den passer / passer ikke.
+- **Es demasiado grande / pequeño / caro.** – Den er for stor / for liten / for dyr.
+- **¿Cuánto cuesta?** eller **¿Cuánto es?** – Hva koster den? / Hva blir det?
+- **Cuesta 29,99 euros.** – *veintinueve euros con noventa y nueve*.
+- **Me lo llevo.** – Jeg tar den. Du betaler i **la caja** (kassen).
+
+Andre nyttige ord er **barato** (billig), **caro** (dyr), **de oferta** (på tilbud) og **las rebajas** (utsalget). Spania bruker euro, mens landene i Latin-Amerika har egne valutaer, som **el peso** i Mexico og Argentina.
+
+## Denne, dette, disse
+
+**este** jersey (hankjønn), **esta** falda (hunkjønn), **estos** zapatos (hankjønn flertall) og **estas** camisetas (hunkjønn flertall).
+
+## Lo, la, los, las – den og dem
+
+Når du viser tilbake til et plagg, velger du pronomen etter kjønn og tall: **el jersey → lo**, **la falda → la**, **los zapatos → los**, **las botas → las**. *Me **la** llevo.* – Jeg tar det (skjørtet).
+
+## Si hva du synes
+
+- **¿Qué te parece esta falda?** – Hva synes du om dette skjørtet?
+- **Me parece bonita / fea.** – Jeg synes det er fint / stygt.
+- **¡Te queda muy bien!** – Det kler deg veldig godt!
+
+## Mote
+
+Spania har flere store klesmerker. Et av verdens største klesselskaper, som blant annet eier **Zara**, kommer fra Galicia i Nordvest-Spania.', '{"label":"Klær og handel","children":[{"label":"Klær","children":[{"label":"pantalones, falda, vestido"},{"label":"camiseta, chaqueta"},{"label":"zapatos, gorro"}]},{"label":"Farger","children":[{"label":"rojo, azul, verde"},{"label":"negro, blanco"},{"label":"una falda roja"}]},{"label":"I butikken","children":[{"label":"Busco …"},{"label":"talla og número"},{"label":"probarse"},{"label":"demasiado caro"}]},{"label":"Grammatikk","children":[{"label":"este, esta, estos, estas"},{"label":"lo, la, los, las"},{"label":"Me lo llevo"}]},{"label":"Meninger og mote","children":[{"label":"¿Qué te parece …?"},{"label":"Te queda bien"},{"label":"las rebajas"},{"label":"Euro og peso"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'spansk-9:klaer-og-handel';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('spansk-9:klaer-og-handel', 'la ropa', 'klærne', 0),
+  ('spansk-9:klaer-og-handel', 'los pantalones', 'buksa', 1),
+  ('spansk-9:klaer-og-handel', 'la falda', 'skjørtet', 2),
+  ('spansk-9:klaer-og-handel', 'el vestido', 'kjolen', 3),
+  ('spansk-9:klaer-og-handel', 'la chaqueta', 'jakka', 4),
+  ('spansk-9:klaer-og-handel', 'la camiseta', 't-skjorta', 5),
+  ('spansk-9:klaer-og-handel', 'los zapatos', 'skoene', 6),
+  ('spansk-9:klaer-og-handel', 'las zapatillas', 'joggeskoene', 7),
+  ('spansk-9:klaer-og-handel', 'rojo, azul, negro', 'rød, blå, svart', 8),
+  ('spansk-9:klaer-og-handel', 'la talla', 'størrelsen', 9),
+  ('spansk-9:klaer-og-handel', 'probarse', 'å prøve på (klær)', 10),
+  ('spansk-9:klaer-og-handel', 'Es demasiado caro.', 'Det er for dyrt.', 11),
+  ('spansk-9:klaer-og-handel', '¿Cuánto cuesta?', 'Hva koster det?', 12),
+  ('spansk-9:klaer-og-handel', 'barato / caro', 'billig / dyr', 13),
+  ('spansk-9:klaer-og-handel', 'las rebajas', 'utsalget', 14),
+  ('spansk-9:klaer-og-handel', 'Me lo llevo.', 'Jeg tar den (om et hankjønnsord).', 15),
+  ('spansk-9:klaer-og-handel', 'este / esta / estos / estas', 'denne, dette / denne / disse / disse', 16);
+delete from public.quiz_sporsmal where tema_id = 'spansk-9:klaer-og-handel';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('spansk-9:klaer-og-handel', 'q01', 'flervalg', 'Hva betyr «la falda»?', array['Skjørtet', 'Buksa', 'Jakka', 'Sokkene']::text[], 0, 'Buksa heter «los pantalones».', true, true, 0),
+  ('spansk-9:klaer-og-handel', 'q02', 'flervalg', 'Hvordan spør du hva noe koster?', array['¿Dónde está?', '¿Qué es?', '¿Cuánto cuesta?', '¿Quién es?']::text[], 2, '«cuánto» betyr hvor mye.', true, true, 1),
+  ('spansk-9:klaer-og-handel', 'q03', 'flervalg', 'Hva betyr «¿Puedo probármelo?»?', array['Kan jeg kjøpe den?', 'Kan jeg prøve den på?', 'Kan jeg levere den tilbake?', 'Kan jeg få rabatt?']::text[], 1, '«probarse» betyr å prøve på seg.', true, true, 2),
+  ('spansk-9:klaer-og-handel', 'q04', 'flervalg', 'Hva betyr «Es demasiado caro»?', array['Det er for stort', 'Det er for lite', 'Det er for billig', 'Det er for dyrt']::text[], 3, '«demasiado» betyr for mye, altfor.', true, true, 3),
+  ('spansk-9:klaer-og-handel', 'q05', 'flervalg', 'Hvordan blir «rojo» etter et hunkjønnsord, som i «una falda …»?', array['rojo', 'rojos', 'roja', 'rojas']::text[], 2, 'Hunkjønn ender på -a.', true, true, 4),
+  ('spansk-9:klaer-og-handel', 'q06', 'flervalg', 'Hva betyr «¿Qué talla usa?»?', array['Hvilken størrelse bruker De?', 'Hvilken farge liker De?', 'Hvor mye penger har De?', 'Hvor høy er De?']::text[], 0, '«la talla» betyr størrelsen.', true, true, 5),
+  ('spansk-9:klaer-og-handel', 'q07', 'flervalg', 'Du vil kjøpe skjørtet (la falda). Hva sier du?', array['Me lo llevo.', 'Me los llevo.', 'Me le llevo.', 'Me la llevo.']::text[], 3, '«la falda» er hunkjønn, derfor «la».', true, true, 6),
+  ('spansk-9:klaer-og-handel', 'q08', 'flervalg', 'Hva er «las rebajas»?', array['Kassene', 'Utsalget', 'Prøverommet', 'Skoene']::text[], 1, 'Store utsalg er vanlig i januar og juli.', true, true, 7),
+  ('spansk-9:klaer-og-handel', 'q09', 'flervalg', 'Hvilket ord passer: «… zapatos son bonitos»?', array['Estos', 'Este', 'Esta', 'Estas']::text[], 0, '«zapatos» er hankjønn flertall.', true, false, 8),
+  ('spansk-9:klaer-og-handel', 'q10', 'flervalg', 'Hva betyr «barato»?', array['Dyr', 'Pen', 'Billig', 'Stor']::text[], 2, 'Dyr heter «caro».', true, false, 9),
+  ('spansk-9:klaer-og-handel', 'm01', 'sant-usant', '«el vestido» betyr kjolen.', array['Sant', 'Usant']::text[], 0, 'Ordet kan også bety antrekk.', false, true, 10),
+  ('spansk-9:klaer-og-handel', 'm02', 'sant-usant', 'Alle land i Latin-Amerika bruker euro.', array['Sant', 'Usant']::text[], 1, 'Landene har egne valutaer, som peso.', false, true, 11),
+  ('spansk-9:klaer-og-handel', 'm03', 'sant-usant', '«Me queda bien» betyr at plagget passer eller kler meg.', array['Sant', 'Usant']::text[], 0, '«quedar» brukes her om å passe.', false, true, 12),
+  ('spansk-9:klaer-og-handel', 'm04', 'sant-usant', '«azul» har ulik form for hankjønn og hunkjønn.', array['Sant', 'Usant']::text[], 1, '«azul» er likt i begge kjønn, men får -es i flertall: azules.', false, true, 13),
+  ('spansk-9:klaer-og-handel', 'm05', 'flervalg', 'Hva heter prøverommet på spansk?', array['la caja', 'el probador', 'la talla', 'el escaparate']::text[], 1, '«probar» betyr å prøve.', false, true, 14),
+  ('spansk-9:klaer-og-handel', 'm06', 'flervalg', 'Hva betyr «¡Te queda muy bien!»?', array['Det kler deg veldig godt!', 'Den er for liten!', 'Den er dyr!', 'Den er min!']::text[], 0, 'Du sier det når noe passer noen godt.', false, true, 15),
+  ('spansk-9:klaer-og-handel', 'm07', 'flervalg', 'Hvordan leser du prisen 29,99 €?', array['dos nueve nueve nueve euros', 'veintinueve coma nueve nueve', 'veintinueve euros con noventa y nueve', 'treinta euros']::text[], 2, 'Først eurobeløpet, så «con» og centene.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('spansk-9:klaer-og-handel', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Spansk: Å fortelle om fortiden
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('spansk-9:fortid', 'spansk-9', 'fortid', 'Å fortelle om fortiden', 'Hvordan du forteller om noe som har skjedd med pretérito indefinido og pretérito perfecto, regelrette og uregelrette former, nyttige uttrykk og tidsuttrykk.', array[3, 6]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('spansk-9:fortid', '## To fortidsformer
+
+Når du forteller om noe som har skjedd, bruker spansk flere fortidsformer. Her lærer du de to viktigste:
+
+- **Pretérito indefinido** brukes om **avsluttede handlinger** på et **bestemt tidspunkt** i fortiden: *Ayer **fui** al cine.* – I går dro jeg på kino.
+- **Pretérito perfecto** brukes særlig i Spania om noe som har skjedd **i dag**, **denne uken** eller **noen gang**: *Hoy **he comido** paella.* – I dag har jeg spist paella.
+
+## Indefinido – regelrette verb
+
+- **-ar** (hablar): habl**é**, habl**aste**, habl**ó**, habl**amos**, habl**asteis**, habl**aron**
+- **-er** og **-ir** (comer, vivir): com**í**, com**iste**, com**ió**, com**imos**, com**isteis**, com**ieron**
+
+Legg merke til aksenten: *hablé* (jeg snakket) og *habló* (han/hun snakket). Aksenten viser hvem det gjelder.
+
+## Indefinido – uregelrette verb
+
+- **ir** og **ser** har **de samme formene**: fui, fuiste, fue, fuimos, fuisteis, fueron. *Fui a Madrid* betyr «jeg dro til Madrid», mens *fue genial* betyr «det var kjempebra».
+- **hacer**: hice, hiciste, hizo, hicimos, hicisteis, hicieron
+- **tener**: tuve, tuviste, tuvo … **estar**: estuve, estuviste, estuvo …
+- **ver**: vi, viste, vio, vimos, visteis, vieron
+
+## Pretérito perfecto
+
+**haber** i presens + **partisipp**:
+
+- he, has, ha, hemos, habéis, han
+- Partisipp: **-ar** → **-ado** (hablado), **-er/-ir** → **-ido** (comido, vivido)
+- *Esta semana **he visitado** a mis abuelos.* – Denne uken har jeg besøkt besteforeldrene mine.
+
+I Latin-Amerika brukes indefinido oftere, også om ting som har skjedd i dag.
+
+## Nyttige uttrykk
+
+- **¿Qué hiciste el fin de semana?** – Hva gjorde du i helgen?
+- **Lo pasé muy bien.** – Jeg hadde det veldig gøy.
+- **Fue genial / aburrido.** – Det var kjempebra / kjedelig.
+
+## Tidsuttrykk
+
+**ayer** (i går), **anteayer** (i forgårs), **el fin de semana pasado** (forrige helg), **la semana pasada** (forrige uke), **el verano pasado** (i fjor sommer) og **hace dos días** (for to dager siden). Med perfecto: **hoy** (i dag), **esta mañana** (i morges) og **esta semana** (denne uken).
+
+## Eksempeltekst
+
+*El fin de semana pasado **fui** a Barcelona con mi familia. El sábado **visitamos** la Sagrada Familia y **comimos** tapas. Por la noche **vimos** un espectáculo de flamenco. ¡**Lo pasé** muy bien!*', '{"label":"Fortid på spansk","children":[{"label":"Indefinido","children":[{"label":"Avsluttet, bestemt tid"},{"label":"hablé, comí, viví"},{"label":"Aksent viser person"}]},{"label":"Uregelrette","children":[{"label":"ir/ser: fui"},{"label":"hacer: hice"},{"label":"tener: tuve"},{"label":"ver: vi"}]},{"label":"Perfecto","children":[{"label":"haber + partisipp"},{"label":"-ado, -ido"},{"label":"hoy, esta semana"}]},{"label":"Uttrykk","children":[{"label":"¿Qué hiciste?"},{"label":"Lo pasé muy bien"},{"label":"Fue genial"}]},{"label":"Tidsuttrykk","children":[{"label":"ayer"},{"label":"el fin de semana pasado"},{"label":"hace dos días"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'spansk-9:fortid';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('spansk-9:fortid', 'el pretérito indefinido', 'fortidsform for avsluttede handlinger på et bestemt tidspunkt', 0),
+  ('spansk-9:fortid', 'hablé', 'jeg snakket', 1),
+  ('spansk-9:fortid', 'comí', 'jeg spiste', 2),
+  ('spansk-9:fortid', 'viví', 'jeg bodde', 3),
+  ('spansk-9:fortid', 'fui', 'jeg dro (ir) / jeg var (ser)', 4),
+  ('spansk-9:fortid', 'hice', 'jeg gjorde (hacer)', 5),
+  ('spansk-9:fortid', 'tuve', 'jeg hadde (tener)', 6),
+  ('spansk-9:fortid', 'vi', 'jeg så (ver)', 7),
+  ('spansk-9:fortid', '¿Qué hiciste?', 'Hva gjorde du?', 8),
+  ('spansk-9:fortid', 'Lo pasé muy bien.', 'Jeg hadde det veldig gøy.', 9),
+  ('spansk-9:fortid', 'Fue genial.', 'Det var kjempebra.', 10),
+  ('spansk-9:fortid', 'he comido', 'jeg har spist (pretérito perfecto)', 11),
+  ('spansk-9:fortid', 'ayer', 'i går', 12),
+  ('spansk-9:fortid', 'el fin de semana pasado', 'forrige helg', 13),
+  ('spansk-9:fortid', 'hace dos días', 'for to dager siden', 14),
+  ('spansk-9:fortid', 'hoy, esta semana', 'i dag, denne uken – brukes ofte med pretérito perfecto', 15);
+delete from public.quiz_sporsmal where tema_id = 'spansk-9:fortid';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('spansk-9:fortid', 'q01', 'flervalg', 'Hva er riktig form av «hablar» i indefinido med «yo»?', array['hablo', 'habló', 'hablé', 'hablaba']::text[], 2, '«hablé» betyr jeg snakket. «habló» betyr han eller hun snakket.', true, true, 0),
+  ('spansk-9:fortid', 'q02', 'flervalg', 'Hva betyr «fui» i setningen «Ayer fui al cine»?', array['Jeg dro', 'Jeg er', 'Jeg går', 'Jeg skal']::text[], 0, '«fui» er indefinido av «ir».', true, true, 1),
+  ('spansk-9:fortid', 'q03', 'flervalg', 'Hvilken setning betyr «I går spiste jeg paella»?', array['Ayer como paella.', 'Ayer comeré paella.', 'Ayer comiendo paella.', 'Ayer comí paella.']::text[], 3, '«comí» er indefinido av «comer».', true, true, 2),
+  ('spansk-9:fortid', 'q04', 'flervalg', 'Hva er indefinido av «hacer» med «yo»?', array['haci', 'hice', 'hacé', 'hizo']::text[], 1, '«hizo» betyr han eller hun gjorde.', true, true, 3),
+  ('spansk-9:fortid', 'q05', 'flervalg', 'Hva betyr «¿Qué hiciste el fin de semana?»?', array['Hva gjør du i helgen?', 'Hva skal du gjøre i helgen?', 'Liker du helgen?', 'Hva gjorde du i helgen?']::text[], 3, '«hiciste» er fortid av «hacer» med «tú».', true, true, 4),
+  ('spansk-9:fortid', 'q06', 'flervalg', 'Hva betyr «Lo pasé muy bien»?', array['Jeg gikk forbi', 'Jeg hadde det veldig gøy', 'Jeg passet på', 'Det gikk dårlig']::text[], 1, 'Uttrykket brukes når man har hatt det morsomt.', true, true, 5),
+  ('spansk-9:fortid', 'q07', 'flervalg', 'Hva betyr «hace dos días»?', array['For to dager siden', 'Om to dager', 'I to dager', 'Det gjør to dager']::text[], 0, '«hace» + tid betyr «for … siden».', true, true, 6),
+  ('spansk-9:fortid', 'q08', 'flervalg', 'Hvilke to verb har de samme formene i indefinido?', array['hacer og tener', 'comer og vivir', 'ir og ser', 'hablar og estar']::text[], 2, 'Begge bøyes fui, fuiste, fue …', true, true, 7),
+  ('spansk-9:fortid', 'q09', 'flervalg', 'Hvordan lages pretérito perfecto, som i «he comido»?', array['ir + infinitiv', 'estar + gerundium', 'ser + adjektiv', 'haber + partisipp']::text[], 3, 'For eksempel «he visitado» og «hemos comido».', true, false, 8),
+  ('spansk-9:fortid', 'q10', 'flervalg', 'Hva betyr «el verano pasado»?', array['I fjor sommer', 'Neste sommer', 'Hele sommeren', 'Om sommeren']::text[], 0, '«pasado» betyr forrige.', true, false, 9),
+  ('spansk-9:fortid', 'm01', 'sant-usant', 'Indefinido brukes om avsluttede handlinger på et bestemt tidspunkt i fortiden.', array['Sant', 'Usant']::text[], 0, 'For eksempel «ayer» eller «el verano pasado».', false, true, 10),
+  ('spansk-9:fortid', 'm02', 'sant-usant', '«comió» betyr jeg spiste.', array['Sant', 'Usant']::text[], 1, '«comió» betyr han eller hun spiste. Jeg spiste heter «comí».', false, true, 11),
+  ('spansk-9:fortid', 'm03', 'sant-usant', 'I Spania brukes ofte pretérito perfecto sammen med «hoy» og «esta semana».', array['Sant', 'Usant']::text[], 0, 'For eksempel «Hoy he estudiado mucho».', false, true, 12),
+  ('spansk-9:fortid', 'm04', 'sant-usant', '«ayer» betyr i morgen.', array['Sant', 'Usant']::text[], 1, '«ayer» betyr i går. I morgen heter «mañana».', false, true, 13),
+  ('spansk-9:fortid', 'm05', 'flervalg', 'Hva er indefinido av «tener» med «yo»?', array['tení', 'tuve', 'tuvo', 'tengo']::text[], 1, '«tener» er uregelrett i fortid.', false, true, 14),
+  ('spansk-9:fortid', 'm06', 'flervalg', 'Hva betyr «Fue genial»?', array['Det var kjempebra', 'Han dro', 'Det er fint', 'Det blir morsomt']::text[], 0, 'Her er «fue» fortid av «ser».', false, true, 15),
+  ('spansk-9:fortid', 'm07', 'flervalg', 'Hvilket ord passer: «Nosotros … a la playa» (vi dro til stranden)?', array['vamos', 'fueron', 'fuimos', 'iremos']::text[], 2, '«fuimos» er indefinido av «ir» med «nosotros».', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('spansk-9:fortid', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Spansk: Høytider og tradisjoner
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('spansk-9:hoytider-og-tradisjoner', 'spansk-9', 'hoytider-og-tradisjoner', 'Høytider og tradisjoner', 'Jul, nyttår, helligtrekonger og kjente fester i Spania, høytider og tradisjoner i Latin-Amerika, og hvordan du ønsker god høytid og gratulerer på spansk.', array[8, 9]::int[], 5, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('spansk-9:hoytider-og-tradisjoner', '## Jul – la Navidad
+
+I Spania er **la Nochebuena** (julaften, 24. desember) en kveld for familiemiddag. Mange setter fram **el belén**, en julekrybbe med små figurer, og spiser **el turrón**, et søtt nougatlignende godteri. 22. desember trekkes det store julelotteriet, **la Lotería de Navidad**, som nesten alle spanjoler følger med på. Man ønsker hverandre **«¡Feliz Navidad!»**.
+
+## Nyttår og de tre vise menn
+
+- **La Nochevieja** (nyttårsaften): Ved midnatt spiser man **las doce uvas** – tolv druer, én for hvert klokkeslag. Mange følger klokka på **Puerta del Sol** i Madrid på TV. Man sier **«¡Feliz Año Nuevo!»**.
+- **Los Reyes Magos**: Kvelden 5. januar går **cabalgatas**, store parader, gjennom byene, og **6. januar** får barna gaver fra de tre vise menn. Man spiser **el roscón de Reyes**, en kranseformet kake med en liten figur gjemt inni.
+
+## Fester i Spania
+
+- **La Semana Santa** (påskeuken): Store prosesjoner går gjennom gatene, særlig i Andalucía, med tunge religiøse figurer som bæres på skuldrene.
+- **Las Fallas** (mars) i **Valencia**: Enorme figurer av papp og tre stilles ut i gatene og **brennes** den siste natta.
+- **La Feria de Abril** i **Sevilla**: fest med flamenco, hester og fargerike kjoler.
+- **San Fermín** (juli) i **Pamplona**: kjent for **los encierros**, der folk løper foran okser gjennom gatene.
+- **La Tomatina** (august) i Buñol: tusenvis av mennesker kaster tomater på hverandre.
+
+## Latin-Amerika
+
+- **El Día de Muertos** (1.–2. november) i **Mexico**: Familiene lager **ofrendas**, fargerike altere med bilder av de døde, oransje blomster, mat og **calaveras**, hodeskaller av sukker. Det er en fest for å minnes og ære de døde, med musikk og farger.
+- **Las Posadas** (16.–24. desember) i Mexico: Man spiller Maria og Josefs vandring for å finne husly.
+- **La quinceañera**: Mange jenter feirer 15-årsdagen med en stor fest, nesten som et bryllup.
+- **La piñata**: En figur fylt med godteri henges opp, og barna slår den i stykker med en pinne.
+- I **Argentina** og **Chile** feires julen om sommeren, ofte med grillmat utendørs.
+
+## Gratulasjoner
+
+**¡Feliz cumpleaños!** – Gratulerer med dagen! **¡Felices fiestas!** – God høytid!
+
+## Likheter og forskjeller
+
+Som i Norge er julaften en viktig familiekveld i Spania, men gavene kommer ofte først 6. januar. Å sammenligne tradisjoner viser hvordan kultur, religion og klima former måten vi feirer på.', '{"label":"Høytider og tradisjoner","children":[{"label":"Jul","children":[{"label":"Nochebuena"},{"label":"belén og turrón"},{"label":"Lotería de Navidad"}]},{"label":"Nyttår og januar","children":[{"label":"Nochevieja"},{"label":"doce uvas"},{"label":"Reyes Magos"},{"label":"roscón de Reyes"}]},{"label":"Fester i Spania","children":[{"label":"Semana Santa"},{"label":"Fallas"},{"label":"San Fermín"},{"label":"Tomatina"}]},{"label":"Latin-Amerika","children":[{"label":"Día de Muertos"},{"label":"Posadas"},{"label":"quinceañera"},{"label":"piñata"}]},{"label":"Hilsener","children":[{"label":"¡Feliz Navidad!"},{"label":"¡Feliz Año Nuevo!"},{"label":"¡Feliz cumpleaños!"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'spansk-9:hoytider-og-tradisjoner';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('spansk-9:hoytider-og-tradisjoner', 'la Navidad', 'jul', 0),
+  ('spansk-9:hoytider-og-tradisjoner', 'la Nochebuena', 'julaften', 1),
+  ('spansk-9:hoytider-og-tradisjoner', 'el turrón', 'søtt nougatlignende julegodteri', 2),
+  ('spansk-9:hoytider-og-tradisjoner', 'el belén', 'julekrybbe med figurer', 3),
+  ('spansk-9:hoytider-og-tradisjoner', 'la Nochevieja', 'nyttårsaften', 4),
+  ('spansk-9:hoytider-og-tradisjoner', 'las doce uvas', 'tolv druer som spises ved midnatt på nyttårsaften', 5),
+  ('spansk-9:hoytider-og-tradisjoner', 'los Reyes Magos', 'de tre vise menn, som gir barna gaver 6. januar', 6),
+  ('spansk-9:hoytider-og-tradisjoner', 'el roscón de Reyes', 'kranseformet kake som spises 6. januar', 7),
+  ('spansk-9:hoytider-og-tradisjoner', 'la Semana Santa', 'påskeuken, med store prosesjoner', 8),
+  ('spansk-9:hoytider-og-tradisjoner', 'las Fallas', 'fest i Valencia der store figurer brennes', 9),
+  ('spansk-9:hoytider-og-tradisjoner', 'San Fermín', 'fest i Pamplona med oksefløp', 10),
+  ('spansk-9:hoytider-og-tradisjoner', 'el Día de Muertos', 'de dødes dag i Mexico, 1.–2. november', 11),
+  ('spansk-9:hoytider-og-tradisjoner', 'la ofrenda', 'fargerikt alter til minne om de døde', 12),
+  ('spansk-9:hoytider-og-tradisjoner', 'la quinceañera', 'stor fest når en jente fyller 15 år', 13),
+  ('spansk-9:hoytider-og-tradisjoner', '¡Feliz Navidad!', 'God jul!', 14),
+  ('spansk-9:hoytider-og-tradisjoner', '¡Feliz cumpleaños!', 'Gratulerer med dagen!', 15);
+delete from public.quiz_sporsmal where tema_id = 'spansk-9:hoytider-og-tradisjoner';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('spansk-9:hoytider-og-tradisjoner', 'q01', 'flervalg', 'Hva er «la Nochebuena»?', array['Nyttårsaften', 'Julaften', 'Påskeaften', 'Helligtrekongersaften']::text[], 1, 'Ordet betyr bokstavelig «den gode natten».', true, true, 0),
+  ('spansk-9:hoytider-og-tradisjoner', 'q02', 'flervalg', 'Når får mange spanske barn gavene sine?', array['23. desember', '31. desember', '1. januar', '6. januar, fra de tre vise menn']::text[], 3, 'Mange får også noen gaver fra julenissen.', true, true, 1),
+  ('spansk-9:hoytider-og-tradisjoner', 'q03', 'flervalg', 'Hva er «el roscón de Reyes»?', array['En kranseformet kake som spises 6. januar', 'En julesang', 'En parade', 'Et juletre']::text[], 0, 'I kaka er det gjemt en liten figur.', true, true, 2),
+  ('spansk-9:hoytider-og-tradisjoner', 'q04', 'flervalg', 'Hvor feires Las Fallas, der store figurer brennes?', array['Madrid', 'Sevilla', 'Valencia', 'Barcelona']::text[], 2, 'Festen holdes i mars.', true, true, 3),
+  ('spansk-9:hoytider-og-tradisjoner', 'q05', 'flervalg', 'Hva er en «quinceañera»?', array['En stor fest når en jente fyller 15 år', 'En julesang', 'En type kake', 'En dans']::text[], 0, 'Tradisjonen er vanlig i Latin-Amerika.', true, true, 4),
+  ('spansk-9:hoytider-og-tradisjoner', 'q06', 'flervalg', 'Hva betyr «¡Feliz Navidad!»?', array['Godt nytt år!', 'God påske!', 'God jul!', 'Gratulerer med dagen!']::text[], 2, '«feliz» betyr glad eller lykkelig.', true, true, 5),
+  ('spansk-9:hoytider-og-tradisjoner', 'q07', 'flervalg', 'Hva lager meksikanske familier til Día de Muertos?', array['Påskeegg', 'Juletrær', 'Snømenn', 'Fargerike altere med bilder, blomster og mat']::text[], 3, 'Alterne kalles «ofrendas».', true, true, 6),
+  ('spansk-9:hoytider-og-tradisjoner', 'q08', 'flervalg', 'Hvilken fest i Pamplona er kjent for oksefløp?', array['Las Fallas', 'San Fermín', 'La Tomatina', 'La Feria de Abril']::text[], 1, 'Oksefløpene kalles «los encierros».', true, true, 7),
+  ('spansk-9:hoytider-og-tradisjoner', 'q09', 'flervalg', 'Hva er en piñata?', array['En ananas', 'En sang', 'En julekrybbe', 'En figur fylt med godteri som barn slår i stykker']::text[], 3, 'Piñata er vanlig i bursdager, særlig i Mexico.', true, false, 8),
+  ('spansk-9:hoytider-og-tradisjoner', 'q10', 'flervalg', 'Hva er «el turrón»?', array['Et søtt nougatlignende julegodteri', 'En julesang', 'En kirke', 'En type pølse']::text[], 0, 'Turrón lages ofte av mandler og honning.', true, false, 9),
+  ('spansk-9:hoytider-og-tradisjoner', 'm01', 'sant-usant', 'I Spania spiser mange tolv druer ved midnatt på nyttårsaften.', array['Sant', 'Usant']::text[], 0, 'Én drue for hvert klokkeslag skal gi lykke.', false, true, 10),
+  ('spansk-9:hoytider-og-tradisjoner', 'm02', 'sant-usant', 'Día de Muertos er en trist dag uten farger og musikk.', array['Sant', 'Usant']::text[], 1, 'Det er en fargerik fest for å minnes og ære de døde.', false, true, 11),
+  ('spansk-9:hoytider-og-tradisjoner', 'm03', 'sant-usant', 'I Argentina og Chile feires julen om sommeren.', array['Sant', 'Usant']::text[], 0, 'Landene ligger på den sørlige halvkule.', false, true, 12),
+  ('spansk-9:hoytider-og-tradisjoner', 'm04', 'sant-usant', 'Semana Santa er en julefeiring.', array['Sant', 'Usant']::text[], 1, 'Semana Santa er påskeuken.', false, true, 13),
+  ('spansk-9:hoytider-og-tradisjoner', 'm05', 'flervalg', 'Hva heter nyttårsaften på spansk?', array['la Nochebuena', 'la Nochevieja', 'la Navidad', 'el Año Nuevo']::text[], 1, '«vieja» betyr gammel – den gamle natta.', false, true, 14),
+  ('spansk-9:hoytider-og-tradisjoner', 'm06', 'flervalg', 'Hva betyr «¡Feliz cumpleaños!»?', array['Gratulerer med dagen!', 'God jul!', 'Godt nytt år!', 'God helg!']::text[], 0, '«el cumpleaños» betyr bursdagen.', false, true, 15),
+  ('spansk-9:hoytider-og-tradisjoner', 'm07', 'flervalg', 'Hva er «el belén»?', array['En by i Spania', 'En julekake', 'En julekrybbe med figurer', 'En julesang']::text[], 2, 'Navnet kommer fra Betlehem.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('spansk-9:hoytider-og-tradisjoner', 15)
 on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Norsk (10): rydd bort fjernede temaer
@@ -11735,6 +15082,1706 @@ insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, ri
   ('krle-10:kilder-og-perspektiver', 'm07', 'flervalg', 'Hva mente Feuerbach om gudene?', array['At de bor i naturen', 'At de er farlige', 'At de er menneskenes egne idealer', 'At de styrer historien']::text[], 2, 'Han mente mennesker projiserer sine beste egenskaper over på gudene.', false, true, 16);
 insert into public.miniprover (tema_id, minutter) values
   ('krle-10:kilder-og-perspektiver', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Tysk (10): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'tysk-10' and slug not in ('reise-og-ferie', 'helse-og-kropp', 'framtid-og-planer', 'ungdom-og-medier', 'kunst-og-kultur', 'miljo-og-samfunn');
+
+-- Tysk: Reise og ferie
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('tysk-10:reise-og-ferie', 'tysk-10', 'reise-og-ferie', 'Reise og ferie', 'Ord og uttrykk for reise, transport, overnatting og vær på tysk, preposisjoner for reisemål, og hvordan du forteller om en reise og skriver et feriekort.', array[3, 5]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('tysk-10:reise-og-ferie', '## På reise – auf Reisen
+
+**Der Urlaub** betyr ferie, og **die Ferien** brukes ofte om skoleferien. Å reise heter **reisen** eller **verreisen**.
+
+- **das Flugzeug** (flyet), **der Zug** (toget), **das Schiff** (skipet), **das Auto** og **der Bus**
+- **der Flughafen** (flyplassen), **der Bahnhof** (stasjonen) og **die Fahrkarte** (billetten)
+- **der Koffer** (kofferten), **der Rucksack** (sekken) og **der Pass** (passet)
+
+## Hvor reiser du?
+
+- **nach** + de fleste land og byer: *Ich fahre **nach** Deutschland / **nach** Berlin.*
+- **in die** + land med artikkel: *Wir fliegen **in die** Schweiz / **in die** Türkei / **in die** USA.*
+- **ans Meer** (til sjøen), **an den Strand** (til stranda) og **in die Berge** (til fjellet)
+
+## Overnatting
+
+**das Hotel**, **die Jugendherberge** (vandrerhjemmet), **der Campingplatz**, **das Einzelzimmer** (enkeltrom) og **das Doppelzimmer** (dobbeltrom).
+
+- **Ich möchte ein Doppelzimmer für zwei Nächte buchen.** – Jeg vil gjerne bestille et dobbeltrom for to netter.
+- **Ist das Frühstück inklusive?** – Er frokosten inkludert?
+
+## Været – das Wetter
+
+- **Wie ist das Wetter?** – Hvordan er været?
+- **Die Sonne scheint.** – Sola skinner. **Es ist warm / heiß / kalt.**
+- **Es regnet.** – Det regner. **Es schneit.** – Det snør. **Es ist windig.** – Det blåser.
+- **Es ist 25 Grad.** – Det er 25 grader.
+
+## Hva gjør du i ferien?
+
+**am Strand liegen** (ligge på stranda), **schwimmen**, **wandern** (gå på fottur), **Ski fahren**, **Sehenswürdigkeiten besichtigen** (se på severdigheter), **ins Museum gehen** og **Souvenirs kaufen**.
+
+## Fortelle om en reise
+
+Når du forteller om en tur, bruker du perfektum og *war*:
+
+*Letzten Sommer **sind** wir nach Österreich **gefahren**. Wir **haben** in einer Jugendherberge **gewohnt** und **sind** viel **gewandert**. Das Wetter **war** super!*
+
+Om planer bruker du ofte presens med et tidsuttrykk: *Nächsten Sommer **fahre** ich nach Berlin.*
+
+## Et feriekort eller en e-post
+
+- Begynn med **Liebe Oma,** (til en kvinne) eller **Lieber Jonas,** (til en mann).
+- Fortell hvor du er, hvordan været er, og hva du har gjort.
+- Avslutt med **Viele Grüße** eller **Liebe Grüße** og navnet ditt.
+
+## Tyskere i Norge
+
+Mange tyske turister reiser til Norge for å oppleve fjorder, fjell og midnattssol, og mange nordmenn reiser til Tyskland for å oppleve storbyer som Berlin og München.', '{"label":"Reise og ferie","children":[{"label":"Transport","children":[{"label":"Flugzeug, Zug"},{"label":"Flughafen, Bahnhof"},{"label":"Fahrkarte, Koffer"}]},{"label":"Reisemål","children":[{"label":"nach Berlin"},{"label":"in die Schweiz"},{"label":"ans Meer, in die Berge"}]},{"label":"Overnatting","children":[{"label":"Hotel, Jugendherberge"},{"label":"Doppelzimmer buchen"},{"label":"Frühstück inklusive?"}]},{"label":"Været","children":[{"label":"Die Sonne scheint"},{"label":"Es regnet / schneit"},{"label":"25 Grad"}]},{"label":"Fortelle og skrive","children":[{"label":"wandern, besichtigen"},{"label":"Perfektum og war"},{"label":"Liebe Oma, … Viele Grüße"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'tysk-10:reise-og-ferie';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('tysk-10:reise-og-ferie', 'der Urlaub', 'ferien', 0),
+  ('tysk-10:reise-og-ferie', 'die Ferien', 'skoleferien', 1),
+  ('tysk-10:reise-og-ferie', 'die Reise', 'reisen', 2),
+  ('tysk-10:reise-og-ferie', 'das Flugzeug', 'flyet', 3),
+  ('tysk-10:reise-og-ferie', 'der Zug', 'toget', 4),
+  ('tysk-10:reise-og-ferie', 'die Jugendherberge', 'vandrerhjemmet', 5),
+  ('tysk-10:reise-og-ferie', 'das Doppelzimmer', 'dobbeltrommet', 6),
+  ('tysk-10:reise-og-ferie', 'buchen', 'å bestille (reise, rom)', 7),
+  ('tysk-10:reise-og-ferie', 'der Koffer', 'kofferten', 8),
+  ('tysk-10:reise-og-ferie', 'Es regnet.', 'Det regner.', 9),
+  ('tysk-10:reise-og-ferie', 'Die Sonne scheint.', 'Sola skinner.', 10),
+  ('tysk-10:reise-og-ferie', 'wandern', 'å gå på fottur', 11),
+  ('tysk-10:reise-og-ferie', 'Sehenswürdigkeiten besichtigen', 'å se på severdigheter', 12),
+  ('tysk-10:reise-og-ferie', 'nach Deutschland', 'til Tyskland', 13),
+  ('tysk-10:reise-og-ferie', 'in die Schweiz', 'til Sveits – land med artikkel får «in die»', 14),
+  ('tysk-10:reise-og-ferie', 'ans Meer', 'til sjøen', 15),
+  ('tysk-10:reise-og-ferie', 'Viele Grüße', 'Mange hilsener – avslutning på kort og e-post', 16);
+delete from public.quiz_sporsmal where tema_id = 'tysk-10:reise-og-ferie';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('tysk-10:reise-og-ferie', 'q01', 'flervalg', 'Hva betyr «der Urlaub»?', array['Flyplassen', 'Ferien', 'Kofferten', 'Været']::text[], 1, '«die Ferien» brukes ofte om skoleferien.', true, true, 0),
+  ('tysk-10:reise-og-ferie', 'q02', 'flervalg', 'Hva er «die Jugendherberge»?', array['Et luksushotell', 'En campingplass', 'En togstasjon', 'Et vandrerhjem']::text[], 3, '«Jugend» betyr ungdom.', true, true, 1),
+  ('tysk-10:reise-og-ferie', 'q03', 'flervalg', 'Hvordan sier du «Det regner»?', array['Es regnet.', 'Es schneit.', 'Die Sonne scheint.', 'Es ist windig.']::text[], 0, '«der Regen» betyr regnet.', true, true, 2),
+  ('tysk-10:reise-og-ferie', 'q04', 'flervalg', 'Hvordan sier du «Vi reiser til Tyskland»?', array['Wir fahren in Deutschland.', 'Wir fahren zu Deutschland.', 'Wir fahren nach Deutschland.', 'Wir fahren an Deutschland.']::text[], 2, 'De fleste land og byer får «nach».', true, true, 3),
+  ('tysk-10:reise-og-ferie', 'q05', 'flervalg', 'Hvorfor heter det «in die Schweiz», men «nach Österreich»?', array['Fordi Sveits er et fjell', 'Fordi Sveits er lengre unna', 'Det er tilfeldig', 'Fordi «die Schweiz» har artikkel']::text[], 3, 'Land med artikkel får «in die».', true, true, 4),
+  ('tysk-10:reise-og-ferie', 'q06', 'flervalg', 'Hva betyr «wandern»?', array['Å gå på fottur', 'Å bade', 'Å fly', 'Å handle']::text[], 0, 'Fotturer er populært i Alpene.', true, true, 5),
+  ('tysk-10:reise-og-ferie', 'q07', 'flervalg', 'Hvordan ber du om et dobbeltrom for to netter?', array['Ich habe zwei Zimmer.', 'Wo ist das Zimmer?', 'Ich möchte ein Doppelzimmer für zwei Nächte.', 'Das Zimmer ist doppelt.']::text[], 2, '«die Nacht» – flertall «die Nächte».', true, true, 6),
+  ('tysk-10:reise-og-ferie', 'q08', 'flervalg', 'Hva betyr «Sehenswürdigkeiten besichtigen»?', array['Å ligge på stranda', 'Å se på severdigheter', 'Å kjøpe suvenirer', 'Å bestille billetter']::text[], 1, '«sehenswürdig» betyr verdt å se.', true, true, 7),
+  ('tysk-10:reise-og-ferie', 'q09', 'flervalg', 'Hvordan avslutter du et uformelt kort eller en e-post?', array['Viele Grüße', 'Sehr geehrte Damen und Herren', 'Guten Tag', 'Hallo']::text[], 0, '«Sehr geehrte …» brukes i formelle brev.', true, false, 8),
+  ('tysk-10:reise-og-ferie', 'q10', 'flervalg', 'Hva betyr «Die Sonne scheint»?', array['Det snør', 'Det er kaldt', 'Det blåser', 'Sola skinner']::text[], 3, '«scheinen» betyr å skinne.', true, false, 9),
+  ('tysk-10:reise-og-ferie', 'm01', 'sant-usant', '«die Ferien» brukes ofte om skoleferien.', array['Sant', 'Usant']::text[], 0, 'Ordet står alltid i flertall.', false, true, 10),
+  ('tysk-10:reise-og-ferie', 'm02', 'sant-usant', '«der Koffer» betyr kaffen.', array['Sant', 'Usant']::text[], 1, '«der Koffer» betyr kofferten. Kaffe heter «der Kaffee».', false, true, 11),
+  ('tysk-10:reise-og-ferie', 'm03', 'sant-usant', 'Man sier «ans Meer» når man drar til sjøen.', array['Sant', 'Usant']::text[], 0, '«ans» er en sammentrekning av «an das».', false, true, 12),
+  ('tysk-10:reise-og-ferie', 'm04', 'sant-usant', '«Es schneit» betyr det regner.', array['Sant', 'Usant']::text[], 1, '«Es schneit» betyr det snør.', false, true, 13),
+  ('tysk-10:reise-og-ferie', 'm05', 'flervalg', 'Hva betyr «Ist das Frühstück inklusive?»?', array['Er frokosten inkludert?', 'Når er frokosten?', 'Hvor er frokosten?', 'Liker du frokost?']::text[], 0, 'Nyttig spørsmål når du bestiller hotell.', false, true, 14),
+  ('tysk-10:reise-og-ferie', 'm06', 'flervalg', 'Hva er «die Fahrkarte»?', array['Kartet', 'Billetten', 'Passet', 'Bilen']::text[], 1, '«fahren» betyr å kjøre eller reise.', false, true, 15),
+  ('tysk-10:reise-og-ferie', 'm07', 'flervalg', 'Hva betyr «Es ist 25 Grad»?', array['Det er 25 minutter', 'Det er 25 kilometer', 'Det er 25 grader', 'Det er 25 euro']::text[], 2, '«Grad» betyr grader.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('tysk-10:reise-og-ferie', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Tysk: Helse og kropp
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('tysk-10:helse-og-kropp', 'tysk-10', 'helse-og-kropp', 'Helse og kropp', 'Kroppsdeler, sykdom og følelser på tysk, hvordan du forklarer hva som er galt hos legen, modalverbene müssen, sollen, dürfen og können, og råd for et sunt liv.', array[2, 1]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('tysk-10:helse-og-kropp', '## Kroppen – der Körper
+
+**der Kopf** (hodet), **das Gesicht** (ansiktet), **die Augen** (øynene), **die Ohren** (ørene), **die Nase**, **der Mund** (munnen), **die Zähne** (tennene), **der Hals** (halsen), **der Rücken** (ryggen), **der Bauch** (magen), **der Arm**, **die Hand**, **der Finger**, **das Bein** (beinet), **das Knie** og **der Fuß** (foten).
+
+## Når du er syk
+
+- **Was ist los?** / **Was fehlt dir?** – Hva er i veien?
+- **Ich bin krank / müde / erkältet.** – Jeg er syk / trøtt / forkjølet.
+- **Mir ist schlecht.** – Jeg er kvalm.
+- **Ich habe Kopfschmerzen / Bauchschmerzen / Halsschmerzen.** – Jeg har vondt i hodet / magen / halsen. *Schmerzen* betyr smerter.
+- **Ich habe Fieber / Husten / Schnupfen.** – Jeg har feber / hoste / snue.
+- **Mein Bein tut weh.** – Beinet mitt gjør vondt.
+- **Gute Besserung!** – God bedring!
+
+## Hos legen – beim Arzt
+
+**der Arzt / die Ärztin** (legen), **die Praxis** (legekontoret), **das Rezept** (resepten), **die Tabletten** og **die Apotheke** (apoteket).
+
+- **Seit wann haben Sie Fieber?** – Hvor lenge har De hatt feber? – **Seit zwei Tagen.** – I to dager.
+- **Sie sollen im Bett bleiben und viel trinken.** – De bør holde senga og drikke mye.
+
+I Tyskland ringer du **112** for ambulanse og brannvesen og **110** for politiet. Nordmenn på reise i Europa bør ha med seg **Europeisk helsetrygdkort**.
+
+## Modalverb
+
+Modalverb brukes sammen med et annet verb i **infinitiv**, som står **til slutt** i setningen:
+
+- **müssen** (må): ich **muss**, du **musst** – *Ich muss zum Arzt gehen.*
+- **sollen** (skal, bør): ich **soll**, du **sollst** – *Du sollst viel Wasser trinken.*
+- **dürfen** (få lov): ich **darf**, du **darfst** – *Du darfst heute keinen Sport machen.*
+- **können** (kan): ich **kann**, du **kannst** – *Ich kann nicht schlafen.*
+
+## Et sunt liv – gesund leben
+
+- **genug schlafen** – sove nok
+- **sich bewegen** og **Sport treiben** – bevege seg og drive med idrett
+- **Obst und Gemüse essen** – spise frukt og grønnsaker
+- **nicht rauchen** – ikke røyke
+- **Pausen machen** – ta pauser fra skjermen og stresset
+
+## Følelser
+
+**Ich bin glücklich** (glad, lykkelig), **traurig** (lei meg), **nervös**, **gestresst** (stresset) eller **wütend** (sint). Det er lurt å snakke med noen når man ikke har det bra: *Ich möchte mit jemandem reden.* – Jeg vil gjerne snakke med noen.', '{"label":"Helse og kropp","children":[{"label":"Kroppen","children":[{"label":"Kopf, Gesicht"},{"label":"Bauch, Rücken"},{"label":"Arm, Hand, Bein, Fuß"}]},{"label":"Syk","children":[{"label":"Kopfschmerzen"},{"label":"Fieber, Husten"},{"label":"… tut weh"},{"label":"Gute Besserung!"}]},{"label":"Hos legen","children":[{"label":"Arzt, Ärztin"},{"label":"Seit wann …?"},{"label":"Rezept, Apotheke"},{"label":"112 og 110"}]},{"label":"Modalverb","children":[{"label":"müssen"},{"label":"sollen"},{"label":"dürfen"},{"label":"können"}]},{"label":"Sunt liv og følelser","children":[{"label":"genug schlafen"},{"label":"sich bewegen"},{"label":"glücklich, traurig, gestresst"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'tysk-10:helse-og-kropp';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('tysk-10:helse-og-kropp', 'der Kopf', 'hodet', 0),
+  ('tysk-10:helse-og-kropp', 'der Bauch', 'magen', 1),
+  ('tysk-10:helse-og-kropp', 'der Rücken', 'ryggen', 2),
+  ('tysk-10:helse-og-kropp', 'das Bein', 'beinet', 3),
+  ('tysk-10:helse-og-kropp', 'der Fuß', 'foten', 4),
+  ('tysk-10:helse-og-kropp', 'die Hand', 'hånden', 5),
+  ('tysk-10:helse-og-kropp', 'Ich habe Kopfschmerzen.', 'Jeg har hodepine.', 6),
+  ('tysk-10:helse-og-kropp', 'Ich habe Fieber.', 'Jeg har feber.', 7),
+  ('tysk-10:helse-og-kropp', 'Mein Bein tut weh.', 'Beinet mitt gjør vondt.', 8),
+  ('tysk-10:helse-og-kropp', 'Ich bin erkältet.', 'Jeg er forkjølet.', 9),
+  ('tysk-10:helse-og-kropp', 'Gute Besserung!', 'God bedring!', 10),
+  ('tysk-10:helse-og-kropp', 'der Arzt / die Ärztin', 'legen', 11),
+  ('tysk-10:helse-og-kropp', 'das Rezept', 'resepten (på medisin)', 12),
+  ('tysk-10:helse-og-kropp', 'müssen: ich muss', 'å måtte: jeg må', 13),
+  ('tysk-10:helse-og-kropp', 'sollen: du sollst', 'å skulle, burde: du bør', 14),
+  ('tysk-10:helse-og-kropp', 'gesund leben', 'å leve sunt', 15),
+  ('tysk-10:helse-og-kropp', '112', 'Nødnummer for ambulanse og brannvesen i Tyskland og resten av EU', 16);
+delete from public.quiz_sporsmal where tema_id = 'tysk-10:helse-og-kropp';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('tysk-10:helse-og-kropp', 'q01', 'flervalg', 'Hva betyr «der Bauch»?', array['Ryggen', 'Hodet', 'Magen', 'Beinet']::text[], 2, 'Ryggen heter «der Rücken».', true, true, 0),
+  ('tysk-10:helse-og-kropp', 'q02', 'flervalg', 'Hvordan sier du «Jeg har hodepine»?', array['Ich habe Kopfschmerzen.', 'Ich bin Kopf.', 'Mein Kopf ist krank.', 'Ich habe Kopf.']::text[], 0, '«Kopf» + «Schmerzen» = hodesmerter.', true, true, 1),
+  ('tysk-10:helse-og-kropp', 'q03', 'flervalg', 'Hva sier du til noen som er syke?', array['Guten Appetit!', 'Prost!', 'Viel Spaß!', 'Gute Besserung!']::text[], 3, 'Det betyr «God bedring!».', true, true, 2),
+  ('tysk-10:helse-og-kropp', 'q04', 'flervalg', 'Hva betyr «Mein Bein tut weh»?', array['Jeg har brukket beinet', 'Beinet mitt gjør vondt', 'Beinet mitt er langt', 'Jeg står på beina']::text[], 1, '«weh tun» betyr å gjøre vondt.', true, true, 3),
+  ('tysk-10:helse-og-kropp', 'q05', 'flervalg', 'Hva betyr «Ich bin erkältet»?', array['Jeg fryser', 'Jeg er sulten', 'Jeg er trøtt', 'Jeg er forkjølet']::text[], 3, 'Jeg fryser heter «Mir ist kalt».', true, true, 4),
+  ('tysk-10:helse-og-kropp', 'q06', 'flervalg', 'Hvilket modalverb betyr «må»?', array['dürfen', 'sollen', 'müssen', 'wollen']::text[], 2, '«Ich muss zum Arzt» betyr jeg må til legen.', true, true, 5),
+  ('tysk-10:helse-og-kropp', 'q07', 'flervalg', 'Hva er «das Rezept» hos legen?', array['Resepten på medisin', 'En kakeoppskrift', 'Regningen', 'Timen']::text[], 0, 'Ordet kan også bety oppskrift på mat.', true, true, 6),
+  ('tysk-10:helse-og-kropp', 'q08', 'flervalg', 'Hvilket nummer ringer du for ambulanse i Tyskland?', array['113', '112', '911', '110']::text[], 1, '110 er nummeret til politiet.', true, true, 7),
+  ('tysk-10:helse-og-kropp', 'q09', 'flervalg', 'Hva betyr «Du darfst keinen Sport machen»?', array['Du må trene', 'Du bør trene', 'Du kan trene', 'Du får ikke drive med sport']::text[], 3, '«dürfen» betyr å få lov.', true, false, 8),
+  ('tysk-10:helse-og-kropp', 'q10', 'flervalg', 'Hvilket råd hører til et sunt liv?', array['Genug schlafen und sich bewegen', 'Viel rauchen', 'Nie Obst essen', 'Immer Fast Food essen']::text[], 0, 'Søvn og bevegelse er viktig for helsa.', true, false, 9),
+  ('tysk-10:helse-og-kropp', 'm01', 'sant-usant', '«der Rücken» betyr ryggen.', array['Sant', 'Usant']::text[], 0, 'Vondt i ryggen heter «Rückenschmerzen».', false, true, 10),
+  ('tysk-10:helse-og-kropp', 'm02', 'sant-usant', '«Fieber» betyr hoste.', array['Sant', 'Usant']::text[], 1, '«Fieber» betyr feber. Hoste heter «Husten».', false, true, 11),
+  ('tysk-10:helse-og-kropp', 'm03', 'sant-usant', 'Nordmenn på reise i Europa kan bruke Europeisk helsetrygdkort.', array['Sant', 'Usant']::text[], 0, 'Kortet gir rett til nødvendig helsehjelp i andre EØS-land.', false, true, 12),
+  ('tysk-10:helse-og-kropp', 'm04', 'sant-usant', '«Mir ist schlecht» betyr jeg er glad.', array['Sant', 'Usant']::text[], 1, '«Mir ist schlecht» betyr jeg er kvalm.', false, true, 13),
+  ('tysk-10:helse-og-kropp', 'm05', 'flervalg', 'Hva betyr «Seit wann haben Sie Fieber?»?', array['Hvor lenge har De hatt feber?', 'Har De feber?', 'Hvorfor har De feber?', 'Hvor høy feber har De?']::text[], 0, '«seit» betyr siden.', false, true, 14),
+  ('tysk-10:helse-og-kropp', 'm06', 'flervalg', 'Hva er «die Ärztin»?', array['Sykepleieren', 'Legen (kvinne)', 'Apoteket', 'Pasienten']::text[], 1, '«der Arzt» er en mannlig lege.', false, true, 15),
+  ('tysk-10:helse-og-kropp', 'm07', 'flervalg', 'Hva betyr «Ich bin gestresst»?', array['Jeg er glad', 'Jeg er sint', 'Jeg er stresset', 'Jeg er syk']::text[], 2, 'Sint heter «wütend».', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('tysk-10:helse-og-kropp', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Tysk: Framtid, planer og yrker
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('tysk-10:framtid-og-planer', 'tysk-10', 'framtid-og-planer', 'Framtid, planer og yrker', 'Hvordan du snakker om framtiden på tysk med presens og werden, planer og drømmer, yrker og utdanning i Tyskland, og hvordan du begrunner med weil og dass.', array[3, 6]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('tysk-10:framtid-og-planer', '## Å snakke om framtiden
+
+Tysk har flere måter å snakke om framtiden på:
+
+- **Presens + tidsuttrykk** – det vanligste i dagligtale: *Morgen **fahre** ich nach Oslo.* *Nächstes Jahr **gehe** ich aufs Gymnasium.*
+- **werden + infinitiv** (futurum): *Ich **werde** Medizin **studieren**.* Infinitiven står **til slutt**. Bøying: ich werde, du wirst, er wird, wir werden, ihr werdet, sie werden.
+
+## Planer og drømmer
+
+- **Ich möchte …** – Jeg vil gjerne …
+- **Ich will …** – Jeg vil …
+- **Ich habe vor, ein Jahr zu reisen.** – Jeg har planer om å reise i et år.
+- **Ich träume davon, Pilotin zu werden.** – Jeg drømmer om å bli pilot.
+- **Ich hoffe, dass …** – Jeg håper at …
+
+## Yrker – die Berufe
+
+Mange yrker har en hankjønnsform og en hunkjønnsform med **-in**: **der Lehrer / die Lehrerin**, **der Arzt / die Ärztin**, **der Ingenieur / die Ingenieurin**, **der Polizist / die Polizistin**, **der Koch / die Köchin**, **der Programmierer / die Programmiererin**, **der Tierarzt / die Tierärztin** og **der Journalist / die Journalistin**.
+
+Man bruker **ikke** artikkel foran yrket: *Ich möchte Ingenieurin werden.* *Mein Vater ist Koch.*
+
+## Utdanning
+
+- **das Gymnasium** avsluttes med **das Abitur**, som gir adgang til universitetet.
+- **das Studium** – studiene ved **die Universität**
+- **die Ausbildung** – yrkesutdanning. I Tyskland lærer mange i et **dualt system**: De jobber i en bedrift og går samtidig på yrkesskole.
+- **das Praktikum** – en praksisperiode i en bedrift
+
+## Begrunne med weil og dass
+
+Etter **weil** (fordi) og **dass** (at) flyttes verbet **til slutten** av setningen:
+
+- *Ich möchte Lehrerin werden, **weil** ich gern mit Kindern **arbeite**.*
+- *Ich hoffe, **dass** ich einen guten Job **finde**.*
+
+## Livet i framtiden
+
+- **Ich möchte in einer großen Stadt wohnen.** – Jeg vil bo i en stor by.
+- **Ich möchte eine Familie haben.** – Jeg vil ha familie.
+- **Ich will viel reisen.** – Jeg vil reise mye.
+
+## Tidsuttrykk
+
+**morgen** (i morgen), **übermorgen** (i overmorgen), **nächste Woche** (neste uke), **nächstes Jahr** (neste år), **in fünf Jahren** (om fem år) og **später** (senere).
+
+## Tips til muntlig presentasjon
+
+Når du forteller om framtidsplanene dine, kan du bruke en fast struktur: Hva vil du gjøre etter ungdomsskolen? Hvilket yrke drømmer du om, og hvorfor? Hvor vil du bo? Bruk **weil** for å begrunne, og variér mellom presens og *werden*.', '{"label":"Framtid og planer","children":[{"label":"Framtid","children":[{"label":"Presens + tidsuttrykk"},{"label":"werden + infinitiv"}]},{"label":"Planer","children":[{"label":"Ich möchte / will"},{"label":"Ich habe vor, … zu"},{"label":"Ich träume davon"}]},{"label":"Yrker","children":[{"label":"Lehrer / Lehrerin"},{"label":"Arzt / Ärztin"},{"label":"Ingen artikkel foran yrket"}]},{"label":"Utdanning","children":[{"label":"Gymnasium og Abitur"},{"label":"Studium"},{"label":"Ausbildung, dualt system"},{"label":"Praktikum"}]},{"label":"Begrunne","children":[{"label":"weil"},{"label":"dass"},{"label":"Verbet sist"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'tysk-10:framtid-og-planer';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('tysk-10:framtid-og-planer', 'werden + infinitiv', 'futurum: Ich werde studieren.', 0),
+  ('tysk-10:framtid-og-planer', 'Ich werde Medizin studieren.', 'Jeg skal studere medisin.', 1),
+  ('tysk-10:framtid-og-planer', 'der Beruf', 'yrket', 2),
+  ('tysk-10:framtid-og-planer', 'Ich möchte Ärztin werden.', 'Jeg vil bli lege. (ingen artikkel foran yrket)', 3),
+  ('tysk-10:framtid-og-planer', 'der Lehrer / die Lehrerin', 'læreren', 4),
+  ('tysk-10:framtid-og-planer', 'der Ingenieur / die Ingenieurin', 'ingeniøren', 5),
+  ('tysk-10:framtid-og-planer', 'die Ausbildung', 'yrkesutdanningen', 6),
+  ('tysk-10:framtid-og-planer', 'das Studium', 'studiene', 7),
+  ('tysk-10:framtid-og-planer', 'das Abitur', 'eksamen som avslutter Gymnasium', 8),
+  ('tysk-10:framtid-og-planer', 'das Praktikum', 'praksisperioden', 9),
+  ('tysk-10:framtid-og-planer', 'weil', 'fordi – verbet flyttes til slutten', 10),
+  ('tysk-10:framtid-og-planer', 'dass', 'at – verbet flyttes til slutten', 11),
+  ('tysk-10:framtid-og-planer', 'Ich habe vor, …', 'Jeg har planer om å …', 12),
+  ('tysk-10:framtid-og-planer', 'nächstes Jahr', 'neste år', 13),
+  ('tysk-10:framtid-og-planer', 'in fünf Jahren', 'om fem år', 14),
+  ('tysk-10:framtid-og-planer', 'Ich träume davon, …', 'Jeg drømmer om å …', 15);
+delete from public.quiz_sporsmal where tema_id = 'tysk-10:framtid-og-planer';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('tysk-10:framtid-og-planer', 'q01', 'flervalg', 'Hvordan lages futurum på tysk?', array['haben + partisipp', 'sein + infinitiv', 'möchten + partisipp', 'werden + infinitiv']::text[], 3, 'For eksempel «Ich werde reisen».', true, true, 0),
+  ('tysk-10:framtid-og-planer', 'q02', 'flervalg', 'Hvordan sier en jente «Jeg vil bli lege»?', array['Ich möchte eine Ärztin werden.', 'Ich möchte Ärztin werden.', 'Ich möchte Arzt sein werden.', 'Ich werde die Ärztin.']::text[], 1, 'Man bruker ikke artikkel foran yrket.', true, true, 1),
+  ('tysk-10:framtid-og-planer', 'q03', 'flervalg', 'Hvor står verbet i en leddsetning med «weil»?', array['Først', 'På andre plass', 'Sist', 'Rett etter weil']::text[], 2, '«…, weil ich gern mit Kindern arbeite.»', true, true, 2),
+  ('tysk-10:framtid-og-planer', 'q04', 'flervalg', 'Hvilken setning er riktig?', array['Ich lerne Deutsch, weil ich in Berlin studieren will.', 'Ich lerne Deutsch, weil ich will in Berlin studieren.', 'Ich lerne Deutsch, weil will ich in Berlin studieren.', 'Ich lerne Deutsch, weil ich studieren in Berlin will.']::text[], 0, 'Det bøyde verbet «will» står sist.', true, true, 3),
+  ('tysk-10:framtid-og-planer', 'q05', 'flervalg', 'Hva er «die Ausbildung»?', array['Universitetet', 'En ferie', 'En yrkesutdanning', 'Et klasserom']::text[], 2, 'Mange tar Ausbildung i et dualt system med bedrift og skole.', true, true, 4),
+  ('tysk-10:framtid-og-planer', 'q06', 'flervalg', 'Hva betyr «nächstes Jahr»?', array['Neste år', 'I fjor', 'Hvert år', 'Dette året']::text[], 0, '«nächst» betyr neste.', true, true, 5),
+  ('tysk-10:framtid-og-planer', 'q07', 'flervalg', 'Hva er «das Abitur»?', array['En yrkestittel', 'En skoletype', 'En praksisplass', 'Eksamen som avslutter Gymnasium og gir adgang til universitetet']::text[], 3, 'Abitur tilsvarer omtrent studiekompetanse.', true, true, 6),
+  ('tysk-10:framtid-og-planer', 'q08', 'flervalg', 'Hva er hunkjønnsformen av «der Lehrer»?', array['die Lehrer', 'die Lehrerin', 'die Lehrerinne', 'die Lehrin']::text[], 1, 'Endelsen -in brukes om kvinner.', true, true, 7),
+  ('tysk-10:framtid-og-planer', 'q09', 'flervalg', 'Hva betyr «Ich habe vor, ein Jahr zu reisen»?', array['Jeg har reist i et år', 'Jeg reiste i fjor', 'Jeg liker å reise', 'Jeg har planer om å reise i et år']::text[], 3, '«vorhaben» betyr å ha planer om.', true, false, 8),
+  ('tysk-10:framtid-og-planer', 'q10', 'flervalg', 'Hva er «das Praktikum»?', array['En praksisperiode i en bedrift', 'En eksamen', 'Et skolefag', 'En lærer']::text[], 0, 'Mange tyske elever har praksis i en bedrift.', true, false, 9),
+  ('tysk-10:framtid-og-planer', 'm01', 'sant-usant', 'I Tyskland kan man ta en yrkesutdanning der man lærer både i en bedrift og på skolen.', array['Sant', 'Usant']::text[], 0, 'Dette kalles det duale systemet.', false, true, 10),
+  ('tysk-10:framtid-og-planer', 'm02', 'sant-usant', 'På tysk bruker man ubestemt artikkel foran yrket: «Ich bin ein Lehrer».', array['Sant', 'Usant']::text[], 1, 'Det heter «Ich bin Lehrer», uten artikkel.', false, true, 11),
+  ('tysk-10:framtid-og-planer', 'm03', 'sant-usant', 'Man kan bruke presens med et tidsuttrykk om framtiden, som «Morgen fahre ich nach Oslo».', array['Sant', 'Usant']::text[], 0, 'Det er den vanligste måten i dagligtale.', false, true, 12),
+  ('tysk-10:framtid-og-planer', 'm04', 'sant-usant', '«dass» påvirker ikke plasseringen av verbet.', array['Sant', 'Usant']::text[], 1, 'Etter «dass» flyttes verbet til slutten av setningen.', false, true, 13),
+  ('tysk-10:framtid-og-planer', 'm05', 'flervalg', 'Hva betyr «in fünf Jahren»?', array['For fem år siden', 'Om fem år', 'I fem år', 'Hvert femte år']::text[], 1, 'For fem år siden heter «vor fünf Jahren».', false, true, 14),
+  ('tysk-10:framtid-og-planer', 'm06', 'flervalg', 'Hva er riktig form av «werden» med «ich»?', array['werde', 'wirst', 'wird', 'werden']::text[], 0, '«du wirst», «er wird».', false, true, 15),
+  ('tysk-10:framtid-og-planer', 'm07', 'flervalg', 'Hva betyr «Ich träume davon, Pilotin zu werden»?', array['Jeg drømte om fly', 'Jeg er pilot', 'Jeg drømmer om å bli pilot', 'Jeg liker piloter']::text[], 2, '«träumen» betyr å drømme.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('tysk-10:framtid-og-planer', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Tysk: Ungdom, medier og læringsstrategier
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('tysk-10:ungdom-og-medier', 'tysk-10', 'ungdom-og-medier', 'Ungdom, medier og læringsstrategier', 'Ord og uttrykk om mobil, sosiale medier og skjermbruk på tysk, hvordan du argumenterer for og mot, strategier for å lese autentiske tekster, og digitale ressurser for språklæring.', array[4, 7]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('tysk-10:ungdom-og-medier', '## Ungdom og medier
+
+Tyske ungdommer bruker, som norske, mye tid på **das Handy** (mobilen). Mange ord på dette området er internasjonale og derfor lette å kjenne igjen:
+
+- **das Smartphone**, **der Computer**, **das Internet**, **die App** og **das Video**
+- **soziale Medien** – sosiale medier
+- **posten**, **liken**, **teilen** (dele), **chatten** og **streamen**
+- **herunterladen** – laste ned, **die Nachricht** – meldingen, **der Beitrag** – innlegget
+
+## Snakke om skjermbruk
+
+- **Wie viel Zeit verbringst du am Handy?** – Hvor mye tid bruker du på mobilen?
+- **Ich verbringe ungefähr zwei Stunden pro Tag am Handy.** – Jeg bruker omtrent to timer om dagen på mobilen.
+- **Ich benutze soziale Medien, um mit Freunden in Kontakt zu bleiben.** – Jeg bruker sosiale medier for å holde kontakten med venner.
+
+## Fordeler og ulemper
+
+- **der Vorteil** – fordelen, **der Nachteil** – ulempen
+- **Einerseits** kann man schnell Informationen finden, **andererseits** gibt es viele Falschmeldungen. – På den ene siden kan man raskt finne informasjon, på den andre siden finnes det mange falske nyheter.
+- **Meiner Meinung nach** … / **Ich finde, dass** … / **Ich bin der Meinung, dass** …
+
+Viktige temaer er **Cybermobbing** (mobbing på nett), **Datenschutz** (personvern) og hvor mye tid man bruker foran skjermen.
+
+## Ungdomsspråk
+
+Hvert år kåres **«Jugendwort des Jahres»** – årets ungdomsord – i Tyskland. Mange av ordene er lånt fra engelsk, som *cringe*. Ungdomsspråk endrer seg raskt, og det er morsomt å sammenligne det med norsk slang.
+
+## Lese autentiske tekster
+
+Autentiske tekster er skrevet for tyskspråklige, ikke for elever. Noen strategier:
+
+- **Skumles** først for å få oversikt: Se på overskrift, bilder og ord du kjenner.
+- Se etter **internasjonale ord** og ord som ligner norsk eller engelsk.
+- Bruk **sammenhengen** til å gjette hva ukjente ord betyr.
+- **Del opp sammensatte ord**: *Handybildschirm* = *Handy* + *Bildschirm* (skjerm).
+- Slå opp de viktigste ordene i en **ordbok**, men ikke alle.
+
+## Digitale ressurser og læringsstrategier
+
+- Hør på tysk musikk, podkaster og nyheter, for eksempel nyhetssendingen **Tagesschau** eller barnenyhetene **logo!**.
+- **Deutsche Welle** har gratis kurs og videoer for dem som lærer tysk.
+- Se serier og filmer med tysk tale og tysk tekst.
+- Bruk **flashcards** og apper, og repeter ofte.
+- Bruk det du kan fra **engelsk** og **norsk** – mange ord ligner.
+- **Maskinoversettelse** kan være nyttig, men den gjør feil. Vurder alltid resultatet kritisk, og ikke la den skrive oppgavene for deg.', '{"label":"Ungdom og medier","children":[{"label":"Ord","children":[{"label":"Handy, App"},{"label":"posten, teilen"},{"label":"herunterladen"}]},{"label":"Meninger","children":[{"label":"Vorteil / Nachteil"},{"label":"Einerseits … andererseits"},{"label":"Meiner Meinung nach"}]},{"label":"Temaer","children":[{"label":"Skjermtid"},{"label":"Cybermobbing"},{"label":"Datenschutz"},{"label":"Jugendwort"}]},{"label":"Lesestrategier","children":[{"label":"Skumlesing"},{"label":"Internasjonale ord"},{"label":"Sammenheng"},{"label":"Del opp sammensatte ord"}]},{"label":"Digitale ressurser","children":[{"label":"Tagesschau og logo!"},{"label":"Deutsche Welle"},{"label":"Maskinoversettelse med kritisk blikk"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'tysk-10:ungdom-og-medier';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('tysk-10:ungdom-og-medier', 'das Handy', 'mobiltelefonen', 0),
+  ('tysk-10:ungdom-og-medier', 'soziale Medien', 'sosiale medier', 1),
+  ('tysk-10:ungdom-og-medier', 'posten', 'å legge ut (innlegg)', 2),
+  ('tysk-10:ungdom-og-medier', 'teilen', 'å dele', 3),
+  ('tysk-10:ungdom-og-medier', 'herunterladen', 'å laste ned', 4),
+  ('tysk-10:ungdom-og-medier', 'die Nachricht', 'meldingen, nyheten', 5),
+  ('tysk-10:ungdom-og-medier', 'Wie viel Zeit verbringst du am Handy?', 'Hvor mye tid bruker du på mobilen?', 6),
+  ('tysk-10:ungdom-og-medier', 'Einerseits … andererseits …', 'På den ene siden … på den andre siden …', 7),
+  ('tysk-10:ungdom-og-medier', 'Meiner Meinung nach …', 'Etter min mening …', 8),
+  ('tysk-10:ungdom-og-medier', 'der Vorteil / der Nachteil', 'fordelen / ulempen', 9),
+  ('tysk-10:ungdom-og-medier', 'das Cybermobbing', 'mobbing på nett', 10),
+  ('tysk-10:ungdom-og-medier', 'der Datenschutz', 'personvern', 11),
+  ('tysk-10:ungdom-og-medier', 'Jugendwort des Jahres', 'årets ungdomsord i Tyskland', 12),
+  ('tysk-10:ungdom-og-medier', 'Skumlesing', 'å lese raskt for å få oversikt', 13),
+  ('tysk-10:ungdom-og-medier', 'Sammensatte ord', 'Del dem opp: Handybildschirm = Handy + Bildschirm', 14),
+  ('tysk-10:ungdom-og-medier', 'Deutsche Welle', 'Tysk kringkaster med gratis ressurser for å lære tysk', 15);
+delete from public.quiz_sporsmal where tema_id = 'tysk-10:ungdom-og-medier';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('tysk-10:ungdom-og-medier', 'q01', 'flervalg', 'Hva er «das Handy» på tysk?', array['En hanske', 'Et verktøy', 'Mobiltelefonen', 'Et håndkle']::text[], 2, 'Ordet ser engelsk ut, men brukes bare slik på tysk.', true, true, 0),
+  ('tysk-10:ungdom-og-medier', 'q02', 'flervalg', 'Hva betyr «teilen» på sosiale medier?', array['Å dele', 'Å slette', 'Å like', 'Å kommentere']::text[], 0, '«teilen» betyr egentlig å dele opp.', true, true, 1),
+  ('tysk-10:ungdom-og-medier', 'q03', 'flervalg', 'Hvordan innleder du en mening på tysk?', array['Guten Tag, …', 'Viele Grüße, …', 'Es war einmal …', 'Meiner Meinung nach …']::text[], 3, 'Etter «Meiner Meinung nach» kommer verbet: «Meiner Meinung nach ist das …».', true, true, 2),
+  ('tysk-10:ungdom-og-medier', 'q04', 'flervalg', 'Hva betyr «Einerseits … andererseits …»?', array['Først … til slutt …', 'På den ene siden … på den andre siden …', 'Både … og …', 'Enten … eller …']::text[], 1, 'Uttrykket er nyttig når du drøfter fordeler og ulemper.', true, true, 3),
+  ('tysk-10:ungdom-og-medier', 'q05', 'flervalg', 'Hvordan kan du forstå et langt sammensatt ord som «Handybildschirm»?', array['Dele det opp i kjente deler: Handy + Bildschirm', 'Hoppe over det', 'Slå opp hver bokstav', 'Gjette tilfeldig']::text[], 0, 'Tysk har mange lange sammensatte ord.', true, true, 4),
+  ('tysk-10:ungdom-og-medier', 'q06', 'flervalg', 'Hva er «der Datenschutz»?', array['Datamaskinen', 'Et dataspill', 'En app', 'Personvern']::text[], 3, 'Ordet betyr bokstavelig «databeskyttelse».', true, true, 5),
+  ('tysk-10:ungdom-og-medier', 'q07', 'flervalg', 'Hva kalles det når du leser raskt gjennom en tekst for å få oversikt?', array['Nærlesing', 'Oversetting', 'Skumlesing', 'Diktat']::text[], 2, 'Skumlesing er et godt første steg med autentiske tekster.', true, true, 6),
+  ('tysk-10:ungdom-og-medier', 'q08', 'flervalg', 'Hva er «Jugendwort des Jahres»?', array['En ungdomsavis', 'Årets ungdomsord, som kåres hvert år', 'En ungdomsklubb', 'En skoleprøve']::text[], 1, 'Mange av ordene er lånt fra engelsk.', true, true, 7),
+  ('tysk-10:ungdom-og-medier', 'q09', 'flervalg', 'Hvorfor kan engelsk hjelpe deg når du lærer tysk?', array['Fordi mange ord ligner, som Haus og house', 'Fordi språkene er helt like', 'Fordi tysk ikke har egne ord', 'Det hjelper ikke']::text[], 0, 'Tysk, engelsk og norsk er i slekt.', true, false, 8),
+  ('tysk-10:ungdom-og-medier', 'q10', 'flervalg', 'Hva bør du tenke på når du bruker maskinoversettelse?', array['At den alltid er riktig', 'At den kan erstatte læring', 'At den kan gjøre feil, så du må vurdere resultatet kritisk', 'At den bare virker på engelsk']::text[], 2, 'Maskinoversettelse kan misforstå sammenhengen.', true, false, 9),
+  ('tysk-10:ungdom-og-medier', 'm01', 'sant-usant', 'Deutsche Welle tilbyr gratis ressurser for å lære tysk.', array['Sant', 'Usant']::text[], 0, 'Der finnes både kurs, videoer og nyheter på lett tysk.', false, true, 10),
+  ('tysk-10:ungdom-og-medier', 'm02', 'sant-usant', 'Internasjonale ord som «Computer» og «Internet» finnes ikke på tysk.', array['Sant', 'Usant']::text[], 1, 'Tysk bruker mange internasjonale ord.', false, true, 11),
+  ('tysk-10:ungdom-og-medier', 'm03', 'sant-usant', '«herunterladen» betyr å laste ned.', array['Sant', 'Usant']::text[], 0, '«herunter» betyr ned, og «laden» betyr å laste.', false, true, 12),
+  ('tysk-10:ungdom-og-medier', 'm04', 'sant-usant', 'Man bør slå opp hvert eneste ord når man leser en tysk tekst.', array['Sant', 'Usant']::text[], 1, 'Det er bedre å slå opp de viktigste ordene og gjette resten ut fra sammenhengen.', false, true, 13),
+  ('tysk-10:ungdom-og-medier', 'm05', 'flervalg', 'Hva betyr «der Nachteil»?', array['Fordelen', 'Ulempen', 'Natten', 'Nyheten']::text[], 1, 'Fordelen heter «der Vorteil».', false, true, 14),
+  ('tysk-10:ungdom-og-medier', 'm06', 'flervalg', 'Hva betyr «Ich verbringe zwei Stunden pro Tag am Handy»?', array['Jeg bruker to timer om dagen på mobilen', 'Jeg har to mobiler', 'Mobilen koster to euro', 'Jeg ringer to ganger om dagen']::text[], 0, '«verbringen» betyr å tilbringe.', false, true, 15),
+  ('tysk-10:ungdom-og-medier', 'm07', 'flervalg', 'Hva er «Cybermobbing»?', array['Et dataspill', 'En nettbutikk', 'Mobbing på nett', 'Et virus']::text[], 2, 'Ordet brukes på samme måte som på norsk.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('tysk-10:ungdom-og-medier', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Tysk: Kunst og kultur
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('tysk-10:kunst-og-kultur', 'tysk-10', 'kunst-og-kultur', 'Kunst og kultur', 'Kjent musikk, litteratur, film, kunst og arkitektur fra tyskspråklige land, og hvordan du presenterer et kunstverk og uttrykker hva du synes på tysk.', array[9]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('tysk-10:kunst-og-kultur', '## Musikk
+
+- **Klassisk musikk**: **Johann Sebastian Bach** og **Ludwig van Beethoven** var tyske, og **Wolfgang Amadeus Mozart** ble født i **Salzburg** i Østerrike. Melodien «**Ode an die Freude**» fra Beethovens niende symfoni er i dag **EUs hymne**.
+- **Moderne musikk**: **Kraftwerk** fra Düsseldorf regnes som pionerer innen elektronisk musikk, og **Rammstein** er kjent over hele verden for sin harde rock på tysk. **Nena** hadde en verdenshit med «99 Luftballons» på 1980-tallet. Tyskland har vunnet **Eurovision Song Contest** to ganger, sist med **Lena** i 2010.
+
+## Litteratur
+
+- **Johann Wolfgang von Goethe** regnes som Tysklands største forfatter. Skuespillet *Faust* handler om en mann som inngår en pakt med djevelen.
+- **Brødrene Grimm** samlet eventyr som *Snøhvit*, *Rødhette* og *Hans og Grete*.
+- **Franz Kafka** skrev på tysk selv om han bodde i Praha. I *Die Verwandlung* (Forvandlingen) våkner en mann opp som et insekt.
+- **Michael Ende** skrev *Die unendliche Geschichte* (Den uendelige historien) og *Momo*, og **Cornelia Funke** har skrevet populære fantasybøker for unge.
+
+## Film
+
+Tyske filmer har vunnet flere Oscar-priser. *Das Leben der Anderen* (De andres liv) handler om overvåking i Øst-Tyskland, og krigsfilmen *Im Westen nichts Neues* (Intet nytt fra Vestfronten) vant fire Oscar-priser i 2023.
+
+## Kunst og arkitektur
+
+- **Albrecht Dürer** var en kjent maler og grafiker på 1500-tallet.
+- **Gustav Klimt** fra Wien malte det gullglinsende maleriet *Kysset*.
+- **Bauhaus** var en skole for arkitektur, kunst og design, grunnlagt i **1919**. Den enkle, funksjonelle stilen har påvirket møbler og bygninger over hele verden.
+- **Schloss Neuschwanstein** i Bayern ser ut som et eventyrslott og har inspirert slott i film. **Kölner Dom** er en av Europas største gotiske katedraler.
+
+## Si hva du synes
+
+- **Mein Lieblingslied / Lieblingsbuch / Lieblingsfilm ist …** – Yndlingssangen / -boka / -filmen min er …
+- **Das Buch handelt von …** – Boka handler om …
+- **Das gefällt mir, weil …** – Jeg liker det, fordi …
+- **Ich finde den Film spannend / langweilig / lustig / traurig.** – Jeg synes filmen er spennende / kjedelig / morsom / trist.
+
+## Presentere et kunstverk
+
+Når du presenterer et kunstverk, en sang eller en bok, kan du fortelle hvem som har laget det, når det ble laget, og hva det handler om. Til slutt sier du hva du selv synes, med begrunnelse: *Ich finde das Lied schön, weil der Text sehr persönlich ist.* Å oppleve kunst på tysk er en fin måte å lære språket på – prøv å lytte til en tysk sang eller se en tysk film med undertekster.', '{"label":"Kunst og kultur","children":[{"label":"Musikk","children":[{"label":"Bach, Beethoven, Mozart"},{"label":"Kraftwerk, Rammstein"},{"label":"Eurovision"}]},{"label":"Litteratur","children":[{"label":"Goethe"},{"label":"Brødrene Grimm"},{"label":"Kafka"},{"label":"Michael Ende"}]},{"label":"Film","children":[{"label":"Das Leben der Anderen"},{"label":"Im Westen nichts Neues"}]},{"label":"Kunst og arkitektur","children":[{"label":"Dürer"},{"label":"Klimt"},{"label":"Bauhaus"},{"label":"Neuschwanstein, Kölner Dom"}]},{"label":"Si hva du synes","children":[{"label":"Das gefällt mir, weil …"},{"label":"Das Buch handelt von …"},{"label":"Ich finde …"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'tysk-10:kunst-og-kultur';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('tysk-10:kunst-og-kultur', 'Beethoven – Ode an die Freude', 'Melodien fra 9. symfoni er EUs hymne', 0),
+  ('tysk-10:kunst-og-kultur', 'Mozart', 'Komponist født i Salzburg i Østerrike', 1),
+  ('tysk-10:kunst-og-kultur', 'Kraftwerk', 'Tysk gruppe, pionerer innen elektronisk musikk', 2),
+  ('tysk-10:kunst-og-kultur', 'Rammstein', 'Verdenskjent tysk rockeband', 3),
+  ('tysk-10:kunst-og-kultur', 'die Brüder Grimm', 'Samlet eventyr som Snøhvit og Rødhette', 4),
+  ('tysk-10:kunst-og-kultur', 'Goethe', 'Tysklands mest kjente forfatter, skrev Faust', 5),
+  ('tysk-10:kunst-og-kultur', 'Franz Kafka', 'Skrev på tysk i Praha, blant annet Forvandlingen', 6),
+  ('tysk-10:kunst-og-kultur', 'Michael Ende', 'Skrev Den uendelige historien og Momo', 7),
+  ('tysk-10:kunst-og-kultur', 'Bauhaus', 'Skole for arkitektur, kunst og design fra 1919', 8),
+  ('tysk-10:kunst-og-kultur', 'Gustav Klimt', 'Østerriksk maler som malte Kysset', 9),
+  ('tysk-10:kunst-og-kultur', 'Neuschwanstein', 'Eventyrslott i Bayern', 10),
+  ('tysk-10:kunst-og-kultur', 'Im Westen nichts Neues', 'Tysk krigsfilm som vant fire Oscar-priser i 2023', 11),
+  ('tysk-10:kunst-og-kultur', 'Das gefällt mir.', 'Jeg liker det.', 12),
+  ('tysk-10:kunst-og-kultur', 'Das Buch handelt von …', 'Boka handler om …', 13),
+  ('tysk-10:kunst-og-kultur', 'Mein Lieblingslied ist …', 'Yndlingssangen min er …', 14);
+delete from public.quiz_sporsmal where tema_id = 'tysk-10:kunst-og-kultur';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('tysk-10:kunst-og-kultur', 'q01', 'flervalg', 'Hvilken melodi av Beethoven er EUs hymne?', array['Für Elise', 'Ode an die Freude', 'Stille Nacht', 'Die Zauberflöte']::text[], 1, 'Melodien kommer fra hans niende symfoni.', true, true, 0),
+  ('tysk-10:kunst-og-kultur', 'q02', 'flervalg', 'Hvor ble Mozart født?', array['Berlin', 'Bonn', 'Wien', 'Salzburg']::text[], 3, 'Beethoven ble født i Bonn.', true, true, 1),
+  ('tysk-10:kunst-og-kultur', 'q03', 'flervalg', 'Hvilken tysk gruppe regnes som pionerer innen elektronisk musikk?', array['Kraftwerk', 'ABBA', 'a-ha', 'The Beatles']::text[], 0, 'Kraftwerk har påvirket mye av dagens popmusikk.', true, true, 2),
+  ('tysk-10:kunst-og-kultur', 'q04', 'flervalg', 'Hvem skrev «Den uendelige historien» («Die unendliche Geschichte»)?', array['Goethe', 'Kafka', 'Michael Ende', 'Thomas Mann']::text[], 2, 'Boka er også blitt film.', true, true, 3),
+  ('tysk-10:kunst-og-kultur', 'q05', 'flervalg', 'Hva var Bauhaus?', array['Et slott', 'En byggevarekjede', 'Et rockeband', 'En skole for arkitektur, kunst og design fra 1919']::text[], 3, 'Bauhaus-stilen er enkel og funksjonell.', true, true, 4),
+  ('tysk-10:kunst-og-kultur', 'q06', 'flervalg', 'Hvilket slott i Bayern har inspirert eventyrslott i film?', array['Versailles', 'Neuschwanstein', 'Akershus', 'Buckingham Palace']::text[], 1, 'Slottet ble bygd på 1800-tallet for kong Ludwig II.', true, true, 5),
+  ('tysk-10:kunst-og-kultur', 'q07', 'flervalg', 'Hvordan sier du «Jeg liker det» om en sang eller en bok?', array['Das gefällt mir.', 'Das mag mich.', 'Ich gefalle das.', 'Das liebt mich.']::text[], 0, '«gefallen» betyr egentlig å falle i smak.', true, true, 6),
+  ('tysk-10:kunst-og-kultur', 'q08', 'flervalg', 'Hvilken østerriksk kunstner malte «Kysset»?', array['Albrecht Dürer', 'Edvard Munch', 'Gustav Klimt', 'Pablo Picasso']::text[], 2, 'Maleriet henger i Wien.', true, true, 7),
+  ('tysk-10:kunst-og-kultur', 'q09', 'flervalg', 'Hva betyr «Das Buch handelt von einem Jungen»?', array['Boka er skrevet av en gutt', 'Boka ble solgt av en gutt', 'Gutten leser boka', 'Boka handler om en gutt']::text[], 3, '«handeln von» betyr å handle om.', true, false, 8),
+  ('tysk-10:kunst-og-kultur', 'q10', 'flervalg', 'Hvilken tysk film vant fire Oscar-priser i 2023?', array['Im Westen nichts Neues', 'Lola rennt', 'Good Bye, Lenin!', 'Das Boot']::text[], 0, 'Filmen handler om første verdenskrig.', true, false, 9),
+  ('tysk-10:kunst-og-kultur', 'm01', 'sant-usant', 'Brødrene Grimm samlet eventyr som «Snøhvit» og «Rødhette».', array['Sant', 'Usant']::text[], 0, 'Samlingen kom ut på 1800-tallet.', false, true, 10),
+  ('tysk-10:kunst-og-kultur', 'm02', 'sant-usant', 'Franz Kafka skrev bøkene sine på tsjekkisk.', array['Sant', 'Usant']::text[], 1, 'Kafka bodde i Praha, men skrev på tysk.', false, true, 11),
+  ('tysk-10:kunst-og-kultur', 'm03', 'sant-usant', 'Tyskland har vunnet Eurovision Song Contest.', array['Sant', 'Usant']::text[], 0, 'Tyskland har vunnet to ganger, sist i 2010.', false, true, 12),
+  ('tysk-10:kunst-og-kultur', 'm04', 'sant-usant', 'Goethe var en kjent tysk fotballspiller.', array['Sant', 'Usant']::text[], 1, 'Goethe var forfatter og levde fra 1749 til 1832.', false, true, 13),
+  ('tysk-10:kunst-og-kultur', 'm05', 'flervalg', 'Hvilken by er kjent for en stor gotisk katedral, der Dom?', array['Köln', 'Hamburg', 'Bremen', 'Kiel']::text[], 0, 'Kölner Dom står på UNESCOs verdensarvliste.', false, true, 14),
+  ('tysk-10:kunst-og-kultur', 'm06', 'flervalg', 'Hva er «Faust»?', array['En film', 'Et kjent skuespill av Goethe', 'En sang', 'Et slott']::text[], 1, 'Faust inngår en pakt med djevelen.', false, true, 15),
+  ('tysk-10:kunst-og-kultur', 'm07', 'flervalg', 'Hva betyr «Mein Lieblingslied ist …»?', array['Yndlingsfilmen min er …', 'Yndlingsboka mi er …', 'Yndlingssangen min er …', 'Yndlingsbandet mitt er …']::text[], 2, '«das Lied» betyr sangen.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('tysk-10:kunst-og-kultur', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Tysk: Miljø og samfunn
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('tysk-10:miljo-og-samfunn', 'tysk-10', 'miljo-og-samfunn', 'Miljø og samfunn', 'Miljøvern, avfall og energi i Tyskland, hvordan du uttrykker meninger om miljø på tysk, trekk ved det tyske samfunnet, og sammenligninger med Norge.', array[8, 5]::int[], 5, 'sjekkes', array['Andelen innbyggere med innvandrerbakgrunn (omtrent hver fjerde) og beskrivelsen av tysk energipolitikk bør sjekkes mot ferske tall.']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('tysk-10:miljo-og-samfunn', '## Miljø – die Umwelt
+
+**Umweltschutz** (miljøvern) og **der Klimawandel** (klimaendringene) er viktige temaer for mange unge i Tyskland. Bevegelsen **Fridays for Future** har hatt mange tilhengere der, og mange tyskere er opptatt av å leve mer bærekraftig.
+
+## Avfall og gjenvinning
+
+Tyskland er kjent for **die Mülltrennung** – kildesortering. Mange husholdninger har flere dunker:
+
+- **die gelbe Tonne** – emballasje av plast og metall
+- **die blaue Tonne** – papir og papp
+- **die Biotonne** – matavfall
+- **der Restmüll** – restavfall
+
+Som i Norge er det **Pfand** (pant) på flasker og bokser. Å gjenvinne heter **recyceln**.
+
+## Energi og transport
+
+- **Die Energiewende**: Tyskland har gjennomført en stor omstilling til **erneuerbare Energie** (fornybar energi), særlig **Windkraft** (vindkraft) og **Solarenergie** (solenergi). De siste atomkraftverkene ble stengt i 2023, men landet bruker fortsatt noe kull.
+- Mange reiser med **öffentliche Verkehrsmittel** (kollektivtransport) eller **mit dem Fahrrad** (sykkel).
+
+## Hva kan vi gjøre?
+
+- **Man sollte weniger Auto fahren.** – Man burde kjøre mindre bil.
+- **Wir müssen Energie und Wasser sparen.** – Vi må spare energi og vann.
+- **Ich kaufe Kleidung second hand.** – Jeg kjøper brukte klær.
+- **Ich finde es wichtig, dass wir die Umwelt schützen.** – Jeg synes det er viktig at vi beskytter miljøet.
+
+## Samfunnet i Tyskland
+
+- **Die Bundesrepublik Deutschland** er en forbundsstat med **16 delstater**. Nasjonalforsamlingen heter **der Bundestag**, og regjeringen ledes av **der Bundeskanzler** eller **die Bundeskanzlerin**. **Angela Merkel** var forbundskansler fra 2005 til 2021.
+- Tyskland er et **mangfoldig** land: Omtrent hver fjerde innbygger har innvandrerbakgrunn (*Einwanderungsgeschichte*). Den største gruppen har røtter i **Tyrkia**.
+- Historien preger fortsatt samfunnet. Tyske skoler legger stor vekt på å lære om **andre verdenskrig**, **Holocaust** og **delingen av Tyskland**.
+
+## Uttrykke meninger
+
+- **Ich bin dafür / dagegen, dass …** – Jeg er for / mot at …
+- **Einerseits …, andererseits …** – På den ene siden …, på den andre siden …
+- **Meiner Meinung nach sollten wir …** – Etter min mening burde vi …
+
+Husk at verbet står **sist** etter *dass*: *Ich bin dafür, dass Busse billiger **werden**.*
+
+## Tyskland og Norge
+
+Både Norge og Tyskland satser på fornybar energi, og Norge eksporterer gass og strøm til Tyskland. Å sammenligne hvordan landene løser miljøutfordringer, gir nye perspektiver på vår egen hverdag.', '{"label":"Miljø og samfunn","children":[{"label":"Miljø","children":[{"label":"Umweltschutz"},{"label":"Klimawandel"},{"label":"Fridays for Future"}]},{"label":"Avfall","children":[{"label":"Mülltrennung"},{"label":"gelbe og blaue Tonne"},{"label":"Pfand"}]},{"label":"Energi og transport","children":[{"label":"Energiewende"},{"label":"Wind og sol"},{"label":"Kollektivtransport og sykkel"}]},{"label":"Samfunn","children":[{"label":"16 delstater"},{"label":"Bundestag og kansler"},{"label":"Mangfold"},{"label":"Historien"}]},{"label":"Meninger","children":[{"label":"Man sollte …"},{"label":"Ich finde es wichtig, dass …"},{"label":"dafür / dagegen"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'tysk-10:miljo-og-samfunn';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('tysk-10:miljo-og-samfunn', 'die Umwelt', 'miljøet', 0),
+  ('tysk-10:miljo-og-samfunn', 'der Umweltschutz', 'miljøvernet', 1),
+  ('tysk-10:miljo-og-samfunn', 'der Klimawandel', 'klimaendringene', 2),
+  ('tysk-10:miljo-og-samfunn', 'erneuerbare Energie', 'fornybar energi', 3),
+  ('tysk-10:miljo-og-samfunn', 'die Windkraft', 'vindkraften', 4),
+  ('tysk-10:miljo-og-samfunn', 'der Müll', 'avfallet, søppelet', 5),
+  ('tysk-10:miljo-og-samfunn', 'die Mülltrennung', 'kildesorteringen', 6),
+  ('tysk-10:miljo-og-samfunn', 'das Pfand', 'panten', 7),
+  ('tysk-10:miljo-og-samfunn', 'recyceln', 'å gjenvinne', 8),
+  ('tysk-10:miljo-og-samfunn', 'Energie sparen', 'å spare energi', 9),
+  ('tysk-10:miljo-og-samfunn', 'öffentliche Verkehrsmittel', 'kollektivtransport', 10),
+  ('tysk-10:miljo-og-samfunn', 'die Energiewende', 'Tysklands omstilling til fornybar energi', 11),
+  ('tysk-10:miljo-og-samfunn', 'Man sollte …', 'Man burde …', 12),
+  ('tysk-10:miljo-og-samfunn', 'Ich finde es wichtig, dass …', 'Jeg synes det er viktig at …', 13),
+  ('tysk-10:miljo-og-samfunn', 'der Bundestag', 'Tysklands nasjonalforsamling', 14),
+  ('tysk-10:miljo-og-samfunn', 'die Einwanderungsgeschichte', 'innvandrerbakgrunn', 15);
+delete from public.quiz_sporsmal where tema_id = 'tysk-10:miljo-og-samfunn';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('tysk-10:miljo-og-samfunn', 'q01', 'flervalg', 'Hva betyr «die Umwelt»?', array['Verden', 'Byen', 'Miljøet', 'Været']::text[], 2, 'Verden heter «die Welt».', true, true, 0),
+  ('tysk-10:miljo-og-samfunn', 'q02', 'flervalg', 'Hva er «die Mülltrennung»?', array['Kildesortering av avfall', 'En søppelbil', 'Et søppelbrett', 'Å kaste søppel i naturen']::text[], 0, '«trennen» betyr å skille.', true, true, 1),
+  ('tysk-10:miljo-og-samfunn', 'q03', 'flervalg', 'Hva er «das Pfand»?', array['En gave', 'En regning', 'En avgift på plast', 'Pant på flasker og bokser']::text[], 3, 'Tyskland har pant, som Norge.', true, true, 2),
+  ('tysk-10:miljo-og-samfunn', 'q04', 'flervalg', 'Hva betyr «der Klimawandel»?', array['Været i dag', 'Klimaendringene', 'Klimaanlegget', 'Vinteren']::text[], 1, '«der Wandel» betyr forandringen.', true, true, 3),
+  ('tysk-10:miljo-og-samfunn', 'q05', 'flervalg', 'Hva er eksempler på «erneuerbare Energie»?', array['Kull og olje', 'Gass og kull', 'Atomkraft og olje', 'Vind- og solenergi']::text[], 3, 'Fornybar energi kommer fra kilder som ikke tar slutt.', true, true, 4),
+  ('tysk-10:miljo-og-samfunn', 'q06', 'flervalg', 'Hva betyr «Man sollte weniger Auto fahren»?', array['Man må kjøre mer bil', 'Man kjører bil hver dag', 'Man burde kjøre mindre bil', 'Bilen er ødelagt']::text[], 2, '«sollte» brukes om råd: burde.', true, true, 5),
+  ('tysk-10:miljo-og-samfunn', 'q07', 'flervalg', 'Hva kalles Tysklands omstilling til fornybar energi?', array['Die Energiewende', 'Die Wiedervereinigung', 'Das Wirtschaftswunder', 'Der Mauerfall']::text[], 0, '«die Wende» betyr vendepunktet.', true, true, 6),
+  ('tysk-10:miljo-og-samfunn', 'q08', 'flervalg', 'Hva er «der Bundestag»?', array['Tysklands nasjonaldag', 'Tysklands nasjonalforsamling', 'En delstat', 'En avis']::text[], 1, 'Bundestag ligger i Berlin, i Riksdagsbygningen.', true, true, 7),
+  ('tysk-10:miljo-og-samfunn', 'q09', 'flervalg', 'Hvordan sier du at noe er viktig for deg?', array['Es tut mir leid, dass …', 'Ich habe Hunger, dass …', 'Ich weiß nicht, dass …', 'Ich finde es wichtig, dass …']::text[], 3, 'Husk at verbet står sist etter «dass».', true, false, 8),
+  ('tysk-10:miljo-og-samfunn', 'q10', 'flervalg', 'Hva betyr «öffentliche Verkehrsmittel»?', array['Kollektivtransport', 'Privatbil', 'Fly', 'Sykkel']::text[], 0, '«öffentlich» betyr offentlig.', true, false, 9),
+  ('tysk-10:miljo-og-samfunn', 'm01', 'sant-usant', 'Tyskland er kjent for å sortere avfall i mange forskjellige beholdere.', array['Sant', 'Usant']::text[], 0, 'For eksempel gule, blå og brune dunker.', false, true, 10),
+  ('tysk-10:miljo-og-samfunn', 'm02', 'sant-usant', 'Tyskland produserer fortsatt mye strøm fra atomkraft.', array['Sant', 'Usant']::text[], 1, 'De siste atomkraftverkene ble stengt i 2023.', false, true, 11),
+  ('tysk-10:miljo-og-samfunn', 'm03', 'sant-usant', 'Angela Merkel var Tysklands forbundskansler fra 2005 til 2021.', array['Sant', 'Usant']::text[], 0, 'Hun var den første kvinnen i vervet.', false, true, 12),
+  ('tysk-10:miljo-og-samfunn', 'm04', 'sant-usant', '«recyceln» betyr å kaste.', array['Sant', 'Usant']::text[], 1, '«recyceln» betyr å gjenvinne.', false, true, 13),
+  ('tysk-10:miljo-og-samfunn', 'm05', 'flervalg', 'Hva betyr «Energie sparen»?', array['Å spare energi', 'Å produsere energi', 'Å kjøpe energi', 'Å bruke mer energi']::text[], 0, '«sparen» betyr å spare.', false, true, 14),
+  ('tysk-10:miljo-og-samfunn', 'm06', 'flervalg', 'Hvor mange delstater har Tyskland?', array['9', '16', '20', '12']::text[], 1, 'Delstatene kalles «Bundesländer».', false, true, 15),
+  ('tysk-10:miljo-og-samfunn', 'm07', 'flervalg', 'Hva betyr «Wir müssen die Umwelt schützen»?', array['Vi liker miljøet', 'Miljøet er fint', 'Vi må beskytte miljøet', 'Vi bor i miljøet']::text[], 2, '«schützen» betyr å beskytte.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('tysk-10:miljo-og-samfunn', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Fransk (10): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'fransk-10' and slug not in ('reise-og-ferie', 'helse-og-kropp', 'framtid-og-planer', 'ungdom-og-medier', 'kunst-og-kultur', 'miljo-og-samfunn');
+
+-- Fransk: Reise og ferie
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('fransk-10:reise-og-ferie', 'fransk-10', 'reise-og-ferie', 'Reise og ferie', 'Ord og uttrykk for reise, transport, overnatting og vær på fransk, preposisjoner foran land og byer, og hvordan du forteller om en reise og skriver et feriekort.', array[3, 5]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('fransk-10:reise-og-ferie', '## På reise – en voyage
+
+**Les vacances** (ferien) står alltid i flertall. Å reise heter **voyager** eller **partir en vacances**.
+
+- **l''avion** (flyet), **le train** (toget), **le bateau** (båten), **la voiture** (bilen) og **le bus**
+- **l''aéroport** (flyplassen), **la gare** (stasjonen) og **le billet** (billetten)
+- **la valise** (kofferten), **le sac à dos** (ryggsekken) og **le passeport**
+
+Frankrike har et raskt togsystem, **le TGV** (*train à grande vitesse*), som kjører i over 300 km/t.
+
+## Hvor reiser du?
+
+Preposisjonen avhenger av landets kjønn:
+
+- **en** + hunkjønnsland: *en France*, *en Norvège*, *en Espagne*, *en Italie*
+- **au** + hankjønnsland: *au Canada*, *au Portugal*, *au Japon*
+- **aux** + land i flertall: *aux États-Unis*
+- **à** + byer: *à Paris*, *à Oslo*
+- **à la mer** (til sjøen), **à la plage** (til stranda), **à la montagne** (til fjellet) og **à la campagne** (på landet)
+
+## Overnatting
+
+**l''hôtel**, **l''auberge de jeunesse** (vandrerhjemmet), **le camping** og **une chambre simple / double** (enkeltrom / dobbeltrom).
+
+- **Je voudrais réserver une chambre double pour deux nuits.** – Jeg vil gjerne bestille et dobbeltrom for to netter.
+- **Le petit-déjeuner est compris ?** – Er frokosten inkludert?
+
+## Været – le temps
+
+- **Quel temps fait-il ?** – Hvordan er været?
+- **Il fait beau / chaud / froid / mauvais.** – Det er fint / varmt / kaldt / dårlig vær.
+- **Il pleut.** – Det regner. **Il neige.** – Det snør.
+- **Il y a du soleil / du vent.** – Det er sol / Det blåser.
+- **Il fait 25 degrés.** – Det er 25 grader.
+
+## Hva gjør du i ferien?
+
+**se baigner** (bade), **bronzer** (sole seg), **faire de la randonnée** (gå på fottur), **faire du ski**, **visiter des monuments** (se på severdigheter), **aller au musée** og **acheter des souvenirs**.
+
+## Fortelle om en reise
+
+Du bruker **passé composé** om det du gjorde, og **imparfait** om hvordan det var:
+
+*L''été dernier, **je suis allé** en Espagne. **Nous avons visité** Barcelone et **nous nous sommes baignés**. **Il faisait** très chaud. **C''était** super !*
+
+Om planer bruker du **aller + infinitiv**: *L''été prochain, **je vais aller** en Italie.*
+
+## Et feriekort
+
+- Begynn med **Chère Mamie,** (til en kvinne) eller **Cher Paul,** (til en mann).
+- Fortell hvor du er, hvordan været er, og hva du har gjort.
+- Avslutt med **Grosses bises** eller **Bisous** til venner og familie, eller **Amitiés**.
+
+## Frankrike som reisemål
+
+Frankrike er et av verdens mest besøkte land. Mange nordmenn reiser til Paris eller Rivieraen, og mange franske turister besøker Norge for å se fjorder og nordlys.', '{"label":"Reise og ferie","children":[{"label":"Transport","children":[{"label":"avion, train, TGV"},{"label":"aéroport, gare"},{"label":"billet, valise"}]},{"label":"Reisemål","children":[{"label":"en France"},{"label":"au Canada"},{"label":"aux États-Unis"},{"label":"à Paris, à la mer"}]},{"label":"Overnatting","children":[{"label":"hôtel, auberge de jeunesse"},{"label":"réserver une chambre"},{"label":"petit-déjeuner compris ?"}]},{"label":"Været","children":[{"label":"Il fait beau / chaud"},{"label":"Il pleut / neige"},{"label":"25 degrés"}]},{"label":"Fortelle og skrive","children":[{"label":"Passé composé og imparfait"},{"label":"aller + infinitiv"},{"label":"Chère Mamie … Grosses bises"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'fransk-10:reise-og-ferie';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('fransk-10:reise-og-ferie', 'les vacances', 'ferien (alltid i flertall)', 0),
+  ('fransk-10:reise-og-ferie', 'le voyage', 'reisen', 1),
+  ('fransk-10:reise-og-ferie', 'l''avion', 'flyet', 2),
+  ('fransk-10:reise-og-ferie', 'le TGV', 'franske høyhastighetstog', 3),
+  ('fransk-10:reise-og-ferie', 'l''auberge de jeunesse', 'vandrerhjemmet', 4),
+  ('fransk-10:reise-og-ferie', 'une chambre double', 'et dobbeltrom', 5),
+  ('fransk-10:reise-og-ferie', 'réserver', 'å bestille, reservere', 6),
+  ('fransk-10:reise-og-ferie', 'la valise', 'kofferten', 7),
+  ('fransk-10:reise-og-ferie', 'Il pleut.', 'Det regner.', 8),
+  ('fransk-10:reise-og-ferie', 'Il fait beau.', 'Det er fint vær.', 9),
+  ('fransk-10:reise-og-ferie', 'faire de la randonnée', 'å gå på fottur', 10),
+  ('fransk-10:reise-og-ferie', 'visiter des monuments', 'å se på severdigheter', 11),
+  ('fransk-10:reise-og-ferie', 'en France / en Norvège', 'i eller til Frankrike / Norge (hunkjønnsland)', 12),
+  ('fransk-10:reise-og-ferie', 'au Canada', 'i eller til Canada (hankjønnsland)', 13),
+  ('fransk-10:reise-og-ferie', 'aux États-Unis', 'i eller til USA (flertall)', 14),
+  ('fransk-10:reise-og-ferie', 'à la mer', 'til sjøen', 15),
+  ('fransk-10:reise-og-ferie', 'Grosses bises', 'Store klemmer – avslutning på kort til venner og familie', 16);
+delete from public.quiz_sporsmal where tema_id = 'fransk-10:reise-og-ferie';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('fransk-10:reise-og-ferie', 'q01', 'flervalg', 'Hva betyr «les vacances»?', array['Flyplassen', 'Ferien', 'Kofferten', 'Været']::text[], 1, 'Ordet står alltid i flertall.', true, true, 0),
+  ('fransk-10:reise-og-ferie', 'q02', 'flervalg', 'Hva er «l''auberge de jeunesse»?', array['Et luksushotell', 'En campingplass', 'En togstasjon', 'Et vandrerhjem']::text[], 3, '«la jeunesse» betyr ungdommen.', true, true, 1),
+  ('fransk-10:reise-og-ferie', 'q03', 'flervalg', 'Hvordan sier du «Det regner»?', array['Il pleut.', 'Il neige.', 'Il fait beau.', 'Il y a du vent.']::text[], 0, '«la pluie» betyr regnet.', true, true, 2),
+  ('fransk-10:reise-og-ferie', 'q04', 'flervalg', 'Hvordan sier du «Jeg reiser til Frankrike»?', array['Je vais au France.', 'Je vais à France.', 'Je vais en France.', 'Je vais aux France.']::text[], 2, '«la France» er hunkjønn og får «en».', true, true, 3),
+  ('fransk-10:reise-og-ferie', 'q05', 'flervalg', 'Hvorfor heter det «au Canada», men «en Norvège»?', array['Fordi Canada er større', 'Fordi Canada er lenger unna', 'Det er tilfeldig', 'Fordi «Canada» er hankjønn og «Norvège» hunkjønn']::text[], 3, 'Hankjønnsland får «au», hunkjønnsland får «en».', true, true, 4),
+  ('fransk-10:reise-og-ferie', 'q06', 'flervalg', 'Hva betyr «faire de la randonnée»?', array['Å gå på fottur', 'Å bade', 'Å fly', 'Å handle']::text[], 0, 'Fotturer er populært i Alpene og Pyreneene.', true, true, 5),
+  ('fransk-10:reise-og-ferie', 'q07', 'flervalg', 'Hvordan ber du om et dobbeltrom for to netter?', array['J''ai deux chambres.', 'Où est la chambre ?', 'Je voudrais réserver une chambre double pour deux nuits.', 'La chambre est double.']::text[], 2, '«une nuit» – flertall «deux nuits».', true, true, 6),
+  ('fransk-10:reise-og-ferie', 'q08', 'flervalg', 'Hva betyr «Quel temps fait-il ?»?', array['Hva er klokka?', 'Hvordan er været?', 'Hvor lenge varer det?', 'Når går toget?']::text[], 1, '«le temps» kan bety både tid og vær.', true, true, 7),
+  ('fransk-10:reise-og-ferie', 'q09', 'flervalg', 'Hvordan kan du avslutte et kort til en venn?', array['Grosses bises', 'Madame, Monsieur', 'Bonjour', 'S''il vous plaît']::text[], 0, '«Madame, Monsieur» brukes i formelle brev.', true, false, 8),
+  ('fransk-10:reise-og-ferie', 'q10', 'flervalg', 'Hva er TGV?', array['En type fly', 'En fransk TV-kanal', 'En båt', 'Franske høyhastighetstog']::text[], 3, 'TGV står for «train à grande vitesse».', true, false, 9),
+  ('fransk-10:reise-og-ferie', 'm01', 'sant-usant', '«les vacances» står alltid i flertall.', array['Sant', 'Usant']::text[], 0, 'Man sier «les grandes vacances» om sommerferien.', false, true, 10),
+  ('fransk-10:reise-og-ferie', 'm02', 'sant-usant', '«la valise» betyr lommeboka.', array['Sant', 'Usant']::text[], 1, '«la valise» betyr kofferten.', false, true, 11),
+  ('fransk-10:reise-og-ferie', 'm03', 'sant-usant', 'Frankrike er et av verdens mest besøkte land.', array['Sant', 'Usant']::text[], 0, 'Millioner av turister besøker Frankrike hvert år.', false, true, 12),
+  ('fransk-10:reise-og-ferie', 'm04', 'sant-usant', '«Il neige» betyr det regner.', array['Sant', 'Usant']::text[], 1, '«Il neige» betyr det snør.', false, true, 13),
+  ('fransk-10:reise-og-ferie', 'm05', 'flervalg', 'Hva betyr «Le petit-déjeuner est compris ?»?', array['Er frokosten inkludert?', 'Når er frokosten?', 'Hvor er frokosten?', 'Liker du frokost?']::text[], 0, '«compris» betyr inkludert.', false, true, 14),
+  ('fransk-10:reise-og-ferie', 'm06', 'flervalg', 'Hva er «le billet»?', array['Kartet', 'Billetten', 'Passet', 'Bilen']::text[], 1, '«le billet» kan også bety en pengeseddel.', false, true, 15),
+  ('fransk-10:reise-og-ferie', 'm07', 'flervalg', 'Hva betyr «Il fait 25 degrés»?', array['Det er 25 minutter', 'Det er 25 kilometer', 'Det er 25 grader', 'Det er 25 euro']::text[], 2, 'Været beskrives ofte med «il fait».', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('fransk-10:reise-og-ferie', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Fransk: Helse og kropp
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('fransk-10:helse-og-kropp', 'fransk-10', 'helse-og-kropp', 'Helse og kropp', 'Kroppsdeler, sykdom og følelser på fransk, uttrykket avoir mal à, hvordan du forklarer hva som er galt hos legen, verbene devoir og pouvoir, il faut, og råd for et sunt liv.', array[2, 1]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('fransk-10:helse-og-kropp', '## Kroppen – le corps
+
+**la tête** (hodet), **le visage** (ansiktet), **les yeux** (øynene; ett øye er **un œil**), **les oreilles** (ørene), **le nez** (nesen), **la bouche** (munnen), **les dents** (tennene), **la gorge** (halsen), **le dos** (ryggen), **le ventre** (magen), **le bras** (armen), **la main** (hånden), **le doigt** (fingeren), **la jambe** (beinet), **le genou** (kneet) og **le pied** (foten).
+
+## Å ha vondt – avoir mal à
+
+På fransk sier man at man «har vondt til» en kroppsdel. Husk sammentrekningene:
+
+- **J''ai mal à la tête.** – Jeg har hodepine.
+- **J''ai mal au ventre / au dos.** – Jeg har vondt i magen / ryggen. (*à + le = au*)
+- **J''ai mal aux dents.** – Jeg har tannverk. (*à + les = aux*)
+
+## Når du er syk
+
+- **Qu''est-ce qui ne va pas ?** – Hva er i veien?
+- **Je suis malade / fatigué / enrhumé.** – Jeg er syk / trøtt / forkjølet.
+- **J''ai de la fièvre.** – Jeg har feber. **Je tousse.** – Jeg hoster.
+- **J''ai mal au cœur.** – Jeg er kvalm.
+- **Bon rétablissement !** – God bedring!
+
+## Hos legen – chez le médecin
+
+**le médecin** (legen), **le cabinet** (legekontoret), **l''ordonnance** (resepten), **les médicaments** (medisinene) og **la pharmacie** (apoteket).
+
+- **Depuis quand avez-vous de la fièvre ?** – Hvor lenge har De hatt feber? – **Depuis deux jours.** – I to dager.
+- **Vous devez rester au lit et boire beaucoup d''eau.** – De må holde senga og drikke mye vann.
+
+I hele EU kan du ringe **112** i nødsituasjoner. I Frankrike kan du også ringe **15** for ambulanse.
+
+## Devoir, pouvoir og il faut
+
+- **devoir** (måtte): je dois, tu dois, il doit, nous devons, vous devez, ils doivent – *Je dois aller chez le médecin.*
+- **pouvoir** (kunne): je peux, tu peux, il peut, nous pouvons, vous pouvez, ils peuvent – *Je ne peux pas dormir.*
+- **il faut** + infinitiv (man må): *Il faut boire de l''eau.*
+
+## Et sunt liv
+
+- **manger équilibré** – spise variert og sunt
+- **faire du sport** – drive med sport
+- **dormir assez** – sove nok
+- **ne pas fumer** – ikke røyke
+- **limiter les écrans** – begrense skjermtiden
+
+## Følelser
+
+**Je suis content** eller **heureux** (glad), **triste** (lei meg), **stressé** (stresset), **nerveux** eller **en colère** (sint). Hunkjønnsformene er *contente*, *heureuse*, *stressée* og *nerveuse*. Når man ikke har det bra, hjelper det ofte å snakke med noen.', '{"label":"Helse og kropp","children":[{"label":"Kroppen","children":[{"label":"tête, visage"},{"label":"ventre, dos"},{"label":"bras, main, jambe, pied"}]},{"label":"avoir mal à","children":[{"label":"à la tête"},{"label":"au ventre"},{"label":"aux dents"}]},{"label":"Syk og hos legen","children":[{"label":"fièvre, rhume"},{"label":"Depuis quand …?"},{"label":"ordonnance, pharmacie"},{"label":"112 og 15"}]},{"label":"Verb","children":[{"label":"devoir"},{"label":"pouvoir"},{"label":"il faut"}]},{"label":"Sunt liv og følelser","children":[{"label":"manger équilibré"},{"label":"dormir assez"},{"label":"content, triste, stressé"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'fransk-10:helse-og-kropp';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('fransk-10:helse-og-kropp', 'la tête', 'hodet', 0),
+  ('fransk-10:helse-og-kropp', 'le ventre', 'magen', 1),
+  ('fransk-10:helse-og-kropp', 'le dos', 'ryggen', 2),
+  ('fransk-10:helse-og-kropp', 'la jambe', 'beinet', 3),
+  ('fransk-10:helse-og-kropp', 'le pied', 'foten', 4),
+  ('fransk-10:helse-og-kropp', 'la main', 'hånden', 5),
+  ('fransk-10:helse-og-kropp', 'J''ai mal à la tête.', 'Jeg har hodepine.', 6),
+  ('fransk-10:helse-og-kropp', 'J''ai mal au ventre.', 'Jeg har vondt i magen.', 7),
+  ('fransk-10:helse-og-kropp', 'J''ai de la fièvre.', 'Jeg har feber.', 8),
+  ('fransk-10:helse-og-kropp', 'Je suis enrhumé.', 'Jeg er forkjølet.', 9),
+  ('fransk-10:helse-og-kropp', 'Bon rétablissement !', 'God bedring!', 10),
+  ('fransk-10:helse-og-kropp', 'le médecin', 'legen', 11),
+  ('fransk-10:helse-og-kropp', 'l''ordonnance', 'resepten', 12),
+  ('fransk-10:helse-og-kropp', 'devoir: je dois', 'å måtte: jeg må', 13),
+  ('fransk-10:helse-og-kropp', 'il faut …', 'man må …', 14),
+  ('fransk-10:helse-og-kropp', '112 / 15', 'Nødnummer i EU / ambulanse i Frankrike', 15),
+  ('fransk-10:helse-og-kropp', 'manger équilibré', 'å spise variert og sunt', 16);
+delete from public.quiz_sporsmal where tema_id = 'fransk-10:helse-og-kropp';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('fransk-10:helse-og-kropp', 'q01', 'flervalg', 'Hva betyr «le ventre»?', array['Ryggen', 'Hodet', 'Magen', 'Beinet']::text[], 2, 'Ryggen heter «le dos».', true, true, 0),
+  ('fransk-10:helse-og-kropp', 'q02', 'flervalg', 'Hvordan sier du «Jeg har hodepine»?', array['J''ai mal à la tête.', 'Je suis tête.', 'Ma tête est malade.', 'J''ai la tête mal.']::text[], 0, '«avoir mal à» + kroppsdel.', true, true, 1),
+  ('fransk-10:helse-og-kropp', 'q03', 'flervalg', 'Hva sier du til noen som er syke?', array['Bon appétit !', 'Santé !', 'Bonne nuit !', 'Bon rétablissement !']::text[], 3, 'Det betyr «God bedring!».', true, true, 2),
+  ('fransk-10:helse-og-kropp', 'q04', 'flervalg', 'Hvordan sier du «Jeg har vondt i magen»?', array['J''ai mal à le ventre.', 'J''ai mal au ventre.', 'J''ai mal aux ventre.', 'Je suis mal ventre.']::text[], 1, 'à + le blir au.', true, true, 3),
+  ('fransk-10:helse-og-kropp', 'q05', 'flervalg', 'Hva betyr «Je suis enrhumé»?', array['Jeg fryser', 'Jeg er sulten', 'Jeg er trøtt', 'Jeg er forkjølet']::text[], 3, '«un rhume» betyr en forkjølelse.', true, true, 4),
+  ('fransk-10:helse-og-kropp', 'q06', 'flervalg', 'Hva er riktig form av «devoir» med «je»?', array['je devoir', 'je devons', 'je dois', 'je doit']::text[], 2, '«je dois», «tu dois», «il doit».', true, true, 5),
+  ('fransk-10:helse-og-kropp', 'q07', 'flervalg', 'Hva er «l''ordonnance» hos legen?', array['Resepten på medisin', 'En kakeoppskrift', 'Regningen', 'Timen']::text[], 0, 'Du tar med resepten til apoteket.', true, true, 6),
+  ('fransk-10:helse-og-kropp', 'q08', 'flervalg', 'Hvilket nødnummer kan du ringe i hele EU, også i Frankrike?', array['113', '112', '911', '110']::text[], 1, 'I Frankrike kan du også ringe 15 for ambulanse.', true, true, 7),
+  ('fransk-10:helse-og-kropp', 'q09', 'flervalg', 'Hva betyr «Il faut boire beaucoup d''eau»?', array['Man må ikke drikke vann', 'Vannet er kaldt', 'Jeg drikker mye vann', 'Man må drikke mye vann']::text[], 3, '«il faut» + infinitiv betyr «man må».', true, false, 8),
+  ('fransk-10:helse-og-kropp', 'q10', 'flervalg', 'Hvilket råd hører til et sunt liv?', array['Manger équilibré et dormir assez', 'Fumer beaucoup', 'Ne jamais manger de fruits', 'Toujours manger des bonbons']::text[], 0, 'Variert mat og nok søvn er viktig for helsa.', true, false, 9),
+  ('fransk-10:helse-og-kropp', 'm01', 'sant-usant', '«le dos» betyr ryggen.', array['Sant', 'Usant']::text[], 0, 'Vondt i ryggen heter «avoir mal au dos».', false, true, 10),
+  ('fransk-10:helse-og-kropp', 'm02', 'sant-usant', '«la fièvre» betyr hoste.', array['Sant', 'Usant']::text[], 1, '«la fièvre» betyr feber. Å hoste heter «tousser».', false, true, 11),
+  ('fransk-10:helse-og-kropp', 'm03', 'sant-usant', 'I Frankrike kan du ringe 15 for å få ambulanse.', array['Sant', 'Usant']::text[], 0, '112 virker også i hele EU.', false, true, 12),
+  ('fransk-10:helse-og-kropp', 'm04', 'sant-usant', '«J''ai mal au cœur» betyr at jeg er forelsket.', array['Sant', 'Usant']::text[], 1, 'Uttrykket betyr at jeg er kvalm.', false, true, 13),
+  ('fransk-10:helse-og-kropp', 'm05', 'flervalg', 'Hva betyr «Depuis quand avez-vous de la fièvre ?»?', array['Hvor lenge har De hatt feber?', 'Har De feber?', 'Hvorfor har De feber?', 'Hvor høy feber har De?']::text[], 0, '«depuis» betyr siden.', false, true, 14),
+  ('fransk-10:helse-og-kropp', 'm06', 'flervalg', 'Hva er «le médecin»?', array['Sykepleieren', 'Legen', 'Apoteket', 'Medisinen']::text[], 1, 'Medisinen heter «le médicament».', false, true, 15),
+  ('fransk-10:helse-og-kropp', 'm07', 'flervalg', 'Hva betyr «Je suis stressé»?', array['Jeg er glad', 'Jeg er sint', 'Jeg er stresset', 'Jeg er syk']::text[], 2, 'Sint heter «en colère».', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('fransk-10:helse-og-kropp', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Fransk: Framtid, planer og yrker
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('fransk-10:framtid-og-planer', 'fransk-10', 'framtid-og-planer', 'Framtid, planer og yrker', 'Hvordan du snakker om framtiden på fransk med futur proche og futur simple, planer og drømmer, yrker og utdanning i Frankrike, og hvordan du begrunner med parce que og setter vilkår med si.', array[3, 6]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('fransk-10:framtid-og-planer', '## Å snakke om framtiden
+
+Fransk har to vanlige framtidsformer:
+
+- **Futur proche** – nær framtid: **aller** + infinitiv. *Je **vais étudier** ce soir.* – Jeg skal studere i kveld.
+- **Futur simple** – framtid generelt: infinitiv + endingene **-ai, -as, -a, -ons, -ez, -ont**. *Je travailler**ai**, tu travailler**as**, il travailler**a** …*
+
+Noen vanlige verb har **uregelrett stamme** i futur simple: être → **je serai**, avoir → **j''aurai**, aller → **j''irai**, faire → **je ferai**, pouvoir → **je pourrai** og venir → **je viendrai**.
+
+## Planer og drømmer
+
+- **Je voudrais …** / **J''aimerais …** – Jeg vil gjerne …
+- **Je veux …** – Jeg vil …
+- **J''ai l''intention de voyager.** – Jeg har tenkt å reise.
+- **Je rêve de devenir pilote.** – Jeg drømmer om å bli pilot.
+- **J''espère que …** – Jeg håper at …
+
+## Yrker – les métiers
+
+Mange yrker har egne hunkjønnsformer: **infirmier / infirmière** (sykepleier), **cuisinier / cuisinière** (kokk), **informaticien / informaticienne** (dataingeniør), **avocat / avocate** (advokat), **policier / policière** (politi) og **ingénieur / ingénieure**. Noen er like for begge kjønn, som **médecin**, **journaliste**, **architecte** og **vétérinaire**.
+
+Man bruker **ikke** artikkel foran yrket etter *être* og *devenir*: *Je voudrais être infirmière.* *Il veut devenir médecin.*
+
+## Utdanning i Frankrike
+
+- Etter **le collège** går man på **le lycée**, som kan være *général*, *technologique* eller *professionnel*.
+- Lycée avsluttes med eksamenen **le bac** (*le baccalauréat*).
+- Etterpå kan man studere ved **l''université** eller ved en av de prestisjetunge **grandes écoles**.
+- **L''apprentissage** er en yrkesopplæring der man lærer i en bedrift, og **le stage** er en praksisperiode.
+
+## Begrunne og sette vilkår
+
+- **parce que** (fordi) – vanlig ordstilling: *Je veux être médecin **parce que** j''aime aider les gens.*
+- **si** (hvis) + presens, deretter futur simple: *Si j''ai de bonnes notes, j''irai à l''université.*
+
+## Livet i framtiden
+
+- **Je voudrais habiter dans une grande ville / à la campagne.** – Jeg vil bo i en stor by / på landet.
+- **Je voudrais avoir des enfants.** – Jeg vil ha barn.
+- **Je voyagerai beaucoup.** – Jeg skal reise mye.
+
+## Tidsuttrykk
+
+**demain** (i morgen), **après-demain** (i overmorgen), **la semaine prochaine** (neste uke), **l''année prochaine** (neste år), **dans cinq ans** (om fem år) og **plus tard** (senere).', '{"label":"Framtid og planer","children":[{"label":"Framtid","children":[{"label":"aller + infinitiv"},{"label":"Futur simple"},{"label":"serai, aurai, irai, ferai"}]},{"label":"Planer","children":[{"label":"Je voudrais / J''aimerais"},{"label":"J''ai l''intention de"},{"label":"Je rêve de"}]},{"label":"Yrker","children":[{"label":"infirmier / infirmière"},{"label":"médecin, journaliste"},{"label":"Ingen artikkel foran yrket"}]},{"label":"Utdanning","children":[{"label":"lycée og bac"},{"label":"université, grandes écoles"},{"label":"apprentissage og stage"}]},{"label":"Begrunne","children":[{"label":"parce que"},{"label":"si + presens, futur"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'fransk-10:framtid-og-planer';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('fransk-10:framtid-og-planer', 'aller + infinitiv', 'futur proche: Je vais étudier.', 0),
+  ('fransk-10:framtid-og-planer', 'je vais étudier', 'jeg skal studere', 1),
+  ('fransk-10:framtid-og-planer', 'je travaillerai', 'jeg skal arbeide (futur simple)', 2),
+  ('fransk-10:framtid-og-planer', 'je serai / j''aurai / j''irai / je ferai', 'jeg skal være / ha / dra / gjøre', 3),
+  ('fransk-10:framtid-og-planer', 'le métier', 'yrket', 4),
+  ('fransk-10:framtid-og-planer', 'Je voudrais être médecin.', 'Jeg vil gjerne bli lege. (ingen artikkel foran yrket)', 5),
+  ('fransk-10:framtid-og-planer', 'infirmier / infirmière', 'sykepleier', 6),
+  ('fransk-10:framtid-og-planer', 'ingénieur / ingénieure', 'ingeniør', 7),
+  ('fransk-10:framtid-og-planer', 'le bac', 'eksamen som avslutter lycée', 8),
+  ('fransk-10:framtid-og-planer', 'le stage', 'praksisperioden', 9),
+  ('fransk-10:framtid-og-planer', 'l''apprentissage', 'lærlingordning, yrkesopplæring i bedrift', 10),
+  ('fransk-10:framtid-og-planer', 'parce que', 'fordi', 11),
+  ('fransk-10:framtid-og-planer', 'Si …, j''irai …', 'Hvis …, skal jeg dra …', 12),
+  ('fransk-10:framtid-og-planer', 'l''année prochaine', 'neste år', 13),
+  ('fransk-10:framtid-og-planer', 'dans cinq ans', 'om fem år', 14),
+  ('fransk-10:framtid-og-planer', 'Je rêve de …', 'Jeg drømmer om å …', 15);
+delete from public.quiz_sporsmal where tema_id = 'fransk-10:framtid-og-planer';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('fransk-10:framtid-og-planer', 'q01', 'flervalg', 'Hvordan lager du futur proche?', array['avoir + partisipp', 'être + infinitiv', 'infinitiv + -ait', 'aller + infinitiv']::text[], 3, 'For eksempel «Je vais partir».', true, true, 0),
+  ('fransk-10:framtid-og-planer', 'q02', 'flervalg', 'Hvordan sier du «Jeg vil gjerne bli lege»?', array['Je voudrais être un médecin.', 'Je voudrais être médecin.', 'Je voudrais médecin.', 'Je suis voudrais médecin.']::text[], 1, 'Man bruker ikke artikkel foran yrket.', true, true, 1),
+  ('fransk-10:framtid-og-planer', 'q03', 'flervalg', 'Hva er futur simple av «être» med «je»?', array['j''étrai', 'je sera', 'je serai', 'je suis']::text[], 2, '«être» har stammen ser- i futur simple.', true, true, 2),
+  ('fransk-10:framtid-og-planer', 'q04', 'flervalg', 'Hvilken setning er riktig?', array['Je veux être professeur parce que j''aime les enfants.', 'Je veux être professeur parce que les enfants j''aime.', 'Je veux être professeur que parce j''aime les enfants.', 'Je veux être parce que professeur j''aime les enfants.']::text[], 0, 'Etter «parce que» brukes vanlig ordstilling.', true, true, 3),
+  ('fransk-10:framtid-og-planer', 'q05', 'flervalg', 'Hva er «le stage»?', array['En scene', 'En eksamen', 'En praksisperiode i en bedrift', 'Et skolefag']::text[], 2, 'Mange franske elever har stage allerede i collège.', true, true, 4),
+  ('fransk-10:framtid-og-planer', 'q06', 'flervalg', 'Hva betyr «l''année prochaine»?', array['Neste år', 'I fjor', 'Hvert år', 'Dette året']::text[], 0, 'I fjor heter «l''année dernière».', true, true, 5),
+  ('fransk-10:framtid-og-planer', 'q07', 'flervalg', 'Hva er «le bac»?', array['En yrkestittel', 'En skoletype', 'En praksisplass', 'Eksamen som avslutter lycée']::text[], 3, 'Bac gir adgang til høyere utdanning.', true, true, 6),
+  ('fransk-10:framtid-og-planer', 'q08', 'flervalg', 'Hva er hunkjønnsformen av «infirmier»?', array['infirmiere', 'infirmière', 'infirmienne', 'infirmiesse']::text[], 1, 'Endelsen -ier blir -ière.', true, true, 7),
+  ('fransk-10:framtid-og-planer', 'q09', 'flervalg', 'Hva betyr «Si j''ai de bonnes notes, j''irai à l''université»?', array['Jeg har gode karakterer på universitetet', 'Jeg gikk på universitetet', 'Universitetet er bra', 'Hvis jeg får gode karakterer, skal jeg gå på universitetet']::text[], 3, 'si + presens, deretter futur simple.', true, false, 8),
+  ('fransk-10:framtid-og-planer', 'q10', 'flervalg', 'Hva er «l''apprentissage»?', array['En yrkesopplæring der man lærer i en bedrift', 'En eksamen', 'Et universitet', 'En type lærer']::text[], 0, '«apprendre» betyr å lære.', true, false, 9),
+  ('fransk-10:framtid-og-planer', 'm01', 'sant-usant', 'På fransk bruker man ikke artikkel foran yrket etter «être»: «Je suis professeur».', array['Sant', 'Usant']::text[], 0, 'Det samme gjelder etter «devenir».', false, true, 10),
+  ('fransk-10:framtid-og-planer', 'm02', 'sant-usant', 'Futur simple av «aller» med «je» er «j''allerai».', array['Sant', 'Usant']::text[], 1, 'Det heter «j''irai».', false, true, 11),
+  ('fransk-10:framtid-og-planer', 'm03', 'sant-usant', 'Man kan bruke «aller + infinitiv» om nær framtid.', array['Sant', 'Usant']::text[], 0, 'Det kalles futur proche.', false, true, 12),
+  ('fransk-10:framtid-og-planer', 'm04', 'sant-usant', '«parce que» flytter verbet til slutten av setningen.', array['Sant', 'Usant']::text[], 1, 'På fransk brukes vanlig ordstilling etter «parce que».', false, true, 13),
+  ('fransk-10:framtid-og-planer', 'm05', 'flervalg', 'Hva betyr «dans cinq ans»?', array['For fem år siden', 'Om fem år', 'I fem år', 'Hvert femte år']::text[], 1, 'For fem år siden heter «il y a cinq ans».', false, true, 14),
+  ('fransk-10:framtid-og-planer', 'm06', 'flervalg', 'Hva er futur simple av «avoir» med «je»?', array['j''aurai', 'j''avrai', 'j''avoirai', 'j''ai']::text[], 0, '«avoir» har stammen aur- i futur simple.', false, true, 15),
+  ('fransk-10:framtid-og-planer', 'm07', 'flervalg', 'Hva betyr «Je rêve de devenir pilote»?', array['Jeg drømte om fly', 'Jeg er pilot', 'Jeg drømmer om å bli pilot', 'Jeg liker piloter']::text[], 2, '«rêver de» betyr å drømme om.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('fransk-10:framtid-og-planer', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Fransk: Ungdom, medier og læringsstrategier
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('fransk-10:ungdom-og-medier', 'fransk-10', 'ungdom-og-medier', 'Ungdom, medier og læringsstrategier', 'Ord og uttrykk om mobil, sosiale medier og skjermbruk på fransk, hvordan du argumenterer for og mot, ungdomsspråket verlan, strategier for å lese autentiske tekster og digitale ressurser.', array[4, 7]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('fransk-10:ungdom-og-medier', '## Ungdom og medier
+
+Franske ungdommer bruker, som norske, mye tid på **le portable** (mobilen). Mange ord på dette området er lette å kjenne igjen:
+
+- **le smartphone**, **l''ordinateur** (datamaskinen), **Internet** og **l''appli** (appen)
+- **les réseaux sociaux** – sosiale medier
+- **publier** eller **poster** (legge ut), **liker**, **partager** (dele) og **commenter**
+- **télécharger** – laste ned, **envoyer un message** – sende en melding
+
+## Snakke om skjermbruk
+
+- **Combien de temps passes-tu sur ton portable ?** – Hvor mye tid bruker du på mobilen?
+- **Je passe environ deux heures par jour sur mon portable.** – Jeg bruker omtrent to timer om dagen på mobilen.
+- **J''utilise les réseaux sociaux pour rester en contact avec mes amis.** – Jeg bruker sosiale medier for å holde kontakten med vennene mine.
+
+Siden 2018 har det vært forbudt for elever å bruke mobil i franske barne- og ungdomsskoler.
+
+## Fordeler og ulemper
+
+- **l''avantage** – fordelen, **l''inconvénient** – ulempen
+- **D''un côté**, on trouve vite des informations. **De l''autre côté**, il y a beaucoup de fausses informations. – På den ene siden finner man raskt informasjon. På den andre siden finnes det mye falsk informasjon.
+- **À mon avis** … / **Je pense que** … / **Je trouve que** …
+
+Viktige temaer er **le cyberharcèlement** (mobbing på nett), **la vie privée** (privatlivet) og **les fausses informations** (falske nyheter).
+
+## Ungdomsspråk – le verlan
+
+Franske ungdommer bruker ofte **verlan**, der man snur stavelsene i et ord. Selve ordet *verlan* kommer av *l''envers* (baklengs). Eksempler: *fou* → **ouf** (gal, sprø), *louche* → **chelou** (rar, mistenkelig) og *femme* → **meuf** (jente, dame).
+
+## Lese autentiske tekster
+
+- **Skumles** først: Se på overskrift, bilder og ord du kjenner.
+- Se etter **mots transparents** – ord som ligner norsk eller engelsk, som *information* og *technologie*.
+- Pass på **faux amis** – «falske venner»: *une librairie* er en bokhandel, ikke et bibliotek.
+- Bruk **sammenhengen** til å gjette hva ukjente ord betyr, og slå opp de viktigste ordene i en ordbok.
+
+## Digitale ressurser og læringsstrategier
+
+- **TV5Monde** har gratis øvelser og videoer for dem som lærer fransk.
+- **RFI** sender nyheter på lett fransk, *le journal en français facile*.
+- Se franske serier og filmer med fransk tale og tekst, og hør på fransk musikk.
+- Bruk **flashcards** og apper, og repeter ofte.
+- Bruk det du kan fra **engelsk**: Mange engelske ord kommer fra fransk.
+- **Maskinoversettelse** kan være nyttig, men den gjør feil. Vurder alltid resultatet kritisk, og ikke la den skrive oppgavene for deg.', '{"label":"Ungdom og medier","children":[{"label":"Ord","children":[{"label":"portable, appli"},{"label":"publier, partager"},{"label":"télécharger"}]},{"label":"Meninger","children":[{"label":"avantage / inconvénient"},{"label":"D''un côté … de l''autre"},{"label":"À mon avis"}]},{"label":"Temaer","children":[{"label":"Skjermtid"},{"label":"Mobilforbud i skolen"},{"label":"cyberharcèlement"},{"label":"verlan"}]},{"label":"Lesestrategier","children":[{"label":"Skumlesing"},{"label":"mots transparents"},{"label":"faux amis"},{"label":"Sammenheng"}]},{"label":"Digitale ressurser","children":[{"label":"TV5Monde"},{"label":"RFI"},{"label":"Maskinoversettelse med kritisk blikk"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'fransk-10:ungdom-og-medier';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('fransk-10:ungdom-og-medier', 'le portable', 'mobiltelefonen', 0),
+  ('fransk-10:ungdom-og-medier', 'les réseaux sociaux', 'sosiale medier', 1),
+  ('fransk-10:ungdom-og-medier', 'partager', 'å dele', 2),
+  ('fransk-10:ungdom-og-medier', 'télécharger', 'å laste ned', 3),
+  ('fransk-10:ungdom-og-medier', 'publier', 'å legge ut, publisere', 4),
+  ('fransk-10:ungdom-og-medier', 'le message', 'meldingen', 5),
+  ('fransk-10:ungdom-og-medier', 'Combien de temps passes-tu sur ton portable ?', 'Hvor mye tid bruker du på mobilen?', 6),
+  ('fransk-10:ungdom-og-medier', 'D''un côté … de l''autre côté …', 'På den ene siden … på den andre siden …', 7),
+  ('fransk-10:ungdom-og-medier', 'À mon avis …', 'Etter min mening …', 8),
+  ('fransk-10:ungdom-og-medier', 'l''avantage / l''inconvénient', 'fordelen / ulempen', 9),
+  ('fransk-10:ungdom-og-medier', 'le cyberharcèlement', 'mobbing på nett', 10),
+  ('fransk-10:ungdom-og-medier', 'la vie privée', 'privatlivet', 11),
+  ('fransk-10:ungdom-og-medier', 'le verlan', 'ungdomsslang der man snur stavelsene: fou → ouf', 12),
+  ('fransk-10:ungdom-og-medier', 'les mots transparents', 'ord som ligner norsk eller engelsk', 13),
+  ('fransk-10:ungdom-og-medier', 'les faux amis', 'ord som ligner, men betyr noe annet: librairie = bokhandel', 14),
+  ('fransk-10:ungdom-og-medier', 'TV5Monde', 'Fransk TV-kanal med gratis ressurser for å lære fransk', 15);
+delete from public.quiz_sporsmal where tema_id = 'fransk-10:ungdom-og-medier';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('fransk-10:ungdom-og-medier', 'q01', 'flervalg', 'Hva er «le portable» på fransk?', array['En bærbar koffert', 'En port', 'Mobiltelefonen', 'En bærepose']::text[], 2, 'Ordet betyr egentlig «den bærbare».', true, true, 0),
+  ('fransk-10:ungdom-og-medier', 'q02', 'flervalg', 'Hva betyr «partager» på sosiale medier?', array['Å dele', 'Å slette', 'Å like', 'Å kommentere']::text[], 0, '«partager» betyr også å dele noe med noen.', true, true, 1),
+  ('fransk-10:ungdom-og-medier', 'q03', 'flervalg', 'Hvordan innleder du en mening på fransk?', array['Bonjour, …', 'Grosses bises, …', 'Il était une fois …', 'À mon avis, …']::text[], 3, 'Du kan også si «Je pense que …».', true, true, 2),
+  ('fransk-10:ungdom-og-medier', 'q04', 'flervalg', 'Hva betyr «D''un côté … de l''autre côté …»?', array['Først … til slutt …', 'På den ene siden … på den andre siden …', 'Både … og …', 'Enten … eller …']::text[], 1, 'Nyttig når du drøfter fordeler og ulemper.', true, true, 3),
+  ('fransk-10:ungdom-og-medier', 'q05', 'flervalg', 'Hva er «le verlan»?', array['Ungdomsslang der man snur stavelser, som «ouf» for «fou»', 'En fransk avis', 'En dans', 'En type mobil']::text[], 0, '«verlan» er selv «l''envers» snudd baklengs.', true, true, 4),
+  ('fransk-10:ungdom-og-medier', 'q06', 'flervalg', 'Hva er «le cyberharcèlement»?', array['Et dataspill', 'En nettbutikk', 'Et virus', 'Mobbing på nett']::text[], 3, '«le harcèlement» betyr trakassering.', true, true, 5),
+  ('fransk-10:ungdom-og-medier', 'q07', 'flervalg', 'Hva er «faux amis»?', array['Uvenner', 'Falske profiler', 'Ord som ligner et ord på et annet språk, men betyr noe annet', 'Venner på nett']::text[], 2, 'For eksempel betyr «une librairie» en bokhandel.', true, true, 6),
+  ('fransk-10:ungdom-og-medier', 'q08', 'flervalg', 'Hva betyr «télécharger»?', array['Å lade mobilen', 'Å laste ned', 'Å ringe', 'Å skrive']::text[], 1, 'Å lade mobilen heter «recharger».', true, true, 7),
+  ('fransk-10:ungdom-og-medier', 'q09', 'flervalg', 'Hvilken ressurs tilbyr gratis materiell for å lære fransk?', array['TV5Monde', 'Spotify', 'Google Maps', 'Instagram']::text[], 0, 'TV5Monde har øvelser på flere nivåer.', true, false, 8),
+  ('fransk-10:ungdom-og-medier', 'q10', 'flervalg', 'Hva betyr «librairie» – et eksempel på en falsk venn?', array['Bibliotek', 'Frihet', 'Bokhandel', 'Bibel']::text[], 2, 'Biblioteket heter «la bibliothèque».', true, false, 9),
+  ('fransk-10:ungdom-og-medier', 'm01', 'sant-usant', 'Det er forbudt for elever å bruke mobil i franske barne- og ungdomsskoler.', array['Sant', 'Usant']::text[], 0, 'Forbudet ble innført i 2018.', false, true, 10),
+  ('fransk-10:ungdom-og-medier', 'm02', 'sant-usant', 'Ord som «information» og «technologie» er vanskelige å kjenne igjen for nordmenn.', array['Sant', 'Usant']::text[], 1, 'Slike ord kalles «mots transparents» fordi de er lette å forstå.', false, true, 11),
+  ('fransk-10:ungdom-og-medier', 'm03', 'sant-usant', '«publier» betyr å publisere eller legge ut.', array['Sant', 'Usant']::text[], 0, 'Man kan også si «poster».', false, true, 12),
+  ('fransk-10:ungdom-og-medier', 'm04', 'sant-usant', 'Man bør slå opp hvert eneste ord når man leser en fransk tekst.', array['Sant', 'Usant']::text[], 1, 'Det er bedre å slå opp de viktigste ordene og gjette resten ut fra sammenhengen.', false, true, 13),
+  ('fransk-10:ungdom-og-medier', 'm05', 'flervalg', 'Hva betyr «l''inconvénient»?', array['Fordelen', 'Ulempen', 'Meldingen', 'Mobilen']::text[], 1, 'Fordelen heter «l''avantage».', false, true, 14),
+  ('fransk-10:ungdom-og-medier', 'm06', 'flervalg', 'Hva betyr «Je passe deux heures par jour sur mon portable»?', array['Jeg bruker to timer om dagen på mobilen', 'Jeg har to mobiler', 'Mobilen koster to euro', 'Jeg ringer to ganger om dagen']::text[], 0, '«passer du temps» betyr å bruke tid.', false, true, 15),
+  ('fransk-10:ungdom-og-medier', 'm07', 'flervalg', 'Hva betyr «la vie privée»?', array['Livet i byen', 'Et privat selskap', 'Privatlivet', 'En privat skole']::text[], 2, 'Personvern handler om å beskytte privatlivet.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('fransk-10:ungdom-og-medier', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Fransk: Kunst og kultur
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('fransk-10:kunst-og-kultur', 'fransk-10', 'kunst-og-kultur', 'Kunst og kultur', 'Kjent musikk, litteratur, tegneserier, film, kunst og arkitektur fra Frankrike og den fransktalende verden, og hvordan du presenterer et kunstverk og sier hva du synes på fransk.', array[9]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('fransk-10:kunst-og-kultur', '## Musikk
+
+- **La chanson française** er en tradisjon der teksten står i sentrum. Den mest kjente sangeren er **Édith Piaf**, med sanger som *La vie en rose* og *Non, je ne regrette rien*.
+- **Daft Punk**, en duo fra Paris, ble verdensberømt for elektronisk musikk.
+- **Stromae** fra **Belgia** blander elektronisk musikk og rap med tekster om livet, som *Alors on danse* og *Papaoutai*.
+- **Céline Dion** fra **Québec** i Canada er en av verdens mest solgte artister. Hun vant Eurovision for Sveits i 1988.
+- I dag er fransk rap og pop svært populært, og mange artister har røtter i Afrika og Karibia.
+
+## Litteratur og tegneserier
+
+- **Victor Hugo** skrev *Les Misérables* og *Notre-Dame de Paris* (Klokkeren fra Notre-Dame).
+- **Jules Verne** skrev eventyrromaner som *Jorden rundt på 80 dager* og *En verdensomseiling under havet*.
+- **Le Petit Prince** (Den lille prinsen) av **Antoine de Saint-Exupéry** er en av verdens mest oversatte bøker.
+- **Molière** skrev komedier på 1600-tallet og regnes som Frankrikes største dramatiker.
+- **La bande dessinée** (tegneserier) kalles «den niende kunst» i Frankrike og Belgia. Kjente eksempler er franske *Astérix* og belgiske *Tintin*.
+
+## Film
+
+**Brødrene Lumière** viste film for et betalende publikum for første gang, i Paris i **1895**. Hvert år arrangeres **Festival de Cannes**, en av verdens mest kjente filmfestivaler, der hovedprisen heter *la Palme d''or*. Populære franske filmer er *Amélie* og *De urørlige* (*Intouchables*).
+
+## Kunst og arkitektur
+
+- **Impresjonismen** fikk navnet sitt fra maleriet *Impression, soleil levant* av **Claude Monet**. Impresjonistene malte lys og stemninger, ofte utendørs.
+- **Auguste Rodin** laget skulpturen *Le Penseur* (Tenkeren).
+- **Louvre** er verdens mest besøkte kunstmuseum, med blant annet *Mona Lisa*.
+- **Notre-Dame de Paris** ble hardt skadet i en brann i 2019 og gjenåpnet etter restaurering i 2024. Andre kjente byggverk er **Eiffeltårnet**, **Versailles-slottet** og **Mont-Saint-Michel**.
+
+## Si hva du synes
+
+- **Ma chanson préférée, c''est …** – Yndlingssangen min er …
+- **Le livre parle de …** – Boka handler om …
+- **Ça me plaît parce que …** – Jeg liker det fordi …
+- **Je trouve le film drôle / émouvant / passionnant / ennuyeux.** – Jeg synes filmen er morsom / rørende / spennende / kjedelig.
+
+Når du presenterer et kunstverk, kan du fortelle hvem som har laget det, når det ble laget, og hva det handler om. Til slutt sier du hva du selv synes, med begrunnelse.', '{"label":"Kunst og kultur","children":[{"label":"Musikk","children":[{"label":"Édith Piaf"},{"label":"Daft Punk"},{"label":"Stromae"},{"label":"Céline Dion"}]},{"label":"Litteratur","children":[{"label":"Victor Hugo"},{"label":"Jules Verne"},{"label":"Le Petit Prince"},{"label":"Molière"}]},{"label":"Tegneserier og film","children":[{"label":"bande dessinée"},{"label":"Lumière 1895"},{"label":"Festival de Cannes"}]},{"label":"Kunst og arkitektur","children":[{"label":"Monet og impresjonismen"},{"label":"Rodin"},{"label":"Louvre"},{"label":"Notre-Dame"}]},{"label":"Si hva du synes","children":[{"label":"Ça me plaît parce que …"},{"label":"Le livre parle de …"},{"label":"Je trouve …"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'fransk-10:kunst-og-kultur';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('fransk-10:kunst-og-kultur', 'Édith Piaf', 'Fransk sanger kjent for La vie en rose', 0),
+  ('fransk-10:kunst-og-kultur', 'Stromae', 'Belgisk artist, kjent for Alors on danse og Papaoutai', 1),
+  ('fransk-10:kunst-og-kultur', 'Céline Dion', 'Sanger fra Québec, en av verdens mest solgte artister', 2),
+  ('fransk-10:kunst-og-kultur', 'Daft Punk', 'Elektronisk duo fra Paris', 3),
+  ('fransk-10:kunst-og-kultur', 'Victor Hugo', 'Forfatter av Les Misérables og Notre-Dame de Paris', 4),
+  ('fransk-10:kunst-og-kultur', 'Le Petit Prince', 'Den lille prinsen av Saint-Exupéry, en av verdens mest oversatte bøker', 5),
+  ('fransk-10:kunst-og-kultur', 'Jules Verne', 'Skrev Jorden rundt på 80 dager', 6),
+  ('fransk-10:kunst-og-kultur', 'la bande dessinée', 'tegneserien – «den niende kunst»', 7),
+  ('fransk-10:kunst-og-kultur', 'les frères Lumière', 'Viste film for betalende publikum første gang, i 1895', 8),
+  ('fransk-10:kunst-og-kultur', 'le Festival de Cannes', 'Kjent filmfestival med hovedprisen la Palme d''or', 9),
+  ('fransk-10:kunst-og-kultur', 'l''impressionnisme', 'Kunstretning oppkalt etter et maleri av Claude Monet', 10),
+  ('fransk-10:kunst-og-kultur', 'Rodin – Le Penseur', 'Skulpturen Tenkeren', 11),
+  ('fransk-10:kunst-og-kultur', 'Notre-Dame de Paris', 'Katedral som brant i 2019 og gjenåpnet i 2024', 12),
+  ('fransk-10:kunst-og-kultur', 'Ça me plaît.', 'Jeg liker det.', 13),
+  ('fransk-10:kunst-og-kultur', 'Le livre parle de …', 'Boka handler om …', 14);
+delete from public.quiz_sporsmal where tema_id = 'fransk-10:kunst-og-kultur';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('fransk-10:kunst-og-kultur', 'q01', 'flervalg', 'Hvem sang «La vie en rose»?', array['Céline Dion', 'Édith Piaf', 'Stromae', 'Christine and the Queens']::text[], 1, 'Piaf regnes som Frankrikes mest kjente sanger.', true, true, 0),
+  ('fransk-10:kunst-og-kultur', 'q02', 'flervalg', 'Hvilken bok av Antoine de Saint-Exupéry er en av verdens mest oversatte?', array['Les Misérables', 'Notre-Dame de Paris', 'Jorden rundt på 80 dager', 'Le Petit Prince (Den lille prinsen)']::text[], 3, 'Boka er oversatt til flere hundre språk.', true, true, 1),
+  ('fransk-10:kunst-og-kultur', 'q03', 'flervalg', 'Hvilket land kommer Stromae fra?', array['Belgia', 'Frankrike', 'Canada', 'Sveits']::text[], 0, 'Stromae er fra Brussel.', true, true, 2),
+  ('fransk-10:kunst-og-kultur', 'q04', 'flervalg', 'Hvilken kunstretning har fått navnet sitt fra et maleri av Claude Monet?', array['Kubismen', 'Surrealismen', 'Impresjonismen', 'Ekspresjonismen']::text[], 2, 'Maleriet heter «Impression, soleil levant».', true, true, 3),
+  ('fransk-10:kunst-og-kultur', 'q05', 'flervalg', 'Hvem skrev «Les Misérables»?', array['Molière', 'Jules Verne', 'Albert Camus', 'Victor Hugo']::text[], 3, 'Romanen er også blitt en kjent musikal.', true, true, 4),
+  ('fransk-10:kunst-og-kultur', 'q06', 'flervalg', 'Hva kalles den fransk-belgiske tegneserietradisjonen?', array['le manga', 'la bande dessinée', 'le roman', 'le comic']::text[], 1, 'Den kalles ofte «BD» (bédé).', true, true, 5),
+  ('fransk-10:kunst-og-kultur', 'q07', 'flervalg', 'Hvem viste film for et betalende publikum for første gang, i Paris i 1895?', array['Brødrene Lumière', 'Brødrene Grimm', 'Daft Punk', 'Victor Hugo']::text[], 0, 'Visningen regnes som kinoens fødsel.', true, true, 6),
+  ('fransk-10:kunst-og-kultur', 'q08', 'flervalg', 'Hvilken skulptur laget Auguste Rodin?', array['Venus fra Milo', 'David', 'Le Penseur (Tenkeren)', 'Den lille havfrue']::text[], 2, 'Tenkeren er en av verdens mest kjente skulpturer.', true, true, 7),
+  ('fransk-10:kunst-og-kultur', 'q09', 'flervalg', 'Hva betyr «Ça me plaît»?', array['Det er dyrt', 'Det gjør vondt', 'Jeg forstår ikke', 'Jeg liker det']::text[], 3, '«plaire» betyr å falle i smak.', true, false, 8),
+  ('fransk-10:kunst-og-kultur', 'q10', 'flervalg', 'Hvor arrangeres en av verdens mest kjente filmfestivaler?', array['Cannes', 'Lyon', 'Bordeaux', 'Lille']::text[], 0, 'Festivalen holdes hvert år i mai.', true, false, 9),
+  ('fransk-10:kunst-og-kultur', 'm01', 'sant-usant', 'Céline Dion kommer fra Québec i Canada.', array['Sant', 'Usant']::text[], 0, 'Fransk er hovedspråket i Québec.', false, true, 10),
+  ('fransk-10:kunst-og-kultur', 'm02', 'sant-usant', 'Tintin er en fransk tegneserie laget i Paris.', array['Sant', 'Usant']::text[], 1, 'Tintin ble laget av belgiske Hergé.', false, true, 11),
+  ('fransk-10:kunst-og-kultur', 'm03', 'sant-usant', 'Notre-Dame i Paris ble skadet i en brann i 2019.', array['Sant', 'Usant']::text[], 0, 'Katedralen gjenåpnet i 2024.', false, true, 12),
+  ('fransk-10:kunst-og-kultur', 'm04', 'sant-usant', 'Daft Punk var et norsk band.', array['Sant', 'Usant']::text[], 1, 'Daft Punk var en duo fra Paris.', false, true, 13),
+  ('fransk-10:kunst-og-kultur', 'm05', 'flervalg', 'Hvem skrev «Jorden rundt på 80 dager»?', array['Victor Hugo', 'Jules Verne', 'Molière', 'Albert Camus']::text[], 1, 'Jules Verne skrev mange eventyr- og framtidsromaner.', false, true, 14),
+  ('fransk-10:kunst-og-kultur', 'm06', 'flervalg', 'Hva betyr «Le livre parle d''une fille»?', array['Boka handler om en jente', 'En jente leser boka', 'Boka er skrevet av en jente', 'Jenta snakker']::text[], 0, '«parler de» betyr å handle om.', false, true, 15),
+  ('fransk-10:kunst-og-kultur', 'm07', 'flervalg', 'Hvilket museum har Mona Lisa?', array['Musée d''Orsay', 'Centre Pompidou', 'Le Louvre', 'Versailles']::text[], 2, 'Louvre er verdens mest besøkte kunstmuseum.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('fransk-10:kunst-og-kultur', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Fransk: Miljø og samfunn
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('fransk-10:miljo-og-samfunn', 'fransk-10', 'miljo-og-samfunn', 'Miljø og samfunn', 'Miljøvern, avfall, sløsing og energi i Frankrike, hvordan du uttrykker meninger om miljø på fransk, trekk ved det franske samfunnet som laïcité og protestkultur, og sammenligninger med Norge.', array[8, 5]::int[], 5, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('fransk-10:miljo-og-samfunn', '## Miljø – l''environnement
+
+Mange unge i Frankrike er opptatt av **le réchauffement climatique** (den globale oppvarmingen) og **la pollution** (forurensningen). **Parisavtalen** om klima ble vedtatt på klimatoppmøtet i Paris i **2015**.
+
+## Avfall og sløsing
+
+- **les déchets** – avfallet, **trier les déchets** – sortere avfallet, **recycler** – gjenvinne
+- **le gaspillage** – sløsing. Frankrike har en lov som sier at store matbutikker må gi bort mat de ikke har solgt, i stedet for å kaste den.
+- Engangsplastposer er forbudt i franske butikker.
+
+## Energi og transport
+
+- Frankrike får **mesteparten av strømmen sin fra atomkraft**, i motsetning til Norge, som har vannkraft.
+- Landet satser også på **les énergies renouvelables** (fornybar energi), som **les éoliennes** (vindmøller) og **les panneaux solaires** (solcellepaneler).
+- Mange bruker **les transports en commun** (kollektivtransport) og **le vélo**. I Paris er det bygd mange nye sykkelveier.
+
+## Hva kan vi gjøre?
+
+- **Il faut économiser l''énergie et l''eau.** – Man må spare energi og vann.
+- **On devrait moins prendre la voiture.** – Man burde kjøre mindre bil.
+- **J''achète des vêtements d''occasion.** – Jeg kjøper brukte klær.
+- **Il est important de protéger la planète.** – Det er viktig å beskytte planeten.
+
+## Samfunnet i Frankrike
+
+- Frankrike er en **republikk** med mottoet **Liberté, égalité, fraternité**. Presidenten velges av folket for fem år, og nasjonalforsamlingen heter **l''Assemblée nationale**.
+- **La laïcité** er et viktig prinsipp: Siden 1905 har det vært et strengt skille mellom religion og stat. Derfor er det for eksempel ikke lov for elever å bære tydelige religiøse symboler i offentlige skoler.
+- Frankrike er et **mangfoldig** land. Mange innbyggere har røtter i Nord-Afrika, Vest-Afrika og de franske områdene i Karibia og Stillehavet.
+- **Les manifestations** (demonstrasjoner) og **les grèves** (streiker) er en kjent del av fransk politisk kultur.
+
+## Uttrykke meninger
+
+- **Je suis pour / contre …** – Jeg er for / mot …
+- **D''un côté …, de l''autre côté …** – På den ene siden …, på den andre siden …
+- **À mon avis, on devrait …** – Etter min mening burde man …
+
+## Frankrike og Norge
+
+Frankrike og Norge har ulike løsninger på energi og miljø, men begge land har sluttet seg til Parisavtalen. Å sammenligne landene gir nye perspektiver på utfordringene vi står overfor.', '{"label":"Miljø og samfunn","children":[{"label":"Miljø","children":[{"label":"réchauffement climatique"},{"label":"pollution"},{"label":"Parisavtalen"}]},{"label":"Avfall","children":[{"label":"trier les déchets"},{"label":"recycler"},{"label":"gaspillage"}]},{"label":"Energi og transport","children":[{"label":"Atomkraft"},{"label":"éoliennes, panneaux solaires"},{"label":"transports en commun, vélo"}]},{"label":"Samfunn","children":[{"label":"République og president"},{"label":"laïcité"},{"label":"Mangfold"},{"label":"manifestations og grèves"}]},{"label":"Meninger","children":[{"label":"Il faut …"},{"label":"On devrait …"},{"label":"pour / contre"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'fransk-10:miljo-og-samfunn';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('fransk-10:miljo-og-samfunn', 'l''environnement', 'miljøet', 0),
+  ('fransk-10:miljo-og-samfunn', 'le réchauffement climatique', 'den globale oppvarmingen', 1),
+  ('fransk-10:miljo-og-samfunn', 'la pollution', 'forurensningen', 2),
+  ('fransk-10:miljo-og-samfunn', 'les déchets', 'avfallet', 3),
+  ('fransk-10:miljo-og-samfunn', 'trier les déchets', 'å sortere avfallet', 4),
+  ('fransk-10:miljo-og-samfunn', 'recycler', 'å gjenvinne', 5),
+  ('fransk-10:miljo-og-samfunn', 'le gaspillage', 'sløsingen', 6),
+  ('fransk-10:miljo-og-samfunn', 'les énergies renouvelables', 'fornybar energi', 7),
+  ('fransk-10:miljo-og-samfunn', 'une éolienne', 'en vindmølle', 8),
+  ('fransk-10:miljo-og-samfunn', 'les transports en commun', 'kollektivtransport', 9),
+  ('fransk-10:miljo-og-samfunn', 'l''Accord de Paris', 'Parisavtalen om klima fra 2015', 10),
+  ('fransk-10:miljo-og-samfunn', 'On devrait …', 'Man burde …', 11),
+  ('fransk-10:miljo-og-samfunn', 'Je suis pour / contre …', 'Jeg er for / mot …', 12),
+  ('fransk-10:miljo-og-samfunn', 'la laïcité', 'skillet mellom religion og stat i Frankrike', 13),
+  ('fransk-10:miljo-og-samfunn', 'l''Assemblée nationale', 'Frankrikes nasjonalforsamling', 14),
+  ('fransk-10:miljo-og-samfunn', 'la manifestation', 'demonstrasjonen', 15);
+delete from public.quiz_sporsmal where tema_id = 'fransk-10:miljo-og-samfunn';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('fransk-10:miljo-og-samfunn', 'q01', 'flervalg', 'Hva betyr «l''environnement»?', array['Verden', 'Byen', 'Miljøet', 'Været']::text[], 2, 'Verden heter «le monde».', true, true, 0),
+  ('fransk-10:miljo-og-samfunn', 'q02', 'flervalg', 'Hva betyr «trier les déchets»?', array['Å sortere avfallet', 'Å kaste søppel i naturen', 'Å brenne søppel', 'Å kjøpe mindre']::text[], 0, '«trier» betyr å sortere.', true, true, 1),
+  ('fransk-10:miljo-og-samfunn', 'q03', 'flervalg', 'Hvilken klimaavtale fra 2015 har navnet sitt fra Frankrikes hovedstad?', array['Kyotoprotokollen', 'Montrealprotokollen', 'Oslo-avtalen', 'Parisavtalen']::text[], 3, 'Avtalen ble vedtatt på klimatoppmøtet COP21 i Paris.', true, true, 2),
+  ('fransk-10:miljo-og-samfunn', 'q04', 'flervalg', 'Hva betyr «le réchauffement climatique»?', array['Været i dag', 'Den globale oppvarmingen', 'Et varmeapparat', 'Sommeren']::text[], 1, '«chaud» betyr varm.', true, true, 3),
+  ('fransk-10:miljo-og-samfunn', 'q05', 'flervalg', 'Hva er «une éolienne»?', array['Et solcellepanel', 'En elbil', 'Et vannkraftverk', 'En vindmølle']::text[], 3, 'Ordet kommer fra vindguden Eolus.', true, true, 4),
+  ('fransk-10:miljo-og-samfunn', 'q06', 'flervalg', 'Hva betyr «On devrait moins prendre la voiture»?', array['Man må kjøre mer bil', 'Man kjører bil hver dag', 'Man burde kjøre mindre bil', 'Bilen er ødelagt']::text[], 2, '«on devrait» betyr man burde.', true, true, 5),
+  ('fransk-10:miljo-og-samfunn', 'q07', 'flervalg', 'Hva er «la laïcité»?', array['Skillet mellom religion og stat i Frankrike', 'En fransk høytid', 'En type skole', 'Et politisk parti']::text[], 0, 'Prinsippet ble slått fast i en lov fra 1905.', true, true, 6),
+  ('fransk-10:miljo-og-samfunn', 'q08', 'flervalg', 'Hvilken energikilde gir mesteparten av strømmen i Frankrike?', array['Vindkraft', 'Atomkraft', 'Kull', 'Vannkraft']::text[], 1, 'Norge får derimot mesteparten av strømmen fra vannkraft.', true, true, 7),
+  ('fransk-10:miljo-og-samfunn', 'q09', 'flervalg', 'Hvordan sier du at du er mot noe?', array['Je suis pour …', 'J''ai faim de …', 'Je vais à …', 'Je suis contre …']::text[], 3, '«pour» betyr for, og «contre» betyr mot.', true, false, 8),
+  ('fransk-10:miljo-og-samfunn', 'q10', 'flervalg', 'Hva betyr «les transports en commun»?', array['Kollektivtransport', 'Privatbil', 'Fly', 'Sykkel']::text[], 0, '«en commun» betyr felles.', true, false, 9),
+  ('fransk-10:miljo-og-samfunn', 'm01', 'sant-usant', 'I Frankrike må store matbutikker gi bort mat de ikke har solgt, i stedet for å kaste den.', array['Sant', 'Usant']::text[], 0, 'Loven skal redusere matsløsing.', false, true, 10),
+  ('fransk-10:miljo-og-samfunn', 'm02', 'sant-usant', 'Frankrike har ingen president.', array['Sant', 'Usant']::text[], 1, 'Frankrike har en president som velges for fem år.', false, true, 11),
+  ('fransk-10:miljo-og-samfunn', 'm03', 'sant-usant', 'Demonstrasjoner og streiker er en kjent del av fransk politisk kultur.', array['Sant', 'Usant']::text[], 0, 'Store demonstrasjoner er vanlige når folk er uenige i politiske vedtak.', false, true, 12),
+  ('fransk-10:miljo-og-samfunn', 'm04', 'sant-usant', '«le gaspillage» betyr gjenvinning.', array['Sant', 'Usant']::text[], 1, '«le gaspillage» betyr sløsing. Gjenvinning heter «le recyclage».', false, true, 13),
+  ('fransk-10:miljo-og-samfunn', 'm05', 'flervalg', 'Hva betyr «économiser l''eau»?', array['Å spare vann', 'Å selge vann', 'Å drikke vann', 'Å rense vann']::text[], 0, '«économiser» betyr å spare.', false, true, 14),
+  ('fransk-10:miljo-og-samfunn', 'm06', 'flervalg', 'Hva er «l''Assemblée nationale»?', array['Frankrikes nasjonaldag', 'Frankrikes nasjonalforsamling', 'En region', 'En avis']::text[], 1, 'Den tilsvarer Stortinget i Norge.', false, true, 15),
+  ('fransk-10:miljo-og-samfunn', 'm07', 'flervalg', 'Hva betyr «Il est important de protéger la planète»?', array['Planeten er stor', 'Jeg liker planeten', 'Det er viktig å beskytte planeten', 'Planeten er i fare i dag']::text[], 2, '«protéger» betyr å beskytte.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('fransk-10:miljo-og-samfunn', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Spansk (10): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'spansk-10' and slug not in ('reise-og-ferie', 'helse-og-kropp', 'framtid-og-planer', 'ungdom-og-medier', 'kunst-og-kultur', 'miljo-og-samfunn');
+
+-- Spansk: Reise og ferie
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('spansk-10:reise-og-ferie', 'spansk-10', 'reise-og-ferie', 'Reise og ferie', 'Ord og uttrykk for reise, transport, overnatting og vær på spansk, værutrykk med hacer, og hvordan du forteller om en reise og skriver et feriekort.', array[3, 5]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('spansk-10:reise-og-ferie', '## På reise – de viaje
+
+**Las vacaciones** (ferien) står vanligvis i flertall. Å reise heter **viajar** eller **ir de vacaciones**.
+
+- **el avión** (flyet), **el tren** (toget), **el barco** (båten), **el coche** (bilen) og **el autobús**
+- **el aeropuerto** (flyplassen), **la estación** (stasjonen) og **el billete** (billetten; i Latin-Amerika **el boleto**)
+- **la maleta** (kofferten), **la mochila** (sekken) og **el pasaporte**
+
+Spania har et raskt togsystem, **el AVE**, som forbinder store byer som Madrid, Barcelona og Sevilla.
+
+## Hvor reiser du?
+
+- **a** + land og byer: *Voy **a** España / **a** México / **a** Madrid.*
+- **a la playa** (til stranda), **a la montaña** (til fjellet) og **al campo** (på landet)
+- **en** når du er et sted: *Estoy **en** Barcelona.*
+
+## Overnatting
+
+**el hotel**, **el albergue juvenil** (vandrerhjemmet), **el camping** og **una habitación individual / doble** (enkeltrom / dobbeltrom).
+
+- **Quisiera reservar una habitación doble para dos noches.** – Jeg vil gjerne bestille et dobbeltrom for to netter.
+- **¿El desayuno está incluido?** – Er frokosten inkludert?
+
+## Været – el tiempo
+
+Spansk bruker ofte verbet **hacer** om været:
+
+- **¿Qué tiempo hace?** – Hvordan er været?
+- **Hace sol / calor / frío / viento.** – Det er sol / varmt / kaldt / det blåser.
+- **Hace buen tiempo / mal tiempo.** – Det er fint / dårlig vær.
+- **Llueve.** – Det regner. **Nieva.** – Det snør. **Está nublado.** – Det er overskyet.
+- **Estamos a 25 grados.** – Det er 25 grader.
+
+## Hva gjør du i ferien?
+
+**tomar el sol** (sole seg), **bañarse** (bade), **hacer senderismo** (gå på fottur), **esquiar**, **visitar monumentos** (se på severdigheter), **ir a museos** og **comprar recuerdos** (kjøpe suvenirer).
+
+## Fortelle om en reise
+
+Du bruker **indefinido** om det du gjorde, og ofte **imperfecto** om hvordan det var:
+
+*El verano pasado **fui** a México con mi familia. **Visitamos** las pirámides y **comimos** tacos. **Hacía** mucho calor. ¡**Lo pasé** genial!*
+
+Om planer bruker du **ir a + infinitiv**: *El verano que viene **voy a ir** a Perú.*
+
+## Et feriekort
+
+- Begynn med **Querida abuela,** (til en kvinne) eller **Querido Pablo,** (til en mann).
+- Fortell hvor du er, hvordan været er, og hva du har gjort.
+- Avslutt med **Un abrazo** (en klem), **Besos** eller **Saludos**.
+
+## Spania som reisemål
+
+Spania er et av verdens mest besøkte land og et av nordmenns mest populære feriemål. Mange nordmenn har også ferieboliger på Costa del Sol, Costa Blanca eller Kanariøyene.', '{"label":"Reise og ferie","children":[{"label":"Transport","children":[{"label":"avión, tren, AVE"},{"label":"aeropuerto, estación"},{"label":"billete, maleta"}]},{"label":"Reisemål","children":[{"label":"a España, a México"},{"label":"a la playa"},{"label":"en Barcelona"}]},{"label":"Overnatting","children":[{"label":"hotel, albergue juvenil"},{"label":"reservar una habitación"},{"label":"¿desayuno incluido?"}]},{"label":"Været","children":[{"label":"Hace sol / calor / frío"},{"label":"Llueve / Nieva"},{"label":"25 grados"}]},{"label":"Fortelle og skrive","children":[{"label":"Indefinido og imperfecto"},{"label":"ir a + infinitiv"},{"label":"Querida abuela … Un abrazo"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'spansk-10:reise-og-ferie';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('spansk-10:reise-og-ferie', 'las vacaciones', 'ferien (vanligvis i flertall)', 0),
+  ('spansk-10:reise-og-ferie', 'el viaje', 'reisen', 1),
+  ('spansk-10:reise-og-ferie', 'el avión', 'flyet', 2),
+  ('spansk-10:reise-og-ferie', 'el AVE', 'spanske høyhastighetstog', 3),
+  ('spansk-10:reise-og-ferie', 'el albergue juvenil', 'vandrerhjemmet', 4),
+  ('spansk-10:reise-og-ferie', 'una habitación doble', 'et dobbeltrom', 5),
+  ('spansk-10:reise-og-ferie', 'reservar', 'å bestille, reservere', 6),
+  ('spansk-10:reise-og-ferie', 'la maleta', 'kofferten', 7),
+  ('spansk-10:reise-og-ferie', 'Llueve.', 'Det regner.', 8),
+  ('spansk-10:reise-og-ferie', 'Hace sol. / Hace calor.', 'Det er sol. / Det er varmt.', 9),
+  ('spansk-10:reise-og-ferie', 'hacer senderismo', 'å gå på fottur', 10),
+  ('spansk-10:reise-og-ferie', 'visitar monumentos', 'å se på severdigheter', 11),
+  ('spansk-10:reise-og-ferie', 'ir a España', 'å reise til Spania', 12),
+  ('spansk-10:reise-og-ferie', 'a la playa', 'til stranda', 13),
+  ('spansk-10:reise-og-ferie', 'ir a + infinitiv', 'skal gjøre noe: Voy a viajar.', 14),
+  ('spansk-10:reise-og-ferie', 'Un abrazo', 'En klem – avslutning på kort og e-post', 15);
+delete from public.quiz_sporsmal where tema_id = 'spansk-10:reise-og-ferie';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('spansk-10:reise-og-ferie', 'q01', 'flervalg', 'Hva betyr «las vacaciones»?', array['Flyplassen', 'Ferien', 'Kofferten', 'Været']::text[], 1, 'Ordet står vanligvis i flertall.', true, true, 0),
+  ('spansk-10:reise-og-ferie', 'q02', 'flervalg', 'Hva er «el albergue juvenil»?', array['Et luksushotell', 'En campingplass', 'En togstasjon', 'Et vandrerhjem']::text[], 3, '«juvenil» betyr for ungdom.', true, true, 1),
+  ('spansk-10:reise-og-ferie', 'q03', 'flervalg', 'Hvordan sier du «Det regner»?', array['Llueve.', 'Nieva.', 'Hace sol.', 'Hace viento.']::text[], 0, '«la lluvia» betyr regnet.', true, true, 2),
+  ('spansk-10:reise-og-ferie', 'q04', 'flervalg', 'Hvordan sier du «Jeg reiser til Spania»?', array['Voy en España.', 'Voy de España.', 'Voy a España.', 'Voy por España.']::text[], 2, 'Når du reiser til et sted, bruker du «a».', true, true, 3),
+  ('spansk-10:reise-og-ferie', 'q05', 'flervalg', 'Hvilket verb bruker spansk om været i uttrykk som «… calor» og «… frío»?', array['ser', 'estar', 'tener', 'hacer']::text[], 3, '«Hace calor» betyr det er varmt.', true, true, 4),
+  ('spansk-10:reise-og-ferie', 'q06', 'flervalg', 'Hva betyr «hacer senderismo»?', array['Å gå på fottur', 'Å bade', 'Å fly', 'Å handle']::text[], 0, '«el sendero» betyr stien.', true, true, 5),
+  ('spansk-10:reise-og-ferie', 'q07', 'flervalg', 'Hvordan ber du om et dobbeltrom for to netter?', array['Tengo dos habitaciones.', '¿Dónde está la habitación?', 'Quisiera reservar una habitación doble para dos noches.', 'La habitación es doble.']::text[], 2, '«Quisiera» er en høflig måte å si «jeg vil gjerne» på.', true, true, 6),
+  ('spansk-10:reise-og-ferie', 'q08', 'flervalg', 'Hva betyr «¿Qué tiempo hace?»?', array['Hva er klokka?', 'Hvordan er været?', 'Hvor lenge varer det?', 'Når går toget?']::text[], 1, '«el tiempo» kan bety både tid og vær.', true, true, 7),
+  ('spansk-10:reise-og-ferie', 'q09', 'flervalg', 'Hvordan kan du avslutte et kort til en venn?', array['Un abrazo', 'Estimado señor', 'Buenos días', 'Por favor']::text[], 0, '«Estimado señor» brukes i formelle brev.', true, false, 8),
+  ('spansk-10:reise-og-ferie', 'q10', 'flervalg', 'Hva er AVE?', array['En fugl', 'En spansk TV-kanal', 'En båt', 'Spanske høyhastighetstog']::text[], 3, 'Togene kjører i over 300 km/t.', true, false, 9),
+  ('spansk-10:reise-og-ferie', 'm01', 'sant-usant', '«las vacaciones» står vanligvis i flertall.', array['Sant', 'Usant']::text[], 0, '«¡Felices vacaciones!» betyr god ferie.', false, true, 10),
+  ('spansk-10:reise-og-ferie', 'm02', 'sant-usant', '«la maleta» betyr lommeboka.', array['Sant', 'Usant']::text[], 1, '«la maleta» betyr kofferten.', false, true, 11),
+  ('spansk-10:reise-og-ferie', 'm03', 'sant-usant', 'Spania er et av nordmenns mest populære feriemål.', array['Sant', 'Usant']::text[], 0, 'Særlig Kanariøyene og kysten ved Middelhavet.', false, true, 12),
+  ('spansk-10:reise-og-ferie', 'm04', 'sant-usant', '«Nieva» betyr det regner.', array['Sant', 'Usant']::text[], 1, '«Nieva» betyr det snør.', false, true, 13),
+  ('spansk-10:reise-og-ferie', 'm05', 'flervalg', 'Hva betyr «¿El desayuno está incluido?»?', array['Er frokosten inkludert?', 'Når er frokosten?', 'Hvor er frokosten?', 'Liker du frokost?']::text[], 0, '«incluido» betyr inkludert.', false, true, 14),
+  ('spansk-10:reise-og-ferie', 'm06', 'flervalg', 'Hva heter billetten i Spania?', array['la maleta', 'el billete', 'el pasaporte', 'el coche']::text[], 1, 'I Latin-Amerika sier man ofte «el boleto».', false, true, 15),
+  ('spansk-10:reise-og-ferie', 'm07', 'flervalg', 'Hva betyr «El verano que viene voy a ir a Perú»?', array['I fjor sommer dro jeg til Peru', 'Jeg bor i Peru om sommeren', 'Neste sommer skal jeg reise til Peru', 'Peru er fint om sommeren']::text[], 2, '«que viene» betyr som kommer, altså neste.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('spansk-10:reise-og-ferie', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Spansk: Helse og kropp
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('spansk-10:helse-og-kropp', 'spansk-10', 'helse-og-kropp', 'Helse og kropp', 'Kroppsdeler, sykdom og følelser på spansk, verbet doler, hvordan du forklarer hva som er galt hos legen, tener que, deber og hay que, og middelhavskosten.', array[2, 1]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('spansk-10:helse-og-kropp', '## Kroppen – el cuerpo
+
+**la cabeza** (hodet), **la cara** (ansiktet), **los ojos** (øynene), **las orejas** (ørene), **la nariz** (nesen), **la boca** (munnen), **los dientes** (tennene), **la garganta** (halsen), **la espalda** (ryggen), **el estómago** (magen), **el brazo** (armen), **la mano** (hånden), **el dedo** (fingeren), **la pierna** (beinet), **la rodilla** (kneet) og **el pie** (foten).
+
+## Å ha vondt – doler
+
+Verbet **doler** (å gjøre vondt) brukes på samme måte som *gustar*:
+
+- **Me duele la cabeza.** – Jeg har hodepine. (entall → *duele*)
+- **Me duelen los pies.** – Føttene mine gjør vondt. (flertall → *duelen*)
+- **¿Qué te duele?** – Hvor har du vondt?
+- Du kan også si **Tengo dolor de cabeza / de estómago / de garganta.**
+
+## Når du er syk
+
+- **¿Qué te pasa?** – Hva er i veien?
+- **Estoy enfermo / cansado / resfriado.** – Jeg er syk / trøtt / forkjølet. Jenter sier *enferma*, *cansada* og *resfriada*.
+- **Tengo fiebre / tos / gripe.** – Jeg har feber / hoste / influensa.
+- **Estoy mareado.** – Jeg er svimmel eller kvalm.
+- **¡Que te mejores!** – God bedring!
+
+## Hos legen – en el médico
+
+**el médico / la médica** (legen), **la consulta** (legekontoret), **la receta** (resepten), **las pastillas** (tablettene) og **la farmacia** (apoteket).
+
+- **¿Desde cuándo tiene fiebre?** – Hvor lenge har De hatt feber? – **Desde hace dos días.** – I to dager.
+- **Tiene que quedarse en la cama y beber mucha agua.** – De må holde senga og drikke mye vann.
+
+I Spania og resten av EU ringer du **112** i nødsituasjoner.
+
+## Å måtte og å kunne
+
+- **tener que** + infinitiv (måtte): *Tengo que ir al médico.*
+- **deber** + infinitiv (burde): *Debes descansar.*
+- **hay que** + infinitiv (man må): *Hay que beber agua.*
+- **poder** (kunne): *No puedo dormir.* – Jeg får ikke sove.
+
+## Et sunt liv
+
+- **comer sano** – spise sunt
+- **hacer deporte** – trene
+- **dormir bien** – sove godt
+- **no fumar** – ikke røyke
+- **reducir el tiempo de pantalla** – redusere skjermtiden
+
+**La dieta mediterránea** – middelhavskosten med olivenolje, grønnsaker, fisk og frukt – regnes som et sunt kosthold og står på UNESCOs liste over immateriell kulturarv.
+
+## Følelser
+
+**Estoy contento** (glad), **triste** (lei meg), **estresado** (stresset), **nervioso** (nervøs) eller **enfadado** (sint). Hunkjønnsformene ender på *-a*. Å snakke med noen hjelper ofte når man ikke har det bra.', '{"label":"Helse og kropp","children":[{"label":"Kroppen","children":[{"label":"cabeza, cara"},{"label":"estómago, espalda"},{"label":"brazo, mano, pierna, pie"}]},{"label":"doler","children":[{"label":"Me duele la cabeza"},{"label":"Me duelen los pies"},{"label":"Tengo dolor de …"}]},{"label":"Syk og hos legen","children":[{"label":"fiebre, tos, gripe"},{"label":"¿Desde cuándo …?"},{"label":"receta, farmacia"},{"label":"112"}]},{"label":"Verb","children":[{"label":"tener que"},{"label":"deber"},{"label":"hay que"},{"label":"poder"}]},{"label":"Sunt liv og følelser","children":[{"label":"dieta mediterránea"},{"label":"dormir bien"},{"label":"contento, triste, estresado"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'spansk-10:helse-og-kropp';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('spansk-10:helse-og-kropp', 'la cabeza', 'hodet', 0),
+  ('spansk-10:helse-og-kropp', 'el estómago', 'magen', 1),
+  ('spansk-10:helse-og-kropp', 'la espalda', 'ryggen', 2),
+  ('spansk-10:helse-og-kropp', 'la pierna', 'beinet', 3),
+  ('spansk-10:helse-og-kropp', 'el pie', 'foten', 4),
+  ('spansk-10:helse-og-kropp', 'la mano', 'hånden', 5),
+  ('spansk-10:helse-og-kropp', 'Me duele la cabeza.', 'Jeg har hodepine.', 6),
+  ('spansk-10:helse-og-kropp', 'Me duelen los pies.', 'Føttene mine gjør vondt.', 7),
+  ('spansk-10:helse-og-kropp', 'Tengo fiebre.', 'Jeg har feber.', 8),
+  ('spansk-10:helse-og-kropp', 'Estoy resfriado / resfriada.', 'Jeg er forkjølet.', 9),
+  ('spansk-10:helse-og-kropp', '¡Que te mejores!', 'God bedring!', 10),
+  ('spansk-10:helse-og-kropp', 'el médico / la médica', 'legen', 11),
+  ('spansk-10:helse-og-kropp', 'la receta', 'resepten', 12),
+  ('spansk-10:helse-og-kropp', 'tener que + infinitiv', 'å måtte: Tengo que descansar.', 13),
+  ('spansk-10:helse-og-kropp', 'hay que …', 'man må …', 14),
+  ('spansk-10:helse-og-kropp', 'la dieta mediterránea', 'middelhavskosten', 15),
+  ('spansk-10:helse-og-kropp', '112', 'Nødnummer i Spania og resten av EU', 16);
+delete from public.quiz_sporsmal where tema_id = 'spansk-10:helse-og-kropp';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('spansk-10:helse-og-kropp', 'q01', 'flervalg', 'Hva betyr «la espalda»?', array['Hodet', 'Magen', 'Ryggen', 'Beinet']::text[], 2, 'Magen heter «el estómago».', true, true, 0),
+  ('spansk-10:helse-og-kropp', 'q02', 'flervalg', 'Hvordan sier du «Jeg har hodepine»?', array['Me duele la cabeza.', 'Soy cabeza.', 'Mi cabeza está enferma.', 'Tengo la cabeza mal.']::text[], 0, '«doler» brukes som «gustar».', true, true, 1),
+  ('spansk-10:helse-og-kropp', 'q03', 'flervalg', 'Hva sier du til noen som er syke?', array['¡Buen provecho!', '¡Salud!', '¡Buenas noches!', '¡Que te mejores!']::text[], 3, 'Det betyr «God bedring!».', true, true, 2),
+  ('spansk-10:helse-og-kropp', 'q04', 'flervalg', 'Hvordan sier du «Føttene mine gjør vondt»?', array['Me duele los pies.', 'Me duelen los pies.', 'Me dolen los pies.', 'Duelo los pies.']::text[], 1, '«los pies» er flertall, derfor «duelen».', true, true, 3),
+  ('spansk-10:helse-og-kropp', 'q05', 'flervalg', 'Hva betyr «Estoy resfriado»?', array['Jeg fryser', 'Jeg er sulten', 'Jeg er trøtt', 'Jeg er forkjølet']::text[], 3, 'Jeg fryser heter «Tengo frío».', true, true, 4),
+  ('spansk-10:helse-og-kropp', 'q06', 'flervalg', 'Hvordan sier du «Jeg må gå til legen»?', array['Quiero ir al médico.', 'Voy al médico ayer.', 'Tengo que ir al médico.', 'Soy médico.']::text[], 2, '«tener que» + infinitiv betyr å måtte.', true, true, 5),
+  ('spansk-10:helse-og-kropp', 'q07', 'flervalg', 'Hva er «la receta» hos legen?', array['Resepten på medisin', 'En kake', 'Regningen', 'Timen']::text[], 0, 'Ordet kan også bety matoppskrift.', true, true, 6),
+  ('spansk-10:helse-og-kropp', 'q08', 'flervalg', 'Hvilket nødnummer kan du ringe i Spania og resten av EU?', array['113', '112', '911', '110']::text[], 1, 'I Mexico ringer man 911.', true, true, 7),
+  ('spansk-10:helse-og-kropp', 'q09', 'flervalg', 'Hva betyr «Hay que beber mucha agua»?', array['Man må ikke drikke vann', 'Vannet er kaldt', 'Jeg drikker mye vann', 'Man må drikke mye vann']::text[], 3, '«hay que» + infinitiv betyr man må.', true, false, 8),
+  ('spansk-10:helse-og-kropp', 'q10', 'flervalg', 'Hva kjennetegner middelhavskosten, «la dieta mediterránea»?', array['Olivenolje, grønnsaker, fisk og frukt', 'Mye hurtigmat', 'Bare kjøtt', 'Mye sukker']::text[], 0, 'Kostholdet regnes som svært sunt.', true, false, 9),
+  ('spansk-10:helse-og-kropp', 'm01', 'sant-usant', '«doler» brukes på samme måte som «gustar».', array['Sant', 'Usant']::text[], 0, 'Verbet bøyes etter det som gjør vondt.', false, true, 10),
+  ('spansk-10:helse-og-kropp', 'm02', 'sant-usant', '«la fiebre» betyr hoste.', array['Sant', 'Usant']::text[], 1, '«la fiebre» betyr feber. Hoste heter «la tos».', false, true, 11),
+  ('spansk-10:helse-og-kropp', 'm03', 'sant-usant', 'Middelhavskosten står på UNESCOs liste over immateriell kulturarv.', array['Sant', 'Usant']::text[], 0, 'Den ble tatt inn på listen i 2010.', false, true, 12),
+  ('spansk-10:helse-og-kropp', 'm04', 'sant-usant', '«Estoy enfadado» betyr jeg er glad.', array['Sant', 'Usant']::text[], 1, '«Estoy enfadado» betyr jeg er sint.', false, true, 13),
+  ('spansk-10:helse-og-kropp', 'm05', 'flervalg', 'Hva betyr «¿Desde cuándo tiene fiebre?»?', array['Hvor lenge har De hatt feber?', 'Har De feber?', 'Hvorfor har De feber?', 'Hvor høy feber har De?']::text[], 0, '«desde» betyr siden.', false, true, 14),
+  ('spansk-10:helse-og-kropp', 'm06', 'flervalg', 'Hva er «el médico»?', array['Sykepleieren', 'Legen', 'Apoteket', 'Medisinen']::text[], 1, 'Medisinen heter «el medicamento».', false, true, 15),
+  ('spansk-10:helse-og-kropp', 'm07', 'flervalg', 'Hva betyr «Estoy estresada»?', array['Jeg er glad', 'Jeg er sint', 'Jeg er stresset', 'Jeg er syk']::text[], 2, 'Hunkjønnsformen slutter på -a.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('spansk-10:helse-og-kropp', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Spansk: Framtid, planer og yrker
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('spansk-10:framtid-og-planer', 'spansk-10', 'framtid-og-planer', 'Framtid, planer og yrker', 'Hvordan du snakker om framtiden på spansk med ir a og futurum, planer og drømmer, yrker og utdanning i Spania, og hvordan du begrunner med porque og setter vilkår med si.', array[3, 6]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('spansk-10:framtid-og-planer', '## Å snakke om framtiden
+
+Spansk har to vanlige framtidsformer:
+
+- **ir a + infinitiv** – mye brukt i dagligtale: *Voy a estudiar esta tarde.* – Jeg skal studere i ettermiddag.
+- **Futuro simple** – infinitiv + endingene **-é, -ás, -á, -emos, -éis, -án**: *trabajar**é**, trabajar**ás**, trabajar**á** …*
+
+Noen vanlige verb har **uregelrett stamme** i futurum: tener → **tendré**, hacer → **haré**, poder → **podré**, salir → **saldré**, venir → **vendré** og decir → **diré**.
+
+## Planer og drømmer
+
+- **Quiero …** – Jeg vil …
+- **Me gustaría …** – Jeg ville gjerne …
+- **Pienso estudiar en Madrid.** – Jeg har tenkt å studere i Madrid.
+- **Sueño con ser piloto.** – Jeg drømmer om å bli pilot.
+- **Espero …** – Jeg håper …
+
+## Yrker – las profesiones
+
+Mange yrker har en hankjønnsform på **-o** og en hunkjønnsform på **-a**: **médico / médica**, **enfermero / enfermera** (sykepleier), **ingeniero / ingeniera**, **cocinero / cocinera** (kokk), **informático / informática**, **veterinario / veterinaria** og **abogado / abogada** (advokat). Andre er like for begge kjønn, som **periodista** (journalist) og **policía**. *Profesor* blir **profesora** i hunkjønn.
+
+Man bruker **ikke** artikkel foran yrket etter *ser*: *Quiero ser enfermera.* *Mi padre es cocinero.*
+
+## Utdanning i Spania
+
+- Etter **la ESO** kan elevene velge **el Bachillerato**, som forbereder til universitetet, eller **la Formación Profesional (FP)**, som er yrkesfaglig utdanning.
+- For å komme inn på universitetet tar man en opptaksprøve etter Bachillerato.
+- **Las prácticas** er en praksisperiode i en bedrift.
+
+## Begrunne og sette vilkår
+
+- **porque** (fordi) – vanlig ordstilling: *Quiero ser médico **porque** me gusta ayudar a la gente.*
+- **si** (hvis) + presens, deretter futurum: *Si saco buenas notas, iré a la universidad.*
+
+## Livet i framtiden
+
+- **Me gustaría vivir en una ciudad grande / en el campo.** – Jeg ville gjerne bodd i en stor by / på landet.
+- **Me gustaría tener hijos.** – Jeg ville gjerne hatt barn.
+- **Viajaré mucho.** – Jeg skal reise mye.
+
+## Tidsuttrykk
+
+**mañana** (i morgen), **pasado mañana** (i overmorgen), **la semana que viene** (neste uke), **el año que viene** (neste år), **dentro de cinco años** (om fem år) og **más tarde** (senere).
+
+## Tips til muntlig presentasjon
+
+Når du forteller om framtidsplanene dine, kan du bruke en fast struktur: Hva vil du gjøre etter ungdomsskolen? Hvilket yrke drømmer du om, og hvorfor? Hvor vil du bo? Bruk **porque** for å begrunne, og veksle mellom *ir a* og futurum.', '{"label":"Framtid og planer","children":[{"label":"Framtid","children":[{"label":"ir a + infinitiv"},{"label":"Futuro simple"},{"label":"tendré, haré, podré"}]},{"label":"Planer","children":[{"label":"Quiero / Me gustaría"},{"label":"Pienso …"},{"label":"Sueño con …"}]},{"label":"Yrker","children":[{"label":"médico / médica"},{"label":"periodista, policía"},{"label":"Ingen artikkel foran yrket"}]},{"label":"Utdanning","children":[{"label":"ESO og Bachillerato"},{"label":"Formación Profesional"},{"label":"prácticas"}]},{"label":"Begrunne","children":[{"label":"porque"},{"label":"si + presens, futurum"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'spansk-10:framtid-og-planer';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('spansk-10:framtid-og-planer', 'ir a + infinitiv', 'nær framtid: Voy a estudiar.', 0),
+  ('spansk-10:framtid-og-planer', 'voy a estudiar', 'jeg skal studere', 1),
+  ('spansk-10:framtid-og-planer', 'trabajaré', 'jeg skal arbeide (futurum)', 2),
+  ('spansk-10:framtid-og-planer', 'tendré / haré / podré', 'jeg skal ha / gjøre / kunne', 3),
+  ('spansk-10:framtid-og-planer', 'la profesión', 'yrket', 4),
+  ('spansk-10:framtid-og-planer', 'Quiero ser médica.', 'Jeg vil bli lege. (ingen artikkel foran yrket)', 5),
+  ('spansk-10:framtid-og-planer', 'enfermero / enfermera', 'sykepleier', 6),
+  ('spansk-10:framtid-og-planer', 'ingeniero / ingeniera', 'ingeniør', 7),
+  ('spansk-10:framtid-og-planer', 'el Bachillerato', 'videregående utdanning som forbereder til universitetet', 8),
+  ('spansk-10:framtid-og-planer', 'la Formación Profesional', 'yrkesfaglig utdanning', 9),
+  ('spansk-10:framtid-og-planer', 'las prácticas', 'praksisperioden', 10),
+  ('spansk-10:framtid-og-planer', 'porque', 'fordi', 11),
+  ('spansk-10:framtid-og-planer', 'Si …, iré …', 'Hvis …, skal jeg dra …', 12),
+  ('spansk-10:framtid-og-planer', 'el año que viene', 'neste år', 13),
+  ('spansk-10:framtid-og-planer', 'dentro de cinco años', 'om fem år', 14),
+  ('spansk-10:framtid-og-planer', 'Me gustaría …', 'Jeg ville gjerne …', 15);
+delete from public.quiz_sporsmal where tema_id = 'spansk-10:framtid-og-planer';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('spansk-10:framtid-og-planer', 'q01', 'flervalg', 'Hvordan lager du nær framtid med «ir»?', array['haber + partisipp', 'estar + gerundium', 'ser + infinitiv', 'ir a + infinitiv']::text[], 3, 'For eksempel «Voy a viajar».', true, true, 0),
+  ('spansk-10:framtid-og-planer', 'q02', 'flervalg', 'Hvordan sier en jente «Jeg vil bli sykepleier»?', array['Quiero ser una enfermera.', 'Quiero ser enfermera.', 'Quiero enfermera.', 'Soy quiero enfermera.']::text[], 1, 'Man bruker ikke artikkel foran yrket.', true, true, 1),
+  ('spansk-10:framtid-og-planer', 'q03', 'flervalg', 'Hva er futurum av «tener» med «yo»?', array['teneré', 'tenderé', 'tendré', 'tengo']::text[], 2, '«tener» har stammen tendr- i futurum.', true, true, 2),
+  ('spansk-10:framtid-og-planer', 'q04', 'flervalg', 'Hvilken setning er riktig?', array['Quiero ser profesor porque me gustan los niños.', 'Quiero ser profesor porque los niños me gustan porque.', 'Quiero porque ser profesor me gustan los niños.', 'Porque quiero ser profesor me gustan.']::text[], 0, 'Etter «porque» brukes vanlig ordstilling.', true, true, 3),
+  ('spansk-10:framtid-og-planer', 'q05', 'flervalg', 'Hva er «las prácticas»?', array['Øvelser i matte', 'En eksamen', 'En praksisperiode i en bedrift', 'Et skolefag']::text[], 2, 'Mange studenter har praksis i en bedrift.', true, true, 4),
+  ('spansk-10:framtid-og-planer', 'q06', 'flervalg', 'Hva betyr «el año que viene»?', array['Neste år', 'I fjor', 'Hvert år', 'Dette året']::text[], 0, 'I fjor heter «el año pasado».', true, true, 5),
+  ('spansk-10:framtid-og-planer', 'q07', 'flervalg', 'Hva er «la Formación Profesional (FP)»?', array['Et universitet', 'En skoleuniform', 'En eksamen', 'Yrkesfaglig utdanning']::text[], 3, 'FP tilsvarer omtrent yrkesfag i Norge.', true, true, 6),
+  ('spansk-10:framtid-og-planer', 'q08', 'flervalg', 'Hva er hunkjønnsformen av «ingeniero»?', array['ingeniere', 'ingeniera', 'ingenieresa', 'ingeniería']::text[], 1, '-o blir -a i hunkjønn.', true, true, 7),
+  ('spansk-10:framtid-og-planer', 'q09', 'flervalg', 'Hva betyr «Si saco buenas notas, iré a la universidad»?', array['Jeg har gode karakterer på universitetet', 'Jeg gikk på universitetet', 'Universitetet er bra', 'Hvis jeg får gode karakterer, skal jeg gå på universitetet']::text[], 3, 'si + presens, deretter futurum.', true, false, 8),
+  ('spansk-10:framtid-og-planer', 'q10', 'flervalg', 'Hva betyr «Me gustaría vivir en el campo»?', array['Jeg ville gjerne bodd på landet', 'Jeg bor på landet', 'Jeg liker ikke landet', 'Jeg bodde på landet']::text[], 0, '«me gustaría» er en høflig måte å uttrykke ønsker på.', true, false, 9),
+  ('spansk-10:framtid-og-planer', 'm01', 'sant-usant', 'På spansk bruker man ikke artikkel foran yrket etter «ser»: «Soy profesor».', array['Sant', 'Usant']::text[], 0, 'Det er som på norsk: Jeg er lærer.', false, true, 10),
+  ('spansk-10:framtid-og-planer', 'm02', 'sant-usant', 'Futurum av «hacer» med «yo» er «haceré».', array['Sant', 'Usant']::text[], 1, 'Det heter «haré».', false, true, 11),
+  ('spansk-10:framtid-og-planer', 'm03', 'sant-usant', '«ir a + infinitiv» brukes mye i dagligtale om framtiden.', array['Sant', 'Usant']::text[], 0, 'For eksempel «Mañana voy a jugar al fútbol».', false, true, 12),
+  ('spansk-10:framtid-og-planer', 'm04', 'sant-usant', '«porque» flytter verbet til slutten av setningen.', array['Sant', 'Usant']::text[], 1, 'På spansk brukes vanlig ordstilling etter «porque».', false, true, 13),
+  ('spansk-10:framtid-og-planer', 'm05', 'flervalg', 'Hva betyr «dentro de cinco años»?', array['For fem år siden', 'Om fem år', 'I fem år', 'Hvert femte år']::text[], 1, 'For fem år siden heter «hace cinco años».', false, true, 14),
+  ('spansk-10:framtid-og-planer', 'm06', 'flervalg', 'Hva er futurum av «poder» med «yo»?', array['podré', 'poderé', 'puedo', 'pudo']::text[], 0, '«poder» har stammen podr- i futurum.', false, true, 15),
+  ('spansk-10:framtid-og-planer', 'm07', 'flervalg', 'Hva betyr «Sueño con ser piloto»?', array['Jeg drømte om fly', 'Jeg er pilot', 'Jeg drømmer om å bli pilot', 'Jeg liker piloter']::text[], 2, '«soñar con» betyr å drømme om.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('spansk-10:framtid-og-planer', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Spansk: Ungdom, medier og læringsstrategier
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('spansk-10:ungdom-og-medier', 'spansk-10', 'ungdom-og-medier', 'Ungdom, medier og læringsstrategier', 'Ord og uttrykk om mobil, sosiale medier og skjermbruk på spansk, forskjeller mellom Spania og Latin-Amerika, ungdomsslang, strategier for å lese autentiske tekster og digitale ressurser.', array[4, 7]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('spansk-10:ungdom-og-medier', '## Ungdom og medier
+
+Spansktalende ungdommer bruker, som norske, mye tid på mobilen. Noen ord er forskjellige i Spania og Latin-Amerika:
+
+- **el móvil** (Spania) / **el celular** (Latin-Amerika) – mobilen
+- **el ordenador** (Spania) / **la computadora** (Latin-Amerika) – datamaskinen
+- **las redes sociales** – sosiale medier, **la app** eller **la aplicación**
+- **publicar** eller **subir** (legge ut): *subir una foto*
+- **dar «me gusta»** (like), **compartir** (dele) og **comentar**
+- **descargar** – laste ned, **mandar un mensaje** – sende en melding
+
+## Snakke om skjermbruk
+
+- **¿Cuánto tiempo pasas con el móvil?** – Hvor mye tid bruker du på mobilen?
+- **Paso unas dos horas al día con el móvil.** – Jeg bruker omtrent to timer om dagen på mobilen.
+- **Uso las redes sociales para hablar con mis amigos.** – Jeg bruker sosiale medier for å snakke med vennene mine.
+
+## Fordeler og ulemper
+
+- **la ventaja** – fordelen, **la desventaja** – ulempen
+- **Por un lado**, encontramos información rápidamente. **Por otro lado**, hay muchas noticias falsas. – På den ene siden finner vi raskt informasjon. På den andre siden finnes det mange falske nyheter.
+- **En mi opinión** … / **Creo que** … / **Pienso que** …
+
+Viktige temaer er **el ciberacoso** (mobbing på nett), **la privacidad** (personvern) og **las noticias falsas** eller **los bulos** (falske nyheter).
+
+## Ungdomsspråk
+
+Slang varierer mye mellom landene. I Spania sier unge **guay** (kult), **vale** (ok) og **tío / tía** (kompis). I Mexico spør man **¿Qué onda?** (Hva skjer?), og i flere land i Latin-Amerika sier man **chévere** om noe som er kult.
+
+## Lese autentiske tekster
+
+- **Skumles** først: Se på overskrift, bilder og ord du kjenner.
+- Se etter **palabras transparentes** – ord som ligner norsk eller engelsk, som *información* og *tecnología*.
+- Pass på **falsos amigos** – «falske venner»: *embarazada* betyr gravid, ikke flau, og *una librería* er en bokhandel.
+- Bruk **sammenhengen** til å gjette hva ukjente ord betyr, og slå opp de viktigste ordene i en ordbok.
+
+## Digitale ressurser og læringsstrategier
+
+- **Instituto Cervantes** arbeider for å fremme spansk språk og kultur og har mange ressurser på nett.
+- Den spanske allmennkringkasteren **RTVE** har nyheter, serier og programmer du kan se på nett.
+- Se spanske og latinamerikanske serier og filmer med spansk tale og tekst, og hør på spansk musikk.
+- Bruk **flashcards** og apper, og repeter ofte.
+- Bruk det du kan fra **engelsk**: Mange ord har felles opphav i latin.
+- **Maskinoversettelse** kan være nyttig, men den gjør feil. Vurder alltid resultatet kritisk, og ikke la den skrive oppgavene for deg.', '{"label":"Ungdom og medier","children":[{"label":"Ord","children":[{"label":"móvil / celular"},{"label":"subir, compartir"},{"label":"descargar"}]},{"label":"Meninger","children":[{"label":"ventaja / desventaja"},{"label":"Por un lado … por otro"},{"label":"En mi opinión"}]},{"label":"Temaer","children":[{"label":"Skjermtid"},{"label":"ciberacoso"},{"label":"privacidad"},{"label":"Slang: guay, chévere"}]},{"label":"Lesestrategier","children":[{"label":"Skumlesing"},{"label":"palabras transparentes"},{"label":"falsos amigos"},{"label":"Sammenheng"}]},{"label":"Digitale ressurser","children":[{"label":"Instituto Cervantes"},{"label":"RTVE"},{"label":"Maskinoversettelse med kritisk blikk"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'spansk-10:ungdom-og-medier';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('spansk-10:ungdom-og-medier', 'el móvil / el celular', 'mobilen (Spania / Latin-Amerika)', 0),
+  ('spansk-10:ungdom-og-medier', 'las redes sociales', 'sosiale medier', 1),
+  ('spansk-10:ungdom-og-medier', 'compartir', 'å dele', 2),
+  ('spansk-10:ungdom-og-medier', 'descargar', 'å laste ned', 3),
+  ('spansk-10:ungdom-og-medier', 'subir una foto', 'å legge ut et bilde', 4),
+  ('spansk-10:ungdom-og-medier', 'el mensaje', 'meldingen', 5),
+  ('spansk-10:ungdom-og-medier', '¿Cuánto tiempo pasas con el móvil?', 'Hvor mye tid bruker du på mobilen?', 6),
+  ('spansk-10:ungdom-og-medier', 'Por un lado … por otro lado …', 'På den ene siden … på den andre siden …', 7),
+  ('spansk-10:ungdom-og-medier', 'En mi opinión …', 'Etter min mening …', 8),
+  ('spansk-10:ungdom-og-medier', 'la ventaja / la desventaja', 'fordelen / ulempen', 9),
+  ('spansk-10:ungdom-og-medier', 'el ciberacoso', 'mobbing på nett', 10),
+  ('spansk-10:ungdom-og-medier', 'la privacidad', 'personvernet, privatlivet', 11),
+  ('spansk-10:ungdom-og-medier', 'guay / chévere', 'kult (Spania / Latin-Amerika)', 12),
+  ('spansk-10:ungdom-og-medier', 'palabras transparentes', 'ord som ligner norsk eller engelsk', 13),
+  ('spansk-10:ungdom-og-medier', 'falsos amigos', 'ord som ligner, men betyr noe annet: embarazada = gravid', 14),
+  ('spansk-10:ungdom-og-medier', 'Instituto Cervantes', 'Institusjon som fremmer spansk språk og kultur i verden', 15);
+delete from public.quiz_sporsmal where tema_id = 'spansk-10:ungdom-og-medier';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('spansk-10:ungdom-og-medier', 'q01', 'flervalg', 'Hva heter mobiltelefonen i Spania?', array['el ordenador', 'la computadora', 'el móvil', 'la tele']::text[], 2, 'I Latin-Amerika sier man ofte «el celular».', true, true, 0),
+  ('spansk-10:ungdom-og-medier', 'q02', 'flervalg', 'Hva betyr «compartir» på sosiale medier?', array['Å dele', 'Å slette', 'Å like', 'Å kommentere']::text[], 0, '«compartir» betyr også å dele noe med noen.', true, true, 1),
+  ('spansk-10:ungdom-og-medier', 'q03', 'flervalg', 'Hvordan innleder du en mening på spansk?', array['Buenos días, …', 'Un abrazo, …', 'Había una vez …', 'En mi opinión, …']::text[], 3, 'Du kan også si «Creo que …».', true, true, 2),
+  ('spansk-10:ungdom-og-medier', 'q04', 'flervalg', 'Hva betyr «Por un lado … por otro lado …»?', array['Først … til slutt …', 'På den ene siden … på den andre siden …', 'Både … og …', 'Enten … eller …']::text[], 1, 'Nyttig når du drøfter fordeler og ulemper.', true, true, 3),
+  ('spansk-10:ungdom-og-medier', 'q05', 'flervalg', 'Hva betyr «guay» i Spania og «chévere» i deler av Latin-Amerika?', array['Kult, bra', 'Kjedelig', 'Farlig', 'Dyrt']::text[], 0, 'Slang varierer mellom landene.', true, true, 4),
+  ('spansk-10:ungdom-og-medier', 'q06', 'flervalg', 'Hva er «el ciberacoso»?', array['Et dataspill', 'En nettbutikk', 'Et virus', 'Mobbing på nett']::text[], 3, '«el acoso» betyr trakassering.', true, true, 5),
+  ('spansk-10:ungdom-og-medier', 'q07', 'flervalg', 'Hva betyr «embarazada», et eksempel på en falsk venn?', array['Flau', 'Barnslig', 'Gravid', 'Brydd']::text[], 2, 'Flau heter «avergonzado» eller «avergonzada».', true, true, 6),
+  ('spansk-10:ungdom-og-medier', 'q08', 'flervalg', 'Hva betyr «descargar»?', array['Å lade mobilen', 'Å laste ned', 'Å ringe', 'Å skrive']::text[], 1, 'Å lade mobilen heter «cargar el móvil».', true, true, 7),
+  ('spansk-10:ungdom-og-medier', 'q09', 'flervalg', 'Hvilken institusjon arbeider for å fremme spansk språk og kultur i verden?', array['Instituto Cervantes', 'Real Madrid', 'El Corte Inglés', 'Zara']::text[], 0, 'Instituttet er oppkalt etter forfatteren Miguel de Cervantes.', true, false, 8),
+  ('spansk-10:ungdom-og-medier', 'q10', 'flervalg', 'Hva heter datamaskinen i Spania?', array['el móvil', 'la computadora', 'el ordenador', 'el celular']::text[], 2, 'I Latin-Amerika heter den «la computadora».', true, false, 9),
+  ('spansk-10:ungdom-og-medier', 'm01', 'sant-usant', 'Mange ord for teknologi varierer mellom Spania og Latin-Amerika.', array['Sant', 'Usant']::text[], 0, 'For eksempel «el móvil» og «el celular».', false, true, 10),
+  ('spansk-10:ungdom-og-medier', 'm02', 'sant-usant', 'Ord som «información» og «tecnología» er vanskelige å kjenne igjen for nordmenn.', array['Sant', 'Usant']::text[], 1, 'Slike ord kalles «palabras transparentes» fordi de er lette å forstå.', false, true, 11),
+  ('spansk-10:ungdom-og-medier', 'm03', 'sant-usant', '«subir una foto» betyr å legge ut et bilde.', array['Sant', 'Usant']::text[], 0, '«subir» betyr egentlig å gå opp eller laste opp.', false, true, 12),
+  ('spansk-10:ungdom-og-medier', 'm04', 'sant-usant', 'Man bør slå opp hvert eneste ord når man leser en spansk tekst.', array['Sant', 'Usant']::text[], 1, 'Det er bedre å slå opp de viktigste ordene og gjette resten ut fra sammenhengen.', false, true, 13),
+  ('spansk-10:ungdom-og-medier', 'm05', 'flervalg', 'Hva betyr «la desventaja»?', array['Fordelen', 'Ulempen', 'Meldingen', 'Mobilen']::text[], 1, 'Fordelen heter «la ventaja».', false, true, 14),
+  ('spansk-10:ungdom-og-medier', 'm06', 'flervalg', 'Hva betyr «Paso dos horas al día con el móvil»?', array['Jeg bruker to timer om dagen på mobilen', 'Jeg har to mobiler', 'Mobilen koster to euro', 'Jeg ringer to ganger om dagen']::text[], 0, '«pasar tiempo» betyr å bruke tid.', false, true, 15),
+  ('spansk-10:ungdom-og-medier', 'm07', 'flervalg', 'Hva betyr «la privacidad»?', array['Livet i byen', 'Et privat selskap', 'Personvernet, privatlivet', 'En privat skole']::text[], 2, 'Personvern handler om å beskytte privatlivet.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('spansk-10:ungdom-og-medier', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Spansk: Kunst og kultur
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('spansk-10:kunst-og-kultur', 'spansk-10', 'kunst-og-kultur', 'Kunst og kultur', 'Kjent kunst, arkitektur, litteratur, musikk og film fra Spania og Latin-Amerika, og hvordan du presenterer et kunstverk og sier hva du synes på spansk.', array[9]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('spansk-10:kunst-og-kultur', '## Kunst
+
+- **Diego Velázquez** malte *Las Meninas* på 1600-tallet, et av verdens mest berømte malerier. Det henger i **Museo del Prado** i Madrid.
+- **Francisco de Goya** malte både kongelige portretter og mørke bilder av krig.
+- **Pablo Picasso** var med på å skape **kubismen**. Maleriet *Guernica* (1937) viser grusomhetene da den baskiske byen Guernica ble bombet under den spanske borgerkrigen.
+- **Salvador Dalí** er kjent for **surrealistiske** bilder, som maleriet med de smeltende klokkene.
+- **Frida Kahlo** fra Mexico malte mange sterke selvportretter, og **Diego Rivera** malte store veggmalerier om meksikansk historie.
+
+## Arkitektur
+
+- **Antoni Gaudí** tegnet **Sagrada Família** og **Park Güell** i Barcelona, med myke, fargerike former inspirert av naturen.
+- **La Alhambra** i Granada er et praktfullt palass fra tiden da muslimer styrte store deler av Spania.
+- I Latin-Amerika finnes imponerende byggverk fra urfolkskulturer, som inkabyen **Machu Picchu** i Peru og mayapyramiden **Chichén Itzá** i Mexico.
+
+## Litteratur
+
+- **Miguel de Cervantes** skrev *Don Quijote* (1605), om en ridder som kjemper mot vindmøller han tror er kjemper.
+- **Gabriel García Márquez** fra Colombia skrev *Hundre års ensomhet* og er kjent for **magisk realisme**, der magiske hendelser skjer i en realistisk verden. Han fikk Nobels litteraturpris i 1982.
+- **Pablo Neruda** fra Chile skrev kjærlighetsdikt og fikk Nobelprisen i 1971, og **Isabel Allende** fra Chile er en av verdens mest leste spanskspråklige forfattere.
+
+## Musikk og dans
+
+- **Flamenco** fra Andalucía består av sang, gitar og dans.
+- **Tango** kommer fra Argentina og Uruguay, **salsa** har røtter i Karibia, og **mariachi** er tradisjonell musikk fra Mexico.
+- I dag er **reggaeton** og **latinpop** populært over hele verden, med artister fra Spania, Colombia, Puerto Rico og mange andre land.
+
+## Film
+
+**Pedro Almodóvar** er Spanias mest kjente filmskaper, og **Guillermo del Toro** fra Mexico har vunnet Oscar for beste film. Pixar-filmen *Coco* handler om Día de Muertos i Mexico.
+
+## Si hva du synes
+
+- **Mi canción favorita es …** – Yndlingssangen min er …
+- **El libro trata de …** – Boka handler om …
+- **Me gusta porque …** – Jeg liker det fordi …
+- **Me parece emocionante / divertido / aburrido / triste.** – Jeg synes det er spennende / morsomt / kjedelig / trist.
+
+Når du presenterer et kunstverk, kan du fortelle hvem som har laget det, når det ble laget, og hva det handler om. Til slutt sier du hva du selv synes, med begrunnelse.', '{"label":"Kunst og kultur","children":[{"label":"Kunst","children":[{"label":"Velázquez og Goya"},{"label":"Picasso og Dalí"},{"label":"Frida Kahlo"}]},{"label":"Arkitektur","children":[{"label":"Gaudí"},{"label":"Alhambra"},{"label":"Machu Picchu og Chichén Itzá"}]},{"label":"Litteratur","children":[{"label":"Don Quijote"},{"label":"García Márquez"},{"label":"Neruda og Allende"}]},{"label":"Musikk og film","children":[{"label":"flamenco, tango, mariachi"},{"label":"reggaeton og latinpop"},{"label":"Almodóvar og del Toro"}]},{"label":"Si hva du synes","children":[{"label":"Me gusta porque …"},{"label":"El libro trata de …"},{"label":"Me parece …"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'spansk-10:kunst-og-kultur';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('spansk-10:kunst-og-kultur', 'Velázquez – Las Meninas', 'Berømt maleri fra 1600-tallet i Museo del Prado', 0),
+  ('spansk-10:kunst-og-kultur', 'Goya', 'Spansk maler av kongelige portretter og krigsbilder', 1),
+  ('spansk-10:kunst-og-kultur', 'Picasso – Guernica', 'Maleri om bombingen av Guernica i 1937', 2),
+  ('spansk-10:kunst-og-kultur', 'Dalí', 'Surrealistisk maler, kjent for smeltende klokker', 3),
+  ('spansk-10:kunst-og-kultur', 'Frida Kahlo', 'Meksikansk maler kjent for selvportretter', 4),
+  ('spansk-10:kunst-og-kultur', 'Gaudí', 'Arkitekten bak Sagrada Família og Park Güell', 5),
+  ('spansk-10:kunst-og-kultur', 'la Alhambra', 'Praktfullt palass i Granada fra den muslimske tiden', 6),
+  ('spansk-10:kunst-og-kultur', 'Don Quijote', 'Roman av Cervantes fra 1605', 7),
+  ('spansk-10:kunst-og-kultur', 'García Márquez', 'Colombiansk forfatter av Hundre års ensomhet, magisk realisme', 8),
+  ('spansk-10:kunst-og-kultur', 'Pablo Neruda', 'Chilensk poet, Nobelpris i 1971', 9),
+  ('spansk-10:kunst-og-kultur', 'el flamenco', 'Sang, gitar og dans fra Andalucía', 10),
+  ('spansk-10:kunst-og-kultur', 'el tango', 'Dans og musikk fra Argentina og Uruguay', 11),
+  ('spansk-10:kunst-og-kultur', 'el mariachi', 'Tradisjonell musikk fra Mexico', 12),
+  ('spansk-10:kunst-og-kultur', 'Guillermo del Toro', 'Meksikansk filmskaper som har vunnet Oscar for beste film', 13),
+  ('spansk-10:kunst-og-kultur', 'El libro trata de …', 'Boka handler om …', 14),
+  ('spansk-10:kunst-og-kultur', 'Me parece …', 'Jeg synes det er …', 15);
+delete from public.quiz_sporsmal where tema_id = 'spansk-10:kunst-og-kultur';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('spansk-10:kunst-og-kultur', 'q01', 'flervalg', 'Hvilket maleri av Picasso viser bombingen av en baskisk by i 1937?', array['Las Meninas', 'Guernica', 'Kysset', 'Skrik']::text[], 1, 'Maleriet henger i Museo Reina Sofía i Madrid.', true, true, 0),
+  ('spansk-10:kunst-og-kultur', 'q02', 'flervalg', 'Hvilken kunstner er kjent for surrealistiske bilder med smeltende klokker?', array['Velázquez', 'Goya', 'Picasso', 'Salvador Dalí']::text[], 3, 'Surrealismen skildrer drømmeaktige verdener.', true, true, 1),
+  ('spansk-10:kunst-og-kultur', 'q03', 'flervalg', 'Hvem skrev «Hundre års ensomhet»?', array['Gabriel García Márquez', 'Pablo Neruda', 'Isabel Allende', 'Miguel de Cervantes']::text[], 0, 'Romanen handler om familien Buendía i den oppdiktede byen Macondo.', true, true, 2),
+  ('spansk-10:kunst-og-kultur', 'q04', 'flervalg', 'Hvilket land kommer mariachi-musikken fra?', array['Spania', 'Argentina', 'Mexico', 'Cuba']::text[], 2, 'Mariachi-musikere har ofte store hatter og tradisjonelle drakter.', true, true, 3),
+  ('spansk-10:kunst-og-kultur', 'q05', 'flervalg', 'Hvor ligger Alhambra, et praktfullt palass fra den muslimske tiden i Spania?', array['Madrid', 'Barcelona', 'Bilbao', 'Granada']::text[], 3, 'Alhambra ligger i Andalucía i Sør-Spania.', true, true, 4),
+  ('spansk-10:kunst-og-kultur', 'q06', 'flervalg', 'Hvilken meksikansk kunstner malte mange selvportretter?', array['Salvador Dalí', 'Frida Kahlo', 'Joan Miró', 'Pablo Picasso']::text[], 1, 'Frida Kahlo er et ikon i Mexico.', true, true, 5),
+  ('spansk-10:kunst-og-kultur', 'q07', 'flervalg', 'Hvilken dans kommer fra Argentina og Uruguay?', array['Tango', 'Flamenco', 'Salsa', 'Jota']::text[], 0, 'Flamenco kommer fra Spania.', true, true, 6),
+  ('spansk-10:kunst-og-kultur', 'q08', 'flervalg', 'Hvilken Pixar-film handler om Día de Muertos i Mexico?', array['Encanto', 'Frost', 'Coco', 'Toy Story']::text[], 2, 'Filmen viser tradisjonene med ofrendas og ringblomster.', true, true, 7),
+  ('spansk-10:kunst-og-kultur', 'q09', 'flervalg', 'Hva betyr «El libro trata de una familia»?', array['Familien leser boka', 'Boka er skrevet av en familie', 'Familien kjøper boka', 'Boka handler om en familie']::text[], 3, '«tratar de» betyr å handle om.', true, false, 8),
+  ('spansk-10:kunst-og-kultur', 'q10', 'flervalg', 'Hvilken chilensk poet fikk Nobels litteraturpris i 1971?', array['Pablo Neruda', 'Federico García Lorca', 'Gabriel García Márquez', 'Miguel de Cervantes']::text[], 0, 'Neruda er kjent for sine kjærlighetsdikt.', true, false, 9),
+  ('spansk-10:kunst-og-kultur', 'm01', 'sant-usant', '«Don Quijote» regnes som en av verdens første moderne romaner.', array['Sant', 'Usant']::text[], 0, 'Den kom ut i 1605.', false, true, 10),
+  ('spansk-10:kunst-og-kultur', 'm02', 'sant-usant', 'Flamenco kommer fra Mexico.', array['Sant', 'Usant']::text[], 1, 'Flamenco kommer fra Andalucía i Sør-Spania.', false, true, 11),
+  ('spansk-10:kunst-og-kultur', 'm03', 'sant-usant', 'Museo del Prado i Madrid er et av verdens mest kjente kunstmuseer.', array['Sant', 'Usant']::text[], 0, 'Der henger blant annet «Las Meninas».', false, true, 12),
+  ('spansk-10:kunst-og-kultur', 'm04', 'sant-usant', 'Antoni Gaudí var en berømt fotballspiller.', array['Sant', 'Usant']::text[], 1, 'Gaudí var arkitekt.', false, true, 13),
+  ('spansk-10:kunst-og-kultur', 'm05', 'flervalg', 'Hva kalles stilen der magiske ting skjer i en realistisk verden?', array['Impresjonisme', 'Magisk realisme', 'Kubisme', 'Romantikk']::text[], 1, 'García Márquez er den mest kjente forfatteren i denne stilen.', false, true, 14),
+  ('spansk-10:kunst-og-kultur', 'm06', 'flervalg', 'Hva betyr «Me parece emocionante»?', array['Jeg synes det er spennende', 'Det er kjedelig', 'Jeg er lei meg', 'Det er dyrt']::text[], 0, '«emocionante» betyr spennende.', false, true, 15),
+  ('spansk-10:kunst-og-kultur', 'm07', 'flervalg', 'Hvilken filmskaper er fra Mexico?', array['Pedro Almodóvar', 'Steven Spielberg', 'Guillermo del Toro', 'Luc Besson']::text[], 2, 'Almodóvar er fra Spania.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('spansk-10:kunst-og-kultur', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Spansk: Miljø og samfunn
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('spansk-10:miljo-og-samfunn', 'spansk-10', 'miljo-og-samfunn', 'Miljø og samfunn', 'Miljøutfordringer som tørke og skogbranner, avfall og energi i Spania, regnskogen og Andesfjellene i Latin-Amerika, hvordan du uttrykker meninger på spansk, og trekk ved samfunnene i den spansktalende verden.', array[8, 5]::int[], 5, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('spansk-10:miljo-og-samfunn', '## Miljø – el medio ambiente
+
+**El cambio climático** (klimaendringene) merkes godt i Spania. Somrene blir varmere, og **la sequía** (tørke) og **los incendios forestales** (skogbranner) er store problemer. Også **la contaminación** (forurensningen) i storbyene er en utfordring.
+
+## Avfall og gjenvinning
+
+I Spania sorterer man **la basura** (søppelet) i fargede **contenedores** (containere) på gata:
+
+- **amarillo** (gul) – plast- og metallemballasje
+- **azul** (blå) – papir og papp
+- **verde** (grønn) – glass
+- **marrón** eller **gris** – matavfall og restavfall
+
+Å gjenvinne heter **reciclar**.
+
+## Energi og transport
+
+- Spania har mye sol og er blant Europas ledende land på **energía solar** (solenergi). Landet satser også på **energía eólica** (vindkraft).
+- Mange byer bygger ut **el transporte público** (kollektivtransport) og sykkelveier.
+- **Ahorrar energía y agua** – å spare energi og vann – er særlig viktig i et land med lite regn.
+
+## Latin-Amerika
+
+- **La selva amazónica** (Amazonas-regnskogen) strekker seg gjennom flere land, blant annet Peru, Colombia og Bolivia. **La deforestación** (avskoging) truer dyreliv, urfolk og klimaet.
+- Isbreene i **Andesfjellene** smelter, og det truer vannforsyningen i flere land.
+- **Galápagosøyene** i Ecuador har et unikt dyreliv som er strengt vernet.
+
+## Hva kan vi gjøre?
+
+- **Hay que reciclar.** – Man må gjenvinne.
+- **Deberíamos usar más el transporte público.** – Vi burde bruke kollektivtransport mer.
+- **Es importante ahorrar agua.** – Det er viktig å spare vann.
+- **Estoy a favor de / en contra de …** – Jeg er for / mot …
+
+## Samfunnet i Spania
+
+- Fra 1939 til 1975 var Spania et **diktatur** under **Francisco Franco**. Etter hans død ble landet et demokrati, og i **1978** fikk Spania en ny **grunnlov**. I dag er Spania et **konstitusjonelt monarki**, som Norge.
+- Landet har **17 autonome regioner** med stor grad av selvstyre, og flere språk.
+- **Arbeidsledigheten blant unge** har lenge vært høy, og mange unge bor hjemme lenge.
+
+## Samfunnet i Latin-Amerika
+
+Befolkningen i Latin-Amerika har røtter i **urfolk**, **Europa** og **Afrika**. Mange land har store økonomiske forskjeller, og mange har flyttet til USA og Spania for å finne arbeid.
+
+## Spania, Latin-Amerika og Norge
+
+Å sammenligne hvordan landene møter utfordringer som klima, tørke og ulikhet, gir nye perspektiver på vår egen hverdag i Norge.', '{"label":"Miljø og samfunn","children":[{"label":"Miljø i Spania","children":[{"label":"cambio climático"},{"label":"sequía"},{"label":"incendios forestales"}]},{"label":"Avfall og energi","children":[{"label":"Fargede containere"},{"label":"reciclar"},{"label":"energía solar"}]},{"label":"Latin-Amerika","children":[{"label":"Amazonas og avskoging"},{"label":"Andesfjellene"},{"label":"Galápagos"}]},{"label":"Samfunn","children":[{"label":"Franco og 1978"},{"label":"Konstitusjonelt monarki"},{"label":"17 regioner"},{"label":"Ungdomsledighet"}]},{"label":"Meninger","children":[{"label":"Hay que …"},{"label":"Deberíamos …"},{"label":"a favor / en contra"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'spansk-10:miljo-og-samfunn';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('spansk-10:miljo-og-samfunn', 'el medio ambiente', 'miljøet', 0),
+  ('spansk-10:miljo-og-samfunn', 'el cambio climático', 'klimaendringene', 1),
+  ('spansk-10:miljo-og-samfunn', 'la contaminación', 'forurensningen', 2),
+  ('spansk-10:miljo-og-samfunn', 'la sequía', 'tørken', 3),
+  ('spansk-10:miljo-og-samfunn', 'los incendios forestales', 'skogbrannene', 4),
+  ('spansk-10:miljo-og-samfunn', 'la basura', 'søppelet', 5),
+  ('spansk-10:miljo-og-samfunn', 'reciclar', 'å gjenvinne', 6),
+  ('spansk-10:miljo-og-samfunn', 'los contenedores', 'containerne for avfall', 7),
+  ('spansk-10:miljo-og-samfunn', 'las energías renovables', 'fornybar energi', 8),
+  ('spansk-10:miljo-og-samfunn', 'la energía solar', 'solenergi', 9),
+  ('spansk-10:miljo-og-samfunn', 'el transporte público', 'kollektivtransport', 10),
+  ('spansk-10:miljo-og-samfunn', 'Deberíamos …', 'Vi burde …', 11),
+  ('spansk-10:miljo-og-samfunn', 'Estoy a favor de / en contra de …', 'Jeg er for / mot …', 12),
+  ('spansk-10:miljo-og-samfunn', 'la deforestación', 'avskogingen', 13),
+  ('spansk-10:miljo-og-samfunn', 'la Constitución de 1978', 'Spanias demokratiske grunnlov', 14),
+  ('spansk-10:miljo-og-samfunn', 'la dictadura de Franco', 'diktaturet i Spania fra 1939 til 1975', 15);
+delete from public.quiz_sporsmal where tema_id = 'spansk-10:miljo-og-samfunn';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('spansk-10:miljo-og-samfunn', 'q01', 'flervalg', 'Hva betyr «el medio ambiente»?', array['Verden', 'Byen', 'Miljøet', 'Været']::text[], 2, 'Verden heter «el mundo».', true, true, 0),
+  ('spansk-10:miljo-og-samfunn', 'q02', 'flervalg', 'Hva er «la sequía»?', array['Tørke', 'Flom', 'Snø', 'Storm']::text[], 0, '«seco» betyr tørr.', true, true, 1),
+  ('spansk-10:miljo-og-samfunn', 'q03', 'flervalg', 'Hvilken fornybar energikilde er Spania blant Europas ledende land på?', array['Kull', 'Olje', 'Atomkraft', 'Solenergi']::text[], 3, 'Spania har svært mange soldager.', true, true, 2),
+  ('spansk-10:miljo-og-samfunn', 'q04', 'flervalg', 'Hva betyr «reciclar»?', array['Å sykle', 'Å gjenvinne', 'Å kaste', 'Å kjøpe']::text[], 1, 'Å sykle heter «montar en bici».', true, true, 3),
+  ('spansk-10:miljo-og-samfunn', 'q05', 'flervalg', 'Hva er «la deforestación» i Amazonas?', array['Planting av trær', 'En ny nasjonalpark', 'Et turistområde', 'Avskoging, at regnskogen hogges ned']::text[], 3, 'Avskoging truer både dyreliv, urfolk og klimaet.', true, true, 4),
+  ('spansk-10:miljo-og-samfunn', 'q06', 'flervalg', 'Hva betyr «Deberíamos usar más el transporte público»?', array['Vi bruker aldri kollektivtransport', 'Kollektivtransport er dyrt', 'Vi burde bruke kollektivtransport mer', 'Vi må kjøre bil']::text[], 2, '«deberíamos» betyr vi burde.', true, true, 5),
+  ('spansk-10:miljo-og-samfunn', 'q07', 'flervalg', 'Når fikk Spania sin demokratiske grunnlov etter Franco-diktaturet?', array['1978', '1939', '1992', '2004']::text[], 0, 'Franco døde i 1975, og overgangen til demokrati fulgte.', true, true, 6),
+  ('spansk-10:miljo-og-samfunn', 'q08', 'flervalg', 'Hva betyr «Estoy en contra de …»?', array['Jeg er for …', 'Jeg er mot …', 'Jeg vet ikke om …', 'Jeg liker …']::text[], 1, '«a favor de» betyr for.', true, true, 7),
+  ('spansk-10:miljo-og-samfunn', 'q09', 'flervalg', 'Hva er et stort miljøproblem i Spania om sommeren?', array['Snøskred', 'Isbreer', 'Orkaner', 'Skogbranner og tørke']::text[], 3, 'Varme somre med lite regn øker faren for branner.', true, false, 8),
+  ('spansk-10:miljo-og-samfunn', 'q10', 'flervalg', 'Hva betyr «el transporte público»?', array['Kollektivtransport', 'Privatbil', 'Fly', 'Sykkel']::text[], 0, '«público» betyr offentlig.', true, false, 9),
+  ('spansk-10:miljo-og-samfunn', 'm01', 'sant-usant', 'I Spania sorteres avfall i fargede containere på gata.', array['Sant', 'Usant']::text[], 0, 'Gul for emballasje, blå for papir og grønn for glass.', false, true, 10),
+  ('spansk-10:miljo-og-samfunn', 'm02', 'sant-usant', 'Spania har vært et diktatur siden 1978.', array['Sant', 'Usant']::text[], 1, 'Spania har vært et demokrati siden slutten av 1970-tallet.', false, true, 11),
+  ('spansk-10:miljo-og-samfunn', 'm03', 'sant-usant', 'Amazonas-regnskogen strekker seg gjennom flere land i Sør-Amerika.', array['Sant', 'Usant']::text[], 0, 'Blant annet Brasil, Peru, Colombia og Bolivia.', false, true, 12),
+  ('spansk-10:miljo-og-samfunn', 'm04', 'sant-usant', '«la basura» betyr gjenvinning.', array['Sant', 'Usant']::text[], 1, '«la basura» betyr søppel.', false, true, 13),
+  ('spansk-10:miljo-og-samfunn', 'm05', 'flervalg', 'Hva betyr «ahorrar agua»?', array['Å spare vann', 'Å selge vann', 'Å drikke vann', 'Å rense vann']::text[], 0, '«ahorrar» betyr å spare.', false, true, 14),
+  ('spansk-10:miljo-og-samfunn', 'm06', 'flervalg', 'Hvem styrte Spania som diktator fra 1939 til 1975?', array['Kong Felipe', 'Francisco Franco', 'Pablo Picasso', 'Simón Bolívar']::text[], 1, 'Franco kom til makten etter den spanske borgerkrigen.', false, true, 15),
+  ('spansk-10:miljo-og-samfunn', 'm07', 'flervalg', 'Hva betyr «Es importante reciclar»?', array['Gjenvinning er dyrt', 'Jeg liker ikke å gjenvinne', 'Det er viktig å gjenvinne', 'Man kan ikke gjenvinne']::text[], 2, '«Es importante» + infinitiv betyr det er viktig å …', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('spansk-10:miljo-og-samfunn', 15)
 on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Kjemi 1 (vg2): rydd bort fjernede temaer

@@ -14,8 +14,9 @@ Status for arbeidet med å lage innhold til alle 78 fag (8. trinn–Vg3), og hvo
 | Samfunnsfag 8, 9, 10 | 7 + 7 + 7 |
 | KRLE 8, 9, 10 | 6 + 6 + 7 |
 | Engelsk fordypning 8, 9, 10 | 5 + 5 + 5 |
+| Tysk, fransk, spansk 8, 9, 10 | 6 per trinn (54) |
 
-**Neste:** Tysk/fransk/spansk 9 og 10.
+**Neste:** Arbeidslivsfag 8–10 (ARB01-03 KV107) og utdanningsvalg 9–10 (UTV01-03 KV106), deretter Vg1.
 
 **Fremmedspråk nivå I (FSP01-04 KV965)**, samme slugs for tysk, fransk og spansk (`_fag.json` er laget). Forklaringer på norsk, eksempler og flashcard-termer på målspråket:
 
@@ -23,7 +24,7 @@ Status for arbeidet med å lage innhold til alle 78 fag (8. trinn–Vg3), og hvo
 - **9**: mat-og-drikke, hjemmet-og-hverdagen, byen-og-veibeskrivelse, klaer-og-handel, fortid, hoytider-og-tradisjoner
 - **10**: reise-og-ferie, helse-og-kropp, framtid-og-planer, ungdom-og-medier, kunst-og-kultur, miljo-og-samfunn
 
-Ferdig: tysk og fransk 8–10, spansk 8–9. Neste: spansk 10.
+Alle ferdige.
 
 ## Arbeidsflyt per fag
 
@@ -92,6 +93,6 @@ RLE01-04 KV1145 har 15 mål for hele ungdomstrinnet:
 - **KRLE 9**: hinduismen (1, 6), buddhismen (1, 6), religion-og-historie (2), religiost-mangfold (4), religion-i-populaerkultur (9), etiske-forbilder (10)
 - **KRLE 10**: sikhisme-og-andre-tradisjoner (1), kjonn-og-seksualitet (8), eksistensielle-sporsmal (13), etikk-og-kommunikasjon (14, 12), filosofi-og-aktuell-etikk (11), menneskerettigheter-og-fattigdom (15), kilder-og-perspektiver (7, 6)
 
-## Gjenstår etter KRLE
+## Gjenstår
 
-Tysk/fransk/spansk 8–10 (nivå I, ~6 temaer per trinn), arbeidslivsfag 8–10, utdanningsvalg 9–10, alle Vg1-fag (inkl. kinesisk), alle Vg2-fag unntatt Kjemi 1 (inkl. kinesisk og entreprenørskap og bedriftsutvikling 1), alle Vg3-fag.
+Arbeidslivsfag 8–10, utdanningsvalg 9–10, alle Vg1-fag (inkl. kinesisk), alle Vg2-fag unntatt Kjemi 1 (inkl. kinesisk og entreprenørskap og bedriftsutvikling 1), alle Vg3-fag.

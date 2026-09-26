@@ -1,0 +1,85 @@
+{
+  "id": "ungdom-og-medier",
+  "fagId": "spansk-10",
+  "trinnId": "10",
+  "name": "Ungdom, medier og læringsstrategier",
+  "intro": "Ord og uttrykk om mobil, sosiale medier og skjermbruk på spansk, forskjeller mellom Spania og Latin-Amerika, ungdomsslang, strategier for å lese autentiske tekster og digitale ressurser.",
+  "kompetansemaal": [4, 7],
+  "sammendrag": "## Ungdom og medier\n\nSpansktalende ungdommer bruker, som norske, mye tid på mobilen. Noen ord er forskjellige i Spania og Latin-Amerika:\n\n- **el móvil** (Spania) / **el celular** (Latin-Amerika) – mobilen\n- **el ordenador** (Spania) / **la computadora** (Latin-Amerika) – datamaskinen\n- **las redes sociales** – sosiale medier, **la app** eller **la aplicación**\n- **publicar** eller **subir** (legge ut): *subir una foto*\n- **dar «me gusta»** (like), **compartir** (dele) og **comentar**\n- **descargar** – laste ned, **mandar un mensaje** – sende en melding\n\n## Snakke om skjermbruk\n\n- **¿Cuánto tiempo pasas con el móvil?** – Hvor mye tid bruker du på mobilen?\n- **Paso unas dos horas al día con el móvil.** – Jeg bruker omtrent to timer om dagen på mobilen.\n- **Uso las redes sociales para hablar con mis amigos.** – Jeg bruker sosiale medier for å snakke med vennene mine.\n\n## Fordeler og ulemper\n\n- **la ventaja** – fordelen, **la desventaja** – ulempen\n- **Por un lado**, encontramos información rápidamente. **Por otro lado**, hay muchas noticias falsas. – På den ene siden finner vi raskt informasjon. På den andre siden finnes det mange falske nyheter.\n- **En mi opinión** … / **Creo que** … / **Pienso que** …\n\nViktige temaer er **el ciberacoso** (mobbing på nett), **la privacidad** (personvern) og **las noticias falsas** eller **los bulos** (falske nyheter).\n\n## Ungdomsspråk\n\nSlang varierer mye mellom landene. I Spania sier unge **guay** (kult), **vale** (ok) og **tío / tía** (kompis). I Mexico spør man **¿Qué onda?** (Hva skjer?), og i flere land i Latin-Amerika sier man **chévere** om noe som er kult.\n\n## Lese autentiske tekster\n\n- **Skumles** først: Se på overskrift, bilder og ord du kjenner.\n- Se etter **palabras transparentes** – ord som ligner norsk eller engelsk, som *información* og *tecnología*.\n- Pass på **falsos amigos** – «falske venner»: *embarazada* betyr gravid, ikke flau, og *una librería* er en bokhandel.\n- Bruk **sammenhengen** til å gjette hva ukjente ord betyr, og slå opp de viktigste ordene i en ordbok.\n\n## Digitale ressurser og læringsstrategier\n\n- **Instituto Cervantes** arbeider for å fremme spansk språk og kultur og har mange ressurser på nett.\n- Den spanske allmennkringkasteren **RTVE** har nyheter, serier og programmer du kan se på nett.\n- Se spanske og latinamerikanske serier og filmer med spansk tale og tekst, og hør på spansk musikk.\n- Bruk **flashcards** og apper, og repeter ofte.\n- Bruk det du kan fra **engelsk**: Mange ord har felles opphav i latin.\n- **Maskinoversettelse** kan være nyttig, men den gjør feil. Vurder alltid resultatet kritisk, og ikke la den skrive oppgavene for deg.",
+  "flashcards": [
+    { "term": "el móvil / el celular", "def": "mobilen (Spania / Latin-Amerika)" },
+    { "term": "las redes sociales", "def": "sosiale medier" },
+    { "term": "compartir", "def": "å dele" },
+    { "term": "descargar", "def": "å laste ned" },
+    { "term": "subir una foto", "def": "å legge ut et bilde" },
+    { "term": "el mensaje", "def": "meldingen" },
+    { "term": "¿Cuánto tiempo pasas con el móvil?", "def": "Hvor mye tid bruker du på mobilen?" },
+    { "term": "Por un lado … por otro lado …", "def": "På den ene siden … på den andre siden …" },
+    { "term": "En mi opinión …", "def": "Etter min mening …" },
+    { "term": "la ventaja / la desventaja", "def": "fordelen / ulempen" },
+    { "term": "el ciberacoso", "def": "mobbing på nett" },
+    { "term": "la privacidad", "def": "personvernet, privatlivet" },
+    { "term": "guay / chévere", "def": "kult (Spania / Latin-Amerika)" },
+    { "term": "palabras transparentes", "def": "ord som ligner norsk eller engelsk" },
+    { "term": "falsos amigos", "def": "ord som ligner, men betyr noe annet: embarazada = gravid" },
+    { "term": "Instituto Cervantes", "def": "Institusjon som fremmer spansk språk og kultur i verden" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva heter mobiltelefonen i Spania?", "options": ["el ordenador", "la computadora", "el móvil", "la tele"], "correct": 2, "explain": "I Latin-Amerika sier man ofte «el celular»." },
+    { "id": "q02", "text": "Hva betyr «compartir» på sosiale medier?", "options": ["Å dele", "Å slette", "Å like", "Å kommentere"], "correct": 0, "explain": "«compartir» betyr også å dele noe med noen." },
+    { "id": "q03", "text": "Hvordan innleder du en mening på spansk?", "options": ["Buenos días, …", "Un abrazo, …", "Había una vez …", "En mi opinión, …"], "correct": 3, "explain": "Du kan også si «Creo que …»." },
+    { "id": "q04", "text": "Hva betyr «Por un lado … por otro lado …»?", "options": ["Først … til slutt …", "På den ene siden … på den andre siden …", "Både … og …", "Enten … eller …"], "correct": 1, "explain": "Nyttig når du drøfter fordeler og ulemper." },
+    { "id": "q05", "text": "Hva betyr «guay» i Spania og «chévere» i deler av Latin-Amerika?", "options": ["Kult, bra", "Kjedelig", "Farlig", "Dyrt"], "correct": 0, "explain": "Slang varierer mellom landene." },
+    { "id": "q06", "text": "Hva er «el ciberacoso»?", "options": ["Et dataspill", "En nettbutikk", "Et virus", "Mobbing på nett"], "correct": 3, "explain": "«el acoso» betyr trakassering." },
+    { "id": "q07", "text": "Hva betyr «embarazada», et eksempel på en falsk venn?", "options": ["Flau", "Barnslig", "Gravid", "Brydd"], "correct": 2, "explain": "Flau heter «avergonzado» eller «avergonzada»." },
+    { "id": "q08", "text": "Hva betyr «descargar»?", "options": ["Å lade mobilen", "Å laste ned", "Å ringe", "Å skrive"], "correct": 1, "explain": "Å lade mobilen heter «cargar el móvil»." },
+    { "id": "q09", "text": "Hvilken institusjon arbeider for å fremme spansk språk og kultur i verden?", "options": ["Instituto Cervantes", "Real Madrid", "El Corte Inglés", "Zara"], "correct": 0, "explain": "Instituttet er oppkalt etter forfatteren Miguel de Cervantes." },
+    { "id": "q10", "text": "Hva heter datamaskinen i Spania?", "options": ["el móvil", "la computadora", "el ordenador", "el celular"], "correct": 2, "explain": "I Latin-Amerika heter den «la computadora»." }
+  ],
+  "mindmap": {
+    "label": "Ungdom og medier",
+    "children": [
+      { "label": "Ord", "children": [
+        { "label": "móvil / celular" },
+        { "label": "subir, compartir" },
+        { "label": "descargar" }
+      ] },
+      { "label": "Meninger", "children": [
+        { "label": "ventaja / desventaja" },
+        { "label": "Por un lado … por otro" },
+        { "label": "En mi opinión" }
+      ] },
+      { "label": "Temaer", "children": [
+        { "label": "Skjermtid" },
+        { "label": "ciberacoso" },
+        { "label": "privacidad" },
+        { "label": "Slang: guay, chévere" }
+      ] },
+      { "label": "Lesestrategier", "children": [
+        { "label": "Skumlesing" },
+        { "label": "palabras transparentes" },
+        { "label": "falsos amigos" },
+        { "label": "Sammenheng" }
+      ] },
+      { "label": "Digitale ressurser", "children": [
+        { "label": "Instituto Cervantes" },
+        { "label": "RTVE" },
+        { "label": "Maskinoversettelse med kritisk blikk" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Mange ord for teknologi varierer mellom Spania og Latin-Amerika.", "correct": true, "explain": "For eksempel «el móvil» og «el celular»." },
+      { "id": "m02", "type": "sant-usant", "text": "Ord som «información» og «tecnología» er vanskelige å kjenne igjen for nordmenn.", "correct": false, "explain": "Slike ord kalles «palabras transparentes» fordi de er lette å forstå." },
+      { "id": "m03", "type": "sant-usant", "text": "«subir una foto» betyr å legge ut et bilde.", "correct": true, "explain": "«subir» betyr egentlig å gå opp eller laste opp." },
+      { "id": "m04", "type": "sant-usant", "text": "Man bør slå opp hvert eneste ord når man leser en spansk tekst.", "correct": false, "explain": "Det er bedre å slå opp de viktigste ordene og gjette resten ut fra sammenhengen." },
+      { "id": "m05", "type": "flervalg", "text": "Hva betyr «la desventaja»?", "options": ["Fordelen", "Ulempen", "Meldingen", "Mobilen"], "correct": 1, "explain": "Fordelen heter «la ventaja»." },
+      { "id": "m06", "type": "flervalg", "text": "Hva betyr «Paso dos horas al día con el móvil»?", "options": ["Jeg bruker to timer om dagen på mobilen", "Jeg har to mobiler", "Mobilen koster to euro", "Jeg ringer to ganger om dagen"], "correct": 0, "explain": "«pasar tiempo» betyr å bruke tid." },
+      { "id": "m07", "type": "flervalg", "text": "Hva betyr «la privacidad»?", "options": ["Livet i byen", "Et privat selskap", "Personvernet, privatlivet", "En privat skole"], "correct": 2, "explain": "Personvern handler om å beskytte privatlivet." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

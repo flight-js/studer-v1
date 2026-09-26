@@ -1,0 +1,83 @@
+{
+  "id": "kunst-og-kultur",
+  "fagId": "spansk-10",
+  "trinnId": "10",
+  "name": "Kunst og kultur",
+  "intro": "Kjent kunst, arkitektur, litteratur, musikk og film fra Spania og Latin-Amerika, og hvordan du presenterer et kunstverk og sier hva du synes på spansk.",
+  "kompetansemaal": [9],
+  "sammendrag": "## Kunst\n\n- **Diego Velázquez** malte *Las Meninas* på 1600-tallet, et av verdens mest berømte malerier. Det henger i **Museo del Prado** i Madrid.\n- **Francisco de Goya** malte både kongelige portretter og mørke bilder av krig.\n- **Pablo Picasso** var med på å skape **kubismen**. Maleriet *Guernica* (1937) viser grusomhetene da den baskiske byen Guernica ble bombet under den spanske borgerkrigen.\n- **Salvador Dalí** er kjent for **surrealistiske** bilder, som maleriet med de smeltende klokkene.\n- **Frida Kahlo** fra Mexico malte mange sterke selvportretter, og **Diego Rivera** malte store veggmalerier om meksikansk historie.\n\n## Arkitektur\n\n- **Antoni Gaudí** tegnet **Sagrada Família** og **Park Güell** i Barcelona, med myke, fargerike former inspirert av naturen.\n- **La Alhambra** i Granada er et praktfullt palass fra tiden da muslimer styrte store deler av Spania.\n- I Latin-Amerika finnes imponerende byggverk fra urfolkskulturer, som inkabyen **Machu Picchu** i Peru og mayapyramiden **Chichén Itzá** i Mexico.\n\n## Litteratur\n\n- **Miguel de Cervantes** skrev *Don Quijote* (1605), om en ridder som kjemper mot vindmøller han tror er kjemper.\n- **Gabriel García Márquez** fra Colombia skrev *Hundre års ensomhet* og er kjent for **magisk realisme**, der magiske hendelser skjer i en realistisk verden. Han fikk Nobels litteraturpris i 1982.\n- **Pablo Neruda** fra Chile skrev kjærlighetsdikt og fikk Nobelprisen i 1971, og **Isabel Allende** fra Chile er en av verdens mest leste spanskspråklige forfattere.\n\n## Musikk og dans\n\n- **Flamenco** fra Andalucía består av sang, gitar og dans.\n- **Tango** kommer fra Argentina og Uruguay, **salsa** har røtter i Karibia, og **mariachi** er tradisjonell musikk fra Mexico.\n- I dag er **reggaeton** og **latinpop** populært over hele verden, med artister fra Spania, Colombia, Puerto Rico og mange andre land.\n\n## Film\n\n**Pedro Almodóvar** er Spanias mest kjente filmskaper, og **Guillermo del Toro** fra Mexico har vunnet Oscar for beste film. Pixar-filmen *Coco* handler om Día de Muertos i Mexico.\n\n## Si hva du synes\n\n- **Mi canción favorita es …** – Yndlingssangen min er …\n- **El libro trata de …** – Boka handler om …\n- **Me gusta porque …** – Jeg liker det fordi …\n- **Me parece emocionante / divertido / aburrido / triste.** – Jeg synes det er spennende / morsomt / kjedelig / trist.\n\nNår du presenterer et kunstverk, kan du fortelle hvem som har laget det, når det ble laget, og hva det handler om. Til slutt sier du hva du selv synes, med begrunnelse.",
+  "flashcards": [
+    { "term": "Velázquez – Las Meninas", "def": "Berømt maleri fra 1600-tallet i Museo del Prado" },
+    { "term": "Goya", "def": "Spansk maler av kongelige portretter og krigsbilder" },
+    { "term": "Picasso – Guernica", "def": "Maleri om bombingen av Guernica i 1937" },
+    { "term": "Dalí", "def": "Surrealistisk maler, kjent for smeltende klokker" },
+    { "term": "Frida Kahlo", "def": "Meksikansk maler kjent for selvportretter" },
+    { "term": "Gaudí", "def": "Arkitekten bak Sagrada Família og Park Güell" },
+    { "term": "la Alhambra", "def": "Praktfullt palass i Granada fra den muslimske tiden" },
+    { "term": "Don Quijote", "def": "Roman av Cervantes fra 1605" },
+    { "term": "García Márquez", "def": "Colombiansk forfatter av Hundre års ensomhet, magisk realisme" },
+    { "term": "Pablo Neruda", "def": "Chilensk poet, Nobelpris i 1971" },
+    { "term": "el flamenco", "def": "Sang, gitar og dans fra Andalucía" },
+    { "term": "el tango", "def": "Dans og musikk fra Argentina og Uruguay" },
+    { "term": "el mariachi", "def": "Tradisjonell musikk fra Mexico" },
+    { "term": "Guillermo del Toro", "def": "Meksikansk filmskaper som har vunnet Oscar for beste film" },
+    { "term": "El libro trata de …", "def": "Boka handler om …" },
+    { "term": "Me parece …", "def": "Jeg synes det er …" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvilket maleri av Picasso viser bombingen av en baskisk by i 1937?", "options": ["Las Meninas", "Guernica", "Kysset", "Skrik"], "correct": 1, "explain": "Maleriet henger i Museo Reina Sofía i Madrid." },
+    { "id": "q02", "text": "Hvilken kunstner er kjent for surrealistiske bilder med smeltende klokker?", "options": ["Velázquez", "Goya", "Picasso", "Salvador Dalí"], "correct": 3, "explain": "Surrealismen skildrer drømmeaktige verdener." },
+    { "id": "q03", "text": "Hvem skrev «Hundre års ensomhet»?", "options": ["Gabriel García Márquez", "Pablo Neruda", "Isabel Allende", "Miguel de Cervantes"], "correct": 0, "explain": "Romanen handler om familien Buendía i den oppdiktede byen Macondo." },
+    { "id": "q04", "text": "Hvilket land kommer mariachi-musikken fra?", "options": ["Spania", "Argentina", "Mexico", "Cuba"], "correct": 2, "explain": "Mariachi-musikere har ofte store hatter og tradisjonelle drakter." },
+    { "id": "q05", "text": "Hvor ligger Alhambra, et praktfullt palass fra den muslimske tiden i Spania?", "options": ["Madrid", "Barcelona", "Bilbao", "Granada"], "correct": 3, "explain": "Alhambra ligger i Andalucía i Sør-Spania." },
+    { "id": "q06", "text": "Hvilken meksikansk kunstner malte mange selvportretter?", "options": ["Salvador Dalí", "Frida Kahlo", "Joan Miró", "Pablo Picasso"], "correct": 1, "explain": "Frida Kahlo er et ikon i Mexico." },
+    { "id": "q07", "text": "Hvilken dans kommer fra Argentina og Uruguay?", "options": ["Tango", "Flamenco", "Salsa", "Jota"], "correct": 0, "explain": "Flamenco kommer fra Spania." },
+    { "id": "q08", "text": "Hvilken Pixar-film handler om Día de Muertos i Mexico?", "options": ["Encanto", "Frost", "Coco", "Toy Story"], "correct": 2, "explain": "Filmen viser tradisjonene med ofrendas og ringblomster." },
+    { "id": "q09", "text": "Hva betyr «El libro trata de una familia»?", "options": ["Familien leser boka", "Boka er skrevet av en familie", "Familien kjøper boka", "Boka handler om en familie"], "correct": 3, "explain": "«tratar de» betyr å handle om." },
+    { "id": "q10", "text": "Hvilken chilensk poet fikk Nobels litteraturpris i 1971?", "options": ["Pablo Neruda", "Federico García Lorca", "Gabriel García Márquez", "Miguel de Cervantes"], "correct": 0, "explain": "Neruda er kjent for sine kjærlighetsdikt." }
+  ],
+  "mindmap": {
+    "label": "Kunst og kultur",
+    "children": [
+      { "label": "Kunst", "children": [
+        { "label": "Velázquez og Goya" },
+        { "label": "Picasso og Dalí" },
+        { "label": "Frida Kahlo" }
+      ] },
+      { "label": "Arkitektur", "children": [
+        { "label": "Gaudí" },
+        { "label": "Alhambra" },
+        { "label": "Machu Picchu og Chichén Itzá" }
+      ] },
+      { "label": "Litteratur", "children": [
+        { "label": "Don Quijote" },
+        { "label": "García Márquez" },
+        { "label": "Neruda og Allende" }
+      ] },
+      { "label": "Musikk og film", "children": [
+        { "label": "flamenco, tango, mariachi" },
+        { "label": "reggaeton og latinpop" },
+        { "label": "Almodóvar og del Toro" }
+      ] },
+      { "label": "Si hva du synes", "children": [
+        { "label": "Me gusta porque …" },
+        { "label": "El libro trata de …" },
+        { "label": "Me parece …" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "«Don Quijote» regnes som en av verdens første moderne romaner.", "correct": true, "explain": "Den kom ut i 1605." },
+      { "id": "m02", "type": "sant-usant", "text": "Flamenco kommer fra Mexico.", "correct": false, "explain": "Flamenco kommer fra Andalucía i Sør-Spania." },
+      { "id": "m03", "type": "sant-usant", "text": "Museo del Prado i Madrid er et av verdens mest kjente kunstmuseer.", "correct": true, "explain": "Der henger blant annet «Las Meninas»." },
+      { "id": "m04", "type": "sant-usant", "text": "Antoni Gaudí var en berømt fotballspiller.", "correct": false, "explain": "Gaudí var arkitekt." },
+      { "id": "m05", "type": "flervalg", "text": "Hva kalles stilen der magiske ting skjer i en realistisk verden?", "options": ["Impresjonisme", "Magisk realisme", "Kubisme", "Romantikk"], "correct": 1, "explain": "García Márquez er den mest kjente forfatteren i denne stilen." },
+      { "id": "m06", "type": "flervalg", "text": "Hva betyr «Me parece emocionante»?", "options": ["Jeg synes det er spennende", "Det er kjedelig", "Jeg er lei meg", "Det er dyrt"], "correct": 0, "explain": "«emocionante» betyr spennende." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilken filmskaper er fra Mexico?", "options": ["Pedro Almodóvar", "Steven Spielberg", "Guillermo del Toro", "Luc Besson"], "correct": 2, "explain": "Almodóvar er fra Spania." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

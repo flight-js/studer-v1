@@ -28,6 +28,17 @@ Læreplan: [ENG03-02](https://www.udir.no/lk20/eng03-02/kompetansemaal-og-vurder
 - 🟡 **Persuasion and rhetoric** – utkast (384 ord · 15 kort · 10 quiz · 15 i miniprøve · 25 noder i tankekart)
 - 🟡 **Self-presentation online** – utkast (407 ord · 15 kort · 10 quiz · 15 i miniprøve · 24 noder i tankekart)
 
+## Fransk (10) – 6 av 6 temaer ferdig
+
+Læreplan: [FSP01-04](https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurdering/kv965)
+
+- 🟡 **Reise og ferie** – utkast (421 ord · 17 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+- 🟡 **Helse og kropp** – utkast (394 ord · 17 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+- 🟡 **Framtid, planer og yrker** – utkast (378 ord · 16 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Ungdom, medier og læringsstrategier** – utkast (403 ord · 16 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+- 🟡 **Kunst og kultur** – utkast (399 ord · 15 kort · 10 quiz · 15 i miniprøve · 24 noder i tankekart)
+- 🟡 **Miljø og samfunn** – utkast (365 ord · 16 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+
 ## KRLE (10) – 7 av 7 temaer ferdig
 
 Læreplan: [RLE01-04](https://www.udir.no/lk20/rle01-04/kompetansemaal-og-vurdering/kv1145)
@@ -99,6 +110,29 @@ Læreplan: [SAF01-05](https://www.udir.no/lk20/saf01-05/kompetansemaal-og-vurder
 - 🟡 **Mangfold, fordommer og framstillinger** – utkast (438 ord · 15 kort · 10 quiz · 15 i miniprøve · 24 noder i tankekart)
 - 🟡 **Makt, medier og digital debatt** – utkast (382 ord · 15 kort · 10 quiz · 15 i miniprøve · 27 noder i tankekart)
 
+## Spansk (10) – 6 av 6 temaer ferdig
+
+Læreplan: [FSP01-04](https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurdering/kv965)
+
+- 🟡 **Reise og ferie** – utkast (395 ord · 16 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Helse og kropp** – utkast (381 ord · 17 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+- 🟡 **Framtid, planer og yrker** – utkast (405 ord · 16 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Ungdom, medier og læringsstrategier** – utkast (410 ord · 16 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+- 🟡 **Kunst og kultur** – utkast (386 ord · 16 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Miljø og samfunn** – utkast (360 ord · 16 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+
+## Tysk (10) – 6 av 6 temaer ferdig
+
+Læreplan: [FSP01-04](https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurdering/kv965)
+
+- 🟡 **Reise og ferie** – utkast (358 ord · 17 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Helse og kropp** – utkast (381 ord · 17 kort · 10 quiz · 15 i miniprøve · 24 noder i tankekart)
+- 🟡 **Framtid, planer og yrker** – utkast (387 ord · 16 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Ungdom, medier og læringsstrategier** – utkast (388 ord · 16 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+- 🟡 **Kunst og kultur** – utkast (420 ord · 15 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+- 🔴 **Miljø og samfunn** – sjekkes (370 ord · 16 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+  - Sjekk: Andelen innbyggere med innvandrerbakgrunn (omtrent hver fjerde) og beskrivelsen av tysk energipolitikk bør sjekkes mot ferske tall.
+
 ## Engelsk (8) – 6 av 6 temaer ferdig
 
 Læreplan: [ENG01-06](https://www.udir.no/lk20/eng01-06/kompetansemaal-og-vurdering/kv1033)
@@ -119,6 +153,17 @@ Læreplan: [ENG03-02](https://www.udir.no/lk20/eng03-02/kompetansemaal-og-vurder
 - 🟡 **Music and lyrics** – utkast (406 ord · 15 kort · 10 quiz · 15 i miniprøve · 24 noder i tankekart)
 - 🟡 **Feedback and revision** – utkast (390 ord · 15 kort · 10 quiz · 15 i miniprøve · 25 noder i tankekart)
 - 🟡 **Privacy, copyright and your online identity** – utkast (382 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+
+## Fransk (8) – 6 av 6 temaer ferdig
+
+Læreplan: [FSP01-04](https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurdering/kv965)
+
+- 🟡 **Hilsener og presentasjon** – utkast (390 ord · 16 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+- 🟡 **Tall, dager og klokka** – utkast (395 ord · 17 kort · 10 quiz · 15 i miniprøve · 24 noder i tankekart)
+- 🟡 **Familie og venner** – utkast (393 ord · 16 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+- 🟡 **Skole og fritid** – utkast (360 ord · 16 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Grammatikk – grunnlaget** – utkast (408 ord · 16 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+- 🟡 **Frankrike og den fransktalende verden** – utkast (382 ord · 15 kort · 10 quiz · 15 i miniprøve · 25 noder i tankekart)
 
 ## KRLE (8) – 6 av 6 temaer ferdig
 
@@ -185,6 +230,28 @@ Læreplan: [SAF01-05](https://www.udir.no/lk20/saf01-05/kompetansemaal-og-vurder
 - 🔴 **Digitale spor, personvern og samfunnsdebatt** – sjekkes (417 ord · 15 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
   - Sjekk: Aldersgrensen for samtykke (13 år) kan bli endret hvis foreslått aldersgrense på 15 år for sosiale medier vedtas – sjekk gjeldende regler.
 
+## Spansk (8) – 6 av 6 temaer ferdig
+
+Læreplan: [FSP01-04](https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurdering/kv965)
+
+- 🟡 **Hilsener og presentasjon** – utkast (382 ord · 16 kort · 10 quiz · 15 i miniprøve · 24 noder i tankekart)
+- 🟡 **Tall, dager og klokka** – utkast (378 ord · 17 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+- 🟡 **Familie og venner** – utkast (393 ord · 16 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+- 🟡 **Skole og fritid** – utkast (360 ord · 17 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+- 🟡 **Grammatikk – grunnlaget** – utkast (359 ord · 15 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+- 🟡 **Spania og Latin-Amerika** – utkast (366 ord · 16 kort · 10 quiz · 15 i miniprøve · 26 noder i tankekart)
+
+## Tysk (8) – 6 av 6 temaer ferdig
+
+Læreplan: [FSP01-04](https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurdering/kv965)
+
+- 🟡 **Hilsener og presentasjon** – utkast (368 ord · 16 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+- 🟡 **Tall, dager og klokka** – utkast (387 ord · 16 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Familie og venner** – utkast (356 ord · 16 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+- 🟡 **Skole og fritid** – utkast (316 ord · 16 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+- 🟡 **Grammatikk – grunnlaget** – utkast (365 ord · 16 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+- 🟡 **Tyskspråklige land og kultur** – utkast (336 ord · 15 kort · 10 quiz · 15 i miniprøve · 25 noder i tankekart)
+
 ## Engelsk (9) – 6 av 6 temaer ferdig
 
 Læreplan: [ENG01-06](https://www.udir.no/lk20/eng01-06/kompetansemaal-og-vurdering/kv1033)
@@ -205,6 +272,17 @@ Læreplan: [ENG03-02](https://www.udir.no/lk20/eng03-02/kompetansemaal-og-vurder
 - 🟡 **Point of view, sender and bias** – utkast (381 ord · 15 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
 - 🟡 **Cultures of communication** – utkast (416 ord · 15 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
 - 🟡 **Reliable sources and honest use** – utkast (397 ord · 15 kort · 10 quiz · 15 i miniprøve · 25 noder i tankekart)
+
+## Fransk (9) – 6 av 6 temaer ferdig
+
+Læreplan: [FSP01-04](https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurdering/kv965)
+
+- 🟡 **Mat og drikke** – utkast (384 ord · 17 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+- 🟡 **Hjemmet og hverdagen** – utkast (367 ord · 16 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+- 🟡 **Byen og veibeskrivelse** – utkast (414 ord · 16 kort · 10 quiz · 15 i miniprøve · 24 noder i tankekart)
+- 🟡 **Klær og handel** – utkast (424 ord · 17 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+- 🟡 **Å fortelle om fortiden – passé composé** – utkast (356 ord · 17 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+- 🟡 **Høytider og tradisjoner** – utkast (362 ord · 16 kort · 10 quiz · 15 i miniprøve · 24 noder i tankekart)
 
 ## KRLE (9) – 6 av 6 temaer ferdig
 
@@ -267,6 +345,28 @@ Læreplan: [SAF01-05](https://www.udir.no/lk20/saf01-05/kompetansemaal-og-vurder
 - 🟡 **Holocaust og andre folkemord** – utkast (375 ord · 15 kort · 10 quiz · 15 i miniprøve · 24 noder i tankekart)
 - 🟡 **Fornorsking, samer og nasjonale minoriteter** – utkast (402 ord · 15 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
 - 🟡 **Menneskerettigheter og internasjonalt samarbeid** – utkast (387 ord · 15 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+
+## Spansk (9) – 6 av 6 temaer ferdig
+
+Læreplan: [FSP01-04](https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurdering/kv965)
+
+- 🟡 **Mat og drikke** – utkast (392 ord · 17 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+- 🟡 **Hjemmet og hverdagen** – utkast (373 ord · 16 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+- 🟡 **Byen og veibeskrivelse** – utkast (406 ord · 16 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+- 🟡 **Klær og handel** – utkast (424 ord · 17 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+- 🟡 **Å fortelle om fortiden** – utkast (365 ord · 16 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+- 🟡 **Høytider og tradisjoner** – utkast (384 ord · 16 kort · 10 quiz · 15 i miniprøve · 24 noder i tankekart)
+
+## Tysk (9) – 6 av 6 temaer ferdig
+
+Læreplan: [FSP01-04](https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurdering/kv965)
+
+- 🟡 **Mat og drikke** – utkast (372 ord · 16 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+- 🟡 **Hjemmet og hverdagen** – utkast (350 ord · 15 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+- 🟡 **Byen og veibeskrivelse** – utkast (372 ord · 16 kort · 10 quiz · 15 i miniprøve · 24 noder i tankekart)
+- 🟡 **Klær og handel** – utkast (381 ord · 16 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+- 🟡 **Å fortelle om fortiden – Perfekt** – utkast (362 ord · 16 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Høytider og tradisjoner** – utkast (348 ord · 16 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
 
 ## Kjemi 1 (vg2) – 11 av 11 temaer ferdig
 
