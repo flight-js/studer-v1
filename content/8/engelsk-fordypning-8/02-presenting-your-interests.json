@@ -1,0 +1,85 @@
+{
+  "id": "presenting-your-interests",
+  "fagId": "engelsk-fordypning-8",
+  "trinnId": "8",
+  "name": "Presenting your interests",
+  "intro": "How to plan, structure and give a presentation in English about a topic you choose yourself, with good visual aids and confident speaking.",
+  "kompetansemaal": [9, 2],
+  "sammendrag": "## Sharing what you care about\n\nIn this subject you will often **present** topics you choose yourself: a hobby, a sport, a band, a game, an animal or a place you love. When you care about your topic, it is easier to engage your audience. Still, a good presentation needs **planning**.\n\n## Before you start\n\n- **Narrow your topic.** “Football” is too wide. “Why football is the world's most popular sport” is easier to cover well.\n- **Think about your audience.** What do they already know? What will interest them?\n- **Find good sources** and take notes in your own words.\n- **Decide your purpose.** Do you want to inform, explain, tell a story or persuade?\n\n## Structure\n\nA clear presentation has three parts:\n\n1. **Introduction**: Catch the audience's attention with a **hook** – a question, a surprising fact or a short story. Tell them what you will talk about.\n2. **Main part**: Present two to four main points in a logical order. Use examples, pictures or short clips.\n3. **Conclusion**: Sum up the main points and end with something memorable, for example a question or a personal reflection.\n\nUse **linking words** to guide your audience: first, next, another reason is, for example, however, finally, to sum up.\n\n## Visual aids\n\nSlides, pictures, videos and objects can make your presentation clearer. Good slides have\n\n- few words – **key words**, not full sentences\n- large, readable text\n- relevant pictures with sources\n- a consistent design\n\nRemember: the slides support you. They should not do the talking for you.\n\n## Speaking tips\n\n- **Practise** out loud several times, and time yourself.\n- Use **cue cards** with key words instead of reading from a manuscript.\n- Look at your audience and keep **eye contact**.\n- Speak **clearly** and not too fast. **Pause** after important points.\n- Use your **body language**: stand up straight and use your hands naturally.\n- Be ready for **questions** at the end.\n\n## Other ways to present\n\nYou can also present through a **podcast**, a **video**, a **blog post** or a **poster**. The same principles apply: know your audience, have a clear structure and make it engaging. Whatever format you choose, it is fine to be a little nervous – good preparation is the best cure.",
+  "flashcards": [
+    { "term": "Presentation", "def": "A talk where you share information about a topic with an audience." },
+    { "term": "Narrow a topic", "def": "Make a wide topic smaller and more specific." },
+    { "term": "Audience", "def": "The people who listen to or watch your presentation." },
+    { "term": "Purpose", "def": "What you want to achieve: inform, explain, tell a story or persuade." },
+    { "term": "Hook", "def": "An opening that catches the audience's attention." },
+    { "term": "Main points", "def": "The two to four most important ideas in the main part." },
+    { "term": "Conclusion", "def": "The ending, where you sum up and leave the audience with something memorable." },
+    { "term": "Linking words", "def": "Words that guide the audience: first, however, finally, to sum up." },
+    { "term": "Visual aids", "def": "Slides, pictures, videos or objects that support your talk." },
+    { "term": "Key words", "def": "Short words on slides or cards instead of full sentences." },
+    { "term": "Cue cards", "def": "Small cards with key words that help you remember what to say." },
+    { "term": "Eye contact", "def": "Looking at your audience to connect with them." },
+    { "term": "Pace", "def": "How fast you speak. Not too fast, with pauses after important points." },
+    { "term": "Body language", "def": "How you use your posture, face and hands when you speak." },
+    { "term": "Q&A", "def": "Questions and answers, often at the end of a presentation." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Why should you narrow your topic?", "options": ["To make it clearer and easier to cover well", "To make the presentation longer", "To avoid using sources", "Because wide topics are not allowed"], "correct": 0, "explain": "A specific topic lets you go deeper in a short time." },
+    { "id": "q02", "text": "What is a good way to start a presentation?", "options": ["Reading your slides word for word", "Saying “I don't know much about this”", "Asking a question or sharing a surprising fact", "Showing the last slide first"], "correct": 2, "explain": "A hook makes the audience curious." },
+    { "id": "q03", "text": "How many main points should a short presentation usually have?", "options": ["One", "Two to four", "Ten or more", "As many as possible"], "correct": 1, "explain": "A few well-explained points are easier to remember." },
+    { "id": "q04", "text": "What should good slides have?", "options": ["Long paragraphs", "Tiny text", "No pictures", "Few words and large, readable text"], "correct": 3, "explain": "The audience should listen to you, not read long texts." },
+    { "id": "q05", "text": "What are cue cards?", "options": ["Tickets to a show", "Small cards with key words to help you remember", "Slides with pictures", "A type of handout"], "correct": 1, "explain": "Cue cards help you speak freely instead of reading." },
+    { "id": "q06", "text": "Which of these is a linking word?", "options": ["Football", "Slides", "Audience", "However"], "correct": 3, "explain": "“However” shows a contrast between two ideas." },
+    { "id": "q07", "text": "What should the conclusion do?", "options": ["Sum up the main points and end with something memorable", "Introduce a completely new topic", "Apologise for the presentation", "Only list your sources"], "correct": 0, "explain": "A strong ending helps the audience remember your message." },
+    { "id": "q08", "text": "Why is eye contact important?", "options": ["It makes you speak faster", "It is required by law", "It helps you connect with the audience", "It makes the presentation shorter"], "correct": 2, "explain": "Looking at people makes them feel included." },
+    { "id": "q09", "text": "What is the purpose of a persuasive presentation?", "options": ["To tell a funny story", "To list facts only", "To describe a picture", "To convince the audience of something"], "correct": 3, "explain": "Persuasive presentations use arguments to change opinions." },
+    { "id": "q10", "text": "What should you think about when you consider your audience?", "options": ["What they already know and what will interest them", "What they are wearing", "How tall they are", "Nothing at all"], "correct": 0, "explain": "Adapting to your audience makes your presentation more engaging." }
+  ],
+  "mindmap": {
+    "label": "Presenting your interests",
+    "children": [
+      { "label": "Planning", "children": [
+        { "label": "Narrow topic" },
+        { "label": "Audience" },
+        { "label": "Purpose" },
+        { "label": "Sources" }
+      ] },
+      { "label": "Structure", "children": [
+        { "label": "Introduction and hook" },
+        { "label": "Main points" },
+        { "label": "Conclusion" },
+        { "label": "Linking words" }
+      ] },
+      { "label": "Visual aids", "children": [
+        { "label": "Few words" },
+        { "label": "Readable text" },
+        { "label": "Pictures with sources" }
+      ] },
+      { "label": "Speaking", "children": [
+        { "label": "Practise" },
+        { "label": "Cue cards" },
+        { "label": "Eye contact" },
+        { "label": "Pace and pauses" }
+      ] },
+      { "label": "Other formats", "children": [
+        { "label": "Podcast" },
+        { "label": "Video" },
+        { "label": "Blog or poster" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Your slides should contain your whole manuscript.", "correct": false, "explain": "Slides should only have key words and pictures." },
+      { "id": "m02", "type": "sant-usant", "text": "Practising out loud helps you time your presentation.", "correct": true, "explain": "You also discover where you need to improve." },
+      { "id": "m03", "type": "sant-usant", "text": "A podcast can also be a way to present a topic.", "correct": true, "explain": "The same principles of structure and audience apply." },
+      { "id": "m04", "type": "sant-usant", "text": "You don't need to show sources for pictures you use.", "correct": false, "explain": "Pictures are protected by copyright, so you must credit them." },
+      { "id": "m05", "type": "flervalg", "text": "Which linking words introduce the conclusion?", "options": ["First", "For example", "To sum up", "Another reason"], "correct": 2, "explain": "“To sum up” signals that you are ending." },
+      { "id": "m06", "type": "flervalg", "text": "What does good pace mean?", "options": ["Not too fast, with pauses after important points", "As fast as possible", "Very quietly", "Without stopping at all"], "correct": 0, "explain": "Pauses give the audience time to think." },
+      { "id": "m07", "type": "flervalg", "text": "What is a hook?", "options": ["The last slide", "An opening that catches the audience's attention", "A type of cue card", "A question at the end"], "correct": 1, "explain": "A good hook can be a question, a fact or a short story." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

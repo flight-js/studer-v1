@@ -1,0 +1,62 @@
+{
+  "id": "engelsk-fordypning-9",
+  "trinnId": "9",
+  "name": "Engelsk fordypning",
+  "lareplan": {
+    "kode": "ENG03-02",
+    "url": "https://www.udir.no/lk20/eng03-02/kompetansemaal-og-vurdering/kv13",
+    "kompetansemaal": [
+      {
+        "nr": 1,
+        "tekst": "bruke engelsk muntlig og skriftlig i digital samhandling tilpasset formål, mottaker og situasjon"
+      },
+      {
+        "nr": 2,
+        "tekst": "skape ulike typer muntlige og skriftlige tekster om selvvalgte emner som presenterer, forteller eller forklarer gjennom ulike medier"
+      },
+      {
+        "nr": 3,
+        "tekst": "videreutvikle egne muntlige og skriftlige tekster på bakgrunn av tilbakemeldinger"
+      },
+      {
+        "nr": 4,
+        "tekst": "utforske og presentere innhold, form og formål i spill, film og musikk"
+      },
+      {
+        "nr": 5,
+        "tekst": "reflektere over variasjon i tenkesett, kommunikasjonsmønstre og samhandlingsformer i den virtuelle og virkelige verden"
+      },
+      {
+        "nr": 6,
+        "tekst": "skape digitale produkter som kombinerer ulike medietyper"
+      },
+      {
+        "nr": 7,
+        "tekst": "utforske og sammenligne språkbruk og virkemidler i ulike medier og sammenhenger"
+      },
+      {
+        "nr": 8,
+        "tekst": "utforske og reflektere over hvordan synsvinkel og avsender kan påvirke et budskap"
+      },
+      {
+        "nr": 9,
+        "tekst": "presentere selvvalgte interesseområder"
+      },
+      {
+        "nr": 10,
+        "tekst": "gjøre rede for egen rolle i ulike medier og reflektere kritisk over hvordan eleven framstiller seg selv og andre på nett"
+      },
+      {
+        "nr": 11,
+        "tekst": "bruke kilder på en kritisk og etterrettelig måte og følge regler for personvern og opphavsrett"
+      }
+    ]
+  },
+  "temaer": [
+    "film-language",
+    "storytelling-across-media",
+    "point-of-view-and-bias",
+    "cultures-of-communication",
+    "reliable-sources"
+  ]
+}

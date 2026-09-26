@@ -1,0 +1,86 @@
+{
+  "id": "feedback-and-revision",
+  "fagId": "engelsk-fordypning-8",
+  "trinnId": "8",
+  "name": "Feedback and revision",
+  "intro": "The writing process, how to give and receive useful feedback, and how to revise and edit your own oral and written English texts.",
+  "kompetansemaal": [3],
+  "sammendrag": "## Writing is a process\n\nGood texts are rarely perfect the first time. Most writers go through several stages, called the **writing process**:\n\n1. **Pre-writing**: brainstorm ideas, make a mind map and plan your structure.\n2. **Drafting**: write a first version without worrying too much about mistakes.\n3. **Getting feedback**: let someone read and comment on your text.\n4. **Revising**: improve content, structure and language.\n5. **Editing and proofreading**: correct spelling, grammar and punctuation.\n6. **Publishing**: share the final version.\n\nThe same process works for **oral texts** like presentations or podcasts: plan, rehearse, get feedback and improve.\n\n## Giving good feedback\n\nFeedback is most useful when it is **specific**, **kind** and **helpful**. A popular method is **“two stars and a wish”**: two things that work well and one thing to improve.\n\n- Instead of “Good text!”, say “Your introduction catches my attention because you start with a question.”\n- Instead of “Bad ending”, say “The ending feels a bit sudden. Could you add a sentence that sums up your main point?”\n- Focus on the **text**, not the person.\n\n## Receiving feedback\n\n- Listen or read carefully, and ask questions if something is unclear.\n- Don't take it personally – feedback is about the text.\n- You decide which advice to follow, but think about why the reader reacted the way they did.\n\n## Revising: bigger changes\n\nWhen you **revise**, you look at the whole text:\n\n- Is the **message** clear?\n- Is the **structure** logical, with an introduction, a main part and a conclusion?\n- Does each **paragraph** have one main idea and a **topic sentence**?\n- Are there good **linking words** between sentences and paragraphs?\n- Is the **language** varied? Replace repeated words with **synonyms**, and use precise verbs and adjectives.\n\n## Editing: smaller changes\n\nWhen you **edit**, you check the details:\n\n- **Spelling**: their/there/they're, your/you're, its/it's\n- **Grammar**: subject–verb agreement (she **goes**, not she go) and correct tense\n- **Punctuation** and **capital letters**: I, names, days, months and nationalities, like Monday and Norwegian\n\nReading your text **aloud** is a great way to discover mistakes. Spell checkers help, but they do not catch everything.\n\n## Using digital tools and AI\n\nDigital tools, including AI, can suggest improvements. But you must still decide what to change, make sure the text is really your own, and follow your school's rules.",
+  "flashcards": [
+    { "term": "Writing process", "def": "The stages of writing: pre-writing, drafting, feedback, revising, editing and publishing." },
+    { "term": "Pre-writing", "def": "Brainstorming and planning before you start writing." },
+    { "term": "Draft", "def": "A first or early version of a text." },
+    { "term": "Feedback", "def": "Comments from a reader about what works and what can be improved." },
+    { "term": "Two stars and a wish", "def": "Feedback with two positive comments and one suggestion." },
+    { "term": "Revising", "def": "Making bigger changes to content, structure and language." },
+    { "term": "Editing", "def": "Correcting details like spelling, grammar and punctuation." },
+    { "term": "Proofreading", "def": "A final careful check for small mistakes." },
+    { "term": "Topic sentence", "def": "A sentence that presents the main idea of a paragraph." },
+    { "term": "Paragraph", "def": "A group of sentences about one main idea." },
+    { "term": "Synonym", "def": "A word with the same or similar meaning, like big and large." },
+    { "term": "Subject–verb agreement", "def": "The verb must match the subject: she goes, they go." },
+    { "term": "Their / there / they're", "def": "Their = belonging to them, there = a place, they're = they are." },
+    { "term": "Its / it's", "def": "Its = belonging to it, it's = it is." },
+    { "term": "Reading aloud", "def": "A good way to discover mistakes in your own text." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "What happens in the drafting stage?", "options": ["You publish your text", "You correct spelling only", "You brainstorm ideas", "You write a first version"], "correct": 3, "explain": "In the draft, getting ideas down matters more than being perfect." },
+    { "id": "q02", "text": "Which comment is the most useful feedback?", "options": ["Good job!", "Your introduction works well because you start with a question", "I didn't like it", "Bad ending"], "correct": 1, "explain": "Specific feedback explains what works and why." },
+    { "id": "q03", "text": "What is the difference between revising and editing?", "options": ["Revising means bigger changes to content and structure, editing means checking details", "They mean the same", "Editing is done before writing", "Revising is only about spelling"], "correct": 0, "explain": "Revise first, then edit the details." },
+    { "id": "q04", "text": "What is “two stars and a wish”?", "options": ["A grading system", "A type of poem", "Two positive comments and one suggestion", "A way to start an essay"], "correct": 2, "explain": "The method keeps feedback both kind and useful." },
+    { "id": "q05", "text": "Which sentence is correct?", "options": ["She go to school every day.", "She going to school every day.", "She goes to school every day.", "She gone to school every day."], "correct": 2, "explain": "With he, she and it, the verb gets an -s in the present simple." },
+    { "id": "q06", "text": "Which sentence uses “their” correctly?", "options": ["Their going home.", "Put it over their.", "Their is a problem.", "The students forgot their books."], "correct": 3, "explain": "“Their” shows that something belongs to them." },
+    { "id": "q07", "text": "What is a topic sentence?", "options": ["The title of a text", "A sentence that presents the main idea of a paragraph", "The last sentence of a text", "A quotation"], "correct": 1, "explain": "It is often the first sentence of the paragraph." },
+    { "id": "q08", "text": "Why is reading your text aloud useful?", "options": ["It helps you discover mistakes", "It makes the text longer", "It replaces feedback", "It is required by the teacher"], "correct": 0, "explain": "You often hear mistakes that you do not see." },
+    { "id": "q09", "text": "How should you react to feedback?", "options": ["Ignore it", "Get angry", "Delete your text", "Listen carefully, ask questions and think about why the reader reacted that way"], "correct": 3, "explain": "Feedback is about the text, not about you as a person." },
+    { "id": "q10", "text": "What should you remember when using AI tools to improve a text?", "options": ["That AI is always right", "That you must decide what to change and make sure the text is your own", "That AI can write everything for you", "That school rules don't apply"], "correct": 1, "explain": "You are responsible for your own text." }
+  ],
+  "mindmap": {
+    "label": "Feedback and revision",
+    "children": [
+      { "label": "Writing process", "children": [
+        { "label": "Pre-writing" },
+        { "label": "Drafting" },
+        { "label": "Feedback" },
+        { "label": "Revising and editing" },
+        { "label": "Publishing" }
+      ] },
+      { "label": "Giving feedback", "children": [
+        { "label": "Specific" },
+        { "label": "Kind" },
+        { "label": "Two stars and a wish" }
+      ] },
+      { "label": "Receiving feedback", "children": [
+        { "label": "Listen" },
+        { "label": "Ask questions" },
+        { "label": "You decide" }
+      ] },
+      { "label": "Revising", "children": [
+        { "label": "Clear message" },
+        { "label": "Structure" },
+        { "label": "Topic sentences" },
+        { "label": "Varied language" }
+      ] },
+      { "label": "Editing", "children": [
+        { "label": "Spelling" },
+        { "label": "Grammar" },
+        { "label": "Punctuation" },
+        { "label": "Read aloud" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Good writers usually write a perfect text the first time.", "correct": false, "explain": "Most writers revise their texts several times." },
+      { "id": "m02", "type": "sant-usant", "text": "Spell checkers catch all mistakes.", "correct": false, "explain": "A spell checker will not notice if you write “there” instead of “their”." },
+      { "id": "m03", "type": "sant-usant", "text": "Feedback should focus on the text, not the person.", "correct": true, "explain": "This makes feedback easier to receive and use." },
+      { "id": "m04", "type": "sant-usant", "text": "The writing process can also be used for oral texts.", "correct": true, "explain": "Presentations and podcasts also improve with planning and feedback." },
+      { "id": "m05", "type": "flervalg", "text": "Which word is a synonym for “big”?", "options": ["Small", "Large", "Quick", "Old"], "correct": 1, "explain": "Synonyms help you avoid repeating the same word." },
+      { "id": "m06", "type": "flervalg", "text": "Which sentence uses the apostrophe correctly?", "options": ["It's a nice day.", "Its a nice day.", "Its' a nice day.", "It is' a nice day."], "correct": 0, "explain": "“It's” is short for “it is”." },
+      { "id": "m07", "type": "flervalg", "text": "Which of these words must start with a capital letter in English?", "options": ["school", "friend", "Norwegian", "apple"], "correct": 2, "explain": "Nationalities and languages always have a capital letter in English." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

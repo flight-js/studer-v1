@@ -1,0 +1,85 @@
+{
+  "id": "music-and-lyrics",
+  "fagId": "engelsk-fordypning-8",
+  "trinnId": "8",
+  "name": "Music and lyrics",
+  "intro": "How to explore content, form and purpose in songs, the literary devices songwriters use, genres, and how music works in films, games and adverts.",
+  "kompetansemaal": [4, 7],
+  "sammendrag": "## Why study music?\n\nMusic is everywhere: on streaming services, in films, games, adverts and on social media. Songs are **texts** with content, form and purpose, just like poems and stories. Exploring them helps you understand how language and music work together to create meaning and feelings.\n\n## Content: What is the song about?\n\nMany songs deal with universal **themes**: love, heartbreak, friendship, identity, growing up, protest and hope. Ask yourself: Who is the **speaker** in the song? Who is the song addressed to? What story or message does it tell?\n\n## Form: How is the song built?\n\n- **Verse**: tells the story and changes from verse to verse.\n- **Chorus**: repeats the main message and is often the catchiest part.\n- **Bridge**: a contrasting part, often near the end.\n- **Rhyme**: words with the same ending sound (night – light).\n- **Rhythm**: the beat and flow of the words.\n- **Repetition**: repeating words or lines makes them memorable and emphasises the message.\n\n## Language and literary devices\n\nSongwriters use the same devices as poets:\n\n- **Metaphor**: saying something is something else (“You are my sunshine”).\n- **Simile**: comparing with “like” or “as” (“She runs like the wind”).\n- **Alliteration**: repeating the first sound (“big, bright balloons”).\n- **Imagery**: words that create pictures in your mind.\n- **Slang and informal language**, which can make a song feel personal and real.\n\n## Purpose: Why was the song made?\n\nSongs can **entertain**, **express feelings**, **tell stories**, **protest** or **sell** something. **Protest songs** have been important in history. In the 1960s, songs like Bob Dylan's *Blowin' in the Wind* became anthems for the civil rights and peace movements. Today, artists still use music to speak about racism, mental health and climate change.\n\n## Genres\n\nDifferent **genres** have their own typical features: **pop** (catchy choruses), **hip hop** (rhythm, rhyme and wordplay, often about life and society), **rock**, **country** (storytelling), **R&B** and **electronic music**. Genres often mix.\n\n## Music in other media\n\nMusic is used in **films** and **games** to build mood and tension, and in **adverts** to make products memorable. A **music video** adds pictures and often a story to the song.\n\n## How to analyse a song\n\n1. Listen several times and read the lyrics.\n2. Describe the content: theme, speaker and message.\n3. Look at the form and the language devices.\n4. Discuss the purpose and how the music and lyrics work together.\n5. Give your own opinion with reasons.",
+  "flashcards": [
+    { "term": "Speaker", "def": "The voice or character who talks in the lyrics." },
+    { "term": "Theme", "def": "What a song is about on a deeper level, like love or identity." },
+    { "term": "Verse", "def": "The part of a song that tells the story and changes each time." },
+    { "term": "Chorus", "def": "The repeated part with the main message, often the catchiest." },
+    { "term": "Bridge", "def": "A contrasting part of a song, often near the end." },
+    { "term": "Rhyme", "def": "Words with the same ending sound, like night and light." },
+    { "term": "Rhythm", "def": "The beat and flow of words and music." },
+    { "term": "Repetition", "def": "Repeating words or lines to make them memorable." },
+    { "term": "Metaphor", "def": "Saying something is something else: “You are my sunshine”." },
+    { "term": "Simile", "def": "A comparison with like or as: “She runs like the wind”." },
+    { "term": "Alliteration", "def": "Repeating the first sound in several words." },
+    { "term": "Imagery", "def": "Words that create pictures in your mind." },
+    { "term": "Protest song", "def": "A song that criticises something in society." },
+    { "term": "Genre", "def": "A type of music with typical features, like pop, hip hop or country." },
+    { "term": "Music video", "def": "A video that adds pictures and often a story to a song." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "What is the chorus of a song?", "options": ["The first line", "The instrumental part", "The part that repeats the main message and is often the catchiest", "The last word"], "correct": 2, "explain": "The chorus is usually what people remember and sing along to." },
+    { "id": "q02", "text": "Which line contains a simile?", "options": ["She runs like the wind", "The city never sleeps", "Big, bright balloons", "I'm on top of the world"], "correct": 0, "explain": "A simile uses “like” or “as” to compare." },
+    { "id": "q03", "text": "What is alliteration?", "options": ["Words that rhyme at the end of lines", "A comparison using like or as", "A repeated chorus", "Repeating the first sound in several words"], "correct": 3, "explain": "“Big, bright balloons” is an example." },
+    { "id": "q04", "text": "What is a protest song?", "options": ["A song about love", "A song that criticises something in society", "A song for children", "A song without lyrics"], "correct": 1, "explain": "Protest songs were important in the civil rights movement." },
+    { "id": "q05", "text": "Why do songwriters use repetition?", "options": ["To make lines memorable and emphasise the message", "Because they run out of ideas", "To make the song shorter", "To avoid rhyme"], "correct": 0, "explain": "Repetition makes the message stick." },
+    { "id": "q06", "text": "What is a metaphor?", "options": ["A comparison with like or as", "A song genre", "Saying something is something else", "A long verse"], "correct": 2, "explain": "“You are my sunshine” describes a person as the sun." },
+    { "id": "q07", "text": "Which genre is known for rhythm, rhyme and wordplay about life and society?", "options": ["Country", "Hip hop", "Classical", "Opera"], "correct": 1, "explain": "Hip hop lyrics often tell stories about everyday life and society." },
+    { "id": "q08", "text": "What is the speaker in a song?", "options": ["The loudspeaker", "The producer", "The person who buys the song", "The voice or character that talks in the lyrics"], "correct": 3, "explain": "The speaker is not always the same as the singer." },
+    { "id": "q09", "text": "How is music often used in films and games?", "options": ["To replace the dialogue completely", "To make the film shorter", "To build mood and tension", "To show the credits"], "correct": 2, "explain": "Music tells us how to feel about what we see." },
+    { "id": "q10", "text": "What is the first step when analysing a song?", "options": ["Listen several times and read the lyrics", "Write your opinion", "Look up the singer's age", "Count the words"], "correct": 0, "explain": "You need to know the song well before you can analyse it." }
+  ],
+  "mindmap": {
+    "label": "Music and lyrics",
+    "children": [
+      { "label": "Content", "children": [
+        { "label": "Themes" },
+        { "label": "Speaker" },
+        { "label": "Message" }
+      ] },
+      { "label": "Form", "children": [
+        { "label": "Verse, chorus, bridge" },
+        { "label": "Rhyme" },
+        { "label": "Rhythm" },
+        { "label": "Repetition" }
+      ] },
+      { "label": "Devices", "children": [
+        { "label": "Metaphor" },
+        { "label": "Simile" },
+        { "label": "Alliteration" },
+        { "label": "Imagery" }
+      ] },
+      { "label": "Purpose", "children": [
+        { "label": "Entertain" },
+        { "label": "Express feelings" },
+        { "label": "Protest" },
+        { "label": "Sell" }
+      ] },
+      { "label": "Genres and media", "children": [
+        { "label": "Pop, hip hop, rock, country" },
+        { "label": "Films and games" },
+        { "label": "Music videos" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Songs can be analysed as texts, just like poems.", "correct": true, "explain": "Songs have content, form and purpose." },
+      { "id": "m02", "type": "sant-usant", "text": "The bridge is always the first part of a song.", "correct": false, "explain": "The bridge usually comes near the end." },
+      { "id": "m03", "type": "sant-usant", "text": "“Night” and “light” are an example of rhyme.", "correct": true, "explain": "They have the same ending sound." },
+      { "id": "m04", "type": "sant-usant", "text": "Music in adverts has no purpose.", "correct": false, "explain": "Music makes products memorable and creates feelings." },
+      { "id": "m05", "type": "flervalg", "text": "What does imagery mean?", "options": ["Pictures in a music video", "Words that create pictures in your mind", "The album cover", "A photo of the band"], "correct": 1, "explain": "Imagery appeals to our senses through words." },
+      { "id": "m06", "type": "flervalg", "text": "Which of these is a typical theme in songs?", "options": ["Heartbreak", "Tax law", "Plumbing", "Algebra"], "correct": 0, "explain": "Love and heartbreak are among the most common themes." },
+      { "id": "m07", "type": "flervalg", "text": "What does a music video add to a song?", "options": ["More verses", "A longer running time", "Pictures and often a story", "A new chorus"], "correct": 2, "explain": "The video can strengthen or change how we understand the song." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

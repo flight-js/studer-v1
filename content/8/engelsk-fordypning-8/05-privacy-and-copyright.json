@@ -1,0 +1,82 @@
+{
+  "id": "privacy-and-copyright",
+  "fagId": "engelsk-fordypning-8",
+  "trinnId": "8",
+  "name": "Privacy, copyright and your online identity",
+  "intro": "Your digital footprint and online identity, how to protect your own and others' privacy, and how to use other people's work fairly with copyright, Creative Commons and source lists.",
+  "kompetansemaal": [11, 10],
+  "sammendrag": "## Your digital footprint\n\nEverything you do online leaves a **digital footprint**: posts, comments, likes, pictures, searches and the apps you use. Some of it is **active** (what you post yourself) and some is **passive** (data collected about you, like your location). Your footprint can be seen by friends, schools and future employers – and by companies that use your data for advertising.\n\n## Privacy\n\n**Privacy** is your right to control information about yourself. **Personal data** is any information that can identify you: your name, address, phone number, photos and even your IP address. In Norway and the rest of the EEA, the **GDPR** gives you rights, such as the right to see what data a company has about you and the right to have it deleted.\n\nTips to protect your privacy:\n\n- Use strong, different **passwords** and **two-step verification**.\n- Check your **privacy settings**.\n- Think before sharing your location or personal details.\n- Never share your passwords, not even with friends.\n\n## Respecting others\n\nYou are also responsible for **other people's privacy**. Always ask for **consent** before posting pictures or videos of others. Sharing embarrassing or private content can hurt people – and may be illegal.\n\n## How do you present yourself online?\n\nThe way you present yourself online is your **online identity**. Many people show only the best sides of their lives – edited photos and highlights. Ask yourself: Is this how I want to be seen? Would I be OK with this post in five years? Remember that other people's online lives are often just as edited as yours.\n\n## Copyright\n\n**Copyright** protects the people who create **original works**: texts, photos, music, films, drawings and games. In Norway, copyright lasts until 70 years after the creator's death. This means you cannot freely use other people's work in your own projects.\n\n- **Quote** short parts and always **credit** the source.\n- Use pictures and music with a **Creative Commons** licence or from free image libraries, and follow the licence terms.\n- Or create your own pictures and music!\n\n## Using sources honestly\n\nUsing someone else's words or ideas without saying where they come from is called **plagiarism**. It is dishonest, and in school it can be treated as cheating. Always include a **source list** with the author, title, website and date you read it.",
+  "flashcards": [
+    { "term": "Digital footprint", "def": "The traces you leave online." },
+    { "term": "Active footprint", "def": "What you post yourself, like pictures, comments and likes." },
+    { "term": "Passive footprint", "def": "Data collected about you without you noticing, like your location." },
+    { "term": "Privacy", "def": "Your right to control information about yourself." },
+    { "term": "Personal data", "def": "Information that can identify you, like your name, photo or IP address." },
+    { "term": "GDPR", "def": "EU privacy rules that also apply in Norway." },
+    { "term": "Privacy settings", "def": "Settings that decide who can see what you share." },
+    { "term": "Two-step verification", "def": "An extra security step, like a code sent to your phone." },
+    { "term": "Consent", "def": "A clear yes to something, like having your picture shared." },
+    { "term": "Online identity", "def": "The way you present yourself online." },
+    { "term": "Copyright", "def": "The creator's right to decide how their work is used. Lasts until 70 years after death." },
+    { "term": "Creative Commons", "def": "Licences that let creators allow others to use their work on certain conditions." },
+    { "term": "Credit", "def": "Saying who made something and where it comes from." },
+    { "term": "Plagiarism", "def": "Using someone else's words or ideas without saying where they come from." },
+    { "term": "Source list", "def": "A list of the sources you have used, with author, title, website and date." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "What is a digital footprint?", "options": ["A shoe print in the snow", "The traces you leave online", "A type of password", "A computer virus"], "correct": 1, "explain": "Posts, likes and searches all become part of your footprint." },
+    { "id": "q02", "text": "Which of these is personal data?", "options": ["The weather forecast", "A famous painting", "Your phone number", "A recipe"], "correct": 2, "explain": "Personal data can be linked to you as a person." },
+    { "id": "q03", "text": "What does the GDPR give you the right to?", "options": ["Free internet", "Unlimited downloads", "Use any picture online", "Have your personal data deleted"], "correct": 3, "explain": "This is often called “the right to be forgotten”." },
+    { "id": "q04", "text": "What should you do before posting a picture of a friend?", "options": ["Ask for their consent", "Add a filter", "Tag everyone", "Nothing"], "correct": 0, "explain": "Everyone has the right to decide over pictures of themselves." },
+    { "id": "q05", "text": "How long does copyright last in Norway?", "options": ["5 years", "Until the work is posted online", "Forever", "Until 70 years after the creator's death"], "correct": 3, "explain": "After that, the work becomes free for everyone to use." },
+    { "id": "q06", "text": "What is plagiarism?", "options": ["Using a spell checker", "Using someone else's words or ideas without saying where they come from", "Writing a long text", "Quoting with a source"], "correct": 1, "explain": "Plagiarism is a form of cheating." },
+    { "id": "q07", "text": "What is a Creative Commons licence?", "options": ["A ban on sharing", "A password", "A licence that allows others to use a work on certain conditions", "A type of camera"], "correct": 2, "explain": "For example, you may have to credit the creator." },
+    { "id": "q08", "text": "Why should you think before posting?", "options": ["Because your digital footprint can be seen by others for a long time", "Because posting costs money", "Because nobody reads posts", "Because posts disappear after one day"], "correct": 0, "explain": "Future schools and employers may see what you post." },
+    { "id": "q09", "text": "Which is a good way to protect your privacy?", "options": ["Sharing your password with friends", "Using strong, different passwords and two-step verification", "Posting your address", "Using the same password everywhere"], "correct": 1, "explain": "Strong passwords make it harder for others to access your accounts." },
+    { "id": "q10", "text": "What is a passive digital footprint?", "options": ["A photo you post", "A comment you write", "A like you give", "Data collected about you, like your location"], "correct": 3, "explain": "Passive data is collected in the background." }
+  ],
+  "mindmap": {
+    "label": "Privacy and copyright",
+    "children": [
+      { "label": "Digital footprint", "children": [
+        { "label": "Active" },
+        { "label": "Passive" },
+        { "label": "Who can see it?" }
+      ] },
+      { "label": "Privacy", "children": [
+        { "label": "Personal data" },
+        { "label": "GDPR rights" },
+        { "label": "Passwords and settings" }
+      ] },
+      { "label": "Respecting others", "children": [
+        { "label": "Consent" },
+        { "label": "Don't share private content" }
+      ] },
+      { "label": "Online identity", "children": [
+        { "label": "Self-presentation" },
+        { "label": "Edited highlights" },
+        { "label": "Think long-term" }
+      ] },
+      { "label": "Copyright", "children": [
+        { "label": "Original works" },
+        { "label": "70 years" },
+        { "label": "Creative Commons" },
+        { "label": "Plagiarism and sources" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "An IP address can be personal data.", "correct": true, "explain": "It can be used to link online activity to you." },
+      { "id": "m02", "type": "sant-usant", "text": "If a picture is on the internet, you can use it freely.", "correct": false, "explain": "Pictures online are still protected by copyright." },
+      { "id": "m03", "type": "sant-usant", "text": "You should include a source list when you use sources.", "correct": true, "explain": "It shows where your information comes from." },
+      { "id": "m04", "type": "sant-usant", "text": "Most people show a completely realistic picture of their lives online.", "correct": false, "explain": "Many people share mostly edited highlights." },
+      { "id": "m05", "type": "flervalg", "text": "What does it mean to credit a source?", "options": ["To pay for it", "To say who made it and where it comes from", "To delete it", "To copy it"], "correct": 1, "explain": "Crediting is fair to the creator and honest to the reader." },
+      { "id": "m06", "type": "flervalg", "text": "Which of these is protected by copyright?", "options": ["A song someone wrote", "The alphabet", "The weather", "A mathematical fact"], "correct": 0, "explain": "Copyright protects original creative works." },
+      { "id": "m07", "type": "flervalg", "text": "What is your online identity?", "options": ["Your passport", "Your bank account", "The way you present yourself online", "Your home address"], "correct": 2, "explain": "Your posts, profile and comments build your online identity." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

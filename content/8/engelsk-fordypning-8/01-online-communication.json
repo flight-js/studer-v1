@@ -1,0 +1,84 @@
+{
+  "id": "online-communication",
+  "fagId": "engelsk-fordypning-8",
+  "trinnId": "8",
+  "name": "Communicating online",
+  "intro": "How to adapt your English to purpose, receiver and situation in digital communication, how to write a good email, netiquette, and how online communication differs from face-to-face communication.",
+  "kompetansemaal": [1, 5],
+  "sammendrag": "## Communicating in a digital world\n\nMuch of our communication today happens online: in chats, emails, comments, video calls and games. To communicate well, you must adapt your language to the **purpose** (why you write), the **receiver** (who reads it) and the **situation** (where and when).\n\n## Formal and informal language\n\n- **Informal** language is used with friends and family: short sentences, **contractions** (I'm, don't), slang, emojis and abbreviations like LOL or BRB.\n- **Formal** language is used with teachers, employers or people you don't know: full sentences, polite phrases, correct spelling and no slang.\n\nChoosing the right **register** shows respect and helps the receiver understand you.\n\n## Writing a good email\n\nA formal email usually has\n\n- a clear **subject line**\n- a **greeting**: Dear Ms Smith, / Hello Mr Jones,\n- a short **introduction** explaining why you are writing\n- the **main message**, with one idea per paragraph\n- a polite **closing**: Kind regards, / Best wishes, followed by your name\n\nAvoid writing only in capital letters – it looks like SHOUTING.\n\n## Netiquette\n\n**Netiquette** (net + etiquette) means good manners online:\n\n- Think before you post. Would you say it face to face?\n- Be polite, even when you disagree.\n- Don't share other people's pictures or personal information without permission.\n- Remember that tone of voice and body language are missing online, so jokes and irony can easily be misunderstood.\n\n## Online versus offline communication\n\nCommunication online differs from face-to-face communication:\n\n- It can be **asynchronous** – people answer when it suits them, as in email – or **synchronous**, like a video call.\n- There are fewer **non-verbal cues**, such as facial expressions and tone of voice.\n- People may feel **anonymous** and act differently than they would in real life.\n- Messages can be **saved, screenshotted and shared**, so they may last for a very long time.\n\n## Different ways of thinking\n\nPeople from different cultures communicate in different ways. Some are **direct** and say exactly what they mean, while others are more **indirect** and careful. In English, words like **please**, **thank you** and **sorry**, and phrases like **Could you …?** or **Would you mind …?**, are very important. Being aware of such differences helps you avoid misunderstandings when you talk to people around the world, for example in online games or international school projects.",
+  "flashcards": [
+    { "term": "Purpose", "def": "Why a text is written, for example to inform, ask or entertain." },
+    { "term": "Receiver", "def": "The person or group who reads or listens to a message." },
+    { "term": "Register", "def": "How formal or informal your language is." },
+    { "term": "Informal language", "def": "Relaxed language used with friends: contractions, slang and emojis." },
+    { "term": "Formal language", "def": "Polite, correct language used with teachers, employers and strangers." },
+    { "term": "Contraction", "def": "A short form of two words, like don't (do not) or I'm (I am)." },
+    { "term": "Subject line", "def": "A short line that tells the receiver what an email is about." },
+    { "term": "Greeting", "def": "How you start a letter or email, like “Dear Ms Smith,”." },
+    { "term": "Closing", "def": "How you end a formal email, like “Kind regards,” followed by your name." },
+    { "term": "Netiquette", "def": "Good manners online." },
+    { "term": "Asynchronous communication", "def": "Communication where people answer when it suits them, like email." },
+    { "term": "Synchronous communication", "def": "Communication in real time, like a video call or a live chat." },
+    { "term": "Non-verbal cues", "def": "Facial expressions, tone of voice and body language." },
+    { "term": "Direct communication", "def": "Saying exactly what you mean." },
+    { "term": "Indirect communication", "def": "Expressing yourself more carefully and politely, often with hints." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "What does register mean?", "options": ["The list of students in a class", "How formal or informal your language is", "A type of email", "The subject line"], "correct": 1, "explain": "You choose your register depending on who you are talking to." },
+    { "id": "q02", "text": "Which greeting fits a formal email to a teacher?", "options": ["Hey dude!", "Yo!", "Sup", "Dear Ms Smith,"], "correct": 3, "explain": "Formal emails start with a polite greeting and the person's name." },
+    { "id": "q03", "text": "What is netiquette?", "options": ["Good manners online", "A type of computer virus", "A social media app", "A formal letter"], "correct": 0, "explain": "The word combines “net” and “etiquette”." },
+    { "id": "q04", "text": "Which is an example of informal language?", "options": ["I would be grateful if you could reply.", "Kind regards", "lol brb, gonna grab food", "Dear Sir or Madam"], "correct": 2, "explain": "Abbreviations and slang are typical of informal chat." },
+    { "id": "q05", "text": "Why can jokes easily be misunderstood online?", "options": ["Because the internet is slow", "Because nobody reads them", "Because tone of voice and body language are missing", "Because jokes are not allowed"], "correct": 2, "explain": "Without non-verbal cues, irony can be taken seriously." },
+    { "id": "q06", "text": "What is asynchronous communication?", "options": ["Communication where people answer when it suits them, like email", "A live video call", "Talking face to face", "A phone call"], "correct": 0, "explain": "The other options happen in real time." },
+    { "id": "q07", "text": "Why should you avoid writing only in capital letters?", "options": ["It is against the law", "It uses more data", "It is hard to type", "It looks like shouting"], "correct": 3, "explain": "Capital letters are read as a raised voice online." },
+    { "id": "q08", "text": "Which phrase is a polite way to ask for something in English?", "options": ["Give me that.", "Could you help me, please?", "Do it now.", "I want it."], "correct": 1, "explain": "“Could you” and “please” make a request polite." },
+    { "id": "q09", "text": "Why should you think before you post?", "options": ["Because messages can be saved and shared and last a long time", "Because posting is expensive", "Because only teachers can post", "Because posts disappear immediately"], "correct": 0, "explain": "Screenshots can spread even if you delete a post." },
+    { "id": "q10", "text": "What is the difference between direct and indirect communication?", "options": ["Direct is written, indirect is spoken", "Direct is formal, indirect is informal", "There is no difference", "Direct means saying exactly what you mean, indirect means being more careful and polite"], "correct": 3, "explain": "Cultures often differ in how direct people are." }
+  ],
+  "mindmap": {
+    "label": "Online communication",
+    "children": [
+      { "label": "Adapting", "children": [
+        { "label": "Purpose" },
+        { "label": "Receiver" },
+        { "label": "Situation" }
+      ] },
+      { "label": "Register", "children": [
+        { "label": "Formal" },
+        { "label": "Informal" },
+        { "label": "Contractions and slang" }
+      ] },
+      { "label": "Email", "children": [
+        { "label": "Subject line" },
+        { "label": "Greeting" },
+        { "label": "Main message" },
+        { "label": "Closing" }
+      ] },
+      { "label": "Netiquette", "children": [
+        { "label": "Think before you post" },
+        { "label": "Be polite" },
+        { "label": "Ask before sharing" }
+      ] },
+      { "label": "Online vs offline", "children": [
+        { "label": "Synchronous or asynchronous" },
+        { "label": "Fewer non-verbal cues" },
+        { "label": "Anonymity" },
+        { "label": "Direct or indirect cultures" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "It is fine to use slang in a job application email.", "correct": false, "explain": "A job application should be written in formal language." },
+      { "id": "m02", "type": "sant-usant", "text": "Online, you have fewer non-verbal cues than face to face.", "correct": true, "explain": "Facial expressions and tone of voice are often missing." },
+      { "id": "m03", "type": "sant-usant", "text": "A good email should have a clear subject line.", "correct": true, "explain": "The subject line tells the receiver what the email is about." },
+      { "id": "m04", "type": "sant-usant", "text": "People always behave the same online as they do offline.", "correct": false, "explain": "Feeling anonymous can make people act differently." },
+      { "id": "m05", "type": "flervalg", "text": "Which closing fits a formal email?", "options": ["Cya!", "Kind regards,", "XOXO", "Later!"], "correct": 1, "explain": "“Kind regards” and “Best wishes” are polite closings." },
+      { "id": "m06", "type": "flervalg", "text": "What is the purpose of a text?", "options": ["Why the text is written", "How long the text is", "Who wrote the text", "Where the text is published"], "correct": 0, "explain": "Purpose, receiver and situation decide how you write." },
+      { "id": "m07", "type": "flervalg", "text": "Which of these is a contraction?", "options": ["do not", "cannot", "don't", "will not"], "correct": 2, "explain": "A contraction combines two words with an apostrophe." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
