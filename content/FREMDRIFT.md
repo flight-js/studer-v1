@@ -12,8 +12,9 @@ Status for arbeidet med å lage innhold til alle 72 fag (8. trinn–Vg3), og hvo
 | Engelsk 8, 9, 10 | 6 + 6 + 7 |
 | Naturfag 8, 9, 10 | 7 + 7 + 6 |
 | Samfunnsfag 8, 9, 10 | 7 + 7 + 7 |
+| KRLE 8 | 6 |
 
-**Neste:** KRLE 8–10 (`_fag.json` er laget, se temainndeling under).
+**Neste:** KRLE 9 og 10 (`_fag.json` er laget, se temainndeling under). Start med `content/9/krle-9/01-hinduismen.json`.
 
 ## Arbeidsflyt per fag
 

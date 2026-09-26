@@ -18,6 +18,18 @@ Læreplan: [ENG01-06](https://www.udir.no/lk20/eng01-06/kompetansemaal-og-vurder
 - 🟡 **Film, music and media** – utkast (423 ord · 15 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
 - 🟡 **Australia, New Zealand and Canada** – utkast (421 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
 
+## KRLE (10) – 0 av 7 temaer ferdig
+
+Læreplan: [RLE01-04](https://www.udir.no/lk20/rle01-04/kompetansemaal-og-vurdering/kv1145)
+
+- ⬜ **sikhisme-og-andre-tradisjoner** – ikke skrevet ennå
+- ⬜ **kjonn-og-seksualitet** – ikke skrevet ennå
+- ⬜ **eksistensielle-sporsmal** – ikke skrevet ennå
+- ⬜ **etikk-og-kommunikasjon** – ikke skrevet ennå
+- ⬜ **filosofi-og-aktuell-etikk** – ikke skrevet ennå
+- ⬜ **menneskerettigheter-og-fattigdom** – ikke skrevet ennå
+- ⬜ **kilder-og-perspektiver** – ikke skrevet ennå
+
 ## Matematikk (10) – 9 av 9 temaer ferdig
 
 Læreplan: [MAT01-06](https://www.udir.no/lk20/mat01-06/kompetansemaal-og-vurdering/kv1029)
@@ -58,17 +70,20 @@ Læreplan: [NOR01-08](https://www.udir.no/lk20/nor01-08/kompetansemaal-og-vurder
 - 🔴 **Nynorsk: skriv betre** – sjekkes (370 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
   - Sjekk: Sjekk nynorskformene mot nynorsknormalen frå 2012, særleg valfrie former (me/vi, begynne/byrje, tyding/betydning) og tekst skrive på nynorsk.
 
-## Samfunnsfag (10) – 0 av 7 temaer ferdig
+## Samfunnsfag (10) – 7 av 7 temaer ferdig
 
 Læreplan: [SAF01-05](https://www.udir.no/lk20/saf01-05/kompetansemaal-og-vurdering/kv1151)
 
-- ⬜ **den-kalde-krigen** – ikke skrevet ennå
-- ⬜ **konflikter-i-var-tid** – ikke skrevet ennå
-- ⬜ **terror-og-ekstremisme** – ikke skrevet ennå
-- ⬜ **berekraftig-utvikling** – ikke skrevet ennå
-- ⬜ **velferdsstaten** – ikke skrevet ennå
-- ⬜ **mangfold-og-fordommer** – ikke skrevet ennå
-- ⬜ **makt-og-medier** – ikke skrevet ennå
+- 🟡 **Den kalde krigen** – utkast (399 ord · 15 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+- 🔴 **Konflikter i vår tid** – sjekkes (436 ord · 15 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+  - Sjekk: Pågående konflikter (Ukraina, Israel/Gaza, Syria) endrer seg raskt – sjekk at beskrivelsene fortsatt er dekkende.
+  - Sjekk: Tallet på mennesker på flukt (over 100 millioner) bør sjekkes mot siste tall fra UNHCR.
+- 🟡 **Terror og ekstremisme** – utkast (413 ord · 15 kort · 10 quiz · 15 i miniprøve · 24 noder i tankekart)
+- 🟡 **Bærekraftig utvikling** – utkast (404 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🔴 **Velferdsstaten og det politiske systemet** – sjekkes (355 ord · 15 kort · 10 quiz · 15 i miniprøve · 26 noder i tankekart)
+  - Sjekk: Tallet på barn i familier med vedvarende lav inntekt (over 100 000) bør sjekkes mot siste tall fra SSB.
+- 🟡 **Mangfold, fordommer og framstillinger** – utkast (438 ord · 15 kort · 10 quiz · 15 i miniprøve · 24 noder i tankekart)
+- 🟡 **Makt, medier og digital debatt** – utkast (382 ord · 15 kort · 10 quiz · 15 i miniprøve · 27 noder i tankekart)
 
 ## Engelsk (8) – 6 av 6 temaer ferdig
 
@@ -80,6 +95,19 @@ Læreplan: [ENG01-06](https://www.udir.no/lk20/eng01-06/kompetansemaal-og-vurder
 - 🟡 **Writing narratives** – utkast (372 ord · 15 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
 - 🟡 **English around the world** – utkast (409 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
 - 🟡 **The United Kingdom** – utkast (421 ord · 15 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+
+## KRLE (8) – 6 av 6 temaer ferdig
+
+Læreplan: [RLE01-04](https://www.udir.no/lk20/rle01-04/kompetansemaal-og-vurdering/kv1145)
+
+- 🔴 **Kristendommen** – sjekkes (414 ord · 15 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+  - Sjekk: Tall for antall kristne i verden (rundt 2,4 milliarder) og andelen medlemmer i Den norske kirke (rundt 60 prosent) bør sjekkes mot ferske tall.
+- 🟡 **Islam** – utkast (426 ord · 15 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+- 🟡 **Jødedommen** – utkast (436 ord · 15 kort · 10 quiz · 15 i miniprøve · 24 noder i tankekart)
+- 🟡 **Livssynshumanisme og ikke-religiøse livssyn** – utkast (423 ord · 15 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+- 🔴 **Samisk religion og urfolks livssyn** – sjekkes (383 ord · 15 kort · 10 quiz · 15 i miniprøve · 24 noder i tankekart)
+  - Sjekk: Navn og roller for samiske guder og makter varierer mellom kilder og samiske områder – bør kvalitetssikres av noen med samisk fagkompetanse.
+- 🟡 **Etiske teorier og dilemmaer** – utkast (417 ord · 15 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
 
 ## Matematikk (8) – 8 av 8 temaer ferdig
 
@@ -120,17 +148,18 @@ Læreplan: [NOR01-08](https://www.udir.no/lk20/nor01-08/kompetansemaal-og-vurder
 - 🔴 **Nynorsk: grunnkurs** – sjekkes (376 ord · 15 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
   - Sjekk: Nynorskformer (valfrie former som «honom», «me», «òg») bør kontrolleres mot gjeldende nynorsknormal fra 2012.
 
-## Samfunnsfag (8) – 2 av 7 temaer ferdig
+## Samfunnsfag (8) – 7 av 7 temaer ferdig
 
 Læreplan: [SAF01-05](https://www.udir.no/lk20/saf01-05/kompetansemaal-og-vurdering/kv1151)
 
 - 🟡 **Samfunnsfaglige metoder og kilder** – utkast (385 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
 - 🟡 **Identitet, sosialisering og fellesskap** – utkast (395 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
-- ⬜ **demokrati-og-politikk** – ikke skrevet ennå
-- ⬜ **lover-og-regler** – ikke skrevet ennå
-- ⬜ **okonomi-og-forbruk** – ikke skrevet ennå
-- ⬜ **befolkning-og-levekar** – ikke skrevet ennå
-- ⬜ **digitale-spor-og-personvern** – ikke skrevet ennå
+- 🟡 **Demokrati og det politiske systemet** – utkast (340 ord · 15 kort · 10 quiz · 15 i miniprøve · 24 noder i tankekart)
+- 🟡 **Lover, regler og normer** – utkast (391 ord · 15 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+- 🟡 **Arbeid, økonomi og forbruk** – utkast (385 ord · 15 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+- 🟡 **Befolkning, bosetting og levekår** – utkast (365 ord · 15 kort · 10 quiz · 15 i miniprøve · 24 noder i tankekart)
+- 🔴 **Digitale spor, personvern og samfunnsdebatt** – sjekkes (417 ord · 15 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+  - Sjekk: Aldersgrensen for samtykke (13 år) kan bli endret hvis foreslått aldersgrense på 15 år for sosiale medier vedtas – sjekk gjeldende regler.
 
 ## Engelsk (9) – 6 av 6 temaer ferdig
 
@@ -142,6 +171,17 @@ Læreplan: [ENG01-06](https://www.udir.no/lk20/eng01-06/kompetansemaal-og-vurder
 - 🟡 **Formal and informal writing** – utkast (379 ord · 15 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
 - 🟡 **The United States** – utkast (447 ord · 15 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
 - 🟡 **Indigenous peoples** – utkast (406 ord · 15 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+
+## KRLE (9) – 0 av 6 temaer ferdig
+
+Læreplan: [RLE01-04](https://www.udir.no/lk20/rle01-04/kompetansemaal-og-vurdering/kv1145)
+
+- ⬜ **hinduismen** – ikke skrevet ennå
+- ⬜ **buddhismen** – ikke skrevet ennå
+- ⬜ **religion-og-historie** – ikke skrevet ennå
+- ⬜ **religiost-mangfold** – ikke skrevet ennå
+- ⬜ **religion-i-populaerkultur** – ikke skrevet ennå
+- ⬜ **etiske-forbilder** – ikke skrevet ennå
 
 ## Matematikk (9) – 8 av 8 temaer ferdig
 
@@ -181,17 +221,17 @@ Læreplan: [NOR01-08](https://www.udir.no/lk20/nor01-08/kompetansemaal-og-vurder
 - 🟡 **Nabospråk: svensk og dansk** – utkast (327 ord · 15 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
 - 🟡 **Ungdom i tekster** – utkast (391 ord · 15 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
 
-## Samfunnsfag (9) – 0 av 7 temaer ferdig
+## Samfunnsfag (9) – 7 av 7 temaer ferdig
 
 Læreplan: [SAF01-05](https://www.udir.no/lk20/saf01-05/kompetansemaal-og-vurdering/kv1151)
 
-- ⬜ **industrialisering-og-teknologi** – ikke skrevet ennå
-- ⬜ **kamp-for-endring** – ikke skrevet ennå
-- ⬜ **forste-verdenskrig** – ikke skrevet ennå
-- ⬜ **mellomkrigstid-og-andre-verdenskrig** – ikke skrevet ennå
-- ⬜ **holocaust-og-folkemord** – ikke skrevet ennå
-- ⬜ **fornorsking-og-minoriteter** – ikke skrevet ennå
-- ⬜ **menneskerettigheter** – ikke skrevet ennå
+- 🟡 **Industrialisering og teknologi** – utkast (374 ord · 15 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+- 🟡 **Kamp for endring** – utkast (373 ord · 15 kort · 10 quiz · 15 i miniprøve · 24 noder i tankekart)
+- 🟡 **Første verdenskrig** – utkast (383 ord · 15 kort · 10 quiz · 15 i miniprøve · 24 noder i tankekart)
+- 🟡 **Mellomkrigstiden og andre verdenskrig** – utkast (391 ord · 15 kort · 10 quiz · 15 i miniprøve · 25 noder i tankekart)
+- 🟡 **Holocaust og andre folkemord** – utkast (375 ord · 15 kort · 10 quiz · 15 i miniprøve · 24 noder i tankekart)
+- 🟡 **Fornorsking, samer og nasjonale minoriteter** – utkast (402 ord · 15 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+- 🟡 **Menneskerettigheter og internasjonalt samarbeid** – utkast (387 ord · 15 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
 
 ## Kjemi 1 (vg2) – 11 av 11 temaer ferdig
 

@@ -18,7 +18,7 @@ insert into public.fag (id, trinn_id, navn, lareplan_kode, lareplan_url, kompeta
   ('engelsk-8', '8', 'Engelsk', 'ENG01-06', 'https://www.udir.no/lk20/eng01-06/kompetansemaal-og-vurdering/kv1033', '[{"nr":1,"tekst":"bruke varierte strategier i språklæring, tekstskaping og kommunikasjon"},{"nr":2,"tekst":"bruke ulike digitale ressurser og andre hjelpemidler i språklæring, tekstskaping og samhandling"},{"nr":3,"tekst":"bruke sentrale mønstre for uttale i kommunikasjon"},{"nr":4,"tekst":"lytte til og forstå ord og uttrykk i varianter av engelsk"},{"nr":5,"tekst":"uttrykke seg med flyt og sammenheng med et variert ordforråd og idiomatiske uttrykk tilpasset formål, mottaker og situasjon"},{"nr":6,"tekst":"stille spørsmål og følge opp innspill i samtaler om ulike emner tilpasset ulike formål, mottakere og situasjoner"},{"nr":7,"tekst":"utforske og beskrive noen språklige likheter og ulikheter mellom engelsk og andre språk eleven kjenner til, og bruke dette i egen språklæring"},{"nr":8,"tekst":"bruke kunnskap om ordklasser og setningsstruktur i arbeid med egne muntlige og skriftlige tekster"},{"nr":9,"tekst":"følge regler for rettskriving, ordbøying, setningsstruktur og tekststruktur"},{"nr":10,"tekst":"lese, diskutere og videreformidle innhold fra ulike typer tekster, inkludert selvvalgte tekster"},{"nr":11,"tekst":"lese, tolke og reflektere over engelskspråklig skjønnlitteratur, inkludert ungdomslitteratur"},{"nr":12,"tekst":"lese sakprosatekster og vurdere hvor pålitelige kildene er"},{"nr":13,"tekst":"bruke kilder på en kritisk og etterrettelig måte"},{"nr":14,"tekst":"skrive formelle og uformelle tekster, inkludert sammensatte, med struktur og sammenheng som beskriver, forteller og reflekterer tilpasset formål, mottaker og situasjon"},{"nr":15,"tekst":"bearbeide egne tekster ut fra tilbakemeldinger og kunnskap om språk"},{"nr":16,"tekst":"beskrive og reflektere over rollen engelsk har i Norge og i verden"},{"nr":17,"tekst":"utforske og reflektere over situasjonen til urfolk i den engelskspråklige verden og i Norge"},{"nr":18,"tekst":"utforske og beskrive levemåter, tenkesett, kommunikasjonsmønstre og mangfold i den engelskspråklige verden"},{"nr":19,"tekst":"utforske og videreformidle innhold i engelskspråklige kulturelle uttrykksformer fra ulike medier knyttet til egne interesser"}]'::jsonb, 2),
   ('naturfag-8', '8', 'Naturfag', 'NAT01-05', 'https://www.udir.no/lk20/nat01-05/kompetansemaal-og-vurdering/kv1078', '[{"nr":1,"tekst":"stille spørsmål og lage hypoteser om naturfaglige fenomener, identifisere avhengige og uavhengige variabler og samle data for å finne svar"},{"nr":2,"tekst":"analysere og bruke innsamlede data til å lage forklaringer, drøfte forklaringene i lys av relevant teori og vurdere kvaliteten på egne og andres utforskinger"},{"nr":3,"tekst":"bruke og lage modeller for å forutsi eller beskrive naturfaglige prosesser og systemer og gjøre rede for modellenes styrker og begrensninger"},{"nr":4,"tekst":"delta i risikovurderinger knyttet til forsøk og følge sikkerhetstiltakene"},{"nr":5,"tekst":"gi eksempler på dagsaktuell forskning og drøfte hvordan ny kunnskap genereres gjennom samarbeid og kritisk tilnærming til eksisterende kunnskap"},{"nr":6,"tekst":"utforske, forstå og lage teknologiske systemer som består av en sender og en mottaker"},{"nr":7,"tekst":"bruke programmering til å utforske naturfaglige fenomener"},{"nr":8,"tekst":"utforske kjemiske reaksjoner, forklare massebevaring og gjøre rede for betydninger av noen forbrenningsreaksjoner"},{"nr":9,"tekst":"bruke atommodeller og periodesystemet til å gjøre rede for egenskaper til grunnstoffer og kjemiske forbindelser"},{"nr":10,"tekst":"beskrive drivhuseffekten og gjøre rede for faktorer som kan forårsake globale klimaendringer"},{"nr":11,"tekst":"gjøre rede for energibevaring og energikvalitet og utforske ulike måter å omdanne, transportere og lagre energi på"},{"nr":12,"tekst":"drøfte hvordan energiproduksjon og energibruk kan påvirke miljøet lokalt og globalt"},{"nr":13,"tekst":"beskrive hvordan forskere har kommet fram til evolusjonsteorien og bruke denne til å forklare utvikling av biologisk mangfold"},{"nr":14,"tekst":"sammenligne celler hos ulike organismer og beskrive sammenhenger mellom oppbygning og funksjon"},{"nr":15,"tekst":"utforske sammenhenger mellom abiotiske og biotiske faktorer i et økosystem og diskutere hvordan energi og materie omdannes i kretsløp"},{"nr":16,"tekst":"gi eksempler på og drøfte aktuelle dilemmaer knyttet til utnyttelse av naturressurser og tap av biologisk mangfold"},{"nr":17,"tekst":"gi eksempler på samers tradisjonelle kunnskap om naturen og diskutere hvordan denne kunnskapen kan bidra til bærekraftig forvaltning av naturen"},{"nr":18,"tekst":"gjøre rede for hvordan fotosyntese og celleånding gir energi til alt levende gjennom karbonkretsløpet"},{"nr":19,"tekst":"bruke platetektonikkteorien til å forklare jordas utvikling over tid og gi eksempler på observasjoner som støtter teorien"},{"nr":20,"tekst":"drøfte spørsmål knyttet til seksuell og reproduktiv helse"},{"nr":21,"tekst":"sammenligne nervesystemet og hormonsystemet og beskrive hvordan rusmidler, legemidler, miljøgifter og doping påvirker signalsystemene"},{"nr":22,"tekst":"beskrive kroppens immunforsvar og hvordan vaksiner virker, og gjøre rede for hva vaksiner betyr for folkehelsen"}]'::jsonb, 3),
   ('samfunnsfag-8', '8', 'Samfunnsfag', 'SAF01-05', 'https://www.udir.no/lk20/saf01-05/kompetansemaal-og-vurdering/kv1151', '[{"nr":1,"tekst":"bruke samfunnsfaglege metodar og digitale ressursar i eigne undersøkingar, presentere funn ved bruk av digitale verktøy og drøfte kor gyldige og relevante funna er"},{"nr":2,"tekst":"vurdere på kva måtar ulike kjelder gir informasjon om eit samfunnsfagleg tema, og reflektere over korleis algoritmar, einsretta kjelder eller mangel på kjelder kan prege forståinga vår"},{"nr":3,"tekst":"drøfte korleis framstillingar av fortida, hendingar og grupper har påverka og påverkar haldningane og handlingane til folk"},{"nr":4,"tekst":"utforske korleis teknologi har vore og framleis er ein endringsfaktor, og drøfte innverknaden teknologien har hatt og har på enkeltmenneske, samfunn og natur"},{"nr":5,"tekst":"reflektere over korleis menneske har kjempa og kjempar for endringar i samfunnet og samstundes har vore og er påverka av geografiske forhold og historisk kontekst"},{"nr":6,"tekst":"samanlikne korleis politiske, geografiske og historiske forhold påverkar levekår, busetjingsmønster og demografi i forskjellige delar av verda i dag"},{"nr":7,"tekst":"gjere greie for årsaker til og konsekvensar av sentrale historiske og notidige konfliktar og reflektere over om endringar av nokre føresetnader kunne ha hindra konfliktane"},{"nr":8,"tekst":"gjere greie for årsaker til og konsekvensar av terrorhandlingar og folkemord, som holocaust, og reflektere over korleis ekstreme haldningar og ekstreme handlingar kan førebyggjast"},{"nr":9,"tekst":"utforske og beskrive korleis menneske- og urfolksrettar og andre internasjonale avtalar og samarbeid har betydning for nasjonal politikk, livet til menneske, likestilling og likeverd"},{"nr":10,"tekst":"gjere greie for fornorsking av samane og dei nasjonale minoritetane og uretten dei har vore utsette for, og reflektere over kva konsekvensar det har hatt og har på individ- og samfunnsnivå"},{"nr":11,"tekst":"beskrive ulike dimensjonar ved berekraftig utvikling og korleis dei påverkar kvarandre, og presentere tiltak for meir berekraftige samfunn"},{"nr":12,"tekst":"vurdere korleis arbeid, inntekt og forbruk kan påverke personleg økonomi, levestandard og livskvalitet"},{"nr":13,"tekst":"reflektere over likskapar og ulikskapar i identitetar, levesett og kulturuttrykk og drøfte moglegheiter og utfordringar ved mangfald"},{"nr":14,"tekst":"utforske og reflektere over eigne digitale spor og høvet til å få sletta spora og å verne om retten ein sjølv og andre har til privatliv, personvern og opphavsrett"},{"nr":15,"tekst":"reflektere over korleis identitet, sjølvbilete og eigne grenser blir utvikla og utfordra i ulike fellesskap, og presentere forslag til korleis ein kan handtere påverknad og uønskte hendingar"},{"nr":16,"tekst":"reflektere over kva for aktørar som har makt i samfunnet i dag, og korleis desse grunngir standpunkta sine"},{"nr":17,"tekst":"utforske ulike plattformer for digital samhandling og reflektere over korleis digital deltaking og samhandling påverkar forma på og innhaldet i samfunnsdebatten"},{"nr":18,"tekst":"beskrive sentrale lover, reglar og normer og drøfte kva konsekvensar brot på desse kan ha for den enkelte og for samfunnet på kort og lang sikt"},{"nr":19,"tekst":"beskrive trekk ved det politiske systemet og velferdssamfunnet i Noreg i dag og reflektere over sentrale utfordringar"}]'::jsonb, 4),
-  ('krle-8', '8', 'KRLE', null, null, '[]'::jsonb, 5),
+  ('krle-8', '8', 'KRLE', 'RLE01-04', 'https://www.udir.no/lk20/rle01-04/kompetansemaal-og-vurdering/kv1145', '[{"nr":1,"tekst":"utforske og presentere sentrale trekk ved kristendom og andre religions- og livssynstradisjoner og deres utbredelse i dag"},{"nr":2,"tekst":"utforske og drøfte hvordan kristendom og andre religioner inngår i historiske endringsprosesser globalt og nasjonalt"},{"nr":3,"tekst":"undersøke og presentere sentrale ideer fra livssynshumanisme og andre ikke-religiøse livssyn"},{"nr":4,"tekst":"utforske og presentere religiøst mangfold og religiøse praksiser utenfor etablerte religionssamfunn"},{"nr":5,"tekst":"gjøre rede for og reflektere over samenes og andre urfolks religions- og livssynstradisjoner"},{"nr":6,"tekst":"bruke og drøfte fagbegreper om religioner og livssyn"},{"nr":7,"tekst":"sammenligne og vurdere kritisk ulike kilder til kunnskap om religioner og livssyn"},{"nr":8,"tekst":"gjøre rede for og reflektere over ulike syn på kjønn og seksualitet i kristendom og andre religioner og livssyn"},{"nr":9,"tekst":"utforske og presentere hvordan elementer fra kristendom og andre religioner og livssyn kommer til uttrykk i medier og populærkultur"},{"nr":10,"tekst":"utforske og sammenligne etiske ideer fra sentrale skikkelser i religiøse og livssynsbaserte tradisjoner"},{"nr":11,"tekst":"utforske etiske ideer fra sentrale skikkelser i filosofihistorien og anvende ideene til å drøfte aktuelle etiske spørsmål"},{"nr":12,"tekst":"utforske andres perspektiv og håndtere uenighet og meningsbrytning"},{"nr":13,"tekst":"reflektere over eksistensielle spørsmål knyttet til det å vokse opp og leve i et mangfoldig og globalt samfunn"},{"nr":14,"tekst":"identifisere og drøfte etiske problemstillinger knyttet til ulike former for kommunikasjon"},{"nr":15,"tekst":"identifisere og drøfte aktuelle etiske problemstillinger knyttet til menneskerettigheter, bærekraft og fattigdom"}]'::jsonb, 5),
   ('tysk-8', '8', 'Tysk', null, null, '[]'::jsonb, 6),
   ('fransk-8', '8', 'Fransk', null, null, '[]'::jsonb, 7),
   ('spansk-8', '8', 'Spansk', null, null, '[]'::jsonb, 8),
@@ -28,7 +28,7 @@ insert into public.fag (id, trinn_id, navn, lareplan_kode, lareplan_url, kompeta
   ('engelsk-9', '9', 'Engelsk', 'ENG01-06', 'https://www.udir.no/lk20/eng01-06/kompetansemaal-og-vurdering/kv1033', '[{"nr":1,"tekst":"bruke varierte strategier i språklæring, tekstskaping og kommunikasjon"},{"nr":2,"tekst":"bruke ulike digitale ressurser og andre hjelpemidler i språklæring, tekstskaping og samhandling"},{"nr":3,"tekst":"bruke sentrale mønstre for uttale i kommunikasjon"},{"nr":4,"tekst":"lytte til og forstå ord og uttrykk i varianter av engelsk"},{"nr":5,"tekst":"uttrykke seg med flyt og sammenheng med et variert ordforråd og idiomatiske uttrykk tilpasset formål, mottaker og situasjon"},{"nr":6,"tekst":"stille spørsmål og følge opp innspill i samtaler om ulike emner tilpasset ulike formål, mottakere og situasjoner"},{"nr":7,"tekst":"utforske og beskrive noen språklige likheter og ulikheter mellom engelsk og andre språk eleven kjenner til, og bruke dette i egen språklæring"},{"nr":8,"tekst":"bruke kunnskap om ordklasser og setningsstruktur i arbeid med egne muntlige og skriftlige tekster"},{"nr":9,"tekst":"følge regler for rettskriving, ordbøying, setningsstruktur og tekststruktur"},{"nr":10,"tekst":"lese, diskutere og videreformidle innhold fra ulike typer tekster, inkludert selvvalgte tekster"},{"nr":11,"tekst":"lese, tolke og reflektere over engelskspråklig skjønnlitteratur, inkludert ungdomslitteratur"},{"nr":12,"tekst":"lese sakprosatekster og vurdere hvor pålitelige kildene er"},{"nr":13,"tekst":"bruke kilder på en kritisk og etterrettelig måte"},{"nr":14,"tekst":"skrive formelle og uformelle tekster, inkludert sammensatte, med struktur og sammenheng som beskriver, forteller og reflekterer tilpasset formål, mottaker og situasjon"},{"nr":15,"tekst":"bearbeide egne tekster ut fra tilbakemeldinger og kunnskap om språk"},{"nr":16,"tekst":"beskrive og reflektere over rollen engelsk har i Norge og i verden"},{"nr":17,"tekst":"utforske og reflektere over situasjonen til urfolk i den engelskspråklige verden og i Norge"},{"nr":18,"tekst":"utforske og beskrive levemåter, tenkesett, kommunikasjonsmønstre og mangfold i den engelskspråklige verden"},{"nr":19,"tekst":"utforske og videreformidle innhold i engelskspråklige kulturelle uttrykksformer fra ulike medier knyttet til egne interesser"}]'::jsonb, 2),
   ('naturfag-9', '9', 'Naturfag', 'NAT01-05', 'https://www.udir.no/lk20/nat01-05/kompetansemaal-og-vurdering/kv1078', '[{"nr":1,"tekst":"stille spørsmål og lage hypoteser om naturfaglige fenomener, identifisere avhengige og uavhengige variabler og samle data for å finne svar"},{"nr":2,"tekst":"analysere og bruke innsamlede data til å lage forklaringer, drøfte forklaringene i lys av relevant teori og vurdere kvaliteten på egne og andres utforskinger"},{"nr":3,"tekst":"bruke og lage modeller for å forutsi eller beskrive naturfaglige prosesser og systemer og gjøre rede for modellenes styrker og begrensninger"},{"nr":4,"tekst":"delta i risikovurderinger knyttet til forsøk og følge sikkerhetstiltakene"},{"nr":5,"tekst":"gi eksempler på dagsaktuell forskning og drøfte hvordan ny kunnskap genereres gjennom samarbeid og kritisk tilnærming til eksisterende kunnskap"},{"nr":6,"tekst":"utforske, forstå og lage teknologiske systemer som består av en sender og en mottaker"},{"nr":7,"tekst":"bruke programmering til å utforske naturfaglige fenomener"},{"nr":8,"tekst":"utforske kjemiske reaksjoner, forklare massebevaring og gjøre rede for betydninger av noen forbrenningsreaksjoner"},{"nr":9,"tekst":"bruke atommodeller og periodesystemet til å gjøre rede for egenskaper til grunnstoffer og kjemiske forbindelser"},{"nr":10,"tekst":"beskrive drivhuseffekten og gjøre rede for faktorer som kan forårsake globale klimaendringer"},{"nr":11,"tekst":"gjøre rede for energibevaring og energikvalitet og utforske ulike måter å omdanne, transportere og lagre energi på"},{"nr":12,"tekst":"drøfte hvordan energiproduksjon og energibruk kan påvirke miljøet lokalt og globalt"},{"nr":13,"tekst":"beskrive hvordan forskere har kommet fram til evolusjonsteorien og bruke denne til å forklare utvikling av biologisk mangfold"},{"nr":14,"tekst":"sammenligne celler hos ulike organismer og beskrive sammenhenger mellom oppbygning og funksjon"},{"nr":15,"tekst":"utforske sammenhenger mellom abiotiske og biotiske faktorer i et økosystem og diskutere hvordan energi og materie omdannes i kretsløp"},{"nr":16,"tekst":"gi eksempler på og drøfte aktuelle dilemmaer knyttet til utnyttelse av naturressurser og tap av biologisk mangfold"},{"nr":17,"tekst":"gi eksempler på samers tradisjonelle kunnskap om naturen og diskutere hvordan denne kunnskapen kan bidra til bærekraftig forvaltning av naturen"},{"nr":18,"tekst":"gjøre rede for hvordan fotosyntese og celleånding gir energi til alt levende gjennom karbonkretsløpet"},{"nr":19,"tekst":"bruke platetektonikkteorien til å forklare jordas utvikling over tid og gi eksempler på observasjoner som støtter teorien"},{"nr":20,"tekst":"drøfte spørsmål knyttet til seksuell og reproduktiv helse"},{"nr":21,"tekst":"sammenligne nervesystemet og hormonsystemet og beskrive hvordan rusmidler, legemidler, miljøgifter og doping påvirker signalsystemene"},{"nr":22,"tekst":"beskrive kroppens immunforsvar og hvordan vaksiner virker, og gjøre rede for hva vaksiner betyr for folkehelsen"}]'::jsonb, 3),
   ('samfunnsfag-9', '9', 'Samfunnsfag', 'SAF01-05', 'https://www.udir.no/lk20/saf01-05/kompetansemaal-og-vurdering/kv1151', '[{"nr":1,"tekst":"bruke samfunnsfaglege metodar og digitale ressursar i eigne undersøkingar, presentere funn ved bruk av digitale verktøy og drøfte kor gyldige og relevante funna er"},{"nr":2,"tekst":"vurdere på kva måtar ulike kjelder gir informasjon om eit samfunnsfagleg tema, og reflektere over korleis algoritmar, einsretta kjelder eller mangel på kjelder kan prege forståinga vår"},{"nr":3,"tekst":"drøfte korleis framstillingar av fortida, hendingar og grupper har påverka og påverkar haldningane og handlingane til folk"},{"nr":4,"tekst":"utforske korleis teknologi har vore og framleis er ein endringsfaktor, og drøfte innverknaden teknologien har hatt og har på enkeltmenneske, samfunn og natur"},{"nr":5,"tekst":"reflektere over korleis menneske har kjempa og kjempar for endringar i samfunnet og samstundes har vore og er påverka av geografiske forhold og historisk kontekst"},{"nr":6,"tekst":"samanlikne korleis politiske, geografiske og historiske forhold påverkar levekår, busetjingsmønster og demografi i forskjellige delar av verda i dag"},{"nr":7,"tekst":"gjere greie for årsaker til og konsekvensar av sentrale historiske og notidige konfliktar og reflektere over om endringar av nokre føresetnader kunne ha hindra konfliktane"},{"nr":8,"tekst":"gjere greie for årsaker til og konsekvensar av terrorhandlingar og folkemord, som holocaust, og reflektere over korleis ekstreme haldningar og ekstreme handlingar kan førebyggjast"},{"nr":9,"tekst":"utforske og beskrive korleis menneske- og urfolksrettar og andre internasjonale avtalar og samarbeid har betydning for nasjonal politikk, livet til menneske, likestilling og likeverd"},{"nr":10,"tekst":"gjere greie for fornorsking av samane og dei nasjonale minoritetane og uretten dei har vore utsette for, og reflektere over kva konsekvensar det har hatt og har på individ- og samfunnsnivå"},{"nr":11,"tekst":"beskrive ulike dimensjonar ved berekraftig utvikling og korleis dei påverkar kvarandre, og presentere tiltak for meir berekraftige samfunn"},{"nr":12,"tekst":"vurdere korleis arbeid, inntekt og forbruk kan påverke personleg økonomi, levestandard og livskvalitet"},{"nr":13,"tekst":"reflektere over likskapar og ulikskapar i identitetar, levesett og kulturuttrykk og drøfte moglegheiter og utfordringar ved mangfald"},{"nr":14,"tekst":"utforske og reflektere over eigne digitale spor og høvet til å få sletta spora og å verne om retten ein sjølv og andre har til privatliv, personvern og opphavsrett"},{"nr":15,"tekst":"reflektere over korleis identitet, sjølvbilete og eigne grenser blir utvikla og utfordra i ulike fellesskap, og presentere forslag til korleis ein kan handtere påverknad og uønskte hendingar"},{"nr":16,"tekst":"reflektere over kva for aktørar som har makt i samfunnet i dag, og korleis desse grunngir standpunkta sine"},{"nr":17,"tekst":"utforske ulike plattformer for digital samhandling og reflektere over korleis digital deltaking og samhandling påverkar forma på og innhaldet i samfunnsdebatten"},{"nr":18,"tekst":"beskrive sentrale lover, reglar og normer og drøfte kva konsekvensar brot på desse kan ha for den enkelte og for samfunnet på kort og lang sikt"},{"nr":19,"tekst":"beskrive trekk ved det politiske systemet og velferdssamfunnet i Noreg i dag og reflektere over sentrale utfordringar"}]'::jsonb, 4),
-  ('krle-9', '9', 'KRLE', null, null, '[]'::jsonb, 5),
+  ('krle-9', '9', 'KRLE', 'RLE01-04', 'https://www.udir.no/lk20/rle01-04/kompetansemaal-og-vurdering/kv1145', '[{"nr":1,"tekst":"utforske og presentere sentrale trekk ved kristendom og andre religions- og livssynstradisjoner og deres utbredelse i dag"},{"nr":2,"tekst":"utforske og drøfte hvordan kristendom og andre religioner inngår i historiske endringsprosesser globalt og nasjonalt"},{"nr":3,"tekst":"undersøke og presentere sentrale ideer fra livssynshumanisme og andre ikke-religiøse livssyn"},{"nr":4,"tekst":"utforske og presentere religiøst mangfold og religiøse praksiser utenfor etablerte religionssamfunn"},{"nr":5,"tekst":"gjøre rede for og reflektere over samenes og andre urfolks religions- og livssynstradisjoner"},{"nr":6,"tekst":"bruke og drøfte fagbegreper om religioner og livssyn"},{"nr":7,"tekst":"sammenligne og vurdere kritisk ulike kilder til kunnskap om religioner og livssyn"},{"nr":8,"tekst":"gjøre rede for og reflektere over ulike syn på kjønn og seksualitet i kristendom og andre religioner og livssyn"},{"nr":9,"tekst":"utforske og presentere hvordan elementer fra kristendom og andre religioner og livssyn kommer til uttrykk i medier og populærkultur"},{"nr":10,"tekst":"utforske og sammenligne etiske ideer fra sentrale skikkelser i religiøse og livssynsbaserte tradisjoner"},{"nr":11,"tekst":"utforske etiske ideer fra sentrale skikkelser i filosofihistorien og anvende ideene til å drøfte aktuelle etiske spørsmål"},{"nr":12,"tekst":"utforske andres perspektiv og håndtere uenighet og meningsbrytning"},{"nr":13,"tekst":"reflektere over eksistensielle spørsmål knyttet til det å vokse opp og leve i et mangfoldig og globalt samfunn"},{"nr":14,"tekst":"identifisere og drøfte etiske problemstillinger knyttet til ulike former for kommunikasjon"},{"nr":15,"tekst":"identifisere og drøfte aktuelle etiske problemstillinger knyttet til menneskerettigheter, bærekraft og fattigdom"}]'::jsonb, 5),
   ('tysk-9', '9', 'Tysk', null, null, '[]'::jsonb, 6),
   ('fransk-9', '9', 'Fransk', null, null, '[]'::jsonb, 7),
   ('spansk-9', '9', 'Spansk', null, null, '[]'::jsonb, 8),
@@ -39,7 +39,7 @@ insert into public.fag (id, trinn_id, navn, lareplan_kode, lareplan_url, kompeta
   ('engelsk-10', '10', 'Engelsk', 'ENG01-06', 'https://www.udir.no/lk20/eng01-06/kompetansemaal-og-vurdering/kv1033', '[{"nr":1,"tekst":"bruke varierte strategier i språklæring, tekstskaping og kommunikasjon"},{"nr":2,"tekst":"bruke ulike digitale ressurser og andre hjelpemidler i språklæring, tekstskaping og samhandling"},{"nr":3,"tekst":"bruke sentrale mønstre for uttale i kommunikasjon"},{"nr":4,"tekst":"lytte til og forstå ord og uttrykk i varianter av engelsk"},{"nr":5,"tekst":"uttrykke seg med flyt og sammenheng med et variert ordforråd og idiomatiske uttrykk tilpasset formål, mottaker og situasjon"},{"nr":6,"tekst":"stille spørsmål og følge opp innspill i samtaler om ulike emner tilpasset ulike formål, mottakere og situasjoner"},{"nr":7,"tekst":"utforske og beskrive noen språklige likheter og ulikheter mellom engelsk og andre språk eleven kjenner til, og bruke dette i egen språklæring"},{"nr":8,"tekst":"bruke kunnskap om ordklasser og setningsstruktur i arbeid med egne muntlige og skriftlige tekster"},{"nr":9,"tekst":"følge regler for rettskriving, ordbøying, setningsstruktur og tekststruktur"},{"nr":10,"tekst":"lese, diskutere og videreformidle innhold fra ulike typer tekster, inkludert selvvalgte tekster"},{"nr":11,"tekst":"lese, tolke og reflektere over engelskspråklig skjønnlitteratur, inkludert ungdomslitteratur"},{"nr":12,"tekst":"lese sakprosatekster og vurdere hvor pålitelige kildene er"},{"nr":13,"tekst":"bruke kilder på en kritisk og etterrettelig måte"},{"nr":14,"tekst":"skrive formelle og uformelle tekster, inkludert sammensatte, med struktur og sammenheng som beskriver, forteller og reflekterer tilpasset formål, mottaker og situasjon"},{"nr":15,"tekst":"bearbeide egne tekster ut fra tilbakemeldinger og kunnskap om språk"},{"nr":16,"tekst":"beskrive og reflektere over rollen engelsk har i Norge og i verden"},{"nr":17,"tekst":"utforske og reflektere over situasjonen til urfolk i den engelskspråklige verden og i Norge"},{"nr":18,"tekst":"utforske og beskrive levemåter, tenkesett, kommunikasjonsmønstre og mangfold i den engelskspråklige verden"},{"nr":19,"tekst":"utforske og videreformidle innhold i engelskspråklige kulturelle uttrykksformer fra ulike medier knyttet til egne interesser"}]'::jsonb, 2),
   ('naturfag-10', '10', 'Naturfag', 'NAT01-05', 'https://www.udir.no/lk20/nat01-05/kompetansemaal-og-vurdering/kv1078', '[{"nr":1,"tekst":"stille spørsmål og lage hypoteser om naturfaglige fenomener, identifisere avhengige og uavhengige variabler og samle data for å finne svar"},{"nr":2,"tekst":"analysere og bruke innsamlede data til å lage forklaringer, drøfte forklaringene i lys av relevant teori og vurdere kvaliteten på egne og andres utforskinger"},{"nr":3,"tekst":"bruke og lage modeller for å forutsi eller beskrive naturfaglige prosesser og systemer og gjøre rede for modellenes styrker og begrensninger"},{"nr":4,"tekst":"delta i risikovurderinger knyttet til forsøk og følge sikkerhetstiltakene"},{"nr":5,"tekst":"gi eksempler på dagsaktuell forskning og drøfte hvordan ny kunnskap genereres gjennom samarbeid og kritisk tilnærming til eksisterende kunnskap"},{"nr":6,"tekst":"utforske, forstå og lage teknologiske systemer som består av en sender og en mottaker"},{"nr":7,"tekst":"bruke programmering til å utforske naturfaglige fenomener"},{"nr":8,"tekst":"utforske kjemiske reaksjoner, forklare massebevaring og gjøre rede for betydninger av noen forbrenningsreaksjoner"},{"nr":9,"tekst":"bruke atommodeller og periodesystemet til å gjøre rede for egenskaper til grunnstoffer og kjemiske forbindelser"},{"nr":10,"tekst":"beskrive drivhuseffekten og gjøre rede for faktorer som kan forårsake globale klimaendringer"},{"nr":11,"tekst":"gjøre rede for energibevaring og energikvalitet og utforske ulike måter å omdanne, transportere og lagre energi på"},{"nr":12,"tekst":"drøfte hvordan energiproduksjon og energibruk kan påvirke miljøet lokalt og globalt"},{"nr":13,"tekst":"beskrive hvordan forskere har kommet fram til evolusjonsteorien og bruke denne til å forklare utvikling av biologisk mangfold"},{"nr":14,"tekst":"sammenligne celler hos ulike organismer og beskrive sammenhenger mellom oppbygning og funksjon"},{"nr":15,"tekst":"utforske sammenhenger mellom abiotiske og biotiske faktorer i et økosystem og diskutere hvordan energi og materie omdannes i kretsløp"},{"nr":16,"tekst":"gi eksempler på og drøfte aktuelle dilemmaer knyttet til utnyttelse av naturressurser og tap av biologisk mangfold"},{"nr":17,"tekst":"gi eksempler på samers tradisjonelle kunnskap om naturen og diskutere hvordan denne kunnskapen kan bidra til bærekraftig forvaltning av naturen"},{"nr":18,"tekst":"gjøre rede for hvordan fotosyntese og celleånding gir energi til alt levende gjennom karbonkretsløpet"},{"nr":19,"tekst":"bruke platetektonikkteorien til å forklare jordas utvikling over tid og gi eksempler på observasjoner som støtter teorien"},{"nr":20,"tekst":"drøfte spørsmål knyttet til seksuell og reproduktiv helse"},{"nr":21,"tekst":"sammenligne nervesystemet og hormonsystemet og beskrive hvordan rusmidler, legemidler, miljøgifter og doping påvirker signalsystemene"},{"nr":22,"tekst":"beskrive kroppens immunforsvar og hvordan vaksiner virker, og gjøre rede for hva vaksiner betyr for folkehelsen"}]'::jsonb, 3),
   ('samfunnsfag-10', '10', 'Samfunnsfag', 'SAF01-05', 'https://www.udir.no/lk20/saf01-05/kompetansemaal-og-vurdering/kv1151', '[{"nr":1,"tekst":"bruke samfunnsfaglege metodar og digitale ressursar i eigne undersøkingar, presentere funn ved bruk av digitale verktøy og drøfte kor gyldige og relevante funna er"},{"nr":2,"tekst":"vurdere på kva måtar ulike kjelder gir informasjon om eit samfunnsfagleg tema, og reflektere over korleis algoritmar, einsretta kjelder eller mangel på kjelder kan prege forståinga vår"},{"nr":3,"tekst":"drøfte korleis framstillingar av fortida, hendingar og grupper har påverka og påverkar haldningane og handlingane til folk"},{"nr":4,"tekst":"utforske korleis teknologi har vore og framleis er ein endringsfaktor, og drøfte innverknaden teknologien har hatt og har på enkeltmenneske, samfunn og natur"},{"nr":5,"tekst":"reflektere over korleis menneske har kjempa og kjempar for endringar i samfunnet og samstundes har vore og er påverka av geografiske forhold og historisk kontekst"},{"nr":6,"tekst":"samanlikne korleis politiske, geografiske og historiske forhold påverkar levekår, busetjingsmønster og demografi i forskjellige delar av verda i dag"},{"nr":7,"tekst":"gjere greie for årsaker til og konsekvensar av sentrale historiske og notidige konfliktar og reflektere over om endringar av nokre føresetnader kunne ha hindra konfliktane"},{"nr":8,"tekst":"gjere greie for årsaker til og konsekvensar av terrorhandlingar og folkemord, som holocaust, og reflektere over korleis ekstreme haldningar og ekstreme handlingar kan førebyggjast"},{"nr":9,"tekst":"utforske og beskrive korleis menneske- og urfolksrettar og andre internasjonale avtalar og samarbeid har betydning for nasjonal politikk, livet til menneske, likestilling og likeverd"},{"nr":10,"tekst":"gjere greie for fornorsking av samane og dei nasjonale minoritetane og uretten dei har vore utsette for, og reflektere over kva konsekvensar det har hatt og har på individ- og samfunnsnivå"},{"nr":11,"tekst":"beskrive ulike dimensjonar ved berekraftig utvikling og korleis dei påverkar kvarandre, og presentere tiltak for meir berekraftige samfunn"},{"nr":12,"tekst":"vurdere korleis arbeid, inntekt og forbruk kan påverke personleg økonomi, levestandard og livskvalitet"},{"nr":13,"tekst":"reflektere over likskapar og ulikskapar i identitetar, levesett og kulturuttrykk og drøfte moglegheiter og utfordringar ved mangfald"},{"nr":14,"tekst":"utforske og reflektere over eigne digitale spor og høvet til å få sletta spora og å verne om retten ein sjølv og andre har til privatliv, personvern og opphavsrett"},{"nr":15,"tekst":"reflektere over korleis identitet, sjølvbilete og eigne grenser blir utvikla og utfordra i ulike fellesskap, og presentere forslag til korleis ein kan handtere påverknad og uønskte hendingar"},{"nr":16,"tekst":"reflektere over kva for aktørar som har makt i samfunnet i dag, og korleis desse grunngir standpunkta sine"},{"nr":17,"tekst":"utforske ulike plattformer for digital samhandling og reflektere over korleis digital deltaking og samhandling påverkar forma på og innhaldet i samfunnsdebatten"},{"nr":18,"tekst":"beskrive sentrale lover, reglar og normer og drøfte kva konsekvensar brot på desse kan ha for den enkelte og for samfunnet på kort og lang sikt"},{"nr":19,"tekst":"beskrive trekk ved det politiske systemet og velferdssamfunnet i Noreg i dag og reflektere over sentrale utfordringar"}]'::jsonb, 4),
-  ('krle-10', '10', 'KRLE', null, null, '[]'::jsonb, 5),
+  ('krle-10', '10', 'KRLE', 'RLE01-04', 'https://www.udir.no/lk20/rle01-04/kompetansemaal-og-vurdering/kv1145', '[{"nr":1,"tekst":"utforske og presentere sentrale trekk ved kristendom og andre religions- og livssynstradisjoner og deres utbredelse i dag"},{"nr":2,"tekst":"utforske og drøfte hvordan kristendom og andre religioner inngår i historiske endringsprosesser globalt og nasjonalt"},{"nr":3,"tekst":"undersøke og presentere sentrale ideer fra livssynshumanisme og andre ikke-religiøse livssyn"},{"nr":4,"tekst":"utforske og presentere religiøst mangfold og religiøse praksiser utenfor etablerte religionssamfunn"},{"nr":5,"tekst":"gjøre rede for og reflektere over samenes og andre urfolks religions- og livssynstradisjoner"},{"nr":6,"tekst":"bruke og drøfte fagbegreper om religioner og livssyn"},{"nr":7,"tekst":"sammenligne og vurdere kritisk ulike kilder til kunnskap om religioner og livssyn"},{"nr":8,"tekst":"gjøre rede for og reflektere over ulike syn på kjønn og seksualitet i kristendom og andre religioner og livssyn"},{"nr":9,"tekst":"utforske og presentere hvordan elementer fra kristendom og andre religioner og livssyn kommer til uttrykk i medier og populærkultur"},{"nr":10,"tekst":"utforske og sammenligne etiske ideer fra sentrale skikkelser i religiøse og livssynsbaserte tradisjoner"},{"nr":11,"tekst":"utforske etiske ideer fra sentrale skikkelser i filosofihistorien og anvende ideene til å drøfte aktuelle etiske spørsmål"},{"nr":12,"tekst":"utforske andres perspektiv og håndtere uenighet og meningsbrytning"},{"nr":13,"tekst":"reflektere over eksistensielle spørsmål knyttet til det å vokse opp og leve i et mangfoldig og globalt samfunn"},{"nr":14,"tekst":"identifisere og drøfte etiske problemstillinger knyttet til ulike former for kommunikasjon"},{"nr":15,"tekst":"identifisere og drøfte aktuelle etiske problemstillinger knyttet til menneskerettigheter, bærekraft og fattigdom"}]'::jsonb, 5),
   ('tysk-10', '10', 'Tysk', null, null, '[]'::jsonb, 6),
   ('fransk-10', '10', 'Fransk', null, null, '[]'::jsonb, 7),
   ('spansk-10', '10', 'Spansk', null, null, '[]'::jsonb, 8),
@@ -2331,7 +2331,7 @@ insert into public.miniprover (tema_id, minutter) values
 on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Samfunnsfag (8): rydd bort fjernede temaer
-delete from public.temaer where fag_id = 'samfunnsfag-8' and slug not in ('metoder-og-kilder', 'identitet-og-fellesskap');
+delete from public.temaer where fag_id = 'samfunnsfag-8' and slug not in ('metoder-og-kilder', 'identitet-og-fellesskap', 'demokrati-og-politikk', 'lover-og-regler', 'okonomi-og-forbruk', 'befolkning-og-levekar', 'digitale-spor-og-personvern');
 
 -- Samfunnsfag: Samfunnsfaglige metoder og kilder
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
@@ -2490,6 +2490,919 @@ insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, ri
   ('samfunnsfag-8:identitet-og-fellesskap', 'm07', 'flervalg', 'Hva er et eksempel på en negativ sanksjon?', array['Et klapp på skulderen', 'En premie', 'Et smil', 'Å bli ledd av']::text[], 3, 'Negative sanksjoner er reaksjoner på brudd på normer.', false, true, 16);
 insert into public.miniprover (tema_id, minutter) values
   ('samfunnsfag-8:identitet-og-fellesskap', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Samfunnsfag: Demokrati og det politiske systemet
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('samfunnsfag-8:demokrati-og-politikk', 'samfunnsfag-8', 'demokrati-og-politikk', 'Demokrati og det politiske systemet', 'Hva demokrati er, hvordan makten er delt mellom Stortinget, regjeringen og domstolene, hvordan valg og partier fungerer, og hvilke aktører som har makt i samfunnet.', array[19, 16]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('samfunnsfag-8:demokrati-og-politikk', '## Hva er demokrati?
+
+**Demokrati** betyr «folkestyre». I et demokrati bestemmer innbyggerne hvem som skal styre, gjennom frie og hemmelige **valg**. Viktige kjennetegn er ytringsfrihet, organisasjonsfrihet, frie medier, rettsstat og respekt for **mindretallet**. Norge er et **representativt demokrati**: Vi velger representanter som tar beslutninger på våre vegne. I et **direkte demokrati** stemmer folket selv over enkeltsaker, for eksempel i en **folkeavstemning**.
+
+## Maktfordeling
+
+Grunnloven fra 1814 deler makten i tre:
+
+- **Stortinget** er den lovgivende makten. Det vedtar lover og statsbudsjettet og kontrollerer regjeringen. Stortinget har 169 representanter.
+- **Regjeringen** er den utøvende makten. Den ledes av statsministeren og setter vedtakene ut i livet.
+- **Domstolene** er den dømmende makten. De avgjør saker etter lovene.
+
+Maktfordelingen skal hindre at noen får for mye makt. Norge er også et **konstitusjonelt monarki**: Kongen er statsoverhode, men har ingen politisk makt.
+
+## Parlamentarisme
+
+Siden 1884 har Norge hatt **parlamentarisme**. Det betyr at regjeringen må ha tillit fra Stortinget. Vedtar et flertall på Stortinget **mistillit** mot regjeringen, må den gå av.
+
+## Valg og partier
+
+Det er **stortingsvalg** hvert fjerde år og **kommunestyre- og fylkestingsvalg** to år etter. Du har stemmerett hvis du fyller 18 år i løpet av valgåret. **Politiske partier** samler folk med like verdier og lager partiprogram. Partiene plasseres ofte på en **høyre–venstre-akse**: Venstresiden vil gjerne ha mer økonomisk likhet og en større offentlig sektor, mens høyresiden legger mer vekt på private løsninger og lavere skatter.
+
+## Hvem har makt?
+
+Ikke bare politikere har makt. Andre **aktører** påvirker også samfunnet:
+
+- **Interesseorganisasjoner**, som fagforeninger og miljøorganisasjoner, driver lobbyvirksomhet og aksjoner.
+- **Mediene** kalles ofte den «fjerde statsmakt», fordi de setter dagsorden og kontrollerer makthaverne.
+- **Næringslivet** har økonomisk makt gjennom investeringer og arbeidsplasser.
+- **Enkeltpersoner og influensere** kan nå mange gjennom sosiale medier.
+
+Aktørene **grunngir standpunktene sine** ulikt: med verdier, fakta, egeninteresse eller hensynet til fellesskapet. Når du vurderer et utspill, bør du spørre hvem som står bak, og hvilke interesser de har.
+
+## Ungdom og påvirkning
+
+Du kan påvirke lenge før du får stemmerett: gjennom elevrådet, ungdomsrådet i kommunen, ungdomspartier, organisasjoner, underskriftskampanjer og demonstrasjoner.', '{"label":"Demokrati og politikk","children":[{"label":"Demokrati","children":[{"label":"Folkestyre"},{"label":"Representativt"},{"label":"Direkte","note":"Folkeavstemning"},{"label":"Rettigheter og mindretallsvern"}]},{"label":"Maktfordeling","children":[{"label":"Stortinget","note":"Lovgivende"},{"label":"Regjeringen","note":"Utøvende"},{"label":"Domstolene","note":"Dømmende"}]},{"label":"Styreform","children":[{"label":"Grunnloven","note":"1814"},{"label":"Konstitusjonelt monarki"},{"label":"Parlamentarisme","note":"1884"}]},{"label":"Valg og partier","children":[{"label":"Stortingsvalg","note":"Hvert 4. år"},{"label":"Lokalvalg"},{"label":"Stemmerett fra 18"},{"label":"Høyre og venstre"}]},{"label":"Makt","children":[{"label":"Organisasjoner"},{"label":"Medier"},{"label":"Næringsliv"},{"label":"Influensere"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'samfunnsfag-8:demokrati-og-politikk';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('samfunnsfag-8:demokrati-og-politikk', 'Demokrati', 'Folkestyre, der innbyggerne velger hvem som skal styre.', 0),
+  ('samfunnsfag-8:demokrati-og-politikk', 'Representativt demokrati', 'Folket velger representanter som tar beslutninger på deres vegne.', 1),
+  ('samfunnsfag-8:demokrati-og-politikk', 'Direkte demokrati', 'Folket stemmer selv over enkeltsaker, for eksempel i en folkeavstemning.', 2),
+  ('samfunnsfag-8:demokrati-og-politikk', 'Maktfordeling', 'Makten er delt mellom lovgivende, utøvende og dømmende makt.', 3),
+  ('samfunnsfag-8:demokrati-og-politikk', 'Stortinget', 'Den lovgivende makten med 169 representanter. Vedtar lover og statsbudsjett.', 4),
+  ('samfunnsfag-8:demokrati-og-politikk', 'Regjeringen', 'Den utøvende makten, ledet av statsministeren.', 5),
+  ('samfunnsfag-8:demokrati-og-politikk', 'Domstolene', 'Den dømmende makten, som avgjør saker etter lovene.', 6),
+  ('samfunnsfag-8:demokrati-og-politikk', 'Grunnloven', 'Norges øverste lov, vedtatt i 1814.', 7),
+  ('samfunnsfag-8:demokrati-og-politikk', 'Konstitusjonelt monarki', 'Kongen er statsoverhode, men makten er bundet av Grunnloven.', 8),
+  ('samfunnsfag-8:demokrati-og-politikk', 'Parlamentarisme', 'Regjeringen må ha tillit fra Stortinget. Innført i Norge i 1884.', 9),
+  ('samfunnsfag-8:demokrati-og-politikk', 'Mistillit', 'Når et flertall på Stortinget vedtar at regjeringen må gå av.', 10),
+  ('samfunnsfag-8:demokrati-og-politikk', 'Stemmerett', 'Retten til å stemme ved valg, fra året du fyller 18.', 11),
+  ('samfunnsfag-8:demokrati-og-politikk', 'Politisk parti', 'Organisasjon av folk med like verdier som stiller til valg.', 12),
+  ('samfunnsfag-8:demokrati-og-politikk', 'Interesseorganisasjon', 'Organisasjon som prøver å påvirke politikken i saker medlemmene er opptatt av.', 13),
+  ('samfunnsfag-8:demokrati-og-politikk', 'Den fjerde statsmakt', 'Mediene, som setter dagsorden og kontrollerer makthaverne.', 14);
+delete from public.quiz_sporsmal where tema_id = 'samfunnsfag-8:demokrati-og-politikk';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('samfunnsfag-8:demokrati-og-politikk', 'q01', 'flervalg', 'Hva betyr demokrati?', array['Styre av de rike', 'Folkestyre', 'Styre av kongen', 'Styre av militæret']::text[], 1, 'Ordet kommer fra gresk og betyr at folket styrer.', true, true, 0),
+  ('samfunnsfag-8:demokrati-og-politikk', 'q02', 'flervalg', 'Hvilken statsmakt vedtar lovene i Norge?', array['Regjeringen', 'Domstolene', 'Kongen', 'Stortinget']::text[], 3, 'Stortinget er den lovgivende makten.', true, true, 1),
+  ('samfunnsfag-8:demokrati-og-politikk', 'q03', 'flervalg', 'Hvorfor er makten delt i tre?', array['For å hindre at noen får for mye makt', 'For å spare penger', 'Fordi det var enklest i 1814', 'For at kongen skal bestemme mest']::text[], 0, 'Statsmaktene kontrollerer hverandre, slik at makten ikke samles på én hånd.', true, true, 2),
+  ('samfunnsfag-8:demokrati-og-politikk', 'q04', 'flervalg', 'Hva betyr parlamentarisme?', array['At kongen velger regjeringen fritt', 'At det er valg hvert år', 'At regjeringen må ha tillit fra Stortinget', 'At domstolene lager lover']::text[], 2, 'Mister regjeringen tilliten fra et flertall på Stortinget, må den gå av.', true, true, 3),
+  ('samfunnsfag-8:demokrati-og-politikk', 'q05', 'flervalg', 'Hvor ofte er det stortingsvalg?', array['Hvert år', 'Hvert andre år', 'Hvert fjerde år', 'Hvert sjette år']::text[], 2, 'Kommunestyre- og fylkestingsvalg holdes to år etter stortingsvalget.', true, true, 4),
+  ('samfunnsfag-8:demokrati-og-politikk', 'q06', 'flervalg', 'Hva er et representativt demokrati?', array['Folket velger representanter som tar beslutninger', 'Folket stemmer over alle saker', 'Én person bestemmer alt', 'Bare representanter har stemmerett']::text[], 0, 'Norge er et representativt demokrati der vi velger politikere til Stortinget og kommunestyrene.', true, true, 5),
+  ('samfunnsfag-8:demokrati-og-politikk', 'q07', 'flervalg', 'Hvorfor kalles mediene den fjerde statsmakt?', array['Fordi de vedtar lover', 'Fordi de dømmer i rettssaker', 'Fordi de eies av staten', 'Fordi de setter dagsorden og kontrollerer makthaverne']::text[], 3, 'Mediene har stor påvirkning, selv om de ikke er en formell statsmakt.', true, true, 6),
+  ('samfunnsfag-8:demokrati-og-politikk', 'q08', 'flervalg', 'Hva gjør en interesseorganisasjon?', array['Dømmer i saker', 'Prøver å påvirke politikken i saker medlemmene er opptatt av', 'Leder regjeringen', 'Teller stemmer ved valg']::text[], 1, 'Fagforeninger og miljøorganisasjoner er eksempler på interesseorganisasjoner.', true, true, 7),
+  ('samfunnsfag-8:demokrati-og-politikk', 'q09', 'flervalg', 'Hvem er statsoverhode i Norge?', array['Kongen', 'Statsministeren', 'Stortingspresidenten', 'Lederen av Høyesterett']::text[], 0, 'Kongen er statsoverhode, men den politiske makten ligger hos Stortinget og regjeringen.', true, false, 8),
+  ('samfunnsfag-8:demokrati-og-politikk', 'q10', 'flervalg', 'Hvordan kan en 14-åring påvirke politikken?', array['Ved å stemme ved stortingsvalget', 'Ved å bli statsråd', 'Det er ikke mulig', 'Gjennom elevråd, ungdomsråd og organisasjoner']::text[], 3, 'Ungdom kan påvirke på mange måter før de får stemmerett.', true, false, 9),
+  ('samfunnsfag-8:demokrati-og-politikk', 'm01', 'sant-usant', 'Stortinget har 169 representanter.', array['Sant', 'Usant']::text[], 0, 'Representantene velges fra valgdistrikter over hele landet.', false, true, 10),
+  ('samfunnsfag-8:demokrati-og-politikk', 'm02', 'sant-usant', 'Kongen har stor politisk makt i Norge i dag.', array['Sant', 'Usant']::text[], 1, 'Kongen er statsoverhode, men har en symbolsk og samlende rolle.', false, true, 11),
+  ('samfunnsfag-8:demokrati-og-politikk', 'm03', 'sant-usant', 'Kommunestyre- og fylkestingsvalg holdes to år etter stortingsvalget.', array['Sant', 'Usant']::text[], 0, 'Derfor er det et valg i Norge annethvert år.', false, true, 12),
+  ('samfunnsfag-8:demokrati-og-politikk', 'm04', 'sant-usant', 'I et demokrati trenger flertallet ikke å ta hensyn til mindretallet.', array['Sant', 'Usant']::text[], 1, 'Respekt for mindretallets rettigheter er et viktig kjennetegn ved demokrati.', false, true, 13),
+  ('samfunnsfag-8:demokrati-og-politikk', 'm05', 'flervalg', 'Hvilken statsmakt er domstolene?', array['Den lovgivende', 'Den utøvende', 'Den dømmende', 'Den fjerde']::text[], 2, 'Domstolene avgjør saker etter lovene Stortinget har vedtatt.', false, true, 14),
+  ('samfunnsfag-8:demokrati-og-politikk', 'm06', 'flervalg', 'Hva skjer hvis et flertall på Stortinget vedtar mistillit mot regjeringen?', array['Regjeringen må gå av', 'Kongen må abdisere', 'Stortinget oppløses', 'Ingenting']::text[], 0, 'Dette følger av parlamentarismen.', false, true, 15),
+  ('samfunnsfag-8:demokrati-og-politikk', 'm07', 'flervalg', 'Hva er en folkeavstemning?', array['Et møte i Stortinget', 'At folket stemmer direkte over en enkeltsak', 'En meningsmåling', 'Et partimøte']::text[], 1, 'Norge har for eksempel hatt folkeavstemninger om EU-medlemskap i 1972 og 1994.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('samfunnsfag-8:demokrati-og-politikk', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Samfunnsfag: Lover, regler og normer
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('samfunnsfag-8:lover-og-regler', 'samfunnsfag-8', 'lover-og-regler', 'Lover, regler og normer', 'Forskjellen på normer, regler og lover, hvordan rettsstaten fungerer, hvilke straffer som finnes, og hvilke konsekvenser lovbrudd kan få for den enkelte og for samfunnet.', array[18]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('samfunnsfag-8:lover-og-regler', '## Normer, regler og lover
+
+Samfunnet trenger felles spilleregler. **Normer** er uskrevne regler for hvordan vi bør oppføre oss, som å stå i kø. **Regler** er skrevne og gjelder et bestemt sted eller en bestemt aktivitet, som skolens ordensreglement eller reglene i fotball. **Lover** er vedtatt av Stortinget og gjelder alle i landet. Brudd på lover kan straffes av staten.
+
+## Hvorfor har vi lover?
+
+Lover skal beskytte liv, helse, eiendom og rettigheter, skape trygghet og løse konflikter på en rettferdig måte. **Grunnloven** er den øverste loven. Andre viktige lover er **straffeloven**, som sier hva som er straffbart, vegtrafikkloven og opplæringslova, som gir deg rett til skolegang.
+
+## Rettsstaten
+
+Norge er en **rettsstat**. Det betyr blant annet at
+
+- alle er like for loven
+- ingen kan straffes uten at det står i loven
+- du er uskyldig til det motsatte er bevist
+- du har rett til en forsvarer
+- saker avgjøres av uavhengige domstoler
+
+**Politiet** etterforsker lovbrudd, og **påtalemyndigheten** bestemmer om noen skal tiltales. Domstolene har tre nivåer: **tingretten**, **lagmannsretten** og **Høyesterett**.
+
+## Straff og reaksjoner
+
+Den **kriminelle lavalderen** i Norge er 15 år. Barn under 15 kan ikke straffes, men barnevernet kan gripe inn, og de kan måtte betale erstatning. Vanlige straffer er **bot**, **samfunnsstraff** og **fengsel**. For unge mellom 15 og 18 finnes **ungdomsstraff** og **ungdomsoppfølging**, og mange saker løses i **konfliktrådet**, der partene møtes for å gjøre opp for seg.
+
+Straff har flere formål:
+
+- **Allmennprevensjon**: avskrekke andre fra å begå lovbrudd.
+- **Individualprevensjon**: hindre at den dømte gjør det igjen.
+- **Rehabilitering**: hjelpe den dømte tilbake til et liv uten kriminalitet.
+
+## Konsekvenser av lovbrudd
+
+For **den enkelte** kan et lovbrudd på kort sikt gi straff, skam og konflikter med familie og venner. På lang sikt kan det stå på **politiattesten**, som kreves for en del jobber og utdanninger, for eksempel arbeid med barn. For **samfunnet** gir kriminalitet utrygghet, kostnader og mindre tillit mellom folk.
+
+Også nettet er underlagt loven. Trusler, hatefulle ytringer og deling av nakenbilder av personer under 18 år er straffbart, også om den som deler, selv er under 18.
+
+## Normbrudd
+
+Brudd på normer straffes ikke av staten, men gir **sosiale sanksjoner**, som å bli utestengt eller få et dårlig rykte. På lang sikt kan normer også endre seg, og noen ganger blir de til lover, som forbudet mot røyking på serveringssteder.', '{"label":"Lover og regler","children":[{"label":"Spilleregler","children":[{"label":"Normer","note":"Uskrevne"},{"label":"Regler","note":"Bestemt sted"},{"label":"Lover","note":"Stortinget"}]},{"label":"Rettsstaten","children":[{"label":"Like for loven"},{"label":"Uskyldig til bevist"},{"label":"Tingrett, lagmannsrett, Høyesterett"}]},{"label":"Straff","children":[{"label":"Kriminell lavalder","note":"15 år"},{"label":"Bot, samfunnsstraff, fengsel"},{"label":"Ungdomsstraff"},{"label":"Konfliktråd"}]},{"label":"Formål","children":[{"label":"Allmennprevensjon"},{"label":"Individualprevensjon"},{"label":"Rehabilitering"}]},{"label":"Konsekvenser","children":[{"label":"Den enkelte","note":"Politiattest"},{"label":"Samfunnet","note":"Utrygghet, kostnader"},{"label":"Normbrudd","note":"Sosiale sanksjoner"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'samfunnsfag-8:lover-og-regler';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('samfunnsfag-8:lover-og-regler', 'Norm', 'Uskreven regel for hvordan vi bør oppføre oss.', 0),
+  ('samfunnsfag-8:lover-og-regler', 'Regel', 'Skreven bestemmelse som gjelder et bestemt sted eller en aktivitet.', 1),
+  ('samfunnsfag-8:lover-og-regler', 'Lov', 'Regel vedtatt av Stortinget som gjelder alle i landet.', 2),
+  ('samfunnsfag-8:lover-og-regler', 'Straffeloven', 'Loven som sier hva som er straffbart, og hvilke straffer som kan gis.', 3),
+  ('samfunnsfag-8:lover-og-regler', 'Rettsstat', 'Stat der alle er like for loven og saker avgjøres av uavhengige domstoler.', 4),
+  ('samfunnsfag-8:lover-og-regler', 'Uskyldspresumpsjonen', 'Du er uskyldig til det motsatte er bevist.', 5),
+  ('samfunnsfag-8:lover-og-regler', 'Domstolenes tre nivåer', 'Tingrett, lagmannsrett og Høyesterett.', 6),
+  ('samfunnsfag-8:lover-og-regler', 'Kriminell lavalder', 'Alderen man kan straffes fra. I Norge er den 15 år.', 7),
+  ('samfunnsfag-8:lover-og-regler', 'Samfunnsstraff', 'Straff der den dømte gjør samfunnsnyttig arbeid i stedet for å sitte i fengsel.', 8),
+  ('samfunnsfag-8:lover-og-regler', 'Ungdomsstraff', 'Straffereaksjon for lovbrytere mellom 15 og 18 år med tett oppfølging.', 9),
+  ('samfunnsfag-8:lover-og-regler', 'Konfliktråd', 'Tilbud der gjerningsperson og offer møtes for å løse saken.', 10),
+  ('samfunnsfag-8:lover-og-regler', 'Allmennprevensjon', 'Straff skal avskrekke andre fra å begå lovbrudd.', 11),
+  ('samfunnsfag-8:lover-og-regler', 'Individualprevensjon', 'Straff skal hindre at den dømte gjør det igjen.', 12),
+  ('samfunnsfag-8:lover-og-regler', 'Politiattest', 'Dokument som viser om en person har begått visse lovbrudd. Kreves for noen jobber.', 13),
+  ('samfunnsfag-8:lover-og-regler', 'Sosial sanksjon', 'Reaksjon fra andre på normbrudd, som utestenging.', 14);
+delete from public.quiz_sporsmal where tema_id = 'samfunnsfag-8:lover-og-regler';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('samfunnsfag-8:lover-og-regler', 'q01', 'flervalg', 'Hva er forskjellen på en norm og en lov?', array['Normer er uskrevne, lover er vedtatt av Stortinget', 'Det er ingen forskjell', 'Normer gjelder bare voksne', 'Lover er uskrevne']::text[], 0, 'Bare lovbrudd kan straffes av staten.', true, true, 0),
+  ('samfunnsfag-8:lover-og-regler', 'q02', 'flervalg', 'Hva er den kriminelle lavalderen i Norge?', array['12 år', '15 år', '16 år', '18 år']::text[], 1, 'Barn under 15 år kan ikke straffes, men barnevernet kan gripe inn.', true, true, 1),
+  ('samfunnsfag-8:lover-og-regler', 'q03', 'flervalg', 'Hva er konfliktrådet?', array['En domstol for voksne', 'Et fengsel for unge', 'Et tilbud der partene i en sak møtes for å finne en løsning', 'En komité på Stortinget']::text[], 2, 'I konfliktrådet kan gjerningspersonen gjøre opp for seg overfor den som er rammet.', true, true, 2),
+  ('samfunnsfag-8:lover-og-regler', 'q04', 'flervalg', 'Hva betyr allmennprevensjon?', array['At straff skal gjøre offeret glad', 'At alle får samme straff', 'At straff hindrer den dømte i å gjøre det igjen', 'At straff skal avskrekke andre fra å begå lovbrudd']::text[], 3, 'Tanken er at synlige straffer gjør at færre bryter loven.', true, true, 3),
+  ('samfunnsfag-8:lover-og-regler', 'q05', 'flervalg', 'Hva betyr det at alle er like for loven?', array['At alle får samme lønn', 'At lovene gjelder alle, uansett hvem de er', 'At alle er like sterke', 'At alle må være enige']::text[], 1, 'Også politikere, rike og kjente må følge loven.', true, true, 4),
+  ('samfunnsfag-8:lover-og-regler', 'q06', 'flervalg', 'Hvilken domstol er den høyeste i Norge?', array['Høyesterett', 'Tingretten', 'Lagmannsretten', 'Konfliktrådet']::text[], 0, 'Høyesterett er siste instans, og dommene der kan ikke ankes.', true, true, 5),
+  ('samfunnsfag-8:lover-og-regler', 'q07', 'flervalg', 'Hvorfor kan et lovbrudd i ungdommen få konsekvenser mange år senere?', array['Fordi det kan stå på politiattesten', 'Fordi man mister stemmeretten for alltid', 'Fordi man må flytte fra kommunen', 'Det kan det ikke']::text[], 0, 'Politiattest kreves blant annet for jobber med barn og unge.', true, false, 6),
+  ('samfunnsfag-8:lover-og-regler', 'q08', 'flervalg', 'Hva er et eksempel på en regel som ikke er en lov?', array['Forbudet mot tyveri', 'Fartsgrensen', 'Skolens ordensreglement', 'Skatteplikten']::text[], 2, 'Ordensreglementet gjelder bare på skolen.', true, true, 7),
+  ('samfunnsfag-8:lover-og-regler', 'q09', 'flervalg', 'Hvilket prinsipp hører til en rettsstat?', array['Politiet kan straffe uten rettssak', 'Man er uskyldig til det motsatte er bevist', 'Regjeringen dømmer i straffesaker', 'Lover gjelder bare for noen']::text[], 1, 'Det er påtalemyndigheten som må bevise skyld, ikke den tiltalte som må bevise uskyld.', true, true, 8),
+  ('samfunnsfag-8:lover-og-regler', 'q10', 'flervalg', 'Hva er en konsekvens av kriminalitet for samfunnet?', array['Større trygghet', 'Lavere kostnader', 'Mer tillit', 'Utrygghet og store kostnader']::text[], 3, 'Kriminalitet koster samfunnet penger og svekker tilliten mellom folk.', true, false, 9),
+  ('samfunnsfag-8:lover-og-regler', 'm01', 'sant-usant', 'Barn under 15 år kan ikke straffes i Norge.', array['Sant', 'Usant']::text[], 0, 'Barnevernet kan likevel gripe inn, og man kan måtte betale erstatning.', false, true, 10),
+  ('samfunnsfag-8:lover-og-regler', 'm02', 'sant-usant', 'Grunnloven er den øverste loven i Norge.', array['Sant', 'Usant']::text[], 0, 'Andre lover kan ikke være i strid med Grunnloven.', false, true, 11),
+  ('samfunnsfag-8:lover-og-regler', 'm03', 'sant-usant', 'Brudd på normer kan straffes med fengsel.', array['Sant', 'Usant']::text[], 1, 'Normbrudd gir sosiale sanksjoner. Bare lovbrudd kan straffes av staten.', false, true, 12),
+  ('samfunnsfag-8:lover-og-regler', 'm04', 'sant-usant', 'Det er lov å dele nakenbilder av andre under 18 år hvis du selv er under 18.', array['Sant', 'Usant']::text[], 1, 'Deling av slike bilder er straffbart uansett alderen til den som deler.', false, true, 13),
+  ('samfunnsfag-8:lover-og-regler', 'm05', 'flervalg', 'Hvem etterforsker lovbrudd?', array['Domstolene', 'Politiet', 'Stortinget', 'Konfliktrådet']::text[], 1, 'Politiet samler bevis, og påtalemyndigheten avgjør om det blir tiltale.', false, true, 14),
+  ('samfunnsfag-8:lover-og-regler', 'm06', 'flervalg', 'Hva er målet med rehabilitering?', array['Å gjøre straffen hardere', 'Å skremme andre', 'Å hjelpe den dømte tilbake til et liv uten kriminalitet', 'Å gi offeret erstatning']::text[], 2, 'Norsk kriminalomsorg legger stor vekt på utdanning og arbeid under soning.', false, true, 15),
+  ('samfunnsfag-8:lover-og-regler', 'm07', 'flervalg', 'Hvilken straffereaksjon er laget spesielt for lovbrytere mellom 15 og 18 år?', array['Ungdomsstraff', 'Forvaring', 'Livstidsfengsel', 'Bot']::text[], 0, 'Ungdomsstraff gjennomføres med tett oppfølging, ofte gjennom konfliktrådet.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('samfunnsfag-8:lover-og-regler', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Samfunnsfag: Arbeid, økonomi og forbruk
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('samfunnsfag-8:okonomi-og-forbruk', 'samfunnsfag-8', 'okonomi-og-forbruk', 'Arbeid, økonomi og forbruk', 'Hvordan arbeid, inntekt og forbruk påvirker den personlige økonomien, hvordan du lager et budsjett, hvilke rettigheter du har som forbruker, og forskjellen på levestandard og livskvalitet.', array[12]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('samfunnsfag-8:okonomi-og-forbruk', '## Arbeid og inntekt
+
+De fleste voksne får **inntekt** gjennom lønnet arbeid. Andre inntekter kan være pensjon, dagpenger, studiestøtte og renter. Arbeid gir ikke bare penger, men også fellesskap, mestring og mening. **Bruttolønn** er lønnen før skatt, mens **nettolønn** er det du får utbetalt etter at skatten er trukket. **Skatten** finansierer skoler, sykehus, veier og velferdsordninger som alle har nytte av.
+
+## Budsjett
+
+Et **budsjett** er en oversikt over forventede inntekter og utgifter. Det gjør det lettere å se hva du har råd til.
+
+- **Faste utgifter** kommer jevnlig og er omtrent like store hver gang, som husleie, strøm og mobilabonnement.
+- **Variable utgifter** varierer, som mat, klær og fritid.
+
+Gode vaner er å sette av penger til **sparing** først, å ha en **buffer** til uforutsette utgifter og å sammenligne priser. Når prisene stiger (**inflasjon**), får du mindre for de samme pengene.
+
+## Lån og gjeld
+
+Når du låner penger, betaler du **renter** i tillegg til selve lånet. **Forbrukslån** og kredittkort har ofte høy rente. Ubetalte regninger kan gå til **inkasso**, med ekstra gebyrer, og gi betalingsanmerkning. Ordninger som «kjøp nå, betal senere» gjør det lett å bruke mer enn man har råd til.
+
+## Forbruk og påvirkning
+
+**Reklame**, influensere og algoritmer påvirker hva vi ønsker å kjøpe. Reklame på sosiale medier skal være tydelig merket. Mange opplever **kjøpepress**, for eksempel for å ha de riktige merkeklærne.
+
+Som forbruker har du rettigheter:
+
+- **Angrerett**: Handler du på nett, kan du som hovedregel angre kjøpet innen 14 dager.
+- **Reklamasjon**: Har en vare feil, kan du klage i to år, eller fem år for ting som skal vare lenge.
+
+Er du under 18 år, er du **umyndig**. Du kan bruke penger du har tjent selv, men kan ikke ta opp lån uten samtykke fra foresatte.
+
+## Levestandard og livskvalitet
+
+**Levestandard** handler om materielle forhold: inntekt, bolig og hva vi har råd til. **Livskvalitet** handler om hvordan vi har det: helse, venner, trygghet, fritid og mening. Høyere inntekt gir høyere levestandard, men ikke nødvendigvis bedre livskvalitet. Mer penger betyr mest for dem som har lite. Når grunnbehovene er dekket, blir andre ting, som relasjoner og helse, viktigere.
+
+## Bærekraftig forbruk
+
+Alt vi kjøper, krever ressurser og energi. Å kjøpe brukt, reparere, låne og dele er måter å bruke mindre på, som er bra både for lommeboka og for miljøet.', '{"label":"Økonomi og forbruk","children":[{"label":"Inntekt","children":[{"label":"Arbeid"},{"label":"Brutto og netto"},{"label":"Skatt"}]},{"label":"Budsjett","children":[{"label":"Faste utgifter"},{"label":"Variable utgifter"},{"label":"Sparing og buffer"}]},{"label":"Lån","children":[{"label":"Rente"},{"label":"Forbrukslån og kreditt"},{"label":"Inkasso"}]},{"label":"Forbruker","children":[{"label":"Reklame og influensere"},{"label":"Angrerett","note":"14 dager"},{"label":"Reklamasjon","note":"2 eller 5 år"},{"label":"Umyndig under 18"}]},{"label":"Livet","children":[{"label":"Levestandard"},{"label":"Livskvalitet"},{"label":"Bærekraftig forbruk"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'samfunnsfag-8:okonomi-og-forbruk';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('samfunnsfag-8:okonomi-og-forbruk', 'Inntekt', 'Penger du får, for eksempel lønn, pensjon eller studiestøtte.', 0),
+  ('samfunnsfag-8:okonomi-og-forbruk', 'Bruttolønn', 'Lønn før skatt er trukket.', 1),
+  ('samfunnsfag-8:okonomi-og-forbruk', 'Nettolønn', 'Lønn etter at skatten er trukket, altså det du får utbetalt.', 2),
+  ('samfunnsfag-8:okonomi-og-forbruk', 'Skatt', 'Penger vi betaler til fellesskapet, som finansierer skoler, sykehus og veier.', 3),
+  ('samfunnsfag-8:okonomi-og-forbruk', 'Budsjett', 'Oversikt over forventede inntekter og utgifter.', 4),
+  ('samfunnsfag-8:okonomi-og-forbruk', 'Faste utgifter', 'Utgifter som kommer jevnlig, som husleie og mobilabonnement.', 5),
+  ('samfunnsfag-8:okonomi-og-forbruk', 'Variable utgifter', 'Utgifter som varierer, som mat, klær og fritid.', 6),
+  ('samfunnsfag-8:okonomi-og-forbruk', 'Buffer', 'Sparepenger til uforutsette utgifter.', 7),
+  ('samfunnsfag-8:okonomi-og-forbruk', 'Rente', 'Prisen du betaler for å låne penger.', 8),
+  ('samfunnsfag-8:okonomi-og-forbruk', 'Inkasso', 'Innkreving av ubetalte regninger, med ekstra gebyrer.', 9),
+  ('samfunnsfag-8:okonomi-og-forbruk', 'Inflasjon', 'At prisene stiger, slik at pengene er mindre verdt.', 10),
+  ('samfunnsfag-8:okonomi-og-forbruk', 'Angrerett', 'Rett til å angre et kjøp på nett innen 14 dager.', 11),
+  ('samfunnsfag-8:okonomi-og-forbruk', 'Reklamasjon', 'Å klage på en vare med feil, innen to eller fem år.', 12),
+  ('samfunnsfag-8:okonomi-og-forbruk', 'Levestandard', 'Materielle forhold, som inntekt, bolig og forbruk.', 13),
+  ('samfunnsfag-8:okonomi-og-forbruk', 'Livskvalitet', 'Hvordan vi har det, som helse, relasjoner og trygghet.', 14);
+delete from public.quiz_sporsmal where tema_id = 'samfunnsfag-8:okonomi-og-forbruk';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('samfunnsfag-8:okonomi-og-forbruk', 'q01', 'flervalg', 'Hva er nettolønn?', array['Lønn før skatt', 'Lønn etter at skatten er trukket', 'Lønn for overtid', 'Lønn fra nettbutikker']::text[], 1, 'Nettolønnen er det som faktisk kommer inn på kontoen.', true, true, 0),
+  ('samfunnsfag-8:okonomi-og-forbruk', 'q02', 'flervalg', 'Hva er et budsjett?', array['En oversikt over forventede inntekter og utgifter', 'Et lån i banken', 'En type skatt', 'En kvittering']::text[], 0, 'Budsjettet hjelper deg å planlegge hva du har råd til.', true, true, 1),
+  ('samfunnsfag-8:okonomi-og-forbruk', 'q03', 'flervalg', 'Hvilken er en fast utgift?', array['Kinobillett', 'Godteri', 'Husleie', 'Ny jakke']::text[], 2, 'Husleie betales jevnlig og er omtrent like stor hver måned.', true, true, 2),
+  ('samfunnsfag-8:okonomi-og-forbruk', 'q04', 'flervalg', 'Hvorfor bør man være forsiktig med forbrukslån?', array['Fordi de er rentefrie', 'Fordi de bare gis til barn', 'Fordi de må betales tilbake samme dag', 'Fordi de ofte har høy rente']::text[], 3, 'Høy rente gjør at lånet kan bli svært dyrt over tid.', true, true, 3),
+  ('samfunnsfag-8:okonomi-og-forbruk', 'q05', 'flervalg', 'Hvor lenge har du som hovedregel angrerett når du handler på nett?', array['3 dager', '7 dager', '14 dager', '30 dager']::text[], 2, 'Angrefristen er 14 dager fra du mottok varen.', true, true, 4),
+  ('samfunnsfag-8:okonomi-og-forbruk', 'q06', 'flervalg', 'Hva er forskjellen på levestandard og livskvalitet?', array['Levestandard gjelder materielle forhold, livskvalitet gjelder hvordan vi har det', 'Det er det samme', 'Livskvalitet måles bare i penger', 'Levestandard handler om vennskap']::text[], 0, 'Man kan ha høy levestandard og likevel lav livskvalitet, og omvendt.', true, true, 5),
+  ('samfunnsfag-8:okonomi-og-forbruk', 'q07', 'flervalg', 'Hva må reklame på sosiale medier være?', array['Morsom', 'Tydelig merket som reklame', 'Gratis', 'Skrevet på engelsk']::text[], 1, 'Skjult reklame er ulovlig fordi den lurer forbrukerne.', true, true, 6),
+  ('samfunnsfag-8:okonomi-og-forbruk', 'q08', 'flervalg', 'Hva går skattepengene blant annet til?', array['Private feriereiser', 'Lønn til influensere', 'Reklame for butikker', 'Skoler, sykehus og veier']::text[], 3, 'Skatten finansierer fellesgoder som alle kan bruke.', true, true, 7),
+  ('samfunnsfag-8:okonomi-og-forbruk', 'q09', 'flervalg', 'Hva er en buffer i personlig økonomi?', array['Sparepenger til uforutsette utgifter', 'En type kredittkort', 'Et lån', 'En skatt']::text[], 0, 'Med en buffer slipper du å låne hvis noe uventet skjer.', true, false, 8),
+  ('samfunnsfag-8:okonomi-og-forbruk', 'q10', 'flervalg', 'Hva kan du gjøre som 15-åring uten samtykke fra foresatte?', array['Ta opp et forbrukslån', 'Kjøpe bil på avbetaling', 'Bruke penger du har tjent selv', 'Inngå en boliglånsavtale']::text[], 2, 'Umyndige kan råde over penger de har tjent ved eget arbeid.', true, false, 9),
+  ('samfunnsfag-8:okonomi-og-forbruk', 'm01', 'sant-usant', 'Arbeid gir bare penger og ingen andre goder.', array['Sant', 'Usant']::text[], 1, 'Arbeid gir også fellesskap, mestring og mening.', false, true, 10),
+  ('samfunnsfag-8:okonomi-og-forbruk', 'm02', 'sant-usant', 'Når prisene stiger, får du mindre for de samme pengene.', array['Sant', 'Usant']::text[], 0, 'Dette kalles inflasjon.', false, true, 11),
+  ('samfunnsfag-8:okonomi-og-forbruk', 'm03', 'sant-usant', 'Skjult reklame er lov på sosiale medier.', array['Sant', 'Usant']::text[], 1, 'Reklame skal være tydelig merket, også hos influensere.', false, true, 12),
+  ('samfunnsfag-8:okonomi-og-forbruk', 'm04', 'sant-usant', 'Høyere inntekt betyr mest for dem som har lite fra før.', array['Sant', 'Usant']::text[], 0, 'Når grunnbehovene er dekket, blir andre ting viktigere for livskvaliteten.', false, true, 13),
+  ('samfunnsfag-8:okonomi-og-forbruk', 'm05', 'flervalg', 'Hva er reklamasjon?', array['Å klage på en vare med feil eller mangel', 'Å returnere en vare du angrer på', 'Å lage reklame', 'Å betale med kort']::text[], 0, 'Reklamasjonsfristen er to år, eller fem år for ting som skal vare lenge.', false, true, 14),
+  ('samfunnsfag-8:okonomi-og-forbruk', 'm06', 'flervalg', 'Hva kan skje hvis du ikke betaler en regning?', array['Regningen forsvinner', 'Du får penger tilbake', 'Beløpet blir mindre', 'Saken kan gå til inkasso med ekstra gebyrer']::text[], 3, 'Ubetalte regninger blir dyrere og kan gi betalingsanmerkning.', false, true, 15),
+  ('samfunnsfag-8:okonomi-og-forbruk', 'm07', 'flervalg', 'Hva er et eksempel på bærekraftig forbruk?', array['Å kjøpe nye klær hver uke', 'Å reparere og kjøpe brukt', 'Å kaste ting som har gått i stykker', 'Å handle mest mulig på salg']::text[], 1, 'Å bruke ting lenger sparer både penger og ressurser.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('samfunnsfag-8:okonomi-og-forbruk', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Samfunnsfag: Befolkning, bosetting og levekår
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('samfunnsfag-8:befolkning-og-levekar', 'samfunnsfag-8', 'befolkning-og-levekar', 'Befolkning, bosetting og levekår', 'Hvordan politiske, geografiske og historiske forhold påvirker hvor folk bor, hvordan befolkningen utvikler seg, og hvilke levekår mennesker har i ulike deler av verden.', array[6]::int[], 5, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('samfunnsfag-8:befolkning-og-levekar', '## Demografi
+
+**Demografi** er læren om befolkningen: hvor mange vi er, hvor gamle vi er, og hvordan fødsler, dødsfall og flytting endrer befolkningen. Verdens befolkning passerte **8 milliarder** i 2022. Befolkningsveksten i et land er antall fødte minus antall døde, pluss innvandring minus utvandring.
+
+Viktige mål er **fruktbarhetstallet** (hvor mange barn hver kvinne i gjennomsnitt får) og **forventet levealder**. For at befolkningen skal holde seg stabil uten innvandring, må fruktbarhetstallet være rundt 2,1. I Norge er det godt under dette.
+
+## Den demografiske overgangen
+
+Modellen beskriver hvordan befolkningen endrer seg når et land utvikler seg:
+
+- **Fase 1**: Både fødselsraten og dødsraten er høye, og befolkningen vokser lite.
+- **Fase 2**: Dødsraten synker takket være bedre mat, rent vann og medisin. Befolkningen vokser raskt.
+- **Fase 3**: Fødselsraten synker fordi flere flytter til byer, kvinner får utdanning og prevensjon blir vanlig.
+- **Fase 4**: Begge ratene er lave, og veksten er liten.
+
+En **befolkningspyramide** viser alderssammensetningen. Bred bunn betyr mange barn og unge, som i Niger. Smal bunn og bred topp betyr en aldrende befolkning, som i Japan og Italia.
+
+## Bosetting
+
+**Bosettingsmønsteret** viser hvor folk bor. De fleste bor i lavland nær kyster og elver, der det er vann, godt klima og matjord. Få bor i ørkener, polarområder og høyfjell. Over halvparten av verdens befolkning bor nå i byer. Denne **urbaniseringen** skjer raskest i Afrika og Asia. I Norge snakker vi om **sentralisering**: Mange flytter fra distriktene til byer og tettsteder.
+
+## Levekår
+
+**Levekår** er de materielle og sosiale forholdene folk lever under: inntekt, bolig, helse, utdanning, arbeid og trygghet. FN måler utvikling med **HDI** (indeksen for menneskelig utvikling), som kombinerer levealder, utdanning og inntekt. Norge ligger helt i toppen, mens flere land sør for Sahara ligger nederst.
+
+## Hva forklarer forskjellene?
+
+- **Geografiske forhold**: klima, naturressurser, tørke og flom, tilgang til havet.
+- **Politiske forhold**: stabilitet eller krig, korrupsjon, velferdsordninger og likestilling. Kinas **ettbarnspolitikk** (1980–2015) er et eksempel på politikk som endret demografien.
+- **Historiske forhold**: Kolonitiden trakk grenser og bygde opp økonomier basert på eksport av råvarer, noe som fortsatt preger mange land.
+
+**Migrasjon** påvirkes av **skyvefaktorer**, som krig, fattigdom og naturkatastrofer, og **trekkfaktorer**, som arbeid, trygghet og familie i et annet land.', '{"label":"Befolkning og levekår","children":[{"label":"Demografi","children":[{"label":"Fødsler og dødsfall"},{"label":"Inn- og utvandring"},{"label":"Fruktbarhet og levealder"},{"label":"Befolkningspyramider"}]},{"label":"Demografisk overgang","children":[{"label":"Fase 1","note":"Høye rater"},{"label":"Fase 2","note":"Rask vekst"},{"label":"Fase 3","note":"Færre fødsler"},{"label":"Fase 4","note":"Lav vekst"}]},{"label":"Bosetting","children":[{"label":"Vann, klima og jord"},{"label":"Urbanisering"},{"label":"Sentralisering"}]},{"label":"Levekår","children":[{"label":"Inntekt og bolig"},{"label":"Helse og utdanning"},{"label":"HDI"}]},{"label":"Forklaringer","children":[{"label":"Geografi"},{"label":"Politikk"},{"label":"Historie"},{"label":"Migrasjon"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'samfunnsfag-8:befolkning-og-levekar';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('samfunnsfag-8:befolkning-og-levekar', 'Demografi', 'Læren om befolkningen: størrelse, alder, fødsler, dødsfall og flytting.', 0),
+  ('samfunnsfag-8:befolkning-og-levekar', 'Befolkningsvekst', 'Fødte minus døde, pluss innvandring minus utvandring.', 1),
+  ('samfunnsfag-8:befolkning-og-levekar', 'Fruktbarhetstall', 'Hvor mange barn hver kvinne i gjennomsnitt får.', 2),
+  ('samfunnsfag-8:befolkning-og-levekar', 'Forventet levealder', 'Hvor mange år en nyfødt i gjennomsnitt kan forvente å leve.', 3),
+  ('samfunnsfag-8:befolkning-og-levekar', 'Demografisk overgang', 'Modell for hvordan fødsels- og dødsrater endres når et land utvikler seg.', 4),
+  ('samfunnsfag-8:befolkning-og-levekar', 'Fase 2 i overgangen', 'Dødsraten synker mens fødselsraten er høy, og befolkningen vokser raskt.', 5),
+  ('samfunnsfag-8:befolkning-og-levekar', 'Befolkningspyramide', 'Diagram som viser hvor mange som er i hver aldersgruppe, fordelt på kjønn.', 6),
+  ('samfunnsfag-8:befolkning-og-levekar', 'Bosettingsmønster', 'Hvordan befolkningen er fordelt i et område.', 7),
+  ('samfunnsfag-8:befolkning-og-levekar', 'Urbanisering', 'At en økende andel av befolkningen bor i byer.', 8),
+  ('samfunnsfag-8:befolkning-og-levekar', 'Sentralisering', 'Flytting fra distriktene til byer og tettsteder.', 9),
+  ('samfunnsfag-8:befolkning-og-levekar', 'Levekår', 'Materielle og sosiale forhold som inntekt, bolig, helse og utdanning.', 10),
+  ('samfunnsfag-8:befolkning-og-levekar', 'HDI', 'FNs indeks for menneskelig utvikling: levealder, utdanning og inntekt.', 11),
+  ('samfunnsfag-8:befolkning-og-levekar', 'Skyvefaktor', 'Noe som får folk til å flytte fra et sted, som krig eller fattigdom.', 12),
+  ('samfunnsfag-8:befolkning-og-levekar', 'Trekkfaktor', 'Noe som trekker folk til et sted, som arbeid eller trygghet.', 13),
+  ('samfunnsfag-8:befolkning-og-levekar', 'Ettbarnspolitikken', 'Kinesisk politikk fra 1980 til 2015 som begrenset antall barn per familie.', 14);
+delete from public.quiz_sporsmal where tema_id = 'samfunnsfag-8:befolkning-og-levekar';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('samfunnsfag-8:befolkning-og-levekar', 'q01', 'flervalg', 'Hva er demografi?', array['Læren om befolkningen', 'Læren om fjell og elver', 'Læren om demokrati', 'Læren om økonomi']::text[], 0, 'Demografi handler om befolkningens størrelse, sammensetning og endring.', true, true, 0),
+  ('samfunnsfag-8:befolkning-og-levekar', 'q02', 'flervalg', 'Hva skjer i fase 2 i den demografiske overgangen?', array['Både fødselsraten og dødsraten er høye', 'Dødsraten synker, og befolkningen vokser raskt', 'Fødselsraten synker kraftig', 'Befolkningen går ned']::text[], 1, 'Bedre mat, rent vann og medisin gjør at færre dør, mens det fortsatt fødes mange.', true, true, 1),
+  ('samfunnsfag-8:befolkning-og-levekar', 'q03', 'flervalg', 'Hva viser en befolkningspyramide med bred bunn?', array['En aldrende befolkning', 'At mange flytter ut', 'En befolkning med mange barn og unge', 'At levealderen er høy']::text[], 2, 'Bred bunn betyr at det fødes mange barn.', true, true, 2),
+  ('samfunnsfag-8:befolkning-og-levekar', 'q04', 'flervalg', 'Hvorfor bor få mennesker i Sahara?', array['Fordi det er forbudt', 'Fordi det er for mange byer der', 'Fordi det er for kaldt', 'Fordi det er tørt og lite vann']::text[], 3, 'Tilgang på vann er en av de viktigste forutsetningene for bosetting.', true, true, 3),
+  ('samfunnsfag-8:befolkning-og-levekar', 'q05', 'flervalg', 'Hva er urbanisering?', array['At en økende andel bor i byer', 'At byer blir mindre', 'At skogen vokser', 'At folk flytter til fjells']::text[], 0, 'Over halvparten av verdens befolkning bor nå i byer.', true, true, 4),
+  ('samfunnsfag-8:befolkning-og-levekar', 'q06', 'flervalg', 'Hva måler HDI?', array['Bare inntekt', 'Levealder, utdanning og inntekt', 'Antall byer i et land', 'Hvor mange som stemmer ved valg']::text[], 1, 'HDI gir et bredere bilde av utvikling enn inntekt alene.', true, true, 5),
+  ('samfunnsfag-8:befolkning-og-levekar', 'q07', 'flervalg', 'Hvorfor synker fødselsraten når et land utvikler seg?', array['Fordi det blir færre sykehus', 'Fordi alle flytter ut', 'Fordi kvinner får mer utdanning og tilgang til prevensjon', 'Fordi dødsraten øker']::text[], 2, 'Utdanning, arbeid og byliv gjør at mange velger å få færre barn.', true, true, 6),
+  ('samfunnsfag-8:befolkning-og-levekar', 'q08', 'flervalg', 'Hva er et eksempel på en skyvefaktor for migrasjon?', array['Godt betalt arbeid i et annet land', 'Gode skoler i et annet land', 'Familie som bor i et annet land', 'Krig i hjemlandet']::text[], 3, 'Skyvefaktorer får folk til å forlate et sted.', true, true, 7),
+  ('samfunnsfag-8:befolkning-og-levekar', 'q09', 'flervalg', 'Hvordan kan historiske forhold påvirke levekår i dag?', array['Kolonitiden kan ha gitt økonomier som bygger på eksport av råvarer', 'Historie påvirker aldri levekår', 'Bare klimaet betyr noe', 'Gamle kriger har ingen betydning']::text[], 0, 'Grenser og økonomiske strukturer fra kolonitiden preger fortsatt mange land.', true, false, 8),
+  ('samfunnsfag-8:befolkning-og-levekar', 'q10', 'flervalg', 'Hva er sentralisering i Norge?', array['At folk flytter fra byer til bygder', 'At folk flytter fra distriktene til byer og tettsteder', 'At Oslo blir mindre', 'At alle kommuner slås sammen']::text[], 1, 'Mange flytter dit arbeidsplassene og utdanningstilbudene er.', true, false, 9),
+  ('samfunnsfag-8:befolkning-og-levekar', 'm01', 'sant-usant', 'Verdens befolkning har passert 8 milliarder.', array['Sant', 'Usant']::text[], 0, 'Ifølge FN passerte vi 8 milliarder i 2022.', false, true, 10),
+  ('samfunnsfag-8:befolkning-og-levekar', 'm02', 'sant-usant', 'De fleste mennesker i verden bor i ørken- og fjellområder.', array['Sant', 'Usant']::text[], 1, 'De fleste bor i lavland nær kyster og elver.', false, true, 11),
+  ('samfunnsfag-8:befolkning-og-levekar', 'm03', 'sant-usant', 'Japan har en befolkningspyramide med svært bred bunn.', array['Sant', 'Usant']::text[], 1, 'Japan har få fødsler og en aldrende befolkning, så pyramiden er smal nederst.', false, true, 12),
+  ('samfunnsfag-8:befolkning-og-levekar', 'm04', 'sant-usant', 'Et fruktbarhetstall på rundt 2,1 gir på sikt en stabil befolkning uten innvandring.', array['Sant', 'Usant']::text[], 0, 'Hver generasjon erstatter da seg selv.', false, true, 13),
+  ('samfunnsfag-8:befolkning-og-levekar', 'm05', 'flervalg', 'Hvilken er en trekkfaktor?', array['Arbeidsløshet', 'Naturkatastrofe', 'Gode jobbmuligheter', 'Forfølgelse']::text[], 2, 'Trekkfaktorer gjør et sted attraktivt å flytte til.', false, true, 14),
+  ('samfunnsfag-8:befolkning-og-levekar', 'm06', 'flervalg', 'Hva er forventet levealder?', array['Hvor mange år en nyfødt i gjennomsnitt kan forvente å leve', 'Alderen da man blir pensjonist', 'Den høyeste alderen i et land', 'Alderen da man får stemmerett']::text[], 0, 'Forventet levealder er et viktig mål på helse og levekår.', false, true, 15),
+  ('samfunnsfag-8:befolkning-og-levekar', 'm07', 'flervalg', 'Hva var ettbarnspolitikken?', array['En norsk lov om barnetrygd', 'En regel i Kina som begrenset antall barn per familie', 'En FN-avtale om barns rettigheter', 'En skoleordning i Afrika']::text[], 1, 'Politikken varte fra 1980 til 2015 og har gitt Kina en raskt aldrende befolkning.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('samfunnsfag-8:befolkning-og-levekar', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Samfunnsfag: Digitale spor, personvern og samfunnsdebatt
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('samfunnsfag-8:digitale-spor-og-personvern', 'samfunnsfag-8', 'digitale-spor-og-personvern', 'Digitale spor, personvern og samfunnsdebatt', 'Hvilke digitale spor du legger igjen, hvilke rettigheter du har til personvern, sletting og opphavsrett, og hvordan digitale plattformer påvirker samfunnsdebatten.', array[14, 17]::int[], 6, 'sjekkes', array['Aldersgrensen for samtykke (13 år) kan bli endret hvis foreslått aldersgrense på 15 år for sosiale medier vedtas – sjekk gjeldende regler.']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('samfunnsfag-8:digitale-spor-og-personvern', '## Digitale spor
+
+Hver gang du bruker internett, legger du igjen **digitale spor**. **Aktive spor** er det du selv legger ut: bilder, kommentarer, innlegg og likerklikk. **Passive spor** samles inn uten at du merker det: posisjonen din, søkene dine, hvilke sider du besøker og hvor lenge du ser på en video. Selskaper bruker **informasjonskapsler** (cookies) og algoritmer til å lage en **profil** av deg, som blant annet brukes til målrettet reklame.
+
+## Personvern
+
+**Personvern** handler om retten til et privatliv og retten til å bestemme over opplysninger om deg selv. **Personopplysninger** er alt som kan knyttes til deg, som navn, bilde, adresse, telefonnummer og IP-adresse. I Norge og resten av EØS gjelder **personvernforordningen (GDPR)**. Den gir deg blant annet
+
+- rett til innsyn i hvilke opplysninger som er lagret om deg
+- rett til å få feil rettet
+- **rett til sletting**, ofte kalt «retten til å bli glemt»
+- rett til å trekke tilbake et samtykke
+
+**Datatilsynet** passer på at reglene følges. Fra du er 13 år, kan du selv samtykke til at sosiale medier behandler opplysninger om deg.
+
+## Å slette spor
+
+Du kan slette egne innlegg, be nettsteder slette opplysninger og be søkemotorer fjerne treff. Men det som er delt, kan være kopiert eller tatt skjermbilde av. Derfor er det lurt å tenke før du deler.
+
+## Andres privatliv
+
+Hovedregelen er at du må **spørre om lov** før du deler bilder der andre er hovedmotivet. Å dele krenkende eller private opplysninger om andre kan være ulovlig og gjøre stor skade.
+
+## Opphavsrett
+
+**Opphavsrett** gir den som har laget et verk, som en tekst, et bilde, en sang eller en film, rett til å bestemme over bruken av det. Retten varer til 70 år etter at opphavspersonen er død. Du kan derfor ikke fritt bruke andres bilder eller musikk i egne publiseringer. **Creative Commons**-lisenser lar skapere gi andre lov til å bruke verket på bestemte vilkår.
+
+## Digital samhandling og samfunnsdebatten
+
+Sosiale medier, kommentarfelt, forum og spill er **plattformer for digital samhandling**. De gjør det lett for alle å delta i debatten og å mobilisere mange raskt. Samtidig påvirker de **formen** og **innholdet** i debatten:
+
+- Innleggene blir korte, raske og visuelle.
+- Algoritmer fremhever innhold som vekker sterke følelser, noe som kan gi mer **polarisering**.
+- Vi kan havne i **ekkokamre** der vi mest møter meninger som ligner våre egne.
+- **Hets og hatprat** får mange til å trekke seg fra debatten.
+
+**Ytringsfriheten** er grunnleggende i et demokrati, men den har grenser: Trusler og hatefulle ytringer er straffbare, også på nett.', '{"label":"Digitale spor og personvern","children":[{"label":"Digitale spor","children":[{"label":"Aktive"},{"label":"Passive"},{"label":"Cookies og profiler"}]},{"label":"Personvern","children":[{"label":"Personopplysninger"},{"label":"GDPR"},{"label":"Rett til sletting"},{"label":"Datatilsynet"}]},{"label":"Deling","children":[{"label":"Spør om lov"},{"label":"Tenk før du deler"},{"label":"Samtykke fra 13 år"}]},{"label":"Opphavsrett","children":[{"label":"Tekst, bilde, musikk"},{"label":"70 år etter død"},{"label":"Creative Commons"}]},{"label":"Samfunnsdebatten","children":[{"label":"Alle kan delta"},{"label":"Algoritmer og ekkokamre"},{"label":"Hets og hatprat"},{"label":"Ytringsfrihet med grenser"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'samfunnsfag-8:digitale-spor-og-personvern';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('samfunnsfag-8:digitale-spor-og-personvern', 'Digitale spor', 'Informasjon du etterlater deg når du bruker internett.', 0),
+  ('samfunnsfag-8:digitale-spor-og-personvern', 'Aktive spor', 'Det du selv legger ut, som bilder, kommentarer og likerklikk.', 1),
+  ('samfunnsfag-8:digitale-spor-og-personvern', 'Passive spor', 'Data som samles inn uten at du merker det, som posisjon og søkehistorikk.', 2),
+  ('samfunnsfag-8:digitale-spor-og-personvern', 'Informasjonskapsel (cookie)', 'Liten fil som nettsteder bruker til å huske og spore deg.', 3),
+  ('samfunnsfag-8:digitale-spor-og-personvern', 'Personvern', 'Retten til privatliv og til å bestemme over opplysninger om deg selv.', 4),
+  ('samfunnsfag-8:digitale-spor-og-personvern', 'Personopplysning', 'Opplysning som kan knyttes til deg, som navn, bilde eller IP-adresse.', 5),
+  ('samfunnsfag-8:digitale-spor-og-personvern', 'GDPR', 'Personvernforordningen, som gjelder i EU og EØS, også i Norge.', 6),
+  ('samfunnsfag-8:digitale-spor-og-personvern', 'Rett til sletting', 'Retten til å få opplysninger om deg slettet, «retten til å bli glemt».', 7),
+  ('samfunnsfag-8:digitale-spor-og-personvern', 'Datatilsynet', 'Myndigheten som passer på at personvernreglene følges i Norge.', 8),
+  ('samfunnsfag-8:digitale-spor-og-personvern', 'Samtykke', 'Frivillig og tydelig ja til at noe kan skje, for eksempel at et bilde deles.', 9),
+  ('samfunnsfag-8:digitale-spor-og-personvern', 'Opphavsrett', 'Skaperens rett til å bestemme over bruken av verket sitt, til 70 år etter død.', 10),
+  ('samfunnsfag-8:digitale-spor-og-personvern', 'Creative Commons', 'Lisenser som lar skapere gi andre lov til å bruke verket på bestemte vilkår.', 11),
+  ('samfunnsfag-8:digitale-spor-og-personvern', 'Ekkokammer', 'Nettmiljø der man mest møter meninger som ligner ens egne.', 12),
+  ('samfunnsfag-8:digitale-spor-og-personvern', 'Polarisering', 'At meningene i debatten trekkes mot ytterpunktene.', 13),
+  ('samfunnsfag-8:digitale-spor-og-personvern', 'Hatefulle ytringer', 'Ytringer som truer eller håner noen for blant annet hudfarge, religion eller legning. Straffbart.', 14);
+delete from public.quiz_sporsmal where tema_id = 'samfunnsfag-8:digitale-spor-og-personvern';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('samfunnsfag-8:digitale-spor-og-personvern', 'q01', 'flervalg', 'Hva er et passivt digitalt spor?', array['Et bilde du legger ut', 'En kommentar du skriver', 'Posisjonen din som samles inn uten at du merker det', 'Et innlegg du deler']::text[], 2, 'Passive spor samles inn i bakgrunnen mens du bruker nettet.', true, true, 0),
+  ('samfunnsfag-8:digitale-spor-og-personvern', 'q02', 'flervalg', 'Hva er personopplysninger?', array['Bare passordet ditt', 'Opplysninger som kan knyttes til deg', 'Opplysninger om kjendiser', 'Nyheter om deg i avisen']::text[], 1, 'Navn, bilder, adresse og IP-adresse er eksempler på personopplysninger.', true, true, 1),
+  ('samfunnsfag-8:digitale-spor-og-personvern', 'q03', 'flervalg', 'Hva betyr «retten til å bli glemt»?', array['At du kan be om å få slettet opplysninger om deg', 'At lærere ikke kan huske deg', 'At du kan slette andres innlegg', 'At internett sletter alt etter ett år']::text[], 0, 'Retten til sletting er en del av personvernforordningen.', true, true, 2),
+  ('samfunnsfag-8:digitale-spor-og-personvern', 'q04', 'flervalg', 'Hvem passer på personvernet i Norge?', array['Politiet', 'Stortinget', 'Forbrukerrådet', 'Datatilsynet']::text[], 3, 'Datatilsynet kan gi pålegg og bøter til virksomheter som bryter reglene.', true, true, 3),
+  ('samfunnsfag-8:digitale-spor-og-personvern', 'q05', 'flervalg', 'Hva bør du gjøre før du deler et bilde der en venn er hovedmotivet?', array['Redigere bildet', 'Spørre om lov', 'Ingenting', 'Legge på et filter']::text[], 1, 'Hovedregelen er at den som er avbildet, må samtykke.', true, true, 4),
+  ('samfunnsfag-8:digitale-spor-og-personvern', 'q06', 'flervalg', 'Hva gir opphavsretten?', array['Rett til å bruke alle bilder på nett', 'Rett til å slette andres innlegg', 'Skaperen rett til å bestemme over bruken av verket', 'Staten rett til å sensurere']::text[], 2, 'Du trenger tillatelse for å bruke andres bilder, musikk og tekster.', true, true, 5),
+  ('samfunnsfag-8:digitale-spor-og-personvern', 'q07', 'flervalg', 'Hvorfor samler selskaper inn data om deg?', array['For å lage en profil og vise målrettet reklame', 'For å hjelpe skolen', 'Fordi loven krever det', 'For å slette dem senere']::text[], 0, 'Data om deg er verdifulle fordi de gjør reklamen mer treffsikker.', true, true, 6),
+  ('samfunnsfag-8:digitale-spor-og-personvern', 'q08', 'flervalg', 'Hvordan kan algoritmer påvirke samfunnsdebatten?', array['De gjør alle innlegg like lange', 'De fjerner alt politisk innhold', 'De viser bare nyheter fra staten', 'De kan fremheve innhold som vekker sterke følelser']::text[], 3, 'Engasjerende og polariserende innhold får ofte mer spredning.', true, true, 7),
+  ('samfunnsfag-8:digitale-spor-og-personvern', 'q09', 'flervalg', 'Hva kan være en følge av hets i kommentarfelt?', array['At flere deltar i debatten', 'At noen trekker seg fra debatten', 'At debatten blir mer saklig', 'Ingen følger']::text[], 1, 'Hets kan gjøre at viktige stemmer forsvinner fra samfunnsdebatten.', true, false, 8),
+  ('samfunnsfag-8:digitale-spor-og-personvern', 'q10', 'flervalg', 'Hva er en Creative Commons-lisens?', array['En lisens som lar skapere gi andre lov til å bruke verket', 'Et forbud mot deling', 'Et førerkort for droner', 'En type passord']::text[], 0, 'Lisensen sier hva andre har lov til, for eksempel å dele med navn på skaperen.', true, false, 9),
+  ('samfunnsfag-8:digitale-spor-og-personvern', 'm01', 'sant-usant', 'Et skjermbilde kan gjøre at noe du har slettet, likevel spres videre.', array['Sant', 'Usant']::text[], 0, 'Det som er delt, kan kopieres før du rekker å slette det.', false, true, 10),
+  ('samfunnsfag-8:digitale-spor-og-personvern', 'm02', 'sant-usant', 'Ytringsfriheten betyr at du kan si hva som helst, også trusler.', array['Sant', 'Usant']::text[], 1, 'Trusler og hatefulle ytringer er straffbare.', false, true, 11),
+  ('samfunnsfag-8:digitale-spor-og-personvern', 'm03', 'sant-usant', 'IP-adressen din kan være en personopplysning.', array['Sant', 'Usant']::text[], 0, 'IP-adressen kan brukes til å knytte aktivitet på nett til deg.', false, true, 12),
+  ('samfunnsfag-8:digitale-spor-og-personvern', 'm04', 'sant-usant', 'Opphavsretten forsvinner når et bilde legges ut på internett.', array['Sant', 'Usant']::text[], 1, 'Skaperen har fortsatt opphavsretten, selv om bildet er lett å kopiere.', false, true, 13),
+  ('samfunnsfag-8:digitale-spor-og-personvern', 'm05', 'flervalg', 'Hva er et ekkokammer?', array['Et rom med god akustikk', 'Et nettmiljø der man mest møter meninger som ligner ens egne', 'En type søkemotor', 'Et lydopptak']::text[], 1, 'I ekkokamre blir egne meninger forsterket i stedet for utfordret.', false, true, 14),
+  ('samfunnsfag-8:digitale-spor-og-personvern', 'm06', 'flervalg', 'Hva er GDPR?', array['Personvernforordningen, som også gjelder i Norge', 'En norsk avis', 'En sosial medieplattform', 'Et bildeprogram']::text[], 0, 'GDPR gir alle i EU og EØS de samme grunnleggende personvernrettighetene.', false, true, 15),
+  ('samfunnsfag-8:digitale-spor-og-personvern', 'm07', 'flervalg', 'Hvilken ytring er straffbar?', array['Kritikk av regjeringen', 'En sterk mening om skolemat', 'En hatefull ytring mot noen på grunn av hudfarge', 'En negativ anmeldelse av en film']::text[], 2, 'Straffeloven forbyr hatefulle ytringer mot grupper og enkeltpersoner.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('samfunnsfag-8:digitale-spor-og-personvern', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- KRLE (8): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'krle-8' and slug not in ('kristendommen', 'islam', 'jodedommen', 'livssynshumanisme', 'samisk-religion-og-urfolk', 'etiske-teorier');
+
+-- KRLE: Kristendommen
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('krle-8:kristendommen', 'krle-8', 'kristendommen', 'Kristendommen', 'Jesus og Bibelen, sentrale trosideer og praksiser i kristendommen, de ulike kirkeretningene og hvor kristendommen er utbredt i dag.', array[1, 6]::int[], 0, 'sjekkes', array['Tall for antall kristne i verden (rundt 2,4 milliarder) og andelen medlemmer i Den norske kirke (rundt 60 prosent) bør sjekkes mot ferske tall.']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('krle-8:kristendommen', '## En verdensreligion
+
+**Kristendommen** er verdens største religion, med rundt 2,4 milliarder tilhengere, omtrent en tredjedel av jordas befolkning. Den oppsto i Palestina i det første århundret, med utgangspunkt i livet og læren til **Jesus fra Nasaret**. De kristne tror at Jesus er **Kristus**, «den salvede», og **Guds sønn**.
+
+## Jesus og Bibelen
+
+Jesus var jøde og vokste opp i Galilea. Rundt 30 år gammel begynte han å forkynne om **Guds rike**, helbredet syke og samlet disipler rundt seg. Han ble **korsfestet** i Jerusalem rundt år 30. De kristne tror at han **sto opp fra de døde** den tredje dagen.
+
+**Bibelen** består av **Det gamle testamente**, som kristne deler med jødene, og **Det nye testamente**, som forteller om Jesus og de første kristne. De fire **evangeliene** – Matteus, Markus, Lukas og Johannes – forteller om Jesu liv. Brevene til apostelen **Paulus** hjalp kristendommen å spre seg også blant ikke-jøder.
+
+## Sentrale trosideer
+
+- **Monoteisme**: Det finnes én Gud.
+- **Treenigheten**: Gud er Fader, Sønn og Den hellige ånd – én Gud i tre personer.
+- **Inkarnasjonen**: Gud ble menneske i Jesus.
+- **Synd og nåde**: Mennesket er skilt fra Gud ved synd, men får tilgivelse gjennom Guds nåde.
+- **Frelse**: Gjennom Jesu død og oppstandelse kan mennesker få evig liv.
+- **Nestekjærlighet**: «Du skal elske din neste som deg selv.»
+
+## Praksis
+
+Kristne samles til **gudstjeneste**, ofte på søndager. **Dåp** og **nattverd** er **sakramenter** i de fleste kirker. **Bønn**, særlig **Fadervår**, og lesing i Bibelen er viktig. Kirkeåret har tre store høytider: **jul** (Jesu fødsel), **påske** (Jesu død og oppstandelse) og **pinse** (Den hellige ånd kommer til disiplene).
+
+## Retninger
+
+- **Den katolske kirke** ledes av **paven** i Roma og er den største, med rundt halvparten av verdens kristne.
+- **Den ortodokse kirke** er utbredt i Øst-Europa, blant annet i Hellas, Russland og Ukraina. Den skilte lag med den katolske kirken i 1054.
+- **Protestantiske kirker** oppsto etter **reformasjonen**, som Martin Luther satte i gang i 1517. Den norske kirke er luthersk.
+- **Pinsebevegelsen** og karismatiske kirker legger vekt på Den hellige ånds gaver og vokser raskt.
+
+## Utbredelse i dag
+
+Kristendommen finnes i hele verden. Tidligere bodde de fleste kristne i Europa, men i dag bor flest kristne i **Latin-Amerika** og **Afrika sør for Sahara**. I Norge er rundt 60 prosent av befolkningen medlemmer av **Den norske kirke**. Mange er også med i andre kristne trossamfunn, som Den katolske kirke, som har vokst mye på grunn av innvandring.', '{"label":"Kristendommen","children":[{"label":"Jesus","children":[{"label":"Jøde fra Galilea"},{"label":"Forkynte Guds rike"},{"label":"Korsfestet og oppstått"}]},{"label":"Bibelen","children":[{"label":"Det gamle testamente"},{"label":"Det nye testamente"},{"label":"Fire evangelier"}]},{"label":"Tro","children":[{"label":"Én Gud"},{"label":"Treenigheten"},{"label":"Synd og nåde"},{"label":"Nestekjærlighet"}]},{"label":"Praksis","children":[{"label":"Gudstjeneste og bønn"},{"label":"Dåp og nattverd"},{"label":"Jul, påske, pinse"}]},{"label":"Retninger","children":[{"label":"Katolsk"},{"label":"Ortodoks"},{"label":"Protestantisk"},{"label":"Pinsebevegelsen"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'krle-8:kristendommen';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('krle-8:kristendommen', 'Kristendom', 'Verdens største religion, bygd på livet og læren til Jesus fra Nasaret.', 0),
+  ('krle-8:kristendommen', 'Kristus', 'Betyr «den salvede». Kristne tror Jesus er Kristus og Guds sønn.', 1),
+  ('krle-8:kristendommen', 'Bibelen', 'Kristendommens hellige skrift, med Det gamle og Det nye testamente.', 2),
+  ('krle-8:kristendommen', 'Det nye testamente', 'Den delen av Bibelen som forteller om Jesus og de første kristne.', 3),
+  ('krle-8:kristendommen', 'Evangelium', '«Godt budskap». De fire evangeliene forteller om Jesu liv.', 4),
+  ('krle-8:kristendommen', 'Monoteisme', 'Troen på at det finnes én Gud.', 5),
+  ('krle-8:kristendommen', 'Treenigheten', 'Gud er Fader, Sønn og Den hellige ånd – én Gud i tre personer.', 6),
+  ('krle-8:kristendommen', 'Inkarnasjonen', 'Troen på at Gud ble menneske i Jesus.', 7),
+  ('krle-8:kristendommen', 'Nåde', 'Guds tilgivelse og kjærlighet, som mennesket får uten å fortjene den.', 8),
+  ('krle-8:kristendommen', 'Nestekjærlighet', 'Å elske og hjelpe andre mennesker som seg selv.', 9),
+  ('krle-8:kristendommen', 'Sakrament', 'Hellig handling. Dåp og nattverd er sakramenter i de fleste kirker.', 10),
+  ('krle-8:kristendommen', 'Påske', 'Høytiden for Jesu død og oppstandelse.', 11),
+  ('krle-8:kristendommen', 'Pinse', 'Høytiden der Den hellige ånd kom til disiplene.', 12),
+  ('krle-8:kristendommen', 'Reformasjonen', 'Bruddet med den katolske kirken som Martin Luther satte i gang i 1517.', 13),
+  ('krle-8:kristendommen', 'Hovedretninger', 'Katolsk, ortodoks og protestantisk kristendom.', 14);
+delete from public.quiz_sporsmal where tema_id = 'krle-8:kristendommen';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('krle-8:kristendommen', 'q01', 'flervalg', 'Hva betyr «Kristus»?', array['Den salvede', 'Den hellige', 'Profeten', 'Kongen av Roma']::text[], 0, 'Tittelen viser til at kristne tror Jesus er den lovede frelseren.', true, true, 0),
+  ('krle-8:kristendommen', 'q02', 'flervalg', 'Hva er treenigheten?', array['Tre ulike guder', 'Tre store høytider', 'At Gud er Fader, Sønn og Den hellige ånd – én Gud i tre personer', 'Tre kristne retninger']::text[], 2, 'Kristne tror på én Gud som viser seg på tre måter.', true, true, 1),
+  ('krle-8:kristendommen', 'q03', 'flervalg', 'Hva feirer kristne i påsken?', array['Jesu fødsel', 'Jesu død og oppstandelse', 'At Den hellige ånd kom', 'At Jesus ble døpt']::text[], 1, 'Påsken er kirkeårets viktigste høytid.', true, true, 2),
+  ('krle-8:kristendommen', 'q04', 'flervalg', 'Hvem satte i gang reformasjonen i 1517?', array['Paven', 'Paulus', 'Olav den hellige', 'Martin Luther']::text[], 3, 'Luther kritiserte blant annet salget av avlat i den katolske kirken.', true, true, 3),
+  ('krle-8:kristendommen', 'q05', 'flervalg', 'Hvilke to sakramenter har de fleste kirker?', array['Konfirmasjon og bryllup', 'Bønn og faste', 'Dåp og nattverd', 'Jul og påske']::text[], 2, 'Den katolske og den ortodokse kirken har i tillegg flere sakramenter.', true, true, 4),
+  ('krle-8:kristendommen', 'q06', 'flervalg', 'Hvilken kristen retning er størst i verden?', array['Den katolske kirke', 'Den ortodokse kirke', 'Den lutherske kirke', 'Pinsebevegelsen']::text[], 0, 'Rundt halvparten av verdens kristne er katolikker.', true, true, 5),
+  ('krle-8:kristendommen', 'q07', 'flervalg', 'Hva forteller evangeliene om?', array['Skapelsen av verden', 'Moses og utgangen fra Egypt', 'Reformasjonen', 'Jesu liv, død og oppstandelse']::text[], 3, 'De fire evangeliene er Matteus, Markus, Lukas og Johannes.', true, true, 6),
+  ('krle-8:kristendommen', 'q08', 'flervalg', 'Hvor bor flest kristne i dag?', array['I Nord-Europa', 'I Latin-Amerika og Afrika sør for Sahara', 'I Øst-Asia', 'I Midtøsten']::text[], 1, 'Tyngdepunktet i kristendommen har flyttet seg sørover.', true, true, 7),
+  ('krle-8:kristendommen', 'q09', 'flervalg', 'Hva betyr inkarnasjonen?', array['At Gud ble menneske i Jesus', 'At man blir født på nytt i et annet liv', 'At Jesus sto opp fra de døde', 'At kirken ble grunnlagt']::text[], 0, 'Inkarnasjon betyr «å bli kjød», altså å bli menneske.', true, false, 8),
+  ('krle-8:kristendommen', 'q10', 'flervalg', 'Hva feires i pinsen?', array['Jesu fødsel', 'At Jesus døde', 'At Den hellige ånd kom til disiplene', 'At kirkeåret begynner']::text[], 2, 'Pinsen regnes ofte som kirkens fødselsdag.', true, false, 9),
+  ('krle-8:kristendommen', 'm01', 'sant-usant', 'Kristne deler Det gamle testamente med jødene.', array['Sant', 'Usant']::text[], 0, 'Jødene kaller de samme skriftene Tanak.', false, true, 10),
+  ('krle-8:kristendommen', 'm02', 'sant-usant', 'Jesus vokste opp i Roma.', array['Sant', 'Usant']::text[], 1, 'Jesus var jøde og vokste opp i Galilea.', false, true, 11),
+  ('krle-8:kristendommen', 'm03', 'sant-usant', 'Den norske kirke er luthersk.', array['Sant', 'Usant']::text[], 0, 'Norge ble luthersk etter reformasjonen i 1537.', false, true, 12),
+  ('krle-8:kristendommen', 'm04', 'sant-usant', 'Den ortodokse kirke ledes av paven i Roma.', array['Sant', 'Usant']::text[], 1, 'Paven leder den katolske kirken. Den ortodokse kirken har egne patriarker.', false, true, 13),
+  ('krle-8:kristendommen', 'm05', 'flervalg', 'Hva er monoteisme?', array['Troen på mange guder', 'Troen på én Gud', 'Troen på at det ikke finnes noen gud', 'Troen på gjenfødelse']::text[], 1, 'Kristendom, jødedom og islam er monoteistiske.', false, true, 14),
+  ('krle-8:kristendommen', 'm06', 'flervalg', 'Hvilken bønn lærte Jesus disiplene ifølge Bibelen?', array['Fadervår', 'Trosbekjennelsen', 'Shahada', 'Shema']::text[], 0, 'Fadervår er den mest kjente kristne bønnen.', false, true, 15),
+  ('krle-8:kristendommen', 'm07', 'flervalg', 'Hva betyr nestekjærlighet?', array['Å bare elske familien sin', 'Å gi penger til kirken', 'Å bry seg om og hjelpe andre mennesker', 'Å gå i kirken hver søndag']::text[], 2, 'Lignelsen om den barmhjertige samaritan er et kjent eksempel.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('krle-8:kristendommen', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- KRLE: Islam
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('krle-8:islam', 'krle-8', 'islam', 'Islam', 'Profeten Muhammad, Koranen og sunna, sentrale trosideer, de fem søylene, høytider og de ulike retningene i islam.', array[1, 6]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('krle-8:islam', '## Islam i verden
+
+**Islam** betyr «underkastelse» eller «hengivelse» til Gud, og en **muslim** er en som hengir seg til Gud. Islam er verdens nest største religion, med nesten to milliarder tilhengere. Landet med flest muslimer er **Indonesia**, og bare omtrent én av fem muslimer er araber. Islam er også den nest største religionen i Norge.
+
+## Profeten Muhammad
+
+**Muhammad** ble født i **Mekka** på Den arabiske halvøy rundt år 570. Ifølge islamsk tradisjon fikk han i år 610 den første åpenbaringen fra Gud gjennom engelen **Jibril** (Gabriel). Han forkynte at det bare finnes én Gud, men møtte motstand i Mekka. I **622** dro han og tilhengerne til **Medina**. Denne utvandringen, **hijra**, er starten på den islamske tidsregningen. Da Muhammad døde i 632, var store deler av Arabia blitt muslimsk.
+
+Muslimer regner Muhammad som den siste i en lang rekke profeter, blant dem **Ibrahim** (Abraham), **Musa** (Moses) og **Isa** (Jesus). Derfor kalles islam, jødedommen og kristendommen ofte **abrahamittiske religioner**.
+
+## Koranen og sunna
+
+**Koranen** er islams hellige skrift. Muslimer tror at den er Guds ord, slik det ble åpenbart for Muhammad på arabisk. Den har 114 kapitler, kalt **suraer**. Ved siden av Koranen er **sunna** – Muhammads eksempel slik det er fortalt i **hadith**-samlingene – en viktig rettesnor for hvordan muslimer skal leve.
+
+## Tro
+
+Kjernen i islam er **tawhid**, troen på Guds enhet: Det finnes bare én Gud, **Allah**, som er allmektig og barmhjertig. Muslimer tror også på engler, profetene, de hellige skriftene og **dommens dag**.
+
+## De fem søylene
+
+1. **Shahada**: trosbekjennelsen – «Det finnes ingen gud utenom Gud, og Muhammad er Guds sendebud.»
+2. **Salat**: bønn fem ganger om dagen, vendt mot Mekka.
+3. **Zakat**: å gi en del av formuen sin til fattige.
+4. **Sawm**: å faste fra soloppgang til solnedgang i måneden **ramadan**.
+5. **Hajj**: pilegrimsreise til Mekka minst én gang i livet for dem som har helse og råd.
+
+Muslimer samles i **moskeen**, og fredagsbønnen ledes ofte av en **imam**. De to store høytidene er **id al-fitr**, som avslutter ramadan, og **id al-adha**, offerfesten under pilegrimsreisen.
+
+## Retninger
+
+Etter Muhammads død ble muslimene uenige om hvem som skulle lede dem. De fleste, rundt 85–90 prosent, er **sunnimuslimer**. **Sjiamuslimene** mener at lederskapet skulle gått til Muhammads svigersønn **Ali** og etterkommerne hans. Sjiamuslimer er i flertall blant annet i **Iran** og **Irak**. **Sufisme** er en mystisk retning som søker nærhet til Gud gjennom meditasjon, musikk og dans, og som finnes både blant sunni- og sjiamuslimer.', '{"label":"Islam","children":[{"label":"Muhammad","children":[{"label":"Mekka","note":"ca. 570"},{"label":"Første åpenbaring","note":"610"},{"label":"Hijra","note":"622"},{"label":"Den siste profeten"}]},{"label":"Skrifter","children":[{"label":"Koranen","note":"114 suraer"},{"label":"Sunna og hadith"}]},{"label":"Tro","children":[{"label":"Tawhid"},{"label":"Engler og profeter"},{"label":"Dommens dag"}]},{"label":"Fem søyler","children":[{"label":"Shahada"},{"label":"Salat"},{"label":"Zakat"},{"label":"Sawm"},{"label":"Hajj"}]},{"label":"Retninger","children":[{"label":"Sunni"},{"label":"Sjia"},{"label":"Sufisme"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'krle-8:islam';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('krle-8:islam', 'Islam', '«Underkastelse» eller «hengivelse» til Gud. Verdens nest største religion.', 0),
+  ('krle-8:islam', 'Muslim', 'En som hengir seg til Gud og følger islam.', 1),
+  ('krle-8:islam', 'Muhammad', 'Født i Mekka ca. 570. Regnes som den siste profeten i islam.', 2),
+  ('krle-8:islam', 'Hijra', 'Muhammads utvandring fra Mekka til Medina i 622. Starten på den islamske tidsregningen.', 3),
+  ('krle-8:islam', 'Koranen', 'Islams hellige skrift, som muslimer tror er Guds ord åpenbart på arabisk.', 4),
+  ('krle-8:islam', 'Sura', 'Et kapittel i Koranen. Det finnes 114 suraer.', 5),
+  ('krle-8:islam', 'Sunna og hadith', 'Muhammads eksempel og fortellingene om hva han sa og gjorde.', 6),
+  ('krle-8:islam', 'Tawhid', 'Troen på Guds enhet – at det bare finnes én Gud.', 7),
+  ('krle-8:islam', 'Shahada', 'Trosbekjennelsen: «Det finnes ingen gud utenom Gud, og Muhammad er Guds sendebud.»', 8),
+  ('krle-8:islam', 'Salat', 'Bønn fem ganger om dagen, vendt mot Mekka.', 9),
+  ('krle-8:islam', 'Zakat', 'Plikten til å gi en del av formuen til fattige.', 10),
+  ('krle-8:islam', 'Sawm', 'Faste fra soloppgang til solnedgang i måneden ramadan.', 11),
+  ('krle-8:islam', 'Hajj', 'Pilegrimsreisen til Mekka, en plikt for dem som har helse og råd.', 12),
+  ('krle-8:islam', 'Sunni og sjia', 'Islams to hovedretninger. De skilte lag i striden om hvem som skulle lede etter Muhammad.', 13),
+  ('krle-8:islam', 'Id al-fitr', 'Høytiden som avslutter fasten i ramadan.', 14);
+delete from public.quiz_sporsmal where tema_id = 'krle-8:islam';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('krle-8:islam', 'q01', 'flervalg', 'Hva betyr ordet islam?', array['Fred på jorden', 'Den rette vei', 'Underkastelse eller hengivelse til Gud', 'Profetens lære']::text[], 2, 'En muslim er en som hengir seg til Gud.', true, true, 0),
+  ('krle-8:islam', 'q02', 'flervalg', 'Hvor ble Muhammad født?', array['Mekka', 'Medina', 'Jerusalem', 'Kairo']::text[], 0, 'Mekka er i dag islams helligste by.', true, true, 1),
+  ('krle-8:islam', 'q03', 'flervalg', 'Hva er hijra?', array['Pilegrimsreisen til Mekka', 'Fasten i ramadan', 'Bønnen fem ganger om dagen', 'Muhammads utvandring fra Mekka til Medina i 622']::text[], 3, 'Den islamske kalenderen teller år fra hijra.', true, true, 2),
+  ('krle-8:islam', 'q04', 'flervalg', 'Hva er Koranen for muslimer?', array['En samling fortellinger om Muhammad', 'Guds ord slik det ble åpenbart for Muhammad', 'En lovbok skrevet av kalifene', 'En bønnebok for høytidene']::text[], 1, 'Fortellingene om Muhammad kalles hadith og er ikke en del av Koranen.', true, true, 3),
+  ('krle-8:islam', 'q05', 'flervalg', 'Hvilken søyle handler om å gi til fattige?', array['Salat', 'Zakat', 'Hajj', 'Shahada']::text[], 1, 'Zakat er en fast andel av formuen som gis bort hvert år.', true, true, 4),
+  ('krle-8:islam', 'q06', 'flervalg', 'I hvilken måned faster muslimer?', array['Muharram', 'Shawwal', 'Dhul-hijja', 'Ramadan']::text[], 3, 'Muslimer faster fra soloppgang til solnedgang i hele ramadan.', true, true, 5),
+  ('krle-8:islam', 'q07', 'flervalg', 'Hva er tawhid?', array['Troen på Guds enhet', 'Den islamske kalenderen', 'En type moské', 'Et høytidsmåltid']::text[], 0, 'Tawhid er kjernen i islamsk tro.', true, true, 6),
+  ('krle-8:islam', 'q08', 'flervalg', 'Hva var den opprinnelige uenigheten mellom sunni- og sjiamuslimer?', array['Hvilket språk Koranen skal leses på', 'Om man skal be tre eller fem ganger', 'Hvem som skulle lede muslimene etter Muhammad', 'Om det finnes én Gud']::text[], 2, 'Sjiamuslimene mente at Ali og etterkommerne hans skulle lede.', true, true, 7),
+  ('krle-8:islam', 'q09', 'flervalg', 'Hvilket land har flest muslimer?', array['Saudi-Arabia', 'Egypt', 'Tyrkia', 'Indonesia']::text[], 3, 'De fleste muslimer bor i Asia, ikke i Midtøsten.', true, false, 8),
+  ('krle-8:islam', 'q10', 'flervalg', 'Hvorfor kalles islam en abrahamittisk religion?', array['Fordi Abraham regnes som profet, slik som i jødedom og kristendom', 'Fordi Abraham skrev Koranen', 'Fordi Abraham var den siste profeten', 'Fordi Abraham grunnla Mekka']::text[], 0, 'De tre religionene har felles røtter og deler mange profeter.', true, false, 9),
+  ('krle-8:islam', 'm01', 'sant-usant', 'Muslimer regner Jesus (Isa) som en profet.', array['Sant', 'Usant']::text[], 0, 'Jesus er en viktig profet i islam, men ikke Guds sønn.', false, true, 10),
+  ('krle-8:islam', 'm02', 'sant-usant', 'De fleste muslimer i verden er arabere.', array['Sant', 'Usant']::text[], 1, 'Bare omtrent én av fem muslimer er araber.', false, true, 11),
+  ('krle-8:islam', 'm03', 'sant-usant', 'Hajj er en plikt for alle muslimer som har helse og råd til det.', array['Sant', 'Usant']::text[], 0, 'Pilegrimsreisen skal gjøres minst én gang i livet.', false, true, 12),
+  ('krle-8:islam', 'm04', 'sant-usant', 'Sjiamuslimer er i flertall i Saudi-Arabia.', array['Sant', 'Usant']::text[], 1, 'Saudi-Arabia har sunnimuslimsk flertall. Sjiamuslimer er i flertall i blant annet Iran og Irak.', false, true, 13),
+  ('krle-8:islam', 'm05', 'flervalg', 'Hvilken høytid avslutter ramadan?', array['Id al-adha', 'Id al-fitr', 'Ashura', 'Mawlid']::text[], 1, 'Id al-fitr feires med bønn, gaver og festmåltider.', false, true, 14),
+  ('krle-8:islam', 'm06', 'flervalg', 'Hva kalles den som leder bønnen i moskeen?', array['Imam', 'Kalif', 'Mufti', 'Sultan']::text[], 0, 'Imamen leder bønnen og holder ofte fredagspreken.', false, true, 15),
+  ('krle-8:islam', 'm07', 'flervalg', 'Hva er sufisme?', array['En lovskole', 'En type moské', 'En tidsregning', 'En mystisk retning som søker nærhet til Gud']::text[], 3, 'Sufier bruker blant annet meditasjon, musikk og dans.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('krle-8:islam', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- KRLE: Jødedommen
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('krle-8:jodedommen', 'krle-8', 'jodedommen', 'Jødedommen', 'Pakten med Gud, de hellige skriftene, tro og praksis, høytidene og de ulike retningene i jødedommen, og jødenes historie i verden og i Norge.', array[1, 6]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('krle-8:jodedommen', '## Et folk og en religion
+
+**Jødedommen** er den eldste av de tre **abrahamittiske religionene**. Det er rundt 15 millioner jøder i verden, og de fleste bor i **Israel** og **USA**. Å være jøde kan handle både om religion og om tilhørighet til et folk med felles historie og kultur. Mange jøder er ikke religiøse, men holder likevel på tradisjonene.
+
+## Pakten
+
+Ifølge de hellige skriftene inngikk Gud en **pakt** med **Abraham**: Han skulle bli stamfar til et stort folk, og de skulle få et land. Senere førte **Moses** israelittene ut av slaveriet i Egypt. På fjellet **Sinai** fikk Moses **loven** fra Gud, blant annet **De ti bud**. Å følge loven er å leve i pakten med Gud.
+
+## Hellige skrifter
+
+- **Tanak** er den hebraiske bibelen. Den består av **Toraen** (de fem Mosebøkene), **Profetene** og **Skriftene**. Kristne kaller de samme skriftene Det gamle testamente.
+- **Toraen** er det viktigste. I synagogen leses den fra en håndskrevet rull.
+- **Talmud** er en stor samling tolkninger og diskusjoner av loven, skrevet av rabbinere gjennom flere hundre år.
+
+## Tro
+
+Jødedommen er **monoteistisk**. Den viktigste bønnen, **Shema**, begynner slik: «Hør, Israel! Herren er vår Gud, Herren er én.» Mange jøder venter på **Messias**, en fredskonge som skal komme i framtiden. Jødedommen legger ofte mer vekt på hvordan man lever, enn på hva man tror.
+
+## Praksis
+
+- **Sabbaten** er ukens hviledag, fra fredag kveld til lørdag kveld. Den starter med lys, bønn og et festmåltid.
+- **Synagogen** er stedet for bønn, lesing og undervisning. **Rabbineren** er lærer og leder.
+- **Kosher**-reglene bestemmer hva man kan spise. Det er for eksempel ikke lov å spise svin, og kjøtt og melk holdes adskilt.
+- Guttebabyer **omskjæres** når de er åtte dager gamle. Ved **bar mitsva** (gutter, 13 år) og **bat mitsva** (jenter, 12 eller 13 år) blir man religiøst myndig.
+
+## Høytider
+
+- **Pesach** minner om utgangen fra Egypt.
+- **Rosh hashana** er det jødiske nyttåret, og **jom kippur**, forsoningsdagen, er årets helligste dag med faste og bønn.
+- **Hanukka** er en lysfest i desember.
+
+## Retninger
+
+**Ortodokse** jøder følger loven strengt og mener den er gitt av Gud én gang for alle. **Konservative** jøder følger mye av tradisjonen, men tilpasser den noe. **Reformjøder**, eller liberale jøder, mener at loven kan tolkes på nytt i hver tid.
+
+## Historie
+
+Etter at romerne ødela **tempelet** i Jerusalem i år 70, spredte jødene seg over hele verden. Dette kalles **diasporaen**. Jøder har gjennom historien opplevd **antisemittisme** og forfølgelse, med **Holocaust** som det verste. Staten **Israel** ble opprettet i 1948. I Norge var jøder utestengt fra riket fram til 1851. I dag finnes det synagoger i Oslo og Trondheim.', '{"label":"Jødedommen","children":[{"label":"Historie","children":[{"label":"Abraham og pakten"},{"label":"Moses og Sinai"},{"label":"Diaspora"},{"label":"Israel","note":"1948"}]},{"label":"Skrifter","children":[{"label":"Tanak"},{"label":"Toraen"},{"label":"Talmud"}]},{"label":"Tro","children":[{"label":"Én Gud","note":"Shema"},{"label":"Pakten og loven"},{"label":"Messias"}]},{"label":"Praksis","children":[{"label":"Sabbat"},{"label":"Synagoge og rabbiner"},{"label":"Kosher"},{"label":"Bar og bat mitsva"}]},{"label":"Høytider og retninger","children":[{"label":"Pesach"},{"label":"Jom kippur"},{"label":"Hanukka"},{"label":"Ortodoks, konservativ, reform"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'krle-8:jodedommen';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('krle-8:jodedommen', 'Jødedommen', 'Den eldste av de abrahamittiske religionene. Rundt 15 millioner jøder i verden.', 0),
+  ('krle-8:jodedommen', 'Pakten', 'Avtalen mellom Gud og det jødiske folket, først inngått med Abraham.', 1),
+  ('krle-8:jodedommen', 'Moses', 'Førte israelittene ut av Egypt og fikk loven på Sinai.', 2),
+  ('krle-8:jodedommen', 'De ti bud', 'Grunnleggende regler for forholdet til Gud og til andre mennesker.', 3),
+  ('krle-8:jodedommen', 'Tanak', 'Den hebraiske bibelen: Toraen, Profetene og Skriftene.', 4),
+  ('krle-8:jodedommen', 'Toraen', 'De fem Mosebøkene, den viktigste delen av Tanak.', 5),
+  ('krle-8:jodedommen', 'Talmud', 'Samling av rabbinernes tolkninger og diskusjoner av loven.', 6),
+  ('krle-8:jodedommen', 'Shema', 'Den viktigste jødiske bønnen: «Hør, Israel! Herren er vår Gud, Herren er én.»', 7),
+  ('krle-8:jodedommen', 'Sabbat', 'Ukens hviledag, fra fredag kveld til lørdag kveld.', 8),
+  ('krle-8:jodedommen', 'Synagoge', 'Jødenes sted for bønn, lesing og undervisning.', 9),
+  ('krle-8:jodedommen', 'Kosher', 'Mat som følger de jødiske matreglene.', 10),
+  ('krle-8:jodedommen', 'Bar og bat mitsva', 'Overgangsrite der gutter (13) og jenter (12–13) blir religiøst myndige.', 11),
+  ('krle-8:jodedommen', 'Pesach', 'Høytid til minne om utgangen fra Egypt.', 12),
+  ('krle-8:jodedommen', 'Jom kippur', 'Forsoningsdagen, årets helligste dag, med faste og bønn.', 13),
+  ('krle-8:jodedommen', 'Diaspora', 'At jødene har levd spredt over hele verden, særlig etter år 70.', 14);
+delete from public.quiz_sporsmal where tema_id = 'krle-8:jodedommen';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('krle-8:jodedommen', 'q01', 'flervalg', 'Hvem inngikk ifølge jødedommen den første pakten med Gud?', array['Moses', 'Abraham', 'David', 'Salomo']::text[], 1, 'Abraham regnes som stamfar for det jødiske folket.', true, true, 0),
+  ('krle-8:jodedommen', 'q02', 'flervalg', 'Hva er Toraen?', array['En bønn', 'En høytid', 'En synagoge', 'De fem Mosebøkene']::text[], 3, 'Toraen er den viktigste delen av de hellige skriftene.', true, true, 1),
+  ('krle-8:jodedommen', 'q03', 'flervalg', 'Når er sabbaten?', array['Fra fredag kveld til lørdag kveld', 'Hele søndagen', 'Fra fredag morgen til fredag kveld', 'Fra lørdag kveld til søndag kveld']::text[], 0, 'I jødisk tradisjon begynner døgnet ved solnedgang.', true, true, 2),
+  ('krle-8:jodedommen', 'q04', 'flervalg', 'Hva minnes jødene under pesach?', array['Ødeleggelsen av tempelet', 'Opprettelsen av Israel', 'Utgangen fra Egypt', 'Skapelsen av verden']::text[], 2, 'Under pesachmåltidet fortelles historien om hvordan Gud befridde folket.', true, true, 3),
+  ('krle-8:jodedommen', 'q05', 'flervalg', 'Hva er Talmud?', array['Den første Mosebok', 'En lysestake', 'Det jødiske nyttåret', 'En samling tolkninger og diskusjoner av loven']::text[], 3, 'Talmud viser hvordan loven kan forstås og brukes i hverdagen.', true, true, 4),
+  ('krle-8:jodedommen', 'q06', 'flervalg', 'Hva betyr det at mat er kosher?', array['At den er økologisk', 'At den følger de jødiske matreglene', 'At den er laget i Israel', 'At den er vegetarisk']::text[], 1, 'Reglene gjelder blant annet hvilke dyr man kan spise, og at kjøtt og melk holdes adskilt.', true, true, 5),
+  ('krle-8:jodedommen', 'q07', 'flervalg', 'Hva er diasporaen?', array['En jødisk høytid', 'Den jødiske kalenderen', 'At jødene har levd spredt over hele verden', 'Et jødisk skrift']::text[], 2, 'Etter år 70 bodde de fleste jøder utenfor Israel.', true, true, 6),
+  ('krle-8:jodedommen', 'q08', 'flervalg', 'Hvordan begynner bønnen Shema?', array['«Hør, Israel! Herren er vår Gud, Herren er én»', '«Fader vår, du som er i himmelen»', '«Det finnes ingen gud utenom Gud»', '«Herren er min hyrde»']::text[], 0, 'Bønnen uttrykker troen på én Gud.', true, true, 7),
+  ('krle-8:jodedommen', 'q09', 'flervalg', 'Hvilken retning mener at loven kan tolkes på nytt i hver tid?', array['Ortodoks jødedom', 'Reformjødedom', 'Hasidisme', 'Alle retninger']::text[], 1, 'Ortodokse jøder mener at loven ikke skal endres.', true, false, 8),
+  ('krle-8:jodedommen', 'q10', 'flervalg', 'Hva er jom kippur?', array['Den jødiske lysfesten', 'Det jødiske nyttåret', 'Forsoningsdagen, årets helligste dag', 'Minnedagen for Holocaust']::text[], 2, 'På jom kippur faster man og ber om tilgivelse.', true, false, 9),
+  ('krle-8:jodedommen', 'm01', 'sant-usant', 'De fleste jøder i verden bor i Israel og USA.', array['Sant', 'Usant']::text[], 0, 'Omtrent åtte av ti jøder bor i ett av disse to landene.', false, true, 10),
+  ('krle-8:jodedommen', 'm02', 'sant-usant', 'Alle jøder er religiøse.', array['Sant', 'Usant']::text[], 1, 'Mange jøder er sekulære, men føler tilhørighet til folket og tradisjonene.', false, true, 11),
+  ('krle-8:jodedommen', 'm03', 'sant-usant', 'Jøder var utestengt fra Norge i Grunnloven fram til 1851.', array['Sant', 'Usant']::text[], 0, 'Henrik Wergeland kjempet for å fjerne forbudet.', false, true, 12),
+  ('krle-8:jodedommen', 'm04', 'sant-usant', 'Hanukka er en høytid om sommeren.', array['Sant', 'Usant']::text[], 1, 'Hanukka er en lysfest som feires i desember.', false, true, 13),
+  ('krle-8:jodedommen', 'm05', 'flervalg', 'Hvor gammel er en gutt ved bar mitsva?', array['10 år', '13 år', '15 år', '18 år']::text[], 1, 'Fra da av regnes gutten som ansvarlig for å følge loven.', false, true, 14),
+  ('krle-8:jodedommen', 'm06', 'flervalg', 'Hva kalles læreren og lederen i en synagoge?', array['Imam', 'Prest', 'Rabbiner', 'Munk']::text[], 2, 'Rabbiner betyr «min lærer».', false, true, 15),
+  ('krle-8:jodedommen', 'm07', 'flervalg', 'Hva skjedde med tempelet i Jerusalem i år 70?', array['Det ble ødelagt av romerne', 'Det ble bygd', 'Det ble flyttet til Roma', 'Det ble solgt']::text[], 0, 'Klagemuren i Jerusalem er en rest av tempelområdet.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('krle-8:jodedommen', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- KRLE: Livssynshumanisme og ikke-religiøse livssyn
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('krle-8:livssynshumanisme', 'krle-8', 'livssynshumanisme', 'Livssynshumanisme og ikke-religiøse livssyn', 'Hva et livssyn er, sentrale ideer i livssynshumanismen og hvor de kommer fra, Human-Etisk Forbund og andre ikke-religiøse begreper som ateisme og agnostisisme.', array[3, 6]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('krle-8:livssynshumanisme', '## Hva er et livssyn?
+
+Et **livssyn** er en grunnleggende oppfatning av hva mennesket er, hva som er viktig i livet, og hva som er rett og galt. Religioner er livssyn som bygger på tro på noe guddommelig. **Ikke-religiøse livssyn** bygger ikke på tro på gud eller guder, men på menneskelige erfaringer, fornuft og kunnskap.
+
+## Livssynshumanisme
+
+**Livssynshumanisme**, eller sekulær humanisme, er det mest kjente ikke-religiøse livssynet i Norge. Sentrale ideer er:
+
+- **Mennesket i sentrum**: Det er mennesker, ikke guder, som har ansvar for å skape et godt liv og et godt samfunn.
+- **Fornuft og vitenskap**: Kunnskap bør bygge på undersøkelser, erfaring og kritisk tenkning. Vi bør være villige til å endre mening når vi får ny kunnskap.
+- **Menneskeverd**: Alle mennesker har like stor verdi og rett til frihet og respekt.
+- **Etikk uten Gud**: Moral bygger på empati, fornuft og hensynet til hvordan handlingene våre påvirker andre. Humanister viser ofte til **den gylne regel**: Gjør mot andre det du vil at de skal gjøre mot deg.
+- **Dette livet**: De fleste humanister mener at vi bare har ett liv, og at det derfor er viktig å gjøre det meningsfullt.
+- **Livssynsfrihet**: Alle skal kunne velge livssyn selv, og staten bør behandle alle livssyn likt.
+
+## Røtter
+
+Humanismen har røtter tilbake til **antikkens filosofer**. Protagoras sa at «mennesket er alle tings mål». I **renessansen** ble interessen for mennesket og antikkens kunnskap vekket på nytt. Under **opplysningstiden** på 1700-tallet oppfordret filosofer folk til å bruke sin egen fornuft i stedet for å godta autoriteter blindt. Framveksten av **naturvitenskapen**, blant annet Darwins evolusjonsteori, ga nye forklaringer på hvordan livet har utviklet seg.
+
+## Human-Etisk Forbund
+
+I Norge organiserer **Human-Etisk Forbund**, stiftet i 1956, mange livssynshumanister. Forbundet tilbyr **humanistiske seremonier** ved viktige overganger i livet: navnefest, **humanistisk konfirmasjon**, vigsel og gravferd. Humanistisk konfirmasjon ble arrangert første gang i 1951, og i dag velger mange ungdommer den i stedet for kirkelig konfirmasjon. Forbundet arbeider også for et samfunn der alle livssyn behandles likt.
+
+## Andre begreper
+
+- **Ateisme**: overbevisningen om at det ikke finnes noen gud.
+- **Agnostisisme**: synet at vi ikke kan vite om det finnes en gud.
+- **Sekularisering**: at religion får mindre betydning i samfunnet og for den enkelte.
+
+Mange i Norge i dag sier at de ikke er religiøse, uten å være medlem av noe livssynssamfunn. Et livssyn kan derfor være noe personlig som ikke er knyttet til en organisasjon. Samtidig kan mennesker med ulike livssyn være enige om mye, for eksempel om menneskerettighetene.', '{"label":"Livssynshumanisme","children":[{"label":"Livssyn","children":[{"label":"Religiøse"},{"label":"Ikke-religiøse"}]},{"label":"Ideer","children":[{"label":"Mennesket i sentrum"},{"label":"Fornuft og vitenskap"},{"label":"Menneskeverd"},{"label":"Etikk uten Gud"},{"label":"Ett liv"}]},{"label":"Røtter","children":[{"label":"Antikken","note":"Protagoras"},{"label":"Renessansen"},{"label":"Opplysningstiden"},{"label":"Naturvitenskap"}]},{"label":"I Norge","children":[{"label":"Human-Etisk Forbund","note":"1956"},{"label":"Humanistisk konfirmasjon","note":"1951"},{"label":"Seremonier"}]},{"label":"Begreper","children":[{"label":"Ateisme"},{"label":"Agnostisisme"},{"label":"Sekularisering"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'krle-8:livssynshumanisme';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('krle-8:livssynshumanisme', 'Livssyn', 'Grunnleggende oppfatning av mennesket, livet og hva som er rett og galt.', 0),
+  ('krle-8:livssynshumanisme', 'Ikke-religiøst livssyn', 'Livssyn som ikke bygger på tro på gud eller guder.', 1),
+  ('krle-8:livssynshumanisme', 'Livssynshumanisme', 'Livssyn som setter mennesket, fornuften og menneskeverdet i sentrum.', 2),
+  ('krle-8:livssynshumanisme', 'Menneskeverd', 'At alle mennesker har like stor verdi.', 3),
+  ('krle-8:livssynshumanisme', 'Den gylne regel', 'Gjør mot andre det du vil at de skal gjøre mot deg.', 4),
+  ('krle-8:livssynshumanisme', 'Fornuft og vitenskap', 'Humanister mener kunnskap bør bygge på undersøkelser og kritisk tenkning.', 5),
+  ('krle-8:livssynshumanisme', 'Human-Etisk Forbund', 'Norsk organisasjon for livssynshumanister, stiftet i 1956.', 6),
+  ('krle-8:livssynshumanisme', 'Humanistisk konfirmasjon', 'Ikke-religiøs konfirmasjon, arrangert første gang i Norge i 1951.', 7),
+  ('krle-8:livssynshumanisme', 'Humanistiske seremonier', 'Navnefest, konfirmasjon, vigsel og gravferd uten religiøst innhold.', 8),
+  ('krle-8:livssynshumanisme', 'Protagoras', 'Gresk filosof som sa at «mennesket er alle tings mål».', 9),
+  ('krle-8:livssynshumanisme', 'Opplysningstiden', '1700-tallet, da filosofer oppfordret folk til å bruke sin egen fornuft.', 10),
+  ('krle-8:livssynshumanisme', 'Ateisme', 'Overbevisningen om at det ikke finnes noen gud.', 11),
+  ('krle-8:livssynshumanisme', 'Agnostisisme', 'Synet at vi ikke kan vite om det finnes en gud.', 12),
+  ('krle-8:livssynshumanisme', 'Sekularisering', 'At religion får mindre betydning i samfunnet og for den enkelte.', 13),
+  ('krle-8:livssynshumanisme', 'Livssynsfrihet', 'Retten til å velge livssyn selv.', 14);
+delete from public.quiz_sporsmal where tema_id = 'krle-8:livssynshumanisme';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('krle-8:livssynshumanisme', 'q01', 'flervalg', 'Hva er et livssyn?', array['En type religion', 'En politisk ideologi', 'En vitenskapelig teori', 'En grunnleggende oppfatning av mennesket, livet og hva som er rett og galt']::text[], 3, 'Både religioner og ikke-religiøse livssyn er livssyn.', true, true, 0),
+  ('krle-8:livssynshumanisme', 'q02', 'flervalg', 'Hva står i sentrum i livssynshumanismen?', array['Mennesket', 'Gud', 'Naturen', 'Staten']::text[], 0, 'Humanister mener mennesker selv har ansvar for å skape et godt liv.', true, true, 1),
+  ('krle-8:livssynshumanisme', 'q03', 'flervalg', 'Hva bygger humanister etikken sin på?', array['Hellige skrifter', 'Kongens befalinger', 'Empati, fornuft og konsekvenser for andre', 'Tradisjon alene']::text[], 2, 'Humanister mener at vi kan vite hva som er godt uten å vise til en gud.', true, true, 2),
+  ('krle-8:livssynshumanisme', 'q04', 'flervalg', 'Når ble Human-Etisk Forbund stiftet?', array['1814', '1956', '1905', '2002']::text[], 1, 'Forbundet er i dag et av de største livssynssamfunnene i Norge.', true, true, 3),
+  ('krle-8:livssynshumanisme', 'q05', 'flervalg', 'Hva er ateisme?', array['Overbevisningen om at det ikke finnes noen gud', 'Synet at man ikke kan vite om det finnes en gud', 'Troen på mange guder', 'Troen på gjenfødelse']::text[], 0, 'Det andre alternativet beskriver agnostisisme.', true, true, 4),
+  ('krle-8:livssynshumanisme', 'q06', 'flervalg', 'Hva er agnostisisme?', array['Troen på én Gud', 'Troen på at alt er forutbestemt', 'Synet at vi ikke kan vite om det finnes en gud', 'Motstand mot all religion']::text[], 2, 'Ordet kommer fra gresk og betyr «uten kunnskap».', true, true, 5),
+  ('krle-8:livssynshumanisme', 'q07', 'flervalg', 'Hvem sa at «mennesket er alle tings mål»?', array['Martin Luther', 'Charles Darwin', 'Buddha', 'Protagoras']::text[], 3, 'Protagoras levde i antikkens Hellas.', true, true, 6),
+  ('krle-8:livssynshumanisme', 'q08', 'flervalg', 'Hva er sekularisering?', array['At flere blir religiøse', 'At religion får mindre betydning i samfunnet', 'At staten får en offisiell religion', 'At det bygges flere kirker']::text[], 1, 'I Norge har religion fått mindre betydning for mange de siste tiårene.', true, true, 7),
+  ('krle-8:livssynshumanisme', 'q09', 'flervalg', 'Hvilken seremoni tilbyr Human-Etisk Forbund?', array['Dåp', 'Nattverd', 'Bar mitsva', 'Humanistisk konfirmasjon']::text[], 3, 'Forbundet tilbyr også navnefest, vigsel og gravferd.', true, false, 8),
+  ('krle-8:livssynshumanisme', 'q10', 'flervalg', 'Hva mener humanister om livssynsfrihet?', array['At alle skal kunne velge livssyn selv, og at staten bør behandle alle livssyn likt', 'At alle bør bli humanister', 'At religion bør forbys', 'At staten skal bestemme livssyn']::text[], 0, 'Livssynsfrihet er også en menneskerettighet.', true, false, 9),
+  ('krle-8:livssynshumanisme', 'm01', 'sant-usant', 'Livssynshumanister mener at kunnskap bør bygge på fornuft og vitenskap.', array['Sant', 'Usant']::text[], 0, 'Kritisk tenkning og vilje til å endre mening er sentrale verdier.', false, true, 10),
+  ('krle-8:livssynshumanisme', 'm02', 'sant-usant', 'Livssynshumanisme er en religion med egne guder.', array['Sant', 'Usant']::text[], 1, 'Livssynshumanisme er et ikke-religiøst livssyn.', false, true, 11),
+  ('krle-8:livssynshumanisme', 'm03', 'sant-usant', 'Humanistisk konfirmasjon ble arrangert første gang i Norge i 1951.', array['Sant', 'Usant']::text[], 0, 'Det var noen år før Human-Etisk Forbund ble stiftet.', false, true, 12),
+  ('krle-8:livssynshumanisme', 'm04', 'sant-usant', 'Man må være medlem av en organisasjon for å ha et livssyn.', array['Sant', 'Usant']::text[], 1, 'Et livssyn kan være personlig og uavhengig av organisasjoner.', false, true, 13),
+  ('krle-8:livssynshumanisme', 'm05', 'flervalg', 'Hva sier den gylne regel?', array['Gjør mot andre det du vil at de skal gjøre mot deg', 'Tenk alltid på deg selv først', 'Følg alltid loven', 'Gi bort alt du eier']::text[], 0, 'Varianter av regelen finnes i mange religioner og livssyn.', false, true, 14),
+  ('krle-8:livssynshumanisme', 'm06', 'flervalg', 'I hvilken periode oppfordret filosofer folk til å bruke sin egen fornuft?', array['Vikingtiden', 'Middelalderen', 'Opplysningstiden', 'Steinalderen']::text[], 2, 'Opplysningstiden var på 1700-tallet.', false, true, 15),
+  ('krle-8:livssynshumanisme', 'm07', 'flervalg', 'Hva mener de fleste humanister om livet etter døden?', array['At man blir gjenfødt', 'At vi bare har ett liv', 'At alle kommer til himmelen', 'At sjelen lever videre i naturen']::text[], 1, 'Derfor legger humanister vekt på å gjøre dette livet meningsfullt.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('krle-8:livssynshumanisme', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- KRLE: Samisk religion og urfolks livssyn
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('krle-8:samisk-religion-og-urfolk', 'krle-8', 'samisk-religion-og-urfolk', 'Samisk religion og urfolks livssyn', 'Den førkristne samiske religionen, kristningen av samene, samisk religion og kultur i dag, og fellestrekk ved religionene til urfolk i andre deler av verden.', array[5]::int[], 4, 'sjekkes', array['Navn og roller for samiske guder og makter varierer mellom kilder og samiske områder – bør kvalitetssikres av noen med samisk fagkompetanse.']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('krle-8:samisk-religion-og-urfolk', '## Samisk førkristen religion
+
+Før samene ble kristnet, hadde de en religion som var tett knyttet til naturen og livet som jegere, fiskere og reindriftsutøvere. Kunnskapen om den bygger på muntlig tradisjon, arkeologi og skriftlige kilder fra misjonærer, som ofte så religionen negativt.
+
+- **Naturen var besjelet**: Mennesker, dyr, planter, fjell og elver hadde sjel eller ånd, og mennesket måtte leve i balanse med dem.
+- **Guder og makter**: blant andre **Beaivi** (sola), tordenguden **Horagalles** og **Máttaráhkká**, urmoren, og døtrene hennes, som hjalp ved fødsler og beskyttet hjemmet.
+- **Sieidi**: hellige steiner eller steder der folk ga offergaver for å få god fangst eller beskyttelse.
+- **Noaidi**: en religiøs spesialist, ofte kalt sjaman, som i transe kunne reise til åndeverdenen for å hjelpe, helbrede eller få kunnskap.
+- **Goavddis**: runebommen, en tromme med tegninger av guder, mennesker og dyr, som noaiden brukte.
+- **Joik**: en samisk sangform som også hadde religiøs betydning.
+
+## Kristning
+
+Fra 1600- og 1700-tallet drev kirken og staten **misjon** blant samene. **Thomas von Westen** ledet misjonsarbeidet fra 1716. Runebommer ble tatt og brent, hellige steder ble ødelagt, og noaider ble forfulgt. Under **trolldomsprosessene** i Finnmark på 1600-tallet ble også samer dømt og henrettet. Joik ble i lang tid sett på som syndig.
+
+På 1800-tallet fikk vekkelsesbevegelsen **læstadianismen**, oppkalt etter presten Lars Levi Læstadius, stor oppslutning blant samer og kvener. Den er fortsatt viktig i mange samiske lokalsamfunn.
+
+## Samisk religion i dag
+
+De fleste samer i dag er kristne. Samtidig har interessen for den førkristne tradisjonen vokst. Joiken brukes igjen i stor grad, mange viser respekt for sieidiene, og noen praktiserer samisk sjamanisme. Kristendommen i Sápmi har også fått samiske uttrykk, med gudstjenester og salmer på samisk.
+
+## Andre urfolk
+
+Det finnes rundt 476 millioner urfolk i over 90 land. Mange urfolksreligioner har likhetstrekk:
+
+- Naturen er hellig, og alt levende henger sammen.
+- **Forfedrene** er viktige og kan hjelpe de levende.
+- Kunnskapen føres videre **muntlig** gjennom fortellinger, sang og ritualer.
+- **Sjamaner** eller medisinmenn formidler mellom menneskene og åndeverdenen.
+
+Et eksempel er **Drømmetiden** hos aboriginerne i Australia, fortellingene om hvordan forfedrene skapte landskapet. Mange urfolk har, som samene, opplevd misjon og kolonisering som truet religionen deres. I dag har urfolk rett til å praktisere og føre videre sine religiøse tradisjoner, blant annet gjennom **FNs erklæring om urfolks rettigheter** fra 2007.', '{"label":"Samisk religion og urfolk","children":[{"label":"Førkristen tro","children":[{"label":"Besjelet natur"},{"label":"Beaivi og Horagalles"},{"label":"Máttaráhkká"}]},{"label":"Praksis","children":[{"label":"Sieidi"},{"label":"Noaidi"},{"label":"Runebomme"},{"label":"Joik"}]},{"label":"Kristning","children":[{"label":"Misjon","note":"fra 1716"},{"label":"Runebommer brent"},{"label":"Trolldomsprosesser"},{"label":"Læstadianismen"}]},{"label":"I dag","children":[{"label":"De fleste kristne"},{"label":"Joik og revitalisering"},{"label":"Samisk kirkeliv"}]},{"label":"Andre urfolk","children":[{"label":"Natur og forfedre"},{"label":"Muntlig tradisjon"},{"label":"Drømmetiden"},{"label":"Urfolkserklæringen"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'krle-8:samisk-religion-og-urfolk';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('krle-8:samisk-religion-og-urfolk', 'Førkristen samisk religion', 'Samenes religion før kristningen, tett knyttet til naturen.', 0),
+  ('krle-8:samisk-religion-og-urfolk', 'Besjelet natur', 'Troen på at dyr, planter, fjell og elver har sjel eller ånd.', 1),
+  ('krle-8:samisk-religion-og-urfolk', 'Beaivi', 'Sola, en viktig makt i samisk religion.', 2),
+  ('krle-8:samisk-religion-og-urfolk', 'Horagalles', 'Tordenguden i samisk religion.', 3),
+  ('krle-8:samisk-religion-og-urfolk', 'Máttaráhkká', 'Urmoren, som sammen med døtrene hjalp ved fødsler og beskyttet hjemmet.', 4),
+  ('krle-8:samisk-religion-og-urfolk', 'Sieidi', 'Hellig stein eller sted der det ble gitt offergaver.', 5),
+  ('krle-8:samisk-religion-og-urfolk', 'Noaidi', 'Samisk religiøs spesialist som i transe kunne reise til åndeverdenen.', 6),
+  ('krle-8:samisk-religion-og-urfolk', 'Goavddis', 'Runebommen, noaidens tromme med tegninger av guder, mennesker og dyr.', 7),
+  ('krle-8:samisk-religion-og-urfolk', 'Joik', 'Samisk sangform som også hadde religiøs betydning.', 8),
+  ('krle-8:samisk-religion-og-urfolk', 'Thomas von Westen', 'Prest som ledet misjonen blant samene fra 1716.', 9),
+  ('krle-8:samisk-religion-og-urfolk', 'Læstadianismen', 'Kristen vekkelsesbevegelse fra 1800-tallet med sterk stilling blant samer og kvener.', 10),
+  ('krle-8:samisk-religion-og-urfolk', 'Urfolk', 'Folk som bodde i et område før dagens statsgrenser. Rundt 476 millioner i verden.', 11),
+  ('krle-8:samisk-religion-og-urfolk', 'Sjaman', 'Person som formidler mellom mennesker og åndeverdenen.', 12),
+  ('krle-8:samisk-religion-og-urfolk', 'Drømmetiden', 'Aboriginernes fortellinger om hvordan forfedrene skapte verden og landskapet.', 13),
+  ('krle-8:samisk-religion-og-urfolk', 'Muntlig tradisjon', 'Kunnskap som føres videre gjennom fortellinger, sang og ritualer.', 14);
+delete from public.quiz_sporsmal where tema_id = 'krle-8:samisk-religion-og-urfolk';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('krle-8:samisk-religion-og-urfolk', 'q01', 'flervalg', 'Hva er en sieidi?', array['En samisk tromme', 'En samisk sang', 'En hellig stein eller et hellig sted der man ga offergaver', 'En samisk prest']::text[], 2, 'Ved sieidien ofret man for å få god fangst eller beskyttelse.', true, true, 0),
+  ('krle-8:samisk-religion-og-urfolk', 'q02', 'flervalg', 'Hva var en noaidi?', array['En reineier', 'En religiøs spesialist som kunne reise til åndeverdenen i transe', 'En misjonær', 'En samisk høvding']::text[], 1, 'Noaiden kunne helbrede, hjelpe og hente kunnskap fra åndeverdenen.', true, true, 1),
+  ('krle-8:samisk-religion-og-urfolk', 'q03', 'flervalg', 'Hva betyr det at naturen var besjelet?', array['At dyr, planter og landskap hadde sjel eller ånd', 'At naturen var farlig', 'At naturen var skapt av mennesker', 'At bare mennesker hadde sjel']::text[], 0, 'Derfor måtte mennesket leve i balanse med naturen.', true, true, 2),
+  ('krle-8:samisk-religion-og-urfolk', 'q04', 'flervalg', 'Hva skjedde med mange runebommer under misjonen?', array['De ble brukt i kirkene', 'De ble solgt til turister', 'De ble gitt til Sametinget', 'De ble tatt og brent']::text[], 3, 'Misjonærene så på runebommene som redskaper for hedensk religion.', true, true, 3),
+  ('krle-8:samisk-religion-og-urfolk', 'q05', 'flervalg', 'Hvilken vekkelsesbevegelse fikk stor oppslutning blant samer på 1800-tallet?', array['Pinsebevegelsen', 'Haugianismen', 'Læstadianismen', 'Metodismen']::text[], 2, 'Bevegelsen er oppkalt etter presten Lars Levi Læstadius.', true, true, 4),
+  ('krle-8:samisk-religion-og-urfolk', 'q06', 'flervalg', 'Hvem ledet misjonen blant samene fra 1716?', array['Thomas von Westen', 'Martin Luther', 'Lars Levi Læstadius', 'Hans Nielsen Hauge']::text[], 0, 'Han ble kalt «samenes apostel».', true, true, 5),
+  ('krle-8:samisk-religion-og-urfolk', 'q07', 'flervalg', 'Hva er et vanlig trekk ved mange urfolksreligioner?', array['Én hellig bok', 'At alle har prester', 'Tro på at verden snart går under', 'At naturen er hellig og forfedrene viktige']::text[], 3, 'Urfolksreligioner er ofte tett knyttet til landet folket lever på.', true, true, 6),
+  ('krle-8:samisk-religion-og-urfolk', 'q08', 'flervalg', 'Hva er Drømmetiden?', array['En samisk høytid', 'Aboriginernes fortellinger om hvordan forfedrene skapte landskapet', 'En indiansk dans', 'En type meditasjon']::text[], 1, 'Fortellingene knytter folket til bestemte steder i landskapet.', true, true, 7),
+  ('krle-8:samisk-religion-og-urfolk', 'q09', 'flervalg', 'Hvordan ble joiken sett på under kristningen?', array['Som en del av gudstjenesten', 'Som et skolefag', 'Som syndig', 'Som nasjonalsang']::text[], 2, 'I dag er joiken igjen en viktig del av samisk kultur.', true, false, 8),
+  ('krle-8:samisk-religion-og-urfolk', 'q10', 'flervalg', 'Hva gir FNs erklæring om urfolks rettigheter urfolk rett til?', array['Å praktisere og føre videre sine religiøse tradisjoner', 'Å slippe å betale skatt', 'Å ha egen hær', 'Å bestemme over alle land']::text[], 0, 'Erklæringen ble vedtatt i 2007.', true, false, 9),
+  ('krle-8:samisk-religion-og-urfolk', 'm01', 'sant-usant', 'De fleste samer i dag er kristne.', array['Sant', 'Usant']::text[], 0, 'Samtidig har interessen for den førkristne tradisjonen økt.', false, true, 10),
+  ('krle-8:samisk-religion-og-urfolk', 'm02', 'sant-usant', 'Kunnskapen om førkristen samisk religion bygger bare på samiske bøker fra middelalderen.', array['Sant', 'Usant']::text[], 1, 'Den bygger på muntlig tradisjon, arkeologi og kilder skrevet av misjonærer.', false, true, 11),
+  ('krle-8:samisk-religion-og-urfolk', 'm03', 'sant-usant', 'Joik og samiske tradisjoner har fått en ny oppblomstring i vår tid.', array['Sant', 'Usant']::text[], 0, 'Dette er en del av en bredere samisk revitalisering.', false, true, 12),
+  ('krle-8:samisk-religion-og-urfolk', 'm04', 'sant-usant', 'Urfolksreligioner føres som regel videre gjennom én hellig bok.', array['Sant', 'Usant']::text[], 1, 'De fleste urfolksreligioner bygger på muntlig tradisjon.', false, true, 13),
+  ('krle-8:samisk-religion-og-urfolk', 'm05', 'flervalg', 'Hva er goavddis?', array['En hellig stein', 'En runebomme som noaiden brukte', 'En samisk kofte', 'En reinflokk']::text[], 1, 'Tegningene på trommen viste guder, mennesker og dyr.', false, true, 14),
+  ('krle-8:samisk-religion-og-urfolk', 'm06', 'flervalg', 'Hvem var Máttaráhkká?', array['Tordenguden', 'Sola', 'Urmoren', 'En misjonær']::text[], 2, 'Hun og døtrene hennes var knyttet til fødsel og hjem.', false, true, 15),
+  ('krle-8:samisk-religion-og-urfolk', 'm07', 'flervalg', 'Hva kalles en som formidler mellom mennesker og åndeverdenen i mange urfolksreligioner?', array['Sjaman', 'Rabbiner', 'Imam', 'Biskop']::text[], 0, 'Hos samene ble denne rollen kalt noaidi.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('krle-8:samisk-religion-og-urfolk', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- KRLE: Etiske teorier og dilemmaer
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('krle-8:etiske-teorier', 'krle-8', 'etiske-teorier', 'Etiske teorier og dilemmaer', 'Forskjellen på moral og etikk, konsekvensetikk, pliktetikk, dydsetikk og sinnelagsetikk, hvordan teoriene kan brukes på dilemmaer, og hvordan du håndterer uenighet.', array[11, 12]::int[], 5, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('krle-8:etiske-teorier', '## Etikk og moral
+
+**Moral** er de oppfatningene vi har om hva som er rett og galt, og hvordan vi faktisk handler. **Etikk** er å tenke systematisk over moralen: Hvorfor er noe rett eller galt? Filosofer har utviklet ulike **etiske teorier** som kan hjelpe oss å vurdere vanskelige valg.
+
+## Konsekvensetikk
+
+**Konsekvensetikk** vurderer en handling ut fra **følgene** den får. Den mest kjente formen er **utilitarismen**, utviklet av **Jeremy Bentham** og **John Stuart Mill**. Ifølge den er den rette handlingen den som gir **størst mulig lykke for flest mulig**.
+
+- Styrke: Den tar hensyn til hvordan handlingen påvirker alle.
+- Svakhet: Den kan forsvare urett mot noen få hvis flertallet tjener på det, og det er vanskelig å vite alle følgene på forhånd.
+
+## Pliktetikk
+
+**Pliktetikk** mener at noen handlinger er rette eller gale i seg selv, uansett følger. Vi har **plikter**, som å si sannheten og holde løfter. Den tyske filosofen **Immanuel Kant** (1724–1804) formulerte **det kategoriske imperativ**:
+
+- Handle bare slik at du kan ville at handlingen skal bli en **allmenn lov** for alle.
+- Behandle alltid mennesker som et **mål i seg selv**, aldri bare som et middel.
+
+Styrken er at pliktetikken verner om menneskeverdet og gir klare regler. Svakheten er at plikter kan komme i konflikt, og at det kan virke urimelig aldri å lyve, selv for å redde et liv.
+
+## Dydsetikk
+
+**Dydsetikk** spør ikke først «hva skal jeg gjøre?», men «hva slags menneske vil jeg være?». Den greske filosofen **Aristoteles** (384–322 f.Kr.) mente at vi skal utvikle gode karaktertrekk, **dyder**, som mot, rettferdighet, ærlighet og vennlighet. En dyd er ofte **den gylne middelvei** mellom to ytterpunkter: Mot ligger mellom feighet og dumdristighet.
+
+## Sinnelagsetikk
+
+**Sinnelagsetikk** legger vekt på **hensikten** bak handlingen. En handling er god hvis den gjøres i god mening, selv om resultatet blir dårlig.
+
+## Etiske dilemmaer
+
+Et **etisk dilemma** er en situasjon der man må velge mellom handlinger som alle har gode og dårlige sider. Tenk deg at en venn har jukset på en prøve og ber deg holde det hemmelig. En konsekvensetiker vil spørre hva som gir best resultat for alle. En pliktetiker vil vektlegge plikten til å være ærlig. En dydsetiker vil spørre hva en god venn og et ærlig menneske ville gjort.
+
+## Å håndtere uenighet
+
+Når vi diskuterer etiske spørsmål, er vi ofte uenige. Da er det lurt å
+
+- lytte aktivt og prøve å forstå den andres perspektiv
+- skille mellom saken og personen
+- begrunne standpunktene sine med argumenter
+- godta at uenigheten kan bestå, og behandle andre med respekt', '{"label":"Etiske teorier","children":[{"label":"Grunnbegreper","children":[{"label":"Moral"},{"label":"Etikk"},{"label":"Etisk dilemma"}]},{"label":"Konsekvensetikk","children":[{"label":"Følgene avgjør"},{"label":"Utilitarisme"},{"label":"Bentham og Mill"}]},{"label":"Pliktetikk","children":[{"label":"Plikter i seg selv"},{"label":"Kant"},{"label":"Kategorisk imperativ"},{"label":"Mål i seg selv"}]},{"label":"Dyd og sinnelag","children":[{"label":"Aristoteles"},{"label":"Dyder"},{"label":"Den gylne middelvei"},{"label":"Hensikten avgjør"}]},{"label":"Uenighet","children":[{"label":"Aktiv lytting"},{"label":"Sak, ikke person"},{"label":"Begrunn standpunkt"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'krle-8:etiske-teorier';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('krle-8:etiske-teorier', 'Moral', 'Oppfatninger om rett og galt, og hvordan vi faktisk handler.', 0),
+  ('krle-8:etiske-teorier', 'Etikk', 'Systematisk tenkning om moral: hvorfor noe er rett eller galt.', 1),
+  ('krle-8:etiske-teorier', 'Konsekvensetikk', 'Handlinger vurderes ut fra følgene de får.', 2),
+  ('krle-8:etiske-teorier', 'Utilitarisme', 'Den rette handlingen gir størst mulig lykke for flest mulig.', 3),
+  ('krle-8:etiske-teorier', 'Bentham og Mill', 'Engelske filosofer som utviklet utilitarismen.', 4),
+  ('krle-8:etiske-teorier', 'Pliktetikk', 'Noen handlinger er rette eller gale i seg selv, uansett følger.', 5),
+  ('krle-8:etiske-teorier', 'Immanuel Kant', 'Tysk filosof (1724–1804) kjent for pliktetikken og det kategoriske imperativ.', 6),
+  ('krle-8:etiske-teorier', 'Det kategoriske imperativ', 'Handle bare slik at du kan ville at handlingen blir en allmenn lov.', 7),
+  ('krle-8:etiske-teorier', 'Mål i seg selv', 'Kants idé om at mennesker aldri bare skal brukes som middel.', 8),
+  ('krle-8:etiske-teorier', 'Dydsetikk', 'Etikk som spør hva slags menneske man vil være, og vektlegger gode karaktertrekk.', 9),
+  ('krle-8:etiske-teorier', 'Aristoteles', 'Gresk filosof (384–322 f.Kr.) som grunnla dydsetikken.', 10),
+  ('krle-8:etiske-teorier', 'Den gylne middelvei', 'En dyd ligger mellom to ytterpunkter, som mot mellom feighet og dumdristighet.', 11),
+  ('krle-8:etiske-teorier', 'Sinnelagsetikk', 'Hensikten bak handlingen avgjør om den er god.', 12),
+  ('krle-8:etiske-teorier', 'Etisk dilemma', 'Et valg mellom handlinger som alle har gode og dårlige sider.', 13),
+  ('krle-8:etiske-teorier', 'Aktiv lytting', 'Å lytte for å forstå den andre, og vise at man har forstått.', 14);
+delete from public.quiz_sporsmal where tema_id = 'krle-8:etiske-teorier';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('krle-8:etiske-teorier', 'q01', 'flervalg', 'Hva er forskjellen på moral og etikk?', array['Det er ingen forskjell', 'Moral er oppfatninger om rett og galt, etikk er systematisk tenkning om moralen', 'Etikk gjelder bare religion', 'Moral er lover, etikk er regler']::text[], 1, 'Etikk kalles også moralfilosofi.', true, true, 0),
+  ('krle-8:etiske-teorier', 'q02', 'flervalg', 'Hva sier utilitarismen?', array['At man alltid skal følge pliktene sine', 'At hensikten er det viktigste', 'At den rette handlingen gir størst mulig lykke for flest mulig', 'At man skal utvikle gode dyder']::text[], 2, 'Utilitarismen er den mest kjente formen for konsekvensetikk.', true, true, 1),
+  ('krle-8:etiske-teorier', 'q03', 'flervalg', 'Hvem formulerte det kategoriske imperativ?', array['Immanuel Kant', 'Aristoteles', 'John Stuart Mill', 'Sokrates']::text[], 0, 'Kant er den mest kjente pliktetikeren.', true, true, 2),
+  ('krle-8:etiske-teorier', 'q04', 'flervalg', 'Hva er en svakhet ved konsekvensetikk?', array['Den tar ikke hensyn til følger', 'Den er for enkel å bruke', 'Den handler bare om plikter', 'Den kan forsvare urett mot noen få hvis flertallet tjener på det']::text[], 3, 'Derfor mener kritikere at konsekvensetikken ikke verner godt nok om den enkelte.', true, true, 3),
+  ('krle-8:etiske-teorier', 'q05', 'flervalg', 'Hva betyr det å behandle mennesker som et mål i seg selv?', array['Å konkurrere med dem', 'At mennesker har verdi i seg selv og ikke bare skal brukes', 'Å sette mål for dem', 'Å bruke dem for å nå egne mål']::text[], 1, 'Dette er en av Kants formuleringer av det kategoriske imperativ.', true, true, 4),
+  ('krle-8:etiske-teorier', 'q06', 'flervalg', 'Hva spør dydsetikken først og fremst om?', array['Hva gir best resultat?', 'Hva sier loven?', 'Hva mener flertallet?', 'Hva slags menneske vil jeg være?']::text[], 3, 'Dydsetikken handler om karakter mer enn om enkelthandlinger.', true, true, 5),
+  ('krle-8:etiske-teorier', 'q07', 'flervalg', 'Hva er den gylne middelvei hos Aristoteles?', array['En dyd som ligger mellom to ytterpunkter', 'En regel om å dele likt', 'En vei til lykke gjennom rikdom', 'En plikt til å si sannheten']::text[], 0, 'Mot ligger for eksempel mellom feighet og dumdristighet.', true, true, 6),
+  ('krle-8:etiske-teorier', 'q08', 'flervalg', 'Hva legger sinnelagsetikken vekt på?', array['Resultatet', 'Loven', 'Hensikten bak handlingen', 'Flertallets mening']::text[], 2, 'En handling gjort i god mening regnes som god, selv om den går galt.', true, true, 7),
+  ('krle-8:etiske-teorier', 'q09', 'flervalg', 'Hva er et etisk dilemma?', array['En enkel regel', 'Et valg mellom handlinger som alle har gode og dårlige sider', 'En lov', 'En etisk teori']::text[], 1, 'I et dilemma finnes det ingen løsning som er helt uten ulemper.', true, false, 8),
+  ('krle-8:etiske-teorier', 'q10', 'flervalg', 'Hva er lurt når man er uenig i en etisk diskusjon?', array['Å avbryte den andre', 'Å angripe personen', 'Å gi seg med en gang', 'Å lytte aktivt og begrunne standpunktene sine']::text[], 3, 'Gode argumenter og respekt gjør det lettere å forstå hverandre.', true, false, 9),
+  ('krle-8:etiske-teorier', 'm01', 'sant-usant', 'Kant mente at det aldri er riktig å lyve.', array['Sant', 'Usant']::text[], 0, 'Ifølge Kant kan ikke løgn bli en allmenn lov, uansett hva følgene blir.', false, true, 10),
+  ('krle-8:etiske-teorier', 'm02', 'sant-usant', 'Konsekvensetikken vurderer handlinger bare ut fra hensikten.', array['Sant', 'Usant']::text[], 1, 'Det er sinnelagsetikken som vektlegger hensikten. Konsekvensetikken ser på følgene.', false, true, 11),
+  ('krle-8:etiske-teorier', 'm03', 'sant-usant', 'Aristoteles mente at mot ligger mellom feighet og dumdristighet.', array['Sant', 'Usant']::text[], 0, 'Dette er et eksempel på den gylne middelvei.', false, true, 12),
+  ('krle-8:etiske-teorier', 'm04', 'sant-usant', 'I en god diskusjon bør man angripe personen i stedet for saken.', array['Sant', 'Usant']::text[], 1, 'Personangrep gjør diskusjonen dårligere og hindrer at man forstår hverandre.', false, true, 13),
+  ('krle-8:etiske-teorier', 'm05', 'flervalg', 'Hvilken teori spør «Hvilke følger får handlingen?»', array['Pliktetikk', 'Dydsetikk', 'Konsekvensetikk', 'Sinnelagsetikk']::text[], 2, 'Konsekvensetikken vurderer handlinger ut fra resultatet.', false, true, 14),
+  ('krle-8:etiske-teorier', 'm06', 'flervalg', 'Hva er en dyd?', array['Et godt karaktertrekk, som mot eller ærlighet', 'En lov', 'En konsekvens', 'En plikt']::text[], 0, 'Ifølge Aristoteles utvikler vi dyder gjennom øvelse.', false, true, 15),
+  ('krle-8:etiske-teorier', 'm07', 'flervalg', 'Hvilken etisk teori knyttes til Jeremy Bentham og John Stuart Mill?', array['Pliktetikk', 'Utilitarisme', 'Dydsetikk', 'Sinnelagsetikk']::text[], 1, 'Utilitarismen er en form for konsekvensetikk.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('krle-8:etiske-teorier', 15)
 on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Norsk (9): rydd bort fjernede temaer
@@ -4798,7 +5711,583 @@ insert into public.miniprover (tema_id, minutter) values
 on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Samfunnsfag (9): rydd bort fjernede temaer
-delete from public.temaer where fag_id = 'samfunnsfag-9';
+delete from public.temaer where fag_id = 'samfunnsfag-9' and slug not in ('industrialisering-og-teknologi', 'kamp-for-endring', 'forste-verdenskrig', 'mellomkrigstid-og-andre-verdenskrig', 'holocaust-og-folkemord', 'fornorsking-og-minoriteter', 'menneskerettigheter');
+
+-- Samfunnsfag: Industrialisering og teknologi
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('samfunnsfag-9:industrialisering-og-teknologi', 'samfunnsfag-9', 'industrialisering-og-teknologi', 'Industrialisering og teknologi', 'Hvordan den industrielle revolusjonen og senere teknologiske omveltninger har endret livet til enkeltmennesker, samfunnet og naturen, i verden og i Norge.', array[4]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('samfunnsfag-9:industrialisering-og-teknologi', '## Teknologi som endringsfaktor
+
+**Teknologi** er redskaper, maskiner og metoder mennesker bruker for å løse oppgaver. Gjennom historien har ny teknologi endret hvordan vi arbeider, bor og lever. Den største omveltningen var den **industrielle revolusjonen**, som begynte i **Storbritannia** på slutten av 1700-tallet.
+
+## Den industrielle revolusjonen
+
+Før industrialiseringen levde de fleste av jordbruk, og varer ble laget for hånd. Nye maskiner endret dette:
+
+- **Spinnemaskiner og vevstoler** gjorde at tekstiler kunne produseres i store **fabrikker**.
+- **Dampmaskinen**, som James Watt forbedret, gjorde det mulig å drive maskiner med **kull** nesten hvor som helst.
+- **Jernbanen** og dampskipet gjorde transport av varer og mennesker raskere og billigere.
+
+Storbritannia hadde mye kull og jern, penger fra handel og kolonier, og en voksende befolkning som trengte arbeid.
+
+## Konsekvenser for mennesker
+
+Mange flyttet fra landsbygda til byene for å få arbeid i fabrikkene. Denne **urbaniseringen** gikk raskt, og mange bodde trangt og uhygienisk. Arbeidsdagene var lange, lønna lav og maskinene farlige, og **barnearbeid** var vanlig. En ny **arbeiderklasse** vokste fram, og etter hvert organiserte arbeiderne seg i fagforeninger. Noen protesterte ved å knuse maskiner, som **luddittene** i England. På lang sikt førte industrialiseringen likevel til høyere levestandard for de fleste.
+
+## Industrialiseringen i Norge
+
+I Norge kom industrialiseringen fra 1840-årene, blant annet med tekstilfabrikker langs **Akerselva** i Christiania. Den første jernbanen, **Hovedbanen** mellom Christiania og Eidsvoll, åpnet i **1854**. Rundt 1900 kom et nytt løft med **vannkraft** og elektrisitet. **Norsk Hydro** ble grunnlagt i 1905 og bygde store fabrikker på Notodden og Rjukan.
+
+## Nye revolusjoner
+
+- Rundt 1900: **elektrisitet**, olje, bilen og **samlebåndet**, som gjorde masseproduksjon billig.
+- Fra 1970-tallet: **datamaskiner** og **automatisering**.
+- I dag: **digitalisering**, internett, smarttelefoner, roboter og **kunstig intelligens**.
+
+## Teknologi og natur
+
+Industrialiseringen bygde på fossile brensler som kull og olje. Det har gitt **forurensning** og store utslipp av klimagasser, som bidrar til **klimaendringer**. Samtidig kan ny teknologi, som fornybar energi og elbiler, være en del av løsningen.
+
+## Å drøfte teknologi
+
+Ny teknologi har både **fordeler og ulemper**. Den kan gi bedre helse, mer velstand og nye jobber, men også gjøre gamle jobber overflødige, øke forskjeller og skade naturen. Når vi drøfter teknologi, kan vi spørre: Hvem tjener på den, hvem taper, og hva betyr den for naturen?', '{"label":"Industrialisering og teknologi","children":[{"label":"Første revolusjon","children":[{"label":"Storbritannia"},{"label":"Dampmaskin og kull"},{"label":"Tekstilfabrikker"},{"label":"Jernbane"}]},{"label":"Samfunnet endres","children":[{"label":"Urbanisering"},{"label":"Arbeiderklassen"},{"label":"Barnearbeid"},{"label":"Høyere levestandard","note":"På lang sikt"}]},{"label":"Norge","children":[{"label":"Akerselva"},{"label":"Hovedbanen","note":"1854"},{"label":"Vannkraft og Norsk Hydro","note":"1905"}]},{"label":"Nye revolusjoner","children":[{"label":"Elektrisitet og samlebånd"},{"label":"Datamaskiner"},{"label":"Internett og KI"}]},{"label":"Konsekvenser","children":[{"label":"Nye og tapte jobber"},{"label":"Forurensning og klima"},{"label":"Hvem vinner, hvem taper?"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'samfunnsfag-9:industrialisering-og-teknologi';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('samfunnsfag-9:industrialisering-og-teknologi', 'Den industrielle revolusjonen', 'Overgangen fra håndverk og jordbruk til fabrikkproduksjon, fra slutten av 1700-tallet.', 0),
+  ('samfunnsfag-9:industrialisering-og-teknologi', 'Dampmaskinen', 'Maskin drevet av damp fra kullfyring. Forbedret av James Watt.', 1),
+  ('samfunnsfag-9:industrialisering-og-teknologi', 'Fabrikk', 'Stor arbeidsplass der varer produseres med maskiner.', 2),
+  ('samfunnsfag-9:industrialisering-og-teknologi', 'Urbanisering', 'At stadig flere flytter til og bor i byer.', 3),
+  ('samfunnsfag-9:industrialisering-og-teknologi', 'Arbeiderklassen', 'Samfunnsgruppe som lever av å selge arbeidskraften sin, ofte i fabrikker.', 4),
+  ('samfunnsfag-9:industrialisering-og-teknologi', 'Barnearbeid', 'At barn arbeider, vanlig i fabrikkene på 1800-tallet.', 5),
+  ('samfunnsfag-9:industrialisering-og-teknologi', 'Luddittene', 'Engelske arbeidere som knuste maskiner i protest tidlig på 1800-tallet.', 6),
+  ('samfunnsfag-9:industrialisering-og-teknologi', 'Hovedbanen', 'Norges første jernbane, mellom Christiania og Eidsvoll, åpnet i 1854.', 7),
+  ('samfunnsfag-9:industrialisering-og-teknologi', 'Akerselva', 'Elv i Oslo der mange av de første norske fabrikkene lå.', 8),
+  ('samfunnsfag-9:industrialisering-og-teknologi', 'Vannkraft', 'Elektrisitet fra fallende vann. Ga Norge et industrielt løft rundt 1900.', 9),
+  ('samfunnsfag-9:industrialisering-og-teknologi', 'Norsk Hydro', 'Industriselskap grunnlagt i 1905, med fabrikker på Notodden og Rjukan.', 10),
+  ('samfunnsfag-9:industrialisering-og-teknologi', 'Samlebånd', 'Produksjonsmetode der varen flyttes mellom arbeidere som gjør hver sin del.', 11),
+  ('samfunnsfag-9:industrialisering-og-teknologi', 'Automatisering', 'At maskiner og datamaskiner gjør arbeid som mennesker gjorde før.', 12),
+  ('samfunnsfag-9:industrialisering-og-teknologi', 'Digitalisering', 'At stadig mer av samfunnet foregår med digital teknologi.', 13),
+  ('samfunnsfag-9:industrialisering-og-teknologi', 'Fossile brensler', 'Kull, olje og gass. Gir klimagassutslipp når de brennes.', 14);
+delete from public.quiz_sporsmal where tema_id = 'samfunnsfag-9:industrialisering-og-teknologi';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('samfunnsfag-9:industrialisering-og-teknologi', 'q01', 'flervalg', 'Hvor startet den industrielle revolusjonen?', array['Norge', 'Frankrike', 'Storbritannia', 'USA']::text[], 2, 'Storbritannia hadde kull, jern, kapital og arbeidskraft.', true, true, 0),
+  ('samfunnsfag-9:industrialisering-og-teknologi', 'q02', 'flervalg', 'Hvilken oppfinnelse var sentral i den første industrielle revolusjonen?', array['Dampmaskinen', 'Datamaskinen', 'Telefonen', 'Flyet']::text[], 0, 'Dampmaskinen kunne drive fabrikker, tog og skip.', true, true, 1),
+  ('samfunnsfag-9:industrialisering-og-teknologi', 'q03', 'flervalg', 'Hvorfor flyttet mange fra landsbygda til byene under industrialiseringen?', array['Fordi byene var renere', 'For å få arbeid i fabrikkene', 'Fordi jordbruk ble forbudt', 'Fordi boligene var gratis']::text[], 1, 'Fabrikkene trengte mange arbeidere.', true, true, 2),
+  ('samfunnsfag-9:industrialisering-og-teknologi', 'q04', 'flervalg', 'Hvordan var arbeidsforholdene i de tidlige fabrikkene?', array['Korte dager og høy lønn', 'Barn fikk ikke jobbe', 'Trygge maskiner og ferie', 'Lange dager, lav lønn og farlige maskiner']::text[], 3, 'Det fantes få lover som beskyttet arbeiderne.', true, true, 3),
+  ('samfunnsfag-9:industrialisering-og-teknologi', 'q05', 'flervalg', 'Hva ga Norge et stort industrielt løft rundt 1900?', array['Vannkraft og elektrisitet', 'Store kullgruver på Østlandet', 'Oljefunn', 'Datamaskiner']::text[], 0, 'Fossefallene ga billig strøm til kraftkrevende industri.', true, true, 4),
+  ('samfunnsfag-9:industrialisering-og-teknologi', 'q06', 'flervalg', 'Når åpnet den første jernbanen i Norge?', array['1814', '1905', '1854', '1945']::text[], 2, 'Hovedbanen gikk mellom Christiania og Eidsvoll.', true, true, 5),
+  ('samfunnsfag-9:industrialisering-og-teknologi', 'q07', 'flervalg', 'Hva er en negativ konsekvens for naturen av industrialiseringen?', array['Mer skog', 'Renere luft', 'Færre utslipp', 'Forurensning og økte klimagassutslipp']::text[], 3, 'Bruken av kull og olje har gitt store utslipp.', true, true, 6),
+  ('samfunnsfag-9:industrialisering-og-teknologi', 'q08', 'flervalg', 'Hva betyr automatisering?', array['At folk jobber mer for hånd', 'At maskiner og datamaskiner gjør arbeid som mennesker gjorde før', 'At alle får egen bil', 'At fabrikker stenges']::text[], 1, 'Automatisering kan gjøre produksjonen billigere, men fjerne jobber.', true, true, 7),
+  ('samfunnsfag-9:industrialisering-og-teknologi', 'q09', 'flervalg', 'Hvem var luddittene?', array['Oppfinnere av dampmaskinen', 'Fabrikkeiere', 'Arbeidere som knuste maskiner i protest', 'Norske politikere']::text[], 2, 'De var redde for at maskinene skulle ta arbeidet deres.', true, false, 8),
+  ('samfunnsfag-9:industrialisering-og-teknologi', 'q10', 'flervalg', 'Hvilket er et eksempel på den digitale revolusjonen?', array['Internett og smarttelefoner', 'Spinnemaskinen', 'Dampskipet', 'Hestevogna']::text[], 0, 'Digital teknologi har endret kommunikasjon, arbeid og fritid.', true, false, 9),
+  ('samfunnsfag-9:industrialisering-og-teknologi', 'm01', 'sant-usant', 'Samlebåndet gjorde det mulig å masseprodusere varer billigere.', array['Sant', 'Usant']::text[], 0, 'Hver arbeider gjorde en liten del, og produksjonen gikk mye raskere.', false, true, 10),
+  ('samfunnsfag-9:industrialisering-og-teknologi', 'm02', 'sant-usant', 'Teknologi har bare hatt positive konsekvenser for mennesker og natur.', array['Sant', 'Usant']::text[], 1, 'Teknologi har også gitt forurensning, farlig arbeid og tapte jobber.', false, true, 11),
+  ('samfunnsfag-9:industrialisering-og-teknologi', 'm03', 'sant-usant', 'Barnearbeid var vanlig i fabrikkene på 1800-tallet.', array['Sant', 'Usant']::text[], 0, 'Barn var billig arbeidskraft og jobbet ofte lange dager.', false, true, 12),
+  ('samfunnsfag-9:industrialisering-og-teknologi', 'm04', 'sant-usant', 'Norsk Hydro ble grunnlagt for å utvinne olje i Nordsjøen.', array['Sant', 'Usant']::text[], 1, 'Norsk Hydro ble grunnlagt i 1905 og brukte vannkraft til å lage kunstgjødsel.', false, true, 13),
+  ('samfunnsfag-9:industrialisering-og-teknologi', 'm05', 'flervalg', 'Hva brukte dampmaskinene som brensel?', array['Olje', 'Kull', 'Gass', 'Uran']::text[], 1, 'Derfor lå mange tidlige industriområder nær kullgruver.', false, true, 14),
+  ('samfunnsfag-9:industrialisering-og-teknologi', 'm06', 'flervalg', 'Hva er en mulig konsekvens av kunstig intelligens i arbeidslivet?', array['At noen yrker forsvinner og nye oppstår', 'At all teknologi stopper', 'At ingen trenger utdanning', 'At internett forsvinner']::text[], 0, 'Som tidligere teknologi endrer KI hvilke oppgaver mennesker gjør.', false, true, 15),
+  ('samfunnsfag-9:industrialisering-og-teknologi', 'm07', 'flervalg', 'Hva kjennetegnet den andre industrielle revolusjonen rundt 1900?', array['Dampmaskin og tekstil', 'Internett og mobil', 'Hestekraft og vindmøller', 'Elektrisitet, olje og samlebånd']::text[], 3, 'Ny energi og nye produksjonsmetoder ga masseproduksjon.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('samfunnsfag-9:industrialisering-og-teknologi', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Samfunnsfag: Kamp for endring
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('samfunnsfag-9:kamp-for-endring', 'samfunnsfag-9', 'kamp-for-endring', 'Kamp for endring', 'Hvordan arbeidere, kvinner, urfolk og andre har kjempet for rettigheter og endringer i samfunnet, hvilke virkemidler de har brukt, og hvordan tid og sted har påvirket kampene.', array[5]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('samfunnsfag-9:kamp-for-endring', '## Mennesker skaper endring
+
+Mange rettigheter vi tar for gitt i dag, som stemmerett for alle, åtte timers arbeidsdag og forbud mot diskriminering, er resultat av at mennesker har **kjempet for endring**. Kampene har alltid vært preget av **historisk kontekst** – hvilke ideer, teknologier og maktforhold som fantes – og av **geografiske forhold**, som hvor folk bodde og hvilke naturressurser de levde av.
+
+## Arbeiderbevegelsen
+
+Industrialiseringen skapte en stor arbeiderklasse med dårlige kår. I Norge samlet **Marcus Thrane** tusenvis av husmenn og arbeidere i foreninger rundt 1850. **Arbeiderpartiet** ble stiftet i 1887 og **LO** i 1899. Gjennom **streik**, forhandlinger og politisk arbeid fikk arbeiderne blant annet **åttetimersdagen** i 1919 og **Hovedavtalen** i 1935, som regulerer samarbeidet mellom arbeidsgivere og arbeidstakere.
+
+## Kvinnekampen
+
+Kvinner hadde lenge færre rettigheter enn menn. **Norsk Kvinnesaksforening** ble stiftet i 1884 og kjempet for utdanning, eiendomsrett og stemmerett. Norske kvinner fikk **allmenn stemmerett i 1913**, som et av de første landene i verden. Senere har kampen handlet om likelønn, barnehager, **selvbestemt abort** (1978) og, i nyere tid, **#MeToo** mot seksuell trakassering.
+
+## Kamp mot rasisme
+
+I USA kjempet **borgerrettighetsbevegelsen** mot raseskille i sørstatene. **Rosa Parks** nektet å gi fra seg setet sitt på bussen i 1955, og **Martin Luther King** ledet ikkevoldelige demonstrasjoner. I Sør-Afrika kjempet mange mot **apartheid**. **Nelson Mandela** satt i fengsel i 27 år og ble landets første svarte president i 1994.
+
+## Urfolk og miljø
+
+I **Alta-saken** (1979–1981) protesterte samer og miljøvernere mot utbyggingen av Altaelva, som var viktig for reindrift og laksefiske. Utbyggingen ble gjennomført, men saken førte til **Sametinget** i 1989 og sterkere samiske rettigheter. I dag kjemper mange unge for klimaet, blant annet gjennom **skolestreik for klima**, som Greta Thunberg startet i 2018.
+
+## Virkemidler
+
+Mennesker har brukt ulike virkemidler: organisering i foreninger og partier, **demonstrasjoner**, streik, **boikott**, underskriftskampanjer og **sivil ulydighet**, altså å bryte loven åpent og ikkevoldelig for å protestere. I dag spiller sosiale medier en stor rolle i å spre budskap og mobilisere.
+
+## Å reflektere over kamp for endring
+
+Endring skjer sjelden raskt. Mange kamper har tatt generasjoner, og ofte har folk risikert mye. Noen ganger fører kampen fram, andre ganger ikke. Hva som var mulig, avhang av tiden og stedet folk levde i.', '{"label":"Kamp for endring","children":[{"label":"Arbeiderbevegelsen","children":[{"label":"Marcus Thrane"},{"label":"Arbeiderpartiet og LO"},{"label":"Åttetimersdagen","note":"1919"},{"label":"Hovedavtalen","note":"1935"}]},{"label":"Kvinnekampen","children":[{"label":"Kvinnesaksforeningen","note":"1884"},{"label":"Stemmerett","note":"1913"},{"label":"Selvbestemt abort","note":"1978"},{"label":"#MeToo"}]},{"label":"Mot rasisme","children":[{"label":"Borgerrettigheter i USA"},{"label":"Rosa Parks og Martin Luther King"},{"label":"Apartheid og Mandela"}]},{"label":"Urfolk og miljø","children":[{"label":"Alta-saken"},{"label":"Sametinget","note":"1989"},{"label":"Klimastreik"}]},{"label":"Virkemidler","children":[{"label":"Organisering"},{"label":"Streik og boikott"},{"label":"Demonstrasjoner"},{"label":"Sivil ulydighet"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'samfunnsfag-9:kamp-for-endring';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('samfunnsfag-9:kamp-for-endring', 'Arbeiderbevegelsen', 'Arbeidernes organisering i fagforeninger og partier for bedre kår.', 0),
+  ('samfunnsfag-9:kamp-for-endring', 'Marcus Thrane', 'Samlet husmenn og arbeidere i Norges første arbeiderbevegelse rundt 1850.', 1),
+  ('samfunnsfag-9:kamp-for-endring', 'LO', 'Landsorganisasjonen i Norge, paraplyorganisasjon for fagforeninger, stiftet i 1899.', 2),
+  ('samfunnsfag-9:kamp-for-endring', 'Streik', 'At arbeidstakere legger ned arbeidet for å presse fram krav.', 3),
+  ('samfunnsfag-9:kamp-for-endring', 'Åttetimersdagen', 'Lovfestet i Norge i 1919 etter krav fra arbeiderbevegelsen.', 4),
+  ('samfunnsfag-9:kamp-for-endring', 'Hovedavtalen', 'Avtale fra 1935 om samarbeidet mellom arbeidsgivere og arbeidstakere.', 5),
+  ('samfunnsfag-9:kamp-for-endring', 'Norsk Kvinnesaksforening', 'Stiftet i 1884 for å kjempe for kvinners rettigheter.', 6),
+  ('samfunnsfag-9:kamp-for-endring', 'Kvinners stemmerett', 'Norske kvinner fikk allmenn stemmerett i 1913.', 7),
+  ('samfunnsfag-9:kamp-for-endring', 'Borgerrettighetsbevegelsen', 'Kamp mot raseskille og for like rettigheter i USA på 1950- og 60-tallet.', 8),
+  ('samfunnsfag-9:kamp-for-endring', 'Apartheid', 'System med raseskille i Sør-Afrika, avviklet tidlig på 1990-tallet.', 9),
+  ('samfunnsfag-9:kamp-for-endring', 'Nelson Mandela', 'Satt 27 år i fengsel og ble Sør-Afrikas første svarte president i 1994.', 10),
+  ('samfunnsfag-9:kamp-for-endring', 'Alta-saken', 'Protester 1979–1981 mot utbyggingen av Altaelva.', 11),
+  ('samfunnsfag-9:kamp-for-endring', 'Sametinget', 'Samenes folkevalgte organ, opprettet i 1989.', 12),
+  ('samfunnsfag-9:kamp-for-endring', 'Sivil ulydighet', 'Å bryte loven åpent og ikkevoldelig for å protestere.', 13),
+  ('samfunnsfag-9:kamp-for-endring', 'Boikott', 'Å nekte å kjøpe noe eller delta i noe for å protestere.', 14);
+delete from public.quiz_sporsmal where tema_id = 'samfunnsfag-9:kamp-for-endring';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('samfunnsfag-9:kamp-for-endring', 'q01', 'flervalg', 'Når fikk norske kvinner allmenn stemmerett?', array['1884', '1945', '1913', '1978']::text[], 2, 'Norge var blant de første landene i verden.', true, true, 0),
+  ('samfunnsfag-9:kamp-for-endring', 'q02', 'flervalg', 'Hvem samlet husmenn og arbeidere i foreninger rundt 1850?', array['Marcus Thrane', 'Henrik Ibsen', 'Christian Michelsen', 'Nelson Mandela']::text[], 0, 'Thranebevegelsen var Norges første store arbeiderbevegelse.', true, true, 1),
+  ('samfunnsfag-9:kamp-for-endring', 'q03', 'flervalg', 'Hva er sivil ulydighet?', array['Å stemme blankt', 'Å skrive leserbrev', 'Å bryte loven åpent og ikkevoldelig i protest', 'Å flytte til et annet land']::text[], 2, 'Deltakerne tar bevisst straffen for å vise hvor viktig saken er.', true, true, 2),
+  ('samfunnsfag-9:kamp-for-endring', 'q04', 'flervalg', 'Hva var apartheid?', array['Et fotballag i Sør-Afrika', 'En fredsavtale', 'En type valgordning', 'Et system med raseskille i Sør-Afrika']::text[], 3, 'Svarte sørafrikanere ble fratatt politiske rettigheter og holdt adskilt fra hvite.', true, true, 3),
+  ('samfunnsfag-9:kamp-for-endring', 'q05', 'flervalg', 'Hva ble opprettet i 1989, blant annet som en følge av Alta-saken?', array['Stortinget', 'Sametinget', 'LO', 'FN']::text[], 1, 'Alta-saken satte samiske rettigheter på dagsordenen.', true, true, 4),
+  ('samfunnsfag-9:kamp-for-endring', 'q06', 'flervalg', 'Hva gjorde Rosa Parks i 1955?', array['Nektet å gi fra seg setet sitt på bussen', 'Ble president i USA', 'Startet en fagforening', 'Vant Nobels fredspris']::text[], 0, 'Protesten hennes utløste en stor bussboikott i Montgomery.', true, true, 5),
+  ('samfunnsfag-9:kamp-for-endring', 'q07', 'flervalg', 'Hvilket virkemiddel bruker arbeidere når de legger ned arbeidet for å presse fram krav?', array['Boikott', 'Underskriftskampanje', 'Lobbyvirksomhet', 'Streik']::text[], 3, 'Streik er et av fagbevegelsens viktigste virkemidler.', true, true, 6),
+  ('samfunnsfag-9:kamp-for-endring', 'q08', 'flervalg', 'Hvorfor var Altaelva viktig for mange samer?', array['Fordi den var en turistattraksjon', 'Fordi den var viktig for reindrift og laksefiske', 'Fordi den var grense mot Sverige', 'Fordi det fantes olje der']::text[], 1, 'Geografiske forhold påvirket hvorfor utbyggingen ble så omstridt.', true, true, 7),
+  ('samfunnsfag-9:kamp-for-endring', 'q09', 'flervalg', 'Hva betyr det at kamp for endring er preget av historisk kontekst?', array['At ideer, teknologi og maktforhold i tiden påvirker hva som er mulig', 'At kampene alltid foregår på samme måte', 'At historien ikke betyr noe', 'At bare historikere kan endre samfunnet']::text[], 0, 'For eksempel gjør sosiale medier det mulig å mobilisere mye raskere i dag enn før.', true, false, 8),
+  ('samfunnsfag-9:kamp-for-endring', 'q10', 'flervalg', 'Hva startet Greta Thunberg i 2018?', array['Et politisk parti', 'En miljøorganisasjon i Norge', 'Skolestreik for klima', 'En avis']::text[], 2, 'Skolestreiken spredte seg til millioner av unge over hele verden.', true, false, 9),
+  ('samfunnsfag-9:kamp-for-endring', 'm01', 'sant-usant', 'Åttetimersdagen ble innført i Norge etter krav fra arbeiderbevegelsen.', array['Sant', 'Usant']::text[], 0, 'Kravet om åtte timers arbeid, åtte timers fritid og åtte timers søvn var sentralt.', false, true, 10),
+  ('samfunnsfag-9:kamp-for-endring', 'm02', 'sant-usant', 'Nelson Mandela ble Sør-Afrikas første svarte president i 1994.', array['Sant', 'Usant']::text[], 0, 'Det var etter landets første frie valg der alle kunne stemme.', false, true, 11),
+  ('samfunnsfag-9:kamp-for-endring', 'm03', 'sant-usant', 'Alta-utbyggingen ble stoppet etter protestene.', array['Sant', 'Usant']::text[], 1, 'Kraftverket ble bygd, men saken styrket samiske rettigheter.', false, true, 12),
+  ('samfunnsfag-9:kamp-for-endring', 'm04', 'sant-usant', 'Norge var det aller første landet i verden som ga kvinner stemmerett.', array['Sant', 'Usant']::text[], 1, 'New Zealand ga kvinner stemmerett allerede i 1893.', false, true, 13),
+  ('samfunnsfag-9:kamp-for-endring', 'm05', 'flervalg', 'Hva er en boikott?', array['Å nekte å kjøpe noe eller delta i noe for å protestere', 'En type streik blant lærere', 'En valgordning', 'En sang']::text[], 0, 'Bussboikotten i Montgomery er et kjent eksempel.', false, true, 14),
+  ('samfunnsfag-9:kamp-for-endring', 'm06', 'flervalg', 'Hvilken organisasjon ble stiftet i 1884 for å kjempe for kvinners rettigheter?', array['LO', 'Arbeiderpartiet', 'Norsk Kvinnesaksforening', 'Sametinget']::text[], 2, 'Foreningen kjempet for utdanning, eiendomsrett og stemmerett.', false, true, 15),
+  ('samfunnsfag-9:kamp-for-endring', 'm07', 'flervalg', 'Hvordan har sosiale medier endret kampen for endring?', array['Det er blitt forbudt å demonstrere', 'Budskap kan spres og folk mobiliseres raskere', 'Ingen engasjerer seg lenger', 'Bare politikere kan delta']::text[], 1, '#MeToo og klimastreikene spredte seg raskt over hele verden via sosiale medier.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('samfunnsfag-9:kamp-for-endring', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Samfunnsfag: Første verdenskrig
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('samfunnsfag-9:forste-verdenskrig', 'samfunnsfag-9', 'forste-verdenskrig', 'Første verdenskrig', 'Årsakene til og konsekvensene av første verdenskrig, hvordan krigen ble ført, hvordan Norge ble rammet, og om krigen kunne vært unngått.', array[7]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('samfunnsfag-9:forste-verdenskrig', '## En verdenskrig
+
+Første verdenskrig varte fra **1914 til 1918**. Den ble kalt «den store krigen», fordi ingen tidligere krig hadde vært så omfattende. Om lag 17 millioner mennesker døde, soldater og sivile.
+
+## Årsaker
+
+Historikere skiller mellom **langsiktige årsaker** og den **utløsende årsaken**. Viktige langsiktige årsaker var:
+
+- **Allianser**: Europa var delt i to blokker. **Sentralmaktene** Tyskland og Østerrike-Ungarn sto mot **ententemaktene** Storbritannia, Frankrike og Russland.
+- **Militarisme**: Stormaktene bygde opp store hærer og flåter og hadde ferdige krigsplaner.
+- **Imperialisme**: Kappløpet om kolonier og innflytelse skapte rivalisering.
+- **Nasjonalisme**: Sterk stolthet over egen nasjon, og folkegrupper på **Balkan** som ønsket egne stater.
+
+Den **utløsende årsaken** var skuddene i **Sarajevo 28. juni 1914**, da den serbiske nasjonalisten Gavrilo Princip drepte den østerrikske tronfølgeren Franz Ferdinand. Østerrike-Ungarn erklærte krig mot Serbia, og alliansene dro de andre stormaktene inn i krigen i løpet av få dager.
+
+## Krigen
+
+Tyskland angrep Frankrike gjennom Belgia, men angrepet stoppet opp. På **vestfronten** ble det **skyttergravskrig**: Soldatene lå i skyttergraver i månedsvis, og i store slag, som ved **Verdun** og **Somme** i 1916, ble hundretusener drept eller såret for små landområder. Nye våpen som maskingevær, giftgass, stridsvogner, fly og ubåter gjorde krigen svært dødelig. I 1917 gikk **USA** inn i krigen, mens Russland trakk seg ut etter revolusjonen. **Våpenhvilen** kom **11. november 1918**.
+
+## Norge under krigen
+
+Norge var **nøytralt**, men handelsflåten ble rammet av ubåter og miner, og om lag 2000 norske sjøfolk omkom. Noen tjente store penger på spekulasjon, mens mange fikk dårligere kår på grunn av høye priser og vareknapphet.
+
+## Konsekvenser
+
+- **Versaillestraktaten** (1919) ga Tyskland skylden for krigen. Landet måtte betale store krigserstatninger, gi fra seg land og kolonier og ruste ned. Mange tyskere opplevde freden som urettferdig.
+- Fire keiserriker gikk i oppløsning: Tyskland, Østerrike-Ungarn, Russland og Det osmanske riket. Nye stater, som Polen, Tsjekkoslovakia og Jugoslavia, ble opprettet.
+- **Folkeforbundet** ble opprettet i 1920 for å sikre fred.
+- I Russland tok kommunistene makten, og Sovjetunionen ble til.
+
+## Kunne krigen vært unngått?
+
+Historikere diskuterer om krigen kunne vært hindret dersom noen **forutsetninger** hadde vært annerledes. Hva om alliansene hadde vært mindre bindende, diplomatene hadde fått mer tid, eller stormaktene ikke hadde hatt ferdige krigsplaner? Slike spørsmål hjelper oss å forstå hvorfor krigen brøt ut, og hvordan konflikter kan forebygges i dag.', '{"label":"Første verdenskrig","children":[{"label":"Årsaker","children":[{"label":"Allianser"},{"label":"Militarisme"},{"label":"Imperialisme"},{"label":"Nasjonalisme"},{"label":"Sarajevo 1914","note":"Utløsende"}]},{"label":"Krigen","children":[{"label":"Skyttergraver på vestfronten"},{"label":"Verdun og Somme"},{"label":"Nye våpen"},{"label":"USA inn 1917"}]},{"label":"Norge","children":[{"label":"Nøytralt"},{"label":"Tap av sjøfolk"},{"label":"Prisstigning og spekulasjon"}]},{"label":"Konsekvenser","children":[{"label":"Versaillestraktaten"},{"label":"Keiserriker faller"},{"label":"Nye stater"},{"label":"Folkeforbundet"}]},{"label":"Kunne den vært unngått?","children":[{"label":"Mindre bindende allianser"},{"label":"Mer diplomati"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'samfunnsfag-9:forste-verdenskrig';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('samfunnsfag-9:forste-verdenskrig', 'Første verdenskrig', 'Krigen mellom stormaktene i Europa fra 1914 til 1918.', 0),
+  ('samfunnsfag-9:forste-verdenskrig', 'Sentralmaktene', 'Tyskland og Østerrike-Ungarn, senere også Det osmanske riket og Bulgaria.', 1),
+  ('samfunnsfag-9:forste-verdenskrig', 'Ententemaktene', 'Storbritannia, Frankrike og Russland, senere også blant annet Italia og USA.', 2),
+  ('samfunnsfag-9:forste-verdenskrig', 'Militarisme', 'At militærmakt og opprustning får stor plass i et samfunn.', 3),
+  ('samfunnsfag-9:forste-verdenskrig', 'Imperialisme', 'Stormaktenes kappløp om kolonier og innflytelse.', 4),
+  ('samfunnsfag-9:forste-verdenskrig', 'Nasjonalisme', 'Sterk stolthet over og lojalitet til egen nasjon.', 5),
+  ('samfunnsfag-9:forste-verdenskrig', 'Skuddene i Sarajevo', 'Drapet på tronfølgeren Franz Ferdinand 28. juni 1914, den utløsende årsaken.', 6),
+  ('samfunnsfag-9:forste-verdenskrig', 'Utløsende årsak', 'Hendelsen som setter i gang en konflikt som har langsiktige årsaker.', 7),
+  ('samfunnsfag-9:forste-verdenskrig', 'Skyttergravskrig', 'Krig der soldatene lå i gravde grøfter overfor hverandre i lang tid.', 8),
+  ('samfunnsfag-9:forste-verdenskrig', 'Verdun og Somme', 'Store slag på vestfronten i 1916 med enorme tap.', 9),
+  ('samfunnsfag-9:forste-verdenskrig', 'Nye våpen', 'Maskingevær, giftgass, stridsvogner, fly og ubåter.', 10),
+  ('samfunnsfag-9:forste-verdenskrig', 'Våpenhvilen', 'Kampene stanset 11. november 1918.', 11),
+  ('samfunnsfag-9:forste-verdenskrig', 'Versaillestraktaten', 'Fredsavtalen fra 1919 som ga Tyskland skylden og store krigserstatninger.', 12),
+  ('samfunnsfag-9:forste-verdenskrig', 'Folkeforbundet', 'Internasjonal organisasjon fra 1920 som skulle sikre fred.', 13),
+  ('samfunnsfag-9:forste-verdenskrig', 'Nøytralitet', 'At et land ikke tar side i en krig, slik Norge gjorde.', 14);
+delete from public.quiz_sporsmal where tema_id = 'samfunnsfag-9:forste-verdenskrig';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('samfunnsfag-9:forste-verdenskrig', 'q01', 'flervalg', 'Når varte første verdenskrig?', array['1905–1910', '1914–1918', '1939–1945', '1918–1922']::text[], 1, 'Krigen startet sommeren 1914 og endte med våpenhvilen i november 1918.', true, true, 0),
+  ('samfunnsfag-9:forste-verdenskrig', 'q02', 'flervalg', 'Hva var den utløsende årsaken til krigen?', array['Skuddene i Sarajevo i 1914', 'Den russiske revolusjonen', 'Versaillestraktaten', 'Angrepet på Pearl Harbor']::text[], 0, 'Drapet på Franz Ferdinand satte i gang en kjedereaksjon.', true, true, 1),
+  ('samfunnsfag-9:forste-verdenskrig', 'q03', 'flervalg', 'Hvilke land var ententemaktene ved krigens start?', array['Tyskland og Østerrike-Ungarn', 'USA, Japan og Kina', 'Storbritannia, Frankrike og Russland', 'Norge, Sverige og Danmark']::text[], 2, 'Ententemaktene sto mot sentralmaktene.', true, true, 2),
+  ('samfunnsfag-9:forste-verdenskrig', 'q04', 'flervalg', 'Hva kjennetegnet krigen på vestfronten?', array['Raske angrep med fly', 'Krig til sjøs', 'Kamper i jungelen', 'Skyttergravskrig med store tap for små landområder']::text[], 3, 'Fronten flyttet seg lite i nesten fire år.', true, true, 3),
+  ('samfunnsfag-9:forste-verdenskrig', 'q05', 'flervalg', 'Hva var imperialisme?', array['Kappløp mellom stormaktene om kolonier og innflytelse', 'Kjærlighet til eget land', 'Oppbygging av hærer', 'Samarbeid mellom land']::text[], 0, 'Rivaliseringen om kolonier skapte spenninger mellom stormaktene.', true, true, 4),
+  ('samfunnsfag-9:forste-verdenskrig', 'q06', 'flervalg', 'Hvorfor ble krigen raskt en storkrig mellom mange land?', array['Fordi alle ønsket krig', 'Fordi alliansene dro stormaktene inn i konflikten', 'Fordi Norge angrep Tyskland', 'Fordi USA startet krigen']::text[], 1, 'Landene hadde lovet å hjelpe hverandre, og konflikten spredte seg på få dager.', true, true, 5),
+  ('samfunnsfag-9:forste-verdenskrig', 'q07', 'flervalg', 'Hvilket land fikk skylden for krigen i Versaillestraktaten?', array['Russland', 'Frankrike', 'Serbia', 'Tyskland']::text[], 3, 'Skyldparagrafen skapte bitterhet i Tyskland.', true, true, 6),
+  ('samfunnsfag-9:forste-verdenskrig', 'q08', 'flervalg', 'Hvordan ble Norge rammet, selv om landet var nøytralt?', array['Norge ble okkupert', 'Mange norske handelsskip ble senket', 'Norske soldater kjempet i Frankrike', 'Kristiania ble bombet']::text[], 1, 'Om lag 2000 norske sjøfolk omkom.', true, true, 7),
+  ('samfunnsfag-9:forste-verdenskrig', 'q09', 'flervalg', 'Hvilken organisasjon ble opprettet etter krigen for å sikre fred?', array['FN', 'NATO', 'Folkeforbundet', 'EU']::text[], 2, 'Folkeforbundet klarte likevel ikke å hindre en ny verdenskrig.', true, false, 8),
+  ('samfunnsfag-9:forste-verdenskrig', 'q10', 'flervalg', 'Hvilket spørsmål er et eksempel på å reflektere over om krigen kunne vært hindret?', array['Hvor mange soldater deltok?', 'Hvem vant slaget ved Verdun?', 'Hva het den østerrikske tronfølgeren?', 'Hva om alliansene hadde vært mindre bindende?']::text[], 3, 'Å endre én forutsetning i tanken hjelper oss å se hvilke årsaker som var viktigst.', true, false, 9),
+  ('samfunnsfag-9:forste-verdenskrig', 'm01', 'sant-usant', 'USA gikk inn i krigen i 1917.', array['Sant', 'Usant']::text[], 0, 'Blant annet den tyske ubåtkrigen fikk USA til å gå inn på ententens side.', false, true, 10),
+  ('samfunnsfag-9:forste-verdenskrig', 'm02', 'sant-usant', 'Krigen endte med en våpenhvile 11. november 1918.', array['Sant', 'Usant']::text[], 0, 'Fredsavtalen, Versaillestraktaten, kom året etter.', false, true, 11),
+  ('samfunnsfag-9:forste-verdenskrig', 'm03', 'sant-usant', 'Østerrike-Ungarn ble styrket etter krigen.', array['Sant', 'Usant']::text[], 1, 'Riket gikk i oppløsning, og flere nye stater ble opprettet.', false, true, 12),
+  ('samfunnsfag-9:forste-verdenskrig', 'm04', 'sant-usant', 'Norge kjempet på sentralmaktenes side.', array['Sant', 'Usant']::text[], 1, 'Norge var nøytralt under hele krigen.', false, true, 13),
+  ('samfunnsfag-9:forste-verdenskrig', 'm05', 'flervalg', 'Hvilket nytt våpen ble tatt i bruk under første verdenskrig?', array['Atombomben', 'Giftgass', 'Kanonen', 'Armbrøsten']::text[], 1, 'Giftgass skadet og drepte mange soldater i skyttergravene.', false, true, 14),
+  ('samfunnsfag-9:forste-verdenskrig', 'm06', 'flervalg', 'Hva betyr nasjonalisme?', array['Sterk stolthet over og lojalitet til egen nasjon', 'Kappløp om kolonier', 'Å ha store hærer', 'Samarbeid mellom land']::text[], 0, 'Nasjonalisme skapte spenninger, særlig på Balkan.', false, true, 15),
+  ('samfunnsfag-9:forste-verdenskrig', 'm07', 'flervalg', 'Hvilken stat ble opprettet etter første verdenskrig?', array['Tyskland', 'Frankrike', 'Polen', 'Storbritannia']::text[], 2, 'Polen ble igjen en selvstendig stat i 1918.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('samfunnsfag-9:forste-verdenskrig', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Samfunnsfag: Mellomkrigstiden og andre verdenskrig
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('samfunnsfag-9:mellomkrigstid-og-andre-verdenskrig', 'samfunnsfag-9', 'mellomkrigstid-og-andre-verdenskrig', 'Mellomkrigstiden og andre verdenskrig', 'Hvordan økonomisk krise og diktaturer førte til andre verdenskrig, hovedtrekkene i krigen, okkupasjonen av Norge og konsekvensene etter 1945.', array[7, 8]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('samfunnsfag-9:mellomkrigstid-og-andre-verdenskrig', '## Mellomkrigstiden
+
+Årene mellom de to verdenskrigene, **1918–1939**, begynte med håp om varig fred, men endte i en ny krig. På 1920-tallet gikk økonomien godt i mange land, men i 1929 kom **børskrakket** i New York. Det utløste **den store depresjonen**, en verdensomspennende økonomisk krise med massearbeidsløshet og fattigdom. Også i Norge var arbeidsløsheten høy.
+
+## Diktaturene vokser fram
+
+I krisetider fikk ekstreme ideologier oppslutning:
+
+- I **Italia** tok **Benito Mussolini** og fascistene makten i 1922.
+- I **Sovjetunionen** styrte **Josef Stalin** et kommunistisk diktatur der millioner ble sendt til arbeidsleirer.
+- I **Tyskland** ble **Adolf Hitler** rikskansler i **1933**. Nazistene avskaffet demokratiet og forfulgte politiske motstandere og jøder.
+
+**Nazismen** bygde på rasisme og **antisemittisme**, tanken om at tyskerne var en overlegen rase, og kravet om mer «livsrom» i øst. Mange tyskere mente Versaillestraktaten var urettferdig, og Hitler lovet å gjenreise Tysklands stolthet.
+
+## Veien til krig
+
+Hitler brøt Versaillestraktaten steg for steg: Han bygde opp hæren, tok **Østerrike** i 1938 og deretter **Sudetenland** i Tsjekkoslovakia. Storbritannia og Frankrike førte en **ettergivenhetspolitikk** og håpet å unngå krig. I august 1939 inngikk Tyskland og Sovjetunionen en ikke-angrepspakt. **1. september 1939** angrep Tyskland **Polen**, og Storbritannia og Frankrike erklærte krig.
+
+## Andre verdenskrig
+
+Tyskland erobret raskt store områder med **lynkrig**. **9. april 1940** angrep Tyskland **Norge**, og etter to måneder med kamper var landet okkupert. Kongen og regjeringen dro til London. I 1941 angrep Tyskland **Sovjetunionen**, og etter Japans angrep på **Pearl Harbor** gikk **USA** inn i krigen. Slaget om **Stalingrad** (1942–1943) ble et vendepunkt. På **D-dagen**, 6. juni 1944, gikk de allierte i land i Normandie. Tyskland kapitulerte **8. mai 1945**, og Japan kapitulerte i august etter at USA slapp **atombomber** over Hiroshima og Nagasaki.
+
+## Norge under okkupasjonen
+
+**Vidkun Quisling** og Nasjonal Samling styrte i samarbeid med tyskerne. Mange nordmenn deltok i **motstandskampen**, blant annet sabotasjen mot tungtvannsanlegget på **Vemork** i 1943. Hverdagen var preget av rasjonering, sensur og frykt.
+
+## Konsekvenser
+
+Mellom 70 og 85 millioner mennesker døde, flere sivile enn soldater. Nazistene drepte rundt seks millioner jøder i **Holocaust**. Etter krigen ble **FN** opprettet i 1945, Europa ble delt mellom øst og vest, og **den kalde krigen** begynte.
+
+## Kunne krigen vært hindret?
+
+Mange har spurt om en annerledes Versaillestraktat, et sterkere Folkeforbund eller at stormaktene hadde stoppet Hitler tidligere, kunne ha forhindret krigen.', '{"label":"Mellomkrigstid og andre verdenskrig","children":[{"label":"Mellomkrigstiden","children":[{"label":"Depresjonen","note":"1929"},{"label":"Mussolini","note":"Fascisme"},{"label":"Stalin","note":"Kommunisme"},{"label":"Hitler","note":"Nazisme"}]},{"label":"Veien til krig","children":[{"label":"Brudd på Versailles"},{"label":"Ettergivenhet"},{"label":"Angrep på Polen","note":"1939"}]},{"label":"Krigen","children":[{"label":"Lynkrig"},{"label":"Stalingrad"},{"label":"D-dagen","note":"1944"},{"label":"Kapitulasjon","note":"1945"}]},{"label":"Norge","children":[{"label":"9. april 1940"},{"label":"Quisling og NS"},{"label":"Motstandskamp"},{"label":"Frigjøring 8. mai"}]},{"label":"Konsekvenser","children":[{"label":"70–85 millioner døde"},{"label":"Holocaust"},{"label":"FN"},{"label":"Kald krig"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'samfunnsfag-9:mellomkrigstid-og-andre-verdenskrig';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('samfunnsfag-9:mellomkrigstid-og-andre-verdenskrig', 'Mellomkrigstiden', 'Perioden mellom første og andre verdenskrig, 1918–1939.', 0),
+  ('samfunnsfag-9:mellomkrigstid-og-andre-verdenskrig', 'Børskrakket', 'Kraftig fall i aksjekursene i New York i 1929.', 1),
+  ('samfunnsfag-9:mellomkrigstid-og-andre-verdenskrig', 'Den store depresjonen', 'Verdensomspennende økonomisk krise på 1930-tallet med massearbeidsløshet.', 2),
+  ('samfunnsfag-9:mellomkrigstid-og-andre-verdenskrig', 'Fascisme', 'Ideologi med én sterk leder, ett parti og en aggressiv nasjonalisme. Mussolini i Italia.', 3),
+  ('samfunnsfag-9:mellomkrigstid-og-andre-verdenskrig', 'Nazisme', 'Hitlers ideologi, bygd på rasisme, antisemittisme og diktatur.', 4),
+  ('samfunnsfag-9:mellomkrigstid-og-andre-verdenskrig', 'Antisemittisme', 'Hat og fordommer mot jøder.', 5),
+  ('samfunnsfag-9:mellomkrigstid-og-andre-verdenskrig', 'Ettergivenhetspolitikk', 'Storbritannias og Frankrikes politikk med å gi etter for Hitlers krav for å unngå krig.', 6),
+  ('samfunnsfag-9:mellomkrigstid-og-andre-verdenskrig', 'Lynkrig', 'Raske angrep med fly, stridsvogner og soldater samtidig.', 7),
+  ('samfunnsfag-9:mellomkrigstid-og-andre-verdenskrig', '9. april 1940', 'Tyskland angrep Norge.', 8),
+  ('samfunnsfag-9:mellomkrigstid-og-andre-verdenskrig', 'Vidkun Quisling', 'Leder av Nasjonal Samling, som styrte Norge sammen med tyskerne.', 9),
+  ('samfunnsfag-9:mellomkrigstid-og-andre-verdenskrig', 'Motstandskampen', 'Nordmenn som kjempet mot okkupasjonen, for eksempel med sabotasje.', 10),
+  ('samfunnsfag-9:mellomkrigstid-og-andre-verdenskrig', 'Stalingrad', 'Slaget 1942–1943 som ble et vendepunkt på østfronten.', 11),
+  ('samfunnsfag-9:mellomkrigstid-og-andre-verdenskrig', 'D-dagen', '6. juni 1944, da de allierte gikk i land i Normandie.', 12),
+  ('samfunnsfag-9:mellomkrigstid-og-andre-verdenskrig', '8. mai 1945', 'Tyskland kapitulerte, og Norge ble fritt.', 13),
+  ('samfunnsfag-9:mellomkrigstid-og-andre-verdenskrig', 'FN', 'De forente nasjoner, opprettet i 1945 for å sikre fred og samarbeid.', 14);
+delete from public.quiz_sporsmal where tema_id = 'samfunnsfag-9:mellomkrigstid-og-andre-verdenskrig';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('samfunnsfag-9:mellomkrigstid-og-andre-verdenskrig', 'q01', 'flervalg', 'Hva utløste den store depresjonen?', array['Børskrakket i New York i 1929', 'Første verdenskrig', 'Angrepet på Polen', 'Den russiske revolusjonen']::text[], 0, 'Krakket spredte seg til økonomien i store deler av verden.', true, true, 0),
+  ('samfunnsfag-9:mellomkrigstid-og-andre-verdenskrig', 'q02', 'flervalg', 'Når ble Hitler rikskansler i Tyskland?', array['1919', '1929', '1939', '1933']::text[], 3, 'Kort tid etter avskaffet nazistene demokratiet.', true, true, 1),
+  ('samfunnsfag-9:mellomkrigstid-og-andre-verdenskrig', 'q03', 'flervalg', 'Hva var ettergivenhetspolitikken?', array['At Tyskland ga fra seg land', 'At Storbritannia og Frankrike ga etter for Hitlers krav for å unngå krig', 'At USA gikk inn i krigen', 'At Norge var nøytralt']::text[], 1, 'Håpet var at Hitler ville bli fornøyd, men han krevde stadig mer.', true, true, 2),
+  ('samfunnsfag-9:mellomkrigstid-og-andre-verdenskrig', 'q04', 'flervalg', 'Hvilken hendelse regnes som starten på andre verdenskrig?', array['Angrepet på Pearl Harbor', 'D-dagen', 'Tysklands angrep på Polen 1. september 1939', 'Børskrakket']::text[], 2, 'To dager senere erklærte Storbritannia og Frankrike krig mot Tyskland.', true, true, 3),
+  ('samfunnsfag-9:mellomkrigstid-og-andre-verdenskrig', 'q05', 'flervalg', 'Når angrep Tyskland Norge?', array['9. april 1940', '8. mai 1945', '1. september 1939', '17. mai 1940']::text[], 0, 'Etter to måneder med kamper var hele landet okkupert.', true, true, 4),
+  ('samfunnsfag-9:mellomkrigstid-og-andre-verdenskrig', 'q06', 'flervalg', 'Hvorfor fikk ekstreme ideologier oppslutning i mellomkrigstiden?', array['Fordi alle var fornøyde', 'Fordi økonomisk krise og misnøye fikk mange til å søke sterke ledere', 'Fordi demokratiet var forbudt i hele Europa', 'Fordi Folkeforbundet støttet dem']::text[], 1, 'Arbeidsløshet og nasjonal bitterhet ga grobunn for ekstreme løsninger.', true, true, 5),
+  ('samfunnsfag-9:mellomkrigstid-og-andre-verdenskrig', 'q07', 'flervalg', 'Hvilket slag regnes som et vendepunkt på østfronten?', array['Slaget ved Verdun', 'Slaget om Storbritannia', 'D-dagen', 'Slaget om Stalingrad']::text[], 3, 'Etter Stalingrad var det Sovjetunionen som rykket fram.', true, true, 6),
+  ('samfunnsfag-9:mellomkrigstid-og-andre-verdenskrig', 'q08', 'flervalg', 'Hva var sabotasjen på Vemork rettet mot?', array['En våpenfabrikk i Oslo', 'Produksjonen av tungtvann', 'En tysk ubåt', 'Bergensbanen']::text[], 1, 'Tungtvann kunne brukes i tysk atomforskning.', true, true, 7),
+  ('samfunnsfag-9:mellomkrigstid-og-andre-verdenskrig', 'q09', 'flervalg', 'Hva skjedde 8. mai 1945?', array['Japan angrep USA', 'Hitler kom til makten', 'Tyskland kapitulerte, og Norge ble fritt', 'FN ble opprettet']::text[], 2, 'Dagen er i dag frigjøringsdag i Norge.', true, false, 8),
+  ('samfunnsfag-9:mellomkrigstid-og-andre-verdenskrig', 'q10', 'flervalg', 'Hvilken organisasjon ble opprettet i 1945 for å sikre fred?', array['FN', 'Folkeforbundet', 'EU', 'LO']::text[], 0, 'FN erstattet Folkeforbundet, som ikke hadde klart å hindre krigen.', true, false, 9),
+  ('samfunnsfag-9:mellomkrigstid-og-andre-verdenskrig', 'm01', 'sant-usant', 'Vidkun Quisling ledet Nasjonal Samling under okkupasjonen.', array['Sant', 'Usant']::text[], 0, 'Etter krigen ble han dømt til døden for landssvik.', false, true, 10),
+  ('samfunnsfag-9:mellomkrigstid-og-andre-verdenskrig', 'm02', 'sant-usant', 'Flere soldater enn sivile døde i andre verdenskrig.', array['Sant', 'Usant']::text[], 1, 'Flere sivile enn soldater døde, blant annet i Holocaust og bombingen av byer.', false, true, 11),
+  ('samfunnsfag-9:mellomkrigstid-og-andre-verdenskrig', 'm03', 'sant-usant', 'USA gikk inn i krigen etter Japans angrep på Pearl Harbor.', array['Sant', 'Usant']::text[], 0, 'Angrepet skjedde i desember 1941.', false, true, 12),
+  ('samfunnsfag-9:mellomkrigstid-og-andre-verdenskrig', 'm04', 'sant-usant', 'Norge ble frigjort allerede i 1942.', array['Sant', 'Usant']::text[], 1, 'Norge var okkupert i fem år, fram til 8. mai 1945.', false, true, 13),
+  ('samfunnsfag-9:mellomkrigstid-og-andre-verdenskrig', 'm05', 'flervalg', 'Hva er antisemittisme?', array['Hat og fordommer mot jøder', 'Motstand mot krig', 'Støtte til demokrati', 'En type økonomi']::text[], 0, 'Antisemittisme var en kjerne i nazismen.', false, true, 14),
+  ('samfunnsfag-9:mellomkrigstid-og-andre-verdenskrig', 'm06', 'flervalg', 'Hvem styrte Sovjetunionen under andre verdenskrig?', array['Lenin', 'Mussolini', 'Stalin', 'Churchill']::text[], 2, 'Stalin styrte Sovjetunionen fra slutten av 1920-tallet til han døde i 1953.', false, true, 15),
+  ('samfunnsfag-9:mellomkrigstid-og-andre-verdenskrig', 'm07', 'flervalg', 'Hva skjedde på D-dagen?', array['Tyskland angrep Norge', 'De allierte gikk i land i Normandie', 'Krigen sluttet', 'Den første atombomben ble sluppet']::text[], 1, 'Landgangen 6. juni 1944 åpnet en ny front i vest.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('samfunnsfag-9:mellomkrigstid-og-andre-verdenskrig', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Samfunnsfag: Holocaust og andre folkemord
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('samfunnsfag-9:holocaust-og-folkemord', 'samfunnsfag-9', 'holocaust-og-folkemord', 'Holocaust og andre folkemord', 'Hva folkemord er, hvordan Holocaust skjedde steg for steg, også i Norge, andre folkemord i nyere tid, og hvordan ekstreme holdninger og handlinger kan forebygges.', array[8]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('samfunnsfag-9:holocaust-og-folkemord', '## Hva er folkemord?
+
+**Folkemord** (genocid) er handlinger som gjøres med hensikt å ødelegge, helt eller delvis, en nasjonal, etnisk, religiøs eller «rasemessig» gruppe. Begrepet ble laget av den polsk-jødiske juristen **Raphael Lemkin** under andre verdenskrig, og i 1948 vedtok FN **folkemordkonvensjonen**, som gjør folkemord til en forbrytelse etter internasjonal rett.
+
+## Holocaust
+
+**Holocaust** er nazistenes systematiske drap på rundt **seks millioner jøder** i Europa under andre verdenskrig. Nazistene forfulgte og drepte også rom, mennesker med funksjonsnedsettelser, homofile og politiske motstandere.
+
+Folkemordet skjedde **steg for steg**:
+
+- Jøder ble fratatt rettigheter gjennom **Nürnberglovene** i 1935.
+- Under **Krystallnatten** i november 1938 ble synagoger og jødiske butikker angrepet.
+- Jøder ble tvunget inn i **ghettoer**, og i Øst-Europa skjøt drapskommandoer hundretusener.
+- Fra 1942 ble jøder deportert til **utryddelsesleirer** som **Auschwitz-Birkenau** og Treblinka, der de fleste ble drept i gasskamre.
+
+I **Norge** ble jødiske menn, kvinner og barn arrestert, også av norsk politi. 26. november 1942 ble over 500 sendt fra Oslo med skipet **Donau**. Totalt ble over 700 jøder deportert fra Norge, og under 40 av dem overlevde.
+
+## Andre folkemord
+
+- **Armenerne** i Det osmanske riket (1915–1916)
+- **Kambodsja** under Røde Khmer (1975–1979)
+- **Rwanda** (1994), der rundt 800 000 tutsier og moderate hutuer ble drept på omtrent 100 dager
+- **Srebrenica** i Bosnia (1995), der om lag 8000 bosniakiske menn og gutter ble drept
+
+## Årsaker
+
+Folkemord har ofte flere årsaker som virker sammen:
+
+- En **ideologi** som deler mennesker inn i «oss» og «dem» og ser på en gruppe som mindreverdig
+- **Propaganda** som **avhumaniserer** gruppen, for eksempel ved å kalle dem skadedyr
+- Krig eller krise som gjør det lettere å gjennomføre drapene
+- Autoritære ledere, lydighet og **tilskuere** som ikke griper inn
+
+## Konsekvenser
+
+Folkemord gir enorme tap av liv, traumer som går i arv over generasjoner, flukt og ødelagte samfunn. Etter krigen ble nazistiske ledere dømt i **Nürnbergprosessen**. Senere har FN opprettet domstoler for Rwanda og det tidligere Jugoslavia, og **Den internasjonale straffedomstolen** (ICC) ble opprettet i 2002.
+
+## Forebygging
+
+Hvordan kan ekstreme holdninger og handlinger forebygges?
+
+- **Kunnskap** om historien og om hvordan folkemord utvikler seg
+- Å motarbeide **fordommer, hatprat og konspirasjonsteorier**
+- Å forsvare demokrati, rettsstat og menneskerettigheter
+- Å **si ifra** i stedet for å være tilskuer
+- **Kildekritikk** mot propaganda og desinformasjon
+- Internasjonalt samarbeid som kan gripe inn tidlig', '{"label":"Holocaust og folkemord","children":[{"label":"Folkemord","children":[{"label":"Definisjon"},{"label":"Raphael Lemkin"},{"label":"Konvensjonen","note":"1948"}]},{"label":"Holocaust","children":[{"label":"Seks millioner jøder"},{"label":"Nürnberglovene og Krystallnatten"},{"label":"Ghettoer og leirer"},{"label":"Andre ofre"}]},{"label":"Norge","children":[{"label":"Arrestasjoner 1942"},{"label":"Donau"},{"label":"Under 40 overlevde"}]},{"label":"Andre folkemord","children":[{"label":"Armenia"},{"label":"Kambodsja"},{"label":"Rwanda"},{"label":"Srebrenica"}]},{"label":"Årsaker og forebygging","children":[{"label":"Ideologi og propaganda"},{"label":"Tilskuere"},{"label":"Kunnskap og kildekritikk"},{"label":"Si ifra"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'samfunnsfag-9:holocaust-og-folkemord';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('samfunnsfag-9:holocaust-og-folkemord', 'Folkemord', 'Handlinger med hensikt å ødelegge en nasjonal, etnisk, religiøs eller «rasemessig» gruppe.', 0),
+  ('samfunnsfag-9:holocaust-og-folkemord', 'Folkemordkonvensjonen', 'FN-avtale fra 1948 som gjør folkemord til en internasjonal forbrytelse.', 1),
+  ('samfunnsfag-9:holocaust-og-folkemord', 'Holocaust', 'Nazistenes systematiske drap på rundt seks millioner jøder.', 2),
+  ('samfunnsfag-9:holocaust-og-folkemord', 'Antisemittisme', 'Hat og fordommer mot jøder.', 3),
+  ('samfunnsfag-9:holocaust-og-folkemord', 'Nürnberglovene', 'Nazistiske lover fra 1935 som fratok jøder rettigheter.', 4),
+  ('samfunnsfag-9:holocaust-og-folkemord', 'Krystallnatten', 'Angrep på synagoger og jødiske butikker i Tyskland i november 1938.', 5),
+  ('samfunnsfag-9:holocaust-og-folkemord', 'Ghetto', 'Avstengt bydel der jøder ble tvunget til å bo under svært dårlige forhold.', 6),
+  ('samfunnsfag-9:holocaust-og-folkemord', 'Utryddelsesleir', 'Leir bygd for å drepe mennesker, som Auschwitz-Birkenau og Treblinka.', 7),
+  ('samfunnsfag-9:holocaust-og-folkemord', 'Donau', 'Skipet som 26. november 1942 fraktet over 500 jøder fra Oslo.', 8),
+  ('samfunnsfag-9:holocaust-og-folkemord', 'Avhumanisering', 'Å fremstille en gruppe som mindre menneskelig, ofte i propaganda.', 9),
+  ('samfunnsfag-9:holocaust-og-folkemord', 'Tilskuer', 'En som ser hva som skjer, men ikke griper inn.', 10),
+  ('samfunnsfag-9:holocaust-og-folkemord', 'Rwanda 1994', 'Folkemord der rundt 800 000 tutsier og moderate hutuer ble drept på omtrent 100 dager.', 11),
+  ('samfunnsfag-9:holocaust-og-folkemord', 'Srebrenica 1995', 'Folkemord i Bosnia der om lag 8000 bosniakiske menn og gutter ble drept.', 12),
+  ('samfunnsfag-9:holocaust-og-folkemord', 'Nürnbergprosessen', 'Rettssakene mot nazistiske ledere etter andre verdenskrig.', 13),
+  ('samfunnsfag-9:holocaust-og-folkemord', 'ICC', 'Den internasjonale straffedomstolen, opprettet i 2002.', 14);
+delete from public.quiz_sporsmal where tema_id = 'samfunnsfag-9:holocaust-og-folkemord';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('samfunnsfag-9:holocaust-og-folkemord', 'q01', 'flervalg', 'Hva er folkemord?', array['Handlinger med hensikt å ødelegge en nasjonal, etnisk, religiøs eller «rasemessig» gruppe', 'Alle drap i krig', 'En borgerkrig', 'Et terrorangrep']::text[], 0, 'Det avgjørende er hensikten om å ødelegge gruppen.', true, true, 0),
+  ('samfunnsfag-9:holocaust-og-folkemord', 'q02', 'flervalg', 'Omtrent hvor mange jøder ble drept i Holocaust?', array['Rundt 600 000', 'Rundt 1 million', 'Rundt 6 millioner', 'Rundt 60 millioner']::text[], 2, 'Omtrent to av tre jøder i Europa ble drept.', true, true, 1),
+  ('samfunnsfag-9:holocaust-og-folkemord', 'q03', 'flervalg', 'Hva var Nürnberglovene fra 1935?', array['Fredsavtaler etter krigen', 'Lover som fratok jøder rettigheter', 'Lover om arbeidstid', 'Regler for de olympiske lekene']::text[], 1, 'Lovene gjorde jøder til annenrangs borgere og forbød blant annet ekteskap med ikke-jøder.', true, true, 2),
+  ('samfunnsfag-9:holocaust-og-folkemord', 'q04', 'flervalg', 'Hva skjedde 26. november 1942?', array['Tyskland kapitulerte', 'Krystallnatten', 'Nürnbergprosessen startet', 'Over 500 jøder ble sendt fra Oslo med skipet Donau']::text[], 3, 'De fleste av dem ble drept i Auschwitz.', true, true, 3),
+  ('samfunnsfag-9:holocaust-og-folkemord', 'q05', 'flervalg', 'Hva betyr avhumanisering?', array['Å fremstille en gruppe som mindre menneskelig', 'Å hjelpe flyktninger', 'Å lære om historie', 'Å dele ut mat']::text[], 0, 'Avhumanisering gjør det lettere å rettferdiggjøre vold mot en gruppe.', true, true, 4),
+  ('samfunnsfag-9:holocaust-og-folkemord', 'q06', 'flervalg', 'Hvor skjedde folkemordet i 1994, der rundt 800 000 ble drept på omtrent 100 dager?', array['Kambodsja', 'Bosnia', 'Armenia', 'Rwanda']::text[], 3, 'Ofrene var tutsier og moderate hutuer.', true, true, 5),
+  ('samfunnsfag-9:holocaust-og-folkemord', 'q07', 'flervalg', 'Hvorfor er tilskuere viktige når vi snakker om folkemord?', array['Fordi de alltid stopper drapene', 'Fordi folkemord blir lettere å gjennomføre når mange ser bort', 'Fordi de er gjerningspersoner', 'De er ikke viktige']::text[], 1, 'Når få sier ifra, møter gjerningspersonene lite motstand.', true, true, 6),
+  ('samfunnsfag-9:holocaust-og-folkemord', 'q08', 'flervalg', 'Hva var Nürnbergprosessen?', array['Et opprør i en ghetto', 'Et folkemord i Tyskland', 'Rettssaker mot nazistiske ledere etter krigen', 'En tysk propagandakampanje']::text[], 2, 'Rettssakene slo fast at ledere kan straffes for forbrytelser mot menneskeheten.', true, true, 7),
+  ('samfunnsfag-9:holocaust-og-folkemord', 'q09', 'flervalg', 'Hvilket tiltak kan bidra til å forebygge ekstreme holdninger?', array['Å spre konspirasjonsteorier', 'Å overse hatprat', 'Å svekke rettsstaten', 'Kunnskap og kildekritikk']::text[], 3, 'Kunnskap gjør det lettere å gjenkjenne propaganda og fordommer.', true, false, 8),
+  ('samfunnsfag-9:holocaust-og-folkemord', 'q10', 'flervalg', 'Hvilke andre grupper enn jøder forfulgte og drepte nazistene?', array['Rom, mennesker med funksjonsnedsettelser og politiske motstandere', 'Bare soldater', 'Ingen andre', 'Bare britiske fanger']::text[], 0, 'Nazistene forfulgte alle de mente ikke passet inn i «folkefellesskapet».', true, false, 9),
+  ('samfunnsfag-9:holocaust-og-folkemord', 'm01', 'sant-usant', 'Folkemord starter ofte med fordommer, propaganda og diskriminerende lover.', array['Sant', 'Usant']::text[], 0, 'Holocaust skjedde steg for steg over flere år.', false, true, 10),
+  ('samfunnsfag-9:holocaust-og-folkemord', 'm02', 'sant-usant', 'Norsk politi deltok i arrestasjonen av jøder i Norge.', array['Sant', 'Usant']::text[], 0, 'Norske politifolk arresterte jøder og fraktet dem til skipet Donau.', false, true, 11),
+  ('samfunnsfag-9:holocaust-og-folkemord', 'm03', 'sant-usant', 'Det har ikke skjedd folkemord etter andre verdenskrig.', array['Sant', 'Usant']::text[], 1, 'Blant annet Kambodsja, Rwanda og Srebrenica er eksempler fra senere tid.', false, true, 12),
+  ('samfunnsfag-9:holocaust-og-folkemord', 'm04', 'sant-usant', 'Folkemordkonvensjonen ble vedtatt av FN i 1998.', array['Sant', 'Usant']::text[], 1, 'Konvensjonen ble vedtatt i 1948.', false, true, 13),
+  ('samfunnsfag-9:holocaust-og-folkemord', 'm05', 'flervalg', 'Hva var Auschwitz-Birkenau?', array['En ghetto i Warszawa', 'Nazistenes største utryddelsesleir', 'En fredsavtale', 'Et norsk fengsel']::text[], 1, 'Over én million mennesker ble drept der, de fleste jøder.', false, true, 14),
+  ('samfunnsfag-9:holocaust-og-folkemord', 'm06', 'flervalg', 'Hva skjedde under Krystallnatten i 1938?', array['Synagoger og jødiske butikker ble angrepet', 'Tyskland angrep Polen', 'Hitler ble rikskansler', 'Norge ble okkupert']::text[], 0, 'Navnet kommer av alle knuste vinduer.', false, true, 15),
+  ('samfunnsfag-9:holocaust-og-folkemord', 'm07', 'flervalg', 'Hvilken domstol ble opprettet i 2002 for å straffe folkemord og andre alvorlige forbrytelser?', array['Høyesterett', 'EU-domstolen', 'Den internasjonale straffedomstolen (ICC)', 'Den europeiske menneskerettsdomstolen']::text[], 2, 'ICC ligger i Haag i Nederland.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('samfunnsfag-9:holocaust-og-folkemord', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Samfunnsfag: Fornorsking, samer og nasjonale minoriteter
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('samfunnsfag-9:fornorsking-og-minoriteter', 'samfunnsfag-9', 'fornorsking-og-minoriteter', 'Fornorsking, samer og nasjonale minoriteter', 'Hvordan samer og de nasjonale minoritetene ble utsatt for fornorsking og urett, hvilke konsekvenser det har hatt for enkeltmennesker og samfunnet, og hvordan arbeidet med oppreisning har foregått.', array[10]::int[], 5, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('samfunnsfag-9:fornorsking-og-minoriteter', '## Samer og nasjonale minoriteter
+
+**Samene** er et **urfolk** som har bodd i **Sápmi** – i Norge, Sverige, Finland og Russland – lenge før dagens landegrenser ble trukket. I tillegg har Norge fem **nasjonale minoriteter**, grupper med lang tilknytning til landet: **jøder**, **kvener/norskfinner**, **skogfinner**, **rom** og **romanifolk/tatere**.
+
+## Fornorskingspolitikken
+
+Fra midten av 1800-tallet til godt etter andre verdenskrig førte staten en **fornorskingspolitikk**. Målet var at samer, kvener og andre minoriteter skulle bli «norske» i språk og kultur.
+
+- I skolen skulle undervisningen foregå på norsk. Samisk og kvensk skulle bare brukes som hjelpespråk, og etter hvert ble også det begrenset.
+- Mange barn ble sendt på **internatskoler** langt hjemmefra, der de kunne bli straffet eller hånet for å snakke morsmålet.
+- **Jordsalgsloven** av 1902 bestemte at bare de som kunne norsk, fikk kjøpe jord i Finnmark.
+
+Begrunnelsene var **nasjonsbygging**, frykt for at kvener og samer var lojale mot Finland eller Russland, og **rasetenkning** som så på minoritetene som mindreverdige.
+
+## Uretten mot andre minoriteter
+
+- **Romanifolket/taterne** ble utsatt for tvangssterilisering, og mange barn ble tatt fra foreldrene sine. Mange familier ble sendt til **Svanviken arbeidskoloni**.
+- **Rom** ble nektet innreise til Norge fra 1927. Mange ble derfor drept under Holocaust.
+- **Jøder** var utestengt fra riket i Grunnloven fram til 1851, og under andre verdenskrig ble norske jøder deportert og drept.
+- **Skogfinnene** mistet språket sitt, og **kvenene** ble presset til å bli norske.
+
+## Konsekvenser
+
+For **den enkelte** førte fornorskingen til tap av språk, skam over egen bakgrunn og traumer som har gått i arv. Mange foreldre sluttet å snakke samisk eller kvensk med barna for å beskytte dem. For **samfunnet** har det ført til at flere samiske språk og kvensk er truet, at kulturell kunnskap har gått tapt, og at mange har mistillit til myndighetene.
+
+## Oppreisning
+
+Etter **Alta-saken** fikk samene sterkere rettigheter: **sameloven** (1987), en egen paragraf i **Grunnloven** (1988) og **Sametinget** (1989). I 1990 ble Norge det første landet som ratifiserte **ILO-konvensjon 169** om urfolks rettigheter. Kong Harald ba samene om unnskyldning i 1997, og staten har også bedt romanifolket/taterne og rom om unnskyldning. I 2023 la **Sannhets- og forsoningskommisjonen** fram en rapport om fornorskingen og uretten mot samer, kvener, norskfinner og skogfinner. Arbeidet med forsoning pågår fortsatt.
+
+## Kultur i dag
+
+I dag opplever mange en **revitalisering**: Flere lærer seg samisk og kvensk, og samisk musikk, kunst og film får stor oppmerksomhet. Samenes nasjonaldag feires **6. februar**.', '{"label":"Fornorsking og minoriteter","children":[{"label":"Hvem","children":[{"label":"Samene","note":"Urfolk"},{"label":"Fem nasjonale minoriteter"}]},{"label":"Fornorsking","children":[{"label":"Norsk i skolen"},{"label":"Internatskoler"},{"label":"Jordsalgsloven","note":"1902"},{"label":"Nasjonsbygging og rasetenkning"}]},{"label":"Annen urett","children":[{"label":"Tvangssterilisering","note":"Romanifolket"},{"label":"Innreiseforbud","note":"Rom"},{"label":"Deportasjon","note":"Jøder"}]},{"label":"Konsekvenser","children":[{"label":"Språktap og skam"},{"label":"Traumer i generasjoner"},{"label":"Truede språk"},{"label":"Mistillit"}]},{"label":"Oppreisning","children":[{"label":"Sametinget","note":"1989"},{"label":"ILO 169"},{"label":"Unnskyldninger"},{"label":"Sannhetskommisjonen","note":"2023"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'samfunnsfag-9:fornorsking-og-minoriteter';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('samfunnsfag-9:fornorsking-og-minoriteter', 'Urfolk', 'Folk som har bodd i et område før dagens statsgrenser ble trukket, og som har egen kultur og egne samfunnsinstitusjoner.', 0),
+  ('samfunnsfag-9:fornorsking-og-minoriteter', 'Sápmi', 'Samenes område i Norge, Sverige, Finland og Russland.', 1),
+  ('samfunnsfag-9:fornorsking-og-minoriteter', 'Nasjonale minoriteter', 'Jøder, kvener/norskfinner, skogfinner, rom og romanifolk/tatere.', 2),
+  ('samfunnsfag-9:fornorsking-og-minoriteter', 'Fornorsking', 'Statens politikk for at minoriteter skulle bli norske i språk og kultur.', 3),
+  ('samfunnsfag-9:fornorsking-og-minoriteter', 'Internatskole', 'Skole der elevene bodde borte fra familien. Brukt i fornorskingen.', 4),
+  ('samfunnsfag-9:fornorsking-og-minoriteter', 'Jordsalgsloven', 'Lov fra 1902 om at bare de som kunne norsk, fikk kjøpe jord i Finnmark.', 5),
+  ('samfunnsfag-9:fornorsking-og-minoriteter', 'Rasetenkning', 'Ideen om at noen folkegrupper er mer verdt enn andre.', 6),
+  ('samfunnsfag-9:fornorsking-og-minoriteter', 'Romanifolket/taterne', 'Nasjonal minoritet som ble utsatt for tvangssterilisering og omsorgsovertakelser.', 7),
+  ('samfunnsfag-9:fornorsking-og-minoriteter', 'Svanviken arbeidskoloni', 'Sted der romanifamilier ble sendt for å bli «bofaste» og tilpasset.', 8),
+  ('samfunnsfag-9:fornorsking-og-minoriteter', 'Kvener', 'Nasjonal minoritet med finsk bakgrunn i Nord-Norge.', 9),
+  ('samfunnsfag-9:fornorsking-og-minoriteter', 'Sametinget', 'Samenes folkevalgte organ, opprettet i 1989.', 10),
+  ('samfunnsfag-9:fornorsking-og-minoriteter', 'ILO-konvensjon 169', 'Avtale om urfolks rettigheter. Norge ratifiserte den som første land i 1990.', 11),
+  ('samfunnsfag-9:fornorsking-og-minoriteter', 'Sannhets- og forsoningskommisjonen', 'Kommisjon som i 2023 la fram en rapport om fornorskingen og uretten.', 12),
+  ('samfunnsfag-9:fornorsking-og-minoriteter', 'Revitalisering', 'At et språk eller en kultur tas i bruk og styrkes igjen.', 13),
+  ('samfunnsfag-9:fornorsking-og-minoriteter', '6. februar', 'Samenes nasjonaldag.', 14);
+delete from public.quiz_sporsmal where tema_id = 'samfunnsfag-9:fornorsking-og-minoriteter';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('samfunnsfag-9:fornorsking-og-minoriteter', 'q01', 'flervalg', 'Hva er fornorsking?', array['Politikk for at minoriteter skulle bli norske i språk og kultur', 'At nordmenn lærte samisk', 'At Norge ble selvstendig', 'En type skoleeksamen']::text[], 0, 'Fornorskingspolitikken varte i over hundre år.', true, true, 0),
+  ('samfunnsfag-9:fornorsking-og-minoriteter', 'q02', 'flervalg', 'Hvor mange nasjonale minoriteter har Norge?', array['To', 'Tre', 'Fem', 'Åtte']::text[], 2, 'Jøder, kvener/norskfinner, skogfinner, rom og romanifolk/tatere.', true, true, 1),
+  ('samfunnsfag-9:fornorsking-og-minoriteter', 'q03', 'flervalg', 'Hva bestemte jordsalgsloven av 1902?', array['At alle fikk gratis jord', 'At bare de som kunne norsk, fikk kjøpe jord i Finnmark', 'At samer eide all jord', 'At jord ikke kunne selges']::text[], 1, 'Loven presset samer og kvener til å bli norske.', true, true, 2),
+  ('samfunnsfag-9:fornorsking-og-minoriteter', 'q04', 'flervalg', 'Hvordan ble mange samiske barn rammet av internatskolene?', array['De lærte flere språk', 'De fikk bo hjemme', 'De fikk undervisning på samisk', 'De ble sendt langt hjemmefra og kunne bli straffet for å snakke morsmålet']::text[], 3, 'Mange mistet språket og kontakten med sin egen kultur.', true, true, 3),
+  ('samfunnsfag-9:fornorsking-og-minoriteter', 'q05', 'flervalg', 'Hva er en konsekvens av fornorskingen for den enkelte?', array['Skam over egen bakgrunn og tap av språk', 'At alle ble tospråklige', 'Høyere lønn', 'Flere samiske aviser']::text[], 0, 'Mange foreldre sluttet å snakke morsmålet med barna sine.', true, true, 4),
+  ('samfunnsfag-9:fornorsking-og-minoriteter', 'q06', 'flervalg', 'Hvilken gruppe ble utsatt for tvangssterilisering og fikk barn tatt fra seg?', array['Skogfinnene', 'Romanifolket/taterne', 'Kvenene', 'Jødene']::text[], 1, 'Staten og Norsk misjon blant hjemløse sto bak store overgrep.', true, true, 5),
+  ('samfunnsfag-9:fornorsking-og-minoriteter', 'q07', 'flervalg', 'Hvilken institusjon ble opprettet i 1989?', array['Stortinget', 'Høyesterett', 'Sametinget', 'Datatilsynet']::text[], 2, 'Sametinget ligger i Karasjok.', true, true, 6),
+  ('samfunnsfag-9:fornorsking-og-minoriteter', 'q08', 'flervalg', 'Hva var en av begrunnelsene for fornorskingspolitikken?', array['Ønsket om mer mangfold', 'Ønsket om flere språk i skolen', 'Krav fra FN', 'Frykt for at minoritetene var lojale mot Finland eller Russland']::text[], 3, 'Myndighetene så på minoritetene i nord som en sikkerhetsrisiko.', true, true, 7),
+  ('samfunnsfag-9:fornorsking-og-minoriteter', 'q09', 'flervalg', 'Hva er ILO-konvensjon 169?', array['En avtale om arbeidstid', 'En avtale om urfolks rettigheter', 'En fredsavtale', 'En handelsavtale']::text[], 1, 'Norge var det første landet som ratifiserte den.', true, false, 8),
+  ('samfunnsfag-9:fornorsking-og-minoriteter', 'q10', 'flervalg', 'Hva la Sannhets- og forsoningskommisjonen fram i 2023?', array['En rapport om fornorskingen og uretten mot samer, kvener og skogfinner', 'Et forslag til nytt flagg', 'En ny skolereform', 'Et nytt statsbudsjett']::text[], 0, 'Rapporten beskriver uretten og foreslår tiltak for forsoning.', true, false, 9),
+  ('samfunnsfag-9:fornorsking-og-minoriteter', 'm01', 'sant-usant', 'Samene bodde i Sápmi lenge før dagens landegrenser ble trukket.', array['Sant', 'Usant']::text[], 0, 'Derfor regnes samene som et urfolk.', false, true, 10),
+  ('samfunnsfag-9:fornorsking-og-minoriteter', 'm02', 'sant-usant', 'Rom ble nektet innreise til Norge fra 1927.', array['Sant', 'Usant']::text[], 0, 'Forbudet gjorde at mange rom ikke fikk komme til Norge og ble drept under Holocaust.', false, true, 11),
+  ('samfunnsfag-9:fornorsking-og-minoriteter', 'm03', 'sant-usant', 'Fornorskingspolitikken ble avsluttet allerede rundt 1880.', array['Sant', 'Usant']::text[], 1, 'Politikken varte til godt etter andre verdenskrig.', false, true, 12),
+  ('samfunnsfag-9:fornorsking-og-minoriteter', 'm04', 'sant-usant', 'Konsekvensene av fornorskingen merkes ikke lenger i dag.', array['Sant', 'Usant']::text[], 1, 'Språktap, traumer og mistillit preger fortsatt mange familier og lokalsamfunn.', false, true, 13),
+  ('samfunnsfag-9:fornorsking-og-minoriteter', 'm05', 'flervalg', 'Hvilken gruppe er ikke en nasjonal minoritet i Norge?', array['Kvener/norskfinner', 'Skogfinner', 'Samer', 'Rom']::text[], 2, 'Samene har status som urfolk, ikke som nasjonal minoritet.', false, true, 14),
+  ('samfunnsfag-9:fornorsking-og-minoriteter', 'm06', 'flervalg', 'Når feirer samene nasjonaldagen sin?', array['6. februar', '17. mai', '9. april', '24. juni']::text[], 0, 'Datoen minner om det første samiske landsmøtet i Trondheim i 1917.', false, true, 15),
+  ('samfunnsfag-9:fornorsking-og-minoriteter', 'm07', 'flervalg', 'Hvem ba samene om unnskyldning i 1997?', array['Statsministeren', 'Kong Harald', 'Sametingspresidenten', 'FNs generalsekretær']::text[], 1, 'Kongen ba om unnskyldning i talen ved åpningen av Sametinget.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('samfunnsfag-9:fornorsking-og-minoriteter', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Samfunnsfag: Menneskerettigheter og internasjonalt samarbeid
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('samfunnsfag-9:menneskerettigheter', 'samfunnsfag-9', 'menneskerettigheter', 'Menneskerettigheter og internasjonalt samarbeid', 'Hva menneskerettigheter og urfolksrettigheter er, hvilke internasjonale avtaler som sikrer dem, og hvilken betydning de har for norsk politikk, likestilling og likeverd.', array[9]::int[], 6, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('samfunnsfag-9:menneskerettigheter', '## Hva er menneskerettigheter?
+
+**Menneskerettigheter** er grunnleggende rettigheter alle mennesker har fordi de er mennesker. De er **universelle** (gjelder alle), **ukrenkelige** (kan ikke tas fra deg) og **udelelige** (henger sammen og er like viktige). Det er **staten** som har ansvaret for å respektere, beskytte og oppfylle rettighetene.
+
+## Verdenserklæringen
+
+Etter andre verdenskrig ville verden hindre nye overgrep. **FN** ble opprettet i 1945, og **10. desember 1948** vedtok FN **verdenserklæringen om menneskerettighetene**. Den har 30 artikler, blant annet retten til liv, forbud mot tortur og slaveri, ytringsfrihet, religionsfrihet, rett til utdanning og rett til arbeid. Erklæringen er ikke juridisk bindende, men har vært grunnlaget for mange **konvensjoner**, altså avtaler som er bindende for statene som slutter seg til dem.
+
+## Viktige konvensjoner
+
+- **Konvensjonen om sivile og politiske rettigheter** og **konvensjonen om økonomiske, sosiale og kulturelle rettigheter** (1966)
+- **Kvinnediskrimineringskonvensjonen** (1979)
+- **Barnekonvensjonen** (1989), som gir barn under 18 år egne rettigheter, blant annet retten til å bli hørt
+- **Den europeiske menneskerettskonvensjonen** (EMK, 1950), som håndheves av **Den europeiske menneskerettsdomstolen** i Strasbourg
+
+## Urfolksrettigheter
+
+Urfolk har særlige rettigheter for å kunne bevare språk, kultur og levemåte. **ILO-konvensjon 169** (1989) og **FNs erklæring om urfolks rettigheter** (2007) gir blant annet urfolk rett til å bli konsultert i saker som angår dem, for eksempel utbygging i reinbeiteområder. I **Fosen-saken** kom Høyesterett i 2021 fram til at vindkraftverk på Fosen krenket rettighetene til samiske reindriftsutøvere.
+
+## Betydning for Norge
+
+Norge har tatt de viktigste konvensjonene inn i norsk lov gjennom **menneskerettsloven** (1999), og i 2014 fikk **Grunnloven** et eget kapittel om menneskerettigheter. Det betyr at konvensjonene påvirker **nasjonal politikk**: Lover må være i tråd med dem, og Norge kan bli dømt i Strasbourg hvis rettighetene brytes, slik det har skjedd i flere barnevernssaker.
+
+## Likestilling og likeverd
+
+Menneskerettighetene bygger på at alle mennesker er **likeverdige**. **Likestilling** betyr at alle skal ha like muligheter og rettigheter uansett kjønn, etnisitet, religion, funksjonsevne eller seksuell orientering. Norge har en **likestillings- og diskrimineringslov**, og **Likestillings- og diskrimineringsombudet** hjelper folk som opplever diskriminering.
+
+## Internasjonalt samarbeid
+
+Land samarbeider også på andre måter: gjennom **FN**, **Europarådet**, **EØS-avtalen** med EU og forsvarsalliansen **NATO**. Samarbeid kan gi mer fred, handel og velstand, men betyr også at landene må følge felles regler. Mange steder i verden brytes menneskerettighetene fortsatt, og organisasjoner som **Amnesty International** jobber for å avdekke brudd.', '{"label":"Menneskerettigheter","children":[{"label":"Prinsipper","children":[{"label":"Universelle"},{"label":"Ukrenkelige"},{"label":"Udelelige"},{"label":"Staten har ansvaret"}]},{"label":"Avtaler","children":[{"label":"Verdenserklæringen","note":"1948"},{"label":"EMK","note":"1950"},{"label":"Kvinnediskriminering","note":"1979"},{"label":"Barnekonvensjonen","note":"1989"}]},{"label":"Urfolk","children":[{"label":"ILO 169"},{"label":"Urfolkserklæringen","note":"2007"},{"label":"Fosen-saken"}]},{"label":"Norge","children":[{"label":"Menneskerettsloven","note":"1999"},{"label":"Grunnloven","note":"2014"},{"label":"Dommer i Strasbourg"}]},{"label":"Likestilling og samarbeid","children":[{"label":"Likeverd"},{"label":"Diskrimineringsvern"},{"label":"FN, Europarådet, EØS, NATO"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'samfunnsfag-9:menneskerettigheter';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('samfunnsfag-9:menneskerettigheter', 'Menneskerettigheter', 'Grunnleggende rettigheter alle har fordi de er mennesker.', 0),
+  ('samfunnsfag-9:menneskerettigheter', 'Universelle', 'Menneskerettighetene gjelder alle mennesker, overalt.', 1),
+  ('samfunnsfag-9:menneskerettigheter', 'Verdenserklæringen', 'FNs erklæring om menneskerettighetene fra 10. desember 1948, med 30 artikler.', 2),
+  ('samfunnsfag-9:menneskerettigheter', 'Konvensjon', 'Avtale som er juridisk bindende for statene som slutter seg til den.', 3),
+  ('samfunnsfag-9:menneskerettigheter', 'Barnekonvensjonen', 'FN-avtale fra 1989 om rettighetene til barn under 18 år.', 4),
+  ('samfunnsfag-9:menneskerettigheter', 'Kvinnediskrimineringskonvensjonen', 'FN-avtale fra 1979 mot diskriminering av kvinner.', 5),
+  ('samfunnsfag-9:menneskerettigheter', 'EMK', 'Den europeiske menneskerettskonvensjonen fra 1950.', 6),
+  ('samfunnsfag-9:menneskerettigheter', 'Menneskerettsdomstolen', 'Den europeiske domstolen i Strasbourg som dømmer i saker etter EMK.', 7),
+  ('samfunnsfag-9:menneskerettigheter', 'Menneskerettsloven', 'Norsk lov fra 1999 som gjør viktige konvensjoner til norsk lov.', 8),
+  ('samfunnsfag-9:menneskerettigheter', 'ILO-konvensjon 169', 'Avtale fra 1989 om urfolks rettigheter, blant annet til å bli konsultert.', 9),
+  ('samfunnsfag-9:menneskerettigheter', 'Fosen-saken', 'Høyesterett slo i 2021 fast at vindkraftverk krenket samiske reindriftsutøveres rettigheter.', 10),
+  ('samfunnsfag-9:menneskerettigheter', 'Likeverd', 'At alle mennesker har samme verdi.', 11),
+  ('samfunnsfag-9:menneskerettigheter', 'Likestilling', 'At alle har like muligheter og rettigheter, uansett for eksempel kjønn eller etnisitet.', 12),
+  ('samfunnsfag-9:menneskerettigheter', 'Diskriminering', 'Usaklig forskjellsbehandling av mennesker.', 13),
+  ('samfunnsfag-9:menneskerettigheter', 'Amnesty International', 'Organisasjon som avdekker og protesterer mot brudd på menneskerettighetene.', 14);
+delete from public.quiz_sporsmal where tema_id = 'samfunnsfag-9:menneskerettigheter';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('samfunnsfag-9:menneskerettigheter', 'q01', 'flervalg', 'Når vedtok FN verdenserklæringen om menneskerettighetene?', array['1945', '1948', '1989', '2007']::text[], 1, '10. desember markeres som menneskerettighetsdagen.', true, true, 0),
+  ('samfunnsfag-9:menneskerettigheter', 'q02', 'flervalg', 'Hva betyr det at menneskerettighetene er universelle?', array['At de gjelder alle mennesker', 'At de bare gjelder i Europa', 'At de kan kjøpes', 'At de bare gjelder voksne']::text[], 0, 'Rettighetene gjelder uansett hvor du bor, og hvem du er.', true, true, 1),
+  ('samfunnsfag-9:menneskerettigheter', 'q03', 'flervalg', 'Hva er forskjellen på en erklæring og en konvensjon?', array['Det er ingen forskjell', 'En erklæring er strengere', 'En konvensjon er bindende for statene som slutter seg til den', 'En konvensjon gjelder bare barn']::text[], 2, 'Erklæringer er viktige politiske signaler, men konvensjoner er juridisk bindende.', true, true, 2),
+  ('samfunnsfag-9:menneskerettigheter', 'q04', 'flervalg', 'Hvem har hovedansvaret for å sikre menneskerettighetene?', array['Den enkelte', 'Bedrifter', 'Amnesty International', 'Staten']::text[], 3, 'Staten skal respektere, beskytte og oppfylle rettighetene.', true, true, 3),
+  ('samfunnsfag-9:menneskerettigheter', 'q05', 'flervalg', 'Hva slo Høyesterett fast i Fosen-saken i 2021?', array['At vindkraftverk krenket rettighetene til samiske reindriftsutøvere', 'At vindkraft er ulovlig i Norge', 'At reindrift skal avvikles', 'At samene ikke er urfolk']::text[], 0, 'Dommen viser hvordan urfolksrettigheter påvirker norsk politikk.', true, true, 4),
+  ('samfunnsfag-9:menneskerettigheter', 'q06', 'flervalg', 'Hvilken konvensjon gir barn rett til å bli hørt?', array['ILO-konvensjon 169', 'Barnekonvensjonen', 'EMK', 'Kvinnediskrimineringskonvensjonen']::text[], 1, 'Barn har rett til å si sin mening i saker som angår dem.', true, true, 5),
+  ('samfunnsfag-9:menneskerettigheter', 'q07', 'flervalg', 'Hvor ligger Den europeiske menneskerettsdomstolen?', array['Oslo', 'New York', 'Genève', 'Strasbourg']::text[], 3, 'Domstolen hører til Europarådet, ikke EU.', true, true, 6),
+  ('samfunnsfag-9:menneskerettigheter', 'q08', 'flervalg', 'Hvordan påvirker menneskerettskonvensjonene norsk politikk?', array['De har ingen betydning', 'Norske lover må være i tråd med dem', 'De gjelder bare utenfor Norge', 'De bestemmer hvem som blir statsminister']::text[], 1, 'Menneskerettsloven gir konvensjonene forrang foran vanlig norsk lov ved motstrid.', true, true, 7),
+  ('samfunnsfag-9:menneskerettigheter', 'q09', 'flervalg', 'Hva betyr likestilling?', array['At alle skal ha like muligheter og rettigheter', 'At alle skal være like', 'At alle skal tjene det samme', 'At kvinner og menn skal ha samme yrke']::text[], 0, 'Likestilling handler om muligheter og rettigheter, ikke om at alle skal velge det samme.', true, false, 8),
+  ('samfunnsfag-9:menneskerettigheter', 'q10', 'flervalg', 'Hvilken rettighet gir ILO-konvensjon 169 urfolk?', array['Rett til gratis strøm', 'Rett til å slippe skatt', 'Rett til å bli konsultert i saker som angår dem', 'Rett til egen hær']::text[], 2, 'Staten må for eksempel konsultere Sametinget før vedtak som berører samene.', true, false, 9),
+  ('samfunnsfag-9:menneskerettigheter', 'm01', 'sant-usant', 'Verdenserklæringen om menneskerettighetene er juridisk bindende.', array['Sant', 'Usant']::text[], 1, 'Erklæringen er ikke bindende, men konvensjonene som bygger på den, er det.', false, true, 10),
+  ('samfunnsfag-9:menneskerettigheter', 'm02', 'sant-usant', 'Norge kan bli dømt i Den europeiske menneskerettsdomstolen.', array['Sant', 'Usant']::text[], 0, 'Norge er blant annet dømt i flere barnevernssaker.', false, true, 11),
+  ('samfunnsfag-9:menneskerettigheter', 'm03', 'sant-usant', 'Grunnloven har et eget kapittel om menneskerettigheter.', array['Sant', 'Usant']::text[], 0, 'Kapittelet kom inn i Grunnloven i 2014.', false, true, 12),
+  ('samfunnsfag-9:menneskerettigheter', 'm04', 'sant-usant', 'Menneskerettighetene gjelder bare for statsborgere.', array['Sant', 'Usant']::text[], 1, 'Menneskerettighetene gjelder alle mennesker.', false, true, 13),
+  ('samfunnsfag-9:menneskerettigheter', 'm05', 'flervalg', 'Hvor mange artikler har verdenserklæringen?', array['10', '30', '50', '100']::text[], 1, 'De 30 artiklene dekker både sivile, politiske, økonomiske og sosiale rettigheter.', false, true, 14),
+  ('samfunnsfag-9:menneskerettigheter', 'm06', 'flervalg', 'Hvem kan hjelpe deg hvis du opplever diskriminering?', array['Likestillings- og diskrimineringsombudet', 'Datatilsynet', 'Forbrukerrådet', 'Skatteetaten']::text[], 0, 'Ombudet gir gratis veiledning om diskriminering.', false, true, 15),
+  ('samfunnsfag-9:menneskerettigheter', 'm07', 'flervalg', 'Hva gjør Amnesty International?', array['Vedtar lover', 'Dømmer i straffesaker', 'Avdekker og protesterer mot brudd på menneskerettighetene', 'Leder FN']::text[], 2, 'Amnesty er en frivillig organisasjon med medlemmer over hele verden.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('samfunnsfag-9:menneskerettigheter', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- KRLE (9): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'krle-9';
 
 -- Norsk (10): rydd bort fjernede temaer
 delete from public.temaer where fag_id = 'norsk-10' and slug not in ('litteraturhistorie', 'romanen', 'bokmal-og-nynorsk-historie', 'sprakvariasjon', 'digitale-medier-og-sprak', 'artikkel-og-debattinnlegg', 'nynorsk-skriving');
@@ -7152,7 +8641,614 @@ insert into public.miniprover (tema_id, minutter) values
 on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Samfunnsfag (10): rydd bort fjernede temaer
-delete from public.temaer where fag_id = 'samfunnsfag-10';
+delete from public.temaer where fag_id = 'samfunnsfag-10' and slug not in ('den-kalde-krigen', 'konflikter-i-var-tid', 'terror-og-ekstremisme', 'berekraftig-utvikling', 'velferdsstaten', 'mangfold-og-fordommer', 'makt-og-medier');
+
+-- Samfunnsfag: Den kalde krigen
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('samfunnsfag-10:den-kalde-krigen', 'samfunnsfag-10', 'den-kalde-krigen', 'Den kalde krigen', 'Årsakene til og forløpet av konflikten mellom USA og Sovjetunionen 1947–1991, hvordan Europa ble delt, Norges rolle, og hvordan den kalde krigen tok slutt.', array[7]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('samfunnsfag-10:den-kalde-krigen', '## En kald krig
+
+**Den kalde krigen** var en langvarig konflikt mellom de to **supermaktene** **USA** og **Sovjetunionen** fra slutten av 1940-tallet til 1991. Den kalles «kald» fordi supermaktene aldri kriget direkte mot hverandre. I stedet konkurrerte de om makt, våpen, teknologi og innflytelse over hele verden.
+
+## Årsaker
+
+Under andre verdenskrig var USA og Sovjetunionen allierte, men de hadde svært ulike **ideologier**:
+
+- **USA**: demokrati, frie valg og **kapitalisme**, der privat eierskap og markedet styrer økonomien.
+- **Sovjetunionen**: **kommunisme**, ettpartistat og planøkonomi, der staten eier og styrer produksjonen.
+
+Etter krigen fikk Sovjetunionen kontroll over Øst-Europa, og mistilliten vokste. Churchill beskrev et **jernteppe** som delte Europa. USA ville hindre at kommunismen spredte seg, og ga gjennom **Marshallplanen** økonomisk hjelp til gjenoppbyggingen av Vest-Europa.
+
+## Et delt Europa
+
+- **NATO** ble dannet i 1949 med USA i spissen, og Norge var med fra starten.
+- Sovjetunionen og landene i øst dannet **Warszawapakten** i 1955.
+- **Tyskland** ble delt i Vest-Tyskland og Øst-Tyskland. I 1961 bygde Øst-Tyskland **Berlinmuren** for å hindre at folk flyktet vestover.
+
+## Våpenkappløp og konflikter
+
+Supermaktene bygde opp tusenvis av **atomvåpen**. Begge visste at en atomkrig ville ødelegge dem begge, og denne **terrorbalansen** kan ha hindret en direkte krig. Under **Cubakrisen** i 1962 var verden likevel svært nær atomkrig, etter at Sovjetunionen hadde plassert raketter på Cuba.
+
+Andre steder ble det «varme» kriger. I **stedfortrederkriger** støttet supermaktene hver sin side, som i **Koreakrigen** (1950–1953), **Vietnamkrigen** og krigen i Afghanistan. Rivaliseringen gjaldt også **romkappløpet**: Sovjetunionen sendte opp den første satellitten, Sputnik, i 1957, og USA landet på månen i 1969.
+
+## Norge i den kalde krigen
+
+Norge hadde grense mot Sovjetunionen i nord. Landet ble med i NATO, men førte en **basepolitikk**: Det skulle ikke være faste utenlandske militærbaser eller atomvåpen i Norge i fredstid. Slik ville Norge redusere spenningen i nord.
+
+## Slutten
+
+På 1980-tallet var Sovjetunionens økonomi svak. **Mikhail Gorbatsjov** innførte reformer med mer åpenhet (glasnost) og omstrukturering (perestrojka). I 1989 kom revolusjoner i Øst-Europa, og **Berlinmuren falt 9. november 1989**. Tyskland ble samlet i 1990, og **Sovjetunionen ble oppløst i 1991**.
+
+## Konsekvenser
+
+Etter den kalde krigen ble mange land i Øst-Europa demokratier, og flere ble med i NATO og EU. USA sto igjen som eneste supermakt. Spenningen mellom Russland og Vesten har likevel økt igjen, særlig etter at Russland gikk til fullskala angrep på Ukraina i 2022.', '{"label":"Den kalde krigen","children":[{"label":"Supermaktene","children":[{"label":"USA","note":"Kapitalisme, demokrati"},{"label":"Sovjetunionen","note":"Kommunisme, ettpartistat"}]},{"label":"Europa delt","children":[{"label":"Jernteppet"},{"label":"Marshallplanen"},{"label":"NATO og Warszawapakten"},{"label":"Berlinmuren","note":"1961–1989"}]},{"label":"Konfrontasjoner","children":[{"label":"Våpenkappløp og terrorbalanse"},{"label":"Korea og Vietnam"},{"label":"Cubakrisen","note":"1962"},{"label":"Romkappløpet"}]},{"label":"Norge","children":[{"label":"NATO-medlem"},{"label":"Grense mot Sovjet"},{"label":"Basepolitikk"}]},{"label":"Slutten","children":[{"label":"Gorbatsjov"},{"label":"Muren faller","note":"1989"},{"label":"Sovjet oppløst","note":"1991"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'samfunnsfag-10:den-kalde-krigen';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('samfunnsfag-10:den-kalde-krigen', 'Den kalde krigen', 'Konflikten mellom USA og Sovjetunionen fra slutten av 1940-tallet til 1991.', 0),
+  ('samfunnsfag-10:den-kalde-krigen', 'Supermakt', 'Stat med så stor militær, økonomisk og politisk makt at den påvirker hele verden.', 1),
+  ('samfunnsfag-10:den-kalde-krigen', 'Kapitalisme', 'Økonomisk system med privat eierskap der markedet styrer.', 2),
+  ('samfunnsfag-10:den-kalde-krigen', 'Kommunisme', 'Ideologi der staten eier produksjonen og ett parti styrer.', 3),
+  ('samfunnsfag-10:den-kalde-krigen', 'Jernteppet', 'Churchills bilde på grensen som delte Europa i øst og vest.', 4),
+  ('samfunnsfag-10:den-kalde-krigen', 'Marshallplanen', 'Amerikansk økonomisk hjelp til gjenoppbyggingen av Vest-Europa etter krigen.', 5),
+  ('samfunnsfag-10:den-kalde-krigen', 'NATO', 'Forsvarsallianse dannet i 1949 med USA i spissen. Norge var med fra start.', 6),
+  ('samfunnsfag-10:den-kalde-krigen', 'Warszawapakten', 'Militærallianse fra 1955 mellom Sovjetunionen og landene i Øst-Europa.', 7),
+  ('samfunnsfag-10:den-kalde-krigen', 'Berlinmuren', 'Muren som delte Berlin fra 1961 til 1989.', 8),
+  ('samfunnsfag-10:den-kalde-krigen', 'Terrorbalansen', 'Begge supermaktene hadde så mange atomvåpen at en krig ville ødelegge begge.', 9),
+  ('samfunnsfag-10:den-kalde-krigen', 'Stedfortrederkrig', 'Krig der supermaktene støtter hver sin side i et annet land.', 10),
+  ('samfunnsfag-10:den-kalde-krigen', 'Cubakrisen', 'Krisen i 1962 der verden var nær atomkrig på grunn av sovjetiske raketter på Cuba.', 11),
+  ('samfunnsfag-10:den-kalde-krigen', 'Romkappløpet', 'Konkurransen om romfart. Sputnik i 1957 og månelandingen i 1969.', 12),
+  ('samfunnsfag-10:den-kalde-krigen', 'Basepolitikken', 'Norges politikk om ingen faste utenlandske baser eller atomvåpen i fredstid.', 13),
+  ('samfunnsfag-10:den-kalde-krigen', 'Gorbatsjov', 'Sovjetisk leder fra 1985 som innførte reformene glasnost og perestrojka.', 14);
+delete from public.quiz_sporsmal where tema_id = 'samfunnsfag-10:den-kalde-krigen';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('samfunnsfag-10:den-kalde-krigen', 'q01', 'flervalg', 'Hvilke to supermakter sto mot hverandre under den kalde krigen?', array['USA og Sovjetunionen', 'Storbritannia og Frankrike', 'Kina og Japan', 'Tyskland og Italia']::text[], 0, 'De to supermaktene hadde svært ulike ideologier.', true, true, 0),
+  ('samfunnsfag-10:den-kalde-krigen', 'q02', 'flervalg', 'Hvorfor kalles krigen «kald»?', array['Fordi den foregikk om vinteren', 'Fordi supermaktene aldri kriget direkte mot hverandre', 'Fordi den foregikk i Arktis', 'Fordi ingen døde']::text[], 1, 'Konflikten foregikk gjennom våpenkappløp, propaganda og stedfortrederkriger.', true, true, 1),
+  ('samfunnsfag-10:den-kalde-krigen', 'q03', 'flervalg', 'Hva var Marshallplanen?', array['En sovjetisk militærplan', 'En plan for månelanding', 'Amerikansk økonomisk hjelp til gjenoppbyggingen av Europa', 'En fredsavtale med Japan']::text[], 2, 'Hjelpen skulle også hindre at kommunismen fikk fotfeste i Vest-Europa.', true, true, 2),
+  ('samfunnsfag-10:den-kalde-krigen', 'q04', 'flervalg', 'Når ble Berlinmuren bygd?', array['1945', '1949', '1989', '1961']::text[], 3, 'Muren skulle hindre østtyskere i å flykte til Vest-Berlin.', true, true, 3),
+  ('samfunnsfag-10:den-kalde-krigen', 'q05', 'flervalg', 'Hva var Cubakrisen i 1962?', array['En krise der verden var nær atomkrig på grunn av sovjetiske raketter på Cuba', 'En økonomisk krise på Cuba', 'En borgerkrig i Latin-Amerika', 'En orkan']::text[], 0, 'Krisen ble løst gjennom forhandlinger, og Sovjetunionen trakk rakettene tilbake.', true, true, 4),
+  ('samfunnsfag-10:den-kalde-krigen', 'q06', 'flervalg', 'Hva er en stedfortrederkrig?', array['En krig mellom to supermakter direkte', 'En krig der supermaktene støtter hver sin side i en konflikt i et annet land', 'En handelskrig', 'En krig uten våpen']::text[], 1, 'Koreakrigen og Vietnamkrigen er eksempler.', true, true, 5),
+  ('samfunnsfag-10:den-kalde-krigen', 'q07', 'flervalg', 'Hvilken militærallianse ble Norge med i i 1949?', array['Warszawapakten', 'EU', 'NATO', 'FN']::text[], 2, 'Norge var et av de tolv landene som grunnla NATO.', true, true, 6),
+  ('samfunnsfag-10:den-kalde-krigen', 'q08', 'flervalg', 'Hva var terrorbalansen?', array['At begge supermaktene hadde så mange atomvåpen at en krig ville ødelegge begge', 'At ingen hadde atomvåpen', 'At terrorister styrte verden', 'At Europa var nøytralt']::text[], 0, 'Frykten for gjensidig ødeleggelse kan ha hindret en direkte krig.', true, true, 7),
+  ('samfunnsfag-10:den-kalde-krigen', 'q09', 'flervalg', 'Hva skjedde 9. november 1989?', array['Sovjetunionen ble oppløst', 'Cubakrisen startet', 'NATO ble dannet', 'Berlinmuren falt']::text[], 3, 'Murens fall ble et symbol på slutten av den kalde krigen.', true, false, 8),
+  ('samfunnsfag-10:den-kalde-krigen', 'q10', 'flervalg', 'Hvilken sovjetisk leder innførte reformene glasnost og perestrojka?', array['Stalin', 'Khrusjtsjov', 'Gorbatsjov', 'Putin']::text[], 2, 'Reformene ga mer åpenhet, men bidro også til at Sovjetunionen gikk i oppløsning.', true, false, 9),
+  ('samfunnsfag-10:den-kalde-krigen', 'm01', 'sant-usant', 'Sovjetunionen ble oppløst i 1991.', array['Sant', 'Usant']::text[], 0, 'Sovjetunionen ble delt i 15 selvstendige stater, blant dem Russland og Ukraina.', false, true, 10),
+  ('samfunnsfag-10:den-kalde-krigen', 'm02', 'sant-usant', 'Norge tillot faste utenlandske militærbaser i fredstid under den kalde krigen.', array['Sant', 'Usant']::text[], 1, 'Basepolitikken sa nei til faste utenlandske baser i fredstid.', false, true, 11),
+  ('samfunnsfag-10:den-kalde-krigen', 'm03', 'sant-usant', 'Romkappløpet var en del av rivaliseringen mellom supermaktene.', array['Sant', 'Usant']::text[], 0, 'Teknologiske seire ble brukt som bevis på at eget system var best.', false, true, 12),
+  ('samfunnsfag-10:den-kalde-krigen', 'm04', 'sant-usant', 'Tyskland var samlet under hele den kalde krigen.', array['Sant', 'Usant']::text[], 1, 'Tyskland var delt fra 1949 til 1990.', false, true, 13),
+  ('samfunnsfag-10:den-kalde-krigen', 'm05', 'flervalg', 'Hva kalte Churchill grensen mellom øst og vest i Europa?', array['Berlinmuren', 'Jernteppet', 'Den kalde fronten', 'Østgrensen']::text[], 1, 'Uttrykket ble kjent etter en tale i 1946.', false, true, 14),
+  ('samfunnsfag-10:den-kalde-krigen', 'm06', 'flervalg', 'Hvilken allianse ledet Sovjetunionen?', array['Warszawapakten', 'NATO', 'EU', 'Folkeforbundet']::text[], 0, 'Warszawapakten ble oppløst i 1991.', false, true, 15),
+  ('samfunnsfag-10:den-kalde-krigen', 'm07', 'flervalg', 'Hva var en konsekvens av at den kalde krigen tok slutt?', array['Berlinmuren ble bygd', 'Europa ble delt', 'Mange land i Øst-Europa ble demokratier', 'Koreakrigen startet']::text[], 2, 'Flere av landene ble senere med i både NATO og EU.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('samfunnsfag-10:den-kalde-krigen', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Samfunnsfag: Konflikter i vår tid
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('samfunnsfag-10:konflikter-i-var-tid', 'samfunnsfag-10', 'konflikter-i-var-tid', 'Konflikter i vår tid', 'Hvordan du analyserer en konflikt, vanlige årsaker til væpnede konflikter, eksempler fra vår tid, konsekvensene for mennesker og verden, og hvordan konflikter kan løses.', array[7]::int[], 1, 'sjekkes', array['Pågående konflikter (Ukraina, Israel/Gaza, Syria) endrer seg raskt – sjekk at beskrivelsene fortsatt er dekkende.', 'Tallet på mennesker på flukt (over 100 millioner) bør sjekkes mot siste tall fra UNHCR.']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('samfunnsfag-10:konflikter-i-var-tid', '## Hva er en konflikt?
+
+En **konflikt** er en uenighet mellom parter som har motstridende mål eller interesser. Ikke alle konflikter blir voldelige, men når de gjør det, kan de føre til **krig**. I dag er de fleste væpnede konflikter **borgerkriger** inne i ett land, ofte med innblanding fra andre stater. Kriger mellom stater, som Russlands krig mot Ukraina, er sjeldnere, men får store konsekvenser.
+
+## Å analysere en konflikt
+
+En **konfliktanalyse** stiller spørsmål som:
+
+- **Årsaker**: Hva handler konflikten om?
+- **Aktører**: Hvem er partene, og hvem støtter dem?
+- **Interesser**: Hva vil partene oppnå?
+- **Konsekvenser**: Hvem rammes, og hvordan?
+- **Løsninger**: Hva kan få slutt på konflikten?
+
+## Vanlige årsaker
+
+- **Territorium og ressurser**, som land, vann, olje og mineraler
+- **Identitet**, som etnisitet, religion og språk
+- **Makt og ideologi**, for eksempel kamp om hvem som skal styre
+- **Historiske forhold**, som grenser trukket av kolonimakter uten hensyn til folkegruppene
+- **Fattigdom og ulikhet**, som gjør det lettere å rekruttere til væpnede grupper
+- **Klimaendringer**, som kan forsterke kampen om vann og jord
+
+Ofte virker flere årsaker sammen, og vi skiller mellom **langsiktige** og **utløsende** årsaker.
+
+## Eksempler
+
+- **Russland og Ukraina**: Russland annekterte **Krim** i 2014 og gikk til **fullskala invasjon** av Ukraina 24. februar 2022. Konflikten handler om territorium, sikkerhetspolitikk, identitet og Ukrainas ønske om tilknytning til Vesten.
+- **Israel og Palestina**: Konflikten har røtter tilbake til opprettelsen av Israel i 1948 og handler om land, sikkerhet, Jerusalem og palestinernes krav om egen stat. **Oslo-avtalen** fra 1993 ga håp om fred, men ble aldri fullført. Hamas'' angrep på Israel 7. oktober 2023 ble fulgt av en krig i Gaza med svært mange drepte.
+- **Syria**: En borgerkrig brøt ut i 2011 etter at regimet slo ned på fredelige protester, og millioner flyktet.
+
+## Konsekvenser
+
+Væpnede konflikter fører til død, skader og traumer, ødelagte hjem, skoler og sykehus, sult og **flukt**. Over 100 millioner mennesker i verden er i dag på flukt. Konflikter påvirker også resten av verden gjennom høyere mat- og energipriser og økt spenning mellom stormaktene.
+
+## Konfliktløsning
+
+- **Forhandlinger** og **mekling**, der en nøytral tredjepart hjelper partene. Norge har vært mekler i flere konflikter, blant annet i Colombia.
+- **FN** kan sende fredsbevarende styrker og vedta sanksjoner. Men i **Sikkerhetsrådet** har de fem faste medlemmene **vetorett**, og det gjør det ofte vanskelig å bli enige.
+- **Våpenhvile**, fredsavtaler og gjenoppbygging.
+
+## Kunne konflikten vært hindret?
+
+Vi kan spørre hva som ville skjedd hvis noen **forutsetninger** hadde vært annerledes. Kunne tidligere forhandlinger, andre grenser eller mindre ulikhet ha forebygget volden? Slike spørsmål har ikke sikre svar, men hjelper oss å forstå årsakene bedre.', '{"label":"Konflikter i vår tid","children":[{"label":"Konflikt","children":[{"label":"Motstridende mål"},{"label":"Borgerkrig"},{"label":"Mellomstatlig krig"}]},{"label":"Årsaker","children":[{"label":"Territorium og ressurser"},{"label":"Identitet"},{"label":"Makt og ideologi"},{"label":"Kolonigrenser"},{"label":"Fattigdom og klima"}]},{"label":"Eksempler","children":[{"label":"Russland og Ukraina"},{"label":"Israel og Palestina"},{"label":"Syria"}]},{"label":"Konsekvenser","children":[{"label":"Død og traumer"},{"label":"Flukt"},{"label":"Globale ringvirkninger"}]},{"label":"Løsninger","children":[{"label":"Forhandlinger og mekling"},{"label":"FN og Sikkerhetsrådet"},{"label":"Kunne den vært hindret?"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'samfunnsfag-10:konflikter-i-var-tid';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('samfunnsfag-10:konflikter-i-var-tid', 'Konflikt', 'Uenighet mellom parter med motstridende mål eller interesser.', 0),
+  ('samfunnsfag-10:konflikter-i-var-tid', 'Borgerkrig', 'Væpnet konflikt mellom grupper inne i ett land.', 1),
+  ('samfunnsfag-10:konflikter-i-var-tid', 'Mellomstatlig krig', 'Krig mellom to eller flere stater.', 2),
+  ('samfunnsfag-10:konflikter-i-var-tid', 'Konfliktanalyse', 'Systematisk undersøkelse av årsaker, aktører, interesser, konsekvenser og løsninger.', 3),
+  ('samfunnsfag-10:konflikter-i-var-tid', 'Aktør', 'En part som deltar i eller påvirker en konflikt.', 4),
+  ('samfunnsfag-10:konflikter-i-var-tid', 'Langsiktig årsak', 'Dypere forhold som bygger opp en konflikt over tid.', 5),
+  ('samfunnsfag-10:konflikter-i-var-tid', 'Utløsende årsak', 'Hendelsen som setter i gang en konflikt.', 6),
+  ('samfunnsfag-10:konflikter-i-var-tid', 'Kolonigrenser', 'Grenser trukket av kolonimakter uten hensyn til folkegruppene.', 7),
+  ('samfunnsfag-10:konflikter-i-var-tid', 'Annektering', 'Å innlemme et område i sin egen stat, ofte med makt, som Russland gjorde med Krim i 2014.', 8),
+  ('samfunnsfag-10:konflikter-i-var-tid', 'Fullskala invasjon', 'Russlands angrep på hele Ukraina fra 24. februar 2022.', 9),
+  ('samfunnsfag-10:konflikter-i-var-tid', 'Oslo-avtalen', 'Avtale fra 1993 mellom Israel og PLO som skulle lede til fred.', 10),
+  ('samfunnsfag-10:konflikter-i-var-tid', 'Flyktning', 'Person som har flyktet fra hjemlandet på grunn av forfølgelse eller krig.', 11),
+  ('samfunnsfag-10:konflikter-i-var-tid', 'Mekling', 'En nøytral tredjepart hjelper partene å finne en løsning.', 12),
+  ('samfunnsfag-10:konflikter-i-var-tid', 'Sikkerhetsrådet', 'FNs viktigste organ for fred og sikkerhet, med 5 faste og 10 valgte medlemmer.', 13),
+  ('samfunnsfag-10:konflikter-i-var-tid', 'Vetorett', 'Retten de fem faste medlemmene i Sikkerhetsrådet har til å stoppe et vedtak.', 14);
+delete from public.quiz_sporsmal where tema_id = 'samfunnsfag-10:konflikter-i-var-tid';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('samfunnsfag-10:konflikter-i-var-tid', 'q01', 'flervalg', 'Hva er den vanligste typen væpnet konflikt i dag?', array['Kriger mellom stormakter', 'Borgerkriger inne i ett land', 'Kriger om kolonier', 'Verdenskriger']::text[], 1, 'Mange borgerkriger får likevel innblanding fra andre land.', true, true, 0),
+  ('samfunnsfag-10:konflikter-i-var-tid', 'q02', 'flervalg', 'Hvilket spørsmål hører til en konfliktanalyse?', array['Hvem er partene, og hva vil de oppnå?', 'Hvilken farge har flaggene?', 'Hvor mange innbyggere har hovedstaden?', 'Hva heter nasjonalsangen?']::text[], 0, 'Aktører og interesser er sentrale for å forstå en konflikt.', true, true, 1),
+  ('samfunnsfag-10:konflikter-i-var-tid', 'q03', 'flervalg', 'Hvordan kan kolonitiden være en årsak til konflikter i dag?', array['Kolonimaktene bygde for mange skoler', 'Koloniene fikk for mye makt', 'Kolonimaktene trakk grenser uten hensyn til folkegruppene', 'Kolonitiden har ingen betydning']::text[], 2, 'Grupper som ble delt eller tvunget sammen, har ofte havnet i konflikt.', true, true, 2),
+  ('samfunnsfag-10:konflikter-i-var-tid', 'q04', 'flervalg', 'Når gikk Russland til fullskala invasjon av Ukraina?', array['2014', '1991', '2008', '2022']::text[], 3, 'Invasjonen startet 24. februar 2022, åtte år etter annekteringen av Krim.', true, true, 3),
+  ('samfunnsfag-10:konflikter-i-var-tid', 'q05', 'flervalg', 'Hva er mekling?', array['At en nøytral tredjepart hjelper partene å finne en løsning', 'At én part vinner krigen', 'At FN sender soldater', 'At et land innfører sanksjoner']::text[], 0, 'Norge har ofte hatt rollen som mekler.', true, true, 4),
+  ('samfunnsfag-10:konflikter-i-var-tid', 'q06', 'flervalg', 'Hva var Oslo-avtalen fra 1993?', array['En handelsavtale mellom Norge og EU', 'En avtale mellom Israel og PLO som skulle føre til fred', 'En avtale om NATO-medlemskap', 'En klimaavtale']::text[], 1, 'Avtalen ga palestinerne begrenset selvstyre, men den endelige fredsavtalen kom aldri.', true, true, 5),
+  ('samfunnsfag-10:konflikter-i-var-tid', 'q07', 'flervalg', 'Hvorfor er det ofte vanskelig for FNs sikkerhetsråd å gripe inn?', array['Fordi FN ikke har penger', 'Fordi Sikkerhetsrådet bare møtes hvert tiende år', 'Fordi Norge har vetorett', 'Fordi de fem faste medlemmene har vetorett']::text[], 3, 'USA, Russland, Kina, Storbritannia og Frankrike kan hver for seg stoppe et vedtak.', true, true, 6),
+  ('samfunnsfag-10:konflikter-i-var-tid', 'q08', 'flervalg', 'Hvordan kan en krig i ett land påvirke resten av verden?', array['Den kan gi høyere mat- og energipriser og flere flyktninger', 'Den påvirker aldri andre land', 'Den gjør alt billigere', 'Den gir mindre spenning mellom stormakter']::text[], 0, 'Krigen i Ukraina ga for eksempel høyere priser på korn og energi i mange land.', true, true, 7),
+  ('samfunnsfag-10:konflikter-i-var-tid', 'q09', 'flervalg', 'Hva er en utløsende årsak?', array['Den dypeste grunnen til en konflikt', 'Konsekvensen av en krig', 'Hendelsen som setter i gang en konflikt', 'En fredsavtale']::text[], 2, 'Utløsende årsaker virker sammen med langsiktige årsaker.', true, false, 8),
+  ('samfunnsfag-10:konflikter-i-var-tid', 'q10', 'flervalg', 'Hvordan kan klimaendringer bidra til konflikter?', array['Ved å gi mer regn overalt', 'Ved å forsterke kampen om vann og dyrkbar jord', 'Ved å stoppe all krig', 'Klima har ingen betydning']::text[], 1, 'Tørke og knapphet kan skape spenninger mellom grupper.', true, false, 9),
+  ('samfunnsfag-10:konflikter-i-var-tid', 'm01', 'sant-usant', 'Alle konflikter blir voldelige.', array['Sant', 'Usant']::text[], 1, 'De fleste konflikter løses uten vold, for eksempel gjennom forhandlinger.', false, true, 10),
+  ('samfunnsfag-10:konflikter-i-var-tid', 'm02', 'sant-usant', 'Russland annekterte Krim i 2014.', array['Sant', 'Usant']::text[], 0, 'Annekteringen ble ikke anerkjent av de fleste land i verden.', false, true, 11),
+  ('samfunnsfag-10:konflikter-i-var-tid', 'm03', 'sant-usant', 'Norge har vært mekler i fredsprosesser i andre land.', array['Sant', 'Usant']::text[], 0, 'Blant annet i Colombia, Sri Lanka og mellom Israel og palestinerne.', false, true, 12),
+  ('samfunnsfag-10:konflikter-i-var-tid', 'm04', 'sant-usant', 'Konflikter har som regel bare én årsak.', array['Sant', 'Usant']::text[], 1, 'Som regel virker flere årsaker sammen.', false, true, 13),
+  ('samfunnsfag-10:konflikter-i-var-tid', 'm05', 'flervalg', 'Hvem har vetorett i FNs sikkerhetsråd?', array['Alle FNs medlemsland', 'Bare USA', 'De fem faste medlemmene', 'Generalsekretæren']::text[], 2, 'USA, Russland, Kina, Storbritannia og Frankrike.', false, true, 14),
+  ('samfunnsfag-10:konflikter-i-var-tid', 'm06', 'flervalg', 'Hva betyr å annektere et område?', array['Å innlemme et område i sin egen stat, ofte med makt', 'Å gi et område selvstendighet', 'Å handle med et område', 'Å sende nødhjelp til et område']::text[], 0, 'Annektering med makt er i strid med folkeretten.', false, true, 15),
+  ('samfunnsfag-10:konflikter-i-var-tid', 'm07', 'flervalg', 'Hvilken konflikt startet med at regimet slo ned på fredelige protester i 2011?', array['Koreakrigen', 'Borgerkrigen i Syria', 'Krigen i Ukraina', 'Vietnamkrigen']::text[], 1, 'Protestene var en del av den arabiske våren.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('samfunnsfag-10:konflikter-i-var-tid', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Samfunnsfag: Terror og ekstremisme
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('samfunnsfag-10:terror-og-ekstremisme', 'samfunnsfag-10', 'terror-og-ekstremisme', 'Terror og ekstremisme', 'Hva terror, ekstremisme og radikalisering er, eksempler på terrorangrep, årsaker og konsekvenser, og hvordan ekstreme holdninger og handlinger kan forebygges.', array[8]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('samfunnsfag-10:terror-og-ekstremisme', '## Hva er terror?
+
+**Terror** er vold eller trusler om vold mot sivile for å skape frykt og oppnå politiske, religiøse eller ideologiske mål. Terroristene vil at handlingen skal få stor oppmerksomhet og påvirke langt flere enn dem som rammes direkte. **Ekstremisme** er holdninger som godtar bruk av vold for å nå et mål. Å ha radikale meninger er lov i et demokrati, men det blir ekstremisme når man aksepterer vold.
+
+## Ulike former for ekstremisme
+
+- **Høyreekstremisme**: ofte rasisme, fremmedfiendtlighet og tanken om at «eget folk» er truet.
+- **Islamistisk ekstremisme**: grupper som al-Qaida og IS, som vil innføre sin tolkning av islam med vold.
+- **Venstreekstremisme**: vold mot det man ser som kapitalisme og undertrykkende stater.
+- **Separatistisk terror**: vold for å skille ut et område som egen stat.
+
+## Terrorangrep
+
+- **11. september 2001** kapret al-Qaida fire fly i USA. Nesten 3000 mennesker ble drept. USA svarte med krig i Afghanistan og det som ble kalt «krigen mot terror».
+- **22. juli 2011** ble 77 mennesker drept da en høyreekstrem terrorist bombet Regjeringskvartalet i Oslo og skjøt ungdommer på AUFs sommerleir på **Utøya**. Det er det verste angrepet i Norge siden andre verdenskrig.
+- I 2019 drepte en høyreekstrem terrorist 51 mennesker i to moskeer i **Christchurch** på New Zealand. Samme år angrep en norsk høyreekstremist en moské i Bærum.
+- **25. juni 2022** ble to mennesker drept i et islamistisk terrorangrep i Oslo under Pride-feiringen.
+
+## Radikalisering
+
+**Radikalisering** er prosessen der en person gradvis får ekstreme holdninger og kan komme til å bruke vold. Mulige årsaker er
+
+- en følelse av **utenforskap**, urettferdighet eller krenkelse
+- søken etter **identitet**, mening og fellesskap
+- **propaganda** og **konspirasjonsteorier** på nett, der algoritmer og **ekkokamre** forsterker budskapet
+- personlige kriser og kontakt med ekstreme miljøer
+
+## Konsekvenser
+
+Terror gir tap av liv, alvorlige skader og traumer for overlevende, pårørende og hele samfunnet. Den kan skape **frykt** og **mistillit**, og noen ganger blir hele grupper mistenkeliggjort. Samfunn svarer ofte med mer overvåking og strengere sikkerhetstiltak, og da må vi veie **sikkerhet** mot **frihet og personvern**. Etter 22. juli samlet likevel mange seg i rosetog for å vise samhold og støtte til demokratiet.
+
+## Forebygging
+
+- **Inkludering** og gode fellesskap, slik at ingen blir stående utenfor
+- **Kunnskap** og **kildekritikk** mot propaganda, hatprat og konspirasjonsteorier
+- Å **ta bekymringer på alvor** og snakke med en voksen hvis noen du kjenner, endrer seg og uttrykker støtte til vold
+- **Demokratisk debatt**, der uenighet møtes med argumenter
+- Arbeid fra **PST** og politiet, og internasjonalt samarbeid', '{"label":"Terror og ekstremisme","children":[{"label":"Begreper","children":[{"label":"Terror"},{"label":"Ekstremisme"},{"label":"Radikalisering"}]},{"label":"Former","children":[{"label":"Høyreekstrem"},{"label":"Islamistisk"},{"label":"Venstreekstrem"},{"label":"Separatistisk"}]},{"label":"Angrep","children":[{"label":"11. september 2001"},{"label":"22. juli 2011"},{"label":"Christchurch 2019"},{"label":"Oslo 2022"}]},{"label":"Årsaker","children":[{"label":"Utenforskap"},{"label":"Identitet og fellesskap"},{"label":"Propaganda og konspirasjonsteorier"}]},{"label":"Konsekvenser og forebygging","children":[{"label":"Frykt og mistillit"},{"label":"Sikkerhet mot frihet"},{"label":"Inkludering og kunnskap"},{"label":"Si ifra"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'samfunnsfag-10:terror-og-ekstremisme';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('samfunnsfag-10:terror-og-ekstremisme', 'Terror', 'Vold eller trusler mot sivile for å skape frykt og oppnå politiske, religiøse eller ideologiske mål.', 0),
+  ('samfunnsfag-10:terror-og-ekstremisme', 'Ekstremisme', 'Holdninger som godtar bruk av vold for å nå et mål.', 1),
+  ('samfunnsfag-10:terror-og-ekstremisme', 'Radikalisering', 'Prosessen der en person gradvis får ekstreme holdninger.', 2),
+  ('samfunnsfag-10:terror-og-ekstremisme', 'Høyreekstremisme', 'Ekstremisme preget av rasisme og fremmedfiendtlighet.', 3),
+  ('samfunnsfag-10:terror-og-ekstremisme', 'Islamistisk ekstremisme', 'Voldelig ekstremisme som vil innføre en bestemt tolkning av islam, for eksempel al-Qaida og IS.', 4),
+  ('samfunnsfag-10:terror-og-ekstremisme', 'Venstreekstremisme', 'Voldelig ekstremisme rettet mot kapitalisme og det man ser som undertrykkende stater.', 5),
+  ('samfunnsfag-10:terror-og-ekstremisme', '11. september 2001', 'Al-Qaidas angrep i USA der nesten 3000 mennesker ble drept.', 6),
+  ('samfunnsfag-10:terror-og-ekstremisme', '22. juli 2011', 'Høyreekstreme terrorangrep mot Regjeringskvartalet og Utøya. 77 ble drept.', 7),
+  ('samfunnsfag-10:terror-og-ekstremisme', 'Konspirasjonsteori', 'Forestilling om at hemmelige grupper i skjul styrer hendelser, uten godt bevis.', 8),
+  ('samfunnsfag-10:terror-og-ekstremisme', 'Utenforskap', 'Å føle seg utenfor fellesskapet, for eksempel i skole, arbeid eller vennegjeng.', 9),
+  ('samfunnsfag-10:terror-og-ekstremisme', 'Ekkokammer', 'Miljø der man mest møter meninger som bekrefter ens egne.', 10),
+  ('samfunnsfag-10:terror-og-ekstremisme', 'PST', 'Politiets sikkerhetstjeneste, som blant annet skal avdekke og forebygge terror.', 11),
+  ('samfunnsfag-10:terror-og-ekstremisme', 'Propaganda', 'Ensidig informasjon som skal påvirke holdninger og handlinger.', 12),
+  ('samfunnsfag-10:terror-og-ekstremisme', 'Sikkerhet mot frihet', 'Avveiningen mellom å beskytte samfunnet og å bevare personvern og frihet.', 13),
+  ('samfunnsfag-10:terror-og-ekstremisme', 'Forebygging', 'Tiltak som hindrer at noen blir radikalisert eller utfører vold.', 14);
+delete from public.quiz_sporsmal where tema_id = 'samfunnsfag-10:terror-og-ekstremisme';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('samfunnsfag-10:terror-og-ekstremisme', 'q01', 'flervalg', 'Hva er terror?', array['Vold eller trusler mot sivile for å skape frykt og oppnå politiske mål', 'All kriminalitet', 'Krig mellom to land', 'En demonstrasjon']::text[], 0, 'Terror retter seg mot sivile og skal påvirke mange flere enn dem som rammes.', true, true, 0),
+  ('samfunnsfag-10:terror-og-ekstremisme', 'q02', 'flervalg', 'Når blir radikale meninger til ekstremisme?', array['Når man er uenig med regjeringen', 'Når man godtar bruk av vold for å nå målet', 'Når man skriver leserinnlegg', 'Når man demonstrerer']::text[], 1, 'Radikale meninger er lov i et demokrati, men ikke å bruke vold.', true, true, 1),
+  ('samfunnsfag-10:terror-og-ekstremisme', 'q03', 'flervalg', 'Hvor mange ble drept i terrorangrepene 22. juli 2011?', array['12', '35', '77', '3000']::text[], 2, 'Åtte ble drept i Regjeringskvartalet og 69 på Utøya.', true, true, 2),
+  ('samfunnsfag-10:terror-og-ekstremisme', 'q04', 'flervalg', 'Hva er radikalisering?', array['Å bli medlem av et parti', 'Å endre mening etter en debatt', 'Å flytte til et annet land', 'Prosessen der en person gradvis får ekstreme holdninger']::text[], 3, 'Radikalisering skjer som regel over tid og har flere årsaker.', true, true, 3),
+  ('samfunnsfag-10:terror-og-ekstremisme', 'q05', 'flervalg', 'Hvordan kan internett bidra til radikalisering?', array['Algoritmer og ekkokamre kan forsterke ekstreme budskap', 'Internett gjør alle mer tolerante', 'Internett stopper all propaganda', 'Det kan det ikke']::text[], 0, 'Ekstreme miljøer på nett kan gi fellesskap og normalisere voldelige ideer.', true, true, 4),
+  ('samfunnsfag-10:terror-og-ekstremisme', 'q06', 'flervalg', 'Hva skjedde 11. september 2001?', array['Berlinmuren falt', 'Al-Qaida kapret fly og angrep mål i USA', 'Terrorangrepet på Utøya', 'Terrorangrepet under Pride i Oslo']::text[], 1, 'Angrepene fikk store følger for internasjonal politikk.', true, true, 5),
+  ('samfunnsfag-10:terror-og-ekstremisme', 'q07', 'flervalg', 'Hvilken avveining må samfunnet gjøre etter terrorangrep?', array['Mellom sport og kultur', 'Mellom skatt og lønn', 'Mellom by og land', 'Mellom sikkerhet og frihet og personvern']::text[], 3, 'Mer overvåking kan gi tryggere samfunn, men også begrense friheten.', true, true, 6),
+  ('samfunnsfag-10:terror-og-ekstremisme', 'q08', 'flervalg', 'Hva er et tiltak for å forebygge ekstremisme?', array['Å utestenge dem som er annerledes', 'Inkludering og gode fellesskap', 'Å spre konspirasjonsteorier', 'Å unngå å snakke om vanskelige temaer']::text[], 1, 'Tilhørighet gjør det mindre fristende å søke fellesskap i ekstreme miljøer.', true, true, 7),
+  ('samfunnsfag-10:terror-og-ekstremisme', 'q09', 'flervalg', 'Hva bør du gjøre hvis en venn begynner å uttrykke støtte til vold?', array['Ignorere det', 'Le av det', 'Si ifra og snakke med en voksen du stoler på', 'Dele innleggene videre']::text[], 2, 'Tidlig hjelp kan hindre at noen blir radikalisert.', true, false, 8),
+  ('samfunnsfag-10:terror-og-ekstremisme', 'q10', 'flervalg', 'Hvilken etat har et særlig ansvar for å avdekke terrorplaner i Norge?', array['NAV', 'Datatilsynet', 'Skatteetaten', 'PST']::text[], 3, 'Politiets sikkerhetstjeneste jobber med å forebygge og avdekke terror.', true, false, 9),
+  ('samfunnsfag-10:terror-og-ekstremisme', 'm01', 'sant-usant', 'Det er lov å ha radikale meninger i et demokrati.', array['Sant', 'Usant']::text[], 0, 'Grensen går ved vold, trusler og hatefulle ytringer.', false, true, 10),
+  ('samfunnsfag-10:terror-og-ekstremisme', 'm02', 'sant-usant', 'Terror utføres bare av én bestemt religiøs gruppe.', array['Sant', 'Usant']::text[], 1, 'Terror har blitt utført av mange ulike grupper og ideologier.', false, true, 11),
+  ('samfunnsfag-10:terror-og-ekstremisme', 'm03', 'sant-usant', 'Etter 22. juli samlet mange seg i rosetog for å vise samhold.', array['Sant', 'Usant']::text[], 0, 'Rosetogene ble et symbol på svaret mot terroren.', false, true, 12),
+  ('samfunnsfag-10:terror-og-ekstremisme', 'm04', 'sant-usant', 'Mer overvåking har aldri noen ulemper.', array['Sant', 'Usant']::text[], 1, 'Overvåking kan gå ut over personvernet og friheten til alle.', false, true, 13),
+  ('samfunnsfag-10:terror-og-ekstremisme', 'm05', 'flervalg', 'Hva er en konspirasjonsteori?', array['En vitenskapelig bevist teori', 'En forestilling om at hemmelige grupper i skjul styrer hendelser, uten godt bevis', 'En type nyhetsartikkel', 'En lov']::text[], 1, 'Konspirasjonsteorier brukes ofte til å skape fiendebilder.', false, true, 14),
+  ('samfunnsfag-10:terror-og-ekstremisme', 'm06', 'flervalg', 'Hva er utenforskap?', array['Å føle seg utenfor fellesskapet', 'Å bo i utlandet', 'Å være på ferie', 'Å være medlem i mange klubber']::text[], 0, 'Utenforskap kan gjøre noen mer sårbare for ekstreme miljøer.', false, true, 15),
+  ('samfunnsfag-10:terror-og-ekstremisme', 'm07', 'flervalg', 'Hvor skjedde terrorangrepet mot to moskeer i 2019, der 51 ble drept?', array['Oslo', 'Paris', 'Christchurch', 'London']::text[], 2, 'Angrepet i Christchurch på New Zealand ble utført av en høyreekstremist.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('samfunnsfag-10:terror-og-ekstremisme', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Samfunnsfag: Bærekraftig utvikling
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('samfunnsfag-10:berekraftig-utvikling', 'samfunnsfag-10', 'berekraftig-utvikling', 'Bærekraftig utvikling', 'Hva bærekraftig utvikling betyr, hvordan den miljømessige, økonomiske og sosiale dimensjonen påvirker hverandre, og hvilke tiltak som kan gi mer bærekraftige samfunn.', array[11]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('samfunnsfag-10:berekraftig-utvikling', '## Hva er bærekraftig utvikling?
+
+I rapporten **Vår felles framtid** fra 1987 definerte **Brundtland-kommisjonen**, ledet av Gro Harlem Brundtland, bærekraftig utvikling som utvikling som dekker dagens behov uten å ødelegge mulighetene for at kommende generasjoner skal få dekket sine behov. Tanken er at vi ikke kan bruke opp jordas ressurser eller skade naturen så mye at de som kommer etter oss, får det vanskeligere.
+
+## Tre dimensjoner
+
+- **Miljømessig**: Naturen må tåle det vi gjør. Det handler om klima, naturmangfold, rent vann, ren luft og at vi ikke bruker ressurser raskere enn de fornyes.
+- **Økonomisk**: Samfunnet må ha en økonomi som gir arbeid, inntekt og velferd over tid, uten å bygge på **rovdrift**.
+- **Sosial**: Alle skal ha tilgang til grunnleggende behov som mat, helse og utdanning, og det må være rettferdig fordeling, likestilling og trygghet.
+
+## Dimensjonene påvirker hverandre
+
+Dimensjonene henger tett sammen, og noen ganger trekker de i hver sin retning:
+
+- Fattigdom (sosialt) kan tvinge folk til å hogge ned skog for å overleve (miljø).
+- Klimaendringer (miljø) rammer ofte de fattigste hardest, gjennom tørke, flom og dårligere avlinger (sosialt og økonomisk).
+- Å avvikle olje- og gassproduksjon kan redusere utslipp (miljø), men også gi tap av arbeidsplasser og inntekter (økonomisk og sosialt).
+
+Derfor må tiltak vurderes ut fra alle tre dimensjonene.
+
+## FNs bærekraftsmål og Parisavtalen
+
+I 2015 vedtok FN **17 bærekraftsmål** som skal nås innen **2030**. De handler blant annet om å utrydde fattigdom og sult, sikre god utdanning og helse, likestilling, rent vann, ren energi, stoppe klimaendringene og ta vare på livet i havet og på land. Samme år ble **Parisavtalen** vedtatt. Målet er å begrense den globale oppvarmingen til godt under 2 °C, helst 1,5 °C.
+
+## Tiltak for mer bærekraftige samfunn
+
+- **Enkeltpersoner** kan kjøpe mindre og bruke ting lenger, reparere, sortere avfall, spise mer plantebasert og gå, sykle eller reise kollektivt.
+- **Kommuner** kan satse på kollektivtransport, sykkelveier og energieffektive bygg.
+- **Staten** kan bruke avgifter og støtte, for eksempel for å gjøre elbiler billigere. I dag er de aller fleste nye personbiler som selges i Norge, elbiler.
+- **Land** kan samarbeide om klimaavtaler, handel og bistand.
+- **Sirkulær økonomi** betyr at ressursene holdes i kretsløp gjennom gjenbruk og resirkulering, i stedet for å bli avfall.
+
+## Dilemmaer
+
+Norge har mye fornybar vannkraft, men tjener også store penger på å eksportere olje og gass som gir utslipp i andre land. Slike **dilemmaer** viser at bærekraft ofte krever vanskelige valg og kompromisser mellom ulike hensyn.', '{"label":"Bærekraftig utvikling","children":[{"label":"Definisjon","children":[{"label":"Brundtland","note":"1987"},{"label":"Dagens og framtidens behov"}]},{"label":"Dimensjoner","children":[{"label":"Miljømessig"},{"label":"Økonomisk"},{"label":"Sosial"}]},{"label":"Sammenhenger","children":[{"label":"Fattigdom og avskoging"},{"label":"Klima rammer fattige"},{"label":"Olje og arbeidsplasser"}]},{"label":"Avtaler","children":[{"label":"17 bærekraftsmål","note":"2030"},{"label":"Parisavtalen","note":"2015"}]},{"label":"Tiltak","children":[{"label":"Enkeltpersoner"},{"label":"Kommuner"},{"label":"Staten"},{"label":"Sirkulær økonomi"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'samfunnsfag-10:berekraftig-utvikling';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('samfunnsfag-10:berekraftig-utvikling', 'Bærekraftig utvikling', 'Utvikling som dekker dagens behov uten å ødelegge mulighetene for kommende generasjoner.', 0),
+  ('samfunnsfag-10:berekraftig-utvikling', 'Brundtland-kommisjonen', 'FN-kommisjon som i 1987 la fram rapporten «Vår felles framtid».', 1),
+  ('samfunnsfag-10:berekraftig-utvikling', 'Miljømessig dimensjon', 'At naturen tåler det vi gjør: klima, naturmangfold, rent vann og ren luft.', 2),
+  ('samfunnsfag-10:berekraftig-utvikling', 'Økonomisk dimensjon', 'En økonomi som gir arbeid, inntekt og velferd over tid uten rovdrift.', 3),
+  ('samfunnsfag-10:berekraftig-utvikling', 'Sosial dimensjon', 'Rettferdig fordeling og tilgang til mat, helse, utdanning og trygghet.', 4),
+  ('samfunnsfag-10:berekraftig-utvikling', 'FNs bærekraftsmål', '17 mål vedtatt i 2015 som skal nås innen 2030.', 5),
+  ('samfunnsfag-10:berekraftig-utvikling', 'Parisavtalen', 'Klimaavtale fra 2015: oppvarmingen skal holdes godt under 2 °C, helst 1,5 °C.', 6),
+  ('samfunnsfag-10:berekraftig-utvikling', 'Naturmangfold', 'Variasjonen av arter, gener og økosystemer.', 7),
+  ('samfunnsfag-10:berekraftig-utvikling', 'Fornybar energi', 'Energi fra kilder som ikke tar slutt, som vann, vind og sol.', 8),
+  ('samfunnsfag-10:berekraftig-utvikling', 'Rovdrift', 'At ressurser brukes raskere enn de fornyes.', 9),
+  ('samfunnsfag-10:berekraftig-utvikling', 'Sirkulær økonomi', 'Ressursene holdes i kretsløp gjennom gjenbruk og resirkulering.', 10),
+  ('samfunnsfag-10:berekraftig-utvikling', 'Klimagass', 'Gass som forsterker drivhuseffekten, som CO₂ og metan.', 11),
+  ('samfunnsfag-10:berekraftig-utvikling', 'Avgift', 'Et virkemiddel staten kan bruke for å gjøre miljøskadelige varer dyrere.', 12),
+  ('samfunnsfag-10:berekraftig-utvikling', 'Dilemma', 'Et valg mellom to hensyn som begge er viktige.', 13),
+  ('samfunnsfag-10:berekraftig-utvikling', 'Kommende generasjoner', 'De som skal leve etter oss, og som bærekraft skal ta hensyn til.', 14);
+delete from public.quiz_sporsmal where tema_id = 'samfunnsfag-10:berekraftig-utvikling';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('samfunnsfag-10:berekraftig-utvikling', 'q01', 'flervalg', 'Hvem la fram definisjonen av bærekraftig utvikling i 1987?', array['FNs sikkerhetsråd', 'Brundtland-kommisjonen', 'EU', 'NATO']::text[], 1, 'Kommisjonen ble ledet av Gro Harlem Brundtland.', true, true, 0),
+  ('samfunnsfag-10:berekraftig-utvikling', 'q02', 'flervalg', 'Hvilke tre dimensjoner har bærekraftig utvikling?', array['Miljømessig, økonomisk og sosial', 'Politisk, militær og religiøs', 'Lokal, nasjonal og global', 'Fortid, nåtid og framtid']::text[], 0, 'Alle tre må ivaretas for at utviklingen skal være bærekraftig.', true, true, 1),
+  ('samfunnsfag-10:berekraftig-utvikling', 'q03', 'flervalg', 'Hvor mange bærekraftsmål vedtok FN i 2015?', array['5', '10', '17', '30']::text[], 2, 'Målene gjelder alle land og skal etter planen nås innen 2030.', true, true, 2),
+  ('samfunnsfag-10:berekraftig-utvikling', 'q04', 'flervalg', 'Hva er målet i Parisavtalen?', array['Å stoppe all bilkjøring', 'Å øke oljeproduksjonen', 'At alle land skal bli med i EU', 'Å begrense oppvarmingen til godt under 2 °C, helst 1,5 °C']::text[], 3, 'Landene skal kutte klimagassutslipp for å nå målet.', true, true, 3),
+  ('samfunnsfag-10:berekraftig-utvikling', 'q05', 'flervalg', 'Hvordan kan fattigdom påvirke miljøet?', array['Fattige mennesker kan bli tvunget til å hogge skog for å overleve', 'Fattigdom gir alltid renere natur', 'Fattigdom har ingen sammenheng med miljø', 'Fattigdom gir mindre avfall overalt']::text[], 0, 'Her påvirker den sosiale dimensjonen den miljømessige.', true, true, 4),
+  ('samfunnsfag-10:berekraftig-utvikling', 'q06', 'flervalg', 'Hva er sirkulær økonomi?', array['At pengene går i ring mellom bankene', 'At ressursene holdes i kretsløp gjennom gjenbruk og resirkulering', 'At alle varer lages av plast', 'At man bare handler lokalt']::text[], 1, 'Målet er at minst mulig blir til avfall.', true, true, 5),
+  ('samfunnsfag-10:berekraftig-utvikling', 'q07', 'flervalg', 'Hvilket tiltak kan en kommune gjøre for mer bærekraft?', array['Legge ned bussrutene', 'Bygge flere motorveier inn til sentrum', 'Øke antall parkeringsplasser', 'Satse på kollektivtransport og sykkelveier']::text[], 3, 'Det gjør det lettere for innbyggerne å reise uten bil.', true, true, 6),
+  ('samfunnsfag-10:berekraftig-utvikling', 'q08', 'flervalg', 'Hvorfor kan det å avvikle oljeindustrien være et dilemma?', array['Fordi det gir mer utslipp', 'Fordi det kan redusere utslipp, men gi tap av arbeidsplasser og inntekter', 'Fordi olje er fornybar', 'Det er ikke noe dilemma']::text[], 1, 'Miljøhensyn og økonomiske hensyn trekker i hver sin retning.', true, true, 7),
+  ('samfunnsfag-10:berekraftig-utvikling', 'q09', 'flervalg', 'Hva betyr det at klimaendringer har en sosial dimensjon?', array['At de ofte rammer de fattigste hardest', 'At de bare påvirker naturen', 'At de er gode for økonomien', 'At de bare skjer i rike land']::text[], 0, 'De fattigste har minst ressurser til å tilpasse seg tørke og flom.', true, false, 8),
+  ('samfunnsfag-10:berekraftig-utvikling', 'q10', 'flervalg', 'Hva kan du som enkeltperson gjøre for mer bærekraft?', array['Kjøpe mer og kaste oftere', 'Kjøre bil korte strekninger', 'Reparere, gjenbruke og reise kollektivt', 'Kaste avfall usortert']::text[], 2, 'Mange små valg til sammen kan utgjøre en forskjell.', true, false, 9),
+  ('samfunnsfag-10:berekraftig-utvikling', 'm01', 'sant-usant', 'Bærekraftig utvikling handler bare om miljø.', array['Sant', 'Usant']::text[], 1, 'Den handler også om økonomi og sosiale forhold.', false, true, 10),
+  ('samfunnsfag-10:berekraftig-utvikling', 'm02', 'sant-usant', 'FNs bærekraftsmål skal etter planen nås innen 2030.', array['Sant', 'Usant']::text[], 0, 'Målene ble vedtatt i 2015 med en frist på 15 år.', false, true, 11),
+  ('samfunnsfag-10:berekraftig-utvikling', 'm03', 'sant-usant', 'De aller fleste nye personbiler som selges i Norge, er elbiler.', array['Sant', 'Usant']::text[], 0, 'Avgiftsfordeler har gjort elbiler svært populære i Norge.', false, true, 12),
+  ('samfunnsfag-10:berekraftig-utvikling', 'm04', 'sant-usant', 'Miljøtiltak kan aldri komme i konflikt med økonomiske hensyn.', array['Sant', 'Usant']::text[], 1, 'Tiltak for miljøet kan for eksempel koste arbeidsplasser eller penger.', false, true, 13),
+  ('samfunnsfag-10:berekraftig-utvikling', 'm05', 'flervalg', 'Hva er fornybar energi?', array['Energi fra kilder som ikke tar slutt, som vann, vind og sol', 'Energi fra kull og olje', 'Energi som bare kan brukes én gang', 'Energi fra naturgass']::text[], 0, 'Fornybar energi gir lite klimagassutslipp i bruk.', false, true, 14),
+  ('samfunnsfag-10:berekraftig-utvikling', 'm06', 'flervalg', 'Hva betyr rovdrift?', array['At man sparer ressurser', 'At man planter trær', 'At ressurser brukes raskere enn de fornyes', 'At man resirkulerer']::text[], 2, 'Overfiske er et eksempel på rovdrift.', false, true, 15),
+  ('samfunnsfag-10:berekraftig-utvikling', 'm07', 'flervalg', 'Hva handler den sosiale dimensjonen om?', array['Bare om sosiale medier', 'Rettferdig fordeling, helse, utdanning og trygghet', 'Bare om økonomisk vekst', 'Bare om dyreliv']::text[], 1, 'Et bærekraftig samfunn må være rettferdig for alle.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('samfunnsfag-10:berekraftig-utvikling', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Samfunnsfag: Velferdsstaten og det politiske systemet
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('samfunnsfag-10:velferdsstaten', 'samfunnsfag-10', 'velferdsstaten', 'Velferdsstaten og det politiske systemet', 'Kjennetegn ved den norske velferdsstaten og den nordiske modellen, hvem som har ansvar for hva, hvordan velferden finansieres, og hvilke utfordringer den står overfor.', array[19]::int[], 4, 'sjekkes', array['Tallet på barn i familier med vedvarende lav inntekt (over 100 000) bør sjekkes mot siste tall fra SSB.']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('samfunnsfag-10:velferdsstaten', '## Hva er en velferdsstat?
+
+En **velferdsstat** er et samfunn der staten tar et stort ansvar for at alle innbyggerne har det trygt og godt. Det offentlige sørger for **utdanning**, **helsetjenester** og **økonomisk trygghet** når du blir syk, arbeidsløs, ufør eller gammel. Norge har en slik velferdsstat, og den ble i stor grad bygd opp etter andre verdenskrig. En milepæl var **folketrygden** i 1967.
+
+## Den nordiske modellen
+
+Norge, Sverige, Danmark, Finland og Island har mange likheter, ofte kalt **den nordiske modellen**:
+
+- **Universelle ordninger**: Mange goder gjelder alle, uansett inntekt, som gratis skole og barnetrygd.
+- **Høye skatter** som finansierer fellesskapet.
+- **Trepartssamarbeid** mellom staten, arbeidsgiverne og arbeidstakerne.
+- **Høy tillit** mellom folk og til myndighetene, og relativt **små økonomiske forskjeller**.
+
+## Viktige velferdsordninger
+
+- Gratis offentlig skole, og ingen skolepenger ved offentlige universiteter
+- Helsetjenester med fastlege og sykehus, der du betaler en begrenset **egenandel**
+- **Barnetrygd** og **foreldrepermisjon**
+- **Sykepenger**, **dagpenger** ved arbeidsløshet og **uføretrygd**
+- **Alderspensjon**
+- **Sosialhjelp** som siste sikkerhetsnett
+
+Mange av ordningene forvaltes av **NAV**.
+
+## Hvem gjør hva?
+
+Velferden leveres på tre nivåer:
+
+- **Kommunen**: barnehage, grunnskole, fastlege, hjemmetjeneste og sykehjem
+- **Fylkeskommunen**: videregående skole, kollektivtransport og fylkesveier
+- **Staten**: sykehus, politi, forsvar, universiteter og NAV
+
+## Hvordan betales velferden?
+
+Velferden finansieres først og fremst gjennom **skatter og avgifter**. I tillegg har Norge **Statens pensjonsfond utland**, ofte kalt **oljefondet**. Statens inntekter fra olje og gass settes inn i fondet, og **handlingsregelen** sier at staten over tid bare skal bruke omtrent den forventede avkastningen, ikke selve fondet.
+
+## Utfordringer
+
+- **Eldrebølgen**: Vi lever lenger, og det blir flere eldre per person i arbeid. Det gir større utgifter til pensjon og omsorg.
+- **Utenforskap**: Mange unge står utenfor både arbeid og utdanning.
+- **Økende forskjeller**: Over 100 000 barn vokser opp i familier med vedvarende lav inntekt.
+- **Press på helsevesenet**: mangel på helsepersonell og lange ventetider.
+- **Integrering** av innvandrere i arbeidslivet.
+- **Omstilling** fra olje og gass til nye næringer.
+
+## Å reflektere
+
+Partiene er uenige om løsningene. Noen vil ha mer offentlig ansvar og høyere skatt, andre vil ha mer privat konkurranse og lavere skatt. Et sentralt spørsmål er hvordan vi kan bevare velferden for framtidige generasjoner.', '{"label":"Velferdsstaten","children":[{"label":"Kjennetegn","children":[{"label":"Staten tar ansvar"},{"label":"Folketrygden","note":"1967"},{"label":"Universelle ordninger"}]},{"label":"Nordisk modell","children":[{"label":"Høy skatt"},{"label":"Trepartssamarbeid"},{"label":"Høy tillit"},{"label":"Små forskjeller"}]},{"label":"Ordninger","children":[{"label":"Skole og helse"},{"label":"Barnetrygd og permisjon"},{"label":"Syke- og dagpenger"},{"label":"Pensjon og NAV"}]},{"label":"Ansvar og penger","children":[{"label":"Kommune"},{"label":"Fylkeskommune"},{"label":"Stat"},{"label":"Skatt og oljefondet"}]},{"label":"Utfordringer","children":[{"label":"Eldrebølgen"},{"label":"Utenforskap"},{"label":"Forskjeller"},{"label":"Helsevesenet"},{"label":"Omstilling"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'samfunnsfag-10:velferdsstaten';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('samfunnsfag-10:velferdsstaten', 'Velferdsstat', 'Samfunn der staten tar stort ansvar for innbyggernes trygghet, helse og utdanning.', 0),
+  ('samfunnsfag-10:velferdsstaten', 'Folketrygden', 'Innført i 1967. Gir blant annet pensjon, sykepenger og uføretrygd.', 1),
+  ('samfunnsfag-10:velferdsstaten', 'Den nordiske modellen', 'Universelle ordninger, høy skatt, trepartssamarbeid, høy tillit og små forskjeller.', 2),
+  ('samfunnsfag-10:velferdsstaten', 'Universell ordning', 'Velferdsordning som gjelder alle, uansett inntekt.', 3),
+  ('samfunnsfag-10:velferdsstaten', 'Trepartssamarbeid', 'Samarbeid mellom staten, arbeidsgiverne og arbeidstakerne.', 4),
+  ('samfunnsfag-10:velferdsstaten', 'Egenandel', 'Den delen av prisen du selv betaler for en offentlig tjeneste.', 5),
+  ('samfunnsfag-10:velferdsstaten', 'Barnetrygd', 'Månedlig støtte til alle som har barn under 18 år.', 6),
+  ('samfunnsfag-10:velferdsstaten', 'Dagpenger', 'Økonomisk støtte når du er arbeidsløs.', 7),
+  ('samfunnsfag-10:velferdsstaten', 'Sykepenger', 'Erstatter lønnen når du er syk og ikke kan jobbe.', 8),
+  ('samfunnsfag-10:velferdsstaten', 'NAV', 'Arbeids- og velferdsforvaltningen, som forvalter mange velferdsordninger.', 9),
+  ('samfunnsfag-10:velferdsstaten', 'Kommunens oppgaver', 'Blant annet barnehage, grunnskole, fastlege og sykehjem.', 10),
+  ('samfunnsfag-10:velferdsstaten', 'Fylkeskommunens oppgaver', 'Blant annet videregående skole, kollektivtransport og fylkesveier.', 11),
+  ('samfunnsfag-10:velferdsstaten', 'Oljefondet', 'Statens pensjonsfond utland, der statens olje- og gassinntekter spares.', 12),
+  ('samfunnsfag-10:velferdsstaten', 'Handlingsregelen', 'Staten skal over tid bare bruke omtrent den forventede avkastningen av oljefondet.', 13),
+  ('samfunnsfag-10:velferdsstaten', 'Eldrebølgen', 'At andelen eldre øker, slik at det blir færre i arbeid per pensjonist.', 14);
+delete from public.quiz_sporsmal where tema_id = 'samfunnsfag-10:velferdsstaten';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('samfunnsfag-10:velferdsstaten', 'q01', 'flervalg', 'Hva er en velferdsstat?', array['Et samfunn der staten tar stort ansvar for innbyggernes trygghet og velferd', 'En stat uten skatter', 'En stat der alle er rike', 'En stat styrt av kongen']::text[], 0, 'Staten sørger blant annet for utdanning, helse og økonomisk trygghet.', true, true, 0),
+  ('samfunnsfag-10:velferdsstaten', 'q02', 'flervalg', 'Hva betyr det at en velferdsordning er universell?', array['At den bare gjelder fattige', 'At den gjelder alle, uansett inntekt', 'At den gjelder hele verden', 'At den er frivillig']::text[], 1, 'Barnetrygd og gratis skole er eksempler på universelle ordninger.', true, true, 1),
+  ('samfunnsfag-10:velferdsstaten', 'q03', 'flervalg', 'Hvilket forvaltningsnivå har ansvaret for videregående skole?', array['Kommunen', 'Staten', 'Fylkeskommunen', 'NAV']::text[], 2, 'Fylkeskommunen har også ansvar for kollektivtransport og fylkesveier.', true, true, 2),
+  ('samfunnsfag-10:velferdsstaten', 'q04', 'flervalg', 'Hva er trepartssamarbeidet?', array['Samarbeid mellom tre politiske partier', 'Samarbeid mellom Norge, Sverige og Danmark', 'Samarbeid mellom tre kommuner', 'Samarbeid mellom staten, arbeidsgiverne og arbeidstakerne']::text[], 3, 'Samarbeidet er et viktig kjennetegn ved den nordiske modellen.', true, true, 3),
+  ('samfunnsfag-10:velferdsstaten', 'q05', 'flervalg', 'Hva er eldrebølgen?', array['At det blir flere eldre per person i arbeid', 'At eldre flytter til utlandet', 'At pensjonsalderen senkes', 'At det blir færre eldre']::text[], 0, 'Vi lever lenger, og store årskull går av med pensjon.', true, true, 4),
+  ('samfunnsfag-10:velferdsstaten', 'q06', 'flervalg', 'Hva sier handlingsregelen?', array['At all oljeformuen skal brukes med en gang', 'At staten over tid bare skal bruke omtrent den forventede avkastningen av oljefondet', 'At oljen skal selges til Sverige', 'At skatten skal fjernes']::text[], 1, 'Slik skal også framtidige generasjoner få glede av oljeinntektene.', true, true, 5),
+  ('samfunnsfag-10:velferdsstaten', 'q07', 'flervalg', 'Hvem har ansvaret for fastlege og sykehjem?', array['Staten', 'Fylkeskommunen', 'Private bedrifter', 'Kommunen']::text[], 3, 'Kommunen har ansvar for de fleste nære tjenestene til innbyggerne.', true, true, 6),
+  ('samfunnsfag-10:velferdsstaten', 'q08', 'flervalg', 'Hvordan finansieres velferdsstaten først og fremst?', array['Gjennom skatter og avgifter', 'Gjennom lotteri', 'Gjennom lån fra andre land', 'Gjennom frivillige gaver']::text[], 0, 'Oljefondet bidrar også, men skatter og avgifter er den viktigste kilden.', true, true, 7),
+  ('samfunnsfag-10:velferdsstaten', 'q09', 'flervalg', 'Hva er dagpenger?', array['Penger du får hver dag på skolen', 'Lommepenger fra foreldre', 'Økonomisk støtte når du er arbeidsløs', 'Lønn for overtid']::text[], 2, 'Dagpenger skal gi trygghet mens man søker ny jobb.', true, false, 8),
+  ('samfunnsfag-10:velferdsstaten', 'q10', 'flervalg', 'Hvilken utfordring handler om unge som står utenfor både arbeid og utdanning?', array['Eldrebølgen', 'Utenforskap', 'Sentralisering', 'Inflasjon']::text[], 1, 'Utenforskap er kostbart for samfunnet og vanskelig for den enkelte.', true, false, 9),
+  ('samfunnsfag-10:velferdsstaten', 'm01', 'sant-usant', 'Folketrygden ble innført i 1967.', array['Sant', 'Usant']::text[], 0, 'Folketrygden samlet flere trygdeordninger i én.', false, true, 10),
+  ('samfunnsfag-10:velferdsstaten', 'm02', 'sant-usant', 'I Norge må alle betale full pris for sykehusbehandling.', array['Sant', 'Usant']::text[], 1, 'Sykehusbehandling er i hovedsak gratis, og egenandelene har et tak.', false, true, 11),
+  ('samfunnsfag-10:velferdsstaten', 'm03', 'sant-usant', 'Den nordiske modellen kjennetegnes av høy tillit og relativt små forskjeller.', array['Sant', 'Usant']::text[], 0, 'Tillit gjør det lettere å samarbeide og å kreve inn skatt.', false, true, 12),
+  ('samfunnsfag-10:velferdsstaten', 'm04', 'sant-usant', 'Alle politiske partier er enige om hvordan velferdsstaten skal utvikles.', array['Sant', 'Usant']::text[], 1, 'Partiene er uenige om blant annet skatt, privatisering og hvor mye staten skal gjøre.', false, true, 13),
+  ('samfunnsfag-10:velferdsstaten', 'm05', 'flervalg', 'Hvilken etat forvalter mange av velferdsordningene, som dagpenger og pensjon?', array['Skatteetaten', 'NAV', 'Politiet', 'Datatilsynet']::text[], 1, 'NAV ble opprettet i 2006.', false, true, 14),
+  ('samfunnsfag-10:velferdsstaten', 'm06', 'flervalg', 'Hva er en egenandel?', array['Den delen av prisen du selv betaler for en offentlig tjeneste', 'En skatt på eiendom', 'En del av lønnen', 'En type trygd']::text[], 0, 'Du betaler for eksempel en egenandel hos fastlegen.', false, true, 15),
+  ('samfunnsfag-10:velferdsstaten', 'm07', 'flervalg', 'Hvorfor gir eldrebølgen utfordringer for velferdsstaten?', array['Eldre betaler mer skatt enn andre', 'Det blir færre sykehjem', 'Utgiftene til pensjon og omsorg øker, mens det blir færre i arbeid per pensjonist', 'Eldre trenger ikke helsetjenester']::text[], 2, 'Færre skal betale for velferden til flere.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('samfunnsfag-10:velferdsstaten', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Samfunnsfag: Mangfold, fordommer og framstillinger
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('samfunnsfag-10:mangfold-og-fordommer', 'samfunnsfag-10', 'mangfold-og-fordommer', 'Mangfold, fordommer og framstillinger', 'Likheter og ulikheter i identitet, levesett og kultur, muligheter og utfordringer ved mangfold, og hvordan framstillinger av fortiden og av grupper påvirker holdninger og handlinger.', array[13, 3]::int[], 5, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('samfunnsfag-10:mangfold-og-fordommer', '## Identitet, levesett og kultur
+
+Mennesker er både **like** og **ulike**. Vi har mange av de samme behovene og drømmene, men skiller oss fra hverandre i **identitet**, **levesett** og **kulturuttrykk**. **Kultur** er kunnskap, verdier, normer, tradisjoner og språk som en gruppe deler. **Kulturuttrykk** er måter kulturen vises på, som musikk, mat, klær, kunst, religion og høytider. Kultur endrer seg hele tiden, og de fleste er preget av flere kulturer samtidig.
+
+## Mangfold i Norge
+
+Norge har alltid hatt et **mangfold**: samer, nasjonale minoriteter, ulike dialekter og forskjeller mellom by og land. I dag er omtrent én av fem innbyggere enten innvandrer eller født i Norge med innvandrerforeldre. Mangfoldet gjelder også religion, livssyn, seksuell orientering, kjønnsidentitet og funksjonsevne.
+
+Mangfold kan gi **muligheter**: nye perspektiver og ideer, flere språk og kontakter i verden, arbeidskraft og et rikere kulturliv. Det kan også gi **utfordringer**: misforståelser, uenighet om verdier, utenforskap og **diskriminering**.
+
+## Holdninger til andre
+
+- **Etnosentrisme** er å bedømme andre kulturer ut fra ens egen og se på sin egen som best.
+- **Kulturrelativisme** er å forsøke å forstå en kultur ut fra dens egne forutsetninger. Tatt helt ut kan det føre til at man godtar brudd på menneskerettighetene.
+- **Stereotypier** er forenklede bilder av en gruppe, som «alle fra X er …».
+- **Fordommer** er negative holdninger til en gruppe uten god kunnskap.
+- **Diskriminering** er når noen blir behandlet dårligere på grunn av hvem de er, for eksempel når de søker jobb eller bolig. Det er forbudt ved lov.
+- **Rasisme** er ideen om at noen er mindre verdt på grunn av hudfarge eller etnisk bakgrunn.
+
+## Integrering
+
+**Integrering** betyr at minoriteter deltar i samfunnet, for eksempel i skole og arbeidsliv, samtidig som de kan beholde sin egen kultur. **Assimilering** er når minoriteten må gi opp sin kultur og bli lik majoriteten, slik det skjedde under fornorskingen. **Segregering** er når grupper lever atskilt.
+
+## Framstillinger påvirker holdninger
+
+Hvordan fortiden, hendelser og grupper blir **framstilt** i lærebøker, filmer, nyheter og sosiale medier, påvirker hvordan folk tenker og handler:
+
+- Nazistisk propaganda framstilte jøder som farlige og bidro til Holocaust.
+- Eldre lærebøker og utstillinger framstilte samer og folk i koloniene som «primitive», og det ble brukt til å forsvare undertrykkelse.
+- Når nyheter om en gruppe mest handler om kriminalitet eller konflikt, kan fordommene øke.
+- Hvilke historier som løftes fram i minnesmerker, filmer og bøker, påvirker hvem vi ser på som helter og ofre.
+
+Forfatteren Chimamanda Ngozi Adichie har advart mot **faren ved én enkelt historie**: Når vi bare hører én fortelling om en gruppe, blir bildet forenklet. Derfor er det viktig å spørre hvem som forteller, hvem som mangler, og hvilket bilde fortellingen skaper.', '{"label":"Mangfold og fordommer","children":[{"label":"Kultur og identitet","children":[{"label":"Likheter og ulikheter"},{"label":"Kulturuttrykk"},{"label":"Kultur endrer seg"}]},{"label":"Mangfold i Norge","children":[{"label":"Samer og minoriteter"},{"label":"Innvandring"},{"label":"Religion og livssyn"},{"label":"Muligheter og utfordringer"}]},{"label":"Holdninger","children":[{"label":"Etnosentrisme"},{"label":"Kulturrelativisme"},{"label":"Stereotypier og fordommer"},{"label":"Diskriminering og rasisme"}]},{"label":"Samfunnet","children":[{"label":"Integrering"},{"label":"Assimilering"},{"label":"Segregering"}]},{"label":"Framstillinger","children":[{"label":"Propaganda"},{"label":"Lærebøker og utstillinger"},{"label":"Nyheter"},{"label":"Én enkelt historie"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'samfunnsfag-10:mangfold-og-fordommer';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('samfunnsfag-10:mangfold-og-fordommer', 'Kultur', 'Kunnskap, verdier, normer, tradisjoner og språk som en gruppe deler.', 0),
+  ('samfunnsfag-10:mangfold-og-fordommer', 'Kulturuttrykk', 'Måter kulturen vises på, som musikk, mat, klær, kunst og høytider.', 1),
+  ('samfunnsfag-10:mangfold-og-fordommer', 'Mangfold', 'At mennesker i et samfunn er ulike i blant annet kultur, religion og identitet.', 2),
+  ('samfunnsfag-10:mangfold-og-fordommer', 'Majoritet', 'Den største gruppen i et samfunn.', 3),
+  ('samfunnsfag-10:mangfold-og-fordommer', 'Minoritet', 'En mindre gruppe som skiller seg fra majoriteten, for eksempel i språk eller religion.', 4),
+  ('samfunnsfag-10:mangfold-og-fordommer', 'Etnosentrisme', 'Å bedømme andre kulturer ut fra ens egen og se på sin egen som best.', 5),
+  ('samfunnsfag-10:mangfold-og-fordommer', 'Kulturrelativisme', 'Å forstå en kultur ut fra dens egne forutsetninger.', 6),
+  ('samfunnsfag-10:mangfold-og-fordommer', 'Stereotypi', 'Forenklet bilde av en gruppe.', 7),
+  ('samfunnsfag-10:mangfold-og-fordommer', 'Fordom', 'Negativ holdning til en gruppe uten god kunnskap.', 8),
+  ('samfunnsfag-10:mangfold-og-fordommer', 'Diskriminering', 'Å behandle noen dårligere på grunn av hvem de er. Forbudt ved lov.', 9),
+  ('samfunnsfag-10:mangfold-og-fordommer', 'Rasisme', 'Ideen om at noen er mindre verdt på grunn av hudfarge eller etnisk bakgrunn.', 10),
+  ('samfunnsfag-10:mangfold-og-fordommer', 'Integrering', 'Minoriteter deltar i samfunnet og kan samtidig beholde sin kultur.', 11),
+  ('samfunnsfag-10:mangfold-og-fordommer', 'Assimilering', 'Minoriteten må gi opp sin kultur og bli lik majoriteten.', 12),
+  ('samfunnsfag-10:mangfold-og-fordommer', 'Segregering', 'At grupper lever atskilt fra hverandre.', 13),
+  ('samfunnsfag-10:mangfold-og-fordommer', 'Faren ved én enkelt historie', 'Adichies advarsel om at én fortelling om en gruppe gir et forenklet bilde.', 14);
+delete from public.quiz_sporsmal where tema_id = 'samfunnsfag-10:mangfold-og-fordommer';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('samfunnsfag-10:mangfold-og-fordommer', 'q01', 'flervalg', 'Hva er etnosentrisme?', array['Å bedømme andre kulturer ut fra ens egen og se på sin egen som best', 'Å lære mange språk', 'Å reise mye', 'Å forstå andre kulturer ut fra deres egne forutsetninger']::text[], 0, 'Det siste alternativet beskriver kulturrelativisme.', true, true, 0),
+  ('samfunnsfag-10:mangfold-og-fordommer', 'q02', 'flervalg', 'Hva er forskjellen på en fordom og diskriminering?', array['Det er ingen forskjell', 'En fordom er en holdning, diskriminering er en handling', 'Diskriminering er en holdning, en fordom er en handling', 'Fordommer er alltid positive']::text[], 1, 'Når fordommer påvirker hvordan vi behandler andre, blir det diskriminering.', true, true, 1),
+  ('samfunnsfag-10:mangfold-og-fordommer', 'q03', 'flervalg', 'Hva betyr integrering?', array['At minoriteten må gi opp sin kultur', 'At grupper lever atskilt', 'At minoriteter deltar i samfunnet og samtidig kan beholde sin kultur', 'At alle må flytte']::text[], 2, 'Integrering skiller seg fra assimilering, der man må gi opp sin kultur.', true, true, 2),
+  ('samfunnsfag-10:mangfold-og-fordommer', 'q04', 'flervalg', 'Hva er et eksempel på kulturuttrykk?', array['En lov', 'Et politisk parti', 'En type skatt', 'Musikk, mat, klær eller høytider']::text[], 3, 'Kulturuttrykk er måter kulturen vises på.', true, true, 3),
+  ('samfunnsfag-10:mangfold-og-fordommer', 'q05', 'flervalg', 'Hva er en stereotypi?', array['Et forenklet bilde av en gruppe', 'En type musikk', 'En vitenskapelig undersøkelse', 'Et lydanlegg']::text[], 0, 'Stereotypier overser at mennesker i en gruppe er forskjellige.', true, true, 4),
+  ('samfunnsfag-10:mangfold-og-fordommer', 'q06', 'flervalg', 'Hvordan kan framstillinger i nyhetene påvirke holdninger?', array['De påvirker ikke holdninger', 'Ensidig dekning av en gruppe kan forsterke fordommer', 'De gjør alltid folk mer tolerante', 'De bestemmer lovene direkte']::text[], 1, 'Hvis vi mest hører negative historier om en gruppe, kan bildet bli skjevt.', true, true, 5),
+  ('samfunnsfag-10:mangfold-og-fordommer', 'q07', 'flervalg', 'Hva var fornorskingen av samer og kvener et eksempel på?', array['Integrering', 'Segregering', 'Assimilering', 'Kulturrelativisme']::text[], 2, 'Minoritetene skulle gi opp språk og kultur og bli «norske».', true, true, 6),
+  ('samfunnsfag-10:mangfold-og-fordommer', 'q08', 'flervalg', 'Hva er en mulighet ved mangfold?', array['Flere misforståelser', 'Mindre kontakt med verden', 'Mer diskriminering', 'Nye perspektiver og ideer']::text[], 3, 'Ulike erfaringer kan gi nye løsninger og et rikere samfunn.', true, true, 7),
+  ('samfunnsfag-10:mangfold-og-fordommer', 'q09', 'flervalg', 'Hva mener Adichie med «faren ved én enkelt historie»?', array['At bare én fortelling om en gruppe gir et forenklet bilde', 'At historie er et farlig fag', 'At man bare skal lese én bok', 'At alle historier er løgn']::text[], 0, 'Flere fortellinger gir et mer sammensatt og riktig bilde.', true, false, 8),
+  ('samfunnsfag-10:mangfold-og-fordommer', 'q10', 'flervalg', 'Hvilken utfordring kan en ekstrem kulturrelativisme føre med seg?', array['At man ikke lærer om andre', 'At man godtar brudd på menneskerettighetene', 'At man blir etnosentrisk', 'At man ikke reiser']::text[], 1, 'Menneskerettighetene gjelder alle, uansett kultur.', true, false, 9),
+  ('samfunnsfag-10:mangfold-og-fordommer', 'm01', 'sant-usant', 'Kultur er noe som aldri endrer seg.', array['Sant', 'Usant']::text[], 1, 'Kultur endrer seg hele tiden gjennom kontakt med andre og nye ideer.', false, true, 10),
+  ('samfunnsfag-10:mangfold-og-fordommer', 'm02', 'sant-usant', 'Omtrent én av fem innbyggere i Norge er innvandrer eller født i Norge med innvandrerforeldre.', array['Sant', 'Usant']::text[], 0, 'Andelen har økt mye siden 1970-tallet.', false, true, 11),
+  ('samfunnsfag-10:mangfold-og-fordommer', 'm03', 'sant-usant', 'Nazistisk propaganda framstilte jøder negativt for å skape støtte til forfølgelsen.', array['Sant', 'Usant']::text[], 0, 'Propagandaen avhumaniserte jøder og gjorde forfølgelsen lettere å godta.', false, true, 12),
+  ('samfunnsfag-10:mangfold-og-fordommer', 'm04', 'sant-usant', 'Det er lov å avvise en jobbsøker på grunn av hudfarge.', array['Sant', 'Usant']::text[], 1, 'Diskriminering på grunn av etnisitet er forbudt etter likestillings- og diskrimineringsloven.', false, true, 13),
+  ('samfunnsfag-10:mangfold-og-fordommer', 'm05', 'flervalg', 'Hva er segregering?', array['At grupper lever atskilt fra hverandre', 'At alle blir like', 'At man lærer et nytt språk', 'At man flytter til byen']::text[], 0, 'Segregering kan skje gjennom lover eller gjennom bosettingsmønstre.', false, true, 14),
+  ('samfunnsfag-10:mangfold-og-fordommer', 'm06', 'flervalg', 'Hva er rasisme?', array['Kritikk av politikere', 'Ideen om at noen er mindre verdt på grunn av hudfarge eller etnisk bakgrunn', 'Interesse for andre kulturer', 'Et sportsbegrep']::text[], 1, 'Rasisme bryter med prinsippet om at alle mennesker er likeverdige.', false, true, 15),
+  ('samfunnsfag-10:mangfold-og-fordommer', 'm07', 'flervalg', 'Hvilket spørsmål er nyttig når du vurderer en framstilling av en gruppe?', array['Hvor lang er teksten?', 'Hvilken skrifttype er brukt?', 'Hvem forteller, og hvem mangler?', 'Hvor mange bilder har den?']::text[], 2, 'Avsender og manglende stemmer sier mye om hvilket bilde som skapes.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('samfunnsfag-10:mangfold-og-fordommer', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Samfunnsfag: Makt, medier og digital debatt
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('samfunnsfag-10:makt-og-medier', 'samfunnsfag-10', 'makt-og-medier', 'Makt, medier og digital debatt', 'Hvem som har makt i samfunnet i dag og hvordan de argumenterer, hvordan mediene og digitale plattformer former samfunnsdebatten, og hvordan du vurderer kilder kritisk.', array[16, 17, 2]::int[], 6, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('samfunnsfag-10:makt-og-medier', '## Hva er makt?
+
+**Makt** er evnen til å få andre til å gjøre noe de ellers ikke ville gjort, eller til å påvirke utviklingen i samfunnet. Makt kan være **politisk** (å vedta lover), **økonomisk** (å eie og investere), **kunnskapsmakt** (å være ekspert) og **mediemakt** (å bestemme hva folk får vite om, og hvordan).
+
+## Hvem har makt i dag?
+
+- **Stortinget og regjeringen** har den formelle politiske makten, og **domstolene** kan sette grenser for den.
+- **Interesseorganisasjoner**, som LO, NHO og miljøorganisasjoner, påvirker gjennom forhandlinger, høringer og kampanjer. **Lobbyister** prøver å påvirke politikere på vegne av bedrifter og organisasjoner.
+- **Næringslivet** har makt gjennom arbeidsplasser og investeringer.
+- **Internasjonale teknologiselskaper** som eier sosiale medier og søkemotorer, bestemmer gjennom algoritmene hva milliarder av mennesker ser.
+- **Mediene** setter dagsorden og avslører maktmisbruk, og **influensere** kan nå mange raskt.
+- Gjennom **EØS-avtalen** får regler vedtatt i EU også betydning i Norge.
+
+## Hvordan grunngir aktørene standpunktene sine?
+
+Aktører bruker ulike argumenter: **verdier** (frihet, likhet, solidaritet, trygghet), **fakta og forskning**, **konsekvenser** og **egeninteresse**. I retorikken skilles det mellom **etos** (troverdighet), **patos** (følelser) og **logos** (fornuft og fakta). Når du vurderer et utspill, bør du spørre: Hvem er avsenderen, hvilke interesser har de, og hvilke argumenter mangler?
+
+## Redaktørstyrte medier
+
+Aviser, radio og TV med en ansvarlig **redaktør** følger de presseetiske reglene i **Vær Varsom-plakaten**, og klager kan behandles av **Pressens Faglige Utvalg** (PFU). Mediene skal være samfunnets **vaktbikkje**. Samtidig påvirker de oss gjennom hvilke saker de velger (**dagsorden**) og hvordan de vinkler dem.
+
+## Digital deltakelse og samfunnsdebatten
+
+På sosiale medier kan alle delta, og nye stemmer blir hørt. Men plattformene påvirker både **formen** og **innholdet** i debatten:
+
+- Formen blir kort, visuell og følelsesladd, med memes og korte videoer.
+- **Algoritmer** belønner engasjement, og det kan fremme spisse og polariserende utspill.
+- **Desinformasjon** og **KI-lagede** bilder og videoer (deepfakes) kan spre seg raskt.
+- **Filterbobler** gjør at vi mest møter meninger vi allerede er enige i.
+- Hets kan skremme folk bort fra debatten.
+
+## Kildekritikk
+
+Kilder gir informasjon på ulike måter: som fakta, meninger, statistikk eller personlige erfaringer. **Ensrettede kilder** viser bare én side, og **mangel på kilder** kan gi et skjevt bilde. Gode vaner er å sjekke hvem som står bak kilden, når og hvorfor den ble laget, sammenligne flere kilder og bruke faktasjekk-tjenester som **Faktisk.no**.', '{"label":"Makt og medier","children":[{"label":"Makt","children":[{"label":"Politisk"},{"label":"Økonomisk"},{"label":"Kunnskap"},{"label":"Medier"}]},{"label":"Aktører","children":[{"label":"Storting og regjering"},{"label":"Organisasjoner og lobbyister"},{"label":"Næringsliv og techselskaper"},{"label":"Medier og influensere"},{"label":"EU gjennom EØS"}]},{"label":"Argumentasjon","children":[{"label":"Verdier og interesser"},{"label":"Etos"},{"label":"Patos"},{"label":"Logos"}]},{"label":"Digital debatt","children":[{"label":"Lav terskel"},{"label":"Algoritmer og polarisering"},{"label":"Desinformasjon og deepfakes"},{"label":"Filterbobler"}]},{"label":"Kildekritikk","children":[{"label":"Avsender og formål"},{"label":"Flere kilder"},{"label":"Faktasjekk"},{"label":"Redaktørstyrte medier"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'samfunnsfag-10:makt-og-medier';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('samfunnsfag-10:makt-og-medier', 'Makt', 'Evnen til å få andre til å gjøre noe eller påvirke utviklingen i samfunnet.', 0),
+  ('samfunnsfag-10:makt-og-medier', 'Politisk makt', 'Makt til å vedta lover og budsjetter.', 1),
+  ('samfunnsfag-10:makt-og-medier', 'Økonomisk makt', 'Makt gjennom eierskap, investeringer og arbeidsplasser.', 2),
+  ('samfunnsfag-10:makt-og-medier', 'Mediemakt', 'Makt til å bestemme hva folk får vite om, og hvordan det framstilles.', 3),
+  ('samfunnsfag-10:makt-og-medier', 'Lobbyisme', 'Å prøve å påvirke politikere på vegne av bedrifter eller organisasjoner.', 4),
+  ('samfunnsfag-10:makt-og-medier', 'Etos', 'Appell til avsenderens troverdighet.', 5),
+  ('samfunnsfag-10:makt-og-medier', 'Patos', 'Appell til følelser.', 6),
+  ('samfunnsfag-10:makt-og-medier', 'Logos', 'Appell til fornuft, fakta og logikk.', 7),
+  ('samfunnsfag-10:makt-og-medier', 'Redaktørstyrte medier', 'Medier med en ansvarlig redaktør som følger presseetiske regler.', 8),
+  ('samfunnsfag-10:makt-og-medier', 'Vær Varsom-plakaten', 'Presseetiske regler for norske medier.', 9),
+  ('samfunnsfag-10:makt-og-medier', 'PFU', 'Pressens Faglige Utvalg, som behandler klager på medier.', 10),
+  ('samfunnsfag-10:makt-og-medier', 'Dagsorden', 'Hvilke saker som får oppmerksomhet i samfunnet.', 11),
+  ('samfunnsfag-10:makt-og-medier', 'Desinformasjon', 'Bevisst falsk eller villedende informasjon.', 12),
+  ('samfunnsfag-10:makt-og-medier', 'Deepfake', 'KI-laget bilde eller video som ser ekte ut.', 13),
+  ('samfunnsfag-10:makt-og-medier', 'Faktasjekk', 'Å undersøke om en påstand stemmer, for eksempel med Faktisk.no.', 14);
+delete from public.quiz_sporsmal where tema_id = 'samfunnsfag-10:makt-og-medier';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('samfunnsfag-10:makt-og-medier', 'q01', 'flervalg', 'Hva er makt?', array['Evnen til å påvirke andre eller utviklingen i samfunnet', 'Å ha mange venner', 'Å være fysisk sterk', 'Å ha mye fritid']::text[], 0, 'Makt kan være politisk, økonomisk, kunnskapsbasert eller knyttet til medier.', true, true, 0),
+  ('samfunnsfag-10:makt-og-medier', 'q02', 'flervalg', 'Hva gjør en lobbyist?', array['Dømmer i rettssaker', 'Prøver å påvirke politikere på vegne av bedrifter eller organisasjoner', 'Skriver nyheter', 'Teller stemmer']::text[], 1, 'Lobbyisme er lovlig, men åpenhet om hvem som påvirker, er viktig i et demokrati.', true, true, 1),
+  ('samfunnsfag-10:makt-og-medier', 'q03', 'flervalg', 'Hvilken appellform bygger på følelser?', array['Etos', 'Logos', 'Patos', 'Ingen av dem']::text[], 2, 'Patos spiller for eksempel på medfølelse, frykt eller sinne.', true, true, 2),
+  ('samfunnsfag-10:makt-og-medier', 'q04', 'flervalg', 'Hvorfor har internasjonale teknologiselskaper stor makt?', array['Fordi de vedtar norske lover', 'Fordi de eier alle aviser', 'Fordi de styrer domstolene', 'Fordi algoritmene deres bestemmer hva milliarder ser']::text[], 3, 'Algoritmene påvirker hvilke nyheter og meninger vi møter.', true, true, 3),
+  ('samfunnsfag-10:makt-og-medier', 'q05', 'flervalg', 'Hva er Vær Varsom-plakaten?', array['Presseetiske regler for redaktørstyrte medier', 'En trafikkregel', 'En lov om sosiale medier', 'En plakat i klasserommet']::text[], 0, 'Reglene handler blant annet om kildebruk, personvern og retten til å svare på kritikk.', true, true, 4),
+  ('samfunnsfag-10:makt-og-medier', 'q06', 'flervalg', 'Hvordan kan algoritmer påvirke formen på samfunnsdebatten?', array['De gjør innleggene lengre og roligere', 'De belønner engasjement og kan fremme spisse utspill', 'De fjerner alle meninger', 'De har ingen påvirkning']::text[], 1, 'Innlegg som vekker sterke følelser, får ofte mest spredning.', true, true, 5),
+  ('samfunnsfag-10:makt-og-medier', 'q07', 'flervalg', 'Hva er en deepfake?', array['En falsk nyhetsavis', 'En type datavirus', 'Et KI-laget bilde eller en video som ser ekte ut', 'En hemmelig chat']::text[], 2, 'Deepfakes kan brukes til å spre desinformasjon.', true, true, 6),
+  ('samfunnsfag-10:makt-og-medier', 'q08', 'flervalg', 'Hva betyr det at mediene setter dagsorden?', array['At de bestemmer lovene', 'At de lager timeplaner', 'At de velger politikere', 'At de påvirker hvilke saker folk snakker om']::text[], 3, 'Det mediene skriver mye om, blir ofte det politikerne må svare på.', true, true, 7),
+  ('samfunnsfag-10:makt-og-medier', 'q09', 'flervalg', 'Hvilket spørsmål er viktig når du vurderer et politisk utspill?', array['Hvem er avsenderen, og hvilke interesser har de?', 'Hvor mange liker innlegget?', 'Hvilken farge har logoen?', 'Hvor lang er teksten?']::text[], 0, 'Interessene til avsenderen kan påvirke hvilke argumenter som brukes.', true, false, 8),
+  ('samfunnsfag-10:makt-og-medier', 'q10', 'flervalg', 'Hva er en ensrettet kilde?', array['En kilde med mange perspektiver', 'En kilde som bare viser én side av en sak', 'En offentlig statistikk', 'En kilde som er oppdatert']::text[], 1, 'Ensrettede kilder bør suppleres med andre kilder.', true, false, 9),
+  ('samfunnsfag-10:makt-og-medier', 'm01', 'sant-usant', 'Regler vedtatt i EU kan få betydning i Norge gjennom EØS-avtalen.', array['Sant', 'Usant']::text[], 0, 'Norge er ikke medlem av EU, men må ta inn mange EU-regler gjennom EØS.', false, true, 10),
+  ('samfunnsfag-10:makt-og-medier', 'm02', 'sant-usant', 'Alt som deles på sosiale medier, følger presseetiske regler.', array['Sant', 'Usant']::text[], 1, 'Bare redaktørstyrte medier er bundet av Vær Varsom-plakaten.', false, true, 11),
+  ('samfunnsfag-10:makt-og-medier', 'm03', 'sant-usant', 'Mangel på kilder kan gi et skjevt bilde av en sak.', array['Sant', 'Usant']::text[], 0, 'Stemmer som mangler, kan gjøre at bildet blir ufullstendig.', false, true, 12),
+  ('samfunnsfag-10:makt-og-medier', 'm04', 'sant-usant', 'Et argument som bygger på følelser, kalles logos.', array['Sant', 'Usant']::text[], 1, 'Følelsesargumenter kalles patos. Logos bygger på fornuft og fakta.', false, true, 13),
+  ('samfunnsfag-10:makt-og-medier', 'm05', 'flervalg', 'Hvor kan du klage hvis en avis bryter god presseskikk?', array['Pressens Faglige Utvalg (PFU)', 'Datatilsynet', 'Stortinget', 'NAV']::text[], 0, 'PFU vurderer om mediene har fulgt Vær Varsom-plakaten.', false, true, 14),
+  ('samfunnsfag-10:makt-og-medier', 'm06', 'flervalg', 'Hva er desinformasjon?', array['Korrekte nyheter', 'Bevisst falsk eller villedende informasjon', 'Reklame', 'Statistikk']::text[], 1, 'Desinformasjon spres med vilje for å villede.', false, true, 15),
+  ('samfunnsfag-10:makt-og-medier', 'm07', 'flervalg', 'Hva er etos?', array['Et argument basert på statistikk', 'Et argument som spiller på frykt', 'Troverdigheten til avsenderen', 'En type kilde']::text[], 2, 'Vi lytter gjerne mer til en avsender vi opplever som troverdig og kunnskapsrik.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('samfunnsfag-10:makt-og-medier', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- KRLE (10): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'krle-10';
 
 -- Kjemi 1 (vg2): rydd bort fjernede temaer
 delete from public.temaer where fag_id = 'kjemi-1' and slug not in ('atomet-og-periodesystemet', 'kjemisk-binding', 'formler-og-navnsetting', 'stoffmengde-og-stokiometri', 'reaksjonstyper-og-redoks', 'losninger-og-konsentrasjon', 'syrer-baser-og-ph', 'energi-og-entalpi', 'reaksjonsfart-og-likevekt', 'titrering-og-spektroskopi', 'gronn-kjemi');
