@@ -1,0 +1,90 @@
+{
+  "id": "engelsk-vg1",
+  "trinnId": "vg1",
+  "name": "Engelsk",
+  "lareplan": {
+    "kode": "ENG01-06",
+    "url": "https://www.udir.no/lk20/eng01-06/kompetansemaal-og-vurdering/kv1035",
+    "kompetansemaal": [
+      {
+        "nr": 1,
+        "tekst": "bruke egnede strategier i språklæring, tekstskaping og kommunikasjon"
+      },
+      {
+        "nr": 2,
+        "tekst": "bruke egnede digitale ressurser og andre hjelpemidler i språklæring, tekstskaping og samhandling"
+      },
+      {
+        "nr": 3,
+        "tekst": "bruke mønstre for uttale i kommunikasjon"
+      },
+      {
+        "nr": 4,
+        "tekst": "lytte til, forstå og bruke akademisk språk i arbeid med egne muntlige og skriftlige tekster"
+      },
+      {
+        "nr": 5,
+        "tekst": "uttrykke seg nyansert og presist med flyt og sammenheng, idiomatiske uttrykk og varierte setningsstrukturer tilpasset formål, mottaker og situasjon"
+      },
+      {
+        "nr": 6,
+        "tekst": "gjøre rede for andres argumentasjon og bruke og følge opp andres innspill i samtaler og diskusjoner om ulike emner"
+      },
+      {
+        "nr": 7,
+        "tekst": "bruke kunnskap om sammenhenger mellom engelsk og andre språk eleven kjenner til i egen språklæring"
+      },
+      {
+        "nr": 8,
+        "tekst": "bruke kunnskap om grammatikk og tekststruktur i arbeid med egne muntlige og skriftlige tekster"
+      },
+      {
+        "nr": 9,
+        "tekst": "lese, diskutere og reflektere over innhold og virkemidler i ulike typer tekster, inkludert selvvalgte tekster"
+      },
+      {
+        "nr": 10,
+        "tekst": "lese, analysere og tolke engelskspråklig skjønnlitteratur"
+      },
+      {
+        "nr": 11,
+        "tekst": "lese og sammenligne ulike sakprosatekster om samme emne fra forskjellige kilder og kritisk vurdere hvor pålitelige kildene er"
+      },
+      {
+        "nr": 12,
+        "tekst": "bruke ulike kilder på en kritisk, hensiktsmessig og etterrettelig måte"
+      },
+      {
+        "nr": 13,
+        "tekst": "skrive ulike typer formelle og uformelle tekster, inkludert sammensatte, med struktur og sammenheng som beskriver, diskuterer, begrunner og reflekterer tilpasset formål, mottaker og situasjon"
+      },
+      {
+        "nr": 14,
+        "tekst": "vurdere og bearbeide egne tekster ut fra faglige kriterier og kunnskap om språk"
+      },
+      {
+        "nr": 15,
+        "tekst": "beskrive sentrale trekk ved framveksten av engelsk som verdensspråk"
+      },
+      {
+        "nr": 16,
+        "tekst": "utforske og reflektere over mangfold og samfunnsforhold i den engelskspråklige verden ut fra historiske sammenhenger"
+      },
+      {
+        "nr": 17,
+        "tekst": "diskutere og reflektere over form, innhold og virkemidler i engelskspråklige kulturelle uttrykksformer fra ulike medier, inkludert musikk, film og spill"
+      }
+    ]
+  },
+  "temaer": [
+    "english-as-a-world-language",
+    "academic-language",
+    "grammar-and-text-structure",
+    "discussion-and-pronunciation",
+    "writing-different-texts",
+    "analysing-fiction",
+    "sources-and-reliability",
+    "diversity-in-the-english-speaking-world",
+    "film-music-and-games"
+  ]
+}

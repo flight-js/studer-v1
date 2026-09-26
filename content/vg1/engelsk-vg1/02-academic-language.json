@@ -1,0 +1,357 @@
+{
+  "id": "academic-language",
+  "fagId": "engelsk-vg1",
+  "trinnId": "vg1",
+  "name": "Academic language and style",
+  "intro": "The difference between formal and informal English, academic vocabulary, hedging, nominalisation, idiomatic expressions and varied sentence structures – and how to adapt your language to purpose, audience and situation.",
+  "kompetansemaal": [
+    4,
+    5
+  ],
+  "sammendrag": "## Register\n\n**Register** means the level of formality in language. We speak differently to a friend than in a job interview, and we write differently in a text message than in an essay.\n\n| Informal | Formal |\n| --- | --- |\n| a lot of | a great deal of, considerable |\n| get | obtain, receive |\n| find out | discover, determine |\n| kids | children |\n| really bad | severe, serious |\n| I think | It could be argued that |\n\n## Features of academic language\n\n**Academic language** is used in essays, reports and presentations at school and university. It is **precise**, **objective** and **formal**:\n\n- **No contractions**: *do not* instead of *don't*, *it is* instead of *it's*.\n- **No slang** or chatty expressions like *stuff*, *kind of* or *super*.\n- **Precise vocabulary**: *increase*, *decline*, *significant*, *consequence*, *factor*, *perspective*.\n- **Hedging**: Careful language that avoids claiming too much – *may*, *might*, *tends to*, *suggests*, *it is likely that*. Compare “Social media causes depression” with “Research suggests that heavy social media use may increase the risk of depression.”\n- **Nominalisation**: Turning verbs into nouns, which makes the text more compact: “The government decided …” → “The government's decision …”.\n- The **passive voice** can make a text more objective: “The survey was conducted in 2024.”\n- **Signposting**: Phrases that guide the reader – *Firstly*, *In addition*, *However*, *As a result*, *In conclusion*.\n\n## Academic listening\n\nWhen you listen to lectures, podcasts or presentations, focus on **signposting**, **key terms** and **examples**. Take notes with **keywords**, not full sentences, and write down questions to follow up.\n\n## Nuance and precision\n\nTo express yourself **nuanced and precisely**, choose words carefully:\n\n- *Many* / *most* / *some* / *a minority* instead of *everyone*\n- *Somewhat*, *considerably*, *slightly* to show degree\n- **Synonyms** to avoid repetition: *show* – *demonstrate* – *illustrate* – *indicate*\n\n## Idiomatic expressions\n\n**Idioms** are fixed expressions whose meaning is not obvious from the words: *the tip of the iceberg* (a small part of a bigger problem), *a double-edged sword* (something with both advantages and disadvantages), *to be on the same page* (to agree). Idioms make language natural and vivid, but many – like *at the end of the day* – are too informal for academic writing.\n\n## Varied sentence structures\n\nVary your sentences to create **flow**:\n\n- **Simple**: Climate change is a global problem.\n- **Compound**: Climate change is a global problem, and it requires global solutions.\n- **Complex**: Although many countries have signed agreements, emissions continue to rise.\n- **Fronting**: *Despite* these efforts, … / *Not only* is it expensive, *but* it is also …\n\n## Adapting to the situation\n\nAlways ask: **What is my purpose? Who is my audience? What is the situation?** A speech to classmates, a formal email to a company and a blog post all need different language.",
+  "flashcards": [
+    {
+      "term": "Register",
+      "def": "The level of formality in language."
+    },
+    {
+      "term": "Academic language",
+      "def": "Precise, objective and formal language used in essays and reports."
+    },
+    {
+      "term": "Contraction",
+      "def": "A shortened form like don't or it's – avoided in formal writing."
+    },
+    {
+      "term": "Hedging",
+      "def": "Careful language that avoids claiming too much, like may or suggests."
+    },
+    {
+      "term": "Nominalisation",
+      "def": "Turning verbs into nouns: decide → decision."
+    },
+    {
+      "term": "Passive voice",
+      "def": "The survey was conducted – focuses on the action, not the person."
+    },
+    {
+      "term": "Signposting",
+      "def": "Phrases that guide the reader, like Firstly or In conclusion."
+    },
+    {
+      "term": "obtain",
+      "def": "Formal word for get."
+    },
+    {
+      "term": "considerable",
+      "def": "Formal word for a lot of or large."
+    },
+    {
+      "term": "Idiom",
+      "def": "A fixed expression whose meaning is not obvious from the words."
+    },
+    {
+      "term": "the tip of the iceberg",
+      "def": "A small visible part of a much bigger problem."
+    },
+    {
+      "term": "a double-edged sword",
+      "def": "Something with both advantages and disadvantages."
+    },
+    {
+      "term": "Complex sentence",
+      "def": "A sentence with a main clause and a subordinate clause."
+    },
+    {
+      "term": "Fronting",
+      "def": "Starting a sentence with a phrase for emphasis or variation."
+    },
+    {
+      "term": "Purpose, audience, situation",
+      "def": "Three things that decide how you should write or speak."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Which sentence is most suitable for an academic essay?",
+      "options": [
+        "Kids use their phones way too much.",
+        "It could be argued that young people spend a considerable amount of time on their phones.",
+        "Honestly, phones are super bad.",
+        "I think phones are, like, a problem."
+      ],
+      "correct": 1,
+      "explain": "The sentence uses formal vocabulary and hedging."
+    },
+    {
+      "id": "q02",
+      "text": "What is hedging?",
+      "options": [
+        "Careful language that avoids claiming too much",
+        "Using many idioms",
+        "Writing in the passive voice",
+        "Repeating the same word"
+      ],
+      "correct": 0,
+      "explain": "Words like may, might and suggests are typical hedging."
+    },
+    {
+      "id": "q03",
+      "text": "Which is a nominalisation of “The school decided to ban phones”?",
+      "options": [
+        "The school is deciding to ban phones.",
+        "Phones were banned by the school.",
+        "The school's decision to ban phones",
+        "The school decides phones."
+      ],
+      "correct": 2,
+      "explain": "The verb decided becomes the noun decision."
+    },
+    {
+      "id": "q04",
+      "text": "Which formal word can replace find out?",
+      "options": [
+        "get",
+        "look",
+        "grab",
+        "discover"
+      ],
+      "correct": 3,
+      "explain": "Discover or determine are more formal."
+    },
+    {
+      "id": "q05",
+      "text": "Why should you avoid contractions in academic writing?",
+      "options": [
+        "Because they are too informal",
+        "Because they are grammatically wrong",
+        "Because they make texts longer",
+        "Because they are American"
+      ],
+      "correct": 0,
+      "explain": "Contractions are fine in speech and informal writing."
+    },
+    {
+      "id": "q06",
+      "text": "What does “a double-edged sword” mean?",
+      "options": [
+        "A dangerous weapon",
+        "Something with both advantages and disadvantages",
+        "A difficult decision",
+        "A strong argument"
+      ],
+      "correct": 1,
+      "explain": "It is an idiom used about things that can both help and harm."
+    },
+    {
+      "id": "q07",
+      "text": "Which sentence is a complex sentence?",
+      "options": [
+        "Emissions are rising.",
+        "Emissions are rising, and temperatures are increasing.",
+        "Although many countries have signed agreements, emissions continue to rise.",
+        "Rising emissions."
+      ],
+      "correct": 2,
+      "explain": "It has a subordinate clause starting with although."
+    },
+    {
+      "id": "q08",
+      "text": "Which phrase is an example of signposting?",
+      "options": [
+        "stuff like that",
+        "kind of",
+        "you know",
+        "In conclusion"
+      ],
+      "correct": 3,
+      "explain": "Signposting guides the reader through the text."
+    },
+    {
+      "id": "q09",
+      "text": "What is register?",
+      "options": [
+        "The level of formality in language",
+        "A list of students",
+        "A type of dictionary",
+        "The pronunciation of a word"
+      ],
+      "correct": 0,
+      "explain": "Choosing the right register depends on the situation."
+    },
+    {
+      "id": "q10",
+      "text": "Which sentence uses the passive voice?",
+      "options": [
+        "We conducted the survey in 2024.",
+        "The survey was conducted in 2024.",
+        "They are conducting a survey.",
+        "Conduct the survey!"
+      ],
+      "correct": 1,
+      "explain": "The passive focuses on the action rather than who did it."
+    }
+  ],
+  "mindmap": {
+    "label": "Academic language",
+    "children": [
+      {
+        "label": "Register",
+        "children": [
+          {
+            "label": "Formal"
+          },
+          {
+            "label": "Informal"
+          },
+          {
+            "label": "Purpose and audience"
+          }
+        ]
+      },
+      {
+        "label": "Academic features",
+        "children": [
+          {
+            "label": "No contractions or slang"
+          },
+          {
+            "label": "Precise vocabulary"
+          },
+          {
+            "label": "Passive voice"
+          }
+        ]
+      },
+      {
+        "label": "Techniques",
+        "children": [
+          {
+            "label": "Hedging"
+          },
+          {
+            "label": "Nominalisation"
+          },
+          {
+            "label": "Signposting"
+          }
+        ]
+      },
+      {
+        "label": "Nuance",
+        "children": [
+          {
+            "label": "Degree words"
+          },
+          {
+            "label": "Synonyms"
+          },
+          {
+            "label": "Idioms"
+          }
+        ]
+      },
+      {
+        "label": "Sentences",
+        "children": [
+          {
+            "label": "Simple and compound"
+          },
+          {
+            "label": "Complex"
+          },
+          {
+            "label": "Fronting"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Some idioms are too informal for academic writing.",
+        "correct": true,
+        "explain": "At the end of the day is one example."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Academic language should use as much slang as possible.",
+        "correct": false,
+        "explain": "Academic language is formal and precise."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Taking notes with keywords is a good strategy when listening to a lecture.",
+        "correct": true,
+        "explain": "Full sentences take too long to write."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "“Everyone agrees” is usually more precise than “many experts agree”.",
+        "correct": false,
+        "explain": "Everyone is rarely true – many experts is more precise."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Which word is a synonym for show in academic writing?",
+        "options": [
+          "demonstrate",
+          "grab",
+          "stuff",
+          "reckon"
+        ],
+        "correct": 0,
+        "explain": "Illustrate and indicate are other options."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "What does “the tip of the iceberg” mean?",
+        "options": [
+          "Something very cold",
+          "A small part of a much bigger problem",
+          "The best part of something",
+          "The end of a discussion"
+        ],
+        "correct": 1,
+        "explain": "Most of an iceberg is hidden under water."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Which sentence uses hedging?",
+        "options": [
+          "Social media causes depression.",
+          "Social media is always harmful.",
+          "Research suggests that heavy social media use may affect mental health.",
+          "Everyone knows social media is bad."
+        ],
+        "correct": 2,
+        "explain": "Suggests and may show caution."
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
+}

@@ -1,0 +1,357 @@
+{
+  "id": "grammar-and-text-structure",
+  "fagId": "engelsk-vg1",
+  "trinnId": "vg1",
+  "name": "Grammar and text structure",
+  "intro": "Grammar points that Norwegian learners often get wrong – tenses, uncountable nouns, agreement, relative clauses, conditionals and adverbs – and how to build paragraphs and texts with good structure and cohesion.",
+  "kompetansemaal": [
+    8,
+    14
+  ],
+  "sammendrag": "## Present perfect or past simple?\n\n- **Past simple** is used for finished actions at a **specific time** in the past: *I **moved** to Oslo in 2020.*\n- **Present perfect** connects the past to **now**: *I **have lived** in Oslo **for** five years / **since** 2020.*\n\nNorwegian learners often write *“I have lived here since five years”*. Use **for** with a period of time and **since** with a point in time.\n\n## Uncountable nouns\n\nSome nouns are **uncountable** in English, even if they are countable in Norwegian: *information, advice, news, furniture, equipment, homework, knowledge, research*.\n\n- No plural -s: **information**, not *informations*\n- Use *much*, not *many*: **much** information\n- To count them, use *a piece of*: **a piece of** advice\n- *News* takes a singular verb: *The news **is** good.*\n\n*People*, on the other hand, is **plural**: *People **are** …*, and it is *many people*, not *much people*.\n\n## Subject–verb agreement\n\n- *Everybody / Nobody / Each student **is** …* (singular)\n- *The number of students **is** increasing.* but *A number of students **are** absent.*\n- Remember the third person -s: *She **works**, it **seems***.\n\n## Relative clauses\n\n- **Defining** relative clauses tell us *which* one and have **no commas**: *The students **who/that** passed the exam were happy.*\n- **Non-defining** relative clauses add extra information and have **commas**. Never use *that* here: *My brother, **who** lives in Bergen, is a doctor.*\n- Use **who** for people and **which** for things.\n\n## Conditionals\n\n- **First** (real possibility): *If it **rains**, I **will** stay home.*\n- **Second** (unreal or unlikely now): *If I **had** more money, I **would** travel.*\n- **Third** (unreal past): *If I **had studied**, I **would have passed**.*\n\nNever use *would* in the if-clause: write *If I **had** time*, not *If I would have time*.\n\n## Adjective or adverb?\n\nAdjectives describe nouns, adverbs describe verbs: *She is a **beautiful** singer. She sings **beautifully**.* Norwegian often uses the same form, so English learners tend to forget the **-ly**.\n\n## Commonly confused words\n\n*its* (possessive) / *it's* (it is) · *their / there / they're* · *then* (time) / *than* (comparison) · *affect* (verb) / *effect* (noun) · *lose* (miste) / *loose* (løs)\n\n## Paragraph structure\n\nA good paragraph has **one main idea**:\n\n1. **Topic sentence** – presents the main idea.\n2. **Supporting sentences** – explanation, evidence, examples.\n3. **Concluding or linking sentence** – sums up or leads to the next paragraph.\n\n## Cohesion\n\n**Cohesion** makes a text hang together. Use **pronouns** that refer back, **synonyms**, and **linking words**: *however, therefore, furthermore, in contrast, as a result, for instance*. Avoid starting every sentence the same way.\n\n## Revising your text\n\nWhen you revise, check **content** (is the argument clear?), **structure** (logical order, clear paragraphs) and **language** (grammar, vocabulary, spelling). Read your text aloud, and keep a list of your own typical mistakes.",
+  "flashcards": [
+    {
+      "term": "Past simple",
+      "def": "Finished action at a specific past time: I moved in 2020."
+    },
+    {
+      "term": "Present perfect",
+      "def": "Connects the past to now: I have lived here since 2020."
+    },
+    {
+      "term": "for vs. since",
+      "def": "for + period (for five years), since + point in time (since 2020)."
+    },
+    {
+      "term": "Uncountable nouns",
+      "def": "information, advice, news, furniture, equipment – no plural -s."
+    },
+    {
+      "term": "a piece of advice",
+      "def": "How to count an uncountable noun."
+    },
+    {
+      "term": "people",
+      "def": "A plural noun: people are, many people."
+    },
+    {
+      "term": "The number of … is",
+      "def": "Singular verb – the number itself."
+    },
+    {
+      "term": "A number of … are",
+      "def": "Plural verb – meaning several."
+    },
+    {
+      "term": "Defining relative clause",
+      "def": "Tells which one; no commas; who, which or that."
+    },
+    {
+      "term": "Non-defining relative clause",
+      "def": "Extra information; commas; never that."
+    },
+    {
+      "term": "Second conditional",
+      "def": "If I had more money, I would travel."
+    },
+    {
+      "term": "Third conditional",
+      "def": "If I had studied, I would have passed."
+    },
+    {
+      "term": "Adverb with -ly",
+      "def": "Describes a verb: she sings beautifully."
+    },
+    {
+      "term": "Topic sentence",
+      "def": "The sentence that presents the main idea of a paragraph."
+    },
+    {
+      "term": "Cohesion",
+      "def": "What makes sentences and paragraphs hang together."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Which sentence is correct?",
+      "options": [
+        "I have lived here since five years.",
+        "I have lived here for five years.",
+        "I live here since five years.",
+        "I lived here since five years."
+      ],
+      "correct": 1,
+      "explain": "Use for with a period of time and the present perfect for something that continues now."
+    },
+    {
+      "id": "q02",
+      "text": "Which sentence is correct?",
+      "options": [
+        "She gave me some good advice.",
+        "She gave me some good advices.",
+        "She gave me a good advices.",
+        "She gave me many good advice."
+      ],
+      "correct": 0,
+      "explain": "Advice is uncountable."
+    },
+    {
+      "id": "q03",
+      "text": "Choose the correct verb: The news ___ surprising.",
+      "options": [
+        "are",
+        "were",
+        "is",
+        "have been"
+      ],
+      "correct": 2,
+      "explain": "News is uncountable and takes a singular verb."
+    },
+    {
+      "id": "q04",
+      "text": "Which sentence has correct punctuation?",
+      "options": [
+        "My sister who lives in Bergen, is a nurse.",
+        "My sister, that lives in Bergen, is a nurse.",
+        "My sister, who lives in Bergen is a nurse.",
+        "My sister, who lives in Bergen, is a nurse."
+      ],
+      "correct": 3,
+      "explain": "A non-defining relative clause needs commas on both sides and cannot use that."
+    },
+    {
+      "id": "q05",
+      "text": "Which sentence is correct?",
+      "options": [
+        "If I had more time, I would learn Spanish.",
+        "If I would have more time, I would learn Spanish.",
+        "If I have more time, I would learn Spanish.",
+        "If I had more time, I will learn Spanish."
+      ],
+      "correct": 0,
+      "explain": "Second conditional: if + past simple, would + infinitive."
+    },
+    {
+      "id": "q06",
+      "text": "Choose the correct word: He drives very ___.",
+      "options": [
+        "careful",
+        "carefully",
+        "carefuller",
+        "care"
+      ],
+      "correct": 1,
+      "explain": "An adverb describes the verb drives."
+    },
+    {
+      "id": "q07",
+      "text": "What is a topic sentence?",
+      "options": [
+        "The last sentence in a text",
+        "A quotation",
+        "The sentence that presents the main idea of a paragraph",
+        "The title"
+      ],
+      "correct": 2,
+      "explain": "It usually comes first in the paragraph."
+    },
+    {
+      "id": "q08",
+      "text": "Choose the correct word: The dog wagged ___ tail.",
+      "options": [
+        "it's",
+        "its'",
+        "it",
+        "its"
+      ],
+      "correct": 3,
+      "explain": "Its is possessive. It's means it is."
+    },
+    {
+      "id": "q09",
+      "text": "Choose the correct verb: A number of students ___ absent today.",
+      "options": [
+        "are",
+        "is",
+        "was",
+        "has been"
+      ],
+      "correct": 0,
+      "explain": "A number of means several, so the verb is plural."
+    },
+    {
+      "id": "q10",
+      "text": "Which word is best for showing a contrast?",
+      "options": [
+        "Furthermore",
+        "However",
+        "For instance",
+        "Therefore"
+      ],
+      "correct": 1,
+      "explain": "However signals a contrast. Therefore shows a result."
+    }
+  ],
+  "mindmap": {
+    "label": "Grammar and text structure",
+    "children": [
+      {
+        "label": "Verbs",
+        "children": [
+          {
+            "label": "Past simple vs. present perfect"
+          },
+          {
+            "label": "for and since"
+          },
+          {
+            "label": "Conditionals"
+          }
+        ]
+      },
+      {
+        "label": "Nouns",
+        "children": [
+          {
+            "label": "Uncountable nouns"
+          },
+          {
+            "label": "people is plural"
+          },
+          {
+            "label": "Agreement"
+          }
+        ]
+      },
+      {
+        "label": "Clauses",
+        "children": [
+          {
+            "label": "Defining"
+          },
+          {
+            "label": "Non-defining with commas"
+          },
+          {
+            "label": "who and which"
+          }
+        ]
+      },
+      {
+        "label": "Word choice",
+        "children": [
+          {
+            "label": "Adjective vs. adverb"
+          },
+          {
+            "label": "its / it's"
+          },
+          {
+            "label": "then / than"
+          }
+        ]
+      },
+      {
+        "label": "Structure",
+        "children": [
+          {
+            "label": "Topic sentence"
+          },
+          {
+            "label": "Cohesion"
+          },
+          {
+            "label": "Revising"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Information is an uncountable noun in English.",
+        "correct": true,
+        "explain": "We say much information, not informations."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "That can be used in non-defining relative clauses.",
+        "correct": false,
+        "explain": "Non-defining clauses use who or which."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "A good paragraph usually has one main idea.",
+        "correct": true,
+        "explain": "The topic sentence presents it."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "We use would in the if-clause of a second conditional.",
+        "correct": false,
+        "explain": "The if-clause uses the past simple."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Choose the correct word: She is taller ___ her brother.",
+        "options": [
+          "then",
+          "than",
+          "that",
+          "as"
+        ],
+        "correct": 1,
+        "explain": "Than is used in comparisons."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Which sentence is in the third conditional?",
+        "options": [
+          "If I had studied, I would have passed.",
+          "If I study, I will pass.",
+          "If I studied, I would pass.",
+          "If you heat ice, it melts."
+        ],
+        "correct": 0,
+        "explain": "The third conditional is about an unreal past."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Choose the correct word: Too much screen time can ___ your sleep.",
+        "options": [
+          "effect",
+          "effects",
+          "affect",
+          "affection"
+        ],
+        "correct": 2,
+        "explain": "Affect is the verb, effect the noun."
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
+}

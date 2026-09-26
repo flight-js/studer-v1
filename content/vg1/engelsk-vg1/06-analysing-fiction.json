@@ -1,0 +1,363 @@
+{
+  "id": "analysing-fiction",
+  "fagId": "engelsk-vg1",
+  "trinnId": "vg1",
+  "name": "Reading and analysing fiction",
+  "intro": "How to read, analyse and interpret English-language fiction – short stories, novels and poems – with key terms like narrator, characterisation, setting, theme, symbolism, irony and foreshadowing, and how to write a literary analysis.",
+  "kompetansemaal": [
+    10,
+    9
+  ],
+  "sammendrag": "## Why analyse fiction?\n\nAnalysing fiction means looking closely at **how** a text creates meaning – not just **what** happens. It helps you understand other people, cultures and periods, and it trains you to read critically.\n\n## Key terms\n\n- **Plot**: the sequence of events – exposition, rising action, **climax**, falling action and resolution. Many short stories have an **open ending**.\n- **Setting**: time and place, and the mood they create.\n- **Characterisation**: how characters are presented. **Direct** characterisation tells us what a person is like. **Indirect** characterisation shows it through actions, speech, thoughts and other people's reactions. A **round** character is complex; a **flat** character has few traits. A **dynamic** character changes; a **static** character does not.\n- **Conflict**: internal (within a character) or external (with other people, society or nature).\n- **Narrator and point of view**: A **first-person narrator** uses *I*. A **third-person narrator** can be **omniscient** (knows everything) or **limited** (follows one character). An **unreliable narrator** cannot be fully trusted.\n- **Theme**: the underlying idea, such as *prejudice*, *identity* or *power*.\n- **Symbol**: something concrete that stands for an idea, such as a storm representing inner turmoil.\n- **Irony**: a contrast between what is said or expected and what really happens. In **dramatic irony**, the reader knows something the characters do not.\n- **Foreshadowing**: hints about what will happen later.\n- **Language and style**: imagery, metaphors, dialogue, sentence length, tone.\n\n## Examples\n\n- In Shirley Jackson's short story **“The Lottery”** (1948), a peaceful village setting and a harmless-sounding title build up to a shocking ending. The story raises questions about **tradition**, **conformity** and **violence**.\n- In Roald Dahl's **“Lamb to the Slaughter”** (1953), **dramatic irony** and dark humour dominate: the reader knows what happened to the murder weapon, but the police do not.\n- Angie Thomas's novel ***The Hate U Give*** (2017) uses a **first-person narrator**, Starr, who moves between two worlds after witnessing a police shooting. It explores **racism**, **identity** and **finding your voice**.\n\n## Poetry\n\nIn poems, look at the **speaker**, **imagery**, **rhythm**, **rhyme**, **line breaks**, **stanzas** and **sound devices** like alliteration. Ask: What mood is created? What is left unsaid?\n\n## Writing a literary analysis\n\n1. **Introduction**: Title, author, year, genre, a brief summary and your **main claim** (interpretation).\n2. **Body paragraphs**: Each paragraph discusses one aspect – for example narrator, a character or a symbol – with **short quotations** as evidence and an explanation of their **effect**.\n3. **Conclusion**: Sum up your interpretation and reflect on the **theme** and its relevance today.\n\nUse the **present tense** when you write about what happens in a text: *Starr decides to speak out.* And remember: The point is not to retell the story, but to **analyse and interpret** it.",
+  "flashcards": [
+    {
+      "term": "Plot",
+      "def": "The sequence of events in a story."
+    },
+    {
+      "term": "Climax",
+      "def": "The turning point or moment of greatest tension."
+    },
+    {
+      "term": "Setting",
+      "def": "The time and place of a story."
+    },
+    {
+      "term": "Direct characterisation",
+      "def": "The text tells us what a character is like."
+    },
+    {
+      "term": "Indirect characterisation",
+      "def": "Character is shown through actions, speech and thoughts."
+    },
+    {
+      "term": "Round character",
+      "def": "A complex character with many traits."
+    },
+    {
+      "term": "Dynamic character",
+      "def": "A character who changes during the story."
+    },
+    {
+      "term": "Internal conflict",
+      "def": "A struggle within a character."
+    },
+    {
+      "term": "Omniscient narrator",
+      "def": "A third-person narrator who knows everything."
+    },
+    {
+      "term": "Unreliable narrator",
+      "def": "A narrator who cannot be fully trusted."
+    },
+    {
+      "term": "Theme",
+      "def": "The underlying idea of a text."
+    },
+    {
+      "term": "Symbol",
+      "def": "Something concrete that stands for an idea."
+    },
+    {
+      "term": "Dramatic irony",
+      "def": "The reader knows something the characters do not."
+    },
+    {
+      "term": "Foreshadowing",
+      "def": "Hints about what will happen later."
+    },
+    {
+      "term": "Literary present",
+      "def": "Using the present tense when writing about a text."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "What is indirect characterisation?",
+      "options": [
+        "The narrator tells us directly what a character is like",
+        "A character is shown through actions, speech and thoughts",
+        "A character with no name",
+        "A minor character"
+      ],
+      "correct": 1,
+      "explain": "The reader has to draw conclusions."
+    },
+    {
+      "id": "q02",
+      "text": "What is dramatic irony?",
+      "options": [
+        "When the reader knows something the characters do not",
+        "When a story is sad",
+        "When a character tells a joke",
+        "When the story has a happy ending"
+      ],
+      "correct": 0,
+      "explain": "Lamb to the Slaughter is a famous example."
+    },
+    {
+      "id": "q03",
+      "text": "What kind of narrator is used in The Hate U Give?",
+      "options": [
+        "An omniscient narrator",
+        "A second-person narrator",
+        "A first-person narrator",
+        "There is no narrator"
+      ],
+      "correct": 2,
+      "explain": "Starr tells the story as I."
+    },
+    {
+      "id": "q04",
+      "text": "What is foreshadowing?",
+      "options": [
+        "A description of the setting",
+        "A flashback",
+        "The climax",
+        "Hints about what will happen later"
+      ],
+      "correct": 3,
+      "explain": "Foreshadowing builds suspense."
+    },
+    {
+      "id": "q05",
+      "text": "Which of these is a theme?",
+      "options": [
+        "Prejudice",
+        "A village square",
+        "A lottery ticket",
+        "Chapter three"
+      ],
+      "correct": 0,
+      "explain": "A theme is an idea, not a thing or a place."
+    },
+    {
+      "id": "q06",
+      "text": "What is a dynamic character?",
+      "options": [
+        "A character who moves a lot",
+        "A character who changes during the story",
+        "A funny character",
+        "A character who never speaks"
+      ],
+      "correct": 1,
+      "explain": "A static character does not change."
+    },
+    {
+      "id": "q07",
+      "text": "Which tense should you normally use when writing about what happens in a story?",
+      "options": [
+        "Past perfect",
+        "Future",
+        "Present",
+        "Past continuous"
+      ],
+      "correct": 2,
+      "explain": "This is called the literary present."
+    },
+    {
+      "id": "q08",
+      "text": "What should the introduction to a literary analysis include?",
+      "options": [
+        "Only a long summary",
+        "Your favourite quote",
+        "A list of all characters",
+        "Title, author, a brief summary and your main claim"
+      ],
+      "correct": 3,
+      "explain": "The main claim tells the reader what you will argue."
+    },
+    {
+      "id": "q09",
+      "text": "What is an unreliable narrator?",
+      "options": [
+        "A narrator who cannot be fully trusted",
+        "A narrator who knows everything",
+        "A narrator who is the author",
+        "A narrator who speaks to the reader"
+      ],
+      "correct": 0,
+      "explain": "The reader must read between the lines."
+    },
+    {
+      "id": "q10",
+      "text": "What is the main point of a literary analysis?",
+      "options": [
+        "To retell the whole story",
+        "To analyse and interpret how the text creates meaning",
+        "To say whether you liked it",
+        "To write about the author's life"
+      ],
+      "correct": 1,
+      "explain": "Use evidence from the text to support your interpretation."
+    }
+  ],
+  "mindmap": {
+    "label": "Analysing fiction",
+    "children": [
+      {
+        "label": "Story",
+        "children": [
+          {
+            "label": "Plot and climax"
+          },
+          {
+            "label": "Setting"
+          },
+          {
+            "label": "Conflict"
+          }
+        ]
+      },
+      {
+        "label": "Characters",
+        "children": [
+          {
+            "label": "Direct and indirect"
+          },
+          {
+            "label": "Round and flat"
+          },
+          {
+            "label": "Dynamic and static"
+          }
+        ]
+      },
+      {
+        "label": "Narration",
+        "children": [
+          {
+            "label": "First person"
+          },
+          {
+            "label": "Third person"
+          },
+          {
+            "label": "Unreliable narrator"
+          }
+        ]
+      },
+      {
+        "label": "Devices",
+        "children": [
+          {
+            "label": "Symbol"
+          },
+          {
+            "label": "Irony"
+          },
+          {
+            "label": "Foreshadowing"
+          },
+          {
+            "label": "Imagery"
+          }
+        ]
+      },
+      {
+        "label": "Writing",
+        "children": [
+          {
+            "label": "Main claim"
+          },
+          {
+            "label": "Quotations"
+          },
+          {
+            "label": "Effect"
+          },
+          {
+            "label": "Theme"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "“The Lottery” was written by Shirley Jackson.",
+        "correct": true,
+        "explain": "It was published in 1948."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "A flat character is complex and has many traits.",
+        "correct": false,
+        "explain": "That is a round character."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Short quotations can be used as evidence in a literary analysis.",
+        "correct": true,
+        "explain": "Explain the effect of each quotation."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "An open ending always tells the reader exactly what happens next.",
+        "correct": false,
+        "explain": "An open ending leaves questions for the reader."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "What is an internal conflict?",
+        "options": [
+          "A fight between two armies",
+          "A struggle within a character",
+          "A conflict with nature",
+          "A disagreement between two friends"
+        ],
+        "correct": 1,
+        "explain": "The others are external conflicts."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "What might a storm symbolise in a story?",
+        "options": [
+          "Inner turmoil",
+          "The weather forecast",
+          "A holiday",
+          "The author's name"
+        ],
+        "correct": 0,
+        "explain": "Symbols stand for ideas beyond themselves."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Which is a sound device often used in poetry?",
+        "options": [
+          "Chapter",
+          "Setting",
+          "Alliteration",
+          "Headline"
+        ],
+        "correct": 2,
+        "explain": "Alliteration repeats the first sound in nearby words."
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
+}

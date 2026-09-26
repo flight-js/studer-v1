@@ -1,0 +1,359 @@
+{
+  "id": "film-music-and-games",
+  "fagId": "engelsk-vg1",
+  "trinnId": "vg1",
+  "name": "Film, music and games",
+  "intro": "How to discuss and reflect on form, content and techniques in English-language films, music and video games – shots and angles, sound and editing, lyrics and protest songs, and storytelling and player choice in games.",
+  "kompetansemaal": [
+    17
+  ],
+  "sammendrag": "## Cultural expressions\n\nFilms, songs and games are **cultural expressions** that both entertain and say something about society. To analyse them, look at three things:\n\n- **Form** – how it is made (techniques, structure, genre)\n- **Content** – what it is about (story, themes, message)\n- **Effect** – how form and content work together to affect the audience\n\n## Film\n\n**Shots**\n- **Establishing shot / extreme long shot**: shows the setting.\n- **Long shot**: a whole person in their surroundings.\n- **Medium shot**: from the waist up – common in dialogue.\n- **Close-up**: a face – shows emotions.\n- **Extreme close-up**: a detail, such as eyes or a hand.\n\n**Camera angles**\n- **High angle** (looking down): the character seems small or weak.\n- **Low angle** (looking up): the character seems powerful or threatening.\n- **Eye level**: neutral.\n\n**Camera movement**: **pan** (turning sideways), **tilt** (up or down), **tracking shot** (the camera follows the action).\n\n**Lighting**: **High-key** lighting is bright and even; **low-key** lighting creates shadows, mystery and tension.\n\n**Sound**: **Diegetic sound** exists in the story world (dialogue, footsteps, a radio). **Non-diegetic sound** is added for the audience (background music, a narrator's voice-over).\n\n**Editing**: A **montage** shows many short shots to compress time. **Cross-cutting** switches between two scenes happening at the same time, often to build suspense.\n\n**Mise-en-scène**: everything placed in front of the camera – setting, props, costumes, make-up and actors' positions.\n\n## Music\n\nWhen you analyse a song, consider **lyrics** (themes, imagery, speaker), **music** (genre, tempo, instruments, mood), **performance** and the **music video**, and the **context** in which it was made. **Protest songs** have been important in many social movements – from Bob Dylan's **“Blowin' in the Wind”** (1963) during the civil rights era to Kendrick Lamar's **“Alright”** (2015), which became an anthem for Black Lives Matter protests.\n\n## Video games\n\nGames are a major cultural form with their own techniques:\n\n- **Narrative**: story, characters and **world-building**\n- **Interactivity** and **player agency**: the player makes **choices** that may have consequences\n- **Perspective**: first-person or third-person view\n- **Sound and music** that create atmosphere\n- **Themes**: many games deal with serious themes such as survival, loss, war and moral dilemmas – *The Last of Us* (2013) is often mentioned as a game with strong storytelling.\n\nA key question is how being an **active player** changes the experience compared with watching a film.\n\n## Discussing and reflecting\n\nUseful questions: What is the **message**? Who is the **target audience**? How do the **techniques** create meaning? How does the work **reflect or challenge** society? Support your views with **specific examples** – a scene, a line, a moment in the game.",
+  "flashcards": [
+    {
+      "term": "Form, content and effect",
+      "def": "How it is made, what it is about, and how it affects the audience."
+    },
+    {
+      "term": "Establishing shot",
+      "def": "A wide shot that shows the setting."
+    },
+    {
+      "term": "Close-up",
+      "def": "A shot of a face that shows emotions."
+    },
+    {
+      "term": "High angle",
+      "def": "Camera looks down – the character seems small or weak."
+    },
+    {
+      "term": "Low angle",
+      "def": "Camera looks up – the character seems powerful."
+    },
+    {
+      "term": "Tracking shot",
+      "def": "The camera moves along with the action."
+    },
+    {
+      "term": "Low-key lighting",
+      "def": "Lighting with strong shadows that creates tension."
+    },
+    {
+      "term": "Diegetic sound",
+      "def": "Sound that exists in the story world."
+    },
+    {
+      "term": "Non-diegetic sound",
+      "def": "Sound added for the audience, like background music."
+    },
+    {
+      "term": "Montage",
+      "def": "Many short shots edited together to compress time."
+    },
+    {
+      "term": "Cross-cutting",
+      "def": "Switching between two scenes happening at the same time."
+    },
+    {
+      "term": "Mise-en-scène",
+      "def": "Everything placed in front of the camera."
+    },
+    {
+      "term": "Protest song",
+      "def": "A song that criticises society and supports a cause."
+    },
+    {
+      "term": "Player agency",
+      "def": "The player's ability to make choices in a game."
+    },
+    {
+      "term": "World-building",
+      "def": "Creating a detailed fictional world in a game or story."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "What effect does a low camera angle usually have?",
+      "options": [
+        "The character seems weak",
+        "The character seems powerful or threatening",
+        "The scene feels neutral",
+        "The scene becomes funny"
+      ],
+      "correct": 1,
+      "explain": "The audience looks up at the character."
+    },
+    {
+      "id": "q02",
+      "text": "What is diegetic sound?",
+      "options": [
+        "Sound that exists in the story world",
+        "Background music added for the audience",
+        "A narrator's voice-over",
+        "Silence"
+      ],
+      "correct": 0,
+      "explain": "Dialogue and footsteps are diegetic."
+    },
+    {
+      "id": "q03",
+      "text": "Which shot is best for showing a character's emotions?",
+      "options": [
+        "Establishing shot",
+        "Long shot",
+        "Close-up",
+        "Tracking shot"
+      ],
+      "correct": 2,
+      "explain": "A close-up shows the face in detail."
+    },
+    {
+      "id": "q04",
+      "text": "What is cross-cutting?",
+      "options": [
+        "Cutting out a scene",
+        "A shot from above",
+        "A song in a film",
+        "Switching between two scenes happening at the same time"
+      ],
+      "correct": 3,
+      "explain": "It is often used to build suspense."
+    },
+    {
+      "id": "q05",
+      "text": "What is mise-en-scène?",
+      "options": [
+        "Everything placed in front of the camera",
+        "The film's soundtrack",
+        "The editing",
+        "The script"
+      ],
+      "correct": 0,
+      "explain": "Setting, props, costumes and actors' positions."
+    },
+    {
+      "id": "q06",
+      "text": "Which song became an anthem for Black Lives Matter protests?",
+      "options": [
+        "“Blowin' in the Wind”",
+        "“Alright” by Kendrick Lamar",
+        "“Yesterday”",
+        "“Imagine”"
+      ],
+      "correct": 1,
+      "explain": "“Alright” was released in 2015."
+    },
+    {
+      "id": "q07",
+      "text": "What is player agency?",
+      "options": [
+        "A company that sells games",
+        "The game's soundtrack",
+        "The player's ability to make choices in a game",
+        "The age limit of a game"
+      ],
+      "correct": 2,
+      "explain": "Choices with consequences make the player active."
+    },
+    {
+      "id": "q08",
+      "text": "What does low-key lighting create?",
+      "options": [
+        "A bright, happy mood",
+        "A neutral mood",
+        "No particular effect",
+        "Shadows, mystery and tension"
+      ],
+      "correct": 3,
+      "explain": "It is common in thrillers and horror."
+    },
+    {
+      "id": "q09",
+      "text": "What is a montage?",
+      "options": [
+        "Many short shots edited together to compress time",
+        "A long single shot",
+        "A type of camera angle",
+        "A film poster"
+      ],
+      "correct": 0,
+      "explain": "Training scenes are often shown as montages."
+    },
+    {
+      "id": "q10",
+      "text": "Which three aspects should you consider when analysing a cultural expression?",
+      "options": [
+        "Price, length and age limit",
+        "Form, content and effect",
+        "Title, actors and director",
+        "Genre, year and country"
+      ],
+      "correct": 1,
+      "explain": "Analysis connects how it is made with what it means."
+    }
+  ],
+  "mindmap": {
+    "label": "Film, music and games",
+    "children": [
+      {
+        "label": "Analysis",
+        "children": [
+          {
+            "label": "Form"
+          },
+          {
+            "label": "Content"
+          },
+          {
+            "label": "Effect"
+          }
+        ]
+      },
+      {
+        "label": "Film techniques",
+        "children": [
+          {
+            "label": "Shots"
+          },
+          {
+            "label": "Angles"
+          },
+          {
+            "label": "Lighting"
+          },
+          {
+            "label": "Editing"
+          }
+        ]
+      },
+      {
+        "label": "Film sound",
+        "children": [
+          {
+            "label": "Diegetic"
+          },
+          {
+            "label": "Non-diegetic"
+          },
+          {
+            "label": "Voice-over"
+          }
+        ]
+      },
+      {
+        "label": "Music",
+        "children": [
+          {
+            "label": "Lyrics"
+          },
+          {
+            "label": "Genre and mood"
+          },
+          {
+            "label": "Protest songs"
+          }
+        ]
+      },
+      {
+        "label": "Games",
+        "children": [
+          {
+            "label": "Narrative"
+          },
+          {
+            "label": "Player agency"
+          },
+          {
+            "label": "World-building"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Background music added to a film is non-diegetic sound.",
+        "correct": true,
+        "explain": "The characters cannot hear it."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "A high camera angle usually makes a character seem powerful.",
+        "correct": false,
+        "explain": "A high angle usually makes a character seem small or weak."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Video games can deal with serious themes such as loss and war.",
+        "correct": true,
+        "explain": "Many games have strong storytelling."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "An establishing shot shows a detail, such as a person's eyes.",
+        "correct": false,
+        "explain": "That is an extreme close-up. An establishing shot shows the setting."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "What is a tracking shot?",
+        "options": [
+          "A shot where the camera follows the action",
+          "A shot of a map",
+          "A still photograph",
+          "A shot from above"
+        ],
+        "correct": 0,
+        "explain": "The camera moves together with the characters."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Who recorded “Blowin' in the Wind” in 1963?",
+        "options": [
+          "Kendrick Lamar",
+          "The Beatles",
+          "Bob Dylan",
+          "Beyoncé"
+        ],
+        "correct": 2,
+        "explain": "It became associated with the civil rights era."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "What is world-building in a game?",
+        "options": [
+          "Building a real house",
+          "Creating a detailed fictional world",
+          "Making the game longer",
+          "Choosing a difficulty level"
+        ],
+        "correct": 1,
+        "explain": "A rich world makes the story more immersive."
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
+}

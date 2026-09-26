@@ -1,0 +1,367 @@
+{
+  "id": "discussion-and-pronunciation",
+  "fagId": "engelsk-vg1",
+  "trinnId": "vg1",
+  "name": "Discussions, presentations and pronunciation",
+  "intro": "How to take part in discussions by summarising and building on others' arguments, useful phrases, communication strategies when you lack a word, and pronunciation patterns that Norwegian speakers should practise.",
+  "kompetansemaal": [
+    6,
+    3,
+    1
+  ],
+  "sammendrag": "## Good discussions\n\nA good discussion is not about winning, but about **exploring an issue together**. You should be able to **account for other people's arguments**, **respond** to them and **build on** what others say.\n\n## Useful phrases\n\n**Summarising others**\n- *If I understand you correctly, you're saying that …*\n- *As Sara pointed out, …*\n- *So your main argument is that …*\n\n**Building on others**\n- *I'd like to add to what Jonas said …*\n- *That's a good point, and it also shows that …*\n\n**Agreeing and disagreeing politely**\n- *I completely agree, because …*\n- *I see your point, but …*\n- *That's a fair point; however, …*\n- *I'm not sure I agree. Have you considered …?*\n\n**Asking for clarification**\n- *Could you elaborate on that?*\n- *What do you mean by …?*\n\n**Moving the discussion on**\n- *Let's look at this from another angle.*\n- *Shall we move on to …?*\n\n## Communication strategies\n\nEveryone lacks words sometimes. Instead of stopping, use **strategies**:\n\n- **Paraphrase** – say it in other words: *the thing you use to open bottles*.\n- Use a **general word**: *a kind of tool*, *a sort of bird*.\n- Use **fillers** to gain time: *Well …*, *Let me think …*, *How can I put it …*\n- **Ask**: *What's the word for …?*\n- **Check understanding**: *Does that make sense?*\n\n## Presentations\n\nA good oral presentation has a clear **structure** (introduction, main part, conclusion), uses **signposting** (*First, I will …; Now let's turn to …*) and is delivered from **keywords**, not a manuscript. Keep **eye contact**, vary your voice and use visual aids that **support** – not repeat – what you say.\n\n## Pronunciation patterns\n\nClear pronunciation makes you easier to understand. Sounds and patterns that are often difficult for Norwegian speakers:\n\n- **th** – /θ/ as in *think* and /ð/ as in *this*. Put your tongue between your teeth.\n- **v and w** – *very well*, *vine – wine*. For w, round your lips without touching your teeth.\n- **z sound** – *is*, *was*, *zoo*, *easy* are pronounced with a buzzing /z/, not /s/.\n- **Silent letters** – *knife*, *write*, *island*, *Wednesday*, *climb*.\n- **-ed endings** – /t/ in *worked*, /d/ in *played* and /ɪd/ in *wanted*.\n- **Word stress** – *PHOtograph*, *phoTOgrapher*, *photoGRAPHic*. Wrong stress can make words hard to recognise.\n- **Schwa** /ə/ – the most common vowel sound in English, found in unstressed syllables: *about*, *banana*, *teacher*.\n- **Intonation** – the voice usually rises in yes/no questions (*Are you coming?*) and falls in statements.\n\n## Learning strategies\n\nListen to podcasts, series and news in English, **shadow** (repeat right after a speaker), record yourself and compare, and use online dictionaries that play the pronunciation.",
+  "flashcards": [
+    {
+      "term": "If I understand you correctly, …",
+      "def": "Phrase for summarising someone else's argument."
+    },
+    {
+      "term": "I'd like to add to what … said",
+      "def": "Phrase for building on someone else's point."
+    },
+    {
+      "term": "I see your point, but …",
+      "def": "Phrase for disagreeing politely."
+    },
+    {
+      "term": "Could you elaborate on that?",
+      "def": "Phrase for asking for more explanation."
+    },
+    {
+      "term": "Paraphrase",
+      "def": "Saying something in other words when you lack a word."
+    },
+    {
+      "term": "Filler",
+      "def": "Words like well or let me think that give you time."
+    },
+    {
+      "term": "Signposting in presentations",
+      "def": "Phrases like First, I will … that guide the audience."
+    },
+    {
+      "term": "th sounds",
+      "def": "/θ/ in think and /ð/ in this – tongue between the teeth."
+    },
+    {
+      "term": "v and w",
+      "def": "very well – w is made with rounded lips."
+    },
+    {
+      "term": "z sound",
+      "def": "is, was, zoo – a buzzing sound, not /s/."
+    },
+    {
+      "term": "Silent letters",
+      "def": "Letters that are not pronounced, as in knife and island."
+    },
+    {
+      "term": "-ed endings",
+      "def": "/t/ in worked, /d/ in played, /ɪd/ in wanted."
+    },
+    {
+      "term": "Word stress",
+      "def": "Which syllable is strongest: PHOtograph, phoTOgrapher."
+    },
+    {
+      "term": "Schwa /ə/",
+      "def": "The most common vowel sound in English, in unstressed syllables."
+    },
+    {
+      "term": "Shadowing",
+      "def": "Repeating right after a speaker to practise pronunciation."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Which phrase is best for summarising someone else's argument?",
+      "options": [
+        "You're wrong.",
+        "If I understand you correctly, you're saying that …",
+        "Let's change the subject.",
+        "Whatever."
+      ],
+      "correct": 1,
+      "explain": "Summarising shows that you have listened."
+    },
+    {
+      "id": "q02",
+      "text": "What is a good strategy if you do not know a word in a discussion?",
+      "options": [
+        "Paraphrase – say it in other words",
+        "Stop talking",
+        "Switch to Norwegian",
+        "Change the subject"
+      ],
+      "correct": 0,
+      "explain": "For example: the thing you use to open bottles."
+    },
+    {
+      "id": "q03",
+      "text": "Which phrase is a polite way to disagree?",
+      "options": [
+        "That's stupid.",
+        "No way.",
+        "I see your point, but …",
+        "You don't know anything."
+      ],
+      "correct": 2,
+      "explain": "It acknowledges the other person before disagreeing."
+    },
+    {
+      "id": "q04",
+      "text": "How is the -ed ending pronounced in wanted?",
+      "options": [
+        "/t/",
+        "/d/",
+        "It is silent",
+        "/ɪd/"
+      ],
+      "correct": 3,
+      "explain": "After t and d, -ed is pronounced /ɪd/."
+    },
+    {
+      "id": "q05",
+      "text": "Which word has a silent letter?",
+      "options": [
+        "knife",
+        "cat",
+        "stop",
+        "bring"
+      ],
+      "correct": 0,
+      "explain": "The k in knife is not pronounced."
+    },
+    {
+      "id": "q06",
+      "text": "Where is the stress in photographer?",
+      "options": [
+        "PHO-to-gra-pher",
+        "pho-TO-gra-pher",
+        "pho-to-GRA-pher",
+        "pho-to-gra-PHER"
+      ],
+      "correct": 1,
+      "explain": "Word stress changes between photograph, photographer and photographic."
+    },
+    {
+      "id": "q07",
+      "text": "What is the schwa?",
+      "options": [
+        "A type of consonant",
+        "A stressed vowel",
+        "The most common vowel sound in English, found in unstressed syllables",
+        "A British accent"
+      ],
+      "correct": 2,
+      "explain": "It is the first sound in about."
+    },
+    {
+      "id": "q08",
+      "text": "Which sound is often pronounced wrongly as /s/ by Norwegian speakers?",
+      "options": [
+        "The th in think",
+        "The w in well",
+        "The k in knife",
+        "The z sound in is and was"
+      ],
+      "correct": 3,
+      "explain": "Is and was end with a buzzing /z/."
+    },
+    {
+      "id": "q09",
+      "text": "How does the voice usually move in a yes/no question?",
+      "options": [
+        "It rises at the end",
+        "It falls at the end",
+        "It stays flat",
+        "It gets louder"
+      ],
+      "correct": 0,
+      "explain": "Are you coming? – rising intonation."
+    },
+    {
+      "id": "q10",
+      "text": "What should visual aids in a presentation do?",
+      "options": [
+        "Repeat everything you say",
+        "Support what you say",
+        "Replace your talk",
+        "Contain as much text as possible"
+      ],
+      "correct": 1,
+      "explain": "The audience should listen to you, not read slides."
+    }
+  ],
+  "mindmap": {
+    "label": "Discussions and pronunciation",
+    "children": [
+      {
+        "label": "Discussion",
+        "children": [
+          {
+            "label": "Summarise others"
+          },
+          {
+            "label": "Build on others"
+          },
+          {
+            "label": "Disagree politely"
+          },
+          {
+            "label": "Ask for clarification"
+          }
+        ]
+      },
+      {
+        "label": "Strategies",
+        "children": [
+          {
+            "label": "Paraphrase"
+          },
+          {
+            "label": "Fillers"
+          },
+          {
+            "label": "Check understanding"
+          }
+        ]
+      },
+      {
+        "label": "Presentations",
+        "children": [
+          {
+            "label": "Structure"
+          },
+          {
+            "label": "Signposting"
+          },
+          {
+            "label": "Keywords"
+          }
+        ]
+      },
+      {
+        "label": "Sounds",
+        "children": [
+          {
+            "label": "th"
+          },
+          {
+            "label": "v and w"
+          },
+          {
+            "label": "z"
+          },
+          {
+            "label": "Silent letters"
+          }
+        ]
+      },
+      {
+        "label": "Patterns",
+        "children": [
+          {
+            "label": "-ed endings"
+          },
+          {
+            "label": "Word stress"
+          },
+          {
+            "label": "Schwa"
+          },
+          {
+            "label": "Intonation"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "The -ed ending in played is pronounced /d/.",
+        "correct": true,
+        "explain": "After voiced sounds, -ed is pronounced /d/."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "A good discussion is mainly about winning the argument.",
+        "correct": false,
+        "explain": "It is about exploring an issue together."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Fillers like well and let me think can give you time to find words.",
+        "correct": true,
+        "explain": "They are natural in spoken English."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "The s in island is pronounced.",
+        "correct": false,
+        "explain": "The s in island is silent: /ˈaɪlənd/."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Which phrase is used to build on someone else's point?",
+        "options": [
+          "That's wrong.",
+          "Let's move on.",
+          "I'd like to add to what Jonas said.",
+          "What do you mean?"
+        ],
+        "correct": 2,
+        "explain": "Building on others moves the discussion forward."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "How do you make the th sound in think?",
+        "options": [
+          "Put your tongue between your teeth",
+          "Close your lips",
+          "Touch your teeth with your lower lip",
+          "Keep your mouth closed"
+        ],
+        "correct": 0,
+        "explain": "Norwegian speakers often replace it with t or f."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Which word has the stress on the second syllable?",
+        "options": [
+          "TAble",
+          "baNAna",
+          "YELlow",
+          "HAPpy"
+        ],
+        "correct": 1,
+        "explain": "ba-NA-na. The first and last syllables have a schwa."
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
+}

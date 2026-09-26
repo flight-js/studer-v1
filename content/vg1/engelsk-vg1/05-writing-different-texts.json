@@ -1,0 +1,368 @@
+{
+  "id": "writing-different-texts",
+  "fagId": "engelsk-vg1",
+  "trinnId": "vg1",
+  "name": "Writing different types of texts",
+  "intro": "How to write formal and informal texts that describe, discuss, argue and reflect – essays, articles, formal emails, reports, blog posts and multimodal texts – and how to plan, revise and use digital tools wisely.",
+  "kompetansemaal": [
+    13,
+    14,
+    1,
+    2
+  ],
+  "sammendrag": "## Purpose, audience and situation\n\nBefore you write, ask three questions:\n\n- **Purpose**: Do you want to **describe**, **discuss**, **argue**, **explain** or **reflect**?\n- **Audience**: Who will read it – a teacher, a company, teenagers, the general public?\n- **Situation**: Is it an exam, a newspaper, a blog or an email?\n\nThe answers decide the **text type**, the **structure** and the **register**.\n\n## Common text types\n\n- **Argumentative essay**: Takes a clear position in a **thesis statement** and supports it with arguments, evidence and a counterargument.\n- **Discussion essay** (for and against): Presents **both sides** fairly before reaching a balanced conclusion.\n- **Reflective text**: Explores your own thoughts and experiences and connects them to broader ideas. *I* is natural here, but the text should still be well structured.\n- **Article**: Has a catchy **headline**, an engaging **introduction** (a lead) and often **subheadings**. The style depends on the publication.\n- **Formal email or letter**: Clear subject line, polite greeting and closing. In British English, *Dear Sir or Madam* is followed by *Yours faithfully*, while *Dear Ms Smith* is followed by *Yours sincerely*.\n- **Report**: Objective, with **headings** such as *Introduction, Findings, Recommendations*.\n- **Blog post**: Informal and personal, often with a direct address to the reader.\n- **Speech**: Written to be heard – with rhetorical questions, repetition and a strong ending.\n\n## Multimodal texts\n\nA **multimodal text** combines several modes – writing, images, sound, video, layout. Examples are posters, websites, presentations and podcasts with visuals. Each element should **support the message**. Think about how text and image work together, and remember to credit images you have not made yourself.\n\n## The writing process\n\n1. **Plan**: Brainstorm, research and make an **outline**.\n2. **Draft**: Get your ideas down.\n3. **Revise**: Improve content, structure and argumentation – use the **assessment criteria**.\n4. **Edit and proofread**: Correct grammar, spelling and punctuation.\n\nWhen you get **feedback**, make a plan: What will you change, and how? Keep a list of your **typical mistakes** and check for them every time.\n\n## Digital tools\n\n- **Online dictionaries** (for example Cambridge or Merriam-Webster) give meaning, examples and pronunciation.\n- A **thesaurus** helps you find synonyms – but check that the word fits the context.\n- **Spell checkers** catch typos but not all mistakes, such as *there/their*.\n- **AI tools** can give ideas and feedback, but they can be wrong, and you must follow your school's rules. The text you hand in should show **your** understanding and skills.\n\n## A good text\n\nA strong text has a **clear main idea**, a **logical structure**, **relevant content** with examples, **varied and precise language** and a register that fits the situation.",
+  "flashcards": [
+    {
+      "term": "Purpose",
+      "def": "What the text should do: describe, discuss, argue, explain or reflect."
+    },
+    {
+      "term": "Audience",
+      "def": "The people who will read the text."
+    },
+    {
+      "term": "Argumentative essay",
+      "def": "Takes a clear position and supports it with arguments."
+    },
+    {
+      "term": "Discussion essay",
+      "def": "Presents both sides fairly before a balanced conclusion."
+    },
+    {
+      "term": "Reflective text",
+      "def": "Explores your own thoughts and connects them to broader ideas."
+    },
+    {
+      "term": "Lead",
+      "def": "The engaging introduction to an article."
+    },
+    {
+      "term": "Yours faithfully",
+      "def": "British closing after Dear Sir or Madam."
+    },
+    {
+      "term": "Yours sincerely",
+      "def": "British closing after a greeting with the person's name."
+    },
+    {
+      "term": "Report",
+      "def": "Objective text with headings such as Findings and Recommendations."
+    },
+    {
+      "term": "Multimodal text",
+      "def": "A text that combines writing, images, sound or video."
+    },
+    {
+      "term": "Outline",
+      "def": "A plan for the structure of a text."
+    },
+    {
+      "term": "Revise",
+      "def": "Improve content, structure and argumentation."
+    },
+    {
+      "term": "Proofread",
+      "def": "Check grammar, spelling and punctuation."
+    },
+    {
+      "term": "Thesaurus",
+      "def": "A dictionary of synonyms."
+    },
+    {
+      "term": "Assessment criteria",
+      "def": "Descriptions of what a good text should contain."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Which three questions should you ask before you start writing?",
+      "options": [
+        "How long, how fast and how hard?",
+        "What is my purpose, who is my audience and what is the situation?",
+        "Which font, which colour and which size?",
+        "Who, when and where?"
+      ],
+      "correct": 1,
+      "explain": "The answers decide text type, structure and register."
+    },
+    {
+      "id": "q02",
+      "text": "Which text type presents both sides fairly before reaching a balanced conclusion?",
+      "options": [
+        "A discussion essay",
+        "An argumentative essay",
+        "A blog post",
+        "A speech"
+      ],
+      "correct": 0,
+      "explain": "An argumentative essay takes one clear position."
+    },
+    {
+      "id": "q03",
+      "text": "Which closing follows Dear Sir or Madam in British English?",
+      "options": [
+        "Yours sincerely",
+        "Cheers",
+        "Yours faithfully",
+        "Love"
+      ],
+      "correct": 2,
+      "explain": "Yours sincerely is used when you know the person's name."
+    },
+    {
+      "id": "q04",
+      "text": "What is a multimodal text?",
+      "options": [
+        "A text in several languages",
+        "A very long text",
+        "A text with many paragraphs",
+        "A text that combines writing, images, sound or video"
+      ],
+      "correct": 3,
+      "explain": "Posters, websites and podcasts with visuals are examples."
+    },
+    {
+      "id": "q05",
+      "text": "What should you focus on when you revise a text?",
+      "options": [
+        "Content, structure and argumentation",
+        "Only the font",
+        "Only the title",
+        "Only the word count"
+      ],
+      "correct": 0,
+      "explain": "Proofreading for small errors comes afterwards."
+    },
+    {
+      "id": "q06",
+      "text": "What is a typical feature of a report?",
+      "options": [
+        "Rhymes",
+        "Headings such as Introduction, Findings and Recommendations",
+        "Slang",
+        "A personal diary style"
+      ],
+      "correct": 1,
+      "explain": "Reports are objective and well organised."
+    },
+    {
+      "id": "q07",
+      "text": "Why can you not rely only on a spell checker?",
+      "options": [
+        "It is always wrong",
+        "It is too slow",
+        "It does not catch all mistakes, such as there and their",
+        "It changes the language"
+      ],
+      "correct": 2,
+      "explain": "Both there and their are correctly spelled words."
+    },
+    {
+      "id": "q08",
+      "text": "What is important when using AI tools for writing?",
+      "options": [
+        "Copying the text directly",
+        "Never checking the output",
+        "Using them to write the whole text",
+        "Following the school's rules and checking the output"
+      ],
+      "correct": 3,
+      "explain": "AI can be wrong, and your text should show your own skills."
+    },
+    {
+      "id": "q09",
+      "text": "What is a lead in an article?",
+      "options": [
+        "An engaging introduction",
+        "The list of sources",
+        "The last sentence",
+        "The picture caption"
+      ],
+      "correct": 0,
+      "explain": "The lead should make the reader want to continue."
+    },
+    {
+      "id": "q10",
+      "text": "What is an outline?",
+      "options": [
+        "A finished text",
+        "A plan for the structure of a text",
+        "A summary written afterwards",
+        "A type of dictionary"
+      ],
+      "correct": 1,
+      "explain": "An outline makes the writing process easier."
+    }
+  ],
+  "mindmap": {
+    "label": "Writing different texts",
+    "children": [
+      {
+        "label": "Before writing",
+        "children": [
+          {
+            "label": "Purpose"
+          },
+          {
+            "label": "Audience"
+          },
+          {
+            "label": "Situation"
+          }
+        ]
+      },
+      {
+        "label": "Text types",
+        "children": [
+          {
+            "label": "Essays"
+          },
+          {
+            "label": "Article"
+          },
+          {
+            "label": "Formal email"
+          },
+          {
+            "label": "Report and blog"
+          }
+        ]
+      },
+      {
+        "label": "Multimodal",
+        "children": [
+          {
+            "label": "Text and images"
+          },
+          {
+            "label": "Sound and video"
+          },
+          {
+            "label": "Credit sources"
+          }
+        ]
+      },
+      {
+        "label": "Process",
+        "children": [
+          {
+            "label": "Plan"
+          },
+          {
+            "label": "Draft"
+          },
+          {
+            "label": "Revise"
+          },
+          {
+            "label": "Proofread"
+          }
+        ]
+      },
+      {
+        "label": "Digital tools",
+        "children": [
+          {
+            "label": "Dictionaries"
+          },
+          {
+            "label": "Thesaurus"
+          },
+          {
+            "label": "Spell checker"
+          },
+          {
+            "label": "AI with care"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Using I is natural in a reflective text.",
+        "correct": true,
+        "explain": "Reflective texts explore your own thoughts."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "All text types should use the same register.",
+        "correct": false,
+        "explain": "The register depends on purpose, audience and situation."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Images in a multimodal text should support the message.",
+        "correct": true,
+        "explain": "Each element should work together with the others."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "A thesaurus always gives words that fit every context.",
+        "correct": false,
+        "explain": "Synonyms often have different nuances."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Which closing follows Dear Ms Smith in British English?",
+        "options": [
+          "Yours faithfully",
+          "Yours sincerely",
+          "See you",
+          "Regards, mate"
+        ],
+        "correct": 1,
+        "explain": "Use Yours sincerely when you know the name."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Which text type is written to be heard?",
+        "options": [
+          "A report",
+          "A formal email",
+          "A speech",
+          "A reference list"
+        ],
+        "correct": 2,
+        "explain": "Speeches use repetition and rhetorical questions."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "What is a good way to use feedback on your text?",
+        "options": [
+          "Make a plan for what to change and keep a list of typical mistakes",
+          "Ignore it",
+          "Delete the text and start over",
+          "Only fix the spelling"
+        ],
+        "correct": 0,
+        "explain": "This helps you improve over time."
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
+}

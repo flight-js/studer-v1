@@ -1,0 +1,357 @@
+{
+  "id": "english-as-a-world-language",
+  "fagId": "engelsk-vg1",
+  "trinnId": "vg1",
+  "name": "English as a world language",
+  "intro": "How English developed from Old English to a global language – the Anglo-Saxons, the Vikings, the Normans, Shakespeare and the British Empire – varieties of English today, and how English and Norwegian are related.",
+  "kompetansemaal": [
+    15,
+    7
+  ],
+  "sammendrag": "## From Old English to Middle English\n\n**Old English** came to Britain with the **Anglo-Saxons** – Germanic tribes who settled there from around the fifth century. Old English looks very foreign to us today, but many basic words come from it: *house*, *water*, *eat*, *mother*.\n\nFrom the late eighth century, **Vikings** from Scandinavia raided and settled in England. Old Norse left many everyday words: *sky*, *egg*, *knife*, *window*, *take*, *get* and even the pronouns *they*, *them* and *their*. This is one reason why English and Norwegian have so much in common.\n\nIn **1066**, the **Normans** from France conquered England. For centuries, the upper classes spoke French, and thousands of French words entered English – especially about law, government and food: *court*, *justice*, *government*, *beef*, *pork*. The language of this period (about 1100–1500) is called **Middle English**. **Geoffrey Chaucer** wrote *The Canterbury Tales* in Middle English in the late fourteenth century.\n\n## Early Modern English\n\n**William Caxton** brought the **printing press** to England in **1476**, which helped standardise spelling. **William Shakespeare** (1564–1616) invented or popularised many words and expressions still used today, and the **King James Bible** (1611) spread a common written language. **Samuel Johnson's** dictionary (1755) and **Noah Webster's** American dictionary (1828) shaped British and American spelling – which is why we have *colour* and *color*.\n\n## Why English became global\n\n- The **British Empire** spread English to North America, Australia, Africa, Asia and the Caribbean.\n- After the Second World War, the **USA** became the leading economic, political and cultural power.\n- **Film, music, science, business, aviation** and the **internet** use English as a shared language.\n\nToday, more than a billion people speak English, but most of them are **not native speakers**. English is a **lingua franca** – a common language between people with different first languages.\n\n## World Englishes\n\nThe linguist **Braj Kachru** described three circles of English:\n\n- **Inner circle**: English is the main native language – the UK, the USA, Canada, Australia, New Zealand, Ireland.\n- **Outer circle**: English is an official or second language, often because of colonial history – India, Nigeria, Singapore.\n- **Expanding circle**: English is learned as a foreign language – Norway, China, Brazil.\n\nThere is no single “correct” English. **Indian English**, **Nigerian English** and **Scottish English** are all varieties with their own vocabulary and pronunciation.\n\n## English and Norwegian\n\nEnglish and Norwegian are both **Germanic languages**, so many words look alike: *hus – house*, *bok – book*, *vinter – winter*. This helps Norwegian learners, but watch out for **false friends** – words that look similar but mean something different:\n\n- *eventually* means «til slutt», not «eventuelt»\n- *actual* means «faktisk», not «aktuell»\n- *sensible* means «fornuftig», not «sensitiv»\n- *become* means «bli», not «bekomme»\n\nUsing what you know about Norwegian and other languages you speak is a smart **learning strategy** – as long as you check the false friends.",
+  "flashcards": [
+    {
+      "term": "Old English",
+      "def": "The language of the Anglo-Saxons, from around the fifth century."
+    },
+    {
+      "term": "Anglo-Saxons",
+      "def": "Germanic tribes who settled in Britain and brought Old English."
+    },
+    {
+      "term": "Old Norse influence",
+      "def": "Viking loanwords like sky, egg, window and they."
+    },
+    {
+      "term": "1066",
+      "def": "The Norman Conquest, which brought many French words into English."
+    },
+    {
+      "term": "Middle English",
+      "def": "English from about 1100 to 1500, the language of Chaucer."
+    },
+    {
+      "term": "William Caxton",
+      "def": "Brought the printing press to England in 1476."
+    },
+    {
+      "term": "Shakespeare",
+      "def": "Playwright (1564–1616) who shaped many English words and expressions."
+    },
+    {
+      "term": "Noah Webster",
+      "def": "Wrote an American dictionary (1828) that shaped American spelling."
+    },
+    {
+      "term": "Lingua franca",
+      "def": "A common language between people with different first languages."
+    },
+    {
+      "term": "Inner circle",
+      "def": "Countries where English is the main native language."
+    },
+    {
+      "term": "Outer circle",
+      "def": "Countries where English is an official or second language, such as India."
+    },
+    {
+      "term": "Expanding circle",
+      "def": "Countries where English is learned as a foreign language, such as Norway."
+    },
+    {
+      "term": "World Englishes",
+      "def": "The many varieties of English spoken around the world."
+    },
+    {
+      "term": "False friends",
+      "def": "Words that look similar in two languages but mean different things."
+    },
+    {
+      "term": "eventually",
+      "def": "«til slutt» – not «eventuelt»."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Who brought Old English to Britain?",
+      "options": [
+        "The Vikings",
+        "The Anglo-Saxons",
+        "The Normans",
+        "The Romans"
+      ],
+      "correct": 1,
+      "explain": "Germanic tribes settled in Britain from around the fifth century."
+    },
+    {
+      "id": "q02",
+      "text": "Which of these words came into English from Old Norse?",
+      "options": [
+        "window",
+        "government",
+        "justice",
+        "beef"
+      ],
+      "correct": 0,
+      "explain": "Window comes from Old Norse vindauga. The others are French."
+    },
+    {
+      "id": "q03",
+      "text": "What happened in 1066?",
+      "options": [
+        "Shakespeare was born",
+        "The printing press came to England",
+        "The Normans conquered England",
+        "The Vikings left Britain"
+      ],
+      "correct": 2,
+      "explain": "The Norman Conquest brought thousands of French words into English."
+    },
+    {
+      "id": "q04",
+      "text": "What is a lingua franca?",
+      "options": [
+        "A French dialect",
+        "A dead language",
+        "A variety of American English",
+        "A common language between people with different first languages"
+      ],
+      "correct": 3,
+      "explain": "English is used as a lingua franca in business, science and travel."
+    },
+    {
+      "id": "q05",
+      "text": "In Kachru's model, which circle does Norway belong to?",
+      "options": [
+        "The expanding circle",
+        "The inner circle",
+        "The outer circle",
+        "None of them"
+      ],
+      "correct": 0,
+      "explain": "In Norway, English is learned as a foreign language."
+    },
+    {
+      "id": "q06",
+      "text": "Why do Americans write color and Britons colour?",
+      "options": [
+        "Because of the Vikings",
+        "Because of Noah Webster's American dictionary",
+        "Because of the Normans",
+        "Because of the internet"
+      ],
+      "correct": 1,
+      "explain": "Webster simplified many spellings in his dictionary from 1828."
+    },
+    {
+      "id": "q07",
+      "text": "What does the English word eventually mean?",
+      "options": [
+        "eventuelt",
+        "kanskje",
+        "til slutt",
+        "heldigvis"
+      ],
+      "correct": 2,
+      "explain": "Eventually is a false friend for Norwegian learners."
+    },
+    {
+      "id": "q08",
+      "text": "Which is NOT a reason why English became a world language?",
+      "options": [
+        "The British Empire",
+        "The power of the USA after the Second World War",
+        "The internet",
+        "English grammar being the easiest in the world"
+      ],
+      "correct": 3,
+      "explain": "Power, trade, culture and technology spread English – not its grammar."
+    },
+    {
+      "id": "q09",
+      "text": "Which country is in the outer circle?",
+      "options": [
+        "India",
+        "Australia",
+        "Norway",
+        "Brazil"
+      ],
+      "correct": 0,
+      "explain": "English is an official language in India because of colonial history."
+    },
+    {
+      "id": "q10",
+      "text": "Who wrote The Canterbury Tales?",
+      "options": [
+        "Shakespeare",
+        "Geoffrey Chaucer",
+        "Samuel Johnson",
+        "William Caxton"
+      ],
+      "correct": 1,
+      "explain": "Chaucer wrote it in Middle English in the late fourteenth century."
+    }
+  ],
+  "mindmap": {
+    "label": "English as a world language",
+    "children": [
+      {
+        "label": "Old English",
+        "children": [
+          {
+            "label": "Anglo-Saxons"
+          },
+          {
+            "label": "Viking loanwords"
+          }
+        ]
+      },
+      {
+        "label": "Middle English",
+        "children": [
+          {
+            "label": "1066 Norman Conquest"
+          },
+          {
+            "label": "French words"
+          },
+          {
+            "label": "Chaucer"
+          }
+        ]
+      },
+      {
+        "label": "Modern English",
+        "children": [
+          {
+            "label": "Printing press 1476"
+          },
+          {
+            "label": "Shakespeare"
+          },
+          {
+            "label": "Dictionaries"
+          }
+        ]
+      },
+      {
+        "label": "Global English",
+        "children": [
+          {
+            "label": "British Empire"
+          },
+          {
+            "label": "USA"
+          },
+          {
+            "label": "Internet"
+          },
+          {
+            "label": "Kachru's circles"
+          }
+        ]
+      },
+      {
+        "label": "English and Norwegian",
+        "children": [
+          {
+            "label": "Germanic languages"
+          },
+          {
+            "label": "Similar words"
+          },
+          {
+            "label": "False friends"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "The pronoun they comes from Old Norse.",
+        "correct": true,
+        "explain": "It replaced the Old English form."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Most people who speak English today are native speakers.",
+        "correct": false,
+        "explain": "Most English speakers use it as a second or foreign language."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Nigerian English is a variety of English.",
+        "correct": true,
+        "explain": "There are many World Englishes."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "The English word actual means «aktuell».",
+        "correct": false,
+        "explain": "Actual means «faktisk»."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Which word came into English from French after 1066?",
+        "options": [
+          "egg",
+          "sky",
+          "court",
+          "they"
+        ],
+        "correct": 2,
+        "explain": "Many legal and political words are French."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "When did Caxton bring the printing press to England?",
+        "options": [
+          "1476",
+          "1066",
+          "1611",
+          "1755"
+        ],
+        "correct": 0,
+        "explain": "Printing helped standardise English spelling."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "What does the English word sensible mean?",
+        "options": [
+          "sensitiv",
+          "fornuftig",
+          "følsom",
+          "sensasjonell"
+        ],
+        "correct": 1,
+        "explain": "Sensible is a false friend."
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
+}

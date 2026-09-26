@@ -1,0 +1,361 @@
+{
+  "id": "diversity-in-the-english-speaking-world",
+  "fagId": "engelsk-vg1",
+  "trinnId": "vg1",
+  "name": "Diversity and society in the English-speaking world",
+  "intro": "Diversity and social issues in the UK, the USA, Canada, Australia, New Zealand, South Africa and India, seen in light of history – colonialism, slavery, civil rights, Indigenous peoples and migration.",
+  "kompetansemaal": [
+    16
+  ],
+  "sammendrag": "## A world shaped by history\n\nThe English-speaking world is **diverse** – in ethnicity, religion, language, class and culture. Many present-day issues can only be understood in light of **history**: the **British Empire**, **colonialism**, the **transatlantic slave trade** and **migration**.\n\n## The United Kingdom\n\nThe UK consists of **England, Scotland, Wales** and **Northern Ireland**, each with its own identity. After the Second World War, people from the Caribbean, India, Pakistan and Africa came to help rebuild Britain – the ship **Empire Windrush** arrived in **1948**, and the “Windrush generation” became a symbol of multicultural Britain. Today, **class**, **regional differences** and debates about **immigration** – for example in the **Brexit** referendum of **2016** – are important issues.\n\n## The United States\n\nThe USA is often called a **nation of immigrants**, but its history also includes the displacement of **Native Americans** and centuries of **slavery**. After the Civil War, slavery was abolished, but **segregation** continued in the South. The **civil rights movement** – with **Rosa Parks** (1955) and **Martin Luther King Jr.**'s “I Have a Dream” speech (1963) – led to the **Civil Rights Act (1964)** and the **Voting Rights Act (1965)**. Movements like **Black Lives Matter** show that questions of racism and inequality are still debated.\n\n## Indigenous peoples\n\n- **Australia**: **Aboriginal and Torres Strait Islander peoples** have lived there for tens of thousands of years. Children were taken from their families in what is called the **Stolen Generations**, and the Australian government made a formal **apology** in **2008**.\n- **New Zealand**: The **Treaty of Waitangi** (1840) between the British Crown and **Māori** chiefs is seen as the country's founding document. Māori is an official language.\n- **Canada**: **First Nations**, **Inuit** and **Métis** peoples suffered under the **residential school** system. A **Truth and Reconciliation Commission** presented its final report in **2015**.\n\n## South Africa and India\n\n- **South Africa** had **apartheid** – a system of racial segregation – from **1948** to **1994**, when **Nelson Mandela** became the first democratically elected president. The country has eleven or more official languages, and English is one of them.\n- **India** became independent from Britain in **1947**. English is still widely used in government, business and higher education, alongside Hindi and many other languages.\n\n## Talking about diversity\n\nWhen you discuss diversity, be aware of **stereotypes** and the **danger of a single story** – a phrase from the Nigerian author **Chimamanda Ngozi Adichie**, who warns that one story about a people or place creates a limited and incomplete picture. Use **respectful** and **precise** language, and try to include **different perspectives** – especially the voices of the people concerned.\n\n## Why does it matter?\n\nUnderstanding the history and diversity of the English-speaking world helps you **read texts in context**, take part in **global conversations** and reflect on similar issues in Norway, such as the history of the **Sámi** people.",
+  "flashcards": [
+    {
+      "term": "Empire Windrush",
+      "def": "Ship that brought Caribbean migrants to Britain in 1948."
+    },
+    {
+      "term": "Brexit",
+      "def": "The UK's departure from the EU, decided in a 2016 referendum."
+    },
+    {
+      "term": "Segregation",
+      "def": "Separation of people based on race."
+    },
+    {
+      "term": "Civil rights movement",
+      "def": "The struggle for equal rights for African Americans in the 1950s and 1960s."
+    },
+    {
+      "term": "Rosa Parks",
+      "def": "Refused to give up her bus seat in 1955."
+    },
+    {
+      "term": "Civil Rights Act",
+      "def": "US law from 1964 that banned discrimination."
+    },
+    {
+      "term": "Black Lives Matter",
+      "def": "Movement against racism and police violence."
+    },
+    {
+      "term": "Stolen Generations",
+      "def": "Aboriginal children removed from their families in Australia."
+    },
+    {
+      "term": "Treaty of Waitangi",
+      "def": "Treaty from 1840 between the British Crown and Māori chiefs."
+    },
+    {
+      "term": "Residential schools",
+      "def": "Canadian boarding schools that tried to assimilate Indigenous children."
+    },
+    {
+      "term": "Apartheid",
+      "def": "System of racial segregation in South Africa from 1948 to 1994."
+    },
+    {
+      "term": "Nelson Mandela",
+      "def": "South Africa's first democratically elected president (1994)."
+    },
+    {
+      "term": "1947",
+      "def": "The year India became independent from Britain."
+    },
+    {
+      "term": "The danger of a single story",
+      "def": "Adichie's warning against seeing a people through only one story."
+    },
+    {
+      "term": "Stereotype",
+      "def": "A simplified and fixed image of a group."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "What does the Windrush generation refer to?",
+      "options": [
+        "Vikings who settled in England",
+        "Caribbean migrants who came to Britain after 1948",
+        "British people who moved to Australia",
+        "Irish emigrants to the USA"
+      ],
+      "correct": 1,
+      "explain": "The ship Empire Windrush arrived in 1948."
+    },
+    {
+      "id": "q02",
+      "text": "Which law from 1964 banned discrimination in the USA?",
+      "options": [
+        "The Civil Rights Act",
+        "The Voting Rights Act",
+        "The Treaty of Waitangi",
+        "The Emancipation Proclamation"
+      ],
+      "correct": 0,
+      "explain": "The Voting Rights Act followed in 1965."
+    },
+    {
+      "id": "q03",
+      "text": "What was apartheid?",
+      "options": [
+        "A British trade system",
+        "An Indian independence movement",
+        "A system of racial segregation in South Africa",
+        "A Canadian school system"
+      ],
+      "correct": 2,
+      "explain": "It lasted from 1948 to 1994."
+    },
+    {
+      "id": "q04",
+      "text": "What are the Stolen Generations?",
+      "options": [
+        "Soldiers in the First World War",
+        "Victims of the slave trade in the USA",
+        "British children sent to Canada",
+        "Aboriginal children taken from their families in Australia"
+      ],
+      "correct": 3,
+      "explain": "The Australian government apologised in 2008."
+    },
+    {
+      "id": "q05",
+      "text": "Which document is seen as New Zealand's founding document?",
+      "options": [
+        "The Treaty of Waitangi",
+        "The Magna Carta",
+        "The Declaration of Independence",
+        "The Civil Rights Act"
+      ],
+      "correct": 0,
+      "explain": "It was signed in 1840 by the British Crown and Māori chiefs."
+    },
+    {
+      "id": "q06",
+      "text": "When did India become independent?",
+      "options": [
+        "1914",
+        "1947",
+        "1965",
+        "1994"
+      ],
+      "correct": 1,
+      "explain": "English is still widely used in India today."
+    },
+    {
+      "id": "q07",
+      "text": "What does “the danger of a single story” mean?",
+      "options": [
+        "That short stories are dangerous",
+        "That you should only read one book",
+        "That one story about a people creates an incomplete picture",
+        "That history is boring"
+      ],
+      "correct": 2,
+      "explain": "The phrase comes from Chimamanda Ngozi Adichie."
+    },
+    {
+      "id": "q08",
+      "text": "Which Indigenous peoples live in Canada?",
+      "options": [
+        "Māori",
+        "Aboriginal peoples",
+        "Sámi",
+        "First Nations, Inuit and Métis"
+      ],
+      "correct": 3,
+      "explain": "Many suffered under the residential school system."
+    },
+    {
+      "id": "q09",
+      "text": "Who became South Africa's first democratically elected president in 1994?",
+      "options": [
+        "Nelson Mandela",
+        "Martin Luther King Jr.",
+        "Desmond Tutu",
+        "Mahatma Gandhi"
+      ],
+      "correct": 0,
+      "explain": "He had spent 27 years in prison."
+    },
+    {
+      "id": "q10",
+      "text": "Why is it important to include different perspectives when discussing diversity?",
+      "options": [
+        "To make the text longer",
+        "To avoid stereotypes and give a more complete picture",
+        "Because teachers require it",
+        "It is not important"
+      ],
+      "correct": 1,
+      "explain": "The voices of the people concerned are especially important."
+    }
+  ],
+  "mindmap": {
+    "label": "Diversity in the English-speaking world",
+    "children": [
+      {
+        "label": "UK",
+        "children": [
+          {
+            "label": "Four nations"
+          },
+          {
+            "label": "Windrush 1948"
+          },
+          {
+            "label": "Brexit"
+          }
+        ]
+      },
+      {
+        "label": "USA",
+        "children": [
+          {
+            "label": "Native Americans"
+          },
+          {
+            "label": "Slavery and segregation"
+          },
+          {
+            "label": "Civil rights movement"
+          },
+          {
+            "label": "Black Lives Matter"
+          }
+        ]
+      },
+      {
+        "label": "Indigenous peoples",
+        "children": [
+          {
+            "label": "Stolen Generations"
+          },
+          {
+            "label": "Treaty of Waitangi"
+          },
+          {
+            "label": "Residential schools"
+          }
+        ]
+      },
+      {
+        "label": "Former colonies",
+        "children": [
+          {
+            "label": "Apartheid"
+          },
+          {
+            "label": "Mandela"
+          },
+          {
+            "label": "India 1947"
+          }
+        ]
+      },
+      {
+        "label": "Perspectives",
+        "children": [
+          {
+            "label": "Stereotypes"
+          },
+          {
+            "label": "A single story"
+          },
+          {
+            "label": "Respectful language"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Rosa Parks refused to give up her bus seat in 1955.",
+        "correct": true,
+        "explain": "Her protest led to the Montgomery bus boycott."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Apartheid ended in 1948.",
+        "correct": false,
+        "explain": "Apartheid began in 1948 and ended in 1994."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Māori is an official language in New Zealand.",
+        "correct": true,
+        "explain": "Māori language and culture have been revitalised in recent decades."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "The UK consists of England and Scotland only.",
+        "correct": false,
+        "explain": "Wales and Northern Ireland are also part of the UK."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "In which year did Martin Luther King Jr. give his “I Have a Dream” speech?",
+        "options": [
+          "1948",
+          "1955",
+          "1963",
+          "1994"
+        ],
+        "correct": 2,
+        "explain": "The speech was given during the March on Washington."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "What were residential schools in Canada?",
+        "options": [
+          "Boarding schools that tried to assimilate Indigenous children",
+          "Universities for adults",
+          "Schools for British immigrants",
+          "Private schools for the rich"
+        ],
+        "correct": 0,
+        "explain": "A Truth and Reconciliation Commission reported on them in 2015."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Which referendum was held in the UK in 2016?",
+        "options": [
+          "On Scottish independence",
+          "On EU membership",
+          "On the monarchy",
+          "On voting age"
+        ],
+        "correct": 1,
+        "explain": "A majority voted to leave the EU."
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "sjekkes",
+    "merknader": [
+      "Sjekk formuleringen om antall offisielle språk i Sør-Afrika (endret i 2023 da tegnspråk ble lagt til)."
+    ]
+  }
+}
