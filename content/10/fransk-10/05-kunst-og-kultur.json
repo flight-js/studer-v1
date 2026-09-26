@@ -1,0 +1,85 @@
+{
+  "id": "kunst-og-kultur",
+  "fagId": "fransk-10",
+  "trinnId": "10",
+  "name": "Kunst og kultur",
+  "intro": "Kjent musikk, litteratur, tegneserier, film, kunst og arkitektur fra Frankrike og den fransktalende verden, og hvordan du presenterer et kunstverk og sier hva du synes på fransk.",
+  "kompetansemaal": [9],
+  "sammendrag": "## Musikk\n\n- **La chanson française** er en tradisjon der teksten står i sentrum. Den mest kjente sangeren er **Édith Piaf**, med sanger som *La vie en rose* og *Non, je ne regrette rien*.\n- **Daft Punk**, en duo fra Paris, ble verdensberømt for elektronisk musikk.\n- **Stromae** fra **Belgia** blander elektronisk musikk og rap med tekster om livet, som *Alors on danse* og *Papaoutai*.\n- **Céline Dion** fra **Québec** i Canada er en av verdens mest solgte artister. Hun vant Eurovision for Sveits i 1988.\n- I dag er fransk rap og pop svært populært, og mange artister har røtter i Afrika og Karibia.\n\n## Litteratur og tegneserier\n\n- **Victor Hugo** skrev *Les Misérables* og *Notre-Dame de Paris* (Klokkeren fra Notre-Dame).\n- **Jules Verne** skrev eventyrromaner som *Jorden rundt på 80 dager* og *En verdensomseiling under havet*.\n- **Le Petit Prince** (Den lille prinsen) av **Antoine de Saint-Exupéry** er en av verdens mest oversatte bøker.\n- **Molière** skrev komedier på 1600-tallet og regnes som Frankrikes største dramatiker.\n- **La bande dessinée** (tegneserier) kalles «den niende kunst» i Frankrike og Belgia. Kjente eksempler er franske *Astérix* og belgiske *Tintin*.\n\n## Film\n\n**Brødrene Lumière** viste film for et betalende publikum for første gang, i Paris i **1895**. Hvert år arrangeres **Festival de Cannes**, en av verdens mest kjente filmfestivaler, der hovedprisen heter *la Palme d'or*. Populære franske filmer er *Amélie* og *De urørlige* (*Intouchables*).\n\n## Kunst og arkitektur\n\n- **Impresjonismen** fikk navnet sitt fra maleriet *Impression, soleil levant* av **Claude Monet**. Impresjonistene malte lys og stemninger, ofte utendørs.\n- **Auguste Rodin** laget skulpturen *Le Penseur* (Tenkeren).\n- **Louvre** er verdens mest besøkte kunstmuseum, med blant annet *Mona Lisa*.\n- **Notre-Dame de Paris** ble hardt skadet i en brann i 2019 og gjenåpnet etter restaurering i 2024. Andre kjente byggverk er **Eiffeltårnet**, **Versailles-slottet** og **Mont-Saint-Michel**.\n\n## Si hva du synes\n\n- **Ma chanson préférée, c'est …** – Yndlingssangen min er …\n- **Le livre parle de …** – Boka handler om …\n- **Ça me plaît parce que …** – Jeg liker det fordi …\n- **Je trouve le film drôle / émouvant / passionnant / ennuyeux.** – Jeg synes filmen er morsom / rørende / spennende / kjedelig.\n\nNår du presenterer et kunstverk, kan du fortelle hvem som har laget det, når det ble laget, og hva det handler om. Til slutt sier du hva du selv synes, med begrunnelse.",
+  "flashcards": [
+    { "term": "Édith Piaf", "def": "Fransk sanger kjent for La vie en rose" },
+    { "term": "Stromae", "def": "Belgisk artist, kjent for Alors on danse og Papaoutai" },
+    { "term": "Céline Dion", "def": "Sanger fra Québec, en av verdens mest solgte artister" },
+    { "term": "Daft Punk", "def": "Elektronisk duo fra Paris" },
+    { "term": "Victor Hugo", "def": "Forfatter av Les Misérables og Notre-Dame de Paris" },
+    { "term": "Le Petit Prince", "def": "Den lille prinsen av Saint-Exupéry, en av verdens mest oversatte bøker" },
+    { "term": "Jules Verne", "def": "Skrev Jorden rundt på 80 dager" },
+    { "term": "la bande dessinée", "def": "tegneserien – «den niende kunst»" },
+    { "term": "les frères Lumière", "def": "Viste film for betalende publikum første gang, i 1895" },
+    { "term": "le Festival de Cannes", "def": "Kjent filmfestival med hovedprisen la Palme d'or" },
+    { "term": "l'impressionnisme", "def": "Kunstretning oppkalt etter et maleri av Claude Monet" },
+    { "term": "Rodin – Le Penseur", "def": "Skulpturen Tenkeren" },
+    { "term": "Notre-Dame de Paris", "def": "Katedral som brant i 2019 og gjenåpnet i 2024" },
+    { "term": "Ça me plaît.", "def": "Jeg liker det." },
+    { "term": "Le livre parle de …", "def": "Boka handler om …" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvem sang «La vie en rose»?", "options": ["Céline Dion", "Édith Piaf", "Stromae", "Christine and the Queens"], "correct": 1, "explain": "Piaf regnes som Frankrikes mest kjente sanger." },
+    { "id": "q02", "text": "Hvilken bok av Antoine de Saint-Exupéry er en av verdens mest oversatte?", "options": ["Les Misérables", "Notre-Dame de Paris", "Jorden rundt på 80 dager", "Le Petit Prince (Den lille prinsen)"], "correct": 3, "explain": "Boka er oversatt til flere hundre språk." },
+    { "id": "q03", "text": "Hvilket land kommer Stromae fra?", "options": ["Belgia", "Frankrike", "Canada", "Sveits"], "correct": 0, "explain": "Stromae er fra Brussel." },
+    { "id": "q04", "text": "Hvilken kunstretning har fått navnet sitt fra et maleri av Claude Monet?", "options": ["Kubismen", "Surrealismen", "Impresjonismen", "Ekspresjonismen"], "correct": 2, "explain": "Maleriet heter «Impression, soleil levant»." },
+    { "id": "q05", "text": "Hvem skrev «Les Misérables»?", "options": ["Molière", "Jules Verne", "Albert Camus", "Victor Hugo"], "correct": 3, "explain": "Romanen er også blitt en kjent musikal." },
+    { "id": "q06", "text": "Hva kalles den fransk-belgiske tegneserietradisjonen?", "options": ["le manga", "la bande dessinée", "le roman", "le comic"], "correct": 1, "explain": "Den kalles ofte «BD» (bédé)." },
+    { "id": "q07", "text": "Hvem viste film for et betalende publikum for første gang, i Paris i 1895?", "options": ["Brødrene Lumière", "Brødrene Grimm", "Daft Punk", "Victor Hugo"], "correct": 0, "explain": "Visningen regnes som kinoens fødsel." },
+    { "id": "q08", "text": "Hvilken skulptur laget Auguste Rodin?", "options": ["Venus fra Milo", "David", "Le Penseur (Tenkeren)", "Den lille havfrue"], "correct": 2, "explain": "Tenkeren er en av verdens mest kjente skulpturer." },
+    { "id": "q09", "text": "Hva betyr «Ça me plaît»?", "options": ["Det er dyrt", "Det gjør vondt", "Jeg forstår ikke", "Jeg liker det"], "correct": 3, "explain": "«plaire» betyr å falle i smak." },
+    { "id": "q10", "text": "Hvor arrangeres en av verdens mest kjente filmfestivaler?", "options": ["Cannes", "Lyon", "Bordeaux", "Lille"], "correct": 0, "explain": "Festivalen holdes hvert år i mai." }
+  ],
+  "mindmap": {
+    "label": "Kunst og kultur",
+    "children": [
+      { "label": "Musikk", "children": [
+        { "label": "Édith Piaf" },
+        { "label": "Daft Punk" },
+        { "label": "Stromae" },
+        { "label": "Céline Dion" }
+      ] },
+      { "label": "Litteratur", "children": [
+        { "label": "Victor Hugo" },
+        { "label": "Jules Verne" },
+        { "label": "Le Petit Prince" },
+        { "label": "Molière" }
+      ] },
+      { "label": "Tegneserier og film", "children": [
+        { "label": "bande dessinée" },
+        { "label": "Lumière 1895" },
+        { "label": "Festival de Cannes" }
+      ] },
+      { "label": "Kunst og arkitektur", "children": [
+        { "label": "Monet og impresjonismen" },
+        { "label": "Rodin" },
+        { "label": "Louvre" },
+        { "label": "Notre-Dame" }
+      ] },
+      { "label": "Si hva du synes", "children": [
+        { "label": "Ça me plaît parce que …" },
+        { "label": "Le livre parle de …" },
+        { "label": "Je trouve …" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Céline Dion kommer fra Québec i Canada.", "correct": true, "explain": "Fransk er hovedspråket i Québec." },
+      { "id": "m02", "type": "sant-usant", "text": "Tintin er en fransk tegneserie laget i Paris.", "correct": false, "explain": "Tintin ble laget av belgiske Hergé." },
+      { "id": "m03", "type": "sant-usant", "text": "Notre-Dame i Paris ble skadet i en brann i 2019.", "correct": true, "explain": "Katedralen gjenåpnet i 2024." },
+      { "id": "m04", "type": "sant-usant", "text": "Daft Punk var et norsk band.", "correct": false, "explain": "Daft Punk var en duo fra Paris." },
+      { "id": "m05", "type": "flervalg", "text": "Hvem skrev «Jorden rundt på 80 dager»?", "options": ["Victor Hugo", "Jules Verne", "Molière", "Albert Camus"], "correct": 1, "explain": "Jules Verne skrev mange eventyr- og framtidsromaner." },
+      { "id": "m06", "type": "flervalg", "text": "Hva betyr «Le livre parle d'une fille»?", "options": ["Boka handler om en jente", "En jente leser boka", "Boka er skrevet av en jente", "Jenta snakker"], "correct": 0, "explain": "«parler de» betyr å handle om." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilket museum har Mona Lisa?", "options": ["Musée d'Orsay", "Centre Pompidou", "Le Louvre", "Versailles"], "correct": 2, "explain": "Louvre er verdens mest besøkte kunstmuseum." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

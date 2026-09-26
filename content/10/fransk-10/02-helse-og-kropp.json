@@ -1,0 +1,85 @@
+{
+  "id": "helse-og-kropp",
+  "fagId": "fransk-10",
+  "trinnId": "10",
+  "name": "Helse og kropp",
+  "intro": "Kroppsdeler, sykdom og følelser på fransk, uttrykket avoir mal à, hvordan du forklarer hva som er galt hos legen, verbene devoir og pouvoir, il faut, og råd for et sunt liv.",
+  "kompetansemaal": [2, 1],
+  "sammendrag": "## Kroppen – le corps\n\n**la tête** (hodet), **le visage** (ansiktet), **les yeux** (øynene; ett øye er **un œil**), **les oreilles** (ørene), **le nez** (nesen), **la bouche** (munnen), **les dents** (tennene), **la gorge** (halsen), **le dos** (ryggen), **le ventre** (magen), **le bras** (armen), **la main** (hånden), **le doigt** (fingeren), **la jambe** (beinet), **le genou** (kneet) og **le pied** (foten).\n\n## Å ha vondt – avoir mal à\n\nPå fransk sier man at man «har vondt til» en kroppsdel. Husk sammentrekningene:\n\n- **J'ai mal à la tête.** – Jeg har hodepine.\n- **J'ai mal au ventre / au dos.** – Jeg har vondt i magen / ryggen. (*à + le = au*)\n- **J'ai mal aux dents.** – Jeg har tannverk. (*à + les = aux*)\n\n## Når du er syk\n\n- **Qu'est-ce qui ne va pas ?** – Hva er i veien?\n- **Je suis malade / fatigué / enrhumé.** – Jeg er syk / trøtt / forkjølet.\n- **J'ai de la fièvre.** – Jeg har feber. **Je tousse.** – Jeg hoster.\n- **J'ai mal au cœur.** – Jeg er kvalm.\n- **Bon rétablissement !** – God bedring!\n\n## Hos legen – chez le médecin\n\n**le médecin** (legen), **le cabinet** (legekontoret), **l'ordonnance** (resepten), **les médicaments** (medisinene) og **la pharmacie** (apoteket).\n\n- **Depuis quand avez-vous de la fièvre ?** – Hvor lenge har De hatt feber? – **Depuis deux jours.** – I to dager.\n- **Vous devez rester au lit et boire beaucoup d'eau.** – De må holde senga og drikke mye vann.\n\nI hele EU kan du ringe **112** i nødsituasjoner. I Frankrike kan du også ringe **15** for ambulanse.\n\n## Devoir, pouvoir og il faut\n\n- **devoir** (måtte): je dois, tu dois, il doit, nous devons, vous devez, ils doivent – *Je dois aller chez le médecin.*\n- **pouvoir** (kunne): je peux, tu peux, il peut, nous pouvons, vous pouvez, ils peuvent – *Je ne peux pas dormir.*\n- **il faut** + infinitiv (man må): *Il faut boire de l'eau.*\n\n## Et sunt liv\n\n- **manger équilibré** – spise variert og sunt\n- **faire du sport** – drive med sport\n- **dormir assez** – sove nok\n- **ne pas fumer** – ikke røyke\n- **limiter les écrans** – begrense skjermtiden\n\n## Følelser\n\n**Je suis content** eller **heureux** (glad), **triste** (lei meg), **stressé** (stresset), **nerveux** eller **en colère** (sint). Hunkjønnsformene er *contente*, *heureuse*, *stressée* og *nerveuse*. Når man ikke har det bra, hjelper det ofte å snakke med noen.",
+  "flashcards": [
+    { "term": "la tête", "def": "hodet" },
+    { "term": "le ventre", "def": "magen" },
+    { "term": "le dos", "def": "ryggen" },
+    { "term": "la jambe", "def": "beinet" },
+    { "term": "le pied", "def": "foten" },
+    { "term": "la main", "def": "hånden" },
+    { "term": "J'ai mal à la tête.", "def": "Jeg har hodepine." },
+    { "term": "J'ai mal au ventre.", "def": "Jeg har vondt i magen." },
+    { "term": "J'ai de la fièvre.", "def": "Jeg har feber." },
+    { "term": "Je suis enrhumé.", "def": "Jeg er forkjølet." },
+    { "term": "Bon rétablissement !", "def": "God bedring!" },
+    { "term": "le médecin", "def": "legen" },
+    { "term": "l'ordonnance", "def": "resepten" },
+    { "term": "devoir: je dois", "def": "å måtte: jeg må" },
+    { "term": "il faut …", "def": "man må …" },
+    { "term": "112 / 15", "def": "Nødnummer i EU / ambulanse i Frankrike" },
+    { "term": "manger équilibré", "def": "å spise variert og sunt" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva betyr «le ventre»?", "options": ["Ryggen", "Hodet", "Magen", "Beinet"], "correct": 2, "explain": "Ryggen heter «le dos»." },
+    { "id": "q02", "text": "Hvordan sier du «Jeg har hodepine»?", "options": ["J'ai mal à la tête.", "Je suis tête.", "Ma tête est malade.", "J'ai la tête mal."], "correct": 0, "explain": "«avoir mal à» + kroppsdel." },
+    { "id": "q03", "text": "Hva sier du til noen som er syke?", "options": ["Bon appétit !", "Santé !", "Bonne nuit !", "Bon rétablissement !"], "correct": 3, "explain": "Det betyr «God bedring!»." },
+    { "id": "q04", "text": "Hvordan sier du «Jeg har vondt i magen»?", "options": ["J'ai mal à le ventre.", "J'ai mal au ventre.", "J'ai mal aux ventre.", "Je suis mal ventre."], "correct": 1, "explain": "à + le blir au." },
+    { "id": "q05", "text": "Hva betyr «Je suis enrhumé»?", "options": ["Jeg fryser", "Jeg er sulten", "Jeg er trøtt", "Jeg er forkjølet"], "correct": 3, "explain": "«un rhume» betyr en forkjølelse." },
+    { "id": "q06", "text": "Hva er riktig form av «devoir» med «je»?", "options": ["je devoir", "je devons", "je dois", "je doit"], "correct": 2, "explain": "«je dois», «tu dois», «il doit»." },
+    { "id": "q07", "text": "Hva er «l'ordonnance» hos legen?", "options": ["Resepten på medisin", "En kakeoppskrift", "Regningen", "Timen"], "correct": 0, "explain": "Du tar med resepten til apoteket." },
+    { "id": "q08", "text": "Hvilket nødnummer kan du ringe i hele EU, også i Frankrike?", "options": ["113", "112", "911", "110"], "correct": 1, "explain": "I Frankrike kan du også ringe 15 for ambulanse." },
+    { "id": "q09", "text": "Hva betyr «Il faut boire beaucoup d'eau»?", "options": ["Man må ikke drikke vann", "Vannet er kaldt", "Jeg drikker mye vann", "Man må drikke mye vann"], "correct": 3, "explain": "«il faut» + infinitiv betyr «man må»." },
+    { "id": "q10", "text": "Hvilket råd hører til et sunt liv?", "options": ["Manger équilibré et dormir assez", "Fumer beaucoup", "Ne jamais manger de fruits", "Toujours manger des bonbons"], "correct": 0, "explain": "Variert mat og nok søvn er viktig for helsa." }
+  ],
+  "mindmap": {
+    "label": "Helse og kropp",
+    "children": [
+      { "label": "Kroppen", "children": [
+        { "label": "tête, visage" },
+        { "label": "ventre, dos" },
+        { "label": "bras, main, jambe, pied" }
+      ] },
+      { "label": "avoir mal à", "children": [
+        { "label": "à la tête" },
+        { "label": "au ventre" },
+        { "label": "aux dents" }
+      ] },
+      { "label": "Syk og hos legen", "children": [
+        { "label": "fièvre, rhume" },
+        { "label": "Depuis quand …?" },
+        { "label": "ordonnance, pharmacie" },
+        { "label": "112 og 15" }
+      ] },
+      { "label": "Verb", "children": [
+        { "label": "devoir" },
+        { "label": "pouvoir" },
+        { "label": "il faut" }
+      ] },
+      { "label": "Sunt liv og følelser", "children": [
+        { "label": "manger équilibré" },
+        { "label": "dormir assez" },
+        { "label": "content, triste, stressé" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "«le dos» betyr ryggen.", "correct": true, "explain": "Vondt i ryggen heter «avoir mal au dos»." },
+      { "id": "m02", "type": "sant-usant", "text": "«la fièvre» betyr hoste.", "correct": false, "explain": "«la fièvre» betyr feber. Å hoste heter «tousser»." },
+      { "id": "m03", "type": "sant-usant", "text": "I Frankrike kan du ringe 15 for å få ambulanse.", "correct": true, "explain": "112 virker også i hele EU." },
+      { "id": "m04", "type": "sant-usant", "text": "«J'ai mal au cœur» betyr at jeg er forelsket.", "correct": false, "explain": "Uttrykket betyr at jeg er kvalm." },
+      { "id": "m05", "type": "flervalg", "text": "Hva betyr «Depuis quand avez-vous de la fièvre ?»?", "options": ["Hvor lenge har De hatt feber?", "Har De feber?", "Hvorfor har De feber?", "Hvor høy feber har De?"], "correct": 0, "explain": "«depuis» betyr siden." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er «le médecin»?", "options": ["Sykepleieren", "Legen", "Apoteket", "Medisinen"], "correct": 1, "explain": "Medisinen heter «le médicament»." },
+      { "id": "m07", "type": "flervalg", "text": "Hva betyr «Je suis stressé»?", "options": ["Jeg er glad", "Jeg er sint", "Jeg er stresset", "Jeg er syk"], "correct": 2, "explain": "Sint heter «en colère»." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

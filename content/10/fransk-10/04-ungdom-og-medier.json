@@ -1,0 +1,85 @@
+{
+  "id": "ungdom-og-medier",
+  "fagId": "fransk-10",
+  "trinnId": "10",
+  "name": "Ungdom, medier og læringsstrategier",
+  "intro": "Ord og uttrykk om mobil, sosiale medier og skjermbruk på fransk, hvordan du argumenterer for og mot, ungdomsspråket verlan, strategier for å lese autentiske tekster og digitale ressurser.",
+  "kompetansemaal": [4, 7],
+  "sammendrag": "## Ungdom og medier\n\nFranske ungdommer bruker, som norske, mye tid på **le portable** (mobilen). Mange ord på dette området er lette å kjenne igjen:\n\n- **le smartphone**, **l'ordinateur** (datamaskinen), **Internet** og **l'appli** (appen)\n- **les réseaux sociaux** – sosiale medier\n- **publier** eller **poster** (legge ut), **liker**, **partager** (dele) og **commenter**\n- **télécharger** – laste ned, **envoyer un message** – sende en melding\n\n## Snakke om skjermbruk\n\n- **Combien de temps passes-tu sur ton portable ?** – Hvor mye tid bruker du på mobilen?\n- **Je passe environ deux heures par jour sur mon portable.** – Jeg bruker omtrent to timer om dagen på mobilen.\n- **J'utilise les réseaux sociaux pour rester en contact avec mes amis.** – Jeg bruker sosiale medier for å holde kontakten med vennene mine.\n\nSiden 2018 har det vært forbudt for elever å bruke mobil i franske barne- og ungdomsskoler.\n\n## Fordeler og ulemper\n\n- **l'avantage** – fordelen, **l'inconvénient** – ulempen\n- **D'un côté**, on trouve vite des informations. **De l'autre côté**, il y a beaucoup de fausses informations. – På den ene siden finner man raskt informasjon. På den andre siden finnes det mye falsk informasjon.\n- **À mon avis** … / **Je pense que** … / **Je trouve que** …\n\nViktige temaer er **le cyberharcèlement** (mobbing på nett), **la vie privée** (privatlivet) og **les fausses informations** (falske nyheter).\n\n## Ungdomsspråk – le verlan\n\nFranske ungdommer bruker ofte **verlan**, der man snur stavelsene i et ord. Selve ordet *verlan* kommer av *l'envers* (baklengs). Eksempler: *fou* → **ouf** (gal, sprø), *louche* → **chelou** (rar, mistenkelig) og *femme* → **meuf** (jente, dame).\n\n## Lese autentiske tekster\n\n- **Skumles** først: Se på overskrift, bilder og ord du kjenner.\n- Se etter **mots transparents** – ord som ligner norsk eller engelsk, som *information* og *technologie*.\n- Pass på **faux amis** – «falske venner»: *une librairie* er en bokhandel, ikke et bibliotek.\n- Bruk **sammenhengen** til å gjette hva ukjente ord betyr, og slå opp de viktigste ordene i en ordbok.\n\n## Digitale ressurser og læringsstrategier\n\n- **TV5Monde** har gratis øvelser og videoer for dem som lærer fransk.\n- **RFI** sender nyheter på lett fransk, *le journal en français facile*.\n- Se franske serier og filmer med fransk tale og tekst, og hør på fransk musikk.\n- Bruk **flashcards** og apper, og repeter ofte.\n- Bruk det du kan fra **engelsk**: Mange engelske ord kommer fra fransk.\n- **Maskinoversettelse** kan være nyttig, men den gjør feil. Vurder alltid resultatet kritisk, og ikke la den skrive oppgavene for deg.",
+  "flashcards": [
+    { "term": "le portable", "def": "mobiltelefonen" },
+    { "term": "les réseaux sociaux", "def": "sosiale medier" },
+    { "term": "partager", "def": "å dele" },
+    { "term": "télécharger", "def": "å laste ned" },
+    { "term": "publier", "def": "å legge ut, publisere" },
+    { "term": "le message", "def": "meldingen" },
+    { "term": "Combien de temps passes-tu sur ton portable ?", "def": "Hvor mye tid bruker du på mobilen?" },
+    { "term": "D'un côté … de l'autre côté …", "def": "På den ene siden … på den andre siden …" },
+    { "term": "À mon avis …", "def": "Etter min mening …" },
+    { "term": "l'avantage / l'inconvénient", "def": "fordelen / ulempen" },
+    { "term": "le cyberharcèlement", "def": "mobbing på nett" },
+    { "term": "la vie privée", "def": "privatlivet" },
+    { "term": "le verlan", "def": "ungdomsslang der man snur stavelsene: fou → ouf" },
+    { "term": "les mots transparents", "def": "ord som ligner norsk eller engelsk" },
+    { "term": "les faux amis", "def": "ord som ligner, men betyr noe annet: librairie = bokhandel" },
+    { "term": "TV5Monde", "def": "Fransk TV-kanal med gratis ressurser for å lære fransk" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er «le portable» på fransk?", "options": ["En bærbar koffert", "En port", "Mobiltelefonen", "En bærepose"], "correct": 2, "explain": "Ordet betyr egentlig «den bærbare»." },
+    { "id": "q02", "text": "Hva betyr «partager» på sosiale medier?", "options": ["Å dele", "Å slette", "Å like", "Å kommentere"], "correct": 0, "explain": "«partager» betyr også å dele noe med noen." },
+    { "id": "q03", "text": "Hvordan innleder du en mening på fransk?", "options": ["Bonjour, …", "Grosses bises, …", "Il était une fois …", "À mon avis, …"], "correct": 3, "explain": "Du kan også si «Je pense que …»." },
+    { "id": "q04", "text": "Hva betyr «D'un côté … de l'autre côté …»?", "options": ["Først … til slutt …", "På den ene siden … på den andre siden …", "Både … og …", "Enten … eller …"], "correct": 1, "explain": "Nyttig når du drøfter fordeler og ulemper." },
+    { "id": "q05", "text": "Hva er «le verlan»?", "options": ["Ungdomsslang der man snur stavelser, som «ouf» for «fou»", "En fransk avis", "En dans", "En type mobil"], "correct": 0, "explain": "«verlan» er selv «l'envers» snudd baklengs." },
+    { "id": "q06", "text": "Hva er «le cyberharcèlement»?", "options": ["Et dataspill", "En nettbutikk", "Et virus", "Mobbing på nett"], "correct": 3, "explain": "«le harcèlement» betyr trakassering." },
+    { "id": "q07", "text": "Hva er «faux amis»?", "options": ["Uvenner", "Falske profiler", "Ord som ligner et ord på et annet språk, men betyr noe annet", "Venner på nett"], "correct": 2, "explain": "For eksempel betyr «une librairie» en bokhandel." },
+    { "id": "q08", "text": "Hva betyr «télécharger»?", "options": ["Å lade mobilen", "Å laste ned", "Å ringe", "Å skrive"], "correct": 1, "explain": "Å lade mobilen heter «recharger»." },
+    { "id": "q09", "text": "Hvilken ressurs tilbyr gratis materiell for å lære fransk?", "options": ["TV5Monde", "Spotify", "Google Maps", "Instagram"], "correct": 0, "explain": "TV5Monde har øvelser på flere nivåer." },
+    { "id": "q10", "text": "Hva betyr «librairie» – et eksempel på en falsk venn?", "options": ["Bibliotek", "Frihet", "Bokhandel", "Bibel"], "correct": 2, "explain": "Biblioteket heter «la bibliothèque»." }
+  ],
+  "mindmap": {
+    "label": "Ungdom og medier",
+    "children": [
+      { "label": "Ord", "children": [
+        { "label": "portable, appli" },
+        { "label": "publier, partager" },
+        { "label": "télécharger" }
+      ] },
+      { "label": "Meninger", "children": [
+        { "label": "avantage / inconvénient" },
+        { "label": "D'un côté … de l'autre" },
+        { "label": "À mon avis" }
+      ] },
+      { "label": "Temaer", "children": [
+        { "label": "Skjermtid" },
+        { "label": "Mobilforbud i skolen" },
+        { "label": "cyberharcèlement" },
+        { "label": "verlan" }
+      ] },
+      { "label": "Lesestrategier", "children": [
+        { "label": "Skumlesing" },
+        { "label": "mots transparents" },
+        { "label": "faux amis" },
+        { "label": "Sammenheng" }
+      ] },
+      { "label": "Digitale ressurser", "children": [
+        { "label": "TV5Monde" },
+        { "label": "RFI" },
+        { "label": "Maskinoversettelse med kritisk blikk" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Det er forbudt for elever å bruke mobil i franske barne- og ungdomsskoler.", "correct": true, "explain": "Forbudet ble innført i 2018." },
+      { "id": "m02", "type": "sant-usant", "text": "Ord som «information» og «technologie» er vanskelige å kjenne igjen for nordmenn.", "correct": false, "explain": "Slike ord kalles «mots transparents» fordi de er lette å forstå." },
+      { "id": "m03", "type": "sant-usant", "text": "«publier» betyr å publisere eller legge ut.", "correct": true, "explain": "Man kan også si «poster»." },
+      { "id": "m04", "type": "sant-usant", "text": "Man bør slå opp hvert eneste ord når man leser en fransk tekst.", "correct": false, "explain": "Det er bedre å slå opp de viktigste ordene og gjette resten ut fra sammenhengen." },
+      { "id": "m05", "type": "flervalg", "text": "Hva betyr «l'inconvénient»?", "options": ["Fordelen", "Ulempen", "Meldingen", "Mobilen"], "correct": 1, "explain": "Fordelen heter «l'avantage»." },
+      { "id": "m06", "type": "flervalg", "text": "Hva betyr «Je passe deux heures par jour sur mon portable»?", "options": ["Jeg bruker to timer om dagen på mobilen", "Jeg har to mobiler", "Mobilen koster to euro", "Jeg ringer to ganger om dagen"], "correct": 0, "explain": "«passer du temps» betyr å bruke tid." },
+      { "id": "m07", "type": "flervalg", "text": "Hva betyr «la vie privée»?", "options": ["Livet i byen", "Et privat selskap", "Privatlivet", "En privat skole"], "correct": 2, "explain": "Personvern handler om å beskytte privatlivet." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

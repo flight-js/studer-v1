@@ -1,0 +1,84 @@
+{
+  "id": "miljo-og-samfunn",
+  "fagId": "fransk-10",
+  "trinnId": "10",
+  "name": "Miljø og samfunn",
+  "intro": "Miljøvern, avfall, sløsing og energi i Frankrike, hvordan du uttrykker meninger om miljø på fransk, trekk ved det franske samfunnet som laïcité og protestkultur, og sammenligninger med Norge.",
+  "kompetansemaal": [8, 5],
+  "sammendrag": "## Miljø – l'environnement\n\nMange unge i Frankrike er opptatt av **le réchauffement climatique** (den globale oppvarmingen) og **la pollution** (forurensningen). **Parisavtalen** om klima ble vedtatt på klimatoppmøtet i Paris i **2015**.\n\n## Avfall og sløsing\n\n- **les déchets** – avfallet, **trier les déchets** – sortere avfallet, **recycler** – gjenvinne\n- **le gaspillage** – sløsing. Frankrike har en lov som sier at store matbutikker må gi bort mat de ikke har solgt, i stedet for å kaste den.\n- Engangsplastposer er forbudt i franske butikker.\n\n## Energi og transport\n\n- Frankrike får **mesteparten av strømmen sin fra atomkraft**, i motsetning til Norge, som har vannkraft.\n- Landet satser også på **les énergies renouvelables** (fornybar energi), som **les éoliennes** (vindmøller) og **les panneaux solaires** (solcellepaneler).\n- Mange bruker **les transports en commun** (kollektivtransport) og **le vélo**. I Paris er det bygd mange nye sykkelveier.\n\n## Hva kan vi gjøre?\n\n- **Il faut économiser l'énergie et l'eau.** – Man må spare energi og vann.\n- **On devrait moins prendre la voiture.** – Man burde kjøre mindre bil.\n- **J'achète des vêtements d'occasion.** – Jeg kjøper brukte klær.\n- **Il est important de protéger la planète.** – Det er viktig å beskytte planeten.\n\n## Samfunnet i Frankrike\n\n- Frankrike er en **republikk** med mottoet **Liberté, égalité, fraternité**. Presidenten velges av folket for fem år, og nasjonalforsamlingen heter **l'Assemblée nationale**.\n- **La laïcité** er et viktig prinsipp: Siden 1905 har det vært et strengt skille mellom religion og stat. Derfor er det for eksempel ikke lov for elever å bære tydelige religiøse symboler i offentlige skoler.\n- Frankrike er et **mangfoldig** land. Mange innbyggere har røtter i Nord-Afrika, Vest-Afrika og de franske områdene i Karibia og Stillehavet.\n- **Les manifestations** (demonstrasjoner) og **les grèves** (streiker) er en kjent del av fransk politisk kultur.\n\n## Uttrykke meninger\n\n- **Je suis pour / contre …** – Jeg er for / mot …\n- **D'un côté …, de l'autre côté …** – På den ene siden …, på den andre siden …\n- **À mon avis, on devrait …** – Etter min mening burde man …\n\n## Frankrike og Norge\n\nFrankrike og Norge har ulike løsninger på energi og miljø, men begge land har sluttet seg til Parisavtalen. Å sammenligne landene gir nye perspektiver på utfordringene vi står overfor.",
+  "flashcards": [
+    { "term": "l'environnement", "def": "miljøet" },
+    { "term": "le réchauffement climatique", "def": "den globale oppvarmingen" },
+    { "term": "la pollution", "def": "forurensningen" },
+    { "term": "les déchets", "def": "avfallet" },
+    { "term": "trier les déchets", "def": "å sortere avfallet" },
+    { "term": "recycler", "def": "å gjenvinne" },
+    { "term": "le gaspillage", "def": "sløsingen" },
+    { "term": "les énergies renouvelables", "def": "fornybar energi" },
+    { "term": "une éolienne", "def": "en vindmølle" },
+    { "term": "les transports en commun", "def": "kollektivtransport" },
+    { "term": "l'Accord de Paris", "def": "Parisavtalen om klima fra 2015" },
+    { "term": "On devrait …", "def": "Man burde …" },
+    { "term": "Je suis pour / contre …", "def": "Jeg er for / mot …" },
+    { "term": "la laïcité", "def": "skillet mellom religion og stat i Frankrike" },
+    { "term": "l'Assemblée nationale", "def": "Frankrikes nasjonalforsamling" },
+    { "term": "la manifestation", "def": "demonstrasjonen" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva betyr «l'environnement»?", "options": ["Verden", "Byen", "Miljøet", "Været"], "correct": 2, "explain": "Verden heter «le monde»." },
+    { "id": "q02", "text": "Hva betyr «trier les déchets»?", "options": ["Å sortere avfallet", "Å kaste søppel i naturen", "Å brenne søppel", "Å kjøpe mindre"], "correct": 0, "explain": "«trier» betyr å sortere." },
+    { "id": "q03", "text": "Hvilken klimaavtale fra 2015 har navnet sitt fra Frankrikes hovedstad?", "options": ["Kyotoprotokollen", "Montrealprotokollen", "Oslo-avtalen", "Parisavtalen"], "correct": 3, "explain": "Avtalen ble vedtatt på klimatoppmøtet COP21 i Paris." },
+    { "id": "q04", "text": "Hva betyr «le réchauffement climatique»?", "options": ["Været i dag", "Den globale oppvarmingen", "Et varmeapparat", "Sommeren"], "correct": 1, "explain": "«chaud» betyr varm." },
+    { "id": "q05", "text": "Hva er «une éolienne»?", "options": ["Et solcellepanel", "En elbil", "Et vannkraftverk", "En vindmølle"], "correct": 3, "explain": "Ordet kommer fra vindguden Eolus." },
+    { "id": "q06", "text": "Hva betyr «On devrait moins prendre la voiture»?", "options": ["Man må kjøre mer bil", "Man kjører bil hver dag", "Man burde kjøre mindre bil", "Bilen er ødelagt"], "correct": 2, "explain": "«on devrait» betyr man burde." },
+    { "id": "q07", "text": "Hva er «la laïcité»?", "options": ["Skillet mellom religion og stat i Frankrike", "En fransk høytid", "En type skole", "Et politisk parti"], "correct": 0, "explain": "Prinsippet ble slått fast i en lov fra 1905." },
+    { "id": "q08", "text": "Hvilken energikilde gir mesteparten av strømmen i Frankrike?", "options": ["Vindkraft", "Atomkraft", "Kull", "Vannkraft"], "correct": 1, "explain": "Norge får derimot mesteparten av strømmen fra vannkraft." },
+    { "id": "q09", "text": "Hvordan sier du at du er mot noe?", "options": ["Je suis pour …", "J'ai faim de …", "Je vais à …", "Je suis contre …"], "correct": 3, "explain": "«pour» betyr for, og «contre» betyr mot." },
+    { "id": "q10", "text": "Hva betyr «les transports en commun»?", "options": ["Kollektivtransport", "Privatbil", "Fly", "Sykkel"], "correct": 0, "explain": "«en commun» betyr felles." }
+  ],
+  "mindmap": {
+    "label": "Miljø og samfunn",
+    "children": [
+      { "label": "Miljø", "children": [
+        { "label": "réchauffement climatique" },
+        { "label": "pollution" },
+        { "label": "Parisavtalen" }
+      ] },
+      { "label": "Avfall", "children": [
+        { "label": "trier les déchets" },
+        { "label": "recycler" },
+        { "label": "gaspillage" }
+      ] },
+      { "label": "Energi og transport", "children": [
+        { "label": "Atomkraft" },
+        { "label": "éoliennes, panneaux solaires" },
+        { "label": "transports en commun, vélo" }
+      ] },
+      { "label": "Samfunn", "children": [
+        { "label": "République og president" },
+        { "label": "laïcité" },
+        { "label": "Mangfold" },
+        { "label": "manifestations og grèves" }
+      ] },
+      { "label": "Meninger", "children": [
+        { "label": "Il faut …" },
+        { "label": "On devrait …" },
+        { "label": "pour / contre" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "I Frankrike må store matbutikker gi bort mat de ikke har solgt, i stedet for å kaste den.", "correct": true, "explain": "Loven skal redusere matsløsing." },
+      { "id": "m02", "type": "sant-usant", "text": "Frankrike har ingen president.", "correct": false, "explain": "Frankrike har en president som velges for fem år." },
+      { "id": "m03", "type": "sant-usant", "text": "Demonstrasjoner og streiker er en kjent del av fransk politisk kultur.", "correct": true, "explain": "Store demonstrasjoner er vanlige når folk er uenige i politiske vedtak." },
+      { "id": "m04", "type": "sant-usant", "text": "«le gaspillage» betyr gjenvinning.", "correct": false, "explain": "«le gaspillage» betyr sløsing. Gjenvinning heter «le recyclage»." },
+      { "id": "m05", "type": "flervalg", "text": "Hva betyr «économiser l'eau»?", "options": ["Å spare vann", "Å selge vann", "Å drikke vann", "Å rense vann"], "correct": 0, "explain": "«économiser» betyr å spare." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er «l'Assemblée nationale»?", "options": ["Frankrikes nasjonaldag", "Frankrikes nasjonalforsamling", "En region", "En avis"], "correct": 1, "explain": "Den tilsvarer Stortinget i Norge." },
+      { "id": "m07", "type": "flervalg", "text": "Hva betyr «Il est important de protéger la planète»?", "options": ["Planeten er stor", "Jeg liker planeten", "Det er viktig å beskytte planeten", "Planeten er i fare i dag"], "correct": 2, "explain": "«protéger» betyr å beskytte." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

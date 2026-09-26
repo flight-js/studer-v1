@@ -1,0 +1,85 @@
+{
+  "id": "reise-og-ferie",
+  "fagId": "fransk-10",
+  "trinnId": "10",
+  "name": "Reise og ferie",
+  "intro": "Ord og uttrykk for reise, transport, overnatting og vær på fransk, preposisjoner foran land og byer, og hvordan du forteller om en reise og skriver et feriekort.",
+  "kompetansemaal": [3, 5],
+  "sammendrag": "## På reise – en voyage\n\n**Les vacances** (ferien) står alltid i flertall. Å reise heter **voyager** eller **partir en vacances**.\n\n- **l'avion** (flyet), **le train** (toget), **le bateau** (båten), **la voiture** (bilen) og **le bus**\n- **l'aéroport** (flyplassen), **la gare** (stasjonen) og **le billet** (billetten)\n- **la valise** (kofferten), **le sac à dos** (ryggsekken) og **le passeport**\n\nFrankrike har et raskt togsystem, **le TGV** (*train à grande vitesse*), som kjører i over 300 km/t.\n\n## Hvor reiser du?\n\nPreposisjonen avhenger av landets kjønn:\n\n- **en** + hunkjønnsland: *en France*, *en Norvège*, *en Espagne*, *en Italie*\n- **au** + hankjønnsland: *au Canada*, *au Portugal*, *au Japon*\n- **aux** + land i flertall: *aux États-Unis*\n- **à** + byer: *à Paris*, *à Oslo*\n- **à la mer** (til sjøen), **à la plage** (til stranda), **à la montagne** (til fjellet) og **à la campagne** (på landet)\n\n## Overnatting\n\n**l'hôtel**, **l'auberge de jeunesse** (vandrerhjemmet), **le camping** og **une chambre simple / double** (enkeltrom / dobbeltrom).\n\n- **Je voudrais réserver une chambre double pour deux nuits.** – Jeg vil gjerne bestille et dobbeltrom for to netter.\n- **Le petit-déjeuner est compris ?** – Er frokosten inkludert?\n\n## Været – le temps\n\n- **Quel temps fait-il ?** – Hvordan er været?\n- **Il fait beau / chaud / froid / mauvais.** – Det er fint / varmt / kaldt / dårlig vær.\n- **Il pleut.** – Det regner. **Il neige.** – Det snør.\n- **Il y a du soleil / du vent.** – Det er sol / Det blåser.\n- **Il fait 25 degrés.** – Det er 25 grader.\n\n## Hva gjør du i ferien?\n\n**se baigner** (bade), **bronzer** (sole seg), **faire de la randonnée** (gå på fottur), **faire du ski**, **visiter des monuments** (se på severdigheter), **aller au musée** og **acheter des souvenirs**.\n\n## Fortelle om en reise\n\nDu bruker **passé composé** om det du gjorde, og **imparfait** om hvordan det var:\n\n*L'été dernier, **je suis allé** en Espagne. **Nous avons visité** Barcelone et **nous nous sommes baignés**. **Il faisait** très chaud. **C'était** super !*\n\nOm planer bruker du **aller + infinitiv**: *L'été prochain, **je vais aller** en Italie.*\n\n## Et feriekort\n\n- Begynn med **Chère Mamie,** (til en kvinne) eller **Cher Paul,** (til en mann).\n- Fortell hvor du er, hvordan været er, og hva du har gjort.\n- Avslutt med **Grosses bises** eller **Bisous** til venner og familie, eller **Amitiés**.\n\n## Frankrike som reisemål\n\nFrankrike er et av verdens mest besøkte land. Mange nordmenn reiser til Paris eller Rivieraen, og mange franske turister besøker Norge for å se fjorder og nordlys.",
+  "flashcards": [
+    { "term": "les vacances", "def": "ferien (alltid i flertall)" },
+    { "term": "le voyage", "def": "reisen" },
+    { "term": "l'avion", "def": "flyet" },
+    { "term": "le TGV", "def": "franske høyhastighetstog" },
+    { "term": "l'auberge de jeunesse", "def": "vandrerhjemmet" },
+    { "term": "une chambre double", "def": "et dobbeltrom" },
+    { "term": "réserver", "def": "å bestille, reservere" },
+    { "term": "la valise", "def": "kofferten" },
+    { "term": "Il pleut.", "def": "Det regner." },
+    { "term": "Il fait beau.", "def": "Det er fint vær." },
+    { "term": "faire de la randonnée", "def": "å gå på fottur" },
+    { "term": "visiter des monuments", "def": "å se på severdigheter" },
+    { "term": "en France / en Norvège", "def": "i eller til Frankrike / Norge (hunkjønnsland)" },
+    { "term": "au Canada", "def": "i eller til Canada (hankjønnsland)" },
+    { "term": "aux États-Unis", "def": "i eller til USA (flertall)" },
+    { "term": "à la mer", "def": "til sjøen" },
+    { "term": "Grosses bises", "def": "Store klemmer – avslutning på kort til venner og familie" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva betyr «les vacances»?", "options": ["Flyplassen", "Ferien", "Kofferten", "Været"], "correct": 1, "explain": "Ordet står alltid i flertall." },
+    { "id": "q02", "text": "Hva er «l'auberge de jeunesse»?", "options": ["Et luksushotell", "En campingplass", "En togstasjon", "Et vandrerhjem"], "correct": 3, "explain": "«la jeunesse» betyr ungdommen." },
+    { "id": "q03", "text": "Hvordan sier du «Det regner»?", "options": ["Il pleut.", "Il neige.", "Il fait beau.", "Il y a du vent."], "correct": 0, "explain": "«la pluie» betyr regnet." },
+    { "id": "q04", "text": "Hvordan sier du «Jeg reiser til Frankrike»?", "options": ["Je vais au France.", "Je vais à France.", "Je vais en France.", "Je vais aux France."], "correct": 2, "explain": "«la France» er hunkjønn og får «en»." },
+    { "id": "q05", "text": "Hvorfor heter det «au Canada», men «en Norvège»?", "options": ["Fordi Canada er større", "Fordi Canada er lenger unna", "Det er tilfeldig", "Fordi «Canada» er hankjønn og «Norvège» hunkjønn"], "correct": 3, "explain": "Hankjønnsland får «au», hunkjønnsland får «en»." },
+    { "id": "q06", "text": "Hva betyr «faire de la randonnée»?", "options": ["Å gå på fottur", "Å bade", "Å fly", "Å handle"], "correct": 0, "explain": "Fotturer er populært i Alpene og Pyreneene." },
+    { "id": "q07", "text": "Hvordan ber du om et dobbeltrom for to netter?", "options": ["J'ai deux chambres.", "Où est la chambre ?", "Je voudrais réserver une chambre double pour deux nuits.", "La chambre est double."], "correct": 2, "explain": "«une nuit» – flertall «deux nuits»." },
+    { "id": "q08", "text": "Hva betyr «Quel temps fait-il ?»?", "options": ["Hva er klokka?", "Hvordan er været?", "Hvor lenge varer det?", "Når går toget?"], "correct": 1, "explain": "«le temps» kan bety både tid og vær." },
+    { "id": "q09", "text": "Hvordan kan du avslutte et kort til en venn?", "options": ["Grosses bises", "Madame, Monsieur", "Bonjour", "S'il vous plaît"], "correct": 0, "explain": "«Madame, Monsieur» brukes i formelle brev." },
+    { "id": "q10", "text": "Hva er TGV?", "options": ["En type fly", "En fransk TV-kanal", "En båt", "Franske høyhastighetstog"], "correct": 3, "explain": "TGV står for «train à grande vitesse»." }
+  ],
+  "mindmap": {
+    "label": "Reise og ferie",
+    "children": [
+      { "label": "Transport", "children": [
+        { "label": "avion, train, TGV" },
+        { "label": "aéroport, gare" },
+        { "label": "billet, valise" }
+      ] },
+      { "label": "Reisemål", "children": [
+        { "label": "en France" },
+        { "label": "au Canada" },
+        { "label": "aux États-Unis" },
+        { "label": "à Paris, à la mer" }
+      ] },
+      { "label": "Overnatting", "children": [
+        { "label": "hôtel, auberge de jeunesse" },
+        { "label": "réserver une chambre" },
+        { "label": "petit-déjeuner compris ?" }
+      ] },
+      { "label": "Været", "children": [
+        { "label": "Il fait beau / chaud" },
+        { "label": "Il pleut / neige" },
+        { "label": "25 degrés" }
+      ] },
+      { "label": "Fortelle og skrive", "children": [
+        { "label": "Passé composé og imparfait" },
+        { "label": "aller + infinitiv" },
+        { "label": "Chère Mamie … Grosses bises" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "«les vacances» står alltid i flertall.", "correct": true, "explain": "Man sier «les grandes vacances» om sommerferien." },
+      { "id": "m02", "type": "sant-usant", "text": "«la valise» betyr lommeboka.", "correct": false, "explain": "«la valise» betyr kofferten." },
+      { "id": "m03", "type": "sant-usant", "text": "Frankrike er et av verdens mest besøkte land.", "correct": true, "explain": "Millioner av turister besøker Frankrike hvert år." },
+      { "id": "m04", "type": "sant-usant", "text": "«Il neige» betyr det regner.", "correct": false, "explain": "«Il neige» betyr det snør." },
+      { "id": "m05", "type": "flervalg", "text": "Hva betyr «Le petit-déjeuner est compris ?»?", "options": ["Er frokosten inkludert?", "Når er frokosten?", "Hvor er frokosten?", "Liker du frokost?"], "correct": 0, "explain": "«compris» betyr inkludert." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er «le billet»?", "options": ["Kartet", "Billetten", "Passet", "Bilen"], "correct": 1, "explain": "«le billet» kan også bety en pengeseddel." },
+      { "id": "m07", "type": "flervalg", "text": "Hva betyr «Il fait 25 degrés»?", "options": ["Det er 25 minutter", "Det er 25 kilometer", "Det er 25 grader", "Det er 25 euro"], "correct": 2, "explain": "Været beskrives ofte med «il fait»." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
