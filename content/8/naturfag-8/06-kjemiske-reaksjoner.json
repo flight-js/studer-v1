@@ -1,0 +1,81 @@
+{
+  "id": "kjemiske-reaksjoner",
+  "fagId": "naturfag-8",
+  "trinnId": "8",
+  "name": "Kjemiske reaksjoner og forbrenning",
+  "intro": "Hvordan du kjenner igjen en kjemisk reaksjon, loven om massebevaring, reaksjonslikninger og hva som skjer når noe brenner.",
+  "kompetansemaal": [8, 4],
+  "sammendrag": "## Fysisk eller kjemisk endring?\n\nNår is smelter til vann, er det fortsatt det samme stoffet, bare i en annen form. Det er en **fysisk endring**. I en **kjemisk reaksjon** dannes derimot **nye stoffer** med nye egenskaper. Atomene i utgangsstoffene bytter partnere og settes sammen på nye måter.\n\n## Tegn på en kjemisk reaksjon\n\n- Det dannes **gass** (bobler).\n- **Fargen** endres.\n- Det blir **varmere** eller **kaldere**.\n- Det avgis **lys**.\n- Det dannes et **bunnfall**, et fast stoff i en væske.\n\n## Reaktanter og produkter\n\nStoffene vi starter med, kalles **reaktanter** (utgangsstoffer), og stoffene som dannes, kalles **produkter**. Vi viser reaksjonen med en **reaksjonslikning**, der pilen betyr «reagerer til»:\n\n2H₂ + O₂ → 2H₂O\n\nTallene foran formlene kalles **koeffisienter** og viser hvor mange molekyler som reagerer.\n\n## Loven om massebevaring\n\nI en kjemisk reaksjon forsvinner ingen atomer, og ingen nye oppstår. De bare omorganiseres. Derfor er den samlede **massen** av produktene lik massen av reaktantene. Den franske kjemikeren **Antoine Lavoisier** viste dette på 1700-tallet. En reaksjonslikning må derfor være **balansert**: Det skal være like mange atomer av hvert grunnstoff på begge sider. I eksempelet over er det fire hydrogenatomer og to oksygenatomer på hver side.\n\nNår en fyrstikk brenner, ser det ut som om noe forsvinner. Men atomene går over i gasser som slipper ut i lufta. Veier du alt i et lukket system, er massen den samme før og etter.\n\n## Forbrenning\n\n**Forbrenning** er en reaksjon der et stoff reagerer med **oksygen** og avgir varme og lys. For at noe skal brenne, trengs tre ting, som vises i **branntrekanten**: **brensel**, **oksygen** og **høy nok temperatur**. Fjerner du én av dem, slokner brannen. Derfor kveler vi en brann med et brannteppe (fjerner oksygen) eller kjøler den med vann (senker temperaturen).\n\nNår stoffer med karbon og hydrogen brenner fullstendig, dannes **karbondioksid** og **vann**. Er det for lite oksygen, blir forbrenningen **ufullstendig**, og det kan dannes sot og den giftige gassen **karbonmonoksid** (CO).\n\n## Betydning\n\nForbrenning gir oss varme, strøm og drivstoff til transport. Men forbrenning av fossile brensler slipper ut CO₂, som bidrar til global oppvarming, og kan gi luftforurensning. Kroppens celleånding er også en slags langsom forbrenning.",
+  "flashcards": [
+    { "term": "Fysisk endring", "def": "Stoffet endrer form, men er det samme stoffet, som når is smelter." },
+    { "term": "Kjemisk reaksjon", "def": "Nye stoffer med nye egenskaper dannes ved at atomene omorganiseres." },
+    { "term": "Tegn på kjemisk reaksjon", "def": "Gass, fargeendring, varme eller kulde, lys og bunnfall." },
+    { "term": "Reaktanter", "def": "Stoffene man starter med i en reaksjon." },
+    { "term": "Produkter", "def": "Stoffene som dannes i en reaksjon." },
+    { "term": "Reaksjonslikning", "def": "Viser en reaksjon med formler: 2H₂ + O₂ → 2H₂O." },
+    { "term": "Koeffisient", "def": "Tallet foran en formel i en reaksjonslikning." },
+    { "term": "Loven om massebevaring", "def": "Massen av produktene er lik massen av reaktantene." },
+    { "term": "Lavoisier", "def": "Fransk kjemiker som viste massebevaring på 1700-tallet." },
+    { "term": "Balansert likning", "def": "Like mange atomer av hvert grunnstoff på begge sider av pilen." },
+    { "term": "Forbrenning", "def": "Et stoff reagerer med oksygen og avgir varme og lys." },
+    { "term": "Branntrekanten", "def": "Brensel, oksygen og høy nok temperatur. Fjernes én, slokner brannen." },
+    { "term": "Fullstendig forbrenning", "def": "Gir CO₂ og vann når det er nok oksygen." },
+    { "term": "Ufullstendig forbrenning", "def": "For lite oksygen. Kan gi sot og giftig karbonmonoksid (CO)." },
+    { "term": "Bunnfall", "def": "Et fast stoff som dannes i en væske ved en reaksjon." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvilken endring er en kjemisk reaksjon?", "options": ["Is som smelter", "Vann som koker", "Et stearinlys som brenner", "Sukker som løses i te"], "correct": 2, "explain": "Når stearinet brenner, dannes nye stoffer som CO₂ og vann." },
+    { "id": "q02", "text": "Hva sier loven om massebevaring?", "options": ["Massen av produktene er lik massen av reaktantene", "Massen øker i alle reaksjoner", "Gasser har ingen masse", "Massen forsvinner ved forbrenning"], "correct": 0, "explain": "Atomene omorganiseres, men ingen forsvinner eller oppstår." },
+    { "id": "q03", "text": "Hva kalles stoffene man starter med i en reaksjon?", "options": ["Produkter", "Koeffisienter", "Katalysatorer", "Reaktanter"], "correct": 3, "explain": "Reaktantene er utgangsstoffene. Produktene dannes i reaksjonen." },
+    { "id": "q04", "text": "Hvilke tre ting trengs for at noe skal brenne?", "options": ["Vann, lys og luft", "Brensel, oksygen og høy nok temperatur", "Karbon, nitrogen og vann", "Metall, salt og varme"], "correct": 1, "explain": "Dette er branntrekanten." },
+    { "id": "q05", "text": "Hvorfor slokner en brann når du legger et brannteppe over?", "options": ["Fordi temperaturen øker", "Fordi brenselet forsvinner", "Fordi oksygentilførselen stoppes", "Fordi teppet er vått"], "correct": 2, "explain": "Teppet kveler brannen ved å fjerne oksygenet fra branntrekanten." },
+    { "id": "q06", "text": "Hva dannes ved fullstendig forbrenning av stoffer med karbon og hydrogen?", "options": ["Karbondioksid og vann", "Oksygen og sukker", "Karbonmonoksid og sot", "Bare vann"], "correct": 0, "explain": "Med nok oksygen blir karbonet til CO₂ og hydrogenet til H₂O." },
+    { "id": "q07", "text": "Hvorfor er ufullstendig forbrenning farlig?", "options": ["Den gir for mye oksygen", "Den er for kald", "Den gir ikke varme", "Den kan danne den giftige gassen karbonmonoksid"], "correct": 3, "explain": "Karbonmonoksid er luktfritt og svært giftig, fordi det hindrer blodet i å frakte oksygen." },
+    { "id": "q08", "text": "Hvor mange oksygenatomer er det på hver side i 2H₂ + O₂ → 2H₂O?", "options": ["Ett", "To", "Fire", "Tre"], "correct": 1, "explain": "O₂ har to oksygenatomer, og 2H₂O har også to. Likningen er balansert." },
+    { "id": "q09", "text": "Hvilket er IKKE et tegn på kjemisk reaksjon?", "options": ["Gassbobler dannes", "Fargen endres", "Et stoff endrer form fra fast til flytende", "Det avgis lys"], "correct": 2, "explain": "Smelting er en fysisk endring. Stoffet er det samme." },
+    { "id": "q10", "text": "En fyrstikk brenner og ser lettere ut etterpå. Hvor ble massen av?", "options": ["Den forsvant", "Den gikk over i gasser som slapp ut i lufta", "Den ble til energi", "Den gikk inn i bordet"], "correct": 1, "explain": "Atomene finnes fortsatt, men i gasser som CO₂ og vanndamp." }
+  ],
+  "mindmap": {
+    "label": "Kjemiske reaksjoner",
+    "children": [
+      { "label": "Kjennetegn", "children": [
+        { "label": "Nye stoffer" },
+        { "label": "Gass, farge, varme, lys, bunnfall" },
+        { "label": "Ikke fysisk endring" }
+      ] },
+      { "label": "Likninger", "children": [
+        { "label": "Reaktanter → produkter" },
+        { "label": "Koeffisienter" },
+        { "label": "Balansert" }
+      ] },
+      { "label": "Massebevaring", "children": [
+        { "label": "Ingen atomer forsvinner" },
+        { "label": "Lavoisier" },
+        { "label": "Lukket system" }
+      ] },
+      { "label": "Forbrenning", "children": [
+        { "label": "Branntrekanten" },
+        { "label": "Fullstendig → CO₂ + H₂O" },
+        { "label": "Ufullstendig → CO og sot" }
+      ] },
+      { "label": "Betydning", "children": [
+        { "label": "Energi og varme" },
+        { "label": "CO₂-utslipp" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "I en kjemisk reaksjon kan atomer forsvinne.", "correct": false, "explain": "Atomene bevares. De bare kobles sammen på nye måter." },
+      { "id": "m02", "type": "sant-usant", "text": "Vann kan slokke en brann fordi det senker temperaturen.", "correct": true, "explain": "Vann kjøler ned og fjerner dermed «høy nok temperatur» fra branntrekanten." },
+      { "id": "m03", "type": "sant-usant", "text": "Karbonmonoksid er en ufarlig gass.", "correct": false, "explain": "Karbonmonoksid er svært giftig og kan ikke kjennes på lukt." },
+      { "id": "m04", "type": "sant-usant", "text": "Et bunnfall er et tegn på at det har skjedd en kjemisk reaksjon.", "correct": true, "explain": "Når et fast stoff dannes i en væske, har det oppstått et nytt stoff." },
+      { "id": "m05", "type": "flervalg", "text": "Hva kalles stoffene som dannes i en reaksjon?", "options": ["Reaktanter", "Koeffisienter", "Produkter", "Brensel"], "correct": 2, "explain": "Produktene står på høyre side av pilen." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilken gass trengs til forbrenning?", "options": ["Oksygen", "Nitrogen", "Helium", "Karbondioksid"], "correct": 0, "explain": "Forbrenning er en reaksjon med oksygen." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilken er en fysisk endring?", "options": ["Rust på en sykkel", "Brød som ristes svart", "Vann som fryser til is", "Ved som brenner"], "correct": 2, "explain": "Is er fortsatt vann, bare i fast form." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

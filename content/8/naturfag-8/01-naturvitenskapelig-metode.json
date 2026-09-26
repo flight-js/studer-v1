@@ -1,0 +1,81 @@
+{
+  "id": "naturvitenskapelig-metode",
+  "fagId": "naturfag-8",
+  "trinnId": "8",
+  "name": "Naturvitenskapelig metode",
+  "intro": "Hvordan naturforskere arbeider: problemstilling, hypotese, variabler, forsøk, datainnsamling, konklusjon – og hvordan du gjennomfører forsøk trygt.",
+  "kompetansemaal": [1, 2, 4],
+  "sammendrag": "## Hvordan vet vi det vi vet?\n\nNaturvitenskapen bygger på **observasjoner** og **forsøk**. I stedet for å stole på gjetting eller autoriteter, tester forskerne ideene sine mot virkeligheten. Måten de gjør det på, kalles **naturvitenskapelig metode**. Den kan beskrives som en rekke steg, selv om forskning i praksis ofte går fram og tilbake.\n\n## Stegene\n\n- **Observasjon og spørsmål**: Du legger merke til noe og lurer på hvorfor. Hvorfor visner planten i vinduskarmen?\n- **Hypotese**: en mulig forklaring som kan testes. «Planten visner fordi den får for mye sol.» En god hypotese kan vise seg å være feil.\n- **Planlegging av forsøk**: Hvordan kan hypotesen testes?\n- **Gjennomføring og datainnsamling**: Du måler og noterer resultatene nøyaktig, gjerne i en tabell.\n- **Analyse**: Du sorterer dataene, lager diagrammer og ser etter mønstre.\n- **Konklusjon**: Stemmer resultatene med hypotesen? Hvis ikke, må hypotesen endres eller forkastes.\n- **Rapport og deling**: Du beskriver hva du gjorde, slik at andre kan kontrollere og gjenta forsøket.\n\n## Variabler\n\nI et godt forsøk endrer du bare **én ting om gangen**.\n\n- Den **uavhengige variabelen** er det du selv endrer, for eksempel mengden lys.\n- Den **avhengige variabelen** er det du måler, for eksempel hvor mye planten vokser.\n- **Kontrollerte variabler** holdes like, som vannmengde, jord og temperatur. Ellers vet du ikke hva som forårsaket resultatet.\n\nMange forsøk har også en **kontrollgruppe** som ikke utsettes for endringen, slik at du har noe å sammenligne med.\n\n## Pålitelige resultater\n\nResultatene blir mer **pålitelige** når forsøket gjentas flere ganger, og når andre kan få samme resultat. Alle målinger har **usikkerhet**, og det kan finnes **feilkilder**, som unøyaktig måleutstyr eller at noe har endret seg underveis. En god rapport drøfter feilkildene og vurderer hvor sikker konklusjonen er.\n\n## Sikkerhet\n\nFør et forsøk gjør du en **risikovurdering**: Hva kan gå galt, og hvordan unngår du det? Les **faresymbolene** på kjemikaliene, bruk **vernebriller** og eventuelt hansker, ha langt hår satt opp, og vit hvor brannslukningsapparat, øyedusj og førstehjelpsutstyr er. Følg alltid lærerens instruksjoner, og rydd og vask opp etter deg.",
+  "flashcards": [
+    { "term": "Naturvitenskapelig metode", "def": "Måten forskere undersøker naturen på: spørsmål, hypotese, forsøk, analyse og konklusjon." },
+    { "term": "Observasjon", "def": "Noe du legger merke til med sansene eller måleinstrumenter." },
+    { "term": "Hypotese", "def": "En mulig forklaring som kan testes med forsøk eller observasjoner." },
+    { "term": "Uavhengig variabel", "def": "Det du selv endrer i et forsøk." },
+    { "term": "Avhengig variabel", "def": "Det du måler for å se virkningen av endringen." },
+    { "term": "Kontrollerte variabler", "def": "Faktorer som holdes like, slik at bare én ting endres om gangen." },
+    { "term": "Kontrollgruppe", "def": "En gruppe som ikke utsettes for endringen, og som brukes til sammenligning." },
+    { "term": "Data", "def": "Målinger og observasjoner som samles inn under et forsøk." },
+    { "term": "Konklusjon", "def": "Svaret forsøket gir: støtter eller svekker resultatene hypotesen?" },
+    { "term": "Pålitelighet", "def": "Hvor mye vi kan stole på resultatene. Øker når forsøket gjentas og gir samme svar." },
+    { "term": "Feilkilde", "def": "Noe som kan ha påvirket resultatet, som unøyaktig utstyr." },
+    { "term": "Rapport", "def": "En beskrivelse av forsøket slik at andre kan kontrollere og gjenta det." },
+    { "term": "Risikovurdering", "def": "Å tenke gjennom hva som kan gå galt i et forsøk, og hvordan det unngås." },
+    { "term": "Faresymbol", "def": "Symbol på kjemikalier som viser farer, for eksempel brannfarlig eller etsende." },
+    { "term": "Vernebriller", "def": "Beskytter øynene mot sprut og splinter under forsøk." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er en hypotese?", "options": ["Et bevist faktum", "En mulig forklaring som kan testes", "Resultatet av et forsøk", "En tabell med data"], "correct": 1, "explain": "En hypotese er en foreløpig forklaring. Den testes med forsøk og kan vise seg å være feil." },
+    { "id": "q02", "text": "Du undersøker om mengden lys påvirker hvor mye en plante vokser. Hva er den uavhengige variabelen?", "options": ["Hvor mye planten vokser", "Mengden vann", "Mengden lys", "Typen jord"], "correct": 2, "explain": "Den uavhengige variabelen er det du selv endrer, her lysmengden." },
+    { "id": "q03", "text": "I samme forsøk, hva er den avhengige variabelen?", "options": ["Hvor mye planten vokser", "Mengden lys", "Temperaturen", "Potten"], "correct": 0, "explain": "Den avhengige variabelen er det du måler, altså veksten." },
+    { "id": "q04", "text": "Hvorfor skal du bare endre én ting om gangen i et forsøk?", "options": ["For at forsøket skal gå raskere", "Fordi det er billigere", "Fordi det er en regel uten grunn", "For å vite hva som forårsaket resultatet"], "correct": 3, "explain": "Endrer du flere ting samtidig, kan du ikke vite hvilken av dem som ga virkningen." },
+    { "id": "q05", "text": "Hva er en kontrollgruppe?", "options": ["Gruppen som får mest behandling", "En gruppe som ikke utsettes for endringen, og som brukes til sammenligning", "Lærerens gruppe", "Gruppen som skriver rapporten"], "correct": 1, "explain": "Kontrollgruppen viser hva som skjer uten endringen, slik at du kan se effekten." },
+    { "id": "q06", "text": "Hva gjør resultatene mer pålitelige?", "options": ["Å gjenta forsøket flere ganger", "Å bare gjøre forsøket én gang", "Å endre mange variabler", "Å gjette resultatet først"], "correct": 0, "explain": "Når gjentatte forsøk gir samme resultat, kan vi stole mer på det." },
+    { "id": "q07", "text": "Resultatet stemmer ikke med hypotesen. Hva bør du gjøre?", "options": ["Endre dataene", "Endre eller forkaste hypotesen og eventuelt teste på nytt", "Skjule resultatet", "Si at forsøket var feil uten å sjekke"], "correct": 1, "explain": "Data som ikke passer, er verdifulle. De viser at forklaringen må forbedres." },
+    { "id": "q08", "text": "Hva er en feilkilde?", "options": ["En kjemikalieflaske", "Hypotesen", "Konklusjonen", "Noe som kan ha påvirket resultatet, som unøyaktig måleutstyr"], "correct": 3, "explain": "Feilkilder bør drøftes i rapporten, fordi de påvirker hvor sikker konklusjonen er." },
+    { "id": "q09", "text": "Hva bør du gjøre før du starter et forsøk med kjemikalier?", "options": ["Blande alt raskt", "Gjøre en risikovurdering og ta på vernebriller", "Smake på kjemikaliene", "Ta av vernebrillene"], "correct": 1, "explain": "Risikovurdering og riktig verneutstyr forebygger skader." },
+    { "id": "q10", "text": "Hvorfor skal forsøket beskrives nøyaktig i en rapport?", "options": ["For at andre skal kunne kontrollere og gjenta det", "For at det skal bli langt", "For å skjule feil", "Fordi ingen skal lese den"], "correct": 0, "explain": "At andre kan gjenta forsøket og få samme resultat, er en grunnstein i naturvitenskapen." }
+  ],
+  "mindmap": {
+    "label": "Naturvitenskapelig metode",
+    "children": [
+      { "label": "Stegene", "children": [
+        { "label": "Observasjon og spørsmål" },
+        { "label": "Hypotese" },
+        { "label": "Forsøk og data" },
+        { "label": "Analyse og konklusjon" },
+        { "label": "Rapport" }
+      ] },
+      { "label": "Variabler", "children": [
+        { "label": "Uavhengig", "note": "Du endrer" },
+        { "label": "Avhengig", "note": "Du måler" },
+        { "label": "Kontrollerte", "note": "Holdes like" },
+        { "label": "Kontrollgruppe" }
+      ] },
+      { "label": "Kvalitet", "children": [
+        { "label": "Gjenta forsøket" },
+        { "label": "Usikkerhet" },
+        { "label": "Feilkilder" }
+      ] },
+      { "label": "Sikkerhet", "children": [
+        { "label": "Risikovurdering" },
+        { "label": "Faresymboler" },
+        { "label": "Vernebriller" },
+        { "label": "Følg instruksjoner" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q09"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "En hypotese må alltid vise seg å være riktig.", "correct": false, "explain": "Hypoteser kan like gjerne vise seg å være feil. Det er også ny kunnskap." },
+      { "id": "m02", "type": "sant-usant", "text": "Kontrollerte variabler skal holdes like gjennom hele forsøket.", "correct": true, "explain": "Da vet du at endringen i resultatet skyldes den uavhengige variabelen." },
+      { "id": "m03", "type": "sant-usant", "text": "Alle målinger har en viss usikkerhet.", "correct": true, "explain": "Ingen måleinstrumenter er helt nøyaktige, og det bør tas med i vurderingen." },
+      { "id": "m04", "type": "sant-usant", "text": "Det er greit å lukte tett innpå ukjente kjemikalier for å finne ut hva de er.", "correct": false, "explain": "Ukjente kjemikalier kan være farlige. Følg alltid sikkerhetsinstruksene." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken påstand er en testbar hypotese?", "options": ["Planter er fine", "Planter vokser raskere i varme enn i kulde", "Jeg liker planter", "Planter er grønne fordi de er grønne"], "correct": 1, "explain": "Denne påstanden kan testes ved å måle vekst ved ulike temperaturer." },
+      { "id": "m06", "type": "flervalg", "text": "Hvor bør du notere målingene underveis?", "options": ["I hodet", "Ingen steder", "I en tabell", "Bare i konklusjonen"], "correct": 2, "explain": "En tabell gir oversikt og gjør det lett å analysere dataene etterpå." },
+      { "id": "m07", "type": "flervalg", "text": "Hva viser et faresymbol på en flaske?", "options": ["Hvilken fare kjemikaliet utgjør", "Prisen", "Hvem som har laget flasken", "Hvor mye som er igjen"], "correct": 0, "explain": "Faresymboler varsler om farer som brann, etsing eller giftighet." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

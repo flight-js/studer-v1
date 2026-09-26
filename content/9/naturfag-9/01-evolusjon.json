@@ -1,0 +1,83 @@
+{
+  "id": "evolusjon",
+  "fagId": "naturfag-9",
+  "trinnId": "9",
+  "name": "Evolusjon",
+  "intro": "Hvordan Darwin og andre forskere kom fram til evolusjonsteorien, hvordan naturlig utvalg virker, og hvordan evolusjon forklarer det biologiske mangfoldet.",
+  "kompetansemaal": [13, 5],
+  "sammendrag": "## Hva er evolusjon?\n\n**Evolusjon** betyr at arter endrer seg gradvis over mange generasjoner. Alle organismer på jorda stammer fra felles forfedre, og det enorme **biologiske mangfoldet** vi ser i dag, har utviklet seg over flere milliarder år.\n\n## Veien til teorien\n\nFør 1800-tallet mente de fleste at artene var uforanderlige. Den franske forskeren **Jean-Baptiste Lamarck** foreslo tidlig at arter kunne endre seg, men han trodde at egenskaper man skaffer seg i løpet av livet, går i arv. Det har vist seg å være feil.\n\nDen britiske naturforskeren **Charles Darwin** reiste jorda rundt med skipet Beagle på 1830-tallet. På **Galápagosøyene** la han merke til at finker på ulike øyer hadde ulike nebb, tilpasset maten der. Etter mange års arbeid ga han i **1859** ut boka *Artenes opprinnelse*. **Alfred Russel Wallace** kom uavhengig fram til de samme ideene omtrent samtidig.\n\n## Naturlig utvalg\n\nDarwins forklaring kalles **naturlig utvalg**. Den bygger på noen enkle observasjoner:\n\n- Individer i en art er **ulike** (variasjon).\n- Mange egenskaper **arves** fra foreldrene.\n- Det fødes **flere** avkom enn det er mat og plass til, så det blir **konkurranse**.\n- Individer med egenskaper som passer godt til miljøet, overlever og får **flere avkom**.\n\nOver mange generasjoner blir de nyttige egenskapene vanligere. Arten blir **tilpasset** miljøet. Endres miljøet, kan andre egenskaper bli fordelaktige.\n\n## Arv og mutasjoner\n\nDarwin visste ikke hvordan egenskaper ble arvet. I dag vet vi at egenskapene styres av **gener** i **DNA**. Tilfeldige endringer i DNA kalles **mutasjoner**. De fleste er nøytrale eller skadelige, men noen få gir fordeler. Sammen med blandingen av gener ved kjønnet formering gir mutasjoner variasjonen som naturlig utvalg virker på.\n\n## Nye arter\n\nNår to grupper av en art blir skilt fra hverandre, for eksempel av hav eller fjell, utvikler de seg hver for seg. Etter lang tid kan de bli så ulike at de ikke lenger kan få felles avkom. Da har det oppstått en **ny art**.\n\n## Bevis for evolusjon\n\n- **Fossiler** viser at livet har endret seg over tid.\n- **Homologe organer**, som armen til mennesket, vingen til flaggermusen og luffen til hvalen, har samme grunnleggende benstruktur.\n- **DNA** viser at nært beslektede arter har mer likt arvestoff.\n- Vi kan se evolusjon skje i dag, for eksempel når bakterier blir **resistente** mot antibiotika.\n\nEvolusjonsteorien er en av de best underbygde teoriene i naturvitenskapen, og den er fortsatt et levende forskningsfelt.",
+  "flashcards": [
+    { "term": "Evolusjon", "def": "At arter endrer seg gradvis over mange generasjoner." },
+    { "term": "Charles Darwin", "def": "Britisk naturforsker som forklarte evolusjon med naturlig utvalg. Ga ut Artenes opprinnelse i 1859." },
+    { "term": "Alfred Russel Wallace", "def": "Kom uavhengig av Darwin fram til teorien om naturlig utvalg." },
+    { "term": "Lamarck", "def": "Mente at egenskaper man skaffer seg i livet, arves. Det stemmer ikke." },
+    { "term": "Galápagosfinkene", "def": "Finker med ulike nebb på ulike øyer, tilpasset ulik mat." },
+    { "term": "Naturlig utvalg", "def": "Individer med gunstige egenskaper overlever og får flere avkom." },
+    { "term": "Variasjon", "def": "At individer i en art er forskjellige." },
+    { "term": "Tilpasning", "def": "En egenskap som gjør en organisme bedre egnet til miljøet." },
+    { "term": "Gen", "def": "Et stykke DNA som styrer en egenskap." },
+    { "term": "Mutasjon", "def": "En tilfeldig endring i DNA-et." },
+    { "term": "Art", "def": "En gruppe organismer som kan få levedyktig avkom med hverandre." },
+    { "term": "Artsdannelse", "def": "Nye arter oppstår når grupper blir skilt og utvikler seg hver for seg." },
+    { "term": "Fossil", "def": "Rester eller avtrykk av organismer fra lenge siden, bevart i stein." },
+    { "term": "Homologe organer", "def": "Organer med samme grunnstruktur hos ulike arter, som arm, vinge og luffe." },
+    { "term": "Antibiotikaresistens", "def": "Bakterier som tåler antibiotika. Et eksempel på evolusjon i dag." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva betyr evolusjon?", "options": ["At et individ forandrer seg i løpet av livet", "At arter endrer seg gradvis over mange generasjoner", "At arter aldri endrer seg", "At dyr lærer nye ting"], "correct": 1, "explain": "Evolusjon skjer i populasjoner over mange generasjoner, ikke hos enkeltindivider." },
+    { "id": "q02", "text": "Hvilken bok ga Darwin ut i 1859?", "options": ["Artenes opprinnelse", "Sult", "Principia", "Et dukkehjem"], "correct": 0, "explain": "I Artenes opprinnelse presenterte Darwin teorien om naturlig utvalg." },
+    { "id": "q03", "text": "Hva la Darwin merke til hos finkene på Galápagos?", "options": ["At de var helt like", "At de ikke kunne fly", "At de hadde ulike nebb tilpasset ulik mat", "At de levde i vann"], "correct": 2, "explain": "Nebbformene passet til maten på hver øy, noe som tydet på tilpasning." },
+    { "id": "q04", "text": "Hva er naturlig utvalg?", "options": ["At mennesker velger ut dyr", "At alle individer overlever", "At de sterkeste alltid vinner slåsskamper", "At individer med gunstige egenskaper overlever og får flere avkom"], "correct": 3, "explain": "Egenskapene som gir flest levedyktige avkom, blir vanligere over tid." },
+    { "id": "q05", "text": "Hva mente Lamarck som viste seg å være feil?", "options": ["At arter kan endre seg", "At egenskaper man skaffer seg i livet, går i arv", "At fossiler finnes", "At jorda er gammel"], "correct": 1, "explain": "En som trener muskler, får ikke barn med større muskler. Tillærte egenskaper arves ikke." },
+    { "id": "q06", "text": "Hva er en mutasjon?", "options": ["En tilfeldig endring i DNA", "En ny art", "Et fossil", "En type celle"], "correct": 0, "explain": "Mutasjoner gir ny variasjon som naturlig utvalg kan virke på." },
+    { "id": "q07", "text": "Hva er homologe organer?", "options": ["Organer som har samme funksjon, men ulik bygning", "Organer som bare finnes hos mennesker", "Organer med samme grunnstruktur hos ulike arter", "Organer som ikke lenger brukes"], "correct": 2, "explain": "Arm, vinge og luffe har samme benstruktur, noe som tyder på felles opphav." },
+    { "id": "q08", "text": "Hvordan kan en ny art oppstå?", "options": ["Ved at et individ bestemmer seg", "Over én natt", "Ved at dyr lærer nye triks", "Ved at grupper blir skilt og utvikler seg hver for seg over lang tid"], "correct": 3, "explain": "Isolasjon gjør at gruppene utvikler seg ulikt til de ikke lenger kan få felles avkom." },
+    { "id": "q09", "text": "Hvilket eksempel viser evolusjon i vår tid?", "options": ["At barn blir høyere", "At bakterier blir resistente mot antibiotika", "At hunder lærer triks", "At fjell eroderer"], "correct": 1, "explain": "Bakterier som tåler antibiotika, overlever og formerer seg, slik at resistensen sprer seg." },
+    { "id": "q10", "text": "Hvem kom uavhengig av Darwin fram til teorien om naturlig utvalg?", "options": ["Alfred Russel Wallace", "Isaac Newton", "Gregor Mendel", "Alfred Wegener"], "correct": 0, "explain": "Wallace sendte Darwin et manuskript med de samme ideene, og de presenterte arbeidene sine sammen i 1858." }
+  ],
+  "mindmap": {
+    "label": "Evolusjon",
+    "children": [
+      { "label": "Historie", "children": [
+        { "label": "Lamarck", "note": "Feil om arv" },
+        { "label": "Darwin", "note": "1859" },
+        { "label": "Wallace" },
+        { "label": "Galápagosfinker" }
+      ] },
+      { "label": "Naturlig utvalg", "children": [
+        { "label": "Variasjon" },
+        { "label": "Arv" },
+        { "label": "Konkurranse" },
+        { "label": "Tilpasning" }
+      ] },
+      { "label": "Arv i dag", "children": [
+        { "label": "Gener og DNA" },
+        { "label": "Mutasjoner" }
+      ] },
+      { "label": "Nye arter", "children": [
+        { "label": "Isolasjon" },
+        { "label": "Utvikling hver for seg" }
+      ] },
+      { "label": "Bevis", "children": [
+        { "label": "Fossiler" },
+        { "label": "Homologe organer" },
+        { "label": "DNA-likhet" },
+        { "label": "Antibiotikaresistens" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q09"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Et enkelt individ kan utvikle seg til en ny art i løpet av livet sitt.", "correct": false, "explain": "Evolusjon skjer i populasjoner over mange generasjoner." },
+      { "id": "m02", "type": "sant-usant", "text": "Darwin visste ikke hvordan egenskaper ble arvet.", "correct": true, "explain": "Genetikken var ukjent for Darwin. Kunnskap om gener og DNA kom senere." },
+      { "id": "m03", "type": "sant-usant", "text": "De fleste mutasjoner gir store fordeler.", "correct": false, "explain": "De fleste mutasjoner er nøytrale eller skadelige. Bare noen få er gunstige." },
+      { "id": "m04", "type": "sant-usant", "text": "Nært beslektede arter har mer likt DNA enn fjernt beslektede arter.", "correct": true, "explain": "DNA-sammenligning bekrefter slektskapet mellom arter." },
+      { "id": "m05", "type": "flervalg", "text": "Hva kalles en egenskap som gjør en organisme bedre egnet til miljøet?", "options": ["Mutasjon", "Tilpasning", "Fossil", "Art"], "correct": 1, "explain": "En tilpasning øker sjansen for å overleve og få avkom." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er et fossil?", "options": ["En levende organisme", "En type stein uten liv", "Rester eller avtrykk av organismer fra lenge siden", "En mutasjon"], "correct": 2, "explain": "Fossiler viser hvordan livet på jorda har vært og endret seg." },
+      { "id": "m07", "type": "flervalg", "text": "Hva gir variasjonen som naturlig utvalg virker på?", "options": ["Mutasjoner og blanding av gener ved kjønnet formering", "At dyr trener", "Klimaet alene", "Mat"], "correct": 0, "explain": "Nye genvarianter og nye kombinasjoner gir forskjeller mellom individer." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

@@ -1,0 +1,81 @@
+{
+  "id": "atomer-og-periodesystemet",
+  "fagId": "naturfag-8",
+  "trinnId": "8",
+  "name": "Atomer og periodesystemet",
+  "intro": "Atomets oppbygning, grunnstoffer og kjemiske forbindelser, og hvordan periodesystemet ordner grunnstoffene etter egenskaper.",
+  "kompetansemaal": [9, 3],
+  "sammendrag": "## Alt er laget av atomer\n\nAll materie – luft, vann, mennesker og stjerner – er bygd opp av bittesmå partikler som kalles **atomer**. Et atom er så lite at det ville gått millioner av atomer på bredden av et hårstrå. For å forklare hvordan atomer er bygd opp, bruker vi **atommodeller**. Modellene er forenklinger, men de hjelper oss å forstå og forutsi egenskapene til stoffer.\n\n## Atomets oppbygning\n\nEt atom har en liten **kjerne** i midten med positivt ladde **protoner** og nøytrale **nøytroner**. Rundt kjernen beveger negativt ladde **elektroner** seg i **skall**. Et atom har like mange elektroner som protoner og er derfor elektrisk nøytralt. Antall protoner kalles **atomnummeret**, og det bestemmer hvilket grunnstoff atomet er. Alle atomer med 6 protoner er karbon, og alle med 8 protoner er oksygen.\n\n## Grunnstoffer og forbindelser\n\nEt **grunnstoff** består av bare én type atomer, for eksempel gull (Au), jern (Fe) eller oksygen (O). Det finnes rundt 118 kjente grunnstoffer. Når atomer av ulike grunnstoffer binder seg sammen, får vi en **kjemisk forbindelse** med helt nye egenskaper. Vann, H₂O, består av to hydrogenatomer og ett oksygenatom. Natrium er et metall som reagerer voldsomt med vann, og klor er en giftig gass, men sammen danner de bordsalt, NaCl. Et **molekyl** er en gruppe atomer som er bundet sammen, som H₂O eller CO₂.\n\n## Periodesystemet\n\nI **periodesystemet** er grunnstoffene ordnet etter økende atomnummer. Den russiske kjemikeren **Dmitrij Mendelejev** lagde et tidlig periodesystem i 1869, og han lot til og med stå åpne plasser for grunnstoffer som ikke var oppdaget ennå.\n\n- De vannrette radene kalles **perioder**. Periodenummeret sier hvor mange elektronskall atomene har.\n- De loddrette kolonnene kalles **grupper**. Grunnstoffer i samme gruppe har like mange elektroner i ytterste skall og ligner hverandre kjemisk.\n\n## Noen viktige grupper\n\n- **Gruppe 1, alkalimetallene** (litium, natrium, kalium): myke, svært reaktive metaller.\n- **Gruppe 17, halogenene** (fluor, klor): reaktive ikke-metaller som lett danner salter.\n- **Gruppe 18, edelgassene** (helium, neon, argon): nesten helt ureaktive fordi det ytterste skallet er fullt.\n\n**Metallene** står til venstre og i midten. De leder strøm og varme og er blanke. **Ikke-metallene** står til høyre. Skillet mellom dem går som en trapp gjennom systemet.",
+  "flashcards": [
+    { "term": "Atom", "def": "Den minste enheten av et grunnstoff. Består av kjerne og elektroner." },
+    { "term": "Proton", "def": "Positivt ladd partikkel i atomkjernen." },
+    { "term": "Nøytron", "def": "Nøytral partikkel i atomkjernen." },
+    { "term": "Elektron", "def": "Negativt ladd partikkel som beveger seg i skall rundt kjernen." },
+    { "term": "Atomnummer", "def": "Antall protoner i kjernen. Bestemmer hvilket grunnstoff atomet er." },
+    { "term": "Grunnstoff", "def": "Et stoff som består av bare én type atomer, som gull eller oksygen." },
+    { "term": "Kjemisk forbindelse", "def": "Stoff dannet av atomer fra ulike grunnstoffer, som vann (H₂O)." },
+    { "term": "Molekyl", "def": "En gruppe atomer som er bundet sammen, som H₂O eller CO₂." },
+    { "term": "Periodesystemet", "def": "Oversikt over grunnstoffene ordnet etter atomnummer." },
+    { "term": "Periode", "def": "En vannrett rad i periodesystemet. Viser antall elektronskall." },
+    { "term": "Gruppe", "def": "En loddrett kolonne. Grunnstoffene har like mange elektroner i ytterste skall." },
+    { "term": "Alkalimetaller", "def": "Gruppe 1: myke og svært reaktive metaller." },
+    { "term": "Edelgasser", "def": "Gruppe 18: nesten ureaktive gasser med fullt ytterskall." },
+    { "term": "Mendelejev", "def": "Russisk kjemiker som lagde et tidlig periodesystem i 1869." },
+    { "term": "Atommodell", "def": "En forenklet framstilling av atomet som hjelper oss å forstå og forutsi." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvilken ladning har et proton?", "options": ["Negativ", "Positiv", "Ingen", "Det varierer"], "correct": 1, "explain": "Protoner er positive, elektroner negative og nøytroner nøytrale." },
+    { "id": "q02", "text": "Hva bestemmer hvilket grunnstoff et atom er?", "options": ["Antall nøytroner", "Antall elektronskall", "Antall protoner", "Størrelsen"], "correct": 2, "explain": "Atomnummeret, altså antall protoner, bestemmer grunnstoffet." },
+    { "id": "q03", "text": "Hva er vann, H₂O?", "options": ["En kjemisk forbindelse", "Et grunnstoff", "Et atom", "En edelgass"], "correct": 0, "explain": "Vann består av to grunnstoffer, hydrogen og oksygen, og er derfor en forbindelse." },
+    { "id": "q04", "text": "Hva kalles de loddrette kolonnene i periodesystemet?", "options": ["Perioder", "Skall", "Rader", "Grupper"], "correct": 3, "explain": "Kolonnene kalles grupper. De vannrette radene kalles perioder." },
+    { "id": "q05", "text": "Hvorfor reagerer edelgassene nesten ikke med andre stoffer?", "options": ["Fordi de er metaller", "Fordi de har fullt ytterste elektronskall", "Fordi de er tunge", "Fordi de er faste stoffer"], "correct": 1, "explain": "Et fullt ytterskall gjør atomene stabile, så de har lite behov for å reagere." },
+    { "id": "q06", "text": "Hvor står metallene i periodesystemet?", "options": ["Bare helt til høyre", "Bare øverst", "Til venstre og i midten", "Bare i gruppe 18"], "correct": 2, "explain": "De fleste grunnstoffene er metaller og står til venstre og i midten." },
+    { "id": "q07", "text": "Natrium og klor danner sammen et stoff. Hvilket?", "options": ["Bordsalt", "Vann", "Karbondioksid", "Sukker"], "correct": 0, "explain": "Natrium og klor danner natriumklorid, NaCl, som er bordsalt." },
+    { "id": "q08", "text": "Hvilken gruppe tilhører natrium og kalium?", "options": ["Halogenene", "Edelgassene", "Overgangsmetallene", "Alkalimetallene"], "correct": 3, "explain": "Natrium og kalium står i gruppe 1, alkalimetallene." },
+    { "id": "q09", "text": "Hvorfor er et atom elektrisk nøytralt?", "options": ["Fordi det ikke har partikler med ladning", "Fordi det har like mange elektroner som protoner", "Fordi nøytronene nøytraliserer alt", "Fordi det er lite"], "correct": 1, "explain": "Like mange positive protoner og negative elektroner opphever hverandres ladning." },
+    { "id": "q10", "text": "Hva gjorde Mendelejev spesielt?", "options": ["Han oppdaget elektronet", "Han lagde et periodesystem og lot plass til ukjente grunnstoffer", "Han fant opp mikroskopet", "Han delte atomet"], "correct": 1, "explain": "Mendelejev forutså grunnstoffer som senere ble oppdaget, noe som styrket systemet hans." }
+  ],
+  "mindmap": {
+    "label": "Atomer og periodesystemet",
+    "children": [
+      { "label": "Atomet", "children": [
+        { "label": "Kjerne", "note": "Protoner (+), nøytroner" },
+        { "label": "Elektroner (−)", "note": "I skall" },
+        { "label": "Atomnummer", "note": "Antall protoner" }
+      ] },
+      { "label": "Stoffer", "children": [
+        { "label": "Grunnstoff", "note": "Én type atomer" },
+        { "label": "Forbindelse", "note": "H₂O, NaCl" },
+        { "label": "Molekyl" }
+      ] },
+      { "label": "Periodesystemet", "children": [
+        { "label": "Perioder", "note": "Antall skall" },
+        { "label": "Grupper", "note": "Like egenskaper" },
+        { "label": "Mendelejev 1869" }
+      ] },
+      { "label": "Grupper", "children": [
+        { "label": "Alkalimetaller", "note": "Gruppe 1" },
+        { "label": "Halogener", "note": "Gruppe 17" },
+        { "label": "Edelgasser", "note": "Gruppe 18" }
+      ] },
+      { "label": "Metaller og ikke-metaller", "children": [
+        { "label": "Metaller: venstre og midten" },
+        { "label": "Ikke-metaller: høyre" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q09"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Nøytroner har negativ ladning.", "correct": false, "explain": "Nøytroner er nøytrale. Elektronene er negative." },
+      { "id": "m02", "type": "sant-usant", "text": "Grunnstoffer i samme gruppe har ofte like kjemiske egenskaper.", "correct": true, "explain": "De har like mange elektroner i ytterste skall." },
+      { "id": "m03", "type": "sant-usant", "text": "En kjemisk forbindelse har de samme egenskapene som grunnstoffene den er laget av.", "correct": false, "explain": "Forbindelser har nye egenskaper. Bordsalt er verken et reaktivt metall eller en giftig gass." },
+      { "id": "m04", "type": "sant-usant", "text": "En atommodell er en forenkling av virkeligheten.", "correct": true, "explain": "Modeller hjelper oss å forstå, men viser ikke alt nøyaktig." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er atomnummeret til karbon?", "options": ["12", "8", "6", "1"], "correct": 2, "explain": "Karbon har 6 protoner og derfor atomnummer 6." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilket grunnstoff er en edelgass?", "options": ["Helium", "Natrium", "Klor", "Jern"], "correct": 0, "explain": "Helium står i gruppe 18 sammen med de andre edelgassene." },
+      { "id": "m07", "type": "flervalg", "text": "Hva forteller periodenummeret?", "options": ["Antall protoner", "Antall elektronskall", "Om stoffet er fast", "Atomets masse"], "correct": 1, "explain": "Atomer i periode 3 har for eksempel tre elektronskall." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

@@ -1,0 +1,79 @@
+{
+  "id": "okosystemer",
+  "fagId": "naturfag-8",
+  "trinnId": "8",
+  "name": "Økosystemer",
+  "intro": "Biotiske og abiotiske faktorer, næringskjeder og næringsnett, energiflyt og kretsløp av stoffer i naturen.",
+  "kompetansemaal": [15],
+  "sammendrag": "## Hva er et økosystem?\n\nEt **økosystem** er et område i naturen der levende organismer og omgivelsene påvirker hverandre. En skog, en innsjø, en myr og et korallrev er eksempler. Alle organismene av samme art i et område kalles en **populasjon**, og alle populasjonene sammen er et **samfunn**.\n\n## Biotiske og abiotiske faktorer\n\n- **Biotiske faktorer** er de levende delene av økosystemet: planter, dyr, sopp og bakterier, og hvordan de påvirker hverandre gjennom konkurranse, samarbeid, beiting og predasjon.\n- **Abiotiske faktorer** er de ikke-levende delene: lys, temperatur, vann, vind, jordsmonn og næringsstoffer.\n\nDe abiotiske faktorene avgjør hvilke organismer som kan leve et sted. På fjellet er det kaldt og vindfullt, og bare noen planter klarer seg der. Endres en abiotisk faktor, for eksempel ved tørke, påvirkes hele økosystemet.\n\n## Roller i økosystemet\n\n- **Produsenter**, som planter og alger, lager næring ved fotosyntese.\n- **Konsumenter** spiser andre organismer. **Planteetere** (primærkonsumenter) spiser planter, og **rovdyr** (sekundær- og tertiærkonsumenter) spiser andre dyr.\n- **Nedbrytere**, som sopp, bakterier og meitemark, bryter ned døde organismer og avfall til næringsstoffer som planter kan bruke igjen.\n\n## Næringskjeder og næringsnett\n\nEn **næringskjede** viser hvem som spiser hvem: gress → hare → rev. I virkeligheten spiser de fleste dyr flere ting og blir spist av flere, slik at kjedene vever seg sammen til et **næringsnett**.\n\n## Energi og materie\n\n**Energi** går én vei gjennom økosystemet: fra sola, til produsentene og videre til konsumentene. På hvert trinn i næringskjeden brukes mye av energien til livsprosesser og forsvinner som varme. Bare rundt en tidel går videre til neste trinn. Derfor finnes det langt færre rovdyr enn planteetere, og næringskjeder har sjelden mer enn fire–fem ledd.\n\n**Materie**, altså stoffene, går derimot i **kretsløp**. Karbon, nitrogen og vann sirkulerer mellom organismer, jord, vann og luft. Nedbryterne er avgjørende for at næringsstoffene kommer tilbake i kretsløpet.\n\n## Balanse og endringer\n\nEt økosystem er i en viss **balanse**, men kan endres. Fjernes et rovdyr, kan byttedyrene bli så mange at de spiser opp vegetasjonen. Innførte, **fremmede arter**, forurensning og klimaendringer kan også forstyrre balansen.",
+  "flashcards": [
+    { "term": "Økosystem", "def": "Et område der organismer og omgivelsene påvirker hverandre, som en skog eller en innsjø." },
+    { "term": "Populasjon", "def": "Alle individer av samme art i et område." },
+    { "term": "Biotiske faktorer", "def": "Levende deler av økosystemet: planter, dyr, sopp og bakterier." },
+    { "term": "Abiotiske faktorer", "def": "Ikke-levende deler: lys, temperatur, vann, jord og næringsstoffer." },
+    { "term": "Produsent", "def": "Organisme som lager egen næring ved fotosyntese." },
+    { "term": "Konsument", "def": "Organisme som spiser andre organismer." },
+    { "term": "Primærkonsument", "def": "Planteeter, som spiser produsenter." },
+    { "term": "Rovdyr", "def": "Dyr som spiser andre dyr." },
+    { "term": "Nedbryter", "def": "Sopp, bakterier og smådyr som bryter ned døde organismer til næringsstoffer." },
+    { "term": "Næringskjede", "def": "Viser hvem som spiser hvem: gress → hare → rev." },
+    { "term": "Næringsnett", "def": "Mange sammenvevde næringskjeder." },
+    { "term": "Energiflyt", "def": "Energi går én vei fra sola via produsenter til konsumenter, og tapes som varme." },
+    { "term": "En tidel", "def": "Omtrent så mye av energien går videre til neste trinn i næringskjeden." },
+    { "term": "Kretsløp av materie", "def": "Stoffer som karbon, nitrogen og vann sirkulerer og brukes om igjen." },
+    { "term": "Fremmed art", "def": "En art som er innført til et område der den ikke hører naturlig hjemme." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvilken er en abiotisk faktor?", "options": ["Et tre", "En elg", "Temperatur", "En sopp"], "correct": 2, "explain": "Temperatur er ikke-levende. Tre, elg og sopp er biotiske faktorer." },
+    { "id": "q02", "text": "Hva er en produsent?", "options": ["En organisme som lager egen næring ved fotosyntese", "Et rovdyr", "En nedbryter", "En planteeter"], "correct": 0, "explain": "Planter og alger er produsenter og står nederst i næringskjeden." },
+    { "id": "q03", "text": "I næringskjeden gress → hare → rev, hva er haren?", "options": ["Produsent", "Nedbryter", "Rovdyr på toppen", "Primærkonsument"], "correct": 3, "explain": "Haren spiser planter og er derfor planteeter, eller primærkonsument." },
+    { "id": "q04", "text": "Hva gjør nedbryterne?", "options": ["Lager oksygen", "Bryter ned døde organismer til næringsstoffer", "Spiser rovdyr", "Fanger sollys"], "correct": 1, "explain": "Nedbryterne sørger for at næringsstoffene kommer tilbake i kretsløpet." },
+    { "id": "q05", "text": "Hvorfor finnes det færre rovdyr enn planteetere?", "options": ["Fordi rovdyr lever lenger", "Fordi det bare går videre omtrent en tidel av energien til hvert nytt trinn", "Fordi rovdyr ikke trenger mat", "Fordi planteetere er større"], "correct": 1, "explain": "Energitapet på hvert trinn gjør at det er mindre energi tilgjengelig høyere opp." },
+    { "id": "q06", "text": "Hva er forskjellen på energi og materie i et økosystem?", "options": ["Begge går i kretsløp", "Begge går én vei", "Energi går én vei, materie går i kretsløp", "Materie går én vei, energi går i kretsløp"], "correct": 2, "explain": "Energien kommer fra sola og tapes som varme, mens stoffene brukes om og om igjen." },
+    { "id": "q07", "text": "Hva er et næringsnett?", "options": ["Mange sammenvevde næringskjeder", "Et fiskegarn", "En liste over planter", "Et kretsløp for vann"], "correct": 0, "explain": "De fleste dyr spiser og blir spist av flere arter, så kjedene henger sammen i et nett." },
+    { "id": "q08", "text": "Hva kan skje hvis rovdyrene forsvinner fra et område?", "options": ["Ingenting", "Plantene forsvinner umiddelbart", "Nedbryterne dør", "Byttedyrene kan bli så mange at de spiser opp vegetasjonen"], "correct": 3, "explain": "Uten rovdyr kan byttedyrbestanden vokse kraftig og forstyrre balansen." },
+    { "id": "q09", "text": "Hva er en populasjon?", "options": ["Alle arter i en skog", "Alle individer av samme art i et område", "Alle abiotiske faktorer", "Et helt kontinent"], "correct": 1, "explain": "For eksempel alle elgene i en bestemt skog." },
+    { "id": "q10", "text": "Hvor kommer nesten all energi i et økosystem fra?", "options": ["Sola", "Jorda", "Vannet", "Nedbryterne"], "correct": 0, "explain": "Produsentene fanger solenergi, og den går videre gjennom næringskjedene." }
+  ],
+  "mindmap": {
+    "label": "Økosystemer",
+    "children": [
+      { "label": "Faktorer", "children": [
+        { "label": "Biotiske", "note": "Levende" },
+        { "label": "Abiotiske", "note": "Lys, vann, temperatur" }
+      ] },
+      { "label": "Roller", "children": [
+        { "label": "Produsenter" },
+        { "label": "Konsumenter", "note": "Planteetere, rovdyr" },
+        { "label": "Nedbrytere" }
+      ] },
+      { "label": "Næring", "children": [
+        { "label": "Næringskjede" },
+        { "label": "Næringsnett" }
+      ] },
+      { "label": "Energi og materie", "children": [
+        { "label": "Energi går én vei", "note": "Ca. 1/10 videre" },
+        { "label": "Materie går i kretsløp" }
+      ] },
+      { "label": "Balanse", "children": [
+        { "label": "Rovdyr og byttedyr" },
+        { "label": "Fremmede arter" },
+        { "label": "Forurensning og klima" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Meitemark er en nedbryter.", "correct": true, "explain": "Meitemark spiser dødt plantemateriale og bidrar til nedbrytingen." },
+      { "id": "m02", "type": "sant-usant", "text": "Energi går i kretsløp akkurat som karbon.", "correct": false, "explain": "Energi går én vei og tapes som varme. Stoffer som karbon går i kretsløp." },
+      { "id": "m03", "type": "sant-usant", "text": "Abiotiske faktorer avgjør hvilke organismer som kan leve et sted.", "correct": true, "explain": "Temperatur, lys og vann bestemmer levevilkårene." },
+      { "id": "m04", "type": "sant-usant", "text": "Næringskjeder har ofte 15–20 ledd.", "correct": false, "explain": "På grunn av energitapet har næringskjeder sjelden mer enn fire–fem ledd." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken organisme er en produsent?", "options": ["Rev", "Blåbærlyng", "Hare", "Sopp"], "correct": 1, "explain": "Blåbærlyng er en plante som driver fotosyntese." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er et eksempel på en fremmed art i Norge?", "options": ["Elg", "Rev", "Hagelupin", "Bjørk"], "correct": 2, "explain": "Hagelupin er innført og sprer seg på bekostning av norske arter." },
+      { "id": "m07", "type": "flervalg", "text": "Hva kalles et dyr som spiser andre dyr?", "options": ["Rovdyr", "Produsent", "Planteeter", "Nedbryter"], "correct": 0, "explain": "Rovdyr, som rev og ulv, spiser andre dyr." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

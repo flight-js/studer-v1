@@ -1,0 +1,108 @@
+{
+  "id": "naturfag-8",
+  "trinnId": "8",
+  "name": "Naturfag",
+  "lareplan": {
+    "kode": "NAT01-05",
+    "url": "https://www.udir.no/lk20/nat01-05/kompetansemaal-og-vurdering/kv1078",
+    "kompetansemaal": [
+      {
+        "nr": 1,
+        "tekst": "stille spørsmål og lage hypoteser om naturfaglige fenomener, identifisere avhengige og uavhengige variabler og samle data for å finne svar"
+      },
+      {
+        "nr": 2,
+        "tekst": "analysere og bruke innsamlede data til å lage forklaringer, drøfte forklaringene i lys av relevant teori og vurdere kvaliteten på egne og andres utforskinger"
+      },
+      {
+        "nr": 3,
+        "tekst": "bruke og lage modeller for å forutsi eller beskrive naturfaglige prosesser og systemer og gjøre rede for modellenes styrker og begrensninger"
+      },
+      {
+        "nr": 4,
+        "tekst": "delta i risikovurderinger knyttet til forsøk og følge sikkerhetstiltakene"
+      },
+      {
+        "nr": 5,
+        "tekst": "gi eksempler på dagsaktuell forskning og drøfte hvordan ny kunnskap genereres gjennom samarbeid og kritisk tilnærming til eksisterende kunnskap"
+      },
+      {
+        "nr": 6,
+        "tekst": "utforske, forstå og lage teknologiske systemer som består av en sender og en mottaker"
+      },
+      {
+        "nr": 7,
+        "tekst": "bruke programmering til å utforske naturfaglige fenomener"
+      },
+      {
+        "nr": 8,
+        "tekst": "utforske kjemiske reaksjoner, forklare massebevaring og gjøre rede for betydninger av noen forbrenningsreaksjoner"
+      },
+      {
+        "nr": 9,
+        "tekst": "bruke atommodeller og periodesystemet til å gjøre rede for egenskaper til grunnstoffer og kjemiske forbindelser"
+      },
+      {
+        "nr": 10,
+        "tekst": "beskrive drivhuseffekten og gjøre rede for faktorer som kan forårsake globale klimaendringer"
+      },
+      {
+        "nr": 11,
+        "tekst": "gjøre rede for energibevaring og energikvalitet og utforske ulike måter å omdanne, transportere og lagre energi på"
+      },
+      {
+        "nr": 12,
+        "tekst": "drøfte hvordan energiproduksjon og energibruk kan påvirke miljøet lokalt og globalt"
+      },
+      {
+        "nr": 13,
+        "tekst": "beskrive hvordan forskere har kommet fram til evolusjonsteorien og bruke denne til å forklare utvikling av biologisk mangfold"
+      },
+      {
+        "nr": 14,
+        "tekst": "sammenligne celler hos ulike organismer og beskrive sammenhenger mellom oppbygning og funksjon"
+      },
+      {
+        "nr": 15,
+        "tekst": "utforske sammenhenger mellom abiotiske og biotiske faktorer i et økosystem og diskutere hvordan energi og materie omdannes i kretsløp"
+      },
+      {
+        "nr": 16,
+        "tekst": "gi eksempler på og drøfte aktuelle dilemmaer knyttet til utnyttelse av naturressurser og tap av biologisk mangfold"
+      },
+      {
+        "nr": 17,
+        "tekst": "gi eksempler på samers tradisjonelle kunnskap om naturen og diskutere hvordan denne kunnskapen kan bidra til bærekraftig forvaltning av naturen"
+      },
+      {
+        "nr": 18,
+        "tekst": "gjøre rede for hvordan fotosyntese og celleånding gir energi til alt levende gjennom karbonkretsløpet"
+      },
+      {
+        "nr": 19,
+        "tekst": "bruke platetektonikkteorien til å forklare jordas utvikling over tid og gi eksempler på observasjoner som støtter teorien"
+      },
+      {
+        "nr": 20,
+        "tekst": "drøfte spørsmål knyttet til seksuell og reproduktiv helse"
+      },
+      {
+        "nr": 21,
+        "tekst": "sammenligne nervesystemet og hormonsystemet og beskrive hvordan rusmidler, legemidler, miljøgifter og doping påvirker signalsystemene"
+      },
+      {
+        "nr": 22,
+        "tekst": "beskrive kroppens immunforsvar og hvordan vaksiner virker, og gjøre rede for hva vaksiner betyr for folkehelsen"
+      }
+    ]
+  },
+  "temaer": [
+    "naturvitenskapelig-metode",
+    "celler",
+    "fotosyntese-og-celleanding",
+    "okosystemer",
+    "atomer-og-periodesystemet",
+    "kjemiske-reaksjoner",
+    "platetektonikk"
+  ]
+}

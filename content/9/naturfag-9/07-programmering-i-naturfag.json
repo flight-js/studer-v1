@@ -1,0 +1,80 @@
+{
+  "id": "programmering-i-naturfag",
+  "fagId": "naturfag-9",
+  "trinnId": "9",
+  "name": "Programmering i naturfag",
+  "intro": "Hvordan programmering brukes til å samle inn måledata, lage simuleringer og modeller, og utforske naturfaglige fenomener.",
+  "kompetansemaal": [7, 3, 1],
+  "sammendrag": "## Hvorfor programmere i naturfag?\n\nForskere bruker programmering hele tiden. Datamaskiner kan samle inn tusenvis av målinger automatisk, regne ut sammenhenger raskt og **simulere** prosesser som er for store, for små, for farlige eller for langsomme til å undersøkes direkte. Værmeldinger, klimamodeller og beregninger av hvordan smitte sprer seg, bygger alle på programmering.\n\n## Samle inn data med sensorer\n\nMed en **mikrokontroller**, som en micro:bit, og **sensorer** kan du lage din egen måleutrustning. Programmet kan for eksempel:\n\n- lese av temperaturen hvert minutt gjennom et døgn,\n- måle lysstyrken i klasserommet,\n- registrere hvor mange ganger en bevegelsessensor utløses.\n\nMålingene lagres i en **liste** og kan senere overføres til et regneark eller vises som en **graf**. Automatisk måling gir flere og jevnere data enn manuelle målinger, men du må fortsatt vurdere om sensoren måler riktig, altså kontrollere den mot et vanlig termometer eller lignende.\n\n## Simuleringer og modeller\n\nEn **simulering** er et program som etterligner en naturfaglig prosess etter bestemte regler. Eksempler:\n\n- **Populasjonsvekst**: Hvor mange bakterier blir det hvis antallet dobles hver tjuende minutt?\n- **Rovdyr og byttedyr**: Hvordan svinger antallet harer og gauper når de påvirker hverandre?\n- **Radioaktiv nedbrytning**: Hvor mye av et stoff er igjen etter flere halveringstider?\n- **Smittespredning**: Hvordan påvirker vaksinasjon hvor mange som blir smittet?\n\nEn simulering bygger på en **modell** med forenklinger. Den er bare så god som reglene og tallene vi legger inn. Derfor må vi sammenligne resultatene med virkelige data og vurdere modellens **styrker og begrensninger**.\n\n## Byggesteiner\n\nI naturfagprogrammer bruker du de samme byggesteinene som ellers: **variabler** for størrelser som tid, temperatur og antall, **løkker** som gjentar beregningen for hvert tidssteg, og **betingelser** som for eksempel skrur på en vifte hvis temperaturen blir for høy. Tilfeldige tall kan brukes til å etterligne tilfeldige hendelser, som hvilke atomer som henfaller.\n\n## Utforske med programmering\n\nProgrammering gjør det lett å endre én variabel og se hva som skjer: Hva om bakteriene deler seg dobbelt så raskt? Hva om vaksinasjonsgraden øker fra 50 % til 80 %? Slike **hva-om-spørsmål** gir innsikt i hvordan systemet oppfører seg, og kan føre til nye hypoteser som kan testes.",
+  "flashcards": [
+    { "term": "Simulering", "def": "Et program som etterligner en naturfaglig prosess etter bestemte regler." },
+    { "term": "Modell", "def": "En forenklet beskrivelse av virkeligheten som simuleringer bygger på." },
+    { "term": "Mikrokontroller", "def": "Liten programmerbar datamaskin, som micro:bit, som kan lese sensorer." },
+    { "term": "Sensor", "def": "Måler noe i omgivelsene, som temperatur, lys eller bevegelse." },
+    { "term": "Automatisk måling", "def": "Programmet tar målinger med faste mellomrom, uten at noen må lese av." },
+    { "term": "Liste", "def": "Struktur i et program som lagrer mange verdier, for eksempel målinger." },
+    { "term": "Tidssteg", "def": "Et lite tidsintervall som simuleringen regner ut ett og ett av, i en løkke." },
+    { "term": "Populasjonsvekst", "def": "Økningen i antall individer, som kan simuleres med et program." },
+    { "term": "Rovdyr–byttedyr-modell", "def": "Simulering av hvordan antall rovdyr og byttedyr påvirker hverandre." },
+    { "term": "Halveringstid", "def": "Tiden det tar før halvparten av et radioaktivt stoff har brutt ned." },
+    { "term": "Betingelse i måleprogram", "def": "For eksempel: hvis temperaturen er over 25 °C, skru på vifta." },
+    { "term": "Tilfeldige tall", "def": "Brukes til å etterligne tilfeldige hendelser i simuleringer." },
+    { "term": "Kontrollere sensoren", "def": "Sammenligne sensorens verdier med et kjent måleinstrument." },
+    { "term": "Hva-om-spørsmål", "def": "Å endre én variabel i en simulering for å se hvordan systemet reagerer." },
+    { "term": "Modellens begrensninger", "def": "Forenklingene gjør at modellen ikke stemmer helt med virkeligheten." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er en simulering?", "options": ["Et program som etterligner en prosess etter bestemte regler", "Et vanlig forsøk på lab", "En type sensor", "Et regneark uten data"], "correct": 0, "explain": "Simuleringer lar oss utforske prosesser som er vanskelige å undersøke direkte." },
+    { "id": "q02", "text": "Hva er en fordel med automatisk måling med sensor?", "options": ["Man trenger aldri å kontrollere resultatene", "Den gir mange og jevne målinger over lang tid", "Den er alltid helt nøyaktig", "Den krever ingen strøm"], "correct": 1, "explain": "Programmet kan måle for eksempel hvert minutt i et helt døgn." },
+    { "id": "q03", "text": "Bakterier dobles hvert 20. minutt. Hvor mange blir én bakterie til etter 1 time?", "options": ["3", "6", "8", "20"], "correct": 2, "explain": "På én time er det tre doblinger: 1 → 2 → 4 → 8." },
+    { "id": "q04", "text": "Hvorfor må vi sammenligne en simulering med virkelige data?", "options": ["Fordi datamaskiner alltid regner feil", "Fordi det er gøy", "For å gjøre programmet raskere", "Fordi simuleringen bygger på forenklinger som kan være feil"], "correct": 3, "explain": "En modell er bare så god som reglene og tallene den bygger på." },
+    { "id": "q05", "text": "Hva brukes en løkke til i en simulering?", "options": ["Å gjenta beregningen for hvert tidssteg", "Å lagre en enkelt verdi", "Å koble til sensoren", "Å skrive ut en tittel"], "correct": 0, "explain": "Løkka regner ut ett tidssteg om gangen, for eksempel ett minutt eller én generasjon." },
+    { "id": "q06", "text": "Et program skal skru på en vifte når det blir for varmt. Hva trengs?", "options": ["Bare en løkke", "Bare en liste", "En betingelse, som «hvis temperaturen er over 25 °C»", "Ingen programmering"], "correct": 2, "explain": "Betingelsen avgjør når vifta skal gå." },
+    { "id": "q07", "text": "Hvorfor kan tilfeldige tall være nyttige i simuleringer?", "options": ["For å gjøre programmet feilfritt", "For å etterligne tilfeldige hendelser, som radioaktivt henfall", "For å erstatte alle målinger", "De er aldri nyttige"], "correct": 1, "explain": "Mange prosesser i naturen har et tilfeldig element som kan etterlignes med tilfeldige tall." },
+    { "id": "q08", "text": "Hva gjør du når du kontrollerer en temperatursensor?", "options": ["Sammenligner verdiene med et vanlig termometer", "Sletter programmet", "Bytter batteri", "Legger den i fryseren for alltid"], "correct": 0, "explain": "Da ser du om sensoren viser riktige verdier." },
+    { "id": "q09", "text": "Hva er et hva-om-spørsmål i en simulering?", "options": ["Et spørsmål om programmets navn", "Å endre én variabel for å se hvordan systemet reagerer", "Å slette data", "Å skrive rapport"], "correct": 1, "explain": "Eksempel: Hva skjer med smittespredningen hvis flere er vaksinert?" },
+    { "id": "q10", "text": "Hvilket fenomen egner seg godt for simulering fordi det tar lang tid i virkeligheten?", "options": ["Å veie et eple", "Å måle romtemperaturen nå", "Radioaktiv nedbrytning over tusenvis av år", "Å telle elevene i klassen"], "correct": 2, "explain": "Simuleringer kan vise prosesser som tar altfor lang tid å observere direkte." }
+  ],
+  "mindmap": {
+    "label": "Programmering i naturfag",
+    "children": [
+      { "label": "Datainnsamling", "children": [
+        { "label": "Sensorer" },
+        { "label": "Mikrokontroller" },
+        { "label": "Lister og grafer" },
+        { "label": "Kontroller sensoren" }
+      ] },
+      { "label": "Simuleringer", "children": [
+        { "label": "Populasjonsvekst" },
+        { "label": "Rovdyr og byttedyr" },
+        { "label": "Radioaktivitet" },
+        { "label": "Smittespredning" }
+      ] },
+      { "label": "Byggesteiner", "children": [
+        { "label": "Variabler" },
+        { "label": "Løkker", "note": "Tidssteg" },
+        { "label": "Betingelser" },
+        { "label": "Tilfeldige tall" }
+      ] },
+      { "label": "Vurdere", "children": [
+        { "label": "Modellens forenklinger" },
+        { "label": "Sammenlign med data" },
+        { "label": "Hva-om-spørsmål" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q08", "q10"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "En simulering gir alltid nøyaktig samme resultat som virkeligheten.", "correct": false, "explain": "Simuleringer bygger på forenklinger og kan avvike fra virkeligheten." },
+      { "id": "m02", "type": "sant-usant", "text": "Værmeldinger bygger på dataprogrammer som simulerer atmosfæren.", "correct": true, "explain": "Meteorologer bruker store datamodeller for å beregne været." },
+      { "id": "m03", "type": "sant-usant", "text": "Målinger fra en sensor kan lagres i en liste i programmet.", "correct": true, "explain": "Lister gjør det mulig å lagre og senere analysere mange målinger." },
+      { "id": "m04", "type": "sant-usant", "text": "Man trenger aldri å vurdere om en sensor måler riktig.", "correct": false, "explain": "Sensorer kan være unøyaktige og bør kontrolleres." },
+      { "id": "m05", "type": "flervalg", "text": "Hvor mye er igjen av et radioaktivt stoff etter to halveringstider?", "options": ["Halvparten", "En firedel", "Ingenting", "En tredel"], "correct": 1, "explain": "Etter én halveringstid er halvparten igjen, etter to er det en firedel." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilken byggestein lagrer størrelser som tid og temperatur i et program?", "options": ["Variabler", "Kommentarer", "Tabeller på papir", "Skrifttyper"], "correct": 0, "explain": "Variabler holder på verdiene programmet regner med." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er en modell i naturfag?", "options": ["En person som poserer", "En nøyaktig kopi av virkeligheten", "En forenklet beskrivelse som hjelper oss å forstå og forutsi", "Et forsøk"], "correct": 2, "explain": "Modeller forenkler virkeligheten slik at vi kan regne på den og forstå den." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

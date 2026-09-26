@@ -1,0 +1,81 @@
+{
+  "id": "energi-og-miljo",
+  "fagId": "naturfag-9",
+  "trinnId": "9",
+  "name": "Energiproduksjon og miljø",
+  "intro": "Fornybare og ikke-fornybare energikilder, hvordan de påvirker miljøet lokalt og globalt, og hvordan vi kan bruke energi smartere.",
+  "kompetansemaal": [12, 11],
+  "sammendrag": "## Energikilder\n\nVi deler energikildene i to grupper:\n\n- **Ikke-fornybare** energikilder brukes opp og fornyes ikke i menneskelig tidsperspektiv: **kull**, **olje**, **naturgass** og **uran** (kjernekraft).\n- **Fornybare** energikilder fornyes hele tiden: **vannkraft**, **vindkraft**, **solenergi**, **bioenergi**, **bølge- og tidevannskraft** og **jordvarme**.\n\nMesteparten av energien i verden kommer fortsatt fra fossile brensler. I Norge kommer derimot nesten all strømmen fra **vannkraft**, supplert med en økende andel vindkraft.\n\n## Globale miljøvirkninger\n\nNår fossile brensler brennes, slippes **karbondioksid** (CO₂) ut. CO₂ er en **klimagass** som forsterker drivhuseffekten og bidrar til **global oppvarming**. Forbrenning kan også gi **luftforurensning** med sot og partikler som skader helsen, og **sur nedbør** fra svovel- og nitrogenforbindelser.\n\n## Lokale miljøvirkninger\n\nOgså fornybar energi har ulemper, særlig lokalt:\n\n- **Vannkraft** krever dammer og regulerte elver. Det endrer landskapet og kan skade fisk, som laks.\n- **Vindkraft** gir støy og synlige turbiner, kan beslaglegge store naturområder, forstyrre reinbeite og skade fugler.\n- **Solcelleparker** tar mye areal, og produksjonen av solceller krever energi og mineraler.\n- **Bioenergi** kan føre til hogst av skog hvis den ikke drives bærekraftig.\n- **Kjernekraft** gir lite CO₂, men gir radioaktivt avfall som må lagres trygt i svært lang tid.\n\nDet finnes altså ingen energikilde helt uten miljøkostnader. Valgene handler om å veie fordeler og ulemper opp mot hverandre.\n\n## Energisparing og energieffektivisering\n\nDen reneste energien er den vi ikke bruker. **Energieffektivisering** betyr å få samme nytte med mindre energi, for eksempel:\n\n- bedre isolerte hus,\n- **varmepumper**, som henter varme fra luft, jord eller vann,\n- LED-lys i stedet for glødepærer,\n- elbiler, som har høyere virkningsgrad enn bensinbiler,\n- kollektivtransport, sykkel og gange.\n\n## Framtidas energisystem\n\nFor å redusere klimagassutslippene må verden gå over fra fossile til fornybare energikilder. Det krever mer strøm fra sol og vind, bedre **energilagring**, smartere strømnett og nye løsninger som **hydrogen** for tungtransport og industri. Samtidig må vi ta hensyn til naturen, slik at klimatiltak ikke går på bekostning av det biologiske mangfoldet.",
+  "flashcards": [
+    { "term": "Ikke-fornybar energikilde", "def": "Brukes opp og fornyes ikke i menneskelig tidsperspektiv: kull, olje, gass, uran." },
+    { "term": "Fornybar energikilde", "def": "Fornyes hele tiden: vann, vind, sol, bioenergi, bølger og jordvarme." },
+    { "term": "Fossile brensler", "def": "Kull, olje og gass. Gir CO₂-utslipp når de brennes." },
+    { "term": "Vannkraft", "def": "Gir nesten all strømmen i Norge. Krever dammer og regulerte elver." },
+    { "term": "Klimagass", "def": "Gass som forsterker drivhuseffekten, som CO₂ og metan." },
+    { "term": "Global oppvarming", "def": "Økningen i jordas gjennomsnittstemperatur, forsterket av klimagassutslipp." },
+    { "term": "Sur nedbør", "def": "Nedbør gjort sur av svovel- og nitrogenforbindelser fra forbrenning." },
+    { "term": "Vindkraft – ulemper", "def": "Støy, synlige turbiner, arealbruk, fugler og reinbeite." },
+    { "term": "Kjernekraft", "def": "Gir lite CO₂, men radioaktivt avfall som må lagres i svært lang tid." },
+    { "term": "Bioenergi", "def": "Energi fra biologisk materiale, som ved og biogass." },
+    { "term": "Energieffektivisering", "def": "Å få samme nytte med mindre energi." },
+    { "term": "Varmepumpe", "def": "Henter varme fra luft, jord eller vann og gir mer varme enn strømmen den bruker." },
+    { "term": "Elbil", "def": "Har høyere virkningsgrad enn bensinbil og ingen utslipp fra eksosrør." },
+    { "term": "Hydrogen", "def": "Mulig energibærer for tungtransport og industri i framtida." },
+    { "term": "Ingen energikilde uten kostnad", "def": "Alle energikilder har ulemper for miljøet, lokalt eller globalt." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvilken energikilde er fornybar?", "options": ["Kull", "Naturgass", "Vindkraft", "Olje"], "correct": 2, "explain": "Vinden fornyes hele tiden. Kull, olje og gass er fossile og brukes opp." },
+    { "id": "q02", "text": "Hvor kommer det meste av strømmen i Norge fra?", "options": ["Vannkraft", "Kullkraft", "Kjernekraft", "Solenergi"], "correct": 0, "explain": "Norge har mange fjell og mye nedbør, og nesten all strøm kommer fra vannkraft." },
+    { "id": "q03", "text": "Hvilken gass slippes ut når fossile brensler brennes, og forsterker drivhuseffekten?", "options": ["Oksygen", "Nitrogen", "Helium", "Karbondioksid"], "correct": 3, "explain": "CO₂ er den viktigste klimagassen fra menneskelig aktivitet." },
+    { "id": "q04", "text": "Hvilken er en lokal ulempe ved vannkraft?", "options": ["Store CO₂-utslipp", "Regulerte elver som kan skade fisk", "Radioaktivt avfall", "Sur nedbør"], "correct": 1, "explain": "Dammer og regulering endrer vannføringen og kan påvirke fisk som laks." },
+    { "id": "q05", "text": "Hva er den største ulempen med kjernekraft?", "options": ["Store CO₂-utslipp", "Den virker bare når det blåser", "Radioaktivt avfall som må lagres i svært lang tid", "Den gir sur nedbør"], "correct": 2, "explain": "Kjernekraft gir lite CO₂, men avfallet er farlig i tusenvis av år." },
+    { "id": "q06", "text": "Hva betyr energieffektivisering?", "options": ["Å få samme nytte med mindre energi", "Å bruke mer energi", "Å bygge flere kraftverk", "Å skru av alt strøm"], "correct": 0, "explain": "Eksempler er etterisolering, LED-lys og varmepumper." },
+    { "id": "q07", "text": "Hvilket er et argument mot vindkraft på land?", "options": ["Den gir CO₂", "Den bruker kull", "Den er ikke fornybar", "Den kan beslaglegge store naturområder og forstyrre dyreliv"], "correct": 3, "explain": "Store vindkraftanlegg kan påvirke natur, fugler og reinbeite." },
+    { "id": "q08", "text": "Hvorfor sparer en varmepumpe energi?", "options": ["Den henter varme fra omgivelsene og gir mer varme enn strømmen den bruker", "Den bruker ikke strøm", "Den lager energi av ingenting", "Den kjøler huset"], "correct": 0, "explain": "Varmepumpen flytter varme fra luft, jord eller vann inn i huset." },
+    { "id": "q09", "text": "Hva er sur nedbør forårsaket av?", "options": ["CO₂ fra planter", "Svovel- og nitrogenforbindelser fra forbrenning", "Vanndamp", "Solcellepaneler"], "correct": 1, "explain": "Utslipp fra forbrenning av kull og olje kan gjøre nedbøren sur." },
+    { "id": "q10", "text": "Finnes det en energikilde helt uten miljøkostnader?", "options": ["Ja, vindkraft", "Ja, vannkraft", "Nei, alle har ulemper lokalt eller globalt", "Ja, solenergi"], "correct": 2, "explain": "Alle energikilder har noen ulemper, så valgene handler om å veie fordeler og ulemper." }
+  ],
+  "mindmap": {
+    "label": "Energi og miljø",
+    "children": [
+      { "label": "Ikke-fornybar", "children": [
+        { "label": "Kull, olje, gass" },
+        { "label": "Uran" }
+      ] },
+      { "label": "Fornybar", "children": [
+        { "label": "Vannkraft", "note": "Norge" },
+        { "label": "Vind og sol" },
+        { "label": "Bioenergi" }
+      ] },
+      { "label": "Globale virkninger", "children": [
+        { "label": "CO₂ og oppvarming" },
+        { "label": "Luftforurensning" },
+        { "label": "Sur nedbør" }
+      ] },
+      { "label": "Lokale virkninger", "children": [
+        { "label": "Regulerte elver" },
+        { "label": "Arealbruk og støy" },
+        { "label": "Radioaktivt avfall" }
+      ] },
+      { "label": "Løsninger", "children": [
+        { "label": "Energieffektivisering" },
+        { "label": "Varmepumper og LED" },
+        { "label": "Lagring og hydrogen" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q10"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Mesteparten av energien i verden kommer fortsatt fra fossile brensler.", "correct": true, "explain": "Selv om fornybar energi vokser, dominerer fortsatt kull, olje og gass." },
+      { "id": "m02", "type": "sant-usant", "text": "Solenergi har ingen miljøkostnader.", "correct": false, "explain": "Produksjon av solceller krever energi og mineraler, og solcelleparker tar areal." },
+      { "id": "m03", "type": "sant-usant", "text": "Elbiler har høyere virkningsgrad enn bensinbiler.", "correct": true, "explain": "Elmotorer utnytter en mye større del av energien enn forbrenningsmotorer." },
+      { "id": "m04", "type": "sant-usant", "text": "Uran er en fornybar energikilde.", "correct": false, "explain": "Uran brukes opp og fornyes ikke. Kjernekraft er derfor ikke fornybar." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er bioenergi?", "options": ["Energi fra biologisk materiale, som ved og biogass", "Energi fra kull", "Energi fra atomkjerner", "Energi fra vind"], "correct": 0, "explain": "Bioenergi kommer fra planter og annet organisk materiale." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilket tiltak er energieffektivisering?", "options": ["Å bygge et nytt kullkraftverk", "Å etterisolere et hus", "Å kjøre mer bil", "Å bruke glødepærer"], "correct": 1, "explain": "Bedre isolasjon gir samme varme med mindre energi." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilken energikilde kan utnytte varme dypt nede i jorda?", "options": ["Tidevannskraft", "Vindkraft", "Jordvarme", "Solenergi"], "correct": 2, "explain": "Jordvarme henter varme fra grunnen, ofte med varmepumpe." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

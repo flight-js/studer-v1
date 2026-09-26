@@ -1,0 +1,83 @@
+{
+  "id": "celler",
+  "fagId": "naturfag-8",
+  "trinnId": "8",
+  "name": "Celler",
+  "intro": "Cellen som livets minste enhet, forskjellen på plante-, dyre- og bakterieceller, og hvordan cellenes oppbygning henger sammen med funksjonen.",
+  "kompetansemaal": [14],
+  "sammendrag": "## Livets byggesteiner\n\nAlle levende organismer er bygd opp av **celler**. Noen organismer, som bakterier, består av bare én celle. Andre, som mennesker, består av mange milliarder celler som samarbeider. Cellen er den minste enheten som kan leve selvstendig, og nye celler dannes bare fra celler som allerede finnes, ved **celledeling**. Siden de fleste celler er for små til å se med det blotte øye, bruker vi **mikroskop** for å studere dem.\n\n## Dyreceller\n\nEn typisk dyrecelle har:\n\n- **cellemembran**, en tynn hinne som holder cellen samlet og bestemmer hva som slipper inn og ut,\n- **cytoplasma**, en geléaktig væske der mange av cellens prosesser skjer,\n- **cellekjerne**, som inneholder **DNA**, arvestoffet med oppskriften på cellen,\n- **mitokondrier**, der cellen frigjør energi fra næring ved **celleånding**.\n\n## Planteceller\n\nPlanteceller har de samme delene, og i tillegg:\n\n- **cellevegg** av cellulose utenfor membranen, som gir stivhet og form,\n- **kloroplaster** med det grønne stoffet **klorofyll**, der **fotosyntesen** skjer,\n- en stor **vakuole**, et væskefylt rom som lagrer vann og hjelper cellen å holde seg spent.\n\n## Bakterier\n\nBakterieceller er mye mindre og enklere. De har **ikke cellekjerne**; arvestoffet ligger fritt i cytoplasmaet. De har cellemembran og cellevegg, og noen har en **flagell**, en slags hale de kan bevege seg med. Celler uten cellekjerne kalles **prokaryote**, mens celler med kjerne, som dyre-, plante- og soppceller, kalles **eukaryote**.\n\n## Form og funksjon\n\nI flercellede organismer er cellene **spesialisert** for ulike oppgaver, og formen passer til jobben:\n\n- **Nerveceller** er lange og greinete, slik at de kan sende signaler over lange avstander.\n- **Røde blodceller** er små og flate uten kjerne, slik at de har plass til mye oksygen og kan presse seg gjennom smale årer.\n- **Muskelceller** er lange og kan trekke seg sammen.\n- **Rothårceller** i planter har lange utløpere som gir stor overflate for å ta opp vann.\n\nCeller av samme type som samarbeider, danner **vev**. Ulike vev danner **organer**, som hjertet, og organer som samarbeider, danner **organsystemer**.",
+  "flashcards": [
+    { "term": "Celle", "def": "Den minste enheten som kan leve selvstendig. Alle organismer er bygd av celler." },
+    { "term": "Cellemembran", "def": "Tynn hinne rundt cellen som bestemmer hva som slipper inn og ut." },
+    { "term": "Cytoplasma", "def": "Geléaktig væske i cellen der mange prosesser skjer." },
+    { "term": "Cellekjerne", "def": "Inneholder DNA og styrer cellens aktiviteter." },
+    { "term": "DNA", "def": "Arvestoffet, som inneholder oppskriften på cellen og organismen." },
+    { "term": "Mitokondrie", "def": "Cellens «kraftverk», der energi frigjøres ved celleånding." },
+    { "term": "Cellevegg", "def": "Stiv vegg utenfor membranen hos planter, sopp og bakterier." },
+    { "term": "Kloroplast", "def": "Grønn cellebit i planteceller der fotosyntesen skjer." },
+    { "term": "Klorofyll", "def": "Grønt stoff i kloroplastene som fanger opp lysenergi." },
+    { "term": "Vakuole", "def": "Stort væskefylt rom i planteceller som lagrer vann." },
+    { "term": "Prokaryot celle", "def": "Celle uten cellekjerne, som bakterier." },
+    { "term": "Eukaryot celle", "def": "Celle med cellekjerne, som dyre-, plante- og soppceller." },
+    { "term": "Spesialiserte celler", "def": "Celler med form og innhold tilpasset en bestemt oppgave." },
+    { "term": "Vev", "def": "En gruppe like celler som samarbeider om en oppgave." },
+    { "term": "Celle → vev → organ → organsystem", "def": "Organiseringen i flercellede organismer." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvilken del av cellen inneholder DNA?", "options": ["Cellemembranen", "Cellekjernen", "Vakuolen", "Celleveggen"], "correct": 1, "explain": "I eukaryote celler ligger DNA-et i cellekjernen." },
+    { "id": "q02", "text": "Hva finnes i planteceller, men ikke i dyreceller?", "options": ["Cellemembran og cytoplasma", "Mitokondrier", "Cellevegg og kloroplaster", "Cellekjerne"], "correct": 2, "explain": "Planteceller har cellevegg, kloroplaster og en stor vakuole i tillegg." },
+    { "id": "q03", "text": "Hvor skjer fotosyntesen?", "options": ["I mitokondriene", "I kloroplastene", "I cellekjernen", "I cellemembranen"], "correct": 1, "explain": "Kloroplastene inneholder klorofyll, som fanger lysenergien til fotosyntesen." },
+    { "id": "q04", "text": "Hva kjennetegner bakterieceller?", "options": ["De har ikke cellekjerne", "De har kloroplaster", "De er større enn dyreceller", "De har ikke cellemembran"], "correct": 0, "explain": "Bakterier er prokaryote. Arvestoffet ligger fritt i cytoplasmaet." },
+    { "id": "q05", "text": "Hva gjør mitokondriene?", "options": ["Lagrer vann", "Lager proteiner fra lys", "Beskytter cellen", "Frigjør energi fra næring ved celleånding"], "correct": 3, "explain": "Mitokondriene kalles ofte cellens kraftverk." },
+    { "id": "q06", "text": "Hvorfor er nerveceller lange og greinete?", "options": ["For å lagre fett", "For å sende signaler over lange avstander", "For å fange lys", "For å frakte oksygen"], "correct": 1, "explain": "Formen gjør det mulig å nå langt og koble seg til mange andre celler." },
+    { "id": "q07", "text": "Hva kalles en gruppe like celler som samarbeider?", "options": ["Organ", "Organisme", "Vev", "Organsystem"], "correct": 2, "explain": "Like celler danner vev, for eksempel muskelvev." },
+    { "id": "q08", "text": "Hva gjør cellemembranen?", "options": ["Gir planten grønn farge", "Inneholder arvestoffet", "Frigjør energi", "Holder cellen samlet og bestemmer hva som slipper inn og ut"], "correct": 3, "explain": "Membranen er en selektiv grense mellom cellen og omgivelsene." },
+    { "id": "q09", "text": "Hva er en eukaryot celle?", "options": ["En celle med cellekjerne", "En celle uten kjerne", "En bakteriecelle", "En død celle"], "correct": 0, "explain": "Dyre-, plante- og soppceller har kjerne og er eukaryote." },
+    { "id": "q10", "text": "Hvorfor har røde blodceller ingen kjerne?", "options": ["Fordi de er døde", "For å få plass til mer oksygen", "Fordi de er bakterier", "For å lage fotosyntese"], "correct": 1, "explain": "Uten kjerne har de mer plass til hemoglobin, som frakter oksygen." }
+  ],
+  "mindmap": {
+    "label": "Celler",
+    "children": [
+      { "label": "Felles deler", "children": [
+        { "label": "Cellemembran" },
+        { "label": "Cytoplasma" },
+        { "label": "Cellekjerne", "note": "DNA" },
+        { "label": "Mitokondrier" }
+      ] },
+      { "label": "Plantecelle", "children": [
+        { "label": "Cellevegg" },
+        { "label": "Kloroplaster" },
+        { "label": "Stor vakuole" }
+      ] },
+      { "label": "Bakterie", "children": [
+        { "label": "Ingen kjerne", "note": "Prokaryot" },
+        { "label": "Cellevegg" },
+        { "label": "Flagell" }
+      ] },
+      { "label": "Form og funksjon", "children": [
+        { "label": "Nerveceller" },
+        { "label": "Røde blodceller" },
+        { "label": "Rothårceller" }
+      ] },
+      { "label": "Organisering", "children": [
+        { "label": "Celle → vev" },
+        { "label": "Organ" },
+        { "label": "Organsystem" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q09"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Alle levende organismer er bygd opp av celler.", "correct": true, "explain": "Cellen er livets grunnleggende enhet." },
+      { "id": "m02", "type": "sant-usant", "text": "Dyreceller har cellevegg.", "correct": false, "explain": "Dyreceller har bare cellemembran. Planter, sopp og bakterier har cellevegg." },
+      { "id": "m03", "type": "sant-usant", "text": "Nye celler dannes ved at eksisterende celler deler seg.", "correct": true, "explain": "Celler oppstår fra andre celler gjennom celledeling." },
+      { "id": "m04", "type": "sant-usant", "text": "Bakterier har cellekjerne.", "correct": false, "explain": "Bakterier er prokaryote og mangler cellekjerne." },
+      { "id": "m05", "type": "flervalg", "text": "Hva gjør vakuolen i en plantecelle?", "options": ["Lagrer vann og holder cellen spent", "Lager energi", "Inneholder DNA", "Fanger lys"], "correct": 0, "explain": "Den store vakuolen fylles med vann og hjelper planten å stå oppreist." },
+      { "id": "m06", "type": "flervalg", "text": "Hva kalles et hjerte, som består av flere typer vev?", "options": ["En celle", "Et organ", "Et vev", "En organisme"], "correct": 1, "explain": "Et organ består av ulike vev som samarbeider." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilket instrument trenger du for å se de fleste celler?", "options": ["Kikkert", "Termometer", "Mikroskop", "Vekt"], "correct": 2, "explain": "De fleste celler er for små til å ses uten mikroskop." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

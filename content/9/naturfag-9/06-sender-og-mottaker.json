@@ -1,0 +1,80 @@
+{
+  "id": "sender-og-mottaker",
+  "fagId": "naturfag-9",
+  "trinnId": "9",
+  "name": "Teknologi: sender og mottaker",
+  "intro": "Hvordan teknologiske systemer overfører signaler fra en sender til en mottaker – med sensorer, mikrokontrollere, lys, lyd og radiobølger.",
+  "kompetansemaal": [6, 7],
+  "sammendrag": "## Signaler overalt\n\nMobiltelefoner, fjernkontroller, bluetooth-høyttalere, trådløst nett og røykvarslere har én ting felles: De overfører **informasjon** fra en **sender** til en **mottaker** ved hjelp av et **signal**. Et slikt teknologisk system kan beskrives med tre deler: sender, overføring (kanal) og mottaker.\n\n## Sender, kanal og mottaker\n\n- **Senderen** gjør informasjon om til et signal, for eksempel lys, lyd, elektrisk strøm eller radiobølger.\n- **Kanalen** er det signalet går gjennom: luft, en ledning, en optisk fiber eller tomt rom.\n- **Mottakeren** fanger opp signalet og gjør det om til noe nyttig igjen, som lyd, bilde eller en handling.\n\nEt eksempel er en **fjernkontroll**. Når du trykker på en knapp, sender en lysdiode ut **infrarødt lys** i et bestemt mønster. En sensor i TV-en fanger opp lyset, og TV-en tolker mønsteret og skifter kanal.\n\n## Typer signaler\n\n- **Lyd** er trykkbølger i lufta. Den brukes i for eksempel ekkolodd og alarmer.\n- **Lys** og **infrarødt lys** brukes i fjernkontroller og **optiske fibre**, der lys sendes gjennom tynne glasstråder og gir svært raskt internett.\n- **Radiobølger** er elektromagnetiske bølger som brukes i mobilnett, wifi, bluetooth, radio og GPS. De går med lysets fart.\n\nSignaler kan være **analoge**, der signalet varierer jevnt, eller **digitale**, der informasjonen er gjort om til ett-tall og null-tall. Digitale signaler er mindre utsatt for støy og kan lett lagres og kopieres.\n\n## Sensorer og mikrokontrollere\n\nMange systemer bruker **sensorer**, som måler noe i omgivelsene: temperatur, lys, avstand, bevegelse eller fuktighet. En **mikrokontroller** – en liten programmerbar datamaskin, som en micro:bit eller Arduino – leser verdiene og bestemmer hva som skal skje, for eksempel å sende et signal til en annen enhet. To micro:biter kan sende radiosignaler til hverandre, slik at den ene fungerer som sender og den andre som mottaker.\n\n## Lage og forbedre systemer\n\nNår du lager et teknologisk system, følger du ofte en **utviklingsprosess**: finne et behov, lage en plan, bygge en **prototype**, teste og forbedre. Et eksempel kan være en alarm som gir beskjed når døra åpnes: En sensor på døra (sender) oppdager bevegelsen og sender et radiosignal til en mottaker som piper. Du kan teste rekkevidden, hvor raskt alarmen reagerer, og om den gir falske alarmer, og så forbedre konstruksjonen og programmet.",
+  "flashcards": [
+    { "term": "Signal", "def": "Noe som bærer informasjon fra en sender til en mottaker, som lys, lyd eller radiobølger." },
+    { "term": "Sender", "def": "Delen som gjør informasjon om til et signal." },
+    { "term": "Mottaker", "def": "Delen som fanger opp signalet og gjør det om til noe nyttig." },
+    { "term": "Kanal", "def": "Det signalet går gjennom: luft, ledning, optisk fiber eller tomt rom." },
+    { "term": "Infrarødt lys", "def": "Usynlig lys som brukes i fjernkontroller." },
+    { "term": "Radiobølger", "def": "Elektromagnetiske bølger brukt i mobilnett, wifi, bluetooth og GPS." },
+    { "term": "Optisk fiber", "def": "Tynn glasstråd som leder lys og gir svært rask dataoverføring." },
+    { "term": "Analogt signal", "def": "Et signal som varierer jevnt og kontinuerlig." },
+    { "term": "Digitalt signal", "def": "Informasjon gjort om til ett-tall og null-tall." },
+    { "term": "Sensor", "def": "En komponent som måler noe i omgivelsene, som lys eller temperatur." },
+    { "term": "Mikrokontroller", "def": "En liten programmerbar datamaskin, som micro:bit eller Arduino." },
+    { "term": "Prototype", "def": "En tidlig, enkel versjon av et produkt som testes og forbedres." },
+    { "term": "Utviklingsprosess", "def": "Behov → plan → prototype → test → forbedring." },
+    { "term": "Ekkolodd", "def": "Sender lydbølger og måler ekkoet for å finne dybde eller fisk." },
+    { "term": "Støy", "def": "Uønskede forstyrrelser i et signal. Digitale signaler er mindre utsatt." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva gjør senderen i et teknologisk system?", "options": ["Fanger opp signalet", "Gjør informasjon om til et signal", "Lagrer strøm", "Måler temperatur"], "correct": 1, "explain": "Senderen omformer informasjon til et signal som kan overføres." },
+    { "id": "q02", "text": "Hva slags signal bruker en vanlig TV-fjernkontroll?", "options": ["Infrarødt lys", "Lyd", "Røntgenstråler", "Kabel"], "correct": 0, "explain": "Fjernkontrollen sender pulser av infrarødt lys som TV-en fanger opp." },
+    { "id": "q03", "text": "Hvilken teknologi bruker radiobølger?", "options": ["Optisk fiber", "Fjernkontroll med infrarødt lys", "Wifi og bluetooth", "Et stetoskop"], "correct": 2, "explain": "Wifi, bluetooth, mobilnett og GPS bruker radiobølger." },
+    { "id": "q04", "text": "Hva er et digitalt signal?", "options": ["Et signal som varierer jevnt", "Et lydsignal", "Et signal i en fiber", "Informasjon gjort om til ett-tall og null-tall"], "correct": 3, "explain": "Digitale signaler består av binære verdier og er mindre utsatt for støy." },
+    { "id": "q05", "text": "Hva er en sensor?", "options": ["En komponent som måler noe i omgivelsene", "En høyttaler", "En type batteri", "Et program"], "correct": 0, "explain": "Sensorer kan måle for eksempel lys, temperatur, avstand og bevegelse." },
+    { "id": "q06", "text": "Hva er en mikrokontroller?", "options": ["Et lite mikroskop", "En liten programmerbar datamaskin", "En type lyspære", "En radiostasjon"], "correct": 1, "explain": "Micro:bit og Arduino er eksempler på mikrokontrollere." },
+    { "id": "q07", "text": "Hva sendes gjennom en optisk fiber?", "options": ["Strøm", "Vann", "Lyd", "Lys"], "correct": 3, "explain": "Optiske fibre leder lys og kan overføre enorme datamengder raskt." },
+    { "id": "q08", "text": "Hva er en prototype?", "options": ["Det ferdige produktet", "En tidlig versjon som testes og forbedres", "En type sensor", "En reklame"], "correct": 1, "explain": "Prototyper gjør det mulig å teste ideer før man lager det endelige produktet." },
+    { "id": "q09", "text": "I en dørlarm med to micro:biter, hva er senderen?", "options": ["Micro:biten som piper", "Døra", "Micro:biten som oppdager at døra åpnes og sender signal", "Batteriet"], "correct": 2, "explain": "Enheten som registrerer bevegelsen og sender signalet, er senderen." },
+    { "id": "q10", "text": "Hvorfor er digitale signaler mindre utsatt for støy?", "options": ["Fordi de bare har to verdier som er lette å skille fra hverandre", "Fordi de er svakere", "Fordi de går saktere", "Fordi de bruker lyd"], "correct": 0, "explain": "Selv med litt støy er det lett å se om signalet er 0 eller 1." }
+  ],
+  "mindmap": {
+    "label": "Sender og mottaker",
+    "children": [
+      { "label": "Systemet", "children": [
+        { "label": "Sender" },
+        { "label": "Kanal" },
+        { "label": "Mottaker" }
+      ] },
+      { "label": "Signaltyper", "children": [
+        { "label": "Lyd" },
+        { "label": "Lys og infrarødt" },
+        { "label": "Radiobølger" }
+      ] },
+      { "label": "Analogt og digitalt", "children": [
+        { "label": "Analogt", "note": "Jevn variasjon" },
+        { "label": "Digitalt", "note": "0 og 1" }
+      ] },
+      { "label": "Komponenter", "children": [
+        { "label": "Sensorer" },
+        { "label": "Mikrokontroller", "note": "micro:bit, Arduino" }
+      ] },
+      { "label": "Utvikling", "children": [
+        { "label": "Behov og plan" },
+        { "label": "Prototype" },
+        { "label": "Test og forbedre" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q08", "q09"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Radiobølger går med lysets fart.", "correct": true, "explain": "Radiobølger er elektromagnetiske bølger, som lys." },
+      { "id": "m02", "type": "sant-usant", "text": "Lyd kan sendes gjennom tomt rom (vakuum).", "correct": false, "explain": "Lyd trenger et stoff å bevege seg i, som luft eller vann." },
+      { "id": "m03", "type": "sant-usant", "text": "En fjernkontroll er både sender og mottaker.", "correct": false, "explain": "Fjernkontrollen er sender. TV-en er mottakeren." },
+      { "id": "m04", "type": "sant-usant", "text": "Å teste og forbedre er en viktig del av å lage et teknologisk system.", "correct": true, "explain": "Testing avslører svakheter som kan rettes i neste versjon." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken teknologi bruker lydbølger for å måle dybde?", "options": ["GPS", "Ekkolodd", "Wifi", "Optisk fiber"], "correct": 1, "explain": "Ekkoloddet sender lyd og måler hvor lang tid ekkoet bruker." },
+      { "id": "m06", "type": "flervalg", "text": "Hva kan en lyssensor brukes til?", "options": ["Å måle hvor mye lys det er, for eksempel for å skru på gatelys", "Å måle temperatur", "Å lage lyd", "Å veie ting"], "correct": 0, "explain": "Lyssensorer brukes blant annet i automatiske lys." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er kanalen når to mobiler kommuniserer trådløst?", "options": ["En kabel", "Glassfiber", "Lufta og rommet radiobølgene går gjennom", "Batteriet"], "correct": 2, "explain": "Radiobølgene går gjennom lufta mellom mobilen og basestasjonen." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

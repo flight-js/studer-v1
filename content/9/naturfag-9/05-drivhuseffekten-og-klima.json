@@ -1,0 +1,82 @@
+{
+  "id": "drivhuseffekten-og-klima",
+  "fagId": "naturfag-9",
+  "trinnId": "9",
+  "name": "Drivhuseffekten og klimaendringer",
+  "intro": "Den naturlige og den forsterkede drivhuseffekten, faktorer som påvirker jordas klima, og følgene av global oppvarming.",
+  "kompetansemaal": [10, 5],
+  "sammendrag": "## Vær og klima\n\n**Vær** er forholdene i atmosfæren på et bestemt sted og tidspunkt: temperatur, nedbør og vind i dag. **Klima** er gjennomsnittsværet over lang tid, vanligvis 30 år. En kald vinter betyr derfor ikke at klimaet ikke blir varmere.\n\n## Den naturlige drivhuseffekten\n\nSollys går gjennom atmosfæren og varmer opp jordoverflaten. Jorda sender så energien ut igjen som **varmestråling** (infrarød stråling). Noen gasser i atmosfæren, **drivhusgassene**, tar opp en del av denne varmestrålingen og sender den tilbake mot jorda. Det kalles **drivhuseffekten**. Uten den ville gjennomsnittstemperaturen på jorda vært rundt −18 °C i stedet for rundt +15 °C, og livet slik vi kjenner det, ville ikke vært mulig.\n\nDe viktigste drivhusgassene er **vanndamp**, **karbondioksid** (CO₂), **metan** (CH₄) og **lystgass** (N₂O).\n\n## Den forsterkede drivhuseffekten\n\nSiden den industrielle revolusjonen har mennesker sluppet ut store mengder drivhusgasser, særlig ved å brenne kull, olje og gass, og ved avskoging og landbruk. Mengden CO₂ i atmosfæren har økt fra rundt 280 ppm før industrialiseringen til over 420 ppm i dag. Når det blir mer drivhusgasser, holdes mer varme igjen, og temperaturen stiger. Dette kalles den **forsterkede drivhuseffekten**. Jordas gjennomsnittstemperatur har allerede steget med over 1 °C.\n\n## Andre faktorer som påvirker klimaet\n\n- **Sola**: små variasjoner i solaktiviteten.\n- **Jordbanen**: langsomme endringer i jordas bane og helning har gitt istider og mellomistider over hundretusenvis av år.\n- **Vulkanutbrudd**: partikler i atmosfæren kan kjøle ned klimaet et par år.\n- **Havstrømmer**, som Golfstrømmen, frakter varme rundt på kloden.\n- **Albedo**: hvite flater som is og snø reflekterer sollys. Når isen smelter, tar mørkere hav og land opp mer varme, og oppvarmingen forsterkes. Dette er et eksempel på en **tilbakekobling**.\n\nForskerne i **FNs klimapanel** (IPCC) har vurdert alle disse faktorene og konkludert med at menneskelig aktivitet er hovedårsaken til oppvarmingen de siste tiårene.\n\n## Følger\n\n- Høyere **havnivå**, fordi isbreer smelter og havvannet utvider seg når det blir varmere.\n- Mer **ekstremvær**, som hetebølger, tørke og kraftig nedbør.\n- **Havforsuring**, fordi havet tar opp CO₂.\n- Endrede levevilkår for mange arter.\n\n## Hva gjøres?\n\nI **Parisavtalen** fra 2015 ble landene enige om å begrense oppvarmingen til godt under 2 °C, og helst 1,5 °C. Det krever store kutt i utslippene, blant annet ved overgang til fornybar energi, energieffektivisering og vern av skog og myr.",
+  "flashcards": [
+    { "term": "Vær", "def": "Forholdene i atmosfæren på et bestemt sted og tidspunkt." },
+    { "term": "Klima", "def": "Gjennomsnittsværet over lang tid, vanligvis 30 år." },
+    { "term": "Drivhuseffekten", "def": "Drivhusgasser holder på varmestråling fra jorda og gjør jorda varmere." },
+    { "term": "Uten drivhuseffekt", "def": "Jorda ville hatt en gjennomsnittstemperatur på rundt −18 °C i stedet for +15 °C." },
+    { "term": "Drivhusgasser", "def": "Vanndamp, karbondioksid (CO₂), metan (CH₄) og lystgass (N₂O)." },
+    { "term": "Forsterket drivhuseffekt", "def": "Økt drivhuseffekt på grunn av menneskeskapte utslipp." },
+    { "term": "CO₂ i atmosfæren", "def": "Økt fra rundt 280 ppm før industrialiseringen til over 420 ppm i dag." },
+    { "term": "Albedo", "def": "Hvor mye sollys en flate reflekterer. Snø og is har høy albedo." },
+    { "term": "Tilbakekobling", "def": "En endring som forsterker eller demper seg selv, som når smeltende is gir mer oppvarming." },
+    { "term": "FNs klimapanel (IPCC)", "def": "Sammenstiller klimaforskningen og har konkludert med at mennesker er hovedårsaken til oppvarmingen." },
+    { "term": "Parisavtalen", "def": "Avtale fra 2015 om å begrense oppvarmingen til godt under 2 °C, helst 1,5 °C." },
+    { "term": "Havnivåstigning", "def": "Skyldes smeltende isbreer og at varmere havvann utvider seg." },
+    { "term": "Havforsuring", "def": "Havet blir surere når det tar opp CO₂." },
+    { "term": "Vulkanutbrudd og klima", "def": "Partikler fra store utbrudd kan kjøle ned klimaet i et par år." },
+    { "term": "Istider", "def": "Skyldes blant annet langsomme endringer i jordas bane og helning." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er forskjellen på vær og klima?", "options": ["Det er det samme", "Vær er hvordan det er nå, klima er gjennomsnittet over lang tid", "Klima er været i morgen", "Vær gjelder hele jorda, klima ett sted"], "correct": 1, "explain": "Klima er gjennomsnittsværet over rundt 30 år." },
+    { "id": "q02", "text": "Hva ville gjennomsnittstemperaturen på jorda vært uten den naturlige drivhuseffekten?", "options": ["Rundt −18 °C", "Rundt +30 °C", "Rundt 0 °C", "Rundt +15 °C"], "correct": 0, "explain": "Drivhuseffekten hever temperaturen fra rundt −18 °C til rundt +15 °C." },
+    { "id": "q03", "text": "Hvilken er en drivhusgass?", "options": ["Oksygen", "Nitrogen", "Metan", "Argon"], "correct": 2, "explain": "Metan er en kraftig drivhusgass. Oksygen og nitrogen er ikke drivhusgasser." },
+    { "id": "q04", "text": "Hva er hovedårsaken til den forsterkede drivhuseffekten?", "options": ["Flere vulkanutbrudd", "At sola har blitt mye sterkere", "Endringer i jordbanen", "Menneskeskapte utslipp av drivhusgasser"], "correct": 3, "explain": "Forbrenning av fossile brensler og avskoging har økt mengden drivhusgasser." },
+    { "id": "q05", "text": "Hvorfor forsterker smeltende is oppvarmingen?", "options": ["Fordi isen er varm", "Fordi mørkere hav og land tar opp mer sollys enn hvit is", "Fordi isen slipper ut CO₂", "Den forsterker ikke oppvarmingen"], "correct": 1, "explain": "Dette er en tilbakekobling via albedo: mindre is gir mer oppvarming, som gir enda mindre is." },
+    { "id": "q06", "text": "Hva ble landene enige om i Parisavtalen?", "options": ["Å begrense oppvarmingen til godt under 2 °C, helst 1,5 °C", "Å stoppe all bilkjøring", "Å øke oljeproduksjonen", "Å flytte til Mars"], "correct": 0, "explain": "Parisavtalen fra 2015 setter målet for den globale temperaturøkningen." },
+    { "id": "q07", "text": "Hvorfor stiger havnivået?", "options": ["Fordi det regner mer", "Fordi fisk tar mer plass", "Fordi isbreer smelter og varmt havvann utvider seg", "Fordi havbunnen stiger"], "correct": 2, "explain": "Både smeltevann fra is på land og termisk utvidelse av havvannet bidrar." },
+    { "id": "q08", "text": "Hva kan et stort vulkanutbrudd gjøre med klimaet?", "options": ["Gjøre det varmere i mange hundre år", "Ingenting", "Stoppe drivhuseffekten", "Kjøle det ned i et par år"], "correct": 3, "explain": "Partikler i atmosfæren reflekterer sollys og gir en kortvarig nedkjøling." },
+    { "id": "q09", "text": "Hva er FNs klimapanel (IPCC)?", "options": ["En organisasjon som sammenstiller klimaforskningen", "Et selskap som selger strøm", "En norsk forskningsstasjon", "En værmelding"], "correct": 0, "explain": "IPCC vurderer forskningen og gir rapporter om klimaendringer." },
+    { "id": "q10", "text": "Hvorfor blir havet surere?", "options": ["På grunn av plast", "Fordi havet tar opp CO₂", "På grunn av salt", "Fordi det blir kaldere"], "correct": 1, "explain": "CO₂ løses i sjøvann og danner en svak syre. Det kalles havforsuring." }
+  ],
+  "mindmap": {
+    "label": "Drivhuseffekten og klima",
+    "children": [
+      { "label": "Begreper", "children": [
+        { "label": "Vær", "note": "Nå" },
+        { "label": "Klima", "note": "30 års snitt" }
+      ] },
+      { "label": "Drivhuseffekten", "children": [
+        { "label": "Varmestråling holdes igjen" },
+        { "label": "−18 °C → +15 °C" },
+        { "label": "CO₂, metan, vanndamp, lystgass" }
+      ] },
+      { "label": "Forsterket", "children": [
+        { "label": "Fossile brensler" },
+        { "label": "Avskoging" },
+        { "label": "280 → over 420 ppm CO₂" }
+      ] },
+      { "label": "Andre faktorer", "children": [
+        { "label": "Sola og jordbanen" },
+        { "label": "Vulkaner" },
+        { "label": "Havstrømmer" },
+        { "label": "Albedo" }
+      ] },
+      { "label": "Følger og tiltak", "children": [
+        { "label": "Havnivå og ekstremvær" },
+        { "label": "Havforsuring" },
+        { "label": "Parisavtalen 2015" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q10"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Den naturlige drivhuseffekten er nødvendig for livet på jorda.", "correct": true, "explain": "Uten den ville jorda vært altfor kald." },
+      { "id": "m02", "type": "sant-usant", "text": "En kald vinter i Norge beviser at global oppvarming ikke skjer.", "correct": false, "explain": "Én vinter er vær. Klima handler om gjennomsnittet over mange år og hele kloden." },
+      { "id": "m03", "type": "sant-usant", "text": "Endringer i jordbanen har bidratt til istider.", "correct": true, "explain": "Langsomme endringer i banen og helningen påvirker hvor mye sollys som når jorda." },
+      { "id": "m04", "type": "sant-usant", "text": "Vanndamp er ikke en drivhusgass.", "correct": false, "explain": "Vanndamp er faktisk den drivhusgassen som bidrar mest til den naturlige drivhuseffekten." },
+      { "id": "m05", "type": "flervalg", "text": "Hva slags stråling holder drivhusgassene igjen?", "options": ["Radiobølger", "Varmestråling (infrarød)", "Røntgenstråling", "Lydbølger"], "correct": 1, "explain": "Jorda sender ut infrarød varmestråling, som drivhusgassene tar opp." },
+      { "id": "m06", "type": "flervalg", "text": "Hvor mye har jordas gjennomsnittstemperatur steget siden førindustriell tid?", "options": ["Over 1 °C", "Over 10 °C", "0 °C", "Over 5 °C"], "correct": 0, "explain": "Oppvarmingen er allerede over 1 °C, og den fortsetter." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilket tiltak reduserer utslippene av klimagasser?", "options": ["Mer kullkraft", "Hogst av regnskog", "Overgang til fornybar energi", "Drenering av myr"], "correct": 2, "explain": "Fornybar energi erstatter fossile brensler og gir lavere utslipp." }
+    ]
+  },
+  "kvalitet": { "status": "sjekkes", "merknader": ["Tallene for CO₂-nivå (over 420 ppm) og global oppvarming (over 1 °C) endrer seg over tid og bør kontrolleres mot ferske tall fra IPCC/NOAA."] }
+}

@@ -1,0 +1,81 @@
+{
+  "id": "fotosyntese-og-celleanding",
+  "fagId": "naturfag-8",
+  "trinnId": "8",
+  "name": "Fotosyntese, celleånding og karbonkretsløpet",
+  "intro": "Hvordan planter fanger solenergi og lager sukker, hvordan alle organismer frigjør energien igjen, og hvordan karbon går i kretsløp i naturen.",
+  "kompetansemaal": [18],
+  "sammendrag": "## Energi til alt levende\n\nAlle levende organismer trenger energi for å vokse, bevege seg og holde seg i live. Nesten all denne energien kommer opprinnelig fra **sola**. Planter, alger og noen bakterier kan fange solenergien og lagre den i sukker ved **fotosyntese**. Deretter kan både de selv og andre organismer frigjøre energien ved **celleånding**. De to prosessene henger tett sammen.\n\n## Fotosyntesen\n\nFotosyntesen skjer i **kloroplastene** i grønne planteceller. Planten tar opp **karbondioksid** (CO₂) fra lufta gjennom små åpninger i bladene, og **vann** (H₂O) gjennom røttene. Med energi fra sollys omdannes disse til **glukose** (sukker) og **oksygen** (O₂):\n\n6CO₂ + 6H₂O + lysenergi → C₆H₁₂O₆ + 6O₂\n\nGlukosen brukes som energikilde og byggemateriale, for eksempel til å lage stivelse og cellulose. Oksygenet slippes ut i lufta. Nesten alt oksygenet vi puster inn, kommer fra fotosyntese.\n\n## Celleåndingen\n\nCelleånding skjer i **mitokondriene** i nesten alle celler, både hos planter og dyr. Glukose reagerer med oksygen, og energien som var lagret i glukosen, frigjøres:\n\nC₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + energi\n\nLegg merke til at celleånding er fotosyntesen «baklengs». Stoffene som dannes i den ene prosessen, brukes i den andre. Planter driver med celleånding hele døgnet, men fotosyntese bare når det er lys.\n\n## Karbonkretsløpet\n\nKarbon er et grunnstoff som finnes i alt levende. Det går i et **kretsløp** mellom luft, levende organismer, jord og hav:\n\n- **Fotosyntesen** tar CO₂ ut av lufta og binder karbonet i plantene.\n- Dyr får karbon når de spiser planter eller andre dyr.\n- **Celleånding** hos planter, dyr og nedbrytere slipper CO₂ ut igjen.\n- **Nedbrytere**, som sopp og bakterier, bryter ned døde organismer og frigjør karbon.\n- Havet tar opp og avgir CO₂.\n\nNoe karbon har vært lagret i millioner av år som **fossile brensler** – kull, olje og gass – dannet av rester etter planter og dyr. Når vi brenner fossile brensler, frigjøres dette karbonet raskt som CO₂. Det forstyrrer balansen i kretsløpet og øker mengden CO₂ i atmosfæren, noe som forsterker **drivhuseffekten**.",
+  "flashcards": [
+    { "term": "Fotosyntese", "def": "Prosessen der planter bruker lysenergi til å lage glukose og oksygen av CO₂ og vann." },
+    { "term": "Fotosyntesens likning", "def": "6CO₂ + 6H₂O + lysenergi → C₆H₁₂O₆ + 6O₂" },
+    { "term": "Celleånding", "def": "Prosessen der glukose og oksygen gir energi, CO₂ og vann." },
+    { "term": "Celleåndingens likning", "def": "C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + energi" },
+    { "term": "Glukose", "def": "Et sukker (C₆H₁₂O₆) som lagrer energi." },
+    { "term": "Kloroplast", "def": "Cellebiten der fotosyntesen skjer." },
+    { "term": "Mitokondrie", "def": "Cellebiten der celleåndingen skjer." },
+    { "term": "Klorofyll", "def": "Grønt stoff som fanger lysenergi." },
+    { "term": "Produsent", "def": "Organisme som lager sin egen næring ved fotosyntese, som planter og alger." },
+    { "term": "Karbonkretsløpet", "def": "Karbonets vandring mellom luft, levende organismer, jord og hav." },
+    { "term": "Nedbrytere", "def": "Sopp og bakterier som bryter ned døde organismer og frigjør næringsstoffer og CO₂." },
+    { "term": "Fossile brensler", "def": "Kull, olje og gass, dannet av rester etter planter og dyr for millioner av år siden." },
+    { "term": "Stivelse", "def": "Lagringsform for glukose i planter, for eksempel i poteter." },
+    { "term": "Planter om natta", "def": "Driver bare celleånding, fordi fotosyntesen trenger lys." },
+    { "term": "Fotosyntese og celleånding", "def": "Motsatte prosesser: produktene i den ene er utgangsstoffer i den andre." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvilke stoffer trenger planten til fotosyntesen?", "options": ["Oksygen og glukose", "Karbondioksid og vann", "Nitrogen og oksygen", "Glukose og vann"], "correct": 1, "explain": "Planten bruker CO₂ fra lufta og vann fra jorda, og energi fra sollys." },
+    { "id": "q02", "text": "Hva dannes i fotosyntesen?", "options": ["Karbondioksid og vann", "Oksygen og nitrogen", "Glukose og oksygen", "Bare energi"], "correct": 2, "explain": "Produktene er glukose, som lagrer energi, og oksygen, som slippes ut." },
+    { "id": "q03", "text": "Hvor i cellen skjer celleåndingen?", "options": ["I mitokondriene", "I kloroplastene", "I cellekjernen", "I vakuolen"], "correct": 0, "explain": "Mitokondriene frigjør energi fra glukose ved celleånding." },
+    { "id": "q04", "text": "Hvilke organismer driver med celleånding?", "options": ["Bare dyr", "Bare planter", "Bare bakterier", "Nesten alle organismer, både planter og dyr"], "correct": 3, "explain": "Alle celler trenger energi, så nesten alle organismer driver med celleånding." },
+    { "id": "q05", "text": "Hvorfor kalles celleånding fotosyntesen «baklengs»?", "options": ["Fordi den skjer om natta", "Fordi utgangsstoffene i den ene er produktene i den andre", "Fordi den går saktere", "Fordi den skjer i røttene"], "correct": 1, "explain": "Fotosyntesen lager glukose og oksygen, som celleåndingen bruker til å lage CO₂ og vann." },
+    { "id": "q06", "text": "Hva skjer i en plante om natta?", "options": ["Bare fotosyntese", "Ingenting", "Bare celleånding", "Planten dør"], "correct": 2, "explain": "Fotosyntesen trenger lys. Celleåndingen fortsetter hele døgnet." },
+    { "id": "q07", "text": "Hvilken prosess tar CO₂ ut av atmosfæren?", "options": ["Fotosyntese", "Celleånding", "Forbrenning", "Nedbryting"], "correct": 0, "explain": "Fotosyntesen binder karbon fra CO₂ i planter og alger." },
+    { "id": "q08", "text": "Hva er fossile brensler dannet av?", "options": ["Vulkansk stein", "Sand og vann", "Luft", "Rester etter planter og dyr som levde for millioner av år siden"], "correct": 3, "explain": "Kull, olje og gass er lagret karbon fra gamle organismer." },
+    { "id": "q09", "text": "Hvilken rolle har nedbrytere i karbonkretsløpet?", "options": ["De lager oksygen", "De bryter ned døde organismer og frigjør CO₂", "De binder karbon i stein", "De driver med fotosyntese"], "correct": 1, "explain": "Sopp og bakterier bryter ned dødt materiale og slipper karbonet ut igjen." },
+    { "id": "q10", "text": "Hvorfor forstyrrer bruk av fossile brensler karbonkretsløpet?", "options": ["Fordi de frigjør karbon som har vært lagret i millioner av år, svært raskt", "Fordi de lager oksygen", "Fordi de fjerner CO₂", "De påvirker ikke kretsløpet"], "correct": 0, "explain": "Utslippene øker CO₂-mengden i lufta raskere enn naturen klarer å binde den." }
+  ],
+  "mindmap": {
+    "label": "Fotosyntese og celleånding",
+    "children": [
+      { "label": "Fotosyntese", "children": [
+        { "label": "I kloroplastene" },
+        { "label": "CO₂ + vann + lys" },
+        { "label": "→ glukose + O₂" }
+      ] },
+      { "label": "Celleånding", "children": [
+        { "label": "I mitokondriene" },
+        { "label": "Glukose + O₂" },
+        { "label": "→ CO₂ + vann + energi" }
+      ] },
+      { "label": "Sammenheng", "children": [
+        { "label": "Motsatte prosesser" },
+        { "label": "Planter: begge", "note": "Fotosyntese bare i lys" }
+      ] },
+      { "label": "Karbonkretsløpet", "children": [
+        { "label": "Luft ↔ organismer" },
+        { "label": "Nedbrytere" },
+        { "label": "Havet" },
+        { "label": "Fossile brensler" }
+      ] },
+      { "label": "Mennesket", "children": [
+        { "label": "Forbrenning av fossilt" },
+        { "label": "Mer CO₂", "note": "Drivhuseffekt" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q10"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Nesten all energi i levende organismer kommer opprinnelig fra sola.", "correct": true, "explain": "Solenergien fanges ved fotosyntese og går videre i næringskjedene." },
+      { "id": "m02", "type": "sant-usant", "text": "Dyr driver med fotosyntese.", "correct": false, "explain": "Dyr mangler kloroplaster. De får energi ved å spise andre organismer." },
+      { "id": "m03", "type": "sant-usant", "text": "Oksygenet vi puster inn, kommer i hovedsak fra fotosyntese.", "correct": true, "explain": "Planter og alger slipper ut oksygen når de lager glukose." },
+      { "id": "m04", "type": "sant-usant", "text": "Celleånding skjer bare om natta.", "correct": false, "explain": "Celleånding skjer hele tiden, dag og natt." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er den kjemiske formelen for glukose?", "options": ["CO₂", "H₂O", "C₆H₁₂O₆", "O₂"], "correct": 2, "explain": "Glukose består av 6 karbonatomer, 12 hydrogenatomer og 6 oksygenatomer." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilken form lagrer poteter energi i?", "options": ["Stivelse", "Oksygen", "Protein", "Vann"], "correct": 0, "explain": "Planter lagrer overskudd av glukose som stivelse." },
+      { "id": "m07", "type": "flervalg", "text": "Hva slipper celleåndingen ut?", "options": ["Oksygen", "Glukose", "Karbondioksid og vann", "Klorofyll"], "correct": 2, "explain": "Når glukose brytes ned med oksygen, dannes CO₂ og vann." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

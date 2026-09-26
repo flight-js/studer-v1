@@ -1,0 +1,83 @@
+{
+  "id": "biologisk-mangfold",
+  "fagId": "naturfag-9",
+  "trinnId": "9",
+  "name": "Biologisk mangfold og naturressurser",
+  "intro": "Hva biologisk mangfold er, hvorfor det er truet, dilemmaer knyttet til bruk av naturen, og hvordan samisk tradisjonell kunnskap kan bidra til bærekraftig forvaltning.",
+  "kompetansemaal": [16, 17],
+  "sammendrag": "## Hva er biologisk mangfold?\n\n**Biologisk mangfold** (biodiversitet) er variasjonen av liv på jorda. Det omfatter tre nivåer:\n\n- **Mangfold av arter**: hvor mange ulike arter som finnes.\n- **Genetisk mangfold**: variasjonen innenfor hver art, som gjør at arten kan tilpasse seg endringer.\n- **Mangfold av økosystemer**: skog, myr, fjell, hav, elver og kulturlandskap.\n\nNaturen gir oss mat, rent vann, ren luft, byggematerialer, medisiner og opplevelser. Slike goder kalles **økosystemtjenester**. Insekter som **pollinerer** avlingene våre, og myrer som lagrer karbon og demper flom, er eksempler.\n\n## Trusler\n\nForskere mener at arter nå forsvinner mye raskere enn det som er naturlig. De viktigste truslene er:\n\n- **Arealendringer**: skog, myr og strandsoner bygges ned til veier, hytter, boliger og industri. Dette regnes som den største trusselen i Norge.\n- **Overbeskatning**: for mye fiske, jakt eller hogst.\n- **Forurensning**, for eksempel plast og miljøgifter.\n- **Klimaendringer**, som endrer levevilkårene for mange arter.\n- **Fremmede arter** som fortrenger stedegne arter.\n\nArter som står i fare for å dø ut, føres på **Rødlista**. I Norge lager Artsdatabanken denne oversikten.\n\n## Dilemmaer\n\nBruk av naturen innebærer ofte **dilemmaer**, der ulike gode hensyn står mot hverandre. Vindkraft gir fornybar energi, men kan ta store naturområder og forstyrre fugler og reinbeite. Gruvedrift gir mineraler til teknologi og arbeidsplasser, men kan forurense fjorder. Hytter gir fritid og inntekter til bygder, men bygger ned natur. Når du drøfter slike saker, bør du få fram argumenter for og mot, og tenke på både mennesker, natur og framtidige generasjoner.\n\n## Samisk tradisjonell kunnskap\n\nSamene har levd i nært samspill med naturen i nordområdene i tusenvis av år, med **reindrift**, fiske, jakt og sanking. Gjennom generasjoner har de utviklet **tradisjonell kunnskap** om vær, snø, beite, dyrs atferd og årstidenes vekslinger. Samisk har for eksempel svært mange ord for ulike typer snø og snøforhold, som er viktig for å vurdere beite og ferdsel.\n\nEt viktig prinsipp i tradisjonell samisk bruk av naturen er å **ikke ta mer enn naturen tåler**, slik at ressursene er der også for kommende generasjoner. Denne kunnskapen kan utfylle naturvitenskapelige målinger, for eksempel når det gjelder endringer i klima og beiteforhold, og kan bidra til en mer **bærekraftig forvaltning**.\n\n## Bærekraftig forvaltning\n\n**Bærekraftig** bruk betyr å dekke dagens behov uten å ødelegge mulighetene for framtidige generasjoner. Verneområder, fiskekvoter, restaurering av natur og å bygge i allerede utbygde områder er eksempler på tiltak.",
+  "flashcards": [
+    { "term": "Biologisk mangfold", "def": "Variasjonen av liv: arter, genetisk variasjon og økosystemer." },
+    { "term": "Genetisk mangfold", "def": "Variasjonen innenfor en art, som gjør at arten kan tilpasse seg endringer." },
+    { "term": "Økosystemtjenester", "def": "Goder naturen gir oss, som mat, rent vann, pollinering og karbonlagring." },
+    { "term": "Pollinering", "def": "Overføring av pollen, ofte av insekter, som gjør at planter får frukt og frø." },
+    { "term": "Arealendringer", "def": "At natur bygges ned eller endres. Den største trusselen mot naturmangfoldet i Norge." },
+    { "term": "Overbeskatning", "def": "Å høste mer av en ressurs enn den tåler, som overfiske." },
+    { "term": "Rødlista", "def": "Oversikt over arter som står i fare for å dø ut. Lages av Artsdatabanken i Norge." },
+    { "term": "Fremmed art", "def": "En art som er spredt av mennesker til områder der den ikke hører hjemme." },
+    { "term": "Dilemma", "def": "En situasjon der ulike gode hensyn står mot hverandre." },
+    { "term": "Myr", "def": "Våtmark som lagrer mye karbon og demper flom." },
+    { "term": "Reindrift", "def": "Samisk næring med tamrein som flyttes mellom årstidsbeiter." },
+    { "term": "Tradisjonell kunnskap", "def": "Kunnskap om naturen utviklet og overlevert gjennom generasjoner." },
+    { "term": "Ikke ta mer enn naturen tåler", "def": "Prinsipp i tradisjonell samisk naturbruk." },
+    { "term": "Bærekraftig forvaltning", "def": "Å bruke naturen slik at også framtidige generasjoner kan dekke sine behov." },
+    { "term": "Verneområde", "def": "Område der naturen er beskyttet mot inngrep, som nasjonalparker." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvilke tre nivåer omfatter biologisk mangfold?", "options": ["Planter, dyr og sopp", "Arter, genetisk variasjon og økosystemer", "Land, luft og vann", "Fjell, skog og hav"], "correct": 1, "explain": "Biologisk mangfold handler om artsmangfold, genetisk mangfold og mangfold av økosystemer." },
+    { "id": "q02", "text": "Hva regnes som den største trusselen mot naturmangfoldet i Norge?", "options": ["Vulkanutbrudd", "Meteorer", "Arealendringer", "For mye regn"], "correct": 2, "explain": "Nedbygging av natur til veier, hytter og industri fjerner leveområder for mange arter." },
+    { "id": "q03", "text": "Hva er en økosystemtjeneste?", "options": ["Et gode naturen gir oss, som pollinering", "En offentlig etat", "En type skog", "En turistbedrift"], "correct": 0, "explain": "Pollinering, rent vann og karbonlagring er eksempler på tjenester naturen gir." },
+    { "id": "q04", "text": "Hva er Rødlista?", "options": ["En liste over giftige planter", "En liste over fremmede arter", "En liste over nasjonalparker", "En oversikt over arter som står i fare for å dø ut"], "correct": 3, "explain": "I Norge lager Artsdatabanken Rødlista." },
+    { "id": "q05", "text": "Hvorfor er genetisk mangfold viktig?", "options": ["Det gjør artene større", "Det gjør at arten bedre kan tilpasse seg endringer", "Det gir flere fargerike dyr", "Det har ingen betydning"], "correct": 1, "explain": "Med stor variasjon er det større sjanse for at noen individer tåler nye forhold." },
+    { "id": "q06", "text": "Hvilket er et dilemma knyttet til vindkraft?", "options": ["Den gir fornybar energi, men kan ta store naturområder", "Den forurenser med CO₂", "Den virker bare om natta", "Den er ulovlig"], "correct": 0, "explain": "Fornybar energi og naturvern er begge gode hensyn som kan stå mot hverandre." },
+    { "id": "q07", "text": "Hvilket prinsipp står sentralt i tradisjonell samisk naturbruk?", "options": ["Å ta mest mulig så raskt som mulig", "Å bare bruke maskiner", "Å ikke ta mer enn naturen tåler", "Å unngå naturen"], "correct": 2, "explain": "Ressursene skal være der også for kommende generasjoner." },
+    { "id": "q08", "text": "Hvordan kan samisk tradisjonell kunnskap bidra i dag?", "options": ["Den erstatter all forskning", "Den er ikke relevant", "Den gjelder bare fortiden", "Den kan utfylle forskning om for eksempel klima- og beiteendringer"], "correct": 3, "explain": "Erfaringsbasert kunnskap om snø, beite og vær gir verdifull informasjon om endringer i naturen." },
+    { "id": "q09", "text": "Hva betyr overbeskatning?", "options": ["For høye skatter", "Å høste mer av en ressurs enn den tåler", "Å verne for mye natur", "Å plante for mange trær"], "correct": 1, "explain": "Overfiske er et eksempel: bestanden rekker ikke å fornye seg." },
+    { "id": "q10", "text": "Hvorfor er myrer viktige?", "options": ["De lagrer mye karbon og demper flom", "De er gode byggetomter", "De har ingen arter", "De gir mye olje"], "correct": 0, "explain": "Myrer er viktige karbonlagre og holder på vann. Når de dreneres, slippes karbon ut." }
+  ],
+  "mindmap": {
+    "label": "Biologisk mangfold",
+    "children": [
+      { "label": "Nivåer", "children": [
+        { "label": "Arter" },
+        { "label": "Genetisk variasjon" },
+        { "label": "Økosystemer" }
+      ] },
+      { "label": "Verdi", "children": [
+        { "label": "Økosystemtjenester" },
+        { "label": "Pollinering" },
+        { "label": "Karbonlagring i myr" }
+      ] },
+      { "label": "Trusler", "children": [
+        { "label": "Arealendringer", "note": "Størst i Norge" },
+        { "label": "Overbeskatning" },
+        { "label": "Forurensning og klima" },
+        { "label": "Fremmede arter" }
+      ] },
+      { "label": "Dilemmaer", "children": [
+        { "label": "Vindkraft" },
+        { "label": "Gruvedrift" },
+        { "label": "Hytteutbygging" }
+      ] },
+      { "label": "Samisk kunnskap", "children": [
+        { "label": "Reindrift" },
+        { "label": "Kunnskap om snø og beite" },
+        { "label": "Ta ikke mer enn naturen tåler" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Arter forsvinner nå raskere enn det som er naturlig.", "correct": true, "explain": "Forskere mener menneskelig påvirkning har økt utryddelsestakten kraftig." },
+      { "id": "m02", "type": "sant-usant", "text": "Biologisk mangfold handler bare om hvor mange dyrearter som finnes.", "correct": false, "explain": "Det omfatter også planter, sopp, bakterier, genetisk variasjon og økosystemer." },
+      { "id": "m03", "type": "sant-usant", "text": "Et dilemma er en situasjon der ulike gode hensyn står mot hverandre.", "correct": true, "explain": "Derfor finnes det sjelden ett enkelt, riktig svar." },
+      { "id": "m04", "type": "sant-usant", "text": "Tradisjonell kunnskap er alltid ubrukelig i moderne forvaltning.", "correct": false, "explain": "Tradisjonell kunnskap kan utfylle naturvitenskapelige målinger." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er et tiltak for bærekraftig forvaltning av fisk?", "options": ["Fiskekvoter", "Mer fiske", "Dumping av avfall", "Å tørke ut elver"], "correct": 0, "explain": "Kvoter begrenser fangsten slik at bestandene kan fornye seg." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilken organisasjon lager Rødlista i Norge?", "options": ["NRK", "Artsdatabanken", "Stortinget", "Statens vegvesen"], "correct": 1, "explain": "Artsdatabanken vurderer risikoen for at arter dør ut." },
+      { "id": "m07", "type": "flervalg", "text": "Hva betyr bærekraftig bruk av naturen?", "options": ["Å bruke opp ressursene raskt", "Å aldri bruke naturen", "Å dekke dagens behov uten å ødelegge for framtidige generasjoner", "Å bare bygge i naturen"], "correct": 2, "explain": "Bærekraft handler om å tenke langsiktig." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

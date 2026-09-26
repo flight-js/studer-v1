@@ -1,0 +1,84 @@
+{
+  "id": "platetektonikk",
+  "fagId": "naturfag-8",
+  "trinnId": "8",
+  "name": "Platetektonikk og jordas utvikling",
+  "intro": "Jordas indre oppbygning, teorien om platetektonikk, hva som skjer ved plategrensene, og hvilke observasjoner som støtter teorien.",
+  "kompetansemaal": [19, 3],
+  "sammendrag": "## Jordas oppbygning\n\nJorda er bygd opp i lag:\n\n- **Jordskorpa** er det tynne, harde ytterlaget vi bor på.\n- **Mantelen** er et tykt lag med varm stein. Den er fast, men kan bevege seg svært langsomt, omtrent som tykk deig, over lang tid.\n- **Den ytre kjernen** er flytende og består mest av jern og nikkel.\n- **Den indre kjernen** er fast og svært varm.\n\nJordskorpa og den øverste, stive delen av mantelen kalles **litosfæren**. Den er delt i store stykker som kalles **plater**.\n\n## Platetektonikk\n\nTeorien om **platetektonikk** sier at litosfæreplatene flyter på den seige mantelen under og beveger seg noen få centimeter i året – omtrent like raskt som neglene dine vokser. Bevegelsen drives blant annet av **konveksjonsstrømmer** i mantelen, der varm stein stiger opp og kaldere stein synker ned.\n\n## Kontinentaldrift\n\nAllerede i 1912 foreslo den tyske forskeren **Alfred Wegener** at kontinentene en gang hadde vært samlet i ett superkontinent, **Pangea**, og at de hadde drevet fra hverandre. Mange forskere avviste ideen, fordi han ikke kunne forklare hva som fikk kontinentene til å bevege seg. Først på 1960-tallet, med nye undersøkelser av havbunnen, ble teorien allment godtatt.\n\n## Plategrenser\n\n- **Divergerende grenser**: Platene beveger seg fra hverandre. Ny havbunn dannes når magma strømmer opp, som ved **Midtatlanterhavsryggen**. Island ligger på denne ryggen.\n- **Konvergerende grenser**: Platene beveger seg mot hverandre. En havplate kan skyves under en annen plate (subduksjon), og det dannes dyphavsgroper og vulkaner. Når to kontinentalplater kolliderer, presses fjellkjeder opp, som **Himalaya**.\n- **Transformgrenser**: Platene glir forbi hverandre sidelengs, som ved **San Andreas-forkastningen** i California. Dette gir ofte jordskjelv.\n\nDe fleste **jordskjelv** og **vulkaner** finnes langs plategrensene.\n\n## Bevis for teorien\n\n- **Kystlinjene** til Sør-Amerika og Afrika passer sammen som puslebiter.\n- De samme **fossilene** og **bergartene** finnes på kontinenter som i dag ligger langt fra hverandre.\n- **Havbunnen** er yngst nær midthavsryggene og eldre jo lenger unna den ligger.\n- **Magnetiske striper** i havbunnen viser et symmetrisk mønster på begge sider av ryggene.\n- **GPS-målinger** viser i dag at platene faktisk beveger seg.\n\n## Norge\n\nNorge ligger midt på den eurasiske platen, langt fra plategrensene, og har derfor få og svake jordskjelv. Men fjellene våre ble en gang dannet i en stor kollisjon mellom kontinenter, for over 400 millioner år siden.",
+  "flashcards": [
+    { "term": "Jordskorpa", "def": "Jordas tynne, harde ytterlag." },
+    { "term": "Mantelen", "def": "Tykt lag med varm stein som beveger seg svært langsomt." },
+    { "term": "Kjernen", "def": "Består mest av jern og nikkel. Ytre kjerne er flytende, indre kjerne fast." },
+    { "term": "Litosfæren", "def": "Jordskorpa og den stive øverste delen av mantelen, delt i plater." },
+    { "term": "Platetektonikk", "def": "Teorien om at litosfæreplatene beveger seg og former jordoverflaten." },
+    { "term": "Konveksjonsstrømmer", "def": "Strømmer i mantelen der varm stein stiger og kald synker. Driver platene." },
+    { "term": "Alfred Wegener", "def": "Tysk forsker som i 1912 foreslo teorien om kontinentaldrift." },
+    { "term": "Pangea", "def": "Superkontinentet der alle kontinentene en gang var samlet." },
+    { "term": "Divergerende grense", "def": "Platene beveger seg fra hverandre, og ny havbunn dannes." },
+    { "term": "Konvergerende grense", "def": "Platene beveger seg mot hverandre. Gir fjellkjeder, dyphavsgroper og vulkaner." },
+    { "term": "Transformgrense", "def": "Platene glir forbi hverandre sidelengs, som ved San Andreas-forkastningen." },
+    { "term": "Subduksjon", "def": "En plate skyves ned under en annen plate." },
+    { "term": "Midtatlanterhavsryggen", "def": "Divergerende plategrense i Atlanterhavet. Island ligger på den." },
+    { "term": "Bevis for platetektonikk", "def": "Kystlinjer som passer, like fossiler, havbunnens alder, magnetiske striper og GPS." },
+    { "term": "Platenes fart", "def": "Noen få centimeter i året, omtrent like raskt som negler vokser." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvilket lag i jorda er flytende?", "options": ["Jordskorpa", "Den ytre kjernen", "Den indre kjernen", "Litosfæren"], "correct": 1, "explain": "Den ytre kjernen er flytende jern og nikkel. Den indre kjernen er fast." },
+    { "id": "q02", "text": "Hvem foreslo teorien om kontinentaldrift i 1912?", "options": ["Charles Darwin", "Isaac Newton", "Alfred Wegener", "Dmitrij Mendelejev"], "correct": 2, "explain": "Alfred Wegener mente at kontinentene en gang hadde vært samlet i Pangea." },
+    { "id": "q03", "text": "Hva skjer ved en divergerende plategrense?", "options": ["Platene beveger seg fra hverandre", "Platene kolliderer", "Platene glir forbi hverandre", "Platene står stille"], "correct": 0, "explain": "Magma strømmer opp og danner ny havbunn, som ved Midtatlanterhavsryggen." },
+    { "id": "q04", "text": "Hvordan ble Himalaya dannet?", "options": ["Av et vulkanutbrudd", "Ved at platene gled fra hverandre", "Av isbreer", "Ved at to kontinentalplater kolliderte"], "correct": 3, "explain": "Kollisjonen mellom den indiske og den eurasiske platen presset opp fjellkjeden." },
+    { "id": "q05", "text": "Hvor fort beveger platene seg?", "options": ["Flere meter i sekundet", "Noen få centimeter i året", "Flere kilometer i året", "De beveger seg ikke"], "correct": 1, "explain": "Bevegelsen er omtrent like rask som negler vokser." },
+    { "id": "q06", "text": "Hvilken observasjon støtter platetektonikken?", "options": ["At havet er salt", "At fjell er høye", "At samme fossiler finnes på kontinenter langt fra hverandre", "At det er kaldt på Nordpolen"], "correct": 2, "explain": "Like fossiler og bergarter tyder på at kontinentene en gang lå sammen." },
+    { "id": "q07", "text": "Hvor finnes de fleste jordskjelv og vulkaner?", "options": ["Langs plategrensene", "Midt på platene", "Bare i Norge", "Bare i havet"], "correct": 0, "explain": "Det er ved plategrensene at platene støter mot, skiller seg fra eller glir forbi hverandre." },
+    { "id": "q08", "text": "Hvorfor har Norge få kraftige jordskjelv?", "options": ["Fordi landet er kaldt", "Fordi det ikke finnes plater under Norge", "Fordi fjellene stopper dem", "Fordi Norge ligger midt på en plate, langt fra grensene"], "correct": 3, "explain": "Norge ligger inne på den eurasiske platen, der det er lite bevegelse." },
+    { "id": "q09", "text": "Hva driver platebevegelsene?", "options": ["Tidevannet", "Konveksjonsstrømmer i mantelen", "Vinden", "Månens bevegelse"], "correct": 1, "explain": "Varm stein stiger og kaldere synker i mantelen, og dette drar med seg platene." },
+    { "id": "q10", "text": "Hvor på havbunnen er berggrunnen yngst?", "options": ["Nær kontinentene", "Nær midthavsryggene", "På de dypeste stedene", "Overalt like gammel"], "correct": 1, "explain": "Ny havbunn dannes ved ryggene og skyves utover, så den eldste ligger lengst unna." }
+  ],
+  "mindmap": {
+    "label": "Platetektonikk",
+    "children": [
+      { "label": "Jordas lag", "children": [
+        { "label": "Jordskorpe" },
+        { "label": "Mantel" },
+        { "label": "Ytre kjerne", "note": "Flytende" },
+        { "label": "Indre kjerne", "note": "Fast" }
+      ] },
+      { "label": "Teorien", "children": [
+        { "label": "Litosfæreplater" },
+        { "label": "Konveksjonsstrømmer" },
+        { "label": "Wegener og Pangea" }
+      ] },
+      { "label": "Plategrenser", "children": [
+        { "label": "Divergerende", "note": "Fra hverandre" },
+        { "label": "Konvergerende", "note": "Mot hverandre" },
+        { "label": "Transform", "note": "Forbi hverandre" }
+      ] },
+      { "label": "Følger", "children": [
+        { "label": "Jordskjelv" },
+        { "label": "Vulkaner" },
+        { "label": "Fjellkjeder" }
+      ] },
+      { "label": "Bevis", "children": [
+        { "label": "Kystlinjer" },
+        { "label": "Fossiler og bergarter" },
+        { "label": "Havbunnens alder" },
+        { "label": "GPS" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q09"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Island ligger på en divergerende plategrense.", "correct": true, "explain": "Island ligger på Midtatlanterhavsryggen, der platene beveger seg fra hverandre." },
+      { "id": "m02", "type": "sant-usant", "text": "Wegeners teori ble godtatt av alle med en gang.", "correct": false, "explain": "Mange avviste teorien fordi han ikke kunne forklare hva som drev bevegelsen." },
+      { "id": "m03", "type": "sant-usant", "text": "San Andreas-forkastningen er et eksempel på en transformgrense.", "correct": true, "explain": "Der glir to plater sidelengs forbi hverandre." },
+      { "id": "m04", "type": "sant-usant", "text": "Kontinentene ligger fast og har aldri beveget seg.", "correct": false, "explain": "Kontinentene beveger seg noen centimeter i året og har flyttet seg mye over millioner av år." },
+      { "id": "m05", "type": "flervalg", "text": "Hva kalles det når en plate skyves ned under en annen?", "options": ["Erosjon", "Subduksjon", "Konveksjon", "Forvitring"], "correct": 1, "explain": "Subduksjon skjer ved konvergerende grenser og gir dyphavsgroper og vulkaner." },
+      { "id": "m06", "type": "flervalg", "text": "Hva het superkontinentet der alle kontinentene var samlet?", "options": ["Atlantis", "Eurasia", "Pangea", "Gondwana-Norge"], "correct": 2, "explain": "Pangea betyr «hele jorda»." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilken moderne teknologi viser at platene beveger seg i dag?", "options": ["GPS-målinger", "Termometre", "Mikroskoper", "Barometre"], "correct": 0, "explain": "Presise GPS-målinger viser at punkter på ulike plater flytter seg i forhold til hverandre." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

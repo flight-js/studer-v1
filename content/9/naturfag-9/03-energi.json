@@ -1,0 +1,82 @@
+{
+  "id": "energi",
+  "fagId": "naturfag-9",
+  "trinnId": "9",
+  "name": "Energi: former, bevaring og kvalitet",
+  "intro": "Ulike energiformer, loven om energibevaring, energikvalitet og virkningsgrad, og hvordan energi omdannes, transporteres og lagres.",
+  "kompetansemaal": [11],
+  "sammendrag": "## Hva er energi?\n\n**Energi** er evnen til å utføre arbeid eller skape endring – å flytte noe, varme noe opp eller få noe til å lyse. Energi måles i **joule** (J). Til strøm bruker vi ofte **kilowattimer** (kWh), der 1 kWh = 3,6 millioner joule. **Effekt** er hvor mye energi som omdannes per sekund, og måles i **watt** (W). En ovn på 1000 W som står på i én time, bruker 1 kWh.\n\n## Energiformer\n\n- **Bevegelsesenergi** (kinetisk energi): energien et legeme har fordi det beveger seg.\n- **Stillingsenergi** (potensiell energi): energi lagret fordi noe er høyt oppe, som vann i et fjellmagasin.\n- **Kjemisk energi**: energi lagret i stoffer, som mat, ved og bensin.\n- **Elektrisk energi**: energien i elektrisk strøm.\n- **Varmeenergi** (termisk energi): partiklenes bevegelse i et stoff.\n- **Strålingsenergi**: energi i lys og annen stråling, som fra sola.\n- **Kjerneenergi**: energi lagret i atomkjerner.\n\n## Energibevaring\n\nEn av de viktigste lovene i naturvitenskapen er **loven om energibevaring**: Energi kan ikke skapes eller forsvinne, bare **omdannes** fra én form til en annen. I et vannkraftverk blir stillingsenergien i vannet til bevegelsesenergi når vannet faller, og turbinen og generatoren gjør den om til elektrisk energi. Når vi bruker strømmen, blir den til lys, bevegelse og varme.\n\n## Energikvalitet\n\nSelv om energien ikke forsvinner, blir den mindre **nyttig** for hver omdanning. Elektrisk energi har **høy kvalitet**, fordi den lett kan gjøres om til mange andre former. Varme ved lav temperatur har **lav kvalitet**; den sprer seg utover og er vanskelig å bruke til noe. Når vi sier at vi «bruker» energi, mener vi egentlig at vi gjør energi med høy kvalitet om til energi med lav kvalitet.\n\n## Virkningsgrad\n\n**Virkningsgraden** sier hvor stor del av den tilførte energien som blir til nyttig energi:\n\nvirkningsgrad = nyttig energi / tilført energi\n\nEn LED-pære har høy virkningsgrad, fordi det meste blir lys. En gammeldags glødepære har lav virkningsgrad, fordi det meste blir varme. Vannkraftverk kan ha virkningsgrad på rundt 90 %, mens en bensinmotor bare utnytter rundt en tredel av energien.\n\n## Transport og lagring\n\nElektrisk energi transporteres i **strømnettet** over lange avstander. Energi kan **lagres** som stillingsenergi i vannmagasiner, som kjemisk energi i **batterier** og drivstoff, og som varme i varmtvannstanker. Lagring blir stadig viktigere, fordi sol- og vindkraft varierer med vær og tid på døgnet.",
+  "flashcards": [
+    { "term": "Energi", "def": "Evnen til å utføre arbeid eller skape endring. Måles i joule (J)." },
+    { "term": "Kilowattime (kWh)", "def": "Enhet for energi. 1 kWh = 3,6 millioner joule." },
+    { "term": "Effekt", "def": "Energi omdannet per sekund. Måles i watt (W)." },
+    { "term": "Bevegelsesenergi", "def": "Kinetisk energi – energien et legeme har fordi det beveger seg." },
+    { "term": "Stillingsenergi", "def": "Potensiell energi – energi lagret fordi noe er høyt oppe." },
+    { "term": "Kjemisk energi", "def": "Energi lagret i stoffer, som mat, ved og drivstoff." },
+    { "term": "Strålingsenergi", "def": "Energi i lys og annen stråling, som fra sola." },
+    { "term": "Loven om energibevaring", "def": "Energi kan ikke skapes eller forsvinne, bare omdannes." },
+    { "term": "Energiomdanning i vannkraftverk", "def": "Stillingsenergi → bevegelsesenergi → elektrisk energi." },
+    { "term": "Energikvalitet", "def": "Hvor nyttig energien er. Elektrisk energi har høy, lunken varme lav kvalitet." },
+    { "term": "Virkningsgrad", "def": "Nyttig energi delt på tilført energi." },
+    { "term": "LED-pære", "def": "Har høy virkningsgrad fordi det meste av energien blir lys." },
+    { "term": "Glødepære", "def": "Har lav virkningsgrad fordi det meste blir varme." },
+    { "term": "Energilagring", "def": "Vannmagasiner, batterier, drivstoff og varmtvannstanker." },
+    { "term": "Å «bruke» energi", "def": "Å gjøre energi med høy kvalitet om til energi med lav kvalitet." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva sier loven om energibevaring?", "options": ["Energi kan skapes av ingenting", "Energi kan ikke skapes eller forsvinne, bare omdannes", "Energi forsvinner når vi bruker den", "Energi finnes bare i strøm"], "correct": 1, "explain": "Den totale mengden energi er konstant. Den bare skifter form." },
+    { "id": "q02", "text": "Hvilken energiform har vannet i et høyt fjellmagasin?", "options": ["Bevegelsesenergi", "Kjemisk energi", "Stillingsenergi", "Strålingsenergi"], "correct": 2, "explain": "Vannet har stillingsenergi, eller potensiell energi, fordi det ligger høyt." },
+    { "id": "q03", "text": "Hvilken energiform har høyest kvalitet?", "options": ["Elektrisk energi", "Lunkent vann", "Varme i lufta i et rom", "Varme fra en motor som er avkjølt"], "correct": 0, "explain": "Elektrisk energi kan lett gjøres om til mange andre former og har derfor høy kvalitet." },
+    { "id": "q04", "text": "En lyspære får 100 J og gir 20 J lys. Hva er virkningsgraden?", "options": ["80 %", "5 %", "100 %", "20 %"], "correct": 3, "explain": "Virkningsgrad = nyttig / tilført = 20 / 100 = 0,20 = 20 %." },
+    { "id": "q05", "text": "Hva blir resten av energien i en glødepære til?", "options": ["Den forsvinner", "Varme", "Kjemisk energi", "Stillingsenergi"], "correct": 1, "explain": "Energien forsvinner ikke. Det meste blir til varme med lav kvalitet." },
+    { "id": "q06", "text": "En ovn på 2000 W står på i 3 timer. Hvor mye energi bruker den?", "options": ["6 kWh", "2 kWh", "600 kWh", "0,6 kWh"], "correct": 0, "explain": "2000 W = 2 kW. 2 kW · 3 h = 6 kWh." },
+    { "id": "q07", "text": "Hvilken energiomdanning skjer i et vannkraftverk?", "options": ["Kjemisk → elektrisk", "Strålingsenergi → varme", "Stillingsenergi → bevegelsesenergi → elektrisk energi", "Elektrisk → stillingsenergi"], "correct": 2, "explain": "Fallende vann driver turbinen, og generatoren lager strøm." },
+    { "id": "q08", "text": "Hva måles effekt i?", "options": ["Joule", "Kilowattimer", "Newton", "Watt"], "correct": 3, "explain": "Effekt er energi per tid og måles i watt. 1 W = 1 J per sekund." },
+    { "id": "q09", "text": "Hvorfor blir energilagring viktigere med mer sol- og vindkraft?", "options": ["Fordi sol og vind varierer med vær og tid", "Fordi sol og vind gir for mye kjemisk energi", "Fordi batterier er gratis", "Fordi sol og vind ikke gir strøm"], "correct": 0, "explain": "Energien må kunne lagres fra perioder med mye produksjon til perioder med lite." },
+    { "id": "q10", "text": "Hvilken energiform er lagret i mat?", "options": ["Stillingsenergi", "Kjemisk energi", "Strålingsenergi", "Kjerneenergi"], "correct": 1, "explain": "Maten inneholder kjemisk energi som kroppen frigjør ved celleånding." }
+  ],
+  "mindmap": {
+    "label": "Energi",
+    "children": [
+      { "label": "Enheter", "children": [
+        { "label": "Joule (J)" },
+        { "label": "kWh", "note": "= 3,6 MJ" },
+        { "label": "Effekt i watt" }
+      ] },
+      { "label": "Former", "children": [
+        { "label": "Bevegelse og stilling" },
+        { "label": "Kjemisk" },
+        { "label": "Elektrisk" },
+        { "label": "Varme og stråling" }
+      ] },
+      { "label": "Bevaring", "children": [
+        { "label": "Kan ikke skapes eller forsvinne" },
+        { "label": "Omdannes", "note": "Vannkraftverk" }
+      ] },
+      { "label": "Kvalitet", "children": [
+        { "label": "Høy: elektrisk" },
+        { "label": "Lav: lunken varme" },
+        { "label": "Virkningsgrad", "note": "Nyttig / tilført" }
+      ] },
+      { "label": "Transport og lagring", "children": [
+        { "label": "Strømnett" },
+        { "label": "Batterier" },
+        { "label": "Vannmagasiner" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Energi forsvinner når en bil bremser.", "correct": false, "explain": "Bevegelsesenergien blir til varme i bremsene. Den forsvinner ikke." },
+      { "id": "m02", "type": "sant-usant", "text": "Varme ved lav temperatur har lav energikvalitet.", "correct": true, "explain": "Slik varme er spredt og vanskelig å gjøre om til noe nyttig." },
+      { "id": "m03", "type": "sant-usant", "text": "En LED-pære har høyere virkningsgrad enn en glødepære.", "correct": true, "explain": "LED-pæra gjør mer av strømmen om til lys og mindre til varme." },
+      { "id": "m04", "type": "sant-usant", "text": "1 kWh er det samme som 1 joule.", "correct": false, "explain": "1 kWh = 3,6 millioner joule." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken energiform har en syklist i fart?", "options": ["Kjerneenergi", "Stillingsenergi", "Bevegelsesenergi", "Strålingsenergi"], "correct": 2, "explain": "Alt som beveger seg, har bevegelsesenergi (kinetisk energi)." },
+      { "id": "m06", "type": "flervalg", "text": "Hvor lagres energi i et batteri?", "options": ["Som kjemisk energi", "Som stillingsenergi", "Som lys", "Som lyd"], "correct": 0, "explain": "Batterier lagrer kjemisk energi som omdannes til elektrisk energi." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er virkningsgraden hvis 900 J av 1000 J blir nyttig energi?", "options": ["10 %", "90 %", "9 %", "100 %"], "correct": 1, "explain": "900 / 1000 = 0,90 = 90 %." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
