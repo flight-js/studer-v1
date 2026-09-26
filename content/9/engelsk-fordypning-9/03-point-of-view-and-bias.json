@@ -1,0 +1,83 @@
+{
+  "id": "point-of-view-and-bias",
+  "fagId": "engelsk-fordypning-9",
+  "trinnId": "9",
+  "name": "Point of view, sender and bias",
+  "intro": "How the sender and point of view shape a message, different types of narrators, bias, loaded words and framing, and how to tell fact from opinion.",
+  "kompetansemaal": [8],
+  "sammendrag": "## Who is behind the message?\n\nEvery text has a **sender** – a person, organisation or company – and a **purpose**. The sender's background, interests and **point of view** influence what they say and how they say it. Being aware of this helps you understand and evaluate messages critically.\n\n## Point of view in stories\n\nIn fiction, the **narrator** decides what we know:\n\n- A **first-person narrator** (“I”) lets us into one character's thoughts, but may be **unreliable** – they can misunderstand or even lie.\n- A **third-person limited** narrator follows one character closely.\n- A **third-person omniscient** (all-knowing) narrator knows what everyone thinks and feels.\n\nThe same event can feel completely different when told by another character. Try retelling a fairy tale from the wolf's point of view!\n\n## Point of view in non-fiction\n\nNews, adverts, speeches and social media posts also have a point of view. Ask:\n\n- **Who** is the sender, and what do they want?\n- **Who** is the target audience?\n- **What** is included – and what is left out?\n- **Which words** are used? “Freedom fighters” and “rebels” can describe the same group, but create very different impressions.\n\n## Bias\n\n**Bias** means presenting something in a one-sided or unfair way. It can mean\n\n- choosing only facts that support one side,\n- using **loaded words** with strong positive or negative feelings,\n- showing some groups often and others rarely, or only in certain roles,\n- using pictures or headlines that give a particular impression.\n\nEveryone has some bias. The important thing is to recognise it – in others and in yourself.\n\n## Framing\n\n**Framing** is how a story is presented. The headlines “Crime falls by 10 %” and “Still thousands of crimes every year” can describe the same statistics. Photos, camera angles and the order of information also frame a story.\n\n## Fact or opinion?\n\nA **fact** can be checked and proved true or false: “London is the capital of the UK.” An **opinion** is what someone thinks or feels: “London is the best city in the world.” Good texts make it clear which is which.\n\n## Different voices\n\nHearing **different perspectives** gives a fuller picture. When you read about an issue, try to find sources from people with different backgrounds and opinions. This is especially important for issues that involve conflict, minorities or other countries.",
+  "flashcards": [
+    { "term": "Sender", "def": "The person or organisation behind a message." },
+    { "term": "Point of view", "def": "The position or perspective a message is told from." },
+    { "term": "Narrator", "def": "The voice that tells a story." },
+    { "term": "First-person narrator", "def": "A narrator who is a character and tells the story as “I”." },
+    { "term": "Unreliable narrator", "def": "A narrator we cannot fully trust, who may misunderstand or lie." },
+    { "term": "Third-person limited", "def": "A narrator who follows one character closely." },
+    { "term": "Omniscient narrator", "def": "An all-knowing narrator who knows what everyone thinks and feels." },
+    { "term": "Target audience", "def": "The group a message is made for." },
+    { "term": "Bias", "def": "Presenting something in a one-sided or unfair way." },
+    { "term": "Loaded words", "def": "Words with strong positive or negative feelings." },
+    { "term": "Framing", "def": "How a story is presented, which affects how we understand it." },
+    { "term": "Fact", "def": "Something that can be checked and proved true or false." },
+    { "term": "Opinion", "def": "What someone thinks or feels about something." },
+    { "term": "Perspective", "def": "A way of seeing an issue, shaped by background and interests." },
+    { "term": "Representation", "def": "How different groups are shown in texts and media." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "What is bias?", "options": ["Presenting something in a one-sided or unfair way", "A type of narrator", "A fact that can be checked", "A news headline"], "correct": 0, "explain": "Bias can be both conscious and unconscious." },
+    { "id": "q02", "text": "Which narrator knows what all the characters think and feel?", "options": ["First-person narrator", "Unreliable narrator", "Omniscient narrator", "Third-person limited narrator"], "correct": 2, "explain": "Omniscient means all-knowing." },
+    { "id": "q03", "text": "Which sentence is an opinion?", "options": ["London is the capital of the UK.", "London is the best city in the world.", "London has millions of inhabitants.", "The Thames flows through London."], "correct": 1, "explain": "“The best” is a judgement that cannot be proved." },
+    { "id": "q04", "text": "What are loaded words?", "options": ["Very long words", "Words from another language", "Technical terms", "Words with strong positive or negative feelings"], "correct": 3, "explain": "Loaded words try to influence how we feel." },
+    { "id": "q05", "text": "What is framing?", "options": ["Putting a picture in a frame", "Writing a story in the first person", "How a story is presented, which affects how we understand it", "Checking facts"], "correct": 2, "explain": "The same facts can be framed in positive or negative ways." },
+    { "id": "q06", "text": "Why can a first-person narrator be unreliable?", "options": ["Because they can misunderstand or even lie", "Because they know everything", "Because they never speak", "Because they are always the villain"], "correct": 0, "explain": "We only see the story through one person's eyes." },
+    { "id": "q07", "text": "Which question helps you think critically about a message?", "options": ["How many words does it have?", "What font is used?", "Is it printed or digital?", "What is included, and what is left out?"], "correct": 3, "explain": "What is missing can be as important as what is there." },
+    { "id": "q08", "text": "Why should you look for different perspectives?", "options": ["To make your text longer", "To get a fuller and fairer picture", "Because one source is always wrong", "To confuse the reader"], "correct": 1, "explain": "Different voices show different sides of an issue." },
+    { "id": "q09", "text": "What is a sender?", "options": ["The person or organisation behind a message", "The reader", "The postman", "The headline"], "correct": 0, "explain": "Knowing the sender helps you understand the purpose." },
+    { "id": "q10", "text": "Two headlines describe the same statistics very differently. What does this show?", "options": ["That one of them is lying", "That statistics are useless", "That framing affects how we understand information", "That headlines are always neutral"], "correct": 2, "explain": "Both headlines can be true, but they create different impressions." }
+  ],
+  "mindmap": {
+    "label": "Point of view and bias",
+    "children": [
+      { "label": "Sender", "children": [
+        { "label": "Who?" },
+        { "label": "Purpose" },
+        { "label": "Target audience" }
+      ] },
+      { "label": "Narrators", "children": [
+        { "label": "First person" },
+        { "label": "Unreliable" },
+        { "label": "Third-person limited" },
+        { "label": "Omniscient" }
+      ] },
+      { "label": "Bias", "children": [
+        { "label": "One-sided facts" },
+        { "label": "Loaded words" },
+        { "label": "Representation" }
+      ] },
+      { "label": "Framing", "children": [
+        { "label": "Headlines" },
+        { "label": "Photos and angles" },
+        { "label": "Order of information" }
+      ] },
+      { "label": "Critical reading", "children": [
+        { "label": "Fact or opinion" },
+        { "label": "What is left out?" },
+        { "label": "Different perspectives" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Everyone has some bias.", "correct": true, "explain": "Our background and experiences shape how we see things." },
+      { "id": "m02", "type": "sant-usant", "text": "A fact is something that cannot be checked.", "correct": false, "explain": "Facts can be checked and proved true or false." },
+      { "id": "m03", "type": "sant-usant", "text": "Photos and camera angles can frame a news story.", "correct": true, "explain": "The choice of picture affects how we understand the story." },
+      { "id": "m04", "type": "sant-usant", "text": "News articles never have a point of view.", "correct": false, "explain": "Choices about what to include always reflect a point of view." },
+      { "id": "m05", "type": "flervalg", "text": "What does third-person limited mean?", "options": ["The narrator follows one character closely", "The narrator knows everything", "The narrator is “I”", "There is no narrator"], "correct": 0, "explain": "We know the thoughts of one character, but not the others." },
+      { "id": "m06", "type": "flervalg", "text": "“Freedom fighters” and “rebels” can describe the same group. What does this show?", "options": ["Words are always neutral", "Word choice can create different impressions", "Both words mean soldiers", "One word is a spelling mistake"], "correct": 1, "explain": "Loaded words reveal the sender's point of view." },
+      { "id": "m07", "type": "flervalg", "text": "What is the target audience?", "options": ["The sender", "The purpose", "The group a message is made for", "The headline"], "correct": 2, "explain": "Messages are adapted to the audience they want to reach." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

@@ -1,0 +1,84 @@
+{
+  "id": "cultures-of-communication",
+  "fagId": "engelsk-fordypning-9",
+  "trinnId": "9",
+  "name": "Cultures of communication",
+  "intro": "How culture shapes communication, direct and indirect styles, politeness and small talk, body language, online communities and different ways of thinking.",
+  "kompetansemaal": [5, 1],
+  "sammendrag": "## Communication is cultural\n\nThe way we communicate is shaped by our **culture**: our language, values, traditions and experiences. When people from different cultures meet – in real life or online – misunderstandings can happen, even when everyone speaks English. English is a **lingua franca**, a shared language used by people with different first languages.\n\n## Direct and indirect communication\n\n- In **direct** cultures, people say exactly what they mean. “No, that won't work” is normal and polite.\n- In **indirect** cultures, people often hint and avoid saying no directly to protect relationships. “That might be difficult” can actually mean no.\n\nBritish English is often described as quite indirect and polite. Phrases like “I'm not sure that's a good idea” can hide strong disagreement. Norwegians are often seen as direct, and may sound rude in English if they skip words like **please** and **could you**.\n\n## Politeness and small talk\n\nIn many English-speaking countries, **small talk** – short, friendly conversation about the weather, the weekend or sports – is an important way to build relationships. “How are you?” is usually a greeting, not a real question. The expected answer is “Fine, thanks. And you?”\n\n## Body language and personal space\n\nGestures, eye contact and **personal space** vary between cultures. In some cultures, long eye contact shows honesty, while in others it can seem rude. A thumbs-up is positive in many countries, but offensive in some. Online, **emojis** often replace body language – but their meaning can also vary between people and cultures.\n\n## Virtual and real-world communities\n\nMany young people belong to **online communities**: gaming clans, fan groups, chat servers and forums. These communities have their own **norms**, slang and rules. People from all over the world work together, compete and make friends. At the same time, anonymity can make some people act rudely, and **toxic behaviour** like harassment can occur.\n\nOnline and offline communication influence each other. Slang from games and memes spreads into everyday speech, and friendships from online communities can continue offline.\n\n## Ways of thinking\n\nPeople also have different **mindsets**: views on time (being punctual or relaxed), on **hierarchy** (how you address teachers or bosses), and on **individualism** versus **collectivism** (focus on “me” or “us”). None of these is right or wrong, but being aware of them makes communication easier.\n\n## Being a good communicator\n\n- Be curious and open-minded.\n- Ask if you are unsure what someone means.\n- Avoid **stereotypes** – every person is an individual.\n- Adapt your language to the situation.",
+  "flashcards": [
+    { "term": "Culture", "def": "The language, values, traditions and experiences a group shares." },
+    { "term": "Lingua franca", "def": "A shared language used by people with different first languages." },
+    { "term": "Direct communication", "def": "Saying exactly what you mean." },
+    { "term": "Indirect communication", "def": "Hinting and avoiding a direct no to protect relationships." },
+    { "term": "Small talk", "def": "Short, friendly conversation about everyday topics." },
+    { "term": "“How are you?”", "def": "Usually a greeting. The expected answer is “Fine, thanks. And you?”" },
+    { "term": "Politeness markers", "def": "Words like please, thank you, sorry and could you." },
+    { "term": "Body language", "def": "Gestures, facial expressions, posture and eye contact." },
+    { "term": "Personal space", "def": "The distance people like to keep between themselves and others." },
+    { "term": "Emojis", "def": "Small pictures that often replace body language online." },
+    { "term": "Online community", "def": "A group of people who meet and interact online." },
+    { "term": "Norms", "def": "Unwritten rules for how to behave in a group." },
+    { "term": "Toxic behaviour", "def": "Harassment and rude behaviour towards others, often online." },
+    { "term": "Individualism", "def": "A focus on the individual and personal freedom." },
+    { "term": "Collectivism", "def": "A focus on the group and on “us”." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "What is a lingua franca?", "options": ["A French dialect", "A type of slang", "An online community", "A shared language used by people with different first languages"], "correct": 3, "explain": "English is the most widely used lingua franca today." },
+    { "id": "q02", "text": "What might “That might be difficult” mean in an indirect culture?", "options": ["Yes, definitely", "No", "I don't understand", "Let's start now"], "correct": 1, "explain": "Indirect speakers often avoid saying no directly." },
+    { "id": "q03", "text": "What is small talk?", "options": ["A talk about a small topic in class", "Speaking very quietly", "Short, friendly conversation about everyday topics", "An argument"], "correct": 2, "explain": "Small talk builds relationships." },
+    { "id": "q04", "text": "How should you usually answer “How are you?” in English?", "options": ["“Fine, thanks. And you?”", "With a long story about your problems", "By ignoring it", "“Why do you ask?”"], "correct": 0, "explain": "The question is usually a friendly greeting." },
+    { "id": "q05", "text": "Why might Norwegians sometimes sound rude in English?", "options": ["Because they speak too quietly", "Because they sometimes skip polite words like please and could you", "Because they use too much small talk", "Because they are very indirect"], "correct": 1, "explain": "Norwegian is often more direct than English." },
+    { "id": "q06", "text": "What is an online community?", "options": ["A town with good internet", "A news website", "A single computer game", "A group of people who meet and interact online"], "correct": 3, "explain": "Gaming clans and fan groups are examples." },
+    { "id": "q07", "text": "What is toxic behaviour online?", "options": ["Harassment and rude behaviour towards others", "Sharing helpful tips", "Winning a game", "Using emojis"], "correct": 0, "explain": "Anonymity can make toxic behaviour more common." },
+    { "id": "q08", "text": "What is collectivism?", "options": ["A focus on the individual", "Collecting things", "A focus on the group and “us”", "A political party"], "correct": 2, "explain": "In collectivist cultures, family and group needs often come first." },
+    { "id": "q09", "text": "What can a thumbs-up mean in different cultures?", "options": ["It means the same everywhere", "It is always rude", "It means stop", "It is positive in many countries, but offensive in some"], "correct": 3, "explain": "Gestures do not always travel well between cultures." },
+    { "id": "q10", "text": "What is a good way to avoid misunderstandings across cultures?", "options": ["Always assume you are right", "Ask if you are unsure what someone means", "Rely on stereotypes", "Avoid talking to people"], "correct": 1, "explain": "Asking shows interest and prevents mistakes." }
+  ],
+  "mindmap": {
+    "label": "Cultures of communication",
+    "children": [
+      { "label": "Direct or indirect", "children": [
+        { "label": "English as lingua franca" },
+        { "label": "Saying no" },
+        { "label": "British politeness" },
+        { "label": "Norwegian directness" }
+      ] },
+      { "label": "Politeness", "children": [
+        { "label": "Small talk" },
+        { "label": "“How are you?”" },
+        { "label": "Please and could you" }
+      ] },
+      { "label": "Body language", "children": [
+        { "label": "Eye contact" },
+        { "label": "Gestures" },
+        { "label": "Personal space" },
+        { "label": "Emojis" }
+      ] },
+      { "label": "Online communities", "children": [
+        { "label": "Norms and slang" },
+        { "label": "Global friendships" },
+        { "label": "Toxic behaviour" }
+      ] },
+      { "label": "Mindsets", "children": [
+        { "label": "Time" },
+        { "label": "Hierarchy" },
+        { "label": "Individualism and collectivism" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Everyone who speaks English communicates in exactly the same way.", "correct": false, "explain": "Culture shapes how people use English." },
+      { "id": "m02", "type": "sant-usant", "text": "Online communities often have their own norms and slang.", "correct": true, "explain": "New members learn these unwritten rules over time." },
+      { "id": "m03", "type": "sant-usant", "text": "Emojis can be understood differently by different people.", "correct": true, "explain": "The same emoji can be friendly to one person and sarcastic to another." },
+      { "id": "m04", "type": "sant-usant", "text": "Direct communication is always better than indirect communication.", "correct": false, "explain": "Both styles are normal in different cultures." },
+      { "id": "m05", "type": "flervalg", "text": "What is personal space?", "options": ["Your bedroom", "The distance people like to keep between themselves and others", "Your online profile", "A place in outer space"], "correct": 1, "explain": "The comfortable distance varies between cultures." },
+      { "id": "m06", "type": "flervalg", "text": "Which phrase is a polite way to disagree in British English?", "options": ["You're wrong.", "No way!", "I'm not sure that's a good idea.", "That's stupid."], "correct": 2, "explain": "Polite phrases soften disagreement." },
+      { "id": "m07", "type": "flervalg", "text": "What is a stereotype?", "options": ["A simplified idea about a group of people", "A type of music player", "A friendly greeting", "A cultural festival"], "correct": 0, "explain": "Stereotypes ignore that people are individuals." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

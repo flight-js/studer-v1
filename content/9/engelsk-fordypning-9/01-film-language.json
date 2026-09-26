@@ -1,0 +1,87 @@
+{
+  "id": "film-language",
+  "fagId": "engelsk-fordypning-9",
+  "trinnId": "9",
+  "name": "Film language",
+  "intro": "How films create meaning with camera shots, angles, sound, light and editing, how genres and narrative structure work, and how to write about a film.",
+  "kompetansemaal": [4, 7],
+  "sammendrag": "## Film as a text\n\nA film tells a story with **pictures**, **sound** and **editing**, not just words. Filmmakers make careful choices to create meaning and feelings. When you analyse a film, you look at **content** (what it is about), **form** (how it is made) and **purpose** (why it was made).\n\n## Camera shots\n\n- **Extreme long shot**: shows a large landscape and sets the scene. When it opens a scene, it is called an **establishing shot**.\n- **Long shot**: shows a whole person and their surroundings.\n- **Medium shot**: shows a person from the waist up, common in conversations.\n- **Close-up**: shows a face and makes us feel the character's emotions.\n- **Extreme close-up**: shows a detail, like an eye or a hand, and can build tension.\n\n## Camera angles\n\n- **Low angle**: the camera looks up, making a character seem powerful.\n- **High angle**: the camera looks down, making a character seem small or weak.\n- **Eye level**: neutral – we meet the character as an equal.\n- **Point-of-view shot**: we see what the character sees.\n\n## Sound\n\nSound includes **dialogue**, **music**, **sound effects** and **silence**, which can be very powerful. Sound that the characters can hear, like their voices or a door slamming, is called **diegetic**. Sound that only the audience hears, like background music or a narrator, is **non-diegetic**.\n\n## Editing and light\n\n**Editing** is how the shots are put together. Fast cuts create speed and tension, while slow cuts give calm. **Flashbacks** show events from the past. **Lighting** also creates mood: dark, shadowy light is typical of horror and crime films, while bright light feels safe and happy.\n\n## Genre and narrative\n\nFilms belong to **genres** with typical features, such as action, comedy, drama, horror, science fiction, romance and animation. Most films follow a **narrative structure**: an introduction to characters and setting, a **conflict**, rising action, a **climax** and a resolution. Many heroes follow the **hero's journey**: they leave home, face challenges, change and return.\n\n## Purpose and audience\n\nFilms can **entertain**, **inform**, as documentaries do, **persuade** or make us **reflect**. Think about the **target audience**: an animated film for children uses different techniques from a thriller for adults. **Trailers** are made to persuade us to watch the film.\n\n## Writing about a film\n\nName the film, the director and the genre. Summarise the plot briefly, analyse two or three techniques with examples, and explain how they create meaning. End with your own evaluation, supported by reasons.",
+  "flashcards": [
+    { "term": "Establishing shot", "def": "A wide shot that shows where a scene takes place." },
+    { "term": "Long shot", "def": "A shot showing a whole person and their surroundings." },
+    { "term": "Medium shot", "def": "A shot showing a person from the waist up." },
+    { "term": "Close-up", "def": "A shot of a face that shows emotions." },
+    { "term": "Extreme close-up", "def": "A shot of a small detail, like an eye or a hand." },
+    { "term": "Low angle", "def": "The camera looks up, making a character seem powerful." },
+    { "term": "High angle", "def": "The camera looks down, making a character seem small or weak." },
+    { "term": "Point-of-view shot", "def": "A shot that shows what a character sees." },
+    { "term": "Diegetic sound", "def": "Sound the characters can hear, like dialogue or footsteps." },
+    { "term": "Non-diegetic sound", "def": "Sound only the audience hears, like background music." },
+    { "term": "Editing", "def": "How the shots are put together." },
+    { "term": "Flashback", "def": "A scene that shows events from the past." },
+    { "term": "Climax", "def": "The most exciting turning point of a story." },
+    { "term": "Hero's journey", "def": "A story pattern where the hero leaves home, faces challenges, changes and returns." },
+    { "term": "Target audience", "def": "The group of people a film is made for." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Which shot shows a character's face and emotions?", "options": ["Long shot", "Extreme long shot", "Close-up", "Establishing shot"], "correct": 2, "explain": "Close-ups bring us near the character's feelings." },
+    { "id": "q02", "text": "What effect does a low camera angle often have?", "options": ["It makes the character seem powerful", "It makes the character seem weak", "It shows the landscape", "It shows the past"], "correct": 0, "explain": "Looking up at someone makes them seem bigger and stronger." },
+    { "id": "q03", "text": "What is non-diegetic sound?", "options": ["Dialogue between characters", "Footsteps in the scene", "A door slamming in the scene", "Sound only the audience hears, like background music"], "correct": 3, "explain": "The characters cannot hear the background music." },
+    { "id": "q04", "text": "What do fast cuts usually create?", "options": ["Calm", "Speed and tension", "Silence", "A happy ending"], "correct": 1, "explain": "Fast cuts are common in action scenes." },
+    { "id": "q05", "text": "What is a flashback?", "options": ["A camera angle", "A type of light", "The ending of a film", "A scene showing events from the past"], "correct": 3, "explain": "Flashbacks can explain why characters act as they do." },
+    { "id": "q06", "text": "What is the climax of a story?", "options": ["The introduction", "The credits", "The most exciting turning point", "The first scene"], "correct": 2, "explain": "The conflict reaches its peak at the climax." },
+    { "id": "q07", "text": "What is an establishing shot?", "options": ["A wide shot that shows where the story takes place", "A close-up of a face", "A shot of the credits", "A sound effect"], "correct": 0, "explain": "It helps the audience understand the setting." },
+    { "id": "q08", "text": "What is the main purpose of a trailer?", "options": ["To tell the whole story", "To persuade people to watch the film", "To show the credits", "To replace the film"], "correct": 1, "explain": "A trailer is a form of advertising." },
+    { "id": "q09", "text": "Which genre often uses dark, shadowy lighting?", "options": ["Romantic comedy", "Animation for young children", "Horror", "Musical"], "correct": 2, "explain": "Darkness creates fear and uncertainty." },
+    { "id": "q10", "text": "What is the hero's journey?", "options": ["A pattern where the hero leaves home, faces challenges, changes and returns", "A type of camera movement", "A famous film studio", "A film festival"], "correct": 0, "explain": "Many adventure and fantasy films follow this pattern." }
+  ],
+  "mindmap": {
+    "label": "Film language",
+    "children": [
+      { "label": "Shots", "children": [
+        { "label": "Establishing shot" },
+        { "label": "Long and medium shot" },
+        { "label": "Close-up" },
+        { "label": "Extreme close-up" }
+      ] },
+      { "label": "Angles", "children": [
+        { "label": "Low" },
+        { "label": "High" },
+        { "label": "Eye level" },
+        { "label": "Point of view" }
+      ] },
+      { "label": "Sound and light", "children": [
+        { "label": "Dialogue and music" },
+        { "label": "Diegetic or non-diegetic" },
+        { "label": "Silence" },
+        { "label": "Lighting and mood" }
+      ] },
+      { "label": "Editing and story", "children": [
+        { "label": "Fast and slow cuts" },
+        { "label": "Flashbacks" },
+        { "label": "Narrative structure" },
+        { "label": "Hero's journey" }
+      ] },
+      { "label": "Purpose", "children": [
+        { "label": "Genres" },
+        { "label": "Target audience" },
+        { "label": "Trailers" },
+        { "label": "Writing about a film" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "A high camera angle can make a character seem small or weak.", "correct": true, "explain": "Looking down on someone makes them seem vulnerable." },
+      { "id": "m02", "type": "sant-usant", "text": "Silence can never be used as an effect in films.", "correct": false, "explain": "Sudden silence can create strong tension." },
+      { "id": "m03", "type": "sant-usant", "text": "Documentaries are films that mainly inform.", "correct": true, "explain": "Documentaries show real people and events." },
+      { "id": "m04", "type": "sant-usant", "text": "All films are made for the same target audience.", "correct": false, "explain": "Films are made for different ages and interests." },
+      { "id": "m05", "type": "flervalg", "text": "What is a point-of-view shot?", "options": ["A shot from high above", "A shot showing what a character sees", "A shot of the audience", "A shot with no sound"], "correct": 1, "explain": "It lets us see the world through the character's eyes." },
+      { "id": "m06", "type": "flervalg", "text": "Which of these is diegetic sound?", "options": ["A character's voice in a conversation", "Background music added later", "A narrator nobody in the film hears", "The theme song over the credits"], "correct": 0, "explain": "The other characters in the scene can hear the voice." },
+      { "id": "m07", "type": "flervalg", "text": "What does editing mean in film?", "options": ["Writing the script", "Choosing the actors", "Putting the shots together", "Selling tickets"], "correct": 2, "explain": "Editing decides the rhythm of a film." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

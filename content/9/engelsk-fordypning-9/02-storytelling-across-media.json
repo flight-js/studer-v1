@@ -1,0 +1,87 @@
+{
+  "id": "storytelling-across-media",
+  "fagId": "engelsk-fordypning-9",
+  "trinnId": "9",
+  "name": "Storytelling across media",
+  "intro": "How to present, tell and explain through different media, the elements of a good story, multimodal texts, and how to plan your own digital product.",
+  "kompetansemaal": [2, 6],
+  "sammendrag": "## Stories everywhere\n\nPeople have always told stories – around the fire, in books, on stage and on screen. Today, stories are told in many **media**: novels, comics, films, podcasts, video games, short videos and blogs. The same story can be told in different ways depending on the medium.\n\n## Three purposes\n\nWhen you create a text, think about whether you want to\n\n- **present** something (show facts or ideas),\n- **tell** a story (narrate), or\n- **explain** how or why something happens.\n\n## Elements of a good story\n\n- **Characters**: Who is the story about? A good **protagonist** wants something.\n- **Setting**: Where and when does it take place?\n- **Plot**: What happens? Most stories have a beginning, a **conflict**, a **climax** and an ending.\n- **Point of view**: Is the story told in the **first person** (I) or the **third person** (he, she, they)?\n- **Show, don't tell**: Instead of writing “She was scared”, write “Her hands were shaking as she opened the door.”\n\n## Multimodal texts\n\nA **multimodal text** combines different **modes**: written words, spoken words, pictures, sound, music, movement and layout. Comics, websites, videos and presentations are examples. Each mode adds something:\n\n- **Pictures** show feelings and settings quickly.\n- **Sound and music** create mood.\n- **Written text** explains details and adds a voice.\n- **Layout** – colours, fonts and placement – guides the reader's eye.\n\nWhen the modes **work together**, the message becomes stronger.\n\n## Different media, different techniques\n\n- **Comics and graphic novels** use panels, speech bubbles and captions. The gaps between panels let readers imagine what happens.\n- **Podcasts** rely on voice, music and sound effects. Listeners must “see” the story with their ears.\n- **Short videos** need a strong **hook** in the first seconds and often use text on screen.\n- **Blogs** combine written text with pictures and links, and often have a personal voice.\n- **Video games** let the player take part in the story and make choices.\n\n## Planning a digital product\n\n1. Decide your **purpose** and **audience**.\n2. Choose the **medium** that fits your story best.\n3. Make a **storyboard** or plan: What will the audience see, hear and read?\n4. Create, get **feedback** and improve.\n5. Remember **copyright**: use your own material or material you are allowed to use.",
+  "flashcards": [
+    { "term": "Medium", "def": "A way of communicating a story, like a book, film, podcast or game." },
+    { "term": "Narrate", "def": "To tell a story." },
+    { "term": "Protagonist", "def": "The main character, who usually wants something." },
+    { "term": "Setting", "def": "Where and when a story takes place." },
+    { "term": "Plot", "def": "What happens in a story." },
+    { "term": "Conflict", "def": "The main problem or struggle in a story." },
+    { "term": "First-person narrator", "def": "A narrator who tells the story as “I”." },
+    { "term": "Third-person narrator", "def": "A narrator who tells the story about “he”, “she” or “they”." },
+    { "term": "Show, don't tell", "def": "Showing feelings through actions and details instead of naming them." },
+    { "term": "Multimodal text", "def": "A text that combines modes like words, pictures and sound." },
+    { "term": "Mode", "def": "A way of creating meaning: writing, speech, pictures, sound, movement or layout." },
+    { "term": "Layout", "def": "How colours, fonts and placement are arranged on a page or screen." },
+    { "term": "Panel and speech bubble", "def": "The frames in a comic and the bubbles that show what characters say." },
+    { "term": "Storyboard", "def": "A plan with sketches of what the audience will see and hear." },
+    { "term": "Hook", "def": "An opening that catches the audience's attention." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "What is a multimodal text?", "options": ["A text with many chapters", "A text that combines modes like words, pictures and sound", "A text in many languages", "A very long novel"], "correct": 1, "explain": "Comics and videos are typical multimodal texts." },
+    { "id": "q02", "text": "Which sentence follows the “show, don't tell” rule?", "options": ["She was scared.", "He was angry.", "They were happy.", "Her hands were shaking as she opened the door."], "correct": 3, "explain": "The reader understands the fear from the details." },
+    { "id": "q03", "text": "What is a protagonist?", "options": ["The main character, who usually wants something", "The villain", "The narrator of a podcast", "The setting"], "correct": 0, "explain": "The protagonist's goal drives the story forward." },
+    { "id": "q04", "text": "Which pronoun is typical of a first-person narrator?", "options": ["She", "They", "I", "He"], "correct": 2, "explain": "A first-person narrator tells the story from inside." },
+    { "id": "q05", "text": "What is a storyboard?", "options": ["A plan with sketches of what the audience will see and hear", "A board game", "A list of characters", "The final version of a film"], "correct": 0, "explain": "Storyboards help you plan videos and comics." },
+    { "id": "q06", "text": "What do podcasts mostly rely on?", "options": ["Pictures", "Panels", "Layout", "Voice, music and sound effects"], "correct": 3, "explain": "Podcasts create pictures in the listener's mind through sound." },
+    { "id": "q07", "text": "Why do short videos need a strong hook?", "options": ["Because they are long", "Because viewers decide in a few seconds whether to keep watching", "Because they have no sound", "Because they are for adults only"], "correct": 1, "explain": "Viewers scroll quickly past videos that do not grab them." },
+    { "id": "q08", "text": "What is the setting of a story?", "options": ["The main problem", "The ending", "Where and when the story takes place", "The narrator"], "correct": 2, "explain": "The setting can also create mood." },
+    { "id": "q09", "text": "What makes video games different from films as a storytelling medium?", "options": ["They have no characters", "The player can take part in the story and make choices", "They have no sound", "They are always shorter"], "correct": 1, "explain": "Interactivity is the special feature of games." },
+    { "id": "q10", "text": "What does layout do in a multimodal text?", "options": ["It adds music", "It tells the plot", "It records the voice", "It guides the reader's eye with colours, fonts and placement"], "correct": 3, "explain": "Good layout makes a text easy to read." }
+  ],
+  "mindmap": {
+    "label": "Storytelling across media",
+    "children": [
+      { "label": "Purposes", "children": [
+        { "label": "Present" },
+        { "label": "Tell" },
+        { "label": "Explain" }
+      ] },
+      { "label": "Story elements", "children": [
+        { "label": "Characters" },
+        { "label": "Setting" },
+        { "label": "Plot and conflict" },
+        { "label": "Point of view" },
+        { "label": "Show, don't tell" }
+      ] },
+      { "label": "Multimodal texts", "children": [
+        { "label": "Words" },
+        { "label": "Pictures" },
+        { "label": "Sound" },
+        { "label": "Layout" }
+      ] },
+      { "label": "Media", "children": [
+        { "label": "Comics" },
+        { "label": "Podcasts" },
+        { "label": "Short videos" },
+        { "label": "Blogs and games" }
+      ] },
+      { "label": "Planning", "children": [
+        { "label": "Purpose and audience" },
+        { "label": "Storyboard" },
+        { "label": "Feedback" },
+        { "label": "Copyright" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "The same story can be told in different media.", "correct": true, "explain": "Many books have been made into films, series and games." },
+      { "id": "m02", "type": "sant-usant", "text": "A comic is a multimodal text.", "correct": true, "explain": "It combines pictures, words and layout." },
+      { "id": "m03", "type": "sant-usant", "text": "Every story must be told in the first person.", "correct": false, "explain": "Stories can be told in the first or the third person." },
+      { "id": "m04", "type": "sant-usant", "text": "You can freely use any music you find online in your video.", "correct": false, "explain": "Most music is protected by copyright." },
+      { "id": "m05", "type": "flervalg", "text": "What is the conflict in a story?", "options": ["The main problem or struggle", "The title", "The setting", "The last page"], "correct": 0, "explain": "Without a conflict, there is little to drive the story." },
+      { "id": "m06", "type": "flervalg", "text": "What do comics use to show what characters say?", "options": ["Captions only", "Footnotes", "Speech bubbles", "Subtitles"], "correct": 2, "explain": "Thought bubbles show what characters think." },
+      { "id": "m07", "type": "flervalg", "text": "Which purpose fits a text that describes how something works?", "options": ["Tell a story", "Explain", "Entertain only", "Present a character"], "correct": 1, "explain": "Explaining texts answer how and why." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

@@ -1,0 +1,86 @@
+{
+  "id": "reliable-sources",
+  "fagId": "engelsk-fordypning-9",
+  "trinnId": "9",
+  "name": "Reliable sources and honest use",
+  "intro": "How to evaluate and check sources, misinformation and disinformation, using AI critically, and how to quote, paraphrase and make a source list while respecting privacy and copyright.",
+  "kompetansemaal": [11],
+  "sammendrag": "## Why check your sources?\n\nThe internet gives us more information than ever – but not all of it is reliable. Some sources contain mistakes, some are one-sided, and some spread **misinformation** (false information, often shared by people who believe it) or **disinformation** (false information spread on purpose). When you write or present in English, you must use sources **critically** and **honestly**.\n\n## Evaluating a source\n\nAsk these questions:\n\n- **Who** made it? Is the author or organisation an expert? Is it a known newspaper, a university, a government site – or an anonymous blog?\n- **Why** was it made? To inform, to sell, to entertain or to persuade?\n- **When** was it published or updated? Is it still up to date?\n- **What** evidence does it give? Are there facts, references and links?\n- **Does it agree** with other reliable sources?\n\nWebsites of governments, universities and well-known news organisations are often reliable, but you should always think for yourself. **Wikipedia** can be a good starting point, but check the references at the bottom of the article.\n\n## Checking facts\n\n- **Lateral reading**: Instead of staying on one website, open new tabs and see what other sources say about the topic and the sender.\n- A **reverse image search** can reveal whether a picture is old, edited or taken out of context.\n- **Fact-checking websites** examine viral claims.\n- Be extra careful with content that makes you very angry or excited – it may be designed to go viral.\n\n## AI and sources\n\nAI chatbots can help with ideas and explanations, but they can **make things up** and even invent sources that do not exist. Always check important facts in reliable sources, and follow your school's rules for using AI.\n\n## Using sources honestly\n\n- **Quote**: use the exact words in quotation marks and name the source.\n- **Paraphrase**: explain the idea in your own words – and still name the source.\n- Make a **source list** (bibliography) with the author, title, website or publisher, publication date and the date you read it.\n\nUsing someone's words or ideas without giving credit is **plagiarism**.\n\n## Privacy and copyright\n\nWhen you use sources and create content, you must follow the rules for **privacy** and **copyright**. Don't publish personal information or pictures of others without consent, and only use pictures, music and videos you are allowed to use, such as your own or those with a **Creative Commons** licence.",
+  "flashcards": [
+    { "term": "Reliable source", "def": "A source you can trust because of its expertise, evidence and purpose." },
+    { "term": "Misinformation", "def": "False information, often shared by people who believe it is true." },
+    { "term": "Disinformation", "def": "False information spread on purpose to deceive." },
+    { "term": "Sender", "def": "The person or organisation behind a source." },
+    { "term": "Up to date", "def": "Recent enough to still be correct." },
+    { "term": "Evidence", "def": "Facts, data and references that support a claim." },
+    { "term": "Lateral reading", "def": "Opening new tabs to see what other sources say about a topic and sender." },
+    { "term": "Reverse image search", "def": "Searching with a picture to find where else it has been published." },
+    { "term": "Fact-checking", "def": "Examining whether a claim is true." },
+    { "term": "AI that makes things up", "def": "AI chatbots can give wrong facts and invent sources." },
+    { "term": "Quote", "def": "Exact words from a source in quotation marks." },
+    { "term": "Paraphrase", "def": "Explaining an idea from a source in your own words." },
+    { "term": "Bibliography", "def": "A list of the sources you have used." },
+    { "term": "Plagiarism", "def": "Using someone's words or ideas without giving credit." },
+    { "term": "Creative Commons", "def": "Licences that let creators allow others to use their work on certain conditions." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "What is disinformation?", "options": ["Information that is out of date", "Information in another language", "False information spread on purpose", "Information from a university"], "correct": 2, "explain": "Disinformation is meant to deceive." },
+    { "id": "q02", "text": "What is lateral reading?", "options": ["Opening new tabs to see what other sources say about a topic and sender", "Reading a text from right to left", "Reading only headlines", "Reading very fast"], "correct": 0, "explain": "Professional fact-checkers use this method." },
+    { "id": "q03", "text": "What can a reverse image search reveal?", "options": ["The photographer's password", "The price of the picture", "How many people liked it", "Whether a picture is old, edited or taken out of context"], "correct": 3, "explain": "Old pictures are often reused in fake news." },
+    { "id": "q04", "text": "What is a paraphrase?", "options": ["An exact quote", "Explaining an idea in your own words", "A list of sources", "A picture"], "correct": 1, "explain": "You must still name the source when you paraphrase." },
+    { "id": "q05", "text": "What should you remember about AI chatbots?", "options": ["They are always correct", "They never make mistakes about sources", "They should replace all other sources", "They can make things up and invent sources"], "correct": 3, "explain": "Always check important facts in reliable sources." },
+    { "id": "q06", "text": "Why should you check when a source was published?", "options": ["Old sources are always wrong", "To know the author's age", "To make sure the information is still up to date", "Because dates are required by law"], "correct": 2, "explain": "Facts like statistics can change over time." },
+    { "id": "q07", "text": "How should you use Wikipedia?", "options": ["As the only source", "As a starting point, and check the references", "Never", "Only for pictures"], "correct": 1, "explain": "Anyone can edit Wikipedia, so check where the information comes from." },
+    { "id": "q08", "text": "What should a source list include?", "options": ["Author, title, website or publisher and dates", "Only the website name", "Only your opinion", "Nothing"], "correct": 0, "explain": "The reader should be able to find the source." },
+    { "id": "q09", "text": "Why should you be careful with content that makes you very angry?", "options": ["Because anger is bad for you", "Because it is always true", "Because it may be designed to go viral", "Because it is always old"], "correct": 2, "explain": "Strong emotions make people share without checking." },
+    { "id": "q10", "text": "What must you do when you quote someone's exact words?", "options": ["Change some words", "Hide the source", "Translate them into Norwegian", "Use quotation marks and name the source"], "correct": 3, "explain": "This shows clearly which words are not your own." }
+  ],
+  "mindmap": {
+    "label": "Reliable sources",
+    "children": [
+      { "label": "Problems", "children": [
+        { "label": "Mistakes" },
+        { "label": "One-sided sources" },
+        { "label": "Misinformation" },
+        { "label": "Disinformation" }
+      ] },
+      { "label": "Evaluate", "children": [
+        { "label": "Who?" },
+        { "label": "Why?" },
+        { "label": "When?" },
+        { "label": "Evidence" }
+      ] },
+      { "label": "Check", "children": [
+        { "label": "Lateral reading" },
+        { "label": "Reverse image search" },
+        { "label": "Fact-checking sites" },
+        { "label": "Strong emotions" }
+      ] },
+      { "label": "AI", "children": [
+        { "label": "Can make things up" },
+        { "label": "Check facts" },
+        { "label": "School rules" }
+      ] },
+      { "label": "Honest use", "children": [
+        { "label": "Quote" },
+        { "label": "Paraphrase" },
+        { "label": "Source list" },
+        { "label": "Privacy and copyright" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "All information on the internet is reliable.", "correct": false, "explain": "Anyone can publish online, so you must evaluate sources." },
+      { "id": "m02", "type": "sant-usant", "text": "Paraphrasing without naming the source can be plagiarism.", "correct": true, "explain": "The idea still belongs to someone else." },
+      { "id": "m03", "type": "sant-usant", "text": "A good source often gives evidence and references.", "correct": true, "explain": "References let you check where the information comes from." },
+      { "id": "m04", "type": "sant-usant", "text": "You can publish pictures of other people without asking them.", "correct": false, "explain": "You need consent to publish pictures of others." },
+      { "id": "m05", "type": "flervalg", "text": "What is misinformation?", "options": ["A reliable news article", "False information, often shared by people who believe it", "An exact quote", "A source list"], "correct": 1, "explain": "Misinformation is not necessarily spread on purpose." },
+      { "id": "m06", "type": "flervalg", "text": "Which question helps you evaluate a source?", "options": ["Who made it, and why?", "What colour is the website?", "How many pictures does it have?", "Is it long?"], "correct": 0, "explain": "The sender and purpose tell you a lot about reliability." },
+      { "id": "m07", "type": "flervalg", "text": "Which of these can you usually use in your project?", "options": ["Any song from a streaming service", "A photo from a stranger's profile", "A picture with a Creative Commons licence, following the terms", "A clip from a new cinema film"], "correct": 2, "explain": "Creative Commons licences give permission on certain conditions." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
