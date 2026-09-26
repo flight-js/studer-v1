@@ -1,0 +1,86 @@
+{
+  "id": "mellomkrigstid-og-andre-verdenskrig",
+  "fagId": "samfunnsfag-9",
+  "trinnId": "9",
+  "name": "Mellomkrigstiden og andre verdenskrig",
+  "intro": "Hvordan økonomisk krise og diktaturer førte til andre verdenskrig, hovedtrekkene i krigen, okkupasjonen av Norge og konsekvensene etter 1945.",
+  "kompetansemaal": [7, 8],
+  "sammendrag": "## Mellomkrigstiden\n\nÅrene mellom de to verdenskrigene, **1918–1939**, begynte med håp om varig fred, men endte i en ny krig. På 1920-tallet gikk økonomien godt i mange land, men i 1929 kom **børskrakket** i New York. Det utløste **den store depresjonen**, en verdensomspennende økonomisk krise med massearbeidsløshet og fattigdom. Også i Norge var arbeidsløsheten høy.\n\n## Diktaturene vokser fram\n\nI krisetider fikk ekstreme ideologier oppslutning:\n\n- I **Italia** tok **Benito Mussolini** og fascistene makten i 1922.\n- I **Sovjetunionen** styrte **Josef Stalin** et kommunistisk diktatur der millioner ble sendt til arbeidsleirer.\n- I **Tyskland** ble **Adolf Hitler** rikskansler i **1933**. Nazistene avskaffet demokratiet og forfulgte politiske motstandere og jøder.\n\n**Nazismen** bygde på rasisme og **antisemittisme**, tanken om at tyskerne var en overlegen rase, og kravet om mer «livsrom» i øst. Mange tyskere mente Versaillestraktaten var urettferdig, og Hitler lovet å gjenreise Tysklands stolthet.\n\n## Veien til krig\n\nHitler brøt Versaillestraktaten steg for steg: Han bygde opp hæren, tok **Østerrike** i 1938 og deretter **Sudetenland** i Tsjekkoslovakia. Storbritannia og Frankrike førte en **ettergivenhetspolitikk** og håpet å unngå krig. I august 1939 inngikk Tyskland og Sovjetunionen en ikke-angrepspakt. **1. september 1939** angrep Tyskland **Polen**, og Storbritannia og Frankrike erklærte krig.\n\n## Andre verdenskrig\n\nTyskland erobret raskt store områder med **lynkrig**. **9. april 1940** angrep Tyskland **Norge**, og etter to måneder med kamper var landet okkupert. Kongen og regjeringen dro til London. I 1941 angrep Tyskland **Sovjetunionen**, og etter Japans angrep på **Pearl Harbor** gikk **USA** inn i krigen. Slaget om **Stalingrad** (1942–1943) ble et vendepunkt. På **D-dagen**, 6. juni 1944, gikk de allierte i land i Normandie. Tyskland kapitulerte **8. mai 1945**, og Japan kapitulerte i august etter at USA slapp **atombomber** over Hiroshima og Nagasaki.\n\n## Norge under okkupasjonen\n\n**Vidkun Quisling** og Nasjonal Samling styrte i samarbeid med tyskerne. Mange nordmenn deltok i **motstandskampen**, blant annet sabotasjen mot tungtvannsanlegget på **Vemork** i 1943. Hverdagen var preget av rasjonering, sensur og frykt.\n\n## Konsekvenser\n\nMellom 70 og 85 millioner mennesker døde, flere sivile enn soldater. Nazistene drepte rundt seks millioner jøder i **Holocaust**. Etter krigen ble **FN** opprettet i 1945, Europa ble delt mellom øst og vest, og **den kalde krigen** begynte.\n\n## Kunne krigen vært hindret?\n\nMange har spurt om en annerledes Versaillestraktat, et sterkere Folkeforbund eller at stormaktene hadde stoppet Hitler tidligere, kunne ha forhindret krigen.",
+  "flashcards": [
+    { "term": "Mellomkrigstiden", "def": "Perioden mellom første og andre verdenskrig, 1918–1939." },
+    { "term": "Børskrakket", "def": "Kraftig fall i aksjekursene i New York i 1929." },
+    { "term": "Den store depresjonen", "def": "Verdensomspennende økonomisk krise på 1930-tallet med massearbeidsløshet." },
+    { "term": "Fascisme", "def": "Ideologi med én sterk leder, ett parti og en aggressiv nasjonalisme. Mussolini i Italia." },
+    { "term": "Nazisme", "def": "Hitlers ideologi, bygd på rasisme, antisemittisme og diktatur." },
+    { "term": "Antisemittisme", "def": "Hat og fordommer mot jøder." },
+    { "term": "Ettergivenhetspolitikk", "def": "Storbritannias og Frankrikes politikk med å gi etter for Hitlers krav for å unngå krig." },
+    { "term": "Lynkrig", "def": "Raske angrep med fly, stridsvogner og soldater samtidig." },
+    { "term": "9. april 1940", "def": "Tyskland angrep Norge." },
+    { "term": "Vidkun Quisling", "def": "Leder av Nasjonal Samling, som styrte Norge sammen med tyskerne." },
+    { "term": "Motstandskampen", "def": "Nordmenn som kjempet mot okkupasjonen, for eksempel med sabotasje." },
+    { "term": "Stalingrad", "def": "Slaget 1942–1943 som ble et vendepunkt på østfronten." },
+    { "term": "D-dagen", "def": "6. juni 1944, da de allierte gikk i land i Normandie." },
+    { "term": "8. mai 1945", "def": "Tyskland kapitulerte, og Norge ble fritt." },
+    { "term": "FN", "def": "De forente nasjoner, opprettet i 1945 for å sikre fred og samarbeid." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva utløste den store depresjonen?", "options": ["Børskrakket i New York i 1929", "Første verdenskrig", "Angrepet på Polen", "Den russiske revolusjonen"], "correct": 0, "explain": "Krakket spredte seg til økonomien i store deler av verden." },
+    { "id": "q02", "text": "Når ble Hitler rikskansler i Tyskland?", "options": ["1919", "1929", "1939", "1933"], "correct": 3, "explain": "Kort tid etter avskaffet nazistene demokratiet." },
+    { "id": "q03", "text": "Hva var ettergivenhetspolitikken?", "options": ["At Tyskland ga fra seg land", "At Storbritannia og Frankrike ga etter for Hitlers krav for å unngå krig", "At USA gikk inn i krigen", "At Norge var nøytralt"], "correct": 1, "explain": "Håpet var at Hitler ville bli fornøyd, men han krevde stadig mer." },
+    { "id": "q04", "text": "Hvilken hendelse regnes som starten på andre verdenskrig?", "options": ["Angrepet på Pearl Harbor", "D-dagen", "Tysklands angrep på Polen 1. september 1939", "Børskrakket"], "correct": 2, "explain": "To dager senere erklærte Storbritannia og Frankrike krig mot Tyskland." },
+    { "id": "q05", "text": "Når angrep Tyskland Norge?", "options": ["9. april 1940", "8. mai 1945", "1. september 1939", "17. mai 1940"], "correct": 0, "explain": "Etter to måneder med kamper var hele landet okkupert." },
+    { "id": "q06", "text": "Hvorfor fikk ekstreme ideologier oppslutning i mellomkrigstiden?", "options": ["Fordi alle var fornøyde", "Fordi økonomisk krise og misnøye fikk mange til å søke sterke ledere", "Fordi demokratiet var forbudt i hele Europa", "Fordi Folkeforbundet støttet dem"], "correct": 1, "explain": "Arbeidsløshet og nasjonal bitterhet ga grobunn for ekstreme løsninger." },
+    { "id": "q07", "text": "Hvilket slag regnes som et vendepunkt på østfronten?", "options": ["Slaget ved Verdun", "Slaget om Storbritannia", "D-dagen", "Slaget om Stalingrad"], "correct": 3, "explain": "Etter Stalingrad var det Sovjetunionen som rykket fram." },
+    { "id": "q08", "text": "Hva var sabotasjen på Vemork rettet mot?", "options": ["En våpenfabrikk i Oslo", "Produksjonen av tungtvann", "En tysk ubåt", "Bergensbanen"], "correct": 1, "explain": "Tungtvann kunne brukes i tysk atomforskning." },
+    { "id": "q09", "text": "Hva skjedde 8. mai 1945?", "options": ["Japan angrep USA", "Hitler kom til makten", "Tyskland kapitulerte, og Norge ble fritt", "FN ble opprettet"], "correct": 2, "explain": "Dagen er i dag frigjøringsdag i Norge." },
+    { "id": "q10", "text": "Hvilken organisasjon ble opprettet i 1945 for å sikre fred?", "options": ["FN", "Folkeforbundet", "EU", "LO"], "correct": 0, "explain": "FN erstattet Folkeforbundet, som ikke hadde klart å hindre krigen." }
+  ],
+  "mindmap": {
+    "label": "Mellomkrigstid og andre verdenskrig",
+    "children": [
+      { "label": "Mellomkrigstiden", "children": [
+        { "label": "Depresjonen", "note": "1929" },
+        { "label": "Mussolini", "note": "Fascisme" },
+        { "label": "Stalin", "note": "Kommunisme" },
+        { "label": "Hitler", "note": "Nazisme" }
+      ] },
+      { "label": "Veien til krig", "children": [
+        { "label": "Brudd på Versailles" },
+        { "label": "Ettergivenhet" },
+        { "label": "Angrep på Polen", "note": "1939" }
+      ] },
+      { "label": "Krigen", "children": [
+        { "label": "Lynkrig" },
+        { "label": "Stalingrad" },
+        { "label": "D-dagen", "note": "1944" },
+        { "label": "Kapitulasjon", "note": "1945" }
+      ] },
+      { "label": "Norge", "children": [
+        { "label": "9. april 1940" },
+        { "label": "Quisling og NS" },
+        { "label": "Motstandskamp" },
+        { "label": "Frigjøring 8. mai" }
+      ] },
+      { "label": "Konsekvenser", "children": [
+        { "label": "70–85 millioner døde" },
+        { "label": "Holocaust" },
+        { "label": "FN" },
+        { "label": "Kald krig" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Vidkun Quisling ledet Nasjonal Samling under okkupasjonen.", "correct": true, "explain": "Etter krigen ble han dømt til døden for landssvik." },
+      { "id": "m02", "type": "sant-usant", "text": "Flere soldater enn sivile døde i andre verdenskrig.", "correct": false, "explain": "Flere sivile enn soldater døde, blant annet i Holocaust og bombingen av byer." },
+      { "id": "m03", "type": "sant-usant", "text": "USA gikk inn i krigen etter Japans angrep på Pearl Harbor.", "correct": true, "explain": "Angrepet skjedde i desember 1941." },
+      { "id": "m04", "type": "sant-usant", "text": "Norge ble frigjort allerede i 1942.", "correct": false, "explain": "Norge var okkupert i fem år, fram til 8. mai 1945." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er antisemittisme?", "options": ["Hat og fordommer mot jøder", "Motstand mot krig", "Støtte til demokrati", "En type økonomi"], "correct": 0, "explain": "Antisemittisme var en kjerne i nazismen." },
+      { "id": "m06", "type": "flervalg", "text": "Hvem styrte Sovjetunionen under andre verdenskrig?", "options": ["Lenin", "Mussolini", "Stalin", "Churchill"], "correct": 2, "explain": "Stalin styrte Sovjetunionen fra slutten av 1920-tallet til han døde i 1953." },
+      { "id": "m07", "type": "flervalg", "text": "Hva skjedde på D-dagen?", "options": ["Tyskland angrep Norge", "De allierte gikk i land i Normandie", "Krigen sluttet", "Den første atombomben ble sluppet"], "correct": 1, "explain": "Landgangen 6. juni 1944 åpnet en ny front i vest." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

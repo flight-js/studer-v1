@@ -1,0 +1,85 @@
+{
+  "id": "forste-verdenskrig",
+  "fagId": "samfunnsfag-9",
+  "trinnId": "9",
+  "name": "Første verdenskrig",
+  "intro": "Årsakene til og konsekvensene av første verdenskrig, hvordan krigen ble ført, hvordan Norge ble rammet, og om krigen kunne vært unngått.",
+  "kompetansemaal": [7],
+  "sammendrag": "## En verdenskrig\n\nFørste verdenskrig varte fra **1914 til 1918**. Den ble kalt «den store krigen», fordi ingen tidligere krig hadde vært så omfattende. Om lag 17 millioner mennesker døde, soldater og sivile.\n\n## Årsaker\n\nHistorikere skiller mellom **langsiktige årsaker** og den **utløsende årsaken**. Viktige langsiktige årsaker var:\n\n- **Allianser**: Europa var delt i to blokker. **Sentralmaktene** Tyskland og Østerrike-Ungarn sto mot **ententemaktene** Storbritannia, Frankrike og Russland.\n- **Militarisme**: Stormaktene bygde opp store hærer og flåter og hadde ferdige krigsplaner.\n- **Imperialisme**: Kappløpet om kolonier og innflytelse skapte rivalisering.\n- **Nasjonalisme**: Sterk stolthet over egen nasjon, og folkegrupper på **Balkan** som ønsket egne stater.\n\nDen **utløsende årsaken** var skuddene i **Sarajevo 28. juni 1914**, da den serbiske nasjonalisten Gavrilo Princip drepte den østerrikske tronfølgeren Franz Ferdinand. Østerrike-Ungarn erklærte krig mot Serbia, og alliansene dro de andre stormaktene inn i krigen i løpet av få dager.\n\n## Krigen\n\nTyskland angrep Frankrike gjennom Belgia, men angrepet stoppet opp. På **vestfronten** ble det **skyttergravskrig**: Soldatene lå i skyttergraver i månedsvis, og i store slag, som ved **Verdun** og **Somme** i 1916, ble hundretusener drept eller såret for små landområder. Nye våpen som maskingevær, giftgass, stridsvogner, fly og ubåter gjorde krigen svært dødelig. I 1917 gikk **USA** inn i krigen, mens Russland trakk seg ut etter revolusjonen. **Våpenhvilen** kom **11. november 1918**.\n\n## Norge under krigen\n\nNorge var **nøytralt**, men handelsflåten ble rammet av ubåter og miner, og om lag 2000 norske sjøfolk omkom. Noen tjente store penger på spekulasjon, mens mange fikk dårligere kår på grunn av høye priser og vareknapphet.\n\n## Konsekvenser\n\n- **Versaillestraktaten** (1919) ga Tyskland skylden for krigen. Landet måtte betale store krigserstatninger, gi fra seg land og kolonier og ruste ned. Mange tyskere opplevde freden som urettferdig.\n- Fire keiserriker gikk i oppløsning: Tyskland, Østerrike-Ungarn, Russland og Det osmanske riket. Nye stater, som Polen, Tsjekkoslovakia og Jugoslavia, ble opprettet.\n- **Folkeforbundet** ble opprettet i 1920 for å sikre fred.\n- I Russland tok kommunistene makten, og Sovjetunionen ble til.\n\n## Kunne krigen vært unngått?\n\nHistorikere diskuterer om krigen kunne vært hindret dersom noen **forutsetninger** hadde vært annerledes. Hva om alliansene hadde vært mindre bindende, diplomatene hadde fått mer tid, eller stormaktene ikke hadde hatt ferdige krigsplaner? Slike spørsmål hjelper oss å forstå hvorfor krigen brøt ut, og hvordan konflikter kan forebygges i dag.",
+  "flashcards": [
+    { "term": "Første verdenskrig", "def": "Krigen mellom stormaktene i Europa fra 1914 til 1918." },
+    { "term": "Sentralmaktene", "def": "Tyskland og Østerrike-Ungarn, senere også Det osmanske riket og Bulgaria." },
+    { "term": "Ententemaktene", "def": "Storbritannia, Frankrike og Russland, senere også blant annet Italia og USA." },
+    { "term": "Militarisme", "def": "At militærmakt og opprustning får stor plass i et samfunn." },
+    { "term": "Imperialisme", "def": "Stormaktenes kappløp om kolonier og innflytelse." },
+    { "term": "Nasjonalisme", "def": "Sterk stolthet over og lojalitet til egen nasjon." },
+    { "term": "Skuddene i Sarajevo", "def": "Drapet på tronfølgeren Franz Ferdinand 28. juni 1914, den utløsende årsaken." },
+    { "term": "Utløsende årsak", "def": "Hendelsen som setter i gang en konflikt som har langsiktige årsaker." },
+    { "term": "Skyttergravskrig", "def": "Krig der soldatene lå i gravde grøfter overfor hverandre i lang tid." },
+    { "term": "Verdun og Somme", "def": "Store slag på vestfronten i 1916 med enorme tap." },
+    { "term": "Nye våpen", "def": "Maskingevær, giftgass, stridsvogner, fly og ubåter." },
+    { "term": "Våpenhvilen", "def": "Kampene stanset 11. november 1918." },
+    { "term": "Versaillestraktaten", "def": "Fredsavtalen fra 1919 som ga Tyskland skylden og store krigserstatninger." },
+    { "term": "Folkeforbundet", "def": "Internasjonal organisasjon fra 1920 som skulle sikre fred." },
+    { "term": "Nøytralitet", "def": "At et land ikke tar side i en krig, slik Norge gjorde." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Når varte første verdenskrig?", "options": ["1905–1910", "1914–1918", "1939–1945", "1918–1922"], "correct": 1, "explain": "Krigen startet sommeren 1914 og endte med våpenhvilen i november 1918." },
+    { "id": "q02", "text": "Hva var den utløsende årsaken til krigen?", "options": ["Skuddene i Sarajevo i 1914", "Den russiske revolusjonen", "Versaillestraktaten", "Angrepet på Pearl Harbor"], "correct": 0, "explain": "Drapet på Franz Ferdinand satte i gang en kjedereaksjon." },
+    { "id": "q03", "text": "Hvilke land var ententemaktene ved krigens start?", "options": ["Tyskland og Østerrike-Ungarn", "USA, Japan og Kina", "Storbritannia, Frankrike og Russland", "Norge, Sverige og Danmark"], "correct": 2, "explain": "Ententemaktene sto mot sentralmaktene." },
+    { "id": "q04", "text": "Hva kjennetegnet krigen på vestfronten?", "options": ["Raske angrep med fly", "Krig til sjøs", "Kamper i jungelen", "Skyttergravskrig med store tap for små landområder"], "correct": 3, "explain": "Fronten flyttet seg lite i nesten fire år." },
+    { "id": "q05", "text": "Hva var imperialisme?", "options": ["Kappløp mellom stormaktene om kolonier og innflytelse", "Kjærlighet til eget land", "Oppbygging av hærer", "Samarbeid mellom land"], "correct": 0, "explain": "Rivaliseringen om kolonier skapte spenninger mellom stormaktene." },
+    { "id": "q06", "text": "Hvorfor ble krigen raskt en storkrig mellom mange land?", "options": ["Fordi alle ønsket krig", "Fordi alliansene dro stormaktene inn i konflikten", "Fordi Norge angrep Tyskland", "Fordi USA startet krigen"], "correct": 1, "explain": "Landene hadde lovet å hjelpe hverandre, og konflikten spredte seg på få dager." },
+    { "id": "q07", "text": "Hvilket land fikk skylden for krigen i Versaillestraktaten?", "options": ["Russland", "Frankrike", "Serbia", "Tyskland"], "correct": 3, "explain": "Skyldparagrafen skapte bitterhet i Tyskland." },
+    { "id": "q08", "text": "Hvordan ble Norge rammet, selv om landet var nøytralt?", "options": ["Norge ble okkupert", "Mange norske handelsskip ble senket", "Norske soldater kjempet i Frankrike", "Kristiania ble bombet"], "correct": 1, "explain": "Om lag 2000 norske sjøfolk omkom." },
+    { "id": "q09", "text": "Hvilken organisasjon ble opprettet etter krigen for å sikre fred?", "options": ["FN", "NATO", "Folkeforbundet", "EU"], "correct": 2, "explain": "Folkeforbundet klarte likevel ikke å hindre en ny verdenskrig." },
+    { "id": "q10", "text": "Hvilket spørsmål er et eksempel på å reflektere over om krigen kunne vært hindret?", "options": ["Hvor mange soldater deltok?", "Hvem vant slaget ved Verdun?", "Hva het den østerrikske tronfølgeren?", "Hva om alliansene hadde vært mindre bindende?"], "correct": 3, "explain": "Å endre én forutsetning i tanken hjelper oss å se hvilke årsaker som var viktigst." }
+  ],
+  "mindmap": {
+    "label": "Første verdenskrig",
+    "children": [
+      { "label": "Årsaker", "children": [
+        { "label": "Allianser" },
+        { "label": "Militarisme" },
+        { "label": "Imperialisme" },
+        { "label": "Nasjonalisme" },
+        { "label": "Sarajevo 1914", "note": "Utløsende" }
+      ] },
+      { "label": "Krigen", "children": [
+        { "label": "Skyttergraver på vestfronten" },
+        { "label": "Verdun og Somme" },
+        { "label": "Nye våpen" },
+        { "label": "USA inn 1917" }
+      ] },
+      { "label": "Norge", "children": [
+        { "label": "Nøytralt" },
+        { "label": "Tap av sjøfolk" },
+        { "label": "Prisstigning og spekulasjon" }
+      ] },
+      { "label": "Konsekvenser", "children": [
+        { "label": "Versaillestraktaten" },
+        { "label": "Keiserriker faller" },
+        { "label": "Nye stater" },
+        { "label": "Folkeforbundet" }
+      ] },
+      { "label": "Kunne den vært unngått?", "children": [
+        { "label": "Mindre bindende allianser" },
+        { "label": "Mer diplomati" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "USA gikk inn i krigen i 1917.", "correct": true, "explain": "Blant annet den tyske ubåtkrigen fikk USA til å gå inn på ententens side." },
+      { "id": "m02", "type": "sant-usant", "text": "Krigen endte med en våpenhvile 11. november 1918.", "correct": true, "explain": "Fredsavtalen, Versaillestraktaten, kom året etter." },
+      { "id": "m03", "type": "sant-usant", "text": "Østerrike-Ungarn ble styrket etter krigen.", "correct": false, "explain": "Riket gikk i oppløsning, og flere nye stater ble opprettet." },
+      { "id": "m04", "type": "sant-usant", "text": "Norge kjempet på sentralmaktenes side.", "correct": false, "explain": "Norge var nøytralt under hele krigen." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilket nytt våpen ble tatt i bruk under første verdenskrig?", "options": ["Atombomben", "Giftgass", "Kanonen", "Armbrøsten"], "correct": 1, "explain": "Giftgass skadet og drepte mange soldater i skyttergravene." },
+      { "id": "m06", "type": "flervalg", "text": "Hva betyr nasjonalisme?", "options": ["Sterk stolthet over og lojalitet til egen nasjon", "Kappløp om kolonier", "Å ha store hærer", "Samarbeid mellom land"], "correct": 0, "explain": "Nasjonalisme skapte spenninger, særlig på Balkan." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilken stat ble opprettet etter første verdenskrig?", "options": ["Tyskland", "Frankrike", "Polen", "Storbritannia"], "correct": 2, "explain": "Polen ble igjen en selvstendig stat i 1918." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

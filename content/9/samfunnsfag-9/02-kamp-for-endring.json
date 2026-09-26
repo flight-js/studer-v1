@@ -1,0 +1,85 @@
+{
+  "id": "kamp-for-endring",
+  "fagId": "samfunnsfag-9",
+  "trinnId": "9",
+  "name": "Kamp for endring",
+  "intro": "Hvordan arbeidere, kvinner, urfolk og andre har kjempet for rettigheter og endringer i samfunnet, hvilke virkemidler de har brukt, og hvordan tid og sted har påvirket kampene.",
+  "kompetansemaal": [5],
+  "sammendrag": "## Mennesker skaper endring\n\nMange rettigheter vi tar for gitt i dag, som stemmerett for alle, åtte timers arbeidsdag og forbud mot diskriminering, er resultat av at mennesker har **kjempet for endring**. Kampene har alltid vært preget av **historisk kontekst** – hvilke ideer, teknologier og maktforhold som fantes – og av **geografiske forhold**, som hvor folk bodde og hvilke naturressurser de levde av.\n\n## Arbeiderbevegelsen\n\nIndustrialiseringen skapte en stor arbeiderklasse med dårlige kår. I Norge samlet **Marcus Thrane** tusenvis av husmenn og arbeidere i foreninger rundt 1850. **Arbeiderpartiet** ble stiftet i 1887 og **LO** i 1899. Gjennom **streik**, forhandlinger og politisk arbeid fikk arbeiderne blant annet **åttetimersdagen** i 1919 og **Hovedavtalen** i 1935, som regulerer samarbeidet mellom arbeidsgivere og arbeidstakere.\n\n## Kvinnekampen\n\nKvinner hadde lenge færre rettigheter enn menn. **Norsk Kvinnesaksforening** ble stiftet i 1884 og kjempet for utdanning, eiendomsrett og stemmerett. Norske kvinner fikk **allmenn stemmerett i 1913**, som et av de første landene i verden. Senere har kampen handlet om likelønn, barnehager, **selvbestemt abort** (1978) og, i nyere tid, **#MeToo** mot seksuell trakassering.\n\n## Kamp mot rasisme\n\nI USA kjempet **borgerrettighetsbevegelsen** mot raseskille i sørstatene. **Rosa Parks** nektet å gi fra seg setet sitt på bussen i 1955, og **Martin Luther King** ledet ikkevoldelige demonstrasjoner. I Sør-Afrika kjempet mange mot **apartheid**. **Nelson Mandela** satt i fengsel i 27 år og ble landets første svarte president i 1994.\n\n## Urfolk og miljø\n\nI **Alta-saken** (1979–1981) protesterte samer og miljøvernere mot utbyggingen av Altaelva, som var viktig for reindrift og laksefiske. Utbyggingen ble gjennomført, men saken førte til **Sametinget** i 1989 og sterkere samiske rettigheter. I dag kjemper mange unge for klimaet, blant annet gjennom **skolestreik for klima**, som Greta Thunberg startet i 2018.\n\n## Virkemidler\n\nMennesker har brukt ulike virkemidler: organisering i foreninger og partier, **demonstrasjoner**, streik, **boikott**, underskriftskampanjer og **sivil ulydighet**, altså å bryte loven åpent og ikkevoldelig for å protestere. I dag spiller sosiale medier en stor rolle i å spre budskap og mobilisere.\n\n## Å reflektere over kamp for endring\n\nEndring skjer sjelden raskt. Mange kamper har tatt generasjoner, og ofte har folk risikert mye. Noen ganger fører kampen fram, andre ganger ikke. Hva som var mulig, avhang av tiden og stedet folk levde i.",
+  "flashcards": [
+    { "term": "Arbeiderbevegelsen", "def": "Arbeidernes organisering i fagforeninger og partier for bedre kår." },
+    { "term": "Marcus Thrane", "def": "Samlet husmenn og arbeidere i Norges første arbeiderbevegelse rundt 1850." },
+    { "term": "LO", "def": "Landsorganisasjonen i Norge, paraplyorganisasjon for fagforeninger, stiftet i 1899." },
+    { "term": "Streik", "def": "At arbeidstakere legger ned arbeidet for å presse fram krav." },
+    { "term": "Åttetimersdagen", "def": "Lovfestet i Norge i 1919 etter krav fra arbeiderbevegelsen." },
+    { "term": "Hovedavtalen", "def": "Avtale fra 1935 om samarbeidet mellom arbeidsgivere og arbeidstakere." },
+    { "term": "Norsk Kvinnesaksforening", "def": "Stiftet i 1884 for å kjempe for kvinners rettigheter." },
+    { "term": "Kvinners stemmerett", "def": "Norske kvinner fikk allmenn stemmerett i 1913." },
+    { "term": "Borgerrettighetsbevegelsen", "def": "Kamp mot raseskille og for like rettigheter i USA på 1950- og 60-tallet." },
+    { "term": "Apartheid", "def": "System med raseskille i Sør-Afrika, avviklet tidlig på 1990-tallet." },
+    { "term": "Nelson Mandela", "def": "Satt 27 år i fengsel og ble Sør-Afrikas første svarte president i 1994." },
+    { "term": "Alta-saken", "def": "Protester 1979–1981 mot utbyggingen av Altaelva." },
+    { "term": "Sametinget", "def": "Samenes folkevalgte organ, opprettet i 1989." },
+    { "term": "Sivil ulydighet", "def": "Å bryte loven åpent og ikkevoldelig for å protestere." },
+    { "term": "Boikott", "def": "Å nekte å kjøpe noe eller delta i noe for å protestere." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Når fikk norske kvinner allmenn stemmerett?", "options": ["1884", "1945", "1913", "1978"], "correct": 2, "explain": "Norge var blant de første landene i verden." },
+    { "id": "q02", "text": "Hvem samlet husmenn og arbeidere i foreninger rundt 1850?", "options": ["Marcus Thrane", "Henrik Ibsen", "Christian Michelsen", "Nelson Mandela"], "correct": 0, "explain": "Thranebevegelsen var Norges første store arbeiderbevegelse." },
+    { "id": "q03", "text": "Hva er sivil ulydighet?", "options": ["Å stemme blankt", "Å skrive leserbrev", "Å bryte loven åpent og ikkevoldelig i protest", "Å flytte til et annet land"], "correct": 2, "explain": "Deltakerne tar bevisst straffen for å vise hvor viktig saken er." },
+    { "id": "q04", "text": "Hva var apartheid?", "options": ["Et fotballag i Sør-Afrika", "En fredsavtale", "En type valgordning", "Et system med raseskille i Sør-Afrika"], "correct": 3, "explain": "Svarte sørafrikanere ble fratatt politiske rettigheter og holdt adskilt fra hvite." },
+    { "id": "q05", "text": "Hva ble opprettet i 1989, blant annet som en følge av Alta-saken?", "options": ["Stortinget", "Sametinget", "LO", "FN"], "correct": 1, "explain": "Alta-saken satte samiske rettigheter på dagsordenen." },
+    { "id": "q06", "text": "Hva gjorde Rosa Parks i 1955?", "options": ["Nektet å gi fra seg setet sitt på bussen", "Ble president i USA", "Startet en fagforening", "Vant Nobels fredspris"], "correct": 0, "explain": "Protesten hennes utløste en stor bussboikott i Montgomery." },
+    { "id": "q07", "text": "Hvilket virkemiddel bruker arbeidere når de legger ned arbeidet for å presse fram krav?", "options": ["Boikott", "Underskriftskampanje", "Lobbyvirksomhet", "Streik"], "correct": 3, "explain": "Streik er et av fagbevegelsens viktigste virkemidler." },
+    { "id": "q08", "text": "Hvorfor var Altaelva viktig for mange samer?", "options": ["Fordi den var en turistattraksjon", "Fordi den var viktig for reindrift og laksefiske", "Fordi den var grense mot Sverige", "Fordi det fantes olje der"], "correct": 1, "explain": "Geografiske forhold påvirket hvorfor utbyggingen ble så omstridt." },
+    { "id": "q09", "text": "Hva betyr det at kamp for endring er preget av historisk kontekst?", "options": ["At ideer, teknologi og maktforhold i tiden påvirker hva som er mulig", "At kampene alltid foregår på samme måte", "At historien ikke betyr noe", "At bare historikere kan endre samfunnet"], "correct": 0, "explain": "For eksempel gjør sosiale medier det mulig å mobilisere mye raskere i dag enn før." },
+    { "id": "q10", "text": "Hva startet Greta Thunberg i 2018?", "options": ["Et politisk parti", "En miljøorganisasjon i Norge", "Skolestreik for klima", "En avis"], "correct": 2, "explain": "Skolestreiken spredte seg til millioner av unge over hele verden." }
+  ],
+  "mindmap": {
+    "label": "Kamp for endring",
+    "children": [
+      { "label": "Arbeiderbevegelsen", "children": [
+        { "label": "Marcus Thrane" },
+        { "label": "Arbeiderpartiet og LO" },
+        { "label": "Åttetimersdagen", "note": "1919" },
+        { "label": "Hovedavtalen", "note": "1935" }
+      ] },
+      { "label": "Kvinnekampen", "children": [
+        { "label": "Kvinnesaksforeningen", "note": "1884" },
+        { "label": "Stemmerett", "note": "1913" },
+        { "label": "Selvbestemt abort", "note": "1978" },
+        { "label": "#MeToo" }
+      ] },
+      { "label": "Mot rasisme", "children": [
+        { "label": "Borgerrettigheter i USA" },
+        { "label": "Rosa Parks og Martin Luther King" },
+        { "label": "Apartheid og Mandela" }
+      ] },
+      { "label": "Urfolk og miljø", "children": [
+        { "label": "Alta-saken" },
+        { "label": "Sametinget", "note": "1989" },
+        { "label": "Klimastreik" }
+      ] },
+      { "label": "Virkemidler", "children": [
+        { "label": "Organisering" },
+        { "label": "Streik og boikott" },
+        { "label": "Demonstrasjoner" },
+        { "label": "Sivil ulydighet" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Åttetimersdagen ble innført i Norge etter krav fra arbeiderbevegelsen.", "correct": true, "explain": "Kravet om åtte timers arbeid, åtte timers fritid og åtte timers søvn var sentralt." },
+      { "id": "m02", "type": "sant-usant", "text": "Nelson Mandela ble Sør-Afrikas første svarte president i 1994.", "correct": true, "explain": "Det var etter landets første frie valg der alle kunne stemme." },
+      { "id": "m03", "type": "sant-usant", "text": "Alta-utbyggingen ble stoppet etter protestene.", "correct": false, "explain": "Kraftverket ble bygd, men saken styrket samiske rettigheter." },
+      { "id": "m04", "type": "sant-usant", "text": "Norge var det aller første landet i verden som ga kvinner stemmerett.", "correct": false, "explain": "New Zealand ga kvinner stemmerett allerede i 1893." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er en boikott?", "options": ["Å nekte å kjøpe noe eller delta i noe for å protestere", "En type streik blant lærere", "En valgordning", "En sang"], "correct": 0, "explain": "Bussboikotten i Montgomery er et kjent eksempel." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilken organisasjon ble stiftet i 1884 for å kjempe for kvinners rettigheter?", "options": ["LO", "Arbeiderpartiet", "Norsk Kvinnesaksforening", "Sametinget"], "correct": 2, "explain": "Foreningen kjempet for utdanning, eiendomsrett og stemmerett." },
+      { "id": "m07", "type": "flervalg", "text": "Hvordan har sosiale medier endret kampen for endring?", "options": ["Det er blitt forbudt å demonstrere", "Budskap kan spres og folk mobiliseres raskere", "Ingen engasjerer seg lenger", "Bare politikere kan delta"], "correct": 1, "explain": "#MeToo og klimastreikene spredte seg raskt over hele verden via sosiale medier." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

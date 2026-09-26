@@ -1,0 +1,84 @@
+{
+  "id": "industrialisering-og-teknologi",
+  "fagId": "samfunnsfag-9",
+  "trinnId": "9",
+  "name": "Industrialisering og teknologi",
+  "intro": "Hvordan den industrielle revolusjonen og senere teknologiske omveltninger har endret livet til enkeltmennesker, samfunnet og naturen, i verden og i Norge.",
+  "kompetansemaal": [4],
+  "sammendrag": "## Teknologi som endringsfaktor\n\n**Teknologi** er redskaper, maskiner og metoder mennesker bruker for å løse oppgaver. Gjennom historien har ny teknologi endret hvordan vi arbeider, bor og lever. Den største omveltningen var den **industrielle revolusjonen**, som begynte i **Storbritannia** på slutten av 1700-tallet.\n\n## Den industrielle revolusjonen\n\nFør industrialiseringen levde de fleste av jordbruk, og varer ble laget for hånd. Nye maskiner endret dette:\n\n- **Spinnemaskiner og vevstoler** gjorde at tekstiler kunne produseres i store **fabrikker**.\n- **Dampmaskinen**, som James Watt forbedret, gjorde det mulig å drive maskiner med **kull** nesten hvor som helst.\n- **Jernbanen** og dampskipet gjorde transport av varer og mennesker raskere og billigere.\n\nStorbritannia hadde mye kull og jern, penger fra handel og kolonier, og en voksende befolkning som trengte arbeid.\n\n## Konsekvenser for mennesker\n\nMange flyttet fra landsbygda til byene for å få arbeid i fabrikkene. Denne **urbaniseringen** gikk raskt, og mange bodde trangt og uhygienisk. Arbeidsdagene var lange, lønna lav og maskinene farlige, og **barnearbeid** var vanlig. En ny **arbeiderklasse** vokste fram, og etter hvert organiserte arbeiderne seg i fagforeninger. Noen protesterte ved å knuse maskiner, som **luddittene** i England. På lang sikt førte industrialiseringen likevel til høyere levestandard for de fleste.\n\n## Industrialiseringen i Norge\n\nI Norge kom industrialiseringen fra 1840-årene, blant annet med tekstilfabrikker langs **Akerselva** i Christiania. Den første jernbanen, **Hovedbanen** mellom Christiania og Eidsvoll, åpnet i **1854**. Rundt 1900 kom et nytt løft med **vannkraft** og elektrisitet. **Norsk Hydro** ble grunnlagt i 1905 og bygde store fabrikker på Notodden og Rjukan.\n\n## Nye revolusjoner\n\n- Rundt 1900: **elektrisitet**, olje, bilen og **samlebåndet**, som gjorde masseproduksjon billig.\n- Fra 1970-tallet: **datamaskiner** og **automatisering**.\n- I dag: **digitalisering**, internett, smarttelefoner, roboter og **kunstig intelligens**.\n\n## Teknologi og natur\n\nIndustrialiseringen bygde på fossile brensler som kull og olje. Det har gitt **forurensning** og store utslipp av klimagasser, som bidrar til **klimaendringer**. Samtidig kan ny teknologi, som fornybar energi og elbiler, være en del av løsningen.\n\n## Å drøfte teknologi\n\nNy teknologi har både **fordeler og ulemper**. Den kan gi bedre helse, mer velstand og nye jobber, men også gjøre gamle jobber overflødige, øke forskjeller og skade naturen. Når vi drøfter teknologi, kan vi spørre: Hvem tjener på den, hvem taper, og hva betyr den for naturen?",
+  "flashcards": [
+    { "term": "Den industrielle revolusjonen", "def": "Overgangen fra håndverk og jordbruk til fabrikkproduksjon, fra slutten av 1700-tallet." },
+    { "term": "Dampmaskinen", "def": "Maskin drevet av damp fra kullfyring. Forbedret av James Watt." },
+    { "term": "Fabrikk", "def": "Stor arbeidsplass der varer produseres med maskiner." },
+    { "term": "Urbanisering", "def": "At stadig flere flytter til og bor i byer." },
+    { "term": "Arbeiderklassen", "def": "Samfunnsgruppe som lever av å selge arbeidskraften sin, ofte i fabrikker." },
+    { "term": "Barnearbeid", "def": "At barn arbeider, vanlig i fabrikkene på 1800-tallet." },
+    { "term": "Luddittene", "def": "Engelske arbeidere som knuste maskiner i protest tidlig på 1800-tallet." },
+    { "term": "Hovedbanen", "def": "Norges første jernbane, mellom Christiania og Eidsvoll, åpnet i 1854." },
+    { "term": "Akerselva", "def": "Elv i Oslo der mange av de første norske fabrikkene lå." },
+    { "term": "Vannkraft", "def": "Elektrisitet fra fallende vann. Ga Norge et industrielt løft rundt 1900." },
+    { "term": "Norsk Hydro", "def": "Industriselskap grunnlagt i 1905, med fabrikker på Notodden og Rjukan." },
+    { "term": "Samlebånd", "def": "Produksjonsmetode der varen flyttes mellom arbeidere som gjør hver sin del." },
+    { "term": "Automatisering", "def": "At maskiner og datamaskiner gjør arbeid som mennesker gjorde før." },
+    { "term": "Digitalisering", "def": "At stadig mer av samfunnet foregår med digital teknologi." },
+    { "term": "Fossile brensler", "def": "Kull, olje og gass. Gir klimagassutslipp når de brennes." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvor startet den industrielle revolusjonen?", "options": ["Norge", "Frankrike", "Storbritannia", "USA"], "correct": 2, "explain": "Storbritannia hadde kull, jern, kapital og arbeidskraft." },
+    { "id": "q02", "text": "Hvilken oppfinnelse var sentral i den første industrielle revolusjonen?", "options": ["Dampmaskinen", "Datamaskinen", "Telefonen", "Flyet"], "correct": 0, "explain": "Dampmaskinen kunne drive fabrikker, tog og skip." },
+    { "id": "q03", "text": "Hvorfor flyttet mange fra landsbygda til byene under industrialiseringen?", "options": ["Fordi byene var renere", "For å få arbeid i fabrikkene", "Fordi jordbruk ble forbudt", "Fordi boligene var gratis"], "correct": 1, "explain": "Fabrikkene trengte mange arbeidere." },
+    { "id": "q04", "text": "Hvordan var arbeidsforholdene i de tidlige fabrikkene?", "options": ["Korte dager og høy lønn", "Barn fikk ikke jobbe", "Trygge maskiner og ferie", "Lange dager, lav lønn og farlige maskiner"], "correct": 3, "explain": "Det fantes få lover som beskyttet arbeiderne." },
+    { "id": "q05", "text": "Hva ga Norge et stort industrielt løft rundt 1900?", "options": ["Vannkraft og elektrisitet", "Store kullgruver på Østlandet", "Oljefunn", "Datamaskiner"], "correct": 0, "explain": "Fossefallene ga billig strøm til kraftkrevende industri." },
+    { "id": "q06", "text": "Når åpnet den første jernbanen i Norge?", "options": ["1814", "1905", "1854", "1945"], "correct": 2, "explain": "Hovedbanen gikk mellom Christiania og Eidsvoll." },
+    { "id": "q07", "text": "Hva er en negativ konsekvens for naturen av industrialiseringen?", "options": ["Mer skog", "Renere luft", "Færre utslipp", "Forurensning og økte klimagassutslipp"], "correct": 3, "explain": "Bruken av kull og olje har gitt store utslipp." },
+    { "id": "q08", "text": "Hva betyr automatisering?", "options": ["At folk jobber mer for hånd", "At maskiner og datamaskiner gjør arbeid som mennesker gjorde før", "At alle får egen bil", "At fabrikker stenges"], "correct": 1, "explain": "Automatisering kan gjøre produksjonen billigere, men fjerne jobber." },
+    { "id": "q09", "text": "Hvem var luddittene?", "options": ["Oppfinnere av dampmaskinen", "Fabrikkeiere", "Arbeidere som knuste maskiner i protest", "Norske politikere"], "correct": 2, "explain": "De var redde for at maskinene skulle ta arbeidet deres." },
+    { "id": "q10", "text": "Hvilket er et eksempel på den digitale revolusjonen?", "options": ["Internett og smarttelefoner", "Spinnemaskinen", "Dampskipet", "Hestevogna"], "correct": 0, "explain": "Digital teknologi har endret kommunikasjon, arbeid og fritid." }
+  ],
+  "mindmap": {
+    "label": "Industrialisering og teknologi",
+    "children": [
+      { "label": "Første revolusjon", "children": [
+        { "label": "Storbritannia" },
+        { "label": "Dampmaskin og kull" },
+        { "label": "Tekstilfabrikker" },
+        { "label": "Jernbane" }
+      ] },
+      { "label": "Samfunnet endres", "children": [
+        { "label": "Urbanisering" },
+        { "label": "Arbeiderklassen" },
+        { "label": "Barnearbeid" },
+        { "label": "Høyere levestandard", "note": "På lang sikt" }
+      ] },
+      { "label": "Norge", "children": [
+        { "label": "Akerselva" },
+        { "label": "Hovedbanen", "note": "1854" },
+        { "label": "Vannkraft og Norsk Hydro", "note": "1905" }
+      ] },
+      { "label": "Nye revolusjoner", "children": [
+        { "label": "Elektrisitet og samlebånd" },
+        { "label": "Datamaskiner" },
+        { "label": "Internett og KI" }
+      ] },
+      { "label": "Konsekvenser", "children": [
+        { "label": "Nye og tapte jobber" },
+        { "label": "Forurensning og klima" },
+        { "label": "Hvem vinner, hvem taper?" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Samlebåndet gjorde det mulig å masseprodusere varer billigere.", "correct": true, "explain": "Hver arbeider gjorde en liten del, og produksjonen gikk mye raskere." },
+      { "id": "m02", "type": "sant-usant", "text": "Teknologi har bare hatt positive konsekvenser for mennesker og natur.", "correct": false, "explain": "Teknologi har også gitt forurensning, farlig arbeid og tapte jobber." },
+      { "id": "m03", "type": "sant-usant", "text": "Barnearbeid var vanlig i fabrikkene på 1800-tallet.", "correct": true, "explain": "Barn var billig arbeidskraft og jobbet ofte lange dager." },
+      { "id": "m04", "type": "sant-usant", "text": "Norsk Hydro ble grunnlagt for å utvinne olje i Nordsjøen.", "correct": false, "explain": "Norsk Hydro ble grunnlagt i 1905 og brukte vannkraft til å lage kunstgjødsel." },
+      { "id": "m05", "type": "flervalg", "text": "Hva brukte dampmaskinene som brensel?", "options": ["Olje", "Kull", "Gass", "Uran"], "correct": 1, "explain": "Derfor lå mange tidlige industriområder nær kullgruver." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er en mulig konsekvens av kunstig intelligens i arbeidslivet?", "options": ["At noen yrker forsvinner og nye oppstår", "At all teknologi stopper", "At ingen trenger utdanning", "At internett forsvinner"], "correct": 0, "explain": "Som tidligere teknologi endrer KI hvilke oppgaver mennesker gjør." },
+      { "id": "m07", "type": "flervalg", "text": "Hva kjennetegnet den andre industrielle revolusjonen rundt 1900?", "options": ["Dampmaskin og tekstil", "Internett og mobil", "Hestekraft og vindmøller", "Elektrisitet, olje og samlebånd"], "correct": 3, "explain": "Ny energi og nye produksjonsmetoder ga masseproduksjon." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

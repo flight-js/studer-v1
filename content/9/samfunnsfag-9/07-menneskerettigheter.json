@@ -1,0 +1,84 @@
+{
+  "id": "menneskerettigheter",
+  "fagId": "samfunnsfag-9",
+  "trinnId": "9",
+  "name": "Menneskerettigheter og internasjonalt samarbeid",
+  "intro": "Hva menneskerettigheter og urfolksrettigheter er, hvilke internasjonale avtaler som sikrer dem, og hvilken betydning de har for norsk politikk, likestilling og likeverd.",
+  "kompetansemaal": [9],
+  "sammendrag": "## Hva er menneskerettigheter?\n\n**Menneskerettigheter** er grunnleggende rettigheter alle mennesker har fordi de er mennesker. De er **universelle** (gjelder alle), **ukrenkelige** (kan ikke tas fra deg) og **udelelige** (henger sammen og er like viktige). Det er **staten** som har ansvaret for å respektere, beskytte og oppfylle rettighetene.\n\n## Verdenserklæringen\n\nEtter andre verdenskrig ville verden hindre nye overgrep. **FN** ble opprettet i 1945, og **10. desember 1948** vedtok FN **verdenserklæringen om menneskerettighetene**. Den har 30 artikler, blant annet retten til liv, forbud mot tortur og slaveri, ytringsfrihet, religionsfrihet, rett til utdanning og rett til arbeid. Erklæringen er ikke juridisk bindende, men har vært grunnlaget for mange **konvensjoner**, altså avtaler som er bindende for statene som slutter seg til dem.\n\n## Viktige konvensjoner\n\n- **Konvensjonen om sivile og politiske rettigheter** og **konvensjonen om økonomiske, sosiale og kulturelle rettigheter** (1966)\n- **Kvinnediskrimineringskonvensjonen** (1979)\n- **Barnekonvensjonen** (1989), som gir barn under 18 år egne rettigheter, blant annet retten til å bli hørt\n- **Den europeiske menneskerettskonvensjonen** (EMK, 1950), som håndheves av **Den europeiske menneskerettsdomstolen** i Strasbourg\n\n## Urfolksrettigheter\n\nUrfolk har særlige rettigheter for å kunne bevare språk, kultur og levemåte. **ILO-konvensjon 169** (1989) og **FNs erklæring om urfolks rettigheter** (2007) gir blant annet urfolk rett til å bli konsultert i saker som angår dem, for eksempel utbygging i reinbeiteområder. I **Fosen-saken** kom Høyesterett i 2021 fram til at vindkraftverk på Fosen krenket rettighetene til samiske reindriftsutøvere.\n\n## Betydning for Norge\n\nNorge har tatt de viktigste konvensjonene inn i norsk lov gjennom **menneskerettsloven** (1999), og i 2014 fikk **Grunnloven** et eget kapittel om menneskerettigheter. Det betyr at konvensjonene påvirker **nasjonal politikk**: Lover må være i tråd med dem, og Norge kan bli dømt i Strasbourg hvis rettighetene brytes, slik det har skjedd i flere barnevernssaker.\n\n## Likestilling og likeverd\n\nMenneskerettighetene bygger på at alle mennesker er **likeverdige**. **Likestilling** betyr at alle skal ha like muligheter og rettigheter uansett kjønn, etnisitet, religion, funksjonsevne eller seksuell orientering. Norge har en **likestillings- og diskrimineringslov**, og **Likestillings- og diskrimineringsombudet** hjelper folk som opplever diskriminering.\n\n## Internasjonalt samarbeid\n\nLand samarbeider også på andre måter: gjennom **FN**, **Europarådet**, **EØS-avtalen** med EU og forsvarsalliansen **NATO**. Samarbeid kan gi mer fred, handel og velstand, men betyr også at landene må følge felles regler. Mange steder i verden brytes menneskerettighetene fortsatt, og organisasjoner som **Amnesty International** jobber for å avdekke brudd.",
+  "flashcards": [
+    { "term": "Menneskerettigheter", "def": "Grunnleggende rettigheter alle har fordi de er mennesker." },
+    { "term": "Universelle", "def": "Menneskerettighetene gjelder alle mennesker, overalt." },
+    { "term": "Verdenserklæringen", "def": "FNs erklæring om menneskerettighetene fra 10. desember 1948, med 30 artikler." },
+    { "term": "Konvensjon", "def": "Avtale som er juridisk bindende for statene som slutter seg til den." },
+    { "term": "Barnekonvensjonen", "def": "FN-avtale fra 1989 om rettighetene til barn under 18 år." },
+    { "term": "Kvinnediskrimineringskonvensjonen", "def": "FN-avtale fra 1979 mot diskriminering av kvinner." },
+    { "term": "EMK", "def": "Den europeiske menneskerettskonvensjonen fra 1950." },
+    { "term": "Menneskerettsdomstolen", "def": "Den europeiske domstolen i Strasbourg som dømmer i saker etter EMK." },
+    { "term": "Menneskerettsloven", "def": "Norsk lov fra 1999 som gjør viktige konvensjoner til norsk lov." },
+    { "term": "ILO-konvensjon 169", "def": "Avtale fra 1989 om urfolks rettigheter, blant annet til å bli konsultert." },
+    { "term": "Fosen-saken", "def": "Høyesterett slo i 2021 fast at vindkraftverk krenket samiske reindriftsutøveres rettigheter." },
+    { "term": "Likeverd", "def": "At alle mennesker har samme verdi." },
+    { "term": "Likestilling", "def": "At alle har like muligheter og rettigheter, uansett for eksempel kjønn eller etnisitet." },
+    { "term": "Diskriminering", "def": "Usaklig forskjellsbehandling av mennesker." },
+    { "term": "Amnesty International", "def": "Organisasjon som avdekker og protesterer mot brudd på menneskerettighetene." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Når vedtok FN verdenserklæringen om menneskerettighetene?", "options": ["1945", "1948", "1989", "2007"], "correct": 1, "explain": "10. desember markeres som menneskerettighetsdagen." },
+    { "id": "q02", "text": "Hva betyr det at menneskerettighetene er universelle?", "options": ["At de gjelder alle mennesker", "At de bare gjelder i Europa", "At de kan kjøpes", "At de bare gjelder voksne"], "correct": 0, "explain": "Rettighetene gjelder uansett hvor du bor, og hvem du er." },
+    { "id": "q03", "text": "Hva er forskjellen på en erklæring og en konvensjon?", "options": ["Det er ingen forskjell", "En erklæring er strengere", "En konvensjon er bindende for statene som slutter seg til den", "En konvensjon gjelder bare barn"], "correct": 2, "explain": "Erklæringer er viktige politiske signaler, men konvensjoner er juridisk bindende." },
+    { "id": "q04", "text": "Hvem har hovedansvaret for å sikre menneskerettighetene?", "options": ["Den enkelte", "Bedrifter", "Amnesty International", "Staten"], "correct": 3, "explain": "Staten skal respektere, beskytte og oppfylle rettighetene." },
+    { "id": "q05", "text": "Hva slo Høyesterett fast i Fosen-saken i 2021?", "options": ["At vindkraftverk krenket rettighetene til samiske reindriftsutøvere", "At vindkraft er ulovlig i Norge", "At reindrift skal avvikles", "At samene ikke er urfolk"], "correct": 0, "explain": "Dommen viser hvordan urfolksrettigheter påvirker norsk politikk." },
+    { "id": "q06", "text": "Hvilken konvensjon gir barn rett til å bli hørt?", "options": ["ILO-konvensjon 169", "Barnekonvensjonen", "EMK", "Kvinnediskrimineringskonvensjonen"], "correct": 1, "explain": "Barn har rett til å si sin mening i saker som angår dem." },
+    { "id": "q07", "text": "Hvor ligger Den europeiske menneskerettsdomstolen?", "options": ["Oslo", "New York", "Genève", "Strasbourg"], "correct": 3, "explain": "Domstolen hører til Europarådet, ikke EU." },
+    { "id": "q08", "text": "Hvordan påvirker menneskerettskonvensjonene norsk politikk?", "options": ["De har ingen betydning", "Norske lover må være i tråd med dem", "De gjelder bare utenfor Norge", "De bestemmer hvem som blir statsminister"], "correct": 1, "explain": "Menneskerettsloven gir konvensjonene forrang foran vanlig norsk lov ved motstrid." },
+    { "id": "q09", "text": "Hva betyr likestilling?", "options": ["At alle skal ha like muligheter og rettigheter", "At alle skal være like", "At alle skal tjene det samme", "At kvinner og menn skal ha samme yrke"], "correct": 0, "explain": "Likestilling handler om muligheter og rettigheter, ikke om at alle skal velge det samme." },
+    { "id": "q10", "text": "Hvilken rettighet gir ILO-konvensjon 169 urfolk?", "options": ["Rett til gratis strøm", "Rett til å slippe skatt", "Rett til å bli konsultert i saker som angår dem", "Rett til egen hær"], "correct": 2, "explain": "Staten må for eksempel konsultere Sametinget før vedtak som berører samene." }
+  ],
+  "mindmap": {
+    "label": "Menneskerettigheter",
+    "children": [
+      { "label": "Prinsipper", "children": [
+        { "label": "Universelle" },
+        { "label": "Ukrenkelige" },
+        { "label": "Udelelige" },
+        { "label": "Staten har ansvaret" }
+      ] },
+      { "label": "Avtaler", "children": [
+        { "label": "Verdenserklæringen", "note": "1948" },
+        { "label": "EMK", "note": "1950" },
+        { "label": "Kvinnediskriminering", "note": "1979" },
+        { "label": "Barnekonvensjonen", "note": "1989" }
+      ] },
+      { "label": "Urfolk", "children": [
+        { "label": "ILO 169" },
+        { "label": "Urfolkserklæringen", "note": "2007" },
+        { "label": "Fosen-saken" }
+      ] },
+      { "label": "Norge", "children": [
+        { "label": "Menneskerettsloven", "note": "1999" },
+        { "label": "Grunnloven", "note": "2014" },
+        { "label": "Dommer i Strasbourg" }
+      ] },
+      { "label": "Likestilling og samarbeid", "children": [
+        { "label": "Likeverd" },
+        { "label": "Diskrimineringsvern" },
+        { "label": "FN, Europarådet, EØS, NATO" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Verdenserklæringen om menneskerettighetene er juridisk bindende.", "correct": false, "explain": "Erklæringen er ikke bindende, men konvensjonene som bygger på den, er det." },
+      { "id": "m02", "type": "sant-usant", "text": "Norge kan bli dømt i Den europeiske menneskerettsdomstolen.", "correct": true, "explain": "Norge er blant annet dømt i flere barnevernssaker." },
+      { "id": "m03", "type": "sant-usant", "text": "Grunnloven har et eget kapittel om menneskerettigheter.", "correct": true, "explain": "Kapittelet kom inn i Grunnloven i 2014." },
+      { "id": "m04", "type": "sant-usant", "text": "Menneskerettighetene gjelder bare for statsborgere.", "correct": false, "explain": "Menneskerettighetene gjelder alle mennesker." },
+      { "id": "m05", "type": "flervalg", "text": "Hvor mange artikler har verdenserklæringen?", "options": ["10", "30", "50", "100"], "correct": 1, "explain": "De 30 artiklene dekker både sivile, politiske, økonomiske og sosiale rettigheter." },
+      { "id": "m06", "type": "flervalg", "text": "Hvem kan hjelpe deg hvis du opplever diskriminering?", "options": ["Likestillings- og diskrimineringsombudet", "Datatilsynet", "Forbrukerrådet", "Skatteetaten"], "correct": 0, "explain": "Ombudet gir gratis veiledning om diskriminering." },
+      { "id": "m07", "type": "flervalg", "text": "Hva gjør Amnesty International?", "options": ["Vedtar lover", "Dømmer i straffesaker", "Avdekker og protesterer mot brudd på menneskerettighetene", "Leder FN"], "correct": 2, "explain": "Amnesty er en frivillig organisasjon med medlemmer over hele verden." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

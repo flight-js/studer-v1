@@ -1,0 +1,84 @@
+{
+  "id": "fornorsking-og-minoriteter",
+  "fagId": "samfunnsfag-9",
+  "trinnId": "9",
+  "name": "Fornorsking, samer og nasjonale minoriteter",
+  "intro": "Hvordan samer og de nasjonale minoritetene ble utsatt for fornorsking og urett, hvilke konsekvenser det har hatt for enkeltmennesker og samfunnet, og hvordan arbeidet med oppreisning har foregått.",
+  "kompetansemaal": [10],
+  "sammendrag": "## Samer og nasjonale minoriteter\n\n**Samene** er et **urfolk** som har bodd i **Sápmi** – i Norge, Sverige, Finland og Russland – lenge før dagens landegrenser ble trukket. I tillegg har Norge fem **nasjonale minoriteter**, grupper med lang tilknytning til landet: **jøder**, **kvener/norskfinner**, **skogfinner**, **rom** og **romanifolk/tatere**.\n\n## Fornorskingspolitikken\n\nFra midten av 1800-tallet til godt etter andre verdenskrig førte staten en **fornorskingspolitikk**. Målet var at samer, kvener og andre minoriteter skulle bli «norske» i språk og kultur.\n\n- I skolen skulle undervisningen foregå på norsk. Samisk og kvensk skulle bare brukes som hjelpespråk, og etter hvert ble også det begrenset.\n- Mange barn ble sendt på **internatskoler** langt hjemmefra, der de kunne bli straffet eller hånet for å snakke morsmålet.\n- **Jordsalgsloven** av 1902 bestemte at bare de som kunne norsk, fikk kjøpe jord i Finnmark.\n\nBegrunnelsene var **nasjonsbygging**, frykt for at kvener og samer var lojale mot Finland eller Russland, og **rasetenkning** som så på minoritetene som mindreverdige.\n\n## Uretten mot andre minoriteter\n\n- **Romanifolket/taterne** ble utsatt for tvangssterilisering, og mange barn ble tatt fra foreldrene sine. Mange familier ble sendt til **Svanviken arbeidskoloni**.\n- **Rom** ble nektet innreise til Norge fra 1927. Mange ble derfor drept under Holocaust.\n- **Jøder** var utestengt fra riket i Grunnloven fram til 1851, og under andre verdenskrig ble norske jøder deportert og drept.\n- **Skogfinnene** mistet språket sitt, og **kvenene** ble presset til å bli norske.\n\n## Konsekvenser\n\nFor **den enkelte** førte fornorskingen til tap av språk, skam over egen bakgrunn og traumer som har gått i arv. Mange foreldre sluttet å snakke samisk eller kvensk med barna for å beskytte dem. For **samfunnet** har det ført til at flere samiske språk og kvensk er truet, at kulturell kunnskap har gått tapt, og at mange har mistillit til myndighetene.\n\n## Oppreisning\n\nEtter **Alta-saken** fikk samene sterkere rettigheter: **sameloven** (1987), en egen paragraf i **Grunnloven** (1988) og **Sametinget** (1989). I 1990 ble Norge det første landet som ratifiserte **ILO-konvensjon 169** om urfolks rettigheter. Kong Harald ba samene om unnskyldning i 1997, og staten har også bedt romanifolket/taterne og rom om unnskyldning. I 2023 la **Sannhets- og forsoningskommisjonen** fram en rapport om fornorskingen og uretten mot samer, kvener, norskfinner og skogfinner. Arbeidet med forsoning pågår fortsatt.\n\n## Kultur i dag\n\nI dag opplever mange en **revitalisering**: Flere lærer seg samisk og kvensk, og samisk musikk, kunst og film får stor oppmerksomhet. Samenes nasjonaldag feires **6. februar**.",
+  "flashcards": [
+    { "term": "Urfolk", "def": "Folk som har bodd i et område før dagens statsgrenser ble trukket, og som har egen kultur og egne samfunnsinstitusjoner." },
+    { "term": "Sápmi", "def": "Samenes område i Norge, Sverige, Finland og Russland." },
+    { "term": "Nasjonale minoriteter", "def": "Jøder, kvener/norskfinner, skogfinner, rom og romanifolk/tatere." },
+    { "term": "Fornorsking", "def": "Statens politikk for at minoriteter skulle bli norske i språk og kultur." },
+    { "term": "Internatskole", "def": "Skole der elevene bodde borte fra familien. Brukt i fornorskingen." },
+    { "term": "Jordsalgsloven", "def": "Lov fra 1902 om at bare de som kunne norsk, fikk kjøpe jord i Finnmark." },
+    { "term": "Rasetenkning", "def": "Ideen om at noen folkegrupper er mer verdt enn andre." },
+    { "term": "Romanifolket/taterne", "def": "Nasjonal minoritet som ble utsatt for tvangssterilisering og omsorgsovertakelser." },
+    { "term": "Svanviken arbeidskoloni", "def": "Sted der romanifamilier ble sendt for å bli «bofaste» og tilpasset." },
+    { "term": "Kvener", "def": "Nasjonal minoritet med finsk bakgrunn i Nord-Norge." },
+    { "term": "Sametinget", "def": "Samenes folkevalgte organ, opprettet i 1989." },
+    { "term": "ILO-konvensjon 169", "def": "Avtale om urfolks rettigheter. Norge ratifiserte den som første land i 1990." },
+    { "term": "Sannhets- og forsoningskommisjonen", "def": "Kommisjon som i 2023 la fram en rapport om fornorskingen og uretten." },
+    { "term": "Revitalisering", "def": "At et språk eller en kultur tas i bruk og styrkes igjen." },
+    { "term": "6. februar", "def": "Samenes nasjonaldag." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er fornorsking?", "options": ["Politikk for at minoriteter skulle bli norske i språk og kultur", "At nordmenn lærte samisk", "At Norge ble selvstendig", "En type skoleeksamen"], "correct": 0, "explain": "Fornorskingspolitikken varte i over hundre år." },
+    { "id": "q02", "text": "Hvor mange nasjonale minoriteter har Norge?", "options": ["To", "Tre", "Fem", "Åtte"], "correct": 2, "explain": "Jøder, kvener/norskfinner, skogfinner, rom og romanifolk/tatere." },
+    { "id": "q03", "text": "Hva bestemte jordsalgsloven av 1902?", "options": ["At alle fikk gratis jord", "At bare de som kunne norsk, fikk kjøpe jord i Finnmark", "At samer eide all jord", "At jord ikke kunne selges"], "correct": 1, "explain": "Loven presset samer og kvener til å bli norske." },
+    { "id": "q04", "text": "Hvordan ble mange samiske barn rammet av internatskolene?", "options": ["De lærte flere språk", "De fikk bo hjemme", "De fikk undervisning på samisk", "De ble sendt langt hjemmefra og kunne bli straffet for å snakke morsmålet"], "correct": 3, "explain": "Mange mistet språket og kontakten med sin egen kultur." },
+    { "id": "q05", "text": "Hva er en konsekvens av fornorskingen for den enkelte?", "options": ["Skam over egen bakgrunn og tap av språk", "At alle ble tospråklige", "Høyere lønn", "Flere samiske aviser"], "correct": 0, "explain": "Mange foreldre sluttet å snakke morsmålet med barna sine." },
+    { "id": "q06", "text": "Hvilken gruppe ble utsatt for tvangssterilisering og fikk barn tatt fra seg?", "options": ["Skogfinnene", "Romanifolket/taterne", "Kvenene", "Jødene"], "correct": 1, "explain": "Staten og Norsk misjon blant hjemløse sto bak store overgrep." },
+    { "id": "q07", "text": "Hvilken institusjon ble opprettet i 1989?", "options": ["Stortinget", "Høyesterett", "Sametinget", "Datatilsynet"], "correct": 2, "explain": "Sametinget ligger i Karasjok." },
+    { "id": "q08", "text": "Hva var en av begrunnelsene for fornorskingspolitikken?", "options": ["Ønsket om mer mangfold", "Ønsket om flere språk i skolen", "Krav fra FN", "Frykt for at minoritetene var lojale mot Finland eller Russland"], "correct": 3, "explain": "Myndighetene så på minoritetene i nord som en sikkerhetsrisiko." },
+    { "id": "q09", "text": "Hva er ILO-konvensjon 169?", "options": ["En avtale om arbeidstid", "En avtale om urfolks rettigheter", "En fredsavtale", "En handelsavtale"], "correct": 1, "explain": "Norge var det første landet som ratifiserte den." },
+    { "id": "q10", "text": "Hva la Sannhets- og forsoningskommisjonen fram i 2023?", "options": ["En rapport om fornorskingen og uretten mot samer, kvener og skogfinner", "Et forslag til nytt flagg", "En ny skolereform", "Et nytt statsbudsjett"], "correct": 0, "explain": "Rapporten beskriver uretten og foreslår tiltak for forsoning." }
+  ],
+  "mindmap": {
+    "label": "Fornorsking og minoriteter",
+    "children": [
+      { "label": "Hvem", "children": [
+        { "label": "Samene", "note": "Urfolk" },
+        { "label": "Fem nasjonale minoriteter" }
+      ] },
+      { "label": "Fornorsking", "children": [
+        { "label": "Norsk i skolen" },
+        { "label": "Internatskoler" },
+        { "label": "Jordsalgsloven", "note": "1902" },
+        { "label": "Nasjonsbygging og rasetenkning" }
+      ] },
+      { "label": "Annen urett", "children": [
+        { "label": "Tvangssterilisering", "note": "Romanifolket" },
+        { "label": "Innreiseforbud", "note": "Rom" },
+        { "label": "Deportasjon", "note": "Jøder" }
+      ] },
+      { "label": "Konsekvenser", "children": [
+        { "label": "Språktap og skam" },
+        { "label": "Traumer i generasjoner" },
+        { "label": "Truede språk" },
+        { "label": "Mistillit" }
+      ] },
+      { "label": "Oppreisning", "children": [
+        { "label": "Sametinget", "note": "1989" },
+        { "label": "ILO 169" },
+        { "label": "Unnskyldninger" },
+        { "label": "Sannhetskommisjonen", "note": "2023" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Samene bodde i Sápmi lenge før dagens landegrenser ble trukket.", "correct": true, "explain": "Derfor regnes samene som et urfolk." },
+      { "id": "m02", "type": "sant-usant", "text": "Rom ble nektet innreise til Norge fra 1927.", "correct": true, "explain": "Forbudet gjorde at mange rom ikke fikk komme til Norge og ble drept under Holocaust." },
+      { "id": "m03", "type": "sant-usant", "text": "Fornorskingspolitikken ble avsluttet allerede rundt 1880.", "correct": false, "explain": "Politikken varte til godt etter andre verdenskrig." },
+      { "id": "m04", "type": "sant-usant", "text": "Konsekvensene av fornorskingen merkes ikke lenger i dag.", "correct": false, "explain": "Språktap, traumer og mistillit preger fortsatt mange familier og lokalsamfunn." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken gruppe er ikke en nasjonal minoritet i Norge?", "options": ["Kvener/norskfinner", "Skogfinner", "Samer", "Rom"], "correct": 2, "explain": "Samene har status som urfolk, ikke som nasjonal minoritet." },
+      { "id": "m06", "type": "flervalg", "text": "Når feirer samene nasjonaldagen sin?", "options": ["6. februar", "17. mai", "9. april", "24. juni"], "correct": 0, "explain": "Datoen minner om det første samiske landsmøtet i Trondheim i 1917." },
+      { "id": "m07", "type": "flervalg", "text": "Hvem ba samene om unnskyldning i 1997?", "options": ["Statsministeren", "Kong Harald", "Sametingspresidenten", "FNs generalsekretær"], "correct": 1, "explain": "Kongen ba om unnskyldning i talen ved åpningen av Sametinget." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
