@@ -1,0 +1,84 @@
+{
+  "id": "skriving-og-sidemal",
+  "fagId": "norsk-vg1",
+  "trinnId": "vg1",
+  "name": "Skriving, revisjon og sidemål",
+  "intro": "Skriveprosessen, struktur og avsnitt, kreativ bruk av virkemidler, revisjon etter tilbakemeldinger, tegnsetting og de viktigste forskjellene mellom bokmål og nynorsk.",
+  "kompetansemaal": [9, 10, 11],
+  "sammendrag": "## Skriveprosessen\n\nGod skriving skjer sjelden i ett forsøk. **Skriveprosessen** har flere faser:\n\n1. **Førskriving**: Finn ideer, les deg opp og lag en **disposisjon**.\n2. **Skriving**: Skriv et første utkast uten å stoppe for mye.\n3. **Respons**: Få **tilbakemeldinger** fra lærer eller medelever.\n4. **Revisjon**: Bearbeid teksten ut fra tilbakemeldingene og **vurderingskriteriene**.\n5. **Korrektur**: Rett skrivefeil og tegnsetting.\n\n## Struktur\n\nDe fleste tekster har **innledning**, **hoveddel** og **avslutning**. Del teksten i **avsnitt** med én hovedtanke hver, og marker nytt avsnitt tydelig med **blank linje** eller **innrykk**. En **temasetning** først i avsnittet og **tekstbindere** mellom avsnittene gjør teksten lett å følge.\n\n## Kreativ tekstskaping\n\nI kreative tekster kan du **kombinere virkemidler og uttrykksformer**: bilder og tekst, dialog og indre monolog, lyd og film. Du kan for eksempel skrive **kortprosa**, et **dikt**, en **novelle** eller lage en **multimodal tekst**. Prøv virkemidler som **kontrast**, **gjentakelse**, **symbol** og **perspektivskifte** – og tenk over hvilken **effekt** de har.\n\n## Revisjon\n\nNår du **reviderer**, endrer du mer enn skrivefeil: Er problemstillingen tydelig? Er argumentene godt begrunnet? Er rekkefølgen logisk? Kan noe **strykes**? Å **lese teksten høyt** er en god måte å oppdage tunge setninger på.\n\n## Tegnsetting\n\n- **Komma mellom helsetninger** bundet med *og, men, eller, for, så*: *Hun løp, men hun rakk ikke bussen.*\n- **Komma etter leddsetning** som står først: *Hvis du kommer, blir jeg glad.*\n- **Komma rundt innskudd**: *Oslo, hovedstaden i Norge, har mange museer.*\n- **Kolon** foran oppramsing, forklaring eller sitat.\n- **Anførselstegn** rundt sitater og replikker.\n\n## Bokmål og nynorsk\n\nDu skal mestre både **hovedmål** og **sidemål**. Noen av de viktigste forskjellene:\n\n| Bokmål | Nynorsk |\n| --- | --- |\n| jeg, hun, de | eg, ho, dei |\n| ikke, noe, mye | ikkje, noko, mykje |\n| hva, hvem, hvordan, hvorfor | kva, kven, korleis, kvifor |\n| fra, bare, sammen, hele | frå, berre, saman, heile |\n| kjærlighet | kjærleik |\n\n**Substantiv** i nynorsk har tydelige kjønnsendelser: *ein gut – guten – gutar – gutane*, *ei jente – jenta – jenter – jentene*, *eit hus – huset – hus – husa*. Legg merke til at **ubestemt flertall** av hankjønnsord ofte ender på **-ar**.\n\n**Verb** i nynorsk: Mange verb får **-ar** i presens og **-a** i preteritum: *å kaste – kastar – kasta – har kasta*. Andre får **-er**: *å høyre – høyrer – høyrde*.\n\n**Eiendomsord** står gjerne **etter** substantivet: *boka mi*, *huset vårt*.\n\nEt godt tips er å bruke **ordbøkene.no**, som viser både bokmål og nynorsk, og å lese nynorske tekster jevnlig.",
+  "flashcards": [
+    { "term": "Skriveprosessen", "def": "Førskriving, skriving, respons, revisjon og korrektur." },
+    { "term": "Disposisjon", "def": "Plan for oppbygningen av teksten." },
+    { "term": "Respons", "def": "Tilbakemelding på en tekst underveis." },
+    { "term": "Revisjon", "def": "Å bearbeide teksten ut fra tilbakemeldinger og kriterier." },
+    { "term": "Avsnitt", "def": "Del av en tekst med én hovedtanke." },
+    { "term": "Multimodal tekst", "def": "Tekst som kombinerer skrift, bilde, lyd eller film." },
+    { "term": "Komma mellom helsetninger", "def": "Komma foran og, men, eller, for, så når de binder sammen helsetninger." },
+    { "term": "Komma etter leddsetning", "def": "Komma etter en leddsetning som står først i setningen." },
+    { "term": "Hovedmål og sidemål", "def": "Den målformen man bruker mest, og den andre målformen." },
+    { "term": "eg, ho, dei", "def": "Nynorsk for jeg, hun, de." },
+    { "term": "ikkje, noko, mykje", "def": "Nynorsk for ikke, noe, mye." },
+    { "term": "kva, kven, korleis, kvifor", "def": "Nynorsk for hva, hvem, hvordan, hvorfor." },
+    { "term": "ein gut – gutar – gutane", "def": "Nynorsk hankjønn med -ar i ubestemt flertall." },
+    { "term": "kastar – kasta", "def": "Nynorsk a-verb i presens og preteritum." },
+    { "term": "boka mi", "def": "Nynorsk eiendomsord etter substantivet." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva heter «ikke» på nynorsk?", "options": ["ikkje", "ikkj", "inte", "ikki"], "correct": 0, "explain": "Tilsvarende blir «noe» til «noko»." },
+    { "id": "q02", "text": "Hva er revisjon?", "options": ["Å rette skrivefeil", "Å skrive første utkast", "Å bearbeide teksten ut fra tilbakemeldinger og kriterier", "Å lese andres tekster"], "correct": 2, "explain": "Revisjon handler om innhold og struktur, ikke bare feil." },
+    { "id": "q03", "text": "Hvilken setning har riktig komma?", "options": ["Hun løp men, hun rakk ikke bussen.", "Hun løp, men hun rakk ikke bussen.", "Hun, løp men hun rakk ikke bussen.", "Hun løp men hun rakk, ikke bussen."], "correct": 1, "explain": "Det skal være komma mellom helsetninger bundet med «men»." },
+    { "id": "q04", "text": "Hva er ubestemt flertall av «ein gut» på nynorsk?", "options": ["guter", "gutene", "gutane", "gutar"], "correct": 3, "explain": "Bestemt flertall er «gutane»." },
+    { "id": "q05", "text": "Hva heter «hvordan» på nynorsk?", "options": ["kvifor", "korleis", "kven", "kva"], "correct": 1, "explain": "Kvifor = hvorfor, kven = hvem, kva = hva." },
+    { "id": "q06", "text": "Hva er preteritum av «å kaste» på nynorsk?", "options": ["kasta", "kastet", "kastar", "kastte"], "correct": 0, "explain": "Presens er «kastar»." },
+    { "id": "q07", "text": "Hva gjør du i førskrivingsfasen?", "options": ["Retter skrivefeil", "Leverer teksten", "Finner ideer og lager disposisjon", "Får karakter"], "correct": 2, "explain": "God forberedelse gjør skrivingen lettere." },
+    { "id": "q08", "text": "Hvor står eiendomsordet vanligvis på nynorsk?", "options": ["Foran substantivet", "Det brukes ikke", "Først i setningen", "Etter substantivet"], "correct": 3, "explain": "Eksempel: «boka mi», «huset vårt»." },
+    { "id": "q09", "text": "Hva er et godt revisjonstips?", "options": ["Å lese teksten høyt", "Å aldri endre noe", "Å bare telle ord", "Å skrive teksten på nytt uten å lese den"], "correct": 0, "explain": "Da oppdager du tunge setninger og hull i resonnementet." },
+    { "id": "q10", "text": "Hva heter «hun» på nynorsk?", "options": ["hon", "ho", "hun", "hu"], "correct": 1, "explain": "«Jeg» blir «eg» og «de» blir «dei»." }
+  ],
+  "mindmap": {
+    "label": "Skriving og sidemål",
+    "children": [
+      { "label": "Skriveprosessen", "children": [
+        { "label": "Førskriving" },
+        { "label": "Utkast" },
+        { "label": "Respons" },
+        { "label": "Revisjon" }
+      ] },
+      { "label": "Struktur", "children": [
+        { "label": "Innledning, hoveddel, avslutning" },
+        { "label": "Avsnitt" },
+        { "label": "Tekstbinding" }
+      ] },
+      { "label": "Kreativitet", "children": [
+        { "label": "Kortprosa og dikt" },
+        { "label": "Multimodale tekster" },
+        { "label": "Virkemidler" }
+      ] },
+      { "label": "Tegnsetting", "children": [
+        { "label": "Komma mellom helsetninger" },
+        { "label": "Komma etter leddsetning" },
+        { "label": "Kolon og anførselstegn" }
+      ] },
+      { "label": "Nynorsk", "children": [
+        { "label": "eg, ho, dei" },
+        { "label": "ikkje, noko, mykje" },
+        { "label": "gutar, jenter, hus" },
+        { "label": "kastar – kasta" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "«Frå» er nynorsk for «fra».", "correct": true, "explain": "Tilsvarende er «berre» nynorsk for «bare»." },
+      { "id": "m02", "type": "sant-usant", "text": "Revisjon handler bare om å rette skrivefeil.", "correct": false, "explain": "Revisjon handler også om innhold, struktur og argumentasjon." },
+      { "id": "m03", "type": "sant-usant", "text": "Det skal være komma etter en leddsetning som står først i setningen.", "correct": true, "explain": "Eksempel: «Hvis du kommer, blir jeg glad.»" },
+      { "id": "m04", "type": "sant-usant", "text": "«Kjærlighet» heter «kjærlighet» også på nynorsk.", "correct": false, "explain": "På nynorsk heter det «kjærleik»." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er bestemt entall av «ei jente» på nynorsk?", "options": ["jenten", "jentene", "jenta", "jentar"], "correct": 2, "explain": "Ei jente – jenta – jenter – jentene." },
+      { "id": "m06", "type": "flervalg", "text": "Hvor skal kommaene stå i «Oslo hovedstaden i Norge har mange museer»?", "options": ["Rundt «hovedstaden i Norge»", "Bare etter «Oslo»", "Bare før «har»", "Det skal ikke være komma"], "correct": 0, "explain": "Innskudd skal ha komma på begge sider." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er en multimodal tekst?", "options": ["En tekst på flere språk", "En tekst som kombinerer skrift, bilde, lyd eller film", "En svært lang tekst", "En tekst med mange avsnitt"], "correct": 1, "explain": "Nettsider, reklame og tegneserier er eksempler." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

@@ -1,0 +1,74 @@
+{
+  "id": "norsk-vg1",
+  "trinnId": "vg1",
+  "name": "Norsk",
+  "lareplan": {
+    "kode": "NOR01-08",
+    "url": "https://www.udir.no/lk20/nor01-08/kompetansemaal-og-vurdering/kv1113",
+    "kompetansemaal": [
+      {
+        "nr": 1,
+        "tekst": "lese, analysere og tolke nyere skjønnlitteratur på bokmål og nynorsk og i oversettelse fra samiske og andre språk"
+      },
+      {
+        "nr": 2,
+        "tekst": "reflektere over hvordan tekster framstiller møter mellom ulike kulturer"
+      },
+      {
+        "nr": 3,
+        "tekst": "gjøre rede for og reflektere over bruken av retoriske appellformer og språklige virkemidler i sakprosatekster"
+      },
+      {
+        "nr": 4,
+        "tekst": "lytte til andre, bygge opp saklig argumentasjon og bruke retoriske appellformer i diskusjoner"
+      },
+      {
+        "nr": 5,
+        "tekst": "bruke ulike kilder på en kritisk, selvstendig og etterrettelig måte"
+      },
+      {
+        "nr": 6,
+        "tekst": "greie ut om og drøfte norskfaglige eller tverrfaglige temaer muntlig"
+      },
+      {
+        "nr": 7,
+        "tekst": "skrive fagartikler som greier ut om og drøfter norskfaglige eller tverrfaglige temaer"
+      },
+      {
+        "nr": 8,
+        "tekst": "bruke fagspråk til å beskrive setningsoppbygningen og sammenhengen mellom setninger i arbeid med tekster"
+      },
+      {
+        "nr": 9,
+        "tekst": "kombinere virkemidler og uttrykksformer kreativt i egen tekstskaping"
+      },
+      {
+        "nr": 10,
+        "tekst": "vurdere og bearbeide egne tekster ut fra tilbakemeldinger og faglige kriterier"
+      },
+      {
+        "nr": 11,
+        "tekst": "skrive tekster med god struktur og tekstbinding og mestre tegnsetting og rettskriving på hovedmål og sidemål"
+      },
+      {
+        "nr": 12,
+        "tekst": "sammenligne særtrekk ved norsk med andre språk og vise hvordan språklige møter kan skape språkendringer"
+      },
+      {
+        "nr": 13,
+        "tekst": "gjøre rede for utbredelsen av de samiske språkene i Norge, fornorskingspolitikken og de språklige rettighetene samer har som urfolk"
+      }
+    ]
+  },
+  "temaer": [
+    "nyere-skjonnlitteratur",
+    "kulturmoter-i-litteraturen",
+    "retorikk-i-sakprosa",
+    "argumentasjon-og-diskusjon",
+    "kilder-og-fagartikkel",
+    "setningsanalyse",
+    "skriving-og-sidemal",
+    "sprak-i-kontakt",
+    "samiske-sprak"
+  ]
+}

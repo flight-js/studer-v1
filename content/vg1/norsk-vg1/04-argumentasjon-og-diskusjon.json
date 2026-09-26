@@ -1,0 +1,86 @@
+{
+  "id": "argumentasjon-og-diskusjon",
+  "fagId": "norsk-vg1",
+  "trinnId": "vg1",
+  "name": "Argumentasjon og diskusjon",
+  "intro": "Hvordan du bygger opp saklig argumentasjon med påstand, belegg og hjemmel, gjenkjenner usaklig argumentasjon og hersketeknikker, lytter i diskusjoner og greier ut om og drøfter et tema muntlig.",
+  "kompetansemaal": [4, 6],
+  "sammendrag": "## Å argumentere\n\nEt **argument** er en begrunnelse for en **påstand**. Filosofen **Stephen Toulmin** laget en modell som viser hvordan et argument er bygd opp:\n\n- **Påstand**: det man vil overbevise om – «Skoledagen bør starte klokka ni.»\n- **Belegg**: grunnen eller støtten – «Forskning viser at tenåringer trenger mer søvn om morgenen.»\n- **Hjemmel**: den underforståtte sammenhengen som gjør at belegget støtter påstanden – «Elever som får nok søvn, lærer bedre.»\n- **Ryggdekning**: støtte for hjemmelen, for eksempel forskning.\n- **Styrkemarkør**: ord som viser hvor sikker påstanden er – «trolig», «sannsynligvis», «alltid».\n- **Gjendrivelse**: forbehold eller motargumenter – «med mindre det gir problemer med skyss».\n\nGode argumenter er **relevante**, **holdbare** og **tilpasset mottakeren**.\n\n## Saklig og usaklig argumentasjon\n\nSaklig argumentasjon handler om **saken**. Vanlige **usaklige** grep er\n\n- **stråmann** – å tillegge motparten et synspunkt de ikke har, og så angripe det\n- **personangrep** – å angripe personen i stedet for argumentet\n- **generalisering** – å trekke en bred konklusjon fra få eksempler\n- **falskt dilemma** – å late som om det bare finnes to alternativer\n- **glidebaneargument** – å påstå at ett steg uunngåelig fører til en katastrofe\n- **appell til flertallet** – «alle mener jo det»\n\n## Hersketeknikker\n\nSosiologen **Berit Ås** beskrev fem **hersketeknikker** – måter å undertrykke andre på i samtaler og møter: **usynliggjøring**, **latterliggjøring**, **tilbakeholdelse av informasjon**, **dobbeltstraff** (uansett hva du gjør, er det feil) og **påføring av skyld og skam**. Å kjenne dem igjen gjør det lettere å stå imot.\n\n## Å delta i en diskusjon\n\n- **Lytt aktivt**: Forstå motpartens argumenter før du svarer, og gjengi dem gjerne med egne ord.\n- **Svar på det som faktisk blir sagt**.\n- **Begrunn** synspunktene dine og bruk eksempler.\n- **Vær saklig og respektfull**, også når du er uenig.\n- Vær åpen for å **endre mening** hvis motparten har gode argumenter.\n\n## Muntlig: greie ut om og drøfte\n\n- **Å greie ut om** betyr å forklare et tema grundig og ryddig.\n- **Å drøfte** betyr å se et spørsmål fra **flere sider**, veie argumenter **for og mot** og komme fram til en begrunnet **konklusjon**.\n\nEn god muntlig presentasjon har en tydelig **disposisjon**: innledning med **problemstilling**, hoveddel og avslutning. Snakk **fritt** ut fra stikkord, hold **blikkontakt**, varier stemmen og bruk **presentasjonsverktøy** som støtte – ikke som manus. Øv på forhånd og ta tiden.",
+  "flashcards": [
+    { "term": "Påstand", "def": "Det man vil overbevise om." },
+    { "term": "Belegg", "def": "Grunnen eller støtten for påstanden." },
+    { "term": "Hjemmel", "def": "Den underforståtte sammenhengen mellom belegg og påstand." },
+    { "term": "Styrkemarkør", "def": "Ord som viser hvor sikker påstanden er, som «trolig»." },
+    { "term": "Gjendrivelse", "def": "Forbehold eller motargumenter til en påstand." },
+    { "term": "Stråmann", "def": "Å tillegge motparten et synspunkt de ikke har, og angripe det." },
+    { "term": "Personangrep", "def": "Å angripe personen i stedet for argumentet." },
+    { "term": "Falskt dilemma", "def": "Å late som om det bare finnes to alternativer." },
+    { "term": "Glidebaneargument", "def": "Å påstå at ett steg uunngåelig fører til en katastrofe." },
+    { "term": "Hersketeknikker", "def": "Måter å undertrykke andre på, beskrevet av Berit Ås." },
+    { "term": "Usynliggjøring", "def": "Hersketeknikk der man overser noen eller det de sier." },
+    { "term": "Dobbeltstraff", "def": "Hersketeknikk der uansett hva du gjør, er det feil." },
+    { "term": "Å greie ut om", "def": "Å forklare et tema grundig og ryddig." },
+    { "term": "Å drøfte", "def": "Å se et spørsmål fra flere sider og komme fram til en begrunnet konklusjon." },
+    { "term": "Disposisjon", "def": "Plan for oppbygningen av en tekst eller presentasjon." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er belegg i Toulmins modell?", "options": ["Det man vil overbevise om", "Grunnen eller støtten for påstanden", "Et motargument", "Konklusjonen"], "correct": 1, "explain": "Belegget skal støtte påstanden." },
+    { "id": "q02", "text": "«Du mener altså at elevene skal få gjøre hva de vil?» – når motparten ikke har sagt det. Hva er dette?", "options": ["Stråmann", "Glidebane", "Personangrep", "Saklig argumentasjon"], "correct": 0, "explain": "Motparten tillegges et synspunkt de ikke har." },
+    { "id": "q03", "text": "Hva betyr det å drøfte?", "options": ["Å bare gi sin egen mening", "Å gjenfortelle en tekst", "Å se et spørsmål fra flere sider og komme fram til en begrunnet konklusjon", "Å diskutere høylytt"], "correct": 2, "explain": "Drøfting krever argumenter både for og mot." },
+    { "id": "q04", "text": "Hvem beskrev de fem hersketeknikkene?", "options": ["Aristoteles", "Stephen Toulmin", "Henrik Ibsen", "Berit Ås"], "correct": 3, "explain": "Berit Ås var sosiolog og politiker." },
+    { "id": "q05", "text": "Hva er en styrkemarkør?", "options": ["Ord som viser hvor sikker påstanden er", "Et sterkt argument", "En overskrift", "En hersketeknikk"], "correct": 0, "explain": "«Trolig», «alltid» og «kanskje» er styrkemarkører." },
+    { "id": "q06", "text": "«Hvis vi tillater mobil i friminuttene, vil ingen lære noe lenger.» Hva slags argument er dette?", "options": ["Stråmann", "Glidebaneargument", "Etos", "Belegg"], "correct": 1, "explain": "Ett steg påstås å føre til en katastrofe." },
+    { "id": "q07", "text": "Hva er et godt råd for å delta i en diskusjon?", "options": ["Avbryte for å vise engasjement", "Aldri endre mening", "Lytte aktivt og svare på det som faktisk blir sagt", "Angripe motparten personlig"], "correct": 2, "explain": "Saklig diskusjon krever at man lytter." },
+    { "id": "q08", "text": "Hva er et falskt dilemma?", "options": ["Et vanskelig valg", "Et motargument", "En styrkemarkør", "Å late som om det bare finnes to alternativer"], "correct": 3, "explain": "Eksempel: «Enten er du med oss, eller så er du mot oss.»" },
+    { "id": "q09", "text": "Hva er hjemmelen i et argument?", "options": ["Den underforståtte sammenhengen mellom belegg og påstand", "Stedet argumentet kommer fra", "Konklusjonen", "Et sitat"], "correct": 0, "explain": "Hjemmelen er ofte ikke sagt direkte." },
+    { "id": "q10", "text": "Hvordan bør du bruke presentasjonsverktøy i en muntlig presentasjon?", "options": ["Som manus du leser fra", "Som støtte, mens du snakker fritt ut fra stikkord", "Ikke i det hele tatt", "Med så mye tekst som mulig"], "correct": 1, "explain": "Publikum skal lytte til deg, ikke lese lysbildene." }
+  ],
+  "mindmap": {
+    "label": "Argumentasjon og diskusjon",
+    "children": [
+      { "label": "Toulmin", "children": [
+        { "label": "Påstand" },
+        { "label": "Belegg" },
+        { "label": "Hjemmel" },
+        { "label": "Styrkemarkør og gjendrivelse" }
+      ] },
+      { "label": "Usaklig", "children": [
+        { "label": "Stråmann" },
+        { "label": "Personangrep" },
+        { "label": "Falskt dilemma" },
+        { "label": "Glidebane" }
+      ] },
+      { "label": "Hersketeknikker", "children": [
+        { "label": "Usynliggjøring" },
+        { "label": "Latterliggjøring" },
+        { "label": "Dobbeltstraff" },
+        { "label": "Skyld og skam" }
+      ] },
+      { "label": "Diskusjon", "children": [
+        { "label": "Lytte aktivt" },
+        { "label": "Begrunne" },
+        { "label": "Respekt" }
+      ] },
+      { "label": "Muntlig", "children": [
+        { "label": "Greie ut om" },
+        { "label": "Drøfte" },
+        { "label": "Disposisjon" },
+        { "label": "Snakke fritt" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Det kan være et tegn på styrke å endre mening etter gode motargumenter.", "correct": true, "explain": "Diskusjon handler om å finne gode svar, ikke bare å vinne." },
+      { "id": "m02", "type": "sant-usant", "text": "Et personangrep er en saklig måte å svare på et argument.", "correct": false, "explain": "Personangrep handler om personen, ikke saken." },
+      { "id": "m03", "type": "sant-usant", "text": "En god drøfting ender med en begrunnet konklusjon.", "correct": true, "explain": "Konklusjonen bygger på argumentene som er vurdert." },
+      { "id": "m04", "type": "sant-usant", "text": "Latterliggjøring er en saklig diskusjonsteknikk.", "correct": false, "explain": "Latterliggjøring er en av hersketeknikkene." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er en generalisering?", "options": ["En bred konklusjon trukket fra få eksempler", "En god kilde", "En saklig påstand", "En type disposisjon"], "correct": 0, "explain": "Eksempel: «Jeg kjenner to som …, så alle …»" },
+      { "id": "m06", "type": "flervalg", "text": "Hva er gjendrivelse i Toulmins modell?", "options": ["Påstanden", "Belegget", "Konklusjonen", "Forbehold eller motargumenter"], "correct": 3, "explain": "Gjendrivelse gjør argumentasjonen mer nyansert." },
+      { "id": "m07", "type": "flervalg", "text": "Hva betyr det å greie ut om et tema?", "options": ["Å gi sin mening", "Å argumentere for én side", "Å forklare temaet grundig og ryddig", "Å stille spørsmål"], "correct": 2, "explain": "Utgreiing er forklarende, ikke argumenterende." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

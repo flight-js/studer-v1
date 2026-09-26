@@ -1,0 +1,84 @@
+{
+  "id": "kilder-og-fagartikkel",
+  "fagId": "norsk-vg1",
+  "trinnId": "vg1",
+  "name": "Kilder og fagartikkel",
+  "intro": "Kritisk og etterrettelig kildebruk – vurdering av kilder, sitat og parafrase, kildehenvisning og litteraturliste, plagiat og KI – og hvordan du skriver en fagartikkel som greier ut om og drøfter et tema.",
+  "kompetansemaal": [5, 7],
+  "sammendrag": "## Kritisk kildebruk\n\nNår du skriver fagtekster, må du bruke **kilder** – bøker, artikler, nettsider, intervjuer og statistikk. Kildene må vurderes **kritisk**:\n\n- **Hvem** står bak? Har avsenderen **fagkunnskap**, og har de **interesser** i saken?\n- **Hva** slags kilde er det? En forskningsartikkel, en leksikonartikkel, en kommentar eller reklame?\n- **Når** ble den laget? Er informasjonen **oppdatert**?\n- **Hvorfor** ble den laget? For å informere, overbevise eller selge?\n- **Stemmer** informasjonen med andre kilder?\n\nSkill mellom **primærkilder** – førstehånds kilder som et intervju, en undersøkelse eller en roman du analyserer – og **sekundærkilder**, som skriver om andre kilder.\n\n## Selvstendig kildebruk\n\nÅ bruke kilder **selvstendig** betyr at du **bearbeider** stoffet: Du sammenligner, drøfter og bruker kildene til å støtte **ditt eget resonnement**. Teksten skal ikke bare være en samling av andres ord.\n\n## Etterrettelig kildebruk\n\n**Etterrettelig** betyr at leseren skal kunne se **hvor opplysningene kommer fra** og skille dine tanker fra andres.\n\n- **Direkte sitat**: ordrett gjengivelse i **anførselstegn** med kildehenvisning.\n- **Parafrase**: å gjengi innholdet med **egne ord** – også dette krever kildehenvisning.\n- **Kildehenvisning i teksten**: For eksempel etter APA-stilen: (Hansen, 2021, s. 45).\n- **Litteraturliste**: alle kildene samlet til slutt, i **alfabetisk rekkefølge** etter forfatterens etternavn, med tittel, år, utgiver eller nettadresse og dato du leste nettkilden.\n\n**Plagiat** er å gi andres tekst ut som sin egen. Det er **fusk** og kan få alvorlige konsekvenser. Hvis du bruker **KI-verktøy**, må du følge skolens regler og **oppgi** hvordan du har brukt dem. KI kan dessuten finne på kilder og fakta, så alt må **kontrolleres**.\n\n## Fagartikkelen\n\nEn **fagartikkel** greier ut om og drøfter et **norskfaglig** eller **tverrfaglig** tema på en saklig måte.\n\n- **Tittel** som vekker interesse og sier noe om innholdet.\n- **Innledning** som presenterer temaet og en tydelig **problemstilling**, for eksempel «Hvordan framstiller Shakar livet i Groruddalen?»\n- **Hoveddel** med **mellomtitler**, der du først **redegjør** for fakta og bakgrunn og så **drøfter** – ser saken fra flere sider og bruker kildene som støtte.\n- **Avslutning** som oppsummerer og svarer på problemstillingen i en **konklusjon**.\n\nSpråket skal være **saklig** og **presist**, med **fagbegreper**. Hvert **avsnitt** bør ha én hovedtanke, gjerne innledet med en **temasetning**. Bruk **tekstbindere** som «derimot», «dessuten» og «på den ene siden … på den andre siden» for å vise sammenhengen i resonnementet.",
+  "flashcards": [
+    { "term": "Kildekritikk", "def": "Å vurdere hvem som står bak en kilde, når, hvorfor og om den er pålitelig." },
+    { "term": "Primærkilde", "def": "Førstehånds kilde, som et intervju eller en undersøkelse." },
+    { "term": "Sekundærkilde", "def": "Kilde som skriver om andre kilder." },
+    { "term": "Selvstendig kildebruk", "def": "Å bearbeide kildene og bruke dem til å støtte eget resonnement." },
+    { "term": "Etterrettelig kildebruk", "def": "At leseren kan se hvor opplysningene kommer fra." },
+    { "term": "Direkte sitat", "def": "Ordrett gjengivelse i anførselstegn med kildehenvisning." },
+    { "term": "Parafrase", "def": "Gjengivelse av innhold med egne ord, med kildehenvisning." },
+    { "term": "Kildehenvisning", "def": "Henvisning i teksten, for eksempel (Hansen, 2021, s. 45)." },
+    { "term": "Litteraturliste", "def": "Oversikt over alle kildene, alfabetisk etter etternavn." },
+    { "term": "Plagiat", "def": "Å gi andres tekst ut som sin egen." },
+    { "term": "Fagartikkel", "def": "Saklig tekst som greier ut om og drøfter et faglig tema." },
+    { "term": "Problemstilling", "def": "Spørsmålet teksten skal besvare." },
+    { "term": "Redegjøre", "def": "Å gjøre rede for fakta og bakgrunn på en ryddig måte." },
+    { "term": "Temasetning", "def": "Setning som innleder et avsnitt og viser hovedtanken." },
+    { "term": "Tekstbindere", "def": "Ord som viser sammenhengen mellom setninger og avsnitt." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er en parafrase?", "options": ["Et ordrett sitat", "En gjengivelse av innholdet med egne ord", "En litteraturliste", "En overskrift"], "correct": 1, "explain": "Også parafraser krever kildehenvisning." },
+    { "id": "q02", "text": "Hva er plagiat?", "options": ["Å oppgi kilder", "Å bruke sitater", "Å gi andres tekst ut som sin egen", "Å skrive en fagartikkel"], "correct": 2, "explain": "Plagiat regnes som fusk." },
+    { "id": "q03", "text": "Hvordan ordnes en litteraturliste?", "options": ["Alfabetisk etter forfatterens etternavn", "Etter hvor viktig kilden er", "Etter årstall", "Tilfeldig"], "correct": 0, "explain": "Da er det lett å finne kildene." },
+    { "id": "q04", "text": "Hva er en primærkilde?", "options": ["Den viktigste kilden", "En nettside", "Et leksikon", "En førstehånds kilde, som et intervju"], "correct": 3, "explain": "Sekundærkilder skriver om andre kilder." },
+    { "id": "q05", "text": "Hva hører hjemme i innledningen til en fagartikkel?", "options": ["Tema og problemstilling", "Konklusjonen", "Litteraturlisten", "Alle sitatene"], "correct": 0, "explain": "Problemstillingen styrer resten av teksten." },
+    { "id": "q06", "text": "Hvorfor må du kontrollere informasjon fra KI-verktøy?", "options": ["Fordi det er forbudt å bruke dem", "Fordi KI kan finne på kilder og fakta", "Fordi KI skriver for kort", "Det trenger du ikke"], "correct": 1, "explain": "Du må også følge skolens regler og oppgi bruken." },
+    { "id": "q07", "text": "Hva betyr selvstendig kildebruk?", "options": ["Å bruke bare én kilde", "Å kopiere kilder", "Å bruke kildene til å støtte eget resonnement", "Å ikke bruke kilder"], "correct": 2, "explain": "Du skal bearbeide stoffet, ikke bare gjengi det." },
+    { "id": "q08", "text": "Hva er forskjellen på å redegjøre og å drøfte?", "options": ["Det er det samme", "Å drøfte er å gjengi fakta", "Å redegjøre er å gi sin mening", "Å redegjøre er å forklare fakta, å drøfte er å se saken fra flere sider"], "correct": 3, "explain": "En fagartikkel gjør ofte begge deler." },
+    { "id": "q09", "text": "Hvilket spørsmål hører til kildekritikk?", "options": ["Hvem står bak kilden, og har de interesser i saken?", "Hvor lang er teksten?", "Hvilken farge har nettsiden?", "Hvor mange bilder er det?"], "correct": 0, "explain": "Avsenderens interesser kan påvirke innholdet." },
+    { "id": "q10", "text": "Hva er en temasetning?", "options": ["Tittelen på artikkelen", "En setning som innleder et avsnitt og viser hovedtanken", "Den siste setningen i teksten", "Et sitat"], "correct": 1, "explain": "Temasetninger gjør teksten lett å følge." }
+  ],
+  "mindmap": {
+    "label": "Kilder og fagartikkel",
+    "children": [
+      { "label": "Kildekritikk", "children": [
+        { "label": "Hvem og hvorfor" },
+        { "label": "Når" },
+        { "label": "Primær og sekundær" }
+      ] },
+      { "label": "Etterrettelig", "children": [
+        { "label": "Sitat" },
+        { "label": "Parafrase" },
+        { "label": "Kildehenvisning" },
+        { "label": "Litteraturliste" }
+      ] },
+      { "label": "Fallgruver", "children": [
+        { "label": "Plagiat" },
+        { "label": "KI uten kontroll" }
+      ] },
+      { "label": "Fagartikkel", "children": [
+        { "label": "Tittel og innledning" },
+        { "label": "Problemstilling" },
+        { "label": "Redegjøre og drøfte" },
+        { "label": "Konklusjon" }
+      ] },
+      { "label": "Språk", "children": [
+        { "label": "Saklig og presist" },
+        { "label": "Fagbegreper" },
+        { "label": "Temasetninger" },
+        { "label": "Tekstbindere" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Et direkte sitat skal stå i anførselstegn.", "correct": true, "explain": "Da ser leseren at ordene er andres." },
+      { "id": "m02", "type": "sant-usant", "text": "Når du skriver med egne ord, trenger du ikke oppgi kilden.", "correct": false, "explain": "Parafraser krever også kildehenvisning." },
+      { "id": "m03", "type": "sant-usant", "text": "En fagartikkel kan ha mellomtitler.", "correct": true, "explain": "Mellomtitler gjør teksten oversiktlig." },
+      { "id": "m04", "type": "sant-usant", "text": "Reklame er en nøytral kilde.", "correct": false, "explain": "Reklame har som formål å selge." },
+      { "id": "m05", "type": "flervalg", "text": "Hvor bør konklusjonen stå i en fagartikkel?", "options": ["I tittelen", "I avslutningen", "I innledningen", "I litteraturlisten"], "correct": 1, "explain": "Konklusjonen svarer på problemstillingen." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilket av disse er en tekstbinder?", "options": ["Derimot", "Bok", "Rask", "Skole"], "correct": 0, "explain": "Tekstbindere viser sammenhengen i resonnementet." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilken kildehenvisning følger APA-stilen?", "options": ["[Hansen 45]", "Hansen sa det", "(Hansen, 2021, s. 45)", "Kilde: internett"], "correct": 2, "explain": "Forfatter, år og side oppgis i parentes." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
