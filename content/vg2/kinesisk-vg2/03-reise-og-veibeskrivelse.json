@@ -4,79 +4,355 @@
   "trinnId": "vg2",
   "name": "Reise, transport og veibeskrivelse",
   "intro": "Hvordan du reiser i Kina – tog, fly, t-bane og høyhastighetstog – spør om og gir veibeskrivelser, sier hvor ting ligger, og bruker uttrykk som 从……到……, 离 og 要多长时间.",
-  "kompetansemaal": [1, 2, 6],
-  "sammendrag": "## Transport\n\n**坐** *zuò* (sitte, reise med) brukes om de fleste transportmidler:\n\n- 坐火车 *zuò huǒchē* – ta toget\n- 坐飞机 *zuò fēijī* – fly\n- 坐地铁 *zuò dìtiě* – ta t-banen\n- 坐公共汽车 *zuò gōnggòng qìchē* – ta bussen\n- 坐高铁 *zuò gāotiě* – ta høyhastighetstoget\n\nMen: **骑** *qí* (ri) brukes om **sykkel**: *骑自行车* *qí zìxíngchē*, og 走路 *zǒulù* betyr å gå.\n\n*我坐地铁去学校。* – Jeg tar t-banen til skolen.\n\nLegg merke til **rekkefølgen**: **transportmiddel** kommer **før** stedet man skal til.\n\nKina har verdens **største nett av høyhastighetstog**, som går i over 300 km/t mellom mange av de store byene.\n\n## Fra … til …\n\n- *从北京到上海* *cóng Běijīng dào Shànghǎi* – fra Beijing til Shanghai\n- *要多长时间？* *Yào duō cháng shíjiān?* – Hvor lang tid tar det?\n- *坐高铁要五个小时。* – Det tar fem timer med høyhastighetstog.\n\n## Avstand med 离\n\n- *我家离学校很近。* *Wǒ jiā lí xuéxiào hěn jìn.* – Hjemmet mitt ligger nær skolen.\n- *北京离奥斯陆很远。* – Beijing ligger langt fra Oslo.\n\n近 *jìn* = nær, 远 *yuǎn* = langt.\n\n## Hvor ligger det?\n\n**在** *zài* brukes om **sted**:\n\n- *银行在哪儿？* *Yínháng zài nǎr?* – Hvor er banken?\n- *银行在学校旁边。* *Yínháng zài xuéxiào pángbiān.* – Banken er ved siden av skolen.\n\nStedsord: 旁边 *pángbiān* (ved siden av), 前边 *qiánbian* (foran), 后边 *hòubian* (bak), 对面 *duìmiàn* (overfor), 里边 *lǐbian* (inni).\n\n## Veibeskrivelse\n\n- *请问，去火车站怎么走？* *Qǐngwèn, qù huǒchēzhàn zěnme zǒu?* – Unnskyld, hvordan kommer jeg til jernbanestasjonen?\n- 一直走 *yìzhí zǒu* – gå rett fram\n- 往左拐 *wǎng zuǒ guǎi* – ta til venstre\n- 往右拐 *wǎng yòu guǎi* – ta til høyre\n- 到了 *dào le* – da er du framme\n\n## Reise i Kina\n\nMange bruker **mobilen** til alt – billetter, kart og betaling. På store høytider, særlig **vårfestivalen**, reiser hundrevis av millioner hjem, og det er vanskelig å få billetter.",
+  "kompetansemaal": [
+    1,
+    2,
+    6
+  ],
+  "sammendrag": "## Transport\n\n**坐** *zuò* (sitte, reise med) brukes om de fleste transportmidler:\n\n- 坐火车 *zuò huǒchē* – ta toget\n- 坐飞机 *zuò fēijī* – fly\n- 坐地铁 *zuò dìtiě* – ta t-banen\n- 坐公共汽车 *zuò gōnggòng qìchē* – ta bussen\n- 坐高铁 *zuò gāotiě* – ta høyhastighetstoget\n\nMen: **骑** *qí* (ri) brukes om **sykkel**: *骑自行车* *qí zìxíngchē*, og 走路 *zǒulù* betyr å gå.\n\n*我坐地铁去学校。* – Jeg tar t-banen til skolen.\n\nLegg merke til **rekkefølgen**: **transportmiddel** kommer **før** stedet man skal til.\n\nKina har verdens **største nett av høyhastighetstog**, som går i over 300 km/t mellom mange av de store byene.\n\n## Fra … til …\n\n- *从北京到上海* *cóng Běijīng dào Shànghǎi* – fra Beijing til Shanghai\n- *要多长时间？* *Yào duō cháng shíjiān?* – Hvor lang tid tar det?\n- *坐高铁要五个小时。* – Det tar fem timer med høyhastighetstog.\n\n## Avstand med 离\n\n- *我家离学校很近。* *Wǒ jiā lí xuéxiào hěn jìn.* – Hjemmet mitt ligger nær skolen.\n- *北京离奥斯陆很远。* – Beijing ligger langt fra Oslo.\n\n近 *jìn* = nær, 远 *yuǎn* = langt.\n\n## Hvor ligger det?\n\n**在** *zài* brukes om **sted**:\n\n- *银行在哪儿？* *Yínháng zài nǎr?* – Hvor er banken?\n- *银行在学校旁边。* *Yínháng zài xuéxiào pángbiān.* – Banken er ved siden av skolen.\n\nStedsord: 旁边 *pángbiān* (ved siden av), 前边 *qiánbian* (foran), 后边 *hòubian* (bak), 对面 *duìmiàn* (overfor), 里边 *lǐbian* (inni).\n\n## Veibeskrivelse\n\n- *请问，去火车站怎么走？* *Qǐngwèn, qù huǒchēzhàn zěnme zǒu?* – Unnskyld, hvordan kommer jeg til jernbanestasjonen?\n- 一直走 *yìzhí zǒu* – gå rett fram\n- 往左拐 *wǎng zuǒ guǎi* – ta til venstre\n- 往右拐 *wǎng yòu guǎi* – ta til høyre\n- 到了 *dào le* – da er du framme\n\n## Reise i Kina\n\nMange bruker **mobilen** til alt – billetter, kart og betaling. På store høytider, særlig **vårfestivalen**, reiser hundrevis av millioner hjem, og det er vanskelig å få billetter.\n\n## Nyttig på reise\n\n- 票 *piào* – billett\n- 火车站 *huǒchēzhàn* – jernbanestasjon\n- 机场 *jīchǎng* – flyplass\n- 地图 *dìtú* – kart\n\n*我要一张去上海的票。* – Jeg vil ha en billett til Shanghai. Øv gjerne på å gi veibeskrivelser til en medelev med et kart over nærmiljøet ditt.",
   "flashcards": [
-    { "term": "坐 zuò", "def": "reise med (tog, fly, buss)" },
-    { "term": "火车 huǒchē", "def": "tog" },
-    { "term": "飞机 fēijī", "def": "fly" },
-    { "term": "地铁 dìtiě", "def": "t-bane" },
-    { "term": "高铁 gāotiě", "def": "høyhastighetstog" },
-    { "term": "骑自行车 qí zìxíngchē", "def": "sykle" },
-    { "term": "从……到…… cóng … dào …", "def": "fra … til …" },
-    { "term": "要多长时间？", "def": "Hvor lang tid tar det? (yào duō cháng shíjiān)" },
-    { "term": "离 lí", "def": "(avstand) fra" },
-    { "term": "近 jìn / 远 yuǎn", "def": "nær / langt" },
-    { "term": "在哪儿？zài nǎr?", "def": "hvor er …?" },
-    { "term": "旁边 pángbiān", "def": "ved siden av" },
-    { "term": "怎么走？zěnme zǒu?", "def": "hvordan kommer jeg dit?" },
-    { "term": "一直走 yìzhí zǒu", "def": "gå rett fram" },
-    { "term": "往左拐 wǎng zuǒ guǎi", "def": "ta til venstre" }
+    {
+      "term": "坐 zuò",
+      "def": "reise med (tog, fly, buss)"
+    },
+    {
+      "term": "火车 huǒchē",
+      "def": "tog"
+    },
+    {
+      "term": "飞机 fēijī",
+      "def": "fly"
+    },
+    {
+      "term": "地铁 dìtiě",
+      "def": "t-bane"
+    },
+    {
+      "term": "高铁 gāotiě",
+      "def": "høyhastighetstog"
+    },
+    {
+      "term": "骑自行车 qí zìxíngchē",
+      "def": "sykle"
+    },
+    {
+      "term": "从……到…… cóng … dào …",
+      "def": "fra … til …"
+    },
+    {
+      "term": "要多长时间？",
+      "def": "Hvor lang tid tar det? (yào duō cháng shíjiān)"
+    },
+    {
+      "term": "离 lí",
+      "def": "(avstand) fra"
+    },
+    {
+      "term": "近 jìn / 远 yuǎn",
+      "def": "nær / langt"
+    },
+    {
+      "term": "在哪儿？zài nǎr?",
+      "def": "hvor er …?"
+    },
+    {
+      "term": "旁边 pángbiān",
+      "def": "ved siden av"
+    },
+    {
+      "term": "怎么走？zěnme zǒu?",
+      "def": "hvordan kommer jeg dit?"
+    },
+    {
+      "term": "一直走 yìzhí zǒu",
+      "def": "gå rett fram"
+    },
+    {
+      "term": "往左拐 wǎng zuǒ guǎi",
+      "def": "ta til venstre"
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvilket verb bruker man om å sykle?", "options": ["坐 zuò", "骑 qí", "走 zǒu", "开 kāi"], "correct": 1, "explain": "骑自行车 qí zìxíngchē." },
-    { "id": "q02", "text": "Hva betyr 我坐地铁去学校?", "options": ["Jeg tar t-banen til skolen.", "Jeg går til skolen.", "Jeg sykler til skolen.", "Skolen ligger ved t-banen."], "correct": 0, "explain": "Transportmiddel før stedet." },
-    { "id": "q03", "text": "Hvordan spør du «Hvor lang tid tar det?»", "options": ["多少钱？", "几点？", "要多长时间？", "在哪儿？"], "correct": 2, "explain": "Yào duō cháng shíjiān?" },
-    { "id": "q04", "text": "Hva betyr 往右拐?", "options": ["gå rett fram", "ta til venstre", "snu", "ta til høyre"], "correct": 3, "explain": "右 yòu = høyre, 左 zuǒ = venstre." },
-    { "id": "q05", "text": "Hva betyr 我家离学校很近?", "options": ["Hjemmet mitt ligger nær skolen.", "Hjemmet mitt ligger langt fra skolen.", "Jeg går til skolen.", "Skolen er stor."], "correct": 0, "explain": "离 + sted + 近/远." },
-    { "id": "q06", "text": "Hva er 高铁?", "options": ["Et fly", "Høyhastighetstog", "En buss", "En t-bane"], "correct": 1, "explain": "Kina har verdens største høyhastighetsnett." },
-    { "id": "q07", "text": "Hvordan sier du «Banken er ved siden av skolen»?", "options": ["银行旁边学校。", "学校在银行。", "银行在学校旁边。", "银行是学校。"], "correct": 2, "explain": "A 在 B 旁边." },
-    { "id": "q08", "text": "Hva betyr 从北京到上海?", "options": ["Beijing er i Shanghai", "Beijing og Shanghai", "Fra Shanghai til Beijing", "Fra Beijing til Shanghai"], "correct": 3, "explain": "从 = fra, 到 = til." },
-    { "id": "q09", "text": "Hvordan spør du høflig om veien til jernbanestasjonen?", "options": ["请问，去火车站怎么走？", "火车站多少钱？", "我是火车站。", "火车站几点？"], "correct": 0, "explain": "请问 = unnskyld, kan jeg spørre." },
-    { "id": "q10", "text": "Hva betyr 远?", "options": ["nær", "langt", "rett fram", "høyre"], "correct": 1, "explain": "近 = nær." }
+    {
+      "id": "q01",
+      "text": "Hvilket verb bruker man om å sykle?",
+      "options": [
+        "坐 zuò",
+        "骑 qí",
+        "走 zǒu",
+        "开 kāi"
+      ],
+      "correct": 1,
+      "explain": "骑自行车 qí zìxíngchē."
+    },
+    {
+      "id": "q02",
+      "text": "Hva betyr 我坐地铁去学校?",
+      "options": [
+        "Jeg tar t-banen til skolen.",
+        "Jeg går til skolen.",
+        "Jeg sykler til skolen.",
+        "Skolen ligger ved t-banen."
+      ],
+      "correct": 0,
+      "explain": "Transportmiddel før stedet."
+    },
+    {
+      "id": "q03",
+      "text": "Hvordan spør du «Hvor lang tid tar det?»",
+      "options": [
+        "多少钱？",
+        "几点？",
+        "要多长时间？",
+        "在哪儿？"
+      ],
+      "correct": 2,
+      "explain": "Yào duō cháng shíjiān?"
+    },
+    {
+      "id": "q04",
+      "text": "Hva betyr 往右拐?",
+      "options": [
+        "gå rett fram",
+        "ta til venstre",
+        "snu",
+        "ta til høyre"
+      ],
+      "correct": 3,
+      "explain": "右 yòu = høyre, 左 zuǒ = venstre."
+    },
+    {
+      "id": "q05",
+      "text": "Hva betyr 我家离学校很近?",
+      "options": [
+        "Hjemmet mitt ligger nær skolen.",
+        "Hjemmet mitt ligger langt fra skolen.",
+        "Jeg går til skolen.",
+        "Skolen er stor."
+      ],
+      "correct": 0,
+      "explain": "离 + sted + 近/远."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er 高铁?",
+      "options": [
+        "Et fly",
+        "Høyhastighetstog",
+        "En buss",
+        "En t-bane"
+      ],
+      "correct": 1,
+      "explain": "Kina har verdens største høyhastighetsnett."
+    },
+    {
+      "id": "q07",
+      "text": "Hvordan sier du «Banken er ved siden av skolen»?",
+      "options": [
+        "银行旁边学校。",
+        "学校在银行。",
+        "银行在学校旁边。",
+        "银行是学校。"
+      ],
+      "correct": 2,
+      "explain": "A 在 B 旁边."
+    },
+    {
+      "id": "q08",
+      "text": "Hva betyr 从北京到上海?",
+      "options": [
+        "Beijing er i Shanghai",
+        "Beijing og Shanghai",
+        "Fra Shanghai til Beijing",
+        "Fra Beijing til Shanghai"
+      ],
+      "correct": 3,
+      "explain": "从 = fra, 到 = til."
+    },
+    {
+      "id": "q09",
+      "text": "Hvordan spør du høflig om veien til jernbanestasjonen?",
+      "options": [
+        "请问，去火车站怎么走？",
+        "火车站多少钱？",
+        "我是火车站。",
+        "火车站几点？"
+      ],
+      "correct": 0,
+      "explain": "请问 = unnskyld, kan jeg spørre."
+    },
+    {
+      "id": "q10",
+      "text": "Hva betyr 远?",
+      "options": [
+        "nær",
+        "langt",
+        "rett fram",
+        "høyre"
+      ],
+      "correct": 1,
+      "explain": "近 = nær."
+    }
   ],
   "mindmap": {
     "label": "Reise og veibeskrivelse",
     "children": [
-      { "label": "Transport", "children": [
-        { "label": "坐火车, 坐飞机" },
-        { "label": "坐地铁, 坐高铁" },
-        { "label": "骑自行车" }
-      ] },
-      { "label": "Tid og avstand", "children": [
-        { "label": "从……到……" },
-        { "label": "要多长时间？" },
-        { "label": "离 + 近/远" }
-      ] },
-      { "label": "Sted", "children": [
-        { "label": "在哪儿？" },
-        { "label": "旁边, 前边, 后边" },
-        { "label": "对面" }
-      ] },
-      { "label": "Veibeskrivelse", "children": [
-        { "label": "怎么走？" },
-        { "label": "一直走" },
-        { "label": "往左/右拐" }
-      ] },
-      { "label": "Kina", "children": [
-        { "label": "Høyhastighetstog" },
-        { "label": "Mobil til alt" },
-        { "label": "Vårfestivalen" }
-      ] }
+      {
+        "label": "Transport",
+        "children": [
+          {
+            "label": "坐火车, 坐飞机"
+          },
+          {
+            "label": "坐地铁, 坐高铁"
+          },
+          {
+            "label": "骑自行车"
+          }
+        ]
+      },
+      {
+        "label": "Tid og avstand",
+        "children": [
+          {
+            "label": "从……到……"
+          },
+          {
+            "label": "要多长时间？"
+          },
+          {
+            "label": "离 + 近/远"
+          }
+        ]
+      },
+      {
+        "label": "Sted",
+        "children": [
+          {
+            "label": "在哪儿？"
+          },
+          {
+            "label": "旁边, 前边, 后边"
+          },
+          {
+            "label": "对面"
+          }
+        ]
+      },
+      {
+        "label": "Veibeskrivelse",
+        "children": [
+          {
+            "label": "怎么走？"
+          },
+          {
+            "label": "一直走"
+          },
+          {
+            "label": "往左/右拐"
+          }
+        ]
+      },
+      {
+        "label": "Kina",
+        "children": [
+          {
+            "label": "Høyhastighetstog"
+          },
+          {
+            "label": "Mobil til alt"
+          },
+          {
+            "label": "Vårfestivalen"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "På kinesisk står transportmidlet før stedet man skal til.", "correct": true, "explain": "我坐飞机去北京。" },
-      { "id": "m02", "type": "sant-usant", "text": "坐 brukes om å sykle.", "correct": false, "explain": "Om sykkel bruker man 骑." },
-      { "id": "m03", "type": "sant-usant", "text": "Det er vanskelig å få togbilletter i Kina under vårfestivalen.", "correct": true, "explain": "Hundrevis av millioner reiser hjem." },
-      { "id": "m04", "type": "sant-usant", "text": "往左拐 betyr å ta til høyre.", "correct": false, "explain": "左 = venstre." },
-      { "id": "m05", "type": "flervalg", "text": "Hva betyr 对面?", "options": ["bak", "overfor", "inni", "over"], "correct": 1, "explain": "Stedsord." },
-      { "id": "m06", "type": "flervalg", "text": "Hva betyr 坐高铁要五个小时?", "options": ["Det tar fem timer med høyhastighetstog.", "Høyhastighetstoget går klokka fem.", "Det koster fem kroner.", "Toget har fem vogner."], "correct": 0, "explain": "要 + tid = det tar." },
-      { "id": "m07", "type": "flervalg", "text": "Hvordan spør du «Hvor er banken?»", "options": ["银行多少钱？", "银行几点？", "银行在哪儿？", "银行是什么？"], "correct": 2, "explain": "在哪儿 = hvor." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "På kinesisk står transportmidlet før stedet man skal til.",
+        "correct": true,
+        "explain": "我坐飞机去北京。"
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "坐 brukes om å sykle.",
+        "correct": false,
+        "explain": "Om sykkel bruker man 骑."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Det er vanskelig å få togbilletter i Kina under vårfestivalen.",
+        "correct": true,
+        "explain": "Hundrevis av millioner reiser hjem."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "往左拐 betyr å ta til høyre.",
+        "correct": false,
+        "explain": "左 = venstre."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva betyr 对面?",
+        "options": [
+          "bak",
+          "overfor",
+          "inni",
+          "over"
+        ],
+        "correct": 1,
+        "explain": "Stedsord."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva betyr 坐高铁要五个小时?",
+        "options": [
+          "Det tar fem timer med høyhastighetstog.",
+          "Høyhastighetstoget går klokka fem.",
+          "Det koster fem kroner.",
+          "Toget har fem vogner."
+        ],
+        "correct": 0,
+        "explain": "要 + tid = det tar."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvordan spør du «Hvor er banken?»",
+        "options": [
+          "银行多少钱？",
+          "银行几点？",
+          "银行在哪儿？",
+          "银行是什么？"
+        ],
+        "correct": 2,
+        "explain": "在哪儿 = hvor."
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

@@ -4,77 +4,349 @@
   "trinnId": "vg2",
   "name": "Å snakke om fortid og framtid",
   "intro": "Hvordan du forteller om opplevelser og planer på kinesisk uten å bøye verbene – med tidsuttrykk, partiklene 了 og 过, nekting med 没, og framtid med 要, 会 og 打算.",
-  "kompetansemaal": [3, 5, 6],
-  "sammendrag": "## Kinesiske verb bøyes ikke\n\nPå kinesisk **bøyes ikke verbene** etter tid. I stedet bruker man **tidsuttrykk** og **partikler**:\n\n- *我昨天去北京。* – Jeg dro til Beijing i går. (*昨天* viser at det er fortid.)\n- *我明天去北京。* – Jeg drar til Beijing i morgen.\n\nNyttige tidsuttrykk: 昨天 *zuótiān* (i går), 去年 *qùnián* (i fjor), 上个星期 *shàng ge xīngqī* (forrige uke), 明年 *míngnián* (neste år), 以前 *yǐqián* (før), 以后 *yǐhòu* (senere, etter).\n\n## 了 – fullført handling\n\n**了** *le* etter verbet viser at en handling er **fullført**:\n\n- *我买了一本书。* *Wǒ mǎi le yì běn shū.* – Jeg kjøpte en bok.\n- *他吃了饭。* – Han har spist.\n\n**Nekting** av fullførte handlinger bruker **没(有)** – og da **forsvinner 了**:\n\n- *我没买书。* – Jeg kjøpte ikke noen bok.\n\n## 过 – erfaring\n\n**过** *guo* etter verbet viser at man **har opplevd** noe **noen gang**:\n\n- *我去过中国。* *Wǒ qù guo Zhōngguó.* – Jeg har vært i Kina.\n- *你吃过饺子吗？* – Har du noen gang spist dumplings?\n- *我没去过日本。* – Jeg har aldri vært i Japan.\n\n## 已经 og 还没\n\n- 已经 *yǐjīng* – allerede: *我已经做了作业。* – Jeg har allerede gjort leksene.\n- 还没 *hái méi* – ennå ikke: *我还没做作业。* – Jeg har ikke gjort leksene ennå.\n\n## Framtid\n\n- **要** *yào* – skal, har tenkt: *明年我要去中国。* – Neste år skal jeg til Kina.\n- **会** *huì* – vil (sannsynlighet): *明天会下雨。* – Det kommer til å regne i morgen.\n- **打算** *dǎsuan* – planlegge: *我打算学中文。* – Jeg planlegger å lære kinesisk.\n- **想** *xiǎng* – ha lyst til, ønske: *以后我想当老师。* – Senere vil jeg bli lærer.\n\n## En kort fortelling\n\n*去年夏天我去了北京。我们坐飞机去的。我吃了北京烤鸭，也去了长城。长城很长！明年我打算再去中国。*\n\n(I fjor sommer dro jeg til Beijing. Vi dro med fly. Jeg spiste Peking-and og besøkte muren. Muren er veldig lang! Neste år planlegger jeg å dra til Kina igjen.)",
+  "kompetansemaal": [
+    3,
+    5,
+    6
+  ],
+  "sammendrag": "## Kinesiske verb bøyes ikke\n\nPå kinesisk **bøyes ikke verbene** etter tid. I stedet bruker man **tidsuttrykk** og **partikler**:\n\n- *我昨天去北京。* – Jeg dro til Beijing i går. (*昨天* viser at det er fortid.)\n- *我明天去北京。* – Jeg drar til Beijing i morgen.\n\nNyttige tidsuttrykk: 昨天 *zuótiān* (i går), 去年 *qùnián* (i fjor), 上个星期 *shàng ge xīngqī* (forrige uke), 明年 *míngnián* (neste år), 以前 *yǐqián* (før), 以后 *yǐhòu* (senere, etter).\n\n## 了 – fullført handling\n\n**了** *le* etter verbet viser at en handling er **fullført**:\n\n- *我买了一本书。* *Wǒ mǎi le yì běn shū.* – Jeg kjøpte en bok.\n- *他吃了饭。* – Han har spist.\n\n**Nekting** av fullførte handlinger bruker **没(有)** – og da **forsvinner 了**:\n\n- *我没买书。* – Jeg kjøpte ikke noen bok.\n\n## 过 – erfaring\n\n**过** *guo* etter verbet viser at man **har opplevd** noe **noen gang**:\n\n- *我去过中国。* *Wǒ qù guo Zhōngguó.* – Jeg har vært i Kina.\n- *你吃过饺子吗？* – Har du noen gang spist dumplings?\n- *我没去过日本。* – Jeg har aldri vært i Japan.\n\n## 已经 og 还没\n\n- 已经 *yǐjīng* – allerede: *我已经做了作业。* – Jeg har allerede gjort leksene.\n- 还没 *hái méi* – ennå ikke: *我还没做作业。* – Jeg har ikke gjort leksene ennå.\n\n## Framtid\n\n- **要** *yào* – skal, har tenkt: *明年我要去中国。* – Neste år skal jeg til Kina.\n- **会** *huì* – vil (sannsynlighet): *明天会下雨。* – Det kommer til å regne i morgen.\n- **打算** *dǎsuan* – planlegge: *我打算学中文。* – Jeg planlegger å lære kinesisk.\n- **想** *xiǎng* – ha lyst til, ønske: *以后我想当老师。* – Senere vil jeg bli lærer.\n\n## En kort fortelling\n\n*去年夏天我去了北京。我们坐飞机去的。我吃了北京烤鸭，也去了长城。长城很长！明年我打算再去中国。*\n\n(I fjor sommer dro jeg til Beijing. Vi dro med fly. Jeg spiste Peking-and og besøkte muren. Muren er veldig lang! Neste år planlegger jeg å dra til Kina igjen.)\n\n## Strategier\n\nNår du skriver om fortiden på kinesisk, er det lurt å starte setningen med et **tidsuttrykk**. Bruk **了** når noe er fullført, og **过** når du forteller om erfaringer. Skriv gjerne en kort **dagbok** på kinesisk om hva du gjorde i helgen, og hva du planlegger neste uke.",
   "flashcards": [
-    { "term": "昨天 zuótiān", "def": "i går" },
-    { "term": "去年 qùnián", "def": "i fjor" },
-    { "term": "明年 míngnián", "def": "neste år" },
-    { "term": "以前 yǐqián", "def": "før" },
-    { "term": "以后 yǐhòu", "def": "senere, etter" },
-    { "term": "了 le", "def": "partikkel for fullført handling" },
-    { "term": "我买了一本书。", "def": "Jeg kjøpte en bok." },
-    { "term": "没(有) + verb", "def": "nekting av fullført handling (uten 了)" },
-    { "term": "过 guo", "def": "partikkel for erfaring – har noen gang gjort" },
-    { "term": "我去过中国。", "def": "Jeg har vært i Kina." },
-    { "term": "已经 yǐjīng", "def": "allerede" },
-    { "term": "还没 hái méi", "def": "ennå ikke" },
-    { "term": "要 yào (framtid)", "def": "skal, har tenkt" },
-    { "term": "会 huì (framtid)", "def": "vil (sannsynlighet)" },
-    { "term": "打算 dǎsuan", "def": "planlegge" }
+    {
+      "term": "昨天 zuótiān",
+      "def": "i går"
+    },
+    {
+      "term": "去年 qùnián",
+      "def": "i fjor"
+    },
+    {
+      "term": "明年 míngnián",
+      "def": "neste år"
+    },
+    {
+      "term": "以前 yǐqián",
+      "def": "før"
+    },
+    {
+      "term": "以后 yǐhòu",
+      "def": "senere, etter"
+    },
+    {
+      "term": "了 le",
+      "def": "partikkel for fullført handling"
+    },
+    {
+      "term": "我买了一本书。",
+      "def": "Jeg kjøpte en bok."
+    },
+    {
+      "term": "没(有) + verb",
+      "def": "nekting av fullført handling (uten 了)"
+    },
+    {
+      "term": "过 guo",
+      "def": "partikkel for erfaring – har noen gang gjort"
+    },
+    {
+      "term": "我去过中国。",
+      "def": "Jeg har vært i Kina."
+    },
+    {
+      "term": "已经 yǐjīng",
+      "def": "allerede"
+    },
+    {
+      "term": "还没 hái méi",
+      "def": "ennå ikke"
+    },
+    {
+      "term": "要 yào (framtid)",
+      "def": "skal, har tenkt"
+    },
+    {
+      "term": "会 huì (framtid)",
+      "def": "vil (sannsynlighet)"
+    },
+    {
+      "term": "打算 dǎsuan",
+      "def": "planlegge"
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvordan viser kinesisk at noe skjedde i fortiden?", "options": ["Ved å bøye verbet", "Med tidsuttrykk og partikler som 了", "Med en egen fortidsendelse", "Ved å endre tonen"], "correct": 1, "explain": "Verbene bøyes ikke." },
-    { "id": "q02", "text": "Hva betyr 我去过中国?", "options": ["Jeg har vært i Kina.", "Jeg skal til Kina.", "Jeg er i Kina nå.", "Jeg liker Kina."], "correct": 0, "explain": "过 viser erfaring." },
-    { "id": "q03", "text": "Hvordan nekter du «Jeg kjøpte en bok»?", "options": ["我不买了书。", "我买没了书。", "我没买书。", "我没有了书。"], "correct": 2, "explain": "没 + verb, og 了 forsvinner." },
-    { "id": "q04", "text": "Hva betyr 已经?", "options": ["ennå ikke", "aldri", "senere", "allerede"], "correct": 3, "explain": "我已经做了作业。" },
-    { "id": "q05", "text": "Hva betyr 明年我要去中国?", "options": ["Neste år skal jeg til Kina.", "I fjor var jeg i Kina.", "Jeg bor i Kina.", "Jeg har aldri vært i Kina."], "correct": 0, "explain": "要 om planer." },
-    { "id": "q06", "text": "Hva betyr 你吃过饺子吗？", "options": ["Spiser du dumplings nå?", "Har du noen gang spist dumplings?", "Vil du ha dumplings?", "Liker du dumplings?"], "correct": 1, "explain": "过 + 吗 spør om erfaring." },
-    { "id": "q07", "text": "Hvilket ord uttrykker at noe sannsynligvis vil skje?", "options": ["过 guo", "了 le", "会 huì", "没 méi"], "correct": 2, "explain": "明天会下雨。" },
-    { "id": "q08", "text": "Hva betyr 我还没做作业?", "options": ["Jeg har allerede gjort leksene.", "Jeg skal gjøre leksene.", "Jeg gjør aldri lekser.", "Jeg har ikke gjort leksene ennå."], "correct": 3, "explain": "还没 = ennå ikke." },
-    { "id": "q09", "text": "Hva betyr 打算?", "options": ["planlegge", "slå", "regne", "kjøpe"], "correct": 0, "explain": "我打算学中文。" },
-    { "id": "q10", "text": "Hva betyr 去年?", "options": ["neste år", "i fjor", "i år", "for lenge siden"], "correct": 1, "explain": "明年 = neste år." }
+    {
+      "id": "q01",
+      "text": "Hvordan viser kinesisk at noe skjedde i fortiden?",
+      "options": [
+        "Ved å bøye verbet",
+        "Med tidsuttrykk og partikler som 了",
+        "Med en egen fortidsendelse",
+        "Ved å endre tonen"
+      ],
+      "correct": 1,
+      "explain": "Verbene bøyes ikke."
+    },
+    {
+      "id": "q02",
+      "text": "Hva betyr 我去过中国?",
+      "options": [
+        "Jeg har vært i Kina.",
+        "Jeg skal til Kina.",
+        "Jeg er i Kina nå.",
+        "Jeg liker Kina."
+      ],
+      "correct": 0,
+      "explain": "过 viser erfaring."
+    },
+    {
+      "id": "q03",
+      "text": "Hvordan nekter du «Jeg kjøpte en bok»?",
+      "options": [
+        "我不买了书。",
+        "我买没了书。",
+        "我没买书。",
+        "我没有了书。"
+      ],
+      "correct": 2,
+      "explain": "没 + verb, og 了 forsvinner."
+    },
+    {
+      "id": "q04",
+      "text": "Hva betyr 已经?",
+      "options": [
+        "ennå ikke",
+        "aldri",
+        "senere",
+        "allerede"
+      ],
+      "correct": 3,
+      "explain": "我已经做了作业。"
+    },
+    {
+      "id": "q05",
+      "text": "Hva betyr 明年我要去中国?",
+      "options": [
+        "Neste år skal jeg til Kina.",
+        "I fjor var jeg i Kina.",
+        "Jeg bor i Kina.",
+        "Jeg har aldri vært i Kina."
+      ],
+      "correct": 0,
+      "explain": "要 om planer."
+    },
+    {
+      "id": "q06",
+      "text": "Hva betyr 你吃过饺子吗？",
+      "options": [
+        "Spiser du dumplings nå?",
+        "Har du noen gang spist dumplings?",
+        "Vil du ha dumplings?",
+        "Liker du dumplings?"
+      ],
+      "correct": 1,
+      "explain": "过 + 吗 spør om erfaring."
+    },
+    {
+      "id": "q07",
+      "text": "Hvilket ord uttrykker at noe sannsynligvis vil skje?",
+      "options": [
+        "过 guo",
+        "了 le",
+        "会 huì",
+        "没 méi"
+      ],
+      "correct": 2,
+      "explain": "明天会下雨。"
+    },
+    {
+      "id": "q08",
+      "text": "Hva betyr 我还没做作业?",
+      "options": [
+        "Jeg har allerede gjort leksene.",
+        "Jeg skal gjøre leksene.",
+        "Jeg gjør aldri lekser.",
+        "Jeg har ikke gjort leksene ennå."
+      ],
+      "correct": 3,
+      "explain": "还没 = ennå ikke."
+    },
+    {
+      "id": "q09",
+      "text": "Hva betyr 打算?",
+      "options": [
+        "planlegge",
+        "slå",
+        "regne",
+        "kjøpe"
+      ],
+      "correct": 0,
+      "explain": "我打算学中文。"
+    },
+    {
+      "id": "q10",
+      "text": "Hva betyr 去年?",
+      "options": [
+        "neste år",
+        "i fjor",
+        "i år",
+        "for lenge siden"
+      ],
+      "correct": 1,
+      "explain": "明年 = neste år."
+    }
   ],
   "mindmap": {
     "label": "Fortid og framtid",
     "children": [
-      { "label": "Tidsuttrykk", "children": [
-        { "label": "昨天, 去年" },
-        { "label": "明年, 以后" }
-      ] },
-      { "label": "Fortid", "children": [
-        { "label": "了: fullført" },
-        { "label": "过: erfaring" },
-        { "label": "没: nekting" }
-      ] },
-      { "label": "Allerede / ennå ikke", "children": [
-        { "label": "已经" },
-        { "label": "还没" }
-      ] },
-      { "label": "Framtid", "children": [
-        { "label": "要" },
-        { "label": "会" },
-        { "label": "打算" },
-        { "label": "想" }
-      ] },
-      { "label": "Fortelle", "children": [
-        { "label": "Tid først" },
-        { "label": "Sammenhengende tekst" }
-      ] }
+      {
+        "label": "Tidsuttrykk",
+        "children": [
+          {
+            "label": "昨天, 去年"
+          },
+          {
+            "label": "明年, 以后"
+          }
+        ]
+      },
+      {
+        "label": "Fortid",
+        "children": [
+          {
+            "label": "了: fullført"
+          },
+          {
+            "label": "过: erfaring"
+          },
+          {
+            "label": "没: nekting"
+          }
+        ]
+      },
+      {
+        "label": "Allerede / ennå ikke",
+        "children": [
+          {
+            "label": "已经"
+          },
+          {
+            "label": "还没"
+          }
+        ]
+      },
+      {
+        "label": "Framtid",
+        "children": [
+          {
+            "label": "要"
+          },
+          {
+            "label": "会"
+          },
+          {
+            "label": "打算"
+          },
+          {
+            "label": "想"
+          }
+        ]
+      },
+      {
+        "label": "Fortelle",
+        "children": [
+          {
+            "label": "Tid først"
+          },
+          {
+            "label": "Sammenhengende tekst"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Kinesiske verb bøyes ikke etter tid.", "correct": true, "explain": "Tid vises med tidsuttrykk og partikler." },
-      { "id": "m02", "type": "sant-usant", "text": "Fullførte handlinger nektes med 不.", "correct": false, "explain": "De nektes med 没(有)." },
-      { "id": "m03", "type": "sant-usant", "text": "过 brukes om noe man har opplevd noen gang.", "correct": true, "explain": "我去过中国。" },
-      { "id": "m04", "type": "sant-usant", "text": "了 står alltid først i setningen.", "correct": false, "explain": "了 står etter verbet eller til slutt i setningen." },
-      { "id": "m05", "type": "flervalg", "text": "Hva betyr 我没去过日本?", "options": ["Jeg skal til Japan.", "Jeg har aldri vært i Japan.", "Jeg var i Japan i går.", "Jeg liker ikke Japan."], "correct": 1, "explain": "没 + verb + 过." },
-      { "id": "m06", "type": "flervalg", "text": "Hva betyr 以后我想当老师?", "options": ["Senere vil jeg bli lærer.", "Før var jeg lærer.", "Læreren min er snill.", "Jeg er lærer nå."], "correct": 0, "explain": "以后 = senere." },
-      { "id": "m07", "type": "flervalg", "text": "Hva betyr 明天会下雨?", "options": ["Det regnet i går.", "Det regner nå.", "Det kommer til å regne i morgen.", "Det regner aldri."], "correct": 2, "explain": "会 om sannsynlighet." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Kinesiske verb bøyes ikke etter tid.",
+        "correct": true,
+        "explain": "Tid vises med tidsuttrykk og partikler."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Fullførte handlinger nektes med 不.",
+        "correct": false,
+        "explain": "De nektes med 没(有)."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "过 brukes om noe man har opplevd noen gang.",
+        "correct": true,
+        "explain": "我去过中国。"
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "了 står alltid først i setningen.",
+        "correct": false,
+        "explain": "了 står etter verbet eller til slutt i setningen."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva betyr 我没去过日本?",
+        "options": [
+          "Jeg skal til Japan.",
+          "Jeg har aldri vært i Japan.",
+          "Jeg var i Japan i går.",
+          "Jeg liker ikke Japan."
+        ],
+        "correct": 1,
+        "explain": "没 + verb + 过."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva betyr 以后我想当老师?",
+        "options": [
+          "Senere vil jeg bli lærer.",
+          "Før var jeg lærer.",
+          "Læreren min er snill.",
+          "Jeg er lærer nå."
+        ],
+        "correct": 0,
+        "explain": "以后 = senere."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva betyr 明天会下雨?",
+        "options": [
+          "Det regnet i går.",
+          "Det regner nå.",
+          "Det kommer til å regne i morgen.",
+          "Det regner aldri."
+        ],
+        "correct": 2,
+        "explain": "会 om sannsynlighet."
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

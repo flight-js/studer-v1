@@ -31108,7 +31108,11 @@ Alle kan oversettes med «kan», men betyr litt forskjellig:
 
 ## Å skrive om seg selv
 
-*我叫……。我是高中生。我最喜欢的科目是英语。我的爱好是弹钢琴和游泳。我会说一点儿中文。*', '{"label":"Skole og fritid","children":[{"label":"Skole","children":[{"label":"上课, 下课"},{"label":"作业, 考试"},{"label":"Fag"}]},{"label":"Kina","children":[{"label":"Lange skoledager"},{"label":"Uniform"},{"label":"高考"}]},{"label":"Hobbyer","children":[{"label":"踢足球"},{"label":"打篮球"},{"label":"弹钢琴"}]},{"label":"Modalverb","children":[{"label":"会: lært"},{"label":"能: i stand til"},{"label":"可以: lov til"}]},{"label":"Hvor ofte","children":[{"label":"每天"},{"label":"常常"},{"label":"有时候"}]}]}'::jsonb)
+*我叫……。我是高中生。我最喜欢的科目是英语。我的爱好是弹钢琴和游泳。我会说一点儿中文。*
+
+## Strategier
+
+Når du lærer nye ord om skole og fritid, kan du lage **ordkort** med tegn på den ene siden og pinyin og betydning på den andre. Øv på å **presentere deg selv** muntlig i ett minutt, og skriv en kort tekst om skoledagen din. Sammenlign gjerne skolehverdagen i Norge og Kina: Hva er likt, og hva er forskjellig?', '{"label":"Skole og fritid","children":[{"label":"Skole","children":[{"label":"上课, 下课"},{"label":"作业, 考试"},{"label":"Fag"}]},{"label":"Kina","children":[{"label":"Lange skoledager"},{"label":"Uniform"},{"label":"高考"}]},{"label":"Hobbyer","children":[{"label":"踢足球"},{"label":"打篮球"},{"label":"弹钢琴"}]},{"label":"Modalverb","children":[{"label":"会: lært"},{"label":"能: i stand til"},{"label":"可以: lov til"}]},{"label":"Hvor ofte","children":[{"label":"每天"},{"label":"常常"},{"label":"有时候"}]}]}'::jsonb)
 on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
 delete from public.flashcards where tema_id = 'kinesisk-vg2:skole-og-fritid';
 insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
@@ -31207,7 +31211,16 @@ Stedsord: 旁边 *pángbiān* (ved siden av), 前边 *qiánbian* (foran), 后边
 
 ## Reise i Kina
 
-Mange bruker **mobilen** til alt – billetter, kart og betaling. På store høytider, særlig **vårfestivalen**, reiser hundrevis av millioner hjem, og det er vanskelig å få billetter.', '{"label":"Reise og veibeskrivelse","children":[{"label":"Transport","children":[{"label":"坐火车, 坐飞机"},{"label":"坐地铁, 坐高铁"},{"label":"骑自行车"}]},{"label":"Tid og avstand","children":[{"label":"从……到……"},{"label":"要多长时间？"},{"label":"离 + 近/远"}]},{"label":"Sted","children":[{"label":"在哪儿？"},{"label":"旁边, 前边, 后边"},{"label":"对面"}]},{"label":"Veibeskrivelse","children":[{"label":"怎么走？"},{"label":"一直走"},{"label":"往左/右拐"}]},{"label":"Kina","children":[{"label":"Høyhastighetstog"},{"label":"Mobil til alt"},{"label":"Vårfestivalen"}]}]}'::jsonb)
+Mange bruker **mobilen** til alt – billetter, kart og betaling. På store høytider, særlig **vårfestivalen**, reiser hundrevis av millioner hjem, og det er vanskelig å få billetter.
+
+## Nyttig på reise
+
+- 票 *piào* – billett
+- 火车站 *huǒchēzhàn* – jernbanestasjon
+- 机场 *jīchǎng* – flyplass
+- 地图 *dìtú* – kart
+
+*我要一张去上海的票。* – Jeg vil ha en billett til Shanghai. Øv gjerne på å gi veibeskrivelser til en medelev med et kart over nærmiljøet ditt.', '{"label":"Reise og veibeskrivelse","children":[{"label":"Transport","children":[{"label":"坐火车, 坐飞机"},{"label":"坐地铁, 坐高铁"},{"label":"骑自行车"}]},{"label":"Tid og avstand","children":[{"label":"从……到……"},{"label":"要多长时间？"},{"label":"离 + 近/远"}]},{"label":"Sted","children":[{"label":"在哪儿？"},{"label":"旁边, 前边, 后边"},{"label":"对面"}]},{"label":"Veibeskrivelse","children":[{"label":"怎么走？"},{"label":"一直走"},{"label":"往左/右拐"}]},{"label":"Kina","children":[{"label":"Høyhastighetstog"},{"label":"Mobil til alt"},{"label":"Vårfestivalen"}]}]}'::jsonb)
 on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
 delete from public.flashcards where tema_id = 'kinesisk-vg2:reise-og-veibeskrivelse';
 insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
@@ -31312,7 +31325,11 @@ Merk: I 比-setninger bruker man **ikke 很**.
 
 ## Nettshopping
 
-Netthandel (*网上购物* *wǎngshàng gòuwù*) er enormt i Kina, og **11. november** – *Singles'' Day* – er verdens største handledag på nett.', '{"label":"Handel og sammenligning","children":[{"label":"Butikken","children":[{"label":"买 og 卖"},{"label":"衣服"},{"label":"试试"}]},{"label":"Farger","children":[{"label":"红色, 蓝色"},{"label":"黑色, 白色"},{"label":"绿色, 黄色"}]},{"label":"Måleord","children":[{"label":"件"},{"label":"条"},{"label":"双"}]},{"label":"Pris","children":[{"label":"多少钱？"},{"label":"便宜一点"},{"label":"Mobilbetaling"}]},{"label":"Sammenligning","children":[{"label":"A 比 B + adj."},{"label":"A 没有 B + adj."},{"label":"A 跟 B 一样"}]}]}'::jsonb)
+Netthandel (*网上购物* *wǎngshàng gòuwù*) er enormt i Kina, og **11. november** – *Singles'' Day* – er verdens største handledag på nett.
+
+## Strategier
+
+Lær **måleordene** sammen med substantivet – *一件衬衫*, *一双鞋* – så sitter de bedre. Øv på et **rollespill** der én er selger og én er kunde, og bruk både pris, farge og sammenligning. Sammenlign også priser i Norge og Kina: Hva er dyrere, og hva er billigere?', '{"label":"Handel og sammenligning","children":[{"label":"Butikken","children":[{"label":"买 og 卖"},{"label":"衣服"},{"label":"试试"}]},{"label":"Farger","children":[{"label":"红色, 蓝色"},{"label":"黑色, 白色"},{"label":"绿色, 黄色"}]},{"label":"Måleord","children":[{"label":"件"},{"label":"条"},{"label":"双"}]},{"label":"Pris","children":[{"label":"多少钱？"},{"label":"便宜一点"},{"label":"Mobilbetaling"}]},{"label":"Sammenligning","children":[{"label":"A 比 B + adj."},{"label":"A 没有 B + adj."},{"label":"A 跟 B 一样"}]}]}'::jsonb)
 on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
 delete from public.flashcards where tema_id = 'kinesisk-vg2:handel-og-sammenligning';
 insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
@@ -31405,7 +31422,11 @@ Nyttige tidsuttrykk: 昨天 *zuótiān* (i går), 去年 *qùnián* (i fjor), �
 
 *去年夏天我去了北京。我们坐飞机去的。我吃了北京烤鸭，也去了长城。长城很长！明年我打算再去中国。*
 
-(I fjor sommer dro jeg til Beijing. Vi dro med fly. Jeg spiste Peking-and og besøkte muren. Muren er veldig lang! Neste år planlegger jeg å dra til Kina igjen.)', '{"label":"Fortid og framtid","children":[{"label":"Tidsuttrykk","children":[{"label":"昨天, 去年"},{"label":"明年, 以后"}]},{"label":"Fortid","children":[{"label":"了: fullført"},{"label":"过: erfaring"},{"label":"没: nekting"}]},{"label":"Allerede / ennå ikke","children":[{"label":"已经"},{"label":"还没"}]},{"label":"Framtid","children":[{"label":"要"},{"label":"会"},{"label":"打算"},{"label":"想"}]},{"label":"Fortelle","children":[{"label":"Tid først"},{"label":"Sammenhengende tekst"}]}]}'::jsonb)
+(I fjor sommer dro jeg til Beijing. Vi dro med fly. Jeg spiste Peking-and og besøkte muren. Muren er veldig lang! Neste år planlegger jeg å dra til Kina igjen.)
+
+## Strategier
+
+Når du skriver om fortiden på kinesisk, er det lurt å starte setningen med et **tidsuttrykk**. Bruk **了** når noe er fullført, og **过** når du forteller om erfaringer. Skriv gjerne en kort **dagbok** på kinesisk om hva du gjorde i helgen, og hva du planlegger neste uke.', '{"label":"Fortid og framtid","children":[{"label":"Tidsuttrykk","children":[{"label":"昨天, 去年"},{"label":"明年, 以后"}]},{"label":"Fortid","children":[{"label":"了: fullført"},{"label":"过: erfaring"},{"label":"没: nekting"}]},{"label":"Allerede / ennå ikke","children":[{"label":"已经"},{"label":"还没"}]},{"label":"Framtid","children":[{"label":"要"},{"label":"会"},{"label":"打算"},{"label":"想"}]},{"label":"Fortelle","children":[{"label":"Tid først"},{"label":"Sammenhengende tekst"}]}]}'::jsonb)
 on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
 delete from public.flashcards where tema_id = 'kinesisk-vg2:fortid-og-framtid';
 insert into public.flashcards (tema_id, begrep, forklaring, sortering) values

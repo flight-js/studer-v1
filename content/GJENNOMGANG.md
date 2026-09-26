@@ -605,10 +605,10 @@ Læreplan: [HIS01-03](https://www.udir.no/lk20/his01-03/kompetansemaal-og-vurder
 Læreplan: [FSP01-04](https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurdering/kv965)
 
 - 🟡 **Mat og restaurant** – utkast (303 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
-- 🟡 **Skole, fritid og ferdigheter** – utkast (286 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
-- 🟡 **Reise, transport og veibeskrivelse** – utkast (287 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
-- 🟡 **Handel, klær og sammenligning** – utkast (294 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
-- 🟡 **Å snakke om fortid og framtid** – utkast (280 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Skole, fritid og ferdigheter** – utkast (345 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Reise, transport og veibeskrivelse** – utkast (330 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Handel, klær og sammenligning** – utkast (342 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Å snakke om fortid og framtid** – utkast (330 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
 - 🔴 **Det moderne Kina** – sjekkes (350 ord · 15 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
   - Sjekk: Kinesisk bør gjennomgås av en lærer med kinesiskkompetanse (tegn, pinyin og toner).
   - Sjekk: Politiske formuleringer om Taiwan, Hongkong og menneskerettigheter bør vurderes av lærer.
