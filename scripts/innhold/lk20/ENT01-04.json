@@ -1,0 +1,45 @@
+{
+ "kode": "ENT01-04",
+ "tittel": "Læreplan i entreprenørskap og bedriftsutvikling",
+ "url": "https://www.udir.no/lk20/ent01-04",
+ "sett": [
+  {
+   "kode": "KV885",
+   "tittel": "Kompetansemål og vurdering entreprenørskap og bedriftsutvikling 1",
+   "maal": [
+    "bruke kilder, teorier og modeller i arbeid med faglige spørsmål, emner og problemstillinger",
+    "utforske ulike kreativitetsprosesser og utvikle forretningsideer",
+    "utforske og bruke ulike innovasjonsprosesser ved etablering av virksomheter",
+    "utvikle forretningsmodeller og vurdere opp mot bærekraftig utvikling",
+    "utforske og vurdere hvordan samhandling påvirker innovasjon og utvikling",
+    "sammenligne og vurdere informasjon om markeder, kjøpsatferd og segmenter for å ta beslutninger",
+    "gjennomføre situasjonsanalyse, vurdere utviklingsmuligheter og sette mål i en oppstartsfase",
+    "utforske og bruke ulike konkurransemidler i en oppstartsfase",
+    "vurdere og velge selskapsformer ut fra risiko og ansvar ved etablering",
+    "reflektere over hva som kjennetegner en god leder i etableringsfasen, og hvordan leder og medarbeidere samhandler og setter sammen gode team",
+    "beregne og vurdere pris og kapitalbehov, utarbeide budsjett og vurdere finansieringsmuligheter med tanke på risiko og ansvar for en ny virksomhet",
+    "lese regnskap og nøkkeltall for å vurdere en virksomhets lønnsomhet",
+    "reflektere over hva entreprenøriell kompetanse er, og vurdere hva det har å si for utvikling av virksomheter"
+   ]
+  },
+  {
+   "kode": "KV886",
+   "tittel": "Kompetansemål og vurdering entreprenørskap og bedriftsutvikling 2",
+   "maal": [
+    "bruke kilder, teorier og modeller i arbeid med faglige spørsmål, emner og problemstillinger",
+    "utforske ulike innovasjonsprosesser og drøfte betydningen innovasjon har for videreutvikling av en virksomhet",
+    "utforske og vurdere konsekvenser bærekraftig verdiskaping har for videreutvikling av en virksomhet",
+    "utforske og vurdere forretningsmodeller for å videreutvikle virksomheter",
+    "reflektere over hva samfunnsansvar innebærer, og utforske og sammenligne virksomheters samfunnsansvar lokalt og globalt",
+    "kartlegge og vurdere støtteordninger i videreutvikling av virksomheter nasjonalt og internasjonalt",
+    "utforske og vurdere hvordan virksomheter kan bruke ulike vekst-, markeds- og konkurransestrategier ved videreutvikling",
+    "vurdere internasjonale forretningsmuligheter og sammenligne nasjonale og internasjonale forretningskulturer",
+    "vurdere ulike lederstiler og drøfte hvordan ledere og medarbeidere kan påvirke utviklingen av virksomheter",
+    "vurdere bruk av prosjekt og andre samarbeidsformer og betydningen nettverksbygging har i utvikling av virksomheter",
+    "vurdere behovet for organisasjonsutvikling i etablerte virksomheter",
+    "vurdere hvordan finansiering av kapitalbehov bidrar til framtidig lønnsomhet og verdiskaping for virksomheter",
+    "reflektere over og vurdere betydningen entreprenøriell kompetanse har for videreutvikling av en virksomhet"
+   ]
+  }
+ ]
+}

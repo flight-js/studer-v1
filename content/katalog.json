@@ -8,6 +8,7 @@
         { "id": "norsk-8", "navn": "Norsk" },
         { "id": "matematikk-8", "navn": "Matematikk" },
         { "id": "engelsk-8", "navn": "Engelsk" },
+        { "id": "engelsk-fordypning-8", "navn": "Engelsk fordypning" },
         { "id": "naturfag-8", "navn": "Naturfag" },
         { "id": "samfunnsfag-8", "navn": "Samfunnsfag" },
         { "id": "krle-8", "navn": "KRLE" },
@@ -25,6 +26,7 @@
         { "id": "norsk-9", "navn": "Norsk" },
         { "id": "matematikk-9", "navn": "Matematikk" },
         { "id": "engelsk-9", "navn": "Engelsk" },
+        { "id": "engelsk-fordypning-9", "navn": "Engelsk fordypning" },
         { "id": "naturfag-9", "navn": "Naturfag" },
         { "id": "samfunnsfag-9", "navn": "Samfunnsfag" },
         { "id": "krle-9", "navn": "KRLE" },
@@ -43,6 +45,7 @@
         { "id": "norsk-10", "navn": "Norsk" },
         { "id": "matematikk-10", "navn": "Matematikk" },
         { "id": "engelsk-10", "navn": "Engelsk" },
+        { "id": "engelsk-fordypning-10", "navn": "Engelsk fordypning" },
         { "id": "naturfag-10", "navn": "Naturfag" },
         { "id": "samfunnsfag-10", "navn": "Samfunnsfag" },
         { "id": "krle-10", "navn": "KRLE" },
@@ -67,7 +70,8 @@
         { "id": "samfunnskunnskap-vg1", "navn": "Samfunnskunnskap" },
         { "id": "tysk-vg1", "navn": "Tysk" },
         { "id": "fransk-vg1", "navn": "Fransk" },
-        { "id": "spansk-vg1", "navn": "Spansk" }
+        { "id": "spansk-vg1", "navn": "Spansk" },
+        { "id": "kinesisk-vg1", "navn": "Kinesisk" }
       ]
     },
     {
@@ -80,6 +84,7 @@
         { "id": "tysk-vg2", "navn": "Tysk" },
         { "id": "fransk-vg2", "navn": "Fransk" },
         { "id": "spansk-vg2", "navn": "Spansk" },
+        { "id": "kinesisk-vg2", "navn": "Kinesisk" },
         { "id": "kjemi-1", "navn": "Kjemi 1" },
         { "id": "fysikk-1", "navn": "Fysikk 1" },
         { "id": "biologi-1", "navn": "Biologi 1" },
@@ -92,6 +97,7 @@
         { "id": "rettslare-1", "navn": "Rettslære 1" },
         { "id": "psykologi-1", "navn": "Psykologi 1" },
         { "id": "markedsforing-og-ledelse-1", "navn": "Markedsføring og ledelse 1" },
+        { "id": "entreprenorskap-og-bedriftsutvikling-1", "navn": "Entreprenørskap og bedriftsutvikling 1" },
         { "id": "samfunnsokonomi-1", "navn": "Samfunnsøkonomi 1" }
       ]
     },

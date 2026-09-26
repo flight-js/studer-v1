@@ -1,6 +1,6 @@
 # Fremdrift: studieinnhold
 
-Status for arbeidet med å lage innhold til alle 72 fag (8. trinn–Vg3), og hvordan man fortsetter.
+Status for arbeidet med å lage innhold til alle 78 fag (8. trinn–Vg3), og hvordan man fortsetter.
 
 ## Ferdig (lastet inn i Supabase, publisert som utkast)
 
@@ -41,6 +41,7 @@ Kompetansemålene ligger i `scripts/innhold/lk20/` (hent flere med `lk20-hent.mj
 | norsk-8/9/10 | NOR01-08 | KV1110 |
 | matematikk-8/9/10 | MAT01-06 | KV1027 / KV1028 / KV1029 |
 | engelsk-8/9/10 | ENG01-06 | KV1033 |
+| engelsk-fordypning-8/9/10 | ENG03-02 | KV13 (etter 10. trinn) |
 | naturfag-8/9/10 | NAT01-05 | KV1078 |
 | samfunnsfag-8/9/10 | SAF01-05 | KV1151 |
 | krle-8/9/10 | RLE01-04 | KV1145 |
@@ -70,6 +71,8 @@ Kompetansemålene ligger i `scripts/innhold/lk20/` (hent flere med `lk20-hent.mj
 | psykologi-1 / psykologi-2 | PSY01-04 | KV883 / KV884 |
 | markedsforing-og-ledelse-1 / -2 | MFL01-04 | KV887 / KV888 |
 | samfunnsokonomi-1 | SOK01-04 | KV1000 |
+| kinesisk-vg1 / -vg2 | FSP01-04 | KV966 (nivå II) – sjekk om skolen bruker nivå I (KV965) |
+| entreprenorskap-og-bedriftsutvikling-1 | ENT01-04 | KV885 |
 | sosialkunnskap | POS02-02 | KV892 |
 
 ## Planlagt temainndeling (ikke skrevet ennå)
