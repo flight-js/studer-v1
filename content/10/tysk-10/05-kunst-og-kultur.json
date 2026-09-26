@@ -1,0 +1,83 @@
+{
+  "id": "kunst-og-kultur",
+  "fagId": "tysk-10",
+  "trinnId": "10",
+  "name": "Kunst og kultur",
+  "intro": "Kjent musikk, litteratur, film, kunst og arkitektur fra tyskspråklige land, og hvordan du presenterer et kunstverk og uttrykker hva du synes på tysk.",
+  "kompetansemaal": [9],
+  "sammendrag": "## Musikk\n\n- **Klassisk musikk**: **Johann Sebastian Bach** og **Ludwig van Beethoven** var tyske, og **Wolfgang Amadeus Mozart** ble født i **Salzburg** i Østerrike. Melodien «**Ode an die Freude**» fra Beethovens niende symfoni er i dag **EUs hymne**.\n- **Moderne musikk**: **Kraftwerk** fra Düsseldorf regnes som pionerer innen elektronisk musikk, og **Rammstein** er kjent over hele verden for sin harde rock på tysk. **Nena** hadde en verdenshit med «99 Luftballons» på 1980-tallet. Tyskland har vunnet **Eurovision Song Contest** to ganger, sist med **Lena** i 2010.\n\n## Litteratur\n\n- **Johann Wolfgang von Goethe** regnes som Tysklands største forfatter. Skuespillet *Faust* handler om en mann som inngår en pakt med djevelen.\n- **Brødrene Grimm** samlet eventyr som *Snøhvit*, *Rødhette* og *Hans og Grete*.\n- **Franz Kafka** skrev på tysk selv om han bodde i Praha. I *Die Verwandlung* (Forvandlingen) våkner en mann opp som et insekt.\n- **Michael Ende** skrev *Die unendliche Geschichte* (Den uendelige historien) og *Momo*, og **Cornelia Funke** har skrevet populære fantasybøker for unge.\n\n## Film\n\nTyske filmer har vunnet flere Oscar-priser. *Das Leben der Anderen* (De andres liv) handler om overvåking i Øst-Tyskland, og krigsfilmen *Im Westen nichts Neues* (Intet nytt fra Vestfronten) vant fire Oscar-priser i 2023.\n\n## Kunst og arkitektur\n\n- **Albrecht Dürer** var en kjent maler og grafiker på 1500-tallet.\n- **Gustav Klimt** fra Wien malte det gullglinsende maleriet *Kysset*.\n- **Bauhaus** var en skole for arkitektur, kunst og design, grunnlagt i **1919**. Den enkle, funksjonelle stilen har påvirket møbler og bygninger over hele verden.\n- **Schloss Neuschwanstein** i Bayern ser ut som et eventyrslott og har inspirert slott i film. **Kölner Dom** er en av Europas største gotiske katedraler.\n\n## Si hva du synes\n\n- **Mein Lieblingslied / Lieblingsbuch / Lieblingsfilm ist …** – Yndlingssangen / -boka / -filmen min er …\n- **Das Buch handelt von …** – Boka handler om …\n- **Das gefällt mir, weil …** – Jeg liker det, fordi …\n- **Ich finde den Film spannend / langweilig / lustig / traurig.** – Jeg synes filmen er spennende / kjedelig / morsom / trist.\n\n## Presentere et kunstverk\n\nNår du presenterer et kunstverk, en sang eller en bok, kan du fortelle hvem som har laget det, når det ble laget, og hva det handler om. Til slutt sier du hva du selv synes, med begrunnelse: *Ich finde das Lied schön, weil der Text sehr persönlich ist.* Å oppleve kunst på tysk er en fin måte å lære språket på – prøv å lytte til en tysk sang eller se en tysk film med undertekster.",
+  "flashcards": [
+    { "term": "Beethoven – Ode an die Freude", "def": "Melodien fra 9. symfoni er EUs hymne" },
+    { "term": "Mozart", "def": "Komponist født i Salzburg i Østerrike" },
+    { "term": "Kraftwerk", "def": "Tysk gruppe, pionerer innen elektronisk musikk" },
+    { "term": "Rammstein", "def": "Verdenskjent tysk rockeband" },
+    { "term": "die Brüder Grimm", "def": "Samlet eventyr som Snøhvit og Rødhette" },
+    { "term": "Goethe", "def": "Tysklands mest kjente forfatter, skrev Faust" },
+    { "term": "Franz Kafka", "def": "Skrev på tysk i Praha, blant annet Forvandlingen" },
+    { "term": "Michael Ende", "def": "Skrev Den uendelige historien og Momo" },
+    { "term": "Bauhaus", "def": "Skole for arkitektur, kunst og design fra 1919" },
+    { "term": "Gustav Klimt", "def": "Østerriksk maler som malte Kysset" },
+    { "term": "Neuschwanstein", "def": "Eventyrslott i Bayern" },
+    { "term": "Im Westen nichts Neues", "def": "Tysk krigsfilm som vant fire Oscar-priser i 2023" },
+    { "term": "Das gefällt mir.", "def": "Jeg liker det." },
+    { "term": "Das Buch handelt von …", "def": "Boka handler om …" },
+    { "term": "Mein Lieblingslied ist …", "def": "Yndlingssangen min er …" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvilken melodi av Beethoven er EUs hymne?", "options": ["Für Elise", "Ode an die Freude", "Stille Nacht", "Die Zauberflöte"], "correct": 1, "explain": "Melodien kommer fra hans niende symfoni." },
+    { "id": "q02", "text": "Hvor ble Mozart født?", "options": ["Berlin", "Bonn", "Wien", "Salzburg"], "correct": 3, "explain": "Beethoven ble født i Bonn." },
+    { "id": "q03", "text": "Hvilken tysk gruppe regnes som pionerer innen elektronisk musikk?", "options": ["Kraftwerk", "ABBA", "a-ha", "The Beatles"], "correct": 0, "explain": "Kraftwerk har påvirket mye av dagens popmusikk." },
+    { "id": "q04", "text": "Hvem skrev «Den uendelige historien» («Die unendliche Geschichte»)?", "options": ["Goethe", "Kafka", "Michael Ende", "Thomas Mann"], "correct": 2, "explain": "Boka er også blitt film." },
+    { "id": "q05", "text": "Hva var Bauhaus?", "options": ["Et slott", "En byggevarekjede", "Et rockeband", "En skole for arkitektur, kunst og design fra 1919"], "correct": 3, "explain": "Bauhaus-stilen er enkel og funksjonell." },
+    { "id": "q06", "text": "Hvilket slott i Bayern har inspirert eventyrslott i film?", "options": ["Versailles", "Neuschwanstein", "Akershus", "Buckingham Palace"], "correct": 1, "explain": "Slottet ble bygd på 1800-tallet for kong Ludwig II." },
+    { "id": "q07", "text": "Hvordan sier du «Jeg liker det» om en sang eller en bok?", "options": ["Das gefällt mir.", "Das mag mich.", "Ich gefalle das.", "Das liebt mich."], "correct": 0, "explain": "«gefallen» betyr egentlig å falle i smak." },
+    { "id": "q08", "text": "Hvilken østerriksk kunstner malte «Kysset»?", "options": ["Albrecht Dürer", "Edvard Munch", "Gustav Klimt", "Pablo Picasso"], "correct": 2, "explain": "Maleriet henger i Wien." },
+    { "id": "q09", "text": "Hva betyr «Das Buch handelt von einem Jungen»?", "options": ["Boka er skrevet av en gutt", "Boka ble solgt av en gutt", "Gutten leser boka", "Boka handler om en gutt"], "correct": 3, "explain": "«handeln von» betyr å handle om." },
+    { "id": "q10", "text": "Hvilken tysk film vant fire Oscar-priser i 2023?", "options": ["Im Westen nichts Neues", "Lola rennt", "Good Bye, Lenin!", "Das Boot"], "correct": 0, "explain": "Filmen handler om første verdenskrig." }
+  ],
+  "mindmap": {
+    "label": "Kunst og kultur",
+    "children": [
+      { "label": "Musikk", "children": [
+        { "label": "Bach, Beethoven, Mozart" },
+        { "label": "Kraftwerk, Rammstein" },
+        { "label": "Eurovision" }
+      ] },
+      { "label": "Litteratur", "children": [
+        { "label": "Goethe" },
+        { "label": "Brødrene Grimm" },
+        { "label": "Kafka" },
+        { "label": "Michael Ende" }
+      ] },
+      { "label": "Film", "children": [
+        { "label": "Das Leben der Anderen" },
+        { "label": "Im Westen nichts Neues" }
+      ] },
+      { "label": "Kunst og arkitektur", "children": [
+        { "label": "Dürer" },
+        { "label": "Klimt" },
+        { "label": "Bauhaus" },
+        { "label": "Neuschwanstein, Kölner Dom" }
+      ] },
+      { "label": "Si hva du synes", "children": [
+        { "label": "Das gefällt mir, weil …" },
+        { "label": "Das Buch handelt von …" },
+        { "label": "Ich finde …" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Brødrene Grimm samlet eventyr som «Snøhvit» og «Rødhette».", "correct": true, "explain": "Samlingen kom ut på 1800-tallet." },
+      { "id": "m02", "type": "sant-usant", "text": "Franz Kafka skrev bøkene sine på tsjekkisk.", "correct": false, "explain": "Kafka bodde i Praha, men skrev på tysk." },
+      { "id": "m03", "type": "sant-usant", "text": "Tyskland har vunnet Eurovision Song Contest.", "correct": true, "explain": "Tyskland har vunnet to ganger, sist i 2010." },
+      { "id": "m04", "type": "sant-usant", "text": "Goethe var en kjent tysk fotballspiller.", "correct": false, "explain": "Goethe var forfatter og levde fra 1749 til 1832." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken by er kjent for en stor gotisk katedral, der Dom?", "options": ["Köln", "Hamburg", "Bremen", "Kiel"], "correct": 0, "explain": "Kölner Dom står på UNESCOs verdensarvliste." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er «Faust»?", "options": ["En film", "Et kjent skuespill av Goethe", "En sang", "Et slott"], "correct": 1, "explain": "Faust inngår en pakt med djevelen." },
+      { "id": "m07", "type": "flervalg", "text": "Hva betyr «Mein Lieblingslied ist …»?", "options": ["Yndlingsfilmen min er …", "Yndlingsboka mi er …", "Yndlingssangen min er …", "Yndlingsbandet mitt er …"], "correct": 2, "explain": "«das Lied» betyr sangen." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

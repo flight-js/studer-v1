@@ -1,0 +1,87 @@
+{
+  "id": "helse-og-kropp",
+  "fagId": "tysk-10",
+  "trinnId": "10",
+  "name": "Helse og kropp",
+  "intro": "Kroppsdeler, sykdom og følelser på tysk, hvordan du forklarer hva som er galt hos legen, modalverbene müssen, sollen, dürfen og können, og råd for et sunt liv.",
+  "kompetansemaal": [2, 1],
+  "sammendrag": "## Kroppen – der Körper\n\n**der Kopf** (hodet), **das Gesicht** (ansiktet), **die Augen** (øynene), **die Ohren** (ørene), **die Nase**, **der Mund** (munnen), **die Zähne** (tennene), **der Hals** (halsen), **der Rücken** (ryggen), **der Bauch** (magen), **der Arm**, **die Hand**, **der Finger**, **das Bein** (beinet), **das Knie** og **der Fuß** (foten).\n\n## Når du er syk\n\n- **Was ist los?** / **Was fehlt dir?** – Hva er i veien?\n- **Ich bin krank / müde / erkältet.** – Jeg er syk / trøtt / forkjølet.\n- **Mir ist schlecht.** – Jeg er kvalm.\n- **Ich habe Kopfschmerzen / Bauchschmerzen / Halsschmerzen.** – Jeg har vondt i hodet / magen / halsen. *Schmerzen* betyr smerter.\n- **Ich habe Fieber / Husten / Schnupfen.** – Jeg har feber / hoste / snue.\n- **Mein Bein tut weh.** – Beinet mitt gjør vondt.\n- **Gute Besserung!** – God bedring!\n\n## Hos legen – beim Arzt\n\n**der Arzt / die Ärztin** (legen), **die Praxis** (legekontoret), **das Rezept** (resepten), **die Tabletten** og **die Apotheke** (apoteket).\n\n- **Seit wann haben Sie Fieber?** – Hvor lenge har De hatt feber? – **Seit zwei Tagen.** – I to dager.\n- **Sie sollen im Bett bleiben und viel trinken.** – De bør holde senga og drikke mye.\n\nI Tyskland ringer du **112** for ambulanse og brannvesen og **110** for politiet. Nordmenn på reise i Europa bør ha med seg **Europeisk helsetrygdkort**.\n\n## Modalverb\n\nModalverb brukes sammen med et annet verb i **infinitiv**, som står **til slutt** i setningen:\n\n- **müssen** (må): ich **muss**, du **musst** – *Ich muss zum Arzt gehen.*\n- **sollen** (skal, bør): ich **soll**, du **sollst** – *Du sollst viel Wasser trinken.*\n- **dürfen** (få lov): ich **darf**, du **darfst** – *Du darfst heute keinen Sport machen.*\n- **können** (kan): ich **kann**, du **kannst** – *Ich kann nicht schlafen.*\n\n## Et sunt liv – gesund leben\n\n- **genug schlafen** – sove nok\n- **sich bewegen** og **Sport treiben** – bevege seg og drive med idrett\n- **Obst und Gemüse essen** – spise frukt og grønnsaker\n- **nicht rauchen** – ikke røyke\n- **Pausen machen** – ta pauser fra skjermen og stresset\n\n## Følelser\n\n**Ich bin glücklich** (glad, lykkelig), **traurig** (lei meg), **nervös**, **gestresst** (stresset) eller **wütend** (sint). Det er lurt å snakke med noen når man ikke har det bra: *Ich möchte mit jemandem reden.* – Jeg vil gjerne snakke med noen.",
+  "flashcards": [
+    { "term": "der Kopf", "def": "hodet" },
+    { "term": "der Bauch", "def": "magen" },
+    { "term": "der Rücken", "def": "ryggen" },
+    { "term": "das Bein", "def": "beinet" },
+    { "term": "der Fuß", "def": "foten" },
+    { "term": "die Hand", "def": "hånden" },
+    { "term": "Ich habe Kopfschmerzen.", "def": "Jeg har hodepine." },
+    { "term": "Ich habe Fieber.", "def": "Jeg har feber." },
+    { "term": "Mein Bein tut weh.", "def": "Beinet mitt gjør vondt." },
+    { "term": "Ich bin erkältet.", "def": "Jeg er forkjølet." },
+    { "term": "Gute Besserung!", "def": "God bedring!" },
+    { "term": "der Arzt / die Ärztin", "def": "legen" },
+    { "term": "das Rezept", "def": "resepten (på medisin)" },
+    { "term": "müssen: ich muss", "def": "å måtte: jeg må" },
+    { "term": "sollen: du sollst", "def": "å skulle, burde: du bør" },
+    { "term": "gesund leben", "def": "å leve sunt" },
+    { "term": "112", "def": "Nødnummer for ambulanse og brannvesen i Tyskland og resten av EU" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva betyr «der Bauch»?", "options": ["Ryggen", "Hodet", "Magen", "Beinet"], "correct": 2, "explain": "Ryggen heter «der Rücken»." },
+    { "id": "q02", "text": "Hvordan sier du «Jeg har hodepine»?", "options": ["Ich habe Kopfschmerzen.", "Ich bin Kopf.", "Mein Kopf ist krank.", "Ich habe Kopf."], "correct": 0, "explain": "«Kopf» + «Schmerzen» = hodesmerter." },
+    { "id": "q03", "text": "Hva sier du til noen som er syke?", "options": ["Guten Appetit!", "Prost!", "Viel Spaß!", "Gute Besserung!"], "correct": 3, "explain": "Det betyr «God bedring!»." },
+    { "id": "q04", "text": "Hva betyr «Mein Bein tut weh»?", "options": ["Jeg har brukket beinet", "Beinet mitt gjør vondt", "Beinet mitt er langt", "Jeg står på beina"], "correct": 1, "explain": "«weh tun» betyr å gjøre vondt." },
+    { "id": "q05", "text": "Hva betyr «Ich bin erkältet»?", "options": ["Jeg fryser", "Jeg er sulten", "Jeg er trøtt", "Jeg er forkjølet"], "correct": 3, "explain": "Jeg fryser heter «Mir ist kalt»." },
+    { "id": "q06", "text": "Hvilket modalverb betyr «må»?", "options": ["dürfen", "sollen", "müssen", "wollen"], "correct": 2, "explain": "«Ich muss zum Arzt» betyr jeg må til legen." },
+    { "id": "q07", "text": "Hva er «das Rezept» hos legen?", "options": ["Resepten på medisin", "En kakeoppskrift", "Regningen", "Timen"], "correct": 0, "explain": "Ordet kan også bety oppskrift på mat." },
+    { "id": "q08", "text": "Hvilket nummer ringer du for ambulanse i Tyskland?", "options": ["113", "112", "911", "110"], "correct": 1, "explain": "110 er nummeret til politiet." },
+    { "id": "q09", "text": "Hva betyr «Du darfst keinen Sport machen»?", "options": ["Du må trene", "Du bør trene", "Du kan trene", "Du får ikke drive med sport"], "correct": 3, "explain": "«dürfen» betyr å få lov." },
+    { "id": "q10", "text": "Hvilket råd hører til et sunt liv?", "options": ["Genug schlafen und sich bewegen", "Viel rauchen", "Nie Obst essen", "Immer Fast Food essen"], "correct": 0, "explain": "Søvn og bevegelse er viktig for helsa." }
+  ],
+  "mindmap": {
+    "label": "Helse og kropp",
+    "children": [
+      { "label": "Kroppen", "children": [
+        { "label": "Kopf, Gesicht" },
+        { "label": "Bauch, Rücken" },
+        { "label": "Arm, Hand, Bein, Fuß" }
+      ] },
+      { "label": "Syk", "children": [
+        { "label": "Kopfschmerzen" },
+        { "label": "Fieber, Husten" },
+        { "label": "… tut weh" },
+        { "label": "Gute Besserung!" }
+      ] },
+      { "label": "Hos legen", "children": [
+        { "label": "Arzt, Ärztin" },
+        { "label": "Seit wann …?" },
+        { "label": "Rezept, Apotheke" },
+        { "label": "112 og 110" }
+      ] },
+      { "label": "Modalverb", "children": [
+        { "label": "müssen" },
+        { "label": "sollen" },
+        { "label": "dürfen" },
+        { "label": "können" }
+      ] },
+      { "label": "Sunt liv og følelser", "children": [
+        { "label": "genug schlafen" },
+        { "label": "sich bewegen" },
+        { "label": "glücklich, traurig, gestresst" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "«der Rücken» betyr ryggen.", "correct": true, "explain": "Vondt i ryggen heter «Rückenschmerzen»." },
+      { "id": "m02", "type": "sant-usant", "text": "«Fieber» betyr hoste.", "correct": false, "explain": "«Fieber» betyr feber. Hoste heter «Husten»." },
+      { "id": "m03", "type": "sant-usant", "text": "Nordmenn på reise i Europa kan bruke Europeisk helsetrygdkort.", "correct": true, "explain": "Kortet gir rett til nødvendig helsehjelp i andre EØS-land." },
+      { "id": "m04", "type": "sant-usant", "text": "«Mir ist schlecht» betyr jeg er glad.", "correct": false, "explain": "«Mir ist schlecht» betyr jeg er kvalm." },
+      { "id": "m05", "type": "flervalg", "text": "Hva betyr «Seit wann haben Sie Fieber?»?", "options": ["Hvor lenge har De hatt feber?", "Har De feber?", "Hvorfor har De feber?", "Hvor høy feber har De?"], "correct": 0, "explain": "«seit» betyr siden." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er «die Ärztin»?", "options": ["Sykepleieren", "Legen (kvinne)", "Apoteket", "Pasienten"], "correct": 1, "explain": "«der Arzt» er en mannlig lege." },
+      { "id": "m07", "type": "flervalg", "text": "Hva betyr «Ich bin gestresst»?", "options": ["Jeg er glad", "Jeg er sint", "Jeg er stresset", "Jeg er syk"], "correct": 2, "explain": "Sint heter «wütend»." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

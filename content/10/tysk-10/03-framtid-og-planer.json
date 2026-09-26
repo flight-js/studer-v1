@@ -1,0 +1,83 @@
+{
+  "id": "framtid-og-planer",
+  "fagId": "tysk-10",
+  "trinnId": "10",
+  "name": "Framtid, planer og yrker",
+  "intro": "Hvordan du snakker om framtiden på tysk med presens og werden, planer og drømmer, yrker og utdanning i Tyskland, og hvordan du begrunner med weil og dass.",
+  "kompetansemaal": [3, 6],
+  "sammendrag": "## Å snakke om framtiden\n\nTysk har flere måter å snakke om framtiden på:\n\n- **Presens + tidsuttrykk** – det vanligste i dagligtale: *Morgen **fahre** ich nach Oslo.* *Nächstes Jahr **gehe** ich aufs Gymnasium.*\n- **werden + infinitiv** (futurum): *Ich **werde** Medizin **studieren**.* Infinitiven står **til slutt**. Bøying: ich werde, du wirst, er wird, wir werden, ihr werdet, sie werden.\n\n## Planer og drømmer\n\n- **Ich möchte …** – Jeg vil gjerne …\n- **Ich will …** – Jeg vil …\n- **Ich habe vor, ein Jahr zu reisen.** – Jeg har planer om å reise i et år.\n- **Ich träume davon, Pilotin zu werden.** – Jeg drømmer om å bli pilot.\n- **Ich hoffe, dass …** – Jeg håper at …\n\n## Yrker – die Berufe\n\nMange yrker har en hankjønnsform og en hunkjønnsform med **-in**: **der Lehrer / die Lehrerin**, **der Arzt / die Ärztin**, **der Ingenieur / die Ingenieurin**, **der Polizist / die Polizistin**, **der Koch / die Köchin**, **der Programmierer / die Programmiererin**, **der Tierarzt / die Tierärztin** og **der Journalist / die Journalistin**.\n\nMan bruker **ikke** artikkel foran yrket: *Ich möchte Ingenieurin werden.* *Mein Vater ist Koch.*\n\n## Utdanning\n\n- **das Gymnasium** avsluttes med **das Abitur**, som gir adgang til universitetet.\n- **das Studium** – studiene ved **die Universität**\n- **die Ausbildung** – yrkesutdanning. I Tyskland lærer mange i et **dualt system**: De jobber i en bedrift og går samtidig på yrkesskole.\n- **das Praktikum** – en praksisperiode i en bedrift\n\n## Begrunne med weil og dass\n\nEtter **weil** (fordi) og **dass** (at) flyttes verbet **til slutten** av setningen:\n\n- *Ich möchte Lehrerin werden, **weil** ich gern mit Kindern **arbeite**.*\n- *Ich hoffe, **dass** ich einen guten Job **finde**.*\n\n## Livet i framtiden\n\n- **Ich möchte in einer großen Stadt wohnen.** – Jeg vil bo i en stor by.\n- **Ich möchte eine Familie haben.** – Jeg vil ha familie.\n- **Ich will viel reisen.** – Jeg vil reise mye.\n\n## Tidsuttrykk\n\n**morgen** (i morgen), **übermorgen** (i overmorgen), **nächste Woche** (neste uke), **nächstes Jahr** (neste år), **in fünf Jahren** (om fem år) og **später** (senere).\n\n## Tips til muntlig presentasjon\n\nNår du forteller om framtidsplanene dine, kan du bruke en fast struktur: Hva vil du gjøre etter ungdomsskolen? Hvilket yrke drømmer du om, og hvorfor? Hvor vil du bo? Bruk **weil** for å begrunne, og variér mellom presens og *werden*.",
+  "flashcards": [
+    { "term": "werden + infinitiv", "def": "futurum: Ich werde studieren." },
+    { "term": "Ich werde Medizin studieren.", "def": "Jeg skal studere medisin." },
+    { "term": "der Beruf", "def": "yrket" },
+    { "term": "Ich möchte Ärztin werden.", "def": "Jeg vil bli lege. (ingen artikkel foran yrket)" },
+    { "term": "der Lehrer / die Lehrerin", "def": "læreren" },
+    { "term": "der Ingenieur / die Ingenieurin", "def": "ingeniøren" },
+    { "term": "die Ausbildung", "def": "yrkesutdanningen" },
+    { "term": "das Studium", "def": "studiene" },
+    { "term": "das Abitur", "def": "eksamen som avslutter Gymnasium" },
+    { "term": "das Praktikum", "def": "praksisperioden" },
+    { "term": "weil", "def": "fordi – verbet flyttes til slutten" },
+    { "term": "dass", "def": "at – verbet flyttes til slutten" },
+    { "term": "Ich habe vor, …", "def": "Jeg har planer om å …" },
+    { "term": "nächstes Jahr", "def": "neste år" },
+    { "term": "in fünf Jahren", "def": "om fem år" },
+    { "term": "Ich träume davon, …", "def": "Jeg drømmer om å …" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvordan lages futurum på tysk?", "options": ["haben + partisipp", "sein + infinitiv", "möchten + partisipp", "werden + infinitiv"], "correct": 3, "explain": "For eksempel «Ich werde reisen»." },
+    { "id": "q02", "text": "Hvordan sier en jente «Jeg vil bli lege»?", "options": ["Ich möchte eine Ärztin werden.", "Ich möchte Ärztin werden.", "Ich möchte Arzt sein werden.", "Ich werde die Ärztin."], "correct": 1, "explain": "Man bruker ikke artikkel foran yrket." },
+    { "id": "q03", "text": "Hvor står verbet i en leddsetning med «weil»?", "options": ["Først", "På andre plass", "Sist", "Rett etter weil"], "correct": 2, "explain": "«…, weil ich gern mit Kindern arbeite.»" },
+    { "id": "q04", "text": "Hvilken setning er riktig?", "options": ["Ich lerne Deutsch, weil ich in Berlin studieren will.", "Ich lerne Deutsch, weil ich will in Berlin studieren.", "Ich lerne Deutsch, weil will ich in Berlin studieren.", "Ich lerne Deutsch, weil ich studieren in Berlin will."], "correct": 0, "explain": "Det bøyde verbet «will» står sist." },
+    { "id": "q05", "text": "Hva er «die Ausbildung»?", "options": ["Universitetet", "En ferie", "En yrkesutdanning", "Et klasserom"], "correct": 2, "explain": "Mange tar Ausbildung i et dualt system med bedrift og skole." },
+    { "id": "q06", "text": "Hva betyr «nächstes Jahr»?", "options": ["Neste år", "I fjor", "Hvert år", "Dette året"], "correct": 0, "explain": "«nächst» betyr neste." },
+    { "id": "q07", "text": "Hva er «das Abitur»?", "options": ["En yrkestittel", "En skoletype", "En praksisplass", "Eksamen som avslutter Gymnasium og gir adgang til universitetet"], "correct": 3, "explain": "Abitur tilsvarer omtrent studiekompetanse." },
+    { "id": "q08", "text": "Hva er hunkjønnsformen av «der Lehrer»?", "options": ["die Lehrer", "die Lehrerin", "die Lehrerinne", "die Lehrin"], "correct": 1, "explain": "Endelsen -in brukes om kvinner." },
+    { "id": "q09", "text": "Hva betyr «Ich habe vor, ein Jahr zu reisen»?", "options": ["Jeg har reist i et år", "Jeg reiste i fjor", "Jeg liker å reise", "Jeg har planer om å reise i et år"], "correct": 3, "explain": "«vorhaben» betyr å ha planer om." },
+    { "id": "q10", "text": "Hva er «das Praktikum»?", "options": ["En praksisperiode i en bedrift", "En eksamen", "Et skolefag", "En lærer"], "correct": 0, "explain": "Mange tyske elever har praksis i en bedrift." }
+  ],
+  "mindmap": {
+    "label": "Framtid og planer",
+    "children": [
+      { "label": "Framtid", "children": [
+        { "label": "Presens + tidsuttrykk" },
+        { "label": "werden + infinitiv" }
+      ] },
+      { "label": "Planer", "children": [
+        { "label": "Ich möchte / will" },
+        { "label": "Ich habe vor, … zu" },
+        { "label": "Ich träume davon" }
+      ] },
+      { "label": "Yrker", "children": [
+        { "label": "Lehrer / Lehrerin" },
+        { "label": "Arzt / Ärztin" },
+        { "label": "Ingen artikkel foran yrket" }
+      ] },
+      { "label": "Utdanning", "children": [
+        { "label": "Gymnasium og Abitur" },
+        { "label": "Studium" },
+        { "label": "Ausbildung, dualt system" },
+        { "label": "Praktikum" }
+      ] },
+      { "label": "Begrunne", "children": [
+        { "label": "weil" },
+        { "label": "dass" },
+        { "label": "Verbet sist" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "I Tyskland kan man ta en yrkesutdanning der man lærer både i en bedrift og på skolen.", "correct": true, "explain": "Dette kalles det duale systemet." },
+      { "id": "m02", "type": "sant-usant", "text": "På tysk bruker man ubestemt artikkel foran yrket: «Ich bin ein Lehrer».", "correct": false, "explain": "Det heter «Ich bin Lehrer», uten artikkel." },
+      { "id": "m03", "type": "sant-usant", "text": "Man kan bruke presens med et tidsuttrykk om framtiden, som «Morgen fahre ich nach Oslo».", "correct": true, "explain": "Det er den vanligste måten i dagligtale." },
+      { "id": "m04", "type": "sant-usant", "text": "«dass» påvirker ikke plasseringen av verbet.", "correct": false, "explain": "Etter «dass» flyttes verbet til slutten av setningen." },
+      { "id": "m05", "type": "flervalg", "text": "Hva betyr «in fünf Jahren»?", "options": ["For fem år siden", "Om fem år", "I fem år", "Hvert femte år"], "correct": 1, "explain": "For fem år siden heter «vor fünf Jahren»." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er riktig form av «werden» med «ich»?", "options": ["werde", "wirst", "wird", "werden"], "correct": 0, "explain": "«du wirst», «er wird»." },
+      { "id": "m07", "type": "flervalg", "text": "Hva betyr «Ich träume davon, Pilotin zu werden»?", "options": ["Jeg drømte om fly", "Jeg er pilot", "Jeg drømmer om å bli pilot", "Jeg liker piloter"], "correct": 2, "explain": "«träumen» betyr å drømme." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

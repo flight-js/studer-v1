@@ -1,0 +1,84 @@
+{
+  "id": "reise-og-ferie",
+  "fagId": "tysk-10",
+  "trinnId": "10",
+  "name": "Reise og ferie",
+  "intro": "Ord og uttrykk for reise, transport, overnatting og vær på tysk, preposisjoner for reisemål, og hvordan du forteller om en reise og skriver et feriekort.",
+  "kompetansemaal": [3, 5],
+  "sammendrag": "## På reise – auf Reisen\n\n**Der Urlaub** betyr ferie, og **die Ferien** brukes ofte om skoleferien. Å reise heter **reisen** eller **verreisen**.\n\n- **das Flugzeug** (flyet), **der Zug** (toget), **das Schiff** (skipet), **das Auto** og **der Bus**\n- **der Flughafen** (flyplassen), **der Bahnhof** (stasjonen) og **die Fahrkarte** (billetten)\n- **der Koffer** (kofferten), **der Rucksack** (sekken) og **der Pass** (passet)\n\n## Hvor reiser du?\n\n- **nach** + de fleste land og byer: *Ich fahre **nach** Deutschland / **nach** Berlin.*\n- **in die** + land med artikkel: *Wir fliegen **in die** Schweiz / **in die** Türkei / **in die** USA.*\n- **ans Meer** (til sjøen), **an den Strand** (til stranda) og **in die Berge** (til fjellet)\n\n## Overnatting\n\n**das Hotel**, **die Jugendherberge** (vandrerhjemmet), **der Campingplatz**, **das Einzelzimmer** (enkeltrom) og **das Doppelzimmer** (dobbeltrom).\n\n- **Ich möchte ein Doppelzimmer für zwei Nächte buchen.** – Jeg vil gjerne bestille et dobbeltrom for to netter.\n- **Ist das Frühstück inklusive?** – Er frokosten inkludert?\n\n## Været – das Wetter\n\n- **Wie ist das Wetter?** – Hvordan er været?\n- **Die Sonne scheint.** – Sola skinner. **Es ist warm / heiß / kalt.**\n- **Es regnet.** – Det regner. **Es schneit.** – Det snør. **Es ist windig.** – Det blåser.\n- **Es ist 25 Grad.** – Det er 25 grader.\n\n## Hva gjør du i ferien?\n\n**am Strand liegen** (ligge på stranda), **schwimmen**, **wandern** (gå på fottur), **Ski fahren**, **Sehenswürdigkeiten besichtigen** (se på severdigheter), **ins Museum gehen** og **Souvenirs kaufen**.\n\n## Fortelle om en reise\n\nNår du forteller om en tur, bruker du perfektum og *war*:\n\n*Letzten Sommer **sind** wir nach Österreich **gefahren**. Wir **haben** in einer Jugendherberge **gewohnt** und **sind** viel **gewandert**. Das Wetter **war** super!*\n\nOm planer bruker du ofte presens med et tidsuttrykk: *Nächsten Sommer **fahre** ich nach Berlin.*\n\n## Et feriekort eller en e-post\n\n- Begynn med **Liebe Oma,** (til en kvinne) eller **Lieber Jonas,** (til en mann).\n- Fortell hvor du er, hvordan været er, og hva du har gjort.\n- Avslutt med **Viele Grüße** eller **Liebe Grüße** og navnet ditt.\n\n## Tyskere i Norge\n\nMange tyske turister reiser til Norge for å oppleve fjorder, fjell og midnattssol, og mange nordmenn reiser til Tyskland for å oppleve storbyer som Berlin og München.",
+  "flashcards": [
+    { "term": "der Urlaub", "def": "ferien" },
+    { "term": "die Ferien", "def": "skoleferien" },
+    { "term": "die Reise", "def": "reisen" },
+    { "term": "das Flugzeug", "def": "flyet" },
+    { "term": "der Zug", "def": "toget" },
+    { "term": "die Jugendherberge", "def": "vandrerhjemmet" },
+    { "term": "das Doppelzimmer", "def": "dobbeltrommet" },
+    { "term": "buchen", "def": "å bestille (reise, rom)" },
+    { "term": "der Koffer", "def": "kofferten" },
+    { "term": "Es regnet.", "def": "Det regner." },
+    { "term": "Die Sonne scheint.", "def": "Sola skinner." },
+    { "term": "wandern", "def": "å gå på fottur" },
+    { "term": "Sehenswürdigkeiten besichtigen", "def": "å se på severdigheter" },
+    { "term": "nach Deutschland", "def": "til Tyskland" },
+    { "term": "in die Schweiz", "def": "til Sveits – land med artikkel får «in die»" },
+    { "term": "ans Meer", "def": "til sjøen" },
+    { "term": "Viele Grüße", "def": "Mange hilsener – avslutning på kort og e-post" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva betyr «der Urlaub»?", "options": ["Flyplassen", "Ferien", "Kofferten", "Været"], "correct": 1, "explain": "«die Ferien» brukes ofte om skoleferien." },
+    { "id": "q02", "text": "Hva er «die Jugendherberge»?", "options": ["Et luksushotell", "En campingplass", "En togstasjon", "Et vandrerhjem"], "correct": 3, "explain": "«Jugend» betyr ungdom." },
+    { "id": "q03", "text": "Hvordan sier du «Det regner»?", "options": ["Es regnet.", "Es schneit.", "Die Sonne scheint.", "Es ist windig."], "correct": 0, "explain": "«der Regen» betyr regnet." },
+    { "id": "q04", "text": "Hvordan sier du «Vi reiser til Tyskland»?", "options": ["Wir fahren in Deutschland.", "Wir fahren zu Deutschland.", "Wir fahren nach Deutschland.", "Wir fahren an Deutschland."], "correct": 2, "explain": "De fleste land og byer får «nach»." },
+    { "id": "q05", "text": "Hvorfor heter det «in die Schweiz», men «nach Österreich»?", "options": ["Fordi Sveits er et fjell", "Fordi Sveits er lengre unna", "Det er tilfeldig", "Fordi «die Schweiz» har artikkel"], "correct": 3, "explain": "Land med artikkel får «in die»." },
+    { "id": "q06", "text": "Hva betyr «wandern»?", "options": ["Å gå på fottur", "Å bade", "Å fly", "Å handle"], "correct": 0, "explain": "Fotturer er populært i Alpene." },
+    { "id": "q07", "text": "Hvordan ber du om et dobbeltrom for to netter?", "options": ["Ich habe zwei Zimmer.", "Wo ist das Zimmer?", "Ich möchte ein Doppelzimmer für zwei Nächte.", "Das Zimmer ist doppelt."], "correct": 2, "explain": "«die Nacht» – flertall «die Nächte»." },
+    { "id": "q08", "text": "Hva betyr «Sehenswürdigkeiten besichtigen»?", "options": ["Å ligge på stranda", "Å se på severdigheter", "Å kjøpe suvenirer", "Å bestille billetter"], "correct": 1, "explain": "«sehenswürdig» betyr verdt å se." },
+    { "id": "q09", "text": "Hvordan avslutter du et uformelt kort eller en e-post?", "options": ["Viele Grüße", "Sehr geehrte Damen und Herren", "Guten Tag", "Hallo"], "correct": 0, "explain": "«Sehr geehrte …» brukes i formelle brev." },
+    { "id": "q10", "text": "Hva betyr «Die Sonne scheint»?", "options": ["Det snør", "Det er kaldt", "Det blåser", "Sola skinner"], "correct": 3, "explain": "«scheinen» betyr å skinne." }
+  ],
+  "mindmap": {
+    "label": "Reise og ferie",
+    "children": [
+      { "label": "Transport", "children": [
+        { "label": "Flugzeug, Zug" },
+        { "label": "Flughafen, Bahnhof" },
+        { "label": "Fahrkarte, Koffer" }
+      ] },
+      { "label": "Reisemål", "children": [
+        { "label": "nach Berlin" },
+        { "label": "in die Schweiz" },
+        { "label": "ans Meer, in die Berge" }
+      ] },
+      { "label": "Overnatting", "children": [
+        { "label": "Hotel, Jugendherberge" },
+        { "label": "Doppelzimmer buchen" },
+        { "label": "Frühstück inklusive?" }
+      ] },
+      { "label": "Været", "children": [
+        { "label": "Die Sonne scheint" },
+        { "label": "Es regnet / schneit" },
+        { "label": "25 Grad" }
+      ] },
+      { "label": "Fortelle og skrive", "children": [
+        { "label": "wandern, besichtigen" },
+        { "label": "Perfektum og war" },
+        { "label": "Liebe Oma, … Viele Grüße" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "«die Ferien» brukes ofte om skoleferien.", "correct": true, "explain": "Ordet står alltid i flertall." },
+      { "id": "m02", "type": "sant-usant", "text": "«der Koffer» betyr kaffen.", "correct": false, "explain": "«der Koffer» betyr kofferten. Kaffe heter «der Kaffee»." },
+      { "id": "m03", "type": "sant-usant", "text": "Man sier «ans Meer» når man drar til sjøen.", "correct": true, "explain": "«ans» er en sammentrekning av «an das»." },
+      { "id": "m04", "type": "sant-usant", "text": "«Es schneit» betyr det regner.", "correct": false, "explain": "«Es schneit» betyr det snør." },
+      { "id": "m05", "type": "flervalg", "text": "Hva betyr «Ist das Frühstück inklusive?»?", "options": ["Er frokosten inkludert?", "Når er frokosten?", "Hvor er frokosten?", "Liker du frokost?"], "correct": 0, "explain": "Nyttig spørsmål når du bestiller hotell." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er «die Fahrkarte»?", "options": ["Kartet", "Billetten", "Passet", "Bilen"], "correct": 1, "explain": "«fahren» betyr å kjøre eller reise." },
+      { "id": "m07", "type": "flervalg", "text": "Hva betyr «Es ist 25 Grad»?", "options": ["Det er 25 minutter", "Det er 25 kilometer", "Det er 25 grader", "Det er 25 euro"], "correct": 2, "explain": "«Grad» betyr grader." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
