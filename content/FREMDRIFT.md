@@ -85,4 +85,4 @@ RLE01-04 KV1145 har 15 mål for hele ungdomstrinnet:
 
 ## Gjenstår etter KRLE
 
-Tysk/fransk/spansk 8–10 (nivå I, ~6 temaer per trinn), arbeidslivsfag 8–10, utdanningsvalg 9–10, alle Vg1-fag, alle Vg2-fag unntatt Kjemi 1, alle Vg3-fag.
+Engelsk fordypning 8–10 (skrives på engelsk), tysk/fransk/spansk 8–10 (nivå I, ~6 temaer per trinn), arbeidslivsfag 8–10, utdanningsvalg 9–10, alle Vg1-fag (inkl. kinesisk), alle Vg2-fag unntatt Kjemi 1 (inkl. kinesisk og entreprenørskap og bedriftsutvikling 1), alle Vg3-fag.

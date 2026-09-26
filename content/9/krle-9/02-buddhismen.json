@@ -1,0 +1,85 @@
+{
+  "id": "buddhismen",
+  "fagId": "krle-9",
+  "trinnId": "9",
+  "name": "Buddhismen",
+  "intro": "Buddhas liv, de fire edle sannheter og den åttedelte vei, de tre juvelene, de viktigste retningene i buddhismen og buddhistisk praksis i dag.",
+  "kompetansemaal": [1, 6],
+  "sammendrag": "## Buddhismen i verden\n\n**Buddhismen** har rundt en halv milliard tilhengere, de fleste i Asia, blant annet i Kina, Thailand, Japan, Myanmar, Sri Lanka og Tibet. Buddhismen oppsto i Nord-India for rundt 2500 år siden. Den har ingen skapergud i sentrum, men handler om å forstå hvorfor mennesker lider, og hvordan lidelsen kan ta slutt.\n\n## Buddhas liv\n\n**Siddhartha Gautama** ble ifølge tradisjonen født som prins i **Lumbini** i dagens Nepal. Faren skjermet ham fra alt vondt, men utenfor palasset møtte han en gammel mann, en syk mann, et lik og en asket. Disse **fire møtene** viste ham at alle mennesker blir gamle, syke og dør. Han forlot palasset for å finne en vei ut av lidelsen. Etter år med streng **askese** innså han at verken luksus eller selvpining var veien, men **middelveien**. Under et tre i Bodh Gaya fikk han **oppvåkningen** og ble **Buddha**, «den oppvåknede».\n\n## De fire edle sannheter\n\n1. Livet er preget av **lidelse** og utilfredshet (dukkha).\n2. Lidelsen skyldes **begjær** og tørst etter ting, opplevelser og å holde fast på det som forandrer seg.\n3. Lidelsen kan **opphøre**. Denne tilstanden kalles **nirvana**.\n4. Veien dit er **den åttedelte vei**.\n\n## Den åttedelte vei\n\nVeien består av rett forståelse, rett tanke, rett tale, rett handling, rett levevei, rett innsats, rett oppmerksomhet og rett konsentrasjon. Den kan deles i tre: **visdom**, **moral** og **meditasjon**.\n\n## Andre sentrale ideer\n\n- **Karma** og **samsara**: Handlingene våre får følger, og vi fødes på nytt til vi når nirvana.\n- **Forgjengelighet**: Alt forandrer seg, ingenting er varig.\n- **Ikke-selv**: Det finnes ikke et fast og uforanderlig «jeg».\n- **Medfølelse** med alt levende.\n\n## De tre juvelene\n\nBuddhister søker tilflukt i **de tre juvelene**: **Buddha**, **dharma** (læren) og **sangha** (fellesskapet av munker, nonner og troende). De **fem forskriftene** sier at man ikke skal drepe, stjele, lyve, misbruke seksualitet eller ruse seg.\n\n## Retninger\n\n- **Theravada** er vanligst i Sri Lanka, Thailand og Myanmar. Klosterlivet står sentralt.\n- **Mahayana** er vanligst i Kina, Japan, Korea og Vietnam. Her er **bodhisattvaer** viktige, opplyste vesener som hjelper andre. **Zen** er en mahayanaretning.\n- **Tibetansk buddhisme** ledes av **Dalai Lama** og bruker blant annet mantraer og ritualer.\n\n## Praksis\n\n**Meditasjon** er sentralt for å trene oppmerksomhet og ro. Buddhister besøker **templer** og **stupaer**, gir mat til munker og feirer **vesak**, minnet om Buddhas fødsel, oppvåkning og død. Den moderne treningsformen **mindfulness** har røtter i buddhistisk meditasjon. I Norge har mange buddhister bakgrunn fra blant annet Vietnam, Thailand og Sri Lanka.",
+  "flashcards": [
+    { "term": "Buddhisme", "def": "Religion som oppsto i India for rundt 2500 år siden, med rundt en halv milliard tilhengere." },
+    { "term": "Siddhartha Gautama", "def": "Prinsen som ble Buddha. Født i Lumbini i dagens Nepal." },
+    { "term": "Buddha", "def": "«Den oppvåknede»." },
+    { "term": "De fire møtene", "def": "En gammel mann, en syk mann, et lik og en asket, som fikk Siddhartha til å forlate palasset." },
+    { "term": "Middelveien", "def": "Å unngå både luksus og streng askese." },
+    { "term": "De fire edle sannheter", "def": "Lidelse, årsaken til lidelse, at lidelsen kan opphøre, og veien dit." },
+    { "term": "Dukkha", "def": "Lidelse og utilfredshet, som ifølge buddhismen preger livet." },
+    { "term": "Den åttedelte vei", "def": "Veien ut av lidelsen, delt i visdom, moral og meditasjon." },
+    { "term": "Nirvana", "def": "Tilstanden der lidelsen og gjenfødelsen opphører." },
+    { "term": "De tre juvelene", "def": "Buddha, dharma (læren) og sangha (fellesskapet)." },
+    { "term": "Sangha", "def": "Fellesskapet av munker, nonner og troende." },
+    { "term": "Theravada", "def": "Buddhistisk retning i Sri Lanka, Thailand og Myanmar, med vekt på klosterliv." },
+    { "term": "Mahayana", "def": "Buddhistisk retning i Kina, Japan, Korea og Vietnam, med vekt på bodhisattvaer." },
+    { "term": "Dalai Lama", "def": "Leder i tibetansk buddhisme." },
+    { "term": "Vesak", "def": "Høytid til minne om Buddhas fødsel, oppvåkning og død." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva betyr Buddha?", "options": ["Den oppvåknede", "Den hellige", "Kongen", "Læreren fra India"], "correct": 0, "explain": "Siddhartha ble kalt Buddha etter oppvåkningen under treet i Bodh Gaya." },
+    { "id": "q02", "text": "Hva fikk Siddhartha til å forlate palasset?", "options": ["Møter med kongen og dronningen", "Møter med fire munker i et tempel", "Møter med en gammel mann, en syk mann, et lik og en asket", "Møter med fire guder"], "correct": 2, "explain": "Møtene viste ham at alle mennesker rammes av lidelse." },
+    { "id": "q03", "text": "Hva sier den første edle sannheten?", "options": ["At alle skal bli munker", "At lidelsen kan opphøre", "At veien er den åttedelte vei", "At livet er preget av lidelse"], "correct": 3, "explain": "Buddhismen starter med å erkjenne at livet inneholder lidelse og utilfredshet." },
+    { "id": "q04", "text": "Hva skyldes lidelsen ifølge buddhismen?", "options": ["Gudene", "Begjær og tørst etter ting", "Dårlig vær", "Fattigdom"], "correct": 1, "explain": "Vi lider fordi vi holder fast på ting som forandrer seg." },
+    { "id": "q05", "text": "Hva er nirvana?", "options": ["Tilstanden der lidelsen og gjenfødelsen opphører", "En hellig by", "Et kloster", "En gud"], "correct": 0, "explain": "Nirvana er målet for buddhister." },
+    { "id": "q06", "text": "Hva er middelveien?", "options": ["En vei gjennom India", "Å leve som prins", "Å unngå både luksus og streng askese", "En type meditasjon"], "correct": 2, "explain": "Buddha hadde prøvd både overflod og selvpining." },
+    { "id": "q07", "text": "Hva er de tre juvelene?", "options": ["Tre hellige steiner", "Buddha, læren (dharma) og fellesskapet (sangha)", "Tre store templer", "Tre høytider"], "correct": 1, "explain": "Å søke tilflukt i de tre juvelene er å bekjenne seg som buddhist." },
+    { "id": "q08", "text": "Hvilken retning er vanligst i Sri Lanka, Thailand og Myanmar?", "options": ["Mahayana", "Zen", "Tibetansk buddhisme", "Theravada"], "correct": 3, "explain": "Theravada betyr «de eldres lære»." },
+    { "id": "q09", "text": "Hvem er leder i tibetansk buddhisme?", "options": ["Paven", "Keiseren av Japan", "Dalai Lama", "Buddha selv"], "correct": 2, "explain": "Dalai Lama fikk Nobels fredspris i 1989." },
+    { "id": "q10", "text": "Hva feires under vesak?", "options": ["Buddhas fødsel, oppvåkning og død", "Nyttår", "Innhøstingen", "Dalai Lamas fødsel"], "correct": 0, "explain": "Vesak er den viktigste buddhistiske høytiden." }
+  ],
+  "mindmap": {
+    "label": "Buddhismen",
+    "children": [
+      { "label": "Buddha", "children": [
+        { "label": "Siddhartha Gautama" },
+        { "label": "De fire møtene" },
+        { "label": "Middelveien" },
+        { "label": "Oppvåkningen" }
+      ] },
+      { "label": "Læren", "children": [
+        { "label": "Fire edle sannheter" },
+        { "label": "Åttedelt vei" },
+        { "label": "Karma og samsara" },
+        { "label": "Nirvana" }
+      ] },
+      { "label": "Tre juveler", "children": [
+        { "label": "Buddha" },
+        { "label": "Dharma" },
+        { "label": "Sangha" }
+      ] },
+      { "label": "Retninger", "children": [
+        { "label": "Theravada" },
+        { "label": "Mahayana og zen" },
+        { "label": "Tibetansk", "note": "Dalai Lama" }
+      ] },
+      { "label": "Praksis", "children": [
+        { "label": "Meditasjon" },
+        { "label": "Fem forskrifter" },
+        { "label": "Templer og stupaer" },
+        { "label": "Vesak" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Buddhismen oppsto for rundt 2500 år siden.", "correct": true, "explain": "Den oppsto i Nord-India." },
+      { "id": "m02", "type": "sant-usant", "text": "Buddhismen lærer at Buddha er en allmektig skapergud.", "correct": false, "explain": "Buddha regnes som et menneske som ble oppvåknet, ikke som en skapergud." },
+      { "id": "m03", "type": "sant-usant", "text": "Mindfulness har røtter i buddhistisk meditasjon.", "correct": true, "explain": "Mindfulness brukes i dag ofte uten religiøst innhold." },
+      { "id": "m04", "type": "sant-usant", "text": "Alle buddhister må leve som munker eller nonner.", "correct": false, "explain": "De fleste buddhister lever vanlige liv og støtter klostrene." },
+      { "id": "m05", "type": "flervalg", "text": "Hvor ble Siddhartha Gautama født ifølge tradisjonen?", "options": ["Beijing", "Lumbini i dagens Nepal", "Tokyo", "Colombo"], "correct": 1, "explain": "Lumbini er i dag et viktig pilegrimsmål." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er sangha?", "options": ["Et hellig tre", "En meditasjonsform", "En gud", "Fellesskapet av munker, nonner og troende"], "correct": 3, "explain": "Sangha er en av de tre juvelene." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilken av disse hører til den åttedelte vei?", "options": ["Rett tale", "Rett rikdom", "Rett makt", "Rett hevn"], "correct": 0, "explain": "Rett tale betyr å unngå løgn, baksnakking og sårende ord." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

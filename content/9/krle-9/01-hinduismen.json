@@ -1,0 +1,87 @@
+{
+  "id": "hinduismen",
+  "fagId": "krle-9",
+  "trinnId": "9",
+  "name": "Hinduismen",
+  "intro": "Hellige skrifter, sentrale begreper som karma, samsara og moksha, guder og gudinner, veiene til frigjøring, praksis og høytider, og kastesystemet i hinduismen.",
+  "kompetansemaal": [1, 6],
+  "sammendrag": "## En eldgammel religion\n\n**Hinduismen** er verdens tredje største religion, med rundt 1,2 milliarder tilhengere. De fleste bor i **India** og **Nepal**. Hinduismen har ingen grunnlegger og ingen felles lære som alle må følge. Den har vokst fram over mer enn 3000 år og rommer mange ulike tradisjoner. Mange hinduer kaller religionen **sanatana dharma**, «den evige orden».\n\n## Hellige skrifter\n\n- **Vedaene** er de eldste skriftene, med hymner og ritualer.\n- **Upanishadene** er filosofiske tekster om forholdet mellom mennesket og det guddommelige.\n- De store eposene **Mahabharata** og **Ramayana** forteller om guder og helter. En del av Mahabharata, **Bhagavadgita**, er en av de mest leste hellige tekstene i hinduismen.\n\n## Sentrale begreper\n\n- **Brahman**: den guddommelige kraften som er i alt og bak alt.\n- **Atman**: menneskets sjel eller innerste selv. Mange hinduer mener at atman og Brahman i bunn og grunn er det samme.\n- **Samsara**: kretsløpet av fødsel, død og gjenfødelse.\n- **Karma**: loven om at alle handlinger får følger, i dette eller et senere liv.\n- **Dharma**: plikten og den rette måten å leve på for hver enkelt.\n- **Moksha**: frigjøring fra samsara, det endelige målet.\n\n## Mange guder – én guddom\n\nHinduismen har mange guder og gudinner. Tre viktige er **Brahma** (skaperen), **Vishnu** (opprettholderen) og **Shiva** (den som ødelegger og fornyer). Ifølge tradisjonen kommer Vishnu til jorda i ulike skikkelser, **avatarer**, som **Rama** og **Krishna**. Populære gudinner er **Lakshmi**, **Durga** og **Sarasvati**, og mange ber til **Ganesha** med elefanthodet. Mange hinduer ser gudene som ulike sider av det samme guddommelige.\n\n## Tre veier til frigjøring\n\n- **Kunnskapens vei**: innsikt gjennom studier og meditasjon\n- **Handlingens vei**: å gjøre pliktene sine uten egoistiske motiver\n- **Hengivelsens vei** (bhakti): kjærlighet til og tilbedelse av en gud\n\n## Praksis og høytider\n\nDen vanligste formen for gudsdyrkelse er **puja**, der man ofrer blomster, mat, lys og røkelse til gudebilder hjemme eller i **tempelet**. Mange drar på **pilegrimsreise**, for eksempel til byen **Varanasi** ved elva Ganges. **Yoga** og meditasjon har røtter i hinduismen. Mange hinduer er vegetarianere, og kua regnes som hellig. Store høytider er **divali**, lysfesten, og **holi**, fargefesten om våren.\n\n## Kastesystemet\n\nDet tradisjonelle samfunnet i India var delt inn i **kaster**, grupper man ble født inn i. Utenfor systemet sto **dalittene**, som ble utsatt for grov diskriminering. Indias grunnlov fra 1950 forbyr kastediskriminering, men den forekommer fortsatt. Mange hinduer mener at kastesystemet ikke hører hjemme i religionen.\n\n## Hinduisme i Norge\n\nDet finnes flere hindutempler i Norge. Mange norske hinduer har bakgrunn fra India eller er tamiler fra Sri Lanka.",
+  "flashcards": [
+    { "term": "Hinduisme", "def": "Verdens tredje største religion, uten grunnlegger, med røtter over 3000 år tilbake." },
+    { "term": "Vedaene", "def": "Hinduismens eldste hellige skrifter, med hymner og ritualer." },
+    { "term": "Bhagavadgita", "def": "Del av eposet Mahabharata og en av de mest leste hinduistiske tekstene." },
+    { "term": "Brahman", "def": "Den guddommelige kraften som er i alt og bak alt." },
+    { "term": "Atman", "def": "Menneskets sjel eller innerste selv." },
+    { "term": "Samsara", "def": "Kretsløpet av fødsel, død og gjenfødelse." },
+    { "term": "Karma", "def": "Loven om at alle handlinger får følger, i dette eller et senere liv." },
+    { "term": "Dharma", "def": "Plikten og den rette måten å leve på." },
+    { "term": "Moksha", "def": "Frigjøring fra samsara, det endelige målet." },
+    { "term": "Brahma, Vishnu og Shiva", "def": "Skaperen, opprettholderen og den som ødelegger og fornyer." },
+    { "term": "Avatar", "def": "En skikkelse en gud tar når den kommer til jorda, som Rama og Krishna." },
+    { "term": "Bhakti", "def": "Hengivelsens vei: kjærlighet til og tilbedelse av en gud." },
+    { "term": "Puja", "def": "Tilbedelse der man ofrer blomster, mat, lys og røkelse til gudebilder." },
+    { "term": "Divali", "def": "Lysfesten, en av hinduismens største høytider." },
+    { "term": "Dalitter", "def": "Grupper utenfor kastesystemet som har vært utsatt for grov diskriminering." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvor bor de fleste hinduer?", "options": ["Kina", "Indonesia", "Sri Lanka", "India og Nepal"], "correct": 3, "explain": "Omtrent åtte av ti indere er hinduer." },
+    { "id": "q02", "text": "Hva er samsara?", "options": ["Frigjøring fra gjenfødelse", "Kretsløpet av fødsel, død og gjenfødelse", "En hellig elv", "En type tempel"], "correct": 1, "explain": "Målet er å bli fri fra samsara." },
+    { "id": "q03", "text": "Hva betyr karma?", "options": ["At alle handlinger får følger", "Den guddommelige kraften i alt", "Plikten til å be", "En høytid"], "correct": 0, "explain": "Gode og dårlige handlinger påvirker hvordan man blir født på nytt." },
+    { "id": "q04", "text": "Hva er moksha?", "options": ["Et tempel", "En gudinne", "Frigjøring fra samsara", "En type yoga"], "correct": 2, "explain": "Moksha er det endelige målet i hinduismen." },
+    { "id": "q05", "text": "Hvilken gud kalles opprettholderen og kommer til jorda som avatarer?", "options": ["Shiva", "Vishnu", "Brahma", "Ganesha"], "correct": 1, "explain": "Rama og Krishna regnes som avatarer av Vishnu." },
+    { "id": "q06", "text": "Hva er puja?", "options": ["En hellig bok", "En kaste", "En pilegrimsby", "Tilbedelse med offergaver til gudebilder"], "correct": 3, "explain": "Puja kan gjøres ved et alter hjemme eller i tempelet." },
+    { "id": "q07", "text": "Hva er Bhagavadgita?", "options": ["En del av eposet Mahabharata", "Den eldste vedaen", "En lysfest", "Et tempel i Varanasi"], "correct": 0, "explain": "Teksten er en samtale mellom guden Krishna og krigeren Arjuna." },
+    { "id": "q08", "text": "Hva er divali?", "options": ["Fargefesten om våren", "En faste", "Lysfesten", "En pilegrimsreise"], "correct": 2, "explain": "Under divali tennes lys og lamper som symbol på at det gode seirer." },
+    { "id": "q09", "text": "Hva sier Indias grunnlov om kastediskriminering?", "options": ["At den er påbudt", "At den bare gjelder i byene", "At den er en del av religionen", "At den er forbudt"], "correct": 3, "explain": "Grunnloven fra 1950 forbyr diskriminering på grunn av kaste." },
+    { "id": "q10", "text": "Hva er atman?", "options": ["Menneskets sjel eller innerste selv", "En gud med elefanthode", "En hellig ku", "Et epos"], "correct": 0, "explain": "Mange hinduer mener at atman i bunn og grunn er ett med Brahman." }
+  ],
+  "mindmap": {
+    "label": "Hinduismen",
+    "children": [
+      { "label": "Kjennetegn", "children": [
+        { "label": "Ingen grunnlegger" },
+        { "label": "Over 3000 år" },
+        { "label": "India og Nepal" }
+      ] },
+      { "label": "Skrifter", "children": [
+        { "label": "Vedaene" },
+        { "label": "Upanishadene" },
+        { "label": "Mahabharata og Bhagavadgita" },
+        { "label": "Ramayana" }
+      ] },
+      { "label": "Begreper", "children": [
+        { "label": "Brahman og atman" },
+        { "label": "Samsara" },
+        { "label": "Karma" },
+        { "label": "Dharma" },
+        { "label": "Moksha" }
+      ] },
+      { "label": "Guder", "children": [
+        { "label": "Brahma" },
+        { "label": "Vishnu", "note": "Avatarer" },
+        { "label": "Shiva" },
+        { "label": "Gudinner og Ganesha" }
+      ] },
+      { "label": "Praksis", "children": [
+        { "label": "Puja og tempel" },
+        { "label": "Tre veier" },
+        { "label": "Divali og holi" },
+        { "label": "Kastesystemet" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Hinduismen har én grunnlegger, slik kristendommen har Jesus.", "correct": false, "explain": "Hinduismen har vokst fram gradvis og har ingen grunnlegger." },
+      { "id": "m02", "type": "sant-usant", "text": "Mange hinduer ser de ulike gudene som sider av det samme guddommelige.", "correct": true, "explain": "Gudene kan forstås som uttrykk for Brahman." },
+      { "id": "m03", "type": "sant-usant", "text": "Yoga har røtter i hinduismen.", "correct": true, "explain": "Yoga var opprinnelig en vei til åndelig innsikt." },
+      { "id": "m04", "type": "sant-usant", "text": "Alle hinduer følger nøyaktig den samme læren.", "correct": false, "explain": "Hinduismen rommer svært mange ulike tradisjoner." },
+      { "id": "m05", "type": "flervalg", "text": "Hva kalles hengivelsens vei?", "options": ["Karma", "Bhakti", "Dharma", "Puja"], "correct": 1, "explain": "Bhakti er den mest utbredte veien blant hinduer i dag." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilken by ved Ganges er et viktig pilegrimsmål?", "options": ["Delhi", "Mumbai", "Varanasi", "Kolkata"], "correct": 2, "explain": "Mange ønsker å bli kremert i Varanasi og få asken strødd i Ganges." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er dharma?", "options": ["Plikten og den rette måten å leve på", "En hellig elv", "En type meditasjon", "En gudinne"], "correct": 0, "explain": "Dharma kan være ulik for ulike mennesker og livsfaser." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

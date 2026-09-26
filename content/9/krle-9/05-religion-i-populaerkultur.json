@@ -1,0 +1,84 @@
+{
+  "id": "religion-i-populaerkultur",
+  "fagId": "krle-9",
+  "trinnId": "9",
+  "name": "Religion i medier og populærkultur",
+  "intro": "Hvordan elementer fra kristendom og andre religioner og livssyn dukker opp i film, serier, musikk, spill og reklame, og hvordan religion framstilles og debatteres i mediene.",
+  "kompetansemaal": [9],
+  "sammendrag": "## Religion overalt\n\nSelv om mange ikke er religiøse, møter vi religion hele tiden i **medier og populærkultur**: i filmer, serier, musikk, spill, reklame og sosiale medier. Religioner har store fortellinger, sterke symboler og kjente figurer som kunstnere gjerne låner fra. Kunnskap om religion gjør det lettere å oppdage og forstå slike referanser.\n\n## Film og serier\n\n- **Kristusfigurer** er personer som ofrer seg for andre, dør eller nesten dør, og kommer tilbake. Løven **Aslan** i *Narnia*, som C.S. Lewis skrev med kristen bakgrunn, er et tydelig eksempel. Også **Harry Potter** og **Neo** i *The Matrix* har trekk av frelserfigurer.\n- *The Matrix* bruker også ideer fra hinduisme og buddhisme om at verden vi ser, er en illusjon.\n- **Kraften** og jediene i *Star Wars* minner om ideer fra buddhisme og daoisme, med meditasjon og balanse.\n- **Norrøn mytologi** dukker opp i Marvel-filmene om **Thor** og i serien *Ragnarok*.\n- I NRK-serien *Skam* var **Sana** en muslimsk hovedperson, og serien fikk ros for å vise en ung muslim på en nyansert måte.\n\n## Musikk\n\n**Gospel** og **spirituals** vokste fram blant svarte kristne i USA og har påvirket soul, rock og pop. Mange sanger bruker bibelske bilder, som Leonard Cohens *Hallelujah*. Julesanger er kanskje den mest kjente religiøse musikken. Samtidig har noen miljøer, som deler av norsk **black metal** på 1990-tallet, gjort opprør mot kristendommen.\n\n## Spill\n\nSpill som *God of War* og *Age of Mythology* bygger på gresk og norrøn mytologi. Andre spill lar spilleren utforske historiske religiøse konflikter eller møte guder og ånder.\n\n## Reklame og hverdagskultur\n\nReklame bruker ofte religiøse symboler, som engler, glorier og ordet «himmelsk», for å gi produkter et preg av noe rent og godt. Kors og andre religiøse symboler brukes også som smykker og mote, noen ganger uten at den som bærer dem, er religiøs.\n\n## Humor, kritikk og krenkelse\n\nReligion har lenge vært et tema for **satire**. Filmen *Life of Brian* (1979) vakte sterke reaksjoner, og **Muhammed-tegningene** i 2005 førte til protester i mange land. Slike saker reiser spørsmål om **ytringsfrihet** og **respekt** for andres tro. I Norge er **blasfemiparagrafen**, som forbød å håne religion, fjernet fra straffeloven. Hatefulle ytringer mot mennesker på grunn av religion er fortsatt forbudt.\n\n## Hvordan framstilles religion?\n\nMedier kan forsterke **stereotypier**, for eksempel når muslimer mest vises i nyheter om konflikt og terror, eller når kristne framstilles som trangsynte. Når du ser en film eller serie, kan du spørre: Hvilke religiøse elementer brukes? Hvordan framstilles de troende? Og hvem har laget framstillingen?",
+  "flashcards": [
+    { "term": "Populærkultur", "def": "Kultur som når mange, som film, serier, musikk, spill og reklame." },
+    { "term": "Kristusfigur", "def": "Person i en fortelling som ofrer seg for andre og kommer tilbake." },
+    { "term": "Aslan", "def": "Løven i Narnia, en tydelig Kristusfigur." },
+    { "term": "The Matrix", "def": "Film med frelserfiguren Neo og ideen om at verden er en illusjon." },
+    { "term": "Kraften i Star Wars", "def": "Ide som minner om buddhisme og daoisme, med meditasjon og balanse." },
+    { "term": "Norrøn mytologi i film", "def": "Brukes blant annet i Marvel-filmene om Thor og i serien Ragnarok." },
+    { "term": "Sana i Skam", "def": "Muslimsk hovedperson som fikk ros for en nyansert framstilling." },
+    { "term": "Gospel", "def": "Kristen musikk som vokste fram blant svarte kristne i USA." },
+    { "term": "Spirituals", "def": "Religiøse sanger fra slaveriets tid i USA, forløperen til gospel." },
+    { "term": "Religiøse symboler i reklame", "def": "Engler, glorier og «himmelsk» brukes for å gi produkter et rent og godt preg." },
+    { "term": "Satire", "def": "Humor og kritikk som gjør narr av noe." },
+    { "term": "Life of Brian", "def": "Film fra 1979 som vakte sterke reaksjoner for måten den behandlet religion på." },
+    { "term": "Muhammed-tegningene", "def": "Tegninger fra 2005 som førte til protester og debatt om ytringsfrihet og respekt." },
+    { "term": "Blasfemiparagrafen", "def": "Tidligere bestemmelse som forbød å håne religion. Den er fjernet fra straffeloven." },
+    { "term": "Stereotypi", "def": "Forenklet bilde av en gruppe, for eksempel av troende i en religion." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er en Kristusfigur i en film?", "options": ["En skuespiller som spiller Jesus", "En prest i en film", "En figur som alltid er ond", "En person som ofrer seg for andre og kommer tilbake"], "correct": 3, "explain": "Figuren trenger ikke være religiøs, men ligner Jesus i det den gjør." },
+    { "id": "q02", "text": "Hvilken figur i Narnia regnes som en tydelig Kristusfigur?", "options": ["Løven Aslan", "Den hvite heksa", "Faunen Tumnus", "Peter"], "correct": 0, "explain": "Aslan ofrer livet for Edmund og står opp igjen." },
+    { "id": "q03", "text": "Hvilken mytologi bygger Marvel-filmene om Thor på?", "options": ["Gresk", "Egyptisk", "Norrøn", "Romersk"], "correct": 2, "explain": "Tor var tordenguden i norrøn religion." },
+    { "id": "q04", "text": "Hvor vokste gospel og spirituals fram?", "options": ["Blant munker i Europa", "Blant svarte kristne i USA", "I norske bedehus", "I India"], "correct": 1, "explain": "Musikken har påvirket soul, rock og pop." },
+    { "id": "q05", "text": "Hvilken religiøs idé bruker The Matrix blant annet?", "options": ["At verden vi ser, er en illusjon", "At man skal faste i ramadan", "At sabbaten er hellig", "At kua er hellig"], "correct": 0, "explain": "Ideen finnes blant annet i hinduisme og buddhisme." },
+    { "id": "q06", "text": "Hvorfor bruker reklame ofte engler og glorier?", "options": ["Fordi det er påbudt", "Fordi alle kunder er religiøse", "For å gjøre produktet dyrere", "For å gi produktet et preg av noe rent og godt"], "correct": 3, "explain": "Religiøse symboler har sterke assosiasjoner som reklamen utnytter." },
+    { "id": "q07", "text": "Hvilke spørsmål reiste Muhammed-tegningene i 2005?", "options": ["Spørsmål om skatt og avgifter", "Spørsmål om ytringsfrihet og respekt for andres tro", "Spørsmål om klimaendringer", "Spørsmål om skolemat"], "correct": 1, "explain": "Saken skapte debatt og protester i mange land." },
+    { "id": "q08", "text": "Hva var blasfemiparagrafen?", "options": ["En regel om julefeiring", "En lov om kirkebygg", "En bestemmelse som forbød å håne religion", "En lov om religionsfrihet"], "correct": 2, "explain": "Bestemmelsen er fjernet fra straffeloven." },
+    { "id": "q09", "text": "Hvorfor fikk serien Skam ros for karakteren Sana?", "options": ["Fordi hun viste en ung muslim på en nyansert måte", "Fordi hun var skurken", "Fordi hun var prest", "Fordi hun ikke hadde noen religion"], "correct": 0, "explain": "Mange mente serien motvirket stereotypier om muslimer." },
+    { "id": "q10", "text": "Hvilket spørsmål er nyttig når du analyserer religion i en film?", "options": ["Hvor lang er filmen?", "Hvor mye kostet billetten?", "Hvordan framstilles de troende?", "Hvem er vennene til skuespillerne?"], "correct": 2, "explain": "Framstillingen kan påvirke hvordan seerne ser på en religion." }
+  ],
+  "mindmap": {
+    "label": "Religion i populærkultur",
+    "children": [
+      { "label": "Film og serier", "children": [
+        { "label": "Kristusfigurer" },
+        { "label": "Matrix og Star Wars" },
+        { "label": "Thor og Ragnarok" },
+        { "label": "Skam" }
+      ] },
+      { "label": "Musikk", "children": [
+        { "label": "Gospel og spirituals" },
+        { "label": "Bibelske bilder" },
+        { "label": "Opprør i black metal" }
+      ] },
+      { "label": "Spill og reklame", "children": [
+        { "label": "Mytologi i spill" },
+        { "label": "Engler og glorier" },
+        { "label": "Symboler som mote" }
+      ] },
+      { "label": "Humor og kritikk", "children": [
+        { "label": "Satire" },
+        { "label": "Life of Brian" },
+        { "label": "Muhammed-tegningene" },
+        { "label": "Ytringsfrihet og respekt" }
+      ] },
+      { "label": "Framstilling", "children": [
+        { "label": "Stereotypier" },
+        { "label": "Nyanserte bilder" },
+        { "label": "Hvem forteller?" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Kunnskap om religion gjør det lettere å forstå referanser i film og musikk.", "correct": true, "explain": "Mange fortellinger låner motiver fra religiøse tekster." },
+      { "id": "m02", "type": "sant-usant", "text": "Det er forbudt å lage satire om religion i Norge.", "correct": false, "explain": "Satire om religion er lov, men hatefulle ytringer mot mennesker er forbudt." },
+      { "id": "m03", "type": "sant-usant", "text": "Hatefulle ytringer mot mennesker på grunn av religion er forbudt i Norge.", "correct": true, "explain": "Straffeloven verner mennesker, ikke religioner som sådan." },
+      { "id": "m04", "type": "sant-usant", "text": "Religiøse symboler brukes bare av religiøse mennesker.", "correct": false, "explain": "Kors og andre symboler brukes også som mote og i reklame." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilke religiøse tradisjoner minner Kraften og jediene i Star Wars om?", "options": ["Islam", "Jødedom", "Buddhisme og daoisme", "Norrøn religion"], "correct": 2, "explain": "Jediene mediterer og søker balanse, omtrent som munker." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er satire?", "options": ["Humor og kritikk som gjør narr av noe", "En type bønn", "En hellig tekst", "En religiøs høytid"], "correct": 0, "explain": "Satire er en gammel form for samfunnskritikk." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilken film fra 1979 vakte sterke reaksjoner for måten den behandlet religion på?", "options": ["Star Wars", "Life of Brian", "Løvenes konge", "Titanic"], "correct": 1, "explain": "Filmen ble en tid forbudt i flere land, blant annet i Norge." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

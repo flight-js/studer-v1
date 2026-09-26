@@ -1,0 +1,84 @@
+{
+  "id": "religiost-mangfold",
+  "fagId": "krle-9",
+  "trinnId": "9",
+  "name": "Religiøst mangfold og nyreligiøsitet",
+  "intro": "Det religiøse landskapet i Norge, nyreligiøsitet og alternativ spiritualitet, nye religiøse bevegelser, folkereligiøsitet og sivilreligion, og hvordan du kan vurdere slike praksiser kritisk.",
+  "kompetansemaal": [4],
+  "sammendrag": "## Et mangfoldig religiøst landskap\n\nNorge har i dag et stort **religiøst mangfold**. Rundt 60 prosent er medlemmer av Den norske kirke, men det finnes også hundrevis av andre **tros- og livssynssamfunn**: katolske og ortodokse kirker, frikirker, moskeer, templer, synagoger, buddhistiske sentre og humanistiske organisasjoner. Samtidig er det mange som tror på eller praktiserer noe religiøst **utenfor** de etablerte religionssamfunnene.\n\n## Nyreligiøsitet og alternativ spiritualitet\n\n**Nyreligiøsitet**, eller alternativ spiritualitet, er en samlebetegnelse for tro og praksiser som ofte blander elementer fra ulike religioner, psykologi og naturvitenskapelige begreper. Eksempler er\n\n- **healing** og tro på energier som kan helbrede\n- **astrologi**, horoskoper og tarotkort\n- tro på **engler** og kontakt med de døde gjennom **medier**\n- **krystaller** og steiner med antatte krefter\n- **reinkarnasjon**, troen på at sjelen blir født på nytt\n\nEt fellestrekk er vekt på **den enkeltes erfaring** og personlige utvikling. Mange mener at det guddommelige finnes inne i mennesket selv. Man velger det som passer for seg, og dette kalles ofte **privatreligiøsitet**.\n\n## Praksiser med ny betydning\n\n- **Yoga**, **meditasjon** og **mindfulness** har røtter i hinduisme og buddhisme, men praktiseres av mange uten religiøst innhold.\n- **Pilegrimsvandring**, for eksempel langs **St. Olavsleden** til Nidaros, er blitt populært igjen, både som religiøs praksis og som naturopplevelse.\n- **Sjamanisme** og norrøn tro, **åsatro**, har fått nye tilhengere. Noen åsatrusamfunn er registrerte trossamfunn.\n\n## Nye religiøse bevegelser\n\nNoen bevegelser som har oppstått de siste 200 årene, er **Jehovas vitner**, **Jesu Kristi Kirke av Siste Dagers Hellige** (mormonene), **bahá'í** og **Hare Krishna**-bevegelsen. De har egne organisasjoner, men blir ofte sett på som annerledes av majoriteten.\n\n## Folkereligiøsitet og sivilreligion\n\nMange har **folkereligiøse** vaner uten å tenke over det: å banke i bordet, å unngå tallet 13 eller å legge ned blomster og lys der noen har dødd. **Sivilreligion** er ritualer og symboler som samler et folk, som feiringen av 17. mai og minnemarkeringer etter nasjonale tragedier.\n\n## Å vurdere kritisk\n\nReligionsfriheten gir alle rett til å tro og praktisere det de vil. Samtidig er det viktig å være **kritisk** når noen hevder at alternative metoder kan kurere sykdommer, eller når tro blir en lønnsom forretning. I Norge regulerer **lov om alternativ behandling** hva utøvere har lov til, blant annet er det begrensninger på å behandle alvorlige sykdommer. Man kan vise respekt for andres tro og samtidig stille spørsmål ved påstander som kan undersøkes.",
+  "flashcards": [
+    { "term": "Religiøst mangfold", "def": "At mange ulike religioner og livssyn finnes side om side i et samfunn." },
+    { "term": "Tros- og livssynssamfunn", "def": "Organisert fellesskap for en religion eller et livssyn." },
+    { "term": "Nyreligiøsitet", "def": "Tro og praksiser som blander elementer fra ulike tradisjoner og vektlegger egen erfaring." },
+    { "term": "Alternativ spiritualitet", "def": "Annet ord for nyreligiøsitet, for eksempel healing, astrologi og engletro." },
+    { "term": "Healing", "def": "Tro på at energier eller håndspåleggelse kan helbrede." },
+    { "term": "Astrologi", "def": "Troen på at stjernenes og planetenes stilling påvirker livet vårt." },
+    { "term": "Reinkarnasjon", "def": "Troen på at sjelen blir født på nytt i en ny kropp." },
+    { "term": "Privatreligiøsitet", "def": "At den enkelte selv velger og setter sammen det hun eller han tror på." },
+    { "term": "Mindfulness", "def": "Oppmerksomhetstrening med røtter i buddhistisk meditasjon." },
+    { "term": "St. Olavsleden", "def": "Pilegrimsled til Nidaros som er blitt populær igjen." },
+    { "term": "Åsatro", "def": "Norrøn tro som har fått nye tilhengere i vår tid." },
+    { "term": "Nye religiøse bevegelser", "def": "Bevegelser fra de siste 200 årene, som Jehovas vitner og bahá'í." },
+    { "term": "Folkereligiøsitet", "def": "Religiøse vaner og overtro i hverdagen, som å banke i bordet." },
+    { "term": "Sivilreligion", "def": "Ritualer og symboler som samler et folk, som 17. mai." },
+    { "term": "Lov om alternativ behandling", "def": "Norsk lov som regulerer hva utøvere av alternativ behandling har lov til." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er nyreligiøsitet?", "options": ["En ny kristen kirke", "Tro og praksiser som blander elementer fra ulike tradisjoner og vektlegger egen erfaring", "En type ateisme", "Et politisk parti"], "correct": 1, "explain": "Nyreligiøsitet kalles også alternativ spiritualitet." },
+    { "id": "q02", "text": "Hva er et eksempel på alternativ spiritualitet?", "options": ["Nattverd", "Fredagsbønn", "Sabbat", "Healing med energier"], "correct": 3, "explain": "De andre er praksiser i etablerte religioner." },
+    { "id": "q03", "text": "Hva er privatreligiøsitet?", "options": ["At man selv velger og setter sammen det man tror på", "At man ber alene i kirken", "At religion er forbudt", "At staten bestemmer religion"], "correct": 0, "explain": "Mange henter elementer fra flere tradisjoner." },
+    { "id": "q04", "text": "Hvilken praksis har røtter i buddhismen, men brukes ofte uten religiøst innhold?", "options": ["Nattverd", "Faste i ramadan", "Mindfulness", "Omskjæring"], "correct": 2, "explain": "Mindfulness brukes blant annet i skoler og helsevesen." },
+    { "id": "q05", "text": "Hva er St. Olavsleden?", "options": ["En gammel handelsvei til Sverige", "En skiløype", "En pilegrimsled til Nidaros", "En kirke i Oslo"], "correct": 2, "explain": "Pilegrimsvandring har fått en ny oppblomstring de siste tiårene." },
+    { "id": "q06", "text": "Hva er åsatro?", "options": ["En buddhistisk retning", "Norrøn tro som har fått nye tilhengere", "En type yoga", "En katolsk orden"], "correct": 1, "explain": "Noen åsatrusamfunn er registrerte trossamfunn i Norge." },
+    { "id": "q07", "text": "Hva er sivilreligion?", "options": ["En religion for sivile, ikke soldater", "En ny religiøs bevegelse", "Religion i privatlivet", "Ritualer og symboler som samler et folk, som 17. mai"], "correct": 3, "explain": "Sivilreligion viser seg også i minnemarkeringer etter nasjonale tragedier." },
+    { "id": "q08", "text": "Hvilken av disse er en ny religiøs bevegelse?", "options": ["Jehovas vitner", "Den katolske kirke", "Sunni-islam", "Ortodoks jødedom"], "correct": 0, "explain": "Jehovas vitner oppsto i USA på 1870-tallet." },
+    { "id": "q09", "text": "Hvorfor er det viktig å være kritisk til noen alternative behandlingsformer?", "options": ["Fordi all tro er feil", "Fordi noen hevder å kunne kurere sykdommer uten dokumentasjon", "Fordi de er forbudt", "Fordi de alltid er dyre"], "correct": 1, "explain": "Å velge bort vanlig behandling kan være farlig ved alvorlig sykdom." },
+    { "id": "q10", "text": "Hva er et eksempel på folkereligiøsitet?", "options": ["Å konfirmere seg", "Å gå i moskeen", "Å lese Koranen", "Å banke i bordet for å unngå uhell"], "correct": 3, "explain": "Folkereligiøse vaner følges ofte uten at man tenker over dem." }
+  ],
+  "mindmap": {
+    "label": "Religiøst mangfold",
+    "children": [
+      { "label": "Landskapet", "children": [
+        { "label": "Den norske kirke" },
+        { "label": "Andre trossamfunn" },
+        { "label": "Livssynssamfunn" }
+      ] },
+      { "label": "Nyreligiøsitet", "children": [
+        { "label": "Healing" },
+        { "label": "Astrologi og tarot" },
+        { "label": "Engler og medier" },
+        { "label": "Reinkarnasjon" },
+        { "label": "Egen erfaring" }
+      ] },
+      { "label": "Praksiser", "children": [
+        { "label": "Yoga og mindfulness" },
+        { "label": "Pilegrimsvandring" },
+        { "label": "Sjamanisme og åsatro" }
+      ] },
+      { "label": "Bevegelser og folketro", "children": [
+        { "label": "Nye religiøse bevegelser" },
+        { "label": "Folkereligiøsitet" },
+        { "label": "Sivilreligion" }
+      ] },
+      { "label": "Kritisk blikk", "children": [
+        { "label": "Religionsfrihet" },
+        { "label": "Helsepåstander" },
+        { "label": "Lov om alternativ behandling" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Mange i Norge praktiserer noe religiøst utenfor de etablerte religionssamfunnene.", "correct": true, "explain": "For eksempel healing, astrologi, meditasjon eller pilegrimsvandring." },
+      { "id": "m02", "type": "sant-usant", "text": "Yoga kan bare praktiseres av hinduer.", "correct": false, "explain": "Yoga har røtter i hinduismen, men praktiseres av mange uten religiøst innhold." },
+      { "id": "m03", "type": "sant-usant", "text": "Religionsfriheten gir alle rett til å tro på det de vil.", "correct": true, "explain": "Religionsfrihet er en menneskerettighet." },
+      { "id": "m04", "type": "sant-usant", "text": "Nyreligiøsitet legger vanligvis mest vekt på en felles, fast lære.", "correct": false, "explain": "Nyreligiøsitet vektlegger som regel den enkeltes erfaring og valg." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er reinkarnasjon?", "options": ["Troen på at sjelen blir født på nytt", "Troen på engler", "En type healing", "Troen på én Gud"], "correct": 0, "explain": "Ideen finnes blant annet i hinduisme og buddhisme, og hos mange nyreligiøse." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er astrologi?", "options": ["Vitenskapen om stjerner og planeter", "Troen på at stjernenes og planetenes stilling påvirker livet vårt", "En type meditasjon", "En pilegrimsreise"], "correct": 1, "explain": "Vitenskapen om himmellegemene heter astronomi." },
+      { "id": "m07", "type": "flervalg", "text": "Hva regulerer lov om alternativ behandling?", "options": ["Hvem som kan bli prest", "Hvilke høytider som er fridager", "Hva utøvere av alternativ behandling har lov til", "Hvor mange trossamfunn det kan være"], "correct": 2, "explain": "Loven skal beskytte pasienter, særlig ved alvorlig sykdom." }
+    ]
+  },
+  "kvalitet": { "status": "sjekkes", "merknader": ["Andelen medlemmer i Den norske kirke (rundt 60 prosent) bør sjekkes mot ferske tall fra SSB."] }
+}

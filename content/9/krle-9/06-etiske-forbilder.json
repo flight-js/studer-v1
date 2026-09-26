@@ -1,0 +1,85 @@
+{
+  "id": "etiske-forbilder",
+  "fagId": "krle-9",
+  "trinnId": "9",
+  "name": "Etiske forbilder i religioner og livssyn",
+  "intro": "Etiske ideer fra Jesus, Muhammad, Buddha, Hillel og Konfutse, moderne forbilder som Gandhi, Martin Luther King og Desmond Tutu, og likheter og forskjeller mellom dem.",
+  "kompetansemaal": [10],
+  "sammendrag": "## Forbilder i etikken\n\nAlle religioner og livssyn har **sentrale skikkelser** som mange ser opp til. Ordene og handlingene deres gir retning for hvordan man bør leve. Når vi sammenligner dem, ser vi både **fellestrekk** og **forskjeller**.\n\n## Jesus\n\n**Jesus** forkynte **nestekjærlighet**: «Du skal elske din neste som deg selv.» I **Bergprekenen** gikk han lenger: «Elsk deres fiender.» Lignelsen om **den barmhjertige samaritan** viser at nesten er den som trenger hjelp, uansett hvem det er. Jesus formulerte også **den gylne regel**: «Alt dere vil at andre skal gjøre mot dere, skal dere gjøre mot dem.»\n\n## Muhammad\n\nIfølge islamsk tradisjon la **Muhammad** vekt på **rettferdighet**, **barmhjertighet** og omsorg for fattige, enker og foreldreløse. Et kjent hadith sier at ingen virkelig tror før han ønsker for sin bror det han ønsker for seg selv. **Zakat**, plikten til å gi til de fattige, er en av islams søyler.\n\n## Buddha\n\n**Buddha** lærte **medfølelse** med alt levende og **ikkevold**. De **fem forskriftene** sier blant annet at man ikke skal drepe, stjele eller lyve. **Middelveien** betyr å unngå ytterpunkter, og handlingene våre får følger gjennom **karma**.\n\n## Hillel og Konfutse\n\nDen jødiske læreren **Hillel** levde omtrent på Jesu tid. Han sa: «Det som er hatefullt for deg, skal du ikke gjøre mot din neste. Det er hele Toraen, resten er forklaring.» Den kinesiske filosofen **Konfutse** sa noe lignende rundt 500 år tidligere. Han la også vekt på respekt for foreldre, gode relasjoner og at ledere skal være gode forbilder.\n\n## Moderne forbilder\n\n- **Mahatma Gandhi** bygde på hinduistiske ideer om **ahimsa**, ikkevold, og ledet Indias kamp for selvstendighet uten våpen.\n- **Martin Luther King** var baptistprest og bygde på Jesu kjærlighetsbud og Gandhis metoder i kampen mot rasisme i USA.\n- **Mor Teresa**, en katolsk nonne, stelte syke og døende i Kolkata og fikk Nobels fredspris i 1979.\n- **Dalai Lama**, lederen i tibetansk buddhisme, har gjort medfølelse og ikkevold kjent over hele verden.\n- **Desmond Tutu** var anglikansk erkebiskop og kjempet mot apartheid i Sør-Afrika. Han la vekt på **forsoning** og tanken om **ubuntu**: «Jeg er fordi vi er.»\n\n## Sammenligning\n\n**Fellestrekk**: Nesten alle tradisjoner har en variant av **den gylne regel**, og mange vektlegger medfølelse, ikkevold, rettferdighet og omsorg for de svake.\n\n**Forskjeller**: Begrunnelsen varierer. Noen viser til **Guds bud**, andre til **karma**, fornuft eller menneskelig erfaring. Tradisjonene er også ulike i synet på for eksempel om vold noen gang kan være rett.\n\nForbilder er mennesker, og mange av dem har også blitt kritisert. Det kan derfor være nyttig å skille mellom ideene og personen.",
+  "flashcards": [
+    { "term": "Nestekjærlighet", "def": "Jesu bud om å elske sin neste som seg selv." },
+    { "term": "Bergprekenen", "def": "Jesu tale der han blant annet sier «Elsk deres fiender»." },
+    { "term": "Den barmhjertige samaritan", "def": "Lignelse som viser at nesten er den som trenger hjelp, uansett hvem det er." },
+    { "term": "Den gylne regel", "def": "Gjør mot andre det du vil at de skal gjøre mot deg. Finnes i mange tradisjoner." },
+    { "term": "Barmhjertighet i islam", "def": "Muhammad la vekt på omsorg for fattige, enker og foreldreløse." },
+    { "term": "Medfølelse", "def": "Å føle med og ville hjelpe andre som lider. Sentralt i buddhismen." },
+    { "term": "De fem forskriftene", "def": "Buddhistiske regler: ikke drepe, stjele, lyve, misbruke seksualitet eller ruse seg." },
+    { "term": "Hillel", "def": "Jødisk lærer: «Det som er hatefullt for deg, skal du ikke gjøre mot din neste.»" },
+    { "term": "Konfutse", "def": "Kinesisk filosof som vektla respekt, gode relasjoner og gode ledere." },
+    { "term": "Ahimsa", "def": "Ikkevold. Sentralt i hinduisme, buddhisme og for Gandhi." },
+    { "term": "Mahatma Gandhi", "def": "Ledet Indias kamp for selvstendighet med ikkevold." },
+    { "term": "Martin Luther King", "def": "Baptistprest som ledet ikkevoldelig kamp mot rasisme i USA." },
+    { "term": "Mor Teresa", "def": "Katolsk nonne som stelte syke og døende i Kolkata. Fredsprisen 1979." },
+    { "term": "Desmond Tutu", "def": "Anglikansk erkebiskop som kjempet mot apartheid og for forsoning." },
+    { "term": "Ubuntu", "def": "Sørafrikansk tanke: «Jeg er fordi vi er.»" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva lærer lignelsen om den barmhjertige samaritan?", "options": ["At man bare skal hjelpe familien", "At nesten er den som trenger hjelp, uansett hvem det er", "At man skal gå i tempelet", "At samaritanere var onde"], "correct": 1, "explain": "Samaritanen hjalp en fremmed som andre hadde gått forbi." },
+    { "id": "q02", "text": "Hvilken lærer sa: «Det som er hatefullt for deg, skal du ikke gjøre mot din neste»?", "options": ["Buddha", "Gandhi", "Muhammad", "Hillel"], "correct": 3, "explain": "Hillel mente at dette var kjernen i hele Toraen." },
+    { "id": "q03", "text": "Hva betyr ahimsa?", "options": ["Medfølelse", "Sannhet", "Ikkevold", "Plikt"], "correct": 2, "explain": "Ahimsa var grunnlaget for Gandhis kamp." },
+    { "id": "q04", "text": "Hvem stelte syke og døende i Kolkata og fikk Nobels fredspris i 1979?", "options": ["Mor Teresa", "Dalai Lama", "Desmond Tutu", "Malala Yousafzai"], "correct": 0, "explain": "Hun grunnla en orden som arbeider blant de fattigste." },
+    { "id": "q05", "text": "Hva er et fellestrekk ved mange religiøse og livssynsbaserte tradisjoner?", "options": ["At de har samme gud", "At de har samme matregler", "At de har samme høytider", "At de har en variant av den gylne regel"], "correct": 3, "explain": "Varianter av regelen finnes hos Jesus, Hillel, Konfutse og mange andre." },
+    { "id": "q06", "text": "Hvem bygde på Gandhis metoder i kampen mot rasisme i USA?", "options": ["Desmond Tutu", "Martin Luther King", "Konfutse", "Hillel"], "correct": 1, "explain": "King kombinerte Jesu kjærlighetsbud med Gandhis ikkevold." },
+    { "id": "q07", "text": "Hva betyr ubuntu?", "options": ["«Jeg er fordi vi er»", "«Elsk deres fiender»", "«Ingen vold»", "«Følg middelveien»"], "correct": 0, "explain": "Ubuntu understreker at mennesker henger sammen og trenger hverandre." },
+    { "id": "q08", "text": "Hva sa Jesus i Bergprekenen om fiender?", "options": ["At man skal hevne seg", "At man skal unngå dem", "At man skal elske dem", "At man skal frykte dem"], "correct": 2, "explain": "Budet om å elske fiendene var radikalt i sin samtid." },
+    { "id": "q09", "text": "Hvordan kan begrunnelsen for etikk være forskjellig i ulike tradisjoner?", "options": ["Den er alltid den samme", "Alle viser til karma", "Alle viser til fornuft", "Noen viser til Guds bud, andre til karma eller fornuft"], "correct": 3, "explain": "Tradisjoner kan komme fram til like regler av ulike grunner." },
+    { "id": "q10", "text": "Hvilken islamsk plikt handler om å hjelpe fattige?", "options": ["Hajj", "Zakat", "Salat", "Shahada"], "correct": 1, "explain": "Zakat er en av islams fem søyler." }
+  ],
+  "mindmap": {
+    "label": "Etiske forbilder",
+    "children": [
+      { "label": "Religionsstiftere", "children": [
+        { "label": "Jesus", "note": "Nestekjærlighet" },
+        { "label": "Muhammad", "note": "Barmhjertighet og rettferd" },
+        { "label": "Buddha", "note": "Medfølelse og ikkevold" }
+      ] },
+      { "label": "Lærere", "children": [
+        { "label": "Hillel" },
+        { "label": "Konfutse" },
+        { "label": "Den gylne regel" }
+      ] },
+      { "label": "Moderne forbilder", "children": [
+        { "label": "Gandhi" },
+        { "label": "Martin Luther King" },
+        { "label": "Mor Teresa" },
+        { "label": "Dalai Lama" },
+        { "label": "Desmond Tutu" }
+      ] },
+      { "label": "Fellestrekk", "children": [
+        { "label": "Medfølelse" },
+        { "label": "Ikkevold" },
+        { "label": "Omsorg for de svake" }
+      ] },
+      { "label": "Forskjeller", "children": [
+        { "label": "Guds bud" },
+        { "label": "Karma" },
+        { "label": "Fornuft og erfaring" },
+        { "label": "Syn på vold" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Konfutse levde flere hundre år før Jesus.", "correct": true, "explain": "Konfutse levde på 500-tallet før vår tidsregning." },
+      { "id": "m02", "type": "sant-usant", "text": "Gandhi ledet Indias kamp for selvstendighet gjennom væpnet opprør.", "correct": false, "explain": "Gandhi brukte ikkevold, som marsjer, boikott og sivil ulydighet." },
+      { "id": "m03", "type": "sant-usant", "text": "Desmond Tutu la vekt på forsoning etter apartheid.", "correct": true, "explain": "Han ledet Sannhets- og forsoningskommisjonen i Sør-Afrika." },
+      { "id": "m04", "type": "sant-usant", "text": "Alle religioner begrunner etikken på nøyaktig samme måte.", "correct": false, "explain": "Begrunnelsene varierer, selv om reglene ofte ligner." },
+      { "id": "m05", "type": "flervalg", "text": "Hva sier de buddhistiske forskriftene blant annet?", "options": ["At man skal be fem ganger om dagen", "At man ikke skal drepe, stjele eller lyve", "At man skal holde sabbaten", "At man skal gi bort alt man eier"], "correct": 1, "explain": "Forskriftene gjelder alle buddhister, ikke bare munker." },
+      { "id": "m06", "type": "flervalg", "text": "Hvem er den kjente lederen i tibetansk buddhisme som har gjort medfølelse kjent i verden?", "options": ["Dalai Lama", "Konfutse", "Hillel", "Mor Teresa"], "correct": 0, "explain": "Dalai Lama fikk Nobels fredspris i 1989." },
+      { "id": "m07", "type": "flervalg", "text": "Hvorfor kan det være nyttig å skille mellom ideene og personen når vi ser på forbilder?", "options": ["Fordi forbilder aldri tar feil", "Fordi ideer ikke betyr noe", "Fordi forbilder også er mennesker som kan ha gjort feil", "Fordi personer ikke betyr noe"], "correct": 2, "explain": "Gode ideer kan ha verdi selv om personen bak dem har svakheter." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

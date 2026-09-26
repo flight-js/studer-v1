@@ -1,0 +1,83 @@
+{
+  "id": "religion-og-historie",
+  "fagId": "krle-9",
+  "trinnId": "9",
+  "name": "Religion i historiske endringer",
+  "intro": "Hvordan kristendom og islam har vært med på å forme historien i verden og i Norge, fra Romerriket og kristningen av Norge til reformasjonen, misjonen og skillet mellom kirke og stat.",
+  "kompetansemaal": [2],
+  "sammendrag": "## Religion og endring\n\nReligioner har vært med på å forme historien. De har samlet riker, skapt lover og kultur, ført til kriger og inspirert kamp for rettferdighet. Samtidig har religionene selv endret seg i møte med nye samfunn.\n\n## Kristendommen blir verdensreligion\n\nDe første kristne ble forfulgt i **Romerriket**. I 313 fikk de religionsfrihet under keiser **Konstantin**, og i 380 ble kristendommen statsreligion. Kirken ble etter hvert en av de mektigste institusjonene i Europa. Klostrene tok vare på kunnskap og drev skoler og sykehus.\n\n## Kristningen av Norge\n\nRundt år 1000 prøvde kongene **Olav Tryggvason** og **Olav Haraldsson** å gjøre Norge kristent, ofte med makt. Olav Haraldsson falt i **slaget på Stiklestad** i **1030**, men ble snart dyrket som helgen, **Olav den hellige**. **Nidaros** (Trondheim) ble et av Nord-Europas viktigste pilegrimsmål. Kristningen førte til store endringer:\n\n- nye lover, blant annet forbud mot å sette ut barn og mot å ofre til de gamle gudene\n- kirker, klostre og en egen **kirkeorganisasjon**, med erkebiskop i Nidaros fra 1150-tallet\n- **skriftkultur** med latinske bokstaver og bøker\n- en ny kalender med kristne høytider\n\n## Islams spredning\n\nEtter Muhammads død spredte islam seg raskt, og på 700-tallet strakte det muslimske riket seg fra **Spania** til **India**. I islams **gullalder** var byer som **Bagdad** sentre for vitenskap. Muslimske lærde utviklet **algebra**, spredte tallsystemet vi bruker i dag, og tok vare på tekstene til greske filosofer.\n\n## Korstog og reformasjon\n\nFra 1096 til 1291 førte europeiske kristne **korstog** for å erobre Jerusalem. **Reformasjonen**, som Martin Luther startet i 1517, delte kirken i Europa. I Danmark-Norge ble reformasjonen innført i **1537**. Kongen ble kirkens overhode, kirkens eiendommer gikk til kongen, og etter hvert fikk folk Bibelen og gudstjenesten på morsmålet. Striden mellom katolikker og protestanter førte også til blodige kriger.\n\n## Misjon og kolonialisme\n\nFra 1500-tallet fulgte **misjonærer** med de europeiske kolonimaktene til Amerika, Afrika og Asia. Misjonen bygde skoler og sykehus, men var også en del av en kolonialisme som undertrykte lokale kulturer og religioner. Også norske organisasjoner, som **Det Norske Misjonsselskap** fra 1842, drev misjon, blant annet på **Madagaskar** og i **Sør-Afrika**.\n\n## Religion som drivkraft for rettferdighet\n\nReligiøse ledere har også gått i spissen for endring. **Hans Nielsen Hauge** startet rundt 1800 en vekkelse som styrket selvtilliten og næringslivet blant vanlige folk i Norge. **Martin Luther King** var baptistprest, og **Mahatma Gandhi** bygde sin ikkevoldskamp på hinduistiske og andre religiøse ideer.\n\n## Fra statskirke til livssynsåpent samfunn\n\n**Grunnloven** av 1814 slo fast at den evangelisk-lutherske religion var statens religion. **Dissenterloven** av 1845 ga andre kristne rett til å danne egne trossamfunn. Gradvis ble religionsfriheten utvidet, og i **2017** ble Den norske kirke skilt fra staten som et selvstendig trossamfunn. I dag er Norge et samfunn med mange religioner og livssyn, og religion har fått mindre betydning for mange. Denne utviklingen kalles **sekularisering**.",
+  "flashcards": [
+    { "term": "Konstantin", "def": "Romersk keiser som ga de kristne religionsfrihet i 313." },
+    { "term": "Statsreligion", "def": "Religion som staten har gjort offisiell. Kristendommen ble det i Romerriket i 380." },
+    { "term": "Kristningen av Norge", "def": "Overgangen fra norrøn religion til kristendom, særlig rundt år 1000." },
+    { "term": "Slaget på Stiklestad", "def": "Slaget i 1030 der Olav Haraldsson falt." },
+    { "term": "Olav den hellige", "def": "Olav Haraldsson, som ble dyrket som helgen etter sin død." },
+    { "term": "Nidaros", "def": "Trondheim, erkebispesete og et viktig pilegrimsmål i middelalderen." },
+    { "term": "Islams gullalder", "def": "Periode der byer som Bagdad var sentre for vitenskap og filosofi." },
+    { "term": "Algebra", "def": "Gren av matematikken som ble utviklet av muslimske lærde." },
+    { "term": "Korstogene", "def": "Kriger fra 1096 til 1291 for å erobre Jerusalem." },
+    { "term": "Reformasjonen i Norge", "def": "Innført i Danmark-Norge i 1537. Kongen ble kirkens overhode." },
+    { "term": "Misjon", "def": "Arbeid for å spre en religion til nye folk." },
+    { "term": "Det Norske Misjonsselskap", "def": "Norsk misjonsorganisasjon fra 1842, blant annet aktiv på Madagaskar." },
+    { "term": "Hans Nielsen Hauge", "def": "Lekpredikant som startet en vekkelse i Norge rundt 1800." },
+    { "term": "Dissenterloven", "def": "Lov fra 1845 som ga andre kristne rett til egne trossamfunn." },
+    { "term": "Sekularisering", "def": "At religion får mindre betydning i samfunnet og for den enkelte." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvilken romersk keiser ga de kristne religionsfrihet i 313?", "options": ["Nero", "Augustus", "Konstantin", "Cæsar"], "correct": 2, "explain": "Etter dette vokste kristendommen raskt i Romerriket." },
+    { "id": "q02", "text": "Hva skjedde på Stiklestad i 1030?", "options": ["Olav Haraldsson falt i slag", "Norge ble kristnet på én dag", "Nidarosdomen sto ferdig", "Reformasjonen startet"], "correct": 0, "explain": "Kort tid etter ble han dyrket som helgen." },
+    { "id": "q03", "text": "Hvilken endring førte kristningen med seg i Norge?", "options": ["Norrøn religion ble statsreligion", "Runer ble den eneste skriften", "Tingene ble avskaffet", "Nye lover, kirker og skriftkultur"], "correct": 3, "explain": "Kirken brakte med seg latinske bokstaver, bøker og en ny organisasjon." },
+    { "id": "q04", "text": "Hva bidro muslimske lærde med i islams gullalder?", "options": ["Boktrykkerkunsten", "Algebra og bevaring av greske tekster", "Dampmaskinen", "Oppdagelsen av Amerika"], "correct": 1, "explain": "Mye av den greske filosofien nådde Europa via arabiske oversettelser." },
+    { "id": "q05", "text": "Når ble reformasjonen innført i Danmark-Norge?", "options": ["1030", "1814", "1096", "1537"], "correct": 3, "explain": "Norge har vært luthersk siden da." },
+    { "id": "q06", "text": "Hva var korstogene?", "options": ["Europeiske kristnes kriger for å erobre Jerusalem", "Misjonsreiser til Amerika", "Pilegrimsreiser til Nidaros", "Handelsreiser til India"], "correct": 0, "explain": "Korstogene varte fra 1096 til 1291." },
+    { "id": "q07", "text": "Hva er en kritikk av misjonen i kolonitiden?", "options": ["At den bygde skoler", "At den ga folk sykehus", "At den var en del av en kolonialisme som undertrykte lokale kulturer", "At den var for liten"], "correct": 2, "explain": "Misjonen hadde både positive og negative følger for folkene den møtte." },
+    { "id": "q08", "text": "Hva ga dissenterloven av 1845?", "options": ["Forbud mot alle andre religioner", "Andre kristne rett til å danne egne trossamfunn", "Religionsundervisning i skolen", "Skille mellom kirke og stat"], "correct": 1, "explain": "Loven var et viktig steg mot religionsfrihet i Norge." },
+    { "id": "q09", "text": "Når ble Den norske kirke skilt fra staten som et selvstendig trossamfunn?", "options": ["2017", "1814", "1905", "1945"], "correct": 0, "explain": "Grunnloven ble endret allerede i 2012, og skillet trådte i kraft i 2017." },
+    { "id": "q10", "text": "Hvem startet en vekkelse i Norge rundt 1800?", "options": ["Martin Luther", "Olav Tryggvason", "Thomas von Westen", "Hans Nielsen Hauge"], "correct": 3, "explain": "Hauge-bevegelsen styrket også vanlige folks selvtillit og næringsliv." }
+  ],
+  "mindmap": {
+    "label": "Religion og historie",
+    "children": [
+      { "label": "Kristendommen sprer seg", "children": [
+        { "label": "Forfølgelse i Romerriket" },
+        { "label": "Konstantin", "note": "313" },
+        { "label": "Statsreligion", "note": "380" }
+      ] },
+      { "label": "Norge kristnes", "children": [
+        { "label": "Olavene" },
+        { "label": "Stiklestad", "note": "1030" },
+        { "label": "Nidaros" },
+        { "label": "Lover og skrift" }
+      ] },
+      { "label": "Islam", "children": [
+        { "label": "Spania til India" },
+        { "label": "Gullalder i Bagdad" },
+        { "label": "Algebra og vitenskap" }
+      ] },
+      { "label": "Europa", "children": [
+        { "label": "Korstogene" },
+        { "label": "Reformasjonen", "note": "1517 / 1537" },
+        { "label": "Religionskriger" }
+      ] },
+      { "label": "Misjon og samfunn", "children": [
+        { "label": "Misjon og kolonialisme" },
+        { "label": "Hauge, King og Gandhi" },
+        { "label": "Kirke og stat skilt", "note": "2017" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "De første kristne ble forfulgt i Romerriket.", "correct": true, "explain": "Forfølgelsen tok slutt da Konstantin ga dem religionsfrihet i 313." },
+      { "id": "m02", "type": "sant-usant", "text": "Kristningen av Norge skjedde helt fredelig.", "correct": false, "explain": "Kongene brukte ofte makt og tvang for å kristne folket." },
+      { "id": "m03", "type": "sant-usant", "text": "Etter reformasjonen ble kongen overhode for kirken i Danmark-Norge.", "correct": true, "explain": "Paven mistet all makt over kirken i Norge." },
+      { "id": "m04", "type": "sant-usant", "text": "Religion har bare ført til konflikter og aldri til positiv endring.", "correct": false, "explain": "Religion har også inspirert kamp for rettferdighet, utdanning og omsorg." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken by ble et viktig pilegrimsmål etter Olav den hellige?", "options": ["Bergen", "Oslo", "Nidaros (Trondheim)", "Stavanger"], "correct": 2, "explain": "Olav ble gravlagt i Nidaros, der Nidarosdomen senere ble bygd." },
+      { "id": "m06", "type": "flervalg", "text": "Hvor drev Det Norske Misjonsselskap blant annet misjon?", "options": ["Island", "Madagaskar", "Grønland", "Sicilia"], "correct": 1, "explain": "Misjonsselskapet var også aktivt i Sør-Afrika." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er sekularisering?", "options": ["At religion får mindre betydning i samfunnet", "At det bygges flere kirker", "At staten får en ny religion", "At flere går i kirken"], "correct": 0, "explain": "Sekularisering har preget Norge og mange andre land de siste hundre årene." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
