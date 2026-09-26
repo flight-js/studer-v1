@@ -1,0 +1,81 @@
+{
+  "id": "mat-og-restaurant",
+  "fagId": "kinesisk-vg2",
+  "trinnId": "vg2",
+  "name": "Mat og restaurant",
+  "intro": "Hvordan du bestiller mat, snakker om smak og betaler på restaurant i Kina, forskjellen på 想 og 要, spørsmål med 还是, og regionale kjøkken som sichuanmat, dim sum og Peking-and.",
+  "kompetansemaal": [2, 3, 8],
+  "sammendrag": "## På restaurant\n\n- **饭馆** *fànguǎn* – restaurant\n- **菜单** *càidān* – meny\n- **服务员** *fúwùyuán* – servitør (brukes også for å rope på servitøren)\n- **点菜** *diǎn cài* – bestille mat\n- **买单** *mǎidān* – betale regningen\n\n## Å bestille\n\n- *你想吃什么？* *Nǐ xiǎng chī shénme?* – Hva vil du spise?\n- *我要一碗米饭。* *Wǒ yào yì wǎn mǐfàn.* – Jeg vil ha en bolle ris.\n- *来一个饺子。* *Lái yí ge jiǎozi.* – En porsjon dumplings, takk. (*来* brukes muntlig når man bestiller.)\n- *不要太辣。* *Bú yào tài là.* – Ikke for sterk.\n- *服务员，买单！* – Servitør, regningen!\n\n## 想 og 要\n\n- **想** *xiǎng* – **ønske**, ha lyst til: *我想喝茶。* – Jeg har lyst på te.\n- **要** *yào* – **vil ha** (mer bestemt), også brukt når man bestiller: *我要这个。* – Jeg tar denne.\n\n## Mat og drikke\n\n米饭 *mǐfàn* (ris), 面条 *miàntiáo* (nudler), 饺子 *jiǎozi* (dumplings), 包子 *bāozi* (dampede boller), 鸡肉 *jīròu* (kylling), 鱼 *yú* (fisk), 蔬菜 *shūcài* (grønnsaker), 茶 *chá* (te), 水 *shuǐ* (vann).\n\n## Smak\n\n- 好吃 *hǎochī* – godt (om mat), 好喝 *hǎohē* – godt (om drikke)\n- 辣 *là* – sterk, 甜 *tián* – søt, 咸 *xián* – salt, 酸 *suān* – sur\n- *太好吃了！* *Tài hǎochī le!* – Det er kjempegodt!\n\n**太……了** *tài … le* forsterker: «altfor» eller «kjempe-».\n\n## 还是 og 或者\n\nBegge betyr «eller», men:\n\n- **还是** *háishi* brukes i **spørsmål**: *你要茶还是咖啡？* – Vil du ha te eller kaffe?\n- **或者** *huòzhě* brukes i **utsagn**: *我喝茶或者水。* – Jeg drikker te eller vann.\n\n## Regionale kjøkken\n\n- **Sichuan** (四川): **sterkt krydret** mat med chili og sichuanpepper\n- **Kantonesisk** mat fra Sør-Kina: **dim sum** (点心 *diǎnxin*) – små retter til te\n- **北京烤鸭** *Běijīng kǎoyā* – **Peking-and**, en berømt rett fra Beijing\n\n## Spisekultur\n\nRettene settes gjerne **midt på bordet** og **deles**. Det er vanlig at én person **betaler for alle**, og det kan bli en høflig «kamp» om hvem som får betale.",
+  "flashcards": [
+    { "term": "饭馆 fànguǎn", "def": "restaurant" },
+    { "term": "菜单 càidān", "def": "meny" },
+    { "term": "服务员 fúwùyuán", "def": "servitør" },
+    { "term": "点菜 diǎn cài", "def": "bestille mat" },
+    { "term": "买单 mǎidān", "def": "betale regningen" },
+    { "term": "想 xiǎng", "def": "ønske, ha lyst til" },
+    { "term": "要 yào", "def": "vil ha" },
+    { "term": "米饭 mǐfàn", "def": "ris" },
+    { "term": "面条 miàntiáo", "def": "nudler" },
+    { "term": "好吃 hǎochī", "def": "godt (om mat)" },
+    { "term": "辣 là", "def": "sterk (krydret)" },
+    { "term": "太……了 tài … le", "def": "altfor / kjempe-" },
+    { "term": "还是 háishi", "def": "eller (i spørsmål)" },
+    { "term": "或者 huòzhě", "def": "eller (i utsagn)" },
+    { "term": "北京烤鸭 Běijīng kǎoyā", "def": "Peking-and" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva betyr 菜单 càidān?", "options": ["servitør", "meny", "regning", "restaurant"], "correct": 1, "explain": "饭馆 er restaurant." },
+    { "id": "q02", "text": "Hvordan ber du om regningen?", "options": ["服务员，买单！", "服务员，点菜！", "服务员，好吃！", "服务员，再见！"], "correct": 0, "explain": "买单 mǎidān = betale regningen." },
+    { "id": "q03", "text": "Hvilket ord for «eller» brukes i spørsmål?", "options": ["或者 huòzhě", "和 hé", "还是 háishi", "也 yě"], "correct": 2, "explain": "你要茶还是咖啡？" },
+    { "id": "q04", "text": "Hva betyr 太好吃了！?", "options": ["Det er for dyrt!", "Jeg er mett!", "Det er for sterkt!", "Det er kjempegodt!"], "correct": 3, "explain": "太……了 forsterker." },
+    { "id": "q05", "text": "Hva betyr 不要太辣?", "options": ["Ikke for sterk.", "Veldig sterk.", "Ikke søt.", "Uten salt."], "correct": 0, "explain": "辣 là = sterk." },
+    { "id": "q06", "text": "Hvilken region er kjent for sterkt krydret mat?", "options": ["Beijing", "Sichuan", "Shanghai", "Hongkong"], "correct": 1, "explain": "Sichuanpepper og chili." },
+    { "id": "q07", "text": "Hva er dim sum?", "options": ["En type te", "En suppe", "Små retter til te fra kantonesisk kjøkken", "Peking-and"], "correct": 2, "explain": "点心 diǎnxin." },
+    { "id": "q08", "text": "Hva er forskjellen på 想 og 要?", "options": ["Det er ingen forskjell", "想 betyr spise, 要 betyr drikke", "要 betyr ønske, 想 betyr ta", "想 er å ønske, 要 er mer bestemt «vil ha»"], "correct": 3, "explain": "要 brukes også når man bestiller." },
+    { "id": "q09", "text": "Hvordan spiser man ofte på kinesisk restaurant?", "options": ["Rettene settes midt på bordet og deles", "Hver person får sin egen rett", "Man spiser stående", "Man bestiller bare én rett"], "correct": 0, "explain": "Deling er vanlig." },
+    { "id": "q10", "text": "Hva betyr 好喝?", "options": ["godt (om mat)", "godt (om drikke)", "varmt", "billig"], "correct": 1, "explain": "喝 hē = drikke." }
+  ],
+  "mindmap": {
+    "label": "Mat og restaurant",
+    "children": [
+      { "label": "Restaurant", "children": [
+        { "label": "饭馆" },
+        { "label": "菜单" },
+        { "label": "服务员" }
+      ] },
+      { "label": "Bestille", "children": [
+        { "label": "我要……" },
+        { "label": "来一个……" },
+        { "label": "买单" }
+      ] },
+      { "label": "Smak", "children": [
+        { "label": "好吃, 好喝" },
+        { "label": "辣, 甜, 咸, 酸" },
+        { "label": "太……了" }
+      ] },
+      { "label": "Grammatikk", "children": [
+        { "label": "想 og 要" },
+        { "label": "还是 og 或者" }
+      ] },
+      { "label": "Regioner", "children": [
+        { "label": "Sichuan" },
+        { "label": "Dim sum" },
+        { "label": "Peking-and" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "或者 brukes i utsagn, ikke i spørsmål.", "correct": true, "explain": "I spørsmål brukes 还是." },
+      { "id": "m02", "type": "sant-usant", "text": "I Kina er det vanlig at alle betaler for seg selv på restaurant.", "correct": false, "explain": "Det er vanlig at én betaler for alle." },
+      { "id": "m03", "type": "sant-usant", "text": "面条 betyr nudler.", "correct": true, "explain": "Nudler er vanlig særlig i Nord-Kina." },
+      { "id": "m04", "type": "sant-usant", "text": "甜 betyr salt.", "correct": false, "explain": "甜 tián betyr søt. Salt er 咸 xián." },
+      { "id": "m05", "type": "flervalg", "text": "Hvordan spør du «Vil du ha te eller kaffe?»", "options": ["你要茶或者咖啡？", "你要茶还是咖啡？", "你茶咖啡吗？", "你要茶和咖啡吗？"], "correct": 1, "explain": "还是 i spørsmål." },
+      { "id": "m06", "type": "flervalg", "text": "Hva betyr 你想吃什么？", "options": ["Hva vil du spise?", "Hva spiste du?", "Liker du mat?", "Er du sulten?"], "correct": 0, "explain": "想 = ha lyst til." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er 北京烤鸭?", "options": ["Nudelsuppe", "Dumplings", "Peking-and", "Dim sum"], "correct": 2, "explain": "En berømt rett fra Beijing." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

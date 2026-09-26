@@ -1,0 +1,82 @@
+{
+  "id": "handel-og-sammenligning",
+  "fagId": "kinesisk-vg2",
+  "trinnId": "vg2",
+  "name": "Handel, klær og sammenligning",
+  "intro": "Hvordan du handler klær og andre varer på kinesisk – farger, måleord og pris – pruter, betaler med mobilen og sammenligner ting med 比, 没有 og 一样.",
+  "kompetansemaal": [2, 6, 8],
+  "sammendrag": "## I butikken\n\n- 商店 *shāngdiàn* – butikk\n- 买 *mǎi* – kjøpe, 卖 *mài* – selge (legg merke til tonene!)\n- 衣服 *yīfu* – klær\n- 试试 *shìshi* – prøve (på)\n- *我可以试试吗？* – Kan jeg prøve den?\n\n## Farger\n\n颜色 *yánsè* – farge. 红色 *hóngsè* (rød), 蓝色 *lánsè* (blå), 黑色 *hēisè* (svart), 白色 *báisè* (hvit), 绿色 *lǜsè* (grønn), 黄色 *huángsè* (gul).\n\n*你喜欢什么颜色？* – Hvilken farge liker du?\n\n## Måleord\n\nKlær og ting telles med ulike **måleord**:\n\n- 件 *jiàn* – for klær på overkroppen: *一件衬衫* (en skjorte)\n- 条 *tiáo* – for lange, smale ting: *一条裤子* (en bukse)\n- 双 *shuāng* – for par: *一双鞋* (et par sko)\n- 个 *gè* – det vanligste måleordet\n\n## Pris og pruting\n\n- *这件衣服多少钱？* – Hvor mye koster dette plagget?\n- *一百块。* – Hundre yuan.\n- *太贵了！* – Det er for dyrt!\n- *可以便宜一点吗？* *Kěyǐ piányi yìdiǎn ma?* – Kan det bli litt billigere?\n- 便宜 *piányi* – billig\n\nPå **markeder** er det vanlig å **prute**, men ikke i vanlige butikker.\n\n## Mobilbetaling\n\nI Kina betaler de fleste med **mobilen** – med apper som **微信支付** *Wēixìn zhīfù* (WeChat Pay) og **支付宝** *Zhīfùbǎo* (Alipay). Man skanner en **QR-kode**, og kontanter er blitt sjeldne mange steder.\n\n## Sammenligning\n\n**A 比 B + adjektiv** – A er mer … enn B:\n\n- *这件比那件贵。* *Zhè jiàn bǐ nà jiàn guì.* – Denne er dyrere enn den.\n- *我比我哥哥高。* – Jeg er høyere enn broren min.\n\nMerk: I 比-setninger bruker man **ikke 很**.\n\n**A 没有 B + adjektiv** – A er ikke så … som B:\n\n- *这件没有那件贵。* – Denne er ikke så dyr som den.\n\n**A 跟 B 一样** – A er lik B:\n\n- *这件跟那件一样贵。* – Denne er like dyr som den.\n\n## Nettshopping\n\nNetthandel (*网上购物* *wǎngshàng gòuwù*) er enormt i Kina, og **11. november** – *Singles' Day* – er verdens største handledag på nett.",
+  "flashcards": [
+    { "term": "商店 shāngdiàn", "def": "butikk" },
+    { "term": "买 mǎi / 卖 mài", "def": "kjøpe / selge" },
+    { "term": "衣服 yīfu", "def": "klær" },
+    { "term": "试试 shìshi", "def": "prøve (på)" },
+    { "term": "颜色 yánsè", "def": "farge" },
+    { "term": "红色 hóngsè", "def": "rød" },
+    { "term": "蓝色 lánsè", "def": "blå" },
+    { "term": "件 jiàn", "def": "måleord for klær på overkroppen" },
+    { "term": "双 shuāng", "def": "måleord for par" },
+    { "term": "便宜 piányi", "def": "billig" },
+    { "term": "可以便宜一点吗？", "def": "Kan det bli litt billigere?" },
+    { "term": "微信支付 Wēixìn zhīfù", "def": "WeChat Pay – mobilbetaling" },
+    { "term": "A 比 B 贵", "def": "A er dyrere enn B" },
+    { "term": "A 没有 B 贵", "def": "A er ikke så dyr som B" },
+    { "term": "A 跟 B 一样", "def": "A er lik B" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er forskjellen på 买 og 卖?", "options": ["Det er det samme ordet", "买 mǎi er kjøpe, 卖 mài er selge", "买 er selge, 卖 er kjøpe", "买 er billig, 卖 er dyr"], "correct": 1, "explain": "Tonen og tegnet skiller dem." },
+    { "id": "q02", "text": "Hvilket måleord brukes for et par sko?", "options": ["双 shuāng", "件 jiàn", "条 tiáo", "个 gè"], "correct": 0, "explain": "一双鞋 – et par sko." },
+    { "id": "q03", "text": "Hvordan sier du «Denne er dyrere enn den»?", "options": ["这件很贵比那件。", "这件贵那件。", "这件比那件贵。", "那件比这件贵。"], "correct": 2, "explain": "A 比 B + adjektiv." },
+    { "id": "q04", "text": "Hvordan spør du om det kan bli billigere?", "options": ["太贵了！", "多少钱？", "我可以试试吗？", "可以便宜一点吗？"], "correct": 3, "explain": "Nyttig på markeder." },
+    { "id": "q05", "text": "Hvordan betaler de fleste i Kina i dag?", "options": ["Med mobilen", "Med sjekk", "Bare med kontanter", "Med gull"], "correct": 0, "explain": "WeChat Pay og Alipay." },
+    { "id": "q06", "text": "Hva betyr 这件没有那件贵?", "options": ["Denne er dyrere enn den.", "Denne er ikke så dyr som den.", "Denne er like dyr som den.", "Denne er gratis."], "correct": 1, "explain": "A 没有 B + adjektiv." },
+    { "id": "q07", "text": "Hvilket måleord brukes for en bukse?", "options": ["件 jiàn", "双 shuāng", "条 tiáo", "本 běn"], "correct": 2, "explain": "条 for lange, smale ting." },
+    { "id": "q08", "text": "Hva betyr 蓝色?", "options": ["rød", "grønn", "svart", "blå"], "correct": 3, "explain": "红色 = rød." },
+    { "id": "q09", "text": "Hva betyr 这件跟那件一样贵?", "options": ["Denne er like dyr som den.", "Denne er dyrere.", "Denne er billigere.", "Denne og den er forskjellige."], "correct": 0, "explain": "A 跟 B 一样 + adjektiv." },
+    { "id": "q10", "text": "Hvorfor bruker man ikke 很 i en 比-setning?", "options": ["Fordi 很 betyr billig", "Fordi 比 allerede uttrykker sammenligningen", "Fordi 很 bare brukes om personer", "Det gjør man alltid"], "correct": 1, "explain": "这件比那件贵 – uten 很." }
+  ],
+  "mindmap": {
+    "label": "Handel og sammenligning",
+    "children": [
+      { "label": "Butikken", "children": [
+        { "label": "买 og 卖" },
+        { "label": "衣服" },
+        { "label": "试试" }
+      ] },
+      { "label": "Farger", "children": [
+        { "label": "红色, 蓝色" },
+        { "label": "黑色, 白色" },
+        { "label": "绿色, 黄色" }
+      ] },
+      { "label": "Måleord", "children": [
+        { "label": "件" },
+        { "label": "条" },
+        { "label": "双" }
+      ] },
+      { "label": "Pris", "children": [
+        { "label": "多少钱？" },
+        { "label": "便宜一点" },
+        { "label": "Mobilbetaling" }
+      ] },
+      { "label": "Sammenligning", "children": [
+        { "label": "A 比 B + adj." },
+        { "label": "A 没有 B + adj." },
+        { "label": "A 跟 B 一样" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Det er vanlig å prute på markeder i Kina.", "correct": true, "explain": "Men ikke i vanlige butikker." },
+      { "id": "m02", "type": "sant-usant", "text": "件 brukes som måleord for sko.", "correct": false, "explain": "Sko telles i par med 双." },
+      { "id": "m03", "type": "sant-usant", "text": "11. november er en stor handledag på nett i Kina.", "correct": true, "explain": "Singles' Day." },
+      { "id": "m04", "type": "sant-usant", "text": "便宜 betyr dyr.", "correct": false, "explain": "便宜 piányi betyr billig. Dyr er 贵 guì." },
+      { "id": "m05", "type": "flervalg", "text": "Hvordan sier du «Jeg er høyere enn broren min»?", "options": ["我很高比我哥哥。", "我比我哥哥高。", "我哥哥比我高。", "我高我哥哥。"], "correct": 1, "explain": "A 比 B + adjektiv." },
+      { "id": "m06", "type": "flervalg", "text": "Hva betyr 我可以试试吗？", "options": ["Kan jeg prøve den?", "Kan jeg kjøpe den?", "Er den billig?", "Har dere andre farger?"], "correct": 0, "explain": "试试 = prøve." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er 支付宝?", "options": ["En butikk", "En type klær", "Alipay – en betalingsapp", "En bank i Norge"], "correct": 2, "explain": "Zhīfùbǎo." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

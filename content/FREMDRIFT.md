@@ -28,12 +28,14 @@ Status for arbeidet med å lage innhold til alle 83 fag (8. trinn–Vg3), og hvo
 | Norsk Vg2 | 8 |
 | Historie Vg2 | 9 |
 | Matematikk 2P | 7 |
+| Tysk, fransk, spansk Vg2 (nivå II) | 6 per språk (18) |
+| Kinesisk Vg2 (nivå I) | 6 |
 
 Hele ungdomstrinnet er ferdig.
 
 Hele Vg1 er ferdig.
 
-**Neste:** Vg2 fremmedspråk: tysk/fransk/spansk-vg2 (KV966, fortsettelse fra Vg1) og kinesisk-vg2 (KV965, fortsettelse). Deretter Vg2 programfag (fysikk-1, biologi-1, geofag-1, matematikk-r1/s1 osv.).
+**Neste:** Vg2 programfag, i denne rekkefølgen: fysikk-1, biologi-1, geofag-1, matematikk-r1, matematikk-s1, informasjonsteknologi-1, teknologi-og-forskningslare-1, sosiologi-og-sosialantropologi, historie-og-filosofi-1, politikk-og-menneskerettigheter, rettslare-1, psykologi-1, markedsforing-og-ledelse-1, entreprenorskap-og-bedriftsutvikling-1, samfunnsokonomi-1.
 
 **Fremmedspråk nivå I (FSP01-04 KV965)**, samme slugs for tysk, fransk og spansk (`_fag.json` er laget). Forklaringer på norsk, eksempler og flashcard-termer på målspråket:
 

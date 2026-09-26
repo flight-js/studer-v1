@@ -575,6 +575,44 @@ Læreplan: [FSP01-04](https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurder
 - 🟡 **Tysk historie: fra keiserrike til gjenforening** – utkast (362 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
 - 🟡 **Litteratur, musikk og film** – utkast (384 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
 
+## Fransk (vg2) – 6 av 6 temaer ferdig
+
+Læreplan: [FSP01-04](https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurdering/kv966)
+
+- 🟡 **Klima, miljø og bærekraft** – utkast (358 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Teknologi og digitalt liv** – utkast (319 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Migrasjon, identitet og mangfold** – utkast (373 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Studier og arbeid i fransktalende land** – utkast (335 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Å lese fransk litteratur** – utkast (379 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Ungdomskultur, slang og språklæring** – utkast (380 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+
+## Historie (vg2) – 9 av 9 temaer ferdig
+
+Læreplan: [HIS01-03](https://www.udir.no/lk20/his01-03/kompetansemaal-og-vurdering/kv84)
+
+- 🟡 **Historie som fag: kilder og periodisering** – utkast (368 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Minnekultur – hvordan fortiden minnes** – utkast (417 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Mat og naturressurser gjennom historien** – utkast (417 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Demografiske endringer** – utkast (404 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Handel, økonomiske systemer og makt** – utkast (417 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Demokrati i antikken og i vår tid** – utkast (402 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Kommunikasjon og kulturmøter** – utkast (397 ord · 15 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+- 🟡 **Makt og legitimitet fra middelalder til tidlig nytid** – utkast (420 ord · 15 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+- 🟡 **Religion, makt og identitet** – utkast (435 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+
+## Kinesisk (vg2) – 6 av 6 temaer ferdig
+
+Læreplan: [FSP01-04](https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurdering/kv965)
+
+- 🟡 **Mat og restaurant** – utkast (303 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Skole, fritid og ferdigheter** – utkast (286 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Reise, transport og veibeskrivelse** – utkast (287 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Handel, klær og sammenligning** – utkast (294 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Å snakke om fortid og framtid** – utkast (280 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🔴 **Det moderne Kina** – sjekkes (350 ord · 15 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+  - Sjekk: Kinesisk bør gjennomgås av en lærer med kinesiskkompetanse (tegn, pinyin og toner).
+  - Sjekk: Politiske formuleringer om Taiwan, Hongkong og menneskerettigheter bør vurderes av lærer.
+
 ## Kjemi 1 (vg2) – 11 av 11 temaer ferdig
 
 Læreplan: [KJE01-02](https://www.udir.no/lk20/kje01-02/kompetansemaal-og-vurdering/kv532)
@@ -607,4 +645,53 @@ Læreplan: [KJE01-02](https://www.udir.no/lk20/kje01-02/kompetansemaal-og-vurder
   - Sjekk: Flammefarger beskrives litt ulikt i ulike kilder (for eksempel «grønn» eller «blågrønn» for kobber).
 - 🟡 **Grønn kjemi** – utkast (427 ord · 19 kort · 12 quiz · 18 i miniprøve · 24 noder i tankekart)
   - Sjekk: Prinsippene er gjengitt fritt og gruppert i hovedtanker, ikke som Anastas og Warners nummererte liste. Sjekk om læreboka forventer at elevene kan alle tolv med nummer.
+
+## Matematikk 2P (vg2) – 7 av 7 temaer ferdig
+
+Læreplan: [MAT05-04](https://www.udir.no/lk20/mat05-04/kompetansemaal-og-vurdering/kv46)
+
+- 🟡 **Prosent, vekstfaktor og modellering i regneark** – utkast (385 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Prisindeks, kroneverdi og reallønn** – utkast (381 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Personlig økonomi, lån og kredittkort** – utkast (430 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Likninger, likningssett og ulikheter** – utkast (374 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Sentralmål og spredningsmål** – utkast (369 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Analysere og presentere datasett** – utkast (338 ord · 15 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+- 🟡 **Formlikhet, målestokk og geometri i praksis** – utkast (430 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+
+## Norsk (vg2) – 8 av 8 temaer ferdig
+
+Læreplan: [NOR01-08](https://www.udir.no/lk20/nor01-08/kompetansemaal-og-vurdering/kv1112)
+
+- 🟡 **Norrøn litteratur** – utkast (393 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Fra reformasjon til opplysningstid (1500–1800)** – utkast (422 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Romantikken og nasjonalromantikken** – utkast (387 ord · 15 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+- 🟡 **Den retoriske situasjonen og sakprosa** – utkast (408 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Fagartikkel om tekster i kontekst** – utkast (369 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Retoriske ferdigheter i presentasjoner og diskusjoner** – utkast (382 ord · 15 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+- 🟡 **Norsk, svensk, dansk og norrønt** – utkast (442 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🔴 **Språksituasjonen i Norge og språkstriden** – sjekkes (430 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+  - Sjekk: Sjekk andelen elever med nynorsk som hovedmål og årstallet for når samnorsk formelt ble oppgitt.
+
+## Spansk (vg2) – 6 av 6 temaer ferdig
+
+Læreplan: [FSP01-04](https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurdering/kv966)
+
+- 🟡 **Klima, miljø og bærekraft** – utkast (324 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Teknologi og digitalt liv** – utkast (364 ord · 15 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+- 🟡 **Migrasjon, identitet og mangfold** – utkast (342 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Studier og arbeid i spansktalende land** – utkast (312 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Å lese spanskspråklig litteratur** – utkast (373 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Ungdomskultur, fester og språklæring** – utkast (412 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+
+## Tysk (vg2) – 6 av 6 temaer ferdig
+
+Læreplan: [FSP01-04](https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurdering/kv966)
+
+- 🟡 **Klima, miljø og bærekraft** – utkast (340 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Teknologi og digitalt liv** – utkast (326 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🔴 **Migrasjon, identitet og mangfold** – sjekkes (352 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+  - Sjekk: Sjekk andelen med innvandrerbakgrunn i Tyskland («rundt hver fjerde») mot fersk statistikk.
+- 🟡 **Studier og arbeid i tysktalende land** – utkast (350 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Å lese tysk litteratur** – utkast (362 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Ungdomskultur, fritid og språklæring** – utkast (377 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
 

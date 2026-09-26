@@ -1,0 +1,358 @@
+{
+  "id": "skole-og-fritid",
+  "fagId": "kinesisk-vg2",
+  "trinnId": "vg2",
+  "name": "Skole, fritid og ferdigheter",
+  "intro": "Hvordan du forteller om skolefag, lekser og prøver, hobbyer og fritid på kinesisk, forskjellen på modalverbene 会, 能 og 可以, og hvordan skolehverdagen og gaokao-eksamenen er i Kina.",
+  "kompetansemaal": [
+    3,
+    5,
+    8
+  ],
+  "sammendrag": "## Skolen\n\n- 上课 *shàngkè* – ha time, 下课 *xiàkè* – timen er slutt\n- 作业 *zuòyè* – lekser, 考试 *kǎoshì* – prøve, eksamen\n- 老师 *lǎoshī* – lærer, 同学 *tóngxué* – klassekamerat\n\n**Fag**: 数学 *shùxué* (matematikk), 英语 *Yīngyǔ* (engelsk), 中文 *Zhōngwén* (kinesisk), 历史 *lìshǐ* (historie), 体育 *tǐyù* (kroppsøving), 音乐 *yīnyuè* (musikk).\n\n*我最喜欢数学。* *Wǒ zuì xǐhuan shùxué.* – Jeg liker matematikk best.\n\n## Skolen i Kina\n\nKinesiske elever har ofte **lange skoledager** og mye **lekser**. Mange bruker **skoleuniform**. På slutten av videregående tar elevene **高考** *gāokǎo* – en **nasjonal opptaksprøve** til universitetet som er svært viktig for framtiden, og som skaper mye **press**.\n\n## Fritid og hobbyer\n\n*你的爱好是什么？* *Nǐ de àihào shì shénme?* – Hva er hobbyen din?\n\n- 踢足球 *tī zúqiú* – spille fotball\n- 打篮球 *dǎ lánqiú* – spille basketball\n- 游泳 *yóuyǒng* – svømme\n- 弹钢琴 *tán gāngqín* – spille piano\n- 画画 *huà huà* – tegne\n- 玩游戏 *wán yóuxì* – spille spill\n- 看电影 *kàn diànyǐng* – se film\n\nLegg merke til at kinesisk bruker **ulike verb** for å «spille»: **踢** (sparke) for fotball, **打** (slå) for ballspill med hendene, **弹** for instrumenter med strenger og tangenter.\n\n## Modalverb: 会, 能 og 可以\n\nAlle kan oversettes med «kan», men betyr litt forskjellig:\n\n- **会** *huì* – kan fordi man har **lært** det: *我会游泳。* – Jeg kan svømme.\n- **能** *néng* – **er i stand til** i en bestemt situasjon: *今天我不能游泳，我病了。* – I dag kan jeg ikke svømme, jeg er syk.\n- **可以** *kěyǐ* – **har lov til**: *我可以进来吗？* – Kan jeg komme inn?\n\n## Hvor ofte?\n\n每天 *měi tiān* (hver dag), 每个星期 *měi ge xīngqī* (hver uke), 常常 *chángcháng* (ofte), 有时候 *yǒu shíhou* (noen ganger), 从来不 *cónglái bù* (aldri).\n\n*我每个星期踢三次足球。* – Jeg spiller fotball tre ganger i uka.\n\n## Å skrive om seg selv\n\n*我叫……。我是高中生。我最喜欢的科目是英语。我的爱好是弹钢琴和游泳。我会说一点儿中文。*",
+  "flashcards": [
+    {
+      "term": "上课 shàngkè",
+      "def": "ha time"
+    },
+    {
+      "term": "作业 zuòyè",
+      "def": "lekser"
+    },
+    {
+      "term": "考试 kǎoshì",
+      "def": "prøve, eksamen"
+    },
+    {
+      "term": "同学 tóngxué",
+      "def": "klassekamerat"
+    },
+    {
+      "term": "数学 shùxué",
+      "def": "matematikk"
+    },
+    {
+      "term": "高考 gāokǎo",
+      "def": "nasjonal opptaksprøve til universitetet i Kina"
+    },
+    {
+      "term": "爱好 àihào",
+      "def": "hobby"
+    },
+    {
+      "term": "踢足球 tī zúqiú",
+      "def": "spille fotball"
+    },
+    {
+      "term": "打篮球 dǎ lánqiú",
+      "def": "spille basketball"
+    },
+    {
+      "term": "弹钢琴 tán gāngqín",
+      "def": "spille piano"
+    },
+    {
+      "term": "会 huì",
+      "def": "kan (lært ferdighet)"
+    },
+    {
+      "term": "能 néng",
+      "def": "kan (er i stand til)"
+    },
+    {
+      "term": "可以 kěyǐ",
+      "def": "kan (har lov til)"
+    },
+    {
+      "term": "常常 chángcháng",
+      "def": "ofte"
+    },
+    {
+      "term": "每天 měi tiān",
+      "def": "hver dag"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hva betyr 作业 zuòyè?",
+      "options": [
+        "prøve",
+        "lekser",
+        "time",
+        "lærer"
+      ],
+      "correct": 1,
+      "explain": "考试 er prøve."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er 高考?",
+      "options": [
+        "Nasjonal opptaksprøve til universitetet",
+        "En type skoleuniform",
+        "Et skolefag",
+        "En ferie"
+      ],
+      "correct": 0,
+      "explain": "Den er svært viktig for elevenes framtid."
+    },
+    {
+      "id": "q03",
+      "text": "Hvilket modalverb brukes om noe man har lært, som å svømme?",
+      "options": [
+        "可以",
+        "能",
+        "会",
+        "要"
+      ],
+      "correct": 2,
+      "explain": "我会游泳。"
+    },
+    {
+      "id": "q04",
+      "text": "Hvordan spør du «Kan jeg komme inn?» (har jeg lov)?",
+      "options": [
+        "我会进来吗？",
+        "我是进来吗？",
+        "我要进来吗？",
+        "我可以进来吗？"
+      ],
+      "correct": 3,
+      "explain": "可以 = ha lov."
+    },
+    {
+      "id": "q05",
+      "text": "Hvilket verb bruker man for å spille fotball?",
+      "options": [
+        "踢 tī",
+        "打 dǎ",
+        "弹 tán",
+        "玩 wán"
+      ],
+      "correct": 0,
+      "explain": "踢 betyr sparke."
+    },
+    {
+      "id": "q06",
+      "text": "Hva betyr 我最喜欢数学?",
+      "options": [
+        "Jeg liker ikke matematikk.",
+        "Jeg liker matematikk best.",
+        "Jeg har matematikk i dag.",
+        "Matematikk er vanskelig."
+      ],
+      "correct": 1,
+      "explain": "最 = mest."
+    },
+    {
+      "id": "q07",
+      "text": "Hva betyr 今天我不能游泳?",
+      "options": [
+        "Jeg kan ikke svømme i det hele tatt.",
+        "Jeg har ikke lov til å svømme.",
+        "I dag kan jeg ikke svømme (er ikke i stand til det).",
+        "Jeg vil ikke svømme."
+      ],
+      "correct": 2,
+      "explain": "能 om evne i en bestemt situasjon."
+    },
+    {
+      "id": "q08",
+      "text": "Hva betyr 你的爱好是什么？",
+      "options": [
+        "Hvor bor du?",
+        "Hvem er vennen din?",
+        "Hva heter du?",
+        "Hva er hobbyen din?"
+      ],
+      "correct": 3,
+      "explain": "爱好 àihào = hobby."
+    },
+    {
+      "id": "q09",
+      "text": "Hvilket verb bruker man for å spille piano?",
+      "options": [
+        "弹 tán",
+        "踢 tī",
+        "打 dǎ",
+        "看 kàn"
+      ],
+      "correct": 0,
+      "explain": "弹钢琴 tán gāngqín."
+    },
+    {
+      "id": "q10",
+      "text": "Hva betyr 常常?",
+      "options": [
+        "aldri",
+        "ofte",
+        "i dag",
+        "noen ganger"
+      ],
+      "correct": 1,
+      "explain": "有时候 = noen ganger."
+    }
+  ],
+  "mindmap": {
+    "label": "Skole og fritid",
+    "children": [
+      {
+        "label": "Skole",
+        "children": [
+          {
+            "label": "上课, 下课"
+          },
+          {
+            "label": "作业, 考试"
+          },
+          {
+            "label": "Fag"
+          }
+        ]
+      },
+      {
+        "label": "Kina",
+        "children": [
+          {
+            "label": "Lange skoledager"
+          },
+          {
+            "label": "Uniform"
+          },
+          {
+            "label": "高考"
+          }
+        ]
+      },
+      {
+        "label": "Hobbyer",
+        "children": [
+          {
+            "label": "踢足球"
+          },
+          {
+            "label": "打篮球"
+          },
+          {
+            "label": "弹钢琴"
+          }
+        ]
+      },
+      {
+        "label": "Modalverb",
+        "children": [
+          {
+            "label": "会: lært"
+          },
+          {
+            "label": "能: i stand til"
+          },
+          {
+            "label": "可以: lov til"
+          }
+        ]
+      },
+      {
+        "label": "Hvor ofte",
+        "children": [
+          {
+            "label": "每天"
+          },
+          {
+            "label": "常常"
+          },
+          {
+            "label": "有时候"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Kinesisk bruker ulike verb for å «spille» ulike ting.",
+        "correct": true,
+        "explain": "踢 for fotball, 打 for basketball, 弹 for piano."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "可以 brukes om noe man har lært.",
+        "correct": false,
+        "explain": "可以 betyr ha lov. Lært ferdighet er 会."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Mange kinesiske elever bruker skoleuniform.",
+        "correct": true,
+        "explain": "Uniform er vanlig i kinesiske skoler."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "英语 betyr kinesisk.",
+        "correct": false,
+        "explain": "英语 Yīngyǔ betyr engelsk. Kinesisk er 中文."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvordan sier du «Jeg kan snakke litt kinesisk»?",
+        "options": [
+          "我可以说一点儿中文。",
+          "我会说一点儿中文。",
+          "我要说一点儿中文。",
+          "我是说一点儿中文。"
+        ],
+        "correct": 1,
+        "explain": "Språk er en lært ferdighet: 会."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva betyr 同学?",
+        "options": [
+          "klassekamerat",
+          "lærer",
+          "rektor",
+          "foreldre"
+        ],
+        "correct": 0,
+        "explain": "同 = samme, 学 = lære."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva betyr 每个星期?",
+        "options": [
+          "hver dag",
+          "hver måned",
+          "hver uke",
+          "hvert år"
+        ],
+        "correct": 2,
+        "explain": "星期 = uke."
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
+}
