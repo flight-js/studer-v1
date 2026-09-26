@@ -1,0 +1,88 @@
+{
+  "id": "naturfag-vg1",
+  "trinnId": "vg1",
+  "name": "Naturfag",
+  "lareplan": {
+    "kode": "NAT01-05",
+    "url": "https://www.udir.no/lk20/nat01-05/kompetansemaal-og-vurdering/kv1079",
+    "kompetansemaal": [
+      {
+        "nr": 1,
+        "tekst": "utforske en selvvalgt naturfaglig problemstilling, presentere funn og argumentere for valg av metoder"
+      },
+      {
+        "nr": 2,
+        "tekst": "risikovurdere egne forsøk og håndtere avfallet fra disse på en forsvarlig måte"
+      },
+      {
+        "nr": 3,
+        "tekst": "drøfte hvordan utvikling av naturvitenskapelige hypoteser, modeller og teorier bidrar til at vi kan forstå og forklare verden"
+      },
+      {
+        "nr": 4,
+        "tekst": "vurdere og lage programmer som modellerer naturfaglige fenomener"
+      },
+      {
+        "nr": 5,
+        "tekst": "utforske og beskrive noen sentrale bølgefenomener"
+      },
+      {
+        "nr": 6,
+        "tekst": "forklare hovedprinsippene for trådløs kommunikasjon og gi eksempler på hva slik teknologi brukes til"
+      },
+      {
+        "nr": 7,
+        "tekst": "utforske og beskrive elektromagnetisk og ioniserende stråling, og vurdere informasjon om stråling og helseeffekter av ulike strålingstyper"
+      },
+      {
+        "nr": 8,
+        "tekst": "beskrive big bang-teorien om hvordan universet har oppstått og utviklet seg, og gjøre rede for observasjoner som støtter denne teorien"
+      },
+      {
+        "nr": 9,
+        "tekst": "utforske og gjøre rede for sammenhenger mellom kjemiske bindinger og egenskaper til ulike stoffer"
+      },
+      {
+        "nr": 10,
+        "tekst": "utforske egenskaper og reaksjoner til noen organiske og uorganiske karbonforbindelser, gi eksempler på anvendelser og gjøre rede for karbonets betydning for livet på jorda"
+      },
+      {
+        "nr": 11,
+        "tekst": "gjøre rede for hvordan noen miljøgifter kan akkumuleres i næringskjeder, og vurdere tiltak for å ta vare på helse og miljø"
+      },
+      {
+        "nr": 12,
+        "tekst": "gjøre rede for funksjonene til noen næringsstoffer og diskutere hvorfor et variert kosthold er viktig i et helse- og bærekraftsperspektiv"
+      },
+      {
+        "nr": 13,
+        "tekst": "drøfte aktuelle helse- og livsstilsspørsmål og vurdere pålitelighet i informasjon fra ulike kilder"
+      },
+      {
+        "nr": 14,
+        "tekst": "beskrive DNA og hvordan egenskaper arves, og gjøre rede for hvordan arv er en forutsetning for evolusjon"
+      },
+      {
+        "nr": 15,
+        "tekst": "gjøre rede for hvordan klimaendringer påvirker evolusjon, utbredelse av arter og biologisk mangfold"
+      },
+      {
+        "nr": 16,
+        "tekst": "gi eksempler på bruk av bioteknologi og drøfte etiske spørsmål knyttet til bioteknologi"
+      }
+    ]
+  },
+  "temaer": [
+    "naturvitenskapelig-metode",
+    "programmering-og-modellering",
+    "bolger-og-tradlos-kommunikasjon",
+    "straling",
+    "universets-opprinnelse",
+    "kjemiske-bindinger",
+    "karbonforbindelser",
+    "miljogifter",
+    "kosthold-og-helse",
+    "arv-og-evolusjon",
+    "bioteknologi"
+  ]
+}

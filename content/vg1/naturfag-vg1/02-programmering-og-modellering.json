@@ -1,0 +1,82 @@
+{
+  "id": "programmering-og-modellering",
+  "fagId": "naturfag-vg1",
+  "trinnId": "vg1",
+  "name": "Programmering og modellering i naturfag",
+  "intro": "Hvordan du lager og vurderer programmer som modellerer naturfaglige fenomener – radioaktiv nedbrytning, populasjonsvekst og fall med luftmotstand – med variabler, løkker, tidssteg og grafer.",
+  "kompetansemaal": [4],
+  "sammendrag": "## Hvorfor modellere med programmering?\n\nMange fenomener i naturen er for raske, for langsomme, for store eller for farlige til å undersøke direkte. Med en **datamodell** kan vi **simulere** hva som skjer, endre forutsetningene og se hvordan resultatet påvirkes. En modell er alltid en **forenkling**.\n\n## Byggesteiner i Python\n\n- **Variabler** lagrer verdier: masse = 2.5\n- **Løkker** gjentar beregninger: for i in range(100) eller while t < 10\n- **Betingelser** velger mellom handlinger: if v < 0\n- **Lister** lagrer mange verdier, for eksempel målinger over tid: tider.append(t)\n- **Plotting**, for eksempel med biblioteket **matplotlib**, viser resultatene som grafer.\n\n## Tidssteg\n\nMange simuleringer regner ut hva som skjer i små **tidssteg** (dt). For hvert steg oppdaterer vi størrelsene ut fra hvordan de endrer seg:\n\n- ny fart = fart + akselerasjon · dt\n- ny posisjon = posisjon + fart · dt\n- ny tid = tid + dt\n\nDette kalles **Eulers metode**. Jo **mindre** tidssteget er, desto mer **nøyaktig** blir simuleringen – men den tar også lengre tid å kjøre.\n\n## Eksempel 1: radioaktiv nedbrytning\n\nEt radioaktivt stoff med halveringstid T minker slik at halvparten er igjen etter hver halveringstid:\n\nN = N₀ · (1/2)^(t/T)\n\nI et program kan vi også **simulere tilfeldighet**: For hver kjerne trekker vi et tilfeldig tall, og kjernen brytes ned hvis tallet er mindre enn sannsynligheten for nedbrytning i tidssteget. Med mange kjerner blir grafen nesten lik den matematiske modellen – men med få kjerner ser vi tydelige tilfeldige variasjoner.\n\n## Eksempel 2: populasjonsvekst\n\nEn bakteriepopulasjon kan først vokse **eksponentielt**. Men i naturen er det begrenset med mat og plass, så veksten flater ut ved **bæreevnen** K. En **logistisk** modell tar hensyn til dette: veksten per tidssteg er r · N · (1 − N/K), der r er vekstraten.\n\n## Eksempel 3: fall med luftmotstand\n\nUten luftmotstand øker farten til et fallende legeme med 9,8 m/s hvert sekund. Med **luftmotstand** øker motstandskraften med farten, og til slutt blir kreftene like store. Da slutter farten å øke – legemet når **terminalfarten**. En simulering med tidssteg viser dette tydelig.\n\n## Vurdere et program\n\nNår du vurderer en modell eller et program, spør:\n\n- Hvilke **forenklinger** er gjort?\n- Er **tidssteget** lite nok?\n- Stemmer resultatene med **målinger** eller kjente verdier?\n- Innenfor hvilket **gyldighetsområde** gir modellen mening?\n- Er koden **lesbar**, med gode variabelnavn og kommentarer?\n\nEn modell som passer godt med målinger, gir oss større tiltro til at vi forstår fenomenet.",
+  "flashcards": [
+    { "term": "Datamodell", "def": "Et program som simulerer et fenomen." },
+    { "term": "Simulering", "def": "Å etterligne et fenomen med en modell for å se hva som skjer." },
+    { "term": "Variabel i Python", "def": "Et navn som lagrer en verdi, som masse = 2.5." },
+    { "term": "Løkke", "def": "Gjentar kode, for eksempel for eller while." },
+    { "term": "Liste", "def": "Lagrer mange verdier, for eksempel målinger over tid." },
+    { "term": "matplotlib", "def": "Python-bibliotek for å lage grafer." },
+    { "term": "Tidssteg (dt)", "def": "Den lille tidsperioden simuleringen regner ut for hvert steg." },
+    { "term": "Eulers metode", "def": "Oppdaterer fart og posisjon steg for steg: v = v + a · dt." },
+    { "term": "Mindre tidssteg", "def": "Gir mer nøyaktig simulering, men tar lengre tid." },
+    { "term": "Halveringstid", "def": "Tiden det tar før halvparten av kjernene er brutt ned." },
+    { "term": "N = N₀ · (1/2)^(t/T)", "def": "Modell for radioaktiv nedbrytning." },
+    { "term": "Bæreevne (K)", "def": "Den største populasjonen et miljø kan opprettholde." },
+    { "term": "Logistisk vekst", "def": "Vekst som flater ut mot bæreevnen." },
+    { "term": "Terminalfart", "def": "Den konstante farten et fallende legeme når med luftmotstand." },
+    { "term": "Gyldighetsområde", "def": "Verdiene der modellen gir mening." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva skjer vanligvis når du gjør tidssteget i en simulering mindre?", "options": ["Simuleringen blir mindre nøyaktig", "Simuleringen blir mer nøyaktig, men tar lengre tid", "Ingenting", "Programmet slutter å virke"], "correct": 1, "explain": "Små steg følger endringene tettere." },
+    { "id": "q02", "text": "Hvordan oppdateres farten i Eulers metode?", "options": ["v = v + a · dt", "v = a · t²", "v = v · dt", "v = s / a"], "correct": 0, "explain": "Farten endres med akselerasjonen ganger tidssteget." },
+    { "id": "q03", "text": "Et stoff har halveringstid 8 dager. Hvor stor andel er igjen etter 24 dager?", "options": ["1/2", "1/3", "1/8", "1/24"], "correct": 2, "explain": "24 dager er tre halveringstider: (1/2)³ = 1/8." },
+    { "id": "q04", "text": "Hva er bæreevnen i en populasjonsmodell?", "options": ["Hvor fort populasjonen vokser", "Antall individer ved start", "Hvor lenge individene lever", "Den største populasjonen miljøet kan opprettholde"], "correct": 3, "explain": "Logistisk vekst flater ut mot bæreevnen." },
+    { "id": "q05", "text": "Hva er terminalfart?", "options": ["Den konstante farten et fallende legeme når når luftmotstand og tyngdekraft er like store", "Farten ved start", "Farten uten luftmotstand", "Farten på en flyplass"], "correct": 0, "explain": "Da er summen av kreftene null." },
+    { "id": "q06", "text": "Hvorfor ser en simulering av radioaktiv nedbrytning med få kjerner ujevn ut?", "options": ["Fordi programmet har feil", "Fordi nedbrytning er tilfeldig, og tilfeldige variasjoner synes godt med få kjerner", "Fordi halveringstiden endrer seg", "Fordi tidssteget er for lite"], "correct": 1, "explain": "Med mange kjerner jevner tilfeldighetene seg ut." },
+    { "id": "q07", "text": "Hva brukes matplotlib til?", "options": ["Å regne med brøk", "Å lagre filer", "Å lage grafer", "Å lage nettsider"], "correct": 2, "explain": "Grafer gjør det lett å tolke resultatene." },
+    { "id": "q08", "text": "Hvilket spørsmål er viktig når du vurderer en modell?", "options": ["Hvor mange linjer har koden?", "Hvilken farge har grafen?", "Hvem skrev programmet?", "Stemmer resultatene med målinger?"], "correct": 3, "explain": "Sammenligning med målinger tester modellen." },
+    { "id": "q09", "text": "Hva gjør en while-løkke?", "options": ["Gjentar kode så lenge en betingelse er sann", "Kjører koden én gang", "Lager en graf", "Lagrer en verdi"], "correct": 0, "explain": "For eksempel while t < 10." },
+    { "id": "q10", "text": "Hvorfor er en modell alltid en forenkling?", "options": ["Fordi datamaskiner er trege", "Fordi den bare tar med de viktigste faktorene", "Fordi naturen er enkel", "Fordi programmering er vanskelig"], "correct": 1, "explain": "Alle detaljer i naturen kan ikke tas med." }
+  ],
+  "mindmap": {
+    "label": "Programmering og modellering",
+    "children": [
+      { "label": "Python", "children": [
+        { "label": "Variabler" },
+        { "label": "Løkker" },
+        { "label": "Lister" },
+        { "label": "Grafer" }
+      ] },
+      { "label": "Tidssteg", "children": [
+        { "label": "Eulers metode" },
+        { "label": "Nøyaktighet" }
+      ] },
+      { "label": "Eksempler", "children": [
+        { "label": "Radioaktiv nedbrytning" },
+        { "label": "Populasjonsvekst" },
+        { "label": "Fall med luftmotstand" }
+      ] },
+      { "label": "Begreper", "children": [
+        { "label": "Halveringstid" },
+        { "label": "Bæreevne" },
+        { "label": "Terminalfart" }
+      ] },
+      { "label": "Vurdering", "children": [
+        { "label": "Forenklinger" },
+        { "label": "Sammenligne med målinger" },
+        { "label": "Gyldighetsområde" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Uten luftmotstand øker farten til et fallende legeme med omtrent 9,8 m/s hvert sekund.", "correct": true, "explain": "Tyngdeakselerasjonen er omtrent 9,8 m/s²." },
+      { "id": "m02", "type": "sant-usant", "text": "En simulering gir alltid nøyaktig samme resultat som virkeligheten.", "correct": false, "explain": "Modeller er forenklinger." },
+      { "id": "m03", "type": "sant-usant", "text": "Logistisk vekst tar hensyn til begrenset mat og plass.", "correct": true, "explain": "Veksten flater ut mot bæreevnen." },
+      { "id": "m04", "type": "sant-usant", "text": "Ved radioaktiv nedbrytning vet vi nøyaktig når hver enkelt kjerne brytes ned.", "correct": false, "explain": "Nedbrytningen er tilfeldig for hver kjerne." },
+      { "id": "m05", "type": "flervalg", "text": "Hvordan oppdateres posisjonen i en simulering med tidssteg?", "options": ["s = s + v · dt", "s = v / dt", "s = a · v", "s = s − dt"], "correct": 0, "explain": "Posisjonen endres med farten ganger tidssteget." },
+      { "id": "m06", "type": "flervalg", "text": "Hvor stor andel av et radioaktivt stoff er igjen etter to halveringstider?", "options": ["1/2", "1/8", "1/4", "0"], "correct": 2, "explain": "(1/2)² = 1/4." },
+      { "id": "m07", "type": "flervalg", "text": "Hva gjør koden lesbar?", "options": ["Korte, kryptiske navn", "Gode variabelnavn og kommentarer", "Så få linjer som mulig uansett", "Ingen innrykk"], "correct": 1, "explain": "Lesbar kode er lettere å kontrollere og forbedre." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

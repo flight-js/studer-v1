@@ -1,0 +1,84 @@
+{
+  "id": "bolger-og-tradlos-kommunikasjon",
+  "fagId": "naturfag-vg1",
+  "trinnId": "vg1",
+  "name": "Bølger og trådløs kommunikasjon",
+  "intro": "Bølgebegreper som bølgelengde, frekvens og amplitude, bølgefenomener som refleksjon, brytning, diffraksjon, interferens og dopplereffekt, lyd og hvordan trådløs kommunikasjon med radiobølger fungerer.",
+  "kompetansemaal": [5, 6],
+  "sammendrag": "## Hva er en bølge?\n\nEn **bølge** er en forstyrrelse som brer seg og **transporterer energi** – uten at stoffet selv flytter seg langt. Når en bølge går gjennom vann, beveger vannet seg mest opp og ned.\n\n- **Transversale bølger**: Svingningen står **vinkelrett** på bevegelsesretningen, som bølger på en tråd og elektromagnetiske bølger.\n- **Longitudinale bølger**: Svingningen går **langs** bevegelsesretningen, som **lyd**, der luften presses sammen og tynnes ut.\n\n## Viktige størrelser\n\n- **Bølgelengde** (λ): avstanden mellom to bølgetopper, i meter.\n- **Frekvens** (f): antall svingninger per sekund, i **hertz** (Hz).\n- **Amplitude**: hvor stort utslaget er – gir lydstyrke eller lysstyrke.\n- **Bølgefart** (v): **v = λ · f**\n\nLyd går med omtrent **340 m/s** i luft. Mennesker hører lyd mellom omtrent **20 Hz og 20 000 Hz**. Lyd med høyere frekvens kalles **ultralyd** og brukes blant annet i medisin. Elektromagnetiske bølger, som lys og radiobølger, går med **lysfarten**, omtrent 3,0 · 10⁸ m/s, og trenger ikke noe stoff å bre seg i.\n\n## Bølgefenomener\n\n- **Refleksjon**: Bølgen kastes tilbake, som et ekko eller et speilbilde.\n- **Brytning** (refraksjon): Bølgen skifter retning når den går over i et annet stoff med en annen fart – derfor ser et sugerør knekt ut i et glass vann.\n- **Diffraksjon** (bøyning): Bølgen bøyer seg rundt hindringer og sprer seg gjennom åpninger – derfor hører vi lyd rundt et hjørne.\n- **Interferens**: To bølger som møtes, kan **forsterke** hverandre (topp møter topp) eller **slukke** hverandre (topp møter bunn). Støydempende hodetelefoner bruker dette.\n- **Dopplereffekt**: Frekvensen vi oppfatter, øker når kilden nærmer seg og minker når den fjerner seg – tenk på en ambulanse som kjører forbi.\n- **Resonans**: Et system svinger kraftig når det påvirkes med sin egen naturlige frekvens.\n\n## Trådløs kommunikasjon\n\nTrådløs kommunikasjon bruker **radiobølger** – elektromagnetiske bølger med lang bølgelengde.\n\n1. Informasjon (lyd, bilde, tekst) gjøres om til et **signal**.\n2. Signalet legges på en **bærebølge** ved å endre amplituden (**AM**), frekvensen (**FM**) eller andre egenskaper – dette kalles **modulasjon**.\n3. En **antenne** sender ut radiobølgene.\n4. En mottakerantenne fanger dem opp, og signalet gjøres om til informasjon igjen.\n\nI dag er det meste **digitalt**: Informasjonen er kodet som **bits** – enere og nuller – som er mindre utsatt for støy enn analoge signaler.\n\n## Eksempler\n\n- **Mobilnettet** består av mange **basestasjoner** som hver dekker et område (en celle).\n- **Wi-Fi** bruker frekvenser rundt 2,4 og 5 GHz.\n- **Bluetooth** brukes over korte avstander.\n- **GPS**-mottakere beregner posisjonen ut fra signaler fra flere satellitter.\n- **NFC** gjør det mulig å betale ved å holde kortet eller telefonen inntil en terminal.",
+  "flashcards": [
+    { "term": "Bølge", "def": "En forstyrrelse som brer seg og transporterer energi." },
+    { "term": "Transversal bølge", "def": "Svingningen står vinkelrett på bevegelsesretningen." },
+    { "term": "Longitudinal bølge", "def": "Svingningen går langs bevegelsesretningen, som lyd." },
+    { "term": "Bølgelengde (λ)", "def": "Avstanden mellom to bølgetopper." },
+    { "term": "Frekvens", "def": "Antall svingninger per sekund, målt i hertz." },
+    { "term": "v = λ · f", "def": "Bølgefart er bølgelengde ganger frekvens." },
+    { "term": "Hørbar lyd", "def": "Omtrent 20 Hz til 20 000 Hz." },
+    { "term": "Refleksjon", "def": "Bølgen kastes tilbake, som et ekko." },
+    { "term": "Brytning", "def": "Bølgen skifter retning i et nytt stoff." },
+    { "term": "Diffraksjon", "def": "Bølgen bøyer seg rundt hindringer." },
+    { "term": "Interferens", "def": "Bølger som møtes, forsterker eller slukker hverandre." },
+    { "term": "Dopplereffekt", "def": "Oppfattet frekvens endres når kilden beveger seg." },
+    { "term": "Modulasjon", "def": "Å legge informasjon på en bærebølge." },
+    { "term": "Digitalt signal", "def": "Informasjon kodet som enere og nuller." },
+    { "term": "Basestasjon", "def": "Sender og mottaker som dekker en celle i mobilnettet." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er formelen for bølgefart?", "options": ["v = λ / f", "v = λ · f", "v = f / λ", "v = λ + f"], "correct": 1, "explain": "Bølgefart = bølgelengde · frekvens." },
+    { "id": "q02", "text": "Hva slags bølge er lyd?", "options": ["Longitudinal", "Transversal", "Elektromagnetisk", "Stående"], "correct": 0, "explain": "Luften presses sammen og tynnes ut langs bevegelsesretningen." },
+    { "id": "q03", "text": "Hvorfor ser et sugerør knekt ut i et glass vann?", "options": ["Refleksjon", "Interferens", "Brytning", "Dopplereffekt"], "correct": 2, "explain": "Lyset skifter retning når det går fra vann til luft." },
+    { "id": "q04", "text": "Hvorfor høres sirenen til en ambulanse lysere ut når den nærmer seg?", "options": ["Resonans", "Diffraksjon", "Refleksjon", "Dopplereffekt"], "correct": 3, "explain": "Bølgene presses sammen foran kilden." },
+    { "id": "q05", "text": "Hva er frekvensen til en lydbølge med bølgelengde 0,34 m når lydfarten er 340 m/s?", "options": ["1000 Hz", "100 Hz", "115,6 Hz", "10 Hz"], "correct": 0, "explain": "f = v / λ = 340 / 0,34 = 1000 Hz." },
+    { "id": "q06", "text": "Hva betyr modulasjon i trådløs kommunikasjon?", "options": ["Å forsterke signalet", "Å legge informasjon på en bærebølge", "Å slå av senderen", "Å lagre data"], "correct": 1, "explain": "AM og FM er eksempler på modulasjon." },
+    { "id": "q07", "text": "Hvilket fenomen bruker støydempende hodetelefoner?", "options": ["Brytning", "Dopplereffekt", "Interferens", "Refleksjon"], "correct": 2, "explain": "De lager en motsatt lydbølge som slukker støyen." },
+    { "id": "q08", "text": "Hvorfor er digitale signaler mindre utsatt for støy enn analoge?", "options": ["De bruker mer strøm", "De er raskere", "De sendes med lyd", "Informasjonen er kodet som enere og nuller som er lette å skille fra hverandre"], "correct": 3, "explain": "Små forstyrrelser endrer ikke om en bit er 0 eller 1." },
+    { "id": "q09", "text": "Hvorfor kan vi høre lyd rundt et hjørne?", "options": ["Diffraksjon", "Brytning", "Dopplereffekt", "Resonans"], "correct": 0, "explain": "Lydbølger bøyer seg rundt hindringer." },
+    { "id": "q10", "text": "Hva slags bølger brukes i Wi-Fi og mobilnett?", "options": ["Lydbølger", "Radiobølger", "Røntgenstråling", "Vannbølger"], "correct": 1, "explain": "Radiobølger er elektromagnetiske bølger med lang bølgelengde." }
+  ],
+  "mindmap": {
+    "label": "Bølger og trådløs kommunikasjon",
+    "children": [
+      { "label": "Bølgetyper", "children": [
+        { "label": "Transversale" },
+        { "label": "Longitudinale" },
+        { "label": "Elektromagnetiske" }
+      ] },
+      { "label": "Størrelser", "children": [
+        { "label": "Bølgelengde" },
+        { "label": "Frekvens" },
+        { "label": "Amplitude" },
+        { "label": "v = λ · f" }
+      ] },
+      { "label": "Fenomener", "children": [
+        { "label": "Refleksjon og brytning" },
+        { "label": "Diffraksjon" },
+        { "label": "Interferens" },
+        { "label": "Dopplereffekt" }
+      ] },
+      { "label": "Trådløst", "children": [
+        { "label": "Radiobølger" },
+        { "label": "Modulasjon" },
+        { "label": "Digitale signaler" }
+      ] },
+      { "label": "Teknologi", "children": [
+        { "label": "Mobilnett" },
+        { "label": "Wi-Fi og Bluetooth" },
+        { "label": "GPS og NFC" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Elektromagnetiske bølger kan bre seg gjennom tomt rom.", "correct": true, "explain": "Derfor når sollyset fram til jorda." },
+      { "id": "m02", "type": "sant-usant", "text": "Lyd går raskere enn lys.", "correct": false, "explain": "Lys går omtrent en million ganger raskere enn lyd i luft." },
+      { "id": "m03", "type": "sant-usant", "text": "Amplituden bestemmer lydstyrken.", "correct": true, "explain": "Større utslag gir sterkere lyd." },
+      { "id": "m04", "type": "sant-usant", "text": "Ultralyd har lavere frekvens enn det mennesker kan høre.", "correct": false, "explain": "Ultralyd har høyere frekvens enn 20 000 Hz." },
+      { "id": "m05", "type": "flervalg", "text": "Hva måles frekvens i?", "options": ["Meter", "Hertz", "Watt", "Sekunder"], "correct": 1, "explain": "1 Hz er én svingning per sekund." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er et ekko et eksempel på?", "options": ["Refleksjon", "Brytning", "Interferens", "Modulasjon"], "correct": 0, "explain": "Lyden kastes tilbake fra en flate." },
+      { "id": "m07", "type": "flervalg", "text": "Hvordan finner en GPS-mottaker posisjonen sin?", "options": ["Ved å måle temperaturen", "Ved å bruke kameraet", "Ved å beregne ut fra signaler fra flere satellitter", "Ved å spørre nærmeste basestasjon om adressen"], "correct": 2, "explain": "Tidsforskjellene mellom signalene gir avstanden til hver satellitt." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

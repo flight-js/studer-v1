@@ -1,0 +1,83 @@
+{
+  "id": "karbonforbindelser",
+  "fagId": "naturfag-vg1",
+  "trinnId": "vg1",
+  "name": "Karbonforbindelser",
+  "intro": "Hvorfor karbon danner så mange forbindelser, organiske stoffgrupper som hydrokarboner, alkoholer og karboksylsyrer, polymerer og plast, uorganiske karbonforbindelser og karbonets betydning for livet på jorda.",
+  "kompetansemaal": [10],
+  "sammendrag": "## Karbon – livets grunnstoff\n\n**Karbon** har fire elektroner i ytterste skall og danner **fire kovalente bindinger**. Karbonatomer kan binde seg til hverandre i lange **kjeder**, **forgreninger** og **ringer**, med enkelt-, dobbelt- og trippelbindinger. Derfor finnes det millioner av karbonforbindelser. Alt liv på jorda er bygd på karbon: karbohydrater, fett, proteiner og DNA.\n\n**Organisk kjemi** handler om karbonforbindelser – med noen unntak, som CO₂ og karbonater, som regnes som **uorganiske**.\n\n## Hydrokarboner\n\n**Hydrokarboner** består bare av karbon og hydrogen.\n\n- **Alkaner** har bare **enkeltbindinger**: metan (CH₄), etan (C₂H₆), propan (C₃H₈), butan (C₄H₁₀). Generell formel CₙH₂ₙ₊₂.\n- **Alkener** har minst én **dobbeltbinding**: eten (C₂H₄) er råstoff for plasten polyeten.\n\nHydrokarboner finnes i **olje** og **naturgass** og brukes som brensel. Ved fullstendig **forbrenning** dannes karbondioksid og vann:\n\nCH₄ + 2O₂ → CO₂ + 2H₂O\n\n## Andre organiske stoffgrupper\n\nEn **funksjonell gruppe** gir stoffet bestemte egenskaper:\n\n- **Alkoholer** har en **–OH-gruppe**. **Etanol** (C₂H₅OH) finnes i alkoholholdige drikker og brukes som drivstoff og desinfeksjonsmiddel.\n- **Karboksylsyrer** har en **–COOH-gruppe** og er svake syrer. **Eddiksyre** (CH₃COOH) gir eddik den sure smaken.\n- **Estere** dannes når en alkohol reagerer med en karboksylsyre, og har ofte god **lukt** – de brukes i parfyme og smaksstoffer.\n\n## Polymerer og plast\n\n**Polymerer** er svært lange molekyler bygd av mange like små enheter (**monomerer**). **Plast** som polyeten og PET er polymerer laget av olje. Naturlige polymerer er for eksempel **stivelse**, **cellulose**, **proteiner** og **DNA**. Plast er nyttig, men brytes svært sakte ned, og **mikroplast** er et økende miljøproblem.\n\n## Uorganiske karbonforbindelser\n\n- **Karbondioksid** (CO₂): dannes ved forbrenning og celleånding, og er en viktig **klimagass**.\n- **Karbonmonoksid** (CO): dannes ved ufullstendig forbrenning og er **svært giftig**.\n- **Karbonater**, som **kalkstein** (CaCO₃), reagerer med syre og gir CO₂: CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂\n- Karbon finnes også som rent grunnstoff: **diamant**, **grafitt** og **grafen**.\n\n## Karbonets kretsløp\n\nKarbon sirkulerer mellom **atmosfæren**, **havet**, **levende organismer** og **berggrunnen**:\n\n- **Fotosyntese**: 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂ – plantene tar opp CO₂ og lagrer energi i glukose.\n- **Celleånding**: Organismer bryter ned glukose og slipper ut CO₂.\n- **Nedbrytning** av døde organismer frigjør CO₂.\n- **Fossile brensler** er karbon som har vært lagret i millioner av år. Når vi brenner dem, øker CO₂-innholdet i atmosfæren, og det forsterker **drivhuseffekten**.\n- **Havet** tar opp mye CO₂, men blir da **surere**, noe som skader blant annet koraller og skjell.",
+  "flashcards": [
+    { "term": "Fire bindinger", "def": "Karbon danner fire kovalente bindinger." },
+    { "term": "Organisk kjemi", "def": "Kjemien til karbonforbindelser." },
+    { "term": "Hydrokarbon", "def": "Forbindelse av bare karbon og hydrogen." },
+    { "term": "Alkan", "def": "Hydrokarbon med bare enkeltbindinger, CₙH₂ₙ₊₂." },
+    { "term": "Alken", "def": "Hydrokarbon med minst én dobbeltbinding." },
+    { "term": "Metan", "def": "CH₄, den enkleste alkanen, hovedbestanddelen i naturgass." },
+    { "term": "Funksjonell gruppe", "def": "Atomgruppe som gir stoffet bestemte egenskaper." },
+    { "term": "Alkohol", "def": "Organisk stoff med en –OH-gruppe, som etanol." },
+    { "term": "Karboksylsyre", "def": "Organisk syre med en –COOH-gruppe, som eddiksyre." },
+    { "term": "Ester", "def": "Dannes av alkohol og karboksylsyre og har ofte god lukt." },
+    { "term": "Polymer", "def": "Langt molekyl bygd av mange like monomerer." },
+    { "term": "Karbonmonoksid (CO)", "def": "Svært giftig gass fra ufullstendig forbrenning." },
+    { "term": "Kalkstein (CaCO₃)", "def": "Karbonat som reagerer med syre og gir CO₂." },
+    { "term": "Fotosyntese", "def": "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂" },
+    { "term": "Havforsuring", "def": "Havet blir surere når det tar opp CO₂." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvor mange kovalente bindinger danner et karbonatom?", "options": ["Fire", "To", "Tre", "Seks"], "correct": 0, "explain": "Derfor kan karbon danne kjeder, forgreninger og ringer." },
+    { "id": "q02", "text": "Hva kjennetegner en alken?", "options": ["Bare enkeltbindinger", "En –OH-gruppe", "Minst én dobbeltbinding", "En –COOH-gruppe"], "correct": 2, "explain": "Eten er den enkleste alkenen." },
+    { "id": "q03", "text": "Hva dannes ved fullstendig forbrenning av metan?", "options": ["CO og H₂", "C og H₂O", "CH₃OH", "CO₂ og H₂O"], "correct": 3, "explain": "CH₄ + 2O₂ → CO₂ + 2H₂O." },
+    { "id": "q04", "text": "Hvilken funksjonell gruppe har alkoholer?", "options": ["–COOH", "–OH", "–NH₂", "C=C"], "correct": 1, "explain": "Etanol er C₂H₅OH." },
+    { "id": "q05", "text": "Hva er en polymer?", "options": ["Et langt molekyl bygd av mange like enheter", "Et grunnstoff", "En type syre", "Et metall"], "correct": 0, "explain": "Plast, stivelse og DNA er polymerer." },
+    { "id": "q06", "text": "Hvorfor er karbonmonoksid farlig?", "options": ["Det er en syre", "Det er radioaktivt", "Det er eksplosivt i alle mengder", "Det er svært giftig"], "correct": 3, "explain": "CO hindrer blodet i å transportere oksygen." },
+    { "id": "q07", "text": "Hva skjer når kalkstein reagerer med saltsyre?", "options": ["Det dannes oksygen", "Det dannes CO₂", "Det dannes metan", "Ingenting"], "correct": 1, "explain": "CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂." },
+    { "id": "q08", "text": "Hvilken prosess tar opp CO₂ fra atmosfæren?", "options": ["Celleånding", "Forbrenning", "Fotosyntese", "Nedbrytning"], "correct": 2, "explain": "Plantene bruker CO₂ til å lage glukose." },
+    { "id": "q09", "text": "Hvilket stoff gir eddik den sure smaken?", "options": ["Eddiksyre", "Etanol", "Metan", "Eten"], "correct": 0, "explain": "Eddiksyre er en karboksylsyre." },
+    { "id": "q10", "text": "Hva skjer med havet når det tar opp mye CO₂?", "options": ["Det blir varmere", "Det blir surere", "Det blir saltere", "Det blir basisk"], "correct": 1, "explain": "Havforsuring skader blant annet koraller og skjell." }
+  ],
+  "mindmap": {
+    "label": "Karbonforbindelser",
+    "children": [
+      { "label": "Karbon", "children": [
+        { "label": "Fire bindinger" },
+        { "label": "Kjeder og ringer" },
+        { "label": "Diamant og grafitt" }
+      ] },
+      { "label": "Hydrokarboner", "children": [
+        { "label": "Alkaner" },
+        { "label": "Alkener" },
+        { "label": "Forbrenning" }
+      ] },
+      { "label": "Funksjonelle grupper", "children": [
+        { "label": "Alkoholer" },
+        { "label": "Karboksylsyrer" },
+        { "label": "Estere" }
+      ] },
+      { "label": "Polymerer", "children": [
+        { "label": "Plast" },
+        { "label": "Stivelse og DNA" },
+        { "label": "Mikroplast" }
+      ] },
+      { "label": "Kretsløpet", "children": [
+        { "label": "Fotosyntese" },
+        { "label": "Celleånding" },
+        { "label": "Fossile brensler" },
+        { "label": "Havforsuring" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Metan er hovedbestanddelen i naturgass.", "correct": true, "explain": "Metan er den enkleste alkanen." },
+      { "id": "m02", "type": "sant-usant", "text": "Karbondioksid regnes som en organisk forbindelse.", "correct": false, "explain": "CO₂ regnes som uorganisk." },
+      { "id": "m03", "type": "sant-usant", "text": "Estere brukes ofte i parfyme og smaksstoffer.", "correct": true, "explain": "Mange estere har god lukt." },
+      { "id": "m04", "type": "sant-usant", "text": "Plast brytes raskt ned i naturen.", "correct": false, "explain": "Plast brytes svært sakte ned og blir til mikroplast." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er den kjemiske formelen for propan?", "options": ["CH₄", "C₂H₆", "C₃H₈", "C₄H₁₀"], "correct": 2, "explain": "Alkaner følger CₙH₂ₙ₊₂: n = 3 gir C₃H₈." },
+      { "id": "m06", "type": "flervalg", "text": "Hva dannes når en alkohol reagerer med en karboksylsyre?", "options": ["En ester", "En alkan", "Et salt", "En polymer"], "correct": 0, "explain": "Reaksjonen kalles forestring." },
+      { "id": "m07", "type": "flervalg", "text": "Hvorfor øker CO₂-innholdet i atmosfæren når vi brenner fossile brensler?", "options": ["Fordi forbrenning lager oksygen", "Fordi karbon som har vært lagret i millioner av år, frigjøres", "Fordi plantene slutter med fotosyntese", "Fordi havet slipper ut CO₂"], "correct": 1, "explain": "Dette forsterker drivhuseffekten." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

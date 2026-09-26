@@ -1,0 +1,80 @@
+{
+  "id": "bioteknologi",
+  "fagId": "naturfag-vg1",
+  "trinnId": "vg1",
+  "name": "Bioteknologi og etikk",
+  "intro": "Hva bioteknologi er, eksempler fra medisin, landbruk og rettsvesen – genmodifisering, CRISPR, genterapi, gentester og kloning – norsk regulering og hvordan du drøfter etiske spørsmål knyttet til bioteknologi.",
+  "kompetansemaal": [16],
+  "sammendrag": "## Hva er bioteknologi?\n\n**Bioteknologi** er bruk av levende organismer, celler eller biologiske prosesser til å lage produkter eller løse problemer. **Tradisjonell** bioteknologi er flere tusen år gammel: bruk av **gjær** til brød og øl, og **avl** av husdyr og planter. **Moderne** bioteknologi bruker **genteknologi** – metoder for å lese og endre DNA direkte.\n\n## Eksempler\n\n**Medisin**\n- **Insulin** til diabetikere produseres av **genmodifiserte bakterier** som har fått det menneskelige insulingenet.\n- **Genterapi** forsøker å behandle sykdom ved å reparere eller erstatte feil i gener.\n- **Gentester** kan vise om en person har anlegg for visse sykdommer.\n- **Fosterdiagnostikk** kan avdekke genetiske tilstander før fødselen.\n\n**Landbruk og mat**\n- **Genmodifiserte organismer (GMO)**, for eksempel mais og soya som tåler insekter eller sprøytemidler.\n- Planter som tåler **tørke** eller har mer **næringsstoffer**.\n\n**Rettsvesen**\n- **DNA-profiler** fra hår, blod eller spytt brukes til å identifisere personer.\n\n## CRISPR\n\n**CRISPR-Cas9** er en «gensaks» som gjør det mulig å endre DNA svært **presist**, **raskt** og **billig**. Emmanuelle Charpentier og Jennifer Doudna fikk **Nobelprisen i kjemi i 2020** for metoden. CRISPR gir store muligheter i medisin og landbruk, men reiser også vanskelige spørsmål – særlig om endringer i **kjønnsceller og fostre**, som arves videre til nye generasjoner.\n\n## Kloning\n\n**Kloning** betyr å lage en genetisk **kopi** av en organisme. Sauen **Dolly** (født 1996) var det første pattedyret klonet fra en voksen celle. Kloning av mennesker er forbudt i Norge.\n\n## Regulering i Norge\n\n- **Genteknologiloven** regulerer framstilling og bruk av **genmodifiserte organismer**, blant annet i landbruk og mat.\n- **Bioteknologiloven** regulerer medisinsk bruk av bioteknologi på **mennesker**, som gentester, fosterdiagnostikk og assistert befruktning.\n- **Bioteknologirådet** gir råd og skaper debatt om etiske spørsmål.\n\n## Etiske spørsmål\n\nNår vi drøfter bioteknologi, kan vi bruke ulike **etiske perspektiver**:\n\n- **Konsekvensetikk**: Hvilke **fordeler** og **ulemper** gir teknologien – for mennesker, dyr og miljø?\n- **Pliktetikk**: Finnes det handlinger som er **gale i seg selv**, uansett konsekvenser – for eksempel å endre menneskets arvestoff?\n- **Føre-var-prinsippet**: Når vi er usikre på risikoen, bør vi være **forsiktige**.\n\nTypiske spørsmål er: Bør vi kunne velge egenskaper hos barn («**designerbabyer**»)? Hvem skal ha tilgang til **gendataene** dine? Er GMO trygt for **miljøet**? Er det riktig å endre dyr for menneskers skyld? Og blir teknologien **rettferdig fordelt**, eller bare tilgjengelig for de rike?\n\nEn god drøfting presenterer **flere sider**, bruker **fagkunnskap** og ender med en **begrunnet** konklusjon.",
+  "flashcards": [
+    { "term": "Bioteknologi", "def": "Bruk av levende organismer eller biologiske prosesser til å lage produkter eller løse problemer." },
+    { "term": "Tradisjonell bioteknologi", "def": "For eksempel gjær til brød og avl av husdyr." },
+    { "term": "Genteknologi", "def": "Metoder for å lese og endre DNA direkte." },
+    { "term": "GMO", "def": "Genmodifisert organisme." },
+    { "term": "Insulin fra bakterier", "def": "Genmodifiserte bakterier med menneskelig insulingen lager insulin." },
+    { "term": "Genterapi", "def": "Behandling ved å reparere eller erstatte feil i gener." },
+    { "term": "Gentest", "def": "Undersøkelse av om en person har anlegg for visse sykdommer." },
+    { "term": "DNA-profil", "def": "Brukes til å identifisere personer i rettsvesenet." },
+    { "term": "CRISPR-Cas9", "def": "«Gensaks» som endrer DNA presist, raskt og billig." },
+    { "term": "Nobelprisen i kjemi 2020", "def": "Gikk til Charpentier og Doudna for CRISPR." },
+    { "term": "Dolly", "def": "Sau født 1996, første pattedyr klonet fra en voksen celle." },
+    { "term": "Genteknologiloven", "def": "Norsk lov som regulerer genmodifiserte organismer." },
+    { "term": "Bioteknologiloven", "def": "Norsk lov som regulerer medisinsk bruk av bioteknologi på mennesker." },
+    { "term": "Føre-var-prinsippet", "def": "Når risikoen er usikker, bør vi være forsiktige." },
+    { "term": "Designerbaby", "def": "Barn der egenskaper er valgt ved genteknologi." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er et eksempel på tradisjonell bioteknologi?", "options": ["CRISPR", "Bruk av gjær til å bake brød", "Genterapi", "DNA-profiler"], "correct": 1, "explain": "Tradisjonell bioteknologi er tusenvis av år gammel." },
+    { "id": "q02", "text": "Hvordan produseres mye av insulinet diabetikere bruker i dag?", "options": ["Av genmodifiserte bakterier", "Fra planter", "Av menneskelige frivillige", "Kjemisk av olje"], "correct": 0, "explain": "Bakteriene har fått det menneskelige insulingenet." },
+    { "id": "q03", "text": "Hva er CRISPR-Cas9?", "options": ["En type vaksine", "Et kloningsapparat", "En «gensaks» som kan endre DNA presist", "Et sprøytemiddel"], "correct": 2, "explain": "Metoden ga Nobelprisen i kjemi i 2020." },
+    { "id": "q04", "text": "Hva var spesielt med sauen Dolly?", "options": ["Den var genmodifisert til å gi mer ull", "Den levde i 100 år", "Den var født på Mars", "Den var det første pattedyret klonet fra en voksen celle"], "correct": 3, "explain": "Dolly ble født i 1996." },
+    { "id": "q05", "text": "Hvilken norsk lov regulerer genmodifiserte organismer?", "options": ["Genteknologiloven", "Bioteknologiloven", "Arbeidsmiljøloven", "Opplæringsloven"], "correct": 0, "explain": "Bioteknologiloven gjelder medisinsk bruk på mennesker." },
+    { "id": "q06", "text": "Hva sier føre-var-prinsippet?", "options": ["At vi alltid skal ta i bruk ny teknologi", "At vi bør være forsiktige når risikoen er usikker", "At forskning bør forbys", "At bare eksperter kan bestemme"], "correct": 1, "explain": "Prinsippet er viktig i debatten om GMO." },
+    { "id": "q07", "text": "Hvorfor er genendringer i kjønnsceller og fostre ekstra omstridt?", "options": ["Fordi de er for dyre", "Fordi de er ulovlige i alle land", "Fordi endringene arves videre til nye generasjoner", "Fordi de ikke virker"], "correct": 2, "explain": "Konsekvensene kan vare i mange generasjoner." },
+    { "id": "q08", "text": "Hvilket etisk perspektiv vurderer fordeler og ulemper ved en handling?", "options": ["Pliktetikk", "Dydsetikk", "Føre-var-prinsippet", "Konsekvensetikk"], "correct": 3, "explain": "Pliktetikk spør om handlingen er riktig i seg selv." },
+    { "id": "q09", "text": "Hva brukes DNA-profiler til i rettsvesenet?", "options": ["Å identifisere personer fra spor som hår, blod eller spytt", "Å behandle sykdom", "Å lage nye arter", "Å dyrke planter"], "correct": 0, "explain": "DNA-profiler har løst mange kriminalsaker." },
+    { "id": "q10", "text": "Hva kjennetegner en god drøfting av et bioteknologisk spørsmål?", "options": ["Bare én side presenteres", "Flere sider presenteres med fagkunnskap og en begrunnet konklusjon", "Den er så kort som mulig", "Den bygger bare på følelser"], "correct": 1, "explain": "Fagkunnskap og argumenter fra flere sider gir en god drøfting." }
+  ],
+  "mindmap": {
+    "label": "Bioteknologi",
+    "children": [
+      { "label": "Hva er det?", "children": [
+        { "label": "Tradisjonell" },
+        { "label": "Moderne genteknologi" }
+      ] },
+      { "label": "Medisin", "children": [
+        { "label": "Insulin" },
+        { "label": "Genterapi" },
+        { "label": "Gentester" }
+      ] },
+      { "label": "Mat og rettsvesen", "children": [
+        { "label": "GMO" },
+        { "label": "DNA-profiler" }
+      ] },
+      { "label": "Nye metoder", "children": [
+        { "label": "CRISPR" },
+        { "label": "Kloning og Dolly" }
+      ] },
+      { "label": "Etikk og regulering", "children": [
+        { "label": "Genteknologiloven" },
+        { "label": "Bioteknologiloven" },
+        { "label": "Konsekvens- og pliktetikk" },
+        { "label": "Føre-var" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Kloning av mennesker er forbudt i Norge.", "correct": true, "explain": "Bioteknologiloven setter grenser for bruk på mennesker." },
+      { "id": "m02", "type": "sant-usant", "text": "Avl av husdyr er ikke en form for bioteknologi.", "correct": false, "explain": "Avl regnes som tradisjonell bioteknologi." },
+      { "id": "m03", "type": "sant-usant", "text": "Bioteknologirådet gir råd om etiske spørsmål knyttet til bioteknologi.", "correct": true, "explain": "Rådet skaper også offentlig debatt." },
+      { "id": "m04", "type": "sant-usant", "text": "CRISPR er en gammel metode fra 1800-tallet.", "correct": false, "explain": "CRISPR-Cas9 ble utviklet som genverktøy på 2010-tallet." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken lov regulerer gentester og fosterdiagnostikk i Norge?", "options": ["Genteknologiloven", "Arbeidsmiljøloven", "Bioteknologiloven", "Naturmangfoldloven"], "correct": 2, "explain": "Bioteknologiloven gjelder medisinsk bruk på mennesker." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er et argument mot å tillate «designerbabyer»?", "options": ["Det kan føre til urettferdighet og press om å velge bestemte egenskaper", "Det er for billig", "Det gir mindre forskning", "Det gjør ingen forskjell"], "correct": 0, "explain": "Mange mener det kan endre synet på menneskeverd." },
+      { "id": "m07", "type": "flervalg", "text": "Hva spør pliktetikken om?", "options": ["Hvor mye teknologien koster", "Om en handling er riktig eller gal i seg selv", "Hvor mange som får nytte av den", "Hva som er mest effektivt"], "correct": 1, "explain": "Konsekvensetikken ser på fordeler og ulemper." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
