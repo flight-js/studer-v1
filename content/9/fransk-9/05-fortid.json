@@ -1,0 +1,85 @@
+{
+  "id": "fortid",
+  "fagId": "fransk-9",
+  "trinnId": "9",
+  "name": "Å fortelle om fortiden – passé composé",
+  "intro": "Hvordan du forteller om noe som har skjedd med passé composé, regelrette og uregelrette partisipper, når du bruker avoir og être, nektelse, c'était og nyttige tidsuttrykk.",
+  "kompetansemaal": [3, 6],
+  "sammendrag": "## Passé composé\n\nNår du forteller om noe som **har skjedd** – i helgen, i ferien eller i går – bruker du **passé composé** på fransk. Formen ligner norsk perfektum: *J'**ai regardé** un film.* – Jeg (har) sett en film.\n\nPassé composé = **avoir** eller **être** i presens + **partisipp** (*participe passé*).\n\n## Slik lages partisippet\n\n- Verb på **-er**: *-er* → **-é**: parler → **parlé**, manger → **mangé**, regarder → **regardé**\n- Verb på **-ir**: *-ir* → **-i**: finir → **fini**, choisir → **choisi**\n- Verb på **-re**: *-re* → **-u**: vendre → **vendu**, attendre → **attendu**\n\n**Uregelrette partisipper** må læres: avoir → **eu**, être → **été**, faire → **fait**, prendre → **pris**, boire → **bu**, voir → **vu**, lire → **lu**, écrire → **écrit** og mettre → **mis**.\n\n## Avoir eller être?\n\nDe fleste verb bruker **avoir**: *J'**ai** mangé une pizza.*\n\nNoen verb, særlig verb for **bevegelse** og **forandring**, bruker **être**: **aller** (allé), **venir** (venu), **arriver**, **partir** (parti), **entrer**, **sortir** (sorti), **monter**, **descendre** (descendu), **rester**, **tomber**, **naître** (né) og **mourir** (mort). Også alle **refleksive verb** bruker *être*: *Je **me suis** levé à sept heures.*\n\nMed *être* bøyes partisippet etter **subjektet**:\n\n- *Il est allé* / *Elle est allé**e***\n- *Ils sont parti**s*** / *Elles sont arrivé**es***\n\n## Nektelse\n\n*ne … pas* står **rundt hjelpeverbet**: *Je **n'**ai **pas** mangé.* *Nous **ne** sommes **pas** allés à la plage.*\n\n## C'était …\n\nNår du beskriver hvordan noe **var**, bruker du ofte en annen fortidsform, **imparfait**: **C'était génial !** (Det var kjempebra!) **Il faisait beau.** (Det var fint vær.)\n\n## Tidsuttrykk\n\n**hier** (i går), **avant-hier** (i forgårs), **le week-end dernier** (forrige helg), **la semaine dernière** (forrige uke), **l'été dernier** (i fjor sommer) og **il y a deux jours** (for to dager siden).\n\n## Eksempeltekst\n\n*Le week-end dernier, **je suis allé** à Paris avec ma famille. Samedi, **nous avons visité** la tour Eiffel et **nous avons mangé** des crêpes. Le soir, **nous sommes allés** au cinéma. **C'était** super !*",
+  "flashcards": [
+    { "term": "le passé composé", "def": "fortidsform med avoir/être + partisipp" },
+    { "term": "j'ai parlé", "def": "jeg (har) snakket" },
+    { "term": "j'ai mangé", "def": "jeg (har) spist" },
+    { "term": "j'ai fini", "def": "jeg (har) blitt ferdig" },
+    { "term": "j'ai fait", "def": "jeg (har) gjort" },
+    { "term": "j'ai pris", "def": "jeg (har) tatt" },
+    { "term": "j'ai vu", "def": "jeg (har) sett" },
+    { "term": "j'ai bu", "def": "jeg (har) drukket" },
+    { "term": "je suis allé(e)", "def": "jeg dro / har dratt" },
+    { "term": "je suis parti(e)", "def": "jeg reiste / har reist" },
+    { "term": "je suis resté(e)", "def": "jeg ble / har blitt (værende)" },
+    { "term": "elle est allée", "def": "hun dro – partisippet får -e" },
+    { "term": "je me suis levé(e)", "def": "jeg sto opp" },
+    { "term": "c'était", "def": "det var" },
+    { "term": "hier", "def": "i går" },
+    { "term": "le week-end dernier", "def": "forrige helg" },
+    { "term": "il y a deux jours", "def": "for to dager siden" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er partisippet av «manger»?", "options": ["mangi", "mangu", "mangé", "mangeait"], "correct": 2, "explain": "Verb på -er får -é." },
+    { "id": "q02", "text": "Hvilket hjelpeverb bruker du med «aller» i passé composé?", "options": ["être", "avoir", "faire", "aller"], "correct": 0, "explain": "«aller» er et bevegelsesverb: «je suis allé»." },
+    { "id": "q03", "text": "Hvilken setning er riktig?", "options": ["J'ai allé au cinéma.", "Je suis allé cinéma au.", "Je allé suis au cinéma.", "Je suis allé au cinéma."], "correct": 3, "explain": "«aller» bruker «être»." },
+    { "id": "q04", "text": "Hva er partisippet av «faire»?", "options": ["faisé", "fait", "fairu", "faité"], "correct": 1, "explain": "«faire» er uregelrett: «j'ai fait»." },
+    { "id": "q05", "text": "Hvordan sier du «Hun dro til Paris»?", "options": ["Elle a allé à Paris.", "Elle est allé à Paris.", "Elle va allée à Paris.", "Elle est allée à Paris."], "correct": 3, "explain": "Med «être» bøyes partisippet etter subjektet." },
+    { "id": "q06", "text": "Hva betyr «C'était génial !»?", "options": ["Det er genialt!", "Det var kjempebra!", "Det blir fint!", "Det var kjedelig!"], "correct": 1, "explain": "«c'était» betyr det var." },
+    { "id": "q07", "text": "Hva betyr «le week-end dernier»?", "options": ["Forrige helg", "Neste helg", "Hver helg", "Siste dag i helgen"], "correct": 0, "explain": "«dernier» betyr forrige eller siste." },
+    { "id": "q08", "text": "Hvordan nekter du «J'ai mangé»?", "options": ["Je ai pas mangé.", "Je n'ai mangé pas.", "Je n'ai pas mangé.", "Je pas ai mangé."], "correct": 2, "explain": "«ne … pas» står rundt hjelpeverbet." },
+    { "id": "q09", "text": "Hva er partisippet av «voir»?", "options": ["voiré", "voit", "vuit", "vu"], "correct": 3, "explain": "«J'ai vu» betyr jeg så." },
+    { "id": "q10", "text": "Hva består passé composé av?", "options": ["avoir eller être + partisipp", "verb + -ait", "aller + infinitiv", "infinitiv alene"], "correct": 0, "explain": "For eksempel «j'ai parlé» og «je suis allé»." }
+  ],
+  "mindmap": {
+    "label": "Passé composé",
+    "children": [
+      { "label": "Formen", "children": [
+        { "label": "avoir/être + partisipp" },
+        { "label": "Som norsk perfektum" }
+      ] },
+      { "label": "Partisipper", "children": [
+        { "label": "-er → -é" },
+        { "label": "-ir → -i" },
+        { "label": "-re → -u" },
+        { "label": "fait, pris, vu, bu" }
+      ] },
+      { "label": "avoir eller être", "children": [
+        { "label": "avoir: de fleste" },
+        { "label": "être: bevegelse" },
+        { "label": "Refleksive verb" },
+        { "label": "elle est allée" }
+      ] },
+      { "label": "Nektelse og beskrivelse", "children": [
+        { "label": "Je n'ai pas …" },
+        { "label": "C'était …" },
+        { "label": "Il faisait beau" }
+      ] },
+      { "label": "Tidsuttrykk", "children": [
+        { "label": "hier" },
+        { "label": "le week-end dernier" },
+        { "label": "il y a deux jours" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Refleksive verb bruker «être» i passé composé.", "correct": true, "explain": "For eksempel «je me suis levé»." },
+      { "id": "m02", "type": "sant-usant", "text": "Partisippet av «finir» er «finé».", "correct": false, "explain": "Verb på -ir får -i: «fini»." },
+      { "id": "m03", "type": "sant-usant", "text": "Med «être» bøyes partisippet etter subjektet, som i «elles sont arrivées».", "correct": true, "explain": "Hunkjønn får -e og flertall -s." },
+      { "id": "m04", "type": "sant-usant", "text": "«hier» betyr i morgen.", "correct": false, "explain": "«hier» betyr i går. I morgen heter «demain»." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er partisippet av «prendre»?", "options": ["prendu", "pris", "prené", "prit"], "correct": 1, "explain": "«J'ai pris le bus» betyr jeg tok bussen." },
+      { "id": "m06", "type": "flervalg", "text": "Hva betyr «il y a deux jours»?", "options": ["For to dager siden", "Om to dager", "I to dager", "Det er to dager"], "correct": 0, "explain": "«il y a» + tid betyr «for … siden»." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilket hjelpeverb bruker du med «regarder»?", "options": ["être", "aller", "avoir", "faire"], "correct": 2, "explain": "«regarder» uttrykker ikke bevegelse: «j'ai regardé»." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

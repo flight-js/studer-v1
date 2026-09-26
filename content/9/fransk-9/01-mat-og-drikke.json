@@ -1,0 +1,86 @@
+{
+  "id": "mat-og-drikke",
+  "fagId": "fransk-9",
+  "trinnId": "9",
+  "name": "Mat og drikke",
+  "intro": "Franske måltider, mat og drikke, delingsartikkelen du, de la og des, verbene boire og prendre, og hvordan du bestiller på restaurant.",
+  "kompetansemaal": [2, 4],
+  "sammendrag": "## Måltider – les repas\n\n- **le petit-déjeuner** – frokosten. Mange franskmenn spiser en **tartine** (brødskive med smør og syltetøy) eller en **croissant**, og drikker **café au lait** eller **chocolat chaud** – ofte fra en bolle.\n- **le déjeuner** – lunsjen, rundt klokka tolv–ett. Den består ofte av flere retter: **l'entrée** (forrett), **le plat principal** (hovedrett), **le fromage** og **le dessert**.\n- **le goûter** – ettermiddagsmat for barn, rundt klokka fire.\n- **le dîner** – middagen, gjerne rundt halv åtte eller åtte om kvelden.\n\n## Mat og drikke\n\n- **le pain** (brødet), **le beurre** (smøret), **la confiture** (syltetøyet), **le fromage** (osten), **le jambon** (skinka), **l'œuf** (egget)\n- **la viande** (kjøttet), **le poulet** (kyllingen), **le poisson** (fisken)\n- **les légumes** (grønnsakene), **les fruits** (frukten): **la pomme** (eplet), **la fraise** (jordbæret)\n- **les pâtes** (pasta), **le riz** (risen), **les frites** (pommes frites), **la soupe**, **la salade**, **le gâteau** (kaken)\n- **l'eau** (vannet), **le jus d'orange**, **le lait** (melka), **le thé**, **le café**\n\n## Delingsartikkelen – du, de la, des\n\nNår du snakker om en **ubestemt mengde** av noe, bruker fransk **delingsartikkel**:\n\n- **du** (hankjønn): *Je mange **du** pain.* – Jeg spiser brød.\n- **de la** (hunkjønn): *Je prends **de la** confiture.*\n- **de l'** (foran vokal): *Je bois **de l'**eau.*\n- **des** (flertall): *Je mange **des** fraises.*\n\nEtter nektelse blir alle til **de**: *Je ne mange pas **de** viande.* Men etter *aimer*, *adorer* og *préférer* bruker du **bestemt artikkel**: *J'aime **le** chocolat.*\n\n## Sulten og tørst\n\nPå fransk «har» man sult og tørst: **J'ai faim.** – Jeg er sulten. **J'ai soif.** – Jeg er tørst.\n\n## Viktige verb\n\n- **boire** (drikke): je bois, tu bois, il boit, nous **buvons**, vous **buvez**, ils **boivent**\n- **prendre** (ta): je prends, tu prends, il prend, nous prenons, vous prenez, ils **prennent**\n- **je voudrais** (jeg vil gjerne ha) – den høflige formen av *vouloir*\n\n## På restaurant\n\n- **La carte, s'il vous plaît.** – Menyen, takk. *Le menu* betyr en fast meny til fast pris.\n- **Je voudrais une salade, s'il vous plaît.** – Jeg vil gjerne ha en salat.\n- **Comme plat principal, je prends le poulet.** – Til hovedrett tar jeg kyllingen.\n- **Bon appétit !** – God appetitt! **Santé !** – Skål!\n- **L'addition, s'il vous plaît !** – Regningen, takk!\n\nI Frankrike er service vanligvis inkludert i prisen (*service compris*), men mange legger igjen litt ekstra.",
+  "flashcards": [
+    { "term": "le petit-déjeuner", "def": "frokosten" },
+    { "term": "le déjeuner", "def": "lunsjen" },
+    { "term": "le goûter", "def": "ettermiddagsmat for barn" },
+    { "term": "le dîner", "def": "middagen om kvelden" },
+    { "term": "le pain", "def": "brødet" },
+    { "term": "le fromage", "def": "osten" },
+    { "term": "les légumes", "def": "grønnsakene" },
+    { "term": "les fruits", "def": "frukten" },
+    { "term": "le poulet", "def": "kyllingen" },
+    { "term": "l'eau", "def": "vannet" },
+    { "term": "J'ai faim. / J'ai soif.", "def": "Jeg er sulten. / Jeg er tørst." },
+    { "term": "du, de la, de l', des", "def": "delingsartikkel for ubestemt mengde: noe, litt" },
+    { "term": "Je voudrais …", "def": "Jeg vil gjerne ha …" },
+    { "term": "la carte", "def": "menyen på en restaurant" },
+    { "term": "L'addition, s'il vous plaît !", "def": "Regningen, takk!" },
+    { "term": "boire: je bois, nous buvons", "def": "å drikke: jeg drikker, vi drikker" },
+    { "term": "Bon appétit !", "def": "God appetitt!" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er «le goûter»?", "options": ["Frokost", "Lunsj", "Middag", "Ettermiddagsmat for barn"], "correct": 3, "explain": "Barna spiser ofte goûter når de kommer hjem fra skolen." },
+    { "id": "q02", "text": "Hvordan sier du «Jeg er sulten»?", "options": ["Je suis faim.", "J'ai faim.", "J'ai soif.", "Je mange faim."], "correct": 1, "explain": "På fransk «har» man sult." },
+    { "id": "q03", "text": "Hvilken artikkel passer: «Je mange … pain»?", "options": ["du", "de la", "des", "de l'"], "correct": 0, "explain": "«pain» er hankjønn, og det er en ubestemt mengde." },
+    { "id": "q04", "text": "Hvordan bestiller du høflig?", "options": ["Je veux un café !", "Donne-moi un café.", "Je voudrais un café, s'il vous plaît.", "Un café, vite !"], "correct": 2, "explain": "«Je voudrais» er høfligere enn «je veux»." },
+    { "id": "q05", "text": "Hvordan ber du om regningen?", "options": ["La carte, s'il vous plaît.", "Bon appétit !", "L'addition, s'il vous plaît.", "Santé !"], "correct": 2, "explain": "«l'addition» betyr regningen." },
+    { "id": "q06", "text": "Hva betyr «Je ne mange pas de viande»?", "options": ["Jeg spiser ikke kjøtt", "Jeg spiser mye kjøtt", "Jeg liker kjøtt", "Jeg har kjøtt"], "correct": 0, "explain": "Etter nektelse blir delingsartikkelen til «de»." },
+    { "id": "q07", "text": "Hva er riktig form av «boire» med «nous»?", "options": ["nous boivons", "nous boirons", "nous boit", "nous buvons"], "correct": 3, "explain": "«boire» er uregelrett: nous buvons, vous buvez." },
+    { "id": "q08", "text": "Hva betyr «la carte» på en restaurant?", "options": ["Kartet", "Menyen", "Regningen", "Bordet"], "correct": 1, "explain": "«le menu» er derimot en fast meny." },
+    { "id": "q09", "text": "Hvilket ord betyr grønnsaker?", "options": ["les légumes", "les fruits", "les pâtes", "les frites"], "correct": 0, "explain": "«les fruits» betyr frukt." },
+    { "id": "q10", "text": "Hvilken artikkel bruker du etter «aimer»: «J'aime … chocolat»?", "options": ["du", "un", "le", "de"], "correct": 2, "explain": "Etter aimer, adorer og préférer bruker man bestemt artikkel." }
+  ],
+  "mindmap": {
+    "label": "Mat og drikke",
+    "children": [
+      { "label": "Måltider", "children": [
+        { "label": "petit-déjeuner" },
+        { "label": "déjeuner", "note": "flere retter" },
+        { "label": "goûter" },
+        { "label": "dîner" }
+      ] },
+      { "label": "Mat og drikke", "children": [
+        { "label": "pain, fromage, jambon" },
+        { "label": "légumes og fruits" },
+        { "label": "eau, lait, jus" }
+      ] },
+      { "label": "Delingsartikkel", "children": [
+        { "label": "du, de la, de l', des" },
+        { "label": "pas de" },
+        { "label": "aimer + le/la/les" }
+      ] },
+      { "label": "Verb", "children": [
+        { "label": "boire" },
+        { "label": "prendre" },
+        { "label": "je voudrais" },
+        { "label": "J'ai faim / soif" }
+      ] },
+      { "label": "Restaurant", "children": [
+        { "label": "la carte / le menu" },
+        { "label": "Bon appétit !" },
+        { "label": "L'addition" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Mange franske barn drikker kakao fra en bolle til frokost.", "correct": true, "explain": "En bolle heter «un bol» på fransk." },
+      { "id": "m02", "type": "sant-usant", "text": "«J'ai soif» betyr jeg er sulten.", "correct": false, "explain": "«J'ai soif» betyr jeg er tørst." },
+      { "id": "m03", "type": "sant-usant", "text": "I Frankrike består lunsjen ofte av flere retter.", "correct": true, "explain": "Forrett, hovedrett, ost og dessert er vanlig." },
+      { "id": "m04", "type": "sant-usant", "text": "«le menu» betyr alltid hele menyen på en restaurant.", "correct": false, "explain": "«le menu» er en fast meny til fast pris. Hele menyen heter «la carte»." },
+      { "id": "m05", "type": "flervalg", "text": "Hva betyr «de l'eau»?", "options": ["Vannet", "Noe vann", "Ikke vann", "Mye vann"], "correct": 1, "explain": "Delingsartikkelen viser en ubestemt mengde." },
+      { "id": "m06", "type": "flervalg", "text": "Hva betyr «Je prends le poisson»?", "options": ["Jeg tar fisken", "Jeg liker ikke fisk", "Jeg fisker", "Jeg har fisk"], "correct": 0, "explain": "«prendre» brukes ofte når man bestiller." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er «le fromage»?", "options": ["Brød", "Smør", "Ost", "Skinke"], "correct": 2, "explain": "Frankrike har flere hundre ostesorter." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

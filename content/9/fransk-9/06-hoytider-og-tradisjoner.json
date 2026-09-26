@@ -1,0 +1,86 @@
+{
+  "id": "hoytider-og-tradisjoner",
+  "fagId": "fransk-9",
+  "trinnId": "9",
+  "name": "Høytider og tradisjoner",
+  "intro": "Jul, nyttår, påske og andre høytider og tradisjoner i Frankrike og den fransktalende verden, og hvordan du ønsker god høytid og gratulerer på fransk.",
+  "kompetansemaal": [8, 9],
+  "sammendrag": "## Jul – Noël\n\nI desember pynter franske familier **le sapin** (juletreet), og mange setter fram **la crèche**, en julekrybbe med små figurer. På julaften spiser man **le réveillon**, et stort festmåltid som kan vare langt ut på natta, gjerne med østers, laks og kalkun. Til dessert er det **la bûche de Noël**, en kake formet som en vedkubbe. Barna får ofte gavene fra **le Père Noël** natt til eller morgenen 25. desember. Man ønsker hverandre **«Joyeux Noël !»**.\n\n## Nyttår og helligtrekonger\n\nNyttårsaften heter **la Saint-Sylvestre** og feires også med *réveillon*. Etter midnatt sier man **«Bonne année !»**. Rundt **6. januar** spiser mange **la galette des rois**, en butterdeigskake med mandelfyll. I kaka er det gjemt en liten figur, **la fève**. Den som finner den, blir konge eller dronning for en dag og får bære en papirkrone.\n\n## Vinter og vår\n\n- **La Chandeleur** (2. februar): Man steker **crêpes**. Mange prøver å snu pannekaken mens de holder en mynt i den andre hånda – det skal gi lykke.\n- **Le Carnaval**: Karnevalet i **Nice** er et av verdens mest kjente, med blomsterparader.\n- **Pâques** (påske): Ifølge fransk tradisjon flyr **les cloches de Pâques** – kirkeklokkene – til Roma og kommer tilbake med sjokoladeegg som barna leter etter i hagen. Man sier **«Joyeuses Pâques !»**.\n- **Le poisson d'avril** (1. april): Barna fester papirfisker på ryggen til folk.\n- **Le 1er mai**: Man gir hverandre **liljekonvall** (*le muguet*), som skal bringe lykke.\n\n## Sommer og høst\n\n- **La Fête de la musique** (21. juni): gratis konserter over hele landet\n- **Le 14 juillet**: nasjonaldagen, med militærparade på Champs-Élysées og fyrverkeri\n- **La Toussaint** (1. november): Mange legger blomster, ofte krysantemum, på gravene til familiemedlemmer.\n- **Le 11 novembre**: minnedag for slutten på første verdenskrig\n\n## I den fransktalende verden\n\nI **Québec** feirer man **le temps des sucres** om våren, når lønnetrærne tappes for sevje som blir til lønnesirup. I **Belgia** kommer **Saint-Nicolas** med gaver 6. desember, og i **Senegal** er den muslimske høytiden **Tabaski** en av årets største fester.\n\n## Gratulasjoner\n\n**Joyeux anniversaire !** eller **Bon anniversaire !** betyr «Gratulerer med dagen!». **Bonnes fêtes !** betyr «God høytid!».",
+  "flashcards": [
+    { "term": "Noël", "def": "jul" },
+    { "term": "le réveillon", "def": "stort festmåltid på julaften og nyttårsaften" },
+    { "term": "la bûche de Noël", "def": "julekake formet som en vedkubbe" },
+    { "term": "le Père Noël", "def": "julenissen" },
+    { "term": "Joyeux Noël !", "def": "God jul!" },
+    { "term": "la Saint-Sylvestre", "def": "nyttårsaften" },
+    { "term": "Bonne année !", "def": "Godt nytt år!" },
+    { "term": "la galette des rois", "def": "kake som spises rundt 6. januar" },
+    { "term": "la fève", "def": "liten figur gjemt i kongekaka" },
+    { "term": "la Chandeleur", "def": "2. februar, da man steker crêpes" },
+    { "term": "les cloches de Pâques", "def": "påskeklokkene, som ifølge tradisjonen kommer med sjokoladeegg" },
+    { "term": "le muguet", "def": "liljekonvall, som gis bort 1. mai" },
+    { "term": "le 14 juillet", "def": "Frankrikes nasjonaldag" },
+    { "term": "la Toussaint", "def": "allehelgensdag, 1. november" },
+    { "term": "Joyeux anniversaire !", "def": "Gratulerer med dagen!" },
+    { "term": "le temps des sucres", "def": "tiden om våren da man lager lønnesirup i Québec" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er «la bûche de Noël»?", "options": ["En julesang", "En kake formet som en vedkubbe", "Et juletre", "En julegave"], "correct": 1, "explain": "«la bûche» betyr vedkubben." },
+    { "id": "q02", "text": "Hva spiser mange i Frankrike rundt helligtrekongersdag 6. januar?", "options": ["Crêpes", "Pepperkaker", "Risgrøt", "La galette des rois"], "correct": 3, "explain": "«rois» betyr konger." },
+    { "id": "q03", "text": "Hva skjer med den som finner «la fève» i kaka?", "options": ["Den blir konge eller dronning for en dag og får en krone", "Den må vaske opp", "Den får ikke dessert", "Den må synge"], "correct": 0, "explain": "Kaka selges ofte med en papirkrone." },
+    { "id": "q04", "text": "Hva kommer med sjokoladeegg i påsken ifølge fransk tradisjon?", "options": ["Påskeharen", "Julenissen", "Kirkeklokkene, les cloches de Pâques", "Heksene"], "correct": 2, "explain": "Klokkene «flyr til Roma» og kommer tilbake påskemorgen." },
+    { "id": "q05", "text": "Hva gir franskmenn hverandre 1. mai?", "options": ["Liljekonvall (le muguet)", "Roser", "Sjokolade", "Påskeegg"], "correct": 0, "explain": "Liljekonvallen skal bringe lykke." },
+    { "id": "q06", "text": "Hva betyr «Bonne année !»?", "options": ["God jul!", "God påske!", "Godt nytt år!", "Gratulerer med dagen!"], "correct": 2, "explain": "«l'année» betyr året." },
+    { "id": "q07", "text": "Hva gjør mange franskmenn på la Toussaint 1. november?", "options": ["Spiser crêpes", "Går i karneval", "Ser fyrverkeri", "Legger blomster på gravene"], "correct": 3, "explain": "Dagen er allehelgensdag." },
+    { "id": "q08", "text": "Hva er «le réveillon»?", "options": ["En julesang", "Et stort festmåltid på julaften og nyttårsaften", "En vekkerklokke", "En kirke"], "correct": 1, "explain": "Måltidet kan vare langt ut på natta." },
+    { "id": "q09", "text": "Hvilken dag er Frankrikes nasjonaldag?", "options": ["17. mai", "1. mai", "25. desember", "14. juli"], "correct": 3, "explain": "Dagen minner om stormingen av Bastillen i 1789." },
+    { "id": "q10", "text": "Hva er «le temps des sucres» i Québec?", "options": ["Tiden om våren da man lager lønnesirup", "En julefeiring", "En skoleferie", "En sukkerfri uke"], "correct": 0, "explain": "Lønnesirup er et symbol på Québec og Canada." }
+  ],
+  "mindmap": {
+    "label": "Høytider og tradisjoner",
+    "children": [
+      { "label": "Jul", "children": [
+        { "label": "sapin og crèche" },
+        { "label": "réveillon" },
+        { "label": "bûche de Noël" },
+        { "label": "Père Noël" }
+      ] },
+      { "label": "Nyttår og januar", "children": [
+        { "label": "Saint-Sylvestre" },
+        { "label": "Bonne année !" },
+        { "label": "galette des rois" }
+      ] },
+      { "label": "Vår", "children": [
+        { "label": "Chandeleur" },
+        { "label": "Carnaval i Nice" },
+        { "label": "cloches de Pâques" },
+        { "label": "muguet 1. mai" }
+      ] },
+      { "label": "Sommer og høst", "children": [
+        { "label": "Fête de la musique" },
+        { "label": "14 juillet" },
+        { "label": "Toussaint" },
+        { "label": "11 novembre" }
+      ] },
+      { "label": "Francophonie", "children": [
+        { "label": "temps des sucres" },
+        { "label": "Saint-Nicolas i Belgia" },
+        { "label": "Tabaski i Senegal" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "«Joyeux Noël !» betyr God jul!", "correct": true, "explain": "«joyeux» betyr glad." },
+      { "id": "m02", "type": "sant-usant", "text": "La Chandeleur feires med påskeegg.", "correct": false, "explain": "På la Chandeleur steker man crêpes." },
+      { "id": "m03", "type": "sant-usant", "text": "Karnevalet i Nice er kjent over hele verden.", "correct": true, "explain": "Det er kjent for blomsterparadene." },
+      { "id": "m04", "type": "sant-usant", "text": "I fransk tradisjon er det julenissen som kommer med påskeeggene.", "correct": false, "explain": "Ifølge tradisjonen er det kirkeklokkene, les cloches de Pâques." },
+      { "id": "m05", "type": "flervalg", "text": "Hva betyr «Joyeux anniversaire !»?", "options": ["God jul!", "Gratulerer med dagen!", "Godt nytt år!", "God påske!"], "correct": 1, "explain": "«l'anniversaire» betyr bursdagen." },
+      { "id": "m06", "type": "flervalg", "text": "Hva markeres 11. november i Frankrike?", "options": ["Slutten på første verdenskrig", "Nyttår", "Jul", "Revolusjonen"], "correct": 0, "explain": "Våpenhvilen ble inngått 11. november 1918." },
+      { "id": "m07", "type": "flervalg", "text": "Hva heter nyttårsaften på fransk?", "options": ["la Toussaint", "la Chandeleur", "la Saint-Sylvestre", "le 14 juillet"], "correct": 2, "explain": "Dagen er oppkalt etter pave Silvester." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

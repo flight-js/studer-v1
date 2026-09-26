@@ -1,0 +1,85 @@
+{
+  "id": "hjemmet-og-hverdagen",
+  "fagId": "fransk-9",
+  "trinnId": "9",
+  "name": "Hjemmet og hverdagen",
+  "intro": "Rom og møbler på fransk, il y a og preposisjoner for plassering, en vanlig dag med refleksive verb, verbene aller og faire, og ord som hjelper deg å fortelle i rekkefølge.",
+  "kompetansemaal": [3, 5],
+  "sammendrag": "## Hjemmet – la maison\n\nMange franskmenn i byene bor i **un appartement** (en leilighet), mens andre bor i **une maison** (et hus). Rommene – **les pièces** – heter:\n\n- **la cuisine** – kjøkkenet\n- **le salon** – stua\n- **la chambre** – soverommet\n- **la salle de bains** – badet, **les toilettes** – toalettet\n- **le jardin** – hagen, **le balcon** og **le garage**\n\n## Mitt rom – ma chambre\n\nMøbler: **le lit** (senga), **la table** (bordet), **le bureau** (skrivebordet), **la chaise** (stolen), **l'armoire** (skapet), **l'étagère** (hylla), **le canapé** (sofaen), **la lampe** og **la fenêtre** (vinduet).\n\n- **Dans ma chambre, il y a un lit et un bureau.** – På rommet mitt er det en seng og et skrivebord. **Il y a** betyr «det er» eller «det finnes».\n- **Ma chambre est petite mais confortable.** – Rommet mitt er lite, men koselig.\n\nPreposisjoner for plassering: **dans** (i), **sur** (på), **sous** (under), **devant** (foran), **derrière** (bak), **à côté de** (ved siden av) og **en face de** (overfor).\n\n## Hverdagen – la vie quotidienne\n\n- **Je me réveille à sept heures.** – Jeg våkner klokka sju.\n- **Je me lève, je me douche et je m'habille.** – Jeg står opp, dusjer og kler på meg.\n- **Je prends le petit-déjeuner.** – Jeg spiser frokost.\n- **Je vais à l'école en bus.** – Jeg tar bussen til skolen.\n- **Après l'école, je fais mes devoirs.** – Etter skolen gjør jeg leksene mine.\n- **Le soir, je regarde la télé.** – Om kvelden ser jeg på TV.\n- **Je me couche à dix heures.** – Jeg legger meg klokka ti.\n\nHjemme hjelper mange til: **ranger ma chambre** (rydde rommet), **faire la vaisselle** (ta oppvasken) og **passer l'aspirateur** (støvsuge).\n\n## Refleksive verb\n\nMange hverdagsverb er **refleksive**. Pronomenet står **foran** verbet: **se lever** (stå opp) → je **me** lève, tu **te** lèves, il **se** lève, nous **nous** levons, vous **vous** levez, ils **se** lèvent.\n\n## Aller og faire\n\n- **aller** (gå, dra): je vais, tu vas, il va, nous allons, vous allez, ils vont\n- **faire** (gjøre, lage): je fais, tu fais, il fait, nous faisons, vous faites, ils font\n\n## Fortelle i rekkefølge\n\nBruk **d'abord** (først), **ensuite** eller **puis** (så), **après** (etterpå) og **enfin** (til slutt): *D'abord, je me lève. Ensuite, je prends le petit-déjeuner. Enfin, je vais à l'école.*",
+  "flashcards": [
+    { "term": "l'appartement", "def": "leiligheten" },
+    { "term": "la chambre", "def": "soverommet" },
+    { "term": "la cuisine", "def": "kjøkkenet" },
+    { "term": "le salon", "def": "stua" },
+    { "term": "la salle de bains", "def": "badet" },
+    { "term": "le lit", "def": "senga" },
+    { "term": "l'armoire", "def": "skapet" },
+    { "term": "le bureau", "def": "skrivebordet" },
+    { "term": "il y a", "def": "det er, det finnes" },
+    { "term": "je me lève", "def": "jeg står opp" },
+    { "term": "je me douche", "def": "jeg dusjer" },
+    { "term": "je me couche", "def": "jeg legger meg" },
+    { "term": "aller: je vais", "def": "å gå, dra: jeg går, drar" },
+    { "term": "faire mes devoirs", "def": "å gjøre leksene mine" },
+    { "term": "ranger ma chambre", "def": "å rydde rommet mitt" },
+    { "term": "d'abord, ensuite, enfin", "def": "først, så, til slutt" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva betyr «la chambre»?", "options": ["Kjøkkenet", "Stua", "Soverommet", "Badet"], "correct": 2, "explain": "Stua heter «le salon»." },
+    { "id": "q02", "text": "Hva betyr «il y a»?", "options": ["Det er / det finnes", "Han har", "Han går", "Det var"], "correct": 0, "explain": "«Il y a un lit» betyr «det er en seng»." },
+    { "id": "q03", "text": "Hvordan sier du «Jeg står opp klokka sju»?", "options": ["Je lève à sept heures.", "Je suis lève à sept heures.", "Me je lève à sept heures.", "Je me lève à sept heures."], "correct": 3, "explain": "«se lever» er refleksivt: je me lève." },
+    { "id": "q04", "text": "Hva er riktig form av «aller» med «je»?", "options": ["je alle", "je vais", "je va", "j'aller"], "correct": 1, "explain": "«aller» er uregelrett." },
+    { "id": "q05", "text": "Hva betyr «faire mes devoirs»?", "options": ["Å lage mat", "Å rydde", "Å gå på skolen", "Å gjøre leksene mine"], "correct": 3, "explain": "«les devoirs» betyr leksene." },
+    { "id": "q06", "text": "Hvor står refleksivpronomenet i «je me couche»?", "options": ["Etter verbet", "Til slutt i setningen", "Foran verbet", "Det finnes ikke"], "correct": 2, "explain": "På fransk står det foran verbet." },
+    { "id": "q07", "text": "Hva betyr «le salon»?", "options": ["Stua", "Frisøren", "Kjøkkenet", "Kjelleren"], "correct": 0, "explain": "Ordet brukes om stua i et hjem." },
+    { "id": "q08", "text": "Hva er «le bureau» på et soverom?", "options": ["Senga", "Skrivebordet", "Skapet", "Vinduet"], "correct": 1, "explain": "«le bureau» kan også bety kontoret." },
+    { "id": "q09", "text": "Hvilket ord betyr «først»?", "options": ["ensuite", "enfin", "d'abord", "après"], "correct": 2, "explain": "«enfin» betyr til slutt." },
+    { "id": "q10", "text": "Hva betyr «faire la vaisselle»?", "options": ["Å dekke bordet", "Å handle", "Å vaske klær", "Å ta oppvasken"], "correct": 3, "explain": "«la vaisselle» betyr servisen eller oppvasken." }
+  ],
+  "mindmap": {
+    "label": "Hjemmet og hverdagen",
+    "children": [
+      { "label": "Rom", "children": [
+        { "label": "cuisine" },
+        { "label": "salon" },
+        { "label": "chambre" },
+        { "label": "salle de bains" }
+      ] },
+      { "label": "Mitt rom", "children": [
+        { "label": "lit, bureau, chaise" },
+        { "label": "il y a" },
+        { "label": "dans, sur, sous, à côté de" }
+      ] },
+      { "label": "Hverdagen", "children": [
+        { "label": "je me lève" },
+        { "label": "je vais à l'école" },
+        { "label": "je fais mes devoirs" },
+        { "label": "je me couche" }
+      ] },
+      { "label": "Verb", "children": [
+        { "label": "Refleksive verb" },
+        { "label": "aller" },
+        { "label": "faire" }
+      ] },
+      { "label": "Rekkefølge", "children": [
+        { "label": "d'abord" },
+        { "label": "ensuite, puis" },
+        { "label": "enfin" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "«la salle de bains» er badet.", "correct": true, "explain": "Toalettet heter ofte «les toilettes»." },
+      { "id": "m02", "type": "sant-usant", "text": "«se lever» er et refleksivt verb.", "correct": true, "explain": "«Je me lève» betyr «jeg står opp»." },
+      { "id": "m03", "type": "sant-usant", "text": "«sous» betyr på.", "correct": false, "explain": "«sous» betyr under. På heter «sur»." },
+      { "id": "m04", "type": "sant-usant", "text": "«ils font» er en form av verbet «aller».", "correct": false, "explain": "«ils font» kommer fra «faire». Fra «aller» heter det «ils vont»." },
+      { "id": "m05", "type": "flervalg", "text": "Hva betyr «Ma chambre est petite mais confortable»?", "options": ["Rommet mitt er lite, men koselig", "Rommet mitt er stort", "Jeg liker ikke rommet mitt", "Rommet mitt er rotete"], "correct": 0, "explain": "«mais» betyr men." },
+      { "id": "m06", "type": "flervalg", "text": "Hva betyr «à côté de»?", "options": ["Bak", "Ved siden av", "Under", "Foran"], "correct": 1, "explain": "«en face de» betyr overfor." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilket ord passer: «nous … levons»?", "options": ["me", "se", "nous", "vous"], "correct": 2, "explain": "Med «nous» er refleksivpronomenet også «nous»." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

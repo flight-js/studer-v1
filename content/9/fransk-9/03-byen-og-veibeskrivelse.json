@@ -1,0 +1,86 @@
+{
+  "id": "byen-og-veibeskrivelse",
+  "fagId": "fransk-9",
+  "trinnId": "9",
+  "name": "Byen og veibeskrivelse",
+  "intro": "Steder i byen, hvordan du spør om og forstår en veibeskrivelse på fransk, sammentrekningene au og du, transportmidler og lyttestrategier.",
+  "kompetansemaal": [2, 1],
+  "sammendrag": "## I byen – en ville\n\n- **la gare** – jernbanestasjonen, **l'arrêt de bus** – bussholdeplassen, **l'aéroport** – flyplassen\n- **l'hôpital** – sykehuset, **la pharmacie** – apoteket\n- **la banque** og **la poste** – postkontoret\n- **la bibliothèque** – biblioteket, **le musée** og **le cinéma**\n- **le supermarché** og **le centre commercial** – kjøpesenteret\n- **le parc**, **l'église** – kirken, **la mairie** – rådhuset, **l'office de tourisme** – turistkontoret\n- **la rue** – gata, **la place** – torget, **le pont** – brua, **le feu** – trafikklyset, **le carrefour** – krysset\n\n## Spørre om veien\n\n- **Excusez-moi, où est la gare ?** – Unnskyld, hvor er jernbanestasjonen?\n- **Pour aller au musée, s'il vous plaît ?** – Hvordan kommer jeg til museet?\n- **Est-ce qu'il y a une pharmacie près d'ici ?** – Finnes det et apotek i nærheten?\n- **C'est loin ?** – Er det langt? – **Non, c'est à cinq minutes à pied.**\n\n## Veibeskrivelse\n\n- **Allez tout droit.** – Gå rett fram.\n- **Tournez à gauche / à droite.** – Ta til venstre / høyre.\n- **Prenez la première / deuxième rue à gauche.** – Ta den første / andre gata til venstre.\n- **au feu** – ved lyskrysset, **au carrefour** – i krysset\n- **Traversez la place.** – Gå over torget.\n- **C'est sur votre droite.** – Det er på høyre side.\n- **La poste est à côté de la banque / en face du parc.** – Posten er ved siden av banken / overfor parken.\n\n## Au, à la, aux – og du\n\nPreposisjonen **à** smelter sammen med artikkelen *le* og *les*:\n\n- **à + le = au**: *au musée*, *au cinéma*\n- **à + la = à la**: *à la gare*\n- **à + l' = à l'**: *à l'hôpital*\n- **à + les = aux**: *aux toilettes*\n\nPå samme måte blir **de + le = du**: *en face **du** parc*.\n\n## Transport\n\n**en bus**, **en métro**, **en train**, **en voiture** (med bil), **à vélo** (med sykkel) og **à pied** (til fots). Paris har en av verdens eldste T-baner, **le métro**, som åpnet i 1900.\n\n## Lyttestrategier\n\nLytt etter **nøkkelord** som *à gauche*, *à droite* og *tout droit*. Hvis det går for fort, kan du si:\n\n- **Vous pouvez répéter, s'il vous plaît ?** – Kan De gjenta?\n- **Plus lentement, s'il vous plaît.** – Saktere, takk.\n- **Vous pouvez me montrer sur le plan ?** – Kan De vise meg på kartet?\n\nNår du selv forklarer veien, kan du peke og bruke hendene. Kroppsspråk hjelper mye når ordene ikke strekker til.",
+  "flashcards": [
+    { "term": "la gare", "def": "jernbanestasjonen" },
+    { "term": "l'arrêt de bus", "def": "bussholdeplassen" },
+    { "term": "la pharmacie", "def": "apoteket" },
+    { "term": "la bibliothèque", "def": "biblioteket" },
+    { "term": "la mairie", "def": "rådhuset" },
+    { "term": "le feu", "def": "trafikklyset" },
+    { "term": "le carrefour", "def": "krysset" },
+    { "term": "tout droit", "def": "rett fram" },
+    { "term": "à gauche / à droite", "def": "til venstre / til høyre" },
+    { "term": "Tournez à gauche.", "def": "Ta til venstre." },
+    { "term": "en face de", "def": "overfor" },
+    { "term": "Pour aller au …, s'il vous plaît ?", "def": "Hvordan kommer jeg til …?" },
+    { "term": "au / à la / aux", "def": "til (à + le / à + la / à + les)" },
+    { "term": "à pied", "def": "til fots" },
+    { "term": "en métro", "def": "med T-banen" },
+    { "term": "Vous pouvez répéter, s'il vous plaît ?", "def": "Kan De gjenta?" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er «la gare»?", "options": ["Flyplassen", "Jernbanestasjonen", "Garasjen", "Havnen"], "correct": 1, "explain": "Garasjen heter «le garage»." },
+    { "id": "q02", "text": "Hva betyr «tout droit»?", "options": ["Til venstre", "Til høyre", "Tilbake", "Rett fram"], "correct": 3, "explain": "Pass på: «à droite» betyr til høyre." },
+    { "id": "q03", "text": "Hvordan spør du om veien til museet?", "options": ["Tu habites où ?", "Le musée est beau ?", "Pour aller au musée, s'il vous plaît ?", "Combien coûte le musée ?"], "correct": 2, "explain": "Dette er en vanlig og høflig måte å spørre på." },
+    { "id": "q04", "text": "Hva er «la pharmacie»?", "options": ["Apoteket", "Gården", "Biblioteket", "Banken"], "correct": 0, "explain": "Apoteker i Frankrike har ofte et grønt kors utenfor." },
+    { "id": "q05", "text": "Hvorfor heter det «au musée», men «à la gare»?", "options": ["Fordi museet er større", "Fordi «musée» er hankjønn og «gare» hunkjønn", "Fordi gare er et sted", "Det er tilfeldig"], "correct": 1, "explain": "à + le blir au, mens à + la ikke endres." },
+    { "id": "q06", "text": "Hva betyr «Tournez à droite au feu»?", "options": ["Gå rett fram ved lyskrysset", "Stopp ved lyskrysset", "Snu ved brua", "Ta til høyre ved lyskrysset"], "correct": 3, "explain": "«le feu» betyr trafikklyset." },
+    { "id": "q07", "text": "Hva betyr «à pied»?", "options": ["Til fots", "Med bil", "Med sykkel", "Med tog"], "correct": 0, "explain": "«le pied» betyr foten." },
+    { "id": "q08", "text": "Hva betyr «en face de»?", "options": ["Bak", "Under", "Overfor", "Ved siden av"], "correct": 2, "explain": "Ved siden av heter «à côté de»." },
+    { "id": "q09", "text": "Hva sier du hvis du ikke forstod veibeskrivelsen?", "options": ["Au revoir !", "Bon appétit !", "Merci beaucoup !", "Vous pouvez répéter, s'il vous plaît ?"], "correct": 3, "explain": "Det er helt greit å be om at noe blir gjentatt." },
+    { "id": "q10", "text": "Hva er «la mairie»?", "options": ["Havet", "Rådhuset", "Kirken", "Markedet"], "correct": 1, "explain": "«le maire» betyr ordføreren." }
+  ],
+  "mindmap": {
+    "label": "Byen og veibeskrivelse",
+    "children": [
+      { "label": "Steder", "children": [
+        { "label": "gare, arrêt de bus" },
+        { "label": "pharmacie, hôpital" },
+        { "label": "bibliothèque, musée" },
+        { "label": "mairie, église" }
+      ] },
+      { "label": "Spørre", "children": [
+        { "label": "Où est … ?" },
+        { "label": "Pour aller au … ?" },
+        { "label": "C'est loin ?" }
+      ] },
+      { "label": "Forklare", "children": [
+        { "label": "tout droit" },
+        { "label": "à gauche / à droite" },
+        { "label": "au feu, au carrefour" },
+        { "label": "à côté de, en face de" }
+      ] },
+      { "label": "Grammatikk og transport", "children": [
+        { "label": "au, à la, aux" },
+        { "label": "du" },
+        { "label": "en bus, en métro" },
+        { "label": "à pied" }
+      ] },
+      { "label": "Lyttestrategier", "children": [
+        { "label": "Nøkkelord" },
+        { "label": "Vous pouvez répéter ?" },
+        { "label": "Plus lentement" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "«à gauche» betyr til venstre.", "correct": true, "explain": "Til høyre heter «à droite»." },
+      { "id": "m02", "type": "sant-usant", "text": "«la bibliothèque» er en bokhandel.", "correct": false, "explain": "«la bibliothèque» er biblioteket. En bokhandel heter «la librairie»." },
+      { "id": "m03", "type": "sant-usant", "text": "«en métro» betyr med T-banen.", "correct": true, "explain": "Metroen i Paris åpnet i 1900." },
+      { "id": "m04", "type": "sant-usant", "text": "«le carrefour» betyr kirken.", "correct": false, "explain": "«le carrefour» betyr krysset. Kirken heter «l'église»." },
+      { "id": "m05", "type": "flervalg", "text": "Hvordan sier du «Er det langt?»?", "options": ["C'est loin ?", "C'est où ?", "C'est quoi ?", "C'est ici ?"], "correct": 0, "explain": "«loin» betyr langt unna." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er «l'arrêt de bus»?", "options": ["Bussjåføren", "Bussholdeplassen", "Busskortet", "Bussen"], "correct": 1, "explain": "«arrêter» betyr å stoppe." },
+      { "id": "m07", "type": "flervalg", "text": "Hva betyr «Prenez la deuxième rue à gauche»?", "options": ["Ta den første gata til høyre", "Gå to kvartaler rett fram", "Ta den andre gata til venstre", "Kryss gata to ganger"], "correct": 2, "explain": "«deuxième» betyr andre." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

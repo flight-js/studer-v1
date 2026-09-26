@@ -1,0 +1,86 @@
+{
+  "id": "klaer-og-handel",
+  "fagId": "fransk-9",
+  "trinnId": "9",
+  "name": "Klær og handel",
+  "intro": "Klær og farger på fransk, adjektiver som bøyes, nyttige uttrykk i butikken, priser, ce, cette og ces, og pronomenene le, la og les.",
+  "kompetansemaal": [2, 6],
+  "sammendrag": "## Klær – les vêtements\n\n- **le tee-shirt**, **la chemise** (skjorta), **le chemisier** (blusen)\n- **le pull** (genseren), **la veste** (jakka), **le manteau** (kåpa, frakken)\n- **le pantalon** (buksa), **le jean**, **la jupe** (skjørtet), **la robe** (kjolen)\n- **les chaussures** (skoene), **les baskets** (joggeskoene), **les chaussettes** (sokkene)\n- **le bonnet** (lua), **l'écharpe** (skjerfet), **les gants** (hanskene)\n\n## Farger – les couleurs\n\n**rouge** (rød), **bleu** (blå), **vert** (grønn), **jaune** (gul), **noir** (svart), **blanc** (hvit), **gris** (grå), **rose**, **violet**, **marron** (brun) og **orange**.\n\nFargene står **etter** substantivet og bøyes etter kjønn og tall: *un pull bleu*, *une jupe bleu**e***, *des chaussures noir**es***. *Blanc* blir **blanche** i hunkjønn. *Marron* og *orange* bøyes ikke.\n\n## I butikken – dans le magasin\n\n- **Je peux vous aider ?** – Kan jeg hjelpe Dem?\n- **Je cherche une veste.** – Jeg ser etter en jakke.\n- **Quelle taille faites-vous ?** – Hvilken størrelse bruker De? – **Je fais du M.** Skostørrelse heter **la pointure**.\n- **Je peux l'essayer ?** – Kan jeg prøve den? Du prøver klær i **la cabine d'essayage**.\n- **Ça me va bien / Ça ne me va pas.** – Den passer / passer ikke.\n- **C'est trop grand / trop petit / trop cher.** – Den er for stor / for liten / for dyr.\n- **C'est combien ?** eller **Combien coûte ce pull ?** – Hva koster genseren?\n- **Il coûte 29,99 euros.** – *vingt-neuf euros quatre-vingt-dix-neuf*.\n- **Je le prends.** – Jeg tar den. Du betaler ved **la caisse**.\n\nAndre nyttige ord er **bon marché** (billig), **cher** (dyr) og **en solde** (på salg). I Frankrike er det store utsalg, **les soldes**, to ganger i året, i januar og om sommeren.\n\n## Denne, dette, disse – ce, cette, ces\n\n- **ce** pull (hankjønn), **cet** anorak (hankjønn foran vokal)\n- **cette** jupe (hunkjønn)\n- **ces** chaussures (flertall)\n\n## Le, la, les – den og dem\n\nNår du viser tilbake til et plagg, velger du pronomen etter kjønnet: **le pull → le**, **la jupe → la**, **les chaussures → les**. Pronomenet står **foran** verbet: *Je **la** prends.*\n\n## Si hva du synes\n\n- **Comment tu trouves cette robe ?** – Hva synes du om denne kjolen?\n- **Je la trouve jolie / chouette / moche.** – Jeg synes den er fin / kul / stygg.\n- **Elle te va bien !** – Den kler deg!\n\n## Mote og miljø\n\nParis regnes som en av verdens **motehovedsteder**, med store motehus og moteuker. Samtidig kjøper stadig flere unge franskmenn brukte klær, **des vêtements d'occasion**, for å spare penger og miljøet.",
+  "flashcards": [
+    { "term": "les vêtements", "def": "klærne" },
+    { "term": "le pantalon", "def": "buksa" },
+    { "term": "la jupe", "def": "skjørtet" },
+    { "term": "la robe", "def": "kjolen" },
+    { "term": "la veste", "def": "jakka" },
+    { "term": "le pull", "def": "genseren" },
+    { "term": "les chaussures", "def": "skoene" },
+    { "term": "les baskets", "def": "joggeskoene" },
+    { "term": "rouge, bleu, noir", "def": "rød, blå, svart" },
+    { "term": "la taille", "def": "størrelsen" },
+    { "term": "essayer", "def": "å prøve (på)" },
+    { "term": "C'est trop cher.", "def": "Det er for dyrt." },
+    { "term": "C'est combien ?", "def": "Hva koster det?" },
+    { "term": "bon marché / cher", "def": "billig / dyr" },
+    { "term": "les soldes", "def": "utsalget" },
+    { "term": "Je le prends.", "def": "Jeg tar den (om et hankjønnsord)." },
+    { "term": "ce / cette / ces", "def": "denne, dette / denne / disse" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva betyr «le pantalon»?", "options": ["Buksa", "Skjørtet", "Jakka", "Sokkene"], "correct": 0, "explain": "Skjørtet heter «la jupe»." },
+    { "id": "q02", "text": "Hvordan spør du hva noe koster?", "options": ["C'est où ?", "C'est quoi ?", "C'est combien ?", "C'est qui ?"], "correct": 2, "explain": "«combien» betyr hvor mye." },
+    { "id": "q03", "text": "Hva betyr «Je peux l'essayer ?»?", "options": ["Kan jeg kjøpe den?", "Kan jeg prøve den på?", "Kan jeg levere den tilbake?", "Kan jeg få rabatt?"], "correct": 1, "explain": "«essayer» betyr å prøve." },
+    { "id": "q04", "text": "Hva betyr «C'est trop cher»?", "options": ["Det er for stort", "Det er for lite", "Det er for billig", "Det er for dyrt"], "correct": 3, "explain": "«cher» betyr dyr." },
+    { "id": "q05", "text": "Hvordan blir «bleu» etter et hunkjønnsord, som i «une jupe …»?", "options": ["bleu", "bleus", "bleue", "bleues"], "correct": 2, "explain": "Hunkjønn får -e." },
+    { "id": "q06", "text": "Hva betyr «Quelle taille faites-vous ?»?", "options": ["Hvilken størrelse bruker De?", "Hvilken farge liker De?", "Hvor mye penger har De?", "Hvor høy er De?"], "correct": 0, "explain": "«la taille» betyr størrelsen." },
+    { "id": "q07", "text": "Du vil kjøpe skjørtet (la jupe). Hva sier du?", "options": ["Je le prends.", "Je les prends.", "Je lui prends.", "Je la prends."], "correct": 3, "explain": "«la jupe» er hunkjønn, derfor «la»." },
+    { "id": "q08", "text": "Hva er «les soldes»?", "options": ["Soldatene", "Utsalget", "Prøverommet", "Kassen"], "correct": 1, "explain": "Utsalgene i Frankrike er i januar og om sommeren." },
+    { "id": "q09", "text": "Hvilket ord passer: «… chaussures sont belles»?", "options": ["Ces", "Ce", "Cette", "Cet"], "correct": 0, "explain": "«chaussures» står i flertall." },
+    { "id": "q10", "text": "Hva betyr «bon marché»?", "options": ["Dyr", "Pen", "Billig", "Stor"], "correct": 2, "explain": "Ordet betyr egentlig «godt kjøp»." }
+  ],
+  "mindmap": {
+    "label": "Klær og handel",
+    "children": [
+      { "label": "Klær", "children": [
+        { "label": "pantalon, jupe, robe" },
+        { "label": "pull, veste" },
+        { "label": "chaussures, bonnet" }
+      ] },
+      { "label": "Farger", "children": [
+        { "label": "rouge, bleu, vert" },
+        { "label": "noir, blanc" },
+        { "label": "une jupe bleue" }
+      ] },
+      { "label": "I butikken", "children": [
+        { "label": "Je cherche …" },
+        { "label": "taille og pointure" },
+        { "label": "essayer" },
+        { "label": "trop grand, trop cher" }
+      ] },
+      { "label": "Grammatikk", "children": [
+        { "label": "ce, cette, ces" },
+        { "label": "le, la, les" },
+        { "label": "Je le prends" }
+      ] },
+      { "label": "Meninger og mote", "children": [
+        { "label": "Je la trouve jolie" },
+        { "label": "Elle te va bien" },
+        { "label": "les soldes" },
+        { "label": "vêtements d'occasion" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "«la robe» betyr kjolen.", "correct": true, "explain": "Ordet er i slekt med det engelske «robe»." },
+      { "id": "m02", "type": "sant-usant", "text": "I Frankrike betaler man fortsatt med franc.", "correct": false, "explain": "Frankrike har brukt euro siden 2002." },
+      { "id": "m03", "type": "sant-usant", "text": "«Ça me va bien» betyr at plagget passer eller kler meg.", "correct": true, "explain": "«aller» brukes her om å passe." },
+      { "id": "m04", "type": "sant-usant", "text": "«noir» betyr hvit.", "correct": false, "explain": "«noir» betyr svart. Hvit heter «blanc»." },
+      { "id": "m05", "type": "flervalg", "text": "Hva heter skostørrelse på fransk?", "options": ["la taille", "la pointure", "la mesure", "le numéro"], "correct": 1, "explain": "«la taille» brukes om klesstørrelse." },
+      { "id": "m06", "type": "flervalg", "text": "Hva betyr «Elle te va bien !»?", "options": ["Den kler deg!", "Den er for liten!", "Den er dyr!", "Den er min!"], "correct": 0, "explain": "Du sier det når noen har på seg noe som passer dem." },
+      { "id": "m07", "type": "flervalg", "text": "Hvordan leser du prisen 29,99 €?", "options": ["vingt-neuf virgule neuf neuf", "deux neuf neuf neuf euros", "vingt-neuf euros quatre-vingt-dix-neuf", "trente euros"], "correct": 2, "explain": "Først eurobeløpet, så centene." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
