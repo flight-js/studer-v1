@@ -145,6 +145,38 @@ export type Database = {
           },
         ]
       }
+      profiles: {
+        Row: {
+          abonnement: string
+          id: string
+          navn: string | null
+          opprettet: string
+          trinn: string | null
+        }
+        Insert: {
+          abonnement?: string
+          id: string
+          navn?: string | null
+          opprettet?: string
+          trinn?: string | null
+        }
+        Update: {
+          abonnement?: string
+          id?: string
+          navn?: string | null
+          opprettet?: string
+          trinn?: string | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: "profiles_trinn_fkey"
+            columns: ["trinn"]
+            isOneToOne: false
+            referencedRelation: "trinn"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
       quiz_sporsmal: {
         Row: {
           alternativer: string[]

@@ -59,12 +59,20 @@ export function Felt({
   );
 }
 
-export function Knapp({ laster, children }: { laster?: boolean; children: React.ReactNode }) {
+export function Knapp({
+  laster,
+  deaktivert,
+  children,
+}: {
+  laster?: boolean;
+  deaktivert?: boolean;
+  children: React.ReactNode;
+}) {
   return (
     <button
       type="submit"
-      disabled={laster}
-      className="mt-1 inline-flex items-center justify-center gap-2 bg-primary text-white px-5 py-3.5 rounded-xl text-base font-semibold hover:bg-primary-dark transition-[background-color,transform,opacity] duration-200 active:scale-[0.98] disabled:opacity-60 disabled:cursor-wait"
+      disabled={laster || deaktivert}
+      className={`mt-1 inline-flex items-center justify-center gap-2 bg-primary text-white px-5 py-3.5 rounded-xl text-base font-semibold hover:bg-primary-dark transition-[background-color,transform,opacity] duration-200 active:scale-[0.98] disabled:opacity-60 disabled:hover:bg-primary ${laster ? "cursor-wait" : "disabled:cursor-not-allowed"}`}
     >
       {children}
     </button>

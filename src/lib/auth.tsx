@@ -44,6 +44,10 @@ export function feilmelding(error: { code?: string; message: string }): string {
     case "user_already_exists":
     case "email_exists":
       return "Det finnes allerede en konto med denne e-posten. Prøv å logge inn.";
+    case "otp_expired":
+      return "Koden er feil eller utløpt. Sjekk sifrene, eller be om en ny kode.";
+    case "otp_disabled":
+      return "Innlogging med kode er ikke slått på.";
     case "weak_password":
       return "Passordet er for svakt. Bruk minst 8 tegn.";
     case "same_password":

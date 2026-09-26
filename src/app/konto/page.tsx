@@ -8,11 +8,22 @@ import { ArrowRight, LogOut } from "@/components/icons";
 import { KreverInnlogging, Laster } from "@/components/Tilstand";
 import { useAuth } from "@/lib/auth";
 import { supabase } from "@/lib/supabase";
+import { useHent } from "@/lib/useHent";
+
+const ABONNEMENT: Record<string, string> = {
+  gratis: "Gratis i testperioden",
+  maned: "Månedlig",
+  ar: "Årlig",
+};
 
 export default function KontoPage() {
   const router = useRouter();
   const { bruker, laster } = useAuth();
   const [loggerUt, setLoggerUt] = useState(false);
+  const profil = useHent(bruker ? `profil:${bruker.id}` : null, async () => {
+    const { data } = await supabase.from("profiles").select("navn, abonnement").maybeSingle();
+    return data;
+  });
 
   async function loggUt() {
     setLoggerUt(true);
@@ -46,7 +57,10 @@ export default function KontoPage() {
                 year: "numeric",
               })}
             />
-            <Rad navn="Abonnement" verdi="Gratis i testperioden" />
+            <Rad
+              navn="Abonnement"
+              verdi={profil.data ? (ABONNEMENT[profil.data.abonnement] ?? profil.data.abonnement) : "…"}
+            />
           </dl>
 
           <div className="flex flex-wrap gap-3">

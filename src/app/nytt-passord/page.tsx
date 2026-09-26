@@ -8,8 +8,8 @@ import { Laster } from "@/components/Tilstand";
 import { feilmelding, useAuth } from "@/lib/auth";
 import { supabase } from "@/lib/supabase";
 
-// Hit kommer man fra lenken i «glemt passord»-e-posten. Lenken logger brukeren
-// inn, og her velger man et nytt passord.
+// Velg nytt passord. Hit kommer man fra kontosiden, eller etter å ha bekreftet
+// koden fra «glemt passord» (koden logger brukeren inn).
 export default function NyttPassordPage() {
   const router = useRouter();
   const { bruker, laster } = useAuth();
@@ -30,16 +30,16 @@ export default function NyttPassordPage() {
     else router.replace("/fag");
   }
 
-  if (laster) return <Laster tekst="Sjekker lenken" />;
+  if (laster) return <Laster tekst="Sjekker innloggingen" />;
 
   if (!bruker) {
     return (
       <AuthRamme
-        tittel="Lenken virker ikke"
-        undertittel="Lenken kan være brukt eller utløpt. Be om en ny, så prøver vi igjen."
+        tittel="Du er ikke logget inn"
+        undertittel="Har du glemt passordet, kan du få en kode på e-post og lage et nytt."
         bunn={
           <Link href="/glemt-passord" className="font-semibold text-primary hover:text-primary-dark">
-            Send ny lenke
+            Få en kode på e-post
           </Link>
         }
       />
