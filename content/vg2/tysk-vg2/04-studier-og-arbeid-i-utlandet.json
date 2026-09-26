@@ -1,0 +1,81 @@
+{
+  "id": "studier-og-arbeid-i-utlandet",
+  "fagId": "tysk-vg2",
+  "trinnId": "vg2",
+  "name": "Studier og arbeid i tysktalende land",
+  "intro": "Muligheter for å studere, jobbe og være frivillig i tysktalende land – Erasmus+, au pair og frivillig år – hvordan du skriver en formell søknad og forbereder deg til intervju, og hvordan du uttrykker hypotetiske situasjoner i fortid med konjunktiv II.",
+  "kompetansemaal": [2, 3, 5],
+  "sammendrag": "## Muligheter\n\n- **Utveksling på videregående**: Mange skoler har utvekslingsavtaler med skoler i Tyskland og Østerrike.\n- **Erasmus+**: EUs program for utveksling i utdanning. Norge deltar, og studenter kan ta et semester eller år i et annet europeisk land.\n- **Studier i Tyskland**: Tyskland har mange universiteter med høy kvalitet, og ved offentlige universiteter er studieavgiftene ofte **lave**.\n- **Au pair**: bo hos en familie, passe barn og lære språket.\n- **Freiwilliges Soziales Jahr (FSJ)**: et frivillig sosialt år, for eksempel i en barnehage eller på et sykehjem.\n- **Sommerjobb** i turisme, for eksempel i Alpene.\n\n## Nyttige ord\n\n*das Auslandsjahr* (utenlandsåret), *das Semester*, *die Universität / die Uni*, *das Studium*, *die Gastfamilie* (vertsfamilien), *die Erfahrung* (erfaringen), *die Sprachkenntnisse* (språkkunnskapene), *der Lebenslauf* (CV-en), *das Vorstellungsgespräch* (jobbintervjuet).\n\n## Formell søknad\n\n*Sehr geehrte Frau Müller,*\n\n*mit großem Interesse habe ich Ihre Anzeige gelesen. Ich bewerbe mich um eine Stelle als Au-pair, weil ich Kinder mag und meine Deutschkenntnisse verbessern möchte. Ich habe Erfahrung als Babysitterin und spreche Norwegisch, Englisch und Deutsch.*\n\n*Über eine Einladung zu einem Gespräch würde ich mich sehr freuen.*\n\n*Mit freundlichen Grüßen*\n\nNyttige formuleringer: *Ich bewerbe mich um …* (jeg søker på …), *Ich habe Erfahrung mit …* (jeg har erfaring med …), *Meine Stärken sind …* (mine sterke sider er …).\n\n## Intervju\n\n- *Erzählen Sie etwas über sich.* – Fortell litt om deg selv.\n- *Warum interessieren Sie sich für diese Stelle?*\n- *Was sind Ihre Stärken und Schwächen?*\n\n## Konjunktiv II i fortid\n\nFor å snakke om noe som **kunne ha skjedd**, men ikke skjedde, bruker vi **hätte** eller **wäre** + **partisipp**:\n\n- *Wenn ich mehr gelernt **hätte**, **hätte** ich die Prüfung **bestanden**.* – Hvis jeg hadde lest mer, ville jeg ha bestått eksamen.\n- *Ich **wäre** gern nach Berlin **gefahren**.* – Jeg skulle gjerne ha reist til Berlin.\n- *Das **hätte** ich nicht **gedacht**!* – Det hadde jeg ikke trodd!\n\n**wäre** brukes med verb som tar **sein** i perfektum (bevegelse og forandring), **hätte** med de andre.\n\n## Å reflektere\n\n*Ein Auslandsjahr hätte viele Vorteile: Man lernt die Sprache, wird selbstständiger und lernt eine neue Kultur kennen.*",
+  "flashcards": [
+    { "term": "das Auslandsjahr", "def": "utenlandsåret" },
+    { "term": "Erasmus+", "def": "EUs utvekslingsprogram i utdanning" },
+    { "term": "das Studium", "def": "studiene" },
+    { "term": "die Gastfamilie", "def": "vertsfamilien" },
+    { "term": "das Freiwillige Soziale Jahr (FSJ)", "def": "et frivillig sosialt år" },
+    { "term": "die Sprachkenntnisse", "def": "språkkunnskapene" },
+    { "term": "die Erfahrung", "def": "erfaringen" },
+    { "term": "Ich bewerbe mich um …", "def": "Jeg søker på …" },
+    { "term": "Meine Stärken sind …", "def": "Mine sterke sider er …" },
+    { "term": "Sehr geehrte Frau Müller,", "def": "formell hilsen med navn" },
+    { "term": "hätte … gemacht", "def": "ville ha gjort (konjunktiv II i fortid)" },
+    { "term": "wäre … gefahren", "def": "ville ha reist (konjunktiv II i fortid)" },
+    { "term": "Das hätte ich nicht gedacht!", "def": "Det hadde jeg ikke trodd!" },
+    { "term": "selbstständig", "def": "selvstendig" },
+    { "term": "Über eine Einladung würde ich mich freuen.", "def": "Jeg ville blitt glad for en invitasjon (til intervju)." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er Erasmus+?", "options": ["En tysk bilmerke", "EUs utvekslingsprogram i utdanning", "En tysk skole", "En type visum"], "correct": 1, "explain": "Norge deltar i programmet." },
+    { "id": "q02", "text": "Hvordan sier du «Jeg søker på en stilling som au pair»?", "options": ["Ich bewerbe mich um eine Stelle als Au-pair.", "Ich suche mich eine Au-pair.", "Ich bin eine Au-pair Stelle.", "Ich will Au-pair bewerben mich."], "correct": 0, "explain": "sich bewerben um = søke på." },
+    { "id": "q03", "text": "Velg riktig: «Wenn ich mehr gelernt ___, hätte ich bestanden.»", "options": ["habe", "hatte", "hätte", "wäre"], "correct": 2, "explain": "Konjunktiv II i fortid." },
+    { "id": "q04", "text": "Hvordan sier du «Jeg skulle gjerne ha reist til Berlin»?", "options": ["Ich hätte gern nach Berlin gefahren.", "Ich bin gern nach Berlin gefahren.", "Ich würde nach Berlin fahren.", "Ich wäre gern nach Berlin gefahren."], "correct": 3, "explain": "fahren tar sein → wäre." },
+    { "id": "q05", "text": "Hva betyr «die Gastfamilie»?", "options": ["vertsfamilien", "gjestehuset", "slekten", "naboene"], "correct": 0, "explain": "Au pairer og utvekslingselever bor ofte i en Gastfamilie." },
+    { "id": "q06", "text": "Hva er FSJ?", "options": ["En universitetsgrad", "Et frivillig sosialt år", "En eksamen", "En type jobbkontrakt"], "correct": 1, "explain": "Freiwilliges Soziales Jahr." },
+    { "id": "q07", "text": "Hva betyr «Das hätte ich nicht gedacht!»?", "options": ["Det tenker jeg ikke!", "Det har jeg tenkt!", "Det hadde jeg ikke trodd!", "Det skal jeg tenke på!"], "correct": 2, "explain": "Uttrykk for overraskelse." },
+    { "id": "q08", "text": "Når bruker man «wäre» i stedet for «hätte» i konjunktiv II i fortid?", "options": ["Med alle modalverb", "Med verb i passiv", "Med alle sterke verb", "Med verb som tar «sein» i perfektum"], "correct": 3, "explain": "For eksempel fahren, gehen, kommen." },
+    { "id": "q09", "text": "Hva betyr «Meine Stärken sind …»?", "options": ["Mine sterke sider er …", "Mine svakheter er …", "Mine venner er …", "Mine drømmer er …"], "correct": 0, "explain": "Nyttig i søknader og intervjuer." },
+    { "id": "q10", "text": "Hvordan avslutter du en formell søknad på tysk?", "options": ["Tschüss!", "Mit freundlichen Grüßen", "Liebe Grüße", "Bis bald!"], "correct": 1, "explain": "De andre er uformelle." }
+  ],
+  "mindmap": {
+    "label": "Studier og arbeid i utlandet",
+    "children": [
+      { "label": "Muligheter", "children": [
+        { "label": "Utveksling" },
+        { "label": "Erasmus+" },
+        { "label": "Au pair" },
+        { "label": "FSJ" }
+      ] },
+      { "label": "Ord", "children": [
+        { "label": "Auslandsjahr" },
+        { "label": "Gastfamilie" },
+        { "label": "Sprachkenntnisse" }
+      ] },
+      { "label": "Søknad", "children": [
+        { "label": "Sehr geehrte …" },
+        { "label": "Ich bewerbe mich um …" },
+        { "label": "Mit freundlichen Grüßen" }
+      ] },
+      { "label": "Intervju", "children": [
+        { "label": "Erzählen Sie …" },
+        { "label": "Stärken und Schwächen" }
+      ] },
+      { "label": "Konjunktiv II fortid", "children": [
+        { "label": "hätte + partisipp" },
+        { "label": "wäre + partisipp" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Norge deltar i Erasmus+.", "correct": true, "explain": "Norske studenter kan reise på utveksling gjennom programmet." },
+      { "id": "m02", "type": "sant-usant", "text": "«Liebe Grüße» er en formell avslutning i en jobbsøknad.", "correct": false, "explain": "Det er uformelt – bruk Mit freundlichen Grüßen." },
+      { "id": "m03", "type": "sant-usant", "text": "«selbstständig» betyr selvstendig.", "correct": true, "explain": "Et utenlandsopphold kan gjøre deg mer selbstständig." },
+      { "id": "m04", "type": "sant-usant", "text": "«Ich hätte gern nach Berlin gefahren» er riktig.", "correct": false, "explain": "fahren tar sein: Ich wäre gern nach Berlin gefahren." },
+      { "id": "m05", "type": "flervalg", "text": "Hva betyr «die Sprachkenntnisse»?", "options": ["språkkunnskapene", "språkkursene", "språklærerne", "språkfeilene"], "correct": 0, "explain": "Gute Deutschkenntnisse = gode tyskkunnskaper." },
+      { "id": "m06", "type": "flervalg", "text": "Hva betyr «Erzählen Sie etwas über sich»?", "options": ["Hva heter du?", "Fortell litt om deg selv.", "Hvor kommer du fra?", "Hvorfor søker du?"], "correct": 1, "explain": "Et vanlig intervjuspørsmål." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er en fordel med et utenlandsår, formulert på tysk?", "options": ["Man vergisst die Sprache.", "Man bleibt zu Hause.", "Man wird selbstständiger.", "Man hat keine Freunde."], "correct": 2, "explain": "Man blir mer selvstendig." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

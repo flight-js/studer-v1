@@ -1,0 +1,82 @@
+{
+  "id": "litteratur",
+  "fagId": "tysk-vg2",
+  "trinnId": "vg2",
+  "name": "Å lese tysk litteratur",
+  "intro": "Hvordan du leser og tolker autentiske tyske tekster – kjennetegn ved Kurzgeschichte, Wolfgang Borcherts «Das Brot», Bertolt Brecht og episk teater – nyttige analyseord på tysk og strategier for å lese vanskelige tekster.",
+  "kompetansemaal": [4, 9],
+  "sammendrag": "## Kurzgeschichte\n\n**Kurzgeschichte** er den tyske betegnelsen på **novellen** – og sjangeren ble særlig viktig etter **andre verdenskrig**. Kjennetegn:\n\n- **kort** tekst med **få personer**\n- **åpen begynnelse** – vi kastes rett inn i handlingen\n- en **hverdagssituasjon** og **vanlige mennesker**\n- et **vendepunkt** (*Wendepunkt*)\n- **åpen slutt** – leseren må tolke selv\n- **enkelt språk**, ofte med mange **gjentakelser**\n\n## Wolfgang Borchert: «Das Brot» (1946)\n\nI Borcherts korte tekst våkner en kvinne **midt på natten** og finner mannen sin på kjøkkenet. Det er **etterkrigstid**, og det er **lite mat**. Hun ser **brødsmuler** på bordet og forstår at han har spist av brødet i hemmelighet. Mannen **lyver** og sier at han hørte noe. Kona **later som** hun tror ham – for å skåne ham. Neste kveld gir hun ham **en av sine egne brødskiver**.\n\nNovellen handler om **fattigdom**, **skam**, **løgn** og **kjærlighet**. De små handlingene sier mer enn ordene – et typisk trekk ved sjangeren.\n\n## Bertolt Brecht og det episke teateret\n\n**Bertolt Brecht** (1898–1956) ville at teateret skulle få publikum til å **tenke kritisk** i stedet for bare å leve seg inn i handlingen. Han brukte **Verfremdungseffekt** (fremmedgjøringseffekt): Skuespillerne kunne snakke **direkte til publikum**, det ble brukt **skilt**, **sanger** og **brudd** i handlingen. Kjente stykker er **Mutter Courage und ihre Kinder** og **Die Dreigroschenoper**.\n\n## Analyseord på tysk\n\n- *die Hauptfigur* – hovedpersonen\n- *der Erzähler / die Erzählerin* – fortelleren\n- *die Handlung* – handlingen\n- *das Thema* – temaet\n- *die Stimmung* – stemningen\n- *der Wendepunkt* – vendepunktet\n- *das offene Ende* – den åpne slutten\n- *In der Geschichte geht es um …* – Fortellingen handler om …\n- *Die Hauptfigur fühlt sich …* – Hovedpersonen føler seg …\n\n## Lesestrategier\n\n- Les **tittelen** og tenk over hva teksten kan handle om.\n- **Skumles** først for å få med hovedinnholdet.\n- Del opp **sammensatte ord**: *Brot + schneide + maschine* = brødskjæremaskin.\n- **Gjett** ord ut fra **sammenhengen**, og slå bare opp de viktigste.\n- Legg merke til **gjentakelser** og **symboler** – i «Das Brot» er brødet et symbol.\n- Skriv ned **spørsmål** du vil diskutere.\n\n## Egne opplevelser\n\n*Die Geschichte hat mich berührt, weil …* – Fortellingen rørte meg fordi …\n*Ich verstehe die Frau gut, denn …*",
+  "flashcards": [
+    { "term": "die Kurzgeschichte", "def": "novellen – kort fortelling" },
+    { "term": "der Wendepunkt", "def": "vendepunktet" },
+    { "term": "das offene Ende", "def": "den åpne slutten" },
+    { "term": "Wolfgang Borchert", "def": "Forfatter av Kurzgeschichte-klassikeren «Das Brot» (1946)" },
+    { "term": "Das Brot", "def": "Novelle om et ektepar, fattigdom og en skånsom løgn i etterkrigstiden" },
+    { "term": "Bertolt Brecht", "def": "Dramatiker som skapte det episke teateret" },
+    { "term": "der Verfremdungseffekt", "def": "fremmedgjøringseffekten – får publikum til å tenke kritisk" },
+    { "term": "Mutter Courage und ihre Kinder", "def": "Kjent skuespill av Brecht" },
+    { "term": "die Hauptfigur", "def": "hovedpersonen" },
+    { "term": "der Erzähler", "def": "fortelleren" },
+    { "term": "die Handlung", "def": "handlingen" },
+    { "term": "die Stimmung", "def": "stemningen" },
+    { "term": "In der Geschichte geht es um …", "def": "Fortellingen handler om …" },
+    { "term": "Die Geschichte hat mich berührt.", "def": "Fortellingen rørte meg." },
+    { "term": "Sammensatte ord", "def": "Del dem opp: Brotschneidemaschine = brød + skjære + maskin" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva kjennetegner en Kurzgeschichte?", "options": ["Lang tekst med mange personer", "Kort tekst, åpen begynnelse og slutt og et vendepunkt", "Rimet dikt", "Historisk roman"], "correct": 1, "explain": "Sjangeren ble viktig etter andre verdenskrig." },
+    { "id": "q02", "text": "Hva gjør kona i «Das Brot» neste kveld?", "options": ["Hun gir mannen en av sine egne brødskiver", "Hun kaster mannen ut", "Hun forteller naboene alt", "Hun kjøper mer brød"], "correct": 0, "explain": "Handlingen viser kjærlighet og omsorg." },
+    { "id": "q03", "text": "Hva ville Brecht oppnå med fremmedgjøringseffekten?", "options": ["At publikum skulle gråte", "At publikum skulle sovne", "At publikum skulle tenke kritisk", "At skuespillerne skulle gjemme seg"], "correct": 2, "explain": "Publikum skulle ikke bare leve seg inn i handlingen." },
+    { "id": "q04", "text": "Hva betyr «der Wendepunkt»?", "options": ["begynnelsen", "slutten", "fortelleren", "vendepunktet"], "correct": 3, "explain": "Et typisk trekk ved Kurzgeschichte." },
+    { "id": "q05", "text": "Når ble «Das Brot» skrevet?", "options": ["1946", "1914", "1989", "1812"], "correct": 0, "explain": "Etterkrigstiden var preget av matmangel." },
+    { "id": "q06", "text": "Hvordan sier du «Fortellingen handler om fattigdom»?", "options": ["Die Geschichte ist Armut.", "In der Geschichte geht es um Armut.", "Die Geschichte macht Armut.", "Armut handelt die Geschichte."], "correct": 1, "explain": "es geht um = det handler om." },
+    { "id": "q07", "text": "Hva er en god lesestrategi for vanskelige tekster?", "options": ["Slå opp hvert eneste ord", "Hoppe over tittelen", "Skumlese først og gjette ord ut fra sammenhengen", "Lese baklengs"], "correct": 2, "explain": "Slå bare opp de viktigste ordene." },
+    { "id": "q08", "text": "Hva er symbolet i «Das Brot»?", "options": ["Kjøkkenet", "Natten", "Klokka", "Brødet"], "correct": 3, "explain": "Brødet står for knapphet og omsorg." },
+    { "id": "q09", "text": "Hva betyr «die Stimmung»?", "options": ["stemningen", "stemmen", "stillheten", "stedet"], "correct": 0, "explain": "Die Stimmung ist traurig." },
+    { "id": "q10", "text": "Hvilket stykke er skrevet av Brecht?", "options": ["Faust", "Mutter Courage und ihre Kinder", "Das Brot", "Die Verwandlung"], "correct": 1, "explain": "Faust er av Goethe, Die Verwandlung av Kafka." }
+  ],
+  "mindmap": {
+    "label": "Tysk litteratur",
+    "children": [
+      { "label": "Kurzgeschichte", "children": [
+        { "label": "Åpen begynnelse og slutt" },
+        { "label": "Vendepunkt" },
+        { "label": "Hverdag" }
+      ] },
+      { "label": "Das Brot", "children": [
+        { "label": "Borchert 1946" },
+        { "label": "Løgn og omsorg" },
+        { "label": "Brødet som symbol" }
+      ] },
+      { "label": "Brecht", "children": [
+        { "label": "Episk teater" },
+        { "label": "Verfremdungseffekt" },
+        { "label": "Mutter Courage" }
+      ] },
+      { "label": "Analyseord", "children": [
+        { "label": "Hauptfigur" },
+        { "label": "Erzähler" },
+        { "label": "Stimmung" }
+      ] },
+      { "label": "Strategier", "children": [
+        { "label": "Skumlese" },
+        { "label": "Dele ord" },
+        { "label": "Gjette i kontekst" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Mannen i «Das Brot» lyver om hvorfor han er på kjøkkenet.", "correct": true, "explain": "Han sier at han hørte noe." },
+      { "id": "m02", "type": "sant-usant", "text": "Kurzgeschichten har vanligvis mange personer og lange beskrivelser.", "correct": false, "explain": "De er korte med få personer." },
+      { "id": "m03", "type": "sant-usant", "text": "Skuespillerne i Brechts teater kunne snakke direkte til publikum.", "correct": true, "explain": "Det skapte fremmedgjøring." },
+      { "id": "m04", "type": "sant-usant", "text": "Man bør alltid slå opp alle ukjente ord før man leser videre.", "correct": false, "explain": "Det gjør lesingen treg – gjett ut fra sammenhengen." },
+      { "id": "m05", "type": "flervalg", "text": "Hva betyr «die Hauptfigur»?", "options": ["bipersonen", "hovedpersonen", "forfatteren", "fortelleren"], "correct": 1, "explain": "Haupt = hoved." },
+      { "id": "m06", "type": "flervalg", "text": "Hva betyr «Die Geschichte hat mich berührt»?", "options": ["Fortellingen rørte meg.", "Fortellingen kjedet meg.", "Fortellingen var lang.", "Fortellingen var morsom."], "correct": 0, "explain": "berühren = røre." },
+      { "id": "m07", "type": "flervalg", "text": "Hva betyr «das offene Ende»?", "options": ["den lykkelige slutten", "det åpne vinduet", "den åpne slutten", "den åpne døra"], "correct": 2, "explain": "Leseren må tolke hva som skjer videre." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

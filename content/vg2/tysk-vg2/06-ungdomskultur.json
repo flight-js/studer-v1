@@ -1,0 +1,82 @@
+{
+  "id": "ungdomskultur",
+  "fagId": "tysk-vg2",
+  "trinnId": "vg2",
+  "name": "Ungdomskultur, fritid og språklæring",
+  "intro": "Ungdomskultur i tysktalende land – musikk, festivaler, fotball, foreninger og ungdomsspråk – adjektivbøying på tysk, og strategier og digitale ressurser som hjelper deg å lære språket videre.",
+  "kompetansemaal": [1, 2, 7],
+  "sammendrag": "## Fritid og ungdomskultur\n\n- **Fotball** er den største sporten, og **Bundesliga** er en av verdens sterkeste ligaer.\n- **Vereine** (foreninger) er en viktig del av tysk kultur – det finnes idrettslag, musikkforeninger og mye mer.\n- **Festivaler** som **Rock am Ring** samler mange unge hver sommer.\n- Tysk **rap** og **pop** er svært populært, og mange artister synger på tysk.\n- **Ungdomsspråk** (*Jugendsprache*) endrer seg raskt og låner mye fra **engelsk**. Hvert år kåres et **«ungdomsord»** (*Jugendwort des Jahres*).\n\n## Adjektivbøying\n\nPå tysk får adjektiver **endelser** når de står **foran et substantiv**. Endelsen avhenger av **artikkelen**, **kjønn** og **kasus**.\n\n**Etter bestemt artikkel** (der, die, das) er endelsen stort sett **-e** eller **-en**:\n\n| | Hankjønn | Hunkjønn | Intetkjønn | Flertall |\n| --- | --- | --- | --- | --- |\n| Nominativ | der gut**e** Film | die gut**e** Idee | das gut**e** Buch | die gut**en** Filme |\n| Akkusativ | den gut**en** Film | die gut**e** Idee | das gut**e** Buch | die gut**en** Filme |\n| Dativ | dem gut**en** Film | der gut**en** Idee | dem gut**en** Buch | den gut**en** Filmen |\n\n**Etter ubestemt artikkel** viser adjektivet kjønnet i nominativ: *ein gut**er** Film*, *eine gut**e** Idee*, *ein gut**es** Buch*. I akkusativ hankjønn: *einen gut**en** Film*.\n\n**Uten artikkel**: *gut**er** Kaffee*, *gut**e** Musik*, *gut**es** Wetter*.\n\nNår adjektivet står **etter** verbet, får det **ingen** endelse: *Der Film ist **gut**.*\n\n## Strategier for språklæring\n\n- **Lytt** til tysk musikk og podkaster, og se serier med **tysk teksting**.\n- Bruk **ordlister** og **flashcards** – repeter litt hver dag.\n- Finn en **tandempartner** – en tysktalende som vil lære norsk.\n- **Les** enkle nyheter på tysk, for eksempel fra **Deutsche Welle**.\n- Bruk **ordbøker** og **oversettelsesverktøy** kritisk – sjekk alltid resultatet.\n- Bruk det du kan fra **engelsk** og **norsk**: Mange ord ligner – *Haus*, *Buch*, *trinken*.\n- **Tørr å snakke**, selv om du gjør feil.\n\n## Å fortelle om fritiden\n\n*In meiner Freizeit spiele ich Handball und treffe meine Freunde.*\n*Am Wochenende gehe ich gern auf Konzerte.*\n*Ich bin Mitglied in einem Sportverein.* – Jeg er medlem i et idrettslag.",
+  "flashcards": [
+    { "term": "der Verein", "def": "foreningen, laget" },
+    { "term": "die Bundesliga", "def": "den øverste fotballigaen i Tyskland" },
+    { "term": "die Jugendsprache", "def": "ungdomsspråket" },
+    { "term": "das Jugendwort des Jahres", "def": "årets ungdomsord" },
+    { "term": "der gute Film", "def": "den gode filmen (nominativ)" },
+    { "term": "den guten Film", "def": "den gode filmen (akkusativ)" },
+    { "term": "dem guten Film", "def": "den gode filmen (dativ)" },
+    { "term": "ein guter Film", "def": "en god film (nominativ)" },
+    { "term": "eine gute Idee", "def": "en god idé" },
+    { "term": "ein gutes Buch", "def": "en god bok" },
+    { "term": "guter Kaffee", "def": "god kaffe (uten artikkel)" },
+    { "term": "Der Film ist gut.", "def": "Adjektiv etter verbet – ingen endelse." },
+    { "term": "der Tandempartner", "def": "språkpartneren" },
+    { "term": "Ich bin Mitglied in …", "def": "Jeg er medlem i …" },
+    { "term": "in meiner Freizeit", "def": "på fritiden min" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er «ein Verein»?", "options": ["En venn", "En forening eller et lag", "En skole", "En festival"], "correct": 1, "explain": "Ich bin Mitglied in einem Sportverein." },
+    { "id": "q02", "text": "Velg riktig: «Das ist ein ___ Buch.»", "options": ["gutes", "guter", "gute", "guten"], "correct": 0, "explain": "Intetkjønn etter ein i nominativ: gutes." },
+    { "id": "q03", "text": "Velg riktig: «Ich sehe den ___ Film.»", "options": ["gute", "guter", "guten", "gutes"], "correct": 2, "explain": "Akkusativ hankjønn etter den: guten." },
+    { "id": "q04", "text": "Velg riktig: «Der Film ist ___.»", "options": ["guter", "gute", "guten", "gut"], "correct": 3, "explain": "Etter verbet får adjektivet ingen endelse." },
+    { "id": "q05", "text": "Hva er en tandempartner?", "options": ["En som vil lære ditt språk mens du lærer hans eller hennes", "En sykkelpartner", "En lærer", "En klassekamerat"], "correct": 0, "explain": "Dere hjelper hverandre." },
+    { "id": "q06", "text": "Velg riktig: «Ich trinke ___ Kaffee.»", "options": ["gute", "guten", "gut", "gutes"], "correct": 1, "explain": "Uten artikkel, akkusativ hankjønn: guten Kaffee." },
+    { "id": "q07", "text": "Hva er Bundesliga?", "options": ["Det tyske parlamentet", "En musikkfestival", "Den øverste fotballigaen i Tyskland", "En skoletype"], "correct": 2, "explain": "En av verdens sterkeste ligaer." },
+    { "id": "q08", "text": "Hvorfor bør du bruke oversettelsesverktøy kritisk?", "options": ["Fordi de er forbudt", "Fordi de alltid er feil", "Fordi de er dyre", "Fordi de kan gi feil, og du lærer mer ved å sjekke"], "correct": 3, "explain": "Sjekk alltid resultatet." },
+    { "id": "q09", "text": "Velg riktig: «Das ist eine ___ Idee.»", "options": ["gute", "guter", "gutes", "guten"], "correct": 0, "explain": "Hunkjønn etter eine: gute." },
+    { "id": "q10", "text": "Hva betyr «in meiner Freizeit»?", "options": ["i ferien min", "på fritiden min", "i helgen min", "på skolen min"], "correct": 1, "explain": "die Freizeit = fritiden." }
+  ],
+  "mindmap": {
+    "label": "Ungdomskultur og språklæring",
+    "children": [
+      { "label": "Fritid", "children": [
+        { "label": "Fotball og Bundesliga" },
+        { "label": "Vereine" },
+        { "label": "Festivaler" }
+      ] },
+      { "label": "Ungdomsspråk", "children": [
+        { "label": "Jugendsprache" },
+        { "label": "Engelske lånord" },
+        { "label": "Jugendwort des Jahres" }
+      ] },
+      { "label": "Adjektivbøying", "children": [
+        { "label": "der gute / den guten" },
+        { "label": "ein guter / eine gute / ein gutes" },
+        { "label": "guter Kaffee" },
+        { "label": "ist gut" }
+      ] },
+      { "label": "Strategier", "children": [
+        { "label": "Teksting og podkaster" },
+        { "label": "Tandem" },
+        { "label": "Flashcards" }
+      ] },
+      { "label": "Snakke om seg selv", "children": [
+        { "label": "in meiner Freizeit" },
+        { "label": "Mitglied in …" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Tysk ungdomsspråk låner mye fra engelsk.", "correct": true, "explain": "Som norsk ungdomsspråk." },
+      { "id": "m02", "type": "sant-usant", "text": "Etter bestemt artikkel i dativ får adjektivet endelsen -e.", "correct": false, "explain": "I dativ er endelsen -en: dem guten Film." },
+      { "id": "m03", "type": "sant-usant", "text": "Å repetere litt hver dag er en god strategi for å lære ord.", "correct": true, "explain": "Jevnlig repetisjon gir bedre hukommelse." },
+      { "id": "m04", "type": "sant-usant", "text": "Adjektiver etter verbet «sein» får alltid endelse på tysk.", "correct": false, "explain": "Der Film ist gut – ingen endelse." },
+      { "id": "m05", "type": "flervalg", "text": "Velg riktig: «Ich höre ___ Musik.» (god, uten artikkel)", "options": ["guter", "gute", "gutes", "guten"], "correct": 1, "explain": "Hunkjønn uten artikkel i akkusativ: gute." },
+      { "id": "m06", "type": "flervalg", "text": "Hva betyr «Ich bin Mitglied in einem Sportverein»?", "options": ["Jeg er medlem i et idrettslag.", "Jeg trener alene.", "Jeg ser på sport.", "Jeg er trener."], "correct": 0, "explain": "Mitglied = medlem." },
+      { "id": "m07", "type": "flervalg", "text": "Velg riktig: «mit dem ___ Freund»", "options": ["gute", "guter", "guten", "gutes"], "correct": 2, "explain": "mit tar dativ: dem guten Freund." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

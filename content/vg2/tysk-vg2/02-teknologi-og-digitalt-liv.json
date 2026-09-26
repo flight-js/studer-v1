@@ -1,0 +1,81 @@
+{
+  "id": "teknologi-og-digitalt-liv",
+  "fagId": "tysk-vg2",
+  "trinnId": "vg2",
+  "name": "Teknologi og digitalt liv",
+  "intro": "Hvordan du snakker om sosiale medier, skjermtid, kunstig intelligens og personvern på tysk, forstår tydelig tale om aktuelle saker, og bruker infinitiv med zu, um … zu og ohne … zu.",
+  "kompetansemaal": [1, 2, 6],
+  "sammendrag": "## Ord om digitalt liv\n\n- *die sozialen Medien* – sosiale medier\n- *das Handy / das Smartphone* – mobilen\n- *die Bildschirmzeit* – skjermtiden\n- *posten, liken, teilen* – poste, like, dele\n- *die künstliche Intelligenz (KI)* – kunstig intelligens\n- *der Datenschutz* – personvernet\n- *die Falschmeldung / Fake News* – falske nyheter\n- *süchtig* – avhengig\n\nI Tyskland heter personvernforordningen **DSGVO** (*Datenschutz-Grundverordnung*) – det samme som GDPR.\n\n## Infinitiv med zu\n\nMange uttrykk følges av **zu + infinitiv** til slutt:\n\n- *Es ist wichtig, kritisch **zu sein**.* – Det er viktig å være kritisk.\n- *Ich habe keine Lust, heute **zu lernen**.* – Jeg har ikke lyst til å lese i dag.\n- *Ich versuche, weniger Zeit am Handy **zu verbringen**.* – Jeg prøver å bruke mindre tid på mobilen.\n\nVed verb med **trennbart prefiks** står *zu* **inni** verbet: *an**zu**rufen*, *aus**zu**schalten*.\n\n## um … zu, ohne … zu og statt … zu\n\n- **um … zu** – for å: *Ich benutze das Handy, **um** mit Freunden **zu** chatten.*\n- **ohne … zu** – uten å: *Er teilt Nachrichten, **ohne** sie **zu** lesen.*\n- **statt … zu** – i stedet for å: *Statt zu lernen, spielt sie Computerspiele.*\n\n## Fordeler og ulemper\n\n**Vorteile** (fordeler):\n- *Man kann schnell Informationen finden.*\n- *Man bleibt mit Freunden in Kontakt.*\n- *KI kann beim Lernen helfen.*\n\n**Nachteile** (ulemper):\n- *Viele verbringen zu viel Zeit vor dem Bildschirm.*\n- *Es gibt viele Falschmeldungen.*\n- *Unsere Daten werden gesammelt.*\n\n## Lytte til tysk\n\nNår du lytter til **nyheter** eller **podkaster** på tysk:\n\n- Les **overskriften** eller beskrivelsen først.\n- Lytt etter **nøkkelord** og **tall**.\n- Ikke stopp ved hvert ukjent ord – prøv å få med **hovedinnholdet**.\n- Bruk **tysk teksting** på serier og videoer.\n- Nyhetssendingen **logo!** fra ZDF og **Deutsche Welle** har nyheter tilpasset unge og språkelever.\n\n## Å presentere et tema\n\n*In meiner Präsentation geht es um …* – Presentasjonen min handler om …\n*Zuerst möchte ich …, danach …* – Først vil jeg …, deretter …\n*Abschließend …* – Til slutt …",
+  "flashcards": [
+    { "term": "die sozialen Medien", "def": "sosiale medier" },
+    { "term": "die Bildschirmzeit", "def": "skjermtiden" },
+    { "term": "teilen", "def": "dele" },
+    { "term": "die künstliche Intelligenz (KI)", "def": "kunstig intelligens" },
+    { "term": "der Datenschutz", "def": "personvernet" },
+    { "term": "die Falschmeldung", "def": "den falske nyheten" },
+    { "term": "süchtig", "def": "avhengig" },
+    { "term": "Es ist wichtig, kritisch zu sein.", "def": "Det er viktig å være kritisk." },
+    { "term": "um … zu", "def": "for å" },
+    { "term": "ohne … zu", "def": "uten å" },
+    { "term": "statt … zu", "def": "i stedet for å" },
+    { "term": "anzurufen", "def": "å ringe (zu inni verb med prefiks)" },
+    { "term": "der Vorteil / der Nachteil", "def": "fordelen / ulempen" },
+    { "term": "In meiner Präsentation geht es um …", "def": "Presentasjonen min handler om …" },
+    { "term": "Abschließend …", "def": "Til slutt …" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva betyr «der Datenschutz»?", "options": ["databasen", "personvernet", "datamaskinen", "dataspillet"], "correct": 1, "explain": "Tysklands personvernforordning heter DSGVO." },
+    { "id": "q02", "text": "Hvordan sier du «Jeg bruker mobilen for å chatte med venner»?", "options": ["Ich benutze das Handy, um mit Freunden zu chatten.", "Ich benutze das Handy, für mit Freunden chatten.", "Ich benutze das Handy, dass ich chatte.", "Ich benutze das Handy zu um chatten."], "correct": 0, "explain": "um … zu = for å." },
+    { "id": "q03", "text": "Hvor står «zu» i «anrufen»?", "options": ["zu anrufen", "anrufen zu", "anzurufen", "zuanrufen"], "correct": 2, "explain": "Ved trennbare verb står zu mellom prefiks og verb." },
+    { "id": "q04", "text": "Hva betyr «ohne … zu»?", "options": ["for å", "i stedet for å", "etter å", "uten å"], "correct": 3, "explain": "Er teilt Nachrichten, ohne sie zu lesen." },
+    { "id": "q05", "text": "Hva er en god lyttestrategi?", "options": ["Lytte etter nøkkelord og hovedinnhold", "Stoppe ved hvert ukjent ord", "Aldri bruke teksting", "Bare lytte én gang"], "correct": 0, "explain": "Hovedinnholdet er viktigst." },
+    { "id": "q06", "text": "Hva betyr «Ich habe keine Lust, heute zu lernen»?", "options": ["Jeg har lært i dag.", "Jeg har ikke lyst til å lese i dag.", "Jeg har lyst til å lese i dag.", "Jeg må lese i dag."], "correct": 1, "explain": "Lust haben = ha lyst." },
+    { "id": "q07", "text": "Hva betyr «süchtig»?", "options": ["syk", "sulten", "avhengig", "sint"], "correct": 2, "explain": "Handysüchtig = mobilavhengig." },
+    { "id": "q08", "text": "Hva betyr «statt zu lernen»?", "options": ["for å lære", "uten å lære", "etter å ha lært", "i stedet for å lære"], "correct": 3, "explain": "statt … zu = i stedet for å." },
+    { "id": "q09", "text": "Hva betyr «der Nachteil»?", "options": ["ulempen", "fordelen", "natten", "nyheten"], "correct": 0, "explain": "der Vorteil = fordelen." },
+    { "id": "q10", "text": "Hvordan innleder du en presentasjon om sosiale medier?", "options": ["Abschließend soziale Medien.", "In meiner Präsentation geht es um soziale Medien.", "Ich bin soziale Medien.", "Soziale Medien geht es."], "correct": 1, "explain": "es geht um = det handler om." }
+  ],
+  "mindmap": {
+    "label": "Teknologi og digitalt liv",
+    "children": [
+      { "label": "Ord", "children": [
+        { "label": "soziale Medien" },
+        { "label": "Bildschirmzeit" },
+        { "label": "KI" },
+        { "label": "Datenschutz" }
+      ] },
+      { "label": "zu + infinitiv", "children": [
+        { "label": "Es ist wichtig, … zu" },
+        { "label": "anzurufen" }
+      ] },
+      { "label": "Konstruksjoner", "children": [
+        { "label": "um … zu" },
+        { "label": "ohne … zu" },
+        { "label": "statt … zu" }
+      ] },
+      { "label": "Drøfting", "children": [
+        { "label": "Vorteile" },
+        { "label": "Nachteile" }
+      ] },
+      { "label": "Lytting og presentasjon", "children": [
+        { "label": "Nøkkelord" },
+        { "label": "Teksting" },
+        { "label": "In meiner Präsentation …" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "DSGVO er den tyske betegnelsen på GDPR.", "correct": true, "explain": "Datenschutz-Grundverordnung." },
+      { "id": "m02", "type": "sant-usant", "text": "I «um … zu»-setninger står infinitiven først.", "correct": false, "explain": "zu + infinitiv står til slutt." },
+      { "id": "m03", "type": "sant-usant", "text": "«teilen» betyr å dele.", "correct": true, "explain": "Ich teile ein Video." },
+      { "id": "m04", "type": "sant-usant", "text": "Man bør stoppe opp ved hvert ukjent ord når man lytter til tyske nyheter.", "correct": false, "explain": "Prøv heller å få med hovedinnholdet." },
+      { "id": "m05", "type": "flervalg", "text": "Hva betyr «Es ist wichtig, kritisch zu sein»?", "options": ["Det er viktig å være kritisk.", "Det er kritisk å være viktig.", "Han er kritisk og viktig.", "Det var viktig å være kritisk."], "correct": 0, "explain": "zu + infinitiv etter Es ist wichtig." },
+      { "id": "m06", "type": "flervalg", "text": "Hvordan sier du «Han deler nyheter uten å lese dem»?", "options": ["Er teilt Nachrichten, um sie zu lesen.", "Er teilt Nachrichten, ohne sie zu lesen.", "Er teilt Nachrichten, statt sie lesen.", "Er teilt ohne Nachrichten lesen."], "correct": 1, "explain": "ohne … zu." },
+      { "id": "m07", "type": "flervalg", "text": "Hva betyr «die Falschmeldung»?", "options": ["feilmeldingen på PC", "den falske nyheten", "telefonsamtalen", "kommentaren"], "correct": 1, "explain": "Også kalt Fake News." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
