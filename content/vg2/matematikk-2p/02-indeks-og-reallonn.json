@@ -1,0 +1,81 @@
+{
+  "id": "indeks-og-reallonn",
+  "fagId": "matematikk-2p",
+  "trinnId": "vg2",
+  "name": "Prisindeks, kroneverdi og reallønn",
+  "intro": "Hva konsumprisindeksen er, hvordan du regner med indekstall, kroneverdi og reallønn, forskjellen på nominell lønn og reallønn, og sammenhengen mellom brutto- og nettoinntekt.",
+  "kompetansemaal": [2],
+  "sammendrag": "## Prisindeks\n\nEn **indeks** viser hvordan noe **endrer seg** i forhold til et **basisår**, som settes til **100**. **Konsumprisindeksen (KPI)** fra **SSB** måler hvordan prisene på varer og tjenester som husholdningene kjøper, endrer seg. Når prisene stiger, kaller vi det **inflasjon**.\n\nOm KPI er **125** et år, betyr det at prisene i gjennomsnitt er **25 % høyere** enn i basisåret.\n\n## Regne med indekstall\n\nForholdet mellom prisene er det samme som forholdet mellom indeksene:\n\n**pris₂ / pris₁ = indeks₂ / indeks₁**\n\nEn vare kostet 200 kr da KPI var 100. Hva koster den når KPI er 125, hvis den fulgte prisutviklingen?\n\n200 · 125/100 = **250 kr**\n\n## Kroneverdi\n\n**Kroneverdien** viser hvor mye en krone er verdt sammenlignet med basisåret:\n\n**Kroneverdi = 100 / KPI**\n\nNår KPI er 125, er kroneverdien 100/125 = **0,80**. En krone kan altså kjøpe det som 80 øre kunne kjøpe i basisåret.\n\n## Nominell lønn og reallønn\n\n- **Nominell lønn** er det beløpet du faktisk får.\n- **Reallønn** er lønnen justert for **prisstigningen** – den viser hva lønnen faktisk er **verdt**.\n\n**Reallønn = nominell lønn · 100 / KPI** (målt i basisårets kroner)\n\nEn lønn på 500 000 kr når KPI er 125, tilsvarer en reallønn på 500 000 · 100/125 = **400 000 kr** i basisårets kroner.\n\nFor å sammenligne lønn fra **to år** regner vi om til samme kroneverdi. Øker lønnen med **4 %** mens prisene øker med **3 %**, øker **reallønnen** med omtrent **1 %** (1,04/1,03 ≈ 1,0097). Stiger prisene **mer** enn lønnen, får du **lavere** reallønn – selv om du får mer penger.\n\n## Brutto- og nettoinntekt\n\n- **Bruttoinntekt** er inntekten **før skatt**.\n- **Nettoinntekt** er det du sitter igjen med **etter skatt** og andre trekk.\n\nI Norge betaler vi blant annet **trygdeavgift**, **inntektsskatt** og **trinnskatt**, der høyere inntekt gir høyere skattesats. Arbeidsgiveren trekker skatt av lønnen hver måned etter **skattekortet**, enten med **tabelltrekk** eller **prosenttrekk**. Unge med lav inntekt kan få **frikort**.\n\nEksempel: Bruttolønn 40 000 kr, prosenttrekk 30 % → skattetrekk 12 000 kr → utbetalt **28 000 kr**.\n\n## Hvorfor er dette viktig?\n\nIndekstall brukes i **lønnsforhandlinger**, i **husleiekontrakter** (husleie kan justeres etter KPI) og når vi sammenligner priser over tid. Uten å justere for prisstigning kan tall fra ulike år gi et **misvisende** bilde.",
+  "flashcards": [
+    { "term": "Indeks", "def": "Tall som viser endring i forhold til et basisår satt til 100." },
+    { "term": "Basisår", "def": "Året indeksen sammenlignes med, med verdi 100." },
+    { "term": "KPI", "def": "Konsumprisindeksen – måler prisutviklingen for husholdningene." },
+    { "term": "Inflasjon", "def": "At prisene stiger." },
+    { "term": "pris₂ / pris₁ = indeks₂ / indeks₁", "def": "Forholdet mellom prisene er likt forholdet mellom indeksene." },
+    { "term": "Kroneverdi", "def": "100 / KPI" },
+    { "term": "Kroneverdi 0,80", "def": "En krone kjøper det som 80 øre kjøpte i basisåret." },
+    { "term": "Nominell lønn", "def": "Beløpet du faktisk får utbetalt i kroner." },
+    { "term": "Reallønn", "def": "Lønn justert for prisstigning." },
+    { "term": "Reallønn i basisårets kroner", "def": "nominell lønn · 100 / KPI" },
+    { "term": "Reallønnsvekst", "def": "Når lønnen stiger mer enn prisene." },
+    { "term": "Bruttoinntekt", "def": "Inntekt før skatt." },
+    { "term": "Nettoinntekt", "def": "Inntekt etter skatt og andre trekk." },
+    { "term": "Trinnskatt", "def": "Skatt som øker med høyere inntekt." },
+    { "term": "Prosenttrekk", "def": "Fast prosent av lønnen trekkes i skatt." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva betyr det at KPI er 125?", "options": ["Prisene er 125 % lavere enn i basisåret", "Prisene er i gjennomsnitt 25 % høyere enn i basisåret", "Lønnen er 125 kr", "Kroneverdien er 125"], "correct": 1, "explain": "Basisåret har indeks 100." },
+    { "id": "q02", "text": "En vare kostet 200 kr da KPI var 100. Hva koster den når KPI er 125?", "options": ["250 kr", "225 kr", "160 kr", "325 kr"], "correct": 0, "explain": "200 · 125/100 = 250." },
+    { "id": "q03", "text": "Hva er kroneverdien når KPI er 125?", "options": ["1,25", "0,25", "0,80", "125"], "correct": 2, "explain": "100/125 = 0,80." },
+    { "id": "q04", "text": "Hva er reallønn?", "options": ["Lønn før skatt", "Lønn etter skatt", "Lønn per time", "Lønn justert for prisstigning"], "correct": 3, "explain": "Reallønnen viser hva lønnen faktisk er verdt." },
+    { "id": "q05", "text": "Lønn 500 000 kr, KPI 125. Hva er reallønnen i basisårets kroner?", "options": ["400 000 kr", "625 000 kr", "500 000 kr", "375 000 kr"], "correct": 0, "explain": "500 000 · 100/125 = 400 000." },
+    { "id": "q06", "text": "Lønnen øker med 4 %, prisene med 3 %. Omtrent hvor mye øker reallønnen?", "options": ["7 %", "1 %", "4 %", "3 %"], "correct": 1, "explain": "1,04/1,03 ≈ 1,0097." },
+    { "id": "q07", "text": "Hva er nettoinntekt?", "options": ["Inntekt før skatt", "Inntekt fra nettbutikk", "Inntekt etter skatt og andre trekk", "Inntekt i utlandet"], "correct": 2, "explain": "Bruttoinntekt er før skatt." },
+    { "id": "q08", "text": "Hva skjer med reallønnen hvis prisene stiger mer enn lønnen?", "options": ["Den øker", "Den er uendret", "Den dobles", "Den synker"], "correct": 3, "explain": "Du kan kjøpe mindre for pengene." },
+    { "id": "q09", "text": "Hvem lager konsumprisindeksen i Norge?", "options": ["SSB", "Norges Bank", "Skatteetaten", "NAV"], "correct": 0, "explain": "Statistisk sentralbyrå." },
+    { "id": "q10", "text": "Bruttolønn 40 000 kr med 30 % prosenttrekk. Hva blir utbetalt?", "options": ["12 000 kr", "28 000 kr", "30 000 kr", "39 700 kr"], "correct": 1, "explain": "Trekket er 12 000 kr." }
+  ],
+  "mindmap": {
+    "label": "Indeks og reallønn",
+    "children": [
+      { "label": "Indeks", "children": [
+        { "label": "Basisår = 100" },
+        { "label": "KPI" },
+        { "label": "Inflasjon" }
+      ] },
+      { "label": "Regning", "children": [
+        { "label": "pris₂/pris₁ = indeks₂/indeks₁" },
+        { "label": "Kroneverdi = 100/KPI" }
+      ] },
+      { "label": "Lønn", "children": [
+        { "label": "Nominell lønn" },
+        { "label": "Reallønn" },
+        { "label": "Reallønnsvekst" }
+      ] },
+      { "label": "Skatt", "children": [
+        { "label": "Brutto og netto" },
+        { "label": "Trinnskatt" },
+        { "label": "Tabell- og prosenttrekk" }
+      ] },
+      { "label": "Bruk", "children": [
+        { "label": "Lønnsforhandlinger" },
+        { "label": "Husleie" },
+        { "label": "Sammenligne over tid" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Husleie kan justeres etter konsumprisindeksen.", "correct": true, "explain": "Det er vanlig i husleiekontrakter." },
+      { "id": "m02", "type": "sant-usant", "text": "Høyere nominell lønn betyr alltid høyere reallønn.", "correct": false, "explain": "Ikke hvis prisene stiger mer enn lønnen." },
+      { "id": "m03", "type": "sant-usant", "text": "Kroneverdien synker når KPI stiger.", "correct": true, "explain": "Kroneverdi = 100/KPI." },
+      { "id": "m04", "type": "sant-usant", "text": "Bruttoinntekt er inntekten etter skatt.", "correct": false, "explain": "Bruttoinntekt er før skatt." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er kroneverdien når KPI er 80?", "options": ["0,80", "1,25", "80", "0,20"], "correct": 1, "explain": "100/80 = 1,25." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er inflasjon?", "options": ["At prisene stiger", "At lønnen stiger", "At skatten stiger", "At renten synker"], "correct": 0, "explain": "KPI brukes til å måle inflasjonen." },
+      { "id": "m07", "type": "flervalg", "text": "En vare kostet 300 kr da KPI var 120. Hva koster den når KPI er 132, hvis den fulgte prisutviklingen?", "options": ["312 kr", "320 kr", "330 kr", "360 kr"], "correct": 2, "explain": "300 · 132/120 = 330." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

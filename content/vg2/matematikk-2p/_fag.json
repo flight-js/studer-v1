@@ -1,0 +1,48 @@
+{
+  "id": "matematikk-2p",
+  "trinnId": "vg2",
+  "name": "Matematikk 2P",
+  "lareplan": {
+    "kode": "MAT05-04",
+    "url": "https://www.udir.no/lk20/mat05-04/kompetansemaal-og-vurdering/kv46",
+    "kompetansemaal": [
+      {
+        "nr": 1,
+        "tekst": "forklare og bruke prosent, prosentpoeng og vekstfaktor til modellering av praktiske situasjonar med digitale verktøy"
+      },
+      {
+        "nr": 2,
+        "tekst": "utforske og forklare samanhengar mellom prisindeks, kroneverdi, reallønn, nominell lønn og brutto- og nettoinntekt"
+      },
+      {
+        "nr": 3,
+        "tekst": "utforske strategiar for å løyse likningar, likningssystem og ulikskapar og argumentere for tenkjemåtane sine"
+      },
+      {
+        "nr": 4,
+        "tekst": "vurdere val knytte til personleg økonomi og reflektere over konsekvensar av å ta opp lån og å bruke kredittkort"
+      },
+      {
+        "nr": 5,
+        "tekst": "analysere og presentere funn i datasett frå lokalsamfunn og media"
+      },
+      {
+        "nr": 6,
+        "tekst": "bruke og vurdere val av formålstenlege sentralmål og spreiingsmål for statistisk datamateriale"
+      },
+      {
+        "nr": 7,
+        "tekst": "utforske og forklare korleis formlikskap, målestokk og eigenskapar ved geometriske figurar kan brukast i berekningar og i praktisk arbeid"
+      }
+    ]
+  },
+  "temaer": [
+    "prosent-vekstfaktor-og-regneark",
+    "indeks-og-reallonn",
+    "lan-og-kreditt",
+    "likninger-og-ulikheter",
+    "sentralmal-og-spredningsmal",
+    "statistikk-analyse-og-presentasjon",
+    "formlikhet-og-malestokk"
+  ]
+}

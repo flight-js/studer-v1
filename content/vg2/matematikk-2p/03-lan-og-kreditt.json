@@ -1,0 +1,82 @@
+{
+  "id": "lan-og-kreditt",
+  "fagId": "matematikk-2p",
+  "trinnId": "vg2",
+  "name": "Personlig økonomi, lån og kredittkort",
+  "intro": "Budsjett og sparing, serielån og annuitetslån, effektiv rente, kredittkort og forbrukslån – og hvordan du vurderer valg og konsekvenser når du tar opp lån.",
+  "kompetansemaal": [4],
+  "sammendrag": "## Budsjett og sparing\n\nEt **budsjett** gir oversikt over **inntekter** og **utgifter**. Et godt budsjett har plass til **sparing** og en **buffer** for uforutsette utgifter. Sparing med **renters rente** gir mye over tid – og å ha egne penger gjør det mulig å unngå dyre lån.\n\n## Lån\n\nNår du låner, betaler du **renter** til banken og **avdrag** på selve lånet. **Terminbeløpet** er renter + avdrag.\n\n**Serielån**: Avdraget er **likt** hver gang. Rentene blir mindre etter hvert som lånet blir mindre, så terminbeløpet **synker**.\n\nEksempel: Du låner 120 000 kr over 4 år med 5 % rente og ett avdrag i året.\n\n| År | Restgjeld før | Renter | Avdrag | Terminbeløp |\n| --- | --- | --- | --- | --- |\n| 1 | 120 000 | 6 000 | 30 000 | 36 000 |\n| 2 | 90 000 | 4 500 | 30 000 | 34 500 |\n| 3 | 60 000 | 3 000 | 30 000 | 33 000 |\n| 4 | 30 000 | 1 500 | 30 000 | 31 500 |\n\nTil sammen betaler du **15 000 kr** i renter.\n\n**Annuitetslån**: **Terminbeløpet er likt** hver gang. I starten er det meste **renter**, og etter hvert blir det mer **avdrag**. Annuitetslån gir **lavere** terminbeløp i starten, men du betaler **mer i renter totalt** enn med serielån. De fleste **boliglån** er annuitetslån. Terminbeløpet kan regnes ut i **regneark** med funksjonen **AVDRAG**.\n\n## Effektiv rente\n\n**Nominell rente** er den oppgitte renten. **Effektiv rente** tar med **gebyrer** og hvor ofte renten legges til, og viser den **faktiske kostnaden**. Bruk alltid effektiv rente når du **sammenligner** lån.\n\n## Kredittkort og forbrukslån\n\n- Et **kredittkort** lar deg handle nå og betale senere. Ofte er det en **rentefri periode**, men betaler du ikke hele regningen innen fristen, påløper **svært høy rente**.\n- **Forbrukslån** er lån **uten sikkerhet** og har også **høy rente**.\n- **«Kjøp nå, betal senere»** kan gjøre det lett å bruke mer enn man har råd til.\n\nFordi rentene er så høye, kan gjelden **vokse raskt**. Uten betaling kan det bli **purring**, **inkasso** og **betalingsanmerkning**. **Gjeldsregisteret** viser bankene hvor mye usikret gjeld du har.\n\n## Vurdere valg\n\nFør du tar opp lån, spør:\n\n- **Trenger** jeg dette nå, eller kan jeg **spare** først?\n- Hva er **effektiv rente** og **total kostnad**?\n- Tåler budsjettet mitt at **renten stiger**?\n- Hva skjer hvis jeg mister **inntekten**?\n\n**Boliglån** og **studielån** har lav rente og regnes ofte som «fornuftig» gjeld, mens **forbruksgjeld** til ting som raskt mister verdi, kan bli en **tung byrde**.",
+  "flashcards": [
+    { "term": "Budsjett", "def": "Oversikt over inntekter og utgifter." },
+    { "term": "Buffer", "def": "Penger satt av til uforutsette utgifter." },
+    { "term": "Renter", "def": "Det du betaler banken for å låne penger." },
+    { "term": "Avdrag", "def": "Nedbetaling av selve lånebeløpet." },
+    { "term": "Terminbeløp", "def": "Renter + avdrag i en periode." },
+    { "term": "Serielån", "def": "Likt avdrag hver gang; terminbeløpet synker." },
+    { "term": "Annuitetslån", "def": "Likt terminbeløp hver gang." },
+    { "term": "Annuitetslån vs. serielån", "def": "Annuitet gir lavere termin i starten, men mer renter totalt." },
+    { "term": "Funksjonen AVDRAG i regneark", "def": "Regner ut terminbeløpet på et annuitetslån." },
+    { "term": "Nominell rente", "def": "Den oppgitte renten." },
+    { "term": "Effektiv rente", "def": "Renten inkludert gebyrer – den faktiske kostnaden." },
+    { "term": "Rentefri periode", "def": "Tid på kredittkort der det ikke påløper renter." },
+    { "term": "Forbrukslån", "def": "Lån uten sikkerhet med høy rente." },
+    { "term": "Betalingsanmerkning", "def": "Registrering av ubetalt gjeld som gjør det vanskelig å få lån." },
+    { "term": "Gjeldsregisteret", "def": "Register over usikret gjeld." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er terminbeløpet på et lån?", "options": ["Bare rentene", "Renter + avdrag", "Bare avdraget", "Hele lånet"], "correct": 1, "explain": "Terminbeløpet betales hver periode." },
+    { "id": "q02", "text": "Hva kjennetegner et serielån?", "options": ["Likt avdrag hver gang, og terminbeløpet synker", "Likt terminbeløp hver gang", "Ingen renter", "Betales på én gang"], "correct": 0, "explain": "Rentene blir mindre etter hvert." },
+    { "id": "q03", "text": "Du låner 120 000 kr med 5 % rente. Hva er rentene det første året?", "options": ["600 kr", "12 000 kr", "6 000 kr", "5 000 kr"], "correct": 2, "explain": "0,05 · 120 000 = 6 000." },
+    { "id": "q04", "text": "Hvilken lånetype gir mest renter totalt, gitt samme rente og løpetid?", "options": ["Serielån", "De gir like mye", "Det avhenger av banken", "Annuitetslån"], "correct": 3, "explain": "Restgjelden synker saktere i starten." },
+    { "id": "q05", "text": "Hvilken rente bør du bruke når du sammenligner lån?", "options": ["Effektiv rente", "Nominell rente", "Den laveste renten i reklamen", "Styringsrenten"], "correct": 0, "explain": "Effektiv rente tar med gebyrer." },
+    { "id": "q06", "text": "Hva skjer hvis du ikke betaler hele kredittkortregningen innen fristen?", "options": ["Ingenting", "Det påløper høy rente", "Gjelden forsvinner", "Du får rabatt"], "correct": 1, "explain": "Kredittkort har svært høy rente." },
+    { "id": "q07", "text": "Hva er et forbrukslån?", "options": ["Et boliglån", "Et studielån", "Et lån uten sikkerhet med høy rente", "Et lån fra familien"], "correct": 2, "explain": "Forbruksgjeld kan vokse raskt." },
+    { "id": "q08", "text": "Hvilket spørsmål bør du stille før du tar opp lån?", "options": ["Hvor fin er reklamen?", "Hva har vennene mine?", "Hvor rask er søknaden?", "Tåler budsjettet mitt at renten stiger?"], "correct": 3, "explain": "Renten kan endre seg." },
+    { "id": "q09", "text": "Hvilken regnearkfunksjon regner ut terminbeløpet på et annuitetslån?", "options": ["AVDRAG", "SUMMER", "GJENNOMSNITT", "MEDIAN"], "correct": 0, "explain": "AVDRAG tar rente, antall terminer og lånebeløp." },
+    { "id": "q10", "text": "Serielån på 120 000 kr over 4 år med 5 % rente og årlig avdrag. Hvor mye betales i renter totalt?", "options": ["6 000 kr", "15 000 kr", "24 000 kr", "30 000 kr"], "correct": 1, "explain": "6 000 + 4 500 + 3 000 + 1 500 = 15 000." }
+  ],
+  "mindmap": {
+    "label": "Lån og kreditt",
+    "children": [
+      { "label": "Økonomi", "children": [
+        { "label": "Budsjett" },
+        { "label": "Sparing" },
+        { "label": "Buffer" }
+      ] },
+      { "label": "Lånetyper", "children": [
+        { "label": "Serielån" },
+        { "label": "Annuitetslån" },
+        { "label": "Terminbeløp" }
+      ] },
+      { "label": "Rente", "children": [
+        { "label": "Nominell" },
+        { "label": "Effektiv" },
+        { "label": "AVDRAG i regneark" }
+      ] },
+      { "label": "Kreditt", "children": [
+        { "label": "Kredittkort" },
+        { "label": "Forbrukslån" },
+        { "label": "Kjøp nå, betal senere" }
+      ] },
+      { "label": "Konsekvenser", "children": [
+        { "label": "Inkasso" },
+        { "label": "Betalingsanmerkning" },
+        { "label": "Gjeldsregisteret" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "De fleste boliglån er annuitetslån.", "correct": true, "explain": "Likt terminbeløp gjør det lettere å planlegge." },
+      { "id": "m02", "type": "sant-usant", "text": "På et annuitetslån er det meste av terminbeløpet avdrag i starten.", "correct": false, "explain": "I starten er det meste renter." },
+      { "id": "m03", "type": "sant-usant", "text": "Gjeldsregisteret viser bankene hvor mye usikret gjeld du har.", "correct": true, "explain": "Det skal hindre at folk får for mye gjeld." },
+      { "id": "m04", "type": "sant-usant", "text": "Forbrukslån har vanligvis lavere rente enn boliglån.", "correct": false, "explain": "Forbrukslån har mye høyere rente." },
+      { "id": "m05", "type": "flervalg", "text": "I et serielån på 120 000 kr over 4 år – hvor stort er hvert årlige avdrag?", "options": ["30 000 kr", "36 000 kr", "24 000 kr", "40 000 kr"], "correct": 0, "explain": "120 000 / 4 = 30 000." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er effektiv rente?", "options": ["Renten før gebyrer", "Renten inkludert gebyrer – den faktiske kostnaden", "Renten på sparekonto", "Den laveste renten"], "correct": 1, "explain": "Bruk den til å sammenligne lån." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilken gjeld regnes ofte som mest fornuftig?", "options": ["Kredittkortgjeld", "Forbrukslån til ferie", "Boliglån og studielån med lav rente", "Kjøp nå, betal senere"], "correct": 2, "explain": "De har lav rente og gir varige verdier." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

@@ -1,0 +1,82 @@
+{
+  "id": "prosent-vekstfaktor-og-regneark",
+  "fagId": "matematikk-2p",
+  "trinnId": "vg2",
+  "name": "Prosent, vekstfaktor og modellering i regneark",
+  "intro": "Repetisjon av prosent, prosentpoeng og vekstfaktor, og hvordan du modellerer praktiske situasjoner som sparing, verdifall og befolkningsvekst i regneark med formler, cellereferanser og grafer.",
+  "kompetansemaal": [1],
+  "sammendrag": "## Repetisjon: vekstfaktor\n\n- Økning på p %: vekstfaktor **1 + p/100**. 6 % økning → 1,06.\n- Nedgang på p %: vekstfaktor **1 − p/100**. 20 % nedgang → 0,80.\n- **Ny verdi = gammel verdi · vekstfaktor**\n- Etter n perioder: **K · aⁿ**\n\nHusk forskjellen på **prosent** og **prosentpoeng**: Går renten fra 4 % til 5 %, har den økt med **1 prosentpoeng**, men med **25 %**.\n\n## Hvorfor regneark?\n\nEt **regneark** gjør det enkelt å regne ut **mange perioder** og å **endre forutsetningene**. Endrer du renten i én celle, oppdateres hele modellen.\n\n## Byggesteiner i regneark\n\n- **Celler** har adresser som **A1** og **B3**.\n- En **formel** starter med **=**: *=B2*1,05*\n- **Relativ referanse** (*B2*) endrer seg når du kopierer formelen nedover.\n- **Absolutt referanse** (*$E$1*) står fast når du kopierer – nyttig for en rente eller vekstfaktor som ligger i én celle.\n- **Kopier nedover** med fyllhåndtaket for å regne ut mange år.\n- Lag **diagram** av kolonnene for å vise utviklingen.\n\n## Eksempel: sparing\n\nDu setter inn 20 000 kr med 4 % rente per år.\n\n| | A | B |\n| --- | --- | --- |\n| 1 | År | Beløp |\n| 2 | 0 | 20000 |\n| 3 | =A2+1 | =B2*$E$1 |\n\nI **E1** står vekstfaktoren **1,04**. Kopierer du rad 3 nedover, får du beløpet for hvert år. Etter 10 år er beløpet 20 000 · 1,04¹⁰ ≈ **29 605 kr**.\n\n## Eksempel: sparing hver måned\n\nSparer du **fast beløp** hver periode, legger du til innskuddet: *=B2*$E$1+$E$2*, der E2 er det faste innskuddet. Slik ser du hvor mye **renters rente** og **jevn sparing** betyr over tid.\n\n## Eksempel: verdifall\n\nEn elsykkel til 30 000 kr taper 15 % av verdien hvert år. Vekstfaktor 0,85. Etter 4 år: 30 000 · 0,85⁴ ≈ **15 660 kr**.\n\n## Modellering med vekstfaktor\n\nMange praktiske situasjoner kan modelleres med **vekstfaktor**: **befolkningsvekst**, **priser**, **renter**, **verdifall** og **smittespredning**. Når du lager en modell, bør du\n\n1. **Forklare premissene** – for eksempel at renten er fast.\n2. **Lage modellen** i regneark eller som funksjon, for eksempel f(x) = 20 000 · 1,04ˣ.\n3. **Tolke resultatet** – hva betyr tallene i praksis?\n4. **Vurdere gyldigheten** – vil renten virkelig være den samme i 30 år?",
+  "flashcards": [
+    { "term": "Vekstfaktor ved økning", "def": "1 + p/100" },
+    { "term": "Vekstfaktor ved nedgang", "def": "1 − p/100" },
+    { "term": "K · aⁿ", "def": "Verdien etter n perioder med vekstfaktor a." },
+    { "term": "Prosentpoeng", "def": "Differansen mellom to prosenttall." },
+    { "term": "Regneark", "def": "Program for beregninger i celler, rader og kolonner." },
+    { "term": "Celle", "def": "En rute i regnearket med adresse som A1." },
+    { "term": "Formel i regneark", "def": "Starter med =, for eksempel =B2*1,05." },
+    { "term": "Relativ referanse", "def": "Celleadresse som endrer seg når formelen kopieres." },
+    { "term": "Absolutt referanse", "def": "Celleadresse med $ som står fast, for eksempel $E$1." },
+    { "term": "Fyllhåndtaket", "def": "Brukes til å kopiere en formel nedover." },
+    { "term": "Renters rente", "def": "At rentene legges til beløpet og også gir rente." },
+    { "term": "Verdifall", "def": "At noe mister verdi over tid." },
+    { "term": "Premiss", "def": "Antakelse en modell bygger på." },
+    { "term": "Gyldighet", "def": "Hvor lenge og for hvilke verdier modellen gir mening." },
+    { "term": "20 000 · 1,04¹⁰", "def": "≈ 29 605 kr – sparing i 10 år med 4 % rente." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er vekstfaktoren for en økning på 6 %?", "options": ["0,06", "1,06", "1,6", "0,94"], "correct": 1, "explain": "1 + 6/100 = 1,06." },
+    { "id": "q02", "text": "Hva betyr $E$1 i en regnearksformel?", "options": ["En absolutt referanse som står fast når formelen kopieres", "En sum", "Et diagram", "En tekst"], "correct": 0, "explain": "Nyttig for renter og vekstfaktorer." },
+    { "id": "q03", "text": "Du setter inn 20 000 kr med 4 % rente. Omtrent hvor mye har du etter 10 år?", "options": ["28 000 kr", "24 000 kr", "29 605 kr", "80 000 kr"], "correct": 2, "explain": "20 000 · 1,04¹⁰ ≈ 29 605." },
+    { "id": "q04", "text": "Renten går fra 4 % til 5 %. Hvor mange prosent har renten økt?", "options": ["1 %", "5 %", "4 %", "25 %"], "correct": 3, "explain": "Økningen er 1 prosentpoeng, som er 25 % av 4." },
+    { "id": "q05", "text": "Hva må en formel i regneark starte med?", "options": ["=", "$", "#", "+"], "correct": 0, "explain": "For eksempel =B2*1,04." },
+    { "id": "q06", "text": "En elsykkel til 30 000 kr taper 15 % i verdi hvert år. Hvilken vekstfaktor brukes?", "options": ["1,15", "0,85", "0,15", "15"], "correct": 1, "explain": "1 − 15/100 = 0,85." },
+    { "id": "q07", "text": "Hva skjer med en relativ referanse når du kopierer formelen én rad ned?", "options": ["Den står fast", "Den blir slettet", "Den endrer seg én rad ned", "Den blir absolutt"], "correct": 2, "explain": "B2 blir B3 osv." },
+    { "id": "q08", "text": "Hvorfor er regneark nyttig i modellering?", "options": ["Det gir alltid riktige svar", "Det erstatter matematikken", "Det kan ikke brukes til vekst", "Man kan regne mange perioder og enkelt endre forutsetningene"], "correct": 3, "explain": "Endrer du renten i én celle, oppdateres hele modellen." },
+    { "id": "q09", "text": "Hvilken formel gir beløpet neste år når vekstfaktoren står i E1?", "options": ["=B2*$E$1", "=B2+E1", "=$B$2*E1", "=B2/E1"], "correct": 0, "explain": "Absolutt referanse til vekstfaktoren." },
+    { "id": "q10", "text": "Hvorfor bør du vurdere gyldigheten til en rentemodell over 30 år?", "options": ["Fordi regnearket kan bli fullt", "Fordi renten sannsynligvis ikke er den samme i 30 år", "Fordi 30 er et partall", "Det trenger du ikke"], "correct": 1, "explain": "Premissene kan endre seg." }
+  ],
+  "mindmap": {
+    "label": "Prosent og regneark",
+    "children": [
+      { "label": "Vekstfaktor", "children": [
+        { "label": "1 + p/100" },
+        { "label": "1 − p/100" },
+        { "label": "K · aⁿ" }
+      ] },
+      { "label": "Regneark", "children": [
+        { "label": "Celler og formler" },
+        { "label": "Relativ referanse" },
+        { "label": "Absolutt referanse $" },
+        { "label": "Diagram" }
+      ] },
+      { "label": "Eksempler", "children": [
+        { "label": "Sparing" },
+        { "label": "Fast innskudd" },
+        { "label": "Verdifall" }
+      ] },
+      { "label": "Modellering", "children": [
+        { "label": "Premisser" },
+        { "label": "Tolkning" },
+        { "label": "Gyldighet" }
+      ] },
+      { "label": "Prosentpoeng", "children": [
+        { "label": "Differanse" },
+        { "label": "Ikke det samme som prosent" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Et regneark kan brukes til å vise hvordan sparing vokser over mange år.", "correct": true, "explain": "Kopier formelen nedover for hvert år." },
+      { "id": "m02", "type": "sant-usant", "text": "En absolutt referanse endrer seg når formelen kopieres.", "correct": false, "explain": "Den står fast – det er poenget med $." },
+      { "id": "m03", "type": "sant-usant", "text": "Vekstfaktoren for en nedgang på 20 % er 0,80.", "correct": true, "explain": "1 − 0,20 = 0,80." },
+      { "id": "m04", "type": "sant-usant", "text": "En økning fra 10 % til 15 % er en økning på 5 %.", "correct": false, "explain": "Det er 5 prosentpoeng, som er 50 % økning." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken formel legger til et fast innskudd i E2 hvert år?", "options": ["=B2*$E$1+$E$2", "=B2+$E$1", "=B2*E2", "=$E$1*$E$2"], "correct": 0, "explain": "Beløpet vokser med renten og får et nytt innskudd." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilken funksjon beskriver sparing av 20 000 kr med 4 % årlig rente?", "options": ["f(x) = 20 000 + 4x", "f(x) = 20 000 · 1,04ˣ", "f(x) = 20 000 · 0,04ˣ", "f(x) = 1,04 · x"], "correct": 1, "explain": "Eksponentiell vekst med vekstfaktor 1,04." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er en celle i et regneark?", "options": ["En hel kolonne", "Et diagram", "En rute med adresse som A1", "En formel"], "correct": 2, "explain": "Hver celle har en kolonnebokstav og et radnummer." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
