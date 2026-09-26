@@ -1,0 +1,358 @@
+{
+  "id": "identitet-og-relasjoner",
+  "fagId": "fransk-vg1",
+  "trinnId": "vg1",
+  "name": "Identitet, vennskap og følelser",
+  "intro": "Hvordan du beskriver personlighet, vennskap og følelser på fransk, med adjektiver som bøyes i kjønn, pronominale verb og objektspronomen (le, la, les, lui, leur).",
+  "kompetansemaal": [
+    2,
+    3,
+    6
+  ],
+  "sammendrag": "## Å beskrive personlighet\n\nFranske adjektiver **bøyes** etter kjønn og tall. Mange får **-e** i hunkjønn, men noen har egne mønstre:\n\n| Hankjønn | Hunkjønn | Betydning |\n| --- | --- | --- |\n| gentil | gentille | snill |\n| sérieux | sérieuse | seriøs |\n| curieux | curieuse | nysgjerrig |\n| sportif | sportive | sporty |\n| travailleur | travailleuse | arbeidsom |\n| timide | timide | sjenert |\n| drôle | drôle | morsom |\n\n*Ma meilleure amie est gentille et drôle, mais un peu timide.*\n\n## Pronominale verb\n\n**Pronominale verb** har et pronomen som viser tilbake til subjektet – ofte om følelser, relasjoner og daglige rutiner:\n\n| | s'entendre (komme overens) |\n| --- | --- |\n| je | **m'**entends |\n| tu | **t'**entends |\n| il/elle/on | **s'**entend |\n| nous | **nous** entendons |\n| vous | **vous** entendez |\n| ils/elles | **s'**entendent |\n\nAndre eksempler: *se disputer* (krangle), *s'amuser* (ha det gøy), *s'inquiéter* (bekymre seg), *se sentir* (føle seg), *s'intéresser à* (interessere seg for).\n\n*Je m'entends bien avec mon frère.* – Jeg kommer godt overens med broren min.\n*On se dispute parfois.* – Vi krangler av og til.\n\n## Objektspronomen\n\nFor å unngå gjentakelse erstatter vi objektet med et **pronomen** som står **foran verbet**:\n\n- **Direkte objekt** (COD): **le**, **la**, **les** – *Tu vois Marie ? Oui, je **la** vois.*\n- **Indirekte objekt** (COI), ofte etter verb med **à**: **lui** (ham/henne), **leur** (dem) – *Je parle à mes parents → Je **leur** parle.*\n\nNyttige verb med COI: *parler à*, *téléphoner à*, *écrire à*, *donner à*, *répondre à*.\n\n## Følelser\n\n- *Je suis content(e) / triste / fâché(e) / déçu(e) / stressé(e).*\n- *Ça va bien / mal.*\n- *J'en ai marre !* – Jeg er lei!\n- *Je me sens seul(e).* – Jeg føler meg ensom.\n\n## Vennskap og familie\n\n*un(e) ami(e)* (venn), *un copain / une copine* (kompis, også kjæreste), *le petit ami / la petite amie* (kjæresten), *les parents* (foreldrene), *les frères et sœurs* (søsknene). **On** brukes ofte i stedet for **nous** i muntlig språk: *On se voit demain ?*\n\n## Strategi\n\nNår du lærer adjektiver, lær **begge formene** med én gang (gentil – gentille). Øv på å snakke spontant i ett minutt om en person du kjenner godt.",
+  "flashcards": [
+    {
+      "term": "gentil / gentille",
+      "def": "snill"
+    },
+    {
+      "term": "sérieux / sérieuse",
+      "def": "seriøs"
+    },
+    {
+      "term": "curieux / curieuse",
+      "def": "nysgjerrig"
+    },
+    {
+      "term": "travailleur / travailleuse",
+      "def": "arbeidsom"
+    },
+    {
+      "term": "timide",
+      "def": "sjenert"
+    },
+    {
+      "term": "s'entendre bien avec",
+      "def": "komme godt overens med"
+    },
+    {
+      "term": "se disputer",
+      "def": "krangle"
+    },
+    {
+      "term": "s'amuser",
+      "def": "ha det gøy"
+    },
+    {
+      "term": "s'inquiéter",
+      "def": "bekymre seg"
+    },
+    {
+      "term": "je la vois",
+      "def": "jeg ser henne/den (direkte objekt)"
+    },
+    {
+      "term": "je leur parle",
+      "def": "jeg snakker med dem (indirekte objekt)"
+    },
+    {
+      "term": "déçu / déçue",
+      "def": "skuffet"
+    },
+    {
+      "term": "J'en ai marre !",
+      "def": "Jeg er lei!"
+    },
+    {
+      "term": "la petite amie",
+      "def": "kjæresten (jente)"
+    },
+    {
+      "term": "On se voit demain ?",
+      "def": "Ses vi i morgen?"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hva er hunkjønnsformen av «sérieux»?",
+      "options": [
+        "sérieuxe",
+        "sérieuse",
+        "sérieuxse",
+        "sérieus"
+      ],
+      "correct": 1,
+      "explain": "Adjektiver på -eux får -euse i hunkjønn."
+    },
+    {
+      "id": "q02",
+      "text": "Hva betyr «Je m'entends bien avec ma sœur»?",
+      "options": [
+        "Jeg kommer godt overens med søsteren min.",
+        "Jeg hører søsteren min godt.",
+        "Jeg venter på søsteren min.",
+        "Jeg krangler med søsteren min."
+      ],
+      "correct": 0,
+      "explain": "s'entendre avec = komme overens med."
+    },
+    {
+      "id": "q03",
+      "text": "Erstatt objektet: «Je parle à mes parents.»",
+      "options": [
+        "Je les parle.",
+        "Je lui parle.",
+        "Je leur parle.",
+        "Je parle leur."
+      ],
+      "correct": 2,
+      "explain": "parler à + flertall → leur, foran verbet."
+    },
+    {
+      "id": "q04",
+      "text": "Velg riktig: «Tu vois Marie ? Oui, je ___ vois.»",
+      "options": [
+        "lui",
+        "le",
+        "leur",
+        "la"
+      ],
+      "correct": 3,
+      "explain": "Marie er direkte objekt, hunkjønn: la."
+    },
+    {
+      "id": "q05",
+      "text": "Hva betyr «se disputer»?",
+      "options": [
+        "krangle",
+        "diskutere rolig",
+        "bestemme seg",
+        "ha det gøy"
+      ],
+      "correct": 0,
+      "explain": "On se dispute parfois."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er riktig form? «Nous ___ amusons bien.»",
+      "options": [
+        "se",
+        "nous",
+        "vous",
+        "s'"
+      ],
+      "correct": 1,
+      "explain": "nous → nous amusons."
+    },
+    {
+      "id": "q07",
+      "text": "Hva betyr «J'en ai marre !»?",
+      "options": [
+        "Jeg er sulten!",
+        "Jeg er glad!",
+        "Jeg er lei!",
+        "Jeg er trøtt!"
+      ],
+      "correct": 2,
+      "explain": "Et vanlig uformelt uttrykk."
+    },
+    {
+      "id": "q08",
+      "text": "Hvor står objektspronomenet i en fransk setning?",
+      "options": [
+        "Sist i setningen",
+        "Etter verbet",
+        "Først i setningen",
+        "Foran verbet"
+      ],
+      "correct": 3,
+      "explain": "Je la vois. Je leur parle."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er hunkjønnsformen av «sportif»?",
+      "options": [
+        "sportive",
+        "sportife",
+        "sportifs",
+        "sportiffe"
+      ],
+      "correct": 0,
+      "explain": "-if blir -ive."
+    },
+    {
+      "id": "q10",
+      "text": "Hva brukes «on» ofte som i muntlig fransk?",
+      "options": [
+        "man eller de",
+        "vi",
+        "dere",
+        "jeg"
+      ],
+      "correct": 1,
+      "explain": "On se voit demain ? = Ses vi i morgen?"
+    }
+  ],
+  "mindmap": {
+    "label": "Identitet og relasjoner",
+    "children": [
+      {
+        "label": "Adjektiver",
+        "children": [
+          {
+            "label": "gentil – gentille"
+          },
+          {
+            "label": "sérieux – sérieuse"
+          },
+          {
+            "label": "sportif – sportive"
+          }
+        ]
+      },
+      {
+        "label": "Pronominale verb",
+        "children": [
+          {
+            "label": "s'entendre"
+          },
+          {
+            "label": "se disputer"
+          },
+          {
+            "label": "s'amuser"
+          }
+        ]
+      },
+      {
+        "label": "Objektspronomen",
+        "children": [
+          {
+            "label": "le, la, les"
+          },
+          {
+            "label": "lui, leur"
+          },
+          {
+            "label": "Foran verbet"
+          }
+        ]
+      },
+      {
+        "label": "Følelser",
+        "children": [
+          {
+            "label": "content, triste"
+          },
+          {
+            "label": "déçu, stressé"
+          },
+          {
+            "label": "J'en ai marre"
+          }
+        ]
+      },
+      {
+        "label": "Relasjoner",
+        "children": [
+          {
+            "label": "ami, copain"
+          },
+          {
+            "label": "petit ami"
+          },
+          {
+            "label": "on = vi"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "«timide» har samme form i hankjønn og hunkjønn.",
+        "correct": true,
+        "explain": "Adjektiver som ender på -e i hankjønn, endres ikke."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "«lui» kan bare bety «ham».",
+        "correct": false,
+        "explain": "Som indirekte objekt betyr lui både ham og henne."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "«s'inquiéter» betyr å bekymre seg.",
+        "correct": true,
+        "explain": "Ne t'inquiète pas ! = Ikke bekymre deg!"
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "«copine» kan bare bety venninne, aldri kjæreste.",
+        "correct": false,
+        "explain": "Copine kan bety både venninne og kjæreste."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva betyr «Je me sens seule»?",
+        "options": [
+          "Jeg er alene hjemme.",
+          "Jeg føler meg ensom.",
+          "Jeg liker å være alene.",
+          "Jeg ser meg selv."
+        ],
+        "correct": 1,
+        "explain": "se sentir = føle seg."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Erstatt objektet: «Je donne le livre à Paul.» → «Je ___ donne le livre.»",
+        "options": [
+          "lui",
+          "le",
+          "leur",
+          "la"
+        ],
+        "correct": 0,
+        "explain": "à Paul → lui."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er hunkjønnsformen av «travailleur»?",
+        "options": [
+          "travailleure",
+          "travailleuresse",
+          "travailleuse",
+          "travailleurse"
+        ],
+        "correct": 2,
+        "explain": "-eur blir ofte -euse."
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
+}

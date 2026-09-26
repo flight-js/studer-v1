@@ -1,0 +1,82 @@
+{
+  "id": "historie",
+  "fagId": "fransk-vg1",
+  "trinnId": "vg1",
+  "name": "Fransk historie: revolusjon, imperium og Europa",
+  "intro": "Hovedlinjer i Frankrikes historie – revolusjonen i 1789, Napoleon, kolonimakten, verdenskrigene og okkupasjonen, og Frankrikes rolle i Europa – og hvordan du kjenner igjen passé simple og bruker datoer og passiv på fransk.",
+  "kompetansemaal": [8, 4],
+  "sammendrag": "## Den franske revolusjon\n\nFør **1789** var Frankrike et **eneveldig kongedømme**. Adelen og kirken hadde store privilegier, mens folket betalte skatt og led av høye matpriser. **14. juli 1789** stormet folket i Paris fengselet **la Bastille**, et symbol på kongens makt. Dagen er i dag Frankrikes **nasjonaldag**.\n\nSamme år vedtok nasjonalforsamlingen **Erklæringen om menneskets og borgerens rettigheter** (*la Déclaration des droits de l'homme et du citoyen*), som slo fast at alle mennesker **fødes frie og like i rettigheter**. Kong **Ludvig 16.** ble henrettet i **1793**. Revolusjonen fikk stor betydning for demokrati og menneskerettigheter i hele verden.\n\n## Napoleon\n\n**Napoleon Bonaparte** kronet seg selv til **keiser** i **1804** og erobret store deler av Europa. **Code civil** (Napoleons lovbok) har påvirket lovgivningen i mange land. Napoleon ble til slutt beseiret ved **Waterloo** i **1815**.\n\n## Kolonimakt\n\nPå 1800- og 1900-tallet bygde Frankrike et stort **kolonirike** i Afrika, Asia og Karibia. Etter andre verdenskrig ble koloniene selvstendige. **Algerie** ble selvstendig i **1962** etter en blodig krig. Kolonihistorien preger fortsatt forholdet mellom Frankrike og mange land – og er en viktig årsak til at fransk snakkes i Afrika.\n\n## Verdenskrigene\n\n- I **første verdenskrig** ble store deler av Nord-Frankrike slagmark. **Slaget ved Verdun** (1916) er et symbol på krigens redsler.\n- I **1940** ble Frankrike **okkupert** av Tyskland. Sør-Frankrike ble styrt av det tyskvennlige **Vichy-regimet**. **Motstandsbevegelsen** (*la Résistance*) kjempet mot okkupantene, og **Charles de Gaulle** ledet De frie franske styrkene fra London.\n- **6. juni 1944** gikk de allierte i land i **Normandie** (D-dagen), og Paris ble **frigjort** i **august 1944**.\n\n## Frankrike og Europa\n\nEtter krigen ble **forsoning** mellom Frankrike og Tyskland grunnlaget for europeisk samarbeid. Frankrike var med på å grunnlegge det som i dag er **EU**, gjennom **Roma-traktaten** i **1957**.\n\n## Språk: datoer, passé simple og passiv\n\n- Årstall: **en** 1789. Dato: **le** 14 juillet 1789.\n- I historiske tekster brukes ofte **passé simple** i stedet for passé composé. Du trenger bare å **kjenne det igjen**: *il **fut*** (han var), *il **eut*** (han hadde), *il **prit*** (han tok), *ils **firent*** (de gjorde), *il **devint*** (han ble).\n- **Passiv**: *être* + partisipp: *La Bastille **a été prise** le 14 juillet 1789.* – Bastillen ble tatt 14. juli 1789.",
+  "flashcards": [
+    { "term": "la Révolution française", "def": "Den franske revolusjon, 1789" },
+    { "term": "la prise de la Bastille", "def": "stormingen av Bastillen 14. juli 1789" },
+    { "term": "le 14 juillet", "def": "Frankrikes nasjonaldag" },
+    { "term": "la Déclaration des droits de l'homme", "def": "menneskerettighetserklæringen fra 1789" },
+    { "term": "Napoléon Bonaparte", "def": "keiser fra 1804, beseiret ved Waterloo i 1815" },
+    { "term": "le Code civil", "def": "Napoleons lovbok" },
+    { "term": "la colonisation", "def": "koloniseringen" },
+    { "term": "1962", "def": "Algerie ble selvstendig" },
+    { "term": "l'Occupation", "def": "den tyske okkupasjonen 1940–1944" },
+    { "term": "la Résistance", "def": "motstandsbevegelsen" },
+    { "term": "Charles de Gaulle", "def": "ledet De frie franske styrkene fra London" },
+    { "term": "le Débarquement", "def": "landgangen i Normandie 6. juni 1944" },
+    { "term": "en 1789", "def": "i 1789" },
+    { "term": "il fut / il eut", "def": "han var / han hadde (passé simple)" },
+    { "term": "a été prise", "def": "ble tatt (passiv)" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvilken dato stormet folket Bastillen?", "options": ["1. mai 1789", "14. juli 1789", "4. juli 1776", "11. november 1918"], "correct": 1, "explain": "Dagen er Frankrikes nasjonaldag." },
+    { "id": "q02", "text": "Hva slo menneskerettighetserklæringen fra 1789 fast?", "options": ["At alle mennesker fødes frie og like i rettigheter", "At kongen har all makt", "At kirken skal styre staten", "At Frankrike skal ha kolonier"], "correct": 0, "explain": "Erklæringen fikk stor betydning i hele verden." },
+    { "id": "q03", "text": "Når kronet Napoleon seg til keiser?", "options": ["1789", "1815", "1804", "1870"], "correct": 2, "explain": "Han ble beseiret ved Waterloo i 1815." },
+    { "id": "q04", "text": "Hva var la Résistance?", "options": ["Vichy-regimet", "Den franske hæren i 1914", "En politisk avis", "Motstandsbevegelsen under okkupasjonen"], "correct": 3, "explain": "Den kjempet mot de tyske okkupantene." },
+    { "id": "q05", "text": "Hvordan sier du «i 1789» på fransk?", "options": ["en 1789", "dans 1789", "à 1789", "le 1789"], "correct": 0, "explain": "Årstall bruker en." },
+    { "id": "q06", "text": "Hva betyr «il fut» i en historisk tekst?", "options": ["han ble født", "han var", "han flyktet", "han ville"], "correct": 1, "explain": "fut er passé simple av être." },
+    { "id": "q07", "text": "Når ble Algerie selvstendig?", "options": ["1945", "1957", "1962", "1989"], "correct": 2, "explain": "Det skjedde etter en blodig krig." },
+    { "id": "q08", "text": "Hva skjedde i Normandie 6. juni 1944?", "options": ["Tyskland okkuperte Frankrike", "Paris ble bombet", "Napoleon tapte", "De allierte gikk i land"], "correct": 3, "explain": "Paris ble frigjort i august 1944." },
+    { "id": "q09", "text": "Hvilken traktat fra 1957 var grunnlaget for det som i dag er EU?", "options": ["Roma-traktaten", "Versailles-traktaten", "Maastricht-traktaten", "Wien-traktaten"], "correct": 0, "explain": "Frankrike var et av grunnleggerlandene." },
+    { "id": "q10", "text": "Hva betyr «La Bastille a été prise en 1789»?", "options": ["Bastillen tok 1789.", "Bastillen ble tatt i 1789.", "Bastillen skal tas i 1789.", "Bastillen var tom i 1789."], "correct": 1, "explain": "Passiv: être + partisipp." }
+  ],
+  "mindmap": {
+    "label": "Fransk historie",
+    "children": [
+      { "label": "Revolusjonen", "children": [
+        { "label": "14. juli 1789" },
+        { "label": "Menneskerettighetserklæringen" },
+        { "label": "Ludvig 16." }
+      ] },
+      { "label": "Napoleon", "children": [
+        { "label": "Keiser 1804" },
+        { "label": "Code civil" },
+        { "label": "Waterloo 1815" }
+      ] },
+      { "label": "Kolonier", "children": [
+        { "label": "Afrika og Asia" },
+        { "label": "Algerie 1962" }
+      ] },
+      { "label": "Verdenskrigene", "children": [
+        { "label": "Verdun" },
+        { "label": "Okkupasjon og Vichy" },
+        { "label": "Résistance og de Gaulle" },
+        { "label": "D-dagen" }
+      ] },
+      { "label": "Språk", "children": [
+        { "label": "en 1789" },
+        { "label": "passé simple" },
+        { "label": "passiv" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Kong Ludvig 16. ble henrettet under revolusjonen.", "correct": true, "explain": "Han ble henrettet i 1793." },
+      { "id": "m02", "type": "sant-usant", "text": "Vichy-regimet kjempet mot de tyske okkupantene.", "correct": false, "explain": "Vichy-regimet samarbeidet med Tyskland." },
+      { "id": "m03", "type": "sant-usant", "text": "Passé simple brukes mest i skriftlige, historiske tekster.", "correct": true, "explain": "I muntlig språk brukes passé composé." },
+      { "id": "m04", "type": "sant-usant", "text": "Napoleon vant slaget ved Waterloo.", "correct": false, "explain": "Han ble beseiret ved Waterloo i 1815." },
+      { "id": "m05", "type": "flervalg", "text": "Hva betyr «il prit»?", "options": ["han tok", "han ba", "han pratet", "han priset"], "correct": 0, "explain": "prit er passé simple av prendre." },
+      { "id": "m06", "type": "flervalg", "text": "Hvem ledet De frie franske styrkene fra London?", "options": ["Napoleon", "Charles de Gaulle", "Ludvig 16.", "Victor Hugo"], "correct": 1, "explain": "De Gaulle ble senere president." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilket slag i 1916 er et symbol på redslene i første verdenskrig?", "options": ["Waterloo", "Normandie", "Verdun", "Austerlitz"], "correct": 2, "explain": "Slaget ved Verdun kostet hundretusener av liv." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

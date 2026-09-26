@@ -1,0 +1,82 @@
+{
+  "id": "kunst-og-kultur",
+  "fagId": "fransk-vg1",
+  "trinnId": "vg1",
+  "name": "Litteratur, kunst, musikk og film",
+  "intro": "Kjente kunstnere og verk fra den fransktalende verden – Molière, Victor Hugo, Den lille prinsen, impresjonismen, chanson, Stromae, tegneserier og fransk film – og hvordan du bruker conditionnel til ønsker og hypotetiske situasjoner.",
+  "kompetansemaal": [9, 3],
+  "sammendrag": "## Litteratur\n\n- **Molière** (1622–1673) skrev komedier som gjør narr av menneskelige svakheter, som gjerrighet og hykleri. Fransk kalles noen ganger «**la langue de Molière**».\n- **Victor Hugo** (1802–1885) skrev **Notre-Dame de Paris** (1831) og **Les Misérables** (1862), om fattigdom og urettferdighet i Frankrike på 1800-tallet – i dag også en kjent musikal.\n- **Antoine de Saint-Exupéry** skrev **Le Petit Prince** (Den lille prinsen, 1943), en av verdens mest oversatte bøker. Et kjent sitat er at det viktigste er **usynlig for øynene**, og at man bare ser godt med **hjertet**.\n\n## Kunst\n\n**Impresjonismen** oppsto i Frankrike på 1870-tallet. Malerne ville fange **lys**, **farger** og **øyeblikket**, ofte utendørs. Navnet kommer fra **Claude Monets** maleri *Impression, soleil levant* (1872). Andre kjente impresjonister er **Renoir** og **Degas**. **Louvre** i Paris er verdens mest besøkte kunstmuseum og huser blant annet *Mona Lisa*.\n\n## Musikk\n\n- **Chanson** er fransk visetradisjon der **teksten** står sentralt. **Édith Piaf** er kjent for *La Vie en rose* og *Non, je ne regrette rien*.\n- **Stromae** fra **Belgia** blander elektronisk musikk og hiphop med tekster om alvorlige temaer som identitet, psykisk helse og sosiale medier.\n- Fransk **rap** er blant de største i verden.\n\n## Tegneserier og film\n\n- **Bande dessinée** (BD) regnes som «den niende kunstart». **Astérix** (fra 1959) og **Tintin** (av belgiske **Hergé**) er klassikere.\n- **Filmfestivalen i Cannes** er en av verdens viktigste.\n- **Intouchables** (De urørlige, 2011) handler om vennskapet mellom en rik mann i rullestol og hans hjelper fra forstedene, og ble en enorm suksess.\n\n## Conditionnel – ønsker og høflighet\n\n**Conditionnel présent** lages med **futur-stammen** + **imparfait-endelsene** (-ais, -ais, -ait, -ions, -iez, -aient):\n\n- *je **voudrais*** – jeg vil gjerne (høflig)\n- *j'**aimerais*** – jeg skulle gjerne\n- *ce **serait*** – det ville vært\n- *je **pourrais*** – jeg kunne\n- *j'**irais*** – jeg ville dra\n\n*Je **voudrais** un café, s'il vous plaît.*\n\n**Si + imparfait → conditionnel**: *Si j'**avais** de l'argent, j'**irais** à Paris.* – Hvis jeg hadde penger, ville jeg reist til Paris.\n\n## Å snakke om egne opplevelser\n\n- *J'ai beaucoup aimé ce film parce que …*\n- *Cette chanson me fait penser à …* – Denne sangen får meg til å tenke på …\n- *Ce qui m'a plu, c'est …* – Det jeg likte, var …\n- *Je trouve que la fin est surprenante / triste / touchante.*",
+  "flashcards": [
+    { "term": "Molière", "def": "komedieforfatter på 1600-tallet" },
+    { "term": "la langue de Molière", "def": "kallenavn på fransk" },
+    { "term": "Victor Hugo", "def": "skrev Les Misérables (1862) og Notre-Dame de Paris (1831)" },
+    { "term": "Le Petit Prince", "def": "Den lille prinsen (1943) av Saint-Exupéry" },
+    { "term": "l'impressionnisme", "def": "kunstretning fra 1870-tallet som ville fange lys og øyeblikk" },
+    { "term": "Claude Monet", "def": "impresjonist som malte Impression, soleil levant (1872)" },
+    { "term": "le Louvre", "def": "kunstmuseum i Paris med Mona Lisa" },
+    { "term": "la chanson", "def": "fransk visetradisjon" },
+    { "term": "Édith Piaf", "def": "sanger kjent for La Vie en rose" },
+    { "term": "Stromae", "def": "belgisk artist" },
+    { "term": "la bande dessinée (BD)", "def": "tegneserien – den niende kunstart" },
+    { "term": "Intouchables", "def": "fransk film fra 2011 om et uventet vennskap" },
+    { "term": "je voudrais", "def": "jeg vil gjerne (høflig)" },
+    { "term": "ce serait", "def": "det ville vært" },
+    { "term": "Si j'avais …, j'irais …", "def": "Hvis jeg hadde …, ville jeg dratt …" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvem skrev «Les Misérables»?", "options": ["Molière", "Victor Hugo", "Saint-Exupéry", "Monet"], "correct": 1, "explain": "Romanen kom i 1862." },
+    { "id": "q02", "text": "Hvor kommer navnet impresjonisme fra?", "options": ["Et maleri av Claude Monet", "En bok av Victor Hugo", "Et museum i Paris", "En sang av Édith Piaf"], "correct": 0, "explain": "Impression, soleil levant (1872)." },
+    { "id": "q03", "text": "Hva er conditionnel av «je veux» (høflig)?", "options": ["je voulais", "je voudrai", "je voudrais", "je veux bien"], "correct": 2, "explain": "Futur-stamme voudr- + -ais." },
+    { "id": "q04", "text": "Hvilket land kommer Stromae fra?", "options": ["Frankrike", "Sveits", "Canada", "Belgia"], "correct": 3, "explain": "Belgia har fransk som et av sine offisielle språk." },
+    { "id": "q05", "text": "Velg riktig: «Si j'avais le temps, je ___ plus.»", "options": ["lirais", "lirai", "lis", "lisais"], "correct": 0, "explain": "si + imparfait → conditionnel." },
+    { "id": "q06", "text": "Hva kalles fransk-belgiske tegneserier?", "options": ["le manga", "la bande dessinée", "le roman", "la chanson"], "correct": 1, "explain": "Forkortes ofte BD." },
+    { "id": "q07", "text": "Hvilket kjent maleri finnes på Louvre?", "options": ["Skrik", "Solsikker", "Mona Lisa", "Guernica"], "correct": 2, "explain": "Louvre er verdens mest besøkte kunstmuseum." },
+    { "id": "q08", "text": "Hvem skrev «Le Petit Prince»?", "options": ["Victor Hugo", "Hergé", "Molière", "Antoine de Saint-Exupéry"], "correct": 3, "explain": "Boka kom i 1943." },
+    { "id": "q09", "text": "Hva betyr «Ce serait génial !»?", "options": ["Det ville vært genialt!", "Det var genialt!", "Det er genialt!", "Det blir genialt!"], "correct": 0, "explain": "serait er conditionnel av être." },
+    { "id": "q10", "text": "Hvem er kjent for sangen «La Vie en rose»?", "options": ["Stromae", "Édith Piaf", "Molière", "Claude Monet"], "correct": 1, "explain": "Piaf er et symbol på fransk chanson." }
+  ],
+  "mindmap": {
+    "label": "Kunst og kultur",
+    "children": [
+      { "label": "Litteratur", "children": [
+        { "label": "Molière" },
+        { "label": "Victor Hugo" },
+        { "label": "Le Petit Prince" }
+      ] },
+      { "label": "Kunst", "children": [
+        { "label": "Impresjonismen" },
+        { "label": "Monet" },
+        { "label": "Louvre" }
+      ] },
+      { "label": "Musikk", "children": [
+        { "label": "Chanson: Piaf" },
+        { "label": "Stromae" },
+        { "label": "Fransk rap" }
+      ] },
+      { "label": "BD og film", "children": [
+        { "label": "Astérix og Tintin" },
+        { "label": "Cannes" },
+        { "label": "Intouchables" }
+      ] },
+      { "label": "Conditionnel", "children": [
+        { "label": "je voudrais" },
+        { "label": "ce serait" },
+        { "label": "si + imparfait" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Tintin ble skapt av den belgiske tegneren Hergé.", "correct": true, "explain": "Tintin er en av verdens mest kjente tegneseriefigurer." },
+      { "id": "m02", "type": "sant-usant", "text": "Impresjonistene malte helst mørke scener innendørs.", "correct": false, "explain": "De ville fange lys og farger, ofte utendørs." },
+      { "id": "m03", "type": "sant-usant", "text": "Conditionnel lages med futur-stammen og imparfait-endelsene.", "correct": true, "explain": "Eksempel: je voudrais, j'irais." },
+      { "id": "m04", "type": "sant-usant", "text": "Molière levde på 1900-tallet.", "correct": false, "explain": "Molière levde på 1600-tallet." },
+      { "id": "m05", "type": "flervalg", "text": "Hva betyr «J'aimerais voyager»?", "options": ["Jeg reiste.", "Jeg skulle gjerne reist.", "Jeg skal reise.", "Jeg liker å reise."], "correct": 1, "explain": "Conditionnel uttrykker ønske." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilken by har en av verdens viktigste filmfestivaler?", "options": ["Cannes", "Lyon", "Marseille", "Bordeaux"], "correct": 0, "explain": "Festivalen arrangeres hver vår." },
+      { "id": "m07", "type": "flervalg", "text": "Hva betyr «Cette chanson me fait penser à l'été»?", "options": ["Jeg liker sommersanger.", "Sangen handler om sommeren.", "Denne sangen får meg til å tenke på sommeren.", "Jeg hørte sangen i sommer."], "correct": 2, "explain": "faire penser à = få en til å tenke på." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

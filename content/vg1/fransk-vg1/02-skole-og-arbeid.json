@@ -1,0 +1,79 @@
+{
+  "id": "skole-og-arbeid",
+  "fagId": "fransk-vg1",
+  "trinnId": "vg1",
+  "name": "Skole, utdanning og framtid",
+  "intro": "Det franske skolesystemet – collège, lycée og le bac – praksisplass og jobbsøknad, og hvordan du snakker om framtiden med futur proche, futur simple og si-setninger.",
+  "kompetansemaal": [1, 2, 5],
+  "sammendrag": "## Skolen i Frankrike\n\n- **L'école primaire** – barneskolen, fra 6 til 11 år\n- **Le collège** – ungdomsskolen, fire år (11–15 år)\n- **Le lycée** – videregående, tre år: *la seconde*, *la première* og *la terminale*\n- **Le bac** (*le baccalauréat*) – avsluttende eksamen som gir adgang til høyere utdanning\n\nFranske skoledager er ofte **lange**, og mange har fri eller halv dag **onsdag**. Karakterskalaen går fra **0 til 20**, der 10 er bestått.\n\n## To måter å snakke om framtiden på\n\n**1. Futur proche** – *aller* + infinitiv – om det som skal skje snart eller er planlagt:\n*Je **vais passer** le bac l'année prochaine.*\n\n**2. Futur simple** – om framtiden mer generelt, planer og spådommer. Man legger endelser til **infinitiven** (verb på -re mister -e):\n\n| | travailler |\n| --- | --- |\n| je | travailler**ai** |\n| tu | travailler**as** |\n| il/elle/on | travailler**a** |\n| nous | travailler**ons** |\n| vous | travailler**ez** |\n| ils/elles | travailler**ont** |\n\n**Uregelmessige stammer** – endelsene er de samme:\n\n- être → **ser**- : *je serai*\n- avoir → **aur**- : *j'aurai*\n- aller → **ir**- : *j'irai*\n- faire → **fer**- : *je ferai*\n- pouvoir → **pourr**- : *je pourrai*\n- venir → **viendr**- : *je viendrai*\n\n*Plus tard, je serai médecin et j'habiterai à Bergen.*\n\n## Si-setninger\n\n**Si + presens → futur simple**: *Si j'ai mon bac, j'irai à l'université.* – Hvis jeg får bac, skal jeg gå på universitetet.\n\nHusk: **ikke futur** etter *si*!\n\n## Jobb og søknad\n\n- *un stage* (praksisplass), *un job d'été* (sommerjobb), *un salaire* (lønn)\n- *un CV*, *une lettre de motivation* (søknadsbrev), *un entretien d'embauche* (jobbintervju)\n\nEn formell e-post kan begynne med **Madame, Monsieur,** og avsluttes med **Cordialement**. I et formelt brev brukes ofte den lange avslutningen *Veuillez agréer, Madame, Monsieur, l'expression de mes salutations distinguées.*\n\n*Je souhaiterais faire un stage dans votre entreprise, car je m'intéresse au tourisme.* – Jeg ønsker å ha praksis i bedriften deres, fordi jeg interesserer meg for turisme.\n\n## Yrker\n\nMange yrker har egne hunkjønnsformer: *un acteur / une actrice*, *un infirmier / une infirmière* (sykepleier), *un vendeur / une vendeuse* (selger). Som på norsk bruker man **ikke artikkel** foran yrket etter *être*: *Elle est avocate.*",
+  "flashcards": [
+    { "term": "le collège", "def": "ungdomsskolen (11–15 år)" },
+    { "term": "le lycée", "def": "videregående skole" },
+    { "term": "la terminale", "def": "siste året på lycée" },
+    { "term": "le bac", "def": "avsluttende eksamen som gir adgang til høyere utdanning" },
+    { "term": "Je vais passer le bac.", "def": "Jeg skal ta bac. (futur proche)" },
+    { "term": "je travaillerai", "def": "jeg skal/vil jobbe (futur simple)" },
+    { "term": "je serai", "def": "jeg skal/vil være" },
+    { "term": "j'aurai", "def": "jeg skal/vil ha" },
+    { "term": "j'irai", "def": "jeg skal/vil dra" },
+    { "term": "je ferai", "def": "jeg skal/vil gjøre" },
+    { "term": "Si j'ai le bac, j'irai à l'université.", "def": "Hvis jeg får bac, skal jeg gå på universitetet." },
+    { "term": "un stage", "def": "en praksisplass" },
+    { "term": "une lettre de motivation", "def": "et søknadsbrev" },
+    { "term": "un entretien d'embauche", "def": "et jobbintervju" },
+    { "term": "Cordialement", "def": "Med vennlig hilsen (i formelle e-poster)" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva heter det siste året på lycée?", "options": ["la seconde", "la terminale", "la première", "le collège"], "correct": 1, "explain": "Etter terminale tar elevene bac." },
+    { "id": "q02", "text": "Hva er futur simple av «je suis»?", "options": ["je serai", "je sera", "j'étais", "je suisrai"], "correct": 0, "explain": "être har stammen ser-." },
+    { "id": "q03", "text": "Hvordan lages futur proche?", "options": ["avoir + partisipp", "être + infinitiv", "aller + infinitiv", "venir de + infinitiv"], "correct": 2, "explain": "Je vais partir demain." },
+    { "id": "q04", "text": "Velg riktig: «Si j'ai le temps, je ___ au cinéma.»", "options": ["vais", "irais", "allais", "irai"], "correct": 3, "explain": "si + presens → futur simple." },
+    { "id": "q05", "text": "Hva betyr «un stage»?", "options": ["en praksisplass", "en scene", "et stadion", "en eksamen"], "correct": 0, "explain": "Mange elever tar un stage i en bedrift." },
+    { "id": "q06", "text": "Hva er futur simple av «nous faisons»?", "options": ["nous faisrons", "nous ferons", "nous fairons", "nous faisions"], "correct": 1, "explain": "faire har stammen fer-." },
+    { "id": "q07", "text": "Hvilken karakterskala brukes i franske skoler?", "options": ["1–6", "A–F", "0–20", "0–100"], "correct": 2, "explain": "10 av 20 er bestått." },
+    { "id": "q08", "text": "Hvordan sier du «Hun er advokat»?", "options": ["Elle est une avocate.", "Elle est la avocate.", "Elle a avocate.", "Elle est avocate."], "correct": 3, "explain": "Ingen artikkel foran yrket etter être." },
+    { "id": "q09", "text": "Hvilken avslutning passer i en formell e-post?", "options": ["Cordialement", "Bisous", "À plus !", "Salut"], "correct": 0, "explain": "Bisous og À plus er uformelle." },
+    { "id": "q10", "text": "Hva er futur simple av «j'ai»?", "options": ["j'avoirai", "j'aurai", "j'avais", "j'airai"], "correct": 1, "explain": "avoir har stammen aur-." }
+  ],
+  "mindmap": {
+    "label": "Skole og framtid",
+    "children": [
+      { "label": "Skolen", "children": [
+        { "label": "école primaire" },
+        { "label": "collège" },
+        { "label": "lycée og bac" }
+      ] },
+      { "label": "Futur proche", "children": [
+        { "label": "aller + infinitiv" },
+        { "label": "Nære planer" }
+      ] },
+      { "label": "Futur simple", "children": [
+        { "label": "Infinitiv + -ai, -as, -a …" },
+        { "label": "serai, aurai, irai, ferai" }
+      ] },
+      { "label": "Si-setninger", "children": [
+        { "label": "si + presens" },
+        { "label": "→ futur simple" }
+      ] },
+      { "label": "Arbeid", "children": [
+        { "label": "stage, job d'été" },
+        { "label": "CV og lettre de motivation" },
+        { "label": "Cordialement" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Le collège er ungdomsskolen i Frankrike.", "correct": true, "explain": "College er ikke det samme som på engelsk." },
+      { "id": "m02", "type": "sant-usant", "text": "Etter «si» bruker man futur simple i samme ledd.", "correct": false, "explain": "Etter si bruker man presens: Si j'ai …" },
+      { "id": "m03", "type": "sant-usant", "text": "«une infirmière» betyr en sykepleier.", "correct": true, "explain": "Hankjønn: un infirmier." },
+      { "id": "m04", "type": "sant-usant", "text": "I futur simple mister verb på -er endelsen før man legger til -ai.", "correct": false, "explain": "Man legger endelsen til hele infinitiven: travailler → travaillerai." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er futur simple av «je peux»?", "options": ["je pourrai", "je peuxrai", "je pouvrai", "je pouvais"], "correct": 0, "explain": "pouvoir har stammen pourr-." },
+      { "id": "m06", "type": "flervalg", "text": "Hva betyr «un entretien d'embauche»?", "options": ["en lønnsforhandling", "et jobbintervju", "en praksisplass", "en arbeidskontrakt"], "correct": 1, "explain": "Man blir invitert etter å ha sendt søknad." },
+      { "id": "m07", "type": "flervalg", "text": "Hva betyr «Je vais partir demain»?", "options": ["Jeg dro i går.", "Jeg drar ofte.", "Jeg skal dra i morgen.", "Jeg ville dratt i morgen."], "correct": 2, "explain": "Futur proche." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
