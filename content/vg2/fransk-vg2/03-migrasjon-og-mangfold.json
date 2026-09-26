@@ -1,0 +1,357 @@
+{
+  "id": "migrasjon-og-mangfold",
+  "fagId": "fransk-vg2",
+  "trinnId": "vg2",
+  "name": "Migrasjon, identitet og mangfold",
+  "intro": "Innvandring og mangfold i Frankrike – kolonihistorie, Nord-Afrika og Vest-Afrika, forstedene og idrettshelter – identitet og tilhørighet, og hvordan du gjengir andres utsagn med indirekte tale (discours indirect).",
+  "kompetansemaal": [
+    8,
+    4
+  ],
+  "sammendrag": "## Frankrike som innvandringsland\n\nFrankrike har lenge vært et **innvandringsland**. Mange innvandrere har kommet fra\n\n- **Sør-Europa**, som Italia, Spania og Portugal\n- **Nord-Afrika** (*le Maghreb*) – **Algerie**, **Marokko** og **Tunisia** – særlig etter andre verdenskrig, da Frankrike trengte arbeidskraft\n- **Vest-Afrika**, som Senegal og Mali\n\nMye av innvandringen henger sammen med **kolonihistorien**: Mange kommer fra land der fransk fortsatt er et viktig språk.\n\n## Forstedene\n\nI **forstedene** (*les banlieues*) rundt de store byene bor mange med innvandrerbakgrunn. Mange har høy **arbeidsledighet** og opplever **diskriminering**, og det har vært flere **opptøyer** – blant annet i **2005**. Samtidig er forstedene et sentrum for **kreativitet**, særlig innen **rap**, **dans** og **fotball**.\n\n## Idrettshelter\n\nDet franske fotballandslaget har mange spillere med **innvandrerbakgrunn**. **Zinedine Zidane** har foreldre fra **Algerie**, og **Kylian Mbappé** har røtter i **Kamerun** og **Algerie**. Da Frankrike vant VM i 1998, ble laget kalt *«black-blanc-beur»* – et symbol på et mangfoldig Frankrike.\n\n## Identitet og laïcité\n\nFrankrike har en **republikansk** tradisjon der alle skal være **like borgere** – uten at staten registrerer etnisitet. **Laïcité** betyr at staten er religiøst nøytral. Noen mener dette sikrer **likhet**, andre at det gjør det vanskeligere å snakke om **diskriminering** og å uttrykke **religiøs identitet**.\n\nNyttige ord: *l'identité* (identiteten), *l'appartenance* (tilhørigheten), *l'intégration*, *la diversité* (mangfoldet), *être bilingue* (være tospråklig), *se sentir chez soi* (føle seg hjemme), *le racisme*, *la discrimination*.\n\n## Indirekte tale\n\nNår vi gjengir hva noen **sa**, endres ofte **tiden** i verbet:\n\n| Direkte tale | Indirekte tale (etter *il a dit que*) |\n| --- | --- |\n| presens: *Je **suis** fatigué.* | imparfait: *Il a dit qu'il **était** fatigué.* |\n| passé composé: *J'**ai mangé**.* | plus-que-parfait: *Il a dit qu'il **avait mangé**.* |\n| futur: *Je **viendrai**.* | conditionnel: *Il a dit qu'il **viendrait**.* |\n\nEtter **il dit que** (presens) endres ikke tiden: *Il dit qu'il **est** fatigué.*\n\nHusk også å endre **pronomen**: *«Je t'aime»* → *Il a dit qu'il **l'**aimait.*\n\n## Å diskutere\n\n*D'un côté, l'immigration enrichit la société ; de l'autre, l'intégration peut être difficile.*\n*En Norvège, c'est pareil / différent, parce que …*",
+  "flashcards": [
+    {
+      "term": "le Maghreb",
+      "def": "Nord-Afrika: Algerie, Marokko og Tunisia"
+    },
+    {
+      "term": "les banlieues",
+      "def": "forstedene"
+    },
+    {
+      "term": "l'immigration",
+      "def": "innvandringen"
+    },
+    {
+      "term": "l'identité",
+      "def": "identiteten"
+    },
+    {
+      "term": "l'appartenance",
+      "def": "tilhørigheten"
+    },
+    {
+      "term": "la diversité",
+      "def": "mangfoldet"
+    },
+    {
+      "term": "être bilingue",
+      "def": "være tospråklig"
+    },
+    {
+      "term": "se sentir chez soi",
+      "def": "føle seg hjemme"
+    },
+    {
+      "term": "la discrimination",
+      "def": "diskrimineringen"
+    },
+    {
+      "term": "black-blanc-beur",
+      "def": "betegnelse på det mangfoldige franske VM-laget i 1998"
+    },
+    {
+      "term": "Il a dit qu'il était fatigué.",
+      "def": "Han sa at han var trøtt. (presens → imparfait)"
+    },
+    {
+      "term": "Il a dit qu'il viendrait.",
+      "def": "Han sa at han ville komme. (futur → conditionnel)"
+    },
+    {
+      "term": "Il a dit qu'il avait mangé.",
+      "def": "Han sa at han hadde spist. (passé composé → plus-que-parfait)"
+    },
+    {
+      "term": "Il dit qu'il est fatigué.",
+      "def": "Han sier at han er trøtt. (ingen tidsendring)"
+    },
+    {
+      "term": "enrichir",
+      "def": "berike"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hvilke land hører til Maghreb?",
+      "options": [
+        "Senegal, Mali og Niger",
+        "Algerie, Marokko og Tunisia",
+        "Belgia, Sveits og Luxembourg",
+        "Egypt, Libya og Sudan"
+      ],
+      "correct": 1,
+      "explain": "Mange innvandrere i Frankrike har bakgrunn derfra."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er «les banlieues»?",
+      "options": [
+        "Forstedene rundt storbyene",
+        "Bankene",
+        "Landsbygda",
+        "Sentrum av Paris"
+      ],
+      "correct": 0,
+      "explain": "Mange med innvandrerbakgrunn bor der."
+    },
+    {
+      "id": "q03",
+      "text": "Gjør om til indirekte tale: «Je suis fatigué», il a dit → Il a dit qu'il …",
+      "options": [
+        "est fatigué",
+        "sera fatigué",
+        "était fatigué",
+        "soit fatigué"
+      ],
+      "correct": 2,
+      "explain": "Presens blir imparfait."
+    },
+    {
+      "id": "q04",
+      "text": "Gjør om: «Je viendrai», elle a dit → Elle a dit qu'elle …",
+      "options": [
+        "viendra",
+        "vient",
+        "venait",
+        "viendrait"
+      ],
+      "correct": 3,
+      "explain": "Futur blir conditionnel."
+    },
+    {
+      "id": "q05",
+      "text": "Hvilken fotballspiller har foreldre fra Algerie?",
+      "options": [
+        "Zinedine Zidane",
+        "Lionel Messi",
+        "Erling Haaland",
+        "Cristiano Ronaldo"
+      ],
+      "correct": 0,
+      "explain": "Han var en av stjernene på VM-laget i 1998."
+    },
+    {
+      "id": "q06",
+      "text": "Hva betyr «se sentir chez soi»?",
+      "options": [
+        "reise hjem",
+        "føle seg hjemme",
+        "bo alene",
+        "savne hjemmet"
+      ],
+      "correct": 1,
+      "explain": "chez soi = hjemme."
+    },
+    {
+      "id": "q07",
+      "text": "Hva skjer med tiden etter «il dit que» (presens)?",
+      "options": [
+        "Presens blir imparfait",
+        "Presens blir futur",
+        "Tiden endres ikke",
+        "Presens blir subjonctif"
+      ],
+      "correct": 2,
+      "explain": "Bare når innledningen står i fortid, endres tiden."
+    },
+    {
+      "id": "q08",
+      "text": "Hvorfor kommer mange innvandrere i Frankrike fra land der fransk er et viktig språk?",
+      "options": [
+        "På grunn av turisme",
+        "På grunn av EU",
+        "På grunn av fotball",
+        "På grunn av kolonihistorien"
+      ],
+      "correct": 3,
+      "explain": "Frankrike hadde store kolonier i Afrika."
+    },
+    {
+      "id": "q09",
+      "text": "Gjør om: «J'ai mangé», il a dit → Il a dit qu'il …",
+      "options": [
+        "avait mangé",
+        "a mangé",
+        "mangeait",
+        "mangera"
+      ],
+      "correct": 0,
+      "explain": "Passé composé blir plus-que-parfait."
+    },
+    {
+      "id": "q10",
+      "text": "Hva betyr «la diversité»?",
+      "options": [
+        "forskjellen",
+        "mangfoldet",
+        "avgjørelsen",
+        "diskusjonen"
+      ],
+      "correct": 1,
+      "explain": "la diversité culturelle = kulturelt mangfold."
+    }
+  ],
+  "mindmap": {
+    "label": "Migrasjon og mangfold",
+    "children": [
+      {
+        "label": "Innvandring",
+        "children": [
+          {
+            "label": "Sør-Europa"
+          },
+          {
+            "label": "Maghreb"
+          },
+          {
+            "label": "Vest-Afrika"
+          },
+          {
+            "label": "Kolonihistorie"
+          }
+        ]
+      },
+      {
+        "label": "Samfunn",
+        "children": [
+          {
+            "label": "Banlieues"
+          },
+          {
+            "label": "Diskriminering"
+          },
+          {
+            "label": "Laïcité"
+          }
+        ]
+      },
+      {
+        "label": "Identitet",
+        "children": [
+          {
+            "label": "appartenance"
+          },
+          {
+            "label": "bilingue"
+          },
+          {
+            "label": "Black-blanc-beur"
+          }
+        ]
+      },
+      {
+        "label": "Indirekte tale",
+        "children": [
+          {
+            "label": "présent → imparfait"
+          },
+          {
+            "label": "passé composé → plus-que-parfait"
+          },
+          {
+            "label": "futur → conditionnel"
+          }
+        ]
+      },
+      {
+        "label": "Diskusjon",
+        "children": [
+          {
+            "label": "D'un côté … de l'autre"
+          },
+          {
+            "label": "Sammenligne med Norge"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Den franske staten registrerer ikke innbyggernes etnisitet.",
+        "correct": true,
+        "explain": "Det henger sammen med den republikanske tradisjonen."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "I indirekte tale etter «il a dit que» blir futur til futur.",
+        "correct": false,
+        "explain": "Futur blir conditionnel."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Forstedene er kjent for kreativitet innen rap og dans.",
+        "correct": true,
+        "explain": "Mange kjente artister kommer derfra."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "«la discrimination» betyr mangfoldet.",
+        "correct": false,
+        "explain": "la discrimination betyr diskrimineringen. Mangfold heter la diversité."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Gjør om: «Je t'aime», il a dit → Il a dit qu'il …",
+        "options": [
+          "l'aimait",
+          "t'aime",
+          "m'aimait",
+          "l'aime"
+        ],
+        "correct": 0,
+        "explain": "Både pronomen og tid endres."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva betyr «enrichir la société»?",
+        "options": [
+          "gjøre samfunnet rikere i penger",
+          "berike samfunnet",
+          "forandre samfunnet",
+          "splitte samfunnet"
+        ],
+        "correct": 1,
+        "explain": "enrichir = berike."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilket år var det store opptøyer i franske forsteder?",
+        "options": [
+          "1789",
+          "1968",
+          "2005",
+          "2015"
+        ],
+        "correct": 2,
+        "explain": "Opptøyene spredte seg til mange byer."
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
+}

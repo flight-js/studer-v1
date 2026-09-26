@@ -1,0 +1,82 @@
+{
+  "id": "studier-og-arbeid-i-utlandet",
+  "fagId": "fransk-vg2",
+  "trinnId": "vg2",
+  "name": "Studier og arbeid i fransktalende land",
+  "intro": "Muligheter for å studere og jobbe i Frankrike, Belgia, Sveits og Québec – Erasmus+, au pair og sommerjobb – formell søknad og intervju på fransk, og hvordan du snakker om det som kunne ha skjedd med plus-que-parfait og conditionnel passé.",
+  "kompetansemaal": [2, 3, 5],
+  "sammendrag": "## Muligheter\n\n- **Utveksling** på videregående eller et **år i utlandet** (*une année à l'étranger*)\n- **Erasmus+** – EUs utvekslingsprogram, som Norge deltar i\n- **Studier** i Frankrike, Belgia eller Sveits – eller i **Québec** i Canada\n- **Au pair** hos en fransk familie\n- **Sommerjobb** (*un job d'été*) i turisme, for eksempel på campingplasser og i skisteder\n- **Språkkurs** i Frankrike, gjerne med vertsfamilie (*une famille d'accueil*)\n\n## Nyttige ord\n\n*un stage* (praksisplass), *un échange* (utveksling), *les études* (studiene), *une famille d'accueil* (vertsfamilie), *l'expérience* (erfaringen), *les compétences* (kompetansen), *la lettre de motivation* (søknadsbrevet), *l'entretien* (intervjuet).\n\n## Formell søknad\n\n*Madame, Monsieur,*\n\n*Je me permets de poser ma candidature pour le poste de jeune fille au pair. J'adore les enfants et je souhaite améliorer mon français. J'ai de l'expérience comme baby-sitter et je parle norvégien, anglais et français.*\n\n*Dans l'attente de votre réponse, je vous prie d'agréer, Madame, Monsieur, mes salutations distinguées.*\n\nNyttige formuleringer: *Je souhaiterais …* (jeg ønsker …), *Je suis motivé(e) parce que …*, *Mes points forts sont …* (mine sterke sider er …). I e-post kan du avslutte kortere med **Cordialement**.\n\n## Intervju\n\n- *Parlez-moi de vous.* – Fortell om deg selv.\n- *Pourquoi voulez-vous ce poste ?*\n- *Quels sont vos points forts et vos points faibles ?*\n\n## Plus-que-parfait og conditionnel passé\n\n**Plus-que-parfait** – *avoir/être* i **imparfait** + partisipp – uttrykker noe som hadde skjedd **før** noe annet: *J'**avais** déjà **réservé** l'hôtel.*\n\n**Conditionnel passé** – *avoir/être* i **conditionnel** + partisipp – uttrykker det som **ville ha skjedd**: *J'**aurais aimé** étudier à Paris.* – Jeg skulle gjerne ha studert i Paris.\n\nMed **si** om noe som ikke skjedde i fortiden: **si + plus-que-parfait → conditionnel passé**:\n\n- *Si j'**avais su**, je **serais venu**.* – Hvis jeg hadde visst det, ville jeg ha kommet.\n- *Si tu **avais travaillé** plus, tu **aurais réussi** l'examen.*\n\n## Å reflektere\n\n*Une année à l'étranger permet de devenir plus autonome, d'apprendre une langue et de découvrir une nouvelle culture.*",
+  "flashcards": [
+    { "term": "une année à l'étranger", "def": "et år i utlandet" },
+    { "term": "un échange", "def": "en utveksling" },
+    { "term": "une famille d'accueil", "def": "en vertsfamilie" },
+    { "term": "un job d'été", "def": "en sommerjobb" },
+    { "term": "les compétences", "def": "kompetansen" },
+    { "term": "la lettre de motivation", "def": "søknadsbrevet" },
+    { "term": "Je me permets de poser ma candidature …", "def": "Jeg søker herved på …" },
+    { "term": "Mes points forts sont …", "def": "Mine sterke sider er …" },
+    { "term": "Parlez-moi de vous.", "def": "Fortell om deg selv." },
+    { "term": "j'avais réservé", "def": "jeg hadde reservert (plus-que-parfait)" },
+    { "term": "j'aurais aimé", "def": "jeg skulle gjerne ha (conditionnel passé)" },
+    { "term": "Si j'avais su, je serais venu.", "def": "Hvis jeg hadde visst det, ville jeg ha kommet." },
+    { "term": "autonome", "def": "selvstendig" },
+    { "term": "découvrir", "def": "oppdage" },
+    { "term": "Cordialement", "def": "Med vennlig hilsen (e-post)" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva betyr «une famille d'accueil»?", "options": ["en storfamilie", "en vertsfamilie", "en adoptivfamilie", "en naboefamilie"], "correct": 1, "explain": "Utvekslingselever bor ofte i en famille d'accueil." },
+    { "id": "q02", "text": "Hvordan dannes conditionnel passé?", "options": ["avoir/être i conditionnel + partisipp", "avoir/être i imparfait + partisipp", "infinitiv + -ais", "que + subjonctif"], "correct": 0, "explain": "J'aurais aimé, je serais venu." },
+    { "id": "q03", "text": "Velg riktig: «Si j'avais su, je ___ venu.»", "options": ["suis", "serai", "serais", "étais"], "correct": 2, "explain": "si + plus-que-parfait → conditionnel passé." },
+    { "id": "q04", "text": "Hva betyr «J'aurais aimé étudier à Paris»?", "options": ["Jeg studerer i Paris.", "Jeg skal studere i Paris.", "Jeg studerte i Paris.", "Jeg skulle gjerne ha studert i Paris."], "correct": 3, "explain": "Conditionnel passé uttrykker noe som ikke skjedde." },
+    { "id": "q05", "text": "Hvilket sted i Amerika er fransktalende?", "options": ["Québec", "Texas", "Mexico", "Brasil"], "correct": 0, "explain": "Québec er en provins i Canada." },
+    { "id": "q06", "text": "Hva betyr «Mes points forts sont …»?", "options": ["Mine svake sider er …", "Mine sterke sider er …", "Mine venner er …", "Mine poeng er …"], "correct": 1, "explain": "points faibles = svake sider." },
+    { "id": "q07", "text": "Hvordan dannes plus-que-parfait?", "options": ["avoir/être i presens + partisipp", "avoir/être i futur + partisipp", "avoir/être i imparfait + partisipp", "infinitiv + -ait"], "correct": 2, "explain": "J'avais déjà réservé." },
+    { "id": "q08", "text": "Hva betyr «Parlez-moi de vous»?", "options": ["Hvem er du?", "Snakk med meg!", "Hvor bor du?", "Fortell om deg selv."], "correct": 3, "explain": "Et vanlig intervjuspørsmål." },
+    { "id": "q09", "text": "Hvilken avslutning passer i en formell e-post?", "options": ["Cordialement", "Bisous", "À plus", "Salut"], "correct": 0, "explain": "I brev brukes gjerne en lengre formel." },
+    { "id": "q10", "text": "Velg riktig: «Si tu avais travaillé plus, tu ___ l'examen.»", "options": ["réussirais", "aurais réussi", "as réussi", "réussissais"], "correct": 1, "explain": "Conditionnel passé i hovedsetningen." }
+  ],
+  "mindmap": {
+    "label": "Studier og arbeid i utlandet",
+    "children": [
+      { "label": "Muligheter", "children": [
+        { "label": "Erasmus+" },
+        { "label": "Au pair" },
+        { "label": "Job d'été" },
+        { "label": "Québec" }
+      ] },
+      { "label": "Ord", "children": [
+        { "label": "échange" },
+        { "label": "famille d'accueil" },
+        { "label": "compétences" }
+      ] },
+      { "label": "Søknad", "children": [
+        { "label": "Madame, Monsieur" },
+        { "label": "poser ma candidature" },
+        { "label": "salutations distinguées" }
+      ] },
+      { "label": "Intervju", "children": [
+        { "label": "Parlez-moi de vous" },
+        { "label": "points forts et faibles" }
+      ] },
+      { "label": "Grammatikk", "children": [
+        { "label": "Plus-que-parfait" },
+        { "label": "Conditionnel passé" },
+        { "label": "Si j'avais su …" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "«un job d'été» betyr en sommerjobb.", "correct": true, "explain": "été = sommer." },
+      { "id": "m02", "type": "sant-usant", "text": "Etter «si» om noe som ikke skjedde i fortiden, bruker man conditionnel passé.", "correct": false, "explain": "Etter si bruker man plus-que-parfait; conditionnel passé står i hovedsetningen." },
+      { "id": "m03", "type": "sant-usant", "text": "«autonome» betyr selvstendig.", "correct": true, "explain": "Et år i utlandet kan gjøre deg mer autonome." },
+      { "id": "m04", "type": "sant-usant", "text": "«Bisous» passer godt som avslutning i en jobbsøknad.", "correct": false, "explain": "Bisous er svært uformelt." },
+      { "id": "m05", "type": "flervalg", "text": "Hva betyr «découvrir une nouvelle culture»?", "options": ["glemme en kultur", "oppdage en ny kultur", "dekke over en kultur", "beskrive en kultur"], "correct": 1, "explain": "découvrir = oppdage." },
+      { "id": "m06", "type": "flervalg", "text": "Hva betyr «J'avais déjà réservé l'hôtel»?", "options": ["Jeg hadde allerede reservert hotellet.", "Jeg reserverer hotellet.", "Jeg skal reservere hotellet.", "Jeg ville ha reservert hotellet."], "correct": 0, "explain": "Plus-que-parfait." },
+      { "id": "m07", "type": "flervalg", "text": "Hva betyr «la lettre de motivation»?", "options": ["et kjærlighetsbrev", "en attest", "søknadsbrevet", "et nyhetsbrev"], "correct": 2, "explain": "Det legges ved CV-en." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

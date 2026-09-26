@@ -1,0 +1,81 @@
+{
+  "id": "miljo-og-barekraft",
+  "fagId": "fransk-vg2",
+  "trinnId": "vg2",
+  "name": "Klima, miljø og bærekraft",
+  "intro": "Hvordan du snakker og skriver om klima og miljø på fransk, franske miljødebatter – Parisavtalen, kjernekraft og borgerpanelet for klima – og hvordan du uttrykker krav og ønsker med subjonctif etter il faut que.",
+  "kompetansemaal": [4, 5, 8],
+  "sammendrag": "## Ord om klima og miljø\n\n- *le réchauffement climatique* – den globale oppvarmingen\n- *l'environnement* (m.) – miljøet\n- *le développement durable* – bærekraftig utvikling\n- *les énergies renouvelables* – fornybare energikilder\n- *les gaz à effet de serre* – drivhusgassene\n- *les déchets* – avfallet, *recycler* – gjenvinne\n- *la pollution* – forurensningen\n- *protéger la planète* – beskytte planeten\n\n## Frankrike og klima\n\n- **Parisavtalen** (*l'Accord de Paris*) ble vedtatt på klimatoppmøtet i **Paris** i **2015**. Landene ble enige om å begrense oppvarmingen til godt under 2 grader.\n- Frankrike får **mesteparten av strømmen** fra **kjernekraft** (*le nucléaire*). Det gir lave CO₂-utslipp, men skaper debatt om **atomavfall** og sikkerhet.\n- I **2019–2020** satte president Macron ned et **borgerpanel for klima** (*la Convention citoyenne pour le climat*) med **150 loddtrukne** innbyggere som skulle foreslå klimatiltak.\n\n## Subjonctif\n\nEtter uttrykk for **nødvendighet**, **ønske** og **følelser** + **que** bruker fransk **subjonctif**:\n\n- *Il faut que …* – Det er nødvendig at …\n- *Je veux que …* – Jeg vil at …\n- *Il est important que …* – Det er viktig at …\n\n**Form**: Ta **ils**-formen i presens, fjern **-ent**, og legg til **-e, -es, -e, -ions, -iez, -ent**:\n\n- ils **parl**ent → que je parl**e**, que nous parl**ions**\n- ils **finiss**ent → que je finiss**e**\n\n**Uregelmessige**: *être* → que je **sois**, *avoir* → que j'**aie**, *faire* → que je **fasse**, *aller* → que j'**aille**, *pouvoir* → que je **puisse**.\n\n- *Il faut que nous **réduisions** nos déchets.* – Vi må redusere avfallet vårt.\n- *Il faut qu'on **fasse** quelque chose.* – Vi må gjøre noe.\n- *Je veux que les politiciens **soient** plus courageux.*\n\n## Å argumentere\n\n- *Selon moi, …* – Etter min mening …\n- *Il est essentiel de …* – Det er avgjørende å …\n- *D'une part …, d'autre part …* – På den ene siden …, på den andre …\n- *En conclusion, …* – Avslutningsvis …\n\n## Sammenligning med Norge\n\nNorge og Frankrike har begge lave utslipp fra **strømproduksjon** – Norge på grunn av **vannkraft**, Frankrike på grunn av **kjernekraft**. Hva er fordeler og ulemper med hver løsning?",
+  "flashcards": [
+    { "term": "le réchauffement climatique", "def": "den globale oppvarmingen" },
+    { "term": "l'environnement", "def": "miljøet" },
+    { "term": "le développement durable", "def": "bærekraftig utvikling" },
+    { "term": "les énergies renouvelables", "def": "fornybare energikilder" },
+    { "term": "les déchets", "def": "avfallet" },
+    { "term": "recycler", "def": "gjenvinne" },
+    { "term": "le nucléaire", "def": "kjernekraften" },
+    { "term": "l'Accord de Paris", "def": "Parisavtalen (2015)" },
+    { "term": "la Convention citoyenne pour le climat", "def": "borgerpanelet for klima med 150 loddtrukne innbyggere" },
+    { "term": "Il faut que + subjonctif", "def": "Det er nødvendig at …" },
+    { "term": "que je sois", "def": "subjonctif av être" },
+    { "term": "que je fasse", "def": "subjonctif av faire" },
+    { "term": "que j'aie", "def": "subjonctif av avoir" },
+    { "term": "Selon moi, …", "def": "Etter min mening …" },
+    { "term": "En conclusion, …", "def": "Avslutningsvis …" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva betyr «le développement durable»?", "options": ["den globale oppvarmingen", "bærekraftig utvikling", "fornybar energi", "forurensning"], "correct": 1, "explain": "durable = varig, bærekraftig." },
+    { "id": "q02", "text": "Hvilken energikilde gir mesteparten av strømmen i Frankrike?", "options": ["Kjernekraft", "Kull", "Vannkraft", "Solkraft"], "correct": 0, "explain": "Det gir lave CO₂-utslipp, men atomavfall." },
+    { "id": "q03", "text": "Velg riktig: «Il faut que nous ___ nos déchets.» (réduire)", "options": ["réduisons", "réduirons", "réduisions", "réduire"], "correct": 2, "explain": "Etter il faut que: subjonctif." },
+    { "id": "q04", "text": "Hva er subjonctif av «être» i jeg-form?", "options": ["que je suis", "que je serai", "que j'étais", "que je sois"], "correct": 3, "explain": "être er uregelmessig." },
+    { "id": "q05", "text": "Hvor ble Parisavtalen vedtatt?", "options": ["I Paris i 2015", "I Oslo i 2015", "I Kyoto i 1997", "I Brussel i 2020"], "correct": 0, "explain": "L'Accord de Paris." },
+    { "id": "q06", "text": "Hva var «la Convention citoyenne pour le climat»?", "options": ["Et politisk parti", "Et borgerpanel med 150 loddtrukne innbyggere", "En miljøorganisasjon", "En klimalov"], "correct": 1, "explain": "Panelet foreslo klimatiltak i 2019–2020." },
+    { "id": "q07", "text": "Hva er subjonctif av «faire» i jeg-form?", "options": ["que je fais", "que je ferai", "que je fasse", "que je faisais"], "correct": 2, "explain": "Il faut que je fasse mes devoirs." },
+    { "id": "q08", "text": "Etter hvilket uttrykk brukes subjonctif?", "options": ["Je pense que", "Il est certain que", "Je sais que", "Je veux que"], "correct": 3, "explain": "Ønsker med que tar subjonctif." },
+    { "id": "q09", "text": "Hva betyr «les déchets»?", "options": ["avfallet", "detaljene", "diskusjonene", "drivhusgassene"], "correct": 0, "explain": "Il faut recycler les déchets." },
+    { "id": "q10", "text": "Hvordan lages subjonctif av regelmessige verb?", "options": ["Infinitiv + -ai", "ils-stammen + -e, -es, -e, -ions, -iez, -ent", "nous-stammen + -ais", "Partisipp + être"], "correct": 1, "explain": "ils parlent → que je parle." }
+  ],
+  "mindmap": {
+    "label": "Klima og miljø",
+    "children": [
+      { "label": "Ord", "children": [
+        { "label": "réchauffement climatique" },
+        { "label": "développement durable" },
+        { "label": "déchets, recycler" }
+      ] },
+      { "label": "Frankrike", "children": [
+        { "label": "Accord de Paris 2015" },
+        { "label": "Le nucléaire" },
+        { "label": "Convention citoyenne" }
+      ] },
+      { "label": "Subjonctif", "children": [
+        { "label": "Il faut que" },
+        { "label": "Je veux que" },
+        { "label": "sois, aie, fasse" }
+      ] },
+      { "label": "Argumentere", "children": [
+        { "label": "Selon moi" },
+        { "label": "D'une part … d'autre part" },
+        { "label": "En conclusion" }
+      ] },
+      { "label": "Norge og Frankrike", "children": [
+        { "label": "Vannkraft" },
+        { "label": "Kjernekraft" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Etter «Il est important que» brukes subjonctif.", "correct": true, "explain": "Uttrykk for nødvendighet tar subjonctif." },
+      { "id": "m02", "type": "sant-usant", "text": "Etter «Je pense que» brukes vanligvis subjonctif.", "correct": false, "explain": "Je pense que tar vanligvis indikativ." },
+      { "id": "m03", "type": "sant-usant", "text": "Kjernekraft gir lave CO₂-utslipp, men skaper atomavfall.", "correct": true, "explain": "Derfor er den omdiskutert." },
+      { "id": "m04", "type": "sant-usant", "text": "«recycler» betyr å kaste.", "correct": false, "explain": "recycler betyr å gjenvinne." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er subjonctif av «aller» i jeg-form?", "options": ["que je vais", "que j'aille", "que j'irai", "que j'allais"], "correct": 1, "explain": "aller er uregelmessig." },
+      { "id": "m06", "type": "flervalg", "text": "Hva betyr «protéger la planète»?", "options": ["beskytte planeten", "forurense planeten", "reise rundt planeten", "studere planeten"], "correct": 0, "explain": "protéger = beskytte." },
+      { "id": "m07", "type": "flervalg", "text": "Hva betyr «les gaz à effet de serre»?", "options": ["gassen i bilen", "naturgassen", "drivhusgassene", "luften i drivhuset"], "correct": 2, "explain": "effet de serre = drivhuseffekt." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
