@@ -1,0 +1,84 @@
+{
+  "id": "digitale-medier-og-sprak",
+  "fagId": "norsk-10",
+  "trinnId": "10",
+  "name": "Digitale medier, språk og kommunikasjon",
+  "intro": "Hvordan meldinger, sosiale medier og algoritmer påvirker språket vårt og måten vi kommuniserer på, og hvordan du kan vurdere dette kritisk.",
+  "kompetansemaal": [8],
+  "sammendrag": "## Et nytt skriftlig hverdagsspråk\n\nFør skrev de fleste mest på skolen og i jobben. I dag skriver vi hele tiden: meldinger, kommentarer, innlegg og chatter. Mye av dette er **skriftlig**, men ligner **muntlig** språk. Vi skriver raskt, uformelt og ofte på dialekt. Språkforskere kaller dette gjerne en **muntlig skriftkultur**.\n\n## Kjennetegn ved digitalt språk\n\n- **Forkortelser**: lol, btw, idk, mvh.\n- **Emojier og GIF-er** som viser følelser og tone, omtrent som kroppsspråk og tonefall gjør muntlig.\n- **Dialekt og lydskrift**: «ka du gjør?» og «e du hjemme?».\n- **Engelske ord og uttrykk**: «det var så random», «cringe».\n- **Korte ytringer** og raske turvekslinger, som i en samtale.\n- **Uformell tegnsetting**: ofte ingen punktum, eller mange utropstegn!!!\n\nNoen er bekymret for at dette ødelegger språket. Andre påpeker at de fleste unge veksler mellom uformelt språk på nett og mer formelt språk på skolen, altså at de **kodeveksler**. Det viktigste er å vite hvilket språk som passer i hvilken situasjon.\n\n## Tone og misforståelser\n\nI skriftlige meldinger mangler vi tonefall, ansiktsuttrykk og kroppsspråk. Derfor kan en kort melding som «ok.» oppfattes som sur, selv om den ikke var ment slik. Emojier og utropstegn brukes ofte for å myke opp tonen. Det lønner seg å tenke over hvordan mottakeren kan lese meldingen.\n\n## Algoritmer og ekkokamre\n\nSosiale medier bruker **algoritmer** som velger ut hva du får se, ofte basert på hva du har likt og klikket på før. Det kan føre til **ekkokamre** eller **filterbobler**, der du mest møter meninger som ligner dine egne. Mange innlegg er dessuten laget for å skape reaksjoner, fordi engasjement gir spredning. Det påvirker både hva vi diskuterer, og hvordan vi diskuterer.\n\n## Nettvett og ytringer\n\nDet vi skriver på nett, kan spres raskt og bli liggende lenge. **Netthets**, **deling av bilder uten samtykke** og **falske nyheter** er eksempler på hvordan digital kommunikasjon kan skade. Ytringsfriheten gjelder også på nett, men den har grenser, for eksempel mot trusler og hatefulle ytringer.\n\n## Nye sjangre\n\nDigitale medier har gitt oss nye sjangre, som blogginnlegg, vlogger, podkaster, memer og korte videoer. De kombinerer ofte tekst, bilde og lyd, og er dermed **sammensatte tekster**. Mange av dem bygger videre på gamle sjangre: En podkast ligner en radiosamtale, og et blogginnlegg kan ligne et kåseri.",
+  "flashcards": [
+    { "term": "Muntlig skriftkultur", "def": "Skriftlig kommunikasjon, som meldinger, som ligner muntlig språk." },
+    { "term": "Forkortelse", "def": "En kortform av ord eller uttrykk: lol, btw, mvh." },
+    { "term": "Emoji", "def": "Bildesymbol som uttrykker følelser og tone i digitale meldinger." },
+    { "term": "Lydskrift på nett", "def": "Å skrive slik man snakker, ofte på dialekt: «ka du gjør?»." },
+    { "term": "Kodeveksling", "def": "Å veksle mellom uformelt og formelt språk etter situasjonen." },
+    { "term": "Tone i meldinger", "def": "Uten tonefall og kroppsspråk kan korte meldinger lett misforstås." },
+    { "term": "Algoritme (sosiale medier)", "def": "Et dataprogram som velger ut hva du får se, basert på hva du har likt og klikket på." },
+    { "term": "Ekkokammer", "def": "Når du mest møter meninger som ligner dine egne." },
+    { "term": "Filterboble", "def": "Et utvalg av innhold som algoritmer lager for deg, slik at du ser en begrenset del av virkeligheten." },
+    { "term": "Engasjement", "def": "Likerklikk, delinger og kommentarer. Innhold som skaper reaksjoner, spres ofte mer." },
+    { "term": "Netthets", "def": "Trakassering og hets på nett." },
+    { "term": "Samtykke", "def": "At noen har sagt ja, for eksempel til at et bilde av dem kan deles." },
+    { "term": "Falske nyheter", "def": "Oppdiktede eller villedende saker presentert som nyheter." },
+    { "term": "Ytringsfrihet", "def": "Retten til å si sin mening. Gjelder også på nett, men har grenser mot trusler og hatefulle ytringer." },
+    { "term": "Meme", "def": "Et bilde eller en video med tekst som spres og endres av mange brukere." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva menes med muntlig skriftkultur?", "options": ["At vi leser høyt", "At skriftlige meldinger ligner muntlig språk", "At vi bare snakker", "At vi skriver med penn"], "correct": 1, "explain": "Meldinger og chat er skriftlige, men har mange trekk fra muntlig språk." },
+    { "id": "q02", "text": "Hvorfor kan meldingen «ok.» oppfattes som sur?", "options": ["Fordi den er feilstavet", "Fordi den er for lang", "Fordi tonefall og kroppsspråk mangler, og punktum kan virke kort", "Fordi den er på engelsk"], "correct": 2, "explain": "Uten tone og ansiktsuttrykk leser mottakeren meldingen ut fra små signaler, som et punktum." },
+    { "id": "q03", "text": "Hva gjør algoritmer i sosiale medier?", "options": ["Velger ut hva du får se basert på tidligere aktivitet", "Retter skrivefeil", "Oversetter innlegg", "Sletter alle reklamer"], "correct": 0, "explain": "Algoritmene prioriterer innhold de tror du vil like og reagere på." },
+    { "id": "q04", "text": "Hva er et ekkokammer?", "options": ["Et rom med ekko", "En type podkast", "Et innlegg som blir slettet", "Når du mest møter meninger som ligner dine egne"], "correct": 3, "explain": "I et ekkokammer forsterkes egne meninger, fordi motstemmer sjelden slipper til." },
+    { "id": "q05", "text": "Hva er kodeveksling?", "options": ["Å veksle mellom uformelt og formelt språk etter situasjonen", "Å bytte passord", "Å programmere", "Å oversette fra engelsk"], "correct": 0, "explain": "De fleste skriver annerledes i en melding til en venn enn i en skoleoppgave." },
+    { "id": "q06", "text": "Hvilken funksjon har emojier ofte i meldinger?", "options": ["De erstatter alle ord", "De viser følelser og tone, omtrent som kroppsspråk", "De gjør meldingen formell", "De har ingen funksjon"], "correct": 1, "explain": "Emojier kan myke opp tonen og vise hvordan en melding er ment." },
+    { "id": "q07", "text": "Hvorfor spres innhold som skaper sterke reaksjoner ofte mer?", "options": ["Fordi det er sant", "Fordi det er kort", "Fordi engasjement belønnes av algoritmene", "Fordi det er skrevet på dialekt"], "correct": 2, "explain": "Kommentarer, delinger og likerklikk gjør at algoritmene viser innholdet til flere." },
+    { "id": "q08", "text": "Har ytringsfriheten grenser på nett?", "options": ["Nei, alt er lov på nett", "Ja, for eksempel mot trusler og hatefulle ytringer", "Bare på skolens nettsider", "Bare for voksne"], "correct": 1, "explain": "Ytringsfriheten gjelder også på nett, men lovverket setter grenser for blant annet trusler og hat." },
+    { "id": "q09", "text": "Hvilken sjanger ligner en podkast mest på?", "options": ["Et dikt", "En roman", "En radiosamtale", "En plakat"], "correct": 2, "explain": "Podkasten bygger videre på radioformatet med samtaler og intervjuer." },
+    { "id": "q10", "text": "Hva bør du gjøre før du deler et bilde av en venn?", "options": ["Spørre om samtykke", "Redigere bildet", "Legge til en emoji", "Ingenting"], "correct": 0, "explain": "Andre har rett til å bestemme over bilder av seg selv. Spør alltid først." }
+  ],
+  "mindmap": {
+    "label": "Digitale medier og språk",
+    "children": [
+      { "label": "Digitalt språk", "children": [
+        { "label": "Forkortelser" },
+        { "label": "Emojier" },
+        { "label": "Dialekt og lydskrift" },
+        { "label": "Engelske ord" }
+      ] },
+      { "label": "Kommunikasjon", "children": [
+        { "label": "Mangler tonefall" },
+        { "label": "Misforståelser" },
+        { "label": "Kodeveksling" }
+      ] },
+      { "label": "Algoritmer", "children": [
+        { "label": "Velger innhold" },
+        { "label": "Ekkokammer og filterboble" },
+        { "label": "Engasjement gir spredning" }
+      ] },
+      { "label": "Nettvett", "children": [
+        { "label": "Netthets" },
+        { "label": "Samtykke til deling" },
+        { "label": "Falske nyheter" },
+        { "label": "Ytringsfrihet og grenser" }
+      ] },
+      { "label": "Nye sjangre", "children": [
+        { "label": "Blogg og vlogg" },
+        { "label": "Podkast" },
+        { "label": "Memer" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q08", "q10"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Det du publiserer på nett, kan bli liggende og spres i lang tid.", "correct": true, "explain": "Innhold kan kopieres og deles videre, selv om du sletter originalen." },
+      { "id": "m02", "type": "sant-usant", "text": "Alle unge skriver like uformelt i skoleoppgaver som i meldinger.", "correct": false, "explain": "De fleste tilpasser språket til situasjonen og skriver mer formelt i skolen." },
+      { "id": "m03", "type": "sant-usant", "text": "En filterboble kan gjøre at du ser en begrenset del av virkeligheten.", "correct": true, "explain": "Algoritmene viser mest av det du har vist interesse for, og mindre av annet." },
+      { "id": "m04", "type": "sant-usant", "text": "Memer er et eksempel på sammensatte tekster.", "correct": true, "explain": "Memer kombinerer bilde og tekst." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er falske nyheter?", "options": ["Nyheter fra i fjor", "Oppdiktede eller villedende saker presentert som nyheter", "Nyheter om kjendiser", "Nyheter på dialekt"], "correct": 1, "explain": "Falske nyheter later som de er ekte journalistikk, men er oppdiktet eller villedende." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilket av disse er en forkortelse brukt i digitale meldinger?", "options": ["mvh", "hus", "løpe", "grønn"], "correct": 0, "explain": "«Mvh» betyr «med vennlig hilsen»." },
+      { "id": "m07", "type": "flervalg", "text": "Hva kan du gjøre for å unngå at en kort melding blir misforstått?", "options": ["Skrive i store bokstaver", "Sende den på nytt", "Tenke over tonen og eventuelt utdype eller bruke emoji", "Slette appen"], "correct": 2, "explain": "Litt mer tekst eller en emoji kan vise at meldingen er vennlig ment." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

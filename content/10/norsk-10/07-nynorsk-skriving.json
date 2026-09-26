@@ -1,0 +1,80 @@
+{
+  "id": "nynorsk-skriving",
+  "fagId": "norsk-10",
+  "trinnId": "10",
+  "name": "Nynorsk: skriv betre",
+  "intro": "Vanlege feil og nyttige ord når du skriv nynorsk som sidemål: substantiv, verb, pronomen, adjektiv, passiv og ord som skil seg frå bokmål.",
+  "kompetansemaal": [11],
+  "sammendrag": "## Frå grunnkurs til sikker skriving\n\nNår du har lært dei vanlegaste orda og bøyingane, er neste steg å unngå dei typiske feila. Mange av dei kjem av at vi skriv bokmål med nynorske ord i staden for å tenkje nynorsk. Dette sammendraget er skrive på nynorsk, slik at du ser språket i bruk.\n\n## Substantiv\n\nNynorsk har tre kjønn, og **hokjønn** skal alltid brukast: ei bok – boka – bøker – bøkene. Hankjønn får **-ar** og **-ane** i fleirtal: ein bil – bilen – bilar – bilane. Inkjekjønn får **-a** i bestemt fleirtal: eit tre – treet – tre – trea. Ein vanleg feil er å skrive «bilene» eller «husene» på nynorsk.\n\n## Verb\n\nHald styr på **a-verb** og **e-verb**:\n\n- a-verb: å snakke – snakkar – snakka – har snakka\n- e-verb: å lese – les – las – har lese (sterkt), å høyre – høyrer – høyrde – har høyrt (svakt)\n\nMerk at mange sterke verb ikkje har ending i presens: eg skriv, ho et, dei søv.\n\n## Passiv\n\nPå bokmål brukar vi ofte **s-passiv**: «Huset bygges». På nynorsk er det vanlegast med **bli-passiv** eller **vere-passiv**: «Huset blir bygt». s-passiv kan berre brukast etter modalverb: «Huset skal byggjast».\n\n## Pronomen og småord\n\n- eg, meg, han, ho, det, vi (me), oss, de, dykk, dei\n- sin/si/sitt/sine blir brukt som på bokmål.\n- **Ikkje** «ikke», **kva** «hva», **kvar** «hvor/hver», **korleis** «hvordan», **kvifor** «hvorfor», **nokon** «noen», **noko** «noe», **mykje** «mye», **berre** «bare».\n\n## Ord som skil seg ut\n\nNokre bokmålsord har eigne nynorske ord: begynne → **byrje** (eller begynne), spørre → **spørje**, hjemme → **heime**, gjennom → **gjennom**, bare → **berre**, skje → **hende** eller **skje**, fremtid → **framtid**, kun → **berre**, betydning → **tyding** eller **betydning**. Ord som ender på **-het** og **-else** på bokmål, får ofte andre former: kjærlighet → **kjærleik**, frihet → **fridom**, forståelse → **forståing**.\n\n## Arbeidsmåte\n\nSkriv heile teksten på nynorsk frå starten i staden for å omsetje frå bokmål. Bruk **Nynorskordboka** og retteprogram, men les over sjølv. Lag ei liste over dine eigne vanlegaste feil, og øv spesielt på dei. Les nynorske tekstar, for eksempel nyheiter på nynorsk, så blir språket meir naturleg.",
+  "flashcards": [
+    { "term": "Hokjønn på nynorsk", "def": "Alltid i bruk: ei bok – boka – bøker – bøkene." },
+    { "term": "Hankjønn fleirtal", "def": "-ar og -ane: bilar – bilane. Ikkje «bilene»." },
+    { "term": "Inkjekjønn bestemt fleirtal", "def": "-a: husa, trea, barna." },
+    { "term": "a-verb", "def": "snakke – snakkar – snakka – har snakka" },
+    { "term": "Svakt e-verb", "def": "høyre – høyrer – høyrde – har høyrt" },
+    { "term": "Sterkt verb", "def": "lese – les – las – har lese. Ofte inga ending i presens." },
+    { "term": "bli-passiv", "def": "Vanlegaste passiv på nynorsk: Huset blir bygt." },
+    { "term": "s-passiv på nynorsk", "def": "Berre etter modalverb: Huset skal byggjast." },
+    { "term": "nokon og noko", "def": "Nynorsk for «noen» og «noe»." },
+    { "term": "byrje", "def": "Nynorsk for «begynne» (begynne er òg tillate)." },
+    { "term": "spørje", "def": "Nynorsk for «spørre»." },
+    { "term": "heime", "def": "Nynorsk for «hjemme»." },
+    { "term": "kjærleik", "def": "Nynorsk for «kjærlighet»." },
+    { "term": "fridom", "def": "Nynorsk for «frihet»." },
+    { "term": "forståing", "def": "Nynorsk for «forståelse»." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Kva er bestemt form fleirtal av «bil» på nynorsk?", "options": ["bilene", "bilane", "bilarne", "bila"], "correct": 1, "explain": "Hankjønn: ein bil – bilen – bilar – bilane." },
+    { "id": "q02", "text": "Kva er bestemt form eintal av «bok» på nynorsk?", "options": ["boken", "boka", "boki", "bokane"], "correct": 1, "explain": "Bok er hokjønn: ei bok – boka." },
+    { "id": "q03", "text": "Kva for ein setning har rett passiv på nynorsk?", "options": ["Huset bygges no.", "Huset byggjest no.", "Huset blir bygt no.", "Huset bygger no."], "correct": 2, "explain": "På nynorsk bruker vi helst bli-passiv. s-passiv kan berre stå etter modalverb." },
+    { "id": "q04", "text": "Kva heiter «kjærlighet» på nynorsk?", "options": ["kjærleik", "kjærlighet", "kjærligheit", "kjærleiken"], "correct": 0, "explain": "Kjærleik er den nynorske forma." },
+    { "id": "q05", "text": "Kva er presens av «å snakke» på nynorsk?", "options": ["snakker", "snakk", "snakka", "snakkar"], "correct": 3, "explain": "Snakke er eit a-verb, og a-verb får -ar i presens." },
+    { "id": "q06", "text": "Kva heiter «noe» på nynorsk?", "options": ["noe", "nokon", "noko", "nåke"], "correct": 2, "explain": "Noko = noe. Nokon = noen." },
+    { "id": "q07", "text": "Kva heiter «hjemme» på nynorsk?", "options": ["heime", "hjemme", "heima", "hjeime"], "correct": 0, "explain": "Heime er den nynorske forma." },
+    { "id": "q08", "text": "Kva er bestemt fleirtal av «hus» på nynorsk?", "options": ["husene", "husane", "huse", "husa"], "correct": 3, "explain": "Inkjekjønn får -a i bestemt fleirtal: husa." },
+    { "id": "q09", "text": "Kva er det beste rådet når du skriv nynorsk?", "options": ["Skriv på bokmål og omset etterpå", "Skriv på nynorsk frå starten og bruk ordbok", "Bruk berre retteprogram og ikkje les over", "Bland bokmål og nynorsk fritt"], "correct": 1, "explain": "Når du tenkjer nynorsk frå starten, unngår du mange bokmålsprega feil." },
+    { "id": "q10", "text": "Kva heiter «frihet» på nynorsk?", "options": ["friheit", "fridom", "frihet", "friskap"], "correct": 1, "explain": "Fridom er nynorsk for frihet." }
+  ],
+  "mindmap": {
+    "label": "Nynorsk: skriv betre",
+    "children": [
+      { "label": "Substantiv", "children": [
+        { "label": "Hokjønn alltid", "note": "boka" },
+        { "label": "Hankjønn -ar/-ane" },
+        { "label": "Inkjekjønn -a", "note": "husa" }
+      ] },
+      { "label": "Verb", "children": [
+        { "label": "a-verb", "note": "snakkar – snakka" },
+        { "label": "e-verb", "note": "høyrer – høyrde" },
+        { "label": "Sterke verb", "note": "les – las" }
+      ] },
+      { "label": "Passiv", "children": [
+        { "label": "bli-passiv", "note": "blir bygt" },
+        { "label": "s-passiv etter modalverb", "note": "skal byggjast" }
+      ] },
+      { "label": "Småord", "children": [
+        { "label": "ikkje, kva, korleis" },
+        { "label": "nokon, noko, mykje" }
+      ] },
+      { "label": "Eigne ord", "children": [
+        { "label": "byrje, spørje, heime" },
+        { "label": "kjærleik, fridom" },
+        { "label": "forståing" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q08", "q10"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "«Bilene» er rett bestemt fleirtal på nynorsk.", "correct": false, "explain": "Rett form er «bilane»." },
+      { "id": "m02", "type": "sant-usant", "text": "På nynorsk kan s-passiv brukast etter modalverb, som «skal byggjast».", "correct": true, "explain": "Etter modalverb som skal, må og kan er s-passiv tillate." },
+      { "id": "m03", "type": "sant-usant", "text": "«Spørje» er nynorsk for «spørre».", "correct": true, "explain": "Spørje er den nynorske forma." },
+      { "id": "m04", "type": "sant-usant", "text": "Nynorsk har berre to kjønn.", "correct": false, "explain": "Nynorsk har tre kjønn: hankjønn, hokjønn og inkjekjønn." },
+      { "id": "m05", "type": "flervalg", "text": "Kva heiter «forståelse» på nynorsk?", "options": ["forståelse", "forståing", "forståelsen", "forstånad"], "correct": 1, "explain": "Forståing er nynorsk for forståelse." },
+      { "id": "m06", "type": "flervalg", "text": "Kva er preteritum av «å høyre» på nynorsk?", "options": ["høyrte", "høyra", "høyrde", "hørte"], "correct": 2, "explain": "Høyre er eit svakt e-verb: høyrer – høyrde – har høyrt." },
+      { "id": "m07", "type": "flervalg", "text": "Kva heiter «noen» på nynorsk?", "options": ["nokon", "noko", "noen", "nokre"], "correct": 0, "explain": "Nokon = noen. (Nokre brukast òg i fleirtal: nokre bøker.)" }
+    ]
+  },
+  "kvalitet": { "status": "sjekkes", "merknader": ["Sjekk nynorskformene mot nynorsknormalen frå 2012, særleg valfrie former (me/vi, begynne/byrje, tyding/betydning) og tekst skrive på nynorsk."] }
+}

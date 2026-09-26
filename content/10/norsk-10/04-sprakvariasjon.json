@@ -1,0 +1,83 @@
+{
+  "id": "sprakvariasjon",
+  "fagId": "norsk-10",
+  "trinnId": "10",
+  "name": "Språklig variasjon og dialekter",
+  "intro": "Dialekter, sosiolekter, etnolekter og multietnolekt, hvordan språket varierer med situasjon, og hvilke holdninger folk har til ulike måter å snakke på.",
+  "kompetansemaal": [16],
+  "sammendrag": "## Norge – et land med mange måter å snakke på\n\nI Norge er det vanlig å snakke **dialekt**, også i skolen, på jobb og på TV. Det finnes ikke noe offisielt standard talemål. Det er uvanlig i europeisk sammenheng, der mange land har et normert talemål som regnes som «riktig». Talemålet vårt varierer etter hvor vi kommer fra, hvem vi er, og hvilken situasjon vi er i.\n\n## Dialekter\n\nEn **dialekt** er en geografisk variant av et språk. Norske dialekter deles ofte i fire hovedgrupper: **østnorsk**, **vestnorsk**, **trøndersk** og **nordnorsk**. Noen kjennetegn som skiller dem, er:\n\n- **Skarre-r** (bakre r), som er vanlig på Sør- og Vestlandet, mot **rulle-r** i store deler av landet ellers.\n- **Personlige pronomen**: jeg kan være eg, æ, je, i eller jæ.\n- **Infinitivsendelse**: å væra, å vere, å kaste, å kast.\n- **Tjukk l**, en særegen l-lyd i mange østnorske og trønderske dialekter.\n\n## Sosiolekt, etnolekt og multietnolekt\n\n- En **sosiolekt** er en språkvariant knyttet til en sosial gruppe, for eksempel yrke, utdanning eller samfunnslag.\n- En **etnolekt** er en variant knyttet til en etnisk gruppe.\n- En **multietnolekt** oppstår der unge med mange ulike språkbakgrunner vokser opp sammen, som i deler av Oslo. Den blander trekk fra flere språk, for eksempel ord som **wolla** (jeg sverger) og **sjofe** (se), og kan ha en annen ordstilling: «I går jeg var på kino».\n\n## Situasjon og stil\n\nAlle varierer språket etter **situasjonen**. Vi snakker annerledes til venner enn i et jobbintervju. Å bytte mellom språkvarianter etter situasjonen kalles **kodeveksling**. Et **idiolekt** er den personlige måten hver enkelt snakker på.\n\n## Språkendring og påvirkning\n\nSpråk endrer seg hele tiden. Dialekter påvirkes av flytting, urbanisering og medier. Mange mener at dialektene blir mer like hverandre, særlig rundt de store byene. Samtidig tar norsk inn mange **lånord**, i dag særlig fra engelsk.\n\n## Holdninger til språk\n\nFolk har ofte sterke meninger om hvordan andre snakker. Noen dialekter blir oppfattet som «fine», andre som «bondske» eller «tøffe». Slike **holdninger** sier mer om fordommer og status enn om språket selv. Språkforskere beskriver språket slik det brukes, uten å rangere dialekter som bedre eller dårligere. Det er lurt å reflektere over hvilke holdninger man selv har, og hvorfor.",
+  "flashcards": [
+    { "term": "Dialekt", "def": "En geografisk variant av et språk." },
+    { "term": "Fire dialektgrupper", "def": "Østnorsk, vestnorsk, trøndersk og nordnorsk." },
+    { "term": "Skarre-r", "def": "Bakre r-lyd, vanlig på Sør- og Vestlandet." },
+    { "term": "Tjukk l", "def": "En særegen l-lyd i mange østnorske og trønderske dialekter." },
+    { "term": "Sosiolekt", "def": "Språkvariant knyttet til en sosial gruppe, som yrke eller samfunnslag." },
+    { "term": "Etnolekt", "def": "Språkvariant knyttet til en etnisk gruppe." },
+    { "term": "Multietnolekt", "def": "Språkvariant som oppstår der unge med mange språkbakgrunner vokser opp sammen." },
+    { "term": "Idiolekt", "def": "Den personlige måten hver enkelt snakker på." },
+    { "term": "Kodeveksling", "def": "Å bytte mellom språkvarianter eller språk etter situasjonen." },
+    { "term": "Standardtalemål", "def": "Et offisielt «riktig» talemål. Norge har ikke noe slikt." },
+    { "term": "Lånord", "def": "Ord hentet fra andre språk, i dag særlig fra engelsk." },
+    { "term": "Urbanisering", "def": "At flere flytter til byer. Påvirker dialektene." },
+    { "term": "Språkholdninger", "def": "Meninger om språk og dialekter, ofte knyttet til status og fordommer." },
+    { "term": "Beskrivende syn på språk", "def": "Språkforskere beskriver språket slik det brukes, uten å rangere dialekter." },
+    { "term": "wolla", "def": "Ord fra multietnolekt som betyr «jeg sverger»." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er en dialekt?", "options": ["En sosial språkvariant", "En geografisk variant av et språk", "Et fremmedspråk", "En personlig måte å skrive på"], "correct": 1, "explain": "Dialekter er knyttet til hvor man kommer fra." },
+    { "id": "q02", "text": "Hva er en sosiolekt?", "options": ["En språkvariant knyttet til en sosial gruppe", "En dialekt fra Vestlandet", "Et samisk språk", "Et ord fra engelsk"], "correct": 0, "explain": "Sosiolekter henger sammen med sosial bakgrunn, som yrke eller utdanning." },
+    { "id": "q03", "text": "Hvor er skarre-r særlig vanlig?", "options": ["I Nord-Norge", "I Trøndelag", "På Sør- og Vestlandet", "Østafjells"], "correct": 2, "explain": "Den bakre r-en er vanlig langs kysten fra Sørlandet til Vestlandet." },
+    { "id": "q04", "text": "Hva er en multietnolekt?", "options": ["En dialekt fra én bygd", "Et offisielt språk", "En type skriftspråk", "En språkvariant som oppstår der unge med ulike språkbakgrunner vokser opp sammen"], "correct": 3, "explain": "Multietnolekter blander trekk fra flere språk og er vanlige i flerspråklige bymiljøer." },
+    { "id": "q05", "text": "Hva er kodeveksling?", "options": ["Å bytte språkvariant etter situasjonen", "Å skrive kode på datamaskin", "Å lære et nytt språk", "Å bytte dialekt for alltid"], "correct": 0, "explain": "Vi kodeveksler når vi snakker annerledes med venner enn i formelle situasjoner." },
+    { "id": "q06", "text": "Hva er spesielt med Norge når det gjelder talemål?", "options": ["Alle må snakke bokmål", "Vi har ikke noe offisielt standardtalemål", "Dialekter er forbudt på TV", "Alle snakker likt"], "correct": 1, "explain": "I Norge er det vanlig og akseptert å bruke dialekt i nesten alle sammenhenger." },
+    { "id": "q07", "text": "Hva betyr idiolekt?", "options": ["En dialekt fra Oslo", "Et lånord", "Den personlige måten hver enkelt snakker på", "Et gammelt språk"], "correct": 2, "explain": "Ingen snakker helt likt. Idiolekten er ditt eget, personlige språk." },
+    { "id": "q08", "text": "Hvilket språk henter norsk flest lånord fra i dag?", "options": ["Tysk", "Latin", "Svensk", "Engelsk"], "correct": 3, "explain": "Gjennom medier, teknologi og populærkultur kommer mange nye ord fra engelsk." },
+    { "id": "q09", "text": "Hva sier språkforskere om at noen dialekter er «finere» enn andre?", "options": ["At det stemmer", "At slike vurderinger handler om holdninger og status, ikke om språket selv", "At bydialekter alltid er finest", "At bare skriftspråk er fint"], "correct": 1, "explain": "Forskere beskriver språket slik det brukes. Rangering av dialekter bygger på fordommer." },
+    { "id": "q10", "text": "Hvilke fire hovedgrupper deles norske dialekter ofte i?", "options": ["Bokmål, nynorsk, riksmål, høgnorsk", "Nord, sør, øst, vest", "By, bygd, fjell, kyst", "Østnorsk, vestnorsk, trøndersk og nordnorsk"], "correct": 3, "explain": "Dette er den vanlige inndelingen av norske dialekter i fire hovedgrupper." }
+  ],
+  "mindmap": {
+    "label": "Språklig variasjon",
+    "children": [
+      { "label": "Dialekter", "children": [
+        { "label": "Østnorsk, vestnorsk, trøndersk, nordnorsk" },
+        { "label": "Skarre-r og rulle-r" },
+        { "label": "Tjukk l" },
+        { "label": "Pronomen", "note": "eg, æ, je" }
+      ] },
+      { "label": "Andre varianter", "children": [
+        { "label": "Sosiolekt" },
+        { "label": "Etnolekt" },
+        { "label": "Multietnolekt" },
+        { "label": "Idiolekt" }
+      ] },
+      { "label": "Situasjon", "children": [
+        { "label": "Kodeveksling" },
+        { "label": "Formelt og uformelt" }
+      ] },
+      { "label": "Endring", "children": [
+        { "label": "Urbanisering" },
+        { "label": "Lånord fra engelsk" },
+        { "label": "Utjevning av dialekter" }
+      ] },
+      { "label": "Holdninger", "children": [
+        { "label": "Status og fordommer" },
+        { "label": "Ingen offisiell standard" },
+        { "label": "Reflekter over egne holdninger" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q08", "q09"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Alle i Norge har samme idiolekt.", "correct": false, "explain": "Idiolekten er personlig, så ingen snakker helt likt." },
+      { "id": "m02", "type": "sant-usant", "text": "Dialekter kan endre seg over tid.", "correct": true, "explain": "Flytting, urbanisering og medier påvirker hvordan folk snakker." },
+      { "id": "m03", "type": "sant-usant", "text": "Å snakke annerledes med bestemor enn med venner er et eksempel på kodeveksling.", "correct": true, "explain": "Vi tilpasser språket til situasjonen og mottakeren." },
+      { "id": "m04", "type": "sant-usant", "text": "Bokmål er det offisielle talemålet i Norge.", "correct": false, "explain": "Bokmål er et skriftspråk. Norge har ikke noe offisielt standardtalemål." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er et typisk trekk ved multietnolekt?", "options": ["Bare gamle norske ord", "Ord fra flere språk og av og til en annen ordstilling", "Skarre-r", "Nynorsk skriftform"], "correct": 1, "explain": "Multietnolekter blander trekk fra ulike språk, som «wolla», og kan ha annen ordstilling." },
+      { "id": "m06", "type": "flervalg", "text": "Hva kalles en språkvariant knyttet til en etnisk gruppe?", "options": ["Sosiolekt", "Idiolekt", "Etnolekt", "Dialekt"], "correct": 2, "explain": "Etnolekt er knyttet til etnisk bakgrunn." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilken form av «jeg» er typisk for mange vestnorske dialekter?", "options": ["eg", "jæ", "æ", "je"], "correct": 0, "explain": "«Eg» er vanlig på Vestlandet. «Æ» er vanlig i Trøndelag og Nord-Norge." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

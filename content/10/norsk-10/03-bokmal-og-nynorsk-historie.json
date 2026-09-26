@@ -1,0 +1,79 @@
+{
+  "id": "bokmal-og-nynorsk-historie",
+  "fagId": "norsk-10",
+  "trinnId": "10",
+  "name": "Bokmål, nynorsk og språkene i Norge",
+  "intro": "Hvorfor Norge har to skriftspråk, Ivar Aasen og Knud Knudsen, de viktigste årstallene i språkstriden, og hvilken status de offisielle språkene har i dag.",
+  "kompetansemaal": [15],
+  "sammendrag": "## Fra norrønt til dansk\n\nI middelalderen hadde Norge et eget skriftspråk, **norrønt**. Etter Svartedauden på 1300-tallet og unionen med Danmark ble **dansk** det vanlige skriftspråket i Norge. I om lag fire hundre år skrev nordmenn dansk, mens de fortsatte å snakke norske dialekter.\n\n## 1814 og et nytt språkspørsmål\n\nI **1814** fikk Norge sin egen grunnlov og ble en egen stat, men i union med Sverige. Mange mente at et selvstendig folk også trengte et eget skriftspråk. To ulike løsninger vokste fram.\n\n## Ivar Aasen og landsmålet\n\n**Ivar Aasen** (1813–1896) reiste rundt i landet og studerte dialektene. Han ga ut en grammatikk (1848) og en ordbok (1850) over det norske folkespråket. Ut fra dialektene, og med blikk til norrønt, lagde han et nytt skriftspråk: **landsmålet**. Det er grunnlaget for dagens **nynorsk**.\n\n## Knud Knudsen og riksmålet\n\n**Knud Knudsen** (1812–1895) ville heller **fornorske** det danske skriftspråket gradvis, blant annet etter talemålet til de dannede i byene. Denne linjen førte til **riksmålet**, som er grunnlaget for dagens **bokmål**.\n\n## Viktige årstall\n\n- **1885**: Stortinget vedtok **jamstillingsvedtaket**. Landsmålet ble likestilt med det dansk-norske skriftspråket.\n- **1907**: Den første store rettskrivingsreformen fornorsket riksmålet.\n- **1929**: Navnene **bokmål** og **nynorsk** ble vedtatt i stedet for riksmål og landsmål.\n- **1938**: En reform skulle føre de to målformene nærmere hverandre, mot et felles **samnorsk**. Tanken om samnorsk ble senere oppgitt.\n- **2005** (bokmål) og **2012** (nynorsk): de siste store rettskrivingsreformene.\n\n## Språkene i Norge i dag\n\n**Språkloven**, som trådte i kraft i **2022**, slår fast at **norsk** er hovedspråket i Norge, og at bokmål og nynorsk er **likestilte** skriftspråk. **Samisk** er urfolksspråk og likestilt med norsk. **Kvensk**, **romani**, **romanes** og **skogfinsk** er nasjonale minoritetsspråk, og **norsk tegnspråk** har også en særskilt status. I tillegg snakkes det mange andre språk i Norge.\n\nNynorsk er hovedmål for rundt en av ti elever i grunnskolen, flest på Vestlandet. Statlige organer må bruke begge målformene, og elever lærer både **hovedmål** og **sidemål**. Mange diskuterer fortsatt hvor sterkt sidemålet skal stå i skolen, og hvordan nynorsk kan klare seg i konkurranse med bokmål og engelsk.",
+  "flashcards": [
+    { "term": "Norrønt", "def": "Skriftspråket i Norge i middelalderen." },
+    { "term": "Dansk skriftspråk i Norge", "def": "Ble det vanlige skriftspråket etter unionen med Danmark og ble brukt i om lag 400 år." },
+    { "term": "1814", "def": "Norge fikk egen grunnlov og ble en egen stat, i union med Sverige." },
+    { "term": "Ivar Aasen", "def": "Samlet dialekter og lagde landsmålet, grunnlaget for nynorsk." },
+    { "term": "Landsmål", "def": "Aasens skriftspråk bygd på norske dialekter. Grunnlaget for nynorsk." },
+    { "term": "Knud Knudsen", "def": "Ville fornorske dansk gradvis. Hans linje førte til riksmålet og bokmålet." },
+    { "term": "Riksmål", "def": "Fornorsket dansk skriftspråk. Grunnlaget for bokmål." },
+    { "term": "Jamstillingsvedtaket 1885", "def": "Stortinget likestilte landsmålet med det dansk-norske skriftspråket." },
+    { "term": "1929", "def": "Navnene bokmål og nynorsk ble vedtatt." },
+    { "term": "Samnorsk", "def": "Ideen om å slå sammen bokmål og nynorsk til ett språk. Senere oppgitt." },
+    { "term": "Språkloven", "def": "Lov i kraft fra 2022: norsk er hovedspråket, og bokmål og nynorsk er likestilte." },
+    { "term": "Samisk", "def": "Urfolksspråk i Norge, likestilt med norsk." },
+    { "term": "Nasjonale minoritetsspråk", "def": "Kvensk, romani, romanes og skogfinsk." },
+    { "term": "Hovedmål og sidemål", "def": "Hovedmålet er den målformen eleven bruker mest. Sidemålet er den andre." },
+    { "term": "Rettskrivingsreformer", "def": "De siste store: bokmål i 2005 og nynorsk i 2012." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvorfor skrev nordmenn dansk i flere hundre år?", "options": ["Fordi Norge var i union med Danmark", "Fordi norsk ikke fantes", "Fordi dansk var lettere", "Fordi kongen kom fra Sverige"], "correct": 0, "explain": "Under unionen med Danmark ble dansk det vanlige skriftspråket, mens folk snakket norske dialekter." },
+    { "id": "q02", "text": "Hvem lagde landsmålet?", "options": ["Knud Knudsen", "Henrik Ibsen", "Ivar Aasen", "Henrik Wergeland"], "correct": 2, "explain": "Ivar Aasen bygde landsmålet på dialektene. Det er grunnlaget for nynorsk." },
+    { "id": "q03", "text": "Hva ville Knud Knudsen?", "options": ["Innføre svensk", "Fornorske det danske skriftspråket gradvis", "Lage et nytt språk fra dialektene", "Gå tilbake til norrønt"], "correct": 1, "explain": "Knudsen ville gradvis gjøre dansk mer norsk. Det førte til riksmål og senere bokmål." },
+    { "id": "q04", "text": "Hva skjedde i 1885?", "options": ["Norge fikk grunnlov", "Bokmål fikk navnet sitt", "Samnorsk ble innført", "Landsmålet ble likestilt med det dansk-norske skriftspråket"], "correct": 3, "explain": "Stortingets jamstillingsvedtak i 1885 ga landsmålet samme status som det offisielle skriftspråket." },
+    { "id": "q05", "text": "Når fikk bokmål og nynorsk navnene sine?", "options": ["1814", "1885", "1929", "2005"], "correct": 2, "explain": "I 1929 ble navnene bokmål og nynorsk vedtatt i stedet for riksmål og landsmål." },
+    { "id": "q06", "text": "Hva var samnorsk?", "options": ["Et samisk språk", "Ideen om å slå sammen bokmål og nynorsk til ett språk", "Et nordisk fellesspråk", "En dialekt fra Nord-Norge"], "correct": 1, "explain": "Samnorsk var et mål i språkpolitikken i deler av 1900-tallet, men ble senere oppgitt." },
+    { "id": "q07", "text": "Hva sier språkloven om bokmål og nynorsk?", "options": ["At bokmål er viktigst", "At nynorsk skal fases ut", "At de er likestilte skriftspråk", "At de skal slås sammen"], "correct": 2, "explain": "Språkloven fra 2022 slår fast at bokmål og nynorsk er likestilte skriftspråk." },
+    { "id": "q08", "text": "Hvilken status har samisk i Norge?", "options": ["Urfolksspråk, likestilt med norsk", "Nasjonalt minoritetsspråk", "Fremmedspråk", "Dialekt"], "correct": 0, "explain": "Samisk er urfolksspråk og likestilt med norsk." },
+    { "id": "q09", "text": "Hvilket språk er et nasjonalt minoritetsspråk i Norge?", "options": ["Engelsk", "Samisk", "Polsk", "Kvensk"], "correct": 3, "explain": "Kvensk, romani, romanes og skogfinsk er nasjonale minoritetsspråk. Samisk har status som urfolksspråk." },
+    { "id": "q10", "text": "Hva bygde Ivar Aasen landsmålet på?", "options": ["Dansk skriftspråk", "Norske dialekter, med blikk til norrønt", "Svensk", "Byfolkets talemål"], "correct": 1, "explain": "Aasen studerte dialekter over hele landet og brukte dem som grunnlag." }
+  ],
+  "mindmap": {
+    "label": "Bokmål og nynorsk",
+    "children": [
+      { "label": "Bakgrunn", "children": [
+        { "label": "Norrønt", "note": "Middelalderen" },
+        { "label": "Dansk", "note": "Ca. 400 år" },
+        { "label": "1814", "note": "Egen grunnlov" }
+      ] },
+      { "label": "To løsninger", "children": [
+        { "label": "Ivar Aasen", "note": "Landsmål → nynorsk" },
+        { "label": "Knud Knudsen", "note": "Riksmål → bokmål" }
+      ] },
+      { "label": "Årstall", "children": [
+        { "label": "1885", "note": "Jamstillingsvedtaket" },
+        { "label": "1907", "note": "Reform" },
+        { "label": "1929", "note": "Nye navn" },
+        { "label": "1938", "note": "Samnorsk-reform" },
+        { "label": "2005 / 2012", "note": "Siste reformer" }
+      ] },
+      { "label": "I dag", "children": [
+        { "label": "Språkloven 2022" },
+        { "label": "Samisk", "note": "Urfolksspråk" },
+        { "label": "Minoritetsspråk", "note": "Kvensk, romani, romanes, skogfinsk" },
+        { "label": "Norsk tegnspråk" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q07", "q08", "q09"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Nynorsk bygger på landsmålet til Ivar Aasen.", "correct": true, "explain": "Landsmålet fikk navnet nynorsk i 1929." },
+      { "id": "m02", "type": "sant-usant", "text": "Bokmål bygger på det danske skriftspråket.", "correct": true, "explain": "Bokmål er en videreutvikling av dansk skriftspråk gjennom fornorsking." },
+      { "id": "m03", "type": "sant-usant", "text": "Samnorsk er det offisielle skriftspråket i Norge i dag.", "correct": false, "explain": "Samnorsk ble aldri innført. Bokmål og nynorsk er de likestilte skriftspråkene." },
+      { "id": "m04", "type": "sant-usant", "text": "De fleste elever i grunnskolen har nynorsk som hovedmål.", "correct": false, "explain": "Rundt en av ti elever har nynorsk som hovedmål. De fleste har bokmål." },
+      { "id": "m05", "type": "flervalg", "text": "Hva var jamstillingsvedtaket?", "options": ["Et vedtak om å likestille landsmålet med det dansk-norske skriftspråket", "En lov om samisk", "En reform av bokmål", "Grunnloven av 1814"], "correct": 0, "explain": "Vedtaket i 1885 ga landsmålet offisiell status." },
+      { "id": "m06", "type": "flervalg", "text": "Hvor bor det flest nynorskbrukere?", "options": ["I Oslo", "I Finnmark", "På Vestlandet", "I Trøndelag"], "correct": 2, "explain": "Nynorsk står sterkest på Vestlandet." },
+      { "id": "m07", "type": "flervalg", "text": "Når trådte språkloven i kraft?", "options": ["1885", "1929", "2005", "2022"], "correct": 3, "explain": "Språkloven trådte i kraft 1. januar 2022." }
+    ]
+  },
+  "kvalitet": { "status": "sjekkes", "merknader": ["Andelen elever med nynorsk som hovedmål («rundt en av ti») bør sjekkes mot fersk statistikk fra SSB/Språkrådet."] }
+}

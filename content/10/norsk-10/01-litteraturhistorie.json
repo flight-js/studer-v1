@@ -1,0 +1,84 @@
+{
+  "id": "litteraturhistorie",
+  "fagId": "norsk-10",
+  "trinnId": "10",
+  "name": "Litteraturhistorie i korte trekk",
+  "intro": "De store epokene i norsk litteratur – fra norrøn tid og folkediktning via romantikk og realisme til modernisme – og hvordan tekster henger sammen med tiden de ble skrevet i.",
+  "kompetansemaal": [2, 1],
+  "sammendrag": "## Hvorfor litteraturhistorie?\n\nLitteratur blir skrevet i en bestemt tid, og tiden preger hva forfatterne skriver om og hvordan de skriver. Når du kjenner **epokene**, kan du forstå eldre tekster bedre og se hvordan nye tekster bygger videre på eller bryter med de gamle.\n\n## Norrøn tid og folkediktning\n\nI **norrøn tid** (ca. 800–1350) ble det laget **skaldedikt**, **eddadikt** om guder og helter, og **sagaer** om konger og slekter. **Snorre Sturlason** skrev kongesagaene i Heimskringla på 1200-tallet.\n\n**Folkediktningen** ble fortalt og sunget muntlig i generasjoner: eventyr, sagn, folkeviser og ordtak. På 1800-tallet samlet **Asbjørnsen og Moe** eventyrene og ga dem ut, fra 1841.\n\n## Romantikken (ca. 1800–1850)\n\nRomantikerne satte **følelser**, **fantasi** og **naturen** høyt. De var opptatt av fortiden og av det som var særegent for folket. I Norge ble dette til **nasjonalromantikk**, som dyrket bondekultur, fjell og folkediktning. **Henrik Wergeland** er en av de store dikterne fra denne tiden.\n\n## Realismen (ca. 1870–1890)\n\nRealistene ville skildre samfunnet slik det **faktisk var**, og **sette problemer under debatt**, som kvinners rettigheter, dobbeltmoral og fattigdom. Perioden kalles også **det moderne gjennombrudd**. **Henrik Ibsen** skrev skuespillet **Et dukkehjem** (1879), der Nora forlater mann og barn. **Bjørnstjerne Bjørnson**, **Alexander Kielland** og **Amalie Skram** var andre viktige forfattere. Skram skrev i en enda mer usminket stil, **naturalismen**.\n\n## Nyromantikken (1890-tallet)\n\nPå 1890-tallet vendte flere forfattere blikket innover, mot **sjelelivet**, drømmer og det uforklarlige. **Knut Hamsuns** roman **Sult** (1890) skildrer tankene og følelsene til en sulten forfatter i Kristiania.\n\n## Modernismen (1900-tallet)\n\n**Modernistene** brøt med tradisjonelle former. Dikt på **frie vers** uten rim og fast rytme ble vanlige, og mange tekster skildret byliv, teknologi og fremmedgjøring. **Rolf Jacobsens** diktsamling **Jord og jern** (1933) regnes ofte som et tidlig eksempel på norsk modernistisk lyrikk.\n\n## Samtidslitteratur\n\nDagens litteratur er mangfoldig, med alt fra krimromaner og selvbiografiske romaner til ungdomsbøker og spoken word. Forfattere skriver om identitet, klima, teknologi og et flerkulturelt samfunn. Å sammenligne en tekst fra samtiden med en fra en tidligere epoke kan vise både hva som har endret seg, og hvilke temaer som er tidløse.",
+  "flashcards": [
+    { "term": "Epoke", "def": "En periode i litteraturhistorien med felles trekk, som romantikken eller realismen." },
+    { "term": "Norrøn tid", "def": "Ca. 800–1350. Eddadikt, skaldedikt og sagaer." },
+    { "term": "Snorre Sturlason", "def": "Islandsk forfatter som skrev kongesagaene i Heimskringla på 1200-tallet." },
+    { "term": "Folkediktning", "def": "Muntlig overlevert diktning: eventyr, sagn, folkeviser og ordtak." },
+    { "term": "Asbjørnsen og Moe", "def": "Samlet og ga ut norske folkeeventyr fra 1841." },
+    { "term": "Romantikken", "def": "Ca. 1800–1850. Følelser, fantasi, natur og interesse for fortiden." },
+    { "term": "Nasjonalromantikk", "def": "Norsk romantikk som dyrket bondekultur, natur og det nasjonale." },
+    { "term": "Henrik Wergeland", "def": "Dikter i romantikken (1808–1845)." },
+    { "term": "Realismen", "def": "Ca. 1870–1890. Skildret samfunnet som det var og satte problemer under debatt." },
+    { "term": "Det moderne gjennombrudd", "def": "Navn på overgangen til realismen, der litteraturen skulle debattere samfunnsproblemer." },
+    { "term": "Et dukkehjem", "def": "Skuespill av Henrik Ibsen fra 1879 om Nora, som bryter ut av ekteskapet." },
+    { "term": "Naturalismen", "def": "En enda mer usminket form for realisme. Amalie Skram er et norsk eksempel." },
+    { "term": "Nyromantikken", "def": "1890-tallet. Vendte blikket mot sjelelivet, drømmer og det uforklarlige." },
+    { "term": "Sult", "def": "Roman av Knut Hamsun fra 1890 om en sulten forfatter i Kristiania." },
+    { "term": "Modernismen", "def": "1900-tallet. Brudd med tradisjonelle former, frie vers og skildring av moderne liv." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvilken epoke satte følelser, natur og fortid i sentrum?", "options": ["Realismen", "Romantikken", "Modernismen", "Naturalismen"], "correct": 1, "explain": "Romantikerne dyrket følelser, fantasi og naturen, og var opptatt av fortiden." },
+    { "id": "q02", "text": "Hvem skrev Et dukkehjem?", "options": ["Knut Hamsun", "Henrik Wergeland", "Henrik Ibsen", "Amalie Skram"], "correct": 2, "explain": "Henrik Ibsen skrev skuespillet i 1879, i realismens periode." },
+    { "id": "q03", "text": "Hva ville realistene med litteraturen?", "options": ["Skildre samfunnet som det var og sette problemer under debatt", "Flykte fra virkeligheten til eventyrverdenen", "Skrive bare om naturen", "Bryte med alle regler for form"], "correct": 0, "explain": "Realistene tok opp problemer som kvinners stilling og dobbeltmoral." },
+    { "id": "q04", "text": "Hva samlet Asbjørnsen og Moe?", "options": ["Sagaer", "Skuespill", "Moderne dikt", "Folkeeventyr"], "correct": 3, "explain": "De samlet eventyr som var fortalt muntlig, og ga dem ut fra 1841." },
+    { "id": "q05", "text": "Hvilken roman av Knut Hamsun kom i 1890?", "options": ["Sult", "Et dukkehjem", "Jord og jern", "Heimskringla"], "correct": 0, "explain": "Sult skildrer en sulten forfatters indre liv og regnes som et viktig verk i nyromantikken." },
+    { "id": "q06", "text": "Hva kjennetegner modernismen?", "options": ["Faste rim og rytme", "Folkeeventyr", "Brudd med tradisjonelle former, blant annet frie vers", "Kongesagaer"], "correct": 2, "explain": "Modernistene eksperimenterte med formen og skrev om det moderne livet." },
+    { "id": "q07", "text": "Når omtrent var norrøn tid?", "options": ["1800–1850", "Ca. 800–1350", "1870–1890", "1900–2000"], "correct": 1, "explain": "Norrøn tid strekker seg omtrent fra vikingtiden til midten av 1300-tallet." },
+    { "id": "q08", "text": "Hva er nasjonalromantikk?", "options": ["En retning som dyrket det særegne norske, som bondekultur og natur", "En kjærlighetsroman", "Modernistisk lyrikk", "En type krim"], "correct": 0, "explain": "Nasjonalromantikken knyttet romantikkens ideer til byggingen av en norsk nasjonal identitet." },
+    { "id": "q09", "text": "Hvilken forfatter forbindes med naturalismen?", "options": ["Henrik Wergeland", "Snorre Sturlason", "Rolf Jacobsen", "Amalie Skram"], "correct": 3, "explain": "Amalie Skram skrev usminket om blant annet kvinners situasjon, i naturalismens stil." },
+    { "id": "q10", "text": "Hvorfor er det nyttig å kjenne den historiske konteksten til en tekst?", "options": ["Fordi den forklarer hvorfor teksten tar opp de temaene den gjør", "Fordi alle tekster handler om historie", "Fordi den bestemmer hvor lang teksten er", "Den er ikke nyttig"], "correct": 0, "explain": "Tiden teksten ble skrevet i, preger temaer, verdier og form." }
+  ],
+  "mindmap": {
+    "label": "Litteraturhistorie",
+    "children": [
+      { "label": "Norrøn tid", "children": [
+        { "label": "Edda og skaldedikt" },
+        { "label": "Sagaer", "note": "Snorre" }
+      ] },
+      { "label": "Folkediktning", "children": [
+        { "label": "Eventyr, sagn, folkeviser" },
+        { "label": "Asbjørnsen og Moe", "note": "Fra 1841" }
+      ] },
+      { "label": "Romantikken", "children": [
+        { "label": "Følelser og natur" },
+        { "label": "Nasjonalromantikk" },
+        { "label": "Wergeland" }
+      ] },
+      { "label": "Realismen", "children": [
+        { "label": "Problemer under debatt" },
+        { "label": "Ibsen: Et dukkehjem", "note": "1879" },
+        { "label": "Skram: naturalisme" }
+      ] },
+      { "label": "Nyromantikk", "children": [
+        { "label": "Sjelelivet" },
+        { "label": "Hamsun: Sult", "note": "1890" }
+      ] },
+      { "label": "Modernisme og samtid", "children": [
+        { "label": "Frie vers" },
+        { "label": "Jacobsen: Jord og jern", "note": "1933" },
+        { "label": "Mangfold i dag" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q10"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Folkeeventyrene ble først fortalt muntlig før de ble skrevet ned.", "correct": true, "explain": "Eventyrene gikk i arv muntlig i generasjoner før Asbjørnsen og Moe samlet dem." },
+      { "id": "m02", "type": "sant-usant", "text": "Realismen kom før romantikken.", "correct": false, "explain": "Romantikken var ca. 1800–1850, realismen ca. 1870–1890." },
+      { "id": "m03", "type": "sant-usant", "text": "Det moderne gjennombrudd er et annet navn for overgangen til realismen.", "correct": true, "explain": "Begrepet beskriver at litteraturen begynte å debattere samfunnsproblemer." },
+      { "id": "m04", "type": "sant-usant", "text": "Modernistiske dikt har alltid fast rim og rytme.", "correct": false, "explain": "Modernistene skrev ofte på frie vers uten rim og fast rytme." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken epoke vendte blikket mot sjelelivet og drømmer på 1890-tallet?", "options": ["Realismen", "Nyromantikken", "Norrøn tid", "Folkediktningen"], "correct": 1, "explain": "Nyromantikken reagerte mot realismen og var opptatt av menneskets indre liv." },
+      { "id": "m06", "type": "flervalg", "text": "Hva handler Et dukkehjem om?", "options": ["En sulten forfatter", "Norrøne konger", "Nora, som bryter ut av ekteskapet sitt", "En reise til månen"], "correct": 2, "explain": "Nora oppdager at hun har levd som en «dukke» og forlater mann og barn." },
+      { "id": "m07", "type": "flervalg", "text": "Hvem skrev kongesagaene i Heimskringla?", "options": ["Snorre Sturlason", "Henrik Ibsen", "Jørgen Moe", "Knut Hamsun"], "correct": 0, "explain": "Snorre Sturlason skrev Heimskringla på Island på 1200-tallet." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": ["Årstallene for epokene er omtrentlige og varierer mellom læreverk."] }
+}

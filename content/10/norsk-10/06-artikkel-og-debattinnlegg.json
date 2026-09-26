@@ -1,0 +1,81 @@
+{
+  "id": "artikkel-og-debattinnlegg",
+  "fagId": "norsk-10",
+  "trinnId": "10",
+  "name": "Artikkel, drøfting og debattinnlegg",
+  "intro": "Hvordan du skriver en fagartikkel, en drøftende tekst og et debattinnlegg, og hvordan du tilpasser språk og innhold til formål, mottaker og medium.",
+  "kompetansemaal": [10, 9, 7],
+  "sammendrag": "## Formål, mottaker og medium\n\nAll skriving starter med tre spørsmål: **Hva** er formålet – skal du informere, forklare, argumentere eller reflektere? **Hvem** skriver du for? **Hvor** skal teksten publiseres? Et debattinnlegg i en lokalavis skrives annerledes enn en fagartikkel til læreren eller et innlegg på sosiale medier.\n\n## Fagartikkelen\n\nEn **fagartikkel** forklarer et emne og bygger på kilder. Den har en **tittel** som vekker interesse, en **innledning** som presenterer emnet og gjerne en **problemstilling**, en **hoveddel** med avsnitt og mellomtitler, og en **avslutning** som oppsummerer eller svarer på problemstillingen. Språket er saklig og presist, fagbegreper forklares, og kildene oppgis.\n\n## Den drøftende teksten\n\nÅ **drøfte** betyr å se en sak fra flere sider før du konkluderer. En drøftende tekst:\n\n- presenterer en problemstilling, gjerne som spørsmål: «Bør skoledagen starte senere?»\n- legger fram argumenter **for** og **mot**, med belegg,\n- **vurderer** argumentene: Hvilke er sterkest, og hvorfor?\n- ender med en **konklusjon** som bygger på drøftingen.\n\nOrd som «på den ene siden», «på den andre siden», «likevel» og «derfor» hjelper leseren å følge resonnementet. Konklusjonen kan gjerne være nyansert: «Det er gode grunner for …, men …».\n\n## Debattinnlegget\n\nEt **debattinnlegg** skal overbevise. Det har en tydelig **påstand** tidlig, argumenter med belegg, gjerne et motargument som tilbakevises, og en avslutning med en oppfordring. Språket kan være mer personlig og engasjert, og retoriske virkemidler som retoriske spørsmål, tretall og eksempler fra virkeligheten brukes bevisst. Et **leserinnlegg** er et kort debattinnlegg fra en leser.\n\n## Reflekterende tekster\n\nEn **reflekterende tekst**, som et **essay** eller et **kåseri**, undrer seg og utforsker et tema fra flere vinkler, ofte med personlige erfaringer. Den trenger ikke komme fram til en fast konklusjon.\n\n## Muntlig\n\nMuntlig argumentasjon følger mange av de samme prinsippene. I en **muntlig presentasjon** bør du ha en tydelig struktur, bruke fagspråk, ha kontakt med publikum og bruke manus eller stikkord. I en **debatt** bør du lytte til motparten, svare saklig og holde deg til saken.\n\n## Sjekkliste\n\nFør du leverer: Svarer teksten på oppgaven? Er påstanden eller problemstillingen tydelig? Har hvert avsnitt én hovedtanke? Er argumentene begrunnet med belegg? Passer språket til mottakeren? Er kildene oppgitt?",
+  "flashcards": [
+    { "term": "Formål", "def": "Hvorfor teksten skrives: informere, forklare, argumentere eller reflektere." },
+    { "term": "Mottaker", "def": "Den teksten er skrevet for. Påvirker språk og innhold." },
+    { "term": "Medium", "def": "Der teksten publiseres, for eksempel avis, nettside eller sosiale medier." },
+    { "term": "Fagartikkel", "def": "En saklig tekst som forklarer et emne og bygger på kilder." },
+    { "term": "Problemstilling", "def": "Et spørsmål teksten skal undersøke eller svare på." },
+    { "term": "Drøfte", "def": "Å se en sak fra flere sider og vurdere argumenter for og mot før man konkluderer." },
+    { "term": "Konklusjon", "def": "Det svaret teksten kommer fram til, basert på drøftingen." },
+    { "term": "Nyansert konklusjon", "def": "En konklusjon som tar hensyn til at saken har flere sider." },
+    { "term": "Debattinnlegg", "def": "En tekst som skal overbevise leseren om et standpunkt." },
+    { "term": "Leserinnlegg", "def": "Et kort debattinnlegg sendt inn av en leser." },
+    { "term": "Påstand", "def": "Standpunktet et debattinnlegg forsvarer." },
+    { "term": "Belegg", "def": "Fakta, eksempler og kilder som støtter et argument." },
+    { "term": "Essay", "def": "En reflekterende og personlig tekst som undrer seg over et tema." },
+    { "term": "Drøftingsord", "def": "Ord som «på den ene siden», «likevel» og «derfor» som viser resonnementet." },
+    { "term": "Muntlig presentasjon", "def": "Tydelig struktur, fagspråk, kontakt med publikum og stikkord." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva betyr det å drøfte?", "options": ["Å skrive bare egen mening", "Å se en sak fra flere sider og vurdere argumentene før man konkluderer", "Å gjenfortelle en tekst", "Å skrive et dikt"], "correct": 1, "explain": "Drøfting handler om å veie argumenter for og mot opp mot hverandre." },
+    { "id": "q02", "text": "Hva hører hjemme i innledningen av en fagartikkel?", "options": ["Kildelisten", "Konklusjonen", "En presentasjon av emnet og gjerne en problemstilling", "Alle argumentene"], "correct": 2, "explain": "Innledningen forteller leseren hva artikkelen skal handle om." },
+    { "id": "q03", "text": "Hva er det viktigste formålet med et debattinnlegg?", "options": ["Å overbevise leseren", "Å underholde", "Å gi en nøytral oversikt", "Å fortelle en oppdiktet historie"], "correct": 0, "explain": "Debattinnlegget argumenterer for et standpunkt og vil påvirke leseren." },
+    { "id": "q04", "text": "Hvilket uttrykk passer i en drøftende tekst?", "options": ["Det er helt åpenbart at …", "Alle vet at …", "Jeg gidder ikke …", "På den ene siden … på den andre siden …"], "correct": 3, "explain": "Slike uttrykk viser at du veier ulike synspunkter mot hverandre." },
+    { "id": "q05", "text": "Hva kjennetegner et essay?", "options": ["Det er en reflekterende og personlig tekst som undrer seg", "Det er alltid en nyhetssak", "Det har alltid en fast konklusjon", "Det består bare av tall"], "correct": 0, "explain": "Essayet utforsker et tema fra flere vinkler og kan være personlig." },
+    { "id": "q06", "text": "Hvorfor bør du tenke på mottakeren når du skriver?", "options": ["Fordi mottakeren bestemmer tittelen", "Fordi språk og innhold bør tilpasses den som skal lese", "Fordi mottakeren skal rette teksten", "Det er ikke viktig"], "correct": 1, "explain": "En tekst til ungdom på nett skrives annerledes enn en fagartikkel til en lærer." },
+    { "id": "q07", "text": "Hva er en problemstilling?", "options": ["Et sammendrag", "En overskrift uten spørsmål", "Et spørsmål teksten skal undersøke eller svare på", "Et sitat"], "correct": 2, "explain": "Problemstillingen gir teksten retning, for eksempel «Bør mobiler forbys i skolen?»." },
+    { "id": "q08", "text": "Hva gjør en god konklusjon i en drøftende tekst?", "options": ["Introduserer nye argumenter", "Gjentar innledningen ordrett", "Er uten sammenheng med drøftingen", "Bygger på drøftingen og kan være nyansert"], "correct": 3, "explain": "Konklusjonen skal følge logisk av vurderingen av argumentene." },
+    { "id": "q09", "text": "Hvorfor kan det styrke et debattinnlegg å ta med et motargument?", "options": ["Det viser at du har vurdert saken fra flere sider", "Det gjør innlegget lengre", "Det bytter side for deg", "Det er påbudt"], "correct": 0, "explain": "Når du tilbakeviser et motargument, framstår du som grundig og troverdig." },
+    { "id": "q10", "text": "Hva bør du gjøre i en muntlig debatt?", "options": ["Avbryte motparten ofte", "Lytte til motparten og svare saklig", "Snakke så lenge som mulig", "Bare lese opp et manus"], "correct": 1, "explain": "God debattkultur handler om å lytte, svare på det som faktisk blir sagt, og holde seg til saken." }
+  ],
+  "mindmap": {
+    "label": "Artikkel, drøfting og debatt",
+    "children": [
+      { "label": "Utgangspunkt", "children": [
+        { "label": "Formål" },
+        { "label": "Mottaker" },
+        { "label": "Medium" }
+      ] },
+      { "label": "Fagartikkel", "children": [
+        { "label": "Problemstilling" },
+        { "label": "Avsnitt og mellomtitler" },
+        { "label": "Kilder" }
+      ] },
+      { "label": "Drøfting", "children": [
+        { "label": "For og mot" },
+        { "label": "Vurdere argumentene" },
+        { "label": "Nyansert konklusjon" }
+      ] },
+      { "label": "Debattinnlegg", "children": [
+        { "label": "Tydelig påstand" },
+        { "label": "Belegg og motargument" },
+        { "label": "Oppfordring" }
+      ] },
+      { "label": "Reflekterende", "children": [
+        { "label": "Essay" },
+        { "label": "Kåseri" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q06", "q07", "q08", "q09"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "En drøftende tekst må alltid konkludere helt på den ene siden.", "correct": false, "explain": "Konklusjonen kan være nyansert og ta hensyn til flere sider." },
+      { "id": "m02", "type": "sant-usant", "text": "En fagartikkel skal oppgi kildene den bygger på.", "correct": true, "explain": "Kildene gjør det mulig for leseren å kontrollere opplysningene." },
+      { "id": "m03", "type": "sant-usant", "text": "Et debattinnlegg kan bruke retoriske virkemidler som retoriske spørsmål.", "correct": true, "explain": "Retoriske virkemidler brukes bevisst for å overbevise." },
+      { "id": "m04", "type": "sant-usant", "text": "Formål og mottaker har liten betydning for hvordan en tekst bør skrives.", "correct": false, "explain": "Formål og mottaker er avgjørende for innhold, oppbygning og språk." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken tekst skal typisk undre seg og utforske et tema uten fast konklusjon?", "options": ["Nyhetsartikkel", "Bruksanvisning", "Essay", "Leserinnlegg"], "correct": 2, "explain": "Essayet er reflekterende og undrende." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er belegg?", "options": ["Fakta, eksempler og kilder som støtter et argument", "Tittelen på teksten", "En type rim", "Avslutningen"], "correct": 0, "explain": "Argumenter blir sterkere når de støttes av belegg." },
+      { "id": "m07", "type": "flervalg", "text": "Hva bør et debattinnlegg ofte avslutte med?", "options": ["En ny problemstilling", "En kildeliste over ti sider", "En oppfordring og en gjentakelse av påstanden", "Et dikt"], "correct": 2, "explain": "Avslutningen samler budskapet og ber leseren tenke eller handle." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

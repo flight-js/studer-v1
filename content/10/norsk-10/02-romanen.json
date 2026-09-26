@@ -1,0 +1,85 @@
+{
+  "id": "romanen",
+  "fagId": "norsk-10",
+  "trinnId": "10",
+  "name": "Romanen og romananalyse",
+  "intro": "Hva som kjennetegner romanen, ulike romantyper, fortellerteknikk og komposisjon, og hvordan du skriver en god analyse av en roman eller et utdrag.",
+  "kompetansemaal": [2, 1, 12],
+  "sammendrag": "## Hva er en roman?\n\nEn **roman** er en lang, skjønnlitterær fortelling på prosa. Sammenlignet med novellen har romanen ofte flere personer, flere miljøer og flere **handlingstråder**, og den kan strekke seg over lang tid. Det gir rom for å vise hvordan personer utvikler seg og hvordan de påvirkes av samfunnet rundt seg.\n\n## Romantyper\n\n- **Utviklingsroman**: følger hovedpersonen fra barndom eller ungdom mot voksenlivet.\n- **Samfunnsroman**: viser og kritiserer forhold i samfunnet.\n- **Kriminalroman**: bygger opp spenning rundt en forbrytelse som skal oppklares.\n- **Historisk roman**: foregår i en tidligere tid, gjerne med virkelige hendelser som bakteppe.\n- **Fantasy og science fiction**: skaper oppdiktede verdener eller framtider.\n- **Selvbiografisk roman**: bygger på forfatterens eget liv, men er likevel skjønnlitteratur.\n\n## Komposisjon\n\n**Komposisjon** er hvordan handlingen er satt sammen. En roman kan fortelles **kronologisk**, i den rekkefølgen tingene skjer, eller bruke **tilbakeblikk** og **frampek**. Noen romaner har en **rammefortelling**, der en fortelling rammer inn en annen. Andre veksler mellom flere synsvinkler kapittel for kapittel.\n\n## Fortellerteknikk\n\nFortelleren kan være en **førstepersonsforteller** eller en **tredjepersonsforteller**, allvitende eller personal. **Indre monolog** gjengir personens tanker direkte, slik de farer gjennom hodet. **Dialog** gjør scenene levende og viser personene gjennom det de sier. Fortellertempoet varierer: Noen scener skildres i detalj, mens år kan gå på én setning.\n\n## Analysere en roman eller et utdrag\n\nEn analyse bør:\n\n- presentere verket kort (forfatter, tittel, år, sjanger),\n- beskrive handlingen kort og **ikke gjenfortelle alt**,\n- karakterisere hovedpersonene og vise hvordan de utvikler seg,\n- beskrive komposisjon, forteller og språklige virkemidler, og forklare **effekten** av dem,\n- tolke **tema** og **budskap**, med **sitater** som belegg,\n- gjerne sette teksten inn i en **kontekst**: tiden den ble skrevet i, eller vår egen tid.\n\nNår du analyserer et **utdrag**, bør du vise hvordan utdraget henger sammen med resten av romanen, og gå tett inn på detaljer i språket.\n\n## Sammenligne tekster\n\nÅ sammenligne to romaner, for eksempel en fra realismen og en fra samtiden, kan vise hvordan synet på temaer som kjærlighet, frihet eller familie har endret seg. Se etter likheter og forskjeller i tema, personer, form og historisk bakgrunn.",
+  "flashcards": [
+    { "term": "Roman", "def": "En lang skjønnlitterær fortelling på prosa, ofte med flere personer og handlingstråder." },
+    { "term": "Handlingstråd", "def": "En av flere historier som går parallelt i en roman." },
+    { "term": "Utviklingsroman", "def": "Følger hovedpersonen fra barndom eller ungdom mot voksenlivet." },
+    { "term": "Samfunnsroman", "def": "Viser og kritiserer forhold i samfunnet." },
+    { "term": "Historisk roman", "def": "Foregår i en tidligere tid, gjerne med virkelige hendelser i bakgrunnen." },
+    { "term": "Selvbiografisk roman", "def": "Bygger på forfatterens eget liv, men er skjønnlitteratur." },
+    { "term": "Komposisjon", "def": "Hvordan handlingen er satt sammen, for eksempel kronologisk eller med tilbakeblikk." },
+    { "term": "Kronologisk", "def": "Handlingen fortelles i den rekkefølgen tingene skjer." },
+    { "term": "Rammefortelling", "def": "En fortelling som rammer inn en annen fortelling." },
+    { "term": "Indre monolog", "def": "Gjengir en persons tanker direkte, slik de farer gjennom hodet." },
+    { "term": "Dialog", "def": "Replikkveksling mellom personer. Gjør scener levende." },
+    { "term": "Fortellertempo", "def": "Hvor raskt tiden går i fortellingen: detaljerte scener eller store tidshopp." },
+    { "term": "Utdrag", "def": "Et stykke av en lengre tekst. Må ses i sammenheng med helheten." },
+    { "term": "Belegg", "def": "Sitater og eksempler fra teksten som støtter tolkningen din." },
+    { "term": "Ikke gjenfortell alt", "def": "I en analyse skal handlingen oppsummeres kort. Vekten ligger på tolkning og virkemidler." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva skiller en roman fra en novelle?", "options": ["Romanen er alltid sann", "Romanen er lengre og har ofte flere personer og handlingstråder", "Romanen rimer", "Romanen har ingen forteller"], "correct": 1, "explain": "Romanen gir plass til flere personer, miljøer og lengre tidsforløp enn novellen." },
+    { "id": "q02", "text": "En roman følger en jente fra hun er 10 til hun er 20 år. Hvilken romantype er dette mest sannsynlig?", "options": ["Kriminalroman", "Science fiction", "Utviklingsroman", "Rammefortelling"], "correct": 2, "explain": "Utviklingsromanen skildrer hvordan en person vokser opp og forandrer seg." },
+    { "id": "q03", "text": "Hva er indre monolog?", "options": ["Personens tanker gjengitt direkte", "En samtale mellom to personer", "En beskrivelse av miljøet", "Forfatterens forord"], "correct": 0, "explain": "Indre monolog gir leseren tilgang til tankestrømmen til en person." },
+    { "id": "q04", "text": "Hva betyr at en roman er fortalt kronologisk?", "options": ["At den har mange tilbakeblikk", "At den foregår i framtiden", "At den har to fortellere", "At handlingen kommer i den rekkefølgen den skjer"], "correct": 3, "explain": "Kronologisk betyr i tidsrekkefølge, fra begynnelse til slutt." },
+    { "id": "q05", "text": "Hva er det viktigste å unngå i en romananalyse?", "options": ["Å bruke sitater", "Å tolke temaet", "Å gjenfortelle hele handlingen i detalj", "Å nevne forfatteren"], "correct": 2, "explain": "En analyse skal tolke og forklare, ikke gjenfortelle. Handlingen oppsummeres kort." },
+    { "id": "q06", "text": "Hva er en rammefortelling?", "options": ["En fortelling som rammer inn en annen fortelling", "En fortelling med bilder", "En fortelling uten slutt", "En fortelling om et maleri"], "correct": 0, "explain": "For eksempel kan en gammel mann fortelle en historie fra ungdommen, og fortellingen hans er inni rammen." },
+    { "id": "q07", "text": "Hvorfor bruker man sitater i en analyse?", "options": ["For å gjøre teksten lengre", "Som belegg for tolkningen", "Fordi man ikke har egne ord", "For å gjenfortelle handlingen"], "correct": 1, "explain": "Sitater viser at tolkningen din bygger på teksten og ikke bare på synsing." },
+    { "id": "q08", "text": "Hva må du tenke på når du analyserer et utdrag?", "options": ["At utdraget alltid er slutten", "At utdraget ikke har noe med resten å gjøre", "Å bare se på tittelen", "Hvordan utdraget henger sammen med resten av romanen"], "correct": 3, "explain": "Utdraget får mye av betydningen sin fra helheten det er hentet fra." },
+    { "id": "q09", "text": "Hva kjennetegner en samfunnsroman?", "options": ["Den foregår i verdensrommet", "Den viser og kritiserer forhold i samfunnet", "Den handler bare om kjærlighet", "Den er alltid morsom"], "correct": 1, "explain": "Samfunnsromanen bruker fiksjonen til å belyse samfunnsproblemer." },
+    { "id": "q10", "text": "Hva betyr fortellertempo?", "options": ["Hvor fort leseren leser", "Hvor mange sider boka har", "Hvor raskt tiden går i fortellingen", "Hvor fort forfatteren skrev"], "correct": 2, "explain": "Noen hendelser skildres over mange sider, mens år kan passere på én setning." }
+  ],
+  "mindmap": {
+    "label": "Romanen",
+    "children": [
+      { "label": "Kjennetegn", "children": [
+        { "label": "Lang prosafortelling" },
+        { "label": "Flere handlingstråder" },
+        { "label": "Utvikling over tid" }
+      ] },
+      { "label": "Typer", "children": [
+        { "label": "Utviklingsroman" },
+        { "label": "Samfunnsroman" },
+        { "label": "Krim og historisk" },
+        { "label": "Selvbiografisk" }
+      ] },
+      { "label": "Komposisjon", "children": [
+        { "label": "Kronologisk" },
+        { "label": "Tilbakeblikk og frampek" },
+        { "label": "Rammefortelling" }
+      ] },
+      { "label": "Fortellerteknikk", "children": [
+        { "label": "Forteller og synsvinkel" },
+        { "label": "Indre monolog" },
+        { "label": "Dialog" },
+        { "label": "Tempo" }
+      ] },
+      { "label": "Analyse", "children": [
+        { "label": "Kort om handlingen" },
+        { "label": "Personer og virkemidler" },
+        { "label": "Tema, budskap, sitater" },
+        { "label": "Kontekst" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "En selvbiografisk roman er sakprosa.", "correct": false, "explain": "Selv om den bygger på forfatterens liv, er den en roman og regnes som skjønnlitteratur." },
+      { "id": "m02", "type": "sant-usant", "text": "En roman kan veksle mellom flere synsvinkler.", "correct": true, "explain": "Mange romaner lar ulike personer fortelle i ulike kapitler." },
+      { "id": "m03", "type": "sant-usant", "text": "I en analyse er det nok å finne virkemidler uten å forklare effekten.", "correct": false, "explain": "Effekten er det viktigste. Du må vise hva virkemidlet gjør med teksten." },
+      { "id": "m04", "type": "sant-usant", "text": "En historisk roman kan ha virkelige hendelser som bakteppe.", "correct": true, "explain": "Historiske romaner blander fiksjon med virkelige hendelser og miljøer." },
+      { "id": "m05", "type": "flervalg", "text": "Hva bør med i presentasjonen av verket i en analyse?", "options": ["Forfatter, tittel, år og sjanger", "Hele handlingen", "Din favorittperson", "Antall sider"], "correct": 0, "explain": "En kort presentasjon gir leseren de viktigste opplysningene om verket." },
+      { "id": "m06", "type": "flervalg", "text": "Hva gjør dialog med en fortelling?", "options": ["Gjør den kortere", "Gjør scenene levende og viser personene gjennom det de sier", "Fjerner spenningen", "Erstatter fortelleren helt"], "correct": 1, "explain": "Gjennom replikkene kan leseren selv tolke hvordan personene er." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er et godt utgangspunkt for å sammenligne to romaner fra ulike tider?", "options": ["Antall kapitler", "Fargen på omslaget", "Hvordan de framstiller et felles tema, som frihet eller familie", "Hvilken som er lengst"], "correct": 2, "explain": "Et felles tema gjør det mulig å se likheter og forskjeller i syn og form." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
