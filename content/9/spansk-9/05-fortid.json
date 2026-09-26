@@ -1,0 +1,84 @@
+{
+  "id": "fortid",
+  "fagId": "spansk-9",
+  "trinnId": "9",
+  "name": "Å fortelle om fortiden",
+  "intro": "Hvordan du forteller om noe som har skjedd med pretérito indefinido og pretérito perfecto, regelrette og uregelrette former, nyttige uttrykk og tidsuttrykk.",
+  "kompetansemaal": [3, 6],
+  "sammendrag": "## To fortidsformer\n\nNår du forteller om noe som har skjedd, bruker spansk flere fortidsformer. Her lærer du de to viktigste:\n\n- **Pretérito indefinido** brukes om **avsluttede handlinger** på et **bestemt tidspunkt** i fortiden: *Ayer **fui** al cine.* – I går dro jeg på kino.\n- **Pretérito perfecto** brukes særlig i Spania om noe som har skjedd **i dag**, **denne uken** eller **noen gang**: *Hoy **he comido** paella.* – I dag har jeg spist paella.\n\n## Indefinido – regelrette verb\n\n- **-ar** (hablar): habl**é**, habl**aste**, habl**ó**, habl**amos**, habl**asteis**, habl**aron**\n- **-er** og **-ir** (comer, vivir): com**í**, com**iste**, com**ió**, com**imos**, com**isteis**, com**ieron**\n\nLegg merke til aksenten: *hablé* (jeg snakket) og *habló* (han/hun snakket). Aksenten viser hvem det gjelder.\n\n## Indefinido – uregelrette verb\n\n- **ir** og **ser** har **de samme formene**: fui, fuiste, fue, fuimos, fuisteis, fueron. *Fui a Madrid* betyr «jeg dro til Madrid», mens *fue genial* betyr «det var kjempebra».\n- **hacer**: hice, hiciste, hizo, hicimos, hicisteis, hicieron\n- **tener**: tuve, tuviste, tuvo … **estar**: estuve, estuviste, estuvo …\n- **ver**: vi, viste, vio, vimos, visteis, vieron\n\n## Pretérito perfecto\n\n**haber** i presens + **partisipp**:\n\n- he, has, ha, hemos, habéis, han\n- Partisipp: **-ar** → **-ado** (hablado), **-er/-ir** → **-ido** (comido, vivido)\n- *Esta semana **he visitado** a mis abuelos.* – Denne uken har jeg besøkt besteforeldrene mine.\n\nI Latin-Amerika brukes indefinido oftere, også om ting som har skjedd i dag.\n\n## Nyttige uttrykk\n\n- **¿Qué hiciste el fin de semana?** – Hva gjorde du i helgen?\n- **Lo pasé muy bien.** – Jeg hadde det veldig gøy.\n- **Fue genial / aburrido.** – Det var kjempebra / kjedelig.\n\n## Tidsuttrykk\n\n**ayer** (i går), **anteayer** (i forgårs), **el fin de semana pasado** (forrige helg), **la semana pasada** (forrige uke), **el verano pasado** (i fjor sommer) og **hace dos días** (for to dager siden). Med perfecto: **hoy** (i dag), **esta mañana** (i morges) og **esta semana** (denne uken).\n\n## Eksempeltekst\n\n*El fin de semana pasado **fui** a Barcelona con mi familia. El sábado **visitamos** la Sagrada Familia y **comimos** tapas. Por la noche **vimos** un espectáculo de flamenco. ¡**Lo pasé** muy bien!*",
+  "flashcards": [
+    { "term": "el pretérito indefinido", "def": "fortidsform for avsluttede handlinger på et bestemt tidspunkt" },
+    { "term": "hablé", "def": "jeg snakket" },
+    { "term": "comí", "def": "jeg spiste" },
+    { "term": "viví", "def": "jeg bodde" },
+    { "term": "fui", "def": "jeg dro (ir) / jeg var (ser)" },
+    { "term": "hice", "def": "jeg gjorde (hacer)" },
+    { "term": "tuve", "def": "jeg hadde (tener)" },
+    { "term": "vi", "def": "jeg så (ver)" },
+    { "term": "¿Qué hiciste?", "def": "Hva gjorde du?" },
+    { "term": "Lo pasé muy bien.", "def": "Jeg hadde det veldig gøy." },
+    { "term": "Fue genial.", "def": "Det var kjempebra." },
+    { "term": "he comido", "def": "jeg har spist (pretérito perfecto)" },
+    { "term": "ayer", "def": "i går" },
+    { "term": "el fin de semana pasado", "def": "forrige helg" },
+    { "term": "hace dos días", "def": "for to dager siden" },
+    { "term": "hoy, esta semana", "def": "i dag, denne uken – brukes ofte med pretérito perfecto" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er riktig form av «hablar» i indefinido med «yo»?", "options": ["hablo", "habló", "hablé", "hablaba"], "correct": 2, "explain": "«hablé» betyr jeg snakket. «habló» betyr han eller hun snakket." },
+    { "id": "q02", "text": "Hva betyr «fui» i setningen «Ayer fui al cine»?", "options": ["Jeg dro", "Jeg er", "Jeg går", "Jeg skal"], "correct": 0, "explain": "«fui» er indefinido av «ir»." },
+    { "id": "q03", "text": "Hvilken setning betyr «I går spiste jeg paella»?", "options": ["Ayer como paella.", "Ayer comeré paella.", "Ayer comiendo paella.", "Ayer comí paella."], "correct": 3, "explain": "«comí» er indefinido av «comer»." },
+    { "id": "q04", "text": "Hva er indefinido av «hacer» med «yo»?", "options": ["haci", "hice", "hacé", "hizo"], "correct": 1, "explain": "«hizo» betyr han eller hun gjorde." },
+    { "id": "q05", "text": "Hva betyr «¿Qué hiciste el fin de semana?»?", "options": ["Hva gjør du i helgen?", "Hva skal du gjøre i helgen?", "Liker du helgen?", "Hva gjorde du i helgen?"], "correct": 3, "explain": "«hiciste» er fortid av «hacer» med «tú»." },
+    { "id": "q06", "text": "Hva betyr «Lo pasé muy bien»?", "options": ["Jeg gikk forbi", "Jeg hadde det veldig gøy", "Jeg passet på", "Det gikk dårlig"], "correct": 1, "explain": "Uttrykket brukes når man har hatt det morsomt." },
+    { "id": "q07", "text": "Hva betyr «hace dos días»?", "options": ["For to dager siden", "Om to dager", "I to dager", "Det gjør to dager"], "correct": 0, "explain": "«hace» + tid betyr «for … siden»." },
+    { "id": "q08", "text": "Hvilke to verb har de samme formene i indefinido?", "options": ["hacer og tener", "comer og vivir", "ir og ser", "hablar og estar"], "correct": 2, "explain": "Begge bøyes fui, fuiste, fue …" },
+    { "id": "q09", "text": "Hvordan lages pretérito perfecto, som i «he comido»?", "options": ["ir + infinitiv", "estar + gerundium", "ser + adjektiv", "haber + partisipp"], "correct": 3, "explain": "For eksempel «he visitado» og «hemos comido»." },
+    { "id": "q10", "text": "Hva betyr «el verano pasado»?", "options": ["I fjor sommer", "Neste sommer", "Hele sommeren", "Om sommeren"], "correct": 0, "explain": "«pasado» betyr forrige." }
+  ],
+  "mindmap": {
+    "label": "Fortid på spansk",
+    "children": [
+      { "label": "Indefinido", "children": [
+        { "label": "Avsluttet, bestemt tid" },
+        { "label": "hablé, comí, viví" },
+        { "label": "Aksent viser person" }
+      ] },
+      { "label": "Uregelrette", "children": [
+        { "label": "ir/ser: fui" },
+        { "label": "hacer: hice" },
+        { "label": "tener: tuve" },
+        { "label": "ver: vi" }
+      ] },
+      { "label": "Perfecto", "children": [
+        { "label": "haber + partisipp" },
+        { "label": "-ado, -ido" },
+        { "label": "hoy, esta semana" }
+      ] },
+      { "label": "Uttrykk", "children": [
+        { "label": "¿Qué hiciste?" },
+        { "label": "Lo pasé muy bien" },
+        { "label": "Fue genial" }
+      ] },
+      { "label": "Tidsuttrykk", "children": [
+        { "label": "ayer" },
+        { "label": "el fin de semana pasado" },
+        { "label": "hace dos días" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Indefinido brukes om avsluttede handlinger på et bestemt tidspunkt i fortiden.", "correct": true, "explain": "For eksempel «ayer» eller «el verano pasado»." },
+      { "id": "m02", "type": "sant-usant", "text": "«comió» betyr jeg spiste.", "correct": false, "explain": "«comió» betyr han eller hun spiste. Jeg spiste heter «comí»." },
+      { "id": "m03", "type": "sant-usant", "text": "I Spania brukes ofte pretérito perfecto sammen med «hoy» og «esta semana».", "correct": true, "explain": "For eksempel «Hoy he estudiado mucho»." },
+      { "id": "m04", "type": "sant-usant", "text": "«ayer» betyr i morgen.", "correct": false, "explain": "«ayer» betyr i går. I morgen heter «mañana»." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er indefinido av «tener» med «yo»?", "options": ["tení", "tuve", "tuvo", "tengo"], "correct": 1, "explain": "«tener» er uregelrett i fortid." },
+      { "id": "m06", "type": "flervalg", "text": "Hva betyr «Fue genial»?", "options": ["Det var kjempebra", "Han dro", "Det er fint", "Det blir morsomt"], "correct": 0, "explain": "Her er «fue» fortid av «ser»." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilket ord passer: «Nosotros … a la playa» (vi dro til stranden)?", "options": ["vamos", "fueron", "fuimos", "iremos"], "correct": 2, "explain": "«fuimos» er indefinido av «ir» med «nosotros»." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

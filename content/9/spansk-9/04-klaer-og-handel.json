@@ -1,0 +1,86 @@
+{
+  "id": "klaer-og-handel",
+  "fagId": "spansk-9",
+  "trinnId": "9",
+  "name": "Klær og handel",
+  "intro": "Klær og farger på spansk, adjektiver som bøyes, nyttige uttrykk i butikken, priser og valuta, este og esta, og pronomenene lo, la, los og las.",
+  "kompetansemaal": [2, 6],
+  "sammendrag": "## Klær – la ropa\n\n- **la camiseta** (t-skjorta), **la camisa** (skjorta), **la blusa**\n- **el jersey** (genseren; i Latin-Amerika ofte **el suéter**), **la chaqueta** (jakka), **el abrigo** (kåpa, frakken)\n- **los pantalones** (buksa), **los vaqueros** (dongeribuksa), **la falda** (skjørtet), **el vestido** (kjolen)\n- **los zapatos** (skoene), **las zapatillas** (joggeskoene), **los calcetines** (sokkene)\n- **el gorro** (lua), **la bufanda** (skjerfet), **los guantes** (hanskene)\n\n## Farger – los colores\n\n**rojo** (rød), **azul** (blå), **verde** (grønn), **amarillo** (gul), **negro** (svart), **blanco** (hvit), **gris** (grå), **marrón** (brun), **rosa**, **morado** (lilla) og **naranja**.\n\nFargene står **etter** substantivet og bøyes etter kjønn og tall: *una falda roj**a***, *unos pantalones negr**os***. Farger som ender på *-e* eller konsonant, som **verde**, **azul** og **gris**, har samme form for begge kjønn. **Rosa** og **naranja** bøyes vanligvis ikke.\n\n## I butikken – en la tienda\n\n- **¿En qué puedo ayudarle?** – Hva kan jeg hjelpe Dem med?\n- **Busco una chaqueta.** – Jeg ser etter en jakke.\n- **¿Qué talla usa?** – Hvilken størrelse bruker De? – **Uso la M.** Skostørrelse heter **el número**.\n- **¿Puedo probármelo?** – Kan jeg prøve den på? Du prøver klær i **el probador**.\n- **Me queda bien / No me queda bien.** – Den passer / passer ikke.\n- **Es demasiado grande / pequeño / caro.** – Den er for stor / for liten / for dyr.\n- **¿Cuánto cuesta?** eller **¿Cuánto es?** – Hva koster den? / Hva blir det?\n- **Cuesta 29,99 euros.** – *veintinueve euros con noventa y nueve*.\n- **Me lo llevo.** – Jeg tar den. Du betaler i **la caja** (kassen).\n\nAndre nyttige ord er **barato** (billig), **caro** (dyr), **de oferta** (på tilbud) og **las rebajas** (utsalget). Spania bruker euro, mens landene i Latin-Amerika har egne valutaer, som **el peso** i Mexico og Argentina.\n\n## Denne, dette, disse\n\n**este** jersey (hankjønn), **esta** falda (hunkjønn), **estos** zapatos (hankjønn flertall) og **estas** camisetas (hunkjønn flertall).\n\n## Lo, la, los, las – den og dem\n\nNår du viser tilbake til et plagg, velger du pronomen etter kjønn og tall: **el jersey → lo**, **la falda → la**, **los zapatos → los**, **las botas → las**. *Me **la** llevo.* – Jeg tar det (skjørtet).\n\n## Si hva du synes\n\n- **¿Qué te parece esta falda?** – Hva synes du om dette skjørtet?\n- **Me parece bonita / fea.** – Jeg synes det er fint / stygt.\n- **¡Te queda muy bien!** – Det kler deg veldig godt!\n\n## Mote\n\nSpania har flere store klesmerker. Et av verdens største klesselskaper, som blant annet eier **Zara**, kommer fra Galicia i Nordvest-Spania.",
+  "flashcards": [
+    { "term": "la ropa", "def": "klærne" },
+    { "term": "los pantalones", "def": "buksa" },
+    { "term": "la falda", "def": "skjørtet" },
+    { "term": "el vestido", "def": "kjolen" },
+    { "term": "la chaqueta", "def": "jakka" },
+    { "term": "la camiseta", "def": "t-skjorta" },
+    { "term": "los zapatos", "def": "skoene" },
+    { "term": "las zapatillas", "def": "joggeskoene" },
+    { "term": "rojo, azul, negro", "def": "rød, blå, svart" },
+    { "term": "la talla", "def": "størrelsen" },
+    { "term": "probarse", "def": "å prøve på (klær)" },
+    { "term": "Es demasiado caro.", "def": "Det er for dyrt." },
+    { "term": "¿Cuánto cuesta?", "def": "Hva koster det?" },
+    { "term": "barato / caro", "def": "billig / dyr" },
+    { "term": "las rebajas", "def": "utsalget" },
+    { "term": "Me lo llevo.", "def": "Jeg tar den (om et hankjønnsord)." },
+    { "term": "este / esta / estos / estas", "def": "denne, dette / denne / disse / disse" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva betyr «la falda»?", "options": ["Skjørtet", "Buksa", "Jakka", "Sokkene"], "correct": 0, "explain": "Buksa heter «los pantalones»." },
+    { "id": "q02", "text": "Hvordan spør du hva noe koster?", "options": ["¿Dónde está?", "¿Qué es?", "¿Cuánto cuesta?", "¿Quién es?"], "correct": 2, "explain": "«cuánto» betyr hvor mye." },
+    { "id": "q03", "text": "Hva betyr «¿Puedo probármelo?»?", "options": ["Kan jeg kjøpe den?", "Kan jeg prøve den på?", "Kan jeg levere den tilbake?", "Kan jeg få rabatt?"], "correct": 1, "explain": "«probarse» betyr å prøve på seg." },
+    { "id": "q04", "text": "Hva betyr «Es demasiado caro»?", "options": ["Det er for stort", "Det er for lite", "Det er for billig", "Det er for dyrt"], "correct": 3, "explain": "«demasiado» betyr for mye, altfor." },
+    { "id": "q05", "text": "Hvordan blir «rojo» etter et hunkjønnsord, som i «una falda …»?", "options": ["rojo", "rojos", "roja", "rojas"], "correct": 2, "explain": "Hunkjønn ender på -a." },
+    { "id": "q06", "text": "Hva betyr «¿Qué talla usa?»?", "options": ["Hvilken størrelse bruker De?", "Hvilken farge liker De?", "Hvor mye penger har De?", "Hvor høy er De?"], "correct": 0, "explain": "«la talla» betyr størrelsen." },
+    { "id": "q07", "text": "Du vil kjøpe skjørtet (la falda). Hva sier du?", "options": ["Me lo llevo.", "Me los llevo.", "Me le llevo.", "Me la llevo."], "correct": 3, "explain": "«la falda» er hunkjønn, derfor «la»." },
+    { "id": "q08", "text": "Hva er «las rebajas»?", "options": ["Kassene", "Utsalget", "Prøverommet", "Skoene"], "correct": 1, "explain": "Store utsalg er vanlig i januar og juli." },
+    { "id": "q09", "text": "Hvilket ord passer: «… zapatos son bonitos»?", "options": ["Estos", "Este", "Esta", "Estas"], "correct": 0, "explain": "«zapatos» er hankjønn flertall." },
+    { "id": "q10", "text": "Hva betyr «barato»?", "options": ["Dyr", "Pen", "Billig", "Stor"], "correct": 2, "explain": "Dyr heter «caro»." }
+  ],
+  "mindmap": {
+    "label": "Klær og handel",
+    "children": [
+      { "label": "Klær", "children": [
+        { "label": "pantalones, falda, vestido" },
+        { "label": "camiseta, chaqueta" },
+        { "label": "zapatos, gorro" }
+      ] },
+      { "label": "Farger", "children": [
+        { "label": "rojo, azul, verde" },
+        { "label": "negro, blanco" },
+        { "label": "una falda roja" }
+      ] },
+      { "label": "I butikken", "children": [
+        { "label": "Busco …" },
+        { "label": "talla og número" },
+        { "label": "probarse" },
+        { "label": "demasiado caro" }
+      ] },
+      { "label": "Grammatikk", "children": [
+        { "label": "este, esta, estos, estas" },
+        { "label": "lo, la, los, las" },
+        { "label": "Me lo llevo" }
+      ] },
+      { "label": "Meninger og mote", "children": [
+        { "label": "¿Qué te parece …?" },
+        { "label": "Te queda bien" },
+        { "label": "las rebajas" },
+        { "label": "Euro og peso" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "«el vestido» betyr kjolen.", "correct": true, "explain": "Ordet kan også bety antrekk." },
+      { "id": "m02", "type": "sant-usant", "text": "Alle land i Latin-Amerika bruker euro.", "correct": false, "explain": "Landene har egne valutaer, som peso." },
+      { "id": "m03", "type": "sant-usant", "text": "«Me queda bien» betyr at plagget passer eller kler meg.", "correct": true, "explain": "«quedar» brukes her om å passe." },
+      { "id": "m04", "type": "sant-usant", "text": "«azul» har ulik form for hankjønn og hunkjønn.", "correct": false, "explain": "«azul» er likt i begge kjønn, men får -es i flertall: azules." },
+      { "id": "m05", "type": "flervalg", "text": "Hva heter prøverommet på spansk?", "options": ["la caja", "el probador", "la talla", "el escaparate"], "correct": 1, "explain": "«probar» betyr å prøve." },
+      { "id": "m06", "type": "flervalg", "text": "Hva betyr «¡Te queda muy bien!»?", "options": ["Det kler deg veldig godt!", "Den er for liten!", "Den er dyr!", "Den er min!"], "correct": 0, "explain": "Du sier det når noe passer noen godt." },
+      { "id": "m07", "type": "flervalg", "text": "Hvordan leser du prisen 29,99 €?", "options": ["dos nueve nueve nueve euros", "veintinueve coma nueve nueve", "veintinueve euros con noventa y nueve", "treinta euros"], "correct": 2, "explain": "Først eurobeløpet, så «con» og centene." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

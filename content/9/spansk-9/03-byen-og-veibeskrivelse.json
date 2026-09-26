@@ -1,0 +1,85 @@
+{
+  "id": "byen-og-veibeskrivelse",
+  "fagId": "spansk-9",
+  "trinnId": "9",
+  "name": "Byen og veibeskrivelse",
+  "intro": "Steder i byen, hvordan du spør om og forstår en veibeskrivelse på spansk, sammentrekningene al og del, transportmidler og lyttestrategier.",
+  "kompetansemaal": [2, 1],
+  "sammendrag": "## I byen – en la ciudad\n\n- **la estación de tren** – jernbanestasjonen, **la parada de autobús** – bussholdeplassen, **el aeropuerto** – flyplassen\n- **el hospital** – sykehuset, **la farmacia** – apoteket\n- **el banco** og **correos** – postkontoret\n- **la biblioteca** – biblioteket, **el museo** og **el cine**\n- **el supermercado** og **el centro comercial** – kjøpesenteret\n- **el parque**, **la iglesia** – kirken, **el ayuntamiento** – rådhuset\n- **la calle** – gata, **la plaza** – torget, **el puente** – brua, **el semáforo** – trafikklyset, **el cruce** – krysset, **la esquina** – hjørnet\n\nMange spanske byer har en **Plaza Mayor**, et stort torg i sentrum der folk møtes.\n\n## Spørre om veien\n\n- **Perdone, ¿dónde está la estación?** – Unnskyld, hvor er stasjonen?\n- **¿Cómo se va al museo?** – Hvordan kommer jeg til museet?\n- **¿Hay una farmacia por aquí?** – Finnes det et apotek her i nærheten?\n- **¿Está lejos?** – Er det langt? – **No, está a cinco minutos a pie.**\n\n## Veibeskrivelse\n\n- **Siga todo recto.** – Gå rett fram.\n- **Gire a la izquierda / a la derecha.** – Ta til venstre / høyre.\n- **Tome la primera / segunda calle a la izquierda.** – Ta den første / andre gata til venstre.\n- **en el semáforo** – ved lyskrysset, **en la esquina** – på hjørnet\n- **Cruce la plaza.** – Gå over torget.\n- **Está a la derecha.** – Det er på høyre side.\n- **Correos está al lado del banco / enfrente del parque.** – Posten er ved siden av banken / overfor parken.\n\nVeibeskrivelser til fremmede gis ofte i **usted**-form, som *siga*, *gire* og *tome*.\n\n## Al og del\n\nPreposisjonene **a** og **de** smelter sammen med artikkelen **el**:\n\n- **a + el = al**: *Voy **al** museo.*\n- **de + el = del**: *al lado **del** parque*\n\nMed *la*, *los* og *las* skjer ingen sammentrekning: *a la plaza*, *de las tiendas*.\n\n## Transport\n\n**en autobús**, **en metro**, **en tren**, **en coche** (med bil; i Latin-Amerika ofte **en carro**), **en bici** (med sykkel) og **a pie** (til fots).\n\n## Lyttestrategier\n\nLytt etter **nøkkelord** som *izquierda*, *derecha* og *todo recto*. Hvis det går for fort, kan du si:\n\n- **¿Puede repetir, por favor?** – Kan De gjenta?\n- **Más despacio, por favor.** – Saktere, takk.\n- **¿Me lo puede enseñar en el mapa?** – Kan De vise meg det på kartet?\n\nNår du selv forklarer veien, kan du peke og bruke hendene. Kroppsspråk hjelper når ordene ikke strekker til.",
+  "flashcards": [
+    { "term": "la estación de tren", "def": "jernbanestasjonen" },
+    { "term": "la parada de autobús", "def": "bussholdeplassen" },
+    { "term": "la farmacia", "def": "apoteket" },
+    { "term": "la biblioteca", "def": "biblioteket" },
+    { "term": "el ayuntamiento", "def": "rådhuset" },
+    { "term": "el semáforo", "def": "trafikklyset" },
+    { "term": "la esquina", "def": "hjørnet" },
+    { "term": "todo recto", "def": "rett fram" },
+    { "term": "a la izquierda / a la derecha", "def": "til venstre / til høyre" },
+    { "term": "Gire a la izquierda.", "def": "Ta til venstre." },
+    { "term": "enfrente de", "def": "overfor" },
+    { "term": "¿Cómo se va al …?", "def": "Hvordan kommer jeg til …?" },
+    { "term": "al / del", "def": "a + el / de + el" },
+    { "term": "a pie", "def": "til fots" },
+    { "term": "en metro", "def": "med T-banen" },
+    { "term": "¿Puede repetir, por favor?", "def": "Kan De gjenta?" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er «la estación de tren»?", "options": ["Flyplassen", "Bussholdeplassen", "Havnen", "Jernbanestasjonen"], "correct": 3, "explain": "«el tren» betyr toget." },
+    { "id": "q02", "text": "Hva betyr «todo recto»?", "options": ["Til venstre", "Rett fram", "Til høyre", "Tilbake"], "correct": 1, "explain": "Man kan også si «todo derecho» i Latin-Amerika." },
+    { "id": "q03", "text": "Hvordan spør du om veien til museet?", "options": ["¿Dónde vives?", "¿Cuánto cuesta el museo?", "¿Cómo se va al museo?", "¿Es bonito el museo?"], "correct": 2, "explain": "«¿Cómo se va a …?» brukes når du spør om veien." },
+    { "id": "q04", "text": "Hva er «la farmacia»?", "options": ["Apoteket", "Gården", "Biblioteket", "Banken"], "correct": 0, "explain": "En gård heter «la granja»." },
+    { "id": "q05", "text": "Hvorfor heter det «al museo», men «a la plaza»?", "options": ["Fordi museet er større", "Fordi «museo» er hankjønn og a + el blir al", "Fordi plaza er et torg", "Det er tilfeldig"], "correct": 1, "explain": "Bare a + el trekkes sammen." },
+    { "id": "q06", "text": "Hva betyr «Gire a la derecha en el semáforo»?", "options": ["Gå rett fram ved lyskrysset", "Stopp ved lyskrysset", "Snu ved brua", "Ta til høyre ved lyskrysset"], "correct": 3, "explain": "«girar» betyr å svinge." },
+    { "id": "q07", "text": "Hva betyr «a pie»?", "options": ["Til fots", "Med bil", "Med sykkel", "Med tog"], "correct": 0, "explain": "«el pie» betyr foten." },
+    { "id": "q08", "text": "Hva betyr «enfrente de»?", "options": ["Bak", "Under", "Overfor", "Ved siden av"], "correct": 2, "explain": "Ved siden av heter «al lado de»." },
+    { "id": "q09", "text": "Hva sier du hvis du ikke forstod veibeskrivelsen?", "options": ["¡Adiós!", "¡Buen provecho!", "¡Muchas gracias!", "¿Puede repetir, por favor?"], "correct": 3, "explain": "Det er helt greit å be om at noe blir gjentatt." },
+    { "id": "q10", "text": "Hva er «el ayuntamiento»?", "options": ["Havet", "Rådhuset", "Kirken", "Markedet"], "correct": 1, "explain": "Rådhuset ligger ofte ved Plaza Mayor." }
+  ],
+  "mindmap": {
+    "label": "Byen og veibeskrivelse",
+    "children": [
+      { "label": "Steder", "children": [
+        { "label": "estación, parada" },
+        { "label": "farmacia, hospital" },
+        { "label": "biblioteca, museo" },
+        { "label": "ayuntamiento, Plaza Mayor" }
+      ] },
+      { "label": "Spørre", "children": [
+        { "label": "¿Dónde está …?" },
+        { "label": "¿Cómo se va al …?" },
+        { "label": "¿Está lejos?" }
+      ] },
+      { "label": "Forklare", "children": [
+        { "label": "todo recto" },
+        { "label": "a la izquierda / derecha" },
+        { "label": "en el semáforo" },
+        { "label": "al lado de, enfrente de" }
+      ] },
+      { "label": "Grammatikk og transport", "children": [
+        { "label": "al og del" },
+        { "label": "en autobús, en metro" },
+        { "label": "a pie" }
+      ] },
+      { "label": "Lyttestrategier", "children": [
+        { "label": "Nøkkelord" },
+        { "label": "¿Puede repetir?" },
+        { "label": "Más despacio" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "«a la izquierda» betyr til venstre.", "correct": true, "explain": "Til høyre heter «a la derecha»." },
+      { "id": "m02", "type": "sant-usant", "text": "«la biblioteca» er en bokhandel.", "correct": false, "explain": "«la biblioteca» er biblioteket. En bokhandel heter «la librería»." },
+      { "id": "m03", "type": "sant-usant", "text": "«en metro» betyr med T-banen.", "correct": true, "explain": "Madrid og Mexico by har store T-banenett." },
+      { "id": "m04", "type": "sant-usant", "text": "«la esquina» betyr kirken.", "correct": false, "explain": "«la esquina» betyr hjørnet. Kirken heter «la iglesia»." },
+      { "id": "m05", "type": "flervalg", "text": "Hvordan sier du «Er det langt?»?", "options": ["¿Está lejos?", "¿Dónde está?", "¿Qué es?", "¿Está aquí?"], "correct": 0, "explain": "«lejos» betyr langt unna." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er «la parada de autobús»?", "options": ["Bussjåføren", "Bussholdeplassen", "Busskortet", "Bussen"], "correct": 1, "explain": "«parar» betyr å stoppe." },
+      { "id": "m07", "type": "flervalg", "text": "Hva betyr «Tome la segunda calle a la izquierda»?", "options": ["Ta den første gata til høyre", "Gå to kvartaler rett fram", "Ta den andre gata til venstre", "Kryss gata to ganger"], "correct": 2, "explain": "«segunda» betyr andre." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

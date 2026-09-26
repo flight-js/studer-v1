@@ -1,0 +1,86 @@
+{
+  "id": "hoytider-og-tradisjoner",
+  "fagId": "spansk-9",
+  "trinnId": "9",
+  "name": "Høytider og tradisjoner",
+  "intro": "Jul, nyttår, helligtrekonger og kjente fester i Spania, høytider og tradisjoner i Latin-Amerika, og hvordan du ønsker god høytid og gratulerer på spansk.",
+  "kompetansemaal": [8, 9],
+  "sammendrag": "## Jul – la Navidad\n\nI Spania er **la Nochebuena** (julaften, 24. desember) en kveld for familiemiddag. Mange setter fram **el belén**, en julekrybbe med små figurer, og spiser **el turrón**, et søtt nougatlignende godteri. 22. desember trekkes det store julelotteriet, **la Lotería de Navidad**, som nesten alle spanjoler følger med på. Man ønsker hverandre **«¡Feliz Navidad!»**.\n\n## Nyttår og de tre vise menn\n\n- **La Nochevieja** (nyttårsaften): Ved midnatt spiser man **las doce uvas** – tolv druer, én for hvert klokkeslag. Mange følger klokka på **Puerta del Sol** i Madrid på TV. Man sier **«¡Feliz Año Nuevo!»**.\n- **Los Reyes Magos**: Kvelden 5. januar går **cabalgatas**, store parader, gjennom byene, og **6. januar** får barna gaver fra de tre vise menn. Man spiser **el roscón de Reyes**, en kranseformet kake med en liten figur gjemt inni.\n\n## Fester i Spania\n\n- **La Semana Santa** (påskeuken): Store prosesjoner går gjennom gatene, særlig i Andalucía, med tunge religiøse figurer som bæres på skuldrene.\n- **Las Fallas** (mars) i **Valencia**: Enorme figurer av papp og tre stilles ut i gatene og **brennes** den siste natta.\n- **La Feria de Abril** i **Sevilla**: fest med flamenco, hester og fargerike kjoler.\n- **San Fermín** (juli) i **Pamplona**: kjent for **los encierros**, der folk løper foran okser gjennom gatene.\n- **La Tomatina** (august) i Buñol: tusenvis av mennesker kaster tomater på hverandre.\n\n## Latin-Amerika\n\n- **El Día de Muertos** (1.–2. november) i **Mexico**: Familiene lager **ofrendas**, fargerike altere med bilder av de døde, oransje blomster, mat og **calaveras**, hodeskaller av sukker. Det er en fest for å minnes og ære de døde, med musikk og farger.\n- **Las Posadas** (16.–24. desember) i Mexico: Man spiller Maria og Josefs vandring for å finne husly.\n- **La quinceañera**: Mange jenter feirer 15-årsdagen med en stor fest, nesten som et bryllup.\n- **La piñata**: En figur fylt med godteri henges opp, og barna slår den i stykker med en pinne.\n- I **Argentina** og **Chile** feires julen om sommeren, ofte med grillmat utendørs.\n\n## Gratulasjoner\n\n**¡Feliz cumpleaños!** – Gratulerer med dagen! **¡Felices fiestas!** – God høytid!\n\n## Likheter og forskjeller\n\nSom i Norge er julaften en viktig familiekveld i Spania, men gavene kommer ofte først 6. januar. Å sammenligne tradisjoner viser hvordan kultur, religion og klima former måten vi feirer på.",
+  "flashcards": [
+    { "term": "la Navidad", "def": "jul" },
+    { "term": "la Nochebuena", "def": "julaften" },
+    { "term": "el turrón", "def": "søtt nougatlignende julegodteri" },
+    { "term": "el belén", "def": "julekrybbe med figurer" },
+    { "term": "la Nochevieja", "def": "nyttårsaften" },
+    { "term": "las doce uvas", "def": "tolv druer som spises ved midnatt på nyttårsaften" },
+    { "term": "los Reyes Magos", "def": "de tre vise menn, som gir barna gaver 6. januar" },
+    { "term": "el roscón de Reyes", "def": "kranseformet kake som spises 6. januar" },
+    { "term": "la Semana Santa", "def": "påskeuken, med store prosesjoner" },
+    { "term": "las Fallas", "def": "fest i Valencia der store figurer brennes" },
+    { "term": "San Fermín", "def": "fest i Pamplona med oksefløp" },
+    { "term": "el Día de Muertos", "def": "de dødes dag i Mexico, 1.–2. november" },
+    { "term": "la ofrenda", "def": "fargerikt alter til minne om de døde" },
+    { "term": "la quinceañera", "def": "stor fest når en jente fyller 15 år" },
+    { "term": "¡Feliz Navidad!", "def": "God jul!" },
+    { "term": "¡Feliz cumpleaños!", "def": "Gratulerer med dagen!" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er «la Nochebuena»?", "options": ["Nyttårsaften", "Julaften", "Påskeaften", "Helligtrekongersaften"], "correct": 1, "explain": "Ordet betyr bokstavelig «den gode natten»." },
+    { "id": "q02", "text": "Når får mange spanske barn gavene sine?", "options": ["23. desember", "31. desember", "1. januar", "6. januar, fra de tre vise menn"], "correct": 3, "explain": "Mange får også noen gaver fra julenissen." },
+    { "id": "q03", "text": "Hva er «el roscón de Reyes»?", "options": ["En kranseformet kake som spises 6. januar", "En julesang", "En parade", "Et juletre"], "correct": 0, "explain": "I kaka er det gjemt en liten figur." },
+    { "id": "q04", "text": "Hvor feires Las Fallas, der store figurer brennes?", "options": ["Madrid", "Sevilla", "Valencia", "Barcelona"], "correct": 2, "explain": "Festen holdes i mars." },
+    { "id": "q05", "text": "Hva er en «quinceañera»?", "options": ["En stor fest når en jente fyller 15 år", "En julesang", "En type kake", "En dans"], "correct": 0, "explain": "Tradisjonen er vanlig i Latin-Amerika." },
+    { "id": "q06", "text": "Hva betyr «¡Feliz Navidad!»?", "options": ["Godt nytt år!", "God påske!", "God jul!", "Gratulerer med dagen!"], "correct": 2, "explain": "«feliz» betyr glad eller lykkelig." },
+    { "id": "q07", "text": "Hva lager meksikanske familier til Día de Muertos?", "options": ["Påskeegg", "Juletrær", "Snømenn", "Fargerike altere med bilder, blomster og mat"], "correct": 3, "explain": "Alterne kalles «ofrendas»." },
+    { "id": "q08", "text": "Hvilken fest i Pamplona er kjent for oksefløp?", "options": ["Las Fallas", "San Fermín", "La Tomatina", "La Feria de Abril"], "correct": 1, "explain": "Oksefløpene kalles «los encierros»." },
+    { "id": "q09", "text": "Hva er en piñata?", "options": ["En ananas", "En sang", "En julekrybbe", "En figur fylt med godteri som barn slår i stykker"], "correct": 3, "explain": "Piñata er vanlig i bursdager, særlig i Mexico." },
+    { "id": "q10", "text": "Hva er «el turrón»?", "options": ["Et søtt nougatlignende julegodteri", "En julesang", "En kirke", "En type pølse"], "correct": 0, "explain": "Turrón lages ofte av mandler og honning." }
+  ],
+  "mindmap": {
+    "label": "Høytider og tradisjoner",
+    "children": [
+      { "label": "Jul", "children": [
+        { "label": "Nochebuena" },
+        { "label": "belén og turrón" },
+        { "label": "Lotería de Navidad" }
+      ] },
+      { "label": "Nyttår og januar", "children": [
+        { "label": "Nochevieja" },
+        { "label": "doce uvas" },
+        { "label": "Reyes Magos" },
+        { "label": "roscón de Reyes" }
+      ] },
+      { "label": "Fester i Spania", "children": [
+        { "label": "Semana Santa" },
+        { "label": "Fallas" },
+        { "label": "San Fermín" },
+        { "label": "Tomatina" }
+      ] },
+      { "label": "Latin-Amerika", "children": [
+        { "label": "Día de Muertos" },
+        { "label": "Posadas" },
+        { "label": "quinceañera" },
+        { "label": "piñata" }
+      ] },
+      { "label": "Hilsener", "children": [
+        { "label": "¡Feliz Navidad!" },
+        { "label": "¡Feliz Año Nuevo!" },
+        { "label": "¡Feliz cumpleaños!" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "I Spania spiser mange tolv druer ved midnatt på nyttårsaften.", "correct": true, "explain": "Én drue for hvert klokkeslag skal gi lykke." },
+      { "id": "m02", "type": "sant-usant", "text": "Día de Muertos er en trist dag uten farger og musikk.", "correct": false, "explain": "Det er en fargerik fest for å minnes og ære de døde." },
+      { "id": "m03", "type": "sant-usant", "text": "I Argentina og Chile feires julen om sommeren.", "correct": true, "explain": "Landene ligger på den sørlige halvkule." },
+      { "id": "m04", "type": "sant-usant", "text": "Semana Santa er en julefeiring.", "correct": false, "explain": "Semana Santa er påskeuken." },
+      { "id": "m05", "type": "flervalg", "text": "Hva heter nyttårsaften på spansk?", "options": ["la Nochebuena", "la Nochevieja", "la Navidad", "el Año Nuevo"], "correct": 1, "explain": "«vieja» betyr gammel – den gamle natta." },
+      { "id": "m06", "type": "flervalg", "text": "Hva betyr «¡Feliz cumpleaños!»?", "options": ["Gratulerer med dagen!", "God jul!", "Godt nytt år!", "God helg!"], "correct": 0, "explain": "«el cumpleaños» betyr bursdagen." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er «el belén»?", "options": ["En by i Spania", "En julekake", "En julekrybbe med figurer", "En julesang"], "correct": 2, "explain": "Navnet kommer fra Betlehem." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

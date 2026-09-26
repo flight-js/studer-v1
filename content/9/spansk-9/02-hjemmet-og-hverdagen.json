@@ -1,0 +1,85 @@
+{
+  "id": "hjemmet-og-hverdagen",
+  "fagId": "spansk-9",
+  "trinnId": "9",
+  "name": "Hjemmet og hverdagen",
+  "intro": "Rom og møbler på spansk, hay og estar for plassering, en vanlig dag med refleksive verb, verbene ir og hacer, og ord som hjelper deg å fortelle i rekkefølge.",
+  "kompetansemaal": [3, 5],
+  "sammendrag": "## Hjemmet – la casa\n\nMange i spanske byer bor i **un piso** (en leilighet; i Latin-Amerika sier man ofte **un apartamento**). Andre bor i **una casa** (et hus). Rommene heter:\n\n- **la cocina** – kjøkkenet\n- **el salón** – stua\n- **la habitación** eller **el dormitorio** – soverommet\n- **el cuarto de baño** – badet\n- **el jardín** – hagen, **la terraza** og **el garaje**\n\n## Mitt rom – mi habitación\n\nMøbler: **la cama** (senga), **la mesa** (bordet), **el escritorio** (skrivebordet), **la silla** (stolen), **el armario** (skapet), **la estantería** (hylla), **el sofá**, **la lámpara** og **la ventana** (vinduet).\n\n- **En mi habitación hay una cama y un escritorio.** – På rommet mitt er det en seng og et skrivebord. **Hay** betyr «det er» eller «det finnes».\n- **Mi habitación es pequeña pero bonita.** – Rommet mitt er lite, men fint.\n- **La lámpara está encima del escritorio.** – Lampen står på skrivebordet. Plassering uttrykkes med **estar**.\n\nPreposisjoner for plassering: **en** (i), **encima de** (oppå), **debajo de** (under), **delante de** (foran), **detrás de** (bak), **al lado de** (ved siden av) og **enfrente de** (overfor).\n\n## Hverdagen – la rutina diaria\n\n- **Me despierto a las siete.** – Jeg våkner klokka sju.\n- **Me levanto, me ducho y me visto.** – Jeg står opp, dusjer og kler på meg.\n- **Desayuno.** – Jeg spiser frokost.\n- **Voy al instituto en autobús.** – Jeg tar bussen til skolen.\n- **Después de clase, hago los deberes.** – Etter skolen gjør jeg lekser.\n- **Por la noche, veo la tele.** – Om kvelden ser jeg på TV.\n- **Me acuesto a las diez.** – Jeg legger meg klokka ti.\n\nHjemme hjelper mange til: **ordenar mi habitación** (rydde rommet), **fregar los platos** (ta oppvasken), **poner la mesa** (dekke bordet) og **pasar la aspiradora** (støvsuge).\n\n## Refleksive verb\n\nMange hverdagsverb er **refleksive**. Pronomenet står **foran** verbet: **levantarse** (stå opp) → **me** levanto, **te** levantas, **se** levanta, **nos** levantamos, **os** levantáis, **se** levantan. Noen av dem endrer også vokal: *me despierto*, *me acuesto*.\n\n## Ir og hacer\n\n- **ir** (gå, dra): voy, vas, va, vamos, vais, van\n- **hacer** (gjøre, lage): hago, haces, hace, hacemos, hacéis, hacen\n\n## Fortelle i rekkefølge\n\nBruk **primero** (først), **luego** (så), **después** (etterpå), **más tarde** (senere) og **por último** (til slutt): *Primero me levanto. Luego desayuno. Por último, voy al instituto.*",
+  "flashcards": [
+    { "term": "el piso", "def": "leiligheten (i Spania)" },
+    { "term": "la habitación", "def": "soverommet, rommet" },
+    { "term": "la cocina", "def": "kjøkkenet" },
+    { "term": "el salón", "def": "stua" },
+    { "term": "el cuarto de baño", "def": "badet" },
+    { "term": "la cama", "def": "senga" },
+    { "term": "el armario", "def": "skapet" },
+    { "term": "el escritorio", "def": "skrivebordet" },
+    { "term": "hay", "def": "det er, det finnes" },
+    { "term": "me levanto", "def": "jeg står opp" },
+    { "term": "me ducho", "def": "jeg dusjer" },
+    { "term": "me acuesto", "def": "jeg legger meg" },
+    { "term": "ir: voy", "def": "å gå, dra: jeg går, drar" },
+    { "term": "hacer los deberes", "def": "å gjøre lekser" },
+    { "term": "ordenar mi habitación", "def": "å rydde rommet mitt" },
+    { "term": "primero, luego, por último", "def": "først, så, til slutt" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva betyr «la cocina»?", "options": ["Soverommet", "Kjøkkenet", "Badet", "Stua"], "correct": 1, "explain": "«cocinar» betyr å lage mat." },
+    { "id": "q02", "text": "Hva betyr «hay»?", "options": ["Han har", "Det var", "Han går", "Det er / det finnes"], "correct": 3, "explain": "«Hay una cama» betyr «det er en seng»." },
+    { "id": "q03", "text": "Hvordan sier du «Jeg står opp klokka sju»?", "options": ["Me levanto a las siete.", "Levanto a las siete.", "Yo levanta a las siete.", "Me levanta a las siete."], "correct": 0, "explain": "«levantarse» er refleksivt: me levanto." },
+    { "id": "q04", "text": "Hva er riktig form av «ir» med «yo»?", "options": ["iro", "va", "voy", "vo"], "correct": 2, "explain": "«ir» er helt uregelrett." },
+    { "id": "q05", "text": "Hva betyr «hacer los deberes»?", "options": ["Å lage mat", "Å rydde", "Å gjøre lekser", "Å gå på skolen"], "correct": 2, "explain": "«los deberes» betyr leksene." },
+    { "id": "q06", "text": "Hvor står refleksivpronomenet i «me acuesto»?", "options": ["Foran verbet", "Etter verbet", "Til slutt i setningen", "Det finnes ikke"], "correct": 0, "explain": "I vanlige setninger står pronomenet foran verbet." },
+    { "id": "q07", "text": "Hva betyr «el armario»?", "options": ["Senga", "Stolen", "Vinduet", "Skapet"], "correct": 3, "explain": "Ordet ligner norsk «arméskap»." },
+    { "id": "q08", "text": "Hva heter en leilighet i Spania?", "options": ["la casa", "el piso", "el jardín", "la terraza"], "correct": 1, "explain": "«el piso» kan også bety etasje." },
+    { "id": "q09", "text": "Hvilket uttrykk betyr «til slutt»?", "options": ["primero", "luego", "después", "por último"], "correct": 3, "explain": "«primero» betyr først." },
+    { "id": "q10", "text": "Hva betyr «fregar los platos»?", "options": ["Å dekke bordet", "Å handle", "Å ta oppvasken", "Å vaske klær"], "correct": 2, "explain": "«los platos» betyr tallerkenene." }
+  ],
+  "mindmap": {
+    "label": "Hjemmet og hverdagen",
+    "children": [
+      { "label": "Rom", "children": [
+        { "label": "cocina" },
+        { "label": "salón" },
+        { "label": "habitación" },
+        { "label": "cuarto de baño" }
+      ] },
+      { "label": "Mitt rom", "children": [
+        { "label": "cama, mesa, silla" },
+        { "label": "hay" },
+        { "label": "estar + encima de, debajo de" }
+      ] },
+      { "label": "Hverdagen", "children": [
+        { "label": "me levanto" },
+        { "label": "voy al instituto" },
+        { "label": "hago los deberes" },
+        { "label": "me acuesto" }
+      ] },
+      { "label": "Verb", "children": [
+        { "label": "Refleksive verb" },
+        { "label": "ir" },
+        { "label": "hacer" }
+      ] },
+      { "label": "Rekkefølge", "children": [
+        { "label": "primero" },
+        { "label": "luego, después" },
+        { "label": "por último" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "«el cuarto de baño» er badet.", "correct": true, "explain": "Man sier ofte bare «el baño»." },
+      { "id": "m02", "type": "sant-usant", "text": "«levantarse» er et refleksivt verb.", "correct": true, "explain": "«Me levanto» betyr jeg står opp." },
+      { "id": "m03", "type": "sant-usant", "text": "«debajo de» betyr på.", "correct": false, "explain": "«debajo de» betyr under. Oppå heter «encima de»." },
+      { "id": "m04", "type": "sant-usant", "text": "«hago» er en form av verbet «ir».", "correct": false, "explain": "«hago» kommer fra «hacer». Fra «ir» heter det «voy»." },
+      { "id": "m05", "type": "flervalg", "text": "Hva betyr «Mi habitación es pequeña pero bonita»?", "options": ["Rommet mitt er lite, men fint", "Rommet mitt er stort", "Jeg liker ikke rommet mitt", "Rommet mitt er rotete"], "correct": 0, "explain": "«pero» betyr men." },
+      { "id": "m06", "type": "flervalg", "text": "Hva betyr «al lado de»?", "options": ["Bak", "Ved siden av", "Under", "Foran"], "correct": 1, "explain": "«enfrente de» betyr overfor." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilket ord passer: «nosotros … levantamos»?", "options": ["me", "se", "nos", "os"], "correct": 2, "explain": "Med «nosotros» er refleksivpronomenet «nos»." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

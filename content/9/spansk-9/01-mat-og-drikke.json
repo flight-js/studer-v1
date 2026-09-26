@@ -1,0 +1,86 @@
+{
+  "id": "mat-og-drikke",
+  "fagId": "spansk-9",
+  "trinnId": "9",
+  "name": "Mat og drikke",
+  "intro": "Spanske måltider og matvaner, mat og drikke, forskjeller mellom Spania og Latin-Amerika, verb som endrer vokal, og hvordan du bestiller på restaurant.",
+  "kompetansemaal": [2, 4],
+  "sammendrag": "## Måltider – las comidas\n\n- **el desayuno** – frokosten. I Spania er den ofte lett: **café con leche**, **una tostada** (ristet brød) med tomat og olivenolje, kjeks eller churros.\n- **la comida** eller **el almuerzo** – dagens største måltid, gjerne rundt klokka to eller tre. Det består ofte av **el primer plato** (første rett), **el segundo plato** (hovedrett) og **el postre** (dessert).\n- **la merienda** – et mellommåltid på ettermiddagen, særlig for barn.\n- **la cena** – kveldsmaten, som ofte spises sent, rundt klokka ni eller ti.\n\n## Mat og drikke\n\n- **el pan** (brødet), **el queso** (osten), **el jamón** (skinka), **el huevo** (egget)\n- **la carne** (kjøttet), **el pollo** (kyllingen), **el pescado** (fisken)\n- **las verduras** (grønnsakene), **la fruta** (frukten): **la manzana** (eplet), **la naranja** (appelsinen), **la fresa** (jordbæret)\n- **el arroz** (risen), **la ensalada**, **la sopa** og **el pastel** (kaken)\n- **el agua**, **la leche** (melka), **el té**, **el café** og **el refresco** (brus)\n\nNoen ord varierer mellom Spania og Latin-Amerika: poteter heter **las patatas** i Spania og **las papas** i Latin-Amerika, og juice heter **el zumo** i Spania og **el jugo** i Latin-Amerika.\n\n## Sulten og tørst\n\nPå spansk «har» man sult og tørst: **Tengo hambre.** – Jeg er sulten. **Tengo sed.** – Jeg er tørst.\n\n## Si hva du liker\n\n- **Me gusta el chocolate.** – Jeg liker sjokolade.\n- **Me gustan las fresas.** – Jeg liker jordbær.\n- **No me gusta el pescado.** – Jeg liker ikke fisk.\n- **Prefiero el pollo.** – Jeg foretrekker kylling.\n\n## Verb som endrer vokal\n\nNoen verb endrer vokal i stammen i de fleste personene:\n\n- **querer** (ville ha): quiero, quieres, quiere, queremos, queréis, quieren\n- **preferir** (foretrekke): prefiero, prefieres, prefiere …\n- **pedir** (bestille, be om): pido, pides, pide …\n\n## På restaurant\n\n- **La carta, por favor.** – Menyen, takk. Mange restauranter i Spania har **el menú del día**, en dagens meny til fast pris.\n- **¿Qué va a tomar?** – Hva vil De ha?\n- **Para mí, una ensalada, por favor.** – Til meg en salat, takk. Du kan også si **Quisiera …** (jeg vil gjerne ha).\n- **De primero, sopa. De segundo, pollo. De postre, un helado.** – Til første rett suppe, til hovedrett kylling og til dessert en is.\n- **¡Buen provecho!** – God appetitt! **¡Salud!** – Skål!\n- **La cuenta, por favor.** – Regningen, takk.\n\nI Spania er det vanlig å gi litt **propina** (tips) når man er fornøyd, men det er ikke påkrevd.",
+  "flashcards": [
+    { "term": "el desayuno", "def": "frokosten" },
+    { "term": "la comida / el almuerzo", "def": "dagens største måltid, midt på dagen" },
+    { "term": "la merienda", "def": "mellommåltid på ettermiddagen" },
+    { "term": "la cena", "def": "kveldsmaten" },
+    { "term": "el pan", "def": "brødet" },
+    { "term": "el queso", "def": "osten" },
+    { "term": "las verduras", "def": "grønnsakene" },
+    { "term": "la fruta", "def": "frukten" },
+    { "term": "el pollo", "def": "kyllingen" },
+    { "term": "el agua", "def": "vannet" },
+    { "term": "Tengo hambre. / Tengo sed.", "def": "Jeg er sulten. / Jeg er tørst." },
+    { "term": "quiero", "def": "jeg vil ha (av querer)" },
+    { "term": "Quisiera …", "def": "Jeg vil gjerne ha … (høflig)" },
+    { "term": "la carta", "def": "menyen" },
+    { "term": "La cuenta, por favor.", "def": "Regningen, takk." },
+    { "term": "el menú del día", "def": "dagens meny til fast pris" },
+    { "term": "¡Buen provecho!", "def": "God appetitt!" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Når spiser mange spanjoler «la cena»?", "options": ["Om morgenen", "Rundt klokka tolv", "Sent om kvelden, rundt klokka ni eller ti", "Klokka fire"], "correct": 2, "explain": "Spanjoler spiser både lunsj og kveldsmat sent." },
+    { "id": "q02", "text": "Hvordan sier du «Jeg er tørst»?", "options": ["Tengo sed.", "Soy sed.", "Tengo hambre.", "Estoy sed."], "correct": 0, "explain": "På spansk «har» man tørst." },
+    { "id": "q03", "text": "Hva er riktig form av «querer» med «yo»?", "options": ["quero", "querro", "quiere", "quiero"], "correct": 3, "explain": "e blir til ie i stammen: quiero." },
+    { "id": "q04", "text": "Hvordan bestiller du høflig?", "options": ["¡Dame agua!", "Para mí, un agua, por favor.", "Agua, ya.", "Quiero agua ahora mismo."], "correct": 1, "explain": "«Para mí …, por favor» er høflig." },
+    { "id": "q05", "text": "Hvordan ber du om regningen?", "options": ["¡Buen provecho!", "¡Salud!", "La carta, por favor.", "La cuenta, por favor."], "correct": 3, "explain": "«la cuenta» betyr regningen." },
+    { "id": "q06", "text": "Hva er «el menú del día»?", "options": ["Hele menyen", "Barnemenyen", "Dagens meny til fast pris", "Drikkemenyen"], "correct": 2, "explain": "Den består ofte av to retter, dessert og drikke." },
+    { "id": "q07", "text": "Hvilken setning er riktig?", "options": ["Me gustan las fresas.", "Me gusta las fresas.", "Me gusto las fresas.", "Yo gustan las fresas."], "correct": 0, "explain": "«las fresas» er flertall, derfor «gustan»." },
+    { "id": "q08", "text": "Hva er «la merienda»?", "options": ["Frokost", "Et mellommåltid på ettermiddagen", "Middag", "Nattmat"], "correct": 1, "explain": "Barn spiser ofte merienda etter skolen." },
+    { "id": "q09", "text": "Hva heter poteter i Latin-Amerika?", "options": ["las patatas", "las pastas", "las papas", "las piñas"], "correct": 2, "explain": "I Spania heter det «las patatas»." },
+    { "id": "q10", "text": "Hva betyr «las verduras»?", "options": ["Frukt", "Kjøtt", "Brød", "Grønnsaker"], "correct": 3, "explain": "Frukt heter «la fruta»." }
+  ],
+  "mindmap": {
+    "label": "Mat og drikke",
+    "children": [
+      { "label": "Måltider", "children": [
+        { "label": "desayuno" },
+        { "label": "comida", "note": "klokka 14–15" },
+        { "label": "merienda" },
+        { "label": "cena", "note": "klokka 21–22" }
+      ] },
+      { "label": "Mat og drikke", "children": [
+        { "label": "pan, queso, jamón" },
+        { "label": "verduras og fruta" },
+        { "label": "patatas eller papas" }
+      ] },
+      { "label": "Liker", "children": [
+        { "label": "Me gusta / me gustan" },
+        { "label": "Prefiero …" },
+        { "label": "Tengo hambre / sed" }
+      ] },
+      { "label": "Verb", "children": [
+        { "label": "querer: quiero" },
+        { "label": "preferir: prefiero" },
+        { "label": "pedir: pido" }
+      ] },
+      { "label": "Restaurant", "children": [
+        { "label": "la carta" },
+        { "label": "menú del día" },
+        { "label": "¡Buen provecho!" },
+        { "label": "La cuenta" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "I Spania er lunsjen, la comida, ofte dagens største måltid.", "correct": true, "explain": "Den spises gjerne rundt klokka to eller tre." },
+      { "id": "m02", "type": "sant-usant", "text": "«el zumo» og «el jugo» betyr begge juice.", "correct": true, "explain": "«zumo» brukes i Spania og «jugo» i Latin-Amerika." },
+      { "id": "m03", "type": "sant-usant", "text": "«Tengo hambre» betyr jeg er trøtt.", "correct": false, "explain": "«Tengo hambre» betyr jeg er sulten." },
+      { "id": "m04", "type": "sant-usant", "text": "«pedir» betyr å betale.", "correct": false, "explain": "«pedir» betyr å bestille eller be om. Å betale heter «pagar»." },
+      { "id": "m05", "type": "flervalg", "text": "Hva betyr «¡Buen provecho!»?", "options": ["Skål!", "God appetitt!", "Ha det!", "Takk for maten!"], "correct": 1, "explain": "I Spania sier man også «¡Que aproveche!»." },
+      { "id": "m06", "type": "flervalg", "text": "Hva betyr «De postre, quiero un helado»?", "options": ["Til dessert vil jeg ha en is", "Til forrett vil jeg ha suppe", "Jeg vil ikke ha is", "Isen er god"], "correct": 0, "explain": "«el postre» betyr desserten." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er «el pescado»?", "options": ["Kylling", "Svinekjøtt", "Fisk", "Egg"], "correct": 2, "explain": "Levende fisk i vannet heter «el pez»." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
