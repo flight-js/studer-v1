@@ -1,0 +1,83 @@
+{
+  "id": "kart-og-feltarbeid",
+  "fagId": "geografi-vg1",
+  "trinnId": "vg1",
+  "name": "Kart, geografiske kilder og feltarbeid",
+  "intro": "Hvordan du bruker kart og andre geografiske kilder – målestokk, koordinater, høydekurver, kartprojeksjoner, tematiske kart, satellittbilder og GIS – og hvordan du planlegger, gjennomfører og presenterer et feltarbeid.",
+  "kompetansemaal": [1, 8],
+  "sammendrag": "## Kart\n\nEt **kart** er en **forenklet** og **forminsket** framstilling av jordoverflaten. Alle kart er et utvalg: Kartlageren bestemmer hva som skal vises.\n\n- **Målestokk**: forholdet mellom avstander på kartet og i virkeligheten. 1 : 50 000 betyr at 1 cm på kartet er 500 m i terrenget. **Stor målestokk** (for eksempel 1 : 5 000) viser et lite område med mange detaljer. **Liten målestokk** (for eksempel 1 : 10 000 000) viser store områder med få detaljer.\n- **Tegnforklaring** forklarer symbolene.\n- **Høydekurver** (koter) forbinder punkter med samme høyde over havet. **Tette** kurver betyr **bratt** terreng. **Ekvidistansen** er høydeforskjellen mellom to kurver.\n- **Koordinater**: **Breddegrader** går parallelt med ekvator og angir hvor langt nord eller sør et sted ligger. **Lengdegrader** går fra pol til pol og angir hvor langt øst eller vest. Oslo ligger omtrent på 60° N og 11° Ø.\n\n## Kartprojeksjoner\n\nJorda er rund, men kartet er flatt. Derfor blir alle verdenskart **fordreid** på en eller annen måte. **Mercatorprojeksjonen**, som mange nettkart bygger på, gir riktige vinkler, men **forstørrer** områder nær polene. Grønland ser omtrent like stort ut som Afrika, selv om Afrika i virkeligheten er rundt fjorten ganger større. Andre projeksjoner gir riktige **arealer**, men fordreier formene.\n\n## Typer kart og kilder\n\n- **Topografiske kart** viser terreng, vann, veier og bebyggelse.\n- **Tematiske kart** viser ett tema, for eksempel befolkningstetthet, nedbør eller valgresultater.\n- **Satellitt- og flyfoto** viser hvordan landskapet faktisk ser ut – og hvordan det endrer seg over tid.\n- **GIS** (geografiske informasjonssystemer) er digitale systemer der vi kan legge ulike **datalag** oppå hverandre, for eksempel skredfare, bebyggelse og veier. Tjenester som **Norgeskart.no** og **NVEs karttjenester** er eksempler.\n- **Statistikk** fra for eksempel **SSB** og **FN**, **fagartikler**, **intervjuer** og **bilder** er også viktige geografiske kilder.\n\nVær **kildekritisk**: Hvem har laget kartet, når og hvorfor? Hva er tatt med – og hva er utelatt?\n\n## Feltarbeid\n\nI et **feltarbeid** undersøker du geografiske forhold **ute i virkeligheten**, for eksempel arealbruk i nærmiljøet, spor etter istiden, trafikk eller hva folk mener om en utbygging.\n\n1. **Problemstilling**: Hva vil du finne ut?\n2. **Planlegging**: Velg **metoder** – observasjon, måling, kartlegging, fotografering, intervju eller spørreundersøkelse. Lag skjemaer, sjekk utstyr og gjør en **risikovurdering**.\n3. **Gjennomføring**: Samle inn data systematisk, og noter tid og sted.\n4. **Bearbeiding**: Lag kart, tabeller og diagrammer.\n5. **Analyse og drøfting**: Hva viser dataene? Hvilke **feilkilder** finnes?\n6. **Presentasjon**: Presenter funnene skriftlig, muntlig eller digitalt, gjerne med egne kart og bilder.\n\nFeltarbeid gir **primærdata** – informasjon du har samlet inn selv – som du kan sammenligne med andre kilder.",
+  "flashcards": [
+    { "term": "Kart", "def": "Forenklet og forminsket framstilling av jordoverflaten." },
+    { "term": "Målestokk 1 : 50 000", "def": "1 cm på kartet er 500 m i virkeligheten." },
+    { "term": "Stor målestokk", "def": "Viser et lite område med mange detaljer, som 1 : 5 000." },
+    { "term": "Høydekurver", "def": "Linjer som forbinder punkter med samme høyde over havet." },
+    { "term": "Ekvidistanse", "def": "Høydeforskjellen mellom to høydekurver." },
+    { "term": "Breddegrad", "def": "Angir hvor langt nord eller sør for ekvator et sted ligger." },
+    { "term": "Lengdegrad", "def": "Angir hvor langt øst eller vest et sted ligger." },
+    { "term": "Kartprojeksjon", "def": "Måten den runde jorda gjengis på et flatt kart." },
+    { "term": "Mercatorprojeksjonen", "def": "Riktige vinkler, men forstørrer områder nær polene." },
+    { "term": "Topografisk kart", "def": "Viser terreng, vann, veier og bebyggelse." },
+    { "term": "Tematisk kart", "def": "Viser ett tema, som befolkningstetthet." },
+    { "term": "GIS", "def": "Digitalt system der ulike datalag legges oppå hverandre." },
+    { "term": "Feltarbeid", "def": "Undersøkelse av geografiske forhold ute i virkeligheten." },
+    { "term": "Primærdata", "def": "Informasjon du har samlet inn selv." },
+    { "term": "Feilkilde", "def": "Noe som kan gjøre dataene unøyaktige." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva betyr målestokk 1 : 50 000?", "options": ["1 cm på kartet er 50 m i virkeligheten", "1 cm på kartet er 500 m i virkeligheten", "1 cm på kartet er 50 km i virkeligheten", "Kartet viser 50 000 steder"], "correct": 1, "explain": "50 000 cm = 500 m." },
+    { "id": "q02", "text": "Hva betyr det når høydekurvene ligger tett?", "options": ["At terrenget er bratt", "At terrenget er flatt", "At det er vann der", "At det er mye skog"], "correct": 0, "explain": "Høyden endrer seg mye over kort avstand." },
+    { "id": "q03", "text": "Hva er en svakhet ved Mercatorprojeksjonen?", "options": ["Den gir feil vinkler", "Den viser ikke hav", "Den forstørrer områder nær polene", "Den viser bare Europa"], "correct": 2, "explain": "Derfor ser Grønland altfor stort ut." },
+    { "id": "q04", "text": "Hva angir breddegrader?", "options": ["Hvor langt øst eller vest et sted ligger", "Høyden over havet", "Tidssonen", "Hvor langt nord eller sør for ekvator et sted ligger"], "correct": 3, "explain": "Lengdegrader angir øst–vest." },
+    { "id": "q05", "text": "Hva er GIS?", "options": ["Et digitalt system der ulike datalag legges oppå hverandre", "En type kompass", "Et papirkart", "En satellitt"], "correct": 0, "explain": "GIS brukes for eksempel til å kartlegge skredfare." },
+    { "id": "q06", "text": "Hva viser et tematisk kart?", "options": ["Alt i et område", "Ett bestemt tema, som befolkningstetthet", "Bare veier", "Bare høydekurver"], "correct": 1, "explain": "Topografiske kart viser mange forhold samtidig." },
+    { "id": "q07", "text": "Hvilken målestokk er størst?", "options": ["1 : 1 000 000", "1 : 100 000", "1 : 5 000", "1 : 50 000"], "correct": 2, "explain": "Stor målestokk betyr lite tall under brøkstreken og mange detaljer." },
+    { "id": "q08", "text": "Hva er det første steget i et feltarbeid?", "options": ["Presentere resultatene", "Lage diagrammer", "Samle inn data", "Formulere en problemstilling"], "correct": 3, "explain": "Problemstillingen styrer valg av metode." },
+    { "id": "q09", "text": "Hva er primærdata?", "options": ["Informasjon du har samlet inn selv", "Statistikk fra SSB", "Informasjon fra en lærebok", "Data fra et leksikon"], "correct": 0, "explain": "Feltarbeid gir primærdata." },
+    { "id": "q10", "text": "Hvorfor bør du være kildekritisk til kart?", "options": ["Fordi kart alltid er feil", "Fordi kart er et utvalg, og kartlageren bestemmer hva som vises", "Fordi kart er ulovlige", "Fordi kart bare viser fortiden"], "correct": 1, "explain": "Spør hvem som har laget kartet, når og hvorfor." }
+  ],
+  "mindmap": {
+    "label": "Kart og feltarbeid",
+    "children": [
+      { "label": "Kartets elementer", "children": [
+        { "label": "Målestokk" },
+        { "label": "Tegnforklaring" },
+        { "label": "Høydekurver" },
+        { "label": "Koordinater" }
+      ] },
+      { "label": "Projeksjoner", "children": [
+        { "label": "Fordreining" },
+        { "label": "Mercator" }
+      ] },
+      { "label": "Kilder", "children": [
+        { "label": "Topografiske og tematiske kart" },
+        { "label": "Satellittbilder" },
+        { "label": "GIS" },
+        { "label": "Statistikk" }
+      ] },
+      { "label": "Feltarbeid", "children": [
+        { "label": "Problemstilling" },
+        { "label": "Metoder" },
+        { "label": "Innsamling" },
+        { "label": "Presentasjon" }
+      ] },
+      { "label": "Kildekritikk", "children": [
+        { "label": "Hvem, når, hvorfor" },
+        { "label": "Feilkilder" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Alle verdenskart er fordreid på en eller annen måte.", "correct": true, "explain": "En rund overflate kan ikke gjengis perfekt på et flatt kart." },
+      { "id": "m02", "type": "sant-usant", "text": "Grønland er større enn Afrika.", "correct": false, "explain": "Afrika er rundt fjorten ganger større enn Grønland." },
+      { "id": "m03", "type": "sant-usant", "text": "Intervju og spørreundersøkelse kan være metoder i et feltarbeid.", "correct": true, "explain": "De gir informasjon om hva folk mener og gjør." },
+      { "id": "m04", "type": "sant-usant", "text": "Ekvidistanse er avstanden mellom to byer.", "correct": false, "explain": "Ekvidistanse er høydeforskjellen mellom to høydekurver." },
+      { "id": "m05", "type": "flervalg", "text": "Omtrent hvilken breddegrad ligger Oslo på?", "options": ["30° N", "45° N", "60° N", "80° N"], "correct": 2, "explain": "Oslo ligger omtrent på 60° N." },
+      { "id": "m06", "type": "flervalg", "text": "Hvorfor bør du gjøre en risikovurdering før feltarbeid?", "options": ["For å unngå ulykker ute i terrenget", "For å få bedre karakter", "For å finne problemstillingen", "For å lage kart"], "correct": 0, "explain": "Tenk for eksempel på trafikk, vær og bratt terreng." },
+      { "id": "m07", "type": "flervalg", "text": "Hva kan satellittbilder brukes til?", "options": ["Bare til værmeldinger", "Å se hvordan landskapet endrer seg over tid", "Å måle folks meninger", "Å finne ekvidistansen"], "correct": 1, "explain": "For eksempel avskoging, isbreer som smelter og byer som vokser." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

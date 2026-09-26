@@ -1,0 +1,84 @@
+{
+  "id": "ressurs-og-arealbruk",
+  "fagId": "geografi-vg1",
+  "trinnId": "vg1",
+  "name": "Ressurs- og arealbruk i Norge, Sápmi og nordområdene",
+  "intro": "Hvilke interesser som støter sammen når areal og ressurser skal brukes – vindkraft og reindrift, gruvedrift, olje og fiske, hytter og natur – og hvordan slike konflikter håndteres i Norge, Sápmi og nordområdene.",
+  "kompetansemaal": [3],
+  "sammendrag": "## Areal er en begrenset ressurs\n\n**Areal** er en ressurs det ikke kan lages mer av. Samme område kan brukes til **natur**, **landbruk**, **reindrift**, **boliger**, **hytter**, **veier**, **industri** eller **energiproduksjon**. Når ulike grupper vil bruke området på hver sin måte, oppstår **interessekonflikter**.\n\nI Norge er det **kommunene** som vedtar **arealplaner** etter **plan- og bygningsloven**. Store saker, som kraftutbygging, behandles også av staten. **Naturmangfoldloven** skal sikre at naturen tas vare på.\n\n## Sápmi og reindrift\n\n**Sápmi** er samenes tradisjonelle område. **Reindrift** er en viktig samisk næring og kultur som trenger **store, sammenhengende beiteområder**, og reinen bruker ulike områder til ulike årstider. Vindkraftverk, veier, hytter, gruver og kraftlinjer kan **forstyrre** reinen og **stykke opp** beitet.\n\n**Fosen-saken** er et kjent eksempel: I **2021** slo **Høyesterett** fast at to vindkraftverk på Fosen krenket reindriftssamenes rett til å utøve sin **kultur**, som er beskyttet i internasjonale menneskerettigheter. Saken skapte store protester og debatt om hvordan det **grønne skiftet** kan skje uten å gå ut over urfolks rettigheter.\n\n## Gruvedrift\n\nNorge har forekomster av **mineraler** som trengs i det grønne skiftet, for eksempel **kobber**. Gruvedrift kan gi **arbeidsplasser** og **inntekter**, men også **naturinngrep** og **avfall**. Planene om kobbergruve ved **Repparfjorden** i Finnmark skapte konflikt, blant annet fordi gruveavfallet skulle deponeres i fjorden, noe fiskere, miljøvernere og reindriftssamer protesterte mot.\n\n## Nordområdene\n\n**Nordområdene** – havområdene og landområdene i nord – har store ressurser:\n\n- **Fisk**, som torsk i Barentshavet, en av verdens største torskebestander.\n- **Olje og gass** i Barentshavet.\n- **Nye skipsruter** når havisen smelter.\n- **Svalbard**, der **Svalbardtraktaten** fra **1920** gir Norge suverenitet, men gir borgere fra alle land som har signert, like rett til å drive næring.\n\nInteressene spriker: Olje og gass gir inntekter og arbeidsplasser, men **fiskerinæringen** og **miljøbevegelsen** frykter oljesøl i sårbare områder, og klimautslipp fra olje og gass bidrar til global oppvarming. Nordområdene er også viktige for **sikkerhetspolitikken**, fordi Norge grenser mot **Russland**.\n\n## Hytter, veier og villrein\n\nNorge har mange hytter, og nye hyttefelt, veier og kraftlinjer bygger ned natur **bit for bit**. **Villreinen**, som Norge har et særlig ansvar for, trenger store uforstyrrede fjellområder og er sårbar for slike inngrep.\n\n## Hvordan drøfte en arealkonflikt?\n\n1. **Hvem** er aktørene? (Grunneiere, reindriftsutøvere, kommune, utbyggere, fiskere, miljøorganisasjoner, staten)\n2. **Hvilke interesser** har de – økonomiske, kulturelle, miljømessige?\n3. **Hvilke argumenter** bruker de?\n4. **Hvilke lover og rettigheter** gjelder?\n5. Hva blir **konsekvensene** på kort og lang sikt – lokalt og globalt?\n6. Finnes det **kompromisser**?",
+  "flashcards": [
+    { "term": "Interessekonflikt", "def": "Når ulike grupper vil bruke samme område eller ressurs på hver sin måte." },
+    { "term": "Arealplan", "def": "Plan kommunen vedtar for hvordan areal skal brukes." },
+    { "term": "Plan- og bygningsloven", "def": "Lov som regulerer arealplanlegging og bygging." },
+    { "term": "Naturmangfoldloven", "def": "Lov som skal sikre at naturen tas vare på." },
+    { "term": "Sápmi", "def": "Samenes tradisjonelle område i Norge, Sverige, Finland og Russland." },
+    { "term": "Reindrift", "def": "Samisk næring og kultur som trenger store, sammenhengende beiteområder." },
+    { "term": "Fosen-saken", "def": "Høyesterett slo i 2021 fast at vindkraftverk på Fosen krenket reindriftssamenes kulturrett." },
+    { "term": "Det grønne skiftet", "def": "Overgangen til et samfunn med lavere klimagassutslipp." },
+    { "term": "Repparfjorden", "def": "Sted i Finnmark med omstridte planer om kobbergruve og sjødeponi." },
+    { "term": "Sjødeponi", "def": "At gruveavfall legges på bunnen av en fjord." },
+    { "term": "Nordområdene", "def": "Hav- og landområdene i nord med store ressurser." },
+    { "term": "Barentshavet", "def": "Havområde med store fiske-, olje- og gassressurser." },
+    { "term": "Svalbardtraktaten", "def": "Traktat fra 1920 som gir Norge suverenitet over Svalbard." },
+    { "term": "Villrein", "def": "Dyr som trenger store uforstyrrede fjellområder." },
+    { "term": "Bit for bit-nedbygging", "def": "At mange små inngrep til sammen bygger ned mye natur." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvem vedtar arealplaner i Norge?", "options": ["Sametinget", "Kommunene", "EU", "Private selskaper"], "correct": 1, "explain": "Kommunene har planmyndighet etter plan- og bygningsloven." },
+    { "id": "q02", "text": "Hva slo Høyesterett fast i Fosen-saken i 2021?", "options": ["At vindkraftverkene krenket reindriftssamenes rett til kulturutøvelse", "At vindkraft er forbudt i Norge", "At reindrift må flyttes", "At Fosen tilhører Sverige"], "correct": 0, "explain": "Retten til kulturutøvelse er vernet av internasjonale menneskerettigheter." },
+    { "id": "q03", "text": "Hvorfor kan vindkraftverk skape konflikt med reindrift?", "options": ["Fordi reinen spiser vindmøllene", "Fordi reindrift gir mye støy", "Fordi de kan forstyrre reinen og stykke opp beiteområdene", "Fordi reindrift bruker mye strøm"], "correct": 2, "explain": "Reinen trenger store, sammenhengende områder." },
+    { "id": "q04", "text": "Hva gir Svalbardtraktaten fra 1920?", "options": ["Russland suverenitet over Svalbard", "Svalbard status som eget land", "Alle land rett til å bygge militærbaser", "Norge suverenitet, men like næringsrettigheter for borgere fra landene som har signert"], "correct": 3, "explain": "Traktaten kalles også Spitsbergentraktaten." },
+    { "id": "q05", "text": "Hvilken ressurs er Barentshavet særlig kjent for?", "options": ["Torsk", "Diamanter", "Kaffe", "Gull"], "correct": 0, "explain": "Barentshavet har en av verdens største torskebestander." },
+    { "id": "q06", "text": "Hvorfor protesterte mange mot gruveplanene ved Repparfjorden?", "options": ["Fordi gruven skulle ligge i Oslo", "Fordi gruveavfallet skulle deponeres i fjorden", "Fordi det ikke fantes mineraler der", "Fordi gruven skulle drives av staten"], "correct": 1, "explain": "Fiskere, miljøvernere og reindriftssamer var bekymret." },
+    { "id": "q07", "text": "Hvilket dyr har Norge et særlig ansvar for, og som er sårbart for hytter og veier i fjellet?", "options": ["Elg", "Rødrev", "Villrein", "Hjort"], "correct": 2, "explain": "Villreinen trenger store uforstyrrede fjellområder." },
+    { "id": "q08", "text": "Hva er et argument mot olje- og gassvirksomhet i nordområdene?", "options": ["Den gir arbeidsplasser", "Den gir inntekter til staten", "Den gir nye skipsruter", "Den kan gi oljesøl i sårbare områder og bidrar til klimautslipp"], "correct": 3, "explain": "Fiskerinæringen og miljøbevegelsen er ofte kritiske." },
+    { "id": "q09", "text": "Hva betyr at natur bygges ned «bit for bit»?", "options": ["At mange små inngrep til sammen bygger ned mye natur", "At naturen vokser tilbake", "At man bygger med små steiner", "At byer blir mindre"], "correct": 0, "explain": "Hvert inngrep kan virke lite, men summen blir stor." },
+    { "id": "q10", "text": "Hva er et godt første steg når du drøfter en arealkonflikt?", "options": ["Å velge side med en gang", "Å finne ut hvem aktørene er og hvilke interesser de har", "Å lese bare én kilde", "Å se bort fra lovene"], "correct": 1, "explain": "Deretter vurderer du argumenter, lover og konsekvenser." }
+  ],
+  "mindmap": {
+    "label": "Ressurs- og arealbruk",
+    "children": [
+      { "label": "Areal", "children": [
+        { "label": "Begrenset ressurs" },
+        { "label": "Kommunale arealplaner" },
+        { "label": "Naturmangfoldloven" }
+      ] },
+      { "label": "Sápmi", "children": [
+        { "label": "Reindrift" },
+        { "label": "Fosen-saken" },
+        { "label": "Urfolks rettigheter" }
+      ] },
+      { "label": "Mineraler", "children": [
+        { "label": "Kobber" },
+        { "label": "Repparfjorden" },
+        { "label": "Sjødeponi" }
+      ] },
+      { "label": "Nordområdene", "children": [
+        { "label": "Fisk" },
+        { "label": "Olje og gass" },
+        { "label": "Svalbardtraktaten" },
+        { "label": "Russland" }
+      ] },
+      { "label": "Drøfting", "children": [
+        { "label": "Aktører" },
+        { "label": "Interesser" },
+        { "label": "Konsekvenser" },
+        { "label": "Kompromisser" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Reinen bruker ulike beiteområder til ulike årstider.", "correct": true, "explain": "Derfor trengs store, sammenhengende områder." },
+      { "id": "m02", "type": "sant-usant", "text": "Areal er en ressurs vi kan lage mer av.", "correct": false, "explain": "Areal er begrenset." },
+      { "id": "m03", "type": "sant-usant", "text": "Smeltende havis kan åpne nye skipsruter i nord.", "correct": true, "explain": "Det gir både muligheter og nye risikoer." },
+      { "id": "m04", "type": "sant-usant", "text": "Det grønne skiftet skaper aldri arealkonflikter.", "correct": false, "explain": "Vindkraft og gruvedrift kan gi store arealkonflikter." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken lov skal sikre at naturen tas vare på?", "options": ["Naturmangfoldloven", "Ferieloven", "Opplæringsloven", "Straffeloven"], "correct": 0, "explain": "Loven stiller krav til kunnskap og forsiktighet ved inngrep." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilket mineral trengs i det grønne skiftet og finnes ved Repparfjorden?", "options": ["Gull", "Salt", "Kobber", "Kull"], "correct": 2, "explain": "Kobber brukes blant annet i elektriske ledninger." },
+      { "id": "m07", "type": "flervalg", "text": "Hvorfor er nordområdene viktige for sikkerhetspolitikken?", "options": ["Fordi det er varmt der", "Fordi Norge grenser mot Russland der", "Fordi det bor flest folk der", "Fordi hovedstaden ligger der"], "correct": 1, "explain": "Nordområdene har stor strategisk betydning." }
+    ]
+  },
+  "kvalitet": { "status": "sjekkes", "merknader": ["Sjekk status for Fosen-saken og gruveplanene ved Repparfjorden, som kan ha endret seg."] }
+}

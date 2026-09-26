@@ -1,0 +1,83 @@
+{
+  "id": "natur-og-miljokatastrofer",
+  "fagId": "geografi-vg1",
+  "trinnId": "vg1",
+  "name": "Natur- og miljøkatastrofer",
+  "intro": "Forskjellen på naturfarer, naturkatastrofer og miljøkatastrofer, årsaker til jordskjelv, tsunamier, vulkanutbrudd, tropiske sykloner, flom og skred, og hvorfor konsekvensene for mennesker, samfunn og natur varierer så mye.",
+  "kompetansemaal": [6],
+  "sammendrag": "## Fare, sårbarhet og katastrofe\n\nEn **naturfare** er en naturlig prosess som **kan** skade mennesker, for eksempel et jordskjelv. Den blir en **naturkatastrofe** når den rammer mennesker og samfunn så hardt at de ikke klarer seg selv. Konsekvensene avhenger både av **faren** og av samfunnets **sårbarhet**:\n\n**Risiko = fare × sårbarhet**\n\nEt jordskjelv av samme styrke kan drepe få mennesker i et rikt land med jordskjelvsikre bygninger og mange tusen i et fattig land med dårlige bygninger og svak beredskap.\n\nEn **miljøkatastrofe** er **menneskeskapt** skade på natur og miljø, som oljeutslipp eller atomulykker.\n\n## Typer naturkatastrofer\n\n**Jordskjelv** oppstår når spenninger langs **plategrenser** eller forkastninger utløses brått. I **februar 2023** rammet et kraftig jordskjelv **Tyrkia og Syria**, og over 50 000 mennesker døde.\n\n**Tsunamier** er store bølger som oftest skyldes jordskjelv under havbunnen. **Tsunamien i Indiahavet** 26. desember **2004** drepte rundt 230 000 mennesker i mange land.\n\n**Vulkanutbrudd** skjer ved plategrenser og over «hot spots». Aske og gasser kan ødelegge avlinger, stanse flytrafikk og påvirke klimaet.\n\n**Tropiske sykloner** – kalt **orkaner**, **tyfoner** eller **sykloner** i ulike deler av verden – dannes over **varmt hav** og gir ekstrem vind, nedbør og **stormflo**. Orkanen **Katrina** satte store deler av New Orleans under vann i 2005.\n\n**Flom** skyldes kraftig nedbør, snøsmelting eller stormflo. **Tørke** gir avlingssvikt og sult.\n\n**Skred** er vanlige i Norge: **snøskred**, **steinsprang**, **jord- og flomskred** og **kvikkleireskred**. **Kvikkleire** er marin leire fra etter istiden som kan bli flytende når den forstyrres. I **Gjerdrum** gikk et stort kvikkleireskred **30. desember 2020**, og 11 mennesker omkom.\n\n## Miljøkatastrofer\n\n- **Tsjernobyl-ulykken** (1986) spredte radioaktivt nedfall over store deler av Europa, også Norge.\n- **Deepwater Horizon** (2010) ga et av historiens største oljeutslipp i Mexicogolfen.\n- **Aralsjøen** i Sentral-Asia har nesten tørket inn fordi elvene ble brukt til vanning av bomullsåkre.\n\n## Konsekvenser\n\n- **Mennesker**: dødsfall, skader, tap av hjem og levebrød, traumer\n- **Samfunn**: ødelagt infrastruktur, økonomiske tap, flyktningstrømmer\n- **Natur**: ødelagte økosystemer, forurensning, tap av arter\n\nKlimaendringene kan gjøre noen naturfarer, som **ekstremnedbør**, **tørke** og **hetebølger**, **hyppigere** og **kraftigere**.\n\n## Beredskap og forebygging\n\n- **Varsling**, for eksempel tsunamivarsling og skred- og flomvarsling på **Varsom.no**\n- **Byggeforskrifter** og **arealplanlegging** som unngår utsatte områder\n- **Kartlegging** av farer, som kvikkleiresoner\n- **Evakueringsplaner** og **øvelser**\n- **Internasjonal nødhjelp** etter katastrofer",
+  "flashcards": [
+    { "term": "Naturfare", "def": "Naturlig prosess som kan skade mennesker." },
+    { "term": "Naturkatastrofe", "def": "Når en naturfare rammer mennesker og samfunn så hardt at de ikke klarer seg selv." },
+    { "term": "Sårbarhet", "def": "Hvor lett et samfunn skades av en fare." },
+    { "term": "Risiko = fare × sårbarhet", "def": "Konsekvensene avhenger både av faren og av samfunnet." },
+    { "term": "Miljøkatastrofe", "def": "Menneskeskapt skade på natur og miljø." },
+    { "term": "Tsunami", "def": "Store bølger, oftest utløst av jordskjelv under havbunnen." },
+    { "term": "Tsunamien i Indiahavet", "def": "26. desember 2004, rundt 230 000 døde." },
+    { "term": "Tropisk syklon", "def": "Kraftig storm over varmt hav, kalt orkan, tyfon eller syklon." },
+    { "term": "Stormflo", "def": "Ekstra høy vannstand på grunn av vind og lavtrykk." },
+    { "term": "Kvikkleire", "def": "Marin leire som kan bli flytende når den forstyrres." },
+    { "term": "Gjerdrum-skredet", "def": "Kvikkleireskred 30. desember 2020 der 11 mennesker omkom." },
+    { "term": "Tsjernobyl", "def": "Atomulykke i 1986 som spredte radioaktivt nedfall over Europa." },
+    { "term": "Aralsjøen", "def": "Innsjø som nesten har tørket inn på grunn av vanning av bomull." },
+    { "term": "Varsom.no", "def": "Nettsted med varsler om skred og flom i Norge." },
+    { "term": "Beredskap", "def": "Forberedelser for å håndtere katastrofer." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva avgjør hvor store konsekvenser en naturfare får?", "options": ["Bare hvor sterk faren er", "Både faren og samfunnets sårbarhet", "Bare været", "Bare antall innbyggere"], "correct": 1, "explain": "Risiko = fare × sårbarhet." },
+    { "id": "q02", "text": "Hva er vanligvis årsaken til en tsunami?", "options": ["Jordskjelv under havbunnen", "Sterk vind", "Tidevann", "Snøsmelting"], "correct": 0, "explain": "Havbunnen flytter seg brått og skyver vannmassene." },
+    { "id": "q03", "text": "Hva er kvikkleire?", "options": ["Leire fra vulkaner", "Sand i ørkener", "Marin leire som kan bli flytende når den forstyrres", "Leire brukt i keramikk"], "correct": 2, "explain": "Kvikkleire finnes under den marine grensen fra etter istiden." },
+    { "id": "q04", "text": "Hvilken av disse er en miljøkatastrofe?", "options": ["Et jordskjelv", "En orkan", "Et vulkanutbrudd", "Et stort oljeutslipp"], "correct": 3, "explain": "Miljøkatastrofer er menneskeskapte." },
+    { "id": "q05", "text": "Hvor dannes tropiske sykloner?", "options": ["Over varmt hav", "Over isbreer", "I ørkener", "I fjellområder"], "correct": 0, "explain": "Varmt havvann gir energi til stormen." },
+    { "id": "q06", "text": "Hvorfor dør ofte flere i fattige land når et jordskjelv rammer?", "options": ["Fordi jordskjelvene alltid er sterkere der", "Fordi bygningene er dårligere og beredskapen svakere", "Fordi det bor færre folk der", "Fordi det ikke finnes plategrenser der"], "correct": 1, "explain": "Sårbarheten er større." },
+    { "id": "q07", "text": "Når gikk kvikkleireskredet i Gjerdrum?", "options": ["2004", "2011", "30. desember 2020", "1986"], "correct": 2, "explain": "11 mennesker omkom." },
+    { "id": "q08", "text": "Hvor kan du finne varsler om skred og flom i Norge?", "options": ["Yr.no alene", "Finn.no", "Nav.no", "Varsom.no"], "correct": 3, "explain": "Varsom.no drives av blant andre NVE." },
+    { "id": "q09", "text": "Hvorfor har Aralsjøen nesten tørket inn?", "options": ["Elvene som renner inn i den, ble brukt til vanning av bomullsåkre", "Et jordskjelv", "En tsunami", "Et vulkanutbrudd"], "correct": 0, "explain": "Det er et eksempel på en menneskeskapt miljøkatastrofe." },
+    { "id": "q10", "text": "Hvordan kan klimaendringene påvirke naturfarer?", "options": ["De gjør alle naturfarer sjeldnere", "De kan gjøre ekstremnedbør, tørke og hetebølger hyppigere og kraftigere", "De påvirker bare jordskjelv", "De har ingen betydning"], "correct": 1, "explain": "Jordskjelv og vulkaner påvirkes ikke av klimaet på samme måte." }
+  ],
+  "mindmap": {
+    "label": "Natur- og miljøkatastrofer",
+    "children": [
+      { "label": "Begreper", "children": [
+        { "label": "Naturfare" },
+        { "label": "Sårbarhet" },
+        { "label": "Risiko" }
+      ] },
+      { "label": "Geologiske", "children": [
+        { "label": "Jordskjelv" },
+        { "label": "Tsunami" },
+        { "label": "Vulkanutbrudd" }
+      ] },
+      { "label": "Vær og vann", "children": [
+        { "label": "Tropiske sykloner" },
+        { "label": "Flom og tørke" },
+        { "label": "Skred og kvikkleire" }
+      ] },
+      { "label": "Miljøkatastrofer", "children": [
+        { "label": "Tsjernobyl" },
+        { "label": "Oljeutslipp" },
+        { "label": "Aralsjøen" }
+      ] },
+      { "label": "Beredskap", "children": [
+        { "label": "Varsling" },
+        { "label": "Arealplanlegging" },
+        { "label": "Evakuering" },
+        { "label": "Nødhjelp" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Tsjernobyl-ulykken ga radioaktivt nedfall også i Norge.", "correct": true, "explain": "Nedfallet påvirket blant annet reindrift og sauehold." },
+      { "id": "m02", "type": "sant-usant", "text": "Et jordskjelv av samme styrke gir alltid like mange dødsfall uansett hvor det skjer.", "correct": false, "explain": "Sårbarheten i samfunnet avgjør mye." },
+      { "id": "m03", "type": "sant-usant", "text": "Orkaner, tyfoner og sykloner er samme type værfenomen.", "correct": true, "explain": "De har bare ulike navn i ulike deler av verden." },
+      { "id": "m04", "type": "sant-usant", "text": "Skred er sjeldne i Norge.", "correct": false, "explain": "Snøskred, steinsprang, jordskred og kvikkleireskred er vanlige i Norge." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilket år rammet tsunamien i Indiahavet?", "options": ["1986", "2004", "2010", "2023"], "correct": 1, "explain": "Rundt 230 000 mennesker døde." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er stormflo?", "options": ["Ekstra høy vannstand på grunn av vind og lavtrykk", "En type snøskred", "Et vulkanutbrudd under vann", "Et jordskjelv"], "correct": 0, "explain": "Stormflo kan gi store oversvømmelser langs kysten." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilket tiltak forebygger skader ved kvikkleireskred?", "options": ["Å bygge flere hus i utsatte områder", "Å fjerne varslingssystemer", "Å kartlegge kvikkleiresoner og ta hensyn til dem i arealplanleggingen", "Å plante trær på stranda"], "correct": 2, "explain": "Kunnskap om grunnforholdene er avgjørende." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

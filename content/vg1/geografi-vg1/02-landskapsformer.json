@@ -1,0 +1,85 @@
+{
+  "id": "landskapsformer",
+  "fagId": "geografi-vg1",
+  "trinnId": "vg1",
+  "name": "Indre og ytre krefter former landskapet",
+  "intro": "Hvordan platetektonikk, vulkaner og jordskjelv bygger opp landskapet, og hvordan forvitring, is, rennende vann, hav og vind bryter det ned – med eksempler fra Norge og på hvordan mennesker utnytter ressursene i ulike landskap.",
+  "kompetansemaal": [2],
+  "sammendrag": "## Indre og ytre krefter\n\nLandskapet formes av to typer krefter:\n\n- **Indre krefter** kommer fra jordas indre og **bygger opp** landskapet – fjellkjeder, vulkaner og jordskjelv.\n- **Ytre krefter** kommer fra sola og tyngdekraften og **bryter ned** og **flytter** materiale – vann, is, vind og temperaturendringer.\n\n## Platetektonikk\n\nJordas ytre del er delt i store **plater** som flytter seg noen centimeter i året, drevet av varme strømmer i mantelen.\n\n- **Divergerende plategrenser**: Platene beveger seg **fra hverandre**, og magma strømmer opp. Eksempel: den **midtatlantiske ryggen** og **Island**.\n- **Konvergerende plategrenser**: Platene beveger seg **mot hverandre**. Når en havplate går under en annen plate (**subduksjon**), dannes dyphavsgroper og vulkaner. Når to kontinentplater kolliderer, presses det opp **fjellkjeder**, som **Himalaya**.\n- **Transformgrenser**: Platene glir **sidelengs** forbi hverandre, som ved **San Andreas-forkastningen** i California.\n\nDe fleste **jordskjelv** og **vulkaner** ligger langs plategrensene. Den **kaledonske fjellkjeden**, som Norges fjell er rester av, ble dannet ved en platekollisjon for rundt 400 millioner år siden.\n\n## Ytre krefter\n\n- **Forvitring**: Berget brytes ned der det står. **Mekanisk** forvitring skjer for eksempel ved **frostsprengning**, når vann fryser i sprekker og utvider seg. **Kjemisk** forvitring løser opp berget.\n- **Erosjon**: Materiale **flyttes** av vann, is eller vind og **avsettes** et annet sted.\n\n## Isens landskap\n\nUnder **istidene** dekket tykke isbreer Norge. Den siste istiden sluttet for omtrent 10 000 år siden.\n\n- Breene gravde ut **U-daler** og **fjorder** – dype, U-formede daler som senere ble fylt av havet.\n- **Botner** og skarpe **tinder** ble formet høyt til fjells.\n- Breene la igjen **morener** – rygger av stein, grus og sand – som i dag ofte gir god jordbruksjord og grus til byggebransjen.\n- Da isen smeltet, **hevet landet seg** fordi vekten forsvant. Gammel havbunn ble tørt land, og marin **leire** – noen steder **kvikkleire** – ligger i dag langt over havet.\n\n## Vann, hav og vind\n\n- **Elver** graver ut **V-daler** og avsetter materiale i **deltaer** der de munner ut.\n- **Havet** eroderer kysten og former **strandflaten** langs norskekysten.\n- **Vind** former sanddyner i ørkener og ved kysten.\n\n## Mennesker og landskap\n\nLandskapet gir **ressurser** og **muligheter**:\n\n- Bratte fjell og mye nedbør gir **vannkraft**.\n- **Fjordene** gir gode havner og plass til **havbruk**.\n- **Morener** og **leirslettene** under marin grense gir **jordbruk**.\n- Berggrunnen gir **mineraler** og **stein**.\n- Vulkansk jord er svært **fruktbar**, og Island utnytter **geotermisk energi**.\n\nMen landskapet gir også **farer**, som skred, flom og jordskjelv – og det påvirker hvor og hvordan vi bygger.",
+  "flashcards": [
+    { "term": "Indre krefter", "def": "Krefter fra jordas indre som bygger opp landskapet." },
+    { "term": "Ytre krefter", "def": "Vann, is, vind og temperatur som bryter ned og flytter materiale." },
+    { "term": "Platetektonikk", "def": "Teorien om at jordskorpa er delt i plater som beveger seg." },
+    { "term": "Divergerende plategrense", "def": "Platene beveger seg fra hverandre, som ved Island." },
+    { "term": "Konvergerende plategrense", "def": "Platene beveger seg mot hverandre." },
+    { "term": "Subduksjon", "def": "En havplate går ned under en annen plate." },
+    { "term": "Transformgrense", "def": "Platene glir sidelengs forbi hverandre." },
+    { "term": "Den kaledonske fjellkjeden", "def": "Fjellkjede dannet for rundt 400 millioner år siden; Norges fjell er rester av den." },
+    { "term": "Frostsprengning", "def": "Mekanisk forvitring når vann fryser i sprekker." },
+    { "term": "Erosjon", "def": "At materiale flyttes av vann, is eller vind." },
+    { "term": "U-dal", "def": "Dal formet av isbre." },
+    { "term": "V-dal", "def": "Dal formet av elv." },
+    { "term": "Morene", "def": "Rygg av stein, grus og sand avsatt av en isbre." },
+    { "term": "Landheving", "def": "At landet hever seg etter at vekten av isen forsvinner." },
+    { "term": "Delta", "def": "Avsetning der en elv munner ut i sjø eller hav." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva slags plategrense finner vi ved Island?", "options": ["Konvergerende", "Divergerende", "Transform", "Ingen plategrense"], "correct": 1, "explain": "Platene beveger seg fra hverandre, og magma strømmer opp." },
+    { "id": "q02", "text": "Hvordan ble Himalaya dannet?", "options": ["Ved at to kontinentplater kolliderte", "Ved erosjon", "Ved en vulkan", "Ved at platene glir fra hverandre"], "correct": 0, "explain": "Kollisjonen presser opp fjellkjeder." },
+    { "id": "q03", "text": "Hva former en U-dal?", "options": ["En elv", "Vinden", "En isbre", "Havet"], "correct": 2, "explain": "Elver former V-daler." },
+    { "id": "q04", "text": "Hva er frostsprengning?", "options": ["At isbreer smelter", "At vulkaner får utbrudd", "At elver fryser", "At vann fryser i sprekker og sprenger berget"], "correct": 3, "explain": "Det er en form for mekanisk forvitring." },
+    { "id": "q05", "text": "Hva er en morene?", "options": ["En rygg av stein, grus og sand avsatt av en isbre", "En type vulkan", "En dyp fjord", "En elvemunning"], "correct": 0, "explain": "Morener gir ofte god jordbruksjord." },
+    { "id": "q06", "text": "Hvorfor hevet landet seg etter istiden?", "options": ["Fordi havet sank", "Fordi vekten av isen forsvant", "Fordi det kom vulkanutbrudd", "Fordi platene kolliderte"], "correct": 1, "explain": "Derfor ligger gammel havbunn i dag over havet." },
+    { "id": "q07", "text": "Hvor ligger de fleste jordskjelv og vulkaner?", "options": ["Midt på kontinentene", "Ved polene", "Langs plategrensene", "Tilfeldig spredt"], "correct": 2, "explain": "Der beveger platene seg i forhold til hverandre." },
+    { "id": "q08", "text": "Hvilken ressurs gir bratte fjell og mye nedbør i Norge?", "options": ["Olje", "Geotermisk energi", "Kull", "Vannkraft"], "correct": 3, "explain": "Fallhøyde og mye vann gir mye energi." },
+    { "id": "q09", "text": "Hva er forskjellen på forvitring og erosjon?", "options": ["Forvitring bryter ned berget der det står, erosjon flytter materialet", "Det er det samme", "Erosjon skjer bare i ørkener", "Forvitring skjer bare under vann"], "correct": 0, "explain": "Begge er ytre krefter." },
+    { "id": "q10", "text": "Hva er en transformgrense?", "options": ["Der platene beveger seg fra hverandre", "Der platene glir sidelengs forbi hverandre", "Der en havplate går under en annen", "Der to kontinenter kolliderer"], "correct": 1, "explain": "San Andreas-forkastningen er et kjent eksempel." }
+  ],
+  "mindmap": {
+    "label": "Landskapsformer",
+    "children": [
+      { "label": "Indre krefter", "children": [
+        { "label": "Platetektonikk" },
+        { "label": "Vulkaner" },
+        { "label": "Jordskjelv" },
+        { "label": "Fjellkjeder" }
+      ] },
+      { "label": "Plategrenser", "children": [
+        { "label": "Divergerende" },
+        { "label": "Konvergerende" },
+        { "label": "Transform" }
+      ] },
+      { "label": "Ytre krefter", "children": [
+        { "label": "Forvitring" },
+        { "label": "Erosjon" },
+        { "label": "Avsetning" }
+      ] },
+      { "label": "Norges landskap", "children": [
+        { "label": "Fjorder og U-daler" },
+        { "label": "Morener" },
+        { "label": "Landheving" },
+        { "label": "Strandflaten" }
+      ] },
+      { "label": "Ressurser", "children": [
+        { "label": "Vannkraft" },
+        { "label": "Havbruk" },
+        { "label": "Jordbruk" },
+        { "label": "Mineraler" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Norges fjell er rester av den kaledonske fjellkjeden.", "correct": true, "explain": "Den ble dannet for rundt 400 millioner år siden." },
+      { "id": "m02", "type": "sant-usant", "text": "Kontinentalplatene står helt stille.", "correct": false, "explain": "De beveger seg noen centimeter i året." },
+      { "id": "m03", "type": "sant-usant", "text": "Fjordene ble gravd ut av isbreer.", "correct": true, "explain": "Senere ble de fylt av havet." },
+      { "id": "m04", "type": "sant-usant", "text": "Elver former vanligvis U-daler.", "correct": false, "explain": "Elver former V-daler. Isbreer former U-daler." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er subduksjon?", "options": ["At en havplate går ned under en annen plate", "At to plater glir sidelengs", "At en isbre smelter", "At en elv lager et delta"], "correct": 0, "explain": "Subduksjon gir dyphavsgroper og vulkaner." },
+      { "id": "m06", "type": "flervalg", "text": "Når sluttet den siste istiden i Norge?", "options": ["For 1000 år siden", "For 1 million år siden", "For omtrent 10 000 år siden", "For 400 millioner år siden"], "correct": 2, "explain": "Isen trakk seg tilbake for rundt 10 000 år siden." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilken energikilde utnytter Island på grunn av vulkansk aktivitet?", "options": ["Kullkraft", "Geotermisk energi", "Kjernekraft", "Vindkraft"], "correct": 1, "explain": "Varmen i undergrunnen gir strøm og oppvarming." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

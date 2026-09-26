@@ -1,0 +1,82 @@
+{
+  "id": "ressursbruk-og-barekraft",
+  "fagId": "geografi-vg1",
+  "trinnId": "vg1",
+  "name": "Ressursbruk og bærekraft",
+  "intro": "Fornybare og ikke-fornybare ressurser, økologisk fotavtrykk og overforbruk, Norges ressursbruk i et globalt perspektiv – olje, vannkraft, fisk og forbruk – og hvordan du kan reflektere over din egen ressursbruk.",
+  "kompetansemaal": [4],
+  "sammendrag": "## Naturressurser\n\nEn **naturressurs** er noe fra naturen som mennesker kan bruke.\n\n- **Fornybare ressurser** fornyes hele tiden, som **sol**, **vind** og **rennende vann**.\n- **Betinget fornybare ressurser** fornyes bare hvis de **forvaltes** godt, som **fisk**, **skog** og **jordsmonn**. Overfiske kan få en fiskebestand til å bryte sammen.\n- **Ikke-fornybare ressurser** finnes i begrensede mengder og dannes ikke på nytt i menneskelig tidsperspektiv, som **olje**, **gass**, **kull** og **mineraler**.\n\n## Bærekraftig utvikling\n\n**Bærekraftig utvikling** betyr å dekke dagens behov uten å ødelegge mulighetene for kommende generasjoner. Begrepet ble kjent gjennom **Brundtland-rapporten** i **1987**, ledet av Gro Harlem Brundtland. Bærekraft har tre dimensjoner: **miljø**, **økonomi** og **sosiale forhold**.\n\n## Økologisk fotavtrykk\n\nDet **økologiske fotavtrykket** viser hvor stort areal som trengs for å produsere det vi forbruker og ta hånd om avfallet og utslippene våre. Hvis alle i verden levde som gjennomsnittsnordmannen, ville vi trengt **flere jordkloder**. **Jordas overforbruksdag** markerer datoen da menneskeheten har brukt opp det naturen klarer å fornye i løpet av et år – den kommer nå tidlig på sommeren eller sensommeren hvert år.\n\nFotavtrykket varierer mye: Folk i rike land har ofte mange ganger større fotavtrykk enn folk i fattige land.\n\n## Norges ressursbruk\n\n- **Olje og gass**: Norge er en stor **eksportør**. Inntektene har gjort landet rikt, og mye er plassert i **Statens pensjonsfond utland** (oljefondet). Men utslippene når olje og gass **brennes**, skjer stort sett i andre land – og bidrar til global oppvarming.\n- **Vannkraft**: Nesten all strøm i Norge kommer fra **fornybar vannkraft**.\n- **Fisk og havbruk**: Norge er en av verdens største eksportører av sjømat. **Oppdrettslaks** gir store inntekter, men også utfordringer som **lakselus** og rømming.\n- **Forbruk**: Nordmenn kjøper mye **klær**, **elektronikk** og **mat**, og har et høyt forbruk per person sammenlignet med de fleste land.\n\n## Globalt perspektiv\n\nRessursbruken i ett land påvirker andre deler av verden. Mobilen din inneholder **mineraler** som kan være utvunnet under dårlige forhold, klærne kan være produsert med mye vann og kjemikalier, og maten kan ha bidratt til avskoging. **Globale verdikjeder** gjør at forbruk i Norge har konsekvenser langt unna.\n\n## Reflektere over egen ressursbruk\n\nSpørsmål du kan stille deg:\n\n- Trenger jeg dette, eller kan jeg **låne**, **reparere** eller **kjøpe brukt**?\n- Hvor lenge vil jeg bruke det?\n- Hvordan kan jeg redusere **matsvinn** og **energibruk**?\n- Hvilke **transportvalg** tar jeg?\n\nMange tiltak krever også **politiske beslutninger** og endringer i **næringslivet** – enkeltpersoners valg er viktige, men løser ikke alt alene. En god refleksjon ser både på **egne valg** og på **samfunnets ansvar**.",
+  "flashcards": [
+    { "term": "Naturressurs", "def": "Noe fra naturen som mennesker kan bruke." },
+    { "term": "Fornybar ressurs", "def": "Ressurs som fornyes hele tiden, som sol og vind." },
+    { "term": "Betinget fornybar ressurs", "def": "Ressurs som fornyes hvis den forvaltes godt, som fisk og skog." },
+    { "term": "Ikke-fornybar ressurs", "def": "Ressurs i begrensede mengder, som olje og mineraler." },
+    { "term": "Bærekraftig utvikling", "def": "Å dekke dagens behov uten å ødelegge for kommende generasjoner." },
+    { "term": "Brundtland-rapporten", "def": "Rapport fra 1987 som gjorde begrepet bærekraftig utvikling kjent." },
+    { "term": "Økologisk fotavtrykk", "def": "Arealet som trengs for å dekke forbruket og ta hånd om avfall og utslipp." },
+    { "term": "Jordas overforbruksdag", "def": "Datoen da menneskeheten har brukt opp det naturen fornyer på et år." },
+    { "term": "Oljefondet", "def": "Statens pensjonsfond utland, der oljeinntektene plasseres." },
+    { "term": "Vannkraft", "def": "Fornybar energi som gir nesten all strøm i Norge." },
+    { "term": "Lakselus", "def": "Parasitt som er en utfordring for oppdrettsnæringen og villaks." },
+    { "term": "Overfiske", "def": "Å fiske mer enn bestanden tåler." },
+    { "term": "Globale verdikjeder", "def": "Produksjon fordelt over mange land fra råvare til ferdig vare." },
+    { "term": "Tre dimensjoner av bærekraft", "def": "Miljø, økonomi og sosiale forhold." },
+    { "term": "Gjenbruk og reparasjon", "def": "Måter å redusere eget forbruk på." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvilken ressurs er ikke-fornybar?", "options": ["Vind", "Olje", "Solenergi", "Rennende vann"], "correct": 1, "explain": "Olje dannes ikke på nytt i menneskelig tidsperspektiv." },
+    { "id": "q02", "text": "Hvorfor kalles fisk en betinget fornybar ressurs?", "options": ["Fordi den bare fornyes hvis den forvaltes godt", "Fordi den aldri tar slutt", "Fordi den ikke kan fornyes", "Fordi den er en mineral"], "correct": 0, "explain": "Overfiske kan få en bestand til å bryte sammen." },
+    { "id": "q03", "text": "Hva er det økologiske fotavtrykket?", "options": ["Et fotspor i naturen", "Antall skritt man går per dag", "Arealet som trengs for å dekke forbruket og ta hånd om avfall og utslipp", "Størrelsen på et land"], "correct": 2, "explain": "Rike land har ofte store fotavtrykk." },
+    { "id": "q04", "text": "Hvilken rapport gjorde begrepet bærekraftig utvikling kjent i 1987?", "options": ["Parisavtalen", "FNs klimarapport", "Kyotoprotokollen", "Brundtland-rapporten"], "correct": 3, "explain": "Den ble ledet av Gro Harlem Brundtland." },
+    { "id": "q05", "text": "Hvor kommer nesten all strøm i Norge fra?", "options": ["Vannkraft", "Kullkraft", "Kjernekraft", "Gasskraft"], "correct": 0, "explain": "Bratte fjell og mye nedbør gir gode forhold for vannkraft." },
+    { "id": "q06", "text": "Hvor skjer det meste av utslippene fra norsk olje og gass?", "options": ["På norske oljeplattformer", "I andre land, der oljen og gassen brennes", "I oljefondet", "I Nordsjøen"], "correct": 1, "explain": "Produksjonen gir også utslipp i Norge, men forbrenningen skjer mest i andre land." },
+    { "id": "q07", "text": "Hva er en utfordring for oppdrettsnæringen?", "options": ["For lite hav", "For kaldt vann", "Lakselus og rømming", "For få kunder"], "correct": 2, "explain": "Lakselus kan også skade villaksen." },
+    { "id": "q08", "text": "Hva markerer jordas overforbruksdag?", "options": ["Årets varmeste dag", "Dagen da oljen tar slutt", "Dagen med mest handel", "Datoen da menneskeheten har brukt opp det naturen fornyer på et år"], "correct": 3, "explain": "Etter denne datoen lever vi på «kreditt» fra naturen." },
+    { "id": "q09", "text": "Hvilket tiltak reduserer eget ressursforbruk?", "options": ["Å reparere og kjøpe brukt", "Å kjøpe ny mobil hvert år", "Å kaste mat", "Å fly oftere"], "correct": 0, "explain": "Gjenbruk forlenger levetiden til produktene." },
+    { "id": "q10", "text": "Hvorfor bør en refleksjon over ressursbruk også se på samfunnets ansvar?", "options": ["Fordi enkeltpersoner ikke har noe ansvar", "Fordi mange tiltak krever politiske beslutninger og endringer i næringslivet", "Fordi det er enklere", "Fordi bare staten forbruker"], "correct": 1, "explain": "Både egne valg og samfunnets beslutninger betyr noe." }
+  ],
+  "mindmap": {
+    "label": "Ressursbruk og bærekraft",
+    "children": [
+      { "label": "Ressurser", "children": [
+        { "label": "Fornybare" },
+        { "label": "Betinget fornybare" },
+        { "label": "Ikke-fornybare" }
+      ] },
+      { "label": "Bærekraft", "children": [
+        { "label": "Brundtland 1987" },
+        { "label": "Tre dimensjoner" }
+      ] },
+      { "label": "Fotavtrykk", "children": [
+        { "label": "Økologisk fotavtrykk" },
+        { "label": "Overforbruksdagen" },
+        { "label": "Rike og fattige land" }
+      ] },
+      { "label": "Norge", "children": [
+        { "label": "Olje og gass" },
+        { "label": "Vannkraft" },
+        { "label": "Fisk og havbruk" },
+        { "label": "Høyt forbruk" }
+      ] },
+      { "label": "Egne valg", "children": [
+        { "label": "Reparere og gjenbruke" },
+        { "label": "Matsvinn" },
+        { "label": "Samfunnets ansvar" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Hvis alle levde som gjennomsnittsnordmannen, ville vi trengt mer enn én jordklode.", "correct": true, "explain": "Norge har et høyt forbruk per person." },
+      { "id": "m02", "type": "sant-usant", "text": "Skog er en ressurs som alltid fornyes uansett hvordan den forvaltes.", "correct": false, "explain": "Skog er betinget fornybar." },
+      { "id": "m03", "type": "sant-usant", "text": "Forbruk i Norge kan ha konsekvenser i andre deler av verden.", "correct": true, "explain": "Globale verdikjeder knytter forbruk og produksjon sammen." },
+      { "id": "m04", "type": "sant-usant", "text": "Bærekraft handler bare om miljø.", "correct": false, "explain": "Bærekraft handler også om økonomi og sosiale forhold." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er oljefondet?", "options": ["Et fond for oljearbeidere", "Statens pensjonsfond utland, der oljeinntektene plasseres", "Et selskap som borer etter olje", "En miljøorganisasjon"], "correct": 1, "explain": "Fondet skal komme både dagens og framtidens generasjoner til gode." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilken av disse er en fornybar ressurs?", "options": ["Kull", "Naturgass", "Vindkraft", "Kobber"], "correct": 2, "explain": "Vinden fornyes hele tiden." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilket spørsmål er nyttig når du vurderer eget forbruk?", "options": ["Trenger jeg dette, eller kan jeg låne eller kjøpe brukt?", "Hva er billigst akkurat nå?", "Hva har vennene mine?", "Hva er mest populært?"], "correct": 0, "explain": "Det reduserer forbruket av nye ressurser." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

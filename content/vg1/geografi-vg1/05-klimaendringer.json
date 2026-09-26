@@ -1,0 +1,83 @@
+{
+  "id": "klimaendringer",
+  "fagId": "geografi-vg1",
+  "trinnId": "vg1",
+  "name": "Klimaendringer i natur og samfunn",
+  "intro": "Forskjellen på vær og klima, drivhuseffekten og menneskeskapte klimaendringer, konsekvenser for natur og samfunn lokalt i Norge, regionalt i Arktis og globalt – og forskjellen på utslippskutt og klimatilpasning.",
+  "kompetansemaal": [5],
+  "sammendrag": "## Vær og klima\n\n**Vær** er forholdene i atmosfæren her og nå – temperatur, nedbør og vind. **Klima** er gjennomsnittet av været over lang tid, vanligvis **30 år**. En kald vinter betyr ikke at klimaet ikke blir varmere.\n\n## Drivhuseffekten\n\nSola varmer opp jordoverflaten, som sender ut **varmestråling**. **Drivhusgasser** som **karbondioksid** (CO₂), **metan** (CH₄), **lystgass** (N₂O) og **vanndamp** holder på noe av varmen. Uten den **naturlige drivhuseffekten** ville jorda vært omtrent 30 grader kaldere.\n\nSiden industrialiseringen har mennesker sluppet ut store mengder drivhusgasser, særlig ved å brenne **kull, olje og gass**, ved **avskoging** og fra **landbruk**. Dette **forsterker** drivhuseffekten. **FNs klimapanel (IPCC)** har slått fast at det er **utvetydig** at menneskelig aktivitet har varmet opp atmosfæren, havet og landjorda. Den globale temperaturen har økt med over én grad siden førindustriell tid.\n\n## Konsekvenser globalt\n\n- Flere og kraftigere **hetebølger**, **tørkeperioder** og **ekstremnedbør**\n- **Havnivåstigning** fordi isbreer smelter og havet utvider seg når det blir varmere – en trussel mot lavtliggende land og øystater som **Maldivene** og **Tuvalu**\n- **Havforsuring** og korallbleking\n- Dårligere **matsikkerhet** i mange områder\n- Arter som flytter, eller som ikke klarer å tilpasse seg og **dør ut**\n- Flere mennesker på flukt fra ødelagte levekår\n\nKlimaendringene rammer ofte **hardest** i fattige land som har **sluppet ut minst**, noe som reiser spørsmål om **klimarettferdighet**.\n\n## Konsekvenser i Arktis\n\n**Arktis** varmes opp **mye raskere** enn resten av verden. **Havisen** krymper, noe som truer isbjørn og sel, men åpner for **skipsfart** og ressursutvinning. Tinende **permafrost** kan skade bygninger og veier og frigjøre mer drivhusgasser.\n\n## Konsekvenser i Norge\n\n- **Mer nedbør** og mer **styrtregn**\n- Flere **flommer** og **jord- og flomskred**\n- **Kortere snøsesong** i lavlandet\n- **Havnivåstigning** og stormflo langs deler av kysten\n- **Lengre vekstsesong**, men også nye skadedyr og sykdommer\n- Arter som flytter **nordover** og **høyere opp**\n\n## Hva kan gjøres?\n\n- **Utslippskutt** (klimatiltak) reduserer årsaken: fornybar energi, elektrifisering av transport, energieffektivisering, mindre avskoging og endret forbruk.\n- **Klimatilpasning** gjør samfunnet bedre rustet til endringene: bedre avløpssystemer, flomvern, sikring mot skred og å unngå å bygge i utsatte områder.\n\nI **Parisavtalen** fra **2015** ble verdens land enige om å begrense oppvarmingen til godt **under 2 grader**, og helst **1,5 grader**. Klimaendringene må løses både **lokalt**, **nasjonalt** og **globalt**.",
+  "flashcards": [
+    { "term": "Vær", "def": "Forholdene i atmosfæren her og nå." },
+    { "term": "Klima", "def": "Gjennomsnittet av været over lang tid, vanligvis 30 år." },
+    { "term": "Drivhuseffekten", "def": "Drivhusgasser holder på varme i atmosfæren." },
+    { "term": "Drivhusgasser", "def": "CO₂, metan, lystgass og vanndamp." },
+    { "term": "Forsterket drivhuseffekt", "def": "Økt oppvarming på grunn av menneskeskapte utslipp." },
+    { "term": "IPCC", "def": "FNs klimapanel, som sammenstiller forskningen om klima." },
+    { "term": "Havnivåstigning", "def": "Stigende hav på grunn av smeltende is og varmere hav." },
+    { "term": "Klimarettferdighet", "def": "At de som har sluppet ut minst, ofte rammes hardest." },
+    { "term": "Arktis", "def": "Varmes opp mye raskere enn resten av verden." },
+    { "term": "Permafrost", "def": "Bakke som er frossen hele året." },
+    { "term": "Styrtregn", "def": "Svært kraftig nedbør over kort tid." },
+    { "term": "Utslippskutt", "def": "Tiltak som reduserer utslippene av drivhusgasser." },
+    { "term": "Klimatilpasning", "def": "Tiltak som gjør samfunnet bedre rustet til klimaendringene." },
+    { "term": "Parisavtalen", "def": "Avtale fra 2015 om å begrense oppvarmingen til godt under 2 grader." },
+    { "term": "1,5-gradersmålet", "def": "Målet om å begrense oppvarmingen til 1,5 grader." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er forskjellen på vær og klima?", "options": ["Det er det samme", "Vær er forholdene nå, klima er gjennomsnittet over lang tid", "Klima gjelder bare sommeren", "Vær gjelder hele verden"], "correct": 1, "explain": "Klima regnes vanligvis som gjennomsnittet over 30 år." },
+    { "id": "q02", "text": "Hvilken av disse er en drivhusgass?", "options": ["Metan", "Oksygen", "Nitrogen", "Argon"], "correct": 0, "explain": "Metan kommer blant annet fra husdyr og søppelfyllinger." },
+    { "id": "q03", "text": "Hvorfor stiger havnivået?", "options": ["Fordi det regner mer over havet", "Fordi elvene blir større", "Fordi isbreer smelter og varmere hav utvider seg", "Fordi det bygges flere skip"], "correct": 2, "explain": "Begge deler bidrar til havnivåstigning." },
+    { "id": "q04", "text": "Hva er klimatilpasning?", "options": ["Å kutte utslipp", "Å flytte til et varmere land", "Å benekte klimaendringene", "Tiltak som gjør samfunnet bedre rustet til klimaendringene"], "correct": 3, "explain": "Eksempler er flomvern og bedre avløpssystemer." },
+    { "id": "q05", "text": "Hva ble landene enige om i Parisavtalen fra 2015?", "options": ["Å begrense oppvarmingen til godt under 2 grader", "Å stoppe all oljeproduksjon", "Å forby biler", "Å øke utslippene"], "correct": 0, "explain": "Målet er helst å begrense oppvarmingen til 1,5 grader." },
+    { "id": "q06", "text": "Hvilken konsekvens av klimaendringene er ventet i Norge?", "options": ["Mindre nedbør over hele landet", "Mer nedbør og flere flommer og skred", "Lengre snøsesong i lavlandet", "Kaldere somre"], "correct": 1, "explain": "Styrtregn og skred er store utfordringer." },
+    { "id": "q07", "text": "Hvorfor snakker mange om klimarettferdighet?", "options": ["Fordi alle land har sluppet ut like mye", "Fordi rike land rammes hardest", "Fordi fattige land som har sluppet ut minst, ofte rammes hardest", "Fordi klimaendringer bare rammer Europa"], "correct": 2, "explain": "Ansvar og konsekvenser er ujevnt fordelt." },
+    { "id": "q08", "text": "Hvordan skiller Arktis seg ut når det gjelder oppvarming?", "options": ["Arktis blir kaldere", "Arktis endrer seg ikke", "Arktis varmes like raskt som resten av verden", "Arktis varmes mye raskere enn resten av verden"], "correct": 3, "explain": "Krympende havis forsterker oppvarmingen." },
+    { "id": "q09", "text": "Hva har FNs klimapanel slått fast?", "options": ["At menneskelig aktivitet utvetydig har varmet opp kloden", "At klimaendringene er naturlige", "At temperaturen synker", "At CO₂ ikke påvirker klimaet"], "correct": 0, "explain": "IPCC sammenstiller forskning fra hele verden." },
+    { "id": "q10", "text": "Hvilket tiltak er et utslippskutt?", "options": ["Å bygge flomvoll", "Å bytte fra fossil energi til fornybar energi", "Å sikre hus mot skred", "Å lage større avløpsrør"], "correct": 1, "explain": "De andre er klimatilpasning." }
+  ],
+  "mindmap": {
+    "label": "Klimaendringer",
+    "children": [
+      { "label": "Grunnbegreper", "children": [
+        { "label": "Vær og klima" },
+        { "label": "Drivhuseffekten" },
+        { "label": "Drivhusgasser" }
+      ] },
+      { "label": "Globalt", "children": [
+        { "label": "Hetebølger og tørke" },
+        { "label": "Havnivå" },
+        { "label": "Matsikkerhet" },
+        { "label": "Klimarettferdighet" }
+      ] },
+      { "label": "Arktis", "children": [
+        { "label": "Havis" },
+        { "label": "Permafrost" },
+        { "label": "Nye skipsruter" }
+      ] },
+      { "label": "Norge", "children": [
+        { "label": "Mer nedbør" },
+        { "label": "Flom og skred" },
+        { "label": "Arter flytter" }
+      ] },
+      { "label": "Tiltak", "children": [
+        { "label": "Utslippskutt" },
+        { "label": "Klimatilpasning" },
+        { "label": "Parisavtalen" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Uten den naturlige drivhuseffekten ville jorda vært mye kaldere.", "correct": true, "explain": "Omtrent 30 grader kaldere." },
+      { "id": "m02", "type": "sant-usant", "text": "En kald vinter viser at klimaet ikke blir varmere.", "correct": false, "explain": "Klima er gjennomsnittet over lang tid, ikke enkeltvintre." },
+      { "id": "m03", "type": "sant-usant", "text": "Tinende permafrost kan frigjøre mer drivhusgasser.", "correct": true, "explain": "Det kan forsterke oppvarmingen ytterligere." },
+      { "id": "m04", "type": "sant-usant", "text": "Klimaendringer rammer bare dyr og planter, ikke mennesker.", "correct": false, "explain": "Klimaendringer påvirker mat, helse, bosteder og økonomi." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilke land er særlig truet av havnivåstigning?", "options": ["Fjelland som Nepal", "Lavtliggende øystater som Maldivene og Tuvalu", "Store innlandsstater", "Land nær Nordpolen"], "correct": 1, "explain": "Store deler av landene ligger bare litt over havet." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilken menneskelig aktivitet slipper ut mest CO₂?", "options": ["Å puste", "Å drikke vann", "Å brenne kull, olje og gass", "Å plante trær"], "correct": 2, "explain": "Fossile brensler er den største kilden." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilket tiltak er klimatilpasning?", "options": ["Å unngå å bygge i flom- og skredutsatte områder", "Å kjøre elbil", "Å spise mindre kjøtt", "Å fly mindre"], "correct": 0, "explain": "De andre er utslippskutt." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
