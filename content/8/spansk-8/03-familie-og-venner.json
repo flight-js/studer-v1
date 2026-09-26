@@ -1,0 +1,84 @@
+{
+  "id": "familie-og-venner",
+  "fagId": "spansk-8",
+  "trinnId": "8",
+  "name": "Familie og venner",
+  "intro": "Ord for familie, venner og kjæledyr på spansk, eiendomsordene mi og mis, verbet tener, hvordan du beskriver utseende og personlighet, og spanske etternavn.",
+  "kompetansemaal": [3, 5],
+  "sammendrag": "## Familien – la familia\n\n- **el padre** – faren, **la madre** – moren, **los padres** – foreldrene\n- **el hermano** – broren, **la hermana** – søsteren, **los hermanos** – brødrene eller søsknene\n- **el abuelo** – bestefaren, **la abuela** – bestemoren, **los abuelos** – besteforeldrene\n- **el tío** – onkelen, **la tía** – tanten\n- **el primo** – fetteren, **la prima** – kusinen\n- **el hijo** – sønnen, **la hija** – datteren\n- **la mascota** – kjæledyret, for eksempel **el perro** (hunden) og **el gato** (katten)\n\nHankjønn slutter ofte på **-o** og hunkjønn på **-a**. I flertall brukes hankjønnsformen om en blandet gruppe: *los hermanos* kan bety både «brødrene» og «søsknene».\n\n## Min, din, hans\n\n- **mi** padre, **mi** madre – **mis** padres (min, mine)\n- **tu** hermano – **tus** hermanos (din, dine)\n- **su** abuelo – **sus** abuelos (hans, hennes, deres)\n\n## Jeg har …\n\nMed verbet **tener** (å ha):\n\n- **Tengo un hermano y una hermana.** – Jeg har en bror og en søster.\n- **Tengo un perro.** – Jeg har en hund.\n- **No tengo hermanos.** – Jeg har ingen søsken. Nektelse lages ved å sette **no** foran verbet.\n\n## Beskrive personer\n\nAdjektiver **bøyes** etter kjønn og tall, og de står som regel **etter** substantivet: *un perro negro* (en svart hund).\n\n- **Es alto. Es alta.** – Han/hun er høy. **Es bajo / baja.** – Han/hun er lav.\n- **simpático / simpática** (hyggelig), **divertido / divertida** (morsom), **tímido / tímida** (sjenert)\n- Adjektiver som slutter på **-e** eller en konsonant, har samme form for begge kjønn: *inteligente*, *joven*. Det gjelder også *deportista*.\n- **Tiene el pelo largo / corto / rubio / moreno.** – Hun/han har langt / kort / lyst / mørkt hår.\n- **Tiene los ojos azules / verdes / marrones.** – Hun/han har blå / grønne / brune øyne.\n\n## Venner\n\n**el amigo / la amiga** betyr venn og venninne. **Mi mejor amigo se llama Jonas. Mi mejor amiga se llama Lucía.** **el novio / la novia** betyr kjæreste.\n\n## To etternavn\n\nI Spania og Latin-Amerika har de fleste **to etternavn**: det første etternavnet til faren og det første etternavnet til moren, for eksempel *María García López*.\n\n## En kort tekst\n\n*Esta es mi familia. Vivimos en Trondheim. Mi padre se llama Lars. Tiene cuarenta y cinco años y es muy divertido. Mi madre se llama Ingrid. Es simpática y deportista. Tengo un hermano y una hermana. También tenemos un perro. Se llama Max.*",
+  "flashcards": [
+    { "term": "el padre / la madre", "def": "faren / moren" },
+    { "term": "los padres", "def": "foreldrene" },
+    { "term": "el hermano / la hermana", "def": "broren / søsteren" },
+    { "term": "los hermanos", "def": "brødrene, eller søsknene" },
+    { "term": "los abuelos", "def": "besteforeldrene" },
+    { "term": "el tío / la tía", "def": "onkelen / tanten" },
+    { "term": "el primo / la prima", "def": "fetteren / kusinen" },
+    { "term": "el perro / el gato", "def": "hunden / katten" },
+    { "term": "mi / mis", "def": "min, mitt / mine" },
+    { "term": "Tengo un hermano.", "def": "Jeg har en bror." },
+    { "term": "No tengo hermanos.", "def": "Jeg har ingen søsken." },
+    { "term": "simpático / simpática", "def": "hyggelig" },
+    { "term": "divertido / divertida", "def": "morsom" },
+    { "term": "Tiene los ojos azules.", "def": "Han/hun har blå øyne." },
+    { "term": "mi mejor amigo", "def": "min beste venn" },
+    { "term": "el novio / la novia", "def": "kjæresten" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva betyr «los abuelos»?", "options": ["Besteforeldrene", "Foreldrene", "Søsknene", "Kusinene"], "correct": 0, "explain": "«abuelo» betyr bestefar." },
+    { "id": "q02", "text": "Hva heter «foreldrene» på spansk?", "options": ["los hermanos", "los abuelos", "los primos", "los padres"], "correct": 3, "explain": "«los padres» kan også bety fedrene, men betyr som regel foreldrene." },
+    { "id": "q03", "text": "Hvilken form er riktig?", "options": ["mis madre", "mi madre", "mía madre", "mi madres"], "correct": 1, "explain": "«mi» brukes foran ord i entall." },
+    { "id": "q04", "text": "Hvordan sier du «Jeg har en søster»?", "options": ["Soy una hermana.", "Estoy una hermana.", "Tengo una hermana.", "Tengo un hermana."], "correct": 2, "explain": "«hermana» er hunkjønn og får «una»." },
+    { "id": "q05", "text": "Hvordan blir «alto» når det beskriver en jente?", "options": ["alto", "altos", "alta", "altas"], "correct": 2, "explain": "Hunkjønnsformen slutter på -a." },
+    { "id": "q06", "text": "Hva betyr «No tengo hermanos»?", "options": ["Jeg har ingen søsken", "Jeg har mange søsken", "Brødrene mine er høye", "Jeg har en bror"], "correct": 0, "explain": "«no» foran verbet gjør setningen nektende." },
+    { "id": "q07", "text": "Hva betyr «divertido»?", "options": ["Sjenert", "Høy", "Trist", "Morsom"], "correct": 3, "explain": "Sjenert heter «tímido»." },
+    { "id": "q08", "text": "Hvordan sier du «Hun har blå øyne»?", "options": ["Es los ojos azules.", "Tiene los ojos azules.", "Tengo los ojos azules.", "Tiene azules ojos."], "correct": 1, "explain": "«tiene» betyr «hun/han har»." },
+    { "id": "q09", "text": "Hvor mange etternavn har de fleste i Spania og Latin-Amerika?", "options": ["To – ett fra faren og ett fra moren", "Ett", "Tre", "Ingen"], "correct": 0, "explain": "For eksempel María García López." },
+    { "id": "q10", "text": "Hva betyr «la novia»?", "options": ["Kusinen", "Tanten", "Kjæresten", "Bestemoren"], "correct": 2, "explain": "«el novio» er en gutt som er kjæreste." }
+  ],
+  "mindmap": {
+    "label": "Familie og venner",
+    "children": [
+      { "label": "Nær familie", "children": [
+        { "label": "padre, madre, padres" },
+        { "label": "hermano, hermana" },
+        { "label": "hijo, hija" }
+      ] },
+      { "label": "Mer familie", "children": [
+        { "label": "abuelos" },
+        { "label": "tío, tía" },
+        { "label": "primo, prima" },
+        { "label": "perro, gato" }
+      ] },
+      { "label": "Grammatikk", "children": [
+        { "label": "mi / mis" },
+        { "label": "Tengo un / una …" },
+        { "label": "no foran verbet" }
+      ] },
+      { "label": "Beskrive", "children": [
+        { "label": "alto / alta" },
+        { "label": "simpático, divertido" },
+        { "label": "pelo og ojos" }
+      ] },
+      { "label": "Venner og navn", "children": [
+        { "label": "amigo, amiga" },
+        { "label": "mi mejor amigo" },
+        { "label": "To etternavn" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "«los hermanos» kan bety både brødrene og søsknene.", "correct": true, "explain": "Hankjønnsformen brukes om blandede grupper." },
+      { "id": "m02", "type": "sant-usant", "text": "«el perro» betyr katten.", "correct": false, "explain": "«el perro» er hunden, og «el gato» er katten." },
+      { "id": "m03", "type": "sant-usant", "text": "«inteligente» har samme form for gutter og jenter.", "correct": true, "explain": "Adjektiver på -e bøyes ikke i kjønn." },
+      { "id": "m04", "type": "sant-usant", "text": "Adjektiver står alltid foran substantivet på spansk.", "correct": false, "explain": "De fleste adjektiver står etter substantivet." },
+      { "id": "m05", "type": "flervalg", "text": "Hva betyr «el tío»?", "options": ["Fetteren", "Onkelen", "Bestefaren", "Broren"], "correct": 1, "explain": "Tanten heter «la tía»." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilket ord passer: «… padres son simpáticos»?", "options": ["Mi", "Mía", "Mis", "Tu mi"], "correct": 2, "explain": "«padres» står i flertall, derfor «mis»." },
+      { "id": "m07", "type": "flervalg", "text": "Hva betyr «Mi mejor amiga se llama Lucía»?", "options": ["Min beste venninne heter Lucía", "Søsteren min heter Lucía", "Lucía er snill", "Lucía bor her"], "correct": 0, "explain": "«mejor» betyr beste." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

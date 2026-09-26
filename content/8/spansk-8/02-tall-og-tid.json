@@ -1,0 +1,86 @@
+{
+  "id": "tall-og-tid",
+  "fagId": "spansk-8",
+  "trinnId": "8",
+  "name": "Tall, dager og klokka",
+  "intro": "Tallene på spansk, ukedager, måneder og årstider, datoen og bursdagen din, og hvordan du spør om og sier hva klokka er.",
+  "kompetansemaal": [6, 1],
+  "sammendrag": "## Tallene 0–20\n\n0 **cero**, 1 **uno**, 2 **dos**, 3 **tres**, 4 **cuatro**, 5 **cinco**, 6 **seis**, 7 **siete**, 8 **ocho**, 9 **nueve**, 10 **diez**, 11 **once**, 12 **doce**, 13 **trece**, 14 **catorce**, 15 **quince**, 16 **dieciséis**, 17 **diecisiete**, 18 **dieciocho**, 19 **diecinueve**, 20 **veinte**.\n\n## Tallene over 20\n\n- 21–29 skrives i ett ord: **veintiuno**, **veintidós**, **veintitrés** …\n- 30 **treinta**, 40 **cuarenta**, 50 **cincuenta**, 60 **sesenta**, 70 **setenta**, 80 **ochenta**, 90 **noventa**\n- Fra 31 brukes **y** (og): **treinta y uno**, **cuarenta y cinco**\n- 100 **cien**, 101 **ciento uno**\n\n## Ukedagene\n\n**lunes** (mandag), **martes** (tirsdag), **miércoles** (onsdag), **jueves** (torsdag), **viernes** (fredag), **sábado** (lørdag) og **domingo** (søndag). På spansk skrives ukedager og måneder med **liten forbokstav**. **El lunes** betyr «på mandag», og **los lunes** betyr «på mandager».\n\n## Måneder og årstider\n\n**enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, octubre, noviembre, diciembre.** «I mai» heter **en mayo**. Årstidene er **la primavera** (våren), **el verano** (sommeren), **el otoño** (høsten) og **el invierno** (vinteren). I land på den sørlige halvkule, som **Argentina** og **Chile**, er årstidene omvendt: Der er det sommer i desember og januar.\n\n## Datoen\n\n- **¿Qué fecha es hoy?** – Hvilken dato er det i dag? – **Hoy es el dos de marzo.**\n- **Mi cumpleaños es el tres de marzo.** – Bursdagen min er 3. mars.\n\n## Hva er klokka?\n\n**¿Qué hora es?** – Hva er klokka?\n\n- 1.00: **Es la una.** (entall, fordi det er ett)\n- 2.00: **Son las dos.** (flertall fra to og oppover)\n- 8.10: **Son las ocho y diez.**\n- 8.15: **Son las ocho y cuarto.**\n- 8.30: **Son las ocho y media.** Spansk sier «åtte og en halv», ikke «halv ni».\n- 8.45: **Son las nueve menos cuarto.** (ni minus et kvarter)\n\nNår du sier når noe skjer, bruker du **a**: *La clase empieza **a las** ocho.* – Timen begynner klokka åtte. Du kan legge til **de la mañana** (om morgenen), **de la tarde** (om ettermiddagen) eller **de la noche** (om kvelden).\n\n## Tips\n\nTall er lettere å huske når du bruker dem. Si telefonnummeret ditt, bursdagen din og klokkeslett høyt på spansk, og lytt etter tall i sanger og videoer.",
+  "flashcards": [
+    { "term": "once", "def": "11" },
+    { "term": "quince", "def": "15" },
+    { "term": "dieciséis", "def": "16" },
+    { "term": "veinte", "def": "20" },
+    { "term": "veintiuno", "def": "21 – skrives i ett ord" },
+    { "term": "treinta y uno", "def": "31" },
+    { "term": "cincuenta", "def": "50" },
+    { "term": "cien", "def": "100" },
+    { "term": "lunes", "def": "mandag" },
+    { "term": "miércoles", "def": "onsdag" },
+    { "term": "sábado", "def": "lørdag" },
+    { "term": "julio", "def": "juli" },
+    { "term": "la primavera", "def": "våren" },
+    { "term": "¿Qué hora es?", "def": "Hva er klokka?" },
+    { "term": "Es la una.", "def": "Klokka er ett." },
+    { "term": "Son las ocho y media.", "def": "Klokka er halv ni (8.30)." },
+    { "term": "Son las nueve menos cuarto.", "def": "Klokka er kvart på ni (8.45)." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvordan sier du 31 på spansk?", "options": ["treintauno", "treinta uno", "treinta y uno", "uno y treinta"], "correct": 2, "explain": "Fra 31 skrives tallene med «y» (og)." },
+    { "id": "q02", "text": "Hva betyr «Son las ocho y media»?", "options": ["Klokka er halv ni (8.30)", "Klokka er halv åtte", "Klokka er kvart over åtte", "Klokka er åtte"], "correct": 0, "explain": "Spansk sier «åtte og en halv»." },
+    { "id": "q03", "text": "Hvilken ukedag er «miércoles»?", "options": ["Mandag", "Tirsdag", "Torsdag", "Onsdag"], "correct": 3, "explain": "Torsdag heter «jueves»." },
+    { "id": "q04", "text": "Hvordan spør du hva klokka er?", "options": ["¿Cuántos años tienes?", "¿Qué hora es?", "¿Dónde vives?", "¿Qué tal?"], "correct": 1, "explain": "«hora» betyr time eller klokkeslett." },
+    { "id": "q05", "text": "Hvorfor heter det «Es la una», men «Son las dos»?", "options": ["Fordi det er morgen", "Fordi det er natt", "Fordi to er et partall", "Fordi ett er entall og de andre er flertall"], "correct": 3, "explain": "Verbet bøyes etter antall timer." },
+    { "id": "q06", "text": "Hva betyr «las nueve menos cuarto»?", "options": ["Kvart over ni", "Halv ni", "Kvart på ni", "Ni kvarter"], "correct": 2, "explain": "«menos» betyr minus." },
+    { "id": "q07", "text": "Hvordan skrives ukedager og måneder på spansk?", "options": ["Med liten forbokstav", "Med stor forbokstav", "Alltid med aksent", "Alltid i flertall"], "correct": 0, "explain": "Som på norsk skrives de med liten forbokstav." },
+    { "id": "q08", "text": "Hva er 100 på spansk?", "options": ["ciento", "cien", "cento", "mil"], "correct": 1, "explain": "«cien» brukes om akkurat hundre. 101 heter «ciento uno»." },
+    { "id": "q09", "text": "Når er det sommer i Argentina og Chile?", "options": ["I juni og juli", "Hele året", "I desember og januar", "Aldri"], "correct": 2, "explain": "Landene ligger på den sørlige halvkule." },
+    { "id": "q10", "text": "Hvordan sier du «klokka åtte» når du forteller når noe skjer?", "options": ["en las ocho", "son ocho", "de las ocho", "a las ocho"], "correct": 3, "explain": "For eksempel: «Como a las ocho»." }
+  ],
+  "mindmap": {
+    "label": "Tall og tid",
+    "children": [
+      { "label": "Tall", "children": [
+        { "label": "0–20" },
+        { "label": "veintiuno i ett ord" },
+        { "label": "treinta y uno" },
+        { "label": "cien" }
+      ] },
+      { "label": "Ukedager", "children": [
+        { "label": "lunes–domingo" },
+        { "label": "Liten forbokstav" },
+        { "label": "el lunes / los lunes" }
+      ] },
+      { "label": "Måneder og årstider", "children": [
+        { "label": "enero–diciembre" },
+        { "label": "en mayo" },
+        { "label": "Omvendte årstider i sør" }
+      ] },
+      { "label": "Dato", "children": [
+        { "label": "el dos de marzo" },
+        { "label": "cumpleaños" }
+      ] },
+      { "label": "Klokka", "children": [
+        { "label": "¿Qué hora es?" },
+        { "label": "Es la una / Son las dos" },
+        { "label": "y cuarto / y media" },
+        { "label": "menos cuarto" },
+        { "label": "a las ocho" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Tallene fra 16 til 29 skrives i ett ord på spansk, som «dieciséis» og «veintidós».", "correct": true, "explain": "Fra 31 skrives de i flere ord med «y»." },
+      { "id": "m02", "type": "sant-usant", "text": "«sábado» betyr søndag.", "correct": false, "explain": "«sábado» er lørdag. Søndag heter «domingo»." },
+      { "id": "m03", "type": "sant-usant", "text": "«el lunes» betyr på mandag.", "correct": true, "explain": "På spansk bruker man artikkel foran ukedager." },
+      { "id": "m04", "type": "sant-usant", "text": "«quince» betyr 50.", "correct": false, "explain": "«quince» er 15. 50 heter «cincuenta»." },
+      { "id": "m05", "type": "flervalg", "text": "Hva betyr «Mi cumpleaños es el tres de marzo»?", "options": ["Jeg er tre år", "Bursdagen min er 3. mars", "Det er tre dager til mars", "Mars er yndlingsmåneden min"], "correct": 1, "explain": "«cumpleaños» betyr bursdag." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilken årstid er «el otoño»?", "options": ["Høsten", "Våren", "Sommeren", "Vinteren"], "correct": 0, "explain": "Ordet ligner det engelske «autumn»." },
+      { "id": "m07", "type": "flervalg", "text": "Hva betyr «Son las ocho y cuarto»?", "options": ["Kvart på åtte", "Halv åtte", "Kvart over åtte", "Åtte minutter over"], "correct": 2, "explain": "«y cuarto» betyr og et kvarter." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

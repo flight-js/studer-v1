@@ -1,0 +1,88 @@
+{
+  "id": "land-og-kultur",
+  "fagId": "spansk-8",
+  "trinnId": "8",
+  "name": "Spania og Latin-Amerika",
+  "intro": "Geografi, språk, mat, tradisjoner og kultur i Spania og de spansktalende landene i Latin-Amerika.",
+  "kompetansemaal": [8, 9],
+  "sammendrag": "## Spania\n\n**España** har rundt 48 millioner innbyggere, og hovedstaden er **Madrid**. Landet ligger på **Den iberiske halvøy** sammen med Portugal, med kyst mot **Middelhavet** og **Atlanterhavet**. I nord skiller **Pyreneene** Spania fra Frankrike. Til Spania hører også **Balearene**, blant annet Mallorca, og **Kanariøyene**, som er et populært feriemål for nordmenn. Store byer er Madrid, Barcelona, Valencia, Sevilla og Málaga. Spania er delt i **17 autonome regioner**. I tillegg til spansk (*castellano*) snakkes også **katalansk**, **galisisk** og **baskisk** i enkelte regioner.\n\n## Latin-Amerika\n\nSpansk kom til Amerika etter at **Columbus** kom dit i **1492**, og i dag er spansk hovedspråket i de fleste land i Mellom- og Sør-Amerika. **Mexico** er landet med flest spansktalende. I **Peru** ligger inkabyen **Machu Picchu**, og fra **Argentina** kommer **tangoen**. Mange urfolk snakker egne språk, som quechua, guaraní og maya-språk. Brasil er unntaket – der snakker man portugisisk.\n\n## Mat og måltider\n\n- **las tapas** – små retter som deles\n- **la paella** – risrett fra Valencia\n- **la tortilla española** – potetomelett\n- **los churros con chocolate** – friterte deigstenger med tykk sjokolade\n- I Mexico: **tacos**, **tortillas** av mais og **guacamole**\n\nI Spania spiser man sent: **lunsj** rundt klokka to eller tre, og **middag** gjerne klokka ni eller ti om kvelden.\n\n## Tradisjoner\n\n- **La Semana Santa** – påskeuken, med store prosesjoner, særlig i Sevilla\n- **Los Reyes Magos** (6. januar) – de tre vise menn gir barna gaver\n- **Las doce uvas** – ved midnatt på nyttårsaften spiser man tolv druer, én for hvert klokkeslag\n- **La Tomatina** – i august kaster folk i byen Buñol tomater på hverandre\n- **El Día de Muertos** (1.–2. november) – i Mexico minnes man de døde med fargerike altere, blomster og hodeskaller av sukker\n\n## Kunst og kultur\n\n**Flamenco** er dans og musikk fra Andalucía i Sør-Spania. Kjente kunstnere er **Pablo Picasso** og **Salvador Dalí** fra Spania og **Frida Kahlo** fra Mexico. Arkitekten **Antoni Gaudí** tegnet kirken **Sagrada Família** i Barcelona. Romanen *Don Quijote* av **Miguel de Cervantes** regnes som en av verdens første moderne romaner. **Fotball** er enormt populært, med klubber som Real Madrid og FC Barcelona, og spansktalende musikk som reggaeton og latinpop er populær over hele verden.",
+  "flashcards": [
+    { "term": "España – Madrid", "def": "Spania, med hovedstaden Madrid" },
+    { "term": "las comunidades autónomas", "def": "Spanias 17 autonome regioner" },
+    { "term": "Latinoamérica", "def": "Latin-Amerika, der spansk er hovedspråk i de fleste land" },
+    { "term": "México", "def": "Landet med flest spansktalende i verden" },
+    { "term": "Machu Picchu", "def": "Inkaby i fjellene i Peru" },
+    { "term": "las tapas", "def": "små retter som deles" },
+    { "term": "la paella", "def": "risrett fra Valencia" },
+    { "term": "la tortilla española", "def": "potetomelett" },
+    { "term": "los churros", "def": "friterte deigstenger, ofte med sjokolade" },
+    { "term": "la Semana Santa", "def": "påskeuken, med store prosesjoner" },
+    { "term": "el Día de Muertos", "def": "De dødes dag i Mexico, 1.–2. november" },
+    { "term": "los Reyes Magos", "def": "De tre vise menn, som gir barna gaver 6. januar" },
+    { "term": "las doce uvas", "def": "Tolv druer som spises ved midnatt på nyttårsaften" },
+    { "term": "el flamenco", "def": "Dans og musikk fra Andalucía" },
+    { "term": "Gaudí", "def": "Arkitekten bak Sagrada Família i Barcelona" },
+    { "term": "Frida Kahlo", "def": "Kjent meksikansk kunstner" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er hovedstaden i Spania?", "options": ["Barcelona", "Madrid", "Sevilla", "Valencia"], "correct": 1, "explain": "Barcelona er Spanias nest største by." },
+    { "id": "q02", "text": "Hvilke språk snakkes i Spania i tillegg til spansk?", "options": ["Portugisisk og italiensk", "Fransk og tysk", "Engelsk og arabisk", "Katalansk, galisisk og baskisk"], "correct": 3, "explain": "Disse språkene har offisiell status i sine regioner." },
+    { "id": "q03", "text": "Hva er «tortilla española»?", "options": ["Potetomelett", "Maisbrød", "Et bakverk", "En suppe"], "correct": 0, "explain": "I Mexico er en tortilla derimot et flatt brød av mais." },
+    { "id": "q04", "text": "Hva feires i Mexico 1. og 2. november?", "options": ["Uavhengighetsdagen", "Jul", "Día de Muertos, de dødes dag", "Nyttår"], "correct": 2, "explain": "Familier minnes sine døde med altere, blomster og mat." },
+    { "id": "q05", "text": "Hvem gir barna gaver 6. januar i Spania?", "options": ["Julenissen", "Påskeharen", "Mormor", "Los Reyes Magos, de tre vise menn"], "correct": 3, "explain": "Dagen kalles også helligtrekongersdag." },
+    { "id": "q06", "text": "Hvilken arkitekt tegnet Sagrada Família i Barcelona?", "options": ["Pablo Picasso", "Antoni Gaudí", "Salvador Dalí", "Diego Velázquez"], "correct": 1, "explain": "Kirken har vært under bygging i over hundre år." },
+    { "id": "q07", "text": "Hva gjør mange spanjoler ved midnatt på nyttårsaften?", "options": ["Hopper i sjøen", "Spiser pannekaker", "Spiser tolv druer", "Synger nasjonalsangen"], "correct": 2, "explain": "Én drue for hvert klokkeslag skal gi lykke i det nye året." },
+    { "id": "q08", "text": "Hvilket land har inkabyen Machu Picchu?", "options": ["Peru", "Mexico", "Argentina", "Cuba"], "correct": 0, "explain": "Machu Picchu ligger høyt oppe i Andesfjellene." },
+    { "id": "q09", "text": "Hvilken dans kommer fra Andalucía i Sør-Spania?", "options": ["Tango", "Flamenco", "Salsa", "Samba"], "correct": 1, "explain": "Tango kommer fra Argentina og Uruguay." },
+    { "id": "q10", "text": "Når spiser mange spanjoler middag?", "options": ["Klokka 16", "Klokka 17", "Klokka 18", "Rundt klokka 21 eller 22"], "correct": 3, "explain": "Spanjoler spiser både lunsj og middag senere enn nordmenn." }
+  ],
+  "mindmap": {
+    "label": "Spania og Latin-Amerika",
+    "children": [
+      { "label": "Spania", "children": [
+        { "label": "Madrid" },
+        { "label": "17 regioner" },
+        { "label": "Katalansk, galisisk, baskisk" },
+        { "label": "Balearene og Kanariøyene" }
+      ] },
+      { "label": "Latin-Amerika", "children": [
+        { "label": "Mexico" },
+        { "label": "Peru og Machu Picchu" },
+        { "label": "Argentina og tango" },
+        { "label": "Urfolksspråk" }
+      ] },
+      { "label": "Mat", "children": [
+        { "label": "tapas og paella" },
+        { "label": "tortilla española" },
+        { "label": "churros" },
+        { "label": "Sene måltider" }
+      ] },
+      { "label": "Tradisjoner", "children": [
+        { "label": "Semana Santa" },
+        { "label": "Reyes Magos" },
+        { "label": "doce uvas" },
+        { "label": "Día de Muertos" }
+      ] },
+      { "label": "Kunst og kultur", "children": [
+        { "label": "Flamenco" },
+        { "label": "Picasso, Dalí, Kahlo" },
+        { "label": "Gaudí" },
+        { "label": "Don Quijote" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Spansk er hovedspråket i de fleste land i Mellom- og Sør-Amerika.", "correct": true, "explain": "Brasil er det største unntaket." },
+      { "id": "m02", "type": "sant-usant", "text": "Brasil er et spansktalende land.", "correct": false, "explain": "I Brasil snakker man portugisisk." },
+      { "id": "m03", "type": "sant-usant", "text": "Kanariøyene er et populært feriemål for nordmenn.", "correct": true, "explain": "Øyene har mildt klima hele året." },
+      { "id": "m04", "type": "sant-usant", "text": "Tango kommer opprinnelig fra Spania.", "correct": false, "explain": "Tango oppsto i Argentina og Uruguay." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er tapas?", "options": ["Små retter som deles", "En type dans", "En festival", "Et fotballag"], "correct": 0, "explain": "Tapas spises ofte sammen med venner." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilken kunstner var fra Mexico?", "options": ["Pablo Picasso", "Salvador Dalí", "Frida Kahlo", "Joan Miró"], "correct": 2, "explain": "Frida Kahlo er kjent for sine selvportretter." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er La Tomatina?", "options": ["En tomatsuppe", "En fest der folk kaster tomater på hverandre", "En sang", "En fotballklubb"], "correct": 1, "explain": "Festen holdes i byen Buñol i august." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

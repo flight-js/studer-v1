@@ -1,0 +1,85 @@
+{
+  "id": "skole-og-fritid",
+  "fagId": "spansk-8",
+  "trinnId": "8",
+  "name": "Skole og fritid",
+  "intro": "Skolefag, meninger og fritidsaktiviteter på spansk, hvordan du bruker gustar for å si hva du liker, forskjellen på jugar og tocar, og hvordan skolen er i Spania.",
+  "kompetansemaal": [2, 3],
+  "sammendrag": "## Skolefag – las asignaturas\n\n**las matemáticas** (ofte *las mates*), **el español**, **el inglés**, **el noruego**, **la historia**, **la geografía**, **las ciencias naturales** (naturfag), **la música**, **la plástica** (kunst og håndverk) og **la educación física** (kroppsøving).\n\n- **Mi asignatura favorita es el inglés.** – Yndlingsfaget mitt er engelsk.\n- **Es interesante / aburrido / fácil / difícil.** – Det er interessant / kjedelig / lett / vanskelig.\n\nI klasserommet: **el profesor / la profesora** (læreren), **el alumno / la alumna** (eleven), **el cuaderno** (skriveboka), **el bolígrafo** (kulepennen), **el lápiz** (blyanten) og **la mochila** (sekken).\n\n## Å like – gustar\n\nSpansk bruker verbet **gustar** når man sier hva man liker. Det betyr egentlig at noe «behager» en:\n\n- **Me gusta el inglés.** – Jeg liker engelsk. (entall → *gusta*)\n- **Me gustan las matemáticas.** – Jeg liker matte. (flertall → *gustan*)\n- **No me gusta la historia.** – Jeg liker ikke historie.\n- **Me encanta la música.** – Jeg elsker musikk.\n- **Me gusta leer.** – Jeg liker å lese. (med infinitiv → *gusta*)\n- **¿Te gusta nadar?** – Liker du å svømme?\n\n## Fritid – el tiempo libre\n\n- **nadar** – svømme, **leer** – lese, **dibujar** – tegne, **bailar** – danse, **cantar** – synge\n- **escuchar música** – høre på musikk\n- **ver series** – se serier\n- **montar en bici** – sykle\n- **salir con amigos** – gå ut med venner\n- **jugar a los videojuegos** – spille dataspill\n\n## Jugar eller tocar?\n\n- Om **sport og spill** bruker du **jugar a**: *jugar **al** fútbol*, *jugar **al** baloncesto*.\n- Om **instrumenter** bruker du **tocar**: *tocar la guitarra*, *tocar el piano*.\n\n## Hvor ofte?\n\n**siempre** (alltid), **a menudo** (ofte), **a veces** (noen ganger) og **nunca** (aldri). **Los fines de semana** betyr i helgene.\n\n## Skolen i Spania\n\nElevene går på **la escuela primaria** fra de er 6 til 12 år, og deretter på den obligatoriske ungdomsskolen **la ESO** (*Educación Secundaria Obligatoria*) fra 12 til 16 år. Etter det kan de ta **el Bachillerato**, som forbereder til universitetet. Karakterene gis ofte på en skala fra **0 til 10**, der **5** er bestått. I Spania spiser mange lunsj sent, rundt klokka to eller tre.",
+  "flashcards": [
+    { "term": "mi asignatura favorita", "def": "yndlingsfaget mitt" },
+    { "term": "las matemáticas", "def": "matte" },
+    { "term": "la educación física", "def": "kroppsøving" },
+    { "term": "la historia", "def": "historie" },
+    { "term": "aburrido / aburrida", "def": "kjedelig" },
+    { "term": "fácil / difícil", "def": "lett / vanskelig" },
+    { "term": "el profesor / la profesora", "def": "læreren" },
+    { "term": "Me gusta leer.", "def": "Jeg liker å lese." },
+    { "term": "Me gustan los deportes.", "def": "Jeg liker sport. (flertall → gustan)" },
+    { "term": "No me gusta nadar.", "def": "Jeg liker ikke å svømme." },
+    { "term": "Me encanta la música.", "def": "Jeg elsker musikk." },
+    { "term": "jugar al fútbol", "def": "spille fotball" },
+    { "term": "tocar la guitarra", "def": "spille gitar" },
+    { "term": "dibujar", "def": "å tegne" },
+    { "term": "los fines de semana", "def": "i helgene" },
+    { "term": "a veces / nunca", "def": "noen ganger / aldri" },
+    { "term": "la ESO", "def": "den obligatoriske ungdomsskolen i Spania, 12–16 år" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvordan sier du «Jeg liker å lese»?", "options": ["Yo gusto leer.", "Me gusta leer.", "Me gustan leer.", "Gusto leer."], "correct": 1, "explain": "Med «gustar» sier man «me gusta» + infinitiv." },
+    { "id": "q02", "text": "Hvilken setning er riktig?", "options": ["Me gusta las matemáticas.", "Me gusto las matemáticas.", "Yo gustan las matemáticas.", "Me gustan las matemáticas."], "correct": 3, "explain": "«las matemáticas» er flertall, derfor «gustan»." },
+    { "id": "q03", "text": "Hva betyr «aburrido»?", "options": ["Kjedelig", "Morsom", "Lett", "Vanskelig"], "correct": 0, "explain": "Morsom heter «divertido»." },
+    { "id": "q04", "text": "Hvordan sier du «spille gitar»?", "options": ["jugar la guitarra", "jugar a la guitarra", "tocar la guitarra", "hacer la guitarra"], "correct": 2, "explain": "Med instrumenter bruker man «tocar»." },
+    { "id": "q05", "text": "Hvordan sier du «spille fotball»?", "options": ["jugar al fútbol", "tocar el fútbol", "hacer fútbol", "jugar el fútbol a"], "correct": 0, "explain": "Med sport bruker man «jugar a», og «a + el» blir «al»." },
+    { "id": "q06", "text": "Hva betyr «Me encanta la música»?", "options": ["Jeg liker ikke musikk", "Musikk er kjedelig", "Jeg spiller musikk", "Jeg elsker musikk"], "correct": 3, "explain": "«encantar» er sterkere enn «gustar»." },
+    { "id": "q07", "text": "Hva heter faget kroppsøving på spansk?", "options": ["la plástica", "la educación física", "la música", "la historia"], "correct": 1, "explain": "«la plástica» er kunst og håndverk." },
+    { "id": "q08", "text": "Hva betyr «a veces»?", "options": ["Alltid", "Aldri", "Noen ganger", "Ofte"], "correct": 2, "explain": "«siempre» betyr alltid, og «nunca» betyr aldri." },
+    { "id": "q09", "text": "Hvilken karakterskala brukes ofte i spanske skoler?", "options": ["1 til 6", "A til F", "0 til 20", "0 til 10"], "correct": 3, "explain": "5 regnes som bestått." },
+    { "id": "q10", "text": "Hva betyr «los fines de semana»?", "options": ["I helgene", "På mandager", "I ferien", "Om kveldene"], "correct": 0, "explain": "«el fin de semana» betyr helgen." }
+  ],
+  "mindmap": {
+    "label": "Skole og fritid",
+    "children": [
+      { "label": "Fag", "children": [
+        { "label": "matemáticas, inglés" },
+        { "label": "educación física, música" },
+        { "label": "asignatura favorita" }
+      ] },
+      { "label": "gustar", "children": [
+        { "label": "Me gusta + entall" },
+        { "label": "Me gustan + flertall" },
+        { "label": "No me gusta" },
+        { "label": "Me encanta" }
+      ] },
+      { "label": "Fritid", "children": [
+        { "label": "nadar, leer" },
+        { "label": "dibujar, bailar" },
+        { "label": "salir con amigos" }
+      ] },
+      { "label": "jugar eller tocar", "children": [
+        { "label": "jugar al fútbol" },
+        { "label": "tocar la guitarra" },
+        { "label": "a veces, nunca" }
+      ] },
+      { "label": "Skolen i Spania", "children": [
+        { "label": "Primaria og ESO" },
+        { "label": "Bachillerato" },
+        { "label": "Karakter 0–10" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Med «gustar» sier man egentlig at noe «behager» en.", "correct": true, "explain": "Derfor bøyes verbet etter det man liker." },
+      { "id": "m02", "type": "sant-usant", "text": "«nunca» betyr alltid.", "correct": false, "explain": "«nunca» betyr aldri. Alltid heter «siempre»." },
+      { "id": "m03", "type": "sant-usant", "text": "ESO er den obligatoriske ungdomsskolen i Spania.", "correct": true, "explain": "Elevene går der fra de er 12 til 16 år." },
+      { "id": "m04", "type": "sant-usant", "text": "Man sier «jugar la guitarra» om å spille gitar.", "correct": false, "explain": "Det heter «tocar la guitarra»." },
+      { "id": "m05", "type": "flervalg", "text": "Hva betyr «dibujar»?", "options": ["Å danse", "Å tegne", "Å svømme", "Å synge"], "correct": 1, "explain": "Å danse heter «bailar»." },
+      { "id": "m06", "type": "flervalg", "text": "Hva betyr «¿Te gusta el inglés?»?", "options": ["Liker du engelsk?", "Snakker du engelsk?", "Er du engelsk?", "Har du engelsk i dag?"], "correct": 0, "explain": "«te gusta» betyr «du liker»." },
+      { "id": "m07", "type": "flervalg", "text": "Hva betyr «Es difícil»?", "options": ["Det er lett", "Det er morsomt", "Det er vanskelig", "Det er kjedelig"], "correct": 2, "explain": "Lett heter «fácil»." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

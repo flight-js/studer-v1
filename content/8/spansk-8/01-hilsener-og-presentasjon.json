@@ -1,0 +1,86 @@
+{
+  "id": "hilsener-og-presentasjon",
+  "fagId": "spansk-8",
+  "trinnId": "8",
+  "name": "Hilsener og presentasjon",
+  "intro": "Hvordan du hilser, presenterer deg selv og spør om navn, alder og bosted på spansk, når du bruker tú og usted, og de viktigste reglene for uttale og skrift.",
+  "kompetansemaal": [2, 6],
+  "sammendrag": "## Spansk i verden\n\nSpansk er morsmål for rundt 500 millioner mennesker – flere enn noe annet språk bortsett fra kinesisk. Det er offisielt språk i **Spania**, i de fleste land i **Latin-Amerika**, som **Mexico**, **Colombia**, **Argentina**, **Peru** og **Chile**, og i **Ekvatorial-Guinea** i Afrika – til sammen over 20 land. Landet med flest spansktalende er **Mexico**. Også i **USA** har mange millioner spansk som morsmål.\n\n## Hilsener\n\n- **¡Hola!** – Hei!\n- **¡Buenos días!** – God morgen! (til rundt klokka tolv)\n- **¡Buenas tardes!** – God ettermiddag! (til det blir mørkt)\n- **¡Buenas noches!** – God kveld! / God natt!\n- **¡Adiós!** – Ha det!\n- **¡Hasta luego!** – Vi ses! **¡Hasta mañana!** – Vi ses i morgen!\n\nI Spania hilser mange med **dos besos**, et kinnkyss på hver side.\n\n## Presentere seg selv\n\n- **¿Cómo te llamas?** – Hva heter du? – **Me llamo Nora.**\n- **¿Cuántos años tienes?** – Hvor gammel er du? – **Tengo trece años.** På spansk «har» man alderen sin: *tengo* betyr «jeg har».\n- **¿De dónde eres?** – Hvor er du fra? – **Soy de Noruega. Soy noruego / noruega.**\n- **¿Dónde vives?** – Hvor bor du? – **Vivo en Bergen.**\n- **¿Qué tal?** eller **¿Cómo estás?** – Hvordan går det? – **Muy bien, gracias.** / **Regular.** / **Mal.**\n- **Encantado / Encantada.** – Hyggelig å treffe deg.\n\n## Tú eller usted?\n\n- **tú** brukes til venner, familie og barn.\n- **usted** er høflighetsformen til voksne du ikke kjenner: *¿Cómo se llama usted?*\n\n## Uttale\n\n- Vokalene **a, e, i, o, u** uttales alltid klart og likt.\n- **h** er stum: *hola*.\n- **j**, og **g** foran e og i, uttales som en hard h-lyd bak i halsen: *jamón*, *gente*.\n- **ll** uttales i de fleste områder omtrent som norsk «j»: *me llamo*.\n- **ñ** uttales «nj»: *España*, *año*.\n- **z**, og **c** foran e og i, uttales i det meste av Spania som engelsk «th», men som «s» i Latin-Amerika: *gracias*.\n- **r** rulles, og **rr** rulles kraftig: *perro*.\n- **qu** uttales «k»: *¿qué?*\n\n## Skrift\n\nSpansk har **aksenter** som viser hvor trykket ligger: *adiós*, *también*. Spørsmål og utrop har et opp-ned-tegn i begynnelsen: **¿…?** og **¡…!**\n\n## Høflige småord\n\n**Por favor** (vær så snill), **gracias** (takk), **de nada** (bare hyggelig) og **perdón** eller **lo siento** (unnskyld).",
+  "flashcards": [
+    { "term": "¡Hola!", "def": "Hei!" },
+    { "term": "¡Buenos días!", "def": "God morgen!" },
+    { "term": "¡Buenas tardes!", "def": "God ettermiddag!" },
+    { "term": "¡Buenas noches!", "def": "God kveld! / God natt!" },
+    { "term": "¡Adiós! / ¡Hasta luego!", "def": "Ha det! / Vi ses!" },
+    { "term": "¿Cómo te llamas?", "def": "Hva heter du?" },
+    { "term": "Me llamo …", "def": "Jeg heter …" },
+    { "term": "¿Cuántos años tienes?", "def": "Hvor gammel er du?" },
+    { "term": "Tengo trece años.", "def": "Jeg er tretten år (bokstavelig: jeg har tretten år)." },
+    { "term": "¿De dónde eres?", "def": "Hvor er du fra?" },
+    { "term": "Soy de Noruega.", "def": "Jeg er fra Norge." },
+    { "term": "Vivo en …", "def": "Jeg bor i …" },
+    { "term": "¿Qué tal?", "def": "Hvordan går det?" },
+    { "term": "tú / usted", "def": "du (uformelt) / De (høflig)" },
+    { "term": "Gracias / De nada", "def": "Takk / Bare hyggelig" },
+    { "term": "ñ", "def": "Uttales «nj», som i España" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva betyr «¿Cómo te llamas?»", "options": ["Hvor bor du?", "Hvor gammel er du?", "Hvordan går det?", "Hva heter du?"], "correct": 3, "explain": "Du svarer med «Me llamo …»." },
+    { "id": "q02", "text": "Hvordan sier du «Jeg er tretten år» på spansk?", "options": ["Soy trece años.", "Tengo trece años.", "Estoy trece años.", "Me llamo trece."], "correct": 1, "explain": "På spansk bruker man «tener» (å ha) om alder." },
+    { "id": "q03", "text": "Når sier du «¡Buenas noches!»?", "options": ["Om morgenen", "Midt på dagen", "Om kvelden og natta", "Aldri"], "correct": 2, "explain": "Hilsenen betyr både god kveld og god natt." },
+    { "id": "q04", "text": "Hva er spesielt med spørsmål og utrop på spansk?", "options": ["De har et opp-ned-tegn i begynnelsen: ¿ og ¡", "De skrives med store bokstaver", "De har ingen tegn", "De slutter alltid med punktum"], "correct": 0, "explain": "Tegnet viser at et spørsmål eller utrop begynner." },
+    { "id": "q05", "text": "Hvordan uttales «ñ» i «España»?", "options": ["Som n", "Som nj", "Som ng", "Den er stum"], "correct": 1, "explain": "«España» uttales omtrent «espanja»." },
+    { "id": "q06", "text": "Når bruker du «usted»?", "options": ["Til venner", "Til søsken", "Til kjæledyr", "Til voksne du ikke kjenner, for å være høflig"], "correct": 3, "explain": "«usted» er høflighetsformen." },
+    { "id": "q07", "text": "Hvordan uttales «h» i «hola»?", "options": ["Den er stum", "Som norsk h", "Som k", "Som j"], "correct": 0, "explain": "«hola» uttales omtrent «ola»." },
+    { "id": "q08", "text": "Hva betyr «Soy de Noruega»?", "options": ["Jeg bor i Norge", "Jeg liker Norge", "Jeg er fra Norge", "Norge er fint"], "correct": 2, "explain": "«ser de» brukes om hvor man kommer fra." },
+    { "id": "q09", "text": "Hva svarer du når noen sier «Gracias»?", "options": ["Por favor", "Hola", "Adiós", "De nada"], "correct": 3, "explain": "«De nada» betyr «bare hyggelig»." },
+    { "id": "q10", "text": "Hvordan uttales «j» i «jamón»?", "options": ["Som norsk j", "Som en hard h-lyd bak i halsen", "Som sj", "Den er stum"], "correct": 1, "explain": "Lyden ligner den tyske ch-lyden i «Bach»." }
+  ],
+  "mindmap": {
+    "label": "Hilsener og presentasjon",
+    "children": [
+      { "label": "Hilsener", "children": [
+        { "label": "¡Hola!" },
+        { "label": "Buenos días / tardes / noches" },
+        { "label": "¡Adiós! / ¡Hasta luego!" },
+        { "label": "Dos besos" }
+      ] },
+      { "label": "Om meg", "children": [
+        { "label": "Me llamo …" },
+        { "label": "Tengo … años" },
+        { "label": "Soy de …" },
+        { "label": "Vivo en …" }
+      ] },
+      { "label": "tú eller usted", "children": [
+        { "label": "tú", "note": "Venner og familie" },
+        { "label": "usted", "note": "Høflig" }
+      ] },
+      { "label": "Uttale", "children": [
+        { "label": "Klare vokaler" },
+        { "label": "h er stum" },
+        { "label": "j, ll, ñ" },
+        { "label": "z og c" },
+        { "label": "Rullende r" }
+      ] },
+      { "label": "Skrift og høflighet", "children": [
+        { "label": "Aksenter" },
+        { "label": "¿ og ¡" },
+        { "label": "por favor, gracias, de nada" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Spansk er offisielt språk i over 20 land.", "correct": true, "explain": "De fleste av dem ligger i Latin-Amerika." },
+      { "id": "m02", "type": "sant-usant", "text": "På spansk sier man «Soy trece años» om alderen sin.", "correct": false, "explain": "Det heter «Tengo trece años»." },
+      { "id": "m03", "type": "sant-usant", "text": "«ll» uttales i de fleste områder omtrent som norsk j.", "correct": true, "explain": "«me llamo» uttales omtrent «me jamo»." },
+      { "id": "m04", "type": "sant-usant", "text": "I hele den spansktalende verden uttales z som engelsk «th».", "correct": false, "explain": "Det gjelder det meste av Spania. I Latin-Amerika uttales z som s." },
+      { "id": "m05", "type": "flervalg", "text": "Hva betyr «¿Qué tal?»?", "options": ["Hva heter du?", "Hvordan går det?", "Hvor er du?", "Hva er det?"], "correct": 1, "explain": "Du kan svare «Muy bien, gracias»." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilket land har flest spansktalende?", "options": ["Mexico", "Spania", "Argentina", "Colombia"], "correct": 0, "explain": "Mexico har over 120 millioner innbyggere." },
+      { "id": "m07", "type": "flervalg", "text": "Hva betyr «Encantado» eller «Encantada»?", "options": ["Unnskyld", "Ha det", "Hyggelig å treffe deg", "Takk for maten"], "correct": 2, "explain": "Gutter sier «encantado», jenter sier «encantada»." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

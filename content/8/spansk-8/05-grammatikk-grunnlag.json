@@ -1,0 +1,84 @@
+{
+  "id": "grammatikk-grunnlag",
+  "fagId": "spansk-8",
+  "trinnId": "8",
+  "name": "Grammatikk – grunnlaget",
+  "intro": "Kjønn og artikler, flertall, personlige pronomen, regelrette verb i presens, forskjellen på ser og estar, verbet tener, nektelse, spørreord og adjektiver.",
+  "kompetansemaal": [6],
+  "sammendrag": "## To kjønn – el og la\n\nSpanske substantiver er enten **hankjønn** eller **hunkjønn**:\n\n- **el** – hankjønn, ofte ord på **-o**: *el libro* (boka), *el perro*\n- **la** – hunkjønn, ofte ord på **-a**: *la casa* (huset), *la mesa*\n- I flertall: **los** libros, **las** casas\n- Ubestemt artikkel: **un** libro, **una** casa, **unos** libros, **unas** casas\n\nDet finnes unntak, som *el día* (dagen), *el problema* og *la mano* (hånden), så lær ordet sammen med artikkelen.\n\n## Flertall\n\nOrd som slutter på vokal, får **-s**: *libro – libros*. Ord som slutter på konsonant, får **-es**: *ciudad – ciudades*.\n\n## Personlige pronomen\n\n**yo** (jeg), **tú** (du), **él** (han), **ella** (hun), **usted** (De), **nosotros/nosotras** (vi), **vosotros/vosotras** (dere, brukes i Spania), **ellos/ellas** (de) og **ustedes** (dere eller De; i Latin-Amerika brukes *ustedes* for alle «dere»).\n\nFordi verbendelsen viser hvem som gjør noe, **sløyfes pronomenet ofte**: *Hablo español.* – Jeg snakker spansk.\n\n## Regelrette verb i presens\n\nSpanske verb ender på **-ar**, **-er** eller **-ir**:\n\n- **hablar** (snakke): habl**o**, habl**as**, habl**a**, habl**amos**, habl**áis**, habl**an**\n- **comer** (spise): com**o**, com**es**, com**e**, com**emos**, com**éis**, com**en**\n- **vivir** (bo): viv**o**, viv**es**, viv**e**, viv**imos**, viv**ís**, viv**en**\n\n## Ser og estar – to måter å si «være»\n\n- **ser** brukes om identitet, opprinnelse, yrke og varige egenskaper: *Soy Nora. Soy de Noruega. Es alta.* Bøying: soy, eres, es, somos, sois, son.\n- **estar** brukes om tilstander og sted: *Estoy cansado.* (Jeg er trøtt.) *Madrid está en España.* Bøying: estoy, estás, está, estamos, estáis, están.\n\n## Tener – å ha\n\n**tengo, tienes, tiene, tenemos, tenéis, tienen.** Verbet brukes også om alder: *Tengo catorce años.*\n\n## Nektelse og spørsmål\n\nNektelse lages med **no** foran verbet: *No hablo alemán.* Spørsmål skrives med **¿ … ?**, og spørreordene har alltid aksent: **¿qué?** (hva), **¿quién?** (hvem), **¿dónde?** (hvor), **¿cuándo?** (når), **¿cómo?** (hvordan), **¿por qué?** (hvorfor) og **¿cuánto?** (hvor mye).\n\n## Adjektiver\n\nAdjektiver bøyes etter kjønn og tall og står vanligvis **etter** substantivet: *un coche rojo*, *una casa roja*, *unas casas rojas*.",
+  "flashcards": [
+    { "term": "el / la / los / las", "def": "Bestemt artikkel: hankjønn / hunkjønn / flertall hankjønn / flertall hunkjønn" },
+    { "term": "un / una", "def": "Ubestemt artikkel: en / ei" },
+    { "term": "yo, tú, él, ella, usted", "def": "jeg, du, han, hun, De" },
+    { "term": "nosotros, vosotros, ellos, ustedes", "def": "vi, dere (Spania), de, dere/De" },
+    { "term": "hablo, hablas, habla", "def": "jeg snakker, du snakker, han/hun snakker" },
+    { "term": "hablamos, habláis, hablan", "def": "vi snakker, dere snakker, de snakker" },
+    { "term": "como / vivo", "def": "jeg spiser / jeg bor" },
+    { "term": "ser: soy, eres, es", "def": "å være (identitet og egenskaper): jeg er, du er, han/hun er" },
+    { "term": "estar: estoy, estás, está", "def": "å være (tilstand og sted): jeg er, du er, han/hun er" },
+    { "term": "ser eller estar?", "def": "ser = hvem/hva noe er, estar = hvordan eller hvor noe er" },
+    { "term": "tener: tengo, tienes, tiene", "def": "å ha: jeg har, du har, han/hun har" },
+    { "term": "no + verb", "def": "Nektelse: No hablo alemán." },
+    { "term": "¿dónde? ¿cuándo? ¿por qué?", "def": "hvor? når? hvorfor?" },
+    { "term": "Hablo español.", "def": "Jeg snakker spansk – pronomenet sløyfes ofte" },
+    { "term": "ciudad – ciudades", "def": "Ord på konsonant får -es i flertall" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvilken artikkel bruker du foran «casa» (hus), som er hunkjønn?", "options": ["el", "los", "la", "un"], "correct": 2, "explain": "«la casa» betyr huset." },
+    { "id": "q02", "text": "Hva er riktig form av «hablar» med «yo»?", "options": ["hablo", "hablas", "habla", "hablan"], "correct": 0, "explain": "Med «yo» ender verbet på -o." },
+    { "id": "q03", "text": "Hvilket verb passer i «Madrid … en España»?", "options": ["es", "tiene", "son", "está"], "correct": 3, "explain": "Sted uttrykkes med «estar»." },
+    { "id": "q04", "text": "Hvilket verb passer i «… de Noruega» (jeg er fra Norge)?", "options": ["Estoy", "Soy", "Tengo", "Vivo"], "correct": 1, "explain": "Opprinnelse uttrykkes med «ser»." },
+    { "id": "q05", "text": "Hva er flertall av «la ciudad» (byen)?", "options": ["las ciudads", "las ciudades", "los ciudades", "la ciudades"], "correct": 1, "explain": "Ord som slutter på konsonant, får -es." },
+    { "id": "q06", "text": "Hvorfor kan man ofte sløyfe pronomenet på spansk?", "options": ["Fordi det er uhøflig", "Fordi pronomen ikke finnes", "Fordi det alltid står til slutt", "Fordi verbendelsen viser hvem som gjør noe"], "correct": 3, "explain": "«Hablo» kan bare bety «jeg snakker»." },
+    { "id": "q07", "text": "Hvordan sier du «Jeg bor ikke i Madrid»?", "options": ["No vivo en Madrid.", "Vivo no en Madrid.", "Vivo en Madrid no.", "Yo no vive en Madrid."], "correct": 0, "explain": "«no» står rett foran verbet." },
+    { "id": "q08", "text": "Hva er riktig form av «tener» med «tú»?", "options": ["tengo", "tiene", "tienes", "tenemos"], "correct": 2, "explain": "«tienes» betyr «du har»." },
+    { "id": "q09", "text": "Hvilken form av «vivir» passer med «nosotros»?", "options": ["vivo", "viven", "vivís", "vivimos"], "correct": 3, "explain": "Med «nosotros» ender -ir-verb på -imos." },
+    { "id": "q10", "text": "Hva betyr spørreordet «¿cuándo?»?", "options": ["Hvor", "Når", "Hvem", "Hvorfor"], "correct": 1, "explain": "Hvor heter «¿dónde?»." }
+  ],
+  "mindmap": {
+    "label": "Grammatikk – grunnlaget",
+    "children": [
+      { "label": "Artikler", "children": [
+        { "label": "el, la" },
+        { "label": "los, las" },
+        { "label": "un, una" },
+        { "label": "Unntak: el día" }
+      ] },
+      { "label": "Pronomen", "children": [
+        { "label": "yo, tú, él, ella, usted" },
+        { "label": "nosotros, vosotros, ellos, ustedes" },
+        { "label": "Sløyfes ofte" }
+      ] },
+      { "label": "Verb", "children": [
+        { "label": "-ar: hablar" },
+        { "label": "-er: comer" },
+        { "label": "-ir: vivir" },
+        { "label": "tener" }
+      ] },
+      { "label": "ser og estar", "children": [
+        { "label": "ser: identitet, egenskap" },
+        { "label": "estar: tilstand, sted" }
+      ] },
+      { "label": "Setninger", "children": [
+        { "label": "no + verb" },
+        { "label": "¿ … ?" },
+        { "label": "Spørreord med aksent" },
+        { "label": "Adjektiv etter substantiv" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "«el día» er hankjønn selv om ordet slutter på -a.", "correct": true, "explain": "Det er et av unntakene du må lære." },
+      { "id": "m02", "type": "sant-usant", "text": "«estar» brukes om varige egenskaper, som at noen er høy.", "correct": false, "explain": "Varige egenskaper uttrykkes med «ser»: «Es alta»." },
+      { "id": "m03", "type": "sant-usant", "text": "Spørreord som «qué» og «dónde» skrives med aksent.", "correct": true, "explain": "Aksenten skiller dem fra andre ord, som «que» (som/at)." },
+      { "id": "m04", "type": "sant-usant", "text": "«vosotros» brukes mye i Latin-Amerika.", "correct": false, "explain": "I Latin-Amerika bruker man «ustedes» i stedet." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er riktig form av «comer» med «ella»?", "options": ["como", "come", "comes", "comen"], "correct": 1, "explain": "«ella come» betyr «hun spiser»." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilken setning er riktig?", "options": ["Estoy cansado.", "Soy cansado hoy.", "Tengo cansado.", "Es cansado yo."], "correct": 0, "explain": "Å være trøtt er en tilstand, derfor «estar»." },
+      { "id": "m07", "type": "flervalg", "text": "Hva betyr «ellos»?", "options": ["Vi", "Dere", "De", "Han"], "correct": 2, "explain": "«ellas» brukes om en gruppe med bare jenter eller kvinner." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
