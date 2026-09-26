@@ -1,0 +1,49 @@
+{
+  "id": "arbeidslivsfag-8",
+  "trinnId": "8",
+  "name": "Arbeidslivsfag",
+  "lareplan": {
+    "kode": "ARB01-03",
+    "url": "https://www.udir.no/lk20/arb01-03/kompetansemaal-og-vurdering/kv107",
+    "kompetansemaal": [
+      {
+        "nr": 1,
+        "tekst": "undersøke behov for varer og tjenester på skolen og i lokalsamfunnet"
+      },
+      {
+        "nr": 2,
+        "tekst": "planlegge praktiske og yrkesrettede arbeidsoppdrag"
+      },
+      {
+        "nr": 3,
+        "tekst": "produsere og levere varer og tjenester etter kvalitetskrav"
+      },
+      {
+        "nr": 4,
+        "tekst": "bruke fagbegreper, arbeidsmetoder, verktøy, materialer og teknologi tilpasset arbeidsoppdrag og begrunne valg"
+      },
+      {
+        "nr": 5,
+        "tekst": "samarbeide, fremme forslag og delta i beslutninger i et arbeidsfellesskap"
+      },
+      {
+        "nr": 6,
+        "tekst": "ivareta bærekraftige prinsipper i alle deler av arbeidsoppdraget"
+      },
+      {
+        "nr": 7,
+        "tekst": "beskrive og vurdere risiko, og følge etiske retningslinjer og arbeidslivets regler i arbeidsoppdraget"
+      },
+      {
+        "nr": 8,
+        "tekst": "vurdere sin egen og gruppens arbeidsinnsats, arbeidsprosess og arbeidsoppdragets resultat"
+      }
+    ]
+  },
+  "temaer": [
+    "arbeidsoppdrag-og-planlegging",
+    "hms-og-sikkerhet",
+    "samarbeid-og-vurdering",
+    "kvalitet-og-kundeservice"
+  ]
+}

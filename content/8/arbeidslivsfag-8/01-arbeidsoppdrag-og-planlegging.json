@@ -1,0 +1,83 @@
+{
+  "id": "arbeidsoppdrag-og-planlegging",
+  "fagId": "arbeidslivsfag-8",
+  "trinnId": "8",
+  "name": "Arbeidsoppdrag og planlegging",
+  "intro": "Hva arbeidslivsfag er, hvordan du finner behov for varer og tjenester, avklarer en bestilling med oppdragsgiveren, lager en arbeidsplan og dokumenterer arbeidet.",
+  "kompetansemaal": [1, 2],
+  "sammendrag": "## Hva er arbeidslivsfag?\n\n**Arbeidslivsfag** er et praktisk fag der du lærer ved å gjøre ekte arbeidsoppdrag – for skolen, for lokalsamfunnet eller for kunder. Faget henter innhold fra de **yrkesfaglige utdanningsprogrammene** i videregående skole, for eksempel bygg og anlegg, restaurant og mat, helse og oppvekst, elektro, salg og service og teknologi og industri. Målet er at du skal få erfaring med praktisk arbeid og kjenne på hvordan det er å jobbe.\n\n## Finne behov\n\nEt arbeidsoppdrag starter med et **behov**: Noen trenger en **vare** – noe fysisk, som en benk, en kake eller en plakat – eller en **tjeneste** – noe man gjør for andre, som å servere, reparere eller passe barn. Du kan finne behov ved å\n\n- spørre lærere, elever og ansatte på skolen\n- snakke med bedrifter, barnehager, sykehjem eller lag og foreninger i nærmiljøet\n- lage en enkel **spørreundersøkelse**\n- se etter ting som er ødelagt eller mangler\n\n## Oppdragsgiver og bestilling\n\nDen som ønsker varen eller tjenesten, er **oppdragsgiveren** eller **kunden**. Før dere starter, må dere avklare en **bestilling**: Hva skal lages? Hvor mange? Når skal det være ferdig? Hvilke **kvalitetskrav** gjelder? Hva kan det koste?\n\n## Planlegge arbeidsoppdraget\n\nEn god **arbeidsplan** svarer på\n\n- **Hva** skal gjøres? Del oppdraget opp i mindre **arbeidsoppgaver**.\n- **Hvem** gjør hva? Fordel roller og ansvar.\n- **Når** skal det gjøres? Lag en **tidsplan** med frister.\n- **Hvordan**? Hvilke **verktøy, materialer og metoder** trengs?\n- **Hva koster det?** Lag et enkelt **budsjett** med utgifter til materialer.\n- **Hvilken risiko** finnes, og hvordan kan den reduseres?\n\nEn **arbeidstegning**, en **oppskrift** eller en **materialliste** er også en del av planen.\n\n## Dokumentasjon\n\nUnderveis dokumenterer du arbeidet med **logg**, bilder eller film. Loggen viser hva du har gjort, hvilke valg du har tatt, og hva du har lært. Dette er nyttig når du skal vurdere arbeidet til slutt, og det ligner på hvordan mange fagarbeidere dokumenterer jobbene sine.\n\n## Hvorfor planlegge?\n\nGod planlegging sparer tid og penger, gir færre feil og gjør det lettere å samarbeide. I arbeidslivet er planlegging en viktig ferdighet i alle yrker – fra kokken som planlegger menyen, til snekkeren som bestiller materialer.",
+  "flashcards": [
+    { "term": "Arbeidslivsfag", "def": "Praktisk fag der man lærer gjennom ekte arbeidsoppdrag." },
+    { "term": "Yrkesfaglige utdanningsprogram", "def": "Utdanningsprogram i videregående som fører fram mot et yrke." },
+    { "term": "Behov", "def": "Noe noen trenger, som en vare eller en tjeneste." },
+    { "term": "Vare", "def": "Noe fysisk som lages eller selges, som en kake eller en benk." },
+    { "term": "Tjeneste", "def": "Noe man gjør for andre, som å servere, reparere eller passe barn." },
+    { "term": "Oppdragsgiver", "def": "Den som ønsker varen eller tjenesten, kunden." },
+    { "term": "Bestilling", "def": "Avklaring av hva som skal lages, hvor mange, når og til hvilken kvalitet." },
+    { "term": "Kvalitetskrav", "def": "Krav til hvor godt produktet eller tjenesten skal være." },
+    { "term": "Arbeidsplan", "def": "Plan som viser hva som skal gjøres, av hvem, når og hvordan." },
+    { "term": "Tidsplan", "def": "Oversikt over når oppgavene skal gjøres, med frister." },
+    { "term": "Budsjett", "def": "Oversikt over hva oppdraget vil koste." },
+    { "term": "Materialliste", "def": "Oversikt over materialene som trengs." },
+    { "term": "Arbeidstegning", "def": "Tegning som viser hvordan noe skal lages, med mål." },
+    { "term": "Logg", "def": "Notater om hva man har gjort, valgt og lært underveis." },
+    { "term": "Dokumentasjon", "def": "Å vise arbeidet med logg, bilder eller film." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er forskjellen på en vare og en tjeneste?", "options": ["En vare er gratis, en tjeneste koster penger", "En vare er noe fysisk, en tjeneste er noe man gjør for andre", "Det er ingen forskjell", "En tjeneste er alltid mat"], "correct": 1, "explain": "En kake er en vare, mens å servere kaka er en tjeneste." },
+    { "id": "q02", "text": "Hvem er oppdragsgiveren?", "options": ["Læreren som gir karakter", "Den som utfører arbeidet", "Rektor", "Den som ønsker varen eller tjenesten"], "correct": 3, "explain": "Oppdragsgiveren kalles også kunden." },
+    { "id": "q03", "text": "Hvilket spørsmål hører til en arbeidsplan?", "options": ["Hvem gjør hva, og når?", "Hva er favorittfilmen din?", "Hvor bor oppdragsgiveren?", "Hvor gammel er læreren?"], "correct": 0, "explain": "Arbeidsplanen fordeler oppgaver og setter frister." },
+    { "id": "q04", "text": "Hvordan kan du finne ut hvilke behov som finnes på skolen?", "options": ["Gjette", "Kopiere et annet prosjekt", "Spørre elever og ansatte eller lage en spørreundersøkelse", "Vente til noen klager"], "correct": 2, "explain": "Å spørre gir et bedre grunnlag for oppdraget." },
+    { "id": "q05", "text": "Hva er et budsjett i et arbeidsoppdrag?", "options": ["En tidsplan", "En tegning", "En oversikt over hva oppdraget vil koste", "En logg"], "correct": 2, "explain": "Budsjettet viser utgiftene til blant annet materialer." },
+    { "id": "q06", "text": "Hvorfor bør du føre logg?", "options": ["For å dokumentere hva du har gjort og lært", "For å slippe å jobbe", "Fordi det er gøy å skrive", "For å få høyere lønn"], "correct": 0, "explain": "Loggen er nyttig når arbeidet skal vurderes." },
+    { "id": "q07", "text": "Hva er kvalitetskrav?", "options": ["Prisen på varen", "Antall arbeidere", "Tidspunktet for levering", "Krav til hvor godt produktet eller tjenesten skal være"], "correct": 3, "explain": "Kvalitetskravene avtales med oppdragsgiveren." },
+    { "id": "q08", "text": "Hvilke utdanningsprogram henter arbeidslivsfaget innhold fra?", "options": ["Studiespesialisering", "De yrkesfaglige utdanningsprogrammene", "Universitetet", "Barnehagen"], "correct": 1, "explain": "For eksempel restaurant og mat eller bygg og anlegg." },
+    { "id": "q09", "text": "Hva er en materialliste?", "options": ["En oversikt over materialene som trengs", "En liste over kunder", "En lønnsslipp", "En tidsplan"], "correct": 0, "explain": "Materiallisten brukes også når man lager budsjett." },
+    { "id": "q10", "text": "Hvorfor er planlegging viktig?", "options": ["Det gir flere feil", "Det gjør arbeidet dyrere", "Det er bare for lærere", "Det sparer tid og penger og gir færre feil"], "correct": 3, "explain": "God planlegging er viktig i alle yrker." }
+  ],
+  "mindmap": {
+    "label": "Arbeidsoppdrag og planlegging",
+    "children": [
+      { "label": "Faget", "children": [
+        { "label": "Praktisk arbeid" },
+        { "label": "Yrkesfag" },
+        { "label": "Ekte oppdrag" }
+      ] },
+      { "label": "Behov", "children": [
+        { "label": "Varer" },
+        { "label": "Tjenester" },
+        { "label": "Spørre og undersøke" }
+      ] },
+      { "label": "Bestilling", "children": [
+        { "label": "Oppdragsgiver" },
+        { "label": "Antall og frist" },
+        { "label": "Kvalitetskrav" }
+      ] },
+      { "label": "Arbeidsplan", "children": [
+        { "label": "Oppgaver og roller" },
+        { "label": "Tidsplan" },
+        { "label": "Verktøy og materialer" },
+        { "label": "Budsjett og risiko" }
+      ] },
+      { "label": "Dokumentasjon", "children": [
+        { "label": "Logg" },
+        { "label": "Bilder og film" },
+        { "label": "Refleksjon" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Å servere mat er et eksempel på en tjeneste.", "correct": true, "explain": "En tjeneste er noe man gjør for andre." },
+      { "id": "m02", "type": "sant-usant", "text": "Et arbeidsoppdrag trenger ingen frist.", "correct": false, "explain": "En frist er viktig for at kunden skal få det de trenger i tide." },
+      { "id": "m03", "type": "sant-usant", "text": "Bilder og film kan brukes til å dokumentere arbeidet.", "correct": true, "explain": "Dokumentasjonen viser arbeidsprosessen." },
+      { "id": "m04", "type": "sant-usant", "text": "Arbeidslivsfag er et rent teorifag uten praktisk arbeid.", "correct": false, "explain": "Faget er praktisk og bygger på ekte arbeidsoppdrag." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er en bestilling?", "options": ["En avklaring av hva som skal lages, hvor mange, når og til hvilken kvalitet", "En faktura", "En klage", "En kvittering"], "correct": 0, "explain": "Bestillingen er grunnlaget for hele oppdraget." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er et eksempel på en vare?", "options": ["Å klippe hår", "En fuglekasse", "Å passe barn", "Å vaske en bil"], "correct": 1, "explain": "De andre alternativene er tjenester." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er en arbeidstegning?", "options": ["En tegning fra kunstfag", "Et bilde av arbeiderne", "En tegning som viser hvordan noe skal lages, med mål", "En tegneserie"], "correct": 2, "explain": "Arbeidstegninger brukes blant annet i bygg og produksjon." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

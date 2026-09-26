@@ -1,0 +1,84 @@
+{
+  "id": "kvalitet-og-kundeservice",
+  "fagId": "arbeidslivsfag-8",
+  "trinnId": "8",
+  "name": "Kvalitet, levering og kundeservice",
+  "intro": "Hva kvalitet betyr i et arbeidsoppdrag, hvordan du kontrollerer og leverer varer og tjenester, god kundeservice, klager, priskalkulasjon og markedsføring.",
+  "kompetansemaal": [3],
+  "sammendrag": "## Hva er kvalitet?\n\n**Kvalitet** betyr at en vare eller tjeneste er så god som den skal være – at den oppfyller **kvalitetskravene** som er avtalt med oppdragsgiveren. Kvalitet kan handle om\n\n- **funksjon**: Fungerer produktet slik det skal?\n- **holdbarhet**: Tåler det bruk over tid?\n- **utseende og finish**: Er det pent og nøyaktig utført?\n- **hygiene og sikkerhet**: Er maten trygg, og er produktet ufarlig å bruke?\n- **levering**: Kommer det til avtalt tid og i avtalt antall?\n\n## Kvalitetskontroll\n\nKvalitet sikres ved å sjekke arbeidet **underveis** og **til slutt**, ikke bare når alt er ferdig. En **sjekkliste** gjør kontrollen systematisk. Nøyaktige **arbeidstegninger**, **oppskrifter** og **mål** gjør det lettere å lage like produkter med jevn kvalitet. Oppdager du feil, retter du dem opp før leveringen.\n\n## Levering\n\nVed levering må produktet ofte være **pakket** og **merket**. Mat skal merkes med innhold og **allergener**. Avtal tid og sted for levering, og kontroller at alt stemmer med bestillingen.\n\n## Kundeservice\n\nGod **kundeservice** handler om å gi kunden en god opplevelse:\n\n- **Hils** og møt kunden med et smil.\n- **Lytt** og still spørsmål for å forstå behovet.\n- Vær **høflig**, **ærlig** og **ryddig** i klær og framtoning.\n- Gi **informasjon** om produktet og prisen.\n\n## Klager og reklamasjon\n\nNoen ganger er kunden misfornøyd. Da er det viktig å **lytte**, **beklage** og finne en **løsning**, for eksempel å reparere, bytte eller gi pengene tilbake. Forbrukere har rett til å **reklamere** på varer med feil. En klage som blir håndtert på en god måte, kan gjøre kunden fornøyd igjen.\n\n## Pris og kalkulasjon\n\nFor å sette riktig **pris** må man **kalkulere**:\n\n- **materialkostnader** – hva materialene koster\n- **andre kostnader** – for eksempel emballasje, strøm og transport\n- **arbeidskostnader** – tiden arbeidet tar\n- **fortjeneste** – det som blir igjen\n\nPrisen bør dekke kostnadene, men også være noe kundene er villige til å betale. I Norge er det **merverdiavgift** (moms) på de fleste varer og tjenester.\n\n## Markedsføring\n\nFor å nå kundene kan man lage **plakater**, informere på skolens nettside eller bruke **sosiale medier**. God markedsføring forteller tydelig **hva** man tilbyr, **hvorfor** det er bra, **hva det koster** og **hvordan** man kan bestille.",
+  "flashcards": [
+    { "term": "Kvalitet", "def": "At en vare eller tjeneste er så god som den skal være." },
+    { "term": "Kvalitetskrav", "def": "Krav som er avtalt med oppdragsgiveren." },
+    { "term": "Kvalitetskontroll", "def": "Å sjekke arbeidet underveis og til slutt." },
+    { "term": "Sjekkliste", "def": "Liste over punkter som skal kontrolleres." },
+    { "term": "Holdbarhet", "def": "Hvor lenge noe tåler bruk." },
+    { "term": "Levering", "def": "Å overlevere produktet til kunden til avtalt tid og sted." },
+    { "term": "Merking", "def": "Informasjon på produktet, for eksempel om innhold og allergener." },
+    { "term": "Allergener", "def": "Stoffer i mat som kan gi allergiske reaksjoner, som nøtter og melk." },
+    { "term": "Kundeservice", "def": "Måten man møter og hjelper kunden på." },
+    { "term": "Klage", "def": "Når kunden sier fra om at noe ikke er som det skal." },
+    { "term": "Reklamasjon", "def": "Forbrukerens rett til å klage på en vare med feil." },
+    { "term": "Kalkulasjon", "def": "Utregning av hva et produkt koster å lage, og hva prisen bør være." },
+    { "term": "Materialkostnader", "def": "Det materialene koster." },
+    { "term": "Fortjeneste", "def": "Det som blir igjen når kostnadene er trukket fra inntektene." },
+    { "term": "Merverdiavgift (moms)", "def": "Avgift på de fleste varer og tjenester som går til staten." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva betyr kvalitet i et arbeidsoppdrag?", "options": ["At produktet er dyrt", "At produktet er stort", "At produktet er laget raskt", "At produktet oppfyller kravene som er avtalt"], "correct": 3, "explain": "Kvalitetskravene avtales med oppdragsgiveren." },
+    { "id": "q02", "text": "Når bør kvalitetskontroll gjøres?", "options": ["Bare når alt er ferdig", "Underveis og til slutt", "Aldri", "Bare hvis kunden klager"], "correct": 1, "explain": "Feil som oppdages tidlig, er lettere å rette." },
+    { "id": "q03", "text": "Hva bør mat merkes med?", "options": ["Innhold og allergener", "Navnet på kokken", "Været", "Hvor mange som har smakt"], "correct": 0, "explain": "Merking av allergener kan forhindre alvorlige reaksjoner." },
+    { "id": "q04", "text": "Hvordan bør du håndtere en klage fra en kunde?", "options": ["Bli sint", "Ignorere den", "Lytte, beklage og finne en løsning", "Si at kunden tar feil"], "correct": 2, "explain": "God klagehåndtering kan gjøre kunden fornøyd igjen." },
+    { "id": "q05", "text": "Hva er fortjeneste?", "options": ["Det som blir igjen når kostnadene er trukket fra", "Prisen på materialene", "Lønnen til de ansatte", "Momsen"], "correct": 0, "explain": "Fortjenesten kan brukes til å utvikle bedriften." },
+    { "id": "q06", "text": "Hva er en sjekkliste?", "options": ["En regning", "En handleliste", "En liste over punkter som skal kontrolleres", "En kundeliste"], "correct": 2, "explain": "Sjekklisten gjør kontrollen systematisk." },
+    { "id": "q07", "text": "Hva hører med i en priskalkulasjon?", "options": ["Bare prisen konkurrentene tar", "Bare fortjenesten", "Ingenting", "Materialkostnader, andre kostnader, arbeid og fortjeneste"], "correct": 3, "explain": "Prisen bør dekke alle kostnadene." },
+    { "id": "q08", "text": "Hva er god kundeservice?", "options": ["Å snakke mest mulig selv", "Å hilse, lytte og være høflig og ærlig", "Å ignorere spørsmål", "Å selge så dyrt som mulig"], "correct": 1, "explain": "Fornøyde kunder kommer gjerne tilbake." },
+    { "id": "q09", "text": "Hva er reklamasjon?", "options": ["Å klage på en vare med feil eller mangel", "Reklame for et produkt", "En type kvittering", "Et tilbud"], "correct": 0, "explain": "Forbrukere har rett til å reklamere på varer med feil." },
+    { "id": "q10", "text": "Hva bør en god plakat for et produkt fortelle?", "options": ["Hvem som laget den", "Hvor mye materialene kostet", "Hvor lang tid det tok", "Hva man tilbyr, hva det koster og hvordan man bestiller"], "correct": 3, "explain": "God markedsføring er tydelig og nyttig for kunden." }
+  ],
+  "mindmap": {
+    "label": "Kvalitet og kundeservice",
+    "children": [
+      { "label": "Kvalitet", "children": [
+        { "label": "Funksjon" },
+        { "label": "Holdbarhet" },
+        { "label": "Hygiene og sikkerhet" },
+        { "label": "Levering i tide" }
+      ] },
+      { "label": "Kontroll", "children": [
+        { "label": "Underveis og til slutt" },
+        { "label": "Sjekkliste" },
+        { "label": "Tegninger og oppskrifter" }
+      ] },
+      { "label": "Levering", "children": [
+        { "label": "Pakking" },
+        { "label": "Merking og allergener" },
+        { "label": "Avtalt tid og sted" }
+      ] },
+      { "label": "Kunden", "children": [
+        { "label": "Hilse og lytte" },
+        { "label": "Høflig og ærlig" },
+        { "label": "Klager og reklamasjon" }
+      ] },
+      { "label": "Pris og salg", "children": [
+        { "label": "Kalkulasjon" },
+        { "label": "Fortjeneste" },
+        { "label": "Moms" },
+        { "label": "Markedsføring" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Levering til avtalt tid er en del av kvaliteten.", "correct": true, "explain": "Et godt produkt som kommer for sent, dekker ikke kundens behov." },
+      { "id": "m02", "type": "sant-usant", "text": "Kunden har ingen rettigheter hvis en vare har feil.", "correct": false, "explain": "Forbrukere har rett til å reklamere." },
+      { "id": "m03", "type": "sant-usant", "text": "Nøyaktige oppskrifter og tegninger bidrar til jevn kvalitet.", "correct": true, "explain": "Da blir produktene like hver gang." },
+      { "id": "m04", "type": "sant-usant", "text": "Prisen på et produkt trenger ikke dekke kostnadene.", "correct": false, "explain": "Hvis prisen er for lav, taper bedriften penger." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er materialkostnader?", "options": ["Det materialene koster", "Lønnen", "Fortjenesten", "Momsen"], "correct": 0, "explain": "Materialkostnadene er ofte den største utgiften i små oppdrag." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er holdbarhet?", "options": ["Hvor pent noe er", "Hvor lenge noe tåler bruk", "Hvor dyrt noe er", "Hvor raskt noe lages"], "correct": 1, "explain": "God holdbarhet er også bra for miljøet." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er moms?", "options": ["En type rabatt", "En del av lønna", "En avgift på varer og tjenester som går til staten", "En gave til kunden"], "correct": 2, "explain": "Moms står for merverdiavgift." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

@@ -1,0 +1,84 @@
+{
+  "id": "hms-og-sikkerhet",
+  "fagId": "arbeidslivsfag-8",
+  "trinnId": "8",
+  "name": "HMS og sikkerhet",
+  "intro": "Hva HMS er, hvem som har ansvar for arbeidsmiljøet, hvordan du gjør en risikovurdering, verneutstyr, farlige stoffer, ergonomi, avvik og nødnumre.",
+  "kompetansemaal": [7, 4],
+  "sammendrag": "## Hva er HMS?\n\n**HMS** står for **helse, miljø og sikkerhet**. Målet er at alle skal gå like friske hjem fra jobb som de kom. I Norge regulerer **arbeidsmiljøloven** arbeidsmiljøet. Den sier at arbeidsmiljøet skal være **fullt forsvarlig**, både fysisk og psykisk.\n\n- **Arbeidsgiveren** har hovedansvaret for HMS.\n- **Arbeidstakerne** har plikt til å **medvirke**: følge rutiner, bruke verneutstyr og si fra om farer.\n- **Verneombudet** er en arbeidstaker som skal ivareta de ansattes interesser i saker om arbeidsmiljø.\n- **Arbeidstilsynet** fører tilsyn med at reglene følges.\n\n## Risikovurdering\n\nFør et arbeidsoppdrag bør du gjøre en **risikovurdering**:\n\n1. **Hva kan gå galt?** For eksempel kutt, brannskader, fall eller støy.\n2. **Hvor sannsynlig** er det at det skjer?\n3. **Hvor alvorlig** blir det hvis det skjer?\n4. **Hvilke tiltak** kan redusere risikoen?\n\nSannsynlighet og konsekvens kan settes inn i en **risikomatrise**. Høy risiko krever tiltak før arbeidet starter. Det beste er å **fjerne faren**, for eksempel ved å bytte til et tryggere verktøy eller stoff. Hvis det ikke går, bruker man **personlig verneutstyr**.\n\n## Personlig verneutstyr\n\n**Vernebriller**, **hørselvern**, **hansker**, **vernesko**, **hjelm**, **refleksvest** og **støvmaske**, og på kjøkkenet **forkle** og **hårnett**. Verneutstyret må brukes riktig og være i god stand.\n\n## Farlige stoffer\n\nKjemikalier merkes med **farepiktogrammer** – symboler i en rød rombe som viser om stoffet for eksempel er etsende, brannfarlig eller giftig. Et **sikkerhetsdatablad** gir informasjon om farene ved et produkt og om hvordan det skal håndteres og oppbevares.\n\n## Ergonomi\n\n**Ergonomi** handler om å tilpasse arbeidet til kroppen. Når du løfter noe tungt, skal du holde **ryggen rett**, **bøye knærne** og holde lasten **nær kroppen**. Varier arbeidsstillingen og ta pauser.\n\n## Avvik og nesten-ulykker\n\nEt **avvik** er noe som ikke er som det skal, for eksempel et ødelagt verktøy eller et glatt gulv. En **nesten-ulykke** er en hendelse som kunne ført til skade. Alle avvik skal **meldes fra om**, slik at man kan hindre at ulykker skjer.\n\n## Brann og nødnumre\n\nKjenn til **rømningsveiene** og vit hvor **brannslukningsapparatet** står. I Norge ringer du **110** ved brann, **112** til politiet og **113** når du trenger medisinsk nødhjelp.\n\n## Etikk og regler\n\nI arbeidslivet gjelder også **etiske retningslinjer**: Du skal være ærlig, behandle kunder og kolleger med respekt og overholde **taushetsplikt** der den gjelder, for eksempel i helse- og omsorgsyrker.",
+  "flashcards": [
+    { "term": "HMS", "def": "Helse, miljø og sikkerhet." },
+    { "term": "Arbeidsmiljøloven", "def": "Loven som regulerer arbeidsmiljøet i Norge." },
+    { "term": "Verneombud", "def": "Arbeidstaker som ivaretar de ansattes interesser i saker om arbeidsmiljø." },
+    { "term": "Arbeidstilsynet", "def": "Myndigheten som fører tilsyn med at arbeidsmiljøloven følges." },
+    { "term": "Risikovurdering", "def": "Å finne ut hva som kan gå galt, hvor sannsynlig og alvorlig det er, og hva som kan gjøres." },
+    { "term": "Risikomatrise", "def": "Tabell som kombinerer sannsynlighet og konsekvens for å vurdere risiko." },
+    { "term": "Personlig verneutstyr", "def": "Utstyr som beskytter den som jobber, som hansker, hjelm og vernebriller." },
+    { "term": "Hørselvern", "def": "Verneutstyr som beskytter hørselen mot støy." },
+    { "term": "Farepiktogram", "def": "Symbol i en rød rombe som viser at et stoff er farlig." },
+    { "term": "Sikkerhetsdatablad", "def": "Dokument med informasjon om farene ved et kjemisk produkt og hvordan det skal håndteres." },
+    { "term": "Ergonomi", "def": "Å tilpasse arbeidet til kroppen for å unngå belastningsskader." },
+    { "term": "Riktig løfteteknikk", "def": "Rett rygg, bøyde knær og lasten nær kroppen." },
+    { "term": "Avvik", "def": "Noe som ikke er som det skal, og som må meldes fra om." },
+    { "term": "Nesten-ulykke", "def": "Hendelse som kunne ført til skade, men ikke gjorde det." },
+    { "term": "110, 112, 113", "def": "Nødnumre i Norge: brann, politi og medisinsk nødhjelp." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva står HMS for?", "options": ["Hygiene, mat og service", "Hjelp, mestring og samarbeid", "Helse, miljø og sikkerhet", "Hovedregler, metoder og system"], "correct": 2, "explain": "HMS-arbeid skal hindre skader og sykdom på jobb." },
+    { "id": "q02", "text": "Hva er det første steget i en risikovurdering?", "options": ["Å finne ut hva som kan gå galt", "Å kjøpe verneutstyr", "Å starte arbeidet", "Å ringe 113"], "correct": 0, "explain": "Deretter vurderer man sannsynlighet, konsekvens og tiltak." },
+    { "id": "q03", "text": "Hvilket nummer ringer du for medisinsk nødhjelp i Norge?", "options": ["110", "112", "911", "113"], "correct": 3, "explain": "110 er brann og 112 er politi." },
+    { "id": "q04", "text": "Hva er et verneombud?", "options": ["En lege på arbeidsplassen", "En arbeidstaker som skal ivareta de ansattes interesser i saker om arbeidsmiljø", "Sjefen", "En politibetjent"], "correct": 1, "explain": "Verneombudet velges av de ansatte." },
+    { "id": "q05", "text": "Hvordan bør du løfte noe tungt?", "options": ["Med rett rygg og strake bein", "Med bøyd rygg", "Så raskt som mulig", "Med rett rygg, bøyde knær og lasten nær kroppen"], "correct": 3, "explain": "Med god løfteteknikk skåner du ryggen." },
+    { "id": "q06", "text": "Hva viser et farepiktogram?", "options": ["Prisen på et produkt", "Hvem som har laget produktet", "At et stoff kan være farlig, og hvilken type fare", "Hvor produktet skal stå"], "correct": 2, "explain": "Piktogrammene har en rød ramme formet som en rombe." },
+    { "id": "q07", "text": "Hva er en nesten-ulykke?", "options": ["En hendelse som kunne ført til skade, men ikke gjorde det", "En ulykke med mange skadde", "En øvelse", "En brannalarm"], "correct": 0, "explain": "Nesten-ulykker skal meldes, slik at man kan hindre ekte ulykker." },
+    { "id": "q08", "text": "Hvem har hovedansvaret for HMS på en arbeidsplass?", "options": ["Kundene", "Arbeidsgiveren", "Verneombudet alene", "Ingen"], "correct": 1, "explain": "Arbeidstakerne har likevel plikt til å medvirke." },
+    { "id": "q09", "text": "Når bør personlig verneutstyr brukes?", "options": ["Aldri", "Bare når sjefen ser på", "Bare på fredager", "Når faren ikke kan fjernes på annen måte"], "correct": 3, "explain": "Det beste er å fjerne faren. Verneutstyr er neste løsning." },
+    { "id": "q10", "text": "Hva bør du gjøre hvis du oppdager noe farlig på arbeidsplassen?", "options": ["Melde fra om avviket", "Ignorere det", "Fikse det selv uten å si noe", "Vente til noen skader seg"], "correct": 0, "explain": "Når avvik meldes, kan de rettes opp." }
+  ],
+  "mindmap": {
+    "label": "HMS og sikkerhet",
+    "children": [
+      { "label": "HMS", "children": [
+        { "label": "Arbeidsmiljøloven" },
+        { "label": "Arbeidsgiver og arbeidstaker" },
+        { "label": "Verneombud" },
+        { "label": "Arbeidstilsynet" }
+      ] },
+      { "label": "Risikovurdering", "children": [
+        { "label": "Hva kan gå galt?" },
+        { "label": "Sannsynlighet" },
+        { "label": "Konsekvens" },
+        { "label": "Tiltak" }
+      ] },
+      { "label": "Verneutstyr", "children": [
+        { "label": "Briller og hørselvern" },
+        { "label": "Hansker og vernesko" },
+        { "label": "Hjelm og refleksvest" }
+      ] },
+      { "label": "Farer", "children": [
+        { "label": "Farepiktogram" },
+        { "label": "Sikkerhetsdatablad" },
+        { "label": "Ergonomi" }
+      ] },
+      { "label": "Når noe skjer", "children": [
+        { "label": "Avvik og nesten-ulykker" },
+        { "label": "Rømningsveier" },
+        { "label": "110, 112, 113" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Alle arbeidstakere har plikt til å medvirke i HMS-arbeidet.", "correct": true, "explain": "De skal følge rutiner, bruke verneutstyr og si fra om farer." },
+      { "id": "m02", "type": "sant-usant", "text": "Hørselvern beskytter øynene.", "correct": false, "explain": "Hørselvern beskytter mot støy. Vernebriller beskytter øynene." },
+      { "id": "m03", "type": "sant-usant", "text": "Arbeidstilsynet fører tilsyn med at arbeidsmiljøloven følges.", "correct": true, "explain": "Arbeidstilsynet kan gi pålegg og stanse farlig arbeid." },
+      { "id": "m04", "type": "sant-usant", "text": "En risikovurdering gjøres først etter at en ulykke har skjedd.", "correct": false, "explain": "Risikovurderingen gjøres før arbeidet starter, for å forebygge ulykker." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er ergonomi?", "options": ["Å tilpasse arbeidet til kroppen for å unngå belastningsskader", "Økonomi på arbeidsplassen", "Et verktøy", "En type verneutstyr"], "correct": 0, "explain": "God ergonomi forebygger vondt i rygg, nakke og skuldre." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilket nummer ringer du ved brann i Norge?", "options": ["113", "110", "112", "911"], "correct": 1, "explain": "110 går til brannvesenet." },
+      { "id": "m07", "type": "flervalg", "text": "Hva står i et sikkerhetsdatablad?", "options": ["Lønna til de ansatte", "Arbeidstiden", "Informasjon om farene ved et kjemisk produkt og hvordan det skal håndteres", "Menyen i kantina"], "correct": 2, "explain": "Sikkerhetsdatablad skal finnes for farlige kjemikalier." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

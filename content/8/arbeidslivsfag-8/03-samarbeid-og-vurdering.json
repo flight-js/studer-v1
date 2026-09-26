@@ -1,0 +1,85 @@
+{
+  "id": "samarbeid-og-vurdering",
+  "fagId": "arbeidslivsfag-8",
+  "trinnId": "8",
+  "name": "Samarbeid og vurdering",
+  "intro": "Hvordan et godt arbeidsfellesskap fungerer, roller og ansvar, kommunikasjon, møter og beslutninger, konflikthåndtering, medbestemmelse og hvordan du vurderer arbeidsinnsats, prosess og resultat.",
+  "kompetansemaal": [5, 8],
+  "sammendrag": "## Et arbeidsfellesskap\n\nI arbeidslivet jobber de fleste sammen med andre. Et godt **arbeidsfellesskap** preges av **samarbeid**, **respekt** og **tydelig kommunikasjon**. I arbeidslivsfag øver du på dette gjennom arbeidsoppdrag i grupper.\n\n## Roller og ansvar\n\nNår en gruppe fordeler **roller**, vet alle hva de har **ansvar** for. Eksempler på roller er\n\n- **leder** – holder oversikt og fordeler oppgaver\n- **sekretær** – skriver referat og logg\n- **innkjøper** – har ansvar for materialer og budsjett\n- **kvalitetsansvarlig** – sjekker at produktet holder kravene\n- **tidtaker** – passer på tidsplanen\n\n## Kommunikasjon\n\n- **Aktiv lytting**: Lytt oppmerksomt, still spørsmål og vis at du forstår.\n- Gi **klare beskjeder**: Hva skal gjøres, av hvem og når?\n- Gi og ta imot **tilbakemeldinger** på en saklig og vennlig måte.\n\n## Møter og beslutninger\n\nEt **møte** har ofte en **dagsorden** – en liste over saker som skal tas opp – og det skrives et **referat** med det som blir bestemt. Beslutninger kan tas på ulike måter:\n\n- **Avstemning**: Flertallet bestemmer. Det går raskt, men noen kan føle seg overkjørt.\n- **Konsensus**: Alle blir enige. Det gir eierskap, men kan ta tid.\n- **Lederen bestemmer** etter å ha hørt på gruppa.\n\nDet viktigste er at alle får **fremme forslag**, og at beslutningene blir fulgt opp.\n\n## Konflikthåndtering\n\nUenighet er vanlig og kan føre til bedre løsninger. For å unngå at uenighet blir til konflikt, er det lurt å\n\n- ta opp problemer **tidlig**\n- snakke om **saken**, ikke personen\n- bruke **jeg-budskap**: «Jeg blir stresset når …»\n- finne et **kompromiss** der begge parter gir litt\n\n## Medbestemmelse i arbeidslivet\n\nI Norge har arbeidstakere rett til **medbestemmelse** på arbeidsplassen. Mange er med i en **fagforening**, og en **tillitsvalgt** representerer arbeidstakerne overfor ledelsen.\n\n## Vurdere arbeidet\n\nEtter et arbeidsoppdrag vurderer man både **produktet**, **prosessen** og **innsatsen**:\n\n- **Egenvurdering**: Hvordan var min innsats? Hva lærte jeg?\n- **Gruppevurdering**: Hvordan fungerte samarbeidet?\n- **Kvalitetskontroll**: Holder produktet kvalitetskravene?\n- **Tilbakemelding fra kunden**: Er oppdragsgiveren fornøyd?\n\nBruk **vurderingskriterier** – beskrivelser av hva som kjennetegner godt arbeid – og still spørsmålene: *Hva gikk bra? Hva kan forbedres? Hva tar vi med oss til neste oppdrag?*",
+  "flashcards": [
+    { "term": "Arbeidsfellesskap", "def": "De man jobber sammen med, og måten man samarbeider på." },
+    { "term": "Rolle", "def": "En bestemt oppgave og et ansvar i en gruppe, som leder eller sekretær." },
+    { "term": "Ansvar", "def": "Det man har plikt til å sørge for." },
+    { "term": "Aktiv lytting", "def": "Å lytte oppmerksomt og vise at man forstår." },
+    { "term": "Tilbakemelding", "def": "Kommentar om hva som fungerer og hva som kan bli bedre." },
+    { "term": "Dagsorden", "def": "Liste over saker som skal tas opp på et møte." },
+    { "term": "Referat", "def": "Skriftlig oversikt over hva som ble bestemt på et møte." },
+    { "term": "Avstemning", "def": "Beslutning der flertallet bestemmer." },
+    { "term": "Konsensus", "def": "At alle blir enige." },
+    { "term": "Kompromiss", "def": "En løsning der begge parter gir litt." },
+    { "term": "Jeg-budskap", "def": "Å si hvordan man selv opplever noe, uten å anklage." },
+    { "term": "Tillitsvalgt", "def": "Person som representerer arbeidstakerne overfor ledelsen." },
+    { "term": "Egenvurdering", "def": "Å vurdere sitt eget arbeid og sin egen innsats." },
+    { "term": "Evaluering", "def": "Vurdering av hva som gikk bra og hva som kan forbedres." },
+    { "term": "Vurderingskriterier", "def": "Beskrivelser av hva som kjennetegner godt arbeid." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er en dagsorden?", "options": ["En liste over sakene som skal tas opp på et møte", "En timeplan for skolen", "En kalender", "En regel for pauser"], "correct": 0, "explain": "Dagsordenen sendes gjerne ut før møtet." },
+    { "id": "q02", "text": "Hva betyr konsensus?", "options": ["At lederen bestemmer", "At flertallet vinner", "At alle blir enige", "At man trekker lodd"], "correct": 2, "explain": "Konsensus gir eierskap, men kan ta tid." },
+    { "id": "q03", "text": "Hva er et referat?", "options": ["En invitasjon", "En skriftlig oversikt over hva som ble bestemt på et møte", "En klage", "En tegning"], "correct": 1, "explain": "Referatet gjør det lett å huske og følge opp beslutninger." },
+    { "id": "q04", "text": "Hva er en god måte å løse en konflikt i gruppa på?", "options": ["Å ignorere den", "Å snakke bak ryggen på hverandre", "Å slutte i gruppa", "Å ta det tidlig, snakke om saken og finne en løsning sammen"], "correct": 3, "explain": "Konflikter blir ofte større hvis de ikke tas opp." },
+    { "id": "q05", "text": "Hva er en fordel ved å fordele roller i en gruppe?", "options": ["Ingen trenger å jobbe", "Alle vet hva de har ansvar for", "Det blir flere konflikter", "Arbeidet tar lengre tid"], "correct": 1, "explain": "Tydelige roller gir bedre oversikt." },
+    { "id": "q06", "text": "Hva er en tillitsvalgt?", "options": ["Sjefen i bedriften", "En kunde", "En lærer", "En person som representerer arbeidstakerne overfor ledelsen"], "correct": 3, "explain": "Den tillitsvalgte velges av medlemmene i fagforeningen." },
+    { "id": "q07", "text": "Hva er egenvurdering?", "options": ["Å vurdere sitt eget arbeid og sin egen innsats", "Å gi andre karakter", "Å la kunden vurdere", "Å vurdere læreren"], "correct": 0, "explain": "Egenvurdering hjelper deg å se hva du kan forbedre." },
+    { "id": "q08", "text": "Hvilket spørsmål hører til en evaluering av et arbeidsoppdrag?", "options": ["Hvor mye tjente sjefen?", "Hvem kom sist?", "Hva gikk bra, og hva kan gjøres bedre neste gang?", "Hvilken farge hadde verktøyet?"], "correct": 2, "explain": "Evaluering handler om å lære til neste gang." },
+    { "id": "q09", "text": "Hva er aktiv lytting?", "options": ["Å høre på musikk mens man jobber", "Å snakke mest mulig", "Å avbryte for å vise engasjement", "Å lytte oppmerksomt og vise at man forstår"], "correct": 3, "explain": "Aktiv lytting gjør samarbeidet bedre." },
+    { "id": "q10", "text": "Hva er et kompromiss?", "options": ["At én part får alt", "En løsning der begge parter gir litt", "At ingen blir enige", "At man lar være å bestemme"], "correct": 1, "explain": "Kompromisser er vanlige både i arbeidslivet og i politikken." }
+  ],
+  "mindmap": {
+    "label": "Samarbeid og vurdering",
+    "children": [
+      { "label": "Fellesskap", "children": [
+        { "label": "Samarbeid" },
+        { "label": "Respekt" },
+        { "label": "Kommunikasjon" }
+      ] },
+      { "label": "Roller", "children": [
+        { "label": "Leder" },
+        { "label": "Sekretær" },
+        { "label": "Innkjøper" },
+        { "label": "Kvalitetsansvarlig" }
+      ] },
+      { "label": "Møter og beslutninger", "children": [
+        { "label": "Dagsorden og referat" },
+        { "label": "Avstemning" },
+        { "label": "Konsensus" }
+      ] },
+      { "label": "Konflikter", "children": [
+        { "label": "Ta det tidlig" },
+        { "label": "Sak, ikke person" },
+        { "label": "Jeg-budskap" },
+        { "label": "Kompromiss" }
+      ] },
+      { "label": "Vurdering", "children": [
+        { "label": "Egenvurdering" },
+        { "label": "Gruppevurdering" },
+        { "label": "Kvalitetskontroll" },
+        { "label": "Kundens tilbakemelding" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Alle i en arbeidsgruppe bør få komme med forslag.", "correct": true, "explain": "Flere ideer gir ofte bedre løsninger." },
+      { "id": "m02", "type": "sant-usant", "text": "Konflikter forsvinner alltid av seg selv.", "correct": false, "explain": "Konflikter må ofte tas opp for å bli løst." },
+      { "id": "m03", "type": "sant-usant", "text": "Tilbakemelding fra kunden kan brukes til å vurdere kvaliteten på arbeidet.", "correct": true, "explain": "Kunden vet om produktet dekker behovet." },
+      { "id": "m04", "type": "sant-usant", "text": "Evaluering skjer bare før arbeidet starter.", "correct": false, "explain": "Evaluering skjer underveis og etter at arbeidet er ferdig." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er vurderingskriterier?", "options": ["Beskrivelser av hva som kjennetegner godt arbeid", "En liste over materialer", "En tidsplan", "Et budsjett"], "correct": 0, "explain": "Kriteriene gjør vurderingen tydelig og rettferdig." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er et jeg-budskap?", "options": ["Å snakke om seg selv hele tiden", "Å si hvordan man selv opplever noe, uten å anklage", "Å bestemme alt selv", "Å skrive dagbok"], "correct": 1, "explain": "For eksempel: «Jeg blir stresset når fristen er så kort.»" },
+      { "id": "m07", "type": "flervalg", "text": "Hva er en fordel med demokratiske beslutninger i en gruppe?", "options": ["Det går alltid raskest", "Én person får bestemme", "Flere føler eierskap til beslutningen", "Ingen må si sin mening"], "correct": 2, "explain": "Når alle har vært med, er det lettere å følge beslutningen." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
