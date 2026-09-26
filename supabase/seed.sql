@@ -51,14 +51,14 @@ insert into public.fag (id, trinn_id, navn, lareplan_kode, lareplan_url, kompeta
   ('norsk-vg1', 'vg1', 'Norsk', 'NOR01-08', 'https://www.udir.no/lk20/nor01-08/kompetansemaal-og-vurdering/kv1113', '[{"nr":1,"tekst":"lese, analysere og tolke nyere skjønnlitteratur på bokmål og nynorsk og i oversettelse fra samiske og andre språk"},{"nr":2,"tekst":"reflektere over hvordan tekster framstiller møter mellom ulike kulturer"},{"nr":3,"tekst":"gjøre rede for og reflektere over bruken av retoriske appellformer og språklige virkemidler i sakprosatekster"},{"nr":4,"tekst":"lytte til andre, bygge opp saklig argumentasjon og bruke retoriske appellformer i diskusjoner"},{"nr":5,"tekst":"bruke ulike kilder på en kritisk, selvstendig og etterrettelig måte"},{"nr":6,"tekst":"greie ut om og drøfte norskfaglige eller tverrfaglige temaer muntlig"},{"nr":7,"tekst":"skrive fagartikler som greier ut om og drøfter norskfaglige eller tverrfaglige temaer"},{"nr":8,"tekst":"bruke fagspråk til å beskrive setningsoppbygningen og sammenhengen mellom setninger i arbeid med tekster"},{"nr":9,"tekst":"kombinere virkemidler og uttrykksformer kreativt i egen tekstskaping"},{"nr":10,"tekst":"vurdere og bearbeide egne tekster ut fra tilbakemeldinger og faglige kriterier"},{"nr":11,"tekst":"skrive tekster med god struktur og tekstbinding og mestre tegnsetting og rettskriving på hovedmål og sidemål"},{"nr":12,"tekst":"sammenligne særtrekk ved norsk med andre språk og vise hvordan språklige møter kan skape språkendringer"},{"nr":13,"tekst":"gjøre rede for utbredelsen av de samiske språkene i Norge, fornorskingspolitikken og de språklige rettighetene samer har som urfolk"}]'::jsonb, 0),
   ('matematikk-1p', 'vg1', 'Matematikk 1P', 'MAT08-01', 'https://www.udir.no/lk20/mat08-01/kompetansemaal-og-vurdering/kv31', '[{"nr":1,"tekst":"lese, hente ut og vurdere matematikk i tekstar om situasjonar frå lokalmiljøet, gjere berekningar knytte til dette og presentere og argumentere for resultata"},{"nr":2,"tekst":"utforske korleis ulike premissar vil kunne påverke korleis matematiske problem frå samfunnsliv og arbeidsliv blir løyste"},{"nr":3,"tekst":"modellere situasjonar knytte til tema frå samfunnsliv og arbeidsliv, presentere og argumentere for resultata og for når modellane er gyldige"},{"nr":4,"tekst":"identifisere variable storleikar i ulike situasjonar og bruke dei til utforsking og generalisering"},{"nr":5,"tekst":"tolke og bruke formlar som gjeld samfunnsliv og arbeidsliv"},{"nr":6,"tekst":"bruke prosent, prosentpoeng, promille og vekstfaktor i utrekningar og presentere og grunngi løysingar"},{"nr":7,"tekst":"utforske, beskrive og bruke omgrepa proporsjonalitet og omvend proporsjonalitet"},{"nr":8,"tekst":"tolke og bruke samansette måleiningar i praktiske samanhengar og velje eigna måleining"},{"nr":9,"tekst":"tolke og bruke funksjonar i matematisk modellering og problemløysing"},{"nr":10,"tekst":"planleggje, utføre og presentere sjølvstendig arbeid knytt til modellering og funksjonar innanfor samfunnsfaglege tema"},{"nr":11,"tekst":"bruke digitale verktøy i utforsking og problemløysing knytt til eigenskapar ved funksjonar, og diskutere løysingane"},{"nr":12,"tekst":"tolke og rekne med rotuttrykk, potensar og tal på standardform"}]'::jsonb, 1),
   ('matematikk-1t', 'vg1', 'Matematikk 1T', 'MAT09-02', 'https://www.udir.no/lk20/mat09-02/kompetansemaal-og-vurdering/kv979', '[{"nr":1,"tekst":"formulere og løyse problem ved hjelp av algoritmisk tenking, ulike problemløysingsstrategiar, digitale verktøy og programmering"},{"nr":2,"tekst":"lese og forstå matematiske bevis og utforske og utvikle bevis i relevante matematiske emne"},{"nr":3,"tekst":"identifisere variable storleikar i ulike situasjonar, setje opp formlar og utforske desse ved hjelp av digitale verktøy"},{"nr":4,"tekst":"utforske strategiar for å løyse likningar, likningssystem og ulikskapar og argumentere for tenkjemåtane sine"},{"nr":5,"tekst":"forklare forskjellen mellom ein identitet, ei likning, eit algebraisk uttrykk og ein funksjon"},{"nr":6,"tekst":"utforske samanhengar mellom andregradslikningar og andregradsulikskapar, andregradsfunksjonar og kvadratsetningane og bruke samanhengane i problemløysing"},{"nr":7,"tekst":"modellere situasjonar knytte til ulike tema, drøfte, presentere og forklare resultata og argumentere for om modellane er gyldige"},{"nr":8,"tekst":"lese, hente ut og vurdere matematikk i relevante tekstar om ulike tema og presentere relevante berekningar og analysar av resultata"},{"nr":9,"tekst":"utforske og beskrive eigenskapane ved polynomfunksjonar, rasjonale funksjonar, eksponentialfunksjonar og potensfunksjonar"},{"nr":10,"tekst":"bruke gjennomsnittleg og momentan vekstfart i konkrete døme og gjere greie for den deriverte"},{"nr":11,"tekst":"forklare polynomdivisjon og bruke det til å omskrive algebraiske uttrykk, drøfte funksjonar og løyse likningar og ulikskapar"},{"nr":12,"tekst":"gjere greie for definisjonane av sinus, cosinus og tangens og bruke trigonometri til å berekne lengder, vinklar og areal i vilkårlege trekantar"},{"nr":13,"tekst":"grunngi sinus-, cosinus- og arealsetninga"},{"nr":14,"tekst":"bruke trigonometri til å analysere og løyse samansette teoretiske og praktiske problem med lengder, vinklar og areal"}]'::jsonb, 2),
-  ('engelsk-vg1', 'vg1', 'Engelsk', null, null, '[]'::jsonb, 3),
-  ('naturfag-vg1', 'vg1', 'Naturfag', null, null, '[]'::jsonb, 4),
-  ('geografi-vg1', 'vg1', 'Geografi', null, null, '[]'::jsonb, 5),
-  ('samfunnskunnskap-vg1', 'vg1', 'Samfunnskunnskap', null, null, '[]'::jsonb, 6),
-  ('tysk-vg1', 'vg1', 'Tysk', null, null, '[]'::jsonb, 7),
-  ('fransk-vg1', 'vg1', 'Fransk', null, null, '[]'::jsonb, 8),
-  ('spansk-vg1', 'vg1', 'Spansk', null, null, '[]'::jsonb, 9),
-  ('kinesisk-vg1', 'vg1', 'Kinesisk', null, null, '[]'::jsonb, 10),
+  ('engelsk-vg1', 'vg1', 'Engelsk', 'ENG01-06', 'https://www.udir.no/lk20/eng01-06/kompetansemaal-og-vurdering/kv1035', '[{"nr":1,"tekst":"bruke egnede strategier i språklæring, tekstskaping og kommunikasjon"},{"nr":2,"tekst":"bruke egnede digitale ressurser og andre hjelpemidler i språklæring, tekstskaping og samhandling"},{"nr":3,"tekst":"bruke mønstre for uttale i kommunikasjon"},{"nr":4,"tekst":"lytte til, forstå og bruke akademisk språk i arbeid med egne muntlige og skriftlige tekster"},{"nr":5,"tekst":"uttrykke seg nyansert og presist med flyt og sammenheng, idiomatiske uttrykk og varierte setningsstrukturer tilpasset formål, mottaker og situasjon"},{"nr":6,"tekst":"gjøre rede for andres argumentasjon og bruke og følge opp andres innspill i samtaler og diskusjoner om ulike emner"},{"nr":7,"tekst":"bruke kunnskap om sammenhenger mellom engelsk og andre språk eleven kjenner til i egen språklæring"},{"nr":8,"tekst":"bruke kunnskap om grammatikk og tekststruktur i arbeid med egne muntlige og skriftlige tekster"},{"nr":9,"tekst":"lese, diskutere og reflektere over innhold og virkemidler i ulike typer tekster, inkludert selvvalgte tekster"},{"nr":10,"tekst":"lese, analysere og tolke engelskspråklig skjønnlitteratur"},{"nr":11,"tekst":"lese og sammenligne ulike sakprosatekster om samme emne fra forskjellige kilder og kritisk vurdere hvor pålitelige kildene er"},{"nr":12,"tekst":"bruke ulike kilder på en kritisk, hensiktsmessig og etterrettelig måte"},{"nr":13,"tekst":"skrive ulike typer formelle og uformelle tekster, inkludert sammensatte, med struktur og sammenheng som beskriver, diskuterer, begrunner og reflekterer tilpasset formål, mottaker og situasjon"},{"nr":14,"tekst":"vurdere og bearbeide egne tekster ut fra faglige kriterier og kunnskap om språk"},{"nr":15,"tekst":"beskrive sentrale trekk ved framveksten av engelsk som verdensspråk"},{"nr":16,"tekst":"utforske og reflektere over mangfold og samfunnsforhold i den engelskspråklige verden ut fra historiske sammenhenger"},{"nr":17,"tekst":"diskutere og reflektere over form, innhold og virkemidler i engelskspråklige kulturelle uttrykksformer fra ulike medier, inkludert musikk, film og spill"}]'::jsonb, 3),
+  ('naturfag-vg1', 'vg1', 'Naturfag', 'NAT01-05', 'https://www.udir.no/lk20/nat01-05/kompetansemaal-og-vurdering/kv1079', '[{"nr":1,"tekst":"utforske en selvvalgt naturfaglig problemstilling, presentere funn og argumentere for valg av metoder"},{"nr":2,"tekst":"risikovurdere egne forsøk og håndtere avfallet fra disse på en forsvarlig måte"},{"nr":3,"tekst":"drøfte hvordan utvikling av naturvitenskapelige hypoteser, modeller og teorier bidrar til at vi kan forstå og forklare verden"},{"nr":4,"tekst":"vurdere og lage programmer som modellerer naturfaglige fenomener"},{"nr":5,"tekst":"utforske og beskrive noen sentrale bølgefenomener"},{"nr":6,"tekst":"forklare hovedprinsippene for trådløs kommunikasjon og gi eksempler på hva slik teknologi brukes til"},{"nr":7,"tekst":"utforske og beskrive elektromagnetisk og ioniserende stråling, og vurdere informasjon om stråling og helseeffekter av ulike strålingstyper"},{"nr":8,"tekst":"beskrive big bang-teorien om hvordan universet har oppstått og utviklet seg, og gjøre rede for observasjoner som støtter denne teorien"},{"nr":9,"tekst":"utforske og gjøre rede for sammenhenger mellom kjemiske bindinger og egenskaper til ulike stoffer"},{"nr":10,"tekst":"utforske egenskaper og reaksjoner til noen organiske og uorganiske karbonforbindelser, gi eksempler på anvendelser og gjøre rede for karbonets betydning for livet på jorda"},{"nr":11,"tekst":"gjøre rede for hvordan noen miljøgifter kan akkumuleres i næringskjeder, og vurdere tiltak for å ta vare på helse og miljø"},{"nr":12,"tekst":"gjøre rede for funksjonene til noen næringsstoffer og diskutere hvorfor et variert kosthold er viktig i et helse- og bærekraftsperspektiv"},{"nr":13,"tekst":"drøfte aktuelle helse- og livsstilsspørsmål og vurdere pålitelighet i informasjon fra ulike kilder"},{"nr":14,"tekst":"beskrive DNA og hvordan egenskaper arves, og gjøre rede for hvordan arv er en forutsetning for evolusjon"},{"nr":15,"tekst":"gjøre rede for hvordan klimaendringer påvirker evolusjon, utbredelse av arter og biologisk mangfold"},{"nr":16,"tekst":"gi eksempler på bruk av bioteknologi og drøfte etiske spørsmål knyttet til bioteknologi"}]'::jsonb, 4),
+  ('geografi-vg1', 'vg1', 'Geografi', 'GEO01-02', 'https://www.udir.no/lk20/geo01-02/kompetansemaal-og-vurdering/kv49', '[{"nr":1,"tekst":"utforske og presentere geografiske forhold og prosessar ved å bruke ulike kjelder, inkludert kart"},{"nr":2,"tekst":"gjere greie for korleis indre og ytre krefter har danna ulike landskap, og utforske og gi døme på korleis menneska som bur der, kan utnytte ressursane"},{"nr":3,"tekst":"drøfte ulike interesser knytte til ressurs- og arealbruk i Noreg, Sápmi/Sábme/Sáepmie og nordområda"},{"nr":4,"tekst":"reflektere over eigen ressursbruk og ressursbruken i Noreg i eit globalt og berekraftig perspektiv"},{"nr":5,"tekst":"utforske kva endringar i klimaet har å seie for natur og samfunn lokalt, regionalt eller globalt"},{"nr":6,"tekst":"utforske og gjere greie for årsakene til ein aktuell natur- eller miljøkatastrofe og konsekvensar for menneske, samfunn og natur"},{"nr":7,"tekst":"gjere greie for årsaker til demografiske endringar og drøfte ulike levekår i forskjellige delar av verda"},{"nr":8,"tekst":"gjennomføre eit feltarbeid for å undersøkje og presentere geografiske forhold"}]'::jsonb, 5),
+  ('samfunnskunnskap-vg1', 'vg1', 'Samfunnskunnskap', 'SAK01-01', 'https://www.udir.no/lk20/sak01-01/kompetansemaal-og-vurdering/kv48', '[{"nr":1,"tekst":"utforske og presentere dagsaktuelle tema eller debatter ved å bruke samfunnsfaglege metodar, kjelder og digitale ressursar, og argumentere for sine eigne og andre sine meiningar og verdiar"},{"nr":2,"tekst":"utforske korleis interesser og ideologisk ståstad påverkar våre argument og val av kjelder, og reflektere over korleis det gir seg utslag i forskjellige meiningar"},{"nr":3,"tekst":"gjere greie for sosialisering og drøfte korleis identiteten og sjølvkjensla til ungdom blir påverka gjennom sosialisering"},{"nr":4,"tekst":"drøfte korleis personleg økonomi, kommersiell påverknad og forbruk påverkar enkeltpersonar, grupper og samfunnet"},{"nr":5,"tekst":"reflektere over utfordringar i samband med grensesetjing og drøfte ulike verdiar, normer og lover som gjeld kjønn, seksualitet og kropp"},{"nr":6,"tekst":"reflektere over eigne digitale spor, utforske kven som har tilgang til spora, og drøfte korleis data og personopplysningar kan brukast eller misbrukast"},{"nr":7,"tekst":"innhente informasjon om forskjellige former for sosial ulikskap i Noreg og drøfte samanhengen mellom ulikskap og utanforskap"},{"nr":8,"tekst":"reflektere over likskapar og ulikskapar i kulturuttrykk, identitet og levesett innanfor og mellom majoritet og minoritet i Noreg og Sápmi/Sábme/Sáepmie"},{"nr":9,"tekst":"utforske og beskrive korleis organiseringa av samfunnet og arbeidslivet i Noreg har endra seg, og drøfte korleis den nordiske samfunnsmodellen møter utfordringar enkeltpersonar og samfunnet står overfor"},{"nr":10,"tekst":"utforske og drøfte korleis næringsgrunnlag, innovasjon og teknologi formar og påverkar arbeidsliv og lokalsamfunn i Noreg"},{"nr":11,"tekst":"reflektere over kva det inneber å vere medborgar, og samanlikne korleis politiske system er organiserte i forskjellige land og område"},{"nr":12,"tekst":"vurdere korleis utøving av makt påverkar enkeltpersonar og samfunn"},{"nr":13,"tekst":"gjere greie for grunnlaget for menneskerettane og utforske og gi døme på brot på menneskerettane nasjonalt eller globalt"},{"nr":14,"tekst":"vurdere årsaker til og tiltak som kan førebyggje rasisme, diskriminering og hatefulle ytringar, og drøfte grensene for ytringsfridommen"},{"nr":15,"tekst":"utforske ei utfordring eller ein konflikt på lokalt, nasjonalt eller globalt nivå og drøfte korleis utfordringa eller konflikten påverkar forskjellige grupper"},{"nr":16,"tekst":"drøfte samanhengen mellom økonomisk vekst, levestandard og livskvalitet i eit globalt og berekraftig perspektiv"}]'::jsonb, 6),
+  ('tysk-vg1', 'vg1', 'Tysk', 'FSP01-04', 'https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurdering/kv966', '[{"nr":1,"tekst":"lytte til og forstå tydelig tale om personlige og faglig relevante emner og aktuelle saker"},{"nr":2,"tekst":"samtale i en rekke dagligdagse situasjoner om kjente og faglig relevante emner"},{"nr":3,"tekst":"muntlig forklare faglig relevante emner, skildre opplevelser, hendelser og planer, og begrunne meninger, også spontant"},{"nr":4,"tekst":"lese og forstå ulike typer tekster, også autentiske, om personlige og faglig relevante emner og aktuelle saker"},{"nr":5,"tekst":"skrive ulike teksttyper om personlige og faglig relevante emner, og uttrykke og begrunne egne meninger, med og uten hjelpemidler"},{"nr":6,"tekst":"bruke grunnleggende språklige strukturer, regler for uttale og rettskriving og språkets offisielle alfabet eller tegn for å kommunisere på en situasjonstilpasset måte"},{"nr":7,"tekst":"bruke relevante lærings- og kommunikasjonsstrategier, digitale ressurser og erfaringer fra tidligere språklæring i læringsprosessen"},{"nr":8,"tekst":"utforske og gjøre rede for mangfold, samfunnsforhold og historiske hendelser i områder der språket snakkes, og se sammenhenger med egen bakgrunn"},{"nr":9,"tekst":"utforske og presentere kunstneriske og kulturelle uttrykk fra områder der språket snakkes, og gjøre rede for egne opplevelser"}]'::jsonb, 7),
+  ('fransk-vg1', 'vg1', 'Fransk', 'FSP01-04', 'https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurdering/kv966', '[{"nr":1,"tekst":"lytte til og forstå tydelig tale om personlige og faglig relevante emner og aktuelle saker"},{"nr":2,"tekst":"samtale i en rekke dagligdagse situasjoner om kjente og faglig relevante emner"},{"nr":3,"tekst":"muntlig forklare faglig relevante emner, skildre opplevelser, hendelser og planer, og begrunne meninger, også spontant"},{"nr":4,"tekst":"lese og forstå ulike typer tekster, også autentiske, om personlige og faglig relevante emner og aktuelle saker"},{"nr":5,"tekst":"skrive ulike teksttyper om personlige og faglig relevante emner, og uttrykke og begrunne egne meninger, med og uten hjelpemidler"},{"nr":6,"tekst":"bruke grunnleggende språklige strukturer, regler for uttale og rettskriving og språkets offisielle alfabet eller tegn for å kommunisere på en situasjonstilpasset måte"},{"nr":7,"tekst":"bruke relevante lærings- og kommunikasjonsstrategier, digitale ressurser og erfaringer fra tidligere språklæring i læringsprosessen"},{"nr":8,"tekst":"utforske og gjøre rede for mangfold, samfunnsforhold og historiske hendelser i områder der språket snakkes, og se sammenhenger med egen bakgrunn"},{"nr":9,"tekst":"utforske og presentere kunstneriske og kulturelle uttrykk fra områder der språket snakkes, og gjøre rede for egne opplevelser"}]'::jsonb, 8),
+  ('spansk-vg1', 'vg1', 'Spansk', 'FSP01-04', 'https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurdering/kv966', '[{"nr":1,"tekst":"lytte til og forstå tydelig tale om personlige og faglig relevante emner og aktuelle saker"},{"nr":2,"tekst":"samtale i en rekke dagligdagse situasjoner om kjente og faglig relevante emner"},{"nr":3,"tekst":"muntlig forklare faglig relevante emner, skildre opplevelser, hendelser og planer, og begrunne meninger, også spontant"},{"nr":4,"tekst":"lese og forstå ulike typer tekster, også autentiske, om personlige og faglig relevante emner og aktuelle saker"},{"nr":5,"tekst":"skrive ulike teksttyper om personlige og faglig relevante emner, og uttrykke og begrunne egne meninger, med og uten hjelpemidler"},{"nr":6,"tekst":"bruke grunnleggende språklige strukturer, regler for uttale og rettskriving og språkets offisielle alfabet eller tegn for å kommunisere på en situasjonstilpasset måte"},{"nr":7,"tekst":"bruke relevante lærings- og kommunikasjonsstrategier, digitale ressurser og erfaringer fra tidligere språklæring i læringsprosessen"},{"nr":8,"tekst":"utforske og gjøre rede for mangfold, samfunnsforhold og historiske hendelser i områder der språket snakkes, og se sammenhenger med egen bakgrunn"},{"nr":9,"tekst":"utforske og presentere kunstneriske og kulturelle uttrykk fra områder der språket snakkes, og gjøre rede for egne opplevelser"}]'::jsonb, 9),
+  ('kinesisk-vg1', 'vg1', 'Kinesisk', 'FSP01-04', 'https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurdering/kv965', '[{"nr":1,"tekst":"lytte til og forstå enkel og tydelig tale om personlige og dagligdagse emner"},{"nr":2,"tekst":"delta i enkle samtaler i dagligdagse situasjoner om aktiviteter og kjente emner"},{"nr":3,"tekst":"muntlig fortelle om dagligliv og opplevelser og uttrykke meninger, også spontant"},{"nr":4,"tekst":"lese og forstå tilpassede og enklere autentiske tekster om personlige og dagligdagse emner"},{"nr":5,"tekst":"skrive enkle tekster om dagligliv og opplevelser som forteller, beskriver og informerer, med og uten hjelpemidler"},{"nr":6,"tekst":"bruke enkle språklige strukturer, regler for uttale og rettskriving og språkets offisielle alfabet eller tegn for å kommunisere på en situasjonstilpasset måte"},{"nr":7,"tekst":"bruke relevante lærings- og kommunikasjonsstrategier, digitale ressurser og erfaringer fra tidligere språklæring i læringsprosessen"},{"nr":8,"tekst":"utforske og beskrive levemåter, tradisjoner og geografi i områder der språket snakkes, og se sammenhenger med egen bakgrunn"},{"nr":9,"tekst":"utforske og beskrive kunstneriske og kulturelle uttrykk fra områder der språket snakkes, og gi uttrykk for egne opplevelser"}]'::jsonb, 10),
   ('norsk-vg2', 'vg2', 'Norsk', null, null, '[]'::jsonb, 0),
   ('historie-vg2', 'vg2', 'Historie', null, null, '[]'::jsonb, 1),
   ('matematikk-2p', 'vg2', 'Matematikk 2P', null, null, '[]'::jsonb, 2),
@@ -21164,6 +21164,5897 @@ insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, ri
   ('matematikk-1t:modellering', 'm07', 'flervalg', 'Hva bør en presentasjon av en modell inneholde?', array['Bare svaret', 'Bare grafen', 'Premisser, modell, resultater og vurdering', 'Bare formelen']::text[], 2, 'Da kan andre vurdere hvor god modellen er.', false, true, 16);
 insert into public.miniprover (tema_id, minutter) values
   ('matematikk-1t:modellering', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Engelsk (vg1): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'engelsk-vg1' and slug not in ('english-as-a-world-language', 'academic-language', 'grammar-and-text-structure', 'discussion-and-pronunciation', 'writing-different-texts', 'analysing-fiction', 'sources-and-reliability', 'diversity-in-the-english-speaking-world', 'film-music-and-games');
+
+-- Engelsk: English as a world language
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('engelsk-vg1:english-as-a-world-language', 'engelsk-vg1', 'english-as-a-world-language', 'English as a world language', 'How English developed from Old English to a global language – the Anglo-Saxons, the Vikings, the Normans, Shakespeare and the British Empire – varieties of English today, and how English and Norwegian are related.', array[15, 7]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('engelsk-vg1:english-as-a-world-language', '## From Old English to Middle English
+
+**Old English** came to Britain with the **Anglo-Saxons** – Germanic tribes who settled there from around the fifth century. Old English looks very foreign to us today, but many basic words come from it: *house*, *water*, *eat*, *mother*.
+
+From the late eighth century, **Vikings** from Scandinavia raided and settled in England. Old Norse left many everyday words: *sky*, *egg*, *knife*, *window*, *take*, *get* and even the pronouns *they*, *them* and *their*. This is one reason why English and Norwegian have so much in common.
+
+In **1066**, the **Normans** from France conquered England. For centuries, the upper classes spoke French, and thousands of French words entered English – especially about law, government and food: *court*, *justice*, *government*, *beef*, *pork*. The language of this period (about 1100–1500) is called **Middle English**. **Geoffrey Chaucer** wrote *The Canterbury Tales* in Middle English in the late fourteenth century.
+
+## Early Modern English
+
+**William Caxton** brought the **printing press** to England in **1476**, which helped standardise spelling. **William Shakespeare** (1564–1616) invented or popularised many words and expressions still used today, and the **King James Bible** (1611) spread a common written language. **Samuel Johnson''s** dictionary (1755) and **Noah Webster''s** American dictionary (1828) shaped British and American spelling – which is why we have *colour* and *color*.
+
+## Why English became global
+
+- The **British Empire** spread English to North America, Australia, Africa, Asia and the Caribbean.
+- After the Second World War, the **USA** became the leading economic, political and cultural power.
+- **Film, music, science, business, aviation** and the **internet** use English as a shared language.
+
+Today, more than a billion people speak English, but most of them are **not native speakers**. English is a **lingua franca** – a common language between people with different first languages.
+
+## World Englishes
+
+The linguist **Braj Kachru** described three circles of English:
+
+- **Inner circle**: English is the main native language – the UK, the USA, Canada, Australia, New Zealand, Ireland.
+- **Outer circle**: English is an official or second language, often because of colonial history – India, Nigeria, Singapore.
+- **Expanding circle**: English is learned as a foreign language – Norway, China, Brazil.
+
+There is no single “correct” English. **Indian English**, **Nigerian English** and **Scottish English** are all varieties with their own vocabulary and pronunciation.
+
+## English and Norwegian
+
+English and Norwegian are both **Germanic languages**, so many words look alike: *hus – house*, *bok – book*, *vinter – winter*. This helps Norwegian learners, but watch out for **false friends** – words that look similar but mean something different:
+
+- *eventually* means «til slutt», not «eventuelt»
+- *actual* means «faktisk», not «aktuell»
+- *sensible* means «fornuftig», not «sensitiv»
+- *become* means «bli», not «bekomme»
+
+Using what you know about Norwegian and other languages you speak is a smart **learning strategy** – as long as you check the false friends.', '{"label":"English as a world language","children":[{"label":"Old English","children":[{"label":"Anglo-Saxons"},{"label":"Viking loanwords"}]},{"label":"Middle English","children":[{"label":"1066 Norman Conquest"},{"label":"French words"},{"label":"Chaucer"}]},{"label":"Modern English","children":[{"label":"Printing press 1476"},{"label":"Shakespeare"},{"label":"Dictionaries"}]},{"label":"Global English","children":[{"label":"British Empire"},{"label":"USA"},{"label":"Internet"},{"label":"Kachru''s circles"}]},{"label":"English and Norwegian","children":[{"label":"Germanic languages"},{"label":"Similar words"},{"label":"False friends"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'engelsk-vg1:english-as-a-world-language';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('engelsk-vg1:english-as-a-world-language', 'Old English', 'The language of the Anglo-Saxons, from around the fifth century.', 0),
+  ('engelsk-vg1:english-as-a-world-language', 'Anglo-Saxons', 'Germanic tribes who settled in Britain and brought Old English.', 1),
+  ('engelsk-vg1:english-as-a-world-language', 'Old Norse influence', 'Viking loanwords like sky, egg, window and they.', 2),
+  ('engelsk-vg1:english-as-a-world-language', '1066', 'The Norman Conquest, which brought many French words into English.', 3),
+  ('engelsk-vg1:english-as-a-world-language', 'Middle English', 'English from about 1100 to 1500, the language of Chaucer.', 4),
+  ('engelsk-vg1:english-as-a-world-language', 'William Caxton', 'Brought the printing press to England in 1476.', 5),
+  ('engelsk-vg1:english-as-a-world-language', 'Shakespeare', 'Playwright (1564–1616) who shaped many English words and expressions.', 6),
+  ('engelsk-vg1:english-as-a-world-language', 'Noah Webster', 'Wrote an American dictionary (1828) that shaped American spelling.', 7),
+  ('engelsk-vg1:english-as-a-world-language', 'Lingua franca', 'A common language between people with different first languages.', 8),
+  ('engelsk-vg1:english-as-a-world-language', 'Inner circle', 'Countries where English is the main native language.', 9),
+  ('engelsk-vg1:english-as-a-world-language', 'Outer circle', 'Countries where English is an official or second language, such as India.', 10),
+  ('engelsk-vg1:english-as-a-world-language', 'Expanding circle', 'Countries where English is learned as a foreign language, such as Norway.', 11),
+  ('engelsk-vg1:english-as-a-world-language', 'World Englishes', 'The many varieties of English spoken around the world.', 12),
+  ('engelsk-vg1:english-as-a-world-language', 'False friends', 'Words that look similar in two languages but mean different things.', 13),
+  ('engelsk-vg1:english-as-a-world-language', 'eventually', '«til slutt» – not «eventuelt».', 14);
+delete from public.quiz_sporsmal where tema_id = 'engelsk-vg1:english-as-a-world-language';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('engelsk-vg1:english-as-a-world-language', 'q01', 'flervalg', 'Who brought Old English to Britain?', array['The Vikings', 'The Anglo-Saxons', 'The Normans', 'The Romans']::text[], 1, 'Germanic tribes settled in Britain from around the fifth century.', true, true, 0),
+  ('engelsk-vg1:english-as-a-world-language', 'q02', 'flervalg', 'Which of these words came into English from Old Norse?', array['window', 'government', 'justice', 'beef']::text[], 0, 'Window comes from Old Norse vindauga. The others are French.', true, true, 1),
+  ('engelsk-vg1:english-as-a-world-language', 'q03', 'flervalg', 'What happened in 1066?', array['Shakespeare was born', 'The printing press came to England', 'The Normans conquered England', 'The Vikings left Britain']::text[], 2, 'The Norman Conquest brought thousands of French words into English.', true, true, 2),
+  ('engelsk-vg1:english-as-a-world-language', 'q04', 'flervalg', 'What is a lingua franca?', array['A French dialect', 'A dead language', 'A variety of American English', 'A common language between people with different first languages']::text[], 3, 'English is used as a lingua franca in business, science and travel.', true, true, 3),
+  ('engelsk-vg1:english-as-a-world-language', 'q05', 'flervalg', 'In Kachru''s model, which circle does Norway belong to?', array['The expanding circle', 'The inner circle', 'The outer circle', 'None of them']::text[], 0, 'In Norway, English is learned as a foreign language.', true, true, 4),
+  ('engelsk-vg1:english-as-a-world-language', 'q06', 'flervalg', 'Why do Americans write color and Britons colour?', array['Because of the Vikings', 'Because of Noah Webster''s American dictionary', 'Because of the Normans', 'Because of the internet']::text[], 1, 'Webster simplified many spellings in his dictionary from 1828.', true, true, 5),
+  ('engelsk-vg1:english-as-a-world-language', 'q07', 'flervalg', 'What does the English word eventually mean?', array['eventuelt', 'kanskje', 'til slutt', 'heldigvis']::text[], 2, 'Eventually is a false friend for Norwegian learners.', true, true, 6),
+  ('engelsk-vg1:english-as-a-world-language', 'q08', 'flervalg', 'Which is NOT a reason why English became a world language?', array['The British Empire', 'The power of the USA after the Second World War', 'The internet', 'English grammar being the easiest in the world']::text[], 3, 'Power, trade, culture and technology spread English – not its grammar.', true, true, 7),
+  ('engelsk-vg1:english-as-a-world-language', 'q09', 'flervalg', 'Which country is in the outer circle?', array['India', 'Australia', 'Norway', 'Brazil']::text[], 0, 'English is an official language in India because of colonial history.', true, false, 8),
+  ('engelsk-vg1:english-as-a-world-language', 'q10', 'flervalg', 'Who wrote The Canterbury Tales?', array['Shakespeare', 'Geoffrey Chaucer', 'Samuel Johnson', 'William Caxton']::text[], 1, 'Chaucer wrote it in Middle English in the late fourteenth century.', true, false, 9),
+  ('engelsk-vg1:english-as-a-world-language', 'm01', 'sant-usant', 'The pronoun they comes from Old Norse.', array['Sant', 'Usant']::text[], 0, 'It replaced the Old English form.', false, true, 10),
+  ('engelsk-vg1:english-as-a-world-language', 'm02', 'sant-usant', 'Most people who speak English today are native speakers.', array['Sant', 'Usant']::text[], 1, 'Most English speakers use it as a second or foreign language.', false, true, 11),
+  ('engelsk-vg1:english-as-a-world-language', 'm03', 'sant-usant', 'Nigerian English is a variety of English.', array['Sant', 'Usant']::text[], 0, 'There are many World Englishes.', false, true, 12),
+  ('engelsk-vg1:english-as-a-world-language', 'm04', 'sant-usant', 'The English word actual means «aktuell».', array['Sant', 'Usant']::text[], 1, 'Actual means «faktisk».', false, true, 13),
+  ('engelsk-vg1:english-as-a-world-language', 'm05', 'flervalg', 'Which word came into English from French after 1066?', array['egg', 'sky', 'court', 'they']::text[], 2, 'Many legal and political words are French.', false, true, 14),
+  ('engelsk-vg1:english-as-a-world-language', 'm06', 'flervalg', 'When did Caxton bring the printing press to England?', array['1476', '1066', '1611', '1755']::text[], 0, 'Printing helped standardise English spelling.', false, true, 15),
+  ('engelsk-vg1:english-as-a-world-language', 'm07', 'flervalg', 'What does the English word sensible mean?', array['sensitiv', 'fornuftig', 'følsom', 'sensasjonell']::text[], 1, 'Sensible is a false friend.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('engelsk-vg1:english-as-a-world-language', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Engelsk: Academic language and style
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('engelsk-vg1:academic-language', 'engelsk-vg1', 'academic-language', 'Academic language and style', 'The difference between formal and informal English, academic vocabulary, hedging, nominalisation, idiomatic expressions and varied sentence structures – and how to adapt your language to purpose, audience and situation.', array[4, 5]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('engelsk-vg1:academic-language', '## Register
+
+**Register** means the level of formality in language. We speak differently to a friend than in a job interview, and we write differently in a text message than in an essay.
+
+| Informal | Formal |
+| --- | --- |
+| a lot of | a great deal of, considerable |
+| get | obtain, receive |
+| find out | discover, determine |
+| kids | children |
+| really bad | severe, serious |
+| I think | It could be argued that |
+
+## Features of academic language
+
+**Academic language** is used in essays, reports and presentations at school and university. It is **precise**, **objective** and **formal**:
+
+- **No contractions**: *do not* instead of *don''t*, *it is* instead of *it''s*.
+- **No slang** or chatty expressions like *stuff*, *kind of* or *super*.
+- **Precise vocabulary**: *increase*, *decline*, *significant*, *consequence*, *factor*, *perspective*.
+- **Hedging**: Careful language that avoids claiming too much – *may*, *might*, *tends to*, *suggests*, *it is likely that*. Compare “Social media causes depression” with “Research suggests that heavy social media use may increase the risk of depression.”
+- **Nominalisation**: Turning verbs into nouns, which makes the text more compact: “The government decided …” → “The government''s decision …”.
+- The **passive voice** can make a text more objective: “The survey was conducted in 2024.”
+- **Signposting**: Phrases that guide the reader – *Firstly*, *In addition*, *However*, *As a result*, *In conclusion*.
+
+## Academic listening
+
+When you listen to lectures, podcasts or presentations, focus on **signposting**, **key terms** and **examples**. Take notes with **keywords**, not full sentences, and write down questions to follow up.
+
+## Nuance and precision
+
+To express yourself **nuanced and precisely**, choose words carefully:
+
+- *Many* / *most* / *some* / *a minority* instead of *everyone*
+- *Somewhat*, *considerably*, *slightly* to show degree
+- **Synonyms** to avoid repetition: *show* – *demonstrate* – *illustrate* – *indicate*
+
+## Idiomatic expressions
+
+**Idioms** are fixed expressions whose meaning is not obvious from the words: *the tip of the iceberg* (a small part of a bigger problem), *a double-edged sword* (something with both advantages and disadvantages), *to be on the same page* (to agree). Idioms make language natural and vivid, but many – like *at the end of the day* – are too informal for academic writing.
+
+## Varied sentence structures
+
+Vary your sentences to create **flow**:
+
+- **Simple**: Climate change is a global problem.
+- **Compound**: Climate change is a global problem, and it requires global solutions.
+- **Complex**: Although many countries have signed agreements, emissions continue to rise.
+- **Fronting**: *Despite* these efforts, … / *Not only* is it expensive, *but* it is also …
+
+## Adapting to the situation
+
+Always ask: **What is my purpose? Who is my audience? What is the situation?** A speech to classmates, a formal email to a company and a blog post all need different language.', '{"label":"Academic language","children":[{"label":"Register","children":[{"label":"Formal"},{"label":"Informal"},{"label":"Purpose and audience"}]},{"label":"Academic features","children":[{"label":"No contractions or slang"},{"label":"Precise vocabulary"},{"label":"Passive voice"}]},{"label":"Techniques","children":[{"label":"Hedging"},{"label":"Nominalisation"},{"label":"Signposting"}]},{"label":"Nuance","children":[{"label":"Degree words"},{"label":"Synonyms"},{"label":"Idioms"}]},{"label":"Sentences","children":[{"label":"Simple and compound"},{"label":"Complex"},{"label":"Fronting"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'engelsk-vg1:academic-language';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('engelsk-vg1:academic-language', 'Register', 'The level of formality in language.', 0),
+  ('engelsk-vg1:academic-language', 'Academic language', 'Precise, objective and formal language used in essays and reports.', 1),
+  ('engelsk-vg1:academic-language', 'Contraction', 'A shortened form like don''t or it''s – avoided in formal writing.', 2),
+  ('engelsk-vg1:academic-language', 'Hedging', 'Careful language that avoids claiming too much, like may or suggests.', 3),
+  ('engelsk-vg1:academic-language', 'Nominalisation', 'Turning verbs into nouns: decide → decision.', 4),
+  ('engelsk-vg1:academic-language', 'Passive voice', 'The survey was conducted – focuses on the action, not the person.', 5),
+  ('engelsk-vg1:academic-language', 'Signposting', 'Phrases that guide the reader, like Firstly or In conclusion.', 6),
+  ('engelsk-vg1:academic-language', 'obtain', 'Formal word for get.', 7),
+  ('engelsk-vg1:academic-language', 'considerable', 'Formal word for a lot of or large.', 8),
+  ('engelsk-vg1:academic-language', 'Idiom', 'A fixed expression whose meaning is not obvious from the words.', 9),
+  ('engelsk-vg1:academic-language', 'the tip of the iceberg', 'A small visible part of a much bigger problem.', 10),
+  ('engelsk-vg1:academic-language', 'a double-edged sword', 'Something with both advantages and disadvantages.', 11),
+  ('engelsk-vg1:academic-language', 'Complex sentence', 'A sentence with a main clause and a subordinate clause.', 12),
+  ('engelsk-vg1:academic-language', 'Fronting', 'Starting a sentence with a phrase for emphasis or variation.', 13),
+  ('engelsk-vg1:academic-language', 'Purpose, audience, situation', 'Three things that decide how you should write or speak.', 14);
+delete from public.quiz_sporsmal where tema_id = 'engelsk-vg1:academic-language';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('engelsk-vg1:academic-language', 'q01', 'flervalg', 'Which sentence is most suitable for an academic essay?', array['Kids use their phones way too much.', 'It could be argued that young people spend a considerable amount of time on their phones.', 'Honestly, phones are super bad.', 'I think phones are, like, a problem.']::text[], 1, 'The sentence uses formal vocabulary and hedging.', true, true, 0),
+  ('engelsk-vg1:academic-language', 'q02', 'flervalg', 'What is hedging?', array['Careful language that avoids claiming too much', 'Using many idioms', 'Writing in the passive voice', 'Repeating the same word']::text[], 0, 'Words like may, might and suggests are typical hedging.', true, true, 1),
+  ('engelsk-vg1:academic-language', 'q03', 'flervalg', 'Which is a nominalisation of “The school decided to ban phones”?', array['The school is deciding to ban phones.', 'Phones were banned by the school.', 'The school''s decision to ban phones', 'The school decides phones.']::text[], 2, 'The verb decided becomes the noun decision.', true, true, 2),
+  ('engelsk-vg1:academic-language', 'q04', 'flervalg', 'Which formal word can replace find out?', array['get', 'look', 'grab', 'discover']::text[], 3, 'Discover or determine are more formal.', true, true, 3),
+  ('engelsk-vg1:academic-language', 'q05', 'flervalg', 'Why should you avoid contractions in academic writing?', array['Because they are too informal', 'Because they are grammatically wrong', 'Because they make texts longer', 'Because they are American']::text[], 0, 'Contractions are fine in speech and informal writing.', true, true, 4),
+  ('engelsk-vg1:academic-language', 'q06', 'flervalg', 'What does “a double-edged sword” mean?', array['A dangerous weapon', 'Something with both advantages and disadvantages', 'A difficult decision', 'A strong argument']::text[], 1, 'It is an idiom used about things that can both help and harm.', true, true, 5),
+  ('engelsk-vg1:academic-language', 'q07', 'flervalg', 'Which sentence is a complex sentence?', array['Emissions are rising.', 'Emissions are rising, and temperatures are increasing.', 'Although many countries have signed agreements, emissions continue to rise.', 'Rising emissions.']::text[], 2, 'It has a subordinate clause starting with although.', true, true, 6),
+  ('engelsk-vg1:academic-language', 'q08', 'flervalg', 'Which phrase is an example of signposting?', array['stuff like that', 'kind of', 'you know', 'In conclusion']::text[], 3, 'Signposting guides the reader through the text.', true, true, 7),
+  ('engelsk-vg1:academic-language', 'q09', 'flervalg', 'What is register?', array['The level of formality in language', 'A list of students', 'A type of dictionary', 'The pronunciation of a word']::text[], 0, 'Choosing the right register depends on the situation.', true, false, 8),
+  ('engelsk-vg1:academic-language', 'q10', 'flervalg', 'Which sentence uses the passive voice?', array['We conducted the survey in 2024.', 'The survey was conducted in 2024.', 'They are conducting a survey.', 'Conduct the survey!']::text[], 1, 'The passive focuses on the action rather than who did it.', true, false, 9),
+  ('engelsk-vg1:academic-language', 'm01', 'sant-usant', 'Some idioms are too informal for academic writing.', array['Sant', 'Usant']::text[], 0, 'At the end of the day is one example.', false, true, 10),
+  ('engelsk-vg1:academic-language', 'm02', 'sant-usant', 'Academic language should use as much slang as possible.', array['Sant', 'Usant']::text[], 1, 'Academic language is formal and precise.', false, true, 11),
+  ('engelsk-vg1:academic-language', 'm03', 'sant-usant', 'Taking notes with keywords is a good strategy when listening to a lecture.', array['Sant', 'Usant']::text[], 0, 'Full sentences take too long to write.', false, true, 12),
+  ('engelsk-vg1:academic-language', 'm04', 'sant-usant', '“Everyone agrees” is usually more precise than “many experts agree”.', array['Sant', 'Usant']::text[], 1, 'Everyone is rarely true – many experts is more precise.', false, true, 13),
+  ('engelsk-vg1:academic-language', 'm05', 'flervalg', 'Which word is a synonym for show in academic writing?', array['demonstrate', 'grab', 'stuff', 'reckon']::text[], 0, 'Illustrate and indicate are other options.', false, true, 14),
+  ('engelsk-vg1:academic-language', 'm06', 'flervalg', 'What does “the tip of the iceberg” mean?', array['Something very cold', 'A small part of a much bigger problem', 'The best part of something', 'The end of a discussion']::text[], 1, 'Most of an iceberg is hidden under water.', false, true, 15),
+  ('engelsk-vg1:academic-language', 'm07', 'flervalg', 'Which sentence uses hedging?', array['Social media causes depression.', 'Social media is always harmful.', 'Research suggests that heavy social media use may affect mental health.', 'Everyone knows social media is bad.']::text[], 2, 'Suggests and may show caution.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('engelsk-vg1:academic-language', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Engelsk: Grammar and text structure
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('engelsk-vg1:grammar-and-text-structure', 'engelsk-vg1', 'grammar-and-text-structure', 'Grammar and text structure', 'Grammar points that Norwegian learners often get wrong – tenses, uncountable nouns, agreement, relative clauses, conditionals and adverbs – and how to build paragraphs and texts with good structure and cohesion.', array[8, 14]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('engelsk-vg1:grammar-and-text-structure', '## Present perfect or past simple?
+
+- **Past simple** is used for finished actions at a **specific time** in the past: *I **moved** to Oslo in 2020.*
+- **Present perfect** connects the past to **now**: *I **have lived** in Oslo **for** five years / **since** 2020.*
+
+Norwegian learners often write *“I have lived here since five years”*. Use **for** with a period of time and **since** with a point in time.
+
+## Uncountable nouns
+
+Some nouns are **uncountable** in English, even if they are countable in Norwegian: *information, advice, news, furniture, equipment, homework, knowledge, research*.
+
+- No plural -s: **information**, not *informations*
+- Use *much*, not *many*: **much** information
+- To count them, use *a piece of*: **a piece of** advice
+- *News* takes a singular verb: *The news **is** good.*
+
+*People*, on the other hand, is **plural**: *People **are** …*, and it is *many people*, not *much people*.
+
+## Subject–verb agreement
+
+- *Everybody / Nobody / Each student **is** …* (singular)
+- *The number of students **is** increasing.* but *A number of students **are** absent.*
+- Remember the third person -s: *She **works**, it **seems***.
+
+## Relative clauses
+
+- **Defining** relative clauses tell us *which* one and have **no commas**: *The students **who/that** passed the exam were happy.*
+- **Non-defining** relative clauses add extra information and have **commas**. Never use *that* here: *My brother, **who** lives in Bergen, is a doctor.*
+- Use **who** for people and **which** for things.
+
+## Conditionals
+
+- **First** (real possibility): *If it **rains**, I **will** stay home.*
+- **Second** (unreal or unlikely now): *If I **had** more money, I **would** travel.*
+- **Third** (unreal past): *If I **had studied**, I **would have passed**.*
+
+Never use *would* in the if-clause: write *If I **had** time*, not *If I would have time*.
+
+## Adjective or adverb?
+
+Adjectives describe nouns, adverbs describe verbs: *She is a **beautiful** singer. She sings **beautifully**.* Norwegian often uses the same form, so English learners tend to forget the **-ly**.
+
+## Commonly confused words
+
+*its* (possessive) / *it''s* (it is) · *their / there / they''re* · *then* (time) / *than* (comparison) · *affect* (verb) / *effect* (noun) · *lose* (miste) / *loose* (løs)
+
+## Paragraph structure
+
+A good paragraph has **one main idea**:
+
+1. **Topic sentence** – presents the main idea.
+2. **Supporting sentences** – explanation, evidence, examples.
+3. **Concluding or linking sentence** – sums up or leads to the next paragraph.
+
+## Cohesion
+
+**Cohesion** makes a text hang together. Use **pronouns** that refer back, **synonyms**, and **linking words**: *however, therefore, furthermore, in contrast, as a result, for instance*. Avoid starting every sentence the same way.
+
+## Revising your text
+
+When you revise, check **content** (is the argument clear?), **structure** (logical order, clear paragraphs) and **language** (grammar, vocabulary, spelling). Read your text aloud, and keep a list of your own typical mistakes.', '{"label":"Grammar and text structure","children":[{"label":"Verbs","children":[{"label":"Past simple vs. present perfect"},{"label":"for and since"},{"label":"Conditionals"}]},{"label":"Nouns","children":[{"label":"Uncountable nouns"},{"label":"people is plural"},{"label":"Agreement"}]},{"label":"Clauses","children":[{"label":"Defining"},{"label":"Non-defining with commas"},{"label":"who and which"}]},{"label":"Word choice","children":[{"label":"Adjective vs. adverb"},{"label":"its / it''s"},{"label":"then / than"}]},{"label":"Structure","children":[{"label":"Topic sentence"},{"label":"Cohesion"},{"label":"Revising"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'engelsk-vg1:grammar-and-text-structure';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('engelsk-vg1:grammar-and-text-structure', 'Past simple', 'Finished action at a specific past time: I moved in 2020.', 0),
+  ('engelsk-vg1:grammar-and-text-structure', 'Present perfect', 'Connects the past to now: I have lived here since 2020.', 1),
+  ('engelsk-vg1:grammar-and-text-structure', 'for vs. since', 'for + period (for five years), since + point in time (since 2020).', 2),
+  ('engelsk-vg1:grammar-and-text-structure', 'Uncountable nouns', 'information, advice, news, furniture, equipment – no plural -s.', 3),
+  ('engelsk-vg1:grammar-and-text-structure', 'a piece of advice', 'How to count an uncountable noun.', 4),
+  ('engelsk-vg1:grammar-and-text-structure', 'people', 'A plural noun: people are, many people.', 5),
+  ('engelsk-vg1:grammar-and-text-structure', 'The number of … is', 'Singular verb – the number itself.', 6),
+  ('engelsk-vg1:grammar-and-text-structure', 'A number of … are', 'Plural verb – meaning several.', 7),
+  ('engelsk-vg1:grammar-and-text-structure', 'Defining relative clause', 'Tells which one; no commas; who, which or that.', 8),
+  ('engelsk-vg1:grammar-and-text-structure', 'Non-defining relative clause', 'Extra information; commas; never that.', 9),
+  ('engelsk-vg1:grammar-and-text-structure', 'Second conditional', 'If I had more money, I would travel.', 10),
+  ('engelsk-vg1:grammar-and-text-structure', 'Third conditional', 'If I had studied, I would have passed.', 11),
+  ('engelsk-vg1:grammar-and-text-structure', 'Adverb with -ly', 'Describes a verb: she sings beautifully.', 12),
+  ('engelsk-vg1:grammar-and-text-structure', 'Topic sentence', 'The sentence that presents the main idea of a paragraph.', 13),
+  ('engelsk-vg1:grammar-and-text-structure', 'Cohesion', 'What makes sentences and paragraphs hang together.', 14);
+delete from public.quiz_sporsmal where tema_id = 'engelsk-vg1:grammar-and-text-structure';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('engelsk-vg1:grammar-and-text-structure', 'q01', 'flervalg', 'Which sentence is correct?', array['I have lived here since five years.', 'I have lived here for five years.', 'I live here since five years.', 'I lived here since five years.']::text[], 1, 'Use for with a period of time and the present perfect for something that continues now.', true, true, 0),
+  ('engelsk-vg1:grammar-and-text-structure', 'q02', 'flervalg', 'Which sentence is correct?', array['She gave me some good advice.', 'She gave me some good advices.', 'She gave me a good advices.', 'She gave me many good advice.']::text[], 0, 'Advice is uncountable.', true, true, 1),
+  ('engelsk-vg1:grammar-and-text-structure', 'q03', 'flervalg', 'Choose the correct verb: The news ___ surprising.', array['are', 'were', 'is', 'have been']::text[], 2, 'News is uncountable and takes a singular verb.', true, true, 2),
+  ('engelsk-vg1:grammar-and-text-structure', 'q04', 'flervalg', 'Which sentence has correct punctuation?', array['My sister who lives in Bergen, is a nurse.', 'My sister, that lives in Bergen, is a nurse.', 'My sister, who lives in Bergen is a nurse.', 'My sister, who lives in Bergen, is a nurse.']::text[], 3, 'A non-defining relative clause needs commas on both sides and cannot use that.', true, true, 3),
+  ('engelsk-vg1:grammar-and-text-structure', 'q05', 'flervalg', 'Which sentence is correct?', array['If I had more time, I would learn Spanish.', 'If I would have more time, I would learn Spanish.', 'If I have more time, I would learn Spanish.', 'If I had more time, I will learn Spanish.']::text[], 0, 'Second conditional: if + past simple, would + infinitive.', true, true, 4),
+  ('engelsk-vg1:grammar-and-text-structure', 'q06', 'flervalg', 'Choose the correct word: He drives very ___.', array['careful', 'carefully', 'carefuller', 'care']::text[], 1, 'An adverb describes the verb drives.', true, true, 5),
+  ('engelsk-vg1:grammar-and-text-structure', 'q07', 'flervalg', 'What is a topic sentence?', array['The last sentence in a text', 'A quotation', 'The sentence that presents the main idea of a paragraph', 'The title']::text[], 2, 'It usually comes first in the paragraph.', true, true, 6),
+  ('engelsk-vg1:grammar-and-text-structure', 'q08', 'flervalg', 'Choose the correct word: The dog wagged ___ tail.', array['it''s', 'its''', 'it', 'its']::text[], 3, 'Its is possessive. It''s means it is.', true, true, 7),
+  ('engelsk-vg1:grammar-and-text-structure', 'q09', 'flervalg', 'Choose the correct verb: A number of students ___ absent today.', array['are', 'is', 'was', 'has been']::text[], 0, 'A number of means several, so the verb is plural.', true, false, 8),
+  ('engelsk-vg1:grammar-and-text-structure', 'q10', 'flervalg', 'Which word is best for showing a contrast?', array['Furthermore', 'However', 'For instance', 'Therefore']::text[], 1, 'However signals a contrast. Therefore shows a result.', true, false, 9),
+  ('engelsk-vg1:grammar-and-text-structure', 'm01', 'sant-usant', 'Information is an uncountable noun in English.', array['Sant', 'Usant']::text[], 0, 'We say much information, not informations.', false, true, 10),
+  ('engelsk-vg1:grammar-and-text-structure', 'm02', 'sant-usant', 'That can be used in non-defining relative clauses.', array['Sant', 'Usant']::text[], 1, 'Non-defining clauses use who or which.', false, true, 11),
+  ('engelsk-vg1:grammar-and-text-structure', 'm03', 'sant-usant', 'A good paragraph usually has one main idea.', array['Sant', 'Usant']::text[], 0, 'The topic sentence presents it.', false, true, 12),
+  ('engelsk-vg1:grammar-and-text-structure', 'm04', 'sant-usant', 'We use would in the if-clause of a second conditional.', array['Sant', 'Usant']::text[], 1, 'The if-clause uses the past simple.', false, true, 13),
+  ('engelsk-vg1:grammar-and-text-structure', 'm05', 'flervalg', 'Choose the correct word: She is taller ___ her brother.', array['then', 'than', 'that', 'as']::text[], 1, 'Than is used in comparisons.', false, true, 14),
+  ('engelsk-vg1:grammar-and-text-structure', 'm06', 'flervalg', 'Which sentence is in the third conditional?', array['If I had studied, I would have passed.', 'If I study, I will pass.', 'If I studied, I would pass.', 'If you heat ice, it melts.']::text[], 0, 'The third conditional is about an unreal past.', false, true, 15),
+  ('engelsk-vg1:grammar-and-text-structure', 'm07', 'flervalg', 'Choose the correct word: Too much screen time can ___ your sleep.', array['effect', 'effects', 'affect', 'affection']::text[], 2, 'Affect is the verb, effect the noun.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('engelsk-vg1:grammar-and-text-structure', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Engelsk: Discussions, presentations and pronunciation
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('engelsk-vg1:discussion-and-pronunciation', 'engelsk-vg1', 'discussion-and-pronunciation', 'Discussions, presentations and pronunciation', 'How to take part in discussions by summarising and building on others'' arguments, useful phrases, communication strategies when you lack a word, and pronunciation patterns that Norwegian speakers should practise.', array[6, 3, 1]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('engelsk-vg1:discussion-and-pronunciation', '## Good discussions
+
+A good discussion is not about winning, but about **exploring an issue together**. You should be able to **account for other people''s arguments**, **respond** to them and **build on** what others say.
+
+## Useful phrases
+
+**Summarising others**
+- *If I understand you correctly, you''re saying that …*
+- *As Sara pointed out, …*
+- *So your main argument is that …*
+
+**Building on others**
+- *I''d like to add to what Jonas said …*
+- *That''s a good point, and it also shows that …*
+
+**Agreeing and disagreeing politely**
+- *I completely agree, because …*
+- *I see your point, but …*
+- *That''s a fair point; however, …*
+- *I''m not sure I agree. Have you considered …?*
+
+**Asking for clarification**
+- *Could you elaborate on that?*
+- *What do you mean by …?*
+
+**Moving the discussion on**
+- *Let''s look at this from another angle.*
+- *Shall we move on to …?*
+
+## Communication strategies
+
+Everyone lacks words sometimes. Instead of stopping, use **strategies**:
+
+- **Paraphrase** – say it in other words: *the thing you use to open bottles*.
+- Use a **general word**: *a kind of tool*, *a sort of bird*.
+- Use **fillers** to gain time: *Well …*, *Let me think …*, *How can I put it …*
+- **Ask**: *What''s the word for …?*
+- **Check understanding**: *Does that make sense?*
+
+## Presentations
+
+A good oral presentation has a clear **structure** (introduction, main part, conclusion), uses **signposting** (*First, I will …; Now let''s turn to …*) and is delivered from **keywords**, not a manuscript. Keep **eye contact**, vary your voice and use visual aids that **support** – not repeat – what you say.
+
+## Pronunciation patterns
+
+Clear pronunciation makes you easier to understand. Sounds and patterns that are often difficult for Norwegian speakers:
+
+- **th** – /θ/ as in *think* and /ð/ as in *this*. Put your tongue between your teeth.
+- **v and w** – *very well*, *vine – wine*. For w, round your lips without touching your teeth.
+- **z sound** – *is*, *was*, *zoo*, *easy* are pronounced with a buzzing /z/, not /s/.
+- **Silent letters** – *knife*, *write*, *island*, *Wednesday*, *climb*.
+- **-ed endings** – /t/ in *worked*, /d/ in *played* and /ɪd/ in *wanted*.
+- **Word stress** – *PHOtograph*, *phoTOgrapher*, *photoGRAPHic*. Wrong stress can make words hard to recognise.
+- **Schwa** /ə/ – the most common vowel sound in English, found in unstressed syllables: *about*, *banana*, *teacher*.
+- **Intonation** – the voice usually rises in yes/no questions (*Are you coming?*) and falls in statements.
+
+## Learning strategies
+
+Listen to podcasts, series and news in English, **shadow** (repeat right after a speaker), record yourself and compare, and use online dictionaries that play the pronunciation.', '{"label":"Discussions and pronunciation","children":[{"label":"Discussion","children":[{"label":"Summarise others"},{"label":"Build on others"},{"label":"Disagree politely"},{"label":"Ask for clarification"}]},{"label":"Strategies","children":[{"label":"Paraphrase"},{"label":"Fillers"},{"label":"Check understanding"}]},{"label":"Presentations","children":[{"label":"Structure"},{"label":"Signposting"},{"label":"Keywords"}]},{"label":"Sounds","children":[{"label":"th"},{"label":"v and w"},{"label":"z"},{"label":"Silent letters"}]},{"label":"Patterns","children":[{"label":"-ed endings"},{"label":"Word stress"},{"label":"Schwa"},{"label":"Intonation"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'engelsk-vg1:discussion-and-pronunciation';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('engelsk-vg1:discussion-and-pronunciation', 'If I understand you correctly, …', 'Phrase for summarising someone else''s argument.', 0),
+  ('engelsk-vg1:discussion-and-pronunciation', 'I''d like to add to what … said', 'Phrase for building on someone else''s point.', 1),
+  ('engelsk-vg1:discussion-and-pronunciation', 'I see your point, but …', 'Phrase for disagreeing politely.', 2),
+  ('engelsk-vg1:discussion-and-pronunciation', 'Could you elaborate on that?', 'Phrase for asking for more explanation.', 3),
+  ('engelsk-vg1:discussion-and-pronunciation', 'Paraphrase', 'Saying something in other words when you lack a word.', 4),
+  ('engelsk-vg1:discussion-and-pronunciation', 'Filler', 'Words like well or let me think that give you time.', 5),
+  ('engelsk-vg1:discussion-and-pronunciation', 'Signposting in presentations', 'Phrases like First, I will … that guide the audience.', 6),
+  ('engelsk-vg1:discussion-and-pronunciation', 'th sounds', '/θ/ in think and /ð/ in this – tongue between the teeth.', 7),
+  ('engelsk-vg1:discussion-and-pronunciation', 'v and w', 'very well – w is made with rounded lips.', 8),
+  ('engelsk-vg1:discussion-and-pronunciation', 'z sound', 'is, was, zoo – a buzzing sound, not /s/.', 9),
+  ('engelsk-vg1:discussion-and-pronunciation', 'Silent letters', 'Letters that are not pronounced, as in knife and island.', 10),
+  ('engelsk-vg1:discussion-and-pronunciation', '-ed endings', '/t/ in worked, /d/ in played, /ɪd/ in wanted.', 11),
+  ('engelsk-vg1:discussion-and-pronunciation', 'Word stress', 'Which syllable is strongest: PHOtograph, phoTOgrapher.', 12),
+  ('engelsk-vg1:discussion-and-pronunciation', 'Schwa /ə/', 'The most common vowel sound in English, in unstressed syllables.', 13),
+  ('engelsk-vg1:discussion-and-pronunciation', 'Shadowing', 'Repeating right after a speaker to practise pronunciation.', 14);
+delete from public.quiz_sporsmal where tema_id = 'engelsk-vg1:discussion-and-pronunciation';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('engelsk-vg1:discussion-and-pronunciation', 'q01', 'flervalg', 'Which phrase is best for summarising someone else''s argument?', array['You''re wrong.', 'If I understand you correctly, you''re saying that …', 'Let''s change the subject.', 'Whatever.']::text[], 1, 'Summarising shows that you have listened.', true, true, 0),
+  ('engelsk-vg1:discussion-and-pronunciation', 'q02', 'flervalg', 'What is a good strategy if you do not know a word in a discussion?', array['Paraphrase – say it in other words', 'Stop talking', 'Switch to Norwegian', 'Change the subject']::text[], 0, 'For example: the thing you use to open bottles.', true, true, 1),
+  ('engelsk-vg1:discussion-and-pronunciation', 'q03', 'flervalg', 'Which phrase is a polite way to disagree?', array['That''s stupid.', 'No way.', 'I see your point, but …', 'You don''t know anything.']::text[], 2, 'It acknowledges the other person before disagreeing.', true, true, 2),
+  ('engelsk-vg1:discussion-and-pronunciation', 'q04', 'flervalg', 'How is the -ed ending pronounced in wanted?', array['/t/', '/d/', 'It is silent', '/ɪd/']::text[], 3, 'After t and d, -ed is pronounced /ɪd/.', true, true, 3),
+  ('engelsk-vg1:discussion-and-pronunciation', 'q05', 'flervalg', 'Which word has a silent letter?', array['knife', 'cat', 'stop', 'bring']::text[], 0, 'The k in knife is not pronounced.', true, true, 4),
+  ('engelsk-vg1:discussion-and-pronunciation', 'q06', 'flervalg', 'Where is the stress in photographer?', array['PHO-to-gra-pher', 'pho-TO-gra-pher', 'pho-to-GRA-pher', 'pho-to-gra-PHER']::text[], 1, 'Word stress changes between photograph, photographer and photographic.', true, true, 5),
+  ('engelsk-vg1:discussion-and-pronunciation', 'q07', 'flervalg', 'What is the schwa?', array['A type of consonant', 'A stressed vowel', 'The most common vowel sound in English, found in unstressed syllables', 'A British accent']::text[], 2, 'It is the first sound in about.', true, true, 6),
+  ('engelsk-vg1:discussion-and-pronunciation', 'q08', 'flervalg', 'Which sound is often pronounced wrongly as /s/ by Norwegian speakers?', array['The th in think', 'The w in well', 'The k in knife', 'The z sound in is and was']::text[], 3, 'Is and was end with a buzzing /z/.', true, true, 7),
+  ('engelsk-vg1:discussion-and-pronunciation', 'q09', 'flervalg', 'How does the voice usually move in a yes/no question?', array['It rises at the end', 'It falls at the end', 'It stays flat', 'It gets louder']::text[], 0, 'Are you coming? – rising intonation.', true, false, 8),
+  ('engelsk-vg1:discussion-and-pronunciation', 'q10', 'flervalg', 'What should visual aids in a presentation do?', array['Repeat everything you say', 'Support what you say', 'Replace your talk', 'Contain as much text as possible']::text[], 1, 'The audience should listen to you, not read slides.', true, false, 9),
+  ('engelsk-vg1:discussion-and-pronunciation', 'm01', 'sant-usant', 'The -ed ending in played is pronounced /d/.', array['Sant', 'Usant']::text[], 0, 'After voiced sounds, -ed is pronounced /d/.', false, true, 10),
+  ('engelsk-vg1:discussion-and-pronunciation', 'm02', 'sant-usant', 'A good discussion is mainly about winning the argument.', array['Sant', 'Usant']::text[], 1, 'It is about exploring an issue together.', false, true, 11),
+  ('engelsk-vg1:discussion-and-pronunciation', 'm03', 'sant-usant', 'Fillers like well and let me think can give you time to find words.', array['Sant', 'Usant']::text[], 0, 'They are natural in spoken English.', false, true, 12),
+  ('engelsk-vg1:discussion-and-pronunciation', 'm04', 'sant-usant', 'The s in island is pronounced.', array['Sant', 'Usant']::text[], 1, 'The s in island is silent: /ˈaɪlənd/.', false, true, 13),
+  ('engelsk-vg1:discussion-and-pronunciation', 'm05', 'flervalg', 'Which phrase is used to build on someone else''s point?', array['That''s wrong.', 'Let''s move on.', 'I''d like to add to what Jonas said.', 'What do you mean?']::text[], 2, 'Building on others moves the discussion forward.', false, true, 14),
+  ('engelsk-vg1:discussion-and-pronunciation', 'm06', 'flervalg', 'How do you make the th sound in think?', array['Put your tongue between your teeth', 'Close your lips', 'Touch your teeth with your lower lip', 'Keep your mouth closed']::text[], 0, 'Norwegian speakers often replace it with t or f.', false, true, 15),
+  ('engelsk-vg1:discussion-and-pronunciation', 'm07', 'flervalg', 'Which word has the stress on the second syllable?', array['TAble', 'baNAna', 'YELlow', 'HAPpy']::text[], 1, 'ba-NA-na. The first and last syllables have a schwa.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('engelsk-vg1:discussion-and-pronunciation', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Engelsk: Writing different types of texts
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('engelsk-vg1:writing-different-texts', 'engelsk-vg1', 'writing-different-texts', 'Writing different types of texts', 'How to write formal and informal texts that describe, discuss, argue and reflect – essays, articles, formal emails, reports, blog posts and multimodal texts – and how to plan, revise and use digital tools wisely.', array[13, 14, 1, 2]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('engelsk-vg1:writing-different-texts', '## Purpose, audience and situation
+
+Before you write, ask three questions:
+
+- **Purpose**: Do you want to **describe**, **discuss**, **argue**, **explain** or **reflect**?
+- **Audience**: Who will read it – a teacher, a company, teenagers, the general public?
+- **Situation**: Is it an exam, a newspaper, a blog or an email?
+
+The answers decide the **text type**, the **structure** and the **register**.
+
+## Common text types
+
+- **Argumentative essay**: Takes a clear position in a **thesis statement** and supports it with arguments, evidence and a counterargument.
+- **Discussion essay** (for and against): Presents **both sides** fairly before reaching a balanced conclusion.
+- **Reflective text**: Explores your own thoughts and experiences and connects them to broader ideas. *I* is natural here, but the text should still be well structured.
+- **Article**: Has a catchy **headline**, an engaging **introduction** (a lead) and often **subheadings**. The style depends on the publication.
+- **Formal email or letter**: Clear subject line, polite greeting and closing. In British English, *Dear Sir or Madam* is followed by *Yours faithfully*, while *Dear Ms Smith* is followed by *Yours sincerely*.
+- **Report**: Objective, with **headings** such as *Introduction, Findings, Recommendations*.
+- **Blog post**: Informal and personal, often with a direct address to the reader.
+- **Speech**: Written to be heard – with rhetorical questions, repetition and a strong ending.
+
+## Multimodal texts
+
+A **multimodal text** combines several modes – writing, images, sound, video, layout. Examples are posters, websites, presentations and podcasts with visuals. Each element should **support the message**. Think about how text and image work together, and remember to credit images you have not made yourself.
+
+## The writing process
+
+1. **Plan**: Brainstorm, research and make an **outline**.
+2. **Draft**: Get your ideas down.
+3. **Revise**: Improve content, structure and argumentation – use the **assessment criteria**.
+4. **Edit and proofread**: Correct grammar, spelling and punctuation.
+
+When you get **feedback**, make a plan: What will you change, and how? Keep a list of your **typical mistakes** and check for them every time.
+
+## Digital tools
+
+- **Online dictionaries** (for example Cambridge or Merriam-Webster) give meaning, examples and pronunciation.
+- A **thesaurus** helps you find synonyms – but check that the word fits the context.
+- **Spell checkers** catch typos but not all mistakes, such as *there/their*.
+- **AI tools** can give ideas and feedback, but they can be wrong, and you must follow your school''s rules. The text you hand in should show **your** understanding and skills.
+
+## A good text
+
+A strong text has a **clear main idea**, a **logical structure**, **relevant content** with examples, **varied and precise language** and a register that fits the situation.', '{"label":"Writing different texts","children":[{"label":"Before writing","children":[{"label":"Purpose"},{"label":"Audience"},{"label":"Situation"}]},{"label":"Text types","children":[{"label":"Essays"},{"label":"Article"},{"label":"Formal email"},{"label":"Report and blog"}]},{"label":"Multimodal","children":[{"label":"Text and images"},{"label":"Sound and video"},{"label":"Credit sources"}]},{"label":"Process","children":[{"label":"Plan"},{"label":"Draft"},{"label":"Revise"},{"label":"Proofread"}]},{"label":"Digital tools","children":[{"label":"Dictionaries"},{"label":"Thesaurus"},{"label":"Spell checker"},{"label":"AI with care"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'engelsk-vg1:writing-different-texts';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('engelsk-vg1:writing-different-texts', 'Purpose', 'What the text should do: describe, discuss, argue, explain or reflect.', 0),
+  ('engelsk-vg1:writing-different-texts', 'Audience', 'The people who will read the text.', 1),
+  ('engelsk-vg1:writing-different-texts', 'Argumentative essay', 'Takes a clear position and supports it with arguments.', 2),
+  ('engelsk-vg1:writing-different-texts', 'Discussion essay', 'Presents both sides fairly before a balanced conclusion.', 3),
+  ('engelsk-vg1:writing-different-texts', 'Reflective text', 'Explores your own thoughts and connects them to broader ideas.', 4),
+  ('engelsk-vg1:writing-different-texts', 'Lead', 'The engaging introduction to an article.', 5),
+  ('engelsk-vg1:writing-different-texts', 'Yours faithfully', 'British closing after Dear Sir or Madam.', 6),
+  ('engelsk-vg1:writing-different-texts', 'Yours sincerely', 'British closing after a greeting with the person''s name.', 7),
+  ('engelsk-vg1:writing-different-texts', 'Report', 'Objective text with headings such as Findings and Recommendations.', 8),
+  ('engelsk-vg1:writing-different-texts', 'Multimodal text', 'A text that combines writing, images, sound or video.', 9),
+  ('engelsk-vg1:writing-different-texts', 'Outline', 'A plan for the structure of a text.', 10),
+  ('engelsk-vg1:writing-different-texts', 'Revise', 'Improve content, structure and argumentation.', 11),
+  ('engelsk-vg1:writing-different-texts', 'Proofread', 'Check grammar, spelling and punctuation.', 12),
+  ('engelsk-vg1:writing-different-texts', 'Thesaurus', 'A dictionary of synonyms.', 13),
+  ('engelsk-vg1:writing-different-texts', 'Assessment criteria', 'Descriptions of what a good text should contain.', 14);
+delete from public.quiz_sporsmal where tema_id = 'engelsk-vg1:writing-different-texts';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('engelsk-vg1:writing-different-texts', 'q01', 'flervalg', 'Which three questions should you ask before you start writing?', array['How long, how fast and how hard?', 'What is my purpose, who is my audience and what is the situation?', 'Which font, which colour and which size?', 'Who, when and where?']::text[], 1, 'The answers decide text type, structure and register.', true, true, 0),
+  ('engelsk-vg1:writing-different-texts', 'q02', 'flervalg', 'Which text type presents both sides fairly before reaching a balanced conclusion?', array['A discussion essay', 'An argumentative essay', 'A blog post', 'A speech']::text[], 0, 'An argumentative essay takes one clear position.', true, true, 1),
+  ('engelsk-vg1:writing-different-texts', 'q03', 'flervalg', 'Which closing follows Dear Sir or Madam in British English?', array['Yours sincerely', 'Cheers', 'Yours faithfully', 'Love']::text[], 2, 'Yours sincerely is used when you know the person''s name.', true, true, 2),
+  ('engelsk-vg1:writing-different-texts', 'q04', 'flervalg', 'What is a multimodal text?', array['A text in several languages', 'A very long text', 'A text with many paragraphs', 'A text that combines writing, images, sound or video']::text[], 3, 'Posters, websites and podcasts with visuals are examples.', true, true, 3),
+  ('engelsk-vg1:writing-different-texts', 'q05', 'flervalg', 'What should you focus on when you revise a text?', array['Content, structure and argumentation', 'Only the font', 'Only the title', 'Only the word count']::text[], 0, 'Proofreading for small errors comes afterwards.', true, true, 4),
+  ('engelsk-vg1:writing-different-texts', 'q06', 'flervalg', 'What is a typical feature of a report?', array['Rhymes', 'Headings such as Introduction, Findings and Recommendations', 'Slang', 'A personal diary style']::text[], 1, 'Reports are objective and well organised.', true, true, 5),
+  ('engelsk-vg1:writing-different-texts', 'q07', 'flervalg', 'Why can you not rely only on a spell checker?', array['It is always wrong', 'It is too slow', 'It does not catch all mistakes, such as there and their', 'It changes the language']::text[], 2, 'Both there and their are correctly spelled words.', true, true, 6),
+  ('engelsk-vg1:writing-different-texts', 'q08', 'flervalg', 'What is important when using AI tools for writing?', array['Copying the text directly', 'Never checking the output', 'Using them to write the whole text', 'Following the school''s rules and checking the output']::text[], 3, 'AI can be wrong, and your text should show your own skills.', true, true, 7),
+  ('engelsk-vg1:writing-different-texts', 'q09', 'flervalg', 'What is a lead in an article?', array['An engaging introduction', 'The list of sources', 'The last sentence', 'The picture caption']::text[], 0, 'The lead should make the reader want to continue.', true, false, 8),
+  ('engelsk-vg1:writing-different-texts', 'q10', 'flervalg', 'What is an outline?', array['A finished text', 'A plan for the structure of a text', 'A summary written afterwards', 'A type of dictionary']::text[], 1, 'An outline makes the writing process easier.', true, false, 9),
+  ('engelsk-vg1:writing-different-texts', 'm01', 'sant-usant', 'Using I is natural in a reflective text.', array['Sant', 'Usant']::text[], 0, 'Reflective texts explore your own thoughts.', false, true, 10),
+  ('engelsk-vg1:writing-different-texts', 'm02', 'sant-usant', 'All text types should use the same register.', array['Sant', 'Usant']::text[], 1, 'The register depends on purpose, audience and situation.', false, true, 11),
+  ('engelsk-vg1:writing-different-texts', 'm03', 'sant-usant', 'Images in a multimodal text should support the message.', array['Sant', 'Usant']::text[], 0, 'Each element should work together with the others.', false, true, 12),
+  ('engelsk-vg1:writing-different-texts', 'm04', 'sant-usant', 'A thesaurus always gives words that fit every context.', array['Sant', 'Usant']::text[], 1, 'Synonyms often have different nuances.', false, true, 13),
+  ('engelsk-vg1:writing-different-texts', 'm05', 'flervalg', 'Which closing follows Dear Ms Smith in British English?', array['Yours faithfully', 'Yours sincerely', 'See you', 'Regards, mate']::text[], 1, 'Use Yours sincerely when you know the name.', false, true, 14),
+  ('engelsk-vg1:writing-different-texts', 'm06', 'flervalg', 'Which text type is written to be heard?', array['A report', 'A formal email', 'A speech', 'A reference list']::text[], 2, 'Speeches use repetition and rhetorical questions.', false, true, 15),
+  ('engelsk-vg1:writing-different-texts', 'm07', 'flervalg', 'What is a good way to use feedback on your text?', array['Make a plan for what to change and keep a list of typical mistakes', 'Ignore it', 'Delete the text and start over', 'Only fix the spelling']::text[], 0, 'This helps you improve over time.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('engelsk-vg1:writing-different-texts', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Engelsk: Reading and analysing fiction
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('engelsk-vg1:analysing-fiction', 'engelsk-vg1', 'analysing-fiction', 'Reading and analysing fiction', 'How to read, analyse and interpret English-language fiction – short stories, novels and poems – with key terms like narrator, characterisation, setting, theme, symbolism, irony and foreshadowing, and how to write a literary analysis.', array[10, 9]::int[], 5, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('engelsk-vg1:analysing-fiction', '## Why analyse fiction?
+
+Analysing fiction means looking closely at **how** a text creates meaning – not just **what** happens. It helps you understand other people, cultures and periods, and it trains you to read critically.
+
+## Key terms
+
+- **Plot**: the sequence of events – exposition, rising action, **climax**, falling action and resolution. Many short stories have an **open ending**.
+- **Setting**: time and place, and the mood they create.
+- **Characterisation**: how characters are presented. **Direct** characterisation tells us what a person is like. **Indirect** characterisation shows it through actions, speech, thoughts and other people''s reactions. A **round** character is complex; a **flat** character has few traits. A **dynamic** character changes; a **static** character does not.
+- **Conflict**: internal (within a character) or external (with other people, society or nature).
+- **Narrator and point of view**: A **first-person narrator** uses *I*. A **third-person narrator** can be **omniscient** (knows everything) or **limited** (follows one character). An **unreliable narrator** cannot be fully trusted.
+- **Theme**: the underlying idea, such as *prejudice*, *identity* or *power*.
+- **Symbol**: something concrete that stands for an idea, such as a storm representing inner turmoil.
+- **Irony**: a contrast between what is said or expected and what really happens. In **dramatic irony**, the reader knows something the characters do not.
+- **Foreshadowing**: hints about what will happen later.
+- **Language and style**: imagery, metaphors, dialogue, sentence length, tone.
+
+## Examples
+
+- In Shirley Jackson''s short story **“The Lottery”** (1948), a peaceful village setting and a harmless-sounding title build up to a shocking ending. The story raises questions about **tradition**, **conformity** and **violence**.
+- In Roald Dahl''s **“Lamb to the Slaughter”** (1953), **dramatic irony** and dark humour dominate: the reader knows what happened to the murder weapon, but the police do not.
+- Angie Thomas''s novel ***The Hate U Give*** (2017) uses a **first-person narrator**, Starr, who moves between two worlds after witnessing a police shooting. It explores **racism**, **identity** and **finding your voice**.
+
+## Poetry
+
+In poems, look at the **speaker**, **imagery**, **rhythm**, **rhyme**, **line breaks**, **stanzas** and **sound devices** like alliteration. Ask: What mood is created? What is left unsaid?
+
+## Writing a literary analysis
+
+1. **Introduction**: Title, author, year, genre, a brief summary and your **main claim** (interpretation).
+2. **Body paragraphs**: Each paragraph discusses one aspect – for example narrator, a character or a symbol – with **short quotations** as evidence and an explanation of their **effect**.
+3. **Conclusion**: Sum up your interpretation and reflect on the **theme** and its relevance today.
+
+Use the **present tense** when you write about what happens in a text: *Starr decides to speak out.* And remember: The point is not to retell the story, but to **analyse and interpret** it.', '{"label":"Analysing fiction","children":[{"label":"Story","children":[{"label":"Plot and climax"},{"label":"Setting"},{"label":"Conflict"}]},{"label":"Characters","children":[{"label":"Direct and indirect"},{"label":"Round and flat"},{"label":"Dynamic and static"}]},{"label":"Narration","children":[{"label":"First person"},{"label":"Third person"},{"label":"Unreliable narrator"}]},{"label":"Devices","children":[{"label":"Symbol"},{"label":"Irony"},{"label":"Foreshadowing"},{"label":"Imagery"}]},{"label":"Writing","children":[{"label":"Main claim"},{"label":"Quotations"},{"label":"Effect"},{"label":"Theme"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'engelsk-vg1:analysing-fiction';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('engelsk-vg1:analysing-fiction', 'Plot', 'The sequence of events in a story.', 0),
+  ('engelsk-vg1:analysing-fiction', 'Climax', 'The turning point or moment of greatest tension.', 1),
+  ('engelsk-vg1:analysing-fiction', 'Setting', 'The time and place of a story.', 2),
+  ('engelsk-vg1:analysing-fiction', 'Direct characterisation', 'The text tells us what a character is like.', 3),
+  ('engelsk-vg1:analysing-fiction', 'Indirect characterisation', 'Character is shown through actions, speech and thoughts.', 4),
+  ('engelsk-vg1:analysing-fiction', 'Round character', 'A complex character with many traits.', 5),
+  ('engelsk-vg1:analysing-fiction', 'Dynamic character', 'A character who changes during the story.', 6),
+  ('engelsk-vg1:analysing-fiction', 'Internal conflict', 'A struggle within a character.', 7),
+  ('engelsk-vg1:analysing-fiction', 'Omniscient narrator', 'A third-person narrator who knows everything.', 8),
+  ('engelsk-vg1:analysing-fiction', 'Unreliable narrator', 'A narrator who cannot be fully trusted.', 9),
+  ('engelsk-vg1:analysing-fiction', 'Theme', 'The underlying idea of a text.', 10),
+  ('engelsk-vg1:analysing-fiction', 'Symbol', 'Something concrete that stands for an idea.', 11),
+  ('engelsk-vg1:analysing-fiction', 'Dramatic irony', 'The reader knows something the characters do not.', 12),
+  ('engelsk-vg1:analysing-fiction', 'Foreshadowing', 'Hints about what will happen later.', 13),
+  ('engelsk-vg1:analysing-fiction', 'Literary present', 'Using the present tense when writing about a text.', 14);
+delete from public.quiz_sporsmal where tema_id = 'engelsk-vg1:analysing-fiction';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('engelsk-vg1:analysing-fiction', 'q01', 'flervalg', 'What is indirect characterisation?', array['The narrator tells us directly what a character is like', 'A character is shown through actions, speech and thoughts', 'A character with no name', 'A minor character']::text[], 1, 'The reader has to draw conclusions.', true, true, 0),
+  ('engelsk-vg1:analysing-fiction', 'q02', 'flervalg', 'What is dramatic irony?', array['When the reader knows something the characters do not', 'When a story is sad', 'When a character tells a joke', 'When the story has a happy ending']::text[], 0, 'Lamb to the Slaughter is a famous example.', true, true, 1),
+  ('engelsk-vg1:analysing-fiction', 'q03', 'flervalg', 'What kind of narrator is used in The Hate U Give?', array['An omniscient narrator', 'A second-person narrator', 'A first-person narrator', 'There is no narrator']::text[], 2, 'Starr tells the story as I.', true, true, 2),
+  ('engelsk-vg1:analysing-fiction', 'q04', 'flervalg', 'What is foreshadowing?', array['A description of the setting', 'A flashback', 'The climax', 'Hints about what will happen later']::text[], 3, 'Foreshadowing builds suspense.', true, true, 3),
+  ('engelsk-vg1:analysing-fiction', 'q05', 'flervalg', 'Which of these is a theme?', array['Prejudice', 'A village square', 'A lottery ticket', 'Chapter three']::text[], 0, 'A theme is an idea, not a thing or a place.', true, true, 4),
+  ('engelsk-vg1:analysing-fiction', 'q06', 'flervalg', 'What is a dynamic character?', array['A character who moves a lot', 'A character who changes during the story', 'A funny character', 'A character who never speaks']::text[], 1, 'A static character does not change.', true, true, 5),
+  ('engelsk-vg1:analysing-fiction', 'q07', 'flervalg', 'Which tense should you normally use when writing about what happens in a story?', array['Past perfect', 'Future', 'Present', 'Past continuous']::text[], 2, 'This is called the literary present.', true, true, 6),
+  ('engelsk-vg1:analysing-fiction', 'q08', 'flervalg', 'What should the introduction to a literary analysis include?', array['Only a long summary', 'Your favourite quote', 'A list of all characters', 'Title, author, a brief summary and your main claim']::text[], 3, 'The main claim tells the reader what you will argue.', true, true, 7),
+  ('engelsk-vg1:analysing-fiction', 'q09', 'flervalg', 'What is an unreliable narrator?', array['A narrator who cannot be fully trusted', 'A narrator who knows everything', 'A narrator who is the author', 'A narrator who speaks to the reader']::text[], 0, 'The reader must read between the lines.', true, false, 8),
+  ('engelsk-vg1:analysing-fiction', 'q10', 'flervalg', 'What is the main point of a literary analysis?', array['To retell the whole story', 'To analyse and interpret how the text creates meaning', 'To say whether you liked it', 'To write about the author''s life']::text[], 1, 'Use evidence from the text to support your interpretation.', true, false, 9),
+  ('engelsk-vg1:analysing-fiction', 'm01', 'sant-usant', '“The Lottery” was written by Shirley Jackson.', array['Sant', 'Usant']::text[], 0, 'It was published in 1948.', false, true, 10),
+  ('engelsk-vg1:analysing-fiction', 'm02', 'sant-usant', 'A flat character is complex and has many traits.', array['Sant', 'Usant']::text[], 1, 'That is a round character.', false, true, 11),
+  ('engelsk-vg1:analysing-fiction', 'm03', 'sant-usant', 'Short quotations can be used as evidence in a literary analysis.', array['Sant', 'Usant']::text[], 0, 'Explain the effect of each quotation.', false, true, 12),
+  ('engelsk-vg1:analysing-fiction', 'm04', 'sant-usant', 'An open ending always tells the reader exactly what happens next.', array['Sant', 'Usant']::text[], 1, 'An open ending leaves questions for the reader.', false, true, 13),
+  ('engelsk-vg1:analysing-fiction', 'm05', 'flervalg', 'What is an internal conflict?', array['A fight between two armies', 'A struggle within a character', 'A conflict with nature', 'A disagreement between two friends']::text[], 1, 'The others are external conflicts.', false, true, 14),
+  ('engelsk-vg1:analysing-fiction', 'm06', 'flervalg', 'What might a storm symbolise in a story?', array['Inner turmoil', 'The weather forecast', 'A holiday', 'The author''s name']::text[], 0, 'Symbols stand for ideas beyond themselves.', false, true, 15),
+  ('engelsk-vg1:analysing-fiction', 'm07', 'flervalg', 'Which is a sound device often used in poetry?', array['Chapter', 'Setting', 'Alliteration', 'Headline']::text[], 2, 'Alliteration repeats the first sound in nearby words.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('engelsk-vg1:analysing-fiction', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Engelsk: Comparing sources and using them well
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('engelsk-vg1:sources-and-reliability', 'engelsk-vg1', 'sources-and-reliability', 'Comparing sources and using them well', 'How to compare non-fiction texts about the same topic from different sources, assess reliability and bias, tell fact from opinion, and use sources critically and honestly with quotations, paraphrases and references.', array[11, 12]::int[], 6, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('engelsk-vg1:sources-and-reliability', '## Same topic, different stories
+
+Two newspapers can report on the same event in very different ways. When you compare non-fiction texts, look at
+
+- the **headline** and **word choice** – is a protest called a *demonstration* or a *riot*?
+- what is **included** and what is **left out**
+- **who gets to speak** – experts, politicians, ordinary people?
+- **images** and how they are **captioned**
+- the **tone** – neutral, emotional, ironic?
+
+The way a story is presented is called **framing**, and it can influence how readers understand an issue.
+
+## Fact, opinion and bias
+
+- A **fact** can be checked: *The UK held a referendum on EU membership in 2016.*
+- An **opinion** expresses a view: *Brexit was a mistake.*
+- **Bias** is a one-sided presentation that favours one view. All sources have a perspective, but some are more balanced than others.
+
+Also watch out for **misinformation** (false information spread by mistake) and **disinformation** (false information spread on purpose), and remember that images and videos can be manipulated or generated by AI.
+
+## Assessing reliability
+
+A useful checklist is **CRAAP**:
+
+- **Currency** – Is the information up to date?
+- **Relevance** – Does it answer your question?
+- **Authority** – Who is the author or publisher? What are their qualifications?
+- **Accuracy** – Is it supported by evidence? Can it be verified elsewhere?
+- **Purpose** – Is it meant to inform, persuade, entertain or sell?
+
+**Lateral reading** means leaving the page to check what **other sources** say about the website or claim – professional fact-checkers do this all the time.
+
+Distinguish between **primary sources** (first-hand, such as interviews, speeches, statistics and eyewitness accounts) and **secondary sources** (texts that interpret or discuss other sources).
+
+## Using sources honestly
+
+- A **quotation** repeats the exact words in quotation marks: *According to the report, “emissions fell by 4 per cent” (Smith, 2023, p. 12).*
+- A **paraphrase** gives the idea in your own words – it still needs a reference.
+- A **summary** gives the main points briefly.
+- Every source must be listed in a **reference list** or **works cited** list at the end, usually in alphabetical order.
+
+Two common styles are **APA** – *(Smith, 2023, p. 12)* – and **MLA** – *(Smith 12)*. Follow the style your teacher asks for, and be consistent.
+
+**Plagiarism** means presenting other people''s words or ideas as your own. It is cheating, whether you copy from a website, a classmate or an AI tool.
+
+## Using sources purposefully
+
+Good use of sources is **selective**: Choose sources that are relevant and reliable, use them to **support your own argument**, and **comment** on them. Show the reader why the source matters – do not just drop in a quotation and move on.', '{"label":"Sources and reliability","children":[{"label":"Comparing texts","children":[{"label":"Headlines and word choice"},{"label":"Who speaks"},{"label":"Framing"}]},{"label":"Critical thinking","children":[{"label":"Fact vs. opinion"},{"label":"Bias"},{"label":"Mis- and disinformation"}]},{"label":"Reliability","children":[{"label":"CRAAP"},{"label":"Lateral reading"},{"label":"Primary and secondary"}]},{"label":"Using sources","children":[{"label":"Quotation"},{"label":"Paraphrase"},{"label":"Summary"}]},{"label":"Honesty","children":[{"label":"References"},{"label":"APA and MLA"},{"label":"Plagiarism"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'engelsk-vg1:sources-and-reliability';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('engelsk-vg1:sources-and-reliability', 'Framing', 'The way a story is presented, which influences how readers understand it.', 0),
+  ('engelsk-vg1:sources-and-reliability', 'Fact', 'A statement that can be checked.', 1),
+  ('engelsk-vg1:sources-and-reliability', 'Opinion', 'A statement that expresses a view.', 2),
+  ('engelsk-vg1:sources-and-reliability', 'Bias', 'A one-sided presentation that favours one view.', 3),
+  ('engelsk-vg1:sources-and-reliability', 'Misinformation', 'False information spread by mistake.', 4),
+  ('engelsk-vg1:sources-and-reliability', 'Disinformation', 'False information spread on purpose.', 5),
+  ('engelsk-vg1:sources-and-reliability', 'CRAAP', 'Currency, Relevance, Authority, Accuracy, Purpose.', 6),
+  ('engelsk-vg1:sources-and-reliability', 'Lateral reading', 'Checking what other sources say about a website or claim.', 7),
+  ('engelsk-vg1:sources-and-reliability', 'Primary source', 'A first-hand source, such as an interview or statistics.', 8),
+  ('engelsk-vg1:sources-and-reliability', 'Secondary source', 'A source that interprets or discusses other sources.', 9),
+  ('engelsk-vg1:sources-and-reliability', 'Quotation', 'The exact words of a source in quotation marks.', 10),
+  ('engelsk-vg1:sources-and-reliability', 'Paraphrase', 'The idea of a source in your own words, with a reference.', 11),
+  ('engelsk-vg1:sources-and-reliability', 'Reference list', 'A list of all sources at the end of a text.', 12),
+  ('engelsk-vg1:sources-and-reliability', 'APA in-text reference', '(Smith, 2023, p. 12)', 13),
+  ('engelsk-vg1:sources-and-reliability', 'Plagiarism', 'Presenting other people''s words or ideas as your own.', 14);
+delete from public.quiz_sporsmal where tema_id = 'engelsk-vg1:sources-and-reliability';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('engelsk-vg1:sources-and-reliability', 'q01', 'flervalg', 'What is framing?', array['Putting a picture in a frame', 'The way a story is presented, which influences how readers understand it', 'A type of reference', 'A fact-checking website']::text[], 1, 'Word choice, images and who gets to speak are part of framing.', true, true, 0),
+  ('engelsk-vg1:sources-and-reliability', 'q02', 'flervalg', 'Which statement is a fact?', array['The UK held a referendum on EU membership in 2016.', 'Brexit was a mistake.', 'The EU is the best organisation in the world.', 'Everyone should vote.']::text[], 0, 'It can be checked.', true, true, 1),
+  ('engelsk-vg1:sources-and-reliability', 'q03', 'flervalg', 'What does the A for Authority in CRAAP ask?', array['Is it up to date?', 'Is it relevant?', 'Who is the author or publisher, and what are their qualifications?', 'Is it funny?']::text[], 2, 'Authority is about who stands behind the information.', true, true, 2),
+  ('engelsk-vg1:sources-and-reliability', 'q04', 'flervalg', 'What is disinformation?', array['Information that is outdated', 'An opinion in a newspaper', 'A paraphrase', 'False information spread on purpose']::text[], 3, 'Misinformation is spread by mistake.', true, true, 3),
+  ('engelsk-vg1:sources-and-reliability', 'q05', 'flervalg', 'What is lateral reading?', array['Checking what other sources say about a website or claim', 'Reading from left to right', 'Reading only the headline', 'Reading a text twice']::text[], 0, 'Professional fact-checkers use this method.', true, true, 4),
+  ('engelsk-vg1:sources-and-reliability', 'q06', 'flervalg', 'Which is a primary source?', array['A textbook chapter about the civil rights movement', 'A recording of Martin Luther King''s “I Have a Dream” speech', 'A review of a documentary', 'An encyclopedia article']::text[], 1, 'The speech is a first-hand source.', true, true, 5),
+  ('engelsk-vg1:sources-and-reliability', 'q07', 'flervalg', 'Does a paraphrase need a reference?', array['No, because you use your own words', 'Only if it is long', 'Yes, because the idea comes from someone else', 'Only in MLA style']::text[], 2, 'Ideas must be credited, not only exact words.', true, true, 6),
+  ('engelsk-vg1:sources-and-reliability', 'q08', 'flervalg', 'What is plagiarism?', array['Using many sources', 'Quoting correctly', 'Writing a reference list', 'Presenting other people''s words or ideas as your own']::text[], 3, 'Plagiarism is cheating.', true, true, 7),
+  ('engelsk-vg1:sources-and-reliability', 'q09', 'flervalg', 'Why might one newspaper call a protest a riot and another a demonstration?', array['Because of different perspectives or bias', 'Because one is always wrong', 'Because of spelling rules', 'Because riot is shorter']::text[], 0, 'Word choice reveals perspective.', true, false, 8),
+  ('engelsk-vg1:sources-and-reliability', 'q10', 'flervalg', 'What does good, purposeful use of sources involve?', array['Using as many quotations as possible', 'Choosing relevant, reliable sources and commenting on them to support your argument', 'Copying whole paragraphs', 'Only using one source']::text[], 1, 'Sources should support your own thinking.', true, false, 9),
+  ('engelsk-vg1:sources-and-reliability', 'm01', 'sant-usant', 'All sources have a perspective.', array['Sant', 'Usant']::text[], 0, 'But some are more balanced than others.', false, true, 10),
+  ('engelsk-vg1:sources-and-reliability', 'm02', 'sant-usant', 'Copying text from an AI tool without saying so is not plagiarism.', array['Sant', 'Usant']::text[], 1, 'Presenting work that is not your own is plagiarism.', false, true, 11),
+  ('engelsk-vg1:sources-and-reliability', 'm03', 'sant-usant', 'A reference list is usually in alphabetical order.', array['Sant', 'Usant']::text[], 0, 'It is sorted by the authors'' surnames.', false, true, 12),
+  ('engelsk-vg1:sources-and-reliability', 'm04', 'sant-usant', 'Images can never be manipulated.', array['Sant', 'Usant']::text[], 1, 'Images and videos can be edited or generated by AI.', false, true, 13),
+  ('engelsk-vg1:sources-and-reliability', 'm05', 'flervalg', 'What does the P for Purpose in CRAAP ask?', array['Is the source meant to inform, persuade, entertain or sell?', 'Is it published on paper?', 'Is it popular?', 'Is it a primary source?']::text[], 0, 'The purpose affects how you should read it.', false, true, 14),
+  ('engelsk-vg1:sources-and-reliability', 'm06', 'flervalg', 'What does an MLA in-text reference look like?', array['(Smith, 2023, p. 12)', '[Smith 2023]', '(Smith 12)', 'Smith said it']::text[], 2, 'MLA uses the author''s name and page number.', false, true, 15),
+  ('engelsk-vg1:sources-and-reliability', 'm07', 'flervalg', 'What is a summary?', array['The exact words of a source', 'A brief version of the main points', 'A list of sources', 'An opinion about a source']::text[], 1, 'Summaries also need references.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('engelsk-vg1:sources-and-reliability', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Engelsk: Diversity and society in the English-speaking world
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('engelsk-vg1:diversity-in-the-english-speaking-world', 'engelsk-vg1', 'diversity-in-the-english-speaking-world', 'Diversity and society in the English-speaking world', 'Diversity and social issues in the UK, the USA, Canada, Australia, New Zealand, South Africa and India, seen in light of history – colonialism, slavery, civil rights, Indigenous peoples and migration.', array[16]::int[], 7, 'sjekkes', array['Sjekk formuleringen om antall offisielle språk i Sør-Afrika (endret i 2023 da tegnspråk ble lagt til).']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('engelsk-vg1:diversity-in-the-english-speaking-world', '## A world shaped by history
+
+The English-speaking world is **diverse** – in ethnicity, religion, language, class and culture. Many present-day issues can only be understood in light of **history**: the **British Empire**, **colonialism**, the **transatlantic slave trade** and **migration**.
+
+## The United Kingdom
+
+The UK consists of **England, Scotland, Wales** and **Northern Ireland**, each with its own identity. After the Second World War, people from the Caribbean, India, Pakistan and Africa came to help rebuild Britain – the ship **Empire Windrush** arrived in **1948**, and the “Windrush generation” became a symbol of multicultural Britain. Today, **class**, **regional differences** and debates about **immigration** – for example in the **Brexit** referendum of **2016** – are important issues.
+
+## The United States
+
+The USA is often called a **nation of immigrants**, but its history also includes the displacement of **Native Americans** and centuries of **slavery**. After the Civil War, slavery was abolished, but **segregation** continued in the South. The **civil rights movement** – with **Rosa Parks** (1955) and **Martin Luther King Jr.**''s “I Have a Dream” speech (1963) – led to the **Civil Rights Act (1964)** and the **Voting Rights Act (1965)**. Movements like **Black Lives Matter** show that questions of racism and inequality are still debated.
+
+## Indigenous peoples
+
+- **Australia**: **Aboriginal and Torres Strait Islander peoples** have lived there for tens of thousands of years. Children were taken from their families in what is called the **Stolen Generations**, and the Australian government made a formal **apology** in **2008**.
+- **New Zealand**: The **Treaty of Waitangi** (1840) between the British Crown and **Māori** chiefs is seen as the country''s founding document. Māori is an official language.
+- **Canada**: **First Nations**, **Inuit** and **Métis** peoples suffered under the **residential school** system. A **Truth and Reconciliation Commission** presented its final report in **2015**.
+
+## South Africa and India
+
+- **South Africa** had **apartheid** – a system of racial segregation – from **1948** to **1994**, when **Nelson Mandela** became the first democratically elected president. The country has eleven or more official languages, and English is one of them.
+- **India** became independent from Britain in **1947**. English is still widely used in government, business and higher education, alongside Hindi and many other languages.
+
+## Talking about diversity
+
+When you discuss diversity, be aware of **stereotypes** and the **danger of a single story** – a phrase from the Nigerian author **Chimamanda Ngozi Adichie**, who warns that one story about a people or place creates a limited and incomplete picture. Use **respectful** and **precise** language, and try to include **different perspectives** – especially the voices of the people concerned.
+
+## Why does it matter?
+
+Understanding the history and diversity of the English-speaking world helps you **read texts in context**, take part in **global conversations** and reflect on similar issues in Norway, such as the history of the **Sámi** people.', '{"label":"Diversity in the English-speaking world","children":[{"label":"UK","children":[{"label":"Four nations"},{"label":"Windrush 1948"},{"label":"Brexit"}]},{"label":"USA","children":[{"label":"Native Americans"},{"label":"Slavery and segregation"},{"label":"Civil rights movement"},{"label":"Black Lives Matter"}]},{"label":"Indigenous peoples","children":[{"label":"Stolen Generations"},{"label":"Treaty of Waitangi"},{"label":"Residential schools"}]},{"label":"Former colonies","children":[{"label":"Apartheid"},{"label":"Mandela"},{"label":"India 1947"}]},{"label":"Perspectives","children":[{"label":"Stereotypes"},{"label":"A single story"},{"label":"Respectful language"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'engelsk-vg1:diversity-in-the-english-speaking-world';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('engelsk-vg1:diversity-in-the-english-speaking-world', 'Empire Windrush', 'Ship that brought Caribbean migrants to Britain in 1948.', 0),
+  ('engelsk-vg1:diversity-in-the-english-speaking-world', 'Brexit', 'The UK''s departure from the EU, decided in a 2016 referendum.', 1),
+  ('engelsk-vg1:diversity-in-the-english-speaking-world', 'Segregation', 'Separation of people based on race.', 2),
+  ('engelsk-vg1:diversity-in-the-english-speaking-world', 'Civil rights movement', 'The struggle for equal rights for African Americans in the 1950s and 1960s.', 3),
+  ('engelsk-vg1:diversity-in-the-english-speaking-world', 'Rosa Parks', 'Refused to give up her bus seat in 1955.', 4),
+  ('engelsk-vg1:diversity-in-the-english-speaking-world', 'Civil Rights Act', 'US law from 1964 that banned discrimination.', 5),
+  ('engelsk-vg1:diversity-in-the-english-speaking-world', 'Black Lives Matter', 'Movement against racism and police violence.', 6),
+  ('engelsk-vg1:diversity-in-the-english-speaking-world', 'Stolen Generations', 'Aboriginal children removed from their families in Australia.', 7),
+  ('engelsk-vg1:diversity-in-the-english-speaking-world', 'Treaty of Waitangi', 'Treaty from 1840 between the British Crown and Māori chiefs.', 8),
+  ('engelsk-vg1:diversity-in-the-english-speaking-world', 'Residential schools', 'Canadian boarding schools that tried to assimilate Indigenous children.', 9),
+  ('engelsk-vg1:diversity-in-the-english-speaking-world', 'Apartheid', 'System of racial segregation in South Africa from 1948 to 1994.', 10),
+  ('engelsk-vg1:diversity-in-the-english-speaking-world', 'Nelson Mandela', 'South Africa''s first democratically elected president (1994).', 11),
+  ('engelsk-vg1:diversity-in-the-english-speaking-world', '1947', 'The year India became independent from Britain.', 12),
+  ('engelsk-vg1:diversity-in-the-english-speaking-world', 'The danger of a single story', 'Adichie''s warning against seeing a people through only one story.', 13),
+  ('engelsk-vg1:diversity-in-the-english-speaking-world', 'Stereotype', 'A simplified and fixed image of a group.', 14);
+delete from public.quiz_sporsmal where tema_id = 'engelsk-vg1:diversity-in-the-english-speaking-world';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('engelsk-vg1:diversity-in-the-english-speaking-world', 'q01', 'flervalg', 'What does the Windrush generation refer to?', array['Vikings who settled in England', 'Caribbean migrants who came to Britain after 1948', 'British people who moved to Australia', 'Irish emigrants to the USA']::text[], 1, 'The ship Empire Windrush arrived in 1948.', true, true, 0),
+  ('engelsk-vg1:diversity-in-the-english-speaking-world', 'q02', 'flervalg', 'Which law from 1964 banned discrimination in the USA?', array['The Civil Rights Act', 'The Voting Rights Act', 'The Treaty of Waitangi', 'The Emancipation Proclamation']::text[], 0, 'The Voting Rights Act followed in 1965.', true, true, 1),
+  ('engelsk-vg1:diversity-in-the-english-speaking-world', 'q03', 'flervalg', 'What was apartheid?', array['A British trade system', 'An Indian independence movement', 'A system of racial segregation in South Africa', 'A Canadian school system']::text[], 2, 'It lasted from 1948 to 1994.', true, true, 2),
+  ('engelsk-vg1:diversity-in-the-english-speaking-world', 'q04', 'flervalg', 'What are the Stolen Generations?', array['Soldiers in the First World War', 'Victims of the slave trade in the USA', 'British children sent to Canada', 'Aboriginal children taken from their families in Australia']::text[], 3, 'The Australian government apologised in 2008.', true, true, 3),
+  ('engelsk-vg1:diversity-in-the-english-speaking-world', 'q05', 'flervalg', 'Which document is seen as New Zealand''s founding document?', array['The Treaty of Waitangi', 'The Magna Carta', 'The Declaration of Independence', 'The Civil Rights Act']::text[], 0, 'It was signed in 1840 by the British Crown and Māori chiefs.', true, true, 4),
+  ('engelsk-vg1:diversity-in-the-english-speaking-world', 'q06', 'flervalg', 'When did India become independent?', array['1914', '1947', '1965', '1994']::text[], 1, 'English is still widely used in India today.', true, true, 5),
+  ('engelsk-vg1:diversity-in-the-english-speaking-world', 'q07', 'flervalg', 'What does “the danger of a single story” mean?', array['That short stories are dangerous', 'That you should only read one book', 'That one story about a people creates an incomplete picture', 'That history is boring']::text[], 2, 'The phrase comes from Chimamanda Ngozi Adichie.', true, true, 6),
+  ('engelsk-vg1:diversity-in-the-english-speaking-world', 'q08', 'flervalg', 'Which Indigenous peoples live in Canada?', array['Māori', 'Aboriginal peoples', 'Sámi', 'First Nations, Inuit and Métis']::text[], 3, 'Many suffered under the residential school system.', true, true, 7),
+  ('engelsk-vg1:diversity-in-the-english-speaking-world', 'q09', 'flervalg', 'Who became South Africa''s first democratically elected president in 1994?', array['Nelson Mandela', 'Martin Luther King Jr.', 'Desmond Tutu', 'Mahatma Gandhi']::text[], 0, 'He had spent 27 years in prison.', true, false, 8),
+  ('engelsk-vg1:diversity-in-the-english-speaking-world', 'q10', 'flervalg', 'Why is it important to include different perspectives when discussing diversity?', array['To make the text longer', 'To avoid stereotypes and give a more complete picture', 'Because teachers require it', 'It is not important']::text[], 1, 'The voices of the people concerned are especially important.', true, false, 9),
+  ('engelsk-vg1:diversity-in-the-english-speaking-world', 'm01', 'sant-usant', 'Rosa Parks refused to give up her bus seat in 1955.', array['Sant', 'Usant']::text[], 0, 'Her protest led to the Montgomery bus boycott.', false, true, 10),
+  ('engelsk-vg1:diversity-in-the-english-speaking-world', 'm02', 'sant-usant', 'Apartheid ended in 1948.', array['Sant', 'Usant']::text[], 1, 'Apartheid began in 1948 and ended in 1994.', false, true, 11),
+  ('engelsk-vg1:diversity-in-the-english-speaking-world', 'm03', 'sant-usant', 'Māori is an official language in New Zealand.', array['Sant', 'Usant']::text[], 0, 'Māori language and culture have been revitalised in recent decades.', false, true, 12),
+  ('engelsk-vg1:diversity-in-the-english-speaking-world', 'm04', 'sant-usant', 'The UK consists of England and Scotland only.', array['Sant', 'Usant']::text[], 1, 'Wales and Northern Ireland are also part of the UK.', false, true, 13),
+  ('engelsk-vg1:diversity-in-the-english-speaking-world', 'm05', 'flervalg', 'In which year did Martin Luther King Jr. give his “I Have a Dream” speech?', array['1948', '1955', '1963', '1994']::text[], 2, 'The speech was given during the March on Washington.', false, true, 14),
+  ('engelsk-vg1:diversity-in-the-english-speaking-world', 'm06', 'flervalg', 'What were residential schools in Canada?', array['Boarding schools that tried to assimilate Indigenous children', 'Universities for adults', 'Schools for British immigrants', 'Private schools for the rich']::text[], 0, 'A Truth and Reconciliation Commission reported on them in 2015.', false, true, 15),
+  ('engelsk-vg1:diversity-in-the-english-speaking-world', 'm07', 'flervalg', 'Which referendum was held in the UK in 2016?', array['On Scottish independence', 'On EU membership', 'On the monarchy', 'On voting age']::text[], 1, 'A majority voted to leave the EU.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('engelsk-vg1:diversity-in-the-english-speaking-world', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Engelsk: Film, music and games
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('engelsk-vg1:film-music-and-games', 'engelsk-vg1', 'film-music-and-games', 'Film, music and games', 'How to discuss and reflect on form, content and techniques in English-language films, music and video games – shots and angles, sound and editing, lyrics and protest songs, and storytelling and player choice in games.', array[17]::int[], 8, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('engelsk-vg1:film-music-and-games', '## Cultural expressions
+
+Films, songs and games are **cultural expressions** that both entertain and say something about society. To analyse them, look at three things:
+
+- **Form** – how it is made (techniques, structure, genre)
+- **Content** – what it is about (story, themes, message)
+- **Effect** – how form and content work together to affect the audience
+
+## Film
+
+**Shots**
+- **Establishing shot / extreme long shot**: shows the setting.
+- **Long shot**: a whole person in their surroundings.
+- **Medium shot**: from the waist up – common in dialogue.
+- **Close-up**: a face – shows emotions.
+- **Extreme close-up**: a detail, such as eyes or a hand.
+
+**Camera angles**
+- **High angle** (looking down): the character seems small or weak.
+- **Low angle** (looking up): the character seems powerful or threatening.
+- **Eye level**: neutral.
+
+**Camera movement**: **pan** (turning sideways), **tilt** (up or down), **tracking shot** (the camera follows the action).
+
+**Lighting**: **High-key** lighting is bright and even; **low-key** lighting creates shadows, mystery and tension.
+
+**Sound**: **Diegetic sound** exists in the story world (dialogue, footsteps, a radio). **Non-diegetic sound** is added for the audience (background music, a narrator''s voice-over).
+
+**Editing**: A **montage** shows many short shots to compress time. **Cross-cutting** switches between two scenes happening at the same time, often to build suspense.
+
+**Mise-en-scène**: everything placed in front of the camera – setting, props, costumes, make-up and actors'' positions.
+
+## Music
+
+When you analyse a song, consider **lyrics** (themes, imagery, speaker), **music** (genre, tempo, instruments, mood), **performance** and the **music video**, and the **context** in which it was made. **Protest songs** have been important in many social movements – from Bob Dylan''s **“Blowin'' in the Wind”** (1963) during the civil rights era to Kendrick Lamar''s **“Alright”** (2015), which became an anthem for Black Lives Matter protests.
+
+## Video games
+
+Games are a major cultural form with their own techniques:
+
+- **Narrative**: story, characters and **world-building**
+- **Interactivity** and **player agency**: the player makes **choices** that may have consequences
+- **Perspective**: first-person or third-person view
+- **Sound and music** that create atmosphere
+- **Themes**: many games deal with serious themes such as survival, loss, war and moral dilemmas – *The Last of Us* (2013) is often mentioned as a game with strong storytelling.
+
+A key question is how being an **active player** changes the experience compared with watching a film.
+
+## Discussing and reflecting
+
+Useful questions: What is the **message**? Who is the **target audience**? How do the **techniques** create meaning? How does the work **reflect or challenge** society? Support your views with **specific examples** – a scene, a line, a moment in the game.', '{"label":"Film, music and games","children":[{"label":"Analysis","children":[{"label":"Form"},{"label":"Content"},{"label":"Effect"}]},{"label":"Film techniques","children":[{"label":"Shots"},{"label":"Angles"},{"label":"Lighting"},{"label":"Editing"}]},{"label":"Film sound","children":[{"label":"Diegetic"},{"label":"Non-diegetic"},{"label":"Voice-over"}]},{"label":"Music","children":[{"label":"Lyrics"},{"label":"Genre and mood"},{"label":"Protest songs"}]},{"label":"Games","children":[{"label":"Narrative"},{"label":"Player agency"},{"label":"World-building"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'engelsk-vg1:film-music-and-games';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('engelsk-vg1:film-music-and-games', 'Form, content and effect', 'How it is made, what it is about, and how it affects the audience.', 0),
+  ('engelsk-vg1:film-music-and-games', 'Establishing shot', 'A wide shot that shows the setting.', 1),
+  ('engelsk-vg1:film-music-and-games', 'Close-up', 'A shot of a face that shows emotions.', 2),
+  ('engelsk-vg1:film-music-and-games', 'High angle', 'Camera looks down – the character seems small or weak.', 3),
+  ('engelsk-vg1:film-music-and-games', 'Low angle', 'Camera looks up – the character seems powerful.', 4),
+  ('engelsk-vg1:film-music-and-games', 'Tracking shot', 'The camera moves along with the action.', 5),
+  ('engelsk-vg1:film-music-and-games', 'Low-key lighting', 'Lighting with strong shadows that creates tension.', 6),
+  ('engelsk-vg1:film-music-and-games', 'Diegetic sound', 'Sound that exists in the story world.', 7),
+  ('engelsk-vg1:film-music-and-games', 'Non-diegetic sound', 'Sound added for the audience, like background music.', 8),
+  ('engelsk-vg1:film-music-and-games', 'Montage', 'Many short shots edited together to compress time.', 9),
+  ('engelsk-vg1:film-music-and-games', 'Cross-cutting', 'Switching between two scenes happening at the same time.', 10),
+  ('engelsk-vg1:film-music-and-games', 'Mise-en-scène', 'Everything placed in front of the camera.', 11),
+  ('engelsk-vg1:film-music-and-games', 'Protest song', 'A song that criticises society and supports a cause.', 12),
+  ('engelsk-vg1:film-music-and-games', 'Player agency', 'The player''s ability to make choices in a game.', 13),
+  ('engelsk-vg1:film-music-and-games', 'World-building', 'Creating a detailed fictional world in a game or story.', 14);
+delete from public.quiz_sporsmal where tema_id = 'engelsk-vg1:film-music-and-games';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('engelsk-vg1:film-music-and-games', 'q01', 'flervalg', 'What effect does a low camera angle usually have?', array['The character seems weak', 'The character seems powerful or threatening', 'The scene feels neutral', 'The scene becomes funny']::text[], 1, 'The audience looks up at the character.', true, true, 0),
+  ('engelsk-vg1:film-music-and-games', 'q02', 'flervalg', 'What is diegetic sound?', array['Sound that exists in the story world', 'Background music added for the audience', 'A narrator''s voice-over', 'Silence']::text[], 0, 'Dialogue and footsteps are diegetic.', true, true, 1),
+  ('engelsk-vg1:film-music-and-games', 'q03', 'flervalg', 'Which shot is best for showing a character''s emotions?', array['Establishing shot', 'Long shot', 'Close-up', 'Tracking shot']::text[], 2, 'A close-up shows the face in detail.', true, true, 2),
+  ('engelsk-vg1:film-music-and-games', 'q04', 'flervalg', 'What is cross-cutting?', array['Cutting out a scene', 'A shot from above', 'A song in a film', 'Switching between two scenes happening at the same time']::text[], 3, 'It is often used to build suspense.', true, true, 3),
+  ('engelsk-vg1:film-music-and-games', 'q05', 'flervalg', 'What is mise-en-scène?', array['Everything placed in front of the camera', 'The film''s soundtrack', 'The editing', 'The script']::text[], 0, 'Setting, props, costumes and actors'' positions.', true, true, 4),
+  ('engelsk-vg1:film-music-and-games', 'q06', 'flervalg', 'Which song became an anthem for Black Lives Matter protests?', array['“Blowin'' in the Wind”', '“Alright” by Kendrick Lamar', '“Yesterday”', '“Imagine”']::text[], 1, '“Alright” was released in 2015.', true, true, 5),
+  ('engelsk-vg1:film-music-and-games', 'q07', 'flervalg', 'What is player agency?', array['A company that sells games', 'The game''s soundtrack', 'The player''s ability to make choices in a game', 'The age limit of a game']::text[], 2, 'Choices with consequences make the player active.', true, true, 6),
+  ('engelsk-vg1:film-music-and-games', 'q08', 'flervalg', 'What does low-key lighting create?', array['A bright, happy mood', 'A neutral mood', 'No particular effect', 'Shadows, mystery and tension']::text[], 3, 'It is common in thrillers and horror.', true, true, 7),
+  ('engelsk-vg1:film-music-and-games', 'q09', 'flervalg', 'What is a montage?', array['Many short shots edited together to compress time', 'A long single shot', 'A type of camera angle', 'A film poster']::text[], 0, 'Training scenes are often shown as montages.', true, false, 8),
+  ('engelsk-vg1:film-music-and-games', 'q10', 'flervalg', 'Which three aspects should you consider when analysing a cultural expression?', array['Price, length and age limit', 'Form, content and effect', 'Title, actors and director', 'Genre, year and country']::text[], 1, 'Analysis connects how it is made with what it means.', true, false, 9),
+  ('engelsk-vg1:film-music-and-games', 'm01', 'sant-usant', 'Background music added to a film is non-diegetic sound.', array['Sant', 'Usant']::text[], 0, 'The characters cannot hear it.', false, true, 10),
+  ('engelsk-vg1:film-music-and-games', 'm02', 'sant-usant', 'A high camera angle usually makes a character seem powerful.', array['Sant', 'Usant']::text[], 1, 'A high angle usually makes a character seem small or weak.', false, true, 11),
+  ('engelsk-vg1:film-music-and-games', 'm03', 'sant-usant', 'Video games can deal with serious themes such as loss and war.', array['Sant', 'Usant']::text[], 0, 'Many games have strong storytelling.', false, true, 12),
+  ('engelsk-vg1:film-music-and-games', 'm04', 'sant-usant', 'An establishing shot shows a detail, such as a person''s eyes.', array['Sant', 'Usant']::text[], 1, 'That is an extreme close-up. An establishing shot shows the setting.', false, true, 13),
+  ('engelsk-vg1:film-music-and-games', 'm05', 'flervalg', 'What is a tracking shot?', array['A shot where the camera follows the action', 'A shot of a map', 'A still photograph', 'A shot from above']::text[], 0, 'The camera moves together with the characters.', false, true, 14),
+  ('engelsk-vg1:film-music-and-games', 'm06', 'flervalg', 'Who recorded “Blowin'' in the Wind” in 1963?', array['Kendrick Lamar', 'The Beatles', 'Bob Dylan', 'Beyoncé']::text[], 2, 'It became associated with the civil rights era.', false, true, 15),
+  ('engelsk-vg1:film-music-and-games', 'm07', 'flervalg', 'What is world-building in a game?', array['Building a real house', 'Creating a detailed fictional world', 'Making the game longer', 'Choosing a difficulty level']::text[], 1, 'A rich world makes the story more immersive.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('engelsk-vg1:film-music-and-games', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Naturfag (vg1): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'naturfag-vg1' and slug not in ('naturvitenskapelig-metode', 'programmering-og-modellering', 'bolger-og-tradlos-kommunikasjon', 'straling', 'universets-opprinnelse', 'kjemiske-bindinger', 'karbonforbindelser', 'miljogifter', 'kosthold-og-helse', 'arv-og-evolusjon', 'bioteknologi');
+
+-- Naturfag: Naturvitenskapelig metode og forsøk
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('naturfag-vg1:naturvitenskapelig-metode', 'naturfag-vg1', 'naturvitenskapelig-metode', 'Naturvitenskapelig metode og forsøk', 'Hvordan naturvitenskapen arbeider med hypoteser, forsøk, modeller og teorier, hvordan du planlegger og presenterer et eget forsøk, og hvordan du risikovurderer og håndterer avfall forsvarlig.', array[1, 2, 3]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('naturfag-vg1:naturvitenskapelig-metode', '## Hvordan skaffer naturvitenskapen kunnskap?
+
+Naturvitenskapen bygger på **observasjoner** og **forsøk**. Arbeidet følger ofte disse trinnene:
+
+1. **Problemstilling**: et spørsmål som kan undersøkes.
+2. **Hypotese**: en mulig, **testbar** forklaring eller forutsigelse.
+3. **Forsøk eller observasjoner**: data samles inn.
+4. **Resultater**: data ordnes i tabeller og grafer.
+5. **Konklusjon**: Blir hypotesen **styrket** eller **svekket**?
+6. **Presentasjon**: Funnene deles og vurderes av andre.
+
+## Variabler og kontroll
+
+I et godt forsøk endrer vi **én ting om gangen**:
+
+- **Uavhengig variabel**: det vi endrer, for eksempel temperaturen.
+- **Avhengig variabel**: det vi måler, for eksempel hvor raskt en reaksjon går.
+- **Kontrollerte variabler**: alt vi holder likt, for eksempel mengde og konsentrasjon.
+
+En **kontrollgruppe** uten behandling gjør det mulig å sammenligne. Vi gjentar forsøket for å få **pålitelige** resultater og vurderer **feilkilder** – for eksempel unøyaktige målinger.
+
+## Hypoteser, modeller og teorier
+
+- En **hypotese** er en foreløpig forklaring som skal testes.
+- En **modell** er en forenklet framstilling av virkeligheten – for eksempel en atommodell eller en klimamodell.
+- En **teori** er en **godt underbygd** forklaring som støttes av mange uavhengige observasjoner, som evolusjonsteorien eller big bang-teorien. «Bare en teori» er derfor en misforståelse.
+
+Kunnskapen **endrer seg** når nye data kommer. **Atommodellen** er et godt eksempel: Dalton så atomet som en udelelig kule, Thomson oppdaget elektronet, Rutherford fant atomkjernen, og Bohr plasserte elektronene i skall. Hver modell forklarte mer enn den forrige.
+
+## Naturvitenskapens kjennetegn
+
+- **Etterprøvbarhet**: Andre skal kunne gjenta forsøket og få samme resultat.
+- **Fagfellevurdering**: Forskere vurderer hverandres arbeid før det publiseres.
+- **Åpenhet** om metoder og usikkerhet.
+
+## Eget forsøk
+
+Når du utforsker en **selvvalgt problemstilling**, må du **begrunne metodevalgene**: Hvorfor valgte du akkurat dette utstyret, disse målingene og denne framgangsmåten? Presenter **funn** med tabeller og grafer, og drøft **usikkerhet** og feilkilder.
+
+## Risikovurdering
+
+Før et forsøk må du vurdere risikoen:
+
+- Les **faresetninger** og **farepiktogrammer** på kjemikaliene, og se i **sikkerhetsdatabladet**.
+- Bruk **vernebriller**, **frakk** og eventuelt **hansker**.
+- Bruk **avtrekksskap** ved giftige eller illeluktende gasser.
+- Vit hvor **øyedusj**, **brannteppe** og **brannslukker** er.
+
+## Avfall
+
+Kjemikalieavfall skal håndteres **forsvarlig**:
+
+- Fortynnede syrer og baser kan ofte **nøytraliseres** før de helles ut.
+- **Tungmetaller** og **organiske løsemidler** skal **aldri** i vasken, men i egne merkede avfallsbeholdere.
+- Følg skolens rutiner og lærerens instruksjoner.', '{"label":"Naturvitenskapelig metode","children":[{"label":"Framgangsmåte","children":[{"label":"Problemstilling"},{"label":"Hypotese"},{"label":"Forsøk og resultater"},{"label":"Konklusjon"}]},{"label":"Forsøk","children":[{"label":"Variabler"},{"label":"Kontrollgruppe"},{"label":"Feilkilder"}]},{"label":"Kunnskap","children":[{"label":"Hypotese"},{"label":"Modell"},{"label":"Teori"},{"label":"Atommodellen"}]},{"label":"Kjennetegn","children":[{"label":"Etterprøvbarhet"},{"label":"Fagfellevurdering"},{"label":"Åpenhet"}]},{"label":"Sikkerhet","children":[{"label":"Risikovurdering"},{"label":"Verneutstyr"},{"label":"Avfall"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'naturfag-vg1:naturvitenskapelig-metode';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('naturfag-vg1:naturvitenskapelig-metode', 'Hypotese', 'En mulig, testbar forklaring eller forutsigelse.', 0),
+  ('naturfag-vg1:naturvitenskapelig-metode', 'Uavhengig variabel', 'Det vi endrer i et forsøk.', 1),
+  ('naturfag-vg1:naturvitenskapelig-metode', 'Avhengig variabel', 'Det vi måler i et forsøk.', 2),
+  ('naturfag-vg1:naturvitenskapelig-metode', 'Kontrollerte variabler', 'Det vi holder likt i et forsøk.', 3),
+  ('naturfag-vg1:naturvitenskapelig-metode', 'Kontrollgruppe', 'Gruppe uten behandling som brukes til sammenligning.', 4),
+  ('naturfag-vg1:naturvitenskapelig-metode', 'Feilkilde', 'Noe som kan gjøre resultatene unøyaktige.', 5),
+  ('naturfag-vg1:naturvitenskapelig-metode', 'Modell', 'En forenklet framstilling av virkeligheten.', 6),
+  ('naturfag-vg1:naturvitenskapelig-metode', 'Teori', 'En godt underbygd forklaring støttet av mange observasjoner.', 7),
+  ('naturfag-vg1:naturvitenskapelig-metode', 'Etterprøvbarhet', 'At andre kan gjenta forsøket og få samme resultat.', 8),
+  ('naturfag-vg1:naturvitenskapelig-metode', 'Fagfellevurdering', 'At forskere vurderer hverandres arbeid før publisering.', 9),
+  ('naturfag-vg1:naturvitenskapelig-metode', 'Rutherford', 'Oppdaget atomkjernen.', 10),
+  ('naturfag-vg1:naturvitenskapelig-metode', 'Risikovurdering', 'Vurdering av farer og tiltak før et forsøk.', 11),
+  ('naturfag-vg1:naturvitenskapelig-metode', 'Sikkerhetsdatablad', 'Dokument med informasjon om farer og håndtering av et kjemikalie.', 12),
+  ('naturfag-vg1:naturvitenskapelig-metode', 'Avtrekksskap', 'Skap med avsug som brukes ved giftige gasser.', 13),
+  ('naturfag-vg1:naturvitenskapelig-metode', 'Tungmetallavfall', 'Skal aldri i vasken, men i egne merkede beholdere.', 14);
+delete from public.quiz_sporsmal where tema_id = 'naturfag-vg1:naturvitenskapelig-metode';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('naturfag-vg1:naturvitenskapelig-metode', 'q01', 'flervalg', 'Hva kjennetegner en god hypotese?', array['Den er sann', 'Den kan testes', 'Den er lang', 'Den er basert på en mening']::text[], 1, 'En hypotese må kunne styrkes eller svekkes av forsøk.', true, true, 0),
+  ('naturfag-vg1:naturvitenskapelig-metode', 'q02', 'flervalg', 'Du undersøker hvordan temperaturen påvirker hvor raskt sukker løses opp. Hva er den uavhengige variabelen?', array['Temperaturen', 'Tiden det tar', 'Mengden sukker', 'Størrelsen på begeret']::text[], 0, 'Temperaturen er det du endrer.', true, true, 1),
+  ('naturfag-vg1:naturvitenskapelig-metode', 'q03', 'flervalg', 'Hva er en teori i naturvitenskapen?', array['En gjetning', 'En mening', 'En godt underbygd forklaring støttet av mange observasjoner', 'En hypotese som ikke er testet']::text[], 2, 'Evolusjonsteorien og big bang-teorien er eksempler.', true, true, 2),
+  ('naturfag-vg1:naturvitenskapelig-metode', 'q04', 'flervalg', 'Hvorfor gjentar vi et forsøk flere ganger?', array['For å bruke mer utstyr', 'For å få flere feil', 'For å endre hypotesen', 'For å få mer pålitelige resultater']::text[], 3, 'Gjentakelser avslører tilfeldige feil.', true, true, 3),
+  ('naturfag-vg1:naturvitenskapelig-metode', 'q05', 'flervalg', 'Hvem oppdaget atomkjernen?', array['Rutherford', 'Dalton', 'Bohr', 'Thomson']::text[], 0, 'Thomson oppdaget elektronet, og Bohr plasserte elektronene i skall.', true, true, 4),
+  ('naturfag-vg1:naturvitenskapelig-metode', 'q06', 'flervalg', 'Hva betyr etterprøvbarhet?', array['At forsøket er billig', 'At andre kan gjenta forsøket og få samme resultat', 'At læreren godkjenner forsøket', 'At forsøket er farlig']::text[], 1, 'Etterprøvbarhet er et grunnleggende krav i naturvitenskapen.', true, true, 5),
+  ('naturfag-vg1:naturvitenskapelig-metode', 'q07', 'flervalg', 'Hvor skal du kaste avfall som inneholder tungmetaller?', array['I vasken', 'I restavfallet', 'I en egen merket avfallsbeholder', 'I papirkurven']::text[], 2, 'Tungmetaller er skadelige for miljøet.', true, true, 6),
+  ('naturfag-vg1:naturvitenskapelig-metode', 'q08', 'flervalg', 'Hva er en modell i naturvitenskapen?', array['En person som poserer', 'En sann kopi av virkeligheten', 'En type forsøk', 'En forenklet framstilling av virkeligheten']::text[], 3, 'Modeller hjelper oss å forstå og forutsi.', true, true, 7),
+  ('naturfag-vg1:naturvitenskapelig-metode', 'q09', 'flervalg', 'Hva er fagfellevurdering?', array['At forskere vurderer hverandres arbeid før publisering', 'At elever retter hverandres prøver', 'At journalister omtaler forskning', 'At forskning blir patentert']::text[], 0, 'Det skal fange opp feil og svakheter.', true, false, 8),
+  ('naturfag-vg1:naturvitenskapelig-metode', 'q10', 'flervalg', 'Hvor finner du informasjon om farene ved et kjemikalie?', array['På etiketten til flasken med farger', 'I sikkerhetsdatabladet', 'I læreboka i historie', 'På nettsiden til skolen']::text[], 1, 'Sikkerhetsdatabladet beskriver farer, verneutstyr og avfallshåndtering.', true, false, 9),
+  ('naturfag-vg1:naturvitenskapelig-metode', 'm01', 'sant-usant', 'I et godt forsøk endrer vi bare én variabel om gangen.', array['Sant', 'Usant']::text[], 0, 'Da vet vi hva som forårsaket endringen.', false, true, 10),
+  ('naturfag-vg1:naturvitenskapelig-metode', 'm02', 'sant-usant', 'En teori er det samme som en gjetning.', array['Sant', 'Usant']::text[], 1, 'En teori er godt underbygd av mange observasjoner.', false, true, 11),
+  ('naturfag-vg1:naturvitenskapelig-metode', 'm03', 'sant-usant', 'Naturvitenskapelig kunnskap kan endre seg når nye data kommer.', array['Sant', 'Usant']::text[], 0, 'Atommodellen har for eksempel endret seg mange ganger.', false, true, 12),
+  ('naturfag-vg1:naturvitenskapelig-metode', 'm04', 'sant-usant', 'Organiske løsemidler kan helles i vasken.', array['Sant', 'Usant']::text[], 1, 'De skal i egne avfallsbeholdere.', false, true, 13),
+  ('naturfag-vg1:naturvitenskapelig-metode', 'm05', 'flervalg', 'Du måler hvor høyt planter vokser med ulike mengder gjødsel. Hva er den avhengige variabelen?', array['Mengden gjødsel', 'Plantenes høyde', 'Mengden vann', 'Plantetypen']::text[], 1, 'Det du måler er den avhengige variabelen.', false, true, 14),
+  ('naturfag-vg1:naturvitenskapelig-metode', 'm06', 'flervalg', 'Når bør du bruke avtrekksskap?', array['Når du veier salt', 'Når du tegner grafer', 'Når forsøket gir giftige eller illeluktende gasser', 'Alltid når du bruker vann']::text[], 2, 'Avtrekket fjerner gassene.', false, true, 15),
+  ('naturfag-vg1:naturvitenskapelig-metode', 'm07', 'flervalg', 'Hva må du gjøre når du presenterer et eget forsøk?', array['Begrunne metodevalgene og drøfte usikkerhet', 'Bare vise det beste resultatet', 'Skjule feilkildene', 'Bare fortelle konklusjonen']::text[], 0, 'Åpenhet om metode og usikkerhet gjør resultatene troverdige.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('naturfag-vg1:naturvitenskapelig-metode', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Naturfag: Programmering og modellering i naturfag
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('naturfag-vg1:programmering-og-modellering', 'naturfag-vg1', 'programmering-og-modellering', 'Programmering og modellering i naturfag', 'Hvordan du lager og vurderer programmer som modellerer naturfaglige fenomener – radioaktiv nedbrytning, populasjonsvekst og fall med luftmotstand – med variabler, løkker, tidssteg og grafer.', array[4]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('naturfag-vg1:programmering-og-modellering', '## Hvorfor modellere med programmering?
+
+Mange fenomener i naturen er for raske, for langsomme, for store eller for farlige til å undersøke direkte. Med en **datamodell** kan vi **simulere** hva som skjer, endre forutsetningene og se hvordan resultatet påvirkes. En modell er alltid en **forenkling**.
+
+## Byggesteiner i Python
+
+- **Variabler** lagrer verdier: masse = 2.5
+- **Løkker** gjentar beregninger: for i in range(100) eller while t < 10
+- **Betingelser** velger mellom handlinger: if v < 0
+- **Lister** lagrer mange verdier, for eksempel målinger over tid: tider.append(t)
+- **Plotting**, for eksempel med biblioteket **matplotlib**, viser resultatene som grafer.
+
+## Tidssteg
+
+Mange simuleringer regner ut hva som skjer i små **tidssteg** (dt). For hvert steg oppdaterer vi størrelsene ut fra hvordan de endrer seg:
+
+- ny fart = fart + akselerasjon · dt
+- ny posisjon = posisjon + fart · dt
+- ny tid = tid + dt
+
+Dette kalles **Eulers metode**. Jo **mindre** tidssteget er, desto mer **nøyaktig** blir simuleringen – men den tar også lengre tid å kjøre.
+
+## Eksempel 1: radioaktiv nedbrytning
+
+Et radioaktivt stoff med halveringstid T minker slik at halvparten er igjen etter hver halveringstid:
+
+N = N₀ · (1/2)^(t/T)
+
+I et program kan vi også **simulere tilfeldighet**: For hver kjerne trekker vi et tilfeldig tall, og kjernen brytes ned hvis tallet er mindre enn sannsynligheten for nedbrytning i tidssteget. Med mange kjerner blir grafen nesten lik den matematiske modellen – men med få kjerner ser vi tydelige tilfeldige variasjoner.
+
+## Eksempel 2: populasjonsvekst
+
+En bakteriepopulasjon kan først vokse **eksponentielt**. Men i naturen er det begrenset med mat og plass, så veksten flater ut ved **bæreevnen** K. En **logistisk** modell tar hensyn til dette: veksten per tidssteg er r · N · (1 − N/K), der r er vekstraten.
+
+## Eksempel 3: fall med luftmotstand
+
+Uten luftmotstand øker farten til et fallende legeme med 9,8 m/s hvert sekund. Med **luftmotstand** øker motstandskraften med farten, og til slutt blir kreftene like store. Da slutter farten å øke – legemet når **terminalfarten**. En simulering med tidssteg viser dette tydelig.
+
+## Vurdere et program
+
+Når du vurderer en modell eller et program, spør:
+
+- Hvilke **forenklinger** er gjort?
+- Er **tidssteget** lite nok?
+- Stemmer resultatene med **målinger** eller kjente verdier?
+- Innenfor hvilket **gyldighetsområde** gir modellen mening?
+- Er koden **lesbar**, med gode variabelnavn og kommentarer?
+
+En modell som passer godt med målinger, gir oss større tiltro til at vi forstår fenomenet.', '{"label":"Programmering og modellering","children":[{"label":"Python","children":[{"label":"Variabler"},{"label":"Løkker"},{"label":"Lister"},{"label":"Grafer"}]},{"label":"Tidssteg","children":[{"label":"Eulers metode"},{"label":"Nøyaktighet"}]},{"label":"Eksempler","children":[{"label":"Radioaktiv nedbrytning"},{"label":"Populasjonsvekst"},{"label":"Fall med luftmotstand"}]},{"label":"Begreper","children":[{"label":"Halveringstid"},{"label":"Bæreevne"},{"label":"Terminalfart"}]},{"label":"Vurdering","children":[{"label":"Forenklinger"},{"label":"Sammenligne med målinger"},{"label":"Gyldighetsområde"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'naturfag-vg1:programmering-og-modellering';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('naturfag-vg1:programmering-og-modellering', 'Datamodell', 'Et program som simulerer et fenomen.', 0),
+  ('naturfag-vg1:programmering-og-modellering', 'Simulering', 'Å etterligne et fenomen med en modell for å se hva som skjer.', 1),
+  ('naturfag-vg1:programmering-og-modellering', 'Variabel i Python', 'Et navn som lagrer en verdi, som masse = 2.5.', 2),
+  ('naturfag-vg1:programmering-og-modellering', 'Løkke', 'Gjentar kode, for eksempel for eller while.', 3),
+  ('naturfag-vg1:programmering-og-modellering', 'Liste', 'Lagrer mange verdier, for eksempel målinger over tid.', 4),
+  ('naturfag-vg1:programmering-og-modellering', 'matplotlib', 'Python-bibliotek for å lage grafer.', 5),
+  ('naturfag-vg1:programmering-og-modellering', 'Tidssteg (dt)', 'Den lille tidsperioden simuleringen regner ut for hvert steg.', 6),
+  ('naturfag-vg1:programmering-og-modellering', 'Eulers metode', 'Oppdaterer fart og posisjon steg for steg: v = v + a · dt.', 7),
+  ('naturfag-vg1:programmering-og-modellering', 'Mindre tidssteg', 'Gir mer nøyaktig simulering, men tar lengre tid.', 8),
+  ('naturfag-vg1:programmering-og-modellering', 'Halveringstid', 'Tiden det tar før halvparten av kjernene er brutt ned.', 9),
+  ('naturfag-vg1:programmering-og-modellering', 'N = N₀ · (1/2)^(t/T)', 'Modell for radioaktiv nedbrytning.', 10),
+  ('naturfag-vg1:programmering-og-modellering', 'Bæreevne (K)', 'Den største populasjonen et miljø kan opprettholde.', 11),
+  ('naturfag-vg1:programmering-og-modellering', 'Logistisk vekst', 'Vekst som flater ut mot bæreevnen.', 12),
+  ('naturfag-vg1:programmering-og-modellering', 'Terminalfart', 'Den konstante farten et fallende legeme når med luftmotstand.', 13),
+  ('naturfag-vg1:programmering-og-modellering', 'Gyldighetsområde', 'Verdiene der modellen gir mening.', 14);
+delete from public.quiz_sporsmal where tema_id = 'naturfag-vg1:programmering-og-modellering';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('naturfag-vg1:programmering-og-modellering', 'q01', 'flervalg', 'Hva skjer vanligvis når du gjør tidssteget i en simulering mindre?', array['Simuleringen blir mindre nøyaktig', 'Simuleringen blir mer nøyaktig, men tar lengre tid', 'Ingenting', 'Programmet slutter å virke']::text[], 1, 'Små steg følger endringene tettere.', true, true, 0),
+  ('naturfag-vg1:programmering-og-modellering', 'q02', 'flervalg', 'Hvordan oppdateres farten i Eulers metode?', array['v = v + a · dt', 'v = a · t²', 'v = v · dt', 'v = s / a']::text[], 0, 'Farten endres med akselerasjonen ganger tidssteget.', true, true, 1),
+  ('naturfag-vg1:programmering-og-modellering', 'q03', 'flervalg', 'Et stoff har halveringstid 8 dager. Hvor stor andel er igjen etter 24 dager?', array['1/2', '1/3', '1/8', '1/24']::text[], 2, '24 dager er tre halveringstider: (1/2)³ = 1/8.', true, true, 2),
+  ('naturfag-vg1:programmering-og-modellering', 'q04', 'flervalg', 'Hva er bæreevnen i en populasjonsmodell?', array['Hvor fort populasjonen vokser', 'Antall individer ved start', 'Hvor lenge individene lever', 'Den største populasjonen miljøet kan opprettholde']::text[], 3, 'Logistisk vekst flater ut mot bæreevnen.', true, true, 3),
+  ('naturfag-vg1:programmering-og-modellering', 'q05', 'flervalg', 'Hva er terminalfart?', array['Den konstante farten et fallende legeme når når luftmotstand og tyngdekraft er like store', 'Farten ved start', 'Farten uten luftmotstand', 'Farten på en flyplass']::text[], 0, 'Da er summen av kreftene null.', true, true, 4),
+  ('naturfag-vg1:programmering-og-modellering', 'q06', 'flervalg', 'Hvorfor ser en simulering av radioaktiv nedbrytning med få kjerner ujevn ut?', array['Fordi programmet har feil', 'Fordi nedbrytning er tilfeldig, og tilfeldige variasjoner synes godt med få kjerner', 'Fordi halveringstiden endrer seg', 'Fordi tidssteget er for lite']::text[], 1, 'Med mange kjerner jevner tilfeldighetene seg ut.', true, true, 5),
+  ('naturfag-vg1:programmering-og-modellering', 'q07', 'flervalg', 'Hva brukes matplotlib til?', array['Å regne med brøk', 'Å lagre filer', 'Å lage grafer', 'Å lage nettsider']::text[], 2, 'Grafer gjør det lett å tolke resultatene.', true, true, 6),
+  ('naturfag-vg1:programmering-og-modellering', 'q08', 'flervalg', 'Hvilket spørsmål er viktig når du vurderer en modell?', array['Hvor mange linjer har koden?', 'Hvilken farge har grafen?', 'Hvem skrev programmet?', 'Stemmer resultatene med målinger?']::text[], 3, 'Sammenligning med målinger tester modellen.', true, true, 7),
+  ('naturfag-vg1:programmering-og-modellering', 'q09', 'flervalg', 'Hva gjør en while-løkke?', array['Gjentar kode så lenge en betingelse er sann', 'Kjører koden én gang', 'Lager en graf', 'Lagrer en verdi']::text[], 0, 'For eksempel while t < 10.', true, false, 8),
+  ('naturfag-vg1:programmering-og-modellering', 'q10', 'flervalg', 'Hvorfor er en modell alltid en forenkling?', array['Fordi datamaskiner er trege', 'Fordi den bare tar med de viktigste faktorene', 'Fordi naturen er enkel', 'Fordi programmering er vanskelig']::text[], 1, 'Alle detaljer i naturen kan ikke tas med.', true, false, 9),
+  ('naturfag-vg1:programmering-og-modellering', 'm01', 'sant-usant', 'Uten luftmotstand øker farten til et fallende legeme med omtrent 9,8 m/s hvert sekund.', array['Sant', 'Usant']::text[], 0, 'Tyngdeakselerasjonen er omtrent 9,8 m/s².', false, true, 10),
+  ('naturfag-vg1:programmering-og-modellering', 'm02', 'sant-usant', 'En simulering gir alltid nøyaktig samme resultat som virkeligheten.', array['Sant', 'Usant']::text[], 1, 'Modeller er forenklinger.', false, true, 11),
+  ('naturfag-vg1:programmering-og-modellering', 'm03', 'sant-usant', 'Logistisk vekst tar hensyn til begrenset mat og plass.', array['Sant', 'Usant']::text[], 0, 'Veksten flater ut mot bæreevnen.', false, true, 12),
+  ('naturfag-vg1:programmering-og-modellering', 'm04', 'sant-usant', 'Ved radioaktiv nedbrytning vet vi nøyaktig når hver enkelt kjerne brytes ned.', array['Sant', 'Usant']::text[], 1, 'Nedbrytningen er tilfeldig for hver kjerne.', false, true, 13),
+  ('naturfag-vg1:programmering-og-modellering', 'm05', 'flervalg', 'Hvordan oppdateres posisjonen i en simulering med tidssteg?', array['s = s + v · dt', 's = v / dt', 's = a · v', 's = s − dt']::text[], 0, 'Posisjonen endres med farten ganger tidssteget.', false, true, 14),
+  ('naturfag-vg1:programmering-og-modellering', 'm06', 'flervalg', 'Hvor stor andel av et radioaktivt stoff er igjen etter to halveringstider?', array['1/2', '1/8', '1/4', '0']::text[], 2, '(1/2)² = 1/4.', false, true, 15),
+  ('naturfag-vg1:programmering-og-modellering', 'm07', 'flervalg', 'Hva gjør koden lesbar?', array['Korte, kryptiske navn', 'Gode variabelnavn og kommentarer', 'Så få linjer som mulig uansett', 'Ingen innrykk']::text[], 1, 'Lesbar kode er lettere å kontrollere og forbedre.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('naturfag-vg1:programmering-og-modellering', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Naturfag: Bølger og trådløs kommunikasjon
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('naturfag-vg1:bolger-og-tradlos-kommunikasjon', 'naturfag-vg1', 'bolger-og-tradlos-kommunikasjon', 'Bølger og trådløs kommunikasjon', 'Bølgebegreper som bølgelengde, frekvens og amplitude, bølgefenomener som refleksjon, brytning, diffraksjon, interferens og dopplereffekt, lyd og hvordan trådløs kommunikasjon med radiobølger fungerer.', array[5, 6]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('naturfag-vg1:bolger-og-tradlos-kommunikasjon', '## Hva er en bølge?
+
+En **bølge** er en forstyrrelse som brer seg og **transporterer energi** – uten at stoffet selv flytter seg langt. Når en bølge går gjennom vann, beveger vannet seg mest opp og ned.
+
+- **Transversale bølger**: Svingningen står **vinkelrett** på bevegelsesretningen, som bølger på en tråd og elektromagnetiske bølger.
+- **Longitudinale bølger**: Svingningen går **langs** bevegelsesretningen, som **lyd**, der luften presses sammen og tynnes ut.
+
+## Viktige størrelser
+
+- **Bølgelengde** (λ): avstanden mellom to bølgetopper, i meter.
+- **Frekvens** (f): antall svingninger per sekund, i **hertz** (Hz).
+- **Amplitude**: hvor stort utslaget er – gir lydstyrke eller lysstyrke.
+- **Bølgefart** (v): **v = λ · f**
+
+Lyd går med omtrent **340 m/s** i luft. Mennesker hører lyd mellom omtrent **20 Hz og 20 000 Hz**. Lyd med høyere frekvens kalles **ultralyd** og brukes blant annet i medisin. Elektromagnetiske bølger, som lys og radiobølger, går med **lysfarten**, omtrent 3,0 · 10⁸ m/s, og trenger ikke noe stoff å bre seg i.
+
+## Bølgefenomener
+
+- **Refleksjon**: Bølgen kastes tilbake, som et ekko eller et speilbilde.
+- **Brytning** (refraksjon): Bølgen skifter retning når den går over i et annet stoff med en annen fart – derfor ser et sugerør knekt ut i et glass vann.
+- **Diffraksjon** (bøyning): Bølgen bøyer seg rundt hindringer og sprer seg gjennom åpninger – derfor hører vi lyd rundt et hjørne.
+- **Interferens**: To bølger som møtes, kan **forsterke** hverandre (topp møter topp) eller **slukke** hverandre (topp møter bunn). Støydempende hodetelefoner bruker dette.
+- **Dopplereffekt**: Frekvensen vi oppfatter, øker når kilden nærmer seg og minker når den fjerner seg – tenk på en ambulanse som kjører forbi.
+- **Resonans**: Et system svinger kraftig når det påvirkes med sin egen naturlige frekvens.
+
+## Trådløs kommunikasjon
+
+Trådløs kommunikasjon bruker **radiobølger** – elektromagnetiske bølger med lang bølgelengde.
+
+1. Informasjon (lyd, bilde, tekst) gjøres om til et **signal**.
+2. Signalet legges på en **bærebølge** ved å endre amplituden (**AM**), frekvensen (**FM**) eller andre egenskaper – dette kalles **modulasjon**.
+3. En **antenne** sender ut radiobølgene.
+4. En mottakerantenne fanger dem opp, og signalet gjøres om til informasjon igjen.
+
+I dag er det meste **digitalt**: Informasjonen er kodet som **bits** – enere og nuller – som er mindre utsatt for støy enn analoge signaler.
+
+## Eksempler
+
+- **Mobilnettet** består av mange **basestasjoner** som hver dekker et område (en celle).
+- **Wi-Fi** bruker frekvenser rundt 2,4 og 5 GHz.
+- **Bluetooth** brukes over korte avstander.
+- **GPS**-mottakere beregner posisjonen ut fra signaler fra flere satellitter.
+- **NFC** gjør det mulig å betale ved å holde kortet eller telefonen inntil en terminal.', '{"label":"Bølger og trådløs kommunikasjon","children":[{"label":"Bølgetyper","children":[{"label":"Transversale"},{"label":"Longitudinale"},{"label":"Elektromagnetiske"}]},{"label":"Størrelser","children":[{"label":"Bølgelengde"},{"label":"Frekvens"},{"label":"Amplitude"},{"label":"v = λ · f"}]},{"label":"Fenomener","children":[{"label":"Refleksjon og brytning"},{"label":"Diffraksjon"},{"label":"Interferens"},{"label":"Dopplereffekt"}]},{"label":"Trådløst","children":[{"label":"Radiobølger"},{"label":"Modulasjon"},{"label":"Digitale signaler"}]},{"label":"Teknologi","children":[{"label":"Mobilnett"},{"label":"Wi-Fi og Bluetooth"},{"label":"GPS og NFC"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'naturfag-vg1:bolger-og-tradlos-kommunikasjon';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('naturfag-vg1:bolger-og-tradlos-kommunikasjon', 'Bølge', 'En forstyrrelse som brer seg og transporterer energi.', 0),
+  ('naturfag-vg1:bolger-og-tradlos-kommunikasjon', 'Transversal bølge', 'Svingningen står vinkelrett på bevegelsesretningen.', 1),
+  ('naturfag-vg1:bolger-og-tradlos-kommunikasjon', 'Longitudinal bølge', 'Svingningen går langs bevegelsesretningen, som lyd.', 2),
+  ('naturfag-vg1:bolger-og-tradlos-kommunikasjon', 'Bølgelengde (λ)', 'Avstanden mellom to bølgetopper.', 3),
+  ('naturfag-vg1:bolger-og-tradlos-kommunikasjon', 'Frekvens', 'Antall svingninger per sekund, målt i hertz.', 4),
+  ('naturfag-vg1:bolger-og-tradlos-kommunikasjon', 'v = λ · f', 'Bølgefart er bølgelengde ganger frekvens.', 5),
+  ('naturfag-vg1:bolger-og-tradlos-kommunikasjon', 'Hørbar lyd', 'Omtrent 20 Hz til 20 000 Hz.', 6),
+  ('naturfag-vg1:bolger-og-tradlos-kommunikasjon', 'Refleksjon', 'Bølgen kastes tilbake, som et ekko.', 7),
+  ('naturfag-vg1:bolger-og-tradlos-kommunikasjon', 'Brytning', 'Bølgen skifter retning i et nytt stoff.', 8),
+  ('naturfag-vg1:bolger-og-tradlos-kommunikasjon', 'Diffraksjon', 'Bølgen bøyer seg rundt hindringer.', 9),
+  ('naturfag-vg1:bolger-og-tradlos-kommunikasjon', 'Interferens', 'Bølger som møtes, forsterker eller slukker hverandre.', 10),
+  ('naturfag-vg1:bolger-og-tradlos-kommunikasjon', 'Dopplereffekt', 'Oppfattet frekvens endres når kilden beveger seg.', 11),
+  ('naturfag-vg1:bolger-og-tradlos-kommunikasjon', 'Modulasjon', 'Å legge informasjon på en bærebølge.', 12),
+  ('naturfag-vg1:bolger-og-tradlos-kommunikasjon', 'Digitalt signal', 'Informasjon kodet som enere og nuller.', 13),
+  ('naturfag-vg1:bolger-og-tradlos-kommunikasjon', 'Basestasjon', 'Sender og mottaker som dekker en celle i mobilnettet.', 14);
+delete from public.quiz_sporsmal where tema_id = 'naturfag-vg1:bolger-og-tradlos-kommunikasjon';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('naturfag-vg1:bolger-og-tradlos-kommunikasjon', 'q01', 'flervalg', 'Hva er formelen for bølgefart?', array['v = λ / f', 'v = λ · f', 'v = f / λ', 'v = λ + f']::text[], 1, 'Bølgefart = bølgelengde · frekvens.', true, true, 0),
+  ('naturfag-vg1:bolger-og-tradlos-kommunikasjon', 'q02', 'flervalg', 'Hva slags bølge er lyd?', array['Longitudinal', 'Transversal', 'Elektromagnetisk', 'Stående']::text[], 0, 'Luften presses sammen og tynnes ut langs bevegelsesretningen.', true, true, 1),
+  ('naturfag-vg1:bolger-og-tradlos-kommunikasjon', 'q03', 'flervalg', 'Hvorfor ser et sugerør knekt ut i et glass vann?', array['Refleksjon', 'Interferens', 'Brytning', 'Dopplereffekt']::text[], 2, 'Lyset skifter retning når det går fra vann til luft.', true, true, 2),
+  ('naturfag-vg1:bolger-og-tradlos-kommunikasjon', 'q04', 'flervalg', 'Hvorfor høres sirenen til en ambulanse lysere ut når den nærmer seg?', array['Resonans', 'Diffraksjon', 'Refleksjon', 'Dopplereffekt']::text[], 3, 'Bølgene presses sammen foran kilden.', true, true, 3),
+  ('naturfag-vg1:bolger-og-tradlos-kommunikasjon', 'q05', 'flervalg', 'Hva er frekvensen til en lydbølge med bølgelengde 0,34 m når lydfarten er 340 m/s?', array['1000 Hz', '100 Hz', '115,6 Hz', '10 Hz']::text[], 0, 'f = v / λ = 340 / 0,34 = 1000 Hz.', true, true, 4),
+  ('naturfag-vg1:bolger-og-tradlos-kommunikasjon', 'q06', 'flervalg', 'Hva betyr modulasjon i trådløs kommunikasjon?', array['Å forsterke signalet', 'Å legge informasjon på en bærebølge', 'Å slå av senderen', 'Å lagre data']::text[], 1, 'AM og FM er eksempler på modulasjon.', true, true, 5),
+  ('naturfag-vg1:bolger-og-tradlos-kommunikasjon', 'q07', 'flervalg', 'Hvilket fenomen bruker støydempende hodetelefoner?', array['Brytning', 'Dopplereffekt', 'Interferens', 'Refleksjon']::text[], 2, 'De lager en motsatt lydbølge som slukker støyen.', true, true, 6),
+  ('naturfag-vg1:bolger-og-tradlos-kommunikasjon', 'q08', 'flervalg', 'Hvorfor er digitale signaler mindre utsatt for støy enn analoge?', array['De bruker mer strøm', 'De er raskere', 'De sendes med lyd', 'Informasjonen er kodet som enere og nuller som er lette å skille fra hverandre']::text[], 3, 'Små forstyrrelser endrer ikke om en bit er 0 eller 1.', true, true, 7),
+  ('naturfag-vg1:bolger-og-tradlos-kommunikasjon', 'q09', 'flervalg', 'Hvorfor kan vi høre lyd rundt et hjørne?', array['Diffraksjon', 'Brytning', 'Dopplereffekt', 'Resonans']::text[], 0, 'Lydbølger bøyer seg rundt hindringer.', true, false, 8),
+  ('naturfag-vg1:bolger-og-tradlos-kommunikasjon', 'q10', 'flervalg', 'Hva slags bølger brukes i Wi-Fi og mobilnett?', array['Lydbølger', 'Radiobølger', 'Røntgenstråling', 'Vannbølger']::text[], 1, 'Radiobølger er elektromagnetiske bølger med lang bølgelengde.', true, false, 9),
+  ('naturfag-vg1:bolger-og-tradlos-kommunikasjon', 'm01', 'sant-usant', 'Elektromagnetiske bølger kan bre seg gjennom tomt rom.', array['Sant', 'Usant']::text[], 0, 'Derfor når sollyset fram til jorda.', false, true, 10),
+  ('naturfag-vg1:bolger-og-tradlos-kommunikasjon', 'm02', 'sant-usant', 'Lyd går raskere enn lys.', array['Sant', 'Usant']::text[], 1, 'Lys går omtrent en million ganger raskere enn lyd i luft.', false, true, 11),
+  ('naturfag-vg1:bolger-og-tradlos-kommunikasjon', 'm03', 'sant-usant', 'Amplituden bestemmer lydstyrken.', array['Sant', 'Usant']::text[], 0, 'Større utslag gir sterkere lyd.', false, true, 12),
+  ('naturfag-vg1:bolger-og-tradlos-kommunikasjon', 'm04', 'sant-usant', 'Ultralyd har lavere frekvens enn det mennesker kan høre.', array['Sant', 'Usant']::text[], 1, 'Ultralyd har høyere frekvens enn 20 000 Hz.', false, true, 13),
+  ('naturfag-vg1:bolger-og-tradlos-kommunikasjon', 'm05', 'flervalg', 'Hva måles frekvens i?', array['Meter', 'Hertz', 'Watt', 'Sekunder']::text[], 1, '1 Hz er én svingning per sekund.', false, true, 14),
+  ('naturfag-vg1:bolger-og-tradlos-kommunikasjon', 'm06', 'flervalg', 'Hva er et ekko et eksempel på?', array['Refleksjon', 'Brytning', 'Interferens', 'Modulasjon']::text[], 0, 'Lyden kastes tilbake fra en flate.', false, true, 15),
+  ('naturfag-vg1:bolger-og-tradlos-kommunikasjon', 'm07', 'flervalg', 'Hvordan finner en GPS-mottaker posisjonen sin?', array['Ved å måle temperaturen', 'Ved å bruke kameraet', 'Ved å beregne ut fra signaler fra flere satellitter', 'Ved å spørre nærmeste basestasjon om adressen']::text[], 2, 'Tidsforskjellene mellom signalene gir avstanden til hver satellitt.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('naturfag-vg1:bolger-og-tradlos-kommunikasjon', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Naturfag: Elektromagnetisk og ioniserende stråling
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('naturfag-vg1:straling', 'naturfag-vg1', 'straling', 'Elektromagnetisk og ioniserende stråling', 'Det elektromagnetiske spekteret, forskjellen på ioniserende og ikke-ioniserende stråling, radioaktivitet med alfa-, beta- og gammastråling, halveringstid, stråledoser og helseeffekter – og hvordan du vurderer informasjon om stråling.', array[7]::int[], 3, 'sjekkes', array['Sjekk formuleringen om radon som en av de største kildene til stråledose i Norge mot DSA.']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('naturfag-vg1:straling', '## Det elektromagnetiske spekteret
+
+**Elektromagnetisk stråling** er bølger av elektriske og magnetiske felt som går med lysfarten. Sortert fra **lang bølgelengde og lav energi** til **kort bølgelengde og høy energi**:
+
+**radiobølger → mikrobølger → infrarød stråling → synlig lys → UV-stråling → røntgenstråling → gammastråling**
+
+Synlig lys har bølgelengder fra omtrent 400 til 700 nanometer. Jo **kortere** bølgelengde, desto **mer energi** har strålingen.
+
+## Ioniserende og ikke-ioniserende stråling
+
+**Ioniserende stråling** har så mye energi at den kan rive løs elektroner fra atomer og molekyler. Den kan skade **DNA** i cellene og øke risikoen for **kreft**. Eksempler er **røntgenstråling**, **gammastråling** og **partikkelstråling** fra radioaktive stoffer.
+
+**Ikke-ioniserende stråling** har for lite energi til dette. Radiobølger, mikrobølger, infrarød stråling og synlig lys er ikke-ioniserende. **UV-stråling** regnes også som ikke-ioniserende, men har likevel nok energi til å skade DNA i hudcellene – derfor gir for mye sol økt risiko for **hudkreft**.
+
+## Radioaktivitet
+
+Noen atomkjerner er **ustabile** og sender ut stråling når de omdannes. Dette kalles **radioaktivitet**.
+
+| Type | Hva det er | Stoppes av |
+| --- | --- | --- |
+| **Alfa** (α) | heliumkjerne (2 protoner og 2 nøytroner) | et papirark eller huden |
+| **Beta** (β) | elektron | noen millimeter aluminium |
+| **Gamma** (γ) | elektromagnetisk stråling | tykt bly eller betong (svekkes) |
+
+Alfastråling er likevel **svært farlig** hvis stoffet kommer **inn i kroppen**, for eksempel ved innånding.
+
+## Halveringstid
+
+**Halveringstiden** er tiden det tar før **halvparten** av de radioaktive kjernene er omdannet. Den varierer enormt: **jod-131** har omtrent 8 dager, **karbon-14** omtrent 5730 år. Karbon-14 brukes til å **datere** gamle organiske materialer.
+
+## Enheter
+
+- **Becquerel (Bq)**: aktivitet – antall omdannelser per sekund.
+- **Sievert (Sv)**: stråledose – mål for den biologiske virkningen. Ofte bruker vi millisievert (mSv).
+
+## Stråling i hverdagen
+
+Vi utsettes hele tiden for **bakgrunnsstråling** fra verdensrommet, bakken, maten og **radon** – en radioaktiv gass som kommer fra berggrunnen og kan samle seg i hus. Radon regnes som en av de største kildene til stråledose i Norge og er en viktig årsak til lungekreft etter røyking. I **medisin** brukes stråling til røntgenbilder, CT og kreftbehandling. Fordelene veies opp mot risikoen.
+
+## Vurdere informasjon om stråling
+
+Det sprer seg mye usikker informasjon om for eksempel **mobilstråling** og **5G**. Mobiltelefoner bruker **radiobølger**, som er ikke-ioniserende, og myndighetene setter **grenseverdier** for eksponering. Når du vurderer påstander, spør: Hvem står bak? Hvilken type stråling gjelder det? Hva sier **forskningen samlet**, og hva sier fagmyndigheten **DSA** (Direktoratet for strålevern og atomsikkerhet)?', '{"label":"Stråling","children":[{"label":"Spekteret","children":[{"label":"Radio og mikrobølger"},{"label":"Infrarødt og synlig lys"},{"label":"UV, røntgen, gamma"}]},{"label":"Ioniserende?","children":[{"label":"Ioniserende: skader DNA"},{"label":"Ikke-ioniserende"},{"label":"UV og hudkreft"}]},{"label":"Radioaktivitet","children":[{"label":"Alfa"},{"label":"Beta"},{"label":"Gamma"},{"label":"Halveringstid"}]},{"label":"Måling","children":[{"label":"Becquerel"},{"label":"Sievert"}]},{"label":"Hverdag og helse","children":[{"label":"Radon"},{"label":"Medisin"},{"label":"Mobilstråling"},{"label":"Kildekritikk"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'naturfag-vg1:straling';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('naturfag-vg1:straling', 'Elektromagnetisk stråling', 'Bølger av elektriske og magnetiske felt som går med lysfarten.', 0),
+  ('naturfag-vg1:straling', 'Det elektromagnetiske spekteret', 'Radio, mikrobølger, infrarødt, synlig lys, UV, røntgen, gamma.', 1),
+  ('naturfag-vg1:straling', 'Kort bølgelengde', 'Gir høy energi.', 2),
+  ('naturfag-vg1:straling', 'Ioniserende stråling', 'Stråling som kan rive løs elektroner og skade DNA.', 3),
+  ('naturfag-vg1:straling', 'Ikke-ioniserende stråling', 'Stråling med for lite energi til å ionisere, som radiobølger.', 4),
+  ('naturfag-vg1:straling', 'UV-stråling', 'Kan skade DNA i hudcellene og gi hudkreft.', 5),
+  ('naturfag-vg1:straling', 'Radioaktivitet', 'Ustabile atomkjerner som sender ut stråling.', 6),
+  ('naturfag-vg1:straling', 'Alfastråling', 'Heliumkjerner som stoppes av papir, men er farlige inne i kroppen.', 7),
+  ('naturfag-vg1:straling', 'Betastråling', 'Elektroner som stoppes av noen millimeter aluminium.', 8),
+  ('naturfag-vg1:straling', 'Gammastråling', 'Energirik elektromagnetisk stråling som svekkes av bly eller betong.', 9),
+  ('naturfag-vg1:straling', 'Halveringstid', 'Tiden før halvparten av de radioaktive kjernene er omdannet.', 10),
+  ('naturfag-vg1:straling', 'Karbon-14', 'Brukes til datering, halveringstid omtrent 5730 år.', 11),
+  ('naturfag-vg1:straling', 'Becquerel (Bq)', 'Antall radioaktive omdannelser per sekund.', 12),
+  ('naturfag-vg1:straling', 'Sievert (Sv)', 'Enhet for stråledose og biologisk virkning.', 13),
+  ('naturfag-vg1:straling', 'Radon', 'Radioaktiv gass fra berggrunnen som kan samle seg i hus.', 14);
+delete from public.quiz_sporsmal where tema_id = 'naturfag-vg1:straling';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('naturfag-vg1:straling', 'q01', 'flervalg', 'Hvilken stråling har høyest energi?', array['Radiobølger', 'Synlig lys', 'Gammastråling', 'Infrarød stråling']::text[], 2, 'Gammastråling har kortest bølgelengde og høyest energi.', true, true, 0),
+  ('naturfag-vg1:straling', 'q02', 'flervalg', 'Hva kjennetegner ioniserende stråling?', array['Den kan rive løs elektroner og skade DNA', 'Den varmer bare opp', 'Den er alltid synlig', 'Den finnes bare i laboratorier']::text[], 0, 'Derfor kan den øke risikoen for kreft.', true, true, 1),
+  ('naturfag-vg1:straling', 'q03', 'flervalg', 'Hva stopper alfastråling?', array['Bare tykk betong', 'Ingenting', 'Noen meter vann', 'Et papirark']::text[], 3, 'Men alfastrålende stoffer er farlige hvis de kommer inn i kroppen.', true, true, 2),
+  ('naturfag-vg1:straling', 'q04', 'flervalg', 'Hva er betastråling?', array['Heliumkjerner', 'Elektroner', 'Lys', 'Nøytroner']::text[], 1, 'Betastråling stoppes av noen millimeter aluminium.', true, true, 3),
+  ('naturfag-vg1:straling', 'q05', 'flervalg', 'Hva er halveringstid?', array['Tiden før halvparten av de radioaktive kjernene er omdannet', 'Tiden før alt er borte', 'Halve levetiden til et menneske', 'Tiden det tar å måle stråling']::text[], 0, 'Halveringstiden er fast for hvert stoff.', true, true, 4),
+  ('naturfag-vg1:straling', 'q06', 'flervalg', 'Hvilken type stråling bruker mobiltelefoner?', array['Gammastråling', 'Røntgenstråling', 'Alfastråling', 'Radiobølger']::text[], 3, 'Radiobølger er ikke-ioniserende.', true, true, 5),
+  ('naturfag-vg1:straling', 'q07', 'flervalg', 'Hva måler enheten sievert?', array['Antall omdannelser per sekund', 'Bølgelengde', 'Stråledose og biologisk virkning', 'Temperatur']::text[], 2, 'Becquerel måler aktivitet.', true, true, 6),
+  ('naturfag-vg1:straling', 'q08', 'flervalg', 'Hva er radon?', array['En type UV-stråling', 'En radioaktiv gass fra berggrunnen', 'Et mineral i mat', 'En type mobilsignal']::text[], 1, 'Radon kan samle seg i hus og øker risikoen for lungekreft.', true, true, 7),
+  ('naturfag-vg1:straling', 'q09', 'flervalg', 'Hvorfor kan for mye sol gi hudkreft?', array['UV-stråling kan skade DNA i hudcellene', 'Solen sender ut alfastråling', 'Varmen brenner cellene', 'Synlig lys er ioniserende']::text[], 0, 'Bruk solkrem og unngå solbrenthet.', true, false, 8),
+  ('naturfag-vg1:straling', 'q10', 'flervalg', 'Hvilken kilde er best for pålitelig informasjon om strålevern i Norge?', array['En anonym blogg', 'En reklame for strålebeskyttende produkter', 'Direktoratet for strålevern og atomsikkerhet (DSA)', 'En kommentar på sosiale medier']::text[], 2, 'DSA er fagmyndigheten på området.', true, false, 9),
+  ('naturfag-vg1:straling', 'm01', 'sant-usant', 'Røntgenstråling er ioniserende.', array['Sant', 'Usant']::text[], 0, 'Derfor begrenses antall røntgenbilder.', false, true, 10),
+  ('naturfag-vg1:straling', 'm02', 'sant-usant', 'Radiobølger har kortere bølgelengde enn gammastråling.', array['Sant', 'Usant']::text[], 1, 'Radiobølger har den lengste bølgelengden i spekteret.', false, true, 11),
+  ('naturfag-vg1:straling', 'm03', 'sant-usant', 'Karbon-14 kan brukes til å datere gamle organiske materialer.', array['Sant', 'Usant']::text[], 0, 'Halveringstiden er omtrent 5730 år.', false, true, 12),
+  ('naturfag-vg1:straling', 'm04', 'sant-usant', 'Alle radioaktive stoffer har samme halveringstid.', array['Sant', 'Usant']::text[], 1, 'Halveringstiden varierer fra brøkdeler av sekunder til milliarder av år.', false, true, 13),
+  ('naturfag-vg1:straling', 'm05', 'flervalg', 'Hva måler enheten becquerel?', array['Stråledose', 'Antall radioaktive omdannelser per sekund', 'Bølgelengde', 'Energi i joule']::text[], 1, 'Sievert måler stråledose.', false, true, 14),
+  ('naturfag-vg1:straling', 'm06', 'flervalg', 'Et stoff har halveringstid 8 dager. Hvor mye av 80 g er igjen etter 16 dager?', array['40 g', '10 g', '20 g', '0 g']::text[], 2, 'To halveringstider: 80 → 40 → 20 g.', false, true, 15),
+  ('naturfag-vg1:straling', 'm07', 'flervalg', 'Hvilken rekkefølge går fra lav til høy energi?', array['Radio, synlig lys, røntgen', 'Røntgen, synlig lys, radio', 'Synlig lys, radio, røntgen', 'Gamma, UV, infrarødt']::text[], 0, 'Energien øker når bølgelengden blir kortere.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('naturfag-vg1:straling', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Naturfag: Big bang og universets utvikling
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('naturfag-vg1:universets-opprinnelse', 'naturfag-vg1', 'universets-opprinnelse', 'Big bang og universets utvikling', 'Big bang-teorien om hvordan universet oppsto og utviklet seg, og observasjonene som støtter den: rødforskyvning og ekspansjon, kosmisk bakgrunnsstråling og mengden hydrogen og helium – samt hvordan stjerner og grunnstoffer dannes.', array[8]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('naturfag-vg1:universets-opprinnelse', '## Big bang-teorien
+
+**Big bang-teorien** sier at universet for omtrent **13,8 milliarder år** siden var ekstremt **varmt** og **tett**, og at det siden har **utvidet seg** og **kjølt seg ned**. Big bang var ikke en eksplosjon i et rom, men en utvidelse av **selve rommet**.
+
+## Universets utvikling
+
+1. **De første brøkdelene av et sekund**: Universet utvider seg ekstremt raskt. Energi blir til elementærpartikler.
+2. **De første minuttene**: Protoner og nøytroner danner de letteste atomkjernene – hovedsakelig **hydrogen** og **helium**.
+3. **Omtrent 380 000 år etter big bang**: Universet er kaldt nok til at elektroner binder seg til kjernene, og det dannes nøytrale **atomer**. Lyset kan nå bevege seg fritt – dette lyset ser vi i dag som **kosmisk bakgrunnsstråling**.
+4. **Hundrevis av millioner år senere**: Tyngdekraften trekker gass sammen til de første **stjernene** og **galaksene**.
+5. **I dag**: Universet fortsetter å utvide seg – og utvidelsen ser ut til å gå **stadig raskere**.
+
+## Observasjoner som støtter teorien
+
+**1. Rødforskyvning og ekspansjon**
+Lys fra fjerne galakser er **rødforskjøvet** – bølgelengden er strukket mot den røde delen av spekteret. Astronomen **Edwin Hubble** viste i **1929** at jo **lenger unna** en galakse er, desto **raskere** fjerner den seg fra oss. Det tyder på at hele universet utvider seg. Spoler vi tiden bakover, var alt samlet i en svært tett tilstand.
+
+**2. Kosmisk bakgrunnsstråling**
+I **1965** oppdaget **Arno Penzias** og **Robert Wilson** en svak mikrobølgestråling som kommer fra **alle retninger**. Den har en temperatur på omtrent **2,7 K** (–270 °C) og er «ettergløden» fra det unge universet – akkurat som big bang-teorien forutså.
+
+**3. Mengden lette grunnstoffer**
+Teorien forutsier at det tidlige universet besto av omtrent **tre fjerdedeler hydrogen** og **en fjerdedel helium** (målt i masse). Dette stemmer godt med observasjonene.
+
+## Hvordan dannes grunnstoffene?
+
+I **stjernene** smelter lette atomkjerner sammen til tyngre i **fusjon**. Sola omdanner hydrogen til helium og frigjør enorme mengder energi. I store stjerner dannes grunnstoffer som **karbon**, **oksygen** og **jern**. Enda tyngre grunnstoffer dannes blant annet når store stjerner eksploderer som **supernovaer** og når nøytronstjerner kolliderer. Stoffene spres ut i rommet og blir byggesteiner i nye stjerner og planeter – og i oss. Vi er bokstavelig talt laget av **stjernestøv**.
+
+## En teori i utvikling
+
+Big bang-teorien er svært godt underbygd, men det finnes fortsatt **åpne spørsmål**: Hva er **mørk materie** og **mørk energi**, som ser ut til å utgjøre det meste av universet? Og hva skjedde helt i begynnelsen? Slik utvikler naturvitenskapen seg – nye observasjoner reiser nye spørsmål.', '{"label":"Big bang","children":[{"label":"Teorien","children":[{"label":"13,8 milliarder år"},{"label":"Varmt og tett"},{"label":"Rommet utvider seg"}]},{"label":"Utvikling","children":[{"label":"Partikler"},{"label":"Hydrogen og helium"},{"label":"Atomer etter 380 000 år"},{"label":"Stjerner og galakser"}]},{"label":"Bevis","children":[{"label":"Rødforskyvning (Hubble)"},{"label":"Bakgrunnsstråling"},{"label":"Lette grunnstoffer"}]},{"label":"Grunnstoffer","children":[{"label":"Fusjon i stjerner"},{"label":"Supernovaer"},{"label":"Stjernestøv"}]},{"label":"Åpne spørsmål","children":[{"label":"Mørk materie"},{"label":"Mørk energi"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'naturfag-vg1:universets-opprinnelse';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('naturfag-vg1:universets-opprinnelse', 'Big bang-teorien', 'Universet var for 13,8 milliarder år siden svært varmt og tett og har siden utvidet seg.', 0),
+  ('naturfag-vg1:universets-opprinnelse', '13,8 milliarder år', 'Universets omtrentlige alder.', 1),
+  ('naturfag-vg1:universets-opprinnelse', 'Ekspansjon', 'At selve rommet i universet utvider seg.', 2),
+  ('naturfag-vg1:universets-opprinnelse', 'Rødforskyvning', 'Lys fra fjerne galakser er strukket mot lengre, rødere bølgelengder.', 3),
+  ('naturfag-vg1:universets-opprinnelse', 'Edwin Hubble', 'Viste i 1929 at fjerne galakser fjerner seg raskere enn nære.', 4),
+  ('naturfag-vg1:universets-opprinnelse', 'Kosmisk bakgrunnsstråling', 'Svak mikrobølgestråling fra alle retninger, ettergløden fra det unge universet.', 5),
+  ('naturfag-vg1:universets-opprinnelse', 'Penzias og Wilson', 'Oppdaget den kosmiske bakgrunnsstrålingen i 1965.', 6),
+  ('naturfag-vg1:universets-opprinnelse', '2,7 K', 'Temperaturen til den kosmiske bakgrunnsstrålingen.', 7),
+  ('naturfag-vg1:universets-opprinnelse', '380 000 år', 'Omtrent da de første nøytrale atomene ble dannet.', 8),
+  ('naturfag-vg1:universets-opprinnelse', 'Hydrogen og helium', 'De letteste grunnstoffene, dannet i de første minuttene.', 9),
+  ('naturfag-vg1:universets-opprinnelse', 'Fusjon', 'Lette atomkjerner smelter sammen til tyngre og frigjør energi.', 10),
+  ('naturfag-vg1:universets-opprinnelse', 'Supernova', 'Eksplosjon av en stor stjerne som sprer grunnstoffer.', 11),
+  ('naturfag-vg1:universets-opprinnelse', 'Stjernestøv', 'Grunnstoffene i kroppen vår er dannet i stjerner.', 12),
+  ('naturfag-vg1:universets-opprinnelse', 'Mørk materie', 'Usynlig materie som påvirker galakser med tyngdekraften.', 13),
+  ('naturfag-vg1:universets-opprinnelse', 'Mørk energi', 'Ukjent energi som ser ut til å få universet til å utvide seg stadig raskere.', 14);
+delete from public.quiz_sporsmal where tema_id = 'naturfag-vg1:universets-opprinnelse';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('naturfag-vg1:universets-opprinnelse', 'q01', 'flervalg', 'Hvor gammelt er universet ifølge big bang-teorien?', array['4,6 milliarder år', 'Omtrent 13,8 milliarder år', '6000 år', '1 million år']::text[], 1, '4,6 milliarder år er alderen til solsystemet.', true, true, 0),
+  ('naturfag-vg1:universets-opprinnelse', 'q02', 'flervalg', 'Hva viser rødforskyvningen i lyset fra fjerne galakser?', array['At galaksene fjerner seg fra oss', 'At galaksene er varme', 'At galaksene er røde', 'At galaksene nærmer seg oss']::text[], 0, 'Bølgelengden strekkes når rommet utvider seg.', true, true, 1),
+  ('naturfag-vg1:universets-opprinnelse', 'q03', 'flervalg', 'Hva er den kosmiske bakgrunnsstrålingen?', array['Stråling fra sola', 'Radiosignaler fra satellitter', 'Ettergløden fra det unge universet', 'Stråling fra radon']::text[], 2, 'Den kommer fra alle retninger og har en temperatur på omtrent 2,7 K.', true, true, 2),
+  ('naturfag-vg1:universets-opprinnelse', 'q04', 'flervalg', 'Hvem viste i 1929 at universet utvider seg?', array['Albert Einstein', 'Isaac Newton', 'Galileo Galilei', 'Edwin Hubble']::text[], 3, 'Hubble fant at fjerne galakser fjerner seg raskere enn nære.', true, true, 3),
+  ('naturfag-vg1:universets-opprinnelse', 'q05', 'flervalg', 'Hvilke grunnstoffer ble hovedsakelig dannet i de første minuttene etter big bang?', array['Hydrogen og helium', 'Karbon og oksygen', 'Jern og gull', 'Uran og bly']::text[], 0, 'Tyngre grunnstoffer ble dannet senere i stjerner.', true, true, 4),
+  ('naturfag-vg1:universets-opprinnelse', 'q06', 'flervalg', 'Hvor dannes grunnstoffer som karbon og oksygen?', array['I havet', 'I stjerner ved fusjon', 'I jordas kjerne', 'Ved big bang']::text[], 1, 'Store stjerner lager tyngre grunnstoffer.', true, true, 5),
+  ('naturfag-vg1:universets-opprinnelse', 'q07', 'flervalg', 'Hvorfor kalles vi noen ganger «stjernestøv»?', array['Fordi vi lyser i mørket', 'Fordi vi kommer fra Mars', 'Fordi grunnstoffene i kroppen vår er dannet i stjerner', 'Fordi vi er laget av støv fra månen']::text[], 2, 'Karbon, oksygen og jern er dannet i stjerner.', true, true, 6),
+  ('naturfag-vg1:universets-opprinnelse', 'q08', 'flervalg', 'Hva skjedde omtrent 380 000 år etter big bang?', array['De første stjernene ble dannet', 'Jorda ble dannet', 'Universet sluttet å utvide seg', 'De første nøytrale atomene ble dannet, og lyset kunne bevege seg fritt']::text[], 3, 'Dette lyset ser vi i dag som bakgrunnsstråling.', true, true, 7),
+  ('naturfag-vg1:universets-opprinnelse', 'q09', 'flervalg', 'Hvilken observasjon støtter big bang-teorien?', array['Mengden hydrogen og helium i universet', 'At jorda er rund', 'At månen har krater', 'At sola går ned om kvelden']::text[], 0, 'Teorien forutsier omtrent 75 % hydrogen og 25 % helium.', true, false, 8),
+  ('naturfag-vg1:universets-opprinnelse', 'q10', 'flervalg', 'Hva var big bang?', array['En eksplosjon i et tomt rom', 'En utvidelse av selve rommet fra en svært tett og varm tilstand', 'En kollisjon mellom to galakser', 'En supernova']::text[], 1, 'Rommet selv har utvidet seg siden da.', true, false, 9),
+  ('naturfag-vg1:universets-opprinnelse', 'm01', 'sant-usant', 'Sola omdanner hydrogen til helium ved fusjon.', array['Sant', 'Usant']::text[], 0, 'Fusjonen frigjør energien som gjør at sola lyser.', false, true, 10),
+  ('naturfag-vg1:universets-opprinnelse', 'm02', 'sant-usant', 'Den kosmiske bakgrunnsstrålingen kommer bare fra én retning.', array['Sant', 'Usant']::text[], 1, 'Den kommer fra alle retninger.', false, true, 11),
+  ('naturfag-vg1:universets-opprinnelse', 'm03', 'sant-usant', 'Universets utvidelse ser ut til å gå stadig raskere.', array['Sant', 'Usant']::text[], 0, 'Dette forklares med mørk energi.', false, true, 12),
+  ('naturfag-vg1:universets-opprinnelse', 'm04', 'sant-usant', 'Jern ble dannet i de første minuttene etter big bang.', array['Sant', 'Usant']::text[], 1, 'Jern dannes i store stjerner.', false, true, 13),
+  ('naturfag-vg1:universets-opprinnelse', 'm05', 'flervalg', 'Hvem oppdaget den kosmiske bakgrunnsstrålingen?', array['Penzias og Wilson', 'Hubble og Einstein', 'Newton og Galilei', 'Darwin og Wallace']::text[], 0, 'Oppdagelsen ble gjort i 1965.', false, true, 14),
+  ('naturfag-vg1:universets-opprinnelse', 'm06', 'flervalg', 'Hvilken temperatur har den kosmiske bakgrunnsstrålingen?', array['0 °C', '100 K', 'Omtrent 2,7 K', 'Omtrent 5500 °C']::text[], 2, 'Det er bare litt over det absolutte nullpunkt.', false, true, 15),
+  ('naturfag-vg1:universets-opprinnelse', 'm07', 'flervalg', 'Hva er mørk materie?', array['Svart støv i rommet', 'Usynlig materie som påvirker galakser med tyngdekraften', 'Materie i sorte hull bare', 'Materie fra supernovaer']::text[], 1, 'Vi vet ennå ikke hva mørk materie består av.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('naturfag-vg1:universets-opprinnelse', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Naturfag: Kjemiske bindinger og stoffers egenskaper
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('naturfag-vg1:kjemiske-bindinger', 'naturfag-vg1', 'kjemiske-bindinger', 'Kjemiske bindinger og stoffers egenskaper', 'Ionebinding, kovalent binding og metallbinding, polare og upolare molekyler, bindinger mellom molekyler og hvordan bindingene forklarer egenskaper som smeltepunkt, løselighet og elektrisk ledningsevne.', array[9]::int[], 5, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('naturfag-vg1:kjemiske-bindinger', '## Hvorfor binder atomer seg?
+
+Atomer binder seg sammen for å bli mer **stabile** – ofte ved å få **fullt ytterste skall**, som edelgassene. Det kan skje ved å **gi fra seg**, **ta opp** eller **dele** elektroner. Typen binding avgjør mange av stoffets **egenskaper**.
+
+## Ionebinding
+
+**Ionebinding** oppstår mellom et **metall** og et **ikke-metall**. Metallet gir fra seg elektroner og blir et **positivt ion**, mens ikke-metallet tar opp elektroner og blir et **negativt ion**. Ionene holdes sammen av sterke elektriske krefter i et **iongitter**.
+
+Eksempel: **Natriumklorid** (NaCl, bordsalt) består av Na⁺ og Cl⁻.
+
+Egenskaper til ionforbindelser:
+
+- **Høyt smeltepunkt** – NaCl smelter ved 801 °C.
+- **Harde, men sprø** krystaller.
+- Leder **ikke** strøm i fast form, men **leder strøm** når de er **smeltet** eller **løst i vann**, fordi ionene da kan bevege seg.
+
+## Kovalent binding
+
+**Kovalent binding** oppstår mellom **ikke-metaller**, som **deler elektronpar**. Slik dannes **molekyler** som H₂O, CO₂ og CH₄.
+
+- I en **upolar** binding deles elektronene likt, som i H₂ og Cl₂.
+- I en **polar** binding trekker det ene atomet mer på elektronene fordi det har høyere **elektronegativitet**. Da blir den ene enden svakt negativ og den andre svakt positiv.
+
+**Vann** er et **polart molekyl** fordi oksygen trekker på elektronene og molekylet er **vinklet**. CO₂ har polare bindinger, men er **lineært**, så molekylet blir **upolart**.
+
+## Bindinger mellom molekyler
+
+Mellom molekyler virker svakere krefter:
+
+- **Hydrogenbindinger** – mellom molekyler der H er bundet til O, N eller F, som i vann. De forklarer hvorfor vann har et **uvanlig høyt kokepunkt** (100 °C) for et så lite molekyl.
+- **Dipol–dipol-krefter** – mellom polare molekyler.
+- **Van der Waals-krefter** (London-krefter) – svake krefter mellom alle molekyler, sterkere jo større molekylene er.
+
+Molekylære stoffer har derfor ofte **lave smelte- og kokepunkt** – mange er gasser eller væsker ved romtemperatur.
+
+## Metallbinding
+
+I metaller deler atomene de ytterste elektronene i en **elektronsjø** rundt positive metallioner. Det forklarer at metaller
+
+- **leder strøm** og **varme** godt
+- er **formbare** – lagene kan gli uten at bindingene brytes
+- har **metallglans**
+
+## Nettverksstoffer
+
+I noen stoffer er alle atomene bundet sammen med kovalente bindinger i et stort nettverk. **Diamant** og **grafitt** består begge bare av karbon, men **diamant** er ekstremt hard, mens **grafitt** er myk og **leder strøm** fordi noen elektroner kan bevege seg mellom lagene.
+
+## «Likt løser likt»
+
+**Polare** stoffer løses godt i **polare** løsemidler: Salt og sukker løses i vann. **Upolare** stoffer løses i **upolare** løsemidler: Fett løses ikke i vann, men i for eksempel bensin. Derfor trenger vi **såpe**, som har en polar og en upolar ende, for å vaske bort fett.', '{"label":"Kjemiske bindinger","children":[{"label":"Ionebinding","children":[{"label":"Metall + ikke-metall"},{"label":"Iongitter"},{"label":"Høyt smeltepunkt"}]},{"label":"Kovalent binding","children":[{"label":"Deler elektronpar"},{"label":"Polar og upolar"},{"label":"Elektronegativitet"}]},{"label":"Mellom molekyler","children":[{"label":"Hydrogenbindinger"},{"label":"Dipol–dipol"},{"label":"Van der Waals"}]},{"label":"Metallbinding","children":[{"label":"Elektronsjø"},{"label":"Leder strøm"},{"label":"Formbar"}]},{"label":"Egenskaper","children":[{"label":"Likt løser likt"},{"label":"Diamant og grafitt"},{"label":"Såpe"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'naturfag-vg1:kjemiske-bindinger';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('naturfag-vg1:kjemiske-bindinger', 'Ionebinding', 'Binding mellom positive og negative ioner, typisk metall og ikke-metall.', 0),
+  ('naturfag-vg1:kjemiske-bindinger', 'Ion', 'Atom som har gitt fra seg eller tatt opp elektroner og er elektrisk ladet.', 1),
+  ('naturfag-vg1:kjemiske-bindinger', 'Iongitter', 'Regelmessig mønster av positive og negative ioner.', 2),
+  ('naturfag-vg1:kjemiske-bindinger', 'Ionforbindelser leder strøm', 'Når de er smeltet eller løst i vann, ikke i fast form.', 3),
+  ('naturfag-vg1:kjemiske-bindinger', 'Kovalent binding', 'Ikke-metaller deler elektronpar.', 4),
+  ('naturfag-vg1:kjemiske-bindinger', 'Elektronegativitet', 'Hvor sterkt et atom trekker på elektronene i en binding.', 5),
+  ('naturfag-vg1:kjemiske-bindinger', 'Polar binding', 'Elektronene deles ulikt, så bindingen får en positiv og en negativ ende.', 6),
+  ('naturfag-vg1:kjemiske-bindinger', 'Polart molekyl', 'Molekyl med en positiv og en negativ ende, som vann.', 7),
+  ('naturfag-vg1:kjemiske-bindinger', 'Hydrogenbinding', 'Sterk binding mellom molekyler der H er bundet til O, N eller F.', 8),
+  ('naturfag-vg1:kjemiske-bindinger', 'Van der Waals-krefter', 'Svake krefter mellom alle molekyler.', 9),
+  ('naturfag-vg1:kjemiske-bindinger', 'Metallbinding', 'Positive metallioner i en sjø av frie elektroner.', 10),
+  ('naturfag-vg1:kjemiske-bindinger', 'Diamant og grafitt', 'To former av karbon med svært ulike egenskaper.', 11),
+  ('naturfag-vg1:kjemiske-bindinger', 'Likt løser likt', 'Polare stoffer løses i polare løsemidler, upolare i upolare.', 12),
+  ('naturfag-vg1:kjemiske-bindinger', 'Såpe', 'Har en polar og en upolar ende og kan løse fett i vann.', 13),
+  ('naturfag-vg1:kjemiske-bindinger', 'NaCl', 'Natriumklorid, en ionforbindelse med smeltepunkt 801 °C.', 14);
+delete from public.quiz_sporsmal where tema_id = 'naturfag-vg1:kjemiske-bindinger';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('naturfag-vg1:kjemiske-bindinger', 'q01', 'flervalg', 'Hvilken type binding finnes i natriumklorid (NaCl)?', array['Kovalent binding', 'Ionebinding', 'Metallbinding', 'Hydrogenbinding']::text[], 1, 'Na⁺ og Cl⁻ holdes sammen av elektriske krefter.', true, true, 0),
+  ('naturfag-vg1:kjemiske-bindinger', 'q02', 'flervalg', 'Hva skjer i en kovalent binding?', array['Atomene deler elektronpar', 'Et atom gir bort alle elektronene', 'Atomene deler protoner', 'Elektronene flyter fritt i en sjø']::text[], 0, 'Kovalente bindinger dannes mellom ikke-metaller.', true, true, 1),
+  ('naturfag-vg1:kjemiske-bindinger', 'q03', 'flervalg', 'Når leder salt strøm?', array['Alltid', 'Aldri', 'Når det er smeltet eller løst i vann', 'Bare i fast form']::text[], 2, 'Da kan ionene bevege seg.', true, true, 2),
+  ('naturfag-vg1:kjemiske-bindinger', 'q04', 'flervalg', 'Hvorfor er vann et polart molekyl?', array['Fordi det er lineært', 'Fordi det er et metall', 'Fordi det inneholder ioner', 'Fordi oksygen trekker mer på elektronene og molekylet er vinklet']::text[], 3, 'Da får molekylet en negativ og en positiv ende.', true, true, 3),
+  ('naturfag-vg1:kjemiske-bindinger', 'q05', 'flervalg', 'Hva forklarer at metaller leder strøm godt?', array['Frie elektroner i en elektronsjø', 'Hydrogenbindinger', 'Iongitter', 'Polare bindinger']::text[], 0, 'Elektronene kan bevege seg gjennom metallet.', true, true, 4),
+  ('naturfag-vg1:kjemiske-bindinger', 'q06', 'flervalg', 'Hvorfor løses ikke fett i vann?', array['Fordi fett er tyngre enn vann', 'Fordi fett er upolart og vann er polart', 'Fordi vann er for kaldt', 'Fordi fett er et metall']::text[], 1, 'Likt løser likt.', true, true, 5),
+  ('naturfag-vg1:kjemiske-bindinger', 'q07', 'flervalg', 'Hva forklarer at vann har et høyt kokepunkt for et så lite molekyl?', array['Ionebindinger', 'Metallbindinger', 'Hydrogenbindinger mellom molekylene', 'At vann er upolart']::text[], 2, 'Hydrogenbindingene må brytes for at vannet skal koke.', true, true, 6),
+  ('naturfag-vg1:kjemiske-bindinger', 'q08', 'flervalg', 'Hvorfor leder grafitt strøm, mens diamant ikke gjør det?', array['Grafitt inneholder metall', 'Diamant er for hard', 'Grafitt er polart', 'I grafitt kan noen elektroner bevege seg mellom lagene']::text[], 3, 'Begge består bare av karbon, men atomene er ordnet ulikt.', true, true, 7),
+  ('naturfag-vg1:kjemiske-bindinger', 'q09', 'flervalg', 'Hva er elektronegativitet?', array['Hvor sterkt et atom trekker på elektronene i en binding', 'Antall elektroner i et atom', 'Ladningen til et ion', 'Hvor tungt et atom er']::text[], 0, 'Forskjell i elektronegativitet gir polare bindinger.', true, false, 8),
+  ('naturfag-vg1:kjemiske-bindinger', 'q10', 'flervalg', 'Hvorfor er CO₂ upolart selv om bindingene er polare?', array['Fordi karbon er et metall', 'Fordi molekylet er lineært, så polariteten oppheves', 'Fordi det er en gass', 'Fordi det har hydrogenbindinger']::text[], 1, 'De to polare bindingene peker i hver sin retning.', true, false, 9),
+  ('naturfag-vg1:kjemiske-bindinger', 'm01', 'sant-usant', 'Sukker løses godt i vann fordi begge er polare.', array['Sant', 'Usant']::text[], 0, 'Likt løser likt.', false, true, 10),
+  ('naturfag-vg1:kjemiske-bindinger', 'm02', 'sant-usant', 'Ionforbindelser har vanligvis lave smeltepunkt.', array['Sant', 'Usant']::text[], 1, 'De har høye smeltepunkt på grunn av sterke krefter i iongitteret.', false, true, 11),
+  ('naturfag-vg1:kjemiske-bindinger', 'm03', 'sant-usant', 'Metaller er formbare fordi lagene kan gli uten at bindingene brytes.', array['Sant', 'Usant']::text[], 0, 'Elektronsjøen holder atomene sammen.', false, true, 12),
+  ('naturfag-vg1:kjemiske-bindinger', 'm04', 'sant-usant', 'Kovalente bindinger dannes vanligvis mellom to metaller.', array['Sant', 'Usant']::text[], 1, 'Kovalente bindinger dannes mellom ikke-metaller.', false, true, 13),
+  ('naturfag-vg1:kjemiske-bindinger', 'm05', 'flervalg', 'Hvorfor kan såpe vaske bort fett?', array['Den har en polar og en upolar ende', 'Den er et metall', 'Den inneholder salt', 'Den er upolar i begge ender']::text[], 0, 'Den upolare enden binder seg til fettet og den polare til vannet.', false, true, 14),
+  ('naturfag-vg1:kjemiske-bindinger', 'm06', 'flervalg', 'Hva er et eksempel på et upolart molekyl?', array['H₂O', 'NH₃', 'Cl₂', 'HCl']::text[], 2, 'To like atomer deler elektronene likt.', false, true, 15),
+  ('naturfag-vg1:kjemiske-bindinger', 'm07', 'flervalg', 'Hvilken binding er svakest?', array['Ionebinding', 'Van der Waals-krefter', 'Kovalent binding', 'Metallbinding']::text[], 1, 'Van der Waals-krefter er svake krefter mellom molekyler.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('naturfag-vg1:kjemiske-bindinger', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Naturfag: Karbonforbindelser
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('naturfag-vg1:karbonforbindelser', 'naturfag-vg1', 'karbonforbindelser', 'Karbonforbindelser', 'Hvorfor karbon danner så mange forbindelser, organiske stoffgrupper som hydrokarboner, alkoholer og karboksylsyrer, polymerer og plast, uorganiske karbonforbindelser og karbonets betydning for livet på jorda.', array[10]::int[], 6, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('naturfag-vg1:karbonforbindelser', '## Karbon – livets grunnstoff
+
+**Karbon** har fire elektroner i ytterste skall og danner **fire kovalente bindinger**. Karbonatomer kan binde seg til hverandre i lange **kjeder**, **forgreninger** og **ringer**, med enkelt-, dobbelt- og trippelbindinger. Derfor finnes det millioner av karbonforbindelser. Alt liv på jorda er bygd på karbon: karbohydrater, fett, proteiner og DNA.
+
+**Organisk kjemi** handler om karbonforbindelser – med noen unntak, som CO₂ og karbonater, som regnes som **uorganiske**.
+
+## Hydrokarboner
+
+**Hydrokarboner** består bare av karbon og hydrogen.
+
+- **Alkaner** har bare **enkeltbindinger**: metan (CH₄), etan (C₂H₆), propan (C₃H₈), butan (C₄H₁₀). Generell formel CₙH₂ₙ₊₂.
+- **Alkener** har minst én **dobbeltbinding**: eten (C₂H₄) er råstoff for plasten polyeten.
+
+Hydrokarboner finnes i **olje** og **naturgass** og brukes som brensel. Ved fullstendig **forbrenning** dannes karbondioksid og vann:
+
+CH₄ + 2O₂ → CO₂ + 2H₂O
+
+## Andre organiske stoffgrupper
+
+En **funksjonell gruppe** gir stoffet bestemte egenskaper:
+
+- **Alkoholer** har en **–OH-gruppe**. **Etanol** (C₂H₅OH) finnes i alkoholholdige drikker og brukes som drivstoff og desinfeksjonsmiddel.
+- **Karboksylsyrer** har en **–COOH-gruppe** og er svake syrer. **Eddiksyre** (CH₃COOH) gir eddik den sure smaken.
+- **Estere** dannes når en alkohol reagerer med en karboksylsyre, og har ofte god **lukt** – de brukes i parfyme og smaksstoffer.
+
+## Polymerer og plast
+
+**Polymerer** er svært lange molekyler bygd av mange like små enheter (**monomerer**). **Plast** som polyeten og PET er polymerer laget av olje. Naturlige polymerer er for eksempel **stivelse**, **cellulose**, **proteiner** og **DNA**. Plast er nyttig, men brytes svært sakte ned, og **mikroplast** er et økende miljøproblem.
+
+## Uorganiske karbonforbindelser
+
+- **Karbondioksid** (CO₂): dannes ved forbrenning og celleånding, og er en viktig **klimagass**.
+- **Karbonmonoksid** (CO): dannes ved ufullstendig forbrenning og er **svært giftig**.
+- **Karbonater**, som **kalkstein** (CaCO₃), reagerer med syre og gir CO₂: CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂
+- Karbon finnes også som rent grunnstoff: **diamant**, **grafitt** og **grafen**.
+
+## Karbonets kretsløp
+
+Karbon sirkulerer mellom **atmosfæren**, **havet**, **levende organismer** og **berggrunnen**:
+
+- **Fotosyntese**: 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂ – plantene tar opp CO₂ og lagrer energi i glukose.
+- **Celleånding**: Organismer bryter ned glukose og slipper ut CO₂.
+- **Nedbrytning** av døde organismer frigjør CO₂.
+- **Fossile brensler** er karbon som har vært lagret i millioner av år. Når vi brenner dem, øker CO₂-innholdet i atmosfæren, og det forsterker **drivhuseffekten**.
+- **Havet** tar opp mye CO₂, men blir da **surere**, noe som skader blant annet koraller og skjell.', '{"label":"Karbonforbindelser","children":[{"label":"Karbon","children":[{"label":"Fire bindinger"},{"label":"Kjeder og ringer"},{"label":"Diamant og grafitt"}]},{"label":"Hydrokarboner","children":[{"label":"Alkaner"},{"label":"Alkener"},{"label":"Forbrenning"}]},{"label":"Funksjonelle grupper","children":[{"label":"Alkoholer"},{"label":"Karboksylsyrer"},{"label":"Estere"}]},{"label":"Polymerer","children":[{"label":"Plast"},{"label":"Stivelse og DNA"},{"label":"Mikroplast"}]},{"label":"Kretsløpet","children":[{"label":"Fotosyntese"},{"label":"Celleånding"},{"label":"Fossile brensler"},{"label":"Havforsuring"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'naturfag-vg1:karbonforbindelser';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('naturfag-vg1:karbonforbindelser', 'Fire bindinger', 'Karbon danner fire kovalente bindinger.', 0),
+  ('naturfag-vg1:karbonforbindelser', 'Organisk kjemi', 'Kjemien til karbonforbindelser.', 1),
+  ('naturfag-vg1:karbonforbindelser', 'Hydrokarbon', 'Forbindelse av bare karbon og hydrogen.', 2),
+  ('naturfag-vg1:karbonforbindelser', 'Alkan', 'Hydrokarbon med bare enkeltbindinger, CₙH₂ₙ₊₂.', 3),
+  ('naturfag-vg1:karbonforbindelser', 'Alken', 'Hydrokarbon med minst én dobbeltbinding.', 4),
+  ('naturfag-vg1:karbonforbindelser', 'Metan', 'CH₄, den enkleste alkanen, hovedbestanddelen i naturgass.', 5),
+  ('naturfag-vg1:karbonforbindelser', 'Funksjonell gruppe', 'Atomgruppe som gir stoffet bestemte egenskaper.', 6),
+  ('naturfag-vg1:karbonforbindelser', 'Alkohol', 'Organisk stoff med en –OH-gruppe, som etanol.', 7),
+  ('naturfag-vg1:karbonforbindelser', 'Karboksylsyre', 'Organisk syre med en –COOH-gruppe, som eddiksyre.', 8),
+  ('naturfag-vg1:karbonforbindelser', 'Ester', 'Dannes av alkohol og karboksylsyre og har ofte god lukt.', 9),
+  ('naturfag-vg1:karbonforbindelser', 'Polymer', 'Langt molekyl bygd av mange like monomerer.', 10),
+  ('naturfag-vg1:karbonforbindelser', 'Karbonmonoksid (CO)', 'Svært giftig gass fra ufullstendig forbrenning.', 11),
+  ('naturfag-vg1:karbonforbindelser', 'Kalkstein (CaCO₃)', 'Karbonat som reagerer med syre og gir CO₂.', 12),
+  ('naturfag-vg1:karbonforbindelser', 'Fotosyntese', '6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂', 13),
+  ('naturfag-vg1:karbonforbindelser', 'Havforsuring', 'Havet blir surere når det tar opp CO₂.', 14);
+delete from public.quiz_sporsmal where tema_id = 'naturfag-vg1:karbonforbindelser';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('naturfag-vg1:karbonforbindelser', 'q01', 'flervalg', 'Hvor mange kovalente bindinger danner et karbonatom?', array['Fire', 'To', 'Tre', 'Seks']::text[], 0, 'Derfor kan karbon danne kjeder, forgreninger og ringer.', true, true, 0),
+  ('naturfag-vg1:karbonforbindelser', 'q02', 'flervalg', 'Hva kjennetegner en alken?', array['Bare enkeltbindinger', 'En –OH-gruppe', 'Minst én dobbeltbinding', 'En –COOH-gruppe']::text[], 2, 'Eten er den enkleste alkenen.', true, true, 1),
+  ('naturfag-vg1:karbonforbindelser', 'q03', 'flervalg', 'Hva dannes ved fullstendig forbrenning av metan?', array['CO og H₂', 'C og H₂O', 'CH₃OH', 'CO₂ og H₂O']::text[], 3, 'CH₄ + 2O₂ → CO₂ + 2H₂O.', true, true, 2),
+  ('naturfag-vg1:karbonforbindelser', 'q04', 'flervalg', 'Hvilken funksjonell gruppe har alkoholer?', array['–COOH', '–OH', '–NH₂', 'C=C']::text[], 1, 'Etanol er C₂H₅OH.', true, true, 3),
+  ('naturfag-vg1:karbonforbindelser', 'q05', 'flervalg', 'Hva er en polymer?', array['Et langt molekyl bygd av mange like enheter', 'Et grunnstoff', 'En type syre', 'Et metall']::text[], 0, 'Plast, stivelse og DNA er polymerer.', true, true, 4),
+  ('naturfag-vg1:karbonforbindelser', 'q06', 'flervalg', 'Hvorfor er karbonmonoksid farlig?', array['Det er en syre', 'Det er radioaktivt', 'Det er eksplosivt i alle mengder', 'Det er svært giftig']::text[], 3, 'CO hindrer blodet i å transportere oksygen.', true, true, 5),
+  ('naturfag-vg1:karbonforbindelser', 'q07', 'flervalg', 'Hva skjer når kalkstein reagerer med saltsyre?', array['Det dannes oksygen', 'Det dannes CO₂', 'Det dannes metan', 'Ingenting']::text[], 1, 'CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂.', true, true, 6),
+  ('naturfag-vg1:karbonforbindelser', 'q08', 'flervalg', 'Hvilken prosess tar opp CO₂ fra atmosfæren?', array['Celleånding', 'Forbrenning', 'Fotosyntese', 'Nedbrytning']::text[], 2, 'Plantene bruker CO₂ til å lage glukose.', true, true, 7),
+  ('naturfag-vg1:karbonforbindelser', 'q09', 'flervalg', 'Hvilket stoff gir eddik den sure smaken?', array['Eddiksyre', 'Etanol', 'Metan', 'Eten']::text[], 0, 'Eddiksyre er en karboksylsyre.', true, false, 8),
+  ('naturfag-vg1:karbonforbindelser', 'q10', 'flervalg', 'Hva skjer med havet når det tar opp mye CO₂?', array['Det blir varmere', 'Det blir surere', 'Det blir saltere', 'Det blir basisk']::text[], 1, 'Havforsuring skader blant annet koraller og skjell.', true, false, 9),
+  ('naturfag-vg1:karbonforbindelser', 'm01', 'sant-usant', 'Metan er hovedbestanddelen i naturgass.', array['Sant', 'Usant']::text[], 0, 'Metan er den enkleste alkanen.', false, true, 10),
+  ('naturfag-vg1:karbonforbindelser', 'm02', 'sant-usant', 'Karbondioksid regnes som en organisk forbindelse.', array['Sant', 'Usant']::text[], 1, 'CO₂ regnes som uorganisk.', false, true, 11),
+  ('naturfag-vg1:karbonforbindelser', 'm03', 'sant-usant', 'Estere brukes ofte i parfyme og smaksstoffer.', array['Sant', 'Usant']::text[], 0, 'Mange estere har god lukt.', false, true, 12),
+  ('naturfag-vg1:karbonforbindelser', 'm04', 'sant-usant', 'Plast brytes raskt ned i naturen.', array['Sant', 'Usant']::text[], 1, 'Plast brytes svært sakte ned og blir til mikroplast.', false, true, 13),
+  ('naturfag-vg1:karbonforbindelser', 'm05', 'flervalg', 'Hva er den kjemiske formelen for propan?', array['CH₄', 'C₂H₆', 'C₃H₈', 'C₄H₁₀']::text[], 2, 'Alkaner følger CₙH₂ₙ₊₂: n = 3 gir C₃H₈.', false, true, 14),
+  ('naturfag-vg1:karbonforbindelser', 'm06', 'flervalg', 'Hva dannes når en alkohol reagerer med en karboksylsyre?', array['En ester', 'En alkan', 'Et salt', 'En polymer']::text[], 0, 'Reaksjonen kalles forestring.', false, true, 15),
+  ('naturfag-vg1:karbonforbindelser', 'm07', 'flervalg', 'Hvorfor øker CO₂-innholdet i atmosfæren når vi brenner fossile brensler?', array['Fordi forbrenning lager oksygen', 'Fordi karbon som har vært lagret i millioner av år, frigjøres', 'Fordi plantene slutter med fotosyntese', 'Fordi havet slipper ut CO₂']::text[], 1, 'Dette forsterker drivhuseffekten.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('naturfag-vg1:karbonforbindelser', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Naturfag: Miljøgifter i næringskjeder
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('naturfag-vg1:miljogifter', 'naturfag-vg1', 'miljogifter', 'Miljøgifter i næringskjeder', 'Hva miljøgifter er, eksempler som PCB, DDT, kvikksølv og PFAS, hvordan de hoper seg opp i organismer og øker oppover i næringskjeden, og hvilke tiltak som kan beskytte helse og miljø.', array[11]::int[], 7, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('naturfag-vg1:miljogifter', '## Hva er miljøgifter?
+
+**Miljøgifter** er stoffer som kan skade levende organismer selv i **små mengder**. De fleste har tre egenskaper:
+
+- De er **giftige**.
+- De er **lite nedbrytbare** – de blir værende i naturen i lang tid.
+- De **hoper seg opp** i levende organismer, ofte fordi de er **fettløselige**.
+
+## Eksempler
+
+- **PCB**: brukt i elektrisk utstyr, maling og fugemasse. Forbudt i Norge siden 1980, men finnes fortsatt i gamle bygninger og i naturen.
+- **DDT**: et insektmiddel som ble brukt mye etter andre verdenskrig. Det gjorde eggeskallene til rovfugler tynne. Forbudt i Norge siden 1970.
+- **Kvikksølv** (Hg): et tungmetall som kan skade nervesystemet, særlig hos fostre og små barn. Kommer blant annet fra kullkraft og gruvedrift.
+- **Bly** og **kadmium**: tungmetaller fra blant annet gammel maling, batterier og industri.
+- **PFAS**: en stor gruppe stoffer brukt i vannavstøtende klær, stekepanner med slippbelegg og brannskum. De brytes nesten ikke ned og kalles ofte **«evighetskjemikalier»**.
+- **Bromerte flammehemmere**: brukt for å gjøre elektronikk og tekstiler mindre brennbare.
+
+## Bioakkumulering og biomagnifisering
+
+- **Bioakkumulering**: En organisme tar opp miljøgifter raskere enn den skiller dem ut, slik at mengden i kroppen **øker over tid**. Fettløselige stoffer lagres i fettvevet.
+- **Biomagnifisering**: Konsentrasjonen **øker for hvert ledd** oppover i **næringskjeden**. Et dyr spiser mange byttedyr og får i seg miljøgiftene fra alle.
+
+Eksempel fra havet: plankton → krill → fisk → sel → **isbjørn**. Toppredatorer som isbjørn, sel, spekkhogger og rovfugler kan få svært høye konsentrasjoner. Miljøgifter fraktes også med havstrømmer og vind til **Arktis**, langt fra der de ble brukt.
+
+## Konsekvenser
+
+Miljøgifter kan gi **nedsatt forplantningsevne**, **svekket immunforsvar**, **hormonforstyrrelser**, **skader på nervesystemet** og **kreft**. Mennesker står også høyt i næringskjeden. Derfor gir myndighetene **kostråd**, for eksempel om å begrense inntaket av enkelte typer stor rovfisk og fiskelever – særlig for **gravide**.
+
+## Tiltak
+
+- **Forbud og regulering**: Nasjonale forbud og internasjonale avtaler, som **Stockholmkonvensjonen** om persistente organiske miljøgifter (2001).
+- **Riktig avfallshåndtering**: Elektronikk, batterier og maling leveres som **farlig avfall**.
+- **Opprydding** av forurenset grunn og sjøbunn.
+- **Rensing** av utslipp fra industri.
+- **Forbrukervalg**: Velge produkter uten unødvendige skadelige stoffer, for eksempel med **miljømerker**.
+- **Overvåking** av miljøgifter i natur og mat.
+
+Mange tiltak har virket: Nivåene av PCB og DDT har gått ned siden forbudene. Men nye stoffer kommer stadig til, og det er vanskelig å fjerne stoffer som allerede er spredt i naturen.', '{"label":"Miljøgifter","children":[{"label":"Egenskaper","children":[{"label":"Giftige"},{"label":"Lite nedbrytbare"},{"label":"Fettløselige"}]},{"label":"Eksempler","children":[{"label":"PCB"},{"label":"DDT"},{"label":"Kvikksølv"},{"label":"PFAS"}]},{"label":"Næringskjeden","children":[{"label":"Bioakkumulering"},{"label":"Biomagnifisering"},{"label":"Toppredatorer"},{"label":"Arktis"}]},{"label":"Konsekvenser","children":[{"label":"Forplantning"},{"label":"Immunforsvar"},{"label":"Hormoner"}]},{"label":"Tiltak","children":[{"label":"Forbud og avtaler"},{"label":"Farlig avfall"},{"label":"Kostråd"},{"label":"Overvåking"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'naturfag-vg1:miljogifter';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('naturfag-vg1:miljogifter', 'Miljøgift', 'Giftig, lite nedbrytbart stoff som hoper seg opp i organismer.', 0),
+  ('naturfag-vg1:miljogifter', 'Fettløselig', 'Løses i fett og lagres derfor i fettvevet.', 1),
+  ('naturfag-vg1:miljogifter', 'PCB', 'Miljøgift fra elektrisk utstyr og bygninger, forbudt i Norge siden 1980.', 2),
+  ('naturfag-vg1:miljogifter', 'DDT', 'Insektmiddel som ga tynne eggeskall hos rovfugler, forbudt i Norge siden 1970.', 3),
+  ('naturfag-vg1:miljogifter', 'Kvikksølv', 'Tungmetall som kan skade nervesystemet.', 4),
+  ('naturfag-vg1:miljogifter', 'PFAS', '«Evighetskjemikalier» i vannavstøtende klær, slippbelegg og brannskum.', 5),
+  ('naturfag-vg1:miljogifter', 'Bromerte flammehemmere', 'Stoffer som gjør elektronikk og tekstiler mindre brennbare.', 6),
+  ('naturfag-vg1:miljogifter', 'Bioakkumulering', 'Mengden miljøgift i en organisme øker over tid.', 7),
+  ('naturfag-vg1:miljogifter', 'Biomagnifisering', 'Konsentrasjonen øker for hvert ledd oppover i næringskjeden.', 8),
+  ('naturfag-vg1:miljogifter', 'Toppredator', 'Dyr øverst i næringskjeden, som isbjørn og spekkhogger.', 9),
+  ('naturfag-vg1:miljogifter', 'Arktis og miljøgifter', 'Miljøgifter fraktes med havstrømmer og vind til Arktis.', 10),
+  ('naturfag-vg1:miljogifter', 'Hormonforstyrrelser', 'En mulig konsekvens av miljøgifter.', 11),
+  ('naturfag-vg1:miljogifter', 'Stockholmkonvensjonen', 'Internasjonal avtale fra 2001 om persistente organiske miljøgifter.', 12),
+  ('naturfag-vg1:miljogifter', 'Farlig avfall', 'Avfall som elektronikk, batterier og maling som må leveres til mottak.', 13),
+  ('naturfag-vg1:miljogifter', 'Kostråd', 'Råd fra myndighetene om hva man bør begrense, særlig for gravide.', 14);
+delete from public.quiz_sporsmal where tema_id = 'naturfag-vg1:miljogifter';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('naturfag-vg1:miljogifter', 'q01', 'flervalg', 'Hvilke tre egenskaper har de fleste miljøgifter?', array['Giftige, lettløselige i vann og raskt nedbrytbare', 'Giftige, lite nedbrytbare og hoper seg opp i organismer', 'Radioaktive, flyktige og luktfrie', 'Ufarlige i små mengder']::text[], 1, 'Det er derfor de er så problematiske.', true, true, 0),
+  ('naturfag-vg1:miljogifter', 'q02', 'flervalg', 'Hva er biomagnifisering?', array['At konsentrasjonen av miljøgifter øker oppover i næringskjeden', 'At en organisme vokser raskt', 'At miljøgifter brytes ned', 'At en art blir større']::text[], 0, 'Toppredatorer får derfor mest.', true, true, 1),
+  ('naturfag-vg1:miljogifter', 'q03', 'flervalg', 'Hvorfor lagres mange miljøgifter i fettvev?', array['Fordi de er vannløselige', 'Fordi de er radioaktive', 'Fordi de er fettløselige', 'Fordi de er tunge']::text[], 2, 'Fettløselige stoffer skilles dårlig ut av kroppen.', true, true, 2),
+  ('naturfag-vg1:miljogifter', 'q04', 'flervalg', 'Hvilket dyr får vanligvis høyest konsentrasjon av miljøgifter?', array['Plankton', 'Krill', 'Små fisk', 'Isbjørn']::text[], 3, 'Isbjørnen er toppredator.', true, true, 3),
+  ('naturfag-vg1:miljogifter', 'q05', 'flervalg', 'Hvilken miljøgift gjorde eggeskallene til rovfugler tynne?', array['DDT', 'PFAS', 'Bly', 'CO₂']::text[], 0, 'DDT ble forbudt i Norge i 1970.', true, true, 4),
+  ('naturfag-vg1:miljogifter', 'q06', 'flervalg', 'Hvorfor kalles PFAS «evighetskjemikalier»?', array['Fordi de er dyre', 'Fordi de nesten ikke brytes ned', 'Fordi de ble oppfunnet for lenge siden', 'Fordi de er naturlige']::text[], 1, 'De blir værende i naturen i svært lang tid.', true, true, 5),
+  ('naturfag-vg1:miljogifter', 'q07', 'flervalg', 'Hvorfor finnes det miljøgifter i Arktis, langt fra industri?', array['Fordi de dannes av is', 'Fordi isbjørner lager dem', 'Fordi de fraktes med havstrømmer og vind', 'Fordi det er gruvedrift overalt']::text[], 2, 'Miljøgifter spres over store avstander.', true, true, 6),
+  ('naturfag-vg1:miljogifter', 'q08', 'flervalg', 'Hvordan bør du kvitte deg med gamle batterier?', array['I restavfallet', 'I naturen', 'I vasken', 'Levere dem som farlig avfall']::text[], 3, 'Da kan de gjenvinnes og håndteres trygt.', true, true, 7),
+  ('naturfag-vg1:miljogifter', 'q09', 'flervalg', 'Hva er bioakkumulering?', array['At mengden miljøgift i en organisme øker over tid', 'At næringskjeden blir lengre', 'At miljøgifter brytes ned', 'At organismer formerer seg']::text[], 0, 'Organismen tar opp stoffet raskere enn den skiller det ut.', true, false, 8),
+  ('naturfag-vg1:miljogifter', 'q10', 'flervalg', 'Hvilken internasjonal avtale regulerer persistente organiske miljøgifter?', array['Parisavtalen', 'Stockholmkonvensjonen', 'Kyotoprotokollen', 'Genèvekonvensjonen']::text[], 1, 'Stockholmkonvensjonen er fra 2001.', true, false, 9),
+  ('naturfag-vg1:miljogifter', 'm01', 'sant-usant', 'Mennesker kan også få i seg miljøgifter gjennom maten.', array['Sant', 'Usant']::text[], 0, 'Mennesker står høyt i næringskjeden.', false, true, 10),
+  ('naturfag-vg1:miljogifter', 'm02', 'sant-usant', 'PCB finnes ikke lenger noe sted i Norge.', array['Sant', 'Usant']::text[], 1, 'PCB finnes fortsatt i gamle bygninger og i naturen.', false, true, 11),
+  ('naturfag-vg1:miljogifter', 'm03', 'sant-usant', 'Nivåene av enkelte miljøgifter har gått ned etter at de ble forbudt.', array['Sant', 'Usant']::text[], 0, 'Forbud har hatt effekt for blant annet PCB og DDT.', false, true, 12),
+  ('naturfag-vg1:miljogifter', 'm04', 'sant-usant', 'Miljøgifter er bare farlige i store mengder.', array['Sant', 'Usant']::text[], 1, 'Mange miljøgifter er skadelige selv i små mengder.', false, true, 13),
+  ('naturfag-vg1:miljogifter', 'm05', 'flervalg', 'Hvor kan PFAS finnes?', array['I vannavstøtende klær og stekepanner med slippbelegg', 'Bare i kull', 'Bare i radioaktivt avfall', 'I rent kildevann']::text[], 0, 'PFAS brukes også i brannskum.', false, true, 14),
+  ('naturfag-vg1:miljogifter', 'm06', 'flervalg', 'Hva kan kvikksølv skade?', array['Bare planter', 'Bare metaller', 'Nervesystemet', 'Ingenting']::text[], 2, 'Fostre og små barn er særlig sårbare.', false, true, 15),
+  ('naturfag-vg1:miljogifter', 'm07', 'flervalg', 'Hvilken næringskjede viser biomagnifisering riktig fra lav til høy konsentrasjon?', array['Isbjørn → sel → fisk → plankton', 'Plankton → krill → fisk → sel → isbjørn', 'Fisk → plankton → isbjørn → sel', 'Sel → krill → plankton → fisk']::text[], 1, 'Konsentrasjonen øker for hvert ledd oppover.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('naturfag-vg1:miljogifter', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Naturfag: Kosthold, helse og livsstil
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('naturfag-vg1:kosthold-og-helse', 'naturfag-vg1', 'kosthold-og-helse', 'Kosthold, helse og livsstil', 'Funksjonene til karbohydrater, fett, proteiner, vitaminer og mineraler, hvorfor et variert kosthold er viktig for helse og bærekraft, aktuelle livsstilsspørsmål og hvordan du vurderer helseinformasjon.', array[12, 13]::int[], 8, 'sjekkes', array['Sjekk kostrådene og anbefalingene om fysisk aktivitet og søvn mot Helsedirektoratets gjeldende råd.']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('naturfag-vg1:kosthold-og-helse', '## Næringsstoffene
+
+Kroppen trenger næringsstoffer til **energi**, **byggemateriale** og **regulering**.
+
+**Energigivende næringsstoffer**
+
+- **Karbohydrater**: kroppens viktigste energikilde. Stivelse finnes i brød, poteter og pasta, sukker i frukt og søtsaker. **Kostfiber** er karbohydrater vi ikke fordøyer, men som er viktige for tarmen og gir metthetsfølelse.
+- **Fett**: energilager, byggestein i cellemembraner og nødvendig for opptak av de **fettløselige vitaminene A, D, E og K**. **Umettet fett** (fisk, nøtter, olje) er gunstigere enn **mettet fett** (fett kjøtt, smør). **Omega-3** fra fisk er særlig viktig.
+- **Proteiner**: byggesteiner i muskler, enzymer, hormoner og antistoffer. Proteiner består av **aminosyrer**, og noen av dem – de **essensielle** – må vi få gjennom maten.
+
+Fett gir omtrent **37 kJ per gram**, mens karbohydrater og proteiner gir omtrent **17 kJ per gram**.
+
+**Vitaminer og mineraler**
+
+- **D-vitamin**: viktig for skjelettet. Dannes i huden med sollys og finnes i fet fisk – mange i Norge får for lite om vinteren.
+- **C-vitamin**: viktig for immunforsvaret og bindevev. Finnes i frukt og grønnsaker.
+- **Jern**: nødvendig for å frakte oksygen i blodet. Mangel gir blodmangel.
+- **Kalsium**: bygger skjelett og tenner. Finnes i melkeprodukter.
+- **Jod**: nødvendig for stoffskiftet. Finnes i fisk, melk og egg.
+
+**Vann** er livsnødvendig og transporterer stoffer og regulerer kroppstemperaturen.
+
+## Kostråd
+
+Helsemyndighetene anbefaler blant annet
+
+- **mye frukt, bær og grønnsaker** – «fem om dagen»
+- **fullkorn** framfor fint mel
+- **fisk** flere ganger i uka
+- **begrenset** inntak av rødt og bearbeidet kjøtt, sukker og salt
+- **vann** som tørstedrikk
+
+## Kosthold og bærekraft
+
+Maten vi spiser, påvirker også **klima og miljø**. Et kosthold med **mer plantebasert mat** og **mindre rødt kjøtt** gir vanligvis lavere klimagassutslipp. Å **redusere matsvinn** er et av de enkleste tiltakene. Et variert kosthold kan altså være bra både for **helsa** og for **planeten**.
+
+## Livsstil og helse
+
+- **Fysisk aktivitet**: Barn og unge anbefales minst **60 minutter** moderat til hard aktivitet hver dag.
+- **Søvn**: Tenåringer trenger ofte **8–10 timer**. For lite søvn påvirker konsentrasjon, humør og immunforsvar.
+- **Rus og tobakk**: Alkohol, snus og røyk gir økt risiko for sykdom og avhengighet.
+- **Skjermtid** og **stillesitting** kan gå ut over søvn og aktivitet.
+
+## Vurdere helseinformasjon
+
+På nett og i sosiale medier finnes mange påstander om **dietter**, **kosttilskudd** og «superfood». Spør:
+
+- **Hvem** står bak – en fagmyndighet, en forsker eller noen som selger et produkt?
+- Bygger påstanden på **forskning** eller på **enkelthistorier**?
+- Blandes **sammenheng** og **årsak**?
+- Hva sier **Helsedirektoratet**, **helsenorge.no** eller **Folkehelseinstituttet**?
+
+Vær særlig skeptisk til løfter om raske og enkle resultater.', '{"label":"Kosthold og helse","children":[{"label":"Energi","children":[{"label":"Karbohydrater"},{"label":"Fett"},{"label":"Proteiner"}]},{"label":"Vitaminer og mineraler","children":[{"label":"D-vitamin"},{"label":"C-vitamin"},{"label":"Jern og kalsium"}]},{"label":"Kostråd","children":[{"label":"Fem om dagen"},{"label":"Fullkorn og fisk"},{"label":"Mindre sukker og salt"}]},{"label":"Bærekraft","children":[{"label":"Plantebasert"},{"label":"Mindre rødt kjøtt"},{"label":"Matsvinn"}]},{"label":"Livsstil og kilder","children":[{"label":"Aktivitet og søvn"},{"label":"Rus"},{"label":"Kildekritikk"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'naturfag-vg1:kosthold-og-helse';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('naturfag-vg1:kosthold-og-helse', 'Karbohydrater', 'Kroppens viktigste energikilde, som stivelse og sukker.', 0),
+  ('naturfag-vg1:kosthold-og-helse', 'Kostfiber', 'Karbohydrater vi ikke fordøyer, viktige for tarmen.', 1),
+  ('naturfag-vg1:kosthold-og-helse', 'Fett', 'Energilager og byggestein i cellemembraner.', 2),
+  ('naturfag-vg1:kosthold-og-helse', 'Fettløselige vitaminer', 'A, D, E og K.', 3),
+  ('naturfag-vg1:kosthold-og-helse', 'Umettet fett', 'Gunstig fett fra fisk, nøtter og planteoljer.', 4),
+  ('naturfag-vg1:kosthold-og-helse', 'Proteiner', 'Byggesteiner i muskler, enzymer og hormoner.', 5),
+  ('naturfag-vg1:kosthold-og-helse', 'Essensielle aminosyrer', 'Aminosyrer kroppen ikke kan lage selv.', 6),
+  ('naturfag-vg1:kosthold-og-helse', 'Energi i fett', 'Omtrent 37 kJ per gram.', 7),
+  ('naturfag-vg1:kosthold-og-helse', 'Energi i karbohydrater og proteiner', 'Omtrent 17 kJ per gram.', 8),
+  ('naturfag-vg1:kosthold-og-helse', 'D-vitamin', 'Viktig for skjelettet; dannes med sollys og finnes i fet fisk.', 9),
+  ('naturfag-vg1:kosthold-og-helse', 'Jern', 'Nødvendig for oksygentransport i blodet.', 10),
+  ('naturfag-vg1:kosthold-og-helse', 'Kalsium', 'Bygger skjelett og tenner.', 11),
+  ('naturfag-vg1:kosthold-og-helse', 'Fem om dagen', 'Kostråd om frukt, bær og grønnsaker.', 12),
+  ('naturfag-vg1:kosthold-og-helse', 'Fysisk aktivitet for unge', 'Minst 60 minutter hver dag.', 13),
+  ('naturfag-vg1:kosthold-og-helse', 'Sammenheng og årsak', 'At to ting henger sammen, betyr ikke at den ene forårsaker den andre.', 14);
+delete from public.quiz_sporsmal where tema_id = 'naturfag-vg1:kosthold-og-helse';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('naturfag-vg1:kosthold-og-helse', 'q01', 'flervalg', 'Hva er kroppens viktigste energikilde?', array['Vitaminer', 'Karbohydrater', 'Mineraler', 'Vann']::text[], 1, 'Stivelse og sukker brytes ned til glukose.', true, true, 0),
+  ('naturfag-vg1:kosthold-og-helse', 'q02', 'flervalg', 'Hvilke vitaminer er fettløselige?', array['A, D, E og K', 'B og C', 'Bare C', 'Alle vitaminer']::text[], 0, 'Kroppen trenger fett for å ta dem opp.', true, true, 1),
+  ('naturfag-vg1:kosthold-og-helse', 'q03', 'flervalg', 'Hva er proteiner bygd opp av?', array['Fettsyrer', 'Glukose', 'Aminosyrer', 'Mineraler']::text[], 2, 'Essensielle aminosyrer må vi få fra maten.', true, true, 2),
+  ('naturfag-vg1:kosthold-og-helse', 'q04', 'flervalg', 'Hvilket næringsstoff gir mest energi per gram?', array['Karbohydrater', 'Proteiner', 'Vitaminer', 'Fett']::text[], 3, 'Fett gir omtrent 37 kJ per gram.', true, true, 3),
+  ('naturfag-vg1:kosthold-og-helse', 'q05', 'flervalg', 'Hvorfor får mange i Norge for lite D-vitamin om vinteren?', array['Fordi det er lite sollys', 'Fordi de spiser for mye fisk', 'Fordi de drikker for mye vann', 'Fordi D-vitamin bare finnes i frukt']::text[], 0, 'D-vitamin dannes i huden med sollys.', true, true, 4),
+  ('naturfag-vg1:kosthold-og-helse', 'q06', 'flervalg', 'Hva trenger kroppen jern til?', array['Å bygge tenner', 'Å frakte oksygen i blodet', 'Å fordøye fett', 'Å regulere temperaturen']::text[], 1, 'Jernmangel kan gi blodmangel.', true, true, 5),
+  ('naturfag-vg1:kosthold-og-helse', 'q07', 'flervalg', 'Hvilket kosthold gir vanligvis lavest klimagassutslipp?', array['Mye rødt kjøtt', 'Mye importert ferskvare med fly', 'Mer plantebasert mat og mindre rødt kjøtt', 'Mye bearbeidet kjøtt']::text[], 2, 'Å redusere matsvinn hjelper også.', true, true, 6),
+  ('naturfag-vg1:kosthold-og-helse', 'q08', 'flervalg', 'Hvor mye fysisk aktivitet anbefales for barn og unge?', array['10 minutter i uka', '1 time i uka', '30 minutter i måneden', 'Minst 60 minutter hver dag']::text[], 3, 'Aktiviteten bør være moderat til hard.', true, true, 7),
+  ('naturfag-vg1:kosthold-og-helse', 'q09', 'flervalg', 'En influencer sier at et kosttilskudd kurerte trettheten hennes. Hva er det største problemet med påstanden?', array['Den bygger på en enkelthistorie, og hun kan tjene på salget', 'Den er for kort', 'Den er skrevet på norsk', 'Det finnes ingen problemer']::text[], 0, 'En enkelthistorie er ikke forskning.', true, false, 8),
+  ('naturfag-vg1:kosthold-og-helse', 'q10', 'flervalg', 'Hva er kostfiber?', array['Et vitamin', 'Karbohydrater vi ikke fordøyer, som er viktige for tarmen', 'En type fett', 'Et protein']::text[], 1, 'Fiber finnes i fullkorn, grønnsaker og belgvekster.', true, false, 9),
+  ('naturfag-vg1:kosthold-og-helse', 'm01', 'sant-usant', 'Omega-3 er en type umettet fett som finnes i fisk.', array['Sant', 'Usant']::text[], 0, 'Omega-3 er viktig for blant annet hjertet og hjernen.', false, true, 10),
+  ('naturfag-vg1:kosthold-og-helse', 'm02', 'sant-usant', 'Kroppen kan lage alle aminosyrer selv.', array['Sant', 'Usant']::text[], 1, 'De essensielle aminosyrene må vi få fra maten.', false, true, 11),
+  ('naturfag-vg1:kosthold-og-helse', 'm03', 'sant-usant', 'For lite søvn kan påvirke konsentrasjonen.', array['Sant', 'Usant']::text[], 0, 'Søvn er viktig for både hjernen og immunforsvaret.', false, true, 12),
+  ('naturfag-vg1:kosthold-og-helse', 'm04', 'sant-usant', 'Mettet fett er gunstigere for helsa enn umettet fett.', array['Sant', 'Usant']::text[], 1, 'Umettet fett regnes som gunstigere.', false, true, 13),
+  ('naturfag-vg1:kosthold-og-helse', 'm05', 'flervalg', 'Hvilken kilde er mest pålitelig for kostråd i Norge?', array['En butikk som selger kosttilskudd', 'Helsedirektoratet', 'En anonym video', 'En reklame for et slankeprodukt']::text[], 1, 'Helsedirektoratet bygger rådene på samlet forskning.', false, true, 14),
+  ('naturfag-vg1:kosthold-og-helse', 'm06', 'flervalg', 'Hva er kalsium viktig for?', array['Skjelett og tenner', 'Synet', 'Oksygentransport', 'Fordøyelse av fett']::text[], 0, 'Melkeprodukter er en viktig kilde.', false, true, 15),
+  ('naturfag-vg1:kosthold-og-helse', 'm07', 'flervalg', 'Hva anbefales som tørstedrikk?', array['Brus', 'Energidrikk', 'Vann', 'Juice']::text[], 2, 'Vann gir ingen tilsatt sukker.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('naturfag-vg1:kosthold-og-helse', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Naturfag: DNA, arv og evolusjon
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('naturfag-vg1:arv-og-evolusjon', 'naturfag-vg1', 'arv-og-evolusjon', 'DNA, arv og evolusjon', 'Hva DNA og gener er, hvordan egenskaper arves gjennom meiose og kjønnet formering, dominante og recessive alleler, mutasjoner og variasjon, naturlig utvalg – og hvordan klimaendringer påvirker evolusjon, utbredelse og biologisk mangfold.', array[14, 15]::int[], 9, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('naturfag-vg1:arv-og-evolusjon', '## DNA og gener
+
+**DNA** er arvestoffet vårt. Det er formet som en **dobbel spiral** (dobbeltheliks) av **nukleotider** med fire baser: **A, T, C og G**. A parer seg alltid med T, og C med G. Rekkefølgen av basene er en **kode**.
+
+Et **gen** er en bit av DNA som inneholder oppskriften på et **protein**. Proteinene bestemmer mange av egenskapene våre. DNA-et er pakket i **kromosomer**. Mennesker har **46 kromosomer** – **23 par** – i nesten alle celler, ett sett fra mor og ett fra far.
+
+## Celledeling
+
+- **Mitose**: gir to **like** celler med samme antall kromosomer. Brukes til vekst og reparasjon.
+- **Meiose**: gir **kjønnsceller** (egg og sædceller) med **halvt** antall kromosomer. Kromosomene blandes, slik at alle kjønnsceller blir **ulike**.
+
+Ved befruktning smelter en eggcelle og en sædcelle sammen, og det nye individet får en **ny kombinasjon** av gener. Derfor gir **kjønnet formering** stor **variasjon**.
+
+## Arv av egenskaper
+
+Vi har to utgaver – **alleler** – av hvert gen.
+
+- Et **dominant** allel (A) viser seg selv om det bare finnes én kopi.
+- Et **recessivt** allel (a) viser seg bare når individet har **to** kopier (aa).
+- **Genotype**: kombinasjonen av alleler, for eksempel Aa.
+- **Fenotype**: egenskapen som vises.
+- **Homozygot**: to like alleler (AA eller aa). **Heterozygot**: to ulike (Aa).
+
+To heterozygote foreldre (Aa × Aa) kan få barn med genotypene AA, Aa og aa i forholdet **1 : 2 : 1**. Da vil omtrent **3 av 4** vise den dominante egenskapen.
+
+## Mutasjoner
+
+**Mutasjoner** er endringer i DNA. De fleste er nøytrale eller skadelige, men noen kan gi en **fordel**. Mutasjoner er den **opprinnelige kilden** til ny variasjon.
+
+## Evolusjon
+
+**Charles Darwin** beskrev evolusjon ved **naturlig utvalg** i boka *Artenes opprinnelse* (1859):
+
+1. Individer i en art **varierer**.
+2. Mye av variasjonen er **arvelig**.
+3. Det fødes flere individer enn det miljøet har plass til.
+4. Individer med egenskaper som passer godt til miljøet, **overlever og får flere avkom**.
+5. Over mange generasjoner blir disse egenskapene vanligere – arten **tilpasser seg**.
+
+**Arv er altså en forutsetning for evolusjon**: Uten arvelig variasjon har det naturlige utvalget ingenting å virke på.
+
+## Klimaendringer og evolusjon
+
+Når klimaet endrer seg raskt, må arter enten **flytte**, **tilpasse seg** eller risikere å **dø ut**.
+
+- Mange arter flytter **nordover** og **høyere opp i fjellet**.
+- Våren kommer tidligere, og planter og dyr kan komme **i utakt** – for eksempel når insektene klekkes før fuglene får unger.
+- Arter med **stor genetisk variasjon** og **kort generasjonstid** har større sjanse til å tilpasse seg.
+- Fjellarter, som **fjellrev**, kan få mindre leveområde og mer konkurranse fra arter som rødrev.
+
+**Biologisk mangfold** omfatter mangfoldet av **gener**, **arter** og **økosystemer**. Mange klimaendringer skjer raskere enn evolusjonen klarer å følge, og det truer mangfoldet.', '{"label":"Arv og evolusjon","children":[{"label":"DNA","children":[{"label":"Dobbel spiral"},{"label":"A–T og C–G"},{"label":"Gener og kromosomer"}]},{"label":"Celledeling","children":[{"label":"Mitose"},{"label":"Meiose"},{"label":"Befruktning"}]},{"label":"Arv","children":[{"label":"Dominant og recessiv"},{"label":"Genotype og fenotype"},{"label":"Krysningsskjema"}]},{"label":"Evolusjon","children":[{"label":"Variasjon og mutasjoner"},{"label":"Naturlig utvalg"},{"label":"Darwin"}]},{"label":"Klima","children":[{"label":"Arter flytter"},{"label":"Utakt i naturen"},{"label":"Biologisk mangfold"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'naturfag-vg1:arv-og-evolusjon';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('naturfag-vg1:arv-og-evolusjon', 'DNA', 'Arvestoffet, en dobbel spiral av nukleotider.', 0),
+  ('naturfag-vg1:arv-og-evolusjon', 'Baseparing', 'A parer med T, og C parer med G.', 1),
+  ('naturfag-vg1:arv-og-evolusjon', 'Gen', 'En bit av DNA med oppskriften på et protein.', 2),
+  ('naturfag-vg1:arv-og-evolusjon', 'Kromosom', 'Pakket DNA; mennesker har 46, i 23 par.', 3),
+  ('naturfag-vg1:arv-og-evolusjon', 'Mitose', 'Celledeling som gir to like celler.', 4),
+  ('naturfag-vg1:arv-og-evolusjon', 'Meiose', 'Celledeling som gir kjønnsceller med halvt antall kromosomer.', 5),
+  ('naturfag-vg1:arv-og-evolusjon', 'Allel', 'En utgave av et gen.', 6),
+  ('naturfag-vg1:arv-og-evolusjon', 'Dominant allel', 'Viser seg selv med bare én kopi.', 7),
+  ('naturfag-vg1:arv-og-evolusjon', 'Recessivt allel', 'Viser seg bare med to kopier.', 8),
+  ('naturfag-vg1:arv-og-evolusjon', 'Genotype og fenotype', 'Kombinasjonen av alleler og egenskapen som vises.', 9),
+  ('naturfag-vg1:arv-og-evolusjon', 'Aa × Aa', 'Gir AA, Aa og aa i forholdet 1 : 2 : 1.', 10),
+  ('naturfag-vg1:arv-og-evolusjon', 'Mutasjon', 'Endring i DNA – den opprinnelige kilden til ny variasjon.', 11),
+  ('naturfag-vg1:arv-og-evolusjon', 'Naturlig utvalg', 'Individer som passer best til miljøet, får flest avkom.', 12),
+  ('naturfag-vg1:arv-og-evolusjon', 'Charles Darwin', 'Beskrev evolusjon ved naturlig utvalg i 1859.', 13),
+  ('naturfag-vg1:arv-og-evolusjon', 'Biologisk mangfold', 'Mangfoldet av gener, arter og økosystemer.', 14);
+delete from public.quiz_sporsmal where tema_id = 'naturfag-vg1:arv-og-evolusjon';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('naturfag-vg1:arv-og-evolusjon', 'q01', 'flervalg', 'Hvilken base parer seg med A i DNA?', array['C', 'T', 'G', 'A']::text[], 1, 'A–T og C–G.', true, true, 0),
+  ('naturfag-vg1:arv-og-evolusjon', 'q02', 'flervalg', 'Hvor mange kromosomer har en vanlig kroppscelle hos mennesker?', array['46', '23', '92', '12']::text[], 0, '46 kromosomer i 23 par.', true, true, 1),
+  ('naturfag-vg1:arv-og-evolusjon', 'q03', 'flervalg', 'Hva er resultatet av meiose?', array['To like kroppsceller', 'En befruktet eggcelle', 'Kjønnsceller med halvt antall kromosomer', 'Nye mutasjoner']::text[], 2, 'Meiose gir variasjon i kjønnscellene.', true, true, 2),
+  ('naturfag-vg1:arv-og-evolusjon', 'q04', 'flervalg', 'Når viser et recessivt allel seg?', array['Alltid', 'Når det finnes én kopi', 'Aldri', 'Når individet har to kopier']::text[], 3, 'Genotypen må være aa.', true, true, 3),
+  ('naturfag-vg1:arv-og-evolusjon', 'q05', 'flervalg', 'To foreldre er heterozygote (Aa). Hvor stor er sjansen for at et barn får genotypen aa?', array['1 av 4', '1 av 2', '3 av 4', '0']::text[], 0, 'Aa × Aa gir AA, Aa, Aa og aa.', true, true, 4),
+  ('naturfag-vg1:arv-og-evolusjon', 'q06', 'flervalg', 'Hva er den opprinnelige kilden til ny genetisk variasjon?', array['Mitose', 'Mutasjoner', 'Fotosyntese', 'Klimaendringer']::text[], 1, 'Kjønnet formering blander variasjonen på nye måter.', true, true, 5),
+  ('naturfag-vg1:arv-og-evolusjon', 'q07', 'flervalg', 'Hvorfor er arv en forutsetning for evolusjon?', array['Fordi alle individer er like', 'Fordi miljøet aldri endrer seg', 'Fordi naturlig utvalg bare kan virke på egenskaper som går videre til avkommet', 'Fordi evolusjon skjer i løpet av ett liv']::text[], 2, 'Uten arvelig variasjon skjer ingen evolusjon.', true, true, 6),
+  ('naturfag-vg1:arv-og-evolusjon', 'q08', 'flervalg', 'Hvordan reagerer mange arter på et varmere klima?', array['De blir større', 'De slutter å formere seg', 'De flytter sørover', 'De flytter nordover og høyere opp i fjellet']::text[], 3, 'De følger temperaturen de er tilpasset.', true, true, 7),
+  ('naturfag-vg1:arv-og-evolusjon', 'q09', 'flervalg', 'Hva er forskjellen på genotype og fenotype?', array['Genotypen er allelkombinasjonen, fenotypen er egenskapen som vises', 'Det er det samme', 'Fenotypen er DNA-et', 'Genotypen er utseendet']::text[], 0, 'Aa og AA kan gi samme fenotype.', true, false, 8),
+  ('naturfag-vg1:arv-og-evolusjon', 'q10', 'flervalg', 'Hvilke arter har størst sjanse til å tilpasse seg raske klimaendringer?', array['Arter med liten genetisk variasjon og lang generasjonstid', 'Arter med stor genetisk variasjon og kort generasjonstid', 'Store dyr', 'Arter som lever på fjellet']::text[], 1, 'Mye variasjon og raske generasjoner gir raskere tilpasning.', true, false, 9),
+  ('naturfag-vg1:arv-og-evolusjon', 'm01', 'sant-usant', 'Kjønnet formering gir stor genetisk variasjon.', array['Sant', 'Usant']::text[], 0, 'Hvert avkom får en ny kombinasjon av gener.', false, true, 10),
+  ('naturfag-vg1:arv-og-evolusjon', 'm02', 'sant-usant', 'Alle mutasjoner er skadelige.', array['Sant', 'Usant']::text[], 1, 'De fleste er nøytrale eller skadelige, men noen gir en fordel.', false, true, 11),
+  ('naturfag-vg1:arv-og-evolusjon', 'm03', 'sant-usant', 'Biologisk mangfold omfatter både gener, arter og økosystemer.', array['Sant', 'Usant']::text[], 0, 'Alle tre nivåene er viktige.', false, true, 12),
+  ('naturfag-vg1:arv-og-evolusjon', 'm04', 'sant-usant', 'Mitose gir kjønnsceller.', array['Sant', 'Usant']::text[], 1, 'Meiose gir kjønnsceller. Mitose gir like kroppsceller.', false, true, 13),
+  ('naturfag-vg1:arv-og-evolusjon', 'm05', 'flervalg', 'Hva betyr det at et individ er heterozygot?', array['Det har to like alleler', 'Det har to ulike alleler', 'Det har ingen alleler', 'Det har tre alleler']::text[], 1, 'For eksempel Aa.', false, true, 14),
+  ('naturfag-vg1:arv-og-evolusjon', 'm06', 'flervalg', 'Hvilken bok ga Darwin ut i 1859?', array['Artenes opprinnelse', 'Arvelighetens lover', 'Livets tre', 'Dobbeltspiralen']::text[], 0, 'Boka beskrev evolusjon ved naturlig utvalg.', false, true, 15),
+  ('naturfag-vg1:arv-og-evolusjon', 'm07', 'flervalg', 'Hva kan skje når våren kommer tidligere?', array['Alle arter får flere unger', 'Ingenting endrer seg', 'Planter og dyr kan komme i utakt', 'Fuglene slutter å trekke']::text[], 2, 'For eksempel kan insektene klekkes før fugleungene trenger mat.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('naturfag-vg1:arv-og-evolusjon', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Naturfag: Bioteknologi og etikk
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('naturfag-vg1:bioteknologi', 'naturfag-vg1', 'bioteknologi', 'Bioteknologi og etikk', 'Hva bioteknologi er, eksempler fra medisin, landbruk og rettsvesen – genmodifisering, CRISPR, genterapi, gentester og kloning – norsk regulering og hvordan du drøfter etiske spørsmål knyttet til bioteknologi.', array[16]::int[], 10, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('naturfag-vg1:bioteknologi', '## Hva er bioteknologi?
+
+**Bioteknologi** er bruk av levende organismer, celler eller biologiske prosesser til å lage produkter eller løse problemer. **Tradisjonell** bioteknologi er flere tusen år gammel: bruk av **gjær** til brød og øl, og **avl** av husdyr og planter. **Moderne** bioteknologi bruker **genteknologi** – metoder for å lese og endre DNA direkte.
+
+## Eksempler
+
+**Medisin**
+- **Insulin** til diabetikere produseres av **genmodifiserte bakterier** som har fått det menneskelige insulingenet.
+- **Genterapi** forsøker å behandle sykdom ved å reparere eller erstatte feil i gener.
+- **Gentester** kan vise om en person har anlegg for visse sykdommer.
+- **Fosterdiagnostikk** kan avdekke genetiske tilstander før fødselen.
+
+**Landbruk og mat**
+- **Genmodifiserte organismer (GMO)**, for eksempel mais og soya som tåler insekter eller sprøytemidler.
+- Planter som tåler **tørke** eller har mer **næringsstoffer**.
+
+**Rettsvesen**
+- **DNA-profiler** fra hår, blod eller spytt brukes til å identifisere personer.
+
+## CRISPR
+
+**CRISPR-Cas9** er en «gensaks» som gjør det mulig å endre DNA svært **presist**, **raskt** og **billig**. Emmanuelle Charpentier og Jennifer Doudna fikk **Nobelprisen i kjemi i 2020** for metoden. CRISPR gir store muligheter i medisin og landbruk, men reiser også vanskelige spørsmål – særlig om endringer i **kjønnsceller og fostre**, som arves videre til nye generasjoner.
+
+## Kloning
+
+**Kloning** betyr å lage en genetisk **kopi** av en organisme. Sauen **Dolly** (født 1996) var det første pattedyret klonet fra en voksen celle. Kloning av mennesker er forbudt i Norge.
+
+## Regulering i Norge
+
+- **Genteknologiloven** regulerer framstilling og bruk av **genmodifiserte organismer**, blant annet i landbruk og mat.
+- **Bioteknologiloven** regulerer medisinsk bruk av bioteknologi på **mennesker**, som gentester, fosterdiagnostikk og assistert befruktning.
+- **Bioteknologirådet** gir råd og skaper debatt om etiske spørsmål.
+
+## Etiske spørsmål
+
+Når vi drøfter bioteknologi, kan vi bruke ulike **etiske perspektiver**:
+
+- **Konsekvensetikk**: Hvilke **fordeler** og **ulemper** gir teknologien – for mennesker, dyr og miljø?
+- **Pliktetikk**: Finnes det handlinger som er **gale i seg selv**, uansett konsekvenser – for eksempel å endre menneskets arvestoff?
+- **Føre-var-prinsippet**: Når vi er usikre på risikoen, bør vi være **forsiktige**.
+
+Typiske spørsmål er: Bør vi kunne velge egenskaper hos barn («**designerbabyer**»)? Hvem skal ha tilgang til **gendataene** dine? Er GMO trygt for **miljøet**? Er det riktig å endre dyr for menneskers skyld? Og blir teknologien **rettferdig fordelt**, eller bare tilgjengelig for de rike?
+
+En god drøfting presenterer **flere sider**, bruker **fagkunnskap** og ender med en **begrunnet** konklusjon.', '{"label":"Bioteknologi","children":[{"label":"Hva er det?","children":[{"label":"Tradisjonell"},{"label":"Moderne genteknologi"}]},{"label":"Medisin","children":[{"label":"Insulin"},{"label":"Genterapi"},{"label":"Gentester"}]},{"label":"Mat og rettsvesen","children":[{"label":"GMO"},{"label":"DNA-profiler"}]},{"label":"Nye metoder","children":[{"label":"CRISPR"},{"label":"Kloning og Dolly"}]},{"label":"Etikk og regulering","children":[{"label":"Genteknologiloven"},{"label":"Bioteknologiloven"},{"label":"Konsekvens- og pliktetikk"},{"label":"Føre-var"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'naturfag-vg1:bioteknologi';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('naturfag-vg1:bioteknologi', 'Bioteknologi', 'Bruk av levende organismer eller biologiske prosesser til å lage produkter eller løse problemer.', 0),
+  ('naturfag-vg1:bioteknologi', 'Tradisjonell bioteknologi', 'For eksempel gjær til brød og avl av husdyr.', 1),
+  ('naturfag-vg1:bioteknologi', 'Genteknologi', 'Metoder for å lese og endre DNA direkte.', 2),
+  ('naturfag-vg1:bioteknologi', 'GMO', 'Genmodifisert organisme.', 3),
+  ('naturfag-vg1:bioteknologi', 'Insulin fra bakterier', 'Genmodifiserte bakterier med menneskelig insulingen lager insulin.', 4),
+  ('naturfag-vg1:bioteknologi', 'Genterapi', 'Behandling ved å reparere eller erstatte feil i gener.', 5),
+  ('naturfag-vg1:bioteknologi', 'Gentest', 'Undersøkelse av om en person har anlegg for visse sykdommer.', 6),
+  ('naturfag-vg1:bioteknologi', 'DNA-profil', 'Brukes til å identifisere personer i rettsvesenet.', 7),
+  ('naturfag-vg1:bioteknologi', 'CRISPR-Cas9', '«Gensaks» som endrer DNA presist, raskt og billig.', 8),
+  ('naturfag-vg1:bioteknologi', 'Nobelprisen i kjemi 2020', 'Gikk til Charpentier og Doudna for CRISPR.', 9),
+  ('naturfag-vg1:bioteknologi', 'Dolly', 'Sau født 1996, første pattedyr klonet fra en voksen celle.', 10),
+  ('naturfag-vg1:bioteknologi', 'Genteknologiloven', 'Norsk lov som regulerer genmodifiserte organismer.', 11),
+  ('naturfag-vg1:bioteknologi', 'Bioteknologiloven', 'Norsk lov som regulerer medisinsk bruk av bioteknologi på mennesker.', 12),
+  ('naturfag-vg1:bioteknologi', 'Føre-var-prinsippet', 'Når risikoen er usikker, bør vi være forsiktige.', 13),
+  ('naturfag-vg1:bioteknologi', 'Designerbaby', 'Barn der egenskaper er valgt ved genteknologi.', 14);
+delete from public.quiz_sporsmal where tema_id = 'naturfag-vg1:bioteknologi';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('naturfag-vg1:bioteknologi', 'q01', 'flervalg', 'Hva er et eksempel på tradisjonell bioteknologi?', array['CRISPR', 'Bruk av gjær til å bake brød', 'Genterapi', 'DNA-profiler']::text[], 1, 'Tradisjonell bioteknologi er tusenvis av år gammel.', true, true, 0),
+  ('naturfag-vg1:bioteknologi', 'q02', 'flervalg', 'Hvordan produseres mye av insulinet diabetikere bruker i dag?', array['Av genmodifiserte bakterier', 'Fra planter', 'Av menneskelige frivillige', 'Kjemisk av olje']::text[], 0, 'Bakteriene har fått det menneskelige insulingenet.', true, true, 1),
+  ('naturfag-vg1:bioteknologi', 'q03', 'flervalg', 'Hva er CRISPR-Cas9?', array['En type vaksine', 'Et kloningsapparat', 'En «gensaks» som kan endre DNA presist', 'Et sprøytemiddel']::text[], 2, 'Metoden ga Nobelprisen i kjemi i 2020.', true, true, 2),
+  ('naturfag-vg1:bioteknologi', 'q04', 'flervalg', 'Hva var spesielt med sauen Dolly?', array['Den var genmodifisert til å gi mer ull', 'Den levde i 100 år', 'Den var født på Mars', 'Den var det første pattedyret klonet fra en voksen celle']::text[], 3, 'Dolly ble født i 1996.', true, true, 3),
+  ('naturfag-vg1:bioteknologi', 'q05', 'flervalg', 'Hvilken norsk lov regulerer genmodifiserte organismer?', array['Genteknologiloven', 'Bioteknologiloven', 'Arbeidsmiljøloven', 'Opplæringsloven']::text[], 0, 'Bioteknologiloven gjelder medisinsk bruk på mennesker.', true, true, 4),
+  ('naturfag-vg1:bioteknologi', 'q06', 'flervalg', 'Hva sier føre-var-prinsippet?', array['At vi alltid skal ta i bruk ny teknologi', 'At vi bør være forsiktige når risikoen er usikker', 'At forskning bør forbys', 'At bare eksperter kan bestemme']::text[], 1, 'Prinsippet er viktig i debatten om GMO.', true, true, 5),
+  ('naturfag-vg1:bioteknologi', 'q07', 'flervalg', 'Hvorfor er genendringer i kjønnsceller og fostre ekstra omstridt?', array['Fordi de er for dyre', 'Fordi de er ulovlige i alle land', 'Fordi endringene arves videre til nye generasjoner', 'Fordi de ikke virker']::text[], 2, 'Konsekvensene kan vare i mange generasjoner.', true, true, 6),
+  ('naturfag-vg1:bioteknologi', 'q08', 'flervalg', 'Hvilket etisk perspektiv vurderer fordeler og ulemper ved en handling?', array['Pliktetikk', 'Dydsetikk', 'Føre-var-prinsippet', 'Konsekvensetikk']::text[], 3, 'Pliktetikk spør om handlingen er riktig i seg selv.', true, true, 7),
+  ('naturfag-vg1:bioteknologi', 'q09', 'flervalg', 'Hva brukes DNA-profiler til i rettsvesenet?', array['Å identifisere personer fra spor som hår, blod eller spytt', 'Å behandle sykdom', 'Å lage nye arter', 'Å dyrke planter']::text[], 0, 'DNA-profiler har løst mange kriminalsaker.', true, false, 8),
+  ('naturfag-vg1:bioteknologi', 'q10', 'flervalg', 'Hva kjennetegner en god drøfting av et bioteknologisk spørsmål?', array['Bare én side presenteres', 'Flere sider presenteres med fagkunnskap og en begrunnet konklusjon', 'Den er så kort som mulig', 'Den bygger bare på følelser']::text[], 1, 'Fagkunnskap og argumenter fra flere sider gir en god drøfting.', true, false, 9),
+  ('naturfag-vg1:bioteknologi', 'm01', 'sant-usant', 'Kloning av mennesker er forbudt i Norge.', array['Sant', 'Usant']::text[], 0, 'Bioteknologiloven setter grenser for bruk på mennesker.', false, true, 10),
+  ('naturfag-vg1:bioteknologi', 'm02', 'sant-usant', 'Avl av husdyr er ikke en form for bioteknologi.', array['Sant', 'Usant']::text[], 1, 'Avl regnes som tradisjonell bioteknologi.', false, true, 11),
+  ('naturfag-vg1:bioteknologi', 'm03', 'sant-usant', 'Bioteknologirådet gir råd om etiske spørsmål knyttet til bioteknologi.', array['Sant', 'Usant']::text[], 0, 'Rådet skaper også offentlig debatt.', false, true, 12),
+  ('naturfag-vg1:bioteknologi', 'm04', 'sant-usant', 'CRISPR er en gammel metode fra 1800-tallet.', array['Sant', 'Usant']::text[], 1, 'CRISPR-Cas9 ble utviklet som genverktøy på 2010-tallet.', false, true, 13),
+  ('naturfag-vg1:bioteknologi', 'm05', 'flervalg', 'Hvilken lov regulerer gentester og fosterdiagnostikk i Norge?', array['Genteknologiloven', 'Arbeidsmiljøloven', 'Bioteknologiloven', 'Naturmangfoldloven']::text[], 2, 'Bioteknologiloven gjelder medisinsk bruk på mennesker.', false, true, 14),
+  ('naturfag-vg1:bioteknologi', 'm06', 'flervalg', 'Hva er et argument mot å tillate «designerbabyer»?', array['Det kan føre til urettferdighet og press om å velge bestemte egenskaper', 'Det er for billig', 'Det gir mindre forskning', 'Det gjør ingen forskjell']::text[], 0, 'Mange mener det kan endre synet på menneskeverd.', false, true, 15),
+  ('naturfag-vg1:bioteknologi', 'm07', 'flervalg', 'Hva spør pliktetikken om?', array['Hvor mye teknologien koster', 'Om en handling er riktig eller gal i seg selv', 'Hvor mange som får nytte av den', 'Hva som er mest effektivt']::text[], 1, 'Konsekvensetikken ser på fordeler og ulemper.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('naturfag-vg1:bioteknologi', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Geografi (vg1): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'geografi-vg1' and slug not in ('kart-og-feltarbeid', 'landskapsformer', 'ressurs-og-arealbruk', 'ressursbruk-og-barekraft', 'klimaendringer', 'natur-og-miljokatastrofer', 'befolkning-og-levekar');
+
+-- Geografi: Kart, geografiske kilder og feltarbeid
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('geografi-vg1:kart-og-feltarbeid', 'geografi-vg1', 'kart-og-feltarbeid', 'Kart, geografiske kilder og feltarbeid', 'Hvordan du bruker kart og andre geografiske kilder – målestokk, koordinater, høydekurver, kartprojeksjoner, tematiske kart, satellittbilder og GIS – og hvordan du planlegger, gjennomfører og presenterer et feltarbeid.', array[1, 8]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('geografi-vg1:kart-og-feltarbeid', '## Kart
+
+Et **kart** er en **forenklet** og **forminsket** framstilling av jordoverflaten. Alle kart er et utvalg: Kartlageren bestemmer hva som skal vises.
+
+- **Målestokk**: forholdet mellom avstander på kartet og i virkeligheten. 1 : 50 000 betyr at 1 cm på kartet er 500 m i terrenget. **Stor målestokk** (for eksempel 1 : 5 000) viser et lite område med mange detaljer. **Liten målestokk** (for eksempel 1 : 10 000 000) viser store områder med få detaljer.
+- **Tegnforklaring** forklarer symbolene.
+- **Høydekurver** (koter) forbinder punkter med samme høyde over havet. **Tette** kurver betyr **bratt** terreng. **Ekvidistansen** er høydeforskjellen mellom to kurver.
+- **Koordinater**: **Breddegrader** går parallelt med ekvator og angir hvor langt nord eller sør et sted ligger. **Lengdegrader** går fra pol til pol og angir hvor langt øst eller vest. Oslo ligger omtrent på 60° N og 11° Ø.
+
+## Kartprojeksjoner
+
+Jorda er rund, men kartet er flatt. Derfor blir alle verdenskart **fordreid** på en eller annen måte. **Mercatorprojeksjonen**, som mange nettkart bygger på, gir riktige vinkler, men **forstørrer** områder nær polene. Grønland ser omtrent like stort ut som Afrika, selv om Afrika i virkeligheten er rundt fjorten ganger større. Andre projeksjoner gir riktige **arealer**, men fordreier formene.
+
+## Typer kart og kilder
+
+- **Topografiske kart** viser terreng, vann, veier og bebyggelse.
+- **Tematiske kart** viser ett tema, for eksempel befolkningstetthet, nedbør eller valgresultater.
+- **Satellitt- og flyfoto** viser hvordan landskapet faktisk ser ut – og hvordan det endrer seg over tid.
+- **GIS** (geografiske informasjonssystemer) er digitale systemer der vi kan legge ulike **datalag** oppå hverandre, for eksempel skredfare, bebyggelse og veier. Tjenester som **Norgeskart.no** og **NVEs karttjenester** er eksempler.
+- **Statistikk** fra for eksempel **SSB** og **FN**, **fagartikler**, **intervjuer** og **bilder** er også viktige geografiske kilder.
+
+Vær **kildekritisk**: Hvem har laget kartet, når og hvorfor? Hva er tatt med – og hva er utelatt?
+
+## Feltarbeid
+
+I et **feltarbeid** undersøker du geografiske forhold **ute i virkeligheten**, for eksempel arealbruk i nærmiljøet, spor etter istiden, trafikk eller hva folk mener om en utbygging.
+
+1. **Problemstilling**: Hva vil du finne ut?
+2. **Planlegging**: Velg **metoder** – observasjon, måling, kartlegging, fotografering, intervju eller spørreundersøkelse. Lag skjemaer, sjekk utstyr og gjør en **risikovurdering**.
+3. **Gjennomføring**: Samle inn data systematisk, og noter tid og sted.
+4. **Bearbeiding**: Lag kart, tabeller og diagrammer.
+5. **Analyse og drøfting**: Hva viser dataene? Hvilke **feilkilder** finnes?
+6. **Presentasjon**: Presenter funnene skriftlig, muntlig eller digitalt, gjerne med egne kart og bilder.
+
+Feltarbeid gir **primærdata** – informasjon du har samlet inn selv – som du kan sammenligne med andre kilder.', '{"label":"Kart og feltarbeid","children":[{"label":"Kartets elementer","children":[{"label":"Målestokk"},{"label":"Tegnforklaring"},{"label":"Høydekurver"},{"label":"Koordinater"}]},{"label":"Projeksjoner","children":[{"label":"Fordreining"},{"label":"Mercator"}]},{"label":"Kilder","children":[{"label":"Topografiske og tematiske kart"},{"label":"Satellittbilder"},{"label":"GIS"},{"label":"Statistikk"}]},{"label":"Feltarbeid","children":[{"label":"Problemstilling"},{"label":"Metoder"},{"label":"Innsamling"},{"label":"Presentasjon"}]},{"label":"Kildekritikk","children":[{"label":"Hvem, når, hvorfor"},{"label":"Feilkilder"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'geografi-vg1:kart-og-feltarbeid';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('geografi-vg1:kart-og-feltarbeid', 'Kart', 'Forenklet og forminsket framstilling av jordoverflaten.', 0),
+  ('geografi-vg1:kart-og-feltarbeid', 'Målestokk 1 : 50 000', '1 cm på kartet er 500 m i virkeligheten.', 1),
+  ('geografi-vg1:kart-og-feltarbeid', 'Stor målestokk', 'Viser et lite område med mange detaljer, som 1 : 5 000.', 2),
+  ('geografi-vg1:kart-og-feltarbeid', 'Høydekurver', 'Linjer som forbinder punkter med samme høyde over havet.', 3),
+  ('geografi-vg1:kart-og-feltarbeid', 'Ekvidistanse', 'Høydeforskjellen mellom to høydekurver.', 4),
+  ('geografi-vg1:kart-og-feltarbeid', 'Breddegrad', 'Angir hvor langt nord eller sør for ekvator et sted ligger.', 5),
+  ('geografi-vg1:kart-og-feltarbeid', 'Lengdegrad', 'Angir hvor langt øst eller vest et sted ligger.', 6),
+  ('geografi-vg1:kart-og-feltarbeid', 'Kartprojeksjon', 'Måten den runde jorda gjengis på et flatt kart.', 7),
+  ('geografi-vg1:kart-og-feltarbeid', 'Mercatorprojeksjonen', 'Riktige vinkler, men forstørrer områder nær polene.', 8),
+  ('geografi-vg1:kart-og-feltarbeid', 'Topografisk kart', 'Viser terreng, vann, veier og bebyggelse.', 9),
+  ('geografi-vg1:kart-og-feltarbeid', 'Tematisk kart', 'Viser ett tema, som befolkningstetthet.', 10),
+  ('geografi-vg1:kart-og-feltarbeid', 'GIS', 'Digitalt system der ulike datalag legges oppå hverandre.', 11),
+  ('geografi-vg1:kart-og-feltarbeid', 'Feltarbeid', 'Undersøkelse av geografiske forhold ute i virkeligheten.', 12),
+  ('geografi-vg1:kart-og-feltarbeid', 'Primærdata', 'Informasjon du har samlet inn selv.', 13),
+  ('geografi-vg1:kart-og-feltarbeid', 'Feilkilde', 'Noe som kan gjøre dataene unøyaktige.', 14);
+delete from public.quiz_sporsmal where tema_id = 'geografi-vg1:kart-og-feltarbeid';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('geografi-vg1:kart-og-feltarbeid', 'q01', 'flervalg', 'Hva betyr målestokk 1 : 50 000?', array['1 cm på kartet er 50 m i virkeligheten', '1 cm på kartet er 500 m i virkeligheten', '1 cm på kartet er 50 km i virkeligheten', 'Kartet viser 50 000 steder']::text[], 1, '50 000 cm = 500 m.', true, true, 0),
+  ('geografi-vg1:kart-og-feltarbeid', 'q02', 'flervalg', 'Hva betyr det når høydekurvene ligger tett?', array['At terrenget er bratt', 'At terrenget er flatt', 'At det er vann der', 'At det er mye skog']::text[], 0, 'Høyden endrer seg mye over kort avstand.', true, true, 1),
+  ('geografi-vg1:kart-og-feltarbeid', 'q03', 'flervalg', 'Hva er en svakhet ved Mercatorprojeksjonen?', array['Den gir feil vinkler', 'Den viser ikke hav', 'Den forstørrer områder nær polene', 'Den viser bare Europa']::text[], 2, 'Derfor ser Grønland altfor stort ut.', true, true, 2),
+  ('geografi-vg1:kart-og-feltarbeid', 'q04', 'flervalg', 'Hva angir breddegrader?', array['Hvor langt øst eller vest et sted ligger', 'Høyden over havet', 'Tidssonen', 'Hvor langt nord eller sør for ekvator et sted ligger']::text[], 3, 'Lengdegrader angir øst–vest.', true, true, 3),
+  ('geografi-vg1:kart-og-feltarbeid', 'q05', 'flervalg', 'Hva er GIS?', array['Et digitalt system der ulike datalag legges oppå hverandre', 'En type kompass', 'Et papirkart', 'En satellitt']::text[], 0, 'GIS brukes for eksempel til å kartlegge skredfare.', true, true, 4),
+  ('geografi-vg1:kart-og-feltarbeid', 'q06', 'flervalg', 'Hva viser et tematisk kart?', array['Alt i et område', 'Ett bestemt tema, som befolkningstetthet', 'Bare veier', 'Bare høydekurver']::text[], 1, 'Topografiske kart viser mange forhold samtidig.', true, true, 5),
+  ('geografi-vg1:kart-og-feltarbeid', 'q07', 'flervalg', 'Hvilken målestokk er størst?', array['1 : 1 000 000', '1 : 100 000', '1 : 5 000', '1 : 50 000']::text[], 2, 'Stor målestokk betyr lite tall under brøkstreken og mange detaljer.', true, true, 6),
+  ('geografi-vg1:kart-og-feltarbeid', 'q08', 'flervalg', 'Hva er det første steget i et feltarbeid?', array['Presentere resultatene', 'Lage diagrammer', 'Samle inn data', 'Formulere en problemstilling']::text[], 3, 'Problemstillingen styrer valg av metode.', true, true, 7),
+  ('geografi-vg1:kart-og-feltarbeid', 'q09', 'flervalg', 'Hva er primærdata?', array['Informasjon du har samlet inn selv', 'Statistikk fra SSB', 'Informasjon fra en lærebok', 'Data fra et leksikon']::text[], 0, 'Feltarbeid gir primærdata.', true, false, 8),
+  ('geografi-vg1:kart-og-feltarbeid', 'q10', 'flervalg', 'Hvorfor bør du være kildekritisk til kart?', array['Fordi kart alltid er feil', 'Fordi kart er et utvalg, og kartlageren bestemmer hva som vises', 'Fordi kart er ulovlige', 'Fordi kart bare viser fortiden']::text[], 1, 'Spør hvem som har laget kartet, når og hvorfor.', true, false, 9),
+  ('geografi-vg1:kart-og-feltarbeid', 'm01', 'sant-usant', 'Alle verdenskart er fordreid på en eller annen måte.', array['Sant', 'Usant']::text[], 0, 'En rund overflate kan ikke gjengis perfekt på et flatt kart.', false, true, 10),
+  ('geografi-vg1:kart-og-feltarbeid', 'm02', 'sant-usant', 'Grønland er større enn Afrika.', array['Sant', 'Usant']::text[], 1, 'Afrika er rundt fjorten ganger større enn Grønland.', false, true, 11),
+  ('geografi-vg1:kart-og-feltarbeid', 'm03', 'sant-usant', 'Intervju og spørreundersøkelse kan være metoder i et feltarbeid.', array['Sant', 'Usant']::text[], 0, 'De gir informasjon om hva folk mener og gjør.', false, true, 12),
+  ('geografi-vg1:kart-og-feltarbeid', 'm04', 'sant-usant', 'Ekvidistanse er avstanden mellom to byer.', array['Sant', 'Usant']::text[], 1, 'Ekvidistanse er høydeforskjellen mellom to høydekurver.', false, true, 13),
+  ('geografi-vg1:kart-og-feltarbeid', 'm05', 'flervalg', 'Omtrent hvilken breddegrad ligger Oslo på?', array['30° N', '45° N', '60° N', '80° N']::text[], 2, 'Oslo ligger omtrent på 60° N.', false, true, 14),
+  ('geografi-vg1:kart-og-feltarbeid', 'm06', 'flervalg', 'Hvorfor bør du gjøre en risikovurdering før feltarbeid?', array['For å unngå ulykker ute i terrenget', 'For å få bedre karakter', 'For å finne problemstillingen', 'For å lage kart']::text[], 0, 'Tenk for eksempel på trafikk, vær og bratt terreng.', false, true, 15),
+  ('geografi-vg1:kart-og-feltarbeid', 'm07', 'flervalg', 'Hva kan satellittbilder brukes til?', array['Bare til værmeldinger', 'Å se hvordan landskapet endrer seg over tid', 'Å måle folks meninger', 'Å finne ekvidistansen']::text[], 1, 'For eksempel avskoging, isbreer som smelter og byer som vokser.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('geografi-vg1:kart-og-feltarbeid', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Geografi: Indre og ytre krefter former landskapet
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('geografi-vg1:landskapsformer', 'geografi-vg1', 'landskapsformer', 'Indre og ytre krefter former landskapet', 'Hvordan platetektonikk, vulkaner og jordskjelv bygger opp landskapet, og hvordan forvitring, is, rennende vann, hav og vind bryter det ned – med eksempler fra Norge og på hvordan mennesker utnytter ressursene i ulike landskap.', array[2]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('geografi-vg1:landskapsformer', '## Indre og ytre krefter
+
+Landskapet formes av to typer krefter:
+
+- **Indre krefter** kommer fra jordas indre og **bygger opp** landskapet – fjellkjeder, vulkaner og jordskjelv.
+- **Ytre krefter** kommer fra sola og tyngdekraften og **bryter ned** og **flytter** materiale – vann, is, vind og temperaturendringer.
+
+## Platetektonikk
+
+Jordas ytre del er delt i store **plater** som flytter seg noen centimeter i året, drevet av varme strømmer i mantelen.
+
+- **Divergerende plategrenser**: Platene beveger seg **fra hverandre**, og magma strømmer opp. Eksempel: den **midtatlantiske ryggen** og **Island**.
+- **Konvergerende plategrenser**: Platene beveger seg **mot hverandre**. Når en havplate går under en annen plate (**subduksjon**), dannes dyphavsgroper og vulkaner. Når to kontinentplater kolliderer, presses det opp **fjellkjeder**, som **Himalaya**.
+- **Transformgrenser**: Platene glir **sidelengs** forbi hverandre, som ved **San Andreas-forkastningen** i California.
+
+De fleste **jordskjelv** og **vulkaner** ligger langs plategrensene. Den **kaledonske fjellkjeden**, som Norges fjell er rester av, ble dannet ved en platekollisjon for rundt 400 millioner år siden.
+
+## Ytre krefter
+
+- **Forvitring**: Berget brytes ned der det står. **Mekanisk** forvitring skjer for eksempel ved **frostsprengning**, når vann fryser i sprekker og utvider seg. **Kjemisk** forvitring løser opp berget.
+- **Erosjon**: Materiale **flyttes** av vann, is eller vind og **avsettes** et annet sted.
+
+## Isens landskap
+
+Under **istidene** dekket tykke isbreer Norge. Den siste istiden sluttet for omtrent 10 000 år siden.
+
+- Breene gravde ut **U-daler** og **fjorder** – dype, U-formede daler som senere ble fylt av havet.
+- **Botner** og skarpe **tinder** ble formet høyt til fjells.
+- Breene la igjen **morener** – rygger av stein, grus og sand – som i dag ofte gir god jordbruksjord og grus til byggebransjen.
+- Da isen smeltet, **hevet landet seg** fordi vekten forsvant. Gammel havbunn ble tørt land, og marin **leire** – noen steder **kvikkleire** – ligger i dag langt over havet.
+
+## Vann, hav og vind
+
+- **Elver** graver ut **V-daler** og avsetter materiale i **deltaer** der de munner ut.
+- **Havet** eroderer kysten og former **strandflaten** langs norskekysten.
+- **Vind** former sanddyner i ørkener og ved kysten.
+
+## Mennesker og landskap
+
+Landskapet gir **ressurser** og **muligheter**:
+
+- Bratte fjell og mye nedbør gir **vannkraft**.
+- **Fjordene** gir gode havner og plass til **havbruk**.
+- **Morener** og **leirslettene** under marin grense gir **jordbruk**.
+- Berggrunnen gir **mineraler** og **stein**.
+- Vulkansk jord er svært **fruktbar**, og Island utnytter **geotermisk energi**.
+
+Men landskapet gir også **farer**, som skred, flom og jordskjelv – og det påvirker hvor og hvordan vi bygger.', '{"label":"Landskapsformer","children":[{"label":"Indre krefter","children":[{"label":"Platetektonikk"},{"label":"Vulkaner"},{"label":"Jordskjelv"},{"label":"Fjellkjeder"}]},{"label":"Plategrenser","children":[{"label":"Divergerende"},{"label":"Konvergerende"},{"label":"Transform"}]},{"label":"Ytre krefter","children":[{"label":"Forvitring"},{"label":"Erosjon"},{"label":"Avsetning"}]},{"label":"Norges landskap","children":[{"label":"Fjorder og U-daler"},{"label":"Morener"},{"label":"Landheving"},{"label":"Strandflaten"}]},{"label":"Ressurser","children":[{"label":"Vannkraft"},{"label":"Havbruk"},{"label":"Jordbruk"},{"label":"Mineraler"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'geografi-vg1:landskapsformer';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('geografi-vg1:landskapsformer', 'Indre krefter', 'Krefter fra jordas indre som bygger opp landskapet.', 0),
+  ('geografi-vg1:landskapsformer', 'Ytre krefter', 'Vann, is, vind og temperatur som bryter ned og flytter materiale.', 1),
+  ('geografi-vg1:landskapsformer', 'Platetektonikk', 'Teorien om at jordskorpa er delt i plater som beveger seg.', 2),
+  ('geografi-vg1:landskapsformer', 'Divergerende plategrense', 'Platene beveger seg fra hverandre, som ved Island.', 3),
+  ('geografi-vg1:landskapsformer', 'Konvergerende plategrense', 'Platene beveger seg mot hverandre.', 4),
+  ('geografi-vg1:landskapsformer', 'Subduksjon', 'En havplate går ned under en annen plate.', 5),
+  ('geografi-vg1:landskapsformer', 'Transformgrense', 'Platene glir sidelengs forbi hverandre.', 6),
+  ('geografi-vg1:landskapsformer', 'Den kaledonske fjellkjeden', 'Fjellkjede dannet for rundt 400 millioner år siden; Norges fjell er rester av den.', 7),
+  ('geografi-vg1:landskapsformer', 'Frostsprengning', 'Mekanisk forvitring når vann fryser i sprekker.', 8),
+  ('geografi-vg1:landskapsformer', 'Erosjon', 'At materiale flyttes av vann, is eller vind.', 9),
+  ('geografi-vg1:landskapsformer', 'U-dal', 'Dal formet av isbre.', 10),
+  ('geografi-vg1:landskapsformer', 'V-dal', 'Dal formet av elv.', 11),
+  ('geografi-vg1:landskapsformer', 'Morene', 'Rygg av stein, grus og sand avsatt av en isbre.', 12),
+  ('geografi-vg1:landskapsformer', 'Landheving', 'At landet hever seg etter at vekten av isen forsvinner.', 13),
+  ('geografi-vg1:landskapsformer', 'Delta', 'Avsetning der en elv munner ut i sjø eller hav.', 14);
+delete from public.quiz_sporsmal where tema_id = 'geografi-vg1:landskapsformer';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('geografi-vg1:landskapsformer', 'q01', 'flervalg', 'Hva slags plategrense finner vi ved Island?', array['Konvergerende', 'Divergerende', 'Transform', 'Ingen plategrense']::text[], 1, 'Platene beveger seg fra hverandre, og magma strømmer opp.', true, true, 0),
+  ('geografi-vg1:landskapsformer', 'q02', 'flervalg', 'Hvordan ble Himalaya dannet?', array['Ved at to kontinentplater kolliderte', 'Ved erosjon', 'Ved en vulkan', 'Ved at platene glir fra hverandre']::text[], 0, 'Kollisjonen presser opp fjellkjeder.', true, true, 1),
+  ('geografi-vg1:landskapsformer', 'q03', 'flervalg', 'Hva former en U-dal?', array['En elv', 'Vinden', 'En isbre', 'Havet']::text[], 2, 'Elver former V-daler.', true, true, 2),
+  ('geografi-vg1:landskapsformer', 'q04', 'flervalg', 'Hva er frostsprengning?', array['At isbreer smelter', 'At vulkaner får utbrudd', 'At elver fryser', 'At vann fryser i sprekker og sprenger berget']::text[], 3, 'Det er en form for mekanisk forvitring.', true, true, 3),
+  ('geografi-vg1:landskapsformer', 'q05', 'flervalg', 'Hva er en morene?', array['En rygg av stein, grus og sand avsatt av en isbre', 'En type vulkan', 'En dyp fjord', 'En elvemunning']::text[], 0, 'Morener gir ofte god jordbruksjord.', true, true, 4),
+  ('geografi-vg1:landskapsformer', 'q06', 'flervalg', 'Hvorfor hevet landet seg etter istiden?', array['Fordi havet sank', 'Fordi vekten av isen forsvant', 'Fordi det kom vulkanutbrudd', 'Fordi platene kolliderte']::text[], 1, 'Derfor ligger gammel havbunn i dag over havet.', true, true, 5),
+  ('geografi-vg1:landskapsformer', 'q07', 'flervalg', 'Hvor ligger de fleste jordskjelv og vulkaner?', array['Midt på kontinentene', 'Ved polene', 'Langs plategrensene', 'Tilfeldig spredt']::text[], 2, 'Der beveger platene seg i forhold til hverandre.', true, true, 6),
+  ('geografi-vg1:landskapsformer', 'q08', 'flervalg', 'Hvilken ressurs gir bratte fjell og mye nedbør i Norge?', array['Olje', 'Geotermisk energi', 'Kull', 'Vannkraft']::text[], 3, 'Fallhøyde og mye vann gir mye energi.', true, true, 7),
+  ('geografi-vg1:landskapsformer', 'q09', 'flervalg', 'Hva er forskjellen på forvitring og erosjon?', array['Forvitring bryter ned berget der det står, erosjon flytter materialet', 'Det er det samme', 'Erosjon skjer bare i ørkener', 'Forvitring skjer bare under vann']::text[], 0, 'Begge er ytre krefter.', true, false, 8),
+  ('geografi-vg1:landskapsformer', 'q10', 'flervalg', 'Hva er en transformgrense?', array['Der platene beveger seg fra hverandre', 'Der platene glir sidelengs forbi hverandre', 'Der en havplate går under en annen', 'Der to kontinenter kolliderer']::text[], 1, 'San Andreas-forkastningen er et kjent eksempel.', true, false, 9),
+  ('geografi-vg1:landskapsformer', 'm01', 'sant-usant', 'Norges fjell er rester av den kaledonske fjellkjeden.', array['Sant', 'Usant']::text[], 0, 'Den ble dannet for rundt 400 millioner år siden.', false, true, 10),
+  ('geografi-vg1:landskapsformer', 'm02', 'sant-usant', 'Kontinentalplatene står helt stille.', array['Sant', 'Usant']::text[], 1, 'De beveger seg noen centimeter i året.', false, true, 11),
+  ('geografi-vg1:landskapsformer', 'm03', 'sant-usant', 'Fjordene ble gravd ut av isbreer.', array['Sant', 'Usant']::text[], 0, 'Senere ble de fylt av havet.', false, true, 12),
+  ('geografi-vg1:landskapsformer', 'm04', 'sant-usant', 'Elver former vanligvis U-daler.', array['Sant', 'Usant']::text[], 1, 'Elver former V-daler. Isbreer former U-daler.', false, true, 13),
+  ('geografi-vg1:landskapsformer', 'm05', 'flervalg', 'Hva er subduksjon?', array['At en havplate går ned under en annen plate', 'At to plater glir sidelengs', 'At en isbre smelter', 'At en elv lager et delta']::text[], 0, 'Subduksjon gir dyphavsgroper og vulkaner.', false, true, 14),
+  ('geografi-vg1:landskapsformer', 'm06', 'flervalg', 'Når sluttet den siste istiden i Norge?', array['For 1000 år siden', 'For 1 million år siden', 'For omtrent 10 000 år siden', 'For 400 millioner år siden']::text[], 2, 'Isen trakk seg tilbake for rundt 10 000 år siden.', false, true, 15),
+  ('geografi-vg1:landskapsformer', 'm07', 'flervalg', 'Hvilken energikilde utnytter Island på grunn av vulkansk aktivitet?', array['Kullkraft', 'Geotermisk energi', 'Kjernekraft', 'Vindkraft']::text[], 1, 'Varmen i undergrunnen gir strøm og oppvarming.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('geografi-vg1:landskapsformer', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Geografi: Ressurs- og arealbruk i Norge, Sápmi og nordområdene
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('geografi-vg1:ressurs-og-arealbruk', 'geografi-vg1', 'ressurs-og-arealbruk', 'Ressurs- og arealbruk i Norge, Sápmi og nordområdene', 'Hvilke interesser som støter sammen når areal og ressurser skal brukes – vindkraft og reindrift, gruvedrift, olje og fiske, hytter og natur – og hvordan slike konflikter håndteres i Norge, Sápmi og nordområdene.', array[3]::int[], 2, 'sjekkes', array['Sjekk status for Fosen-saken og gruveplanene ved Repparfjorden, som kan ha endret seg.']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('geografi-vg1:ressurs-og-arealbruk', '## Areal er en begrenset ressurs
+
+**Areal** er en ressurs det ikke kan lages mer av. Samme område kan brukes til **natur**, **landbruk**, **reindrift**, **boliger**, **hytter**, **veier**, **industri** eller **energiproduksjon**. Når ulike grupper vil bruke området på hver sin måte, oppstår **interessekonflikter**.
+
+I Norge er det **kommunene** som vedtar **arealplaner** etter **plan- og bygningsloven**. Store saker, som kraftutbygging, behandles også av staten. **Naturmangfoldloven** skal sikre at naturen tas vare på.
+
+## Sápmi og reindrift
+
+**Sápmi** er samenes tradisjonelle område. **Reindrift** er en viktig samisk næring og kultur som trenger **store, sammenhengende beiteområder**, og reinen bruker ulike områder til ulike årstider. Vindkraftverk, veier, hytter, gruver og kraftlinjer kan **forstyrre** reinen og **stykke opp** beitet.
+
+**Fosen-saken** er et kjent eksempel: I **2021** slo **Høyesterett** fast at to vindkraftverk på Fosen krenket reindriftssamenes rett til å utøve sin **kultur**, som er beskyttet i internasjonale menneskerettigheter. Saken skapte store protester og debatt om hvordan det **grønne skiftet** kan skje uten å gå ut over urfolks rettigheter.
+
+## Gruvedrift
+
+Norge har forekomster av **mineraler** som trengs i det grønne skiftet, for eksempel **kobber**. Gruvedrift kan gi **arbeidsplasser** og **inntekter**, men også **naturinngrep** og **avfall**. Planene om kobbergruve ved **Repparfjorden** i Finnmark skapte konflikt, blant annet fordi gruveavfallet skulle deponeres i fjorden, noe fiskere, miljøvernere og reindriftssamer protesterte mot.
+
+## Nordområdene
+
+**Nordområdene** – havområdene og landområdene i nord – har store ressurser:
+
+- **Fisk**, som torsk i Barentshavet, en av verdens største torskebestander.
+- **Olje og gass** i Barentshavet.
+- **Nye skipsruter** når havisen smelter.
+- **Svalbard**, der **Svalbardtraktaten** fra **1920** gir Norge suverenitet, men gir borgere fra alle land som har signert, like rett til å drive næring.
+
+Interessene spriker: Olje og gass gir inntekter og arbeidsplasser, men **fiskerinæringen** og **miljøbevegelsen** frykter oljesøl i sårbare områder, og klimautslipp fra olje og gass bidrar til global oppvarming. Nordområdene er også viktige for **sikkerhetspolitikken**, fordi Norge grenser mot **Russland**.
+
+## Hytter, veier og villrein
+
+Norge har mange hytter, og nye hyttefelt, veier og kraftlinjer bygger ned natur **bit for bit**. **Villreinen**, som Norge har et særlig ansvar for, trenger store uforstyrrede fjellområder og er sårbar for slike inngrep.
+
+## Hvordan drøfte en arealkonflikt?
+
+1. **Hvem** er aktørene? (Grunneiere, reindriftsutøvere, kommune, utbyggere, fiskere, miljøorganisasjoner, staten)
+2. **Hvilke interesser** har de – økonomiske, kulturelle, miljømessige?
+3. **Hvilke argumenter** bruker de?
+4. **Hvilke lover og rettigheter** gjelder?
+5. Hva blir **konsekvensene** på kort og lang sikt – lokalt og globalt?
+6. Finnes det **kompromisser**?', '{"label":"Ressurs- og arealbruk","children":[{"label":"Areal","children":[{"label":"Begrenset ressurs"},{"label":"Kommunale arealplaner"},{"label":"Naturmangfoldloven"}]},{"label":"Sápmi","children":[{"label":"Reindrift"},{"label":"Fosen-saken"},{"label":"Urfolks rettigheter"}]},{"label":"Mineraler","children":[{"label":"Kobber"},{"label":"Repparfjorden"},{"label":"Sjødeponi"}]},{"label":"Nordområdene","children":[{"label":"Fisk"},{"label":"Olje og gass"},{"label":"Svalbardtraktaten"},{"label":"Russland"}]},{"label":"Drøfting","children":[{"label":"Aktører"},{"label":"Interesser"},{"label":"Konsekvenser"},{"label":"Kompromisser"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'geografi-vg1:ressurs-og-arealbruk';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('geografi-vg1:ressurs-og-arealbruk', 'Interessekonflikt', 'Når ulike grupper vil bruke samme område eller ressurs på hver sin måte.', 0),
+  ('geografi-vg1:ressurs-og-arealbruk', 'Arealplan', 'Plan kommunen vedtar for hvordan areal skal brukes.', 1),
+  ('geografi-vg1:ressurs-og-arealbruk', 'Plan- og bygningsloven', 'Lov som regulerer arealplanlegging og bygging.', 2),
+  ('geografi-vg1:ressurs-og-arealbruk', 'Naturmangfoldloven', 'Lov som skal sikre at naturen tas vare på.', 3),
+  ('geografi-vg1:ressurs-og-arealbruk', 'Sápmi', 'Samenes tradisjonelle område i Norge, Sverige, Finland og Russland.', 4),
+  ('geografi-vg1:ressurs-og-arealbruk', 'Reindrift', 'Samisk næring og kultur som trenger store, sammenhengende beiteområder.', 5),
+  ('geografi-vg1:ressurs-og-arealbruk', 'Fosen-saken', 'Høyesterett slo i 2021 fast at vindkraftverk på Fosen krenket reindriftssamenes kulturrett.', 6),
+  ('geografi-vg1:ressurs-og-arealbruk', 'Det grønne skiftet', 'Overgangen til et samfunn med lavere klimagassutslipp.', 7),
+  ('geografi-vg1:ressurs-og-arealbruk', 'Repparfjorden', 'Sted i Finnmark med omstridte planer om kobbergruve og sjødeponi.', 8),
+  ('geografi-vg1:ressurs-og-arealbruk', 'Sjødeponi', 'At gruveavfall legges på bunnen av en fjord.', 9),
+  ('geografi-vg1:ressurs-og-arealbruk', 'Nordområdene', 'Hav- og landområdene i nord med store ressurser.', 10),
+  ('geografi-vg1:ressurs-og-arealbruk', 'Barentshavet', 'Havområde med store fiske-, olje- og gassressurser.', 11),
+  ('geografi-vg1:ressurs-og-arealbruk', 'Svalbardtraktaten', 'Traktat fra 1920 som gir Norge suverenitet over Svalbard.', 12),
+  ('geografi-vg1:ressurs-og-arealbruk', 'Villrein', 'Dyr som trenger store uforstyrrede fjellområder.', 13),
+  ('geografi-vg1:ressurs-og-arealbruk', 'Bit for bit-nedbygging', 'At mange små inngrep til sammen bygger ned mye natur.', 14);
+delete from public.quiz_sporsmal where tema_id = 'geografi-vg1:ressurs-og-arealbruk';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('geografi-vg1:ressurs-og-arealbruk', 'q01', 'flervalg', 'Hvem vedtar arealplaner i Norge?', array['Sametinget', 'Kommunene', 'EU', 'Private selskaper']::text[], 1, 'Kommunene har planmyndighet etter plan- og bygningsloven.', true, true, 0),
+  ('geografi-vg1:ressurs-og-arealbruk', 'q02', 'flervalg', 'Hva slo Høyesterett fast i Fosen-saken i 2021?', array['At vindkraftverkene krenket reindriftssamenes rett til kulturutøvelse', 'At vindkraft er forbudt i Norge', 'At reindrift må flyttes', 'At Fosen tilhører Sverige']::text[], 0, 'Retten til kulturutøvelse er vernet av internasjonale menneskerettigheter.', true, true, 1),
+  ('geografi-vg1:ressurs-og-arealbruk', 'q03', 'flervalg', 'Hvorfor kan vindkraftverk skape konflikt med reindrift?', array['Fordi reinen spiser vindmøllene', 'Fordi reindrift gir mye støy', 'Fordi de kan forstyrre reinen og stykke opp beiteområdene', 'Fordi reindrift bruker mye strøm']::text[], 2, 'Reinen trenger store, sammenhengende områder.', true, true, 2),
+  ('geografi-vg1:ressurs-og-arealbruk', 'q04', 'flervalg', 'Hva gir Svalbardtraktaten fra 1920?', array['Russland suverenitet over Svalbard', 'Svalbard status som eget land', 'Alle land rett til å bygge militærbaser', 'Norge suverenitet, men like næringsrettigheter for borgere fra landene som har signert']::text[], 3, 'Traktaten kalles også Spitsbergentraktaten.', true, true, 3),
+  ('geografi-vg1:ressurs-og-arealbruk', 'q05', 'flervalg', 'Hvilken ressurs er Barentshavet særlig kjent for?', array['Torsk', 'Diamanter', 'Kaffe', 'Gull']::text[], 0, 'Barentshavet har en av verdens største torskebestander.', true, true, 4),
+  ('geografi-vg1:ressurs-og-arealbruk', 'q06', 'flervalg', 'Hvorfor protesterte mange mot gruveplanene ved Repparfjorden?', array['Fordi gruven skulle ligge i Oslo', 'Fordi gruveavfallet skulle deponeres i fjorden', 'Fordi det ikke fantes mineraler der', 'Fordi gruven skulle drives av staten']::text[], 1, 'Fiskere, miljøvernere og reindriftssamer var bekymret.', true, true, 5),
+  ('geografi-vg1:ressurs-og-arealbruk', 'q07', 'flervalg', 'Hvilket dyr har Norge et særlig ansvar for, og som er sårbart for hytter og veier i fjellet?', array['Elg', 'Rødrev', 'Villrein', 'Hjort']::text[], 2, 'Villreinen trenger store uforstyrrede fjellområder.', true, true, 6),
+  ('geografi-vg1:ressurs-og-arealbruk', 'q08', 'flervalg', 'Hva er et argument mot olje- og gassvirksomhet i nordområdene?', array['Den gir arbeidsplasser', 'Den gir inntekter til staten', 'Den gir nye skipsruter', 'Den kan gi oljesøl i sårbare områder og bidrar til klimautslipp']::text[], 3, 'Fiskerinæringen og miljøbevegelsen er ofte kritiske.', true, true, 7),
+  ('geografi-vg1:ressurs-og-arealbruk', 'q09', 'flervalg', 'Hva betyr at natur bygges ned «bit for bit»?', array['At mange små inngrep til sammen bygger ned mye natur', 'At naturen vokser tilbake', 'At man bygger med små steiner', 'At byer blir mindre']::text[], 0, 'Hvert inngrep kan virke lite, men summen blir stor.', true, false, 8),
+  ('geografi-vg1:ressurs-og-arealbruk', 'q10', 'flervalg', 'Hva er et godt første steg når du drøfter en arealkonflikt?', array['Å velge side med en gang', 'Å finne ut hvem aktørene er og hvilke interesser de har', 'Å lese bare én kilde', 'Å se bort fra lovene']::text[], 1, 'Deretter vurderer du argumenter, lover og konsekvenser.', true, false, 9),
+  ('geografi-vg1:ressurs-og-arealbruk', 'm01', 'sant-usant', 'Reinen bruker ulike beiteområder til ulike årstider.', array['Sant', 'Usant']::text[], 0, 'Derfor trengs store, sammenhengende områder.', false, true, 10),
+  ('geografi-vg1:ressurs-og-arealbruk', 'm02', 'sant-usant', 'Areal er en ressurs vi kan lage mer av.', array['Sant', 'Usant']::text[], 1, 'Areal er begrenset.', false, true, 11),
+  ('geografi-vg1:ressurs-og-arealbruk', 'm03', 'sant-usant', 'Smeltende havis kan åpne nye skipsruter i nord.', array['Sant', 'Usant']::text[], 0, 'Det gir både muligheter og nye risikoer.', false, true, 12),
+  ('geografi-vg1:ressurs-og-arealbruk', 'm04', 'sant-usant', 'Det grønne skiftet skaper aldri arealkonflikter.', array['Sant', 'Usant']::text[], 1, 'Vindkraft og gruvedrift kan gi store arealkonflikter.', false, true, 13),
+  ('geografi-vg1:ressurs-og-arealbruk', 'm05', 'flervalg', 'Hvilken lov skal sikre at naturen tas vare på?', array['Naturmangfoldloven', 'Ferieloven', 'Opplæringsloven', 'Straffeloven']::text[], 0, 'Loven stiller krav til kunnskap og forsiktighet ved inngrep.', false, true, 14),
+  ('geografi-vg1:ressurs-og-arealbruk', 'm06', 'flervalg', 'Hvilket mineral trengs i det grønne skiftet og finnes ved Repparfjorden?', array['Gull', 'Salt', 'Kobber', 'Kull']::text[], 2, 'Kobber brukes blant annet i elektriske ledninger.', false, true, 15),
+  ('geografi-vg1:ressurs-og-arealbruk', 'm07', 'flervalg', 'Hvorfor er nordområdene viktige for sikkerhetspolitikken?', array['Fordi det er varmt der', 'Fordi Norge grenser mot Russland der', 'Fordi det bor flest folk der', 'Fordi hovedstaden ligger der']::text[], 1, 'Nordområdene har stor strategisk betydning.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('geografi-vg1:ressurs-og-arealbruk', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Geografi: Ressursbruk og bærekraft
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('geografi-vg1:ressursbruk-og-barekraft', 'geografi-vg1', 'ressursbruk-og-barekraft', 'Ressursbruk og bærekraft', 'Fornybare og ikke-fornybare ressurser, økologisk fotavtrykk og overforbruk, Norges ressursbruk i et globalt perspektiv – olje, vannkraft, fisk og forbruk – og hvordan du kan reflektere over din egen ressursbruk.', array[4]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('geografi-vg1:ressursbruk-og-barekraft', '## Naturressurser
+
+En **naturressurs** er noe fra naturen som mennesker kan bruke.
+
+- **Fornybare ressurser** fornyes hele tiden, som **sol**, **vind** og **rennende vann**.
+- **Betinget fornybare ressurser** fornyes bare hvis de **forvaltes** godt, som **fisk**, **skog** og **jordsmonn**. Overfiske kan få en fiskebestand til å bryte sammen.
+- **Ikke-fornybare ressurser** finnes i begrensede mengder og dannes ikke på nytt i menneskelig tidsperspektiv, som **olje**, **gass**, **kull** og **mineraler**.
+
+## Bærekraftig utvikling
+
+**Bærekraftig utvikling** betyr å dekke dagens behov uten å ødelegge mulighetene for kommende generasjoner. Begrepet ble kjent gjennom **Brundtland-rapporten** i **1987**, ledet av Gro Harlem Brundtland. Bærekraft har tre dimensjoner: **miljø**, **økonomi** og **sosiale forhold**.
+
+## Økologisk fotavtrykk
+
+Det **økologiske fotavtrykket** viser hvor stort areal som trengs for å produsere det vi forbruker og ta hånd om avfallet og utslippene våre. Hvis alle i verden levde som gjennomsnittsnordmannen, ville vi trengt **flere jordkloder**. **Jordas overforbruksdag** markerer datoen da menneskeheten har brukt opp det naturen klarer å fornye i løpet av et år – den kommer nå tidlig på sommeren eller sensommeren hvert år.
+
+Fotavtrykket varierer mye: Folk i rike land har ofte mange ganger større fotavtrykk enn folk i fattige land.
+
+## Norges ressursbruk
+
+- **Olje og gass**: Norge er en stor **eksportør**. Inntektene har gjort landet rikt, og mye er plassert i **Statens pensjonsfond utland** (oljefondet). Men utslippene når olje og gass **brennes**, skjer stort sett i andre land – og bidrar til global oppvarming.
+- **Vannkraft**: Nesten all strøm i Norge kommer fra **fornybar vannkraft**.
+- **Fisk og havbruk**: Norge er en av verdens største eksportører av sjømat. **Oppdrettslaks** gir store inntekter, men også utfordringer som **lakselus** og rømming.
+- **Forbruk**: Nordmenn kjøper mye **klær**, **elektronikk** og **mat**, og har et høyt forbruk per person sammenlignet med de fleste land.
+
+## Globalt perspektiv
+
+Ressursbruken i ett land påvirker andre deler av verden. Mobilen din inneholder **mineraler** som kan være utvunnet under dårlige forhold, klærne kan være produsert med mye vann og kjemikalier, og maten kan ha bidratt til avskoging. **Globale verdikjeder** gjør at forbruk i Norge har konsekvenser langt unna.
+
+## Reflektere over egen ressursbruk
+
+Spørsmål du kan stille deg:
+
+- Trenger jeg dette, eller kan jeg **låne**, **reparere** eller **kjøpe brukt**?
+- Hvor lenge vil jeg bruke det?
+- Hvordan kan jeg redusere **matsvinn** og **energibruk**?
+- Hvilke **transportvalg** tar jeg?
+
+Mange tiltak krever også **politiske beslutninger** og endringer i **næringslivet** – enkeltpersoners valg er viktige, men løser ikke alt alene. En god refleksjon ser både på **egne valg** og på **samfunnets ansvar**.', '{"label":"Ressursbruk og bærekraft","children":[{"label":"Ressurser","children":[{"label":"Fornybare"},{"label":"Betinget fornybare"},{"label":"Ikke-fornybare"}]},{"label":"Bærekraft","children":[{"label":"Brundtland 1987"},{"label":"Tre dimensjoner"}]},{"label":"Fotavtrykk","children":[{"label":"Økologisk fotavtrykk"},{"label":"Overforbruksdagen"},{"label":"Rike og fattige land"}]},{"label":"Norge","children":[{"label":"Olje og gass"},{"label":"Vannkraft"},{"label":"Fisk og havbruk"},{"label":"Høyt forbruk"}]},{"label":"Egne valg","children":[{"label":"Reparere og gjenbruke"},{"label":"Matsvinn"},{"label":"Samfunnets ansvar"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'geografi-vg1:ressursbruk-og-barekraft';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('geografi-vg1:ressursbruk-og-barekraft', 'Naturressurs', 'Noe fra naturen som mennesker kan bruke.', 0),
+  ('geografi-vg1:ressursbruk-og-barekraft', 'Fornybar ressurs', 'Ressurs som fornyes hele tiden, som sol og vind.', 1),
+  ('geografi-vg1:ressursbruk-og-barekraft', 'Betinget fornybar ressurs', 'Ressurs som fornyes hvis den forvaltes godt, som fisk og skog.', 2),
+  ('geografi-vg1:ressursbruk-og-barekraft', 'Ikke-fornybar ressurs', 'Ressurs i begrensede mengder, som olje og mineraler.', 3),
+  ('geografi-vg1:ressursbruk-og-barekraft', 'Bærekraftig utvikling', 'Å dekke dagens behov uten å ødelegge for kommende generasjoner.', 4),
+  ('geografi-vg1:ressursbruk-og-barekraft', 'Brundtland-rapporten', 'Rapport fra 1987 som gjorde begrepet bærekraftig utvikling kjent.', 5),
+  ('geografi-vg1:ressursbruk-og-barekraft', 'Økologisk fotavtrykk', 'Arealet som trengs for å dekke forbruket og ta hånd om avfall og utslipp.', 6),
+  ('geografi-vg1:ressursbruk-og-barekraft', 'Jordas overforbruksdag', 'Datoen da menneskeheten har brukt opp det naturen fornyer på et år.', 7),
+  ('geografi-vg1:ressursbruk-og-barekraft', 'Oljefondet', 'Statens pensjonsfond utland, der oljeinntektene plasseres.', 8),
+  ('geografi-vg1:ressursbruk-og-barekraft', 'Vannkraft', 'Fornybar energi som gir nesten all strøm i Norge.', 9),
+  ('geografi-vg1:ressursbruk-og-barekraft', 'Lakselus', 'Parasitt som er en utfordring for oppdrettsnæringen og villaks.', 10),
+  ('geografi-vg1:ressursbruk-og-barekraft', 'Overfiske', 'Å fiske mer enn bestanden tåler.', 11),
+  ('geografi-vg1:ressursbruk-og-barekraft', 'Globale verdikjeder', 'Produksjon fordelt over mange land fra råvare til ferdig vare.', 12),
+  ('geografi-vg1:ressursbruk-og-barekraft', 'Tre dimensjoner av bærekraft', 'Miljø, økonomi og sosiale forhold.', 13),
+  ('geografi-vg1:ressursbruk-og-barekraft', 'Gjenbruk og reparasjon', 'Måter å redusere eget forbruk på.', 14);
+delete from public.quiz_sporsmal where tema_id = 'geografi-vg1:ressursbruk-og-barekraft';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('geografi-vg1:ressursbruk-og-barekraft', 'q01', 'flervalg', 'Hvilken ressurs er ikke-fornybar?', array['Vind', 'Olje', 'Solenergi', 'Rennende vann']::text[], 1, 'Olje dannes ikke på nytt i menneskelig tidsperspektiv.', true, true, 0),
+  ('geografi-vg1:ressursbruk-og-barekraft', 'q02', 'flervalg', 'Hvorfor kalles fisk en betinget fornybar ressurs?', array['Fordi den bare fornyes hvis den forvaltes godt', 'Fordi den aldri tar slutt', 'Fordi den ikke kan fornyes', 'Fordi den er en mineral']::text[], 0, 'Overfiske kan få en bestand til å bryte sammen.', true, true, 1),
+  ('geografi-vg1:ressursbruk-og-barekraft', 'q03', 'flervalg', 'Hva er det økologiske fotavtrykket?', array['Et fotspor i naturen', 'Antall skritt man går per dag', 'Arealet som trengs for å dekke forbruket og ta hånd om avfall og utslipp', 'Størrelsen på et land']::text[], 2, 'Rike land har ofte store fotavtrykk.', true, true, 2),
+  ('geografi-vg1:ressursbruk-og-barekraft', 'q04', 'flervalg', 'Hvilken rapport gjorde begrepet bærekraftig utvikling kjent i 1987?', array['Parisavtalen', 'FNs klimarapport', 'Kyotoprotokollen', 'Brundtland-rapporten']::text[], 3, 'Den ble ledet av Gro Harlem Brundtland.', true, true, 3),
+  ('geografi-vg1:ressursbruk-og-barekraft', 'q05', 'flervalg', 'Hvor kommer nesten all strøm i Norge fra?', array['Vannkraft', 'Kullkraft', 'Kjernekraft', 'Gasskraft']::text[], 0, 'Bratte fjell og mye nedbør gir gode forhold for vannkraft.', true, true, 4),
+  ('geografi-vg1:ressursbruk-og-barekraft', 'q06', 'flervalg', 'Hvor skjer det meste av utslippene fra norsk olje og gass?', array['På norske oljeplattformer', 'I andre land, der oljen og gassen brennes', 'I oljefondet', 'I Nordsjøen']::text[], 1, 'Produksjonen gir også utslipp i Norge, men forbrenningen skjer mest i andre land.', true, true, 5),
+  ('geografi-vg1:ressursbruk-og-barekraft', 'q07', 'flervalg', 'Hva er en utfordring for oppdrettsnæringen?', array['For lite hav', 'For kaldt vann', 'Lakselus og rømming', 'For få kunder']::text[], 2, 'Lakselus kan også skade villaksen.', true, true, 6),
+  ('geografi-vg1:ressursbruk-og-barekraft', 'q08', 'flervalg', 'Hva markerer jordas overforbruksdag?', array['Årets varmeste dag', 'Dagen da oljen tar slutt', 'Dagen med mest handel', 'Datoen da menneskeheten har brukt opp det naturen fornyer på et år']::text[], 3, 'Etter denne datoen lever vi på «kreditt» fra naturen.', true, true, 7),
+  ('geografi-vg1:ressursbruk-og-barekraft', 'q09', 'flervalg', 'Hvilket tiltak reduserer eget ressursforbruk?', array['Å reparere og kjøpe brukt', 'Å kjøpe ny mobil hvert år', 'Å kaste mat', 'Å fly oftere']::text[], 0, 'Gjenbruk forlenger levetiden til produktene.', true, false, 8),
+  ('geografi-vg1:ressursbruk-og-barekraft', 'q10', 'flervalg', 'Hvorfor bør en refleksjon over ressursbruk også se på samfunnets ansvar?', array['Fordi enkeltpersoner ikke har noe ansvar', 'Fordi mange tiltak krever politiske beslutninger og endringer i næringslivet', 'Fordi det er enklere', 'Fordi bare staten forbruker']::text[], 1, 'Både egne valg og samfunnets beslutninger betyr noe.', true, false, 9),
+  ('geografi-vg1:ressursbruk-og-barekraft', 'm01', 'sant-usant', 'Hvis alle levde som gjennomsnittsnordmannen, ville vi trengt mer enn én jordklode.', array['Sant', 'Usant']::text[], 0, 'Norge har et høyt forbruk per person.', false, true, 10),
+  ('geografi-vg1:ressursbruk-og-barekraft', 'm02', 'sant-usant', 'Skog er en ressurs som alltid fornyes uansett hvordan den forvaltes.', array['Sant', 'Usant']::text[], 1, 'Skog er betinget fornybar.', false, true, 11),
+  ('geografi-vg1:ressursbruk-og-barekraft', 'm03', 'sant-usant', 'Forbruk i Norge kan ha konsekvenser i andre deler av verden.', array['Sant', 'Usant']::text[], 0, 'Globale verdikjeder knytter forbruk og produksjon sammen.', false, true, 12),
+  ('geografi-vg1:ressursbruk-og-barekraft', 'm04', 'sant-usant', 'Bærekraft handler bare om miljø.', array['Sant', 'Usant']::text[], 1, 'Bærekraft handler også om økonomi og sosiale forhold.', false, true, 13),
+  ('geografi-vg1:ressursbruk-og-barekraft', 'm05', 'flervalg', 'Hva er oljefondet?', array['Et fond for oljearbeidere', 'Statens pensjonsfond utland, der oljeinntektene plasseres', 'Et selskap som borer etter olje', 'En miljøorganisasjon']::text[], 1, 'Fondet skal komme både dagens og framtidens generasjoner til gode.', false, true, 14),
+  ('geografi-vg1:ressursbruk-og-barekraft', 'm06', 'flervalg', 'Hvilken av disse er en fornybar ressurs?', array['Kull', 'Naturgass', 'Vindkraft', 'Kobber']::text[], 2, 'Vinden fornyes hele tiden.', false, true, 15),
+  ('geografi-vg1:ressursbruk-og-barekraft', 'm07', 'flervalg', 'Hvilket spørsmål er nyttig når du vurderer eget forbruk?', array['Trenger jeg dette, eller kan jeg låne eller kjøpe brukt?', 'Hva er billigst akkurat nå?', 'Hva har vennene mine?', 'Hva er mest populært?']::text[], 0, 'Det reduserer forbruket av nye ressurser.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('geografi-vg1:ressursbruk-og-barekraft', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Geografi: Klimaendringer i natur og samfunn
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('geografi-vg1:klimaendringer', 'geografi-vg1', 'klimaendringer', 'Klimaendringer i natur og samfunn', 'Forskjellen på vær og klima, drivhuseffekten og menneskeskapte klimaendringer, konsekvenser for natur og samfunn lokalt i Norge, regionalt i Arktis og globalt – og forskjellen på utslippskutt og klimatilpasning.', array[5]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('geografi-vg1:klimaendringer', '## Vær og klima
+
+**Vær** er forholdene i atmosfæren her og nå – temperatur, nedbør og vind. **Klima** er gjennomsnittet av været over lang tid, vanligvis **30 år**. En kald vinter betyr ikke at klimaet ikke blir varmere.
+
+## Drivhuseffekten
+
+Sola varmer opp jordoverflaten, som sender ut **varmestråling**. **Drivhusgasser** som **karbondioksid** (CO₂), **metan** (CH₄), **lystgass** (N₂O) og **vanndamp** holder på noe av varmen. Uten den **naturlige drivhuseffekten** ville jorda vært omtrent 30 grader kaldere.
+
+Siden industrialiseringen har mennesker sluppet ut store mengder drivhusgasser, særlig ved å brenne **kull, olje og gass**, ved **avskoging** og fra **landbruk**. Dette **forsterker** drivhuseffekten. **FNs klimapanel (IPCC)** har slått fast at det er **utvetydig** at menneskelig aktivitet har varmet opp atmosfæren, havet og landjorda. Den globale temperaturen har økt med over én grad siden førindustriell tid.
+
+## Konsekvenser globalt
+
+- Flere og kraftigere **hetebølger**, **tørkeperioder** og **ekstremnedbør**
+- **Havnivåstigning** fordi isbreer smelter og havet utvider seg når det blir varmere – en trussel mot lavtliggende land og øystater som **Maldivene** og **Tuvalu**
+- **Havforsuring** og korallbleking
+- Dårligere **matsikkerhet** i mange områder
+- Arter som flytter, eller som ikke klarer å tilpasse seg og **dør ut**
+- Flere mennesker på flukt fra ødelagte levekår
+
+Klimaendringene rammer ofte **hardest** i fattige land som har **sluppet ut minst**, noe som reiser spørsmål om **klimarettferdighet**.
+
+## Konsekvenser i Arktis
+
+**Arktis** varmes opp **mye raskere** enn resten av verden. **Havisen** krymper, noe som truer isbjørn og sel, men åpner for **skipsfart** og ressursutvinning. Tinende **permafrost** kan skade bygninger og veier og frigjøre mer drivhusgasser.
+
+## Konsekvenser i Norge
+
+- **Mer nedbør** og mer **styrtregn**
+- Flere **flommer** og **jord- og flomskred**
+- **Kortere snøsesong** i lavlandet
+- **Havnivåstigning** og stormflo langs deler av kysten
+- **Lengre vekstsesong**, men også nye skadedyr og sykdommer
+- Arter som flytter **nordover** og **høyere opp**
+
+## Hva kan gjøres?
+
+- **Utslippskutt** (klimatiltak) reduserer årsaken: fornybar energi, elektrifisering av transport, energieffektivisering, mindre avskoging og endret forbruk.
+- **Klimatilpasning** gjør samfunnet bedre rustet til endringene: bedre avløpssystemer, flomvern, sikring mot skred og å unngå å bygge i utsatte områder.
+
+I **Parisavtalen** fra **2015** ble verdens land enige om å begrense oppvarmingen til godt **under 2 grader**, og helst **1,5 grader**. Klimaendringene må løses både **lokalt**, **nasjonalt** og **globalt**.', '{"label":"Klimaendringer","children":[{"label":"Grunnbegreper","children":[{"label":"Vær og klima"},{"label":"Drivhuseffekten"},{"label":"Drivhusgasser"}]},{"label":"Globalt","children":[{"label":"Hetebølger og tørke"},{"label":"Havnivå"},{"label":"Matsikkerhet"},{"label":"Klimarettferdighet"}]},{"label":"Arktis","children":[{"label":"Havis"},{"label":"Permafrost"},{"label":"Nye skipsruter"}]},{"label":"Norge","children":[{"label":"Mer nedbør"},{"label":"Flom og skred"},{"label":"Arter flytter"}]},{"label":"Tiltak","children":[{"label":"Utslippskutt"},{"label":"Klimatilpasning"},{"label":"Parisavtalen"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'geografi-vg1:klimaendringer';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('geografi-vg1:klimaendringer', 'Vær', 'Forholdene i atmosfæren her og nå.', 0),
+  ('geografi-vg1:klimaendringer', 'Klima', 'Gjennomsnittet av været over lang tid, vanligvis 30 år.', 1),
+  ('geografi-vg1:klimaendringer', 'Drivhuseffekten', 'Drivhusgasser holder på varme i atmosfæren.', 2),
+  ('geografi-vg1:klimaendringer', 'Drivhusgasser', 'CO₂, metan, lystgass og vanndamp.', 3),
+  ('geografi-vg1:klimaendringer', 'Forsterket drivhuseffekt', 'Økt oppvarming på grunn av menneskeskapte utslipp.', 4),
+  ('geografi-vg1:klimaendringer', 'IPCC', 'FNs klimapanel, som sammenstiller forskningen om klima.', 5),
+  ('geografi-vg1:klimaendringer', 'Havnivåstigning', 'Stigende hav på grunn av smeltende is og varmere hav.', 6),
+  ('geografi-vg1:klimaendringer', 'Klimarettferdighet', 'At de som har sluppet ut minst, ofte rammes hardest.', 7),
+  ('geografi-vg1:klimaendringer', 'Arktis', 'Varmes opp mye raskere enn resten av verden.', 8),
+  ('geografi-vg1:klimaendringer', 'Permafrost', 'Bakke som er frossen hele året.', 9),
+  ('geografi-vg1:klimaendringer', 'Styrtregn', 'Svært kraftig nedbør over kort tid.', 10),
+  ('geografi-vg1:klimaendringer', 'Utslippskutt', 'Tiltak som reduserer utslippene av drivhusgasser.', 11),
+  ('geografi-vg1:klimaendringer', 'Klimatilpasning', 'Tiltak som gjør samfunnet bedre rustet til klimaendringene.', 12),
+  ('geografi-vg1:klimaendringer', 'Parisavtalen', 'Avtale fra 2015 om å begrense oppvarmingen til godt under 2 grader.', 13),
+  ('geografi-vg1:klimaendringer', '1,5-gradersmålet', 'Målet om å begrense oppvarmingen til 1,5 grader.', 14);
+delete from public.quiz_sporsmal where tema_id = 'geografi-vg1:klimaendringer';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('geografi-vg1:klimaendringer', 'q01', 'flervalg', 'Hva er forskjellen på vær og klima?', array['Det er det samme', 'Vær er forholdene nå, klima er gjennomsnittet over lang tid', 'Klima gjelder bare sommeren', 'Vær gjelder hele verden']::text[], 1, 'Klima regnes vanligvis som gjennomsnittet over 30 år.', true, true, 0),
+  ('geografi-vg1:klimaendringer', 'q02', 'flervalg', 'Hvilken av disse er en drivhusgass?', array['Metan', 'Oksygen', 'Nitrogen', 'Argon']::text[], 0, 'Metan kommer blant annet fra husdyr og søppelfyllinger.', true, true, 1),
+  ('geografi-vg1:klimaendringer', 'q03', 'flervalg', 'Hvorfor stiger havnivået?', array['Fordi det regner mer over havet', 'Fordi elvene blir større', 'Fordi isbreer smelter og varmere hav utvider seg', 'Fordi det bygges flere skip']::text[], 2, 'Begge deler bidrar til havnivåstigning.', true, true, 2),
+  ('geografi-vg1:klimaendringer', 'q04', 'flervalg', 'Hva er klimatilpasning?', array['Å kutte utslipp', 'Å flytte til et varmere land', 'Å benekte klimaendringene', 'Tiltak som gjør samfunnet bedre rustet til klimaendringene']::text[], 3, 'Eksempler er flomvern og bedre avløpssystemer.', true, true, 3),
+  ('geografi-vg1:klimaendringer', 'q05', 'flervalg', 'Hva ble landene enige om i Parisavtalen fra 2015?', array['Å begrense oppvarmingen til godt under 2 grader', 'Å stoppe all oljeproduksjon', 'Å forby biler', 'Å øke utslippene']::text[], 0, 'Målet er helst å begrense oppvarmingen til 1,5 grader.', true, true, 4),
+  ('geografi-vg1:klimaendringer', 'q06', 'flervalg', 'Hvilken konsekvens av klimaendringene er ventet i Norge?', array['Mindre nedbør over hele landet', 'Mer nedbør og flere flommer og skred', 'Lengre snøsesong i lavlandet', 'Kaldere somre']::text[], 1, 'Styrtregn og skred er store utfordringer.', true, true, 5),
+  ('geografi-vg1:klimaendringer', 'q07', 'flervalg', 'Hvorfor snakker mange om klimarettferdighet?', array['Fordi alle land har sluppet ut like mye', 'Fordi rike land rammes hardest', 'Fordi fattige land som har sluppet ut minst, ofte rammes hardest', 'Fordi klimaendringer bare rammer Europa']::text[], 2, 'Ansvar og konsekvenser er ujevnt fordelt.', true, true, 6),
+  ('geografi-vg1:klimaendringer', 'q08', 'flervalg', 'Hvordan skiller Arktis seg ut når det gjelder oppvarming?', array['Arktis blir kaldere', 'Arktis endrer seg ikke', 'Arktis varmes like raskt som resten av verden', 'Arktis varmes mye raskere enn resten av verden']::text[], 3, 'Krympende havis forsterker oppvarmingen.', true, true, 7),
+  ('geografi-vg1:klimaendringer', 'q09', 'flervalg', 'Hva har FNs klimapanel slått fast?', array['At menneskelig aktivitet utvetydig har varmet opp kloden', 'At klimaendringene er naturlige', 'At temperaturen synker', 'At CO₂ ikke påvirker klimaet']::text[], 0, 'IPCC sammenstiller forskning fra hele verden.', true, false, 8),
+  ('geografi-vg1:klimaendringer', 'q10', 'flervalg', 'Hvilket tiltak er et utslippskutt?', array['Å bygge flomvoll', 'Å bytte fra fossil energi til fornybar energi', 'Å sikre hus mot skred', 'Å lage større avløpsrør']::text[], 1, 'De andre er klimatilpasning.', true, false, 9),
+  ('geografi-vg1:klimaendringer', 'm01', 'sant-usant', 'Uten den naturlige drivhuseffekten ville jorda vært mye kaldere.', array['Sant', 'Usant']::text[], 0, 'Omtrent 30 grader kaldere.', false, true, 10),
+  ('geografi-vg1:klimaendringer', 'm02', 'sant-usant', 'En kald vinter viser at klimaet ikke blir varmere.', array['Sant', 'Usant']::text[], 1, 'Klima er gjennomsnittet over lang tid, ikke enkeltvintre.', false, true, 11),
+  ('geografi-vg1:klimaendringer', 'm03', 'sant-usant', 'Tinende permafrost kan frigjøre mer drivhusgasser.', array['Sant', 'Usant']::text[], 0, 'Det kan forsterke oppvarmingen ytterligere.', false, true, 12),
+  ('geografi-vg1:klimaendringer', 'm04', 'sant-usant', 'Klimaendringer rammer bare dyr og planter, ikke mennesker.', array['Sant', 'Usant']::text[], 1, 'Klimaendringer påvirker mat, helse, bosteder og økonomi.', false, true, 13),
+  ('geografi-vg1:klimaendringer', 'm05', 'flervalg', 'Hvilke land er særlig truet av havnivåstigning?', array['Fjelland som Nepal', 'Lavtliggende øystater som Maldivene og Tuvalu', 'Store innlandsstater', 'Land nær Nordpolen']::text[], 1, 'Store deler av landene ligger bare litt over havet.', false, true, 14),
+  ('geografi-vg1:klimaendringer', 'm06', 'flervalg', 'Hvilken menneskelig aktivitet slipper ut mest CO₂?', array['Å puste', 'Å drikke vann', 'Å brenne kull, olje og gass', 'Å plante trær']::text[], 2, 'Fossile brensler er den største kilden.', false, true, 15),
+  ('geografi-vg1:klimaendringer', 'm07', 'flervalg', 'Hvilket tiltak er klimatilpasning?', array['Å unngå å bygge i flom- og skredutsatte områder', 'Å kjøre elbil', 'Å spise mindre kjøtt', 'Å fly mindre']::text[], 0, 'De andre er utslippskutt.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('geografi-vg1:klimaendringer', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Geografi: Natur- og miljøkatastrofer
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('geografi-vg1:natur-og-miljokatastrofer', 'geografi-vg1', 'natur-og-miljokatastrofer', 'Natur- og miljøkatastrofer', 'Forskjellen på naturfarer, naturkatastrofer og miljøkatastrofer, årsaker til jordskjelv, tsunamier, vulkanutbrudd, tropiske sykloner, flom og skred, og hvorfor konsekvensene for mennesker, samfunn og natur varierer så mye.', array[6]::int[], 5, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('geografi-vg1:natur-og-miljokatastrofer', '## Fare, sårbarhet og katastrofe
+
+En **naturfare** er en naturlig prosess som **kan** skade mennesker, for eksempel et jordskjelv. Den blir en **naturkatastrofe** når den rammer mennesker og samfunn så hardt at de ikke klarer seg selv. Konsekvensene avhenger både av **faren** og av samfunnets **sårbarhet**:
+
+**Risiko = fare × sårbarhet**
+
+Et jordskjelv av samme styrke kan drepe få mennesker i et rikt land med jordskjelvsikre bygninger og mange tusen i et fattig land med dårlige bygninger og svak beredskap.
+
+En **miljøkatastrofe** er **menneskeskapt** skade på natur og miljø, som oljeutslipp eller atomulykker.
+
+## Typer naturkatastrofer
+
+**Jordskjelv** oppstår når spenninger langs **plategrenser** eller forkastninger utløses brått. I **februar 2023** rammet et kraftig jordskjelv **Tyrkia og Syria**, og over 50 000 mennesker døde.
+
+**Tsunamier** er store bølger som oftest skyldes jordskjelv under havbunnen. **Tsunamien i Indiahavet** 26. desember **2004** drepte rundt 230 000 mennesker i mange land.
+
+**Vulkanutbrudd** skjer ved plategrenser og over «hot spots». Aske og gasser kan ødelegge avlinger, stanse flytrafikk og påvirke klimaet.
+
+**Tropiske sykloner** – kalt **orkaner**, **tyfoner** eller **sykloner** i ulike deler av verden – dannes over **varmt hav** og gir ekstrem vind, nedbør og **stormflo**. Orkanen **Katrina** satte store deler av New Orleans under vann i 2005.
+
+**Flom** skyldes kraftig nedbør, snøsmelting eller stormflo. **Tørke** gir avlingssvikt og sult.
+
+**Skred** er vanlige i Norge: **snøskred**, **steinsprang**, **jord- og flomskred** og **kvikkleireskred**. **Kvikkleire** er marin leire fra etter istiden som kan bli flytende når den forstyrres. I **Gjerdrum** gikk et stort kvikkleireskred **30. desember 2020**, og 11 mennesker omkom.
+
+## Miljøkatastrofer
+
+- **Tsjernobyl-ulykken** (1986) spredte radioaktivt nedfall over store deler av Europa, også Norge.
+- **Deepwater Horizon** (2010) ga et av historiens største oljeutslipp i Mexicogolfen.
+- **Aralsjøen** i Sentral-Asia har nesten tørket inn fordi elvene ble brukt til vanning av bomullsåkre.
+
+## Konsekvenser
+
+- **Mennesker**: dødsfall, skader, tap av hjem og levebrød, traumer
+- **Samfunn**: ødelagt infrastruktur, økonomiske tap, flyktningstrømmer
+- **Natur**: ødelagte økosystemer, forurensning, tap av arter
+
+Klimaendringene kan gjøre noen naturfarer, som **ekstremnedbør**, **tørke** og **hetebølger**, **hyppigere** og **kraftigere**.
+
+## Beredskap og forebygging
+
+- **Varsling**, for eksempel tsunamivarsling og skred- og flomvarsling på **Varsom.no**
+- **Byggeforskrifter** og **arealplanlegging** som unngår utsatte områder
+- **Kartlegging** av farer, som kvikkleiresoner
+- **Evakueringsplaner** og **øvelser**
+- **Internasjonal nødhjelp** etter katastrofer', '{"label":"Natur- og miljøkatastrofer","children":[{"label":"Begreper","children":[{"label":"Naturfare"},{"label":"Sårbarhet"},{"label":"Risiko"}]},{"label":"Geologiske","children":[{"label":"Jordskjelv"},{"label":"Tsunami"},{"label":"Vulkanutbrudd"}]},{"label":"Vær og vann","children":[{"label":"Tropiske sykloner"},{"label":"Flom og tørke"},{"label":"Skred og kvikkleire"}]},{"label":"Miljøkatastrofer","children":[{"label":"Tsjernobyl"},{"label":"Oljeutslipp"},{"label":"Aralsjøen"}]},{"label":"Beredskap","children":[{"label":"Varsling"},{"label":"Arealplanlegging"},{"label":"Evakuering"},{"label":"Nødhjelp"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'geografi-vg1:natur-og-miljokatastrofer';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('geografi-vg1:natur-og-miljokatastrofer', 'Naturfare', 'Naturlig prosess som kan skade mennesker.', 0),
+  ('geografi-vg1:natur-og-miljokatastrofer', 'Naturkatastrofe', 'Når en naturfare rammer mennesker og samfunn så hardt at de ikke klarer seg selv.', 1),
+  ('geografi-vg1:natur-og-miljokatastrofer', 'Sårbarhet', 'Hvor lett et samfunn skades av en fare.', 2),
+  ('geografi-vg1:natur-og-miljokatastrofer', 'Risiko = fare × sårbarhet', 'Konsekvensene avhenger både av faren og av samfunnet.', 3),
+  ('geografi-vg1:natur-og-miljokatastrofer', 'Miljøkatastrofe', 'Menneskeskapt skade på natur og miljø.', 4),
+  ('geografi-vg1:natur-og-miljokatastrofer', 'Tsunami', 'Store bølger, oftest utløst av jordskjelv under havbunnen.', 5),
+  ('geografi-vg1:natur-og-miljokatastrofer', 'Tsunamien i Indiahavet', '26. desember 2004, rundt 230 000 døde.', 6),
+  ('geografi-vg1:natur-og-miljokatastrofer', 'Tropisk syklon', 'Kraftig storm over varmt hav, kalt orkan, tyfon eller syklon.', 7),
+  ('geografi-vg1:natur-og-miljokatastrofer', 'Stormflo', 'Ekstra høy vannstand på grunn av vind og lavtrykk.', 8),
+  ('geografi-vg1:natur-og-miljokatastrofer', 'Kvikkleire', 'Marin leire som kan bli flytende når den forstyrres.', 9),
+  ('geografi-vg1:natur-og-miljokatastrofer', 'Gjerdrum-skredet', 'Kvikkleireskred 30. desember 2020 der 11 mennesker omkom.', 10),
+  ('geografi-vg1:natur-og-miljokatastrofer', 'Tsjernobyl', 'Atomulykke i 1986 som spredte radioaktivt nedfall over Europa.', 11),
+  ('geografi-vg1:natur-og-miljokatastrofer', 'Aralsjøen', 'Innsjø som nesten har tørket inn på grunn av vanning av bomull.', 12),
+  ('geografi-vg1:natur-og-miljokatastrofer', 'Varsom.no', 'Nettsted med varsler om skred og flom i Norge.', 13),
+  ('geografi-vg1:natur-og-miljokatastrofer', 'Beredskap', 'Forberedelser for å håndtere katastrofer.', 14);
+delete from public.quiz_sporsmal where tema_id = 'geografi-vg1:natur-og-miljokatastrofer';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('geografi-vg1:natur-og-miljokatastrofer', 'q01', 'flervalg', 'Hva avgjør hvor store konsekvenser en naturfare får?', array['Bare hvor sterk faren er', 'Både faren og samfunnets sårbarhet', 'Bare været', 'Bare antall innbyggere']::text[], 1, 'Risiko = fare × sårbarhet.', true, true, 0),
+  ('geografi-vg1:natur-og-miljokatastrofer', 'q02', 'flervalg', 'Hva er vanligvis årsaken til en tsunami?', array['Jordskjelv under havbunnen', 'Sterk vind', 'Tidevann', 'Snøsmelting']::text[], 0, 'Havbunnen flytter seg brått og skyver vannmassene.', true, true, 1),
+  ('geografi-vg1:natur-og-miljokatastrofer', 'q03', 'flervalg', 'Hva er kvikkleire?', array['Leire fra vulkaner', 'Sand i ørkener', 'Marin leire som kan bli flytende når den forstyrres', 'Leire brukt i keramikk']::text[], 2, 'Kvikkleire finnes under den marine grensen fra etter istiden.', true, true, 2),
+  ('geografi-vg1:natur-og-miljokatastrofer', 'q04', 'flervalg', 'Hvilken av disse er en miljøkatastrofe?', array['Et jordskjelv', 'En orkan', 'Et vulkanutbrudd', 'Et stort oljeutslipp']::text[], 3, 'Miljøkatastrofer er menneskeskapte.', true, true, 3),
+  ('geografi-vg1:natur-og-miljokatastrofer', 'q05', 'flervalg', 'Hvor dannes tropiske sykloner?', array['Over varmt hav', 'Over isbreer', 'I ørkener', 'I fjellområder']::text[], 0, 'Varmt havvann gir energi til stormen.', true, true, 4),
+  ('geografi-vg1:natur-og-miljokatastrofer', 'q06', 'flervalg', 'Hvorfor dør ofte flere i fattige land når et jordskjelv rammer?', array['Fordi jordskjelvene alltid er sterkere der', 'Fordi bygningene er dårligere og beredskapen svakere', 'Fordi det bor færre folk der', 'Fordi det ikke finnes plategrenser der']::text[], 1, 'Sårbarheten er større.', true, true, 5),
+  ('geografi-vg1:natur-og-miljokatastrofer', 'q07', 'flervalg', 'Når gikk kvikkleireskredet i Gjerdrum?', array['2004', '2011', '30. desember 2020', '1986']::text[], 2, '11 mennesker omkom.', true, true, 6),
+  ('geografi-vg1:natur-og-miljokatastrofer', 'q08', 'flervalg', 'Hvor kan du finne varsler om skred og flom i Norge?', array['Yr.no alene', 'Finn.no', 'Nav.no', 'Varsom.no']::text[], 3, 'Varsom.no drives av blant andre NVE.', true, true, 7),
+  ('geografi-vg1:natur-og-miljokatastrofer', 'q09', 'flervalg', 'Hvorfor har Aralsjøen nesten tørket inn?', array['Elvene som renner inn i den, ble brukt til vanning av bomullsåkre', 'Et jordskjelv', 'En tsunami', 'Et vulkanutbrudd']::text[], 0, 'Det er et eksempel på en menneskeskapt miljøkatastrofe.', true, false, 8),
+  ('geografi-vg1:natur-og-miljokatastrofer', 'q10', 'flervalg', 'Hvordan kan klimaendringene påvirke naturfarer?', array['De gjør alle naturfarer sjeldnere', 'De kan gjøre ekstremnedbør, tørke og hetebølger hyppigere og kraftigere', 'De påvirker bare jordskjelv', 'De har ingen betydning']::text[], 1, 'Jordskjelv og vulkaner påvirkes ikke av klimaet på samme måte.', true, false, 9),
+  ('geografi-vg1:natur-og-miljokatastrofer', 'm01', 'sant-usant', 'Tsjernobyl-ulykken ga radioaktivt nedfall også i Norge.', array['Sant', 'Usant']::text[], 0, 'Nedfallet påvirket blant annet reindrift og sauehold.', false, true, 10),
+  ('geografi-vg1:natur-og-miljokatastrofer', 'm02', 'sant-usant', 'Et jordskjelv av samme styrke gir alltid like mange dødsfall uansett hvor det skjer.', array['Sant', 'Usant']::text[], 1, 'Sårbarheten i samfunnet avgjør mye.', false, true, 11),
+  ('geografi-vg1:natur-og-miljokatastrofer', 'm03', 'sant-usant', 'Orkaner, tyfoner og sykloner er samme type værfenomen.', array['Sant', 'Usant']::text[], 0, 'De har bare ulike navn i ulike deler av verden.', false, true, 12),
+  ('geografi-vg1:natur-og-miljokatastrofer', 'm04', 'sant-usant', 'Skred er sjeldne i Norge.', array['Sant', 'Usant']::text[], 1, 'Snøskred, steinsprang, jordskred og kvikkleireskred er vanlige i Norge.', false, true, 13),
+  ('geografi-vg1:natur-og-miljokatastrofer', 'm05', 'flervalg', 'Hvilket år rammet tsunamien i Indiahavet?', array['1986', '2004', '2010', '2023']::text[], 1, 'Rundt 230 000 mennesker døde.', false, true, 14),
+  ('geografi-vg1:natur-og-miljokatastrofer', 'm06', 'flervalg', 'Hva er stormflo?', array['Ekstra høy vannstand på grunn av vind og lavtrykk', 'En type snøskred', 'Et vulkanutbrudd under vann', 'Et jordskjelv']::text[], 0, 'Stormflo kan gi store oversvømmelser langs kysten.', false, true, 15),
+  ('geografi-vg1:natur-og-miljokatastrofer', 'm07', 'flervalg', 'Hvilket tiltak forebygger skader ved kvikkleireskred?', array['Å bygge flere hus i utsatte områder', 'Å fjerne varslingssystemer', 'Å kartlegge kvikkleiresoner og ta hensyn til dem i arealplanleggingen', 'Å plante trær på stranda']::text[], 2, 'Kunnskap om grunnforholdene er avgjørende.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('geografi-vg1:natur-og-miljokatastrofer', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Geografi: Befolkning og levekår
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('geografi-vg1:befolkning-og-levekar', 'geografi-vg1', 'befolkning-og-levekar', 'Befolkning og levekår', 'Årsaker til demografiske endringer – fødsler, dødsfall og migrasjon – den demografiske overgangsmodellen, befolkningspyramider, urbanisering, og hvordan levekår måles og varierer i ulike deler av verden.', array[7]::int[], 6, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('geografi-vg1:befolkning-og-levekar', '## Befolkningsutvikling
+
+Jordas befolkning passerte **8 milliarder** i 2022. For 200 år siden var vi rundt én milliard. Befolkningen i et område endrer seg på grunn av
+
+- **fødsler** (fødselsrate)
+- **dødsfall** (dødsrate)
+- **migrasjon** – inn- og utvandring
+
+**Samlet fruktbarhet** er gjennomsnittlig antall barn per kvinne. For at befolkningen skal holde seg stabil uten innvandring, trengs omtrent **2,1** barn per kvinne. I Norge er fruktbarheten nå **godt under** dette, mens den er høy i mange land sør for Sahara.
+
+## Den demografiske overgangsmodellen
+
+Modellen beskriver hvordan befolkningen endrer seg når et land utvikler seg:
+
+1. **Høy fødselsrate og høy dødsrate** – befolkningen vokser sakte.
+2. **Dødsraten faller** takket være bedre mat, rent vann og medisin, men fødselsraten er fortsatt høy – **rask vekst**.
+3. **Fødselsraten faller** fordi barnedødeligheten går ned, kvinner tar utdanning og jobber, og prevensjon blir vanlig.
+4. **Lav fødselsrate og lav dødsrate** – befolkningen er stabil.
+5. Noen land får **lavere fødselsrate enn dødsrate** – befolkningen **eldes** og kan synke uten innvandring.
+
+Norge har gått gjennom fasene siden 1800-tallet. Mange land i Afrika er i fase 2 eller 3, mens land som **Japan** og **Italia** har en aldrende befolkning.
+
+## Befolkningspyramider
+
+En **befolkningspyramide** viser fordelingen av alder og kjønn:
+
+- **Bred bunn** (pyramideform): mange barn og unge, høy fødselsrate.
+- **Rett form** (bikube): stabil befolkning.
+- **Smal bunn** (urneform): få barn, mange eldre – en **aldrende** befolkning.
+
+En aldrende befolkning gir færre i arbeid per pensjonist og større behov for helse- og omsorgstjenester. En svært ung befolkning trenger mange skoler og jobber.
+
+## Migrasjon og urbanisering
+
+Mennesker flytter på grunn av **push-faktorer** (krig, forfølgelse, fattigdom, klimaendringer) og **pull-faktorer** (jobb, utdanning, trygghet, familie). **Urbanisering** betyr at en økende andel bor i **byer** – i dag bor over halvparten av verdens befolkning i byer. Rask byvekst kan gi **slumområder** med dårlige boforhold.
+
+## Levekår
+
+**Levekår** handler om hvordan folk har det materielt og sosialt: inntekt, helse, utdanning, bolig, trygghet og muligheter. Vanlige mål er
+
+- **BNI per innbygger** – gjennomsnittlig inntekt
+- **Forventet levealder**
+- **Barnedødelighet**
+- **Utdanningsnivå**
+- **HDI** (Human Development Index) fra FN, som kombinerer levealder, utdanning og inntekt. Norge ligger helt i toppen.
+- **Gini-koeffisienten**, som måler **ulikhet** i inntekt
+
+Gjennomsnitt kan skjule store **forskjeller** – både mellom land og **innad** i et land, mellom by og land, kvinner og menn, og ulike grupper. Levekårene har forbedret seg mye globalt de siste tiårene, men krig, klimaendringer og ulikhet gjør at mange fortsatt lever i **ekstrem fattigdom**.
+
+## Hvorfor varierer levekårene?
+
+Forklaringer kan være **naturgitte forhold**, **historie** (for eksempel kolonialisme), **politisk stabilitet**, **korrupsjon**, **utdanning**, **handel** og **konflikter**. Ofte virker mange faktorer sammen.', '{"label":"Befolkning og levekår","children":[{"label":"Endringer","children":[{"label":"Fødsler"},{"label":"Dødsfall"},{"label":"Migrasjon"},{"label":"Fruktbarhet"}]},{"label":"Overgangsmodellen","children":[{"label":"Fase 1–2"},{"label":"Fase 3–4"},{"label":"Fase 5: aldring"}]},{"label":"Pyramider","children":[{"label":"Bred bunn"},{"label":"Bikube"},{"label":"Urne"}]},{"label":"Flytting","children":[{"label":"Push og pull"},{"label":"Urbanisering"},{"label":"Slum"}]},{"label":"Levekår","children":[{"label":"BNI og levealder"},{"label":"HDI"},{"label":"Gini"},{"label":"Forskjeller"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'geografi-vg1:befolkning-og-levekar';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('geografi-vg1:befolkning-og-levekar', '8 milliarder', 'Verdens befolkning passerte dette i 2022.', 0),
+  ('geografi-vg1:befolkning-og-levekar', 'Fødselsrate', 'Antall fødte per 1000 innbyggere per år.', 1),
+  ('geografi-vg1:befolkning-og-levekar', 'Dødsrate', 'Antall døde per 1000 innbyggere per år.', 2),
+  ('geografi-vg1:befolkning-og-levekar', 'Samlet fruktbarhet', 'Gjennomsnittlig antall barn per kvinne.', 3),
+  ('geografi-vg1:befolkning-og-levekar', '2,1 barn per kvinne', 'Omtrent det som trengs for stabil befolkning uten innvandring.', 4),
+  ('geografi-vg1:befolkning-og-levekar', 'Demografisk overgangsmodell', 'Modell for hvordan fødsels- og dødsrater endres når et land utvikler seg.', 5),
+  ('geografi-vg1:befolkning-og-levekar', 'Fase 2 i overgangsmodellen', 'Dødsraten faller, fødselsraten er høy – rask vekst.', 6),
+  ('geografi-vg1:befolkning-og-levekar', 'Befolkningspyramide', 'Diagram som viser fordelingen av alder og kjønn.', 7),
+  ('geografi-vg1:befolkning-og-levekar', 'Aldrende befolkning', 'Få barn og mange eldre – smal bunn i pyramiden.', 8),
+  ('geografi-vg1:befolkning-og-levekar', 'Push-faktorer', 'Forhold som får folk til å flytte fra et sted, som krig.', 9),
+  ('geografi-vg1:befolkning-og-levekar', 'Pull-faktorer', 'Forhold som trekker folk til et sted, som jobb.', 10),
+  ('geografi-vg1:befolkning-og-levekar', 'Urbanisering', 'At en økende andel bor i byer.', 11),
+  ('geografi-vg1:befolkning-og-levekar', 'HDI', 'FNs indeks som kombinerer levealder, utdanning og inntekt.', 12),
+  ('geografi-vg1:befolkning-og-levekar', 'Gini-koeffisient', 'Mål på ulikhet i inntekt.', 13),
+  ('geografi-vg1:befolkning-og-levekar', 'Levekår', 'Hvordan folk har det materielt og sosialt.', 14);
+delete from public.quiz_sporsmal where tema_id = 'geografi-vg1:befolkning-og-levekar';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('geografi-vg1:befolkning-og-levekar', 'q01', 'flervalg', 'Hvilke tre faktorer endrer befolkningen i et område?', array['Vær, klima og kultur', 'Fødsler, dødsfall og migrasjon', 'Inntekt, utdanning og helse', 'Byer, veier og skoler']::text[], 1, 'Migrasjon er inn- og utflytting.', true, true, 0),
+  ('geografi-vg1:befolkning-og-levekar', 'q02', 'flervalg', 'Hva skjer i fase 2 av den demografiske overgangsmodellen?', array['Dødsraten faller mens fødselsraten er høy, og befolkningen vokser raskt', 'Både fødsels- og dødsrate er lave', 'Befolkningen synker', 'Fødselsraten faller']::text[], 0, 'Bedre mat, rent vann og medisin senker dødsraten.', true, true, 1),
+  ('geografi-vg1:befolkning-og-levekar', 'q03', 'flervalg', 'Hvor mange barn per kvinne trengs omtrent for stabil befolkning uten innvandring?', array['1,0', '1,5', '2,1', '4,0']::text[], 2, 'Litt over to fordi ikke alle barn når voksen alder.', true, true, 2),
+  ('geografi-vg1:befolkning-og-levekar', 'q04', 'flervalg', 'Hva viser en befolkningspyramide med smal bunn?', array['Mange barn', 'Rask befolkningsvekst', 'Høy dødsrate', 'En aldrende befolkning']::text[], 3, 'Få barn og mange eldre.', true, true, 3),
+  ('geografi-vg1:befolkning-og-levekar', 'q05', 'flervalg', 'Hva er en pull-faktor for migrasjon?', array['Muligheter for jobb og utdanning', 'Krig', 'Forfølgelse', 'Tørke']::text[], 0, 'De andre er push-faktorer.', true, true, 4),
+  ('geografi-vg1:befolkning-og-levekar', 'q06', 'flervalg', 'Hva kombinerer HDI?', array['Befolkning, areal og klima', 'Levealder, utdanning og inntekt', 'Eksport, import og skatt', 'Fødsler, dødsfall og migrasjon']::text[], 1, 'HDI står for Human Development Index.', true, true, 5),
+  ('geografi-vg1:befolkning-og-levekar', 'q07', 'flervalg', 'Hva måler Gini-koeffisienten?', array['Befolkningstetthet', 'Forventet levealder', 'Ulikhet i inntekt', 'Fruktbarhet']::text[], 2, 'Høy verdi betyr stor ulikhet.', true, true, 6),
+  ('geografi-vg1:befolkning-og-levekar', 'q08', 'flervalg', 'Hva er urbanisering?', array['At folk flytter fra byene', 'At byer blir mindre', 'At det bygges flere veier', 'At en økende andel bor i byer']::text[], 3, 'Over halvparten av verdens befolkning bor nå i byer.', true, true, 7),
+  ('geografi-vg1:befolkning-og-levekar', 'q09', 'flervalg', 'Hvilken utfordring gir en aldrende befolkning?', array['Færre i arbeid per pensjonist og større behov for omsorg', 'For mange skoler', 'For mange barnehager', 'For høy fødselsrate']::text[], 0, 'Japan og Italia er eksempler på land med aldrende befolkning.', true, false, 8),
+  ('geografi-vg1:befolkning-og-levekar', 'q10', 'flervalg', 'Hvorfor kan gjennomsnittstall for et land gi et misvisende bilde av levekårene?', array['Fordi tallene alltid er feil', 'Fordi de kan skjule store forskjeller innad i landet', 'Fordi de bare gjelder byene', 'Fordi de bare gjelder menn']::text[], 1, 'Det kan være store forskjeller mellom grupper og regioner.', true, false, 9),
+  ('geografi-vg1:befolkning-og-levekar', 'm01', 'sant-usant', 'Fruktbarheten i Norge er lavere enn 2,1 barn per kvinne.', array['Sant', 'Usant']::text[], 0, 'Den er godt under dette nivået.', false, true, 10),
+  ('geografi-vg1:befolkning-og-levekar', 'm02', 'sant-usant', 'Alle land i verden er i samme fase av den demografiske overgangsmodellen.', array['Sant', 'Usant']::text[], 1, 'Landene er i ulike faser.', false, true, 11),
+  ('geografi-vg1:befolkning-og-levekar', 'm03', 'sant-usant', 'Utdanning av kvinner bidrar ofte til lavere fødselsrate.', array['Sant', 'Usant']::text[], 0, 'Utdanning og arbeid gir flere valg.', false, true, 12),
+  ('geografi-vg1:befolkning-og-levekar', 'm04', 'sant-usant', 'Verdens befolkning har vært omtrent 8 milliarder i flere hundre år.', array['Sant', 'Usant']::text[], 1, 'For 200 år siden var vi rundt én milliard.', false, true, 13),
+  ('geografi-vg1:befolkning-og-levekar', 'm05', 'flervalg', 'Hvilken form har befolkningspyramiden i et land med høy fødselsrate?', array['Urne', 'Bikube', 'Bred bunn', 'Omvendt pyramide']::text[], 2, 'Mange barn gir bred bunn.', false, true, 14),
+  ('geografi-vg1:befolkning-og-levekar', 'm06', 'flervalg', 'Hvilken er en push-faktor for migrasjon?', array['Krig og forfølgelse', 'Ledige jobber', 'Gode skoler', 'Familie i et annet land']::text[], 0, 'Push-faktorer får folk til å dra fra et sted.', false, true, 15),
+  ('geografi-vg1:befolkning-og-levekar', 'm07', 'flervalg', 'Hva kan forklare forskjeller i levekår mellom land?', array['Bare været', 'Historie, politisk stabilitet, utdanning, handel og konflikter', 'Bare antall innbyggere', 'Bare størrelsen på landet']::text[], 1, 'Ofte virker mange faktorer sammen.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('geografi-vg1:befolkning-og-levekar', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Samfunnskunnskap (vg1): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'samfunnskunnskap-vg1' and slug not in ('metode-og-ideologi', 'sosialisering-og-identitet', 'personlig-okonomi-og-forbruk', 'kjonn-seksualitet-og-grenser', 'digitale-spor-og-personvern', 'ulikhet-og-utenforskap', 'majoritet-og-minoritet', 'den-nordiske-modellen', 'arbeidsliv-og-naeringsliv', 'politikk-makt-og-medborgerskap', 'menneskerettigheter-og-ytringsfrihet', 'konflikter-og-utfordringer');
+
+-- Samfunnskunnskap: Samfunnsfaglig metode, kilder og ideologier
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('samfunnskunnskap-vg1:metode-og-ideologi', 'samfunnskunnskap-vg1', 'metode-og-ideologi', 'Samfunnsfaglig metode, kilder og ideologier', 'Hvordan du utforsker aktuelle debatter med samfunnsfaglige metoder og kilder, og hvordan interesser og ideologier som liberalisme, konservatisme, sosialisme og grønn ideologi påvirker argumenter og valg av kilder.', array[1, 2]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('samfunnskunnskap-vg1:metode-og-ideologi', '## Samfunnsfaglige metoder
+
+For å undersøke samfunnet bruker vi to hovedtyper metoder:
+
+- **Kvantitative metoder** gir **tall**: spørreundersøkelser, statistikk og registerdata. De kan si noe om **mange** personer, men lite om hvorfor folk mener det de mener.
+- **Kvalitative metoder** gir **dybde**: intervjuer, observasjon og analyse av tekster. De gir innsikt i tanker og erfaringer, men gjelder **få** personer.
+
+Viktige begreper er **utvalg** – de som blir undersøkt – og om utvalget er **representativt** for gruppen vi vil si noe om. **Validitet** handler om vi faktisk måler det vi vil måle, og **reliabilitet** om målingen er pålitelig og ville gitt samme resultat på nytt.
+
+## Kilder og kildekritikk
+
+Gode kilder til samfunnsfag er blant annet **SSB**, **Stortinget** og **regjeringen**, **forskningsinstitutter**, **redaktørstyrte medier** og **interesseorganisasjoner**. Spør alltid: **Hvem** står bak? **Hvorfor** er kilden laget? Er informasjonen **oppdatert**? Hva sier **andre kilder**?
+
+Skill mellom **fakta**, **meninger** og **tolkninger**, og vær oppmerksom på at statistikk kan presenteres på måter som gir et skjevt bilde.
+
+## Interesser og argumenter
+
+Folk argumenterer ofte ut fra **interesser** – det de selv tjener eller taper på. En bonde, en miljøvernorganisasjon og en næringslivsleder kan se helt ulikt på samme sak. Interessene påvirker også **hvilke kilder** vi velger og **hvilke fakta** vi legger vekt på.
+
+## Ideologier
+
+En **ideologi** er et sett av sammenhengende ideer om hvordan samfunnet **er** og **bør** være.
+
+- **Liberalisme**: vekt på **individets frihet**, rettigheter og **markedsøkonomi**. Staten bør være begrenset.
+- **Konservatisme**: vekt på **tradisjoner**, stabilitet, familie og **gradvis** endring.
+- **Sosialisme**: vekt på **likhet** og **fellesskap**. Produksjonsmidlene bør i større grad eies i fellesskap.
+- **Sosialdemokrati**: **blandingsøkonomi** med marked og sterk stat, **velferdsstat** og omfordeling.
+- **Grønn ideologi**: vekt på **naturen** og kommende generasjoner – økonomisk vekst må ha grenser.
+
+## Høyre og venstre
+
+Politiske partier plasseres ofte på en **høyre–venstre-akse** etter synet på **økonomisk likhet og statens rolle**: Til venstre ønsker man mer omfordeling og en sterkere stat, til høyre mer marked og lavere skatter. I Norge regnes for eksempel **Rødt** og **SV** til venstre og **Høyre** og **Fremskrittspartiet** til høyre. Mange saker, som miljø, innvandring og distriktspolitikk, passer likevel dårlig på én akse.
+
+## Argumentere for egne og andres meninger
+
+I samfunnsfaglige diskusjoner skal du kunne **begrunne** dine egne meninger og **forstå og gjengi** andres. Å kunne argumentere for et syn du selv er uenig i, viser at du forstår debatten. Vær **saklig**, bruk **gode kilder**, og skill mellom **fakta** og **verdier**: Uenighet om fakta kan ofte avklares, mens uenighet om verdier – hva som er viktigst – er kjernen i politikken.', '{"label":"Metode og ideologi","children":[{"label":"Metoder","children":[{"label":"Kvantitative"},{"label":"Kvalitative"},{"label":"Validitet og reliabilitet"}]},{"label":"Kilder","children":[{"label":"SSB og forskning"},{"label":"Medier"},{"label":"Kildekritikk"}]},{"label":"Interesser","children":[{"label":"Hvem tjener?"},{"label":"Valg av kilder"}]},{"label":"Ideologier","children":[{"label":"Liberalisme"},{"label":"Konservatisme"},{"label":"Sosialisme og sosialdemokrati"},{"label":"Grønn ideologi"}]},{"label":"Argumentasjon","children":[{"label":"Høyre og venstre"},{"label":"Fakta og verdier"},{"label":"Forstå andres syn"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'samfunnskunnskap-vg1:metode-og-ideologi';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('samfunnskunnskap-vg1:metode-og-ideologi', 'Kvantitativ metode', 'Metode som gir tall, som spørreundersøkelser og statistikk.', 0),
+  ('samfunnskunnskap-vg1:metode-og-ideologi', 'Kvalitativ metode', 'Metode som gir dybde, som intervjuer og observasjon.', 1),
+  ('samfunnskunnskap-vg1:metode-og-ideologi', 'Representativt utvalg', 'Et utvalg som ligner gruppen man vil si noe om.', 2),
+  ('samfunnskunnskap-vg1:metode-og-ideologi', 'Validitet', 'Om man faktisk måler det man vil måle.', 3),
+  ('samfunnskunnskap-vg1:metode-og-ideologi', 'Reliabilitet', 'Om målingen er pålitelig og ville gitt samme resultat på nytt.', 4),
+  ('samfunnskunnskap-vg1:metode-og-ideologi', 'Interesse', 'Det en person eller gruppe tjener eller taper på i en sak.', 5),
+  ('samfunnskunnskap-vg1:metode-og-ideologi', 'Ideologi', 'Sammenhengende ideer om hvordan samfunnet er og bør være.', 6),
+  ('samfunnskunnskap-vg1:metode-og-ideologi', 'Liberalisme', 'Vekt på individets frihet og markedsøkonomi.', 7),
+  ('samfunnskunnskap-vg1:metode-og-ideologi', 'Konservatisme', 'Vekt på tradisjoner og gradvis endring.', 8),
+  ('samfunnskunnskap-vg1:metode-og-ideologi', 'Sosialisme', 'Vekt på likhet og fellesskap.', 9),
+  ('samfunnskunnskap-vg1:metode-og-ideologi', 'Sosialdemokrati', 'Blandingsøkonomi med velferdsstat og omfordeling.', 10),
+  ('samfunnskunnskap-vg1:metode-og-ideologi', 'Grønn ideologi', 'Vekt på naturen og grenser for økonomisk vekst.', 11),
+  ('samfunnskunnskap-vg1:metode-og-ideologi', 'Høyre–venstre-aksen', 'Plassering etter syn på økonomisk likhet og statens rolle.', 12),
+  ('samfunnskunnskap-vg1:metode-og-ideologi', 'Fakta og verdier', 'Fakta kan sjekkes; verdier handler om hva som er viktigst.', 13),
+  ('samfunnskunnskap-vg1:metode-og-ideologi', 'SSB', 'Statistisk sentralbyrå – kilde til offisiell statistikk.', 14);
+delete from public.quiz_sporsmal where tema_id = 'samfunnskunnskap-vg1:metode-og-ideologi';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('samfunnskunnskap-vg1:metode-og-ideologi', 'q01', 'flervalg', 'Hva kjennetegner kvalitative metoder?', array['De gir mange tall om mange personer', 'De gir dybdeinnsikt om få personer', 'De bruker bare statistikk', 'De er alltid mer korrekte']::text[], 1, 'Intervjuer og observasjon er typiske kvalitative metoder.', true, true, 0),
+  ('samfunnskunnskap-vg1:metode-og-ideologi', 'q02', 'flervalg', 'Hva betyr det at et utvalg er representativt?', array['At det ligner gruppen man vil si noe om', 'At det er stort', 'At det bare består av eksperter', 'At alle er enige']::text[], 0, 'Et skjevt utvalg gir misvisende resultater.', true, true, 1),
+  ('samfunnskunnskap-vg1:metode-og-ideologi', 'q03', 'flervalg', 'Hvilken ideologi legger mest vekt på tradisjoner og gradvis endring?', array['Sosialisme', 'Liberalisme', 'Konservatisme', 'Grønn ideologi']::text[], 2, 'Konservatismen er skeptisk til raske og store endringer.', true, true, 2),
+  ('samfunnskunnskap-vg1:metode-og-ideologi', 'q04', 'flervalg', 'Hva kjennetegner sosialdemokratiet?', array['Fullt statseie av all produksjon', 'Ingen stat', 'Bare markedsøkonomi', 'Blandingsøkonomi med velferdsstat og omfordeling']::text[], 3, 'Sosialdemokratiet har preget norsk politikk etter krigen.', true, true, 3),
+  ('samfunnskunnskap-vg1:metode-og-ideologi', 'q05', 'flervalg', 'Hvordan kan interesser påvirke en debatt?', array['De kan påvirke hvilke argumenter og kilder folk velger', 'De har ingen betydning', 'De gjør alle enige', 'De gjør debatten mer nøytral']::text[], 0, 'Folk argumenterer ofte ut fra det de selv tjener eller taper på.', true, true, 4),
+  ('samfunnskunnskap-vg1:metode-og-ideologi', 'q06', 'flervalg', 'Hva er reliabilitet?', array['At man måler det man vil måle', 'At målingen er pålitelig og ville gitt samme resultat på nytt', 'At utvalget er stort', 'At kilden er ny']::text[], 1, 'Validitet handler om man måler det riktige.', true, true, 5),
+  ('samfunnskunnskap-vg1:metode-og-ideologi', 'q07', 'flervalg', 'Hva ligger vanligvis til grunn for plasseringen på høyre–venstre-aksen?', array['Synet på miljø', 'Synet på kultur', 'Synet på økonomisk likhet og statens rolle', 'Synet på utenrikspolitikk']::text[], 2, 'Venstresiden vil ha mer omfordeling, høyresiden mer marked.', true, true, 6),
+  ('samfunnskunnskap-vg1:metode-og-ideologi', 'q08', 'flervalg', 'Hvilken ideologi legger mest vekt på individets frihet og markedsøkonomi?', array['Sosialisme', 'Konservatisme', 'Grønn ideologi', 'Liberalisme']::text[], 3, 'Liberalismen vil begrense statens makt.', true, true, 7),
+  ('samfunnskunnskap-vg1:metode-og-ideologi', 'q09', 'flervalg', 'Hva er forskjellen på uenighet om fakta og uenighet om verdier?', array['Fakta kan ofte sjekkes, mens verdier handler om hva som er viktigst', 'Det er ingen forskjell', 'Verdier kan alltid bevises', 'Fakta er alltid meninger']::text[], 0, 'Uenighet om verdier er kjernen i politikken.', true, false, 8),
+  ('samfunnskunnskap-vg1:metode-og-ideologi', 'q10', 'flervalg', 'Hvorfor kan det være nyttig å argumentere for et syn du er uenig i?', array['For å bytte mening', 'For å vise at du forstår debatten og motpartens argumenter', 'For å lure andre', 'Det er ikke nyttig']::text[], 1, 'Det gjør også dine egne argumenter bedre.', true, false, 9),
+  ('samfunnskunnskap-vg1:metode-og-ideologi', 'm01', 'sant-usant', 'En spørreundersøkelse er et eksempel på en kvantitativ metode.', array['Sant', 'Usant']::text[], 0, 'Den gir tall som kan analyseres statistisk.', false, true, 10),
+  ('samfunnskunnskap-vg1:metode-og-ideologi', 'm02', 'sant-usant', 'Alle politiske saker passer godt inn på én høyre–venstre-akse.', array['Sant', 'Usant']::text[], 1, 'Saker som miljø og distriktspolitikk passer dårlig på én akse.', false, true, 11),
+  ('samfunnskunnskap-vg1:metode-og-ideologi', 'm03', 'sant-usant', 'Grønn ideologi mener økonomisk vekst må ha grenser.', array['Sant', 'Usant']::text[], 0, 'Naturen og kommende generasjoner står sentralt.', false, true, 12),
+  ('samfunnskunnskap-vg1:metode-og-ideologi', 'm04', 'sant-usant', 'Statistikk kan aldri gi et skjevt bilde.', array['Sant', 'Usant']::text[], 1, 'Utvalg og presentasjon kan gjøre statistikk misvisende.', false, true, 13),
+  ('samfunnskunnskap-vg1:metode-og-ideologi', 'm05', 'flervalg', 'Hvilken metode passer best for å forstå hvordan unge opplever utenforskap?', array['Dybdeintervjuer', 'Registerdata om inntekt', 'Folketelling', 'Valgstatistikk']::text[], 0, 'Kvalitative metoder gir innsikt i opplevelser.', false, true, 14),
+  ('samfunnskunnskap-vg1:metode-og-ideologi', 'm06', 'flervalg', 'Hvilke partier regnes vanligvis til høyre i norsk politikk?', array['Rødt og SV', 'Høyre og Fremskrittspartiet', 'Arbeiderpartiet og SV', 'MDG og Rødt']::text[], 1, 'Rødt og SV regnes til venstre.', false, true, 15),
+  ('samfunnskunnskap-vg1:metode-og-ideologi', 'm07', 'flervalg', 'Hva er en ideologi?', array['Et politisk parti', 'En lov', 'Sammenhengende ideer om hvordan samfunnet er og bør være', 'En type statistikk']::text[], 2, 'Ideologier ligger til grunn for partienes politikk.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('samfunnskunnskap-vg1:metode-og-ideologi', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Samfunnskunnskap: Sosialisering, identitet og selvfølelse
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('samfunnskunnskap-vg1:sosialisering-og-identitet', 'samfunnskunnskap-vg1', 'sosialisering-og-identitet', 'Sosialisering, identitet og selvfølelse', 'Hva sosialisering er, primær og sekundær sosialisering, normer, roller og sanksjoner, og hvordan familie, venner, skole, medier og sosiale medier påvirker identiteten og selvfølelsen til ungdom.', array[3]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('samfunnskunnskap-vg1:sosialisering-og-identitet', '## Hva er sosialisering?
+
+**Sosialisering** er prosessen der vi lærer **normer**, **verdier**, **språk** og **ferdigheter** som gjør oss i stand til å fungere i samfunnet. Sosialisering varer **hele livet**.
+
+- **Primær sosialisering** skjer i de første leveårene, først og fremst i **familien**. Her lærer vi språk, grunnleggende normer og følelsesmessige bånd.
+- **Sekundær sosialisering** skjer senere gjennom **barnehage**, **skole**, **venner**, **fritidsaktiviteter**, **arbeidsliv**, **medier** og **sosiale medier**.
+
+De som påvirker oss, kalles **sosialiseringsagenter**.
+
+## Normer, roller og sanksjoner
+
+- **Normer** er regler for hvordan vi bør oppføre oss. **Formelle normer** er skrevne regler og lover. **Uformelle normer** er uskrevne forventninger – som å hilse eller ikke snakke høyt på bussen.
+- **Sanksjoner** er reaksjoner på atferd: **positive** (ros, likes, belønning) og **negative** (kritikk, utestenging, straff).
+- **Roller** er forventninger knyttet til en posisjon, som elev, venn, datter eller arbeidstaker. Når ulike roller krever ulike ting, oppstår **rollekonflikt**.
+
+Når vi har gjort normene til våre egne, sier vi at de er **internalisert**.
+
+## Identitet
+
+**Identitet** er hvem vi er og opplever oss som. Den har en **personlig** side – egenskaper, interesser og verdier – og en **sosial** side – grupper vi tilhører, som kjønn, familie, religion, nasjonalitet, venneflokk eller idrettslag. Ungdomstiden er en periode der mange **prøver ut** ulike sider av seg selv.
+
+## Selvfølelse og selvtillit
+
+- **Selvtillit** handler om hva du tror du **får til**.
+- **Selvfølelse** handler om hvordan du **verdsetter deg selv** som person, uavhengig av prestasjoner.
+
+God selvfølelse gjør det lettere å tåle motgang og å stå imot press.
+
+## Sosiale medier
+
+Sosiale medier er en viktig sosialiseringsagent for ungdom. Sosiologen **Erving Goffman** beskrev hvordan vi **presenterer oss selv** for andre, som skuespillere på en **scene**. På sosiale medier velger vi ofte ut de beste bildene og øyeblikkene. Det kan gi
+
+- **fellesskap**, **tilhørighet** og muligheter til å uttrykke seg
+- **sammenligning** med andres polerte liv
+- **kroppspress** og **prestasjonspress**
+- jakt på **likes** som positive sanksjoner
+
+Algoritmer viser oss mer av det vi allerede liker, noe som kan forsterke idealer og holdninger.
+
+## Press og mestring
+
+Mange unge opplever **press** – på skolearbeid, utseende og sosialt liv. Det kan hjelpe å være **bevisst** på hvordan medier fungerer, ha **trygge relasjoner**, gjøre ting man **mestrer** og **snakke** med noen man stoler på. Samfunnet kan også bidra, for eksempel gjennom kravet om at **retusjert reklame** skal merkes.', '{"label":"Sosialisering og identitet","children":[{"label":"Sosialisering","children":[{"label":"Primær"},{"label":"Sekundær"},{"label":"Sosialiseringsagenter"}]},{"label":"Normer og roller","children":[{"label":"Formelle og uformelle normer"},{"label":"Sanksjoner"},{"label":"Rollekonflikt"}]},{"label":"Identitet","children":[{"label":"Personlig"},{"label":"Sosial"},{"label":"Prøve ut"}]},{"label":"Selvbilde","children":[{"label":"Selvtillit"},{"label":"Selvfølelse"}]},{"label":"Sosiale medier","children":[{"label":"Goffman: scene"},{"label":"Sammenligning"},{"label":"Kroppspress"},{"label":"Algoritmer"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'samfunnskunnskap-vg1:sosialisering-og-identitet';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('samfunnskunnskap-vg1:sosialisering-og-identitet', 'Sosialisering', 'Prosessen der vi lærer normer, verdier og ferdigheter for å fungere i samfunnet.', 0),
+  ('samfunnskunnskap-vg1:sosialisering-og-identitet', 'Primær sosialisering', 'Sosialisering i de første leveårene, først og fremst i familien.', 1),
+  ('samfunnskunnskap-vg1:sosialisering-og-identitet', 'Sekundær sosialisering', 'Senere sosialisering gjennom skole, venner, medier og arbeidsliv.', 2),
+  ('samfunnskunnskap-vg1:sosialisering-og-identitet', 'Sosialiseringsagent', 'Person eller institusjon som påvirker sosialiseringen.', 3),
+  ('samfunnskunnskap-vg1:sosialisering-og-identitet', 'Norm', 'Regel for hvordan vi bør oppføre oss.', 4),
+  ('samfunnskunnskap-vg1:sosialisering-og-identitet', 'Uformell norm', 'Uskreven forventning, som å hilse.', 5),
+  ('samfunnskunnskap-vg1:sosialisering-og-identitet', 'Sanksjon', 'Positiv eller negativ reaksjon på atferd.', 6),
+  ('samfunnskunnskap-vg1:sosialisering-og-identitet', 'Rolle', 'Forventninger knyttet til en posisjon.', 7),
+  ('samfunnskunnskap-vg1:sosialisering-og-identitet', 'Rollekonflikt', 'Når ulike roller krever ulike ting.', 8),
+  ('samfunnskunnskap-vg1:sosialisering-og-identitet', 'Internalisering', 'At normer blir en del av en selv.', 9),
+  ('samfunnskunnskap-vg1:sosialisering-og-identitet', 'Identitet', 'Hvem man er og opplever seg som.', 10),
+  ('samfunnskunnskap-vg1:sosialisering-og-identitet', 'Selvtillit', 'Troen på hva man får til.', 11),
+  ('samfunnskunnskap-vg1:sosialisering-og-identitet', 'Selvfølelse', 'Hvordan man verdsetter seg selv som person.', 12),
+  ('samfunnskunnskap-vg1:sosialisering-og-identitet', 'Erving Goffman', 'Sosiolog som beskrev hvordan vi presenterer oss for andre som på en scene.', 13),
+  ('samfunnskunnskap-vg1:sosialisering-og-identitet', 'Kroppspress', 'Press om å se ut på en bestemt måte.', 14);
+delete from public.quiz_sporsmal where tema_id = 'samfunnskunnskap-vg1:sosialisering-og-identitet';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('samfunnskunnskap-vg1:sosialisering-og-identitet', 'q01', 'flervalg', 'Hva er primær sosialisering?', array['Sosialisering på arbeidsplassen', 'Sosialisering i de første leveårene, særlig i familien', 'Sosialisering gjennom sosiale medier', 'Sosialisering i videregående skole']::text[], 1, 'Familien er den viktigste sosialiseringsagenten i de første årene.', true, true, 0),
+  ('samfunnskunnskap-vg1:sosialisering-og-identitet', 'q02', 'flervalg', 'Hva er et eksempel på en uformell norm?', array['Å hilse når man møter noen', 'Fartsgrensen', 'Skoleloven', 'Skatteregler']::text[], 0, 'Uformelle normer er uskrevne forventninger.', true, true, 1),
+  ('samfunnskunnskap-vg1:sosialisering-og-identitet', 'q03', 'flervalg', 'Hva er en positiv sanksjon?', array['Straff', 'Utestenging', 'Ros eller likes', 'Kritikk']::text[], 2, 'Positive sanksjoner belønner atferd.', true, true, 2),
+  ('samfunnskunnskap-vg1:sosialisering-og-identitet', 'q04', 'flervalg', 'Hva er forskjellen på selvtillit og selvfølelse?', array['Det er det samme', 'Selvfølelse handler om prestasjoner', 'Selvtillit handler om utseende', 'Selvtillit handler om hva du får til, selvfølelse om hvordan du verdsetter deg selv']::text[], 3, 'God selvfølelse er ikke avhengig av prestasjoner.', true, true, 3),
+  ('samfunnskunnskap-vg1:sosialisering-og-identitet', 'q05', 'flervalg', 'Hva er en rollekonflikt?', array['Når ulike roller krever ulike ting', 'En krangel mellom venner', 'En konflikt i et teaterstykke', 'Når man ikke har noen roller']::text[], 0, 'For eksempel når trening og skole krever tid samtidig.', true, true, 4),
+  ('samfunnskunnskap-vg1:sosialisering-og-identitet', 'q06', 'flervalg', 'Hva beskrev Erving Goffman?', array['Hvordan økonomien fungerer', 'Hvordan vi presenterer oss selv for andre, som på en scene', 'Hvordan stater styres', 'Hvordan barn lærer språk']::text[], 1, 'Teorien brukes mye om sosiale medier.', true, true, 5),
+  ('samfunnskunnskap-vg1:sosialisering-og-identitet', 'q07', 'flervalg', 'Hvilken av disse er en sekundær sosialiseringsagent?', array['Mor og far i de første leveårene', 'Genene', 'Skolen', 'Fødselen']::text[], 2, 'Skole, venner og medier er sekundære sosialiseringsagenter.', true, true, 6),
+  ('samfunnskunnskap-vg1:sosialisering-og-identitet', 'q08', 'flervalg', 'Hvordan kan algoritmer i sosiale medier påvirke ungdom?', array['De viser alltid et balansert bilde', 'De har ingen påvirkning', 'De viser bare nyheter', 'De viser mer av det man allerede liker og kan forsterke idealer']::text[], 3, 'Det kan for eksempel forsterke kroppspress.', true, true, 7),
+  ('samfunnskunnskap-vg1:sosialisering-og-identitet', 'q09', 'flervalg', 'Hva betyr det at en norm er internalisert?', array['At den er blitt en del av en selv', 'At den er skrevet ned i en lov', 'At den gjelder i utlandet', 'At den er glemt']::text[], 0, 'Da følger vi normen uten at noen passer på.', true, false, 8),
+  ('samfunnskunnskap-vg1:sosialisering-og-identitet', 'q10', 'flervalg', 'Hvilket tiltak skal redusere kroppspress fra reklame?', array['Forbud mot all reklame', 'Krav om at retusjert reklame skal merkes', 'Krav om at alle bilder skal være svart-hvitt', 'Forbud mot sosiale medier']::text[], 1, 'Merkingen viser at bildet er endret.', true, false, 9),
+  ('samfunnskunnskap-vg1:sosialisering-og-identitet', 'm01', 'sant-usant', 'Sosialisering varer hele livet.', array['Sant', 'Usant']::text[], 0, 'Vi lærer nye normer i nye situasjoner, for eksempel i arbeidslivet.', false, true, 10),
+  ('samfunnskunnskap-vg1:sosialisering-og-identitet', 'm02', 'sant-usant', 'Identitet påvirkes bare av familien.', array['Sant', 'Usant']::text[], 1, 'Venner, skole, medier og mange andre påvirker også.', false, true, 11),
+  ('samfunnskunnskap-vg1:sosialisering-og-identitet', 'm03', 'sant-usant', 'Utestenging fra en venneflokk er en negativ sanksjon.', array['Sant', 'Usant']::text[], 0, 'Negative sanksjoner reagerer på uønsket atferd.', false, true, 12),
+  ('samfunnskunnskap-vg1:sosialisering-og-identitet', 'm04', 'sant-usant', 'På sosiale medier viser folk alltid et helt realistisk bilde av livet sitt.', array['Sant', 'Usant']::text[], 1, 'Mange velger ut de beste øyeblikkene.', false, true, 13),
+  ('samfunnskunnskap-vg1:sosialisering-og-identitet', 'm05', 'flervalg', 'Hva er en formell norm?', array['En uskreven forventning', 'En skreven regel eller lov', 'En følelse', 'En rolle']::text[], 1, 'Lover og skolereglement er formelle normer.', false, true, 14),
+  ('samfunnskunnskap-vg1:sosialisering-og-identitet', 'm06', 'flervalg', 'Hva hører til den sosiale siden av identiteten?', array['Gruppene vi tilhører', 'Blodtypen vår', 'Høyden vår', 'Hvor mye vi sover']::text[], 0, 'Kjønn, religion, nasjonalitet og venneflokk er eksempler.', false, true, 15),
+  ('samfunnskunnskap-vg1:sosialisering-og-identitet', 'm07', 'flervalg', 'Hva kan hjelpe unge som opplever press?', array['Å sammenligne seg mer med andre', 'Å slutte å snakke med folk', 'Å ha trygge relasjoner og snakke med noen de stoler på', 'Å bruke mer tid på sosiale medier']::text[], 2, 'Mestring og trygge relasjoner styrker selvfølelsen.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('samfunnskunnskap-vg1:sosialisering-og-identitet', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Samfunnskunnskap: Personlig økonomi, reklame og forbruk
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('samfunnskunnskap-vg1:personlig-okonomi-og-forbruk', 'samfunnskunnskap-vg1', 'personlig-okonomi-og-forbruk', 'Personlig økonomi, reklame og forbruk', 'Budsjett, lønn og skatt, sparing og lån, forbrukslån og gjeldsproblemer, reklame og kommersiell påvirkning i sosiale medier, forbrukerrettigheter – og hvordan forbruk påvirker enkeltpersoner, grupper og samfunnet.', array[4]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('samfunnskunnskap-vg1:personlig-okonomi-og-forbruk', '## Budsjett
+
+Et **budsjett** er en plan for **inntekter** og **utgifter**. Det gir oversikt og hjelper deg å unngå å bruke mer enn du har. Skill mellom **faste utgifter** (husleie, mobilabonnement, strømmetjenester) og **variable utgifter** (mat, klær, fritid). Et godt råd er å sette av penger til **sparing** og en **buffer** til uforutsette utgifter.
+
+## Lønn og skatt
+
+**Bruttolønn** er lønn før skatt, og **nettolønn** er det som blir utbetalt. Skatten finansierer **fellesskapet**: skole, helsevesen, veier og trygder. Med **frikort** betaler unge med lav inntekt ikke skatt opp til en viss grense.
+
+## Sparing og lån
+
+- **Sparing** gir en buffer og mulighet til å kjøpe større ting senere. Med **renters rente** vokser sparepengene over tid.
+- **Lån** gjør det mulig å kjøpe noe nå og betale senere – men det koster **renter** og **gebyrer**.
+- **Boliglån** og **studielån** gir ofte lav rente, mens **forbrukslån** og **kredittkortgjeld** har svært **høy rente**.
+- Sammenlign alltid **effektiv rente**, som tar med alle kostnader.
+
+## Når gjelden blir et problem
+
+Betaler du ikke regningene, kan det føre til **purring**, **inkasso** og **betalingsanmerkning**, som gjør det vanskelig å leie bolig, få lån eller mobilabonnement. **Gjeldsregisteret** viser hvor mye usikret gjeld folk har, slik at bankene kan sjekke det før de gir nye lån. Unge kan havne i problemer med **«kjøp nå, betal senere»**-løsninger. Får du problemer, kan **NAV** gi gratis **økonomisk rådgivning**.
+
+## Kommersiell påvirkning
+
+Bedrifter bruker mye penger på å påvirke hva vi kjøper:
+
+- **Reklame** i tradisjonelle og digitale medier
+- **Influensere** som får betalt eller gratis produkter for å vise dem fram
+- **Målrettet reklame** basert på dataene våre
+- **Kjøpepress** gjennom tilbud, «bare i dag» og **tidsbegrensede** kampanjer
+
+Etter **markedsføringsloven** skal reklame være **tydelig merket**, også når influensere får betalt. **Retusjert** reklame der kroppens form, størrelse eller hud er endret, skal merkes. **Forbrukertilsynet** passer på at reglene følges, og **Forbrukerrådet** hjelper forbrukere.
+
+## Forbrukerrettigheter
+
+Kjøper du en vare med feil, har du **reklamasjonsrett**. Ved kjøp på nett har du vanligvis **angrerett** i **14 dager**.
+
+## Forbruk og samfunn
+
+Forbruket vårt påvirker
+
+- **enkeltpersoner**: økonomi, stress, status og tilhørighet
+- **grupper**: ungdom kan oppleve **press** om å ha dyre merkeklær og ny mobil, og familier med dårlig råd kan føle seg **utenfor**
+- **samfunnet**: forbruk skaper **arbeidsplasser** og økonomisk vekst, men gir også **klimautslipp**, **avfall** og press på naturressurser – ofte i andre land
+
+Å være en **bevisst forbruker** betyr å tenke over **behov**, **kvalitet**, **pris** og **konsekvenser** før man kjøper.', '{"label":"Personlig økonomi og forbruk","children":[{"label":"Budsjett","children":[{"label":"Inntekter"},{"label":"Faste og variable utgifter"},{"label":"Sparing og buffer"}]},{"label":"Lån","children":[{"label":"Renter og gebyrer"},{"label":"Forbrukslån"},{"label":"Effektiv rente"}]},{"label":"Gjeldsproblemer","children":[{"label":"Inkasso"},{"label":"Betalingsanmerkning"},{"label":"Hjelp fra NAV"}]},{"label":"Påvirkning","children":[{"label":"Reklame"},{"label":"Influensere"},{"label":"Merking"},{"label":"Kjøpepress"}]},{"label":"Forbruk og samfunn","children":[{"label":"Rettigheter"},{"label":"Press og utenforskap"},{"label":"Miljø"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'samfunnskunnskap-vg1:personlig-okonomi-og-forbruk';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('samfunnskunnskap-vg1:personlig-okonomi-og-forbruk', 'Budsjett', 'Plan for inntekter og utgifter.', 0),
+  ('samfunnskunnskap-vg1:personlig-okonomi-og-forbruk', 'Faste utgifter', 'Utgifter som er like hver måned, som husleie og abonnement.', 1),
+  ('samfunnskunnskap-vg1:personlig-okonomi-og-forbruk', 'Variable utgifter', 'Utgifter som varierer, som mat og fritid.', 2),
+  ('samfunnskunnskap-vg1:personlig-okonomi-og-forbruk', 'Buffer', 'Penger satt av til uforutsette utgifter.', 3),
+  ('samfunnskunnskap-vg1:personlig-okonomi-og-forbruk', 'Nettolønn', 'Lønn etter skatt – det som utbetales.', 4),
+  ('samfunnskunnskap-vg1:personlig-okonomi-og-forbruk', 'Forbrukslån', 'Lån uten sikkerhet med svært høy rente.', 5),
+  ('samfunnskunnskap-vg1:personlig-okonomi-og-forbruk', 'Effektiv rente', 'Rente inkludert alle kostnader og gebyrer.', 6),
+  ('samfunnskunnskap-vg1:personlig-okonomi-og-forbruk', 'Inkasso', 'Innkreving av ubetalte regninger, med ekstra gebyrer.', 7),
+  ('samfunnskunnskap-vg1:personlig-okonomi-og-forbruk', 'Betalingsanmerkning', 'Registrering av ubetalt gjeld som gjør det vanskelig å få lån og leie bolig.', 8),
+  ('samfunnskunnskap-vg1:personlig-okonomi-og-forbruk', 'Gjeldsregisteret', 'Register over usikret gjeld som bankene sjekker før nye lån.', 9),
+  ('samfunnskunnskap-vg1:personlig-okonomi-og-forbruk', 'Influenser', 'Person i sosiale medier som påvirker følgerne, ofte med betalt samarbeid.', 10),
+  ('samfunnskunnskap-vg1:personlig-okonomi-og-forbruk', 'Markedsføringsloven', 'Lov som blant annet krever at reklame er tydelig merket.', 11),
+  ('samfunnskunnskap-vg1:personlig-okonomi-og-forbruk', 'Retusjeringsmerke', 'Merke på reklame der kroppens form, størrelse eller hud er endret.', 12),
+  ('samfunnskunnskap-vg1:personlig-okonomi-og-forbruk', 'Angrerett', 'Rett til å angre kjøp på nett, vanligvis i 14 dager.', 13),
+  ('samfunnskunnskap-vg1:personlig-okonomi-og-forbruk', 'Bevisst forbruker', 'En som tenker over behov, kvalitet, pris og konsekvenser før kjøp.', 14);
+delete from public.quiz_sporsmal where tema_id = 'samfunnskunnskap-vg1:personlig-okonomi-og-forbruk';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('samfunnskunnskap-vg1:personlig-okonomi-og-forbruk', 'q01', 'flervalg', 'Hva er et budsjett?', array['En type lån', 'En plan for inntekter og utgifter', 'En skatt', 'En regning']::text[], 1, 'Budsjettet gir oversikt over økonomien.', true, true, 0),
+  ('samfunnskunnskap-vg1:personlig-okonomi-og-forbruk', 'q02', 'flervalg', 'Hvilken type lån har vanligvis høyest rente?', array['Forbrukslån', 'Boliglån', 'Studielån', 'Billån med sikkerhet']::text[], 0, 'Forbrukslån har ingen sikkerhet og derfor høy rente.', true, true, 1),
+  ('samfunnskunnskap-vg1:personlig-okonomi-og-forbruk', 'q03', 'flervalg', 'Hva kan en betalingsanmerkning føre til?', array['Lavere skatt', 'Høyere lønn', 'At det blir vanskelig å få lån og leie bolig', 'Gratis mobilabonnement']::text[], 2, 'Ubetalt gjeld kan få store konsekvenser.', true, true, 2),
+  ('samfunnskunnskap-vg1:personlig-okonomi-og-forbruk', 'q04', 'flervalg', 'Hva krever markedsføringsloven når en influenser får betalt for å vise et produkt?', array['At produktet er norsk', 'At influenseren har mange følgere', 'At produktet er billig', 'At reklamen er tydelig merket']::text[], 3, 'Følgerne skal forstå at det er reklame.', true, true, 3),
+  ('samfunnskunnskap-vg1:personlig-okonomi-og-forbruk', 'q05', 'flervalg', 'Hvor lenge har du vanligvis angrerett ved kjøp på nett?', array['14 dager', '1 dag', '1 år', 'Ingen angrerett']::text[], 0, 'Angreretten gjelder de fleste varer kjøpt på nett.', true, true, 4),
+  ('samfunnskunnskap-vg1:personlig-okonomi-og-forbruk', 'q06', 'flervalg', 'Hva er effektiv rente?', array['Renten før skatt', 'Renten inkludert alle kostnader og gebyrer', 'Renten på sparekonto', 'Renten etter ett år']::text[], 1, 'Bruk effektiv rente når du sammenligner lån.', true, true, 5),
+  ('samfunnskunnskap-vg1:personlig-okonomi-og-forbruk', 'q07', 'flervalg', 'Hvordan kan forbruk påvirke samfunnet negativt?', array['Det gir flere arbeidsplasser', 'Det gir økonomisk vekst', 'Det gir klimautslipp, avfall og press på naturressurser', 'Det gir mer fritid']::text[], 2, 'Forbruk har både positive og negative sider.', true, true, 6),
+  ('samfunnskunnskap-vg1:personlig-okonomi-og-forbruk', 'q08', 'flervalg', 'Hvem kan gi gratis økonomisk rådgivning til folk med gjeldsproblemer?', array['Inkassoselskaper', 'Forbrukslånsbanker', 'Influensere', 'NAV']::text[], 3, 'NAV har økonomisk rådgivning for alle.', true, true, 7),
+  ('samfunnskunnskap-vg1:personlig-okonomi-og-forbruk', 'q09', 'flervalg', 'Hva er en buffer i privatøkonomien?', array['Penger satt av til uforutsette utgifter', 'Et lån', 'En type reklame', 'En skatt']::text[], 0, 'En buffer gjør det lettere å takle en uventet regning.', true, false, 8),
+  ('samfunnskunnskap-vg1:personlig-okonomi-og-forbruk', 'q10', 'flervalg', 'Hvorfor kan tilbud som «bare i dag» være problematiske?', array['Fordi de alltid er ulovlige', 'Fordi de skaper kjøpepress og får oss til å handle raskt uten å tenke', 'Fordi varene er dårlige', 'Fordi de bare gjelder voksne']::text[], 1, 'Tidspress er en vanlig påvirkningsteknikk.', true, false, 9),
+  ('samfunnskunnskap-vg1:personlig-okonomi-og-forbruk', 'm01', 'sant-usant', 'Retusjert reklame der kroppens form er endret, skal merkes.', array['Sant', 'Usant']::text[], 0, 'Kravet skal redusere kroppspress.', false, true, 10),
+  ('samfunnskunnskap-vg1:personlig-okonomi-og-forbruk', 'm02', 'sant-usant', 'Kredittkortgjeld har vanligvis lav rente.', array['Sant', 'Usant']::text[], 1, 'Kredittkortgjeld har ofte svært høy rente.', false, true, 11),
+  ('samfunnskunnskap-vg1:personlig-okonomi-og-forbruk', 'm03', 'sant-usant', 'Du har reklamasjonsrett hvis en vare du har kjøpt, har feil.', array['Sant', 'Usant']::text[], 0, 'Selgeren må da reparere, bytte eller gi pengene tilbake.', false, true, 12),
+  ('samfunnskunnskap-vg1:personlig-okonomi-og-forbruk', 'm04', 'sant-usant', 'Målrettet reklame bygger aldri på dataene våre.', array['Sant', 'Usant']::text[], 1, 'Målrettet reklame bygger nettopp på data om oss.', false, true, 13),
+  ('samfunnskunnskap-vg1:personlig-okonomi-og-forbruk', 'm05', 'flervalg', 'Hva er en fast utgift?', array['Kinobilletter', 'Klær', 'Husleie', 'Gaver']::text[], 2, 'Faste utgifter er like hver måned.', false, true, 14),
+  ('samfunnskunnskap-vg1:personlig-okonomi-og-forbruk', 'm06', 'flervalg', 'Hvem passer på at reglene for markedsføring følges?', array['Forbrukertilsynet', 'Politiet', 'Skolen', 'Bankene']::text[], 0, 'Forbrukerrådet hjelper forbrukere med klager.', false, true, 15),
+  ('samfunnskunnskap-vg1:personlig-okonomi-og-forbruk', 'm07', 'flervalg', 'Hva betyr det å være en bevisst forbruker?', array['Å kjøpe det billigste alltid', 'Å tenke over behov, kvalitet, pris og konsekvenser før man kjøper', 'Å aldri kjøpe noe', 'Å kjøpe det influensere anbefaler']::text[], 1, 'Bevisste valg er bra både for økonomien og miljøet.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('samfunnskunnskap-vg1:personlig-okonomi-og-forbruk', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Samfunnskunnskap: Kjønn, seksualitet, kropp og grenser
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('samfunnskunnskap-vg1:kjonn-seksualitet-og-grenser', 'samfunnskunnskap-vg1', 'kjonn-seksualitet-og-grenser', 'Kjønn, seksualitet, kropp og grenser', 'Grensesetting og samtykke, verdier, normer og lover om kjønn, seksualitet og kropp – seksuell lavalder, deling av bilder, kjønnsmangfold og diskrimineringsvern – og hvordan normene har endret seg over tid.', array[5]::int[], 3, 'sjekkes', array['Sensitivt tema – læreren bør gå gjennom formuleringene.', 'Sjekk gjeldende regler om samtykke i straffeloven (voldtektsbestemmelsen ble endret i 2025) og aldersgrensen for endring av juridisk kjønn.']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('samfunnskunnskap-vg1:kjonn-seksualitet-og-grenser', '## Grenser og samtykke
+
+Alle har rett til å bestemme over **egen kropp**. Å sette **grenser** betyr å si fra om hva man vil og ikke vil – og å **respektere** andres grenser. Det kan være vanskelig: Man kan være redd for å skuffe andre, føle **press** fra venner eller kjæreste, eller være påvirket av alkohol.
+
+**Samtykke** betyr at alle involverte **frivillig** sier ja. Samtykke må være **tydelig**, kan **trekkes tilbake** når som helst, og kan ikke gis av noen som sover, er bevisstløs eller svært beruset. Stillhet er **ikke** et ja.
+
+## Lover om seksualitet og kropp
+
+- Den **seksuelle lavalderen** i Norge er **16 år**.
+- Seksuell omgang uten samtykke er **voldtekt**, og det er straffbart.
+- Å lage, ha eller dele **seksualiserte bilder** av personer **under 18 år** er straffbart – også når de er tatt av den unge selv.
+- Å dele **krenkende bilder** av andre uten samtykke er straffbart.
+- **Seksuell trakassering** – uønsket seksuell oppmerksomhet – er forbudt etter likestillings- og diskrimineringsloven.
+
+Hvis noen deler bilder av deg, kan du få hjelp fra blant annet **politiet**, **Slettmeg.no** og voksne du stoler på.
+
+## Kjønn og kjønnsmangfold
+
+Vi skiller ofte mellom **biologisk kjønn** og **kjønnsidentitet** – hvilket kjønn man opplever å være. **Kjønnsuttrykk** er hvordan man viser kjønn gjennom klær, stil og væremåte. Noen er **transpersoner**, og noen opplever seg som **ikke-binære**. I Norge kan personer fra **16 år** selv endre **juridisk kjønn**.
+
+**Seksuell orientering** handler om hvem man blir forelsket i eller tiltrukket av. Norge fikk en **kjønnsnøytral ekteskapslov** i **2009**. Likevel opplever mange **skeive** fortsatt fordommer og hets.
+
+**Likestillings- og diskrimineringsloven** forbyr diskriminering på grunn av blant annet **kjønn**, **seksuell orientering**, **kjønnsidentitet** og **kjønnsuttrykk**.
+
+## Verdier og normer i endring
+
+Normer om kjønn, seksualitet og kropp har endret seg mye. For noen tiår siden var homofili straffbart i Norge (til **1972**), og kvinner og menn hadde svært ulike roller. Samtidig finnes det i dag **ulike syn** i samfunnet, blant annet påvirket av **religion**, **kultur**, **generasjon** og **politikk**. Temaer som **abort**, **kjønnsidentitet** og **pornografi** skaper fortsatt debatt.
+
+## Kroppspress
+
+Reklame, sosiale medier og idealer i vennegjengen kan gi **kroppspress**. Mange unge sammenligner seg med **redigerte** bilder. Tiltak som **merking av retusjert reklame** og **undervisning i kildekritikk** skal motvirke dette. Kroppen er ikke et prosjekt som må perfeksjoneres – den er din.
+
+## Drøfte verdier
+
+Når du drøfter slike spørsmål, bør du skille mellom **lover** (hva som er lov), **normer** (hva som forventes) og **verdier** (hva man mener er riktig), vise **respekt** for ulike syn – og samtidig stå fast på at alle har rett til å bli behandlet med **verdighet**.', '{"label":"Kjønn, seksualitet og grenser","children":[{"label":"Grenser","children":[{"label":"Egen kropp"},{"label":"Samtykke"},{"label":"Press"}]},{"label":"Lover","children":[{"label":"Lavalder 16 år"},{"label":"Bilder under 18 år"},{"label":"Trakassering"}]},{"label":"Kjønn","children":[{"label":"Kjønnsidentitet"},{"label":"Kjønnsuttrykk"},{"label":"Juridisk kjønn"}]},{"label":"Seksualitet","children":[{"label":"Seksuell orientering"},{"label":"Ekteskapsloven 2009"},{"label":"Diskrimineringsvern"}]},{"label":"Endring og debatt","children":[{"label":"Normer i endring"},{"label":"Ulike syn"},{"label":"Kroppspress"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'samfunnskunnskap-vg1:kjonn-seksualitet-og-grenser';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('samfunnskunnskap-vg1:kjonn-seksualitet-og-grenser', 'Grensesetting', 'Å si fra om hva man vil og ikke vil.', 0),
+  ('samfunnskunnskap-vg1:kjonn-seksualitet-og-grenser', 'Samtykke', 'At alle involverte frivillig og tydelig sier ja.', 1),
+  ('samfunnskunnskap-vg1:kjonn-seksualitet-og-grenser', 'Samtykke kan trekkes tilbake', 'Man kan ombestemme seg når som helst.', 2),
+  ('samfunnskunnskap-vg1:kjonn-seksualitet-og-grenser', 'Seksuell lavalder', '16 år i Norge.', 3),
+  ('samfunnskunnskap-vg1:kjonn-seksualitet-og-grenser', 'Seksualiserte bilder av personer under 18 år', 'Straffbart å lage, ha eller dele.', 4),
+  ('samfunnskunnskap-vg1:kjonn-seksualitet-og-grenser', 'Seksuell trakassering', 'Uønsket seksuell oppmerksomhet – forbudt etter loven.', 5),
+  ('samfunnskunnskap-vg1:kjonn-seksualitet-og-grenser', 'Slettmeg.no', 'Tjeneste som hjelper folk med krenkende innhold på nett.', 6),
+  ('samfunnskunnskap-vg1:kjonn-seksualitet-og-grenser', 'Kjønnsidentitet', 'Hvilket kjønn man opplever å være.', 7),
+  ('samfunnskunnskap-vg1:kjonn-seksualitet-og-grenser', 'Kjønnsuttrykk', 'Hvordan man viser kjønn gjennom klær, stil og væremåte.', 8),
+  ('samfunnskunnskap-vg1:kjonn-seksualitet-og-grenser', 'Ikke-binær', 'Person som ikke opplever seg som bare kvinne eller mann.', 9),
+  ('samfunnskunnskap-vg1:kjonn-seksualitet-og-grenser', 'Endring av juridisk kjønn', 'Kan gjøres selv fra 16 år i Norge.', 10),
+  ('samfunnskunnskap-vg1:kjonn-seksualitet-og-grenser', 'Seksuell orientering', 'Hvem man blir forelsket i eller tiltrukket av.', 11),
+  ('samfunnskunnskap-vg1:kjonn-seksualitet-og-grenser', 'Kjønnsnøytral ekteskapslov', 'Innført i Norge i 2009.', 12),
+  ('samfunnskunnskap-vg1:kjonn-seksualitet-og-grenser', '1972', 'Året homofili sluttet å være straffbart i Norge.', 13),
+  ('samfunnskunnskap-vg1:kjonn-seksualitet-og-grenser', 'Lover, normer og verdier', 'Hva som er lov, hva som forventes og hva man mener er riktig.', 14);
+delete from public.quiz_sporsmal where tema_id = 'samfunnskunnskap-vg1:kjonn-seksualitet-og-grenser';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('samfunnskunnskap-vg1:kjonn-seksualitet-og-grenser', 'q01', 'flervalg', 'Hva er den seksuelle lavalderen i Norge?', array['14 år', '16 år', '18 år', '15 år']::text[], 1, 'Loven skal beskytte barn og unge.', true, true, 0),
+  ('samfunnskunnskap-vg1:kjonn-seksualitet-og-grenser', 'q02', 'flervalg', 'Hva kjennetegner et gyldig samtykke?', array['Det er frivillig og tydelig, og kan trekkes tilbake', 'Det gjelder for alltid', 'Stillhet er nok', 'Det kan gis av noen som sover']::text[], 0, 'Stillhet er ikke et ja.', true, true, 1),
+  ('samfunnskunnskap-vg1:kjonn-seksualitet-og-grenser', 'q03', 'flervalg', 'Er det lov å dele et seksualisert bilde av en 16-åring, selv om hun har tatt det selv?', array['Ja, hvis hun sier ja', 'Ja, fordi hun er over den seksuelle lavalderen', 'Nei, det er straffbart å dele seksualiserte bilder av personer under 18 år', 'Ja, hvis det bare deles med én person']::text[], 2, 'Aldersgrensen for slike bilder er 18 år.', true, true, 2),
+  ('samfunnskunnskap-vg1:kjonn-seksualitet-og-grenser', 'q04', 'flervalg', 'Hva er kjønnsuttrykk?', array['Hvilket kjønn man er født med', 'Hvem man er tiltrukket av', 'Et juridisk begrep', 'Hvordan man viser kjønn gjennom klær, stil og væremåte']::text[], 3, 'Kjønnsidentitet er hvilket kjønn man opplever å være.', true, true, 3),
+  ('samfunnskunnskap-vg1:kjonn-seksualitet-og-grenser', 'q05', 'flervalg', 'Når fikk Norge en kjønnsnøytral ekteskapslov?', array['2009', '1972', '1990', '2020']::text[], 0, 'Da fikk likekjønnede par rett til å gifte seg.', true, true, 4),
+  ('samfunnskunnskap-vg1:kjonn-seksualitet-og-grenser', 'q06', 'flervalg', 'Hvilken lov forbyr diskriminering på grunn av seksuell orientering og kjønnsidentitet?', array['Opplæringsloven', 'Likestillings- og diskrimineringsloven', 'Markedsføringsloven', 'Ekteskapsloven']::text[], 1, 'Loven verner også mot seksuell trakassering.', true, true, 5),
+  ('samfunnskunnskap-vg1:kjonn-seksualitet-og-grenser', 'q07', 'flervalg', 'Når sluttet homofili å være straffbart i Norge?', array['1814', '1945', '1972', '2009']::text[], 2, 'Normene om seksualitet har endret seg mye.', true, true, 6),
+  ('samfunnskunnskap-vg1:kjonn-seksualitet-og-grenser', 'q08', 'flervalg', 'Hva er seksuell trakassering?', array['Et kompliment', 'En kjæresterelasjon', 'En type flørt begge vil ha', 'Uønsket seksuell oppmerksomhet']::text[], 3, 'Det avgjørende er at oppmerksomheten er uønsket.', true, true, 7),
+  ('samfunnskunnskap-vg1:kjonn-seksualitet-og-grenser', 'q09', 'flervalg', 'Hvorfor kan det være vanskelig å sette grenser?', array['Fordi man kan føle press eller være redd for å skuffe andre', 'Fordi grenser er ulovlige', 'Fordi alle har de samme grensene', 'Fordi det aldri er nødvendig']::text[], 0, 'Derfor er det viktig å respektere andres grenser.', true, false, 8),
+  ('samfunnskunnskap-vg1:kjonn-seksualitet-og-grenser', 'q10', 'flervalg', 'Hva er forskjellen på lover, normer og verdier?', array['Det er det samme', 'Lover er hva som er lov, normer hva som forventes, verdier hva man mener er riktig', 'Normer er alltid skrevet ned', 'Verdier bestemmes av Stortinget']::text[], 1, 'Å skille disse gjør drøftingen tydeligere.', true, false, 9),
+  ('samfunnskunnskap-vg1:kjonn-seksualitet-og-grenser', 'm01', 'sant-usant', 'Et samtykke kan trekkes tilbake når som helst.', array['Sant', 'Usant']::text[], 0, 'Man kan alltid ombestemme seg.', false, true, 10),
+  ('samfunnskunnskap-vg1:kjonn-seksualitet-og-grenser', 'm02', 'sant-usant', 'En person som er svært beruset, kan gi et gyldig samtykke.', array['Sant', 'Usant']::text[], 1, 'Den som er svært beruset, kan ikke gi et gyldig samtykke.', false, true, 11),
+  ('samfunnskunnskap-vg1:kjonn-seksualitet-og-grenser', 'm03', 'sant-usant', 'I Norge kan man fra 16 år selv endre juridisk kjønn.', array['Sant', 'Usant']::text[], 0, 'Yngre barn kan gjøre det med samtykke fra foreldrene.', false, true, 12),
+  ('samfunnskunnskap-vg1:kjonn-seksualitet-og-grenser', 'm04', 'sant-usant', 'Normer om kjønn og seksualitet har vært like i hundrevis av år.', array['Sant', 'Usant']::text[], 1, 'Normene har endret seg mye, særlig de siste tiårene.', false, true, 13),
+  ('samfunnskunnskap-vg1:kjonn-seksualitet-og-grenser', 'm05', 'flervalg', 'Hva kan du gjøre hvis noen deler krenkende bilder av deg?', array['Ingenting', 'Kontakte politiet, Slettmeg.no eller en voksen du stoler på', 'Dele bilder av dem tilbake', 'Slette kontoen din og ikke si noe']::text[], 1, 'Det er straffbart å dele krenkende bilder uten samtykke.', false, true, 14),
+  ('samfunnskunnskap-vg1:kjonn-seksualitet-og-grenser', 'm06', 'flervalg', 'Hva er seksuell orientering?', array['Hvem man blir forelsket i eller tiltrukket av', 'Hvilket kjønn man opplever å være', 'Hvordan man kler seg', 'Hvilket kjønn som står i passet']::text[], 0, 'Kjønnsidentitet er noe annet.', false, true, 15),
+  ('samfunnskunnskap-vg1:kjonn-seksualitet-og-grenser', 'm07', 'flervalg', 'Hva påvirker ulike syn på kjønn og seksualitet i samfunnet?', array['Bare alder', 'Bare lover', 'Blant annet religion, kultur, generasjon og politikk', 'Bare sosiale medier']::text[], 2, 'Mange faktorer spiller inn.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('samfunnskunnskap-vg1:kjonn-seksualitet-og-grenser', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Samfunnskunnskap: Digitale spor, data og personvern
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('samfunnskunnskap-vg1:digitale-spor-og-personvern', 'samfunnskunnskap-vg1', 'digitale-spor-og-personvern', 'Digitale spor, data og personvern', 'Hvilke digitale spor vi etterlater, hvem som har tilgang til dem, hvordan data og personopplysninger brukes og misbrukes – fra målrettet reklame og algoritmer til overvåking og datalekkasjer – og hvilke rettigheter personvernloven gir deg.', array[6]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('samfunnskunnskap-vg1:digitale-spor-og-personvern', '## Digitale spor
+
+Nesten alt vi gjør på nett, etterlater **digitale spor**:
+
+- **Aktive spor**: det vi **bevisst** legger ut – bilder, kommentarer, likes og meldinger.
+- **Passive spor**: det som **samles inn** uten at vi tenker over det – posisjon, søk, hvilke videoer vi ser og hvor lenge, hvilke nettsider vi besøker, og data fra **informasjonskapsler** (cookies).
+
+Sammen danner sporene et detaljert **digitalt fotavtrykk** som kan si mye om interesser, vaner, helse, politiske meninger og relasjoner.
+
+## Hvem har tilgang?
+
+- **Plattformer og apper** som samler inn data om brukerne
+- **Annonsører** og **databrokere** som kjøper og selger data
+- **Myndigheter**, for eksempel politiet med rettslig kjennelse, eller etterretningstjenester
+- **Andre brukere** som kan se, lagre og dele det du legger ut
+- **Kriminelle** som stjeler data gjennom hacking, svindel og **datalekkasjer**
+
+## Bruk av data
+
+Data brukes til mye **nyttig**: kart og navigasjon, anbefalinger, forskning og bedre offentlige tjenester. Men mange tjenester er «gratis» fordi **vi betaler med dataene våre**. De brukes til
+
+- **målrettet reklame**
+- **algoritmer** som bestemmer hva vi ser, og som kan skape **ekkokamre**
+- **profilering** – for eksempel vurdering av kredittverdighet
+
+## Misbruk av data
+
+- **Cambridge Analytica-skandalen** (2018) viste hvordan data fra millioner av Facebook-brukere ble brukt til politisk påvirkning uten samtykke.
+- **Identitetstyveri** og **svindel**.
+- **Overvåking** – i autoritære stater brukes digital overvåking og ansiktsgjenkjenning til å kontrollere befolkningen.
+- **Deling av bilder** og informasjon om andre uten samtykke, **hets** og **doxing** (å publisere private opplysninger om noen).
+
+## Personvern og rettigheter
+
+I Norge og EU gjelder **personvernforordningen (GDPR)**, som ble innført gjennom **personopplysningsloven** i **2018**. Du har blant annet rett til
+
+- **innsyn** – å få vite hvilke opplysninger en virksomhet har om deg
+- **retting** av feil
+- **sletting** («retten til å bli glemt») i mange tilfeller
+- å **trekke tilbake samtykke**
+
+Virksomheter må ha et **lovlig grunnlag** for å behandle personopplysninger. **Datatilsynet** fører tilsyn og kan gi store bøter.
+
+## Hva kan du gjøre?
+
+- Tenk før du **deler** – det du legger ut, kan bli liggende.
+- Sjekk **personverninnstillinger** og hvilke **tillatelser** apper har.
+- Bruk **sterke passord** og **tofaktorautentisering**.
+- Vær kritisk til **lenker** og forespørsler om personopplysninger.
+- Respekter **andres** personvern.
+
+## Drøfting
+
+Digitalisering reiser vanskelige spørsmål: Hvor går grensen mellom **sikkerhet** og **personvern**? Bør sosiale medier ha **høyere aldersgrense**? Hvem bør eie dataene våre? Svarene avhenger av hvilke **verdier** vi vektlegger.', '{"label":"Digitale spor og personvern","children":[{"label":"Spor","children":[{"label":"Aktive"},{"label":"Passive"},{"label":"Cookies"}]},{"label":"Tilgang","children":[{"label":"Plattformer"},{"label":"Annonsører"},{"label":"Myndigheter"},{"label":"Kriminelle"}]},{"label":"Bruk og misbruk","children":[{"label":"Målrettet reklame"},{"label":"Algoritmer"},{"label":"Cambridge Analytica"},{"label":"Overvåking"}]},{"label":"Rettigheter","children":[{"label":"GDPR"},{"label":"Innsyn og sletting"},{"label":"Datatilsynet"}]},{"label":"Egne valg","children":[{"label":"Tenk før du deler"},{"label":"Innstillinger"},{"label":"Sterke passord"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'samfunnskunnskap-vg1:digitale-spor-og-personvern';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('samfunnskunnskap-vg1:digitale-spor-og-personvern', 'Digitale spor', 'Informasjon vi etterlater når vi bruker digitale tjenester.', 0),
+  ('samfunnskunnskap-vg1:digitale-spor-og-personvern', 'Aktive spor', 'Det vi bevisst legger ut, som bilder og kommentarer.', 1),
+  ('samfunnskunnskap-vg1:digitale-spor-og-personvern', 'Passive spor', 'Data som samles inn uten at vi tenker over det, som posisjon og søk.', 2),
+  ('samfunnskunnskap-vg1:digitale-spor-og-personvern', 'Informasjonskapsler (cookies)', 'Små filer som lagrer informasjon om nettbruken vår.', 3),
+  ('samfunnskunnskap-vg1:digitale-spor-og-personvern', 'Databroker', 'Selskap som kjøper og selger data om personer.', 4),
+  ('samfunnskunnskap-vg1:digitale-spor-og-personvern', 'Målrettet reklame', 'Reklame tilpasset den enkelte ut fra dataene deres.', 5),
+  ('samfunnskunnskap-vg1:digitale-spor-og-personvern', 'Algoritme', 'Regler som bestemmer hva vi får se i en tjeneste.', 6),
+  ('samfunnskunnskap-vg1:digitale-spor-og-personvern', 'Ekkokammer', 'At man bare møter meninger man allerede er enig i.', 7),
+  ('samfunnskunnskap-vg1:digitale-spor-og-personvern', 'Cambridge Analytica', 'Skandale fra 2018 der Facebook-data ble brukt til politisk påvirkning uten samtykke.', 8),
+  ('samfunnskunnskap-vg1:digitale-spor-og-personvern', 'Identitetstyveri', 'At noen bruker dine personopplysninger for å utgi seg for å være deg.', 9),
+  ('samfunnskunnskap-vg1:digitale-spor-og-personvern', 'Doxing', 'Å publisere private opplysninger om noen på nett.', 10),
+  ('samfunnskunnskap-vg1:digitale-spor-og-personvern', 'GDPR', 'EUs personvernforordning, gjeldende i Norge fra 2018.', 11),
+  ('samfunnskunnskap-vg1:digitale-spor-og-personvern', 'Innsynsrett', 'Rett til å vite hvilke opplysninger en virksomhet har om deg.', 12),
+  ('samfunnskunnskap-vg1:digitale-spor-og-personvern', 'Retten til å bli glemt', 'Rett til sletting av personopplysninger i mange tilfeller.', 13),
+  ('samfunnskunnskap-vg1:digitale-spor-og-personvern', 'Datatilsynet', 'Myndigheten som fører tilsyn med personvernet i Norge.', 14);
+delete from public.quiz_sporsmal where tema_id = 'samfunnskunnskap-vg1:digitale-spor-og-personvern';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('samfunnskunnskap-vg1:digitale-spor-og-personvern', 'q01', 'flervalg', 'Hva er et passivt digitalt spor?', array['Et bilde du legger ut', 'Data om posisjonen din som samles inn automatisk', 'En kommentar du skriver', 'En melding du sender']::text[], 1, 'Passive spor samles inn uten at vi tenker over det.', true, true, 0),
+  ('samfunnskunnskap-vg1:digitale-spor-og-personvern', 'q02', 'flervalg', 'Hvorfor er mange digitale tjenester gratis?', array['Fordi vi betaler med dataene våre', 'Fordi staten betaler', 'Fordi de ikke tjener penger', 'Fordi de er laget av frivillige']::text[], 0, 'Dataene brukes blant annet til målrettet reklame.', true, true, 1),
+  ('samfunnskunnskap-vg1:digitale-spor-og-personvern', 'q03', 'flervalg', 'Hva handlet Cambridge Analytica-skandalen om?', array['Et datavirus', 'En falsk nettbutikk', 'Facebook-data brukt til politisk påvirkning uten samtykke', 'En passordlekkasje fra en bank']::text[], 2, 'Skandalen ble kjent i 2018.', true, true, 2),
+  ('samfunnskunnskap-vg1:digitale-spor-og-personvern', 'q04', 'flervalg', 'Hvilken rettighet gir GDPR deg?', array['Rett til å se andres data', 'Rett til gratis internett', 'Rett til å slette andres innlegg', 'Rett til innsyn i hvilke opplysninger en virksomhet har om deg']::text[], 3, 'Du har også rett til retting og ofte sletting.', true, true, 3),
+  ('samfunnskunnskap-vg1:digitale-spor-og-personvern', 'q05', 'flervalg', 'Hvem fører tilsyn med personvernet i Norge?', array['Datatilsynet', 'Forbrukerrådet', 'NRK', 'Politiet']::text[], 0, 'Datatilsynet kan gi store bøter ved brudd.', true, true, 4),
+  ('samfunnskunnskap-vg1:digitale-spor-og-personvern', 'q06', 'flervalg', 'Hva er et ekkokammer?', array['Et rom med ekko', 'At man bare møter meninger man allerede er enig i', 'En type datalekkasje', 'En chattetjeneste']::text[], 1, 'Algoritmer kan forsterke ekkokamre.', true, true, 5),
+  ('samfunnskunnskap-vg1:digitale-spor-og-personvern', 'q07', 'flervalg', 'Hva er doxing?', array['Å lage en ny konto', 'Å slette data', 'Å publisere private opplysninger om noen på nett', 'Å bruke tofaktorautentisering']::text[], 2, 'Doxing brukes ofte som hets eller trusler.', true, true, 6),
+  ('samfunnskunnskap-vg1:digitale-spor-og-personvern', 'q08', 'flervalg', 'Hvilket tiltak beskytter kontoene dine best?', array['Samme passord overalt', 'Å dele passordet med venner', 'Å skrive passordet i bioen', 'Sterke passord og tofaktorautentisering']::text[], 3, 'Tofaktor gjør det mye vanskeligere å bryte seg inn.', true, true, 7),
+  ('samfunnskunnskap-vg1:digitale-spor-og-personvern', 'q09', 'flervalg', 'Hva er målrettet reklame?', array['Reklame tilpasset den enkelte ut fra dataene deres', 'Reklame på TV', 'Reklame på plakater', 'Reklame uten bilder']::text[], 0, 'Dataene om hva du ser og søker på, styrer reklamen.', true, false, 8),
+  ('samfunnskunnskap-vg1:digitale-spor-og-personvern', 'q10', 'flervalg', 'Hvilket dilemma er sentralt i debatten om digital overvåking?', array['Pris og kvalitet', 'Sikkerhet og personvern', 'Fart og nøyaktighet', 'Musikk og film']::text[], 1, 'Mer overvåking kan gi mer sikkerhet, men mindre personvern.', true, false, 9),
+  ('samfunnskunnskap-vg1:digitale-spor-og-personvern', 'm01', 'sant-usant', 'Du kan ha rett til å få slettet personopplysninger om deg.', array['Sant', 'Usant']::text[], 0, 'Det kalles ofte retten til å bli glemt.', false, true, 10),
+  ('samfunnskunnskap-vg1:digitale-spor-og-personvern', 'm02', 'sant-usant', 'Det du sletter på nett, er alltid borte for godt.', array['Sant', 'Usant']::text[], 1, 'Andre kan ha lagret eller delt innholdet.', false, true, 11),
+  ('samfunnskunnskap-vg1:digitale-spor-og-personvern', 'm03', 'sant-usant', 'Data kan brukes til nyttige formål som navigasjon og forskning.', array['Sant', 'Usant']::text[], 0, 'Data har både nyttige og problematiske bruksområder.', false, true, 12),
+  ('samfunnskunnskap-vg1:digitale-spor-og-personvern', 'm04', 'sant-usant', 'Virksomheter kan behandle personopplysninger fritt uten noe grunnlag.', array['Sant', 'Usant']::text[], 1, 'De må ha et lovlig grunnlag etter personvernreglene.', false, true, 13),
+  ('samfunnskunnskap-vg1:digitale-spor-og-personvern', 'm05', 'flervalg', 'Når ble GDPR innført i Norge?', array['2008', '2018', '2022', '1998']::text[], 1, 'Den ble innført gjennom personopplysningsloven.', false, true, 14),
+  ('samfunnskunnskap-vg1:digitale-spor-og-personvern', 'm06', 'flervalg', 'Hva gjør en databroker?', array['Kjøper og selger data om personer', 'Reparerer datamaskiner', 'Lager nettsider', 'Passer på personvernet']::text[], 0, 'Dataene brukes blant annet til reklame.', false, true, 15),
+  ('samfunnskunnskap-vg1:digitale-spor-og-personvern', 'm07', 'flervalg', 'Hvordan brukes digital overvåking i autoritære stater?', array['Til å gi innbyggerne mer frihet', 'Bare til trafikkstyring', 'Til å kontrollere befolkningen', 'Ikke i det hele tatt']::text[], 2, 'For eksempel ansiktsgjenkjenning og overvåking av meldinger.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('samfunnskunnskap-vg1:digitale-spor-og-personvern', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Samfunnskunnskap: Sosial ulikhet og utenforskap
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('samfunnskunnskap-vg1:ulikhet-og-utenforskap', 'samfunnskunnskap-vg1', 'ulikhet-og-utenforskap', 'Sosial ulikhet og utenforskap', 'Ulike former for sosial ulikhet i Norge – økonomi, helse, utdanning og bosted – hvordan ulikhet måles, sosial mobilitet, og hvordan ulikhet henger sammen med utenforskap.', array[7]::int[], 5, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('samfunnskunnskap-vg1:ulikhet-og-utenforskap', '## Hva er sosial ulikhet?
+
+**Sosial ulikhet** betyr at grupper i samfunnet har **ulik tilgang** til goder som **inntekt**, **formue**, **helse**, **utdanning**, **bolig** og **makt**. Norge regnes som et land med **små forskjeller** sammenlignet med de fleste andre land, men forskjellene har **økt** de siste tiårene, særlig når det gjelder **formue**.
+
+## Former for ulikhet
+
+- **Økonomisk ulikhet**: forskjeller i **inntekt** og **formue**. Formue – for eksempel bolig, aksjer og bedrifter – er mye **skjevere fordelt** enn inntekt.
+- **Helseulikhet**: Personer med høy utdanning og inntekt **lever lenger** og har bedre helse enn personer med lav utdanning og inntekt.
+- **Utdanningsulikhet**: Barn av foreldre med høy utdanning tar oftere høyere utdanning selv.
+- **Geografisk ulikhet**: forskjeller mellom **by og bygd** og mellom **bydeler** – for eksempel mellom øst og vest i Oslo.
+- **Ulikhet mellom grupper**: forskjeller mellom kvinner og menn, og mellom majoritet og minoriteter.
+
+## Hvordan måles ulikhet?
+
+- **Gini-koeffisienten** går fra 0 (alle har like mye) til 1 (én har alt).
+- **Lavinntekt**: SSB regner husholdninger med inntekt under en viss andel av medianinntekten som lavinntektshusholdninger. Mange barn i Norge vokser opp i familier med **vedvarende lavinntekt**.
+
+## Sosial mobilitet
+
+**Sosial mobilitet** handler om muligheten til å bevege seg mellom sosiale lag – for eksempel at barn av foreldre med lav inntekt får høyere inntekt enn foreldrene. Gratis utdanning, **studielån** og **velferdsordninger** har gitt relativt **høy** sosial mobilitet i Norge. Likevel **arves** mye: økonomi, nettverk og holdninger til utdanning.
+
+## Ulikhet og utenforskap
+
+**Utenforskap** betyr å stå **utenfor** viktige fellesskap som **arbeid**, **utdanning** og **sosiale nettverk**. Ulikhet og utenforskap henger sammen:
+
+- Barn i familier med **dårlig råd** kan få vanskeligere for å delta i **fritidsaktiviteter**, noe som kan gi **ensomhet**.
+- Å ikke **fullføre videregående** øker risikoen for å stå utenfor arbeidslivet.
+- **Helseproblemer**, **rus** og **diskriminering** kan gjøre det vanskelig å få jobb.
+- Utenforskap kan igjen føre til **dårligere økonomi** og **helse** – en **ond sirkel**.
+
+## Hvorfor er ulikhet et problem – eller ikke?
+
+Det finnes **ulike syn**:
+
+- Noen mener store forskjeller svekker **tilliten**, **fellesskapet** og **demokratiet**, og at samfunnet bør **omfordele** mer gjennom skatt og velferd.
+- Andre mener noe ulikhet er **rimelig** fordi det belønner **innsats**, **risiko** og **utdanning**, og at det viktigste er at alle har **like muligheter**.
+
+## Tiltak
+
+**Skatt** og **overføringer**, **gratis skole**, **barnehage** og **helsetjenester**, **tilskudd** til fritidsaktiviteter, **arbeidsinkludering** og tiltak mot **frafall** i skolen er eksempler på virkemidler for å redusere ulikhet og utenforskap.', '{"label":"Ulikhet og utenforskap","children":[{"label":"Former","children":[{"label":"Inntekt og formue"},{"label":"Helse"},{"label":"Utdanning"},{"label":"Bosted"}]},{"label":"Måling","children":[{"label":"Gini"},{"label":"Lavinntekt"},{"label":"Median"}]},{"label":"Mobilitet","children":[{"label":"Sosial mobilitet"},{"label":"Sosial arv"}]},{"label":"Utenforskap","children":[{"label":"Arbeid og utdanning"},{"label":"Fritid og ensomhet"},{"label":"Ond sirkel"}]},{"label":"Syn og tiltak","children":[{"label":"Omfordeling"},{"label":"Like muligheter"},{"label":"Velferd og skole"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'samfunnskunnskap-vg1:ulikhet-og-utenforskap';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('samfunnskunnskap-vg1:ulikhet-og-utenforskap', 'Sosial ulikhet', 'At grupper har ulik tilgang til goder som inntekt, helse og utdanning.', 0),
+  ('samfunnskunnskap-vg1:ulikhet-og-utenforskap', 'Inntekt', 'Penger man tjener i en periode.', 1),
+  ('samfunnskunnskap-vg1:ulikhet-og-utenforskap', 'Formue', 'Verdier man eier, som bolig, aksjer og bedrifter.', 2),
+  ('samfunnskunnskap-vg1:ulikhet-og-utenforskap', 'Formuesulikhet', 'Formue er mye skjevere fordelt enn inntekt.', 3),
+  ('samfunnskunnskap-vg1:ulikhet-og-utenforskap', 'Helseulikhet', 'Personer med høy utdanning og inntekt lever lenger og har bedre helse.', 4),
+  ('samfunnskunnskap-vg1:ulikhet-og-utenforskap', 'Gini-koeffisient', 'Mål på ulikhet fra 0 (helt likt) til 1 (én har alt).', 5),
+  ('samfunnskunnskap-vg1:ulikhet-og-utenforskap', 'Vedvarende lavinntekt', 'Når en husholdning har lav inntekt over flere år.', 6),
+  ('samfunnskunnskap-vg1:ulikhet-og-utenforskap', 'Medianinntekt', 'Inntekten i midten når alle er sortert fra lavest til høyest.', 7),
+  ('samfunnskunnskap-vg1:ulikhet-og-utenforskap', 'Sosial mobilitet', 'Muligheten til å bevege seg mellom sosiale lag.', 8),
+  ('samfunnskunnskap-vg1:ulikhet-og-utenforskap', 'Sosial arv', 'At økonomi, nettverk og holdninger går i arv.', 9),
+  ('samfunnskunnskap-vg1:ulikhet-og-utenforskap', 'Utenforskap', 'Å stå utenfor fellesskap som arbeid, utdanning og sosiale nettverk.', 10),
+  ('samfunnskunnskap-vg1:ulikhet-og-utenforskap', 'Ond sirkel', 'Når problemer forsterker hverandre, som dårlig økonomi og utenforskap.', 11),
+  ('samfunnskunnskap-vg1:ulikhet-og-utenforskap', 'Omfordeling', 'Å flytte ressurser fra de som har mye til de som har lite, via skatt og velferd.', 12),
+  ('samfunnskunnskap-vg1:ulikhet-og-utenforskap', 'Like muligheter', 'At alle skal ha samme sjanser, uansett bakgrunn.', 13),
+  ('samfunnskunnskap-vg1:ulikhet-og-utenforskap', 'Arbeidsinkludering', 'Tiltak for å få flere inn i arbeidslivet.', 14);
+delete from public.quiz_sporsmal where tema_id = 'samfunnskunnskap-vg1:ulikhet-og-utenforskap';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('samfunnskunnskap-vg1:ulikhet-og-utenforskap', 'q01', 'flervalg', 'Hva er sosial ulikhet?', array['At alle har like mye', 'At grupper har ulik tilgang til goder som inntekt, helse og utdanning', 'At noen er høyere enn andre', 'At folk har ulike hobbyer']::text[], 1, 'Ulikhet handler om fordelingen av goder.', true, true, 0),
+  ('samfunnskunnskap-vg1:ulikhet-og-utenforskap', 'q02', 'flervalg', 'Hva er skjevest fordelt i Norge?', array['Formue', 'Inntekt', 'Skolegang', 'Stemmerett']::text[], 0, 'Formue er mye skjevere fordelt enn inntekt.', true, true, 1),
+  ('samfunnskunnskap-vg1:ulikhet-og-utenforskap', 'q03', 'flervalg', 'Hva viser en Gini-koeffisient på 0?', array['At én person har alt', 'At det er stor ulikhet', 'At alle har like mye', 'At ingen har noe']::text[], 2, '1 betyr at én har alt.', true, true, 2),
+  ('samfunnskunnskap-vg1:ulikhet-og-utenforskap', 'q04', 'flervalg', 'Hva er sosial mobilitet?', array['At folk flytter mye', 'At folk bruker mobil', 'At samfunnet endrer seg', 'Muligheten til å bevege seg mellom sosiale lag']::text[], 3, 'Gratis utdanning har bidratt til høy sosial mobilitet i Norge.', true, true, 3),
+  ('samfunnskunnskap-vg1:ulikhet-og-utenforskap', 'q05', 'flervalg', 'Hvordan kan ulikhet føre til utenforskap for barn?', array['Barn i familier med dårlig råd kan få vanskeligere for å delta i fritidsaktiviteter', 'Ulikhet påvirker ikke barn', 'Barn med dårlig råd får flere venner', 'Alle barn har like muligheter uansett']::text[], 0, 'Det kan gi ensomhet og utenforskap.', true, true, 4),
+  ('samfunnskunnskap-vg1:ulikhet-og-utenforskap', 'q06', 'flervalg', 'Hva er helseulikhet?', array['At alle har lik helse', 'At personer med høy utdanning og inntekt lever lenger og har bedre helse', 'At leger tjener mye', 'At sykehus er ulikt fordelt']::text[], 1, 'Helse henger sammen med sosial bakgrunn.', true, true, 5),
+  ('samfunnskunnskap-vg1:ulikhet-og-utenforskap', 'q07', 'flervalg', 'Hvilket argument brukes for mer omfordeling?', array['Ulikhet belønner innsats', 'Lavere skatt gir mer vekst', 'Store forskjeller kan svekke tilliten og fellesskapet', 'Ulikhet er alltid rettferdig']::text[], 2, 'Andre mener noe ulikhet er rimelig.', true, true, 6),
+  ('samfunnskunnskap-vg1:ulikhet-og-utenforskap', 'q08', 'flervalg', 'Hva er en ond sirkel i forbindelse med utenforskap?', array['En type sport', 'En skatteordning', 'Et velferdstiltak', 'Når dårlig økonomi, helse og utenforskap forsterker hverandre']::text[], 3, 'Derfor er tidlig innsats viktig.', true, true, 7),
+  ('samfunnskunnskap-vg1:ulikhet-og-utenforskap', 'q09', 'flervalg', 'Hva er medianinntekt?', array['Inntekten i midten når alle er sortert', 'Gjennomsnittsinntekten', 'Den høyeste inntekten', 'Minstelønnen']::text[], 0, 'Medianen påvirkes lite av noen få svært høye inntekter.', true, false, 8),
+  ('samfunnskunnskap-vg1:ulikhet-og-utenforskap', 'q10', 'flervalg', 'Hvilket tiltak kan redusere frafall og utenforskap?', array['Høyere skolepenger', 'Oppfølging og tilpasset opplæring i skolen', 'Færre skoler', 'Kortere skoletid']::text[], 1, 'Å fullføre videregående gir bedre muligheter i arbeidslivet.', true, false, 9),
+  ('samfunnskunnskap-vg1:ulikhet-og-utenforskap', 'm01', 'sant-usant', 'Norge har små økonomiske forskjeller sammenlignet med de fleste land.', array['Sant', 'Usant']::text[], 0, 'Men forskjellene har økt de siste tiårene.', false, true, 10),
+  ('samfunnskunnskap-vg1:ulikhet-og-utenforskap', 'm02', 'sant-usant', 'Det er ingen forskjeller i levealder mellom sosiale grupper i Norge.', array['Sant', 'Usant']::text[], 1, 'Personer med høy utdanning og inntekt lever i gjennomsnitt lenger.', false, true, 11),
+  ('samfunnskunnskap-vg1:ulikhet-og-utenforskap', 'm03', 'sant-usant', 'Å ikke fullføre videregående øker risikoen for å stå utenfor arbeidslivet.', array['Sant', 'Usant']::text[], 0, 'Mange jobber krever fullført utdanning.', false, true, 12),
+  ('samfunnskunnskap-vg1:ulikhet-og-utenforskap', 'm04', 'sant-usant', 'Alle er enige om at all ulikhet er et problem.', array['Sant', 'Usant']::text[], 1, 'Noen mener noe ulikhet er rimelig fordi den belønner innsats.', false, true, 13),
+  ('samfunnskunnskap-vg1:ulikhet-og-utenforskap', 'm05', 'flervalg', 'Hvilken av disse er formue?', array['Månedslønn', 'Barnetrygd', 'En bolig man eier', 'Studielån']::text[], 2, 'Formue er verdier man eier.', false, true, 14),
+  ('samfunnskunnskap-vg1:ulikhet-og-utenforskap', 'm06', 'flervalg', 'Hva er sosial arv?', array['At økonomi, nettverk og holdninger går i arv', 'Arv etter en rik slektning', 'Et velferdstiltak', 'En skatt']::text[], 0, 'Sosial arv kan begrense sosial mobilitet.', false, true, 15),
+  ('samfunnskunnskap-vg1:ulikhet-og-utenforskap', 'm07', 'flervalg', 'Hva er et eksempel på geografisk ulikhet i Norge?', array['Forskjeller mellom kvinner og menn', 'Forskjeller mellom bydeler i Oslo', 'Forskjeller i skostørrelse', 'Forskjeller i årstider']::text[], 1, 'Levekår varierer mellom bydeler og regioner.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('samfunnskunnskap-vg1:ulikhet-og-utenforskap', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Samfunnskunnskap: Majoritet og minoriteter i Norge og Sápmi
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('samfunnskunnskap-vg1:majoritet-og-minoritet', 'samfunnskunnskap-vg1', 'majoritet-og-minoritet', 'Majoritet og minoriteter i Norge og Sápmi', 'Likheter og ulikheter i kulturuttrykk, identitet og levesett innenfor og mellom majoritet og minoriteter i Norge: samene som urfolk, de nasjonale minoritetene og innvandrere – og begreper som integrering, assimilering og flerkulturell identitet.', array[8]::int[], 6, 'sjekkes', array['Sjekk hvilke land de største innvandrergruppene i Norge kommer fra mot fersk statistikk fra SSB.']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('samfunnskunnskap-vg1:majoritet-og-minoritet', '## Majoritet og minoritet
+
+En **majoritet** er den største eller dominerende gruppen i et samfunn. En **minoritet** er en mindre gruppe som skiller seg fra majoriteten, for eksempel når det gjelder **språk**, **religion**, **kultur** eller **opprinnelse**. Minoriteter har ofte hatt **mindre makt** og har måttet kjempe for sine rettigheter.
+
+## Samene – et urfolk
+
+**Samene** er et **urfolk** som har bodd i **Sápmi** – nordlige deler av Norge, Sverige, Finland og Kolahalvøya i Russland – lenge før statsgrensene ble trukket. Samisk kultur omfatter blant annet **samiske språk**, **joik**, **duodji** (samisk håndverk), **kofte** og næringer som **reindrift**, fiske og jordbruk. De fleste samer lever i dag moderne liv i byer og bygder over hele landet, og mange har en identitet som både **samisk og norsk**.
+
+Etter en lang periode med **fornorsking** har samene fått sterkere rettigheter: **Sametinget** (1989), **Grunnloven § 108** og rett til opplæring i samisk. **Samenes nasjonaldag** er **6. februar**.
+
+## De nasjonale minoritetene
+
+Norge har fem **nasjonale minoriteter** – grupper med **langvarig tilknytning** til landet:
+
+- **Jøder**
+- **Kvener/norskfinner**
+- **Skogfinner**
+- **Rom**
+- **Romanifolk/tatere**
+
+Flere av dem ble utsatt for **fornorsking** og **diskriminering**. Romanifolk ble blant annet utsatt for **tvangssterilisering** og at barn ble tatt fra familiene, og norske jøder ble **deportert** under andre verdenskrig. Staten har senere beklaget overgrepene.
+
+## Innvandrere
+
+En stor del av befolkningen i Norge er **innvandrere** eller **norskfødte med innvandrerforeldre**, med bakgrunn fra mer enn 200 land. De største gruppene har bakgrunn fra blant annet **Polen**, **Litauen**, **Sverige**, **Syria**, **Ukraina** og **Somalia**. Folk kommer som **arbeidsinnvandrere**, **flyktninger**, **familiegjenforente** eller **studenter**.
+
+## Integrering og assimilering
+
+- **Assimilering**: Minoriteten må gi opp sin kultur og bli lik majoriteten – slik fornorskingspolitikken forsøkte.
+- **Integrering**: Minoriteten deltar fullt i samfunnet – arbeid, skole, politikk – og kan samtidig **beholde** sin kultur.
+- **Segregering**: Gruppene lever atskilt.
+
+## Identitet og levesett
+
+Mange har en **flerkulturell identitet**: De føler tilhørighet til flere kulturer og kan **veksle** mellom språk og normer. Likheter og ulikheter i levesett går ofte **på tvers** av majoritet og minoritet – for eksempel mellom generasjoner, by og bygd, religiøse og ikke-religiøse. **Kultur** er ikke noe fast, men noe som stadig **endrer** seg når mennesker møtes.
+
+## Utfordringer
+
+Minoriteter kan møte **fordommer**, **diskriminering** i arbeids- og boligmarkedet og **hatefulle ytringer**. Samtidig bidrar kulturelt mangfold med nye perspektiver, språk, mat, musikk og arbeidskraft. En viktig diskusjon er hvordan samfunnet kan sikre både **felles verdier** og **rom for forskjeller**.', '{"label":"Majoritet og minoritet","children":[{"label":"Begreper","children":[{"label":"Majoritet"},{"label":"Minoritet"},{"label":"Makt"}]},{"label":"Samer","children":[{"label":"Urfolk"},{"label":"Språk, joik, duodji"},{"label":"Rettigheter"}]},{"label":"Nasjonale minoriteter","children":[{"label":"Jøder"},{"label":"Kvener/norskfinner"},{"label":"Skogfinner"},{"label":"Rom og romanifolk"}]},{"label":"Innvandrere","children":[{"label":"Arbeid"},{"label":"Flukt"},{"label":"Familie"}]},{"label":"Samspill","children":[{"label":"Integrering"},{"label":"Assimilering"},{"label":"Flerkulturell identitet"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'samfunnskunnskap-vg1:majoritet-og-minoritet';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('samfunnskunnskap-vg1:majoritet-og-minoritet', 'Majoritet', 'Den største eller dominerende gruppen i et samfunn.', 0),
+  ('samfunnskunnskap-vg1:majoritet-og-minoritet', 'Minoritet', 'En mindre gruppe som skiller seg fra majoriteten.', 1),
+  ('samfunnskunnskap-vg1:majoritet-og-minoritet', 'Urfolk', 'Folk som bodde i et område før dagens statsgrenser, som samene.', 2),
+  ('samfunnskunnskap-vg1:majoritet-og-minoritet', 'Duodji', 'Samisk håndverk.', 3),
+  ('samfunnskunnskap-vg1:majoritet-og-minoritet', 'Joik', 'Tradisjonell samisk sangform.', 4),
+  ('samfunnskunnskap-vg1:majoritet-og-minoritet', 'Nasjonale minoriteter', 'Jøder, kvener/norskfinner, skogfinner, rom og romanifolk/tatere.', 5),
+  ('samfunnskunnskap-vg1:majoritet-og-minoritet', 'Kvener/norskfinner', 'Nasjonal minoritet med finsk opprinnelse, særlig i Nord-Norge.', 6),
+  ('samfunnskunnskap-vg1:majoritet-og-minoritet', 'Romanifolk/tatere', 'Nasjonal minoritet som ble utsatt for blant annet tvangssterilisering.', 7),
+  ('samfunnskunnskap-vg1:majoritet-og-minoritet', 'Innvandrer', 'Person som er født i utlandet og har flyttet til Norge.', 8),
+  ('samfunnskunnskap-vg1:majoritet-og-minoritet', 'Norskfødte med innvandrerforeldre', 'Personer født i Norge med to foreldre som har innvandret.', 9),
+  ('samfunnskunnskap-vg1:majoritet-og-minoritet', 'Assimilering', 'At minoriteten må gi opp sin kultur og bli lik majoriteten.', 10),
+  ('samfunnskunnskap-vg1:majoritet-og-minoritet', 'Integrering', 'At minoriteten deltar fullt i samfunnet og kan beholde sin kultur.', 11),
+  ('samfunnskunnskap-vg1:majoritet-og-minoritet', 'Segregering', 'At grupper lever atskilt fra hverandre.', 12),
+  ('samfunnskunnskap-vg1:majoritet-og-minoritet', 'Flerkulturell identitet', 'Å føle tilhørighet til flere kulturer.', 13),
+  ('samfunnskunnskap-vg1:majoritet-og-minoritet', '6. februar', 'Samenes nasjonaldag.', 14);
+delete from public.quiz_sporsmal where tema_id = 'samfunnskunnskap-vg1:majoritet-og-minoritet';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('samfunnskunnskap-vg1:majoritet-og-minoritet', 'q01', 'flervalg', 'Hvilken status har samene i Norge?', array['Nasjonal minoritet', 'Urfolk', 'Innvandrergruppe', 'Majoritet']::text[], 1, 'Samene har egne rettigheter som urfolk.', true, true, 0),
+  ('samfunnskunnskap-vg1:majoritet-og-minoritet', 'q02', 'flervalg', 'Hvilken av disse er en nasjonal minoritet i Norge?', array['Kvener/norskfinner', 'Samer', 'Svensker', 'Polakker']::text[], 0, 'De fem nasjonale minoritetene er jøder, kvener/norskfinner, skogfinner, rom og romanifolk/tatere.', true, true, 1),
+  ('samfunnskunnskap-vg1:majoritet-og-minoritet', 'q03', 'flervalg', 'Hva er forskjellen på integrering og assimilering?', array['Det er det samme', 'Assimilering betyr å beholde sin kultur', 'Ved integrering deltar minoriteten i samfunnet og kan beholde sin kultur, ved assimilering må den gi den opp', 'Integrering betyr å leve atskilt']::text[], 2, 'Fornorskingspolitikken var en assimileringspolitikk.', true, true, 2),
+  ('samfunnskunnskap-vg1:majoritet-og-minoritet', 'q04', 'flervalg', 'Hva er duodji?', array['En samisk høytid', 'Et samisk språk', 'En samisk rett', 'Samisk håndverk']::text[], 3, 'Duodji er en viktig del av samisk kultur.', true, true, 3),
+  ('samfunnskunnskap-vg1:majoritet-og-minoritet', 'q05', 'flervalg', 'Hva ble romanifolk/tatere blant annet utsatt for?', array['Tvangssterilisering og at barn ble tatt fra familiene', 'Egne skoler med morsmålsopplæring', 'Særlig gode rettigheter', 'Egen stat']::text[], 0, 'Staten har senere beklaget overgrepene.', true, true, 4),
+  ('samfunnskunnskap-vg1:majoritet-og-minoritet', 'q06', 'flervalg', 'Hva betyr flerkulturell identitet?', array['Å ikke ha noen identitet', 'Å føle tilhørighet til flere kulturer', 'Å bare tilhøre majoriteten', 'Å ha mange pass']::text[], 1, 'Mange kan veksle mellom språk og normer.', true, true, 5),
+  ('samfunnskunnskap-vg1:majoritet-og-minoritet', 'q07', 'flervalg', 'Hva er segregering?', array['At alle blir like', 'At minoriteter deltar i samfunnet', 'At grupper lever atskilt fra hverandre', 'At minoriteter får egne rettigheter']::text[], 2, 'Segregering kan gi lite kontakt og mer fordommer.', true, true, 6),
+  ('samfunnskunnskap-vg1:majoritet-og-minoritet', 'q08', 'flervalg', 'Hvorfor sier vi at kultur ikke er noe fast?', array['Fordi kulturer er like', 'Fordi kultur bare handler om mat', 'Fordi kultur er bestemt av staten', 'Fordi kultur endrer seg når mennesker møtes']::text[], 3, 'Kulturer påvirker hverandre hele tiden.', true, true, 7),
+  ('samfunnskunnskap-vg1:majoritet-og-minoritet', 'q09', 'flervalg', 'Hvilken utfordring kan minoriteter møte i Norge?', array['Diskriminering i arbeids- og boligmarkedet', 'For mange rettigheter', 'Ingen utfordringer', 'For høy lønn']::text[], 0, 'Diskriminering er forbudt, men forekommer.', true, false, 8),
+  ('samfunnskunnskap-vg1:majoritet-og-minoritet', 'q10', 'flervalg', 'Hvilke likheter og ulikheter i levesett går ofte på tvers av majoritet og minoritet?', array['Ingen', 'Forskjeller mellom generasjoner og mellom by og bygd', 'Bare forskjeller i religion', 'Bare forskjeller i språk']::text[], 1, 'Grupper er ikke ensartede.', true, false, 9),
+  ('samfunnskunnskap-vg1:majoritet-og-minoritet', 'm01', 'sant-usant', 'Norge har fem nasjonale minoriteter.', array['Sant', 'Usant']::text[], 0, 'Jøder, kvener/norskfinner, skogfinner, rom og romanifolk/tatere.', false, true, 10),
+  ('samfunnskunnskap-vg1:majoritet-og-minoritet', 'm02', 'sant-usant', 'Alle samer driver med reindrift.', array['Sant', 'Usant']::text[], 1, 'De fleste samer har andre yrker og bor i byer og bygder over hele landet.', false, true, 11),
+  ('samfunnskunnskap-vg1:majoritet-og-minoritet', 'm03', 'sant-usant', 'Norske jøder ble deportert under andre verdenskrig.', array['Sant', 'Usant']::text[], 0, 'Mange ble drept i Auschwitz.', false, true, 12),
+  ('samfunnskunnskap-vg1:majoritet-og-minoritet', 'm04', 'sant-usant', 'Fornorskingspolitikken var en integreringspolitikk.', array['Sant', 'Usant']::text[], 1, 'Den var en assimileringspolitikk.', false, true, 13),
+  ('samfunnskunnskap-vg1:majoritet-og-minoritet', 'm05', 'flervalg', 'Når er samenes nasjonaldag?', array['17. mai', '6. februar', '24. desember', '1. mai']::text[], 1, 'Den minner om det første samiske landsmøtet i 1917.', false, true, 14),
+  ('samfunnskunnskap-vg1:majoritet-og-minoritet', 'm06', 'flervalg', 'Hva er en norskfødt med innvandrerforeldre?', array['En person født i Norge med to foreldre som har innvandret', 'En person som har flyttet til Norge', 'En person med én norsk forelder', 'En turist']::text[], 0, 'SSB bruker dette begrepet i statistikken.', false, true, 15),
+  ('samfunnskunnskap-vg1:majoritet-og-minoritet', 'm07', 'flervalg', 'Hvilket organ ble opprettet for samene i 1989?', array['Stortinget', 'Høyesterett', 'Sametinget', 'Samerådet']::text[], 2, 'Sametinget er samenes folkevalgte organ.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('samfunnskunnskap-vg1:majoritet-og-minoritet', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Samfunnskunnskap: Den nordiske modellen, vekst og livskvalitet
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('samfunnskunnskap-vg1:den-nordiske-modellen', 'samfunnskunnskap-vg1', 'den-nordiske-modellen', 'Den nordiske modellen, vekst og livskvalitet', 'Hvordan samfunnet og arbeidslivet i Norge har endret seg, hva som kjennetegner den nordiske samfunnsmodellen, hvilke utfordringer den står overfor – og sammenhengen mellom økonomisk vekst, levestandard og livskvalitet.', array[9, 16]::int[], 7, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('samfunnskunnskap-vg1:den-nordiske-modellen', '## Fra bondesamfunn til kunnskapssamfunn
+
+For 150 år siden jobbet de fleste i Norge i **jordbruk**, **skogbruk** og **fiske**. Med **industrialiseringen** flyttet mange til byene for å jobbe i fabrikker. I dag jobber de aller fleste i **tjenesteytende næringer** – helse, utdanning, handel, IT og transport. Siden 1970-tallet har **olje og gass** gitt store inntekter. Samtidig har **kvinner** i stor grad kommet ut i arbeidslivet, og **utdanningsnivået** har økt kraftig.
+
+## Den nordiske modellen
+
+Norge, Sverige, Danmark, Finland og Island har mange likheter, som ofte kalles **den nordiske modellen**. Den bygger på tre søyler:
+
+1. **Økonomisk styring**: **markedsøkonomi** kombinert med en aktiv stat og ansvarlig finanspolitikk.
+2. **Organisert arbeidsliv**: **trepartssamarbeid** mellom **arbeidstakere**, **arbeidsgivere** og **staten**, høy **organisasjonsgrad** og **koordinerte lønnsoppgjør**.
+3. **Velferdsstat**: **universelle** ordninger som gjelder alle – gratis skole, helsetjenester, **folketrygden** (1967), barnetrygd og pensjon – finansiert gjennom **skatt**.
+
+Kjennetegn er **høy sysselsetting**, **små lønnsforskjeller**, **høy tillit** til hverandre og til myndighetene og **høy produktivitet**.
+
+## Utfordringer
+
+- **Eldrebølgen**: Flere eldre og færre i arbeid per pensjonist gir økte utgifter til pensjon, helse og omsorg.
+- **Utenforskap**: Mange i arbeidsfør alder står utenfor arbeidslivet.
+- **Integrering** av innvandrere i arbeidslivet.
+- **Omstilling** fra olje og gass til nye næringer – og **klimaendringene**.
+- **Digitalisering** og **kunstig intelligens**, som endrer mange jobber.
+- **Økende ulikhet** og press på tilliten.
+
+Modellen er avhengig av at **mange jobber og betaler skatt**. Mange mener derfor at **høy sysselsetting** er det viktigste for å bevare velferden.
+
+## Økonomisk vekst, levestandard og livskvalitet
+
+- **Økonomisk vekst** betyr at samfunnet produserer mer varer og tjenester. Den måles ofte med **BNP** (bruttonasjonalprodukt).
+- **Levestandard** handler om **materielle** forhold: inntekt, bolig og forbruk.
+- **Livskvalitet** handler om hvordan folk **har det**: helse, relasjoner, trygghet, mening og tilfredshet.
+
+Vekst har gitt enorme forbedringer – lengre liv, bedre helse og mindre fattigdom. Men over et visst nivå ser mer penger ut til å gi **mindre økning** i livskvalitet. BNP måler heller ikke **fordeling**, **fritid**, **frivillig arbeid** eller **miljøødeleggelser**.
+
+## Et globalt og bærekraftig perspektiv
+
+Vekst basert på stort forbruk av **fossil energi** og **naturressurser** gir **klimautslipp** og **tap av natur**. Mange fattige land trenger fortsatt vekst for å løfte folk ut av fattigdom, mens rike land diskuterer **grønn vekst** – eller om vi bør prioritere **livskvalitet** framfor stadig mer forbruk. Spørsmålet er hvordan vi kan sikre **gode liv** for alle – uten å ødelegge for **kommende generasjoner**.', '{"label":"Den nordiske modellen","children":[{"label":"Endringer","children":[{"label":"Bondesamfunn"},{"label":"Industri"},{"label":"Tjenester og kunnskap"},{"label":"Olje og gass"}]},{"label":"Tre søyler","children":[{"label":"Økonomisk styring"},{"label":"Trepartssamarbeid"},{"label":"Velferdsstat"}]},{"label":"Kjennetegn","children":[{"label":"Høy sysselsetting"},{"label":"Små forskjeller"},{"label":"Høy tillit"}]},{"label":"Utfordringer","children":[{"label":"Eldrebølgen"},{"label":"Utenforskap"},{"label":"Omstilling"},{"label":"Digitalisering"}]},{"label":"Vekst og livskvalitet","children":[{"label":"BNP"},{"label":"Levestandard"},{"label":"Livskvalitet"},{"label":"Bærekraft"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'samfunnskunnskap-vg1:den-nordiske-modellen';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('samfunnskunnskap-vg1:den-nordiske-modellen', 'Industrialisering', 'Overgangen fra jordbrukssamfunn til industrisamfunn.', 0),
+  ('samfunnskunnskap-vg1:den-nordiske-modellen', 'Tjenesteytende næringer', 'Næringer som helse, utdanning, handel og IT – der de fleste jobber i dag.', 1),
+  ('samfunnskunnskap-vg1:den-nordiske-modellen', 'Den nordiske modellen', 'Samfunnsmodell med økonomisk styring, organisert arbeidsliv og velferdsstat.', 2),
+  ('samfunnskunnskap-vg1:den-nordiske-modellen', 'Trepartssamarbeid', 'Samarbeid mellom arbeidstakere, arbeidsgivere og staten.', 3),
+  ('samfunnskunnskap-vg1:den-nordiske-modellen', 'Organisasjonsgrad', 'Andelen arbeidstakere som er med i en fagforening.', 4),
+  ('samfunnskunnskap-vg1:den-nordiske-modellen', 'Universelle ordninger', 'Velferdsordninger som gjelder alle.', 5),
+  ('samfunnskunnskap-vg1:den-nordiske-modellen', 'Folketrygden', 'Norsk trygdeordning innført i 1967.', 6),
+  ('samfunnskunnskap-vg1:den-nordiske-modellen', 'Tillit', 'Tro på at andre og myndighetene er til å stole på.', 7),
+  ('samfunnskunnskap-vg1:den-nordiske-modellen', 'Eldrebølgen', 'At andelen eldre i befolkningen øker.', 8),
+  ('samfunnskunnskap-vg1:den-nordiske-modellen', 'Sysselsetting', 'Andelen av befolkningen som er i arbeid.', 9),
+  ('samfunnskunnskap-vg1:den-nordiske-modellen', 'Økonomisk vekst', 'At samfunnet produserer mer varer og tjenester.', 10),
+  ('samfunnskunnskap-vg1:den-nordiske-modellen', 'BNP', 'Bruttonasjonalprodukt – verdien av alt som produseres i et land.', 11),
+  ('samfunnskunnskap-vg1:den-nordiske-modellen', 'Levestandard', 'Materielle forhold som inntekt, bolig og forbruk.', 12),
+  ('samfunnskunnskap-vg1:den-nordiske-modellen', 'Livskvalitet', 'Hvordan folk har det – helse, relasjoner, trygghet og tilfredshet.', 13),
+  ('samfunnskunnskap-vg1:den-nordiske-modellen', 'Grønn vekst', 'Økonomisk vekst med lavere utslipp og ressursbruk.', 14);
+delete from public.quiz_sporsmal where tema_id = 'samfunnskunnskap-vg1:den-nordiske-modellen';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('samfunnskunnskap-vg1:den-nordiske-modellen', 'q01', 'flervalg', 'Hvor jobber de fleste i Norge i dag?', array['I jordbruket', 'I tjenesteytende næringer', 'I fiskeriet', 'I gruvedrift']::text[], 1, 'Helse, utdanning, handel og IT er eksempler.', true, true, 0),
+  ('samfunnskunnskap-vg1:den-nordiske-modellen', 'q02', 'flervalg', 'Hva er trepartssamarbeidet?', array['Samarbeid mellom arbeidstakere, arbeidsgivere og staten', 'Samarbeid mellom tre partier', 'Samarbeid mellom tre land', 'Samarbeid mellom kommune, fylke og stat']::text[], 0, 'Det er en av søylene i den nordiske modellen.', true, true, 1),
+  ('samfunnskunnskap-vg1:den-nordiske-modellen', 'q03', 'flervalg', 'Hva kjennetegner universelle velferdsordninger?', array['De gjelder bare fattige', 'De er private', 'De gjelder alle', 'De må betales av brukerne']::text[], 2, 'Gratis skole er et eksempel.', true, true, 2),
+  ('samfunnskunnskap-vg1:den-nordiske-modellen', 'q04', 'flervalg', 'Hva er eldrebølgen?', array['En type bølge i havet', 'At det fødes flere barn', 'At eldre flytter til utlandet', 'At andelen eldre i befolkningen øker']::text[], 3, 'Det gir økte utgifter til pensjon og omsorg.', true, true, 3),
+  ('samfunnskunnskap-vg1:den-nordiske-modellen', 'q05', 'flervalg', 'Hva måler BNP?', array['Verdien av alt som produseres i et land', 'Hvor lykkelige folk er', 'Hvor mye natur et land har', 'Hvor mange som bor i et land']::text[], 0, 'BNP måler ikke fordeling eller livskvalitet.', true, true, 4),
+  ('samfunnskunnskap-vg1:den-nordiske-modellen', 'q06', 'flervalg', 'Hva er forskjellen på levestandard og livskvalitet?', array['Det er det samme', 'Levestandard er materielle forhold, livskvalitet handler om hvordan folk har det', 'Livskvalitet måles bare i penger', 'Levestandard handler bare om helse']::text[], 1, 'Høy levestandard gir ikke automatisk høy livskvalitet.', true, true, 5),
+  ('samfunnskunnskap-vg1:den-nordiske-modellen', 'q07', 'flervalg', 'Hvorfor er høy sysselsetting viktig for den nordiske modellen?', array['Fordi den gir færre skatteinntekter', 'Fordi den gjør velferden unødvendig', 'Fordi velferden finansieres av at mange jobber og betaler skatt', 'Den er ikke viktig']::text[], 2, 'Velferdsstaten er avhengig av skatteinntekter.', true, true, 6),
+  ('samfunnskunnskap-vg1:den-nordiske-modellen', 'q08', 'flervalg', 'Hva er en svakhet ved BNP som mål på et godt samfunn?', array['Det er vanskelig å regne ut', 'Det måler for mye', 'Det er bare norsk', 'Det måler ikke fordeling, fritid eller miljøødeleggelser']::text[], 3, 'Derfor brukes også andre mål, som livskvalitetsundersøkelser.', true, true, 7),
+  ('samfunnskunnskap-vg1:den-nordiske-modellen', 'q09', 'flervalg', 'Når ble folketrygden innført?', array['1967', '1814', '1905', '2001']::text[], 0, 'Folketrygden samlet mange trygdeordninger.', true, false, 8),
+  ('samfunnskunnskap-vg1:den-nordiske-modellen', 'q10', 'flervalg', 'Hva er grønn vekst?', array['Vekst i jordbruket', 'Økonomisk vekst med lavere utslipp og ressursbruk', 'At skogene vokser', 'At BNP synker']::text[], 1, 'Det er omdiskutert om grønn vekst er mulig i stor skala.', true, false, 9),
+  ('samfunnskunnskap-vg1:den-nordiske-modellen', 'm01', 'sant-usant', 'Den nordiske modellen kombinerer markedsøkonomi med en sterk velferdsstat.', array['Sant', 'Usant']::text[], 0, 'Det kalles ofte blandingsøkonomi.', false, true, 10),
+  ('samfunnskunnskap-vg1:den-nordiske-modellen', 'm02', 'sant-usant', 'Mer penger gir alltid like mye mer livskvalitet.', array['Sant', 'Usant']::text[], 1, 'Over et visst nivå gir mer penger mindre økning i livskvalitet.', false, true, 11),
+  ('samfunnskunnskap-vg1:den-nordiske-modellen', 'm03', 'sant-usant', 'Høy tillit er et kjennetegn ved de nordiske landene.', array['Sant', 'Usant']::text[], 0, 'Tillit gjør samarbeid og styring enklere.', false, true, 12),
+  ('samfunnskunnskap-vg1:den-nordiske-modellen', 'm04', 'sant-usant', 'Fattige land har ikke behov for økonomisk vekst.', array['Sant', 'Usant']::text[], 1, 'Vekst er viktig for å løfte folk ut av fattigdom.', false, true, 13),
+  ('samfunnskunnskap-vg1:den-nordiske-modellen', 'm05', 'flervalg', 'Hvilken utfordring henger sammen med at flere blir eldre?', array['Økte utgifter til pensjon, helse og omsorg', 'For mange barnehager', 'For mange arbeidere', 'Lavere skatt']::text[], 0, 'Det blir færre i arbeid per pensjonist.', false, true, 14),
+  ('samfunnskunnskap-vg1:den-nordiske-modellen', 'm06', 'flervalg', 'Hva er organisasjonsgrad?', array['Hvor ryddig en arbeidsplass er', 'Andelen arbeidstakere som er med i en fagforening', 'Antall bedrifter i et land', 'Andelen som stemmer ved valg']::text[], 1, 'Norge har høy organisasjonsgrad sammenlignet med mange land.', false, true, 15),
+  ('samfunnskunnskap-vg1:den-nordiske-modellen', 'm07', 'flervalg', 'Hva finansierer velferdsstaten i Norge?', array['Bare oljefondet', 'Bare gebyrer', 'Først og fremst skatter og avgifter', 'Private donasjoner']::text[], 2, 'Oljeinntekter bidrar også, men skatten er grunnlaget.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('samfunnskunnskap-vg1:den-nordiske-modellen', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Samfunnskunnskap: Næringsliv, innovasjon og lokalsamfunn
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('samfunnskunnskap-vg1:arbeidsliv-og-naeringsliv', 'samfunnskunnskap-vg1', 'arbeidsliv-og-naeringsliv', 'Næringsliv, innovasjon og lokalsamfunn', 'Hvordan næringsgrunnlag, innovasjon og teknologi former arbeidsliv og lokalsamfunn i Norge – fra industristeder og fiskevær til teknologiklynger – og hvordan automatisering, KI og det grønne skiftet endrer jobbene.', array[10]::int[], 8, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('samfunnskunnskap-vg1:arbeidsliv-og-naeringsliv', '## Næringsgrunnlag
+
+**Næringsgrunnlaget** er de næringene og arbeidsplassene et sted lever av. Det avhenger av **naturressurser**, **beliggenhet**, **kompetanse**, **infrastruktur** og **historie**.
+
+- **Kystsamfunn** har ofte fiske, havbruk og fiskeforedling.
+- **Industristeder** vokste fram rundt vannkraft og metallindustri, som **Mo i Rana**, **Årdal** og **Sunndalsøra**.
+- **Oljebyer** som **Stavanger** har vokst med petroleumsnæringen.
+- **Storbyene** har mange arbeidsplasser innen tjenester, offentlig sektor, IT og finans.
+- **Distriktene** har ofte jordbruk, reiseliv og offentlige arbeidsplasser.
+
+Et lokalsamfunn med **ensidig næringsliv** er **sårbart**: Hvis den store bedriften legger ned, kan mange miste jobben samtidig, og folk flytter. Et **variert** næringsliv gir større robusthet.
+
+## Innovasjon
+
+**Innovasjon** betyr å utvikle **nye eller forbedrede** produkter, tjenester eller måter å jobbe på som tas i bruk. Innovasjon skjer i både private bedrifter og offentlig sektor, og kan være alt fra ny teknologi til nye forretningsmodeller. **Gründere** starter nye bedrifter, og **klynger** – der bedrifter, forskningsmiljøer og utdanning samarbeider i samme region – kan gi mye innovasjon. Eksempler er havbruksteknologi, maritim industri og teknologimiljøer rundt universitetene.
+
+## Teknologi endrer arbeidslivet
+
+- **Automatisering** og **roboter** overtar mange rutineoppgaver i industri og lager.
+- **Digitalisering** endrer kontorarbeid, handel og bank – mange tjenester går nå på nett.
+- **Kunstig intelligens (KI)** kan analysere data, skrive tekst og kjenne igjen bilder, og kan endre mange yrker.
+- **Hjemmekontor** og **fleksibelt arbeid** har blitt vanligere.
+
+Teknologien kan gi **høyere produktivitet** og **nye jobber**, men noen jobber **forsvinner**, og kravene til **kompetanse** øker. **Livslang læring** blir derfor viktigere.
+
+## Det grønne skiftet
+
+Overgangen til et samfunn med lavere utslipp krever nye næringer, som **havvind**, **hydrogen**, **batterier**, **karbonfangst** og **grønn skipsfart**. Dette kan gi nye arbeidsplasser – også i lokalsamfunn som i dag er avhengige av olje og gass eller kraftkrevende industri. Samtidig er det usikkert hvor raskt nye næringer kan erstatte de gamle.
+
+## Arbeidslivet i endring
+
+Flere jobber **midlertidig**, som **frilansere** eller via **plattformer** som leveringstjenester. Det gir fleksibilitet, men ofte **svakere rettigheter**. Arbeidsinnvandring har vært viktig for bygg, industri og landbruk. Og mange bransjer, som helse og bygg, mangler **fagarbeidere**.
+
+## Drøfting
+
+Spørsmål å drøfte: Bør staten støtte **distriktsarbeidsplasser**? Hvem vinner og hvem taper på **automatisering**? Hvordan kan lokalsamfunn bli mer **robuste**? Og hvordan sikrer vi **gode arbeidsvilkår** i nye former for arbeid?', '{"label":"Næringsliv og lokalsamfunn","children":[{"label":"Næringsgrunnlag","children":[{"label":"Kyst og havbruk"},{"label":"Industristeder"},{"label":"Storbyer"},{"label":"Sårbarhet"}]},{"label":"Innovasjon","children":[{"label":"Gründere"},{"label":"Klynger"},{"label":"Offentlig sektor"}]},{"label":"Teknologi","children":[{"label":"Automatisering"},{"label":"Digitalisering"},{"label":"KI"}]},{"label":"Grønt skifte","children":[{"label":"Havvind"},{"label":"Hydrogen og batterier"},{"label":"Nye arbeidsplasser"}]},{"label":"Nytt arbeidsliv","children":[{"label":"Plattformarbeid"},{"label":"Mangel på fagarbeidere"},{"label":"Livslang læring"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'samfunnskunnskap-vg1:arbeidsliv-og-naeringsliv';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('samfunnskunnskap-vg1:arbeidsliv-og-naeringsliv', 'Næringsgrunnlag', 'De næringene og arbeidsplassene et sted lever av.', 0),
+  ('samfunnskunnskap-vg1:arbeidsliv-og-naeringsliv', 'Ensidig næringsliv', 'Når et sted er avhengig av én bedrift eller næring.', 1),
+  ('samfunnskunnskap-vg1:arbeidsliv-og-naeringsliv', 'Industristed', 'Sted som vokste fram rundt industri, som Mo i Rana og Årdal.', 2),
+  ('samfunnskunnskap-vg1:arbeidsliv-og-naeringsliv', 'Innovasjon', 'Nye eller forbedrede produkter, tjenester eller arbeidsmåter som tas i bruk.', 3),
+  ('samfunnskunnskap-vg1:arbeidsliv-og-naeringsliv', 'Gründer', 'Person som starter en ny bedrift.', 4),
+  ('samfunnskunnskap-vg1:arbeidsliv-og-naeringsliv', 'Klynge', 'Bedrifter, forskning og utdanning som samarbeider i samme region.', 5),
+  ('samfunnskunnskap-vg1:arbeidsliv-og-naeringsliv', 'Automatisering', 'At maskiner og roboter overtar oppgaver.', 6),
+  ('samfunnskunnskap-vg1:arbeidsliv-og-naeringsliv', 'Digitalisering', 'At prosesser og tjenester flyttes over til digitale løsninger.', 7),
+  ('samfunnskunnskap-vg1:arbeidsliv-og-naeringsliv', 'Kunstig intelligens', 'Teknologi som lar datamaskiner utføre oppgaver som krever en slags intelligens.', 8),
+  ('samfunnskunnskap-vg1:arbeidsliv-og-naeringsliv', 'Produktivitet', 'Hvor mye som produseres per arbeidstime.', 9),
+  ('samfunnskunnskap-vg1:arbeidsliv-og-naeringsliv', 'Livslang læring', 'Å fortsette å lære gjennom hele arbeidslivet.', 10),
+  ('samfunnskunnskap-vg1:arbeidsliv-og-naeringsliv', 'Det grønne skiftet', 'Overgangen til et samfunn med lavere utslipp.', 11),
+  ('samfunnskunnskap-vg1:arbeidsliv-og-naeringsliv', 'Plattformarbeid', 'Arbeid formidlet gjennom apper, for eksempel leveringstjenester.', 12),
+  ('samfunnskunnskap-vg1:arbeidsliv-og-naeringsliv', 'Frilanser', 'Person som tar oppdrag for flere uten fast ansettelse.', 13),
+  ('samfunnskunnskap-vg1:arbeidsliv-og-naeringsliv', 'Robust lokalsamfunn', 'Lokalsamfunn med variert næringsliv som tåler endringer.', 14);
+delete from public.quiz_sporsmal where tema_id = 'samfunnskunnskap-vg1:arbeidsliv-og-naeringsliv';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('samfunnskunnskap-vg1:arbeidsliv-og-naeringsliv', 'q01', 'flervalg', 'Hva er næringsgrunnlaget til et sted?', array['Antall innbyggere', 'De næringene og arbeidsplassene stedet lever av', 'Skatteinntektene', 'Stedets historie']::text[], 1, 'Det avhenger av ressurser, beliggenhet og kompetanse.', true, true, 0),
+  ('samfunnskunnskap-vg1:arbeidsliv-og-naeringsliv', 'q02', 'flervalg', 'Hvorfor er et lokalsamfunn med ensidig næringsliv sårbart?', array['Fordi mange kan miste jobben samtidig hvis den store bedriften legger ned', 'Fordi det har for mange arbeidsplasser', 'Fordi skattene blir for lave', 'Det er ikke sårbart']::text[], 0, 'Et variert næringsliv gir større robusthet.', true, true, 1),
+  ('samfunnskunnskap-vg1:arbeidsliv-og-naeringsliv', 'q03', 'flervalg', 'Hva er innovasjon?', array['Å gjøre ting som før', 'Å kopiere andre', 'Nye eller forbedrede produkter, tjenester eller arbeidsmåter som tas i bruk', 'Å legge ned bedrifter']::text[], 2, 'Innovasjon skjer både i privat og offentlig sektor.', true, true, 2),
+  ('samfunnskunnskap-vg1:arbeidsliv-og-naeringsliv', 'q04', 'flervalg', 'Hva er en klynge i næringslivet?', array['En gruppe konkurrenter som ikke samarbeider', 'Et kjøpesenter', 'En fagforening', 'Bedrifter, forskning og utdanning som samarbeider i samme region']::text[], 3, 'Klynger kan gi mye innovasjon.', true, true, 3),
+  ('samfunnskunnskap-vg1:arbeidsliv-og-naeringsliv', 'q05', 'flervalg', 'Hvilke oppgaver er mest utsatt for automatisering?', array['Rutineoppgaver', 'Omsorg for eldre', 'Kreative oppgaver', 'Ledelse']::text[], 0, 'Roboter og programmer egner seg for gjentakende oppgaver.', true, true, 4),
+  ('samfunnskunnskap-vg1:arbeidsliv-og-naeringsliv', 'q06', 'flervalg', 'Hvilken næring er et eksempel på det grønne skiftet?', array['Kullgruver', 'Havvind', 'Oljeboring', 'Engangsplast']::text[], 1, 'Hydrogen, batterier og karbonfangst er andre eksempler.', true, true, 5),
+  ('samfunnskunnskap-vg1:arbeidsliv-og-naeringsliv', 'q07', 'flervalg', 'Hva er en ulempe med plattformarbeid?', array['Det gir alltid fast ansettelse', 'Det gir høy pensjon', 'Det gir ofte svakere rettigheter', 'Det krever ingen app']::text[], 2, 'Mange er ikke ansatt og har færre rettigheter.', true, true, 6),
+  ('samfunnskunnskap-vg1:arbeidsliv-og-naeringsliv', 'q08', 'flervalg', 'Hvorfor blir livslang læring viktigere?', array['Fordi arbeidslivet aldri endrer seg', 'Fordi skolen blir kortere', 'Fordi alle skal bli lærere', 'Fordi teknologi endrer jobbene og kravene til kompetanse øker']::text[], 3, 'Mange må lære nye ting gjennom hele karrieren.', true, true, 7),
+  ('samfunnskunnskap-vg1:arbeidsliv-og-naeringsliv', 'q09', 'flervalg', 'Hvilket sted vokste fram rundt vannkraft og metallindustri?', array['Mo i Rana', 'Geilo', 'Tromsø sentrum', 'Lofoten']::text[], 0, 'Også Årdal og Sunndalsøra er slike industristeder.', true, false, 8),
+  ('samfunnskunnskap-vg1:arbeidsliv-og-naeringsliv', 'q10', 'flervalg', 'Hva er produktivitet?', array['Antall ansatte', 'Hvor mye som produseres per arbeidstime', 'Lønnsnivået', 'Antall bedrifter']::text[], 1, 'Teknologi kan øke produktiviteten.', true, false, 9),
+  ('samfunnskunnskap-vg1:arbeidsliv-og-naeringsliv', 'm01', 'sant-usant', 'Innovasjon kan også skje i offentlig sektor.', array['Sant', 'Usant']::text[], 0, 'For eksempel digitale tjenester i kommuner og NAV.', false, true, 10),
+  ('samfunnskunnskap-vg1:arbeidsliv-og-naeringsliv', 'm02', 'sant-usant', 'Teknologi fører bare til at jobber forsvinner.', array['Sant', 'Usant']::text[], 1, 'Teknologi skaper også nye jobber.', false, true, 11),
+  ('samfunnskunnskap-vg1:arbeidsliv-og-naeringsliv', 'm03', 'sant-usant', 'Mange bransjer i Norge mangler fagarbeidere.', array['Sant', 'Usant']::text[], 0, 'Særlig helse og bygg.', false, true, 12),
+  ('samfunnskunnskap-vg1:arbeidsliv-og-naeringsliv', 'm04', 'sant-usant', 'Et variert næringsliv gjør et lokalsamfunn mer sårbart.', array['Sant', 'Usant']::text[], 1, 'Et variert næringsliv gir større robusthet.', false, true, 13),
+  ('samfunnskunnskap-vg1:arbeidsliv-og-naeringsliv', 'm05', 'flervalg', 'Hvilken by har vokst med petroleumsnæringen?', array['Stavanger', 'Røros', 'Kautokeino', 'Lillehammer']::text[], 0, 'Stavanger kalles ofte oljehovedstaden.', false, true, 14),
+  ('samfunnskunnskap-vg1:arbeidsliv-og-naeringsliv', 'm06', 'flervalg', 'Hva gjør en gründer?', array['Leder en fagforening', 'Starter en ny bedrift', 'Jobber i staten', 'Underviser på universitet']::text[], 1, 'Gründere er viktige for innovasjon.', false, true, 15),
+  ('samfunnskunnskap-vg1:arbeidsliv-og-naeringsliv', 'm07', 'flervalg', 'Hvilket spørsmål er relevant å drøfte om automatisering?', array['Hvilken farge robotene har', 'Hvor mange roboter som finnes i Japan', 'Hvem vinner og hvem taper på automatisering', 'Om roboter kan sove']::text[], 2, 'Automatisering har ulike konsekvenser for ulike grupper.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('samfunnskunnskap-vg1:arbeidsliv-og-naeringsliv', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Samfunnskunnskap: Medborgerskap, politiske systemer og makt
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('samfunnskunnskap-vg1:politikk-makt-og-medborgerskap', 'samfunnskunnskap-vg1', 'politikk-makt-og-medborgerskap', 'Medborgerskap, politiske systemer og makt', 'Hva det innebærer å være medborger, hvordan politiske systemer er organisert i Norge, USA, Kina og andre land – parlamentarisme, presidentstyre og autoritære styresett – og hvordan ulike former for makt påvirker enkeltpersoner og samfunn.', array[11, 12]::int[], 9, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('samfunnskunnskap-vg1:politikk-makt-og-medborgerskap', '## Medborgerskap
+
+Å være **medborger** betyr å være et **aktivt** medlem av samfunnet – ikke bare å ha rettigheter, men også å **delta** og ta **ansvar**. Du kan være medborger ved å
+
+- **stemme** ved valg (fra 18 år)
+- engasjere deg i **elevråd**, **ungdomsråd**, **partier** eller **organisasjoner**
+- skrive **leserinnlegg**, delta i **debatter** eller **demonstrasjoner**
+- gjøre **frivillig arbeid**
+- holde deg **informert** og respektere andres rettigheter
+
+## Politiske systemer
+
+**Demokrati** betyr folkestyre. Kjennetegn er **frie valg**, **ytringsfrihet**, **maktfordeling**, **rettsstat** og **vern av minoriteter**.
+
+**Norge – parlamentarisme og konstitusjonelt monarki**
+- **Stortinget** (lovgivende makt) vedtar lover og budsjett.
+- **Regjeringen** (utøvende makt) må ha Stortingets **tillit** – dette er **parlamentarisme**, innført i **1884**.
+- **Domstolene** (dømmende makt) er uavhengige.
+- Kongen har en **symbolsk** rolle.
+
+**USA – presidentstyre**
+- **Presidenten** velges for fire år og leder den utøvende makten.
+- **Kongressen** (Representantenes hus og Senatet) vedtar lover.
+- **Høyesterett** kan oppheve lover som bryter med grunnloven.
+- Et system av **«checks and balances»** skal hindre at noen får for mye makt.
+
+**Autoritære styresett**
+- **Kina**: ettpartistat der **Kinas kommunistiske parti** har all makt. Ingen frie valg, streng sensur og overvåking.
+- **Russland**: formelt valg, men opposisjonen **undertrykkes**, mediene kontrolleres og valgene er ikke frie.
+- **Iran**: **teokrati**, der religiøse ledere har øverste makt.
+
+Mange land er et sted **mellom** fullt demokrati og diktatur. Organisasjoner som **Freedom House** og **V-Dem** måler hvor demokratiske land er.
+
+## Hva er makt?
+
+Sosiologen **Max Weber** definerte **makt** som evnen til å **få gjennomført sin vilje**, også mot andres motstand. Makt kan være
+
+- **politisk makt** – å vedta lover og styre
+- **økonomisk makt** – å eie og kontrollere ressurser og bedrifter
+- **mediemakt** – å bestemme hva folk får vite og snakker om
+- **ideologisk makt** – å påvirke hva folk mener er normalt og riktig
+- **makt i relasjoner** – i familien, på skolen og blant venner
+
+**Legitim makt** er makt som folk godtar som rettmessig, for eksempel en valgt regjering. **Autoritet** er makt basert på respekt eller posisjon.
+
+## Makt og avmakt
+
+Makt kan brukes til å **løse problemer** og **beskytte** svake, men også **misbrukes**. **Maktmisbruk** kan være korrupsjon, sensur, trakassering eller at store selskaper presser fram fordeler. Noen grupper opplever **avmakt** – at de ikke har innflytelse. **Maktfordeling**, **frie medier**, **åpenhet** og **rettssikkerhet** er viktige for å begrense maktmisbruk.', '{"label":"Politikk og makt","children":[{"label":"Medborgerskap","children":[{"label":"Stemme"},{"label":"Organisasjoner"},{"label":"Debatt"},{"label":"Frivillighet"}]},{"label":"Norge","children":[{"label":"Parlamentarisme"},{"label":"Stortinget"},{"label":"Konstitusjonelt monarki"}]},{"label":"Andre systemer","children":[{"label":"USA: presidentstyre"},{"label":"Kina: ettpartistat"},{"label":"Iran: teokrati"}]},{"label":"Makt","children":[{"label":"Weber"},{"label":"Politisk og økonomisk"},{"label":"Mediemakt"},{"label":"Ideologisk"}]},{"label":"Kontroll","children":[{"label":"Maktfordeling"},{"label":"Frie medier"},{"label":"Rettssikkerhet"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'samfunnskunnskap-vg1:politikk-makt-og-medborgerskap';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('samfunnskunnskap-vg1:politikk-makt-og-medborgerskap', 'Medborger', 'Et aktivt medlem av samfunnet som deltar og tar ansvar.', 0),
+  ('samfunnskunnskap-vg1:politikk-makt-og-medborgerskap', 'Demokrati', 'Folkestyre med frie valg, ytringsfrihet og maktfordeling.', 1),
+  ('samfunnskunnskap-vg1:politikk-makt-og-medborgerskap', 'Maktfordeling', 'Makten deles mellom lovgivende, utøvende og dømmende makt.', 2),
+  ('samfunnskunnskap-vg1:politikk-makt-og-medborgerskap', 'Parlamentarisme', 'Regjeringen må ha Stortingets tillit; innført i Norge i 1884.', 3),
+  ('samfunnskunnskap-vg1:politikk-makt-og-medborgerskap', 'Konstitusjonelt monarki', 'Kongen har en symbolsk rolle innenfor grunnloven.', 4),
+  ('samfunnskunnskap-vg1:politikk-makt-og-medborgerskap', 'Presidentstyre', 'Presidenten velges direkte og leder den utøvende makten, som i USA.', 5),
+  ('samfunnskunnskap-vg1:politikk-makt-og-medborgerskap', 'Checks and balances', 'System i USA der maktene kontrollerer hverandre.', 6),
+  ('samfunnskunnskap-vg1:politikk-makt-og-medborgerskap', 'Kongressen', 'USAs lovgivende forsamling med Representantenes hus og Senatet.', 7),
+  ('samfunnskunnskap-vg1:politikk-makt-og-medborgerskap', 'Ettpartistat', 'Stat der bare ett parti har makt, som Kina.', 8),
+  ('samfunnskunnskap-vg1:politikk-makt-og-medborgerskap', 'Teokrati', 'Styre der religiøse ledere har øverste makt, som i Iran.', 9),
+  ('samfunnskunnskap-vg1:politikk-makt-og-medborgerskap', 'Max Weber om makt', 'Evnen til å få gjennomført sin vilje, også mot andres motstand.', 10),
+  ('samfunnskunnskap-vg1:politikk-makt-og-medborgerskap', 'Mediemakt', 'Makt til å bestemme hva folk får vite og snakker om.', 11),
+  ('samfunnskunnskap-vg1:politikk-makt-og-medborgerskap', 'Legitim makt', 'Makt som folk godtar som rettmessig.', 12),
+  ('samfunnskunnskap-vg1:politikk-makt-og-medborgerskap', 'Avmakt', 'Følelsen av å ikke ha innflytelse.', 13),
+  ('samfunnskunnskap-vg1:politikk-makt-og-medborgerskap', 'Maktmisbruk', 'At makt brukes på urettmessig måte, som korrupsjon eller sensur.', 14);
+delete from public.quiz_sporsmal where tema_id = 'samfunnskunnskap-vg1:politikk-makt-og-medborgerskap';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('samfunnskunnskap-vg1:politikk-makt-og-medborgerskap', 'q01', 'flervalg', 'Hva betyr parlamentarisme?', array['At kongen bestemmer', 'At regjeringen må ha Stortingets tillit', 'At presidenten velges direkte', 'At domstolene lager lover']::text[], 1, 'Parlamentarismen ble innført i Norge i 1884.', true, true, 0),
+  ('samfunnskunnskap-vg1:politikk-makt-og-medborgerskap', 'q02', 'flervalg', 'Hvem leder den utøvende makten i USA?', array['Presidenten', 'Kongressen', 'Høyesterett', 'Senatet']::text[], 0, 'Presidenten velges for fire år.', true, true, 1),
+  ('samfunnskunnskap-vg1:politikk-makt-og-medborgerskap', 'q03', 'flervalg', 'Hva kjennetegner Kina politisk?', array['Flerpartisystem med frie valg', 'Konstitusjonelt monarki', 'Ettpartistat der kommunistpartiet har all makt', 'Presidentstyre som i USA']::text[], 2, 'Det er streng sensur og overvåking.', true, true, 2),
+  ('samfunnskunnskap-vg1:politikk-makt-og-medborgerskap', 'q04', 'flervalg', 'Hvordan definerte Max Weber makt?', array['Evnen til å tjene penger', 'Evnen til å vinne valg', 'Evnen til å skrive lover', 'Evnen til å få gjennomført sin vilje, også mot andres motstand']::text[], 3, 'Definisjonen brukes mye i samfunnsfag.', true, true, 3),
+  ('samfunnskunnskap-vg1:politikk-makt-og-medborgerskap', 'q05', 'flervalg', 'Hva er et teokrati?', array['Styre der religiøse ledere har øverste makt', 'Styre av militæret', 'Styre av folket', 'Styre av en konge uten makt']::text[], 0, 'Iran er et eksempel.', true, true, 4),
+  ('samfunnskunnskap-vg1:politikk-makt-og-medborgerskap', 'q06', 'flervalg', 'Hva er formålet med «checks and balances» i USA?', array['Å gi presidenten all makt', 'Å hindre at noen får for mye makt', 'Å redusere antall valg', 'Å avskaffe domstolene']::text[], 1, 'Maktene kontrollerer hverandre.', true, true, 5),
+  ('samfunnskunnskap-vg1:politikk-makt-og-medborgerskap', 'q07', 'flervalg', 'Hva er mediemakt?', array['Makt til å vedta lover', 'Makt over militæret', 'Makt til å bestemme hva folk får vite og snakker om', 'Makt over økonomien']::text[], 2, 'Mediene kalles ofte den fjerde statsmakt.', true, true, 6),
+  ('samfunnskunnskap-vg1:politikk-makt-og-medborgerskap', 'q08', 'flervalg', 'Hvilken av disse er en måte å være aktiv medborger på?', array['Å aldri følge med på nyheter', 'Å ignorere valg', 'Å bare tenke på seg selv', 'Å engasjere seg i elevråd eller organisasjoner']::text[], 3, 'Medborgerskap handler om deltakelse og ansvar.', true, true, 7),
+  ('samfunnskunnskap-vg1:politikk-makt-og-medborgerskap', 'q09', 'flervalg', 'Hva er legitim makt?', array['Makt som folk godtar som rettmessig', 'Makt tatt med vold', 'Makt uten ansvar', 'Makt over naturen']::text[], 0, 'En valgt regjering har legitim makt.', true, false, 8),
+  ('samfunnskunnskap-vg1:politikk-makt-og-medborgerskap', 'q10', 'flervalg', 'Hvilket tiltak begrenser maktmisbruk?', array['Sensur', 'Frie medier og åpenhet', 'At én person får all makt', 'Å avskaffe valg']::text[], 1, 'Maktfordeling og rettssikkerhet er også viktige.', true, false, 9),
+  ('samfunnskunnskap-vg1:politikk-makt-og-medborgerskap', 'm01', 'sant-usant', 'Kongen i Norge har i praksis en symbolsk rolle.', array['Sant', 'Usant']::text[], 0, 'Norge er et konstitusjonelt monarki.', false, true, 10),
+  ('samfunnskunnskap-vg1:politikk-makt-og-medborgerskap', 'm02', 'sant-usant', 'Russland har frie og rettferdige valg med en sterk opposisjon.', array['Sant', 'Usant']::text[], 1, 'Opposisjonen undertrykkes og valgene er ikke frie.', false, true, 11),
+  ('samfunnskunnskap-vg1:politikk-makt-og-medborgerskap', 'm03', 'sant-usant', 'Makt finnes også i relasjoner i familien og på skolen.', array['Sant', 'Usant']::text[], 0, 'Makt handler ikke bare om politikk.', false, true, 12),
+  ('samfunnskunnskap-vg1:politikk-makt-og-medborgerskap', 'm04', 'sant-usant', 'I USA kan ikke Høyesterett oppheve lover.', array['Sant', 'Usant']::text[], 1, 'Høyesterett kan oppheve lover som bryter med grunnloven.', false, true, 13),
+  ('samfunnskunnskap-vg1:politikk-makt-og-medborgerskap', 'm05', 'flervalg', 'Hvilke to kamre har Kongressen i USA?', array['Stortinget og Lagtinget', 'Representantenes hus og Senatet', 'Overhuset og Underhuset', 'Rådet og Parlamentet']::text[], 1, 'Sammen vedtar de lover.', false, true, 14),
+  ('samfunnskunnskap-vg1:politikk-makt-og-medborgerskap', 'm06', 'flervalg', 'Hva er avmakt?', array['Følelsen av å ikke ha innflytelse', 'Mye makt', 'En type valg', 'Et politisk parti']::text[], 0, 'Avmakt kan føre til lav deltakelse.', false, true, 15),
+  ('samfunnskunnskap-vg1:politikk-makt-og-medborgerskap', 'm07', 'flervalg', 'Hva måler organisasjoner som Freedom House og V-Dem?', array['Økonomisk vekst', 'Befolkningsvekst', 'Hvor demokratiske land er', 'Klimautslipp']::text[], 2, 'Mange land ligger mellom demokrati og diktatur.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('samfunnskunnskap-vg1:politikk-makt-og-medborgerskap', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Samfunnskunnskap: Menneskerettigheter, rasisme og ytringsfrihet
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('samfunnskunnskap-vg1:menneskerettigheter-og-ytringsfrihet', 'samfunnskunnskap-vg1', 'menneskerettigheter-og-ytringsfrihet', 'Menneskerettigheter, rasisme og ytringsfrihet', 'Grunnlaget for menneskerettighetene og eksempler på brudd nasjonalt og globalt, årsaker til og tiltak mot rasisme, diskriminering og hatefulle ytringer – og hvor grensene for ytringsfriheten går.', array[13, 14]::int[], 10, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('samfunnskunnskap-vg1:menneskerettigheter-og-ytringsfrihet', '## Grunnlaget for menneskerettighetene
+
+**Menneskerettighetene** bygger på ideen om at alle mennesker har **lik verdi** og visse rettigheter bare fordi de er mennesker. Etter grusomhetene under andre verdenskrig vedtok FN **Verdenserklæringen om menneskerettigheter** **10. desember 1948**. Senere har konvensjoner gjort rettighetene **juridisk bindende**:
+
+- **Den europeiske menneskerettskonvensjonen (EMK)** fra 1950, med **Den europeiske menneskerettsdomstolen** i Strasbourg
+- FNs konvensjoner om **sivile og politiske** og om **økonomiske, sosiale og kulturelle** rettigheter
+- **Barnekonvensjonen** fra 1989
+
+I Norge er de viktigste konvensjonene gjort til norsk lov gjennom **menneskerettsloven**, og siden **2014** har **Grunnloven** et eget kapittel om menneskerettigheter.
+
+Man skiller ofte mellom **sivile og politiske** rettigheter (ytringsfrihet, stemmerett, rettferdig rettergang) og **økonomiske, sosiale og kulturelle** rettigheter (utdanning, helse, arbeid).
+
+## Brudd på menneskerettighetene
+
+- **Globalt**: forfølgelse av politiske motstandere, **tortur**, **dødsstraff**, undertrykkelse av **minoriteter** – som uigurene i Kina – **barnearbeid**, sensur og angrep på sivile i **krig**.
+- **Nasjonalt**: Også Norge har blitt **dømt** i Den europeiske menneskerettsdomstolen, blant annet i saker om **barnevern**. Andre kritiserte forhold er bruk av **isolasjon** i fengsler og behandlingen av **asylsøkere**.
+
+## Rasisme og diskriminering
+
+**Rasisme** er å se ned på eller behandle mennesker dårligere på grunn av **hudfarge**, **etnisitet**, **nasjonalitet** eller **religion**. **Diskriminering** er urettferdig forskjellsbehandling – for eksempel at søkere med utenlandsk navn blir kalt inn til **færre jobbintervjuer**.
+
+**Årsaker** kan være **fordommer**, **stereotypier**, frykt for det ukjente, **«vi og dem»-tenkning**, dårlige økonomiske tider og politisk retorikk. **Strukturell rasisme** er når regler og praksis i samfunnet gir dårligere muligheter for noen grupper, selv om ingen har ment det slik.
+
+## Hatefulle ytringer
+
+**Hatefulle ytringer** er ytringer som truer eller håner mennesker på grunn av for eksempel hudfarge, religion, seksuell orientering, kjønnsidentitet eller funksjonsnedsettelse. De grove er **straffbare** etter **straffeloven § 185**. Mye hets skjer i **sosiale medier**.
+
+## Ytringsfrihet og grensene
+
+**Ytringsfriheten** er vernet i **Grunnloven § 100**. Den er en **grunnpilar** i demokratiet: Uten den kan vi ikke kritisere makthavere eller diskutere fritt. Ytringsfriheten gjelder også ytringer som er **ubehagelige** eller **provoserende**.
+
+Men den er **ikke grenseløs**. Det er for eksempel ikke lov med **trusler**, **grove hatefulle ytringer**, **ærekrenkelser** eller å dele **private bilder** uten samtykke. Debatten handler om **hvor** grensen skal gå: Noen mener hatefulle ytringer bør møtes med **motargumenter** heller enn straff. Andre mener hets kan **skremme** folk fra å delta i debatten – og dermed svekke ytringsfriheten for dem som rammes.
+
+## Tiltak mot rasisme og hat
+
+**Kunnskap** og **møter** mellom mennesker, **lover** mot diskriminering, **anonymiserte** jobbsøknader, **moderering** i sosiale medier, **si fra** når noen blir hetset, og at **ledere** og **mediene** tar ansvar for språkbruken.', '{"label":"Menneskerettigheter og ytringsfrihet","children":[{"label":"Grunnlag","children":[{"label":"Lik verdi"},{"label":"Verdenserklæringen 1948"},{"label":"EMK og Barnekonvensjonen"},{"label":"Grunnloven 2014"}]},{"label":"Brudd","children":[{"label":"Globalt"},{"label":"Nasjonalt"}]},{"label":"Rasisme","children":[{"label":"Fordommer"},{"label":"Diskriminering"},{"label":"Strukturell rasisme"}]},{"label":"Hatefulle ytringer","children":[{"label":"Straffeloven § 185"},{"label":"Sosiale medier"}]},{"label":"Ytringsfrihet","children":[{"label":"Grunnloven § 100"},{"label":"Grenser"},{"label":"Debatt"},{"label":"Tiltak"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'samfunnskunnskap-vg1:menneskerettigheter-og-ytringsfrihet';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('samfunnskunnskap-vg1:menneskerettigheter-og-ytringsfrihet', 'Menneskerettigheter', 'Rettigheter alle har fordi de er mennesker.', 0),
+  ('samfunnskunnskap-vg1:menneskerettigheter-og-ytringsfrihet', 'Verdenserklæringen', 'FNs erklæring om menneskerettigheter, vedtatt 10. desember 1948.', 1),
+  ('samfunnskunnskap-vg1:menneskerettigheter-og-ytringsfrihet', 'EMK', 'Den europeiske menneskerettskonvensjonen fra 1950.', 2),
+  ('samfunnskunnskap-vg1:menneskerettigheter-og-ytringsfrihet', 'Barnekonvensjonen', 'FN-konvensjon om barns rettigheter fra 1989.', 3),
+  ('samfunnskunnskap-vg1:menneskerettigheter-og-ytringsfrihet', 'Menneskerettsloven', 'Norsk lov som gjør sentrale konvensjoner til norsk lov.', 4),
+  ('samfunnskunnskap-vg1:menneskerettigheter-og-ytringsfrihet', 'Grunnloven 2014', 'Fikk eget kapittel om menneskerettigheter.', 5),
+  ('samfunnskunnskap-vg1:menneskerettigheter-og-ytringsfrihet', 'Sivile og politiske rettigheter', 'For eksempel ytringsfrihet og stemmerett.', 6),
+  ('samfunnskunnskap-vg1:menneskerettigheter-og-ytringsfrihet', 'Økonomiske, sosiale og kulturelle rettigheter', 'For eksempel utdanning, helse og arbeid.', 7),
+  ('samfunnskunnskap-vg1:menneskerettigheter-og-ytringsfrihet', 'Rasisme', 'Å behandle mennesker dårligere på grunn av hudfarge, etnisitet eller religion.', 8),
+  ('samfunnskunnskap-vg1:menneskerettigheter-og-ytringsfrihet', 'Diskriminering', 'Urettferdig forskjellsbehandling.', 9),
+  ('samfunnskunnskap-vg1:menneskerettigheter-og-ytringsfrihet', 'Strukturell rasisme', 'Når regler og praksis gir dårligere muligheter for noen grupper.', 10),
+  ('samfunnskunnskap-vg1:menneskerettigheter-og-ytringsfrihet', 'Hatefulle ytringer', 'Ytringer som truer eller håner mennesker på grunn av gruppetilhørighet.', 11),
+  ('samfunnskunnskap-vg1:menneskerettigheter-og-ytringsfrihet', 'Straffeloven § 185', 'Paragrafen som forbyr grove hatefulle ytringer.', 12),
+  ('samfunnskunnskap-vg1:menneskerettigheter-og-ytringsfrihet', 'Grunnloven § 100', 'Paragrafen som verner ytringsfriheten.', 13),
+  ('samfunnskunnskap-vg1:menneskerettigheter-og-ytringsfrihet', 'Grenser for ytringsfriheten', 'Blant annet trusler, grove hatefulle ytringer og ærekrenkelser.', 14);
+delete from public.quiz_sporsmal where tema_id = 'samfunnskunnskap-vg1:menneskerettigheter-og-ytringsfrihet';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('samfunnskunnskap-vg1:menneskerettigheter-og-ytringsfrihet', 'q01', 'flervalg', 'Når ble Verdenserklæringen om menneskerettigheter vedtatt?', array['1814', '1948', '1989', '2014']::text[], 1, 'Den ble vedtatt etter andre verdenskrig.', true, true, 0),
+  ('samfunnskunnskap-vg1:menneskerettigheter-og-ytringsfrihet', 'q02', 'flervalg', 'Hvilken paragraf i Grunnloven verner ytringsfriheten?', array['§ 100', '§ 185', '§ 108', '§ 1']::text[], 0, 'Straffeloven § 185 forbyr grove hatefulle ytringer.', true, true, 1),
+  ('samfunnskunnskap-vg1:menneskerettigheter-og-ytringsfrihet', 'q03', 'flervalg', 'Hva er strukturell rasisme?', array['Rasisme i bygninger', 'En enkelt persons fordommer', 'Når regler og praksis gir dårligere muligheter for noen grupper', 'Rasisme i historiebøker']::text[], 2, 'Det kan skje uten at noen har ment det slik.', true, true, 2),
+  ('samfunnskunnskap-vg1:menneskerettigheter-og-ytringsfrihet', 'q04', 'flervalg', 'Hvilken rettighet er en sivil og politisk rettighet?', array['Retten til helse', 'Retten til utdanning', 'Retten til arbeid', 'Ytringsfriheten']::text[], 3, 'Stemmerett og rettferdig rettergang er andre eksempler.', true, true, 3),
+  ('samfunnskunnskap-vg1:menneskerettigheter-og-ytringsfrihet', 'q05', 'flervalg', 'Hvor avgjøres saker om brudd på EMK?', array['I Den europeiske menneskerettsdomstolen i Strasbourg', 'I FNs sikkerhetsråd', 'I Stortinget', 'I Høyesterett i USA']::text[], 0, 'Norge har blitt dømt der, blant annet i barnevernssaker.', true, true, 4),
+  ('samfunnskunnskap-vg1:menneskerettigheter-og-ytringsfrihet', 'q06', 'flervalg', 'Er det lov å si ting som er ubehagelige eller provoserende i Norge?', array['Nei, aldri', 'Ja, ytringsfriheten gjelder også slike ytringer, men ikke trusler og grove hatytringer', 'Bare for politikere', 'Bare på papir']::text[], 1, 'Ytringsfriheten har grenser, men de er snevre.', true, true, 5),
+  ('samfunnskunnskap-vg1:menneskerettigheter-og-ytringsfrihet', 'q07', 'flervalg', 'Hva er et eksempel på diskriminering i arbeidslivet?', array['At alle får samme lønn', 'At man må ha utdanning til en jobb', 'At søkere med utenlandsk navn blir kalt inn til færre intervjuer', 'At det er intervjuer']::text[], 2, 'Forskning har vist slik diskriminering.', true, true, 6),
+  ('samfunnskunnskap-vg1:menneskerettigheter-og-ytringsfrihet', 'q08', 'flervalg', 'Hvilket argument brukes for strengere grenser mot hatefulle ytringer?', array['Alle ytringer er like viktige', 'Motargumenter er alltid nok', 'Straff er alltid feil', 'Hets kan skremme folk fra å delta i debatten']::text[], 3, 'Andre mener hat bør møtes med motargumenter.', true, true, 7),
+  ('samfunnskunnskap-vg1:menneskerettigheter-og-ytringsfrihet', 'q09', 'flervalg', 'Når ble Barnekonvensjonen vedtatt?', array['1989', '1948', '1950', '2014']::text[], 0, 'Den gir barn egne rettigheter.', true, false, 8),
+  ('samfunnskunnskap-vg1:menneskerettigheter-og-ytringsfrihet', 'q10', 'flervalg', 'Hvilket tiltak kan motvirke diskriminering ved ansettelser?', array['Å kreve bilde i søknaden', 'Anonymiserte jobbsøknader', 'Å spørre om religion', 'Å bare ansette bekjente']::text[], 1, 'Da vurderes søkeren ut fra kompetanse.', true, false, 9),
+  ('samfunnskunnskap-vg1:menneskerettigheter-og-ytringsfrihet', 'm01', 'sant-usant', 'Norge har blitt dømt i Den europeiske menneskerettsdomstolen.', array['Sant', 'Usant']::text[], 0, 'Blant annet i flere barnevernssaker.', false, true, 10),
+  ('samfunnskunnskap-vg1:menneskerettigheter-og-ytringsfrihet', 'm02', 'sant-usant', 'Ytringsfriheten gir rett til å true andre.', array['Sant', 'Usant']::text[], 1, 'Trusler er ikke vernet av ytringsfriheten.', false, true, 11),
+  ('samfunnskunnskap-vg1:menneskerettigheter-og-ytringsfrihet', 'm03', 'sant-usant', 'Retten til utdanning er en sosial rettighet.', array['Sant', 'Usant']::text[], 0, 'Den hører til de økonomiske, sosiale og kulturelle rettighetene.', false, true, 12),
+  ('samfunnskunnskap-vg1:menneskerettigheter-og-ytringsfrihet', 'm04', 'sant-usant', 'Verdenserklæringen ble vedtatt før andre verdenskrig.', array['Sant', 'Usant']::text[], 1, 'Den ble vedtatt i 1948, etter krigen.', false, true, 13),
+  ('samfunnskunnskap-vg1:menneskerettigheter-og-ytringsfrihet', 'm05', 'flervalg', 'Hvilken lov gjør sentrale menneskerettighetskonvensjoner til norsk lov?', array['Menneskerettsloven', 'Opplæringsloven', 'Straffeloven', 'Arbeidsmiljøloven']::text[], 0, 'Konvensjonene går foran annen lov ved motstrid.', false, true, 14),
+  ('samfunnskunnskap-vg1:menneskerettigheter-og-ytringsfrihet', 'm06', 'flervalg', 'Hva kan være en årsak til rasisme?', array['Kunnskap om andre kulturer', 'Fordommer og «vi og dem»-tenkning', 'Møter mellom mennesker', 'Lover mot diskriminering']::text[], 1, 'De andre alternativene motvirker rasisme.', false, true, 15),
+  ('samfunnskunnskap-vg1:menneskerettigheter-og-ytringsfrihet', 'm07', 'flervalg', 'Hvorfor er ytringsfriheten viktig i et demokrati?', array['Fordi den gir rett til å true andre', 'Fordi den gjør alle enige', 'Fordi den gjør det mulig å kritisere makthavere og diskutere fritt', 'Fordi den forbyr kritikk']::text[], 2, 'Ytringsfriheten er en grunnpilar i demokratiet.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('samfunnskunnskap-vg1:menneskerettigheter-og-ytringsfrihet', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Samfunnskunnskap: Å analysere en konflikt eller utfordring
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('samfunnskunnskap-vg1:konflikter-og-utfordringer', 'samfunnskunnskap-vg1', 'konflikter-og-utfordringer', 'Å analysere en konflikt eller utfordring', 'En framgangsmåte for å utforske en utfordring eller konflikt på lokalt, nasjonalt eller globalt nivå – parter, årsaker, interesser, maktforhold og konsekvenser for ulike grupper – og hvordan konflikter kan håndteres og løses.', array[15]::int[], 11, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('samfunnskunnskap-vg1:konflikter-og-utfordringer', '## Konflikter og utfordringer
+
+En **konflikt** oppstår når parter har **uforenlige mål eller interesser**. En **utfordring** kan være et samfunnsproblem som ikke nødvendigvis har tydelige motparter, som klimaendringer eller ensomhet. Konflikter finnes på alle nivåer:
+
+- **Lokalt**: nedleggelse av en skole, bompenger, vindkraft i nærområdet
+- **Nasjonalt**: fordeling av velferd, innvandringspolitikk, rovdyrpolitikk
+- **Globalt**: kriger, klimaforhandlinger, handelskonflikter
+
+## En analysemodell
+
+**1. Hva handler konflikten om?**
+Beskriv saken kort. Er det en konflikt om **ressurser** (land, vann, penger), **makt**, **identitet** (religion, etnisitet) eller **verdier**?
+
+**2. Hvem er partene?**
+Hvem er **hovedpartene**, og hvem er **tredjeparter** – for eksempel andre stater, FN eller organisasjoner?
+
+**3. Årsaker**
+Skill mellom **bakenforliggende årsaker** (historie, fattigdom, ulik fordeling) og **utløsende årsaker** (en hendelse som startet konflikten).
+
+**4. Interesser og argumenter**
+Hva vil partene oppnå? Hvilke argumenter bruker de? Hva har de å **vinne** eller **tape**?
+
+**5. Maktforhold**
+Hvem har mest **økonomisk**, **militær** eller **politisk** makt? Hvem har **mediemakt** og får fortelle sin versjon?
+
+**6. Konsekvenser for ulike grupper**
+Konflikter rammer **ulikt**. I kriger rammes ofte **sivile**, **barn**, **kvinner**, **eldre** og **minoriteter** hardest. En lokal konflikt om en skolenedleggelse rammer familier, lærere og bygda på forskjellige måter.
+
+**7. Løsninger**
+Hvordan kan konflikten **håndteres** eller **løses**? Eksempler er **forhandlinger**, **mekling**, **kompromisser**, **rettssaker**, **valg**, **sanksjoner** og **fredsoperasjoner**. Norge har for eksempel vært **tilrettelegger** i flere fredsprosesser.
+
+## Eskalering og deeskalering
+
+Konflikter kan **eskalere** – bli mer alvorlige – når partene slutter å snakke sammen, ser hverandre som fiender og tyr til trusler eller vold. De kan **deeskaleres** gjennom dialog, tillitsskapende tiltak og hjelp fra tredjeparter.
+
+## Eksempler
+
+- **Krigen i Ukraina**: Russlands fullskala invasjon **24. februar 2022** har gitt store tap av menneskeliv, millioner på flukt og konsekvenser for energi og matpriser i hele verden.
+- **Klimaendringer**: en global utfordring der landene har ulike interesser – rike land med store historiske utslipp, fattige land som rammes hardt, og land som lever av fossil energi.
+- **Arealkonflikter i Norge**, som vindkraft i reinbeiteområder.
+
+## Kildekritikk
+
+I konflikter er **informasjon** ofte et **våpen**. Partene sprer sin versjon, og **propaganda** og **desinformasjon** er vanlig. Bruk **flere kilder** fra ulike sider, sjekk hvem som står bak, og vær forsiktig med ubekreftede bilder og videoer.', '{"label":"Analysere en konflikt","children":[{"label":"Nivåer","children":[{"label":"Lokalt"},{"label":"Nasjonalt"},{"label":"Globalt"}]},{"label":"Analyse","children":[{"label":"Hva handler det om?"},{"label":"Parter"},{"label":"Årsaker"},{"label":"Interesser"}]},{"label":"Makt og konsekvenser","children":[{"label":"Maktforhold"},{"label":"Sivile og sårbare grupper"}]},{"label":"Utvikling","children":[{"label":"Eskalering"},{"label":"Deeskalering"}]},{"label":"Løsninger","children":[{"label":"Forhandlinger og mekling"},{"label":"Kompromiss"},{"label":"Sanksjoner"},{"label":"Kildekritikk"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'samfunnskunnskap-vg1:konflikter-og-utfordringer';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('samfunnskunnskap-vg1:konflikter-og-utfordringer', 'Konflikt', 'Når parter har uforenlige mål eller interesser.', 0),
+  ('samfunnskunnskap-vg1:konflikter-og-utfordringer', 'Hovedparter', 'De som står direkte mot hverandre i en konflikt.', 1),
+  ('samfunnskunnskap-vg1:konflikter-og-utfordringer', 'Tredjepart', 'Aktør utenfor konflikten som påvirker den, som FN.', 2),
+  ('samfunnskunnskap-vg1:konflikter-og-utfordringer', 'Bakenforliggende årsaker', 'Dypere årsaker som historie, fattigdom og ulik fordeling.', 3),
+  ('samfunnskunnskap-vg1:konflikter-og-utfordringer', 'Utløsende årsak', 'En hendelse som startet konflikten.', 4),
+  ('samfunnskunnskap-vg1:konflikter-og-utfordringer', 'Ressurskonflikt', 'Konflikt om land, vann, penger eller andre ressurser.', 5),
+  ('samfunnskunnskap-vg1:konflikter-og-utfordringer', 'Identitetskonflikt', 'Konflikt knyttet til religion, etnisitet eller nasjonalitet.', 6),
+  ('samfunnskunnskap-vg1:konflikter-og-utfordringer', 'Maktforhold', 'Hvem som har mest økonomisk, militær, politisk og mediemakt.', 7),
+  ('samfunnskunnskap-vg1:konflikter-og-utfordringer', 'Eskalering', 'At en konflikt blir mer alvorlig.', 8),
+  ('samfunnskunnskap-vg1:konflikter-og-utfordringer', 'Deeskalering', 'At en konflikt blir mindre alvorlig.', 9),
+  ('samfunnskunnskap-vg1:konflikter-og-utfordringer', 'Mekling', 'At en nøytral tredjepart hjelper partene å finne en løsning.', 10),
+  ('samfunnskunnskap-vg1:konflikter-og-utfordringer', 'Kompromiss', 'Løsning der begge parter gir litt.', 11),
+  ('samfunnskunnskap-vg1:konflikter-og-utfordringer', 'Sanksjoner', 'Straffetiltak, for eksempel handelsrestriksjoner, mot en stat.', 12),
+  ('samfunnskunnskap-vg1:konflikter-og-utfordringer', 'Propaganda', 'Ensidig informasjon som skal påvirke holdninger.', 13),
+  ('samfunnskunnskap-vg1:konflikter-og-utfordringer', '24. februar 2022', 'Russland startet fullskala invasjon av Ukraina.', 14);
+delete from public.quiz_sporsmal where tema_id = 'samfunnskunnskap-vg1:konflikter-og-utfordringer';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('samfunnskunnskap-vg1:konflikter-og-utfordringer', 'q01', 'flervalg', 'Hva er en konflikt?', array['En uenighet uten betydning', 'Når parter har uforenlige mål eller interesser', 'En diskusjon mellom venner', 'En type krig']::text[], 1, 'Konflikter kan være alt fra lokale til globale.', true, true, 0),
+  ('samfunnskunnskap-vg1:konflikter-og-utfordringer', 'q02', 'flervalg', 'Hva er forskjellen på bakenforliggende og utløsende årsaker?', array['Bakenforliggende årsaker er dype, langvarige forhold, mens utløsende årsaker er hendelsen som starter konflikten', 'Det er det samme', 'Utløsende årsaker er alltid historiske', 'Bakenforliggende årsaker er alltid tilfeldige']::text[], 0, 'Begge er viktige i en analyse.', true, true, 1),
+  ('samfunnskunnskap-vg1:konflikter-og-utfordringer', 'q03', 'flervalg', 'Hvem rammes ofte hardest i kriger?', array['Generalene', 'Politikerne', 'Sivile, barn, kvinner og minoriteter', 'Våpenprodusentene']::text[], 2, 'Konflikter har ulike konsekvenser for ulike grupper.', true, true, 2),
+  ('samfunnskunnskap-vg1:konflikter-og-utfordringer', 'q04', 'flervalg', 'Hva er mekling?', array['Å velge side i en konflikt', 'Å straffe en part', 'Å avslutte en konflikt med vold', 'At en nøytral tredjepart hjelper partene å finne en løsning']::text[], 3, 'Norge har vært tilrettelegger i flere fredsprosesser.', true, true, 3),
+  ('samfunnskunnskap-vg1:konflikter-og-utfordringer', 'q05', 'flervalg', 'Når startet Russland fullskala invasjon av Ukraina?', array['24. februar 2022', '1. september 1939', '11. september 2001', '9. april 1940']::text[], 0, 'Krigen har hatt store globale konsekvenser.', true, true, 4),
+  ('samfunnskunnskap-vg1:konflikter-og-utfordringer', 'q06', 'flervalg', 'Hva betyr at en konflikt eskalerer?', array['At den løses', 'At den blir mer alvorlig', 'At den blir glemt', 'At partene blir enige']::text[], 1, 'Deeskalering betyr at den blir mindre alvorlig.', true, true, 5),
+  ('samfunnskunnskap-vg1:konflikter-og-utfordringer', 'q07', 'flervalg', 'Hvorfor er kildekritikk særlig viktig i konflikter?', array['Fordi det finnes få kilder', 'Fordi alle kilder er nøytrale', 'Fordi partene sprer sin versjon, og propaganda og desinformasjon er vanlig', 'Fordi mediene ikke dekker konflikter']::text[], 2, 'Bruk flere kilder fra ulike sider.', true, true, 6),
+  ('samfunnskunnskap-vg1:konflikter-og-utfordringer', 'q08', 'flervalg', 'Hva er et eksempel på en lokal konflikt?', array['Krigen i Ukraina', 'Klimaforhandlinger i FN', 'Handelskrig mellom USA og Kina', 'Nedleggelse av en skole i en kommune']::text[], 3, 'Lokale konflikter angår nærmiljøet.', true, true, 7),
+  ('samfunnskunnskap-vg1:konflikter-og-utfordringer', 'q09', 'flervalg', 'Hva er sanksjoner?', array['Straffetiltak som handelsrestriksjoner mot en stat', 'Belønninger', 'Fredsavtaler', 'Valg']::text[], 0, 'Sanksjoner skal presse en stat til å endre politikk.', true, false, 8),
+  ('samfunnskunnskap-vg1:konflikter-og-utfordringer', 'q10', 'flervalg', 'Hvorfor er klimaendringene en vanskelig global utfordring å løse?', array['Fordi ingen land slipper ut klimagasser', 'Fordi landene har ulike interesser og ansvar', 'Fordi alle land rammes likt', 'Fordi det ikke finnes løsninger']::text[], 1, 'Rike, fattige og oljeproduserende land har ulike interesser.', true, false, 9),
+  ('samfunnskunnskap-vg1:konflikter-og-utfordringer', 'm01', 'sant-usant', 'Konflikter kan handle om både ressurser, makt, identitet og verdier.', array['Sant', 'Usant']::text[], 0, 'Ofte er flere typer blandet.', false, true, 10),
+  ('samfunnskunnskap-vg1:konflikter-og-utfordringer', 'm02', 'sant-usant', 'Alle grupper rammes likt av en konflikt.', array['Sant', 'Usant']::text[], 1, 'Konsekvensene varierer mye mellom grupper.', false, true, 11),
+  ('samfunnskunnskap-vg1:konflikter-og-utfordringer', 'm03', 'sant-usant', 'Dialog og tillitsskapende tiltak kan deeskalere en konflikt.', array['Sant', 'Usant']::text[], 0, 'Tredjeparter kan også hjelpe.', false, true, 12),
+  ('samfunnskunnskap-vg1:konflikter-og-utfordringer', 'm04', 'sant-usant', 'Ubekreftede videoer fra en krig kan alltid stoles på.', array['Sant', 'Usant']::text[], 1, 'Bilder og videoer kan være manipulert eller tatt ut av sammenheng.', false, true, 13),
+  ('samfunnskunnskap-vg1:konflikter-og-utfordringer', 'm05', 'flervalg', 'Hva er en tredjepart i en konflikt?', array['Den som vinner', 'En aktør utenfor konflikten som påvirker den', 'Den svakeste parten', 'Et politisk parti']::text[], 1, 'FN og andre stater er eksempler.', false, true, 14),
+  ('samfunnskunnskap-vg1:konflikter-og-utfordringer', 'm06', 'flervalg', 'Hva er et kompromiss?', array['En løsning der begge parter gir litt', 'At én part vinner alt', 'At konflikten fortsetter', 'En type sanksjon']::text[], 0, 'Kompromisser er vanlige i politikken.', false, true, 15),
+  ('samfunnskunnskap-vg1:konflikter-og-utfordringer', 'm07', 'flervalg', 'Hvilken konflikttype er en strid om vannrettigheter?', array['Identitetskonflikt', 'Verdikonflikt', 'Ressurskonflikt', 'Ingen konflikt']::text[], 2, 'Vann er en knapp ressurs mange steder.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('samfunnskunnskap-vg1:konflikter-og-utfordringer', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Tysk (vg1): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'tysk-vg1' and slug not in ('identitet-og-relasjoner', 'skole-og-arbeid', 'fortelle-om-opplevelser', 'samfunn-og-aktuelle-saker', 'historie', 'kunst-og-kultur');
+
+-- Tysk: Identitet, vennskap og følelser
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('tysk-vg1:identitet-og-relasjoner', 'tysk-vg1', 'identitet-og-relasjoner', 'Identitet, vennskap og følelser', 'Hvordan du beskriver personlighet, vennskap, familie og følelser på tysk, med refleksive verb, personlige pronomen i akkusativ og dativ og verb med faste preposisjoner.', array[2, 3, 6]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('tysk-vg1:identitet-og-relasjoner', '## Å beskrive seg selv og andre
+
+På nivå II skal du kunne fortelle mer utfyllende om **hvem du er** og hvordan du har det med andre. Nyttige adjektiver om personlighet:
+
+- *ehrlich* (ærlig), *zuverlässig* (pålitelig), *hilfsbereit* (hjelpsom), *lustig* (morsom)
+- *schüchtern* (sjenert), *selbstbewusst* (selvsikker), *ungeduldig* (utålmodig), *neugierig* (nysgjerrig)
+
+*Meine beste Freundin ist ehrlich und hilfsbereit, aber manchmal ein bisschen ungeduldig.*
+
+## Refleksive verb
+
+Mange tyske verb om følelser og relasjoner er **refleksive** – de har et **refleksivt pronomen** som viser tilbake til subjektet:
+
+| | sich freuen (glede seg) |
+| --- | --- |
+| ich | freue **mich** |
+| du | freust **dich** |
+| er/sie/es | freut **sich** |
+| wir | freuen **uns** |
+| ihr | freut **euch** |
+| sie/Sie | freuen **sich** |
+
+Andre eksempler: *sich streiten* (krangle), *sich verlieben* (forelske seg), *sich treffen* (møtes), *sich fühlen* (føle seg), *sich ärgern* (ergre seg).
+
+*Wir treffen uns jeden Freitag.* – Vi møtes hver fredag.
+*Ich fühle mich heute müde.* – Jeg føler meg trøtt i dag.
+
+## Verb med faste preposisjoner
+
+Mange verb har en **fast preposisjon**:
+
+- *sich freuen **auf*** (glede seg til noe som kommer): *Ich freue mich auf die Ferien.*
+- *sich freuen **über*** (glede seg over noe som har skjedd): *Ich freue mich über das Geschenk.*
+- *sich interessieren **für***: *Er interessiert sich für Musik.*
+- *sich verstehen **mit***: *Ich verstehe mich gut mit meiner Schwester.*
+- *Angst haben **vor***: *Sie hat Angst vor Spinnen.*
+
+## Pronomen i akkusativ og dativ
+
+| Nominativ | Akkusativ | Dativ |
+| --- | --- | --- |
+| ich | mich | mir |
+| du | dich | dir |
+| er | ihn | ihm |
+| sie | sie | ihr |
+| wir | uns | uns |
+| ihr | euch | euch |
+| sie/Sie | sie/Sie | ihnen/Ihnen |
+
+- Akkusativ etter mange verb: *Ich besuche **ihn**.*
+- Dativ etter verb som *helfen*, *danken*, *gefallen*: *Kannst du **mir** helfen?* *Die Jacke gefällt **ihr**.*
+
+## Følelser og konflikter
+
+- *Ich bin glücklich / traurig / wütend / enttäuscht / nervös.*
+- *Es geht mir gut / schlecht.*
+- *Wir haben uns gestritten, aber jetzt ist alles wieder gut.*
+
+## Strategi
+
+Lag din egen **ordbank** med adjektiver og uttrykk du trenger for å beskrive deg selv, og øv på å **snakke spontant** i ett minutt om en venn eller et familiemedlem.', '{"label":"Identitet og relasjoner","children":[{"label":"Personlighet","children":[{"label":"ehrlich, zuverlässig"},{"label":"schüchtern, neugierig"}]},{"label":"Refleksive verb","children":[{"label":"sich freuen"},{"label":"sich streiten"},{"label":"sich treffen"}]},{"label":"Faste preposisjoner","children":[{"label":"freuen auf / über"},{"label":"interessieren für"},{"label":"Angst vor"}]},{"label":"Pronomen","children":[{"label":"Akkusativ: mich, dich, ihn"},{"label":"Dativ: mir, dir, ihm"}]},{"label":"Følelser","children":[{"label":"glücklich, traurig"},{"label":"wütend, enttäuscht"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'tysk-vg1:identitet-og-relasjoner';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('tysk-vg1:identitet-og-relasjoner', 'ehrlich', 'ærlig', 0),
+  ('tysk-vg1:identitet-og-relasjoner', 'zuverlässig', 'pålitelig', 1),
+  ('tysk-vg1:identitet-og-relasjoner', 'schüchtern', 'sjenert', 2),
+  ('tysk-vg1:identitet-og-relasjoner', 'neugierig', 'nysgjerrig', 3),
+  ('tysk-vg1:identitet-og-relasjoner', 'sich freuen auf', 'glede seg til (noe som kommer)', 4),
+  ('tysk-vg1:identitet-og-relasjoner', 'sich freuen über', 'glede seg over (noe som har skjedd)', 5),
+  ('tysk-vg1:identitet-og-relasjoner', 'sich streiten', 'krangle', 6),
+  ('tysk-vg1:identitet-og-relasjoner', 'sich verlieben in', 'forelske seg i', 7),
+  ('tysk-vg1:identitet-og-relasjoner', 'sich interessieren für', 'interessere seg for', 8),
+  ('tysk-vg1:identitet-og-relasjoner', 'sich verstehen mit', 'komme overens med', 9),
+  ('tysk-vg1:identitet-og-relasjoner', 'Angst haben vor', 'være redd for', 10),
+  ('tysk-vg1:identitet-og-relasjoner', 'Wir treffen uns.', 'Vi møtes.', 11),
+  ('tysk-vg1:identitet-og-relasjoner', 'mir / dir / ihm / ihr', 'dativformer av ich, du, er, sie', 12),
+  ('tysk-vg1:identitet-og-relasjoner', 'Kannst du mir helfen?', 'Kan du hjelpe meg? (helfen tar dativ)', 13),
+  ('tysk-vg1:identitet-og-relasjoner', 'enttäuscht', 'skuffet', 14);
+delete from public.quiz_sporsmal where tema_id = 'tysk-vg1:identitet-og-relasjoner';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('tysk-vg1:identitet-og-relasjoner', 'q01', 'flervalg', 'Hva er riktig refleksivt pronomen? «Wir freuen ___ auf das Wochenende.»', array['sich', 'uns', 'euch', 'mich']::text[], 1, 'Wir → uns.', true, true, 0),
+  ('tysk-vg1:identitet-og-relasjoner', 'q02', 'flervalg', 'Hva betyr «sich freuen auf»?', array['glede seg til noe som kommer', 'glede seg over noe som har skjedd', 'bli sint', 'føle seg trøtt']::text[], 0, 'sich freuen über brukes om noe som har skjedd.', true, true, 1),
+  ('tysk-vg1:identitet-og-relasjoner', 'q03', 'flervalg', 'Hvilken preposisjon hører til «sich interessieren»?', array['auf', 'mit', 'für', 'vor']::text[], 2, 'Er interessiert sich für Musik.', true, true, 2),
+  ('tysk-vg1:identitet-og-relasjoner', 'q04', 'flervalg', 'Velg riktig pronomen: «Kannst du ___ helfen?»', array['mich', 'ich', 'mein', 'mir']::text[], 3, 'helfen tar dativ: mir.', true, true, 3),
+  ('tysk-vg1:identitet-og-relasjoner', 'q05', 'flervalg', 'Hva betyr «schüchtern»?', array['sjenert', 'sint', 'sulten', 'selvsikker']::text[], 0, 'Det motsatte er selbstbewusst.', true, true, 4),
+  ('tysk-vg1:identitet-og-relasjoner', 'q06', 'flervalg', 'Hvordan sier du «Jeg kommer godt overens med broren min»?', array['Ich verstehe gut meinen Bruder.', 'Ich verstehe mich gut mit meinem Bruder.', 'Ich bin gut mit mein Bruder.', 'Ich verstehe mir gut mit meinem Bruder.']::text[], 1, 'sich verstehen mit + dativ.', true, true, 5),
+  ('tysk-vg1:identitet-og-relasjoner', 'q07', 'flervalg', 'Hva er akkusativ av «er»?', array['ihm', 'er', 'ihn', 'sein']::text[], 2, 'Ich besuche ihn.', true, true, 6),
+  ('tysk-vg1:identitet-og-relasjoner', 'q08', 'flervalg', 'Hva betyr «Wir haben uns gestritten»?', array['Vi har møtt hverandre.', 'Vi har forelsket oss.', 'Vi har hjulpet hverandre.', 'Vi har kranglet.']::text[], 3, 'sich streiten = krangle.', true, true, 7),
+  ('tysk-vg1:identitet-og-relasjoner', 'q09', 'flervalg', 'Hvilken preposisjon brukes med «Angst haben»?', array['vor', 'für', 'auf', 'mit']::text[], 0, 'Sie hat Angst vor Spinnen.', true, false, 8),
+  ('tysk-vg1:identitet-og-relasjoner', 'q10', 'flervalg', 'Velg riktig: «Die Jacke gefällt ___.» (henne)', array['sie', 'ihr', 'ihn', 'sich']::text[], 1, 'gefallen tar dativ: ihr.', true, false, 9),
+  ('tysk-vg1:identitet-og-relasjoner', 'm01', 'sant-usant', '«helfen» tar dativ på tysk.', array['Sant', 'Usant']::text[], 0, 'Ich helfe dir.', false, true, 10),
+  ('tysk-vg1:identitet-og-relasjoner', 'm02', 'sant-usant', '«sich freuen über» brukes om noe man gleder seg til i framtiden.', array['Sant', 'Usant']::text[], 1, 'Om framtiden bruker man sich freuen auf.', false, true, 11),
+  ('tysk-vg1:identitet-og-relasjoner', 'm03', 'sant-usant', '«ihr» kan være dativ av «sie» (entall).', array['Sant', 'Usant']::text[], 0, 'Ich gebe ihr das Buch.', false, true, 12),
+  ('tysk-vg1:identitet-og-relasjoner', 'm04', 'sant-usant', 'Det refleksive pronomenet for «du» er «sich».', array['Sant', 'Usant']::text[], 1, 'Du → dich (akkusativ).', false, true, 13),
+  ('tysk-vg1:identitet-og-relasjoner', 'm05', 'flervalg', 'Hva betyr «zuverlässig»?', array['pålitelig', 'utålmodig', 'lat', 'stille']::text[], 0, 'En zuverlässige Freundin holder det hun lover.', false, true, 14),
+  ('tysk-vg1:identitet-og-relasjoner', 'm06', 'flervalg', 'Velg riktig: «Ich fühle ___ heute gut.»', array['mir', 'mein', 'mich', 'ich']::text[], 2, 'sich fühlen: ich fühle mich.', false, true, 15),
+  ('tysk-vg1:identitet-og-relasjoner', 'm07', 'flervalg', 'Hva betyr «sich verlieben in»?', array['glede seg over', 'forelske seg i', 'krangle med', 'møte']::text[], 1, 'Er hat sich in sie verliebt.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('tysk-vg1:identitet-og-relasjoner', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Tysk: Skole, utdanning og arbeid
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('tysk-vg1:skole-og-arbeid', 'tysk-vg1', 'skole-og-arbeid', 'Skole, utdanning og arbeid', 'Skolesystemet og yrkesutdanningen i Tyskland, praksisplass og jobbsøknad, og hvordan du bruker preteritum av sein, haben og modalverbene til å fortelle om skolegang og erfaringer.', array[1, 2, 5]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('tysk-vg1:skole-og-arbeid', '## Skolen i Tyskland
+
+Det tyske skolesystemet varierer mellom de **16 delstatene** (Bundesländer), men hovedtrekkene er:
+
+- **Grundschule** – barneskolen, vanligvis fra 6 til 10 år
+- Deretter velger elevene ofte mellom ulike skoletyper, som **Gymnasium** (fører til **Abitur**, som gir adgang til universitetet), **Realschule** og **Hauptschule** – eller en **Gesamtschule**, som samler alle.
+- **Abitur** tas vanligvis etter 12 eller 13 skoleår.
+
+## Das duale Ausbildungssystem
+
+Tyskland er kjent for **yrkesutdanningen** sin: I **das duale System** er lærlingene (**Auszubildende**, ofte kalt **Azubis**) både i en **bedrift** og på en **Berufsschule**. Ordningen minner om lærlingordningen i Norge.
+
+## Preteritum av sein, haben og modalverb
+
+Når tyskere forteller om fortiden, bruker de i muntlig språk mest **perfektum**. Men **sein**, **haben** og **modalverbene** brukes nesten alltid i **preteritum** (Präteritum):
+
+| | sein | haben | können | müssen |
+| --- | --- | --- | --- | --- |
+| ich | war | hatte | konnte | musste |
+| du | warst | hattest | konntest | musstest |
+| er/sie/es | war | hatte | konnte | musste |
+| wir | waren | hatten | konnten | mussten |
+| ihr | wart | hattet | konntet | musstet |
+| sie/Sie | waren | hatten | konnten | mussten |
+
+Også *wollen → wollte*, *dürfen → durfte*, *sollen → sollte*.
+
+*Als ich klein war, wollte ich Astronaut werden.* – Da jeg var liten, ville jeg bli astronaut.
+*Letztes Jahr musste ich viel lernen.* – I fjor måtte jeg lese mye.
+*In der Grundschule hatte ich eine sehr nette Lehrerin.*
+
+## Skole- og arbeidsord
+
+- *das Fach* (faget), *der Stundenplan* (timeplanen), *die Note* (karakteren), *die Prüfung* (prøven/eksamen)
+- *das Praktikum* (praksisplassen), *der Nebenjob* (deltidsjobben), *der Lohn* (lønnen)
+- *die Bewerbung* (søknaden), *der Lebenslauf* (CV-en), *das Vorstellungsgespräch* (jobbintervjuet)
+
+## En kort søknad
+
+*Sehr geehrte Damen und Herren,*
+*ich interessiere mich für ein Praktikum in Ihrer Firma, weil ich gern mit Menschen arbeite. Ich spreche Norwegisch, Englisch und ein bisschen Deutsch.*
+*Mit freundlichen Grüßen*
+
+**Sehr geehrte Damen und Herren** er en formell hilsen når du ikke vet navnet, og **Mit freundlichen Grüßen** er en vanlig formell avslutning. Husk at **Sie** og **Ihr/Ihre** skrives med **stor forbokstav** i høflig tiltale.', '{"label":"Skole og arbeid","children":[{"label":"Skolesystemet","children":[{"label":"Grundschule"},{"label":"Gymnasium og Abitur"},{"label":"Realschule, Gesamtschule"}]},{"label":"Yrkesutdanning","children":[{"label":"das duale System"},{"label":"Azubi"}]},{"label":"Preteritum","children":[{"label":"war, hatte"},{"label":"konnte, musste"},{"label":"wollte, durfte"}]},{"label":"Ord","children":[{"label":"Fach, Note, Prüfung"},{"label":"Praktikum, Nebenjob"}]},{"label":"Søknad","children":[{"label":"Bewerbung, Lebenslauf"},{"label":"Sehr geehrte …"},{"label":"Mit freundlichen Grüßen"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'tysk-vg1:skole-og-arbeid';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('tysk-vg1:skole-og-arbeid', 'die Grundschule', 'barneskolen', 0),
+  ('tysk-vg1:skole-og-arbeid', 'das Gymnasium', 'skoletype som fører til Abitur', 1),
+  ('tysk-vg1:skole-og-arbeid', 'das Abitur', 'avgangseksamen som gir adgang til universitetet', 2),
+  ('tysk-vg1:skole-og-arbeid', 'das duale System', 'yrkesutdanning i bedrift og på Berufsschule', 3),
+  ('tysk-vg1:skole-og-arbeid', 'der/die Auszubildende (Azubi)', 'lærlingen', 4),
+  ('tysk-vg1:skole-og-arbeid', 'ich war / ich hatte', 'jeg var / jeg hadde', 5),
+  ('tysk-vg1:skole-og-arbeid', 'ich konnte / ich musste', 'jeg kunne / jeg måtte', 6),
+  ('tysk-vg1:skole-og-arbeid', 'ich wollte', 'jeg ville', 7),
+  ('tysk-vg1:skole-og-arbeid', 'die Note', 'karakteren', 8),
+  ('tysk-vg1:skole-og-arbeid', 'die Prüfung', 'prøven, eksamen', 9),
+  ('tysk-vg1:skole-og-arbeid', 'das Praktikum', 'praksisplassen', 10),
+  ('tysk-vg1:skole-og-arbeid', 'die Bewerbung', 'søknaden', 11),
+  ('tysk-vg1:skole-og-arbeid', 'der Lebenslauf', 'CV-en', 12),
+  ('tysk-vg1:skole-og-arbeid', 'Sehr geehrte Damen und Herren', 'formell hilsen når man ikke vet navnet', 13),
+  ('tysk-vg1:skole-og-arbeid', 'Mit freundlichen Grüßen', 'Med vennlig hilsen', 14);
+delete from public.quiz_sporsmal where tema_id = 'tysk-vg1:skole-og-arbeid';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('tysk-vg1:skole-og-arbeid', 'q01', 'flervalg', 'Hva er preteritum av «ich bin»?', array['ich bin gewesen', 'ich war', 'ich wurde', 'ich hatte']::text[], 1, 'sein → war.', true, true, 0),
+  ('tysk-vg1:skole-og-arbeid', 'q02', 'flervalg', 'Hva gir Abitur adgang til?', array['Universitetet', 'Grundschule', 'Førerkort', 'Militæret']::text[], 0, 'Abitur tas vanligvis på Gymnasium.', true, true, 1),
+  ('tysk-vg1:skole-og-arbeid', 'q03', 'flervalg', 'Velg riktig: «Letztes Jahr ___ ich viel lernen.»', array['muss', 'müssen', 'musste', 'gemusst']::text[], 2, 'müssen → ich musste.', true, true, 2),
+  ('tysk-vg1:skole-og-arbeid', 'q04', 'flervalg', 'Hva kjennetegner «das duale System»?', array['To skoler samtidig', 'To språk i undervisningen', 'Skole bare om kvelden', 'Utdanning både i bedrift og på yrkesskole']::text[], 3, 'Lærlingene kalles Azubis.', true, true, 3),
+  ('tysk-vg1:skole-og-arbeid', 'q05', 'flervalg', 'Hva betyr «der Lebenslauf»?', array['CV-en', 'lønnen', 'timeplanen', 'karakteren']::text[], 0, 'Lebenslauf legges ved en Bewerbung.', true, true, 4),
+  ('tysk-vg1:skole-og-arbeid', 'q06', 'flervalg', 'Hvordan sier du «Da jeg var liten, ville jeg bli pilot»?', array['Wenn ich klein bin, will ich Pilot werden.', 'Als ich klein war, wollte ich Pilot werden.', 'Als ich klein bin, wollte ich Pilot.', 'Ich war klein und will Pilot.']::text[], 1, 'Als + preteritum om én periode i fortiden.', true, true, 5),
+  ('tysk-vg1:skole-og-arbeid', 'q07', 'flervalg', 'Hvilken hilsen passer i et formelt brev når du ikke vet navnet?', array['Hallo Leute,', 'Liebe Anna,', 'Sehr geehrte Damen und Herren,', 'Hi,']::text[], 2, 'Avslutt med Mit freundlichen Grüßen.', true, true, 6),
+  ('tysk-vg1:skole-og-arbeid', 'q08', 'flervalg', 'Hva er preteritum av «wir haben»?', array['wir habten', 'wir hatte', 'wir gehabt', 'wir hatten']::text[], 3, 'haben → hatten i flertall.', true, true, 7),
+  ('tysk-vg1:skole-og-arbeid', 'q09', 'flervalg', 'Hva betyr «das Vorstellungsgespräch»?', array['jobbintervjuet', 'presentasjonen i klassen', 'samtalen med foreldre', 'telefonsamtalen']::text[], 0, 'Man blir invitert til et Vorstellungsgespräch etter søknaden.', true, false, 8),
+  ('tysk-vg1:skole-og-arbeid', 'q10', 'flervalg', 'Hvorfor skrives «Ihrer Firma» med stor I?', array['Fordi det er et substantiv', 'Fordi det er høflig tiltale', 'Fordi det står først', 'Det er en feil']::text[], 1, 'Sie, Ihr og Ihre skrives med stor forbokstav i høflig tiltale.', true, false, 9),
+  ('tysk-vg1:skole-og-arbeid', 'm01', 'sant-usant', 'Tyskland har 16 delstater.', array['Sant', 'Usant']::text[], 0, 'Skolesystemet varierer mellom dem.', false, true, 10),
+  ('tysk-vg1:skole-og-arbeid', 'm02', 'sant-usant', 'I muntlig tysk brukes preteritum mest for alle verb.', array['Sant', 'Usant']::text[], 1, 'I muntlig språk brukes mest perfektum, unntatt for sein, haben og modalverb.', false, true, 11),
+  ('tysk-vg1:skole-og-arbeid', 'm03', 'sant-usant', '«das Praktikum» betyr praksisplassen.', array['Sant', 'Usant']::text[], 0, 'Mange elever tar et Praktikum i en bedrift.', false, true, 12),
+  ('tysk-vg1:skole-og-arbeid', 'm04', 'sant-usant', '«Mit freundlichen Grüßen» er en uformell avslutning til venner.', array['Sant', 'Usant']::text[], 1, 'Det er en formell avslutning.', false, true, 13),
+  ('tysk-vg1:skole-og-arbeid', 'm05', 'flervalg', 'Hva er preteritum av «du kannst»?', array['du kanntest', 'du konntest', 'du konnte', 'du gekonnt']::text[], 1, 'können → konnte, du konntest.', false, true, 14),
+  ('tysk-vg1:skole-og-arbeid', 'm06', 'flervalg', 'Hva betyr «die Note»?', array['karakteren', 'notatet', 'noten i musikk', 'timeplanen']::text[], 0, 'In Deutschland ist 1 die beste Note.', false, true, 15),
+  ('tysk-vg1:skole-og-arbeid', 'm07', 'flervalg', 'Hva heter en lærling på tysk?', array['der Lehrer', 'der Schüler', 'der/die Auszubildende', 'der Student']::text[], 2, 'Forkortes ofte Azubi.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('tysk-vg1:skole-og-arbeid', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Tysk: Å fortelle om opplevelser
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('tysk-vg1:fortelle-om-opplevelser', 'tysk-vg1', 'fortelle-om-opplevelser', 'Å fortelle om opplevelser', 'Hvordan du forteller om opplevelser og hendelser på tysk: perfektum i muntlig språk, preteritum i skriftlige fortellinger, forskjellen på als og wenn, tidsuttrykk og plusquamperfektum.', array[3, 5, 6]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('tysk-vg1:fortelle-om-opplevelser', '## Perfektum – når vi snakker
+
+I **muntlig** tysk forteller vi om fortiden med **perfektum**: *haben* eller *sein* + **partisipp** til slutt.
+
+- *Ich **habe** einen Film **gesehen**.*
+- *Wir **sind** nach Berlin **gefahren**.*
+
+**sein** brukes med verb som uttrykker **bevegelse** eller **forandring**: *fahren, gehen, fliegen, kommen, bleiben, werden, passieren*.
+
+## Preteritum – når vi skriver
+
+I **skriftlige fortellinger**, som noveller, eventyr og nyhetsartikler, brukes ofte **preteritum**.
+
+**Svake verb** får **-te**: *machen → ich machte, wir machten; spielen → ich spielte*.
+
+**Sterke verb** endrer **vokalen**:
+
+| Infinitiv | Preteritum | Perfektum |
+| --- | --- | --- |
+| gehen | ging | ist gegangen |
+| kommen | kam | ist gekommen |
+| sehen | sah | hat gesehen |
+| finden | fand | hat gefunden |
+| sprechen | sprach | hat gesprochen |
+| fahren | fuhr | ist gefahren |
+| nehmen | nahm | hat genommen |
+
+*Es war einmal ein Mädchen. Es ging in den Wald und fand ein kleines Haus.*
+
+## als eller wenn?
+
+Begge betyr «da» eller «når», men:
+
+- **als** brukes om **én** hendelse eller periode i **fortiden**: *Als ich zehn war, zog ich nach Bergen.*
+- **wenn** brukes om noe som skjedde **flere ganger** (hver gang) – eller om nåtid og framtid: *Wenn wir Oma besuchten, backte sie immer Kuchen.*
+
+Begge innleder **bisetninger**, så verbet står **sist**.
+
+## Tidsuttrykk
+
+*zuerst* (først), *dann* (så), *danach* (etterpå), *später* (senere), *plötzlich* (plutselig), *schließlich / am Ende* (til slutt), *vor zwei Jahren* (for to år siden), *letzten Sommer* (i fjor sommer).
+
+Husk **inversjon**: Når tidsuttrykket står først, kommer verbet på andre plass: *Plötzlich **hörten** wir einen lauten Knall.*
+
+## Plusquamperfektum
+
+**Plusquamperfektum** brukes om noe som skjedde **før** noe annet i fortiden: *hatte/war* + partisipp.
+
+*Als wir ankamen, **war** der Zug schon **abgefahren**.* – Da vi kom fram, hadde toget allerede gått.
+
+## En god fortelling
+
+- Start med **når** og **hvor**.
+- Bruk **tidsuttrykk** for å vise rekkefølgen.
+- Beskriv **følelser**: *Ich hatte Angst. Wir waren überrascht.*
+- Avslutt med hva du **lærte** eller hvordan det **endte**.', '{"label":"Fortelle om opplevelser","children":[{"label":"Perfektum","children":[{"label":"haben + partisipp"},{"label":"sein ved bevegelse"}]},{"label":"Preteritum","children":[{"label":"Svake verb: -te"},{"label":"Sterke verb: vokalskifte"}]},{"label":"als og wenn","children":[{"label":"als: én gang"},{"label":"wenn: flere ganger"}]},{"label":"Tidsuttrykk","children":[{"label":"zuerst, dann, danach"},{"label":"plötzlich"},{"label":"Inversjon"}]},{"label":"Plusquamperfektum","children":[{"label":"hatte/war + partisipp"},{"label":"Før noe annet"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'tysk-vg1:fortelle-om-opplevelser';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('tysk-vg1:fortelle-om-opplevelser', 'Perfektum', 'haben/sein + partisipp – brukes mest muntlig.', 0),
+  ('tysk-vg1:fortelle-om-opplevelser', 'Preteritum', 'Brukes mest i skriftlige fortellinger.', 1),
+  ('tysk-vg1:fortelle-om-opplevelser', 'ich machte', 'jeg gjorde (svakt verb i preteritum)', 2),
+  ('tysk-vg1:fortelle-om-opplevelser', 'gehen – ging – ist gegangen', 'gå', 3),
+  ('tysk-vg1:fortelle-om-opplevelser', 'kommen – kam – ist gekommen', 'komme', 4),
+  ('tysk-vg1:fortelle-om-opplevelser', 'sehen – sah – hat gesehen', 'se', 5),
+  ('tysk-vg1:fortelle-om-opplevelser', 'finden – fand – hat gefunden', 'finne', 6),
+  ('tysk-vg1:fortelle-om-opplevelser', 'fahren – fuhr – ist gefahren', 'kjøre, reise', 7),
+  ('tysk-vg1:fortelle-om-opplevelser', 'als', 'da – om én hendelse i fortiden', 8),
+  ('tysk-vg1:fortelle-om-opplevelser', 'wenn', 'når – om gjentatte hendelser, nåtid og framtid', 9),
+  ('tysk-vg1:fortelle-om-opplevelser', 'plötzlich', 'plutselig', 10),
+  ('tysk-vg1:fortelle-om-opplevelser', 'vor zwei Jahren', 'for to år siden', 11),
+  ('tysk-vg1:fortelle-om-opplevelser', 'am Ende', 'til slutt', 12),
+  ('tysk-vg1:fortelle-om-opplevelser', 'Plusquamperfektum', 'hatte/war + partisipp – noe som skjedde før noe annet i fortiden', 13),
+  ('tysk-vg1:fortelle-om-opplevelser', 'Es war einmal …', 'Det var en gang …', 14);
+delete from public.quiz_sporsmal where tema_id = 'tysk-vg1:fortelle-om-opplevelser';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('tysk-vg1:fortelle-om-opplevelser', 'q01', 'flervalg', 'Hvilken tid brukes mest når tyskere snakker om fortiden?', array['Preteritum', 'Perfektum', 'Futurum', 'Presens']::text[], 1, 'Preteritum brukes mest skriftlig.', true, true, 0),
+  ('tysk-vg1:fortelle-om-opplevelser', 'q02', 'flervalg', 'Hva er preteritum av «gehen»?', array['ging', 'gehte', 'gang', 'gegangen']::text[], 0, 'gehen er et sterkt verb.', true, true, 1),
+  ('tysk-vg1:fortelle-om-opplevelser', 'q03', 'flervalg', 'Velg riktig: «___ ich zehn war, zog ich nach Bergen.»', array['Wenn', 'Wann', 'Als', 'Ob']::text[], 2, 'als om én periode i fortiden.', true, true, 2),
+  ('tysk-vg1:fortelle-om-opplevelser', 'q04', 'flervalg', 'Hvilket hjelpeverb bruker «fahren» i perfektum?', array['haben', 'werden', 'können', 'sein']::text[], 3, 'Bevegelse: Ich bin gefahren.', true, true, 3),
+  ('tysk-vg1:fortelle-om-opplevelser', 'q05', 'flervalg', 'Hva betyr «plötzlich»?', array['plutselig', 'etterpå', 'til slutt', 'først']::text[], 0, 'Plötzlich hörten wir einen Knall.', true, true, 4),
+  ('tysk-vg1:fortelle-om-opplevelser', 'q06', 'flervalg', 'Hvilken setning har riktig ordstilling?', array['Plötzlich wir hörten einen Knall.', 'Plötzlich hörten wir einen Knall.', 'Wir plötzlich hörten einen Knall.', 'Plötzlich wir einen Knall hörten.']::text[], 1, 'Verbet står på andre plass (inversjon).', true, true, 5),
+  ('tysk-vg1:fortelle-om-opplevelser', 'q07', 'flervalg', 'Hva uttrykker plusquamperfektum?', array['Noe i framtiden', 'Noe som skjer nå', 'Noe som skjedde før noe annet i fortiden', 'En vane']::text[], 2, 'Der Zug war schon abgefahren.', true, true, 6),
+  ('tysk-vg1:fortelle-om-opplevelser', 'q08', 'flervalg', 'Hva er preteritum av «machen» i «wir»-form?', array['wir machen', 'wir gemacht', 'wir machtet', 'wir machten']::text[], 3, 'Svake verb får -te: wir machten.', true, true, 7),
+  ('tysk-vg1:fortelle-om-opplevelser', 'q09', 'flervalg', 'Velg riktig: «___ wir Oma besuchten, backte sie immer Kuchen.»', array['Wenn', 'Als', 'Wann', 'Dass']::text[], 0, 'wenn om noe som skjedde flere ganger.', true, false, 8),
+  ('tysk-vg1:fortelle-om-opplevelser', 'q10', 'flervalg', 'Hva betyr «vor zwei Jahren»?', array['om to år', 'for to år siden', 'i to år', 'hvert annet år']::text[], 1, 'vor + tidsperiode = for … siden.', true, false, 9),
+  ('tysk-vg1:fortelle-om-opplevelser', 'm01', 'sant-usant', 'Eventyr på tysk skrives ofte i preteritum.', array['Sant', 'Usant']::text[], 0, 'Es war einmal …', false, true, 10),
+  ('tysk-vg1:fortelle-om-opplevelser', 'm02', 'sant-usant', '«als» brukes om ting som skjedde mange ganger.', array['Sant', 'Usant']::text[], 1, 'Om gjentatte hendelser bruker man wenn.', false, true, 11),
+  ('tysk-vg1:fortelle-om-opplevelser', 'm03', 'sant-usant', 'Etter «als» og «wenn» står verbet sist i setningen.', array['Sant', 'Usant']::text[], 0, 'De innleder bisetninger.', false, true, 12),
+  ('tysk-vg1:fortelle-om-opplevelser', 'm04', 'sant-usant', '«sehen» bruker «sein» i perfektum.', array['Sant', 'Usant']::text[], 1, 'Ich habe gesehen.', false, true, 13),
+  ('tysk-vg1:fortelle-om-opplevelser', 'm05', 'flervalg', 'Hva er preteritum av «kommen»?', array['kommte', 'kam', 'kom', 'gekommen']::text[], 1, 'kommen – kam – ist gekommen.', false, true, 14),
+  ('tysk-vg1:fortelle-om-opplevelser', 'm06', 'flervalg', 'Hva betyr «Es war einmal …»?', array['Det var en gang …', 'Det er ofte …', 'Det var bare …', 'Det blir snart …']::text[], 0, 'Typisk åpning i eventyr.', false, true, 15),
+  ('tysk-vg1:fortelle-om-opplevelser', 'm07', 'flervalg', 'Velg riktig: «Als wir ankamen, ___ der Film schon begonnen.»', array['hat', 'ist', 'hatte', 'wird']::text[], 2, 'Plusquamperfektum: hatte begonnen.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('tysk-vg1:fortelle-om-opplevelser', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Tysk: Samfunn i Tyskland, Østerrike og Sveits
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('tysk-vg1:samfunn-og-aktuelle-saker', 'tysk-vg1', 'samfunn-og-aktuelle-saker', 'Samfunn i Tyskland, Østerrike og Sveits', 'Hvordan de tysktalende landene er styrt, mangfold og innvandring, energi og miljø som aktuelle saker – og hvordan du uttrykker og begrunner meninger på tysk med relativsetninger og argumentasjonsuttrykk.', array[4, 5, 8]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('tysk-vg1:samfunn-og-aktuelle-saker', '## De tysktalende landene
+
+Tysk er offisielt språk i blant annet **Tyskland**, **Østerrike**, **Sveits**, **Liechtenstein** og **Luxembourg**, og det er morsmål for rundt 100 millioner mennesker. Landene omtales ofte som **D-A-CH** (Deutschland, Austria, Confoederatio Helvetica).
+
+- **Tyskland** (*die Bundesrepublik Deutschland*) er en **forbundsrepublikk** med **16 delstater**. Nasjonalforsamlingen heter **der Bundestag**, og regjeringssjefen er **der Bundeskanzler** eller **die Bundeskanzlerin**. Hovedstaden er **Berlin**.
+- **Østerrike** har **9 delstater**, og hovedstaden er **Wien**.
+- **Sveits** har **26 kantoner** og **fire nasjonalspråk**: tysk, fransk, italiensk og retoromansk. Sveits er kjent for **direkte demokrati** – innbyggerne stemmer ofte over saker i **folkeavstemninger**. Sveits er ikke medlem av EU.
+
+## Mangfold og innvandring
+
+Etter andre verdenskrig kom mange **gjestearbeidere** (*Gastarbeiter*) fra blant annet Tyrkia, Italia og Hellas til Vest-Tyskland. I dag har en stor del av befolkningen **innvandrerbakgrunn** (*Migrationshintergrund*). Særlig i 2015 kom svært mange **flyktninger**, blant annet fra Syria. Integrering, språk og arbeid er viktige debatter.
+
+## Energi og miljø
+
+**Die Energiewende** er Tysklands omlegging fra kjernekraft og kull til **fornybar energi**. De siste kjernekraftverkene ble stengt i **2023**. **Mülltrennung** – kildesortering – og **pant** (*Pfand*) på flasker er en viktig del av hverdagen.
+
+## Å uttrykke meninger
+
+- *Meiner Meinung nach **ist** das wichtig.* (Legg merke til inversjonen!)
+- *Ich finde / glaube / denke, dass das eine gute Idee **ist**.*
+- *Einerseits …, andererseits …* – På den ene siden …, på den andre siden …
+- *Zwar …, aber …* – Riktignok …, men …
+- *Ich bin dafür / dagegen, weil …* – Jeg er for / mot fordi …
+- *Im Gegensatz dazu …* – I motsetning til dette …
+
+## Relativsetninger
+
+**Relativsetninger** gir mer informasjon om et substantiv. Relativpronomenet har samme **kjønn og tall** som ordet det viser til, og **verbet står sist**:
+
+- *der Mann, **der** in Berlin **wohnt*** (hankjønn)
+- *die Stadt, **die** ich besucht **habe*** (hunkjønn)
+- *das Land, **das** vier Sprachen **hat*** (intetkjønn)
+- *die Leute, **die** hier **arbeiten*** (flertall)
+
+## Lese autentiske tekster
+
+Når du leser tyske nyhetsartikler, kan du
+
+- se på **overskrift**, **bilder** og **ingress** først
+- lete etter **ord du kjenner** fra norsk og engelsk
+- **gjette** betydningen ut fra sammenhengen
+- bruke **ordbok** eller oversettelsesverktøy bare der det trengs', '{"label":"Samfunn i D-A-CH","children":[{"label":"Land","children":[{"label":"Tyskland: 16 delstater"},{"label":"Østerrike: 9 delstater"},{"label":"Sveits: 26 kantoner"}]},{"label":"Politikk","children":[{"label":"Bundestag"},{"label":"Bundeskanzler"},{"label":"Direkte demokrati"}]},{"label":"Aktuelle saker","children":[{"label":"Innvandring"},{"label":"Energiewende"},{"label":"Mülltrennung"}]},{"label":"Meninger","children":[{"label":"Meiner Meinung nach"},{"label":"einerseits … andererseits"},{"label":"dafür / dagegen"}]},{"label":"Relativsetninger","children":[{"label":"der, die, das"},{"label":"Verbet sist"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'tysk-vg1:samfunn-og-aktuelle-saker';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('tysk-vg1:samfunn-og-aktuelle-saker', 'die Bundesrepublik Deutschland', 'Forbundsrepublikken Tyskland', 0),
+  ('tysk-vg1:samfunn-og-aktuelle-saker', 'das Bundesland', 'delstaten – Tyskland har 16', 1),
+  ('tysk-vg1:samfunn-og-aktuelle-saker', 'der Bundestag', 'den tyske nasjonalforsamlingen', 2),
+  ('tysk-vg1:samfunn-og-aktuelle-saker', 'der Bundeskanzler / die Bundeskanzlerin', 'den tyske regjeringssjefen', 3),
+  ('tysk-vg1:samfunn-og-aktuelle-saker', 'die Schweiz', 'Sveits – 26 kantoner, fire nasjonalspråk', 4),
+  ('tysk-vg1:samfunn-og-aktuelle-saker', 'die Volksabstimmung', 'folkeavstemningen', 5),
+  ('tysk-vg1:samfunn-og-aktuelle-saker', 'der Gastarbeiter', 'gjestearbeideren', 6),
+  ('tysk-vg1:samfunn-og-aktuelle-saker', 'der Migrationshintergrund', 'innvandrerbakgrunn', 7),
+  ('tysk-vg1:samfunn-og-aktuelle-saker', 'die Energiewende', 'energiomleggingen til fornybar energi', 8),
+  ('tysk-vg1:samfunn-og-aktuelle-saker', 'die Mülltrennung', 'kildesorteringen', 9),
+  ('tysk-vg1:samfunn-og-aktuelle-saker', 'Meiner Meinung nach …', 'Etter min mening … (+ inversjon)', 10),
+  ('tysk-vg1:samfunn-og-aktuelle-saker', 'einerseits … andererseits', 'på den ene siden … på den andre siden', 11),
+  ('tysk-vg1:samfunn-og-aktuelle-saker', 'Ich bin dafür.', 'Jeg er for.', 12),
+  ('tysk-vg1:samfunn-og-aktuelle-saker', 'der Mann, der …', 'mannen som … (relativsetning)', 13),
+  ('tysk-vg1:samfunn-og-aktuelle-saker', 'die Stadt, die …', 'byen som … (relativsetning)', 14);
+delete from public.quiz_sporsmal where tema_id = 'tysk-vg1:samfunn-og-aktuelle-saker';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('tysk-vg1:samfunn-og-aktuelle-saker', 'q01', 'flervalg', 'Hvor mange delstater har Tyskland?', array['9', '16', '26', '50']::text[], 1, 'Østerrike har 9 og Sveits 26 kantoner.', true, true, 0),
+  ('tysk-vg1:samfunn-og-aktuelle-saker', 'q02', 'flervalg', 'Hvilket land er kjent for direkte demokrati med mange folkeavstemninger?', array['Sveits', 'Tyskland', 'Østerrike', 'Liechtenstein']::text[], 0, 'Innbyggerne stemmer ofte over enkeltsaker.', true, true, 1),
+  ('tysk-vg1:samfunn-og-aktuelle-saker', 'q03', 'flervalg', 'Hva er «die Energiewende»?', array['En fotballklubb', 'En type strømregning', 'Tysklands omlegging til fornybar energi', 'En tysk bilprodusent']::text[], 2, 'De siste kjernekraftverkene ble stengt i 2023.', true, true, 2),
+  ('tysk-vg1:samfunn-og-aktuelle-saker', 'q04', 'flervalg', 'Velg riktig ordstilling:', array['Meiner Meinung nach das ist wichtig.', 'Meiner Meinung nach wichtig ist das.', 'Meiner Meinung nach das wichtig ist.', 'Meiner Meinung nach ist das wichtig.']::text[], 3, 'Verbet står på andre plass.', true, true, 3),
+  ('tysk-vg1:samfunn-og-aktuelle-saker', 'q05', 'flervalg', 'Velg riktig relativpronomen: «Das ist das Land, ___ vier Sprachen hat.»', array['das', 'der', 'die', 'den']::text[], 0, 'das Land er intetkjønn.', true, true, 4),
+  ('tysk-vg1:samfunn-og-aktuelle-saker', 'q06', 'flervalg', 'Hva heter den tyske nasjonalforsamlingen?', array['der Reichstag', 'der Bundestag', 'das Parlament', 'der Landtag']::text[], 1, 'Bundestag holder til i Reichstag-bygningen i Berlin.', true, true, 5),
+  ('tysk-vg1:samfunn-og-aktuelle-saker', 'q07', 'flervalg', 'Hva var gjestearbeidere (Gastarbeiter)?', array['Turister', 'Studenter', 'Arbeidsinnvandrere som kom til Vest-Tyskland etter krigen', 'Diplomater']::text[], 2, 'Mange kom fra Tyrkia, Italia og Hellas.', true, true, 6),
+  ('tysk-vg1:samfunn-og-aktuelle-saker', 'q08', 'flervalg', 'Hvor står verbet i en tysk relativsetning?', array['Først', 'På andre plass', 'Etter subjektet', 'Sist']::text[], 3, 'die Stadt, die ich besucht habe.', true, true, 7),
+  ('tysk-vg1:samfunn-og-aktuelle-saker', 'q09', 'flervalg', 'Hva betyr «einerseits … andererseits»?', array['på den ene siden … på den andre siden', 'først … så', 'ikke bare … men også', 'enten … eller']::text[], 0, 'Nyttig for å drøfte fordeler og ulemper.', true, false, 8),
+  ('tysk-vg1:samfunn-og-aktuelle-saker', 'q10', 'flervalg', 'Hvilke fire nasjonalspråk har Sveits?', array['Tysk, engelsk, fransk og spansk', 'Tysk, fransk, italiensk og retoromansk', 'Tysk, nederlandsk, fransk og italiensk', 'Bare tysk']::text[], 1, 'Tysk er det mest brukte.', true, false, 9),
+  ('tysk-vg1:samfunn-og-aktuelle-saker', 'm01', 'sant-usant', 'Wien er hovedstaden i Østerrike.', array['Sant', 'Usant']::text[], 0, 'Berlin er hovedstaden i Tyskland, og Bern i Sveits.', false, true, 10),
+  ('tysk-vg1:samfunn-og-aktuelle-saker', 'm02', 'sant-usant', 'Sveits er medlem av EU.', array['Sant', 'Usant']::text[], 1, 'Sveits er ikke medlem av EU.', false, true, 11),
+  ('tysk-vg1:samfunn-og-aktuelle-saker', 'm03', 'sant-usant', '«Pfand» er pant på flasker.', array['Sant', 'Usant']::text[], 0, 'Pantesystemet er vanlig i Tyskland.', false, true, 12),
+  ('tysk-vg1:samfunn-og-aktuelle-saker', 'm04', 'sant-usant', 'Relativpronomenet for «die Leute» er «der».', array['Sant', 'Usant']::text[], 1, 'Flertall: die Leute, die …', false, true, 13),
+  ('tysk-vg1:samfunn-og-aktuelle-saker', 'm05', 'flervalg', 'Hva betyr «Ich bin dagegen»?', array['Jeg er for.', 'Jeg er mot.', 'Jeg er usikker.', 'Jeg er enig.']::text[], 1, 'dafür = for, dagegen = mot.', false, true, 14),
+  ('tysk-vg1:samfunn-og-aktuelle-saker', 'm06', 'flervalg', 'Hva betyr «Migrationshintergrund»?', array['innvandrerbakgrunn', 'grenseområde', 'flyktningleir', 'statsborgerskap']::text[], 0, 'Brukes om personer som selv eller med foreldre har innvandret.', false, true, 15),
+  ('tysk-vg1:samfunn-og-aktuelle-saker', 'm07', 'flervalg', 'Velg riktig: «Der Mann, ___ neben mir wohnt, ist Lehrer.»', array['die', 'das', 'der', 'den']::text[], 2, 'der Mann er hankjønn og subjekt i relativsetningen.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('tysk-vg1:samfunn-og-aktuelle-saker', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Tysk: Tysk historie: fra keiserrike til gjenforening
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('tysk-vg1:historie', 'tysk-vg1', 'historie', 'Tysk historie: fra keiserrike til gjenforening', 'Hovedlinjer i Tysklands historie på 1900-tallet – første verdenskrig, Weimarrepublikken, nazismen og Holocaust, delingen, Berlinmuren og gjenforeningen – og hvordan du bruker passiv og årstall på tysk.', array[8, 4]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('tysk-vg1:historie', '## Keiserriket og første verdenskrig
+
+Tyskland ble samlet som **keiserrike** (*das Kaiserreich*) i **1871**. Landet tapte **første verdenskrig** (1914–1918), og keiseren måtte gå av.
+
+## Weimarrepublikken
+
+**Die Weimarer Republik** (1918/1919–1933) var Tysklands første demokrati. Den slet med krigsskadeerstatninger, **hyperinflasjon** i 1923 og **økonomisk krise** etter børskrakket i 1929. Arbeidsløshet og misnøye ga grobunn for ekstreme partier.
+
+## Nazismen og andre verdenskrig
+
+I **1933** kom **Adolf Hitler** og **nazistene** (NSDAP) til makten. De avskaffet demokratiet, forfulgte politiske motstandere og innførte raselover mot **jøder**. Tyskland startet **andre verdenskrig** ved å angripe Polen i **1939**. Under krigen myrdet nazistene rundt **seks millioner jøder** i **Holocaust** (*die Shoah*), i tillegg til rom, mennesker med funksjonsnedsettelser, homofile og andre. Krigen endte med Tysklands **kapitulasjon** i **mai 1945**.
+
+## Et delt land
+
+Etter krigen ble Tyskland delt i fire **okkupasjonssoner**. I **1949** ble det opprettet to stater:
+
+- **die BRD** (Bundesrepublik Deutschland) i vest – demokrati og markedsøkonomi, allierte med USA
+- **die DDR** (Deutsche Demokratische Republik) i øst – kommunistisk ettpartistat under Sovjetunionens innflytelse, med hemmelig politi, **Stasi**
+
+## Berlinmuren
+
+For å stanse flukten fra øst til vest bygde DDR **Berlinmuren** (*die Berliner Mauer*) **13. august 1961**. Mange ble drept da de prøvde å flykte. **9. november 1989** åpnet grensen seg etter store fredelige demonstrasjoner – **Mauerfall**. **3. oktober 1990** ble Tyskland **gjenforent** (*die Wiedervereinigung*). Dagen feires som *der Tag der Deutschen Einheit*.
+
+## Minnekultur
+
+Tyskland har arbeidet mye med å **huske** og ta ansvar for fortiden (*Vergangenheitsbewältigung*). Eksempler er **Holocaust-minnesmerket** i Berlin og **snublesteinene** (*Stolpersteine*) – små messingplater i fortauet utenfor hjemmene til ofre for nazismen.
+
+## Språk: årstall og passiv
+
+**Årstall** sier man uten preposisjon eller med *im Jahr*:
+
+- *1989 fiel die Mauer.* / *Im Jahr 1989 fiel die Mauer.* – ikke *in 1989* som på engelsk
+- 1961 leses *neunzehnhunderteinundsechzig*.
+
+**Passiv** brukes når handlingen er viktigere enn hvem som gjorde den: **werden** + partisipp. I fortid: **wurde** + partisipp.
+
+- *Die Mauer **wurde** 1961 **gebaut**.* – Muren ble bygd i 1961.
+- *Deutschland **wurde** 1990 **wiedervereinigt**.*
+- Den som utfører handlingen, innledes med **von**: *Die Mauer wurde **von** der DDR gebaut.*', '{"label":"Tysk historie","children":[{"label":"Før 1933","children":[{"label":"Keiserriket 1871"},{"label":"Første verdenskrig"},{"label":"Weimarrepublikken"}]},{"label":"1933–1945","children":[{"label":"Nazismen"},{"label":"Holocaust"},{"label":"Andre verdenskrig"}]},{"label":"Delingen","children":[{"label":"BRD og DDR 1949"},{"label":"Stasi"},{"label":"Berlinmuren 1961"}]},{"label":"Gjenforening","children":[{"label":"Mauerfall 9.11.1989"},{"label":"3. oktober 1990"}]},{"label":"Språk","children":[{"label":"Årstall"},{"label":"Passiv: wurde + partisipp"},{"label":"Minnekultur"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'tysk-vg1:historie';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('tysk-vg1:historie', 'das Kaiserreich', 'keiserriket – Tyskland samlet i 1871', 0),
+  ('tysk-vg1:historie', 'die Weimarer Republik', 'Tysklands første demokrati, 1919–1933', 1),
+  ('tysk-vg1:historie', 'die Inflation', 'prisstigningen – hyperinflasjon i 1923', 2),
+  ('tysk-vg1:historie', '1933', 'Hitler og nazistene kom til makten', 3),
+  ('tysk-vg1:historie', 'der Holocaust / die Shoah', 'folkemordet på rundt seks millioner jøder', 4),
+  ('tysk-vg1:historie', 'die BRD', 'Vest-Tyskland, opprettet 1949', 5),
+  ('tysk-vg1:historie', 'die DDR', 'Øst-Tyskland, kommunistisk ettpartistat, opprettet 1949', 6),
+  ('tysk-vg1:historie', 'die Stasi', 'det hemmelige politiet i DDR', 7),
+  ('tysk-vg1:historie', 'die Berliner Mauer', 'Berlinmuren – bygd 13. august 1961', 8),
+  ('tysk-vg1:historie', 'der Mauerfall', 'murens fall 9. november 1989', 9),
+  ('tysk-vg1:historie', 'die Wiedervereinigung', 'gjenforeningen 3. oktober 1990', 10),
+  ('tysk-vg1:historie', 'der Tag der Deutschen Einheit', 'Tysklands nasjonaldag, 3. oktober', 11),
+  ('tysk-vg1:historie', 'die Stolpersteine', 'snublesteiner til minne om ofre for nazismen', 12),
+  ('tysk-vg1:historie', 'wurde gebaut', 'ble bygd (passiv i fortid)', 13),
+  ('tysk-vg1:historie', 'Im Jahr 1989 …', 'I 1989 … (ikke «in 1989»)', 14);
+delete from public.quiz_sporsmal where tema_id = 'tysk-vg1:historie';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('tysk-vg1:historie', 'q01', 'flervalg', 'Når ble Berlinmuren bygd?', array['1949', '1961', '1989', '1945']::text[], 1, '13. august 1961.', true, true, 0),
+  ('tysk-vg1:historie', 'q02', 'flervalg', 'Når ble Tyskland gjenforent?', array['3. oktober 1990', '9. november 1989', '8. mai 1945', '1. januar 2000']::text[], 0, 'Muren falt allerede 9. november 1989.', true, true, 1),
+  ('tysk-vg1:historie', 'q03', 'flervalg', 'Hva var Stasi?', array['Et parti i Vest-Tyskland', 'En fotballklubb', 'Det hemmelige politiet i DDR', 'En avis']::text[], 2, 'Stasi overvåket innbyggerne i Øst-Tyskland.', true, true, 2),
+  ('tysk-vg1:historie', 'q04', 'flervalg', 'Hvordan sier du «I 1989 falt muren» på tysk?', array['In 1989 fiel die Mauer.', 'Im 1989 fiel die Mauer.', 'Auf 1989 fiel die Mauer.', '1989 fiel die Mauer.']::text[], 3, 'Årstall uten preposisjon – eller «im Jahr 1989».', true, true, 3),
+  ('tysk-vg1:historie', 'q05', 'flervalg', 'Hva betyr «Die Mauer wurde 1961 gebaut»?', array['Muren ble bygd i 1961.', 'Muren falt i 1961.', 'Muren blir bygd i 1961.', 'Muren skal bygges i 1961.']::text[], 0, 'wurde + partisipp = passiv i fortid.', true, true, 4),
+  ('tysk-vg1:historie', 'q06', 'flervalg', 'Hva var Weimarrepublikken?', array['Et keiserrike', 'Tysklands første demokrati', 'Et kommunistisk diktatur', 'Et område i Sveits']::text[], 1, 'Den varte fra 1919 til 1933.', true, true, 5),
+  ('tysk-vg1:historie', 'q07', 'flervalg', 'Hva er Stolpersteine?', array['Steiner fra Berlinmuren', 'Et fjellområde', 'Små minneplater i fortauet for ofre for nazismen', 'En type brostein fra keisertiden']::text[], 2, 'De ligger utenfor der ofrene bodde.', true, true, 6),
+  ('tysk-vg1:historie', 'q08', 'flervalg', 'Hvilket år kom nazistene til makten i Tyskland?', array['1918', '1923', '1939', '1933']::text[], 3, 'Hitler ble rikskansler i 1933.', true, true, 7),
+  ('tysk-vg1:historie', 'q09', 'flervalg', 'Hvordan dannes passiv på tysk?', array['werden + partisipp', 'haben + infinitiv', 'sein + infinitiv', 'würde + infinitiv']::text[], 0, 'I fortid: wurde + partisipp.', true, false, 8),
+  ('tysk-vg1:historie', 'q10', 'flervalg', 'Hva var DDR?', array['Vest-Tyskland', 'Den kommunistiske staten i Øst-Tyskland', 'Et parti i Weimarrepublikken', 'Den tyske hæren']::text[], 1, 'DDR eksisterte fra 1949 til 1990.', true, false, 9),
+  ('tysk-vg1:historie', 'm01', 'sant-usant', 'Tyskland ble samlet som keiserrike i 1871.', array['Sant', 'Usant']::text[], 0, 'Før det var Tyskland delt i mange stater.', false, true, 10),
+  ('tysk-vg1:historie', 'm02', 'sant-usant', 'DDR var et demokrati med frie valg.', array['Sant', 'Usant']::text[], 1, 'DDR var en kommunistisk ettpartistat.', false, true, 11),
+  ('tysk-vg1:historie', 'm03', 'sant-usant', '3. oktober er Tysklands nasjonaldag.', array['Sant', 'Usant']::text[], 0, 'Der Tag der Deutschen Einheit.', false, true, 12),
+  ('tysk-vg1:historie', 'm04', 'sant-usant', 'Berlinmuren falt i 1961.', array['Sant', 'Usant']::text[], 1, 'Den ble bygd i 1961 og falt i 1989.', false, true, 13),
+  ('tysk-vg1:historie', 'm05', 'flervalg', 'Hva betyr «die Wiedervereinigung»?', array['delingen', 'gjenforeningen', 'revolusjonen', 'okkupasjonen']::text[], 1, 'Tyskland ble gjenforent i 1990.', false, true, 14),
+  ('tysk-vg1:historie', 'm06', 'flervalg', 'Hvordan sier du «Tyskland ble gjenforent i 1990»?', array['Deutschland wurde 1990 wiedervereinigt.', 'Deutschland hat 1990 wiedervereinigt.', 'Deutschland wird 1990 wiedervereinigt.', 'Deutschland war 1990 wiedervereinigen.']::text[], 0, 'Passiv i fortid: wurde + partisipp.', false, true, 15),
+  ('tysk-vg1:historie', 'm07', 'flervalg', 'Hvilket land angrep Tyskland i 1939, slik at andre verdenskrig startet?', array['Frankrike', 'Norge', 'Polen', 'Sovjetunionen']::text[], 2, 'Angrepet på Polen 1. september 1939.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('tysk-vg1:historie', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Tysk: Litteratur, musikk og film
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('tysk-vg1:kunst-og-kultur', 'tysk-vg1', 'kunst-og-kultur', 'Litteratur, musikk og film', 'Kjente kunstnere og verk fra de tysktalende landene – Goethe, brødrene Grimm, Kafka, Mozart, Beethoven, Bauhaus og tysk film – og hvordan du uttrykker ønsker, drømmer og høflige forespørsler med konjunktiv II.', array[9, 3]::int[], 5, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('tysk-vg1:kunst-og-kultur', '## Litteratur
+
+- **Johann Wolfgang von Goethe** (1749–1832) regnes som Tysklands største forfatter. Hovedverket er dramaet **Faust**, om en mann som selger sjelen sin til djevelen for kunnskap og livsglede.
+- **Brødrene Grimm** samlet folkeeventyr og ga ut **Kinder- und Hausmärchen** i **1812**, med blant annet *Hänsel und Gretel*, *Rotkäppchen* (Rødhette) og *Schneewittchen* (Snøhvit).
+- **Franz Kafka** (1883–1924) bodde i Praha og skrev på tysk. I **Die Verwandlung** (Forvandlingen) våkner Gregor Samsa en morgen forvandlet til et stort insekt. Ordet **kafkaesk** brukes om absurde og uoversiktlige situasjoner.
+
+## Musikk
+
+- **Wolfgang Amadeus Mozart** (1756–1791) fra **Salzburg** i Østerrike skrev over 600 verk, blant annet operaen *Die Zauberflöte* (Tryllefløyten).
+- **Ludwig van Beethoven** (1770–1827) fra Bonn komponerte blant annet den niende symfonien. Melodien *Ode an die Freude* er i dag **EUs hymne** – og han skrev noen av sine største verk mens han var **døv**.
+- I moderne tid er band som **Kraftwerk**, som var pionerer innen elektronisk musikk, og **Rammstein** kjent over hele verden.
+
+## Kunst og design
+
+**Bauhaus** var en kunst- og designskole grunnlagt i **Weimar** i **1919**. Idealet var at form skal følge funksjon, og Bauhaus-stilen – enkle former, rette linjer og funksjonelle møbler – har påvirket arkitektur og design over hele verden.
+
+## Film
+
+- **Good Bye, Lenin!** (2003) er en komedie om en ung mann i Øst-Berlin som prøver å skjule for moren sin at DDR har gått i oppløsning.
+- **Das Leben der Anderen** (De andres liv, 2006) handler om en Stasi-agent som overvåker en forfatter, og vant **Oscar** for beste utenlandske film.
+
+## Konjunktiv II – ønsker og høflighet
+
+Med **konjunktiv II** uttrykker vi **ønsker**, **drømmer**, **hypotetiske** situasjoner og **høflige** spørsmål:
+
+- **würde** + infinitiv: *Ich **würde** gern nach Wien **fahren**.* – Jeg ville gjerne reist til Wien.
+- **hätte**: *Ich **hätte** gern einen Kaffee.* – Jeg vil gjerne ha en kaffe.
+- **wäre**: *Das **wäre** toll!* – Det hadde vært kult!
+- **könnte**: ***Könnten** Sie mir helfen?* – Kunne du (De) hjelpe meg?
+
+*Wenn ich Zeit **hätte**, **würde** ich mehr lesen.* – Hvis jeg hadde tid, ville jeg lest mer.
+
+## Å uttrykke egne opplevelser
+
+- *Der Film hat mir gut gefallen, weil …*
+- *Das Lied erinnert mich an …* – Sangen minner meg om …
+- *Am besten gefällt mir …*
+- *Ich fand das Ende überraschend / traurig / spannend.*', '{"label":"Litteratur, musikk og film","children":[{"label":"Litteratur","children":[{"label":"Goethe: Faust"},{"label":"Brødrene Grimm"},{"label":"Kafka"}]},{"label":"Musikk","children":[{"label":"Mozart"},{"label":"Beethoven"},{"label":"Kraftwerk og Rammstein"}]},{"label":"Kunst","children":[{"label":"Bauhaus 1919"},{"label":"Form følger funksjon"}]},{"label":"Film","children":[{"label":"Good Bye, Lenin!"},{"label":"Das Leben der Anderen"}]},{"label":"Konjunktiv II","children":[{"label":"würde + infinitiv"},{"label":"hätte, wäre, könnte"},{"label":"Wenn ich …, würde ich …"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'tysk-vg1:kunst-og-kultur';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('tysk-vg1:kunst-og-kultur', 'Johann Wolfgang von Goethe', 'Tysklands største forfatter, skrev Faust', 0),
+  ('tysk-vg1:kunst-og-kultur', 'die Brüder Grimm', 'samlet eventyr i Kinder- und Hausmärchen (1812)', 1),
+  ('tysk-vg1:kunst-og-kultur', 'Rotkäppchen', 'Rødhette', 2),
+  ('tysk-vg1:kunst-og-kultur', 'Franz Kafka', 'skrev Die Verwandlung på tysk i Praha', 3),
+  ('tysk-vg1:kunst-og-kultur', 'kafkaesk', 'absurd og uoversiktlig', 4),
+  ('tysk-vg1:kunst-og-kultur', 'Wolfgang Amadeus Mozart', 'komponist fra Salzburg, skrev Die Zauberflöte', 5),
+  ('tysk-vg1:kunst-og-kultur', 'Ludwig van Beethoven', 'komponist fra Bonn; Ode an die Freude er EUs hymne', 6),
+  ('tysk-vg1:kunst-og-kultur', 'das Bauhaus', 'kunst- og designskole grunnlagt i Weimar i 1919', 7),
+  ('tysk-vg1:kunst-og-kultur', 'Good Bye, Lenin!', 'film fra 2003 om DDRs oppløsning', 8),
+  ('tysk-vg1:kunst-og-kultur', 'Das Leben der Anderen', 'Oscar-vinnende film fra 2006 om Stasi-overvåking', 9),
+  ('tysk-vg1:kunst-og-kultur', 'Ich würde gern …', 'Jeg ville gjerne …', 10),
+  ('tysk-vg1:kunst-og-kultur', 'Ich hätte gern …', 'Jeg vil gjerne ha …', 11),
+  ('tysk-vg1:kunst-og-kultur', 'Das wäre toll!', 'Det hadde vært kult!', 12),
+  ('tysk-vg1:kunst-og-kultur', 'Könnten Sie …?', 'Kunne De …? (høflig)', 13),
+  ('tysk-vg1:kunst-og-kultur', 'Der Film hat mir gefallen.', 'Jeg likte filmen.', 14);
+delete from public.quiz_sporsmal where tema_id = 'tysk-vg1:kunst-og-kultur';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('tysk-vg1:kunst-og-kultur', 'q01', 'flervalg', 'Hvem skrev «Faust»?', array['Kafka', 'Goethe', 'Schiller', 'Grimm']::text[], 1, 'Goethe regnes som Tysklands største forfatter.', true, true, 0),
+  ('tysk-vg1:kunst-og-kultur', 'q02', 'flervalg', 'Hva er «Rotkäppchen» på norsk?', array['Rødhette', 'Snøhvit', 'Tornerose', 'Askepott']::text[], 0, 'Eventyret er med i brødrene Grimms samling.', true, true, 1),
+  ('tysk-vg1:kunst-og-kultur', 'q03', 'flervalg', 'Hvilken komponist skrev melodien som i dag er EUs hymne?', array['Mozart', 'Bach', 'Beethoven', 'Wagner']::text[], 2, 'Ode an die Freude fra den niende symfonien.', true, true, 2),
+  ('tysk-vg1:kunst-og-kultur', 'q04', 'flervalg', 'Hva handler «Die Verwandlung» av Kafka om?', array['En reise til Berlin', 'En kjærlighetshistorie', 'Et eventyr med hekser', 'En mann som våkner forvandlet til et insekt']::text[], 3, 'Ordet kafkaesk kommer fra forfatterskapet hans.', true, true, 3),
+  ('tysk-vg1:kunst-og-kultur', 'q05', 'flervalg', 'Hvordan sier du høflig «Jeg vil gjerne ha en kaffe»?', array['Ich hätte gern einen Kaffee.', 'Ich habe Kaffee.', 'Gib mir Kaffee.', 'Ich will Kaffee haben jetzt.']::text[], 0, 'hätte gern er høflig.', true, true, 4),
+  ('tysk-vg1:kunst-og-kultur', 'q06', 'flervalg', 'Hvor ble Bauhaus grunnlagt i 1919?', array['Berlin', 'Weimar', 'München', 'Wien']::text[], 1, 'Senere flyttet skolen til Dessau og Berlin.', true, true, 5),
+  ('tysk-vg1:kunst-og-kultur', 'q07', 'flervalg', 'Hva handler «Good Bye, Lenin!» om?', array['Russisk revolusjon', 'En fotballkamp', 'En sønn som skjuler DDRs oppløsning for moren', 'Livet i Wien']::text[], 2, 'Filmen kom i 2003.', true, true, 6),
+  ('tysk-vg1:kunst-og-kultur', 'q08', 'flervalg', 'Velg riktig: «Wenn ich Zeit ___, würde ich mehr lesen.»', array['habe', 'hatte', 'gehabt', 'hätte']::text[], 3, 'Konjunktiv II i hypotetiske setninger.', true, true, 7),
+  ('tysk-vg1:kunst-og-kultur', 'q09', 'flervalg', 'Hvor var Mozart fra?', array['Salzburg', 'Bonn', 'Berlin', 'Zürich']::text[], 0, 'Salzburg ligger i Østerrike.', true, false, 8),
+  ('tysk-vg1:kunst-og-kultur', 'q10', 'flervalg', 'Hva betyr «Das wäre toll!»?', array['Det var kult!', 'Det hadde vært kult!', 'Det er kult!', 'Det blir kult!']::text[], 1, 'wäre er konjunktiv II av sein.', true, false, 9),
+  ('tysk-vg1:kunst-og-kultur', 'm01', 'sant-usant', 'Kafka skrev på tysk selv om han bodde i Praha.', array['Sant', 'Usant']::text[], 0, 'Praha hadde et stort tyskspråklig miljø.', false, true, 10),
+  ('tysk-vg1:kunst-og-kultur', 'm02', 'sant-usant', 'Brødrene Grimm skrev alle eventyrene selv.', array['Sant', 'Usant']::text[], 1, 'De samlet folkeeventyr som allerede ble fortalt.', false, true, 11),
+  ('tysk-vg1:kunst-og-kultur', 'm03', 'sant-usant', '«Könnten Sie mir helfen?» er en høflig forespørsel.', array['Sant', 'Usant']::text[], 0, 'Konjunktiv II gjør forespørselen høflig.', false, true, 12),
+  ('tysk-vg1:kunst-og-kultur', 'm04', 'sant-usant', 'Beethoven kunne høre godt hele livet.', array['Sant', 'Usant']::text[], 1, 'Han skrev noen av sine største verk mens han var døv.', false, true, 13),
+  ('tysk-vg1:kunst-og-kultur', 'm05', 'flervalg', 'Hva betyr «Ich würde gern nach Wien fahren»?', array['Jeg reiste til Wien.', 'Jeg ville gjerne reist til Wien.', 'Jeg skal reise til Wien.', 'Jeg har reist til Wien.']::text[], 1, 'würde + infinitiv uttrykker ønske.', false, true, 14),
+  ('tysk-vg1:kunst-og-kultur', 'm06', 'flervalg', 'Hvilken film vant Oscar for beste utenlandske film?', array['Das Leben der Anderen', 'Good Bye, Lenin!', 'Faust', 'Die Zauberflöte']::text[], 0, 'Filmen handler om Stasi-overvåking.', false, true, 15),
+  ('tysk-vg1:kunst-og-kultur', 'm07', 'flervalg', 'Hva betyr «Das Lied erinnert mich an den Sommer»?', array['Sangen handler om sommeren.', 'Jeg liker sangen om sommeren.', 'Sangen minner meg om sommeren.', 'Jeg hørte sangen i sommer.']::text[], 2, 'erinnern an = minne om.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('tysk-vg1:kunst-og-kultur', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Fransk (vg1): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'fransk-vg1' and slug not in ('identitet-og-relasjoner', 'skole-og-arbeid', 'fortelle-om-opplevelser', 'samfunn-og-aktuelle-saker', 'historie', 'kunst-og-kultur');
+
+-- Fransk: Identitet, vennskap og følelser
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('fransk-vg1:identitet-og-relasjoner', 'fransk-vg1', 'identitet-og-relasjoner', 'Identitet, vennskap og følelser', 'Hvordan du beskriver personlighet, vennskap og følelser på fransk, med adjektiver som bøyes i kjønn, pronominale verb og objektspronomen (le, la, les, lui, leur).', array[2, 3, 6]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('fransk-vg1:identitet-og-relasjoner', '## Å beskrive personlighet
+
+Franske adjektiver **bøyes** etter kjønn og tall. Mange får **-e** i hunkjønn, men noen har egne mønstre:
+
+| Hankjønn | Hunkjønn | Betydning |
+| --- | --- | --- |
+| gentil | gentille | snill |
+| sérieux | sérieuse | seriøs |
+| curieux | curieuse | nysgjerrig |
+| sportif | sportive | sporty |
+| travailleur | travailleuse | arbeidsom |
+| timide | timide | sjenert |
+| drôle | drôle | morsom |
+
+*Ma meilleure amie est gentille et drôle, mais un peu timide.*
+
+## Pronominale verb
+
+**Pronominale verb** har et pronomen som viser tilbake til subjektet – ofte om følelser, relasjoner og daglige rutiner:
+
+| | s''entendre (komme overens) |
+| --- | --- |
+| je | **m''**entends |
+| tu | **t''**entends |
+| il/elle/on | **s''**entend |
+| nous | **nous** entendons |
+| vous | **vous** entendez |
+| ils/elles | **s''**entendent |
+
+Andre eksempler: *se disputer* (krangle), *s''amuser* (ha det gøy), *s''inquiéter* (bekymre seg), *se sentir* (føle seg), *s''intéresser à* (interessere seg for).
+
+*Je m''entends bien avec mon frère.* – Jeg kommer godt overens med broren min.
+*On se dispute parfois.* – Vi krangler av og til.
+
+## Objektspronomen
+
+For å unngå gjentakelse erstatter vi objektet med et **pronomen** som står **foran verbet**:
+
+- **Direkte objekt** (COD): **le**, **la**, **les** – *Tu vois Marie ? Oui, je **la** vois.*
+- **Indirekte objekt** (COI), ofte etter verb med **à**: **lui** (ham/henne), **leur** (dem) – *Je parle à mes parents → Je **leur** parle.*
+
+Nyttige verb med COI: *parler à*, *téléphoner à*, *écrire à*, *donner à*, *répondre à*.
+
+## Følelser
+
+- *Je suis content(e) / triste / fâché(e) / déçu(e) / stressé(e).*
+- *Ça va bien / mal.*
+- *J''en ai marre !* – Jeg er lei!
+- *Je me sens seul(e).* – Jeg føler meg ensom.
+
+## Vennskap og familie
+
+*un(e) ami(e)* (venn), *un copain / une copine* (kompis, også kjæreste), *le petit ami / la petite amie* (kjæresten), *les parents* (foreldrene), *les frères et sœurs* (søsknene). **On** brukes ofte i stedet for **nous** i muntlig språk: *On se voit demain ?*
+
+## Strategi
+
+Når du lærer adjektiver, lær **begge formene** med én gang (gentil – gentille). Øv på å snakke spontant i ett minutt om en person du kjenner godt.', '{"label":"Identitet og relasjoner","children":[{"label":"Adjektiver","children":[{"label":"gentil – gentille"},{"label":"sérieux – sérieuse"},{"label":"sportif – sportive"}]},{"label":"Pronominale verb","children":[{"label":"s''entendre"},{"label":"se disputer"},{"label":"s''amuser"}]},{"label":"Objektspronomen","children":[{"label":"le, la, les"},{"label":"lui, leur"},{"label":"Foran verbet"}]},{"label":"Følelser","children":[{"label":"content, triste"},{"label":"déçu, stressé"},{"label":"J''en ai marre"}]},{"label":"Relasjoner","children":[{"label":"ami, copain"},{"label":"petit ami"},{"label":"on = vi"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'fransk-vg1:identitet-og-relasjoner';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('fransk-vg1:identitet-og-relasjoner', 'gentil / gentille', 'snill', 0),
+  ('fransk-vg1:identitet-og-relasjoner', 'sérieux / sérieuse', 'seriøs', 1),
+  ('fransk-vg1:identitet-og-relasjoner', 'curieux / curieuse', 'nysgjerrig', 2),
+  ('fransk-vg1:identitet-og-relasjoner', 'travailleur / travailleuse', 'arbeidsom', 3),
+  ('fransk-vg1:identitet-og-relasjoner', 'timide', 'sjenert', 4),
+  ('fransk-vg1:identitet-og-relasjoner', 's''entendre bien avec', 'komme godt overens med', 5),
+  ('fransk-vg1:identitet-og-relasjoner', 'se disputer', 'krangle', 6),
+  ('fransk-vg1:identitet-og-relasjoner', 's''amuser', 'ha det gøy', 7),
+  ('fransk-vg1:identitet-og-relasjoner', 's''inquiéter', 'bekymre seg', 8),
+  ('fransk-vg1:identitet-og-relasjoner', 'je la vois', 'jeg ser henne/den (direkte objekt)', 9),
+  ('fransk-vg1:identitet-og-relasjoner', 'je leur parle', 'jeg snakker med dem (indirekte objekt)', 10),
+  ('fransk-vg1:identitet-og-relasjoner', 'déçu / déçue', 'skuffet', 11),
+  ('fransk-vg1:identitet-og-relasjoner', 'J''en ai marre !', 'Jeg er lei!', 12),
+  ('fransk-vg1:identitet-og-relasjoner', 'la petite amie', 'kjæresten (jente)', 13),
+  ('fransk-vg1:identitet-og-relasjoner', 'On se voit demain ?', 'Ses vi i morgen?', 14);
+delete from public.quiz_sporsmal where tema_id = 'fransk-vg1:identitet-og-relasjoner';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('fransk-vg1:identitet-og-relasjoner', 'q01', 'flervalg', 'Hva er hunkjønnsformen av «sérieux»?', array['sérieuxe', 'sérieuse', 'sérieuxse', 'sérieus']::text[], 1, 'Adjektiver på -eux får -euse i hunkjønn.', true, true, 0),
+  ('fransk-vg1:identitet-og-relasjoner', 'q02', 'flervalg', 'Hva betyr «Je m''entends bien avec ma sœur»?', array['Jeg kommer godt overens med søsteren min.', 'Jeg hører søsteren min godt.', 'Jeg venter på søsteren min.', 'Jeg krangler med søsteren min.']::text[], 0, 's''entendre avec = komme overens med.', true, true, 1),
+  ('fransk-vg1:identitet-og-relasjoner', 'q03', 'flervalg', 'Erstatt objektet: «Je parle à mes parents.»', array['Je les parle.', 'Je lui parle.', 'Je leur parle.', 'Je parle leur.']::text[], 2, 'parler à + flertall → leur, foran verbet.', true, true, 2),
+  ('fransk-vg1:identitet-og-relasjoner', 'q04', 'flervalg', 'Velg riktig: «Tu vois Marie ? Oui, je ___ vois.»', array['lui', 'le', 'leur', 'la']::text[], 3, 'Marie er direkte objekt, hunkjønn: la.', true, true, 3),
+  ('fransk-vg1:identitet-og-relasjoner', 'q05', 'flervalg', 'Hva betyr «se disputer»?', array['krangle', 'diskutere rolig', 'bestemme seg', 'ha det gøy']::text[], 0, 'On se dispute parfois.', true, true, 4),
+  ('fransk-vg1:identitet-og-relasjoner', 'q06', 'flervalg', 'Hva er riktig form? «Nous ___ amusons bien.»', array['se', 'nous', 'vous', 's''']::text[], 1, 'nous → nous amusons.', true, true, 5),
+  ('fransk-vg1:identitet-og-relasjoner', 'q07', 'flervalg', 'Hva betyr «J''en ai marre !»?', array['Jeg er sulten!', 'Jeg er glad!', 'Jeg er lei!', 'Jeg er trøtt!']::text[], 2, 'Et vanlig uformelt uttrykk.', true, true, 6),
+  ('fransk-vg1:identitet-og-relasjoner', 'q08', 'flervalg', 'Hvor står objektspronomenet i en fransk setning?', array['Sist i setningen', 'Etter verbet', 'Først i setningen', 'Foran verbet']::text[], 3, 'Je la vois. Je leur parle.', true, true, 7),
+  ('fransk-vg1:identitet-og-relasjoner', 'q09', 'flervalg', 'Hva er hunkjønnsformen av «sportif»?', array['sportive', 'sportife', 'sportifs', 'sportiffe']::text[], 0, '-if blir -ive.', true, false, 8),
+  ('fransk-vg1:identitet-og-relasjoner', 'q10', 'flervalg', 'Hva brukes «on» ofte som i muntlig fransk?', array['man eller de', 'vi', 'dere', 'jeg']::text[], 1, 'On se voit demain ? = Ses vi i morgen?', true, false, 9),
+  ('fransk-vg1:identitet-og-relasjoner', 'm01', 'sant-usant', '«timide» har samme form i hankjønn og hunkjønn.', array['Sant', 'Usant']::text[], 0, 'Adjektiver som ender på -e i hankjønn, endres ikke.', false, true, 10),
+  ('fransk-vg1:identitet-og-relasjoner', 'm02', 'sant-usant', '«lui» kan bare bety «ham».', array['Sant', 'Usant']::text[], 1, 'Som indirekte objekt betyr lui både ham og henne.', false, true, 11),
+  ('fransk-vg1:identitet-og-relasjoner', 'm03', 'sant-usant', '«s''inquiéter» betyr å bekymre seg.', array['Sant', 'Usant']::text[], 0, 'Ne t''inquiète pas ! = Ikke bekymre deg!', false, true, 12),
+  ('fransk-vg1:identitet-og-relasjoner', 'm04', 'sant-usant', '«copine» kan bare bety venninne, aldri kjæreste.', array['Sant', 'Usant']::text[], 1, 'Copine kan bety både venninne og kjæreste.', false, true, 13),
+  ('fransk-vg1:identitet-og-relasjoner', 'm05', 'flervalg', 'Hva betyr «Je me sens seule»?', array['Jeg er alene hjemme.', 'Jeg føler meg ensom.', 'Jeg liker å være alene.', 'Jeg ser meg selv.']::text[], 1, 'se sentir = føle seg.', false, true, 14),
+  ('fransk-vg1:identitet-og-relasjoner', 'm06', 'flervalg', 'Erstatt objektet: «Je donne le livre à Paul.» → «Je ___ donne le livre.»', array['lui', 'le', 'leur', 'la']::text[], 0, 'à Paul → lui.', false, true, 15),
+  ('fransk-vg1:identitet-og-relasjoner', 'm07', 'flervalg', 'Hva er hunkjønnsformen av «travailleur»?', array['travailleure', 'travailleuresse', 'travailleuse', 'travailleurse']::text[], 2, '-eur blir ofte -euse.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('fransk-vg1:identitet-og-relasjoner', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Fransk: Skole, utdanning og framtid
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('fransk-vg1:skole-og-arbeid', 'fransk-vg1', 'skole-og-arbeid', 'Skole, utdanning og framtid', 'Det franske skolesystemet – collège, lycée og le bac – praksisplass og jobbsøknad, og hvordan du snakker om framtiden med futur proche, futur simple og si-setninger.', array[1, 2, 5]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('fransk-vg1:skole-og-arbeid', '## Skolen i Frankrike
+
+- **L''école primaire** – barneskolen, fra 6 til 11 år
+- **Le collège** – ungdomsskolen, fire år (11–15 år)
+- **Le lycée** – videregående, tre år: *la seconde*, *la première* og *la terminale*
+- **Le bac** (*le baccalauréat*) – avsluttende eksamen som gir adgang til høyere utdanning
+
+Franske skoledager er ofte **lange**, og mange har fri eller halv dag **onsdag**. Karakterskalaen går fra **0 til 20**, der 10 er bestått.
+
+## To måter å snakke om framtiden på
+
+**1. Futur proche** – *aller* + infinitiv – om det som skal skje snart eller er planlagt:
+*Je **vais passer** le bac l''année prochaine.*
+
+**2. Futur simple** – om framtiden mer generelt, planer og spådommer. Man legger endelser til **infinitiven** (verb på -re mister -e):
+
+| | travailler |
+| --- | --- |
+| je | travailler**ai** |
+| tu | travailler**as** |
+| il/elle/on | travailler**a** |
+| nous | travailler**ons** |
+| vous | travailler**ez** |
+| ils/elles | travailler**ont** |
+
+**Uregelmessige stammer** – endelsene er de samme:
+
+- être → **ser**- : *je serai*
+- avoir → **aur**- : *j''aurai*
+- aller → **ir**- : *j''irai*
+- faire → **fer**- : *je ferai*
+- pouvoir → **pourr**- : *je pourrai*
+- venir → **viendr**- : *je viendrai*
+
+*Plus tard, je serai médecin et j''habiterai à Bergen.*
+
+## Si-setninger
+
+**Si + presens → futur simple**: *Si j''ai mon bac, j''irai à l''université.* – Hvis jeg får bac, skal jeg gå på universitetet.
+
+Husk: **ikke futur** etter *si*!
+
+## Jobb og søknad
+
+- *un stage* (praksisplass), *un job d''été* (sommerjobb), *un salaire* (lønn)
+- *un CV*, *une lettre de motivation* (søknadsbrev), *un entretien d''embauche* (jobbintervju)
+
+En formell e-post kan begynne med **Madame, Monsieur,** og avsluttes med **Cordialement**. I et formelt brev brukes ofte den lange avslutningen *Veuillez agréer, Madame, Monsieur, l''expression de mes salutations distinguées.*
+
+*Je souhaiterais faire un stage dans votre entreprise, car je m''intéresse au tourisme.* – Jeg ønsker å ha praksis i bedriften deres, fordi jeg interesserer meg for turisme.
+
+## Yrker
+
+Mange yrker har egne hunkjønnsformer: *un acteur / une actrice*, *un infirmier / une infirmière* (sykepleier), *un vendeur / une vendeuse* (selger). Som på norsk bruker man **ikke artikkel** foran yrket etter *être*: *Elle est avocate.*', '{"label":"Skole og framtid","children":[{"label":"Skolen","children":[{"label":"école primaire"},{"label":"collège"},{"label":"lycée og bac"}]},{"label":"Futur proche","children":[{"label":"aller + infinitiv"},{"label":"Nære planer"}]},{"label":"Futur simple","children":[{"label":"Infinitiv + -ai, -as, -a …"},{"label":"serai, aurai, irai, ferai"}]},{"label":"Si-setninger","children":[{"label":"si + presens"},{"label":"→ futur simple"}]},{"label":"Arbeid","children":[{"label":"stage, job d''été"},{"label":"CV og lettre de motivation"},{"label":"Cordialement"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'fransk-vg1:skole-og-arbeid';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('fransk-vg1:skole-og-arbeid', 'le collège', 'ungdomsskolen (11–15 år)', 0),
+  ('fransk-vg1:skole-og-arbeid', 'le lycée', 'videregående skole', 1),
+  ('fransk-vg1:skole-og-arbeid', 'la terminale', 'siste året på lycée', 2),
+  ('fransk-vg1:skole-og-arbeid', 'le bac', 'avsluttende eksamen som gir adgang til høyere utdanning', 3),
+  ('fransk-vg1:skole-og-arbeid', 'Je vais passer le bac.', 'Jeg skal ta bac. (futur proche)', 4),
+  ('fransk-vg1:skole-og-arbeid', 'je travaillerai', 'jeg skal/vil jobbe (futur simple)', 5),
+  ('fransk-vg1:skole-og-arbeid', 'je serai', 'jeg skal/vil være', 6),
+  ('fransk-vg1:skole-og-arbeid', 'j''aurai', 'jeg skal/vil ha', 7),
+  ('fransk-vg1:skole-og-arbeid', 'j''irai', 'jeg skal/vil dra', 8),
+  ('fransk-vg1:skole-og-arbeid', 'je ferai', 'jeg skal/vil gjøre', 9),
+  ('fransk-vg1:skole-og-arbeid', 'Si j''ai le bac, j''irai à l''université.', 'Hvis jeg får bac, skal jeg gå på universitetet.', 10),
+  ('fransk-vg1:skole-og-arbeid', 'un stage', 'en praksisplass', 11),
+  ('fransk-vg1:skole-og-arbeid', 'une lettre de motivation', 'et søknadsbrev', 12),
+  ('fransk-vg1:skole-og-arbeid', 'un entretien d''embauche', 'et jobbintervju', 13),
+  ('fransk-vg1:skole-og-arbeid', 'Cordialement', 'Med vennlig hilsen (i formelle e-poster)', 14);
+delete from public.quiz_sporsmal where tema_id = 'fransk-vg1:skole-og-arbeid';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('fransk-vg1:skole-og-arbeid', 'q01', 'flervalg', 'Hva heter det siste året på lycée?', array['la seconde', 'la terminale', 'la première', 'le collège']::text[], 1, 'Etter terminale tar elevene bac.', true, true, 0),
+  ('fransk-vg1:skole-og-arbeid', 'q02', 'flervalg', 'Hva er futur simple av «je suis»?', array['je serai', 'je sera', 'j''étais', 'je suisrai']::text[], 0, 'être har stammen ser-.', true, true, 1),
+  ('fransk-vg1:skole-og-arbeid', 'q03', 'flervalg', 'Hvordan lages futur proche?', array['avoir + partisipp', 'être + infinitiv', 'aller + infinitiv', 'venir de + infinitiv']::text[], 2, 'Je vais partir demain.', true, true, 2),
+  ('fransk-vg1:skole-og-arbeid', 'q04', 'flervalg', 'Velg riktig: «Si j''ai le temps, je ___ au cinéma.»', array['vais', 'irais', 'allais', 'irai']::text[], 3, 'si + presens → futur simple.', true, true, 3),
+  ('fransk-vg1:skole-og-arbeid', 'q05', 'flervalg', 'Hva betyr «un stage»?', array['en praksisplass', 'en scene', 'et stadion', 'en eksamen']::text[], 0, 'Mange elever tar un stage i en bedrift.', true, true, 4),
+  ('fransk-vg1:skole-og-arbeid', 'q06', 'flervalg', 'Hva er futur simple av «nous faisons»?', array['nous faisrons', 'nous ferons', 'nous fairons', 'nous faisions']::text[], 1, 'faire har stammen fer-.', true, true, 5),
+  ('fransk-vg1:skole-og-arbeid', 'q07', 'flervalg', 'Hvilken karakterskala brukes i franske skoler?', array['1–6', 'A–F', '0–20', '0–100']::text[], 2, '10 av 20 er bestått.', true, true, 6),
+  ('fransk-vg1:skole-og-arbeid', 'q08', 'flervalg', 'Hvordan sier du «Hun er advokat»?', array['Elle est une avocate.', 'Elle est la avocate.', 'Elle a avocate.', 'Elle est avocate.']::text[], 3, 'Ingen artikkel foran yrket etter être.', true, true, 7),
+  ('fransk-vg1:skole-og-arbeid', 'q09', 'flervalg', 'Hvilken avslutning passer i en formell e-post?', array['Cordialement', 'Bisous', 'À plus !', 'Salut']::text[], 0, 'Bisous og À plus er uformelle.', true, false, 8),
+  ('fransk-vg1:skole-og-arbeid', 'q10', 'flervalg', 'Hva er futur simple av «j''ai»?', array['j''avoirai', 'j''aurai', 'j''avais', 'j''airai']::text[], 1, 'avoir har stammen aur-.', true, false, 9),
+  ('fransk-vg1:skole-og-arbeid', 'm01', 'sant-usant', 'Le collège er ungdomsskolen i Frankrike.', array['Sant', 'Usant']::text[], 0, 'College er ikke det samme som på engelsk.', false, true, 10),
+  ('fransk-vg1:skole-og-arbeid', 'm02', 'sant-usant', 'Etter «si» bruker man futur simple i samme ledd.', array['Sant', 'Usant']::text[], 1, 'Etter si bruker man presens: Si j''ai …', false, true, 11),
+  ('fransk-vg1:skole-og-arbeid', 'm03', 'sant-usant', '«une infirmière» betyr en sykepleier.', array['Sant', 'Usant']::text[], 0, 'Hankjønn: un infirmier.', false, true, 12),
+  ('fransk-vg1:skole-og-arbeid', 'm04', 'sant-usant', 'I futur simple mister verb på -er endelsen før man legger til -ai.', array['Sant', 'Usant']::text[], 1, 'Man legger endelsen til hele infinitiven: travailler → travaillerai.', false, true, 13),
+  ('fransk-vg1:skole-og-arbeid', 'm05', 'flervalg', 'Hva er futur simple av «je peux»?', array['je pourrai', 'je peuxrai', 'je pouvrai', 'je pouvais']::text[], 0, 'pouvoir har stammen pourr-.', false, true, 14),
+  ('fransk-vg1:skole-og-arbeid', 'm06', 'flervalg', 'Hva betyr «un entretien d''embauche»?', array['en lønnsforhandling', 'et jobbintervju', 'en praksisplass', 'en arbeidskontrakt']::text[], 1, 'Man blir invitert etter å ha sendt søknad.', false, true, 15),
+  ('fransk-vg1:skole-og-arbeid', 'm07', 'flervalg', 'Hva betyr «Je vais partir demain»?', array['Jeg dro i går.', 'Jeg drar ofte.', 'Jeg skal dra i morgen.', 'Jeg ville dratt i morgen.']::text[], 2, 'Futur proche.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('fransk-vg1:skole-og-arbeid', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Fransk: Å fortelle om opplevelser
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('fransk-vg1:fortelle-om-opplevelser', 'fransk-vg1', 'fortelle-om-opplevelser', 'Å fortelle om opplevelser', 'Hvordan du forteller om opplevelser på fransk ved å kombinere passé composé og imparfait, verb som bøyes med être, samsvar i partisipp og tidsuttrykk som gir fortellingen struktur.', array[3, 5, 6]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('fransk-vg1:fortelle-om-opplevelser', '## To fortidsformer
+
+Når vi forteller om fortiden på fransk, kombinerer vi to tider:
+
+- **Imparfait** beskriver **bakgrunn**, **situasjoner**, **vaner** og **tilstander**: hvordan det **var**.
+- **Passé composé** forteller om **avsluttede handlinger** og **hendelser**: hva som **skjedde**.
+
+*Il **pleuvait** et il **faisait** froid. Soudain, quelqu''un **a frappé** à la porte.* – Det regnet og var kaldt. Plutselig banket noen på døra.
+
+## Imparfait
+
+Ta stammen fra **nous**-formen i presens og legg til endelsene **-ais, -ais, -ait, -ions, -iez, -aient**:
+
+- nous **fais**ons → je **faisais**
+- nous **fin**issons → je **finissais**
+- nous **av**ons → j''**avais**
+
+Eneste unntak: **être** → j''**étais**.
+
+*Quand j''étais petit, j''allais chez ma grand-mère tous les étés.* – Da jeg var liten, dro jeg til bestemor hver sommer.
+
+## Passé composé med avoir og être
+
+De fleste verb bruker **avoir** + partisipp: *J''**ai mangé**. Nous **avons vu** un film.*
+
+Noen verb, mest om **bevegelse** og **forandring**, bruker **être**: *aller, venir, arriver, partir, entrer, sortir, monter, descendre, naître, mourir, rester, tomber, retourner* – og alle **pronominale verb** (*je me suis levé*).
+
+Med **être** skal partisippet **samsvare** med subjektet:
+
+- *Il est parti.* – *Elle est parti**e**.* – *Ils sont parti**s**.* – *Elles sont parti**es**.*
+
+## Viktige partisipper
+
+*faire → fait*, *prendre → pris*, *voir → vu*, *avoir → eu*, *être → été*, *boire → bu*, *lire → lu*, *mettre → mis*, *venir → venu*, *naître → né*.
+
+## Tidsuttrykk
+
+*d''abord* (først), *ensuite / puis* (så), *après* (etterpå), *soudain / tout à coup* (plutselig), *enfin / finalement* (til slutt), *il y a deux ans* (for to år siden), *l''été dernier* (i fjor sommer), *pendant* (i løpet av).
+
+## Bygg opp en fortelling
+
+1. **Situasjonen** i imparfait: *C''était un samedi matin. Il faisait beau.*
+2. **Hendelsene** i passé composé: *Nous sommes partis à la plage. Tout à coup, mon frère est tombé.*
+3. **Følelser**: *J''avais peur. Nous étions très contents.*
+4. **Avslutning**: *Finalement, tout s''est bien passé.*
+
+En nyttig tommelfingerregel: Kan du spørre «**og hva skjedde så?**» – bruk passé composé. Beskriver du **hvordan noe var** – bruk imparfait.', '{"label":"Fortelle om opplevelser","children":[{"label":"Imparfait","children":[{"label":"Bakgrunn og vaner"},{"label":"nous-stamme + -ais"},{"label":"j''étais"}]},{"label":"Passé composé","children":[{"label":"avoir + partisipp"},{"label":"être + partisipp"},{"label":"Samsvar"}]},{"label":"Partisipper","children":[{"label":"fait, pris, vu"},{"label":"eu, été"}]},{"label":"Tidsuttrykk","children":[{"label":"d''abord, ensuite"},{"label":"soudain"},{"label":"finalement"}]},{"label":"Fortellingen","children":[{"label":"Situasjon"},{"label":"Hendelser"},{"label":"Følelser og slutt"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'fransk-vg1:fortelle-om-opplevelser';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('fransk-vg1:fortelle-om-opplevelser', 'imparfait', 'fortid for bakgrunn, vaner og tilstander', 0),
+  ('fransk-vg1:fortelle-om-opplevelser', 'passé composé', 'fortid for avsluttede handlinger og hendelser', 1),
+  ('fransk-vg1:fortelle-om-opplevelser', 'j''étais', 'jeg var (imparfait av être)', 2),
+  ('fransk-vg1:fortelle-om-opplevelser', 'il faisait froid', 'det var kaldt', 3),
+  ('fransk-vg1:fortelle-om-opplevelser', 'il pleuvait', 'det regnet', 4),
+  ('fransk-vg1:fortelle-om-opplevelser', 'Elle est partie.', 'Hun dro. (samsvar med être)', 5),
+  ('fransk-vg1:fortelle-om-opplevelser', 'Je me suis levé(e).', 'Jeg sto opp. (pronominale verb bruker être)', 6),
+  ('fransk-vg1:fortelle-om-opplevelser', 'fait / pris / vu', 'partisipp av faire, prendre, voir', 7),
+  ('fransk-vg1:fortelle-om-opplevelser', 'eu / été', 'partisipp av avoir og être', 8),
+  ('fransk-vg1:fortelle-om-opplevelser', 'soudain / tout à coup', 'plutselig', 9),
+  ('fransk-vg1:fortelle-om-opplevelser', 'd''abord', 'først', 10),
+  ('fransk-vg1:fortelle-om-opplevelser', 'finalement', 'til slutt', 11),
+  ('fransk-vg1:fortelle-om-opplevelser', 'il y a deux ans', 'for to år siden', 12),
+  ('fransk-vg1:fortelle-om-opplevelser', 'l''été dernier', 'i fjor sommer', 13),
+  ('fransk-vg1:fortelle-om-opplevelser', 'J''avais peur.', 'Jeg var redd.', 14);
+delete from public.quiz_sporsmal where tema_id = 'fransk-vg1:fortelle-om-opplevelser';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('fransk-vg1:fortelle-om-opplevelser', 'q01', 'flervalg', 'Hvilken tid brukes om bakgrunn og vaner i fortiden?', array['Passé composé', 'Imparfait', 'Futur simple', 'Presens']::text[], 1, 'Imparfait beskriver hvordan det var.', true, true, 0),
+  ('fransk-vg1:fortelle-om-opplevelser', 'q02', 'flervalg', 'Hva er imparfait av «nous faisons» i jeg-form?', array['je faisais', 'je fais', 'j''ai fait', 'je ferai']::text[], 0, 'Stamme fais- + -ais.', true, true, 1),
+  ('fransk-vg1:fortelle-om-opplevelser', 'q03', 'flervalg', 'Velg riktig: «Elle est ___ à 8 heures.»', array['parti', 'partis', 'partie', 'parties']::text[], 2, 'Med être samsvarer partisippet: partie.', true, true, 2),
+  ('fransk-vg1:fortelle-om-opplevelser', 'q04', 'flervalg', 'Hvilket verb bruker être i passé composé?', array['manger', 'voir', 'faire', 'tomber']::text[], 3, 'Je suis tombé(e).', true, true, 3),
+  ('fransk-vg1:fortelle-om-opplevelser', 'q05', 'flervalg', 'Velg riktig kombinasjon: «Il ___ quand je ___.» (Det regnet da jeg gikk ut.)', array['pleuvait – suis sorti', 'a plu – sortais', 'pleut – sors', 'pleuvra – sortirai']::text[], 0, 'Bakgrunn i imparfait, hendelse i passé composé.', true, true, 4),
+  ('fransk-vg1:fortelle-om-opplevelser', 'q06', 'flervalg', 'Hva er partisipp av «prendre»?', array['prendu', 'pris', 'prené', 'prit']::text[], 1, 'J''ai pris le train.', true, true, 5),
+  ('fransk-vg1:fortelle-om-opplevelser', 'q07', 'flervalg', 'Hva er imparfait av «être» i jeg-form?', array['je suivais', 'j''étaient', 'j''étais', 'je serai']::text[], 2, 'être er det eneste unntaket fra nous-regelen.', true, true, 6),
+  ('fransk-vg1:fortelle-om-opplevelser', 'q08', 'flervalg', 'Hva betyr «tout à coup»?', array['til slutt', 'først', 'etterpå', 'plutselig']::text[], 3, 'Også soudain betyr plutselig.', true, true, 7),
+  ('fransk-vg1:fortelle-om-opplevelser', 'q09', 'flervalg', 'Hvilket hjelpeverb bruker pronominale verb i passé composé?', array['être', 'avoir', 'aller', 'faire']::text[], 0, 'Je me suis levé(e).', true, false, 8),
+  ('fransk-vg1:fortelle-om-opplevelser', 'q10', 'flervalg', 'Hva betyr «il y a deux ans»?', array['om to år', 'for to år siden', 'i to år', 'annethvert år']::text[], 1, 'il y a + tid = for … siden.', true, false, 9),
+  ('fransk-vg1:fortelle-om-opplevelser', 'm01', 'sant-usant', '«aller» bruker être i passé composé.', array['Sant', 'Usant']::text[], 0, 'Je suis allé(e).', false, true, 10),
+  ('fransk-vg1:fortelle-om-opplevelser', 'm02', 'sant-usant', 'Imparfait brukes om en plutselig hendelse som avbryter noe.', array['Sant', 'Usant']::text[], 1, 'Den plutselige hendelsen står i passé composé.', false, true, 11),
+  ('fransk-vg1:fortelle-om-opplevelser', 'm03', 'sant-usant', '«Ils sont partis» viser samsvar i flertall.', array['Sant', 'Usant']::text[], 0, 'Partisippet får -s i flertall.', false, true, 12),
+  ('fransk-vg1:fortelle-om-opplevelser', 'm04', 'sant-usant', 'Partisippet av «voir» er «voiré».', array['Sant', 'Usant']::text[], 1, 'Partisippet er vu.', false, true, 13),
+  ('fransk-vg1:fortelle-om-opplevelser', 'm05', 'flervalg', 'Hva betyr «Quand j''étais petit, j''allais chez ma grand-mère»?', array['Da jeg var liten, pleide jeg å dra til bestemor.', 'Jeg skal dra til bestemor.', 'Jeg dro til bestemor i går.', 'Bestemor var liten.']::text[], 0, 'Imparfait uttrykker vaner.', false, true, 14),
+  ('fransk-vg1:fortelle-om-opplevelser', 'm06', 'flervalg', 'Hva er partisipp av «avoir»?', array['avé', 'avu', 'eu', 'été']::text[], 2, 'J''ai eu de la chance.', false, true, 15),
+  ('fransk-vg1:fortelle-om-opplevelser', 'm07', 'flervalg', 'Hvordan sier du «i fjor sommer»?', array['l''été prochain', 'l''été dernier', 'cet été', 'en été']::text[], 1, 'dernier = forrige.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('fransk-vg1:fortelle-om-opplevelser', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Fransk: Samfunn i Frankrike og den fransktalende verden
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('fransk-vg1:samfunn-og-aktuelle-saker', 'fransk-vg1', 'samfunn-og-aktuelle-saker', 'Samfunn i Frankrike og den fransktalende verden', 'Hvordan Frankrike er styrt, republikkens verdier og laïcité, protestkultur, den fransktalende verden – og hvordan du uttrykker meninger og bruker relativpronomenene qui, que, où og dont.', array[4, 5, 8]::int[], 3, 'sjekkes', array['Sjekk tallene for antall fransktalende og antall land med fransk som offisielt språk.']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('fransk-vg1:samfunn-og-aktuelle-saker', '## Den franske republikken
+
+Frankrike er en **republikk** med en sterk **president**, som velges direkte av folket for **fem år**. Presidenten utnevner **statsministeren** (*le Premier ministre*). Nasjonalforsamlingen heter **l''Assemblée nationale**. Frankrikes motto er **Liberté, Égalité, Fraternité** – frihet, likhet, brorskap.
+
+Fastlands-Frankrike er delt i **13 regioner**. I tillegg har Frankrike **oversjøiske** områder, som **Guadeloupe**, **Martinique**, **Fransk Guyana** og **La Réunion**, som er en fullverdig del av landet – og av EU.
+
+## Laïcité
+
+**Laïcité** betyr at staten er **nøytral** i religiøse spørsmål, og at religion og stat er **atskilt**. Prinsippet ble slått fast i en lov fra **1905**. I offentlige skoler er det forbudt for elever å bære tydelige religiøse symboler. Laïcité er viktig for mange franskmenn, men også omdiskutert, blant annet i spørsmål om muslimske plagg.
+
+## Protestkultur
+
+Franskmenn har en sterk tradisjon for **demonstrasjoner** (*les manifestations*) og **streiker** (*les grèves*). **Gule vester**-bevegelsen (*les gilets jaunes*) startet i **2018** som en protest mot høyere drivstoffavgifter og ble en bred protest mot sosial ulikhet.
+
+## La Francophonie
+
+Fransk snakkes av rundt **300 millioner** mennesker på alle kontinenter og er offisielt språk i rundt **30 land**. Den fransktalende verden kalles **la francophonie**:
+
+- **Europa**: Frankrike, Belgia, Sveits, Luxembourg, Monaco
+- **Amerika**: Québec i Canada, Haiti
+- **Afrika**: blant annet Senegal, Elfenbenskysten, Kongo, Marokko, Algerie og Tunisia
+
+Mye av utbredelsen skyldes **kolonihistorien**. I dag bor de fleste fransktalende i **Afrika**.
+
+## Å uttrykke meninger
+
+- *À mon avis, … / Selon moi, …* – Etter min mening …
+- *Je pense / trouve / crois que …*
+- *Je suis pour / contre …* – Jeg er for / mot …
+- *D''un côté …, de l''autre …* – På den ene siden …, på den andre …
+- *Par contre / cependant* – derimot / likevel
+- *Il est important de …*
+
+## Relativpronomen
+
+- **qui** – når det viser til **subjektet**: *la ville **qui** est la plus grande*
+- **que** – når det viser til **objektet**: *le film **que** j''ai vu*
+- **où** – om **sted** eller **tid**: *le pays **où** je suis né*, *le jour **où** …*
+- **dont** – erstatter **de** + ord: *le livre **dont** je parle* (jeg snakker om boka – *parler de*)
+
+*Le Québec est une province **où** on parle français.*', '{"label":"Samfunn og frankofoni","children":[{"label":"Republikken","children":[{"label":"Presidenten"},{"label":"Assemblée nationale"},{"label":"13 regioner"}]},{"label":"Verdier","children":[{"label":"Liberté, Égalité, Fraternité"},{"label":"Laïcité 1905"}]},{"label":"Protest","children":[{"label":"Manifestations"},{"label":"Grèves"},{"label":"Gilets jaunes"}]},{"label":"Francophonie","children":[{"label":"Europa"},{"label":"Québec og Haiti"},{"label":"Afrika"}]},{"label":"Språk","children":[{"label":"À mon avis"},{"label":"qui, que, où, dont"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'fransk-vg1:samfunn-og-aktuelle-saker';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('fransk-vg1:samfunn-og-aktuelle-saker', 'la République française', 'Den franske republikken', 0),
+  ('fransk-vg1:samfunn-og-aktuelle-saker', 'le président', 'presidenten, valgt direkte for fem år', 1),
+  ('fransk-vg1:samfunn-og-aktuelle-saker', 'l''Assemblée nationale', 'nasjonalforsamlingen', 2),
+  ('fransk-vg1:samfunn-og-aktuelle-saker', 'Liberté, Égalité, Fraternité', 'Frihet, likhet, brorskap – Frankrikes motto', 3),
+  ('fransk-vg1:samfunn-og-aktuelle-saker', 'la laïcité', 'atskillelse av religion og stat (lov fra 1905)', 4),
+  ('fransk-vg1:samfunn-og-aktuelle-saker', 'la manifestation', 'demonstrasjonen', 5),
+  ('fransk-vg1:samfunn-og-aktuelle-saker', 'la grève', 'streiken', 6),
+  ('fransk-vg1:samfunn-og-aktuelle-saker', 'les gilets jaunes', 'de gule vestene – protestbevegelse fra 2018', 7),
+  ('fransk-vg1:samfunn-og-aktuelle-saker', 'la francophonie', 'den fransktalende verden', 8),
+  ('fransk-vg1:samfunn-og-aktuelle-saker', 'le Québec', 'fransktalende provins i Canada', 9),
+  ('fransk-vg1:samfunn-og-aktuelle-saker', 'À mon avis …', 'Etter min mening …', 10),
+  ('fransk-vg1:samfunn-og-aktuelle-saker', 'Je suis contre …', 'Jeg er mot …', 11),
+  ('fransk-vg1:samfunn-og-aktuelle-saker', 'qui / que', 'relativpronomen for subjekt / objekt', 12),
+  ('fransk-vg1:samfunn-og-aktuelle-saker', 'où', 'relativpronomen om sted eller tid', 13),
+  ('fransk-vg1:samfunn-og-aktuelle-saker', 'dont', 'relativpronomen som erstatter de + ord', 14);
+delete from public.quiz_sporsmal where tema_id = 'fransk-vg1:samfunn-og-aktuelle-saker';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('fransk-vg1:samfunn-og-aktuelle-saker', 'q01', 'flervalg', 'Hvor lenge sitter den franske presidenten om gangen?', array['4 år', '5 år', '6 år', '7 år']::text[], 1, 'Presidenten velges direkte av folket.', true, true, 0),
+  ('fransk-vg1:samfunn-og-aktuelle-saker', 'q02', 'flervalg', 'Hva betyr laïcité?', array['Atskillelse av religion og stat', 'Et politisk parti', 'Den franske grunnloven', 'En type skole']::text[], 0, 'Prinsippet ble slått fast i en lov fra 1905.', true, true, 1),
+  ('fransk-vg1:samfunn-og-aktuelle-saker', 'q03', 'flervalg', 'Hva er Frankrikes motto?', array['Dieu et mon droit', 'Unité, Travail, Progrès', 'Liberté, Égalité, Fraternité', 'Vive la France']::text[], 2, 'Frihet, likhet, brorskap.', true, true, 2),
+  ('fransk-vg1:samfunn-og-aktuelle-saker', 'q04', 'flervalg', 'Velg riktig: «C''est le film ___ j''ai vu hier.»', array['qui', 'où', 'dont', 'que']::text[], 3, 'le film er objekt: que.', true, true, 3),
+  ('fransk-vg1:samfunn-og-aktuelle-saker', 'q05', 'flervalg', 'Hvor bor de fleste fransktalende i dag?', array['I Afrika', 'I Frankrike', 'I Canada', 'I Belgia']::text[], 0, 'Mye av utbredelsen skyldes kolonihistorien.', true, true, 4),
+  ('fransk-vg1:samfunn-og-aktuelle-saker', 'q06', 'flervalg', 'Hva startet de gule vestene å protestere mot i 2018?', array['Skolereformer', 'Høyere drivstoffavgifter', 'EU-medlemskap', 'Pensjonsalderen']::text[], 1, 'Protesten ble senere en bred protest mot ulikhet.', true, true, 5),
+  ('fransk-vg1:samfunn-og-aktuelle-saker', 'q07', 'flervalg', 'Velg riktig: «Le Québec est une province ___ on parle français.»', array['que', 'qui', 'où', 'dont']::text[], 2, 'où om sted.', true, true, 6),
+  ('fransk-vg1:samfunn-og-aktuelle-saker', 'q08', 'flervalg', 'Hva betyr «la grève»?', array['demonstrasjonen', 'valget', 'regjeringen', 'streiken']::text[], 3, 'Streik er vanlig i Frankrike.', true, true, 7),
+  ('fransk-vg1:samfunn-og-aktuelle-saker', 'q09', 'flervalg', 'Velg riktig: «C''est la fille ___ habite à côté.»', array['qui', 'que', 'où', 'dont']::text[], 0, 'la fille er subjekt: qui.', true, false, 8),
+  ('fransk-vg1:samfunn-og-aktuelle-saker', 'q10', 'flervalg', 'Hva betyr «D''un côté …, de l''autre …»?', array['Først … så …', 'På den ene siden …, på den andre …', 'Enten … eller …', 'Ikke bare … men også …']::text[], 1, 'Nyttig for å drøfte fordeler og ulemper.', true, false, 9),
+  ('fransk-vg1:samfunn-og-aktuelle-saker', 'm01', 'sant-usant', 'La Réunion er en del av Frankrike og EU.', array['Sant', 'Usant']::text[], 0, 'Oversjøiske områder er fullverdige deler av landet.', false, true, 10),
+  ('fransk-vg1:samfunn-og-aktuelle-saker', 'm02', 'sant-usant', 'Fransk snakkes bare i Europa.', array['Sant', 'Usant']::text[], 1, 'Fransk snakkes på alle kontinenter.', false, true, 11),
+  ('fransk-vg1:samfunn-og-aktuelle-saker', 'm03', 'sant-usant', '«dont» kan erstatte «de» + et ord.', array['Sant', 'Usant']::text[], 0, 'le livre dont je parle (parler de).', false, true, 12),
+  ('fransk-vg1:samfunn-og-aktuelle-saker', 'm04', 'sant-usant', 'Den franske presidenten velges av nasjonalforsamlingen.', array['Sant', 'Usant']::text[], 1, 'Presidenten velges direkte av folket.', false, true, 13),
+  ('fransk-vg1:samfunn-og-aktuelle-saker', 'm05', 'flervalg', 'Hva betyr «Je suis pour»?', array['Jeg er mot.', 'Jeg er for.', 'Jeg er usikker.', 'Jeg er fattig.']::text[], 1, 'pour = for, contre = mot.', false, true, 14),
+  ('fransk-vg1:samfunn-og-aktuelle-saker', 'm06', 'flervalg', 'Hvilket land i Amerika har fransk som offisielt språk?', array['Haiti', 'Brasil', 'Mexico', 'Peru']::text[], 0, 'Også Québec i Canada er fransktalende.', false, true, 15),
+  ('fransk-vg1:samfunn-og-aktuelle-saker', 'm07', 'flervalg', 'Hva heter den franske statsministeren?', array['le Président', 'le Chancelier', 'le Premier ministre', 'le Roi']::text[], 2, 'Statsministeren utnevnes av presidenten.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('fransk-vg1:samfunn-og-aktuelle-saker', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Fransk: Fransk historie: revolusjon, imperium og Europa
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('fransk-vg1:historie', 'fransk-vg1', 'historie', 'Fransk historie: revolusjon, imperium og Europa', 'Hovedlinjer i Frankrikes historie – revolusjonen i 1789, Napoleon, kolonimakten, verdenskrigene og okkupasjonen, og Frankrikes rolle i Europa – og hvordan du kjenner igjen passé simple og bruker datoer og passiv på fransk.', array[8, 4]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('fransk-vg1:historie', '## Den franske revolusjon
+
+Før **1789** var Frankrike et **eneveldig kongedømme**. Adelen og kirken hadde store privilegier, mens folket betalte skatt og led av høye matpriser. **14. juli 1789** stormet folket i Paris fengselet **la Bastille**, et symbol på kongens makt. Dagen er i dag Frankrikes **nasjonaldag**.
+
+Samme år vedtok nasjonalforsamlingen **Erklæringen om menneskets og borgerens rettigheter** (*la Déclaration des droits de l''homme et du citoyen*), som slo fast at alle mennesker **fødes frie og like i rettigheter**. Kong **Ludvig 16.** ble henrettet i **1793**. Revolusjonen fikk stor betydning for demokrati og menneskerettigheter i hele verden.
+
+## Napoleon
+
+**Napoleon Bonaparte** kronet seg selv til **keiser** i **1804** og erobret store deler av Europa. **Code civil** (Napoleons lovbok) har påvirket lovgivningen i mange land. Napoleon ble til slutt beseiret ved **Waterloo** i **1815**.
+
+## Kolonimakt
+
+På 1800- og 1900-tallet bygde Frankrike et stort **kolonirike** i Afrika, Asia og Karibia. Etter andre verdenskrig ble koloniene selvstendige. **Algerie** ble selvstendig i **1962** etter en blodig krig. Kolonihistorien preger fortsatt forholdet mellom Frankrike og mange land – og er en viktig årsak til at fransk snakkes i Afrika.
+
+## Verdenskrigene
+
+- I **første verdenskrig** ble store deler av Nord-Frankrike slagmark. **Slaget ved Verdun** (1916) er et symbol på krigens redsler.
+- I **1940** ble Frankrike **okkupert** av Tyskland. Sør-Frankrike ble styrt av det tyskvennlige **Vichy-regimet**. **Motstandsbevegelsen** (*la Résistance*) kjempet mot okkupantene, og **Charles de Gaulle** ledet De frie franske styrkene fra London.
+- **6. juni 1944** gikk de allierte i land i **Normandie** (D-dagen), og Paris ble **frigjort** i **august 1944**.
+
+## Frankrike og Europa
+
+Etter krigen ble **forsoning** mellom Frankrike og Tyskland grunnlaget for europeisk samarbeid. Frankrike var med på å grunnlegge det som i dag er **EU**, gjennom **Roma-traktaten** i **1957**.
+
+## Språk: datoer, passé simple og passiv
+
+- Årstall: **en** 1789. Dato: **le** 14 juillet 1789.
+- I historiske tekster brukes ofte **passé simple** i stedet for passé composé. Du trenger bare å **kjenne det igjen**: *il **fut*** (han var), *il **eut*** (han hadde), *il **prit*** (han tok), *ils **firent*** (de gjorde), *il **devint*** (han ble).
+- **Passiv**: *être* + partisipp: *La Bastille **a été prise** le 14 juillet 1789.* – Bastillen ble tatt 14. juli 1789.', '{"label":"Fransk historie","children":[{"label":"Revolusjonen","children":[{"label":"14. juli 1789"},{"label":"Menneskerettighetserklæringen"},{"label":"Ludvig 16."}]},{"label":"Napoleon","children":[{"label":"Keiser 1804"},{"label":"Code civil"},{"label":"Waterloo 1815"}]},{"label":"Kolonier","children":[{"label":"Afrika og Asia"},{"label":"Algerie 1962"}]},{"label":"Verdenskrigene","children":[{"label":"Verdun"},{"label":"Okkupasjon og Vichy"},{"label":"Résistance og de Gaulle"},{"label":"D-dagen"}]},{"label":"Språk","children":[{"label":"en 1789"},{"label":"passé simple"},{"label":"passiv"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'fransk-vg1:historie';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('fransk-vg1:historie', 'la Révolution française', 'Den franske revolusjon, 1789', 0),
+  ('fransk-vg1:historie', 'la prise de la Bastille', 'stormingen av Bastillen 14. juli 1789', 1),
+  ('fransk-vg1:historie', 'le 14 juillet', 'Frankrikes nasjonaldag', 2),
+  ('fransk-vg1:historie', 'la Déclaration des droits de l''homme', 'menneskerettighetserklæringen fra 1789', 3),
+  ('fransk-vg1:historie', 'Napoléon Bonaparte', 'keiser fra 1804, beseiret ved Waterloo i 1815', 4),
+  ('fransk-vg1:historie', 'le Code civil', 'Napoleons lovbok', 5),
+  ('fransk-vg1:historie', 'la colonisation', 'koloniseringen', 6),
+  ('fransk-vg1:historie', '1962', 'Algerie ble selvstendig', 7),
+  ('fransk-vg1:historie', 'l''Occupation', 'den tyske okkupasjonen 1940–1944', 8),
+  ('fransk-vg1:historie', 'la Résistance', 'motstandsbevegelsen', 9),
+  ('fransk-vg1:historie', 'Charles de Gaulle', 'ledet De frie franske styrkene fra London', 10),
+  ('fransk-vg1:historie', 'le Débarquement', 'landgangen i Normandie 6. juni 1944', 11),
+  ('fransk-vg1:historie', 'en 1789', 'i 1789', 12),
+  ('fransk-vg1:historie', 'il fut / il eut', 'han var / han hadde (passé simple)', 13),
+  ('fransk-vg1:historie', 'a été prise', 'ble tatt (passiv)', 14);
+delete from public.quiz_sporsmal where tema_id = 'fransk-vg1:historie';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('fransk-vg1:historie', 'q01', 'flervalg', 'Hvilken dato stormet folket Bastillen?', array['1. mai 1789', '14. juli 1789', '4. juli 1776', '11. november 1918']::text[], 1, 'Dagen er Frankrikes nasjonaldag.', true, true, 0),
+  ('fransk-vg1:historie', 'q02', 'flervalg', 'Hva slo menneskerettighetserklæringen fra 1789 fast?', array['At alle mennesker fødes frie og like i rettigheter', 'At kongen har all makt', 'At kirken skal styre staten', 'At Frankrike skal ha kolonier']::text[], 0, 'Erklæringen fikk stor betydning i hele verden.', true, true, 1),
+  ('fransk-vg1:historie', 'q03', 'flervalg', 'Når kronet Napoleon seg til keiser?', array['1789', '1815', '1804', '1870']::text[], 2, 'Han ble beseiret ved Waterloo i 1815.', true, true, 2),
+  ('fransk-vg1:historie', 'q04', 'flervalg', 'Hva var la Résistance?', array['Vichy-regimet', 'Den franske hæren i 1914', 'En politisk avis', 'Motstandsbevegelsen under okkupasjonen']::text[], 3, 'Den kjempet mot de tyske okkupantene.', true, true, 3),
+  ('fransk-vg1:historie', 'q05', 'flervalg', 'Hvordan sier du «i 1789» på fransk?', array['en 1789', 'dans 1789', 'à 1789', 'le 1789']::text[], 0, 'Årstall bruker en.', true, true, 4),
+  ('fransk-vg1:historie', 'q06', 'flervalg', 'Hva betyr «il fut» i en historisk tekst?', array['han ble født', 'han var', 'han flyktet', 'han ville']::text[], 1, 'fut er passé simple av être.', true, true, 5),
+  ('fransk-vg1:historie', 'q07', 'flervalg', 'Når ble Algerie selvstendig?', array['1945', '1957', '1962', '1989']::text[], 2, 'Det skjedde etter en blodig krig.', true, true, 6),
+  ('fransk-vg1:historie', 'q08', 'flervalg', 'Hva skjedde i Normandie 6. juni 1944?', array['Tyskland okkuperte Frankrike', 'Paris ble bombet', 'Napoleon tapte', 'De allierte gikk i land']::text[], 3, 'Paris ble frigjort i august 1944.', true, true, 7),
+  ('fransk-vg1:historie', 'q09', 'flervalg', 'Hvilken traktat fra 1957 var grunnlaget for det som i dag er EU?', array['Roma-traktaten', 'Versailles-traktaten', 'Maastricht-traktaten', 'Wien-traktaten']::text[], 0, 'Frankrike var et av grunnleggerlandene.', true, false, 8),
+  ('fransk-vg1:historie', 'q10', 'flervalg', 'Hva betyr «La Bastille a été prise en 1789»?', array['Bastillen tok 1789.', 'Bastillen ble tatt i 1789.', 'Bastillen skal tas i 1789.', 'Bastillen var tom i 1789.']::text[], 1, 'Passiv: être + partisipp.', true, false, 9),
+  ('fransk-vg1:historie', 'm01', 'sant-usant', 'Kong Ludvig 16. ble henrettet under revolusjonen.', array['Sant', 'Usant']::text[], 0, 'Han ble henrettet i 1793.', false, true, 10),
+  ('fransk-vg1:historie', 'm02', 'sant-usant', 'Vichy-regimet kjempet mot de tyske okkupantene.', array['Sant', 'Usant']::text[], 1, 'Vichy-regimet samarbeidet med Tyskland.', false, true, 11),
+  ('fransk-vg1:historie', 'm03', 'sant-usant', 'Passé simple brukes mest i skriftlige, historiske tekster.', array['Sant', 'Usant']::text[], 0, 'I muntlig språk brukes passé composé.', false, true, 12),
+  ('fransk-vg1:historie', 'm04', 'sant-usant', 'Napoleon vant slaget ved Waterloo.', array['Sant', 'Usant']::text[], 1, 'Han ble beseiret ved Waterloo i 1815.', false, true, 13),
+  ('fransk-vg1:historie', 'm05', 'flervalg', 'Hva betyr «il prit»?', array['han tok', 'han ba', 'han pratet', 'han priset']::text[], 0, 'prit er passé simple av prendre.', false, true, 14),
+  ('fransk-vg1:historie', 'm06', 'flervalg', 'Hvem ledet De frie franske styrkene fra London?', array['Napoleon', 'Charles de Gaulle', 'Ludvig 16.', 'Victor Hugo']::text[], 1, 'De Gaulle ble senere president.', false, true, 15),
+  ('fransk-vg1:historie', 'm07', 'flervalg', 'Hvilket slag i 1916 er et symbol på redslene i første verdenskrig?', array['Waterloo', 'Normandie', 'Verdun', 'Austerlitz']::text[], 2, 'Slaget ved Verdun kostet hundretusener av liv.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('fransk-vg1:historie', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Fransk: Litteratur, kunst, musikk og film
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('fransk-vg1:kunst-og-kultur', 'fransk-vg1', 'kunst-og-kultur', 'Litteratur, kunst, musikk og film', 'Kjente kunstnere og verk fra den fransktalende verden – Molière, Victor Hugo, Den lille prinsen, impresjonismen, chanson, Stromae, tegneserier og fransk film – og hvordan du bruker conditionnel til ønsker og hypotetiske situasjoner.', array[9, 3]::int[], 5, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('fransk-vg1:kunst-og-kultur', '## Litteratur
+
+- **Molière** (1622–1673) skrev komedier som gjør narr av menneskelige svakheter, som gjerrighet og hykleri. Fransk kalles noen ganger «**la langue de Molière**».
+- **Victor Hugo** (1802–1885) skrev **Notre-Dame de Paris** (1831) og **Les Misérables** (1862), om fattigdom og urettferdighet i Frankrike på 1800-tallet – i dag også en kjent musikal.
+- **Antoine de Saint-Exupéry** skrev **Le Petit Prince** (Den lille prinsen, 1943), en av verdens mest oversatte bøker. Et kjent sitat er at det viktigste er **usynlig for øynene**, og at man bare ser godt med **hjertet**.
+
+## Kunst
+
+**Impresjonismen** oppsto i Frankrike på 1870-tallet. Malerne ville fange **lys**, **farger** og **øyeblikket**, ofte utendørs. Navnet kommer fra **Claude Monets** maleri *Impression, soleil levant* (1872). Andre kjente impresjonister er **Renoir** og **Degas**. **Louvre** i Paris er verdens mest besøkte kunstmuseum og huser blant annet *Mona Lisa*.
+
+## Musikk
+
+- **Chanson** er fransk visetradisjon der **teksten** står sentralt. **Édith Piaf** er kjent for *La Vie en rose* og *Non, je ne regrette rien*.
+- **Stromae** fra **Belgia** blander elektronisk musikk og hiphop med tekster om alvorlige temaer som identitet, psykisk helse og sosiale medier.
+- Fransk **rap** er blant de største i verden.
+
+## Tegneserier og film
+
+- **Bande dessinée** (BD) regnes som «den niende kunstart». **Astérix** (fra 1959) og **Tintin** (av belgiske **Hergé**) er klassikere.
+- **Filmfestivalen i Cannes** er en av verdens viktigste.
+- **Intouchables** (De urørlige, 2011) handler om vennskapet mellom en rik mann i rullestol og hans hjelper fra forstedene, og ble en enorm suksess.
+
+## Conditionnel – ønsker og høflighet
+
+**Conditionnel présent** lages med **futur-stammen** + **imparfait-endelsene** (-ais, -ais, -ait, -ions, -iez, -aient):
+
+- *je **voudrais*** – jeg vil gjerne (høflig)
+- *j''**aimerais*** – jeg skulle gjerne
+- *ce **serait*** – det ville vært
+- *je **pourrais*** – jeg kunne
+- *j''**irais*** – jeg ville dra
+
+*Je **voudrais** un café, s''il vous plaît.*
+
+**Si + imparfait → conditionnel**: *Si j''**avais** de l''argent, j''**irais** à Paris.* – Hvis jeg hadde penger, ville jeg reist til Paris.
+
+## Å snakke om egne opplevelser
+
+- *J''ai beaucoup aimé ce film parce que …*
+- *Cette chanson me fait penser à …* – Denne sangen får meg til å tenke på …
+- *Ce qui m''a plu, c''est …* – Det jeg likte, var …
+- *Je trouve que la fin est surprenante / triste / touchante.*', '{"label":"Kunst og kultur","children":[{"label":"Litteratur","children":[{"label":"Molière"},{"label":"Victor Hugo"},{"label":"Le Petit Prince"}]},{"label":"Kunst","children":[{"label":"Impresjonismen"},{"label":"Monet"},{"label":"Louvre"}]},{"label":"Musikk","children":[{"label":"Chanson: Piaf"},{"label":"Stromae"},{"label":"Fransk rap"}]},{"label":"BD og film","children":[{"label":"Astérix og Tintin"},{"label":"Cannes"},{"label":"Intouchables"}]},{"label":"Conditionnel","children":[{"label":"je voudrais"},{"label":"ce serait"},{"label":"si + imparfait"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'fransk-vg1:kunst-og-kultur';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('fransk-vg1:kunst-og-kultur', 'Molière', 'komedieforfatter på 1600-tallet', 0),
+  ('fransk-vg1:kunst-og-kultur', 'la langue de Molière', 'kallenavn på fransk', 1),
+  ('fransk-vg1:kunst-og-kultur', 'Victor Hugo', 'skrev Les Misérables (1862) og Notre-Dame de Paris (1831)', 2),
+  ('fransk-vg1:kunst-og-kultur', 'Le Petit Prince', 'Den lille prinsen (1943) av Saint-Exupéry', 3),
+  ('fransk-vg1:kunst-og-kultur', 'l''impressionnisme', 'kunstretning fra 1870-tallet som ville fange lys og øyeblikk', 4),
+  ('fransk-vg1:kunst-og-kultur', 'Claude Monet', 'impresjonist som malte Impression, soleil levant (1872)', 5),
+  ('fransk-vg1:kunst-og-kultur', 'le Louvre', 'kunstmuseum i Paris med Mona Lisa', 6),
+  ('fransk-vg1:kunst-og-kultur', 'la chanson', 'fransk visetradisjon', 7),
+  ('fransk-vg1:kunst-og-kultur', 'Édith Piaf', 'sanger kjent for La Vie en rose', 8),
+  ('fransk-vg1:kunst-og-kultur', 'Stromae', 'belgisk artist', 9),
+  ('fransk-vg1:kunst-og-kultur', 'la bande dessinée (BD)', 'tegneserien – den niende kunstart', 10),
+  ('fransk-vg1:kunst-og-kultur', 'Intouchables', 'fransk film fra 2011 om et uventet vennskap', 11),
+  ('fransk-vg1:kunst-og-kultur', 'je voudrais', 'jeg vil gjerne (høflig)', 12),
+  ('fransk-vg1:kunst-og-kultur', 'ce serait', 'det ville vært', 13),
+  ('fransk-vg1:kunst-og-kultur', 'Si j''avais …, j''irais …', 'Hvis jeg hadde …, ville jeg dratt …', 14);
+delete from public.quiz_sporsmal where tema_id = 'fransk-vg1:kunst-og-kultur';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('fransk-vg1:kunst-og-kultur', 'q01', 'flervalg', 'Hvem skrev «Les Misérables»?', array['Molière', 'Victor Hugo', 'Saint-Exupéry', 'Monet']::text[], 1, 'Romanen kom i 1862.', true, true, 0),
+  ('fransk-vg1:kunst-og-kultur', 'q02', 'flervalg', 'Hvor kommer navnet impresjonisme fra?', array['Et maleri av Claude Monet', 'En bok av Victor Hugo', 'Et museum i Paris', 'En sang av Édith Piaf']::text[], 0, 'Impression, soleil levant (1872).', true, true, 1),
+  ('fransk-vg1:kunst-og-kultur', 'q03', 'flervalg', 'Hva er conditionnel av «je veux» (høflig)?', array['je voulais', 'je voudrai', 'je voudrais', 'je veux bien']::text[], 2, 'Futur-stamme voudr- + -ais.', true, true, 2),
+  ('fransk-vg1:kunst-og-kultur', 'q04', 'flervalg', 'Hvilket land kommer Stromae fra?', array['Frankrike', 'Sveits', 'Canada', 'Belgia']::text[], 3, 'Belgia har fransk som et av sine offisielle språk.', true, true, 3),
+  ('fransk-vg1:kunst-og-kultur', 'q05', 'flervalg', 'Velg riktig: «Si j''avais le temps, je ___ plus.»', array['lirais', 'lirai', 'lis', 'lisais']::text[], 0, 'si + imparfait → conditionnel.', true, true, 4),
+  ('fransk-vg1:kunst-og-kultur', 'q06', 'flervalg', 'Hva kalles fransk-belgiske tegneserier?', array['le manga', 'la bande dessinée', 'le roman', 'la chanson']::text[], 1, 'Forkortes ofte BD.', true, true, 5),
+  ('fransk-vg1:kunst-og-kultur', 'q07', 'flervalg', 'Hvilket kjent maleri finnes på Louvre?', array['Skrik', 'Solsikker', 'Mona Lisa', 'Guernica']::text[], 2, 'Louvre er verdens mest besøkte kunstmuseum.', true, true, 6),
+  ('fransk-vg1:kunst-og-kultur', 'q08', 'flervalg', 'Hvem skrev «Le Petit Prince»?', array['Victor Hugo', 'Hergé', 'Molière', 'Antoine de Saint-Exupéry']::text[], 3, 'Boka kom i 1943.', true, true, 7),
+  ('fransk-vg1:kunst-og-kultur', 'q09', 'flervalg', 'Hva betyr «Ce serait génial !»?', array['Det ville vært genialt!', 'Det var genialt!', 'Det er genialt!', 'Det blir genialt!']::text[], 0, 'serait er conditionnel av être.', true, false, 8),
+  ('fransk-vg1:kunst-og-kultur', 'q10', 'flervalg', 'Hvem er kjent for sangen «La Vie en rose»?', array['Stromae', 'Édith Piaf', 'Molière', 'Claude Monet']::text[], 1, 'Piaf er et symbol på fransk chanson.', true, false, 9),
+  ('fransk-vg1:kunst-og-kultur', 'm01', 'sant-usant', 'Tintin ble skapt av den belgiske tegneren Hergé.', array['Sant', 'Usant']::text[], 0, 'Tintin er en av verdens mest kjente tegneseriefigurer.', false, true, 10),
+  ('fransk-vg1:kunst-og-kultur', 'm02', 'sant-usant', 'Impresjonistene malte helst mørke scener innendørs.', array['Sant', 'Usant']::text[], 1, 'De ville fange lys og farger, ofte utendørs.', false, true, 11),
+  ('fransk-vg1:kunst-og-kultur', 'm03', 'sant-usant', 'Conditionnel lages med futur-stammen og imparfait-endelsene.', array['Sant', 'Usant']::text[], 0, 'Eksempel: je voudrais, j''irais.', false, true, 12),
+  ('fransk-vg1:kunst-og-kultur', 'm04', 'sant-usant', 'Molière levde på 1900-tallet.', array['Sant', 'Usant']::text[], 1, 'Molière levde på 1600-tallet.', false, true, 13),
+  ('fransk-vg1:kunst-og-kultur', 'm05', 'flervalg', 'Hva betyr «J''aimerais voyager»?', array['Jeg reiste.', 'Jeg skulle gjerne reist.', 'Jeg skal reise.', 'Jeg liker å reise.']::text[], 1, 'Conditionnel uttrykker ønske.', false, true, 14),
+  ('fransk-vg1:kunst-og-kultur', 'm06', 'flervalg', 'Hvilken by har en av verdens viktigste filmfestivaler?', array['Cannes', 'Lyon', 'Marseille', 'Bordeaux']::text[], 0, 'Festivalen arrangeres hver vår.', false, true, 15),
+  ('fransk-vg1:kunst-og-kultur', 'm07', 'flervalg', 'Hva betyr «Cette chanson me fait penser à l''été»?', array['Jeg liker sommersanger.', 'Sangen handler om sommeren.', 'Denne sangen får meg til å tenke på sommeren.', 'Jeg hørte sangen i sommer.']::text[], 2, 'faire penser à = få en til å tenke på.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('fransk-vg1:kunst-og-kultur', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Spansk (vg1): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'spansk-vg1' and slug not in ('identitet-og-relasjoner', 'skole-og-arbeid', 'fortelle-om-opplevelser', 'samfunn-og-aktuelle-saker', 'historie', 'kunst-og-kultur');
+
+-- Spansk: Identitet, vennskap og følelser
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('spansk-vg1:identitet-og-relasjoner', 'spansk-vg1', 'identitet-og-relasjoner', 'Identitet, vennskap og følelser', 'Hvordan du beskriver personlighet, vennskap og følelser på spansk, med forskjellen på ser og estar, verb som fungerer som gustar og refleksive verb om relasjoner.', array[2, 3, 6]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('spansk-vg1:identitet-og-relasjoner', '## Ser eller estar?
+
+Spansk har to verb for «å være»:
+
+**Ser** brukes om det som **kjennetegner** noe eller noen – egenskaper, identitet, opprinnelse, yrke:
+*Soy noruega. Mi hermano **es** simpático. **Es** profesora.*
+
+**Estar** brukes om **tilstander**, **følelser** og **sted**:
+*Hoy **estoy** cansado. **Estamos** en casa. Ana **está** triste.*
+
+Noen adjektiver endrer betydning: *ser aburrido* (være kjedelig) – *estar aburrido* (kjede seg); *ser listo* (være smart) – *estar listo* (være klar).
+
+## Personlighet
+
+*simpático/a* (hyggelig), *sincero/a* (ærlig), *generoso/a* (raus), *tímido/a* (sjenert), *divertido/a* (morsom), *trabajador/a* (arbeidsom), *celoso/a* (sjalu), *cariñoso/a* (kjærlig).
+
+## Verb som gustar
+
+Med **gustar** er det tingen man liker som er **subjekt**. Personen står i **indirekte objekt** (me, te, le, nos, os, les):
+
+- *Me **gusta** la música.* – *Me **gustan** los perros.* (flertall!)
+- *A mi hermana le gusta bailar.*
+
+Andre verb som fungerer likt:
+
+- *encantar* – elske: *Me encanta el cine.*
+- *interesar* – interessere: *Nos interesa la política.*
+- *molestar* – irritere: *Me molesta el ruido.*
+- *preocupar* – bekymre: *Me preocupa el examen.*
+- *caer bien / mal* – like / ikke like (en person): *Tu amigo me cae muy bien.*
+
+## Refleksive verb om relasjoner
+
+- *llevarse bien / mal con* – komme godt / dårlig overens med: *Me llevo bien con mis padres.*
+- *enamorarse de* – forelske seg i
+- *enfadarse* – bli sint
+- *pelearse* – krangle
+- *sentirse* – føle seg: *Me siento solo/a.*
+
+## Følelser
+
+*Estoy contento/a, triste, nervioso/a, enfadado/a, preocupado/a.*
+*Tengo miedo.* (Jeg er redd.) *Tengo ganas de …* (Jeg har lyst til …)
+
+## Familie og venner
+
+*los padres* (foreldrene), *los hermanos* (søsknene – også brødrene), *el novio / la novia* (kjæresten), *el mejor amigo / la mejor amiga* (bestevennen). I Spania sier unge ofte *tío/tía* om venner, og i Mexico *güey*.
+
+## Strategi
+
+Når du lærer et adjektiv, lær **begge kjønn** og om det vanligvis brukes med **ser** eller **estar**.', '{"label":"Identitet og relasjoner","children":[{"label":"Ser og estar","children":[{"label":"ser: egenskaper"},{"label":"estar: tilstander"},{"label":"aburrido, listo"}]},{"label":"Personlighet","children":[{"label":"simpático, sincero"},{"label":"tímido, celoso"}]},{"label":"Som gustar","children":[{"label":"gusta / gustan"},{"label":"encantar, molestar"},{"label":"caer bien"}]},{"label":"Relasjoner","children":[{"label":"llevarse bien"},{"label":"enamorarse"},{"label":"pelearse"}]},{"label":"Følelser","children":[{"label":"contento, triste"},{"label":"tengo miedo"},{"label":"me siento"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'spansk-vg1:identitet-og-relasjoner';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('spansk-vg1:identitet-og-relasjoner', 'ser', 'å være – om egenskaper, identitet, opprinnelse og yrke', 0),
+  ('spansk-vg1:identitet-og-relasjoner', 'estar', 'å være – om tilstander, følelser og sted', 1),
+  ('spansk-vg1:identitet-og-relasjoner', 'Estoy cansado/a.', 'Jeg er trøtt.', 2),
+  ('spansk-vg1:identitet-og-relasjoner', 'ser aburrido / estar aburrido', 'være kjedelig / kjede seg', 3),
+  ('spansk-vg1:identitet-og-relasjoner', 'simpático/a', 'hyggelig', 4),
+  ('spansk-vg1:identitet-og-relasjoner', 'celoso/a', 'sjalu', 5),
+  ('spansk-vg1:identitet-og-relasjoner', 'Me gustan los perros.', 'Jeg liker hunder. (flertall: gustan)', 6),
+  ('spansk-vg1:identitet-og-relasjoner', 'Me encanta …', 'Jeg elsker …', 7),
+  ('spansk-vg1:identitet-og-relasjoner', 'Me molesta …', 'Det irriterer meg …', 8),
+  ('spansk-vg1:identitet-og-relasjoner', 'caer bien', 'like (en person)', 9),
+  ('spansk-vg1:identitet-og-relasjoner', 'llevarse bien con', 'komme godt overens med', 10),
+  ('spansk-vg1:identitet-og-relasjoner', 'enamorarse de', 'forelske seg i', 11),
+  ('spansk-vg1:identitet-og-relasjoner', 'enfadarse', 'bli sint', 12),
+  ('spansk-vg1:identitet-og-relasjoner', 'Tengo miedo.', 'Jeg er redd.', 13),
+  ('spansk-vg1:identitet-og-relasjoner', 'el novio / la novia', 'kjæresten', 14);
+delete from public.quiz_sporsmal where tema_id = 'spansk-vg1:identitet-og-relasjoner';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('spansk-vg1:identitet-og-relasjoner', 'q01', 'flervalg', 'Velg riktig verb: «Hoy ___ muy cansada.»', array['soy', 'estoy', 'es', 'tengo']::text[], 1, 'Tilstand: estar.', true, true, 0),
+  ('spansk-vg1:identitet-og-relasjoner', 'q02', 'flervalg', 'Velg riktig verb: «Mi padre ___ médico.»', array['es', 'está', 'tiene', 'hace']::text[], 0, 'Yrke: ser.', true, true, 1),
+  ('spansk-vg1:identitet-og-relasjoner', 'q03', 'flervalg', 'Velg riktig: «Me ___ los gatos.»', array['gusta', 'gusto', 'gustan', 'gustas']::text[], 2, 'Los gatos er flertall: gustan.', true, true, 2),
+  ('spansk-vg1:identitet-og-relasjoner', 'q04', 'flervalg', 'Hva betyr «Me llevo bien con mi hermana»?', array['Jeg bærer søsteren min.', 'Jeg ligner på søsteren min.', 'Jeg savner søsteren min.', 'Jeg kommer godt overens med søsteren min.']::text[], 3, 'llevarse bien con = komme godt overens med.', true, true, 3),
+  ('spansk-vg1:identitet-og-relasjoner', 'q05', 'flervalg', 'Hva betyr «estar aburrido»?', array['å kjede seg', 'å være kjedelig', 'å være sint', 'å være trøtt']::text[], 0, 'ser aburrido = å være kjedelig.', true, true, 4),
+  ('spansk-vg1:identitet-og-relasjoner', 'q06', 'flervalg', 'Hvordan sier du «Jeg er redd»?', array['Soy miedo.', 'Tengo miedo.', 'Estoy miedo.', 'Hago miedo.']::text[], 1, 'Tener brukes i mange uttrykk om følelser og tilstander.', true, true, 5),
+  ('spansk-vg1:identitet-og-relasjoner', 'q07', 'flervalg', 'Velg riktig: «A mi hermano ___ gusta el fútbol.»', array['me', 'te', 'le', 'les']::text[], 2, 'a mi hermano → le.', true, true, 6),
+  ('spansk-vg1:identitet-og-relasjoner', 'q08', 'flervalg', 'Hva betyr «Tu amigo me cae muy bien»?', array['Vennen din faller.', 'Vennen din ringer meg.', 'Vennen din hjelper meg.', 'Jeg liker vennen din godt.']::text[], 3, 'caer bien = like en person.', true, true, 7),
+  ('spansk-vg1:identitet-og-relasjoner', 'q09', 'flervalg', 'Hva betyr «enfadarse»?', array['bli sint', 'bli forelsket', 'bli trøtt', 'bli syk']::text[], 0, 'No te enfades = Ikke bli sint.', true, false, 8),
+  ('spansk-vg1:identitet-og-relasjoner', 'q10', 'flervalg', 'Hva betyr «Me preocupa el examen»?', array['Jeg gleder meg til eksamen.', 'Eksamen bekymrer meg.', 'Jeg har bestått eksamen.', 'Jeg forbereder meg til eksamen.']::text[], 1, 'preocupar fungerer som gustar.', true, false, 9),
+  ('spansk-vg1:identitet-og-relasjoner', 'm01', 'sant-usant', 'Man bruker «estar» for å si hvor noe befinner seg.', array['Sant', 'Usant']::text[], 0, '¿Dónde está el museo?', false, true, 10),
+  ('spansk-vg1:identitet-og-relasjoner', 'm02', 'sant-usant', 'I «Me gusta la música» er «me» subjektet.', array['Sant', 'Usant']::text[], 1, 'La música er subjektet; me er indirekte objekt.', false, true, 11),
+  ('spansk-vg1:identitet-og-relasjoner', 'm03', 'sant-usant', '«ser listo» og «estar listo» betyr forskjellige ting.', array['Sant', 'Usant']::text[], 0, 'Være smart / være klar.', false, true, 12),
+  ('spansk-vg1:identitet-og-relasjoner', 'm04', 'sant-usant', 'Opprinnelse uttrykkes med «estar»: «Estoy de Noruega».', array['Sant', 'Usant']::text[], 1, 'Opprinnelse uttrykkes med ser: Soy de Noruega.', false, true, 13),
+  ('spansk-vg1:identitet-og-relasjoner', 'm05', 'flervalg', 'Hva betyr «Me siento solo»?', array['Jeg sitter alene.', 'Jeg føler meg ensom.', 'Jeg er bare meg.', 'Jeg liker å være alene.']::text[], 1, 'sentirse = føle seg.', false, true, 14),
+  ('spansk-vg1:identitet-og-relasjoner', 'm06', 'flervalg', 'Hva betyr «generoso»?', array['raus', 'generell', 'sint', 'sjalu']::text[], 0, 'Hunkjønn: generosa.', false, true, 15),
+  ('spansk-vg1:identitet-og-relasjoner', 'm07', 'flervalg', 'Velg riktig: «Nos ___ mucho los idiomas.»', array['interesa', 'interesamos', 'interesan', 'interesas']::text[], 2, 'Los idiomas er flertall: interesan.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('spansk-vg1:identitet-og-relasjoner', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Spansk: Skole, utdanning og framtid
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('spansk-vg1:skole-og-arbeid', 'spansk-vg1', 'skole-og-arbeid', 'Skole, utdanning og framtid', 'Skolesystemet i Spania, ungdom og arbeid, jobbsøknad og intervju, og hvordan du snakker om framtiden med ir a, futuro simple og si-setninger på spansk.', array[1, 2, 5]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('spansk-vg1:skole-og-arbeid', '## Skolen i Spania
+
+- **Educación Primaria** – barneskolen, fra 6 til 12 år
+- **ESO** (*Educación Secundaria Obligatoria*) – obligatorisk ungdomsskole, fra 12 til 16 år
+- **Bachillerato** – to år med studieforberedende utdanning, eller **Formación Profesional** (FP) – yrkesfag
+- Etter bachillerato tar mange en **opptaksprøve** til universitetet.
+
+Spanske skoledager kan vare til midt på ettermiddagen, og **lunsjen** spises ofte senere enn i Norge. Karakterskalaen går fra **0 til 10**, der 5 er bestått.
+
+## Ungdom og arbeid
+
+Spania har i lange perioder hatt **høy arbeidsledighet blant unge**. Mange flytter til andre land for å jobbe, eller bor hjemme hos foreldrene lenge. Andre tar **deltidsjobber** i turisme og service.
+
+## Framtid med ir a
+
+**Ir a + infinitiv** brukes om planer og det som skal skje snart:
+*Voy a estudiar medicina.* – Jeg skal studere medisin.
+
+## Futuro simple
+
+**Futuro simple** lages ved å legge endelser til **infinitiven**:
+
+| | trabajar |
+| --- | --- |
+| yo | trabajar**é** |
+| tú | trabajar**ás** |
+| él/ella/usted | trabajar**á** |
+| nosotros | trabajar**emos** |
+| vosotros | trabajar**éis** |
+| ellos/ustedes | trabajar**án** |
+
+**Uregelmessige stammer**: *tener → **tendr**é*, *hacer → **har**é*, *poder → **podr**é*, *salir → **saldr**é*, *decir → **dir**é*, *venir → **vendr**é*, *saber → **sabr**é*.
+
+*En el futuro **viviré** en Madrid y **tendré** un perro.*
+
+## Si-setninger
+
+**Si + presens → futuro**: *Si apruebo el examen, **iré** a la universidad.* – Hvis jeg består eksamen, skal jeg gå på universitetet.
+
+## Jobb og søknad
+
+- *las prácticas* (praksisplass), *un trabajo de verano* (sommerjobb), *el sueldo* (lønnen)
+- *el currículum*, *la carta de presentación* (søknadsbrevet), *la entrevista de trabajo* (jobbintervjuet)
+
+Formell hilsen: **Estimado/a señor/a:** – legg merke til **kolon** etter hilsenen på spansk. Avslutning: **Atentamente** eller **Un cordial saludo**.
+
+*Me gustaría trabajar en su empresa porque …* – Jeg vil gjerne jobbe i bedriften deres fordi …
+
+## Yrker
+
+*el médico / la médica*, *el enfermero / la enfermera*, *el abogado / la abogada*, *el ingeniero / la ingeniera*, *el/la periodista*. Etter **ser** står yrket **uten artikkel**: *Mi madre es enfermera.*', '{"label":"Skole og framtid","children":[{"label":"Skolen","children":[{"label":"Primaria"},{"label":"ESO"},{"label":"Bachillerato og FP"}]},{"label":"Ungdom og arbeid","children":[{"label":"Arbeidsledighet"},{"label":"Deltidsjobber"}]},{"label":"Framtid","children":[{"label":"ir a + infinitiv"},{"label":"futuro simple"},{"label":"tendré, haré, podré"}]},{"label":"Si-setninger","children":[{"label":"si + presens"},{"label":"→ futuro"}]},{"label":"Søknad","children":[{"label":"currículum"},{"label":"carta de presentación"},{"label":"Estimado señor:"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'spansk-vg1:skole-og-arbeid';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('spansk-vg1:skole-og-arbeid', 'la ESO', 'obligatorisk ungdomsskole i Spania (12–16 år)', 0),
+  ('spansk-vg1:skole-og-arbeid', 'el bachillerato', 'to år studieforberedende utdanning', 1),
+  ('spansk-vg1:skole-og-arbeid', 'la Formación Profesional (FP)', 'yrkesfaglig utdanning', 2),
+  ('spansk-vg1:skole-og-arbeid', 'Voy a estudiar …', 'Jeg skal studere … (ir a + infinitiv)', 3),
+  ('spansk-vg1:skole-og-arbeid', 'trabajaré', 'jeg skal/vil jobbe (futuro)', 4),
+  ('spansk-vg1:skole-og-arbeid', 'tendré', 'jeg skal/vil ha', 5),
+  ('spansk-vg1:skole-og-arbeid', 'haré', 'jeg skal/vil gjøre', 6),
+  ('spansk-vg1:skole-og-arbeid', 'podré', 'jeg vil kunne', 7),
+  ('spansk-vg1:skole-og-arbeid', 'Si apruebo, iré …', 'Hvis jeg består, skal jeg dra …', 8),
+  ('spansk-vg1:skole-og-arbeid', 'las prácticas', 'praksisplassen', 9),
+  ('spansk-vg1:skole-og-arbeid', 'el sueldo', 'lønnen', 10),
+  ('spansk-vg1:skole-og-arbeid', 'la carta de presentación', 'søknadsbrevet', 11),
+  ('spansk-vg1:skole-og-arbeid', 'la entrevista de trabajo', 'jobbintervjuet', 12),
+  ('spansk-vg1:skole-og-arbeid', 'Estimado/a señor/a:', 'formell hilsen', 13),
+  ('spansk-vg1:skole-og-arbeid', 'Atentamente', 'Med vennlig hilsen (formelt)', 14);
+delete from public.quiz_sporsmal where tema_id = 'spansk-vg1:skole-og-arbeid';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('spansk-vg1:skole-og-arbeid', 'q01', 'flervalg', 'Hva er ESO?', array['Universitetet', 'Obligatorisk ungdomsskole i Spania', 'Barneskolen', 'Yrkesskolen']::text[], 1, 'ESO er for elever fra 12 til 16 år.', true, true, 0),
+  ('spansk-vg1:skole-og-arbeid', 'q02', 'flervalg', 'Hva er futuro av «tener» i jeg-form?', array['tendré', 'teneré', 'tengo', 'tuve']::text[], 0, 'tener har stammen tendr-.', true, true, 1),
+  ('spansk-vg1:skole-og-arbeid', 'q03', 'flervalg', 'Hvordan sier du «Jeg skal studere medisin» med ir a?', array['Voy estudiar medicina.', 'Voy de estudiar medicina.', 'Voy a estudiar medicina.', 'Iré a estudio medicina.']::text[], 2, 'ir a + infinitiv.', true, true, 2),
+  ('spansk-vg1:skole-og-arbeid', 'q04', 'flervalg', 'Velg riktig: «Si tengo dinero, ___ a México.»', array['iba', 'iría', 'fui', 'iré']::text[], 3, 'si + presens → futuro.', true, true, 3),
+  ('spansk-vg1:skole-og-arbeid', 'q05', 'flervalg', 'Hva betyr «el sueldo»?', array['lønnen', 'sola', 'bakken', 'søknaden']::text[], 0, 'Også «el salario».', true, true, 4),
+  ('spansk-vg1:skole-og-arbeid', 'q06', 'flervalg', 'Hva er futuro av «hacer» i jeg-form?', array['haceré', 'haré', 'hice', 'hago']::text[], 1, 'hacer har stammen har-.', true, true, 5),
+  ('spansk-vg1:skole-og-arbeid', 'q07', 'flervalg', 'Hvilket tegn står etter hilsenen i et formelt spansk brev?', array['Komma', 'Utropstegn', 'Kolon', 'Punktum']::text[], 2, 'Estimado señor:', true, true, 6),
+  ('spansk-vg1:skole-og-arbeid', 'q08', 'flervalg', 'Hvordan sier du «Moren min er sykepleier»?', array['Mi madre está enfermera.', 'Mi madre es una la enfermera.', 'Mi madre tiene enfermera.', 'Mi madre es enfermera.']::text[], 3, 'ser + yrke uten artikkel.', true, true, 7),
+  ('spansk-vg1:skole-og-arbeid', 'q09', 'flervalg', 'Hvilken karakter er bestått i spanske skoler?', array['5 av 10', '2 av 6', 'D', '50 av 100']::text[], 0, 'Skalaen går fra 0 til 10.', true, false, 8),
+  ('spansk-vg1:skole-og-arbeid', 'q10', 'flervalg', 'Hva betyr «la entrevista de trabajo»?', array['arbeidsdagen', 'jobbintervjuet', 'arbeidskontrakten', 'arbeidsplassen']::text[], 1, 'Man blir invitert etter søknaden.', true, false, 9),
+  ('spansk-vg1:skole-og-arbeid', 'm01', 'sant-usant', 'Futuro simple lages ved å legge endelser til infinitiven.', array['Sant', 'Usant']::text[], 0, 'trabajar → trabajaré.', false, true, 10),
+  ('spansk-vg1:skole-og-arbeid', 'm02', 'sant-usant', 'Spania har alltid hatt svært lav arbeidsledighet blant unge.', array['Sant', 'Usant']::text[], 1, 'Spania har i lange perioder hatt høy ungdomsledighet.', false, true, 11),
+  ('spansk-vg1:skole-og-arbeid', 'm03', 'sant-usant', '«Atentamente» er en formell avslutning.', array['Sant', 'Usant']::text[], 0, 'Brukes i brev og e-poster.', false, true, 12),
+  ('spansk-vg1:skole-og-arbeid', 'm04', 'sant-usant', 'Etter «si» bruker man futuro i samme ledd.', array['Sant', 'Usant']::text[], 1, 'Etter si bruker man presens: Si tengo tiempo …', false, true, 13),
+  ('spansk-vg1:skole-og-arbeid', 'm05', 'flervalg', 'Hva er futuro av «poder» i vi-form?', array['poderemos', 'podremos', 'podemos', 'pudimos']::text[], 1, 'poder har stammen podr-.', false, true, 14),
+  ('spansk-vg1:skole-og-arbeid', 'm06', 'flervalg', 'Hva betyr «las prácticas»?', array['praksisplassen', 'treningen', 'prøvene', 'lekser']::text[], 0, 'Hacer prácticas en una empresa.', false, true, 15),
+  ('spansk-vg1:skole-og-arbeid', 'm07', 'flervalg', 'Hva betyr «Voy a salir esta noche»?', array['Jeg gikk ut i går kveld.', 'Jeg går ut hver kveld.', 'Jeg skal gå ut i kveld.', 'Jeg ville gått ut i kveld.']::text[], 2, 'ir a + infinitiv om planer.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('spansk-vg1:skole-og-arbeid', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Spansk: Å fortelle om opplevelser
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('spansk-vg1:fortelle-om-opplevelser', 'spansk-vg1', 'fortelle-om-opplevelser', 'Å fortelle om opplevelser', 'Hvordan du forteller om opplevelser på spansk ved å kombinere pretérito indefinido og pretérito imperfecto, viktige uregelmessige verb, pluskvamperfektum og tidsuttrykk som gir fortellingen struktur.', array[3, 5, 6]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('spansk-vg1:fortelle-om-opplevelser', '## To fortidsformer
+
+Når vi forteller om fortiden på spansk, kombinerer vi to tider:
+
+- **Pretérito imperfecto** beskriver **bakgrunn**, **situasjoner**, **vaner** og **tilstander** – hvordan det **var**.
+- **Pretérito indefinido** forteller om **avsluttede handlinger** og **hendelser** – hva som **skjedde**.
+
+*Hacía sol y **estábamos** en la playa. De repente, **empezó** a llover.* – Det var sol, og vi var på stranda. Plutselig begynte det å regne.
+
+## Imperfecto
+
+| | -ar: hablar | -er/-ir: comer / vivir |
+| --- | --- | --- |
+| yo | habl**aba** | com**ía** / viv**ía** |
+| tú | habl**abas** | com**ías** |
+| él/ella | habl**aba** | com**ía** |
+| nosotros | habl**ábamos** | com**íamos** |
+| vosotros | habl**abais** | com**íais** |
+| ellos | habl**aban** | com**ían** |
+
+Bare tre verb er uregelmessige: **ser** (era), **ir** (iba) og **ver** (veía).
+
+*Cuando era pequeña, iba a la playa todos los veranos.* – Da jeg var liten, dro jeg på stranda hver sommer.
+
+## Indefinido
+
+Regelmessige endelser: **-ar**: *hablé, hablaste, habló, hablamos, hablasteis, hablaron* – **-er/-ir**: *comí, comiste, comió, comimos, comisteis, comieron*.
+
+Viktige **uregelmessige** verb:
+
+| Infinitiv | yo | él/ella |
+| --- | --- | --- |
+| ser / ir | fui | fue |
+| tener | tuve | tuvo |
+| estar | estuve | estuvo |
+| hacer | hice | hizo |
+| poder | pude | pudo |
+| decir | dije | dijo |
+| venir | vine | vino |
+
+Legg merke til at **ser** og **ir** har **samme** former i indefinido – sammenhengen avgjør betydningen: *Fui a Madrid* (jeg dro) – *Fue increíble* (det var utrolig).
+
+## Pluskvamperfektum
+
+**Pretérito pluscuamperfecto** – *había* + partisipp – brukes om noe som skjedde **før** noe annet i fortiden:
+*Cuando llegamos, el tren ya **había salido**.* – Da vi kom fram, hadde toget allerede gått.
+
+## Tidsuttrykk
+
+*primero* (først), *luego / después* (så, etterpå), *de repente* (plutselig), *al final* (til slutt), *hace dos años* (for to år siden), *el verano pasado* (i fjor sommer), *ayer* (i går), *mientras* (mens).
+
+## Bygg opp en fortelling
+
+1. **Situasjonen** i imperfecto: *Era sábado. Hacía calor.*
+2. **Hendelsene** i indefinido: *Fuimos al concierto. De repente, vi a mi cantante favorito.*
+3. **Følelser**: *Estaba muy nerviosa. Tenía miedo.*
+4. **Avslutning**: *Al final, fue un día inolvidable.*', '{"label":"Fortelle om opplevelser","children":[{"label":"Imperfecto","children":[{"label":"Bakgrunn og vaner"},{"label":"-aba / -ía"},{"label":"era, iba, veía"}]},{"label":"Indefinido","children":[{"label":"Avsluttede hendelser"},{"label":"-é / -í"},{"label":"fui, tuve, hice"}]},{"label":"Pluskvamperfektum","children":[{"label":"había + partisipp"}]},{"label":"Tidsuttrykk","children":[{"label":"primero, luego"},{"label":"de repente"},{"label":"al final"}]},{"label":"Fortellingen","children":[{"label":"Situasjon"},{"label":"Hendelser"},{"label":"Følelser og slutt"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'spansk-vg1:fortelle-om-opplevelser';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('spansk-vg1:fortelle-om-opplevelser', 'pretérito imperfecto', 'fortid for bakgrunn, vaner og tilstander', 0),
+  ('spansk-vg1:fortelle-om-opplevelser', 'pretérito indefinido', 'fortid for avsluttede handlinger og hendelser', 1),
+  ('spansk-vg1:fortelle-om-opplevelser', 'hablaba / comía', 'snakket / spiste (imperfecto)', 2),
+  ('spansk-vg1:fortelle-om-opplevelser', 'era / iba / veía', 'de tre uregelmessige i imperfecto: ser, ir, ver', 3),
+  ('spansk-vg1:fortelle-om-opplevelser', 'hablé / comí', 'jeg snakket / jeg spiste (indefinido)', 4),
+  ('spansk-vg1:fortelle-om-opplevelser', 'fui', 'jeg var / jeg dro (ser og ir)', 5),
+  ('spansk-vg1:fortelle-om-opplevelser', 'tuve', 'jeg hadde (tener)', 6),
+  ('spansk-vg1:fortelle-om-opplevelser', 'hice', 'jeg gjorde (hacer)', 7),
+  ('spansk-vg1:fortelle-om-opplevelser', 'estuve', 'jeg var (estar)', 8),
+  ('spansk-vg1:fortelle-om-opplevelser', 'había salido', 'hadde gått (pluskvamperfektum)', 9),
+  ('spansk-vg1:fortelle-om-opplevelser', 'de repente', 'plutselig', 10),
+  ('spansk-vg1:fortelle-om-opplevelser', 'al final', 'til slutt', 11),
+  ('spansk-vg1:fortelle-om-opplevelser', 'hace dos años', 'for to år siden', 12),
+  ('spansk-vg1:fortelle-om-opplevelser', 'el verano pasado', 'i fjor sommer', 13),
+  ('spansk-vg1:fortelle-om-opplevelser', 'Hacía sol.', 'Det var sol.', 14);
+delete from public.quiz_sporsmal where tema_id = 'spansk-vg1:fortelle-om-opplevelser';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('spansk-vg1:fortelle-om-opplevelser', 'q01', 'flervalg', 'Hvilken tid brukes om vaner i fortiden?', array['Indefinido', 'Imperfecto', 'Futuro', 'Presens']::text[], 1, 'Iba a la playa todos los veranos.', true, true, 0),
+  ('spansk-vg1:fortelle-om-opplevelser', 'q02', 'flervalg', 'Hva er indefinido av «tener» i jeg-form?', array['tuve', 'tení', 'tenía', 'tengo']::text[], 0, 'tener er uregelmessig: tuve.', true, true, 1),
+  ('spansk-vg1:fortelle-om-opplevelser', 'q03', 'flervalg', 'Velg riktig kombinasjon: «___ sol cuando ___ a llover.»', array['Hizo – empezaba', 'Hace – empieza', 'Hacía – empezó', 'Hará – empezará']::text[], 2, 'Bakgrunn i imperfecto, hendelse i indefinido.', true, true, 2),
+  ('spansk-vg1:fortelle-om-opplevelser', 'q04', 'flervalg', 'Hva er imperfecto av «ir» i jeg-form?', array['fui', 'iré', 'voy', 'iba']::text[], 3, 'ir er uregelmessig i imperfecto: iba.', true, true, 3),
+  ('spansk-vg1:fortelle-om-opplevelser', 'q05', 'flervalg', 'Hva kan «fui» bety?', array['jeg var eller jeg dro', 'jeg hadde', 'jeg gjorde', 'jeg kom']::text[], 0, 'ser og ir har samme former i indefinido.', true, true, 4),
+  ('spansk-vg1:fortelle-om-opplevelser', 'q06', 'flervalg', 'Hva er indefinido av «hacer» i han-form?', array['hació', 'hizo', 'hice', 'hacía']::text[], 1, 'hacer: hice, hiciste, hizo.', true, true, 5),
+  ('spansk-vg1:fortelle-om-opplevelser', 'q07', 'flervalg', 'Hva uttrykker «había salido»?', array['Noe som skjer nå', 'En vane i fortiden', 'Noe som skjedde før noe annet i fortiden', 'Noe i framtiden']::text[], 2, 'Pluskvamperfektum.', true, true, 6),
+  ('spansk-vg1:fortelle-om-opplevelser', 'q08', 'flervalg', 'Hva betyr «de repente»?', array['til slutt', 'først', 'etterpå', 'plutselig']::text[], 3, 'De repente, empezó a llover.', true, true, 7),
+  ('spansk-vg1:fortelle-om-opplevelser', 'q09', 'flervalg', 'Hva er indefinido av «hablar» i jeg-form?', array['hablé', 'hablaba', 'hablo', 'hablaré']::text[], 0, 'Regelmessig -ar-verb: hablé.', true, false, 8),
+  ('spansk-vg1:fortelle-om-opplevelser', 'q10', 'flervalg', 'Hva betyr «hace dos años»?', array['om to år', 'for to år siden', 'i to år', 'hvert annet år']::text[], 1, 'hace + tid = for … siden.', true, false, 9),
+  ('spansk-vg1:fortelle-om-opplevelser', 'm01', 'sant-usant', 'Bare tre verb er uregelmessige i imperfecto.', array['Sant', 'Usant']::text[], 0, 'ser, ir og ver.', false, true, 10),
+  ('spansk-vg1:fortelle-om-opplevelser', 'm02', 'sant-usant', 'En plutselig hendelse står vanligvis i imperfecto.', array['Sant', 'Usant']::text[], 1, 'Plutselige hendelser står i indefinido.', false, true, 11),
+  ('spansk-vg1:fortelle-om-opplevelser', 'm03', 'sant-usant', '«estuve» er indefinido av «estar».', array['Sant', 'Usant']::text[], 0, 'Estuve en Madrid dos semanas.', false, true, 12),
+  ('spansk-vg1:fortelle-om-opplevelser', 'm04', 'sant-usant', 'Imperfecto av «comer» er «comaba».', array['Sant', 'Usant']::text[], 1, '-er-verb får -ía: comía.', false, true, 13),
+  ('spansk-vg1:fortelle-om-opplevelser', 'm05', 'flervalg', 'Hva betyr «Cuando era pequeño, jugaba al fútbol»?', array['Da jeg var liten, spilte jeg fotball.', 'Jeg spilte fotball i går.', 'Jeg skal spille fotball.', 'Jeg har aldri spilt fotball.']::text[], 0, 'Imperfecto om vaner.', false, true, 14),
+  ('spansk-vg1:fortelle-om-opplevelser', 'm06', 'flervalg', 'Hva er indefinido av «decir» i jeg-form?', array['decí', 'dije', 'decía', 'diré']::text[], 1, 'decir er uregelmessig: dije.', false, true, 15),
+  ('spansk-vg1:fortelle-om-opplevelser', 'm07', 'flervalg', 'Hvordan sier du «i fjor sommer»?', array['el verano próximo', 'este verano', 'el verano pasado', 'en verano']::text[], 2, 'pasado = forrige.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('spansk-vg1:fortelle-om-opplevelser', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Spansk: Samfunn i Spania og Latin-Amerika
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('spansk-vg1:samfunn-og-aktuelle-saker', 'spansk-vg1', 'samfunn-og-aktuelle-saker', 'Samfunn i Spania og Latin-Amerika', 'Den spansktalende verden, Spanias regioner og språk, mangfold, ulikhet og migrasjon i Latin-Amerika – og hvordan du uttrykker meninger og ønsker på spansk, blant annet med en første innføring i subjuntivo.', array[4, 5, 8]::int[], 3, 'sjekkes', array['Sjekk tallet på spansktalende (rundt 500 millioner morsmålsbrukere) og antall land med spansk som offisielt språk.']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('spansk-vg1:samfunn-og-aktuelle-saker', '## Den spansktalende verden
+
+Spansk er morsmål for rundt **500 millioner** mennesker og offisielt språk i **21 land**: **Spania**, **Ekvatorial-Guinea** i Afrika og en rekke land i **Latin-Amerika**. **Mexico** er landet med flest spansktalende. Spansk er også mye brukt i **USA**.
+
+## Spania
+
+Spania er et **konstitusjonelt monarki** med **17 autonome regioner** (*comunidades autónomas*), som har stor grad av selvstyre. I tillegg til spansk (*castellano*) har flere regioner egne offisielle språk:
+
+- **katalansk** (*catalán*) i Catalonia
+- **baskisk** (*euskera*) i Baskerland – et språk som ikke er i slekt med noe annet kjent språk
+- **galisisk** (*gallego*) i Galicia
+
+I **Catalonia** har spørsmålet om **uavhengighet** skapt store politiske konflikter.
+
+## Latin-Amerika
+
+Latin-Amerika er preget av stort **mangfold**:
+
+- **Urfolk**, som mayaer, quechuaer og aymaraer, med egne språk og kulturer
+- Etterkommere av **europeere** og **afrikanere**, og mange med blandet bakgrunn
+- **Store byer**, som Mexico by, Buenos Aires og Bogotá, og **landsbygd**
+
+Mange land har **store forskjeller** mellom rike og fattige. Andre aktuelle temaer er **migrasjon** – blant annet til USA og Spania – **korrupsjon**, **kriminalitet**, **avskoging** i Amazonas og **urfolks rettigheter**.
+
+## Å uttrykke meninger
+
+- *En mi opinión, … / Para mí, …* – Etter min mening …
+- *Creo que / Pienso que + indikativ* – *Creo que **es** importante.*
+- *Estoy a favor / en contra de …* – Jeg er for / mot …
+- *Por un lado …, por otro lado …* – På den ene siden …, på den andre …
+- *Sin embargo* – likevel, *además* – dessuten
+
+## Subjuntivo – en første innføring
+
+**Subjuntivo** er en egen verbform som brukes etter uttrykk for **ønsker**, **følelser**, **tvil** og **nektede meninger**.
+
+Form: ta **yo**-formen i presens, fjern -o, og bytt vokal: **-ar → -e**, **-er/-ir → -a**.
+
+- hablar → habl**e**, comer → com**a**, tener → teng**a**, hacer → hag**a**
+- Uregelmessige: *ser → sea*, *ir → vaya*, *estar → esté*
+
+Eksempler:
+
+- *Quiero que **vengas**.* – Jeg vil at du skal komme.
+- *Espero que **tengas** suerte.* – Jeg håper du har flaks.
+- *No creo que **sea** verdad.* – Jeg tror ikke det er sant.
+- *Es importante que todos **puedan** estudiar.*
+
+Legg merke til forskjellen: *Creo que **es** verdad* (indikativ) – *No creo que **sea** verdad* (subjuntivo).', '{"label":"Samfunn i den spansktalende verden","children":[{"label":"Spansk i verden","children":[{"label":"21 land"},{"label":"Mexico"},{"label":"USA"}]},{"label":"Spania","children":[{"label":"17 regioner"},{"label":"catalán, euskera, gallego"},{"label":"Catalonia"}]},{"label":"Latin-Amerika","children":[{"label":"Urfolk"},{"label":"Ulikhet"},{"label":"Migrasjon"},{"label":"Amazonas"}]},{"label":"Meninger","children":[{"label":"En mi opinión"},{"label":"a favor / en contra"},{"label":"por un lado …"}]},{"label":"Subjuntivo","children":[{"label":"Quiero que …"},{"label":"Espero que …"},{"label":"No creo que …"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'spansk-vg1:samfunn-og-aktuelle-saker';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('spansk-vg1:samfunn-og-aktuelle-saker', '21 land', 'antall land med spansk som offisielt språk', 0),
+  ('spansk-vg1:samfunn-og-aktuelle-saker', 'México', 'landet med flest spansktalende', 1),
+  ('spansk-vg1:samfunn-og-aktuelle-saker', 'las comunidades autónomas', 'Spanias 17 autonome regioner', 2),
+  ('spansk-vg1:samfunn-og-aktuelle-saker', 'el catalán', 'katalansk – språk i Catalonia', 3),
+  ('spansk-vg1:samfunn-og-aktuelle-saker', 'el euskera', 'baskisk – ikke i slekt med noe annet kjent språk', 4),
+  ('spansk-vg1:samfunn-og-aktuelle-saker', 'el gallego', 'galisisk – språk i Galicia', 5),
+  ('spansk-vg1:samfunn-og-aktuelle-saker', 'los pueblos indígenas', 'urfolkene', 6),
+  ('spansk-vg1:samfunn-og-aktuelle-saker', 'la desigualdad', 'ulikheten', 7),
+  ('spansk-vg1:samfunn-og-aktuelle-saker', 'la migración', 'migrasjonen', 8),
+  ('spansk-vg1:samfunn-og-aktuelle-saker', 'En mi opinión …', 'Etter min mening …', 9),
+  ('spansk-vg1:samfunn-og-aktuelle-saker', 'Estoy en contra de …', 'Jeg er mot …', 10),
+  ('spansk-vg1:samfunn-og-aktuelle-saker', 'por un lado … por otro lado', 'på den ene siden … på den andre', 11),
+  ('spansk-vg1:samfunn-og-aktuelle-saker', 'Quiero que vengas.', 'Jeg vil at du skal komme. (subjuntivo)', 12),
+  ('spansk-vg1:samfunn-og-aktuelle-saker', 'Espero que tengas suerte.', 'Jeg håper du har flaks.', 13),
+  ('spansk-vg1:samfunn-og-aktuelle-saker', 'No creo que sea verdad.', 'Jeg tror ikke det er sant.', 14);
+delete from public.quiz_sporsmal where tema_id = 'spansk-vg1:samfunn-og-aktuelle-saker';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('spansk-vg1:samfunn-og-aktuelle-saker', 'q01', 'flervalg', 'Hvilket land har flest spansktalende?', array['Spania', 'Mexico', 'Argentina', 'USA']::text[], 1, 'Mexico har over 100 millioner innbyggere.', true, true, 0),
+  ('spansk-vg1:samfunn-og-aktuelle-saker', 'q02', 'flervalg', 'Hvilket språk snakkes i Baskerland?', array['Euskera', 'Catalán', 'Gallego', 'Portugisisk']::text[], 0, 'Baskisk er ikke i slekt med noe annet kjent språk.', true, true, 1),
+  ('spansk-vg1:samfunn-og-aktuelle-saker', 'q03', 'flervalg', 'Hvor mange autonome regioner har Spania?', array['5', '10', '17', '50']::text[], 2, 'Regionene har stor grad av selvstyre.', true, true, 2),
+  ('spansk-vg1:samfunn-og-aktuelle-saker', 'q04', 'flervalg', 'Velg riktig: «Quiero que tú ___ conmigo.»', array['vienes', 'venir', 'vendrás', 'vengas']::text[], 3, 'Etter ønsker med que brukes subjuntivo.', true, true, 3),
+  ('spansk-vg1:samfunn-og-aktuelle-saker', 'q05', 'flervalg', 'Velg riktig: «Creo que ___ importante.»', array['es', 'sea', 'está', 'ser']::text[], 0, 'creo que + indikativ.', true, true, 4),
+  ('spansk-vg1:samfunn-og-aktuelle-saker', 'q06', 'flervalg', 'Hvilken region har hatt store konflikter om uavhengighet?', array['Andalucía', 'Catalonia', 'Madrid', 'Kanariøyene']::text[], 1, 'Mange katalanere ønsker uavhengighet, andre ikke.', true, true, 5),
+  ('spansk-vg1:samfunn-og-aktuelle-saker', 'q07', 'flervalg', 'Velg riktig: «No creo que ___ verdad.»', array['es', 'está', 'sea', 'será']::text[], 2, 'Nektet mening + que → subjuntivo.', true, true, 6),
+  ('spansk-vg1:samfunn-og-aktuelle-saker', 'q08', 'flervalg', 'Hva betyr «la desigualdad»?', array['likheten', 'uavhengigheten', 'ulykken', 'ulikheten']::text[], 3, 'Mange latinamerikanske land har store forskjeller mellom rike og fattige.', true, true, 7),
+  ('spansk-vg1:samfunn-og-aktuelle-saker', 'q09', 'flervalg', 'Hva er subjuntivo av «tener» i tú-form?', array['tengas', 'tienes', 'tenes', 'tendrás']::text[], 0, 'yo tengo → teng- + -as.', true, false, 8),
+  ('spansk-vg1:samfunn-og-aktuelle-saker', 'q10', 'flervalg', 'Hva betyr «Estoy a favor»?', array['Jeg er mot.', 'Jeg er for.', 'Jeg er takknemlig.', 'Jeg er favoritt.']::text[], 1, 'a favor = for, en contra = mot.', true, false, 9),
+  ('spansk-vg1:samfunn-og-aktuelle-saker', 'm01', 'sant-usant', 'Spansk er offisielt språk i Ekvatorial-Guinea i Afrika.', array['Sant', 'Usant']::text[], 0, 'Landet var tidligere en spansk koloni.', false, true, 10),
+  ('spansk-vg1:samfunn-og-aktuelle-saker', 'm02', 'sant-usant', 'Spania er en republikk uten konge.', array['Sant', 'Usant']::text[], 1, 'Spania er et konstitusjonelt monarki.', false, true, 11),
+  ('spansk-vg1:samfunn-og-aktuelle-saker', 'm03', 'sant-usant', '«Espero que» etterfølges av subjuntivo.', array['Sant', 'Usant']::text[], 0, 'Espero que tengas un buen día.', false, true, 12),
+  ('spansk-vg1:samfunn-og-aktuelle-saker', 'm04', 'sant-usant', 'Alle i Latin-Amerika har samme kulturelle bakgrunn.', array['Sant', 'Usant']::text[], 1, 'Latin-Amerika er preget av stort mangfold.', false, true, 13),
+  ('spansk-vg1:samfunn-og-aktuelle-saker', 'm05', 'flervalg', 'Hva er subjuntivo av «ser» i yo-form?', array['soy', 'sea', 'sería', 'fuera']::text[], 1, 'ser er uregelmessig: sea.', false, true, 14),
+  ('spansk-vg1:samfunn-og-aktuelle-saker', 'm06', 'flervalg', 'Hvilket urfolk er knyttet til Andesfjellene?', array['Quechua', 'Samer', 'Maori', 'Inuitter']::text[], 0, 'Quechua er også et levende språk.', false, true, 15),
+  ('spansk-vg1:samfunn-og-aktuelle-saker', 'm07', 'flervalg', 'Hva betyr «sin embargo»?', array['dessuten', 'derfor', 'likevel', 'først']::text[], 2, 'Brukes for å vise motsetning.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('spansk-vg1:samfunn-og-aktuelle-saker', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Spansk: Spansktalende historie: fra 1492 til demokrati
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('spansk-vg1:historie', 'spansk-vg1', 'historie', 'Spansktalende historie: fra 1492 til demokrati', 'Hovedlinjer i spansk og latinamerikansk historie – Columbus og erobringen av Amerika, uavhengighetskampene, den spanske borgerkrigen, Franco-diktaturet og overgangen til demokrati – og hvordan du bruker indefinido, datoer og passiv på spansk.', array[8, 4]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('spansk-vg1:historie', '## 1492 – et vendepunkt
+
+I **1492** skjedde tre viktige ting i Spania:
+
+- Den siste muslimske staten på Den iberiske halvøy, **Granada**, ble erobret av de katolske kongene **Isabel og Fernando**.
+- **Jøder** som ikke ville konvertere, ble **utvist** fra Spania.
+- **Kristoffer Columbus** (*Cristóbal Colón*) seilte vestover med spansk støtte og kom til **Amerika**.
+
+## Erobringen av Amerika
+
+Spanske **conquistadorer** erobret store deler av Amerika. **Hernán Cortés** erobret **aztekerriket** i dagens Mexico (1521), og **Francisco Pizarro** erobret **inkariket** i Andes på 1530-tallet. Millioner av urfolk døde av **krig**, **tvangsarbeid** og **sykdommer** europeerne brakte med seg, som kopper. Spansk språk og **katolsk** tro ble spredt, og sølv og gull gjorde Spania til en stormakt.
+
+## Uavhengighet i Latin-Amerika
+
+Tidlig på **1800-tallet** kjempet koloniene for **uavhengighet**. **Simón Bolívar** ledet frigjøringen av flere land i Sør-Amerika og kalles ofte *El Libertador* (frigjøreren). De fleste latinamerikanske land ble selvstendige i perioden **1810–1825**. Senere hadde mange land perioder med **diktatur** og **militærkupp**, blant annet i **Chile** (Pinochet, 1973–1990) og **Argentina**.
+
+## Den spanske borgerkrigen
+
+Fra **1936** til **1939** var Spania i en blodig **borgerkrig** mellom den folkevalgte **republikanske** siden og **nasjonalistene** under general **Francisco Franco**. Nazi-Tyskland og det fascistiske Italia støttet Franco. Bombingen av den baskiske byen **Guernica** i **1937** ble et symbol på krigens brutalitet – og motivet i Picassos kjente maleri.
+
+## Franco-diktaturet og demokratiet
+
+Franco styrte Spania som **diktator** fra **1939** til han døde i **1975**. Regionale språk som katalansk og baskisk ble **undertrykt**. Etter Francos død fulgte **la Transición** – overgangen til **demokrati** – med en ny **grunnlov** i **1978**. Spania ble medlem av det som i dag er **EU** i **1986**.
+
+## Språk: indefinido, datoer og passiv
+
+- Historiske hendelser fortelles ofte i **indefinido**: *Colón **llegó** a América en 1492. Franco **murió** en 1975.*
+- Årstall: ***en** 1492*. Dato: ***el** 12 de octubre de 1492*.
+- **Passiv**: *ser* + partisipp: *Granada **fue conquistada** en 1492.* – Granada ble erobret i 1492. Partisippet **samsvarer** med subjektet.
+- En vanlig alternativ form er **se-passiv**: *Se firmó la Constitución en 1978.* – Grunnloven ble undertegnet i 1978.', '{"label":"Spansktalende historie","children":[{"label":"1492","children":[{"label":"Granada"},{"label":"Utvisning av jøder"},{"label":"Columbus"}]},{"label":"Erobringen","children":[{"label":"Cortés og aztekerne"},{"label":"Pizarro og inkaene"},{"label":"Urfolk døde"}]},{"label":"Uavhengighet","children":[{"label":"Simón Bolívar"},{"label":"1810–1825"},{"label":"Diktaturer"}]},{"label":"Spania 1900-tallet","children":[{"label":"Borgerkrigen 1936–1939"},{"label":"Franco til 1975"},{"label":"Transición og 1978"}]},{"label":"Språk","children":[{"label":"Indefinido"},{"label":"en 1492"},{"label":"Passiv"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'spansk-vg1:historie';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('spansk-vg1:historie', '1492', 'Granada erobret, jødene utvist, Columbus kom til Amerika', 0),
+  ('spansk-vg1:historie', 'Cristóbal Colón', 'Kristoffer Columbus', 1),
+  ('spansk-vg1:historie', 'los Reyes Católicos', 'de katolske kongene Isabel og Fernando', 2),
+  ('spansk-vg1:historie', 'los conquistadores', 'de spanske erobrerne', 3),
+  ('spansk-vg1:historie', 'Hernán Cortés', 'erobret aztekerriket i 1521', 4),
+  ('spansk-vg1:historie', 'Francisco Pizarro', 'erobret inkariket på 1530-tallet', 5),
+  ('spansk-vg1:historie', 'Simón Bolívar', 'El Libertador – ledet frigjøringen i Sør-Amerika', 6),
+  ('spansk-vg1:historie', 'la Guerra Civil', 'den spanske borgerkrigen 1936–1939', 7),
+  ('spansk-vg1:historie', 'Francisco Franco', 'diktator i Spania 1939–1975', 8),
+  ('spansk-vg1:historie', 'Guernica', 'baskisk by som ble bombet i 1937', 9),
+  ('spansk-vg1:historie', 'la Transición', 'overgangen til demokrati etter 1975', 10),
+  ('spansk-vg1:historie', 'la Constitución de 1978', 'Spanias demokratiske grunnlov', 11),
+  ('spansk-vg1:historie', 'llegó / murió', 'kom / døde (indefinido)', 12),
+  ('spansk-vg1:historie', 'fue conquistada', 'ble erobret (passiv)', 13),
+  ('spansk-vg1:historie', 'en 1492', 'i 1492', 14);
+delete from public.quiz_sporsmal where tema_id = 'spansk-vg1:historie';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('spansk-vg1:historie', 'q01', 'flervalg', 'Hvilket år kom Columbus til Amerika?', array['1066', '1492', '1521', '1789']::text[], 1, 'Samme år ble Granada erobret.', true, true, 0),
+  ('spansk-vg1:historie', 'q02', 'flervalg', 'Hvem erobret aztekerriket?', array['Hernán Cortés', 'Francisco Pizarro', 'Simón Bolívar', 'Columbus']::text[], 0, 'Aztekerriket lå i dagens Mexico.', true, true, 1),
+  ('spansk-vg1:historie', 'q03', 'flervalg', 'Hvorfor døde millioner av urfolk etter erobringen?', array['Av tørke alene', 'Av jordskjelv', 'Av krig, tvangsarbeid og europeiske sykdommer', 'Av vulkanutbrudd']::text[], 2, 'Sykdommer som kopper var særlig dødelige.', true, true, 2),
+  ('spansk-vg1:historie', 'q04', 'flervalg', 'Hvem kalles «El Libertador»?', array['Franco', 'Cortés', 'Columbus', 'Simón Bolívar']::text[], 3, 'Han ledet frigjøringen av flere land i Sør-Amerika.', true, true, 3),
+  ('spansk-vg1:historie', 'q05', 'flervalg', 'Når var den spanske borgerkrigen?', array['1936–1939', '1914–1918', '1939–1945', '1975–1978']::text[], 0, 'Franco vant og styrte som diktator til 1975.', true, true, 4),
+  ('spansk-vg1:historie', 'q06', 'flervalg', 'Hva skjedde med regionale språk under Franco?', array['De ble offisielle', 'De ble undertrykt', 'De ble obligatoriske i skolen', 'De ble eksportert']::text[], 1, 'Katalansk og baskisk ble undertrykt.', true, true, 5),
+  ('spansk-vg1:historie', 'q07', 'flervalg', 'Hva var «la Transición»?', array['Erobringen av Amerika', 'Borgerkrigen', 'Overgangen til demokrati etter Francos død', 'Uavhengigheten i Latin-Amerika']::text[], 2, 'Den nye grunnloven kom i 1978.', true, true, 6),
+  ('spansk-vg1:historie', 'q08', 'flervalg', 'Hvordan sier du «Columbus kom til Amerika i 1492»?', array['Colón llegaba a América en 1492.', 'Colón llega a América en 1492.', 'Colón ha llegado a América 1492.', 'Colón llegó a América en 1492.']::text[], 3, 'Avsluttet hendelse: indefinido. Årstall med en.', true, true, 7),
+  ('spansk-vg1:historie', 'q09', 'flervalg', 'Hva betyr «Granada fue conquistada en 1492»?', array['Granada ble erobret i 1492.', 'Granada erobret i 1492.', 'Granada var erobrer i 1492.', 'Granada skal erobres i 1492.']::text[], 0, 'Passiv: ser + partisipp.', true, false, 8),
+  ('spansk-vg1:historie', 'q10', 'flervalg', 'Hvilken by ble bombet i 1937 og ble motivet i et kjent maleri av Picasso?', array['Madrid', 'Guernica', 'Barcelona', 'Sevilla']::text[], 1, 'Bombingen ble et symbol på krigens brutalitet.', true, false, 9),
+  ('spansk-vg1:historie', 'm01', 'sant-usant', 'Spania ble medlem av det som i dag er EU i 1986.', array['Sant', 'Usant']::text[], 0, 'Det skjedde etter overgangen til demokrati.', false, true, 10),
+  ('spansk-vg1:historie', 'm02', 'sant-usant', 'Franco ledet den republikanske siden i borgerkrigen.', array['Sant', 'Usant']::text[], 1, 'Franco ledet nasjonalistene mot republikken.', false, true, 11),
+  ('spansk-vg1:historie', 'm03', 'sant-usant', 'Inkariket lå i Andesfjellene.', array['Sant', 'Usant']::text[], 0, 'Det ble erobret av Pizarro på 1530-tallet.', false, true, 12),
+  ('spansk-vg1:historie', 'm04', 'sant-usant', 'De fleste latinamerikanske land ble selvstendige på 1900-tallet.', array['Sant', 'Usant']::text[], 1, 'De fleste ble selvstendige mellom 1810 og 1825.', false, true, 13),
+  ('spansk-vg1:historie', 'm05', 'flervalg', 'Hva betyr «Franco murió en 1975»?', array['Franco døde i 1975.', 'Franco ble født i 1975.', 'Franco styrte i 1975.', 'Franco flyktet i 1975.']::text[], 0, 'morir → murió i indefinido.', false, true, 14),
+  ('spansk-vg1:historie', 'm06', 'flervalg', 'Hvem var de katolske kongene?', array['Carlos og Felipe', 'Isabel og Fernando', 'Franco og Juan Carlos', 'Cortés og Pizarro']::text[], 1, 'De støttet Columbus'' reise.', false, true, 15),
+  ('spansk-vg1:historie', 'm07', 'flervalg', 'Hvilket land hadde et militærdiktatur under Pinochet fra 1973 til 1990?', array['Mexico', 'Spania', 'Chile', 'Cuba']::text[], 2, 'Mange latinamerikanske land hadde diktaturer på 1900-tallet.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('spansk-vg1:historie', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Spansk: Litteratur, kunst, musikk og film
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('spansk-vg1:kunst-og-kultur', 'spansk-vg1', 'kunst-og-kultur', 'Litteratur, kunst, musikk og film', 'Kjente kunstnere og verk fra den spansktalende verden – Don Quijote, Velázquez, Picasso, Frida Kahlo, García Márquez, flamenco, tango og latinsk musikk – og hvordan du bruker condicional til ønsker og hypotetiske situasjoner.', array[9, 3]::int[], 5, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('spansk-vg1:kunst-og-kultur', '## Litteratur
+
+- **Miguel de Cervantes** skrev **Don Quijote** (første del **1605**), om en adelsmann som har lest så mange ridderromaner at han selv drar ut som ridder – sammen med den praktiske væpneren **Sancho Panza**. Den regnes ofte som den første moderne romanen. Uttrykket «å kjempe mot vindmøller» kommer fra denne boka.
+- **Gabriel García Márquez** fra Colombia skrev **Hundre års ensomhet** (*Cien años de soledad*, **1967**), et hovedverk innen **magisk realisme**, der det overnaturlige beskrives som en del av hverdagen. Han fikk **Nobelprisen** i **1982**.
+- Andre kjente forfattere er **Isabel Allende** (Chile) og **Pablo Neruda** (Chile), som skrev kjærlighetsdikt og politisk poesi.
+
+## Kunst
+
+- **Diego Velázquez** malte **Las Meninas** (1656), et av verdens mest analyserte malerier, som leker med hvem som ser på hvem.
+- **Pablo Picasso** var med på å skape **kubismen**. **Guernica** (1937) viser bombingen av den baskiske byen under borgerkrigen og er et av de sterkeste antikrigsbildene som finnes.
+- **Salvador Dalí** er kjent for **surrealistiske** malerier med smeltende klokker.
+- **Frida Kahlo** fra Mexico malte mange **selvportretter** om smerte, identitet og meksikansk kultur.
+
+## Musikk og dans
+
+- **Flamenco** fra Andalucía kombinerer sang, gitar og dans og står på UNESCOs liste over **immateriell kulturarv**.
+- **Tango** oppsto i **Buenos Aires** og Montevideo.
+- **Salsa**, **cumbia** og **reggaetón** er populære latinamerikanske sjangre. Artister som **Shakira** og **Bad Bunny** har gjort spanskspråklig musikk populær over hele verden.
+
+## Film
+
+**Pedro Almodóvar** er Spanias mest kjente filmregissør, med fargerike filmer om familie, kjærlighet og identitet. Mexico har regissører som **Guillermo del Toro** og **Alfonso Cuarón**, som begge har vunnet Oscar.
+
+## Condicional – ønsker og høflighet
+
+**Condicional** lages ved å legge **-ía**-endelser til infinitiven: *hablar → hablar**ía***, *comer → comer**ía***. Uregelmessige stammer er de samme som i futuro: *tener → **tendr**ía*, *hacer → **har**ía*, *poder → **podr**ía*.
+
+- *Me **gustaría** visitar México.* – Jeg skulle gjerne besøkt Mexico.
+- ***Podría** ayudarme?* – Kunne De hjelpe meg?
+- *Sería genial.* – Det ville vært kjempebra.
+
+## Å snakke om egne opplevelser
+
+- *Me ha gustado mucho la película porque …*
+- *Esta canción me recuerda a …* – Denne sangen minner meg om …
+- *Lo que más me gusta es …* – Det jeg liker best, er …', '{"label":"Kunst og kultur","children":[{"label":"Litteratur","children":[{"label":"Don Quijote"},{"label":"García Márquez"},{"label":"Neruda og Allende"}]},{"label":"Kunst","children":[{"label":"Velázquez"},{"label":"Picasso: Guernica"},{"label":"Dalí og Kahlo"}]},{"label":"Musikk og dans","children":[{"label":"Flamenco"},{"label":"Tango"},{"label":"Reggaetón"}]},{"label":"Film","children":[{"label":"Almodóvar"},{"label":"del Toro og Cuarón"}]},{"label":"Condicional","children":[{"label":"me gustaría"},{"label":"podría"},{"label":"sería"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'spansk-vg1:kunst-og-kultur';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('spansk-vg1:kunst-og-kultur', 'Don Quijote', 'roman av Cervantes (1605), ofte kalt den første moderne romanen', 0),
+  ('spansk-vg1:kunst-og-kultur', 'Sancho Panza', 'Don Quijotes praktiske væpner', 1),
+  ('spansk-vg1:kunst-og-kultur', 'Cien años de soledad', 'Hundre års ensomhet (1967) av García Márquez', 2),
+  ('spansk-vg1:kunst-og-kultur', 'el realismo mágico', 'magisk realisme – det overnaturlige som en del av hverdagen', 3),
+  ('spansk-vg1:kunst-og-kultur', 'Las Meninas', 'maleri av Velázquez (1656)', 4),
+  ('spansk-vg1:kunst-og-kultur', 'Guernica', 'Picassos antikrigsmaleri fra 1937', 5),
+  ('spansk-vg1:kunst-og-kultur', 'el cubismo', 'kubismen – kunstretning Picasso var med på å skape', 6),
+  ('spansk-vg1:kunst-og-kultur', 'Frida Kahlo', 'meksikansk kunstner kjent for selvportretter', 7),
+  ('spansk-vg1:kunst-og-kultur', 'el flamenco', 'sang, gitar og dans fra Andalucía', 8),
+  ('spansk-vg1:kunst-og-kultur', 'el tango', 'dans og musikk fra Buenos Aires og Montevideo', 9),
+  ('spansk-vg1:kunst-og-kultur', 'Pedro Almodóvar', 'Spanias mest kjente filmregissør', 10),
+  ('spansk-vg1:kunst-og-kultur', 'Me gustaría …', 'Jeg skulle gjerne …', 11),
+  ('spansk-vg1:kunst-og-kultur', '¿Podría ayudarme?', 'Kunne De hjelpe meg?', 12),
+  ('spansk-vg1:kunst-og-kultur', 'Sería genial.', 'Det ville vært kjempebra.', 13),
+  ('spansk-vg1:kunst-og-kultur', 'Esta canción me recuerda a …', 'Denne sangen minner meg om …', 14);
+delete from public.quiz_sporsmal where tema_id = 'spansk-vg1:kunst-og-kultur';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('spansk-vg1:kunst-og-kultur', 'q01', 'flervalg', 'Hvem skrev «Don Quijote»?', array['García Márquez', 'Miguel de Cervantes', 'Pablo Neruda', 'Isabel Allende']::text[], 1, 'Første del kom i 1605.', true, true, 0),
+  ('spansk-vg1:kunst-og-kultur', 'q02', 'flervalg', 'Hva viser Picassos «Guernica»?', array['Bombingen av en baskisk by under borgerkrigen', 'Et landskap i Andalucía', 'Et portrett av kongen', 'En flamencodanser']::text[], 0, 'Maleriet er fra 1937.', true, true, 1),
+  ('spansk-vg1:kunst-og-kultur', 'q03', 'flervalg', 'Hva er magisk realisme?', array['Kunst om magikere', 'Fantasy med drager', 'Litteratur der det overnaturlige beskrives som en del av hverdagen', 'Realistiske malerier']::text[], 2, 'Hundre års ensomhet er et hovedverk.', true, true, 2),
+  ('spansk-vg1:kunst-og-kultur', 'q04', 'flervalg', 'Hvor oppsto tangoen?', array['Madrid', 'Mexico by', 'Havanna', 'Buenos Aires og Montevideo']::text[], 3, 'Tango er knyttet til Argentina og Uruguay.', true, true, 3),
+  ('spansk-vg1:kunst-og-kultur', 'q05', 'flervalg', 'Hva betyr «Me gustaría visitar México»?', array['Jeg skulle gjerne besøkt Mexico.', 'Jeg besøkte Mexico.', 'Jeg liker Mexico.', 'Jeg skal besøke Mexico.']::text[], 0, 'Condicional uttrykker ønske.', true, true, 4),
+  ('spansk-vg1:kunst-og-kultur', 'q06', 'flervalg', 'Hvem malte mange selvportretter om smerte og identitet?', array['Salvador Dalí', 'Frida Kahlo', 'Velázquez', 'Picasso']::text[], 1, 'Frida Kahlo var fra Mexico.', true, true, 5),
+  ('spansk-vg1:kunst-og-kultur', 'q07', 'flervalg', 'Hva er condicional av «poder» i usted-form?', array['puede', 'pudo', 'podría', 'poderá']::text[], 2, 'poder har stammen podr- + -ía.', true, true, 6),
+  ('spansk-vg1:kunst-og-kultur', 'q08', 'flervalg', 'Hvor kommer flamencoen fra?', array['Catalonia', 'Galicia', 'Baskerland', 'Andalucía']::text[], 3, 'Flamenco er på UNESCOs liste over immateriell kulturarv.', true, true, 7),
+  ('spansk-vg1:kunst-og-kultur', 'q09', 'flervalg', 'Hvilken kunstretning var Picasso med på å skape?', array['Kubismen', 'Impresjonismen', 'Surrealismen', 'Romantikken']::text[], 0, 'Dalí er kjent for surrealismen.', true, false, 8),
+  ('spansk-vg1:kunst-og-kultur', 'q10', 'flervalg', 'Hvilket år fikk García Márquez Nobelprisen i litteratur?', array['1967', '1982', '1605', '2010']::text[], 1, 'Hundre års ensomhet kom i 1967.', true, false, 9),
+  ('spansk-vg1:kunst-og-kultur', 'm01', 'sant-usant', 'Uttrykket «å kjempe mot vindmøller» kommer fra Don Quijote.', array['Sant', 'Usant']::text[], 0, 'Don Quijote tror vindmøllene er kjemper.', false, true, 10),
+  ('spansk-vg1:kunst-og-kultur', 'm02', 'sant-usant', 'Frida Kahlo var fra Spania.', array['Sant', 'Usant']::text[], 1, 'Frida Kahlo var fra Mexico.', false, true, 11),
+  ('spansk-vg1:kunst-og-kultur', 'm03', 'sant-usant', 'Condicional og futuro har de samme uregelmessige stammene.', array['Sant', 'Usant']::text[], 0, 'tendré – tendría, haré – haría.', false, true, 12),
+  ('spansk-vg1:kunst-og-kultur', 'm04', 'sant-usant', 'Salvador Dalí er kjent for kubistiske malerier med smeltende klokker.', array['Sant', 'Usant']::text[], 1, 'Dalí var surrealist.', false, true, 13),
+  ('spansk-vg1:kunst-og-kultur', 'm05', 'flervalg', 'Hva er condicional av «hacer» i yo-form?', array['hacería', 'haría', 'hice', 'hago']::text[], 1, 'hacer har stammen har-.', false, true, 14),
+  ('spansk-vg1:kunst-og-kultur', 'm06', 'flervalg', 'Hvem malte «Las Meninas»?', array['Velázquez', 'Goya', 'Picasso', 'Dalí']::text[], 0, 'Maleriet er fra 1656.', false, true, 15),
+  ('spansk-vg1:kunst-og-kultur', 'm07', 'flervalg', 'Hva betyr «Esta canción me recuerda a mi abuela»?', array['Bestemor liker denne sangen.', 'Denne sangen handler om bestemor.', 'Denne sangen minner meg om bestemoren min.', 'Jeg sang denne sangen for bestemor.']::text[], 2, 'recordar a = minne om.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('spansk-vg1:kunst-og-kultur', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Kinesisk (vg1): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'kinesisk-vg1' and slug not in ('uttale-og-toner', 'hilsener-og-presentasjon', 'tall-og-tid', 'familie-og-hverdag', 'kinesiske-tegn', 'kultur-og-hoytider');
+
+-- Kinesisk: Mandarin, pinyin og toner
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('kinesisk-vg1:uttale-og-toner', 'kinesisk-vg1', 'uttale-og-toner', 'Mandarin, pinyin og toner', 'Hva mandarin er, hvordan lydskriften pinyin fungerer, de fire tonene og den nøytrale tonen, lyder som er vanskelige for nordmenn, tonesandhi og strategier for å lære uttale.', array[6, 7, 1]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('kinesisk-vg1:uttale-og-toner', '## Mandarin
+
+Det vi kaller «kinesisk» i skolen, er **mandarin** – på kinesisk **普通话** (*Pǔtōnghuà*, «fellesspråket»). Det er offisielt språk i **Kina** og **Taiwan** og ett av de offisielle språkene i **Singapore**. Mandarin er morsmålet til flest mennesker i verden. I tillegg finnes mange andre kinesiske språk og dialekter, som **kantonesisk**.
+
+## Pinyin
+
+**Pinyin** er et system som skriver kinesisk uttale med **latinske bokstaver**. Det brukes når man lærer språket, og når man skriver kinesiske tegn på PC og mobil. En kinesisk stavelse består ofte av en **forlyd** (initial) og en **utlyd** (final), pluss en **tone**: *m + a + tone*.
+
+## De fire tonene
+
+Mandarin er et **tonespråk**: Samme lyd kan ha helt ulik betydning avhengig av **tonen**.
+
+| Tone | Merke | Beskrivelse | Eksempel |
+| --- | --- | --- | --- |
+| 1. tone | mā | høy og jevn | 妈 mā – mor |
+| 2. tone | má | stigende, som et spørsmål | 麻 má – hamp |
+| 3. tone | mǎ | faller og stiger | 马 mǎ – hest |
+| 4. tone | mà | kort og fallende, som en ordre | 骂 mà – skjelle ut |
+| Nøytral | ma | kort og svak | 吗 ma – spørrepartikkel |
+
+*Māma mà mǎ ma?* – «Skjeller mamma ut hesten?» er en klassisk øvelse.
+
+## Tonesandhi
+
+Noen toner **endrer seg** i sammenheng med andre:
+
+- To **3. toner** etter hverandre: Den første uttales som **2. tone**. *nǐ hǎo* (hei) uttales *ní hǎo*.
+- **不 bù** (ikke) blir **bú** foran en 4. tone: *bú shì* (er ikke).
+
+## Lyder å øve på
+
+- **x** ligner en myk «sj»: *xièxie* (takk)
+- **q** ligner «tsj» med luft: *qī* (sju)
+- **j** ligner «dj»: *jiā* (hjem)
+- **zh, ch, sh** uttales med tungespissen bøyd bakover: *Zhōngguó* (Kina)
+- **c** uttales «ts»: *cài* (mat, rett)
+- **z** uttales «ds»: *zàijiàn* (ha det)
+- **r** ligner en blanding av norsk «r» og engelsk «s» i *measure*: *rén* (menneske)
+
+## Strategier
+
+- **Lytt og etterlign** – gjerne med lydopptak fra læreboka eller apper.
+- Bruk **håndbevegelser** som viser tonen når du øver.
+- **Ta opp deg selv** og sammenlign med en morsmålsbruker.
+- Lær ord **med tonen** fra starten – en feil tone kan gi et helt annet ord.
+- Bruk erfaringer fra andre språk: Du har allerede lært å høre forskjell på lyder i engelsk og kanskje andre språk.', '{"label":"Uttale og toner","children":[{"label":"Mandarin","children":[{"label":"普通话"},{"label":"Kina, Taiwan, Singapore"}]},{"label":"Pinyin","children":[{"label":"Latinske bokstaver"},{"label":"Forlyd + utlyd + tone"}]},{"label":"Toner","children":[{"label":"1: høy"},{"label":"2: stigende"},{"label":"3: fallende-stigende"},{"label":"4: fallende"}]},{"label":"Tonesandhi","children":[{"label":"3 + 3 → 2 + 3"},{"label":"bù → bú"}]},{"label":"Lyder","children":[{"label":"x, q, j"},{"label":"zh, ch, sh"},{"label":"c, z, r"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'kinesisk-vg1:uttale-og-toner';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('kinesisk-vg1:uttale-og-toner', '普通话 Pǔtōnghuà', 'mandarin – «fellesspråket»', 0),
+  ('kinesisk-vg1:uttale-og-toner', 'pinyin', 'lydskrift for kinesisk med latinske bokstaver', 1),
+  ('kinesisk-vg1:uttale-og-toner', 'mā (1. tone)', 'høy og jevn tone', 2),
+  ('kinesisk-vg1:uttale-og-toner', 'má (2. tone)', 'stigende tone', 3),
+  ('kinesisk-vg1:uttale-og-toner', 'mǎ (3. tone)', 'fallende og stigende tone', 4),
+  ('kinesisk-vg1:uttale-og-toner', 'mà (4. tone)', 'kort og fallende tone', 5),
+  ('kinesisk-vg1:uttale-og-toner', '妈 mā', 'mor', 6),
+  ('kinesisk-vg1:uttale-og-toner', '马 mǎ', 'hest', 7),
+  ('kinesisk-vg1:uttale-og-toner', '吗 ma', 'spørrepartikkel (nøytral tone)', 8),
+  ('kinesisk-vg1:uttale-og-toner', 'nǐ hǎo → ní hǎo', 'tonesandhi: to 3. toner etter hverandre', 9),
+  ('kinesisk-vg1:uttale-og-toner', 'bù → bú', '不 uttales bú foran en 4. tone', 10),
+  ('kinesisk-vg1:uttale-og-toner', '谢谢 xièxie', 'takk', 11),
+  ('kinesisk-vg1:uttale-og-toner', '中国 Zhōngguó', 'Kina', 12),
+  ('kinesisk-vg1:uttale-og-toner', '人 rén', 'menneske', 13),
+  ('kinesisk-vg1:uttale-og-toner', '再见 zàijiàn', 'ha det', 14);
+delete from public.quiz_sporsmal where tema_id = 'kinesisk-vg1:uttale-og-toner';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('kinesisk-vg1:uttale-og-toner', 'q01', 'flervalg', 'Hva er pinyin?', array['Kinesiske tegn', 'Lydskrift for kinesisk med latinske bokstaver', 'En kinesisk dialekt', 'En type tone']::text[], 1, 'Pinyin brukes også når man skriver tegn på PC og mobil.', true, true, 0),
+  ('kinesisk-vg1:uttale-og-toner', 'q02', 'flervalg', 'Hvordan beskrives 4. tone?', array['Kort og fallende', 'Høy og jevn', 'Stigende', 'Fallende og stigende']::text[], 0, 'Den høres ut som en bestemt ordre.', true, true, 1),
+  ('kinesisk-vg1:uttale-og-toner', 'q03', 'flervalg', 'Hva betyr 马 mǎ?', array['mor', 'hamp', 'hest', 'spørrepartikkel']::text[], 2, 'Tonen avgjør betydningen.', true, true, 2),
+  ('kinesisk-vg1:uttale-og-toner', 'q04', 'flervalg', 'Hvordan uttales «nǐ hǎo» i praksis?', array['nì hào', 'nǐ hǎo med to 3. toner', 'nī hāo', 'ní hǎo']::text[], 3, 'Når to 3. toner følger hverandre, blir den første en 2. tone.', true, true, 3),
+  ('kinesisk-vg1:uttale-og-toner', 'q05', 'flervalg', 'Hva kalles mandarin på kinesisk?', array['普通话 Pǔtōnghuà', '汉字 hànzì', '北京 Běijīng', '中秋 Zhōngqiū']::text[], 0, 'Pǔtōnghuà betyr «fellesspråket».', true, true, 4),
+  ('kinesisk-vg1:uttale-og-toner', 'q06', 'flervalg', 'Hvordan uttales «不 shì» (er ikke)?', array['bù shì', 'bú shì', 'bǔ shì', 'bū shì']::text[], 1, '不 blir bú foran en 4. tone.', true, true, 5),
+  ('kinesisk-vg1:uttale-og-toner', 'q07', 'flervalg', 'Hvordan beskrives 2. tone?', array['Høy og jevn', 'Kort og fallende', 'Stigende, som et spørsmål', 'Svak og kort']::text[], 2, 'Eksempel: má.', true, true, 6),
+  ('kinesisk-vg1:uttale-og-toner', 'q08', 'flervalg', 'Hvordan uttales bokstaven «c» i pinyin?', array['k', 's', 'sj', 'ts']::text[], 3, 'Eksempel: cài (rett, mat).', true, true, 7),
+  ('kinesisk-vg1:uttale-og-toner', 'q09', 'flervalg', 'Hvorfor er det viktig å lære ord med riktig tone?', array['Fordi feil tone kan gi et helt annet ord', 'Fordi tonene bare brukes i sanger', 'Fordi tonene er valgfrie', 'Det er ikke viktig']::text[], 0, 'Mandarin er et tonespråk.', true, false, 8),
+  ('kinesisk-vg1:uttale-og-toner', 'q10', 'flervalg', 'Hva betyr 谢谢 xièxie?', array['unnskyld', 'takk', 'hei', 'ha det']::text[], 1, 'Svaret er ofte 不客气 bú kèqi – ingen årsak.', true, false, 9),
+  ('kinesisk-vg1:uttale-og-toner', 'm01', 'sant-usant', 'Mandarin er et tonespråk.', array['Sant', 'Usant']::text[], 0, 'Tonen skiller mellom ord med samme lyd.', false, true, 10),
+  ('kinesisk-vg1:uttale-og-toner', 'm02', 'sant-usant', 'Kantonesisk og mandarin er det samme språket.', array['Sant', 'Usant']::text[], 1, 'Kantonesisk er et eget kinesisk språk.', false, true, 11),
+  ('kinesisk-vg1:uttale-og-toner', 'm03', 'sant-usant', '吗 ma uttales med nøytral tone.', array['Sant', 'Usant']::text[], 0, 'Nøytral tone er kort og svak.', false, true, 12),
+  ('kinesisk-vg1:uttale-og-toner', 'm04', 'sant-usant', 'Pinyin-bokstaven «x» uttales som norsk «ks».', array['Sant', 'Usant']::text[], 1, 'x ligner en myk «sj», som i xièxie.', false, true, 13),
+  ('kinesisk-vg1:uttale-og-toner', 'm05', 'flervalg', 'Hva betyr 妈 mā?', array['hest', 'mor', 'hamp', 'skjelle ut']::text[], 1, '1. tone: høy og jevn.', false, true, 14),
+  ('kinesisk-vg1:uttale-og-toner', 'm06', 'flervalg', 'Hva betyr 再见 zàijiàn?', array['ha det', 'god morgen', 'takk', 'unnskyld']::text[], 0, 'Bokstavelig: «se igjen».', false, true, 15),
+  ('kinesisk-vg1:uttale-og-toner', 'm07', 'flervalg', 'Hvilken strategi er nyttig når du øver på toner?', array['Å se bort fra tonene', 'Å bare lese pinyin stille', 'Å ta opp seg selv og sammenligne med en morsmålsbruker', 'Å lære tonene til slutt']::text[], 2, 'Lytting og etterligning er viktig.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('kinesisk-vg1:uttale-og-toner', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Kinesisk: Hilsener og å presentere seg
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('kinesisk-vg1:hilsener-og-presentasjon', 'kinesisk-vg1', 'hilsener-og-presentasjon', 'Hilsener og å presentere seg', 'Hvordan du hilser, takker og presenterer deg på kinesisk – navn, nasjonalitet og alder – personlige pronomen, spørsmål med 吗 og 什么, og høflighet i kinesisk kultur.', array[2, 1, 6]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('kinesisk-vg1:hilsener-og-presentasjon', '## Hilsener
+
+- **你好** *nǐ hǎo* – hei
+- **您好** *nín hǎo* – hei (høflig, til eldre og lærere)
+- **老师好** *lǎoshī hǎo* – hei, lærer
+- **再见** *zàijiàn* – ha det
+- **谢谢** *xièxie* – takk – svar: **不客气** *bú kèqi* – ingen årsak
+- **对不起** *duìbuqǐ* – unnskyld – svar: **没关系** *méi guānxi* – det går bra
+
+## Personlige pronomen
+
+| | Entall | Flertall |
+| --- | --- | --- |
+| 1. person | 我 *wǒ* – jeg | 我们 *wǒmen* – vi |
+| 2. person | 你 *nǐ* – du / 您 *nín* – De | 你们 *nǐmen* – dere |
+| 3. person | 他 *tā* – han / 她 *tā* – hun | 他们 *tāmen* – de |
+
+Flertall lages enkelt med **们** *men*. **他** og **她** uttales likt, men skrives ulikt.
+
+## Å presentere seg
+
+- **我叫……** *Wǒ jiào …* – Jeg heter …
+- **你叫什么名字？** *Nǐ jiào shénme míngzi?* – Hva heter du?
+- **我是挪威人。** *Wǒ shì Nuówēi rén.* – Jeg er norsk.
+- **你是哪国人？** *Nǐ shì nǎ guó rén?* – Hvilket land er du fra?
+- **我今年十六岁。** *Wǒ jīnnián shíliù suì.* – Jeg er seksten år.
+- **我是学生。** *Wǒ shì xuésheng.* – Jeg er elev.
+- **很高兴认识你！** *Hěn gāoxìng rènshi nǐ!* – Hyggelig å treffe deg!
+
+## Spørsmål
+
+- **Ja/nei-spørsmål**: Sett **吗** *ma* til slutt: *你是学生吗？* – Er du elev? Svar: *是* (ja) eller *不是* (nei).
+- **Spørreord** står der svaret skal stå: *你叫**什么**？* – Hva heter du? Svar: *我叫**安娜**。*
+- **呢** *ne* betyr «og du?»: *我很好，你呢？* – Jeg har det bra, og du?
+
+Verbene **bøyes ikke**: *wǒ shì*, *nǐ shì*, *tā shì* – alle betyr «er».
+
+## Navn
+
+På kinesisk står **etternavnet først**: I *王明* *Wáng Míng* er **Wáng** etternavnet. Vanlige etternavn er **王** *Wáng*, **李** *Lǐ* og **张** *Zhāng*. Mange utlendinger får et **kinesisk navn** som ligner lyden av det opprinnelige navnet.
+
+## Høflighet
+
+- Bruk **您** *nín* og titler som **老师** *lǎoshī* (lærer) til eldre og personer med høy status.
+- Når man tar imot noe, bruker man gjerne **begge hender**.
+- Kinesere svarer ofte **beskjedent** på komplimenter, for eksempel med *哪里哪里* *nǎli nǎli* – «ikke i det hele tatt».', '{"label":"Hilsener og presentasjon","children":[{"label":"Hilsener","children":[{"label":"你好 / 您好"},{"label":"再见"},{"label":"谢谢 – 不客气"}]},{"label":"Pronomen","children":[{"label":"我, 你, 他, 她"},{"label":"们 = flertall"}]},{"label":"Presentere seg","children":[{"label":"我叫……"},{"label":"我是挪威人"},{"label":"……岁"}]},{"label":"Spørsmål","children":[{"label":"……吗？"},{"label":"什么"},{"label":"你呢？"}]},{"label":"Kultur","children":[{"label":"Etternavn først"},{"label":"您 og titler"},{"label":"Beskjedenhet"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'kinesisk-vg1:hilsener-og-presentasjon';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('kinesisk-vg1:hilsener-og-presentasjon', '你好 nǐ hǎo', 'hei', 0),
+  ('kinesisk-vg1:hilsener-og-presentasjon', '您好 nín hǎo', 'hei (høflig)', 1),
+  ('kinesisk-vg1:hilsener-og-presentasjon', '不客气 bú kèqi', 'ingen årsak', 2),
+  ('kinesisk-vg1:hilsener-og-presentasjon', '对不起 duìbuqǐ', 'unnskyld', 3),
+  ('kinesisk-vg1:hilsener-og-presentasjon', '没关系 méi guānxi', 'det går bra', 4),
+  ('kinesisk-vg1:hilsener-og-presentasjon', '我 wǒ / 你 nǐ', 'jeg / du', 5),
+  ('kinesisk-vg1:hilsener-og-presentasjon', '他 tā / 她 tā', 'han / hun', 6),
+  ('kinesisk-vg1:hilsener-og-presentasjon', '们 men', 'flertallsendelse for pronomen: 我们 = vi', 7),
+  ('kinesisk-vg1:hilsener-og-presentasjon', '我叫…… wǒ jiào …', 'jeg heter …', 8),
+  ('kinesisk-vg1:hilsener-og-presentasjon', '什么 shénme', 'hva', 9),
+  ('kinesisk-vg1:hilsener-og-presentasjon', '我是挪威人。', 'Jeg er norsk. (Wǒ shì Nuówēi rén.)', 10),
+  ('kinesisk-vg1:hilsener-og-presentasjon', '岁 suì', 'år (om alder)', 11),
+  ('kinesisk-vg1:hilsener-og-presentasjon', '吗 ma', 'gjør en setning til ja/nei-spørsmål', 12),
+  ('kinesisk-vg1:hilsener-og-presentasjon', '你呢？nǐ ne?', 'og du?', 13),
+  ('kinesisk-vg1:hilsener-og-presentasjon', '很高兴认识你', 'Hyggelig å treffe deg (hěn gāoxìng rènshi nǐ)', 14);
+delete from public.quiz_sporsmal where tema_id = 'kinesisk-vg1:hilsener-og-presentasjon';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('kinesisk-vg1:hilsener-og-presentasjon', 'q01', 'flervalg', 'Hvordan sier du «Jeg heter Anna» på kinesisk?', array['我是叫安娜。', '我叫安娜。', '你叫安娜。', '我安娜叫。']::text[], 1, '我叫 + navn.', true, true, 0),
+  ('kinesisk-vg1:hilsener-og-presentasjon', 'q02', 'flervalg', 'Hva svarer du på 谢谢?', array['不客气 bú kèqi', '对不起 duìbuqǐ', '再见 zàijiàn', '你好 nǐ hǎo']::text[], 0, '不客气 betyr ingen årsak.', true, true, 1),
+  ('kinesisk-vg1:hilsener-og-presentasjon', 'q03', 'flervalg', 'Hvordan lager du et ja/nei-spørsmål på kinesisk?', array['Ved å bytte om på ordene', 'Ved å bøye verbet', 'Ved å sette 吗 til slutt', 'Ved å sette 什么 først']::text[], 2, '你是学生吗？ – Er du elev?', true, true, 2),
+  ('kinesisk-vg1:hilsener-og-presentasjon', 'q04', 'flervalg', 'Hva betyr 我是挪威人?', array['Jeg bor i Norge.', 'Jeg liker Norge.', 'Jeg snakker norsk.', 'Jeg er norsk.']::text[], 3, '挪威 Nuówēi = Norge, 人 rén = person.', true, true, 3),
+  ('kinesisk-vg1:hilsener-og-presentasjon', 'q05', 'flervalg', 'Hvilken hilsen er mest høflig til en eldre person?', array['您好 nín hǎo', '你好 nǐ hǎo', '再见 zàijiàn', '谢谢 xièxie']::text[], 0, '您 er den høflige formen av du.', true, true, 4),
+  ('kinesisk-vg1:hilsener-og-presentasjon', 'q06', 'flervalg', 'Hva betyr 我们 wǒmen?', array['jeg', 'vi', 'dere', 'de']::text[], 1, '们 lager flertall av pronomen.', true, true, 5),
+  ('kinesisk-vg1:hilsener-og-presentasjon', 'q07', 'flervalg', 'I navnet 王明 Wáng Míng – hva er etternavnet?', array['Míng', 'Begge', 'Wáng', 'Ingen av dem']::text[], 2, 'Etternavnet står først på kinesisk.', true, true, 6),
+  ('kinesisk-vg1:hilsener-og-presentasjon', 'q08', 'flervalg', 'Hva betyr 你呢？', array['Hva heter du?', 'Hvor bor du?', 'Hvor gammel er du?', 'Og du?']::text[], 3, '我很好，你呢？ – Jeg har det bra, og du?', true, true, 7),
+  ('kinesisk-vg1:hilsener-og-presentasjon', 'q09', 'flervalg', 'Hvordan spør du «Hva heter du?»', array['你叫什么名字？', '你是哪国人？', '你几岁？', '你好吗？']::text[], 0, 'Nǐ jiào shénme míngzi?', true, false, 8),
+  ('kinesisk-vg1:hilsener-og-presentasjon', 'q10', 'flervalg', 'Hvorfor bøyer man ikke verbet «是» etter person?', array['Fordi det er uregelmessig', 'Fordi kinesiske verb ikke bøyes etter person', 'Fordi det bare brukes med 我', 'Det bøyes alltid']::text[], 1, '我是, 你是 og 他是 har samme verbform.', true, false, 9),
+  ('kinesisk-vg1:hilsener-og-presentasjon', 'm01', 'sant-usant', '他 og 她 uttales likt, men skrives ulikt.', array['Sant', 'Usant']::text[], 0, 'Begge uttales tā.', false, true, 10),
+  ('kinesisk-vg1:hilsener-og-presentasjon', 'm02', 'sant-usant', 'På kinesisk står fornavnet før etternavnet.', array['Sant', 'Usant']::text[], 1, 'Etternavnet står først.', false, true, 11),
+  ('kinesisk-vg1:hilsener-og-presentasjon', 'm03', 'sant-usant', '对不起 betyr unnskyld.', array['Sant', 'Usant']::text[], 0, 'Svaret er ofte 没关系 – det går bra.', false, true, 12),
+  ('kinesisk-vg1:hilsener-og-presentasjon', 'm04', 'sant-usant', 'Kinesiske verb bøyes etter person, som på fransk.', array['Sant', 'Usant']::text[], 1, 'Kinesiske verb bøyes ikke etter person.', false, true, 13),
+  ('kinesisk-vg1:hilsener-og-presentasjon', 'm05', 'flervalg', 'Hvordan sier du «Jeg er seksten år»?', array['我十六是。', '我今年十六岁。', '我有十六。', '我是十六岁人。']::text[], 1, 'Wǒ jīnnián shíliù suì.', false, true, 14),
+  ('kinesisk-vg1:hilsener-og-presentasjon', 'm06', 'flervalg', 'Hva betyr 老师 lǎoshī?', array['lærer', 'elev', 'venn', 'far']::text[], 0, '老师好！ – Hei, lærer!', false, true, 15),
+  ('kinesisk-vg1:hilsener-og-presentasjon', 'm07', 'flervalg', 'Hvordan spør du «Hvilket land er du fra?»', array['你叫什么？', '你好吗？', '你是哪国人？', '你是学生吗？']::text[], 2, 'Nǐ shì nǎ guó rén?', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('kinesisk-vg1:hilsener-og-presentasjon', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Kinesisk: Tall, penger, klokka og datoer
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('kinesisk-vg1:tall-og-tid', 'kinesisk-vg1', 'tall-og-tid', 'Tall, penger, klokka og datoer', 'Tall fra 0 til 100, måleord og 两, å spørre om pris, klokkeslett, ukedager og datoer på kinesisk – og hvorfor tidsuttrykk står foran verbet.', array[1, 2, 6]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('kinesisk-vg1:tall-og-tid', '## Tall fra 0 til 10
+
+| 零 | 一 | 二 | 三 | 四 | 五 | 六 | 七 | 八 | 九 | 十 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| líng | yī | èr | sān | sì | wǔ | liù | qī | bā | jiǔ | shí |
+
+## Større tall
+
+Kinesiske tall er svært **logiske**:
+
+- 11 = 十一 *shíyī* (ti-en), 15 = 十五 *shíwǔ*
+- 20 = 二十 *èrshí* (to-ti), 36 = 三十六 *sānshíliù*
+- 99 = 九十九 *jiǔshíjiǔ*, 100 = 一百 *yìbǎi*
+
+## Måleord og 两
+
+Når man teller ting, må man bruke et **måleord** mellom tallet og substantivet. Det vanligste er **个** *gè*:
+
+- 三**个**人 *sān ge rén* – tre personer
+- 一**个**苹果 *yí ge píngguǒ* – ett eple
+
+For «to» foran et måleord bruker man **两** *liǎng*, ikke 二: 两个人 *liǎng ge rén* – to personer.
+
+## Penger
+
+Valutaen i Kina heter **renminbi**, og enheten er **元** *yuán* – i dagligtale **块** *kuài*.
+
+- **多少钱？** *Duōshao qián?* – Hvor mye koster det?
+- 十块 *shí kuài* – ti kroner (yuan)
+- 太贵了！ *Tài guì le!* – Det er for dyrt!
+
+## Klokka
+
+- **现在几点？** *Xiànzài jǐ diǎn?* – Hva er klokka nå?
+- 三点 *sān diǎn* – klokka tre
+- 三点半 *sān diǎn bàn* – halv fire (tre og en halv)
+- 八点十分 *bā diǎn shí fēn* – ti over åtte
+
+## Dager og uker
+
+**星期** *xīngqī* betyr uke. Ukedagene er nummerert:
+
+- 星期一 *xīngqīyī* – mandag, 星期二 – tirsdag, … 星期六 – lørdag
+- 星期天 *xīngqītiān* – søndag
+
+今天 *jīntiān* (i dag), 明天 *míngtiān* (i morgen), 昨天 *zuótiān* (i går).
+
+## Datoer
+
+Datoer skrives fra **størst til minst**: **år – måned – dag**.
+
+- 2026年9月26日 *èr líng èr liù nián jiǔ yuè èrshíliù rì* – 26. september 2026
+- Måneder er også nummerert: 一月 *yīyuè* (januar), 十二月 *shí''èryuè* (desember)
+- I muntlig språk sier man ofte 号 *hào* i stedet for 日 *rì*.
+- 你的生日是几月几号？ *Nǐ de shēngrì shì jǐ yuè jǐ hào?* – Når har du bursdag?
+
+## Tid før verb
+
+På kinesisk står **tidsuttrykket foran verbet**, ofte rett etter subjektet:
+
+*我**明天**去北京。* *Wǒ míngtiān qù Běijīng.* – Jeg drar til Beijing i morgen.
+
+## Tall og kultur
+
+Tallet **八** *bā* (8) regnes som et **lykketall**, fordi det ligner ordet for å bli rik. Tallet **四** *sì* (4) unngås ofte, fordi det ligner ordet for død (*sǐ*).', '{"label":"Tall og tid","children":[{"label":"Tall","children":[{"label":"0–10"},{"label":"Logiske tiere"},{"label":"一百"}]},{"label":"Måleord","children":[{"label":"个"},{"label":"两 foran måleord"}]},{"label":"Penger","children":[{"label":"元 / 块"},{"label":"多少钱？"}]},{"label":"Tid","children":[{"label":"几点？"},{"label":"星期一 …"},{"label":"今天, 明天"}]},{"label":"Datoer og kultur","children":[{"label":"År – måned – dag"},{"label":"Tid før verb"},{"label":"8 lykke, 4 uflaks"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'kinesisk-vg1:tall-og-tid';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('kinesisk-vg1:tall-og-tid', '一 二 三 yī èr sān', '1 2 3', 0),
+  ('kinesisk-vg1:tall-og-tid', '四 五 六 sì wǔ liù', '4 5 6', 1),
+  ('kinesisk-vg1:tall-og-tid', '七 八 九 十 qī bā jiǔ shí', '7 8 9 10', 2),
+  ('kinesisk-vg1:tall-og-tid', '二十 èrshí', '20', 3),
+  ('kinesisk-vg1:tall-og-tid', '一百 yìbǎi', '100', 4),
+  ('kinesisk-vg1:tall-og-tid', '个 gè', 'det vanligste måleordet', 5),
+  ('kinesisk-vg1:tall-og-tid', '两 liǎng', 'to (foran måleord)', 6),
+  ('kinesisk-vg1:tall-og-tid', '多少钱？duōshao qián?', 'Hvor mye koster det?', 7),
+  ('kinesisk-vg1:tall-og-tid', '块 kuài', 'yuan i dagligtale', 8),
+  ('kinesisk-vg1:tall-og-tid', '现在几点？', 'Hva er klokka nå? (xiànzài jǐ diǎn)', 9),
+  ('kinesisk-vg1:tall-og-tid', '三点半 sān diǎn bàn', 'halv fire', 10),
+  ('kinesisk-vg1:tall-og-tid', '星期一 xīngqīyī', 'mandag', 11),
+  ('kinesisk-vg1:tall-og-tid', '星期天 xīngqītiān', 'søndag', 12),
+  ('kinesisk-vg1:tall-og-tid', '今天 / 明天 / 昨天', 'i dag / i morgen / i går (jīntiān, míngtiān, zuótiān)', 13),
+  ('kinesisk-vg1:tall-og-tid', '生日 shēngrì', 'bursdag', 14);
+delete from public.quiz_sporsmal where tema_id = 'kinesisk-vg1:tall-og-tid';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('kinesisk-vg1:tall-og-tid', 'q01', 'flervalg', 'Hva er 36 på kinesisk?', array['六十三 liùshísān', '三十六 sānshíliù', '三六 sān liù', '十三六 shísān liù']::text[], 1, 'Tre-ti-seks.', true, true, 0),
+  ('kinesisk-vg1:tall-og-tid', 'q02', 'flervalg', 'Hvordan sier du «to personer»?', array['两个人 liǎng ge rén', '二个人 èr ge rén', '二人个 èr rén ge', '两人个 liǎng rén ge']::text[], 0, 'Foran måleord brukes 两, ikke 二.', true, true, 1),
+  ('kinesisk-vg1:tall-og-tid', 'q03', 'flervalg', 'Hva betyr 多少钱？', array['Hva er klokka?', 'Hvor mange er dere?', 'Hvor mye koster det?', 'Hvor bor du?']::text[], 2, 'Duōshao qián?', true, true, 2),
+  ('kinesisk-vg1:tall-og-tid', 'q04', 'flervalg', 'Hvilken dag er 星期三 xīngqīsān?', array['Mandag', 'Tirsdag', 'Torsdag', 'Onsdag']::text[], 3, 'Ukedagene er nummerert fra mandag.', true, true, 3),
+  ('kinesisk-vg1:tall-og-tid', 'q05', 'flervalg', 'I hvilken rekkefølge skrives en dato på kinesisk?', array['År – måned – dag', 'Dag – måned – år', 'Måned – dag – år', 'Tilfeldig']::text[], 0, 'Fra størst til minst.', true, true, 4),
+  ('kinesisk-vg1:tall-og-tid', 'q06', 'flervalg', 'Hva betyr 三点半?', array['klokka tre', 'halv fire', 'halv tre', 'kvart over tre']::text[], 1, 'Tre og en halv time.', true, true, 5),
+  ('kinesisk-vg1:tall-og-tid', 'q07', 'flervalg', 'Hvor står «i morgen» i setningen «Jeg drar til Beijing i morgen»?', array['Til slutt', 'Etter verbet', 'Foran verbet', 'Det brukes ikke']::text[], 2, '我明天去北京。', true, true, 6),
+  ('kinesisk-vg1:tall-og-tid', 'q08', 'flervalg', 'Hvilket tall regnes som et lykketall i Kina?', array['4', '7', '13', '8']::text[], 3, '八 bā ligner ordet for å bli rik.', true, true, 7),
+  ('kinesisk-vg1:tall-og-tid', 'q09', 'flervalg', 'Hva er det vanligste måleordet?', array['个 gè', '块 kuài', '点 diǎn', '号 hào']::text[], 0, '三个人 – tre personer.', true, false, 8),
+  ('kinesisk-vg1:tall-og-tid', 'q10', 'flervalg', 'Hva betyr 星期天?', array['lørdag', 'søndag', 'mandag', 'fredag']::text[], 1, 'Også 星期日 xīngqīrì.', true, false, 9),
+  ('kinesisk-vg1:tall-og-tid', 'm01', 'sant-usant', 'Tallet 4 unngås ofte fordi det ligner ordet for død.', array['Sant', 'Usant']::text[], 0, '四 sì og 死 sǐ ligner hverandre.', false, true, 10),
+  ('kinesisk-vg1:tall-og-tid', 'm02', 'sant-usant', 'På kinesisk kan man sette tallet rett foran substantivet uten måleord.', array['Sant', 'Usant']::text[], 1, 'Man trenger et måleord, for eksempel 个.', false, true, 11),
+  ('kinesisk-vg1:tall-og-tid', 'm03', 'sant-usant', '块 kuài brukes om yuan i dagligtale.', array['Sant', 'Usant']::text[], 0, '十块 = ti yuan.', false, true, 12),
+  ('kinesisk-vg1:tall-og-tid', 'm04', 'sant-usant', 'Måneder har egne navn på kinesisk, som på norsk.', array['Sant', 'Usant']::text[], 1, 'Månedene er nummerert: 一月, 二月 osv.', false, true, 13),
+  ('kinesisk-vg1:tall-og-tid', 'm05', 'flervalg', 'Hvordan skriver du 20 med kinesiske tegn?', array['十二', '二十', '两十', '二零']::text[], 1, '12 er 十二, 20 er 二十.', false, true, 14),
+  ('kinesisk-vg1:tall-og-tid', 'm06', 'flervalg', 'Hva betyr 太贵了！', array['Det er for dyrt!', 'Det er billig!', 'Det er gratis!', 'Det er pent!']::text[], 0, 'Tài guì le!', false, true, 15),
+  ('kinesisk-vg1:tall-og-tid', 'm07', 'flervalg', 'Hva betyr 昨天?', array['i dag', 'i morgen', 'i går', 'i kveld']::text[], 2, 'zuótiān = i går.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('kinesisk-vg1:tall-og-tid', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Kinesisk: Familie, hobbyer og hverdag
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('kinesisk-vg1:familie-og-hverdag', 'kinesisk-vg1', 'familie-og-hverdag', 'Familie, hobbyer og hverdag', 'Hvordan du forteller om familien, hverdagen og det du liker på kinesisk – familieord for eldre og yngre søsken, 有 og 没有, adjektiver med 很, 也 og 都 – og familiens rolle i kinesisk kultur.', array[3, 5, 8]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('kinesisk-vg1:familie-og-hverdag', '## Familien
+
+På kinesisk skiller man mellom **eldre** og **yngre** søsken:
+
+| | Eldre | Yngre |
+| --- | --- | --- |
+| Bror | 哥哥 *gēge* | 弟弟 *dìdi* |
+| Søster | 姐姐 *jiějie* | 妹妹 *mèimei* |
+
+Andre familieord: 爸爸 *bàba* (far), 妈妈 *māma* (mor), 爷爷 *yéye* (farfar), 奶奶 *nǎinai* (farmor). Besteforeldre på morssiden har egne ord, for eksempel 外婆 *wàipó* (mormor).
+
+## Å ha – 有 og 没有
+
+- 我**有**一个哥哥。 *Wǒ yǒu yí ge gēge.* – Jeg har en eldre bror.
+- 我**没有**妹妹。 *Wǒ méiyǒu mèimei.* – Jeg har ingen yngre søster.
+
+**有** nektes med **没**, ikke med 不!
+
+- 我家有四口人。 *Wǒ jiā yǒu sì kǒu rén.* – Det er fire personer i familien min. (口 *kǒu* er måleord for familiemedlemmer.)
+
+## Adjektiver med 很
+
+Før adjektiver bruker man **ikke** 是 (er). I stedet bruker man ofte **很** *hěn* (egentlig «veldig», men ofte svakt):
+
+- 我**很**好。 *Wǒ hěn hǎo.* – Jeg har det bra.
+- 我妈妈**很**忙。 *Wǒ māma hěn máng.* – Mamma er travel.
+- 中文**很**有意思。 *Zhōngwén hěn yǒu yìsi.* – Kinesisk er interessant.
+
+## Hverdag og fritid
+
+- 吃饭 *chī fàn* – spise (mat)
+- 喝茶 *hē chá* – drikke te
+- 上学 *shàngxué* – gå på skolen
+- 看书 *kàn shū* – lese
+- 听音乐 *tīng yīnyuè* – høre på musikk
+- 打篮球 *dǎ lánqiú* – spille basketball
+- 睡觉 *shuìjiào* – sove
+
+- 我**喜欢**听音乐。 *Wǒ xǐhuan tīng yīnyuè.* – Jeg liker å høre på musikk.
+- 我**不喜欢**早上起床。 – Jeg liker ikke å stå opp om morgenen.
+
+## 也 og 都
+
+- **也** *yě* – også: 我**也**喜欢猫。 – Jeg liker også katter.
+- **都** *dōu* – alle, begge: 我们**都**是学生。 – Vi er alle elever.
+
+Begge står **foran verbet**.
+
+## Eiendom med 的
+
+**的** *de* viser eiendom: 我**的**妈妈 – min mor. Ved nære relasjoner kan 的 sløyfes: 我妈妈.
+
+## Familien i kinesisk kultur
+
+Familien står **sentralt** i kinesisk kultur. Tradisjonelt er **respekt for eldre** viktig – en tanke som går tilbake til filosofen **Konfucius**. Mange besteforeldre hjelper til med å passe barnebarna. Fra **1980** til **2015** hadde Kina en **ettbarnspolitikk** som begrenset hvor mange barn familier kunne få. I dag er det lov med flere barn, men mange velger likevel å få få barn.', '{"label":"Familie og hverdag","children":[{"label":"Familie","children":[{"label":"爸爸, 妈妈"},{"label":"哥哥, 弟弟"},{"label":"姐姐, 妹妹"}]},{"label":"Å ha","children":[{"label":"有"},{"label":"没有"},{"label":"口 som måleord"}]},{"label":"Grammatikk","children":[{"label":"很 + adjektiv"},{"label":"也 og 都"},{"label":"的 = eiendom"}]},{"label":"Hverdag","children":[{"label":"吃饭, 喝茶"},{"label":"上学, 睡觉"},{"label":"喜欢"}]},{"label":"Kultur","children":[{"label":"Respekt for eldre"},{"label":"Konfucius"},{"label":"Ettbarnspolitikken"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'kinesisk-vg1:familie-og-hverdag';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('kinesisk-vg1:familie-og-hverdag', '爸爸 bàba / 妈妈 māma', 'far / mor', 0),
+  ('kinesisk-vg1:familie-og-hverdag', '哥哥 gēge', 'eldre bror', 1),
+  ('kinesisk-vg1:familie-og-hverdag', '弟弟 dìdi', 'yngre bror', 2),
+  ('kinesisk-vg1:familie-og-hverdag', '姐姐 jiějie', 'eldre søster', 3),
+  ('kinesisk-vg1:familie-og-hverdag', '妹妹 mèimei', 'yngre søster', 4),
+  ('kinesisk-vg1:familie-og-hverdag', '有 yǒu', 'ha', 5),
+  ('kinesisk-vg1:familie-og-hverdag', '没有 méiyǒu', 'ikke ha (有 nektes med 没)', 6),
+  ('kinesisk-vg1:familie-og-hverdag', '口 kǒu', 'måleord for familiemedlemmer', 7),
+  ('kinesisk-vg1:familie-og-hverdag', '很 hěn', 'veldig – brukes ofte foran adjektiver', 8),
+  ('kinesisk-vg1:familie-og-hverdag', '喜欢 xǐhuan', 'like', 9),
+  ('kinesisk-vg1:familie-og-hverdag', '听音乐 tīng yīnyuè', 'høre på musikk', 10),
+  ('kinesisk-vg1:familie-og-hverdag', '睡觉 shuìjiào', 'sove', 11),
+  ('kinesisk-vg1:familie-og-hverdag', '也 yě', 'også (foran verbet)', 12),
+  ('kinesisk-vg1:familie-og-hverdag', '都 dōu', 'alle, begge (foran verbet)', 13),
+  ('kinesisk-vg1:familie-og-hverdag', '的 de', 'viser eiendom: 我的 = min', 14);
+delete from public.quiz_sporsmal where tema_id = 'kinesisk-vg1:familie-og-hverdag';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('kinesisk-vg1:familie-og-hverdag', 'q01', 'flervalg', 'Hva betyr 妹妹 mèimei?', array['eldre søster', 'yngre søster', 'yngre bror', 'mor']::text[], 1, '姐姐 er eldre søster.', true, true, 0),
+  ('kinesisk-vg1:familie-og-hverdag', 'q02', 'flervalg', 'Hvordan nekter man 有?', array['没有 méiyǒu', '不有 bù yǒu', '有不 yǒu bù', '非有 fēi yǒu']::text[], 0, '有 nektes alltid med 没.', true, true, 1),
+  ('kinesisk-vg1:familie-og-hverdag', 'q03', 'flervalg', 'Hvordan sier du «Jeg har det bra»?', array['我是好。', '我好是。', '我很好。', '我有好。']::text[], 2, 'Man bruker ikke 是 foran adjektiver.', true, true, 2),
+  ('kinesisk-vg1:familie-og-hverdag', 'q04', 'flervalg', 'Hva betyr 我也喜欢猫?', array['Jeg liker ikke katter.', 'Alle liker katter.', 'Jeg har en katt.', 'Jeg liker også katter.']::text[], 3, '也 = også, foran verbet.', true, true, 3),
+  ('kinesisk-vg1:familie-og-hverdag', 'q05', 'flervalg', 'Hva betyr 我家有四口人?', array['Det er fire personer i familien min.', 'Jeg har fire brødre.', 'Huset mitt har fire rom.', 'Jeg har fire munner.']::text[], 0, '口 er måleord for familiemedlemmer.', true, true, 4),
+  ('kinesisk-vg1:familie-og-hverdag', 'q06', 'flervalg', 'Hva betyr 哥哥 gēge?', array['yngre bror', 'eldre bror', 'far', 'farfar']::text[], 1, '弟弟 er yngre bror.', true, true, 5),
+  ('kinesisk-vg1:familie-og-hverdag', 'q07', 'flervalg', 'Hvor står 都 dōu i setningen?', array['Til slutt', 'Først', 'Foran verbet', 'Etter objektet']::text[], 2, '我们都是学生。', true, true, 6),
+  ('kinesisk-vg1:familie-og-hverdag', 'q08', 'flervalg', 'Hva betyr 我喜欢听音乐?', array['Jeg spiller musikk.', 'Jeg lager musikk.', 'Jeg liker ikke musikk.', 'Jeg liker å høre på musikk.']::text[], 3, '听 = høre/lytte, 音乐 = musikk.', true, true, 7),
+  ('kinesisk-vg1:familie-og-hverdag', 'q09', 'flervalg', 'Hva viser 的 i 我的书?', array['Eiendom', 'Fortid', 'Spørsmål', 'Flertall']::text[], 0, '我的书 = boka mi.', true, false, 8),
+  ('kinesisk-vg1:familie-og-hverdag', 'q10', 'flervalg', 'Hvilken filosof forbindes med respekt for eldre og familie i kinesisk kultur?', array['Sokrates', 'Konfucius', 'Buddha', 'Platon']::text[], 1, 'Konfucius'' ideer har preget kinesisk kultur i over 2000 år.', true, false, 9),
+  ('kinesisk-vg1:familie-og-hverdag', 'm01', 'sant-usant', 'På kinesisk har eldre og yngre søsken ulike ord.', array['Sant', 'Usant']::text[], 0, '哥哥 og 弟弟 er eldre og yngre bror.', false, true, 10),
+  ('kinesisk-vg1:familie-og-hverdag', 'm02', 'sant-usant', '«我是忙» er riktig måte å si «Jeg er travel».', array['Sant', 'Usant']::text[], 1, 'Det riktige er 我很忙.', false, true, 11),
+  ('kinesisk-vg1:familie-og-hverdag', 'm03', 'sant-usant', 'Kina hadde en ettbarnspolitikk fra 1980 til 2015.', array['Sant', 'Usant']::text[], 0, 'I dag er det lov med flere barn.', false, true, 12),
+  ('kinesisk-vg1:familie-og-hverdag', 'm04', 'sant-usant', '也 og 都 står alltid til slutt i setningen.', array['Sant', 'Usant']::text[], 1, 'Begge står foran verbet.', false, true, 13),
+  ('kinesisk-vg1:familie-og-hverdag', 'm05', 'flervalg', 'Hvordan sier du «Jeg har ingen eldre søster»?', array['我不有姐姐。', '我没有姐姐。', '我姐姐没有。', '我有不姐姐。']::text[], 1, '有 nektes med 没.', false, true, 14),
+  ('kinesisk-vg1:familie-og-hverdag', 'm06', 'flervalg', 'Hva betyr 喝茶 hē chá?', array['drikke te', 'spise ris', 'lese bok', 'sove']::text[], 0, 'Te er en viktig del av kinesisk kultur.', false, true, 15),
+  ('kinesisk-vg1:familie-og-hverdag', 'm07', 'flervalg', 'Hva betyr 奶奶 nǎinai?', array['mor', 'tante', 'farmor', 'søster']::text[], 2, '爷爷 er farfar.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('kinesisk-vg1:familie-og-hverdag', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Kinesisk: Kinesiske tegn
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('kinesisk-vg1:kinesiske-tegn', 'kinesisk-vg1', 'kinesiske-tegn', 'Kinesiske tegn', 'Hvordan kinesiske tegn er bygd opp – piktogrammer, sammensatte tegn og radikaler – strekrekkefølge, forenklede og tradisjonelle tegn, og strategier for å lære, lese og skrive tegn.', array[6, 4, 7]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('kinesisk-vg1:kinesiske-tegn', '## Hva er kinesiske tegn?
+
+Kinesisk skrives med **tegn** – **汉字** *hànzì*. Hvert tegn står vanligvis for **én stavelse** og har en **betydning**. Mange ord består av to tegn: 中国 *Zhōngguó* (Kina) = 中 (midt) + 国 (land) – «Midtens rike». For å lese en avis trenger man å kunne noen tusen tegn, men med noen hundre kommer man langt.
+
+## Piktogrammer – bildetegn
+
+Noen av de eldste tegnene var opprinnelig **bilder** av det de betyr:
+
+| Tegn | Pinyin | Betydning |
+| --- | --- | --- |
+| 人 | rén | menneske |
+| 山 | shān | fjell |
+| 日 | rì | sol, dag |
+| 月 | yuè | måne, måned |
+| 木 | mù | tre |
+| 口 | kǒu | munn |
+| 水 | shuǐ | vann |
+| 火 | huǒ | ild |
+
+## Sammensatte tegn
+
+Mange tegn er satt sammen av **enklere deler**:
+
+- 木 + 木 = **林** *lín* – skog (to trær)
+- 木 + 木 + 木 = **森** *sēn* – tett skog
+- 亻(menneske) + 木 = **休** *xiū* – hvile (en person som lener seg mot et tre)
+- 女 (kvinne) + 子 (barn) = **好** *hǎo* – god
+- 日 + 月 = **明** *míng* – lys, klar
+
+## Radikaler
+
+De fleste tegn har en **radikal** – en del som ofte sier noe om **betydningen** – og en del som ofte gir et hint om **uttalen**.
+
+- **氵** (vann): 河 *hé* (elv), 海 *hǎi* (hav), 喝 har derimot munn-radikalen 口 fordi det handler om å drikke
+- **亻** (menneske): 你 *nǐ* (du), 他 *tā* (han)
+- **女** (kvinne): 妈 *mā* (mor), 她 *tā* (hun), 姐 *jiě* (eldre søster)
+- **口** (munn): 吃 *chī* (spise), 喝 *hē* (drikke)
+
+I 妈 *mā* gir 女 betydningen (kvinne) og 马 *mǎ* uttalen.
+
+## Strekrekkefølge
+
+Tegn skrives med **strek** i en fast rekkefølge:
+
+- **ovenfra og ned**
+- **fra venstre mot høyre**
+- **vannrett** før **loddrett** (for eksempel i 十)
+- **ytre** del før **indre**, men bunnen i en «boks» lukkes til slutt (口)
+
+Riktig strekrekkefølge gjør tegnene penere og lettere å huske – og gjør at håndskrivingsgjenkjenning på mobilen fungerer.
+
+## Forenklede og tradisjonelle tegn
+
+På 1950-tallet innførte Kina **forenklede tegn** – **简体字** *jiǎntǐzì* – med færre streker. De brukes i **Kina** og **Singapore**. **Taiwan**, **Hongkong** og **Macao** bruker **tradisjonelle tegn** – **繁体字** *fántǐzì*. Eksempel: 马 (forenklet) – 馬 (tradisjonell), begge betyr hest.
+
+## Strategier
+
+- Lær **radikalene** – de gjør nye tegn lettere å forstå.
+- Lag **huskehistorier**: 休 = en person som hviler mot et tre.
+- Skriv tegnene **for hånd** flere ganger.
+- Bruk **ordbok-apper** der du kan tegne eller skrive pinyin for å finne tegn.
+- Les **korte, tilpassede tekster** med pinyin over tegnene.', '{"label":"Kinesiske tegn","children":[{"label":"Hva er tegn?","children":[{"label":"汉字"},{"label":"Én stavelse, én betydning"}]},{"label":"Piktogrammer","children":[{"label":"人, 山, 日, 月"},{"label":"木, 口, 水, 火"}]},{"label":"Sammensatte tegn","children":[{"label":"林, 森"},{"label":"休, 好, 明"}]},{"label":"Radikaler","children":[{"label":"氵 vann"},{"label":"亻 menneske"},{"label":"女 kvinne"}]},{"label":"Skrift","children":[{"label":"Strekrekkefølge"},{"label":"Forenklede tegn"},{"label":"Tradisjonelle tegn"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'kinesisk-vg1:kinesiske-tegn';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('kinesisk-vg1:kinesiske-tegn', '汉字 hànzì', 'kinesiske tegn', 0),
+  ('kinesisk-vg1:kinesiske-tegn', '人 rén', 'menneske', 1),
+  ('kinesisk-vg1:kinesiske-tegn', '山 shān', 'fjell', 2),
+  ('kinesisk-vg1:kinesiske-tegn', '日 rì', 'sol, dag', 3),
+  ('kinesisk-vg1:kinesiske-tegn', '月 yuè', 'måne, måned', 4),
+  ('kinesisk-vg1:kinesiske-tegn', '木 mù', 'tre', 5),
+  ('kinesisk-vg1:kinesiske-tegn', '水 shuǐ', 'vann', 6),
+  ('kinesisk-vg1:kinesiske-tegn', '林 lín', 'skog (to trær)', 7),
+  ('kinesisk-vg1:kinesiske-tegn', '休 xiū', 'hvile (person ved et tre)', 8),
+  ('kinesisk-vg1:kinesiske-tegn', '好 hǎo', 'god (kvinne + barn)', 9),
+  ('kinesisk-vg1:kinesiske-tegn', '明 míng', 'lys, klar (sol + måne)', 10),
+  ('kinesisk-vg1:kinesiske-tegn', '氵', 'vann-radikalen, som i 河 og 海', 11),
+  ('kinesisk-vg1:kinesiske-tegn', '亻', 'menneske-radikalen, som i 你 og 他', 12),
+  ('kinesisk-vg1:kinesiske-tegn', '简体字 jiǎntǐzì', 'forenklede tegn (Kina og Singapore)', 13),
+  ('kinesisk-vg1:kinesiske-tegn', '繁体字 fántǐzì', 'tradisjonelle tegn (Taiwan, Hongkong, Macao)', 14);
+delete from public.quiz_sporsmal where tema_id = 'kinesisk-vg1:kinesiske-tegn';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('kinesisk-vg1:kinesiske-tegn', 'q01', 'flervalg', 'Hva betyr 山 shān?', array['vann', 'fjell', 'tre', 'sol']::text[], 1, 'Tegnet ligner tre fjelltopper.', true, true, 0),
+  ('kinesisk-vg1:kinesiske-tegn', 'q02', 'flervalg', 'Hva betyr 林 lín, satt sammen av to 木?', array['skog', 'bord', 'hus', 'hage']::text[], 0, 'To trær = skog.', true, true, 1),
+  ('kinesisk-vg1:kinesiske-tegn', 'q03', 'flervalg', 'Hvilken radikal finner du i 河 (elv) og 海 (hav)?', array['亻 menneske', '女 kvinne', '氵 vann', '口 munn']::text[], 2, 'Radikalen sier ofte noe om betydningen.', true, true, 2),
+  ('kinesisk-vg1:kinesiske-tegn', 'q04', 'flervalg', 'Hvor brukes tradisjonelle tegn?', array['I Kina og Singapore', 'Bare i Beijing', 'Ingen steder', 'I Taiwan, Hongkong og Macao']::text[], 3, 'Kina og Singapore bruker forenklede tegn.', true, true, 3),
+  ('kinesisk-vg1:kinesiske-tegn', 'q05', 'flervalg', 'Hva er en regel for strekrekkefølge?', array['Ovenfra og ned, venstre mot høyre', 'Nedenfra og opp', 'Høyre mot venstre', 'Den er valgfri']::text[], 0, 'Vannrett strek kommer også før loddrett.', true, true, 4),
+  ('kinesisk-vg1:kinesiske-tegn', 'q06', 'flervalg', 'Hva betyr 休 xiū?', array['skog', 'hvile', 'menneske', 'sove']::text[], 1, 'En person som lener seg mot et tre.', true, true, 5),
+  ('kinesisk-vg1:kinesiske-tegn', 'q07', 'flervalg', 'Hvorfor har 妈 (mor) delen 女?', array['Fordi det er et verb', 'Fordi det uttales nǚ', 'Fordi 女 betyr kvinne og gir betydningen', 'Det er tilfeldig']::text[], 2, '马 mǎ gir hint om uttalen.', true, true, 6),
+  ('kinesisk-vg1:kinesiske-tegn', 'q08', 'flervalg', 'Hva står et kinesisk tegn vanligvis for?', array['En bokstav', 'En hel setning', 'Et avsnitt', 'Én stavelse med en betydning']::text[], 3, 'Mange ord består av to tegn.', true, true, 7),
+  ('kinesisk-vg1:kinesiske-tegn', 'q09', 'flervalg', 'Hva betyr 明 míng, satt sammen av sol og måne?', array['lys, klar', 'natt', 'tid', 'himmel']::text[], 0, 'Sol + måne = lys.', true, false, 8),
+  ('kinesisk-vg1:kinesiske-tegn', 'q10', 'flervalg', 'Hva betyr 中国 Zhōngguó bokstavelig?', array['Det store landet', 'Midtens rike', 'Det gamle landet', 'Fjellenes land']::text[], 1, '中 = midt, 国 = land.', true, false, 9),
+  ('kinesisk-vg1:kinesiske-tegn', 'm01', 'sant-usant', 'Forenklede tegn har vanligvis færre streker enn tradisjonelle.', array['Sant', 'Usant']::text[], 0, '马 (forenklet) og 馬 (tradisjonell).', false, true, 10),
+  ('kinesisk-vg1:kinesiske-tegn', 'm02', 'sant-usant', 'Kinesisk skrives med et alfabet på 26 bokstaver.', array['Sant', 'Usant']::text[], 1, 'Kinesisk skrives med tegn. Pinyin er bare en lydskrift.', false, true, 11),
+  ('kinesisk-vg1:kinesiske-tegn', 'm03', 'sant-usant', 'Radikalen i et tegn sier ofte noe om betydningen.', array['Sant', 'Usant']::text[], 0, 'For eksempel vann-radikalen i 河 og 海.', false, true, 12),
+  ('kinesisk-vg1:kinesiske-tegn', 'm04', 'sant-usant', 'Taiwan bruker forenklede tegn.', array['Sant', 'Usant']::text[], 1, 'Taiwan bruker tradisjonelle tegn.', false, true, 13),
+  ('kinesisk-vg1:kinesiske-tegn', 'm05', 'flervalg', 'Hva betyr 水 shuǐ?', array['ild', 'vann', 'tre', 'jord']::text[], 1, '火 huǒ betyr ild.', false, true, 14),
+  ('kinesisk-vg1:kinesiske-tegn', 'm06', 'flervalg', 'Hvilken strategi hjelper deg å huske tegn?', array['Å lage huskehistorier om delene', 'Å bare se på tegnene én gang', 'Å lære dem uten betydning', 'Å hoppe over radikalene']::text[], 0, 'For eksempel: 休 = person som hviler mot et tre.', false, true, 15),
+  ('kinesisk-vg1:kinesiske-tegn', 'm07', 'flervalg', 'Hvilken radikal finner du i 你 og 他?', array['氵', '女', '亻', '口']::text[], 2, '亻 er menneske-radikalen.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('kinesisk-vg1:kinesiske-tegn', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Kinesisk: Kina: geografi, høytider og kultur
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('kinesisk-vg1:kultur-og-hoytider', 'kinesisk-vg1', 'kultur-og-hoytider', 'Kina: geografi, høytider og kultur', 'Kinas geografi og byer, de viktigste høytidene – vårfestivalen, midthøstfestivalen og dragebåtfestivalen – dyrekretsen, mat og spisepinner, kalligrafi, te og opera, og hvordan kinesisk kultur kan sammenlignes med norsk.', array[8, 9]::int[], 5, 'sjekkes', array['Kinesisk er nytt fag i appen – en lærer med kinesiskkompetanse bør sjekke tegn, pinyin og toner i alle temaene.']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('kinesisk-vg1:kultur-og-hoytider', '## Geografi
+
+**Kina** (中国 *Zhōngguó*) er et av verdens største land og har rundt **1,4 milliarder** innbyggere. Hovedstaden er **北京** *Běijīng*, og den største byen er **上海** *Shànghǎi*. Landet har store **fjellområder** i vest, med **Himalaya** og Tibet-platået, og tett befolkede sletter i øst. De viktigste elvene er **Chang Jiang** (Yangtze), Asias lengste elv, og **Huang He** (Den gule elv). **Den kinesiske mur** (长城 *Chángchéng*) er et av verdens mest kjente byggverk.
+
+Mandarin snakkes også i **Taiwan** og **Singapore**, og det bor mange kinesere over hele verden.
+
+## Vårfestivalen – kinesisk nyttår
+
+**春节** *Chūnjié* er den viktigste høytiden. Den følger **månekalenderen** og faller mellom **slutten av januar** og **midten av februar**. Da reiser hundrevis av millioner hjem til familien – verdens største årlige folkevandring.
+
+- Man spiser **饺子** *jiǎozi* (dumplings), særlig i Nord-Kina.
+- Barn får **红包** *hóngbāo* – røde konvolutter med penger.
+- **Rødt** er lykkens farge, og det henges opp røde dekorasjoner.
+- Man sier **新年快乐！** *Xīnnián kuàilè!* – Godt nytt år!
+
+## Dyrekretsen
+
+Hvert år er knyttet til ett av **12 dyr**: rotte, okse, tiger, hare, drage, slange, hest, sau, ape, hane, hund og gris. Mange mener dyret i fødselsåret sier noe om personligheten.
+
+## Andre høytider
+
+- **中秋节** *Zhōngqiūjié* – **midthøstfestivalen** ved fullmåne om høsten. Familien samles, ser på månen og spiser **月饼** *yuèbing* (månekaker).
+- **端午节** *Duānwǔjié* – **dragebåtfestivalen**, med kappløp i lange båter formet som drager.
+
+## Mat
+
+Kinesisk mat varierer mye mellom regionene. I **sør** spiser man mye **ris**, i **nord** mer **hvete** – nudler og dumplings. Man spiser med **筷子** *kuàizi* (spisepinner), og rettene deles ofte av alle rundt bordet. Det er uhøflig å stikke spisepinnene loddrett ned i risen, fordi det minner om røkelse ved begravelser.
+
+## Kunst og tradisjoner
+
+- **书法** *shūfǎ* – **kalligrafi**, kunsten å skrive tegn vakkert med pensel og tusj
+- **Te-kultur** – Kina er tebladets hjemland
+- **京剧** *jīngjù* – **Beijing-opera**, med sang, akrobatikk og fargerike masker
+- **Kampsport** som kung fu og **taijiquan** (tai chi), som mange eldre trener i parkene om morgenen
+
+## Sammenligne med Norge
+
+Tenk over likheter og forskjeller: Både jul og vårfestivalen handler om å **samles med familien** og spise **tradisjonsmat**. Men mens mange nordmenn bor langt fra besteforeldrene, bor flere generasjoner ofte tettere sammen i Kina. Hvilke av dine egne tradisjoner ville du fortalt om til en kinesisk venn?', '{"label":"Kina og kultur","children":[{"label":"Geografi","children":[{"label":"1,4 milliarder"},{"label":"Beijing og Shanghai"},{"label":"Chang Jiang og Huang He"},{"label":"Den kinesiske mur"}]},{"label":"Vårfestivalen","children":[{"label":"饺子"},{"label":"红包"},{"label":"Rødt"}]},{"label":"Andre høytider","children":[{"label":"Midthøst: 月饼"},{"label":"Dragebåtfestivalen"},{"label":"Dyrekretsen"}]},{"label":"Mat","children":[{"label":"Ris i sør"},{"label":"Hvete i nord"},{"label":"筷子"}]},{"label":"Kunst","children":[{"label":"Kalligrafi"},{"label":"Te"},{"label":"Beijing-opera"},{"label":"Tai chi"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'kinesisk-vg1:kultur-og-hoytider';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('kinesisk-vg1:kultur-og-hoytider', '中国 Zhōngguó', 'Kina', 0),
+  ('kinesisk-vg1:kultur-og-hoytider', '北京 Běijīng', 'Beijing – hovedstaden', 1),
+  ('kinesisk-vg1:kultur-og-hoytider', '上海 Shànghǎi', 'Shanghai – den største byen', 2),
+  ('kinesisk-vg1:kultur-og-hoytider', '长城 Chángchéng', 'Den kinesiske mur', 3),
+  ('kinesisk-vg1:kultur-og-hoytider', '春节 Chūnjié', 'vårfestivalen – kinesisk nyttår', 4),
+  ('kinesisk-vg1:kultur-og-hoytider', '红包 hóngbāo', 'rød konvolutt med penger', 5),
+  ('kinesisk-vg1:kultur-og-hoytider', '饺子 jiǎozi', 'dumplings', 6),
+  ('kinesisk-vg1:kultur-og-hoytider', '新年快乐！', 'Godt nytt år! (xīnnián kuàilè)', 7),
+  ('kinesisk-vg1:kultur-og-hoytider', 'Dyrekretsen', '12 dyr knyttet til hvert sitt år', 8),
+  ('kinesisk-vg1:kultur-og-hoytider', '中秋节 Zhōngqiūjié', 'midthøstfestivalen', 9),
+  ('kinesisk-vg1:kultur-og-hoytider', '月饼 yuèbing', 'månekake', 10),
+  ('kinesisk-vg1:kultur-og-hoytider', '端午节 Duānwǔjié', 'dragebåtfestivalen', 11),
+  ('kinesisk-vg1:kultur-og-hoytider', '筷子 kuàizi', 'spisepinner', 12),
+  ('kinesisk-vg1:kultur-og-hoytider', '书法 shūfǎ', 'kalligrafi', 13),
+  ('kinesisk-vg1:kultur-og-hoytider', '京剧 jīngjù', 'Beijing-opera', 14);
+delete from public.quiz_sporsmal where tema_id = 'kinesisk-vg1:kultur-og-hoytider';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('kinesisk-vg1:kultur-og-hoytider', 'q01', 'flervalg', 'Hva er hovedstaden i Kina?', array['Shanghai', 'Beijing', 'Hongkong', 'Taipei']::text[], 1, 'Shanghai er den største byen.', true, true, 0),
+  ('kinesisk-vg1:kultur-og-hoytider', 'q02', 'flervalg', 'Hva får barn ofte i gave til kinesisk nyttår?', array['Røde konvolutter med penger', 'Julestrømper', 'Påskeegg', 'Blomster']::text[], 0, '红包 hóngbāo.', true, true, 1),
+  ('kinesisk-vg1:kultur-og-hoytider', 'q03', 'flervalg', 'Hva spiser man under midthøstfestivalen?', array['Dumplings', 'Nudler', 'Månekaker', 'Ris med fisk']::text[], 2, '月饼 yuèbing.', true, true, 2),
+  ('kinesisk-vg1:kultur-og-hoytider', 'q04', 'flervalg', 'Hvor mange dyr har den kinesiske dyrekretsen?', array['7', '10', '24', '12']::text[], 3, 'Ett dyr for hvert år i en tolvårssyklus.', true, true, 3),
+  ('kinesisk-vg1:kultur-og-hoytider', 'q05', 'flervalg', 'Hvilken farge regnes som lykkens farge i Kina?', array['Rød', 'Hvit', 'Svart', 'Blå']::text[], 0, 'Rødt brukes mye under høytider.', true, true, 4),
+  ('kinesisk-vg1:kultur-og-hoytider', 'q06', 'flervalg', 'Hva er 书法 shūfǎ?', array['Kinesisk opera', 'Kalligrafi', 'Kampsport', 'Te-seremoni']::text[], 1, 'Kunsten å skrive tegn vakkert med pensel.', true, true, 5),
+  ('kinesisk-vg1:kultur-og-hoytider', 'q07', 'flervalg', 'Hvorfor er det uhøflig å stikke spisepinnene loddrett ned i risen?', array['Fordi pinnene kan knekke', 'Fordi det er slurvete', 'Fordi det minner om røkelse ved begravelser', 'Fordi det er for høflig']::text[], 2, 'Det forbindes med død.', true, true, 6),
+  ('kinesisk-vg1:kultur-og-hoytider', 'q08', 'flervalg', 'Når feires vårfestivalen?', array['1. januar', 'I juli', 'I desember', 'Mellom slutten av januar og midten av februar']::text[], 3, 'Datoen følger månekalenderen.', true, true, 7),
+  ('kinesisk-vg1:kultur-og-hoytider', 'q09', 'flervalg', 'Hva heter Asias lengste elv?', array['Chang Jiang (Yangtze)', 'Huang He', 'Mekong', 'Ganges']::text[], 0, 'Chang Jiang renner gjennom Kina.', true, false, 8),
+  ('kinesisk-vg1:kultur-og-hoytider', 'q10', 'flervalg', 'Hva betyr 新年快乐？', array['God jul!', 'Godt nytt år!', 'Gratulerer med dagen!', 'God morgen!']::text[], 1, 'Xīnnián kuàilè!', true, false, 9),
+  ('kinesisk-vg1:kultur-og-hoytider', 'm01', 'sant-usant', 'Kina har rundt 1,4 milliarder innbyggere.', array['Sant', 'Usant']::text[], 0, 'Kina er et av verdens mest folkerike land.', false, true, 10),
+  ('kinesisk-vg1:kultur-og-hoytider', 'm02', 'sant-usant', 'Vårfestivalen feires alltid 1. januar.', array['Sant', 'Usant']::text[], 1, 'Datoen følger månekalenderen.', false, true, 11),
+  ('kinesisk-vg1:kultur-og-hoytider', 'm03', 'sant-usant', 'I Nord-Kina spiser man mye hvete, som nudler og dumplings.', array['Sant', 'Usant']::text[], 0, 'I sør spiser man mer ris.', false, true, 12),
+  ('kinesisk-vg1:kultur-og-hoytider', 'm04', 'sant-usant', 'Mandarin snakkes bare i Kina.', array['Sant', 'Usant']::text[], 1, 'Mandarin snakkes også i Taiwan og Singapore.', false, true, 13),
+  ('kinesisk-vg1:kultur-og-hoytider', 'm05', 'flervalg', 'Hva er 端午节?', array['Midthøstfestivalen', 'Dragebåtfestivalen', 'Vårfestivalen', 'Nasjonaldagen']::text[], 1, 'Duānwǔjié feires med båtløp.', false, true, 14),
+  ('kinesisk-vg1:kultur-og-hoytider', 'm06', 'flervalg', 'Hva er 长城?', array['Den kinesiske mur', 'En elv', 'Et fjell', 'En by']::text[], 0, 'Chángchéng – «den lange muren».', false, true, 15),
+  ('kinesisk-vg1:kultur-og-hoytider', 'm07', 'flervalg', 'Hva har jul i Norge og vårfestivalen i Kina til felles?', array['De feires samme dato', 'Begge feires med røde konvolutter', 'Begge handler om å samles med familien og spise tradisjonsmat', 'Ingenting']::text[], 2, 'Familie og tradisjonsmat står sentralt i begge.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('kinesisk-vg1:kultur-og-hoytider', 15)
 on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Kjemi 1 (vg2): rydd bort fjernede temaer

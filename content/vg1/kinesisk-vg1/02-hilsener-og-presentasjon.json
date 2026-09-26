@@ -1,0 +1,81 @@
+{
+  "id": "hilsener-og-presentasjon",
+  "fagId": "kinesisk-vg1",
+  "trinnId": "vg1",
+  "name": "Hilsener og å presentere seg",
+  "intro": "Hvordan du hilser, takker og presenterer deg på kinesisk – navn, nasjonalitet og alder – personlige pronomen, spørsmål med 吗 og 什么, og høflighet i kinesisk kultur.",
+  "kompetansemaal": [2, 1, 6],
+  "sammendrag": "## Hilsener\n\n- **你好** *nǐ hǎo* – hei\n- **您好** *nín hǎo* – hei (høflig, til eldre og lærere)\n- **老师好** *lǎoshī hǎo* – hei, lærer\n- **再见** *zàijiàn* – ha det\n- **谢谢** *xièxie* – takk – svar: **不客气** *bú kèqi* – ingen årsak\n- **对不起** *duìbuqǐ* – unnskyld – svar: **没关系** *méi guānxi* – det går bra\n\n## Personlige pronomen\n\n| | Entall | Flertall |\n| --- | --- | --- |\n| 1. person | 我 *wǒ* – jeg | 我们 *wǒmen* – vi |\n| 2. person | 你 *nǐ* – du / 您 *nín* – De | 你们 *nǐmen* – dere |\n| 3. person | 他 *tā* – han / 她 *tā* – hun | 他们 *tāmen* – de |\n\nFlertall lages enkelt med **们** *men*. **他** og **她** uttales likt, men skrives ulikt.\n\n## Å presentere seg\n\n- **我叫……** *Wǒ jiào …* – Jeg heter …\n- **你叫什么名字？** *Nǐ jiào shénme míngzi?* – Hva heter du?\n- **我是挪威人。** *Wǒ shì Nuówēi rén.* – Jeg er norsk.\n- **你是哪国人？** *Nǐ shì nǎ guó rén?* – Hvilket land er du fra?\n- **我今年十六岁。** *Wǒ jīnnián shíliù suì.* – Jeg er seksten år.\n- **我是学生。** *Wǒ shì xuésheng.* – Jeg er elev.\n- **很高兴认识你！** *Hěn gāoxìng rènshi nǐ!* – Hyggelig å treffe deg!\n\n## Spørsmål\n\n- **Ja/nei-spørsmål**: Sett **吗** *ma* til slutt: *你是学生吗？* – Er du elev? Svar: *是* (ja) eller *不是* (nei).\n- **Spørreord** står der svaret skal stå: *你叫**什么**？* – Hva heter du? Svar: *我叫**安娜**。*\n- **呢** *ne* betyr «og du?»: *我很好，你呢？* – Jeg har det bra, og du?\n\nVerbene **bøyes ikke**: *wǒ shì*, *nǐ shì*, *tā shì* – alle betyr «er».\n\n## Navn\n\nPå kinesisk står **etternavnet først**: I *王明* *Wáng Míng* er **Wáng** etternavnet. Vanlige etternavn er **王** *Wáng*, **李** *Lǐ* og **张** *Zhāng*. Mange utlendinger får et **kinesisk navn** som ligner lyden av det opprinnelige navnet.\n\n## Høflighet\n\n- Bruk **您** *nín* og titler som **老师** *lǎoshī* (lærer) til eldre og personer med høy status.\n- Når man tar imot noe, bruker man gjerne **begge hender**.\n- Kinesere svarer ofte **beskjedent** på komplimenter, for eksempel med *哪里哪里* *nǎli nǎli* – «ikke i det hele tatt».",
+  "flashcards": [
+    { "term": "你好 nǐ hǎo", "def": "hei" },
+    { "term": "您好 nín hǎo", "def": "hei (høflig)" },
+    { "term": "不客气 bú kèqi", "def": "ingen årsak" },
+    { "term": "对不起 duìbuqǐ", "def": "unnskyld" },
+    { "term": "没关系 méi guānxi", "def": "det går bra" },
+    { "term": "我 wǒ / 你 nǐ", "def": "jeg / du" },
+    { "term": "他 tā / 她 tā", "def": "han / hun" },
+    { "term": "们 men", "def": "flertallsendelse for pronomen: 我们 = vi" },
+    { "term": "我叫…… wǒ jiào …", "def": "jeg heter …" },
+    { "term": "什么 shénme", "def": "hva" },
+    { "term": "我是挪威人。", "def": "Jeg er norsk. (Wǒ shì Nuówēi rén.)" },
+    { "term": "岁 suì", "def": "år (om alder)" },
+    { "term": "吗 ma", "def": "gjør en setning til ja/nei-spørsmål" },
+    { "term": "你呢？nǐ ne?", "def": "og du?" },
+    { "term": "很高兴认识你", "def": "Hyggelig å treffe deg (hěn gāoxìng rènshi nǐ)" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvordan sier du «Jeg heter Anna» på kinesisk?", "options": ["我是叫安娜。", "我叫安娜。", "你叫安娜。", "我安娜叫。"], "correct": 1, "explain": "我叫 + navn." },
+    { "id": "q02", "text": "Hva svarer du på 谢谢?", "options": ["不客气 bú kèqi", "对不起 duìbuqǐ", "再见 zàijiàn", "你好 nǐ hǎo"], "correct": 0, "explain": "不客气 betyr ingen årsak." },
+    { "id": "q03", "text": "Hvordan lager du et ja/nei-spørsmål på kinesisk?", "options": ["Ved å bytte om på ordene", "Ved å bøye verbet", "Ved å sette 吗 til slutt", "Ved å sette 什么 først"], "correct": 2, "explain": "你是学生吗？ – Er du elev?" },
+    { "id": "q04", "text": "Hva betyr 我是挪威人?", "options": ["Jeg bor i Norge.", "Jeg liker Norge.", "Jeg snakker norsk.", "Jeg er norsk."], "correct": 3, "explain": "挪威 Nuówēi = Norge, 人 rén = person." },
+    { "id": "q05", "text": "Hvilken hilsen er mest høflig til en eldre person?", "options": ["您好 nín hǎo", "你好 nǐ hǎo", "再见 zàijiàn", "谢谢 xièxie"], "correct": 0, "explain": "您 er den høflige formen av du." },
+    { "id": "q06", "text": "Hva betyr 我们 wǒmen?", "options": ["jeg", "vi", "dere", "de"], "correct": 1, "explain": "们 lager flertall av pronomen." },
+    { "id": "q07", "text": "I navnet 王明 Wáng Míng – hva er etternavnet?", "options": ["Míng", "Begge", "Wáng", "Ingen av dem"], "correct": 2, "explain": "Etternavnet står først på kinesisk." },
+    { "id": "q08", "text": "Hva betyr 你呢？", "options": ["Hva heter du?", "Hvor bor du?", "Hvor gammel er du?", "Og du?"], "correct": 3, "explain": "我很好，你呢？ – Jeg har det bra, og du?" },
+    { "id": "q09", "text": "Hvordan spør du «Hva heter du?»", "options": ["你叫什么名字？", "你是哪国人？", "你几岁？", "你好吗？"], "correct": 0, "explain": "Nǐ jiào shénme míngzi?" },
+    { "id": "q10", "text": "Hvorfor bøyer man ikke verbet «是» etter person?", "options": ["Fordi det er uregelmessig", "Fordi kinesiske verb ikke bøyes etter person", "Fordi det bare brukes med 我", "Det bøyes alltid"], "correct": 1, "explain": "我是, 你是 og 他是 har samme verbform." }
+  ],
+  "mindmap": {
+    "label": "Hilsener og presentasjon",
+    "children": [
+      { "label": "Hilsener", "children": [
+        { "label": "你好 / 您好" },
+        { "label": "再见" },
+        { "label": "谢谢 – 不客气" }
+      ] },
+      { "label": "Pronomen", "children": [
+        { "label": "我, 你, 他, 她" },
+        { "label": "们 = flertall" }
+      ] },
+      { "label": "Presentere seg", "children": [
+        { "label": "我叫……" },
+        { "label": "我是挪威人" },
+        { "label": "……岁" }
+      ] },
+      { "label": "Spørsmål", "children": [
+        { "label": "……吗？" },
+        { "label": "什么" },
+        { "label": "你呢？" }
+      ] },
+      { "label": "Kultur", "children": [
+        { "label": "Etternavn først" },
+        { "label": "您 og titler" },
+        { "label": "Beskjedenhet" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "他 og 她 uttales likt, men skrives ulikt.", "correct": true, "explain": "Begge uttales tā." },
+      { "id": "m02", "type": "sant-usant", "text": "På kinesisk står fornavnet før etternavnet.", "correct": false, "explain": "Etternavnet står først." },
+      { "id": "m03", "type": "sant-usant", "text": "对不起 betyr unnskyld.", "correct": true, "explain": "Svaret er ofte 没关系 – det går bra." },
+      { "id": "m04", "type": "sant-usant", "text": "Kinesiske verb bøyes etter person, som på fransk.", "correct": false, "explain": "Kinesiske verb bøyes ikke etter person." },
+      { "id": "m05", "type": "flervalg", "text": "Hvordan sier du «Jeg er seksten år»?", "options": ["我十六是。", "我今年十六岁。", "我有十六。", "我是十六岁人。"], "correct": 1, "explain": "Wǒ jīnnián shíliù suì." },
+      { "id": "m06", "type": "flervalg", "text": "Hva betyr 老师 lǎoshī?", "options": ["lærer", "elev", "venn", "far"], "correct": 0, "explain": "老师好！ – Hei, lærer!" },
+      { "id": "m07", "type": "flervalg", "text": "Hvordan spør du «Hvilket land er du fra?»", "options": ["你叫什么？", "你好吗？", "你是哪国人？", "你是学生吗？"], "correct": 2, "explain": "Nǐ shì nǎ guó rén?" }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

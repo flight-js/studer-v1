@@ -23,10 +23,14 @@ Status for arbeidet med å lage innhold til alle 83 fag (8. trinn–Vg3), og hvo
 | Naturfag Vg1 | 11 |
 | Geografi Vg1 | 7 |
 | Samfunnskunnskap Vg1 | 12 |
+| Tysk, fransk, spansk Vg1 (nivå II) | 6 per språk (18) |
+| Kinesisk Vg1 (nivå I) | 6 |
 
 Hele ungdomstrinnet er ferdig.
 
-**Neste:** resten av Vg1: tysk/fransk/spansk/kinesisk-vg1 (FSP01-04 KV966, nivå II).
+Hele Vg1 er ferdig.
+
+**Neste:** Vg2 fellesfag: norsk-vg2 (NOR01-08 KV1112), historie-vg2 (HIS01-03 KV84), matematikk-2p (MAT05-04 KV46), tysk/fransk/spansk-vg2 (KV966, fortsettelse), kinesisk-vg2 (KV965, fortsettelse). Deretter Vg2 programfag.
 
 **Fremmedspråk nivå I (FSP01-04 KV965)**, samme slugs for tysk, fransk og spansk (`_fag.json` er laget). Forklaringer på norsk, eksempler og flashcard-termer på målspråket:
 
@@ -101,4 +105,4 @@ Kompetansemålene ligger i `scripts/innhold/lk20/` (hent flere med `lk20-hent.mj
 
 ## Gjenstår
 
-Vg1: fremmedspråk (inkl. kinesisk); alle Vg2-fag unntatt Kjemi 1 (inkl. kinesisk, entreprenørskap og bedriftsutvikling 1, matematikk 2P, geofag 1 og historie og filosofi 1), alle Vg3-fag (inkl. geofag 2 og historie og filosofi 2).
+alle Vg2-fag unntatt Kjemi 1 (inkl. kinesisk, entreprenørskap og bedriftsutvikling 1, matematikk 2P, geofag 1 og historie og filosofi 1), alle Vg3-fag (inkl. geofag 2 og historie og filosofi 2).

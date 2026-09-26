@@ -1,0 +1,352 @@
+{
+  "id": "tall-og-tid",
+  "fagId": "kinesisk-vg1",
+  "trinnId": "vg1",
+  "name": "Tall, penger, klokka og datoer",
+  "intro": "Tall fra 0 til 100, måleord og 两, å spørre om pris, klokkeslett, ukedager og datoer på kinesisk – og hvorfor tidsuttrykk står foran verbet.",
+  "kompetansemaal": [
+    1,
+    2,
+    6
+  ],
+  "sammendrag": "## Tall fra 0 til 10\n\n| 零 | 一 | 二 | 三 | 四 | 五 | 六 | 七 | 八 | 九 | 十 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| líng | yī | èr | sān | sì | wǔ | liù | qī | bā | jiǔ | shí |\n\n## Større tall\n\nKinesiske tall er svært **logiske**:\n\n- 11 = 十一 *shíyī* (ti-en), 15 = 十五 *shíwǔ*\n- 20 = 二十 *èrshí* (to-ti), 36 = 三十六 *sānshíliù*\n- 99 = 九十九 *jiǔshíjiǔ*, 100 = 一百 *yìbǎi*\n\n## Måleord og 两\n\nNår man teller ting, må man bruke et **måleord** mellom tallet og substantivet. Det vanligste er **个** *gè*:\n\n- 三**个**人 *sān ge rén* – tre personer\n- 一**个**苹果 *yí ge píngguǒ* – ett eple\n\nFor «to» foran et måleord bruker man **两** *liǎng*, ikke 二: 两个人 *liǎng ge rén* – to personer.\n\n## Penger\n\nValutaen i Kina heter **renminbi**, og enheten er **元** *yuán* – i dagligtale **块** *kuài*.\n\n- **多少钱？** *Duōshao qián?* – Hvor mye koster det?\n- 十块 *shí kuài* – ti kroner (yuan)\n- 太贵了！ *Tài guì le!* – Det er for dyrt!\n\n## Klokka\n\n- **现在几点？** *Xiànzài jǐ diǎn?* – Hva er klokka nå?\n- 三点 *sān diǎn* – klokka tre\n- 三点半 *sān diǎn bàn* – halv fire (tre og en halv)\n- 八点十分 *bā diǎn shí fēn* – ti over åtte\n\n## Dager og uker\n\n**星期** *xīngqī* betyr uke. Ukedagene er nummerert:\n\n- 星期一 *xīngqīyī* – mandag, 星期二 – tirsdag, … 星期六 – lørdag\n- 星期天 *xīngqītiān* – søndag\n\n今天 *jīntiān* (i dag), 明天 *míngtiān* (i morgen), 昨天 *zuótiān* (i går).\n\n## Datoer\n\nDatoer skrives fra **størst til minst**: **år – måned – dag**.\n\n- 2026年9月26日 *èr líng èr liù nián jiǔ yuè èrshíliù rì* – 26. september 2026\n- Måneder er også nummerert: 一月 *yīyuè* (januar), 十二月 *shí'èryuè* (desember)\n- I muntlig språk sier man ofte 号 *hào* i stedet for 日 *rì*.\n- 你的生日是几月几号？ *Nǐ de shēngrì shì jǐ yuè jǐ hào?* – Når har du bursdag?\n\n## Tid før verb\n\nPå kinesisk står **tidsuttrykket foran verbet**, ofte rett etter subjektet:\n\n*我**明天**去北京。* *Wǒ míngtiān qù Běijīng.* – Jeg drar til Beijing i morgen.\n\n## Tall og kultur\n\nTallet **八** *bā* (8) regnes som et **lykketall**, fordi det ligner ordet for å bli rik. Tallet **四** *sì* (4) unngås ofte, fordi det ligner ordet for død (*sǐ*).",
+  "flashcards": [
+    {
+      "term": "一 二 三 yī èr sān",
+      "def": "1 2 3"
+    },
+    {
+      "term": "四 五 六 sì wǔ liù",
+      "def": "4 5 6"
+    },
+    {
+      "term": "七 八 九 十 qī bā jiǔ shí",
+      "def": "7 8 9 10"
+    },
+    {
+      "term": "二十 èrshí",
+      "def": "20"
+    },
+    {
+      "term": "一百 yìbǎi",
+      "def": "100"
+    },
+    {
+      "term": "个 gè",
+      "def": "det vanligste måleordet"
+    },
+    {
+      "term": "两 liǎng",
+      "def": "to (foran måleord)"
+    },
+    {
+      "term": "多少钱？duōshao qián?",
+      "def": "Hvor mye koster det?"
+    },
+    {
+      "term": "块 kuài",
+      "def": "yuan i dagligtale"
+    },
+    {
+      "term": "现在几点？",
+      "def": "Hva er klokka nå? (xiànzài jǐ diǎn)"
+    },
+    {
+      "term": "三点半 sān diǎn bàn",
+      "def": "halv fire"
+    },
+    {
+      "term": "星期一 xīngqīyī",
+      "def": "mandag"
+    },
+    {
+      "term": "星期天 xīngqītiān",
+      "def": "søndag"
+    },
+    {
+      "term": "今天 / 明天 / 昨天",
+      "def": "i dag / i morgen / i går (jīntiān, míngtiān, zuótiān)"
+    },
+    {
+      "term": "生日 shēngrì",
+      "def": "bursdag"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hva er 36 på kinesisk?",
+      "options": [
+        "六十三 liùshísān",
+        "三十六 sānshíliù",
+        "三六 sān liù",
+        "十三六 shísān liù"
+      ],
+      "correct": 1,
+      "explain": "Tre-ti-seks."
+    },
+    {
+      "id": "q02",
+      "text": "Hvordan sier du «to personer»?",
+      "options": [
+        "两个人 liǎng ge rén",
+        "二个人 èr ge rén",
+        "二人个 èr rén ge",
+        "两人个 liǎng rén ge"
+      ],
+      "correct": 0,
+      "explain": "Foran måleord brukes 两, ikke 二."
+    },
+    {
+      "id": "q03",
+      "text": "Hva betyr 多少钱？",
+      "options": [
+        "Hva er klokka?",
+        "Hvor mange er dere?",
+        "Hvor mye koster det?",
+        "Hvor bor du?"
+      ],
+      "correct": 2,
+      "explain": "Duōshao qián?"
+    },
+    {
+      "id": "q04",
+      "text": "Hvilken dag er 星期三 xīngqīsān?",
+      "options": [
+        "Mandag",
+        "Tirsdag",
+        "Torsdag",
+        "Onsdag"
+      ],
+      "correct": 3,
+      "explain": "Ukedagene er nummerert fra mandag."
+    },
+    {
+      "id": "q05",
+      "text": "I hvilken rekkefølge skrives en dato på kinesisk?",
+      "options": [
+        "År – måned – dag",
+        "Dag – måned – år",
+        "Måned – dag – år",
+        "Tilfeldig"
+      ],
+      "correct": 0,
+      "explain": "Fra størst til minst."
+    },
+    {
+      "id": "q06",
+      "text": "Hva betyr 三点半?",
+      "options": [
+        "klokka tre",
+        "halv fire",
+        "halv tre",
+        "kvart over tre"
+      ],
+      "correct": 1,
+      "explain": "Tre og en halv time."
+    },
+    {
+      "id": "q07",
+      "text": "Hvor står «i morgen» i setningen «Jeg drar til Beijing i morgen»?",
+      "options": [
+        "Til slutt",
+        "Etter verbet",
+        "Foran verbet",
+        "Det brukes ikke"
+      ],
+      "correct": 2,
+      "explain": "我明天去北京。"
+    },
+    {
+      "id": "q08",
+      "text": "Hvilket tall regnes som et lykketall i Kina?",
+      "options": [
+        "4",
+        "7",
+        "13",
+        "8"
+      ],
+      "correct": 3,
+      "explain": "八 bā ligner ordet for å bli rik."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er det vanligste måleordet?",
+      "options": [
+        "个 gè",
+        "块 kuài",
+        "点 diǎn",
+        "号 hào"
+      ],
+      "correct": 0,
+      "explain": "三个人 – tre personer."
+    },
+    {
+      "id": "q10",
+      "text": "Hva betyr 星期天?",
+      "options": [
+        "lørdag",
+        "søndag",
+        "mandag",
+        "fredag"
+      ],
+      "correct": 1,
+      "explain": "Også 星期日 xīngqīrì."
+    }
+  ],
+  "mindmap": {
+    "label": "Tall og tid",
+    "children": [
+      {
+        "label": "Tall",
+        "children": [
+          {
+            "label": "0–10"
+          },
+          {
+            "label": "Logiske tiere"
+          },
+          {
+            "label": "一百"
+          }
+        ]
+      },
+      {
+        "label": "Måleord",
+        "children": [
+          {
+            "label": "个"
+          },
+          {
+            "label": "两 foran måleord"
+          }
+        ]
+      },
+      {
+        "label": "Penger",
+        "children": [
+          {
+            "label": "元 / 块"
+          },
+          {
+            "label": "多少钱？"
+          }
+        ]
+      },
+      {
+        "label": "Tid",
+        "children": [
+          {
+            "label": "几点？"
+          },
+          {
+            "label": "星期一 …"
+          },
+          {
+            "label": "今天, 明天"
+          }
+        ]
+      },
+      {
+        "label": "Datoer og kultur",
+        "children": [
+          {
+            "label": "År – måned – dag"
+          },
+          {
+            "label": "Tid før verb"
+          },
+          {
+            "label": "8 lykke, 4 uflaks"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Tallet 4 unngås ofte fordi det ligner ordet for død.",
+        "correct": true,
+        "explain": "四 sì og 死 sǐ ligner hverandre."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "På kinesisk kan man sette tallet rett foran substantivet uten måleord.",
+        "correct": false,
+        "explain": "Man trenger et måleord, for eksempel 个."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "块 kuài brukes om yuan i dagligtale.",
+        "correct": true,
+        "explain": "十块 = ti yuan."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Måneder har egne navn på kinesisk, som på norsk.",
+        "correct": false,
+        "explain": "Månedene er nummerert: 一月, 二月 osv."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvordan skriver du 20 med kinesiske tegn?",
+        "options": [
+          "十二",
+          "二十",
+          "两十",
+          "二零"
+        ],
+        "correct": 1,
+        "explain": "12 er 十二, 20 er 二十."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva betyr 太贵了！",
+        "options": [
+          "Det er for dyrt!",
+          "Det er billig!",
+          "Det er gratis!",
+          "Det er pent!"
+        ],
+        "correct": 0,
+        "explain": "Tài guì le!"
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva betyr 昨天?",
+        "options": [
+          "i dag",
+          "i morgen",
+          "i går",
+          "i kveld"
+        ],
+        "correct": 2,
+        "explain": "zuótiān = i går."
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
+}

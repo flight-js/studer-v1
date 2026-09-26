@@ -420,6 +420,58 @@ Læreplan: [UTV01-03](https://www.udir.no/lk20/utv01-03/kompetansemaal-og-vurder
 - 🔴 **Kjønn og karrierevalg** – sjekkes (370 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
   - Sjekk: Sjekk påstandene om kjønnsfordeling i yrker og utdanningsprogram, og at kvinner er i flertall i høyere utdanning, mot ferske tall fra SSB.
 
+## Engelsk (vg1) – 9 av 9 temaer ferdig
+
+Læreplan: [ENG01-06](https://www.udir.no/lk20/eng01-06/kompetansemaal-og-vurdering/kv1035)
+
+- 🟡 **English as a world language** – utkast (493 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Academic language and style** – utkast (495 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Grammar and text structure** – utkast (476 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Discussions, presentations and pronunciation** – utkast (460 ord · 15 kort · 10 quiz · 15 i miniprøve · 24 noder i tankekart)
+- 🟡 **Writing different types of texts** – utkast (450 ord · 15 kort · 10 quiz · 15 i miniprøve · 24 noder i tankekart)
+- 🟡 **Reading and analysing fiction** – utkast (469 ord · 15 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+- 🟡 **Comparing sources and using them well** – utkast (444 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🔴 **Diversity and society in the English-speaking world** – sjekkes (486 ord · 15 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+  - Sjekk: Sjekk formuleringen om antall offisielle språk i Sør-Afrika (endret i 2023 da tegnspråk ble lagt til).
+- 🟡 **Film, music and games** – utkast (446 ord · 15 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+
+## Fransk (vg1) – 6 av 6 temaer ferdig
+
+Læreplan: [FSP01-04](https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurdering/kv966)
+
+- 🟡 **Identitet, vennskap og følelser** – utkast (383 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Skole, utdanning og framtid** – utkast (376 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Å fortelle om opplevelser** – utkast (369 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🔴 **Samfunn i Frankrike og den fransktalende verden** – sjekkes (388 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+  - Sjekk: Sjekk tallene for antall fransktalende og antall land med fransk som offisielt språk.
+- 🟡 **Fransk historie: revolusjon, imperium og Europa** – utkast (376 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Litteratur, kunst, musikk og film** – utkast (387 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+
+## Geografi (vg1) – 7 av 7 temaer ferdig
+
+Læreplan: [GEO01-02](https://www.udir.no/lk20/geo01-02/kompetansemaal-og-vurdering/kv49)
+
+- 🟡 **Kart, geografiske kilder og feltarbeid** – utkast (426 ord · 15 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+- 🟡 **Indre og ytre krefter former landskapet** – utkast (413 ord · 15 kort · 10 quiz · 15 i miniprøve · 24 noder i tankekart)
+- 🔴 **Ressurs- og arealbruk i Norge, Sápmi og nordområdene** – sjekkes (416 ord · 15 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+  - Sjekk: Sjekk status for Fosen-saken og gruveplanene ved Repparfjorden, som kan ha endret seg.
+- 🟡 **Ressursbruk og bærekraft** – utkast (427 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Klimaendringer i natur og samfunn** – utkast (365 ord · 15 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+- 🟡 **Natur- og miljøkatastrofer** – utkast (375 ord · 15 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+- 🟡 **Befolkning og levekår** – utkast (430 ord · 15 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+
+## Kinesisk (vg1) – 6 av 6 temaer ferdig
+
+Læreplan: [FSP01-04](https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurdering/kv965)
+
+- 🟡 **Mandarin, pinyin og toner** – utkast (397 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Hilsener og å presentere seg** – utkast (351 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Tall, penger, klokka og datoer** – utkast (403 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Familie, hobbyer og hverdag** – utkast (367 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Kinesiske tegn** – utkast (450 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🔴 **Kina: geografi, høytider og kultur** – sjekkes (388 ord · 15 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+  - Sjekk: Kinesisk er nytt fag i appen – en lærer med kinesiskkompetanse bør sjekke tegn, pinyin og toner i alle temaene.
+
 ## Matematikk 1P (vg1) – 8 av 8 temaer ferdig
 
 Læreplan: [MAT08-01](https://www.udir.no/lk20/mat08-01/kompetansemaal-og-vurdering/kv31)
@@ -447,6 +499,24 @@ Læreplan: [MAT09-02](https://www.udir.no/lk20/mat09-02/kompetansemaal-og-vurder
 - 🟡 **Bevis, algoritmisk tenkning og programmering** – utkast (522 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
 - 🟡 **Modellering og matematikk i tekster** – utkast (403 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
 
+## Naturfag (vg1) – 11 av 11 temaer ferdig
+
+Læreplan: [NAT01-05](https://www.udir.no/lk20/nat01-05/kompetansemaal-og-vurdering/kv1079)
+
+- 🟡 **Naturvitenskapelig metode og forsøk** – utkast (375 ord · 15 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+- 🟡 **Programmering og modellering i naturfag** – utkast (395 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Bølger og trådløs kommunikasjon** – utkast (427 ord · 15 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+- 🔴 **Elektromagnetisk og ioniserende stråling** – sjekkes (425 ord · 15 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+  - Sjekk: Sjekk formuleringen om radon som en av de største kildene til stråledose i Norge mot DSA.
+- 🟡 **Big bang og universets utvikling** – utkast (432 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Kjemiske bindinger og stoffers egenskaper** – utkast (438 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Karbonforbindelser** – utkast (405 ord · 15 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+- 🟡 **Miljøgifter i næringskjeder** – utkast (402 ord · 15 kort · 10 quiz · 15 i miniprøve · 24 noder i tankekart)
+- 🔴 **Kosthold, helse og livsstil** – sjekkes (421 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+  - Sjekk: Sjekk kostrådene og anbefalingene om fysisk aktivitet og søvn mot Helsedirektoratets gjeldende råd.
+- 🟡 **DNA, arv og evolusjon** – utkast (468 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Bioteknologi og etikk** – utkast (397 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+
 ## Norsk (vg1) – 9 av 9 temaer ferdig
 
 Læreplan: [NOR01-08](https://www.udir.no/lk20/nor01-08/kompetansemaal-og-vurdering/kv1113)
@@ -461,6 +531,49 @@ Læreplan: [NOR01-08](https://www.udir.no/lk20/nor01-08/kompetansemaal-og-vurder
 - 🟡 **Norsk i møte med andre språk** – utkast (431 ord · 15 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
 - 🔴 **Samiske språk og språkrettigheter** – sjekkes (427 ord · 15 kort · 10 quiz · 15 i miniprøve · 24 noder i tankekart)
   - Sjekk: Sjekk årstall (Finnefondet 1851, Wexelsen-plakaten 1898, jordsalgsloven 1902, Grunnloven § 108 vedtatt 1988, ILO 169 ratifisert 1990) og beskrivelsen av utbredelsen til lule- og sørsamisk.
+
+## Samfunnskunnskap (vg1) – 12 av 12 temaer ferdig
+
+Læreplan: [SAK01-01](https://www.udir.no/lk20/sak01-01/kompetansemaal-og-vurdering/kv48)
+
+- 🟡 **Samfunnsfaglig metode, kilder og ideologier** – utkast (433 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Sosialisering, identitet og selvfølelse** – utkast (389 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Personlig økonomi, reklame og forbruk** – utkast (410 ord · 15 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+- 🔴 **Kjønn, seksualitet, kropp og grenser** – sjekkes (445 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+  - Sjekk: Sensitivt tema – læreren bør gå gjennom formuleringene.
+  - Sjekk: Sjekk gjeldende regler om samtykke i straffeloven (voldtektsbestemmelsen ble endret i 2025) og aldersgrensen for endring av juridisk kjønn.
+- 🟡 **Digitale spor, data og personvern** – utkast (382 ord · 15 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+- 🟡 **Sosial ulikhet og utenforskap** – utkast (419 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🔴 **Majoritet og minoriteter i Norge og Sápmi** – sjekkes (413 ord · 15 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+  - Sjekk: Sjekk hvilke land de største innvandrergruppene i Norge kommer fra mot fersk statistikk fra SSB.
+- 🟡 **Den nordiske modellen, vekst og livskvalitet** – utkast (408 ord · 15 kort · 10 quiz · 15 i miniprøve · 24 noder i tankekart)
+- 🟡 **Næringsliv, innovasjon og lokalsamfunn** – utkast (377 ord · 15 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+- 🟡 **Medborgerskap, politiske systemer og makt** – utkast (385 ord · 15 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+- 🟡 **Menneskerettigheter, rasisme og ytringsfrihet** – utkast (442 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Å analysere en konflikt eller utfordring** – utkast (374 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+
+## Spansk (vg1) – 6 av 6 temaer ferdig
+
+Læreplan: [FSP01-04](https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurdering/kv966)
+
+- 🟡 **Identitet, vennskap og følelser** – utkast (301 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Skole, utdanning og framtid** – utkast (368 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Å fortelle om opplevelser** – utkast (398 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🔴 **Samfunn i Spania og Latin-Amerika** – sjekkes (397 ord · 15 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+  - Sjekk: Sjekk tallet på spansktalende (rundt 500 millioner morsmålsbrukere) og antall land med spansk som offisielt språk.
+- 🟡 **Spansktalende historie: fra 1492 til demokrati** – utkast (360 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Litteratur, kunst, musikk og film** – utkast (373 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+
+## Tysk (vg1) – 6 av 6 temaer ferdig
+
+Læreplan: [FSP01-04](https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurdering/kv966)
+
+- 🟡 **Identitet, vennskap og følelser** – utkast (392 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Skole, utdanning og arbeid** – utkast (366 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Å fortelle om opplevelser** – utkast (347 ord · 15 kort · 10 quiz · 15 i miniprøve · 17 noder i tankekart)
+- 🟡 **Samfunn i Tyskland, Østerrike og Sveits** – utkast (375 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Tysk historie: fra keiserrike til gjenforening** – utkast (362 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Litteratur, musikk og film** – utkast (384 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
 
 ## Kjemi 1 (vg2) – 11 av 11 temaer ferdig
 

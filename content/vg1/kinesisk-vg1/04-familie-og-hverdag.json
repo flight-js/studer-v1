@@ -1,0 +1,82 @@
+{
+  "id": "familie-og-hverdag",
+  "fagId": "kinesisk-vg1",
+  "trinnId": "vg1",
+  "name": "Familie, hobbyer og hverdag",
+  "intro": "Hvordan du forteller om familien, hverdagen og det du liker på kinesisk – familieord for eldre og yngre søsken, 有 og 没有, adjektiver med 很, 也 og 都 – og familiens rolle i kinesisk kultur.",
+  "kompetansemaal": [3, 5, 8],
+  "sammendrag": "## Familien\n\nPå kinesisk skiller man mellom **eldre** og **yngre** søsken:\n\n| | Eldre | Yngre |\n| --- | --- | --- |\n| Bror | 哥哥 *gēge* | 弟弟 *dìdi* |\n| Søster | 姐姐 *jiějie* | 妹妹 *mèimei* |\n\nAndre familieord: 爸爸 *bàba* (far), 妈妈 *māma* (mor), 爷爷 *yéye* (farfar), 奶奶 *nǎinai* (farmor). Besteforeldre på morssiden har egne ord, for eksempel 外婆 *wàipó* (mormor).\n\n## Å ha – 有 og 没有\n\n- 我**有**一个哥哥。 *Wǒ yǒu yí ge gēge.* – Jeg har en eldre bror.\n- 我**没有**妹妹。 *Wǒ méiyǒu mèimei.* – Jeg har ingen yngre søster.\n\n**有** nektes med **没**, ikke med 不!\n\n- 我家有四口人。 *Wǒ jiā yǒu sì kǒu rén.* – Det er fire personer i familien min. (口 *kǒu* er måleord for familiemedlemmer.)\n\n## Adjektiver med 很\n\nFør adjektiver bruker man **ikke** 是 (er). I stedet bruker man ofte **很** *hěn* (egentlig «veldig», men ofte svakt):\n\n- 我**很**好。 *Wǒ hěn hǎo.* – Jeg har det bra.\n- 我妈妈**很**忙。 *Wǒ māma hěn máng.* – Mamma er travel.\n- 中文**很**有意思。 *Zhōngwén hěn yǒu yìsi.* – Kinesisk er interessant.\n\n## Hverdag og fritid\n\n- 吃饭 *chī fàn* – spise (mat)\n- 喝茶 *hē chá* – drikke te\n- 上学 *shàngxué* – gå på skolen\n- 看书 *kàn shū* – lese\n- 听音乐 *tīng yīnyuè* – høre på musikk\n- 打篮球 *dǎ lánqiú* – spille basketball\n- 睡觉 *shuìjiào* – sove\n\n- 我**喜欢**听音乐。 *Wǒ xǐhuan tīng yīnyuè.* – Jeg liker å høre på musikk.\n- 我**不喜欢**早上起床。 – Jeg liker ikke å stå opp om morgenen.\n\n## 也 og 都\n\n- **也** *yě* – også: 我**也**喜欢猫。 – Jeg liker også katter.\n- **都** *dōu* – alle, begge: 我们**都**是学生。 – Vi er alle elever.\n\nBegge står **foran verbet**.\n\n## Eiendom med 的\n\n**的** *de* viser eiendom: 我**的**妈妈 – min mor. Ved nære relasjoner kan 的 sløyfes: 我妈妈.\n\n## Familien i kinesisk kultur\n\nFamilien står **sentralt** i kinesisk kultur. Tradisjonelt er **respekt for eldre** viktig – en tanke som går tilbake til filosofen **Konfucius**. Mange besteforeldre hjelper til med å passe barnebarna. Fra **1980** til **2015** hadde Kina en **ettbarnspolitikk** som begrenset hvor mange barn familier kunne få. I dag er det lov med flere barn, men mange velger likevel å få få barn.",
+  "flashcards": [
+    { "term": "爸爸 bàba / 妈妈 māma", "def": "far / mor" },
+    { "term": "哥哥 gēge", "def": "eldre bror" },
+    { "term": "弟弟 dìdi", "def": "yngre bror" },
+    { "term": "姐姐 jiějie", "def": "eldre søster" },
+    { "term": "妹妹 mèimei", "def": "yngre søster" },
+    { "term": "有 yǒu", "def": "ha" },
+    { "term": "没有 méiyǒu", "def": "ikke ha (有 nektes med 没)" },
+    { "term": "口 kǒu", "def": "måleord for familiemedlemmer" },
+    { "term": "很 hěn", "def": "veldig – brukes ofte foran adjektiver" },
+    { "term": "喜欢 xǐhuan", "def": "like" },
+    { "term": "听音乐 tīng yīnyuè", "def": "høre på musikk" },
+    { "term": "睡觉 shuìjiào", "def": "sove" },
+    { "term": "也 yě", "def": "også (foran verbet)" },
+    { "term": "都 dōu", "def": "alle, begge (foran verbet)" },
+    { "term": "的 de", "def": "viser eiendom: 我的 = min" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva betyr 妹妹 mèimei?", "options": ["eldre søster", "yngre søster", "yngre bror", "mor"], "correct": 1, "explain": "姐姐 er eldre søster." },
+    { "id": "q02", "text": "Hvordan nekter man 有?", "options": ["没有 méiyǒu", "不有 bù yǒu", "有不 yǒu bù", "非有 fēi yǒu"], "correct": 0, "explain": "有 nektes alltid med 没." },
+    { "id": "q03", "text": "Hvordan sier du «Jeg har det bra»?", "options": ["我是好。", "我好是。", "我很好。", "我有好。"], "correct": 2, "explain": "Man bruker ikke 是 foran adjektiver." },
+    { "id": "q04", "text": "Hva betyr 我也喜欢猫?", "options": ["Jeg liker ikke katter.", "Alle liker katter.", "Jeg har en katt.", "Jeg liker også katter."], "correct": 3, "explain": "也 = også, foran verbet." },
+    { "id": "q05", "text": "Hva betyr 我家有四口人?", "options": ["Det er fire personer i familien min.", "Jeg har fire brødre.", "Huset mitt har fire rom.", "Jeg har fire munner."], "correct": 0, "explain": "口 er måleord for familiemedlemmer." },
+    { "id": "q06", "text": "Hva betyr 哥哥 gēge?", "options": ["yngre bror", "eldre bror", "far", "farfar"], "correct": 1, "explain": "弟弟 er yngre bror." },
+    { "id": "q07", "text": "Hvor står 都 dōu i setningen?", "options": ["Til slutt", "Først", "Foran verbet", "Etter objektet"], "correct": 2, "explain": "我们都是学生。" },
+    { "id": "q08", "text": "Hva betyr 我喜欢听音乐?", "options": ["Jeg spiller musikk.", "Jeg lager musikk.", "Jeg liker ikke musikk.", "Jeg liker å høre på musikk."], "correct": 3, "explain": "听 = høre/lytte, 音乐 = musikk." },
+    { "id": "q09", "text": "Hva viser 的 i 我的书?", "options": ["Eiendom", "Fortid", "Spørsmål", "Flertall"], "correct": 0, "explain": "我的书 = boka mi." },
+    { "id": "q10", "text": "Hvilken filosof forbindes med respekt for eldre og familie i kinesisk kultur?", "options": ["Sokrates", "Konfucius", "Buddha", "Platon"], "correct": 1, "explain": "Konfucius' ideer har preget kinesisk kultur i over 2000 år." }
+  ],
+  "mindmap": {
+    "label": "Familie og hverdag",
+    "children": [
+      { "label": "Familie", "children": [
+        { "label": "爸爸, 妈妈" },
+        { "label": "哥哥, 弟弟" },
+        { "label": "姐姐, 妹妹" }
+      ] },
+      { "label": "Å ha", "children": [
+        { "label": "有" },
+        { "label": "没有" },
+        { "label": "口 som måleord" }
+      ] },
+      { "label": "Grammatikk", "children": [
+        { "label": "很 + adjektiv" },
+        { "label": "也 og 都" },
+        { "label": "的 = eiendom" }
+      ] },
+      { "label": "Hverdag", "children": [
+        { "label": "吃饭, 喝茶" },
+        { "label": "上学, 睡觉" },
+        { "label": "喜欢" }
+      ] },
+      { "label": "Kultur", "children": [
+        { "label": "Respekt for eldre" },
+        { "label": "Konfucius" },
+        { "label": "Ettbarnspolitikken" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "På kinesisk har eldre og yngre søsken ulike ord.", "correct": true, "explain": "哥哥 og 弟弟 er eldre og yngre bror." },
+      { "id": "m02", "type": "sant-usant", "text": "«我是忙» er riktig måte å si «Jeg er travel».", "correct": false, "explain": "Det riktige er 我很忙." },
+      { "id": "m03", "type": "sant-usant", "text": "Kina hadde en ettbarnspolitikk fra 1980 til 2015.", "correct": true, "explain": "I dag er det lov med flere barn." },
+      { "id": "m04", "type": "sant-usant", "text": "也 og 都 står alltid til slutt i setningen.", "correct": false, "explain": "Begge står foran verbet." },
+      { "id": "m05", "type": "flervalg", "text": "Hvordan sier du «Jeg har ingen eldre søster»?", "options": ["我不有姐姐。", "我没有姐姐。", "我姐姐没有。", "我有不姐姐。"], "correct": 1, "explain": "有 nektes med 没." },
+      { "id": "m06", "type": "flervalg", "text": "Hva betyr 喝茶 hē chá?", "options": ["drikke te", "spise ris", "lese bok", "sove"], "correct": 0, "explain": "Te er en viktig del av kinesisk kultur." },
+      { "id": "m07", "type": "flervalg", "text": "Hva betyr 奶奶 nǎinai?", "options": ["mor", "tante", "farmor", "søster"], "correct": 2, "explain": "爷爷 er farfar." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
