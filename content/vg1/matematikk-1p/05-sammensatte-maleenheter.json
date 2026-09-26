@@ -1,0 +1,81 @@
+{
+  "id": "sammensatte-maleenheter",
+  "fagId": "matematikk-1p",
+  "trinnId": "vg1",
+  "name": "Sammensatte måleenheter",
+  "intro": "Fart, tetthet, enhetspris, energi i kWh, drivstofforbruk og befolkningstetthet – hvordan du tolker, regner om og velger egnede sammensatte måleenheter i praktiske situasjoner.",
+  "kompetansemaal": [8],
+  "sammendrag": "## Hva er en sammensatt måleenhet?\n\nEn **sammensatt måleenhet** består av to eller flere enheter, ofte med **per** (/) mellom. Den forteller hvor mye av én størrelse det er **per enhet** av en annen:\n\n| Størrelse | Enhet |\n| --- | --- |\n| Fart | km/h, m/s |\n| Enhetspris | kr/kg, kr/L |\n| Timelønn | kr/time |\n| Tetthet | g/cm³, kg/L |\n| Drivstofforbruk | L/mil |\n| Befolkningstetthet | innbyggere/km² |\n\n## Fart\n\n**Fart = strekning / tid**, altså v = s/t. Vi kan snu formelen: s = v · t og t = s/v.\n\n- 150 km på 2 timer gir gjennomsnittsfart 150/2 = **75 km/h**.\n- 45 km med 90 km/h tar 45/90 = 0,5 timer = **30 minutter**.\n\n**Omregning**: 1 m/s = 3,6 km/h, fordi 1 m/s = 3600 m per time = 3,6 km/h.\n\n- Fra km/h til m/s: **del på 3,6**. 72 km/h = 20 m/s.\n- Fra m/s til km/h: **gang med 3,6**. 25 m/s = 90 km/h.\n\n## Tetthet\n\n**Tetthet = masse / volum**. Vann har tetthet omtrent **1 g/cm³**, som er det samme som 1 kg/L. En kloss på 200 g med volum 25 cm³ har tetthet 200/25 = **8 g/cm³**. Stoffer med større tetthet enn vann synker i vann.\n\n## Enhetspris\n\n**Enhetspris** gjør det lett å sammenligne tilbud:\n\n- 1,5 L for 30 kr → 20 kr/L\n- 0,5 L for 12 kr → 24 kr/L\n\nDen største pakken er ofte billigst per enhet – men ikke alltid!\n\n## Energi og strøm\n\n**Energi (kWh) = effekt (kW) · tid (h)**. En ovn på 2000 W = 2 kW som står på i 3 timer, bruker 2 · 3 = **6 kWh**. Med strømpris 1,20 kr/kWh koster det 6 · 1,20 = **7,20 kr**.\n\n## Drivstofforbruk\n\nI Norge oppgis drivstofforbruk ofte i **liter per mil**, der **1 mil = 10 km**. En bil som bruker 0,6 L/mil, bruker 0,6 · 25 = **15 liter** på 250 km (25 mil).\n\n## Befolkningstetthet\n\nEn kommune med 12 000 innbyggere og areal 400 km² har befolkningstetthet 12 000/400 = **30 innbyggere per km²**.\n\n## Velge egnet enhet\n\nVelg en enhet som gir **tall som er lette å forstå**: Fart for fotgjengere oppgis gjerne i km/h eller m/s, men for fly i knop eller km/h. Stoff i medisiner oppgis i mg, ikke kg. Når du regner, må **enhetene passe sammen** – gjør om timer til minutter, gram til kilogram eller km til mil **før** du setter inn i formelen. Skriv alltid **enhet** i svaret, og kontroller at svaret er **rimelig**.",
+  "flashcards": [
+    { "term": "Sammensatt måleenhet", "def": "Enhet satt sammen av flere enheter, som km/h eller kr/kg." },
+    { "term": "Fart", "def": "Strekning / tid, v = s/t." },
+    { "term": "s = v · t", "def": "Strekning er fart ganger tid." },
+    { "term": "t = s/v", "def": "Tid er strekning delt på fart." },
+    { "term": "1 m/s", "def": "3,6 km/h" },
+    { "term": "km/h til m/s", "def": "Del på 3,6." },
+    { "term": "m/s til km/h", "def": "Gang med 3,6." },
+    { "term": "Tetthet", "def": "Masse / volum, for eksempel g/cm³." },
+    { "term": "Tettheten til vann", "def": "Omtrent 1 g/cm³ = 1 kg/L." },
+    { "term": "Enhetspris", "def": "Pris per enhet, som kr/kg eller kr/L." },
+    { "term": "kWh", "def": "Energienhet: effekt i kW ganger tid i timer." },
+    { "term": "1 kW", "def": "1000 W" },
+    { "term": "1 mil", "def": "10 km" },
+    { "term": "Liter per mil", "def": "Vanlig enhet for drivstofforbruk i Norge." },
+    { "term": "Befolkningstetthet", "def": "Innbyggere per km²." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er 72 km/h i m/s?", "options": ["7,2 m/s", "20 m/s", "259,2 m/s", "72 m/s"], "correct": 1, "explain": "72 / 3,6 = 20." },
+    { "id": "q02", "text": "Hvordan regner du ut tetthet?", "options": ["Volum / masse", "Masse · volum", "Masse / volum", "Masse − volum"], "correct": 2, "explain": "Tetthet forteller hvor mye masse det er per volumenhet." },
+    { "id": "q03", "text": "En bil kjører 150 km på 2 timer. Hva er gjennomsnittsfarten?", "options": ["75 km/h", "300 km/h", "152 km/h", "50 km/h"], "correct": 0, "explain": "150/2 = 75." },
+    { "id": "q04", "text": "Hvilket tilbud er billigst per liter?", "options": ["0,5 L for 12 kr", "2 L for 44 kr", "1 L for 21 kr", "1,5 L for 30 kr"], "correct": 3, "explain": "Literprisene er 24, 22, 21 og 20 kr." },
+    { "id": "q05", "text": "En ovn på 2000 W står på i 3 timer. Hvor mye energi bruker den?", "options": ["6 kWh", "6000 kWh", "0,6 kWh", "667 kWh"], "correct": 0, "explain": "2 kW · 3 h = 6 kWh." },
+    { "id": "q06", "text": "Strømprisen er 1,20 kr/kWh. Hva koster 6 kWh?", "options": ["5 kr", "7,20 kr", "72 kr", "0,20 kr"], "correct": 1, "explain": "6 · 1,20 = 7,20." },
+    { "id": "q07", "text": "Hvor lang tid tar 45 km med 90 km/h?", "options": ["2 timer", "45 minutter", "30 minutter", "1,5 timer"], "correct": 2, "explain": "45/90 = 0,5 timer." },
+    { "id": "q08", "text": "Hva er 1 m/s i km/h?", "options": ["1 km/h", "60 km/h", "1000 km/h", "3,6 km/h"], "correct": 3, "explain": "3600 m per time er 3,6 km/h." },
+    { "id": "q09", "text": "En kommune har 12 000 innbyggere og et areal på 400 km². Hva er befolkningstettheten?", "options": ["30 innbyggere per km²", "3 innbyggere per km²", "300 innbyggere per km²", "4,8 millioner per km²"], "correct": 0, "explain": "12 000/400 = 30." },
+    { "id": "q10", "text": "En bil bruker 0,6 L/mil. Hvor mye drivstoff bruker den på 250 km?", "options": ["150 liter", "15 liter", "1,5 liter", "25 liter"], "correct": 1, "explain": "250 km = 25 mil, og 0,6 · 25 = 15." }
+  ],
+  "mindmap": {
+    "label": "Sammensatte måleenheter",
+    "children": [
+      { "label": "Fart", "children": [
+        { "label": "v = s/t" },
+        { "label": "km/h og m/s" },
+        { "label": "Faktor 3,6" }
+      ] },
+      { "label": "Tetthet", "children": [
+        { "label": "Masse / volum" },
+        { "label": "Vann: 1 g/cm³" }
+      ] },
+      { "label": "Økonomi", "children": [
+        { "label": "Enhetspris" },
+        { "label": "Timelønn" },
+        { "label": "Strømpris kr/kWh" }
+      ] },
+      { "label": "Energi og drivstoff", "children": [
+        { "label": "kWh = kW · h" },
+        { "label": "Liter per mil" },
+        { "label": "1 mil = 10 km" }
+      ] },
+      { "label": "Velge enhet", "children": [
+        { "label": "Lettfattelige tall" },
+        { "label": "Enheter må passe" },
+        { "label": "Befolkningstetthet" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "1 liter vann har en masse på omtrent 1 kg.", "correct": true, "explain": "Tettheten til vann er omtrent 1 kg/L." },
+      { "id": "m02", "type": "sant-usant", "text": "En norsk mil er 1 km.", "correct": false, "explain": "En mil er 10 km." },
+      { "id": "m03", "type": "sant-usant", "text": "kWh er en enhet for energi.", "correct": true, "explain": "Effekt ganger tid gir energi." },
+      { "id": "m04", "type": "sant-usant", "text": "Fart må alltid oppgis i km/h.", "correct": false, "explain": "Fart kan også oppgis i m/s, knop og andre enheter." },
+      { "id": "m05", "type": "flervalg", "text": "En kloss har masse 200 g og volum 25 cm³. Hva er tettheten?", "options": ["0,125 g/cm³", "8 g/cm³", "5000 g/cm³", "225 g/cm³"], "correct": 1, "explain": "200/25 = 8." },
+      { "id": "m06", "type": "flervalg", "text": "Timelønnen er 180 kr. Hva tjener du på 7,5 timer?", "options": ["1 350 kr", "187,50 kr", "1 800 kr", "24 kr"], "correct": 0, "explain": "180 · 7,5 = 1 350." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilken enhet passer best for drivstofforbruk i Norge?", "options": ["kr/kg", "km/h", "liter per mil", "g/cm³"], "correct": 2, "explain": "Liter per mil er vanlig i norske bilannonser." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

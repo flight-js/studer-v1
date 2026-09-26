@@ -1,0 +1,81 @@
+{
+  "id": "formler-og-variabler",
+  "fagId": "matematikk-1p",
+  "trinnId": "vg1",
+  "name": "Formler, variabler og tekstoppgaver",
+  "intro": "Variabler og konstanter, å tolke og bruke formler fra samfunns- og arbeidsliv, å snu formler, å finne formler fra mønstre og å hente ut matematikk fra tekster og presentere svaret.",
+  "kompetansemaal": [5, 4, 1],
+  "sammendrag": "## Variabler og konstanter\n\nEn **variabel** er en størrelse som kan **endre seg**, for eksempel antall timer du jobber eller antall kilometer du kjører. En **konstant** er et tall som er **fast** i situasjonen, for eksempel timelønnen eller et fast gebyr.\n\n## Formler i hverdagen\n\nEn **formel** viser sammenhengen mellom størrelser:\n\n- **Taxi**: P = 50 + 15x, der x er antall km. 12 km koster 50 + 15 · 12 = **230 kr**.\n- **Lønn**: L = timelønn · timer + tillegg.\n- **Fart**: s = v · t.\n- **Temperatur**: F = 1,8C + 32 gjør om fra celsius til fahrenheit. 25 °C gir 1,8 · 25 + 32 = **77 °F**.\n- **KMI (BMI)**: KMI = vekt / høyde², med vekt i kg og høyde i m. 70 kg og 1,75 m gir 70 / 1,75² ≈ **22,9**.\n- **Areal av sirkel**: A = πr². r = 3 cm gir A ≈ 3,14 · 9 ≈ **28,3 cm²**.\n\nNår du bruker en formel, må du vite **hva hver bokstav står for** og hvilken **enhet** den har.\n\n## Snu formler\n\nNoen ganger kjenner vi svaret og vil finne en av de andre størrelsene. Da **snur** vi formelen ved å gjøre det samme på begge sider, som i en likning:\n\n- s = v · t → del på v → **t = s/v**\n- F = 1,8C + 32 → trekk fra 32 og del på 1,8 → **C = (F − 32)/1,8**\n\n## Fra mønster til formel\n\nÅ **generalisere** betyr å finne en formel som gjelder alle tilfeller. Konsertbilletter koster 150 kr stykket, og det er et gebyr på 50 kr per bestilling:\n\n| Billetter (n) | 1 | 2 | 3 |\n| --- | --- | --- | --- |\n| Pris (K) | 200 | 350 | 500 |\n\nPrisen øker med 150 for hver billett, og startverdien er 50: **K = 150n + 50**. Her er n variabelen, 150 er prisen per billett og 50 er det faste gebyret.\n\n## Matematikk i tekster\n\nMange oppgaver er **tekster** fra hverdagen: lønnsslipper, strømregninger, tilbud og nyhetsartikler. En god framgangsmåte:\n\n1. **Les** nøye og finn ut hva du skal svare på.\n2. **Hent ut** de tallene som er relevante – ikke alle tall i teksten er det.\n3. **Sett opp** et regnestykke eller en formel.\n4. **Regn ut**.\n5. **Vurder** om svaret er rimelig. Er enheten riktig? Er størrelsen fornuftig?\n6. **Presenter** svaret med enhet og en kort forklaring, og **argumenter** for resultatet.\n\nEksempel: Bruttolønnen er 20 000 kr, og du har 30 % prosenttrekk i skatt. Skattetrekket er 0,30 · 20 000 = 6 000 kr, og du får utbetalt **14 000 kr**.",
+  "flashcards": [
+    { "term": "Variabel", "def": "En størrelse som kan endre seg." },
+    { "term": "Konstant", "def": "Et tall som er fast i situasjonen." },
+    { "term": "Formel", "def": "Uttrykk som viser sammenhengen mellom størrelser." },
+    { "term": "P = 50 + 15x", "def": "Taxipris med 50 kr i startpris og 15 kr per km." },
+    { "term": "F = 1,8C + 32", "def": "Omregning fra celsius til fahrenheit." },
+    { "term": "C = (F − 32)/1,8", "def": "Omregning fra fahrenheit til celsius." },
+    { "term": "KMI", "def": "Vekt i kg delt på høyde i meter opphøyd i andre." },
+    { "term": "A = πr²", "def": "Areal av en sirkel." },
+    { "term": "Snu en formel", "def": "Å løse formelen med hensyn på en annen størrelse." },
+    { "term": "t = s/v", "def": "s = v · t snudd for å finne tiden." },
+    { "term": "Generalisere", "def": "Å finne en formel som gjelder alle tilfeller." },
+    { "term": "K = 150n + 50", "def": "Pris for n billetter à 150 kr med 50 kr i gebyr." },
+    { "term": "Bruttolønn", "def": "Lønn før skatt." },
+    { "term": "Nettolønn", "def": "Lønn etter skattetrekk – det som utbetales." },
+    { "term": "Vurdere svaret", "def": "Sjekke at enhet og størrelse er rimelig." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er en variabel?", "options": ["Et fast tall", "En størrelse som kan endre seg", "En måleenhet", "En formel"], "correct": 1, "explain": "Antall timer eller kilometer er typiske variabler." },
+    { "id": "q02", "text": "En taxitur koster P = 50 + 15x kr, der x er antall km. Hva koster 12 km?", "options": ["230 kr", "180 kr", "650 kr", "77 kr"], "correct": 0, "explain": "50 + 15 · 12 = 50 + 180 = 230." },
+    { "id": "q03", "text": "Hva er KMI for en person som veier 70 kg og er 1,75 m høy?", "options": ["40,0", "12,2", "22,9", "122,5"], "correct": 2, "explain": "70 / 1,75² = 70 / 3,0625 ≈ 22,9." },
+    { "id": "q04", "text": "Hva blir s = v · t når du snur den for å finne t?", "options": ["t = s · v", "t = v/s", "t = s − v", "t = s/v"], "correct": 3, "explain": "Del begge sider på v." },
+    { "id": "q05", "text": "Bruk F = 1,8C + 32. Hva er 25 °C i fahrenheit?", "options": ["45 °F", "77 °F", "57 °F", "102 °F"], "correct": 1, "explain": "1,8 · 25 + 32 = 45 + 32 = 77." },
+    { "id": "q06", "text": "Billetter koster 150 kr stykket pluss 50 kr i gebyr per bestilling. Hvilken formel gir prisen K for n billetter?", "options": ["K = 150n + 50", "K = 200n", "K = 50n + 150", "K = 150 + 50 + n"], "correct": 0, "explain": "150 per billett og et fast gebyr på 50." },
+    { "id": "q07", "text": "Bruttolønnen er 20 000 kr med 30 % prosenttrekk. Hva blir utbetalt?", "options": ["6 000 kr", "26 000 kr", "19 970 kr", "14 000 kr"], "correct": 3, "explain": "Skattetrekket er 6 000 kr, og 20 000 − 6 000 = 14 000." },
+    { "id": "q08", "text": "Hvorfor bør du vurdere om svaret på en tekstoppgave er rimelig?", "options": ["For å oppdage regnefeil og feil i enheter", "For å få flere desimaler", "Fordi formler alltid er feil", "Det er unødvendig"], "correct": 0, "explain": "Et urimelig svar er ofte et tegn på en feil." },
+    { "id": "q09", "text": "Hva er arealet av en sirkel med radius 3 cm?", "options": ["9,4 cm²", "18,8 cm²", "28,3 cm²", "113 cm²"], "correct": 2, "explain": "π · 3² ≈ 3,14 · 9 ≈ 28,3." },
+    { "id": "q10", "text": "Hva blir F = 1,8C + 32 når du snur den for å finne C?", "options": ["C = 1,8F + 32", "C = (F − 32)/1,8", "C = F/1,8 − 32", "C = 1,8(F − 32)"], "correct": 1, "explain": "Trekk først fra 32, del så på 1,8." }
+  ],
+  "mindmap": {
+    "label": "Formler og variabler",
+    "children": [
+      { "label": "Begreper", "children": [
+        { "label": "Variabel" },
+        { "label": "Konstant" },
+        { "label": "Formel" }
+      ] },
+      { "label": "Formler i hverdagen", "children": [
+        { "label": "Taxi og lønn" },
+        { "label": "Temperatur" },
+        { "label": "KMI" },
+        { "label": "Areal" }
+      ] },
+      { "label": "Snu formler", "children": [
+        { "label": "Samme på begge sider" },
+        { "label": "t = s/v" }
+      ] },
+      { "label": "Generalisere", "children": [
+        { "label": "Mønster i tabell" },
+        { "label": "K = 150n + 50" }
+      ] },
+      { "label": "Tekstoppgaver", "children": [
+        { "label": "Les og hent ut" },
+        { "label": "Regn ut" },
+        { "label": "Vurder og presenter" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "I formelen A = l · b er l og b variabler.", "correct": true, "explain": "Lengde og bredde kan variere." },
+      { "id": "m02", "type": "sant-usant", "text": "En konstant endrer verdi fra gang til gang i samme situasjon.", "correct": false, "explain": "En konstant er fast i situasjonen." },
+      { "id": "m03", "type": "sant-usant", "text": "Svaret på en tekstoppgave bør ha med enhet.", "correct": true, "explain": "Uten enhet er det uklart hva svaret betyr." },
+      { "id": "m04", "type": "sant-usant", "text": "Formelen A = πr² gir omkretsen av en sirkel.", "correct": false, "explain": "Den gir arealet. Omkretsen er 2πr." },
+      { "id": "m05", "type": "flervalg", "text": "Et abonnement koster 199 kr per måned pluss 0,50 kr per SMS. Hva koster en måned med 60 SMS?", "options": ["229 kr", "259 kr", "199,50 kr", "30 kr"], "correct": 0, "explain": "199 + 0,50 · 60 = 199 + 30 = 229." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilken enhet har KMI?", "options": ["kg · m", "kg/m²", "m/kg", "kg/m"], "correct": 1, "explain": "Vekt i kg delt på høyde i m opphøyd i andre." },
+      { "id": "m07", "type": "flervalg", "text": "Hva står 50 for i formelen K = 150n + 50?", "options": ["Prisen per billett", "Antall billetter", "Et fast gebyr", "Totalprisen"], "correct": 2, "explain": "Gebyret betales uansett hvor mange billetter du kjøper." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

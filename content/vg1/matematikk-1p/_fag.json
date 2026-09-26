@@ -1,0 +1,69 @@
+{
+  "id": "matematikk-1p",
+  "trinnId": "vg1",
+  "name": "Matematikk 1P",
+  "lareplan": {
+    "kode": "MAT08-01",
+    "url": "https://www.udir.no/lk20/mat08-01/kompetansemaal-og-vurdering/kv31",
+    "kompetansemaal": [
+      {
+        "nr": 1,
+        "tekst": "lese, hente ut og vurdere matematikk i tekstar om situasjonar frå lokalmiljøet, gjere berekningar knytte til dette og presentere og argumentere for resultata"
+      },
+      {
+        "nr": 2,
+        "tekst": "utforske korleis ulike premissar vil kunne påverke korleis matematiske problem frå samfunnsliv og arbeidsliv blir løyste"
+      },
+      {
+        "nr": 3,
+        "tekst": "modellere situasjonar knytte til tema frå samfunnsliv og arbeidsliv, presentere og argumentere for resultata og for når modellane er gyldige"
+      },
+      {
+        "nr": 4,
+        "tekst": "identifisere variable storleikar i ulike situasjonar og bruke dei til utforsking og generalisering"
+      },
+      {
+        "nr": 5,
+        "tekst": "tolke og bruke formlar som gjeld samfunnsliv og arbeidsliv"
+      },
+      {
+        "nr": 6,
+        "tekst": "bruke prosent, prosentpoeng, promille og vekstfaktor i utrekningar og presentere og grunngi løysingar"
+      },
+      {
+        "nr": 7,
+        "tekst": "utforske, beskrive og bruke omgrepa proporsjonalitet og omvend proporsjonalitet"
+      },
+      {
+        "nr": 8,
+        "tekst": "tolke og bruke samansette måleiningar i praktiske samanhengar og velje eigna måleining"
+      },
+      {
+        "nr": 9,
+        "tekst": "tolke og bruke funksjonar i matematisk modellering og problemløysing"
+      },
+      {
+        "nr": 10,
+        "tekst": "planleggje, utføre og presentere sjølvstendig arbeid knytt til modellering og funksjonar innanfor samfunnsfaglege tema"
+      },
+      {
+        "nr": 11,
+        "tekst": "bruke digitale verktøy i utforsking og problemløysing knytt til eigenskapar ved funksjonar, og diskutere løysingane"
+      },
+      {
+        "nr": 12,
+        "tekst": "tolke og rekne med rotuttrykk, potensar og tal på standardform"
+      }
+    ]
+  },
+  "temaer": [
+    "potenser-og-standardform",
+    "prosent-og-prosentpoeng",
+    "vekstfaktor-og-rente",
+    "proporsjonalitet",
+    "sammensatte-maleenheter",
+    "formler-og-variabler",
+    "funksjoner-og-grafer",
+    "matematisk-modellering"
+  ]
+}

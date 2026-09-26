@@ -1,0 +1,81 @@
+{
+  "id": "vekstfaktor-og-rente",
+  "fagId": "matematikk-1p",
+  "trinnId": "vg1",
+  "name": "Vekstfaktor, rente og lån",
+  "intro": "Vekstfaktor ved økning og nedgang, flere endringer etter hverandre, renters rente, verdifall, sparing og lån – og hvordan ulike premisser som rente og tid påvirker resultatet.",
+  "kompetansemaal": [6, 2],
+  "sammendrag": "## Vekstfaktor\n\n**Vekstfaktoren** er tallet vi ganger med for å finne ny verdi etter en prosentvis endring:\n\n- Økning på p %: vekstfaktor = 1 + p/100. 8 % økning → **1,08**.\n- Nedgang på p %: vekstfaktor = 1 − p/100. 15 % nedgang → **0,85**.\n\n**Ny verdi = gammel verdi · vekstfaktor**\n\nEn lønn på 30 000 kr som øker med 4 %, blir 30 000 · 1,04 = 31 200 kr.\n\n## Finne opprinnelig verdi\n\nEtter en prisøkning på 25 % koster en vare 750 kr. Hva kostet den før?\n\nGammel verdi = ny verdi / vekstfaktor = 750 / 1,25 = **600 kr**\n\n## Flere endringer etter hverandre\n\nVed flere endringer **ganger** vi vekstfaktorene: En pris som først øker med 10 % og så synker med 10 %, får vekstfaktor 1,10 · 0,90 = 0,99 – altså **1 % nedgang** totalt.\n\n## Renters rente\n\nNår renten legges til beløpet hvert år, gir også rentene rente. Dette kalles **renters rente**. Med startbeløp K og vekstfaktor a i n år:\n\n**Beløp = K · aⁿ**\n\n10 000 kr med 4 % rente i 5 år: 10 000 · 1,04⁵ ≈ **12 167 kr**.\n\n## Verdifall\n\nEn bil til 300 000 kr taper 15 % av verdien hvert år. Etter 3 år: 300 000 · 0,85³ ≈ **184 238 kr**.\n\n## Lån\n\nNår du låner penger, betaler du **renter** og **avdrag** (nedbetaling av selve lånet). Summen er **terminbeløpet**.\n\n- **Serielån**: Avdraget er likt hver gang, så terminbeløpet **synker** etter hvert.\n- **Annuitetslån**: Terminbeløpet er **likt** hver gang. De fleste boliglån er annuitetslån.\n- **Effektiv rente** er renten inkludert **gebyrer** og andre kostnader. Bruk den når du sammenligner lån.\n\n**Forbrukslån** og **kredittkortgjeld** har ofte **svært høy rente**. Et lån på 200 000 kr gir 10 000 kr i rente det første året med 5 % rente, men 40 000 kr med 20 % rente.\n\n## Premisser påvirker resultatet\n\nEn beregning bygger alltid på **premisser** – antakelser. Hvor mye sparepengene vokser, avhenger av **renten**, **antall år**, om du **sparer mer** underveis og om **prisene stiger** (inflasjon). Små endringer i renten gir store utslag over lang tid:\n\n- 10 000 kr i 30 år med 2 % rente: 10 000 · 1,02³⁰ ≈ 18 114 kr\n- 10 000 kr i 30 år med 5 % rente: 10 000 · 1,05³⁰ ≈ 43 219 kr\n\nNår du presenterer en beregning, bør du derfor **oppgi premissene** og gjerne vise hvordan svaret endrer seg hvis de endres.",
+  "flashcards": [
+    { "term": "Vekstfaktor ved økning", "def": "1 + p/100, for eksempel 1,08 ved 8 % økning." },
+    { "term": "Vekstfaktor ved nedgang", "def": "1 − p/100, for eksempel 0,85 ved 15 % nedgang." },
+    { "term": "Ny verdi", "def": "Gammel verdi · vekstfaktor." },
+    { "term": "Opprinnelig verdi", "def": "Ny verdi / vekstfaktor." },
+    { "term": "Flere endringer", "def": "Gang vekstfaktorene med hverandre." },
+    { "term": "Renters rente", "def": "At rentene legges til beløpet og også gir rente." },
+    { "term": "K · aⁿ", "def": "Beløpet etter n perioder med vekstfaktor a." },
+    { "term": "Verdifall", "def": "At noe mister verdi, for eksempel en bil." },
+    { "term": "Avdrag", "def": "Nedbetaling av selve lånebeløpet." },
+    { "term": "Terminbeløp", "def": "Renter pluss avdrag for en periode." },
+    { "term": "Serielån", "def": "Lån med likt avdrag og synkende terminbeløp." },
+    { "term": "Annuitetslån", "def": "Lån med like store terminbeløp." },
+    { "term": "Effektiv rente", "def": "Rente inkludert gebyrer og andre kostnader." },
+    { "term": "Forbrukslån", "def": "Lån uten sikkerhet, ofte med svært høy rente." },
+    { "term": "Premiss", "def": "Antakelse en beregning bygger på, som rente og tid." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er vekstfaktoren for en økning på 8 %?", "options": ["0,08", "1,8", "1,08", "0,92"], "correct": 2, "explain": "1 + 8/100 = 1,08." },
+    { "id": "q02", "text": "Hva er vekstfaktoren for en nedgang på 15 %?", "options": ["0,85", "1,15", "0,15", "−0,15"], "correct": 0, "explain": "1 − 15/100 = 0,85." },
+    { "id": "q03", "text": "Du setter inn 10 000 kr med 4 % rente i 5 år. Hvilket uttrykk gir beløpet?", "options": ["10 000 · 1,4⁵", "10 000 · 0,04 · 5", "10 000 + 1,04⁵", "10 000 · 1,04⁵"], "correct": 3, "explain": "Beløpet ganges med vekstfaktoren 1,04 hvert år." },
+    { "id": "q04", "text": "Etter en prisøkning på 25 % koster en vare 750 kr. Hva kostet den før?", "options": ["562,50 kr", "600 kr", "725 kr", "937,50 kr"], "correct": 1, "explain": "750 / 1,25 = 600." },
+    { "id": "q05", "text": "En pris øker med 10 % og synker deretter med 10 %. Hva er den samlede endringen?", "options": ["Ingen endring", "1 % økning", "1 % nedgang", "20 % nedgang"], "correct": 2, "explain": "1,10 · 0,90 = 0,99." },
+    { "id": "q06", "text": "En bil til 300 000 kr taper 15 % av verdien hvert år. Hvilket uttrykk gir verdien etter 3 år?", "options": ["300 000 · 0,85³", "300 000 · 0,15³", "300 000 − 3 · 15", "300 000 · 1,15³"], "correct": 0, "explain": "Vekstfaktoren ved 15 % nedgang er 0,85." },
+    { "id": "q07", "text": "Hva er renters rente?", "options": ["At banken tar dobbel rente", "At rentene legges til beløpet og også gir rente senere", "At renten er fast", "At man betaler rente to ganger i året"], "correct": 1, "explain": "Derfor vokser sparepenger raskere og raskere." },
+    { "id": "q08", "text": "Du låner 200 000 kr med 5 % rente. Hvor mye er renten det første året?", "options": ["1 000 kr", "100 000 kr", "20 000 kr", "10 000 kr"], "correct": 3, "explain": "0,05 · 200 000 = 10 000." },
+    { "id": "q09", "text": "Hvorfor er forbrukslån ofte dyre?", "options": ["De har svært høy rente", "De har lav rente", "De er gratis de første årene", "De må betales tilbake på én dag"], "correct": 0, "explain": "Høy rente gjør at gjelden kan vokse raskt." },
+    { "id": "q10", "text": "Hvilke premisser påvirker mest hvor mye sparepenger vokser over lang tid?", "options": ["Bankens navn", "Fargen på bankkortet", "Renten og antall år", "Hvilken ukedag man setter inn"], "correct": 2, "explain": "5 % i stedet for 2 % rente gir mer enn dobbelt så mye etter 30 år." }
+  ],
+  "mindmap": {
+    "label": "Vekstfaktor og rente",
+    "children": [
+      { "label": "Vekstfaktor", "children": [
+        { "label": "Økning: 1 + p/100" },
+        { "label": "Nedgang: 1 − p/100" },
+        { "label": "Ny = gammel · vf" }
+      ] },
+      { "label": "Flere endringer", "children": [
+        { "label": "Gang vekstfaktorene" },
+        { "label": "K · aⁿ" }
+      ] },
+      { "label": "Sparing", "children": [
+        { "label": "Renters rente" },
+        { "label": "Lang tid gir stor effekt" }
+      ] },
+      { "label": "Lån", "children": [
+        { "label": "Renter og avdrag" },
+        { "label": "Serielån" },
+        { "label": "Annuitetslån" },
+        { "label": "Effektiv rente" }
+      ] },
+      { "label": "Premisser", "children": [
+        { "label": "Rente" },
+        { "label": "Tid" },
+        { "label": "Inflasjon" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Vekstfaktoren for en økning på 100 % er 2.", "correct": true, "explain": "1 + 100/100 = 2, altså en dobling." },
+      { "id": "m02", "type": "sant-usant", "text": "En nedgang på 20 % har vekstfaktor 1,2.", "correct": false, "explain": "Vekstfaktoren er 0,8." },
+      { "id": "m03", "type": "sant-usant", "text": "Ved renters rente vokser beløpet med flere kroner for hvert år.", "correct": true, "explain": "Renten regnes av et stadig større beløp." },
+      { "id": "m04", "type": "sant-usant", "text": "Et serielån har like store terminbeløp gjennom hele lånetiden.", "correct": false, "explain": "Det er annuitetslån som har like store terminbeløp." },
+      { "id": "m05", "type": "flervalg", "text": "Et beløp økte fra 5 000 kr til 5 600 kr. Hva er vekstfaktoren?", "options": ["1,12", "0,12", "1,6", "1,012"], "correct": 0, "explain": "5 600 / 5 000 = 1,12." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er effektiv rente?", "options": ["Renten før skatt", "Renten inkludert gebyrer og andre kostnader", "Renten på sparekonto", "Renten etter ett år"], "correct": 1, "explain": "Effektiv rente gjør det lettere å sammenligne lån." },
+      { "id": "m07", "type": "flervalg", "text": "Hva kjennetegner et annuitetslån?", "options": ["Lånet har ingen rente", "Avdraget er likt hver gang", "Terminbeløpet er likt hver gang", "Lånet betales tilbake på én gang"], "correct": 2, "explain": "De fleste boliglån er annuitetslån." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
