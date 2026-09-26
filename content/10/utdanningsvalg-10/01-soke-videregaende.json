@@ -1,0 +1,83 @@
+{
+  "id": "soke-videregaende",
+  "fagId": "utdanningsvalg-10",
+  "trinnId": "10",
+  "name": "Å søke videregående",
+  "intro": "Hvordan søknaden til videregående fungerer: søknadsfrister, ønsker i prioritert rekkefølge, grunnskolepoeng, inntak, fortrinnsrett og individuell behandling, svar på tilbud og hvordan du gjør valget til handling.",
+  "kompetansemaal": [2, 3, 8],
+  "sammendrag": "## Fra idé til søknad\n\nPå 10. trinn er det tid for å gjøre **ideene om framtiden om til handling**: Du skal søke videregående opplæring. Det er lurt å starte tidlig, snakke med **rådgiveren** og **foresatte**, besøke skoler på **åpen dag** og bruke **vilbli.no** for å se hvilke veier de ulike utdanningsprogrammene gir.\n\n## Søknaden\n\n- Søknaden sendes **digitalt** gjennom fylkets søknadsportal, som i de fleste fylker er **vigo.no**. Du logger inn med elektronisk ID.\n- Den ordinære **søknadsfristen** er **1. mars**.\n- Søkere som ber om **fortrinnsrett** eller **individuell behandling**, har vanligvis en tidligere frist, **1. februar**.\n- Du setter opp **flere ønsker i prioritert rekkefølge**: Førsteønsket er det du helst vil, og de neste er reserver.\n\n## Inntak og grunnskolepoeng\n\nDer det er flere søkere enn plasser, avgjøres inntaket av **grunnskolepoeng**. Poengene regnes ut som **gjennomsnittet av standpunkt- og eksamenskarakterene** dine, **ganget med ti**. Et snitt på 4,5 gir altså 45 poeng. Noen utdanningsprogram har i tillegg **opptaksprøver**, for eksempel musikk, dans og drama.\n\n**Fortrinnsrett** kan gis til elever som på grunn av funksjonsnedsettelse eller store vansker har behov for et bestemt tilbud. Søkere uten karakterer i mange fag kan søke **individuell behandling**.\n\n## Svar og tilbud\n\nSvar på søknaden kommer i løpet av **sommeren**. Da må du **svare** innen fristen – enten takke ja, takke ja og stå på **venteliste** for et høyere ønske, eller takke nei. Svarer du ikke, kan du miste plassen. Etter det første inntaket kommer det gjerne flere inntaksrunder for dem som står på venteliste.\n\n## Rett til videregående\n\nAlle som har fullført grunnskolen, har **rett til videregående opplæring**. Retten er ikke en garanti for å komme inn på førsteønsket, men du skal få tilbud om plass på et av de utdanningsprogrammene du har søkt på.\n\n## Tips til valget\n\n- Velg ut fra **egne interesser og mål**, ikke bare det vennene gjør.\n- Undersøk hvilke **veier videre** programmet gir: studiekompetanse, fagbrev eller begge deler.\n- Tenk gjennom **reisevei** og hvilke skoler som tilbyr programmet.\n- Ha **reserveønsker** som du også kan tenke deg.\n- Husk at det er mulig å gjøre **omvalg** senere.\n\n## Å sette mål\n\nEt **SMART** mål – spesifikt, målbart, akseptert, realistisk og tidsbestemt – kan hjelpe deg å komme i gang: «Jeg skal besøke to videregående skoler og snakke med rådgiveren før 1. februar.» Slik blir en idé til en plan, og planen blir til handling.",
+  "flashcards": [
+    { "term": "Vigo.no", "def": "Søknadsportalen for videregående opplæring i de fleste fylker." },
+    { "term": "Ordinær søknadsfrist", "def": "1. mars." },
+    { "term": "Fortrinnsrett", "def": "Rett til et bestemt tilbud for søkere med særlige behov." },
+    { "term": "Individuell behandling", "def": "Søknad som vurderes særskilt, for eksempel når søkeren mangler karakterer." },
+    { "term": "Prioriterte ønsker", "def": "Utdanningsprogrammene du søker, satt opp etter hva du helst vil." },
+    { "term": "Grunnskolepoeng", "def": "Gjennomsnittet av standpunkt- og eksamenskarakterene ganget med ti." },
+    { "term": "Opptaksprøve", "def": "Prøve som noen utdanningsprogram bruker ved inntak." },
+    { "term": "Inntak", "def": "Prosessen der søkerne får tilbud om skoleplass." },
+    { "term": "Venteliste", "def": "Liste over søkere som venter på plass på et høyere ønske." },
+    { "term": "Svarfrist", "def": "Fristen for å takke ja eller nei til et tilbud." },
+    { "term": "Rett til videregående opplæring", "def": "Rett alle som har fullført grunnskolen, har til videregående." },
+    { "term": "Åpen dag", "def": "Dag der videregående skoler viser fram tilbudet sitt." },
+    { "term": "Reserveønske", "def": "Et alternativ lenger ned på lista over ønsker." },
+    { "term": "SMART-mål", "def": "Mål som er spesifikt, målbart, akseptert, realistisk og tidsbestemt." },
+    { "term": "Omvalg", "def": "Å bytte utdanningsprogram hvis det første valget ikke passet." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Når er den ordinære søknadsfristen til videregående?", "options": ["1. januar", "1. mars", "1. mai", "1. august"], "correct": 1, "explain": "Søkere som ber om fortrinnsrett eller individuell behandling, har vanligvis frist 1. februar." },
+    { "id": "q02", "text": "Hvordan regnes grunnskolepoeng ut?", "options": ["Summen av alle karakterene", "Antall fag ganget med ti", "Gjennomsnittet av karakterene ganget med ti", "Beste karakter ganget med ti"], "correct": 2, "explain": "Et snitt på 4,5 gir 45 poeng." },
+    { "id": "q03", "text": "Hva er et reserveønske?", "options": ["Et alternativ lenger ned på lista over ønsker", "Et ønske om å slippe skolen", "Førsteønsket", "En klage"], "correct": 0, "explain": "Reserveønskene brukes hvis du ikke kommer inn på førsteønsket." },
+    { "id": "q04", "text": "Hva skjer hvis du ikke svarer på tilbudet om skoleplass innen fristen?", "options": ["Du får automatisk førsteønsket", "Ingenting", "Du får en ny sjanse neste dag", "Du kan miste plassen"], "correct": 3, "explain": "Husk å svare innen fristen." },
+    { "id": "q05", "text": "Hva betyr retten til videregående opplæring?", "options": ["At du alltid kommer inn på førsteønsket", "At du skal få tilbud om plass på et av programmene du har søkt på", "At videregående er obligatorisk", "At du kan velge skole fritt"], "correct": 1, "explain": "Retten gjelder alle som har fullført grunnskolen." },
+    { "id": "q06", "text": "Hvilket utdanningsprogram kan ha opptaksprøve?", "options": ["Musikk, dans og drama", "Studiespesialisering", "Restaurant- og matfag", "Naturbruk"], "correct": 0, "explain": "Opptaksprøver brukes for å vurdere ferdigheter i for eksempel musikk og dans." },
+    { "id": "q07", "text": "Hvilket av disse er et SMART mål?", "options": ["Jeg skal finne ut av ting", "Jeg skal bli flink", "Jeg skal velge noe", "Jeg skal besøke to skoler før 1. februar"], "correct": 3, "explain": "Målet er spesifikt, målbart og tidsbestemt." },
+    { "id": "q08", "text": "Hvem kan søke individuell behandling?", "options": ["Alle som vil ha en bedre plass", "Bare de med høyest karakterer", "For eksempel søkere som mangler karakterer i mange fag", "Bare lærere"], "correct": 2, "explain": "Da vurderes søknaden særskilt." },
+    { "id": "q09", "text": "Hva betyr det å stå på venteliste?", "options": ["At du har takket nei", "At du venter på plass på et høyere ønske", "At du ikke har søkt", "At du er utestengt"], "correct": 1, "explain": "Mange får plass i senere inntaksrunder." },
+    { "id": "q10", "text": "Hvilket råd er godt når du velger utdanningsprogram?", "options": ["Velg det samme som bestevennen", "Ikke tenk på veien videre", "Velg ut fra egne interesser og mål", "Velg tilfeldig"], "correct": 2, "explain": "Det er ditt valg og din framtid." }
+  ],
+  "mindmap": {
+    "label": "Å søke videregående",
+    "children": [
+      { "label": "Forberedelse", "children": [
+        { "label": "Rådgiver" },
+        { "label": "Åpen dag" },
+        { "label": "Vilbli.no" }
+      ] },
+      { "label": "Søknad", "children": [
+        { "label": "Vigo.no" },
+        { "label": "Frist 1. mars" },
+        { "label": "Prioriterte ønsker" }
+      ] },
+      { "label": "Inntak", "children": [
+        { "label": "Grunnskolepoeng" },
+        { "label": "Opptaksprøver" },
+        { "label": "Fortrinnsrett" },
+        { "label": "Individuell behandling" }
+      ] },
+      { "label": "Svar", "children": [
+        { "label": "Svarfrist" },
+        { "label": "Venteliste" },
+        { "label": "Nye inntaksrunder" }
+      ] },
+      { "label": "Til handling", "children": [
+        { "label": "SMART-mål" },
+        { "label": "Reserveønsker" },
+        { "label": "Omvalg" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Søknaden til videregående sendes digitalt.", "correct": true, "explain": "I de fleste fylker brukes vigo.no." },
+      { "id": "m02", "type": "sant-usant", "text": "Retten til videregående garanterer plass på førsteønsket.", "correct": false, "explain": "Retten gir plass på et av programmene du har søkt, ikke nødvendigvis førsteønsket." },
+      { "id": "m03", "type": "sant-usant", "text": "Grunnskolepoeng bygger på både standpunkt- og eksamenskarakterer.", "correct": true, "explain": "Snittet ganges med ti." },
+      { "id": "m04", "type": "sant-usant", "text": "Man kan bare sette opp ett ønske i søknaden.", "correct": false, "explain": "Man setter opp flere ønsker i prioritert rekkefølge." },
+      { "id": "m05", "type": "flervalg", "text": "Et karaktersnitt på 4,2 gir hvor mange grunnskolepoeng?", "options": ["4,2", "42", "420", "24"], "correct": 1, "explain": "4,2 ganget med 10 er 42." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er fortrinnsrett?", "options": ["Rett til et bestemt tilbud for søkere med særlige behov", "Rett til å velge lærer", "Rett til å slippe eksamen", "Rett til gratis skolemat"], "correct": 0, "explain": "Søkere med fortrinnsrett har vanligvis tidligere søknadsfrist." },
+      { "id": "m07", "type": "flervalg", "text": "Når får man vanligvis svar på søknaden til videregående?", "options": ["Før jul", "I februar", "I løpet av sommeren", "Etter skolestart"], "correct": 2, "explain": "Deretter må man svare innen fristen." }
+    ]
+  },
+  "kvalitet": { "status": "sjekkes", "merknader": ["Sjekk søknadsfrister (1. februar og 1. mars), søknadsportal (vigo.no) og antall ønsker mot gjeldende regler i fylket.", "Sjekk formuleringen om rett til videregående opplæring etter ny opplæringslov."] }
+}

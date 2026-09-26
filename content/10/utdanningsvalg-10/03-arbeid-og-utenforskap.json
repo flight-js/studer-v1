@@ -1,0 +1,84 @@
+{
+  "id": "arbeid-og-utenforskap",
+  "fagId": "utdanningsvalg-10",
+  "trinnId": "10",
+  "name": "Arbeid og utenforskap",
+  "intro": "Hvilken verdi arbeid har for den enkelte og for samfunnet, hva utenforskap er, hvorfor noen står utenfor skole og arbeid, konsekvensene av det og hvilke tiltak som finnes.",
+  "kompetansemaal": [5],
+  "sammendrag": "## Verdien av arbeid for den enkelte\n\nArbeid gir mer enn lønn. For mange betyr arbeid\n\n- **inntekt** og **økonomisk selvstendighet**\n- **fellesskap** med kolleger\n- **identitet** – det man jobber med, blir en del av hvem man er\n- **mening** og **mestring** – følelsen av å bidra og få til noe\n- **struktur** i hverdagen\n- **rettigheter** som sykepenger, feriepenger og pensjon\n\n## Verdien av arbeid for samfunnet\n\nNår mange er i arbeid, betaler de **skatt**. Skatteinntektene finansierer **velferdsstaten**: skole, helsevesen, eldreomsorg, veier og trygder. Den norske velferdsmodellen er derfor avhengig av at **flest mulig er i arbeid**. Arbeid gir også **verdiskaping** – varer og tjenester som samfunnet trenger.\n\n## Hva er utenforskap?\n\n**Utenforskap** betyr å stå utenfor viktige fellesskap i samfunnet, som **utdanning**, **arbeid** og **sosiale nettverk**. Unge som verken er i **utdanning**, **arbeid** eller **opplæring**, omtales ofte med den engelske forkortelsen **NEET**. I Norge fullfører ikke alle videregående opplæring, og det å mangle fullført videregående gjør det vanskeligere å få fast jobb.\n\n## Årsaker\n\nÅrsakene til utenforskap er ofte sammensatte:\n\n- **psykiske eller fysiske helseplager**\n- **svake skoleresultater** eller **fravær**\n- **mobbing** og **ensomhet**\n- **rusproblemer**\n- **språkvansker** eller manglende **nettverk**\n- **diskriminering** i arbeidslivet\n- lite **arbeidserfaring**, som gjør det vanskelig å få den første jobben\n\n## Konsekvenser\n\nFor den enkelte kan utenforskap gi **dårligere økonomi**, **dårligere helse**, **ensomhet** og svakere **selvfølelse**. For samfunnet betyr det **tapte skatteinntekter**, høyere utgifter til **trygd** og mangel på **arbeidskraft**.\n\n## Tiltak\n\n- **Skolen** jobber med å forebygge frafall gjennom tett oppfølging, tilpasset opplæring og godt skolemiljø.\n- **Oppfølgingstjenesten** i fylkeskommunen hjelper unge som ikke er i skole eller arbeid, tilbake til opplæring eller jobb.\n- **NAV** gir veiledning, arbeidstrening og økonomisk støtte.\n- **Arbeidsgivere** kan tilby **lærlingplasser**, **sommerjobber** og **tilrettelegging** – og ansette folk med hull i CV-en.\n- **Frivillige organisasjoner**, idrettslag og fritidsklubber gir fellesskap.\n\n## Hva kan du gjøre?\n\nDu kan bidra ved å **inkludere** andre i skolen og på fritiden, si fra om **mobbing** og **be om hjelp** tidlig hvis du selv sliter. Å fullføre videregående er en av de viktigste investeringene du kan gjøre i egen framtid.",
+  "flashcards": [
+    { "term": "Økonomisk selvstendighet", "def": "Å kunne forsørge seg selv." },
+    { "term": "Identitet", "def": "Hvem man er og opplever seg som." },
+    { "term": "Mestring", "def": "Følelsen av å få til noe." },
+    { "term": "Velferdsstaten", "def": "Stat som sørger for utdanning, helse og trygd for innbyggerne, finansiert med skatt." },
+    { "term": "Verdiskaping", "def": "Produksjon av varer og tjenester som har verdi for samfunnet." },
+    { "term": "Utenforskap", "def": "Å stå utenfor viktige fellesskap som utdanning, arbeid og sosiale nettverk." },
+    { "term": "NEET", "def": "Unge som verken er i utdanning, arbeid eller opplæring." },
+    { "term": "Frafall", "def": "At elever slutter før de har fullført videregående." },
+    { "term": "Oppfølgingstjenesten", "def": "Fylkeskommunal tjeneste som hjelper unge utenfor skole og arbeid." },
+    { "term": "NAV", "def": "Offentlig etat for arbeid, trygd og sosiale tjenester." },
+    { "term": "Arbeidstrening", "def": "Tiltak der man prøver seg i arbeid med støtte." },
+    { "term": "Tilrettelegging", "def": "Tilpasning av arbeid eller skole til den enkeltes behov." },
+    { "term": "Inkludering", "def": "Å ta andre med i fellesskapet." },
+    { "term": "Trygd", "def": "Økonomisk støtte fra staten, for eksempel ved sykdom eller arbeidsledighet." },
+    { "term": "Nettverk", "def": "Personer man kjenner, som kan hjelpe med jobb og kontakter." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva gir arbeid den enkelte i tillegg til lønn?", "options": ["Ingenting", "Bare stress", "Fellesskap, identitet og mestring", "Bare fritid"], "correct": 2, "explain": "Arbeid gir også struktur og rettigheter." },
+    { "id": "q02", "text": "Hva betyr utenforskap?", "options": ["Å bo i utlandet", "Å stå utenfor viktige fellesskap som utdanning og arbeid", "Å jobbe ute", "Å være på ferie"], "correct": 1, "explain": "Utenforskap har konsekvenser både for den enkelte og samfunnet." },
+    { "id": "q03", "text": "Hvorfor er velferdsstaten avhengig av at mange er i arbeid?", "options": ["Fordi skatteinntektene finansierer velferden", "Fordi staten eier alle bedrifter", "Fordi det er påbudt", "Det er den ikke"], "correct": 0, "explain": "Skatt fra arbeid betaler for skoler, sykehus og trygder." },
+    { "id": "q04", "text": "Hva står NEET for?", "options": ["Nye elever etter eksamen", "Norsk etat for eksport og transport", "Nettverk for elever og trenere", "Unge som verken er i utdanning, arbeid eller opplæring"], "correct": 3, "explain": "Forkortelsen kommer fra engelsk." },
+    { "id": "q05", "text": "Hva er en vanlig årsak til utenforskap?", "options": ["Helseplager eller svake skoleresultater", "Å ha mange venner", "Å ha fullført videregående", "Å ha sommerjobb"], "correct": 0, "explain": "Årsakene er ofte sammensatte." },
+    { "id": "q06", "text": "Hva gjør oppfølgingstjenesten?", "options": ["Følger opp skatten", "Hjelper unge utenfor skole og arbeid tilbake til opplæring eller jobb", "Kontrollerer restauranter", "Deler ut karakterer"], "correct": 1, "explain": "Oppfølgingstjenesten drives av fylkeskommunen." },
+    { "id": "q07", "text": "Hva er en konsekvens av utenforskap for samfunnet?", "options": ["Flere skatteinntekter", "Mindre behov for trygd", "Tapte skatteinntekter og mangel på arbeidskraft", "Ingen konsekvenser"], "correct": 2, "explain": "Utenforskap koster både den enkelte og samfunnet." },
+    { "id": "q08", "text": "Hvordan kan arbeidsgivere bidra mot utenforskap?", "options": ["Ved å bare ansette folk med lang erfaring", "Ved å legge ned bedriften", "Ved å kreve perfekt CV", "Ved å tilby lærlingplasser, sommerjobber og tilrettelegging"], "correct": 3, "explain": "Den første jobben er ofte den vanskeligste å få." },
+    { "id": "q09", "text": "Hva kan du som elev gjøre mot utenforskap?", "options": ["Inkludere andre og si fra om mobbing", "Holde deg for deg selv", "Ignorere de som sliter", "Ingenting"], "correct": 0, "explain": "Fellesskap forebygger utenforskap." },
+    { "id": "q10", "text": "Hva er NAV?", "options": ["En bank", "En offentlig etat for arbeid, trygd og sosiale tjenester", "En fagforening", "En videregående skole"], "correct": 1, "explain": "NAV gir blant annet veiledning og arbeidstrening." }
+  ],
+  "mindmap": {
+    "label": "Arbeid og utenforskap",
+    "children": [
+      { "label": "Verdi for meg", "children": [
+        { "label": "Inntekt" },
+        { "label": "Fellesskap" },
+        { "label": "Identitet og mestring" }
+      ] },
+      { "label": "Verdi for samfunnet", "children": [
+        { "label": "Skatt" },
+        { "label": "Velferdsstaten" },
+        { "label": "Verdiskaping" }
+      ] },
+      { "label": "Utenforskap", "children": [
+        { "label": "NEET" },
+        { "label": "Frafall" },
+        { "label": "Ensomhet" }
+      ] },
+      { "label": "Årsaker", "children": [
+        { "label": "Helse" },
+        { "label": "Skoleresultater" },
+        { "label": "Mobbing og rus" },
+        { "label": "Diskriminering" }
+      ] },
+      { "label": "Tiltak", "children": [
+        { "label": "Skolen" },
+        { "label": "Oppfølgingstjenesten" },
+        { "label": "NAV" },
+        { "label": "Arbeidsgivere" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Å mangle fullført videregående gjør det vanskeligere å få fast jobb.", "correct": true, "explain": "Mange arbeidsgivere krever fullført videregående eller fagbrev." },
+      { "id": "m02", "type": "sant-usant", "text": "Utenforskap har bare én årsak.", "correct": false, "explain": "Årsakene er ofte sammensatte." },
+      { "id": "m03", "type": "sant-usant", "text": "Frivillige organisasjoner kan bidra til å motvirke utenforskap.", "correct": true, "explain": "De gir fellesskap og nettverk." },
+      { "id": "m04", "type": "sant-usant", "text": "Den som står utenfor arbeidslivet, betaler vanligvis mer skatt.", "correct": false, "explain": "Uten arbeidsinntekt betaler man lite skatt, og samfunnet taper inntekter." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er arbeidstrening?", "options": ["Styrketrening på jobben", "Et tiltak der man prøver seg i arbeid med støtte", "En type eksamen", "En fagforening"], "correct": 1, "explain": "Arbeidstrening kan være et steg inn i arbeidslivet." },
+      { "id": "m06", "type": "flervalg", "text": "Hva finansieres av skatteinntekter?", "options": ["Private bedrifter", "Aksjer", "Skoler, sykehus og trygder", "Mobiltelefoner"], "correct": 2, "explain": "Dette er kjernen i velferdsstaten." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er et nettverk i arbeidslivet?", "options": ["Et datanettverk", "Et fiskegarn", "En nettside", "Personer man kjenner, som kan hjelpe med jobb og kontakter"], "correct": 3, "explain": "Mange jobber besettes gjennom nettverk." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

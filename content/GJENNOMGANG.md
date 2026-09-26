@@ -6,6 +6,17 @@ Generert av `npm run content:check`. Ikke rediger for hånd.
 
 Alt innhold er skrevet med egne ord ut fra LK20-læreplanene. Før publisering bør en lærer lese gjennom hvert tema og sette status til «godkjent».
 
+## Arbeidslivsfag (10) – 4 av 4 temaer ferdig
+
+Læreplan: [ARB01-03](https://www.udir.no/lk20/arb01-03/kompetansemaal-og-vurdering/kv107)
+
+- 🟡 **Prosjektstyring** – utkast (370 ord · 15 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+- 🔴 **Rettigheter og plikter i arbeidslivet** – sjekkes (410 ord · 15 kort · 10 quiz · 15 i miniprøve · 24 noder i tankekart)
+  - Sjekk: Sjekk reglene for unge arbeidstakere (aldersgrenser, arbeidstid og kveldsarbeid) mot arbeidsmiljøloven kap. 11 og forskrift om arbeid for barn og unge.
+  - Sjekk: Sjekk overtidstillegg (minst 40 %) og feriepengesats (10,2 %).
+- 🟡 **Elevbedrift og entreprenørskap** – utkast (361 ord · 15 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+- 🟡 **Yrkesfag og veien videre** – utkast (397 ord · 15 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+
 ## Engelsk (10) – 7 av 7 temaer ferdig
 
 Læreplan: [ENG01-06](https://www.udir.no/lk20/eng01-06/kompetansemaal-og-vurdering/kv1033)
@@ -133,6 +144,27 @@ Læreplan: [FSP01-04](https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurder
 - 🔴 **Miljø og samfunn** – sjekkes (370 ord · 16 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
   - Sjekk: Andelen innbyggere med innvandrerbakgrunn (omtrent hver fjerde) og beskrivelsen av tysk energipolitikk bør sjekkes mot ferske tall.
 
+## Utdanningsvalg (10) – 4 av 4 temaer ferdig
+
+Læreplan: [UTV01-03](https://www.udir.no/lk20/utv01-03/kompetansemaal-og-vurdering/kv106)
+
+- 🔴 **Å søke videregående** – sjekkes (396 ord · 15 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+  - Sjekk: Sjekk søknadsfrister (1. februar og 1. mars), søknadsportal (vigo.no) og antall ønsker mot gjeldende regler i fylket.
+  - Sjekk: Sjekk formuleringen om rett til videregående opplæring etter ny opplæringslov.
+- 🟡 **CV, jobbsøknad og intervju** – utkast (390 ord · 15 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+- 🟡 **Arbeid og utenforskap** – utkast (344 ord · 15 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+- 🔴 **Overganger og mestring** – sjekkes (396 ord · 15 kort · 10 quiz · 15 i miniprøve · 24 noder i tankekart)
+  - Sjekk: Sjekk at fraværsgrensen i videregående fortsatt gjelder i samme form.
+
+## Arbeidslivsfag (8) – 4 av 4 temaer ferdig
+
+Læreplan: [ARB01-03](https://www.udir.no/lk20/arb01-03/kompetansemaal-og-vurdering/kv107)
+
+- 🟡 **Arbeidsoppdrag og planlegging** – utkast (347 ord · 15 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+- 🟡 **HMS og sikkerhet** – utkast (387 ord · 15 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+- 🟡 **Samarbeid og vurdering** – utkast (346 ord · 15 kort · 10 quiz · 15 i miniprøve · 24 noder i tankekart)
+- 🟡 **Kvalitet, levering og kundeservice** – utkast (356 ord · 15 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+
 ## Engelsk (8) – 6 av 6 temaer ferdig
 
 Læreplan: [ENG01-06](https://www.udir.no/lk20/eng01-06/kompetansemaal-og-vurdering/kv1033)
@@ -252,6 +284,16 @@ Læreplan: [FSP01-04](https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurder
 - 🟡 **Grammatikk – grunnlaget** – utkast (365 ord · 16 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
 - 🟡 **Tyskspråklige land og kultur** – utkast (336 ord · 15 kort · 10 quiz · 15 i miniprøve · 25 noder i tankekart)
 
+## Arbeidslivsfag (9) – 4 av 4 temaer ferdig
+
+Læreplan: [ARB01-03](https://www.udir.no/lk20/arb01-03/kompetansemaal-og-vurdering/kv107)
+
+- 🟡 **Verktøy, materialer og tegninger** – utkast (373 ord · 15 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+- 🔴 **Mat og hygiene i storkjøkken** – sjekkes (391 ord · 15 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+  - Sjekk: Sjekk temperaturgrensene (4 °C, –18 °C, 10–60 °C, over 60 °C) mot Mattilsynets gjeldende råd.
+- 🟡 **Service og omsorg** – utkast (364 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Bærekraft i arbeidslivet** – utkast (382 ord · 15 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+
 ## Engelsk (9) – 6 av 6 temaer ferdig
 
 Læreplan: [ENG01-06](https://www.udir.no/lk20/eng01-06/kompetansemaal-og-vurdering/kv1033)
@@ -367,6 +409,16 @@ Læreplan: [FSP01-04](https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurder
 - 🟡 **Klær og handel** – utkast (381 ord · 16 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
 - 🟡 **Å fortelle om fortiden – Perfekt** – utkast (362 ord · 16 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
 - 🟡 **Høytider og tradisjoner** – utkast (348 ord · 16 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+
+## Utdanningsvalg (9) – 4 av 4 temaer ferdig
+
+Læreplan: [UTV01-03](https://www.udir.no/lk20/utv01-03/kompetansemaal-og-vurdering/kv106)
+
+- 🟡 **Meg selv og mine valg** – utkast (365 ord · 15 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+- 🟡 **Utdanningssystemet** – utkast (323 ord · 15 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+- 🟡 **Arbeidslivet i endring** – utkast (365 ord · 15 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+- 🔴 **Kjønn og karrierevalg** – sjekkes (370 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+  - Sjekk: Sjekk påstandene om kjønnsfordeling i yrker og utdanningsprogram, og at kvinner er i flertall i høyere utdanning, mot ferske tall fra SSB.
 
 ## Kjemi 1 (vg2) – 11 av 11 temaer ferdig
 

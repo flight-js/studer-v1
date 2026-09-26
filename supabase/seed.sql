@@ -23,7 +23,7 @@ insert into public.fag (id, trinn_id, navn, lareplan_kode, lareplan_url, kompeta
   ('tysk-8', '8', 'Tysk', 'FSP01-04', 'https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurdering/kv965', '[{"nr":1,"tekst":"lytte til og forstå enkel og tydelig tale om personlige og dagligdagse emner"},{"nr":2,"tekst":"delta i enkle samtaler i dagligdagse situasjoner om aktiviteter og kjente emner"},{"nr":3,"tekst":"muntlig fortelle om dagligliv og opplevelser og uttrykke meninger, også spontant"},{"nr":4,"tekst":"lese og forstå tilpassede og enklere autentiske tekster om personlige og dagligdagse emner"},{"nr":5,"tekst":"skrive enkle tekster om dagligliv og opplevelser som forteller, beskriver og informerer, med og uten hjelpemidler"},{"nr":6,"tekst":"bruke enkle språklige strukturer, regler for uttale og rettskriving og språkets offisielle alfabet eller tegn for å kommunisere på en situasjonstilpasset måte"},{"nr":7,"tekst":"bruke relevante lærings- og kommunikasjonsstrategier, digitale ressurser og erfaringer fra tidligere språklæring i læringsprosessen"},{"nr":8,"tekst":"utforske og beskrive levemåter, tradisjoner og geografi i områder der språket snakkes, og se sammenhenger med egen bakgrunn"},{"nr":9,"tekst":"utforske og beskrive kunstneriske og kulturelle uttrykk fra områder der språket snakkes, og gi uttrykk for egne opplevelser"}]'::jsonb, 7),
   ('fransk-8', '8', 'Fransk', 'FSP01-04', 'https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurdering/kv965', '[{"nr":1,"tekst":"lytte til og forstå enkel og tydelig tale om personlige og dagligdagse emner"},{"nr":2,"tekst":"delta i enkle samtaler i dagligdagse situasjoner om aktiviteter og kjente emner"},{"nr":3,"tekst":"muntlig fortelle om dagligliv og opplevelser og uttrykke meninger, også spontant"},{"nr":4,"tekst":"lese og forstå tilpassede og enklere autentiske tekster om personlige og dagligdagse emner"},{"nr":5,"tekst":"skrive enkle tekster om dagligliv og opplevelser som forteller, beskriver og informerer, med og uten hjelpemidler"},{"nr":6,"tekst":"bruke enkle språklige strukturer, regler for uttale og rettskriving og språkets offisielle alfabet eller tegn for å kommunisere på en situasjonstilpasset måte"},{"nr":7,"tekst":"bruke relevante lærings- og kommunikasjonsstrategier, digitale ressurser og erfaringer fra tidligere språklæring i læringsprosessen"},{"nr":8,"tekst":"utforske og beskrive levemåter, tradisjoner og geografi i områder der språket snakkes, og se sammenhenger med egen bakgrunn"},{"nr":9,"tekst":"utforske og beskrive kunstneriske og kulturelle uttrykk fra områder der språket snakkes, og gi uttrykk for egne opplevelser"}]'::jsonb, 8),
   ('spansk-8', '8', 'Spansk', 'FSP01-04', 'https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurdering/kv965', '[{"nr":1,"tekst":"lytte til og forstå enkel og tydelig tale om personlige og dagligdagse emner"},{"nr":2,"tekst":"delta i enkle samtaler i dagligdagse situasjoner om aktiviteter og kjente emner"},{"nr":3,"tekst":"muntlig fortelle om dagligliv og opplevelser og uttrykke meninger, også spontant"},{"nr":4,"tekst":"lese og forstå tilpassede og enklere autentiske tekster om personlige og dagligdagse emner"},{"nr":5,"tekst":"skrive enkle tekster om dagligliv og opplevelser som forteller, beskriver og informerer, med og uten hjelpemidler"},{"nr":6,"tekst":"bruke enkle språklige strukturer, regler for uttale og rettskriving og språkets offisielle alfabet eller tegn for å kommunisere på en situasjonstilpasset måte"},{"nr":7,"tekst":"bruke relevante lærings- og kommunikasjonsstrategier, digitale ressurser og erfaringer fra tidligere språklæring i læringsprosessen"},{"nr":8,"tekst":"utforske og beskrive levemåter, tradisjoner og geografi i områder der språket snakkes, og se sammenhenger med egen bakgrunn"},{"nr":9,"tekst":"utforske og beskrive kunstneriske og kulturelle uttrykk fra områder der språket snakkes, og gi uttrykk for egne opplevelser"}]'::jsonb, 9),
-  ('arbeidslivsfag-8', '8', 'Arbeidslivsfag', null, null, '[]'::jsonb, 10),
+  ('arbeidslivsfag-8', '8', 'Arbeidslivsfag', 'ARB01-03', 'https://www.udir.no/lk20/arb01-03/kompetansemaal-og-vurdering/kv107', '[{"nr":1,"tekst":"undersøke behov for varer og tjenester på skolen og i lokalsamfunnet"},{"nr":2,"tekst":"planlegge praktiske og yrkesrettede arbeidsoppdrag"},{"nr":3,"tekst":"produsere og levere varer og tjenester etter kvalitetskrav"},{"nr":4,"tekst":"bruke fagbegreper, arbeidsmetoder, verktøy, materialer og teknologi tilpasset arbeidsoppdrag og begrunne valg"},{"nr":5,"tekst":"samarbeide, fremme forslag og delta i beslutninger i et arbeidsfellesskap"},{"nr":6,"tekst":"ivareta bærekraftige prinsipper i alle deler av arbeidsoppdraget"},{"nr":7,"tekst":"beskrive og vurdere risiko, og følge etiske retningslinjer og arbeidslivets regler i arbeidsoppdraget"},{"nr":8,"tekst":"vurdere sin egen og gruppens arbeidsinnsats, arbeidsprosess og arbeidsoppdragets resultat"}]'::jsonb, 10),
   ('norsk-9', '9', 'Norsk', 'NOR01-08', 'https://www.udir.no/lk20/nor01-08/kompetansemaal-og-vurdering/kv1110', '[{"nr":1,"tekst":"lese skjønnlitteratur og sakprosa på bokmål og nynorsk og i oversettelse fra samiske og andre språk, og reflektere over tekstenes formål, innhold, sjangertrekk og virkemidler"},{"nr":2,"tekst":"sammenligne og tolke romaner, noveller, lyrikk og andre tekster ut fra historisk kontekst og egen samtid"},{"nr":3,"tekst":"beskrive og reflektere over egen bruk av lesestrategier i lesing av skjønnlitteratur og sakprosa"},{"nr":4,"tekst":"lytte til og lese tekster på svensk og dansk og gjøre rede for innhold og språklige trekk"},{"nr":5,"tekst":"utforske og reflektere over hvordan tekster framstiller unges livssituasjon"},{"nr":6,"tekst":"gjenkjenne og bruke språklige virkemidler og retoriske appellformer"},{"nr":7,"tekst":"bruke kilder på en kritisk måte, markere sitater og vise til kilder på en etterrettelig måte i egne tekster"},{"nr":8,"tekst":"utforske og vurdere hvordan digitale medier påvirker og endrer språk og kommunikasjon"},{"nr":9,"tekst":"bruke fagspråk og argumentere saklig i diskusjoner, samtaler, muntlige presentasjoner og skriftlige framstillinger om norskfaglige og tverrfaglige temaer"},{"nr":10,"tekst":"informere, fortelle, argumentere og reflektere i ulike muntlige og skriftlige sjangre og for ulike formål tilpasset mottaker og medium"},{"nr":11,"tekst":"skrive tekster med funksjonell tekstbinding og riktig tegnsetting og mestre rettskriving og ordbøying på hovedmål og sidemål"},{"nr":12,"tekst":"bruke fagspråk og kunnskap om grammatikk, tekststruktur og sjanger i samtale om og bearbeiding av tekster"},{"nr":13,"tekst":"uttrykke seg i ulike sjangre og eksperimentere med sjangre på kreative måter"},{"nr":14,"tekst":"lage sammensatte tekster og begrunne valg av uttrykksformer"},{"nr":15,"tekst":"forklare den historiske bakgrunnen for bokmål og nynorsk og reflektere over statusen til de offisielle språkene i Norge i dag"},{"nr":16,"tekst":"utforske språklig variasjon og mangfold i Norge og reflektere over holdninger til ulike språk og talespråkvarianter"}]'::jsonb, 0),
   ('matematikk-9', '9', 'Matematikk', 'MAT01-06', 'https://www.udir.no/lk20/mat01-06/kompetansemaal-og-vurdering/kv1028', '[{"nr":1,"tekst":"lage og løyse problem som handlar om samansette måleiningar"},{"nr":2,"tekst":"utforske eigenskapane ved ulike todimensjonale figurar og forklare omgrepa formlikskap og kongruens"},{"nr":3,"tekst":"bruke formlikskap og læresetninga til Pytagoras til utforsking av praktiske situasjonar"},{"nr":4,"tekst":"utforske, beskrive og argumentere for samanhengar mellom sidelengdene i trekantar"},{"nr":5,"tekst":"utforske og argumentere for korleis det å endre føresetnader i geometriske problemstillingar påverkar løysingar både praktisk og algebraisk"},{"nr":6,"tekst":"bruke og argumentere for formlar for overflateareal og volum av tredimensjonale figurar"},{"nr":7,"tekst":"tolke og kritisk vurdere statistiske framstillingar frå media og lokalsamfunnet"},{"nr":8,"tekst":"rekne på sentralmål og spreiingsmål i eigne og reelle datasett og bruke resultata til å beskrive dataa"},{"nr":9,"tekst":"samanlikne og argumentere for korleis framstillingar av tal og data kan brukast for å fremje ulike synspunkt"},{"nr":10,"tekst":"berekne og vurdere sannsyn i statistikk og spel"},{"nr":11,"tekst":"simulere utfall i tilfeldige forsøk og berekne sannsynet for at noko skal inntreffe, ved å bruke programmering"}]'::jsonb, 1),
   ('engelsk-9', '9', 'Engelsk', 'ENG01-06', 'https://www.udir.no/lk20/eng01-06/kompetansemaal-og-vurdering/kv1033', '[{"nr":1,"tekst":"bruke varierte strategier i språklæring, tekstskaping og kommunikasjon"},{"nr":2,"tekst":"bruke ulike digitale ressurser og andre hjelpemidler i språklæring, tekstskaping og samhandling"},{"nr":3,"tekst":"bruke sentrale mønstre for uttale i kommunikasjon"},{"nr":4,"tekst":"lytte til og forstå ord og uttrykk i varianter av engelsk"},{"nr":5,"tekst":"uttrykke seg med flyt og sammenheng med et variert ordforråd og idiomatiske uttrykk tilpasset formål, mottaker og situasjon"},{"nr":6,"tekst":"stille spørsmål og følge opp innspill i samtaler om ulike emner tilpasset ulike formål, mottakere og situasjoner"},{"nr":7,"tekst":"utforske og beskrive noen språklige likheter og ulikheter mellom engelsk og andre språk eleven kjenner til, og bruke dette i egen språklæring"},{"nr":8,"tekst":"bruke kunnskap om ordklasser og setningsstruktur i arbeid med egne muntlige og skriftlige tekster"},{"nr":9,"tekst":"følge regler for rettskriving, ordbøying, setningsstruktur og tekststruktur"},{"nr":10,"tekst":"lese, diskutere og videreformidle innhold fra ulike typer tekster, inkludert selvvalgte tekster"},{"nr":11,"tekst":"lese, tolke og reflektere over engelskspråklig skjønnlitteratur, inkludert ungdomslitteratur"},{"nr":12,"tekst":"lese sakprosatekster og vurdere hvor pålitelige kildene er"},{"nr":13,"tekst":"bruke kilder på en kritisk og etterrettelig måte"},{"nr":14,"tekst":"skrive formelle og uformelle tekster, inkludert sammensatte, med struktur og sammenheng som beskriver, forteller og reflekterer tilpasset formål, mottaker og situasjon"},{"nr":15,"tekst":"bearbeide egne tekster ut fra tilbakemeldinger og kunnskap om språk"},{"nr":16,"tekst":"beskrive og reflektere over rollen engelsk har i Norge og i verden"},{"nr":17,"tekst":"utforske og reflektere over situasjonen til urfolk i den engelskspråklige verden og i Norge"},{"nr":18,"tekst":"utforske og beskrive levemåter, tenkesett, kommunikasjonsmønstre og mangfold i den engelskspråklige verden"},{"nr":19,"tekst":"utforske og videreformidle innhold i engelskspråklige kulturelle uttrykksformer fra ulike medier knyttet til egne interesser"}]'::jsonb, 2),
@@ -34,8 +34,8 @@ insert into public.fag (id, trinn_id, navn, lareplan_kode, lareplan_url, kompeta
   ('tysk-9', '9', 'Tysk', 'FSP01-04', 'https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurdering/kv965', '[{"nr":1,"tekst":"lytte til og forstå enkel og tydelig tale om personlige og dagligdagse emner"},{"nr":2,"tekst":"delta i enkle samtaler i dagligdagse situasjoner om aktiviteter og kjente emner"},{"nr":3,"tekst":"muntlig fortelle om dagligliv og opplevelser og uttrykke meninger, også spontant"},{"nr":4,"tekst":"lese og forstå tilpassede og enklere autentiske tekster om personlige og dagligdagse emner"},{"nr":5,"tekst":"skrive enkle tekster om dagligliv og opplevelser som forteller, beskriver og informerer, med og uten hjelpemidler"},{"nr":6,"tekst":"bruke enkle språklige strukturer, regler for uttale og rettskriving og språkets offisielle alfabet eller tegn for å kommunisere på en situasjonstilpasset måte"},{"nr":7,"tekst":"bruke relevante lærings- og kommunikasjonsstrategier, digitale ressurser og erfaringer fra tidligere språklæring i læringsprosessen"},{"nr":8,"tekst":"utforske og beskrive levemåter, tradisjoner og geografi i områder der språket snakkes, og se sammenhenger med egen bakgrunn"},{"nr":9,"tekst":"utforske og beskrive kunstneriske og kulturelle uttrykk fra områder der språket snakkes, og gi uttrykk for egne opplevelser"}]'::jsonb, 7),
   ('fransk-9', '9', 'Fransk', 'FSP01-04', 'https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurdering/kv965', '[{"nr":1,"tekst":"lytte til og forstå enkel og tydelig tale om personlige og dagligdagse emner"},{"nr":2,"tekst":"delta i enkle samtaler i dagligdagse situasjoner om aktiviteter og kjente emner"},{"nr":3,"tekst":"muntlig fortelle om dagligliv og opplevelser og uttrykke meninger, også spontant"},{"nr":4,"tekst":"lese og forstå tilpassede og enklere autentiske tekster om personlige og dagligdagse emner"},{"nr":5,"tekst":"skrive enkle tekster om dagligliv og opplevelser som forteller, beskriver og informerer, med og uten hjelpemidler"},{"nr":6,"tekst":"bruke enkle språklige strukturer, regler for uttale og rettskriving og språkets offisielle alfabet eller tegn for å kommunisere på en situasjonstilpasset måte"},{"nr":7,"tekst":"bruke relevante lærings- og kommunikasjonsstrategier, digitale ressurser og erfaringer fra tidligere språklæring i læringsprosessen"},{"nr":8,"tekst":"utforske og beskrive levemåter, tradisjoner og geografi i områder der språket snakkes, og se sammenhenger med egen bakgrunn"},{"nr":9,"tekst":"utforske og beskrive kunstneriske og kulturelle uttrykk fra områder der språket snakkes, og gi uttrykk for egne opplevelser"}]'::jsonb, 8),
   ('spansk-9', '9', 'Spansk', 'FSP01-04', 'https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurdering/kv965', '[{"nr":1,"tekst":"lytte til og forstå enkel og tydelig tale om personlige og dagligdagse emner"},{"nr":2,"tekst":"delta i enkle samtaler i dagligdagse situasjoner om aktiviteter og kjente emner"},{"nr":3,"tekst":"muntlig fortelle om dagligliv og opplevelser og uttrykke meninger, også spontant"},{"nr":4,"tekst":"lese og forstå tilpassede og enklere autentiske tekster om personlige og dagligdagse emner"},{"nr":5,"tekst":"skrive enkle tekster om dagligliv og opplevelser som forteller, beskriver og informerer, med og uten hjelpemidler"},{"nr":6,"tekst":"bruke enkle språklige strukturer, regler for uttale og rettskriving og språkets offisielle alfabet eller tegn for å kommunisere på en situasjonstilpasset måte"},{"nr":7,"tekst":"bruke relevante lærings- og kommunikasjonsstrategier, digitale ressurser og erfaringer fra tidligere språklæring i læringsprosessen"},{"nr":8,"tekst":"utforske og beskrive levemåter, tradisjoner og geografi i områder der språket snakkes, og se sammenhenger med egen bakgrunn"},{"nr":9,"tekst":"utforske og beskrive kunstneriske og kulturelle uttrykk fra områder der språket snakkes, og gi uttrykk for egne opplevelser"}]'::jsonb, 9),
-  ('arbeidslivsfag-9', '9', 'Arbeidslivsfag', null, null, '[]'::jsonb, 10),
-  ('utdanningsvalg-9', '9', 'Utdanningsvalg', null, null, '[]'::jsonb, 11),
+  ('arbeidslivsfag-9', '9', 'Arbeidslivsfag', 'ARB01-03', 'https://www.udir.no/lk20/arb01-03/kompetansemaal-og-vurdering/kv107', '[{"nr":1,"tekst":"undersøke behov for varer og tjenester på skolen og i lokalsamfunnet"},{"nr":2,"tekst":"planlegge praktiske og yrkesrettede arbeidsoppdrag"},{"nr":3,"tekst":"produsere og levere varer og tjenester etter kvalitetskrav"},{"nr":4,"tekst":"bruke fagbegreper, arbeidsmetoder, verktøy, materialer og teknologi tilpasset arbeidsoppdrag og begrunne valg"},{"nr":5,"tekst":"samarbeide, fremme forslag og delta i beslutninger i et arbeidsfellesskap"},{"nr":6,"tekst":"ivareta bærekraftige prinsipper i alle deler av arbeidsoppdraget"},{"nr":7,"tekst":"beskrive og vurdere risiko, og følge etiske retningslinjer og arbeidslivets regler i arbeidsoppdraget"},{"nr":8,"tekst":"vurdere sin egen og gruppens arbeidsinnsats, arbeidsprosess og arbeidsoppdragets resultat"}]'::jsonb, 10),
+  ('utdanningsvalg-9', '9', 'Utdanningsvalg', 'UTV01-03', 'https://www.udir.no/lk20/utv01-03/kompetansemaal-og-vurdering/kv106', '[{"nr":1,"tekst":"beskrive egne styrker og egenskaper og interesser, og kunne se dette i sammenheng med utdannings- og yrkesønsker og livsmestring"},{"nr":2,"tekst":"samle, analysere og bruke informasjon om utdanning og arbeid"},{"nr":3,"tekst":"utforske utdanningsmuligheter på varierte måter, og gjøre rede for ulike utdanningsveier og hvilke yrkesområder de kan føre til"},{"nr":4,"tekst":"tilegne seg kunnskap om arbeidslivet gjennom utprøving og utforskning og reflektere over hvordan bærekraftsmål, konjunkturer og teknologi påvirker arbeidsmarked, yrker og arbeidsmåter"},{"nr":5,"tekst":"diskutere konsekvenser av utenforskap og forstå økonomisk og sosial verdi av arbeid på individ- og samfunnsnivå"},{"nr":6,"tekst":"gjøre rede for hva og hvem som kan påvirke karrierevalg og hva dette har å si for egne valg"},{"nr":7,"tekst":"utforske og drøfte kjønnsrelaterte perspektiver i karrierevalg"},{"nr":8,"tekst":"se muligheter og omsette egne idéer til handling og valg, og reflektere sammen med andre over konsekvenser av karrierevalg"},{"nr":9,"tekst":"utvikle og bruke mestringsstrategier for å håndtere overganger og utfordringer relatert til utdanning og karriere"},{"nr":10,"tekst":"tolke stillingsannonser, skrive CV og jobbsøknad og tilegne seg kunnskap om hvordan man gjør et godt jobbintervju"}]'::jsonb, 11),
   ('norsk-10', '10', 'Norsk', 'NOR01-08', 'https://www.udir.no/lk20/nor01-08/kompetansemaal-og-vurdering/kv1110', '[{"nr":1,"tekst":"lese skjønnlitteratur og sakprosa på bokmål og nynorsk og i oversettelse fra samiske og andre språk, og reflektere over tekstenes formål, innhold, sjangertrekk og virkemidler"},{"nr":2,"tekst":"sammenligne og tolke romaner, noveller, lyrikk og andre tekster ut fra historisk kontekst og egen samtid"},{"nr":3,"tekst":"beskrive og reflektere over egen bruk av lesestrategier i lesing av skjønnlitteratur og sakprosa"},{"nr":4,"tekst":"lytte til og lese tekster på svensk og dansk og gjøre rede for innhold og språklige trekk"},{"nr":5,"tekst":"utforske og reflektere over hvordan tekster framstiller unges livssituasjon"},{"nr":6,"tekst":"gjenkjenne og bruke språklige virkemidler og retoriske appellformer"},{"nr":7,"tekst":"bruke kilder på en kritisk måte, markere sitater og vise til kilder på en etterrettelig måte i egne tekster"},{"nr":8,"tekst":"utforske og vurdere hvordan digitale medier påvirker og endrer språk og kommunikasjon"},{"nr":9,"tekst":"bruke fagspråk og argumentere saklig i diskusjoner, samtaler, muntlige presentasjoner og skriftlige framstillinger om norskfaglige og tverrfaglige temaer"},{"nr":10,"tekst":"informere, fortelle, argumentere og reflektere i ulike muntlige og skriftlige sjangre og for ulike formål tilpasset mottaker og medium"},{"nr":11,"tekst":"skrive tekster med funksjonell tekstbinding og riktig tegnsetting og mestre rettskriving og ordbøying på hovedmål og sidemål"},{"nr":12,"tekst":"bruke fagspråk og kunnskap om grammatikk, tekststruktur og sjanger i samtale om og bearbeiding av tekster"},{"nr":13,"tekst":"uttrykke seg i ulike sjangre og eksperimentere med sjangre på kreative måter"},{"nr":14,"tekst":"lage sammensatte tekster og begrunne valg av uttrykksformer"},{"nr":15,"tekst":"forklare den historiske bakgrunnen for bokmål og nynorsk og reflektere over statusen til de offisielle språkene i Norge i dag"},{"nr":16,"tekst":"utforske språklig variasjon og mangfold i Norge og reflektere over holdninger til ulike språk og talespråkvarianter"}]'::jsonb, 0),
   ('matematikk-10', '10', 'Matematikk', 'MAT01-06', 'https://www.udir.no/lk20/mat01-06/kompetansemaal-og-vurdering/kv1029', '[{"nr":1,"tekst":"bruke reknereglar og generalisere samanhengar algebraisk"},{"nr":2,"tekst":"utforske kvadratsetningane geometrisk og algebraisk og bruke kvadratsetningane som reknestrategiar"},{"nr":3,"tekst":"lage, løyse og forklare likningssett knytte til praktiske situasjonar"},{"nr":4,"tekst":"utforske og samanlikne eigenskapar ved lineære funksjonar, eksponentialfunksjonar, brøkfunksjonar og andregradsfunksjonar ved å bruke digitale verktøy"},{"nr":5,"tekst":"forklare omgrepet endring per eining og rekne ut stigningstalet til lineære funksjonar"},{"nr":6,"tekst":"utforske og forklare samanhengen mellom konstant prosentvis endring, vekstfaktor og eksponentialfunksjonar"},{"nr":7,"tekst":"hente ut og tolke relevant informasjon og reflektere over moglege konsekvensar ved kjøp og sal, renter på sparing, lån og kredittkjøp"},{"nr":8,"tekst":"planleggje, utføre og presentere eit utforskande arbeid knytt til personleg økonomi"},{"nr":9,"tekst":"modellere situasjonar, presentere resultata og vurdere kor gyldige modellane er"},{"nr":10,"tekst":"utforske matematiske eigenskapar og samanhengar ved å bruke programmering"},{"nr":11,"tekst":"lese og forklare tekstbasert programkode i Python"}]'::jsonb, 1),
   ('engelsk-10', '10', 'Engelsk', 'ENG01-06', 'https://www.udir.no/lk20/eng01-06/kompetansemaal-og-vurdering/kv1033', '[{"nr":1,"tekst":"bruke varierte strategier i språklæring, tekstskaping og kommunikasjon"},{"nr":2,"tekst":"bruke ulike digitale ressurser og andre hjelpemidler i språklæring, tekstskaping og samhandling"},{"nr":3,"tekst":"bruke sentrale mønstre for uttale i kommunikasjon"},{"nr":4,"tekst":"lytte til og forstå ord og uttrykk i varianter av engelsk"},{"nr":5,"tekst":"uttrykke seg med flyt og sammenheng med et variert ordforråd og idiomatiske uttrykk tilpasset formål, mottaker og situasjon"},{"nr":6,"tekst":"stille spørsmål og følge opp innspill i samtaler om ulike emner tilpasset ulike formål, mottakere og situasjoner"},{"nr":7,"tekst":"utforske og beskrive noen språklige likheter og ulikheter mellom engelsk og andre språk eleven kjenner til, og bruke dette i egen språklæring"},{"nr":8,"tekst":"bruke kunnskap om ordklasser og setningsstruktur i arbeid med egne muntlige og skriftlige tekster"},{"nr":9,"tekst":"følge regler for rettskriving, ordbøying, setningsstruktur og tekststruktur"},{"nr":10,"tekst":"lese, diskutere og videreformidle innhold fra ulike typer tekster, inkludert selvvalgte tekster"},{"nr":11,"tekst":"lese, tolke og reflektere over engelskspråklig skjønnlitteratur, inkludert ungdomslitteratur"},{"nr":12,"tekst":"lese sakprosatekster og vurdere hvor pålitelige kildene er"},{"nr":13,"tekst":"bruke kilder på en kritisk og etterrettelig måte"},{"nr":14,"tekst":"skrive formelle og uformelle tekster, inkludert sammensatte, med struktur og sammenheng som beskriver, forteller og reflekterer tilpasset formål, mottaker og situasjon"},{"nr":15,"tekst":"bearbeide egne tekster ut fra tilbakemeldinger og kunnskap om språk"},{"nr":16,"tekst":"beskrive og reflektere over rollen engelsk har i Norge og i verden"},{"nr":17,"tekst":"utforske og reflektere over situasjonen til urfolk i den engelskspråklige verden og i Norge"},{"nr":18,"tekst":"utforske og beskrive levemåter, tenkesett, kommunikasjonsmønstre og mangfold i den engelskspråklige verden"},{"nr":19,"tekst":"utforske og videreformidle innhold i engelskspråklige kulturelle uttrykksformer fra ulike medier knyttet til egne interesser"}]'::jsonb, 2),
@@ -46,8 +46,8 @@ insert into public.fag (id, trinn_id, navn, lareplan_kode, lareplan_url, kompeta
   ('tysk-10', '10', 'Tysk', 'FSP01-04', 'https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurdering/kv965', '[{"nr":1,"tekst":"lytte til og forstå enkel og tydelig tale om personlige og dagligdagse emner"},{"nr":2,"tekst":"delta i enkle samtaler i dagligdagse situasjoner om aktiviteter og kjente emner"},{"nr":3,"tekst":"muntlig fortelle om dagligliv og opplevelser og uttrykke meninger, også spontant"},{"nr":4,"tekst":"lese og forstå tilpassede og enklere autentiske tekster om personlige og dagligdagse emner"},{"nr":5,"tekst":"skrive enkle tekster om dagligliv og opplevelser som forteller, beskriver og informerer, med og uten hjelpemidler"},{"nr":6,"tekst":"bruke enkle språklige strukturer, regler for uttale og rettskriving og språkets offisielle alfabet eller tegn for å kommunisere på en situasjonstilpasset måte"},{"nr":7,"tekst":"bruke relevante lærings- og kommunikasjonsstrategier, digitale ressurser og erfaringer fra tidligere språklæring i læringsprosessen"},{"nr":8,"tekst":"utforske og beskrive levemåter, tradisjoner og geografi i områder der språket snakkes, og se sammenhenger med egen bakgrunn"},{"nr":9,"tekst":"utforske og beskrive kunstneriske og kulturelle uttrykk fra områder der språket snakkes, og gi uttrykk for egne opplevelser"}]'::jsonb, 7),
   ('fransk-10', '10', 'Fransk', 'FSP01-04', 'https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurdering/kv965', '[{"nr":1,"tekst":"lytte til og forstå enkel og tydelig tale om personlige og dagligdagse emner"},{"nr":2,"tekst":"delta i enkle samtaler i dagligdagse situasjoner om aktiviteter og kjente emner"},{"nr":3,"tekst":"muntlig fortelle om dagligliv og opplevelser og uttrykke meninger, også spontant"},{"nr":4,"tekst":"lese og forstå tilpassede og enklere autentiske tekster om personlige og dagligdagse emner"},{"nr":5,"tekst":"skrive enkle tekster om dagligliv og opplevelser som forteller, beskriver og informerer, med og uten hjelpemidler"},{"nr":6,"tekst":"bruke enkle språklige strukturer, regler for uttale og rettskriving og språkets offisielle alfabet eller tegn for å kommunisere på en situasjonstilpasset måte"},{"nr":7,"tekst":"bruke relevante lærings- og kommunikasjonsstrategier, digitale ressurser og erfaringer fra tidligere språklæring i læringsprosessen"},{"nr":8,"tekst":"utforske og beskrive levemåter, tradisjoner og geografi i områder der språket snakkes, og se sammenhenger med egen bakgrunn"},{"nr":9,"tekst":"utforske og beskrive kunstneriske og kulturelle uttrykk fra områder der språket snakkes, og gi uttrykk for egne opplevelser"}]'::jsonb, 8),
   ('spansk-10', '10', 'Spansk', 'FSP01-04', 'https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurdering/kv965', '[{"nr":1,"tekst":"lytte til og forstå enkel og tydelig tale om personlige og dagligdagse emner"},{"nr":2,"tekst":"delta i enkle samtaler i dagligdagse situasjoner om aktiviteter og kjente emner"},{"nr":3,"tekst":"muntlig fortelle om dagligliv og opplevelser og uttrykke meninger, også spontant"},{"nr":4,"tekst":"lese og forstå tilpassede og enklere autentiske tekster om personlige og dagligdagse emner"},{"nr":5,"tekst":"skrive enkle tekster om dagligliv og opplevelser som forteller, beskriver og informerer, med og uten hjelpemidler"},{"nr":6,"tekst":"bruke enkle språklige strukturer, regler for uttale og rettskriving og språkets offisielle alfabet eller tegn for å kommunisere på en situasjonstilpasset måte"},{"nr":7,"tekst":"bruke relevante lærings- og kommunikasjonsstrategier, digitale ressurser og erfaringer fra tidligere språklæring i læringsprosessen"},{"nr":8,"tekst":"utforske og beskrive levemåter, tradisjoner og geografi i områder der språket snakkes, og se sammenhenger med egen bakgrunn"},{"nr":9,"tekst":"utforske og beskrive kunstneriske og kulturelle uttrykk fra områder der språket snakkes, og gi uttrykk for egne opplevelser"}]'::jsonb, 9),
-  ('arbeidslivsfag-10', '10', 'Arbeidslivsfag', null, null, '[]'::jsonb, 10),
-  ('utdanningsvalg-10', '10', 'Utdanningsvalg', null, null, '[]'::jsonb, 11),
+  ('arbeidslivsfag-10', '10', 'Arbeidslivsfag', 'ARB01-03', 'https://www.udir.no/lk20/arb01-03/kompetansemaal-og-vurdering/kv107', '[{"nr":1,"tekst":"undersøke behov for varer og tjenester på skolen og i lokalsamfunnet"},{"nr":2,"tekst":"planlegge praktiske og yrkesrettede arbeidsoppdrag"},{"nr":3,"tekst":"produsere og levere varer og tjenester etter kvalitetskrav"},{"nr":4,"tekst":"bruke fagbegreper, arbeidsmetoder, verktøy, materialer og teknologi tilpasset arbeidsoppdrag og begrunne valg"},{"nr":5,"tekst":"samarbeide, fremme forslag og delta i beslutninger i et arbeidsfellesskap"},{"nr":6,"tekst":"ivareta bærekraftige prinsipper i alle deler av arbeidsoppdraget"},{"nr":7,"tekst":"beskrive og vurdere risiko, og følge etiske retningslinjer og arbeidslivets regler i arbeidsoppdraget"},{"nr":8,"tekst":"vurdere sin egen og gruppens arbeidsinnsats, arbeidsprosess og arbeidsoppdragets resultat"}]'::jsonb, 10),
+  ('utdanningsvalg-10', '10', 'Utdanningsvalg', 'UTV01-03', 'https://www.udir.no/lk20/utv01-03/kompetansemaal-og-vurdering/kv106', '[{"nr":1,"tekst":"beskrive egne styrker og egenskaper og interesser, og kunne se dette i sammenheng med utdannings- og yrkesønsker og livsmestring"},{"nr":2,"tekst":"samle, analysere og bruke informasjon om utdanning og arbeid"},{"nr":3,"tekst":"utforske utdanningsmuligheter på varierte måter, og gjøre rede for ulike utdanningsveier og hvilke yrkesområder de kan føre til"},{"nr":4,"tekst":"tilegne seg kunnskap om arbeidslivet gjennom utprøving og utforskning og reflektere over hvordan bærekraftsmål, konjunkturer og teknologi påvirker arbeidsmarked, yrker og arbeidsmåter"},{"nr":5,"tekst":"diskutere konsekvenser av utenforskap og forstå økonomisk og sosial verdi av arbeid på individ- og samfunnsnivå"},{"nr":6,"tekst":"gjøre rede for hva og hvem som kan påvirke karrierevalg og hva dette har å si for egne valg"},{"nr":7,"tekst":"utforske og drøfte kjønnsrelaterte perspektiver i karrierevalg"},{"nr":8,"tekst":"se muligheter og omsette egne idéer til handling og valg, og reflektere sammen med andre over konsekvenser av karrierevalg"},{"nr":9,"tekst":"utvikle og bruke mestringsstrategier for å håndtere overganger og utfordringer relatert til utdanning og karriere"},{"nr":10,"tekst":"tolke stillingsannonser, skrive CV og jobbsøknad og tilegne seg kunnskap om hvordan man gjør et godt jobbintervju"}]'::jsonb, 11),
   ('norsk-vg1', 'vg1', 'Norsk', null, null, '[]'::jsonb, 0),
   ('matematikk-1p', 'vg1', 'Matematikk 1P', null, null, '[]'::jsonb, 1),
   ('matematikk-1t', 'vg1', 'Matematikk 1T', null, null, '[]'::jsonb, 2),
@@ -5539,6 +5539,379 @@ insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, ri
   ('spansk-8:land-og-kultur', 'm07', 'flervalg', 'Hva er La Tomatina?', array['En tomatsuppe', 'En fest der folk kaster tomater på hverandre', 'En sang', 'En fotballklubb']::text[], 1, 'Festen holdes i byen Buñol i august.', false, true, 16);
 insert into public.miniprover (tema_id, minutter) values
   ('spansk-8:land-og-kultur', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Arbeidslivsfag (8): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'arbeidslivsfag-8' and slug not in ('arbeidsoppdrag-og-planlegging', 'hms-og-sikkerhet', 'samarbeid-og-vurdering', 'kvalitet-og-kundeservice');
+
+-- Arbeidslivsfag: Arbeidsoppdrag og planlegging
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('arbeidslivsfag-8:arbeidsoppdrag-og-planlegging', 'arbeidslivsfag-8', 'arbeidsoppdrag-og-planlegging', 'Arbeidsoppdrag og planlegging', 'Hva arbeidslivsfag er, hvordan du finner behov for varer og tjenester, avklarer en bestilling med oppdragsgiveren, lager en arbeidsplan og dokumenterer arbeidet.', array[1, 2]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('arbeidslivsfag-8:arbeidsoppdrag-og-planlegging', '## Hva er arbeidslivsfag?
+
+**Arbeidslivsfag** er et praktisk fag der du lærer ved å gjøre ekte arbeidsoppdrag – for skolen, for lokalsamfunnet eller for kunder. Faget henter innhold fra de **yrkesfaglige utdanningsprogrammene** i videregående skole, for eksempel bygg og anlegg, restaurant og mat, helse og oppvekst, elektro, salg og service og teknologi og industri. Målet er at du skal få erfaring med praktisk arbeid og kjenne på hvordan det er å jobbe.
+
+## Finne behov
+
+Et arbeidsoppdrag starter med et **behov**: Noen trenger en **vare** – noe fysisk, som en benk, en kake eller en plakat – eller en **tjeneste** – noe man gjør for andre, som å servere, reparere eller passe barn. Du kan finne behov ved å
+
+- spørre lærere, elever og ansatte på skolen
+- snakke med bedrifter, barnehager, sykehjem eller lag og foreninger i nærmiljøet
+- lage en enkel **spørreundersøkelse**
+- se etter ting som er ødelagt eller mangler
+
+## Oppdragsgiver og bestilling
+
+Den som ønsker varen eller tjenesten, er **oppdragsgiveren** eller **kunden**. Før dere starter, må dere avklare en **bestilling**: Hva skal lages? Hvor mange? Når skal det være ferdig? Hvilke **kvalitetskrav** gjelder? Hva kan det koste?
+
+## Planlegge arbeidsoppdraget
+
+En god **arbeidsplan** svarer på
+
+- **Hva** skal gjøres? Del oppdraget opp i mindre **arbeidsoppgaver**.
+- **Hvem** gjør hva? Fordel roller og ansvar.
+- **Når** skal det gjøres? Lag en **tidsplan** med frister.
+- **Hvordan**? Hvilke **verktøy, materialer og metoder** trengs?
+- **Hva koster det?** Lag et enkelt **budsjett** med utgifter til materialer.
+- **Hvilken risiko** finnes, og hvordan kan den reduseres?
+
+En **arbeidstegning**, en **oppskrift** eller en **materialliste** er også en del av planen.
+
+## Dokumentasjon
+
+Underveis dokumenterer du arbeidet med **logg**, bilder eller film. Loggen viser hva du har gjort, hvilke valg du har tatt, og hva du har lært. Dette er nyttig når du skal vurdere arbeidet til slutt, og det ligner på hvordan mange fagarbeidere dokumenterer jobbene sine.
+
+## Hvorfor planlegge?
+
+God planlegging sparer tid og penger, gir færre feil og gjør det lettere å samarbeide. I arbeidslivet er planlegging en viktig ferdighet i alle yrker – fra kokken som planlegger menyen, til snekkeren som bestiller materialer.', '{"label":"Arbeidsoppdrag og planlegging","children":[{"label":"Faget","children":[{"label":"Praktisk arbeid"},{"label":"Yrkesfag"},{"label":"Ekte oppdrag"}]},{"label":"Behov","children":[{"label":"Varer"},{"label":"Tjenester"},{"label":"Spørre og undersøke"}]},{"label":"Bestilling","children":[{"label":"Oppdragsgiver"},{"label":"Antall og frist"},{"label":"Kvalitetskrav"}]},{"label":"Arbeidsplan","children":[{"label":"Oppgaver og roller"},{"label":"Tidsplan"},{"label":"Verktøy og materialer"},{"label":"Budsjett og risiko"}]},{"label":"Dokumentasjon","children":[{"label":"Logg"},{"label":"Bilder og film"},{"label":"Refleksjon"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'arbeidslivsfag-8:arbeidsoppdrag-og-planlegging';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('arbeidslivsfag-8:arbeidsoppdrag-og-planlegging', 'Arbeidslivsfag', 'Praktisk fag der man lærer gjennom ekte arbeidsoppdrag.', 0),
+  ('arbeidslivsfag-8:arbeidsoppdrag-og-planlegging', 'Yrkesfaglige utdanningsprogram', 'Utdanningsprogram i videregående som fører fram mot et yrke.', 1),
+  ('arbeidslivsfag-8:arbeidsoppdrag-og-planlegging', 'Behov', 'Noe noen trenger, som en vare eller en tjeneste.', 2),
+  ('arbeidslivsfag-8:arbeidsoppdrag-og-planlegging', 'Vare', 'Noe fysisk som lages eller selges, som en kake eller en benk.', 3),
+  ('arbeidslivsfag-8:arbeidsoppdrag-og-planlegging', 'Tjeneste', 'Noe man gjør for andre, som å servere, reparere eller passe barn.', 4),
+  ('arbeidslivsfag-8:arbeidsoppdrag-og-planlegging', 'Oppdragsgiver', 'Den som ønsker varen eller tjenesten, kunden.', 5),
+  ('arbeidslivsfag-8:arbeidsoppdrag-og-planlegging', 'Bestilling', 'Avklaring av hva som skal lages, hvor mange, når og til hvilken kvalitet.', 6),
+  ('arbeidslivsfag-8:arbeidsoppdrag-og-planlegging', 'Kvalitetskrav', 'Krav til hvor godt produktet eller tjenesten skal være.', 7),
+  ('arbeidslivsfag-8:arbeidsoppdrag-og-planlegging', 'Arbeidsplan', 'Plan som viser hva som skal gjøres, av hvem, når og hvordan.', 8),
+  ('arbeidslivsfag-8:arbeidsoppdrag-og-planlegging', 'Tidsplan', 'Oversikt over når oppgavene skal gjøres, med frister.', 9),
+  ('arbeidslivsfag-8:arbeidsoppdrag-og-planlegging', 'Budsjett', 'Oversikt over hva oppdraget vil koste.', 10),
+  ('arbeidslivsfag-8:arbeidsoppdrag-og-planlegging', 'Materialliste', 'Oversikt over materialene som trengs.', 11),
+  ('arbeidslivsfag-8:arbeidsoppdrag-og-planlegging', 'Arbeidstegning', 'Tegning som viser hvordan noe skal lages, med mål.', 12),
+  ('arbeidslivsfag-8:arbeidsoppdrag-og-planlegging', 'Logg', 'Notater om hva man har gjort, valgt og lært underveis.', 13),
+  ('arbeidslivsfag-8:arbeidsoppdrag-og-planlegging', 'Dokumentasjon', 'Å vise arbeidet med logg, bilder eller film.', 14);
+delete from public.quiz_sporsmal where tema_id = 'arbeidslivsfag-8:arbeidsoppdrag-og-planlegging';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('arbeidslivsfag-8:arbeidsoppdrag-og-planlegging', 'q01', 'flervalg', 'Hva er forskjellen på en vare og en tjeneste?', array['En vare er gratis, en tjeneste koster penger', 'En vare er noe fysisk, en tjeneste er noe man gjør for andre', 'Det er ingen forskjell', 'En tjeneste er alltid mat']::text[], 1, 'En kake er en vare, mens å servere kaka er en tjeneste.', true, true, 0),
+  ('arbeidslivsfag-8:arbeidsoppdrag-og-planlegging', 'q02', 'flervalg', 'Hvem er oppdragsgiveren?', array['Læreren som gir karakter', 'Den som utfører arbeidet', 'Rektor', 'Den som ønsker varen eller tjenesten']::text[], 3, 'Oppdragsgiveren kalles også kunden.', true, true, 1),
+  ('arbeidslivsfag-8:arbeidsoppdrag-og-planlegging', 'q03', 'flervalg', 'Hvilket spørsmål hører til en arbeidsplan?', array['Hvem gjør hva, og når?', 'Hva er favorittfilmen din?', 'Hvor bor oppdragsgiveren?', 'Hvor gammel er læreren?']::text[], 0, 'Arbeidsplanen fordeler oppgaver og setter frister.', true, true, 2),
+  ('arbeidslivsfag-8:arbeidsoppdrag-og-planlegging', 'q04', 'flervalg', 'Hvordan kan du finne ut hvilke behov som finnes på skolen?', array['Gjette', 'Kopiere et annet prosjekt', 'Spørre elever og ansatte eller lage en spørreundersøkelse', 'Vente til noen klager']::text[], 2, 'Å spørre gir et bedre grunnlag for oppdraget.', true, true, 3),
+  ('arbeidslivsfag-8:arbeidsoppdrag-og-planlegging', 'q05', 'flervalg', 'Hva er et budsjett i et arbeidsoppdrag?', array['En tidsplan', 'En tegning', 'En oversikt over hva oppdraget vil koste', 'En logg']::text[], 2, 'Budsjettet viser utgiftene til blant annet materialer.', true, true, 4),
+  ('arbeidslivsfag-8:arbeidsoppdrag-og-planlegging', 'q06', 'flervalg', 'Hvorfor bør du føre logg?', array['For å dokumentere hva du har gjort og lært', 'For å slippe å jobbe', 'Fordi det er gøy å skrive', 'For å få høyere lønn']::text[], 0, 'Loggen er nyttig når arbeidet skal vurderes.', true, true, 5),
+  ('arbeidslivsfag-8:arbeidsoppdrag-og-planlegging', 'q07', 'flervalg', 'Hva er kvalitetskrav?', array['Prisen på varen', 'Antall arbeidere', 'Tidspunktet for levering', 'Krav til hvor godt produktet eller tjenesten skal være']::text[], 3, 'Kvalitetskravene avtales med oppdragsgiveren.', true, true, 6),
+  ('arbeidslivsfag-8:arbeidsoppdrag-og-planlegging', 'q08', 'flervalg', 'Hvilke utdanningsprogram henter arbeidslivsfaget innhold fra?', array['Studiespesialisering', 'De yrkesfaglige utdanningsprogrammene', 'Universitetet', 'Barnehagen']::text[], 1, 'For eksempel restaurant og mat eller bygg og anlegg.', true, true, 7),
+  ('arbeidslivsfag-8:arbeidsoppdrag-og-planlegging', 'q09', 'flervalg', 'Hva er en materialliste?', array['En oversikt over materialene som trengs', 'En liste over kunder', 'En lønnsslipp', 'En tidsplan']::text[], 0, 'Materiallisten brukes også når man lager budsjett.', true, false, 8),
+  ('arbeidslivsfag-8:arbeidsoppdrag-og-planlegging', 'q10', 'flervalg', 'Hvorfor er planlegging viktig?', array['Det gir flere feil', 'Det gjør arbeidet dyrere', 'Det er bare for lærere', 'Det sparer tid og penger og gir færre feil']::text[], 3, 'God planlegging er viktig i alle yrker.', true, false, 9),
+  ('arbeidslivsfag-8:arbeidsoppdrag-og-planlegging', 'm01', 'sant-usant', 'Å servere mat er et eksempel på en tjeneste.', array['Sant', 'Usant']::text[], 0, 'En tjeneste er noe man gjør for andre.', false, true, 10),
+  ('arbeidslivsfag-8:arbeidsoppdrag-og-planlegging', 'm02', 'sant-usant', 'Et arbeidsoppdrag trenger ingen frist.', array['Sant', 'Usant']::text[], 1, 'En frist er viktig for at kunden skal få det de trenger i tide.', false, true, 11),
+  ('arbeidslivsfag-8:arbeidsoppdrag-og-planlegging', 'm03', 'sant-usant', 'Bilder og film kan brukes til å dokumentere arbeidet.', array['Sant', 'Usant']::text[], 0, 'Dokumentasjonen viser arbeidsprosessen.', false, true, 12),
+  ('arbeidslivsfag-8:arbeidsoppdrag-og-planlegging', 'm04', 'sant-usant', 'Arbeidslivsfag er et rent teorifag uten praktisk arbeid.', array['Sant', 'Usant']::text[], 1, 'Faget er praktisk og bygger på ekte arbeidsoppdrag.', false, true, 13),
+  ('arbeidslivsfag-8:arbeidsoppdrag-og-planlegging', 'm05', 'flervalg', 'Hva er en bestilling?', array['En avklaring av hva som skal lages, hvor mange, når og til hvilken kvalitet', 'En faktura', 'En klage', 'En kvittering']::text[], 0, 'Bestillingen er grunnlaget for hele oppdraget.', false, true, 14),
+  ('arbeidslivsfag-8:arbeidsoppdrag-og-planlegging', 'm06', 'flervalg', 'Hva er et eksempel på en vare?', array['Å klippe hår', 'En fuglekasse', 'Å passe barn', 'Å vaske en bil']::text[], 1, 'De andre alternativene er tjenester.', false, true, 15),
+  ('arbeidslivsfag-8:arbeidsoppdrag-og-planlegging', 'm07', 'flervalg', 'Hva er en arbeidstegning?', array['En tegning fra kunstfag', 'Et bilde av arbeiderne', 'En tegning som viser hvordan noe skal lages, med mål', 'En tegneserie']::text[], 2, 'Arbeidstegninger brukes blant annet i bygg og produksjon.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('arbeidslivsfag-8:arbeidsoppdrag-og-planlegging', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Arbeidslivsfag: HMS og sikkerhet
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('arbeidslivsfag-8:hms-og-sikkerhet', 'arbeidslivsfag-8', 'hms-og-sikkerhet', 'HMS og sikkerhet', 'Hva HMS er, hvem som har ansvar for arbeidsmiljøet, hvordan du gjør en risikovurdering, verneutstyr, farlige stoffer, ergonomi, avvik og nødnumre.', array[7, 4]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('arbeidslivsfag-8:hms-og-sikkerhet', '## Hva er HMS?
+
+**HMS** står for **helse, miljø og sikkerhet**. Målet er at alle skal gå like friske hjem fra jobb som de kom. I Norge regulerer **arbeidsmiljøloven** arbeidsmiljøet. Den sier at arbeidsmiljøet skal være **fullt forsvarlig**, både fysisk og psykisk.
+
+- **Arbeidsgiveren** har hovedansvaret for HMS.
+- **Arbeidstakerne** har plikt til å **medvirke**: følge rutiner, bruke verneutstyr og si fra om farer.
+- **Verneombudet** er en arbeidstaker som skal ivareta de ansattes interesser i saker om arbeidsmiljø.
+- **Arbeidstilsynet** fører tilsyn med at reglene følges.
+
+## Risikovurdering
+
+Før et arbeidsoppdrag bør du gjøre en **risikovurdering**:
+
+1. **Hva kan gå galt?** For eksempel kutt, brannskader, fall eller støy.
+2. **Hvor sannsynlig** er det at det skjer?
+3. **Hvor alvorlig** blir det hvis det skjer?
+4. **Hvilke tiltak** kan redusere risikoen?
+
+Sannsynlighet og konsekvens kan settes inn i en **risikomatrise**. Høy risiko krever tiltak før arbeidet starter. Det beste er å **fjerne faren**, for eksempel ved å bytte til et tryggere verktøy eller stoff. Hvis det ikke går, bruker man **personlig verneutstyr**.
+
+## Personlig verneutstyr
+
+**Vernebriller**, **hørselvern**, **hansker**, **vernesko**, **hjelm**, **refleksvest** og **støvmaske**, og på kjøkkenet **forkle** og **hårnett**. Verneutstyret må brukes riktig og være i god stand.
+
+## Farlige stoffer
+
+Kjemikalier merkes med **farepiktogrammer** – symboler i en rød rombe som viser om stoffet for eksempel er etsende, brannfarlig eller giftig. Et **sikkerhetsdatablad** gir informasjon om farene ved et produkt og om hvordan det skal håndteres og oppbevares.
+
+## Ergonomi
+
+**Ergonomi** handler om å tilpasse arbeidet til kroppen. Når du løfter noe tungt, skal du holde **ryggen rett**, **bøye knærne** og holde lasten **nær kroppen**. Varier arbeidsstillingen og ta pauser.
+
+## Avvik og nesten-ulykker
+
+Et **avvik** er noe som ikke er som det skal, for eksempel et ødelagt verktøy eller et glatt gulv. En **nesten-ulykke** er en hendelse som kunne ført til skade. Alle avvik skal **meldes fra om**, slik at man kan hindre at ulykker skjer.
+
+## Brann og nødnumre
+
+Kjenn til **rømningsveiene** og vit hvor **brannslukningsapparatet** står. I Norge ringer du **110** ved brann, **112** til politiet og **113** når du trenger medisinsk nødhjelp.
+
+## Etikk og regler
+
+I arbeidslivet gjelder også **etiske retningslinjer**: Du skal være ærlig, behandle kunder og kolleger med respekt og overholde **taushetsplikt** der den gjelder, for eksempel i helse- og omsorgsyrker.', '{"label":"HMS og sikkerhet","children":[{"label":"HMS","children":[{"label":"Arbeidsmiljøloven"},{"label":"Arbeidsgiver og arbeidstaker"},{"label":"Verneombud"},{"label":"Arbeidstilsynet"}]},{"label":"Risikovurdering","children":[{"label":"Hva kan gå galt?"},{"label":"Sannsynlighet"},{"label":"Konsekvens"},{"label":"Tiltak"}]},{"label":"Verneutstyr","children":[{"label":"Briller og hørselvern"},{"label":"Hansker og vernesko"},{"label":"Hjelm og refleksvest"}]},{"label":"Farer","children":[{"label":"Farepiktogram"},{"label":"Sikkerhetsdatablad"},{"label":"Ergonomi"}]},{"label":"Når noe skjer","children":[{"label":"Avvik og nesten-ulykker"},{"label":"Rømningsveier"},{"label":"110, 112, 113"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'arbeidslivsfag-8:hms-og-sikkerhet';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('arbeidslivsfag-8:hms-og-sikkerhet', 'HMS', 'Helse, miljø og sikkerhet.', 0),
+  ('arbeidslivsfag-8:hms-og-sikkerhet', 'Arbeidsmiljøloven', 'Loven som regulerer arbeidsmiljøet i Norge.', 1),
+  ('arbeidslivsfag-8:hms-og-sikkerhet', 'Verneombud', 'Arbeidstaker som ivaretar de ansattes interesser i saker om arbeidsmiljø.', 2),
+  ('arbeidslivsfag-8:hms-og-sikkerhet', 'Arbeidstilsynet', 'Myndigheten som fører tilsyn med at arbeidsmiljøloven følges.', 3),
+  ('arbeidslivsfag-8:hms-og-sikkerhet', 'Risikovurdering', 'Å finne ut hva som kan gå galt, hvor sannsynlig og alvorlig det er, og hva som kan gjøres.', 4),
+  ('arbeidslivsfag-8:hms-og-sikkerhet', 'Risikomatrise', 'Tabell som kombinerer sannsynlighet og konsekvens for å vurdere risiko.', 5),
+  ('arbeidslivsfag-8:hms-og-sikkerhet', 'Personlig verneutstyr', 'Utstyr som beskytter den som jobber, som hansker, hjelm og vernebriller.', 6),
+  ('arbeidslivsfag-8:hms-og-sikkerhet', 'Hørselvern', 'Verneutstyr som beskytter hørselen mot støy.', 7),
+  ('arbeidslivsfag-8:hms-og-sikkerhet', 'Farepiktogram', 'Symbol i en rød rombe som viser at et stoff er farlig.', 8),
+  ('arbeidslivsfag-8:hms-og-sikkerhet', 'Sikkerhetsdatablad', 'Dokument med informasjon om farene ved et kjemisk produkt og hvordan det skal håndteres.', 9),
+  ('arbeidslivsfag-8:hms-og-sikkerhet', 'Ergonomi', 'Å tilpasse arbeidet til kroppen for å unngå belastningsskader.', 10),
+  ('arbeidslivsfag-8:hms-og-sikkerhet', 'Riktig løfteteknikk', 'Rett rygg, bøyde knær og lasten nær kroppen.', 11),
+  ('arbeidslivsfag-8:hms-og-sikkerhet', 'Avvik', 'Noe som ikke er som det skal, og som må meldes fra om.', 12),
+  ('arbeidslivsfag-8:hms-og-sikkerhet', 'Nesten-ulykke', 'Hendelse som kunne ført til skade, men ikke gjorde det.', 13),
+  ('arbeidslivsfag-8:hms-og-sikkerhet', '110, 112, 113', 'Nødnumre i Norge: brann, politi og medisinsk nødhjelp.', 14);
+delete from public.quiz_sporsmal where tema_id = 'arbeidslivsfag-8:hms-og-sikkerhet';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('arbeidslivsfag-8:hms-og-sikkerhet', 'q01', 'flervalg', 'Hva står HMS for?', array['Hygiene, mat og service', 'Hjelp, mestring og samarbeid', 'Helse, miljø og sikkerhet', 'Hovedregler, metoder og system']::text[], 2, 'HMS-arbeid skal hindre skader og sykdom på jobb.', true, true, 0),
+  ('arbeidslivsfag-8:hms-og-sikkerhet', 'q02', 'flervalg', 'Hva er det første steget i en risikovurdering?', array['Å finne ut hva som kan gå galt', 'Å kjøpe verneutstyr', 'Å starte arbeidet', 'Å ringe 113']::text[], 0, 'Deretter vurderer man sannsynlighet, konsekvens og tiltak.', true, true, 1),
+  ('arbeidslivsfag-8:hms-og-sikkerhet', 'q03', 'flervalg', 'Hvilket nummer ringer du for medisinsk nødhjelp i Norge?', array['110', '112', '911', '113']::text[], 3, '110 er brann og 112 er politi.', true, true, 2),
+  ('arbeidslivsfag-8:hms-og-sikkerhet', 'q04', 'flervalg', 'Hva er et verneombud?', array['En lege på arbeidsplassen', 'En arbeidstaker som skal ivareta de ansattes interesser i saker om arbeidsmiljø', 'Sjefen', 'En politibetjent']::text[], 1, 'Verneombudet velges av de ansatte.', true, true, 3),
+  ('arbeidslivsfag-8:hms-og-sikkerhet', 'q05', 'flervalg', 'Hvordan bør du løfte noe tungt?', array['Med rett rygg og strake bein', 'Med bøyd rygg', 'Så raskt som mulig', 'Med rett rygg, bøyde knær og lasten nær kroppen']::text[], 3, 'Med god løfteteknikk skåner du ryggen.', true, true, 4),
+  ('arbeidslivsfag-8:hms-og-sikkerhet', 'q06', 'flervalg', 'Hva viser et farepiktogram?', array['Prisen på et produkt', 'Hvem som har laget produktet', 'At et stoff kan være farlig, og hvilken type fare', 'Hvor produktet skal stå']::text[], 2, 'Piktogrammene har en rød ramme formet som en rombe.', true, true, 5),
+  ('arbeidslivsfag-8:hms-og-sikkerhet', 'q07', 'flervalg', 'Hva er en nesten-ulykke?', array['En hendelse som kunne ført til skade, men ikke gjorde det', 'En ulykke med mange skadde', 'En øvelse', 'En brannalarm']::text[], 0, 'Nesten-ulykker skal meldes, slik at man kan hindre ekte ulykker.', true, true, 6),
+  ('arbeidslivsfag-8:hms-og-sikkerhet', 'q08', 'flervalg', 'Hvem har hovedansvaret for HMS på en arbeidsplass?', array['Kundene', 'Arbeidsgiveren', 'Verneombudet alene', 'Ingen']::text[], 1, 'Arbeidstakerne har likevel plikt til å medvirke.', true, true, 7),
+  ('arbeidslivsfag-8:hms-og-sikkerhet', 'q09', 'flervalg', 'Når bør personlig verneutstyr brukes?', array['Aldri', 'Bare når sjefen ser på', 'Bare på fredager', 'Når faren ikke kan fjernes på annen måte']::text[], 3, 'Det beste er å fjerne faren. Verneutstyr er neste løsning.', true, false, 8),
+  ('arbeidslivsfag-8:hms-og-sikkerhet', 'q10', 'flervalg', 'Hva bør du gjøre hvis du oppdager noe farlig på arbeidsplassen?', array['Melde fra om avviket', 'Ignorere det', 'Fikse det selv uten å si noe', 'Vente til noen skader seg']::text[], 0, 'Når avvik meldes, kan de rettes opp.', true, false, 9),
+  ('arbeidslivsfag-8:hms-og-sikkerhet', 'm01', 'sant-usant', 'Alle arbeidstakere har plikt til å medvirke i HMS-arbeidet.', array['Sant', 'Usant']::text[], 0, 'De skal følge rutiner, bruke verneutstyr og si fra om farer.', false, true, 10),
+  ('arbeidslivsfag-8:hms-og-sikkerhet', 'm02', 'sant-usant', 'Hørselvern beskytter øynene.', array['Sant', 'Usant']::text[], 1, 'Hørselvern beskytter mot støy. Vernebriller beskytter øynene.', false, true, 11),
+  ('arbeidslivsfag-8:hms-og-sikkerhet', 'm03', 'sant-usant', 'Arbeidstilsynet fører tilsyn med at arbeidsmiljøloven følges.', array['Sant', 'Usant']::text[], 0, 'Arbeidstilsynet kan gi pålegg og stanse farlig arbeid.', false, true, 12),
+  ('arbeidslivsfag-8:hms-og-sikkerhet', 'm04', 'sant-usant', 'En risikovurdering gjøres først etter at en ulykke har skjedd.', array['Sant', 'Usant']::text[], 1, 'Risikovurderingen gjøres før arbeidet starter, for å forebygge ulykker.', false, true, 13),
+  ('arbeidslivsfag-8:hms-og-sikkerhet', 'm05', 'flervalg', 'Hva er ergonomi?', array['Å tilpasse arbeidet til kroppen for å unngå belastningsskader', 'Økonomi på arbeidsplassen', 'Et verktøy', 'En type verneutstyr']::text[], 0, 'God ergonomi forebygger vondt i rygg, nakke og skuldre.', false, true, 14),
+  ('arbeidslivsfag-8:hms-og-sikkerhet', 'm06', 'flervalg', 'Hvilket nummer ringer du ved brann i Norge?', array['113', '110', '112', '911']::text[], 1, '110 går til brannvesenet.', false, true, 15),
+  ('arbeidslivsfag-8:hms-og-sikkerhet', 'm07', 'flervalg', 'Hva står i et sikkerhetsdatablad?', array['Lønna til de ansatte', 'Arbeidstiden', 'Informasjon om farene ved et kjemisk produkt og hvordan det skal håndteres', 'Menyen i kantina']::text[], 2, 'Sikkerhetsdatablad skal finnes for farlige kjemikalier.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('arbeidslivsfag-8:hms-og-sikkerhet', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Arbeidslivsfag: Samarbeid og vurdering
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('arbeidslivsfag-8:samarbeid-og-vurdering', 'arbeidslivsfag-8', 'samarbeid-og-vurdering', 'Samarbeid og vurdering', 'Hvordan et godt arbeidsfellesskap fungerer, roller og ansvar, kommunikasjon, møter og beslutninger, konflikthåndtering, medbestemmelse og hvordan du vurderer arbeidsinnsats, prosess og resultat.', array[5, 8]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('arbeidslivsfag-8:samarbeid-og-vurdering', '## Et arbeidsfellesskap
+
+I arbeidslivet jobber de fleste sammen med andre. Et godt **arbeidsfellesskap** preges av **samarbeid**, **respekt** og **tydelig kommunikasjon**. I arbeidslivsfag øver du på dette gjennom arbeidsoppdrag i grupper.
+
+## Roller og ansvar
+
+Når en gruppe fordeler **roller**, vet alle hva de har **ansvar** for. Eksempler på roller er
+
+- **leder** – holder oversikt og fordeler oppgaver
+- **sekretær** – skriver referat og logg
+- **innkjøper** – har ansvar for materialer og budsjett
+- **kvalitetsansvarlig** – sjekker at produktet holder kravene
+- **tidtaker** – passer på tidsplanen
+
+## Kommunikasjon
+
+- **Aktiv lytting**: Lytt oppmerksomt, still spørsmål og vis at du forstår.
+- Gi **klare beskjeder**: Hva skal gjøres, av hvem og når?
+- Gi og ta imot **tilbakemeldinger** på en saklig og vennlig måte.
+
+## Møter og beslutninger
+
+Et **møte** har ofte en **dagsorden** – en liste over saker som skal tas opp – og det skrives et **referat** med det som blir bestemt. Beslutninger kan tas på ulike måter:
+
+- **Avstemning**: Flertallet bestemmer. Det går raskt, men noen kan føle seg overkjørt.
+- **Konsensus**: Alle blir enige. Det gir eierskap, men kan ta tid.
+- **Lederen bestemmer** etter å ha hørt på gruppa.
+
+Det viktigste er at alle får **fremme forslag**, og at beslutningene blir fulgt opp.
+
+## Konflikthåndtering
+
+Uenighet er vanlig og kan føre til bedre løsninger. For å unngå at uenighet blir til konflikt, er det lurt å
+
+- ta opp problemer **tidlig**
+- snakke om **saken**, ikke personen
+- bruke **jeg-budskap**: «Jeg blir stresset når …»
+- finne et **kompromiss** der begge parter gir litt
+
+## Medbestemmelse i arbeidslivet
+
+I Norge har arbeidstakere rett til **medbestemmelse** på arbeidsplassen. Mange er med i en **fagforening**, og en **tillitsvalgt** representerer arbeidstakerne overfor ledelsen.
+
+## Vurdere arbeidet
+
+Etter et arbeidsoppdrag vurderer man både **produktet**, **prosessen** og **innsatsen**:
+
+- **Egenvurdering**: Hvordan var min innsats? Hva lærte jeg?
+- **Gruppevurdering**: Hvordan fungerte samarbeidet?
+- **Kvalitetskontroll**: Holder produktet kvalitetskravene?
+- **Tilbakemelding fra kunden**: Er oppdragsgiveren fornøyd?
+
+Bruk **vurderingskriterier** – beskrivelser av hva som kjennetegner godt arbeid – og still spørsmålene: *Hva gikk bra? Hva kan forbedres? Hva tar vi med oss til neste oppdrag?*', '{"label":"Samarbeid og vurdering","children":[{"label":"Fellesskap","children":[{"label":"Samarbeid"},{"label":"Respekt"},{"label":"Kommunikasjon"}]},{"label":"Roller","children":[{"label":"Leder"},{"label":"Sekretær"},{"label":"Innkjøper"},{"label":"Kvalitetsansvarlig"}]},{"label":"Møter og beslutninger","children":[{"label":"Dagsorden og referat"},{"label":"Avstemning"},{"label":"Konsensus"}]},{"label":"Konflikter","children":[{"label":"Ta det tidlig"},{"label":"Sak, ikke person"},{"label":"Jeg-budskap"},{"label":"Kompromiss"}]},{"label":"Vurdering","children":[{"label":"Egenvurdering"},{"label":"Gruppevurdering"},{"label":"Kvalitetskontroll"},{"label":"Kundens tilbakemelding"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'arbeidslivsfag-8:samarbeid-og-vurdering';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('arbeidslivsfag-8:samarbeid-og-vurdering', 'Arbeidsfellesskap', 'De man jobber sammen med, og måten man samarbeider på.', 0),
+  ('arbeidslivsfag-8:samarbeid-og-vurdering', 'Rolle', 'En bestemt oppgave og et ansvar i en gruppe, som leder eller sekretær.', 1),
+  ('arbeidslivsfag-8:samarbeid-og-vurdering', 'Ansvar', 'Det man har plikt til å sørge for.', 2),
+  ('arbeidslivsfag-8:samarbeid-og-vurdering', 'Aktiv lytting', 'Å lytte oppmerksomt og vise at man forstår.', 3),
+  ('arbeidslivsfag-8:samarbeid-og-vurdering', 'Tilbakemelding', 'Kommentar om hva som fungerer og hva som kan bli bedre.', 4),
+  ('arbeidslivsfag-8:samarbeid-og-vurdering', 'Dagsorden', 'Liste over saker som skal tas opp på et møte.', 5),
+  ('arbeidslivsfag-8:samarbeid-og-vurdering', 'Referat', 'Skriftlig oversikt over hva som ble bestemt på et møte.', 6),
+  ('arbeidslivsfag-8:samarbeid-og-vurdering', 'Avstemning', 'Beslutning der flertallet bestemmer.', 7),
+  ('arbeidslivsfag-8:samarbeid-og-vurdering', 'Konsensus', 'At alle blir enige.', 8),
+  ('arbeidslivsfag-8:samarbeid-og-vurdering', 'Kompromiss', 'En løsning der begge parter gir litt.', 9),
+  ('arbeidslivsfag-8:samarbeid-og-vurdering', 'Jeg-budskap', 'Å si hvordan man selv opplever noe, uten å anklage.', 10),
+  ('arbeidslivsfag-8:samarbeid-og-vurdering', 'Tillitsvalgt', 'Person som representerer arbeidstakerne overfor ledelsen.', 11),
+  ('arbeidslivsfag-8:samarbeid-og-vurdering', 'Egenvurdering', 'Å vurdere sitt eget arbeid og sin egen innsats.', 12),
+  ('arbeidslivsfag-8:samarbeid-og-vurdering', 'Evaluering', 'Vurdering av hva som gikk bra og hva som kan forbedres.', 13),
+  ('arbeidslivsfag-8:samarbeid-og-vurdering', 'Vurderingskriterier', 'Beskrivelser av hva som kjennetegner godt arbeid.', 14);
+delete from public.quiz_sporsmal where tema_id = 'arbeidslivsfag-8:samarbeid-og-vurdering';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('arbeidslivsfag-8:samarbeid-og-vurdering', 'q01', 'flervalg', 'Hva er en dagsorden?', array['En liste over sakene som skal tas opp på et møte', 'En timeplan for skolen', 'En kalender', 'En regel for pauser']::text[], 0, 'Dagsordenen sendes gjerne ut før møtet.', true, true, 0),
+  ('arbeidslivsfag-8:samarbeid-og-vurdering', 'q02', 'flervalg', 'Hva betyr konsensus?', array['At lederen bestemmer', 'At flertallet vinner', 'At alle blir enige', 'At man trekker lodd']::text[], 2, 'Konsensus gir eierskap, men kan ta tid.', true, true, 1),
+  ('arbeidslivsfag-8:samarbeid-og-vurdering', 'q03', 'flervalg', 'Hva er et referat?', array['En invitasjon', 'En skriftlig oversikt over hva som ble bestemt på et møte', 'En klage', 'En tegning']::text[], 1, 'Referatet gjør det lett å huske og følge opp beslutninger.', true, true, 2),
+  ('arbeidslivsfag-8:samarbeid-og-vurdering', 'q04', 'flervalg', 'Hva er en god måte å løse en konflikt i gruppa på?', array['Å ignorere den', 'Å snakke bak ryggen på hverandre', 'Å slutte i gruppa', 'Å ta det tidlig, snakke om saken og finne en løsning sammen']::text[], 3, 'Konflikter blir ofte større hvis de ikke tas opp.', true, true, 3),
+  ('arbeidslivsfag-8:samarbeid-og-vurdering', 'q05', 'flervalg', 'Hva er en fordel ved å fordele roller i en gruppe?', array['Ingen trenger å jobbe', 'Alle vet hva de har ansvar for', 'Det blir flere konflikter', 'Arbeidet tar lengre tid']::text[], 1, 'Tydelige roller gir bedre oversikt.', true, true, 4),
+  ('arbeidslivsfag-8:samarbeid-og-vurdering', 'q06', 'flervalg', 'Hva er en tillitsvalgt?', array['Sjefen i bedriften', 'En kunde', 'En lærer', 'En person som representerer arbeidstakerne overfor ledelsen']::text[], 3, 'Den tillitsvalgte velges av medlemmene i fagforeningen.', true, true, 5),
+  ('arbeidslivsfag-8:samarbeid-og-vurdering', 'q07', 'flervalg', 'Hva er egenvurdering?', array['Å vurdere sitt eget arbeid og sin egen innsats', 'Å gi andre karakter', 'Å la kunden vurdere', 'Å vurdere læreren']::text[], 0, 'Egenvurdering hjelper deg å se hva du kan forbedre.', true, true, 6),
+  ('arbeidslivsfag-8:samarbeid-og-vurdering', 'q08', 'flervalg', 'Hvilket spørsmål hører til en evaluering av et arbeidsoppdrag?', array['Hvor mye tjente sjefen?', 'Hvem kom sist?', 'Hva gikk bra, og hva kan gjøres bedre neste gang?', 'Hvilken farge hadde verktøyet?']::text[], 2, 'Evaluering handler om å lære til neste gang.', true, true, 7),
+  ('arbeidslivsfag-8:samarbeid-og-vurdering', 'q09', 'flervalg', 'Hva er aktiv lytting?', array['Å høre på musikk mens man jobber', 'Å snakke mest mulig', 'Å avbryte for å vise engasjement', 'Å lytte oppmerksomt og vise at man forstår']::text[], 3, 'Aktiv lytting gjør samarbeidet bedre.', true, false, 8),
+  ('arbeidslivsfag-8:samarbeid-og-vurdering', 'q10', 'flervalg', 'Hva er et kompromiss?', array['At én part får alt', 'En løsning der begge parter gir litt', 'At ingen blir enige', 'At man lar være å bestemme']::text[], 1, 'Kompromisser er vanlige både i arbeidslivet og i politikken.', true, false, 9),
+  ('arbeidslivsfag-8:samarbeid-og-vurdering', 'm01', 'sant-usant', 'Alle i en arbeidsgruppe bør få komme med forslag.', array['Sant', 'Usant']::text[], 0, 'Flere ideer gir ofte bedre løsninger.', false, true, 10),
+  ('arbeidslivsfag-8:samarbeid-og-vurdering', 'm02', 'sant-usant', 'Konflikter forsvinner alltid av seg selv.', array['Sant', 'Usant']::text[], 1, 'Konflikter må ofte tas opp for å bli løst.', false, true, 11),
+  ('arbeidslivsfag-8:samarbeid-og-vurdering', 'm03', 'sant-usant', 'Tilbakemelding fra kunden kan brukes til å vurdere kvaliteten på arbeidet.', array['Sant', 'Usant']::text[], 0, 'Kunden vet om produktet dekker behovet.', false, true, 12),
+  ('arbeidslivsfag-8:samarbeid-og-vurdering', 'm04', 'sant-usant', 'Evaluering skjer bare før arbeidet starter.', array['Sant', 'Usant']::text[], 1, 'Evaluering skjer underveis og etter at arbeidet er ferdig.', false, true, 13),
+  ('arbeidslivsfag-8:samarbeid-og-vurdering', 'm05', 'flervalg', 'Hva er vurderingskriterier?', array['Beskrivelser av hva som kjennetegner godt arbeid', 'En liste over materialer', 'En tidsplan', 'Et budsjett']::text[], 0, 'Kriteriene gjør vurderingen tydelig og rettferdig.', false, true, 14),
+  ('arbeidslivsfag-8:samarbeid-og-vurdering', 'm06', 'flervalg', 'Hva er et jeg-budskap?', array['Å snakke om seg selv hele tiden', 'Å si hvordan man selv opplever noe, uten å anklage', 'Å bestemme alt selv', 'Å skrive dagbok']::text[], 1, 'For eksempel: «Jeg blir stresset når fristen er så kort.»', false, true, 15),
+  ('arbeidslivsfag-8:samarbeid-og-vurdering', 'm07', 'flervalg', 'Hva er en fordel med demokratiske beslutninger i en gruppe?', array['Det går alltid raskest', 'Én person får bestemme', 'Flere føler eierskap til beslutningen', 'Ingen må si sin mening']::text[], 2, 'Når alle har vært med, er det lettere å følge beslutningen.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('arbeidslivsfag-8:samarbeid-og-vurdering', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Arbeidslivsfag: Kvalitet, levering og kundeservice
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('arbeidslivsfag-8:kvalitet-og-kundeservice', 'arbeidslivsfag-8', 'kvalitet-og-kundeservice', 'Kvalitet, levering og kundeservice', 'Hva kvalitet betyr i et arbeidsoppdrag, hvordan du kontrollerer og leverer varer og tjenester, god kundeservice, klager, priskalkulasjon og markedsføring.', array[3]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('arbeidslivsfag-8:kvalitet-og-kundeservice', '## Hva er kvalitet?
+
+**Kvalitet** betyr at en vare eller tjeneste er så god som den skal være – at den oppfyller **kvalitetskravene** som er avtalt med oppdragsgiveren. Kvalitet kan handle om
+
+- **funksjon**: Fungerer produktet slik det skal?
+- **holdbarhet**: Tåler det bruk over tid?
+- **utseende og finish**: Er det pent og nøyaktig utført?
+- **hygiene og sikkerhet**: Er maten trygg, og er produktet ufarlig å bruke?
+- **levering**: Kommer det til avtalt tid og i avtalt antall?
+
+## Kvalitetskontroll
+
+Kvalitet sikres ved å sjekke arbeidet **underveis** og **til slutt**, ikke bare når alt er ferdig. En **sjekkliste** gjør kontrollen systematisk. Nøyaktige **arbeidstegninger**, **oppskrifter** og **mål** gjør det lettere å lage like produkter med jevn kvalitet. Oppdager du feil, retter du dem opp før leveringen.
+
+## Levering
+
+Ved levering må produktet ofte være **pakket** og **merket**. Mat skal merkes med innhold og **allergener**. Avtal tid og sted for levering, og kontroller at alt stemmer med bestillingen.
+
+## Kundeservice
+
+God **kundeservice** handler om å gi kunden en god opplevelse:
+
+- **Hils** og møt kunden med et smil.
+- **Lytt** og still spørsmål for å forstå behovet.
+- Vær **høflig**, **ærlig** og **ryddig** i klær og framtoning.
+- Gi **informasjon** om produktet og prisen.
+
+## Klager og reklamasjon
+
+Noen ganger er kunden misfornøyd. Da er det viktig å **lytte**, **beklage** og finne en **løsning**, for eksempel å reparere, bytte eller gi pengene tilbake. Forbrukere har rett til å **reklamere** på varer med feil. En klage som blir håndtert på en god måte, kan gjøre kunden fornøyd igjen.
+
+## Pris og kalkulasjon
+
+For å sette riktig **pris** må man **kalkulere**:
+
+- **materialkostnader** – hva materialene koster
+- **andre kostnader** – for eksempel emballasje, strøm og transport
+- **arbeidskostnader** – tiden arbeidet tar
+- **fortjeneste** – det som blir igjen
+
+Prisen bør dekke kostnadene, men også være noe kundene er villige til å betale. I Norge er det **merverdiavgift** (moms) på de fleste varer og tjenester.
+
+## Markedsføring
+
+For å nå kundene kan man lage **plakater**, informere på skolens nettside eller bruke **sosiale medier**. God markedsføring forteller tydelig **hva** man tilbyr, **hvorfor** det er bra, **hva det koster** og **hvordan** man kan bestille.', '{"label":"Kvalitet og kundeservice","children":[{"label":"Kvalitet","children":[{"label":"Funksjon"},{"label":"Holdbarhet"},{"label":"Hygiene og sikkerhet"},{"label":"Levering i tide"}]},{"label":"Kontroll","children":[{"label":"Underveis og til slutt"},{"label":"Sjekkliste"},{"label":"Tegninger og oppskrifter"}]},{"label":"Levering","children":[{"label":"Pakking"},{"label":"Merking og allergener"},{"label":"Avtalt tid og sted"}]},{"label":"Kunden","children":[{"label":"Hilse og lytte"},{"label":"Høflig og ærlig"},{"label":"Klager og reklamasjon"}]},{"label":"Pris og salg","children":[{"label":"Kalkulasjon"},{"label":"Fortjeneste"},{"label":"Moms"},{"label":"Markedsføring"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'arbeidslivsfag-8:kvalitet-og-kundeservice';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('arbeidslivsfag-8:kvalitet-og-kundeservice', 'Kvalitet', 'At en vare eller tjeneste er så god som den skal være.', 0),
+  ('arbeidslivsfag-8:kvalitet-og-kundeservice', 'Kvalitetskrav', 'Krav som er avtalt med oppdragsgiveren.', 1),
+  ('arbeidslivsfag-8:kvalitet-og-kundeservice', 'Kvalitetskontroll', 'Å sjekke arbeidet underveis og til slutt.', 2),
+  ('arbeidslivsfag-8:kvalitet-og-kundeservice', 'Sjekkliste', 'Liste over punkter som skal kontrolleres.', 3),
+  ('arbeidslivsfag-8:kvalitet-og-kundeservice', 'Holdbarhet', 'Hvor lenge noe tåler bruk.', 4),
+  ('arbeidslivsfag-8:kvalitet-og-kundeservice', 'Levering', 'Å overlevere produktet til kunden til avtalt tid og sted.', 5),
+  ('arbeidslivsfag-8:kvalitet-og-kundeservice', 'Merking', 'Informasjon på produktet, for eksempel om innhold og allergener.', 6),
+  ('arbeidslivsfag-8:kvalitet-og-kundeservice', 'Allergener', 'Stoffer i mat som kan gi allergiske reaksjoner, som nøtter og melk.', 7),
+  ('arbeidslivsfag-8:kvalitet-og-kundeservice', 'Kundeservice', 'Måten man møter og hjelper kunden på.', 8),
+  ('arbeidslivsfag-8:kvalitet-og-kundeservice', 'Klage', 'Når kunden sier fra om at noe ikke er som det skal.', 9),
+  ('arbeidslivsfag-8:kvalitet-og-kundeservice', 'Reklamasjon', 'Forbrukerens rett til å klage på en vare med feil.', 10),
+  ('arbeidslivsfag-8:kvalitet-og-kundeservice', 'Kalkulasjon', 'Utregning av hva et produkt koster å lage, og hva prisen bør være.', 11),
+  ('arbeidslivsfag-8:kvalitet-og-kundeservice', 'Materialkostnader', 'Det materialene koster.', 12),
+  ('arbeidslivsfag-8:kvalitet-og-kundeservice', 'Fortjeneste', 'Det som blir igjen når kostnadene er trukket fra inntektene.', 13),
+  ('arbeidslivsfag-8:kvalitet-og-kundeservice', 'Merverdiavgift (moms)', 'Avgift på de fleste varer og tjenester som går til staten.', 14);
+delete from public.quiz_sporsmal where tema_id = 'arbeidslivsfag-8:kvalitet-og-kundeservice';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('arbeidslivsfag-8:kvalitet-og-kundeservice', 'q01', 'flervalg', 'Hva betyr kvalitet i et arbeidsoppdrag?', array['At produktet er dyrt', 'At produktet er stort', 'At produktet er laget raskt', 'At produktet oppfyller kravene som er avtalt']::text[], 3, 'Kvalitetskravene avtales med oppdragsgiveren.', true, true, 0),
+  ('arbeidslivsfag-8:kvalitet-og-kundeservice', 'q02', 'flervalg', 'Når bør kvalitetskontroll gjøres?', array['Bare når alt er ferdig', 'Underveis og til slutt', 'Aldri', 'Bare hvis kunden klager']::text[], 1, 'Feil som oppdages tidlig, er lettere å rette.', true, true, 1),
+  ('arbeidslivsfag-8:kvalitet-og-kundeservice', 'q03', 'flervalg', 'Hva bør mat merkes med?', array['Innhold og allergener', 'Navnet på kokken', 'Været', 'Hvor mange som har smakt']::text[], 0, 'Merking av allergener kan forhindre alvorlige reaksjoner.', true, true, 2),
+  ('arbeidslivsfag-8:kvalitet-og-kundeservice', 'q04', 'flervalg', 'Hvordan bør du håndtere en klage fra en kunde?', array['Bli sint', 'Ignorere den', 'Lytte, beklage og finne en løsning', 'Si at kunden tar feil']::text[], 2, 'God klagehåndtering kan gjøre kunden fornøyd igjen.', true, true, 3),
+  ('arbeidslivsfag-8:kvalitet-og-kundeservice', 'q05', 'flervalg', 'Hva er fortjeneste?', array['Det som blir igjen når kostnadene er trukket fra', 'Prisen på materialene', 'Lønnen til de ansatte', 'Momsen']::text[], 0, 'Fortjenesten kan brukes til å utvikle bedriften.', true, true, 4),
+  ('arbeidslivsfag-8:kvalitet-og-kundeservice', 'q06', 'flervalg', 'Hva er en sjekkliste?', array['En regning', 'En handleliste', 'En liste over punkter som skal kontrolleres', 'En kundeliste']::text[], 2, 'Sjekklisten gjør kontrollen systematisk.', true, true, 5),
+  ('arbeidslivsfag-8:kvalitet-og-kundeservice', 'q07', 'flervalg', 'Hva hører med i en priskalkulasjon?', array['Bare prisen konkurrentene tar', 'Bare fortjenesten', 'Ingenting', 'Materialkostnader, andre kostnader, arbeid og fortjeneste']::text[], 3, 'Prisen bør dekke alle kostnadene.', true, true, 6),
+  ('arbeidslivsfag-8:kvalitet-og-kundeservice', 'q08', 'flervalg', 'Hva er god kundeservice?', array['Å snakke mest mulig selv', 'Å hilse, lytte og være høflig og ærlig', 'Å ignorere spørsmål', 'Å selge så dyrt som mulig']::text[], 1, 'Fornøyde kunder kommer gjerne tilbake.', true, true, 7),
+  ('arbeidslivsfag-8:kvalitet-og-kundeservice', 'q09', 'flervalg', 'Hva er reklamasjon?', array['Å klage på en vare med feil eller mangel', 'Reklame for et produkt', 'En type kvittering', 'Et tilbud']::text[], 0, 'Forbrukere har rett til å reklamere på varer med feil.', true, false, 8),
+  ('arbeidslivsfag-8:kvalitet-og-kundeservice', 'q10', 'flervalg', 'Hva bør en god plakat for et produkt fortelle?', array['Hvem som laget den', 'Hvor mye materialene kostet', 'Hvor lang tid det tok', 'Hva man tilbyr, hva det koster og hvordan man bestiller']::text[], 3, 'God markedsføring er tydelig og nyttig for kunden.', true, false, 9),
+  ('arbeidslivsfag-8:kvalitet-og-kundeservice', 'm01', 'sant-usant', 'Levering til avtalt tid er en del av kvaliteten.', array['Sant', 'Usant']::text[], 0, 'Et godt produkt som kommer for sent, dekker ikke kundens behov.', false, true, 10),
+  ('arbeidslivsfag-8:kvalitet-og-kundeservice', 'm02', 'sant-usant', 'Kunden har ingen rettigheter hvis en vare har feil.', array['Sant', 'Usant']::text[], 1, 'Forbrukere har rett til å reklamere.', false, true, 11),
+  ('arbeidslivsfag-8:kvalitet-og-kundeservice', 'm03', 'sant-usant', 'Nøyaktige oppskrifter og tegninger bidrar til jevn kvalitet.', array['Sant', 'Usant']::text[], 0, 'Da blir produktene like hver gang.', false, true, 12),
+  ('arbeidslivsfag-8:kvalitet-og-kundeservice', 'm04', 'sant-usant', 'Prisen på et produkt trenger ikke dekke kostnadene.', array['Sant', 'Usant']::text[], 1, 'Hvis prisen er for lav, taper bedriften penger.', false, true, 13),
+  ('arbeidslivsfag-8:kvalitet-og-kundeservice', 'm05', 'flervalg', 'Hva er materialkostnader?', array['Det materialene koster', 'Lønnen', 'Fortjenesten', 'Momsen']::text[], 0, 'Materialkostnadene er ofte den største utgiften i små oppdrag.', false, true, 14),
+  ('arbeidslivsfag-8:kvalitet-og-kundeservice', 'm06', 'flervalg', 'Hva er holdbarhet?', array['Hvor pent noe er', 'Hvor lenge noe tåler bruk', 'Hvor dyrt noe er', 'Hvor raskt noe lages']::text[], 1, 'God holdbarhet er også bra for miljøet.', false, true, 15),
+  ('arbeidslivsfag-8:kvalitet-og-kundeservice', 'm07', 'flervalg', 'Hva er moms?', array['En type rabatt', 'En del av lønna', 'En avgift på varer og tjenester som går til staten', 'En gave til kunden']::text[], 2, 'Moms står for merverdiavgift.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('arbeidslivsfag-8:kvalitet-og-kundeservice', 15)
 on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Norsk (9): rydd bort fjernede temaer
@@ -11048,6 +11421,735 @@ insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, ri
   ('spansk-9:hoytider-og-tradisjoner', 'm07', 'flervalg', 'Hva er «el belén»?', array['En by i Spania', 'En julekake', 'En julekrybbe med figurer', 'En julesang']::text[], 2, 'Navnet kommer fra Betlehem.', false, true, 16);
 insert into public.miniprover (tema_id, minutter) values
   ('spansk-9:hoytider-og-tradisjoner', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Arbeidslivsfag (9): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'arbeidslivsfag-9' and slug not in ('verktoy-materialer-og-tegninger', 'mat-og-hygiene', 'service-og-omsorg', 'barekraft-i-arbeidslivet');
+
+-- Arbeidslivsfag: Verktøy, materialer og tegninger
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('arbeidslivsfag-9:verktoy-materialer-og-tegninger', 'arbeidslivsfag-9', 'verktoy-materialer-og-tegninger', 'Verktøy, materialer og tegninger', 'Håndverktøy og elektroverktøy, vanlige materialer og egenskapene deres, måling og målestokk, arbeidstegninger og hvordan du begrunner valg av verktøy og materialer.', array[4, 3]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('arbeidslivsfag-9:verktoy-materialer-og-tegninger', '## Riktig verktøy til riktig jobb
+
+I mange yrker er det avgjørende å velge **riktig verktøy**. Feil verktøy gir dårligere kvalitet, tar lengre tid og kan være farlig.
+
+**Håndverktøy** drives av muskelkraft:
+
+- **måleverktøy**: tommestokk, målebånd, vinkel og vater
+- **sager**: fintannet sag til presise kutt, grovere sag til rask kapping
+- **hammer**, **skrutrekker**, **tang** og **fil**
+- **høvel** og **pussepapir** til å gjøre overflater jevne
+
+**Elektroverktøy** drives av strøm eller batteri: **drill** og **skrutrekkermaskin**, **stikksag**, **kappsag** og **slipemaskin**. Elektroverktøy krever **opplæring**, riktig verneutstyr og at du følger bruksanvisningen. Trekk ut kontakten eller ta ut batteriet før du bytter blad eller bor.
+
+## Materialer
+
+Materialene har ulike **egenskaper**, og valget avhenger av hva produktet skal brukes til:
+
+- **Tre** er lett å bearbeide og fornybart, men tåler dårlig fukt uten behandling. **Impregnert** tre tåler bedre å stå ute.
+- **Metall** er sterkt og holdbart, men tyngre og vanskeligere å forme.
+- **Plast** er lett og vannfast, men er ofte laget av olje og brytes sakte ned i naturen.
+- **Tekstiler** brukes til klær, puter og vesker.
+- **Gjenbruksmaterialer** kan gi nytt liv til ting som ellers ville blitt kastet.
+
+## Måling og målestokk
+
+«**Mål to ganger, kapp én gang**» er en klassisk regel i håndverksfag. Mål oppgis ofte i **millimeter** på arbeidstegninger. En **målestokk** viser forholdet mellom tegningen og virkeligheten. I målestokk **1:10** er 1 cm på tegningen 10 cm i virkeligheten.
+
+## Arbeidstegninger
+
+En **arbeidstegning** viser hvordan et produkt skal lages. Den kan vise produktet **forfra**, **fra siden** og **ovenfra** (**projeksjonstegning**), eller i **perspektiv** slik at det ser tredimensjonalt ut. Tegningen har **målsetting** og **stykkliste** – en oversikt over delene med antall, mål og materiale. Mange bruker i dag **digitale tegneprogrammer**, og noen skoler har **3D-printer** eller **laserkutter** som kan lage deler direkte fra en digital tegning.
+
+## Teknologi i yrkene
+
+Teknologi endrer arbeidet i mange yrker: **Elektrikere** installerer smarthus, **kokker** bruker programmerbare ovner, og i **industrien** styres maskiner av datamaskiner. Fagbegreper gjør det lettere å kommunisere presist med kolleger og kunder.
+
+## Begrunne valg
+
+Når du velger verktøy, materialer og metoder, bør du kunne **begrunne** valget: Er det **trygt**? Gir det **god kvalitet**? Er det **bærekraftig**? Hva **koster** det? Og passer det til **kundens behov**?', '{"label":"Verktøy, materialer og tegninger","children":[{"label":"Håndverktøy","children":[{"label":"Måleverktøy"},{"label":"Sag og hammer"},{"label":"Høvel og fil"}]},{"label":"Elektroverktøy","children":[{"label":"Drill"},{"label":"Stikksag og kappsag"},{"label":"Opplæring og vern"}]},{"label":"Materialer","children":[{"label":"Tre"},{"label":"Metall"},{"label":"Plast"},{"label":"Gjenbruk"}]},{"label":"Tegninger","children":[{"label":"Målestokk"},{"label":"Projeksjon"},{"label":"Perspektiv"},{"label":"Stykkliste"}]},{"label":"Begrunne valg","children":[{"label":"Sikkerhet"},{"label":"Kvalitet"},{"label":"Bærekraft og pris"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'arbeidslivsfag-9:verktoy-materialer-og-tegninger';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('arbeidslivsfag-9:verktoy-materialer-og-tegninger', 'Håndverktøy', 'Verktøy som drives av muskelkraft, som hammer og sag.', 0),
+  ('arbeidslivsfag-9:verktoy-materialer-og-tegninger', 'Elektroverktøy', 'Verktøy som drives av strøm eller batteri, som drill og stikksag.', 1),
+  ('arbeidslivsfag-9:verktoy-materialer-og-tegninger', 'Vater', 'Verktøy som viser om noe er vannrett eller loddrett.', 2),
+  ('arbeidslivsfag-9:verktoy-materialer-og-tegninger', 'Vinkel', 'Verktøy for å sjekke og tegne rette vinkler.', 3),
+  ('arbeidslivsfag-9:verktoy-materialer-og-tegninger', 'Høvel', 'Verktøy som tar bort tynne lag fra treoverflater.', 4),
+  ('arbeidslivsfag-9:verktoy-materialer-og-tegninger', 'Impregnert tre', 'Tre som er behandlet for å tåle fukt og råte.', 5),
+  ('arbeidslivsfag-9:verktoy-materialer-og-tegninger', 'Materialegenskaper', 'Hvordan et materiale er, for eksempel sterkt, lett eller vannfast.', 6),
+  ('arbeidslivsfag-9:verktoy-materialer-og-tegninger', 'Gjenbruksmaterialer', 'Materialer fra ting som ellers ville blitt kastet.', 7),
+  ('arbeidslivsfag-9:verktoy-materialer-og-tegninger', 'Mål to ganger, kapp én gang', 'Regel om å kontrollere målene før man kapper.', 8),
+  ('arbeidslivsfag-9:verktoy-materialer-og-tegninger', 'Målestokk', 'Forholdet mellom tegningen og virkeligheten, for eksempel 1:10.', 9),
+  ('arbeidslivsfag-9:verktoy-materialer-og-tegninger', 'Arbeidstegning', 'Tegning med mål som viser hvordan et produkt skal lages.', 10),
+  ('arbeidslivsfag-9:verktoy-materialer-og-tegninger', 'Projeksjonstegning', 'Tegning som viser et produkt forfra, fra siden og ovenfra.', 11),
+  ('arbeidslivsfag-9:verktoy-materialer-og-tegninger', 'Perspektivtegning', 'Tegning som får et produkt til å se tredimensjonalt ut.', 12),
+  ('arbeidslivsfag-9:verktoy-materialer-og-tegninger', 'Stykkliste', 'Oversikt over delene i et produkt med antall, mål og materiale.', 13),
+  ('arbeidslivsfag-9:verktoy-materialer-og-tegninger', 'Laserkutter', 'Maskin som skjærer ut deler fra en digital tegning.', 14);
+delete from public.quiz_sporsmal where tema_id = 'arbeidslivsfag-9:verktoy-materialer-og-tegninger';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('arbeidslivsfag-9:verktoy-materialer-og-tegninger', 'q01', 'flervalg', 'Hva betyr målestokk 1:10?', array['10 cm på tegningen er 1 cm i virkeligheten', 'Tegningen er 10 ganger større enn virkeligheten', '1 cm på tegningen er 10 cm i virkeligheten', 'Tegningen har 10 deler']::text[], 2, 'Tegningen er forminsket ti ganger.', true, true, 0),
+  ('arbeidslivsfag-9:verktoy-materialer-og-tegninger', 'q02', 'flervalg', 'Hva brukes et vater til?', array['Å kappe tre', 'Å sjekke om noe er vannrett eller loddrett', 'Å skru inn skruer', 'Å male']::text[], 1, 'Vateret har en luftboble som viser om noe står rett.', true, true, 1),
+  ('arbeidslivsfag-9:verktoy-materialer-og-tegninger', 'q03', 'flervalg', 'Hva er en stykkliste?', array['En oversikt over delene med antall, mål og materiale', 'En liste over verktøy i verkstedet', 'En kundeliste', 'En handleliste til kjøkkenet']::text[], 0, 'Stykklisten hører til arbeidstegningen.', true, true, 2),
+  ('arbeidslivsfag-9:verktoy-materialer-og-tegninger', 'q04', 'flervalg', 'Hva bør du gjøre før du bytter blad på en stikksag?', array['Holde den i gang', 'Ingenting', 'Spørre en venn', 'Trekke ut kontakten eller ta ut batteriet']::text[], 3, 'Da kan ikke maskinen starte ved et uhell.', true, true, 3),
+  ('arbeidslivsfag-9:verktoy-materialer-og-tegninger', 'q05', 'flervalg', 'Hvorfor brukes impregnert tre utendørs?', array['Det tåler bedre fukt og råte', 'Det er lettere', 'Det er billigere enn alt annet', 'Det er pent']::text[], 0, 'Ubehandlet tre kan råtne når det står ute.', true, true, 4),
+  ('arbeidslivsfag-9:verktoy-materialer-og-tegninger', 'q06', 'flervalg', 'Hva viser en projeksjonstegning?', array['Bare fargen på produktet', 'Produktet forfra, fra siden og ovenfra', 'Prisen på produktet', 'Et fotografi']::text[], 1, 'Hver visning viser mål i to retninger.', true, true, 5),
+  ('arbeidslivsfag-9:verktoy-materialer-og-tegninger', 'q07', 'flervalg', 'Hva betyr «mål to ganger, kapp én gang»?', array['Man skal kappe alt to ganger', 'Man skal bare måle én gang', 'Man skal kontrollere målene før man kapper', 'Man skal kappe før man måler']::text[], 2, 'Da unngår man å kaste materialer.', true, true, 6),
+  ('arbeidslivsfag-9:verktoy-materialer-og-tegninger', 'q08', 'flervalg', 'Hva er en ulempe med plast som materiale?', array['Den er for tung', 'Den er ofte laget av olje og brytes sakte ned i naturen', 'Den tåler ikke vann', 'Den kan ikke formes']::text[], 1, 'Derfor er gjenvinning av plast viktig.', true, true, 7),
+  ('arbeidslivsfag-9:verktoy-materialer-og-tegninger', 'q09', 'flervalg', 'Hvilket verktøy er et håndverktøy?', array['Drill', 'Kappsag', 'Slipemaskin', 'Høvel']::text[], 3, 'Høvelen drives av muskelkraft. De andre bruker strøm.', true, false, 8),
+  ('arbeidslivsfag-9:verktoy-materialer-og-tegninger', 'q10', 'flervalg', 'Hvorfor er fagbegreper nyttige i arbeidslivet?', array['De gjør det lettere å kommunisere presist', 'De gjør språket vanskeligere', 'De er bare for lærere', 'De brukes bare på prøver']::text[], 0, 'Alle vet hva som menes når man bruker samme begreper.', true, false, 9),
+  ('arbeidslivsfag-9:verktoy-materialer-og-tegninger', 'm01', 'sant-usant', 'Elektroverktøy krever opplæring før bruk.', array['Sant', 'Usant']::text[], 0, 'Feil bruk kan gi alvorlige skader.', false, true, 10),
+  ('arbeidslivsfag-9:verktoy-materialer-og-tegninger', 'm02', 'sant-usant', 'Metall er lettere å forme enn tre.', array['Sant', 'Usant']::text[], 1, 'Tre er vanligvis lettere å bearbeide enn metall.', false, true, 11),
+  ('arbeidslivsfag-9:verktoy-materialer-og-tegninger', 'm03', 'sant-usant', 'En laserkutter kan lage deler direkte fra en digital tegning.', array['Sant', 'Usant']::text[], 0, 'Teknologien gjør det mulig å lage presise deler raskt.', false, true, 12),
+  ('arbeidslivsfag-9:verktoy-materialer-og-tegninger', 'm04', 'sant-usant', 'Valg av materialer har ingenting med bærekraft å gjøre.', array['Sant', 'Usant']::text[], 1, 'Materialvalg påvirker ressursbruk, holdbarhet og avfall.', false, true, 13),
+  ('arbeidslivsfag-9:verktoy-materialer-og-tegninger', 'm05', 'flervalg', 'Hvilken enhet brukes ofte på arbeidstegninger?', array['Kilometer', 'Meter', 'Millimeter', 'Mil']::text[], 2, 'Millimeter gir presise mål.', false, true, 14),
+  ('arbeidslivsfag-9:verktoy-materialer-og-tegninger', 'm06', 'flervalg', 'Hva er en perspektivtegning?', array['En tegning som får produktet til å se tredimensjonalt ut', 'En tegning uten mål', 'En liste over deler', 'En tegning av et kart']::text[], 0, 'Perspektivtegningen gir et bilde av hvordan produktet ser ut.', false, true, 15),
+  ('arbeidslivsfag-9:verktoy-materialer-og-tegninger', 'm07', 'flervalg', 'Hvilket spørsmål bør du stille når du velger materiale?', array['Hvilken farge har verktøyet?', 'Hvem er læreren?', 'Hvor mange elever er i klassen?', 'Passer det til hva produktet skal brukes til?']::text[], 3, 'Materialet må passe til bruken og kundens behov.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('arbeidslivsfag-9:verktoy-materialer-og-tegninger', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Arbeidslivsfag: Mat og hygiene i storkjøkken
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('arbeidslivsfag-9:mat-og-hygiene', 'arbeidslivsfag-9', 'mat-og-hygiene', 'Mat og hygiene i storkjøkken', 'Hvordan man lager mat for mange: personlig hygiene, kjøkkenhygiene, temperaturer og holdbarhet, allergener, oppskrifter i større mengder, servering og matsvinn.', array[4, 3, 7]::int[], 1, 'sjekkes', array['Sjekk temperaturgrensene (4 °C, –18 °C, 10–60 °C, over 60 °C) mot Mattilsynets gjeldende råd.']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('arbeidslivsfag-9:mat-og-hygiene', '## Mat som arbeidsoppdrag
+
+Mange arbeidsoppdrag i arbeidslivsfag handler om **mat**: å lage lunsj til elever, bake til en kafé eller servere på et arrangement. Faget henter her innhold fra **restaurant- og matfag**, som utdanner blant annet kokker, bakere og servitører. Når man lager mat for andre, gjelder strenge krav til **mattrygghet**, og **Mattilsynet** fører tilsyn med at reglene følges.
+
+## Personlig hygiene
+
+- **Vask hendene** grundig med såpe før du begynner, etter toalettbesøk, etter at du har tatt i rått kjøtt eller egg, og etter at du har pusset nesen.
+- Bruk **rene arbeidsklær**, **forkle** og **hårnett** eller lue.
+- Ta av **smykker** og **klokke**.
+- Dekk til sår med **blått plaster**, som er lett å se hvis det faller i maten.
+- Ikke lag mat for andre hvis du har **omgangssyke**.
+
+## Kjøkkenhygiene
+
+- Hold **benker, utstyr og kluter** rene.
+- Bruk **egne skjærefjøler** til rått kjøtt og til grønnsaker, slik at bakterier ikke overføres. Dette kalles å unngå **krysskontaminering**.
+- Oppbevar rå og ferdige matvarer **hver for seg**.
+
+## Temperaturer
+
+Bakterier formerer seg raskest mellom omtrent **10 og 60 grader**. Derfor gjelder noen tommelfingerregler:
+
+- **Kjøleskapet** skal holde **4 grader** eller lavere.
+- **Fryseren** skal holde **–18 grader** eller lavere.
+- **Varm mat** som serveres, bør holdes på over **60 grader**.
+- Mat som skal **kjøles ned**, bør kjøles raskt.
+- Kjøttdeig og kylling må **varmebehandles gjennomgående**.
+
+På mange kjøkken fører man **temperaturlogg** for kjøleskap og frysere.
+
+## Holdbarhet
+
+«**Best før**» betyr at maten ofte er god også etter datoen – **se, lukt og smak**. «**Siste forbruksdag**» brukes på ferskvarer som kjøtt og fisk, som ikke bør spises etter datoen.
+
+## Allergener
+
+Mange er allergiske mot eller tåler ikke visse matvarer, for eksempel **gluten**, **melk**, **egg**, **nøtter**, **peanøtter**, **fisk** og **skalldyr**. Allergener skal **merkes**, og man må unngå at spor av dem havner i annen mat.
+
+## Oppskrifter i større mengder
+
+For å lage mat til mange må man **skalere oppskriften**. En oppskrift for 4 personer ganges med 5 for å lage mat til 20. Man lager en **innkjøpsliste** og en **tidsplan**, slik at alt blir ferdig samtidig.
+
+## Servering og matsvinn
+
+God servering handler om **presentasjon**, **service** og **riktig temperatur**. For å redusere **matsvinn** kan man planlegge riktige mengder, bruke rester på en trygg måte og oppbevare mat riktig.', '{"label":"Mat og hygiene","children":[{"label":"Personlig hygiene","children":[{"label":"Håndvask"},{"label":"Forkle og hårnett"},{"label":"Blått plaster"}]},{"label":"Kjøkkenhygiene","children":[{"label":"Rene benker"},{"label":"Egne skjærefjøler"},{"label":"Krysskontaminering"}]},{"label":"Temperaturer","children":[{"label":"Kjøleskap 4 °C"},{"label":"Fryser –18 °C"},{"label":"Varm mat over 60 °C"},{"label":"Temperaturlogg"}]},{"label":"Merking","children":[{"label":"Best før"},{"label":"Siste forbruksdag"},{"label":"Allergener"}]},{"label":"Produksjon","children":[{"label":"Skalere oppskrift"},{"label":"Innkjøpsliste"},{"label":"Servering"},{"label":"Matsvinn"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'arbeidslivsfag-9:mat-og-hygiene';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('arbeidslivsfag-9:mat-og-hygiene', 'Mattrygghet', 'At maten er trygg å spise og ikke gjør folk syke.', 0),
+  ('arbeidslivsfag-9:mat-og-hygiene', 'Mattilsynet', 'Myndigheten som fører tilsyn med at maten er trygg.', 1),
+  ('arbeidslivsfag-9:mat-og-hygiene', 'Personlig hygiene', 'Å holde seg selv ren, for eksempel ved å vaske hendene og bruke hårnett.', 2),
+  ('arbeidslivsfag-9:mat-og-hygiene', 'Blått plaster', 'Plaster som er lett å se hvis det faller i maten.', 3),
+  ('arbeidslivsfag-9:mat-og-hygiene', 'Krysskontaminering', 'At bakterier overføres fra en matvare til en annen, for eksempel via en skjærefjøl.', 4),
+  ('arbeidslivsfag-9:mat-og-hygiene', 'Farlig temperatursone', 'Omtrent 10–60 °C, der bakterier formerer seg raskest.', 5),
+  ('arbeidslivsfag-9:mat-og-hygiene', 'Kjøleskapstemperatur', '4 °C eller lavere.', 6),
+  ('arbeidslivsfag-9:mat-og-hygiene', 'Frysertemperatur', '–18 °C eller lavere.', 7),
+  ('arbeidslivsfag-9:mat-og-hygiene', 'Temperaturlogg', 'Oversikt over målte temperaturer i kjøleskap og frysere.', 8),
+  ('arbeidslivsfag-9:mat-og-hygiene', 'Best før', 'Maten er ofte god også etter datoen; se, lukt og smak.', 9),
+  ('arbeidslivsfag-9:mat-og-hygiene', 'Siste forbruksdag', 'Datoen ferskvarer ikke bør spises etter.', 10),
+  ('arbeidslivsfag-9:mat-og-hygiene', 'Allergener', 'Stoffer i mat som kan gi allergiske reaksjoner, som nøtter og melk.', 11),
+  ('arbeidslivsfag-9:mat-og-hygiene', 'Skalere en oppskrift', 'Å gange opp eller dele ned mengdene i en oppskrift.', 12),
+  ('arbeidslivsfag-9:mat-og-hygiene', 'Matsvinn', 'Spiselig mat som kastes.', 13),
+  ('arbeidslivsfag-9:mat-og-hygiene', 'Restaurant- og matfag', 'Yrkesfaglig utdanningsprogram for blant annet kokker og bakere.', 14);
+delete from public.quiz_sporsmal where tema_id = 'arbeidslivsfag-9:mat-og-hygiene';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('arbeidslivsfag-9:mat-og-hygiene', 'q01', 'flervalg', 'Hvorfor bør man bruke egne skjærefjøler til rått kjøtt og grønnsaker?', array['For å unngå at bakterier overføres', 'Fordi det ser pent ut', 'For å spare tid', 'Fordi kjøtt er tyngre']::text[], 0, 'Dette forebygger krysskontaminering.', true, true, 0),
+  ('arbeidslivsfag-9:mat-og-hygiene', 'q02', 'flervalg', 'Hvilken temperatur skal et kjøleskap holde?', array['10 °C eller lavere', '0 °C', '4 °C eller lavere', '–18 °C']::text[], 2, 'Lav temperatur bremser veksten av bakterier.', true, true, 1),
+  ('arbeidslivsfag-9:mat-og-hygiene', 'q03', 'flervalg', 'Hvorfor brukes blått plaster på kjøkkenet?', array['Det er billigst', 'Det er lett å se hvis det faller i maten', 'Det gror raskere', 'Det er påbudt i alle yrker']::text[], 1, 'Få matvarer er blå, så plasteret skiller seg ut.', true, true, 2),
+  ('arbeidslivsfag-9:mat-og-hygiene', 'q04', 'flervalg', 'Hva betyr «best før»?', array['Maten må kastes etter datoen', 'Maten er giftig etter datoen', 'Maten må fryses', 'Maten er ofte god også etter datoen']::text[], 3, 'Bruk sansene: se, lukt og smak.', true, true, 3),
+  ('arbeidslivsfag-9:mat-og-hygiene', 'q05', 'flervalg', 'Ved hvilke temperaturer formerer bakterier seg raskest?', array['Under –18 °C', 'Omtrent 10–60 °C', 'Over 100 °C', 'Bare ved 0 °C']::text[], 1, 'Derfor skal kald mat holdes kald og varm mat varm.', true, true, 4),
+  ('arbeidslivsfag-9:mat-og-hygiene', 'q06', 'flervalg', 'Hva er et eksempel på et allergen?', array['Nøtter', 'Vann', 'Salt', 'Sukker']::text[], 0, 'Også melk, egg, gluten, fisk og skalldyr er vanlige allergener.', true, true, 5),
+  ('arbeidslivsfag-9:mat-og-hygiene', 'q07', 'flervalg', 'En oppskrift er for 4 personer. Hvordan lager du mat til 20?', array['Deler mengdene på 5', 'Legger til 16 gram av alt', 'Ganger mengdene med 5', 'Bruker samme mengder']::text[], 2, '20 delt på 4 er 5.', true, true, 6),
+  ('arbeidslivsfag-9:mat-og-hygiene', 'q08', 'flervalg', 'Hvem fører tilsyn med mattryggheten i Norge?', array['Arbeidstilsynet', 'Mattilsynet', 'Politiet', 'Kommunen']::text[], 1, 'Mattilsynet kontrollerer blant annet restauranter og butikker.', true, true, 7),
+  ('arbeidslivsfag-9:mat-og-hygiene', 'q09', 'flervalg', 'Hva er matsvinn?', array['Mat som selges', 'Mat som fryses', 'Mat som lages', 'Spiselig mat som kastes']::text[], 3, 'God planlegging kan redusere matsvinnet.', true, false, 8),
+  ('arbeidslivsfag-9:mat-og-hygiene', 'q10', 'flervalg', 'Når bør du ikke lage mat for andre?', array['Når du har omgangssyke', 'Når du er sulten', 'Når det er fredag', 'Når du har hårnett']::text[], 0, 'Omgangssyke smitter lett via mat.', true, false, 9),
+  ('arbeidslivsfag-9:mat-og-hygiene', 'm01', 'sant-usant', 'En fryser skal holde –18 °C eller lavere.', array['Sant', 'Usant']::text[], 0, 'Da stopper veksten av bakterier nesten helt.', false, true, 10),
+  ('arbeidslivsfag-9:mat-og-hygiene', 'm02', 'sant-usant', 'Kylling kan gjerne serveres rå i midten.', array['Sant', 'Usant']::text[], 1, 'Kylling må varmebehandles gjennomgående på grunn av bakterier som salmonella og campylobacter.', false, true, 11),
+  ('arbeidslivsfag-9:mat-og-hygiene', 'm03', 'sant-usant', 'Smykker og klokke bør tas av før man lager mat.', array['Sant', 'Usant']::text[], 0, 'Smykker kan samle bakterier og falle i maten.', false, true, 12),
+  ('arbeidslivsfag-9:mat-og-hygiene', 'm04', 'sant-usant', 'Allergener trenger ikke merkes når maten serveres på skolen.', array['Sant', 'Usant']::text[], 1, 'Allergener må alltid gjøres kjent for dem som skal spise.', false, true, 13),
+  ('arbeidslivsfag-9:mat-og-hygiene', 'm05', 'flervalg', 'Hva betyr «siste forbruksdag»?', array['Maten er ofte god lenge etter datoen', 'Maten bør ikke spises etter datoen', 'Maten må fryses før datoen', 'Maten er på salg']::text[], 1, 'Denne merkingen brukes på ferskvarer som kjøtt og fisk.', false, true, 14),
+  ('arbeidslivsfag-9:mat-og-hygiene', 'm06', 'flervalg', 'Hvorfor fører mange kjøkken temperaturlogg?', array['For å kontrollere at kjøleskap og frysere holder riktig temperatur', 'For å vite hvor varmt det er ute', 'For å holde styr på lønna', 'For å telle kunder']::text[], 0, 'Loggen viser at mattryggheten blir fulgt opp.', false, true, 15),
+  ('arbeidslivsfag-9:mat-og-hygiene', 'm07', 'flervalg', 'Hvilket yrke utdannes gjennom restaurant- og matfag?', array['Elektriker', 'Frisør', 'Baker', 'Tømrer']::text[], 2, 'Også kokker, servitører og slaktere utdannes her.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('arbeidslivsfag-9:mat-og-hygiene', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Arbeidslivsfag: Service og omsorg
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('arbeidslivsfag-9:service-og-omsorg', 'arbeidslivsfag-9', 'service-og-omsorg', 'Service og omsorg', 'Arbeidsoppdrag innen helse, oppvekst og service: å møte barn og eldre, kommunikasjon, respekt og verdighet, taushetsplikt, smittevern og etikk i omsorgsyrker.', array[4, 7]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('arbeidslivsfag-9:service-og-omsorg', '## Å jobbe med mennesker
+
+Mange yrker handler om å **hjelpe og betjene andre mennesker**. Arbeidslivsfag henter innhold fra **helse- og oppvekstfag** – som utdanner blant annet helsefagarbeidere og barne- og ungdomsarbeidere – og fra **salg, service og reiseliv**. Aktuelle arbeidsoppdrag kan være å arrangere aktiviteter i en barnehage, lage en kaffestund på et sykehjem eller hjelpe til på et arrangement.
+
+## Å møte barn
+
+Barn trenger **trygge voksne** som er til stede, ser dem og setter grenser. I leik er det viktig å
+
+- tilpasse aktiviteten til **alder** og **ferdigheter**
+- sørge for at **alle får være med**
+- passe på **sikkerheten**
+- være en god **rollemodell**
+
+## Å møte eldre
+
+Eldre mennesker har mye livserfaring. Å **lytte**, **ha god tid** og vise **interesse** for livshistorien deres gir gode møter. Noen har **nedsatt hørsel**, **syn** eller **hukommelse**, for eksempel på grunn av **demens**. Da hjelper det å snakke **tydelig og rolig**, se personen i øynene og bruke korte setninger.
+
+## Kommunikasjon
+
+- **Verbal kommunikasjon** er det vi sier med ord.
+- **Nonverbal kommunikasjon** er kroppsspråk, blikk, tonefall og mimikk.
+- **Empati** er å sette seg inn i hvordan andre har det.
+
+God kommunikasjon er grunnlaget for all omsorg og service.
+
+## Respekt og verdighet
+
+Alle mennesker har **lik verdi** og har krav på å bli behandlet med **respekt og verdighet**. Det betyr blant annet å la mennesker **bestemme selv** så mye som mulig (**medbestemmelse**), respektere **privatlivet** og være ærlig.
+
+## Taushetsplikt
+
+De som jobber i helse- og omsorgsyrker, har **taushetsplikt**. Det betyr at man ikke skal fortelle videre om personlige opplysninger man får vite gjennom jobben – verken til venner, familie eller på sosiale medier. Taushetsplikten gjelder også **etter** at man har sluttet i jobben. I arbeidslivsfag bør du avtale på forhånd hva du kan fortelle i **loggen** din, og aldri ta bilder av brukere uten tillatelse.
+
+## Smittevern
+
+**Håndvask** og **håndsprit** er de viktigste tiltakene mot smitte, særlig i møte med eldre og syke. Hold deg hjemme når du er syk.
+
+## Service
+
+I **servicejobber**, som butikk, kafé og resepsjon, er kunden i sentrum. **Vertskap** betyr å få gjestene til å føle seg velkomne: hilse, hjelpe, gi informasjon og løse problemer på en vennlig måte.', '{"label":"Service og omsorg","children":[{"label":"Yrker","children":[{"label":"Helsefagarbeider"},{"label":"Barne- og ungdomsarbeider"},{"label":"Salg og service"}]},{"label":"Møte mennesker","children":[{"label":"Barn: trygghet og leik"},{"label":"Eldre: tid og interesse"},{"label":"Demens"}]},{"label":"Kommunikasjon","children":[{"label":"Verbal"},{"label":"Nonverbal"},{"label":"Empati"}]},{"label":"Etikk","children":[{"label":"Respekt og verdighet"},{"label":"Medbestemmelse"},{"label":"Taushetsplikt"}]},{"label":"Praktisk","children":[{"label":"Smittevern"},{"label":"Vertskap"},{"label":"Kundeservice"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'arbeidslivsfag-9:service-og-omsorg';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('arbeidslivsfag-9:service-og-omsorg', 'Helse- og oppvekstfag', 'Yrkesfaglig utdanningsprogram for blant annet helsefagarbeidere og barne- og ungdomsarbeidere.', 0),
+  ('arbeidslivsfag-9:service-og-omsorg', 'Helsefagarbeider', 'Fagarbeider som pleier og hjelper syke og eldre.', 1),
+  ('arbeidslivsfag-9:service-og-omsorg', 'Barne- og ungdomsarbeider', 'Fagarbeider som jobber med barn og unge, for eksempel i barnehage.', 2),
+  ('arbeidslivsfag-9:service-og-omsorg', 'Omsorg', 'Å ta vare på og hjelpe andre.', 3),
+  ('arbeidslivsfag-9:service-og-omsorg', 'Rollemodell', 'En person andre ser opp til og lærer av.', 4),
+  ('arbeidslivsfag-9:service-og-omsorg', 'Demens', 'Sykdom som gir svekket hukommelse og evne til å klare seg i hverdagen.', 5),
+  ('arbeidslivsfag-9:service-og-omsorg', 'Verbal kommunikasjon', 'Det vi sier med ord.', 6),
+  ('arbeidslivsfag-9:service-og-omsorg', 'Nonverbal kommunikasjon', 'Kroppsspråk, blikk, tonefall og mimikk.', 7),
+  ('arbeidslivsfag-9:service-og-omsorg', 'Empati', 'Evnen til å sette seg inn i hvordan andre har det.', 8),
+  ('arbeidslivsfag-9:service-og-omsorg', 'Verdighet', 'Å bli behandlet med respekt som et menneske med verdi.', 9),
+  ('arbeidslivsfag-9:service-og-omsorg', 'Medbestemmelse', 'Å få bestemme over sitt eget liv så mye som mulig.', 10),
+  ('arbeidslivsfag-9:service-og-omsorg', 'Taushetsplikt', 'Plikt til ikke å fortelle videre personlige opplysninger man får gjennom jobben.', 11),
+  ('arbeidslivsfag-9:service-og-omsorg', 'Smittevern', 'Tiltak for å hindre at sykdom spres, som håndvask.', 12),
+  ('arbeidslivsfag-9:service-og-omsorg', 'Vertskap', 'Å få gjester til å føle seg velkomne.', 13),
+  ('arbeidslivsfag-9:service-og-omsorg', 'Service', 'Å hjelpe og betjene kunder på en god måte.', 14);
+delete from public.quiz_sporsmal where tema_id = 'arbeidslivsfag-9:service-og-omsorg';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('arbeidslivsfag-9:service-og-omsorg', 'q01', 'flervalg', 'Hva er taushetsplikt?', array['Plikt til å være stille på jobb', 'Plikt til ikke å fortelle videre personlige opplysninger man får gjennom jobben', 'Plikt til å svare på alle spørsmål', 'Plikt til å skrive logg']::text[], 1, 'Taushetsplikten gjelder også etter at man har sluttet.', true, true, 0),
+  ('arbeidslivsfag-9:service-og-omsorg', 'q02', 'flervalg', 'Hva er nonverbal kommunikasjon?', array['Kroppsspråk, blikk, tonefall og mimikk', 'Å skrive brev', 'Å snakke et fremmedspråk', 'Å sende SMS']::text[], 0, 'Kroppsspråket sier ofte like mye som ordene.', true, true, 1),
+  ('arbeidslivsfag-9:service-og-omsorg', 'q03', 'flervalg', 'Hvordan bør du snakke med en person som har demens?', array['Fort og med mange detaljer', 'Høyt og utålmodig', 'Tydelig, rolig og med korte setninger', 'Helst ikke i det hele tatt']::text[], 2, 'Det gjør det lettere for personen å forstå.', true, true, 2),
+  ('arbeidslivsfag-9:service-og-omsorg', 'q04', 'flervalg', 'Hva er empati?', array['Å være sint', 'Å bestemme over andre', 'Å være flink til å snakke', 'Evnen til å sette seg inn i hvordan andre har det']::text[], 3, 'Empati er viktig i alle yrker der man jobber med mennesker.', true, true, 3),
+  ('arbeidslivsfag-9:service-og-omsorg', 'q05', 'flervalg', 'Hva er det viktigste tiltaket mot smitte?', array['Håndvask', 'Å bruke parfyme', 'Å drikke kaffe', 'Å gå med lue']::text[], 0, 'Håndsprit er også effektivt.', true, true, 4),
+  ('arbeidslivsfag-9:service-og-omsorg', 'q06', 'flervalg', 'Hvilket yrke utdannes gjennom helse- og oppvekstfag?', array['Kokk', 'Helsefagarbeider', 'Rørlegger', 'Elektriker']::text[], 1, 'Også barne- og ungdomsarbeidere utdannes her.', true, true, 5),
+  ('arbeidslivsfag-9:service-og-omsorg', 'q07', 'flervalg', 'Hva betyr det å behandle noen med verdighet?', array['Å bestemme alt for dem', 'Å behandle dem som barn', 'Å behandle dem med respekt som et menneske med verdi', 'Å ignorere ønskene deres']::text[], 2, 'Alle mennesker har lik verdi.', true, true, 6),
+  ('arbeidslivsfag-9:service-og-omsorg', 'q08', 'flervalg', 'Du har vært på sykehjem i arbeidslivsfag. Hva kan du legge ut på sosiale medier?', array['Bilder av beboerne', 'Navn og diagnoser', 'Historier om beboerne', 'Ingen personlige opplysninger om beboerne']::text[], 3, 'Taushetsplikten beskytter beboernes privatliv.', true, true, 7),
+  ('arbeidslivsfag-9:service-og-omsorg', 'q09', 'flervalg', 'Hva er viktig når du leker med barn i en barnehage?', array['At alle får være med og at det er trygt', 'At du vinner', 'At det går fort', 'At barna sitter stille']::text[], 0, 'Tilpass aktiviteten til alder og ferdigheter.', true, false, 8),
+  ('arbeidslivsfag-9:service-og-omsorg', 'q10', 'flervalg', 'Hva betyr vertskap?', array['Å eie et hus', 'Å få gjestene til å føle seg velkomne', 'Å selge mest mulig', 'Å rydde etter gjestene']::text[], 1, 'Godt vertskap er viktig i reiseliv og service.', true, false, 9),
+  ('arbeidslivsfag-9:service-og-omsorg', 'm01', 'sant-usant', 'Taushetsplikten gjelder også etter at man har sluttet i jobben.', array['Sant', 'Usant']::text[], 0, 'Opplysningene er fortsatt private.', false, true, 10),
+  ('arbeidslivsfag-9:service-og-omsorg', 'm02', 'sant-usant', 'Det er greit å ta bilder av sykehjemsbeboere uten å spørre.', array['Sant', 'Usant']::text[], 1, 'Man må alltid ha tillatelse, og ofte er det ikke lov i det hele tatt.', false, true, 11),
+  ('arbeidslivsfag-9:service-og-omsorg', 'm03', 'sant-usant', 'Voksne som jobber med barn, er rollemodeller.', array['Sant', 'Usant']::text[], 0, 'Barn lærer mye ved å se på hva voksne gjør.', false, true, 12),
+  ('arbeidslivsfag-9:service-og-omsorg', 'm04', 'sant-usant', 'Kroppsspråk har liten betydning i kommunikasjon.', array['Sant', 'Usant']::text[], 1, 'Nonverbal kommunikasjon er en stor del av hvordan vi forstår hverandre.', false, true, 13),
+  ('arbeidslivsfag-9:service-og-omsorg', 'm05', 'flervalg', 'Hva er medbestemmelse i omsorgsarbeid?', array['At personalet bestemmer alt', 'At pårørende bestemmer alt', 'At kommunen bestemmer alt', 'At den som får hjelp, får bestemme over sitt eget liv så mye som mulig']::text[], 3, 'Det er en del av å behandle mennesker med verdighet.', false, true, 14),
+  ('arbeidslivsfag-9:service-og-omsorg', 'm06', 'flervalg', 'Hva er demens?', array['En sykdom som gir svekket hukommelse', 'En type forkjølelse', 'En allergi', 'En skade i beinet']::text[], 0, 'Demens er vanligst hos eldre.', false, true, 15),
+  ('arbeidslivsfag-9:service-og-omsorg', 'm07', 'flervalg', 'Hvilket utdanningsprogram fører til jobb i butikk eller resepsjon?', array['Bygg- og anleggsteknikk', 'Elektro og datateknologi', 'Salg, service og reiseliv', 'Naturbruk']::text[], 2, 'Her lærer man om service, salg og vertskap.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('arbeidslivsfag-9:service-og-omsorg', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Arbeidslivsfag: Bærekraft i arbeidslivet
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('arbeidslivsfag-9:barekraft-i-arbeidslivet', 'arbeidslivsfag-9', 'barekraft-i-arbeidslivet', 'Bærekraft i arbeidslivet', 'De tre dimensjonene av bærekraft, sirkulær økonomi, reduser–gjenbruk–gjenvinn, kildesortering, livsløpet til et produkt, energi og transport, og hvordan du tar bærekraftige valg i arbeidsoppdrag.', array[6]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('arbeidslivsfag-9:barekraft-i-arbeidslivet', '## Hva er bærekraft?
+
+**Bærekraftig utvikling** betyr å dekke behovene til mennesker i dag uten å ødelegge mulighetene for dem som kommer etter oss. Bærekraft har tre **dimensjoner**:
+
+- **Miljø**: Vi må ta vare på naturen, klimaet og ressursene.
+- **Økonomi**: Bedrifter må tjene penger og skape arbeidsplasser over tid.
+- **Sosialt**: Arbeidet skal skje under **anstendige arbeidsforhold**, med rettferdig lønn og uten barnearbeid.
+
+FNs **bærekraftsmål** gjelder også arbeidslivet, for eksempel mål 8 om anstendig arbeid og økonomisk vekst og mål 12 om ansvarlig forbruk og produksjon.
+
+## Lineær og sirkulær økonomi
+
+I en **lineær økonomi** hentes råvarer ut, varer produseres, brukes og kastes: *ta – lag – kast*. I en **sirkulær økonomi** holdes ressursene i bruk så lenge som mulig ved at produkter **repareres**, **gjenbrukes** og til slutt **gjenvinnes**.
+
+## Reduser, gjenbruk, gjenvinn
+
+Rekkefølgen er viktig:
+
+1. **Reduser**: Bruk mindre materialer og energi. Planlegg godt, slik at det blir lite **kapp** og **svinn**.
+2. **Gjenbruk**: Bruk ting om igjen, gjerne til noe nytt (**redesign**).
+3. **Gjenvinn**: Sorter avfallet, slik at materialene kan bli til nye produkter.
+
+## Kildesortering
+
+I verksted og kjøkken sorterer man **matavfall**, **papir og papp**, **plast**, **glass og metall**, **restavfall** og **farlig avfall**. Farlig avfall er for eksempel **maling**, **løsemidler**, **batterier** og **elektronikk**. Det skal aldri kastes i vanlig avfall eller helles i vasken, men leveres til et **mottak**.
+
+## Livsløpet til et produkt
+
+Et produkt påvirker miljøet gjennom hele **livsløpet**: **råvarer**, **produksjon**, **transport**, **bruk** og **avfall**. Et produkt som er **holdbart** og lett å **reparere**, har ofte lavere miljøbelastning enn et billig produkt som må byttes ofte.
+
+## Energi og transport
+
+Slå av **maskiner, lys og ovner** når de ikke er i bruk. Kjøp gjerne **lokale** råvarer, noe som kan gi kortere transport. Samle innkjøp og leveranser for å unngå unødvendige turer.
+
+## Bærekraftige valg i arbeidsoppdrag
+
+Når du planlegger et arbeidsoppdrag, kan du spørre:
+
+- Kan vi bruke **gjenbruksmaterialer**?
+- Hvordan kan vi få **minst mulig avfall** og **matsvinn**?
+- Er produktet **holdbart**?
+- Er råvarene produsert under **gode arbeidsforhold**? **Miljømerker** som Svanemerket og **Fairtrade**-merket kan gi informasjon om dette.
+
+**Grønne jobber** er en voksende del av arbeidslivet, for eksempel innen fornybar energi, reparasjon og ombruk.', '{"label":"Bærekraft i arbeidslivet","children":[{"label":"Tre dimensjoner","children":[{"label":"Miljø"},{"label":"Økonomi"},{"label":"Sosialt"}]},{"label":"Økonomi","children":[{"label":"Lineær: ta – lag – kast"},{"label":"Sirkulær"},{"label":"Reparasjon"}]},{"label":"Avfall","children":[{"label":"Reduser"},{"label":"Gjenbruk"},{"label":"Gjenvinn"},{"label":"Farlig avfall"}]},{"label":"Livsløp","children":[{"label":"Råvarer"},{"label":"Produksjon og transport"},{"label":"Bruk og avfall"}]},{"label":"Valg i oppdrag","children":[{"label":"Gjenbruksmaterialer"},{"label":"Miljømerker"},{"label":"Grønne jobber"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'arbeidslivsfag-9:barekraft-i-arbeidslivet';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('arbeidslivsfag-9:barekraft-i-arbeidslivet', 'Bærekraftig utvikling', 'Å dekke dagens behov uten å ødelegge mulighetene for dem som kommer etter oss.', 0),
+  ('arbeidslivsfag-9:barekraft-i-arbeidslivet', 'Tre dimensjoner av bærekraft', 'Miljø, økonomi og det sosiale.', 1),
+  ('arbeidslivsfag-9:barekraft-i-arbeidslivet', 'Anstendig arbeid', 'Arbeid med rettferdig lønn, trygge forhold og uten barnearbeid.', 2),
+  ('arbeidslivsfag-9:barekraft-i-arbeidslivet', 'Lineær økonomi', 'Ta – lag – kast.', 3),
+  ('arbeidslivsfag-9:barekraft-i-arbeidslivet', 'Sirkulær økonomi', 'Økonomi der ressursene holdes i bruk ved reparasjon, gjenbruk og gjenvinning.', 4),
+  ('arbeidslivsfag-9:barekraft-i-arbeidslivet', 'Reduser', 'Å bruke mindre materialer og energi.', 5),
+  ('arbeidslivsfag-9:barekraft-i-arbeidslivet', 'Gjenbruk', 'Å bruke ting om igjen.', 6),
+  ('arbeidslivsfag-9:barekraft-i-arbeidslivet', 'Gjenvinning', 'Å gjøre avfall om til nye materialer.', 7),
+  ('arbeidslivsfag-9:barekraft-i-arbeidslivet', 'Redesign', 'Å lage noe nytt av noe gammelt.', 8),
+  ('arbeidslivsfag-9:barekraft-i-arbeidslivet', 'Kildesortering', 'Å sortere avfallet der det oppstår.', 9),
+  ('arbeidslivsfag-9:barekraft-i-arbeidslivet', 'Farlig avfall', 'Avfall som maling, løsemidler og batterier som må leveres til mottak.', 10),
+  ('arbeidslivsfag-9:barekraft-i-arbeidslivet', 'Livsløp', 'Et produkts vei fra råvarer via produksjon, transport og bruk til avfall.', 11),
+  ('arbeidslivsfag-9:barekraft-i-arbeidslivet', 'Svanemerket', 'Nordisk miljømerke for produkter med lavere miljøbelastning.', 12),
+  ('arbeidslivsfag-9:barekraft-i-arbeidslivet', 'Fairtrade', 'Merke som viser at produsentene har fått en rettferdig betaling.', 13),
+  ('arbeidslivsfag-9:barekraft-i-arbeidslivet', 'Grønne jobber', 'Jobber som bidrar til et mer bærekraftig samfunn.', 14);
+delete from public.quiz_sporsmal where tema_id = 'arbeidslivsfag-9:barekraft-i-arbeidslivet';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('arbeidslivsfag-9:barekraft-i-arbeidslivet', 'q01', 'flervalg', 'Hva er de tre dimensjonene av bærekraft?', array['Tre, metall og plast', 'Miljø, økonomi og det sosiale', 'Fortid, nåtid og framtid', 'Land, by og hav']::text[], 1, 'Alle tre må henge sammen for at utviklingen skal være bærekraftig.', true, true, 0),
+  ('arbeidslivsfag-9:barekraft-i-arbeidslivet', 'q02', 'flervalg', 'Hva kjennetegner en sirkulær økonomi?', array['Ta – lag – kast', 'Alt produseres i utlandet', 'Ressursene holdes i bruk ved reparasjon, gjenbruk og gjenvinning', 'Ingen ting blir produsert']::text[], 2, 'Den lineære økonomien er ta – lag – kast.', true, true, 1),
+  ('arbeidslivsfag-9:barekraft-i-arbeidslivet', 'q03', 'flervalg', 'Hva er det første steget i «reduser, gjenbruk, gjenvinn»?', array['Å bruke mindre materialer og energi', 'Å kaste mest mulig', 'Å kjøpe nytt', 'Å brenne avfallet']::text[], 0, 'Det beste avfallet er det som aldri oppstår.', true, true, 2),
+  ('arbeidslivsfag-9:barekraft-i-arbeidslivet', 'q04', 'flervalg', 'Hva gjør du med rester av maling fra et arbeidsoppdrag?', array['Heller dem i vasken', 'Kaster dem i restavfallet', 'Graver dem ned', 'Leverer dem til mottak for farlig avfall']::text[], 3, 'Maling kan skade natur og avløpssystemer.', true, true, 3),
+  ('arbeidslivsfag-9:barekraft-i-arbeidslivet', 'q05', 'flervalg', 'Hva hører med i livsløpet til et produkt?', array['Bare produksjonen', 'Råvarer, produksjon, transport, bruk og avfall', 'Bare avfallet', 'Bare prisen']::text[], 1, 'Miljøbelastningen må vurderes gjennom hele livsløpet.', true, true, 4),
+  ('arbeidslivsfag-9:barekraft-i-arbeidslivet', 'q06', 'flervalg', 'Hva viser Fairtrade-merket?', array['At produsentene har fått en rettferdig betaling', 'At produktet er billig', 'At produktet er norsk', 'At produktet er økologisk']::text[], 0, 'Fairtrade handler om den sosiale dimensjonen av bærekraft.', true, true, 5),
+  ('arbeidslivsfag-9:barekraft-i-arbeidslivet', 'q07', 'flervalg', 'Hvorfor kan et holdbart produkt være mer bærekraftig enn et billig produkt?', array['Det er alltid laget av plast', 'Det krever mer transport', 'Det må byttes sjeldnere', 'Det er tyngre']::text[], 2, 'Færre nye produkter betyr mindre ressursbruk og avfall.', true, true, 6),
+  ('arbeidslivsfag-9:barekraft-i-arbeidslivet', 'q08', 'flervalg', 'Hva er et eksempel på en grønn jobb?', array['Å selge engangsartikler', 'Å installere solcellepaneler', 'Å kaste brukte klær', 'Å kjøre tom lastebil']::text[], 1, 'Fornybar energi, reparasjon og ombruk gir grønne jobber.', true, true, 7),
+  ('arbeidslivsfag-9:barekraft-i-arbeidslivet', 'q09', 'flervalg', 'Hvilket FN-bærekraftsmål handler om anstendig arbeid?', array['Mål 1', 'Mål 14', 'Mål 3', 'Mål 8']::text[], 3, 'Mål 8 handler om anstendig arbeid og økonomisk vekst.', true, false, 8),
+  ('arbeidslivsfag-9:barekraft-i-arbeidslivet', 'q10', 'flervalg', 'Hvordan kan du redusere svinn i et arbeidsoppdrag?', array['Kjøpe mye ekstra materiale', 'Planlegge godt og måle nøye', 'Kaste rester med en gang', 'Ikke lage arbeidstegning']::text[], 1, 'God planlegging gir lite kapp og svinn.', true, false, 9),
+  ('arbeidslivsfag-9:barekraft-i-arbeidslivet', 'm01', 'sant-usant', 'Batterier er farlig avfall.', array['Sant', 'Usant']::text[], 0, 'Batterier inneholder stoffer som kan skade miljøet.', false, true, 10),
+  ('arbeidslivsfag-9:barekraft-i-arbeidslivet', 'm02', 'sant-usant', 'Bærekraft handler bare om miljø.', array['Sant', 'Usant']::text[], 1, 'Bærekraft handler også om økonomi og sosiale forhold.', false, true, 11),
+  ('arbeidslivsfag-9:barekraft-i-arbeidslivet', 'm03', 'sant-usant', 'Å slå av maskiner som ikke er i bruk, sparer energi.', array['Sant', 'Usant']::text[], 0, 'Små tiltak blir til mye over tid.', false, true, 12),
+  ('arbeidslivsfag-9:barekraft-i-arbeidslivet', 'm04', 'sant-usant', 'I en lineær økonomi blir alt gjenvunnet.', array['Sant', 'Usant']::text[], 1, 'Den lineære økonomien er ta – lag – kast.', false, true, 13),
+  ('arbeidslivsfag-9:barekraft-i-arbeidslivet', 'm05', 'flervalg', 'Hva er redesign?', array['Å kaste gamle ting', 'Å lage noe nytt av noe gammelt', 'Å male en tegning', 'Å kjøpe nye materialer']::text[], 1, 'For eksempel en veske laget av gamle jeans.', false, true, 14),
+  ('arbeidslivsfag-9:barekraft-i-arbeidslivet', 'm06', 'flervalg', 'Hva er Svanemerket?', array['Et nordisk miljømerke', 'Et merke for norsk mat', 'Et merke for dyrevelferd', 'Et merke for billige varer']::text[], 0, 'Svanemerkede produkter har lavere miljøbelastning.', false, true, 15),
+  ('arbeidslivsfag-9:barekraft-i-arbeidslivet', 'm07', 'flervalg', 'Hva hører til den sosiale dimensjonen av bærekraft?', array['Klimautslipp', 'Fortjeneste', 'Trygge arbeidsforhold og rettferdig lønn', 'Energibruk']::text[], 2, 'Den sosiale dimensjonen handler om menneskene.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('arbeidslivsfag-9:barekraft-i-arbeidslivet', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Utdanningsvalg (9): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'utdanningsvalg-9' and slug not in ('meg-selv-og-mine-valg', 'utdanningssystemet', 'arbeidslivet-i-endring', 'kjonn-og-karrierevalg');
+
+-- Utdanningsvalg: Meg selv og mine valg
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('utdanningsvalg-9:meg-selv-og-mine-valg', 'utdanningsvalg-9', 'meg-selv-og-mine-valg', 'Meg selv og mine valg', 'Hva karriere og karrierekompetanse er, hvordan du kan kartlegge interesser, verdier og styrker, hva som påvirker valgene dine, og hvordan du tar gode beslutninger.', array[1, 6]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('utdanningsvalg-9:meg-selv-og-mine-valg', '## Hva er utdanningsvalg?
+
+I **utdanningsvalg** lærer du om deg selv, om utdanning og om arbeidslivet, slik at du blir bedre rustet til å ta valg om framtiden. Det første store valget er hvilket **utdanningsprogram** du skal søke på i videregående skole.
+
+## Karriere
+
+Ordet **karriere** betyr ikke bare å klatre oppover i en bedrift. I utdanningsvalg betyr karriere **hele veien gjennom livet** – utdanning, jobber, fritid, familie og frivillig arbeid. **Karrierekompetanse** er evnen til å kjenne seg selv, finne informasjon om muligheter og ta gode valg underveis.
+
+## Kjenn deg selv
+
+Før du velger, kan det være lurt å kartlegge
+
+- **interesser** – hva du liker å holde på med
+- **ferdigheter** – hva du er flink til, for eksempel å regne, snakke med folk eller bruke verktøy
+- **egenskaper** – hvordan du er, for eksempel tålmodig, nysgjerrig eller strukturert
+- **verdier** – hva som er viktig for deg, for eksempel å hjelpe andre, tjene godt, være kreativ eller ha fleksibel arbeidstid
+
+En kjent modell deler interesser i **seks typer**: **praktisk** (liker å jobbe med hendene og maskiner), **undersøkende** (liker å forstå og analysere), **kunstnerisk** (liker å skape), **sosial** (liker å hjelpe og undervise), **foretaksom** (liker å lede og overbevise) og **konvensjonell** (liker orden og systemer). De fleste er en blanding.
+
+## Hva påvirker valgene?
+
+Mange forhold påvirker valgene våre, ofte uten at vi tenker over det:
+
+- **familie** og forventninger hjemmefra
+- **venner** som velger det samme
+- **lærere** og **rådgivere**
+- **medier** og **sosiale medier**, som viser noen yrker mer enn andre
+- **kjønn** og **kjønnsstereotypier**
+- **bosted** – hvilke skoler og jobber finnes i nærheten?
+- **økonomi** og **tilfeldigheter**
+
+Det er lurt å bli bevisst på slike påvirkninger, slik at du tar **ditt eget valg**.
+
+## Å ta en beslutning
+
+En god **beslutningsprosess** kan se slik ut:
+
+1. **Kartlegg** deg selv.
+2. **Finn informasjon** om alternativene.
+3. **Vurder** fordeler og ulemper.
+4. **Velg** – og ha gjerne en plan B.
+5. **Evaluer** underveis: Ble det som du trodde?
+
+## Livsmestring
+
+Valg kan føles store og vanskelige. Det er viktig å huske at **få valg er endelige** – det er mulig å gjøre **omvalg** og ta nye veier senere. Å snakke med andre, gi seg selv tid og tåle usikkerhet er en del av **livsmestring**.', '{"label":"Meg selv og mine valg","children":[{"label":"Karriere","children":[{"label":"Hele livet"},{"label":"Karrierekompetanse"}]},{"label":"Kjenn deg selv","children":[{"label":"Interesser"},{"label":"Ferdigheter"},{"label":"Egenskaper"},{"label":"Verdier"}]},{"label":"Interessetyper","children":[{"label":"Praktisk og undersøkende"},{"label":"Kunstnerisk og sosial"},{"label":"Foretaksom og konvensjonell"}]},{"label":"Påvirkning","children":[{"label":"Familie og venner"},{"label":"Medier"},{"label":"Kjønn"},{"label":"Bosted og økonomi"}]},{"label":"Beslutning","children":[{"label":"Kartlegg og undersøk"},{"label":"Vurder og velg"},{"label":"Plan B og omvalg"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'utdanningsvalg-9:meg-selv-og-mine-valg';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('utdanningsvalg-9:meg-selv-og-mine-valg', 'Utdanningsvalg', 'Fag der man lærer om seg selv, utdanning og arbeidsliv for å kunne ta gode valg.', 0),
+  ('utdanningsvalg-9:meg-selv-og-mine-valg', 'Karriere', 'Hele veien gjennom livet: utdanning, arbeid, fritid og familie.', 1),
+  ('utdanningsvalg-9:meg-selv-og-mine-valg', 'Karrierekompetanse', 'Evnen til å kjenne seg selv, finne informasjon og ta gode valg.', 2),
+  ('utdanningsvalg-9:meg-selv-og-mine-valg', 'Interesser', 'Det man liker å holde på med.', 3),
+  ('utdanningsvalg-9:meg-selv-og-mine-valg', 'Ferdigheter', 'Det man er flink til, som å regne eller snakke med folk.', 4),
+  ('utdanningsvalg-9:meg-selv-og-mine-valg', 'Egenskaper', 'Hvordan man er, for eksempel tålmodig eller nysgjerrig.', 5),
+  ('utdanningsvalg-9:meg-selv-og-mine-valg', 'Verdier', 'Det som er viktig for en, som å hjelpe andre eller tjene godt.', 6),
+  ('utdanningsvalg-9:meg-selv-og-mine-valg', 'Praktisk interessetype', 'Liker å jobbe med hendene, verktøy og maskiner.', 7),
+  ('utdanningsvalg-9:meg-selv-og-mine-valg', 'Sosial interessetype', 'Liker å hjelpe, undervise og ta vare på andre.', 8),
+  ('utdanningsvalg-9:meg-selv-og-mine-valg', 'Foretaksom interessetype', 'Liker å lede, selge og overbevise.', 9),
+  ('utdanningsvalg-9:meg-selv-og-mine-valg', 'Kjønnsstereotypi', 'Forenklet forestilling om hva som passer for jenter og gutter.', 10),
+  ('utdanningsvalg-9:meg-selv-og-mine-valg', 'Beslutningsprosess', 'Kartlegge, finne informasjon, vurdere, velge og evaluere.', 11),
+  ('utdanningsvalg-9:meg-selv-og-mine-valg', 'Plan B', 'Et alternativ hvis førstevalget ikke går.', 12),
+  ('utdanningsvalg-9:meg-selv-og-mine-valg', 'Omvalg', 'Å velge en ny vei hvis det første valget ikke passet.', 13),
+  ('utdanningsvalg-9:meg-selv-og-mine-valg', 'Livsmestring', 'Å håndtere utfordringer og ta ansvar for eget liv.', 14);
+delete from public.quiz_sporsmal where tema_id = 'utdanningsvalg-9:meg-selv-og-mine-valg';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('utdanningsvalg-9:meg-selv-og-mine-valg', 'q01', 'flervalg', 'Hva betyr karriere i utdanningsvalg?', array['Bare å bli sjef', 'Hele veien gjennom livet, med utdanning, arbeid, fritid og familie', 'Bare den første jobben', 'Å tjene mest mulig']::text[], 1, 'Karriere handler om hele livsløpet.', true, true, 0),
+  ('utdanningsvalg-9:meg-selv-og-mine-valg', 'q02', 'flervalg', 'Hva er et eksempel på en verdi?', array['Å være flink i matte', 'Å være høy', 'Å ha lyst hår', 'At det er viktig for deg å hjelpe andre']::text[], 3, 'Verdier sier noe om hva som er viktig for deg.', true, true, 1),
+  ('utdanningsvalg-9:meg-selv-og-mine-valg', 'q03', 'flervalg', 'Hva er forskjellen på en interesse og en ferdighet?', array['En interesse er noe du liker, en ferdighet er noe du er flink til', 'Det er det samme', 'En ferdighet er noe du liker', 'En interesse kan ikke endre seg']::text[], 0, 'Du kan være interessert i noe du ennå ikke er flink til.', true, true, 2),
+  ('utdanningsvalg-9:meg-selv-og-mine-valg', 'q04', 'flervalg', 'Hva er en kjønnsstereotypi?', array['En lov om likestilling', 'En type utdanning', 'En forenklet forestilling om hva som passer for jenter og gutter', 'En yrkestittel']::text[], 2, 'Stereotypier kan påvirke valg uten at vi merker det.', true, true, 3),
+  ('utdanningsvalg-9:meg-selv-og-mine-valg', 'q05', 'flervalg', 'Hvilken interessetype liker å lede og overbevise?', array['Konvensjonell', 'Foretaksom', 'Kunstnerisk', 'Undersøkende']::text[], 1, 'Foretaksomme trives ofte med salg og ledelse.', true, true, 4),
+  ('utdanningsvalg-9:meg-selv-og-mine-valg', 'q06', 'flervalg', 'Hva er det første steget i en god beslutningsprosess?', array['Å velge det vennene velger', 'Å evaluere', 'Å ta en tilfeldig avgjørelse', 'Å kartlegge seg selv']::text[], 3, 'Deretter finner man informasjon og vurderer alternativene.', true, true, 5),
+  ('utdanningsvalg-9:meg-selv-og-mine-valg', 'q07', 'flervalg', 'Hva kan påvirke utdanningsvalget ditt?', array['Familie, venner, medier og bosted', 'Bare karakterene', 'Bare været', 'Ingenting']::text[], 0, 'Det er lurt å være bevisst på påvirkningene.', true, true, 6),
+  ('utdanningsvalg-9:meg-selv-og-mine-valg', 'q08', 'flervalg', 'Hva er karrierekompetanse?', array['Å ha en høy stilling', 'Å ha mange sertifikater', 'Evnen til å kjenne seg selv, finne informasjon og ta gode valg', 'Å ha jobbet lenge']::text[], 2, 'Karrierekompetanse kan trenes gjennom hele livet.', true, true, 7),
+  ('utdanningsvalg-9:meg-selv-og-mine-valg', 'q09', 'flervalg', 'Hvorfor kan det være lurt å ha en plan B?', array['Fordi plan A alltid er feil', 'Fordi førstevalget ikke alltid går', 'Fordi det er påbudt', 'Fordi rådgiveren bestemmer']::text[], 1, 'Da står du bedre rustet hvis noe uventet skjer.', true, false, 8),
+  ('utdanningsvalg-9:meg-selv-og-mine-valg', 'q10', 'flervalg', 'Hvilken interessetype liker å jobbe med hendene og maskiner?', array['Sosial', 'Kunstnerisk', 'Konvensjonell', 'Praktisk']::text[], 3, 'Praktiske typer trives ofte i yrkesfag som bygg, elektro og industri.', true, false, 9),
+  ('utdanningsvalg-9:meg-selv-og-mine-valg', 'm01', 'sant-usant', 'De fleste mennesker er en blanding av flere interessetyper.', array['Sant', 'Usant']::text[], 0, 'Få passer perfekt inn i én type.', false, true, 10),
+  ('utdanningsvalg-9:meg-selv-og-mine-valg', 'm02', 'sant-usant', 'Et utdanningsvalg kan aldri endres.', array['Sant', 'Usant']::text[], 1, 'Det er mulig å gjøre omvalg og ta nye veier senere.', false, true, 11),
+  ('utdanningsvalg-9:meg-selv-og-mine-valg', 'm03', 'sant-usant', 'Sosiale medier kan påvirke hvilke yrker vi tenker på.', array['Sant', 'Usant']::text[], 0, 'Noen yrker vises mye oftere enn andre.', false, true, 12),
+  ('utdanningsvalg-9:meg-selv-og-mine-valg', 'm04', 'sant-usant', 'Egenskaper og ferdigheter betyr nøyaktig det samme.', array['Sant', 'Usant']::text[], 1, 'Egenskaper er hvordan du er, ferdigheter er hva du kan.', false, true, 13),
+  ('utdanningsvalg-9:meg-selv-og-mine-valg', 'm05', 'flervalg', 'Hvilken interessetype liker orden og systemer?', array['Kunstnerisk', 'Praktisk', 'Konvensjonell', 'Sosial']::text[], 2, 'Konvensjonelle typer trives ofte med økonomi og administrasjon.', false, true, 14),
+  ('utdanningsvalg-9:meg-selv-og-mine-valg', 'm06', 'flervalg', 'Hva er livsmestring?', array['Å håndtere utfordringer og ta ansvar for eget liv', 'Å vinne konkurranser', 'Å få gode karakterer', 'Å ha mange venner']::text[], 0, 'Livsmestring er et tverrfaglig tema i skolen.', false, true, 15),
+  ('utdanningsvalg-9:meg-selv-og-mine-valg', 'm07', 'flervalg', 'Hva er det siste steget i beslutningsprosessen?', array['Å kartlegge seg selv', 'Å finne informasjon', 'Å vurdere alternativer', 'Å evaluere om valget ble som man trodde']::text[], 3, 'Evalueringen gir erfaring til neste valg.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('utdanningsvalg-9:meg-selv-og-mine-valg', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Utdanningsvalg: Utdanningssystemet
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('utdanningsvalg-9:utdanningssystemet', 'utdanningsvalg-9', 'utdanningssystemet', 'Utdanningssystemet', 'Oversikt over det norske utdanningssystemet: grunnskole, de femten utdanningsprogrammene i videregående, studiekompetanse og fagbrev, fagskole og høyere utdanning – og hvor du finner informasjon.', array[3, 2]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('utdanningsvalg-9:utdanningssystemet', '## Utdanningsløpet i Norge
+
+- **Barnehage** – frivillig, fra ett år
+- **Grunnskole** – ti år, **obligatorisk**: barneskole (1.–7.) og ungdomsskole (8.–10.)
+- **Videregående opplæring** – vanligvis tre eller fire år
+- **Fagskole** – høyere yrkesfaglig utdanning
+- **Universitet og høyskole** – høyere utdanning
+
+Etter grunnskolen har du **rett til videregående opplæring**.
+
+## Videregående: femten utdanningsprogram
+
+Det finnes **fem studieforberedende** og **ti yrkesfaglige** utdanningsprogram.
+
+**Studieforberedende** (tre år, gir **generell studiekompetanse**):
+
+- studiespesialisering
+- idrettsfag
+- musikk, dans og drama
+- kunst, design og arkitektur
+- medier og kommunikasjon
+
+**Yrkesfaglige** gir **fagbrev**, **svennebrev** eller **yrkeskompetanse**, blant annet bygg- og anleggsteknikk, elektro og datateknologi, helse- og oppvekstfag, restaurant- og matfag og teknologi- og industrifag. De fleste yrkesfag følger **2 + 2-modellen**: to år i skole og to år som **lærling** i en bedrift.
+
+## Nivåene i videregående
+
+Årene heter **Vg1**, **Vg2** og **Vg3**. På Vg1 har alle på samme utdanningsprogram mye felles. På Vg2 og Vg3 **spesialiserer** man seg mer, for eksempel ved å velge **programfag** på studiespesialisering eller et bestemt fag i yrkesfag.
+
+## Studiekompetanse
+
+**Generell studiekompetanse** gir rett til å søke universitet og høyskole. Den får du ved å fullføre et studieforberedende program – eller ved å ta **påbygging** etter yrkesfag. Noen studier krever **spesiell studiekompetanse**, for eksempel bestemte matematikk- og realfag for å bli ingeniør eller lege.
+
+## Høyere utdanning
+
+- **Bachelorgrad**: vanligvis tre år
+- **Mastergrad**: vanligvis to år etter bachelor
+- **Ph.d.**: forskerutdanning, vanligvis tre år etter master
+- **Profesjonsstudier** som medisin, psykologi og lærer har egne løp.
+
+**Fagskoler** gir kortere, praktiske utdanninger som bygger på fagbrev eller relevant erfaring. **Y-veien** gir personer med fagbrev mulighet til å bli ingeniør.
+
+## Finne informasjon
+
+- **vilbli.no** – oversikt over utdanningsprogram og veier gjennom videregående
+- **utdanning.no** – informasjon om yrker og utdanninger, med interessetester
+- **Rådgiveren** på skolen og **karrieresentre** i fylket
+- **Åpen dag** og **hospitering** på videregående skoler
+- Samtaler med folk som jobber i yrkene
+
+Vær **kildekritisk**: Informasjon fra skoler og bedrifter er ofte markedsføring. Sjekk flere kilder.', '{"label":"Utdanningssystemet","children":[{"label":"Grunnskole","children":[{"label":"Ti år"},{"label":"Obligatorisk"}]},{"label":"Videregående","children":[{"label":"5 studieforberedende"},{"label":"10 yrkesfaglige"},{"label":"Vg1, Vg2, Vg3"},{"label":"2 + 2-modellen"}]},{"label":"Kompetanse","children":[{"label":"Generell studiekompetanse"},{"label":"Spesiell studiekompetanse"},{"label":"Fagbrev"},{"label":"Påbygging"}]},{"label":"Høyere utdanning","children":[{"label":"Bachelor"},{"label":"Master"},{"label":"Fagskole"}]},{"label":"Informasjon","children":[{"label":"Vilbli.no"},{"label":"Utdanning.no"},{"label":"Rådgiver"},{"label":"Hospitering"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'utdanningsvalg-9:utdanningssystemet';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('utdanningsvalg-9:utdanningssystemet', 'Obligatorisk grunnskole', 'Ti år skole som alle barn i Norge har rett og plikt til.', 0),
+  ('utdanningsvalg-9:utdanningssystemet', 'Rett til videregående opplæring', 'Rett alle som har fullført grunnskolen har til videregående.', 1),
+  ('utdanningsvalg-9:utdanningssystemet', 'Utdanningsprogram', 'Hovedretning i videregående, som studiespesialisering eller restaurant- og matfag.', 2),
+  ('utdanningsvalg-9:utdanningssystemet', 'Studieforberedende program', 'Fem program som gir generell studiekompetanse etter tre år.', 3),
+  ('utdanningsvalg-9:utdanningssystemet', 'Yrkesfaglige program', 'Ti program som gir fagbrev, svennebrev eller yrkeskompetanse.', 4),
+  ('utdanningsvalg-9:utdanningssystemet', 'Vg1, Vg2, Vg3', 'Første, andre og tredje år i videregående.', 5),
+  ('utdanningsvalg-9:utdanningssystemet', 'Programfag', 'Fag man velger for å fordype seg i på et utdanningsprogram.', 6),
+  ('utdanningsvalg-9:utdanningssystemet', 'Generell studiekompetanse', 'Gir rett til å søke universitet og høyskole.', 7),
+  ('utdanningsvalg-9:utdanningssystemet', 'Spesiell studiekompetanse', 'Krav om bestemte fag for å komme inn på enkelte studier.', 8),
+  ('utdanningsvalg-9:utdanningssystemet', 'Påbygging', 'Ekstra år etter yrkesfag som gir generell studiekompetanse.', 9),
+  ('utdanningsvalg-9:utdanningssystemet', 'Bachelorgrad', 'Høyere utdanning som vanligvis tar tre år.', 10),
+  ('utdanningsvalg-9:utdanningssystemet', 'Mastergrad', 'Høyere utdanning som vanligvis tar to år etter bachelor.', 11),
+  ('utdanningsvalg-9:utdanningssystemet', 'Fagskole', 'Høyere yrkesfaglig utdanning som bygger på fagbrev eller erfaring.', 12),
+  ('utdanningsvalg-9:utdanningssystemet', 'Vilbli.no', 'Nettsted med oversikt over utdanningsprogram i videregående.', 13),
+  ('utdanningsvalg-9:utdanningssystemet', 'Hospitering', 'Å besøke en skole eller arbeidsplass for å prøve den.', 14);
+delete from public.quiz_sporsmal where tema_id = 'utdanningsvalg-9:utdanningssystemet';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('utdanningsvalg-9:utdanningssystemet', 'q01', 'flervalg', 'Hvor mange utdanningsprogram finnes det i videregående?', array['Ti', 'Femten', 'Fem', 'Tjue']::text[], 1, 'Fem studieforberedende og ti yrkesfaglige.', true, true, 0),
+  ('utdanningsvalg-9:utdanningssystemet', 'q02', 'flervalg', 'Hvilket av disse er et studieforberedende utdanningsprogram?', array['Idrettsfag', 'Naturbruk', 'Elektro og datateknologi', 'Helse- og oppvekstfag']::text[], 0, 'De andre er yrkesfaglige program.', true, true, 1),
+  ('utdanningsvalg-9:utdanningssystemet', 'q03', 'flervalg', 'Hva gir generell studiekompetanse?', array['Fagbrev alene', 'Ungdomsskolen', 'Rett til å søke universitet og høyskole', 'En lærlingplass']::text[], 2, 'Den får du etter et studieforberedende program eller påbygging.', true, true, 2),
+  ('utdanningsvalg-9:utdanningssystemet', 'q04', 'flervalg', 'Hvor lang tid tar en bachelorgrad vanligvis?', array['Ett år', 'Fem år', 'Åtte år', 'Tre år']::text[], 3, 'En mastergrad tar vanligvis to år i tillegg.', true, true, 3),
+  ('utdanningsvalg-9:utdanningssystemet', 'q05', 'flervalg', 'Hva er påbygging?', array['Et ekstra år etter yrkesfag som gir generell studiekompetanse', 'Å bygge et tilbygg på skolen', 'Et utdanningsprogram på ungdomsskolen', 'En type lærekontrakt']::text[], 0, 'Påbygging åpner veien til høyere utdanning.', true, true, 4),
+  ('utdanningsvalg-9:utdanningssystemet', 'q06', 'flervalg', 'Hva er spesiell studiekompetanse?', array['Det samme som fagbrev', 'Krav om bestemte fag for å komme inn på enkelte studier', 'Karakterer fra ungdomsskolen', 'En bachelorgrad']::text[], 1, 'For eksempel krav til matematikk og fysikk for ingeniørstudier.', true, true, 5),
+  ('utdanningsvalg-9:utdanningssystemet', 'q07', 'flervalg', 'Hvor finner du oversikt over utdanningsprogrammene i videregående?', array['Yr.no', 'Finn.no', 'Vilbli.no', 'Nrk.no']::text[], 2, 'Vilbli.no viser alle veier gjennom videregående.', true, true, 6),
+  ('utdanningsvalg-9:utdanningssystemet', 'q08', 'flervalg', 'Hvor mange år er grunnskolen i Norge?', array['Sju', 'Tolv', 'Ni', 'Ti']::text[], 3, 'Barneskole 1.–7. og ungdomsskole 8.–10.', true, true, 7),
+  ('utdanningsvalg-9:utdanningssystemet', 'q09', 'flervalg', 'Hvorfor bør du være kildekritisk når du leser om skoler og utdanninger?', array['Fordi informasjonen ofte er markedsføring', 'Fordi all informasjon er feil', 'Fordi rådgiveren sier det', 'Det er ikke nødvendig']::text[], 0, 'Sjekk flere kilder før du bestemmer deg.', true, false, 8),
+  ('utdanningsvalg-9:utdanningssystemet', 'q10', 'flervalg', 'Hva er en fagskole?', array['En ungdomsskole', 'En barneskole', 'Høyere yrkesfaglig utdanning', 'Et universitet']::text[], 2, 'Fagskoler gir kortere, praktiske utdanninger.', true, false, 9),
+  ('utdanningsvalg-9:utdanningssystemet', 'm01', 'sant-usant', 'Medier og kommunikasjon er et studieforberedende utdanningsprogram.', array['Sant', 'Usant']::text[], 0, 'Programmet ble studieforberedende med fagfornyelsen.', false, true, 10),
+  ('utdanningsvalg-9:utdanningssystemet', 'm02', 'sant-usant', 'Med fagbrev er det umulig å bli ingeniør.', array['Sant', 'Usant']::text[], 1, 'Y-veien og påbygging gir muligheter videre.', false, true, 11),
+  ('utdanningsvalg-9:utdanningssystemet', 'm03', 'sant-usant', 'På Vg2 og Vg3 spesialiserer man seg mer enn på Vg1.', array['Sant', 'Usant']::text[], 0, 'Da velger man programfag eller et bestemt yrkesfag.', false, true, 12),
+  ('utdanningsvalg-9:utdanningssystemet', 'm04', 'sant-usant', 'Barnehage er obligatorisk i Norge.', array['Sant', 'Usant']::text[], 1, 'Barnehage er frivillig. Grunnskolen er obligatorisk.', false, true, 13),
+  ('utdanningsvalg-9:utdanningssystemet', 'm05', 'flervalg', 'Hvor lenge varer en mastergrad vanligvis etter bachelor?', array['Ett år', 'Tre år', 'Fem år', 'To år']::text[], 3, 'Bachelor tre år pluss master to år er til sammen fem år.', false, true, 14),
+  ('utdanningsvalg-9:utdanningssystemet', 'm06', 'flervalg', 'Hva er programfag?', array['Fag man velger for å fordype seg', 'Fag på ungdomsskolen', 'Fag som alle må ha', 'Fag på universitetet']::text[], 0, 'For eksempel fysikk eller rettslære på studiespesialisering.', false, true, 15),
+  ('utdanningsvalg-9:utdanningssystemet', 'm07', 'flervalg', 'Hva betyr hospitering?', array['Å være på sykehus', 'Å besøke en skole eller arbeidsplass for å prøve den', 'Å ta en eksamen', 'Å søke jobb']::text[], 1, 'Hospitering gir et inntrykk av hvordan det er i praksis.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('utdanningsvalg-9:utdanningssystemet', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Utdanningsvalg: Arbeidslivet i endring
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('utdanningsvalg-9:arbeidslivet-i-endring', 'utdanningsvalg-9', 'arbeidslivet-i-endring', 'Arbeidslivet i endring', 'Næringer og sektorer i norsk arbeidsliv, hvordan konjunkturer påvirker jobbmulighetene, teknologi og kunstig intelligens, globalisering, det grønne skiftet og behovet for livslang læring.', array[4]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('utdanningsvalg-9:arbeidslivet-i-endring', '## Næringer
+
+Arbeidslivet deles ofte inn i tre typer **næringer**:
+
+- **Primærnæringer** henter ressurser direkte fra naturen: jordbruk, skogbruk, fiske og havbruk.
+- **Sekundærnæringer** bearbeider råvarer til produkter: industri, bygg og anlegg og energiproduksjon.
+- **Tertiærnæringer** er **tjenesteyting**: helse, skole, handel, transport, IT og mye mer.
+
+For hundre år siden jobbet mange i primærnæringene. I dag jobber de aller fleste i **tjenesteytende næringer**. Olje og gass har vært svært viktig for norsk økonomi siden 1970-tallet.
+
+## Offentlig og privat sektor
+
+**Offentlig sektor** er stat, fylker og kommuner, for eksempel skoler, sykehus og politi. **Privat sektor** er bedrifter som eies av private og skal tjene penger. Norge har en stor offentlig sektor.
+
+## Konjunkturer
+
+Økonomien går i **bølger** som kalles **konjunkturer**:
+
+- I **høykonjunktur** går det godt: bedriftene selger mye, trenger flere ansatte, og **arbeidsledigheten** er lav.
+- I **lavkonjunktur** går det dårligere: salget faller, noen blir **permittert** eller mister jobben, og arbeidsledigheten øker.
+
+Konjunkturene påvirker hvilke bransjer som trenger folk. Men en utdanning tar flere år, så det er lurt å tenke **langsiktig** og ikke bare på hvordan det går akkurat nå.
+
+## Teknologi
+
+**Digitalisering**, **automatisering** og **kunstig intelligens (KI)** endrer arbeidslivet. Noen oppgaver overtas av maskiner, for eksempel rutinepreget kontorarbeid og samlebåndsarbeid. Samtidig oppstår **nye yrker**, som dataingeniører, spillutviklere og droneoperatører. Mange yrker endrer innhold: Bilmekanikere jobber med elbiler og datamaskiner, og helsefagarbeidere bruker velferdsteknologi.
+
+## Globalisering
+
+**Globalisering** betyr at landene knyttes tettere sammen gjennom handel, reiser og kommunikasjon. Norske bedrifter konkurrerer med bedrifter i hele verden, og mange jobber i internasjonale selskaper. Noen jobber flyttes til land med lavere lønn, mens andre oppstår i Norge.
+
+## Bærekraft og det grønne skiftet
+
+Det **grønne skiftet** er overgangen til et samfunn med lavere klimagassutslipp. Det gir behov for arbeidskraft innen for eksempel **fornybar energi**, **elektrifisering**, **energieffektive bygg**, **gjenvinning** og **reparasjon**. Mange eksisterende yrker må lære nye metoder.
+
+## Framtidens kompetanse
+
+Arbeidslivet trenger både **fagarbeidere** og folk med **høyere utdanning**. Mange prognoser peker på stort behov for arbeidskraft i **helse og omsorg** og for **fagarbeidere**. Egenskaper som **samarbeid**, **problemløsning**, **kreativitet** og **digitale ferdigheter** blir viktigere. Fordi arbeidslivet endrer seg, må alle regne med **livslang læring** – å lære nye ting gjennom hele yrkeslivet.', '{"label":"Arbeidslivet i endring","children":[{"label":"Næringer","children":[{"label":"Primær"},{"label":"Sekundær"},{"label":"Tertiær"},{"label":"Offentlig og privat"}]},{"label":"Konjunkturer","children":[{"label":"Høykonjunktur"},{"label":"Lavkonjunktur"},{"label":"Arbeidsledighet"}]},{"label":"Teknologi","children":[{"label":"Digitalisering"},{"label":"Automatisering"},{"label":"KI"},{"label":"Nye yrker"}]},{"label":"Globalt","children":[{"label":"Globalisering"},{"label":"Det grønne skiftet"}]},{"label":"Framtiden","children":[{"label":"Fagarbeidere"},{"label":"Helse og omsorg"},{"label":"Livslang læring"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'utdanningsvalg-9:arbeidslivet-i-endring';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('utdanningsvalg-9:arbeidslivet-i-endring', 'Primærnæringer', 'Næringer som henter ressurser fra naturen: jordbruk, skogbruk og fiske.', 0),
+  ('utdanningsvalg-9:arbeidslivet-i-endring', 'Sekundærnæringer', 'Næringer som bearbeider råvarer: industri og bygg og anlegg.', 1),
+  ('utdanningsvalg-9:arbeidslivet-i-endring', 'Tertiærnæringer', 'Tjenesteytende næringer, som helse, handel og IT.', 2),
+  ('utdanningsvalg-9:arbeidslivet-i-endring', 'Offentlig sektor', 'Stat, fylker og kommuner, som skoler og sykehus.', 3),
+  ('utdanningsvalg-9:arbeidslivet-i-endring', 'Privat sektor', 'Bedrifter eid av private som skal tjene penger.', 4),
+  ('utdanningsvalg-9:arbeidslivet-i-endring', 'Konjunkturer', 'Svingninger i økonomien mellom gode og dårlige tider.', 5),
+  ('utdanningsvalg-9:arbeidslivet-i-endring', 'Høykonjunktur', 'Gode tider med høyt salg og lav arbeidsledighet.', 6),
+  ('utdanningsvalg-9:arbeidslivet-i-endring', 'Lavkonjunktur', 'Dårlige tider med lavere salg og økende arbeidsledighet.', 7),
+  ('utdanningsvalg-9:arbeidslivet-i-endring', 'Arbeidsledighet', 'At personer som ønsker å jobbe, ikke har arbeid.', 8),
+  ('utdanningsvalg-9:arbeidslivet-i-endring', 'Permittering', 'Midlertidig fritak fra arbeid når bedriften har for lite å gjøre.', 9),
+  ('utdanningsvalg-9:arbeidslivet-i-endring', 'Automatisering', 'At maskiner overtar oppgaver som mennesker gjorde før.', 10),
+  ('utdanningsvalg-9:arbeidslivet-i-endring', 'Kunstig intelligens (KI)', 'Teknologi som lar datamaskiner utføre oppgaver som krever en slags intelligens.', 11),
+  ('utdanningsvalg-9:arbeidslivet-i-endring', 'Globalisering', 'At landene knyttes tettere sammen gjennom handel og kommunikasjon.', 12),
+  ('utdanningsvalg-9:arbeidslivet-i-endring', 'Det grønne skiftet', 'Overgangen til et samfunn med lavere klimagassutslipp.', 13),
+  ('utdanningsvalg-9:arbeidslivet-i-endring', 'Livslang læring', 'Å lære nye ting gjennom hele yrkeslivet.', 14);
+delete from public.quiz_sporsmal where tema_id = 'utdanningsvalg-9:arbeidslivet-i-endring';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('utdanningsvalg-9:arbeidslivet-i-endring', 'q01', 'flervalg', 'Hvilken næring er fiske?', array['Sekundærnæring', 'Primærnæring', 'Tertiærnæring', 'Offentlig sektor']::text[], 1, 'Primærnæringer henter ressurser direkte fra naturen.', true, true, 0),
+  ('utdanningsvalg-9:arbeidslivet-i-endring', 'q02', 'flervalg', 'Hva kjennetegner en høykonjunktur?', array['Høy arbeidsledighet', 'Mange konkurser', 'Høyt salg og lav arbeidsledighet', 'At alle blir permittert']::text[], 2, 'I høykonjunktur trenger bedriftene flere ansatte.', true, true, 1),
+  ('utdanningsvalg-9:arbeidslivet-i-endring', 'q03', 'flervalg', 'Hvor jobber de fleste i Norge i dag?', array['I tjenesteytende næringer', 'I jordbruket', 'I fisket', 'I gruvedrift']::text[], 0, 'Helse, handel, skole og IT er eksempler.', true, true, 2),
+  ('utdanningsvalg-9:arbeidslivet-i-endring', 'q04', 'flervalg', 'Hva er automatisering?', array['At folk jobber mer', 'At bilene blir større', 'At bedrifter flytter til utlandet', 'At maskiner overtar oppgaver mennesker gjorde før']::text[], 3, 'Automatisering endrer mange yrker.', true, true, 3),
+  ('utdanningsvalg-9:arbeidslivet-i-endring', 'q05', 'flervalg', 'Hva er det grønne skiftet?', array['At alle maler husene grønne', 'Overgangen til et samfunn med lavere klimagassutslipp', 'En ny type skift på jobb', 'At man bare spiser grønnsaker']::text[], 1, 'Det grønne skiftet gir nye jobber innen blant annet fornybar energi.', true, true, 4),
+  ('utdanningsvalg-9:arbeidslivet-i-endring', 'q06', 'flervalg', 'Hva er et eksempel på offentlig sektor?', array['En frisørsalong', 'En dagligvarebutikk', 'Et sykehus', 'En restaurant']::text[], 2, 'Offentlig sektor drives av stat, fylker og kommuner.', true, true, 5),
+  ('utdanningsvalg-9:arbeidslivet-i-endring', 'q07', 'flervalg', 'Hvorfor bør du tenke langsiktig når du velger utdanning?', array['Fordi en utdanning tar flere år og konjunkturene endrer seg', 'Fordi arbeidslivet aldri endrer seg', 'Fordi alle jobber forsvinner', 'Det er ikke nødvendig']::text[], 0, 'Det som gjelder i dag, kan være annerledes når du er ferdig.', true, true, 6),
+  ('utdanningsvalg-9:arbeidslivet-i-endring', 'q08', 'flervalg', 'Hva er permittering?', array['At man får fast jobb', 'At man får lønnsøkning', 'At man blir forfremmet', 'Midlertidig fritak fra arbeid når bedriften har for lite å gjøre']::text[], 3, 'Permitteringer er vanlige i lavkonjunkturer.', true, true, 7),
+  ('utdanningsvalg-9:arbeidslivet-i-endring', 'q09', 'flervalg', 'Hva betyr globalisering for arbeidslivet?', array['At alle må flytte til utlandet', 'At norske bedrifter konkurrerer med bedrifter i hele verden', 'At handel stopper opp', 'At ingen jobber i Norge']::text[], 1, 'Noen jobber flyttes ut, mens andre oppstår.', true, false, 8),
+  ('utdanningsvalg-9:arbeidslivet-i-endring', 'q10', 'flervalg', 'Hvilke egenskaper blir viktigere i framtidens arbeidsliv?', array['Å gjøre det samme hele livet', 'Å jobbe alene uten å samarbeide', 'Samarbeid, problemløsning og digitale ferdigheter', 'Å unngå ny teknologi']::text[], 2, 'Endringer krever evne til å lære og tilpasse seg.', true, false, 9),
+  ('utdanningsvalg-9:arbeidslivet-i-endring', 'm01', 'sant-usant', 'Ny teknologi kan både fjerne gamle jobber og skape nye.', array['Sant', 'Usant']::text[], 0, 'Dataingeniør og droneoperatør er eksempler på nye yrker.', false, true, 10),
+  ('utdanningsvalg-9:arbeidslivet-i-endring', 'm02', 'sant-usant', 'Industri er en primærnæring.', array['Sant', 'Usant']::text[], 1, 'Industri er en sekundærnæring.', false, true, 11),
+  ('utdanningsvalg-9:arbeidslivet-i-endring', 'm03', 'sant-usant', 'I lavkonjunktur øker ofte arbeidsledigheten.', array['Sant', 'Usant']::text[], 0, 'Bedriftene selger mindre og trenger færre ansatte.', false, true, 12),
+  ('utdanningsvalg-9:arbeidslivet-i-endring', 'm04', 'sant-usant', 'Etter at man er ferdig utdannet, trenger man aldri å lære noe nytt.', array['Sant', 'Usant']::text[], 1, 'Arbeidslivet endrer seg, så livslang læring er nødvendig.', false, true, 13),
+  ('utdanningsvalg-9:arbeidslivet-i-endring', 'm05', 'flervalg', 'Hvilket yrke har endret seg på grunn av elbiler?', array['Bilmekaniker', 'Frisør', 'Baker', 'Barnehagelærer']::text[], 0, 'Bilmekanikere jobber nå mye med elektronikk og programvare.', false, true, 14),
+  ('utdanningsvalg-9:arbeidslivet-i-endring', 'm06', 'flervalg', 'Hvilken sektor har ansvar for grunnskolen?', array['Privat sektor', 'Primærnæringen', 'Industrien', 'Offentlig sektor']::text[], 3, 'Kommunene driver grunnskolene.', false, true, 15),
+  ('utdanningsvalg-9:arbeidslivet-i-endring', 'm07', 'flervalg', 'Hvilket område gir nye jobber i det grønne skiftet?', array['Kullgruver', 'Fornybar energi', 'Engangsplast', 'Oljefyring']::text[], 1, 'Også gjenvinning og energieffektive bygg gir nye jobber.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('utdanningsvalg-9:arbeidslivet-i-endring', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Utdanningsvalg: Kjønn og karrierevalg
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('utdanningsvalg-9:kjonn-og-karrierevalg', 'utdanningsvalg-9', 'kjonn-og-karrierevalg', 'Kjønn og karrierevalg', 'Det kjønnsdelte arbeidsmarkedet i Norge, hvorfor jenter og gutter ofte velger ulikt, lønnsforskjeller og deltid, likestillingsloven og hvordan du kan ta valg uten å styres av stereotypier.', array[7]::int[], 3, 'sjekkes', array['Sjekk påstandene om kjønnsfordeling i yrker og utdanningsprogram, og at kvinner er i flertall i høyere utdanning, mot ferske tall fra SSB.']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('utdanningsvalg-9:kjonn-og-karrierevalg', '## Et kjønnsdelt arbeidsmarked
+
+Norge regnes som et av de mest likestilte landene i verden. Likevel er **arbeidsmarkedet kjønnsdelt**: Mange yrker domineres av ett kjønn.
+
+- **Kvinner** er i stort flertall blant sykepleiere, helsefagarbeidere, barnehagelærere og frisører.
+- **Menn** er i stort flertall blant elektrikere, tømrere, rørleggere, bilmekanikere og ingeniører i enkelte fag.
+
+Det samme mønsteret ser man i videregående: **Helse- og oppvekstfag** har flest jenter, mens **elektro og datateknologi**, **bygg- og anleggsteknikk** og **teknologi- og industrifag** har flest gutter. I høyere utdanning er det nå **flere kvinner enn menn**.
+
+## Hvorfor velger vi ulikt?
+
+Forklaringene er sammensatte:
+
+- **Kjønnsstereotypier**: forestillinger om hva som er «typisk» for jenter og gutter
+- **Forventninger** fra familie, venner og samfunnet
+- **Rollemodeller**: Vi ser sjelden kvinnelige elektrikere eller mannlige barnehagelærere
+- **Medier og reklame** som viser yrker på en kjønnet måte
+- **Frykt for å skille seg ut** eller bli den eneste av sitt kjønn i klassen
+- **Interesser** – men interesser formes også av hva vi har fått prøve
+
+## Konsekvenser
+
+Det kjønnsdelte arbeidsmarkedet har konsekvenser:
+
+- **Lønnsforskjeller**: Kvinner tjener i gjennomsnitt mindre enn menn, blant annet fordi mange kvinnedominerte yrker har lavere lønn.
+- **Deltid**: Flere kvinner enn menn jobber deltid, noe som gir lavere inntekt og pensjon.
+- **Mangel på arbeidskraft**: Når halvparten av befolkningen sjelden vurderer et yrke, går samfunnet glipp av talenter. For eksempel trengs det flere menn i helse og omsorg og flere kvinner i teknologi.
+- **Mangfold på arbeidsplassen** gir ofte bedre løsninger og arbeidsmiljø.
+
+## Lover og tiltak
+
+**Likestillings- og diskrimineringsloven** forbyr diskriminering på grunn av kjønn, blant annet ved ansettelse og lønn. **Likestillings- og diskrimineringsombudet** gir veiledning, og **Diskrimineringsnemnda** behandler klager. Arbeidsgivere har plikt til å jobbe aktivt for likestilling.
+
+Det finnes også tiltak for å få flere til å velge **utradisjonelt**, for eksempel kampanjer, jentedager i teknologifag, rekrutteringstiltak for gutter i helsefag og **ekstra poeng** til det underrepresenterte kjønnet ved opptak til enkelte studier.
+
+## Ditt valg
+
+Å velge **utradisjonelt** betyr å velge et yrke der det er få av ditt kjønn. Det viktigste er at du velger ut fra **dine egne interesser og ferdigheter**, ikke ut fra hva andre mener passer for deg. Still deg selv spørsmålet: *Hadde jeg valgt annerledes hvis jeg hadde vært av et annet kjønn?*', '{"label":"Kjønn og karrierevalg","children":[{"label":"Kjønnsdelt","children":[{"label":"Kvinnedominerte yrker"},{"label":"Mannsdominerte yrker"},{"label":"Videregående"}]},{"label":"Årsaker","children":[{"label":"Stereotypier"},{"label":"Forventninger"},{"label":"Rollemodeller"},{"label":"Medier"}]},{"label":"Konsekvenser","children":[{"label":"Lønnsforskjeller"},{"label":"Deltid"},{"label":"Mangel på arbeidskraft"}]},{"label":"Lover og tiltak","children":[{"label":"Likestillingsloven"},{"label":"Ombudet"},{"label":"Kjønnspoeng"}]},{"label":"Ditt valg","children":[{"label":"Egne interesser"},{"label":"Utradisjonelle valg"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'utdanningsvalg-9:kjonn-og-karrierevalg';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('utdanningsvalg-9:kjonn-og-karrierevalg', 'Kjønnsdelt arbeidsmarked', 'At mange yrker domineres av ett kjønn.', 0),
+  ('utdanningsvalg-9:kjonn-og-karrierevalg', 'Kjønnsstereotypi', 'Forestilling om hva som er typisk for jenter og gutter.', 1),
+  ('utdanningsvalg-9:kjonn-og-karrierevalg', 'Rollemodell', 'En person andre ser opp til og lar seg inspirere av.', 2),
+  ('utdanningsvalg-9:kjonn-og-karrierevalg', 'Utradisjonelt valg', 'Å velge et yrke der det er få av ens eget kjønn.', 3),
+  ('utdanningsvalg-9:kjonn-og-karrierevalg', 'Likestilling', 'At kvinner og menn har like rettigheter, plikter og muligheter.', 4),
+  ('utdanningsvalg-9:kjonn-og-karrierevalg', 'Lønnsforskjell', 'Forskjellen mellom gjennomsnittslønnen til kvinner og menn.', 5),
+  ('utdanningsvalg-9:kjonn-og-karrierevalg', 'Deltid', 'Å jobbe mindre enn full stilling.', 6),
+  ('utdanningsvalg-9:kjonn-og-karrierevalg', 'Likestillings- og diskrimineringsloven', 'Lov som forbyr diskriminering, blant annet på grunn av kjønn.', 7),
+  ('utdanningsvalg-9:kjonn-og-karrierevalg', 'Likestillings- og diskrimineringsombudet', 'Offentlig organ som gir veiledning om diskriminering.', 8),
+  ('utdanningsvalg-9:kjonn-og-karrierevalg', 'Diskrimineringsnemnda', 'Organ som behandler klager om diskriminering.', 9),
+  ('utdanningsvalg-9:kjonn-og-karrierevalg', 'Aktivitetsplikt', 'Arbeidsgiveres plikt til å jobbe aktivt for likestilling.', 10),
+  ('utdanningsvalg-9:kjonn-og-karrierevalg', 'Kjønnspoeng', 'Ekstra poeng til det underrepresenterte kjønnet ved opptak til enkelte studier.', 11),
+  ('utdanningsvalg-9:kjonn-og-karrierevalg', 'Mangfold', 'At ulike mennesker med ulik bakgrunn jobber sammen.', 12),
+  ('utdanningsvalg-9:kjonn-og-karrierevalg', 'Kvinnedominert yrke', 'Yrke der de fleste er kvinner, som sykepleier.', 13),
+  ('utdanningsvalg-9:kjonn-og-karrierevalg', 'Mannsdominert yrke', 'Yrke der de fleste er menn, som elektriker.', 14);
+delete from public.quiz_sporsmal where tema_id = 'utdanningsvalg-9:kjonn-og-karrierevalg';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('utdanningsvalg-9:kjonn-og-karrierevalg', 'q01', 'flervalg', 'Hva betyr det at arbeidsmarkedet er kjønnsdelt?', array['At kvinner og menn jobber på ulike dager', 'At mange yrker domineres av ett kjønn', 'At lønna er lik for alle', 'At menn og kvinner ikke får jobbe sammen']::text[], 1, 'Norge har et av de mest kjønnsdelte arbeidsmarkedene i Europa, selv om landet regnes som likestilt.', true, true, 0),
+  ('utdanningsvalg-9:kjonn-og-karrierevalg', 'q02', 'flervalg', 'Hvilket utdanningsprogram har flest jenter?', array['Elektro og datateknologi', 'Bygg- og anleggsteknikk', 'Teknologi- og industrifag', 'Helse- og oppvekstfag']::text[], 3, 'De tekniske programmene har flest gutter.', true, true, 1),
+  ('utdanningsvalg-9:kjonn-og-karrierevalg', 'q03', 'flervalg', 'Hva er et utradisjonelt valg?', array['Å velge et yrke der det er få av ditt kjønn', 'Å velge det samme som foreldrene', 'Å ikke velge noe', 'Å velge den korteste utdanningen']::text[], 0, 'For eksempel en gutt som blir helsefagarbeider.', true, true, 2),
+  ('utdanningsvalg-9:kjonn-og-karrierevalg', 'q04', 'flervalg', 'Hvilken lov forbyr diskriminering på grunn av kjønn?', array['Opplæringsloven', 'Ferieloven', 'Likestillings- og diskrimineringsloven', 'Vegtrafikkloven']::text[], 2, 'Loven gjelder blant annet ved ansettelse og lønn.', true, true, 3),
+  ('utdanningsvalg-9:kjonn-og-karrierevalg', 'q05', 'flervalg', 'Hvorfor tjener kvinner i gjennomsnitt mindre enn menn?', array['Fordi de er dårligere', 'Blant annet fordi mange kvinnedominerte yrker har lavere lønn og flere kvinner jobber deltid', 'Fordi loven sier det', 'Det gjør de ikke']::text[], 1, 'Lønnsforskjellene har flere årsaker.', true, true, 4),
+  ('utdanningsvalg-9:kjonn-og-karrierevalg', 'q06', 'flervalg', 'Hva er en kjønnsstereotypi?', array['En forestilling om hva som er typisk for jenter og gutter', 'En type musikkanlegg', 'En lov', 'Et yrke']::text[], 0, 'Stereotypier kan begrense valgene våre.', true, true, 5),
+  ('utdanningsvalg-9:kjonn-og-karrierevalg', 'q07', 'flervalg', 'Hvordan kan rollemodeller påvirke yrkesvalg?', array['De har ingen betydning', 'De bestemmer valget for deg', 'De gjør det lettere å se for seg et yrke man ellers ikke ville vurdert', 'De gjør alle yrker like']::text[], 2, 'Det er lettere å velge noe når man ser at andre som ligner en, har gjort det.', true, true, 6),
+  ('utdanningsvalg-9:kjonn-og-karrierevalg', 'q08', 'flervalg', 'Hvorfor er det et problem for samfunnet at arbeidsmarkedet er kjønnsdelt?', array['Det er ikke et problem', 'Det gir for mange arbeidere', 'Det gjør alle yrker like', 'Samfunnet går glipp av talenter og får mangel på arbeidskraft i noen yrker']::text[], 3, 'Det trengs for eksempel flere menn i helse og omsorg.', true, true, 7),
+  ('utdanningsvalg-9:kjonn-og-karrierevalg', 'q09', 'flervalg', 'Hva er kjønnspoeng?', array['Ekstra poeng til det underrepresenterte kjønnet ved opptak til enkelte studier', 'Poeng i gym', 'Poeng for å være gutt', 'En karakter']::text[], 0, 'Tiltaket skal gi en jevnere kjønnsbalanse.', true, false, 8),
+  ('utdanningsvalg-9:kjonn-og-karrierevalg', 'q10', 'flervalg', 'Hva er et godt spørsmål å stille seg når man velger utdanning?', array['Hva velger alle vennene mine?', 'Hadde jeg valgt annerledes hvis jeg hadde vært av et annet kjønn?', 'Hva er mest populært på sosiale medier?', 'Hva er den korteste utdanningen?']::text[], 1, 'Spørsmålet kan avsløre om stereotypier styrer valget.', true, false, 9),
+  ('utdanningsvalg-9:kjonn-og-karrierevalg', 'm01', 'sant-usant', 'Flere kvinner enn menn jobber deltid i Norge.', array['Sant', 'Usant']::text[], 0, 'Deltid gir lavere inntekt og pensjon.', false, true, 10),
+  ('utdanningsvalg-9:kjonn-og-karrierevalg', 'm02', 'sant-usant', 'Det er lov å la være å ansette noen fordi de er kvinne.', array['Sant', 'Usant']::text[], 1, 'Likestillings- og diskrimineringsloven forbyr dette.', false, true, 11),
+  ('utdanningsvalg-9:kjonn-og-karrierevalg', 'm03', 'sant-usant', 'Det er nå flere kvinner enn menn i høyere utdanning i Norge.', array['Sant', 'Usant']::text[], 0, 'Kvinner er i flertall blant studentene.', false, true, 12),
+  ('utdanningsvalg-9:kjonn-og-karrierevalg', 'm04', 'sant-usant', 'Interesser er medfødte og påvirkes ikke av hva vi har fått prøve.', array['Sant', 'Usant']::text[], 1, 'Interesser formes også av erfaringer og forventninger.', false, true, 13),
+  ('utdanningsvalg-9:kjonn-og-karrierevalg', 'm05', 'flervalg', 'Hvem behandler klager om diskriminering?', array['Politiet', 'Rådgiveren', 'Diskrimineringsnemnda', 'Kommunestyret']::text[], 2, 'Ombudet gir veiledning, og nemnda behandler klager.', false, true, 14),
+  ('utdanningsvalg-9:kjonn-og-karrierevalg', 'm06', 'flervalg', 'Hvilket yrke er i dag mannsdominert?', array['Sykepleier', 'Elektriker', 'Barnehagelærer', 'Frisør']::text[], 1, 'De andre yrkene er kvinnedominerte.', false, true, 15),
+  ('utdanningsvalg-9:kjonn-og-karrierevalg', 'm07', 'flervalg', 'Hva er en fordel med mangfold på arbeidsplassen?', array['Det gir ofte bedre løsninger og arbeidsmiljø', 'Det gir lavere lønn', 'Det gjør alle like', 'Det gir færre ansatte']::text[], 0, 'Ulike perspektiver kan gi bedre løsninger.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('utdanningsvalg-9:kjonn-og-karrierevalg', 15)
 on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Norsk (10): rydd bort fjernede temaer
@@ -16782,6 +17884,758 @@ insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, ri
   ('spansk-10:miljo-og-samfunn', 'm07', 'flervalg', 'Hva betyr «Es importante reciclar»?', array['Gjenvinning er dyrt', 'Jeg liker ikke å gjenvinne', 'Det er viktig å gjenvinne', 'Man kan ikke gjenvinne']::text[], 2, '«Es importante» + infinitiv betyr det er viktig å …', false, true, 16);
 insert into public.miniprover (tema_id, minutter) values
   ('spansk-10:miljo-og-samfunn', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Arbeidslivsfag (10): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'arbeidslivsfag-10' and slug not in ('prosjektstyring', 'rettigheter-og-plikter-i-arbeidslivet', 'ungdomsbedrift', 'yrkesfag-og-veien-videre');
+
+-- Arbeidslivsfag: Prosjektstyring
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('arbeidslivsfag-10:prosjektstyring', 'arbeidslivsfag-10', 'prosjektstyring', 'Prosjektstyring', 'Hvordan større arbeidsoppdrag gjennomføres som prosjekter: prosjektmål, faser, milepæler, Gantt-diagram, ressurser, budsjett og regnskap, statusmøter og sluttrapport.', array[2, 8]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('arbeidslivsfag-10:prosjektstyring', '## Hva er et prosjekt?
+
+Et **prosjekt** er en arbeidsoppgave med et **tydelig mål**, en **start** og en **slutt**, et begrenset **budsjett** og et **prosjektteam**. Eksempler er å bygge en gapahuk i skolegården, arrangere et julemarked eller pusse opp et rom. I arbeidslivet jobber for eksempel bygg- og IT-bransjen mye i prosjekter.
+
+## Mål
+
+Et godt prosjektmål er **SMART**:
+
+- **S**pesifikt – tydelig hva som skal oppnås
+- **M**ålbart – man kan sjekke om det er nådd
+- **A**kseptert – teamet står bak det
+- **R**ealistisk – mulig å få til
+- **T**idsbestemt – har en frist
+
+«Vi skal lage ti fuglekasser av gjenbrukstre og levere dem til barnehagen innen 1. mai» er et SMART mål.
+
+## Fasene i et prosjekt
+
+1. **Idéfasen**: Finne behov og idé og avklare bestillingen.
+2. **Planleggingsfasen**: Lage mål, arbeidsplan, tidsplan, budsjett og risikovurdering.
+3. **Gjennomføringsfasen**: Utføre arbeidet og følge med på framdriften.
+4. **Avslutningsfasen**: Levere, evaluere og skrive **sluttrapport**.
+
+## Tidsplan og milepæler
+
+Et **Gantt-diagram** er en tidsplan der hver oppgave vises som en **stolpe** langs en tidslinje. Da ser man hva som skal skje når, og hvilke oppgaver som henger sammen. **Milepæler** er viktige delmål, for eksempel «materialer innkjøpt» eller «første prototyp ferdig». Noen oppgaver må gjøres i **rekkefølge**, mens andre kan gjøres **samtidig**.
+
+## Ressurser
+
+Et prosjekt trenger **ressurser**: **personer**, **tid**, **penger**, **materialer**, **verktøy** og **lokaler**. **Prosjektlederen** har ansvar for å fordele ressursene og holde oversikt.
+
+## Budsjett og regnskap
+
+**Budsjettet** lages **før** prosjektet og viser forventede inntekter og utgifter. **Regnskapet** føres **underveis og etterpå** og viser hva som faktisk ble brukt og tjent. Ved å sammenligne budsjett og regnskap ser man om prosjektet holdt seg innenfor rammene.
+
+## Følge opp underveis
+
+På **statusmøter** går teamet gjennom: Hva er gjort? Hva gjenstår? Er det **problemer** eller **forsinkelser**? Hvis noe går galt, må man **justere planen** – for eksempel omfordele oppgaver, forenkle produktet eller avtale ny frist med oppdragsgiveren.
+
+## Sluttrapport og evaluering
+
+En **sluttrapport** beskriver mål, gjennomføring, resultat, økonomi og **erfaringer**. Den inneholder også en **vurdering** av egen og gruppens innsats: Nådde vi målet? Hva fungerte i samarbeidet? Hva ville vi gjort annerledes? Slike erfaringer gjør neste prosjekt bedre.', '{"label":"Prosjektstyring","children":[{"label":"Prosjekt","children":[{"label":"Mål"},{"label":"Start og slutt"},{"label":"Team og leder"}]},{"label":"Faser","children":[{"label":"Idé"},{"label":"Planlegging"},{"label":"Gjennomføring"},{"label":"Avslutning"}]},{"label":"Tidsplan","children":[{"label":"Gantt-diagram"},{"label":"Milepæler"},{"label":"Rekkefølge"}]},{"label":"Økonomi","children":[{"label":"Ressurser"},{"label":"Budsjett"},{"label":"Regnskap"}]},{"label":"Oppfølging","children":[{"label":"Statusmøter"},{"label":"Justere planen"},{"label":"Sluttrapport"},{"label":"Vurdering"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'arbeidslivsfag-10:prosjektstyring';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('arbeidslivsfag-10:prosjektstyring', 'Prosjekt', 'Arbeidsoppgave med tydelig mål, start og slutt, budsjett og team.', 0),
+  ('arbeidslivsfag-10:prosjektstyring', 'SMART-mål', 'Mål som er spesifikt, målbart, akseptert, realistisk og tidsbestemt.', 1),
+  ('arbeidslivsfag-10:prosjektstyring', 'Idéfasen', 'Fasen der man finner behov og idé og avklarer bestillingen.', 2),
+  ('arbeidslivsfag-10:prosjektstyring', 'Planleggingsfasen', 'Fasen der man lager mål, planer, budsjett og risikovurdering.', 3),
+  ('arbeidslivsfag-10:prosjektstyring', 'Gjennomføringsfasen', 'Fasen der arbeidet utføres og framdriften følges opp.', 4),
+  ('arbeidslivsfag-10:prosjektstyring', 'Avslutningsfasen', 'Fasen der man leverer, evaluerer og skriver sluttrapport.', 5),
+  ('arbeidslivsfag-10:prosjektstyring', 'Gantt-diagram', 'Tidsplan der oppgavene vises som stolper langs en tidslinje.', 6),
+  ('arbeidslivsfag-10:prosjektstyring', 'Milepæl', 'Viktig delmål i et prosjekt.', 7),
+  ('arbeidslivsfag-10:prosjektstyring', 'Ressurser', 'Det prosjektet trenger: personer, tid, penger, materialer og verktøy.', 8),
+  ('arbeidslivsfag-10:prosjektstyring', 'Prosjektleder', 'Person som har ansvar for å lede prosjektet og holde oversikt.', 9),
+  ('arbeidslivsfag-10:prosjektstyring', 'Budsjett', 'Plan for forventede inntekter og utgifter, laget før prosjektet.', 10),
+  ('arbeidslivsfag-10:prosjektstyring', 'Regnskap', 'Oversikt over faktiske inntekter og utgifter.', 11),
+  ('arbeidslivsfag-10:prosjektstyring', 'Statusmøte', 'Møte der teamet går gjennom hva som er gjort og hva som gjenstår.', 12),
+  ('arbeidslivsfag-10:prosjektstyring', 'Prototyp', 'Første utkast av et produkt som testes før endelig produksjon.', 13),
+  ('arbeidslivsfag-10:prosjektstyring', 'Sluttrapport', 'Rapport om mål, gjennomføring, resultat, økonomi og erfaringer.', 14);
+delete from public.quiz_sporsmal where tema_id = 'arbeidslivsfag-10:prosjektstyring';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('arbeidslivsfag-10:prosjektstyring', 'q01', 'flervalg', 'Hva kjennetegner et prosjekt?', array['Det varer for alltid', 'Det har et tydelig mål, en start og en slutt', 'Det har ingen budsjett', 'Det gjøres alltid alene']::text[], 1, 'Prosjekter er avgrensede oppgaver.', true, true, 0),
+  ('arbeidslivsfag-10:prosjektstyring', 'q02', 'flervalg', 'Hva står T-en i SMART for?', array['Teknisk', 'Trygt', 'Tidsbestemt', 'Tydelig']::text[], 2, 'Et godt mål har en frist.', true, true, 1),
+  ('arbeidslivsfag-10:prosjektstyring', 'q03', 'flervalg', 'Hva viser et Gantt-diagram?', array['Oppgavene som stolper langs en tidslinje', 'Hvor mye penger prosjektet tjente', 'Hvem som er sjef', 'En tegning av produktet']::text[], 0, 'Gantt-diagrammet gir oversikt over tidsplanen.', true, true, 2),
+  ('arbeidslivsfag-10:prosjektstyring', 'q04', 'flervalg', 'Hva er forskjellen på budsjett og regnskap?', array['Det er det samme', 'Regnskapet lages før prosjektet', 'Budsjettet viser hva som faktisk ble brukt', 'Budsjettet er en plan, regnskapet viser hva som faktisk skjedde']::text[], 3, 'Ved å sammenligne dem ser man om prosjektet holdt seg innenfor rammene.', true, true, 3),
+  ('arbeidslivsfag-10:prosjektstyring', 'q05', 'flervalg', 'Hva er en milepæl?', array['Et viktig delmål i prosjektet', 'En stein ved veien', 'Prosjektets budsjett', 'En type verktøy']::text[], 0, 'Milepæler gjør det lett å se om prosjektet er i rute.', true, true, 4),
+  ('arbeidslivsfag-10:prosjektstyring', 'q06', 'flervalg', 'I hvilken fase lages risikovurderingen?', array['Avslutningsfasen', 'Planleggingsfasen', 'Etter leveringen', 'Den lages aldri']::text[], 1, 'Risikoen må vurderes før arbeidet starter.', true, true, 5),
+  ('arbeidslivsfag-10:prosjektstyring', 'q07', 'flervalg', 'Hva gjør man på et statusmøte?', array['Feirer at prosjektet er ferdig', 'Velger ny prosjektleder', 'Går gjennom hva som er gjort, hva som gjenstår og om det er problemer', 'Deler ut lønn']::text[], 2, 'Statusmøter gjør det mulig å justere planen i tide.', true, true, 6),
+  ('arbeidslivsfag-10:prosjektstyring', 'q08', 'flervalg', 'Hva bør en sluttrapport inneholde?', array['Mål, gjennomføring, resultat, økonomi og erfaringer', 'Bare bilder', 'Bare navnene på deltakerne', 'Bare budsjettet']::text[], 0, 'Erfaringene gjør neste prosjekt bedre.', true, true, 7),
+  ('arbeidslivsfag-10:prosjektstyring', 'q09', 'flervalg', 'Prosjektet ligger an til å bli forsinket. Hva er et godt tiltak?', array['Late som ingenting', 'Justere planen og eventuelt avtale ny frist med oppdragsgiveren', 'Slutte i prosjektet', 'Skylde på andre']::text[], 1, 'Tidlig beskjed og justering gir bedre resultat.', true, false, 8),
+  ('arbeidslivsfag-10:prosjektstyring', 'q10', 'flervalg', 'Hvilket av disse er et SMART mål?', array['Vi skal lage noe fint', 'Vi skal jobbe mye', 'Vi skal gjøre vårt beste', 'Vi skal lage ti fuglekasser og levere dem til barnehagen innen 1. mai']::text[], 3, 'Målet er spesifikt, målbart og tidsbestemt.', true, false, 9),
+  ('arbeidslivsfag-10:prosjektstyring', 'm01', 'sant-usant', 'Noen oppgaver i et prosjekt må gjøres i en bestemt rekkefølge.', array['Sant', 'Usant']::text[], 0, 'Man må for eksempel kjøpe materialer før man kan bygge.', false, true, 10),
+  ('arbeidslivsfag-10:prosjektstyring', 'm02', 'sant-usant', 'Evaluering er unødvendig når prosjektet er levert.', array['Sant', 'Usant']::text[], 1, 'Evalueringen gir erfaringer til neste prosjekt.', false, true, 11),
+  ('arbeidslivsfag-10:prosjektstyring', 'm03', 'sant-usant', 'En prototyp testes før endelig produksjon.', array['Sant', 'Usant']::text[], 0, 'Da kan feil rettes før man lager mange eksemplarer.', false, true, 12),
+  ('arbeidslivsfag-10:prosjektstyring', 'm04', 'sant-usant', 'Tid er ikke en ressurs i et prosjekt.', array['Sant', 'Usant']::text[], 1, 'Tid er en av de viktigste ressursene.', false, true, 13),
+  ('arbeidslivsfag-10:prosjektstyring', 'm05', 'flervalg', 'Hva står M-en i SMART for?', array['Morsomt', 'Moderne', 'Mulig', 'Målbart']::text[], 3, 'Man må kunne sjekke om målet er nådd.', false, true, 14),
+  ('arbeidslivsfag-10:prosjektstyring', 'm06', 'flervalg', 'Hvem har ansvar for å fordele ressursene i et prosjekt?', array['Kunden', 'Prosjektlederen', 'Leverandøren', 'Ingen']::text[], 1, 'Prosjektlederen holder oversikten.', false, true, 15),
+  ('arbeidslivsfag-10:prosjektstyring', 'm07', 'flervalg', 'Hva skjer i avslutningsfasen?', array['Man finner en idé', 'Man lager budsjett', 'Man leverer, evaluerer og skriver sluttrapport', 'Man kjøper materialer']::text[], 2, 'Avslutningen er like viktig som starten.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('arbeidslivsfag-10:prosjektstyring', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Arbeidslivsfag: Rettigheter og plikter i arbeidslivet
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('arbeidslivsfag-10:rettigheter-og-plikter-i-arbeidslivet', 'arbeidslivsfag-10', 'rettigheter-og-plikter-i-arbeidslivet', 'Rettigheter og plikter i arbeidslivet', 'Arbeidsavtale, lønn og skatt, feriepenger, arbeidstid, regler for unge arbeidstakere, plikter som arbeidstaker, svart arbeid, fagforeninger og den norske modellen.', array[7]::int[], 1, 'sjekkes', array['Sjekk reglene for unge arbeidstakere (aldersgrenser, arbeidstid og kveldsarbeid) mot arbeidsmiljøloven kap. 11 og forskrift om arbeid for barn og unge.', 'Sjekk overtidstillegg (minst 40 %) og feriepengesats (10,2 %).']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('arbeidslivsfag-10:rettigheter-og-plikter-i-arbeidslivet', '## Arbeidsavtale
+
+Når du får jobb, skal du ha en **skriftlig arbeidsavtale**. Den skal blant annet vise **arbeidsoppgaver**, **arbeidstid**, **lønn**, **oppsigelsestid** og om stillingen er **fast** eller **midlertidig**. Mange har **prøvetid** i starten, vanligvis inntil seks måneder.
+
+## Lønn og skatt
+
+Lønnen kan være **timelønn** eller **fast månedslønn**. Du får en **lønnsslipp** som viser lønn, **skattetrekk** og andre trekk. Norge har ikke en generell minstelønn, men i noen bransjer er det bestemt en minstelønn gjennom **allmenngjorte tariffavtaler**. Tjener du lite i løpet av et år, kan du få **frikort**, som betyr at du ikke betaler skatt av inntekten opp til en viss grense. Grensen endres fra år til år.
+
+## Ferie og feriepenger
+
+Etter **ferieloven** har arbeidstakere rett til **fire uker og én dag** ferie i året. **Feriepenger** tjenes opp året før og er minst **10,2 prosent** av lønnen. Mange har avtale om fem ukers ferie og høyere feriepenger.
+
+## Arbeidstid
+
+Normal arbeidstid er etter arbeidsmiljøloven høyst **40 timer i uka** og **9 timer i døgnet**. Arbeid ut over dette er **overtid**, som gir **overtidstillegg** på minst **40 prosent**.
+
+## Regler for unge arbeidstakere
+
+Arbeidsmiljøloven har egne regler for arbeidstakere **under 18 år**:
+
+- Barn **under 13 år** kan bare gjøre kulturelt arbeid, for eksempel som skuespiller.
+- Fra **13 år** kan man gjøre **lett arbeid** som ikke er farlig og ikke går ut over skolen, for eksempel avislevering.
+- For **skolepliktige** er arbeidstiden begrenset til noen få timer per skoledag, og det er grenser for arbeid om **kvelden og natta**.
+- Unge skal ikke gjøre **farlig arbeid** eller håndtere farlige stoffer og maskiner uten opplæring og tilsyn.
+
+Arbeidsgiveren skal gi **opplæring** og sørge for at arbeidet er trygt.
+
+## Plikter som arbeidstaker
+
+- Møte **presis** og gi beskjed ved **sykdom**.
+- Følge **instrukser** og HMS-rutiner.
+- Være **lojal** mot arbeidsgiveren og ikke snakke nedsettende om bedriften.
+- Overholde **taushetsplikt** der den gjelder.
+- Behandle kolleger og kunder med **respekt**.
+
+## Svart arbeid
+
+**Svart arbeid** er arbeid der lønnen ikke blir oppgitt til skattemyndighetene. Det er ulovlig, og den som jobber svart, mister viktige **rettigheter**: sykepenger, feriepenger, pensjonsopptjening og forsikring ved ulykker.
+
+## Fagforeninger og den norske modellen
+
+En **fagforening** er en organisasjon for arbeidstakere som forhandler om lønn og arbeidsvilkår. Arbeidsgiverne har egne **arbeidsgiverorganisasjoner**. Avtalene de inngår, kalles **tariffavtaler**. I **den norske modellen** samarbeider **arbeidstakere**, **arbeidsgivere** og **staten** – et **trepartssamarbeid** – om lønnsoppgjør og arbeidslivspolitikk. Hvis partene ikke blir enige, kan det bli **streik**.', '{"label":"Rettigheter og plikter","children":[{"label":"Arbeidsavtale","children":[{"label":"Skriftlig"},{"label":"Fast eller midlertidig"},{"label":"Prøvetid"}]},{"label":"Lønn","children":[{"label":"Lønnsslipp"},{"label":"Skatt og frikort"},{"label":"Feriepenger"},{"label":"Overtid"}]},{"label":"Unge arbeidstakere","children":[{"label":"Lett arbeid fra 13 år"},{"label":"Begrenset arbeidstid"},{"label":"Ikke farlig arbeid"}]},{"label":"Plikter","children":[{"label":"Presis"},{"label":"Følge instrukser"},{"label":"Lojalitet"},{"label":"Taushetsplikt"}]},{"label":"Den norske modellen","children":[{"label":"Fagforeninger"},{"label":"Tariffavtaler"},{"label":"Trepartssamarbeid"},{"label":"Svart arbeid er ulovlig"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'arbeidslivsfag-10:rettigheter-og-plikter-i-arbeidslivet';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('arbeidslivsfag-10:rettigheter-og-plikter-i-arbeidslivet', 'Arbeidsavtale', 'Skriftlig avtale om arbeidsoppgaver, arbeidstid, lønn og oppsigelsestid.', 0),
+  ('arbeidslivsfag-10:rettigheter-og-plikter-i-arbeidslivet', 'Prøvetid', 'Periode i starten av en jobb, vanligvis inntil seks måneder.', 1),
+  ('arbeidslivsfag-10:rettigheter-og-plikter-i-arbeidslivet', 'Fast og midlertidig stilling', 'Fast stilling varer til den sies opp; midlertidig har en sluttdato.', 2),
+  ('arbeidslivsfag-10:rettigheter-og-plikter-i-arbeidslivet', 'Lønnsslipp', 'Oversikt over lønn, skattetrekk og andre trekk.', 3),
+  ('arbeidslivsfag-10:rettigheter-og-plikter-i-arbeidslivet', 'Frikort', 'Gjør at man ikke betaler skatt av inntekt opp til en viss grense.', 4),
+  ('arbeidslivsfag-10:rettigheter-og-plikter-i-arbeidslivet', 'Feriepenger', 'Penger man tjener opp året før, minst 10,2 prosent av lønnen.', 5),
+  ('arbeidslivsfag-10:rettigheter-og-plikter-i-arbeidslivet', 'Ferieloven', 'Loven som gir rett til fire uker og én dag ferie i året.', 6),
+  ('arbeidslivsfag-10:rettigheter-og-plikter-i-arbeidslivet', 'Normal arbeidstid', 'Høyst 40 timer i uka og 9 timer i døgnet.', 7),
+  ('arbeidslivsfag-10:rettigheter-og-plikter-i-arbeidslivet', 'Overtid', 'Arbeid ut over normal arbeidstid, med tillegg på minst 40 prosent.', 8),
+  ('arbeidslivsfag-10:rettigheter-og-plikter-i-arbeidslivet', 'Lett arbeid', 'Ufarlig arbeid som unge fra 13 år kan gjøre, som avislevering.', 9),
+  ('arbeidslivsfag-10:rettigheter-og-plikter-i-arbeidslivet', 'Lojalitetsplikt', 'Plikt til å ivareta arbeidsgiverens interesser.', 10),
+  ('arbeidslivsfag-10:rettigheter-og-plikter-i-arbeidslivet', 'Svart arbeid', 'Arbeid der lønnen ikke oppgis til skattemyndighetene.', 11),
+  ('arbeidslivsfag-10:rettigheter-og-plikter-i-arbeidslivet', 'Fagforening', 'Organisasjon for arbeidstakere som forhandler om lønn og vilkår.', 12),
+  ('arbeidslivsfag-10:rettigheter-og-plikter-i-arbeidslivet', 'Tariffavtale', 'Avtale mellom fagforening og arbeidsgiverorganisasjon om lønn og vilkår.', 13),
+  ('arbeidslivsfag-10:rettigheter-og-plikter-i-arbeidslivet', 'Trepartssamarbeidet', 'Samarbeid mellom arbeidstakere, arbeidsgivere og staten.', 14);
+delete from public.quiz_sporsmal where tema_id = 'arbeidslivsfag-10:rettigheter-og-plikter-i-arbeidslivet';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('arbeidslivsfag-10:rettigheter-og-plikter-i-arbeidslivet', 'q01', 'flervalg', 'Hva skal en arbeidsavtale inneholde?', array['Bare navnet ditt', 'Arbeidsoppgaver, arbeidstid, lønn og oppsigelsestid', 'Karakterene dine', 'Hobbyene dine']::text[], 1, 'Alle arbeidstakere har rett til skriftlig arbeidsavtale.', true, true, 0),
+  ('arbeidslivsfag-10:rettigheter-og-plikter-i-arbeidslivet', 'q02', 'flervalg', 'Hvor mye ferie har arbeidstakere rett til etter ferieloven?', array['To uker', 'Tre uker', 'Fire uker og én dag', 'Åtte uker']::text[], 2, 'Mange har avtale om fem uker.', true, true, 1),
+  ('arbeidslivsfag-10:rettigheter-og-plikter-i-arbeidslivet', 'q03', 'flervalg', 'Hva er svart arbeid?', array['Arbeid der lønnen ikke oppgis til skattemyndighetene', 'Arbeid om natta', 'Arbeid med farlige stoffer', 'Arbeid i helgene']::text[], 0, 'Svart arbeid er ulovlig og gir ingen rettigheter.', true, true, 2),
+  ('arbeidslivsfag-10:rettigheter-og-plikter-i-arbeidslivet', 'q04', 'flervalg', 'Hva er en fagforening?', array['En idrettsklubb', 'En del av staten', 'En skole for fagarbeidere', 'En organisasjon for arbeidstakere som forhandler om lønn og vilkår']::text[], 3, 'Fagforeningene er en viktig del av den norske modellen.', true, true, 3),
+  ('arbeidslivsfag-10:rettigheter-og-plikter-i-arbeidslivet', 'q05', 'flervalg', 'Hva viser en lønnsslipp?', array['Hvor mange timer du har sovet', 'Lønn, skattetrekk og andre trekk', 'Arbeidsoppgavene dine', 'Hvem som er sjefen']::text[], 1, 'Det er lurt å sjekke lønnsslippen hver gang.', true, true, 4),
+  ('arbeidslivsfag-10:rettigheter-og-plikter-i-arbeidslivet', 'q06', 'flervalg', 'Hva kan en 13-åring jobbe med?', array['Farlig arbeid med maskiner', 'Nattarbeid', 'Lett arbeid, som avislevering', 'Hva som helst']::text[], 2, 'Arbeidet må være ufarlig og ikke gå ut over skolen.', true, true, 5),
+  ('arbeidslivsfag-10:rettigheter-og-plikter-i-arbeidslivet', 'q07', 'flervalg', 'Hva er en plikt du har som arbeidstaker?', array['Å møte presis og følge instrukser', 'Å bestemme lønna selv', 'Å ta fri når du vil', 'Å jobbe gratis']::text[], 0, 'Du skal også gi beskjed ved sykdom.', true, true, 6),
+  ('arbeidslivsfag-10:rettigheter-og-plikter-i-arbeidslivet', 'q08', 'flervalg', 'Hvem samarbeider i trepartssamarbeidet?', array['Elever, lærere og foreldre', 'Kommunen, fylket og staten', 'Arbeidstakere, arbeidsgivere og staten', 'Tre bedrifter']::text[], 2, 'Trepartssamarbeidet er kjernen i den norske modellen.', true, true, 7),
+  ('arbeidslivsfag-10:rettigheter-og-plikter-i-arbeidslivet', 'q09', 'flervalg', 'Hvor mye er feriepengene minst?', array['5 prosent av lønnen', '25 prosent av lønnen', '1 prosent av lønnen', '10,2 prosent av lønnen']::text[], 3, 'Feriepengene tjenes opp året før.', true, false, 8),
+  ('arbeidslivsfag-10:rettigheter-og-plikter-i-arbeidslivet', 'q10', 'flervalg', 'Hva er normal arbeidstid per uke etter arbeidsmiljøloven?', array['Høyst 40 timer', 'Høyst 20 timer', 'Høyst 60 timer', 'Det finnes ingen grense']::text[], 0, 'Arbeid ut over dette er overtid.', true, false, 9),
+  ('arbeidslivsfag-10:rettigheter-og-plikter-i-arbeidslivet', 'm01', 'sant-usant', 'Den som jobber svart, mister retten til blant annet sykepenger.', array['Sant', 'Usant']::text[], 0, 'Svart arbeid gir ingen trygderettigheter.', false, true, 10),
+  ('arbeidslivsfag-10:rettigheter-og-plikter-i-arbeidslivet', 'm02', 'sant-usant', 'Norge har en generell minstelønn for alle yrker.', array['Sant', 'Usant']::text[], 1, 'Minstelønn gjelder bare i noen bransjer, gjennom allmenngjorte tariffavtaler.', false, true, 11),
+  ('arbeidslivsfag-10:rettigheter-og-plikter-i-arbeidslivet', 'm03', 'sant-usant', 'Arbeidsgiveren skal gi unge arbeidstakere opplæring.', array['Sant', 'Usant']::text[], 0, 'Opplæring er viktig for å unngå ulykker.', false, true, 12),
+  ('arbeidslivsfag-10:rettigheter-og-plikter-i-arbeidslivet', 'm04', 'sant-usant', 'Barn under 13 år kan ha vanlig deltidsjobb i butikk.', array['Sant', 'Usant']::text[], 1, 'Under 13 år er bare kulturelt arbeid tillatt.', false, true, 13),
+  ('arbeidslivsfag-10:rettigheter-og-plikter-i-arbeidslivet', 'm05', 'flervalg', 'Hva er prøvetid?', array['En periode i starten av en jobb, vanligvis inntil seks måneder', 'En eksamen', 'Tiden før man får lønn', 'En type ferie']::text[], 0, 'I prøvetiden er oppsigelsestiden ofte kortere.', false, true, 14),
+  ('arbeidslivsfag-10:rettigheter-og-plikter-i-arbeidslivet', 'm06', 'flervalg', 'Hva er en tariffavtale?', array['En avtale om husleie', 'En avtale mellom fagforening og arbeidsgiverorganisasjon om lønn og vilkår', 'En kjøpekontrakt', 'En skatteregel']::text[], 1, 'Tariffavtaler forhandles ved lønnsoppgjørene.', false, true, 15),
+  ('arbeidslivsfag-10:rettigheter-og-plikter-i-arbeidslivet', 'm07', 'flervalg', 'Hva kan skje hvis partene i et lønnsoppgjør ikke blir enige?', array['Bedriften stenger for alltid', 'Staten bestemmer lønna til alle', 'Ingenting', 'Det kan bli streik']::text[], 3, 'Streik er et lovlig virkemiddel i arbeidslivet.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('arbeidslivsfag-10:rettigheter-og-plikter-i-arbeidslivet', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Arbeidslivsfag: Elevbedrift og entreprenørskap
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('arbeidslivsfag-10:ungdomsbedrift', 'arbeidslivsfag-10', 'ungdomsbedrift', 'Elevbedrift og entreprenørskap', 'Hvordan elever kan starte og drive en bedrift: forretningsidé, markedsundersøkelse, målgruppe og konkurrenter, markedsføringsmiksen, roller, økonomi og avvikling.', array[1, 5]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('arbeidslivsfag-10:ungdomsbedrift', '## Entreprenørskap
+
+**Entreprenørskap** betyr å se muligheter og gjøre **ideer om til handling**, for eksempel ved å starte en bedrift. En **entreprenør** er en person som gjør nettopp dette. I skolen kan man lære entreprenørskap gjennom **elevbedrift** på ungdomsskolen og **ungdomsbedrift** på videregående. Organisasjonen **Ungt Entreprenørskap** støtter skoler som driver slike bedrifter.
+
+## Forretningsidé
+
+En **forretningsidé** svarer på tre spørsmål:
+
+- **Hva** skal vi tilby? (produkt eller tjeneste)
+- **Til hvem**? (målgruppe)
+- **Hvordan** skiller vi oss fra andre?
+
+Gode ideer løser et **behov** eller et **problem** hos kundene.
+
+## Markedsundersøkelse
+
+Før bedriften starter, bør man gjøre en **markedsundersøkelse** for å finne ut om noen vil kjøpe produktet, og hva de vil betale. Det kan være en **spørreundersøkelse**, **intervjuer** eller å teste en **prototyp**. Man bør også se på **konkurrentene**: Hva tilbyr de, og til hvilken pris?
+
+## Markedsføringsmiksen – de fire P-ene
+
+- **Produkt**: Hva selger vi, og hvilken kvalitet har det?
+- **Pris**: Hva skal det koste?
+- **Plass**: Hvor og hvordan skal kundene få kjøpt det?
+- **Påvirkning**: Hvordan skal vi nå kundene, for eksempel med plakater, sosiale medier eller stand?
+
+## Roller i bedriften
+
+- **Daglig leder** – leder arbeidet og holder oversikt
+- **Økonomiansvarlig** – budsjett, regnskap og kasse
+- **Markedsansvarlig** – markedsføring og salg
+- **Produksjonsansvarlig** – innkjøp og produksjon
+
+Viktige beslutninger tas i **styremøter**, og alle bør få komme med forslag. God kommunikasjon og tydelig ansvarsfordeling er avgjørende.
+
+## Økonomi
+
+Mange elevbedrifter skaffer **startkapital** ved å selge **andeler** til familie og venner. Pengene brukes til innkjøp. Bedriften lager et **budsjett**, fører **regnskap** og regner ut **resultatet**:
+
+**Inntekter – kostnader = resultat**
+
+Er resultatet positivt, er det et **overskudd**. Er det negativt, er det et **underskudd**. **Nullpunktet** er antallet man må selge for at inntektene skal dekke kostnadene.
+
+## Avvikling
+
+En elevbedrift **avvikles** ved slutten av skoleåret. Da selges resten av varelageret, eierne får tilbake andelene sine og eventuelt en del av overskuddet, og bedriften skriver en **årsrapport**. Kanskje gir den også noe av overskuddet til et **veldedig formål**.
+
+## Hva lærer man?
+
+Gjennom en elevbedrift lærer man **samarbeid**, **kreativitet**, **økonomi**, **salg** og å ta **ansvar** – egenskaper som er nyttige i alle yrker.', '{"label":"Elevbedrift","children":[{"label":"Idé","children":[{"label":"Behov"},{"label":"Forretningsidé"},{"label":"Målgruppe"}]},{"label":"Marked","children":[{"label":"Markedsundersøkelse"},{"label":"Konkurrenter"},{"label":"De fire P-ene"}]},{"label":"Organisering","children":[{"label":"Daglig leder"},{"label":"Økonomi"},{"label":"Marked"},{"label":"Produksjon"}]},{"label":"Økonomi","children":[{"label":"Andeler og startkapital"},{"label":"Budsjett og regnskap"},{"label":"Resultat"},{"label":"Nullpunkt"}]},{"label":"Avslutning","children":[{"label":"Avvikling"},{"label":"Årsrapport"},{"label":"Læring"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'arbeidslivsfag-10:ungdomsbedrift';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('arbeidslivsfag-10:ungdomsbedrift', 'Entreprenørskap', 'Å se muligheter og gjøre ideer om til handling.', 0),
+  ('arbeidslivsfag-10:ungdomsbedrift', 'Entreprenør', 'Person som starter og utvikler en virksomhet.', 1),
+  ('arbeidslivsfag-10:ungdomsbedrift', 'Elevbedrift', 'Bedrift drevet av elever på ungdomsskolen som læring.', 2),
+  ('arbeidslivsfag-10:ungdomsbedrift', 'Ungt Entreprenørskap', 'Organisasjon som støtter skoler som driver elev- og ungdomsbedrifter.', 3),
+  ('arbeidslivsfag-10:ungdomsbedrift', 'Forretningsidé', 'Beskrivelse av hva man tilbyr, til hvem, og hvordan man skiller seg ut.', 4),
+  ('arbeidslivsfag-10:ungdomsbedrift', 'Målgruppe', 'De kundene bedriften ønsker å nå.', 5),
+  ('arbeidslivsfag-10:ungdomsbedrift', 'Markedsundersøkelse', 'Undersøkelse av om noen vil kjøpe produktet, og til hvilken pris.', 6),
+  ('arbeidslivsfag-10:ungdomsbedrift', 'Konkurrent', 'Bedrift som tilbyr lignende produkter til de samme kundene.', 7),
+  ('arbeidslivsfag-10:ungdomsbedrift', 'De fire P-ene', 'Produkt, pris, plass og påvirkning.', 8),
+  ('arbeidslivsfag-10:ungdomsbedrift', 'Daglig leder', 'Person som leder arbeidet i bedriften.', 9),
+  ('arbeidslivsfag-10:ungdomsbedrift', 'Startkapital', 'Penger bedriften trenger for å komme i gang.', 10),
+  ('arbeidslivsfag-10:ungdomsbedrift', 'Andel', 'Eierandel i bedriften som selges for å skaffe startkapital.', 11),
+  ('arbeidslivsfag-10:ungdomsbedrift', 'Resultat', 'Inntekter minus kostnader.', 12),
+  ('arbeidslivsfag-10:ungdomsbedrift', 'Nullpunkt', 'Antallet man må selge for at inntektene skal dekke kostnadene.', 13),
+  ('arbeidslivsfag-10:ungdomsbedrift', 'Avvikling', 'Når bedriften avsluttes og eierne får tilbake pengene sine.', 14);
+delete from public.quiz_sporsmal where tema_id = 'arbeidslivsfag-10:ungdomsbedrift';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('arbeidslivsfag-10:ungdomsbedrift', 'q01', 'flervalg', 'Hva er entreprenørskap?', array['Å jobbe i en stor bedrift', 'Å se muligheter og gjøre ideer om til handling', 'Å kjøpe aksjer', 'Å være leder på skolen']::text[], 1, 'Entreprenører skaper noe nytt.', true, true, 0),
+  ('arbeidslivsfag-10:ungdomsbedrift', 'q02', 'flervalg', 'Hvilke tre spørsmål svarer en forretningsidé på?', array['Hva, til hvem og hvordan skiller vi oss ut?', 'Hvor, når og hvorfor?', 'Hvem, hva og hvor mye?', 'Når, hvordan og hvor lenge?']::text[], 0, 'Forretningsideen er grunnlaget for bedriften.', true, true, 1),
+  ('arbeidslivsfag-10:ungdomsbedrift', 'q03', 'flervalg', 'Hva er en målgruppe?', array['Bedriftens ansatte', 'Bedriftens konkurrenter', 'Bedriftens eiere', 'De kundene bedriften ønsker å nå']::text[], 3, 'Markedsføringen tilpasses målgruppen.', true, true, 2),
+  ('arbeidslivsfag-10:ungdomsbedrift', 'q04', 'flervalg', 'Hva står de fire P-ene for?', array['Penger, planer, personer og profitt', 'Produkt, pris, plass og påvirkning', 'Pakking, porto, post og papir', 'Plan, prosess, produkt og presentasjon']::text[], 1, 'De fire P-ene kalles markedsføringsmiksen.', true, true, 3),
+  ('arbeidslivsfag-10:ungdomsbedrift', 'q05', 'flervalg', 'Inntektene er 8000 kr og kostnadene 5500 kr. Hva er resultatet?', array['13 500 kr', '5500 kr', '2500 kr i overskudd', '2500 kr i underskudd']::text[], 2, '8000 – 5500 = 2500. Resultatet er positivt.', true, true, 4),
+  ('arbeidslivsfag-10:ungdomsbedrift', 'q06', 'flervalg', 'Hva er nullpunktet?', array['Antallet man må selge for at inntektene skal dekke kostnadene', 'Når bedriften starter', 'Når bedriften har null kunder', 'Prisen på produktet']::text[], 0, 'Etter nullpunktet går bedriften med overskudd.', true, true, 5),
+  ('arbeidslivsfag-10:ungdomsbedrift', 'q07', 'flervalg', 'Hvordan skaffer mange elevbedrifter startkapital?', array['Ved å låne i banken', 'Ved å selge andeler til familie og venner', 'Ved å få penger fra staten', 'Ved å ta pengene fra skolen']::text[], 1, 'Andelseierne får pengene tilbake ved avviklingen.', true, true, 6),
+  ('arbeidslivsfag-10:ungdomsbedrift', 'q08', 'flervalg', 'Hva gjør den økonomiansvarlige i en elevbedrift?', array['Lager plakater', 'Produserer varene', 'Leder styremøtene', 'Har ansvar for budsjett, regnskap og kasse']::text[], 3, 'Markedsansvarlig lager plakater og driver salg.', true, true, 7),
+  ('arbeidslivsfag-10:ungdomsbedrift', 'q09', 'flervalg', 'Hvorfor bør man gjøre en markedsundersøkelse?', array['For å finne ut om noen vil kjøpe produktet og hva de vil betale', 'For å slippe å lage produktet', 'Fordi det er påbudt ved lov', 'For å finne en daglig leder']::text[], 0, 'Da reduserer man risikoen for å lage noe ingen vil ha.', true, false, 8),
+  ('arbeidslivsfag-10:ungdomsbedrift', 'q10', 'flervalg', 'Hva skjer når en elevbedrift avvikles?', array['Eierne mister pengene sine', 'Bedriften fortsetter for alltid', 'Varelageret selges, eierne får tilbake andelene og det skrives årsrapport', 'Skolen overtar bedriften']::text[], 2, 'Avviklingen skjer ved slutten av skoleåret.', true, false, 9),
+  ('arbeidslivsfag-10:ungdomsbedrift', 'm01', 'sant-usant', 'En god forretningsidé løser et behov eller et problem hos kundene.', array['Sant', 'Usant']::text[], 0, 'Da er det mer sannsynlig at noen vil kjøpe.', false, true, 10),
+  ('arbeidslivsfag-10:ungdomsbedrift', 'm02', 'sant-usant', 'Et negativt resultat kalles overskudd.', array['Sant', 'Usant']::text[], 1, 'Et negativt resultat er et underskudd.', false, true, 11),
+  ('arbeidslivsfag-10:ungdomsbedrift', 'm03', 'sant-usant', 'Viktige beslutninger i elevbedriften kan tas på styremøter.', array['Sant', 'Usant']::text[], 0, 'Styremøtene gir alle mulighet til å komme med forslag.', false, true, 12),
+  ('arbeidslivsfag-10:ungdomsbedrift', 'm04', 'sant-usant', 'Konkurrentene er uten betydning for prisen man setter.', array['Sant', 'Usant']::text[], 1, 'Kundene sammenligner priser, så konkurrentene påvirker hva man kan ta betalt.', false, true, 13),
+  ('arbeidslivsfag-10:ungdomsbedrift', 'm05', 'flervalg', 'Hva handler P-en «plass» om?', array['Hvor mye produktet koster', 'Hvor og hvordan kundene får kjøpt produktet', 'Hvor stort lokalet er', 'Hvor mange ansatte bedriften har']::text[], 1, 'Det kan være en stand, en nettbutikk eller levering på døra.', false, true, 14),
+  ('arbeidslivsfag-10:ungdomsbedrift', 'm06', 'flervalg', 'Hvilken organisasjon støtter elev- og ungdomsbedrifter i Norge?', array['NAV', 'Mattilsynet', 'Arbeidstilsynet', 'Ungt Entreprenørskap']::text[], 3, 'Ungt Entreprenørskap arrangerer også messer og konkurranser.', false, true, 15),
+  ('arbeidslivsfag-10:ungdomsbedrift', 'm07', 'flervalg', 'Hva er startkapital?', array['Penger bedriften trenger for å komme i gang', 'Overskuddet ved slutten av året', 'Lønnen til daglig leder', 'Prisen på én vare']::text[], 0, 'Startkapitalen brukes blant annet til innkjøp.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('arbeidslivsfag-10:ungdomsbedrift', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Arbeidslivsfag: Yrkesfag og veien videre
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('arbeidslivsfag-10:yrkesfag-og-veien-videre', 'arbeidslivsfag-10', 'yrkesfag-og-veien-videre', 'Yrkesfag og veien videre', 'De ti yrkesfaglige utdanningsprogrammene, 2 + 2-modellen, lærlingtid og fagbrev, påbygging og fagskole, og hvordan erfaringene fra arbeidslivsfag kan hjelpe deg å velge.', array[4, 8]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('arbeidslivsfag-10:yrkesfag-og-veien-videre', '## Yrkesfag i videregående
+
+I videregående skole kan du velge mellom **studieforberedende** og **yrkesfaglige** utdanningsprogram. Yrkesfagene gir deg et **yrke** og kvalifiserer deg for arbeidslivet. Det finnes **ti yrkesfaglige utdanningsprogram**:
+
+1. **Bygg- og anleggsteknikk** – for eksempel tømrer, rørlegger og anleggsmaskinfører
+2. **Elektro og datateknologi** – elektriker, automatiker, dataelektroniker
+3. **Frisør, blomster, interiør og eksponeringsdesign** – frisør, blomsterdekoratør
+4. **Helse- og oppvekstfag** – helsefagarbeider, barne- og ungdomsarbeider
+5. **Håndverk, design og produktutvikling** – for eksempel møbelsnekker, gullsmed og skredder
+6. **Informasjonsteknologi og medieproduksjon** – IT-driftsfag, mediegrafiker
+7. **Naturbruk** – landbruk, fiske og havbruk, skogbruk
+8. **Restaurant- og matfag** – kokk, baker, servitør
+9. **Salg, service og reiseliv** – salgsfag, resepsjon, reiseliv
+10. **Teknologi- og industrifag** – bilmekaniker, industrimekaniker, flyfag
+
+## 2 + 2-modellen
+
+De fleste yrkesfag følger **2 + 2-modellen**: **to år i skole** (Vg1 og Vg2) og **to år som lærling** i en bedrift. Som **lærling** har du en **lærekontrakt**, får **lærlinglønn** som øker gradvis, og lærer faget i praksis sammen med erfarne fagarbeidere. Opplæringen avsluttes med en **fagprøve** eller **svenneprøve**, og da får du **fagbrev** eller **svennebrev**. Noen fag har andre modeller, for eksempel **tre år i skole**. Med fagbrev kan du senere ta **mesterbrev** og drive egen bedrift.
+
+## Veien videre etter fagbrev
+
+- **Jobb** som fagarbeider – mange bransjer trenger flere fagarbeidere.
+- **Fagskole**: høyere yrkesfaglig utdanning som bygger på fagbrevet.
+- **Påbygging til generell studiekompetanse** (Vg3 påbygg), som gir mulighet til å søke universitet og høyskole.
+- **Y-veien**: Enkelte ingeniørutdanninger tar opp søkere med fagbrev.
+
+Yrkesfag stenger altså ingen dører – det finnes mange veier videre.
+
+## Fagarbeidere i framtiden
+
+Arbeidslivet trenger mange **fagarbeidere**, for eksempel innen helse, bygg og elektro. **Ny teknologi**, **digitalisering** og det **grønne skiftet** endrer mange yrker, og fagarbeidere må derfor lære hele livet (**livslang læring**).
+
+## Hva har du lært i arbeidslivsfag?
+
+Arbeidslivsfag gir deg **erfaring** med ulike yrkesfag. Når du skal velge videre, kan du **vurdere egen innsats** og spørre deg selv:
+
+- Hvilke arbeidsoppdrag likte jeg best – å jobbe med **mennesker**, **mat**, **materialer** eller **teknologi**?
+- Hva mestret jeg godt, og hva vil jeg bli bedre på?
+- Liker jeg å jobbe **praktisk** og se resultatet av arbeidet?
+
+Snakk med **rådgiveren**, prøv **hospitering** på videregående og snakk med folk som jobber i yrker du er interessert i. **Utdanning.no** og **vilbli.no** har informasjon om utdanningsprogram og yrker.', '{"label":"Yrkesfag og veien videre","children":[{"label":"Ti program","children":[{"label":"Bygg og elektro"},{"label":"Helse og oppvekst"},{"label":"Restaurant og mat"},{"label":"Teknologi og industri"}]},{"label":"2 + 2-modellen","children":[{"label":"To år skole"},{"label":"To år lærling"},{"label":"Lærekontrakt"}]},{"label":"Fagbrev","children":[{"label":"Fagprøve"},{"label":"Svennebrev"},{"label":"Mesterbrev"}]},{"label":"Videre","children":[{"label":"Jobb"},{"label":"Fagskole"},{"label":"Påbygging"},{"label":"Y-veien"}]},{"label":"Velge","children":[{"label":"Egen erfaring"},{"label":"Rådgiver"},{"label":"Hospitering"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'arbeidslivsfag-10:yrkesfag-og-veien-videre';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('arbeidslivsfag-10:yrkesfag-og-veien-videre', 'Yrkesfaglig utdanningsprogram', 'Utdanningsprogram i videregående som gir et yrke.', 0),
+  ('arbeidslivsfag-10:yrkesfag-og-veien-videre', 'Ti yrkesfaglige program', 'Antallet yrkesfaglige utdanningsprogram i videregående.', 1),
+  ('arbeidslivsfag-10:yrkesfag-og-veien-videre', '2 + 2-modellen', 'To år i skole og to år som lærling i bedrift.', 2),
+  ('arbeidslivsfag-10:yrkesfag-og-veien-videre', 'Lærling', 'Person som får opplæring i et fag i en bedrift etter lærekontrakt.', 3),
+  ('arbeidslivsfag-10:yrkesfag-og-veien-videre', 'Lærekontrakt', 'Avtale mellom lærling og lærebedrift om opplæringen.', 4),
+  ('arbeidslivsfag-10:yrkesfag-og-veien-videre', 'Lærlinglønn', 'Lønn til lærlinger som øker gradvis gjennom læretiden.', 5),
+  ('arbeidslivsfag-10:yrkesfag-og-veien-videre', 'Fagprøve', 'Praktisk prøve som avslutter læretiden.', 6),
+  ('arbeidslivsfag-10:yrkesfag-og-veien-videre', 'Fagbrev', 'Bevis på at man er utdannet fagarbeider.', 7),
+  ('arbeidslivsfag-10:yrkesfag-og-veien-videre', 'Svennebrev', 'Fagbrev i håndverksfag, som frisør og tømrer.', 8),
+  ('arbeidslivsfag-10:yrkesfag-og-veien-videre', 'Mesterbrev', 'Videreutdanning etter fagbrev som gir rett til å drive og lede egen bedrift.', 9),
+  ('arbeidslivsfag-10:yrkesfag-og-veien-videre', 'Fagskole', 'Høyere yrkesfaglig utdanning som bygger på fagbrev.', 10),
+  ('arbeidslivsfag-10:yrkesfag-og-veien-videre', 'Påbygging', 'Vg3 som gir generell studiekompetanse etter yrkesfag.', 11),
+  ('arbeidslivsfag-10:yrkesfag-og-veien-videre', 'Y-veien', 'Vei til ingeniørutdanning for søkere med fagbrev.', 12),
+  ('arbeidslivsfag-10:yrkesfag-og-veien-videre', 'Hospitering', 'Å besøke og prøve et utdanningsprogram eller en arbeidsplass.', 13),
+  ('arbeidslivsfag-10:yrkesfag-og-veien-videre', 'Livslang læring', 'Å fortsette å lære gjennom hele arbeidslivet.', 14);
+delete from public.quiz_sporsmal where tema_id = 'arbeidslivsfag-10:yrkesfag-og-veien-videre';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('arbeidslivsfag-10:yrkesfag-og-veien-videre', 'q01', 'flervalg', 'Hvor mange yrkesfaglige utdanningsprogram finnes det i videregående?', array['Fem', 'Tolv', 'Tre', 'Ti']::text[], 3, 'I tillegg finnes studieforberedende programmer.', true, true, 0),
+  ('arbeidslivsfag-10:yrkesfag-og-veien-videre', 'q02', 'flervalg', 'Hva er 2 + 2-modellen?', array['To år i skole og to år som lærling', 'To år på ungdomsskolen og to år på videregående', 'To fag og to prøver', 'To lærere og to elever']::text[], 0, 'De fleste yrkesfag følger denne modellen.', true, true, 1),
+  ('arbeidslivsfag-10:yrkesfag-og-veien-videre', 'q03', 'flervalg', 'Hva får du når du har bestått fagprøven?', array['Vitnemål fra ungdomsskolen', 'Fagbrev', 'Førerkort', 'Mastergrad']::text[], 1, 'I håndverksfag kalles det svennebrev.', true, true, 2),
+  ('arbeidslivsfag-10:yrkesfag-og-veien-videre', 'q04', 'flervalg', 'Hvilket utdanningsprogram fører til yrket elektriker?', array['Bygg- og anleggsteknikk', 'Naturbruk', 'Elektro og datateknologi', 'Restaurant- og matfag']::text[], 2, 'Automatiker og dataelektroniker hører også hit.', true, true, 3),
+  ('arbeidslivsfag-10:yrkesfag-og-veien-videre', 'q05', 'flervalg', 'Hva er påbygging?', array['Et år som gir generell studiekompetanse etter yrkesfag', 'Å bygge et hus', 'En lærlingplass', 'En del av ungdomsskolen']::text[], 0, 'Påbygging gjør det mulig å søke høyere utdanning.', true, true, 4),
+  ('arbeidslivsfag-10:yrkesfag-og-veien-videre', 'q06', 'flervalg', 'Hva er en fagskole?', array['En ungdomsskole', 'Et universitet', 'En barneskole', 'Høyere yrkesfaglig utdanning som bygger på fagbrev']::text[], 3, 'Fagskolen gir spesialisering innen et fagområde.', true, true, 5),
+  ('arbeidslivsfag-10:yrkesfag-og-veien-videre', 'q07', 'flervalg', 'Hva er en lærekontrakt?', array['En arbeidsavtale for lærere', 'En avtale mellom lærling og lærebedrift om opplæringen', 'En kontrakt om å kjøpe verktøy', 'En skoleavtale']::text[], 1, 'Lærekontrakten gir lærlingen rettigheter og plikter.', true, true, 6),
+  ('arbeidslivsfag-10:yrkesfag-og-veien-videre', 'q08', 'flervalg', 'Hvilket utdanningsprogram fører til yrket helsefagarbeider?', array['Salg, service og reiseliv', 'Teknologi- og industrifag', 'Naturbruk', 'Helse- og oppvekstfag']::text[], 3, 'Barne- og ungdomsarbeidere utdannes også her.', true, true, 7),
+  ('arbeidslivsfag-10:yrkesfag-og-veien-videre', 'q09', 'flervalg', 'Hvorfor er livslang læring viktig for fagarbeidere?', array['Fordi yrkene ikke endrer seg', 'Fordi ny teknologi og det grønne skiftet endrer mange yrker', 'Fordi det er påbudt å gå på skole hele livet', 'Det er ikke viktig']::text[], 1, 'Fagarbeidere må stadig lære nye metoder og verktøy.', true, false, 8),
+  ('arbeidslivsfag-10:yrkesfag-og-veien-videre', 'q10', 'flervalg', 'Hva kan du gjøre for å finne ut hvilket utdanningsprogram som passer deg?', array['Velge det vennene dine velger', 'Kaste mynt', 'Snakke med rådgiveren og hospitere', 'Velge det første på lista']::text[], 2, 'Erfaringer fra arbeidslivsfag er også nyttige.', true, false, 9),
+  ('arbeidslivsfag-10:yrkesfag-og-veien-videre', 'm01', 'sant-usant', 'Med fagbrev kan man senere ta mesterbrev.', array['Sant', 'Usant']::text[], 0, 'Mesterbrevet gir rett til å lede egen bedrift i mange håndverksfag.', false, true, 10),
+  ('arbeidslivsfag-10:yrkesfag-og-veien-videre', 'm02', 'sant-usant', 'Yrkesfag stenger for høyere utdanning for alltid.', array['Sant', 'Usant']::text[], 1, 'Påbygging, fagskole og Y-veien gir mange veier videre.', false, true, 11),
+  ('arbeidslivsfag-10:yrkesfag-og-veien-videre', 'm03', 'sant-usant', 'En lærling får lønn.', array['Sant', 'Usant']::text[], 0, 'Lærlinglønnen øker gradvis gjennom læretiden.', false, true, 12),
+  ('arbeidslivsfag-10:yrkesfag-og-veien-videre', 'm04', 'sant-usant', 'Alle yrkesfag har nøyaktig samme opplæringsmodell.', array['Sant', 'Usant']::text[], 1, 'De fleste følger 2 + 2-modellen, men noen fag har andre modeller.', false, true, 13),
+  ('arbeidslivsfag-10:yrkesfag-og-veien-videre', 'm05', 'flervalg', 'Hvilket yrke hører til restaurant- og matfag?', array['Tømrer', 'Frisør', 'Baker', 'Elektriker']::text[], 2, 'Kokk og servitør hører også hit.', false, true, 14),
+  ('arbeidslivsfag-10:yrkesfag-og-veien-videre', 'm06', 'flervalg', 'Hva er Y-veien?', array['En vei til ingeniørutdanning for søkere med fagbrev', 'En motorvei', 'En type lærekontrakt', 'Et utdanningsprogram på ungdomsskolen']::text[], 0, 'Y-veien bygger på fagbrevet.', false, true, 15),
+  ('arbeidslivsfag-10:yrkesfag-og-veien-videre', 'm07', 'flervalg', 'Hvilket nettsted har informasjon om utdanningsprogram i videregående?', array['Arbeidstilsynet.no', 'Vilbli.no', 'Mattilsynet.no', 'Yr.no']::text[], 1, 'Også utdanning.no har mye informasjon om yrker.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('arbeidslivsfag-10:yrkesfag-og-veien-videre', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Utdanningsvalg (10): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'utdanningsvalg-10' and slug not in ('soke-videregaende', 'cv-og-jobbsoknad', 'arbeid-og-utenforskap', 'overganger-og-mestring');
+
+-- Utdanningsvalg: Å søke videregående
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('utdanningsvalg-10:soke-videregaende', 'utdanningsvalg-10', 'soke-videregaende', 'Å søke videregående', 'Hvordan søknaden til videregående fungerer: søknadsfrister, ønsker i prioritert rekkefølge, grunnskolepoeng, inntak, fortrinnsrett og individuell behandling, svar på tilbud og hvordan du gjør valget til handling.', array[2, 3, 8]::int[], 0, 'sjekkes', array['Sjekk søknadsfrister (1. februar og 1. mars), søknadsportal (vigo.no) og antall ønsker mot gjeldende regler i fylket.', 'Sjekk formuleringen om rett til videregående opplæring etter ny opplæringslov.']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('utdanningsvalg-10:soke-videregaende', '## Fra idé til søknad
+
+På 10. trinn er det tid for å gjøre **ideene om framtiden om til handling**: Du skal søke videregående opplæring. Det er lurt å starte tidlig, snakke med **rådgiveren** og **foresatte**, besøke skoler på **åpen dag** og bruke **vilbli.no** for å se hvilke veier de ulike utdanningsprogrammene gir.
+
+## Søknaden
+
+- Søknaden sendes **digitalt** gjennom fylkets søknadsportal, som i de fleste fylker er **vigo.no**. Du logger inn med elektronisk ID.
+- Den ordinære **søknadsfristen** er **1. mars**.
+- Søkere som ber om **fortrinnsrett** eller **individuell behandling**, har vanligvis en tidligere frist, **1. februar**.
+- Du setter opp **flere ønsker i prioritert rekkefølge**: Førsteønsket er det du helst vil, og de neste er reserver.
+
+## Inntak og grunnskolepoeng
+
+Der det er flere søkere enn plasser, avgjøres inntaket av **grunnskolepoeng**. Poengene regnes ut som **gjennomsnittet av standpunkt- og eksamenskarakterene** dine, **ganget med ti**. Et snitt på 4,5 gir altså 45 poeng. Noen utdanningsprogram har i tillegg **opptaksprøver**, for eksempel musikk, dans og drama.
+
+**Fortrinnsrett** kan gis til elever som på grunn av funksjonsnedsettelse eller store vansker har behov for et bestemt tilbud. Søkere uten karakterer i mange fag kan søke **individuell behandling**.
+
+## Svar og tilbud
+
+Svar på søknaden kommer i løpet av **sommeren**. Da må du **svare** innen fristen – enten takke ja, takke ja og stå på **venteliste** for et høyere ønske, eller takke nei. Svarer du ikke, kan du miste plassen. Etter det første inntaket kommer det gjerne flere inntaksrunder for dem som står på venteliste.
+
+## Rett til videregående
+
+Alle som har fullført grunnskolen, har **rett til videregående opplæring**. Retten er ikke en garanti for å komme inn på førsteønsket, men du skal få tilbud om plass på et av de utdanningsprogrammene du har søkt på.
+
+## Tips til valget
+
+- Velg ut fra **egne interesser og mål**, ikke bare det vennene gjør.
+- Undersøk hvilke **veier videre** programmet gir: studiekompetanse, fagbrev eller begge deler.
+- Tenk gjennom **reisevei** og hvilke skoler som tilbyr programmet.
+- Ha **reserveønsker** som du også kan tenke deg.
+- Husk at det er mulig å gjøre **omvalg** senere.
+
+## Å sette mål
+
+Et **SMART** mål – spesifikt, målbart, akseptert, realistisk og tidsbestemt – kan hjelpe deg å komme i gang: «Jeg skal besøke to videregående skoler og snakke med rådgiveren før 1. februar.» Slik blir en idé til en plan, og planen blir til handling.', '{"label":"Å søke videregående","children":[{"label":"Forberedelse","children":[{"label":"Rådgiver"},{"label":"Åpen dag"},{"label":"Vilbli.no"}]},{"label":"Søknad","children":[{"label":"Vigo.no"},{"label":"Frist 1. mars"},{"label":"Prioriterte ønsker"}]},{"label":"Inntak","children":[{"label":"Grunnskolepoeng"},{"label":"Opptaksprøver"},{"label":"Fortrinnsrett"},{"label":"Individuell behandling"}]},{"label":"Svar","children":[{"label":"Svarfrist"},{"label":"Venteliste"},{"label":"Nye inntaksrunder"}]},{"label":"Til handling","children":[{"label":"SMART-mål"},{"label":"Reserveønsker"},{"label":"Omvalg"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'utdanningsvalg-10:soke-videregaende';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('utdanningsvalg-10:soke-videregaende', 'Vigo.no', 'Søknadsportalen for videregående opplæring i de fleste fylker.', 0),
+  ('utdanningsvalg-10:soke-videregaende', 'Ordinær søknadsfrist', '1. mars.', 1),
+  ('utdanningsvalg-10:soke-videregaende', 'Fortrinnsrett', 'Rett til et bestemt tilbud for søkere med særlige behov.', 2),
+  ('utdanningsvalg-10:soke-videregaende', 'Individuell behandling', 'Søknad som vurderes særskilt, for eksempel når søkeren mangler karakterer.', 3),
+  ('utdanningsvalg-10:soke-videregaende', 'Prioriterte ønsker', 'Utdanningsprogrammene du søker, satt opp etter hva du helst vil.', 4),
+  ('utdanningsvalg-10:soke-videregaende', 'Grunnskolepoeng', 'Gjennomsnittet av standpunkt- og eksamenskarakterene ganget med ti.', 5),
+  ('utdanningsvalg-10:soke-videregaende', 'Opptaksprøve', 'Prøve som noen utdanningsprogram bruker ved inntak.', 6),
+  ('utdanningsvalg-10:soke-videregaende', 'Inntak', 'Prosessen der søkerne får tilbud om skoleplass.', 7),
+  ('utdanningsvalg-10:soke-videregaende', 'Venteliste', 'Liste over søkere som venter på plass på et høyere ønske.', 8),
+  ('utdanningsvalg-10:soke-videregaende', 'Svarfrist', 'Fristen for å takke ja eller nei til et tilbud.', 9),
+  ('utdanningsvalg-10:soke-videregaende', 'Rett til videregående opplæring', 'Rett alle som har fullført grunnskolen, har til videregående.', 10),
+  ('utdanningsvalg-10:soke-videregaende', 'Åpen dag', 'Dag der videregående skoler viser fram tilbudet sitt.', 11),
+  ('utdanningsvalg-10:soke-videregaende', 'Reserveønske', 'Et alternativ lenger ned på lista over ønsker.', 12),
+  ('utdanningsvalg-10:soke-videregaende', 'SMART-mål', 'Mål som er spesifikt, målbart, akseptert, realistisk og tidsbestemt.', 13),
+  ('utdanningsvalg-10:soke-videregaende', 'Omvalg', 'Å bytte utdanningsprogram hvis det første valget ikke passet.', 14);
+delete from public.quiz_sporsmal where tema_id = 'utdanningsvalg-10:soke-videregaende';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('utdanningsvalg-10:soke-videregaende', 'q01', 'flervalg', 'Når er den ordinære søknadsfristen til videregående?', array['1. januar', '1. mars', '1. mai', '1. august']::text[], 1, 'Søkere som ber om fortrinnsrett eller individuell behandling, har vanligvis frist 1. februar.', true, true, 0),
+  ('utdanningsvalg-10:soke-videregaende', 'q02', 'flervalg', 'Hvordan regnes grunnskolepoeng ut?', array['Summen av alle karakterene', 'Antall fag ganget med ti', 'Gjennomsnittet av karakterene ganget med ti', 'Beste karakter ganget med ti']::text[], 2, 'Et snitt på 4,5 gir 45 poeng.', true, true, 1),
+  ('utdanningsvalg-10:soke-videregaende', 'q03', 'flervalg', 'Hva er et reserveønske?', array['Et alternativ lenger ned på lista over ønsker', 'Et ønske om å slippe skolen', 'Førsteønsket', 'En klage']::text[], 0, 'Reserveønskene brukes hvis du ikke kommer inn på førsteønsket.', true, true, 2),
+  ('utdanningsvalg-10:soke-videregaende', 'q04', 'flervalg', 'Hva skjer hvis du ikke svarer på tilbudet om skoleplass innen fristen?', array['Du får automatisk førsteønsket', 'Ingenting', 'Du får en ny sjanse neste dag', 'Du kan miste plassen']::text[], 3, 'Husk å svare innen fristen.', true, true, 3),
+  ('utdanningsvalg-10:soke-videregaende', 'q05', 'flervalg', 'Hva betyr retten til videregående opplæring?', array['At du alltid kommer inn på førsteønsket', 'At du skal få tilbud om plass på et av programmene du har søkt på', 'At videregående er obligatorisk', 'At du kan velge skole fritt']::text[], 1, 'Retten gjelder alle som har fullført grunnskolen.', true, true, 4),
+  ('utdanningsvalg-10:soke-videregaende', 'q06', 'flervalg', 'Hvilket utdanningsprogram kan ha opptaksprøve?', array['Musikk, dans og drama', 'Studiespesialisering', 'Restaurant- og matfag', 'Naturbruk']::text[], 0, 'Opptaksprøver brukes for å vurdere ferdigheter i for eksempel musikk og dans.', true, true, 5),
+  ('utdanningsvalg-10:soke-videregaende', 'q07', 'flervalg', 'Hvilket av disse er et SMART mål?', array['Jeg skal finne ut av ting', 'Jeg skal bli flink', 'Jeg skal velge noe', 'Jeg skal besøke to skoler før 1. februar']::text[], 3, 'Målet er spesifikt, målbart og tidsbestemt.', true, true, 6),
+  ('utdanningsvalg-10:soke-videregaende', 'q08', 'flervalg', 'Hvem kan søke individuell behandling?', array['Alle som vil ha en bedre plass', 'Bare de med høyest karakterer', 'For eksempel søkere som mangler karakterer i mange fag', 'Bare lærere']::text[], 2, 'Da vurderes søknaden særskilt.', true, true, 7),
+  ('utdanningsvalg-10:soke-videregaende', 'q09', 'flervalg', 'Hva betyr det å stå på venteliste?', array['At du har takket nei', 'At du venter på plass på et høyere ønske', 'At du ikke har søkt', 'At du er utestengt']::text[], 1, 'Mange får plass i senere inntaksrunder.', true, false, 8),
+  ('utdanningsvalg-10:soke-videregaende', 'q10', 'flervalg', 'Hvilket råd er godt når du velger utdanningsprogram?', array['Velg det samme som bestevennen', 'Ikke tenk på veien videre', 'Velg ut fra egne interesser og mål', 'Velg tilfeldig']::text[], 2, 'Det er ditt valg og din framtid.', true, false, 9),
+  ('utdanningsvalg-10:soke-videregaende', 'm01', 'sant-usant', 'Søknaden til videregående sendes digitalt.', array['Sant', 'Usant']::text[], 0, 'I de fleste fylker brukes vigo.no.', false, true, 10),
+  ('utdanningsvalg-10:soke-videregaende', 'm02', 'sant-usant', 'Retten til videregående garanterer plass på førsteønsket.', array['Sant', 'Usant']::text[], 1, 'Retten gir plass på et av programmene du har søkt, ikke nødvendigvis førsteønsket.', false, true, 11),
+  ('utdanningsvalg-10:soke-videregaende', 'm03', 'sant-usant', 'Grunnskolepoeng bygger på både standpunkt- og eksamenskarakterer.', array['Sant', 'Usant']::text[], 0, 'Snittet ganges med ti.', false, true, 12),
+  ('utdanningsvalg-10:soke-videregaende', 'm04', 'sant-usant', 'Man kan bare sette opp ett ønske i søknaden.', array['Sant', 'Usant']::text[], 1, 'Man setter opp flere ønsker i prioritert rekkefølge.', false, true, 13),
+  ('utdanningsvalg-10:soke-videregaende', 'm05', 'flervalg', 'Et karaktersnitt på 4,2 gir hvor mange grunnskolepoeng?', array['4,2', '42', '420', '24']::text[], 1, '4,2 ganget med 10 er 42.', false, true, 14),
+  ('utdanningsvalg-10:soke-videregaende', 'm06', 'flervalg', 'Hva er fortrinnsrett?', array['Rett til et bestemt tilbud for søkere med særlige behov', 'Rett til å velge lærer', 'Rett til å slippe eksamen', 'Rett til gratis skolemat']::text[], 0, 'Søkere med fortrinnsrett har vanligvis tidligere søknadsfrist.', false, true, 15),
+  ('utdanningsvalg-10:soke-videregaende', 'm07', 'flervalg', 'Når får man vanligvis svar på søknaden til videregående?', array['Før jul', 'I februar', 'I løpet av sommeren', 'Etter skolestart']::text[], 2, 'Deretter må man svare innen fristen.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('utdanningsvalg-10:soke-videregaende', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Utdanningsvalg: CV, jobbsøknad og intervju
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('utdanningsvalg-10:cv-og-jobbsoknad', 'utdanningsvalg-10', 'cv-og-jobbsoknad', 'CV, jobbsøknad og intervju', 'Hvordan du leser en stillingsannonse, skriver en god CV og en målrettet søknad, bruker referanser, tar vare på det digitale fotavtrykket og forbereder deg til jobbintervju.', array[10]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('utdanningsvalg-10:cv-og-jobbsoknad', '## Stillingsannonsen
+
+En **stillingsannonse** forteller hva arbeidsgiveren leter etter. Les den nøye og se etter
+
+- **arbeidsoppgaver** – hva du skal gjøre
+- **kvalifikasjoner** – utdanning, erfaring og krav, for eksempel alder eller førerkort
+- **personlige egenskaper** – for eksempel «serviceinnstilt» eller «pålitelig»
+- **søknadsfrist** og **kontaktperson**
+
+Skill mellom **krav** («må ha») og **ønsker** («det er en fordel»). Ring gjerne kontaktpersonen og still et godt spørsmål – det viser interesse.
+
+## CV
+
+**CV** er en kort, oversiktlig liste over bakgrunnen din, vanligvis på én side. Den inneholder
+
+- **personalia**: navn, telefon og e-post (bruk en seriøs e-postadresse)
+- **utdanning**: skole og årstall
+- **arbeidserfaring**: også små jobber som avislevering eller barnevakt
+- **verv og frivillig arbeid**: trener, elevråd, korps, idrettslag
+- **kurs og sertifikater**: førstehjelp, mopedlappen
+- **språk** og **digitale ferdigheter**
+- **referanser** – eller «oppgis ved forespørsel»
+
+Det nyeste står **øverst**. CV-en skal være **sann** – ikke overdriv.
+
+## Søknadsbrevet
+
+**Søknaden** er et kort brev der du forklarer **hvorfor** du søker og **hva du kan bidra med**. En god søknad
+
+1. viser **hvilken stilling** du søker på
+2. forteller hvorfor du er **interessert** i jobben og bedriften
+3. kobler **egenskapene og erfaringene** dine til kravene i annonsen, med konkrete **eksempler**
+4. avslutter med at du gjerne kommer på **intervju**
+
+Skriv en **ny søknad** til hver jobb, og få noen til å lese korrektur. Skrivefeil gir et dårlig inntrykk.
+
+## Referanser
+
+En **referanse** er en person som kan fortelle arbeidsgiveren om deg, for eksempel en tidligere sjef, en trener eller en lærer. **Spør alltid først** om du kan oppgi noen som referanse. Familie er ikke gode referanser.
+
+## Digitalt fotavtrykk
+
+Mange arbeidsgivere søker opp søkere på nettet. Tenk over hva du deler i **sosiale medier**, og sjekk hva som dukker opp når du søker på navnet ditt.
+
+## Jobbintervjuet
+
+**Forberedelse**: Les om bedriften, les annonsen på nytt og tenk gjennom vanlige spørsmål:
+
+- «Fortell litt om deg selv.»
+- «Hvorfor søker du på denne jobben?»
+- «Hva er dine sterke og svake sider?»
+- «Fortell om en gang du løste et problem.»
+
+**På intervjuet**: Møt **presis**, kle deg **ryddig**, hils med et fast håndtrykk og øyekontakt, lytt godt og svar ærlig med konkrete eksempler. Still gjerne **egne spørsmål**, for eksempel om arbeidsoppgavene eller opplæringen.
+
+**Etterpå**: Takk for intervjuet. Hvis du ikke får jobben, kan du be om **tilbakemelding** – og lære til neste gang.', '{"label":"CV, søknad og intervju","children":[{"label":"Annonsen","children":[{"label":"Oppgaver"},{"label":"Krav og ønsker"},{"label":"Frist og kontakt"}]},{"label":"CV","children":[{"label":"Personalia"},{"label":"Utdanning og erfaring"},{"label":"Verv og kurs"},{"label":"Nyeste øverst"}]},{"label":"Søknaden","children":[{"label":"Hvorfor jeg søker"},{"label":"Hva jeg kan bidra med"},{"label":"Konkrete eksempler"},{"label":"Korrektur"}]},{"label":"Referanser og nett","children":[{"label":"Spør først"},{"label":"Digitalt fotavtrykk"}]},{"label":"Intervju","children":[{"label":"Forberede"},{"label":"Presis og ryddig"},{"label":"Egne spørsmål"},{"label":"Tilbakemelding"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'utdanningsvalg-10:cv-og-jobbsoknad';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('utdanningsvalg-10:cv-og-jobbsoknad', 'Stillingsannonse', 'Annonse som beskriver en ledig jobb og hva arbeidsgiveren leter etter.', 0),
+  ('utdanningsvalg-10:cv-og-jobbsoknad', 'Kvalifikasjoner', 'Utdanning, erfaring og ferdigheter som kreves til en jobb.', 1),
+  ('utdanningsvalg-10:cv-og-jobbsoknad', 'Krav og ønsker', 'Krav må du ha; ønsker er en fordel.', 2),
+  ('utdanningsvalg-10:cv-og-jobbsoknad', 'Søknadsfrist', 'Siste dag for å sende søknaden.', 3),
+  ('utdanningsvalg-10:cv-og-jobbsoknad', 'CV', 'Kort oversikt over utdanning, erfaring og ferdigheter.', 4),
+  ('utdanningsvalg-10:cv-og-jobbsoknad', 'Personalia', 'Navn og kontaktinformasjon.', 5),
+  ('utdanningsvalg-10:cv-og-jobbsoknad', 'Arbeidserfaring', 'Jobber du har hatt, også små jobber.', 6),
+  ('utdanningsvalg-10:cv-og-jobbsoknad', 'Verv', 'Tillitsoppdrag, som å sitte i elevrådet eller være trener.', 7),
+  ('utdanningsvalg-10:cv-og-jobbsoknad', 'Søknadsbrev', 'Brev som forklarer hvorfor du søker og hva du kan bidra med.', 8),
+  ('utdanningsvalg-10:cv-og-jobbsoknad', 'Referanse', 'Person som kan fortelle arbeidsgiveren om deg.', 9),
+  ('utdanningsvalg-10:cv-og-jobbsoknad', 'Digitalt fotavtrykk', 'Sporene du etterlater deg på nettet.', 10),
+  ('utdanningsvalg-10:cv-og-jobbsoknad', 'Jobbintervju', 'Samtale der arbeidsgiveren blir kjent med søkeren.', 11),
+  ('utdanningsvalg-10:cv-og-jobbsoknad', 'Forberedelse', 'Å lese om bedriften og tenke gjennom vanlige spørsmål før intervjuet.', 12),
+  ('utdanningsvalg-10:cv-og-jobbsoknad', 'Konkrete eksempler', 'Situasjoner som viser egenskapene dine i praksis.', 13),
+  ('utdanningsvalg-10:cv-og-jobbsoknad', 'Korrekturlesing', 'Å lese gjennom teksten for å finne skrivefeil.', 14);
+delete from public.quiz_sporsmal where tema_id = 'utdanningsvalg-10:cv-og-jobbsoknad';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('utdanningsvalg-10:cv-og-jobbsoknad', 'q01', 'flervalg', 'Hva er en CV?', array['Et søknadsbrev', 'En kort oversikt over utdanning, erfaring og ferdigheter', 'En stillingsannonse', 'En arbeidsavtale']::text[], 1, 'CV-en er vanligvis på én side.', true, true, 0),
+  ('utdanningsvalg-10:cv-og-jobbsoknad', 'q02', 'flervalg', 'I hvilken rekkefølge bør erfaringene stå i en CV?', array['Tilfeldig', 'Det eldste øverst', 'Det nyeste øverst', 'Alfabetisk']::text[], 2, 'Arbeidsgiveren er mest interessert i det du har gjort nylig.', true, true, 1),
+  ('utdanningsvalg-10:cv-og-jobbsoknad', 'q03', 'flervalg', 'Hva bør du gjøre før du oppgir noen som referanse?', array['Spørre personen om lov', 'Ingenting', 'Sende dem en gave', 'Skrive hva de skal si']::text[], 0, 'Referansen må vite at arbeidsgiveren kan ringe.', true, true, 2),
+  ('utdanningsvalg-10:cv-og-jobbsoknad', 'q04', 'flervalg', 'Hva bør et søknadsbrev inneholde?', array['Hele livshistorien din', 'Bare navnet ditt', 'En kopi av CV-en', 'Hvorfor du søker og hva du kan bidra med']::text[], 3, 'Koble egenskapene dine til kravene i annonsen.', true, true, 3),
+  ('utdanningsvalg-10:cv-og-jobbsoknad', 'q05', 'flervalg', 'Hva er forskjellen på krav og ønsker i en stillingsannonse?', array['Krav må du ha, ønsker er en fordel', 'Det er det samme', 'Ønsker er viktigere enn krav', 'Krav gjelder bare lønn']::text[], 0, 'Du kan søke selv om du ikke oppfyller alle ønskene.', true, true, 4),
+  ('utdanningsvalg-10:cv-og-jobbsoknad', 'q06', 'flervalg', 'Hva er et digitalt fotavtrykk?', array['Et fingeravtrykk på skjermen', 'Sporene du etterlater deg på nettet', 'En type CV', 'Et passord']::text[], 1, 'Mange arbeidsgivere søker opp søkere på nettet.', true, true, 5),
+  ('utdanningsvalg-10:cv-og-jobbsoknad', 'q07', 'flervalg', 'Hvordan bør du forberede deg til et jobbintervju?', array['Ikke forberede deg i det hele tatt', 'Pugge svar ord for ord', 'Lese om bedriften og tenke gjennom vanlige spørsmål', 'Komme sent for å virke avslappet']::text[], 2, 'God forberedelse gir tryggere svar.', true, true, 6),
+  ('utdanningsvalg-10:cv-og-jobbsoknad', 'q08', 'flervalg', 'Hvilken erfaring kan du ta med i CV-en som 15-åring?', array['Bare fulltidsjobber', 'Ingenting', 'Bare utdanning', 'Avislevering, barnevakt og verv som trener eller i elevrådet']::text[], 3, 'Også små jobber og verv viser ansvar og erfaring.', true, true, 7),
+  ('utdanningsvalg-10:cv-og-jobbsoknad', 'q09', 'flervalg', 'Hvorfor bør du stille egne spørsmål på et jobbintervju?', array['For å vise interesse og lære mer om jobben', 'For å forlenge intervjuet', 'For å teste intervjueren', 'Det bør du ikke']::text[], 0, 'Du kan for eksempel spørre om opplæringen.', true, false, 8),
+  ('utdanningsvalg-10:cv-og-jobbsoknad', 'q10', 'flervalg', 'Hvorfor bør du skrive en ny søknad til hver jobb?', array['Fordi det er påbudt', 'Fordi søknaden bør tilpasses stillingen og bedriften', 'Fordi gamle søknader blir slettet', 'Det trenger du ikke']::text[], 1, 'En målrettet søknad skiller seg ut.', true, false, 9),
+  ('utdanningsvalg-10:cv-og-jobbsoknad', 'm01', 'sant-usant', 'En CV bør være sann og ikke overdrive.', array['Sant', 'Usant']::text[], 0, 'Overdrivelser kan avsløres, for eksempel når arbeidsgiveren ringer referansene.', false, true, 10),
+  ('utdanningsvalg-10:cv-og-jobbsoknad', 'm02', 'sant-usant', 'Foreldre er gode referanser i en jobbsøknad.', array['Sant', 'Usant']::text[], 1, 'Familie regnes ikke som nøytrale referanser.', false, true, 11),
+  ('utdanningsvalg-10:cv-og-jobbsoknad', 'm03', 'sant-usant', 'Det kan være lurt å be om tilbakemelding hvis du ikke får jobben.', array['Sant', 'Usant']::text[], 0, 'Da kan du lære til neste søknad.', false, true, 12),
+  ('utdanningsvalg-10:cv-og-jobbsoknad', 'm04', 'sant-usant', 'Skrivefeil i en søknad har ingen betydning.', array['Sant', 'Usant']::text[], 1, 'Skrivefeil gir et slurvete inntrykk.', false, true, 13),
+  ('utdanningsvalg-10:cv-og-jobbsoknad', 'm05', 'flervalg', 'Hva er et verv?', array['En type lønn', 'Et tillitsoppdrag, som å sitte i elevrådet', 'En jobbsøknad', 'En referanse']::text[], 1, 'Verv viser at du tar ansvar.', false, true, 14),
+  ('utdanningsvalg-10:cv-og-jobbsoknad', 'm06', 'flervalg', 'Hva er et vanlig spørsmål på jobbintervju?', array['Hva er favorittmaten din?', 'Hvor bor bestemoren din?', 'Hvorfor søker du på denne jobben?', 'Hvilken bil har du?']::text[], 2, 'Forbered et ærlig og konkret svar.', false, true, 15),
+  ('utdanningsvalg-10:cv-og-jobbsoknad', 'm07', 'flervalg', 'Hvilken e-postadresse passer best i en CV?', array['kulgutt2010@…', 'partyjenta@…', 'xXgamerXx@…', 'fornavn.etternavn@…']::text[], 3, 'En seriøs e-postadresse gir et godt inntrykk.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('utdanningsvalg-10:cv-og-jobbsoknad', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Utdanningsvalg: Arbeid og utenforskap
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('utdanningsvalg-10:arbeid-og-utenforskap', 'utdanningsvalg-10', 'arbeid-og-utenforskap', 'Arbeid og utenforskap', 'Hvilken verdi arbeid har for den enkelte og for samfunnet, hva utenforskap er, hvorfor noen står utenfor skole og arbeid, konsekvensene av det og hvilke tiltak som finnes.', array[5]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('utdanningsvalg-10:arbeid-og-utenforskap', '## Verdien av arbeid for den enkelte
+
+Arbeid gir mer enn lønn. For mange betyr arbeid
+
+- **inntekt** og **økonomisk selvstendighet**
+- **fellesskap** med kolleger
+- **identitet** – det man jobber med, blir en del av hvem man er
+- **mening** og **mestring** – følelsen av å bidra og få til noe
+- **struktur** i hverdagen
+- **rettigheter** som sykepenger, feriepenger og pensjon
+
+## Verdien av arbeid for samfunnet
+
+Når mange er i arbeid, betaler de **skatt**. Skatteinntektene finansierer **velferdsstaten**: skole, helsevesen, eldreomsorg, veier og trygder. Den norske velferdsmodellen er derfor avhengig av at **flest mulig er i arbeid**. Arbeid gir også **verdiskaping** – varer og tjenester som samfunnet trenger.
+
+## Hva er utenforskap?
+
+**Utenforskap** betyr å stå utenfor viktige fellesskap i samfunnet, som **utdanning**, **arbeid** og **sosiale nettverk**. Unge som verken er i **utdanning**, **arbeid** eller **opplæring**, omtales ofte med den engelske forkortelsen **NEET**. I Norge fullfører ikke alle videregående opplæring, og det å mangle fullført videregående gjør det vanskeligere å få fast jobb.
+
+## Årsaker
+
+Årsakene til utenforskap er ofte sammensatte:
+
+- **psykiske eller fysiske helseplager**
+- **svake skoleresultater** eller **fravær**
+- **mobbing** og **ensomhet**
+- **rusproblemer**
+- **språkvansker** eller manglende **nettverk**
+- **diskriminering** i arbeidslivet
+- lite **arbeidserfaring**, som gjør det vanskelig å få den første jobben
+
+## Konsekvenser
+
+For den enkelte kan utenforskap gi **dårligere økonomi**, **dårligere helse**, **ensomhet** og svakere **selvfølelse**. For samfunnet betyr det **tapte skatteinntekter**, høyere utgifter til **trygd** og mangel på **arbeidskraft**.
+
+## Tiltak
+
+- **Skolen** jobber med å forebygge frafall gjennom tett oppfølging, tilpasset opplæring og godt skolemiljø.
+- **Oppfølgingstjenesten** i fylkeskommunen hjelper unge som ikke er i skole eller arbeid, tilbake til opplæring eller jobb.
+- **NAV** gir veiledning, arbeidstrening og økonomisk støtte.
+- **Arbeidsgivere** kan tilby **lærlingplasser**, **sommerjobber** og **tilrettelegging** – og ansette folk med hull i CV-en.
+- **Frivillige organisasjoner**, idrettslag og fritidsklubber gir fellesskap.
+
+## Hva kan du gjøre?
+
+Du kan bidra ved å **inkludere** andre i skolen og på fritiden, si fra om **mobbing** og **be om hjelp** tidlig hvis du selv sliter. Å fullføre videregående er en av de viktigste investeringene du kan gjøre i egen framtid.', '{"label":"Arbeid og utenforskap","children":[{"label":"Verdi for meg","children":[{"label":"Inntekt"},{"label":"Fellesskap"},{"label":"Identitet og mestring"}]},{"label":"Verdi for samfunnet","children":[{"label":"Skatt"},{"label":"Velferdsstaten"},{"label":"Verdiskaping"}]},{"label":"Utenforskap","children":[{"label":"NEET"},{"label":"Frafall"},{"label":"Ensomhet"}]},{"label":"Årsaker","children":[{"label":"Helse"},{"label":"Skoleresultater"},{"label":"Mobbing og rus"},{"label":"Diskriminering"}]},{"label":"Tiltak","children":[{"label":"Skolen"},{"label":"Oppfølgingstjenesten"},{"label":"NAV"},{"label":"Arbeidsgivere"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'utdanningsvalg-10:arbeid-og-utenforskap';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('utdanningsvalg-10:arbeid-og-utenforskap', 'Økonomisk selvstendighet', 'Å kunne forsørge seg selv.', 0),
+  ('utdanningsvalg-10:arbeid-og-utenforskap', 'Identitet', 'Hvem man er og opplever seg som.', 1),
+  ('utdanningsvalg-10:arbeid-og-utenforskap', 'Mestring', 'Følelsen av å få til noe.', 2),
+  ('utdanningsvalg-10:arbeid-og-utenforskap', 'Velferdsstaten', 'Stat som sørger for utdanning, helse og trygd for innbyggerne, finansiert med skatt.', 3),
+  ('utdanningsvalg-10:arbeid-og-utenforskap', 'Verdiskaping', 'Produksjon av varer og tjenester som har verdi for samfunnet.', 4),
+  ('utdanningsvalg-10:arbeid-og-utenforskap', 'Utenforskap', 'Å stå utenfor viktige fellesskap som utdanning, arbeid og sosiale nettverk.', 5),
+  ('utdanningsvalg-10:arbeid-og-utenforskap', 'NEET', 'Unge som verken er i utdanning, arbeid eller opplæring.', 6),
+  ('utdanningsvalg-10:arbeid-og-utenforskap', 'Frafall', 'At elever slutter før de har fullført videregående.', 7),
+  ('utdanningsvalg-10:arbeid-og-utenforskap', 'Oppfølgingstjenesten', 'Fylkeskommunal tjeneste som hjelper unge utenfor skole og arbeid.', 8),
+  ('utdanningsvalg-10:arbeid-og-utenforskap', 'NAV', 'Offentlig etat for arbeid, trygd og sosiale tjenester.', 9),
+  ('utdanningsvalg-10:arbeid-og-utenforskap', 'Arbeidstrening', 'Tiltak der man prøver seg i arbeid med støtte.', 10),
+  ('utdanningsvalg-10:arbeid-og-utenforskap', 'Tilrettelegging', 'Tilpasning av arbeid eller skole til den enkeltes behov.', 11),
+  ('utdanningsvalg-10:arbeid-og-utenforskap', 'Inkludering', 'Å ta andre med i fellesskapet.', 12),
+  ('utdanningsvalg-10:arbeid-og-utenforskap', 'Trygd', 'Økonomisk støtte fra staten, for eksempel ved sykdom eller arbeidsledighet.', 13),
+  ('utdanningsvalg-10:arbeid-og-utenforskap', 'Nettverk', 'Personer man kjenner, som kan hjelpe med jobb og kontakter.', 14);
+delete from public.quiz_sporsmal where tema_id = 'utdanningsvalg-10:arbeid-og-utenforskap';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('utdanningsvalg-10:arbeid-og-utenforskap', 'q01', 'flervalg', 'Hva gir arbeid den enkelte i tillegg til lønn?', array['Ingenting', 'Bare stress', 'Fellesskap, identitet og mestring', 'Bare fritid']::text[], 2, 'Arbeid gir også struktur og rettigheter.', true, true, 0),
+  ('utdanningsvalg-10:arbeid-og-utenforskap', 'q02', 'flervalg', 'Hva betyr utenforskap?', array['Å bo i utlandet', 'Å stå utenfor viktige fellesskap som utdanning og arbeid', 'Å jobbe ute', 'Å være på ferie']::text[], 1, 'Utenforskap har konsekvenser både for den enkelte og samfunnet.', true, true, 1),
+  ('utdanningsvalg-10:arbeid-og-utenforskap', 'q03', 'flervalg', 'Hvorfor er velferdsstaten avhengig av at mange er i arbeid?', array['Fordi skatteinntektene finansierer velferden', 'Fordi staten eier alle bedrifter', 'Fordi det er påbudt', 'Det er den ikke']::text[], 0, 'Skatt fra arbeid betaler for skoler, sykehus og trygder.', true, true, 2),
+  ('utdanningsvalg-10:arbeid-og-utenforskap', 'q04', 'flervalg', 'Hva står NEET for?', array['Nye elever etter eksamen', 'Norsk etat for eksport og transport', 'Nettverk for elever og trenere', 'Unge som verken er i utdanning, arbeid eller opplæring']::text[], 3, 'Forkortelsen kommer fra engelsk.', true, true, 3),
+  ('utdanningsvalg-10:arbeid-og-utenforskap', 'q05', 'flervalg', 'Hva er en vanlig årsak til utenforskap?', array['Helseplager eller svake skoleresultater', 'Å ha mange venner', 'Å ha fullført videregående', 'Å ha sommerjobb']::text[], 0, 'Årsakene er ofte sammensatte.', true, true, 4),
+  ('utdanningsvalg-10:arbeid-og-utenforskap', 'q06', 'flervalg', 'Hva gjør oppfølgingstjenesten?', array['Følger opp skatten', 'Hjelper unge utenfor skole og arbeid tilbake til opplæring eller jobb', 'Kontrollerer restauranter', 'Deler ut karakterer']::text[], 1, 'Oppfølgingstjenesten drives av fylkeskommunen.', true, true, 5),
+  ('utdanningsvalg-10:arbeid-og-utenforskap', 'q07', 'flervalg', 'Hva er en konsekvens av utenforskap for samfunnet?', array['Flere skatteinntekter', 'Mindre behov for trygd', 'Tapte skatteinntekter og mangel på arbeidskraft', 'Ingen konsekvenser']::text[], 2, 'Utenforskap koster både den enkelte og samfunnet.', true, true, 6),
+  ('utdanningsvalg-10:arbeid-og-utenforskap', 'q08', 'flervalg', 'Hvordan kan arbeidsgivere bidra mot utenforskap?', array['Ved å bare ansette folk med lang erfaring', 'Ved å legge ned bedriften', 'Ved å kreve perfekt CV', 'Ved å tilby lærlingplasser, sommerjobber og tilrettelegging']::text[], 3, 'Den første jobben er ofte den vanskeligste å få.', true, true, 7),
+  ('utdanningsvalg-10:arbeid-og-utenforskap', 'q09', 'flervalg', 'Hva kan du som elev gjøre mot utenforskap?', array['Inkludere andre og si fra om mobbing', 'Holde deg for deg selv', 'Ignorere de som sliter', 'Ingenting']::text[], 0, 'Fellesskap forebygger utenforskap.', true, false, 8),
+  ('utdanningsvalg-10:arbeid-og-utenforskap', 'q10', 'flervalg', 'Hva er NAV?', array['En bank', 'En offentlig etat for arbeid, trygd og sosiale tjenester', 'En fagforening', 'En videregående skole']::text[], 1, 'NAV gir blant annet veiledning og arbeidstrening.', true, false, 9),
+  ('utdanningsvalg-10:arbeid-og-utenforskap', 'm01', 'sant-usant', 'Å mangle fullført videregående gjør det vanskeligere å få fast jobb.', array['Sant', 'Usant']::text[], 0, 'Mange arbeidsgivere krever fullført videregående eller fagbrev.', false, true, 10),
+  ('utdanningsvalg-10:arbeid-og-utenforskap', 'm02', 'sant-usant', 'Utenforskap har bare én årsak.', array['Sant', 'Usant']::text[], 1, 'Årsakene er ofte sammensatte.', false, true, 11),
+  ('utdanningsvalg-10:arbeid-og-utenforskap', 'm03', 'sant-usant', 'Frivillige organisasjoner kan bidra til å motvirke utenforskap.', array['Sant', 'Usant']::text[], 0, 'De gir fellesskap og nettverk.', false, true, 12),
+  ('utdanningsvalg-10:arbeid-og-utenforskap', 'm04', 'sant-usant', 'Den som står utenfor arbeidslivet, betaler vanligvis mer skatt.', array['Sant', 'Usant']::text[], 1, 'Uten arbeidsinntekt betaler man lite skatt, og samfunnet taper inntekter.', false, true, 13),
+  ('utdanningsvalg-10:arbeid-og-utenforskap', 'm05', 'flervalg', 'Hva er arbeidstrening?', array['Styrketrening på jobben', 'Et tiltak der man prøver seg i arbeid med støtte', 'En type eksamen', 'En fagforening']::text[], 1, 'Arbeidstrening kan være et steg inn i arbeidslivet.', false, true, 14),
+  ('utdanningsvalg-10:arbeid-og-utenforskap', 'm06', 'flervalg', 'Hva finansieres av skatteinntekter?', array['Private bedrifter', 'Aksjer', 'Skoler, sykehus og trygder', 'Mobiltelefoner']::text[], 2, 'Dette er kjernen i velferdsstaten.', false, true, 15),
+  ('utdanningsvalg-10:arbeid-og-utenforskap', 'm07', 'flervalg', 'Hva er et nettverk i arbeidslivet?', array['Et datanettverk', 'Et fiskegarn', 'En nettside', 'Personer man kjenner, som kan hjelpe med jobb og kontakter']::text[], 3, 'Mange jobber besettes gjennom nettverk.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('utdanningsvalg-10:arbeid-og-utenforskap', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Utdanningsvalg: Overganger og mestring
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('utdanningsvalg-10:overganger-og-mestring', 'utdanningsvalg-10', 'overganger-og-mestring', 'Overganger og mestring', 'Hva som endrer seg fra ungdomsskole til videregående, hvordan du kan mestre stress og nye situasjoner, hvor du får hjelp, hvordan omvalg fungerer og hvordan du gjør ideer til handling.', array[9, 8]::int[], 3, 'sjekkes', array['Sjekk at fraværsgrensen i videregående fortsatt gjelder i samme form.']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('utdanningsvalg-10:overganger-og-mestring', '## Overganger i livet
+
+En **overgang** er når man går fra én fase i livet til en annen – for eksempel fra ungdomsskole til videregående, fra skole til jobb eller fra hjemmet til egen hybel. Overganger kan være **spennende**, men også **krevende**.
+
+## Fra ungdomsskole til videregående
+
+Mye endrer seg:
+
+- **ny skole**, nye lærere og nye klassekamerater
+- mer **ansvar** for egen læring og mindre tett oppfølging
+- **karakterer** som teller for videre utdanning eller læreplass
+- **fraværsregler**: I videregående er det en **fraværsgrense**, og for mye udokumentert fravær kan gi tap av karakter i faget
+- kanskje **lengre reisevei** eller flytting på **hybel**
+
+## Mestringsstrategier
+
+**Mestringsstrategier** er måter å håndtere utfordringer og **stress** på:
+
+- **Planlegg**: Del store oppgaver opp i mindre biter og bruk kalender.
+- **Ta vare på kroppen**: nok **søvn**, **mat** og **fysisk aktivitet**.
+- **Bruk nettverket**: Snakk med venner, familie eller andre du stoler på.
+- **Vær åpen for nye venner**: Mange er nye og usikre de første ukene.
+- **Snakk snilt til deg selv**: Det er lov å gjøre feil – det er slik man lærer.
+- **Be om hjelp tidlig**, før problemene vokser.
+
+Evnen til å komme seg gjennom motgang kalles ofte **robusthet** eller **motstandskraft**.
+
+## Hvor får du hjelp?
+
+- **Kontaktlærer** og **faglærere**
+- **Rådgiver** – om valg, omvalg og videre utdanning
+- **Helsesykepleier** – om helse, stress og følelser
+- **PP-tjenesten** – om lærevansker og tilrettelegging
+- **Ung.no** – informasjon og mulighet til å stille spørsmål anonymt
+
+## Omvalg
+
+Noen oppdager at utdanningsprogrammet ikke passer. Da er det mulig å gjøre **omvalg** – å bytte til et annet program. Snakk med **rådgiveren** før du bestemmer deg. Et omvalg kan gjøre utdanningen lengre, men er ofte bedre enn å fortsette med noe som ikke passer.
+
+## Fra idé til handling
+
+Å **omsette ideer til handling** er en viktig ferdighet i overganger. Det kan være å søke **sommerjobb**, starte en aktivitet, engasjere seg i **frivillig arbeid** eller lage en plan for skoleåret. Slik kan du gjøre det:
+
+1. **Idé**: Hva vil du oppnå?
+2. **Mål**: Gjør ideen om til et **SMART** mål.
+3. **Plan**: Hvilke steg må til, og hvem kan hjelpe?
+4. **Handling**: Ta det første steget – gjerne i dag.
+5. **Evaluering**: Hva lærte du, og hva er neste steg?
+
+Det viktigste er ikke å ha alle svarene nå, men å kunne **prøve, lære og justere** underveis.', '{"label":"Overganger og mestring","children":[{"label":"Overganger","children":[{"label":"Ny skole"},{"label":"Mer ansvar"},{"label":"Fraværsgrense"},{"label":"Hybel"}]},{"label":"Mestring","children":[{"label":"Planlegge"},{"label":"Søvn og aktivitet"},{"label":"Nettverk"},{"label":"Robusthet"}]},{"label":"Hjelp","children":[{"label":"Kontaktlærer"},{"label":"Rådgiver"},{"label":"Helsesykepleier"},{"label":"Ung.no"}]},{"label":"Omvalg","children":[{"label":"Bytte program"},{"label":"Snakk med rådgiver"}]},{"label":"Til handling","children":[{"label":"Idé og mål"},{"label":"Plan"},{"label":"Første steg"},{"label":"Evaluering"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'utdanningsvalg-10:overganger-og-mestring';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('utdanningsvalg-10:overganger-og-mestring', 'Overgang', 'Når man går fra én fase i livet til en annen.', 0),
+  ('utdanningsvalg-10:overganger-og-mestring', 'Fraværsgrense', 'Grense for udokumentert fravær i videregående som kan gi tap av karakter.', 1),
+  ('utdanningsvalg-10:overganger-og-mestring', 'Hybel', 'Eget rom eller liten leilighet, ofte for elever som bor borte fra familien.', 2),
+  ('utdanningsvalg-10:overganger-og-mestring', 'Mestringsstrategi', 'Måte å håndtere utfordringer og stress på.', 3),
+  ('utdanningsvalg-10:overganger-og-mestring', 'Stress', 'Kroppens reaksjon på press og krav.', 4),
+  ('utdanningsvalg-10:overganger-og-mestring', 'Robusthet', 'Evnen til å komme seg gjennom motgang.', 5),
+  ('utdanningsvalg-10:overganger-og-mestring', 'Nettverk', 'Venner, familie og andre man kan støtte seg på.', 6),
+  ('utdanningsvalg-10:overganger-og-mestring', 'Kontaktlærer', 'Læreren som har hovedansvar for oppfølging av en elev.', 7),
+  ('utdanningsvalg-10:overganger-og-mestring', 'Rådgiver', 'Person på skolen som hjelper med valg av utdanning og yrke.', 8),
+  ('utdanningsvalg-10:overganger-og-mestring', 'Helsesykepleier', 'Sykepleier på skolen som hjelper med helse og følelser.', 9),
+  ('utdanningsvalg-10:overganger-og-mestring', 'PP-tjenesten', 'Pedagogisk-psykologisk tjeneste som hjelper ved lærevansker.', 10),
+  ('utdanningsvalg-10:overganger-og-mestring', 'Ung.no', 'Offentlig nettsted der unge kan finne informasjon og stille spørsmål anonymt.', 11),
+  ('utdanningsvalg-10:overganger-og-mestring', 'Omvalg', 'Å bytte utdanningsprogram hvis det første valget ikke passet.', 12),
+  ('utdanningsvalg-10:overganger-og-mestring', 'Fra idé til handling', 'Idé, mål, plan, handling og evaluering.', 13),
+  ('utdanningsvalg-10:overganger-og-mestring', 'Frivillig arbeid', 'Ubetalt innsats for andre, for eksempel i et idrettslag.', 14);
+delete from public.quiz_sporsmal where tema_id = 'utdanningsvalg-10:overganger-og-mestring';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('utdanningsvalg-10:overganger-og-mestring', 'q01', 'flervalg', 'Hva er en overgang?', array['Et fotgjengerfelt', 'En eksamen', 'En ferie', 'Når man går fra én fase i livet til en annen']::text[], 3, 'For eksempel fra ungdomsskole til videregående.', true, true, 0),
+  ('utdanningsvalg-10:overganger-og-mestring', 'q02', 'flervalg', 'Hva er en mestringsstrategi?', array['En måte å håndtere utfordringer og stress på', 'En plan for å vinne en kamp', 'En type prøve', 'En regel på skolen']::text[], 0, 'For eksempel å planlegge og be om hjelp.', true, true, 1),
+  ('utdanningsvalg-10:overganger-og-mestring', 'q03', 'flervalg', 'Hvem på skolen kan hjelpe deg med å gjøre omvalg?', array['Vaktmesteren', 'Rådgiveren', 'Kantinepersonalet', 'Ingen']::text[], 1, 'Rådgiveren kjenner mulighetene og reglene.', true, true, 2),
+  ('utdanningsvalg-10:overganger-og-mestring', 'q04', 'flervalg', 'Hva kan skje med mye udokumentert fravær i videregående?', array['Du får bedre karakter', 'Ingenting', 'Du kan miste karakteren i faget', 'Du får ekstra ferie']::text[], 2, 'I videregående gjelder en fraværsgrense.', true, true, 3),
+  ('utdanningsvalg-10:overganger-og-mestring', 'q05', 'flervalg', 'Hvilket av disse er en god mestringsstrategi?', array['Å sove lite', 'Å holde alt for seg selv', 'Å utsette alt til siste liten', 'Å dele store oppgaver opp i mindre biter']::text[], 3, 'Da blir oppgavene lettere å komme i gang med.', true, true, 4),
+  ('utdanningsvalg-10:overganger-og-mestring', 'q06', 'flervalg', 'Hva er robusthet?', array['Evnen til å komme seg gjennom motgang', 'Å være sterk i armene', 'Å aldri være lei seg', 'Å ha mange venner']::text[], 0, 'Robusthet kan trenes.', true, true, 5),
+  ('utdanningsvalg-10:overganger-og-mestring', 'q07', 'flervalg', 'Hva kan helsesykepleieren hjelpe med?', array['Å velge fag', 'Helse, stress og følelser', 'Å søke jobb', 'Matteoppgaver']::text[], 1, 'Helsesykepleieren har taushetsplikt.', true, true, 6),
+  ('utdanningsvalg-10:overganger-og-mestring', 'q08', 'flervalg', 'Hva er det første steget fra idé til handling etter at du har en idé?', array['Å evaluere', 'Å gi opp', 'Å gjøre ideen om til et tydelig mål', 'Å vente']::text[], 2, 'Deretter lager du en plan og tar det første steget.', true, true, 7),
+  ('utdanningsvalg-10:overganger-og-mestring', 'q09', 'flervalg', 'Hva er ung.no?', array['En sosial medieplattform', 'En videregående skole', 'Et spill', 'Et offentlig nettsted der unge kan finne informasjon og spørre anonymt']::text[], 3, 'Nettstedet har informasjon om mange temaer.', true, false, 8),
+  ('utdanningsvalg-10:overganger-og-mestring', 'q10', 'flervalg', 'Hvorfor kan et omvalg være lurt?', array['Fordi det alltid gjør utdanningen kortere', 'Fordi det kan være bedre enn å fortsette med noe som ikke passer', 'Fordi det er påbudt', 'Det er aldri lurt']::text[], 1, 'Et omvalg kan gjøre utdanningen lengre, men gi bedre trivsel og resultat.', true, false, 9),
+  ('utdanningsvalg-10:overganger-og-mestring', 'm01', 'sant-usant', 'Mange elever er nye og usikre de første ukene på videregående.', array['Sant', 'Usant']::text[], 0, 'Det gjør det lettere å bli kjent med nye folk.', false, true, 10),
+  ('utdanningsvalg-10:overganger-og-mestring', 'm02', 'sant-usant', 'Det er best å vente med å be om hjelp til problemene er blitt store.', array['Sant', 'Usant']::text[], 1, 'Det er lurt å be om hjelp tidlig.', false, true, 11),
+  ('utdanningsvalg-10:overganger-og-mestring', 'm03', 'sant-usant', 'Søvn og fysisk aktivitet kan hjelpe mot stress.', array['Sant', 'Usant']::text[], 0, 'Kroppen og hodet henger sammen.', false, true, 12),
+  ('utdanningsvalg-10:overganger-og-mestring', 'm04', 'sant-usant', 'Hvis det første utdanningsvalget ikke passer, er det umulig å bytte.', array['Sant', 'Usant']::text[], 1, 'Det er mulig å gjøre omvalg.', false, true, 13),
+  ('utdanningsvalg-10:overganger-og-mestring', 'm05', 'flervalg', 'Hva er PP-tjenesten?', array['Politiets patrulje', 'Pedagogisk-psykologisk tjeneste som hjelper ved lærevansker', 'En fritidsklubb', 'En fagforening']::text[], 1, 'PP-tjenesten kan gi råd om tilrettelegging.', false, true, 14),
+  ('utdanningsvalg-10:overganger-og-mestring', 'm06', 'flervalg', 'Hva er et eksempel på å omsette en idé til handling?', array['Å tenke på en sommerjobb uten å søke', 'Å drømme om framtiden', 'Å klage på skolen', 'Å søke sommerjobb etter å ha laget en plan']::text[], 3, 'Handling er å ta det første konkrete steget.', false, true, 15),
+  ('utdanningsvalg-10:overganger-og-mestring', 'm07', 'flervalg', 'Hva er frivillig arbeid?', array['Ubetalt innsats for andre', 'En deltidsjobb', 'Lekser', 'Obligatorisk arbeid']::text[], 0, 'Frivillig arbeid gir erfaring og nettverk.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('utdanningsvalg-10:overganger-og-mestring', 15)
 on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Kjemi 1 (vg2): rydd bort fjernede temaer

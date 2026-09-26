@@ -1,0 +1,84 @@
+{
+  "id": "cv-og-jobbsoknad",
+  "fagId": "utdanningsvalg-10",
+  "trinnId": "10",
+  "name": "CV, jobbsøknad og intervju",
+  "intro": "Hvordan du leser en stillingsannonse, skriver en god CV og en målrettet søknad, bruker referanser, tar vare på det digitale fotavtrykket og forbereder deg til jobbintervju.",
+  "kompetansemaal": [10],
+  "sammendrag": "## Stillingsannonsen\n\nEn **stillingsannonse** forteller hva arbeidsgiveren leter etter. Les den nøye og se etter\n\n- **arbeidsoppgaver** – hva du skal gjøre\n- **kvalifikasjoner** – utdanning, erfaring og krav, for eksempel alder eller førerkort\n- **personlige egenskaper** – for eksempel «serviceinnstilt» eller «pålitelig»\n- **søknadsfrist** og **kontaktperson**\n\nSkill mellom **krav** («må ha») og **ønsker** («det er en fordel»). Ring gjerne kontaktpersonen og still et godt spørsmål – det viser interesse.\n\n## CV\n\n**CV** er en kort, oversiktlig liste over bakgrunnen din, vanligvis på én side. Den inneholder\n\n- **personalia**: navn, telefon og e-post (bruk en seriøs e-postadresse)\n- **utdanning**: skole og årstall\n- **arbeidserfaring**: også små jobber som avislevering eller barnevakt\n- **verv og frivillig arbeid**: trener, elevråd, korps, idrettslag\n- **kurs og sertifikater**: førstehjelp, mopedlappen\n- **språk** og **digitale ferdigheter**\n- **referanser** – eller «oppgis ved forespørsel»\n\nDet nyeste står **øverst**. CV-en skal være **sann** – ikke overdriv.\n\n## Søknadsbrevet\n\n**Søknaden** er et kort brev der du forklarer **hvorfor** du søker og **hva du kan bidra med**. En god søknad\n\n1. viser **hvilken stilling** du søker på\n2. forteller hvorfor du er **interessert** i jobben og bedriften\n3. kobler **egenskapene og erfaringene** dine til kravene i annonsen, med konkrete **eksempler**\n4. avslutter med at du gjerne kommer på **intervju**\n\nSkriv en **ny søknad** til hver jobb, og få noen til å lese korrektur. Skrivefeil gir et dårlig inntrykk.\n\n## Referanser\n\nEn **referanse** er en person som kan fortelle arbeidsgiveren om deg, for eksempel en tidligere sjef, en trener eller en lærer. **Spør alltid først** om du kan oppgi noen som referanse. Familie er ikke gode referanser.\n\n## Digitalt fotavtrykk\n\nMange arbeidsgivere søker opp søkere på nettet. Tenk over hva du deler i **sosiale medier**, og sjekk hva som dukker opp når du søker på navnet ditt.\n\n## Jobbintervjuet\n\n**Forberedelse**: Les om bedriften, les annonsen på nytt og tenk gjennom vanlige spørsmål:\n\n- «Fortell litt om deg selv.»\n- «Hvorfor søker du på denne jobben?»\n- «Hva er dine sterke og svake sider?»\n- «Fortell om en gang du løste et problem.»\n\n**På intervjuet**: Møt **presis**, kle deg **ryddig**, hils med et fast håndtrykk og øyekontakt, lytt godt og svar ærlig med konkrete eksempler. Still gjerne **egne spørsmål**, for eksempel om arbeidsoppgavene eller opplæringen.\n\n**Etterpå**: Takk for intervjuet. Hvis du ikke får jobben, kan du be om **tilbakemelding** – og lære til neste gang.",
+  "flashcards": [
+    { "term": "Stillingsannonse", "def": "Annonse som beskriver en ledig jobb og hva arbeidsgiveren leter etter." },
+    { "term": "Kvalifikasjoner", "def": "Utdanning, erfaring og ferdigheter som kreves til en jobb." },
+    { "term": "Krav og ønsker", "def": "Krav må du ha; ønsker er en fordel." },
+    { "term": "Søknadsfrist", "def": "Siste dag for å sende søknaden." },
+    { "term": "CV", "def": "Kort oversikt over utdanning, erfaring og ferdigheter." },
+    { "term": "Personalia", "def": "Navn og kontaktinformasjon." },
+    { "term": "Arbeidserfaring", "def": "Jobber du har hatt, også små jobber." },
+    { "term": "Verv", "def": "Tillitsoppdrag, som å sitte i elevrådet eller være trener." },
+    { "term": "Søknadsbrev", "def": "Brev som forklarer hvorfor du søker og hva du kan bidra med." },
+    { "term": "Referanse", "def": "Person som kan fortelle arbeidsgiveren om deg." },
+    { "term": "Digitalt fotavtrykk", "def": "Sporene du etterlater deg på nettet." },
+    { "term": "Jobbintervju", "def": "Samtale der arbeidsgiveren blir kjent med søkeren." },
+    { "term": "Forberedelse", "def": "Å lese om bedriften og tenke gjennom vanlige spørsmål før intervjuet." },
+    { "term": "Konkrete eksempler", "def": "Situasjoner som viser egenskapene dine i praksis." },
+    { "term": "Korrekturlesing", "def": "Å lese gjennom teksten for å finne skrivefeil." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er en CV?", "options": ["Et søknadsbrev", "En kort oversikt over utdanning, erfaring og ferdigheter", "En stillingsannonse", "En arbeidsavtale"], "correct": 1, "explain": "CV-en er vanligvis på én side." },
+    { "id": "q02", "text": "I hvilken rekkefølge bør erfaringene stå i en CV?", "options": ["Tilfeldig", "Det eldste øverst", "Det nyeste øverst", "Alfabetisk"], "correct": 2, "explain": "Arbeidsgiveren er mest interessert i det du har gjort nylig." },
+    { "id": "q03", "text": "Hva bør du gjøre før du oppgir noen som referanse?", "options": ["Spørre personen om lov", "Ingenting", "Sende dem en gave", "Skrive hva de skal si"], "correct": 0, "explain": "Referansen må vite at arbeidsgiveren kan ringe." },
+    { "id": "q04", "text": "Hva bør et søknadsbrev inneholde?", "options": ["Hele livshistorien din", "Bare navnet ditt", "En kopi av CV-en", "Hvorfor du søker og hva du kan bidra med"], "correct": 3, "explain": "Koble egenskapene dine til kravene i annonsen." },
+    { "id": "q05", "text": "Hva er forskjellen på krav og ønsker i en stillingsannonse?", "options": ["Krav må du ha, ønsker er en fordel", "Det er det samme", "Ønsker er viktigere enn krav", "Krav gjelder bare lønn"], "correct": 0, "explain": "Du kan søke selv om du ikke oppfyller alle ønskene." },
+    { "id": "q06", "text": "Hva er et digitalt fotavtrykk?", "options": ["Et fingeravtrykk på skjermen", "Sporene du etterlater deg på nettet", "En type CV", "Et passord"], "correct": 1, "explain": "Mange arbeidsgivere søker opp søkere på nettet." },
+    { "id": "q07", "text": "Hvordan bør du forberede deg til et jobbintervju?", "options": ["Ikke forberede deg i det hele tatt", "Pugge svar ord for ord", "Lese om bedriften og tenke gjennom vanlige spørsmål", "Komme sent for å virke avslappet"], "correct": 2, "explain": "God forberedelse gir tryggere svar." },
+    { "id": "q08", "text": "Hvilken erfaring kan du ta med i CV-en som 15-åring?", "options": ["Bare fulltidsjobber", "Ingenting", "Bare utdanning", "Avislevering, barnevakt og verv som trener eller i elevrådet"], "correct": 3, "explain": "Også små jobber og verv viser ansvar og erfaring." },
+    { "id": "q09", "text": "Hvorfor bør du stille egne spørsmål på et jobbintervju?", "options": ["For å vise interesse og lære mer om jobben", "For å forlenge intervjuet", "For å teste intervjueren", "Det bør du ikke"], "correct": 0, "explain": "Du kan for eksempel spørre om opplæringen." },
+    { "id": "q10", "text": "Hvorfor bør du skrive en ny søknad til hver jobb?", "options": ["Fordi det er påbudt", "Fordi søknaden bør tilpasses stillingen og bedriften", "Fordi gamle søknader blir slettet", "Det trenger du ikke"], "correct": 1, "explain": "En målrettet søknad skiller seg ut." }
+  ],
+  "mindmap": {
+    "label": "CV, søknad og intervju",
+    "children": [
+      { "label": "Annonsen", "children": [
+        { "label": "Oppgaver" },
+        { "label": "Krav og ønsker" },
+        { "label": "Frist og kontakt" }
+      ] },
+      { "label": "CV", "children": [
+        { "label": "Personalia" },
+        { "label": "Utdanning og erfaring" },
+        { "label": "Verv og kurs" },
+        { "label": "Nyeste øverst" }
+      ] },
+      { "label": "Søknaden", "children": [
+        { "label": "Hvorfor jeg søker" },
+        { "label": "Hva jeg kan bidra med" },
+        { "label": "Konkrete eksempler" },
+        { "label": "Korrektur" }
+      ] },
+      { "label": "Referanser og nett", "children": [
+        { "label": "Spør først" },
+        { "label": "Digitalt fotavtrykk" }
+      ] },
+      { "label": "Intervju", "children": [
+        { "label": "Forberede" },
+        { "label": "Presis og ryddig" },
+        { "label": "Egne spørsmål" },
+        { "label": "Tilbakemelding" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "En CV bør være sann og ikke overdrive.", "correct": true, "explain": "Overdrivelser kan avsløres, for eksempel når arbeidsgiveren ringer referansene." },
+      { "id": "m02", "type": "sant-usant", "text": "Foreldre er gode referanser i en jobbsøknad.", "correct": false, "explain": "Familie regnes ikke som nøytrale referanser." },
+      { "id": "m03", "type": "sant-usant", "text": "Det kan være lurt å be om tilbakemelding hvis du ikke får jobben.", "correct": true, "explain": "Da kan du lære til neste søknad." },
+      { "id": "m04", "type": "sant-usant", "text": "Skrivefeil i en søknad har ingen betydning.", "correct": false, "explain": "Skrivefeil gir et slurvete inntrykk." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er et verv?", "options": ["En type lønn", "Et tillitsoppdrag, som å sitte i elevrådet", "En jobbsøknad", "En referanse"], "correct": 1, "explain": "Verv viser at du tar ansvar." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er et vanlig spørsmål på jobbintervju?", "options": ["Hva er favorittmaten din?", "Hvor bor bestemoren din?", "Hvorfor søker du på denne jobben?", "Hvilken bil har du?"], "correct": 2, "explain": "Forbered et ærlig og konkret svar." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilken e-postadresse passer best i en CV?", "options": ["kulgutt2010@…", "partyjenta@…", "xXgamerXx@…", "fornavn.etternavn@…"], "correct": 3, "explain": "En seriøs e-postadresse gir et godt inntrykk." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
