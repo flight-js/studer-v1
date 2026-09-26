@@ -1,0 +1,84 @@
+{
+  "id": "mat-og-hygiene",
+  "fagId": "arbeidslivsfag-9",
+  "trinnId": "9",
+  "name": "Mat og hygiene i storkjøkken",
+  "intro": "Hvordan man lager mat for mange: personlig hygiene, kjøkkenhygiene, temperaturer og holdbarhet, allergener, oppskrifter i større mengder, servering og matsvinn.",
+  "kompetansemaal": [4, 3, 7],
+  "sammendrag": "## Mat som arbeidsoppdrag\n\nMange arbeidsoppdrag i arbeidslivsfag handler om **mat**: å lage lunsj til elever, bake til en kafé eller servere på et arrangement. Faget henter her innhold fra **restaurant- og matfag**, som utdanner blant annet kokker, bakere og servitører. Når man lager mat for andre, gjelder strenge krav til **mattrygghet**, og **Mattilsynet** fører tilsyn med at reglene følges.\n\n## Personlig hygiene\n\n- **Vask hendene** grundig med såpe før du begynner, etter toalettbesøk, etter at du har tatt i rått kjøtt eller egg, og etter at du har pusset nesen.\n- Bruk **rene arbeidsklær**, **forkle** og **hårnett** eller lue.\n- Ta av **smykker** og **klokke**.\n- Dekk til sår med **blått plaster**, som er lett å se hvis det faller i maten.\n- Ikke lag mat for andre hvis du har **omgangssyke**.\n\n## Kjøkkenhygiene\n\n- Hold **benker, utstyr og kluter** rene.\n- Bruk **egne skjærefjøler** til rått kjøtt og til grønnsaker, slik at bakterier ikke overføres. Dette kalles å unngå **krysskontaminering**.\n- Oppbevar rå og ferdige matvarer **hver for seg**.\n\n## Temperaturer\n\nBakterier formerer seg raskest mellom omtrent **10 og 60 grader**. Derfor gjelder noen tommelfingerregler:\n\n- **Kjøleskapet** skal holde **4 grader** eller lavere.\n- **Fryseren** skal holde **–18 grader** eller lavere.\n- **Varm mat** som serveres, bør holdes på over **60 grader**.\n- Mat som skal **kjøles ned**, bør kjøles raskt.\n- Kjøttdeig og kylling må **varmebehandles gjennomgående**.\n\nPå mange kjøkken fører man **temperaturlogg** for kjøleskap og frysere.\n\n## Holdbarhet\n\n«**Best før**» betyr at maten ofte er god også etter datoen – **se, lukt og smak**. «**Siste forbruksdag**» brukes på ferskvarer som kjøtt og fisk, som ikke bør spises etter datoen.\n\n## Allergener\n\nMange er allergiske mot eller tåler ikke visse matvarer, for eksempel **gluten**, **melk**, **egg**, **nøtter**, **peanøtter**, **fisk** og **skalldyr**. Allergener skal **merkes**, og man må unngå at spor av dem havner i annen mat.\n\n## Oppskrifter i større mengder\n\nFor å lage mat til mange må man **skalere oppskriften**. En oppskrift for 4 personer ganges med 5 for å lage mat til 20. Man lager en **innkjøpsliste** og en **tidsplan**, slik at alt blir ferdig samtidig.\n\n## Servering og matsvinn\n\nGod servering handler om **presentasjon**, **service** og **riktig temperatur**. For å redusere **matsvinn** kan man planlegge riktige mengder, bruke rester på en trygg måte og oppbevare mat riktig.",
+  "flashcards": [
+    { "term": "Mattrygghet", "def": "At maten er trygg å spise og ikke gjør folk syke." },
+    { "term": "Mattilsynet", "def": "Myndigheten som fører tilsyn med at maten er trygg." },
+    { "term": "Personlig hygiene", "def": "Å holde seg selv ren, for eksempel ved å vaske hendene og bruke hårnett." },
+    { "term": "Blått plaster", "def": "Plaster som er lett å se hvis det faller i maten." },
+    { "term": "Krysskontaminering", "def": "At bakterier overføres fra en matvare til en annen, for eksempel via en skjærefjøl." },
+    { "term": "Farlig temperatursone", "def": "Omtrent 10–60 °C, der bakterier formerer seg raskest." },
+    { "term": "Kjøleskapstemperatur", "def": "4 °C eller lavere." },
+    { "term": "Frysertemperatur", "def": "–18 °C eller lavere." },
+    { "term": "Temperaturlogg", "def": "Oversikt over målte temperaturer i kjøleskap og frysere." },
+    { "term": "Best før", "def": "Maten er ofte god også etter datoen; se, lukt og smak." },
+    { "term": "Siste forbruksdag", "def": "Datoen ferskvarer ikke bør spises etter." },
+    { "term": "Allergener", "def": "Stoffer i mat som kan gi allergiske reaksjoner, som nøtter og melk." },
+    { "term": "Skalere en oppskrift", "def": "Å gange opp eller dele ned mengdene i en oppskrift." },
+    { "term": "Matsvinn", "def": "Spiselig mat som kastes." },
+    { "term": "Restaurant- og matfag", "def": "Yrkesfaglig utdanningsprogram for blant annet kokker og bakere." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvorfor bør man bruke egne skjærefjøler til rått kjøtt og grønnsaker?", "options": ["For å unngå at bakterier overføres", "Fordi det ser pent ut", "For å spare tid", "Fordi kjøtt er tyngre"], "correct": 0, "explain": "Dette forebygger krysskontaminering." },
+    { "id": "q02", "text": "Hvilken temperatur skal et kjøleskap holde?", "options": ["10 °C eller lavere", "0 °C", "4 °C eller lavere", "–18 °C"], "correct": 2, "explain": "Lav temperatur bremser veksten av bakterier." },
+    { "id": "q03", "text": "Hvorfor brukes blått plaster på kjøkkenet?", "options": ["Det er billigst", "Det er lett å se hvis det faller i maten", "Det gror raskere", "Det er påbudt i alle yrker"], "correct": 1, "explain": "Få matvarer er blå, så plasteret skiller seg ut." },
+    { "id": "q04", "text": "Hva betyr «best før»?", "options": ["Maten må kastes etter datoen", "Maten er giftig etter datoen", "Maten må fryses", "Maten er ofte god også etter datoen"], "correct": 3, "explain": "Bruk sansene: se, lukt og smak." },
+    { "id": "q05", "text": "Ved hvilke temperaturer formerer bakterier seg raskest?", "options": ["Under –18 °C", "Omtrent 10–60 °C", "Over 100 °C", "Bare ved 0 °C"], "correct": 1, "explain": "Derfor skal kald mat holdes kald og varm mat varm." },
+    { "id": "q06", "text": "Hva er et eksempel på et allergen?", "options": ["Nøtter", "Vann", "Salt", "Sukker"], "correct": 0, "explain": "Også melk, egg, gluten, fisk og skalldyr er vanlige allergener." },
+    { "id": "q07", "text": "En oppskrift er for 4 personer. Hvordan lager du mat til 20?", "options": ["Deler mengdene på 5", "Legger til 16 gram av alt", "Ganger mengdene med 5", "Bruker samme mengder"], "correct": 2, "explain": "20 delt på 4 er 5." },
+    { "id": "q08", "text": "Hvem fører tilsyn med mattryggheten i Norge?", "options": ["Arbeidstilsynet", "Mattilsynet", "Politiet", "Kommunen"], "correct": 1, "explain": "Mattilsynet kontrollerer blant annet restauranter og butikker." },
+    { "id": "q09", "text": "Hva er matsvinn?", "options": ["Mat som selges", "Mat som fryses", "Mat som lages", "Spiselig mat som kastes"], "correct": 3, "explain": "God planlegging kan redusere matsvinnet." },
+    { "id": "q10", "text": "Når bør du ikke lage mat for andre?", "options": ["Når du har omgangssyke", "Når du er sulten", "Når det er fredag", "Når du har hårnett"], "correct": 0, "explain": "Omgangssyke smitter lett via mat." }
+  ],
+  "mindmap": {
+    "label": "Mat og hygiene",
+    "children": [
+      { "label": "Personlig hygiene", "children": [
+        { "label": "Håndvask" },
+        { "label": "Forkle og hårnett" },
+        { "label": "Blått plaster" }
+      ] },
+      { "label": "Kjøkkenhygiene", "children": [
+        { "label": "Rene benker" },
+        { "label": "Egne skjærefjøler" },
+        { "label": "Krysskontaminering" }
+      ] },
+      { "label": "Temperaturer", "children": [
+        { "label": "Kjøleskap 4 °C" },
+        { "label": "Fryser –18 °C" },
+        { "label": "Varm mat over 60 °C" },
+        { "label": "Temperaturlogg" }
+      ] },
+      { "label": "Merking", "children": [
+        { "label": "Best før" },
+        { "label": "Siste forbruksdag" },
+        { "label": "Allergener" }
+      ] },
+      { "label": "Produksjon", "children": [
+        { "label": "Skalere oppskrift" },
+        { "label": "Innkjøpsliste" },
+        { "label": "Servering" },
+        { "label": "Matsvinn" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "En fryser skal holde –18 °C eller lavere.", "correct": true, "explain": "Da stopper veksten av bakterier nesten helt." },
+      { "id": "m02", "type": "sant-usant", "text": "Kylling kan gjerne serveres rå i midten.", "correct": false, "explain": "Kylling må varmebehandles gjennomgående på grunn av bakterier som salmonella og campylobacter." },
+      { "id": "m03", "type": "sant-usant", "text": "Smykker og klokke bør tas av før man lager mat.", "correct": true, "explain": "Smykker kan samle bakterier og falle i maten." },
+      { "id": "m04", "type": "sant-usant", "text": "Allergener trenger ikke merkes når maten serveres på skolen.", "correct": false, "explain": "Allergener må alltid gjøres kjent for dem som skal spise." },
+      { "id": "m05", "type": "flervalg", "text": "Hva betyr «siste forbruksdag»?", "options": ["Maten er ofte god lenge etter datoen", "Maten bør ikke spises etter datoen", "Maten må fryses før datoen", "Maten er på salg"], "correct": 1, "explain": "Denne merkingen brukes på ferskvarer som kjøtt og fisk." },
+      { "id": "m06", "type": "flervalg", "text": "Hvorfor fører mange kjøkken temperaturlogg?", "options": ["For å kontrollere at kjøleskap og frysere holder riktig temperatur", "For å vite hvor varmt det er ute", "For å holde styr på lønna", "For å telle kunder"], "correct": 0, "explain": "Loggen viser at mattryggheten blir fulgt opp." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilket yrke utdannes gjennom restaurant- og matfag?", "options": ["Elektriker", "Frisør", "Baker", "Tømrer"], "correct": 2, "explain": "Også kokker, servitører og slaktere utdannes her." }
+    ]
+  },
+  "kvalitet": { "status": "sjekkes", "merknader": ["Sjekk temperaturgrensene (4 °C, –18 °C, 10–60 °C, over 60 °C) mot Mattilsynets gjeldende råd."] }
+}

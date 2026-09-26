@@ -1,0 +1,82 @@
+{
+  "id": "service-og-omsorg",
+  "fagId": "arbeidslivsfag-9",
+  "trinnId": "9",
+  "name": "Service og omsorg",
+  "intro": "Arbeidsoppdrag innen helse, oppvekst og service: å møte barn og eldre, kommunikasjon, respekt og verdighet, taushetsplikt, smittevern og etikk i omsorgsyrker.",
+  "kompetansemaal": [4, 7],
+  "sammendrag": "## Å jobbe med mennesker\n\nMange yrker handler om å **hjelpe og betjene andre mennesker**. Arbeidslivsfag henter innhold fra **helse- og oppvekstfag** – som utdanner blant annet helsefagarbeidere og barne- og ungdomsarbeidere – og fra **salg, service og reiseliv**. Aktuelle arbeidsoppdrag kan være å arrangere aktiviteter i en barnehage, lage en kaffestund på et sykehjem eller hjelpe til på et arrangement.\n\n## Å møte barn\n\nBarn trenger **trygge voksne** som er til stede, ser dem og setter grenser. I leik er det viktig å\n\n- tilpasse aktiviteten til **alder** og **ferdigheter**\n- sørge for at **alle får være med**\n- passe på **sikkerheten**\n- være en god **rollemodell**\n\n## Å møte eldre\n\nEldre mennesker har mye livserfaring. Å **lytte**, **ha god tid** og vise **interesse** for livshistorien deres gir gode møter. Noen har **nedsatt hørsel**, **syn** eller **hukommelse**, for eksempel på grunn av **demens**. Da hjelper det å snakke **tydelig og rolig**, se personen i øynene og bruke korte setninger.\n\n## Kommunikasjon\n\n- **Verbal kommunikasjon** er det vi sier med ord.\n- **Nonverbal kommunikasjon** er kroppsspråk, blikk, tonefall og mimikk.\n- **Empati** er å sette seg inn i hvordan andre har det.\n\nGod kommunikasjon er grunnlaget for all omsorg og service.\n\n## Respekt og verdighet\n\nAlle mennesker har **lik verdi** og har krav på å bli behandlet med **respekt og verdighet**. Det betyr blant annet å la mennesker **bestemme selv** så mye som mulig (**medbestemmelse**), respektere **privatlivet** og være ærlig.\n\n## Taushetsplikt\n\nDe som jobber i helse- og omsorgsyrker, har **taushetsplikt**. Det betyr at man ikke skal fortelle videre om personlige opplysninger man får vite gjennom jobben – verken til venner, familie eller på sosiale medier. Taushetsplikten gjelder også **etter** at man har sluttet i jobben. I arbeidslivsfag bør du avtale på forhånd hva du kan fortelle i **loggen** din, og aldri ta bilder av brukere uten tillatelse.\n\n## Smittevern\n\n**Håndvask** og **håndsprit** er de viktigste tiltakene mot smitte, særlig i møte med eldre og syke. Hold deg hjemme når du er syk.\n\n## Service\n\nI **servicejobber**, som butikk, kafé og resepsjon, er kunden i sentrum. **Vertskap** betyr å få gjestene til å føle seg velkomne: hilse, hjelpe, gi informasjon og løse problemer på en vennlig måte.",
+  "flashcards": [
+    { "term": "Helse- og oppvekstfag", "def": "Yrkesfaglig utdanningsprogram for blant annet helsefagarbeidere og barne- og ungdomsarbeidere." },
+    { "term": "Helsefagarbeider", "def": "Fagarbeider som pleier og hjelper syke og eldre." },
+    { "term": "Barne- og ungdomsarbeider", "def": "Fagarbeider som jobber med barn og unge, for eksempel i barnehage." },
+    { "term": "Omsorg", "def": "Å ta vare på og hjelpe andre." },
+    { "term": "Rollemodell", "def": "En person andre ser opp til og lærer av." },
+    { "term": "Demens", "def": "Sykdom som gir svekket hukommelse og evne til å klare seg i hverdagen." },
+    { "term": "Verbal kommunikasjon", "def": "Det vi sier med ord." },
+    { "term": "Nonverbal kommunikasjon", "def": "Kroppsspråk, blikk, tonefall og mimikk." },
+    { "term": "Empati", "def": "Evnen til å sette seg inn i hvordan andre har det." },
+    { "term": "Verdighet", "def": "Å bli behandlet med respekt som et menneske med verdi." },
+    { "term": "Medbestemmelse", "def": "Å få bestemme over sitt eget liv så mye som mulig." },
+    { "term": "Taushetsplikt", "def": "Plikt til ikke å fortelle videre personlige opplysninger man får gjennom jobben." },
+    { "term": "Smittevern", "def": "Tiltak for å hindre at sykdom spres, som håndvask." },
+    { "term": "Vertskap", "def": "Å få gjester til å føle seg velkomne." },
+    { "term": "Service", "def": "Å hjelpe og betjene kunder på en god måte." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er taushetsplikt?", "options": ["Plikt til å være stille på jobb", "Plikt til ikke å fortelle videre personlige opplysninger man får gjennom jobben", "Plikt til å svare på alle spørsmål", "Plikt til å skrive logg"], "correct": 1, "explain": "Taushetsplikten gjelder også etter at man har sluttet." },
+    { "id": "q02", "text": "Hva er nonverbal kommunikasjon?", "options": ["Kroppsspråk, blikk, tonefall og mimikk", "Å skrive brev", "Å snakke et fremmedspråk", "Å sende SMS"], "correct": 0, "explain": "Kroppsspråket sier ofte like mye som ordene." },
+    { "id": "q03", "text": "Hvordan bør du snakke med en person som har demens?", "options": ["Fort og med mange detaljer", "Høyt og utålmodig", "Tydelig, rolig og med korte setninger", "Helst ikke i det hele tatt"], "correct": 2, "explain": "Det gjør det lettere for personen å forstå." },
+    { "id": "q04", "text": "Hva er empati?", "options": ["Å være sint", "Å bestemme over andre", "Å være flink til å snakke", "Evnen til å sette seg inn i hvordan andre har det"], "correct": 3, "explain": "Empati er viktig i alle yrker der man jobber med mennesker." },
+    { "id": "q05", "text": "Hva er det viktigste tiltaket mot smitte?", "options": ["Håndvask", "Å bruke parfyme", "Å drikke kaffe", "Å gå med lue"], "correct": 0, "explain": "Håndsprit er også effektivt." },
+    { "id": "q06", "text": "Hvilket yrke utdannes gjennom helse- og oppvekstfag?", "options": ["Kokk", "Helsefagarbeider", "Rørlegger", "Elektriker"], "correct": 1, "explain": "Også barne- og ungdomsarbeidere utdannes her." },
+    { "id": "q07", "text": "Hva betyr det å behandle noen med verdighet?", "options": ["Å bestemme alt for dem", "Å behandle dem som barn", "Å behandle dem med respekt som et menneske med verdi", "Å ignorere ønskene deres"], "correct": 2, "explain": "Alle mennesker har lik verdi." },
+    { "id": "q08", "text": "Du har vært på sykehjem i arbeidslivsfag. Hva kan du legge ut på sosiale medier?", "options": ["Bilder av beboerne", "Navn og diagnoser", "Historier om beboerne", "Ingen personlige opplysninger om beboerne"], "correct": 3, "explain": "Taushetsplikten beskytter beboernes privatliv." },
+    { "id": "q09", "text": "Hva er viktig når du leker med barn i en barnehage?", "options": ["At alle får være med og at det er trygt", "At du vinner", "At det går fort", "At barna sitter stille"], "correct": 0, "explain": "Tilpass aktiviteten til alder og ferdigheter." },
+    { "id": "q10", "text": "Hva betyr vertskap?", "options": ["Å eie et hus", "Å få gjestene til å føle seg velkomne", "Å selge mest mulig", "Å rydde etter gjestene"], "correct": 1, "explain": "Godt vertskap er viktig i reiseliv og service." }
+  ],
+  "mindmap": {
+    "label": "Service og omsorg",
+    "children": [
+      { "label": "Yrker", "children": [
+        { "label": "Helsefagarbeider" },
+        { "label": "Barne- og ungdomsarbeider" },
+        { "label": "Salg og service" }
+      ] },
+      { "label": "Møte mennesker", "children": [
+        { "label": "Barn: trygghet og leik" },
+        { "label": "Eldre: tid og interesse" },
+        { "label": "Demens" }
+      ] },
+      { "label": "Kommunikasjon", "children": [
+        { "label": "Verbal" },
+        { "label": "Nonverbal" },
+        { "label": "Empati" }
+      ] },
+      { "label": "Etikk", "children": [
+        { "label": "Respekt og verdighet" },
+        { "label": "Medbestemmelse" },
+        { "label": "Taushetsplikt" }
+      ] },
+      { "label": "Praktisk", "children": [
+        { "label": "Smittevern" },
+        { "label": "Vertskap" },
+        { "label": "Kundeservice" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Taushetsplikten gjelder også etter at man har sluttet i jobben.", "correct": true, "explain": "Opplysningene er fortsatt private." },
+      { "id": "m02", "type": "sant-usant", "text": "Det er greit å ta bilder av sykehjemsbeboere uten å spørre.", "correct": false, "explain": "Man må alltid ha tillatelse, og ofte er det ikke lov i det hele tatt." },
+      { "id": "m03", "type": "sant-usant", "text": "Voksne som jobber med barn, er rollemodeller.", "correct": true, "explain": "Barn lærer mye ved å se på hva voksne gjør." },
+      { "id": "m04", "type": "sant-usant", "text": "Kroppsspråk har liten betydning i kommunikasjon.", "correct": false, "explain": "Nonverbal kommunikasjon er en stor del av hvordan vi forstår hverandre." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er medbestemmelse i omsorgsarbeid?", "options": ["At personalet bestemmer alt", "At pårørende bestemmer alt", "At kommunen bestemmer alt", "At den som får hjelp, får bestemme over sitt eget liv så mye som mulig"], "correct": 3, "explain": "Det er en del av å behandle mennesker med verdighet." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er demens?", "options": ["En sykdom som gir svekket hukommelse", "En type forkjølelse", "En allergi", "En skade i beinet"], "correct": 0, "explain": "Demens er vanligst hos eldre." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilket utdanningsprogram fører til jobb i butikk eller resepsjon?", "options": ["Bygg- og anleggsteknikk", "Elektro og datateknologi", "Salg, service og reiseliv", "Naturbruk"], "correct": 2, "explain": "Her lærer man om service, salg og vertskap." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

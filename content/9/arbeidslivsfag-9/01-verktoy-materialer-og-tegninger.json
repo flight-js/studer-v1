@@ -1,0 +1,84 @@
+{
+  "id": "verktoy-materialer-og-tegninger",
+  "fagId": "arbeidslivsfag-9",
+  "trinnId": "9",
+  "name": "Verktøy, materialer og tegninger",
+  "intro": "Håndverktøy og elektroverktøy, vanlige materialer og egenskapene deres, måling og målestokk, arbeidstegninger og hvordan du begrunner valg av verktøy og materialer.",
+  "kompetansemaal": [4, 3],
+  "sammendrag": "## Riktig verktøy til riktig jobb\n\nI mange yrker er det avgjørende å velge **riktig verktøy**. Feil verktøy gir dårligere kvalitet, tar lengre tid og kan være farlig.\n\n**Håndverktøy** drives av muskelkraft:\n\n- **måleverktøy**: tommestokk, målebånd, vinkel og vater\n- **sager**: fintannet sag til presise kutt, grovere sag til rask kapping\n- **hammer**, **skrutrekker**, **tang** og **fil**\n- **høvel** og **pussepapir** til å gjøre overflater jevne\n\n**Elektroverktøy** drives av strøm eller batteri: **drill** og **skrutrekkermaskin**, **stikksag**, **kappsag** og **slipemaskin**. Elektroverktøy krever **opplæring**, riktig verneutstyr og at du følger bruksanvisningen. Trekk ut kontakten eller ta ut batteriet før du bytter blad eller bor.\n\n## Materialer\n\nMaterialene har ulike **egenskaper**, og valget avhenger av hva produktet skal brukes til:\n\n- **Tre** er lett å bearbeide og fornybart, men tåler dårlig fukt uten behandling. **Impregnert** tre tåler bedre å stå ute.\n- **Metall** er sterkt og holdbart, men tyngre og vanskeligere å forme.\n- **Plast** er lett og vannfast, men er ofte laget av olje og brytes sakte ned i naturen.\n- **Tekstiler** brukes til klær, puter og vesker.\n- **Gjenbruksmaterialer** kan gi nytt liv til ting som ellers ville blitt kastet.\n\n## Måling og målestokk\n\n«**Mål to ganger, kapp én gang**» er en klassisk regel i håndverksfag. Mål oppgis ofte i **millimeter** på arbeidstegninger. En **målestokk** viser forholdet mellom tegningen og virkeligheten. I målestokk **1:10** er 1 cm på tegningen 10 cm i virkeligheten.\n\n## Arbeidstegninger\n\nEn **arbeidstegning** viser hvordan et produkt skal lages. Den kan vise produktet **forfra**, **fra siden** og **ovenfra** (**projeksjonstegning**), eller i **perspektiv** slik at det ser tredimensjonalt ut. Tegningen har **målsetting** og **stykkliste** – en oversikt over delene med antall, mål og materiale. Mange bruker i dag **digitale tegneprogrammer**, og noen skoler har **3D-printer** eller **laserkutter** som kan lage deler direkte fra en digital tegning.\n\n## Teknologi i yrkene\n\nTeknologi endrer arbeidet i mange yrker: **Elektrikere** installerer smarthus, **kokker** bruker programmerbare ovner, og i **industrien** styres maskiner av datamaskiner. Fagbegreper gjør det lettere å kommunisere presist med kolleger og kunder.\n\n## Begrunne valg\n\nNår du velger verktøy, materialer og metoder, bør du kunne **begrunne** valget: Er det **trygt**? Gir det **god kvalitet**? Er det **bærekraftig**? Hva **koster** det? Og passer det til **kundens behov**?",
+  "flashcards": [
+    { "term": "Håndverktøy", "def": "Verktøy som drives av muskelkraft, som hammer og sag." },
+    { "term": "Elektroverktøy", "def": "Verktøy som drives av strøm eller batteri, som drill og stikksag." },
+    { "term": "Vater", "def": "Verktøy som viser om noe er vannrett eller loddrett." },
+    { "term": "Vinkel", "def": "Verktøy for å sjekke og tegne rette vinkler." },
+    { "term": "Høvel", "def": "Verktøy som tar bort tynne lag fra treoverflater." },
+    { "term": "Impregnert tre", "def": "Tre som er behandlet for å tåle fukt og råte." },
+    { "term": "Materialegenskaper", "def": "Hvordan et materiale er, for eksempel sterkt, lett eller vannfast." },
+    { "term": "Gjenbruksmaterialer", "def": "Materialer fra ting som ellers ville blitt kastet." },
+    { "term": "Mål to ganger, kapp én gang", "def": "Regel om å kontrollere målene før man kapper." },
+    { "term": "Målestokk", "def": "Forholdet mellom tegningen og virkeligheten, for eksempel 1:10." },
+    { "term": "Arbeidstegning", "def": "Tegning med mål som viser hvordan et produkt skal lages." },
+    { "term": "Projeksjonstegning", "def": "Tegning som viser et produkt forfra, fra siden og ovenfra." },
+    { "term": "Perspektivtegning", "def": "Tegning som får et produkt til å se tredimensjonalt ut." },
+    { "term": "Stykkliste", "def": "Oversikt over delene i et produkt med antall, mål og materiale." },
+    { "term": "Laserkutter", "def": "Maskin som skjærer ut deler fra en digital tegning." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva betyr målestokk 1:10?", "options": ["10 cm på tegningen er 1 cm i virkeligheten", "Tegningen er 10 ganger større enn virkeligheten", "1 cm på tegningen er 10 cm i virkeligheten", "Tegningen har 10 deler"], "correct": 2, "explain": "Tegningen er forminsket ti ganger." },
+    { "id": "q02", "text": "Hva brukes et vater til?", "options": ["Å kappe tre", "Å sjekke om noe er vannrett eller loddrett", "Å skru inn skruer", "Å male"], "correct": 1, "explain": "Vateret har en luftboble som viser om noe står rett." },
+    { "id": "q03", "text": "Hva er en stykkliste?", "options": ["En oversikt over delene med antall, mål og materiale", "En liste over verktøy i verkstedet", "En kundeliste", "En handleliste til kjøkkenet"], "correct": 0, "explain": "Stykklisten hører til arbeidstegningen." },
+    { "id": "q04", "text": "Hva bør du gjøre før du bytter blad på en stikksag?", "options": ["Holde den i gang", "Ingenting", "Spørre en venn", "Trekke ut kontakten eller ta ut batteriet"], "correct": 3, "explain": "Da kan ikke maskinen starte ved et uhell." },
+    { "id": "q05", "text": "Hvorfor brukes impregnert tre utendørs?", "options": ["Det tåler bedre fukt og råte", "Det er lettere", "Det er billigere enn alt annet", "Det er pent"], "correct": 0, "explain": "Ubehandlet tre kan råtne når det står ute." },
+    { "id": "q06", "text": "Hva viser en projeksjonstegning?", "options": ["Bare fargen på produktet", "Produktet forfra, fra siden og ovenfra", "Prisen på produktet", "Et fotografi"], "correct": 1, "explain": "Hver visning viser mål i to retninger." },
+    { "id": "q07", "text": "Hva betyr «mål to ganger, kapp én gang»?", "options": ["Man skal kappe alt to ganger", "Man skal bare måle én gang", "Man skal kontrollere målene før man kapper", "Man skal kappe før man måler"], "correct": 2, "explain": "Da unngår man å kaste materialer." },
+    { "id": "q08", "text": "Hva er en ulempe med plast som materiale?", "options": ["Den er for tung", "Den er ofte laget av olje og brytes sakte ned i naturen", "Den tåler ikke vann", "Den kan ikke formes"], "correct": 1, "explain": "Derfor er gjenvinning av plast viktig." },
+    { "id": "q09", "text": "Hvilket verktøy er et håndverktøy?", "options": ["Drill", "Kappsag", "Slipemaskin", "Høvel"], "correct": 3, "explain": "Høvelen drives av muskelkraft. De andre bruker strøm." },
+    { "id": "q10", "text": "Hvorfor er fagbegreper nyttige i arbeidslivet?", "options": ["De gjør det lettere å kommunisere presist", "De gjør språket vanskeligere", "De er bare for lærere", "De brukes bare på prøver"], "correct": 0, "explain": "Alle vet hva som menes når man bruker samme begreper." }
+  ],
+  "mindmap": {
+    "label": "Verktøy, materialer og tegninger",
+    "children": [
+      { "label": "Håndverktøy", "children": [
+        { "label": "Måleverktøy" },
+        { "label": "Sag og hammer" },
+        { "label": "Høvel og fil" }
+      ] },
+      { "label": "Elektroverktøy", "children": [
+        { "label": "Drill" },
+        { "label": "Stikksag og kappsag" },
+        { "label": "Opplæring og vern" }
+      ] },
+      { "label": "Materialer", "children": [
+        { "label": "Tre" },
+        { "label": "Metall" },
+        { "label": "Plast" },
+        { "label": "Gjenbruk" }
+      ] },
+      { "label": "Tegninger", "children": [
+        { "label": "Målestokk" },
+        { "label": "Projeksjon" },
+        { "label": "Perspektiv" },
+        { "label": "Stykkliste" }
+      ] },
+      { "label": "Begrunne valg", "children": [
+        { "label": "Sikkerhet" },
+        { "label": "Kvalitet" },
+        { "label": "Bærekraft og pris" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Elektroverktøy krever opplæring før bruk.", "correct": true, "explain": "Feil bruk kan gi alvorlige skader." },
+      { "id": "m02", "type": "sant-usant", "text": "Metall er lettere å forme enn tre.", "correct": false, "explain": "Tre er vanligvis lettere å bearbeide enn metall." },
+      { "id": "m03", "type": "sant-usant", "text": "En laserkutter kan lage deler direkte fra en digital tegning.", "correct": true, "explain": "Teknologien gjør det mulig å lage presise deler raskt." },
+      { "id": "m04", "type": "sant-usant", "text": "Valg av materialer har ingenting med bærekraft å gjøre.", "correct": false, "explain": "Materialvalg påvirker ressursbruk, holdbarhet og avfall." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken enhet brukes ofte på arbeidstegninger?", "options": ["Kilometer", "Meter", "Millimeter", "Mil"], "correct": 2, "explain": "Millimeter gir presise mål." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er en perspektivtegning?", "options": ["En tegning som får produktet til å se tredimensjonalt ut", "En tegning uten mål", "En liste over deler", "En tegning av et kart"], "correct": 0, "explain": "Perspektivtegningen gir et bilde av hvordan produktet ser ut." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilket spørsmål bør du stille når du velger materiale?", "options": ["Hvilken farge har verktøyet?", "Hvem er læreren?", "Hvor mange elever er i klassen?", "Passer det til hva produktet skal brukes til?"], "correct": 3, "explain": "Materialet må passe til bruken og kundens behov." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
