@@ -1,0 +1,83 @@
+{
+  "id": "fortelling-og-novelle",
+  "fagId": "norsk-8",
+  "trinnId": "8",
+  "name": "Fortelling og novelle",
+  "intro": "Kjennetegn ved novellen, oppbygning og spenningskurve, forteller og synsvinkel, og hvordan du analyserer og skriver fortellende tekster.",
+  "kompetansemaal": [1, 13, 12],
+  "sammendrag": "## Fortellende tekster\n\nEn **fortelling** presenterer hendelser i en bestemt rekkefølge, med personer, et miljø og en handling. Fortellinger finnes i mange sjangre: eventyr, sagn, fabler, noveller og romaner. Felles for dem er at de har en **forteller** som formidler handlingen til leseren.\n\n## Novellen\n\nEn **novelle** er en kort, skjønnlitterær fortelling. Typiske kjennetegn er:\n\n- få personer og ofte ett hovedmiljø,\n- handlingen foregår over kort tid,\n- den begynner gjerne **brått**, midt i handlingen (in medias res),\n- den har ofte et **vendepunkt**, der noe endrer seg for hovedpersonen,\n- slutten er gjerne **åpen**, slik at leseren må tolke selv.\n\n## Oppbygning og spenning\n\nMange fortellinger følger en **spenningskurve**: en innledning som presenterer personer og miljø, en **presentasjon av konflikten**, en **opptrapping** der spenningen øker, et **klimaks** (høydepunkt), og til slutt en **avslutning**. I noveller er innledningen ofte svært kort. Forfattere kan også bruke **tilbakeblikk**, der handlingen hopper bakover i tid, eller **frampek**, som hinter om noe som skal skje.\n\n## Forteller og synsvinkel\n\n- **Førstepersonsforteller**: En person i fortellingen forteller selv, med «jeg». Vi ser alt gjennom denne personens øyne.\n- **Tredjepersonsforteller**: Fortelleren står utenfor og omtaler personene som «han», «hun» eller ved navn. En **allvitende** forteller kan se inn i tankene til alle, mens en **personal** forteller følger én person tett.\n\nSynsvinkelen påvirker hva leseren får vite, og hvem leseren får sympati med.\n\n## Personer og miljø\n\nForfattere **karakteriserer** personer på to måter: **direkte**, når fortelleren sier rett ut hvordan personen er («Hun var feig»), og **indirekte**, når vi forstår det gjennom handlinger, replikker og tanker. Miljøet, altså tid og sted, kan speile stemningen, for eksempel regn og mørke i en trist scene.\n\n## Tema og budskap\n\n**Temaet** er hva teksten handler om på et overordnet plan, som vennskap, svik eller ensomhet. **Budskapet** er hva teksten vil si om temaet. Når du analyserer en novelle, beskriver du først handling, personer og oppbygning, og så tolker du tema og budskap med eksempler fra teksten. Når du selv skriver, kan du bruke de samme virkemidlene: start brått, vis i stedet for å fortelle, og la slutten gi leseren noe å tenke på.",
+  "flashcards": [
+    { "term": "Novelle", "def": "En kort skjønnlitterær fortelling med få personer, kort tid, brå start og ofte åpen slutt." },
+    { "term": "In medias res", "def": "At fortellingen starter midt i handlingen, uten lang innledning." },
+    { "term": "Vendepunkt", "def": "Øyeblikket der noe avgjørende endrer seg for hovedpersonen." },
+    { "term": "Åpen slutt", "def": "En slutt der ikke alt blir forklart, slik at leseren må tolke selv." },
+    { "term": "Spenningskurve", "def": "Innledning, konflikt, opptrapping, klimaks og avslutning." },
+    { "term": "Klimaks", "def": "Høydepunktet i handlingen, der spenningen er størst." },
+    { "term": "Tilbakeblikk", "def": "Når fortellingen hopper bakover i tid og viser noe som skjedde tidligere." },
+    { "term": "Frampek", "def": "Et hint om noe som skal skje senere i fortellingen." },
+    { "term": "Førstepersonsforteller", "def": "En person i fortellingen forteller selv, med «jeg»." },
+    { "term": "Allvitende forteller", "def": "En tredjepersonsforteller som kan se inn i tankene til alle personene." },
+    { "term": "Personal forteller", "def": "En tredjepersonsforteller som følger én person tett og ser verden fra den personens ståsted." },
+    { "term": "Direkte karakteristikk", "def": "Fortelleren sier rett ut hvordan en person er." },
+    { "term": "Indirekte karakteristikk", "def": "Vi forstår hvordan en person er gjennom handlinger, replikker og tanker." },
+    { "term": "Tema", "def": "Det teksten handler om på et overordnet plan, som vennskap eller ensomhet." },
+    { "term": "Budskap", "def": "Det teksten vil si om temaet, altså tekstens «poeng»." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er typisk for en novelle?", "options": ["Mange personer og lang tidsperiode", "Kort tekst, få personer og ofte brå start", "Alltid lykkelig slutt", "Rim og rytme"], "correct": 1, "explain": "Novellen er kort, har få personer, foregår over kort tid og starter gjerne midt i handlingen." },
+    { "id": "q02", "text": "Hva betyr «in medias res»?", "options": ["At teksten slutter brått", "At teksten har en moral", "At fortellingen starter midt i handlingen", "At fortelleren er allvitende"], "correct": 2, "explain": "Uttrykket er latin og betyr «midt i tingene». Leseren kastes rett inn i handlingen." },
+    { "id": "q03", "text": "«Jeg løp så fort jeg kunne.» Hvilken forteller er dette?", "options": ["Førstepersonsforteller", "Allvitende forteller", "Personal tredjepersonsforteller", "Ingen forteller"], "correct": 0, "explain": "Fortelleren bruker «jeg» og er selv en person i handlingen." },
+    { "id": "q04", "text": "Hva kalles høydepunktet i spenningskurven?", "options": ["Innledning", "Tilbakeblikk", "Frampek", "Klimaks"], "correct": 3, "explain": "Klimaks er stedet der spenningen er på topp, rett før handlingen løses eller vender." },
+    { "id": "q05", "text": "Emma deler matpakken sin med en ny elev uten å si noe. Hva slags karakteristikk er dette?", "options": ["Direkte", "Indirekte", "Allvitende", "Åpen"], "correct": 1, "explain": "Vi forstår at Emma er omtenksom ut fra handlingen hennes, ikke fordi fortelleren sier det rett ut." },
+    { "id": "q06", "text": "Hva er forskjellen på tema og budskap?", "options": ["Tema er hva teksten handler om, budskap er hva den vil si om det", "De betyr det samme", "Tema er handlingen, budskap er slutten", "Budskap er tittelen"], "correct": 0, "explain": "Temaet kan være vennskap. Budskapet kan være at ekte vennskap tåler uenighet." },
+    { "id": "q07", "text": "Hva er et frampek?", "options": ["Et hopp bakover i tid", "Tekstens siste setning", "Et hint om noe som skal skje senere", "En beskrivelse av miljøet"], "correct": 2, "explain": "Frampek bygger forventning og spenning ved å antyde hva som kommer." },
+    { "id": "q08", "text": "Hvorfor har mange noveller åpen slutt?", "options": ["Fordi forfatteren gikk tom for ideer", "Fordi noveller må være korte", "Fordi det er en regel", "For å la leseren tolke og tenke videre selv"], "correct": 3, "explain": "Den åpne slutten engasjerer leseren og gir rom for ulike tolkninger." },
+    { "id": "q09", "text": "Hva kan miljøet i en fortelling brukes til?", "options": ["Bare å fortelle hvor handlingen foregår", "Å speile stemningen og personenes følelser", "Å erstatte personene", "Å gi fakta om geografi"], "correct": 1, "explain": "Været, årstiden og stedet kan forsterke stemningen, for eksempel mørke og regn i en trist scene." },
+    { "id": "q10", "text": "Hva kjennetegner en allvitende forteller?", "options": ["Fortelleren vet hva alle personene tenker og føler", "Fortelleren er hovedpersonen", "Fortelleren vet bare det én person vet", "Fortelleren snakker til leseren som «du»"], "correct": 0, "explain": "Den allvitende fortelleren står utenfor handlingen og kan se inn i alle personene." }
+  ],
+  "mindmap": {
+    "label": "Fortelling og novelle",
+    "children": [
+      { "label": "Novellen", "children": [
+        { "label": "Kort, få personer" },
+        { "label": "Brå start", "note": "In medias res" },
+        { "label": "Vendepunkt" },
+        { "label": "Åpen slutt" }
+      ] },
+      { "label": "Oppbygning", "children": [
+        { "label": "Spenningskurve" },
+        { "label": "Klimaks" },
+        { "label": "Tilbakeblikk og frampek" }
+      ] },
+      { "label": "Forteller", "children": [
+        { "label": "Førsteperson", "note": "«jeg»" },
+        { "label": "Allvitende" },
+        { "label": "Personal" }
+      ] },
+      { "label": "Personer og miljø", "children": [
+        { "label": "Direkte karakteristikk" },
+        { "label": "Indirekte karakteristikk" },
+        { "label": "Miljø speiler stemning" }
+      ] },
+      { "label": "Tolkning", "children": [
+        { "label": "Tema" },
+        { "label": "Budskap" },
+        { "label": "Belegg i teksten" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q10"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "En novelle er vanligvis lengre enn en roman.", "correct": false, "explain": "Novellen er en kort fortelling. Romanen er lengre og har gjerne flere personer og handlingstråder." },
+      { "id": "m02", "type": "sant-usant", "text": "Et tilbakeblikk viser noe som skjedde før handlingen i nåtid.", "correct": true, "explain": "Tilbakeblikk hopper bakover i tid og gir leseren bakgrunn." },
+      { "id": "m03", "type": "sant-usant", "text": "Synsvinkelen påvirker hvilke personer leseren får sympati med.", "correct": true, "explain": "Vi forstår ofte best den personen vi ser handlingen gjennom." },
+      { "id": "m04", "type": "sant-usant", "text": "«Han var den snilleste i klassen» er indirekte karakteristikk.", "correct": false, "explain": "Fortelleren sier rett ut hvordan personen er. Det er direkte karakteristikk." },
+      { "id": "m05", "type": "flervalg", "text": "Hva kalles delen av spenningskurven der spenningen øker?", "options": ["Innledning", "Avslutning", "Opptrapping", "Vendepunkt"], "correct": 2, "explain": "I opptrappingen bygges spenningen opp mot klimaks." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilket tema passer til en novelle om en gutt som blir holdt utenfor?", "options": ["Utenforskap", "Sjanger", "Tredjepersonsforteller", "Klimaks"], "correct": 0, "explain": "Temaet er det overordnede emnet teksten handler om, her utenforskap eller ensomhet." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er et godt skrivetips for en novelle?", "options": ["Forklar alt i detalj på slutten", "Start med en lang presentasjon av alle personene", "Unngå dialog", "Vis følelser gjennom handling i stedet for å si dem rett ut"], "correct": 3, "explain": "«Vis, ikke fortell» gjør teksten levende og lar leseren tolke." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

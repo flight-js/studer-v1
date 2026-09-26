@@ -1,0 +1,366 @@
+{
+  "id": "nabosprak",
+  "fagId": "norsk-9",
+  "trinnId": "9",
+  "name": "Nabospråk: svensk og dansk",
+  "intro": "Hva som er likt og ulikt i norsk, svensk og dansk, typiske kjennetegn ved skrift og uttale, og falske venner som kan skape misforståelser.",
+  "kompetansemaal": [
+    4
+  ],
+  "sammendrag": "## Skandinaviske språk\n\nNorsk, svensk og dansk er **nordgermanske språk** som har utviklet seg fra det samme norrøne språket. De er så like at folk i Skandinavia i stor grad kan forstå hverandre når de snakker hvert sitt språk. Dette kalles **nabospråkforståelse**. Islandsk og færøysk er også nordgermanske, men de er vanskeligere å forstå for oss fordi de har holdt på mer av det gamle språket.\n\n## Svensk\n\nSvensk skrift har noen bokstaver og ord som skiller seg fra norsk:\n\n- **ä** og **ö** tilsvarer norsk æ og ø: här (her), öga (øye).\n- Mange småord er ulike: och (og), inte (ikke), jag (jeg), hon (hun), vad (hva), också (også).\n- Svensk bruker ofte **-a** der bokmål har -e: flicka (jente), gata (gata/gaten).\n- Flertall kan ende på **-ar, -er, -or**: bilar (biler), flickor (jenter).\n\nSvensk uttale er ofte tydelig og «syngende», og mange nordmenn synes svensk er lettest å forstå muntlig.\n\n## Dansk\n\nDansk skrift ligner bokmål mye, fordi bokmål har utviklet seg fra dansk skriftspråk. Uttalen er derimot ofte vanskeligere:\n\n- Mange konsonanter uttales **bløtt**: mad (mat), gade (gate), købe (kjøpe).\n- Dansk har **stød**, et lite brudd i stemmen som kan skille ord.\n- Tallene er vanskelige: halvtreds betyr 50 og halvfjerds betyr 70.\n- Skriftlig bruker dansk b, d, g der vi har p, t, k: købe, gade, bog.\n\n## Falske venner\n\n**Falske venner** er ord som ser like ut, men betyr noe annet. De kan gi morsomme misforståelser:\n\n- Svensk **rolig** betyr morsom, ikke rolig.\n- Svensk **glass** betyr iskrem.\n- Svensk **semester** betyr ferie.\n- Svensk **kjol** betyr skjørt.\n- Dansk **frokost** betyr lunsj, og **morgenmad** er frokost.\n- Dansk **grine** betyr å le.\n- Dansk og svensk **rar** betyr snill eller søt (på dansk særlig om personer, på svensk også om ting).\n\n## Lytte og lese\n\nNår du lytter til eller leser nabospråk, hjelper det å lese høyt, se etter ord som ligner norsk, og bruke sammenhengen. Film, TV-serier, podkaster og musikk fra Sverige og Danmark er gode måter å venne øret til språkene på.",
+  "flashcards": [
+    {
+      "term": "Nabospråk",
+      "def": "Svensk og dansk, som ligger så nær norsk at vi stort sett forstår dem."
+    },
+    {
+      "term": "Nordgermanske språk",
+      "def": "Norsk, svensk, dansk, islandsk og færøysk. Alle kommer fra norrønt."
+    },
+    {
+      "term": "ä og ö",
+      "def": "Svenske bokstaver som tilsvarer norsk æ og ø."
+    },
+    {
+      "term": "och og inte",
+      "def": "Svensk for «og» og «ikke»."
+    },
+    {
+      "term": "flicka",
+      "def": "Svensk for «jente»."
+    },
+    {
+      "term": "Bløte konsonanter",
+      "def": "Dansk uttale der for eksempel d i «mad» uttales mykt."
+    },
+    {
+      "term": "Stød",
+      "def": "Et lite brudd i stemmen i dansk uttale som kan skille ord fra hverandre."
+    },
+    {
+      "term": "halvtreds",
+      "def": "Dansk for 50."
+    },
+    {
+      "term": "Falske venner",
+      "def": "Ord som ser like ut i to språk, men betyr noe forskjellig."
+    },
+    {
+      "term": "rolig (svensk)",
+      "def": "Betyr morsom."
+    },
+    {
+      "term": "glass (svensk)",
+      "def": "Betyr iskrem."
+    },
+    {
+      "term": "semester (svensk)",
+      "def": "Betyr ferie."
+    },
+    {
+      "term": "frokost (dansk)",
+      "def": "Betyr lunsj. Dansk «morgenmad» er frokost."
+    },
+    {
+      "term": "grine (dansk)",
+      "def": "Betyr å le."
+    },
+    {
+      "term": "Bokmål og dansk",
+      "def": "Bokmål har utviklet seg fra dansk skriftspråk, derfor er skriften ganske lik."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hva betyr det svenske ordet «rolig»?",
+      "options": [
+        "Rolig",
+        "Morsom",
+        "Sint",
+        "Trøtt"
+      ],
+      "correct": 1,
+      "explain": "«Rolig» på svensk betyr morsom. Det er en falsk venn."
+    },
+    {
+      "id": "q02",
+      "text": "Hva betyr det svenske ordet «glass»?",
+      "options": [
+        "Et drikkeglass",
+        "Et vindu",
+        "Iskrem",
+        "Is på vannet"
+      ],
+      "correct": 2,
+      "explain": "«Glass» er svensk for iskrem. Et drikkeglass heter «glas»."
+    },
+    {
+      "id": "q03",
+      "text": "Hva betyr dansk «frokost»?",
+      "options": [
+        "Lunsj",
+        "Frokost",
+        "Middag",
+        "Kveldsmat"
+      ],
+      "correct": 0,
+      "explain": "På dansk er «frokost» lunsj. Morgenmåltidet heter «morgenmad»."
+    },
+    {
+      "id": "q04",
+      "text": "Hvilke svenske bokstaver tilsvarer norsk æ og ø?",
+      "options": [
+        "å og ø",
+        "ü og ö",
+        "æ og ø",
+        "ä og ö"
+      ],
+      "correct": 3,
+      "explain": "Svensk bruker ä og ö der norsk har æ og ø."
+    },
+    {
+      "id": "q05",
+      "text": "Hvorfor ligner dansk skrift på bokmål?",
+      "options": [
+        "Fordi dansk har lånt fra bokmål",
+        "Fordi bokmål har utviklet seg fra dansk skriftspråk",
+        "Fordi det er tilfeldig",
+        "Fordi dansk og bokmål er samme språk"
+      ],
+      "correct": 1,
+      "explain": "Norge brukte dansk skriftspråk i flere hundre år, og bokmål er en videreutvikling av det."
+    },
+    {
+      "id": "q06",
+      "text": "Hva betyr svensk «inte»?",
+      "options": [
+        "inne",
+        "inntil",
+        "ikke",
+        "inni"
+      ],
+      "correct": 2,
+      "explain": "«Inte» er svensk for «ikke»."
+    },
+    {
+      "id": "q07",
+      "text": "Hva betyr dansk «halvtreds»?",
+      "options": [
+        "50",
+        "30",
+        "25",
+        "53"
+      ],
+      "correct": 0,
+      "explain": "Det danske tallsystemet er annerledes. «Halvtreds» betyr 50."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er falske venner?",
+      "options": [
+        "Ord som ser like ut i to språk, men betyr noe annet",
+        "Ord som er helt like i alle språk",
+        "Venner som lyver",
+        "Lånord fra engelsk"
+      ],
+      "correct": 0,
+      "explain": "Falske venner kan skape misforståelser fordi vi tror vi forstår dem."
+    },
+    {
+      "id": "q09",
+      "text": "Hva kjennetegner dansk uttale for mange nordmenn?",
+      "options": [
+        "Den er lett fordi den er lik skriften",
+        "Den har bløte konsonanter og stød som gjør den vanskeligere",
+        "Den har ingen vokaler",
+        "Den er lik islandsk"
+      ],
+      "correct": 1,
+      "explain": "Bløte konsonanter og stød gjør at dansk kan være vanskeligere å forstå muntlig enn skriftlig."
+    },
+    {
+      "id": "q10",
+      "text": "Hva betyr svensk «semester»?",
+      "options": [
+        "Et skolehalvår",
+        "En eksamen",
+        "Et kurs",
+        "Ferie"
+      ],
+      "correct": 3,
+      "explain": "Svensk «semester» betyr ferie. Et skolehalvår heter «termin»."
+    }
+  ],
+  "mindmap": {
+    "label": "Nabospråk",
+    "children": [
+      {
+        "label": "Felles opphav",
+        "children": [
+          {
+            "label": "Norrønt"
+          },
+          {
+            "label": "Nordgermanske språk"
+          },
+          {
+            "label": "Nabospråkforståelse"
+          }
+        ]
+      },
+      {
+        "label": "Svensk",
+        "children": [
+          {
+            "label": "ä og ö"
+          },
+          {
+            "label": "och, inte, jag"
+          },
+          {
+            "label": "flicka – flickor"
+          }
+        ]
+      },
+      {
+        "label": "Dansk",
+        "children": [
+          {
+            "label": "Skrift ligner bokmål"
+          },
+          {
+            "label": "Bløte konsonanter"
+          },
+          {
+            "label": "Stød"
+          },
+          {
+            "label": "halvtreds = 50"
+          }
+        ]
+      },
+      {
+        "label": "Falske venner",
+        "children": [
+          {
+            "label": "rolig = morsom",
+            "note": "sv."
+          },
+          {
+            "label": "glass = iskrem",
+            "note": "sv."
+          },
+          {
+            "label": "frokost = lunsj",
+            "note": "da."
+          },
+          {
+            "label": "grine = le",
+            "note": "da."
+          }
+        ]
+      },
+      {
+        "label": "Lytte og lese",
+        "children": [
+          {
+            "label": "Se etter likheter"
+          },
+          {
+            "label": "Bruk sammenhengen"
+          },
+          {
+            "label": "Serier og musikk"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Norsk, svensk og dansk har utviklet seg fra norrønt.",
+        "correct": true,
+        "explain": "Alle de skandinaviske språkene har røtter i det norrøne språket."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Dansk «grine» betyr å gråte.",
+        "correct": false,
+        "explain": "Dansk «grine» betyr å le."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Svensk «kjol» betyr skjørt.",
+        "correct": true,
+        "explain": "«Kjol» er en falsk venn: det betyr skjørt, ikke kjole."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Islandsk er like lett for nordmenn å forstå som svensk.",
+        "correct": false,
+        "explain": "Islandsk har holdt på mer av det gamle språket og er mye vanskeligere å forstå for nordmenn."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva betyr svensk «och»?",
+        "options": [
+          "også",
+          "eller",
+          "og",
+          "ok"
+        ],
+        "correct": 2,
+        "explain": "«Och» er svensk for «og»."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilket svensk ord betyr «jente»?",
+        "options": [
+          "flicka",
+          "jente",
+          "pige",
+          "kvinde"
+        ],
+        "correct": 0,
+        "explain": "«Flicka» er svensk for jente. «Pige» og «kvinde» er dansk, og «jente» er norsk."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva betyr dansk «morgenmad»?",
+        "options": [
+          "Lunsj",
+          "Frokost",
+          "Kveldsmat",
+          "Middag"
+        ],
+        "correct": 1,
+        "explain": "«Morgenmad» er frokost på dansk."
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
+}

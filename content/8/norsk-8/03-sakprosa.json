@@ -1,0 +1,82 @@
+{
+  "id": "sakprosa",
+  "fagId": "norsk-8",
+  "trinnId": "8",
+  "name": "Sakprosa og fagtekster",
+  "intro": "Hva sakprosa er, de vanligste sakprosasjangrene, hvordan en fagtekst er bygd opp, og hvordan du skriver informerende tekster.",
+  "kompetansemaal": [1, 10],
+  "sammendrag": "## Hva er sakprosa?\n\n**Sakprosa** er tekster som handler om virkeligheten. De skal informere, forklare, argumentere eller påvirke, og leseren skal kunne stole på at det som står der, er sant, eller i alle fall ment som forfatterens ærlige mening. Sakprosa står i motsetning til **skjønnlitteratur**, som er oppdiktet. Sakprosa kan likevel bruke fortellergrep, for eksempel når en reportasje starter med en scene.\n\n## Sjangrer\n\n- **Nyhetsartikkel**: informerer om noe nytt og viktig. Det viktigste står først.\n- **Reportasje**: tar leseren med til et sted eller en hendelse, ofte med beskrivelser og intervjuer.\n- **Fagtekst**: forklarer et emne, som i lærebøker og leksikon.\n- **Debattinnlegg og leserbrev**: argumenterer for en mening.\n- **Kåseri**: en humoristisk og personlig tekst om et hverdagslig emne.\n- **Intervju**, **rapport** og **instruksjon** (bruksanvisning) er andre eksempler.\n\n## Nyhetstrekanten\n\nNyhetsartikler er bygd opp som en **omvendt trekant** eller **nyhetstrekant**: Det viktigste kommer først, i tittel og ingress, og detaljene kommer lenger ned. Da kan leseren slutte når som helst og likevel ha fått med seg hovedsaken. Ingressen svarer ofte på de viktigste **hv-spørsmålene**: hva, hvem, hvor, når, hvorfor og hvordan.\n\n## Fagtekstens oppbygning\n\nEn god fagtekst har gjerne:\n\n- en **innledning** som presenterer emnet,\n- en **hoveddel** delt inn i avsnitt, ofte med mellomtitler,\n- en **avslutning** som oppsummerer.\n\nHvert avsnitt har én hovedtanke, ofte uttrykt i en **temasetning** først i avsnittet. Resten av avsnittet utdyper, forklarer eller gir eksempler. Fagtekster bruker **fagord**, og gode fagtekster forklarer dem.\n\n## Språk og stil\n\nSakprosa har ofte et **nøytralt** og **presist** språk, særlig fagtekster og nyheter. Meningstekster som debattinnlegg kan være mer personlige. Når du leser sakprosa, bør du skille mellom **fakta** (det som kan sjekkes) og **meninger** (det noen synes).\n\n## Skrive en informerende tekst\n\nNår du skal informere, bør du tenke på **mottakeren**: Hva vet de fra før, og hva trenger de å vite? Samle fakta fra pålitelige kilder, sorter stoffet i en logisk rekkefølge, skriv tydelige temasetninger, og forklar fagordene. Avslutt gjerne med en kort oppsummering.",
+  "flashcards": [
+    { "term": "Sakprosa", "def": "Tekster om virkeligheten som skal informere, forklare, argumentere eller påvirke." },
+    { "term": "Skjønnlitteratur", "def": "Oppdiktede tekster, som noveller, romaner og dikt." },
+    { "term": "Nyhetsartikkel", "def": "Sakprosasjanger som informerer om noe nytt og viktig, med det viktigste først." },
+    { "term": "Reportasje", "def": "Tar leseren med til et sted eller en hendelse med beskrivelser og intervjuer." },
+    { "term": "Fagtekst", "def": "En tekst som forklarer et emne, for eksempel i lærebøker." },
+    { "term": "Kåseri", "def": "En humoristisk og personlig tekst om et hverdagslig emne." },
+    { "term": "Debattinnlegg", "def": "En tekst som argumenterer for en mening i en sak." },
+    { "term": "Nyhetstrekanten", "def": "Oppbygning der det viktigste kommer først og detaljene til slutt." },
+    { "term": "Hv-spørsmål", "def": "Hva, hvem, hvor, når, hvorfor og hvordan. Ingressen svarer ofte på dem." },
+    { "term": "Temasetning", "def": "Setning, ofte først i avsnittet, som sier hva avsnittet handler om." },
+    { "term": "Avsnitt", "def": "En del av teksten med én hovedtanke. Markeres med ny linje eller innrykk." },
+    { "term": "Fagord", "def": "Ord som hører til et bestemt fag, og som bør forklares for leseren." },
+    { "term": "Fakta", "def": "Opplysninger som kan sjekkes og bekreftes." },
+    { "term": "Mening", "def": "Det noen synes eller mener. Kan ikke bevises som sant eller usant." },
+    { "term": "Mottaker", "def": "Den teksten er skrevet for. Innhold og språk bør tilpasses mottakeren." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er sakprosa?", "options": ["Oppdiktede fortellinger", "Tekster som handler om virkeligheten", "Bare tekster fra aviser", "Dikt uten rim"], "correct": 1, "explain": "Sakprosa handler om virkelige forhold og kan være alt fra lærebøker til debattinnlegg." },
+    { "id": "q02", "text": "Hvordan er en nyhetsartikkel bygd opp?", "options": ["Det viktigste kommer først", "Det viktigste kommer til slutt", "Den starter alltid med et sitat", "Den har spenningskurve med klimaks"], "correct": 0, "explain": "Nyhetstrekanten gjør at leseren får hovedsaken med én gang, og kan lese videre for detaljer." },
+    { "id": "q03", "text": "Hvilken sjanger er humoristisk og personlig og handler ofte om noe hverdagslig?", "options": ["Rapport", "Nyhetsartikkel", "Instruksjon", "Kåseri"], "correct": 3, "explain": "Kåseriet er en lett og underholdende sjanger med personlig stil." },
+    { "id": "q04", "text": "Hva er en temasetning?", "options": ["Siste setning i teksten", "Overskriften", "En setning som sier hva avsnittet handler om", "Et sitat fra en kilde"], "correct": 2, "explain": "Temasetningen står ofte først i avsnittet og gir leseren avsnittets hovedtanke." },
+    { "id": "q05", "text": "Hvilket utsagn er en mening og ikke et faktum?", "options": ["Oslo er hovedstaden i Norge", "Skoledagen bør starte klokka ni", "Vann koker ved 100 °C ved normalt lufttrykk", "Norge har over fem millioner innbyggere"], "correct": 1, "explain": "At skoledagen bør starte senere, er noe man mener. De andre kan sjekkes." },
+    { "id": "q06", "text": "Hvilke spørsmål svarer ingressen i en nyhetsartikkel ofte på?", "options": ["Hv-spørsmålene: hva, hvem, hvor, når, hvorfor, hvordan", "Hvordan artikkelen slutter", "Hva journalisten mener", "Hvilke kilder som er brukt"], "correct": 0, "explain": "Ingressen gir en rask oppsummering av de viktigste opplysningene." },
+    { "id": "q07", "text": "Hva kjennetegner en reportasje?", "options": ["Den er alltid kortest mulig", "Den består bare av tall", "Den tar leseren med til stedet med beskrivelser og intervjuer", "Den er oppdiktet"], "correct": 2, "explain": "Reportasjen er levende sakprosa som lar leseren oppleve et sted eller en hendelse." },
+    { "id": "q08", "text": "Hva bør du tenke på først når du skal skrive en informerende tekst?", "options": ["Hvor mange sider teksten skal være", "Hvilke ord som rimer", "Hvordan du kan skjule kildene", "Hvem mottakeren er og hva de trenger å vite"], "correct": 3, "explain": "Innhold, fagord og språk må tilpasses den som skal lese teksten." },
+    { "id": "q09", "text": "Hvor mange hovedtanker bør et avsnitt ha?", "options": ["Én", "To", "Så mange som mulig", "Ingen"], "correct": 0, "explain": "Ett avsnitt, én hovedtanke. Det gjør teksten oversiktlig." },
+    { "id": "q10", "text": "Hvilken sjanger argumenterer for en mening?", "options": ["Fagtekst", "Debattinnlegg", "Bruksanvisning", "Leksikonartikkel"], "correct": 1, "explain": "Debattinnlegget skal overbevise leseren om et standpunkt." }
+  ],
+  "mindmap": {
+    "label": "Sakprosa",
+    "children": [
+      { "label": "Kjennetegn", "children": [
+        { "label": "Om virkeligheten" },
+        { "label": "Informere, forklare, påvirke" }
+      ] },
+      { "label": "Sjangrer", "children": [
+        { "label": "Nyhetsartikkel" },
+        { "label": "Reportasje" },
+        { "label": "Fagtekst" },
+        { "label": "Debattinnlegg og kåseri" }
+      ] },
+      { "label": "Oppbygning", "children": [
+        { "label": "Nyhetstrekanten", "note": "Viktigst først" },
+        { "label": "Innledning – hoveddel – avslutning" },
+        { "label": "Temasetning", "note": "Én tanke per avsnitt" }
+      ] },
+      { "label": "Lese kritisk", "children": [
+        { "label": "Fakta" },
+        { "label": "Meninger" },
+        { "label": "Avsender" }
+      ] },
+      { "label": "Skrive", "children": [
+        { "label": "Tenk på mottakeren" },
+        { "label": "Forklar fagord" },
+        { "label": "Pålitelige kilder" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q08", "q10"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "En lærebok i naturfag er sakprosa.", "correct": true, "explain": "Lærebøker forklarer virkelige forhold og er typiske fagtekster." },
+      { "id": "m02", "type": "sant-usant", "text": "I en nyhetsartikkel kommer de viktigste opplysningene til slutt.", "correct": false, "explain": "Nyhetsartikler har det viktigste først, etter nyhetstrekanten." },
+      { "id": "m03", "type": "sant-usant", "text": "Sakprosa kan bruke fortellergrep, som å starte med en scene.", "correct": true, "explain": "Særlig reportasjer bruker skjønnlitterære grep for å gjøre teksten levende." },
+      { "id": "m04", "type": "sant-usant", "text": "En mening kan sjekkes og bevises på samme måte som et faktum.", "correct": false, "explain": "Meninger handler om hva noen synes. Fakta kan kontrolleres." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken tekst er en instruksjon?", "options": ["En bruksanvisning til en kaffemaskin", "Et dikt om høsten", "Et leserbrev om bompenger", "En novelle"], "correct": 0, "explain": "En instruksjon forklarer steg for steg hvordan man gjør noe." },
+      { "id": "m06", "type": "flervalg", "text": "Hva bør en god avslutning i en fagtekst gjøre?", "options": ["Introdusere et nytt emne", "Oppsummere hovedpoengene", "Gjenta innledningen ord for ord", "Stille leseren et vanskelig spørsmål uten svar"], "correct": 1, "explain": "Avslutningen samler trådene og minner leseren om det viktigste." },
+      { "id": "m07", "type": "flervalg", "text": "Hvorfor bør fagord forklares i en fagtekst?", "options": ["For å gjøre teksten lengre", "Fordi det er en regel i rettskrivingen", "For at leseren skal forstå innholdet", "For å unngå avsnitt"], "correct": 2, "explain": "Fagord er nødvendige for presisjon, men leseren må forstå dem for å få utbytte av teksten." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

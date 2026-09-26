@@ -1,0 +1,83 @@
+{
+  "id": "ordklasser",
+  "fagId": "norsk-8",
+  "trinnId": "8",
+  "name": "Ordklasser",
+  "intro": "De ti ordklassene i norsk skolegrammatikk, hvordan du kjenner dem igjen, og hvordan substantiv, verb og adjektiv bøyes.",
+  "kompetansemaal": [12, 11],
+  "sammendrag": "## Hvorfor ordklasser?\n\nAlle ord hører til en **ordklasse**. Ordklassen forteller hva slags jobb ordet gjør og hvordan det kan bøyes. Å kjenne ordklassene gjør det lettere å snakke om språk, rette egne tekster og lære andre språk. I norsk skolegrammatikk regner vi vanligvis med ti ordklasser.\n\n## De bøyelige ordklassene\n\n- **Substantiv** er navn på ting, personer, steder, dyr og begreper: bil, Oslo, glede. Substantiv bøyes i **kjønn** (hankjønn, hunkjønn, intetkjønn), **tall** (entall og flertall) og **bestemthet** (ubestemt og bestemt form): en bil – bilen – biler – bilene. **Egennavn** skrives med stor forbokstav.\n- **Verb** sier hva noen gjør eller hva som skjer: løpe, tenke, regne. Verb bøyes i tid: infinitiv (å kaste), presens (kaster), preteritum (kastet), presens perfektum (har kastet) og imperativ (kast!).\n- **Adjektiv** beskriver substantiv: en rød bil, huset er stort. Adjektiv bøyes etter substantivet og kan **gradbøyes**: stor – større – størst.\n- **Pronomen** står i stedet for substantiv: jeg, du, hun, den, vi, dem, seg.\n- **Determinativ** bestemmer substantivet nærmere: min bil, denne boka, tre epler, alle elevene.\n\n## De ubøyelige ordklassene\n\n- **Adverb** sier noe om hvordan, hvor eller når: fort, her, i morgen, ikke.\n- **Preposisjon** viser forhold mellom ord, ofte sted eller tid: på, i, under, etter, med.\n- **Konjunksjon** binder sammen likeverdige ord og setninger: og, men, eller, for, så.\n- **Subjunksjon** innleder leddsetninger: at, fordi, hvis, når, som, om.\n- **Interjeksjon** er utrop og lydord: au, hei, jaså, pang.\n\nI tillegg regnes **infinitivsmerket** «å» ofte som en egen liten ordklasse.\n\n## Samme ord, ulik ordklasse\n\nNoen ord kan høre til flere ordklasser. «Kast» er substantiv i «et langt kast», men verb i imperativ i «kast ballen!». Du må derfor se på hvordan ordet brukes i setningen.\n\n## Tester\n\n- Kan du sette «en», «ei» eller «et» foran ordet? Da er det trolig et substantiv.\n- Kan du sette «å» foran eller bøye ordet i tid? Da er det et verb.\n- Kan ordet stå mellom «en» og et substantiv, eller gradbøyes? Da er det et adjektiv.",
+  "flashcards": [
+    { "term": "Ordklasse", "def": "En gruppe ord med samme funksjon og bøyningsmåte, for eksempel substantiv eller verb." },
+    { "term": "Substantiv", "def": "Navn på ting, personer, steder og begreper. Bøyes i kjønn, tall og bestemthet." },
+    { "term": "Egennavn", "def": "Substantiv som er navn på en bestemt person eller et sted. Skrives med stor forbokstav." },
+    { "term": "Verb", "def": "Ord for handling eller det som skjer. Bøyes i tid: kaste – kaster – kastet – har kastet." },
+    { "term": "Infinitiv", "def": "Verbets grunnform, ofte med «å» foran: å løpe." },
+    { "term": "Imperativ", "def": "Verbets bydeform: Løp! Kast!" },
+    { "term": "Adjektiv", "def": "Beskriver substantiv. Kan gradbøyes: stor – større – størst." },
+    { "term": "Pronomen", "def": "Står i stedet for substantiv: jeg, du, han, hun, den, vi, dere, de." },
+    { "term": "Determinativ", "def": "Bestemmer substantivet nærmere: min, denne, tre, alle, noen." },
+    { "term": "Adverb", "def": "Sier noe om hvordan, hvor eller når: fort, her, i dag, ikke." },
+    { "term": "Preposisjon", "def": "Viser forhold mellom ord, ofte sted eller tid: på, i, under, etter." },
+    { "term": "Konjunksjon", "def": "Binder sammen likeverdige ord og setninger: og, men, eller, for, så." },
+    { "term": "Subjunksjon", "def": "Innleder leddsetninger: at, fordi, hvis, når, som, om." },
+    { "term": "Interjeksjon", "def": "Utrop og lydord: au, hei, uff, pang." },
+    { "term": "Infinitivsmerke", "def": "«å» foran verb i infinitiv. Regnes ofte som en egen liten ordklasse." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvilken ordklasse er «glede» i setningen «Gleden var stor»?", "options": ["Verb", "Adjektiv", "Substantiv", "Adverb"], "correct": 2, "explain": "«Gleden» er bestemt form av substantivet glede. Du kan si «en glede»." },
+    { "id": "q02", "text": "Hva er preteritum av «kaste»?", "options": ["kaster", "kastet", "har kastet", "kast"], "correct": 1, "explain": "Preteritum er fortid: Jeg kastet ballen i går." },
+    { "id": "q03", "text": "Hvilket ord er en subjunksjon?", "options": ["fordi", "og", "på", "fort"], "correct": 0, "explain": "«Fordi» innleder en leddsetning: … fordi det regnet. «Og» er konjunksjon." },
+    { "id": "q04", "text": "Hvilken ordklasse er «under» i «Katten sover under bordet»?", "options": ["Adverb", "Konjunksjon", "Substantiv", "Preposisjon"], "correct": 3, "explain": "«Under» viser forholdet mellom katten og bordet, altså et stedsforhold." },
+    { "id": "q05", "text": "Hva er riktig gradbøying av «god»?", "options": ["god – godere – godest", "god – bedre – best", "god – godt – gode", "god – mer god – mest god"], "correct": 1, "explain": "«God» har uregelrett gradbøying: god – bedre – best." },
+    { "id": "q06", "text": "Hvilket ord er et pronomen?", "options": ["denne", "min", "hun", "tre"], "correct": 2, "explain": "«Hun» står i stedet for et substantiv. «Denne», «min» og «tre» er determinativer som står sammen med et substantiv." },
+    { "id": "q07", "text": "Hvilken ordklasse er «ikke»?", "options": ["Adverb", "Pronomen", "Interjeksjon", "Preposisjon"], "correct": 0, "explain": "«Ikke» er et adverb som sier noe om verbet eller hele setningen." },
+    { "id": "q08", "text": "Hva er bestemt form flertall av «bil»?", "options": ["biler", "bilen", "en bil", "bilene"], "correct": 3, "explain": "en bil – bilen – biler – bilene. Bestemt flertall er «bilene»." },
+    { "id": "q09", "text": "«Kast ballen!» Hvilken form har verbet?", "options": ["Infinitiv", "Presens", "Imperativ", "Preteritum"], "correct": 2, "explain": "Imperativ er bydeformen, som brukes når vi gir beskjed eller ordre." },
+    { "id": "q10", "text": "Hvilket ord binder sammen to likeverdige setninger i «Jeg var sulten, men maten var ikke ferdig»?", "options": ["men", "var", "ikke", "maten"], "correct": 0, "explain": "«Men» er en konjunksjon som binder sammen to hovedsetninger." }
+  ],
+  "mindmap": {
+    "label": "Ordklasser",
+    "children": [
+      { "label": "Bøyelige", "children": [
+        { "label": "Substantiv", "note": "Kjønn, tall, bestemthet" },
+        { "label": "Verb", "note": "Bøyes i tid" },
+        { "label": "Adjektiv", "note": "Gradbøying" },
+        { "label": "Pronomen" },
+        { "label": "Determinativ" }
+      ] },
+      { "label": "Ubøyelige", "children": [
+        { "label": "Adverb", "note": "Hvordan, hvor, når" },
+        { "label": "Preposisjon", "note": "på, i, under" },
+        { "label": "Konjunksjon", "note": "og, men, eller" },
+        { "label": "Subjunksjon", "note": "at, fordi, hvis" },
+        { "label": "Interjeksjon", "note": "au, hei" }
+      ] },
+      { "label": "Verbformer", "children": [
+        { "label": "Infinitiv", "note": "å kaste" },
+        { "label": "Presens", "note": "kaster" },
+        { "label": "Preteritum", "note": "kastet" },
+        { "label": "Perfektum", "note": "har kastet" },
+        { "label": "Imperativ", "note": "kast!" }
+      ] },
+      { "label": "Tester", "children": [
+        { "label": "en/ei/et foran?", "note": "Substantiv" },
+        { "label": "å foran?", "note": "Verb" },
+        { "label": "Se på bruken i setningen" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q08", "q09"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Et ord kan høre til ulike ordklasser avhengig av hvordan det brukes.", "correct": true, "explain": "«Kast» er substantiv i «et godt kast», men verb i «kast ballen!»." },
+      { "id": "m02", "type": "sant-usant", "text": "Preposisjoner bøyes i tid.", "correct": false, "explain": "Preposisjoner er ubøyelige. Det er verbene som bøyes i tid." },
+      { "id": "m03", "type": "sant-usant", "text": "«Au!» er en interjeksjon.", "correct": true, "explain": "Utrop og lydord hører til ordklassen interjeksjon." },
+      { "id": "m04", "type": "sant-usant", "text": "Egennavn skrives med liten forbokstav.", "correct": false, "explain": "Egennavn som Oslo og Maria skrives med stor forbokstav." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilket ord er et adjektiv?", "options": ["løpe", "grønn", "raskt", "under"], "correct": 1, "explain": "«Grønn» beskriver et substantiv og kan bøyes: grønn – grønt – grønne." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilken ordklasse er «denne» i «denne boka»?", "options": ["Pronomen", "Adverb", "Determinativ", "Substantiv"], "correct": 2, "explain": "«Denne» står sammen med substantivet og bestemmer hvilken bok det gjelder." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er presens perfektum av «skrive»?", "options": ["skrev", "skriver", "skriv", "har skrevet"], "correct": 3, "explain": "Presens perfektum består av «har» og perfektum partisipp: har skrevet." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": ["Antall ordklasser varierer mellom framstillinger (ti, eventuelt med infinitivsmerke som egen klasse). Sjekk mot læreverket skolen bruker."] }
+}

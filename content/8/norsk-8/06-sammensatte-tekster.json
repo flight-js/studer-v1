@@ -1,0 +1,83 @@
+{
+  "id": "sammensatte-tekster",
+  "fagId": "norsk-8",
+  "trinnId": "8",
+  "name": "Sammensatte tekster",
+  "intro": "Tekster som kombinerer skrift, bilde, lyd og layout – hvordan de ulike uttrykksformene spiller sammen, og hvordan du lager og begrunner egne sammensatte tekster.",
+  "kompetansemaal": [14, 6],
+  "sammendrag": "## Hva er en sammensatt tekst?\n\nEn **sammensatt tekst** kombinerer flere **uttrykksformer** (modaliteter), for eksempel skrift, bilde, lyd, farger, film og layout. Eksempler er reklameplakater, nettsider, tegneserier, filmer, presentasjoner og innlegg på sosiale medier. Nesten alle tekster vi møter i dag, er sammensatte.\n\nNår vi leser en sammensatt tekst, må vi se på hvordan de ulike delene spiller sammen. Bildet og teksten kan si det samme og **forsterke** hverandre, de kan **utfylle** hverandre ved at hver del gir ny informasjon, eller de kan stå i **kontrast**, noe som ofte brukes for å skape humor eller ironi.\n\n## Virkemidler i bilder\n\n- **Utsnitt**: Nærbilde viser følelser, totalbilde viser miljø og sammenheng.\n- **Perspektiv**: Froskeperspektiv (nedenfra) får motivet til å virke stort og mektig. Fugleperspektiv (ovenfra) får det til å virke lite eller sårbart. Normalperspektiv virker nøytralt.\n- **Farger**: Varme farger som rødt og oransje kan gi energi eller fare, kalde farger som blått kan gi ro eller tristhet.\n- **Komposisjon**: Hvor elementene er plassert, avgjør hva vi legger merke til først. Blikkfanget er det øyet trekkes mot.\n\n## Layout og typografi\n\n**Layout** er hvordan elementene er plassert på siden. Store overskrifter, luft rundt viktig innhold og tydelige kontraster styrer leserens blikk. **Typografi** er valg av skrifttype, størrelse og stil. En leken skrift passer til en barnebursdag, men ikke til en nyhetssak.\n\n## Reklame\n\nReklame er en typisk sammensatt tekst. Den har gjerne et **blikkfang**, en **slagord** (slogan), en **logo** og et bilde som skaper en følelse. Reklamen bruker ofte appellformer, særlig følelser (patos), for å få oss til å kjøpe noe.\n\n## Lage egne sammensatte tekster\n\nNår du lager en sammensatt tekst, for eksempel en plakat eller presentasjon, bør du:\n\n- tenke på **formål** og **mottaker**,\n- velge uttrykksformer som støtter budskapet,\n- unngå for mye tekst på lysbilder,\n- sørge for at bilder og tekst henger sammen,\n- oppgi kilder til bilder og opplysninger.\n\nDu bør også kunne **begrunne** valgene dine: Hvorfor valgte du akkurat det bildet, den fargen og den skriften? Å forklare hvordan valgene støtter budskapet, viser at du forstår hvordan sammensatte tekster virker.",
+  "flashcards": [
+    { "term": "Sammensatt tekst", "def": "En tekst som kombinerer flere uttrykksformer, som skrift, bilde, lyd og layout." },
+    { "term": "Uttrykksform (modalitet)", "def": "En måte å formidle på: skrift, bilde, lyd, farge, bevegelse." },
+    { "term": "Forsterke", "def": "Når bilde og tekst sier det samme og styrker budskapet." },
+    { "term": "Utfylle", "def": "Når bilde og tekst gir hver sin del av informasjonen." },
+    { "term": "Kontrast mellom bilde og tekst", "def": "Når bilde og tekst spiller mot hverandre, ofte for humor eller ironi." },
+    { "term": "Nærbilde", "def": "Viser detaljer og følelser, for eksempel et ansikt." },
+    { "term": "Totalbilde", "def": "Viser hele miljøet og sammenhengen." },
+    { "term": "Froskeperspektiv", "def": "Motivet sett nedenfra. Får det til å virke stort og mektig." },
+    { "term": "Fugleperspektiv", "def": "Motivet sett ovenfra. Får det til å virke lite eller sårbart." },
+    { "term": "Blikkfang", "def": "Det som først fanger leserens oppmerksomhet." },
+    { "term": "Layout", "def": "Hvordan tekst, bilder og luft er plassert på en side eller skjerm." },
+    { "term": "Typografi", "def": "Valg av skrifttype, størrelse og stil." },
+    { "term": "Slagord (slogan)", "def": "En kort, fengende setning i reklame som skal huskes." },
+    { "term": "Komposisjon", "def": "Hvordan elementene i et bilde er plassert i forhold til hverandre." },
+    { "term": "Begrunne valg", "def": "Forklare hvorfor du valgte bilder, farger og skrift, og hvordan de støtter budskapet." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvilken tekst er en sammensatt tekst?", "options": ["En reklameplakat med bilde og slagord", "En lydløs tanke", "En tom side", "Et enkelt ord"], "correct": 0, "explain": "Reklameplakaten kombinerer bilde, skrift og layout, altså flere uttrykksformer." },
+    { "id": "q02", "text": "Et bilde er tatt nedenfra og får en person til å virke mektig. Hva kalles perspektivet?", "options": ["Fugleperspektiv", "Normalperspektiv", "Froskeperspektiv", "Nærbilde"], "correct": 2, "explain": "Froskeperspektiv er sett nedenfra og gir inntrykk av styrke og makt." },
+    { "id": "q03", "text": "Hva viser et nærbilde best?", "options": ["Hele landskapet", "Følelser og detaljer", "Hvor mange personer som er til stede", "Været"], "correct": 1, "explain": "Et nærbilde av et ansikt får fram følelser som ellers lett forsvinner." },
+    { "id": "q04", "text": "Bildet viser et øsende regnvær, mens teksten sier «Perfekt dag for piknik!». Hvordan spiller bilde og tekst sammen?", "options": ["De forsterker hverandre", "De utfyller hverandre", "De er like", "De står i kontrast og skaper ironi"], "correct": 3, "explain": "Bildet og teksten sier motsatte ting, og kontrasten skaper humor." },
+    { "id": "q05", "text": "Hva er layout?", "options": ["Valg av farger i et maleri", "Hvordan elementene er plassert på en side", "Et reklameslagord", "En type skrift"], "correct": 1, "explain": "Layout handler om plassering av tekst, bilder og luft, og styrer hvordan vi leser siden." },
+    { "id": "q06", "text": "Hva er typografi?", "options": ["Valg av skrifttype, størrelse og stil", "Et fotografi", "En logo", "En bildetekst"], "correct": 0, "explain": "Typografi er alt som har med utseendet til bokstavene å gjøre." },
+    { "id": "q07", "text": "Hvilken appellform bruker reklame ofte mest?", "options": ["Logos", "Etos", "Patos", "Ingen"], "correct": 2, "explain": "Reklame spiller ofte på følelser, som glede, lengsel eller frykt for å gå glipp av noe." },
+    { "id": "q08", "text": "Hva er et godt råd når du lager en lysbildepresentasjon?", "options": ["Skriv hele manuset på lysbildene", "Bruk så mange skrifttyper som mulig", "Unngå bilder", "Bruk lite tekst og bilder som støtter det du sier"], "correct": 3, "explain": "Lysbildene skal støtte det du sier, ikke erstatte det. For mye tekst gjør at publikum leser i stedet for å lytte." },
+    { "id": "q09", "text": "Hva kalles det som først fanger oppmerksomheten på en plakat?", "options": ["Blikkfang", "Slagord", "Utsnitt", "Kildehenvisning"], "correct": 0, "explain": "Blikkfanget kan være et stort bilde, en sterk farge eller en stor overskrift." },
+    { "id": "q10", "text": "Hvorfor bør du kunne begrunne valgene i en sammensatt tekst?", "options": ["For å vise at du forstår hvordan valgene støtter budskapet", "Fordi det gjør teksten lengre", "Fordi bilder alltid er viktigst", "For å slippe å oppgi kilder"], "correct": 0, "explain": "Begrunnelser viser at du har tenkt bevisst over formål, mottaker og virkemidler." }
+  ],
+  "mindmap": {
+    "label": "Sammensatte tekster",
+    "children": [
+      { "label": "Uttrykksformer", "children": [
+        { "label": "Skrift" },
+        { "label": "Bilde" },
+        { "label": "Lyd og film" },
+        { "label": "Layout og farge" }
+      ] },
+      { "label": "Samspill", "children": [
+        { "label": "Forsterke" },
+        { "label": "Utfylle" },
+        { "label": "Kontrast", "note": "Humor og ironi" }
+      ] },
+      { "label": "Bilde", "children": [
+        { "label": "Utsnitt", "note": "Nærbilde, totalbilde" },
+        { "label": "Perspektiv", "note": "Frosk, fugl" },
+        { "label": "Farger og komposisjon" }
+      ] },
+      { "label": "Reklame", "children": [
+        { "label": "Blikkfang" },
+        { "label": "Slagord og logo" },
+        { "label": "Patos" }
+      ] },
+      { "label": "Lage selv", "children": [
+        { "label": "Formål og mottaker" },
+        { "label": "Lite tekst på lysbilder" },
+        { "label": "Begrunn valgene" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q07", "q08", "q10"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "En tegneserie er en sammensatt tekst.", "correct": true, "explain": "Tegneserier kombinerer tegninger og skrift, ofte med snakkebobler og lydord." },
+      { "id": "m02", "type": "sant-usant", "text": "Fugleperspektiv får motivet til å virke stort og mektig.", "correct": false, "explain": "Fugleperspektiv er sett ovenfra og får motivet til å virke lite. Froskeperspektiv gir inntrykk av makt." },
+      { "id": "m03", "type": "sant-usant", "text": "Du bør oppgi kilder til bilder du bruker i en presentasjon.", "correct": true, "explain": "Bilder er andres åndsverk, og kildehenvisning viser hvor de kommer fra." },
+      { "id": "m04", "type": "sant-usant", "text": "Valg av skrifttype har ingen betydning for hvordan en tekst oppfattes.", "correct": false, "explain": "Typografi påvirker stemningen. En leken skrift passer dårlig til en alvorlig nyhet." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken farge forbindes ofte med ro?", "options": ["Rødt", "Oransje", "Blått", "Gult"], "correct": 2, "explain": "Kalde farger som blått forbindes ofte med ro, avstand eller tristhet." },
+      { "id": "m06", "type": "flervalg", "text": "Hva gjør et totalbilde?", "options": ["Viser et ansikt tett på", "Viser hele miljøet og sammenhengen", "Viser bare en detalj", "Viser motivet ovenfra"], "correct": 1, "explain": "Totalbildet gir oversikt over stedet og situasjonen." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er et slagord?", "options": ["En kort, fengende setning i reklame", "En lang fagtekst", "En bildetekst med kilde", "En overskrift i en nyhetssak"], "correct": 0, "explain": "Slagordet skal være lett å huske og knytte seg til produktet." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

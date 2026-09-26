@@ -1,0 +1,79 @@
+{
+  "id": "setningsledd",
+  "fagId": "norsk-9",
+  "trinnId": "9",
+  "name": "Setningsledd og setningstyper",
+  "intro": "Subjekt, verbal, objekt, predikativ og adverbial, forskjellen på helsetninger og leddsetninger, og hvordan setningsanalyse hjelper deg å skrive bedre.",
+  "kompetansemaal": [12, 11],
+  "sammendrag": "## Ordklasser og setningsledd\n\nOrdklassene forteller hva slags ord vi har. **Setningsleddene** forteller hvilken **jobb** ordene gjør i en bestemt setning. Et setningsledd kan bestå av ett ord eller flere ord som hører sammen, for eksempel «den gamle mannen».\n\n## De viktigste setningsleddene\n\n- **Verbal** er verbet eller verbene som sier hva som skjer: Kari **har spist** frokost. Start alltid med å finne verbalet.\n- **Subjekt** er den eller det som gjør noe, eller som setningen handler om. Spør «hvem eller hva + verbal?»: Hvem har spist? **Kari**.\n- **Direkte objekt** er den eller det som blir rammet av handlingen. Spør «hvem eller hva + verbal + subjekt?»: Hva har Kari spist? **frokost**.\n- **Indirekte objekt** er mottakeren, den noe gjøres for eller gis til: Kari ga **broren** en gave. Ofte kan du sette «til» eller «for» foran.\n- **Predikativ** sier noe om subjektet eller objektet, ofte etter verbene være, bli og hete: Kari er **trøtt**. Han heter **Ali**.\n- **Adverbial** forteller hvor, når, hvordan eller hvorfor: Kari spiste **i går** **på kjøkkenet**. Ordet «ikke» regnes også som adverbial.\n\n## Helsetninger og leddsetninger\n\nEn **helsetning** har minst subjekt og verbal og kan stå alene: Det regnet. En **leddsetning** har også subjekt og verbal, men kan ikke stå alene, fordi den er en del av en større setning. Den innledes som regel av en **subjunksjon** som at, fordi, når, hvis eller som: … **fordi det regnet**.\n\nNår en leddsetning står først, bytter subjekt og verbal plass i helsetningen etterpå: **Fordi det regnet, ble** vi inne. Dette kalles **inversjon**.\n\n## Sideordning og underordning\n\nTo helsetninger kan **sideordnes** med en konjunksjon (og, men, eller, for, så): Det regnet, og vi ble våte. Når en leddsetning henger på en helsetning, er den **underordnet**: Vi ble våte fordi det regnet.\n\n## Hvorfor analysere setninger?\n\nSetningsanalyse er nyttig når du skriver. Den hjelper deg å:\n\n- plassere **komma** riktig, for eksempel etter en leddsetning som står først,\n- unngå **ufullstendige setninger**, som «Fordi jeg var syk.» uten helsetning,\n- variere setningsbyggingen, slik at teksten ikke bare består av korte helsetninger,\n- forstå grammatikk i andre språk.",
+  "flashcards": [
+    { "term": "Setningsledd", "def": "Ett eller flere ord som har en bestemt funksjon i setningen, som subjekt eller objekt." },
+    { "term": "Verbal", "def": "Verbet eller verbene i setningen: Kari har spist." },
+    { "term": "Subjekt", "def": "Den som gjør noe. Finnes ved å spørre «hvem/hva + verbal?»." },
+    { "term": "Direkte objekt", "def": "Den eller det handlingen rammer. «Hvem/hva + verbal + subjekt?»" },
+    { "term": "Indirekte objekt", "def": "Mottakeren: Kari ga broren en gave. Kan ofte få «til» foran." },
+    { "term": "Predikativ", "def": "Sier noe om subjektet etter være, bli eller hete: Kari er trøtt." },
+    { "term": "Adverbial", "def": "Forteller hvor, når, hvordan eller hvorfor: i går, på kjøkkenet." },
+    { "term": "Helsetning", "def": "Har subjekt og verbal og kan stå alene: Det regnet." },
+    { "term": "Leddsetning", "def": "Har subjekt og verbal, men kan ikke stå alene. Innledes ofte av en subjunksjon." },
+    { "term": "Subjunksjon", "def": "Ord som innleder leddsetninger: at, fordi, når, hvis, som." },
+    { "term": "Inversjon", "def": "Verbal før subjekt, for eksempel etter en leddsetning: … ble vi inne." },
+    { "term": "Sideordning", "def": "To likeverdige setninger bundet med og, men, eller, for, så." },
+    { "term": "Underordning", "def": "En leddsetning som er en del av en helsetning." },
+    { "term": "Ufullstendig setning", "def": "En leddsetning som står alene som om den var en helsetning: «Fordi jeg var syk.»" },
+    { "term": "Finne verbalet først", "def": "Første steg i setningsanalyse. Så finner du subjektet ved å spørre hvem/hva." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er subjektet i «Hunden bet postbudet»?", "options": ["bet", "postbudet", "Hunden", "Hunden bet"], "correct": 2, "explain": "Hvem bet? Hunden. Den som gjør handlingen, er subjektet." },
+    { "id": "q02", "text": "Hva er det direkte objektet i «Kari spiste en brødskive»?", "options": ["Kari", "spiste", "en brødskive", "Det finnes ikke"], "correct": 2, "explain": "Hva spiste Kari? En brødskive. Det er det handlingen rammer." },
+    { "id": "q03", "text": "Hvilket ledd er «trøtt» i «Kari er trøtt»?", "options": ["Direkte objekt", "Predikativ", "Adverbial", "Subjekt"], "correct": 1, "explain": "«Trøtt» sier noe om subjektet etter verbet «er». Det er predikativ." },
+    { "id": "q04", "text": "Hvilket ledd er «i går» i «Vi spilte fotball i går»?", "options": ["Adverbial", "Subjekt", "Verbal", "Indirekte objekt"], "correct": 0, "explain": "«I går» svarer på når. Tid, sted, måte og årsak er adverbialer." },
+    { "id": "q05", "text": "Hva er det indirekte objektet i «Mor ga barna is»?", "options": ["Mor", "ga", "is", "barna"], "correct": 3, "explain": "Barna er mottakerne. Du kan si «ga is til barna»." },
+    { "id": "q06", "text": "Hvilken av disse er en leddsetning?", "options": ["Jeg var syk.", "fordi jeg var syk", "Kom hit!", "Det regnet i går."], "correct": 1, "explain": "«Fordi jeg var syk» innledes av en subjunksjon og kan ikke stå alene som en fullstendig setning." },
+    { "id": "q07", "text": "Hva er inversjon?", "options": ["At subjektet kommer før verbalet", "At setningen mangler verbal", "At verbalet kommer før subjektet", "At setningen står i fortid"], "correct": 2, "explain": "Etter en leddsetning først bytter subjekt og verbal plass: Fordi det regnet, ble vi inne." },
+    { "id": "q08", "text": "Hva er verbalet i «Elevene har lest boka»?", "options": ["Elevene", "har lest", "boka", "lest boka"], "correct": 1, "explain": "Verbalet kan bestå av flere verb. Her er det «har lest»." },
+    { "id": "q09", "text": "Hvorfor er setningsanalyse nyttig når du skriver?", "options": ["Den hjelper deg å sette komma riktig og unngå ufullstendige setninger", "Den gjør teksten lengre", "Den erstatter rettskriving", "Den er bare nyttig i matematikk"], "correct": 0, "explain": "Når du ser hvor helsetninger og leddsetninger begynner og slutter, blir tegnsettingen riktigere." },
+    { "id": "q10", "text": "Hvilken setning har to sideordnede helsetninger?", "options": ["Jeg vet at du kommer.", "Hvis det regner, blir vi inne.", "Boka som ligger der, er min.", "Det regnet, og vi ble våte."], "correct": 3, "explain": "«Det regnet» og «vi ble våte» kan begge stå alene og er bundet sammen med konjunksjonen «og»." }
+  ],
+  "mindmap": {
+    "label": "Setningsledd",
+    "children": [
+      { "label": "Kjerneledd", "children": [
+        { "label": "Verbal", "note": "Finn først" },
+        { "label": "Subjekt", "note": "Hvem/hva + verbal?" }
+      ] },
+      { "label": "Objekter", "children": [
+        { "label": "Direkte objekt", "note": "Rammes av handlingen" },
+        { "label": "Indirekte objekt", "note": "Mottaker" }
+      ] },
+      { "label": "Andre ledd", "children": [
+        { "label": "Predikativ", "note": "Etter være, bli, hete" },
+        { "label": "Adverbial", "note": "Hvor, når, hvordan, hvorfor" }
+      ] },
+      { "label": "Setningstyper", "children": [
+        { "label": "Helsetning", "note": "Kan stå alene" },
+        { "label": "Leddsetning", "note": "Innledes av subjunksjon" },
+        { "label": "Inversjon" }
+      ] },
+      { "label": "Nytte", "children": [
+        { "label": "Riktig komma" },
+        { "label": "Unngå ufullstendige setninger" },
+        { "label": "Variere setningene" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q10"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "En helsetning kan stå alene.", "correct": true, "explain": "Helsetninger har subjekt og verbal og gir mening alene." },
+      { "id": "m02", "type": "sant-usant", "text": "Et setningsledd består alltid av ett ord.", "correct": false, "explain": "Et ledd kan bestå av flere ord, som «den gamle mannen» eller «har spist»." },
+      { "id": "m03", "type": "sant-usant", "text": "«Ikke» regnes som adverbial i setningsanalysen.", "correct": true, "explain": "«Ikke» sier noe om verbalet eller hele setningen og analyseres som adverbial." },
+      { "id": "m04", "type": "sant-usant", "text": "«Når jeg kommer hjem.» er en fullstendig setning.", "correct": false, "explain": "Dette er en leddsetning som mangler en helsetning, for eksempel «…, skal jeg spise.»" },
+      { "id": "m05", "type": "flervalg", "text": "Hvilket ledd er «Ali» i «Han heter Ali»?", "options": ["Direkte objekt", "Subjekt", "Predikativ", "Adverbial"], "correct": 2, "explain": "Etter verbet «heter» sier «Ali» noe om subjektet. Det er predikativ." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilket ord innleder en leddsetning?", "options": ["hvis", "og", "men", "eller"], "correct": 0, "explain": "«Hvis» er en subjunksjon. «Og», «men» og «eller» er konjunksjoner." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er subjektet i «I morgen skal Emma reise»?", "options": ["I morgen", "skal reise", "reise", "Emma"], "correct": 3, "explain": "Hvem skal reise? Emma. Adverbialet står først, og derfor kommer verbalet før subjektet." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

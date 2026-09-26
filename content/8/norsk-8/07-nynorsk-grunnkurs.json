@@ -1,0 +1,372 @@
+{
+  "id": "nynorsk-grunnkurs",
+  "fagId": "norsk-8",
+  "trinnId": "8",
+  "name": "Nynorsk: grunnkurs",
+  "intro": "De vanligste ordene og bøyningsmønstrene i nynorsk – pronomen, spørreord, substantiv og verb – for deg som har bokmål som hovedmål.",
+  "kompetansemaal": [
+    11,
+    1
+  ],
+  "sammendrag": "## Sidemål\n\nI Norge har vi to likestilte skriftspråk, **bokmål** og **nynorsk**. Det du bruker mest, er **hovedmålet** ditt, og det andre er **sidemålet**. Fra 8. trinn skal alle lære å skrive begge. Mange ord er like, men noen små, hyppige ord og bøyningsendingene skiller seg ut. Lærer du dem, har du kommet langt.\n\n## Viktige småord\n\n- jeg → **eg**, ikke → **ikkje**, nå → **no**, bare → **berre**, mye → **mykje**, hele → **heile**, være → **vere**, noe → **noko**, også → **òg** eller **også**.\n- Spørreord: hva → **kva**, hvem → **kven**, hvor → **kvar**, hvordan → **korleis**, hvorfor → **kvifor**, hvilken → **kva for ein**.\n\n## Pronomen\n\nSubjektsform og objektsform: eg – meg, du – deg, han – han (eller honom), ho – henne (eller ho), det – det, vi/me – oss, de – dykk, dei – dei. Legg merke til at «hun» heter **ho**, og at «de» i tredje person flertall heter **dei**.\n\n## Substantiv\n\nNynorsk har tre kjønn, og hokjønn brukes alltid. Artiklene er **ein** (hankjønn), **ei** (hokjønn) og **eit** (inkjekjønn).\n\n- Hankjønn: ein gut – guten – gutar – gutane\n- Hokjønn: ei jente – jenta – jenter – jentene\n- Inkjekjønn: eit hus – huset – hus – husa\n\nMerk at hankjønn får **-ar/-ane** i fleirtal, og at inkjekjønn får **-a** i bestemt fleirtal.\n\n## Verb\n\nNynorsk har flere bøyningsgrupper. De to viktigste svake gruppene er:\n\n- **a-verb**: å kaste – kastar – kasta – har kasta\n- **e-verb**: å kjøpe – kjøper – kjøpte – har kjøpt\n\nSterke verb skifter vokal, som på bokmål: å skrive – skriv – skreiv – har skrive. Presens av sterke verb har ofte ingen ending: eg skriv, ho les, han søv.\n\nDu kan velge mellom **e-infinitiv** (å kaste) og **a-infinitiv** (å kasta), men må være konsekvent i hele teksten.\n\n## Tips for å skrive nynorsk\n\n- Bruk en nynorsk ordbok, for eksempel Nynorskordboka på nett.\n- Slå på nynorsk retteprogram, men les over selv.\n- Les nynorske tekster, så blir ordbildet kjent.\n- Unngå å oversette ord for ord fra bokmål. Noen ord er helt ulike: «begynne» heter ofte **byrje**, «spørsmål» heter **spørsmål**, men «forsøke» heter **freiste** eller **prøve**.",
+  "flashcards": [
+    {
+      "term": "eg",
+      "def": "Nynorsk for «jeg»."
+    },
+    {
+      "term": "ikkje",
+      "def": "Nynorsk for «ikke»."
+    },
+    {
+      "term": "ho",
+      "def": "Nynorsk for «hun». Objektsform: henne (eller ho)."
+    },
+    {
+      "term": "dei",
+      "def": "Nynorsk for «de/dem» i tredje person flertall."
+    },
+    {
+      "term": "dykk",
+      "def": "Nynorsk objektsform av «de» i andre person flertall (bokmål: dere)."
+    },
+    {
+      "term": "kva, kven, kvar",
+      "def": "Nynorsk for hva, hvem og hvor."
+    },
+    {
+      "term": "korleis og kvifor",
+      "def": "Nynorsk for hvordan og hvorfor."
+    },
+    {
+      "term": "berre og mykje",
+      "def": "Nynorsk for bare og mye."
+    },
+    {
+      "term": "ein, ei, eit",
+      "def": "Ubestemte artikler i hankjønn, hokjønn og inkjekjønn."
+    },
+    {
+      "term": "Hankjønn",
+      "def": "ein gut – guten – gutar – gutane"
+    },
+    {
+      "term": "Hokjønn",
+      "def": "ei jente – jenta – jenter – jentene"
+    },
+    {
+      "term": "Inkjekjønn",
+      "def": "eit hus – huset – hus – husa"
+    },
+    {
+      "term": "a-verb",
+      "def": "å kaste – kastar – kasta – har kasta"
+    },
+    {
+      "term": "e-verb",
+      "def": "å kjøpe – kjøper – kjøpte – har kjøpt"
+    },
+    {
+      "term": "e- eller a-infinitiv",
+      "def": "Du kan skrive «å kaste» eller «å kasta», men må være konsekvent."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hva heter «jeg» på nynorsk?",
+      "options": [
+        "je",
+        "eg",
+        "ek",
+        "jeg"
+      ],
+      "correct": 1,
+      "explain": "«Eg» er nynorsk for «jeg»."
+    },
+    {
+      "id": "q02",
+      "text": "Hva heter «hvordan» på nynorsk?",
+      "options": [
+        "kvordan",
+        "korleis",
+        "kvifor",
+        "kven"
+      ],
+      "correct": 1,
+      "explain": "«Korleis» betyr hvordan. «Kvifor» er hvorfor, og «kven» er hvem."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er bestemt form flertall av «gut» på nynorsk?",
+      "options": [
+        "gutene",
+        "gutar",
+        "gutane",
+        "gutter"
+      ],
+      "correct": 2,
+      "explain": "Hankjønn: ein gut – guten – gutar – gutane."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er presens av a-verbet «å kaste» på nynorsk?",
+      "options": [
+        "kastar",
+        "kaster",
+        "kasta",
+        "kast"
+      ],
+      "correct": 0,
+      "explain": "a-verb får -ar i presens: eg kastar."
+    },
+    {
+      "id": "q05",
+      "text": "Hva heter «hun» på nynorsk?",
+      "options": [
+        "hu",
+        "hon",
+        "ho",
+        "hun"
+      ],
+      "correct": 2,
+      "explain": "«Ho» er nynorsk for «hun»."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er bestemt form flertall av «hus» på nynorsk?",
+      "options": [
+        "husene",
+        "husa",
+        "husane",
+        "hus"
+      ],
+      "correct": 1,
+      "explain": "Inkjekjønn: eit hus – huset – hus – husa."
+    },
+    {
+      "id": "q07",
+      "text": "Hvilken setning er skrevet på nynorsk?",
+      "options": [
+        "Jeg vet ikke hva hun heter.",
+        "Eg veit ikkje kva ho heiter.",
+        "Eg vet ikke hva ho heter.",
+        "Jeg veit ikkje kva hun heiter."
+      ],
+      "correct": 1,
+      "explain": "Alle ordene er på nynorsk: eg, veit, ikkje, kva, ho, heiter."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er preteritum av e-verbet «å kjøpe»?",
+      "options": [
+        "kjøpa",
+        "kjøpar",
+        "kjøpet",
+        "kjøpte"
+      ],
+      "correct": 3,
+      "explain": "e-verb: å kjøpe – kjøper – kjøpte – har kjøpt."
+    },
+    {
+      "id": "q09",
+      "text": "Hva betyr «dei» på nynorsk?",
+      "options": [
+        "de/dem i tredje person flertall",
+        "deg",
+        "denne",
+        "det"
+      ],
+      "correct": 0,
+      "explain": "«Dei» brukes både som subjekt og objekt: Dei kom. Eg såg dei."
+    },
+    {
+      "id": "q10",
+      "text": "Hva gjelder for valg av infinitivsending i nynorsk?",
+      "options": [
+        "Du må alltid bruke -a",
+        "Du må alltid bruke -e",
+        "Du kan velge -e eller -a, men må være konsekvent",
+        "Du kan blande fritt"
+      ],
+      "correct": 2,
+      "explain": "Både e-infinitiv og a-infinitiv er tillatt, men du må holde deg til én i samme tekst."
+    }
+  ],
+  "mindmap": {
+    "label": "Nynorsk grunnkurs",
+    "children": [
+      {
+        "label": "Småord",
+        "children": [
+          {
+            "label": "eg, ikkje, no"
+          },
+          {
+            "label": "berre, mykje, heile"
+          },
+          {
+            "label": "kva, kven, kvar",
+            "note": "korleis, kvifor"
+          }
+        ]
+      },
+      {
+        "label": "Pronomen",
+        "children": [
+          {
+            "label": "ho – henne",
+            "note": "hun"
+          },
+          {
+            "label": "de – dykk",
+            "note": "dere"
+          },
+          {
+            "label": "dei",
+            "note": "de/dem"
+          }
+        ]
+      },
+      {
+        "label": "Substantiv",
+        "children": [
+          {
+            "label": "Hankjønn",
+            "note": "gutar – gutane"
+          },
+          {
+            "label": "Hokjønn",
+            "note": "jenter – jentene"
+          },
+          {
+            "label": "Inkjekjønn",
+            "note": "hus – husa"
+          }
+        ]
+      },
+      {
+        "label": "Verb",
+        "children": [
+          {
+            "label": "a-verb",
+            "note": "kastar – kasta"
+          },
+          {
+            "label": "e-verb",
+            "note": "kjøper – kjøpte"
+          },
+          {
+            "label": "Sterke verb",
+            "note": "skriv – skreiv"
+          },
+          {
+            "label": "e- eller a-infinitiv"
+          }
+        ]
+      },
+      {
+        "label": "Tips",
+        "children": [
+          {
+            "label": "Nynorskordboka"
+          },
+          {
+            "label": "Les nynorsk"
+          },
+          {
+            "label": "Ikke ord for ord"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Bokmål og nynorsk er likestilte skriftspråk.",
+        "correct": true,
+        "explain": "Begge er offisielle skriftformer av norsk og er likestilte."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "«Ikkje» er nynorsk for «ikke».",
+        "correct": true,
+        "explain": "Ikkje er den nynorske formen."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Hokjønn kan sløyfes på nynorsk, slik som på bokmål.",
+        "correct": false,
+        "explain": "Nynorsk har alltid tre kjønn, og hokjønnsord får «ei» og -a i bestemt form."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "«Kvifor» betyr hvorfor.",
+        "correct": true,
+        "explain": "Kvifor = hvorfor. Korleis = hvordan."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva heter «bare» på nynorsk?",
+        "options": [
+          "bara",
+          "berre",
+          "bere",
+          "bære"
+        ],
+        "correct": 1,
+        "explain": "«Berre» er nynorsk for bare."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilken artikkel står foran hokjønnsordet «jente»?",
+        "options": [
+          "ein",
+          "eit",
+          "ei",
+          "en"
+        ],
+        "correct": 2,
+        "explain": "Hokjønn har artikkelen «ei»: ei jente."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er presens av «å skrive» på nynorsk?",
+        "options": [
+          "skriv",
+          "skrivar",
+          "skriver",
+          "skreiv"
+        ],
+        "correct": 0,
+        "explain": "Sterke verb har ofte ingen ending i presens på nynorsk: eg skriv."
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "sjekkes",
+    "merknader": [
+      "Nynorskformer (valfrie former som «honom», «me», «òg») bør kontrolleres mot gjeldende nynorsknormal fra 2012."
+    ]
+  }
+}

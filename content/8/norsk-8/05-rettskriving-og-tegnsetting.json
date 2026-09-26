@@ -1,0 +1,361 @@
+{
+  "id": "rettskriving-og-tegnsetting",
+  "fagId": "norsk-8",
+  "trinnId": "8",
+  "name": "Rettskriving og tegnsetting",
+  "intro": "De vanligste rettskrivingsfellene på bokmål – og/å, de/dem, dobbel konsonant og særskriving – og de viktigste kommareglene.",
+  "kompetansemaal": [
+    11
+  ],
+  "sammendrag": "## Hvorfor rettskriving?\n\nRiktig rettskriving og tegnsetting gjør teksten lettere å lese og viser at du tar leseren på alvor. Mange feil går igjen hos mange skrivere, så det lønner seg å kjenne de vanligste fellene.\n\n## Og eller å?\n\n**Å** står foran verb i infinitiv: Jeg liker å lese. **Og** binder sammen ord og setninger: brød og smør. Tips: Kan du bytte ordet med «samt» eller «pluss», er det «og». Står det et verb rett etter, er det ofte «å».\n\n## De eller dem?\n\n**De** er subjektsform: De spiller fotball. **Dem** er objektsform og brukes etter preposisjoner: Jeg så dem. Jeg snakket med dem. Tips: Bytt med «vi/oss». Passer «vi», skal det være «de». Passer «oss», skal det være «dem».\n\n## Dobbel konsonant\n\nEtter **kort vokal** skriver vi som regel dobbel konsonant: takk, hopp, katt. Etter **lang vokal** skriver vi enkel konsonant: tak, hop, kat. Si ordet høyt og lytt etter vokallengden. Unntak finnes, for eksempel at ord ikke ender på dobbel m: dum, rom, hvem.\n\n## Stum h, g og d\n\nNoen ord har bokstaver som ikke uttales: **hv**- (hva, hvem, hvor), **hj**- (hjem, hjelp), **gj**- (gjest, gjøre), og stum **d** i ord som land, kald og ord.\n\n## Særskriving\n\nSammensatte ord skrives i **ett ord** på norsk: fotballtrening, ungdomsskole, røykfritt. Skriver du dem i to ord, kan betydningen endres helt: «røyk fritt» betyr at det er lov å røyke.\n\n## Stor og liten forbokstav\n\nStor forbokstav brukes først i setninger og i egennavn: Maria, Bergen, Norge. Liten forbokstav brukes for dager, måneder, høytider i vanlige sammensetninger, språk og nasjonaliteter: mandag, januar, norsk, nordmann.\n\n## De viktigste kommareglene\n\n- Komma mellom to **helsetninger** bundet sammen med og, men, eller, for, så: Det regnet, men vi gikk tur.\n- Komma etter en **leddsetning** som står først: Når det regner, blir vi inne.\n- Komma rundt **innskutte** leddsetninger: Boka, som jeg fikk i gave, var spennende.\n- Komma ved **oppramsing**, men ikke foran det siste «og»: epler, pærer og bananer.\n- Komma etter **tiltale** og foran etterstilte tillegg: Ola, kom hit!\n\nDet skal ikke være komma foran «at» når at-setningen kommer etter hovedsetningen: Jeg tror at det blir fint.\n\n## Korrektur\n\nLes teksten høyt eller baklengs setning for setning. Da oppdager du lettere feil som rettekontrollen ikke fanger opp, for eksempel riktig stavede ord brukt feil.",
+  "flashcards": [
+    {
+      "term": "Å",
+      "def": "Infinitivsmerke foran verb: Jeg liker å lese."
+    },
+    {
+      "term": "Og",
+      "def": "Konjunksjon som binder sammen ord og setninger: brød og smør."
+    },
+    {
+      "term": "De",
+      "def": "Subjektsform: De spiller fotball. Test: passer «vi»?"
+    },
+    {
+      "term": "Dem",
+      "def": "Objektsform og etter preposisjon: Jeg så dem. Test: passer «oss»?"
+    },
+    {
+      "term": "Dobbel konsonant",
+      "def": "Etter kort vokal skrives ofte dobbel konsonant: takk, katt, hopp."
+    },
+    {
+      "term": "Enkel konsonant",
+      "def": "Etter lang vokal skrives enkel konsonant: tak, kat, hop."
+    },
+    {
+      "term": "Aldri dobbel m til slutt",
+      "def": "Ord ender ikke på -mm: dum, rom, hvem."
+    },
+    {
+      "term": "Stum h",
+      "def": "hv- og hj- i ord som hva, hvem, hjem og hjelp."
+    },
+    {
+      "term": "Særskriving",
+      "def": "Feil der sammensatte ord deles i to. Riktig: fotballtrening, ikke fotball trening."
+    },
+    {
+      "term": "Liten forbokstav",
+      "def": "Dager, måneder, språk og nasjonaliteter: mandag, mai, norsk, nordmann."
+    },
+    {
+      "term": "Komma mellom helsetninger",
+      "def": "Foran og, men, eller, for, så når de binder to helsetninger: Det regnet, men vi gikk."
+    },
+    {
+      "term": "Komma etter leddsetning først",
+      "def": "Når det regner, blir vi inne."
+    },
+    {
+      "term": "Innskutt leddsetning",
+      "def": "Står midt i en helsetning og har komma på begge sider: Boka, som jeg fikk, var god."
+    },
+    {
+      "term": "Oppramsing",
+      "def": "Komma mellom ledd, men ikke foran det siste «og»: epler, pærer og bananer."
+    },
+    {
+      "term": "Ikke komma foran «at»",
+      "def": "Når at-setningen kommer etter hovedsetningen: Jeg tror at det blir fint."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hvilken setning er riktig?",
+      "options": [
+        "Jeg liker og svømme.",
+        "Jeg liker å svømme.",
+        "Jeg liker og å svømme.",
+        "Jeg liker svømme."
+      ],
+      "correct": 1,
+      "explain": "«Svømme» er et verb i infinitiv, og da skal det stå «å» foran."
+    },
+    {
+      "id": "q02",
+      "text": "Hvilken setning er riktig?",
+      "options": [
+        "Jeg snakket med de i går.",
+        "Dem kom for sent.",
+        "Jeg snakket med dem i går.",
+        "De og dem betyr det samme."
+      ],
+      "correct": 2,
+      "explain": "Etter preposisjonen «med» skal det være objektsformen «dem». Test: med oss, ikke med vi."
+    },
+    {
+      "id": "q03",
+      "text": "Hvilket ord er riktig stavet?",
+      "options": [
+        "Takk for maten",
+        "Tak for maten",
+        "Takkk for maten",
+        "Tagg for maten"
+      ],
+      "correct": 0,
+      "explain": "Vokalen i «takk» er kort, så det skal være dobbel konsonant. «Tak» er det som er over huset."
+    },
+    {
+      "id": "q04",
+      "text": "Hvilket alternativ er skrevet riktig i ett ord?",
+      "options": [
+        "ungdoms skole",
+        "fotball trening",
+        "røyk fritt",
+        "ungdomsskole"
+      ],
+      "correct": 3,
+      "explain": "Sammensatte ord skrives i ett ord på norsk. De andre er eksempler på særskriving."
+    },
+    {
+      "id": "q05",
+      "text": "Hvor skal kommaet stå? «Når vi kommer hjem skal vi spise.»",
+      "options": [
+        "Etter «Når»",
+        "Etter «hjem»",
+        "Etter «vi»",
+        "Det skal ikke være komma"
+      ],
+      "correct": 1,
+      "explain": "Leddsetningen «Når vi kommer hjem» står først, og da skal det være komma etter den."
+    },
+    {
+      "id": "q06",
+      "text": "Hvilket ord skal ha liten forbokstav midt i en setning?",
+      "options": [
+        "Oslo",
+        "Norge",
+        "Maria",
+        "januar"
+      ],
+      "correct": 3,
+      "explain": "Måneder skrives med liten forbokstav på norsk. Oslo, Norge og Maria er egennavn."
+    },
+    {
+      "id": "q07",
+      "text": "Hvilken setning har riktig komma?",
+      "options": [
+        "Jeg kjøpte epler, pærer, og bananer.",
+        "Jeg kjøpte, epler pærer og bananer.",
+        "Jeg kjøpte epler, pærer og bananer.",
+        "Jeg kjøpte epler pærer, og bananer."
+      ],
+      "correct": 2,
+      "explain": "Ved oppramsing skal det være komma mellom leddene, men ikke foran det siste «og»."
+    },
+    {
+      "id": "q08",
+      "text": "Hvilken setning har riktig tegnsetting?",
+      "options": [
+        "Jeg tror, at det blir fint.",
+        "Jeg tror at det blir fint.",
+        "Jeg, tror at det blir fint.",
+        "Jeg tror at, det blir fint."
+      ],
+      "correct": 1,
+      "explain": "Det skal ikke være komma foran «at» når at-setningen kommer etter hovedsetningen."
+    },
+    {
+      "id": "q09",
+      "text": "Hva betyr skiltet «røyk fritt»?",
+      "options": [
+        "At det er lov å røyke",
+        "At røyking er forbudt",
+        "At røyk er gratis",
+        "Ingenting"
+      ],
+      "correct": 0,
+      "explain": "Særskrivingen endrer betydningen: «røyk fritt» betyr «røyk så mye du vil». Riktig er «røykfritt»."
+    },
+    {
+      "id": "q10",
+      "text": "Hvilken setning trenger komma?",
+      "options": [
+        "Jeg vet at du kommer.",
+        "Hun sa hei.",
+        "Vi dro på tur og vi hadde det gøy.",
+        "Han løp fort."
+      ],
+      "correct": 2,
+      "explain": "To helsetninger bundet sammen med «og» skal ha komma: Vi dro på tur, og vi hadde det gøy."
+    }
+  ],
+  "mindmap": {
+    "label": "Rettskriving og tegnsetting",
+    "children": [
+      {
+        "label": "Vanlige feller",
+        "children": [
+          {
+            "label": "og / å",
+            "note": "å foran verb"
+          },
+          {
+            "label": "de / dem",
+            "note": "vi/oss-testen"
+          },
+          {
+            "label": "Særskriving",
+            "note": "Sammensatte ord i ett"
+          }
+        ]
+      },
+      {
+        "label": "Stavemåte",
+        "children": [
+          {
+            "label": "Kort vokal → dobbel konsonant"
+          },
+          {
+            "label": "Stum h, g og d",
+            "note": "hva, gjest, land"
+          },
+          {
+            "label": "Ikke -mm til slutt"
+          }
+        ]
+      },
+      {
+        "label": "Forbokstav",
+        "children": [
+          {
+            "label": "Stor",
+            "note": "Egennavn, setningsstart"
+          },
+          {
+            "label": "Liten",
+            "note": "Dager, måneder, språk"
+          }
+        ]
+      },
+      {
+        "label": "Komma",
+        "children": [
+          {
+            "label": "Mellom helsetninger",
+            "note": "og, men, for, så"
+          },
+          {
+            "label": "Etter leddsetning først"
+          },
+          {
+            "label": "Rundt innskutte"
+          },
+          {
+            "label": "Oppramsing",
+            "note": "Ikke før siste og"
+          }
+        ]
+      },
+      {
+        "label": "Korrektur",
+        "children": [
+          {
+            "label": "Les høyt"
+          },
+          {
+            "label": "Ikke stol bare på rettekontroll"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q07",
+      "q08",
+      "q10"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Norsk skrives med stor forbokstav når det gjelder språket.",
+        "correct": false,
+        "explain": "Språk og nasjonaliteter skrives med liten forbokstav: norsk, engelsk, nordmann."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "«Hvem» skrives med stum h.",
+        "correct": true,
+        "explain": "hv- i begynnelsen av ord som hva, hvem og hvor har stum h."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "«Dum» skal skrives «dumm» fordi vokalen er kort.",
+        "correct": false,
+        "explain": "Ord ender ikke på dobbel m i norsk: dum, rom, hvem."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "En innskutt leddsetning skal ha komma på begge sider.",
+        "correct": true,
+        "explain": "Eksempel: Boka, som jeg fikk i gave, var spennende."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilket ord mangler? «Jeg ga … boka.»",
+        "options": [
+          "de",
+          "dem",
+          "dems",
+          "di"
+        ],
+        "correct": 1,
+        "explain": "Ordet er indirekte objekt: Jeg ga dem boka. Test: Jeg ga oss boka."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilken skrivemåte er riktig?",
+        "options": [
+          "gjest",
+          "jest",
+          "gest",
+          "hjest"
+        ],
+        "correct": 0,
+        "explain": "«Gjest» skrives med stum g: gj-."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvor skal kommaet stå når du tiltaler noen?",
+        "options": [
+          "Ola kom hit!",
+          "Ola, kom hit!",
+          "Ola kom, hit!",
+          "Ola, kom, hit!"
+        ],
+        "correct": 1,
+        "explain": "Det skal være komma etter tiltale: Ola, kom hit!"
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "id": "norsk-9",
+  "trinnId": "9",
+  "name": "Norsk",
+  "lareplan": {
+    "kode": "NOR01-08",
+    "url": "https://www.udir.no/lk20/nor01-08/kompetansemaal-og-vurdering/kv1110",
+    "kompetansemaal": [
+      {
+        "nr": 1,
+        "tekst": "lese skjønnlitteratur og sakprosa på bokmål og nynorsk og i oversettelse fra samiske og andre språk, og reflektere over tekstenes formål, innhold, sjangertrekk og virkemidler"
+      },
+      {
+        "nr": 2,
+        "tekst": "sammenligne og tolke romaner, noveller, lyrikk og andre tekster ut fra historisk kontekst og egen samtid"
+      },
+      {
+        "nr": 3,
+        "tekst": "beskrive og reflektere over egen bruk av lesestrategier i lesing av skjønnlitteratur og sakprosa"
+      },
+      {
+        "nr": 4,
+        "tekst": "lytte til og lese tekster på svensk og dansk og gjøre rede for innhold og språklige trekk"
+      },
+      {
+        "nr": 5,
+        "tekst": "utforske og reflektere over hvordan tekster framstiller unges livssituasjon"
+      },
+      {
+        "nr": 6,
+        "tekst": "gjenkjenne og bruke språklige virkemidler og retoriske appellformer"
+      },
+      {
+        "nr": 7,
+        "tekst": "bruke kilder på en kritisk måte, markere sitater og vise til kilder på en etterrettelig måte i egne tekster"
+      },
+      {
+        "nr": 8,
+        "tekst": "utforske og vurdere hvordan digitale medier påvirker og endrer språk og kommunikasjon"
+      },
+      {
+        "nr": 9,
+        "tekst": "bruke fagspråk og argumentere saklig i diskusjoner, samtaler, muntlige presentasjoner og skriftlige framstillinger om norskfaglige og tverrfaglige temaer"
+      },
+      {
+        "nr": 10,
+        "tekst": "informere, fortelle, argumentere og reflektere i ulike muntlige og skriftlige sjangre og for ulike formål tilpasset mottaker og medium"
+      },
+      {
+        "nr": 11,
+        "tekst": "skrive tekster med funksjonell tekstbinding og riktig tegnsetting og mestre rettskriving og ordbøying på hovedmål og sidemål"
+      },
+      {
+        "nr": 12,
+        "tekst": "bruke fagspråk og kunnskap om grammatikk, tekststruktur og sjanger i samtale om og bearbeiding av tekster"
+      },
+      {
+        "nr": 13,
+        "tekst": "uttrykke seg i ulike sjangre og eksperimentere med sjangre på kreative måter"
+      },
+      {
+        "nr": 14,
+        "tekst": "lage sammensatte tekster og begrunne valg av uttrykksformer"
+      },
+      {
+        "nr": 15,
+        "tekst": "forklare den historiske bakgrunnen for bokmål og nynorsk og reflektere over statusen til de offisielle språkene i Norge i dag"
+      },
+      {
+        "nr": 16,
+        "tekst": "utforske språklig variasjon og mangfold i Norge og reflektere over holdninger til ulike språk og talespråkvarianter"
+      }
+    ]
+  },
+  "temaer": [
+    "lyrikk",
+    "retorikk-og-argumentasjon",
+    "setningsledd",
+    "tekstbinding",
+    "kildebruk",
+    "nabosprak",
+    "ungdom-i-litteraturen"
+  ]
+}

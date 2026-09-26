@@ -1,0 +1,84 @@
+{
+  "id": "lyrikk",
+  "fagId": "norsk-9",
+  "trinnId": "9",
+  "name": "Lyrikk og språklige virkemidler",
+  "intro": "Hva som kjennetegner dikt, de viktigste språklige virkemidlene som metafor, besjeling og rim, og hvordan du analyserer og tolker et dikt.",
+  "kompetansemaal": [2, 6, 1],
+  "sammendrag": "## Hva er lyrikk?\n\n**Lyrikk** er dikt. Dikt er ofte korte og **fortettede**, det vil si at mye mening er pakket inn i få ord. Språket brukes bevisst for å skape bilder, stemning og rytme. Et dikt er delt i **verselinjer**, og linjene er gjerne samlet i **strofer**. Den som «snakker» i diktet, kalles **det lyriske jeget**. Det er ikke nødvendigvis det samme som forfatteren.\n\n## Klang og rytme\n\n- **Enderim**: ord som rimer på slutten av linjene (sol – stol).\n- **Bokstavrim** (allitterasjon): flere ord som begynner på samme lyd (store, stille stjerner).\n- **Rytme**: vekslingen mellom trykktunge og trykklette stavelser.\n- **Lydmalende ord**: ord som ligner lyden de beskriver (plask, surr, knitre).\n- **Gjentakelse**: ord eller linjer som kommer igjen, for å forsterke noe.\n\nEldre dikt har ofte fast rim og rytme. Mange moderne dikt er skrevet på **frie vers**, uten fast rim eller rytme.\n\n## Bilder i språket\n\n- **Sammenligning**: to ting sammenlignes med «som» eller «lik»: Hun var sterk som en bjørn.\n- **Metafor**: noe beskrives som noe annet, uten «som»: Livet er en reise.\n- **Besjeling** (personifikasjon): ting, dyr eller natur får menneskelige egenskaper: Vinden hvisket i trærne.\n- **Symbol**: et konkret bilde som står for noe mer, for eksempel en due for fred.\n- **Kontrast**: motsetninger som lys og mørke, liv og død.\n- **Ironi**: å si det motsatte av det man mener.\n\n## Diktformer\n\nNoen diktformer har faste regler. **Haiku** kommer fra Japan og har tre linjer med 5, 7 og 5 stavelser. En **sonett** har 14 linjer. Et **prosadikt** er skrevet uten linjeskift, men har diktets fortetting og bilder.\n\n## Analysere og tolke\n\nEn god diktanalyse har tre deler:\n\n- **Beskrivelse**: Hva handler diktet om på det konkrete planet? Hvordan er det bygd opp?\n- **Virkemidler**: Hvilke virkemidler brukes, og hvilken **effekt** har de? Det er ikke nok å finne en metafor, du må forklare hva den gjør med diktet.\n- **Tolkning**: Hva er temaet, og hva kan diktet bety? Støtt tolkningen med sitater.\n\n## Dikt i tid\n\nDikt må ofte forstås ut fra **historisk kontekst**. Et naturdikt fra romantikken kan uttrykke kjærlighet til fedrelandet, mens et moderne dikt om naturen kan handle om klimaendringer. Samtidig kan gamle dikt si noe om vår egen tid, fordi temaer som kjærlighet, sorg og ensomhet er tidløse.",
+  "flashcards": [
+    { "term": "Lyrikk", "def": "Dikt. Tekster med fortettet språk, bilder og ofte rytme." },
+    { "term": "Verselinje", "def": "En linje i et dikt." },
+    { "term": "Strofe", "def": "En gruppe verselinjer, som et avsnitt i diktet." },
+    { "term": "Det lyriske jeget", "def": "Den som «snakker» i diktet. Ikke nødvendigvis forfatteren." },
+    { "term": "Enderim", "def": "Ord som rimer på slutten av verselinjene: sol – stol." },
+    { "term": "Bokstavrim", "def": "Flere ord som begynner på samme lyd: store, stille stjerner." },
+    { "term": "Lydmalende ord", "def": "Ord som ligner lyden de beskriver: plask, surr, knitre." },
+    { "term": "Frie vers", "def": "Dikt uten fast rim eller rytme." },
+    { "term": "Sammenligning", "def": "To ting sammenlignes med «som» eller «lik»: sterk som en bjørn." },
+    { "term": "Metafor", "def": "Noe beskrives som noe annet, uten «som»: Livet er en reise." },
+    { "term": "Besjeling", "def": "Ting, dyr eller natur får menneskelige egenskaper: Vinden hvisket." },
+    { "term": "Symbol", "def": "Et konkret bilde som står for noe mer, som en due for fred." },
+    { "term": "Kontrast", "def": "Motsetninger som settes opp mot hverandre, som lys og mørke." },
+    { "term": "Haiku", "def": "Japansk diktform med tre linjer på 5, 7 og 5 stavelser." },
+    { "term": "Effekt av virkemiddel", "def": "Hva virkemidlet gjør med diktet, for eksempel skaper stemning eller forsterker et tema." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "«Vinden hvisket i trærne.» Hvilket virkemiddel er dette?", "options": ["Sammenligning", "Besjeling", "Enderim", "Bokstavrim"], "correct": 1, "explain": "Vinden får en menneskelig egenskap, å hviske. Det er besjeling." },
+    { "id": "q02", "text": "Hva er forskjellen på en metafor og en sammenligning?", "options": ["Sammenligningen bruker «som» eller «lik», metaforen gjør det ikke", "Metaforen rimer, sammenligningen ikke", "De er det samme", "Metaforen er alltid lengre"], "correct": 0, "explain": "«Sterk som en bjørn» er sammenligning. «Han er en bjørn» er metafor." },
+    { "id": "q03", "text": "Hvor mange stavelser har en haiku til sammen?", "options": ["14", "12", "17", "20"], "correct": 2, "explain": "En haiku har 5 + 7 + 5 = 17 stavelser." },
+    { "id": "q04", "text": "Hva kalles den som snakker i et dikt?", "options": ["Forfatteren", "Fortelleren", "Hovedpersonen", "Det lyriske jeget"], "correct": 3, "explain": "Det lyriske jeget er stemmen i diktet, og det kan være en helt annen enn forfatteren." },
+    { "id": "q05", "text": "«Store, stille stjerner» er et eksempel på", "options": ["enderim", "bokstavrim", "metafor", "ironi"], "correct": 1, "explain": "Ordene begynner på samme lyd, s. Det kalles bokstavrim eller allitterasjon." },
+    { "id": "q06", "text": "Hva er frie vers?", "options": ["Dikt som alle kan lese gratis", "Dikt uten fast rim og rytme", "Dikt med 14 linjer", "Dikt skrevet på dialekt"], "correct": 1, "explain": "Frie vers er vanlig i moderne lyrikk og har ingen faste regler for rim og rytme." },
+    { "id": "q07", "text": "Hva er det viktigste å gjøre når du har funnet et virkemiddel i en analyse?", "options": ["Tell hvor mange det er", "Skriv det med store bokstaver", "Forklar hvilken effekt det har", "Bytt det ut med et annet ord"], "correct": 2, "explain": "En analyse blir god når du forklarer hva virkemidlet gjør med diktet, ikke bare at det finnes." },
+    { "id": "q08", "text": "En hvit due i et dikt står for fred. Hva kalles dette?", "options": ["Symbol", "Kontrast", "Rim", "Lydmaling"], "correct": 0, "explain": "Et symbol er et konkret bilde som peker mot noe større og abstrakt." },
+    { "id": "q09", "text": "Hvilket ord er lydmalende?", "options": ["stille", "hus", "blå", "plask"], "correct": 3, "explain": "«Plask» ligner lyden av noe som faller i vann." },
+    { "id": "q10", "text": "Hvorfor kan det være nyttig å kjenne den historiske konteksten til et dikt?", "options": ["Fordi dikt aldri kan forstås uten den", "Fordi den kan forklare hvorfor diktet handler om det det gjør", "Fordi alle gamle dikt handler om det samme", "Fordi konteksten bestemmer rimmønsteret"], "correct": 1, "explain": "Tiden diktet ble skrevet i, kan gi bakgrunn for tema og bilder, selv om diktet også kan leses i lys av vår egen tid." }
+  ],
+  "mindmap": {
+    "label": "Lyrikk",
+    "children": [
+      { "label": "Form", "children": [
+        { "label": "Verselinje og strofe" },
+        { "label": "Det lyriske jeget" },
+        { "label": "Frie vers" }
+      ] },
+      { "label": "Klang", "children": [
+        { "label": "Enderim" },
+        { "label": "Bokstavrim" },
+        { "label": "Rytme" },
+        { "label": "Lydmalende ord" }
+      ] },
+      { "label": "Bilder", "children": [
+        { "label": "Sammenligning", "note": "som / lik" },
+        { "label": "Metafor" },
+        { "label": "Besjeling" },
+        { "label": "Symbol" }
+      ] },
+      { "label": "Diktformer", "children": [
+        { "label": "Haiku", "note": "5-7-5" },
+        { "label": "Sonett", "note": "14 linjer" },
+        { "label": "Prosadikt" }
+      ] },
+      { "label": "Analyse", "children": [
+        { "label": "Beskriv" },
+        { "label": "Virkemidler og effekt" },
+        { "label": "Tolk med sitater" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q07", "q08", "q09"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Det lyriske jeget er alltid forfatteren selv.", "correct": false, "explain": "Det lyriske jeget er stemmen i diktet og kan være en oppdiktet person." },
+      { "id": "m02", "type": "sant-usant", "text": "«Hun var rask som vinden» er en sammenligning.", "correct": true, "explain": "Ordet «som» viser at to ting sammenlignes." },
+      { "id": "m03", "type": "sant-usant", "text": "Alle dikt må rime.", "correct": false, "explain": "Mange dikt, særlig moderne, er skrevet på frie vers uten rim." },
+      { "id": "m04", "type": "sant-usant", "text": "En sonett har 14 linjer.", "correct": true, "explain": "Sonetten er en fast diktform med 14 verselinjer." },
+      { "id": "m05", "type": "flervalg", "text": "«Tiden er en tyv.» Hvilket virkemiddel er dette?", "options": ["Sammenligning", "Bokstavrim", "Lydmaling", "Metafor"], "correct": 3, "explain": "Tiden beskrives som en tyv uten «som». Det er en metafor for at tiden tar noe fra oss." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er en strofe?", "options": ["En gruppe verselinjer", "Et rimord", "En diktsamling", "Tittelen på et dikt"], "correct": 0, "explain": "En strofe er en samling verselinjer, omtrent som et avsnitt i prosa." },
+      { "id": "m07", "type": "flervalg", "text": "Lys og mørke i samme dikt er et eksempel på", "options": ["rim", "kontrast", "besjeling", "haiku"], "correct": 1, "explain": "Motsetninger som settes opp mot hverandre, kalles kontrast." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

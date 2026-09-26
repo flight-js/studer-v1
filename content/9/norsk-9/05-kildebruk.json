@@ -1,0 +1,77 @@
+{
+  "id": "kildebruk",
+  "fagId": "norsk-9",
+  "trinnId": "9",
+  "name": "Kildebruk og kildekritikk",
+  "intro": "Hvordan du vurderer om en kilde er pålitelig, hvordan du siterer og gjengir med egne ord, og hvordan du viser til kilder og unngår plagiat.",
+  "kompetansemaal": [7],
+  "sammendrag": "## Hva er en kilde?\n\nEn **kilde** er der du henter informasjon fra: en bok, en nettside, en avisartikkel, et intervju, en video eller et leksikon. Når du skriver fagtekster, må du både vurdere kildene kritisk og vise leseren hvor opplysningene kommer fra.\n\n## Kildekritikk\n\n**Kildekritikk** betyr å vurdere hvor pålitelig en kilde er. Nyttige spørsmål er:\n\n- **Hvem** står bak? Er det en fagperson, en offentlig etat, en avis eller en anonym bruker?\n- **Hvorfor** er teksten laget? For å informere, selge noe eller påvirke meninger?\n- **Når** ble den laget eller oppdatert? Er informasjonen fortsatt riktig?\n- **Hvor** er den publisert? Har noen kvalitetssikret innholdet?\n- Stemmer opplysningene med **andre kilder**?\n\nEn **primærkilde** er en original kilde, som en undersøkelse, et dagbokinnlegg eller et intervju med en øyenvitne. En **sekundærkilde** omtaler eller bearbeider andre kilder, som en lærebok eller et leksikon. Et nettleksikon som alle kan redigere, kan være et godt sted å starte, men du bør sjekke viktige opplysninger i andre kilder.\n\n## Sitat og parafrase\n\nEt **sitat** er andres ord gjengitt nøyaktig. Korte sitater settes i anførselstegn, «slik», inne i teksten. Lengre sitater settes ofte som et eget avsnitt med innrykk. Sitater bør være korte og brukes når ordlyden i seg selv er viktig.\n\nEn **parafrase** er en gjengivelse av andres tanker med **egne ord**. Også parafraser skal ha kildehenvisning, fordi ideen fortsatt er hentet fra noen andre.\n\n## Kildehenvisning og kildeliste\n\nI teksten viser du til kilden, for eksempel med forfatterens etternavn og årstall i parentes, eller med en fotnote. Til slutt lager du en **kildeliste** med alle kildene du har brukt. For en nettside tar du med forfatter eller avsender, tittel, år, nettadresse og datoen du leste den. Følg den malen skolen eller læreren bruker, og vær **konsekvent**.\n\n## Plagiat og opphavsrett\n\n**Plagiat** er å presentere andres tekst eller ideer som sine egne. Det er uærlig og regnes som fusk. Andres tekster, bilder og musikk er dessuten beskyttet av **opphavsrett**. Bilder fra nettet kan ikke brukes fritt uten at du har lov eller de har en åpen lisens, og du må alltid oppgi hvem som har laget dem.\n\nBruker du **KI-verktøy** (kunstig intelligens) i arbeidet, bør du oppgi hvordan du har brukt dem, og kontrollere opplysningene, fordi slike verktøy kan finne på fakta og kilder som ikke finnes.",
+  "flashcards": [
+    { "term": "Kilde", "def": "Der du henter informasjon fra, som en bok, nettside eller et intervju." },
+    { "term": "Kildekritikk", "def": "Å vurdere hvor pålitelig en kilde er: hvem, hvorfor, når og hvor." },
+    { "term": "Primærkilde", "def": "En original kilde, som en undersøkelse, et brev eller et intervju." },
+    { "term": "Sekundærkilde", "def": "En kilde som bearbeider andre kilder, som en lærebok eller et leksikon." },
+    { "term": "Sitat", "def": "Andres ord gjengitt nøyaktig, i anførselstegn «slik»." },
+    { "term": "Parafrase", "def": "Å gjengi andres tanker med egne ord. Trenger også kildehenvisning." },
+    { "term": "Kildehenvisning", "def": "En henvisning i teksten som viser hvor en opplysning kommer fra." },
+    { "term": "Kildeliste", "def": "En oversikt over alle kildene, bakerst i teksten." },
+    { "term": "Nettkilde i kildelisten", "def": "Avsender, tittel, år, nettadresse og dato du leste den." },
+    { "term": "Plagiat", "def": "Å presentere andres tekst eller ideer som sine egne. Regnes som fusk." },
+    { "term": "Opphavsrett", "def": "Retten den som har laget et verk, har til å bestemme over bruken av det." },
+    { "term": "Åpen lisens", "def": "En lisens som gir lov til å bruke et verk på visse vilkår, ofte med navngivelse." },
+    { "term": "Avsender", "def": "Den som står bak en tekst. Påvirker hvor mye du kan stole på den." },
+    { "term": "Sjekke mot andre kilder", "def": "Bekrefte viktige opplysninger i minst én uavhengig kilde til." },
+    { "term": "KI-verktøy og kilder", "def": "KI kan finne på fakta og kilder. Oppgi bruken og kontroller opplysningene." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva betyr kildekritikk?", "options": ["Å kritisere forfatteren", "Å vurdere hvor pålitelig en kilde er", "Å bruke så få kilder som mulig", "Å slette kilder man er uenig i"], "correct": 1, "explain": "Kildekritikk handler om å vurdere hvem som står bak, hvorfor, når og hvor noe er publisert." },
+    { "id": "q02", "text": "Hvilken kilde er en primærkilde?", "options": ["En lærebok om andre verdenskrig", "Et leksikon", "En dagbok skrevet under andre verdenskrig", "En nettside som oppsummerer bøker"], "correct": 2, "explain": "Dagboken er skrevet av en som opplevde hendelsene, og er derfor en original kilde." },
+    { "id": "q03", "text": "Hvordan markerer du et kort sitat i teksten?", "options": ["Med kursiv uten henvisning", "Med anførselstegn og kildehenvisning", "Med store bokstaver", "Det trenger ingen markering"], "correct": 1, "explain": "Sitatet settes i anførselstegn, og du viser til hvor det kommer fra." },
+    { "id": "q04", "text": "Hva er en parafrase?", "options": ["Et langt sitat", "En kildeliste", "En gjengivelse av andres tanker med egne ord", "En bildetekst"], "correct": 2, "explain": "En parafrase formulerer andres innhold med egne ord, men krever fortsatt kildehenvisning." },
+    { "id": "q05", "text": "Hva er plagiat?", "options": ["Å presentere andres tekst eller ideer som sine egne", "Å bruke mange kilder", "Å sitere riktig", "Å skrive en kildeliste"], "correct": 0, "explain": "Plagiat er uærlig fordi du tar æren for noe andre har laget." },
+    { "id": "q06", "text": "Hva bør du ta med når du oppgir en nettside i kildelisten?", "options": ["Bare nettadressen", "Bare tittelen", "Bare datoen", "Avsender, tittel, år, nettadresse og dato du leste den"], "correct": 3, "explain": "Nettsider kan endres, så datoen du leste er viktig i tillegg til avsender og adresse." },
+    { "id": "q07", "text": "Du finner en påstand på en ukjent blogg. Hva bør du gjøre?", "options": ["Bruke den uten videre", "Sjekke om påstanden stemmer med andre, pålitelige kilder", "Skrive at den er sann", "Kopiere hele bloggen"], "correct": 1, "explain": "Ukjente avsendere bør kontrolleres mot andre kilder før du bruker opplysningene." },
+    { "id": "q08", "text": "Trenger en parafrase kildehenvisning?", "options": ["Nei, fordi du har brukt egne ord", "Bare hvis den er lang", "Bare i nettartikler", "Ja, fordi ideen er hentet fra noen andre"], "correct": 3, "explain": "Selv om ordene er dine, er innholdet hentet fra en kilde, og det må leseren få vite." },
+    { "id": "q09", "text": "Hvorfor bør du være forsiktig med fakta fra KI-verktøy?", "options": ["Fordi de alltid er for korte", "Fordi de kan finne på fakta og kilder som ikke finnes", "Fordi de bare svarer på engelsk", "Fordi de er ulovlige"], "correct": 1, "explain": "KI-verktøy kan gi svar som høres riktige ut, men er feil. Kontroller opplysningene og oppgi bruken." },
+    { "id": "q10", "text": "Kan du bruke et hvilket som helst bilde fra nettet i en presentasjon?", "options": ["Ja, alt på nettet er gratis", "Ja, hvis bildet er pent", "Nei, bilder er beskyttet av opphavsrett med mindre du har lov eller de har åpen lisens", "Ja, hvis du endrer fargene"], "correct": 2, "explain": "Bilder er åndsverk. Bruk bilder med åpen lisens eller egne bilder, og oppgi alltid kilden." }
+  ],
+  "mindmap": {
+    "label": "Kildebruk",
+    "children": [
+      { "label": "Kildekritikk", "children": [
+        { "label": "Hvem?" },
+        { "label": "Hvorfor?" },
+        { "label": "Når?" },
+        { "label": "Stemmer med andre kilder?" }
+      ] },
+      { "label": "Typer kilder", "children": [
+        { "label": "Primærkilde", "note": "Original" },
+        { "label": "Sekundærkilde", "note": "Bearbeidet" }
+      ] },
+      { "label": "Bruke kilder", "children": [
+        { "label": "Sitat", "note": "«…» og henvisning" },
+        { "label": "Parafrase", "note": "Egne ord + henvisning" },
+        { "label": "Kildeliste", "note": "Konsekvent mal" }
+      ] },
+      { "label": "Etikk", "children": [
+        { "label": "Plagiat", "note": "Fusk" },
+        { "label": "Opphavsrett" },
+        { "label": "KI", "note": "Oppgi og kontroller" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q08", "q10"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "En lærebok er en sekundærkilde.", "correct": true, "explain": "Læreboka bearbeider og oppsummerer andre kilder." },
+      { "id": "m02", "type": "sant-usant", "text": "Du trenger ikke oppgi kilde hvis du skriver med egne ord.", "correct": false, "explain": "Innhold og ideer fra andre skal alltid ha kildehenvisning, også når de er omformulert." },
+      { "id": "m03", "type": "sant-usant", "text": "Det er lurt å sjekke viktige opplysninger i mer enn én kilde.", "correct": true, "explain": "Når flere uavhengige kilder sier det samme, er opplysningen mer pålitelig." },
+      { "id": "m04", "type": "sant-usant", "text": "En nettside som selger et produkt, er alltid en nøytral kilde om produktet.", "correct": false, "explain": "Avsenderen har interesse av å selge og kan derfor fremstille produktet positivt." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilket spørsmål er en del av kildekritikk?", "options": ["Hvem har laget teksten?", "Hvor lang er teksten?", "Hvilken skrifttype er brukt?", "Hvor mange bilder er det?"], "correct": 0, "explain": "Avsenderen sier mye om hvor pålitelig og nøytral en kilde er." },
+      { "id": "m06", "type": "flervalg", "text": "Hvor står kildelisten vanligvis?", "options": ["Først i teksten", "I overskriften", "Bakerst i teksten", "Midt i hoveddelen"], "correct": 2, "explain": "Kildelisten samler alle kildene til slutt, slik at leseren kan finne dem." },
+      { "id": "m07", "type": "flervalg", "text": "Når bør du bruke et sitat i stedet for en parafrase?", "options": ["Alltid", "Når ordlyden i seg selv er viktig", "Når teksten er lang", "Aldri"], "correct": 1, "explain": "Sitater passer når nøyaktig formulering betyr noe, for eksempel en berømt uttalelse." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

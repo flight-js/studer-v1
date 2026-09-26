@@ -1,0 +1,83 @@
+{
+  "id": "ungdom-i-litteraturen",
+  "fagId": "norsk-9",
+  "trinnId": "9",
+  "name": "Ungdom i tekster",
+  "intro": "Hvordan romaner, noveller, film og serier framstiller unges liv – temaer, perspektiv og virkemidler – og hvordan du kan reflektere over framstillingen.",
+  "kompetansemaal": [5, 1, 2],
+  "sammendrag": "## Unge i litteratur og film\n\nMange tekster handler om det å være ung. **Ungdomslitteratur** er skrevet med unge lesere som målgruppe, men også voksenlitteratur, film, TV-serier og sangtekster skildrer ungdomstiden. Et kjent norsk eksempel er NRK-serien **SKAM** (2015–2017), som ble lagt merke til både i Norden og internasjonalt fordi den viste ungdomslivet på en realistisk måte og brukte sosiale medier som en del av fortellingen.\n\n## Typiske temaer\n\nTekster om unge tar ofte opp:\n\n- **Identitet**: Hvem er jeg, og hvem vil jeg være?\n- **Vennskap og kjærlighet**, og forelskelse for første gang.\n- **Utenforskap** og mobbing: å stå utenfor fellesskapet.\n- **Familie**: konflikter med foreldre, samlivsbrudd, søsken.\n- **Psykisk helse**: press, angst, ensomhet og sorg.\n- **Sosiale medier** og forventninger om å være perfekt.\n- **Løsrivelse**: å finne sin egen vei.\n\nEt sentralt trekk er ofte en **utviklingsfortelling**: hovedpersonen står overfor en utfordring og har forandret seg når fortellingen er slutt.\n\n## Perspektiv og språk\n\nMange ungdomsromaner er skrevet i **førsteperson**, slik at leseren kommer tett på hovedpersonens tanker og følelser. Språket kan ligne ungdoms eget muntlige språk, med slang, engelske ord og meldinger eller chat som en del av teksten. Det gir **autentisitet**, altså et inntrykk av at teksten er ekte og troverdig.\n\n## Realistisk eller stereotyp?\n\nNår du reflekterer over hvordan unge framstilles, kan du spørre:\n\n- Er personene **sammensatte**, med både gode og dårlige sider, eller er de **stereotypier**, som «den populære», «nerden» eller «den rebelske»?\n- **Hvem** er representert, og hvem mangler? Kjenner ulike lesere seg igjen?\n- Blir problemer skildret på en ærlig måte, eller forenklet?\n- Hvilket bilde av ungdom gir teksten, og hvem er det laget av? Voksne som skriver om unge, kan ha et annet blikk enn unge selv.\n\n## Før og nå\n\nÅ sammenligne tekster fra ulike tider viser hvordan ungdomstiden har endret seg. Temaer som forelskelse og løsrivelse fra foreldre går igjen, mens rammene, som teknologi, skole og samfunnets forventninger, endrer seg. En eldre tekst om en ung person som må jobbe i stedet for å gå på skole, sier noe om historisk kontekst. En ny tekst om sosiale medier sier noe om vår egen samtid.\n\n## Skrive om tekstene\n\nNår du skriver om hvordan en tekst framstiller unge, bør du beskrive personene og temaene, vise til konkrete eksempler og sitater, og reflektere over om framstillingen er troverdig, og hvorfor den er laget slik.",
+  "flashcards": [
+    { "term": "Ungdomslitteratur", "def": "Litteratur skrevet med unge lesere som målgruppe." },
+    { "term": "SKAM", "def": "NRK-serie (2015–2017) om ungdom i Oslo, kjent for realistisk skildring og bruk av sosiale medier." },
+    { "term": "Identitet", "def": "Hvem man er og opplever seg som. Et sentralt tema i tekster om unge." },
+    { "term": "Utenforskap", "def": "Å stå utenfor fellesskapet, for eksempel på grunn av mobbing." },
+    { "term": "Løsrivelse", "def": "Å bli selvstendig og finne sin egen vei, ofte i konflikt med foreldre." },
+    { "term": "Utviklingsfortelling", "def": "En fortelling der hovedpersonen forandrer seg gjennom en utfordring." },
+    { "term": "Førstepersonsperspektiv", "def": "Fortellingen fortelles av hovedpersonen selv, med «jeg»." },
+    { "term": "Autentisitet", "def": "Inntrykket av at en tekst er ekte og troverdig." },
+    { "term": "Slang", "def": "Uformelle ord og uttrykk, ofte brukt av en bestemt gruppe, som ungdom." },
+    { "term": "Stereotypi", "def": "En forenklet og fastlåst framstilling av en gruppe mennesker." },
+    { "term": "Sammensatt person", "def": "En person i en tekst med både gode og dårlige sider, som virker menneskelig." },
+    { "term": "Representasjon", "def": "Hvilke grupper og erfaringer som er med i tekster, og hvordan de framstilles." },
+    { "term": "Historisk kontekst", "def": "Tiden og samfunnet teksten ble skrevet i." },
+    { "term": "Samtid", "def": "Vår egen tid." },
+    { "term": "Målgruppe", "def": "De en tekst er laget for." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er en utviklingsfortelling?", "options": ["En fortelling om teknologi", "En fortelling der hovedpersonen forandrer seg gjennom en utfordring", "En fortelling uten handling", "En fagtekst om ungdom"], "correct": 1, "explain": "I en utviklingsfortelling har hovedpersonen lært noe eller endret seg når historien er slutt." },
+    { "id": "q02", "text": "Hvorfor er mange ungdomsromaner skrevet i førsteperson?", "options": ["For å gjøre dem kortere", "Fordi det er påbudt", "For at leseren skal komme tett på hovedpersonens tanker og følelser", "For å skjule hovedpersonen"], "correct": 2, "explain": "Førsteperson gir nærhet og gjør det lettere å identifisere seg med hovedpersonen." },
+    { "id": "q03", "text": "Hva er en stereotypi?", "options": ["En forenklet og fastlåst framstilling av en gruppe", "En sammensatt person", "En type rim", "En sann historie"], "correct": 0, "explain": "Stereotypier som «nerden» eller «den populære» gir et forenklet bilde av mennesker." },
+    { "id": "q04", "text": "Hva betyr autentisitet i en tekst?", "options": ["At teksten er lang", "At teksten har mange bilder", "At teksten er skrevet av en kjent forfatter", "At teksten virker ekte og troverdig"], "correct": 3, "explain": "Et autentisk språk og troverdige situasjoner gjør at leseren tror på fortellingen." },
+    { "id": "q05", "text": "Hvilket tema er typisk i tekster om unge?", "options": ["Pensjon", "Identitet og vennskap", "Skattereglene", "Gamle krigsminner"], "correct": 1, "explain": "Spørsmål om hvem man er, og hvem man hører til, går igjen i mange tekster om unge." },
+    { "id": "q06", "text": "Hvilket spørsmål hjelper deg å vurdere hvordan unge framstilles?", "options": ["Hvor mange sider har boka?", "Hvilken farge har omslaget?", "Er personene sammensatte eller stereotype?", "Hvor mye kostet boka?"], "correct": 2, "explain": "Om personene virker menneskelige og nyanserte, sier mye om hvor troverdig framstillingen er." },
+    { "id": "q07", "text": "Hva var spesielt med serien SKAM?", "options": ["Den var en tegnefilm", "Den brukte sosiale medier som en del av fortellingen", "Den handlet om voksne", "Den var på svensk"], "correct": 1, "explain": "Klipp, meldinger og innlegg ble publisert på nett i sanntid, som om personene fantes." },
+    { "id": "q08", "text": "Hva kan en eldre tekst om ungdom fortelle oss?", "options": ["Ingenting, fordi den er gammel", "Bare hvordan man snakket før", "Hvordan ungdom levde i en annen tid, og hva som er likt og ulikt i dag", "Hvordan ungdom lever i dag"], "correct": 2, "explain": "Sammenligning med eldre tekster viser både det tidløse og det som har endret seg." },
+    { "id": "q09", "text": "Hva betyr representasjon i litteratur?", "options": ["Hvem og hvilke erfaringer som er med i tekstene, og hvordan de framstilles", "At boka har mange kapitler", "At forfatteren representerer et forlag", "At teksten er oversatt"], "correct": 0, "explain": "Representasjon handler om hvem som får plass i fortellingene, og om ulike lesere kjenner seg igjen." },
+    { "id": "q10", "text": "Hva bør du ha med når du skriver om hvordan en tekst framstiller unge?", "options": ["Bare din egen mening", "Bare et sammendrag av handlingen", "Beskrivelse, konkrete eksempler og en refleksjon over framstillingen", "Bare sitater"], "correct": 2, "explain": "En god tekst beskriver, viser til eksempler og reflekterer over hvorfor framstillingen er som den er." }
+  ],
+  "mindmap": {
+    "label": "Ungdom i tekster",
+    "children": [
+      { "label": "Temaer", "children": [
+        { "label": "Identitet" },
+        { "label": "Vennskap og kjærlighet" },
+        { "label": "Utenforskap" },
+        { "label": "Psykisk helse" },
+        { "label": "Sosiale medier" }
+      ] },
+      { "label": "Form", "children": [
+        { "label": "Førsteperson" },
+        { "label": "Ungdomsspråk og slang" },
+        { "label": "Utviklingsfortelling" }
+      ] },
+      { "label": "Vurdere", "children": [
+        { "label": "Sammensatt eller stereotyp?" },
+        { "label": "Representasjon" },
+        { "label": "Hvem har laget teksten?" }
+      ] },
+      { "label": "Før og nå", "children": [
+        { "label": "Historisk kontekst" },
+        { "label": "Tidløse temaer" },
+        { "label": "Nye rammer", "note": "Teknologi, skole" }
+      ] },
+      { "label": "Eksempler", "children": [
+        { "label": "Ungdomsromaner" },
+        { "label": "SKAM", "note": "NRK 2015–2017" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q08", "q09"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Bare bøker kan skildre unges liv, ikke film og serier.", "correct": false, "explain": "Film, serier, sanger og sosiale medier skildrer også ungdomstiden." },
+      { "id": "m02", "type": "sant-usant", "text": "Slang kan gjøre dialogen i en ungdomsroman mer troverdig.", "correct": true, "explain": "Språk som ligner ungdoms eget, kan gi autentisitet." },
+      { "id": "m03", "type": "sant-usant", "text": "En sammensatt person har bare gode egenskaper.", "correct": false, "explain": "En sammensatt person har både gode og dårlige sider, slik ekte mennesker har." },
+      { "id": "m04", "type": "sant-usant", "text": "Noen temaer, som forelskelse, går igjen i tekster om unge fra ulike tider.", "correct": true, "explain": "Tidløse temaer finnes i både gamle og nye tekster, selv om rammene endrer seg." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilket begrep beskriver å bli selvstendig og finne sin egen vei?", "options": ["Løsrivelse", "Stereotypi", "Autentisitet", "Målgruppe"], "correct": 0, "explain": "Løsrivelse fra foreldre og barndom er et klassisk tema i tekster om unge." },
+      { "id": "m06", "type": "flervalg", "text": "Hva kalles de en tekst er laget for?", "options": ["Avsender", "Forteller", "Målgruppe", "Kontekst"], "correct": 2, "explain": "Ungdomslitteratur har unge lesere som målgruppe." },
+      { "id": "m07", "type": "flervalg", "text": "Hvorfor kan det være viktig å spørre hvem som har laget en tekst om unge?", "options": ["Fordi voksne og unge kan ha ulikt blikk på ungdomstiden", "Fordi bare unge kan skrive", "Fordi det avgjør hvor lang teksten er", "Det har ingen betydning"], "correct": 0, "explain": "Avsenderens ståsted kan farge framstillingen av ungdom." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

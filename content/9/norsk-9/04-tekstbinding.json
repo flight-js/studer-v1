@@ -1,0 +1,79 @@
+{
+  "id": "tekstbinding",
+  "fagId": "norsk-9",
+  "trinnId": "9",
+  "name": "Tekstbinding og tekststruktur",
+  "intro": "Hvordan du binder setninger og avsnitt sammen med bindeord, gjentakelser og henvisninger, og hvordan du bygger opp en tekst med rød tråd.",
+  "kompetansemaal": [11, 12],
+  "sammendrag": "## Rød tråd\n\nEn god tekst har en **rød tråd**: Leseren forstår hvordan hver setning og hvert avsnitt henger sammen med resten. Det du bruker for å lage sammenheng mellom setninger og avsnitt, kalles **tekstbinding**. **Funksjonell** tekstbinding betyr at bindingen hjelper leseren å følge tankegangen.\n\n## Bindeord (konnektiver)\n\n**Bindeord** viser hvordan tankene henger sammen. De kan deles inn etter hva de uttrykker:\n\n- **Tillegg**: og, dessuten, i tillegg, også\n- **Motsetning**: men, likevel, derimot, på den andre siden\n- **Årsak**: fordi, siden, ettersom, for\n- **Følge**: derfor, dermed, så, av den grunn\n- **Tid og rekkefølge**: først, deretter, til slutt, samtidig\n- **Eksempel**: for eksempel, blant annet, slik som\n- **Oppsummering**: altså, kort sagt, alt i alt\n\nBruk bindeord bevisst. For mange «og så» gjør teksten ensformig, mens et presist bindeord viser leseren nøyaktig hvordan argumentene henger sammen.\n\n## Andre måter å binde tekst på\n\n- **Pronomen** som viser tilbake: Ibsen skrev mange skuespill. **Han** er kjent over hele verden.\n- **Gjentakelse** av nøkkelord: Nøkkelord som går igjen, holder temaet samlet.\n- **Synonymer og omskrivninger**: Ibsen – dramatikeren – forfatteren. Da slipper du å gjenta samme ord hele tiden.\n- **Ord fra samme område**: skole, lærer, elev og timeplan hører sammen og binder teksten.\n\nPass på at henvisningene er tydelige. Står det «Hun sa til venninnen at hun var sliten», er det uklart hvem som var sliten.\n\n## Avsnitt og struktur\n\nEt **avsnitt** samler én hovedtanke. Det starter gjerne med en **temasetning**, fortsetter med **kommentarsetninger** som utdyper, og kan avsluttes med en **overgang** til neste avsnitt. Nytt avsnitt markeres med blank linje eller innrykk.\n\nMange tekster følger strukturen **innledning – hoveddel – avslutning**. Innledningen presenterer temaet og vekker interesse. Hoveddelen utdyper i flere avsnitt i en logisk rekkefølge, for eksempel etter tid, viktighet eller for og mot. Avslutningen oppsummerer eller konkluderer uten å introdusere nye poenger.\n\n## Bearbeide tekst\n\nNår du bearbeider en tekst, kan du spørre: Har hvert avsnitt én hovedtanke? Går det tydelig fram hvordan avsnittene henger sammen? Er bindeordene presise? Har jeg gjentatt samme ord for mye? Å lese teksten høyt avslører ofte hopp i tankegangen.",
+  "flashcards": [
+    { "term": "Rød tråd", "def": "At leseren kan følge sammenhengen i teksten fra start til slutt." },
+    { "term": "Tekstbinding", "def": "Det som knytter setninger og avsnitt sammen, som bindeord, pronomen og gjentakelser." },
+    { "term": "Bindeord (konnektiv)", "def": "Ord som viser forholdet mellom tanker: derfor, likevel, dessuten." },
+    { "term": "Tillegg", "def": "Bindeord som legger til: og, dessuten, i tillegg." },
+    { "term": "Motsetning", "def": "Bindeord som viser kontrast: men, likevel, derimot." },
+    { "term": "Årsak", "def": "Bindeord som forklarer hvorfor: fordi, siden, ettersom." },
+    { "term": "Følge", "def": "Bindeord som viser konsekvens: derfor, dermed, av den grunn." },
+    { "term": "Oppsummering", "def": "Bindeord som samler trådene: altså, kort sagt, alt i alt." },
+    { "term": "Pronomen som tekstbinding", "def": "Pronomen viser tilbake til noe som er nevnt: Ibsen … Han …" },
+    { "term": "Synonym", "def": "Et ord med samme eller nesten samme betydning. Gir variasjon." },
+    { "term": "Uklar henvisning", "def": "Når det ikke går fram hvem et pronomen viser til." },
+    { "term": "Temasetning", "def": "Setningen som sier hva avsnittet handler om." },
+    { "term": "Kommentarsetning", "def": "Setninger i avsnittet som utdyper, forklarer eller gir eksempler." },
+    { "term": "Innledning – hoveddel – avslutning", "def": "Vanlig struktur i fagtekster og argumenterende tekster." },
+    { "term": "Bearbeide", "def": "Forbedre en tekst ved å se på innhold, struktur, bindeord og språk." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvilket bindeord uttrykker motsetning?", "options": ["derfor", "likevel", "dessuten", "først"], "correct": 1, "explain": "«Likevel» viser at noe skjer til tross for det som er sagt før. Det er motsetning." },
+    { "id": "q02", "text": "Hvilket bindeord passer? «Det var glatt ute. … kjørte bussen sakte.»", "options": ["Derfor", "Derimot", "For eksempel", "Dessuten"], "correct": 0, "explain": "Glatt føre er årsaken, og at bussen kjørte sakte er følgen. «Derfor» uttrykker følge." },
+    { "id": "q03", "text": "Hva er en rød tråd i en tekst?", "options": ["En tråd i tekstilfaget", "At teksten har rød skrift", "At leseren kan følge sammenhengen gjennom hele teksten", "At teksten har mange avsnitt"], "correct": 2, "explain": "Rød tråd betyr at tankene henger logisk sammen fra start til slutt." },
+    { "id": "q04", "text": "«Ibsen skrev Et dukkehjem. Dramatikeren ble verdensberømt.» Hvordan er setningene bundet sammen?", "options": ["Med et bindeord", "Med tegnsetting", "Med en temasetning", "Med en omskrivning av Ibsen"], "correct": 3, "explain": "«Dramatikeren» viser tilbake til Ibsen. Omskrivninger binder teksten uten å gjenta samme ord." },
+    { "id": "q05", "text": "Hva er galt med «Lise sa til Maria at hun hadde vunnet»?", "options": ["Setningen mangler verbal", "Det er uklart hvem «hun» viser til", "Det skal være komma før «at»", "Ingenting"], "correct": 1, "explain": "«Hun» kan vise til både Lise og Maria. Uklare henvisninger bør omskrives." },
+    { "id": "q06", "text": "Hvor står temasetningen vanligvis?", "options": ["Først i avsnittet", "I overskriften", "Sist i teksten", "I en fotnote"], "correct": 0, "explain": "Temasetningen står ofte først og forteller leseren hva avsnittet skal handle om." },
+    { "id": "q07", "text": "Hvilket bindeord uttrykker årsak?", "options": ["altså", "deretter", "ettersom", "derimot"], "correct": 2, "explain": "«Ettersom» betyr omtrent det samme som «fordi» og forklarer årsaken." },
+    { "id": "q08", "text": "Hva bør avslutningen av en fagtekst IKKE gjøre?", "options": ["Oppsummere", "Konkludere", "Knytte tilbake til innledningen", "Introdusere et helt nytt poeng"], "correct": 3, "explain": "Nye poenger hører hjemme i hoveddelen. Avslutningen skal samle trådene." },
+    { "id": "q09", "text": "Hvorfor bør du variere bindeordene?", "options": ["For at teksten ikke skal bli ensformig og for å vise presist hvordan tankene henger sammen", "Fordi det er forbudt å bruke «og»", "For å gjøre teksten kortere", "For at leseren skal bli forvirret"], "correct": 0, "explain": "Mange «og så» gjør teksten monoton. Presise bindeord viser leseren tankegangen." },
+    { "id": "q10", "text": "Hvilket bindeord innleder en oppsummering?", "options": ["først", "kort sagt", "fordi", "for eksempel"], "correct": 1, "explain": "«Kort sagt» varsler at det kommer en oppsummering av det som er sagt." }
+  ],
+  "mindmap": {
+    "label": "Tekstbinding",
+    "children": [
+      { "label": "Bindeord", "children": [
+        { "label": "Tillegg", "note": "dessuten" },
+        { "label": "Motsetning", "note": "likevel, derimot" },
+        { "label": "Årsak", "note": "fordi, ettersom" },
+        { "label": "Følge", "note": "derfor, dermed" },
+        { "label": "Oppsummering", "note": "altså, kort sagt" }
+      ] },
+      { "label": "Henvisninger", "children": [
+        { "label": "Pronomen" },
+        { "label": "Synonymer og omskrivninger" },
+        { "label": "Unngå uklar henvisning" }
+      ] },
+      { "label": "Avsnitt", "children": [
+        { "label": "Én hovedtanke" },
+        { "label": "Temasetning" },
+        { "label": "Kommentarsetninger" }
+      ] },
+      { "label": "Struktur", "children": [
+        { "label": "Innledning" },
+        { "label": "Hoveddel", "note": "Logisk rekkefølge" },
+        { "label": "Avslutning", "note": "Ingen nye poenger" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "«Dessuten» er et bindeord som uttrykker tillegg.", "correct": true, "explain": "«Dessuten» legger til et nytt poeng i samme retning." },
+      { "id": "m02", "type": "sant-usant", "text": "Et avsnitt bør inneholde mange ulike hovedtanker.", "correct": false, "explain": "Et avsnitt bør samle én hovedtanke. Nye tanker får nye avsnitt." },
+      { "id": "m03", "type": "sant-usant", "text": "Å gjenta nøkkelord kan være en måte å binde teksten sammen på.", "correct": true, "explain": "Nøkkelord som går igjen, holder temaet samlet. Men varier gjerne med synonymer." },
+      { "id": "m04", "type": "sant-usant", "text": "«Derfor» uttrykker motsetning.", "correct": false, "explain": "«Derfor» uttrykker følge eller konsekvens." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilket bindeord passer? «Mange liker sommeren. Jeg, …, foretrekker vinteren.»", "options": ["derfor", "altså", "derimot", "fordi"], "correct": 2, "explain": "Setningen står i motsetning til den forrige, og «derimot» markerer kontrasten." },
+      { "id": "m06", "type": "flervalg", "text": "Hva gjør du enklest for å avsløre hopp i tankegangen?", "options": ["Leser teksten høyt", "Teller ordene", "Bytter skrifttype", "Sletter avsnitt"], "correct": 0, "explain": "Når du leser høyt, hører du lettere hvor overgangene mangler." },
+      { "id": "m07", "type": "flervalg", "text": "Hva kalles setningene i et avsnitt som utdyper temasetningen?", "options": ["Overskrifter", "Kommentarsetninger", "Leddsetninger", "Ingresser"], "correct": 1, "explain": "Kommentarsetninger forklarer, begrunner og gir eksempler på det temasetningen sier." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

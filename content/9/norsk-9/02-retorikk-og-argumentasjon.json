@@ -1,0 +1,80 @@
+{
+  "id": "retorikk-og-argumentasjon",
+  "fagId": "norsk-9",
+  "trinnId": "9",
+  "name": "Retorikk og argumentasjon",
+  "intro": "Appellformene etos, patos og logos, retoriske virkemidler, saklig og usaklig argumentasjon, og hvordan du bygger opp en argumenterende tekst.",
+  "kompetansemaal": [6, 9, 10],
+  "sammendrag": "## Hva er retorikk?\n\n**Retorikk** er læren om å overbevise gjennom tale og skrift. Den ble utviklet i antikkens Hellas, og filosofen **Aristoteles** beskrev tre måter å overbevise på. Disse kalles **appellformer**, og de brukes fortsatt i debatter, reklame og taler.\n\n## De tre appellformene\n\n- **Etos** handler om avsenderens **troverdighet**. Vi lytter mer til en lege som snakker om helse enn til en tilfeldig person. Etos bygges ved å vise kunnskap, erfaring, ærlighet og velvilje.\n- **Patos** appellerer til **følelser**, som medfølelse, frykt, glede eller sinne. Personlige historier og sterke bilder er typisk patos.\n- **Logos** appellerer til **fornuften** gjennom fakta, tall, eksempler og logiske resonnementer.\n\nDe beste talene og tekstene kombinerer alle tre.\n\n## Retoriske virkemidler\n\n- **Retoriske spørsmål**: spørsmål som ikke krever svar, men får mottakeren til å tenke: Vil vi virkelig ha det slik?\n- **Gjentakelse**: å gjenta ord eller fraser for å forsterke budskapet.\n- **Tretall**: å ramse opp tre ting gir rytme og tyngde.\n- **Kontrast**: å sette to ting opp mot hverandre.\n- **Direkte tiltale**: å snakke til mottakeren med «du» eller «dere».\n\n## Saklig og usaklig argumentasjon\n\nEt **saklig argument** handler om saken og kan begrunnes. Et **usaklig argument** forsøker å vinne på andre måter. Noen vanlige **hersketeknikker** og usaklige grep er:\n\n- **Personangrep**: å angripe personen i stedet for argumentet.\n- **Stråmann**: å gjengi motpartens syn feil og så angripe den feilaktige versjonen.\n- **Svartmaling**: å beskrive konsekvensene av motpartens forslag mye verre enn de er.\n- **Generalisering**: å trekke bastante konklusjoner fra ett eller få eksempler.\n\n## Argumenterende tekster\n\nEn argumenterende tekst, som et **debattinnlegg**, har ofte denne oppbygningen:\n\n- **Innledning** med en fengende start og en tydelig **påstand** (tese).\n- **Hoveddel** med argumenter, gjerne det sterkeste til slutt, og med belegg i form av fakta og eksempler.\n- **Motargumenter** som du imøtegår. Det styrker troverdigheten din.\n- **Avslutning** som gjentar påstanden og gjerne har en **oppfordring**.\n\n## Muntlig argumentasjon\n\nI en diskusjon er det viktig å lytte, svare på det motparten faktisk sier, bruke fagbegreper og holde en saklig tone. Du kan være uenig i sak uten å være ufin mot personen.",
+  "flashcards": [
+    { "term": "Retorikk", "def": "Læren om å overbevise gjennom tale og skrift." },
+    { "term": "Appellform", "def": "En måte å overbevise på: etos, patos eller logos." },
+    { "term": "Etos", "def": "Overbevisning gjennom avsenderens troverdighet, kunnskap og karakter." },
+    { "term": "Patos", "def": "Overbevisning gjennom følelser, som medfølelse eller frykt." },
+    { "term": "Logos", "def": "Overbevisning gjennom fornuft: fakta, tall og logiske argumenter." },
+    { "term": "Aristoteles", "def": "Gresk filosof som beskrev de tre appellformene i antikken." },
+    { "term": "Retorisk spørsmål", "def": "Et spørsmål som ikke krever svar, men skal få mottakeren til å tenke." },
+    { "term": "Tretall", "def": "Oppramsing av tre ting for å gi rytme og tyngde." },
+    { "term": "Påstand (tese)", "def": "Standpunktet en argumenterende tekst forsvarer." },
+    { "term": "Motargument", "def": "Et argument mot din påstand. Å imøtegå det styrker teksten." },
+    { "term": "Personangrep", "def": "Usaklig grep der man angriper personen i stedet for argumentet." },
+    { "term": "Stråmann", "def": "Å gjengi motpartens syn feil og så angripe den feilaktige versjonen." },
+    { "term": "Svartmaling", "def": "Å beskrive konsekvensene av et forslag mye verre enn de er." },
+    { "term": "Generalisering", "def": "Å trekke bastante konklusjoner ut fra ett eller få eksempler." },
+    { "term": "Saklig argument", "def": "Et argument som handler om saken og kan begrunnes med fakta og fornuft." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvilken appellform bruker en lege som viser til sin erfaring?", "options": ["Patos", "Logos", "Etos", "Ironi"], "correct": 2, "explain": "Legen bygger troverdighet gjennom fagkunnskap og erfaring. Det er etos." },
+    { "id": "q02", "text": "En reklame viser en trist hundevalp for å få folk til å gi penger. Hvilken appellform er det?", "options": ["Patos", "Logos", "Etos", "Stråmann"], "correct": 0, "explain": "Bildet vekker medfølelse, altså følelser. Det er patos." },
+    { "id": "q03", "text": "«80 % av elevene sover under åtte timer, og forskning viser at søvnmangel svekker læringen.» Hvilken appellform er dette?", "options": ["Etos", "Patos", "Personangrep", "Logos"], "correct": 3, "explain": "Tall og forskning appellerer til fornuften, altså logos." },
+    { "id": "q04", "text": "Hva er et retorisk spørsmål?", "options": ["Et spørsmål i en quiz", "Et spørsmål som ikke krever svar, men skal få deg til å tenke", "Et spørsmål læreren stiller", "Et spørsmål uten spørsmålstegn"], "correct": 1, "explain": "Eksempel: «Vil vi virkelig at barna våre skal vokse opp i et forurenset land?»" },
+    { "id": "q05", "text": "«Du er jo bare 14 år, hva vet du om politikk?» Hva slags argument er dette?", "options": ["Et saklig argument", "Et personangrep", "Logos", "Et tretall"], "correct": 1, "explain": "Utsagnet angriper personens alder i stedet for å svare på det personen faktisk mener." },
+    { "id": "q06", "text": "Hva betyr det å bruke en stråmann?", "options": ["Å gjengi motpartens syn feil og angripe den feilaktige versjonen", "Å bruke et sterkt bilde", "Å vise til en ekspert", "Å gjenta et ord tre ganger"], "correct": 0, "explain": "Stråmannen er lettere å slå enn det motparten egentlig mente." },
+    { "id": "q07", "text": "Hvor bør påstanden stå i et debattinnlegg?", "options": ["Bare i avslutningen", "Den skal ikke stå der", "Tydelig i innledningen, og gjerne gjentatt til slutt", "I en fotnote"], "correct": 2, "explain": "Leseren skal vite tidlig hva du mener. Å gjenta påstanden til slutt gir teksten en tydelig ramme." },
+    { "id": "q08", "text": "Hvorfor kan det lønne seg å ta med motargumenter i en argumenterende tekst?", "options": ["For å bytte side", "For å gjøre teksten lengre", "For å forvirre leseren", "Fordi det viser at du kjenner saken, og styrker troverdigheten"], "correct": 3, "explain": "Når du imøtegår motargumenter, viser du at du har vurdert saken fra flere sider. Det styrker etos." },
+    { "id": "q09", "text": "Hvilket av disse er en generalisering?", "options": ["«Min kusine ble mobbet på nett, så alle ungdommer blir mobbet på nett.»", "«Undersøkelsen viser at 12 % har opplevd nettmobbing.»", "«Nettmobbing er et problem for noen.»", "«Jeg mener skolen bør gjøre mer mot mobbing.»"], "correct": 0, "explain": "Konklusjonen om «alle» bygger på ett enkelt eksempel." },
+    { "id": "q10", "text": "Hvilken appellform handler om avsenderens troverdighet?", "options": ["Logos", "Patos", "Etos", "Kairos"], "correct": 2, "explain": "Etos er knyttet til hvem avsenderen er og om vi stoler på vedkommende." }
+  ],
+  "mindmap": {
+    "label": "Retorikk og argumentasjon",
+    "children": [
+      { "label": "Appellformer", "children": [
+        { "label": "Etos", "note": "Troverdighet" },
+        { "label": "Patos", "note": "Følelser" },
+        { "label": "Logos", "note": "Fornuft" }
+      ] },
+      { "label": "Virkemidler", "children": [
+        { "label": "Retoriske spørsmål" },
+        { "label": "Gjentakelse og tretall" },
+        { "label": "Kontrast" },
+        { "label": "Direkte tiltale" }
+      ] },
+      { "label": "Usaklig", "children": [
+        { "label": "Personangrep" },
+        { "label": "Stråmann" },
+        { "label": "Svartmaling" },
+        { "label": "Generalisering" }
+      ] },
+      { "label": "Debattinnlegg", "children": [
+        { "label": "Påstand i innledningen" },
+        { "label": "Argumenter med belegg" },
+        { "label": "Motargumenter" },
+        { "label": "Oppfordring til slutt" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q08", "q09"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Gode talere bruker ofte alle tre appellformene.", "correct": true, "explain": "En kombinasjon av troverdighet, følelser og fakta overbeviser flest." },
+      { "id": "m02", "type": "sant-usant", "text": "Et personangrep er et saklig argument.", "correct": false, "explain": "Personangrep handler om personen, ikke saken, og er usaklig." },
+      { "id": "m03", "type": "sant-usant", "text": "Logos bygger på fakta og logiske resonnementer.", "correct": true, "explain": "Logos appellerer til mottakerens fornuft." },
+      { "id": "m04", "type": "sant-usant", "text": "Du må være ufin mot motparten for å vinne en diskusjon.", "correct": false, "explain": "Man kan være uenig i sak og likevel respektfull mot personen. Det styrker også troverdigheten." },
+      { "id": "m05", "type": "flervalg", "text": "Hva kalles det når konsekvensene av et forslag beskrives mye verre enn de er?", "options": ["Tretall", "Svartmaling", "Logos", "Etos"], "correct": 1, "explain": "Svartmaling skaper frykt for motpartens forslag på et overdrevet grunnlag." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilket retorisk virkemiddel er dette: «Vi skal kjempe for fremtiden, for naturen og for hverandre»?", "options": ["Stråmann", "Personangrep", "Tretall", "Retorisk spørsmål"], "correct": 2, "explain": "Tre ledd ramses opp etter hverandre og gir rytme og tyngde." },
+      { "id": "m07", "type": "flervalg", "text": "Hva hører typisk hjemme i avslutningen av et debattinnlegg?", "options": ["En oppfordring og en gjentakelse av påstanden", "Et nytt tema", "Alle kildene i fulltekst", "En novelle"], "correct": 0, "explain": "Avslutningen samler trådene og ber gjerne leseren om å handle eller tenke nytt." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
