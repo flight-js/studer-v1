@@ -1,0 +1,80 @@
+{
+  "id": "migrasjon-og-mangfold",
+  "fagId": "spansk-vg2",
+  "trinnId": "vg2",
+  "name": "Migrasjon, identitet og mangfold",
+  "intro": "Migrasjon i den spansktalende verden – fra Latin-Amerika til USA og Spania, spansk utvandring og latinos i USA – identitet, spanglish og tilhørighet, og hvordan du gjengir andres utsagn med indirekte tale (estilo indirecto).",
+  "kompetansemaal": [8, 4],
+  "sammendrag": "## Migrasjon i den spansktalende verden\n\n- **Fra Latin-Amerika til USA**: Millioner av mennesker, særlig fra **Mexico** og **Mellom-Amerika**, har migrert til USA på grunn av **fattigdom**, **vold** og ønsket om et bedre liv. Grensen mellom **Mexico og USA** er et sentralt tema i amerikansk politikk.\n- **Fra Latin-Amerika til Spania**: Mange fra blant annet **Colombia**, **Ecuador**, **Venezuela** og **Argentina** har flyttet til Spania, der de har samme språk.\n- **Til Spania fra andre land**: Mange har også kommet fra **Marokko** og **Romania**, og båtflyktninger fra Afrika prøver å nå **Kanariøyene** og Sør-Spania.\n- **Spansk utvandring**: På **1960-tallet** dro mange spanjoler til **Tyskland**, **Frankrike** og **Sveits** for å jobbe. Etter finanskrisen i **2008** reiste mange unge igjen ut på grunn av **arbeidsledighet**.\n\n## Latinos i USA\n\nUSA har en av verdens største spansktalende befolkninger. Mange **latinos** eller **hispanos** er **tospråklige**, og noen blander engelsk og spansk – **spanglish**: *Voy a parquear el carro* (parkere bilen) eller *¿Me puedes textear?* Musikk, mat og kultur fra Latin-Amerika har stor innflytelse i USA.\n\n## Identitet\n\nNyttige ord: *la identidad* (identiteten), *las raíces* (røttene), *el sentido de pertenencia* (tilhørigheten), *bilingüe* (tospråklig), *sentirse en casa* (føle seg hjemme), *echar de menos* (savne), *la discriminación*.\n\nMange **andre generasjons** migranter beskriver at de føler seg **«ni de aquí, ni de allá»** – verken herfra eller derfra.\n\n## Indirekte tale\n\nNår innledningsverbet står i **fortid** (*dijo que*), endres ofte tiden:\n\n| Direkte tale | Indirekte tale |\n| --- | --- |\n| presens: *«Estoy cansado.»* | imperfecto: *Dijo que **estaba** cansado.* |\n| indefinido: *«Comí.»* | pluscuamperfecto: *Dijo que **había comido**.* |\n| futuro: *«Vendré.»* | condicional: *Dijo que **vendría**.* |\n\nEtter **dice que** (presens) endres ikke tiden: *Dice que **está** cansado.*\n\nHusk å endre **pronomen** og **tidsuttrykk**: *hoy* → *ese día*, *mañana* → *al día siguiente*.\n\n## Å diskutere\n\n*Por un lado, la migración enriquece la cultura; por otro lado, muchos migrantes sufren discriminación.*\n*En Noruega es parecido / diferente porque …*",
+  "flashcards": [
+    { "term": "la migración", "def": "migrasjonen" },
+    { "term": "la frontera", "def": "grensen" },
+    { "term": "los latinos / los hispanos", "def": "personer med latinamerikansk bakgrunn i USA" },
+    { "term": "el spanglish", "def": "blanding av spansk og engelsk" },
+    { "term": "la identidad", "def": "identiteten" },
+    { "term": "las raíces", "def": "røttene" },
+    { "term": "el sentido de pertenencia", "def": "tilhørigheten" },
+    { "term": "bilingüe", "def": "tospråklig" },
+    { "term": "echar de menos", "def": "savne" },
+    { "term": "ni de aquí, ni de allá", "def": "verken herfra eller derfra" },
+    { "term": "Dijo que estaba cansado.", "def": "Han sa at han var trøtt. (presens → imperfecto)" },
+    { "term": "Dijo que había comido.", "def": "Han sa at han hadde spist. (indefinido → pluscuamperfecto)" },
+    { "term": "Dijo que vendría.", "def": "Han sa at han ville komme. (futuro → condicional)" },
+    { "term": "al día siguiente", "def": "dagen etter" },
+    { "term": "enriquecer", "def": "berike" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er spanglish?", "options": ["Spansk i Spania", "En blanding av spansk og engelsk", "Et urfolksspråk", "Engelsk med spansk aksent"], "correct": 1, "explain": "Voy a parquear el carro." },
+    { "id": "q02", "text": "Gjør om til indirekte tale: «Estoy cansado», dijo → Dijo que …", "options": ["estaba cansado", "está cansado", "estará cansado", "esté cansado"], "correct": 0, "explain": "Presens blir imperfecto." },
+    { "id": "q03", "text": "Gjør om: «Vendré», dijo → Dijo que …", "options": ["vendrá", "viene", "vendría", "venía"], "correct": 2, "explain": "Futuro blir condicional." },
+    { "id": "q04", "text": "Hvor dro mange spanjoler for å jobbe på 1960-tallet?", "options": ["Til Kina", "Til Australia", "Til Brasil", "Til Tyskland, Frankrike og Sveits"], "correct": 3, "explain": "Spania var fattigere enn Nord-Europa da." },
+    { "id": "q05", "text": "Hva betyr «echar de menos»?", "options": ["savne", "kaste ut", "glemme", "hate"], "correct": 0, "explain": "Echo de menos a mi familia." },
+    { "id": "q06", "text": "Gjør om: «Comí», dijo → Dijo que …", "options": ["comió", "había comido", "comería", "come"], "correct": 1, "explain": "Indefinido blir pluscuamperfecto." },
+    { "id": "q07", "text": "Hva betyr «ni de aquí, ni de allá»?", "options": ["både herfra og derfra", "langt herfra", "verken herfra eller derfra", "her og der"], "correct": 2, "explain": "En følelse mange migranter beskriver." },
+    { "id": "q08", "text": "Hva skjer med tiden etter «dice que» (presens)?", "options": ["Presens blir imperfecto", "Presens blir futuro", "Presens blir subjuntivo", "Tiden endres ikke"], "correct": 3, "explain": "Bare fortid i innledningen endrer tiden." },
+    { "id": "q09", "text": "Hva betyr «bilingüe»?", "options": ["tospråklig", "tosidig", "tvilling", "tvilsom"], "correct": 0, "explain": "Mange latinos i USA er tospråklige." },
+    { "id": "q10", "text": "Hva blir «mañana» i indirekte tale i fortid?", "options": ["ayer", "al día siguiente", "hoy", "ese mañana"], "correct": 1, "explain": "Tidsuttrykk endres også." }
+  ],
+  "mindmap": {
+    "label": "Migrasjon og mangfold",
+    "children": [
+      { "label": "Migrasjon", "children": [
+        { "label": "Latin-Amerika → USA" },
+        { "label": "Latin-Amerika → Spania" },
+        { "label": "Spansk utvandring" }
+      ] },
+      { "label": "Latinos i USA", "children": [
+        { "label": "Tospråklige" },
+        { "label": "Spanglish" }
+      ] },
+      { "label": "Identitet", "children": [
+        { "label": "raíces" },
+        { "label": "pertenencia" },
+        { "label": "ni de aquí, ni de allá" }
+      ] },
+      { "label": "Indirekte tale", "children": [
+        { "label": "presente → imperfecto" },
+        { "label": "indefinido → pluscuamperfecto" },
+        { "label": "futuro → condicional" }
+      ] },
+      { "label": "Diskusjon", "children": [
+        { "label": "Por un lado … por otro" },
+        { "label": "Sammenligne med Norge" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "USA har en av verdens største spansktalende befolkninger.", "correct": true, "explain": "Mange er latinos med røtter i Latin-Amerika." },
+      { "id": "m02", "type": "sant-usant", "text": "Spanjoler har aldri utvandret for å finne arbeid.", "correct": false, "explain": "Mange dro til Nord-Europa på 1960-tallet og etter 2008." },
+      { "id": "m03", "type": "sant-usant", "text": "I indirekte tale endres ofte både pronomen og tidsuttrykk.", "correct": true, "explain": "hoy → ese día, mañana → al día siguiente." },
+      { "id": "m04", "type": "sant-usant", "text": "«las raíces» betyr grensene.", "correct": false, "explain": "las raíces betyr røttene. Grensen heter la frontera." },
+      { "id": "m05", "type": "flervalg", "text": "Hva betyr «la frontera»?", "options": ["fronten", "grensen", "flagget", "landet"], "correct": 1, "explain": "La frontera entre México y Estados Unidos." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilke øyer prøver mange båtflyktninger fra Afrika å nå?", "options": ["Kanariøyene", "Balearene", "Galápagos", "Falklandsøyene"], "correct": 0, "explain": "Kanariøyene tilhører Spania." },
+      { "id": "m07", "type": "flervalg", "text": "Hva betyr «el sentido de pertenencia»?", "options": ["sansen for humor", "følelsen av skyld", "tilhørigheten", "retningssansen"], "correct": 2, "explain": "pertenecer = tilhøre." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

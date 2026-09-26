@@ -1,0 +1,83 @@
+{
+  "id": "teknologi-og-digitalt-liv",
+  "fagId": "spansk-vg2",
+  "trinnId": "vg2",
+  "name": "Teknologi og digitalt liv",
+  "intro": "Hvordan du snakker om sosiale medier, mobilbruk, kunstig intelligens og personvern på spansk, forskjeller mellom spansk i Spania og Latin-Amerika, og hvordan du bruker gerundium og verbperifraser som estar + gerundio.",
+  "kompetansemaal": [1, 2, 6],
+  "sammendrag": "## Ord om digitalt liv\n\n- *las redes sociales* – sosiale medier\n- *el móvil* (Spania) / *el celular* (Latin-Amerika) – mobilen\n- *el tiempo de pantalla* – skjermtiden\n- *subir, compartir, dar «me gusta»* – laste opp, dele, like\n- *la inteligencia artificial (IA)* – kunstig intelligens\n- *la protección de datos / la privacidad* – personvernet\n- *los bulos / las noticias falsas* – falske nyheter\n- *estar enganchado/a* – være hekta\n\nOgså på spansk heter GDPR **RGPD** (*Reglamento General de Protección de Datos*).\n\n## Spansk i Spania og Latin-Amerika\n\nOrdforrådet varierer: *el móvil* og *el ordenador* (PC) i Spania, men *el celular* og *la computadora* i store deler av Latin-Amerika. I Latin-Amerika brukes **ustedes** også blant venner, mens Spania bruker **vosotros**.\n\n## Gerundium\n\n**Gerundio** lages slik:\n\n- **-ar** → **-ando**: *hablar → hablando*\n- **-er/-ir** → **-iendo**: *comer → comiendo, vivir → viviendo*\n\nUregelmessige: *leer → **leyendo***, *dormir → **durmiendo***, *decir → **diciendo***, *pedir → **pidiendo***.\n\n## Verbperifraser\n\n- **estar + gerundio** – noe som **pågår** akkurat nå: *Estoy **chateando** con mis amigos.* – Jeg chatter med vennene mine (akkurat nå).\n- **seguir + gerundio** – noe som **fortsetter**: *Sigue **lloviendo**.* – Det fortsetter å regne.\n- **llevar + tid + gerundio** – hvor lenge noe har **pågått**: *Llevo dos horas **estudiando**.* – Jeg har lest i to timer.\n- **acabar de + infinitiv** – noe som **nettopp** har skjedd: *Acabo de subir una foto.* – Jeg har nettopp lastet opp et bilde.\n\n## Fordeler og ulemper\n\n**Ventajas**:\n- *Podemos estar en contacto con amigos de todo el mundo.*\n- *Es fácil encontrar información.*\n\n**Desventajas**:\n- *Muchos jóvenes pasan demasiado tiempo con el móvil.*\n- *Hay muchos bulos en internet.*\n- *Las empresas recogen nuestros datos.*\n\n## Lytte til spansk\n\n- Hør på **podkaster** og **nyheter** for språkelever, for eksempel fra **RTVE** eller **BBC Mundo**.\n- Legg merke til **ulike aksenter** – spansk fra Mexico, Argentina og Spania høres forskjellig ut.\n- Lytt etter **nøkkelord** og **tall**, ikke hvert ord.\n- Se serier med **spansk teksting**.\n\n## Å presentere\n\n*Hoy voy a hablar de …* – I dag skal jeg snakke om …\n*Primero …, después …, por último …*\n*Para terminar, …* – For å avslutte …",
+  "flashcards": [
+    { "term": "las redes sociales", "def": "sosiale medier" },
+    { "term": "el móvil / el celular", "def": "mobilen (Spania / Latin-Amerika)" },
+    { "term": "el tiempo de pantalla", "def": "skjermtiden" },
+    { "term": "compartir", "def": "dele" },
+    { "term": "la inteligencia artificial (IA)", "def": "kunstig intelligens" },
+    { "term": "la protección de datos", "def": "personvernet" },
+    { "term": "los bulos", "def": "falske nyheter (Spania)" },
+    { "term": "estar enganchado/a", "def": "være hekta" },
+    { "term": "hablando / comiendo", "def": "gerundium av hablar / comer" },
+    { "term": "leyendo / durmiendo", "def": "uregelmessig gerundium av leer / dormir" },
+    { "term": "Estoy chateando.", "def": "Jeg chatter (akkurat nå)." },
+    { "term": "Sigue lloviendo.", "def": "Det fortsetter å regne." },
+    { "term": "Llevo dos horas estudiando.", "def": "Jeg har lest i to timer." },
+    { "term": "Acabo de …", "def": "Jeg har nettopp …" },
+    { "term": "Para terminar, …", "def": "For å avslutte …" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva heter mobil i store deler av Latin-Amerika?", "options": ["el móvil", "el celular", "el ordenador", "la pantalla"], "correct": 1, "explain": "I Spania sier man el móvil." },
+    { "id": "q02", "text": "Hva er gerundium av «hablar»?", "options": ["hablando", "hablado", "hablendo", "hablar"], "correct": 0, "explain": "-ar blir -ando." },
+    { "id": "q03", "text": "Hva er gerundium av «leer»?", "options": ["leiendo", "leendo", "leyendo", "leído"], "correct": 2, "explain": "Uregelmessig: leyendo." },
+    { "id": "q04", "text": "Hva uttrykker «estar + gerundio»?", "options": ["Noe i framtiden", "Noe som har skjedd", "En vane", "Noe som pågår akkurat nå"], "correct": 3, "explain": "Estoy chateando." },
+    { "id": "q05", "text": "Hva betyr «Llevo dos horas estudiando»?", "options": ["Jeg har lest i to timer.", "Jeg skal lese i to timer.", "Jeg leste for to timer siden.", "Jeg bærer to bøker."], "correct": 0, "explain": "llevar + tid + gerundio." },
+    { "id": "q06", "text": "Hva betyr «Acabo de subir una foto»?", "options": ["Jeg skal laste opp et bilde.", "Jeg har nettopp lastet opp et bilde.", "Jeg har slettet et bilde.", "Jeg avslutter med et bilde."], "correct": 1, "explain": "acabar de + infinitiv = har nettopp." },
+    { "id": "q07", "text": "Hva er «los bulos»?", "options": ["bussene", "vennene", "falske nyheter", "bildene"], "correct": 2, "explain": "Ord brukt i Spania." },
+    { "id": "q08", "text": "Hva er gerundium av «dormir»?", "options": ["dormiendo", "dormando", "dormido", "durmiendo"], "correct": 3, "explain": "Vokalen endres: o → u." },
+    { "id": "q09", "text": "Hva betyr «Sigue lloviendo»?", "options": ["Det fortsetter å regne.", "Det har sluttet å regne.", "Det skal regne.", "Det regnet i går."], "correct": 0, "explain": "seguir + gerundio." },
+    { "id": "q10", "text": "Hvordan innleder du en presentasjon på spansk?", "options": ["Para terminar, …", "Hoy voy a hablar de …", "Por último, …", "Adiós, …"], "correct": 1, "explain": "Deretter kan du bruke primero, después, por último." }
+  ],
+  "mindmap": {
+    "label": "Teknologi og digitalt liv",
+    "children": [
+      { "label": "Ord", "children": [
+        { "label": "redes sociales" },
+        { "label": "tiempo de pantalla" },
+        { "label": "IA" },
+        { "label": "bulos" }
+      ] },
+      { "label": "Variasjon", "children": [
+        { "label": "móvil / celular" },
+        { "label": "ordenador / computadora" },
+        { "label": "vosotros / ustedes" }
+      ] },
+      { "label": "Gerundio", "children": [
+        { "label": "-ando / -iendo" },
+        { "label": "leyendo, durmiendo" }
+      ] },
+      { "label": "Perifraser", "children": [
+        { "label": "estar + gerundio" },
+        { "label": "seguir + gerundio" },
+        { "label": "llevar + tid + gerundio" },
+        { "label": "acabar de" }
+      ] },
+      { "label": "Lytte og presentere", "children": [
+        { "label": "RTVE og BBC Mundo" },
+        { "label": "Aksenter" },
+        { "label": "Para terminar" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "I Latin-Amerika brukes «ustedes» også blant venner.", "correct": true, "explain": "Spania bruker vosotros." },
+      { "id": "m02", "type": "sant-usant", "text": "Gerundium av «comer» er «comando».", "correct": false, "explain": "-er-verb får -iendo: comiendo." },
+      { "id": "m03", "type": "sant-usant", "text": "Spansk høres ulikt ut i Mexico, Argentina og Spania.", "correct": true, "explain": "Det er mange aksenter." },
+      { "id": "m04", "type": "sant-usant", "text": "«estar enganchado» betyr å være lei av noe.", "correct": false, "explain": "Det betyr å være hekta." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er gerundium av «decir»?", "options": ["deciendo", "diciendo", "dicho", "decindo"], "correct": 1, "explain": "Vokalen endres: e → i." },
+      { "id": "m06", "type": "flervalg", "text": "Hva betyr «compartir»?", "options": ["dele", "sammenligne", "kjøpe", "kommentere"], "correct": 0, "explain": "compartir una foto = dele et bilde." },
+      { "id": "m07", "type": "flervalg", "text": "Hvordan sier du «Jeg chatter med vennene mine akkurat nå»?", "options": ["Chateo con mis amigos ayer.", "Voy a chatear con mis amigos.", "Estoy chateando con mis amigos.", "He chateado con mis amigos."], "correct": 2, "explain": "estar + gerundio for noe som pågår." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

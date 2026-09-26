@@ -1,0 +1,81 @@
+{
+  "id": "litteratur",
+  "fagId": "spansk-vg2",
+  "trinnId": "vg2",
+  "name": "Å lese spanskspråklig litteratur",
+  "intro": "Hvordan du leser og tolker autentiske spanskspråklige tekster – Federico García Lorca, Gabriela Mistral og Julio Cortázar – kjennetegn ved magisk realisme og korte fortellinger, analyseord på spansk og lesestrategier.",
+  "kompetansemaal": [4, 9],
+  "sammendrag": "## Federico García Lorca\n\n**Federico García Lorca** (1898–1936) fra **Andalucía** er en av Spanias mest kjente diktere og dramatikere. Han ble drept av nasjonalistene tidlig i **borgerkrigen** i 1936.\n\n- Diktsamlingen **Romancero gitano** (1928) bruker **folkelige** former og sterke **bilder** av Andalucía, **døden** og **lidenskap**.\n- I skuespillet **La casa de Bernarda Alba** (1936) pålegger den strenge moren **Bernarda** sine fem døtre **åtte års sorg** etter farens død. De blir sperret inne i huset. Stykket handler om **undertrykkelse**, **kvinners manglende frihet**, **ære** og **hva folk sier** (*el qué dirán*).\n\n## Gabriela Mistral\n\n**Gabriela Mistral** fra **Chile** var den **første latinamerikanske** forfatteren som fikk **Nobelprisen i litteratur**, i **1945**. Hun skrev dikt om **kjærlighet**, **barn**, **sorg** og **naturen** i Latin-Amerika, og var også lærer.\n\n## Julio Cortázar og den korte fortellingen\n\n**Julio Cortázar** fra **Argentina** er kjent for **korte fortellinger** (*cuentos*) der **virkelighet** og **fantasi** glir over i hverandre. I den svært korte fortellingen **«Continuidad de los parques»** sitter en mann og leser en roman om et planlagt **drap** – og til slutt forstår leseren at **offeret** er mannen som leser. Fortellingen leker med forholdet mellom **fiksjon** og **virkelighet**.\n\n## Magisk realisme\n\nI **magisk realisme** blir **overnaturlige** hendelser beskrevet som en **naturlig** del av hverdagen. Retningen er særlig knyttet til Latin-Amerika og **Gabriel García Márquez**.\n\n## Analyseord på spansk\n\n- *el/la protagonista* – hovedpersonen\n- *el narrador / la narradora* – fortelleren\n- *la trama* – handlingen\n- *el tema* – temaet\n- *el tono* – tonen\n- *el símbolo* – symbolet\n- *un final abierto / sorprendente* – en åpen / overraskende slutt\n- *El texto trata de …* – Teksten handler om …\n- *El autor utiliza …* – Forfatteren bruker …\n\n## Lesestrategier\n\n- Les **tittel** og **første avsnitt** nøye – hos Cortázar er detaljene viktige.\n- Se etter ord som ligner **engelsk** og **norsk**: *la libertad*, *el amor*, *la muerte*.\n- **Gjett** ord ut fra sammenhengen.\n- Legg merke til **verbtidene**: **indefinido** for handlinger, **imperfecto** for bakgrunn.\n- **Les på nytt** – korte tekster åpner seg ofte ved andre gangs lesing.\n\n## Egne opplevelser\n\n*Este texto me ha impresionado porque …* – Denne teksten gjorde inntrykk fordi …\n*Me identifico con … porque …*\n*En mi opinión, el mensaje del texto es …*",
+  "flashcards": [
+    { "term": "Federico García Lorca", "def": "Andalusisk dikter og dramatiker, drept i 1936" },
+    { "term": "Romancero gitano", "def": "Diktsamling av Lorca (1928)" },
+    { "term": "La casa de Bernarda Alba", "def": "Lorca-skuespill (1936) om en mor som sperrer inne døtrene sine" },
+    { "term": "el qué dirán", "def": "hva folk sier – frykten for sladder" },
+    { "term": "Gabriela Mistral", "def": "Chilensk dikter, første latinamerikanske Nobelprisvinner i litteratur (1945)" },
+    { "term": "Julio Cortázar", "def": "Argentinsk forfatter av korte fortellinger" },
+    { "term": "Continuidad de los parques", "def": "Cortázar-fortelling der leseren blir offer i romanen han leser" },
+    { "term": "el cuento", "def": "den korte fortellingen" },
+    { "term": "el realismo mágico", "def": "magisk realisme" },
+    { "term": "el/la protagonista", "def": "hovedpersonen" },
+    { "term": "la trama", "def": "handlingen" },
+    { "term": "el símbolo", "def": "symbolet" },
+    { "term": "un final sorprendente", "def": "en overraskende slutt" },
+    { "term": "El texto trata de …", "def": "Teksten handler om …" },
+    { "term": "Me identifico con …", "def": "Jeg kjenner meg igjen i …" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva pålegger Bernarda døtrene sine i «La casa de Bernarda Alba»?", "options": ["Å gifte seg", "Åtte års sorg innestengt i huset", "Å flytte til Madrid", "Å bli nonner"], "correct": 1, "explain": "Stykket handler om undertrykkelse og ære." },
+    { "id": "q02", "text": "Hvem var den første latinamerikanske forfatteren som fikk Nobelprisen i litteratur?", "options": ["Gabriela Mistral", "Pablo Neruda", "Julio Cortázar", "García Lorca"], "correct": 0, "explain": "Hun fikk prisen i 1945." },
+    { "id": "q03", "text": "Hva skjer i «Continuidad de los parques»?", "options": ["En mann reiser til en park", "To elskende gifter seg", "Leseren av en roman viser seg å være offeret i romanen", "En gutt mister sin hund"], "correct": 2, "explain": "Fortellingen leker med fiksjon og virkelighet." },
+    { "id": "q04", "text": "Hva er magisk realisme?", "options": ["Fantasy med drager", "Realistiske krimromaner", "Dikt om magikere", "Overnaturlige hendelser beskrevet som en naturlig del av hverdagen"], "correct": 3, "explain": "Særlig knyttet til Latin-Amerika." },
+    { "id": "q05", "text": "Hva betyr «el qué dirán»?", "options": ["Hva folk sier – frykten for sladder", "Hva som skjer i morgen", "Hva læreren sier", "Hva vi skal si"], "correct": 0, "explain": "Et sentralt tema i Bernarda Alba." },
+    { "id": "q06", "text": "Hvordan døde García Lorca?", "options": ["Av sykdom i eksil", "Han ble drept tidlig i borgerkrigen", "I en ulykke i New York", "Av alderdom"], "correct": 1, "explain": "Han ble drept av nasjonalistene i 1936." },
+    { "id": "q07", "text": "Hva betyr «la trama»?", "options": ["tragedien", "trærne", "handlingen", "temaet"], "correct": 2, "explain": "la trama de la novela = romanens handling." },
+    { "id": "q08", "text": "Hvilket land kom Julio Cortázar fra?", "options": ["Spania", "Chile", "Mexico", "Argentina"], "correct": 3, "explain": "Han er kjent for sine cuentos." },
+    { "id": "q09", "text": "Hvordan sier du «Teksten handler om ensomhet»?", "options": ["El texto trata de la soledad.", "El texto es soledad.", "La soledad trata el texto.", "El texto hace soledad."], "correct": 0, "explain": "tratar de = handle om." },
+    { "id": "q10", "text": "Hvilken verbtid brukes ofte for bakgrunn i en fortelling?", "options": ["Indefinido", "Imperfecto", "Futuro", "Imperativ"], "correct": 1, "explain": "Indefinido brukes for handlinger." }
+  ],
+  "mindmap": {
+    "label": "Spanskspråklig litteratur",
+    "children": [
+      { "label": "García Lorca", "children": [
+        { "label": "Romancero gitano" },
+        { "label": "Bernarda Alba" },
+        { "label": "el qué dirán" }
+      ] },
+      { "label": "Gabriela Mistral", "children": [
+        { "label": "Chile" },
+        { "label": "Nobelprisen 1945" }
+      ] },
+      { "label": "Cortázar", "children": [
+        { "label": "Cuentos" },
+        { "label": "Continuidad de los parques" },
+        { "label": "Fiksjon og virkelighet" }
+      ] },
+      { "label": "Analyseord", "children": [
+        { "label": "protagonista" },
+        { "label": "trama" },
+        { "label": "símbolo" }
+      ] },
+      { "label": "Strategier", "children": [
+        { "label": "Lik engelsk" },
+        { "label": "Verbtider" },
+        { "label": "Les på nytt" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "García Lorca var fra Andalucía.", "correct": true, "explain": "Andalucía preger mange av diktene hans." },
+      { "id": "m02", "type": "sant-usant", "text": "Gabriela Mistral var fra Argentina.", "correct": false, "explain": "Hun var fra Chile." },
+      { "id": "m03", "type": "sant-usant", "text": "Korte tekster åpner seg ofte ved andre gangs lesing.", "correct": true, "explain": "Detaljer man overså første gang, blir tydelige." },
+      { "id": "m04", "type": "sant-usant", "text": "«La casa de Bernarda Alba» er en lykkelig komedie.", "correct": false, "explain": "Det er et tragisk drama om undertrykkelse." },
+      { "id": "m05", "type": "flervalg", "text": "Hva betyr «el cuento»?", "options": ["regnskapet", "den korte fortellingen", "kontoen", "hjørnet"], "correct": 1, "explain": "Cortázar er kjent for cuentos." },
+      { "id": "m06", "type": "flervalg", "text": "Hva betyr «Me identifico con la protagonista»?", "options": ["Jeg kjenner meg igjen i hovedpersonen.", "Jeg liker ikke hovedpersonen.", "Jeg er hovedpersonen.", "Jeg har møtt hovedpersonen."], "correct": 0, "explain": "identificarse con = kjenne seg igjen i." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilken forfatter forbindes særlig med magisk realisme?", "options": ["Cervantes", "García Lorca", "Gabriel García Márquez", "Gabriela Mistral"], "correct": 2, "explain": "Hundre års ensomhet er et hovedverk." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

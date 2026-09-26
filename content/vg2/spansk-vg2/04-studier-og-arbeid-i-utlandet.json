@@ -1,0 +1,82 @@
+{
+  "id": "studier-og-arbeid-i-utlandet",
+  "fagId": "spansk-vg2",
+  "trinnId": "vg2",
+  "name": "Studier og arbeid i spansktalende land",
+  "intro": "Muligheter for å studere, jobbe og være frivillig i Spania og Latin-Amerika – Erasmus+, au pair og frivillig arbeid – formell søknad og intervju på spansk, og hvordan du uttrykker hypotetiske situasjoner med imperfecto de subjuntivo og condicional.",
+  "kompetansemaal": [2, 3, 5],
+  "sammendrag": "## Muligheter\n\n- **Erasmus+**: Spania er blant de **mest populære** landene for utvekslingsstudenter i Europa.\n- **Utveksling** på videregående eller et **år i utlandet** (*un año en el extranjero*)\n- **Au pair** hos en spansk familie\n- **Frivillig arbeid** (*el voluntariado*) i Latin-Amerika, for eksempel i skoler eller miljøprosjekter\n- **Sommerjobb** i **turisme** – hoteller, restauranter og campingplasser\n- **Språkkurs** i Spania eller Latin-Amerika, gjerne med vertsfamilie (*una familia de acogida*)\n\n## Nyttige ord\n\n*el intercambio* (utvekslingen), *la beca* (stipendet), *las prácticas* (praksisplassen), *la experiencia* (erfaringen), *las habilidades* (ferdighetene), *la carta de presentación* (søknadsbrevet), *la entrevista* (intervjuet).\n\n## Formell søknad\n\n*Estimada señora García:*\n\n*Me dirijo a usted para solicitar el puesto de au pair. Me encantan los niños y quiero mejorar mi español. Tengo experiencia como canguro y hablo noruego, inglés y español.*\n\n*Quedo a la espera de su respuesta.*\n\n*Atentamente,*\n\nNyttige formuleringer: *Me gustaría …* (jeg vil gjerne …), *Estoy muy motivado/a porque …*, *Mis puntos fuertes son …* (mine sterke sider er …). Husk **kolon** etter hilsenen.\n\n## Intervju\n\n- *Háblame de ti.* / *Hábleme de usted.* – Fortell om deg selv.\n- *¿Por qué quieres este trabajo?*\n- *¿Cuáles son tus puntos fuertes y débiles?*\n\n## Hypotetiske situasjoner\n\nFor å snakke om noe som er **lite sannsynlig** eller **uvirkelig** nå, bruker vi **si + imperfecto de subjuntivo → condicional**:\n\n- *Si **tuviera** dinero, **viajaría** a México.* – Hvis jeg hadde penger, ville jeg reist til Mexico.\n- *Si **hablara** mejor español, **trabajaría** en Madrid.*\n\n**Imperfecto de subjuntivo** lages av **ellos**-formen i **indefinido**: fjern **-ron** og legg til **-ra, -ras, -ra, -ramos, -rais, -ran**:\n\n- hablaron → habla**ra**\n- tuvieron → tuvie**ra**\n- fueron → fue**ra** (både ser og ir)\n- pudieron → pudie**ra**\n\n## Å reflektere\n\n*Un año en el extranjero te ayuda a ser más independiente, a aprender un idioma y a conocer otra cultura.*\n*Si pudiera elegir, estudiaría en …*",
+  "flashcards": [
+    { "term": "un año en el extranjero", "def": "et år i utlandet" },
+    { "term": "el intercambio", "def": "utvekslingen" },
+    { "term": "la beca", "def": "stipendet" },
+    { "term": "el voluntariado", "def": "frivillig arbeid" },
+    { "term": "una familia de acogida", "def": "en vertsfamilie" },
+    { "term": "las habilidades", "def": "ferdighetene" },
+    { "term": "la carta de presentación", "def": "søknadsbrevet" },
+    { "term": "Me dirijo a usted para solicitar …", "def": "Jeg henvender meg til Dem for å søke …" },
+    { "term": "Mis puntos fuertes son …", "def": "Mine sterke sider er …" },
+    { "term": "Háblame de ti.", "def": "Fortell om deg selv." },
+    { "term": "Si tuviera dinero, viajaría …", "def": "Hvis jeg hadde penger, ville jeg reist …" },
+    { "term": "tuviera", "def": "imperfecto de subjuntivo av tener" },
+    { "term": "fuera", "def": "imperfecto de subjuntivo av ser og ir" },
+    { "term": "Si pudiera elegir, …", "def": "Hvis jeg kunne velge, …" },
+    { "term": "independiente", "def": "selvstendig" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva betyr «la beca»?", "options": ["banken", "stipendet", "stranden", "praksisplassen"], "correct": 1, "explain": "Mange studenter får beca." },
+    { "id": "q02", "text": "Velg riktig: «Si ___ dinero, viajaría a México.»", "options": ["tuviera", "tengo", "tendría", "tenía"], "correct": 0, "explain": "si + imperfecto de subjuntivo." },
+    { "id": "q03", "text": "Hvordan lages imperfecto de subjuntivo?", "options": ["Infinitiv + -ía", "yo-form i presens + -a", "ellos-form i indefinido minus -ron + -ra", "Gerundium + -ra"], "correct": 2, "explain": "tuvieron → tuviera." },
+    { "id": "q04", "text": "Hva står i hovedsetningen i en hypotetisk si-setning?", "options": ["Presens", "Imperfecto de subjuntivo", "Indefinido", "Condicional"], "correct": 3, "explain": "Si tuviera tiempo, leería más." },
+    { "id": "q05", "text": "Hvilket tegn står etter hilsenen i et formelt spansk brev?", "options": ["Kolon", "Komma", "Utropstegn", "Semikolon"], "correct": 0, "explain": "Estimada señora García:" },
+    { "id": "q06", "text": "Hva betyr «el voluntariado»?", "options": ["viljestyrken", "frivillig arbeid", "militærtjenesten", "avstemningen"], "correct": 1, "explain": "Mange gjør voluntariado i Latin-Amerika." },
+    { "id": "q07", "text": "Hva er imperfecto de subjuntivo av «ser»?", "options": ["sería", "sea", "fuera", "era"], "correct": 2, "explain": "fueron → fuera (samme for ir)." },
+    { "id": "q08", "text": "Hva betyr «Háblame de ti»?", "options": ["Snakk med meg!", "Hvor kommer du fra?", "Hvem er du?", "Fortell om deg selv."], "correct": 3, "explain": "Et vanlig intervjuspørsmål." },
+    { "id": "q09", "text": "Hvilken avslutning passer i en formell søknad?", "options": ["Atentamente", "Besos", "Hasta luego", "Un abrazo"], "correct": 0, "explain": "De andre er uformelle." },
+    { "id": "q10", "text": "Hva betyr «Si pudiera elegir, estudiaría en Madrid»?", "options": ["Jeg studerer i Madrid.", "Hvis jeg kunne velge, ville jeg studert i Madrid.", "Jeg valgte å studere i Madrid.", "Jeg skal studere i Madrid."], "correct": 1, "explain": "Hypotetisk situasjon." }
+  ],
+  "mindmap": {
+    "label": "Studier og arbeid i utlandet",
+    "children": [
+      { "label": "Muligheter", "children": [
+        { "label": "Erasmus+" },
+        { "label": "Au pair" },
+        { "label": "Voluntariado" },
+        { "label": "Turisme" }
+      ] },
+      { "label": "Ord", "children": [
+        { "label": "intercambio" },
+        { "label": "beca" },
+        { "label": "familia de acogida" }
+      ] },
+      { "label": "Søknad", "children": [
+        { "label": "Estimada señora:" },
+        { "label": "Me dirijo a usted" },
+        { "label": "Atentamente" }
+      ] },
+      { "label": "Intervju", "children": [
+        { "label": "Háblame de ti" },
+        { "label": "puntos fuertes y débiles" }
+      ] },
+      { "label": "Hypotetisk", "children": [
+        { "label": "si + imperfecto de subjuntivo" },
+        { "label": "→ condicional" },
+        { "label": "tuviera, fuera, pudiera" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Spania er blant de mest populære Erasmus-landene.", "correct": true, "explain": "Mange europeiske studenter drar dit." },
+      { "id": "m02", "type": "sant-usant", "text": "«Besos» er en passende avslutning i en jobbsøknad.", "correct": false, "explain": "Besos betyr kyss – svært uformelt." },
+      { "id": "m03", "type": "sant-usant", "text": "«fuera» kan være imperfecto de subjuntivo av både ser og ir.", "correct": true, "explain": "Begge har formen fueron i indefinido." },
+      { "id": "m04", "type": "sant-usant", "text": "Etter «si» i hypotetiske setninger bruker man condicional.", "correct": false, "explain": "Etter si bruker man imperfecto de subjuntivo." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er imperfecto de subjuntivo av «hablar» (yo)?", "options": ["hablaría", "hablara", "hable", "hablaba"], "correct": 1, "explain": "hablaron → hablara." },
+      { "id": "m06", "type": "flervalg", "text": "Hva betyr «las habilidades»?", "options": ["ferdighetene", "vanene", "boligene", "rommene"], "correct": 0, "explain": "Mis habilidades incluyen …" },
+      { "id": "m07", "type": "flervalg", "text": "Hva betyr «independiente»?", "options": ["avhengig", "interessert", "selvstendig", "ubesluttsom"], "correct": 2, "explain": "Et år i utlandet kan gjøre deg mer selvstendig." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

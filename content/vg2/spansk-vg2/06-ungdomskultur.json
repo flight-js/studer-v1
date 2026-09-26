@@ -1,0 +1,82 @@
+{
+  "id": "ungdomskultur",
+  "fagId": "spansk-vg2",
+  "trinnId": "vg2",
+  "name": "Ungdomskultur, fester og språklæring",
+  "intro": "Ungdomskultur og fester i den spansktalende verden – fotball, musikk, San Fermín, La Tomatina og Día de Muertos – slang fra Spania og Latin-Amerika, forskjellen på por og para, og strategier for å lære spansk videre.",
+  "kompetansemaal": [1, 2, 7],
+  "sammendrag": "## Fester og tradisjoner\n\n- **San Fermín** i **Pamplona** (6.–14. juli) er kjent for oksene som løper gjennom gatene (*los encierros*).\n- **Las Fallas** i **Valencia** i mars – enorme figurer som brennes til slutt.\n- **La Tomatina** i **Buñol** – verdens største tomatkrig, i august.\n- **Día de Muertos** i **Mexico** (1.–2. november) – de døde minnes med **altere**, **blomster**, **sukkerhodeskaller** og **musikk**. Tradisjonen er på UNESCOs liste over immateriell kulturarv.\n\n## Fritid og musikk\n\n- **Fotball** er enormt populært. **El Clásico** – kampen mellom **Real Madrid** og **FC Barcelona** – følges over hele verden.\n- **Reggaetón**, **latinpop** og **flamencofusjon** er populært, med artister som **Bad Bunny** (Puerto Rico) og **Rosalía** (Spania).\n- Mange unge i Spania går ut **sent** – kvelden starter ofte først etter klokka 22.\n\n## Slang\n\n| Uttrykk | Hvor | Betydning |\n| --- | --- | --- |\n| *guay*, *mola* | Spania | kult |\n| *vale* | Spania | ok |\n| *tío/tía* | Spania | kompis, fyr/jente |\n| *chévere* | Colombia, Venezuela m.fl. | kult |\n| *chido*, *padre* | Mexico | kult |\n| *güey* | Mexico | kompis |\n\n## Por og para\n\nBegge kan bety «for», men brukes ulikt.\n\n**Para** – **mål**, **formål**, **mottaker** og **frist**:\n- *Este regalo es **para** ti.* – Denne gaven er til deg.\n- *Estudio **para** aprender.* – Jeg studerer for å lære.\n- *Los deberes son **para** el lunes.* – Leksene er til mandag.\n- *Salgo **para** Madrid.* – Jeg drar til Madrid.\n\n**Por** – **årsak**, **gjennom**, **bytte**, **tidsrom** og **hvem** (i passiv):\n- ***Por** la lluvia, no salimos.* – På grunn av regnet gikk vi ikke ut.\n- *Paseamos **por** el parque.* – Vi går tur i parken.\n- *Gracias **por** todo.* – Takk for alt.\n- *Estudio **por** la mañana.* – Jeg studerer om morgenen.\n- *El libro fue escrito **por** Cervantes.*\n\n## Strategier for språklæring\n\n- **Lytt** til spansk musikk og podkaster, og se serier med **spansk teksting**.\n- Lær ord i **sammenheng** – for eksempel hele uttrykk som *echar de menos*.\n- Finn en **språkpartner** (*intercambio*) – mange spansktalende vil lære norsk eller engelsk.\n- Bruk **ordbøker** og **oversettelsesverktøy** kritisk.\n- Bruk det du kan fra **engelsk**: *la información*, *importante*, *la universidad*.\n- **Tørr å snakke** – spansktalende setter pris på at du prøver.\n\n## Å fortelle om fritiden\n\n*Los fines de semana quedo con mis amigos.* – I helgene møter jeg vennene mine.\n*Me encanta el reguetón, sobre todo …*\n*Juego en un equipo de fútbol.*",
+  "flashcards": [
+    { "term": "San Fermín", "def": "Fest i Pamplona i juli, kjent for oksene i gatene" },
+    { "term": "Las Fallas", "def": "Fest i Valencia i mars der figurer brennes" },
+    { "term": "La Tomatina", "def": "Tomatkrig i Buñol i august" },
+    { "term": "el Día de Muertos", "def": "De dødes dag i Mexico, 1.–2. november" },
+    { "term": "El Clásico", "def": "Fotballkampen mellom Real Madrid og FC Barcelona" },
+    { "term": "guay / mola", "def": "kult (Spania)" },
+    { "term": "vale", "def": "ok (Spania)" },
+    { "term": "chévere", "def": "kult (Colombia, Venezuela m.fl.)" },
+    { "term": "chido", "def": "kult (Mexico)" },
+    { "term": "para ti", "def": "til deg (mottaker)" },
+    { "term": "para aprender", "def": "for å lære (formål)" },
+    { "term": "por la lluvia", "def": "på grunn av regnet (årsak)" },
+    { "term": "gracias por", "def": "takk for" },
+    { "term": "por la mañana", "def": "om morgenen" },
+    { "term": "quedar con amigos", "def": "møte venner" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvor arrangeres San Fermín?", "options": ["Valencia", "Pamplona", "Buñol", "Sevilla"], "correct": 1, "explain": "Oksene løper gjennom gatene." },
+    { "id": "q02", "text": "Hva er Día de Muertos?", "options": ["En mexicansk tradisjon der de døde minnes", "En skrekkfilm", "En fotballkamp", "En spansk nasjonaldag"], "correct": 0, "explain": "Feires 1.–2. november." },
+    { "id": "q03", "text": "Velg riktig: «Este regalo es ___ ti.»", "options": ["por", "a", "para", "de"], "correct": 2, "explain": "Mottaker: para." },
+    { "id": "q04", "text": "Velg riktig: «Gracias ___ todo.»", "options": ["para", "a", "con", "por"], "correct": 3, "explain": "gracias por." },
+    { "id": "q05", "text": "Hva betyr «vale» i Spania?", "options": ["ok", "farvel", "dal", "verdi"], "correct": 0, "explain": "¿Quedamos a las ocho? – ¡Vale!" },
+    { "id": "q06", "text": "Velg riktig: «Estudio ___ aprender.»", "options": ["por", "para", "de", "en"], "correct": 1, "explain": "Formål: para." },
+    { "id": "q07", "text": "Hva er El Clásico?", "options": ["En musikkfestival", "En gammel bil", "Kampen mellom Real Madrid og FC Barcelona", "En dans"], "correct": 2, "explain": "Følges over hele verden." },
+    { "id": "q08", "text": "Velg riktig: «___ la lluvia, no salimos.»", "options": ["Para", "Con", "A", "Por"], "correct": 3, "explain": "Årsak: por." },
+    { "id": "q09", "text": "Hvilket ord betyr «kult» i Mexico?", "options": ["chido", "guay", "vale", "tío"], "correct": 0, "explain": "Guay er vanlig i Spania." },
+    { "id": "q10", "text": "Hva betyr «Los fines de semana quedo con mis amigos»?", "options": ["I helgene blir jeg hjemme.", "I helgene møter jeg vennene mine.", "I helgene ringer jeg vennene mine.", "I helgene jobber jeg."], "correct": 1, "explain": "quedar con = møte (avtale med)." }
+  ],
+  "mindmap": {
+    "label": "Ungdomskultur og språklæring",
+    "children": [
+      { "label": "Fester", "children": [
+        { "label": "San Fermín" },
+        { "label": "Las Fallas" },
+        { "label": "La Tomatina" },
+        { "label": "Día de Muertos" }
+      ] },
+      { "label": "Fritid", "children": [
+        { "label": "El Clásico" },
+        { "label": "Reggaetón" },
+        { "label": "Kveldsliv" }
+      ] },
+      { "label": "Slang", "children": [
+        { "label": "guay, mola, vale" },
+        { "label": "chévere" },
+        { "label": "chido, güey" }
+      ] },
+      { "label": "Por og para", "children": [
+        { "label": "para: mål og mottaker" },
+        { "label": "por: årsak og gjennom" }
+      ] },
+      { "label": "Strategier", "children": [
+        { "label": "Musikk og teksting" },
+        { "label": "Intercambio" },
+        { "label": "Tørr å snakke" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "La Tomatina er en tomatkrig i Buñol.", "correct": true, "explain": "Den arrangeres i august." },
+      { "id": "m02", "type": "sant-usant", "text": "«para» brukes for å uttrykke årsak.", "correct": false, "explain": "Årsak uttrykkes med por." },
+      { "id": "m03", "type": "sant-usant", "text": "Slang varierer mellom Spania og landene i Latin-Amerika.", "correct": true, "explain": "Guay i Spania, chido i Mexico, chévere i Colombia." },
+      { "id": "m04", "type": "sant-usant", "text": "Día de Muertos er en trist dag uten musikk.", "correct": false, "explain": "Dagen feires med blomster, altere og musikk." },
+      { "id": "m05", "type": "flervalg", "text": "Velg riktig: «Paseamos ___ el parque.»", "options": ["para", "por", "a", "de"], "correct": 1, "explain": "Gjennom et sted: por." },
+      { "id": "m06", "type": "flervalg", "text": "Velg riktig: «Los deberes son ___ el lunes.»", "options": ["para", "por", "en", "a"], "correct": 0, "explain": "Frist: para." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilken artist kommer fra Puerto Rico?", "options": ["Rosalía", "Shakira", "Bad Bunny", "Enrique Iglesias"], "correct": 2, "explain": "Rosalía er fra Spania og Shakira fra Colombia." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
