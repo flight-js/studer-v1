@@ -420,6 +420,48 @@ Læreplan: [UTV01-03](https://www.udir.no/lk20/utv01-03/kompetansemaal-og-vurder
 - 🔴 **Kjønn og karrierevalg** – sjekkes (370 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
   - Sjekk: Sjekk påstandene om kjønnsfordeling i yrker og utdanningsprogram, og at kvinner er i flertall i høyere utdanning, mot ferske tall fra SSB.
 
+## Matematikk 1P (vg1) – 8 av 8 temaer ferdig
+
+Læreplan: [MAT08-01](https://www.udir.no/lk20/mat08-01/kompetansemaal-og-vurdering/kv31)
+
+- 🟡 **Potenser, røtter og standardform** – utkast (433 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Prosent, prosentpoeng og promille** – utkast (412 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Vekstfaktor, rente og lån** – utkast (410 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Proporsjonalitet og omvendt proporsjonalitet** – utkast (430 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Sammensatte måleenheter** – utkast (431 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Formler, variabler og tekstoppgaver** – utkast (445 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Funksjoner og grafer** – utkast (414 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Matematisk modellering** – utkast (405 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+
+## Matematikk 1T (vg1) – 9 av 9 temaer ferdig
+
+Læreplan: [MAT09-02](https://www.udir.no/lk20/mat09-02/kompetansemaal-og-vurdering/kv979)
+
+- 🟡 **Algebra, likninger og ulikheter** – utkast (410 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Andregradslikninger og -ulikheter** – utkast (416 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Polynomdivisjon** – utkast (431 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Funksjonstyper og egenskaper** – utkast (408 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Vekstfart og den deriverte** – utkast (389 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Sinus, cosinus og tangens** – utkast (421 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Arealsetningen, sinussetningen og cosinussetningen** – utkast (533 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Bevis, algoritmisk tenkning og programmering** – utkast (522 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Modellering og matematikk i tekster** – utkast (403 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+
+## Norsk (vg1) – 9 av 9 temaer ferdig
+
+Læreplan: [NOR01-08](https://www.udir.no/lk20/nor01-08/kompetansemaal-og-vurdering/kv1113)
+
+- 🟡 **Nyere skjønnlitteratur** – utkast (389 ord · 15 kort · 10 quiz · 15 i miniprøve · 24 noder i tankekart)
+- 🟡 **Kulturmøter i litteraturen** – utkast (400 ord · 15 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+- 🟡 **Retorikk i sakprosa** – utkast (367 ord · 15 kort · 10 quiz · 15 i miniprøve · 24 noder i tankekart)
+- 🟡 **Argumentasjon og diskusjon** – utkast (384 ord · 15 kort · 10 quiz · 15 i miniprøve · 25 noder i tankekart)
+- 🟡 **Kilder og fagartikkel** – utkast (380 ord · 15 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+- 🟡 **Setningsanalyse og tekstbinding** – utkast (407 ord · 15 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+- 🟡 **Skriving, revisjon og sidemål** – utkast (436 ord · 15 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+- 🟡 **Norsk i møte med andre språk** – utkast (431 ord · 15 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+- 🔴 **Samiske språk og språkrettigheter** – sjekkes (427 ord · 15 kort · 10 quiz · 15 i miniprøve · 24 noder i tankekart)
+  - Sjekk: Sjekk årstall (Finnefondet 1851, Wexelsen-plakaten 1898, jordsalgsloven 1902, Grunnloven § 108 vedtatt 1988, ILO 169 ratifisert 1990) og beskrivelsen av utbredelsen til lule- og sørsamisk.
+
 ## Kjemi 1 (vg2) – 11 av 11 temaer ferdig
 
 Læreplan: [KJE01-02](https://www.udir.no/lk20/kje01-02/kompetansemaal-og-vurdering/kv532)

@@ -1,0 +1,45 @@
+{
+ "kode": "HIF01-04",
+ "tittel": "Læreplan i historie og filosofi",
+ "url": "https://www.udir.no/lk20/hif01-04",
+ "sett": [
+  {
+   "kode": "KV895",
+   "tittel": "Kompetansemål og vurdering historie og filosofi 1",
+   "maal": [
+    "anvende filosofisk samtale for å utforske oppfatninger, undersøke argumentasjon og vurdere gyldighet",
+    "bruke kilder av ulik art og opphav til å lage fortellinger og drøfte historiske og filosofiske problemstillinger",
+    "reflektere over hvordan tilgangen på kilder påvirker og begrenser hva vi kan vite om fortiden",
+    "gjøre rede for og drøfte kontinuitet og endring i maktstrukturer, frihetsbetingelser og statsdanning i ulike historiske perioder fra antikken til moderne tid og reflektere over forståelsen av makt, frihet og demokrati",
+    "utforske filosofi fra antikken til moderne tid og drøfte etikk, politisk filosofi, metafysikk og erkjennelsesteori",
+    "reflektere over hvordan religion og filosofi har blitt brukt til både å utfordre og å legitimere makt og samfunnsstrukturer, og lagt grunnlag for sannhets- og virkelighetsoppfatning, fra antikken til moderne tid",
+    "gjøre rede for og vurdere hvordan fortellinger er med på å skape mening og forklare hvem vi er eller ønsker å være",
+    "drøfte hvordan ulike historiesyn kan prege vår forståelse og fortolkning av fortiden og nåtiden",
+    "utforske sammenhenger mellom teknologiske, økonomiske og vitenskapelige endringer og vurdere betydningen disse endringene kan ha hatt for samfunnsstrukturer og menneskers livsvilkår og virkelighetsoppfatning",
+    "utforske forholdet mellom miljø og ressursbruk i et historisk perspektiv og reflektere over ulike oppfatninger om forholdet mellom mennesker, dyr og natur",
+    "gjøre rede for virkelighetsoppfatninger fra ulike tradisjoner og deler av verden og reflektere over hvordan mennesket og naturen har blitt verdsatt"
+   ]
+  },
+  {
+   "kode": "KV896",
+   "tittel": "Kompetansemål og vurdering historie og filosofi 2",
+   "maal": [
+    "anvende filosofisk samtale for å utforske og utvikle egne oppfatninger, undersøke argumentasjon og vurdere gyldighet",
+    "finne, bruke og kritisk vurdere ulike kilder av ulik art og opphav, også originaltekster",
+    "drøfte hva som skiller vitenskap fra pseudovitenskap, og vurdere konsekvenser av desinformasjon og konspirasjonsteorier",
+    "drøfte hvordan vi gjennom valg av metoder, teorier, perspektiver og kilder søker kunnskap og erkjennelse, og reflektere over hvordan slike valg påvirker det vi ser, leter etter og forstår",
+    "gjøre rede for kjennetegn og konsekvenser av moderne tenkning og virkelighetsforståelse, og drøfte dette i lys av ulik kritikk av slik tenkning og virkelighetsforståelse",
+    "gjøre rede for historiske prosesser og filosofiske ideer som ledet fram mot det moderne demokratiet, og vurdere hvordan vanetenkning, maktstrukturer og andre hindre har stått, og står, i veien for utviklingen av demokrati og menneskerettigheter",
+    "utforske etisk og eksistensiell tenkning om autonomi, frihet, ansvar og det gode liv, og reflektere over hvordan mennesker forholder seg til og blir preget av disse verdiene",
+    "gjøre rede for og drøfte temaer fra nyere tid som illustrerer etiske og eksistensielle spørsmål",
+    "gjøre rede for sentrale ideologier og økonomiske teorier og vurdere konsekvensene disse har og har hatt for menneskers livsutfoldelse, deltakelse og medborgerskap",
+    "gjøre rede for hvordan ulike former for moderne kommunikasjon og informasjonsteknologi virker inn på det offentlige ordskiftet, og reflektere over hvordan disse skaper både muligheter og begrensninger for menneskers liv og sannhetssøken",
+    "gjøre rede for hvordan intensjon, ståsted og perspektiv preger historieframstillinger, og drøfte hvordan ulike framstillinger og bruk av fortiden kan virke frigjørende eller undertrykkende på individ og samfunn.",
+    "gjøre rede for hvordan historiebevissthet formes og endres ved å vise hvordan vår samtidsforståelse preger våre fortolkninger av fortiden og hvordan våre fortolkninger av fortiden er preget av vår forståelse av oss selv",
+    "drøfte urfolks kultur, verdier og levemåte i brytningen mellom tradisjon og modernitet",
+    "gjøre rede for teknologiens rolle i samfunnet og drøfte om den bidrar til menneskers livsutfoldelse og et bærekraftig samfunn",
+    "utforske forholdet mellom mennesker og natur i forbrukersamfunnet og vurdere ulike ideer og oppfatninger om rettferdighet og menneskets plass i verden"
+   ]
+  }
+ ]
+}

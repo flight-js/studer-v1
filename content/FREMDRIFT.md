@@ -1,6 +1,6 @@
 # Fremdrift: studieinnhold
 
-Status for arbeidet med å lage innhold til alle 78 fag (8. trinn–Vg3), og hvordan man fortsetter.
+Status for arbeidet med å lage innhold til alle 83 fag (8. trinn–Vg3), og hvordan man fortsetter.
 
 ## Ferdig (lastet inn i Supabase, publisert som utkast)
 
@@ -88,8 +88,11 @@ Kompetansemålene ligger i `scripts/innhold/lk20/` (hent flere med `lk20-hent.mj
 | kinesisk-vg1 / -vg2 | FSP01-04 | KV966 (nivå II) – sjekk om skolen bruker nivå I (KV965) |
 | entreprenorskap-og-bedriftsutvikling-1 | ENT01-04 | KV885 |
 | sosialkunnskap | POS02-02 | KV892 |
+| matematikk-2p | MAT05-04 | KV46 |
+| geofag-1 / geofag-2 | GFG01-03 | KV972 / KV973 |
+| historie-og-filosofi-1 / -2 | HIF01-04 | KV895 / KV896 |
 
 
 ## Gjenstår
 
-Alle Vg1-fag (inkl. kinesisk), alle Vg2-fag unntatt Kjemi 1 (inkl. kinesisk og entreprenørskap og bedriftsutvikling 1), alle Vg3-fag.
+Alle Vg1-fag (inkl. kinesisk), alle Vg2-fag unntatt Kjemi 1 (inkl. kinesisk, entreprenørskap og bedriftsutvikling 1, matematikk 2P, geofag 1 og historie og filosofi 1), alle Vg3-fag (inkl. geofag 2 og historie og filosofi 2).

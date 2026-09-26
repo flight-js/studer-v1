@@ -1,0 +1,82 @@
+{
+  "id": "funksjoner",
+  "fagId": "matematikk-1t",
+  "trinnId": "vg1",
+  "name": "Funksjonstyper og egenskaper",
+  "intro": "Polynomfunksjoner, rasjonale funksjoner med asymptoter, eksponentialfunksjoner og potensfunksjoner – og begreper som definisjonsmengde, verdimengde, nullpunkter, ekstremalpunkter og monotoni.",
+  "kompetansemaal": [9],
+  "sammendrag": "## Egenskaper ved funksjoner\n\nNår vi **drøfter** en funksjon, beskriver vi\n\n- **definisjonsmengde** (D_f): x-verdiene funksjonen er definert for\n- **verdimengde** (V_f): y-verdiene funksjonen kan få\n- **nullpunkter**: der f(x) = 0\n- **ekstremalpunkter**: topp- og bunnpunkter\n- om funksjonen er **voksende** eller **avtagende** i ulike intervaller\n- eventuelle **asymptoter**: linjer grafen nærmer seg uten å nå\n\n## Polynomfunksjoner\n\n- **Grad 1**: f(x) = ax + b – rett linje\n- **Grad 2**: f(x) = ax² + bx + c – parabel med ett ekstremalpunkt\n- **Grad 3**: f(x) = ax³ + bx² + cx + d – kan ha to ekstremalpunkter og opptil tre nullpunkter\n\nEn polynomfunksjon av grad n har **høyst n nullpunkter** og **høyst n − 1 ekstremalpunkter**. Den er definert for **alle** x.\n\n## Rasjonale funksjoner\n\nEn **rasjonal funksjon** er en brøk med polynomer i teller og nevner, for eksempel\n\nf(x) = (2x + 1)/(x − 3)\n\n- Funksjonen er **ikke definert** der nevneren er null: D_f = alle x unntatt x = 3.\n- **Vertikal asymptote**: x = 3, fordi nevneren blir null mens telleren ikke blir det. Grafen skyter mot ±∞ nær x = 3.\n- **Horisontal asymptote**: Når telleren og nevneren har samme grad, nærmer f(x) seg forholdet mellom koeffisientene foran de høyeste potensene. Her: **y = 2/1 = 2**.\n\nDen enkleste rasjonale funksjonen er f(x) = 1/x, som har asymptotene x = 0 og y = 0.\n\n## Eksponentialfunksjoner\n\nf(x) = b · aˣ, der a > 0 og a ≠ 1.\n\n- **a > 1**: voksende (eksponentiell vekst), for eksempel 5 · 2ˣ\n- **0 < a < 1**: avtagende, for eksempel 3 · 0,8ˣ\n- Grafen har den horisontale asymptoten **y = 0** og skjærer y-aksen i b.\n- Når b > 0, er funksjonen **alltid positiv** og har ingen nullpunkter.\n\n## Potensfunksjoner\n\nf(x) = a · xᵇ, der **x er grunntallet** og eksponenten b er et fast tall. Eksempler:\n\n- x² og x³ (også polynomfunksjoner)\n- √x = x^(1/2), definert for x ≥ 0\n- 1/x = x⁻¹\n\nPotensfunksjoner brukes blant annet om **areal og volum**: arealet av et kvadrat er A = s², og volumet av en kube er V = s³.\n\nLegg merke til forskjellen: I en **potensfunksjon** står x i **grunntallet** (x²). I en **eksponentialfunksjon** står x i **eksponenten** (2ˣ).\n\n## Digitale verktøy\n\nI GeoGebra kan du tegne grafen og bruke kommandoer som **Nullpunkt**, **Ekstremalpunkt**, **Asymptote** og **Skjæring** for å utforske egenskapene. Forklar alltid hva du ser, og kontroller gjerne algebraisk.",
+  "flashcards": [
+    { "term": "Definisjonsmengde", "def": "x-verdiene funksjonen er definert for." },
+    { "term": "Verdimengde", "def": "y-verdiene funksjonen kan få." },
+    { "term": "Ekstremalpunkt", "def": "Topp- eller bunnpunkt." },
+    { "term": "Asymptote", "def": "Linje grafen nærmer seg uten å nå." },
+    { "term": "Polynomfunksjon av grad n", "def": "Høyst n nullpunkter og n − 1 ekstremalpunkter." },
+    { "term": "Rasjonal funksjon", "def": "Brøk med polynomer i teller og nevner." },
+    { "term": "Vertikal asymptote", "def": "Der nevneren er null og telleren ikke er null." },
+    { "term": "Horisontal asymptote ved lik grad", "def": "Forholdet mellom koeffisientene foran høyeste potens." },
+    { "term": "f(x) = (2x + 1)/(x − 3)", "def": "Asymptoter x = 3 og y = 2." },
+    { "term": "Eksponentialfunksjon", "def": "f(x) = b · aˣ med x i eksponenten." },
+    { "term": "a > 1 i b · aˣ", "def": "Voksende funksjon." },
+    { "term": "0 < a < 1 i b · aˣ", "def": "Avtagende funksjon." },
+    { "term": "Potensfunksjon", "def": "f(x) = a · xᵇ med x i grunntallet." },
+    { "term": "√x som potens", "def": "x^(1/2)" },
+    { "term": "1/x som potens", "def": "x⁻¹" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvor mange nullpunkter kan en tredjegradsfunksjon høyst ha?", "options": ["2", "3", "4", "Uendelig mange"], "correct": 1, "explain": "En polynomfunksjon av grad n har høyst n nullpunkter." },
+    { "id": "q02", "text": "Hva er den vertikale asymptoten til f(x) = (2x + 1)/(x − 3)?", "options": ["x = 3", "x = −3", "y = 2", "x = −1/2"], "correct": 0, "explain": "Nevneren er null for x = 3." },
+    { "id": "q03", "text": "Hva er den horisontale asymptoten til f(x) = (2x + 1)/(x − 3)?", "options": ["y = 0", "y = 3", "y = 2", "y = 1"], "correct": 2, "explain": "Samme grad i teller og nevner gir y = 2/1." },
+    { "id": "q04", "text": "Er f(x) = 3 · 0,8ˣ voksende eller avtagende?", "options": ["Voksende", "Konstant", "Først voksende, så avtagende", "Avtagende"], "correct": 3, "explain": "Grunntallet 0,8 er mellom 0 og 1." },
+    { "id": "q05", "text": "Hvilken funksjon er en potensfunksjon?", "options": ["f(x) = 4x³", "f(x) = 4 · 3ˣ", "f(x) = 4/(x − 3)", "f(x) = 4x + 3"], "correct": 0, "explain": "x står i grunntallet og eksponenten er fast." },
+    { "id": "q06", "text": "Hvilken linje nærmer grafen til f(x) = 5 · 2ˣ seg når x blir svært negativ?", "options": ["y = 5", "y = 0", "x = 0", "y = 2"], "correct": 1, "explain": "2ˣ går mot 0 når x går mot −∞." },
+    { "id": "q07", "text": "Hva er definisjonsmengden til f(x) = 1/(x + 2)?", "options": ["Alle x", "Alle x unntatt x = 2", "Alle x unntatt x = −2", "Bare x > 0"], "correct": 2, "explain": "Nevneren er null for x = −2." },
+    { "id": "q08", "text": "Hvordan kan √x skrives som en potens?", "options": ["x²", "x⁻¹", "2x", "x^(1/2)"], "correct": 3, "explain": "Kvadratroten tilsvarer eksponenten 1/2." },
+    { "id": "q09", "text": "Hvor mange ekstremalpunkter har en andregradsfunksjon?", "options": ["1", "2", "0", "3"], "correct": 0, "explain": "Parabelen har ett topp- eller bunnpunkt." },
+    { "id": "q10", "text": "Hva er verdimengden til en funksjon?", "options": ["Alle x-verdiene", "Alle y-verdiene funksjonen kan få", "Antall nullpunkter", "Stigningstallet"], "correct": 1, "explain": "Definisjonsmengden er x-verdiene." }
+  ],
+  "mindmap": {
+    "label": "Funksjonstyper",
+    "children": [
+      { "label": "Egenskaper", "children": [
+        { "label": "Definisjons- og verdimengde" },
+        { "label": "Nullpunkter" },
+        { "label": "Ekstremalpunkter" },
+        { "label": "Asymptoter" }
+      ] },
+      { "label": "Polynomfunksjoner", "children": [
+        { "label": "Grad 1, 2, 3" },
+        { "label": "Høyst n nullpunkter" }
+      ] },
+      { "label": "Rasjonale", "children": [
+        { "label": "Nevner ≠ 0" },
+        { "label": "Vertikal asymptote" },
+        { "label": "Horisontal asymptote" }
+      ] },
+      { "label": "Eksponential", "children": [
+        { "label": "b · aˣ" },
+        { "label": "Vekst og nedgang" },
+        { "label": "Asymptote y = 0" }
+      ] },
+      { "label": "Potens", "children": [
+        { "label": "a · xᵇ" },
+        { "label": "√x og 1/x" },
+        { "label": "Areal og volum" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Eksponentialfunksjonen f(x) = 2ˣ er alltid positiv.", "correct": true, "explain": "Den nærmer seg 0, men blir aldri null eller negativ." },
+      { "id": "m02", "type": "sant-usant", "text": "En rasjonal funksjon er definert der nevneren er null.", "correct": false, "explain": "Vi kan ikke dele på null." },
+      { "id": "m03", "type": "sant-usant", "text": "Grafen til f(x) = x² er en parabel.", "correct": true, "explain": "Den har bunnpunkt i origo." },
+      { "id": "m04", "type": "sant-usant", "text": "En andregradsfunksjon kan ha tre nullpunkter.", "correct": false, "explain": "Den har høyst to." },
+      { "id": "m05", "type": "flervalg", "text": "Hva slags funksjon er f(x) = 1/x?", "options": ["Lineær", "Eksponentiell", "Potensfunksjon med eksponent −1", "Andregradsfunksjon"], "correct": 2, "explain": "1/x = x⁻¹. Den er også en rasjonal funksjon." },
+      { "id": "m06", "type": "flervalg", "text": "For hvilke a er f(x) = aˣ voksende?", "options": ["a > 1", "0 < a < 1", "a < 0", "a = 1"], "correct": 0, "explain": "Grunntall større enn 1 gir vekst." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er den vertikale asymptoten til f(x) = 3/(x − 1) + 2?", "options": ["x = 2", "x = 1", "y = 1", "x = 3"], "correct": 1, "explain": "Nevneren er null for x = 1. Den horisontale asymptoten er y = 2." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

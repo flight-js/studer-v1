@@ -1,0 +1,80 @@
+{
+  "id": "polynomdivisjon",
+  "fagId": "matematikk-1t",
+  "trinnId": "vg1",
+  "name": "Polynomdivisjon",
+  "intro": "Hva polynomer er, hvordan polynomdivisjon fungerer, sammenhengen mellom nullpunkter og faktorer, faktorisering og løsning av tredjegradslikninger, forkorting av rasjonale uttrykk og ulikheter.",
+  "kompetansemaal": [11],
+  "sammendrag": "## Polynomer\n\nEt **polynom** er en sum av ledd der x bare har **ikke-negative hele tall** som eksponenter, for eksempel P(x) = 4x³ − 2x + 7. Den høyeste eksponenten er **graden** – her 3. Et polynom av grad n har **høyst n nullpunkter**.\n\n## Polynomdivisjon\n\n**Polynomdivisjon** ligner vanlig oppstilt divisjon. Vi deler ledd for ledd, ganger tilbake og trekker fra:\n\n(x² − 5x + 6) : (x − 2)\n\n1. x² : x = **x**. Gang tilbake: x(x − 2) = x² − 2x. Trekk fra: (x² − 5x) − (x² − 2x) = −3x. Ta ned +6.\n2. −3x : x = **−3**. Gang tilbake: −3(x − 2) = −3x + 6. Trekk fra: 0.\n\nSvaret er **x − 3**, uten rest. Altså er x² − 5x + 6 = (x − 2)(x − 3).\n\nDivisjonen **går ikke alltid opp**: (x² + 3x + 5) : (x + 1) = x + 2 med **rest 3**, som vi kan skrive x + 2 + 3/(x + 1).\n\n## Nullpunkter og faktorer\n\nEn viktig sammenheng er at\n\n**P(a) = 0 ⇔ (x − a) er en faktor i P(x)**\n\nDa går divisjonen P(x) : (x − a) opp. Dette brukes til å **faktorisere** polynomer av høyere grad.\n\n## Eksempel: tredjegradslikning\n\nLøs P(x) = x³ − 6x² + 11x − 6 = 0.\n\n1. **Gjett et nullpunkt**. Heltallige nullpunkter må være **divisorer i konstantleddet** 6: ±1, ±2, ±3, ±6. Vi prøver x = 1: P(1) = 1 − 6 + 11 − 6 = **0**.\n2. **Divider**: (x³ − 6x² + 11x − 6) : (x − 1) = x² − 5x + 6.\n3. **Løs andregradslikningen**: x² − 5x + 6 = 0 gir x = 2 og x = 3.\n\nDermed er P(x) = (x − 1)(x − 2)(x − 3), og løsningene er **x = 1, x = 2 og x = 3**.\n\n## Rasjonale uttrykk\n\nFaktorisering gjør det mulig å **forkorte** brøker med polynomer:\n\n(x² − 4)/(x − 2) = (x + 2)(x − 2)/(x − 2) = **x + 2**, for x ≠ 2\n\nLegg merke til at uttrykket **ikke er definert** for x = 2, selv om det forkortede uttrykket er det.\n\n## Ulikheter og drøfting\n\nNår et polynom er faktorisert, kan vi løse **ulikheter** med **fortegnsskjema**: x³ − 6x² + 11x − 6 > 0 er oppfylt når 1 < x < 2 eller x > 3. Faktoriseringen viser også hvor grafen **skjærer x-aksen**, og polynomdivisjon kan brukes til å finne **skrå asymptoter** til rasjonale funksjoner.",
+  "flashcards": [
+    { "term": "Polynom", "def": "Sum av ledd der x har ikke-negative hele tall som eksponenter." },
+    { "term": "Grad", "def": "Den høyeste eksponenten i et polynom." },
+    { "term": "Antall nullpunkter", "def": "Et polynom av grad n har høyst n nullpunkter." },
+    { "term": "Polynomdivisjon", "def": "Oppstilt divisjon av polynomer: del, gang tilbake, trekk fra." },
+    { "term": "Rest", "def": "Det som blir igjen når divisjonen ikke går opp." },
+    { "term": "Faktorsetningen", "def": "P(a) = 0 ⇔ (x − a) er en faktor i P(x)." },
+    { "term": "Mulige heltallige nullpunkter", "def": "Divisorer i konstantleddet." },
+    { "term": "x² − 5x + 6", "def": "(x − 2)(x − 3)" },
+    { "term": "x³ − 6x² + 11x − 6", "def": "(x − 1)(x − 2)(x − 3)" },
+    { "term": "(x² + 3x + 5) : (x + 1)", "def": "x + 2 med rest 3." },
+    { "term": "Rasjonalt uttrykk", "def": "Brøk der teller og nevner er polynomer." },
+    { "term": "Forkorte rasjonale uttrykk", "def": "Faktoriser og stryk felles faktorer." },
+    { "term": "Definisjonsmengde for brøk", "def": "Nevneren kan ikke være null." },
+    { "term": "Fortegnsskjema", "def": "Brukes til å løse ulikheter med faktoriserte polynomer." },
+    { "term": "Skrå asymptote", "def": "Kan finnes med polynomdivisjon for rasjonale funksjoner." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er (x² − 5x + 6) : (x − 2)?", "options": ["x − 3", "x + 3", "x − 2", "x² − 3"], "correct": 0, "explain": "(x − 2)(x − 3) = x² − 5x + 6." },
+    { "id": "q02", "text": "P(x) = x³ − 6x² + 11x − 6 og P(1) = 0. Hva betyr det?", "options": ["(x + 1) er en faktor", "(x − 1) er en faktor", "P har ingen nullpunkter", "P(x) = 1 for alle x"], "correct": 1, "explain": "P(a) = 0 betyr at (x − a) er en faktor." },
+    { "id": "q03", "text": "Hva er graden til polynomet 4x³ − 2x + 7?", "options": ["7", "4", "3", "1"], "correct": 2, "explain": "Den høyeste eksponenten er 3." },
+    { "id": "q04", "text": "Faktoriser x³ − 6x² + 11x − 6 fullstendig.", "options": ["(x + 1)(x + 2)(x + 3)", "(x − 1)(x² + 6)", "(x − 6)(x² + 1)", "(x − 1)(x − 2)(x − 3)"], "correct": 3, "explain": "Divider med (x − 1) og faktoriser andregradsuttrykket." },
+    { "id": "q05", "text": "Hva er (x² + 3x + 5) : (x + 1)?", "options": ["x + 2 med rest 3", "x + 3 med rest 2", "x + 4 med rest 1", "x + 2 uten rest"], "correct": 0, "explain": "(x + 1)(x + 2) = x² + 3x + 2, og 5 − 2 = 3." },
+    { "id": "q06", "text": "Forkort (x² − 4)/(x − 2).", "options": ["x − 2", "x + 2", "x² − 2", "2"], "correct": 1, "explain": "x² − 4 = (x + 2)(x − 2)." },
+    { "id": "q07", "text": "Hvilke tall kan være heltallige nullpunkter i x³ − 6x² + 11x − 6?", "options": ["Bare 0", "Divisorer i 11", "Divisorer i 6: ±1, ±2, ±3, ±6", "Alle tall mellom −10 og 10"], "correct": 2, "explain": "Heltallige nullpunkter må gå opp i konstantleddet." },
+    { "id": "q08", "text": "Når går polynomdivisjonen P(x) : (x − a) opp?", "options": ["Når P(0) = a", "Når a = 0", "Alltid", "Når P(a) = 0"], "correct": 3, "explain": "Da er (x − a) en faktor." },
+    { "id": "q09", "text": "Løs x³ − 6x² + 11x − 6 = 0.", "options": ["x = 1, x = 2 eller x = 3", "x = −1, x = −2 eller x = −3", "x = 6", "x = 0"], "correct": 0, "explain": "Faktoriseringen (x − 1)(x − 2)(x − 3) gir løsningene." },
+    { "id": "q10", "text": "Hvorfor er polynomdivisjon nyttig?", "options": ["For å regne prosent", "For å faktorisere og løse likninger av høyere grad", "For å finne arealet av trekanter", "For å regne om enheter"], "correct": 1, "explain": "Den reduserer graden slik at vi kan bruke kjente metoder." }
+  ],
+  "mindmap": {
+    "label": "Polynomdivisjon",
+    "children": [
+      { "label": "Polynomer", "children": [
+        { "label": "Grad" },
+        { "label": "Høyst n nullpunkter" }
+      ] },
+      { "label": "Divisjon", "children": [
+        { "label": "Del, gang tilbake, trekk fra" },
+        { "label": "Med og uten rest" }
+      ] },
+      { "label": "Faktorsetningen", "children": [
+        { "label": "P(a) = 0" },
+        { "label": "(x − a) er faktor" },
+        { "label": "Divisorer i konstantleddet" }
+      ] },
+      { "label": "Bruk", "children": [
+        { "label": "Tredjegradslikninger" },
+        { "label": "Faktorisering" },
+        { "label": "Ulikheter" }
+      ] },
+      { "label": "Rasjonale uttrykk", "children": [
+        { "label": "Forkorte" },
+        { "label": "Nevner ≠ 0" },
+        { "label": "Asymptoter" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "x − 2 er en faktor i x² − 4.", "correct": true, "explain": "x² − 4 = (x − 2)(x + 2)." },
+      { "id": "m02", "type": "sant-usant", "text": "Et polynom av tredje grad kan ha fire nullpunkter.", "correct": false, "explain": "Det har høyst tre." },
+      { "id": "m03", "type": "sant-usant", "text": "Polynomdivisjon kan gi en rest.", "correct": true, "explain": "Da er ikke divisoren en faktor." },
+      { "id": "m04", "type": "sant-usant", "text": "(x² − 4)/(x − 2) er definert for x = 2.", "correct": false, "explain": "Nevneren blir null for x = 2." },
+      { "id": "m05", "type": "flervalg", "text": "P(x) = x² + x − 6 og P(2) = 0. Hvilken faktor har P?", "options": ["(x + 2)", "(x − 2)", "(x − 6)", "(x + 6)"], "correct": 1, "explain": "P(2) = 0 betyr at (x − 2) er en faktor." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er (x² + x − 6) : (x − 2)?", "options": ["x − 3", "x + 2", "x + 3", "x − 2"], "correct": 2, "explain": "(x − 2)(x + 3) = x² + x − 6." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er et polynom?", "options": ["En sum av ledd der x har ikke-negative hele tall som eksponenter", "En brøk med x i nevneren", "En funksjon med x i eksponenten", "En rotfunksjon"], "correct": 0, "explain": "For eksempel 4x³ − 2x + 7." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

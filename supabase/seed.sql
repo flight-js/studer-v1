@@ -48,9 +48,9 @@ insert into public.fag (id, trinn_id, navn, lareplan_kode, lareplan_url, kompeta
   ('spansk-10', '10', 'Spansk', 'FSP01-04', 'https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurdering/kv965', '[{"nr":1,"tekst":"lytte til og forstå enkel og tydelig tale om personlige og dagligdagse emner"},{"nr":2,"tekst":"delta i enkle samtaler i dagligdagse situasjoner om aktiviteter og kjente emner"},{"nr":3,"tekst":"muntlig fortelle om dagligliv og opplevelser og uttrykke meninger, også spontant"},{"nr":4,"tekst":"lese og forstå tilpassede og enklere autentiske tekster om personlige og dagligdagse emner"},{"nr":5,"tekst":"skrive enkle tekster om dagligliv og opplevelser som forteller, beskriver og informerer, med og uten hjelpemidler"},{"nr":6,"tekst":"bruke enkle språklige strukturer, regler for uttale og rettskriving og språkets offisielle alfabet eller tegn for å kommunisere på en situasjonstilpasset måte"},{"nr":7,"tekst":"bruke relevante lærings- og kommunikasjonsstrategier, digitale ressurser og erfaringer fra tidligere språklæring i læringsprosessen"},{"nr":8,"tekst":"utforske og beskrive levemåter, tradisjoner og geografi i områder der språket snakkes, og se sammenhenger med egen bakgrunn"},{"nr":9,"tekst":"utforske og beskrive kunstneriske og kulturelle uttrykk fra områder der språket snakkes, og gi uttrykk for egne opplevelser"}]'::jsonb, 9),
   ('arbeidslivsfag-10', '10', 'Arbeidslivsfag', 'ARB01-03', 'https://www.udir.no/lk20/arb01-03/kompetansemaal-og-vurdering/kv107', '[{"nr":1,"tekst":"undersøke behov for varer og tjenester på skolen og i lokalsamfunnet"},{"nr":2,"tekst":"planlegge praktiske og yrkesrettede arbeidsoppdrag"},{"nr":3,"tekst":"produsere og levere varer og tjenester etter kvalitetskrav"},{"nr":4,"tekst":"bruke fagbegreper, arbeidsmetoder, verktøy, materialer og teknologi tilpasset arbeidsoppdrag og begrunne valg"},{"nr":5,"tekst":"samarbeide, fremme forslag og delta i beslutninger i et arbeidsfellesskap"},{"nr":6,"tekst":"ivareta bærekraftige prinsipper i alle deler av arbeidsoppdraget"},{"nr":7,"tekst":"beskrive og vurdere risiko, og følge etiske retningslinjer og arbeidslivets regler i arbeidsoppdraget"},{"nr":8,"tekst":"vurdere sin egen og gruppens arbeidsinnsats, arbeidsprosess og arbeidsoppdragets resultat"}]'::jsonb, 10),
   ('utdanningsvalg-10', '10', 'Utdanningsvalg', 'UTV01-03', 'https://www.udir.no/lk20/utv01-03/kompetansemaal-og-vurdering/kv106', '[{"nr":1,"tekst":"beskrive egne styrker og egenskaper og interesser, og kunne se dette i sammenheng med utdannings- og yrkesønsker og livsmestring"},{"nr":2,"tekst":"samle, analysere og bruke informasjon om utdanning og arbeid"},{"nr":3,"tekst":"utforske utdanningsmuligheter på varierte måter, og gjøre rede for ulike utdanningsveier og hvilke yrkesområder de kan føre til"},{"nr":4,"tekst":"tilegne seg kunnskap om arbeidslivet gjennom utprøving og utforskning og reflektere over hvordan bærekraftsmål, konjunkturer og teknologi påvirker arbeidsmarked, yrker og arbeidsmåter"},{"nr":5,"tekst":"diskutere konsekvenser av utenforskap og forstå økonomisk og sosial verdi av arbeid på individ- og samfunnsnivå"},{"nr":6,"tekst":"gjøre rede for hva og hvem som kan påvirke karrierevalg og hva dette har å si for egne valg"},{"nr":7,"tekst":"utforske og drøfte kjønnsrelaterte perspektiver i karrierevalg"},{"nr":8,"tekst":"se muligheter og omsette egne idéer til handling og valg, og reflektere sammen med andre over konsekvenser av karrierevalg"},{"nr":9,"tekst":"utvikle og bruke mestringsstrategier for å håndtere overganger og utfordringer relatert til utdanning og karriere"},{"nr":10,"tekst":"tolke stillingsannonser, skrive CV og jobbsøknad og tilegne seg kunnskap om hvordan man gjør et godt jobbintervju"}]'::jsonb, 11),
-  ('norsk-vg1', 'vg1', 'Norsk', null, null, '[]'::jsonb, 0),
-  ('matematikk-1p', 'vg1', 'Matematikk 1P', null, null, '[]'::jsonb, 1),
-  ('matematikk-1t', 'vg1', 'Matematikk 1T', null, null, '[]'::jsonb, 2),
+  ('norsk-vg1', 'vg1', 'Norsk', 'NOR01-08', 'https://www.udir.no/lk20/nor01-08/kompetansemaal-og-vurdering/kv1113', '[{"nr":1,"tekst":"lese, analysere og tolke nyere skjønnlitteratur på bokmål og nynorsk og i oversettelse fra samiske og andre språk"},{"nr":2,"tekst":"reflektere over hvordan tekster framstiller møter mellom ulike kulturer"},{"nr":3,"tekst":"gjøre rede for og reflektere over bruken av retoriske appellformer og språklige virkemidler i sakprosatekster"},{"nr":4,"tekst":"lytte til andre, bygge opp saklig argumentasjon og bruke retoriske appellformer i diskusjoner"},{"nr":5,"tekst":"bruke ulike kilder på en kritisk, selvstendig og etterrettelig måte"},{"nr":6,"tekst":"greie ut om og drøfte norskfaglige eller tverrfaglige temaer muntlig"},{"nr":7,"tekst":"skrive fagartikler som greier ut om og drøfter norskfaglige eller tverrfaglige temaer"},{"nr":8,"tekst":"bruke fagspråk til å beskrive setningsoppbygningen og sammenhengen mellom setninger i arbeid med tekster"},{"nr":9,"tekst":"kombinere virkemidler og uttrykksformer kreativt i egen tekstskaping"},{"nr":10,"tekst":"vurdere og bearbeide egne tekster ut fra tilbakemeldinger og faglige kriterier"},{"nr":11,"tekst":"skrive tekster med god struktur og tekstbinding og mestre tegnsetting og rettskriving på hovedmål og sidemål"},{"nr":12,"tekst":"sammenligne særtrekk ved norsk med andre språk og vise hvordan språklige møter kan skape språkendringer"},{"nr":13,"tekst":"gjøre rede for utbredelsen av de samiske språkene i Norge, fornorskingspolitikken og de språklige rettighetene samer har som urfolk"}]'::jsonb, 0),
+  ('matematikk-1p', 'vg1', 'Matematikk 1P', 'MAT08-01', 'https://www.udir.no/lk20/mat08-01/kompetansemaal-og-vurdering/kv31', '[{"nr":1,"tekst":"lese, hente ut og vurdere matematikk i tekstar om situasjonar frå lokalmiljøet, gjere berekningar knytte til dette og presentere og argumentere for resultata"},{"nr":2,"tekst":"utforske korleis ulike premissar vil kunne påverke korleis matematiske problem frå samfunnsliv og arbeidsliv blir løyste"},{"nr":3,"tekst":"modellere situasjonar knytte til tema frå samfunnsliv og arbeidsliv, presentere og argumentere for resultata og for når modellane er gyldige"},{"nr":4,"tekst":"identifisere variable storleikar i ulike situasjonar og bruke dei til utforsking og generalisering"},{"nr":5,"tekst":"tolke og bruke formlar som gjeld samfunnsliv og arbeidsliv"},{"nr":6,"tekst":"bruke prosent, prosentpoeng, promille og vekstfaktor i utrekningar og presentere og grunngi løysingar"},{"nr":7,"tekst":"utforske, beskrive og bruke omgrepa proporsjonalitet og omvend proporsjonalitet"},{"nr":8,"tekst":"tolke og bruke samansette måleiningar i praktiske samanhengar og velje eigna måleining"},{"nr":9,"tekst":"tolke og bruke funksjonar i matematisk modellering og problemløysing"},{"nr":10,"tekst":"planleggje, utføre og presentere sjølvstendig arbeid knytt til modellering og funksjonar innanfor samfunnsfaglege tema"},{"nr":11,"tekst":"bruke digitale verktøy i utforsking og problemløysing knytt til eigenskapar ved funksjonar, og diskutere løysingane"},{"nr":12,"tekst":"tolke og rekne med rotuttrykk, potensar og tal på standardform"}]'::jsonb, 1),
+  ('matematikk-1t', 'vg1', 'Matematikk 1T', 'MAT09-02', 'https://www.udir.no/lk20/mat09-02/kompetansemaal-og-vurdering/kv979', '[{"nr":1,"tekst":"formulere og løyse problem ved hjelp av algoritmisk tenking, ulike problemløysingsstrategiar, digitale verktøy og programmering"},{"nr":2,"tekst":"lese og forstå matematiske bevis og utforske og utvikle bevis i relevante matematiske emne"},{"nr":3,"tekst":"identifisere variable storleikar i ulike situasjonar, setje opp formlar og utforske desse ved hjelp av digitale verktøy"},{"nr":4,"tekst":"utforske strategiar for å løyse likningar, likningssystem og ulikskapar og argumentere for tenkjemåtane sine"},{"nr":5,"tekst":"forklare forskjellen mellom ein identitet, ei likning, eit algebraisk uttrykk og ein funksjon"},{"nr":6,"tekst":"utforske samanhengar mellom andregradslikningar og andregradsulikskapar, andregradsfunksjonar og kvadratsetningane og bruke samanhengane i problemløysing"},{"nr":7,"tekst":"modellere situasjonar knytte til ulike tema, drøfte, presentere og forklare resultata og argumentere for om modellane er gyldige"},{"nr":8,"tekst":"lese, hente ut og vurdere matematikk i relevante tekstar om ulike tema og presentere relevante berekningar og analysar av resultata"},{"nr":9,"tekst":"utforske og beskrive eigenskapane ved polynomfunksjonar, rasjonale funksjonar, eksponentialfunksjonar og potensfunksjonar"},{"nr":10,"tekst":"bruke gjennomsnittleg og momentan vekstfart i konkrete døme og gjere greie for den deriverte"},{"nr":11,"tekst":"forklare polynomdivisjon og bruke det til å omskrive algebraiske uttrykk, drøfte funksjonar og løyse likningar og ulikskapar"},{"nr":12,"tekst":"gjere greie for definisjonane av sinus, cosinus og tangens og bruke trigonometri til å berekne lengder, vinklar og areal i vilkårlege trekantar"},{"nr":13,"tekst":"grunngi sinus-, cosinus- og arealsetninga"},{"nr":14,"tekst":"bruke trigonometri til å analysere og løyse samansette teoretiske og praktiske problem med lengder, vinklar og areal"}]'::jsonb, 2),
   ('engelsk-vg1', 'vg1', 'Engelsk', null, null, '[]'::jsonb, 3),
   ('naturfag-vg1', 'vg1', 'Naturfag', null, null, '[]'::jsonb, 4),
   ('geografi-vg1', 'vg1', 'Geografi', null, null, '[]'::jsonb, 5),
@@ -61,36 +61,41 @@ insert into public.fag (id, trinn_id, navn, lareplan_kode, lareplan_url, kompeta
   ('kinesisk-vg1', 'vg1', 'Kinesisk', null, null, '[]'::jsonb, 10),
   ('norsk-vg2', 'vg2', 'Norsk', null, null, '[]'::jsonb, 0),
   ('historie-vg2', 'vg2', 'Historie', null, null, '[]'::jsonb, 1),
-  ('tysk-vg2', 'vg2', 'Tysk', null, null, '[]'::jsonb, 2),
-  ('fransk-vg2', 'vg2', 'Fransk', null, null, '[]'::jsonb, 3),
-  ('spansk-vg2', 'vg2', 'Spansk', null, null, '[]'::jsonb, 4),
-  ('kinesisk-vg2', 'vg2', 'Kinesisk', null, null, '[]'::jsonb, 5),
-  ('kjemi-1', 'vg2', 'Kjemi 1', 'KJE01-02', 'https://www.udir.no/lk20/kje01-02/kompetansemaal-og-vurdering/kv532', '[{"nr":1,"kort":"Kjemisk terminologi og navnsetting","tekst":"forstå og bruke kjemisk terminologi og regler for navnsetting i faglig kommunikasjon"},{"nr":2,"kort":"Forsøk, usikkerhet og feilkilder","tekst":"planlegge og gjennomføre forsøk, estimere usikkerhet og vurdere feilkilder, presentere resultater og argumentere for gyldigheten av resultater og konklusjoner"},{"nr":3,"kort":"Sikkerhetsdatablad og HMS","tekst":"bruke informasjon fra sikkerhetsdatablad til å gjøre vurderinger knyttet til helse, miljø og sikkerhet i praktisk arbeid"},{"nr":4,"kort":"Data, simuleringer og beregninger","tekst":"bruke data, simuleringer og beregninger i tolkninger og til å trekke konklusjoner"},{"nr":5,"kort":"Modeller, styrker og begrensninger","tekst":"bruke modeller til å forklare observasjoner og kjemiske fenomener, og argumentere for modellenes styrker og begrensinger"},{"nr":6,"kort":"Periodesystemet og periodiske trender","tekst":"gjøre rede for oppbygningen av periodesystemet, og bruke kjerneladning og elektronkonfigurasjon til å forklare periodiske trender"},{"nr":7,"kort":"Kjemisk binding, molekylgeometri og struktur","tekst":"gjøre rede for kjemisk binding som elektrostatiske krefter som virker mellom partikler, og bruke dette til å forklare molekylgeometri og organiske og uorganiske stoffers struktur, sammensetning og egenskaper"},{"nr":8,"kort":"Beregninger på reaksjoner og reaksjonstyper","tekst":"utforske og gjøre beregninger på kjemiske reaksjoner, og bruke observasjoner og teoretiske vurderinger til å identifisere reaksjonstype"},{"nr":9,"kort":"Konsentrasjon og ulike enheter","tekst":"gjøre beregninger med ulike enheter for konsentrasjon og bruke stoffkonsentrasjon i vurderinger av vann- og luftkvalitet"},{"nr":10,"kort":"Volumetrisk og gravimetrisk titreranalyse","tekst":"gjennomføre volumetrisk og gravimetrisk titreranalyse og drøfte bruk av titreranalyse"},{"nr":11,"kort":"Atomets oppbygning, spektre og spektroskopi","tekst":"gjøre rede for sammenhengen mellom atomets oppbygning og grunnstoffers absorbsjons- og emisjonsspektre og bruke spektroskopiske metoder i kvalitativ og kvantitativ analyse"},{"nr":12,"kort":"Entalpi og entalpiendringer","tekst":"gjøre rede for entalpi og bruke beregninger og forsøk til å utforske entalpiendringer i reaksjoner"},{"nr":13,"kort":"Kollisjonsteori, reaksjonsfart og likevekt","tekst":"gjøre rede for kollisjonsteori og utforske faktorer som påvirker reaksjonsfart og kjemisk likevekt"},{"nr":14,"kort":"Løselighet: ladning, polaritet og temperatur","tekst":"utforske løseligheten til stoffer, og gjøre rede for betydningen av ladning, polaritet og temperatur for løselighet"},{"nr":15,"kort":"Syre, base, protolyse og pH","tekst":"gjøre rede for begrepene syre, base, protolyse og pH, og utforske egenskapene til sterke og svake syrer og baser"},{"nr":16,"kort":"Grønn kjemi og bærekraft","tekst":"gjøre rede for prinsipper for grønn kjemi og drøfte hvordan bruk av prinsippene kan bidra til bærekraftig utvikling"},{"nr":17,"kort":"Kilder og kildekritikk","tekst":"presentere kjemifaglig innhold fra ulike kilder, kritisk vurdere kildene og bruke relevant teori til å drøfte innholdet"}]'::jsonb, 6),
-  ('fysikk-1', 'vg2', 'Fysikk 1', null, null, '[]'::jsonb, 7),
-  ('biologi-1', 'vg2', 'Biologi 1', null, null, '[]'::jsonb, 8),
-  ('matematikk-r1', 'vg2', 'Matematikk R1', null, null, '[]'::jsonb, 9),
-  ('matematikk-s1', 'vg2', 'Matematikk S1', null, null, '[]'::jsonb, 10),
-  ('informasjonsteknologi-1', 'vg2', 'Informasjonsteknologi 1', null, null, '[]'::jsonb, 11),
-  ('teknologi-og-forskningslare-1', 'vg2', 'Teknologi og forskningslære 1', null, null, '[]'::jsonb, 12),
-  ('sosiologi-og-sosialantropologi', 'vg2', 'Sosiologi og sosialantropologi', null, null, '[]'::jsonb, 13),
-  ('politikk-og-menneskerettigheter', 'vg2', 'Politikk og menneskerettigheter', null, null, '[]'::jsonb, 14),
-  ('rettslare-1', 'vg2', 'Rettslære 1', null, null, '[]'::jsonb, 15),
-  ('psykologi-1', 'vg2', 'Psykologi 1', null, null, '[]'::jsonb, 16),
-  ('markedsforing-og-ledelse-1', 'vg2', 'Markedsføring og ledelse 1', null, null, '[]'::jsonb, 17),
-  ('entreprenorskap-og-bedriftsutvikling-1', 'vg2', 'Entreprenørskap og bedriftsutvikling 1', null, null, '[]'::jsonb, 18),
-  ('samfunnsokonomi-1', 'vg2', 'Samfunnsøkonomi 1', null, null, '[]'::jsonb, 19),
+  ('matematikk-2p', 'vg2', 'Matematikk 2P', null, null, '[]'::jsonb, 2),
+  ('tysk-vg2', 'vg2', 'Tysk', null, null, '[]'::jsonb, 3),
+  ('fransk-vg2', 'vg2', 'Fransk', null, null, '[]'::jsonb, 4),
+  ('spansk-vg2', 'vg2', 'Spansk', null, null, '[]'::jsonb, 5),
+  ('kinesisk-vg2', 'vg2', 'Kinesisk', null, null, '[]'::jsonb, 6),
+  ('kjemi-1', 'vg2', 'Kjemi 1', 'KJE01-02', 'https://www.udir.no/lk20/kje01-02/kompetansemaal-og-vurdering/kv532', '[{"nr":1,"kort":"Kjemisk terminologi og navnsetting","tekst":"forstå og bruke kjemisk terminologi og regler for navnsetting i faglig kommunikasjon"},{"nr":2,"kort":"Forsøk, usikkerhet og feilkilder","tekst":"planlegge og gjennomføre forsøk, estimere usikkerhet og vurdere feilkilder, presentere resultater og argumentere for gyldigheten av resultater og konklusjoner"},{"nr":3,"kort":"Sikkerhetsdatablad og HMS","tekst":"bruke informasjon fra sikkerhetsdatablad til å gjøre vurderinger knyttet til helse, miljø og sikkerhet i praktisk arbeid"},{"nr":4,"kort":"Data, simuleringer og beregninger","tekst":"bruke data, simuleringer og beregninger i tolkninger og til å trekke konklusjoner"},{"nr":5,"kort":"Modeller, styrker og begrensninger","tekst":"bruke modeller til å forklare observasjoner og kjemiske fenomener, og argumentere for modellenes styrker og begrensinger"},{"nr":6,"kort":"Periodesystemet og periodiske trender","tekst":"gjøre rede for oppbygningen av periodesystemet, og bruke kjerneladning og elektronkonfigurasjon til å forklare periodiske trender"},{"nr":7,"kort":"Kjemisk binding, molekylgeometri og struktur","tekst":"gjøre rede for kjemisk binding som elektrostatiske krefter som virker mellom partikler, og bruke dette til å forklare molekylgeometri og organiske og uorganiske stoffers struktur, sammensetning og egenskaper"},{"nr":8,"kort":"Beregninger på reaksjoner og reaksjonstyper","tekst":"utforske og gjøre beregninger på kjemiske reaksjoner, og bruke observasjoner og teoretiske vurderinger til å identifisere reaksjonstype"},{"nr":9,"kort":"Konsentrasjon og ulike enheter","tekst":"gjøre beregninger med ulike enheter for konsentrasjon og bruke stoffkonsentrasjon i vurderinger av vann- og luftkvalitet"},{"nr":10,"kort":"Volumetrisk og gravimetrisk titreranalyse","tekst":"gjennomføre volumetrisk og gravimetrisk titreranalyse og drøfte bruk av titreranalyse"},{"nr":11,"kort":"Atomets oppbygning, spektre og spektroskopi","tekst":"gjøre rede for sammenhengen mellom atomets oppbygning og grunnstoffers absorbsjons- og emisjonsspektre og bruke spektroskopiske metoder i kvalitativ og kvantitativ analyse"},{"nr":12,"kort":"Entalpi og entalpiendringer","tekst":"gjøre rede for entalpi og bruke beregninger og forsøk til å utforske entalpiendringer i reaksjoner"},{"nr":13,"kort":"Kollisjonsteori, reaksjonsfart og likevekt","tekst":"gjøre rede for kollisjonsteori og utforske faktorer som påvirker reaksjonsfart og kjemisk likevekt"},{"nr":14,"kort":"Løselighet: ladning, polaritet og temperatur","tekst":"utforske løseligheten til stoffer, og gjøre rede for betydningen av ladning, polaritet og temperatur for løselighet"},{"nr":15,"kort":"Syre, base, protolyse og pH","tekst":"gjøre rede for begrepene syre, base, protolyse og pH, og utforske egenskapene til sterke og svake syrer og baser"},{"nr":16,"kort":"Grønn kjemi og bærekraft","tekst":"gjøre rede for prinsipper for grønn kjemi og drøfte hvordan bruk av prinsippene kan bidra til bærekraftig utvikling"},{"nr":17,"kort":"Kilder og kildekritikk","tekst":"presentere kjemifaglig innhold fra ulike kilder, kritisk vurdere kildene og bruke relevant teori til å drøfte innholdet"}]'::jsonb, 7),
+  ('fysikk-1', 'vg2', 'Fysikk 1', null, null, '[]'::jsonb, 8),
+  ('biologi-1', 'vg2', 'Biologi 1', null, null, '[]'::jsonb, 9),
+  ('geofag-1', 'vg2', 'Geofag 1', null, null, '[]'::jsonb, 10),
+  ('matematikk-r1', 'vg2', 'Matematikk R1', null, null, '[]'::jsonb, 11),
+  ('matematikk-s1', 'vg2', 'Matematikk S1', null, null, '[]'::jsonb, 12),
+  ('informasjonsteknologi-1', 'vg2', 'Informasjonsteknologi 1', null, null, '[]'::jsonb, 13),
+  ('teknologi-og-forskningslare-1', 'vg2', 'Teknologi og forskningslære 1', null, null, '[]'::jsonb, 14),
+  ('sosiologi-og-sosialantropologi', 'vg2', 'Sosiologi og sosialantropologi', null, null, '[]'::jsonb, 15),
+  ('historie-og-filosofi-1', 'vg2', 'Historie og filosofi 1', null, null, '[]'::jsonb, 16),
+  ('politikk-og-menneskerettigheter', 'vg2', 'Politikk og menneskerettigheter', null, null, '[]'::jsonb, 17),
+  ('rettslare-1', 'vg2', 'Rettslære 1', null, null, '[]'::jsonb, 18),
+  ('psykologi-1', 'vg2', 'Psykologi 1', null, null, '[]'::jsonb, 19),
+  ('markedsforing-og-ledelse-1', 'vg2', 'Markedsføring og ledelse 1', null, null, '[]'::jsonb, 20),
+  ('entreprenorskap-og-bedriftsutvikling-1', 'vg2', 'Entreprenørskap og bedriftsutvikling 1', null, null, '[]'::jsonb, 21),
+  ('samfunnsokonomi-1', 'vg2', 'Samfunnsøkonomi 1', null, null, '[]'::jsonb, 22),
   ('norsk-vg3', 'vg3', 'Norsk', null, null, '[]'::jsonb, 0),
   ('historie-vg3', 'vg3', 'Historie', null, null, '[]'::jsonb, 1),
   ('religion-og-etikk', 'vg3', 'Religion og etikk', null, null, '[]'::jsonb, 2),
-  ('kjemi-2', 'vg3', 'Kjemi 2', null, null, '[]'::jsonb, 3),
-  ('fysikk-2', 'vg3', 'Fysikk 2', null, null, '[]'::jsonb, 4),
-  ('biologi-2', 'vg3', 'Biologi 2', null, null, '[]'::jsonb, 5),
-  ('matematikk-r2', 'vg3', 'Matematikk R2', null, null, '[]'::jsonb, 6),
-  ('matematikk-s2', 'vg3', 'Matematikk S2', null, null, '[]'::jsonb, 7),
-  ('rettslare-2', 'vg3', 'Rettslære 2', null, null, '[]'::jsonb, 8),
-  ('psykologi-2', 'vg3', 'Psykologi 2', null, null, '[]'::jsonb, 9),
-  ('sosialkunnskap', 'vg3', 'Sosialkunnskap', null, null, '[]'::jsonb, 10),
-  ('markedsforing-og-ledelse-2', 'vg3', 'Markedsføring og ledelse 2', null, null, '[]'::jsonb, 11)
+  ('historie-og-filosofi-2', 'vg3', 'Historie og filosofi 2', null, null, '[]'::jsonb, 3),
+  ('kjemi-2', 'vg3', 'Kjemi 2', null, null, '[]'::jsonb, 4),
+  ('fysikk-2', 'vg3', 'Fysikk 2', null, null, '[]'::jsonb, 5),
+  ('biologi-2', 'vg3', 'Biologi 2', null, null, '[]'::jsonb, 6),
+  ('geofag-2', 'vg3', 'Geofag 2', null, null, '[]'::jsonb, 7),
+  ('matematikk-r2', 'vg3', 'Matematikk R2', null, null, '[]'::jsonb, 8),
+  ('matematikk-s2', 'vg3', 'Matematikk S2', null, null, '[]'::jsonb, 9),
+  ('rettslare-2', 'vg3', 'Rettslære 2', null, null, '[]'::jsonb, 10),
+  ('psykologi-2', 'vg3', 'Psykologi 2', null, null, '[]'::jsonb, 11),
+  ('sosialkunnskap', 'vg3', 'Sosialkunnskap', null, null, '[]'::jsonb, 12),
+  ('markedsforing-og-ledelse-2', 'vg3', 'Markedsføring og ledelse 2', null, null, '[]'::jsonb, 13)
 on conflict (id) do update set trinn_id = excluded.trinn_id, navn = excluded.navn, lareplan_kode = excluded.lareplan_kode,
   lareplan_url = excluded.lareplan_url, kompetansemaal = excluded.kompetansemaal, sortering = excluded.sortering;
 
@@ -18636,6 +18641,2529 @@ insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, ri
   ('utdanningsvalg-10:overganger-og-mestring', 'm07', 'flervalg', 'Hva er frivillig arbeid?', array['Ubetalt innsats for andre', 'En deltidsjobb', 'Lekser', 'Obligatorisk arbeid']::text[], 0, 'Frivillig arbeid gir erfaring og nettverk.', false, true, 16);
 insert into public.miniprover (tema_id, minutter) values
   ('utdanningsvalg-10:overganger-og-mestring', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Norsk (vg1): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'norsk-vg1' and slug not in ('nyere-skjonnlitteratur', 'kulturmoter-i-litteraturen', 'retorikk-i-sakprosa', 'argumentasjon-og-diskusjon', 'kilder-og-fagartikkel', 'setningsanalyse', 'skriving-og-sidemal', 'sprak-i-kontakt', 'samiske-sprak');
+
+-- Norsk: Nyere skjønnlitteratur
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('norsk-vg1:nyere-skjonnlitteratur', 'norsk-vg1', 'nyere-skjonnlitteratur', 'Nyere skjønnlitteratur', 'Hvordan du leser, analyserer og tolker nyere romaner, noveller og dikt på bokmål og nynorsk og i oversettelse – med forteller, komposisjon, personskildring, virkemidler, tema og budskap.', array[1]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('norsk-vg1:nyere-skjonnlitteratur', '## Hva er nyere skjønnlitteratur?
+
+Med **nyere skjønnlitteratur** menes gjerne litteratur fra de siste tiårene. Den er mangfoldig: **romaner**, **noveller**, **kortprosa**, **dikt** og **drama**, skrevet på **bokmål** og **nynorsk** og **oversatt** fra samisk og andre språk. Noen kjennetegn ved samtidslitteraturen er
+
+- **autofiksjon** – tekster som blander forfatterens eget liv med fiksjon, kjent fra Karl Ove Knausgårds *Min kamp*
+- **åpne slutter** og **fragmentert komposisjon**
+- **fritt vers** i lyrikken, ofte med hverdagsspråk
+- temaer som **identitet**, **klima**, **teknologi**, **familie** og **tilhørighet**
+
+**Jon Fosse**, som skriver på **nynorsk**, fikk **Nobelprisen i litteratur** i 2023. Fra samisk litteratur er **Nils-Aslak Valkeapää** kjent for diktsamlingen *Beaivi, áhčážan* («Solen, min far»), som fikk Nordisk råds litteraturpris.
+
+## Å analysere prosa
+
+En **analyse** undersøker hvordan teksten er bygd opp og hva den handler om. Nyttige begreper:
+
+- **Forteller og synsvinkel**: En **førstepersonsforteller** («jeg») forteller fra innsiden. En **tredjepersonsforteller** kan være **allvitende** eller følge én person tett (**personal** forteller). Kan vi stole på fortelleren? En **upålitelig forteller** gir et skjevt bilde.
+- **Komposisjon**: Starter teksten **in medias res** – midt i handlingen? Brukes **tilbakeblikk** eller **frampek**? Er fortellingen **kronologisk**?
+- **Personskildring**: **Direkte** karakteristikk forteller hvordan en person er. **Indirekte** karakteristikk viser det gjennom handlinger, replikker og tanker.
+- **Miljø og tid**: Hvor og når foregår handlingen, og hva betyr det?
+- **Språklige virkemidler**: **symbol**, **metafor**, **kontrast**, **gjentakelse**, **ironi**.
+
+## Å analysere lyrikk
+
+I dikt ser man på **lyrisk jeg**, **bilder** (metaforer og sammenligninger), **rytme**, **klang**, **linjedeling** og **strofer**. I moderne lyrikk er det ofte **få ord** og **mye mellomrom** – det usagte er en del av meningen.
+
+## Fra analyse til tolkning
+
+- **Motiv** er den konkrete situasjonen: for eksempel en ung person som flytter hjemmefra.
+- **Tema** er det teksten handler om på et mer allment nivå: for eksempel løsrivelse eller ensomhet.
+- **Budskap** er det teksten kan si oss om temaet.
+
+En **tolkning** må **begrunnes** med eksempler og sitater fra teksten. Ulike lesere kan tolke samme tekst ulikt, og det er ofte flere gode tolkninger.
+
+## Å lese oversatt litteratur
+
+En **oversettelse** er alltid en form for tolkning. Oversetteren må velge ord som gjengir både innhold, stemning og rytme. Når du leser oversatt litteratur, kan du spørre: Hva sier teksten om **kulturen** den kommer fra? Hva kan ha gått tapt i oversettelsen?', '{"label":"Nyere skjønnlitteratur","children":[{"label":"Kjennetegn","children":[{"label":"Autofiksjon"},{"label":"Åpne slutter"},{"label":"Fritt vers"},{"label":"Identitet og klima"}]},{"label":"Prosaanalyse","children":[{"label":"Forteller og synsvinkel"},{"label":"Komposisjon"},{"label":"Personskildring"},{"label":"Miljø og tid"}]},{"label":"Lyrikk","children":[{"label":"Lyrisk jeg"},{"label":"Bilder"},{"label":"Linjedeling"}]},{"label":"Tolkning","children":[{"label":"Motiv"},{"label":"Tema"},{"label":"Budskap"},{"label":"Sitater"}]},{"label":"Språk","children":[{"label":"Bokmål og nynorsk"},{"label":"Samisk"},{"label":"Oversettelse"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'norsk-vg1:nyere-skjonnlitteratur';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('norsk-vg1:nyere-skjonnlitteratur', 'Autofiksjon', 'Litteratur som blander forfatterens eget liv med fiksjon.', 0),
+  ('norsk-vg1:nyere-skjonnlitteratur', 'Kortprosa', 'Svært korte prosatekster, ofte med ett bilde eller én situasjon.', 1),
+  ('norsk-vg1:nyere-skjonnlitteratur', 'Fritt vers', 'Lyrikk uten fast rim og rytme.', 2),
+  ('norsk-vg1:nyere-skjonnlitteratur', 'Førstepersonsforteller', 'Forteller som er en person i teksten og sier «jeg».', 3),
+  ('norsk-vg1:nyere-skjonnlitteratur', 'Allvitende forteller', 'Tredjepersonsforteller som vet alt om alle personene.', 4),
+  ('norsk-vg1:nyere-skjonnlitteratur', 'Personal forteller', 'Tredjepersonsforteller som følger én persons tanker og opplevelser.', 5),
+  ('norsk-vg1:nyere-skjonnlitteratur', 'Upålitelig forteller', 'Forteller som gir et skjevt eller uriktig bilde av hendelsene.', 6),
+  ('norsk-vg1:nyere-skjonnlitteratur', 'In medias res', 'Når en fortelling starter midt i handlingen.', 7),
+  ('norsk-vg1:nyere-skjonnlitteratur', 'Frampek', 'Hint om noe som skal skje senere i teksten.', 8),
+  ('norsk-vg1:nyere-skjonnlitteratur', 'Indirekte karakteristikk', 'Personskildring gjennom handlinger, replikker og tanker.', 9),
+  ('norsk-vg1:nyere-skjonnlitteratur', 'Symbol', 'Noe konkret som står for noe mer, for eksempel en due for fred.', 10),
+  ('norsk-vg1:nyere-skjonnlitteratur', 'Lyrisk jeg', 'Stemmen som taler i et dikt.', 11),
+  ('norsk-vg1:nyere-skjonnlitteratur', 'Motiv', 'Den konkrete situasjonen i en tekst.', 12),
+  ('norsk-vg1:nyere-skjonnlitteratur', 'Tema', 'Det teksten handler om på et allment nivå, for eksempel ensomhet.', 13),
+  ('norsk-vg1:nyere-skjonnlitteratur', 'Tolkning', 'En begrunnet forståelse av hva teksten betyr.', 14);
+delete from public.quiz_sporsmal where tema_id = 'norsk-vg1:nyere-skjonnlitteratur';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('norsk-vg1:nyere-skjonnlitteratur', 'q01', 'flervalg', 'Hva er autofiksjon?', array['Litteratur om biler', 'Litteratur som blander forfatterens eget liv med fiksjon', 'Litteratur skrevet av en datamaskin', 'Fantasy']::text[], 1, 'Knausgårds Min kamp er et kjent eksempel.', true, true, 0),
+  ('norsk-vg1:nyere-skjonnlitteratur', 'q02', 'flervalg', 'Hvilken norsk forfatter fikk Nobelprisen i litteratur i 2023?', array['Jon Fosse', 'Karl Ove Knausgård', 'Maja Lunde', 'Lars Saabye Christensen']::text[], 0, 'Fosse skriver på nynorsk.', true, true, 1),
+  ('norsk-vg1:nyere-skjonnlitteratur', 'q03', 'flervalg', 'Hva betyr in medias res?', array['At teksten har åpen slutt', 'At teksten er kronologisk', 'At fortellingen starter midt i handlingen', 'At teksten er oversatt']::text[], 2, 'Leseren kastes rett inn i en situasjon.', true, true, 2),
+  ('norsk-vg1:nyere-skjonnlitteratur', 'q04', 'flervalg', 'Hva er forskjellen på motiv og tema?', array['Det er det samme', 'Tema er den konkrete situasjonen', 'Motiv er budskapet', 'Motiv er den konkrete situasjonen, tema er det allmenne teksten handler om']::text[], 3, 'Motiv: en ungdom flytter hjemmefra. Tema: løsrivelse.', true, true, 3),
+  ('norsk-vg1:nyere-skjonnlitteratur', 'q05', 'flervalg', 'Hva kjennetegner en personal tredjepersonsforteller?', array['Fortelleren følger én persons tanker og opplevelser tett', 'Fortelleren sier «jeg»', 'Fortelleren vet alt om alle', 'Fortelleren snakker direkte til leseren']::text[], 0, 'Leseren ser verden gjennom én person, men i tredjeperson.', true, true, 4),
+  ('norsk-vg1:nyere-skjonnlitteratur', 'q06', 'flervalg', 'Hva er indirekte karakteristikk?', array['At fortelleren sier rett ut hvordan en person er', 'At personen ikke har navn', 'At personen skildres gjennom handlinger, replikker og tanker', 'At personen er ond']::text[], 2, 'Leseren må selv slutte seg til hvordan personen er.', true, true, 5),
+  ('norsk-vg1:nyere-skjonnlitteratur', 'q07', 'flervalg', 'Hva må en god tolkning inneholde?', array['Bare egne meninger', 'Begrunnelser med eksempler og sitater fra teksten', 'Et sammendrag av handlingen', 'Forfatterens biografi']::text[], 1, 'En tolkning må forankres i teksten.', true, true, 6),
+  ('norsk-vg1:nyere-skjonnlitteratur', 'q08', 'flervalg', 'Hva er en upålitelig forteller?', array['En forteller som gir et skjevt eller uriktig bilde av hendelsene', 'En forteller som lyver om forfatteren', 'En allvitende forteller', 'En forteller som ikke finnes']::text[], 0, 'Leseren må lese mellom linjene.', true, true, 7),
+  ('norsk-vg1:nyere-skjonnlitteratur', 'q09', 'flervalg', 'Hva er fritt vers?', array['Dikt som er gratis', 'Dikt med fast rim', 'Dikt skrevet på dialekt', 'Lyrikk uten fast rim og rytme']::text[], 3, 'Fritt vers er vanlig i moderne lyrikk.', true, false, 8),
+  ('norsk-vg1:nyere-skjonnlitteratur', 'q10', 'flervalg', 'Hvorfor kan en oversettelse kalles en tolkning?', array['Fordi oversetteren må velge ord som gjengir innhold, stemning og rytme', 'Fordi oversetteren endrer handlingen', 'Fordi oversettelser alltid er feil', 'Fordi den er skrevet på nynorsk']::text[], 0, 'Ord har sjelden helt like betydninger på to språk.', true, false, 9),
+  ('norsk-vg1:nyere-skjonnlitteratur', 'm01', 'sant-usant', 'En tekst kan ha flere gode tolkninger.', array['Sant', 'Usant']::text[], 0, 'Så lenge tolkningene er godt begrunnet i teksten.', false, true, 10),
+  ('norsk-vg1:nyere-skjonnlitteratur', 'm02', 'sant-usant', 'En førstepersonsforteller er alltid allvitende.', array['Sant', 'Usant']::text[], 1, 'En førstepersonsforteller vet vanligvis bare det jeg-personen opplever.', false, true, 11),
+  ('norsk-vg1:nyere-skjonnlitteratur', 'm03', 'sant-usant', 'Nils-Aslak Valkeapää er en samisk forfatter.', array['Sant', 'Usant']::text[], 0, 'Han er kjent for diktsamlingen Beaivi, áhčážan.', false, true, 12),
+  ('norsk-vg1:nyere-skjonnlitteratur', 'm04', 'sant-usant', 'Et frampek forteller om noe som har skjedd tidligere.', array['Sant', 'Usant']::text[], 1, 'Det er et tilbakeblikk. Et frampek hinter om noe som kommer.', false, true, 13),
+  ('norsk-vg1:nyere-skjonnlitteratur', 'm05', 'flervalg', 'Hva er et symbol i litteraturen?', array['Et bilde på forsiden', 'Noe konkret som står for noe mer', 'En type rim', 'Et kapittel']::text[], 1, 'For eksempel kan et tomt hus symbolisere ensomhet.', false, true, 14),
+  ('norsk-vg1:nyere-skjonnlitteratur', 'm06', 'flervalg', 'Hva er kortprosa?', array['Svært korte prosatekster', 'Lange romaner', 'Dikt med rim', 'Skuespill']::text[], 0, 'Kortprosa fanger ofte én situasjon eller ett bilde.', false, true, 15),
+  ('norsk-vg1:nyere-skjonnlitteratur', 'm07', 'flervalg', 'Hvem er stemmen som taler i et dikt?', array['Forfatteren alltid', 'Leseren', 'Det lyriske jeget', 'Oversetteren']::text[], 2, 'Det lyriske jeget er ikke nødvendigvis det samme som forfatteren.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('norsk-vg1:nyere-skjonnlitteratur', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Norsk: Kulturmøter i litteraturen
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('norsk-vg1:kulturmoter-i-litteraturen', 'norsk-vg1', 'kulturmoter-i-litteraturen', 'Kulturmøter i litteraturen', 'Hvordan tekster framstiller møter mellom ulike kulturer: «vi og de», stereotypier, identitet og tilhørighet, hvem som får stemme, og språket som virkemiddel – med eksempler fra norsk litteratur.', array[2, 1]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('norsk-vg1:kulturmoter-i-litteraturen', '## Kulturmøter
+
+Et **kulturmøte** er et møte mellom mennesker med ulik **kulturell bakgrunn** – ulikt språk, religion, levesett eller verdier. Litteraturen har alltid skildret slike møter: mellom samer og nordmenn, mellom by og bygd, mellom nordmenn og innvandrere, og mellom generasjoner i samme familie.
+
+## «Vi» og «de andre»
+
+Mange tekster viser hvordan mennesker deler verden inn i **«vi»** og **«de andre»**. Når «de andre» framstilles som like, fremmede eller truende, snakker vi om **stereotypier** og **fordommer**. Noen tekster **forsterker** slike bilder, mens andre **utfordrer** dem ved å vise mennesker som sammensatte individer.
+
+Begrepet **eksotisme** brukes når det fremmede framstilles som spennende og annerledes, men på en overfladisk måte. Litteraturforskeren **Edward Said** kritiserte i boka *Orientalism* (1978) hvordan vestlige tekster har framstilt «Østen» som mystisk og tilbakestående.
+
+## Identitet og tilhørighet
+
+Et vanlig tema er **identitet**: Hvem er jeg når jeg har røtter i flere kulturer? Personer i slike tekster kan oppleve å stå **mellom to kulturer**, eller de kan skape en **hybrid identitet** som henter noe fra begge. Andre temaer er **utenforskap**, **rasisme**, **forventninger fra familien** og **generasjonskonflikter**.
+
+## Eksempler fra norsk litteratur
+
+- **Henrik Wergeland** skrev diktsamlingene *Jøden* og *Jødinden* på 1840-tallet for å få opphevet forbudet mot jøder i Grunnloven.
+- **Maria Navarro Skarangers** *Alle utlendinger har lukka gardiner* (2015) er skrevet på en **multietnolekt**, et språk preget av ungdom med ulik språkbakgrunn i Oslo.
+- **Zeshan Shakars** *Tante Ulrikkes vei* (2017) skildrer to unge gutter i Groruddalen gjennom e-poster og intervjuer til en undersøkelse – og viser forskjellen på hvordan de ser seg selv og hvordan storsamfunnet ser dem.
+- Samisk litteratur skildrer ofte møtet med **fornorskingen** og kampen for språk og kultur.
+
+## Hvordan analysere kulturmøter?
+
+Nyttige spørsmål:
+
+1. **Hvem forteller**, og fra hvilket perspektiv? Ser vi møtet fra innsiden eller utenfra?
+2. **Hvem får stemme**, og hvem blir bare beskrevet?
+3. Hvordan framstilles de ulike kulturene – **nyansert** eller **stereotypt**?
+4. Hvilke **konflikter** oppstår, og hvordan løses de?
+5. Hvordan brukes **språket**? Dialekt, multietnolekt, **kodeveksling** og ord fra andre språk kan vise identitet og tilhørighet.
+6. Hva kan teksten si om **samfunnet** den er skrevet i?
+
+## Hvorfor lese om kulturmøter?
+
+Litteratur kan gi innsikt i hvordan det er å være **en annen**. Den kan skape **empati**, utfordre egne fordommer og vise at kultur ikke er noe fast, men noe som stadig **endrer seg** i møte med andre.', '{"label":"Kulturmøter i litteraturen","children":[{"label":"Vi og de","children":[{"label":"Stereotypier"},{"label":"Fordommer"},{"label":"Eksotisme"},{"label":"Orientalisme"}]},{"label":"Identitet","children":[{"label":"Mellom to kulturer"},{"label":"Hybrid identitet"},{"label":"Tilhørighet"}]},{"label":"Eksempler","children":[{"label":"Wergeland: Jøden"},{"label":"Skaranger"},{"label":"Shakar"},{"label":"Samisk litteratur"}]},{"label":"Analyse","children":[{"label":"Hvem forteller?"},{"label":"Hvem får stemme?"},{"label":"Nyansert eller stereotypt?"}]},{"label":"Språk","children":[{"label":"Multietnolekt"},{"label":"Kodeveksling"},{"label":"Dialekt"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'norsk-vg1:kulturmoter-i-litteraturen';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('norsk-vg1:kulturmoter-i-litteraturen', 'Kulturmøte', 'Møte mellom mennesker med ulik kulturell bakgrunn.', 0),
+  ('norsk-vg1:kulturmoter-i-litteraturen', '«Vi og de andre»', 'Inndeling av mennesker i en egen gruppe og en fremmed gruppe.', 1),
+  ('norsk-vg1:kulturmoter-i-litteraturen', 'Stereotypi', 'Forenklet og fastlåst bilde av en gruppe mennesker.', 2),
+  ('norsk-vg1:kulturmoter-i-litteraturen', 'Fordom', 'Negativ holdning til noen uten å kjenne dem.', 3),
+  ('norsk-vg1:kulturmoter-i-litteraturen', 'Eksotisme', 'Å framstille det fremmede som spennende og annerledes på en overfladisk måte.', 4),
+  ('norsk-vg1:kulturmoter-i-litteraturen', 'Orientalisme', 'Edward Saids begrep for vestlige, forenklede framstillinger av «Østen».', 5),
+  ('norsk-vg1:kulturmoter-i-litteraturen', 'Identitet', 'Hvem man er og opplever seg som.', 6),
+  ('norsk-vg1:kulturmoter-i-litteraturen', 'Hybrid identitet', 'Identitet som henter noe fra flere kulturer.', 7),
+  ('norsk-vg1:kulturmoter-i-litteraturen', 'Multietnolekt', 'Språkvariant preget av ungdom med ulik språkbakgrunn.', 8),
+  ('norsk-vg1:kulturmoter-i-litteraturen', 'Kodeveksling', 'Å skifte mellom språk eller språkvarianter i samme samtale.', 9),
+  ('norsk-vg1:kulturmoter-i-litteraturen', 'Perspektiv', 'Hvem som ser og forteller i en tekst.', 10),
+  ('norsk-vg1:kulturmoter-i-litteraturen', 'Å gi stemme', 'At en person eller gruppe får fortelle selv i teksten.', 11),
+  ('norsk-vg1:kulturmoter-i-litteraturen', 'Wergelands Jøden', 'Diktsamling fra 1840-tallet mot forbudet mot jøder i Grunnloven.', 12),
+  ('norsk-vg1:kulturmoter-i-litteraturen', 'Tante Ulrikkes vei', 'Roman av Zeshan Shakar om to unge gutter i Groruddalen.', 13),
+  ('norsk-vg1:kulturmoter-i-litteraturen', 'Empati', 'Evnen til å sette seg inn i hvordan andre har det.', 14);
+delete from public.quiz_sporsmal where tema_id = 'norsk-vg1:kulturmoter-i-litteraturen';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('norsk-vg1:kulturmoter-i-litteraturen', 'q01', 'flervalg', 'Hva er en stereotypi?', array['En type musikkanlegg', 'En nyansert personskildring', 'Et forenklet og fastlåst bilde av en gruppe', 'En litterær periode']::text[], 2, 'Stereotypier gjør mennesker like og overser forskjellene mellom dem.', true, true, 0),
+  ('norsk-vg1:kulturmoter-i-litteraturen', 'q02', 'flervalg', 'Hvorfor skrev Henrik Wergeland diktsamlingene Jøden og Jødinden?', array['For å få opphevet forbudet mot jøder i Grunnloven', 'For å feire grunnlovsdagen', 'For å skildre samisk kultur', 'For å kritisere kristendommen']::text[], 0, 'Forbudet ble opphevet i 1851, etter Wergelands død.', true, true, 1),
+  ('norsk-vg1:kulturmoter-i-litteraturen', 'q03', 'flervalg', 'Hva er en multietnolekt?', array['Et offisielt skriftspråk', 'En dialekt fra Vestlandet', 'Et samisk språk', 'En språkvariant preget av ungdom med ulik språkbakgrunn']::text[], 3, 'Skaranger bruker multietnolekt som virkemiddel i romanen sin.', true, true, 2),
+  ('norsk-vg1:kulturmoter-i-litteraturen', 'q04', 'flervalg', 'Hva betyr hybrid identitet?', array['At man ikke har noen identitet', 'En identitet som henter noe fra flere kulturer', 'At man bytter navn', 'At man bare tilhører én kultur']::text[], 1, 'Mange med røtter i flere land beskriver en slik identitet.', true, true, 3),
+  ('norsk-vg1:kulturmoter-i-litteraturen', 'q05', 'flervalg', 'Hvilket spørsmål er nyttig når du analyserer kulturmøter i en tekst?', array['Hvem forteller, og hvem får stemme?', 'Hvor mange sider har boka?', 'Hva kostet boka?', 'Hvor bor forfatteren nå?']::text[], 0, 'Perspektivet påvirker hvordan kulturene framstilles.', true, true, 4),
+  ('norsk-vg1:kulturmoter-i-litteraturen', 'q06', 'flervalg', 'Hva kritiserte Edward Said i Orientalism?', array['Norsk litteratur', 'Samiske fortellinger', 'Vestlige, forenklede framstillinger av «Østen»', 'Moderne lyrikk']::text[], 2, 'Begrepet orientalisme brukes fortsatt i analyse av kulturmøter.', true, true, 5),
+  ('norsk-vg1:kulturmoter-i-litteraturen', 'q07', 'flervalg', 'Hva er kodeveksling?', array['Å bytte passord', 'Å skifte mellom språk eller språkvarianter i samme samtale', 'Å oversette en bok', 'Å skrive på nynorsk']::text[], 1, 'Kodeveksling kan vise tilhørighet til flere grupper.', true, true, 6),
+  ('norsk-vg1:kulturmoter-i-litteraturen', 'q08', 'flervalg', 'Hva skildrer Zeshan Shakars Tante Ulrikkes vei?', array['Livet på et fiskevær', 'Samisk reindrift', 'Forbudet mot jøder', 'To unge gutter i Groruddalen']::text[], 3, 'Romanen er skrevet som e-poster og intervjuer.', true, true, 7),
+  ('norsk-vg1:kulturmoter-i-litteraturen', 'q09', 'flervalg', 'Hva er eksotisme?', array['Å framstille det fremmede som spennende på en overfladisk måte', 'Å reise mye', 'En type rim', 'Å skrive om sin egen kultur']::text[], 0, 'Eksotisme kan gjøre andre kulturer til kulisser.', true, false, 8),
+  ('norsk-vg1:kulturmoter-i-litteraturen', 'q10', 'flervalg', 'Hvordan kan litteratur om kulturmøter påvirke leseren?', array['Den kan ikke påvirke noen', 'Den gir bare underholdning', 'Den kan skape empati og utfordre fordommer', 'Den gjør leseren mer fordomsfull']::text[], 2, 'Litteratur lar oss se verden fra andres ståsted.', true, false, 9),
+  ('norsk-vg1:kulturmoter-i-litteraturen', 'm01', 'sant-usant', 'Kulturmøter kan også skje mellom generasjoner i samme familie.', array['Sant', 'Usant']::text[], 0, 'Foreldre og barn kan ha ulike verdier og levesett.', false, true, 10),
+  ('norsk-vg1:kulturmoter-i-litteraturen', 'm02', 'sant-usant', 'Alle tekster om kulturmøter utfordrer stereotypier.', array['Sant', 'Usant']::text[], 1, 'Noen tekster forsterker stereotypier.', false, true, 11),
+  ('norsk-vg1:kulturmoter-i-litteraturen', 'm03', 'sant-usant', 'Språkvalg kan være et virkemiddel for å vise identitet i en roman.', array['Sant', 'Usant']::text[], 0, 'Skaranger bruker multietnolekt nettopp slik.', false, true, 12),
+  ('norsk-vg1:kulturmoter-i-litteraturen', 'm04', 'sant-usant', 'Kultur er noe fast som aldri endrer seg.', array['Sant', 'Usant']::text[], 1, 'Kulturer endrer seg stadig, blant annet i møte med andre.', false, true, 13),
+  ('norsk-vg1:kulturmoter-i-litteraturen', 'm05', 'flervalg', 'Hva er en fordom?', array['En negativ holdning til noen uten å kjenne dem', 'En gammel dom i retten', 'Et litterært virkemiddel', 'En type fortelling']::text[], 0, 'Fordommer kan utfordres gjennom møter og litteratur.', false, true, 14),
+  ('norsk-vg1:kulturmoter-i-litteraturen', 'm06', 'flervalg', 'Hva betyr det å «gi stemme» til noen i en tekst?', array['Å gi dem sangtimer', 'Å la dem stemme ved valg', 'At de får fortelle selv', 'At de ikke nevnes']::text[], 2, 'Det gir et innenfra-perspektiv.', false, true, 15),
+  ('norsk-vg1:kulturmoter-i-litteraturen', 'm07', 'flervalg', 'Hvilken roman er skrevet på multietnolekt?', array['Min kamp', 'Alle utlendinger har lukka gardiner', 'Peer Gynt', 'Et dukkehjem']::text[], 1, 'Romanen er av Maria Navarro Skaranger.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('norsk-vg1:kulturmoter-i-litteraturen', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Norsk: Retorikk i sakprosa
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('norsk-vg1:retorikk-i-sakprosa', 'norsk-vg1', 'retorikk-i-sakprosa', 'Retorikk i sakprosa', 'Kommunikasjonssituasjonen, appellformene etos, patos og logos, kairos, språklige virkemidler i sakprosa og hvordan du skriver en retorisk analyse av en kronikk, tale eller reklame.', array[3]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('norsk-vg1:retorikk-i-sakprosa', '## Retorikk
+
+**Retorikk** er læren om hvordan man **overbeviser** gjennom tale og tekst. Den ble utviklet i antikkens Hellas, og **Aristoteles** beskrev tre **appellformer** som fortsatt brukes i analyser i dag.
+
+## Kommunikasjonssituasjonen
+
+En retorisk analyse starter med **kommunikasjonssituasjonen**:
+
+- **Avsender** – hvem står bak, og hvilken rolle har de?
+- **Mottaker** – hvem er teksten rettet mot?
+- **Formål** – hva vil avsenderen oppnå?
+- **Kontekst** – når og i hvilken situasjon ble teksten til?
+- **Medium og sjanger** – kronikk, leserinnlegg, tale, reklame, innlegg i sosiale medier
+
+## Appellformene
+
+- **Etos** handler om **troverdighet**. Avsenderen viser at hen er **kompetent**, **pålitelig** og **velvillig** – for eksempel ved å vise til egen erfaring, utdanning eller tittel. Etos kan styrkes eller svekkes underveis i teksten.
+- **Patos** appellerer til **følelser** som medfølelse, sinne, frykt, stolthet eller håp – ofte gjennom personlige historier, sterke bilder og ladede ord.
+- **Logos** appellerer til **fornuft** gjennom **fakta**, **statistikk**, **eksempler** og logisk argumentasjon.
+
+I tillegg snakker man om **kairos** – det **rette øyeblikket**. En tekst har mer gjennomslag når den kommer på riktig tidspunkt, for eksempel rett etter en hendelse som er mye omtalt.
+
+## Språklige virkemidler i sakprosa
+
+- **Metafor**: «Skolen er en fabrikk.»
+- **Sammenligning**: «Klasserommet var som en bikube.»
+- **Besjeling**: «Byen våknet.»
+- **Gjentakelse** og **anafor** – samme ord i starten av flere setninger: «Vi vil … Vi vil … Vi vil …»
+- **Tretall** – tre ledd som gir rytme: «før, nå og i framtiden»
+- **Kontrast**: rik og fattig, før og nå
+- **Retoriske spørsmål** – spørsmål der svaret er underforstått
+- **Overdrivelse (hyperbol)** og **underdrivelse**
+- **Ironi** – å si det motsatte av det man mener
+- **Ladede ord** – ord med sterke positive eller negative assosiasjoner, som «frihet» eller «kaos»
+- **Inkluderende «vi»** – skaper fellesskap med leseren
+
+## Å skrive en retorisk analyse
+
+1. **Innledning**: Presenter teksten (tittel, avsender, sjanger, publisert hvor og når) og hovedsynspunktet.
+2. **Kommunikasjonssituasjonen**: Hvem, til hvem, hvorfor og i hvilken kontekst?
+3. **Appellformer**: Vis med **sitater** hvordan etos, patos og logos brukes.
+4. **Virkemidler**: Hvilke virkemidler brukes, og **hvilken effekt** har de?
+5. **Vurdering**: Hvor **overbevisende** er teksten for målgruppen? Er argumentasjonen **saklig**?
+
+Det viktigste er å **forklare effekten** – ikke bare liste opp virkemidlene.', '{"label":"Retorikk i sakprosa","children":[{"label":"Situasjon","children":[{"label":"Avsender og mottaker"},{"label":"Formål"},{"label":"Kontekst og sjanger"}]},{"label":"Appellformer","children":[{"label":"Etos"},{"label":"Patos"},{"label":"Logos"},{"label":"Kairos"}]},{"label":"Bilder","children":[{"label":"Metafor"},{"label":"Sammenligning"},{"label":"Besjeling"}]},{"label":"Andre virkemidler","children":[{"label":"Anafor og tretall"},{"label":"Kontrast"},{"label":"Retoriske spørsmål"},{"label":"Ironi og ladede ord"}]},{"label":"Analysen","children":[{"label":"Innledning"},{"label":"Sitater"},{"label":"Effekt"},{"label":"Vurdering"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'norsk-vg1:retorikk-i-sakprosa';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('norsk-vg1:retorikk-i-sakprosa', 'Retorikk', 'Læren om hvordan man overbeviser gjennom tale og tekst.', 0),
+  ('norsk-vg1:retorikk-i-sakprosa', 'Aristoteles', 'Gresk filosof som beskrev appellformene etos, patos og logos.', 1),
+  ('norsk-vg1:retorikk-i-sakprosa', 'Kommunikasjonssituasjon', 'Avsender, mottaker, formål, kontekst og medium.', 2),
+  ('norsk-vg1:retorikk-i-sakprosa', 'Etos', 'Appell til avsenderens troverdighet.', 3),
+  ('norsk-vg1:retorikk-i-sakprosa', 'Patos', 'Appell til følelser.', 4),
+  ('norsk-vg1:retorikk-i-sakprosa', 'Logos', 'Appell til fornuft gjennom fakta og logikk.', 5),
+  ('norsk-vg1:retorikk-i-sakprosa', 'Kairos', 'Det rette øyeblikket for å si noe.', 6),
+  ('norsk-vg1:retorikk-i-sakprosa', 'Anafor', 'Gjentakelse av samme ord i starten av flere setninger.', 7),
+  ('norsk-vg1:retorikk-i-sakprosa', 'Tretall', 'Tre ledd etter hverandre som gir rytme og tyngde.', 8),
+  ('norsk-vg1:retorikk-i-sakprosa', 'Retorisk spørsmål', 'Spørsmål der svaret er underforstått.', 9),
+  ('norsk-vg1:retorikk-i-sakprosa', 'Hyperbol', 'Overdrivelse brukt som virkemiddel.', 10),
+  ('norsk-vg1:retorikk-i-sakprosa', 'Ironi', 'Å si det motsatte av det man mener.', 11),
+  ('norsk-vg1:retorikk-i-sakprosa', 'Ladede ord', 'Ord med sterke positive eller negative assosiasjoner.', 12),
+  ('norsk-vg1:retorikk-i-sakprosa', 'Besjeling', 'Å gi ting eller natur menneskelige egenskaper.', 13),
+  ('norsk-vg1:retorikk-i-sakprosa', 'Inkluderende «vi»', 'Bruk av «vi» for å skape fellesskap med mottakeren.', 14);
+delete from public.quiz_sporsmal where tema_id = 'norsk-vg1:retorikk-i-sakprosa';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('norsk-vg1:retorikk-i-sakprosa', 'q01', 'flervalg', 'Hvilken appellform handler om troverdighet?', array['Patos', 'Logos', 'Etos', 'Kairos']::text[], 2, 'Etos handler om hvordan avsenderen framstår.', true, true, 0),
+  ('norsk-vg1:retorikk-i-sakprosa', 'q02', 'flervalg', 'En tekst bruker statistikk fra SSB. Hvilken appellform er dette?', array['Etos', 'Logos', 'Patos', 'Ironi']::text[], 1, 'Fakta og tall appellerer til fornuften.', true, true, 1),
+  ('norsk-vg1:retorikk-i-sakprosa', 'q03', 'flervalg', 'Hva er kairos?', array['Det rette øyeblikket', 'En type metafor', 'Avsenderens troverdighet', 'En gresk tekst']::text[], 0, 'Timing påvirker hvor stort gjennomslag en tekst får.', true, true, 2),
+  ('norsk-vg1:retorikk-i-sakprosa', 'q04', 'flervalg', '«Vi vil ha rent vann. Vi vil ha ren luft. Vi vil ha en framtid.» Hvilket virkemiddel er brukt?', array['Ironi', 'Besjeling', 'Hyperbol', 'Anafor']::text[], 3, 'Samme ord i starten av flere setninger gir rytme og tyngde.', true, true, 3),
+  ('norsk-vg1:retorikk-i-sakprosa', 'q05', 'flervalg', 'En kronikk forteller om en jente som ikke fikk hjelp i tide. Hvilken appellform brukes mest?', array['Logos', 'Kairos', 'Patos', 'Etos']::text[], 2, 'Personlige historier vekker følelser.', true, true, 4),
+  ('norsk-vg1:retorikk-i-sakprosa', 'q06', 'flervalg', 'Hva er det første du bør gjøre i en retorisk analyse?', array['Presentere teksten og kommunikasjonssituasjonen', 'Liste opp alle virkemidler', 'Skrive din egen mening om saken', 'Oversette teksten']::text[], 0, 'Konteksten er grunnlaget for resten av analysen.', true, true, 5),
+  ('norsk-vg1:retorikk-i-sakprosa', 'q07', 'flervalg', 'Hva er et retorisk spørsmål?', array['Et spørsmål i en quiz', 'Et spørsmål til læreren', 'Et spørsmål uten svar', 'Et spørsmål der svaret er underforstått']::text[], 3, 'Eksempel: «Vil vi virkelig at barna våre skal vokse opp slik?»', true, true, 6),
+  ('norsk-vg1:retorikk-i-sakprosa', 'q08', 'flervalg', 'Hvorfor er det viktig å forklare effekten av virkemidlene?', array['Fordi analysen skal vise hvordan teksten prøver å overbevise', 'Fordi det gjør teksten lengre', 'Fordi det er lettere enn å finne dem', 'Det er ikke viktig']::text[], 0, 'En liste over virkemidler uten effekt er ikke en analyse.', true, true, 7),
+  ('norsk-vg1:retorikk-i-sakprosa', 'q09', 'flervalg', 'En lege skriver: «Som overlege i tjue år har jeg sett …» Hva prøver legen å styrke?', array['Patos', 'Etos', 'Kairos', 'Logos']::text[], 1, 'Erfaring og tittel gir troverdighet.', true, false, 8),
+  ('norsk-vg1:retorikk-i-sakprosa', 'q10', 'flervalg', 'Hva er ladede ord?', array['Ord med sterke positive eller negative assosiasjoner', 'Ord som er lange', 'Ord fra andre språk', 'Fagord']::text[], 0, '«Frihet» og «kaos» er eksempler.', true, false, 9),
+  ('norsk-vg1:retorikk-i-sakprosa', 'm01', 'sant-usant', 'Etos kan styrkes eller svekkes underveis i en tekst.', array['Sant', 'Usant']::text[], 0, 'Usaklige angrep kan for eksempel svekke troverdigheten.', false, true, 10),
+  ('norsk-vg1:retorikk-i-sakprosa', 'm02', 'sant-usant', 'Appellformene ble beskrevet av en norsk forfatter på 1900-tallet.', array['Sant', 'Usant']::text[], 1, 'De ble beskrevet av Aristoteles i antikkens Hellas.', false, true, 11),
+  ('norsk-vg1:retorikk-i-sakprosa', 'm03', 'sant-usant', 'Et inkluderende «vi» kan skape fellesskap med leseren.', array['Sant', 'Usant']::text[], 0, 'Leseren føler seg som en del av saken.', false, true, 12),
+  ('norsk-vg1:retorikk-i-sakprosa', 'm04', 'sant-usant', 'Ironi betyr å si nøyaktig det man mener.', array['Sant', 'Usant']::text[], 1, 'Ironi er å si det motsatte av det man mener.', false, true, 13),
+  ('norsk-vg1:retorikk-i-sakprosa', 'm05', 'flervalg', '«Byen våknet.» Hvilket virkemiddel er dette?', array['Anafor', 'Besjeling', 'Tretall', 'Hyperbol']::text[], 1, 'Byen får en menneskelig egenskap.', false, true, 14),
+  ('norsk-vg1:retorikk-i-sakprosa', 'm06', 'flervalg', 'Hva hører til kommunikasjonssituasjonen?', array['Rimmønster', 'Antall avsnitt', 'Avsender, mottaker, formål og kontekst', 'Skrifttype']::text[], 2, 'Kommunikasjonssituasjonen forklarer hvorfor teksten er som den er.', false, true, 15),
+  ('norsk-vg1:retorikk-i-sakprosa', 'm07', 'flervalg', 'Hva er et tretall?', array['Tre setninger med samme ord', 'Tre avsnitt', 'Et tall i en statistikk', 'Tre ledd etter hverandre som gir rytme']::text[], 3, 'Eksempel: «før, nå og i framtiden».', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('norsk-vg1:retorikk-i-sakprosa', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Norsk: Argumentasjon og diskusjon
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('norsk-vg1:argumentasjon-og-diskusjon', 'norsk-vg1', 'argumentasjon-og-diskusjon', 'Argumentasjon og diskusjon', 'Hvordan du bygger opp saklig argumentasjon med påstand, belegg og hjemmel, gjenkjenner usaklig argumentasjon og hersketeknikker, lytter i diskusjoner og greier ut om og drøfter et tema muntlig.', array[4, 6]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('norsk-vg1:argumentasjon-og-diskusjon', '## Å argumentere
+
+Et **argument** er en begrunnelse for en **påstand**. Filosofen **Stephen Toulmin** laget en modell som viser hvordan et argument er bygd opp:
+
+- **Påstand**: det man vil overbevise om – «Skoledagen bør starte klokka ni.»
+- **Belegg**: grunnen eller støtten – «Forskning viser at tenåringer trenger mer søvn om morgenen.»
+- **Hjemmel**: den underforståtte sammenhengen som gjør at belegget støtter påstanden – «Elever som får nok søvn, lærer bedre.»
+- **Ryggdekning**: støtte for hjemmelen, for eksempel forskning.
+- **Styrkemarkør**: ord som viser hvor sikker påstanden er – «trolig», «sannsynligvis», «alltid».
+- **Gjendrivelse**: forbehold eller motargumenter – «med mindre det gir problemer med skyss».
+
+Gode argumenter er **relevante**, **holdbare** og **tilpasset mottakeren**.
+
+## Saklig og usaklig argumentasjon
+
+Saklig argumentasjon handler om **saken**. Vanlige **usaklige** grep er
+
+- **stråmann** – å tillegge motparten et synspunkt de ikke har, og så angripe det
+- **personangrep** – å angripe personen i stedet for argumentet
+- **generalisering** – å trekke en bred konklusjon fra få eksempler
+- **falskt dilemma** – å late som om det bare finnes to alternativer
+- **glidebaneargument** – å påstå at ett steg uunngåelig fører til en katastrofe
+- **appell til flertallet** – «alle mener jo det»
+
+## Hersketeknikker
+
+Sosiologen **Berit Ås** beskrev fem **hersketeknikker** – måter å undertrykke andre på i samtaler og møter: **usynliggjøring**, **latterliggjøring**, **tilbakeholdelse av informasjon**, **dobbeltstraff** (uansett hva du gjør, er det feil) og **påføring av skyld og skam**. Å kjenne dem igjen gjør det lettere å stå imot.
+
+## Å delta i en diskusjon
+
+- **Lytt aktivt**: Forstå motpartens argumenter før du svarer, og gjengi dem gjerne med egne ord.
+- **Svar på det som faktisk blir sagt**.
+- **Begrunn** synspunktene dine og bruk eksempler.
+- **Vær saklig og respektfull**, også når du er uenig.
+- Vær åpen for å **endre mening** hvis motparten har gode argumenter.
+
+## Muntlig: greie ut om og drøfte
+
+- **Å greie ut om** betyr å forklare et tema grundig og ryddig.
+- **Å drøfte** betyr å se et spørsmål fra **flere sider**, veie argumenter **for og mot** og komme fram til en begrunnet **konklusjon**.
+
+En god muntlig presentasjon har en tydelig **disposisjon**: innledning med **problemstilling**, hoveddel og avslutning. Snakk **fritt** ut fra stikkord, hold **blikkontakt**, varier stemmen og bruk **presentasjonsverktøy** som støtte – ikke som manus. Øv på forhånd og ta tiden.', '{"label":"Argumentasjon og diskusjon","children":[{"label":"Toulmin","children":[{"label":"Påstand"},{"label":"Belegg"},{"label":"Hjemmel"},{"label":"Styrkemarkør og gjendrivelse"}]},{"label":"Usaklig","children":[{"label":"Stråmann"},{"label":"Personangrep"},{"label":"Falskt dilemma"},{"label":"Glidebane"}]},{"label":"Hersketeknikker","children":[{"label":"Usynliggjøring"},{"label":"Latterliggjøring"},{"label":"Dobbeltstraff"},{"label":"Skyld og skam"}]},{"label":"Diskusjon","children":[{"label":"Lytte aktivt"},{"label":"Begrunne"},{"label":"Respekt"}]},{"label":"Muntlig","children":[{"label":"Greie ut om"},{"label":"Drøfte"},{"label":"Disposisjon"},{"label":"Snakke fritt"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'norsk-vg1:argumentasjon-og-diskusjon';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('norsk-vg1:argumentasjon-og-diskusjon', 'Påstand', 'Det man vil overbevise om.', 0),
+  ('norsk-vg1:argumentasjon-og-diskusjon', 'Belegg', 'Grunnen eller støtten for påstanden.', 1),
+  ('norsk-vg1:argumentasjon-og-diskusjon', 'Hjemmel', 'Den underforståtte sammenhengen mellom belegg og påstand.', 2),
+  ('norsk-vg1:argumentasjon-og-diskusjon', 'Styrkemarkør', 'Ord som viser hvor sikker påstanden er, som «trolig».', 3),
+  ('norsk-vg1:argumentasjon-og-diskusjon', 'Gjendrivelse', 'Forbehold eller motargumenter til en påstand.', 4),
+  ('norsk-vg1:argumentasjon-og-diskusjon', 'Stråmann', 'Å tillegge motparten et synspunkt de ikke har, og angripe det.', 5),
+  ('norsk-vg1:argumentasjon-og-diskusjon', 'Personangrep', 'Å angripe personen i stedet for argumentet.', 6),
+  ('norsk-vg1:argumentasjon-og-diskusjon', 'Falskt dilemma', 'Å late som om det bare finnes to alternativer.', 7),
+  ('norsk-vg1:argumentasjon-og-diskusjon', 'Glidebaneargument', 'Å påstå at ett steg uunngåelig fører til en katastrofe.', 8),
+  ('norsk-vg1:argumentasjon-og-diskusjon', 'Hersketeknikker', 'Måter å undertrykke andre på, beskrevet av Berit Ås.', 9),
+  ('norsk-vg1:argumentasjon-og-diskusjon', 'Usynliggjøring', 'Hersketeknikk der man overser noen eller det de sier.', 10),
+  ('norsk-vg1:argumentasjon-og-diskusjon', 'Dobbeltstraff', 'Hersketeknikk der uansett hva du gjør, er det feil.', 11),
+  ('norsk-vg1:argumentasjon-og-diskusjon', 'Å greie ut om', 'Å forklare et tema grundig og ryddig.', 12),
+  ('norsk-vg1:argumentasjon-og-diskusjon', 'Å drøfte', 'Å se et spørsmål fra flere sider og komme fram til en begrunnet konklusjon.', 13),
+  ('norsk-vg1:argumentasjon-og-diskusjon', 'Disposisjon', 'Plan for oppbygningen av en tekst eller presentasjon.', 14);
+delete from public.quiz_sporsmal where tema_id = 'norsk-vg1:argumentasjon-og-diskusjon';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('norsk-vg1:argumentasjon-og-diskusjon', 'q01', 'flervalg', 'Hva er belegg i Toulmins modell?', array['Det man vil overbevise om', 'Grunnen eller støtten for påstanden', 'Et motargument', 'Konklusjonen']::text[], 1, 'Belegget skal støtte påstanden.', true, true, 0),
+  ('norsk-vg1:argumentasjon-og-diskusjon', 'q02', 'flervalg', '«Du mener altså at elevene skal få gjøre hva de vil?» – når motparten ikke har sagt det. Hva er dette?', array['Stråmann', 'Glidebane', 'Personangrep', 'Saklig argumentasjon']::text[], 0, 'Motparten tillegges et synspunkt de ikke har.', true, true, 1),
+  ('norsk-vg1:argumentasjon-og-diskusjon', 'q03', 'flervalg', 'Hva betyr det å drøfte?', array['Å bare gi sin egen mening', 'Å gjenfortelle en tekst', 'Å se et spørsmål fra flere sider og komme fram til en begrunnet konklusjon', 'Å diskutere høylytt']::text[], 2, 'Drøfting krever argumenter både for og mot.', true, true, 2),
+  ('norsk-vg1:argumentasjon-og-diskusjon', 'q04', 'flervalg', 'Hvem beskrev de fem hersketeknikkene?', array['Aristoteles', 'Stephen Toulmin', 'Henrik Ibsen', 'Berit Ås']::text[], 3, 'Berit Ås var sosiolog og politiker.', true, true, 3),
+  ('norsk-vg1:argumentasjon-og-diskusjon', 'q05', 'flervalg', 'Hva er en styrkemarkør?', array['Ord som viser hvor sikker påstanden er', 'Et sterkt argument', 'En overskrift', 'En hersketeknikk']::text[], 0, '«Trolig», «alltid» og «kanskje» er styrkemarkører.', true, true, 4),
+  ('norsk-vg1:argumentasjon-og-diskusjon', 'q06', 'flervalg', '«Hvis vi tillater mobil i friminuttene, vil ingen lære noe lenger.» Hva slags argument er dette?', array['Stråmann', 'Glidebaneargument', 'Etos', 'Belegg']::text[], 1, 'Ett steg påstås å føre til en katastrofe.', true, true, 5),
+  ('norsk-vg1:argumentasjon-og-diskusjon', 'q07', 'flervalg', 'Hva er et godt råd for å delta i en diskusjon?', array['Avbryte for å vise engasjement', 'Aldri endre mening', 'Lytte aktivt og svare på det som faktisk blir sagt', 'Angripe motparten personlig']::text[], 2, 'Saklig diskusjon krever at man lytter.', true, true, 6),
+  ('norsk-vg1:argumentasjon-og-diskusjon', 'q08', 'flervalg', 'Hva er et falskt dilemma?', array['Et vanskelig valg', 'Et motargument', 'En styrkemarkør', 'Å late som om det bare finnes to alternativer']::text[], 3, 'Eksempel: «Enten er du med oss, eller så er du mot oss.»', true, true, 7),
+  ('norsk-vg1:argumentasjon-og-diskusjon', 'q09', 'flervalg', 'Hva er hjemmelen i et argument?', array['Den underforståtte sammenhengen mellom belegg og påstand', 'Stedet argumentet kommer fra', 'Konklusjonen', 'Et sitat']::text[], 0, 'Hjemmelen er ofte ikke sagt direkte.', true, false, 8),
+  ('norsk-vg1:argumentasjon-og-diskusjon', 'q10', 'flervalg', 'Hvordan bør du bruke presentasjonsverktøy i en muntlig presentasjon?', array['Som manus du leser fra', 'Som støtte, mens du snakker fritt ut fra stikkord', 'Ikke i det hele tatt', 'Med så mye tekst som mulig']::text[], 1, 'Publikum skal lytte til deg, ikke lese lysbildene.', true, false, 9),
+  ('norsk-vg1:argumentasjon-og-diskusjon', 'm01', 'sant-usant', 'Det kan være et tegn på styrke å endre mening etter gode motargumenter.', array['Sant', 'Usant']::text[], 0, 'Diskusjon handler om å finne gode svar, ikke bare å vinne.', false, true, 10),
+  ('norsk-vg1:argumentasjon-og-diskusjon', 'm02', 'sant-usant', 'Et personangrep er en saklig måte å svare på et argument.', array['Sant', 'Usant']::text[], 1, 'Personangrep handler om personen, ikke saken.', false, true, 11),
+  ('norsk-vg1:argumentasjon-og-diskusjon', 'm03', 'sant-usant', 'En god drøfting ender med en begrunnet konklusjon.', array['Sant', 'Usant']::text[], 0, 'Konklusjonen bygger på argumentene som er vurdert.', false, true, 12),
+  ('norsk-vg1:argumentasjon-og-diskusjon', 'm04', 'sant-usant', 'Latterliggjøring er en saklig diskusjonsteknikk.', array['Sant', 'Usant']::text[], 1, 'Latterliggjøring er en av hersketeknikkene.', false, true, 13),
+  ('norsk-vg1:argumentasjon-og-diskusjon', 'm05', 'flervalg', 'Hva er en generalisering?', array['En bred konklusjon trukket fra få eksempler', 'En god kilde', 'En saklig påstand', 'En type disposisjon']::text[], 0, 'Eksempel: «Jeg kjenner to som …, så alle …»', false, true, 14),
+  ('norsk-vg1:argumentasjon-og-diskusjon', 'm06', 'flervalg', 'Hva er gjendrivelse i Toulmins modell?', array['Påstanden', 'Belegget', 'Konklusjonen', 'Forbehold eller motargumenter']::text[], 3, 'Gjendrivelse gjør argumentasjonen mer nyansert.', false, true, 15),
+  ('norsk-vg1:argumentasjon-og-diskusjon', 'm07', 'flervalg', 'Hva betyr det å greie ut om et tema?', array['Å gi sin mening', 'Å argumentere for én side', 'Å forklare temaet grundig og ryddig', 'Å stille spørsmål']::text[], 2, 'Utgreiing er forklarende, ikke argumenterende.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('norsk-vg1:argumentasjon-og-diskusjon', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Norsk: Kilder og fagartikkel
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('norsk-vg1:kilder-og-fagartikkel', 'norsk-vg1', 'kilder-og-fagartikkel', 'Kilder og fagartikkel', 'Kritisk og etterrettelig kildebruk – vurdering av kilder, sitat og parafrase, kildehenvisning og litteraturliste, plagiat og KI – og hvordan du skriver en fagartikkel som greier ut om og drøfter et tema.', array[5, 7]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('norsk-vg1:kilder-og-fagartikkel', '## Kritisk kildebruk
+
+Når du skriver fagtekster, må du bruke **kilder** – bøker, artikler, nettsider, intervjuer og statistikk. Kildene må vurderes **kritisk**:
+
+- **Hvem** står bak? Har avsenderen **fagkunnskap**, og har de **interesser** i saken?
+- **Hva** slags kilde er det? En forskningsartikkel, en leksikonartikkel, en kommentar eller reklame?
+- **Når** ble den laget? Er informasjonen **oppdatert**?
+- **Hvorfor** ble den laget? For å informere, overbevise eller selge?
+- **Stemmer** informasjonen med andre kilder?
+
+Skill mellom **primærkilder** – førstehånds kilder som et intervju, en undersøkelse eller en roman du analyserer – og **sekundærkilder**, som skriver om andre kilder.
+
+## Selvstendig kildebruk
+
+Å bruke kilder **selvstendig** betyr at du **bearbeider** stoffet: Du sammenligner, drøfter og bruker kildene til å støtte **ditt eget resonnement**. Teksten skal ikke bare være en samling av andres ord.
+
+## Etterrettelig kildebruk
+
+**Etterrettelig** betyr at leseren skal kunne se **hvor opplysningene kommer fra** og skille dine tanker fra andres.
+
+- **Direkte sitat**: ordrett gjengivelse i **anførselstegn** med kildehenvisning.
+- **Parafrase**: å gjengi innholdet med **egne ord** – også dette krever kildehenvisning.
+- **Kildehenvisning i teksten**: For eksempel etter APA-stilen: (Hansen, 2021, s. 45).
+- **Litteraturliste**: alle kildene samlet til slutt, i **alfabetisk rekkefølge** etter forfatterens etternavn, med tittel, år, utgiver eller nettadresse og dato du leste nettkilden.
+
+**Plagiat** er å gi andres tekst ut som sin egen. Det er **fusk** og kan få alvorlige konsekvenser. Hvis du bruker **KI-verktøy**, må du følge skolens regler og **oppgi** hvordan du har brukt dem. KI kan dessuten finne på kilder og fakta, så alt må **kontrolleres**.
+
+## Fagartikkelen
+
+En **fagartikkel** greier ut om og drøfter et **norskfaglig** eller **tverrfaglig** tema på en saklig måte.
+
+- **Tittel** som vekker interesse og sier noe om innholdet.
+- **Innledning** som presenterer temaet og en tydelig **problemstilling**, for eksempel «Hvordan framstiller Shakar livet i Groruddalen?»
+- **Hoveddel** med **mellomtitler**, der du først **redegjør** for fakta og bakgrunn og så **drøfter** – ser saken fra flere sider og bruker kildene som støtte.
+- **Avslutning** som oppsummerer og svarer på problemstillingen i en **konklusjon**.
+
+Språket skal være **saklig** og **presist**, med **fagbegreper**. Hvert **avsnitt** bør ha én hovedtanke, gjerne innledet med en **temasetning**. Bruk **tekstbindere** som «derimot», «dessuten» og «på den ene siden … på den andre siden» for å vise sammenhengen i resonnementet.', '{"label":"Kilder og fagartikkel","children":[{"label":"Kildekritikk","children":[{"label":"Hvem og hvorfor"},{"label":"Når"},{"label":"Primær og sekundær"}]},{"label":"Etterrettelig","children":[{"label":"Sitat"},{"label":"Parafrase"},{"label":"Kildehenvisning"},{"label":"Litteraturliste"}]},{"label":"Fallgruver","children":[{"label":"Plagiat"},{"label":"KI uten kontroll"}]},{"label":"Fagartikkel","children":[{"label":"Tittel og innledning"},{"label":"Problemstilling"},{"label":"Redegjøre og drøfte"},{"label":"Konklusjon"}]},{"label":"Språk","children":[{"label":"Saklig og presist"},{"label":"Fagbegreper"},{"label":"Temasetninger"},{"label":"Tekstbindere"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'norsk-vg1:kilder-og-fagartikkel';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('norsk-vg1:kilder-og-fagartikkel', 'Kildekritikk', 'Å vurdere hvem som står bak en kilde, når, hvorfor og om den er pålitelig.', 0),
+  ('norsk-vg1:kilder-og-fagartikkel', 'Primærkilde', 'Førstehånds kilde, som et intervju eller en undersøkelse.', 1),
+  ('norsk-vg1:kilder-og-fagartikkel', 'Sekundærkilde', 'Kilde som skriver om andre kilder.', 2),
+  ('norsk-vg1:kilder-og-fagartikkel', 'Selvstendig kildebruk', 'Å bearbeide kildene og bruke dem til å støtte eget resonnement.', 3),
+  ('norsk-vg1:kilder-og-fagartikkel', 'Etterrettelig kildebruk', 'At leseren kan se hvor opplysningene kommer fra.', 4),
+  ('norsk-vg1:kilder-og-fagartikkel', 'Direkte sitat', 'Ordrett gjengivelse i anførselstegn med kildehenvisning.', 5),
+  ('norsk-vg1:kilder-og-fagartikkel', 'Parafrase', 'Gjengivelse av innhold med egne ord, med kildehenvisning.', 6),
+  ('norsk-vg1:kilder-og-fagartikkel', 'Kildehenvisning', 'Henvisning i teksten, for eksempel (Hansen, 2021, s. 45).', 7),
+  ('norsk-vg1:kilder-og-fagartikkel', 'Litteraturliste', 'Oversikt over alle kildene, alfabetisk etter etternavn.', 8),
+  ('norsk-vg1:kilder-og-fagartikkel', 'Plagiat', 'Å gi andres tekst ut som sin egen.', 9),
+  ('norsk-vg1:kilder-og-fagartikkel', 'Fagartikkel', 'Saklig tekst som greier ut om og drøfter et faglig tema.', 10),
+  ('norsk-vg1:kilder-og-fagartikkel', 'Problemstilling', 'Spørsmålet teksten skal besvare.', 11),
+  ('norsk-vg1:kilder-og-fagartikkel', 'Redegjøre', 'Å gjøre rede for fakta og bakgrunn på en ryddig måte.', 12),
+  ('norsk-vg1:kilder-og-fagartikkel', 'Temasetning', 'Setning som innleder et avsnitt og viser hovedtanken.', 13),
+  ('norsk-vg1:kilder-og-fagartikkel', 'Tekstbindere', 'Ord som viser sammenhengen mellom setninger og avsnitt.', 14);
+delete from public.quiz_sporsmal where tema_id = 'norsk-vg1:kilder-og-fagartikkel';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('norsk-vg1:kilder-og-fagartikkel', 'q01', 'flervalg', 'Hva er en parafrase?', array['Et ordrett sitat', 'En gjengivelse av innholdet med egne ord', 'En litteraturliste', 'En overskrift']::text[], 1, 'Også parafraser krever kildehenvisning.', true, true, 0),
+  ('norsk-vg1:kilder-og-fagartikkel', 'q02', 'flervalg', 'Hva er plagiat?', array['Å oppgi kilder', 'Å bruke sitater', 'Å gi andres tekst ut som sin egen', 'Å skrive en fagartikkel']::text[], 2, 'Plagiat regnes som fusk.', true, true, 1),
+  ('norsk-vg1:kilder-og-fagartikkel', 'q03', 'flervalg', 'Hvordan ordnes en litteraturliste?', array['Alfabetisk etter forfatterens etternavn', 'Etter hvor viktig kilden er', 'Etter årstall', 'Tilfeldig']::text[], 0, 'Da er det lett å finne kildene.', true, true, 2),
+  ('norsk-vg1:kilder-og-fagartikkel', 'q04', 'flervalg', 'Hva er en primærkilde?', array['Den viktigste kilden', 'En nettside', 'Et leksikon', 'En førstehånds kilde, som et intervju']::text[], 3, 'Sekundærkilder skriver om andre kilder.', true, true, 3),
+  ('norsk-vg1:kilder-og-fagartikkel', 'q05', 'flervalg', 'Hva hører hjemme i innledningen til en fagartikkel?', array['Tema og problemstilling', 'Konklusjonen', 'Litteraturlisten', 'Alle sitatene']::text[], 0, 'Problemstillingen styrer resten av teksten.', true, true, 4),
+  ('norsk-vg1:kilder-og-fagartikkel', 'q06', 'flervalg', 'Hvorfor må du kontrollere informasjon fra KI-verktøy?', array['Fordi det er forbudt å bruke dem', 'Fordi KI kan finne på kilder og fakta', 'Fordi KI skriver for kort', 'Det trenger du ikke']::text[], 1, 'Du må også følge skolens regler og oppgi bruken.', true, true, 5),
+  ('norsk-vg1:kilder-og-fagartikkel', 'q07', 'flervalg', 'Hva betyr selvstendig kildebruk?', array['Å bruke bare én kilde', 'Å kopiere kilder', 'Å bruke kildene til å støtte eget resonnement', 'Å ikke bruke kilder']::text[], 2, 'Du skal bearbeide stoffet, ikke bare gjengi det.', true, true, 6),
+  ('norsk-vg1:kilder-og-fagartikkel', 'q08', 'flervalg', 'Hva er forskjellen på å redegjøre og å drøfte?', array['Det er det samme', 'Å drøfte er å gjengi fakta', 'Å redegjøre er å gi sin mening', 'Å redegjøre er å forklare fakta, å drøfte er å se saken fra flere sider']::text[], 3, 'En fagartikkel gjør ofte begge deler.', true, true, 7),
+  ('norsk-vg1:kilder-og-fagartikkel', 'q09', 'flervalg', 'Hvilket spørsmål hører til kildekritikk?', array['Hvem står bak kilden, og har de interesser i saken?', 'Hvor lang er teksten?', 'Hvilken farge har nettsiden?', 'Hvor mange bilder er det?']::text[], 0, 'Avsenderens interesser kan påvirke innholdet.', true, false, 8),
+  ('norsk-vg1:kilder-og-fagartikkel', 'q10', 'flervalg', 'Hva er en temasetning?', array['Tittelen på artikkelen', 'En setning som innleder et avsnitt og viser hovedtanken', 'Den siste setningen i teksten', 'Et sitat']::text[], 1, 'Temasetninger gjør teksten lett å følge.', true, false, 9),
+  ('norsk-vg1:kilder-og-fagartikkel', 'm01', 'sant-usant', 'Et direkte sitat skal stå i anførselstegn.', array['Sant', 'Usant']::text[], 0, 'Da ser leseren at ordene er andres.', false, true, 10),
+  ('norsk-vg1:kilder-og-fagartikkel', 'm02', 'sant-usant', 'Når du skriver med egne ord, trenger du ikke oppgi kilden.', array['Sant', 'Usant']::text[], 1, 'Parafraser krever også kildehenvisning.', false, true, 11),
+  ('norsk-vg1:kilder-og-fagartikkel', 'm03', 'sant-usant', 'En fagartikkel kan ha mellomtitler.', array['Sant', 'Usant']::text[], 0, 'Mellomtitler gjør teksten oversiktlig.', false, true, 12),
+  ('norsk-vg1:kilder-og-fagartikkel', 'm04', 'sant-usant', 'Reklame er en nøytral kilde.', array['Sant', 'Usant']::text[], 1, 'Reklame har som formål å selge.', false, true, 13),
+  ('norsk-vg1:kilder-og-fagartikkel', 'm05', 'flervalg', 'Hvor bør konklusjonen stå i en fagartikkel?', array['I tittelen', 'I avslutningen', 'I innledningen', 'I litteraturlisten']::text[], 1, 'Konklusjonen svarer på problemstillingen.', false, true, 14),
+  ('norsk-vg1:kilder-og-fagartikkel', 'm06', 'flervalg', 'Hvilket av disse er en tekstbinder?', array['Derimot', 'Bok', 'Rask', 'Skole']::text[], 0, 'Tekstbindere viser sammenhengen i resonnementet.', false, true, 15),
+  ('norsk-vg1:kilder-og-fagartikkel', 'm07', 'flervalg', 'Hvilken kildehenvisning følger APA-stilen?', array['[Hansen 45]', 'Hansen sa det', '(Hansen, 2021, s. 45)', 'Kilde: internett']::text[], 2, 'Forfatter, år og side oppgis i parentes.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('norsk-vg1:kilder-og-fagartikkel', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Norsk: Setningsanalyse og tekstbinding
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('norsk-vg1:setningsanalyse', 'norsk-vg1', 'setningsanalyse', 'Setningsanalyse og tekstbinding', 'Fagspråk for setningsoppbygning: setningsledd, helsetninger og leddsetninger, konjunksjoner og subjunksjoner, ordstilling og hvordan setninger bindes sammen til en tekst.', array[8]::int[], 5, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('norsk-vg1:setningsanalyse', '## Hvorfor setningsanalyse?
+
+Når du kan beskrive **hvordan setninger er bygd opp**, blir det lettere å forstå tekster, variere egen skriving og sette **komma** riktig. Fagspråket gjør det også mulig å snakke presist om språk.
+
+## Setningsledd
+
+- **Verbal** – verbet eller verbene som forteller hva som skjer: *Sara **har skrevet** et dikt.*
+- **Subjekt** – den eller det som gjør noe eller er noe. Spør «hvem eller hva + verbal?»: ***Sara** har skrevet et dikt.*
+- **Direkte objekt** – den eller det handlingen går ut over: *Sara har skrevet **et dikt**.*
+- **Indirekte objekt** – mottakeren: *Hun ga **læreren** diktet.*
+- **Predikativ** – sier noe om subjektet eller objektet etter verb som *være*, *bli* og *hete*: *Diktet er **vakkert**.*
+- **Adverbial** – forteller om tid, sted, måte eller årsak: *Hun skrev det **i går** **på biblioteket**.*
+- **Setningsadverbial** – ord som *ikke*, *aldri*, *kanskje* og *heldigvis*, som sier noe om hele setningen.
+
+## Helsetninger og leddsetninger
+
+- En **helsetning** (hovedsetning) kan stå alene: *Det regnet.*
+- En **leddsetning** kan ikke stå alene, men fungerer som et ledd i en annen setning: *Vi ble inne **fordi det regnet**.*
+
+Leddsetninger innledes ofte av en **subjunksjon**: *at, om, fordi, når, hvis, da, selv om, mens, som*. De kan ha ulike funksjoner – for eksempel **adverbial** (*fordi det regnet*), **objekt** (*Jeg vet **at du kommer***) eller **relativsetning** som beskriver et substantiv (*boka **som jeg leste***).
+
+**Konjunksjoner** – *og, men, eller, for, så* – binder sammen **likeverdige** ledd og setninger.
+
+## Ordstilling
+
+I norske helsetninger står **verbalet på andre plass** (**V2-regelen**). Hvis noe annet enn subjektet står først, bytter subjekt og verbal plass (**inversjon**): *I går **skrev Sara** et dikt.* I leddsetninger står **setningsadverbialet foran verbalet**: *… fordi hun **ikke kom***, men i helsetninger etter: *Hun **kom ikke**.*
+
+## Tegnsetting og setninger
+
+- Sett **komma mellom helsetninger** som er bundet sammen med konjunksjon: *Jeg ville gå, men bussen var borte.*
+- Sett **komma etter en leddsetning** som står først: *Når det regner, blir vi inne.*
+
+## Tekstbinding
+
+**Tekstbinding** er det som gjør at setningene henger sammen til en **tekst**:
+
+- **Pronomen** som viser tilbake: *Sara skrev et dikt. **Det** handlet om havet.*
+- **Gjentakelse** og **synonymer**: *diktet – teksten*
+- **Konnektiver** som viser logiske sammenhenger: *derfor* (årsak), *likevel* (motsetning), *dessuten* (tillegg), *først … deretter* (tid)
+- **Temasetninger** som gir retning til avsnittene
+
+God tekstbinding gjør teksten **lett å følge** og viser sammenhengen i resonnementet.', '{"label":"Setningsanalyse","children":[{"label":"Setningsledd","children":[{"label":"Verbal og subjekt"},{"label":"Objekter"},{"label":"Predikativ"},{"label":"Adverbial"}]},{"label":"Setninger","children":[{"label":"Helsetning"},{"label":"Leddsetning"},{"label":"Relativsetning"}]},{"label":"Bindeord","children":[{"label":"Konjunksjoner"},{"label":"Subjunksjoner"}]},{"label":"Ordstilling","children":[{"label":"V2-regelen"},{"label":"Inversjon"},{"label":"Setningsadverbial"}]},{"label":"Tekstbinding","children":[{"label":"Pronomen"},{"label":"Synonymer"},{"label":"Konnektiver"},{"label":"Komma"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'norsk-vg1:setningsanalyse';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('norsk-vg1:setningsanalyse', 'Verbal', 'Setningsleddet som består av verbet eller verbene.', 0),
+  ('norsk-vg1:setningsanalyse', 'Subjekt', 'Den eller det som gjør noe eller er noe i setningen.', 1),
+  ('norsk-vg1:setningsanalyse', 'Direkte objekt', 'Den eller det handlingen går ut over.', 2),
+  ('norsk-vg1:setningsanalyse', 'Indirekte objekt', 'Mottakeren, for eksempel «læreren» i «Hun ga læreren diktet».', 3),
+  ('norsk-vg1:setningsanalyse', 'Predikativ', 'Ledd som sier noe om subjektet eller objektet etter verb som «være» og «bli».', 4),
+  ('norsk-vg1:setningsanalyse', 'Adverbial', 'Ledd som forteller om tid, sted, måte eller årsak.', 5),
+  ('norsk-vg1:setningsanalyse', 'Setningsadverbial', 'Ord som «ikke», «aldri» og «kanskje» som sier noe om hele setningen.', 6),
+  ('norsk-vg1:setningsanalyse', 'Helsetning', 'Setning som kan stå alene.', 7),
+  ('norsk-vg1:setningsanalyse', 'Leddsetning', 'Setning som fungerer som et ledd i en annen setning.', 8),
+  ('norsk-vg1:setningsanalyse', 'Subjunksjon', 'Ord som innleder leddsetninger, som «fordi», «at» og «når».', 9),
+  ('norsk-vg1:setningsanalyse', 'Konjunksjon', 'Ord som binder sammen likeverdige ledd: og, men, eller, for, så.', 10),
+  ('norsk-vg1:setningsanalyse', 'Relativsetning', 'Leddsetning som beskriver et substantiv, ofte innledet med «som».', 11),
+  ('norsk-vg1:setningsanalyse', 'V2-regelen', 'Verbalet står på andre plass i norske helsetninger.', 12),
+  ('norsk-vg1:setningsanalyse', 'Inversjon', 'At subjekt og verbal bytter plass når noe annet står først.', 13),
+  ('norsk-vg1:setningsanalyse', 'Konnektiv', 'Ord som viser logiske sammenhenger, som «derfor» og «likevel».', 14);
+delete from public.quiz_sporsmal where tema_id = 'norsk-vg1:setningsanalyse';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('norsk-vg1:setningsanalyse', 'q01', 'flervalg', 'Hva er subjektet i setningen «I går leste Ali en bok»?', array['I går', 'Ali', 'leste', 'en bok']::text[], 1, 'Hvem leste? Ali.', true, true, 0),
+  ('norsk-vg1:setningsanalyse', 'q02', 'flervalg', 'Hva er direkte objekt i «Ali leste en bok»?', array['Ali', 'leste', 'en bok', 'Det finnes ikke noe objekt']::text[], 2, 'Hva leste Ali? En bok.', true, true, 1),
+  ('norsk-vg1:setningsanalyse', 'q03', 'flervalg', 'Hvilket ord er en subjunksjon?', array['fordi', 'og', 'men', 'eller']::text[], 0, 'Subjunksjoner innleder leddsetninger. De andre er konjunksjoner.', true, true, 2),
+  ('norsk-vg1:setningsanalyse', 'q04', 'flervalg', 'Hva sier V2-regelen?', array['At det skal være to verb i hver setning', 'At subjektet alltid står først', 'At setninger har to ledd', 'At verbalet står på andre plass i helsetninger']::text[], 3, 'Derfor heter det «I går leste Ali», ikke «I går Ali leste».', true, true, 3),
+  ('norsk-vg1:setningsanalyse', 'q05', 'flervalg', 'Hva er en leddsetning?', array['En setning som fungerer som et ledd i en annen setning', 'En setning uten verb', 'En setning med to subjekter', 'Den første setningen i en tekst']::text[], 0, 'Leddsetninger kan ikke stå alene.', true, true, 4),
+  ('norsk-vg1:setningsanalyse', 'q06', 'flervalg', 'Hva er predikativet i «Filmen var spennende»?', array['Filmen', 'var', 'spennende', 'Det finnes ikke noe predikativ']::text[], 2, '«Spennende» sier noe om subjektet etter verbet «var».', true, true, 5),
+  ('norsk-vg1:setningsanalyse', 'q07', 'flervalg', 'Hvor skal kommaet stå i «Når det regner blir vi inne»?', array['Etter «Når»', 'Etter «regner»', 'Etter «blir»', 'Det skal ikke være komma']::text[], 1, 'Det skal være komma etter en leddsetning som står først.', true, true, 6),
+  ('norsk-vg1:setningsanalyse', 'q08', 'flervalg', 'Hvilket ord er et konnektiv som viser motsetning?', array['derfor', 'dessuten', 'deretter', 'likevel']::text[], 3, '«Derfor» viser årsak, «dessuten» tillegg og «deretter» tid.', true, true, 7),
+  ('norsk-vg1:setningsanalyse', 'q09', 'flervalg', 'Hvilken setning har riktig plassering av «ikke»?', array['… fordi hun ikke kom', '… fordi hun kom ikke', '… fordi ikke hun kom', '… ikke fordi hun kom']::text[], 0, 'I leddsetninger står setningsadverbialet foran verbalet.', true, false, 8),
+  ('norsk-vg1:setningsanalyse', 'q10', 'flervalg', 'Hva er en relativsetning?', array['En setning om familien', 'En leddsetning som beskriver et substantiv', 'En helsetning', 'En setning med konjunksjon']::text[], 1, 'Eksempel: «boka som jeg leste».', true, false, 9),
+  ('norsk-vg1:setningsanalyse', 'm01', 'sant-usant', '«Og», «men» og «eller» er konjunksjoner.', array['Sant', 'Usant']::text[], 0, 'De binder sammen likeverdige ledd og setninger.', false, true, 10),
+  ('norsk-vg1:setningsanalyse', 'm02', 'sant-usant', 'En leddsetning kan alltid stå alene som en fullstendig setning.', array['Sant', 'Usant']::text[], 1, 'Leddsetninger er avhengige av en helsetning.', false, true, 11),
+  ('norsk-vg1:setningsanalyse', 'm03', 'sant-usant', 'Pronomen kan brukes til å binde setninger sammen.', array['Sant', 'Usant']::text[], 0, 'Pronomenet viser tilbake til noe som er nevnt.', false, true, 12),
+  ('norsk-vg1:setningsanalyse', 'm04', 'sant-usant', 'Et adverbial er alltid ett enkelt ord.', array['Sant', 'Usant']::text[], 1, 'Adverbialer kan være flere ord, for eksempel «på biblioteket».', false, true, 13),
+  ('norsk-vg1:setningsanalyse', 'm05', 'flervalg', 'Hva er indirekte objekt i «Hun ga broren en gave»?', array['Hun', 'broren', 'en gave', 'ga']::text[], 1, 'Broren er mottakeren.', false, true, 14),
+  ('norsk-vg1:setningsanalyse', 'm06', 'flervalg', 'Hva er inversjon?', array['At setningen står i fortid', 'At setningen mangler verb', 'At subjekt og verbal bytter plass', 'At man skriver baklengs']::text[], 2, 'Eksempel: «I dag skinner sola».', false, true, 15),
+  ('norsk-vg1:setningsanalyse', 'm07', 'flervalg', 'Hvilket ord er et setningsadverbial?', array['aldri', 'bok', 'skrev', 'vakker']::text[], 0, 'Setningsadverbialer sier noe om hele setningen.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('norsk-vg1:setningsanalyse', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Norsk: Skriving, revisjon og sidemål
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('norsk-vg1:skriving-og-sidemal', 'norsk-vg1', 'skriving-og-sidemal', 'Skriving, revisjon og sidemål', 'Skriveprosessen, struktur og avsnitt, kreativ bruk av virkemidler, revisjon etter tilbakemeldinger, tegnsetting og de viktigste forskjellene mellom bokmål og nynorsk.', array[9, 10, 11]::int[], 6, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('norsk-vg1:skriving-og-sidemal', '## Skriveprosessen
+
+God skriving skjer sjelden i ett forsøk. **Skriveprosessen** har flere faser:
+
+1. **Førskriving**: Finn ideer, les deg opp og lag en **disposisjon**.
+2. **Skriving**: Skriv et første utkast uten å stoppe for mye.
+3. **Respons**: Få **tilbakemeldinger** fra lærer eller medelever.
+4. **Revisjon**: Bearbeid teksten ut fra tilbakemeldingene og **vurderingskriteriene**.
+5. **Korrektur**: Rett skrivefeil og tegnsetting.
+
+## Struktur
+
+De fleste tekster har **innledning**, **hoveddel** og **avslutning**. Del teksten i **avsnitt** med én hovedtanke hver, og marker nytt avsnitt tydelig med **blank linje** eller **innrykk**. En **temasetning** først i avsnittet og **tekstbindere** mellom avsnittene gjør teksten lett å følge.
+
+## Kreativ tekstskaping
+
+I kreative tekster kan du **kombinere virkemidler og uttrykksformer**: bilder og tekst, dialog og indre monolog, lyd og film. Du kan for eksempel skrive **kortprosa**, et **dikt**, en **novelle** eller lage en **multimodal tekst**. Prøv virkemidler som **kontrast**, **gjentakelse**, **symbol** og **perspektivskifte** – og tenk over hvilken **effekt** de har.
+
+## Revisjon
+
+Når du **reviderer**, endrer du mer enn skrivefeil: Er problemstillingen tydelig? Er argumentene godt begrunnet? Er rekkefølgen logisk? Kan noe **strykes**? Å **lese teksten høyt** er en god måte å oppdage tunge setninger på.
+
+## Tegnsetting
+
+- **Komma mellom helsetninger** bundet med *og, men, eller, for, så*: *Hun løp, men hun rakk ikke bussen.*
+- **Komma etter leddsetning** som står først: *Hvis du kommer, blir jeg glad.*
+- **Komma rundt innskudd**: *Oslo, hovedstaden i Norge, har mange museer.*
+- **Kolon** foran oppramsing, forklaring eller sitat.
+- **Anførselstegn** rundt sitater og replikker.
+
+## Bokmål og nynorsk
+
+Du skal mestre både **hovedmål** og **sidemål**. Noen av de viktigste forskjellene:
+
+| Bokmål | Nynorsk |
+| --- | --- |
+| jeg, hun, de | eg, ho, dei |
+| ikke, noe, mye | ikkje, noko, mykje |
+| hva, hvem, hvordan, hvorfor | kva, kven, korleis, kvifor |
+| fra, bare, sammen, hele | frå, berre, saman, heile |
+| kjærlighet | kjærleik |
+
+**Substantiv** i nynorsk har tydelige kjønnsendelser: *ein gut – guten – gutar – gutane*, *ei jente – jenta – jenter – jentene*, *eit hus – huset – hus – husa*. Legg merke til at **ubestemt flertall** av hankjønnsord ofte ender på **-ar**.
+
+**Verb** i nynorsk: Mange verb får **-ar** i presens og **-a** i preteritum: *å kaste – kastar – kasta – har kasta*. Andre får **-er**: *å høyre – høyrer – høyrde*.
+
+**Eiendomsord** står gjerne **etter** substantivet: *boka mi*, *huset vårt*.
+
+Et godt tips er å bruke **ordbøkene.no**, som viser både bokmål og nynorsk, og å lese nynorske tekster jevnlig.', '{"label":"Skriving og sidemål","children":[{"label":"Skriveprosessen","children":[{"label":"Førskriving"},{"label":"Utkast"},{"label":"Respons"},{"label":"Revisjon"}]},{"label":"Struktur","children":[{"label":"Innledning, hoveddel, avslutning"},{"label":"Avsnitt"},{"label":"Tekstbinding"}]},{"label":"Kreativitet","children":[{"label":"Kortprosa og dikt"},{"label":"Multimodale tekster"},{"label":"Virkemidler"}]},{"label":"Tegnsetting","children":[{"label":"Komma mellom helsetninger"},{"label":"Komma etter leddsetning"},{"label":"Kolon og anførselstegn"}]},{"label":"Nynorsk","children":[{"label":"eg, ho, dei"},{"label":"ikkje, noko, mykje"},{"label":"gutar, jenter, hus"},{"label":"kastar – kasta"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'norsk-vg1:skriving-og-sidemal';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('norsk-vg1:skriving-og-sidemal', 'Skriveprosessen', 'Førskriving, skriving, respons, revisjon og korrektur.', 0),
+  ('norsk-vg1:skriving-og-sidemal', 'Disposisjon', 'Plan for oppbygningen av teksten.', 1),
+  ('norsk-vg1:skriving-og-sidemal', 'Respons', 'Tilbakemelding på en tekst underveis.', 2),
+  ('norsk-vg1:skriving-og-sidemal', 'Revisjon', 'Å bearbeide teksten ut fra tilbakemeldinger og kriterier.', 3),
+  ('norsk-vg1:skriving-og-sidemal', 'Avsnitt', 'Del av en tekst med én hovedtanke.', 4),
+  ('norsk-vg1:skriving-og-sidemal', 'Multimodal tekst', 'Tekst som kombinerer skrift, bilde, lyd eller film.', 5),
+  ('norsk-vg1:skriving-og-sidemal', 'Komma mellom helsetninger', 'Komma foran og, men, eller, for, så når de binder sammen helsetninger.', 6),
+  ('norsk-vg1:skriving-og-sidemal', 'Komma etter leddsetning', 'Komma etter en leddsetning som står først i setningen.', 7),
+  ('norsk-vg1:skriving-og-sidemal', 'Hovedmål og sidemål', 'Den målformen man bruker mest, og den andre målformen.', 8),
+  ('norsk-vg1:skriving-og-sidemal', 'eg, ho, dei', 'Nynorsk for jeg, hun, de.', 9),
+  ('norsk-vg1:skriving-og-sidemal', 'ikkje, noko, mykje', 'Nynorsk for ikke, noe, mye.', 10),
+  ('norsk-vg1:skriving-og-sidemal', 'kva, kven, korleis, kvifor', 'Nynorsk for hva, hvem, hvordan, hvorfor.', 11),
+  ('norsk-vg1:skriving-og-sidemal', 'ein gut – gutar – gutane', 'Nynorsk hankjønn med -ar i ubestemt flertall.', 12),
+  ('norsk-vg1:skriving-og-sidemal', 'kastar – kasta', 'Nynorsk a-verb i presens og preteritum.', 13),
+  ('norsk-vg1:skriving-og-sidemal', 'boka mi', 'Nynorsk eiendomsord etter substantivet.', 14);
+delete from public.quiz_sporsmal where tema_id = 'norsk-vg1:skriving-og-sidemal';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('norsk-vg1:skriving-og-sidemal', 'q01', 'flervalg', 'Hva heter «ikke» på nynorsk?', array['ikkje', 'ikkj', 'inte', 'ikki']::text[], 0, 'Tilsvarende blir «noe» til «noko».', true, true, 0),
+  ('norsk-vg1:skriving-og-sidemal', 'q02', 'flervalg', 'Hva er revisjon?', array['Å rette skrivefeil', 'Å skrive første utkast', 'Å bearbeide teksten ut fra tilbakemeldinger og kriterier', 'Å lese andres tekster']::text[], 2, 'Revisjon handler om innhold og struktur, ikke bare feil.', true, true, 1),
+  ('norsk-vg1:skriving-og-sidemal', 'q03', 'flervalg', 'Hvilken setning har riktig komma?', array['Hun løp men, hun rakk ikke bussen.', 'Hun løp, men hun rakk ikke bussen.', 'Hun, løp men hun rakk ikke bussen.', 'Hun løp men hun rakk, ikke bussen.']::text[], 1, 'Det skal være komma mellom helsetninger bundet med «men».', true, true, 2),
+  ('norsk-vg1:skriving-og-sidemal', 'q04', 'flervalg', 'Hva er ubestemt flertall av «ein gut» på nynorsk?', array['guter', 'gutene', 'gutane', 'gutar']::text[], 3, 'Bestemt flertall er «gutane».', true, true, 3),
+  ('norsk-vg1:skriving-og-sidemal', 'q05', 'flervalg', 'Hva heter «hvordan» på nynorsk?', array['kvifor', 'korleis', 'kven', 'kva']::text[], 1, 'Kvifor = hvorfor, kven = hvem, kva = hva.', true, true, 4),
+  ('norsk-vg1:skriving-og-sidemal', 'q06', 'flervalg', 'Hva er preteritum av «å kaste» på nynorsk?', array['kasta', 'kastet', 'kastar', 'kastte']::text[], 0, 'Presens er «kastar».', true, true, 5),
+  ('norsk-vg1:skriving-og-sidemal', 'q07', 'flervalg', 'Hva gjør du i førskrivingsfasen?', array['Retter skrivefeil', 'Leverer teksten', 'Finner ideer og lager disposisjon', 'Får karakter']::text[], 2, 'God forberedelse gjør skrivingen lettere.', true, true, 6),
+  ('norsk-vg1:skriving-og-sidemal', 'q08', 'flervalg', 'Hvor står eiendomsordet vanligvis på nynorsk?', array['Foran substantivet', 'Det brukes ikke', 'Først i setningen', 'Etter substantivet']::text[], 3, 'Eksempel: «boka mi», «huset vårt».', true, true, 7),
+  ('norsk-vg1:skriving-og-sidemal', 'q09', 'flervalg', 'Hva er et godt revisjonstips?', array['Å lese teksten høyt', 'Å aldri endre noe', 'Å bare telle ord', 'Å skrive teksten på nytt uten å lese den']::text[], 0, 'Da oppdager du tunge setninger og hull i resonnementet.', true, false, 8),
+  ('norsk-vg1:skriving-og-sidemal', 'q10', 'flervalg', 'Hva heter «hun» på nynorsk?', array['hon', 'ho', 'hun', 'hu']::text[], 1, '«Jeg» blir «eg» og «de» blir «dei».', true, false, 9),
+  ('norsk-vg1:skriving-og-sidemal', 'm01', 'sant-usant', '«Frå» er nynorsk for «fra».', array['Sant', 'Usant']::text[], 0, 'Tilsvarende er «berre» nynorsk for «bare».', false, true, 10),
+  ('norsk-vg1:skriving-og-sidemal', 'm02', 'sant-usant', 'Revisjon handler bare om å rette skrivefeil.', array['Sant', 'Usant']::text[], 1, 'Revisjon handler også om innhold, struktur og argumentasjon.', false, true, 11),
+  ('norsk-vg1:skriving-og-sidemal', 'm03', 'sant-usant', 'Det skal være komma etter en leddsetning som står først i setningen.', array['Sant', 'Usant']::text[], 0, 'Eksempel: «Hvis du kommer, blir jeg glad.»', false, true, 12),
+  ('norsk-vg1:skriving-og-sidemal', 'm04', 'sant-usant', '«Kjærlighet» heter «kjærlighet» også på nynorsk.', array['Sant', 'Usant']::text[], 1, 'På nynorsk heter det «kjærleik».', false, true, 13),
+  ('norsk-vg1:skriving-og-sidemal', 'm05', 'flervalg', 'Hva er bestemt entall av «ei jente» på nynorsk?', array['jenten', 'jentene', 'jenta', 'jentar']::text[], 2, 'Ei jente – jenta – jenter – jentene.', false, true, 14),
+  ('norsk-vg1:skriving-og-sidemal', 'm06', 'flervalg', 'Hvor skal kommaene stå i «Oslo hovedstaden i Norge har mange museer»?', array['Rundt «hovedstaden i Norge»', 'Bare etter «Oslo»', 'Bare før «har»', 'Det skal ikke være komma']::text[], 0, 'Innskudd skal ha komma på begge sider.', false, true, 15),
+  ('norsk-vg1:skriving-og-sidemal', 'm07', 'flervalg', 'Hva er en multimodal tekst?', array['En tekst på flere språk', 'En tekst som kombinerer skrift, bilde, lyd eller film', 'En svært lang tekst', 'En tekst med mange avsnitt']::text[], 1, 'Nettsider, reklame og tegneserier er eksempler.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('norsk-vg1:skriving-og-sidemal', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Norsk: Norsk i møte med andre språk
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('norsk-vg1:sprak-i-kontakt', 'norsk-vg1', 'sprak-i-kontakt', 'Norsk i møte med andre språk', 'Særtrekk ved norsk sammenlignet med andre språk – språkfamilier, ordstilling, tonelag og artikler – og hvordan språkmøter med latin, lavtysk, dansk, engelsk og andre språk har endret norsk.', array[12]::int[], 7, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('norsk-vg1:sprak-i-kontakt', '## Norsk blant verdens språk
+
+Norsk er et **nordisk** eller **nordgermansk** språk. Det tilhører den **germanske** grenen av den **indoeuropeiske språkfamilien**, sammen med blant annet engelsk og tysk. De nærmeste slektningene er **svensk** og **dansk**, og de tre skandinaviske språkene er i stor grad **gjensidig forståelige**. **Islandsk** og **færøysk** er også nordiske, men vanskeligere for nordmenn å forstå.
+
+Noen språk i Norge tilhører helt andre familier: **Samiske språk** og **kvensk** er **finsk-ugriske** (uralske) språk, i slekt med finsk og estisk.
+
+## Særtrekk ved norsk
+
+- **V2-ordstilling**: Verbalet står på andre plass i helsetninger: *I dag **regner** det.* Engelsk sier *Today it **rains*** – med subjektet før verbet.
+- **Etterhengt bestemt artikkel**: *hus**et*** – mens engelsk og tysk setter artikkelen foran: *the house*, *das Haus*.
+- **Tonelag (tonem)**: I mange norske dialekter kan tonegangen skille ord som ellers uttales likt, for eksempel *bønder* og *bønner*. Språk som **kinesisk** bruker toner i enda større grad.
+- **Sammensatte ord** skrives i **ett ord**: *skolebuss*, ikke *skole buss*. Å dele dem kalles **særskriving** og kan endre betydningen.
+- **Dialektmangfold** og **to offisielle skriftspråk**: bokmål og nynorsk.
+
+## Språkmøter som har endret norsk
+
+Språk endrer seg når folk som snakker ulike språk, møtes:
+
+- **Latin og gresk** kom med **kristendommen** og lærdommen i middelalderen og senere – ord som *skole*, *tavle* og mange fagord.
+- **Lavtysk**: I **hansatiden** (fra 1300-tallet) hadde tyske kjøpmenn stor makt i Bergen. Norsk fikk mange lånord som *betale*, *arbeid* og *frue*, og ordlagingselementer som **be-**, **-het** og **-else**.
+- **Dansk**: I **dansketiden** (1380–1814) ble **dansk** skriftspråk i Norge. Bokmål har utviklet seg fra dette dansk-norske skriftspråket, mens nynorsk bygger på dialektene.
+- **Fransk** ga ord som *sjåfør*, *byrå* og *stasjon*, ofte med **fornorsket skrivemåte**.
+- **Engelsk** påvirker norsk sterkt i dag gjennom **medier**, **spill**, **musikk** og **teknologi**: *chille*, *nice*, *streame*. Slike lånord kalles **anglisismer**.
+
+## Språkmøter i dag
+
+I byer med mange språk har det oppstått **multietnolekter** – måter å snakke på som blander trekk fra norsk og andre språk. Kjente ord er *wolla* («jeg sverger») og *sjofe* («se»). Mange unge **kodeveksler**, det vil si skifter mellom ulike måter å snakke på etter hvem de snakker med.
+
+## Hvordan skjer språkendring?
+
+Språk endrer seg på mange nivåer: **ordforråd** (nye ord og lånord), **uttale**, **grammatikk** og **skrivemåte**. **Språkrådet** gir råd om norsk språk og foreslår ofte **norske erstatningsord** for engelske lånord. Noen mener engelsk truer norsk på enkelte områder, som høyere utdanning og næringsliv – dette kalles **domenetap**.', '{"label":"Norsk i møte med andre språk","children":[{"label":"Språkfamilier","children":[{"label":"Indoeuropeisk"},{"label":"Nordgermansk"},{"label":"Finsk-ugrisk"}]},{"label":"Særtrekk","children":[{"label":"V2"},{"label":"Etterhengt artikkel"},{"label":"Tonelag"},{"label":"Sammensatte ord"}]},{"label":"Historiske språkmøter","children":[{"label":"Latin"},{"label":"Lavtysk"},{"label":"Dansk"},{"label":"Fransk"}]},{"label":"I dag","children":[{"label":"Engelsk"},{"label":"Multietnolekt"},{"label":"Kodeveksling"}]},{"label":"Språkendring","children":[{"label":"Lånord"},{"label":"Språkrådet"},{"label":"Domenetap"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'norsk-vg1:sprak-i-kontakt';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('norsk-vg1:sprak-i-kontakt', 'Nordgermansk språk', 'Nordisk språk, som norsk, svensk, dansk, islandsk og færøysk.', 0),
+  ('norsk-vg1:sprak-i-kontakt', 'Indoeuropeisk språkfamilie', 'Stor språkfamilie som blant annet omfatter germanske, romanske og slaviske språk.', 1),
+  ('norsk-vg1:sprak-i-kontakt', 'Finsk-ugriske språk', 'Språkfamilie med blant annet finsk, estisk, samisk og kvensk.', 2),
+  ('norsk-vg1:sprak-i-kontakt', 'Gjensidig forståelige språk', 'Språk der brukerne forstår hverandre, som norsk, svensk og dansk.', 3),
+  ('norsk-vg1:sprak-i-kontakt', 'V2-ordstilling', 'Verbalet står på andre plass i helsetninger.', 4),
+  ('norsk-vg1:sprak-i-kontakt', 'Etterhengt artikkel', 'Bestemt artikkel som endelse, som i «huset».', 5),
+  ('norsk-vg1:sprak-i-kontakt', 'Tonelag (tonem)', 'Tonegang som kan skille ord, som «bønder» og «bønner».', 6),
+  ('norsk-vg1:sprak-i-kontakt', 'Særskriving', 'Å skrive sammensatte ord i to ord.', 7),
+  ('norsk-vg1:sprak-i-kontakt', 'Lavtysk påvirkning', 'Lånord og ordlagingselementer fra hansatiden, som «betale» og «-het».', 8),
+  ('norsk-vg1:sprak-i-kontakt', 'Dansketiden', 'Perioden 1380–1814 da Norge var i union med Danmark.', 9),
+  ('norsk-vg1:sprak-i-kontakt', 'Lånord', 'Ord som er hentet fra et annet språk.', 10),
+  ('norsk-vg1:sprak-i-kontakt', 'Anglisisme', 'Lånord eller uttrykk fra engelsk.', 11),
+  ('norsk-vg1:sprak-i-kontakt', 'Multietnolekt', 'Språkvariant med trekk fra norsk og andre språk.', 12),
+  ('norsk-vg1:sprak-i-kontakt', 'Språkrådet', 'Statens fagorgan for norsk språk.', 13),
+  ('norsk-vg1:sprak-i-kontakt', 'Domenetap', 'At et språk mister terreng til et annet språk på et samfunnsområde.', 14);
+delete from public.quiz_sporsmal where tema_id = 'norsk-vg1:sprak-i-kontakt';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('norsk-vg1:sprak-i-kontakt', 'q01', 'flervalg', 'Hvilken språkfamilie tilhører norsk?', array['Den finsk-ugriske', 'Den semittiske', 'Den indoeuropeiske', 'Den kinesisk-tibetanske']::text[], 2, 'Norsk er et germansk, nordisk språk.', true, true, 0),
+  ('norsk-vg1:sprak-i-kontakt', 'q02', 'flervalg', 'Hvilke språk er samisk i slekt med?', array['Finsk og estisk', 'Norsk og svensk', 'Engelsk og tysk', 'Russisk og polsk']::text[], 0, 'Samisk er et finsk-ugrisk språk.', true, true, 1),
+  ('norsk-vg1:sprak-i-kontakt', 'q03', 'flervalg', 'Hva er et særtrekk ved bestemt form i norsk?', array['Artikkelen står foran substantivet', 'Det finnes ingen bestemt form', 'Artikkelen skrives med stor bokstav', 'Artikkelen henges på som endelse']::text[], 3, 'Norsk: huset. Engelsk: the house.', true, true, 2),
+  ('norsk-vg1:sprak-i-kontakt', 'q04', 'flervalg', 'Hvilken periode ga norsk mange lånord fra lavtysk?', array['Vikingtiden', 'Hansatiden', 'Dansketiden', '1900-tallet']::text[], 1, 'Tyske kjøpmenn hadde stor makt i Bergen fra 1300-tallet.', true, true, 3),
+  ('norsk-vg1:sprak-i-kontakt', 'q05', 'flervalg', 'Hvilke ord kan skilles av tonelag i mange dialekter?', array['bønder og bønner', 'hus og huset', 'katt og hund', 'stor og liten']::text[], 0, 'Tonegangen er ulik selv om lydene er nesten like.', true, true, 4),
+  ('norsk-vg1:sprak-i-kontakt', 'q06', 'flervalg', 'Hva er en anglisisme?', array['Et gammelt norsk ord', 'Et dialektord', 'Et lånord eller uttrykk fra engelsk', 'Et samisk ord']::text[], 2, '«Chille» og «streame» er eksempler.', true, true, 5),
+  ('norsk-vg1:sprak-i-kontakt', 'q07', 'flervalg', 'Hvilket skriftspråk har utviklet seg fra det dansk-norske skriftspråket?', array['Nynorsk', 'Samisk', 'Kvensk', 'Bokmål']::text[], 3, 'Nynorsk bygger på dialektene.', true, true, 6),
+  ('norsk-vg1:sprak-i-kontakt', 'q08', 'flervalg', 'Hva er særskriving?', array['Å skrive sammensatte ord i to ord', 'Å skrive på dialekt', 'Å skrive med store bokstaver', 'Å skrive på sidemål']::text[], 0, 'Særskriving kan endre betydningen: «røyk fritt» og «røykfritt».', true, true, 7),
+  ('norsk-vg1:sprak-i-kontakt', 'q09', 'flervalg', 'Hva er domenetap?', array['At et ord forsvinner fra ordboka', 'At et språk mister terreng til et annet språk på et samfunnsområde', 'At en dialekt dør ut', 'At man glemmer et språk']::text[], 1, 'Engelsk brukes for eksempel mye i forskning og næringsliv.', true, false, 8),
+  ('norsk-vg1:sprak-i-kontakt', 'q10', 'flervalg', 'Hvilket ordlagingselement kom fra lavtysk?', array['-skap i «vennskap»', '-else i «forståelse»', '-ing i «fisking»', '-lig i «vennlig»']::text[], 1, 'Også be- og -het kom fra lavtysk.', true, false, 9),
+  ('norsk-vg1:sprak-i-kontakt', 'm01', 'sant-usant', 'Norsk, svensk og dansk er i stor grad gjensidig forståelige.', array['Sant', 'Usant']::text[], 0, 'De er nært beslektede skandinaviske språk.', false, true, 10),
+  ('norsk-vg1:sprak-i-kontakt', 'm02', 'sant-usant', 'Kvensk er et germansk språk.', array['Sant', 'Usant']::text[], 1, 'Kvensk er et finsk-ugrisk språk.', false, true, 11),
+  ('norsk-vg1:sprak-i-kontakt', 'm03', 'sant-usant', 'Språkrådet foreslår ofte norske erstatningsord for engelske lånord.', array['Sant', 'Usant']::text[], 0, 'Et eksempel er «strømme» for «streame».', false, true, 12),
+  ('norsk-vg1:sprak-i-kontakt', 'm04', 'sant-usant', 'I engelsk står verbet alltid på andre plass etter et adverbial først i setningen.', array['Sant', 'Usant']::text[], 1, 'Engelsk sier «Today it rains», med subjektet før verbet.', false, true, 13),
+  ('norsk-vg1:sprak-i-kontakt', 'm05', 'flervalg', 'Når var dansketiden?', array['800–1066', '1380–1814', '1814–1905', '1905–1945']::text[], 1, 'I denne perioden ble dansk skriftspråket i Norge.', false, true, 14),
+  ('norsk-vg1:sprak-i-kontakt', 'm06', 'flervalg', 'Hvilket ord er et fransk lånord?', array['sjåfør', 'betale', 'chille', 'skole']::text[], 0, 'Skrivemåten er fornorsket fra «chauffeur».', false, true, 15),
+  ('norsk-vg1:sprak-i-kontakt', 'm07', 'flervalg', 'Hva betyr «wolla» i multietnolekt?', array['Hei', 'Se', 'Jeg sverger', 'Takk']::text[], 2, 'Ordet brukes for å forsterke at noe er sant.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('norsk-vg1:sprak-i-kontakt', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Norsk: Samiske språk og språkrettigheter
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('norsk-vg1:samiske-sprak', 'norsk-vg1', 'samiske-sprak', 'Samiske språk og språkrettigheter', 'Utbredelsen av de samiske språkene i Norge, fornorskingspolitikken og konsekvensene av den, og de språklige rettighetene samer har som urfolk i dag.', array[13]::int[], 8, 'sjekkes', array['Sjekk årstall (Finnefondet 1851, Wexelsen-plakaten 1898, jordsalgsloven 1902, Grunnloven § 108 vedtatt 1988, ILO 169 ratifisert 1990) og beskrivelsen av utbredelsen til lule- og sørsamisk.']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('norsk-vg1:samiske-sprak', '## Samene og samiske språk
+
+**Samene** er et **urfolk** som har levd i **Sápmi** – de nordlige delene av Norge, Sverige og Finland og Kolahalvøya i Russland – i lang tid før dagens statsgrenser ble trukket. De **samiske språkene** er **finsk-ugriske** språk, i slekt med finsk og estisk, og ikke med norsk.
+
+Det finnes rundt ti samiske språk. I Norge brukes særlig
+
+- **nordsamisk** – det største samiske språket, brukt særlig i Finnmark og Nord-Troms
+- **lulesamisk** – i området rundt Tysfjord i Nordland
+- **sørsamisk** – fra Saltfjellet og sørover til Engerdal i Innlandet
+
+I tillegg finnes blant annet **pitesamisk** og **østsamisk (skoltesamisk)**. Flere av språkene har **få brukere** og regnes som **truede**.
+
+## Fornorskingspolitikken
+
+Fra omkring **midten av 1800-tallet** til godt ut på **1900-tallet** førte norske myndigheter en **fornorskingspolitikk** overfor samer og **kvener**. Målet var at de skulle bli **norske** i språk og kultur.
+
+- **Finnefondet** (1851) skulle fremme norsk språk blant samer og kvener.
+- **Skoleinstrukser**, blant annet **Wexelsen-plakaten** fra **1898**, bestemte at undervisningen skulle foregå på norsk, og at samisk og kvensk bare skulle brukes som hjelpespråk når det var helt nødvendig.
+- Mange barn ble sendt på **internatskoler**, der det kunne være forbudt å snakke samisk.
+- **Jordsalgsloven** av 1902 krevde i praksis at den som ville kjøpe jord i Finnmark, kunne norsk.
+
+Konsekvensene var store: Mange samer sluttet å snakke samisk med barna sine, og **språket gikk tapt** i flere familier og områder. Mange opplevde **skam** over egen bakgrunn.
+
+## Vendepunktet
+
+Etter andre verdenskrig ble politikken gradvis endret. **Alta-saken** (1979–1981), der samer og miljøvernere protesterte mot en demning i Altaelva, satte samiske rettigheter på dagsordenen.
+
+- **Sameloven** (1987) og **Sametinget**, som ble åpnet i **1989**
+- **Grunnloven § 108** (vedtatt i 1988) slår fast at staten skal legge forholdene til rette for at samene kan sikre og utvikle **språket, kulturen og samfunnslivet** sitt.
+- Norge ratifiserte **ILO-konvensjon nr. 169** om urfolk i 1990 – som første land.
+
+## Språklige rettigheter i dag
+
+- Samisk og norsk er **likeverdige språk**, og i **forvaltningsområdet for samisk språk** – en rekke kommuner – har samer rett til å bruke samisk i møte med det offentlige.
+- Samiske elever har **rett til opplæring i og på samisk**.
+- Samiske stedsnavn skal brukes på skilt og kart.
+- Det gjøres mye for å **revitalisere** språkene – gjennom barnehager, skoler, språksentre, medier og litteratur.
+
+**Sannhets- og forsoningskommisjonen** la i 2023 fram en rapport om fornorskingen og urett mot samer, kvener/norskfinner og skogfinner. **Samenes nasjonaldag** er **6. februar**, til minne om det første samiske landsmøtet i Trondheim i 1917.', '{"label":"Samiske språk","children":[{"label":"Språkene","children":[{"label":"Finsk-ugriske"},{"label":"Nordsamisk"},{"label":"Lulesamisk"},{"label":"Sørsamisk"}]},{"label":"Fornorsking","children":[{"label":"Finnefondet 1851"},{"label":"Wexelsen-plakaten 1898"},{"label":"Internatskoler"},{"label":"Jordsalgsloven 1902"}]},{"label":"Konsekvenser","children":[{"label":"Språktap"},{"label":"Skam"}]},{"label":"Vendepunkt","children":[{"label":"Alta-saken"},{"label":"Sameloven og Sametinget"},{"label":"Grunnloven § 108"},{"label":"ILO 169"}]},{"label":"I dag","children":[{"label":"Forvaltningsområdet"},{"label":"Opplæring på samisk"},{"label":"Revitalisering"},{"label":"Sannhetskommisjonen"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'norsk-vg1:samiske-sprak';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('norsk-vg1:samiske-sprak', 'Urfolk', 'Folk som bodde i et område før dagens statsgrenser ble trukket.', 0),
+  ('norsk-vg1:samiske-sprak', 'Sápmi', 'Samenes område i Norge, Sverige, Finland og Russland.', 1),
+  ('norsk-vg1:samiske-sprak', 'Nordsamisk', 'Det største samiske språket.', 2),
+  ('norsk-vg1:samiske-sprak', 'Lulesamisk', 'Samisk språk i området rundt Tysfjord.', 3),
+  ('norsk-vg1:samiske-sprak', 'Sørsamisk', 'Samisk språk fra Saltfjellet og sørover.', 4),
+  ('norsk-vg1:samiske-sprak', 'Fornorskingspolitikk', 'Politikk for å gjøre samer og kvener norske i språk og kultur.', 5),
+  ('norsk-vg1:samiske-sprak', 'Finnefondet', 'Fond fra 1851 som skulle fremme norsk blant samer og kvener.', 6),
+  ('norsk-vg1:samiske-sprak', 'Wexelsen-plakaten', 'Skoleinstruks fra 1898 om at undervisningen skulle være på norsk.', 7),
+  ('norsk-vg1:samiske-sprak', 'Jordsalgsloven 1902', 'Lov som i praksis krevde norskkunnskaper for å kjøpe jord i Finnmark.', 8),
+  ('norsk-vg1:samiske-sprak', 'Alta-saken', 'Konflikt 1979–1981 om demning i Altaelva som satte samiske rettigheter på dagsordenen.', 9),
+  ('norsk-vg1:samiske-sprak', 'Sametinget', 'Samenes folkevalgte organ, åpnet i 1989.', 10),
+  ('norsk-vg1:samiske-sprak', 'Grunnloven § 108', 'Staten skal legge til rette for samisk språk, kultur og samfunnsliv.', 11),
+  ('norsk-vg1:samiske-sprak', 'ILO-konvensjon 169', 'Internasjonal konvensjon om urfolks rettigheter, ratifisert av Norge i 1990.', 12),
+  ('norsk-vg1:samiske-sprak', 'Forvaltningsområdet for samisk språk', 'Kommuner der samer har særlige rettigheter til å bruke samisk.', 13),
+  ('norsk-vg1:samiske-sprak', 'Revitalisering', 'Arbeid for å gi et truet språk nytt liv.', 14);
+delete from public.quiz_sporsmal where tema_id = 'norsk-vg1:samiske-sprak';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('norsk-vg1:samiske-sprak', 'q01', 'flervalg', 'Hvilken språkfamilie tilhører de samiske språkene?', array['Germansk', 'Finsk-ugrisk', 'Romansk', 'Slavisk']::text[], 1, 'Samisk er i slekt med finsk og estisk.', true, true, 0),
+  ('norsk-vg1:samiske-sprak', 'q02', 'flervalg', 'Hvilket er det største samiske språket?', array['Nordsamisk', 'Sørsamisk', 'Lulesamisk', 'Pitesamisk']::text[], 0, 'Nordsamisk brukes særlig i Finnmark og Nord-Troms.', true, true, 1),
+  ('norsk-vg1:samiske-sprak', 'q03', 'flervalg', 'Hva var målet med fornorskingspolitikken?', array['Å styrke samisk språk', 'Å lære nordmenn samisk', 'At samer og kvener skulle bli norske i språk og kultur', 'Å opprette Sametinget']::text[], 2, 'Politikken varte fra midten av 1800-tallet til langt ut på 1900-tallet.', true, true, 2),
+  ('norsk-vg1:samiske-sprak', 'q04', 'flervalg', 'Hva bestemte Wexelsen-plakaten fra 1898?', array['At alle skulle lære samisk', 'At Sametinget skulle opprettes', 'At samer skulle få egne skoler', 'At undervisningen skulle være på norsk']::text[], 3, 'Samisk og kvensk skulle bare brukes som hjelpespråk når det var helt nødvendig.', true, true, 3),
+  ('norsk-vg1:samiske-sprak', 'q05', 'flervalg', 'Hvilken sak satte samiske rettigheter på dagsordenen rundt 1980?', array['Alta-saken', 'Unionsoppløsningen', 'EU-avstemningen', 'Oljefunnet']::text[], 0, 'Protestene var mot en demning i Altaelva.', true, true, 4),
+  ('norsk-vg1:samiske-sprak', 'q06', 'flervalg', 'Når ble Sametinget åpnet?', array['1905', '1945', '2005', '1989']::text[], 3, 'Sameloven kom i 1987.', true, true, 5),
+  ('norsk-vg1:samiske-sprak', 'q07', 'flervalg', 'Hva sier Grunnloven § 108?', array['At norsk er eneste offisielle språk', 'At staten skal legge til rette for samisk språk, kultur og samfunnsliv', 'At samer ikke har egne rettigheter', 'At alle må lære nynorsk']::text[], 1, 'Paragrafen ble vedtatt i 1988.', true, true, 6),
+  ('norsk-vg1:samiske-sprak', 'q08', 'flervalg', 'Hva er en konsekvens av fornorskingen?', array['At flere lærte samisk', 'At samisk ble offisielt språk i hele Norge', 'At samisk gikk tapt i mange familier', 'At samer fikk mer land']::text[], 2, 'Mange sluttet å snakke samisk med barna sine.', true, true, 7),
+  ('norsk-vg1:samiske-sprak', 'q09', 'flervalg', 'Hvilken dato er samenes nasjonaldag?', array['17. mai', '6. februar', '1. mai', '24. oktober']::text[], 1, 'Dagen minner om det første samiske landsmøtet i Trondheim i 1917.', true, false, 8),
+  ('norsk-vg1:samiske-sprak', 'q10', 'flervalg', 'Hva er revitalisering av et språk?', array['Arbeid for å gi et truet språk nytt liv', 'Å forby et språk', 'Å oversette et språk', 'Å lage en ny dialekt']::text[], 0, 'Barnehager, skoler og medier er viktige verktøy.', true, false, 9),
+  ('norsk-vg1:samiske-sprak', 'm01', 'sant-usant', 'Norge var det første landet som ratifiserte ILO-konvensjon nr. 169.', array['Sant', 'Usant']::text[], 0, 'Norge ratifiserte konvensjonen i 1990.', false, true, 10),
+  ('norsk-vg1:samiske-sprak', 'm02', 'sant-usant', 'Fornorskingspolitikken rammet bare samer.', array['Sant', 'Usant']::text[], 1, 'Også kvener ble rammet av fornorskingen.', false, true, 11),
+  ('norsk-vg1:samiske-sprak', 'm03', 'sant-usant', 'Samiske elever har rett til opplæring i og på samisk.', array['Sant', 'Usant']::text[], 0, 'Retten er slått fast i opplæringsloven.', false, true, 12),
+  ('norsk-vg1:samiske-sprak', 'm04', 'sant-usant', 'Samisk er i nær slekt med norsk.', array['Sant', 'Usant']::text[], 1, 'Samisk er finsk-ugrisk, norsk er germansk.', false, true, 13),
+  ('norsk-vg1:samiske-sprak', 'm05', 'flervalg', 'Hva er Sápmi?', array['Samenes område i Norge, Sverige, Finland og Russland', 'En samisk by', 'Sametingets bygning', 'En samisk høytid']::text[], 0, 'Sápmi strekker seg over fire land.', false, true, 14),
+  ('norsk-vg1:samiske-sprak', 'm06', 'flervalg', 'Hvilket år la Sannhets- og forsoningskommisjonen fram rapporten sin?', array['1989', '2005', '2023', '1917']::text[], 2, 'Rapporten handlet om fornorskingen og urett mot samer, kvener/norskfinner og skogfinner.', false, true, 15),
+  ('norsk-vg1:samiske-sprak', 'm07', 'flervalg', 'Hvor brukes sørsamisk?', array['Bare i Finnmark', 'Fra Saltfjellet og sørover', 'Bare i Russland', 'Bare i Oslo']::text[], 1, 'Sørsamisk brukes i et stort område, men har få brukere.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('norsk-vg1:samiske-sprak', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk 1P (vg1): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'matematikk-1p' and slug not in ('potenser-og-standardform', 'prosent-og-prosentpoeng', 'vekstfaktor-og-rente', 'proporsjonalitet', 'sammensatte-maleenheter', 'formler-og-variabler', 'funksjoner-og-grafer', 'matematisk-modellering');
+
+-- Matematikk 1P: Potenser, røtter og standardform
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-1p:potenser-og-standardform', 'matematikk-1p', 'potenser-og-standardform', 'Potenser, røtter og standardform', 'Potensregler, negative eksponenter, kvadratrot og tredjerot, tall på standardform og regning med svært store og svært små tall, som i naturfag, teknologi og økonomi.', array[12]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-1p:potenser-og-standardform', '## Potenser
+
+En **potens** er en kort måte å skrive gjentatt multiplikasjon på: 2⁵ = 2 · 2 · 2 · 2 · 2 = 32. Tallet 2 er **grunntallet**, og 5 er **eksponenten**.
+
+## Potensreglene
+
+- a^m · a^n = a^(m+n): a³ · a⁴ = a⁷
+- a^m : a^n = a^(m−n): a⁸ : a² = a⁶
+- (a^m)^n = a^(m·n): (a²)³ = a⁶
+- (a · b)^n = a^n · b^n: (2x)³ = 8x³
+- a⁰ = 1: 5⁰ = 1
+- a⁻ⁿ = 1/aⁿ: 2⁻³ = 1/2³ = 1/8 = 0,125
+
+En **negativ eksponent** gir altså ikke et negativt tall, men en **brøk**. 10⁻² = 1/100 = 0,01.
+
+## Røtter
+
+**Kvadratroten** av et tall er det positive tallet som ganget med seg selv gir tallet: √49 = 7, fordi 7 · 7 = 49. **Tredjeroten** er tallet som opphøyd i tredje gir tallet: ∛27 = 3, fordi 3³ = 27.
+
+Nyttige regler:
+
+- √(a · b) = √a · √b: √(4 · 9) = 2 · 3 = 6
+- √(a/b) = √a / √b
+- √a kan også skrives som en potens med eksponent 1/2.
+
+Obs: √(a + b) er **ikke** lik √a + √b. √(9 + 16) = √25 = 5, men √9 + √16 = 7.
+
+## Standardform
+
+Svært store og svært små tall skrives ofte på **standardform**: a · 10ⁿ, der **1 ≤ a < 10** og n er et helt tall.
+
+- 4 500 000 = 4,5 · 10⁶ (kommaet flyttes 6 plasser til venstre)
+- 0,00073 = 7,3 · 10⁻⁴ (kommaet flyttes 4 plasser til høyre)
+- 12 · 10³ er **ikke** på standardform, fordi 12 er større enn 10. Riktig er 1,2 · 10⁴.
+
+## Regne med standardform
+
+Ved multiplikasjon ganger vi tallene for seg og tierpotensene for seg:
+
+(3 · 10⁴) · (2 · 10⁵) = 6 · 10⁹
+
+Ved divisjon deler vi tallene og trekker fra eksponentene:
+
+(8 · 10⁶) : (2 · 10²) = 4 · 10⁴
+
+Hvis resultatet ikke er på standardform, justerer vi: 5 · 10³ · 4 · 10² = 20 · 10⁵ = 2,0 · 10⁶.
+
+## Prefikser
+
+Mange enheter bruker **prefikser** som står for tierpotenser:
+
+| Prefiks | Verdi |
+| --- | --- |
+| giga (G) | 10⁹ |
+| mega (M) | 10⁶ |
+| kilo (k) | 10³ |
+| milli (m) | 10⁻³ |
+| mikro (µ) | 10⁻⁶ |
+| nano (n) | 10⁻⁹ |
+
+Avstanden fra jorda til sola er omtrent 1,5 · 10⁸ km, og et virus kan være rundt 10⁻⁷ m. Standardform gjør slike tall lettere å lese, sammenligne og regne med – også på kalkulatoren, der 1,5E8 betyr 1,5 · 10⁸.', '{"label":"Potenser og standardform","children":[{"label":"Potenser","children":[{"label":"Grunntall og eksponent"},{"label":"a⁰ = 1"},{"label":"Negative eksponenter"}]},{"label":"Potensregler","children":[{"label":"Gange: legg sammen"},{"label":"Dele: trekk fra"},{"label":"Potens av potens: gang"}]},{"label":"Røtter","children":[{"label":"Kvadratrot"},{"label":"Tredjerot"},{"label":"√(ab) = √a · √b"}]},{"label":"Standardform","children":[{"label":"a · 10ⁿ"},{"label":"1 ≤ a < 10"},{"label":"Regne med standardform"}]},{"label":"Prefikser","children":[{"label":"Kilo, mega, giga"},{"label":"Milli, mikro, nano"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-1p:potenser-og-standardform';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-1p:potenser-og-standardform', 'Potens', 'Kort skrivemåte for gjentatt multiplikasjon, som 2⁵.', 0),
+  ('matematikk-1p:potenser-og-standardform', 'Grunntall og eksponent', 'I 2⁵ er 2 grunntallet og 5 eksponenten.', 1),
+  ('matematikk-1p:potenser-og-standardform', 'a^m · a^n', 'a^(m+n) – eksponentene legges sammen.', 2),
+  ('matematikk-1p:potenser-og-standardform', 'a^m : a^n', 'a^(m−n) – eksponentene trekkes fra hverandre.', 3),
+  ('matematikk-1p:potenser-og-standardform', '(a^m)^n', 'a^(m·n) – eksponentene ganges.', 4),
+  ('matematikk-1p:potenser-og-standardform', 'a⁰', '1 (når a ikke er 0).', 5),
+  ('matematikk-1p:potenser-og-standardform', 'a⁻ⁿ', '1/aⁿ, for eksempel 2⁻³ = 1/8.', 6),
+  ('matematikk-1p:potenser-og-standardform', 'Kvadratrot', 'Det positive tallet som ganget med seg selv gir tallet: √49 = 7.', 7),
+  ('matematikk-1p:potenser-og-standardform', 'Tredjerot', 'Tallet som opphøyd i tredje gir tallet: ∛27 = 3.', 8),
+  ('matematikk-1p:potenser-og-standardform', '√(a · b)', '√a · √b', 9),
+  ('matematikk-1p:potenser-og-standardform', 'Standardform', 'a · 10ⁿ der 1 ≤ a < 10.', 10),
+  ('matematikk-1p:potenser-og-standardform', 'Multiplikasjon på standardform', 'Gang tallene for seg og legg sammen eksponentene.', 11),
+  ('matematikk-1p:potenser-og-standardform', 'Kilo, mega, giga', '10³, 10⁶ og 10⁹.', 12),
+  ('matematikk-1p:potenser-og-standardform', 'Milli, mikro, nano', '10⁻³, 10⁻⁶ og 10⁻⁹.', 13),
+  ('matematikk-1p:potenser-og-standardform', '1,5E8 på kalkulatoren', '1,5 · 10⁸', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-1p:potenser-og-standardform';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-1p:potenser-og-standardform', 'q01', 'flervalg', 'Hva er 2⁵?', array['10', '25', '32', '7']::text[], 2, '2 · 2 · 2 · 2 · 2 = 32.', true, true, 0),
+  ('matematikk-1p:potenser-og-standardform', 'q02', 'flervalg', 'Hvordan skrives 4 500 000 på standardform?', array['45 · 10⁵', '4,5 · 10⁶', '4,5 · 10⁵', '0,45 · 10⁷']::text[], 1, 'Tallet foran må være mellom 1 og 10, og kommaet flyttes 6 plasser.', true, true, 1),
+  ('matematikk-1p:potenser-og-standardform', 'q03', 'flervalg', 'Hvordan skrives 0,00073 på standardform?', array['7,3 · 10⁻⁴', '7,3 · 10⁴', '73 · 10⁻⁵', '7,3 · 10⁻³']::text[], 0, 'Kommaet flyttes 4 plasser til høyre, så eksponenten blir −4.', true, true, 2),
+  ('matematikk-1p:potenser-og-standardform', 'q04', 'flervalg', 'Hva er a³ · a⁴?', array['a¹²', 'a', '2a⁷', 'a⁷']::text[], 3, 'Ved multiplikasjon legges eksponentene sammen: 3 + 4 = 7.', true, true, 3),
+  ('matematikk-1p:potenser-og-standardform', 'q05', 'flervalg', 'Hva er √49?', array['7', '24,5', '14', '2401']::text[], 0, '7 · 7 = 49.', true, true, 4),
+  ('matematikk-1p:potenser-og-standardform', 'q06', 'flervalg', 'Hva er (3 · 10⁴) · (2 · 10⁵)?', array['5 · 10⁹', '6 · 10²⁰', '6 · 10⁹', '6 · 10¹']::text[], 2, '3 · 2 = 6 og 10⁴ · 10⁵ = 10⁹.', true, true, 5),
+  ('matematikk-1p:potenser-og-standardform', 'q07', 'flervalg', 'Hva er 5⁰?', array['0', '1', '5', 'Ikke definert']::text[], 1, 'Alle tall unntatt 0 opphøyd i null er 1.', true, true, 6),
+  ('matematikk-1p:potenser-og-standardform', 'q08', 'flervalg', 'Hva er 2⁻³?', array['1/8', '−8', '−6', '8']::text[], 0, '2⁻³ = 1/2³ = 1/8. Negativ eksponent gir en brøk.', true, true, 7),
+  ('matematikk-1p:potenser-og-standardform', 'q09', 'flervalg', 'Hva er (8 · 10⁶) : (2 · 10²)?', array['4 · 10³', '6 · 10⁴', '4 · 10⁸', '4 · 10⁴']::text[], 3, '8 : 2 = 4 og 6 − 2 = 4, så svaret er 4 · 10⁴.', true, false, 8),
+  ('matematikk-1p:potenser-og-standardform', 'q10', 'flervalg', 'Hvor mye er 1 mikrometer?', array['10⁻³ m', '10⁻⁶ m', '10⁻⁹ m', '10⁶ m']::text[], 1, 'Mikro betyr 10⁻⁶.', true, false, 9),
+  ('matematikk-1p:potenser-og-standardform', 'm01', 'sant-usant', '(a²)³ = a⁶', array['Sant', 'Usant']::text[], 0, 'Eksponentene ganges: 2 · 3 = 6.', false, true, 10),
+  ('matematikk-1p:potenser-og-standardform', 'm02', 'sant-usant', '10⁻² = −100', array['Sant', 'Usant']::text[], 1, '10⁻² = 1/100 = 0,01.', false, true, 11),
+  ('matematikk-1p:potenser-og-standardform', 'm03', 'sant-usant', '√(4 · 9) = 6', array['Sant', 'Usant']::text[], 0, '√4 · √9 = 2 · 3 = 6.', false, true, 12),
+  ('matematikk-1p:potenser-og-standardform', 'm04', 'sant-usant', '12 · 10³ er skrevet på standardform.', array['Sant', 'Usant']::text[], 1, 'Tallet foran må være mindre enn 10. Riktig er 1,2 · 10⁴.', false, true, 13),
+  ('matematikk-1p:potenser-og-standardform', 'm05', 'flervalg', 'Hva er ∛27?', array['9', '3', '13,5', '81']::text[], 1, '3 · 3 · 3 = 27.', false, true, 14),
+  ('matematikk-1p:potenser-og-standardform', 'm06', 'flervalg', 'Avstanden fra jorda til sola er omtrent 1,5 · 10⁸ km. Hvor mange km er det?', array['150 000 000 km', '15 000 000 km', '1 500 000 000 km', '150 000 km']::text[], 0, 'Kommaet flyttes 8 plasser til høyre.', false, true, 15),
+  ('matematikk-1p:potenser-og-standardform', 'm07', 'flervalg', 'Hva er a⁸ : a²?', array['a⁴', 'a¹⁰', 'a⁶', 'a¹⁶']::text[], 2, 'Ved divisjon trekkes eksponentene fra hverandre: 8 − 2 = 6.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-1p:potenser-og-standardform', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk 1P: Prosent, prosentpoeng og promille
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-1p:prosent-og-prosentpoeng', 'matematikk-1p', 'prosent-og-prosentpoeng', 'Prosent, prosentpoeng og promille', 'Prosentregning i hverdag og samfunn: finne prosentdelen, prosenten og det hele, prosentvis endring, forskjellen på prosent og prosentpoeng, promille og merverdiavgift.', array[6]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-1p:prosent-og-prosentpoeng', '## Prosent
+
+**Prosent** betyr **hundredeler**: 25 % = 25/100 = 0,25. Å regne om til desimaltall gjør prosentregning enkelt.
+
+## Tre grunntyper
+
+**1. Finne prosentdelen**: Hvor mye er 30 % av 800 kr?
+0,30 · 800 = **240 kr**
+
+**2. Finne prosenten**: 45 av 180 elever går til fots. Hvor mange prosent er det?
+45/180 = 0,25 = **25 %**
+
+**3. Finne det hele**: 60 kr er 15 % av et beløp. Hva er beløpet?
+60 / 0,15 = **400 kr**
+
+## Prosentvis endring
+
+**Prosentvis endring** = (ny verdi − gammel verdi) / gammel verdi · 100 %
+
+- En pris øker fra 250 kr til 300 kr: 50/250 = 0,20 = **20 % økning**.
+- En pris synker fra 400 kr til 300 kr: 100/400 = 0,25 = **25 % nedgang**.
+
+Legg merke til at vi alltid deler på den **gamle** verdien.
+
+## Prosent og prosentpoeng
+
+Når noe som allerede er målt i prosent endrer seg, må vi skille mellom **prosentpoeng** og **prosent**:
+
+Et parti går fra **20 %** til **25 %** oppslutning.
+
+- Endringen er **5 prosentpoeng** (25 − 20).
+- Den prosentvise endringen er **25 %** (5/20 = 0,25).
+
+Begge deler er riktig, men de betyr noe forskjellig. I nyheter om valg, renter og ledighet er det viktig å lese nøye: En renteøkning fra 4 % til 5 % er 1 prosentpoeng, men 25 % økning i renten.
+
+## Promille
+
+**Promille** (‰) betyr **tusendeler**: 3 ‰ = 3/1000 = 0,003. Altså er 1 % = 10 ‰. Promille brukes blant annet om
+
+- **alkohol i blodet**: Grensen for å kjøre bil i Norge er **0,2 ‰**.
+- **eiendomsskatt**, som kommunene regner i promille av verdien.
+- **saltinnhold** i havet.
+
+## Merverdiavgift
+
+De fleste varer og tjenester har **merverdiavgift** (moms). Den generelle satsen er **25 %**.
+
+- Pris uten moms 400 kr → med moms: 400 · 1,25 = **500 kr**.
+- Pris med moms 500 kr → uten moms: 500 / 1,25 = **400 kr**.
+
+Obs: Momsen er ikke 25 % av 500 kr! Den er 25 % av prisen **uten** moms, altså 100 kr.
+
+## Rabatt og vurdering
+
+En jakke til 800 kr med 30 % rabatt koster 800 · 0,70 = **560 kr**. Når du presenterer svar, bør du skrive **enhet**, vise **framgangsmåten** og vurdere om svaret er **rimelig**. Pass også på: Hvis prisen først økes med 10 % og så senkes med 10 %, blir den **ikke** som før – den blir 1 % lavere.', '{"label":"Prosent og prosentpoeng","children":[{"label":"Grunntyper","children":[{"label":"Prosentdelen"},{"label":"Prosenten"},{"label":"Det hele"}]},{"label":"Endring","children":[{"label":"Prosentvis endring"},{"label":"Del på gammel verdi"},{"label":"Rabatt"}]},{"label":"Prosentpoeng","children":[{"label":"Differanse i prosent"},{"label":"Valg og renter"}]},{"label":"Promille","children":[{"label":"Tusendeler"},{"label":"Alkohol i blodet"},{"label":"Eiendomsskatt"}]},{"label":"Moms","children":[{"label":"25 %"},{"label":"Gang med 1,25"},{"label":"Del på 1,25"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-1p:prosent-og-prosentpoeng';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-1p:prosent-og-prosentpoeng', 'Prosent', 'Hundredeler: 25 % = 0,25.', 0),
+  ('matematikk-1p:prosent-og-prosentpoeng', 'Finne prosentdelen', 'Gang det hele med prosenten som desimaltall: 0,30 · 800.', 1),
+  ('matematikk-1p:prosent-og-prosentpoeng', 'Finne prosenten', 'Del delen på det hele: 45/180 = 25 %.', 2),
+  ('matematikk-1p:prosent-og-prosentpoeng', 'Finne det hele', 'Del delen på prosenten som desimaltall: 60 / 0,15.', 3),
+  ('matematikk-1p:prosent-og-prosentpoeng', 'Prosentvis endring', '(ny − gammel) / gammel · 100 %.', 4),
+  ('matematikk-1p:prosent-og-prosentpoeng', 'Prosentpoeng', 'Differansen mellom to prosenttall: fra 20 % til 25 % er 5 prosentpoeng.', 5),
+  ('matematikk-1p:prosent-og-prosentpoeng', 'Prosent vs. prosentpoeng', 'Fra 20 % til 25 %: 5 prosentpoeng, men 25 % økning.', 6),
+  ('matematikk-1p:prosent-og-prosentpoeng', 'Promille', 'Tusendeler: 3 ‰ = 0,003.', 7),
+  ('matematikk-1p:prosent-og-prosentpoeng', '1 %', '10 ‰', 8),
+  ('matematikk-1p:prosent-og-prosentpoeng', 'Promillegrensen for bilkjøring', '0,2 ‰ i Norge.', 9),
+  ('matematikk-1p:prosent-og-prosentpoeng', 'Merverdiavgift (moms)', 'Avgift på varer og tjenester, generelt 25 %.', 10),
+  ('matematikk-1p:prosent-og-prosentpoeng', 'Legge til 25 % moms', 'Gang prisen med 1,25.', 11),
+  ('matematikk-1p:prosent-og-prosentpoeng', 'Trekke fra 25 % moms', 'Del prisen med moms på 1,25.', 12),
+  ('matematikk-1p:prosent-og-prosentpoeng', 'Rabatt på 30 %', 'Gang prisen med 0,70.', 13),
+  ('matematikk-1p:prosent-og-prosentpoeng', '+10 % og så −10 %', 'Gir 1 % nedgang, fordi 1,10 · 0,90 = 0,99.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-1p:prosent-og-prosentpoeng';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-1p:prosent-og-prosentpoeng', 'q01', 'flervalg', 'Hva er 30 % av 800 kr?', array['24 kr', '240 kr', '2400 kr', '270 kr']::text[], 1, '0,30 · 800 = 240.', true, true, 0),
+  ('matematikk-1p:prosent-og-prosentpoeng', 'q02', 'flervalg', '45 av 180 elever går til skolen. Hvor mange prosent er det?', array['40 %', '45 %', '25 %', '18 %']::text[], 2, '45/180 = 0,25 = 25 %.', true, true, 1),
+  ('matematikk-1p:prosent-og-prosentpoeng', 'q03', 'flervalg', 'Et parti går fra 20 % til 25 % oppslutning. Hvor mange prosentpoeng økte det?', array['5 prosentpoeng', '25 prosentpoeng', '20 prosentpoeng', '45 prosentpoeng']::text[], 0, '25 − 20 = 5 prosentpoeng.', true, true, 2),
+  ('matematikk-1p:prosent-og-prosentpoeng', 'q04', 'flervalg', 'Et parti går fra 20 % til 25 % oppslutning. Hvor mange prosent økte oppslutningen?', array['5 %', '20 %', '45 %', '25 %']::text[], 3, 'Økningen på 5 prosentpoeng delt på 20 gir 0,25 = 25 %.', true, true, 3),
+  ('matematikk-1p:prosent-og-prosentpoeng', 'q05', 'flervalg', 'Hva er 3 ‰ som desimaltall?', array['0,3', '0,03', '0,003', '3,0']::text[], 2, 'Promille betyr tusendeler: 3/1000.', true, true, 4),
+  ('matematikk-1p:prosent-og-prosentpoeng', 'q06', 'flervalg', 'En pris stiger fra 250 kr til 300 kr. Hva er den prosentvise økningen?', array['20 %', '50 %', '16,7 %', '25 %']::text[], 0, '50/250 = 0,20. Del alltid på den gamle verdien.', true, true, 5),
+  ('matematikk-1p:prosent-og-prosentpoeng', 'q07', 'flervalg', '60 kr er 15 % av et beløp. Hva er beløpet?', array['9 kr', '400 kr', '600 kr', '900 kr']::text[], 1, '60 / 0,15 = 400.', true, true, 6),
+  ('matematikk-1p:prosent-og-prosentpoeng', 'q08', 'flervalg', 'En vare koster 500 kr med 25 % moms. Hva koster den uten moms?', array['375 kr', '475 kr', '125 kr', '400 kr']::text[], 3, '500 / 1,25 = 400. Momsen er 25 % av prisen uten moms.', true, true, 7),
+  ('matematikk-1p:prosent-og-prosentpoeng', 'q09', 'flervalg', 'En pris synker fra 400 kr til 300 kr. Hva er den prosentvise nedgangen?', array['33,3 %', '100 %', '25 %', '75 %']::text[], 2, '100/400 = 0,25 = 25 %.', true, false, 8),
+  ('matematikk-1p:prosent-og-prosentpoeng', 'q10', 'flervalg', 'Hva er promillegrensen for å kjøre bil i Norge?', array['0,2 ‰', '0,5 ‰', '2 ‰', '0 ‰']::text[], 0, 'Grensen er 0,2 promille alkohol i blodet.', true, false, 9),
+  ('matematikk-1p:prosent-og-prosentpoeng', 'm01', 'sant-usant', 'Prosent betyr hundredeler.', array['Sant', 'Usant']::text[], 0, 'Per cent betyr «per hundre».', false, true, 10),
+  ('matematikk-1p:prosent-og-prosentpoeng', 'm02', 'sant-usant', 'En økning fra 10 % til 12 % er en økning på 2 %.', array['Sant', 'Usant']::text[], 1, 'Det er en økning på 2 prosentpoeng, som er 20 %.', false, true, 11),
+  ('matematikk-1p:prosent-og-prosentpoeng', 'm03', 'sant-usant', '1 % er det samme som 10 ‰.', array['Sant', 'Usant']::text[], 0, '1/100 = 10/1000.', false, true, 12),
+  ('matematikk-1p:prosent-og-prosentpoeng', 'm04', 'sant-usant', 'Hvis en pris først økes med 10 % og så senkes med 10 %, blir den som før.', array['Sant', 'Usant']::text[], 1, '1,10 · 0,90 = 0,99, så prisen blir 1 % lavere.', false, true, 13),
+  ('matematikk-1p:prosent-og-prosentpoeng', 'm05', 'flervalg', 'Hvor mange prosent er 12 av 48?', array['4 %', '25 %', '12 %', '36 %']::text[], 1, '12/48 = 0,25.', false, true, 14),
+  ('matematikk-1p:prosent-og-prosentpoeng', 'm06', 'flervalg', 'Hva er 0,35 skrevet i prosent?', array['3,5 %', '0,35 %', '350 %', '35 %']::text[], 3, 'Gang med 100: 0,35 · 100 = 35.', false, true, 15),
+  ('matematikk-1p:prosent-og-prosentpoeng', 'm07', 'flervalg', 'En jakke koster 800 kr. Hva koster den med 30 % rabatt?', array['240 kr', '770 kr', '560 kr', '530 kr']::text[], 2, '800 · 0,70 = 560.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-1p:prosent-og-prosentpoeng', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk 1P: Vekstfaktor, rente og lån
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-1p:vekstfaktor-og-rente', 'matematikk-1p', 'vekstfaktor-og-rente', 'Vekstfaktor, rente og lån', 'Vekstfaktor ved økning og nedgang, flere endringer etter hverandre, renters rente, verdifall, sparing og lån – og hvordan ulike premisser som rente og tid påvirker resultatet.', array[6, 2]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-1p:vekstfaktor-og-rente', '## Vekstfaktor
+
+**Vekstfaktoren** er tallet vi ganger med for å finne ny verdi etter en prosentvis endring:
+
+- Økning på p %: vekstfaktor = 1 + p/100. 8 % økning → **1,08**.
+- Nedgang på p %: vekstfaktor = 1 − p/100. 15 % nedgang → **0,85**.
+
+**Ny verdi = gammel verdi · vekstfaktor**
+
+En lønn på 30 000 kr som øker med 4 %, blir 30 000 · 1,04 = 31 200 kr.
+
+## Finne opprinnelig verdi
+
+Etter en prisøkning på 25 % koster en vare 750 kr. Hva kostet den før?
+
+Gammel verdi = ny verdi / vekstfaktor = 750 / 1,25 = **600 kr**
+
+## Flere endringer etter hverandre
+
+Ved flere endringer **ganger** vi vekstfaktorene: En pris som først øker med 10 % og så synker med 10 %, får vekstfaktor 1,10 · 0,90 = 0,99 – altså **1 % nedgang** totalt.
+
+## Renters rente
+
+Når renten legges til beløpet hvert år, gir også rentene rente. Dette kalles **renters rente**. Med startbeløp K og vekstfaktor a i n år:
+
+**Beløp = K · aⁿ**
+
+10 000 kr med 4 % rente i 5 år: 10 000 · 1,04⁵ ≈ **12 167 kr**.
+
+## Verdifall
+
+En bil til 300 000 kr taper 15 % av verdien hvert år. Etter 3 år: 300 000 · 0,85³ ≈ **184 238 kr**.
+
+## Lån
+
+Når du låner penger, betaler du **renter** og **avdrag** (nedbetaling av selve lånet). Summen er **terminbeløpet**.
+
+- **Serielån**: Avdraget er likt hver gang, så terminbeløpet **synker** etter hvert.
+- **Annuitetslån**: Terminbeløpet er **likt** hver gang. De fleste boliglån er annuitetslån.
+- **Effektiv rente** er renten inkludert **gebyrer** og andre kostnader. Bruk den når du sammenligner lån.
+
+**Forbrukslån** og **kredittkortgjeld** har ofte **svært høy rente**. Et lån på 200 000 kr gir 10 000 kr i rente det første året med 5 % rente, men 40 000 kr med 20 % rente.
+
+## Premisser påvirker resultatet
+
+En beregning bygger alltid på **premisser** – antakelser. Hvor mye sparepengene vokser, avhenger av **renten**, **antall år**, om du **sparer mer** underveis og om **prisene stiger** (inflasjon). Små endringer i renten gir store utslag over lang tid:
+
+- 10 000 kr i 30 år med 2 % rente: 10 000 · 1,02³⁰ ≈ 18 114 kr
+- 10 000 kr i 30 år med 5 % rente: 10 000 · 1,05³⁰ ≈ 43 219 kr
+
+Når du presenterer en beregning, bør du derfor **oppgi premissene** og gjerne vise hvordan svaret endrer seg hvis de endres.', '{"label":"Vekstfaktor og rente","children":[{"label":"Vekstfaktor","children":[{"label":"Økning: 1 + p/100"},{"label":"Nedgang: 1 − p/100"},{"label":"Ny = gammel · vf"}]},{"label":"Flere endringer","children":[{"label":"Gang vekstfaktorene"},{"label":"K · aⁿ"}]},{"label":"Sparing","children":[{"label":"Renters rente"},{"label":"Lang tid gir stor effekt"}]},{"label":"Lån","children":[{"label":"Renter og avdrag"},{"label":"Serielån"},{"label":"Annuitetslån"},{"label":"Effektiv rente"}]},{"label":"Premisser","children":[{"label":"Rente"},{"label":"Tid"},{"label":"Inflasjon"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-1p:vekstfaktor-og-rente';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-1p:vekstfaktor-og-rente', 'Vekstfaktor ved økning', '1 + p/100, for eksempel 1,08 ved 8 % økning.', 0),
+  ('matematikk-1p:vekstfaktor-og-rente', 'Vekstfaktor ved nedgang', '1 − p/100, for eksempel 0,85 ved 15 % nedgang.', 1),
+  ('matematikk-1p:vekstfaktor-og-rente', 'Ny verdi', 'Gammel verdi · vekstfaktor.', 2),
+  ('matematikk-1p:vekstfaktor-og-rente', 'Opprinnelig verdi', 'Ny verdi / vekstfaktor.', 3),
+  ('matematikk-1p:vekstfaktor-og-rente', 'Flere endringer', 'Gang vekstfaktorene med hverandre.', 4),
+  ('matematikk-1p:vekstfaktor-og-rente', 'Renters rente', 'At rentene legges til beløpet og også gir rente.', 5),
+  ('matematikk-1p:vekstfaktor-og-rente', 'K · aⁿ', 'Beløpet etter n perioder med vekstfaktor a.', 6),
+  ('matematikk-1p:vekstfaktor-og-rente', 'Verdifall', 'At noe mister verdi, for eksempel en bil.', 7),
+  ('matematikk-1p:vekstfaktor-og-rente', 'Avdrag', 'Nedbetaling av selve lånebeløpet.', 8),
+  ('matematikk-1p:vekstfaktor-og-rente', 'Terminbeløp', 'Renter pluss avdrag for en periode.', 9),
+  ('matematikk-1p:vekstfaktor-og-rente', 'Serielån', 'Lån med likt avdrag og synkende terminbeløp.', 10),
+  ('matematikk-1p:vekstfaktor-og-rente', 'Annuitetslån', 'Lån med like store terminbeløp.', 11),
+  ('matematikk-1p:vekstfaktor-og-rente', 'Effektiv rente', 'Rente inkludert gebyrer og andre kostnader.', 12),
+  ('matematikk-1p:vekstfaktor-og-rente', 'Forbrukslån', 'Lån uten sikkerhet, ofte med svært høy rente.', 13),
+  ('matematikk-1p:vekstfaktor-og-rente', 'Premiss', 'Antakelse en beregning bygger på, som rente og tid.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-1p:vekstfaktor-og-rente';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-1p:vekstfaktor-og-rente', 'q01', 'flervalg', 'Hva er vekstfaktoren for en økning på 8 %?', array['0,08', '1,8', '1,08', '0,92']::text[], 2, '1 + 8/100 = 1,08.', true, true, 0),
+  ('matematikk-1p:vekstfaktor-og-rente', 'q02', 'flervalg', 'Hva er vekstfaktoren for en nedgang på 15 %?', array['0,85', '1,15', '0,15', '−0,15']::text[], 0, '1 − 15/100 = 0,85.', true, true, 1),
+  ('matematikk-1p:vekstfaktor-og-rente', 'q03', 'flervalg', 'Du setter inn 10 000 kr med 4 % rente i 5 år. Hvilket uttrykk gir beløpet?', array['10 000 · 1,4⁵', '10 000 · 0,04 · 5', '10 000 + 1,04⁵', '10 000 · 1,04⁵']::text[], 3, 'Beløpet ganges med vekstfaktoren 1,04 hvert år.', true, true, 2),
+  ('matematikk-1p:vekstfaktor-og-rente', 'q04', 'flervalg', 'Etter en prisøkning på 25 % koster en vare 750 kr. Hva kostet den før?', array['562,50 kr', '600 kr', '725 kr', '937,50 kr']::text[], 1, '750 / 1,25 = 600.', true, true, 3),
+  ('matematikk-1p:vekstfaktor-og-rente', 'q05', 'flervalg', 'En pris øker med 10 % og synker deretter med 10 %. Hva er den samlede endringen?', array['Ingen endring', '1 % økning', '1 % nedgang', '20 % nedgang']::text[], 2, '1,10 · 0,90 = 0,99.', true, true, 4),
+  ('matematikk-1p:vekstfaktor-og-rente', 'q06', 'flervalg', 'En bil til 300 000 kr taper 15 % av verdien hvert år. Hvilket uttrykk gir verdien etter 3 år?', array['300 000 · 0,85³', '300 000 · 0,15³', '300 000 − 3 · 15', '300 000 · 1,15³']::text[], 0, 'Vekstfaktoren ved 15 % nedgang er 0,85.', true, true, 5),
+  ('matematikk-1p:vekstfaktor-og-rente', 'q07', 'flervalg', 'Hva er renters rente?', array['At banken tar dobbel rente', 'At rentene legges til beløpet og også gir rente senere', 'At renten er fast', 'At man betaler rente to ganger i året']::text[], 1, 'Derfor vokser sparepenger raskere og raskere.', true, true, 6),
+  ('matematikk-1p:vekstfaktor-og-rente', 'q08', 'flervalg', 'Du låner 200 000 kr med 5 % rente. Hvor mye er renten det første året?', array['1 000 kr', '100 000 kr', '20 000 kr', '10 000 kr']::text[], 3, '0,05 · 200 000 = 10 000.', true, true, 7),
+  ('matematikk-1p:vekstfaktor-og-rente', 'q09', 'flervalg', 'Hvorfor er forbrukslån ofte dyre?', array['De har svært høy rente', 'De har lav rente', 'De er gratis de første årene', 'De må betales tilbake på én dag']::text[], 0, 'Høy rente gjør at gjelden kan vokse raskt.', true, false, 8),
+  ('matematikk-1p:vekstfaktor-og-rente', 'q10', 'flervalg', 'Hvilke premisser påvirker mest hvor mye sparepenger vokser over lang tid?', array['Bankens navn', 'Fargen på bankkortet', 'Renten og antall år', 'Hvilken ukedag man setter inn']::text[], 2, '5 % i stedet for 2 % rente gir mer enn dobbelt så mye etter 30 år.', true, false, 9),
+  ('matematikk-1p:vekstfaktor-og-rente', 'm01', 'sant-usant', 'Vekstfaktoren for en økning på 100 % er 2.', array['Sant', 'Usant']::text[], 0, '1 + 100/100 = 2, altså en dobling.', false, true, 10),
+  ('matematikk-1p:vekstfaktor-og-rente', 'm02', 'sant-usant', 'En nedgang på 20 % har vekstfaktor 1,2.', array['Sant', 'Usant']::text[], 1, 'Vekstfaktoren er 0,8.', false, true, 11),
+  ('matematikk-1p:vekstfaktor-og-rente', 'm03', 'sant-usant', 'Ved renters rente vokser beløpet med flere kroner for hvert år.', array['Sant', 'Usant']::text[], 0, 'Renten regnes av et stadig større beløp.', false, true, 12),
+  ('matematikk-1p:vekstfaktor-og-rente', 'm04', 'sant-usant', 'Et serielån har like store terminbeløp gjennom hele lånetiden.', array['Sant', 'Usant']::text[], 1, 'Det er annuitetslån som har like store terminbeløp.', false, true, 13),
+  ('matematikk-1p:vekstfaktor-og-rente', 'm05', 'flervalg', 'Et beløp økte fra 5 000 kr til 5 600 kr. Hva er vekstfaktoren?', array['1,12', '0,12', '1,6', '1,012']::text[], 0, '5 600 / 5 000 = 1,12.', false, true, 14),
+  ('matematikk-1p:vekstfaktor-og-rente', 'm06', 'flervalg', 'Hva er effektiv rente?', array['Renten før skatt', 'Renten inkludert gebyrer og andre kostnader', 'Renten på sparekonto', 'Renten etter ett år']::text[], 1, 'Effektiv rente gjør det lettere å sammenligne lån.', false, true, 15),
+  ('matematikk-1p:vekstfaktor-og-rente', 'm07', 'flervalg', 'Hva kjennetegner et annuitetslån?', array['Lånet har ingen rente', 'Avdraget er likt hver gang', 'Terminbeløpet er likt hver gang', 'Lånet betales tilbake på én gang']::text[], 2, 'De fleste boliglån er annuitetslån.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-1p:vekstfaktor-og-rente', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk 1P: Proporsjonalitet og omvendt proporsjonalitet
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-1p:proporsjonalitet', 'matematikk-1p', 'proporsjonalitet', 'Proporsjonalitet og omvendt proporsjonalitet', 'Proporsjonale og omvendt proporsjonale størrelser i tabeller, formler og grafer, forholdstall, målestokk og blandingsforhold – med eksempler fra hverdag og arbeidsliv.', array[7]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-1p:proporsjonalitet', '## Proporsjonale størrelser
+
+To størrelser x og y er **proporsjonale** når **forholdet** mellom dem er **konstant**:
+
+y/x = k, eller **y = k · x**
+
+Tallet k kalles **proporsjonalitetskonstanten**. Eksempler:
+
+- Pris og mengde: 3 kg epler koster 90 kr. Da er k = 90/3 = **30 kr/kg**, og 5 kg koster 30 · 5 = **150 kr**.
+- Lønn og timer med fast timelønn.
+- Strekning og tid når farten er konstant.
+
+Grafen til to proporsjonale størrelser er en **rett linje gjennom origo**. Hvis x dobles, dobles også y.
+
+## Omvendt proporsjonale størrelser
+
+To størrelser er **omvendt proporsjonale** når **produktet** er konstant:
+
+x · y = k, eller **y = k/x**
+
+Når x dobles, **halveres** y. Eksempler:
+
+- Antall arbeidere og tid: 4 personer bruker 6 timer på en jobb, altså 24 arbeidstimer. 8 personer bruker 24/8 = **3 timer** (hvis alle jobber like raskt).
+- Fart og tid på en fast strekning: 120 km tar 2 timer med 60 km/h og 1,5 timer med 80 km/h.
+- Antall personer som deler en regning, og hvor mye hver betaler.
+
+Grafen er en **hyperbel** – en kurve som synker raskt og så flater ut, og som aldri treffer aksene.
+
+## Sjekke en tabell
+
+| x | 1 | 2 | 4 |
+| --- | --- | --- | --- |
+| y | 12 | 6 | 3 |
+
+- Er **y/x** likt for alle par? 12, 3, 0,75 – nei, ikke proporsjonale.
+- Er **x · y** likt for alle par? 12, 12, 12 – ja, **omvendt proporsjonale** med k = 12.
+
+Obs: y = 3x + 2 er en lineær sammenheng, men **ikke** proporsjonal, fordi grafen ikke går gjennom origo.
+
+## Forhold og målestokk
+
+Et **forhold** sammenligner to størrelser ved divisjon. **Målestokk** er et forhold mellom avstand på et kart eller en tegning og virkeligheten:
+
+Målestokk **1 : 50 000** betyr at 1 cm på kartet er 50 000 cm = 500 m i virkeligheten. 4 cm på kartet er da 4 · 500 m = **2 km**.
+
+## Blandingsforhold
+
+Saft som blandes i forholdet **1 : 4** betyr 1 del saft og 4 deler vann. Til 2 dl saft trengs 8 dl vann, og det blir 10 dl ferdig saft. Blandingsforhold brukes også for betong, maling, gjødsel og medisiner.
+
+## Hvorfor er dette nyttig?
+
+Mange problemer i arbeidslivet handler om proporsjonalitet: å **skalere oppskrifter**, **regne ut materialbehov**, **planlegge bemanning** og **sammenligne priser**. Det viktige er å vurdere om sammenhengen **virkelig** er proporsjonal – for eksempel går ikke en jobb nødvendigvis dobbelt så fort med dobbelt så mange folk hvis de går i veien for hverandre.', '{"label":"Proporsjonalitet","children":[{"label":"Proporsjonal","children":[{"label":"y/x konstant"},{"label":"y = kx"},{"label":"Linje gjennom origo"}]},{"label":"Omvendt proporsjonal","children":[{"label":"x · y konstant"},{"label":"y = k/x"},{"label":"Hyperbel"}]},{"label":"Sjekke tabeller","children":[{"label":"Del: y/x"},{"label":"Gang: x · y"}]},{"label":"Forhold","children":[{"label":"Målestokk"},{"label":"Blandingsforhold"}]},{"label":"I praksis","children":[{"label":"Priser"},{"label":"Arbeidstimer"},{"label":"Fart og tid"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-1p:proporsjonalitet';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-1p:proporsjonalitet', 'Proporsjonale størrelser', 'Størrelser der forholdet y/x er konstant.', 0),
+  ('matematikk-1p:proporsjonalitet', 'y = k · x', 'Formel for proporsjonalitet.', 1),
+  ('matematikk-1p:proporsjonalitet', 'Proporsjonalitetskonstant', 'Tallet k i y = kx eller y = k/x.', 2),
+  ('matematikk-1p:proporsjonalitet', 'Graf ved proporsjonalitet', 'Rett linje gjennom origo.', 3),
+  ('matematikk-1p:proporsjonalitet', 'Omvendt proporsjonale størrelser', 'Størrelser der produktet x · y er konstant.', 4),
+  ('matematikk-1p:proporsjonalitet', 'y = k/x', 'Formel for omvendt proporsjonalitet.', 5),
+  ('matematikk-1p:proporsjonalitet', 'Hyperbel', 'Grafen til omvendt proporsjonale størrelser.', 6),
+  ('matematikk-1p:proporsjonalitet', 'Dobling ved proporsjonalitet', 'Når x dobles, dobles y.', 7),
+  ('matematikk-1p:proporsjonalitet', 'Dobling ved omvendt proporsjonalitet', 'Når x dobles, halveres y.', 8),
+  ('matematikk-1p:proporsjonalitet', 'Forhold', 'Sammenligning av to størrelser ved divisjon.', 9),
+  ('matematikk-1p:proporsjonalitet', 'Målestokk', 'Forholdet mellom avstand på kart eller tegning og virkeligheten.', 10),
+  ('matematikk-1p:proporsjonalitet', '1 : 50 000', '1 cm på kartet er 500 m i virkeligheten.', 11),
+  ('matematikk-1p:proporsjonalitet', 'Blandingsforhold 1 : 4', '1 del av det ene og 4 deler av det andre.', 12),
+  ('matematikk-1p:proporsjonalitet', 'Arbeidstimer', 'Antall personer · antall timer – ofte konstant for en jobb.', 13),
+  ('matematikk-1p:proporsjonalitet', 'Lineær, men ikke proporsjonal', 'y = ax + b med b ≠ 0 – grafen går ikke gjennom origo.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-1p:proporsjonalitet';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-1p:proporsjonalitet', 'q01', 'flervalg', 'Hva kjennetegner proporsjonale størrelser?', array['Produktet x · y er konstant', 'Forholdet y/x er konstant', 'Grafen er en hyperbel', 'Den ene øker når den andre minker']::text[], 1, 'y = kx, og grafen er en rett linje gjennom origo.', true, true, 0),
+  ('matematikk-1p:proporsjonalitet', 'q02', 'flervalg', '3 kg epler koster 90 kr. Hva koster 5 kg?', array['120 kr', '180 kr', '150 kr', '450 kr']::text[], 2, 'Kiloprisen er 30 kr, og 30 · 5 = 150.', true, true, 1),
+  ('matematikk-1p:proporsjonalitet', 'q03', 'flervalg', '4 personer bruker 6 timer på en jobb. Hvor lang tid bruker 8 personer som jobber like raskt?', array['3 timer', '12 timer', '2 timer', '6 timer']::text[], 0, 'Jobben tar 24 arbeidstimer, og 24/8 = 3.', true, true, 2),
+  ('matematikk-1p:proporsjonalitet', 'q04', 'flervalg', 'Hvordan ser grafen til omvendt proporsjonale størrelser ut?', array['Rett linje gjennom origo', 'Parabel', 'Vannrett linje', 'Hyperbel']::text[], 3, 'Grafen synker raskt og flater ut, uten å treffe aksene.', true, true, 3),
+  ('matematikk-1p:proporsjonalitet', 'q05', 'flervalg', 'Et kart har målestokk 1 : 50 000. Hvor langt er 4 cm på kartet i virkeligheten?', array['200 m', '2 km', '20 km', '50 km']::text[], 1, '4 · 50 000 cm = 200 000 cm = 2 km.', true, true, 4),
+  ('matematikk-1p:proporsjonalitet', 'q06', 'flervalg', 'Hvilken formel viser omvendt proporsjonalitet?', array['y = 24/x', 'y = 24x', 'y = x + 24', 'y = x²']::text[], 0, 'Produktet x · y er alltid 24.', true, true, 5),
+  ('matematikk-1p:proporsjonalitet', 'q07', 'flervalg', 'Saft blandes i forholdet 1 : 4. Hvor mye vann trengs til 2 dl saft?', array['2 dl', '4 dl', '10 dl', '8 dl']::text[], 3, '4 deler vann per del saft: 2 · 4 = 8 dl.', true, true, 6),
+  ('matematikk-1p:proporsjonalitet', 'q08', 'flervalg', 'En tabell har x = 1, 2, 4 og y = 12, 6, 3. Hva slags sammenheng er dette?', array['Proporsjonal', 'Omvendt proporsjonal', 'Lineær med konstantledd', 'Ingen sammenheng']::text[], 1, 'x · y = 12 for alle parene.', true, true, 7),
+  ('matematikk-1p:proporsjonalitet', 'q09', 'flervalg', 'Hvor lang tid tar det å kjøre 120 km med 80 km/h?', array['1,5 timer', '2 timer', '1,2 timer', '40 minutter']::text[], 0, '120/80 = 1,5.', true, false, 8),
+  ('matematikk-1p:proporsjonalitet', 'q10', 'flervalg', 'Hva er proporsjonalitetskonstanten i y = 2,5x?', array['x', 'y', '2,5', '0']::text[], 2, 'k er tallet x ganges med.', true, false, 9),
+  ('matematikk-1p:proporsjonalitet', 'm01', 'sant-usant', 'Grafen til to proporsjonale størrelser går gjennom origo.', array['Sant', 'Usant']::text[], 0, 'Når x = 0, er y = k · 0 = 0.', false, true, 10),
+  ('matematikk-1p:proporsjonalitet', 'm02', 'sant-usant', 'Hvis y halveres når x dobles, er x og y proporsjonale.', array['Sant', 'Usant']::text[], 1, 'Da er de omvendt proporsjonale.', false, true, 11),
+  ('matematikk-1p:proporsjonalitet', 'm03', 'sant-usant', 'Med fast timelønn er lønn og antall timer proporsjonale.', array['Sant', 'Usant']::text[], 0, 'Lønn = timelønn · timer.', false, true, 12),
+  ('matematikk-1p:proporsjonalitet', 'm04', 'sant-usant', 'y = 3x + 2 viser at x og y er proporsjonale.', array['Sant', 'Usant']::text[], 1, 'Grafen går ikke gjennom origo på grunn av konstantleddet 2.', false, true, 13),
+  ('matematikk-1p:proporsjonalitet', 'm05', 'flervalg', 'Et kart har målestokk 1 : 25 000. Hvor langt er 6 cm på kartet i virkeligheten?', array['150 m', '1,5 km', '15 km', '2,5 km']::text[], 1, '6 · 25 000 cm = 150 000 cm = 1,5 km.', false, true, 14),
+  ('matematikk-1p:proporsjonalitet', 'm06', 'flervalg', '5 liter bensin koster 110 kr. Hva er literprisen?', array['22 kr', '55 kr', '105 kr', '550 kr']::text[], 0, '110/5 = 22.', false, true, 15),
+  ('matematikk-1p:proporsjonalitet', 'm07', 'flervalg', 'En pizza deles likt. Jo flere som deler, jo mindre får hver. Hva slags sammenheng er dette?', array['Proporsjonal', 'Ingen sammenheng', 'Omvendt proporsjonal', 'Eksponentiell']::text[], 2, 'Antall personer · størrelse per person er konstant.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-1p:proporsjonalitet', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk 1P: Sammensatte måleenheter
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-1p:sammensatte-maleenheter', 'matematikk-1p', 'sammensatte-maleenheter', 'Sammensatte måleenheter', 'Fart, tetthet, enhetspris, energi i kWh, drivstofforbruk og befolkningstetthet – hvordan du tolker, regner om og velger egnede sammensatte måleenheter i praktiske situasjoner.', array[8]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-1p:sammensatte-maleenheter', '## Hva er en sammensatt måleenhet?
+
+En **sammensatt måleenhet** består av to eller flere enheter, ofte med **per** (/) mellom. Den forteller hvor mye av én størrelse det er **per enhet** av en annen:
+
+| Størrelse | Enhet |
+| --- | --- |
+| Fart | km/h, m/s |
+| Enhetspris | kr/kg, kr/L |
+| Timelønn | kr/time |
+| Tetthet | g/cm³, kg/L |
+| Drivstofforbruk | L/mil |
+| Befolkningstetthet | innbyggere/km² |
+
+## Fart
+
+**Fart = strekning / tid**, altså v = s/t. Vi kan snu formelen: s = v · t og t = s/v.
+
+- 150 km på 2 timer gir gjennomsnittsfart 150/2 = **75 km/h**.
+- 45 km med 90 km/h tar 45/90 = 0,5 timer = **30 minutter**.
+
+**Omregning**: 1 m/s = 3,6 km/h, fordi 1 m/s = 3600 m per time = 3,6 km/h.
+
+- Fra km/h til m/s: **del på 3,6**. 72 km/h = 20 m/s.
+- Fra m/s til km/h: **gang med 3,6**. 25 m/s = 90 km/h.
+
+## Tetthet
+
+**Tetthet = masse / volum**. Vann har tetthet omtrent **1 g/cm³**, som er det samme som 1 kg/L. En kloss på 200 g med volum 25 cm³ har tetthet 200/25 = **8 g/cm³**. Stoffer med større tetthet enn vann synker i vann.
+
+## Enhetspris
+
+**Enhetspris** gjør det lett å sammenligne tilbud:
+
+- 1,5 L for 30 kr → 20 kr/L
+- 0,5 L for 12 kr → 24 kr/L
+
+Den største pakken er ofte billigst per enhet – men ikke alltid!
+
+## Energi og strøm
+
+**Energi (kWh) = effekt (kW) · tid (h)**. En ovn på 2000 W = 2 kW som står på i 3 timer, bruker 2 · 3 = **6 kWh**. Med strømpris 1,20 kr/kWh koster det 6 · 1,20 = **7,20 kr**.
+
+## Drivstofforbruk
+
+I Norge oppgis drivstofforbruk ofte i **liter per mil**, der **1 mil = 10 km**. En bil som bruker 0,6 L/mil, bruker 0,6 · 25 = **15 liter** på 250 km (25 mil).
+
+## Befolkningstetthet
+
+En kommune med 12 000 innbyggere og areal 400 km² har befolkningstetthet 12 000/400 = **30 innbyggere per km²**.
+
+## Velge egnet enhet
+
+Velg en enhet som gir **tall som er lette å forstå**: Fart for fotgjengere oppgis gjerne i km/h eller m/s, men for fly i knop eller km/h. Stoff i medisiner oppgis i mg, ikke kg. Når du regner, må **enhetene passe sammen** – gjør om timer til minutter, gram til kilogram eller km til mil **før** du setter inn i formelen. Skriv alltid **enhet** i svaret, og kontroller at svaret er **rimelig**.', '{"label":"Sammensatte måleenheter","children":[{"label":"Fart","children":[{"label":"v = s/t"},{"label":"km/h og m/s"},{"label":"Faktor 3,6"}]},{"label":"Tetthet","children":[{"label":"Masse / volum"},{"label":"Vann: 1 g/cm³"}]},{"label":"Økonomi","children":[{"label":"Enhetspris"},{"label":"Timelønn"},{"label":"Strømpris kr/kWh"}]},{"label":"Energi og drivstoff","children":[{"label":"kWh = kW · h"},{"label":"Liter per mil"},{"label":"1 mil = 10 km"}]},{"label":"Velge enhet","children":[{"label":"Lettfattelige tall"},{"label":"Enheter må passe"},{"label":"Befolkningstetthet"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-1p:sammensatte-maleenheter';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-1p:sammensatte-maleenheter', 'Sammensatt måleenhet', 'Enhet satt sammen av flere enheter, som km/h eller kr/kg.', 0),
+  ('matematikk-1p:sammensatte-maleenheter', 'Fart', 'Strekning / tid, v = s/t.', 1),
+  ('matematikk-1p:sammensatte-maleenheter', 's = v · t', 'Strekning er fart ganger tid.', 2),
+  ('matematikk-1p:sammensatte-maleenheter', 't = s/v', 'Tid er strekning delt på fart.', 3),
+  ('matematikk-1p:sammensatte-maleenheter', '1 m/s', '3,6 km/h', 4),
+  ('matematikk-1p:sammensatte-maleenheter', 'km/h til m/s', 'Del på 3,6.', 5),
+  ('matematikk-1p:sammensatte-maleenheter', 'm/s til km/h', 'Gang med 3,6.', 6),
+  ('matematikk-1p:sammensatte-maleenheter', 'Tetthet', 'Masse / volum, for eksempel g/cm³.', 7),
+  ('matematikk-1p:sammensatte-maleenheter', 'Tettheten til vann', 'Omtrent 1 g/cm³ = 1 kg/L.', 8),
+  ('matematikk-1p:sammensatte-maleenheter', 'Enhetspris', 'Pris per enhet, som kr/kg eller kr/L.', 9),
+  ('matematikk-1p:sammensatte-maleenheter', 'kWh', 'Energienhet: effekt i kW ganger tid i timer.', 10),
+  ('matematikk-1p:sammensatte-maleenheter', '1 kW', '1000 W', 11),
+  ('matematikk-1p:sammensatte-maleenheter', '1 mil', '10 km', 12),
+  ('matematikk-1p:sammensatte-maleenheter', 'Liter per mil', 'Vanlig enhet for drivstofforbruk i Norge.', 13),
+  ('matematikk-1p:sammensatte-maleenheter', 'Befolkningstetthet', 'Innbyggere per km².', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-1p:sammensatte-maleenheter';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-1p:sammensatte-maleenheter', 'q01', 'flervalg', 'Hva er 72 km/h i m/s?', array['7,2 m/s', '20 m/s', '259,2 m/s', '72 m/s']::text[], 1, '72 / 3,6 = 20.', true, true, 0),
+  ('matematikk-1p:sammensatte-maleenheter', 'q02', 'flervalg', 'Hvordan regner du ut tetthet?', array['Volum / masse', 'Masse · volum', 'Masse / volum', 'Masse − volum']::text[], 2, 'Tetthet forteller hvor mye masse det er per volumenhet.', true, true, 1),
+  ('matematikk-1p:sammensatte-maleenheter', 'q03', 'flervalg', 'En bil kjører 150 km på 2 timer. Hva er gjennomsnittsfarten?', array['75 km/h', '300 km/h', '152 km/h', '50 km/h']::text[], 0, '150/2 = 75.', true, true, 2),
+  ('matematikk-1p:sammensatte-maleenheter', 'q04', 'flervalg', 'Hvilket tilbud er billigst per liter?', array['0,5 L for 12 kr', '2 L for 44 kr', '1 L for 21 kr', '1,5 L for 30 kr']::text[], 3, 'Literprisene er 24, 22, 21 og 20 kr.', true, true, 3),
+  ('matematikk-1p:sammensatte-maleenheter', 'q05', 'flervalg', 'En ovn på 2000 W står på i 3 timer. Hvor mye energi bruker den?', array['6 kWh', '6000 kWh', '0,6 kWh', '667 kWh']::text[], 0, '2 kW · 3 h = 6 kWh.', true, true, 4),
+  ('matematikk-1p:sammensatte-maleenheter', 'q06', 'flervalg', 'Strømprisen er 1,20 kr/kWh. Hva koster 6 kWh?', array['5 kr', '7,20 kr', '72 kr', '0,20 kr']::text[], 1, '6 · 1,20 = 7,20.', true, true, 5),
+  ('matematikk-1p:sammensatte-maleenheter', 'q07', 'flervalg', 'Hvor lang tid tar 45 km med 90 km/h?', array['2 timer', '45 minutter', '30 minutter', '1,5 timer']::text[], 2, '45/90 = 0,5 timer.', true, true, 6),
+  ('matematikk-1p:sammensatte-maleenheter', 'q08', 'flervalg', 'Hva er 1 m/s i km/h?', array['1 km/h', '60 km/h', '1000 km/h', '3,6 km/h']::text[], 3, '3600 m per time er 3,6 km/h.', true, true, 7),
+  ('matematikk-1p:sammensatte-maleenheter', 'q09', 'flervalg', 'En kommune har 12 000 innbyggere og et areal på 400 km². Hva er befolkningstettheten?', array['30 innbyggere per km²', '3 innbyggere per km²', '300 innbyggere per km²', '4,8 millioner per km²']::text[], 0, '12 000/400 = 30.', true, false, 8),
+  ('matematikk-1p:sammensatte-maleenheter', 'q10', 'flervalg', 'En bil bruker 0,6 L/mil. Hvor mye drivstoff bruker den på 250 km?', array['150 liter', '15 liter', '1,5 liter', '25 liter']::text[], 1, '250 km = 25 mil, og 0,6 · 25 = 15.', true, false, 9),
+  ('matematikk-1p:sammensatte-maleenheter', 'm01', 'sant-usant', '1 liter vann har en masse på omtrent 1 kg.', array['Sant', 'Usant']::text[], 0, 'Tettheten til vann er omtrent 1 kg/L.', false, true, 10),
+  ('matematikk-1p:sammensatte-maleenheter', 'm02', 'sant-usant', 'En norsk mil er 1 km.', array['Sant', 'Usant']::text[], 1, 'En mil er 10 km.', false, true, 11),
+  ('matematikk-1p:sammensatte-maleenheter', 'm03', 'sant-usant', 'kWh er en enhet for energi.', array['Sant', 'Usant']::text[], 0, 'Effekt ganger tid gir energi.', false, true, 12),
+  ('matematikk-1p:sammensatte-maleenheter', 'm04', 'sant-usant', 'Fart må alltid oppgis i km/h.', array['Sant', 'Usant']::text[], 1, 'Fart kan også oppgis i m/s, knop og andre enheter.', false, true, 13),
+  ('matematikk-1p:sammensatte-maleenheter', 'm05', 'flervalg', 'En kloss har masse 200 g og volum 25 cm³. Hva er tettheten?', array['0,125 g/cm³', '8 g/cm³', '5000 g/cm³', '225 g/cm³']::text[], 1, '200/25 = 8.', false, true, 14),
+  ('matematikk-1p:sammensatte-maleenheter', 'm06', 'flervalg', 'Timelønnen er 180 kr. Hva tjener du på 7,5 timer?', array['1 350 kr', '187,50 kr', '1 800 kr', '24 kr']::text[], 0, '180 · 7,5 = 1 350.', false, true, 15),
+  ('matematikk-1p:sammensatte-maleenheter', 'm07', 'flervalg', 'Hvilken enhet passer best for drivstofforbruk i Norge?', array['kr/kg', 'km/h', 'liter per mil', 'g/cm³']::text[], 2, 'Liter per mil er vanlig i norske bilannonser.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-1p:sammensatte-maleenheter', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk 1P: Formler, variabler og tekstoppgaver
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-1p:formler-og-variabler', 'matematikk-1p', 'formler-og-variabler', 'Formler, variabler og tekstoppgaver', 'Variabler og konstanter, å tolke og bruke formler fra samfunns- og arbeidsliv, å snu formler, å finne formler fra mønstre og å hente ut matematikk fra tekster og presentere svaret.', array[5, 4, 1]::int[], 5, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-1p:formler-og-variabler', '## Variabler og konstanter
+
+En **variabel** er en størrelse som kan **endre seg**, for eksempel antall timer du jobber eller antall kilometer du kjører. En **konstant** er et tall som er **fast** i situasjonen, for eksempel timelønnen eller et fast gebyr.
+
+## Formler i hverdagen
+
+En **formel** viser sammenhengen mellom størrelser:
+
+- **Taxi**: P = 50 + 15x, der x er antall km. 12 km koster 50 + 15 · 12 = **230 kr**.
+- **Lønn**: L = timelønn · timer + tillegg.
+- **Fart**: s = v · t.
+- **Temperatur**: F = 1,8C + 32 gjør om fra celsius til fahrenheit. 25 °C gir 1,8 · 25 + 32 = **77 °F**.
+- **KMI (BMI)**: KMI = vekt / høyde², med vekt i kg og høyde i m. 70 kg og 1,75 m gir 70 / 1,75² ≈ **22,9**.
+- **Areal av sirkel**: A = πr². r = 3 cm gir A ≈ 3,14 · 9 ≈ **28,3 cm²**.
+
+Når du bruker en formel, må du vite **hva hver bokstav står for** og hvilken **enhet** den har.
+
+## Snu formler
+
+Noen ganger kjenner vi svaret og vil finne en av de andre størrelsene. Da **snur** vi formelen ved å gjøre det samme på begge sider, som i en likning:
+
+- s = v · t → del på v → **t = s/v**
+- F = 1,8C + 32 → trekk fra 32 og del på 1,8 → **C = (F − 32)/1,8**
+
+## Fra mønster til formel
+
+Å **generalisere** betyr å finne en formel som gjelder alle tilfeller. Konsertbilletter koster 150 kr stykket, og det er et gebyr på 50 kr per bestilling:
+
+| Billetter (n) | 1 | 2 | 3 |
+| --- | --- | --- | --- |
+| Pris (K) | 200 | 350 | 500 |
+
+Prisen øker med 150 for hver billett, og startverdien er 50: **K = 150n + 50**. Her er n variabelen, 150 er prisen per billett og 50 er det faste gebyret.
+
+## Matematikk i tekster
+
+Mange oppgaver er **tekster** fra hverdagen: lønnsslipper, strømregninger, tilbud og nyhetsartikler. En god framgangsmåte:
+
+1. **Les** nøye og finn ut hva du skal svare på.
+2. **Hent ut** de tallene som er relevante – ikke alle tall i teksten er det.
+3. **Sett opp** et regnestykke eller en formel.
+4. **Regn ut**.
+5. **Vurder** om svaret er rimelig. Er enheten riktig? Er størrelsen fornuftig?
+6. **Presenter** svaret med enhet og en kort forklaring, og **argumenter** for resultatet.
+
+Eksempel: Bruttolønnen er 20 000 kr, og du har 30 % prosenttrekk i skatt. Skattetrekket er 0,30 · 20 000 = 6 000 kr, og du får utbetalt **14 000 kr**.', '{"label":"Formler og variabler","children":[{"label":"Begreper","children":[{"label":"Variabel"},{"label":"Konstant"},{"label":"Formel"}]},{"label":"Formler i hverdagen","children":[{"label":"Taxi og lønn"},{"label":"Temperatur"},{"label":"KMI"},{"label":"Areal"}]},{"label":"Snu formler","children":[{"label":"Samme på begge sider"},{"label":"t = s/v"}]},{"label":"Generalisere","children":[{"label":"Mønster i tabell"},{"label":"K = 150n + 50"}]},{"label":"Tekstoppgaver","children":[{"label":"Les og hent ut"},{"label":"Regn ut"},{"label":"Vurder og presenter"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-1p:formler-og-variabler';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-1p:formler-og-variabler', 'Variabel', 'En størrelse som kan endre seg.', 0),
+  ('matematikk-1p:formler-og-variabler', 'Konstant', 'Et tall som er fast i situasjonen.', 1),
+  ('matematikk-1p:formler-og-variabler', 'Formel', 'Uttrykk som viser sammenhengen mellom størrelser.', 2),
+  ('matematikk-1p:formler-og-variabler', 'P = 50 + 15x', 'Taxipris med 50 kr i startpris og 15 kr per km.', 3),
+  ('matematikk-1p:formler-og-variabler', 'F = 1,8C + 32', 'Omregning fra celsius til fahrenheit.', 4),
+  ('matematikk-1p:formler-og-variabler', 'C = (F − 32)/1,8', 'Omregning fra fahrenheit til celsius.', 5),
+  ('matematikk-1p:formler-og-variabler', 'KMI', 'Vekt i kg delt på høyde i meter opphøyd i andre.', 6),
+  ('matematikk-1p:formler-og-variabler', 'A = πr²', 'Areal av en sirkel.', 7),
+  ('matematikk-1p:formler-og-variabler', 'Snu en formel', 'Å løse formelen med hensyn på en annen størrelse.', 8),
+  ('matematikk-1p:formler-og-variabler', 't = s/v', 's = v · t snudd for å finne tiden.', 9),
+  ('matematikk-1p:formler-og-variabler', 'Generalisere', 'Å finne en formel som gjelder alle tilfeller.', 10),
+  ('matematikk-1p:formler-og-variabler', 'K = 150n + 50', 'Pris for n billetter à 150 kr med 50 kr i gebyr.', 11),
+  ('matematikk-1p:formler-og-variabler', 'Bruttolønn', 'Lønn før skatt.', 12),
+  ('matematikk-1p:formler-og-variabler', 'Nettolønn', 'Lønn etter skattetrekk – det som utbetales.', 13),
+  ('matematikk-1p:formler-og-variabler', 'Vurdere svaret', 'Sjekke at enhet og størrelse er rimelig.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-1p:formler-og-variabler';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-1p:formler-og-variabler', 'q01', 'flervalg', 'Hva er en variabel?', array['Et fast tall', 'En størrelse som kan endre seg', 'En måleenhet', 'En formel']::text[], 1, 'Antall timer eller kilometer er typiske variabler.', true, true, 0),
+  ('matematikk-1p:formler-og-variabler', 'q02', 'flervalg', 'En taxitur koster P = 50 + 15x kr, der x er antall km. Hva koster 12 km?', array['230 kr', '180 kr', '650 kr', '77 kr']::text[], 0, '50 + 15 · 12 = 50 + 180 = 230.', true, true, 1),
+  ('matematikk-1p:formler-og-variabler', 'q03', 'flervalg', 'Hva er KMI for en person som veier 70 kg og er 1,75 m høy?', array['40,0', '12,2', '22,9', '122,5']::text[], 2, '70 / 1,75² = 70 / 3,0625 ≈ 22,9.', true, true, 2),
+  ('matematikk-1p:formler-og-variabler', 'q04', 'flervalg', 'Hva blir s = v · t når du snur den for å finne t?', array['t = s · v', 't = v/s', 't = s − v', 't = s/v']::text[], 3, 'Del begge sider på v.', true, true, 3),
+  ('matematikk-1p:formler-og-variabler', 'q05', 'flervalg', 'Bruk F = 1,8C + 32. Hva er 25 °C i fahrenheit?', array['45 °F', '77 °F', '57 °F', '102 °F']::text[], 1, '1,8 · 25 + 32 = 45 + 32 = 77.', true, true, 4),
+  ('matematikk-1p:formler-og-variabler', 'q06', 'flervalg', 'Billetter koster 150 kr stykket pluss 50 kr i gebyr per bestilling. Hvilken formel gir prisen K for n billetter?', array['K = 150n + 50', 'K = 200n', 'K = 50n + 150', 'K = 150 + 50 + n']::text[], 0, '150 per billett og et fast gebyr på 50.', true, true, 5),
+  ('matematikk-1p:formler-og-variabler', 'q07', 'flervalg', 'Bruttolønnen er 20 000 kr med 30 % prosenttrekk. Hva blir utbetalt?', array['6 000 kr', '26 000 kr', '19 970 kr', '14 000 kr']::text[], 3, 'Skattetrekket er 6 000 kr, og 20 000 − 6 000 = 14 000.', true, true, 6),
+  ('matematikk-1p:formler-og-variabler', 'q08', 'flervalg', 'Hvorfor bør du vurdere om svaret på en tekstoppgave er rimelig?', array['For å oppdage regnefeil og feil i enheter', 'For å få flere desimaler', 'Fordi formler alltid er feil', 'Det er unødvendig']::text[], 0, 'Et urimelig svar er ofte et tegn på en feil.', true, true, 7),
+  ('matematikk-1p:formler-og-variabler', 'q09', 'flervalg', 'Hva er arealet av en sirkel med radius 3 cm?', array['9,4 cm²', '18,8 cm²', '28,3 cm²', '113 cm²']::text[], 2, 'π · 3² ≈ 3,14 · 9 ≈ 28,3.', true, false, 8),
+  ('matematikk-1p:formler-og-variabler', 'q10', 'flervalg', 'Hva blir F = 1,8C + 32 når du snur den for å finne C?', array['C = 1,8F + 32', 'C = (F − 32)/1,8', 'C = F/1,8 − 32', 'C = 1,8(F − 32)']::text[], 1, 'Trekk først fra 32, del så på 1,8.', true, false, 9),
+  ('matematikk-1p:formler-og-variabler', 'm01', 'sant-usant', 'I formelen A = l · b er l og b variabler.', array['Sant', 'Usant']::text[], 0, 'Lengde og bredde kan variere.', false, true, 10),
+  ('matematikk-1p:formler-og-variabler', 'm02', 'sant-usant', 'En konstant endrer verdi fra gang til gang i samme situasjon.', array['Sant', 'Usant']::text[], 1, 'En konstant er fast i situasjonen.', false, true, 11),
+  ('matematikk-1p:formler-og-variabler', 'm03', 'sant-usant', 'Svaret på en tekstoppgave bør ha med enhet.', array['Sant', 'Usant']::text[], 0, 'Uten enhet er det uklart hva svaret betyr.', false, true, 12),
+  ('matematikk-1p:formler-og-variabler', 'm04', 'sant-usant', 'Formelen A = πr² gir omkretsen av en sirkel.', array['Sant', 'Usant']::text[], 1, 'Den gir arealet. Omkretsen er 2πr.', false, true, 13),
+  ('matematikk-1p:formler-og-variabler', 'm05', 'flervalg', 'Et abonnement koster 199 kr per måned pluss 0,50 kr per SMS. Hva koster en måned med 60 SMS?', array['229 kr', '259 kr', '199,50 kr', '30 kr']::text[], 0, '199 + 0,50 · 60 = 199 + 30 = 229.', false, true, 14),
+  ('matematikk-1p:formler-og-variabler', 'm06', 'flervalg', 'Hvilken enhet har KMI?', array['kg · m', 'kg/m²', 'm/kg', 'kg/m']::text[], 1, 'Vekt i kg delt på høyde i m opphøyd i andre.', false, true, 15),
+  ('matematikk-1p:formler-og-variabler', 'm07', 'flervalg', 'Hva står 50 for i formelen K = 150n + 50?', array['Prisen per billett', 'Antall billetter', 'Et fast gebyr', 'Totalprisen']::text[], 2, 'Gebyret betales uansett hvor mange billetter du kjøper.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-1p:formler-og-variabler', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk 1P: Funksjoner og grafer
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-1p:funksjoner-og-grafer', 'matematikk-1p', 'funksjoner-og-grafer', 'Funksjoner og grafer', 'Hva en funksjon er, lineære og eksponentielle funksjoner, stigningstall og konstantledd, nullpunkter, skjæringspunkter og toppunkter – og hvordan du bruker GeoGebra til å utforske funksjoner.', array[9, 11]::int[], 6, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-1p:funksjoner-og-grafer', '## Hva er en funksjon?
+
+En **funksjon** er en sammenheng der hver verdi av x gir **nøyaktig én** verdi av y. Vi skriver ofte **f(x)** i stedet for y. Hvis f(x) = 150x + 200, er f(4) = 150 · 4 + 200 = **800**.
+
+En funksjon kan vises som **formel**, **tabell**, **graf** eller med **ord**. **Definisjonsmengden** er de x-verdiene funksjonen gjelder for – for eksempel kan antall timer ikke være negativt.
+
+## Lineære funksjoner
+
+En **lineær funksjon** har formen **f(x) = ax + b**, og grafen er en **rett linje**.
+
+- **a** er **stigningstallet**: hvor mye y endrer seg når x øker med 1. Positivt a gir stigende linje, negativt a gir synkende.
+- **b** er **konstantleddet**: verdien når x = 0, der grafen skjærer **y-aksen**.
+
+Stigningstallet mellom to punkter: a = (y₂ − y₁)/(x₂ − x₁). Linjen gjennom (1, 5) og (3, 11) har a = (11 − 5)/(3 − 1) = 6/2 = **3**.
+
+Lineære funksjoner beskriver **fast økning** per enhet, som en taxi med fast kilometerpris.
+
+## Eksponentialfunksjoner
+
+En **eksponentialfunksjon** har formen **f(x) = b · aˣ**. Her er b startverdien og a **vekstfaktoren**. Den beskriver **fast prosentvis** endring:
+
+- f(x) = 500 · 1,05ˣ vokser med 5 % per enhet.
+- f(x) = 1000 · 0,9ˣ synker med 10 % per enhet.
+
+Forskjellen er viktig: **Lineær vekst** øker med et **fast tall**, **eksponentiell vekst** øker med en **fast prosent** – og går etter hvert mye raskere.
+
+## Andre funksjoner
+
+- **Omvendt proporsjonale** funksjoner, f(x) = k/x, gir en hyperbel.
+- **Andregradsfunksjoner**, som f(x) = −x² + 6x, gir en **parabel** med et toppunkt eller bunnpunkt.
+
+## Viktige punkter på grafen
+
+- **Nullpunkt**: der grafen skjærer **x-aksen** (f(x) = 0). For f(x) = −2x + 10 er nullpunktet x = 5.
+- **Skjæringspunkt**: der to grafer møtes. Abonnement A koster 100 + 2x og B koster 200 + x. De er like når 100 + 2x = 200 + x, altså når **x = 100**.
+- **Toppunkt og bunnpunkt** (ekstremalpunkter): det høyeste eller laveste punktet i et område.
+
+## Digitale verktøy
+
+I **GeoGebra** kan du skrive inn funksjonen og få grafen direkte. Nyttige kommandoer:
+
+- **Nullpunkt(f)** – finner nullpunktene
+- **Skjæring(f, g)** – finner skjæringspunktene mellom to grafer
+- **Ekstremalpunkt(f)** – finner topp- og bunnpunkter
+- **Funksjon(f, start, slutt)** – tegner grafen innenfor en definisjonsmengde
+
+Når du bruker digitale verktøy, må du fortsatt **tolke** svaret: Hva betyr punktet i den praktiske situasjonen? Diskuter også om løsningen er **rimelig**.', '{"label":"Funksjoner og grafer","children":[{"label":"Funksjon","children":[{"label":"Én y per x"},{"label":"Formel, tabell, graf"},{"label":"Definisjonsmengde"}]},{"label":"Lineær","children":[{"label":"f(x) = ax + b"},{"label":"Stigningstall"},{"label":"Konstantledd"}]},{"label":"Eksponentiell","children":[{"label":"f(x) = b · aˣ"},{"label":"Fast prosent"}]},{"label":"Punkter","children":[{"label":"Nullpunkt"},{"label":"Skjæringspunkt"},{"label":"Topp- og bunnpunkt"}]},{"label":"GeoGebra","children":[{"label":"Nullpunkt(f)"},{"label":"Skjæring(f, g)"},{"label":"Ekstremalpunkt(f)"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-1p:funksjoner-og-grafer';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-1p:funksjoner-og-grafer', 'Funksjon', 'Sammenheng der hver x-verdi gir nøyaktig én y-verdi.', 0),
+  ('matematikk-1p:funksjoner-og-grafer', 'f(x)', 'Funksjonsverdien for en gitt x.', 1),
+  ('matematikk-1p:funksjoner-og-grafer', 'Definisjonsmengde', 'De x-verdiene funksjonen gjelder for.', 2),
+  ('matematikk-1p:funksjoner-og-grafer', 'Lineær funksjon', 'f(x) = ax + b, grafen er en rett linje.', 3),
+  ('matematikk-1p:funksjoner-og-grafer', 'Stigningstall', 'Hvor mye y endrer seg når x øker med 1.', 4),
+  ('matematikk-1p:funksjoner-og-grafer', 'Konstantledd', 'Verdien når x = 0, der grafen skjærer y-aksen.', 5),
+  ('matematikk-1p:funksjoner-og-grafer', 'Stigningstall mellom to punkter', '(y₂ − y₁)/(x₂ − x₁)', 6),
+  ('matematikk-1p:funksjoner-og-grafer', 'Eksponentialfunksjon', 'f(x) = b · aˣ, fast prosentvis endring.', 7),
+  ('matematikk-1p:funksjoner-og-grafer', 'Lineær vs. eksponentiell vekst', 'Fast tall per enhet vs. fast prosent per enhet.', 8),
+  ('matematikk-1p:funksjoner-og-grafer', 'Nullpunkt', 'Der grafen skjærer x-aksen.', 9),
+  ('matematikk-1p:funksjoner-og-grafer', 'Skjæringspunkt', 'Der to grafer møtes.', 10),
+  ('matematikk-1p:funksjoner-og-grafer', 'Toppunkt', 'Det høyeste punktet på grafen i et område.', 11),
+  ('matematikk-1p:funksjoner-og-grafer', 'Parabel', 'Grafen til en andregradsfunksjon.', 12),
+  ('matematikk-1p:funksjoner-og-grafer', 'Nullpunkt(f)', 'GeoGebra-kommando som finner nullpunkter.', 13),
+  ('matematikk-1p:funksjoner-og-grafer', 'Skjæring(f, g)', 'GeoGebra-kommando som finner skjæringspunkter.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-1p:funksjoner-og-grafer';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-1p:funksjoner-og-grafer', 'q01', 'flervalg', 'Hva er stigningstallet i f(x) = 3x + 5?', array['5', '3', '8', 'x']::text[], 1, 'Tallet foran x er stigningstallet.', true, true, 0),
+  ('matematikk-1p:funksjoner-og-grafer', 'q02', 'flervalg', 'Hva forteller konstantleddet b i f(x) = ax + b?', array['Hvor bratt grafen er', 'Hvor grafen skjærer x-aksen', 'Hvor grafen skjærer y-aksen', 'Hvor toppunktet er']::text[], 2, 'b er verdien når x = 0.', true, true, 1),
+  ('matematikk-1p:funksjoner-og-grafer', 'q03', 'flervalg', 'Hva er stigningstallet til linjen gjennom (1, 5) og (3, 11)?', array['3', '6', '2', '16']::text[], 0, '(11 − 5)/(3 − 1) = 6/2 = 3.', true, true, 2),
+  ('matematikk-1p:funksjoner-og-grafer', 'q04', 'flervalg', 'f(x) = 150x + 200. Hva er f(4)?', array['354', '950', '600', '800']::text[], 3, '150 · 4 + 200 = 600 + 200 = 800.', true, true, 3),
+  ('matematikk-1p:funksjoner-og-grafer', 'q05', 'flervalg', 'Hvilken funksjon er en eksponentialfunksjon?', array['f(x) = 5x + 500', 'f(x) = 500 · 1,05ˣ', 'f(x) = 500/x', 'f(x) = x² + 5']::text[], 1, 'x står i eksponenten.', true, true, 4),
+  ('matematikk-1p:funksjoner-og-grafer', 'q06', 'flervalg', 'Hva er et nullpunkt?', array['Der grafen skjærer x-aksen', 'Der grafen skjærer y-aksen', 'Det høyeste punktet', 'Der grafen starter']::text[], 0, 'I nullpunktet er f(x) = 0.', true, true, 5),
+  ('matematikk-1p:funksjoner-og-grafer', 'q07', 'flervalg', 'Abonnement A koster 100 + 2x, og B koster 200 + x. For hvilken x koster de like mye?', array['x = 50', 'x = 300', 'x = 100', 'x = 200']::text[], 2, '100 + 2x = 200 + x gir x = 100.', true, true, 6),
+  ('matematikk-1p:funksjoner-og-grafer', 'q08', 'flervalg', 'Hvilken GeoGebra-kommando finner skjæringspunktene mellom to grafer?', array['Nullpunkt(f)', 'Ekstremalpunkt(f)', 'Funksjon(f, 0, 10)', 'Skjæring(f, g)']::text[], 3, 'Skjæring tar to objekter som input.', true, true, 7),
+  ('matematikk-1p:funksjoner-og-grafer', 'q09', 'flervalg', 'Hva er et toppunkt?', array['Der grafen starter', 'Det høyeste punktet på grafen i et område', 'Der grafen skjærer y-aksen', 'Stigningstallet']::text[], 1, 'Toppunkter og bunnpunkter kalles ekstremalpunkter.', true, false, 8),
+  ('matematikk-1p:funksjoner-og-grafer', 'q10', 'flervalg', 'Hva er forskjellen på lineær og eksponentiell vekst?', array['Lineær vekst øker med et fast tall, eksponentiell med en fast prosent', 'Det er ingen forskjell', 'Lineær vekst går alltid raskest', 'Eksponentiell vekst øker med et fast tall']::text[], 0, 'Eksponentiell vekst blir etter hvert mye raskere.', true, false, 9),
+  ('matematikk-1p:funksjoner-og-grafer', 'm01', 'sant-usant', 'En funksjon gir nøyaktig én y-verdi for hver x-verdi.', array['Sant', 'Usant']::text[], 0, 'Det er selve definisjonen på en funksjon.', false, true, 10),
+  ('matematikk-1p:funksjoner-og-grafer', 'm02', 'sant-usant', 'Et negativt stigningstall betyr at grafen stiger.', array['Sant', 'Usant']::text[], 1, 'Negativt stigningstall gir en synkende linje.', false, true, 11),
+  ('matematikk-1p:funksjoner-og-grafer', 'm03', 'sant-usant', 'GeoGebra kan brukes til å finne nullpunkter.', array['Sant', 'Usant']::text[], 0, 'Kommandoen Nullpunkt(f) gjør dette.', false, true, 12),
+  ('matematikk-1p:funksjoner-og-grafer', 'm04', 'sant-usant', 'Grafen til f(x) = 2x + 3 går gjennom origo.', array['Sant', 'Usant']::text[], 1, 'Den skjærer y-aksen i 3.', false, true, 13),
+  ('matematikk-1p:funksjoner-og-grafer', 'm05', 'flervalg', 'Hva er nullpunktet til f(x) = −2x + 10?', array['x = −5', 'x = 10', 'x = 5', 'x = 2']::text[], 2, '−2x + 10 = 0 gir x = 5.', false, true, 14),
+  ('matematikk-1p:funksjoner-og-grafer', 'm06', 'flervalg', 'Hva er definisjonsmengden til en funksjon?', array['De y-verdiene funksjonen kan få', 'De x-verdiene funksjonen gjelder for', 'Stigningstallet', 'Antall nullpunkter']::text[], 1, 'Den kan begrenses av den praktiske situasjonen.', false, true, 15),
+  ('matematikk-1p:funksjoner-og-grafer', 'm07', 'flervalg', 'Hva forteller f(x) = 1000 · 0,9ˣ?', array['Verdien synker med 10 % for hver enhet', 'Verdien øker med 90 %', 'Verdien synker med 900', 'Verdien er konstant']::text[], 0, 'Vekstfaktoren 0,9 betyr 10 % nedgang.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-1p:funksjoner-og-grafer', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk 1P: Matematisk modellering
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-1p:matematisk-modellering', 'matematikk-1p', 'matematisk-modellering', 'Matematisk modellering', 'Hvordan du lager, bruker og vurderer matematiske modeller av situasjoner fra samfunns- og arbeidsliv: modelleringsprosessen, regresjon, premisser, gyldighetsområde og selvstendig arbeid med presentasjon.', array[3, 10, 2, 1]::int[], 7, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-1p:matematisk-modellering', '## Hva er en modell?
+
+En **matematisk modell** er en **forenklet** matematisk beskrivelse av en del av virkeligheten – ofte en **funksjon**. Modeller brukes til å forstå sammenhenger og til å gjøre **prognoser**, for eksempel om befolkningsvekst, strømforbruk, priser eller klimagassutslipp. Alle modeller er forenklinger, og ingen modell er helt riktig.
+
+## Modelleringsprosessen
+
+1. **Forstå problemet**: Hva vil vi finne ut?
+2. **Forenkle og gjøre antakelser** (**premisser**): Hva tar vi med, og hva ser vi bort fra?
+3. **Lage modellen**: Velg funksjonstype og finn tallene, gjerne ut fra **data**.
+4. **Bruke modellen**: Regn ut svar og prognoser.
+5. **Tolke og vurdere**: Gir svarene mening? Stemmer modellen med virkeligheten?
+6. **Presentere** og eventuelt **forbedre** modellen.
+
+## Eksempel: befolkningsvekst
+
+En kommune har 5 000 innbyggere i 2020 og regner med **2 % vekst per år**. Modellen blir
+
+**B(x) = 5000 · 1,02ˣ**, der x er antall år etter 2020.
+
+I 2030 (x = 10): B(10) = 5000 · 1,02¹⁰ ≈ **6 095 innbyggere**.
+
+Hvis vi endrer **premisset** til 1 % vekst, blir prognosen 5000 · 1,01¹⁰ ≈ **5 523**. Små endringer i premissene kan gi store forskjeller.
+
+## Regresjon
+
+Når vi har **data**, kan vi bruke **regresjon** til å finne den funksjonen som passer best:
+
+- Data som øker med omtrent **samme antall** hvert år → **lineær** modell
+- Data som øker med omtrent **samme prosent** hvert år → **eksponentiell** modell
+
+I **GeoGebra** legger du dataene inn i **regnearket**, lager en liste med punkter og bruker for eksempel **RegLin** (lineær) eller **RegEksp** (eksponentiell). Se på grafen: Ligger punktene nær kurven?
+
+## Gyldighetsområde
+
+En modell gjelder bare for bestemte verdier – modellens **gyldighetsområde**. En lineær modell for høyden til barn kan fungere fra 2 til 12 år, men gir helt urimelige svar for en 40-åring, fordi voksne slutter å vokse. Å bruke en modell utenfor området dataene dekker, kalles **ekstrapolering** og må gjøres med stor forsiktighet.
+
+## Selvstendig arbeid
+
+I 1P skal du også gjennomføre et **selvstendig arbeid** med modellering innenfor et **samfunnsfaglig tema**:
+
+1. Velg et tema og lag en **problemstilling**.
+2. Finn **data**, for eksempel fra **SSB** (Statistisk sentralbyrå).
+3. Lag og bruk en **modell**.
+4. **Drøft** svakheter og gyldighetsområde.
+5. **Presenter** arbeidet – skriftlig eller muntlig.
+
+Når du presenterer, bør du vise **premissene**, **framgangsmåten** og **resultatene**, og **argumentere** for hvorfor modellen er rimelig – og hvor den kommer til kort.', '{"label":"Matematisk modellering","children":[{"label":"Modell","children":[{"label":"Forenkling"},{"label":"Prognose"},{"label":"Premisser"}]},{"label":"Prosessen","children":[{"label":"Forstå og forenkle"},{"label":"Lage og bruke"},{"label":"Tolke og vurdere"},{"label":"Presentere"}]},{"label":"Regresjon","children":[{"label":"Data"},{"label":"RegLin"},{"label":"RegEksp"}]},{"label":"Gyldighet","children":[{"label":"Gyldighetsområde"},{"label":"Ekstrapolering"}]},{"label":"Selvstendig arbeid","children":[{"label":"Problemstilling"},{"label":"Data fra SSB"},{"label":"Drøfting"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-1p:matematisk-modellering';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-1p:matematisk-modellering', 'Matematisk modell', 'Forenklet matematisk beskrivelse av en del av virkeligheten.', 0),
+  ('matematikk-1p:matematisk-modellering', 'Prognose', 'Beregning av hvordan noe vil utvikle seg.', 1),
+  ('matematikk-1p:matematisk-modellering', 'Premiss', 'Antakelse en modell bygger på.', 2),
+  ('matematikk-1p:matematisk-modellering', 'Modelleringsprosessen', 'Forstå, forenkle, lage modell, bruke, tolke og vurdere, presentere.', 3),
+  ('matematikk-1p:matematisk-modellering', 'B(x) = 5000 · 1,02ˣ', 'Modell for 5 000 innbyggere med 2 % årlig vekst.', 4),
+  ('matematikk-1p:matematisk-modellering', 'Regresjon', 'Å finne funksjonen som passer best til data.', 5),
+  ('matematikk-1p:matematisk-modellering', 'RegLin', 'GeoGebra-kommando for lineær regresjon.', 6),
+  ('matematikk-1p:matematisk-modellering', 'RegEksp', 'GeoGebra-kommando for eksponentiell regresjon.', 7),
+  ('matematikk-1p:matematisk-modellering', 'Lineær modell', 'Passer når data øker med omtrent samme antall per periode.', 8),
+  ('matematikk-1p:matematisk-modellering', 'Eksponentiell modell', 'Passer når data øker med omtrent samme prosent per periode.', 9),
+  ('matematikk-1p:matematisk-modellering', 'Gyldighetsområde', 'Verdiene der modellen gir rimelige svar.', 10),
+  ('matematikk-1p:matematisk-modellering', 'Ekstrapolering', 'Å bruke modellen utenfor området dataene dekker.', 11),
+  ('matematikk-1p:matematisk-modellering', 'SSB', 'Statistisk sentralbyrå – kilde til offisiell norsk statistikk.', 12),
+  ('matematikk-1p:matematisk-modellering', 'Selvstendig arbeid', 'Eget prosjekt med modellering innenfor et samfunnsfaglig tema.', 13),
+  ('matematikk-1p:matematisk-modellering', 'Vurdere en modell', 'Sjekke om den stemmer med data og virkelighet.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-1p:matematisk-modellering';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-1p:matematisk-modellering', 'q01', 'flervalg', 'Hva er en matematisk modell?', array['En nøyaktig kopi av virkeligheten', 'En forenklet matematisk beskrivelse av virkeligheten', 'Et dataprogram', 'En tabell uten tall']::text[], 1, 'Alle modeller er forenklinger.', true, true, 0),
+  ('matematikk-1p:matematisk-modellering', 'q02', 'flervalg', 'Hva er gyldighetsområdet til en modell?', array['Verdiene der modellen gir rimelige svar', 'Alle tall', 'Bare x = 0', 'Området på kartet']::text[], 0, 'Utenfor gyldighetsområdet kan modellen gi urimelige svar.', true, true, 1),
+  ('matematikk-1p:matematisk-modellering', 'q03', 'flervalg', 'En kommune har 5 000 innbyggere og vokser med 2 % per år. Hvilken modell passer?', array['B(x) = 5000 + 2x', 'B(x) = 5000 · 0,02ˣ', 'B(x) = 5000 · 1,02ˣ', 'B(x) = 5000 · 2ˣ']::text[], 2, '2 % vekst gir vekstfaktor 1,02.', true, true, 2),
+  ('matematikk-1p:matematisk-modellering', 'q04', 'flervalg', 'Hva er regresjon?', array['Å tegne en figur', 'Å løse en likning', 'Å regne prosent', 'Å finne funksjonen som passer best til data']::text[], 3, 'GeoGebra har kommandoer som RegLin og RegEksp.', true, true, 3),
+  ('matematikk-1p:matematisk-modellering', 'q05', 'flervalg', 'En lineær modell beskriver høyden til barn. Hvorfor passer den ikke for en 40-åring?', array['Voksne slutter å vokse, så modellen gjelder bare for en viss alder', 'Fordi 40 er et partall', 'Fordi lineære modeller aldri fungerer', 'Fordi modellen er eksponentiell']::text[], 0, 'Modellen brukes da utenfor gyldighetsområdet.', true, true, 4),
+  ('matematikk-1p:matematisk-modellering', 'q06', 'flervalg', 'Hva er et premiss i en modell?', array['Svaret', 'En antakelse modellen bygger på', 'En graf', 'En enhet']::text[], 1, 'Eksempel: at veksten er 2 % hvert år.', true, true, 5),
+  ('matematikk-1p:matematisk-modellering', 'q07', 'flervalg', 'Hva gjør du etter at du har regnet ut svar med modellen?', array['Finner problemet', 'Gjør antakelser', 'Tolker og vurderer svarene', 'Samler inn data']::text[], 2, 'Du må vurdere om svarene gir mening.', true, true, 6),
+  ('matematikk-1p:matematisk-modellering', 'q08', 'flervalg', 'Hvilken GeoGebra-kommando gir lineær regresjon?', array['RegEksp', 'Skjæring', 'Nullpunkt', 'RegLin']::text[], 3, 'RegEksp gir eksponentiell regresjon.', true, true, 7),
+  ('matematikk-1p:matematisk-modellering', 'q09', 'flervalg', 'Data øker med omtrent samme prosent hvert år. Hvilken modell passer best?', array['Eksponentiell', 'Lineær', 'Omvendt proporsjonal', 'Konstant']::text[], 0, 'Fast prosentvis vekst er eksponentiell.', true, false, 8),
+  ('matematikk-1p:matematisk-modellering', 'q10', 'flervalg', 'Hvorfor bør du vise premissene når du presenterer en modell?', array['For å gjøre rapporten lengre', 'Så andre kan vurdere hvor gyldig modellen er', 'Fordi det ser pent ut', 'Det trenger du ikke']::text[], 1, 'Premissene avgjør hvilke svar modellen gir.', true, false, 9),
+  ('matematikk-1p:matematisk-modellering', 'm01', 'sant-usant', 'Alle modeller er forenklinger av virkeligheten.', array['Sant', 'Usant']::text[], 0, 'Derfor må de alltid vurderes.', false, true, 10),
+  ('matematikk-1p:matematisk-modellering', 'm02', 'sant-usant', 'En modell som passer data i dag, gjelder alltid i framtiden.', array['Sant', 'Usant']::text[], 1, 'Forholdene kan endre seg.', false, true, 11),
+  ('matematikk-1p:matematisk-modellering', 'm03', 'sant-usant', 'SSB er en god kilde til data for modellering av samfunnsfaglige tema.', array['Sant', 'Usant']::text[], 0, 'SSB publiserer offisiell statistikk.', false, true, 12),
+  ('matematikk-1p:matematisk-modellering', 'm04', 'sant-usant', 'Endrede premisser påvirker aldri resultatet av en modell.', array['Sant', 'Usant']::text[], 1, 'Premissene påvirker resultatet direkte.', false, true, 13),
+  ('matematikk-1p:matematisk-modellering', 'm05', 'flervalg', 'Hva betyr tallet 1,02 i B(x) = 5000 · 1,02ˣ?', array['Antall innbyggere', '2 % vekst per år', '2 nye innbyggere per år', '102 innbyggere']::text[], 1, '1,02 er vekstfaktoren.', false, true, 14),
+  ('matematikk-1p:matematisk-modellering', 'm06', 'flervalg', 'Hva er ekstrapolering?', array['Å bruke modellen utenfor området dataene dekker', 'Å samle inn data', 'Å tegne en graf', 'Å runde av svaret']::text[], 0, 'Ekstrapolering kan gi urimelige svar.', false, true, 15),
+  ('matematikk-1p:matematisk-modellering', 'm07', 'flervalg', 'Hva skjer med prognosen for 2030 hvis veksten er 1 % i stedet for 2 %?', array['Den blir dobbelt så stor', 'Den blir uendret', 'Den blir lavere', 'Den blir negativ']::text[], 2, 'Omtrent 5 523 i stedet for 6 095 innbyggere.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-1p:matematisk-modellering', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk 1T (vg1): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'matematikk-1t' and slug not in ('algebra-likninger-og-ulikheter', 'andregradslikninger', 'polynomdivisjon', 'funksjoner', 'vekstfart-og-derivasjon', 'trigonometri', 'sinus-og-cosinussetningen', 'bevis-og-programmering', 'modellering');
+
+-- Matematikk 1T: Algebra, likninger og ulikheter
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-1t:algebra-likninger-og-ulikheter', 'matematikk-1t', 'algebra-likninger-og-ulikheter', 'Algebra, likninger og ulikheter', 'Forskjellen på uttrykk, likning, identitet og funksjon, lineære likninger og brøklikninger, likningssett med to ukjente, lineære ulikheter og strategier for å løse og kontrollere.', array[4, 5, 3]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-1t:algebra-likninger-og-ulikheter', '## Fire viktige begreper
+
+- Et **algebraisk uttrykk** har ikke likhetstegn: 3x + 2.
+- En **likning** er en likhet som er sann bare for bestemte verdier: 3x + 2 = 11 er sann bare for x = 3.
+- En **identitet** er en likhet som er sann for **alle** verdier av variablene: (a + b)² = a² + 2ab + b².
+- En **funksjon** er en regel som gir én verdi for hver x: f(x) = 3x + 2.
+
+## Lineære likninger
+
+Vi løser likninger ved å gjøre **det samme på begge sider**:
+
+5 − 2x = x − 4 → 5 + 4 = x + 2x → 9 = 3x → **x = 3**
+
+**Brøklikninger** løses ved å gange alle ledd med **fellesnevneren**:
+
+x/2 + x/3 = 5 → gang med 6 → 3x + 2x = 30 → 5x = 30 → **x = 6**
+
+Husk å **sette prøve**: Sett løsningen inn i den opprinnelige likningen og sjekk at venstre og høyre side blir like.
+
+## Likningssett
+
+Et **likningssett** med to ukjente består av to likninger. Løsningen er de verdiene av x og y som passer i **begge**.
+
+x + y = 10
+2x − y = 5
+
+- **Addisjonsmetoden**: Legg sammen likningene slik at én ukjent forsvinner: 3x = 15 → x = 5, og da er y = 5.
+- **Innsettingsmetoden**: Løs den ene likningen for y (y = 10 − x) og sett inn i den andre.
+- **Grafisk**: Tegn begge linjene. Løsningen er **skjæringspunktet** (5, 5).
+
+Et lineært likningssett kan ha **én løsning** (linjene krysser), **ingen løsning** (parallelle linjer) eller **uendelig mange løsninger** (linjene faller sammen).
+
+## Ulikheter
+
+Ulikheter løses nesten som likninger:
+
+2x − 4 > 6 → 2x > 10 → **x > 5**
+
+Men: Når vi **ganger eller deler med et negativt tall**, må vi **snu ulikhetstegnet**:
+
+−3x < 12 → **x > −4**
+
+Test gjerne med et tall: x = 0 gir −3 · 0 = 0 < 12, og 0 > −4 stemmer.
+
+## Formler og digitale verktøy
+
+I mange situasjoner må vi **identifisere variable størrelser**, **sette opp en formel** og utforske den. I **CAS** i GeoGebra kan du løse likninger med **Løs(likning, x)** og likningssett med **Løs({likning1, likning2}, {x, y})**. Digitale verktøy er nyttige, men du må kunne **argumentere** for framgangsmåten og **tolke** svaret.
+
+## Strategier
+
+Nyttige strategier i problemløsning er å **tegne figur**, **prøve med enkle tall**, **innføre en variabel** for det ukjente, **løse grafisk** og **kontrollere** svaret til slutt.', '{"label":"Algebra og likninger","children":[{"label":"Begreper","children":[{"label":"Uttrykk"},{"label":"Likning"},{"label":"Identitet"},{"label":"Funksjon"}]},{"label":"Likninger","children":[{"label":"Samme på begge sider"},{"label":"Brøklikninger"},{"label":"Sette prøve"}]},{"label":"Likningssett","children":[{"label":"Addisjonsmetoden"},{"label":"Innsettingsmetoden"},{"label":"Grafisk"}]},{"label":"Ulikheter","children":[{"label":"Løs som likninger"},{"label":"Snu tegnet ved negativ faktor"}]},{"label":"Verktøy","children":[{"label":"CAS: Løs"},{"label":"Strategier"},{"label":"Argumentere"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-1t:algebra-likninger-og-ulikheter';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-1t:algebra-likninger-og-ulikheter', 'Algebraisk uttrykk', 'Kombinasjon av tall og variabler uten likhetstegn, som 3x + 2.', 0),
+  ('matematikk-1t:algebra-likninger-og-ulikheter', 'Likning', 'Likhet som er sann bare for bestemte verdier.', 1),
+  ('matematikk-1t:algebra-likninger-og-ulikheter', 'Identitet', 'Likhet som er sann for alle verdier av variablene.', 2),
+  ('matematikk-1t:algebra-likninger-og-ulikheter', 'Funksjon', 'Regel som gir én verdi for hver x.', 3),
+  ('matematikk-1t:algebra-likninger-og-ulikheter', 'Sette prøve', 'Å sette løsningen inn i likningen for å kontrollere den.', 4),
+  ('matematikk-1t:algebra-likninger-og-ulikheter', 'Brøklikning', 'Likning med brøk; gang alle ledd med fellesnevneren.', 5),
+  ('matematikk-1t:algebra-likninger-og-ulikheter', 'Likningssett', 'To eller flere likninger som skal være oppfylt samtidig.', 6),
+  ('matematikk-1t:algebra-likninger-og-ulikheter', 'Addisjonsmetoden', 'Legge sammen likningene slik at én ukjent forsvinner.', 7),
+  ('matematikk-1t:algebra-likninger-og-ulikheter', 'Innsettingsmetoden', 'Løse én likning for en ukjent og sette inn i den andre.', 8),
+  ('matematikk-1t:algebra-likninger-og-ulikheter', 'Grafisk løsning av likningssett', 'Skjæringspunktet mellom linjene.', 9),
+  ('matematikk-1t:algebra-likninger-og-ulikheter', 'Parallelle linjer', 'Likningssettet har ingen løsning.', 10),
+  ('matematikk-1t:algebra-likninger-og-ulikheter', 'Ulikhet', 'Sammenligning med <, >, ≤ eller ≥.', 11),
+  ('matematikk-1t:algebra-likninger-og-ulikheter', 'Snu ulikhetstegnet', 'Når man ganger eller deler med et negativt tall.', 12),
+  ('matematikk-1t:algebra-likninger-og-ulikheter', 'Løs(likning, x)', 'CAS-kommando i GeoGebra for å løse likninger.', 13),
+  ('matematikk-1t:algebra-likninger-og-ulikheter', 'Uendelig mange løsninger', 'Når to likninger beskriver samme linje.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-1t:algebra-likninger-og-ulikheter';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-1t:algebra-likninger-og-ulikheter', 'q01', 'flervalg', 'Hva er en identitet?', array['En likning med én løsning', 'En likhet som er sann for alle verdier av variablene', 'Et uttrykk uten likhetstegn', 'En funksjon']::text[], 1, 'Kvadratsetningene er eksempler på identiteter.', true, true, 0),
+  ('matematikk-1t:algebra-likninger-og-ulikheter', 'q02', 'flervalg', 'Løs likningen 3x + 2 = 11.', array['x = 3', 'x = 13/3', 'x = 9', 'x = 4']::text[], 0, '3x = 9, så x = 3.', true, true, 1),
+  ('matematikk-1t:algebra-likninger-og-ulikheter', 'q03', 'flervalg', 'Løs likningen x/2 + x/3 = 5.', array['x = 5', 'x = 30', 'x = 6', 'x = 2']::text[], 2, 'Gang med 6: 3x + 2x = 30, så x = 6.', true, true, 2),
+  ('matematikk-1t:algebra-likninger-og-ulikheter', 'q04', 'flervalg', 'Løs ulikheten −3x < 12.', array['x < −4', 'x > 4', 'x < 4', 'x > −4']::text[], 3, 'Vi deler på −3 og må snu ulikhetstegnet.', true, true, 3),
+  ('matematikk-1t:algebra-likninger-og-ulikheter', 'q05', 'flervalg', 'Løs likningssettet x + y = 10 og 2x − y = 5.', array['x = 5, y = 5', 'x = 3, y = 7', 'x = 4, y = 6', 'x = 10, y = 0']::text[], 0, 'Addisjon gir 3x = 15, så x = 5 og y = 5.', true, true, 4),
+  ('matematikk-1t:algebra-likninger-og-ulikheter', 'q06', 'flervalg', 'Hvilken av disse er en likning?', array['2x − 1', '2x − 1 = 7', 'f(x) = 2x − 1', '(x + 1)² = x² + 2x + 1']::text[], 1, 'Den er sann bare for x = 4. Den siste er en identitet.', true, true, 5),
+  ('matematikk-1t:algebra-likninger-og-ulikheter', 'q07', 'flervalg', 'Hvordan finner du løsningen av et likningssett grafisk?', array['Nullpunktet til den ene linjen', 'Der linjene skjærer y-aksen', 'Skjæringspunktet mellom linjene', 'Ved å sammenligne stigningstallene']::text[], 2, 'Skjæringspunktet passer i begge likningene.', true, true, 6),
+  ('matematikk-1t:algebra-likninger-og-ulikheter', 'q08', 'flervalg', 'Løs ulikheten 2x − 4 > 6.', array['x > 1', 'x < 5', 'x > 10', 'x > 5']::text[], 3, '2x > 10, så x > 5.', true, true, 7),
+  ('matematikk-1t:algebra-likninger-og-ulikheter', 'q09', 'flervalg', 'Hvilken metode går ut på å legge sammen likningene slik at én ukjent forsvinner?', array['Addisjonsmetoden', 'Innsettingsmetoden', 'Prøve og feile', 'Fortegnsskjema']::text[], 0, 'Metoden fungerer når koeffisientene er motsatte tall.', true, false, 8),
+  ('matematikk-1t:algebra-likninger-og-ulikheter', 'q10', 'flervalg', 'Hvordan kan du kontrollere at en løsning er riktig?', array['Gjette', 'Sette prøve i den opprinnelige likningen', 'Spørre en venn', 'Se på grafen til en annen likning']::text[], 1, 'Venstre og høyre side skal bli like.', true, false, 9),
+  ('matematikk-1t:algebra-likninger-og-ulikheter', 'm01', 'sant-usant', '(a + b)² = a² + 2ab + b² er en identitet.', array['Sant', 'Usant']::text[], 0, 'Den gjelder for alle verdier av a og b.', false, true, 10),
+  ('matematikk-1t:algebra-likninger-og-ulikheter', 'm02', 'sant-usant', 'Når vi ganger begge sider av en ulikhet med et negativt tall, beholder vi ulikhetstegnet.', array['Sant', 'Usant']::text[], 1, 'Ulikhetstegnet må snus.', false, true, 11),
+  ('matematikk-1t:algebra-likninger-og-ulikheter', 'm03', 'sant-usant', 'Et likningssett med to lineære likninger kan ha uendelig mange løsninger.', array['Sant', 'Usant']::text[], 0, 'Det skjer når linjene faller sammen.', false, true, 12),
+  ('matematikk-1t:algebra-likninger-og-ulikheter', 'm04', 'sant-usant', '3x + 5 er en likning.', array['Sant', 'Usant']::text[], 1, 'Det er et uttrykk – det mangler likhetstegn.', false, true, 13),
+  ('matematikk-1t:algebra-likninger-og-ulikheter', 'm05', 'flervalg', 'Løs likningen 5 − 2x = x − 4.', array['x = 3', 'x = −3', 'x = 1/3', 'x = 9']::text[], 0, '9 = 3x, så x = 3.', false, true, 14),
+  ('matematikk-1t:algebra-likninger-og-ulikheter', 'm06', 'flervalg', 'Hvilken CAS-kommando i GeoGebra løser likninger?', array['Nullpunkt', 'Løs', 'Skjæring', 'RegLin']::text[], 1, 'Løs(likning, x) gir løsningen.', false, true, 15),
+  ('matematikk-1t:algebra-likninger-og-ulikheter', 'm07', 'flervalg', 'To likninger gir parallelle linjer. Hvor mange løsninger har likningssettet?', array['Én', 'To', 'Ingen', 'Uendelig mange']::text[], 2, 'Parallelle linjer krysser aldri.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-1t:algebra-likninger-og-ulikheter', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk 1T: Andregradslikninger og -ulikheter
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-1t:andregradslikninger', 'matematikk-1t', 'andregradslikninger', 'Andregradslikninger og -ulikheter', 'Kvadratsetningene, fullstendige kvadrater, abc-formelen og diskriminanten, faktorisering av andregradsuttrykk, parabelen og andregradsulikheter med fortegnsskjema.', array[6]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-1t:andregradslikninger', '## Kvadratsetningene
+
+- **Første kvadratsetning**: (a + b)² = a² + 2ab + b²
+- **Andre kvadratsetning**: (a − b)² = a² − 2ab + b²
+- **Konjugatsetningen** (tredje kvadratsetning): (a + b)(a − b) = a² − b²
+
+Eksempler: (x + 3)² = x² + 6x + 9 og x² − 9 = (x + 3)(x − 3).
+
+## Andregradslikninger
+
+En **andregradslikning** kan skrives som **ax² + bx + c = 0**, der a ≠ 0.
+
+**Spesialtilfeller**:
+
+- Uten x-ledd: x² = 16 → **x = ±4**
+- Uten konstantledd: x² − 5x = 0 → x(x − 5) = 0 → **x = 0 eller x = 5** (et produkt er null når en av faktorene er null)
+
+## abc-formelen
+
+x = (−b ± √(b² − 4ac)) / (2a)
+
+Eksempel: x² − 5x + 6 = 0 gir a = 1, b = −5, c = 6.
+
+x = (5 ± √(25 − 24)) / 2 = (5 ± 1)/2 → **x = 3 eller x = 2**
+
+## Diskriminanten
+
+Uttrykket **D = b² − 4ac** under rottegnet kalles **diskriminanten**:
+
+- D > 0: **to** løsninger
+- D = 0: **én** løsning (x² + 4x + 4 = 0 gir bare x = −2)
+- D < 0: **ingen** reelle løsninger
+
+## Fullstendige kvadrater
+
+Vi kan skrive om et andregradsuttrykk ved å lage et **fullstendig kvadrat**:
+
+x² + 6x + 5 = (x + 3)² − 9 + 5 = **(x + 3)² − 4**
+
+Metoden viser hvor parabelen har bunnpunkt og er grunnlaget for å **bevise abc-formelen**.
+
+## Faktorisering
+
+Hvis ax² + bx + c = 0 har løsningene x₁ og x₂, kan uttrykket faktoriseres:
+
+**ax² + bx + c = a(x − x₁)(x − x₂)**
+
+x² − 5x + 6 = (x − 2)(x − 3)
+
+## Andregradsfunksjonen
+
+Grafen til f(x) = ax² + bx + c er en **parabel**. Hvis **a > 0**, har den et **bunnpunkt** («smiler»). Hvis **a < 0**, har den et **toppunkt**. **Symmetrilinjen** er x = −b/(2a). Nullpunktene er løsningene av f(x) = 0.
+
+## Andregradsulikheter
+
+For å løse x² − 5x + 6 < 0:
+
+1. Faktoriser: (x − 2)(x − 3) < 0.
+2. Lag et **fortegnsskjema** for hver faktor. (x − 2) er negativ for x < 2 og positiv for x > 2. (x − 3) skifter fortegn i 3.
+3. Produktet er negativt der faktorene har **ulike fortegn**: **2 < x < 3**.
+
+Grafisk ser vi det samme: Parabelen ligger **under x-aksen** mellom nullpunktene.', '{"label":"Andregradslikninger","children":[{"label":"Kvadratsetningene","children":[{"label":"(a + b)²"},{"label":"(a − b)²"},{"label":"Konjugatsetningen"}]},{"label":"Løse likninger","children":[{"label":"Spesialtilfeller"},{"label":"abc-formelen"},{"label":"Fullstendige kvadrater"}]},{"label":"Diskriminanten","children":[{"label":"D > 0: to"},{"label":"D = 0: én"},{"label":"D < 0: ingen"}]},{"label":"Parabelen","children":[{"label":"a > 0: bunnpunkt"},{"label":"a < 0: toppunkt"},{"label":"Symmetrilinje"}]},{"label":"Ulikheter","children":[{"label":"Faktorisere"},{"label":"Fortegnsskjema"},{"label":"Grafisk"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-1t:andregradslikninger';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-1t:andregradslikninger', 'Første kvadratsetning', '(a + b)² = a² + 2ab + b²', 0),
+  ('matematikk-1t:andregradslikninger', 'Andre kvadratsetning', '(a − b)² = a² − 2ab + b²', 1),
+  ('matematikk-1t:andregradslikninger', 'Konjugatsetningen', '(a + b)(a − b) = a² − b²', 2),
+  ('matematikk-1t:andregradslikninger', 'Andregradslikning', 'ax² + bx + c = 0 der a ≠ 0.', 3),
+  ('matematikk-1t:andregradslikninger', 'abc-formelen', 'x = (−b ± √(b² − 4ac)) / (2a)', 4),
+  ('matematikk-1t:andregradslikninger', 'Diskriminant', 'D = b² − 4ac', 5),
+  ('matematikk-1t:andregradslikninger', 'D > 0', 'To løsninger.', 6),
+  ('matematikk-1t:andregradslikninger', 'D = 0', 'Én løsning.', 7),
+  ('matematikk-1t:andregradslikninger', 'D < 0', 'Ingen reelle løsninger.', 8),
+  ('matematikk-1t:andregradslikninger', 'Produktregelen for null', 'Et produkt er null når minst én faktor er null.', 9),
+  ('matematikk-1t:andregradslikninger', 'Fullstendig kvadrat', 'Omskriving som x² + 6x + 5 = (x + 3)² − 4.', 10),
+  ('matematikk-1t:andregradslikninger', 'Faktorisering', 'ax² + bx + c = a(x − x₁)(x − x₂)', 11),
+  ('matematikk-1t:andregradslikninger', 'Parabel', 'Grafen til en andregradsfunksjon.', 12),
+  ('matematikk-1t:andregradslikninger', 'Symmetrilinje', 'x = −b/(2a)', 13),
+  ('matematikk-1t:andregradslikninger', 'Fortegnsskjema', 'Oversikt over hvor faktorer og produkt er positive og negative.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-1t:andregradslikninger';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-1t:andregradslikninger', 'q01', 'flervalg', 'Hva er (x + 3)²?', array['x² + 9', 'x² + 6x + 9', 'x² + 3x + 9', '2x + 6']::text[], 1, 'Første kvadratsetning: x² + 2 · 3 · x + 3².', true, true, 0),
+  ('matematikk-1t:andregradslikninger', 'q02', 'flervalg', 'Løs x² − 5x + 6 = 0.', array['x = 2 eller x = 3', 'x = −2 eller x = −3', 'x = 1 eller x = 6', 'x = 5 eller x = 6']::text[], 0, 'abc-formelen gir (5 ± 1)/2.', true, true, 1),
+  ('matematikk-1t:andregradslikninger', 'q03', 'flervalg', 'Hva er diskriminanten?', array['−b/(2a)', 'b² + 4ac', 'b² − 4ac', '√(b² − 4ac)/(2a)']::text[], 2, 'Diskriminanten er uttrykket under rottegnet.', true, true, 2),
+  ('matematikk-1t:andregradslikninger', 'q04', 'flervalg', 'Hva betyr det at diskriminanten er negativ?', array['To løsninger', 'Én løsning', 'Uendelig mange løsninger', 'Ingen reelle løsninger']::text[], 3, 'Vi kan ikke ta kvadratroten av et negativt tall.', true, true, 3),
+  ('matematikk-1t:andregradslikninger', 'q05', 'flervalg', 'Faktoriser x² − 9.', array['(x − 3)(x + 3)', '(x − 3)²', '(x − 9)(x + 1)', 'x(x − 9)']::text[], 0, 'Konjugatsetningen: a² − b² = (a + b)(a − b).', true, true, 4),
+  ('matematikk-1t:andregradslikninger', 'q06', 'flervalg', 'Løs x² − 5x = 0.', array['x = 5', 'x = 0 eller x = 5', 'x = ±√5', 'x = −5']::text[], 1, 'x(x − 5) = 0, så x = 0 eller x = 5.', true, true, 5),
+  ('matematikk-1t:andregradslikninger', 'q07', 'flervalg', 'Løs ulikheten x² − 5x + 6 < 0.', array['x < 2 eller x > 3', 'x > 3', '2 < x < 3', 'x < 2']::text[], 2, '(x − 2)(x − 3) er negativ mellom nullpunktene.', true, true, 6),
+  ('matematikk-1t:andregradslikninger', 'q08', 'flervalg', 'Hvordan ser grafen til f(x) = −x² + 4x ut?', array['En rett linje', 'En parabel med bunnpunkt', 'En hyperbel', 'En parabel med toppunkt']::text[], 3, 'a = −1 < 0 gir toppunkt.', true, true, 7),
+  ('matematikk-1t:andregradslikninger', 'q09', 'flervalg', 'Hva er symmetrilinjen til f(x) = x² − 6x + 5?', array['x = 3', 'x = −3', 'x = 6', 'x = 5']::text[], 0, 'x = −b/(2a) = 6/2 = 3.', true, false, 8),
+  ('matematikk-1t:andregradslikninger', 'q10', 'flervalg', 'Hvor mange løsninger har x² + 4x + 4 = 0?', array['Ingen', 'Én', 'To', 'Tre']::text[], 1, 'D = 16 − 16 = 0, og løsningen er x = −2.', true, false, 9),
+  ('matematikk-1t:andregradslikninger', 'm01', 'sant-usant', '(a − b)² = a² − 2ab + b²', array['Sant', 'Usant']::text[], 0, 'Andre kvadratsetning.', false, true, 10),
+  ('matematikk-1t:andregradslikninger', 'm02', 'sant-usant', '(a + b)² = a² + b²', array['Sant', 'Usant']::text[], 1, 'Det mangler leddet 2ab.', false, true, 11),
+  ('matematikk-1t:andregradslikninger', 'm03', 'sant-usant', 'En andregradslikning kan ha to løsninger.', array['Sant', 'Usant']::text[], 0, 'Det skjer når diskriminanten er positiv.', false, true, 12),
+  ('matematikk-1t:andregradslikninger', 'm04', 'sant-usant', 'Hvis a > 0 i f(x) = ax² + bx + c, har parabelen et toppunkt.', array['Sant', 'Usant']::text[], 1, 'Da har parabelen et bunnpunkt.', false, true, 13),
+  ('matematikk-1t:andregradslikninger', 'm05', 'flervalg', 'Løs x² = 16.', array['x = 4', 'x = 8', 'x = ±4', 'x = 256']::text[], 2, 'Både 4² og (−4)² er 16.', false, true, 14),
+  ('matematikk-1t:andregradslikninger', 'm06', 'flervalg', 'Hvordan skrives x² + 6x + 5 med fullstendig kvadrat?', array['(x + 3)² − 4', '(x + 3)² + 5', '(x + 6)² − 31', '(x − 3)² + 4']::text[], 0, '(x + 3)² = x² + 6x + 9, og 9 − 4 = 5.', false, true, 15),
+  ('matematikk-1t:andregradslikninger', 'm07', 'flervalg', 'Faktoriser x² − 5x + 6.', array['(x + 2)(x + 3)', '(x − 1)(x − 6)', '(x + 1)(x − 6)', '(x − 2)(x − 3)']::text[], 3, 'Nullpunktene er 2 og 3.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-1t:andregradslikninger', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk 1T: Polynomdivisjon
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-1t:polynomdivisjon', 'matematikk-1t', 'polynomdivisjon', 'Polynomdivisjon', 'Hva polynomer er, hvordan polynomdivisjon fungerer, sammenhengen mellom nullpunkter og faktorer, faktorisering og løsning av tredjegradslikninger, forkorting av rasjonale uttrykk og ulikheter.', array[11]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-1t:polynomdivisjon', '## Polynomer
+
+Et **polynom** er en sum av ledd der x bare har **ikke-negative hele tall** som eksponenter, for eksempel P(x) = 4x³ − 2x + 7. Den høyeste eksponenten er **graden** – her 3. Et polynom av grad n har **høyst n nullpunkter**.
+
+## Polynomdivisjon
+
+**Polynomdivisjon** ligner vanlig oppstilt divisjon. Vi deler ledd for ledd, ganger tilbake og trekker fra:
+
+(x² − 5x + 6) : (x − 2)
+
+1. x² : x = **x**. Gang tilbake: x(x − 2) = x² − 2x. Trekk fra: (x² − 5x) − (x² − 2x) = −3x. Ta ned +6.
+2. −3x : x = **−3**. Gang tilbake: −3(x − 2) = −3x + 6. Trekk fra: 0.
+
+Svaret er **x − 3**, uten rest. Altså er x² − 5x + 6 = (x − 2)(x − 3).
+
+Divisjonen **går ikke alltid opp**: (x² + 3x + 5) : (x + 1) = x + 2 med **rest 3**, som vi kan skrive x + 2 + 3/(x + 1).
+
+## Nullpunkter og faktorer
+
+En viktig sammenheng er at
+
+**P(a) = 0 ⇔ (x − a) er en faktor i P(x)**
+
+Da går divisjonen P(x) : (x − a) opp. Dette brukes til å **faktorisere** polynomer av høyere grad.
+
+## Eksempel: tredjegradslikning
+
+Løs P(x) = x³ − 6x² + 11x − 6 = 0.
+
+1. **Gjett et nullpunkt**. Heltallige nullpunkter må være **divisorer i konstantleddet** 6: ±1, ±2, ±3, ±6. Vi prøver x = 1: P(1) = 1 − 6 + 11 − 6 = **0**.
+2. **Divider**: (x³ − 6x² + 11x − 6) : (x − 1) = x² − 5x + 6.
+3. **Løs andregradslikningen**: x² − 5x + 6 = 0 gir x = 2 og x = 3.
+
+Dermed er P(x) = (x − 1)(x − 2)(x − 3), og løsningene er **x = 1, x = 2 og x = 3**.
+
+## Rasjonale uttrykk
+
+Faktorisering gjør det mulig å **forkorte** brøker med polynomer:
+
+(x² − 4)/(x − 2) = (x + 2)(x − 2)/(x − 2) = **x + 2**, for x ≠ 2
+
+Legg merke til at uttrykket **ikke er definert** for x = 2, selv om det forkortede uttrykket er det.
+
+## Ulikheter og drøfting
+
+Når et polynom er faktorisert, kan vi løse **ulikheter** med **fortegnsskjema**: x³ − 6x² + 11x − 6 > 0 er oppfylt når 1 < x < 2 eller x > 3. Faktoriseringen viser også hvor grafen **skjærer x-aksen**, og polynomdivisjon kan brukes til å finne **skrå asymptoter** til rasjonale funksjoner.', '{"label":"Polynomdivisjon","children":[{"label":"Polynomer","children":[{"label":"Grad"},{"label":"Høyst n nullpunkter"}]},{"label":"Divisjon","children":[{"label":"Del, gang tilbake, trekk fra"},{"label":"Med og uten rest"}]},{"label":"Faktorsetningen","children":[{"label":"P(a) = 0"},{"label":"(x − a) er faktor"},{"label":"Divisorer i konstantleddet"}]},{"label":"Bruk","children":[{"label":"Tredjegradslikninger"},{"label":"Faktorisering"},{"label":"Ulikheter"}]},{"label":"Rasjonale uttrykk","children":[{"label":"Forkorte"},{"label":"Nevner ≠ 0"},{"label":"Asymptoter"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-1t:polynomdivisjon';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-1t:polynomdivisjon', 'Polynom', 'Sum av ledd der x har ikke-negative hele tall som eksponenter.', 0),
+  ('matematikk-1t:polynomdivisjon', 'Grad', 'Den høyeste eksponenten i et polynom.', 1),
+  ('matematikk-1t:polynomdivisjon', 'Antall nullpunkter', 'Et polynom av grad n har høyst n nullpunkter.', 2),
+  ('matematikk-1t:polynomdivisjon', 'Polynomdivisjon', 'Oppstilt divisjon av polynomer: del, gang tilbake, trekk fra.', 3),
+  ('matematikk-1t:polynomdivisjon', 'Rest', 'Det som blir igjen når divisjonen ikke går opp.', 4),
+  ('matematikk-1t:polynomdivisjon', 'Faktorsetningen', 'P(a) = 0 ⇔ (x − a) er en faktor i P(x).', 5),
+  ('matematikk-1t:polynomdivisjon', 'Mulige heltallige nullpunkter', 'Divisorer i konstantleddet.', 6),
+  ('matematikk-1t:polynomdivisjon', 'x² − 5x + 6', '(x − 2)(x − 3)', 7),
+  ('matematikk-1t:polynomdivisjon', 'x³ − 6x² + 11x − 6', '(x − 1)(x − 2)(x − 3)', 8),
+  ('matematikk-1t:polynomdivisjon', '(x² + 3x + 5) : (x + 1)', 'x + 2 med rest 3.', 9),
+  ('matematikk-1t:polynomdivisjon', 'Rasjonalt uttrykk', 'Brøk der teller og nevner er polynomer.', 10),
+  ('matematikk-1t:polynomdivisjon', 'Forkorte rasjonale uttrykk', 'Faktoriser og stryk felles faktorer.', 11),
+  ('matematikk-1t:polynomdivisjon', 'Definisjonsmengde for brøk', 'Nevneren kan ikke være null.', 12),
+  ('matematikk-1t:polynomdivisjon', 'Fortegnsskjema', 'Brukes til å løse ulikheter med faktoriserte polynomer.', 13),
+  ('matematikk-1t:polynomdivisjon', 'Skrå asymptote', 'Kan finnes med polynomdivisjon for rasjonale funksjoner.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-1t:polynomdivisjon';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-1t:polynomdivisjon', 'q01', 'flervalg', 'Hva er (x² − 5x + 6) : (x − 2)?', array['x − 3', 'x + 3', 'x − 2', 'x² − 3']::text[], 0, '(x − 2)(x − 3) = x² − 5x + 6.', true, true, 0),
+  ('matematikk-1t:polynomdivisjon', 'q02', 'flervalg', 'P(x) = x³ − 6x² + 11x − 6 og P(1) = 0. Hva betyr det?', array['(x + 1) er en faktor', '(x − 1) er en faktor', 'P har ingen nullpunkter', 'P(x) = 1 for alle x']::text[], 1, 'P(a) = 0 betyr at (x − a) er en faktor.', true, true, 1),
+  ('matematikk-1t:polynomdivisjon', 'q03', 'flervalg', 'Hva er graden til polynomet 4x³ − 2x + 7?', array['7', '4', '3', '1']::text[], 2, 'Den høyeste eksponenten er 3.', true, true, 2),
+  ('matematikk-1t:polynomdivisjon', 'q04', 'flervalg', 'Faktoriser x³ − 6x² + 11x − 6 fullstendig.', array['(x + 1)(x + 2)(x + 3)', '(x − 1)(x² + 6)', '(x − 6)(x² + 1)', '(x − 1)(x − 2)(x − 3)']::text[], 3, 'Divider med (x − 1) og faktoriser andregradsuttrykket.', true, true, 3),
+  ('matematikk-1t:polynomdivisjon', 'q05', 'flervalg', 'Hva er (x² + 3x + 5) : (x + 1)?', array['x + 2 med rest 3', 'x + 3 med rest 2', 'x + 4 med rest 1', 'x + 2 uten rest']::text[], 0, '(x + 1)(x + 2) = x² + 3x + 2, og 5 − 2 = 3.', true, true, 4),
+  ('matematikk-1t:polynomdivisjon', 'q06', 'flervalg', 'Forkort (x² − 4)/(x − 2).', array['x − 2', 'x + 2', 'x² − 2', '2']::text[], 1, 'x² − 4 = (x + 2)(x − 2).', true, true, 5),
+  ('matematikk-1t:polynomdivisjon', 'q07', 'flervalg', 'Hvilke tall kan være heltallige nullpunkter i x³ − 6x² + 11x − 6?', array['Bare 0', 'Divisorer i 11', 'Divisorer i 6: ±1, ±2, ±3, ±6', 'Alle tall mellom −10 og 10']::text[], 2, 'Heltallige nullpunkter må gå opp i konstantleddet.', true, true, 6),
+  ('matematikk-1t:polynomdivisjon', 'q08', 'flervalg', 'Når går polynomdivisjonen P(x) : (x − a) opp?', array['Når P(0) = a', 'Når a = 0', 'Alltid', 'Når P(a) = 0']::text[], 3, 'Da er (x − a) en faktor.', true, true, 7),
+  ('matematikk-1t:polynomdivisjon', 'q09', 'flervalg', 'Løs x³ − 6x² + 11x − 6 = 0.', array['x = 1, x = 2 eller x = 3', 'x = −1, x = −2 eller x = −3', 'x = 6', 'x = 0']::text[], 0, 'Faktoriseringen (x − 1)(x − 2)(x − 3) gir løsningene.', true, false, 8),
+  ('matematikk-1t:polynomdivisjon', 'q10', 'flervalg', 'Hvorfor er polynomdivisjon nyttig?', array['For å regne prosent', 'For å faktorisere og løse likninger av høyere grad', 'For å finne arealet av trekanter', 'For å regne om enheter']::text[], 1, 'Den reduserer graden slik at vi kan bruke kjente metoder.', true, false, 9),
+  ('matematikk-1t:polynomdivisjon', 'm01', 'sant-usant', 'x − 2 er en faktor i x² − 4.', array['Sant', 'Usant']::text[], 0, 'x² − 4 = (x − 2)(x + 2).', false, true, 10),
+  ('matematikk-1t:polynomdivisjon', 'm02', 'sant-usant', 'Et polynom av tredje grad kan ha fire nullpunkter.', array['Sant', 'Usant']::text[], 1, 'Det har høyst tre.', false, true, 11),
+  ('matematikk-1t:polynomdivisjon', 'm03', 'sant-usant', 'Polynomdivisjon kan gi en rest.', array['Sant', 'Usant']::text[], 0, 'Da er ikke divisoren en faktor.', false, true, 12),
+  ('matematikk-1t:polynomdivisjon', 'm04', 'sant-usant', '(x² − 4)/(x − 2) er definert for x = 2.', array['Sant', 'Usant']::text[], 1, 'Nevneren blir null for x = 2.', false, true, 13),
+  ('matematikk-1t:polynomdivisjon', 'm05', 'flervalg', 'P(x) = x² + x − 6 og P(2) = 0. Hvilken faktor har P?', array['(x + 2)', '(x − 2)', '(x − 6)', '(x + 6)']::text[], 1, 'P(2) = 0 betyr at (x − 2) er en faktor.', false, true, 14),
+  ('matematikk-1t:polynomdivisjon', 'm06', 'flervalg', 'Hva er (x² + x − 6) : (x − 2)?', array['x − 3', 'x + 2', 'x + 3', 'x − 2']::text[], 2, '(x − 2)(x + 3) = x² + x − 6.', false, true, 15),
+  ('matematikk-1t:polynomdivisjon', 'm07', 'flervalg', 'Hva er et polynom?', array['En sum av ledd der x har ikke-negative hele tall som eksponenter', 'En brøk med x i nevneren', 'En funksjon med x i eksponenten', 'En rotfunksjon']::text[], 0, 'For eksempel 4x³ − 2x + 7.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-1t:polynomdivisjon', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk 1T: Funksjonstyper og egenskaper
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-1t:funksjoner', 'matematikk-1t', 'funksjoner', 'Funksjonstyper og egenskaper', 'Polynomfunksjoner, rasjonale funksjoner med asymptoter, eksponentialfunksjoner og potensfunksjoner – og begreper som definisjonsmengde, verdimengde, nullpunkter, ekstremalpunkter og monotoni.', array[9]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-1t:funksjoner', '## Egenskaper ved funksjoner
+
+Når vi **drøfter** en funksjon, beskriver vi
+
+- **definisjonsmengde** (D_f): x-verdiene funksjonen er definert for
+- **verdimengde** (V_f): y-verdiene funksjonen kan få
+- **nullpunkter**: der f(x) = 0
+- **ekstremalpunkter**: topp- og bunnpunkter
+- om funksjonen er **voksende** eller **avtagende** i ulike intervaller
+- eventuelle **asymptoter**: linjer grafen nærmer seg uten å nå
+
+## Polynomfunksjoner
+
+- **Grad 1**: f(x) = ax + b – rett linje
+- **Grad 2**: f(x) = ax² + bx + c – parabel med ett ekstremalpunkt
+- **Grad 3**: f(x) = ax³ + bx² + cx + d – kan ha to ekstremalpunkter og opptil tre nullpunkter
+
+En polynomfunksjon av grad n har **høyst n nullpunkter** og **høyst n − 1 ekstremalpunkter**. Den er definert for **alle** x.
+
+## Rasjonale funksjoner
+
+En **rasjonal funksjon** er en brøk med polynomer i teller og nevner, for eksempel
+
+f(x) = (2x + 1)/(x − 3)
+
+- Funksjonen er **ikke definert** der nevneren er null: D_f = alle x unntatt x = 3.
+- **Vertikal asymptote**: x = 3, fordi nevneren blir null mens telleren ikke blir det. Grafen skyter mot ±∞ nær x = 3.
+- **Horisontal asymptote**: Når telleren og nevneren har samme grad, nærmer f(x) seg forholdet mellom koeffisientene foran de høyeste potensene. Her: **y = 2/1 = 2**.
+
+Den enkleste rasjonale funksjonen er f(x) = 1/x, som har asymptotene x = 0 og y = 0.
+
+## Eksponentialfunksjoner
+
+f(x) = b · aˣ, der a > 0 og a ≠ 1.
+
+- **a > 1**: voksende (eksponentiell vekst), for eksempel 5 · 2ˣ
+- **0 < a < 1**: avtagende, for eksempel 3 · 0,8ˣ
+- Grafen har den horisontale asymptoten **y = 0** og skjærer y-aksen i b.
+- Når b > 0, er funksjonen **alltid positiv** og har ingen nullpunkter.
+
+## Potensfunksjoner
+
+f(x) = a · xᵇ, der **x er grunntallet** og eksponenten b er et fast tall. Eksempler:
+
+- x² og x³ (også polynomfunksjoner)
+- √x = x^(1/2), definert for x ≥ 0
+- 1/x = x⁻¹
+
+Potensfunksjoner brukes blant annet om **areal og volum**: arealet av et kvadrat er A = s², og volumet av en kube er V = s³.
+
+Legg merke til forskjellen: I en **potensfunksjon** står x i **grunntallet** (x²). I en **eksponentialfunksjon** står x i **eksponenten** (2ˣ).
+
+## Digitale verktøy
+
+I GeoGebra kan du tegne grafen og bruke kommandoer som **Nullpunkt**, **Ekstremalpunkt**, **Asymptote** og **Skjæring** for å utforske egenskapene. Forklar alltid hva du ser, og kontroller gjerne algebraisk.', '{"label":"Funksjonstyper","children":[{"label":"Egenskaper","children":[{"label":"Definisjons- og verdimengde"},{"label":"Nullpunkter"},{"label":"Ekstremalpunkter"},{"label":"Asymptoter"}]},{"label":"Polynomfunksjoner","children":[{"label":"Grad 1, 2, 3"},{"label":"Høyst n nullpunkter"}]},{"label":"Rasjonale","children":[{"label":"Nevner ≠ 0"},{"label":"Vertikal asymptote"},{"label":"Horisontal asymptote"}]},{"label":"Eksponential","children":[{"label":"b · aˣ"},{"label":"Vekst og nedgang"},{"label":"Asymptote y = 0"}]},{"label":"Potens","children":[{"label":"a · xᵇ"},{"label":"√x og 1/x"},{"label":"Areal og volum"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-1t:funksjoner';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-1t:funksjoner', 'Definisjonsmengde', 'x-verdiene funksjonen er definert for.', 0),
+  ('matematikk-1t:funksjoner', 'Verdimengde', 'y-verdiene funksjonen kan få.', 1),
+  ('matematikk-1t:funksjoner', 'Ekstremalpunkt', 'Topp- eller bunnpunkt.', 2),
+  ('matematikk-1t:funksjoner', 'Asymptote', 'Linje grafen nærmer seg uten å nå.', 3),
+  ('matematikk-1t:funksjoner', 'Polynomfunksjon av grad n', 'Høyst n nullpunkter og n − 1 ekstremalpunkter.', 4),
+  ('matematikk-1t:funksjoner', 'Rasjonal funksjon', 'Brøk med polynomer i teller og nevner.', 5),
+  ('matematikk-1t:funksjoner', 'Vertikal asymptote', 'Der nevneren er null og telleren ikke er null.', 6),
+  ('matematikk-1t:funksjoner', 'Horisontal asymptote ved lik grad', 'Forholdet mellom koeffisientene foran høyeste potens.', 7),
+  ('matematikk-1t:funksjoner', 'f(x) = (2x + 1)/(x − 3)', 'Asymptoter x = 3 og y = 2.', 8),
+  ('matematikk-1t:funksjoner', 'Eksponentialfunksjon', 'f(x) = b · aˣ med x i eksponenten.', 9),
+  ('matematikk-1t:funksjoner', 'a > 1 i b · aˣ', 'Voksende funksjon.', 10),
+  ('matematikk-1t:funksjoner', '0 < a < 1 i b · aˣ', 'Avtagende funksjon.', 11),
+  ('matematikk-1t:funksjoner', 'Potensfunksjon', 'f(x) = a · xᵇ med x i grunntallet.', 12),
+  ('matematikk-1t:funksjoner', '√x som potens', 'x^(1/2)', 13),
+  ('matematikk-1t:funksjoner', '1/x som potens', 'x⁻¹', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-1t:funksjoner';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-1t:funksjoner', 'q01', 'flervalg', 'Hvor mange nullpunkter kan en tredjegradsfunksjon høyst ha?', array['2', '3', '4', 'Uendelig mange']::text[], 1, 'En polynomfunksjon av grad n har høyst n nullpunkter.', true, true, 0),
+  ('matematikk-1t:funksjoner', 'q02', 'flervalg', 'Hva er den vertikale asymptoten til f(x) = (2x + 1)/(x − 3)?', array['x = 3', 'x = −3', 'y = 2', 'x = −1/2']::text[], 0, 'Nevneren er null for x = 3.', true, true, 1),
+  ('matematikk-1t:funksjoner', 'q03', 'flervalg', 'Hva er den horisontale asymptoten til f(x) = (2x + 1)/(x − 3)?', array['y = 0', 'y = 3', 'y = 2', 'y = 1']::text[], 2, 'Samme grad i teller og nevner gir y = 2/1.', true, true, 2),
+  ('matematikk-1t:funksjoner', 'q04', 'flervalg', 'Er f(x) = 3 · 0,8ˣ voksende eller avtagende?', array['Voksende', 'Konstant', 'Først voksende, så avtagende', 'Avtagende']::text[], 3, 'Grunntallet 0,8 er mellom 0 og 1.', true, true, 3),
+  ('matematikk-1t:funksjoner', 'q05', 'flervalg', 'Hvilken funksjon er en potensfunksjon?', array['f(x) = 4x³', 'f(x) = 4 · 3ˣ', 'f(x) = 4/(x − 3)', 'f(x) = 4x + 3']::text[], 0, 'x står i grunntallet og eksponenten er fast.', true, true, 4),
+  ('matematikk-1t:funksjoner', 'q06', 'flervalg', 'Hvilken linje nærmer grafen til f(x) = 5 · 2ˣ seg når x blir svært negativ?', array['y = 5', 'y = 0', 'x = 0', 'y = 2']::text[], 1, '2ˣ går mot 0 når x går mot −∞.', true, true, 5),
+  ('matematikk-1t:funksjoner', 'q07', 'flervalg', 'Hva er definisjonsmengden til f(x) = 1/(x + 2)?', array['Alle x', 'Alle x unntatt x = 2', 'Alle x unntatt x = −2', 'Bare x > 0']::text[], 2, 'Nevneren er null for x = −2.', true, true, 6),
+  ('matematikk-1t:funksjoner', 'q08', 'flervalg', 'Hvordan kan √x skrives som en potens?', array['x²', 'x⁻¹', '2x', 'x^(1/2)']::text[], 3, 'Kvadratroten tilsvarer eksponenten 1/2.', true, true, 7),
+  ('matematikk-1t:funksjoner', 'q09', 'flervalg', 'Hvor mange ekstremalpunkter har en andregradsfunksjon?', array['1', '2', '0', '3']::text[], 0, 'Parabelen har ett topp- eller bunnpunkt.', true, false, 8),
+  ('matematikk-1t:funksjoner', 'q10', 'flervalg', 'Hva er verdimengden til en funksjon?', array['Alle x-verdiene', 'Alle y-verdiene funksjonen kan få', 'Antall nullpunkter', 'Stigningstallet']::text[], 1, 'Definisjonsmengden er x-verdiene.', true, false, 9),
+  ('matematikk-1t:funksjoner', 'm01', 'sant-usant', 'Eksponentialfunksjonen f(x) = 2ˣ er alltid positiv.', array['Sant', 'Usant']::text[], 0, 'Den nærmer seg 0, men blir aldri null eller negativ.', false, true, 10),
+  ('matematikk-1t:funksjoner', 'm02', 'sant-usant', 'En rasjonal funksjon er definert der nevneren er null.', array['Sant', 'Usant']::text[], 1, 'Vi kan ikke dele på null.', false, true, 11),
+  ('matematikk-1t:funksjoner', 'm03', 'sant-usant', 'Grafen til f(x) = x² er en parabel.', array['Sant', 'Usant']::text[], 0, 'Den har bunnpunkt i origo.', false, true, 12),
+  ('matematikk-1t:funksjoner', 'm04', 'sant-usant', 'En andregradsfunksjon kan ha tre nullpunkter.', array['Sant', 'Usant']::text[], 1, 'Den har høyst to.', false, true, 13),
+  ('matematikk-1t:funksjoner', 'm05', 'flervalg', 'Hva slags funksjon er f(x) = 1/x?', array['Lineær', 'Eksponentiell', 'Potensfunksjon med eksponent −1', 'Andregradsfunksjon']::text[], 2, '1/x = x⁻¹. Den er også en rasjonal funksjon.', false, true, 14),
+  ('matematikk-1t:funksjoner', 'm06', 'flervalg', 'For hvilke a er f(x) = aˣ voksende?', array['a > 1', '0 < a < 1', 'a < 0', 'a = 1']::text[], 0, 'Grunntall større enn 1 gir vekst.', false, true, 15),
+  ('matematikk-1t:funksjoner', 'm07', 'flervalg', 'Hva er den vertikale asymptoten til f(x) = 3/(x − 1) + 2?', array['x = 2', 'x = 1', 'y = 1', 'x = 3']::text[], 1, 'Nevneren er null for x = 1. Den horisontale asymptoten er y = 2.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-1t:funksjoner', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk 1T: Vekstfart og den deriverte
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-1t:vekstfart-og-derivasjon', 'matematikk-1t', 'vekstfart-og-derivasjon', 'Vekstfart og den deriverte', 'Gjennomsnittlig og momentan vekstfart, sekant og tangent, definisjonen av den deriverte, derivasjonsregler for polynomer, tangentlikning og hvordan den deriverte brukes til å finne topp- og bunnpunkter.', array[10]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-1t:vekstfart-og-derivasjon', '## Gjennomsnittlig vekstfart
+
+Den **gjennomsnittlige vekstfarten** til f fra x = a til x = b er
+
+**(f(b) − f(a)) / (b − a)**
+
+Det er stigningstallet til **sekanten** – linjen gjennom de to punktene på grafen. For f(x) = x² fra x = 1 til x = 3: (9 − 1)/(3 − 1) = 8/2 = **4**.
+
+Vekstfarten har **enhet**: Hvis f(x) er meter og x er sekunder, er vekstfarten i **m/s**.
+
+## Momentan vekstfart
+
+Den **momentane vekstfarten** er vekstfarten i **ett bestemt punkt**. Geometrisk er den stigningstallet til **tangenten** – linjen som akkurat berører grafen i punktet. Vi finner den ved å la de to punktene i sekanten komme **nærmere og nærmere** hverandre.
+
+## Den deriverte
+
+Den momentane vekstfarten kalles **den deriverte**, og skrives **f′(x)**. Definisjonen er
+
+**f′(x) = lim (h → 0) (f(x + h) − f(x)) / h**
+
+For f(x) = x²: (f(x + h) − f(x))/h = ((x + h)² − x²)/h = (2xh + h²)/h = 2x + h. Når h → 0, får vi **f′(x) = 2x**. Da er f′(3) = 6.
+
+## Derivasjonsregler
+
+- (k)′ = 0 – den deriverte av en konstant er null
+- (x)′ = 1
+- **(xⁿ)′ = n · xⁿ⁻¹** – for eksempel (x⁴)′ = 4x³
+- (k · f)′ = k · f′
+- (f + g)′ = f′ + g′
+
+Eksempel: f(x) = 2x³ + 4x − 7 gir **f′(x) = 6x² + 4**.
+
+## Tangentlikning
+
+Tangenten i punktet (a, f(a)) har stigningstall f′(a):
+
+**y − f(a) = f′(a)(x − a)**
+
+For f(x) = x² i x = 3: y − 9 = 6(x − 3), altså **y = 6x − 9**.
+
+## Drøfting med den deriverte
+
+- **f′(x) > 0**: f er **voksende**.
+- **f′(x) < 0**: f er **avtagende**.
+- **f′(x) = 0**: **vannrett tangent** – mulig topp- eller bunnpunkt.
+
+Eksempel: f(x) = x³ − 3x gir f′(x) = 3x² − 3 = 3(x − 1)(x + 1). Nullpunktene er x = −1 og x = 1. Et **fortegnsskjema** viser at f′ er positiv, så negativ, så positiv. Derfor har f
+
+- **toppunkt** i (−1, 2)
+- **bunnpunkt** i (1, −2)
+
+## Praktisk bruk
+
+Hvis s(t) er strekningen i meter etter t sekunder, er **s′(t) farten** i m/s. Den deriverte brukes også om **vekstfarten** til en befolkning, **endringen i kostnader** per produsert enhet og mye mer.', '{"label":"Vekstfart og derivasjon","children":[{"label":"Gjennomsnittlig","children":[{"label":"Sekant"},{"label":"(f(b) − f(a))/(b − a)"}]},{"label":"Momentan","children":[{"label":"Tangent"},{"label":"Grenseverdi h → 0"}]},{"label":"Regler","children":[{"label":"(xⁿ)′ = nxⁿ⁻¹"},{"label":"Konstant: 0"},{"label":"Sum og konstant faktor"}]},{"label":"Tangentlikning","children":[{"label":"y − f(a) = f′(a)(x − a)"}]},{"label":"Drøfting","children":[{"label":"f′ > 0: voksende"},{"label":"f′ < 0: avtagende"},{"label":"f′ = 0: topp/bunn"},{"label":"Fortegnslinje"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-1t:vekstfart-og-derivasjon';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-1t:vekstfart-og-derivasjon', 'Gjennomsnittlig vekstfart', '(f(b) − f(a))/(b − a), stigningstallet til sekanten.', 0),
+  ('matematikk-1t:vekstfart-og-derivasjon', 'Sekant', 'Linje gjennom to punkter på grafen.', 1),
+  ('matematikk-1t:vekstfart-og-derivasjon', 'Momentan vekstfart', 'Vekstfarten i ett punkt, stigningstallet til tangenten.', 2),
+  ('matematikk-1t:vekstfart-og-derivasjon', 'Tangent', 'Linje som akkurat berører grafen i et punkt.', 3),
+  ('matematikk-1t:vekstfart-og-derivasjon', 'Den deriverte', 'f′(x), den momentane vekstfarten.', 4),
+  ('matematikk-1t:vekstfart-og-derivasjon', 'Definisjonen av f′(x)', 'lim (h → 0) (f(x + h) − f(x))/h', 5),
+  ('matematikk-1t:vekstfart-og-derivasjon', '(xⁿ)′', 'n · xⁿ⁻¹', 6),
+  ('matematikk-1t:vekstfart-og-derivasjon', '(k)′', '0', 7),
+  ('matematikk-1t:vekstfart-og-derivasjon', '(k · f)′', 'k · f′', 8),
+  ('matematikk-1t:vekstfart-og-derivasjon', '(f + g)′', 'f′ + g′', 9),
+  ('matematikk-1t:vekstfart-og-derivasjon', 'Tangentlikning', 'y − f(a) = f′(a)(x − a)', 10),
+  ('matematikk-1t:vekstfart-og-derivasjon', 'f′(x) > 0', 'f er voksende.', 11),
+  ('matematikk-1t:vekstfart-og-derivasjon', 'f′(x) = 0', 'Vannrett tangent – mulig topp- eller bunnpunkt.', 12),
+  ('matematikk-1t:vekstfart-og-derivasjon', 'Fortegnslinje for f′', 'Viser hvor f vokser og avtar, og om et punkt er topp eller bunn.', 13),
+  ('matematikk-1t:vekstfart-og-derivasjon', 's′(t)', 'Farten når s(t) er strekning.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-1t:vekstfart-og-derivasjon';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-1t:vekstfart-og-derivasjon', 'q01', 'flervalg', 'Hva er den gjennomsnittlige vekstfarten til f(x) = x² fra x = 1 til x = 3?', array['2', '8', '4', '6']::text[], 2, '(9 − 1)/(3 − 1) = 4.', true, true, 0),
+  ('matematikk-1t:vekstfart-og-derivasjon', 'q02', 'flervalg', 'Hva er den deriverte av x⁴?', array['4x³', 'x³', '4x⁴', '3x⁴']::text[], 0, '(xⁿ)′ = n · xⁿ⁻¹.', true, true, 1),
+  ('matematikk-1t:vekstfart-og-derivasjon', 'q03', 'flervalg', 'f(x) = x². Hva er f′(3)?', array['9', '3', '2', '6']::text[], 3, 'f′(x) = 2x, så f′(3) = 6.', true, true, 2),
+  ('matematikk-1t:vekstfart-og-derivasjon', 'q04', 'flervalg', 'Hva er momentan vekstfart geometrisk?', array['Arealet under grafen', 'Stigningstallet til tangenten i punktet', 'Nullpunktet', 'Stigningstallet til en sekant mellom to fjerne punkter']::text[], 1, 'Tangenten viser hvor bratt grafen er akkurat i punktet.', true, true, 3),
+  ('matematikk-1t:vekstfart-og-derivasjon', 'q05', 'flervalg', 'Hva er f′(x) når f(x) = x³ − 3x?', array['3x² − 3', '3x² − 3x', 'x² − 3', '3x³ − 3']::text[], 0, 'Deriver hvert ledd: 3x² og −3.', true, true, 4),
+  ('matematikk-1t:vekstfart-og-derivasjon', 'q06', 'flervalg', 'Hvor har f(x) = x³ − 3x toppunkt?', array['x = 1', 'x = 0', 'x = −1', 'x = 3']::text[], 2, 'f′ skifter fra positiv til negativ i x = −1.', true, true, 5),
+  ('matematikk-1t:vekstfart-og-derivasjon', 'q07', 'flervalg', 'Hva er likningen for tangenten til f(x) = x² i x = 3?', array['y = 6x + 9', 'y = 3x', 'y = 2x + 3', 'y = 6x − 9']::text[], 3, 'y − 9 = 6(x − 3) gir y = 6x − 9.', true, true, 6),
+  ('matematikk-1t:vekstfart-og-derivasjon', 'q08', 'flervalg', 'Hva forteller f′(x) = 0?', array['At funksjonsverdien er null', 'At tangenten er vannrett – mulig topp- eller bunnpunkt', 'At funksjonen ikke er definert', 'At grafen er en rett linje']::text[], 1, 'Fortegnet til f′ rundt punktet avgjør om det er topp eller bunn.', true, true, 7),
+  ('matematikk-1t:vekstfart-og-derivasjon', 'q09', 'flervalg', 's(t) er strekningen i meter etter t sekunder. Hva er s′(t)?', array['Farten i m/s', 'Strekningen i meter', 'Tiden i sekunder', 'Starthastigheten i meter']::text[], 0, 'Farten er vekstfarten til strekningen.', true, false, 8),
+  ('matematikk-1t:vekstfart-og-derivasjon', 'q10', 'flervalg', 'Hva er den deriverte av en konstant?', array['1', 'Konstanten selv', '0', 'x']::text[], 2, 'En konstant endrer seg ikke.', true, false, 9),
+  ('matematikk-1t:vekstfart-og-derivasjon', 'm01', 'sant-usant', '(f + g)′ = f′ + g′', array['Sant', 'Usant']::text[], 0, 'Vi kan derivere ledd for ledd.', false, true, 10),
+  ('matematikk-1t:vekstfart-og-derivasjon', 'm02', 'sant-usant', 'Den deriverte av 5x er 5x.', array['Sant', 'Usant']::text[], 1, 'Den deriverte av 5x er 5.', false, true, 11),
+  ('matematikk-1t:vekstfart-og-derivasjon', 'm03', 'sant-usant', 'Når f′(x) > 0 i et intervall, er f voksende der.', array['Sant', 'Usant']::text[], 0, 'Positiv vekstfart betyr at grafen stiger.', false, true, 12),
+  ('matematikk-1t:vekstfart-og-derivasjon', 'm04', 'sant-usant', 'Gjennomsnittlig vekstfart er stigningstallet til tangenten.', array['Sant', 'Usant']::text[], 1, 'Det er stigningstallet til sekanten.', false, true, 13),
+  ('matematikk-1t:vekstfart-og-derivasjon', 'm05', 'flervalg', 'Deriver f(x) = 2x³ + 4x − 7.', array['6x² + 4', '6x³ + 4', '2x² + 4', '6x² + 4x']::text[], 0, '2 · 3x² + 4 + 0.', false, true, 14),
+  ('matematikk-1t:vekstfart-og-derivasjon', 'm06', 'flervalg', 'Hva er definisjonen av f′(x)?', array['f(x + h) − f(x)', 'Grenseverdien av (f(x + h) − f(x))/h når h går mot 0', '(f(b) − f(a))/(b − a) for store tall', 'f(x)/x']::text[], 1, 'Sekanten blir til en tangent når h går mot 0.', false, true, 15),
+  ('matematikk-1t:vekstfart-og-derivasjon', 'm07', 'flervalg', 'Hva er bunnpunktet til f(x) = x³ − 3x?', array['(−1, 2)', '(0, 0)', '(1, −2)', '(3, 18)']::text[], 2, 'f(1) = 1 − 3 = −2, og f′ skifter fra negativ til positiv i x = 1.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-1t:vekstfart-og-derivasjon', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk 1T: Sinus, cosinus og tangens
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-1t:trigonometri', 'matematikk-1t', 'trigonometri', 'Sinus, cosinus og tangens', 'Definisjonene av sinus, cosinus og tangens i rettvinklede trekanter og i enhetssirkelen, eksakte verdier, beregning av sider og vinkler og trigonometri for stumpe vinkler.', array[12]::int[], 5, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-1t:trigonometri', '## Rettvinklede trekanter
+
+I en rettvinklet trekant er **hypotenusen** den lengste siden, motsatt den rette vinkelen. For en spiss vinkel v kaller vi de to andre sidene **motstående katet** (overfor v) og **hosliggende katet** (inntil v).
+
+- **sin v = motstående katet / hypotenus**
+- **cos v = hosliggende katet / hypotenus**
+- **tan v = motstående katet / hosliggende katet**
+
+## Finne sider
+
+Hypotenusen er 10 og v = 30°. Motstående katet = 10 · sin 30° = 10 · 0,5 = **5**.
+
+Hosliggende katet er 4 og v = 60°. Hypotenusen = 4 / cos 60° = 4 / 0,5 = **8**.
+
+## Finne vinkler
+
+Når vi kjenner to sider, bruker vi de **omvendte funksjonene** sin⁻¹, cos⁻¹ og tan⁻¹ på kalkulatoren:
+
+tan v = 3/4 = 0,75 → v = tan⁻¹(0,75) ≈ **36,9°**
+
+En rampe som stiger 1 m over 12 m horisontalt, har helningsvinkel tan⁻¹(1/12) ≈ **4,8°**.
+
+## Eksakte verdier
+
+| v | 30° | 45° | 60° |
+| --- | --- | --- | --- |
+| sin v | 1/2 | √2/2 | √3/2 |
+| cos v | √3/2 | √2/2 | 1/2 |
+| tan v | √3/3 | 1 | √3 |
+
+Verdiene kan utledes fra en **halv likesidet trekant** (30° og 60°) og en **halv kvadrat** (45°).
+
+## Enhetssirkelen
+
+For å definere sinus og cosinus også for **stumpe vinkler** bruker vi **enhetssirkelen** – en sirkel med radius 1 og sentrum i origo. En vinkel v måles fra den positive x-aksen, og vinkelbeinet skjærer sirkelen i punktet
+
+**(cos v, sin v)**
+
+Da er **tan v = sin v / cos v** (når cos v ≠ 0).
+
+For vinkler mellom 90° og 180° er **sinus positiv** og **cosinus negativ**:
+
+- **sin(180° − v) = sin v**: sin 150° = sin 30° = 1/2
+- **cos(180° − v) = −cos v**: cos 120° = −cos 60° = −1/2
+
+Dette betyr at **to vinkler** mellom 0° og 180° har samme sinusverdi. Ligningen sin v = 0,5 har løsningene **v = 30° og v = 150°**. Det er viktig når vi senere bruker sinussetningen.
+
+Spesielle verdier: sin 0° = 0, cos 0° = 1, sin 90° = 1, cos 90° = 0, sin 180° = 0, cos 180° = −1.
+
+## Den trigonometriske identiteten
+
+Fordi punktet (cos v, sin v) ligger på enhetssirkelen, gir Pytagoras
+
+**sin²v + cos²v = 1**
+
+for alle vinkler v.
+
+## Bruk
+
+Trigonometri brukes i **landmåling**, **byggfag**, **navigasjon**, **fysikk** og **dataspill** – overalt der vi trenger å regne ut avstander og vinkler vi ikke kan måle direkte.', '{"label":"Sinus, cosinus og tangens","children":[{"label":"Rettvinklet trekant","children":[{"label":"Hypotenus"},{"label":"Motstående katet"},{"label":"Hosliggende katet"}]},{"label":"Definisjoner","children":[{"label":"sin = mot/hyp"},{"label":"cos = hos/hyp"},{"label":"tan = mot/hos"}]},{"label":"Beregninger","children":[{"label":"Finne sider"},{"label":"Finne vinkler med sin⁻¹, cos⁻¹, tan⁻¹"}]},{"label":"Eksakte verdier","children":[{"label":"30°, 45°, 60°"},{"label":"Halv likesidet trekant"}]},{"label":"Enhetssirkelen","children":[{"label":"(cos v, sin v)"},{"label":"Stumpe vinkler"},{"label":"sin²v + cos²v = 1"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-1t:trigonometri';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-1t:trigonometri', 'Hypotenus', 'Den lengste siden i en rettvinklet trekant, motsatt den rette vinkelen.', 0),
+  ('matematikk-1t:trigonometri', 'sin v', 'Motstående katet / hypotenus.', 1),
+  ('matematikk-1t:trigonometri', 'cos v', 'Hosliggende katet / hypotenus.', 2),
+  ('matematikk-1t:trigonometri', 'tan v', 'Motstående katet / hosliggende katet.', 3),
+  ('matematikk-1t:trigonometri', 'tan⁻¹', 'Omvendt funksjon som gir vinkelen når tangensverdien er kjent.', 4),
+  ('matematikk-1t:trigonometri', 'sin 30°', '1/2', 5),
+  ('matematikk-1t:trigonometri', 'cos 30°', '√3/2', 6),
+  ('matematikk-1t:trigonometri', 'sin 45° og cos 45°', '√2/2', 7),
+  ('matematikk-1t:trigonometri', 'tan 45°', '1', 8),
+  ('matematikk-1t:trigonometri', 'Enhetssirkelen', 'Sirkel med radius 1 og sentrum i origo.', 9),
+  ('matematikk-1t:trigonometri', 'Punkt på enhetssirkelen', '(cos v, sin v)', 10),
+  ('matematikk-1t:trigonometri', 'sin(180° − v)', 'sin v', 11),
+  ('matematikk-1t:trigonometri', 'cos(180° − v)', '−cos v', 12),
+  ('matematikk-1t:trigonometri', 'sin²v + cos²v', '1', 13),
+  ('matematikk-1t:trigonometri', 'sin v = 0,5 for 0° < v < 180°', 'v = 30° eller v = 150°.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-1t:trigonometri';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-1t:trigonometri', 'q01', 'flervalg', 'Hva er sin v i en rettvinklet trekant?', array['Hosliggende katet / hypotenus', 'Motstående katet / hypotenus', 'Motstående katet / hosliggende katet', 'Hypotenus / motstående katet']::text[], 1, 'Sinus: motstående over hypotenus.', true, true, 0),
+  ('matematikk-1t:trigonometri', 'q02', 'flervalg', 'Hypotenusen er 10 og v = 30°. Hvor lang er den motstående kateten?', array['5', '8,66', '10', '20']::text[], 0, '10 · sin 30° = 10 · 0,5 = 5.', true, true, 1),
+  ('matematikk-1t:trigonometri', 'q03', 'flervalg', 'tan v = 3/4. Hva er v?', array['53,1°', '0,75°', '36,9°', '45°']::text[], 2, 'tan⁻¹(0,75) ≈ 36,9°.', true, true, 2),
+  ('matematikk-1t:trigonometri', 'q04', 'flervalg', 'Hva er cos 60°?', array['√3/2', '1', '0', '1/2']::text[], 3, 'cos 60° = sin 30° = 1/2.', true, true, 3),
+  ('matematikk-1t:trigonometri', 'q05', 'flervalg', 'Hvilke koordinater har punktet for vinkelen v på enhetssirkelen?', array['(cos v, sin v)', '(sin v, cos v)', '(tan v, 1)', '(v, 1)']::text[], 0, 'x-koordinaten er cosinus og y-koordinaten er sinus.', true, true, 4),
+  ('matematikk-1t:trigonometri', 'q06', 'flervalg', 'Hva er sin 150°?', array['−1/2', '1/2', '√3/2', '−√3/2']::text[], 1, 'sin 150° = sin(180° − 30°) = sin 30°.', true, true, 5),
+  ('matematikk-1t:trigonometri', 'q07', 'flervalg', 'Hva er cos 120°?', array['1/2', '√3/2', '−1/2', '0']::text[], 2, 'cos 120° = −cos 60° = −1/2.', true, true, 6),
+  ('matematikk-1t:trigonometri', 'q08', 'flervalg', 'Hva er sin²v + cos²v?', array['0', '2', 'tan v', '1']::text[], 3, 'Pytagoras i enhetssirkelen.', true, true, 7),
+  ('matematikk-1t:trigonometri', 'q09', 'flervalg', 'Hvilke vinkler mellom 0° og 180° har sin v = 0,5?', array['30° og 150°', '30° og 60°', 'Bare 30°', '60° og 120°']::text[], 0, 'sin(180° − v) = sin v.', true, false, 8),
+  ('matematikk-1t:trigonometri', 'q10', 'flervalg', 'En rampe stiger 1 m over 12 m horisontalt. Hva er helningsvinkelen?', array['12°', '4,8°', '85,2°', '1°']::text[], 1, 'tan⁻¹(1/12) ≈ 4,8°.', true, false, 9),
+  ('matematikk-1t:trigonometri', 'm01', 'sant-usant', 'tan v = sin v / cos v', array['Sant', 'Usant']::text[], 0, 'Det gjelder når cos v ≠ 0.', false, true, 10),
+  ('matematikk-1t:trigonometri', 'm02', 'sant-usant', 'cos v er positiv for alle vinkler mellom 90° og 180°.', array['Sant', 'Usant']::text[], 1, 'Cosinus er negativ for stumpe vinkler.', false, true, 11),
+  ('matematikk-1t:trigonometri', 'm03', 'sant-usant', 'Hypotenusen er den lengste siden i en rettvinklet trekant.', array['Sant', 'Usant']::text[], 0, 'Den ligger overfor den største vinkelen.', false, true, 12),
+  ('matematikk-1t:trigonometri', 'm04', 'sant-usant', 'sin 90° = 0', array['Sant', 'Usant']::text[], 1, 'sin 90° = 1.', false, true, 13),
+  ('matematikk-1t:trigonometri', 'm05', 'flervalg', 'Hosliggende katet er 8 og hypotenusen 10. Hva er cos v?', array['0,6', '1,25', '0,8', '0,75']::text[], 2, '8/10 = 0,8.', false, true, 14),
+  ('matematikk-1t:trigonometri', 'm06', 'flervalg', 'Hva er sin 45°?', array['√2/2', '1/2', '√3/2', '1']::text[], 0, 'sin 45° = cos 45° = √2/2.', false, true, 15),
+  ('matematikk-1t:trigonometri', 'm07', 'flervalg', 'Hosliggende katet er 4 og v = 60°. Hvor lang er hypotenusen?', array['2', '8', '4√3', '6,9']::text[], 1, '4 / cos 60° = 4 / 0,5 = 8.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-1t:trigonometri', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk 1T: Arealsetningen, sinussetningen og cosinussetningen
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-1t:sinus-og-cosinussetningen', 'matematikk-1t', 'sinus-og-cosinussetningen', 'Arealsetningen, sinussetningen og cosinussetningen', 'Trigonometri i vilkårlige trekanter: arealsetningen, sinussetningen og cosinussetningen, bevisene for dem, hvilken setning du skal velge, og sammensatte praktiske problemer.', array[13, 14]::int[], 6, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-1t:sinus-og-cosinussetningen', '## Navn i trekanten
+
+I en trekant ABC kaller vi vinklene **A**, **B** og **C** og sidene **a**, **b** og **c**, der siden a ligger **overfor** vinkel A, b overfor B og c overfor C. Summen av vinklene er alltid **180°**.
+
+## Arealsetningen
+
+**T = ½ · a · b · sin C**
+
+Arealet er halvparten av produktet av to sider ganger sinus til vinkelen **mellom** dem.
+
+**Bevis**: Trekk høyden h fra A ned på siden a. I den rettvinklede trekanten med hypotenus b er h = b · sin C. Arealet er ½ · grunnlinje · høyde = ½ · a · b · sin C. Fordi sin(180° − v) = sin v, gjelder setningen også når C er stump.
+
+Eksempel: a = 6, b = 8 og C = 30° gir T = ½ · 6 · 8 · 0,5 = **12**.
+
+## Sinussetningen
+
+**sin A / a = sin B / b = sin C / c**
+
+**Bevis**: Arealet kan skrives på flere måter: ½ · b · c · sin A = ½ · a · c · sin B. Del på ½ · a · b · c, og vi får sin A / a = sin B / b.
+
+Brukes når vi kjenner
+
+- **to vinkler og én side**, eller
+- **to sider og en vinkel som ikke ligger mellom dem**.
+
+Eksempel: A = 40°, B = 60° og a = 10 gir b = 10 · sin 60° / sin 40° ≈ **13,5**.
+
+**Obs**: Når vi finner en **vinkel** med sinussetningen, kan det finnes **to løsninger**, fordi sin v = sin(180° − v). Sjekk om begge gir en mulig trekant (vinkelsum under 180°).
+
+## Cosinussetningen
+
+**a² = b² + c² − 2bc · cos A**
+
+Brukes når vi kjenner
+
+- **to sider og vinkelen mellom dem**, eller
+- **alle tre sidene** (for å finne en vinkel): cos A = (b² + c² − a²)/(2bc)
+
+Eksempel 1: b = 5, c = 7 og A = 60° gir a² = 25 + 49 − 2 · 5 · 7 · 0,5 = 39, så a ≈ **6,2**.
+
+Eksempel 2: a = 7, b = 5 og c = 8 gir cos A = (25 + 64 − 49)/80 = 0,5, så A = **60°**.
+
+Når A = 90°, er cos A = 0, og setningen blir **Pytagoras'' setning**. Cosinussetningen er altså en **utvidelse** av Pytagoras. Den kan bevises ved å trekke en høyde og bruke Pytagoras på de to delene.
+
+## Hvilken setning skal jeg velge?
+
+| Kjent | Bruk |
+| --- | --- |
+| To sider og vinkelen mellom | Cosinussetningen (side) eller arealsetningen (areal) |
+| Tre sider | Cosinussetningen (vinkel) |
+| To vinkler og én side | Sinussetningen |
+| To sider og en vinkel som ikke er mellom dem | Sinussetningen – obs to løsninger |
+
+## Sammensatte problemer
+
+I praksis må vi ofte dele en figur i flere trekanter og bruke setningene **etter hverandre** – for eksempel for å finne avstanden over et vann, høyden på et fjell eller arealet av en tomt. Lag alltid en **skisse**, marker hva du vet, og planlegg rekkefølgen.', '{"label":"Trigonometri i trekanter","children":[{"label":"Arealsetningen","children":[{"label":"T = ½ab · sin C"},{"label":"Bevis med høyde"}]},{"label":"Sinussetningen","children":[{"label":"sin A / a = sin B / b"},{"label":"Bevis med areal"},{"label":"To mulige løsninger"}]},{"label":"Cosinussetningen","children":[{"label":"a² = b² + c² − 2bc · cos A"},{"label":"Finne vinkel"},{"label":"Utvidet Pytagoras"}]},{"label":"Velge setning","children":[{"label":"Tre sider: cosinus"},{"label":"To vinkler: sinus"},{"label":"Vinkel mellom: cosinus"}]},{"label":"Praktisk","children":[{"label":"Skisse"},{"label":"Dele i trekanter"},{"label":"Landmåling"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-1t:sinus-og-cosinussetningen';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-1t:sinus-og-cosinussetningen', 'Side a', 'Siden som ligger overfor vinkel A.', 0),
+  ('matematikk-1t:sinus-og-cosinussetningen', 'Vinkelsum i trekant', '180°', 1),
+  ('matematikk-1t:sinus-og-cosinussetningen', 'Arealsetningen', 'T = ½ · a · b · sin C', 2),
+  ('matematikk-1t:sinus-og-cosinussetningen', 'Sinussetningen', 'sin A / a = sin B / b = sin C / c', 3),
+  ('matematikk-1t:sinus-og-cosinussetningen', 'Cosinussetningen', 'a² = b² + c² − 2bc · cos A', 4),
+  ('matematikk-1t:sinus-og-cosinussetningen', 'Finne vinkel med tre sider', 'cos A = (b² + c² − a²)/(2bc)', 5),
+  ('matematikk-1t:sinus-og-cosinussetningen', 'Bevis for arealsetningen', 'Høyden er h = b · sin C, og T = ½ · a · h.', 6),
+  ('matematikk-1t:sinus-og-cosinussetningen', 'Bevis for sinussetningen', 'Skriv arealet på to måter med arealsetningen.', 7),
+  ('matematikk-1t:sinus-og-cosinussetningen', 'Cosinussetningen når A = 90°', 'Blir til Pytagoras'' setning.', 8),
+  ('matematikk-1t:sinus-og-cosinussetningen', 'To vinkler og én side', 'Bruk sinussetningen.', 9),
+  ('matematikk-1t:sinus-og-cosinussetningen', 'Tre sider', 'Bruk cosinussetningen.', 10),
+  ('matematikk-1t:sinus-og-cosinussetningen', 'To sider og vinkelen mellom', 'Bruk cosinussetningen eller arealsetningen.', 11),
+  ('matematikk-1t:sinus-og-cosinussetningen', 'Tvetydig tilfelle', 'Sinussetningen kan gi to mulige vinkler, v og 180° − v.', 12),
+  ('matematikk-1t:sinus-og-cosinussetningen', 'Skisse', 'Første steg i et sammensatt trigonometriproblem.', 13),
+  ('matematikk-1t:sinus-og-cosinussetningen', 'Stump vinkel', 'Vinkel mellom 90° og 180°; setningene gjelder også da.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-1t:sinus-og-cosinussetningen';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-1t:sinus-og-cosinussetningen', 'q01', 'flervalg', 'Hva sier arealsetningen?', array['T = ½ · a · b · sin C', 'T = a · b · cos C', 'T = ½ · a · b', 'T = a² + b² − 2ab · cos C']::text[], 0, 'Vinkelen C ligger mellom sidene a og b.', true, true, 0),
+  ('matematikk-1t:sinus-og-cosinussetningen', 'q02', 'flervalg', 'a = 6, b = 8 og C = 30°. Hva er arealet?', array['24', '48', '12', '20,8']::text[], 2, '½ · 6 · 8 · 0,5 = 12.', true, true, 1),
+  ('matematikk-1t:sinus-og-cosinussetningen', 'q03', 'flervalg', 'Hva sier sinussetningen?', array['a² = b² + c² − 2bc · cos A', 'sin A / a = sin B / b = sin C / c', 'T = ½ · b · c · sin A', 'a/b = cos A / cos B']::text[], 1, 'Forholdet mellom sinus til en vinkel og motstående side er likt for alle tre.', true, true, 2),
+  ('matematikk-1t:sinus-og-cosinussetningen', 'q04', 'flervalg', 'Hva sier cosinussetningen?', array['sin A / a = sin B / b', 'a = b · sin A', 'a² = b² + c²', 'a² = b² + c² − 2bc · cos A']::text[], 3, 'Leddet −2bc · cos A korrigerer Pytagoras for vinkler som ikke er rette.', true, true, 3),
+  ('matematikk-1t:sinus-og-cosinussetningen', 'q05', 'flervalg', 'b = 5, c = 7 og A = 60°. Hvor lang er a?', array['6,2', '8,6', '39', '4,1']::text[], 0, 'a² = 25 + 49 − 35 = 39, så a ≈ 6,2.', true, true, 4),
+  ('matematikk-1t:sinus-og-cosinussetningen', 'q06', 'flervalg', 'Du kjenner alle tre sidene i en trekant. Hvilken setning bruker du for å finne en vinkel?', array['Sinussetningen', 'Cosinussetningen', 'Arealsetningen', 'Ingen av dem']::text[], 1, 'cos A = (b² + c² − a²)/(2bc).', true, true, 5),
+  ('matematikk-1t:sinus-og-cosinussetningen', 'q07', 'flervalg', 'A = 40°, B = 60° og a = 10. Hvor lang er b?', array['7,4', '11,5', '13,5', '15,0']::text[], 2, 'b = 10 · sin 60° / sin 40° ≈ 13,5.', true, true, 6),
+  ('matematikk-1t:sinus-og-cosinussetningen', 'q08', 'flervalg', 'Hvordan kan sinussetningen bevises?', array['Med Pytagoras alene', 'Ved å måle mange trekanter', 'Med polynomdivisjon', 'Ved å uttrykke arealet av trekanten på to måter']::text[], 3, '½bc · sin A = ½ac · sin B gir sin A / a = sin B / b.', true, true, 7),
+  ('matematikk-1t:sinus-og-cosinussetningen', 'q09', 'flervalg', 'Hva blir cosinussetningen når A = 90°?', array['Pytagoras'' setning', 'Sinussetningen', 'Arealsetningen', 'Den blir ugyldig']::text[], 0, 'cos 90° = 0, så a² = b² + c².', true, false, 8),
+  ('matematikk-1t:sinus-og-cosinussetningen', 'q10', 'flervalg', 'a = 7, b = 5 og c = 8. Hvor stor er vinkel A?', array['30°', '60°', '45°', '90°']::text[], 1, 'cos A = (25 + 64 − 49)/80 = 0,5.', true, false, 9),
+  ('matematikk-1t:sinus-og-cosinussetningen', 'm01', 'sant-usant', 'Sinussetningen kan gi to mulige trekanter når man kjenner to sider og en vinkel som ikke ligger mellom dem.', array['Sant', 'Usant']::text[], 0, 'sin v = sin(180° − v), så to vinkler kan passe.', false, true, 10),
+  ('matematikk-1t:sinus-og-cosinussetningen', 'm02', 'sant-usant', 'Arealsetningen gjelder bare for rettvinklede trekanter.', array['Sant', 'Usant']::text[], 1, 'Den gjelder for alle trekanter.', false, true, 11),
+  ('matematikk-1t:sinus-og-cosinussetningen', 'm03', 'sant-usant', 'Summen av vinklene i en trekant er 180°.', array['Sant', 'Usant']::text[], 0, 'Det brukes ofte til å finne den tredje vinkelen.', false, true, 12),
+  ('matematikk-1t:sinus-og-cosinussetningen', 'm04', 'sant-usant', 'Cosinussetningen kan ikke brukes når vinkelen er stump.', array['Sant', 'Usant']::text[], 1, 'Da er cos A negativ, og setningen gjelder fortsatt.', false, true, 13),
+  ('matematikk-1t:sinus-og-cosinussetningen', 'm05', 'flervalg', 'To sider er 10 og 10, og vinkelen mellom dem er 90°. Hva er arealet?', array['100', '50', '25', '200']::text[], 1, '½ · 10 · 10 · sin 90° = 50.', false, true, 14),
+  ('matematikk-1t:sinus-og-cosinussetningen', 'm06', 'flervalg', 'Du kjenner to vinkler og én side. Hvilken setning passer for å finne de andre sidene?', array['Cosinussetningen', 'Arealsetningen', 'Sinussetningen', 'Pytagoras']::text[], 2, 'Den tredje vinkelen finner du med vinkelsummen.', false, true, 15),
+  ('matematikk-1t:sinus-og-cosinussetningen', 'm07', 'flervalg', 'I en trekant er A = 50° og B = 70°. Hvor stor er C?', array['60°', '120°', '70°', '50°']::text[], 0, '180° − 50° − 70° = 60°.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-1t:sinus-og-cosinussetningen', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk 1T: Bevis, algoritmisk tenkning og programmering
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-1t:bevis-og-programmering', 'matematikk-1t', 'bevis-og-programmering', 'Bevis, algoritmisk tenkning og programmering', 'Hva et matematisk bevis er, direkte bevis og moteksempler, implikasjon og ekvivalens, algoritmisk tenkning og hvordan du bruker programmering i Python til å løse matematiske problemer.', array[2, 1]::int[], 7, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-1t:bevis-og-programmering', '## Hva er et bevis?
+
+Et **matematisk bevis** er en logisk argumentasjon som viser at en påstand er sann i **alle** tilfeller. Å prøve mange eksempler er ikke nok – det kan finnes et tilfelle vi ikke har testet. Men **ett moteksempel** er nok til å vise at en påstand er **usann**.
+
+## Direkte bevis
+
+**Påstand**: Summen av to partall er et partall.
+
+**Bevis**: Et partall kan skrives 2m, der m er et helt tall. Da er 2m + 2n = 2(m + n), som er delelig med 2. ∎
+
+**Påstand**: Summen av tre påfølgende hele tall er delelig med 3.
+
+**Bevis**: Tallene er n, n + 1 og n + 2. Summen er 3n + 3 = 3(n + 1). ∎
+
+**Påstand**: (a + b)² = a² + 2ab + b².
+
+**Bevis**: (a + b)² = (a + b)(a + b) = a² + ab + ba + b² = a² + 2ab + b². ∎ Kvadratsetningen kan også bevises **geometrisk** ved å dele et kvadrat med side a + b i fire rektangler.
+
+## Moteksempel
+
+«Alle primtall er odde» er **usant**: 2 er et primtall og er et partall.
+
+«n² + n + 41 er et primtall for alle naturlige tall n» stemmer for mange n, men er usant for n = 40: 40² + 40 + 41 = 41².
+
+## Implikasjon og ekvivalens
+
+- **Implikasjon** (⇒): «Hvis A, så B.» x = 2 ⇒ x² = 4.
+- Det motsatte gjelder ikke nødvendigvis: x² = 4 ⇒ x = 2 eller x = −2.
+- **Ekvivalens** (⇔): A og B følger av hverandre. x + 3 = 5 ⇔ x = 2.
+
+Når vi løser likninger, må hvert steg helst være en ekvivalens, ellers kan vi miste eller få falske løsninger.
+
+## Algoritmisk tenkning
+
+**Algoritmisk tenkning** handler om å løse problemer på en systematisk måte:
+
+- **Dekomponering** – dele problemet i mindre deler
+- **Mønstergjenkjenning** – se likheter med kjente problemer
+- **Abstraksjon** – se bort fra unødvendige detaljer
+- **Algoritme** – en trinnvis oppskrift som alltid fører fram
+
+## Programmering i Python
+
+Nyttige byggesteiner:
+
+- **Variabler**: belop = 10000
+- **while-løkke**: gjentar så lenge en betingelse er sann
+- **for-løkke**: for i in range(1, 11) gjentar for i = 1, …, 10
+- **if** – velger mellom handlinger
+- **def** – lager egne funksjoner
+
+**Eksempel – doblingstid**: Hvor mange år tar det før 10 000 kr blir 20 000 kr med 5 % rente? Programmet starter med belop = 10000 og ar = 0. Så lenge belop < 20000, ganger det belop med 1.05 og legger 1 til ar. Til slutt skrives ar ut: **15 år**.
+
+**Eksempel – halveringsmetoden**: For å finne et nullpunkt til f starter vi med et intervall [a, b] der f(a) og f(b) har **ulike fortegn**. Vi regner ut midtpunktet m. Har f(m) samme fortegn som f(a), erstatter vi a med m, ellers b med m. Gjentar vi dette, blir intervallet halvert hver gang, og vi nærmer oss nullpunktet så nøyaktig vi vil.
+
+## Problemløsningsstrategier
+
+Tegn figur, prøv enklere tilfeller, let etter mønstre, arbeid baklengs, prøv systematisk – og bruk digitale verktøy når det er nyttig.', '{"label":"Bevis og programmering","children":[{"label":"Bevis","children":[{"label":"Gjelder alle tilfeller"},{"label":"Direkte bevis"},{"label":"Geometrisk bevis"}]},{"label":"Motbevis","children":[{"label":"Moteksempel"},{"label":"n² + n + 41"}]},{"label":"Logikk","children":[{"label":"Implikasjon ⇒"},{"label":"Ekvivalens ⇔"}]},{"label":"Algoritmisk tenkning","children":[{"label":"Dekomponering"},{"label":"Mønstre"},{"label":"Abstraksjon"},{"label":"Algoritme"}]},{"label":"Python","children":[{"label":"while og for"},{"label":"if og def"},{"label":"Doblingstid"},{"label":"Halveringsmetoden"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-1t:bevis-og-programmering';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-1t:bevis-og-programmering', 'Matematisk bevis', 'Logisk argumentasjon som viser at en påstand gjelder i alle tilfeller.', 0),
+  ('matematikk-1t:bevis-og-programmering', 'Moteksempel', 'Ett eksempel som viser at en påstand er usann.', 1),
+  ('matematikk-1t:bevis-og-programmering', 'Direkte bevis', 'Bevis som går fra kjente fakta til påstanden i logiske steg.', 2),
+  ('matematikk-1t:bevis-og-programmering', 'Partall', 'Tall som kan skrives 2m, der m er et helt tall.', 3),
+  ('matematikk-1t:bevis-og-programmering', 'Oddetall', 'Tall som kan skrives 2m + 1.', 4),
+  ('matematikk-1t:bevis-og-programmering', '∎', 'Symbol som markerer at et bevis er ferdig.', 5),
+  ('matematikk-1t:bevis-og-programmering', 'Implikasjon ⇒', '«Hvis A, så B.»', 6),
+  ('matematikk-1t:bevis-og-programmering', 'Ekvivalens ⇔', 'A og B følger av hverandre.', 7),
+  ('matematikk-1t:bevis-og-programmering', 'Algoritme', 'Trinnvis oppskrift som løser et problem.', 8),
+  ('matematikk-1t:bevis-og-programmering', 'Dekomponering', 'Å dele et problem i mindre deler.', 9),
+  ('matematikk-1t:bevis-og-programmering', 'Abstraksjon', 'Å se bort fra unødvendige detaljer.', 10),
+  ('matematikk-1t:bevis-og-programmering', 'while-løkke', 'Gjentar kode så lenge en betingelse er sann.', 11),
+  ('matematikk-1t:bevis-og-programmering', 'for-løkke', 'Gjentar kode et bestemt antall ganger.', 12),
+  ('matematikk-1t:bevis-og-programmering', 'Halveringsmetoden', 'Finner nullpunkt ved å halvere et intervall med fortegnsskifte.', 13),
+  ('matematikk-1t:bevis-og-programmering', 'def i Python', 'Lager en egen funksjon.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-1t:bevis-og-programmering';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-1t:bevis-og-programmering', 'q01', 'flervalg', 'Hvorfor er det ikke nok å teste mange eksempler for å bevise en påstand?', array['Fordi eksempler alltid er feil', 'Fordi det kan finnes et tilfelle vi ikke har testet', 'Fordi det tar for lang tid', 'Det er nok']::text[], 1, 'Et bevis må gjelde alle tilfeller.', true, true, 0),
+  ('matematikk-1t:bevis-og-programmering', 'q02', 'flervalg', 'Hva er et moteksempel?', array['Ett eksempel som viser at en påstand er usann', 'Et eksempel som støtter påstanden', 'Et bevis', 'En definisjon']::text[], 0, 'Ett moteksempel er nok til å motbevise en generell påstand.', true, true, 1),
+  ('matematikk-1t:bevis-og-programmering', 'q03', 'flervalg', 'Hvordan kan et partall skrives generelt?', array['2m + 1', 'm²', '2m', 'm + 2']::text[], 2, 'm er et helt tall.', true, true, 2),
+  ('matematikk-1t:bevis-og-programmering', 'q04', 'flervalg', 'Hvorfor er summen av tre påfølgende hele tall delelig med 3?', array['Fordi tallene alltid er odde', 'Fordi det stemmer for 1, 2, 3', 'Fordi summen alltid er 6', 'Fordi n + (n + 1) + (n + 2) = 3(n + 1)']::text[], 3, 'Summen har 3 som faktor.', true, true, 3),
+  ('matematikk-1t:bevis-og-programmering', 'q05', 'flervalg', 'Hva er et moteksempel til påstanden «alle primtall er odde»?', array['2', '3', '9', '15']::text[], 0, '2 er et primtall og et partall.', true, true, 4),
+  ('matematikk-1t:bevis-og-programmering', 'q06', 'flervalg', 'Hvilken påstand er en ekvivalens?', array['x = 2 ⇔ x² = 4', 'x + 3 = 5 ⇔ x = 2', 'x > 0 ⇔ x = 1', 'x² = 9 ⇔ x = 3']::text[], 1, 'De andre mangler løsninger eller er feil den ene veien.', true, true, 5),
+  ('matematikk-1t:bevis-og-programmering', 'q07', 'flervalg', 'Hva gjør en while-løkke i Python?', array['Kjører koden én gang', 'Lager en funksjon', 'Gjentar koden så lenge en betingelse er sann', 'Skriver ut tekst']::text[], 2, 'Den passer når vi ikke vet hvor mange ganger koden skal kjøres.', true, true, 6),
+  ('matematikk-1t:bevis-og-programmering', 'q08', 'flervalg', 'Hva er en algoritme?', array['Et dataprogram', 'Et bevis', 'En type likning', 'En trinnvis oppskrift som løser et problem']::text[], 3, 'Algoritmer kan følges av mennesker eller datamaskiner.', true, true, 7),
+  ('matematikk-1t:bevis-og-programmering', 'q09', 'flervalg', 'Hvor mange år tar det før 10 000 kr blir minst 20 000 kr med 5 % årlig rente?', array['15 år', '20 år', '10 år', '14 år']::text[], 0, '1,05¹⁴ ≈ 1,98 og 1,05¹⁵ ≈ 2,08.', true, false, 8),
+  ('matematikk-1t:bevis-og-programmering', 'q10', 'flervalg', 'Hva forutsetter halveringsmetoden?', array['At funksjonen er lineær', 'At f(a) og f(b) har ulike fortegn', 'At nullpunktet er et helt tall', 'At intervallet er lengre enn 10']::text[], 1, 'Da må grafen krysse x-aksen mellom a og b, når funksjonen er kontinuerlig.', true, false, 9),
+  ('matematikk-1t:bevis-og-programmering', 'm01', 'sant-usant', 'Summen av to partall er alltid et partall.', array['Sant', 'Usant']::text[], 0, '2m + 2n = 2(m + n).', false, true, 10),
+  ('matematikk-1t:bevis-og-programmering', 'm02', 'sant-usant', 'Hvis en påstand stemmer for de ti første tallene, er den bevist.', array['Sant', 'Usant']::text[], 1, 'Det kan finnes moteksempler senere.', false, true, 11),
+  ('matematikk-1t:bevis-og-programmering', 'm03', 'sant-usant', 'Et oddetall kan skrives 2m + 1.', array['Sant', 'Usant']::text[], 0, 'm er et helt tall.', false, true, 12),
+  ('matematikk-1t:bevis-og-programmering', 'm04', 'sant-usant', 'x² = 4 ⇒ x = 2 er en riktig implikasjon.', array['Sant', 'Usant']::text[], 1, 'x kan også være −2.', false, true, 13),
+  ('matematikk-1t:bevis-og-programmering', 'm05', 'flervalg', 'Hvilke verdier får i i for i in range(1, 4)?', array['1, 2, 3, 4', '1, 2, 3', '0, 1, 2, 3', '1 og 4']::text[], 1, 'Det siste tallet i range er ikke med.', false, true, 14),
+  ('matematikk-1t:bevis-og-programmering', 'm06', 'flervalg', 'Hva betyr dekomponering?', array['Å dele et problem i mindre deler', 'Å slette kode', 'Å gjette et svar', 'Å tegne en graf']::text[], 0, 'Mindre deler er lettere å løse hver for seg.', false, true, 15),
+  ('matematikk-1t:bevis-og-programmering', 'm07', 'flervalg', 'For hvilken n gir n² + n + 41 ikke et primtall?', array['n = 1', 'n = 10', 'n = 40', 'n = 5']::text[], 2, '40² + 40 + 41 = 1681 = 41².', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-1t:bevis-og-programmering', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk 1T: Modellering og matematikk i tekster
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-1t:modellering', 'matematikk-1t', 'modellering', 'Modellering og matematikk i tekster', 'Modellering med polynom- og eksponentialfunksjoner, regresjon, bruk av den deriverte til å finne maksimum og vekstfart, drøfting av gyldighet – og kritisk lesing av matematikk i tekster og grafer.', array[7, 8]::int[], 8, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-1t:modellering', '## Modeller i 1T
+
+En **matematisk modell** beskriver en situasjon med en funksjon. I 1T kan vi bruke **lineære**, **andregrads-**, **tredjegrads-**, **eksponential-** og **potensfunksjoner**, og vi kan bruke **den deriverte** til å analysere modellen.
+
+## Eksempel 1: kast
+
+En ball kastes rett opp. Høyden i meter etter t sekunder er
+
+h(t) = −4,9t² + 20t + 1,5
+
+- **1,5** er **starthøyden**.
+- h′(t) = −9,8t + 20 er **farten** oppover i m/s. h′(1) = 10,2 m/s.
+- Høyeste punkt: h′(t) = 0 gir t = 20/9,8 ≈ **2,04 s**, og h(2,04) ≈ **21,9 m**.
+- Modellen gjelder bare fra ballen kastes til den treffer bakken – det er **gyldighetsområdet**.
+
+## Eksempel 2: størst overskudd
+
+En bedrift regner med at overskuddet ved salg av x enheter er
+
+O(x) = −0,5x² + 60x − 1000
+
+O′(x) = −x + 60 = 0 gir **x = 60**, og O(60) = −1800 + 3600 − 1000 = **800**. Det største overskuddet er altså 800 kr ved salg av 60 enheter.
+
+## Regresjon
+
+Når vi har data, kan vi finne en modell med **regresjon** i GeoGebra:
+
+- **RegLin** – lineær
+- **RegPoly(liste, 2)** – andregrads (grad 2)
+- **RegEksp** – eksponentiell
+- **RegPot** – potensfunksjon
+
+Velg modelltype ut fra **formen på dataene** og det vi **vet om situasjonen**: Øker dataene med omtrent samme **prosent** per periode, passer en eksponentiell modell. Har de et **toppunkt**, kan en andregradsmodell passe. En modell med mange ledd kan passe perfekt til dataene, men likevel gi urimelige **prognoser**.
+
+## Drøfte og argumentere
+
+Når du presenterer en modell, bør du
+
+1. forklare **premissene** – hva har du antatt?
+2. vise **framgangsmåten** og **resultatene** med enheter
+3. vurdere **gyldighetsområdet** – for hvilke verdier gir modellen mening?
+4. drøfte **styrker og svakheter** – hva ser modellen bort fra?
+
+En andregradsmodell for salg over tid kan for eksempel gi **negative** tall langt fram i tid, noe som er umulig.
+
+## Matematikk i tekster
+
+Matematikk finnes i **nyhetssaker**, **rapporter** og **reklame**. Les kritisk:
+
+- Starter **y-aksen på null**? Hvis ikke, kan forskjeller se større ut enn de er.
+- Skiller teksten mellom **prosent** og **prosentpoeng**?
+- Er det brukt **gjennomsnitt** eller **median**, og hva betyr det for tolkningen?
+- Er utvalget **stort nok** og **representativt**?
+- Blandes **sammenheng** og **årsak**?
+
+Når du analyserer en tekst, bør du **hente ut** de relevante tallene, gjøre **egne beregninger** og **presentere** hva resultatene viser – og hva de ikke viser.', '{"label":"Modellering i 1T","children":[{"label":"Modeller","children":[{"label":"Polynom"},{"label":"Eksponential"},{"label":"Potens"}]},{"label":"Den deriverte","children":[{"label":"Vekstfart"},{"label":"Maksimum og minimum"}]},{"label":"Regresjon","children":[{"label":"RegLin"},{"label":"RegPoly"},{"label":"RegEksp og RegPot"}]},{"label":"Drøfting","children":[{"label":"Premisser"},{"label":"Gyldighetsområde"},{"label":"Styrker og svakheter"}]},{"label":"Tekster","children":[{"label":"Akser"},{"label":"Prosent og prosentpoeng"},{"label":"Sammenheng og årsak"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-1t:modellering';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-1t:modellering', 'h(t) = −4,9t² + 20t + 1,5', 'Høyden til en ball som kastes opp med starthøyde 1,5 m.', 0),
+  ('matematikk-1t:modellering', 'h′(t)', 'Farten i m/s når h er høyde i meter.', 1),
+  ('matematikk-1t:modellering', 'Maksimum med den deriverte', 'Løs f′(x) = 0 og sjekk fortegnet rundt punktet.', 2),
+  ('matematikk-1t:modellering', 'O(x) = −0,5x² + 60x − 1000', 'Størst overskudd, 800, ved x = 60.', 3),
+  ('matematikk-1t:modellering', 'RegPoly(liste, 2)', 'Andregradsregresjon i GeoGebra.', 4),
+  ('matematikk-1t:modellering', 'RegEksp', 'Eksponentiell regresjon i GeoGebra.', 5),
+  ('matematikk-1t:modellering', 'RegPot', 'Potensregresjon i GeoGebra.', 6),
+  ('matematikk-1t:modellering', 'Velge modelltype', 'Ut fra formen på dataene og kunnskap om situasjonen.', 7),
+  ('matematikk-1t:modellering', 'Gyldighetsområde', 'Verdiene der modellen gir mening.', 8),
+  ('matematikk-1t:modellering', 'Premiss', 'Antakelse modellen bygger på.', 9),
+  ('matematikk-1t:modellering', 'Prognose', 'Beregning av framtidig utvikling med en modell.', 10),
+  ('matematikk-1t:modellering', 'Y-akse som ikke starter på null', 'Kan få forskjeller til å se større ut.', 11),
+  ('matematikk-1t:modellering', 'Median', 'Den midterste verdien når dataene er sortert.', 12),
+  ('matematikk-1t:modellering', 'Sammenheng og årsak', 'At to ting henger sammen, betyr ikke at den ene forårsaker den andre.', 13),
+  ('matematikk-1t:modellering', 'Drøfte en modell', 'Vurdere premisser, gyldighet, styrker og svakheter.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-1t:modellering';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-1t:modellering', 'q01', 'flervalg', 'h(t) = −4,9t² + 20t + 1,5. Hva betyr tallet 1,5?', array['Farten', 'Starthøyden', 'Tyngdeakselerasjonen', 'Tiden']::text[], 1, 'h(0) = 1,5.', true, true, 0),
+  ('matematikk-1t:modellering', 'q02', 'flervalg', 'Når er ballen i h(t) = −4,9t² + 20t + 1,5 på sitt høyeste?', array['t ≈ 2,04 s', 't = 20 s', 't ≈ 4,1 s', 't = 1,5 s']::text[], 0, 'h′(t) = −9,8t + 20 = 0 gir t ≈ 2,04.', true, true, 1),
+  ('matematikk-1t:modellering', 'q03', 'flervalg', 'Hvilken GeoGebra-kommando gir andregradsregresjon?', array['RegLin(liste)', 'RegEksp(liste)', 'RegPoly(liste, 2)', 'Nullpunkt(liste)']::text[], 2, 'Tallet 2 angir graden.', true, true, 2),
+  ('matematikk-1t:modellering', 'q04', 'flervalg', 'O(x) = −0,5x² + 60x − 1000. For hvilken x er overskuddet størst?', array['x = 1000', 'x = 120', 'x = 30', 'x = 60']::text[], 3, 'O′(x) = −x + 60 = 0 gir x = 60.', true, true, 3),
+  ('matematikk-1t:modellering', 'q05', 'flervalg', 'Hva er det største overskuddet for O(x) = −0,5x² + 60x − 1000?', array['800', '3600', '1000', '2600']::text[], 0, 'O(60) = −1800 + 3600 − 1000 = 800.', true, true, 4),
+  ('matematikk-1t:modellering', 'q06', 'flervalg', 'Hva er gyldighetsområdet for modellen av ballkastet?', array['Alle t', 'Fra ballen kastes til den treffer bakken', 'Bare t = 0', 't < 0']::text[], 1, 'Utenfor dette gir modellen ingen mening.', true, true, 5),
+  ('matematikk-1t:modellering', 'q07', 'flervalg', 'En graf i en avis har y-akse som starter på 95 i stedet for 0. Hva er problemet?', array['Grafen blir lettere å lese', 'Ingenting', 'Forskjellene ser større ut enn de er', 'Tallene blir feil']::text[], 2, 'Små forskjeller kan se dramatiske ut.', true, true, 6),
+  ('matematikk-1t:modellering', 'q08', 'flervalg', 'Hvordan bør du velge modelltype?', array['Alltid lineær', 'Den med flest ledd', 'Tilfeldig', 'Ut fra formen på dataene og kunnskap om situasjonen']::text[], 3, 'En god modell passer både data og teori.', true, true, 7),
+  ('matematikk-1t:modellering', 'q09', 'flervalg', 'Hva betyr det å drøfte en modell?', array['Å vurdere premisser, gyldighet, styrker og svakheter', 'Å tegne grafen', 'Å regne ut ett svar', 'Å skrive formelen på nytt']::text[], 0, 'Drøftingen viser hvor mye vi kan stole på modellen.', true, false, 8),
+  ('matematikk-1t:modellering', 'q10', 'flervalg', 'Hvorfor kan en andregradsmodell for salg gi urimelige svar langt fram i tid?', array['Fordi andregradsfunksjoner alltid er feil', 'Fordi modellen kan gi negative eller urealistiske verdier utenfor dataområdet', 'Fordi GeoGebra regner feil', 'Fordi salg alltid er konstant']::text[], 1, 'Modellen gjelder bare innenfor gyldighetsområdet.', true, false, 9),
+  ('matematikk-1t:modellering', 'm01', 'sant-usant', 'En modell kan passe godt til data og likevel gi dårlige prognoser.', array['Sant', 'Usant']::text[], 0, 'Utenfor dataområdet kan modellen oppføre seg urimelig.', false, true, 10),
+  ('matematikk-1t:modellering', 'm02', 'sant-usant', 'Den deriverte kan ikke brukes i modellering.', array['Sant', 'Usant']::text[], 1, 'Den deriverte gir vekstfart og hjelper oss å finne maksimum og minimum.', false, true, 11),
+  ('matematikk-1t:modellering', 'm03', 'sant-usant', 'Man bør oppgi enheter når man presenterer resultatene av en modell.', array['Sant', 'Usant']::text[], 0, 'Uten enheter er resultatene vanskelige å tolke.', false, true, 12),
+  ('matematikk-1t:modellering', 'm04', 'sant-usant', 'Regresjon gir alltid en perfekt modell.', array['Sant', 'Usant']::text[], 1, 'Regresjon gir den beste funksjonen av en valgt type, men den kan passe dårlig.', false, true, 13),
+  ('matematikk-1t:modellering', 'm05', 'flervalg', 'Hvilken regresjon passer når dataene dobles med jevne mellomrom?', array['Lineær', 'Eksponentiell', 'Andregrads', 'Ingen']::text[], 1, 'Fast prosentvis vekst er eksponentiell.', false, true, 14),
+  ('matematikk-1t:modellering', 'm06', 'flervalg', 'Hva forteller h′(1) når h(t) er høyden til en ball i meter?', array['Farten oppover etter 1 s', 'Høyden etter 1 s', 'Tiden ballen er i lufta', 'Starthøyden']::text[], 0, 'Den deriverte av høyden er farten.', false, true, 15),
+  ('matematikk-1t:modellering', 'm07', 'flervalg', 'Hva bør en presentasjon av en modell inneholde?', array['Bare svaret', 'Bare grafen', 'Premisser, modell, resultater og vurdering', 'Bare formelen']::text[], 2, 'Da kan andre vurdere hvor god modellen er.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-1t:modellering', 15)
 on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Kjemi 1 (vg2): rydd bort fjernede temaer
