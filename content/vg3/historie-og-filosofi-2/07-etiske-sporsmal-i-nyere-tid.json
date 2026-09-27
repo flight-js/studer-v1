@@ -1,0 +1,77 @@
+{
+  "id": "etiske-sporsmal-i-nyere-tid",
+  "fagId": "historie-og-filosofi-2",
+  "trinnId": "vg3",
+  "name": "Etiske og eksistensielle spørsmål i nyere tid",
+  "intro": "Temaer fra nyere tid som illustrerer etiske og eksistensielle spørsmål – holocaust og Arendts «ondskapens banalitet», Milgrams lydighetsforsøk, atombomben, 22. juli, pandemien, klimakrisen, kunstig intelligens og debatten om aktiv dødshjelp.",
+  "kompetansemaal": [8],
+  "sammendrag": "## Holocaust og ondskapens banalitet\n\nFilosofen **Hannah Arendt** fulgte rettssaken mot nazisten **Adolf Eichmann** i Jerusalem i **1961**. Eichmann hadde organisert transporten av millioner av jøder til dødsleirene. Arendt ble overrasket over at han virket som en **vanlig byråkrat** som **fulgte ordre** og var opptatt av **karrieren**. Hun kalte det «**ondskapens banalitet**»: Store forbrytelser kan begås av mennesker som **ikke tenker selv**.\n\nSpørsmål: Hvilket **ansvar** har den som bare **følger ordre**? Hva betyr det å **tenke selv**?\n\n## Milgrams lydighetsforsøk\n\nPsykologen **Stanley Milgram** gjennomførte i **1961** et forsøk der deltakerne ble bedt om å gi «**elektriske støt**» til en annen person. Støtene var **falske**, men deltakerne trodde de var ekte. Mange fortsatte helt til det høyeste nivået fordi en **autoritet** ba dem om det. Forsøket viser hvor sterk **lydighet** kan være – og reiser også spørsmål om **forskningsetikk**.\n\n## Atombomben\n\nI **august 1945** slapp USA atombomber over **Hiroshima** og **Nagasaki**. Hundretusenvis døde. Forskerne bak bomben, blant dem **Robert Oppenheimer**, fikk senere **samvittighetskvaler**. Atombomben reiste spørsmål om **vitenskapens ansvar**, om **målet helliger midlene**, og om menneskeheten kunne **utslette** seg selv.\n\n## 22. juli 2011\n\nTerrorangrepet i **Regjeringskvartalet** og på **Utøya** drepte **77** mennesker. I etterkant ble det diskutert hvordan et **åpent** og **demokratisk** samfunn skal møte **ekstremisme**, og hvordan vi kan **sørge**, **minnes** og **forsone** oss uten å gi etter for hat. Mange la vekt på «**mer demokrati, mer åpenhet**».\n\n## Pandemien\n\nUnder **covid-19-pandemien** fra **2020** innførte myndighetene strenge **tiltak**: stengte skoler, begrensninger på besøk og reiser. Etiske spørsmål var:\n\n- Hvor mye kan **individets frihet** begrenses for å beskytte **fellesskapet**?\n- Hvordan skal knappe ressurser, som intensivplasser og vaksiner, **prioriteres**?\n- Hvordan påvirket isolasjonen **unge** og **eldre**?\n\n## Klimakrisen\n\n**Klimaendringene** reiser spørsmål om **ansvar** overfor **framtidige generasjoner** og **fattige land**, som har bidratt minst til utslippene, men rammes hardt. Mange unge opplever **klimaangst**. Eksistensielt stiller krisen spørsmål om hvordan vi skal **leve** – og hva vi må **gi opp**.\n\n## Kunstig intelligens\n\n**KI** endrer arbeid, læring og kommunikasjon. Etiske spørsmål er **ansvar** for feil, **personvern**, **manipulasjon**, **skjevheter** i data og om maskiner kan erstatte **menneskelige** relasjoner og vurderinger.\n\n## Aktiv dødshjelp\n\n**Aktiv dødshjelp** er **forbudt** i Norge, men tillatt under visse vilkår i blant annet **Nederland** og **Belgia**. Tilhengere viser til **autonomi** og retten til å slippe **lidelse**. Motstandere frykter **press** mot sårbare grupper og at **menneskeverdet** kan svekkes.\n\n## Drøfting\n\nDisse temaene viser at etiske og eksistensielle spørsmål ikke bare er **teori**. De handler om **valg** mennesker og samfunn faktisk står overfor – og om hvordan vi forstår **ansvar**, **frihet**, **fellesskap** og **menneskeverd**.",
+  "flashcards": [
+    { "term": "Hannah Arendt", "def": "Filosof som fulgte Eichmann-rettssaken i 1961." },
+    { "term": "Ondskapens banalitet", "def": "At store forbrytelser kan begås av vanlige mennesker som ikke tenker selv." },
+    { "term": "Adolf Eichmann", "def": "Nazist som organiserte transporten av jøder til dødsleirene." },
+    { "term": "Stanley Milgram", "def": "Psykolog som undersøkte lydighet mot autoriteter i 1961." },
+    { "term": "Lydighet", "def": "Å følge ordre fra en autoritet." },
+    { "term": "Hiroshima og Nagasaki", "def": "Byene som ble rammet av atombomber i august 1945." },
+    { "term": "Robert Oppenheimer", "def": "Fysiker som ledet arbeidet med atombomben." },
+    { "term": "Vitenskapens ansvar", "def": "Spørsmålet om forskeres ansvar for hvordan kunnskap brukes." },
+    { "term": "22. juli 2011", "def": "Terrorangrepet i Regjeringskvartalet og på Utøya." },
+    { "term": "Prioritering", "def": "Å fordele knappe ressurser, som intensivplasser." },
+    { "term": "Generasjonsrettferdighet", "def": "Ansvar overfor framtidige generasjoner." },
+    { "term": "Klimaangst", "def": "Bekymring og uro knyttet til klimaendringene." },
+    { "term": "Skjevheter i data", "def": "At KI kan gjenta diskriminering som finnes i dataene." },
+    { "term": "Aktiv dødshjelp", "def": "Å bevisst avslutte livet til en person etter ønske – forbudt i Norge." },
+    { "term": "Målet helliger midlene", "def": "Ideen om at et godt mål rettferdiggjør alle virkemidler." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva mente Arendt med ondskapens banalitet?", "options": ["At ondskap er sjelden", "At store forbrytelser kan begås av vanlige mennesker som ikke tenker selv", "At bare monstre gjør ondt", "At ondskap er morsom"], "correct": 1, "explain": "Etter Eichmann-rettssaken." },
+    { "id": "q02", "text": "Hva viste Milgrams forsøk?", "options": ["Hvor sterk lydighet mot autoriteter kan være", "At ingen følger ordre", "At elektrisitet er farlig", "At alle er onde"], "correct": 0, "explain": "Reiser også spørsmål om forskningsetikk." },
+    { "id": "q03", "text": "Hvilket spørsmål reiste atombomben?", "options": ["Hvor mye strøm vi bruker", "Hvem som vinner valg", "Vitenskapens ansvar og om menneskeheten kan utslette seg selv", "Hvordan byer planlegges"], "correct": 2, "explain": "Forskerne fikk samvittighetskvaler." },
+    { "id": "q04", "text": "Hvilket etisk spørsmål reiste pandemien?", "options": ["Om skoler trenger bøker", "Om biler er raske", "Om mat er dyrt", "Hvor mye individets frihet kan begrenses for fellesskapet"], "correct": 3, "explain": "Også prioritering av ressurser." },
+    { "id": "q05", "text": "Hva er status for aktiv dødshjelp i Norge?", "options": ["Den er forbudt", "Den er tillatt for alle", "Den er tillatt for barn", "Den er påbudt"], "correct": 0, "explain": "Tillatt under vilkår i blant annet Nederland og Belgia." },
+    { "id": "q06", "text": "Hva er et argument for aktiv dødshjelp?", "options": ["Press mot sårbare grupper", "Autonomi og retten til å slippe lidelse", "At menneskeverdet svekkes", "At leger alltid vet best"], "correct": 1, "explain": "Motstandere frykter press mot sårbare." },
+    { "id": "q07", "text": "Hvorfor reiser klimakrisen spørsmål om rettferdighet?", "options": ["Fordi alle bidrar like mye", "Fordi klimaet er stabilt", "Fordi fattige land og framtidige generasjoner rammes hardt, men har bidratt minst", "Fordi det ikke finnes utslipp"], "correct": 2, "explain": "Generasjonsrettferdighet og global rettferdighet." },
+    { "id": "q08", "text": "Hvor mange ble drept i terrorangrepet 22. juli 2011?", "options": ["7", "770", "17", "77"], "correct": 3, "explain": "I Regjeringskvartalet og på Utøya." },
+    { "id": "q09", "text": "Hva er skjevheter i data knyttet til KI?", "options": ["At KI kan gjenta diskriminering som finnes i dataene", "At KI er for rask", "At KI er gratis", "At KI ikke bruker data"], "correct": 0, "explain": "Et etisk problem." },
+    { "id": "q10", "text": "Hva organiserte Eichmann?", "options": ["Motstandsbevegelsen", "Transporten av jøder til dødsleirene", "Atombomben", "FN"], "correct": 1, "explain": "Han ble dømt i Jerusalem." }
+  ],
+  "mindmap": {
+    "label": "Etiske spørsmål i nyere tid",
+    "children": [
+      { "label": "Lydighet og ondskap", "children": [
+        { "label": "Arendt og Eichmann" },
+        { "label": "Milgram" }
+      ] },
+      { "label": "Krig og terror", "children": [
+        { "label": "Atombomben" },
+        { "label": "22. juli" }
+      ] },
+      { "label": "Fellesskap og frihet", "children": [
+        { "label": "Pandemien" },
+        { "label": "Prioritering" }
+      ] },
+      { "label": "Framtid", "children": [
+        { "label": "Klimakrisen" },
+        { "label": "Kunstig intelligens" }
+      ] },
+      { "label": "Liv og død", "children": [
+        { "label": "Aktiv dødshjelp" },
+        { "label": "Autonomi og menneskeverd" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Støtene i Milgrams forsøk var falske.", "correct": true, "explain": "Men deltakerne trodde de var ekte." },
+      { "id": "m02", "type": "sant-usant", "text": "Arendt mente Eichmann var et sadistisk monster.", "correct": false, "explain": "Hun så en vanlig byråkrat som fulgte ordre." },
+      { "id": "m03", "type": "sant-usant", "text": "Etter 22. juli la mange vekt på mer demokrati og åpenhet.", "correct": true, "explain": "Et svar på ekstremisme." },
+      { "id": "m04", "type": "sant-usant", "text": "Etiske spørsmål handler bare om teori og ikke om faktiske valg.", "correct": false, "explain": "De handler om valg vi faktisk står overfor." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilke byer ble rammet av atombomber i 1945?", "options": ["Tokyo og Osaka", "Hiroshima og Nagasaki", "Berlin og Dresden", "Seoul og Beijing"], "correct": 1, "explain": "Hundretusenvis døde." },
+      { "id": "m06", "type": "flervalg", "text": "Hva frykter motstandere av aktiv dødshjelp?", "options": ["Press mot sårbare grupper", "For lite autonomi", "For mye lidelse", "For få leger"], "correct": 0, "explain": "Og at menneskeverdet svekkes." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilken gruppe ble særlig påvirket av isolasjon under pandemien?", "options": ["Bare politikere", "Ingen", "Unge og eldre", "Bare forskere"], "correct": 2, "explain": "Et etisk spørsmål om tiltakenes kostnader." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

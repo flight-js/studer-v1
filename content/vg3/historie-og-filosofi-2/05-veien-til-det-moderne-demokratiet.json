@@ -1,0 +1,82 @@
+{
+  "id": "veien-til-det-moderne-demokratiet",
+  "fagId": "historie-og-filosofi-2",
+  "trinnId": "vg3",
+  "name": "Veien til det moderne demokratiet – og hindrene",
+  "intro": "Historiske prosesser og filosofiske ideer som ledet fram mot det moderne demokratiet – fra Magna Carta og opplysningsfilosofene til Mill, Tocqueville og menneskerettighetene – og hvordan vanetenkning, maktstrukturer og andre hindre har stått, og står, i veien for demokrati og menneskerettigheter.",
+  "kompetansemaal": [6],
+  "sammendrag": "## Røtter\n\n- I **Athen** på 400-tallet før vår tid fikk frie menn delta direkte i folkeforsamlingen. Kvinner, slaver og innflyttere var utelukket.\n- **Magna Carta** fra **1215** begrenset den engelske kongens makt og ga adelen visse **rettigheter**.\n- Etter den **Ærerike revolusjonen** i England i **1688** fikk parlamentet større makt gjennom **Bill of Rights** (1689).\n\n## Filosofiske ideer\n\n- **John Locke**: Mennesker har **naturlige rettigheter** til liv, frihet og eiendom, og makten bygger på folkets **samtykke**. Et folk kan **gjøre opprør** mot en tyrann.\n- **Montesquieu**: **Maktfordeling** mellom lovgivende, utøvende og dømmende makt hindrer **maktmisbruk**.\n- **Rousseau**: **Folkesuverenitet** – makten tilhører **folket**, og lovene skal uttrykke **allmennviljen**.\n- **Mary Wollstonecraft** krevde i **1792** at kvinner skulle få samme **rettigheter** og **utdanning** som menn.\n- **Alexis de Tocqueville** studerte demokratiet i **USA** og advarte mot **flertallets tyranni** – at flertallet kan undertrykke minoriteter.\n- **John Stuart Mill** skrev **Om friheten** (1859): Staten kan bare begrense individets frihet for å hindre **skade på andre**. Han forsvarte **ytringsfrihet** og kvinners rettigheter.\n\n## Historiske prosesser\n\n- **Den amerikanske** og **den franske revolusjonen** på slutten av 1700-tallet\n- **Grunnloven** av **1814** i Norge\n- **Utvidelse av stemmeretten** til alle menn og deretter til **kvinner** på 1800- og 1900-tallet\n- **Arbeiderbevegelsen** og **kvinnebevegelsen**\n- **FNs verdenserklæring om menneskerettighetene** i **1948**\n- **Avkolonisering** og kampen mot **apartheid**\n- **Berlinmurens fall** i **1989**\n\n## Hindre\n\n**Vanetenkning** – forestillinger som tas for gitt:\n\n- at kvinner «av natur» var uegnet til politikk\n- at noen **raser** eller **folk** var mindreverdige\n- at bare de med **eiendom** eller **utdanning** burde stemme\n\n**Maktstrukturer**:\n\n- **Klasse**: Adel, embetsmenn og rike ville beholde privilegiene sine.\n- **Patriarkat**: Menn hadde makt over kvinner i familie, arbeidsliv og politikk.\n- **Kolonialisme** og **rasisme**: Idealer om frihet og likhet gjaldt ikke for de koloniserte og for slaver.\n- **Religiøse** og **tradisjonelle** autoriteter som motsatte seg endring\n\n## Hindre i dag\n\n- **Autoritære** regimer og **demokratisk tilbakegang** i flere land, der frie medier, domstoler og opposisjon svekkes\n- **Desinformasjon** og **polarisering**\n- **Lav tillit** og lav **deltakelse** i noen grupper\n- **Diskriminering** av minoriteter\n- Store **økonomiske forskjeller**, som gir noen mer innflytelse enn andre\n\n## Refleksjon\n\nDemokrati og menneskerettigheter kom ikke av seg selv. De ble **kjempet** fram – ofte mot sterk motstand. Historien viser også at demokratiet kan **svekkes** hvis det ikke **forsvares**. Hvilke **vaner** og **strukturer** i vår egen tid kan det være vi ikke ser?",
+  "flashcards": [
+    { "term": "Magna Carta", "def": "Dokument fra 1215 som begrenset den engelske kongens makt." },
+    { "term": "Bill of Rights", "def": "Engelsk lov fra 1689 som styrket parlamentet." },
+    { "term": "Naturlige rettigheter", "def": "Lockes idé om rett til liv, frihet og eiendom." },
+    { "term": "Samtykke", "def": "Lockes idé om at makten bygger på folkets samtykke." },
+    { "term": "Maktfordeling", "def": "Montesquieus deling av makten i tre." },
+    { "term": "Folkesuverenitet", "def": "Makten tilhører folket." },
+    { "term": "Allmennviljen", "def": "Rousseaus idé om folkets felles vilje." },
+    { "term": "Mary Wollstonecraft", "def": "Krevde i 1792 like rettigheter for kvinner." },
+    { "term": "Flertallets tyranni", "def": "Tocquevilles advarsel om at flertallet kan undertrykke minoriteter." },
+    { "term": "Om friheten", "def": "Mills bok fra 1859 om individets frihet." },
+    { "term": "Skadeprinsippet", "def": "Friheten kan bare begrenses for å hindre skade på andre." },
+    { "term": "Vanetenkning", "def": "Forestillinger som tas for gitt uten å bli undersøkt." },
+    { "term": "Patriarkat", "def": "Samfunnsordning der menn har makt over kvinner." },
+    { "term": "Demokratisk tilbakegang", "def": "At demokratiske institusjoner svekkes." },
+    { "term": "Verdenserklæringen", "def": "FNs erklæring om menneskerettighetene fra 1948." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva gjorde Magna Carta i 1215?", "options": ["Innførte demokrati", "Begrenset den engelske kongens makt", "Ga kvinner stemmerett", "Avskaffet adelen"], "correct": 1, "explain": "Ga adelen visse rettigheter." },
+    { "id": "q02", "text": "Hva mente Locke makten bygger på?", "options": ["Folkets samtykke", "Guds vilje", "Kongens arv", "Militær styrke"], "correct": 0, "explain": "Folket kan gjøre opprør mot en tyrann." },
+    { "id": "q03", "text": "Hva advarte Tocqueville mot?", "options": ["Kongemakt", "Maktfordeling", "Flertallets tyranni", "Kvinners stemmerett"], "correct": 2, "explain": "At flertallet kan undertrykke minoriteter." },
+    { "id": "q04", "text": "Hva er skadeprinsippet hos Mill?", "options": ["At staten kan begrense alt", "At friheten er uten grenser", "At bare kongen kan bestemme", "At friheten bare kan begrenses for å hindre skade på andre"], "correct": 3, "explain": "Fra Om friheten, 1859." },
+    { "id": "q05", "text": "Hva krevde Mary Wollstonecraft?", "options": ["Like rettigheter og utdanning for kvinner", "Kongelig enevelde", "Slaveri", "Mindre utdanning"], "correct": 0, "explain": "I 1792." },
+    { "id": "q06", "text": "Hva er et eksempel på vanetenkning som hindret demokratiet?", "options": ["At alle har like rettigheter", "At kvinner «av natur» var uegnet til politikk", "At makten skal fordeles", "At folket bestemmer"], "correct": 1, "explain": "Forestillinger som ble tatt for gitt." },
+    { "id": "q07", "text": "Hvordan hindret kolonialismen menneskerettighetene?", "options": ["Den ga alle rettigheter", "Den hadde ingen betydning", "Idealer om frihet og likhet gjaldt ikke for de koloniserte", "Den innførte demokrati overalt"], "correct": 2, "explain": "Rasisme ble brukt som begrunnelse." },
+    { "id": "q08", "text": "Hva er demokratisk tilbakegang?", "options": ["At flere land blir demokratier", "At stemmeretten utvides", "At valgdeltakelsen øker", "At frie medier, domstoler og opposisjon svekkes"], "correct": 3, "explain": "Skjer i flere land i dag." },
+    { "id": "q09", "text": "Hva er folkesuverenitet?", "options": ["At makten tilhører folket", "At kongen har all makt", "At kirken styrer", "At adelen bestemmer"], "correct": 0, "explain": "Sentralt hos Rousseau." },
+    { "id": "q10", "text": "Når kom FNs verdenserklæring om menneskerettighetene?", "options": ["1814", "1948", "1989", "1215"], "correct": 1, "explain": "Etter andre verdenskrig." }
+  ],
+  "mindmap": {
+    "label": "Veien til demokratiet",
+    "children": [
+      { "label": "Røtter", "children": [
+        { "label": "Athen" },
+        { "label": "Magna Carta" },
+        { "label": "Bill of Rights" }
+      ] },
+      { "label": "Ideer", "children": [
+        { "label": "Locke og Montesquieu" },
+        { "label": "Rousseau og Wollstonecraft" },
+        { "label": "Tocqueville og Mill" }
+      ] },
+      { "label": "Prosesser", "children": [
+        { "label": "Revolusjoner" },
+        { "label": "Stemmerett" },
+        { "label": "Menneskerettigheter 1948" }
+      ] },
+      { "label": "Hindre før", "children": [
+        { "label": "Vanetenkning" },
+        { "label": "Klasse og patriarkat" },
+        { "label": "Kolonialisme og rasisme" }
+      ] },
+      { "label": "Hindre i dag", "children": [
+        { "label": "Autoritære regimer" },
+        { "label": "Desinformasjon" },
+        { "label": "Ulikhet" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "I Athen var kvinner og slaver utelukket fra folkeforsamlingen.", "correct": true, "explain": "Bare frie menn deltok." },
+      { "id": "m02", "type": "sant-usant", "text": "Demokratiet kom av seg selv uten motstand.", "correct": false, "explain": "Det ble kjempet fram." },
+      { "id": "m03", "type": "sant-usant", "text": "Mill forsvarte både ytringsfrihet og kvinners rettigheter.", "correct": true, "explain": "En viktig liberal tenker." },
+      { "id": "m04", "type": "sant-usant", "text": "Demokratiet kan ikke svekkes når det først er etablert.", "correct": false, "explain": "Det må forsvares." },
+      { "id": "m05", "type": "flervalg", "text": "Hvem foreslo maktfordeling?", "options": ["Locke", "Montesquieu", "Mill", "Tocqueville"], "correct": 1, "explain": "Lovgivende, utøvende og dømmende makt." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilken maktstruktur ga menn makt over kvinner?", "options": ["Patriarkatet", "Parlamentarismen", "Folkesuvereniteten", "Maktfordelingen"], "correct": 0, "explain": "I familie, arbeidsliv og politikk." },
+      { "id": "m07", "type": "flervalg", "text": "Hva kan store økonomiske forskjeller gjøre med demokratiet?", "options": ["Styrke likheten", "Fjerne all innflytelse", "Gi noen mer innflytelse enn andre", "Ingen ting"], "correct": 2, "explain": "Et hinder i dag." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

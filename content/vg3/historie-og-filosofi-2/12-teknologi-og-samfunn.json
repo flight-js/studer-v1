@@ -1,0 +1,80 @@
+{
+  "id": "teknologi-og-samfunn",
+  "fagId": "historie-og-filosofi-2",
+  "trinnId": "vg3",
+  "name": "Teknologiens rolle i samfunnet",
+  "intro": "Hvordan teknologi og samfunn påvirker hverandre – teknologideterminisme og sosial forming av teknologi, teknologioptimisme og -pessimisme – og en drøfting av om teknologien bidrar til menneskers livsutfoldelse og et bærekraftig samfunn, med eksempler fra industri, internett, kunstig intelligens og energi.",
+  "kompetansemaal": [14],
+  "sammendrag": "## Hva er teknologi?\n\n**Teknologi** er mer enn maskiner og dataprogrammer. Det er alle **redskaper**, **metoder** og **systemer** mennesker lager for å løse problemer – fra **plogen** og **trykkpressen** til **dampmaskinen**, **internett** og **kunstig intelligens**.\n\n## Styrer teknologien samfunnet – eller omvendt?\n\n- **Teknologideterminisme**: Teknologien **driver** utviklingen, og samfunnet må **tilpasse** seg. Eksempel: Trykkpressen gjorde reformasjonen mulig, og smarttelefonen har endret hvordan vi lever.\n- **Sosial forming av teknologi**: Mennesker, **interesser**, **politikk** og **økonomi** bestemmer hvilken teknologi som utvikles og hvordan den **brukes**. Den samme teknologien kan brukes til **svært ulike** formål.\n\nDe fleste forskere mener det er et **samspill**: Teknologi **former** samfunnet, og samfunnet **former** teknologien.\n\n## Optimisme og pessimisme\n\n**Teknologioptimister** mener at teknologi vil løse de store problemene – sykdom, fattigdom og klimaendringer. Historien har mange eksempler: **Vaksiner**, **antibiotika** og **grønn revolusjon** i jordbruket har reddet millioner av liv.\n\n**Teknologipessimister** peker på at teknologi også har gitt **atomvåpen**, **overvåking**, **forurensning** og **avhengighet**. De mener vi må spørre hva teknologien gjør med **mennesket** og **samfunnet** – ikke bare hva den **kan**.\n\n## Livsutfoldelse\n\nTeknologi kan gi **mer frihet** og **flere muligheter**:\n\n- **medisin** som gir lengre og friskere liv\n- **kommunikasjon** som knytter folk sammen over hele verden\n- **tilgang** til kunnskap og kultur\n- **hjelpemidler** for personer med funksjonsnedsettelser\n- **automatisering** som fjerner tungt og farlig arbeid\n\nMen teknologi kan også **begrense** livsutfoldelsen:\n\n- **skjermavhengighet** og **distraksjon**\n- **tap** av jobber og **ulikhet** mellom dem som eier og dem som bruker teknologien\n- **overvåking** og tap av **personvern**\n- **digitalt utenforskap** for dem som ikke henger med\n\n## Bærekraft\n\n- **Fornybar energi**, **elbiler** og **energieffektivisering** kan redusere utslippene.\n- Men all teknologi krever **ressurser**. Batterier og elektronikk trenger **mineraler** som utvinnes med store **miljøkostnader**, ofte under dårlige **arbeidsforhold**.\n- **Tilbakeslagseffekten**: Når noe blir mer effektivt og billigere, bruker vi ofte **mer** av det.\n- **Elektronisk avfall** er et voksende problem.\n\n## Kunstig intelligens som eksempel\n\n**KI** kan brukes til å finne nye **medisiner**, oversette språk og effektivisere arbeid. Samtidig reiser den spørsmål om **ansvar**, **skjevheter**, **desinformasjon**, **jobber** og **energibruk** i store datasentre. Hvordan KI **reguleres** og **brukes**, avgjør om den bidrar til livsutfoldelse og bærekraft.\n\n## Drøfting\n\nNår du vurderer en teknologi, kan du spørre:\n\n- **Hvem** tjener og **hvem** taper?\n- Gir den mennesker **mer** eller **mindre** kontroll over eget liv?\n- Hva er de **langsiktige** konsekvensene for **natur** og **samfunn**?\n- Kan vi **velge** hvordan den skal brukes – og hvem bestemmer?",
+  "flashcards": [
+    { "term": "Teknologi", "def": "Redskaper, metoder og systemer mennesker lager for å løse problemer." },
+    { "term": "Teknologideterminisme", "def": "Synet at teknologien driver samfunnsutviklingen." },
+    { "term": "Sosial forming av teknologi", "def": "Synet at samfunnet bestemmer hvordan teknologi utvikles og brukes." },
+    { "term": "Teknologioptimisme", "def": "Troen på at teknologi vil løse de store problemene." },
+    { "term": "Teknologipessimisme", "def": "Vekt på teknologiens skadelige følger." },
+    { "term": "Grønn revolusjon", "def": "Ny teknologi i jordbruket som økte matproduksjonen kraftig." },
+    { "term": "Livsutfoldelse", "def": "Menneskers mulighet til å utvikle seg og leve fullt ut." },
+    { "term": "Digitalt utenforskap", "def": "At noen ikke har tilgang til eller ferdigheter i digital teknologi." },
+    { "term": "Automatisering", "def": "At maskiner overtar arbeid mennesker gjorde." },
+    { "term": "Tilbakeslagseffekt", "def": "Effektivisering fører til at vi bruker mer." },
+    { "term": "Elektronisk avfall", "def": "Kasserte elektroniske produkter – et voksende miljøproblem." },
+    { "term": "Kritiske mineraler", "def": "Råvarer som trengs til batterier og elektronikk." },
+    { "term": "Skjevheter i KI", "def": "At KI gjentar diskriminering fra dataene den er trent på." },
+    { "term": "Regulering av teknologi", "def": "Lover og regler for hvordan teknologi kan brukes." },
+    { "term": "Samspill", "def": "Teknologi former samfunnet, og samfunnet former teknologien." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er teknologideterminisme?", "options": ["At samfunnet bestemmer teknologien", "At teknologien driver samfunnsutviklingen", "At teknologi er farlig", "At teknologi ikke finnes"], "correct": 1, "explain": "Samfunnet må tilpasse seg." },
+    { "id": "q02", "text": "Hva mener de fleste forskere om forholdet mellom teknologi og samfunn?", "options": ["At det er et samspill", "At teknologien alltid styrer", "At samfunnet alltid styrer", "At de ikke påvirker hverandre"], "correct": 0, "explain": "De former hverandre." },
+    { "id": "q03", "text": "Hva er et eksempel teknologioptimister trekker fram?", "options": ["Atomvåpen", "Overvåking", "Vaksiner og antibiotika", "Forurensning"], "correct": 2, "explain": "Har reddet millioner av liv." },
+    { "id": "q04", "text": "Hva er digitalt utenforskap?", "options": ["At man bruker for mye nett", "At man jobber hjemme", "At man er ekspert på data", "At noen mangler tilgang til eller ferdigheter i digital teknologi"], "correct": 3, "explain": "Kan begrense livsutfoldelsen." },
+    { "id": "q05", "text": "Hvorfor er ikke all grønn teknologi uten miljøkostnader?", "options": ["Fordi batterier og elektronikk krever mineraler som utvinnes med miljøkostnader", "Fordi den ikke virker", "Fordi den er gratis", "Fordi den bruker kull"], "correct": 0, "explain": "Ofte under dårlige arbeidsforhold." },
+    { "id": "q06", "text": "Hva er tilbakeslagseffekten?", "options": ["At teknologi blir dårligere", "At effektivisering fører til at vi bruker mer", "At prisene stiger", "At utslippene forsvinner"], "correct": 1, "explain": "Miljøgevinsten blir mindre." },
+    { "id": "q07", "text": "Hvordan kan teknologi fremme livsutfoldelse?", "options": ["Gjennom overvåking", "Gjennom skjermavhengighet", "Gjennom medisin, kommunikasjon og hjelpemidler", "Gjennom jobbtap"], "correct": 2, "explain": "Gir mer frihet og flere muligheter." },
+    { "id": "q08", "text": "Hvilket spørsmål er viktig når du vurderer en teknologi?", "options": ["Hvor ny den er", "Hvor dyr den er", "Hvor mange som liker den", "Hvem som tjener og hvem som taper"], "correct": 3, "explain": "Og langsiktige konsekvenser." },
+    { "id": "q09", "text": "Hva er sosial forming av teknologi?", "options": ["At interesser, politikk og økonomi bestemmer hvordan teknologi utvikles og brukes", "At teknologi former alt", "At teknologi er nøytral", "At teknologi er natur"], "correct": 0, "explain": "Samme teknologi kan brukes ulikt." },
+    { "id": "q10", "text": "Hvilket problem kan KI skape for bærekraft?", "options": ["Mindre energibruk", "Høy energibruk i store datasentre", "Færre data", "Mindre elektronikk"], "correct": 1, "explain": "Også spørsmål om ansvar og jobber." }
+  ],
+  "mindmap": {
+    "label": "Teknologi og samfunn",
+    "children": [
+      { "label": "Forhold", "children": [
+        { "label": "Determinisme" },
+        { "label": "Sosial forming" },
+        { "label": "Samspill" }
+      ] },
+      { "label": "Holdninger", "children": [
+        { "label": "Optimisme" },
+        { "label": "Pessimisme" }
+      ] },
+      { "label": "Livsutfoldelse", "children": [
+        { "label": "Medisin og kommunikasjon" },
+        { "label": "Avhengighet og overvåking" },
+        { "label": "Digitalt utenforskap" }
+      ] },
+      { "label": "Bærekraft", "children": [
+        { "label": "Fornybar energi" },
+        { "label": "Mineraler og avfall" },
+        { "label": "Tilbakeslagseffekt" }
+      ] },
+      { "label": "KI", "children": [
+        { "label": "Muligheter" },
+        { "label": "Ansvar og energi" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Den samme teknologien kan brukes til svært ulike formål.", "correct": true, "explain": "Et argument for sosial forming." },
+      { "id": "m02", "type": "sant-usant", "text": "Elektronisk avfall er et krympende problem.", "correct": false, "explain": "Det er et voksende problem." },
+      { "id": "m03", "type": "sant-usant", "text": "Automatisering kan fjerne tungt og farlig arbeid.", "correct": true, "explain": "Men kan også gi jobbtap." },
+      { "id": "m04", "type": "sant-usant", "text": "Teknologi er bare maskiner og dataprogrammer.", "correct": false, "explain": "Det er alle redskaper, metoder og systemer." },
+      { "id": "m05", "type": "flervalg", "text": "Hva gjorde trykkpressen mulig ifølge teknologideterminister?", "options": ["Industrialiseringen", "Reformasjonen", "Vikingtiden", "Internett"], "correct": 1, "explain": "Et klassisk eksempel." },
+      { "id": "m06", "type": "flervalg", "text": "Hva kan begrense livsutfoldelse?", "options": ["Skjermavhengighet og overvåking", "Bedre medisin", "Tilgang til kunnskap", "Hjelpemidler"], "correct": 0, "explain": "Teknologiens baksider." },
+      { "id": "m07", "type": "flervalg", "text": "Hva avgjør om KI bidrar til livsutfoldelse og bærekraft?", "options": ["Bare hvor rask den er", "Bare prisen", "Hvordan den reguleres og brukes", "Ingenting"], "correct": 2, "explain": "Menneskelige valg er avgjørende." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

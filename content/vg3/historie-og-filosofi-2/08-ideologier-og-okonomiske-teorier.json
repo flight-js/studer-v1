@@ -1,0 +1,80 @@
+{
+  "id": "ideologier-og-okonomiske-teorier",
+  "fagId": "historie-og-filosofi-2",
+  "trinnId": "vg3",
+  "name": "Ideologier og økonomiske teorier",
+  "intro": "Sentrale ideologier og økonomiske teorier – Adam Smith og markedsliberalismen, Marx og sosialismen, Keynes og velferdsstaten, Hayek, Friedman og nyliberalismen – og hvilke konsekvenser de har hatt for menneskers livsutfoldelse, deltakelse og medborgerskap.",
+  "kompetansemaal": [9],
+  "sammendrag": "## Ideologi\n\nEn **ideologi** er et sett av **ideer** om hvordan samfunnet **er** og hvordan det **bør** være. Ideologier gir retning for politikk og har ofte et syn på **økonomien**: Hvor mye skal **markedet** styre, og hvor mye skal **staten** styre?\n\n## Adam Smith og markedsliberalismen\n\n**Adam Smith** skrev **Nasjonenes velstand** i **1776**. Han mente at når hver enkelt følger sin egen **interesse** i et fritt **marked**, fører en «**usynlig hånd**» til at samfunnet som helhet blir rikere. **Arbeidsdeling** og **frihandel** øker produktiviteten. Staten skal ha en begrenset rolle, men Smith mente også at staten må sikre **rettsvesen**, **forsvar** og visse **fellestiltak**.\n\n## Karl Marx og sosialismen\n\n**Karl Marx** skrev **Det kommunistiske manifest** (1848, sammen med Friedrich Engels) og **Kapitalen**. Han mente at kapitalismen bygger på **utbytting**: Arbeiderne skaper mer verdi enn de får betalt – **merverdi** – og eierne tar resten. Historien drives av **klassekamp**, og Marx mente at arbeiderne ville ta makten og skape et **klasseløst** samfunn.\n\nMarx' ideer inspirerte både **sosialdemokratiet**, som ville reformere kapitalismen gjennom **valg**, og **kommunistiske** regimer, som endte i **ettpartistater** og **planøkonomi** med store overgrep.\n\n## Keynes og velferdsstaten\n\nUnder **den store depresjonen** på 1930-tallet var mange arbeidsløse. **John Maynard Keynes** mente at markedet ikke alltid retter seg selv, og at staten må øke **etterspørselen** i **krisetider** gjennom offentlige **utgifter**. Ideene fikk stor betydning etter **1945**, og de nordiske **velferdsstatene** kombinerte **marked**, **stat** og **samarbeid** i arbeidslivet.\n\n## Hayek, Friedman og nyliberalismen\n\n**Friedrich Hayek** advarte i **Veien til trelldom** (1944) mot at statlig styring av økonomien kunne føre til **ufrihet**. **Milton Friedman** mente at **inflasjon** skyldes for mye penger i omløp og at staten burde gripe mindre inn. Fra **1980-tallet** fikk **nyliberalismen** stor innflytelse, blant annet gjennom **Margaret Thatcher** i Storbritannia og **Ronald Reagan** i USA: **privatisering**, **deregulering**, **lavere skatter** og **frihandel**.\n\n## Andre ideologier\n\n- **Konservatismen** vektlegger **tradisjon**, **familie** og gradvis endring.\n- **Fascismen** avviste både liberalisme og sosialisme og samlet økonomien under en **autoritær** stat.\n- **Grønn politisk tenkning** stiller spørsmål ved **evig vekst** og vil legge **naturens tålegrenser** til grunn.\n\n## Konsekvenser for livsutfoldelse, deltakelse og medborgerskap\n\n- **Markedsliberalismen** har gitt **velstand** og **valgfrihet**, men også **ulikhet** og **usikkerhet**.\n- **Sosialdemokratiet** har gitt **trygghet**, **utdanning** og **deltakelse** for mange, men krever **høye skatter**.\n- **Kommunistiske regimer** lovet likhet, men fratok folk **frihet** og **demokratisk deltakelse**.\n- **Fascismen** undertrykte all opposisjon og førte til **krig** og **folkemord**.\n\nEt sentralt spørsmål er hvordan ulike systemer påvirker menneskers mulighet til å **utfolde** seg, **delta** i samfunnet og være **aktive medborgere** – og hvem som vinner og taper.",
+  "flashcards": [
+    { "term": "Ideologi", "def": "Sett av ideer om hvordan samfunnet er og bør være." },
+    { "term": "Adam Smith", "def": "Skrev Nasjonenes velstand i 1776." },
+    { "term": "Den usynlige hånd", "def": "Smiths idé om at egeninteresse i et fritt marked gir fellesgode." },
+    { "term": "Arbeidsdeling", "def": "At arbeidet deles i spesialiserte oppgaver for å øke produktiviteten." },
+    { "term": "Karl Marx", "def": "Kritiserte kapitalismen som utbytting og skrev Kapitalen." },
+    { "term": "Merverdi", "def": "Verdien arbeiderne skaper utover lønnen de får." },
+    { "term": "Klassekamp", "def": "Konflikten mellom klasser som Marx mente driver historien." },
+    { "term": "Planøkonomi", "def": "Staten styrer produksjon og priser." },
+    { "term": "John Maynard Keynes", "def": "Mente staten må øke etterspørselen i krisetider." },
+    { "term": "Den store depresjonen", "def": "Den økonomiske krisen på 1930-tallet." },
+    { "term": "Friedrich Hayek", "def": "Advarte i Veien til trelldom mot statlig styring." },
+    { "term": "Milton Friedman", "def": "Økonom som mente staten burde gripe mindre inn." },
+    { "term": "Nyliberalisme", "def": "Privatisering, deregulering, lavere skatter og frihandel fra 1980-tallet." },
+    { "term": "Privatisering", "def": "At offentlige virksomheter selges eller overlates til private." },
+    { "term": "Medborgerskap", "def": "Å være en aktiv deltaker i samfunnet med rettigheter og plikter." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva mente Adam Smith med den usynlige hånd?", "options": ["At staten styrer alt", "At egeninteresse i et fritt marked kan gi fellesgode", "At kongen bestemmer", "At handel er skadelig"], "correct": 1, "explain": "Fra Nasjonenes velstand, 1776." },
+    { "id": "q02", "text": "Hva er merverdi hos Marx?", "options": ["Verdien arbeiderne skaper utover lønnen de får", "En skatt", "En type penger", "Profitt for arbeiderne"], "correct": 0, "explain": "Grunnlaget for utbytting." },
+    { "id": "q03", "text": "Hva mente Keynes staten skulle gjøre i krisetider?", "options": ["Kutte alle utgifter", "Ikke gripe inn", "Øke etterspørselen gjennom offentlige utgifter", "Innføre planøkonomi"], "correct": 2, "explain": "Markedet retter seg ikke alltid selv." },
+    { "id": "q04", "text": "Hva advarte Hayek mot i Veien til trelldom?", "options": ["Frihandel", "Lave skatter", "Individuell frihet", "At statlig styring av økonomien kunne føre til ufrihet"], "correct": 3, "explain": "Fra 1944." },
+    { "id": "q05", "text": "Hva kjennetegner nyliberalismen?", "options": ["Privatisering, deregulering og lavere skatter", "Statlig eierskap av alt", "Planøkonomi", "Høye tollmurer"], "correct": 0, "explain": "Thatcher og Reagan." },
+    { "id": "q06", "text": "Hva ble konsekvensene av kommunistiske regimer for deltakelse?", "options": ["Mer demokratisk deltakelse", "Folk ble fratatt frihet og demokratisk deltakelse", "Flere partier", "Frie valg"], "correct": 1, "explain": "Ettpartistater." },
+    { "id": "q07", "text": "Hvilken modell kombinerte marked, stat og samarbeid i arbeidslivet?", "options": ["Fascismen", "Planøkonomien", "Den nordiske velferdsstaten", "Merkantilismen"], "correct": 2, "explain": "Påvirket av Keynes." },
+    { "id": "q08", "text": "Hva stiller grønn politisk tenkning spørsmål ved?", "options": ["Demokrati", "Utdanning", "Menneskerettigheter", "Evig vekst"], "correct": 3, "explain": "Vil legge naturens tålegrenser til grunn." },
+    { "id": "q09", "text": "Hvem skrev Det kommunistiske manifest sammen med Marx?", "options": ["Friedrich Engels", "Adam Smith", "Keynes", "Hayek"], "correct": 0, "explain": "I 1848." },
+    { "id": "q10", "text": "Hva er en kritikk av markedsliberalismen?", "options": ["At den gir for lite valgfrihet", "At den kan gi ulikhet og usikkerhet", "At den gir for høye skatter", "At den forbyr handel"], "correct": 1, "explain": "Men den har også gitt velstand." }
+  ],
+  "mindmap": {
+    "label": "Ideologier og økonomi",
+    "children": [
+      { "label": "Marked", "children": [
+        { "label": "Adam Smith" },
+        { "label": "Usynlig hånd" },
+        { "label": "Arbeidsdeling" }
+      ] },
+      { "label": "Sosialisme", "children": [
+        { "label": "Marx og merverdi" },
+        { "label": "Sosialdemokrati" },
+        { "label": "Kommunisme" }
+      ] },
+      { "label": "Stat og marked", "children": [
+        { "label": "Keynes" },
+        { "label": "Velferdsstaten" }
+      ] },
+      { "label": "Nyliberalisme", "children": [
+        { "label": "Hayek og Friedman" },
+        { "label": "Thatcher og Reagan" }
+      ] },
+      { "label": "Konsekvenser", "children": [
+        { "label": "Velstand og ulikhet" },
+        { "label": "Frihet og deltakelse" },
+        { "label": "Medborgerskap" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Adam Smith mente at staten også må sikre rettsvesen og forsvar.", "correct": true, "explain": "Han ønsket ikke en stat uten oppgaver." },
+      { "id": "m02", "type": "sant-usant", "text": "Keynes mente at markedet alltid retter seg selv raskt.", "correct": false, "explain": "Han mente staten må gripe inn i kriser." },
+      { "id": "m03", "type": "sant-usant", "text": "Marx' ideer inspirerte både sosialdemokrater og kommunister.", "correct": true, "explain": "Med svært ulike følger." },
+      { "id": "m04", "type": "sant-usant", "text": "Fascismen forsvarte frie valg og opposisjon.", "correct": false, "explain": "Den undertrykte all opposisjon." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er deregulering?", "options": ["Flere regler", "Å fjerne eller lette reguleringer", "Å øke skattene", "Å nasjonalisere bedrifter"], "correct": 1, "explain": "Typisk for nyliberalismen." },
+      { "id": "m06", "type": "flervalg", "text": "Når kom Nasjonenes velstand?", "options": ["1776", "1848", "1936", "1944"], "correct": 0, "explain": "Adam Smith." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er medborgerskap?", "options": ["Å eie aksjer", "Å bo i en by", "Å være en aktiv deltaker i samfunnet med rettigheter og plikter", "Å ha pass"], "correct": 2, "explain": "Påvirkes av økonomiske og politiske systemer." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

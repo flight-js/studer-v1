@@ -1,0 +1,86 @@
+{
+  "id": "historie-og-filosofi-2",
+  "trinnId": "vg3",
+  "name": "Historie og filosofi 2",
+  "lareplan": {
+    "kode": "HIF01-04",
+    "url": "https://www.udir.no/lk20/hif01-04/kompetansemaal-og-vurdering/kv896",
+    "kompetansemaal": [
+      {
+        "nr": 1,
+        "tekst": "anvende filosofisk samtale for å utforske og utvikle egne oppfatninger, undersøke argumentasjon og vurdere gyldighet"
+      },
+      {
+        "nr": 2,
+        "tekst": "finne, bruke og kritisk vurdere ulike kilder av ulik art og opphav, også originaltekster"
+      },
+      {
+        "nr": 3,
+        "tekst": "drøfte hva som skiller vitenskap fra pseudovitenskap, og vurdere konsekvenser av desinformasjon og konspirasjonsteorier"
+      },
+      {
+        "nr": 4,
+        "tekst": "drøfte hvordan vi gjennom valg av metoder, teorier, perspektiver og kilder søker kunnskap og erkjennelse, og reflektere over hvordan slike valg påvirker det vi ser, leter etter og forstår"
+      },
+      {
+        "nr": 5,
+        "tekst": "gjøre rede for kjennetegn og konsekvenser av moderne tenkning og virkelighetsforståelse, og drøfte dette i lys av ulik kritikk av slik tenkning og virkelighetsforståelse"
+      },
+      {
+        "nr": 6,
+        "tekst": "gjøre rede for historiske prosesser og filosofiske ideer som ledet fram mot det moderne demokratiet, og vurdere hvordan vanetenkning, maktstrukturer og andre hindre har stått, og står, i veien for utviklingen av demokrati og menneskerettigheter"
+      },
+      {
+        "nr": 7,
+        "tekst": "utforske etisk og eksistensiell tenkning om autonomi, frihet, ansvar og det gode liv, og reflektere over hvordan mennesker forholder seg til og blir preget av disse verdiene"
+      },
+      {
+        "nr": 8,
+        "tekst": "gjøre rede for og drøfte temaer fra nyere tid som illustrerer etiske og eksistensielle spørsmål"
+      },
+      {
+        "nr": 9,
+        "tekst": "gjøre rede for sentrale ideologier og økonomiske teorier og vurdere konsekvensene disse har og har hatt for menneskers livsutfoldelse, deltakelse og medborgerskap"
+      },
+      {
+        "nr": 10,
+        "tekst": "gjøre rede for hvordan ulike former for moderne kommunikasjon og informasjonsteknologi virker inn på det offentlige ordskiftet, og reflektere over hvordan disse skaper både muligheter og begrensninger for menneskers liv og sannhetssøken"
+      },
+      {
+        "nr": 11,
+        "tekst": "gjøre rede for hvordan intensjon, ståsted og perspektiv preger historieframstillinger, og drøfte hvordan ulike framstillinger og bruk av fortiden kan virke frigjørende eller undertrykkende på individ og samfunn."
+      },
+      {
+        "nr": 12,
+        "tekst": "gjøre rede for hvordan historiebevissthet formes og endres ved å vise hvordan vår samtidsforståelse preger våre fortolkninger av fortiden og hvordan våre fortolkninger av fortiden er preget av vår forståelse av oss selv"
+      },
+      {
+        "nr": 13,
+        "tekst": "drøfte urfolks kultur, verdier og levemåte i brytningen mellom tradisjon og modernitet"
+      },
+      {
+        "nr": 14,
+        "tekst": "gjøre rede for teknologiens rolle i samfunnet og drøfte om den bidrar til menneskers livsutfoldelse og et bærekraftig samfunn"
+      },
+      {
+        "nr": 15,
+        "tekst": "utforske forholdet mellom mennesker og natur i forbrukersamfunnet og vurdere ulike ideer og oppfatninger om rettferdighet og menneskets plass i verden"
+      }
+    ]
+  },
+  "temaer": [
+    "argumentasjon-og-kildearbeid",
+    "vitenskap-og-pseudovitenskap",
+    "metode-perspektiv-og-erkjennelse",
+    "moderniteten-og-kritikken",
+    "veien-til-det-moderne-demokratiet",
+    "frihet-autonomi-og-det-gode-liv",
+    "etiske-sporsmal-i-nyere-tid",
+    "ideologier-og-okonomiske-teorier",
+    "kommunikasjon-og-offentlighet",
+    "historieframstillinger-og-historiebevissthet",
+    "urfolk-tradisjon-og-modernitet",
+    "teknologi-og-samfunn",
+    "natur-og-forbrukersamfunnet"
+  ]
+}

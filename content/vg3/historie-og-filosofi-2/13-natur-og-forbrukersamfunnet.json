@@ -1,0 +1,81 @@
+{
+  "id": "natur-og-forbrukersamfunnet",
+  "fagId": "historie-og-filosofi-2",
+  "trinnId": "vg3",
+  "name": "Mennesket, naturen og forbrukersamfunnet",
+  "intro": "Forholdet mellom mennesker og natur i forbrukersamfunnet – forbruk og identitet, overforbruk og økologisk fotavtrykk – ulike ideer om rettferdighet hos Rawls, Nozick og i kapabilitetstilnærmingen, global og generasjonsrettferdighet, og menneskets plass i verden fra antroposentrisme til dypøkologi og antropocen.",
+  "kompetansemaal": [15],
+  "sammendrag": "## Forbrukersamfunnet\n\nEtter **andre verdenskrig** vokste det fram et **forbrukersamfunn** i den rike delen av verden. Økt **velstand**, **masseproduksjon** og **reklame** gjorde at folk kunne kjøpe langt mer enn de trengte for å overleve. I dag er **forbruk** ikke bare en måte å dekke behov på, men også en måte å vise **identitet**, **status** og **livsstil**.\n\nKjennetegn:\n\n- **bruk-og-kast**-kultur og raske **motetrender**\n- **planlagt foreldelse** – produkter som er laget for å ha kort levetid\n- **reklame** og sosiale medier som skaper nye **behov**\n\n## Konsekvenser for naturen\n\nForbruket krever **råvarer**, **energi**, **arealer** og **vann**, og gir **utslipp** og **avfall**. Det **økologiske fotavtrykket** viser hvor mye natur som trengs for å dekke forbruket. Hvis alle levde som gjennomsnittsnordmannen, ville vi trengt **flere jordkloder**.\n\n## Rettferdighet\n\nForbruk og miljø reiser spørsmål om **rettferdighet**:\n\n- **Global rettferdighet**: De rike landene har stått for det meste av utslippene, mens **fattige** land ofte rammes hardest av klimaendringer.\n- **Generasjonsrettferdighet**: Har vi rett til å bruke ressurser som **framtidige generasjoner** trenger?\n- **Rettferdighet mellom arter**: Har **dyr** og **natur** krav på hensyn?\n\n## Teorier om rettferdighet\n\n- **John Rawls** foreslo i **1971** et tankeeksperiment: Vi skal velge prinsipper for samfunnet bak et «**uvitenhetens slør**» – uten å vite hvilken plass vi selv vil få. Rawls mente vi da ville velge like **friheter** og at ulikhet bare er rettferdig hvis den kommer de **dårligst stilte** til gode.\n- **Robert Nozick** mente at en fordeling er rettferdig hvis eiendom er **ervervet** og **overført** på rettferdig vis. Staten bør ikke **omfordele** mer enn nødvendig.\n- **Kapabilitetstilnærmingen** til **Amartya Sen** og **Martha Nussbaum** spør hva mennesker faktisk **er i stand til** å gjøre og være – helse, utdanning, deltakelse – ikke bare hvor mye de **eier**.\n- **Utilitarister** vil skape **mest mulig velferd** – også for framtidige generasjoner og, for noen, for **dyr**.\n\n## Menneskets plass i verden\n\n- **Antroposentrisme**: Mennesket står i **sentrum**, og naturen har verdi fordi den er **nyttig** for oss.\n- **Dypøkologi**: **Arne Næss** mente at alt liv har **egenverdi**, og at mennesket er en **del** av naturen, ikke herre over den.\n- **Urfolks** perspektiver legger ofte vekt på **gjensidighet** og **ansvar** overfor naturen.\n- **Antropocen** er et begrep for en ny **geologisk epoke** der mennesket er blitt den viktigste kraften som endrer jorda – gjennom klimaendringer, arealbruk og tap av arter.\n\n## Alternativer\n\n- **Sirkulær økonomi**: gjenbruk, reparasjon og resirkulering\n- **Nøysomhet**: å forbruke **mindre** og prioritere **tid**, **relasjoner** og **opplevelser**\n- **Grønn vekst** eller **nedvekst** – om økonomien kan vokse bærekraftig, eller om de rike landene må **redusere** forbruket\n\n## Drøfting\n\nEr det **enkeltmenneskets** ansvar å forbruke mindre, eller må **politikk** og **næringsliv** endre systemet? Hva er et **godt liv** hvis det ikke handler om å **ha** mest mulig?",
+  "flashcards": [
+    { "term": "Forbrukersamfunn", "def": "Samfunn der forbruk er sentralt for økonomi og identitet." },
+    { "term": "Planlagt foreldelse", "def": "At produkter lages for å ha kort levetid." },
+    { "term": "Økologisk fotavtrykk", "def": "Hvor mye natur som trengs for å dekke forbruket." },
+    { "term": "Global rettferdighet", "def": "Rettferdig fordeling mellom rike og fattige land." },
+    { "term": "Generasjonsrettferdighet", "def": "Ansvar overfor framtidige generasjoner." },
+    { "term": "John Rawls", "def": "Filosof som i 1971 foreslo uvitenhetens slør." },
+    { "term": "Uvitenhetens slør", "def": "Å velge samfunnsprinsipper uten å vite hvilken plass man selv får." },
+    { "term": "Differensprinsippet", "def": "Rawls: ulikhet er bare rettferdig hvis den hjelper de dårligst stilte." },
+    { "term": "Robert Nozick", "def": "Mente rettferdig ervervet eiendom ikke bør omfordeles mer enn nødvendig." },
+    { "term": "Kapabilitetstilnærmingen", "def": "Sen og Nussbaum: hva mennesker faktisk er i stand til å gjøre og være." },
+    { "term": "Antroposentrisme", "def": "Mennesket i sentrum – naturen har verdi fordi den er nyttig." },
+    { "term": "Dypøkologi", "def": "Næss: alt liv har egenverdi, og mennesket er en del av naturen." },
+    { "term": "Antropocen", "def": "Ny geologisk epoke der mennesket er den viktigste kraften som endrer jorda." },
+    { "term": "Nøysomhet", "def": "Å forbruke mindre og prioritere tid og relasjoner." },
+    { "term": "Nedvekst", "def": "Ideen om at rike land må redusere produksjon og forbruk." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Når vokste forbrukersamfunnet fram i den rike delen av verden?", "options": ["I middelalderen", "Etter andre verdenskrig", "På 1600-tallet", "I steinalderen"], "correct": 1, "explain": "Med velstand, masseproduksjon og reklame." },
+    { "id": "q02", "text": "Hva er planlagt foreldelse?", "options": ["At produkter lages for å ha kort levetid", "At produkter lages for å vare evig", "En type reklame", "En miljølov"], "correct": 0, "explain": "Øker forbruket." },
+    { "id": "q03", "text": "Hva er uvitenhetens slør hos Rawls?", "options": ["En type klesplagg", "At vi aldri kan vite noe", "Å velge samfunnsprinsipper uten å vite hvilken plass man selv får", "At rike skal bestemme"], "correct": 2, "explain": "Fra 1971." },
+    { "id": "q04", "text": "Hva mente Nozick om omfordeling?", "options": ["At staten bør omfordele alt", "At alle skal ha likt", "At eiendom ikke finnes", "At rettferdig ervervet eiendom ikke bør omfordeles mer enn nødvendig"], "correct": 3, "explain": "En rettighetsbasert teori." },
+    { "id": "q05", "text": "Hva spør kapabilitetstilnærmingen om?", "options": ["Hva mennesker faktisk er i stand til å gjøre og være", "Hvor mye folk eier", "Hvor mye de forbruker", "Hvor gamle de er"], "correct": 0, "explain": "Sen og Nussbaum." },
+    { "id": "q06", "text": "Hva er antropocen?", "options": ["En steinalderkultur", "En ny geologisk epoke der mennesket er den viktigste kraften som endrer jorda", "En type forbruk", "En filosofisk skole"], "correct": 1, "explain": "Klimaendringer, arealbruk og artstap." },
+    { "id": "q07", "text": "Hva er dypøkologi?", "options": ["Studiet av havbunnen", "Synet at naturen bare er en ressurs", "Synet at alt liv har egenverdi og mennesket er en del av naturen", "En type landbruk"], "correct": 2, "explain": "Arne Næss." },
+    { "id": "q08", "text": "Hva er global rettferdighet i klimaspørsmålet?", "options": ["At alle land har sluppet ut like mye", "At fattige land har sluppet ut mest", "At klimaendringer rammer alle likt", "At rike land har sluppet ut mest, mens fattige ofte rammes hardest"], "correct": 3, "explain": "En skjev fordeling av ansvar og konsekvenser." },
+    { "id": "q09", "text": "Hva er det økologiske fotavtrykket?", "options": ["Hvor mye natur som trengs for å dekke forbruket", "Et fotspor i skogen", "En type avgift", "Antall trær i et land"], "correct": 0, "explain": "Nordmenn har et stort fotavtrykk." },
+    { "id": "q10", "text": "Hva er nøysomhet?", "options": ["Å kjøpe mest mulig", "Å forbruke mindre og prioritere tid, relasjoner og opplevelser", "Å spare til luksus", "Å reise mye"], "correct": 1, "explain": "Et alternativ til forbrukersamfunnet." }
+  ],
+  "mindmap": {
+    "label": "Natur og forbrukersamfunnet",
+    "children": [
+      { "label": "Forbrukersamfunnet", "children": [
+        { "label": "Etter 1945" },
+        { "label": "Identitet og status" },
+        { "label": "Planlagt foreldelse" }
+      ] },
+      { "label": "Naturen", "children": [
+        { "label": "Økologisk fotavtrykk" },
+        { "label": "Utslipp og avfall" }
+      ] },
+      { "label": "Rettferdighet", "children": [
+        { "label": "Global" },
+        { "label": "Generasjoner" },
+        { "label": "Rawls, Nozick, Sen" }
+      ] },
+      { "label": "Menneskets plass", "children": [
+        { "label": "Antroposentrisme" },
+        { "label": "Dypøkologi" },
+        { "label": "Antropocen" }
+      ] },
+      { "label": "Alternativer", "children": [
+        { "label": "Sirkulær økonomi" },
+        { "label": "Nøysomhet" },
+        { "label": "Grønn vekst eller nedvekst" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Hvis alle levde som gjennomsnittsnordmannen, ville vi trengt flere jordkloder.", "correct": true, "explain": "Stort økologisk fotavtrykk." },
+      { "id": "m02", "type": "sant-usant", "text": "Forbruk handler bare om å dekke grunnleggende behov.", "correct": false, "explain": "Det handler også om identitet og status." },
+      { "id": "m03", "type": "sant-usant", "text": "Rawls mente ulikhet bare er rettferdig hvis den kommer de dårligst stilte til gode.", "correct": true, "explain": "Differensprinsippet." },
+      { "id": "m04", "type": "sant-usant", "text": "Antropocen er navnet på en epoke før mennesket fantes.", "correct": false, "explain": "Det er epoken der mennesket endrer jorda mest." },
+      { "id": "m05", "type": "flervalg", "text": "Hvem utviklet kapabilitetstilnærmingen?", "options": ["Rawls og Nozick", "Amartya Sen og Martha Nussbaum", "Næss og Kant", "Smith og Marx"], "correct": 1, "explain": "Hva mennesker er i stand til." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er nedvekst?", "options": ["Ideen om at rike land må redusere produksjon og forbruk", "Økonomisk vekst uten grenser", "En type reklame", "Et forbruksmønster"], "correct": 0, "explain": "Et alternativ til grønn vekst." },
+      { "id": "m07", "type": "flervalg", "text": "Hva legger urfolks perspektiver ofte vekt på?", "options": ["Maksimalt forbruk", "Naturen som ren ressurs", "Gjensidighet og ansvar overfor naturen", "Planlagt foreldelse"], "correct": 2, "explain": "Et alternativt natursyn." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

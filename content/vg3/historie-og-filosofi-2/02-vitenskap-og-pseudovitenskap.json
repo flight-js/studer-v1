@@ -1,0 +1,80 @@
+{
+  "id": "vitenskap-og-pseudovitenskap",
+  "fagId": "historie-og-filosofi-2",
+  "trinnId": "vg3",
+  "name": "Vitenskap, pseudovitenskap, desinformasjon og konspirasjonsteorier",
+  "intro": "Hva som skiller vitenskap fra pseudovitenskap – demarkasjonsproblemet, Poppers falsifiserbarhetskriterium og kjennetegn ved god forskning – og hvorfor desinformasjon og konspirasjonsteorier sprer seg, og hvilke konsekvenser de kan få for enkeltmennesker og demokratiet.",
+  "kompetansemaal": [3],
+  "sammendrag": "## Demarkasjonsproblemet\n\nHva skiller **vitenskap** fra **pseudovitenskap**? Dette kalles **demarkasjonsproblemet**. **Pseudovitenskap** er påstander som gir seg ut for å være vitenskapelige, men som ikke følger vitenskapelige **metoder** og **krav**. Eksempler er **astrologi**, **homeopati** og påstander om at jorda er **flat**.\n\n## Poppers falsifiserbarhet\n\nFilosofen **Karl Popper** mente at en vitenskapelig teori må være **falsifiserbar**: Det må være mulig å tenke seg observasjoner som kan vise at den er **feil**. Teorien om at alt metall utvider seg ved oppvarming kan testes – og ville vært motbevist av et metall som krympet.\n\nEn teori som kan forklare **alt** som skjer, uansett utfall, er ifølge Popper **ikke** vitenskapelig. Popper kritiserte blant annet deler av **psykoanalysen** og **marxismen** for å være slik.\n\nVitenskapen kan aldri **bevise** at en teori er endelig sann, men teorier som har overlevd mange **tester**, er vel begrunnet.\n\n## Kjennetegn ved vitenskap\n\n- **Etterprøvbarhet**: Andre kan **gjenta** undersøkelsen.\n- **Systematisk metode** og åpenhet om **usikkerhet**\n- **Fagfellevurdering**: Andre forskere vurderer arbeidet før det publiseres.\n- **Selvkorrigering**: Teorier **endres** når nye funn krever det.\n- **Konsensus** bygger på **mange** studier, ikke én enkelt.\n\n## Kjennetegn ved pseudovitenskap\n\n- påstander som ikke kan **testes**\n- avhengighet av **anekdoter** og enkelthistorier\n- motstand mot **kritikk** og mangel på **endring**\n- bruk av vitenskapelige **ord** uten vitenskapelig **innhold**\n- påstander om at forskere **skjuler** sannheten\n\n## Desinformasjon\n\n- **Feilinformasjon** er uriktig informasjon som spres **uten** vilje til å lure.\n- **Desinformasjon** er **bevisst** falsk informasjon, ofte for å oppnå **politiske** eller **økonomiske** mål.\n\n**Sosiale medier** og **kunstig intelligens** gjør det lett å spre falske bilder, videoer og nyheter raskt. **Stater** bruker desinformasjon for å påvirke **valg** og skape **splid** i andre land.\n\n## Konspirasjonsteorier\n\nEn **konspirasjonsteori** hevder at viktige hendelser er styrt av en **hemmelig**, mektig gruppe. Kjennetegn:\n\n- Ingenting skjer **tilfeldig**.\n- Alt henger **sammen**.\n- Mangel på bevis tolkes som **bevis** på at noen skjuler noe.\n- Kritikere blir sett på som en del av **sammensvergelsen**.\n\nMange konspirasjonsteorier har vært **antisemittiske** – de gjør jøder til syndebukker.\n\n**Hvorfor tror folk på dem?** De kan gi **enkle forklaringer** i en komplisert verden, en følelse av **kontroll** og **fellesskap**, og de spiller på **mistillit** til myndigheter og eksperter.\n\n## Konsekvenser\n\n- **Helse**: Myter om vaksiner kan føre til at færre vaksinerer seg og at sykdommer kommer tilbake.\n- **Demokrati**: Falske påstander om **valgfusk** kan svekke tilliten til valg og i verste fall føre til **vold**.\n- **Polarisering**: Folk lever i ulike «virkeligheter» og slutter å snakke sammen.\n- **Hat**: Konspirasjonsteorier kan rettferdiggjøre **vold** mot grupper.\n\n## Hva kan vi gjøre?\n\n**Kildekritikk**, **faktasjekk**, kunnskap om vitenskapelig **metode** og **åpne** samtaler med respekt – også med dem som tror på konspirasjonsteorier.",
+  "flashcards": [
+    { "term": "Demarkasjonsproblemet", "def": "Spørsmålet om hva som skiller vitenskap fra pseudovitenskap." },
+    { "term": "Pseudovitenskap", "def": "Påstander som gir seg ut for å være vitenskap uten å følge vitenskapens krav." },
+    { "term": "Karl Popper", "def": "Filosof som mente vitenskapelige teorier må være falsifiserbare." },
+    { "term": "Falsifiserbarhet", "def": "At det må være mulig å tenke seg observasjoner som viser at teorien er feil." },
+    { "term": "Etterprøvbarhet", "def": "At andre kan gjenta undersøkelsen." },
+    { "term": "Fagfellevurdering", "def": "Andre forskere vurderer arbeidet før publisering." },
+    { "term": "Selvkorrigering", "def": "At vitenskapen endrer teorier når nye funn krever det." },
+    { "term": "Konsensus", "def": "Bred enighet i forskningen basert på mange studier." },
+    { "term": "Anekdote", "def": "Enkelthistorie som ikke gir systematisk bevis." },
+    { "term": "Feilinformasjon", "def": "Uriktig informasjon spredt uten vilje til å lure." },
+    { "term": "Desinformasjon", "def": "Bevisst falsk informasjon for å oppnå mål." },
+    { "term": "Konspirasjonsteori", "def": "Påstand om at hendelser styres av en hemmelig, mektig gruppe." },
+    { "term": "Syndebukk", "def": "Gruppe som får skylden for problemer." },
+    { "term": "Faktasjekk", "def": "Kontroll av om påstander er sanne." },
+    { "term": "Polarisering", "def": "At grupper beveger seg lenger fra hverandre." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er demarkasjonsproblemet?", "options": ["Spørsmålet om hvor grensene mellom land går", "Spørsmålet om hva som skiller vitenskap fra pseudovitenskap", "Et matematisk problem", "Et problem i kildekritikk alene"], "correct": 1, "explain": "Et sentralt spørsmål i vitenskapsfilosofien." },
+    { "id": "q02", "text": "Hva mente Popper kjennetegner en vitenskapelig teori?", "options": ["At den er falsifiserbar", "At den kan forklare alt", "At den er bevist for alltid", "At mange tror på den"], "correct": 0, "explain": "Den må kunne vise seg å være feil." },
+    { "id": "q03", "text": "Hvorfor er en teori som forklarer alt, ikke vitenskapelig ifølge Popper?", "options": ["Fordi den er for enkel", "Fordi den er for gammel", "Fordi ingen observasjon kan motbevise den", "Fordi den er matematisk"], "correct": 2, "explain": "Den kan ikke testes." },
+    { "id": "q04", "text": "Hva er fagfellevurdering?", "options": ["At journalister vurderer forskning", "At publikum stemmer", "At staten godkjenner forskning", "At andre forskere vurderer arbeidet før publisering"], "correct": 3, "explain": "Et kvalitetskrav i vitenskapen." },
+    { "id": "q05", "text": "Hva skiller desinformasjon fra feilinformasjon?", "options": ["Desinformasjon er bevisst falsk", "Desinformasjon er alltid sann", "Det er ingen forskjell", "Feilinformasjon er bevisst"], "correct": 0, "explain": "Hensikten er avgjørende." },
+    { "id": "q06", "text": "Hva er et kjennetegn ved konspirasjonsteorier?", "options": ["De bygger på fagfellevurdert forskning", "Mangel på bevis tolkes som bevis på at noen skjuler noe", "De endres etter nye funn", "De sier at mye skjer tilfeldig"], "correct": 1, "explain": "Derfor er de vanskelige å motbevise." },
+    { "id": "q07", "text": "Hva er et kjennetegn ved pseudovitenskap?", "options": ["Etterprøvbarhet", "Selvkorrigering", "Avhengighet av anekdoter og motstand mot kritikk", "Fagfellevurdering"], "correct": 2, "explain": "Bruker ofte vitenskapelige ord uten innhold." },
+    { "id": "q08", "text": "Hvilken konsekvens kan konspirasjonsteorier om valgfusk få?", "options": ["Høyere valgdeltakelse", "Mer tillit", "Bedre valg", "Svekket tillit til valg og i verste fall vold"], "correct": 3, "explain": "En trussel mot demokratiet." },
+    { "id": "q09", "text": "Kan vitenskapen bevise at en teori er endelig sann?", "options": ["Nei, men teorier som har overlevd mange tester, er vel begrunnet", "Ja, alltid", "Ja, med én studie", "Nei, vitenskap er meninger"], "correct": 0, "explain": "Ifølge Popper." },
+    { "id": "q10", "text": "Hvorfor kan konspirasjonsteorier virke tiltrekkende?", "options": ["De er alltid sanne", "De gir enkle forklaringer, kontroll og fellesskap", "De er vitenskapelige", "De er kjedelige"], "correct": 1, "explain": "Og spiller på mistillit." }
+  ],
+  "mindmap": {
+    "label": "Vitenskap og pseudovitenskap",
+    "children": [
+      { "label": "Demarkasjon", "children": [
+        { "label": "Popper" },
+        { "label": "Falsifiserbarhet" }
+      ] },
+      { "label": "Vitenskap", "children": [
+        { "label": "Etterprøvbarhet" },
+        { "label": "Fagfellevurdering" },
+        { "label": "Selvkorrigering" }
+      ] },
+      { "label": "Pseudovitenskap", "children": [
+        { "label": "Ikke testbar" },
+        { "label": "Anekdoter" },
+        { "label": "Astrologi og homeopati" }
+      ] },
+      { "label": "Desinformasjon", "children": [
+        { "label": "Bevisst falsk" },
+        { "label": "Sosiale medier og KI" }
+      ] },
+      { "label": "Konspirasjonsteorier", "children": [
+        { "label": "Kjennetegn" },
+        { "label": "Hvorfor folk tror" },
+        { "label": "Konsekvenser" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Mange konspirasjonsteorier har vært antisemittiske.", "correct": true, "explain": "De gjør jøder til syndebukker." },
+      { "id": "m02", "type": "sant-usant", "text": "Én enkelt studie er nok til å skape vitenskapelig konsensus.", "correct": false, "explain": "Konsensus bygger på mange studier." },
+      { "id": "m03", "type": "sant-usant", "text": "Stater kan bruke desinformasjon for å påvirke valg i andre land.", "correct": true, "explain": "Og skape splid." },
+      { "id": "m04", "type": "sant-usant", "text": "Vitenskapen endrer aldri teoriene sine.", "correct": false, "explain": "Selvkorrigering er et kjennetegn." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er et eksempel på pseudovitenskap?", "options": ["Evolusjonsteorien", "Astrologi", "Gravitasjonsteorien", "Celleteorien"], "correct": 1, "explain": "Påstandene kan ikke testes på en vitenskapelig måte." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilken helsekonsekvens kan myter om vaksiner få?", "options": ["At færre vaksinerer seg og sykdommer kommer tilbake", "At flere blir friske", "At vaksiner blir billigere", "Ingen konsekvenser"], "correct": 0, "explain": "Et konkret eksempel." },
+      { "id": "m07", "type": "flervalg", "text": "Hva kan hjelpe mot desinformasjon?", "options": ["Å dele alt raskt", "Å stole på anonyme kilder", "Kildekritikk og faktasjekk", "Å unngå all informasjon"], "correct": 2, "explain": "Og kunnskap om vitenskapelig metode." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

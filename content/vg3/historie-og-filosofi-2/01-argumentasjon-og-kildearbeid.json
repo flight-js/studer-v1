@@ -1,0 +1,81 @@
+{
+  "id": "argumentasjon-og-kildearbeid",
+  "fagId": "historie-og-filosofi-2",
+  "trinnId": "vg3",
+  "name": "Filosofisk samtale, argumentasjon og kildearbeid",
+  "intro": "Hvordan du bruker filosofisk samtale til å utforske egne oppfatninger, analyserer argumenter og vurderer gyldighet og holdbarhet, gjenkjenner feilslutninger – og finner, leser og vurderer kilder av ulik art, også filosofiske og historiske originaltekster.",
+  "kompetansemaal": [1, 2],
+  "sammendrag": "## Filosofisk samtale\n\nI en **filosofisk samtale** utforsker deltakerne et **åpent** spørsmål sammen – for eksempel «Hva er frihet?» eller «Kan det være riktig å bryte loven?». Målet er ikke å **vinne**, men å **forstå** bedre og **utvikle** egne oppfatninger.\n\nGode grep i samtalen:\n\n- be om **begrunnelser** – «Hvorfor mener du det?»\n- **avklare** begreper – «Hva mener du med frihet?»\n- finne **eksempler** og **moteksempler**\n- undersøke **konsekvenser** – «Hva følger av det du sier?»\n- være villig til å **endre** mening\n\nMetoden går tilbake til **Sokrates**, som stilte spørsmål til folk i Athen for å avsløre **motsigelser** i tenkningen deres.\n\n## Argumentanalyse\n\nEt **argument** består av **premisser** og en **konklusjon**.\n\n- Et argument er **gyldig** hvis konklusjonen **følger logisk** av premissene. Hvis premissene er sanne, **må** konklusjonen være sann.\n- Et argument er **holdbart** eller **sunt** hvis det er gyldig **og** premissene faktisk er **sanne**.\n\nEksempel: «Alle mennesker er dødelige. Sokrates er et menneske. Altså er Sokrates dødelig.» Argumentet er gyldig og holdbart.\n\n«Alle fugler kan fly. Pingviner er fugler. Altså kan pingviner fly.» Argumentet er **gyldig**, men **ikke holdbart**, fordi det første premisset er **usant**.\n\n## Deduksjon og induksjon\n\n- **Deduktive** argumenter går fra det **generelle** til det **spesielle** og kan gi **sikre** konklusjoner.\n- **Induktive** argumenter går fra **enkelttilfeller** til en **generell** regel. Konklusjonen er bare **sannsynlig** – det neste tilfellet kan være annerledes.\n\n## Feilslutninger\n\n- **Personangrep**: å angripe personen i stedet for argumentet\n- **Stråmann**: å forvrenge motpartens syn\n- **Sirkelargument**: konklusjonen står allerede i premissene\n- **Falsk dilemma**: å late som det bare finnes to alternativer\n- **Naturalistisk feilslutning**: å slutte fra hvordan noe **er**, til hvordan det **bør** være\n- **Appell til flertallet**: «Alle mener det, så det må være riktig»\n\n## Kilder av ulik art\n\nI historie og filosofi brukes mange typer kilder: **originaltekster** av filosofer, historiske **dokumenter**, **bilder**, **gjenstander**, **intervjuer**, **faglitteratur** og **digitale** kilder.\n\n## Å lese originaltekster\n\n**Originaltekster** – som Platons dialoger, Kants skrifter eller Grunnloven av 1814 – kan være krevende fordi språket er **gammelt** og tankegangen **ukjent**. Nyttige grep:\n\n- Finn ut **når**, **hvor** og **hvorfor** teksten ble skrevet.\n- Les **langsomt** og noter **nøkkelbegreper**.\n- Formuler tekstens **hovedpåstand** og **argumenter** med egne ord.\n- Skill mellom hva teksten **sier**, og hva **du** mener om den.\n\n## Kildekritikk\n\nVurder **opphav**, **formål**, **troverdighet** og **relevans**. Spør om kilden er en **førstehåndskilde** eller en **framstilling**, og om den har en **tendens**. Sammenlign med **andre** kilder, og vær særlig kritisk til anonyme kilder på nett og til tekster som bare bekrefter det du allerede mener.",
+  "flashcards": [
+    { "term": "Filosofisk samtale", "def": "Felles utforsking av et åpent spørsmål for å forstå bedre." },
+    { "term": "Sokratisk metode", "def": "Å stille spørsmål for å avsløre motsigelser i tenkningen." },
+    { "term": "Premiss", "def": "En påstand som et argument bygger på." },
+    { "term": "Konklusjon", "def": "Det argumentet vil vise." },
+    { "term": "Gyldig argument", "def": "Konklusjonen følger logisk av premissene." },
+    { "term": "Holdbart argument", "def": "Gyldig og med sanne premisser." },
+    { "term": "Deduksjon", "def": "Fra det generelle til det spesielle – kan gi sikre konklusjoner." },
+    { "term": "Induksjon", "def": "Fra enkelttilfeller til en generell regel – gir sannsynlige konklusjoner." },
+    { "term": "Moteksempel", "def": "Et tilfelle som viser at en generell påstand ikke stemmer." },
+    { "term": "Sirkelargument", "def": "Konklusjonen står allerede i premissene." },
+    { "term": "Naturalistisk feilslutning", "def": "Å slutte fra hvordan noe er, til hvordan det bør være." },
+    { "term": "Appell til flertallet", "def": "Å mene noe er riktig fordi mange mener det." },
+    { "term": "Originaltekst", "def": "Teksten slik forfatteren skrev den, for eksempel Platons dialoger." },
+    { "term": "Nøkkelbegrep", "def": "Sentralt begrep som er avgjørende for å forstå en tekst." },
+    { "term": "Tendens", "def": "At en kilde har interesse i å framstille noe på en bestemt måte." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er målet med en filosofisk samtale?", "options": ["Å vinne", "Å forstå bedre og utvikle egne oppfatninger", "Å bli enige raskt", "Å bevise at læreren har rett"], "correct": 1, "explain": "Utforsking, ikke konkurranse." },
+    { "id": "q02", "text": "Når er et argument gyldig?", "options": ["Når konklusjonen følger logisk av premissene", "Når premissene er sanne", "Når mange er enige", "Når det er kort"], "correct": 0, "explain": "Gyldighet handler om form." },
+    { "id": "q03", "text": "«Alle fugler kan fly. Pingviner er fugler. Altså kan pingviner fly.» Hva er galt?", "options": ["Argumentet er ugyldig", "Konklusjonen følger ikke", "Argumentet er gyldig, men ikke holdbart fordi et premiss er usant", "Ingenting"], "correct": 2, "explain": "Ikke alle fugler kan fly." },
+    { "id": "q04", "text": "Hva kjennetegner induksjon?", "options": ["Sikre konklusjoner", "Fra det generelle til det spesielle", "Ingen premisser", "Fra enkelttilfeller til en generell regel"], "correct": 3, "explain": "Konklusjonen er bare sannsynlig." },
+    { "id": "q05", "text": "Hva er naturalistisk feilslutning?", "options": ["Å slutte fra hvordan noe er, til hvordan det bør være", "Å angripe personen", "Å gjenta konklusjonen", "Å bruke to alternativer"], "correct": 0, "explain": "Naturlig betyr ikke riktig." },
+    { "id": "q06", "text": "Hvem er den sokratiske metoden oppkalt etter?", "options": ["Platon", "Sokrates", "Aristoteles", "Kant"], "correct": 1, "explain": "Han stilte spørsmål i Athen." },
+    { "id": "q07", "text": "Hva er et sirkelargument?", "options": ["Et argument med mange premisser", "Et induktivt argument", "Et argument der konklusjonen allerede står i premissene", "Et argument med moteksempel"], "correct": 2, "explain": "Det beviser ingenting nytt." },
+    { "id": "q08", "text": "Hva er et godt første grep når du leser en originaltekst?", "options": ["Å lese så fort som mulig", "Å hoppe over vanskelige ord", "Å bare lese konklusjonen", "Å finne ut når, hvor og hvorfor teksten ble skrevet"], "correct": 3, "explain": "Konteksten hjelper forståelsen." },
+    { "id": "q09", "text": "Hva er et moteksempel?", "options": ["Et tilfelle som viser at en generell påstand ikke stemmer", "Et eksempel som støtter påstanden", "En konklusjon", "En kilde"], "correct": 0, "explain": "Viktig verktøy i filosofisk samtale." },
+    { "id": "q10", "text": "«Alle mener det, så det må være riktig.» Hvilken feilslutning er dette?", "options": ["Stråmann", "Appell til flertallet", "Personangrep", "Sirkelargument"], "correct": 1, "explain": "Flertallet kan ta feil." }
+  ],
+  "mindmap": {
+    "label": "Argumentasjon og kilder",
+    "children": [
+      { "label": "Filosofisk samtale", "children": [
+        { "label": "Åpne spørsmål" },
+        { "label": "Begrunnelser og eksempler" },
+        { "label": "Sokrates" }
+      ] },
+      { "label": "Argumenter", "children": [
+        { "label": "Premisser og konklusjon" },
+        { "label": "Gyldig og holdbart" },
+        { "label": "Deduksjon og induksjon" }
+      ] },
+      { "label": "Feilslutninger", "children": [
+        { "label": "Stråmann og personangrep" },
+        { "label": "Sirkelargument" },
+        { "label": "Naturalistisk" }
+      ] },
+      { "label": "Originaltekster", "children": [
+        { "label": "Kontekst" },
+        { "label": "Nøkkelbegreper" },
+        { "label": "Egne ord" }
+      ] },
+      { "label": "Kildekritikk", "children": [
+        { "label": "Opphav og formål" },
+        { "label": "Tendens" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Et gyldig argument kan ha usanne premisser.", "correct": true, "explain": "Da er det gyldig, men ikke holdbart." },
+      { "id": "m02", "type": "sant-usant", "text": "Induktive argumenter gir alltid sikre konklusjoner.", "correct": false, "explain": "De gir sannsynlige konklusjoner." },
+      { "id": "m03", "type": "sant-usant", "text": "I en filosofisk samtale er det en styrke å kunne endre mening.", "correct": true, "explain": "Målet er å forstå bedre." },
+      { "id": "m04", "type": "sant-usant", "text": "Kilder som bekrefter det du allerede mener, trenger ikke vurderes kritisk.", "correct": false, "explain": "De bør vurderes særlig kritisk." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er en deduktiv slutning?", "options": ["Fra enkelttilfeller til en regel", "Fra det generelle til det spesielle", "En gjetning", "Et moteksempel"], "correct": 1, "explain": "Kan gi sikre konklusjoner." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilket spørsmål avklarer begreper?", "options": ["«Hva mener du med frihet?»", "«Hvem vant?»", "«Hvor mye koster det?»", "«Når slutter timen?»"], "correct": 0, "explain": "Viktig i filosofisk samtale." },
+      { "id": "m07", "type": "flervalg", "text": "Hva bør du skille mellom når du leser en originaltekst?", "options": ["Store og små bokstaver", "Nye og gamle sider", "Hva teksten sier og hva du selv mener", "Forfatter og forlag"], "correct": 2, "explain": "Først forstå, så vurdere." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
