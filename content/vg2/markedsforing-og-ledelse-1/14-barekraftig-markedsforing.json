@@ -1,0 +1,80 @@
+{
+  "id": "barekraftig-markedsforing",
+  "fagId": "markedsforing-og-ledelse-1",
+  "trinnId": "vg2",
+  "name": "Markedsføring og bærekraftig utvikling",
+  "intro": "Sammenhengen mellom markedsføring og bærekraft: de tre dimensjonene, forbrukspress og sirkulær økonomi, miljømerker og grønnvasking, arbeidsforhold i leverandørkjeden og åpenhetsloven – og hvordan de fire P-ene kan brukes mer bærekraftig.",
+  "kompetansemaal": [14],
+  "sammendrag": "## Bærekraftig utvikling\n\n**Bærekraftig utvikling** betyr å dekke **dagens behov** uten å ødelegge mulighetene for **kommende generasjoner** til å dekke sine. Definisjonen kommer fra **Brundtland-kommisjonen** i 1987. Bærekraft har tre **dimensjoner** som henger sammen:\n\n- **Miljø** – klima, natur og ressurser\n- **Sosial** – menneskerettigheter, rettferdige arbeidsforhold og helse\n- **Økonomisk** – lønnsomhet over tid, arbeidsplasser og verdiskaping\n\nMange virksomheter snakker om en **trippel bunnlinje**: Resultatet måles ikke bare i **penger**, men også i effekter på **mennesker** og **miljø**. **FNs bærekraftsmål nr. 12** handler om **ansvarlig forbruk og produksjon**.\n\n## Markedsføringens dobbeltrolle\n\nMarkedsføring har bidratt til **høyt forbruk**. Kampanjer som **Black Friday**, raske motetrender og stadig nye modeller kan skape **kjøpepress** og **overforbruk**. Samtidig kan markedsføring gjøre **bærekraftige** valg kjente, attraktive og enkle.\n\n## Sirkulær økonomi\n\nI en **lineær** økonomi blir produkter **produsert**, **brukt** og **kastet**. I en **sirkulær** økonomi holdes ressursene i bruk lengst mulig:\n\n- **reparere** og **vedlikeholde**\n- **gjenbruke** og selge **brukt**\n- **leie** og **dele** i stedet for å eie\n- **resirkulere** materialene\n\nNye forretningsmodeller, som **bruktsalg**, **utleie** av klær og **reparasjonstjenester**, kan være både lønnsomme og bærekraftige.\n\n## Miljømerker og grønnvasking\n\n**Miljømerker** hjelper forbrukerne å velge. Kjente merker i Norge er **Svanemerket**, **EU-blomsten**, **Fairtrade**, som handler om rettferdig handel, og **Ø-merket** for økologiske varer.\n\n**Grønnvasking** betyr å framstille et produkt eller en virksomhet som **mer miljøvennlig** enn den er. Eksempler er vage ord som «**grønn**» og «**naturlig**» uten dokumentasjon, eller å framheve ett lite miljøtiltak mens resten av virksomheten forurenser mye. Miljøpåstander skal være **sanne**, **konkrete** og **dokumenterbare**. Grønnvasking kan være **ulovlig** og skader **tilliten**.\n\n## Sosial bærekraft og leverandørkjeden\n\nMange varer produseres i land med **lave lønninger** og dårlige **arbeidsforhold**. Da fabrikkbygningen **Rana Plaza** i Bangladesh kollapset i **2013**, døde over **1100** mennesker, og det ble klart hvor lite mange merker visste om sine egne leverandører.\n\nI Norge pålegger **åpenhetsloven** fra **2022** større virksomheter å gjøre **aktsomhetsvurderinger** av menneskerettigheter og arbeidsforhold i leverandørkjeden og å svare på spørsmål fra forbrukerne.\n\n## De fire P-ene – mer bærekraftig\n\n- **Produkt**: holdbare, reparerbare produkter og mindre **emballasje**\n- **Pris**: priser som gjenspeiler de **reelle kostnadene**, og tilbud på reparasjon og brukt\n- **Plass**: **kortreiste** varer, effektiv logistikk og færre **returer**\n- **Påvirkning**: ærlige påstander og mindre **kjøpepress**\n\n## Bærekraft som konkurransefortrinn\n\nMange kunder, særlig unge, sier at bærekraft er viktig. Men **pris** og **vaner** veier ofte tyngre når de handler. Bærekraft blir derfor et konkurransefortrinn først når det er **troverdig**, **synlig** og **lett** å velge.\n\n## Dilemma\n\nKan en virksomhet som lever av å **selge mer**, samtidig bidra til at vi **forbruker mindre**? Spørsmålet er et av de største dilemmaene i moderne markedsføring.",
+  "flashcards": [
+    { "term": "Bærekraftig utvikling", "def": "Å dekke dagens behov uten å ødelegge for kommende generasjoner." },
+    { "term": "Brundtland-kommisjonen", "def": "FN-kommisjon som definerte bærekraftig utvikling i 1987." },
+    { "term": "Tre dimensjoner", "def": "Miljø, sosial og økonomisk bærekraft." },
+    { "term": "Trippel bunnlinje", "def": "Resultat målt i penger, mennesker og miljø." },
+    { "term": "Bærekraftsmål 12", "def": "Ansvarlig forbruk og produksjon." },
+    { "term": "Kjøpepress", "def": "Press om å kjøpe mer enn man trenger." },
+    { "term": "Lineær økonomi", "def": "Produsere, bruke og kaste." },
+    { "term": "Sirkulær økonomi", "def": "Ressurser holdes i bruk gjennom reparasjon, gjenbruk og resirkulering." },
+    { "term": "Svanemerket", "def": "Nordisk miljømerke." },
+    { "term": "Fairtrade", "def": "Merke for rettferdig handel." },
+    { "term": "Ø-merket", "def": "Merke for økologiske varer." },
+    { "term": "Grønnvasking", "def": "Å framstille noe som mer miljøvennlig enn det er." },
+    { "term": "Rana Plaza", "def": "Fabrikkbygning i Bangladesh som kollapset i 2013." },
+    { "term": "Åpenhetsloven", "def": "Krever at større virksomheter vurderer menneskerettigheter i leverandørkjeden." },
+    { "term": "Aktsomhetsvurdering", "def": "Kartlegging av risiko for brudd på menneskerettigheter." },
+    { "term": "Kortreist", "def": "Produsert nær der det selges." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er bærekraftig utvikling?", "options": ["Størst mulig vekst nå", "Å dekke dagens behov uten å ødelegge for kommende generasjoner", "Bare miljøvern", "Bare økonomisk vekst"], "correct": 1, "explain": "Brundtland-kommisjonen, 1987." },
+    { "id": "q02", "text": "Hvilke tre dimensjoner har bærekraft?", "options": ["Miljø, sosial og økonomisk", "Pris, produkt og plass", "Lokal, nasjonal og global", "Kort, middels og lang"], "correct": 0, "explain": "De henger sammen." },
+    { "id": "q03", "text": "Hva er grønnvasking?", "options": ["Å vaske klær miljøvennlig", "Å resirkulere", "Å framstille noe som mer miljøvennlig enn det er", "Å bruke grønne farger"], "correct": 2, "explain": "Kan være ulovlig." },
+    { "id": "q04", "text": "Hva kjennetegner sirkulær økonomi?", "options": ["Produsere, bruke og kaste", "Kjøpe mest mulig", "Bare importere", "Reparasjon, gjenbruk og resirkulering"], "correct": 3, "explain": "Ressursene holdes i bruk." },
+    { "id": "q05", "text": "Hva handler Fairtrade-merket om?", "options": ["Rettferdig handel", "Økologisk landbruk", "Lav pris", "Norsk produksjon"], "correct": 0, "explain": "Sosial bærekraft." },
+    { "id": "q06", "text": "Hva krever åpenhetsloven?", "options": ["At alle priser er like", "At større virksomheter vurderer menneskerettigheter i leverandørkjeden", "At all reklame er grønn", "At alle varer er norske"], "correct": 1, "explain": "Og svarer på spørsmål fra forbrukerne." },
+    { "id": "q07", "text": "Hva handler FNs bærekraftsmål nr. 12 om?", "options": ["Rent vann", "Utdanning", "Ansvarlig forbruk og produksjon", "Fred"], "correct": 2, "explain": "Mest relevant for markedsføring." },
+    { "id": "q08", "text": "Hvilken påstand er mest troverdig?", "options": ["«Grønn og naturlig»", "«Helt miljøvennlig»", "«Bra for kloden»", "«Laget av 70 % resirkulert plast, dokumentert av tredjepart»"], "correct": 3, "explain": "Konkret og dokumenterbar." },
+    { "id": "q09", "text": "Hva er en bærekraftig forretningsmodell?", "options": ["Utleie av klær", "Kampanjer som oppfordrer til å kjøpe mer", "Engangsprodukter", "Produkter som ikke kan repareres"], "correct": 0, "explain": "En del av sirkulær økonomi." },
+    { "id": "q10", "text": "Når blir bærekraft et konkurransefortrinn?", "options": ["Når det bare står i reklamen", "Når det er troverdig, synlig og lett å velge", "Når prisen er dobbelt så høy", "Aldri"], "correct": 1, "explain": "Pris og vaner veier ofte tungt." }
+  ],
+  "mindmap": {
+    "label": "Bærekraftig markedsføring",
+    "children": [
+      { "label": "Bærekraft", "children": [
+        { "label": "Miljø" },
+        { "label": "Sosial" },
+        { "label": "Økonomisk" }
+      ] },
+      { "label": "Forbruk", "children": [
+        { "label": "Kjøpepress" },
+        { "label": "Sirkulær økonomi" }
+      ] },
+      { "label": "Merker og påstander", "children": [
+        { "label": "Miljømerker" },
+        { "label": "Grønnvasking" }
+      ] },
+      { "label": "Leverandørkjeden", "children": [
+        { "label": "Rana Plaza" },
+        { "label": "Åpenhetsloven" }
+      ] },
+      { "label": "Fire P-er", "children": [
+        { "label": "Holdbare produkter" },
+        { "label": "Kortreist og færre returer" },
+        { "label": "Ærlig kommunikasjon" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Markedsføring kan både bidra til overforbruk og gjøre bærekraftige valg enklere.", "correct": true, "explain": "Markedsføringens dobbeltrolle." },
+      { "id": "m02", "type": "sant-usant", "text": "Vage ord som «grønn» uten dokumentasjon er god praksis i miljøreklame.", "correct": false, "explain": "Påstander skal være konkrete og dokumenterbare." },
+      { "id": "m03", "type": "sant-usant", "text": "Færre returer i netthandelen kan gjøre distribusjonen mer bærekraftig.", "correct": true, "explain": "Mindre transport og håndtering." },
+      { "id": "m04", "type": "sant-usant", "text": "Sosial bærekraft handler bare om klima.", "correct": false, "explain": "Den handler om menneskerettigheter og arbeidsforhold." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er trippel bunnlinje?", "options": ["Tre typer skatt", "Resultat målt i penger, mennesker og miljø", "Tre kvartaler med overskudd", "Tre butikker"], "correct": 1, "explain": "Mer enn bare profitt." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er Svanemerket?", "options": ["Et nordisk miljømerke", "Et merke for luksusvarer", "Et merke for norske varer", "Et merke for billige varer"], "correct": 0, "explain": "Hjelper forbrukerne å velge." },
+      { "id": "m07", "type": "flervalg", "text": "Hva viste Rana Plaza-ulykken?", "options": ["At fabrikkene i Bangladesh var trygge", "At klær bør være dyrere", "At mange merker visste lite om egne leverandører", "At netthandel er farlig"], "correct": 2, "explain": "Over 1100 mennesker døde." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

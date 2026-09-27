@@ -1,0 +1,80 @@
+{
+  "id": "situasjonsanalyse",
+  "fagId": "markedsforing-og-ledelse-1",
+  "trinnId": "vg2",
+  "name": "Situasjonsanalyse",
+  "intro": "Hvordan en virksomhet analyserer sin egen situasjon som grunnlag for beslutninger: intern analyse, PESTEL, markeds- og konkurrentanalyse, SWOT-analysen og hvordan den brukes til å velge strategier.",
+  "kompetansemaal": [5],
+  "sammendrag": "## Hva er en situasjonsanalyse?\n\nEn **situasjonsanalyse** kartlegger **hvor virksomheten står i dag**. Den er det første steget i en **markedsplan** og gir grunnlag for å sette **mål** og velge **strategier**. Analysen ser både **innover** i virksomheten og **utover** mot omgivelsene.\n\n## Intern analyse\n\nDen **interne** analysen ser på forhold virksomheten **selv kan påvirke**:\n\n- **økonomi** – omsetning, lønnsomhet og kapital\n- **ansatte** – kompetanse og motivasjon\n- **produkter** – kvalitet og sortiment\n- **beliggenhet**, utstyr og teknologi\n- **omdømme** og merkevare\n- **markedsføringen** så langt\n\n## Ekstern analyse\n\nDen **eksterne** analysen ser på forhold virksomheten **ikke** kan styre, men må **tilpasse** seg.\n\n### PESTEL-analysen\n\nPESTEL-analysen ser på **makroomgivelsene**. Bokstavene står for de engelske ordene *political*, *economic*, *social*, *technological*, *environmental* og *legal*:\n\n- **Politiske** forhold – avgifter og politiske vedtak\n- **Økonomiske** forhold – renter, prisvekst, arbeidsledighet og kjøpekraft\n- **Sosiale** forhold – befolkningsutvikling, trender og verdier\n- **Teknologiske** forhold – digitalisering og nye løsninger\n- **Miljøforhold** – klima og krav til bærekraft\n- **Juridiske** forhold – regler for markedsføring, personvern og arbeidsliv\n\n### Markedsanalyse\n\n- Hvor **stort** er markedet, og **vokser** det?\n- Hvem er **kundene**, og hva er de opptatt av?\n- Hvilken **markedsandel** har vi? Markedsandelen er vårt salg delt på det totale salget i markedet.\n\n### Konkurrentanalyse\n\nHvem er **konkurrentene**, hvilke **styrker** og **svakheter** har de, og hvordan **posisjonerer** de seg? **Direkte** konkurrenter selger det samme, mens **indirekte** konkurrenter dekker det samme behovet på en annen måte – en kino konkurrerer for eksempel også med strømmetjenester.\n\n## SWOT-analysen\n\n**SWOT** samler analysen i fire felt:\n\n| | Positivt | Negativt |\n|---|---|---|\n| **Internt** | **Styrker** (Strengths) | **Svakheter** (Weaknesses) |\n| **Eksternt** | **Muligheter** (Opportunities) | **Trusler** (Threats) |\n\n### Eksempel: en lokal sykkelbutikk\n\n- **Styrker**: dyktige mekanikere og lojale kunder\n- **Svakheter**: lite nettbutikk og lite lager\n- **Muligheter**: flere vil sykle til jobben, og elsykler er populære\n- **Trusler**: store nettbutikker med lave priser\n\n## Fra analyse til strategi\n\nSWOT-analysen er bare nyttig hvis den brukes til **beslutninger**. Virksomheten kan\n\n- bruke **styrkene** til å utnytte **mulighetene** – mekanikerne kan tilby service på elsykler\n- bruke **styrkene** til å møte **truslene** – god service og rådgivning som nettbutikkene ikke kan gi\n- redusere **svakhetene** – bygge ut nettbutikken\n- unngå situasjoner der **svakheter** møter **trusler**\n\n## Vurdering av analysen\n\nEn god situasjonsanalyse bygger på **fakta** og **kilder**, ikke bare synsing. Den bør være **ærlig** om svakheter og **oppdateres** jevnlig, fordi markedet endrer seg. Samme forhold kan være både en **mulighet** og en **trussel** – for eksempel ny teknologi.",
+  "flashcards": [
+    { "term": "Situasjonsanalyse", "def": "Kartlegging av hvor virksomheten står i dag." },
+    { "term": "Intern analyse", "def": "Forhold virksomheten selv kan påvirke, som økonomi og ansatte." },
+    { "term": "Ekstern analyse", "def": "Forhold i omgivelsene virksomheten må tilpasse seg." },
+    { "term": "PESTEL", "def": "Politiske, økonomiske, sosiale, teknologiske, miljømessige og juridiske forhold." },
+    { "term": "Makroomgivelser", "def": "Store samfunnsforhold som påvirker alle virksomheter." },
+    { "term": "Markedsandel", "def": "Eget salg delt på det totale salget i markedet." },
+    { "term": "Direkte konkurrent", "def": "Selger det samme produktet." },
+    { "term": "Indirekte konkurrent", "def": "Dekker samme behov på en annen måte." },
+    { "term": "SWOT", "def": "Styrker, svakheter, muligheter og trusler." },
+    { "term": "Styrker og svakheter", "def": "Interne forhold i SWOT." },
+    { "term": "Muligheter og trusler", "def": "Eksterne forhold i SWOT." },
+    { "term": "Konkurrentanalyse", "def": "Kartlegging av konkurrentenes styrker, svakheter og posisjon." },
+    { "term": "Markedsvekst", "def": "Om markedet blir større over tid." },
+    { "term": "Omdømme", "def": "Hvordan omgivelsene oppfatter virksomheten." },
+    { "term": "Fra SWOT til strategi", "def": "Bruke styrker til å utnytte muligheter og møte trusler." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er formålet med en situasjonsanalyse?", "options": ["Å lage reklame", "Å kartlegge hvor virksomheten står som grunnlag for beslutninger", "Å ansette folk", "Å sette lønn"], "correct": 1, "explain": "Første steg i markedsplanen." },
+    { "id": "q02", "text": "Hvilket forhold er internt?", "options": ["De ansattes kompetanse", "Renten", "Nye lover", "Konkurrentenes priser"], "correct": 0, "explain": "Virksomheten kan selv påvirke det." },
+    { "id": "q03", "text": "Hva står den andre E-en i PESTEL for?", "options": ["Etikk", "Eksport", "Miljø (environmental)", "Effektivitet"], "correct": 2, "explain": "Den første E-en står for økonomi (economic)." },
+    { "id": "q04", "text": "Hvilke felt i SWOT er eksterne?", "options": ["Styrker og svakheter", "Styrker og muligheter", "Svakheter og trusler", "Muligheter og trusler"], "correct": 3, "explain": "Forhold i omgivelsene." },
+    { "id": "q05", "text": "En kino konkurrerer med strømmetjenester. Hva slags konkurrent er strømmetjenesten?", "options": ["Indirekte", "Direkte", "Intern", "Ingen konkurrent"], "correct": 0, "explain": "Dekker samme behov på en annen måte." },
+    { "id": "q06", "text": "Hvordan regner du ut markedsandel?", "options": ["Overskudd delt på omsetning", "Eget salg delt på totalt salg i markedet", "Antall ansatte delt på kunder", "Pris ganger mengde"], "correct": 1, "explain": "Oppgis ofte i prosent." },
+    { "id": "q07", "text": "Hvilket forhold hører til PESTEL-analysen?", "options": ["De ansattes motivasjon", "Butikkens beliggenhet", "Prisveksten i samfunnet", "Egne produkter"], "correct": 2, "explain": "Et økonomisk forhold i makroomgivelsene." },
+    { "id": "q08", "text": "Hvordan bør SWOT-analysen brukes?", "options": ["Som pynt i en rapport", "Bare til å liste opp svakheter", "Bare én gang", "Til å velge strategier, for eksempel bruke styrker til å utnytte muligheter"], "correct": 3, "explain": "Analysen må føre til beslutninger." },
+    { "id": "q09", "text": "Lojale kunder er i en SWOT-analyse", "options": ["en styrke", "en trussel", "en mulighet", "en svakhet"], "correct": 0, "explain": "Et positivt internt forhold." },
+    { "id": "q10", "text": "Hvorfor bør en situasjonsanalyse oppdateres jevnlig?", "options": ["Fordi loven krever det hver uke", "Fordi markedet endrer seg", "Fordi den alltid er feil", "Fordi konkurrentene ber om det"], "correct": 1, "explain": "Nye muligheter og trusler oppstår." }
+  ],
+  "mindmap": {
+    "label": "Situasjonsanalyse",
+    "children": [
+      { "label": "Intern", "children": [
+        { "label": "Økonomi og ansatte" },
+        { "label": "Produkter" },
+        { "label": "Omdømme" }
+      ] },
+      { "label": "PESTEL", "children": [
+        { "label": "Politikk og økonomi" },
+        { "label": "Sosialt og teknologi" },
+        { "label": "Miljø og juss" }
+      ] },
+      { "label": "Marked og konkurrenter", "children": [
+        { "label": "Markedsstørrelse og vekst" },
+        { "label": "Markedsandel" },
+        { "label": "Direkte og indirekte" }
+      ] },
+      { "label": "SWOT", "children": [
+        { "label": "Styrker og svakheter" },
+        { "label": "Muligheter og trusler" }
+      ] },
+      { "label": "Strategi", "children": [
+        { "label": "Styrker møter muligheter" },
+        { "label": "Reduser svakheter" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Samme forhold, som ny teknologi, kan være både en mulighet og en trussel.", "correct": true, "explain": "Det avhenger av hvordan virksomheten møter det." },
+      { "id": "m02", "type": "sant-usant", "text": "En situasjonsanalyse bør bygge på synsing, ikke fakta.", "correct": false, "explain": "Den bør bygge på fakta og kilder." },
+      { "id": "m03", "type": "sant-usant", "text": "Nye regler for markedsføring er et juridisk forhold i PESTEL.", "correct": true, "explain": "Juridiske forhold i makroomgivelsene." },
+      { "id": "m04", "type": "sant-usant", "text": "Svakheter er forhold i omgivelsene som virksomheten ikke kan påvirke.", "correct": false, "explain": "Svakheter er interne forhold." },
+      { "id": "m05", "type": "flervalg", "text": "En sykkelbutikk merker at flere vil sykle til jobben. Hva er dette i SWOT?", "options": ["Styrke", "Mulighet", "Svakhet", "Trussel"], "correct": 1, "explain": "Et positivt eksternt forhold." },
+      { "id": "m06", "type": "flervalg", "text": "Store nettbutikker med lave priser er for en lokal butikk", "options": ["en trussel", "en styrke", "en mulighet", "en svakhet"], "correct": 0, "explain": "Et negativt eksternt forhold." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilket forhold er sosialt i PESTEL?", "options": ["Renten", "Nye avgifter", "Befolkningsutvikling og trender", "Digitalisering"], "correct": 2, "explain": "Endringer i befolkning, verdier og livsstil." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

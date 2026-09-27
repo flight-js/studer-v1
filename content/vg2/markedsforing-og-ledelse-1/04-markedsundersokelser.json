@@ -1,0 +1,83 @@
+{
+  "id": "markedsundersokelser",
+  "fagId": "markedsforing-og-ledelse-1",
+  "trinnId": "vg2",
+  "name": "Markedsundersøkelser",
+  "intro": "Hvordan virksomheter får innsikt i markeder og målgrupper: primær- og sekundærdata, kvantitative og kvalitative metoder, utvalg, spørreskjema, feilkilder, digitale data og personvern – og hvordan du planlegger og gjennomfører en egen undersøkelse.",
+  "kompetansemaal": [4],
+  "sammendrag": "## Hvorfor markedsundersøkelser?\n\nEn **markedsundersøkelse** samler inn og analyserer informasjon om **markedet**, **kundene** og **konkurrentene**. Målet er å ta **bedre beslutninger** – for eksempel om et nytt produkt vil selge, hvilken pris kundene godtar, eller hvordan de oppfatter merkevaren.\n\n## Fremgangsmåte\n\n1. Formuler en **problemstilling** – hva vil vi vite?\n2. Velg **datatype** og **metode**.\n3. Bestem **utvalg**.\n4. Lag **spørsmål** og test dem.\n5. **Samle inn** data.\n6. **Analyser** og **presenter** resultatene.\n7. Trekk **konklusjoner** og vurder **feilkilder**.\n\n## Sekundærdata og primærdata\n\n- **Sekundærdata** er informasjon som **allerede finnes**, for eksempel statistikk fra **SSB**, bransjerapporter, salgstall og konkurrentenes nettsider. De er ofte **billige** og **raske** å få tak i, men passer ikke alltid nøyaktig til problemstillingen.\n- **Primærdata** samler virksomheten inn **selv** for akkurat denne problemstillingen. De er mer **tilpasset**, men tar mer **tid** og koster mer.\n\nStart gjerne med sekundærdata og samle primærdata der det mangler kunnskap.\n\n## Kvantitative og kvalitative metoder\n\n**Kvantitative** metoder gir **tall** og egner seg til å undersøke **mange**:\n\n- **Spørreundersøkelser** på nett, telefon eller på gata\n- **Eksperimenter**, for eksempel **A/B-testing**, der to versjoner av en nettside eller annonse testes mot hverandre\n\n**Kvalitative** metoder gir **dybde** og **forståelse**:\n\n- **Dybdeintervjuer** med enkeltpersoner\n- **Fokusgrupper**, der en liten gruppe diskuterer et produkt eller en reklame\n- **Observasjon** av hvordan kunder beveger seg i butikken eller bruker et produkt\n\n## Utvalg\n\nDet er sjelden mulig å spørre **alle** i målgruppen – **populasjonen**. Derfor spør man et **utvalg**. Et **representativt** utvalg ligner populasjonen, for eksempel i alder og kjønn. Et **tilfeldig** utvalg gir alle samme sjanse til å bli trukket. Å bare spørre venner gir et **skjevt** utvalg.\n\n## Gode spørsmål\n\n- Bruk **enkle** og **klare** formuleringer.\n- Unngå **ledende** spørsmål, som «Er ikke produktet vårt bra?».\n- Spør om **én ting** om gangen.\n- Bruk gjerne **svaralternativer** og **skalaer**, for eksempel fra 1 til 5.\n- **Test** skjemaet på noen få før du sender det ut.\n\n## Feilkilder\n\n- **Skjevt utvalg**\n- **Frafall** – de som svarer, er ikke som de som lar være\n- **Sosial ønskverdighet** – folk svarer det som virker riktig\n- Folk **gjør** ikke alltid det de **sier** de vil gjøre\n\nResultatenes **reliabilitet** (pålitelighet) og **validitet** (om vi måler det vi vil) må vurderes.\n\n## Digitale data\n\nVirksomheter har tilgang til store mengder **data** om kundeatferd: **nettstatistikk**, klikk, handlehistorikk fra **kundeklubber** og engasjement i **sosiale medier**. Dataene viser hva kundene **gjør**, men ikke alltid **hvorfor**.\n\n## Personvern og etikk\n\nInnsamling av **personopplysninger** må følge **personvernregelverket** (GDPR). Deltakerne skal vite **hva** dataene brukes til, delta **frivillig** og kunne være **anonyme** når det er mulig. Data skal ikke lagres **lenger** enn nødvendig.",
+  "flashcards": [
+    { "term": "Markedsundersøkelse", "def": "Innsamling og analyse av informasjon om marked, kunder og konkurrenter." },
+    { "term": "Sekundærdata", "def": "Informasjon som allerede finnes, som SSB-statistikk." },
+    { "term": "Primærdata", "def": "Data virksomheten samler inn selv for problemstillingen." },
+    { "term": "Kvantitativ metode", "def": "Gir tall og egner seg til å undersøke mange." },
+    { "term": "Kvalitativ metode", "def": "Gir dybde og forståelse." },
+    { "term": "A/B-testing", "def": "To versjoner testes mot hverandre for å se hvilken som virker best." },
+    { "term": "Dybdeintervju", "def": "Grundig samtale med én person." },
+    { "term": "Fokusgruppe", "def": "Liten gruppe som diskuterer et produkt eller en reklame." },
+    { "term": "Populasjon", "def": "Alle i gruppen man vil vite noe om." },
+    { "term": "Utvalg", "def": "De som faktisk blir spurt." },
+    { "term": "Representativt utvalg", "def": "Et utvalg som ligner populasjonen." },
+    { "term": "Ledende spørsmål", "def": "Spørsmål som styrer mot et bestemt svar." },
+    { "term": "Frafall", "def": "At noen ikke svarer, slik at resultatene kan bli skjeve." },
+    { "term": "Reliabilitet", "def": "Pålitelighet – samme resultat ved gjentakelse." },
+    { "term": "Validitet", "def": "At man måler det man vil måle." },
+    { "term": "GDPR", "def": "Personvernregelverket for behandling av personopplysninger." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er sekundærdata?", "options": ["Data man samler inn selv", "Informasjon som allerede finnes", "Data fra fokusgrupper", "Data fra eksperimenter"], "correct": 1, "explain": "For eksempel statistikk fra SSB." },
+    { "id": "q02", "text": "Hvilken metode er kvalitativ?", "options": ["Fokusgruppe", "Spørreundersøkelse med 1000 svar", "A/B-testing", "Salgsstatistikk"], "correct": 0, "explain": "Gir dybde og forståelse." },
+    { "id": "q03", "text": "Hva er A/B-testing?", "options": ["Et dybdeintervju", "En prisstrategi", "At to versjoner testes mot hverandre", "En type segmentering"], "correct": 2, "explain": "Et eksperiment." },
+    { "id": "q04", "text": "Hva er et representativt utvalg?", "options": ["Bare venner", "Bare de som vil svare", "Alle i populasjonen", "Et utvalg som ligner populasjonen"], "correct": 3, "explain": "For eksempel i alder og kjønn." },
+    { "id": "q05", "text": "Hva er galt med spørsmålet «Er ikke produktet vårt bra?»?", "options": ["Det er ledende", "Det er for kort", "Det er kvalitativt", "Det har svaralternativer"], "correct": 0, "explain": "Det styrer mot et bestemt svar." },
+    { "id": "q06", "text": "Hva er en fordel med primærdata?", "options": ["De er alltid billige", "De er tilpasset problemstillingen", "De finnes allerede", "De krever ingen planlegging"], "correct": 1, "explain": "Men de tar mer tid og koster mer." },
+    { "id": "q07", "text": "Hva er frafall?", "options": ["At prisen faller", "At produktet går ut av salg", "At noen ikke svarer", "At utvalget er for stort"], "correct": 2, "explain": "Kan gi skjeve resultater." },
+    { "id": "q08", "text": "Hvilket regelverk gjelder ved innsamling av personopplysninger?", "options": ["Arbeidsmiljøloven", "Arveloven", "Barneloven", "Personvernregelverket (GDPR)"], "correct": 3, "explain": "Deltakerne skal vite hva dataene brukes til." },
+    { "id": "q09", "text": "Hva er en svakhet ved digitale kundedata?", "options": ["De viser hva kundene gjør, men ikke alltid hvorfor", "De er alltid feil", "De er ulovlige", "De er for få"], "correct": 0, "explain": "Kvalitative metoder kan gi forklaringene." },
+    { "id": "q10", "text": "Hva bør du gjøre før du sender ut et spørreskjema?", "options": ["Gjøre det så langt som mulig", "Teste det på noen få", "Bruke ledende spørsmål", "Sende det bare til venner"], "correct": 1, "explain": "Da oppdager du uklare spørsmål." }
+  ],
+  "mindmap": {
+    "label": "Markedsundersøkelser",
+    "children": [
+      { "label": "Prosess", "children": [
+        { "label": "Problemstilling" },
+        { "label": "Metode og utvalg" },
+        { "label": "Analyse" }
+      ] },
+      { "label": "Data", "children": [
+        { "label": "Sekundærdata" },
+        { "label": "Primærdata" },
+        { "label": "Digitale data" }
+      ] },
+      { "label": "Metoder", "children": [
+        { "label": "Spørreskjema" },
+        { "label": "A/B-testing" },
+        { "label": "Intervju og fokusgruppe" },
+        { "label": "Observasjon" }
+      ] },
+      { "label": "Kvalitet", "children": [
+        { "label": "Utvalg" },
+        { "label": "Feilkilder" },
+        { "label": "Reliabilitet og validitet" }
+      ] },
+      { "label": "Etikk", "children": [
+        { "label": "GDPR" },
+        { "label": "Frivillighet og anonymitet" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Det er lurt å starte med sekundærdata før man samler inn primærdata.", "correct": true, "explain": "Da slipper man å samle inn det som allerede finnes." },
+      { "id": "m02", "type": "sant-usant", "text": "Folk gjør alltid det de sier de vil gjøre i en undersøkelse.", "correct": false, "explain": "Det er en vanlig feilkilde." },
+      { "id": "m03", "type": "sant-usant", "text": "Et tilfeldig utvalg gir alle i populasjonen samme sjanse til å bli trukket.", "correct": true, "explain": "Det reduserer skjevhet." },
+      { "id": "m04", "type": "sant-usant", "text": "Personopplysninger kan lagres så lenge virksomheten ønsker.", "correct": false, "explain": "De skal ikke lagres lenger enn nødvendig." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken metode passer best for å forstå hvorfor kunder velger bort et produkt?", "options": ["Salgsstatistikk", "Dybdeintervjuer", "Nettstatistikk", "Befolkningsstatistikk"], "correct": 1, "explain": "Kvalitative metoder gir forklaringer." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er en populasjon i en markedsundersøkelse?", "options": ["Alle i gruppen man vil vite noe om", "De som svarer", "Konkurrentene", "De ansatte"], "correct": 0, "explain": "Utvalget er de som faktisk blir spurt." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er sosial ønskverdighet?", "options": ["At kunder er sosiale", "At produkter er populære", "At folk svarer det som virker riktig eller akseptert", "At utvalget er stort"], "correct": 2, "explain": "En feilkilde." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

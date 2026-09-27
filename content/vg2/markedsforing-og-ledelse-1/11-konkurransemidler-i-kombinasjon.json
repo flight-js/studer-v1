@@ -1,0 +1,79 @@
+{
+  "id": "konkurransemidler-i-kombinasjon",
+  "fagId": "markedsforing-og-ledelse-1",
+  "trinnId": "vg2",
+  "name": "Konkurransemidlene i kombinasjon",
+  "intro": "Hvordan virksomheter kombinerer produkt, pris, distribusjon og kommunikasjon til en helhetlig markedsføringsmiks – konsistens, konkurransestrategier, tjenestenes sju P-er, butikkens konkurransemidler og tilpasning gjennom produktlivssyklusen.",
+  "kompetansemaal": [11],
+  "sammendrag": "## Helheten teller\n\nDe fire P-ene – **produkt**, **pris**, **plass** og **påvirkning** – virker ikke hver for seg. Kundene opplever **summen**. Derfor må konkurransemidlene **henge sammen** og passe til **målgruppen** og **posisjoneringen**. Dette kalles **konsistens**.\n\n## To eksempler\n\n| | Lavpriskjede | Luksusmerke |\n|---|---|---|\n| **Produkt** | smalt sortiment, mange egne merker | høy kvalitet og design |\n| **Pris** | lav | høy |\n| **Plass** | mange butikker, enkel innredning | få, eksklusive butikker |\n| **Påvirkning** | reklame med priser og tilbud | stemningsfulle bilder og kjente ambassadører |\n\nHvis luksusmerket plutselig selges på **tilbud** i alle butikker, blir miksen **inkonsistent**, og merkevaren kan svekkes.\n\n## Konkurransestrategier\n\n**Michael Porter** beskrev tre hovedstrategier:\n\n- **Kostnadsledelse**: å ha **lavest kostnader** og konkurrere på **pris**.\n- **Differensiering**: å være **annerledes** og **bedre** på noe kundene verdsetter, som kvalitet, design eller service, slik at de er villige til å betale mer.\n- **Fokus**: å satse på en **smal** målgruppe, enten med lav pris eller med et spesialisert tilbud.\n\nValget av strategi styrer hvordan konkurransemidlene kombineres.\n\n## Tjenester – sju P-er\n\nFor tjenester kommer tre P-er i tillegg:\n\n- **Personale** – de ansatte er ofte en del av selve tjenesten.\n- **Prosess** – hvordan tjenesten leveres: bestilling, ventetid og betaling.\n- **Fysiske omgivelser** – lokaler, interiør, musikk og renhold. De gir kunden **signaler** om kvalitet før tjenesten er levert.\n\nPå en kafé er kaffen bare en del av produktet. **Stemningen**, **ventetiden** og **vennligheten** til de ansatte påvirker opplevelsen like mye.\n\n## Butikkens konkurransemidler\n\nEn butikk konkurrerer med **beliggenhet**, **sortiment**, **pris**, **service**, **åpningstider** og **varepresentasjon** – hvordan varene er plassert og presentert. Varer i **øyehøyde** og **impulsvarer** ved kassen selger bedre.\n\n## Tilpasning gjennom livssyklusen\n\nMiksen endres etter hvert som produktet går gjennom **produktlivssyklusen**:\n\n- **Introduksjon**: mye **kommunikasjon** for å skape kjennskap, **skumming** eller **penetrasjonspris**, begrenset distribusjon.\n- **Vekst**: bredere **distribusjon** og flere varianter.\n- **Modning**: hard konkurranse – **prisaktiviteter**, **lojalitetsprogrammer** og produktforbedringer.\n- **Nedgang**: kutte kostnader, redusere sortimentet eller fornye produktet.\n\n## Budsjett og prioritering\n\nVirksomheten må fordele **markedsføringsbudsjettet** mellom konkurransemidlene. En liten virksomhet med lite penger kan satse på **produkt**, **service** og **fortjente medier**, mens store merkevarer bruker mye på **reklame**.\n\n## Å vurdere en virksomhets miks\n\nNår du vurderer hvordan en virksomhet kombinerer konkurransemidlene, kan du spørre:\n\n- Passer miksen til **målgruppen**?\n- Er konkurransemidlene **konsistente** med posisjoneringen?\n- Hvordan skiller virksomheten seg fra **konkurrentene**?\n- Er miksen **lønnsom** og **bærekraftig** på sikt?",
+  "flashcards": [
+    { "term": "Markedsføringsmiks", "def": "Kombinasjonen av konkurransemidlene." },
+    { "term": "Konsistens", "def": "At konkurransemidlene henger sammen og passer posisjoneringen." },
+    { "term": "Inkonsistent miks", "def": "Konkurransemidler som sender motstridende signaler." },
+    { "term": "Kostnadsledelse", "def": "Å ha lavest kostnader og konkurrere på pris." },
+    { "term": "Differensiering", "def": "Å være annerledes og bedre på noe kundene verdsetter." },
+    { "term": "Fokusstrategi", "def": "Å satse på en smal målgruppe." },
+    { "term": "Michael Porter", "def": "Beskrev tre hovedstrategier for konkurranse." },
+    { "term": "Personale som P", "def": "De ansatte er ofte en del av tjenesten." },
+    { "term": "Prosess som P", "def": "Hvordan tjenesten leveres – bestilling, ventetid og betaling." },
+    { "term": "Fysiske omgivelser", "def": "Lokaler og interiør som signaliserer kvalitet." },
+    { "term": "Varepresentasjon", "def": "Hvordan varene plasseres og presenteres i butikken." },
+    { "term": "Impulsvarer", "def": "Varer ved kassen som kjøpes uten plan." },
+    { "term": "Lojalitetsprogram", "def": "Tiltak som belønner faste kunder." },
+    { "term": "Markedsføringsbudsjett", "def": "Pengene som fordeles mellom konkurransemidlene." },
+    { "term": "Miks i modningsfasen", "def": "Prisaktiviteter, lojalitetsprogrammer og produktforbedringer." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva betyr det at markedsføringsmiksen er konsistent?", "options": ["At den er billig", "At konkurransemidlene henger sammen og passer posisjoneringen", "At den aldri endres", "At den bare bruker reklame"], "correct": 1, "explain": "Kundene opplever summen." },
+    { "id": "q02", "text": "Hvilken kombinasjon passer en lavpriskjede?", "options": ["Smalt sortiment, lav pris og enkel innredning", "Høy pris og eksklusive butikker", "Kjente ambassadører og høy pris", "Få butikker og luksusvarer"], "correct": 0, "explain": "Alt signaliserer lav pris." },
+    { "id": "q03", "text": "Hva er differensiering?", "options": ["Å ha lavest pris", "Å satse på alle kunder", "Å være annerledes og bedre på noe kundene verdsetter", "Å kutte kostnader"], "correct": 2, "explain": "Kundene betaler mer for det unike." },
+    { "id": "q04", "text": "Hvilke P-er kommer i tillegg for tjenester?", "options": ["Profitt, plan og presse", "Pris og plass", "Produkt og påvirkning", "Personale, prosess og fysiske omgivelser"], "correct": 3, "explain": "Sju P-er." },
+    { "id": "q05", "text": "Hva kan skje hvis et luksusmerke selges på tilbud i alle butikker?", "options": ["Merkevaren kan svekkes", "Merkevaren blir sterkere", "Ingenting", "Prisen stiger"], "correct": 0, "explain": "Miksen blir inkonsistent." },
+    { "id": "q06", "text": "Hvilken strategi satser på en smal målgruppe?", "options": ["Kostnadsledelse", "Fokus", "Differensiering", "Masseproduksjon"], "correct": 1, "explain": "Porters tredje strategi." },
+    { "id": "q07", "text": "Hvilken miks passer i introduksjonsfasen?", "options": ["Kutte all reklame", "Legge ned produktet", "Mye kommunikasjon for å skape kjennskap", "Bare lojalitetsprogrammer"], "correct": 2, "explain": "Kundene må få vite om produktet." },
+    { "id": "q08", "text": "Hva er varepresentasjon?", "options": ["Prisen på varene", "Reklame i avisen", "Leveringstiden", "Hvordan varene plasseres og presenteres i butikken"], "correct": 3, "explain": "Varer i øyehøyde selger bedre." },
+    { "id": "q09", "text": "Hvorfor er fysiske omgivelser viktige for tjenester?", "options": ["De gir kunden signaler om kvalitet", "De er billige", "De er lovpålagt", "De erstatter personalet"], "correct": 0, "explain": "Tjenesten kan ikke prøves på forhånd." },
+    { "id": "q10", "text": "Hva kan en liten virksomhet med lite penger satse på?", "options": ["Dyr TV-reklame", "Produkt, service og fortjente medier", "Priskrig med de største", "Eksklusive butikker overalt"], "correct": 1, "explain": "Konkurransemidlene må tilpasses ressursene." }
+  ],
+  "mindmap": {
+    "label": "Konkurransemidlene i kombinasjon",
+    "children": [
+      { "label": "Konsistens", "children": [
+        { "label": "Passer målgruppen" },
+        { "label": "Passer posisjoneringen" }
+      ] },
+      { "label": "Porter", "children": [
+        { "label": "Kostnadsledelse" },
+        { "label": "Differensiering" },
+        { "label": "Fokus" }
+      ] },
+      { "label": "Tjenester", "children": [
+        { "label": "Personale" },
+        { "label": "Prosess" },
+        { "label": "Fysiske omgivelser" }
+      ] },
+      { "label": "Butikk", "children": [
+        { "label": "Beliggenhet og sortiment" },
+        { "label": "Varepresentasjon" }
+      ] },
+      { "label": "Over tid", "children": [
+        { "label": "Livssyklus" },
+        { "label": "Budsjett" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Kundene opplever summen av konkurransemidlene, ikke hvert enkelt for seg.", "correct": true, "explain": "Derfor må de henge sammen." },
+      { "id": "m02", "type": "sant-usant", "text": "Markedsføringsmiksen bør være den samme gjennom hele produktlivssyklusen.", "correct": false, "explain": "Den tilpasses fasen." },
+      { "id": "m03", "type": "sant-usant", "text": "På en kafé påvirker ventetid og vennlighet kundens opplevelse.", "correct": true, "explain": "Prosess og personale er en del av tjenesten." },
+      { "id": "m04", "type": "sant-usant", "text": "En virksomhet som satser på kostnadsledelse, konkurrerer først og fremst med høy pris.", "correct": false, "explain": "Den konkurrerer med lav pris." },
+      { "id": "m05", "type": "flervalg", "text": "Hvor plasseres ofte impulsvarer?", "options": ["Bakerst i butikken", "Ved kassen", "På lageret", "I nettbutikken"], "correct": 1, "explain": "Kundene står og venter." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilket tiltak passer i modningsfasen?", "options": ["Lojalitetsprogram", "Første lansering", "Skape kjennskap fra null", "Stoppe all distribusjon"], "correct": 0, "explain": "Konkurransen er hard, og kundene må holdes på." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er et spørsmål du bør stille når du vurderer en virksomhets miks?", "options": ["Hvor gammel er daglig leder?", "Hvilken farge har bilene?", "Er konkurransemidlene konsistente med posisjoneringen?", "Hvor mange vinduer har butikken?"], "correct": 2, "explain": "Og om miksen passer målgruppen." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

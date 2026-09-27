@@ -1,0 +1,83 @@
+{
+  "id": "markedsforing-og-ledelse-1",
+  "trinnId": "vg2",
+  "name": "Markedsføring og ledelse 1",
+  "lareplan": {
+    "kode": "MFL01-04",
+    "url": "https://www.udir.no/lk20/mfl01-04/kompetansemaal-og-vurdering/kv887",
+    "kompetansemaal": [
+      {
+        "nr": 1,
+        "tekst": "velge og bruke kilder, markedsførings- og ledelsesteorier og modeller i arbeid med faglige spørsmål, emner og dagsaktuelle problemstillinger"
+      },
+      {
+        "nr": 2,
+        "tekst": "vurdere forhold som påvirker forbrukeratferd, og reflektere over psykologiske, sosiale og kulturelle faktorer"
+      },
+      {
+        "nr": 3,
+        "tekst": "utvikle forretningsideer og mål for virksomheten og vurdere aktuelle målgrupper"
+      },
+      {
+        "nr": 4,
+        "tekst": "bruke og utvikle markedsundersøkelser for å utforske og få innsikt i markeder og målgrupper"
+      },
+      {
+        "nr": 5,
+        "tekst": "gjennomføre situasjonsanalyser som grunnlag for beslutninger"
+      },
+      {
+        "nr": 6,
+        "tekst": "utforske produkt- og merkevarestrategier og vurdere hvordan virksomheter bruker produkter som konkurransemiddel"
+      },
+      {
+        "nr": 7,
+        "tekst": "utforske ulike distribusjonsstrategier i markedsføring og vurdere hvordan virksomheter bruker distribusjon som konkurransemiddel"
+      },
+      {
+        "nr": 8,
+        "tekst": "utforske ulike prisstrategier og prissettingsmetoder og vurdere hvordan virksomheter bruker pris som konkurransemiddel"
+      },
+      {
+        "nr": 9,
+        "tekst": "utforske ulike kommunikasjonsstrategier og vurdere hvordan virksomheter bruker markedskommunikasjon som konkurransemiddel"
+      },
+      {
+        "nr": 10,
+        "tekst": "planlegge mediemiks og utvikle innhold for ulike kanaler i markedskommunikasjon"
+      },
+      {
+        "nr": 11,
+        "tekst": "utforske og vurdere hvordan virksomheter kombinerer bruk av konkurransemidler"
+      },
+      {
+        "nr": 12,
+        "tekst": "reflektere over og vurdere rollen til personalet og ledelsen i gjennomføring av virksomhetens markedsføringsstrategi"
+      },
+      {
+        "nr": 13,
+        "tekst": "utforske og følge gjeldende regelverk for markedsføring og vurdere virksomhetens etiske ansvar"
+      },
+      {
+        "nr": 14,
+        "tekst": "reflektere over sammenhengen mellom markedsføring og bærekraftig utvikling ut fra sosiale, økonomiske og miljømessige forhold"
+      }
+    ]
+  },
+  "temaer": [
+    "markedsforing-og-teorier",
+    "forbrukeratferd",
+    "forretningside-og-malgrupper",
+    "markedsundersokelser",
+    "situasjonsanalyse",
+    "produkt-og-merkevare",
+    "distribusjon",
+    "pris",
+    "markedskommunikasjon",
+    "mediemiks-og-innhold",
+    "konkurransemidler-i-kombinasjon",
+    "personale-og-ledelse",
+    "regelverk-og-etikk",
+    "barekraftig-markedsforing"
+  ]
+}

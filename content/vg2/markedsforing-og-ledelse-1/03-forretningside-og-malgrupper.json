@@ -1,0 +1,82 @@
+{
+  "id": "forretningside-og-malgrupper",
+  "fagId": "markedsforing-og-ledelse-1",
+  "trinnId": "vg2",
+  "name": "Forretningsidé, mål og målgrupper",
+  "intro": "Hvordan en virksomhet formulerer visjon, forretningsidé og mål, hvordan markedet deles inn i segmenter, hvordan man velger og vurderer målgrupper, og hvordan virksomheten posisjonerer seg.",
+  "kompetansemaal": [3],
+  "sammendrag": "## Visjon og forretningsidé\n\n- En **visjon** er en **langsiktig** og **inspirerende** beskrivelse av hva virksomheten vil være eller oppnå.\n- En **forretningsidé** beskriver **grunnlaget** for virksomheten. Den svarer på\n  - **hvilke behov** virksomheten skal dekke\n  - **hvilke produkter** den tilbyr\n  - **hvem** kundene er – **målgruppen**\n  - **hvordan** den skal skille seg ut – **konkurransefortrinnet**\n\nEn god forretningsidé løser et **reelt problem** for kundene, og det må være mulig å tjene **penger** på den.\n\n### Eksempel\n\n«Vi leverer sunne og rimelige lunsjbokser til elever og studenter i byen vår. Vi skiller oss ut ved å bruke lokale råvarer og levere med sykkel.»\n\n## Mål\n\nMålene skal gjøre visjonen **konkret**. Virksomheten har ofte ett **hovedmål** og flere **delmål**, for eksempel **økonomiske** mål (omsetning og overskudd), **markedsmål** (markedsandel og kundetilfredshet) og **samfunnsmål** (miljø og arbeidsplasser).\n\nGode mål er **SMARTE**:\n\n- **S**pesifikke – tydelige\n- **M**ålbare – vi kan se om vi har nådd dem\n- **A**kseptert – de som skal nå målene, støtter dem\n- **R**ealistiske – mulige å nå\n- **T**idsbestemte – har en frist\n\n«Vi skal selge flere» er et svakt mål. «Vi skal selge 200 lunsjbokser i uka innen utgangen av året» er et SMART mål.\n\n## Segmentering\n\nIngen virksomhet kan nå **alle**. **Segmentering** betyr å dele markedet inn i **grupper** med like behov:\n\n- **Geografisk**: land, region, by eller bygd\n- **Demografisk**: alder, kjønn, inntekt, utdanning og livsfase\n- **Psykografisk**: livsstil, verdier, interesser og personlighet\n- **Atferdsbasert**: bruksmengde, lojalitet og hvilke fordeler kunden søker\n\n## Valg av målgruppe\n\nEt **segment** blir en **målgruppe** når virksomheten velger å rette seg mot det. Virksomheten vurderer om segmentet\n\n- er **stort** nok og har **kjøpekraft**\n- er mulig å **nå** med markedsføring\n- har lite eller mye **konkurranse**\n- passer til virksomhetens **ressurser** og **forretningsidé**\n\nTre strategier:\n\n- **Udifferensiert**: samme tilbud til hele markedet – for eksempel salt\n- **Differensiert**: ulike tilbud til flere målgrupper – for eksempel en bilprodusent med flere modeller\n- **Konsentrert**: satse på én smal målgruppe, en **nisje** – vanlig for små virksomheter\n\nMange lager en **persona** – en oppdiktet, typisk kunde med navn, alder, interesser og behov – for å gjøre målgruppen levende.\n\n## Posisjonering\n\n**Posisjonering** handler om hvordan virksomheten vil at kundene skal **oppfatte** produktet sammenlignet med **konkurrentene**, for eksempel som **billigst**, **mest eksklusiv** eller **mest miljøvennlig**. Et **posisjoneringskart** med to akser, som pris og kvalitet, viser hvor konkurrentene står og hvor det finnes **ledige plasser** i markedet.\n\n## Sammenhengen\n\nForretningsidé, mål, målgruppe og posisjonering må **henge sammen**. En lunsjbar som vil være **rimelig** for studenter, bør ikke posisjonere seg som **eksklusiv**.",
+  "flashcards": [
+    { "term": "Visjon", "def": "Langsiktig og inspirerende beskrivelse av hva virksomheten vil oppnå." },
+    { "term": "Forretningsidé", "def": "Hvilke behov, hvilke produkter, hvem kundene er og hvordan man skiller seg ut." },
+    { "term": "Konkurransefortrinn", "def": "Det som gjør virksomheten bedre eller annerledes enn konkurrentene." },
+    { "term": "Hovedmål og delmål", "def": "Et overordnet mål og mindre mål som bygger opp under det." },
+    { "term": "SMARTE mål", "def": "Spesifikke, målbare, akseptert, realistiske og tidsbestemte." },
+    { "term": "Segmentering", "def": "Å dele markedet i grupper med like behov." },
+    { "term": "Demografisk segmentering", "def": "Etter alder, kjønn, inntekt, utdanning og livsfase." },
+    { "term": "Psykografisk segmentering", "def": "Etter livsstil, verdier og interesser." },
+    { "term": "Atferdsbasert segmentering", "def": "Etter bruksmengde, lojalitet og søkte fordeler." },
+    { "term": "Målgruppe", "def": "Segmentet virksomheten velger å rette seg mot." },
+    { "term": "Udifferensiert strategi", "def": "Samme tilbud til hele markedet." },
+    { "term": "Differensiert strategi", "def": "Ulike tilbud til flere målgrupper." },
+    { "term": "Konsentrert strategi", "def": "Satsing på én smal målgruppe – en nisje." },
+    { "term": "Persona", "def": "Oppdiktet, typisk kunde som gjør målgruppen levende." },
+    { "term": "Posisjonering", "def": "Hvordan kundene skal oppfatte produktet sammenlignet med konkurrentene." },
+    { "term": "Posisjoneringskart", "def": "Diagram med to akser som viser konkurrentenes plassering." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva beskriver en forretningsidé?", "options": ["Bare prisen", "Behov, produkter, målgruppe og konkurransefortrinn", "Bare logoen", "Bare antall ansatte"], "correct": 1, "explain": "Grunnlaget for virksomheten." },
+    { "id": "q02", "text": "Hvilket mål er SMART?", "options": ["Selge 200 lunsjbokser i uka innen utgangen av året", "Selge flere", "Bli best", "Få mange kunder"], "correct": 0, "explain": "Spesifikt, målbart og tidsbestemt." },
+    { "id": "q03", "text": "Hva er segmentering?", "options": ["Å sette pris", "Å lage reklame", "Å dele markedet i grupper med like behov", "Å velge leverandør"], "correct": 2, "explain": "Grunnlaget for å velge målgruppe." },
+    { "id": "q04", "text": "Segmentering etter livsstil og verdier kalles", "options": ["geografisk", "demografisk", "atferdsbasert", "psykografisk"], "correct": 3, "explain": "Demografisk er alder, kjønn og inntekt." },
+    { "id": "q05", "text": "Hva er en konsentrert strategi?", "options": ["Å satse på én smal målgruppe", "Samme tilbud til alle", "Ulike tilbud til mange grupper", "Å ikke ha målgruppe"], "correct": 0, "explain": "Vanlig for små virksomheter." },
+    { "id": "q06", "text": "Hva er posisjonering?", "options": ["Hvor butikken ligger", "Hvordan kundene skal oppfatte produktet sammenlignet med konkurrentene", "Hvor varene står i hyllen", "En type segmentering"], "correct": 1, "explain": "For eksempel billigst eller mest eksklusiv." },
+    { "id": "q07", "text": "Hva er en persona?", "options": ["En ansatt", "En kjendis i reklame", "En oppdiktet, typisk kunde", "En konkurrent"], "correct": 2, "explain": "Gjør målgruppen levende." },
+    { "id": "q08", "text": "Hva bør virksomheten vurdere når den velger målgruppe?", "options": ["Bare hva ledelsen liker", "Bare alder", "Bare hva konkurrentene gjør", "Størrelse, kjøpekraft, tilgjengelighet og konkurranse"], "correct": 3, "explain": "Og om den passer til forretningsidéen." },
+    { "id": "q09", "text": "Hva er en visjon?", "options": ["En langsiktig og inspirerende beskrivelse av hva virksomheten vil oppnå", "Et budsjett", "Et delmål", "En reklame"], "correct": 0, "explain": "Målene gjør visjonen konkret." },
+    { "id": "q10", "text": "Hva kan et posisjoneringskart vise?", "options": ["Hvor butikkene ligger", "Ledige plasser i markedet", "Hvor mange ansatte konkurrentene har", "Lønnsomheten"], "correct": 1, "explain": "Ofte med pris og kvalitet som akser." }
+  ],
+  "mindmap": {
+    "label": "Forretningsidé og målgrupper",
+    "children": [
+      { "label": "Grunnlag", "children": [
+        { "label": "Visjon" },
+        { "label": "Forretningsidé" },
+        { "label": "Konkurransefortrinn" }
+      ] },
+      { "label": "Mål", "children": [
+        { "label": "Hovedmål og delmål" },
+        { "label": "SMARTE mål" }
+      ] },
+      { "label": "Segmentering", "children": [
+        { "label": "Geografisk og demografisk" },
+        { "label": "Psykografisk" },
+        { "label": "Atferd" }
+      ] },
+      { "label": "Målgruppe", "children": [
+        { "label": "Udifferensiert" },
+        { "label": "Differensiert" },
+        { "label": "Konsentrert" },
+        { "label": "Persona" }
+      ] },
+      { "label": "Posisjonering", "children": [
+        { "label": "Kart med to akser" },
+        { "label": "Ledige plasser" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "En god forretningsidé må løse et reelt problem for kundene.", "correct": true, "explain": "Og det må være mulig å tjene penger på den." },
+      { "id": "m02", "type": "sant-usant", "text": "De fleste virksomheter kan nå hele markedet like godt.", "correct": false, "explain": "Derfor segmenterer de og velger målgrupper." },
+      { "id": "m03", "type": "sant-usant", "text": "Et mål er målbart når vi kan se om vi har nådd det.", "correct": true, "explain": "M-en i SMART." },
+      { "id": "m04", "type": "sant-usant", "text": "En lunsjbar som vil være rimelig for studenter, bør posisjonere seg som eksklusiv.", "correct": false, "explain": "Posisjoneringen må passe forretningsidéen." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken strategi bruker en bilprodusent med mange modeller til ulike kunder?", "options": ["Udifferensiert", "Differensiert", "Konsentrert", "Ingen strategi"], "correct": 1, "explain": "Ulike tilbud til flere målgrupper." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er et eksempel på atferdsbasert segmentering?", "options": ["Kunder som handler ofte", "Kunder over 60 år", "Kunder i Bergen", "Kunder som er opptatt av miljø"], "correct": 0, "explain": "Bruksmengde og lojalitet." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilket mål er et samfunnsmål?", "options": ["Øke omsetningen", "Øke markedsandelen", "Redusere klimautslippene", "Øke overskuddet"], "correct": 2, "explain": "Mål som handler om miljø og samfunn." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

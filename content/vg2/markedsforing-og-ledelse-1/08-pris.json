@@ -1,0 +1,84 @@
+{
+  "id": "pris",
+  "fagId": "markedsforing-og-ledelse-1",
+  "trinnId": "vg2",
+  "name": "Pris og prisstrategier",
+  "intro": "Pris som konkurransemiddel: hva som påvirker prisen, kostnadsbasert, etterspørselsbasert og konkurransebasert prissetting, dekningsbidrag og nullpunkt, merverdiavgift, priselastisitet og prisstrategier som skumming, penetrasjon og psykologisk prising.",
+  "kompetansemaal": [8],
+  "sammendrag": "## Prisens rolle\n\n**Prisen** er det eneste konkurransemiddelet som gir **inntekter** – de andre koster penger. Prisen påvirker både **salget**, **lønnsomheten** og hvordan kundene **oppfatter** produktet. En høy pris kan signalisere **kvalitet**, en lav pris at produktet er **rimelig**.\n\n## Hva påvirker prisen?\n\n- **Kostnadene** – prisen må over tid dekke alle kostnader\n- **Etterspørselen** – hva kundene er **villige** til å betale\n- **Konkurrentene** – hva lignende produkter koster\n- **Målene** – vil virksomheten ha høy **fortjeneste** eller stor **markedsandel**?\n- **Lover og avgifter** – som **merverdiavgift**\n\n## Prissettingsmetoder\n\n### Kostnadsbasert\n\nVirksomheten legger et **påslag** på kostnaden. Eksempel:\n\n- Innkjøpspris: 100 kr\n- Påslag 60 %: 60 kr → 160 kr uten merverdiavgift\n- Merverdiavgift 25 %: 40 kr → **200 kr** til forbrukeren\n\nVanlig merverdiavgift i Norge er **25 %**, men **matvarer** har lavere sats. Metoden er **enkel**, men tar ikke hensyn til hva kundene vil betale.\n\n### Etterspørselsbasert\n\nPrisen settes ut fra kundenes **betalingsvilje**. **Priselastisitet** viser hvor mye etterspørselen endres når prisen endres:\n\n- **Elastisk** etterspørsel: Kundene reagerer **mye** på prisendringer, ofte fordi det finnes mange **alternativer**.\n- **Uelastisk** etterspørsel: Kundene kjøper omtrent like mye selv om prisen stiger, for eksempel for **nødvendighetsvarer** og produkter med sterk **merkelojalitet**.\n\n### Konkurransebasert\n\nPrisen legges **på**, **over** eller **under** konkurrentenes pris.\n\n## Dekningsbidrag og nullpunkt\n\n- **Dekningsbidrag** per enhet = pris − **variable kostnader** per enhet. Dekningsbidraget skal dekke de **faste kostnadene** og gi **overskudd**.\n- **Nullpunktsmengden** = faste kostnader ÷ dekningsbidrag per enhet. Det er antallet som må selges for å gå **i null**.\n\nEksempel: Et produkt selges for 200 kr uten merverdiavgift. De variable kostnadene er 120 kr, og dekningsbidraget blir 80 kr. Med faste kostnader på 40 000 kr er nullpunktsmengden 40 000 ÷ 80 = **500 enheter**.\n\n## Prisstrategier\n\n- **Skumming**: **høy** pris ved lansering, som senkes etter hvert. Brukes for nye **teknologiprodukter**.\n- **Penetrasjon**: **lav** pris ved lansering for raskt å ta **markedsandeler**.\n- **Prestisjeprising**: høy pris som gir **status** og signaliserer kvalitet.\n- **Lavprisstrategi**: varig lave priser, som hos lavpriskjeder.\n- **Psykologisk prising**: 199 kr i stedet for 200 kr – prisen **oppleves** lavere.\n- **Prisdifferensiering**: ulike priser for ulike kunder, tidspunkter eller steder, som **studentrabatt** og dyrere billetter i helger. **Dynamisk prising** endrer prisen fortløpende etter etterspørselen.\n- **Pakkepris**: flere produkter sammen til redusert pris.\n- **Lokkevarer**: noen varer selges svært billig for å trekke kunder inn i butikken.\n- **Abonnement** og **gratis grunnversjon** med betalte tillegg er vanlig for digitale tjenester.\n\n## Pris som konkurransemiddel\n\nPrisen må passe til **posisjoneringen**, **målgruppen** og de andre konkurransemidlene. **Priskrig** kan gi lavere fortjeneste for alle. Det er **ulovlig** å oppgi en **falsk førpris** for å få et tilbud til å virke bedre enn det er.",
+  "flashcards": [
+    { "term": "Pris", "def": "Det eneste konkurransemiddelet som gir inntekter." },
+    { "term": "Påslag", "def": "Beløp eller prosent som legges på kostnaden." },
+    { "term": "Merverdiavgift", "def": "Avgift på salg – vanlig sats i Norge er 25 %." },
+    { "term": "Kostnadsbasert prissetting", "def": "Kostnad pluss påslag." },
+    { "term": "Etterspørselsbasert prissetting", "def": "Prisen settes ut fra kundenes betalingsvilje." },
+    { "term": "Konkurransebasert prissetting", "def": "Prisen settes ut fra konkurrentenes priser." },
+    { "term": "Priselastisitet", "def": "Hvor mye etterspørselen endres når prisen endres." },
+    { "term": "Uelastisk etterspørsel", "def": "Kundene kjøper omtrent like mye selv om prisen stiger." },
+    { "term": "Variable kostnader", "def": "Kostnader som øker med produsert mengde." },
+    { "term": "Faste kostnader", "def": "Kostnader som ikke endres med mengden, som husleie." },
+    { "term": "Dekningsbidrag", "def": "Pris minus variable kostnader per enhet." },
+    { "term": "Nullpunktsmengde", "def": "Faste kostnader delt på dekningsbidrag per enhet." },
+    { "term": "Skumming", "def": "Høy lanseringspris som senkes etter hvert." },
+    { "term": "Penetrasjonspris", "def": "Lav lanseringspris for å ta markedsandeler raskt." },
+    { "term": "Psykologisk prising", "def": "199 kr i stedet for 200 kr." },
+    { "term": "Prisdifferensiering", "def": "Ulike priser for ulike kunder, tider eller steder." },
+    { "term": "Lokkevare", "def": "Svært billig vare som skal trekke kunder inn." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvorfor er prisen et spesielt konkurransemiddel?", "options": ["Den er alltid lav", "Den er det eneste som gir inntekter", "Den er ulovlig å endre", "Den påvirker ikke salget"], "correct": 1, "explain": "De andre konkurransemidlene koster penger." },
+    { "id": "q02", "text": "En vare koster 160 kr uten merverdiavgift. Hva blir prisen med 25 % merverdiavgift?", "options": ["200 kr", "185 kr", "160 kr", "240 kr"], "correct": 0, "explain": "160 · 1,25 = 200." },
+    { "id": "q03", "text": "Hva er dekningsbidrag per enhet?", "options": ["Pris minus faste kostnader", "Faste kostnader delt på pris", "Pris minus variable kostnader per enhet", "Omsetning minus skatt"], "correct": 2, "explain": "Skal dekke faste kostnader og gi overskudd." },
+    { "id": "q04", "text": "Faste kostnader er 40 000 kr og dekningsbidraget 80 kr per enhet. Hva er nullpunktsmengden?", "options": ["320 enheter", "800 enheter", "5000 enheter", "500 enheter"], "correct": 3, "explain": "40 000 ÷ 80 = 500." },
+    { "id": "q05", "text": "Hvilken strategi bruker høy pris ved lansering av ny teknologi?", "options": ["Skumming", "Penetrasjon", "Lavpris", "Lokkevare"], "correct": 0, "explain": "Prisen senkes etter hvert." },
+    { "id": "q06", "text": "Hva er penetrasjonsprising?", "options": ["Høy pris for å vise status", "Lav lanseringspris for å ta markedsandeler raskt", "Ulike priser for ulike kunder", "Pris satt ut fra kostnader"], "correct": 1, "explain": "Kundene lokkes til å prøve produktet." },
+    { "id": "q07", "text": "Hva betyr det at etterspørselen er elastisk?", "options": ["Kundene reagerer lite på prisen", "Prisen er fast", "Kundene reagerer mye på prisendringer", "Varen er nødvendig"], "correct": 2, "explain": "Ofte fordi det finnes mange alternativer." },
+    { "id": "q08", "text": "Studentrabatt er et eksempel på", "options": ["skumming", "psykologisk prising", "lokkevare", "prisdifferensiering"], "correct": 3, "explain": "Ulike priser for ulike kundegrupper." },
+    { "id": "q09", "text": "Hvorfor setter mange 199 kr i stedet for 200 kr?", "options": ["Prisen oppleves lavere", "Det er lovpålagt", "Det gir mer merverdiavgift", "Det er lettere å regne med"], "correct": 0, "explain": "Psykologisk prising." },
+    { "id": "q10", "text": "Hva er ulovlig ved prisreklame?", "options": ["Å gi rabatt", "Å oppgi en falsk førpris", "Å ha salg", "Å bruke psykologisk prising"], "correct": 1, "explain": "Tilbudet må ikke framstå bedre enn det er." }
+  ],
+  "mindmap": {
+    "label": "Pris",
+    "children": [
+      { "label": "Påvirkes av", "children": [
+        { "label": "Kostnader" },
+        { "label": "Etterspørsel" },
+        { "label": "Konkurrenter og mål" }
+      ] },
+      { "label": "Metoder", "children": [
+        { "label": "Kostnad + påslag" },
+        { "label": "Betalingsvilje og elastisitet" },
+        { "label": "Konkurransebasert" }
+      ] },
+      { "label": "Beregning", "children": [
+        { "label": "Merverdiavgift" },
+        { "label": "Dekningsbidrag" },
+        { "label": "Nullpunkt" }
+      ] },
+      { "label": "Strategier", "children": [
+        { "label": "Skumming og penetrasjon" },
+        { "label": "Prestisje og lavpris" },
+        { "label": "Psykologisk og differensiert" }
+      ] },
+      { "label": "Konkurransemiddel", "children": [
+        { "label": "Posisjonering" },
+        { "label": "Priskrig" },
+        { "label": "Falsk førpris" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "En høy pris kan få kundene til å tro at produktet har høy kvalitet.", "correct": true, "explain": "Prestisjeprising bygger på dette." },
+      { "id": "m02", "type": "sant-usant", "text": "Kostnadsbasert prissetting tar alltid hensyn til hva kundene vil betale.", "correct": false, "explain": "Den tar utgangspunkt i kostnadene." },
+      { "id": "m03", "type": "sant-usant", "text": "Priskrig kan gi lavere fortjeneste for alle virksomhetene i markedet.", "correct": true, "explain": "Alle presses ned i pris." },
+      { "id": "m04", "type": "sant-usant", "text": "Husleie er en variabel kostnad.", "correct": false, "explain": "Husleie er en fast kostnad." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er dynamisk prising?", "options": ["Samme pris hele året", "Prisen endres fortløpende etter etterspørselen", "Pris satt av staten", "Gratis produkter"], "correct": 1, "explain": "Vanlig for flybilletter og hotell." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilken vare har trolig mest uelastisk etterspørsel?", "options": ["Strøm", "En bestemt sjokoladeplate", "En kinobillett", "Et merke av brus"], "correct": 0, "explain": "En nødvendighetsvare med få alternativer." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er en lokkevare?", "options": ["En luksusvare", "En vare med høy pris", "En svært billig vare som skal trekke kunder inn", "En vare som ikke selges"], "correct": 2, "explain": "Kundene handler ofte mer når de først er i butikken." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
