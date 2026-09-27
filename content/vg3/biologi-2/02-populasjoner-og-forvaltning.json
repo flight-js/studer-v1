@@ -1,0 +1,79 @@
+{
+  "id": "populasjoner-og-forvaltning",
+  "fagId": "biologi-2",
+  "trinnId": "vg3",
+  "name": "Populasjoner og forvaltning",
+  "intro": "Faktorer som regulerer vekst i og størrelsen på populasjoner – eksponentiell og logistisk vekst, bæreevne, tetthetsavhengige og tetthetsuavhengige faktorer, r- og K-strategier og predator–byttedyr-sykluser – og interessekonflikter rundt forvaltning av rovdyr, hjortevilt, fisk og villaks.",
+  "kompetansemaal": [2],
+  "sammendrag": "## Populasjoner\n\nEn **populasjon** er alle individene av **én art** innenfor et område. Størrelsen endres av\n\n- **fødsler** og **innvandring**, som øker populasjonen\n- **dødsfall** og **utvandring**, som minsker den\n\n## Eksponentiell og logistisk vekst\n\n- Med rikelig mat og plass og ingen fiender kan en populasjon vokse **eksponentielt** – den øker med en fast **prosent** per tidsenhet, og kurven blir **J-formet**.\n- I virkeligheten blir ressursene **begrenset**. Veksten **avtar** når populasjonen nærmer seg **bæreevnen** K – det største antallet miljøet kan bære over tid. Kurven blir **S-formet**, og vi kaller det **logistisk vekst**.\n\n## Regulerende faktorer\n\n- **Tetthetsavhengige** faktorer får **sterkere** virkning jo tettere populasjonen er: **konkurranse** om mat og plass, **predasjon**, **sykdom** og **parasitter**.\n- **Tetthetsuavhengige** faktorer virker **uansett** tetthet: **vær**, **klima**, **flom**, **brann** og **forurensning**.\n\n## r- og K-strategier\n\n- **r-strategister** får **mange** avkom, gir lite **omsorg** og har ofte **korte** liv, for eksempel mus og mange insekter. Bestanden kan øke raskt, men svinger mye.\n- **K-strategister** får **få** avkom, gir mye omsorg og lever **lenge**, for eksempel elefanter, ørner og mennesker. Bestanden holder seg ofte nær bæreevnen.\n\n## Predator og byttedyr\n\nMange bestander **svinger** i takt med hverandre. Når det er mye **byttedyr**, øker **rovdyrene**. Etter hvert blir det færre byttedyr, og rovdyrene går tilbake. Kjente eksempler er **gaupe og snøskohare** i Canada og **smågnagerår** i Norge, der rev, rovfugler og ugler får flere unger i år med mye lemen og mus.\n\n## Forvaltning\n\n**Forvaltning** betyr å regulere bruken av en bestand slik at den er **bærekraftig**. Det kan skje gjennom **jakt**, **fiskekvoter**, **fredning** og **vern** av leveområder. Man kan høste av bestanden uten å true den hvis uttaket er mindre enn **tilveksten**.\n\n## Interessekonflikter\n\n- **Rovdyr**: **Ulv**, **bjørn**, **jerv** og **gaupe** er fredet, men **Stortinget** har vedtatt **bestandsmål**. Beitenæringen taper **sau** og **rein** til rovdyr, mens naturvernere og mange andre ønsker levedyktige bestander. Myndighetene bruker **soneforvaltning** og **lisensfelling**.\n- **Hjortevilt**: **Elg** og **hjort** gir jaktglede og kjøtt, men også **trafikkulykker** og **beiteskader** på skog.\n- **Fisk**: **Kvoter** skal hindre **overfiske** av torsk og andre bestander, men fiskere trenger inntekter.\n- **Villaks**: **Lakselus** og **rømt oppdrettslaks** fra **havbruk** truer villaksbestandene, samtidig som havbruk er en viktig næring.\n\n## Å drøfte forvaltning\n\nGod forvaltning bygger på **kunnskap** om bestandene, **overvåking** og **dialog** mellom partene. Drøftinger bør vise **ulike interesser** – økonomiske, kulturelle og økologiske – og hvilke **verdier** som står mot hverandre.",
+  "flashcards": [
+    { "term": "Populasjon", "def": "Alle individene av én art innenfor et område." },
+    { "term": "Eksponentiell vekst", "def": "Vekst med fast prosent – J-formet kurve." },
+    { "term": "Logistisk vekst", "def": "Veksten avtar mot bæreevnen – S-formet kurve." },
+    { "term": "Bæreevne K", "def": "Det største antallet individer miljøet kan bære over tid." },
+    { "term": "Tetthetsavhengige faktorer", "def": "Konkurranse, predasjon og sykdom – sterkere ved høy tetthet." },
+    { "term": "Tetthetsuavhengige faktorer", "def": "Vær, klima og katastrofer – virker uansett tetthet." },
+    { "term": "r-strategist", "def": "Mange avkom, lite omsorg, raske svingninger." },
+    { "term": "K-strategist", "def": "Få avkom, mye omsorg, lang levetid." },
+    { "term": "Predator–byttedyr-syklus", "def": "Bestander som svinger i takt, som gaupe og snøskohare." },
+    { "term": "Smågnagerår", "def": "År med mye lemen og mus som gir flere rovdyrunger." },
+    { "term": "Forvaltning", "def": "Regulering av bruken av en bestand for å gjøre den bærekraftig." },
+    { "term": "Bærekraftig høsting", "def": "Uttaket er mindre enn tilveksten." },
+    { "term": "Bestandsmål", "def": "Mål for størrelsen på rovdyrbestandene vedtatt av Stortinget." },
+    { "term": "Lisensfelling", "def": "Kontrollert felling av rovdyr etter vedtak." },
+    { "term": "Lakselus", "def": "Parasitt fra havbruk som truer villaksen." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvilken form har kurven ved logistisk vekst?", "options": ["J-formet", "S-formet", "Rett linje", "Sirkel"], "correct": 1, "explain": "Veksten avtar mot bæreevnen." },
+    { "id": "q02", "text": "Hva er bæreevnen?", "options": ["Det største antallet individer miljøet kan bære over tid", "Antall fødsler per år", "Dyrets styrke", "Mengden mat per dag"], "correct": 0, "explain": "Kalles K." },
+    { "id": "q03", "text": "Hvilken faktor er tetthetsavhengig?", "options": ["Flom", "Kulde", "Konkurranse om mat", "Skogbrann"], "correct": 2, "explain": "Sterkere virkning ved høy tetthet." },
+    { "id": "q04", "text": "Hva kjennetegner en K-strategist?", "options": ["Mange avkom og lite omsorg", "Kort levetid", "Store svingninger", "Få avkom, mye omsorg og lang levetid"], "correct": 3, "explain": "For eksempel elefanter." },
+    { "id": "q05", "text": "Hvorfor svinger bestandene av gaupe og snøskohare i takt?", "options": ["Fordi rovdyrene øker når byttedyrene øker, og omvendt", "Fordi de spiser samme mat", "Fordi de lever i ulike land", "Tilfeldigheter"], "correct": 0, "explain": "Predator–byttedyr-syklus." },
+    { "id": "q06", "text": "Når er høsting av en bestand bærekraftig?", "options": ["Når uttaket er større enn tilveksten", "Når uttaket er mindre enn tilveksten", "Når alle dyrene høstes", "Aldri"], "correct": 1, "explain": "Da kan bestanden opprettholdes." },
+    { "id": "q07", "text": "Hvilken konflikt er knyttet til rovdyr i Norge?", "options": ["Rovdyr og turisme alene", "Rovdyr og fiske", "Beitenæringen taper sau og rein, mens andre vil ha levedyktige bestander", "Ingen konflikt"], "correct": 2, "explain": "Løses med soneforvaltning og bestandsmål." },
+    { "id": "q08", "text": "Hva truer villaksen?", "options": ["For mye mat i elvene", "Fredning", "Kalde vintre", "Lakselus og rømt oppdrettslaks"], "correct": 3, "explain": "Fra havbruk." },
+    { "id": "q09", "text": "Hva er en tetthetsuavhengig faktor?", "options": ["Et uvær", "Sykdom", "Predasjon", "Konkurranse"], "correct": 0, "explain": "Virker uansett tetthet." },
+    { "id": "q10", "text": "Hva skjer i et smågnagerår?", "options": ["Rovdyrene dør ut", "Rev, rovfugler og ugler får flere unger", "Lemen forsvinner", "Ingenting"], "correct": 1, "explain": "Mye mat gir flere avkom." }
+  ],
+  "mindmap": {
+    "label": "Populasjoner",
+    "children": [
+      { "label": "Vekst", "children": [
+        { "label": "Eksponentiell" },
+        { "label": "Logistisk" },
+        { "label": "Bæreevne" }
+      ] },
+      { "label": "Regulering", "children": [
+        { "label": "Tetthetsavhengig" },
+        { "label": "Tetthetsuavhengig" }
+      ] },
+      { "label": "Strategier", "children": [
+        { "label": "r-strategi" },
+        { "label": "K-strategi" }
+      ] },
+      { "label": "Samspill", "children": [
+        { "label": "Predator og byttedyr" },
+        { "label": "Smågnagerår" }
+      ] },
+      { "label": "Forvaltning", "children": [
+        { "label": "Rovdyr" },
+        { "label": "Hjortevilt og fisk" },
+        { "label": "Villaks og havbruk" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Innvandring øker størrelsen på en populasjon.", "correct": true, "explain": "Sammen med fødsler." },
+      { "id": "m02", "type": "sant-usant", "text": "Eksponentiell vekst kan fortsette for alltid i naturen.", "correct": false, "explain": "Ressursene blir begrenset." },
+      { "id": "m03", "type": "sant-usant", "text": "Elg kan føre til trafikkulykker og beiteskader på skog.", "correct": true, "explain": "En interessekonflikt i forvaltningen." },
+      { "id": "m04", "type": "sant-usant", "text": "r-strategister har få avkom og gir mye omsorg.", "correct": false, "explain": "Det gjelder K-strategister." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilket virkemiddel brukes for å hindre overfiske?", "options": ["Lisensfelling", "Kvoter", "Soneforvaltning", "Elgjakt"], "correct": 1, "explain": "Begrenser hvor mye som kan fiskes." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilke rovdyr er fredet i Norge, men forvaltet med bestandsmål?", "options": ["Ulv, bjørn, jerv og gaupe", "Rev og grevling", "Elg og hjort", "Laks og torsk"], "correct": 0, "explain": "De store rovdyrene." },
+      { "id": "m07", "type": "flervalg", "text": "Hva bør god forvaltning bygge på?", "options": ["Bare økonomiske hensyn", "Bare tradisjon", "Kunnskap, overvåking og dialog mellom partene", "Tilfeldige vedtak"], "correct": 2, "explain": "Ulike interesser må veies." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

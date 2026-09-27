@@ -1,0 +1,79 @@
+{
+  "id": "fotosyntese-og-celleanding",
+  "fagId": "biologi-2",
+  "trinnId": "vg3",
+  "name": "Fotosyntese og celleånding",
+  "intro": "Hvordan energi omdannes i fotosyntesen – lysreaksjonene og Calvin-syklusen i kloroplasten – og i celleåndingen – glykolyse, sitronsyresyklusen og elektrontransportkjeden i mitokondriene – anaerob respirasjon og gjæring, en sammenligning av prosessene og hvilke faktorer som påvirker energiomsetningen.",
+  "kompetansemaal": [7],
+  "sammendrag": "## Fotosyntesen\n\n**Fotosyntesen** foregår i **kloroplastene** hos planter og alger. Lysenergi omdannes til **kjemisk energi** i sukker:\n\n**6CO₂ + 6H₂O + lysenergi → C₆H₁₂O₆ + 6O₂**\n\nDen består av to deler.\n\n**Lysreaksjonene** skjer i **tylakoidmembranene**:\n\n- **Klorofyll** i **fotosystemene** fanger lysenergi.\n- **Vann** spaltes, og **oksygen** frigjøres som biprodukt.\n- Energien brukes til å lage **ATP** og **NADPH**.\n\n**Calvin-syklusen** skjer i **stroma**:\n\n- **CO₂** bindes til et organisk molekyl ved hjelp av enzymet **rubisco**.\n- ATP og NADPH fra lysreaksjonene brukes til å bygge opp **sukker**.\n\n## Celleåndingen\n\n**Celleåndingen** frigjør energien i **glukose** og lagrer den i **ATP**:\n\n**C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + energi**\n\nDen skjer i tre hovedtrinn:\n\n1. **Glykolysen** i **cytoplasma**: Glukose brytes ned til **pyruvat**. Gir **2 ATP** netto og ikke noe krav om oksygen.\n2. **Sitronsyresyklusen** i **mitokondriematriksen**: Pyruvat brytes ned videre, CO₂ frigjøres, og **NADH** og **FADH₂** fraktes videre.\n3. **Elektrontransportkjeden** i den **indre mitokondriemembranen**: Elektronene fra NADH og FADH₂ går gjennom en rekke proteiner, og energien brukes til å pumpe **H⁺-ioner**. Når ionene strømmer tilbake gjennom **ATP-syntase**, dannes mesteparten av ATP-en. **Oksygen** tar imot elektronene til slutt og danner **vann**.\n\nTil sammen gir én glukose omtrent **30–32 ATP**.\n\n## Anaerob respirasjon og gjæring\n\nUten oksygen stopper elektrontransportkjeden. Da kan cellene bare få ATP fra **glykolysen**, og NADH må omdannes tilbake til NAD⁺ gjennom **gjæring**:\n\n- **Melkesyregjæring** i muskler og i bakterier som lager **yoghurt**\n- **Alkoholgjæring** i **gjær**, som gir etanol og CO₂ – brukt i baking og brygging\n\nGjæring gir bare **2 ATP** per glukose.\n\n## Sammenligning\n\n| | Fotosyntese | Celleånding |\n|---|---|---|\n| Hvor | kloroplast | cytoplasma og mitokondrier |\n| Energi | lys → kjemisk | kjemisk → ATP |\n| Tar opp | CO₂ og H₂O | glukose og O₂ |\n| Gir | glukose og O₂ | CO₂, H₂O og ATP |\n| Elektronbærer | NADPH | NADH og FADH₂ |\n\nBegge bruker en **elektrontransportkjede** og **ATP-syntase** i en membran. **Planter** har **både** fotosyntese og celleånding.\n\n## Faktorer som påvirker energiomsetningen\n\n**Fotosyntesen** påvirkes av\n\n- **lysintensitet**\n- **CO₂-konsentrasjon**\n- **temperatur**, fordi enzymene i Calvin-syklusen er temperaturavhengige\n- **vann** og **næring**, for eksempel nitrogen og magnesium til klorofyll\n\nDen faktoren som er i **minst** tilgang, **begrenser** farten – den **begrensende faktoren**. I drivhus kan man tilsette CO₂ for å øke veksten.\n\n**Celleåndingen** påvirkes av **temperatur**, tilgang på **oksygen** og **glukose**, og organismens **aktivitetsnivå**.",
+  "flashcards": [
+    { "term": "Kloroplast", "def": "Organellen der fotosyntesen skjer." },
+    { "term": "Lysreaksjoner", "def": "Skjer i tylakoidmembranene – vann spaltes og ATP og NADPH dannes." },
+    { "term": "Klorofyll", "def": "Pigment som fanger lysenergi." },
+    { "term": "Calvin-syklusen", "def": "Skjer i stroma – CO₂ bindes og sukker bygges opp." },
+    { "term": "Rubisco", "def": "Enzymet som binder CO₂ i Calvin-syklusen." },
+    { "term": "Glykolyse", "def": "Glukose brytes ned til pyruvat i cytoplasma – 2 ATP netto." },
+    { "term": "Sitronsyresyklusen", "def": "Pyruvat brytes ned i mitokondriematriksen, CO₂ frigjøres." },
+    { "term": "Elektrontransportkjeden", "def": "Gir mesteparten av ATP-en i den indre mitokondriemembranen." },
+    { "term": "ATP-syntase", "def": "Enzym som lager ATP når H⁺ strømmer tilbake." },
+    { "term": "Oksygen i celleåndingen", "def": "Tar imot elektronene til slutt og danner vann." },
+    { "term": "ATP per glukose", "def": "Omtrent 30–32 ved celleånding." },
+    { "term": "Melkesyregjæring", "def": "Anaerob prosess i muskler og yoghurtbakterier." },
+    { "term": "Alkoholgjæring", "def": "Gjær lager etanol og CO₂." },
+    { "term": "Begrensende faktor", "def": "Faktoren i minst tilgang som begrenser farten." },
+    { "term": "NADPH og NADH", "def": "Elektronbærere i fotosyntesen og celleåndingen." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvor skjer lysreaksjonene i fotosyntesen?", "options": ["I stroma", "I tylakoidmembranene", "I mitokondriene", "I cytoplasma"], "correct": 1, "explain": "Klorofyll fanger lys der." },
+    { "id": "q02", "text": "Hva frigjøres når vann spaltes i fotosyntesen?", "options": ["Oksygen", "CO₂", "Glukose", "Nitrogen"], "correct": 0, "explain": "Oksygen er et biprodukt." },
+    { "id": "q03", "text": "Hva skjer i Calvin-syklusen?", "options": ["Vann spaltes", "Glukose brytes ned", "CO₂ bindes og sukker bygges opp", "ATP brytes ned til varme"], "correct": 2, "explain": "Med rubisco og energi fra ATP og NADPH." },
+    { "id": "q04", "text": "Hvor dannes mesteparten av ATP-en i celleåndingen?", "options": ["I glykolysen", "I sitronsyresyklusen", "I kloroplasten", "I elektrontransportkjeden"], "correct": 3, "explain": "Via ATP-syntase." },
+    { "id": "q05", "text": "Omtrent hvor mange ATP gir én glukose ved celleånding?", "options": ["30–32", "2", "100", "6"], "correct": 0, "explain": "Gjæring gir bare 2." },
+    { "id": "q06", "text": "Hva skjer uten oksygen i en muskelcelle?", "options": ["Celleåndingen går som vanlig", "Cellen får ATP fra glykolysen og lager melkesyre", "Cellen lager glukose", "Cellen stopper helt"], "correct": 1, "explain": "Melkesyregjæring." },
+    { "id": "q07", "text": "Hva er en begrensende faktor?", "options": ["Faktoren i størst tilgang", "Et enzym", "Faktoren i minst tilgang som begrenser farten", "Et hormon"], "correct": 2, "explain": "For eksempel lys eller CO₂." },
+    { "id": "q08", "text": "Hvilken rolle har oksygen i celleåndingen?", "options": ["Spaltes for å gi energi", "Bindes i glukose", "Brukes i glykolysen", "Tar imot elektronene til slutt og danner vann"], "correct": 3, "explain": "Siste elektronmottaker." },
+    { "id": "q09", "text": "Hva har fotosyntesen og celleåndingen til felles?", "options": ["Begge bruker en elektrontransportkjede og ATP-syntase", "Begge skjer i kloroplasten", "Begge tar opp CO₂", "Begge lager oksygen"], "correct": 0, "explain": "I en membran." },
+    { "id": "q10", "text": "Hvorfor tilsettes CO₂ i noen drivhus?", "options": ["For å drepe insekter", "For å øke fotosyntesen når CO₂ er begrensende", "For å varme opp", "For å gi farge"], "correct": 1, "explain": "Gir økt vekst." }
+  ],
+  "mindmap": {
+    "label": "Fotosyntese og celleånding",
+    "children": [
+      { "label": "Fotosyntese", "children": [
+        { "label": "Lysreaksjoner" },
+        { "label": "Calvin-syklusen" },
+        { "label": "Kloroplast" }
+      ] },
+      { "label": "Celleånding", "children": [
+        { "label": "Glykolyse" },
+        { "label": "Sitronsyresyklus" },
+        { "label": "Elektrontransportkjede" }
+      ] },
+      { "label": "Uten oksygen", "children": [
+        { "label": "Melkesyregjæring" },
+        { "label": "Alkoholgjæring" }
+      ] },
+      { "label": "Sammenligning", "children": [
+        { "label": "Energi inn og ut" },
+        { "label": "Felles membranprosesser" }
+      ] },
+      { "label": "Faktorer", "children": [
+        { "label": "Lys, CO₂ og temperatur" },
+        { "label": "Begrensende faktor" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Planter har både fotosyntese og celleånding.", "correct": true, "explain": "De trenger ATP hele døgnet." },
+      { "id": "m02", "type": "sant-usant", "text": "Glykolysen krever oksygen.", "correct": false, "explain": "Glykolysen kan skje uten oksygen." },
+      { "id": "m03", "type": "sant-usant", "text": "Gjær lager etanol og CO₂ ved alkoholgjæring.", "correct": true, "explain": "Brukt i baking og brygging." },
+      { "id": "m04", "type": "sant-usant", "text": "Temperatur har ingen betydning for fotosyntesen.", "correct": false, "explain": "Enzymene i Calvin-syklusen er temperaturavhengige." },
+      { "id": "m05", "type": "flervalg", "text": "Hvor skjer sitronsyresyklusen?", "options": ["I cytoplasma", "I mitokondriematriksen", "I tylakoidmembranen", "I cellekjernen"], "correct": 1, "explain": "CO₂ frigjøres der." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilket næringsstoff trengs for å lage klorofyll?", "options": ["Magnesium", "Kalsium", "Natrium", "Klor"], "correct": 0, "explain": "Også nitrogen." },
+      { "id": "m07", "type": "flervalg", "text": "Hvor mange ATP gir gjæring per glukose?", "options": ["30", "0", "2", "38"], "correct": 2, "explain": "Bare fra glykolysen." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

@@ -85,10 +85,10 @@ insert into public.fag (id, trinn_id, navn, lareplan_kode, lareplan_url, kompeta
   ('norsk-vg3', 'vg3', 'Norsk', 'NOR01-08', 'https://www.udir.no/lk20/nor01-08/kompetansemaal-og-vurdering/kv1114', '[{"nr":1,"tekst":"analysere og tolke romaner, noveller, drama, lyrikk og sakprosa på bokmål og nynorsk fra 1850 til i dag og reflektere over tekstene i lys av den kulturhistoriske konteksten og egen samtid"},{"nr":2,"tekst":"utforske og reflektere over hvordan tekster fra den realistiske og den modernistiske tradisjonen framstiller menneske, natur og samfunn"},{"nr":3,"tekst":"skrive essay som utforsker og reflekterer over innhold i tekster"},{"nr":4,"tekst":"skrive litterære tolkninger og sammenligninger"},{"nr":5,"tekst":"analysere uttrykksformer i sammensatte tekster i ulike medier og vurdere samspillet mellom dem"},{"nr":6,"tekst":"bruke fagkunnskap og presist fagspråk i utforskende samtaler, diskusjoner og muntlige presentasjoner om norskfaglige emner"},{"nr":7,"tekst":"skrive retoriske analyser og tolkninger av sakprosatekster"},{"nr":8,"tekst":"mestre språklige formkrav på hovedmål og sidemål og skrive tekster med etterrettelig kildebruk og et presist og nyansert språk"},{"nr":9,"tekst":"orientere seg i faglitteratur, vurdere kilder kritisk og skrive fagartikler som greier ut om og drøfter norskfaglige emner"},{"nr":10,"tekst":"gjøre rede for endringer i talespråk i Norge i dag og reflektere over sammenhenger mellom språk, kultur og identitet"}]'::jsonb, 0),
   ('historie-vg3', 'vg3', 'Historie', 'HIS01-03', 'https://www.udir.no/lk20/his01-03/kompetansemaal-og-vurdering/kv85', '[{"nr":1,"tekst":"reflektere over hvordan fortolkninger av fortiden er preget av nåtidsforståelse og forventninger til framtiden"},{"nr":2,"tekst":"reflektere over hvordan fortiden brukes av ulike aktører og drøfte hensikten med denne historiebruken"},{"nr":3,"tekst":"utforske fortiden ved å formulere problemstillinger, finne, vurdere og bruke ulikt materiale og presentere egne slutninger"},{"nr":4,"tekst":"utforske en historisk person og diskutere hans eller hennes tenkning, handlingsrom og valg i lys av samtiden han eller hun levde i"},{"nr":5,"tekst":"sammenligne ulike framstillinger av en hendelse og reflektere over at historiske framstillinger preges av opphavspersonens ståsted og kontekst"},{"nr":6,"tekst":"drøfte i hvilken grad utviklingen i ulike perioder har vært preget av brudd eller kontinuitet, og vurdere hva som gjør en hendelse i fortiden betydningsfull"},{"nr":7,"tekst":"gjøre rede for tanker og ideologier som har ligget til grunn for politiske omveltninger fra opplysningstiden til i dag og vurdere betydningen av disse for menneskers muligheter til demokratisk deltakelse"},{"nr":8,"tekst":"reflektere over hvordan teknologiske omveltninger fra den industrielle revolusjonen til i dag har endret menneskers liv og formet forventninger til framtiden"},{"nr":9,"tekst":"gjøre rede for årsaker til at mennesker har migrert, og diskutere kulturmøtene sett fra ulike perspektiver."},{"nr":10,"tekst":"gjøre rede for årsaker til at kolonimakter underla seg landområder, og drøfte konsekvenser for mennesker og samfunn i land og områder som ble kolonisert"},{"nr":11,"tekst":"drøfte bakgrunnen for verdenskrigene og et utvalg andre sentrale kriger eller konflikter, og reflektere over om fredsslutninger har bidratt til å skape fred og forsoning"},{"nr":12,"tekst":"utforske menneskers handlingsrom og valgmuligheter i konfliktsituasjoner og vurdere konsekvenser av valgene de har tatt"},{"nr":13,"tekst":"reflektere over hvordan ideologier og tankesett på 1900-tallet og fram til i dag har bidratt til undertrykkelse, terror og folkemord som holocaust"},{"nr":14,"tekst":"analysere hvordan framstillinger av fortiden har blitt brukt i Norge for å skape nasjonal identitet og drøfte hvilke virkninger dette har hatt for ulike grupper"},{"nr":15,"tekst":"utforske hvordan mennesker har arbeidet for myndiggjøring og frigjøring i norsk og samisk historie, og gjøre rede for hvordan de samtidig har bidratt til utviklingen av demokratiet"},{"nr":16,"tekst":"gjøre rede for velferdsutviklingen i Norge på 1900-tallet og drøfte konsekvenser for menneskers liv"},{"nr":17,"tekst":"vurdere hvordan mennesket har forholdt seg til naturen, forvaltet og brukt ressurser og bruke historiske perspektiver i samtale om bærekraftige løsninger"}]'::jsonb, 1),
   ('religion-og-etikk', 'vg3', 'Religion og etikk', 'REL01-02', 'https://www.udir.no/lk20/rel01-02/kompetansemaal-og-vurdering/kv172', '[{"nr":1,"tekst":"presentere og sammenligne noen sentrale trekk ved østlige og vestlige religions- og livssynstradisjoner, inkludert kristendom og islam"},{"nr":2,"tekst":"utforske og drøfte hvordan religion inngår i historiske endringsprosesser globalt og nasjonalt"},{"nr":3,"tekst":"gjøre rede for og analysere religion og livssyn i et majoritets-, minoritets- og urfolksperspektiv med vekt på Sápmi/Sábme/Saepmie og Norge"},{"nr":4,"tekst":"gjøre rede for og drøfte aktuelle eksempler på samspillet mellom religion, livssyn og politikk"},{"nr":5,"tekst":"utforske og analysere hvordan religioner og livssyn kommer til uttrykk i medier og populærkultur"},{"nr":6,"tekst":"drøfte ulike former for religions- og livssynskritikk"},{"nr":7,"tekst":"gjøre rede for og drøfte sentrale fagbegreper knyttet til religioner, filosofi, livssyn og etikk"},{"nr":8,"tekst":"analysere og vurdere ulike kilder til kunnskap om religioner, livssyn og etikk"},{"nr":9,"tekst":"utforske og reflektere over eksistensielle spørsmål og svar"},{"nr":10,"tekst":"identifisere og drøfte etiske problemstillinger i tilknytning til kommunikasjon, mellommenneskelige relasjoner og identitet"},{"nr":11,"tekst":"drøfte menneskeverd og naturens egenverdi i møte med teknologisk utvikling"},{"nr":12,"tekst":"ta andres perspektiv og håndtere meningsbrytning om religion, livssyn og verdispørsmål"},{"nr":13,"tekst":"diskutere problemstillinger knyttet til gruppebaserte fordommer, rasisme og diskriminering"},{"nr":14,"tekst":"utforske og drøfte ideer om mennesket slik de kommer til uttrykk i ulike filosofiske tradisjoner"}]'::jsonb, 2),
-  ('historie-og-filosofi-2', 'vg3', 'Historie og filosofi 2', null, null, '[]'::jsonb, 3),
-  ('kjemi-2', 'vg3', 'Kjemi 2', null, null, '[]'::jsonb, 4),
-  ('fysikk-2', 'vg3', 'Fysikk 2', null, null, '[]'::jsonb, 5),
-  ('biologi-2', 'vg3', 'Biologi 2', null, null, '[]'::jsonb, 6),
+  ('historie-og-filosofi-2', 'vg3', 'Historie og filosofi 2', 'HIF01-04', 'https://www.udir.no/lk20/hif01-04/kompetansemaal-og-vurdering/kv896', '[{"nr":1,"tekst":"anvende filosofisk samtale for å utforske og utvikle egne oppfatninger, undersøke argumentasjon og vurdere gyldighet"},{"nr":2,"tekst":"finne, bruke og kritisk vurdere ulike kilder av ulik art og opphav, også originaltekster"},{"nr":3,"tekst":"drøfte hva som skiller vitenskap fra pseudovitenskap, og vurdere konsekvenser av desinformasjon og konspirasjonsteorier"},{"nr":4,"tekst":"drøfte hvordan vi gjennom valg av metoder, teorier, perspektiver og kilder søker kunnskap og erkjennelse, og reflektere over hvordan slike valg påvirker det vi ser, leter etter og forstår"},{"nr":5,"tekst":"gjøre rede for kjennetegn og konsekvenser av moderne tenkning og virkelighetsforståelse, og drøfte dette i lys av ulik kritikk av slik tenkning og virkelighetsforståelse"},{"nr":6,"tekst":"gjøre rede for historiske prosesser og filosofiske ideer som ledet fram mot det moderne demokratiet, og vurdere hvordan vanetenkning, maktstrukturer og andre hindre har stått, og står, i veien for utviklingen av demokrati og menneskerettigheter"},{"nr":7,"tekst":"utforske etisk og eksistensiell tenkning om autonomi, frihet, ansvar og det gode liv, og reflektere over hvordan mennesker forholder seg til og blir preget av disse verdiene"},{"nr":8,"tekst":"gjøre rede for og drøfte temaer fra nyere tid som illustrerer etiske og eksistensielle spørsmål"},{"nr":9,"tekst":"gjøre rede for sentrale ideologier og økonomiske teorier og vurdere konsekvensene disse har og har hatt for menneskers livsutfoldelse, deltakelse og medborgerskap"},{"nr":10,"tekst":"gjøre rede for hvordan ulike former for moderne kommunikasjon og informasjonsteknologi virker inn på det offentlige ordskiftet, og reflektere over hvordan disse skaper både muligheter og begrensninger for menneskers liv og sannhetssøken"},{"nr":11,"tekst":"gjøre rede for hvordan intensjon, ståsted og perspektiv preger historieframstillinger, og drøfte hvordan ulike framstillinger og bruk av fortiden kan virke frigjørende eller undertrykkende på individ og samfunn."},{"nr":12,"tekst":"gjøre rede for hvordan historiebevissthet formes og endres ved å vise hvordan vår samtidsforståelse preger våre fortolkninger av fortiden og hvordan våre fortolkninger av fortiden er preget av vår forståelse av oss selv"},{"nr":13,"tekst":"drøfte urfolks kultur, verdier og levemåte i brytningen mellom tradisjon og modernitet"},{"nr":14,"tekst":"gjøre rede for teknologiens rolle i samfunnet og drøfte om den bidrar til menneskers livsutfoldelse og et bærekraftig samfunn"},{"nr":15,"tekst":"utforske forholdet mellom mennesker og natur i forbrukersamfunnet og vurdere ulike ideer og oppfatninger om rettferdighet og menneskets plass i verden"}]'::jsonb, 3),
+  ('kjemi-2', 'vg3', 'Kjemi 2', 'KJE01-02', 'https://www.udir.no/lk20/kje01-02/kompetansemaal-og-vurdering/kv533', '[{"nr":1,"tekst":"forstå og bruke kjemisk terminologi og fagspråk i faglig kommunikasjon"},{"nr":2,"tekst":"planlegge og gjennomføre forsøk, drøfte metode og tiltak for å redusere risiko og vurdere usikkerhet og feilkilder i egne og andres forsøk"},{"nr":3,"tekst":"gjøre rede for hvordan naturvitenskapelige modeller og teorier utvikles, og reflektere over hvordan samarbeid bidrar til kunnskapsutvikling i kjemi"},{"nr":4,"tekst":"utforske redoksreaksjoner og bruke beregninger til å vurdere sammenhenger mellom masse, ladning, spenning og energi i elektrokjemiske reaksjoner"},{"nr":5,"tekst":"utforske likevekter og bruke massevirkningsloven til å gjøre beregninger og forklare observasjoner"},{"nr":6,"tekst":"gjøre rede for entropibegrepet og bruke entropi og entalpi til å vurdere spontanitet og endringer i likevektsystemer"},{"nr":7,"tekst":"utforske og beregne pH i vannløsninger og drøfte betydningen av buffere for regulering av pH i naturlige og industrielle prosesser"},{"nr":8,"tekst":"utforske og gjøre beregninger av løseligheten til stoffer og gjøre vurderinger av løselighet i biologiske og industrielle prosesser"},{"nr":9,"tekst":"utforske katalyserte reaksjoner og gjøre rede for betydningen av katalysatorer i biologiske og industrielle prosesser"},{"nr":10,"tekst":"gjøre rede for reaksjonstypene addisjon, eliminasjon, substitusjon, hydrolyse og kondensasjon og bruke elektrostatiske krefter til å forklare noen enkle reaksjonsmekanismer"},{"nr":11,"tekst":"gjennomføre synteser og gjøre rede for faktorer som påvirker utbytte og renhet i synteser"},{"nr":12,"tekst":"gjøre rede for prinsipper for kromatografi og bruke kromatografi for å separere og analysere organiske stoffblandinger"},{"nr":13,"tekst":"beskrive oppbygningen til noen biologiske makromolekyler og vurdere hvordan ytre faktorer kan påvirke molekylenes struktur og egenskaper"},{"nr":14,"tekst":"gi eksempler på produksjon, gjenvinning, deponering og nedbryting av noen metaller og noen typer plast, og drøfte tiltak som er i samsvar med prinsipper for grønn kjemi"},{"nr":15,"tekst":"utforske en teoretisk eller praktisk problemstilling, og drøfte og presentere funn"}]'::jsonb, 4),
+  ('fysikk-2', 'vg3', 'Fysikk 2', 'FYS01-02', 'https://www.udir.no/lk20/fys01-02/kompetansemaal-og-vurdering/kv467', '[{"nr":1,"tekst":"planlegge, gjennomføre og videreutvikle forsøk, og analysere data og beregne usikkerhet for å vurdere gyldigheten av funn"},{"nr":2,"tekst":"presentere sentrale elementer i ny viten i fysikk som er et resultat av internasjonalt forskningssamarbeid, og vurdere hvordan slikt samarbeid bidrar i kunnskapsutviklingen"},{"nr":3,"tekst":"bruke numeriske metoder og programmering til å utforske og modellere fysiske fenomener"},{"nr":4,"tekst":"utforske, beskrive og modellere bevegelse i to dimensjoner"},{"nr":5,"tekst":"gjøre rede for hvordan krefter kan forårsake krumlinjet bevegelse, og bruke dette i beregninger"},{"nr":6,"tekst":"beskrive elektriske og magnetiske felt og gjøre rede for krefter på objekter med masse og ladning i slike felt"},{"nr":7,"tekst":"gjøre rede for energibevaring i gravitasjonelle sentralfelt og bruke dette til å beregne bevegelse i slike felt"},{"nr":8,"tekst":"utforske ulike måter å indusere elektromotorisk spenning og strøm, og analysere resultatene"},{"nr":9,"tekst":"forklare hvordan induksjon kan inngå i bærekraftig energiproduksjon og vurdere anvendelser av induksjon i dagliglivet"},{"nr":10,"tekst":"beskrive de sentrale prinsippene i den spesielle og generelle relativitetsteorien og gjøre rede for hvordan disse har endret vår forståelse av tid, rom og felt"},{"nr":11,"tekst":"gjøre rede for hva som skiller kvanteobjekter fra klassiske objekter, og beskrive situasjoner der kvanteeffekter observeres"},{"nr":12,"tekst":"utforske og analysere en selvvalgt teoretisk eller praktisk problemstilling i fysikk, og presentere viktige prinsipper, sammenhenger og konsekvenser"}]'::jsonb, 5),
+  ('biologi-2', 'vg3', 'Biologi 2', 'BIO01-02', 'https://www.udir.no/lk20/bio01-02/kompetansemaal-og-vurdering/kv539', '[{"nr":1,"tekst":"utforske ei biologisk problemstilling, analysere innsamla data, argumentere for val av metodar og drøfte resultat og funn"},{"nr":2,"tekst":"utforske faktorar som regulerer vekst i og storleiken på populasjonar, og drøfte interessekonfliktar rundt forvaltning av populasjonar"},{"nr":3,"tekst":"utforske og dokumentere artsmangfald gjennom feltarbeid, drøfte resultat og funn og vurdere korleis artane er tilpassa økosystemet dei lever i"},{"nr":4,"tekst":"gjere greie for energistraum og sentrale stoffkrinsløp"},{"nr":5,"tekst":"drøfte korleis menneskeleg aktivitet påverkar krinsløpa, og utforske tiltak for å vareta dei"},{"nr":6,"tekst":"utforske korleis enzym fungerer, og gjere greie for den rolla enzym speler i metabolske prosessar"},{"nr":7,"tekst":"samanlikne korleis energi blir omdanna gjennom fotosyntesen og celleandinga, og vurdere kva påverknad ulike faktorar har på energiomsetning"},{"nr":8,"tekst":"gjere greie for genetisk kode og regulering av genuttrykk, og beskrive korleis genteknologi kan brukast for å styre og endre genuttrykk"},{"nr":9,"tekst":"gjere greie for korleis eigenskapar blir arva, og utforske årsaker til genotypisk og fenotypisk variasjon i populasjonar"},{"nr":10,"tekst":"utforske korleis evolusjonære prosessar påverkar genlageret til populasjonar, og samanlikne ulike mekanismar for artsdanning"},{"nr":11,"tekst":"vurdere kommersiell bruk av genteknologi i medisin og matproduksjon, og drøfte etiske problemstillingar ved bruk av slik teknologi"}]'::jsonb, 6),
   ('geofag-2', 'vg3', 'Geofag 2', null, null, '[]'::jsonb, 7),
   ('matematikk-r2', 'vg3', 'Matematikk R2', null, null, '[]'::jsonb, 8),
   ('matematikk-s2', 'vg3', 'Matematikk S2', null, null, '[]'::jsonb, 9),
@@ -54473,6 +54473,4789 @@ insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, ri
   ('religion-og-etikk:fordommer-rasisme-og-diskriminering', 'm07', 'flervalg', 'Hva kan du gjøre når noen utsettes for hets?', array['Dele hetsen videre', 'Late som ingenting', 'Si ifra og støtte den som rammes', 'Le med']::text[], 2, 'Hver enkelt kan gjøre en forskjell.', false, true, 16);
 insert into public.miniprover (tema_id, minutter) values
   ('religion-og-etikk:fordommer-rasisme-og-diskriminering', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Historie og filosofi 2 (vg3): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'historie-og-filosofi-2' and slug not in ('argumentasjon-og-kildearbeid', 'vitenskap-og-pseudovitenskap', 'metode-perspektiv-og-erkjennelse', 'moderniteten-og-kritikken', 'veien-til-det-moderne-demokratiet', 'frihet-autonomi-og-det-gode-liv', 'etiske-sporsmal-i-nyere-tid', 'ideologier-og-okonomiske-teorier', 'kommunikasjon-og-offentlighet', 'historieframstillinger-og-historiebevissthet', 'urfolk-tradisjon-og-modernitet', 'teknologi-og-samfunn', 'natur-og-forbrukersamfunnet');
+
+-- Historie og filosofi 2: Filosofisk samtale, argumentasjon og kildearbeid
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('historie-og-filosofi-2:argumentasjon-og-kildearbeid', 'historie-og-filosofi-2', 'argumentasjon-og-kildearbeid', 'Filosofisk samtale, argumentasjon og kildearbeid', 'Hvordan du bruker filosofisk samtale til å utforske egne oppfatninger, analyserer argumenter og vurderer gyldighet og holdbarhet, gjenkjenner feilslutninger – og finner, leser og vurderer kilder av ulik art, også filosofiske og historiske originaltekster.', array[1, 2]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('historie-og-filosofi-2:argumentasjon-og-kildearbeid', '## Filosofisk samtale
+
+I en **filosofisk samtale** utforsker deltakerne et **åpent** spørsmål sammen – for eksempel «Hva er frihet?» eller «Kan det være riktig å bryte loven?». Målet er ikke å **vinne**, men å **forstå** bedre og **utvikle** egne oppfatninger.
+
+Gode grep i samtalen:
+
+- be om **begrunnelser** – «Hvorfor mener du det?»
+- **avklare** begreper – «Hva mener du med frihet?»
+- finne **eksempler** og **moteksempler**
+- undersøke **konsekvenser** – «Hva følger av det du sier?»
+- være villig til å **endre** mening
+
+Metoden går tilbake til **Sokrates**, som stilte spørsmål til folk i Athen for å avsløre **motsigelser** i tenkningen deres.
+
+## Argumentanalyse
+
+Et **argument** består av **premisser** og en **konklusjon**.
+
+- Et argument er **gyldig** hvis konklusjonen **følger logisk** av premissene. Hvis premissene er sanne, **må** konklusjonen være sann.
+- Et argument er **holdbart** eller **sunt** hvis det er gyldig **og** premissene faktisk er **sanne**.
+
+Eksempel: «Alle mennesker er dødelige. Sokrates er et menneske. Altså er Sokrates dødelig.» Argumentet er gyldig og holdbart.
+
+«Alle fugler kan fly. Pingviner er fugler. Altså kan pingviner fly.» Argumentet er **gyldig**, men **ikke holdbart**, fordi det første premisset er **usant**.
+
+## Deduksjon og induksjon
+
+- **Deduktive** argumenter går fra det **generelle** til det **spesielle** og kan gi **sikre** konklusjoner.
+- **Induktive** argumenter går fra **enkelttilfeller** til en **generell** regel. Konklusjonen er bare **sannsynlig** – det neste tilfellet kan være annerledes.
+
+## Feilslutninger
+
+- **Personangrep**: å angripe personen i stedet for argumentet
+- **Stråmann**: å forvrenge motpartens syn
+- **Sirkelargument**: konklusjonen står allerede i premissene
+- **Falsk dilemma**: å late som det bare finnes to alternativer
+- **Naturalistisk feilslutning**: å slutte fra hvordan noe **er**, til hvordan det **bør** være
+- **Appell til flertallet**: «Alle mener det, så det må være riktig»
+
+## Kilder av ulik art
+
+I historie og filosofi brukes mange typer kilder: **originaltekster** av filosofer, historiske **dokumenter**, **bilder**, **gjenstander**, **intervjuer**, **faglitteratur** og **digitale** kilder.
+
+## Å lese originaltekster
+
+**Originaltekster** – som Platons dialoger, Kants skrifter eller Grunnloven av 1814 – kan være krevende fordi språket er **gammelt** og tankegangen **ukjent**. Nyttige grep:
+
+- Finn ut **når**, **hvor** og **hvorfor** teksten ble skrevet.
+- Les **langsomt** og noter **nøkkelbegreper**.
+- Formuler tekstens **hovedpåstand** og **argumenter** med egne ord.
+- Skill mellom hva teksten **sier**, og hva **du** mener om den.
+
+## Kildekritikk
+
+Vurder **opphav**, **formål**, **troverdighet** og **relevans**. Spør om kilden er en **førstehåndskilde** eller en **framstilling**, og om den har en **tendens**. Sammenlign med **andre** kilder, og vær særlig kritisk til anonyme kilder på nett og til tekster som bare bekrefter det du allerede mener.', '{"label":"Argumentasjon og kilder","children":[{"label":"Filosofisk samtale","children":[{"label":"Åpne spørsmål"},{"label":"Begrunnelser og eksempler"},{"label":"Sokrates"}]},{"label":"Argumenter","children":[{"label":"Premisser og konklusjon"},{"label":"Gyldig og holdbart"},{"label":"Deduksjon og induksjon"}]},{"label":"Feilslutninger","children":[{"label":"Stråmann og personangrep"},{"label":"Sirkelargument"},{"label":"Naturalistisk"}]},{"label":"Originaltekster","children":[{"label":"Kontekst"},{"label":"Nøkkelbegreper"},{"label":"Egne ord"}]},{"label":"Kildekritikk","children":[{"label":"Opphav og formål"},{"label":"Tendens"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'historie-og-filosofi-2:argumentasjon-og-kildearbeid';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('historie-og-filosofi-2:argumentasjon-og-kildearbeid', 'Filosofisk samtale', 'Felles utforsking av et åpent spørsmål for å forstå bedre.', 0),
+  ('historie-og-filosofi-2:argumentasjon-og-kildearbeid', 'Sokratisk metode', 'Å stille spørsmål for å avsløre motsigelser i tenkningen.', 1),
+  ('historie-og-filosofi-2:argumentasjon-og-kildearbeid', 'Premiss', 'En påstand som et argument bygger på.', 2),
+  ('historie-og-filosofi-2:argumentasjon-og-kildearbeid', 'Konklusjon', 'Det argumentet vil vise.', 3),
+  ('historie-og-filosofi-2:argumentasjon-og-kildearbeid', 'Gyldig argument', 'Konklusjonen følger logisk av premissene.', 4),
+  ('historie-og-filosofi-2:argumentasjon-og-kildearbeid', 'Holdbart argument', 'Gyldig og med sanne premisser.', 5),
+  ('historie-og-filosofi-2:argumentasjon-og-kildearbeid', 'Deduksjon', 'Fra det generelle til det spesielle – kan gi sikre konklusjoner.', 6),
+  ('historie-og-filosofi-2:argumentasjon-og-kildearbeid', 'Induksjon', 'Fra enkelttilfeller til en generell regel – gir sannsynlige konklusjoner.', 7),
+  ('historie-og-filosofi-2:argumentasjon-og-kildearbeid', 'Moteksempel', 'Et tilfelle som viser at en generell påstand ikke stemmer.', 8),
+  ('historie-og-filosofi-2:argumentasjon-og-kildearbeid', 'Sirkelargument', 'Konklusjonen står allerede i premissene.', 9),
+  ('historie-og-filosofi-2:argumentasjon-og-kildearbeid', 'Naturalistisk feilslutning', 'Å slutte fra hvordan noe er, til hvordan det bør være.', 10),
+  ('historie-og-filosofi-2:argumentasjon-og-kildearbeid', 'Appell til flertallet', 'Å mene noe er riktig fordi mange mener det.', 11),
+  ('historie-og-filosofi-2:argumentasjon-og-kildearbeid', 'Originaltekst', 'Teksten slik forfatteren skrev den, for eksempel Platons dialoger.', 12),
+  ('historie-og-filosofi-2:argumentasjon-og-kildearbeid', 'Nøkkelbegrep', 'Sentralt begrep som er avgjørende for å forstå en tekst.', 13),
+  ('historie-og-filosofi-2:argumentasjon-og-kildearbeid', 'Tendens', 'At en kilde har interesse i å framstille noe på en bestemt måte.', 14);
+delete from public.quiz_sporsmal where tema_id = 'historie-og-filosofi-2:argumentasjon-og-kildearbeid';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('historie-og-filosofi-2:argumentasjon-og-kildearbeid', 'q01', 'flervalg', 'Hva er målet med en filosofisk samtale?', array['Å vinne', 'Å forstå bedre og utvikle egne oppfatninger', 'Å bli enige raskt', 'Å bevise at læreren har rett']::text[], 1, 'Utforsking, ikke konkurranse.', true, true, 0),
+  ('historie-og-filosofi-2:argumentasjon-og-kildearbeid', 'q02', 'flervalg', 'Når er et argument gyldig?', array['Når konklusjonen følger logisk av premissene', 'Når premissene er sanne', 'Når mange er enige', 'Når det er kort']::text[], 0, 'Gyldighet handler om form.', true, true, 1),
+  ('historie-og-filosofi-2:argumentasjon-og-kildearbeid', 'q03', 'flervalg', '«Alle fugler kan fly. Pingviner er fugler. Altså kan pingviner fly.» Hva er galt?', array['Argumentet er ugyldig', 'Konklusjonen følger ikke', 'Argumentet er gyldig, men ikke holdbart fordi et premiss er usant', 'Ingenting']::text[], 2, 'Ikke alle fugler kan fly.', true, true, 2),
+  ('historie-og-filosofi-2:argumentasjon-og-kildearbeid', 'q04', 'flervalg', 'Hva kjennetegner induksjon?', array['Sikre konklusjoner', 'Fra det generelle til det spesielle', 'Ingen premisser', 'Fra enkelttilfeller til en generell regel']::text[], 3, 'Konklusjonen er bare sannsynlig.', true, true, 3),
+  ('historie-og-filosofi-2:argumentasjon-og-kildearbeid', 'q05', 'flervalg', 'Hva er naturalistisk feilslutning?', array['Å slutte fra hvordan noe er, til hvordan det bør være', 'Å angripe personen', 'Å gjenta konklusjonen', 'Å bruke to alternativer']::text[], 0, 'Naturlig betyr ikke riktig.', true, true, 4),
+  ('historie-og-filosofi-2:argumentasjon-og-kildearbeid', 'q06', 'flervalg', 'Hvem er den sokratiske metoden oppkalt etter?', array['Platon', 'Sokrates', 'Aristoteles', 'Kant']::text[], 1, 'Han stilte spørsmål i Athen.', true, true, 5),
+  ('historie-og-filosofi-2:argumentasjon-og-kildearbeid', 'q07', 'flervalg', 'Hva er et sirkelargument?', array['Et argument med mange premisser', 'Et induktivt argument', 'Et argument der konklusjonen allerede står i premissene', 'Et argument med moteksempel']::text[], 2, 'Det beviser ingenting nytt.', true, true, 6),
+  ('historie-og-filosofi-2:argumentasjon-og-kildearbeid', 'q08', 'flervalg', 'Hva er et godt første grep når du leser en originaltekst?', array['Å lese så fort som mulig', 'Å hoppe over vanskelige ord', 'Å bare lese konklusjonen', 'Å finne ut når, hvor og hvorfor teksten ble skrevet']::text[], 3, 'Konteksten hjelper forståelsen.', true, true, 7),
+  ('historie-og-filosofi-2:argumentasjon-og-kildearbeid', 'q09', 'flervalg', 'Hva er et moteksempel?', array['Et tilfelle som viser at en generell påstand ikke stemmer', 'Et eksempel som støtter påstanden', 'En konklusjon', 'En kilde']::text[], 0, 'Viktig verktøy i filosofisk samtale.', true, false, 8),
+  ('historie-og-filosofi-2:argumentasjon-og-kildearbeid', 'q10', 'flervalg', '«Alle mener det, så det må være riktig.» Hvilken feilslutning er dette?', array['Stråmann', 'Appell til flertallet', 'Personangrep', 'Sirkelargument']::text[], 1, 'Flertallet kan ta feil.', true, false, 9),
+  ('historie-og-filosofi-2:argumentasjon-og-kildearbeid', 'm01', 'sant-usant', 'Et gyldig argument kan ha usanne premisser.', array['Sant', 'Usant']::text[], 0, 'Da er det gyldig, men ikke holdbart.', false, true, 10),
+  ('historie-og-filosofi-2:argumentasjon-og-kildearbeid', 'm02', 'sant-usant', 'Induktive argumenter gir alltid sikre konklusjoner.', array['Sant', 'Usant']::text[], 1, 'De gir sannsynlige konklusjoner.', false, true, 11),
+  ('historie-og-filosofi-2:argumentasjon-og-kildearbeid', 'm03', 'sant-usant', 'I en filosofisk samtale er det en styrke å kunne endre mening.', array['Sant', 'Usant']::text[], 0, 'Målet er å forstå bedre.', false, true, 12),
+  ('historie-og-filosofi-2:argumentasjon-og-kildearbeid', 'm04', 'sant-usant', 'Kilder som bekrefter det du allerede mener, trenger ikke vurderes kritisk.', array['Sant', 'Usant']::text[], 1, 'De bør vurderes særlig kritisk.', false, true, 13),
+  ('historie-og-filosofi-2:argumentasjon-og-kildearbeid', 'm05', 'flervalg', 'Hva er en deduktiv slutning?', array['Fra enkelttilfeller til en regel', 'Fra det generelle til det spesielle', 'En gjetning', 'Et moteksempel']::text[], 1, 'Kan gi sikre konklusjoner.', false, true, 14),
+  ('historie-og-filosofi-2:argumentasjon-og-kildearbeid', 'm06', 'flervalg', 'Hvilket spørsmål avklarer begreper?', array['«Hva mener du med frihet?»', '«Hvem vant?»', '«Hvor mye koster det?»', '«Når slutter timen?»']::text[], 0, 'Viktig i filosofisk samtale.', false, true, 15),
+  ('historie-og-filosofi-2:argumentasjon-og-kildearbeid', 'm07', 'flervalg', 'Hva bør du skille mellom når du leser en originaltekst?', array['Store og små bokstaver', 'Nye og gamle sider', 'Hva teksten sier og hva du selv mener', 'Forfatter og forlag']::text[], 2, 'Først forstå, så vurdere.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('historie-og-filosofi-2:argumentasjon-og-kildearbeid', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Historie og filosofi 2: Vitenskap, pseudovitenskap, desinformasjon og konspirasjonsteorier
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('historie-og-filosofi-2:vitenskap-og-pseudovitenskap', 'historie-og-filosofi-2', 'vitenskap-og-pseudovitenskap', 'Vitenskap, pseudovitenskap, desinformasjon og konspirasjonsteorier', 'Hva som skiller vitenskap fra pseudovitenskap – demarkasjonsproblemet, Poppers falsifiserbarhetskriterium og kjennetegn ved god forskning – og hvorfor desinformasjon og konspirasjonsteorier sprer seg, og hvilke konsekvenser de kan få for enkeltmennesker og demokratiet.', array[3]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('historie-og-filosofi-2:vitenskap-og-pseudovitenskap', '## Demarkasjonsproblemet
+
+Hva skiller **vitenskap** fra **pseudovitenskap**? Dette kalles **demarkasjonsproblemet**. **Pseudovitenskap** er påstander som gir seg ut for å være vitenskapelige, men som ikke følger vitenskapelige **metoder** og **krav**. Eksempler er **astrologi**, **homeopati** og påstander om at jorda er **flat**.
+
+## Poppers falsifiserbarhet
+
+Filosofen **Karl Popper** mente at en vitenskapelig teori må være **falsifiserbar**: Det må være mulig å tenke seg observasjoner som kan vise at den er **feil**. Teorien om at alt metall utvider seg ved oppvarming kan testes – og ville vært motbevist av et metall som krympet.
+
+En teori som kan forklare **alt** som skjer, uansett utfall, er ifølge Popper **ikke** vitenskapelig. Popper kritiserte blant annet deler av **psykoanalysen** og **marxismen** for å være slik.
+
+Vitenskapen kan aldri **bevise** at en teori er endelig sann, men teorier som har overlevd mange **tester**, er vel begrunnet.
+
+## Kjennetegn ved vitenskap
+
+- **Etterprøvbarhet**: Andre kan **gjenta** undersøkelsen.
+- **Systematisk metode** og åpenhet om **usikkerhet**
+- **Fagfellevurdering**: Andre forskere vurderer arbeidet før det publiseres.
+- **Selvkorrigering**: Teorier **endres** når nye funn krever det.
+- **Konsensus** bygger på **mange** studier, ikke én enkelt.
+
+## Kjennetegn ved pseudovitenskap
+
+- påstander som ikke kan **testes**
+- avhengighet av **anekdoter** og enkelthistorier
+- motstand mot **kritikk** og mangel på **endring**
+- bruk av vitenskapelige **ord** uten vitenskapelig **innhold**
+- påstander om at forskere **skjuler** sannheten
+
+## Desinformasjon
+
+- **Feilinformasjon** er uriktig informasjon som spres **uten** vilje til å lure.
+- **Desinformasjon** er **bevisst** falsk informasjon, ofte for å oppnå **politiske** eller **økonomiske** mål.
+
+**Sosiale medier** og **kunstig intelligens** gjør det lett å spre falske bilder, videoer og nyheter raskt. **Stater** bruker desinformasjon for å påvirke **valg** og skape **splid** i andre land.
+
+## Konspirasjonsteorier
+
+En **konspirasjonsteori** hevder at viktige hendelser er styrt av en **hemmelig**, mektig gruppe. Kjennetegn:
+
+- Ingenting skjer **tilfeldig**.
+- Alt henger **sammen**.
+- Mangel på bevis tolkes som **bevis** på at noen skjuler noe.
+- Kritikere blir sett på som en del av **sammensvergelsen**.
+
+Mange konspirasjonsteorier har vært **antisemittiske** – de gjør jøder til syndebukker.
+
+**Hvorfor tror folk på dem?** De kan gi **enkle forklaringer** i en komplisert verden, en følelse av **kontroll** og **fellesskap**, og de spiller på **mistillit** til myndigheter og eksperter.
+
+## Konsekvenser
+
+- **Helse**: Myter om vaksiner kan føre til at færre vaksinerer seg og at sykdommer kommer tilbake.
+- **Demokrati**: Falske påstander om **valgfusk** kan svekke tilliten til valg og i verste fall føre til **vold**.
+- **Polarisering**: Folk lever i ulike «virkeligheter» og slutter å snakke sammen.
+- **Hat**: Konspirasjonsteorier kan rettferdiggjøre **vold** mot grupper.
+
+## Hva kan vi gjøre?
+
+**Kildekritikk**, **faktasjekk**, kunnskap om vitenskapelig **metode** og **åpne** samtaler med respekt – også med dem som tror på konspirasjonsteorier.', '{"label":"Vitenskap og pseudovitenskap","children":[{"label":"Demarkasjon","children":[{"label":"Popper"},{"label":"Falsifiserbarhet"}]},{"label":"Vitenskap","children":[{"label":"Etterprøvbarhet"},{"label":"Fagfellevurdering"},{"label":"Selvkorrigering"}]},{"label":"Pseudovitenskap","children":[{"label":"Ikke testbar"},{"label":"Anekdoter"},{"label":"Astrologi og homeopati"}]},{"label":"Desinformasjon","children":[{"label":"Bevisst falsk"},{"label":"Sosiale medier og KI"}]},{"label":"Konspirasjonsteorier","children":[{"label":"Kjennetegn"},{"label":"Hvorfor folk tror"},{"label":"Konsekvenser"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'historie-og-filosofi-2:vitenskap-og-pseudovitenskap';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('historie-og-filosofi-2:vitenskap-og-pseudovitenskap', 'Demarkasjonsproblemet', 'Spørsmålet om hva som skiller vitenskap fra pseudovitenskap.', 0),
+  ('historie-og-filosofi-2:vitenskap-og-pseudovitenskap', 'Pseudovitenskap', 'Påstander som gir seg ut for å være vitenskap uten å følge vitenskapens krav.', 1),
+  ('historie-og-filosofi-2:vitenskap-og-pseudovitenskap', 'Karl Popper', 'Filosof som mente vitenskapelige teorier må være falsifiserbare.', 2),
+  ('historie-og-filosofi-2:vitenskap-og-pseudovitenskap', 'Falsifiserbarhet', 'At det må være mulig å tenke seg observasjoner som viser at teorien er feil.', 3),
+  ('historie-og-filosofi-2:vitenskap-og-pseudovitenskap', 'Etterprøvbarhet', 'At andre kan gjenta undersøkelsen.', 4),
+  ('historie-og-filosofi-2:vitenskap-og-pseudovitenskap', 'Fagfellevurdering', 'Andre forskere vurderer arbeidet før publisering.', 5),
+  ('historie-og-filosofi-2:vitenskap-og-pseudovitenskap', 'Selvkorrigering', 'At vitenskapen endrer teorier når nye funn krever det.', 6),
+  ('historie-og-filosofi-2:vitenskap-og-pseudovitenskap', 'Konsensus', 'Bred enighet i forskningen basert på mange studier.', 7),
+  ('historie-og-filosofi-2:vitenskap-og-pseudovitenskap', 'Anekdote', 'Enkelthistorie som ikke gir systematisk bevis.', 8),
+  ('historie-og-filosofi-2:vitenskap-og-pseudovitenskap', 'Feilinformasjon', 'Uriktig informasjon spredt uten vilje til å lure.', 9),
+  ('historie-og-filosofi-2:vitenskap-og-pseudovitenskap', 'Desinformasjon', 'Bevisst falsk informasjon for å oppnå mål.', 10),
+  ('historie-og-filosofi-2:vitenskap-og-pseudovitenskap', 'Konspirasjonsteori', 'Påstand om at hendelser styres av en hemmelig, mektig gruppe.', 11),
+  ('historie-og-filosofi-2:vitenskap-og-pseudovitenskap', 'Syndebukk', 'Gruppe som får skylden for problemer.', 12),
+  ('historie-og-filosofi-2:vitenskap-og-pseudovitenskap', 'Faktasjekk', 'Kontroll av om påstander er sanne.', 13),
+  ('historie-og-filosofi-2:vitenskap-og-pseudovitenskap', 'Polarisering', 'At grupper beveger seg lenger fra hverandre.', 14);
+delete from public.quiz_sporsmal where tema_id = 'historie-og-filosofi-2:vitenskap-og-pseudovitenskap';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('historie-og-filosofi-2:vitenskap-og-pseudovitenskap', 'q01', 'flervalg', 'Hva er demarkasjonsproblemet?', array['Spørsmålet om hvor grensene mellom land går', 'Spørsmålet om hva som skiller vitenskap fra pseudovitenskap', 'Et matematisk problem', 'Et problem i kildekritikk alene']::text[], 1, 'Et sentralt spørsmål i vitenskapsfilosofien.', true, true, 0),
+  ('historie-og-filosofi-2:vitenskap-og-pseudovitenskap', 'q02', 'flervalg', 'Hva mente Popper kjennetegner en vitenskapelig teori?', array['At den er falsifiserbar', 'At den kan forklare alt', 'At den er bevist for alltid', 'At mange tror på den']::text[], 0, 'Den må kunne vise seg å være feil.', true, true, 1),
+  ('historie-og-filosofi-2:vitenskap-og-pseudovitenskap', 'q03', 'flervalg', 'Hvorfor er en teori som forklarer alt, ikke vitenskapelig ifølge Popper?', array['Fordi den er for enkel', 'Fordi den er for gammel', 'Fordi ingen observasjon kan motbevise den', 'Fordi den er matematisk']::text[], 2, 'Den kan ikke testes.', true, true, 2),
+  ('historie-og-filosofi-2:vitenskap-og-pseudovitenskap', 'q04', 'flervalg', 'Hva er fagfellevurdering?', array['At journalister vurderer forskning', 'At publikum stemmer', 'At staten godkjenner forskning', 'At andre forskere vurderer arbeidet før publisering']::text[], 3, 'Et kvalitetskrav i vitenskapen.', true, true, 3),
+  ('historie-og-filosofi-2:vitenskap-og-pseudovitenskap', 'q05', 'flervalg', 'Hva skiller desinformasjon fra feilinformasjon?', array['Desinformasjon er bevisst falsk', 'Desinformasjon er alltid sann', 'Det er ingen forskjell', 'Feilinformasjon er bevisst']::text[], 0, 'Hensikten er avgjørende.', true, true, 4),
+  ('historie-og-filosofi-2:vitenskap-og-pseudovitenskap', 'q06', 'flervalg', 'Hva er et kjennetegn ved konspirasjonsteorier?', array['De bygger på fagfellevurdert forskning', 'Mangel på bevis tolkes som bevis på at noen skjuler noe', 'De endres etter nye funn', 'De sier at mye skjer tilfeldig']::text[], 1, 'Derfor er de vanskelige å motbevise.', true, true, 5),
+  ('historie-og-filosofi-2:vitenskap-og-pseudovitenskap', 'q07', 'flervalg', 'Hva er et kjennetegn ved pseudovitenskap?', array['Etterprøvbarhet', 'Selvkorrigering', 'Avhengighet av anekdoter og motstand mot kritikk', 'Fagfellevurdering']::text[], 2, 'Bruker ofte vitenskapelige ord uten innhold.', true, true, 6),
+  ('historie-og-filosofi-2:vitenskap-og-pseudovitenskap', 'q08', 'flervalg', 'Hvilken konsekvens kan konspirasjonsteorier om valgfusk få?', array['Høyere valgdeltakelse', 'Mer tillit', 'Bedre valg', 'Svekket tillit til valg og i verste fall vold']::text[], 3, 'En trussel mot demokratiet.', true, true, 7),
+  ('historie-og-filosofi-2:vitenskap-og-pseudovitenskap', 'q09', 'flervalg', 'Kan vitenskapen bevise at en teori er endelig sann?', array['Nei, men teorier som har overlevd mange tester, er vel begrunnet', 'Ja, alltid', 'Ja, med én studie', 'Nei, vitenskap er meninger']::text[], 0, 'Ifølge Popper.', true, false, 8),
+  ('historie-og-filosofi-2:vitenskap-og-pseudovitenskap', 'q10', 'flervalg', 'Hvorfor kan konspirasjonsteorier virke tiltrekkende?', array['De er alltid sanne', 'De gir enkle forklaringer, kontroll og fellesskap', 'De er vitenskapelige', 'De er kjedelige']::text[], 1, 'Og spiller på mistillit.', true, false, 9),
+  ('historie-og-filosofi-2:vitenskap-og-pseudovitenskap', 'm01', 'sant-usant', 'Mange konspirasjonsteorier har vært antisemittiske.', array['Sant', 'Usant']::text[], 0, 'De gjør jøder til syndebukker.', false, true, 10),
+  ('historie-og-filosofi-2:vitenskap-og-pseudovitenskap', 'm02', 'sant-usant', 'Én enkelt studie er nok til å skape vitenskapelig konsensus.', array['Sant', 'Usant']::text[], 1, 'Konsensus bygger på mange studier.', false, true, 11),
+  ('historie-og-filosofi-2:vitenskap-og-pseudovitenskap', 'm03', 'sant-usant', 'Stater kan bruke desinformasjon for å påvirke valg i andre land.', array['Sant', 'Usant']::text[], 0, 'Og skape splid.', false, true, 12),
+  ('historie-og-filosofi-2:vitenskap-og-pseudovitenskap', 'm04', 'sant-usant', 'Vitenskapen endrer aldri teoriene sine.', array['Sant', 'Usant']::text[], 1, 'Selvkorrigering er et kjennetegn.', false, true, 13),
+  ('historie-og-filosofi-2:vitenskap-og-pseudovitenskap', 'm05', 'flervalg', 'Hva er et eksempel på pseudovitenskap?', array['Evolusjonsteorien', 'Astrologi', 'Gravitasjonsteorien', 'Celleteorien']::text[], 1, 'Påstandene kan ikke testes på en vitenskapelig måte.', false, true, 14),
+  ('historie-og-filosofi-2:vitenskap-og-pseudovitenskap', 'm06', 'flervalg', 'Hvilken helsekonsekvens kan myter om vaksiner få?', array['At færre vaksinerer seg og sykdommer kommer tilbake', 'At flere blir friske', 'At vaksiner blir billigere', 'Ingen konsekvenser']::text[], 0, 'Et konkret eksempel.', false, true, 15),
+  ('historie-og-filosofi-2:vitenskap-og-pseudovitenskap', 'm07', 'flervalg', 'Hva kan hjelpe mot desinformasjon?', array['Å dele alt raskt', 'Å stole på anonyme kilder', 'Kildekritikk og faktasjekk', 'Å unngå all informasjon']::text[], 2, 'Og kunnskap om vitenskapelig metode.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('historie-og-filosofi-2:vitenskap-og-pseudovitenskap', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Historie og filosofi 2: Metode, perspektiv og erkjennelse
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('historie-og-filosofi-2:metode-perspektiv-og-erkjennelse', 'historie-og-filosofi-2', 'metode-perspektiv-og-erkjennelse', 'Metode, perspektiv og erkjennelse', 'Hvordan vi søker kunnskap gjennom valg av metoder, teorier, perspektiver og kilder – positivisme og hermeneutikk, teoriladede observasjoner, Kuhns paradigmer og feministiske og postkoloniale perspektiver – og hvordan valgene påvirker hva vi ser, leter etter og forstår.', array[4]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('historie-og-filosofi-2:metode-perspektiv-og-erkjennelse', '## Kunnskap er ikke bare å se
+
+Vi tror ofte at kunnskap handler om å **observere** verden slik den er. Men det vi ser, avhenger av hvilke **spørsmål** vi stiller, hvilke **metoder** vi bruker, hvilke **teorier** vi har, og hvilket **perspektiv** vi har. Valgene fungerer som **briller** som gjør noe synlig og noe **usynlig**.
+
+## To vitenskapstradisjoner
+
+**Positivismen** mente at vitenskap skal bygge på **observerbare** fakta, **målinger** og **lover**, og at samfunnsvitenskapen bør arbeide som naturvitenskapen. Idealet er **objektivitet** – at forskeren skal være nøytral.
+
+**Hermeneutikken** er læren om **tolkning**. Den er særlig viktig i historie, litteratur og filosofi. Vi forstår en tekst eller en handling ut fra vår **forforståelse** – det vi vet og tror fra før. I **den hermeneutiske sirkelen** veksler vi mellom **delene** og **helheten**: Vi forstår delene ut fra helheten, og helheten ut fra delene. Forforståelsen endres underveis.
+
+## Teoriladede observasjoner
+
+Filosofer har pekt på at observasjoner er **teoriladede**: Det en erfaren lege ser på et røntgenbilde, er noe annet enn det en lekperson ser. **Forventninger** og **begreper** styrer hva vi legger merke til.
+
+## Kuhns paradigmer
+
+**Thomas Kuhn** skrev i **1962** at vitenskapen arbeider innenfor **paradigmer** – felles teorier, metoder og syn på hva som er viktige spørsmål. I **normalvitenskap** løser forskerne oppgaver innenfor paradigmet. Når det samler seg for mange **avvik**, kan det skje en **vitenskapelig revolusjon** og et **paradigmeskifte**, som da det **heliosentriske** verdensbildet erstattet det **geosentriske**.
+
+## Perspektiver
+
+Nye perspektiver har gjort det synlig som tidligere ble **oversett**:
+
+- **Feministiske** perspektiver har vist at forskning lenge tok **menn** som norm, for eksempel i medisin, der sykdommer hos kvinner ble mindre undersøkt.
+- **Postkoloniale** perspektiver har vist at historien ofte ble fortalt fra **kolonimaktenes** ståsted, mens de **koloniserte** ble framstilt som passive.
+- **Nedenfra-perspektiver** i historie ser på **vanlige mennesker** i stedet for konger og statsmenn.
+
+## Kilder og metoder
+
+- **Kvantitative** metoder – statistikk og målinger – gir **oversikt** og kan avdekke **mønstre**, men sier mindre om **opplevelser** og **meninger**.
+- **Kvalitative** metoder – intervjuer, tekstanalyse og observasjon – gir **dybde**, men er vanskeligere å **generalisere** fra.
+- **Valg av kilder** påvirker hvilke **stemmer** som blir hørt. Arkivene inneholder ofte mest om dem som hadde **makt** og kunne **skrive**.
+
+## Er all kunnskap relativ?
+
+At valg av perspektiv påvirker kunnskapen, betyr ikke at **alt** er like sant. Vi kan fortsatt skille mellom **godt** og **dårlig** begrunnede påstander. Det viktige er å være **bevisst** egne valg, være **åpen** om dem og **prøve** kunnskapen mot andres perspektiver og nye kilder.
+
+## Refleksjon
+
+Spør deg selv: Hvilke **briller** har jeg på? Hva kan jeg ha **oversett**? Hvem sin **stemme** mangler?', '{"label":"Metode, perspektiv og erkjennelse","children":[{"label":"Tradisjoner","children":[{"label":"Positivisme"},{"label":"Hermeneutikk"},{"label":"Hermeneutisk sirkel"}]},{"label":"Observasjon","children":[{"label":"Teoriladet"},{"label":"Forventninger"}]},{"label":"Kuhn","children":[{"label":"Paradigme"},{"label":"Normalvitenskap"},{"label":"Paradigmeskifte"}]},{"label":"Perspektiver","children":[{"label":"Feministisk"},{"label":"Postkolonialt"},{"label":"Nedenfra"}]},{"label":"Metoder og kilder","children":[{"label":"Kvantitativ og kvalitativ"},{"label":"Hvem sin stemme?"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'historie-og-filosofi-2:metode-perspektiv-og-erkjennelse';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('historie-og-filosofi-2:metode-perspektiv-og-erkjennelse', 'Positivisme', 'Vitenskap bygd på observerbare fakta, målinger og lover.', 0),
+  ('historie-og-filosofi-2:metode-perspektiv-og-erkjennelse', 'Objektivitet', 'Idealet om at forskeren skal være nøytral.', 1),
+  ('historie-og-filosofi-2:metode-perspektiv-og-erkjennelse', 'Hermeneutikk', 'Læren om tolkning.', 2),
+  ('historie-og-filosofi-2:metode-perspektiv-og-erkjennelse', 'Forforståelse', 'Det vi vet og tror fra før, som preger tolkningen.', 3),
+  ('historie-og-filosofi-2:metode-perspektiv-og-erkjennelse', 'Den hermeneutiske sirkelen', 'Veksling mellom deler og helhet i tolkningen.', 4),
+  ('historie-og-filosofi-2:metode-perspektiv-og-erkjennelse', 'Teoriladet observasjon', 'At forventninger og begreper styrer hva vi ser.', 5),
+  ('historie-og-filosofi-2:metode-perspektiv-og-erkjennelse', 'Thomas Kuhn', 'Vitenskapsfilosof som skrev om paradigmer i 1962.', 6),
+  ('historie-og-filosofi-2:metode-perspektiv-og-erkjennelse', 'Paradigme', 'Felles teorier, metoder og syn på viktige spørsmål i et fag.', 7),
+  ('historie-og-filosofi-2:metode-perspektiv-og-erkjennelse', 'Normalvitenskap', 'Forskning innenfor et etablert paradigme.', 8),
+  ('historie-og-filosofi-2:metode-perspektiv-og-erkjennelse', 'Paradigmeskifte', 'Når et paradigme erstattes av et nytt.', 9),
+  ('historie-og-filosofi-2:metode-perspektiv-og-erkjennelse', 'Feministisk perspektiv', 'Viser hvordan menn har blitt tatt som norm.', 10),
+  ('historie-og-filosofi-2:metode-perspektiv-og-erkjennelse', 'Postkolonialt perspektiv', 'Viser hvordan historien ble fortalt fra kolonimaktenes ståsted.', 11),
+  ('historie-og-filosofi-2:metode-perspektiv-og-erkjennelse', 'Nedenfra-perspektiv', 'Historie om vanlige mennesker i stedet for makthavere.', 12),
+  ('historie-og-filosofi-2:metode-perspektiv-og-erkjennelse', 'Kvantitativ metode', 'Statistikk og målinger som gir oversikt og mønstre.', 13),
+  ('historie-og-filosofi-2:metode-perspektiv-og-erkjennelse', 'Kvalitativ metode', 'Intervjuer og tekstanalyse som gir dybde.', 14);
+delete from public.quiz_sporsmal where tema_id = 'historie-og-filosofi-2:metode-perspektiv-og-erkjennelse';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('historie-og-filosofi-2:metode-perspektiv-og-erkjennelse', 'q01', 'flervalg', 'Hva er hermeneutikk?', array['Læren om målinger', 'Læren om tolkning', 'Læren om tall', 'Læren om naturlover']::text[], 1, 'Viktig i historie, litteratur og filosofi.', true, true, 0),
+  ('historie-og-filosofi-2:metode-perspektiv-og-erkjennelse', 'q02', 'flervalg', 'Hva er forforståelse?', array['Det vi vet og tror fra før, som preger tolkningen', 'En konklusjon', 'En måling', 'En kilde']::text[], 0, 'Endres i den hermeneutiske sirkelen.', true, true, 1),
+  ('historie-og-filosofi-2:metode-perspektiv-og-erkjennelse', 'q03', 'flervalg', 'Hva er et paradigme ifølge Kuhn?', array['Et enkelt eksperiment', 'En type kilde', 'Felles teorier, metoder og syn på viktige spørsmål i et fag', 'En konspirasjonsteori']::text[], 2, 'Skifter ved vitenskapelige revolusjoner.', true, true, 2),
+  ('historie-og-filosofi-2:metode-perspektiv-og-erkjennelse', 'q04', 'flervalg', 'Hva betyr det at observasjoner er teoriladede?', array['At de alltid er feil', 'At de er nøytrale', 'At de er matematiske', 'At forventninger og begreper styrer hva vi ser']::text[], 3, 'Eksempel: legen og røntgenbildet.', true, true, 3),
+  ('historie-og-filosofi-2:metode-perspektiv-og-erkjennelse', 'q05', 'flervalg', 'Hva er et eksempel på et paradigmeskifte?', array['Overgangen fra geosentrisk til heliosentrisk verdensbilde', 'En ny avis', 'En ny lov', 'Et valg']::text[], 0, 'En vitenskapelig revolusjon.', true, true, 4),
+  ('historie-og-filosofi-2:metode-perspektiv-og-erkjennelse', 'q06', 'flervalg', 'Hva har feministiske perspektiver vist i medisinen?', array['At kvinner er mest undersøkt', 'At forskning lenge tok menn som norm', 'At kjønn ikke har betydning', 'At medisin er ferdig']::text[], 1, 'Sykdommer hos kvinner ble mindre undersøkt.', true, true, 5),
+  ('historie-og-filosofi-2:metode-perspektiv-og-erkjennelse', 'q07', 'flervalg', 'Hvorfor inneholder arkivene ofte mest om de mektige?', array['Fordi de var flest', 'Fordi arkivene er nye', 'Fordi de hadde makt og kunne skrive', 'Fordi vanlige folk ikke fantes']::text[], 2, 'Valg av kilder påvirker hvilke stemmer som høres.', true, true, 6),
+  ('historie-og-filosofi-2:metode-perspektiv-og-erkjennelse', 'q08', 'flervalg', 'Betyr påvirkningen fra perspektiv at all kunnskap er like sann?', array['Ja', 'Ja, alt er meninger', 'Nei, fordi vi aldri kan vite noe', 'Nei, vi kan fortsatt skille godt og dårlig begrunnede påstander']::text[], 3, 'Bevissthet om valg styrker kunnskapen.', true, true, 7),
+  ('historie-og-filosofi-2:metode-perspektiv-og-erkjennelse', 'q09', 'flervalg', 'Hva er en styrke ved kvantitative metoder?', array['De gir oversikt og kan avdekke mønstre', 'De gir dyp forståelse av opplevelser', 'De krever ingen tall', 'De er alltid bedre']::text[], 0, 'Kvalitative metoder gir dybde.', true, false, 8),
+  ('historie-og-filosofi-2:metode-perspektiv-og-erkjennelse', 'q10', 'flervalg', 'Hva gjør et postkolonialt perspektiv synlig?', array['At kolonimaktene var passive', 'At historien ofte ble fortalt fra kolonimaktenes ståsted', 'At kolonier ikke fantes', 'At alle kilder er like']::text[], 1, 'De koloniserte ble framstilt som passive.', true, false, 9),
+  ('historie-og-filosofi-2:metode-perspektiv-og-erkjennelse', 'm01', 'sant-usant', 'Valg av metode kan gjøre noe synlig og noe usynlig.', array['Sant', 'Usant']::text[], 0, 'Metoder fungerer som briller.', false, true, 10),
+  ('historie-og-filosofi-2:metode-perspektiv-og-erkjennelse', 'm02', 'sant-usant', 'Positivismen la vekt på tolkning av mening.', array['Sant', 'Usant']::text[], 1, 'Den la vekt på observerbare fakta og målinger.', false, true, 11),
+  ('historie-og-filosofi-2:metode-perspektiv-og-erkjennelse', 'm03', 'sant-usant', 'Nedenfra-perspektiver i historie ser på vanlige menneskers liv.', array['Sant', 'Usant']::text[], 0, 'I stedet for bare konger og statsmenn.', false, true, 12),
+  ('historie-og-filosofi-2:metode-perspektiv-og-erkjennelse', 'm04', 'sant-usant', 'Kvalitative metoder er lettest å generalisere fra.', array['Sant', 'Usant']::text[], 1, 'De gir dybde, men er vanskeligere å generalisere fra.', false, true, 13),
+  ('historie-og-filosofi-2:metode-perspektiv-og-erkjennelse', 'm05', 'flervalg', 'Når skrev Kuhn om paradigmer?', array['1859', '1962', '1789', '2001']::text[], 1, 'Om vitenskapelige revolusjoner.', false, true, 14),
+  ('historie-og-filosofi-2:metode-perspektiv-og-erkjennelse', 'm06', 'flervalg', 'Hva skjer i den hermeneutiske sirkelen?', array['Vi veksler mellom deler og helhet', 'Vi måler og veier', 'Vi falsifiserer teorier', 'Vi teller kilder']::text[], 0, 'Forforståelsen endres underveis.', false, true, 15),
+  ('historie-og-filosofi-2:metode-perspektiv-og-erkjennelse', 'm07', 'flervalg', 'Hvilket spørsmål hjelper deg å bli bevisst egne valg?', array['Hvor mange sider har kilden?', 'Hvem har skrevet minst?', 'Hvem sin stemme mangler?', 'Hvilken farge har boka?']::text[], 2, 'Refleksjon over perspektiv.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('historie-og-filosofi-2:metode-perspektiv-og-erkjennelse', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Historie og filosofi 2: Moderne tenkning og kritikken av den
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('historie-og-filosofi-2:moderniteten-og-kritikken', 'historie-og-filosofi-2', 'moderniteten-og-kritikken', 'Moderne tenkning og kritikken av den', 'Kjennetegn og konsekvenser av moderne tenkning og virkelighetsforståelse – fornuft, vitenskap, individ, fremskrittstro og sekularisering – og kritikken fra romantikken, Frankfurterskolen, postmodernismen, økologisk tenkning og postkoloniale perspektiver.', array[5]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('historie-og-filosofi-2:moderniteten-og-kritikken', '## Hva er moderniteten?
+
+**Moderniteten** er betegnelsen på den tenkningen og samfunnsformen som vokste fram i Europa fra **1600-tallet**, med røtter i **renessansen**, **den vitenskapelige revolusjonen** og **opplysningstiden**.
+
+Kjennetegn:
+
+- **Fornuften** skal være grunnlaget for kunnskap og samfunn. **René Descartes** søkte sikker kunnskap og kom fram til «**jeg tenker, altså er jeg**».
+- **Naturvitenskapen** forklarer verden med **naturlover**. **Isaac Newton** viste at de samme lovene gjelder på jorda og i verdensrommet.
+- **Individet** står i sentrum med rettigheter, frihet og ansvar.
+- **Fremskrittstro**: Historien går mot et stadig **bedre** samfunn.
+- **Sekularisering**: Religion mister sin sentrale plass.
+- **Rasjonalisering**: Samfunnet organiseres **effektivt** gjennom byråkrati, marked og teknologi.
+
+Sosiologen **Max Weber** kalte dette «**verdens avfortryllelse**»: Verden blir forklart **rasjonelt**, og det magiske og hellige trer tilbake.
+
+## Konsekvenser
+
+Moderniteten har gitt **demokrati**, **menneskerettigheter**, **vitenskap**, **medisin**, **velstand** og **lengre liv**. Men den har også hatt en **mørk side**: **kolonialisme**, **industrialisert krig**, **miljøødeleggelse** og **fremmedgjøring**.
+
+## Kritikk
+
+**Romantikken** på 1800-tallet reagerte mot en for **kald** og **mekanisk** fornuft. Den løftet fram **følelser**, **naturen**, **fantasien** og det **nasjonale**.
+
+**Frankfurterskolen** – med **Theodor Adorno** og **Max Horkheimer** – skrev boka **Opplysningens dialektikk** under andre verdenskrig. De mente at fornuften kan bli et **redskap** for **kontroll** og **undertrykkelse**, og at **holocaust** viste hvordan moderne byråkrati og teknologi kunne brukes til **massedrap**.
+
+**Postmodernismen** kritiserte troen på **én sannhet** og de store forklaringene av historien. **Jean-François Lyotard** skrev i **1979** om **mistillit** til de **store fortellingene** – som fortellingen om fremskritt eller om klassesamfunnets endelige frigjøring.
+
+**Økologisk kritikk** peker på at moderne tenkning har sett naturen som en **ressurs** mennesket kan **beherske**, noe som har bidratt til **klimakrise** og **tap av natur**.
+
+**Postkolonial kritikk** viser at moderniteten ofte ble framstilt som **europeisk** og **universell**, mens andre kulturer ble sett på som **tilbakestående**.
+
+**Religiøs kritikk** hevder at moderniteten har skapt et **tomrom** av mening og verdier.
+
+## Forsvar for moderniteten
+
+Forsvarere, som filosofen **Jürgen Habermas**, har kalt moderniteten et **uferdig prosjekt**. De mener at løsningen på modernitetens problemer ikke er å forlate **fornuften**, men å bruke den **bedre** – gjennom åpen **dialog**, **demokrati** og **kritikk**.
+
+## Senmodernitet
+
+Noen mener vi i dag lever i en **senmoderne** eller **flytende** tid, der identitet, arbeid og relasjoner er mindre **faste** enn før. Sosiologen **Zygmunt Bauman** brukte begrepet «**flytende modernitet**».
+
+## Drøfting
+
+Når du drøfter moderniteten, kan du spørre: Hva har moderne tenkning gjort **mulig**? Hva har den **ødelagt** eller **oversett**? Kan kritikken bygge på noe **annet** enn fornuften selv?', '{"label":"Moderniteten","children":[{"label":"Kjennetegn","children":[{"label":"Fornuft og vitenskap"},{"label":"Individ"},{"label":"Fremskritt og sekularisering"}]},{"label":"Konsekvenser","children":[{"label":"Demokrati og velstand"},{"label":"Kolonialisme og krig"}]},{"label":"Kritikk","children":[{"label":"Romantikken"},{"label":"Frankfurterskolen"},{"label":"Postmodernismen"}]},{"label":"Nyere kritikk","children":[{"label":"Økologisk"},{"label":"Postkolonial"},{"label":"Religiøs"}]},{"label":"Forsvar","children":[{"label":"Habermas"},{"label":"Flytende modernitet"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'historie-og-filosofi-2:moderniteten-og-kritikken';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('historie-og-filosofi-2:moderniteten-og-kritikken', 'Moderniteten', 'Tenkning og samfunnsform som vokste fram i Europa fra 1600-tallet.', 0),
+  ('historie-og-filosofi-2:moderniteten-og-kritikken', 'René Descartes', 'Filosof som sa «jeg tenker, altså er jeg».', 1),
+  ('historie-og-filosofi-2:moderniteten-og-kritikken', 'Isaac Newton', 'Viste at de samme naturlovene gjelder på jorda og i verdensrommet.', 2),
+  ('historie-og-filosofi-2:moderniteten-og-kritikken', 'Fremskrittstro', 'Troen på at historien går mot et stadig bedre samfunn.', 3),
+  ('historie-og-filosofi-2:moderniteten-og-kritikken', 'Rasjonalisering', 'At samfunnet organiseres effektivt gjennom byråkrati, marked og teknologi.', 4),
+  ('historie-og-filosofi-2:moderniteten-og-kritikken', 'Verdens avfortryllelse', 'Webers begrep om at verden forklares rasjonelt og det magiske trer tilbake.', 5),
+  ('historie-og-filosofi-2:moderniteten-og-kritikken', 'Romantikken', 'Reaksjon som løftet fram følelser, natur og fantasi.', 6),
+  ('historie-og-filosofi-2:moderniteten-og-kritikken', 'Frankfurterskolen', 'Adorno og Horkheimer, som kritiserte fornuften som redskap for kontroll.', 7),
+  ('historie-og-filosofi-2:moderniteten-og-kritikken', 'Opplysningens dialektikk', 'Adorno og Horkheimers kritikk av moderniteten.', 8),
+  ('historie-og-filosofi-2:moderniteten-og-kritikken', 'Postmodernisme', 'Kritikk av troen på én sannhet og de store fortellingene.', 9),
+  ('historie-og-filosofi-2:moderniteten-og-kritikken', 'Jean-François Lyotard', 'Skrev i 1979 om mistillit til de store fortellingene.', 10),
+  ('historie-og-filosofi-2:moderniteten-og-kritikken', 'De store fortellingene', 'Helhetlige forklaringer av historien, som fremskrittsfortellingen.', 11),
+  ('historie-og-filosofi-2:moderniteten-og-kritikken', 'Jürgen Habermas', 'Kalte moderniteten et uferdig prosjekt.', 12),
+  ('historie-og-filosofi-2:moderniteten-og-kritikken', 'Flytende modernitet', 'Baumans begrep om en tid der identitet og relasjoner er mindre faste.', 13),
+  ('historie-og-filosofi-2:moderniteten-og-kritikken', 'Postkolonial kritikk', 'Viser at moderniteten ble framstilt som europeisk og universell.', 14);
+delete from public.quiz_sporsmal where tema_id = 'historie-og-filosofi-2:moderniteten-og-kritikken';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('historie-og-filosofi-2:moderniteten-og-kritikken', 'q01', 'flervalg', 'Hva kjennetegner moderne tenkning?', array['Tradisjon over fornuft', 'Fornuft, vitenskap, individ og fremskrittstro', 'Religion som grunnlag for all kunnskap', 'Avvisning av vitenskap']::text[], 1, 'Også sekularisering og rasjonalisering.', true, true, 0),
+  ('historie-og-filosofi-2:moderniteten-og-kritikken', 'q02', 'flervalg', 'Hva mente Weber med verdens avfortryllelse?', array['At verden forklares rasjonelt og det magiske trer tilbake', 'At verden blir mer magisk', 'At religion vokser', 'At fornuften forsvinner']::text[], 0, 'En følge av moderniseringen.', true, true, 1),
+  ('historie-og-filosofi-2:moderniteten-og-kritikken', 'q03', 'flervalg', 'Hva kritiserte Frankfurterskolen?', array['For lite fornuft', 'Romantikken', 'At fornuften kan bli et redskap for kontroll og undertrykkelse', 'Religion']::text[], 2, 'I Opplysningens dialektikk.', true, true, 2),
+  ('historie-og-filosofi-2:moderniteten-og-kritikken', 'q04', 'flervalg', 'Hva mente Lyotard om de store fortellingene?', array['At de er sanne', 'At de er nye', 'At de bør læres i skolen', 'At det har oppstått mistillit til dem']::text[], 3, 'Postmoderne kritikk.', true, true, 3),
+  ('historie-og-filosofi-2:moderniteten-og-kritikken', 'q05', 'flervalg', 'Hva kalte Habermas moderniteten?', array['Et uferdig prosjekt', 'En katastrofe', 'Et avsluttet kapittel', 'En myte']::text[], 0, 'Fornuften må brukes bedre.', true, true, 4),
+  ('historie-og-filosofi-2:moderniteten-og-kritikken', 'q06', 'flervalg', 'Hva løftet romantikken fram som reaksjon på moderniteten?', array['Byråkrati og effektivitet', 'Følelser, natur og fantasi', 'Statistikk', 'Maskiner']::text[], 1, 'Mot en kald og mekanisk fornuft.', true, true, 5),
+  ('historie-og-filosofi-2:moderniteten-og-kritikken', 'q07', 'flervalg', 'Hva er økologisk kritikk av moderniteten?', array['At den brukte for lite teknologi', 'At den var for religiøs', 'At den så naturen som en ressurs mennesket kan beherske', 'At den var for romantisk']::text[], 2, 'Bidro til klimakrise og tap av natur.', true, true, 6),
+  ('historie-og-filosofi-2:moderniteten-og-kritikken', 'q08', 'flervalg', 'Hva sa Descartes?', array['«Gud er død»', '«Mennesket er alle tings mål»', '«Jeg er fordi vi er»', '«Jeg tenker, altså er jeg»']::text[], 3, 'Søken etter sikker kunnskap.', true, true, 7),
+  ('historie-og-filosofi-2:moderniteten-og-kritikken', 'q09', 'flervalg', 'Hva er en mørk side ved moderniteten?', array['Kolonialisme og industrialisert krig', 'Lengre liv', 'Menneskerettigheter', 'Medisin']::text[], 0, 'Også miljøødeleggelse og fremmedgjøring.', true, false, 8),
+  ('historie-og-filosofi-2:moderniteten-og-kritikken', 'q10', 'flervalg', 'Hva er flytende modernitet?', array['En tid med faste roller', 'En tid der identitet, arbeid og relasjoner er mindre faste', 'En teori om vann', 'Middelalderen']::text[], 1, 'Zygmunt Baumans begrep.', true, false, 9),
+  ('historie-og-filosofi-2:moderniteten-og-kritikken', 'm01', 'sant-usant', 'Frankfurterskolen mente holocaust viste hvordan moderne byråkrati kunne brukes til massedrap.', array['Sant', 'Usant']::text[], 0, 'Fornuften kan bli et redskap for undertrykkelse.', false, true, 10),
+  ('historie-og-filosofi-2:moderniteten-og-kritikken', 'm02', 'sant-usant', 'Postmodernismen styrket troen på én sannhet.', array['Sant', 'Usant']::text[], 1, 'Den kritiserte troen på én sannhet.', false, true, 11),
+  ('historie-og-filosofi-2:moderniteten-og-kritikken', 'm03', 'sant-usant', 'Moderniteten har gitt både menneskerettigheter og miljøødeleggelse.', array['Sant', 'Usant']::text[], 0, 'Den har både lyse og mørke sider.', false, true, 12),
+  ('historie-og-filosofi-2:moderniteten-og-kritikken', 'm04', 'sant-usant', 'Habermas mente vi burde forlate fornuften.', array['Sant', 'Usant']::text[], 1, 'Han mente vi må bruke den bedre.', false, true, 13),
+  ('historie-og-filosofi-2:moderniteten-og-kritikken', 'm05', 'flervalg', 'Hvem viste at de samme naturlovene gjelder på jorda og i verdensrommet?', array['Descartes', 'Newton', 'Weber', 'Lyotard']::text[], 1, 'Viktig for den vitenskapelige revolusjonen.', false, true, 14),
+  ('historie-og-filosofi-2:moderniteten-og-kritikken', 'm06', 'flervalg', 'Hva er rasjonalisering?', array['At samfunnet organiseres effektivt gjennom byråkrati, marked og teknologi', 'At religion vokser', 'At følelser styrer', 'At naturen fredes']::text[], 0, 'Et kjennetegn ved moderniteten.', false, true, 15),
+  ('historie-og-filosofi-2:moderniteten-og-kritikken', 'm07', 'flervalg', 'Hva hevder religiøs kritikk av moderniteten?', array['At den er for religiøs', 'At den har for lite teknologi', 'At den har skapt et tomrom av mening og verdier', 'At den er for gammel']::text[], 2, 'Sekulariseringen har en pris.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('historie-og-filosofi-2:moderniteten-og-kritikken', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Historie og filosofi 2: Veien til det moderne demokratiet – og hindrene
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('historie-og-filosofi-2:veien-til-det-moderne-demokratiet', 'historie-og-filosofi-2', 'veien-til-det-moderne-demokratiet', 'Veien til det moderne demokratiet – og hindrene', 'Historiske prosesser og filosofiske ideer som ledet fram mot det moderne demokratiet – fra Magna Carta og opplysningsfilosofene til Mill, Tocqueville og menneskerettighetene – og hvordan vanetenkning, maktstrukturer og andre hindre har stått, og står, i veien for demokrati og menneskerettigheter.', array[6]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('historie-og-filosofi-2:veien-til-det-moderne-demokratiet', '## Røtter
+
+- I **Athen** på 400-tallet før vår tid fikk frie menn delta direkte i folkeforsamlingen. Kvinner, slaver og innflyttere var utelukket.
+- **Magna Carta** fra **1215** begrenset den engelske kongens makt og ga adelen visse **rettigheter**.
+- Etter den **Ærerike revolusjonen** i England i **1688** fikk parlamentet større makt gjennom **Bill of Rights** (1689).
+
+## Filosofiske ideer
+
+- **John Locke**: Mennesker har **naturlige rettigheter** til liv, frihet og eiendom, og makten bygger på folkets **samtykke**. Et folk kan **gjøre opprør** mot en tyrann.
+- **Montesquieu**: **Maktfordeling** mellom lovgivende, utøvende og dømmende makt hindrer **maktmisbruk**.
+- **Rousseau**: **Folkesuverenitet** – makten tilhører **folket**, og lovene skal uttrykke **allmennviljen**.
+- **Mary Wollstonecraft** krevde i **1792** at kvinner skulle få samme **rettigheter** og **utdanning** som menn.
+- **Alexis de Tocqueville** studerte demokratiet i **USA** og advarte mot **flertallets tyranni** – at flertallet kan undertrykke minoriteter.
+- **John Stuart Mill** skrev **Om friheten** (1859): Staten kan bare begrense individets frihet for å hindre **skade på andre**. Han forsvarte **ytringsfrihet** og kvinners rettigheter.
+
+## Historiske prosesser
+
+- **Den amerikanske** og **den franske revolusjonen** på slutten av 1700-tallet
+- **Grunnloven** av **1814** i Norge
+- **Utvidelse av stemmeretten** til alle menn og deretter til **kvinner** på 1800- og 1900-tallet
+- **Arbeiderbevegelsen** og **kvinnebevegelsen**
+- **FNs verdenserklæring om menneskerettighetene** i **1948**
+- **Avkolonisering** og kampen mot **apartheid**
+- **Berlinmurens fall** i **1989**
+
+## Hindre
+
+**Vanetenkning** – forestillinger som tas for gitt:
+
+- at kvinner «av natur» var uegnet til politikk
+- at noen **raser** eller **folk** var mindreverdige
+- at bare de med **eiendom** eller **utdanning** burde stemme
+
+**Maktstrukturer**:
+
+- **Klasse**: Adel, embetsmenn og rike ville beholde privilegiene sine.
+- **Patriarkat**: Menn hadde makt over kvinner i familie, arbeidsliv og politikk.
+- **Kolonialisme** og **rasisme**: Idealer om frihet og likhet gjaldt ikke for de koloniserte og for slaver.
+- **Religiøse** og **tradisjonelle** autoriteter som motsatte seg endring
+
+## Hindre i dag
+
+- **Autoritære** regimer og **demokratisk tilbakegang** i flere land, der frie medier, domstoler og opposisjon svekkes
+- **Desinformasjon** og **polarisering**
+- **Lav tillit** og lav **deltakelse** i noen grupper
+- **Diskriminering** av minoriteter
+- Store **økonomiske forskjeller**, som gir noen mer innflytelse enn andre
+
+## Refleksjon
+
+Demokrati og menneskerettigheter kom ikke av seg selv. De ble **kjempet** fram – ofte mot sterk motstand. Historien viser også at demokratiet kan **svekkes** hvis det ikke **forsvares**. Hvilke **vaner** og **strukturer** i vår egen tid kan det være vi ikke ser?', '{"label":"Veien til demokratiet","children":[{"label":"Røtter","children":[{"label":"Athen"},{"label":"Magna Carta"},{"label":"Bill of Rights"}]},{"label":"Ideer","children":[{"label":"Locke og Montesquieu"},{"label":"Rousseau og Wollstonecraft"},{"label":"Tocqueville og Mill"}]},{"label":"Prosesser","children":[{"label":"Revolusjoner"},{"label":"Stemmerett"},{"label":"Menneskerettigheter 1948"}]},{"label":"Hindre før","children":[{"label":"Vanetenkning"},{"label":"Klasse og patriarkat"},{"label":"Kolonialisme og rasisme"}]},{"label":"Hindre i dag","children":[{"label":"Autoritære regimer"},{"label":"Desinformasjon"},{"label":"Ulikhet"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'historie-og-filosofi-2:veien-til-det-moderne-demokratiet';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('historie-og-filosofi-2:veien-til-det-moderne-demokratiet', 'Magna Carta', 'Dokument fra 1215 som begrenset den engelske kongens makt.', 0),
+  ('historie-og-filosofi-2:veien-til-det-moderne-demokratiet', 'Bill of Rights', 'Engelsk lov fra 1689 som styrket parlamentet.', 1),
+  ('historie-og-filosofi-2:veien-til-det-moderne-demokratiet', 'Naturlige rettigheter', 'Lockes idé om rett til liv, frihet og eiendom.', 2),
+  ('historie-og-filosofi-2:veien-til-det-moderne-demokratiet', 'Samtykke', 'Lockes idé om at makten bygger på folkets samtykke.', 3),
+  ('historie-og-filosofi-2:veien-til-det-moderne-demokratiet', 'Maktfordeling', 'Montesquieus deling av makten i tre.', 4),
+  ('historie-og-filosofi-2:veien-til-det-moderne-demokratiet', 'Folkesuverenitet', 'Makten tilhører folket.', 5),
+  ('historie-og-filosofi-2:veien-til-det-moderne-demokratiet', 'Allmennviljen', 'Rousseaus idé om folkets felles vilje.', 6),
+  ('historie-og-filosofi-2:veien-til-det-moderne-demokratiet', 'Mary Wollstonecraft', 'Krevde i 1792 like rettigheter for kvinner.', 7),
+  ('historie-og-filosofi-2:veien-til-det-moderne-demokratiet', 'Flertallets tyranni', 'Tocquevilles advarsel om at flertallet kan undertrykke minoriteter.', 8),
+  ('historie-og-filosofi-2:veien-til-det-moderne-demokratiet', 'Om friheten', 'Mills bok fra 1859 om individets frihet.', 9),
+  ('historie-og-filosofi-2:veien-til-det-moderne-demokratiet', 'Skadeprinsippet', 'Friheten kan bare begrenses for å hindre skade på andre.', 10),
+  ('historie-og-filosofi-2:veien-til-det-moderne-demokratiet', 'Vanetenkning', 'Forestillinger som tas for gitt uten å bli undersøkt.', 11),
+  ('historie-og-filosofi-2:veien-til-det-moderne-demokratiet', 'Patriarkat', 'Samfunnsordning der menn har makt over kvinner.', 12),
+  ('historie-og-filosofi-2:veien-til-det-moderne-demokratiet', 'Demokratisk tilbakegang', 'At demokratiske institusjoner svekkes.', 13),
+  ('historie-og-filosofi-2:veien-til-det-moderne-demokratiet', 'Verdenserklæringen', 'FNs erklæring om menneskerettighetene fra 1948.', 14);
+delete from public.quiz_sporsmal where tema_id = 'historie-og-filosofi-2:veien-til-det-moderne-demokratiet';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('historie-og-filosofi-2:veien-til-det-moderne-demokratiet', 'q01', 'flervalg', 'Hva gjorde Magna Carta i 1215?', array['Innførte demokrati', 'Begrenset den engelske kongens makt', 'Ga kvinner stemmerett', 'Avskaffet adelen']::text[], 1, 'Ga adelen visse rettigheter.', true, true, 0),
+  ('historie-og-filosofi-2:veien-til-det-moderne-demokratiet', 'q02', 'flervalg', 'Hva mente Locke makten bygger på?', array['Folkets samtykke', 'Guds vilje', 'Kongens arv', 'Militær styrke']::text[], 0, 'Folket kan gjøre opprør mot en tyrann.', true, true, 1),
+  ('historie-og-filosofi-2:veien-til-det-moderne-demokratiet', 'q03', 'flervalg', 'Hva advarte Tocqueville mot?', array['Kongemakt', 'Maktfordeling', 'Flertallets tyranni', 'Kvinners stemmerett']::text[], 2, 'At flertallet kan undertrykke minoriteter.', true, true, 2),
+  ('historie-og-filosofi-2:veien-til-det-moderne-demokratiet', 'q04', 'flervalg', 'Hva er skadeprinsippet hos Mill?', array['At staten kan begrense alt', 'At friheten er uten grenser', 'At bare kongen kan bestemme', 'At friheten bare kan begrenses for å hindre skade på andre']::text[], 3, 'Fra Om friheten, 1859.', true, true, 3),
+  ('historie-og-filosofi-2:veien-til-det-moderne-demokratiet', 'q05', 'flervalg', 'Hva krevde Mary Wollstonecraft?', array['Like rettigheter og utdanning for kvinner', 'Kongelig enevelde', 'Slaveri', 'Mindre utdanning']::text[], 0, 'I 1792.', true, true, 4),
+  ('historie-og-filosofi-2:veien-til-det-moderne-demokratiet', 'q06', 'flervalg', 'Hva er et eksempel på vanetenkning som hindret demokratiet?', array['At alle har like rettigheter', 'At kvinner «av natur» var uegnet til politikk', 'At makten skal fordeles', 'At folket bestemmer']::text[], 1, 'Forestillinger som ble tatt for gitt.', true, true, 5),
+  ('historie-og-filosofi-2:veien-til-det-moderne-demokratiet', 'q07', 'flervalg', 'Hvordan hindret kolonialismen menneskerettighetene?', array['Den ga alle rettigheter', 'Den hadde ingen betydning', 'Idealer om frihet og likhet gjaldt ikke for de koloniserte', 'Den innførte demokrati overalt']::text[], 2, 'Rasisme ble brukt som begrunnelse.', true, true, 6),
+  ('historie-og-filosofi-2:veien-til-det-moderne-demokratiet', 'q08', 'flervalg', 'Hva er demokratisk tilbakegang?', array['At flere land blir demokratier', 'At stemmeretten utvides', 'At valgdeltakelsen øker', 'At frie medier, domstoler og opposisjon svekkes']::text[], 3, 'Skjer i flere land i dag.', true, true, 7),
+  ('historie-og-filosofi-2:veien-til-det-moderne-demokratiet', 'q09', 'flervalg', 'Hva er folkesuverenitet?', array['At makten tilhører folket', 'At kongen har all makt', 'At kirken styrer', 'At adelen bestemmer']::text[], 0, 'Sentralt hos Rousseau.', true, false, 8),
+  ('historie-og-filosofi-2:veien-til-det-moderne-demokratiet', 'q10', 'flervalg', 'Når kom FNs verdenserklæring om menneskerettighetene?', array['1814', '1948', '1989', '1215']::text[], 1, 'Etter andre verdenskrig.', true, false, 9),
+  ('historie-og-filosofi-2:veien-til-det-moderne-demokratiet', 'm01', 'sant-usant', 'I Athen var kvinner og slaver utelukket fra folkeforsamlingen.', array['Sant', 'Usant']::text[], 0, 'Bare frie menn deltok.', false, true, 10),
+  ('historie-og-filosofi-2:veien-til-det-moderne-demokratiet', 'm02', 'sant-usant', 'Demokratiet kom av seg selv uten motstand.', array['Sant', 'Usant']::text[], 1, 'Det ble kjempet fram.', false, true, 11),
+  ('historie-og-filosofi-2:veien-til-det-moderne-demokratiet', 'm03', 'sant-usant', 'Mill forsvarte både ytringsfrihet og kvinners rettigheter.', array['Sant', 'Usant']::text[], 0, 'En viktig liberal tenker.', false, true, 12),
+  ('historie-og-filosofi-2:veien-til-det-moderne-demokratiet', 'm04', 'sant-usant', 'Demokratiet kan ikke svekkes når det først er etablert.', array['Sant', 'Usant']::text[], 1, 'Det må forsvares.', false, true, 13),
+  ('historie-og-filosofi-2:veien-til-det-moderne-demokratiet', 'm05', 'flervalg', 'Hvem foreslo maktfordeling?', array['Locke', 'Montesquieu', 'Mill', 'Tocqueville']::text[], 1, 'Lovgivende, utøvende og dømmende makt.', false, true, 14),
+  ('historie-og-filosofi-2:veien-til-det-moderne-demokratiet', 'm06', 'flervalg', 'Hvilken maktstruktur ga menn makt over kvinner?', array['Patriarkatet', 'Parlamentarismen', 'Folkesuvereniteten', 'Maktfordelingen']::text[], 0, 'I familie, arbeidsliv og politikk.', false, true, 15),
+  ('historie-og-filosofi-2:veien-til-det-moderne-demokratiet', 'm07', 'flervalg', 'Hva kan store økonomiske forskjeller gjøre med demokratiet?', array['Styrke likheten', 'Fjerne all innflytelse', 'Gi noen mer innflytelse enn andre', 'Ingen ting']::text[], 2, 'Et hinder i dag.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('historie-og-filosofi-2:veien-til-det-moderne-demokratiet', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Historie og filosofi 2: Autonomi, frihet, ansvar og det gode liv
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('historie-og-filosofi-2:frihet-autonomi-og-det-gode-liv', 'historie-og-filosofi-2', 'frihet-autonomi-og-det-gode-liv', 'Autonomi, frihet, ansvar og det gode liv', 'Etisk og eksistensiell tenkning om autonomi, frihet og ansvar – Kants autonomi, Berlins negative og positive frihet og Sartres ansvar – og ulike svar på hva et godt liv er, fra Epikur, stoikerne og Aristoteles til Mill, Nozicks erfaringsmaskin og moderne lykkeforskning.', array[7]::int[], 5, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('historie-og-filosofi-2:frihet-autonomi-og-det-gode-liv', '## Autonomi
+
+**Autonomi** betyr **selvstyre** – å kunne styre sitt eget liv ut fra egne vurderinger. **Immanuel Kant** mente at mennesket er **autonomt** fordi det har **fornuft** og kan gi seg selv **moralske lover**. Den som bare følger **lyster** eller **autoriteter**, er **heteronom** – styrt utenfra.
+
+I dag er autonomi et viktig prinsipp i for eksempel **helsevesenet**: Pasienten har rett til å **samtykke** til eller **nekte** behandling.
+
+## To former for frihet
+
+Filosofen **Isaiah Berlin** skilte i **1958** mellom
+
+- **negativ frihet**: frihet **fra** tvang – at ingen hindrer meg i å gjøre det jeg vil
+- **positiv frihet**: frihet **til** – å ha reelle **muligheter** og **evne** til å styre eget liv
+
+En person kan ha negativ frihet til å studere, men mangle positiv frihet hvis hen ikke har råd. Liberale vektlegger ofte **negativ** frihet, mens sosialdemokrater også legger vekt på **positiv** frihet gjennom skole og velferd.
+
+## Ansvar
+
+Frihet henger sammen med **ansvar**. **Jean-Paul Sartre** mente at vi er «**dømt til å være frie**»: Vi kan ikke skylde på Gud, naturen eller samfunnet, men må ta **ansvar** for våre valg. Å late som vi ikke har valg, kalte han **ond tro**.
+
+Andre peker på at **arv**, **miljø** og **samfunnet** begrenser valgene våre, og at ansvar derfor må ses i **sammenheng** med **handlingsrom**.
+
+## Hva er et godt liv?
+
+- **Epikur**: Det gode liv er et liv med **nytelse** – men forstått som **fravær av smerte** og **indre ro**. Enkle gleder, vennskap og refleksjon er viktigere enn luksus.
+- **Stoikerne**, som **Epiktet** og keiser **Markus Aurelius**: Vi skal skille mellom det vi **kan** og ikke kan påvirke, og møte livet med **sinnsro**.
+- **Aristoteles**: Det gode liv – **eudaimonia** – er å realisere sine **evner** og leve **dydig** i fellesskap med andre.
+- **John Stuart Mill** skilte mellom **høyere** og **lavere** nytelser: «Det er bedre å være et misfornøyd menneske enn en fornøyd gris.»
+- **Eksistensialistene**: Meningen er noe vi må **skape** selv.
+
+## Nozicks erfaringsmaskin
+
+**Robert Nozick** foreslo et tankeeksperiment: Ville du koblet deg til en **maskin** som gir deg akkurat de **opplevelsene** du ønsker, resten av livet? De fleste svarer **nei**. Nozick mente det viser at vi vil **gjøre** ting og **være** noe – ikke bare **føle** oss bra. Det er et argument mot at nytelse er det **eneste** som gir livet verdi.
+
+## Lykkeforskning
+
+Moderne **lykkeforskning** finner at gode **relasjoner**, **helse**, **mening** og **mestring** betyr mer for tilfredshet enn **penger** – når de grunnleggende behovene er dekket.
+
+## Hvordan preges vi av verdiene?
+
+I dagens samfunn står **frihet**, **selvrealisering** og **valgmuligheter** sterkt. Mange opplever det som positivt, men noen opplever også **press** – forventningen om å velge «riktig» utdanning, jobb og livsstil. Filosofer har kalt dette **valgets byrde**. Spørsmålet er hvordan vi kan balansere **frihet** med **fellesskap**, **ansvar** og **ro**.', '{"label":"Frihet og det gode liv","children":[{"label":"Autonomi","children":[{"label":"Kant"},{"label":"Heteronomi"},{"label":"Samtykke i helse"}]},{"label":"Frihet","children":[{"label":"Negativ"},{"label":"Positiv"},{"label":"Berlin"}]},{"label":"Ansvar","children":[{"label":"Sartre"},{"label":"Ond tro"},{"label":"Handlingsrom"}]},{"label":"Det gode liv","children":[{"label":"Epikur og stoikerne"},{"label":"Aristoteles og Mill"},{"label":"Erfaringsmaskinen"}]},{"label":"I dag","children":[{"label":"Lykkeforskning"},{"label":"Valgets byrde"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'historie-og-filosofi-2:frihet-autonomi-og-det-gode-liv';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('historie-og-filosofi-2:frihet-autonomi-og-det-gode-liv', 'Autonomi', 'Selvstyre – å styre eget liv ut fra egne vurderinger.', 0),
+  ('historie-og-filosofi-2:frihet-autonomi-og-det-gode-liv', 'Heteronomi', 'Å være styrt utenfra av lyster eller autoriteter.', 1),
+  ('historie-og-filosofi-2:frihet-autonomi-og-det-gode-liv', 'Negativ frihet', 'Frihet fra tvang.', 2),
+  ('historie-og-filosofi-2:frihet-autonomi-og-det-gode-liv', 'Positiv frihet', 'Frihet til – reelle muligheter og evne til å styre eget liv.', 3),
+  ('historie-og-filosofi-2:frihet-autonomi-og-det-gode-liv', 'Isaiah Berlin', 'Skilte i 1958 mellom negativ og positiv frihet.', 4),
+  ('historie-og-filosofi-2:frihet-autonomi-og-det-gode-liv', 'Ond tro', 'Sartres begrep om å late som man ikke har valg.', 5),
+  ('historie-og-filosofi-2:frihet-autonomi-og-det-gode-liv', 'Epikur', 'Det gode liv er fravær av smerte og indre ro.', 6),
+  ('historie-og-filosofi-2:frihet-autonomi-og-det-gode-liv', 'Stoisisme', 'Skill mellom det du kan og ikke kan påvirke, og møt livet med sinnsro.', 7),
+  ('historie-og-filosofi-2:frihet-autonomi-og-det-gode-liv', 'Markus Aurelius', 'Romersk keiser og stoisk filosof.', 8),
+  ('historie-og-filosofi-2:frihet-autonomi-og-det-gode-liv', 'Eudaimonia', 'Aristoteles'' begrep om det gode liv.', 9),
+  ('historie-og-filosofi-2:frihet-autonomi-og-det-gode-liv', 'Høyere og lavere nytelser', 'Mills skille mellom ulike typer glede.', 10),
+  ('historie-og-filosofi-2:frihet-autonomi-og-det-gode-liv', 'Erfaringsmaskinen', 'Nozicks tankeeksperiment om et liv med bare gode opplevelser.', 11),
+  ('historie-og-filosofi-2:frihet-autonomi-og-det-gode-liv', 'Lykkeforskning', 'Forskning som viser at relasjoner og mening betyr mer enn penger.', 12),
+  ('historie-og-filosofi-2:frihet-autonomi-og-det-gode-liv', 'Selvrealisering', 'Å utvikle seg og realisere sitt potensial.', 13),
+  ('historie-og-filosofi-2:frihet-autonomi-og-det-gode-liv', 'Valgets byrde', 'Presset som følger av mange valgmuligheter.', 14);
+delete from public.quiz_sporsmal where tema_id = 'historie-og-filosofi-2:frihet-autonomi-og-det-gode-liv';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('historie-og-filosofi-2:frihet-autonomi-og-det-gode-liv', 'q01', 'flervalg', 'Hva er autonomi?', array['Å være styrt av andre', 'Selvstyre – å styre eget liv ut fra egne vurderinger', 'Å ha mye penger', 'Å bo alene']::text[], 1, 'Sentralt hos Kant.', true, true, 0),
+  ('historie-og-filosofi-2:frihet-autonomi-og-det-gode-liv', 'q02', 'flervalg', 'Hva er negativ frihet?', array['Frihet fra tvang', 'Frihet til å gjøre gode ting', 'Mangel på frihet', 'Frihet som er ulovlig']::text[], 0, 'Isaiah Berlins skille.', true, true, 1),
+  ('historie-og-filosofi-2:frihet-autonomi-og-det-gode-liv', 'q03', 'flervalg', 'En person har lov til å studere, men har ikke råd. Hva mangler hen?', array['Negativ frihet', 'Autonomi alltid', 'Positiv frihet', 'Ansvar']::text[], 2, 'Reelle muligheter.', true, true, 2),
+  ('historie-og-filosofi-2:frihet-autonomi-og-det-gode-liv', 'q04', 'flervalg', 'Hva mente Sartre med ond tro?', array['Å tro på Gud', 'Å være ond', 'Å stole på andre', 'Å late som man ikke har valg']::text[], 3, 'Vi må ta ansvar for valgene våre.', true, true, 3),
+  ('historie-og-filosofi-2:frihet-autonomi-og-det-gode-liv', 'q05', 'flervalg', 'Hva mente Epikur var det gode liv?', array['Fravær av smerte og indre ro', 'Luksus og fester', 'Makt', 'Berømmelse']::text[], 0, 'Enkle gleder og vennskap.', true, true, 4),
+  ('historie-og-filosofi-2:frihet-autonomi-og-det-gode-liv', 'q06', 'flervalg', 'Hva lærer stoikerne?', array['Å søke mest mulig nytelse', 'Å skille mellom det vi kan og ikke kan påvirke', 'Å unngå alle andre', 'Å samle rikdom']::text[], 1, 'Og møte livet med sinnsro.', true, true, 5),
+  ('historie-og-filosofi-2:frihet-autonomi-og-det-gode-liv', 'q07', 'flervalg', 'Hva viser Nozicks erfaringsmaskin ifølge Nozick?', array['At nytelse er det eneste som teller', 'At maskiner er gode', 'At vi vil gjøre og være noe, ikke bare føle oss bra', 'At lykke er umulig']::text[], 2, 'Et argument mot hedonisme.', true, true, 6),
+  ('historie-og-filosofi-2:frihet-autonomi-og-det-gode-liv', 'q08', 'flervalg', 'Hva finner lykkeforskningen betyr mest for tilfredshet?', array['Bare penger', 'Berømmelse', 'Makt', 'Relasjoner, helse, mening og mestring']::text[], 3, 'Når grunnleggende behov er dekket.', true, true, 7),
+  ('historie-og-filosofi-2:frihet-autonomi-og-det-gode-liv', 'q09', 'flervalg', 'Hva er eudaimonia?', array['Aristoteles'' begrep om det gode liv', 'En gresk gud', 'En type nytelse', 'En stoisk øvelse']::text[], 0, 'Å realisere sine evner og leve dydig.', true, false, 8),
+  ('historie-og-filosofi-2:frihet-autonomi-og-det-gode-liv', 'q10', 'flervalg', 'Hva mente Mill med at det er bedre å være et misfornøyd menneske enn en fornøyd gris?', array['At griser er lykkeligere', 'At høyere nytelser er mer verdifulle enn lavere', 'At misnøye er målet', 'At dyr ikke har verdi']::text[], 1, 'Kvalitet, ikke bare mengde, teller.', true, false, 9),
+  ('historie-og-filosofi-2:frihet-autonomi-og-det-gode-liv', 'm01', 'sant-usant', 'Pasienter har rett til å nekte behandling på grunn av prinsippet om autonomi.', array['Sant', 'Usant']::text[], 0, 'Autonomi i helsevesenet.', false, true, 10),
+  ('historie-og-filosofi-2:frihet-autonomi-og-det-gode-liv', 'm02', 'sant-usant', 'Epikur mente at luksus og overflod gir det beste livet.', array['Sant', 'Usant']::text[], 1, 'Han vektla enkle gleder og indre ro.', false, true, 11),
+  ('historie-og-filosofi-2:frihet-autonomi-og-det-gode-liv', 'm03', 'sant-usant', 'Mange valgmuligheter kan også oppleves som et press.', array['Sant', 'Usant']::text[], 0, 'Valgets byrde.', false, true, 12),
+  ('historie-og-filosofi-2:frihet-autonomi-og-det-gode-liv', 'm04', 'sant-usant', 'Sartre mente vi kan skylde på samfunnet for alle våre valg.', array['Sant', 'Usant']::text[], 1, 'Han mente vi har fullt ansvar.', false, true, 13),
+  ('historie-og-filosofi-2:frihet-autonomi-og-det-gode-liv', 'm05', 'flervalg', 'Hvem skilte mellom negativ og positiv frihet?', array['Kant', 'Isaiah Berlin', 'Mill', 'Epikur']::text[], 1, 'I 1958.', false, true, 14),
+  ('historie-og-filosofi-2:frihet-autonomi-og-det-gode-liv', 'm06', 'flervalg', 'Hvilken politisk retning legger ofte vekt på positiv frihet?', array['Sosialdemokrati', 'Anarkisme', 'Enevelde', 'Fascisme']::text[], 0, 'Gjennom skole og velferd.', false, true, 15),
+  ('historie-og-filosofi-2:frihet-autonomi-og-det-gode-liv', 'm07', 'flervalg', 'Hva betyr heteronom?', array['Selvstyrt', 'Fri', 'Styrt utenfra av lyster eller autoriteter', 'Lykkelig']::text[], 2, 'Motsatsen til autonom.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('historie-og-filosofi-2:frihet-autonomi-og-det-gode-liv', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Historie og filosofi 2: Etiske og eksistensielle spørsmål i nyere tid
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('historie-og-filosofi-2:etiske-sporsmal-i-nyere-tid', 'historie-og-filosofi-2', 'etiske-sporsmal-i-nyere-tid', 'Etiske og eksistensielle spørsmål i nyere tid', 'Temaer fra nyere tid som illustrerer etiske og eksistensielle spørsmål – holocaust og Arendts «ondskapens banalitet», Milgrams lydighetsforsøk, atombomben, 22. juli, pandemien, klimakrisen, kunstig intelligens og debatten om aktiv dødshjelp.', array[8]::int[], 6, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('historie-og-filosofi-2:etiske-sporsmal-i-nyere-tid', '## Holocaust og ondskapens banalitet
+
+Filosofen **Hannah Arendt** fulgte rettssaken mot nazisten **Adolf Eichmann** i Jerusalem i **1961**. Eichmann hadde organisert transporten av millioner av jøder til dødsleirene. Arendt ble overrasket over at han virket som en **vanlig byråkrat** som **fulgte ordre** og var opptatt av **karrieren**. Hun kalte det «**ondskapens banalitet**»: Store forbrytelser kan begås av mennesker som **ikke tenker selv**.
+
+Spørsmål: Hvilket **ansvar** har den som bare **følger ordre**? Hva betyr det å **tenke selv**?
+
+## Milgrams lydighetsforsøk
+
+Psykologen **Stanley Milgram** gjennomførte i **1961** et forsøk der deltakerne ble bedt om å gi «**elektriske støt**» til en annen person. Støtene var **falske**, men deltakerne trodde de var ekte. Mange fortsatte helt til det høyeste nivået fordi en **autoritet** ba dem om det. Forsøket viser hvor sterk **lydighet** kan være – og reiser også spørsmål om **forskningsetikk**.
+
+## Atombomben
+
+I **august 1945** slapp USA atombomber over **Hiroshima** og **Nagasaki**. Hundretusenvis døde. Forskerne bak bomben, blant dem **Robert Oppenheimer**, fikk senere **samvittighetskvaler**. Atombomben reiste spørsmål om **vitenskapens ansvar**, om **målet helliger midlene**, og om menneskeheten kunne **utslette** seg selv.
+
+## 22. juli 2011
+
+Terrorangrepet i **Regjeringskvartalet** og på **Utøya** drepte **77** mennesker. I etterkant ble det diskutert hvordan et **åpent** og **demokratisk** samfunn skal møte **ekstremisme**, og hvordan vi kan **sørge**, **minnes** og **forsone** oss uten å gi etter for hat. Mange la vekt på «**mer demokrati, mer åpenhet**».
+
+## Pandemien
+
+Under **covid-19-pandemien** fra **2020** innførte myndighetene strenge **tiltak**: stengte skoler, begrensninger på besøk og reiser. Etiske spørsmål var:
+
+- Hvor mye kan **individets frihet** begrenses for å beskytte **fellesskapet**?
+- Hvordan skal knappe ressurser, som intensivplasser og vaksiner, **prioriteres**?
+- Hvordan påvirket isolasjonen **unge** og **eldre**?
+
+## Klimakrisen
+
+**Klimaendringene** reiser spørsmål om **ansvar** overfor **framtidige generasjoner** og **fattige land**, som har bidratt minst til utslippene, men rammes hardt. Mange unge opplever **klimaangst**. Eksistensielt stiller krisen spørsmål om hvordan vi skal **leve** – og hva vi må **gi opp**.
+
+## Kunstig intelligens
+
+**KI** endrer arbeid, læring og kommunikasjon. Etiske spørsmål er **ansvar** for feil, **personvern**, **manipulasjon**, **skjevheter** i data og om maskiner kan erstatte **menneskelige** relasjoner og vurderinger.
+
+## Aktiv dødshjelp
+
+**Aktiv dødshjelp** er **forbudt** i Norge, men tillatt under visse vilkår i blant annet **Nederland** og **Belgia**. Tilhengere viser til **autonomi** og retten til å slippe **lidelse**. Motstandere frykter **press** mot sårbare grupper og at **menneskeverdet** kan svekkes.
+
+## Drøfting
+
+Disse temaene viser at etiske og eksistensielle spørsmål ikke bare er **teori**. De handler om **valg** mennesker og samfunn faktisk står overfor – og om hvordan vi forstår **ansvar**, **frihet**, **fellesskap** og **menneskeverd**.', '{"label":"Etiske spørsmål i nyere tid","children":[{"label":"Lydighet og ondskap","children":[{"label":"Arendt og Eichmann"},{"label":"Milgram"}]},{"label":"Krig og terror","children":[{"label":"Atombomben"},{"label":"22. juli"}]},{"label":"Fellesskap og frihet","children":[{"label":"Pandemien"},{"label":"Prioritering"}]},{"label":"Framtid","children":[{"label":"Klimakrisen"},{"label":"Kunstig intelligens"}]},{"label":"Liv og død","children":[{"label":"Aktiv dødshjelp"},{"label":"Autonomi og menneskeverd"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'historie-og-filosofi-2:etiske-sporsmal-i-nyere-tid';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('historie-og-filosofi-2:etiske-sporsmal-i-nyere-tid', 'Hannah Arendt', 'Filosof som fulgte Eichmann-rettssaken i 1961.', 0),
+  ('historie-og-filosofi-2:etiske-sporsmal-i-nyere-tid', 'Ondskapens banalitet', 'At store forbrytelser kan begås av vanlige mennesker som ikke tenker selv.', 1),
+  ('historie-og-filosofi-2:etiske-sporsmal-i-nyere-tid', 'Adolf Eichmann', 'Nazist som organiserte transporten av jøder til dødsleirene.', 2),
+  ('historie-og-filosofi-2:etiske-sporsmal-i-nyere-tid', 'Stanley Milgram', 'Psykolog som undersøkte lydighet mot autoriteter i 1961.', 3),
+  ('historie-og-filosofi-2:etiske-sporsmal-i-nyere-tid', 'Lydighet', 'Å følge ordre fra en autoritet.', 4),
+  ('historie-og-filosofi-2:etiske-sporsmal-i-nyere-tid', 'Hiroshima og Nagasaki', 'Byene som ble rammet av atombomber i august 1945.', 5),
+  ('historie-og-filosofi-2:etiske-sporsmal-i-nyere-tid', 'Robert Oppenheimer', 'Fysiker som ledet arbeidet med atombomben.', 6),
+  ('historie-og-filosofi-2:etiske-sporsmal-i-nyere-tid', 'Vitenskapens ansvar', 'Spørsmålet om forskeres ansvar for hvordan kunnskap brukes.', 7),
+  ('historie-og-filosofi-2:etiske-sporsmal-i-nyere-tid', '22. juli 2011', 'Terrorangrepet i Regjeringskvartalet og på Utøya.', 8),
+  ('historie-og-filosofi-2:etiske-sporsmal-i-nyere-tid', 'Prioritering', 'Å fordele knappe ressurser, som intensivplasser.', 9),
+  ('historie-og-filosofi-2:etiske-sporsmal-i-nyere-tid', 'Generasjonsrettferdighet', 'Ansvar overfor framtidige generasjoner.', 10),
+  ('historie-og-filosofi-2:etiske-sporsmal-i-nyere-tid', 'Klimaangst', 'Bekymring og uro knyttet til klimaendringene.', 11),
+  ('historie-og-filosofi-2:etiske-sporsmal-i-nyere-tid', 'Skjevheter i data', 'At KI kan gjenta diskriminering som finnes i dataene.', 12),
+  ('historie-og-filosofi-2:etiske-sporsmal-i-nyere-tid', 'Aktiv dødshjelp', 'Å bevisst avslutte livet til en person etter ønske – forbudt i Norge.', 13),
+  ('historie-og-filosofi-2:etiske-sporsmal-i-nyere-tid', 'Målet helliger midlene', 'Ideen om at et godt mål rettferdiggjør alle virkemidler.', 14);
+delete from public.quiz_sporsmal where tema_id = 'historie-og-filosofi-2:etiske-sporsmal-i-nyere-tid';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('historie-og-filosofi-2:etiske-sporsmal-i-nyere-tid', 'q01', 'flervalg', 'Hva mente Arendt med ondskapens banalitet?', array['At ondskap er sjelden', 'At store forbrytelser kan begås av vanlige mennesker som ikke tenker selv', 'At bare monstre gjør ondt', 'At ondskap er morsom']::text[], 1, 'Etter Eichmann-rettssaken.', true, true, 0),
+  ('historie-og-filosofi-2:etiske-sporsmal-i-nyere-tid', 'q02', 'flervalg', 'Hva viste Milgrams forsøk?', array['Hvor sterk lydighet mot autoriteter kan være', 'At ingen følger ordre', 'At elektrisitet er farlig', 'At alle er onde']::text[], 0, 'Reiser også spørsmål om forskningsetikk.', true, true, 1),
+  ('historie-og-filosofi-2:etiske-sporsmal-i-nyere-tid', 'q03', 'flervalg', 'Hvilket spørsmål reiste atombomben?', array['Hvor mye strøm vi bruker', 'Hvem som vinner valg', 'Vitenskapens ansvar og om menneskeheten kan utslette seg selv', 'Hvordan byer planlegges']::text[], 2, 'Forskerne fikk samvittighetskvaler.', true, true, 2),
+  ('historie-og-filosofi-2:etiske-sporsmal-i-nyere-tid', 'q04', 'flervalg', 'Hvilket etisk spørsmål reiste pandemien?', array['Om skoler trenger bøker', 'Om biler er raske', 'Om mat er dyrt', 'Hvor mye individets frihet kan begrenses for fellesskapet']::text[], 3, 'Også prioritering av ressurser.', true, true, 3),
+  ('historie-og-filosofi-2:etiske-sporsmal-i-nyere-tid', 'q05', 'flervalg', 'Hva er status for aktiv dødshjelp i Norge?', array['Den er forbudt', 'Den er tillatt for alle', 'Den er tillatt for barn', 'Den er påbudt']::text[], 0, 'Tillatt under vilkår i blant annet Nederland og Belgia.', true, true, 4),
+  ('historie-og-filosofi-2:etiske-sporsmal-i-nyere-tid', 'q06', 'flervalg', 'Hva er et argument for aktiv dødshjelp?', array['Press mot sårbare grupper', 'Autonomi og retten til å slippe lidelse', 'At menneskeverdet svekkes', 'At leger alltid vet best']::text[], 1, 'Motstandere frykter press mot sårbare.', true, true, 5),
+  ('historie-og-filosofi-2:etiske-sporsmal-i-nyere-tid', 'q07', 'flervalg', 'Hvorfor reiser klimakrisen spørsmål om rettferdighet?', array['Fordi alle bidrar like mye', 'Fordi klimaet er stabilt', 'Fordi fattige land og framtidige generasjoner rammes hardt, men har bidratt minst', 'Fordi det ikke finnes utslipp']::text[], 2, 'Generasjonsrettferdighet og global rettferdighet.', true, true, 6),
+  ('historie-og-filosofi-2:etiske-sporsmal-i-nyere-tid', 'q08', 'flervalg', 'Hvor mange ble drept i terrorangrepet 22. juli 2011?', array['7', '770', '17', '77']::text[], 3, 'I Regjeringskvartalet og på Utøya.', true, true, 7),
+  ('historie-og-filosofi-2:etiske-sporsmal-i-nyere-tid', 'q09', 'flervalg', 'Hva er skjevheter i data knyttet til KI?', array['At KI kan gjenta diskriminering som finnes i dataene', 'At KI er for rask', 'At KI er gratis', 'At KI ikke bruker data']::text[], 0, 'Et etisk problem.', true, false, 8),
+  ('historie-og-filosofi-2:etiske-sporsmal-i-nyere-tid', 'q10', 'flervalg', 'Hva organiserte Eichmann?', array['Motstandsbevegelsen', 'Transporten av jøder til dødsleirene', 'Atombomben', 'FN']::text[], 1, 'Han ble dømt i Jerusalem.', true, false, 9),
+  ('historie-og-filosofi-2:etiske-sporsmal-i-nyere-tid', 'm01', 'sant-usant', 'Støtene i Milgrams forsøk var falske.', array['Sant', 'Usant']::text[], 0, 'Men deltakerne trodde de var ekte.', false, true, 10),
+  ('historie-og-filosofi-2:etiske-sporsmal-i-nyere-tid', 'm02', 'sant-usant', 'Arendt mente Eichmann var et sadistisk monster.', array['Sant', 'Usant']::text[], 1, 'Hun så en vanlig byråkrat som fulgte ordre.', false, true, 11),
+  ('historie-og-filosofi-2:etiske-sporsmal-i-nyere-tid', 'm03', 'sant-usant', 'Etter 22. juli la mange vekt på mer demokrati og åpenhet.', array['Sant', 'Usant']::text[], 0, 'Et svar på ekstremisme.', false, true, 12),
+  ('historie-og-filosofi-2:etiske-sporsmal-i-nyere-tid', 'm04', 'sant-usant', 'Etiske spørsmål handler bare om teori og ikke om faktiske valg.', array['Sant', 'Usant']::text[], 1, 'De handler om valg vi faktisk står overfor.', false, true, 13),
+  ('historie-og-filosofi-2:etiske-sporsmal-i-nyere-tid', 'm05', 'flervalg', 'Hvilke byer ble rammet av atombomber i 1945?', array['Tokyo og Osaka', 'Hiroshima og Nagasaki', 'Berlin og Dresden', 'Seoul og Beijing']::text[], 1, 'Hundretusenvis døde.', false, true, 14),
+  ('historie-og-filosofi-2:etiske-sporsmal-i-nyere-tid', 'm06', 'flervalg', 'Hva frykter motstandere av aktiv dødshjelp?', array['Press mot sårbare grupper', 'For lite autonomi', 'For mye lidelse', 'For få leger']::text[], 0, 'Og at menneskeverdet svekkes.', false, true, 15),
+  ('historie-og-filosofi-2:etiske-sporsmal-i-nyere-tid', 'm07', 'flervalg', 'Hvilken gruppe ble særlig påvirket av isolasjon under pandemien?', array['Bare politikere', 'Ingen', 'Unge og eldre', 'Bare forskere']::text[], 2, 'Et etisk spørsmål om tiltakenes kostnader.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('historie-og-filosofi-2:etiske-sporsmal-i-nyere-tid', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Historie og filosofi 2: Ideologier og økonomiske teorier
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('historie-og-filosofi-2:ideologier-og-okonomiske-teorier', 'historie-og-filosofi-2', 'ideologier-og-okonomiske-teorier', 'Ideologier og økonomiske teorier', 'Sentrale ideologier og økonomiske teorier – Adam Smith og markedsliberalismen, Marx og sosialismen, Keynes og velferdsstaten, Hayek, Friedman og nyliberalismen – og hvilke konsekvenser de har hatt for menneskers livsutfoldelse, deltakelse og medborgerskap.', array[9]::int[], 7, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('historie-og-filosofi-2:ideologier-og-okonomiske-teorier', '## Ideologi
+
+En **ideologi** er et sett av **ideer** om hvordan samfunnet **er** og hvordan det **bør** være. Ideologier gir retning for politikk og har ofte et syn på **økonomien**: Hvor mye skal **markedet** styre, og hvor mye skal **staten** styre?
+
+## Adam Smith og markedsliberalismen
+
+**Adam Smith** skrev **Nasjonenes velstand** i **1776**. Han mente at når hver enkelt følger sin egen **interesse** i et fritt **marked**, fører en «**usynlig hånd**» til at samfunnet som helhet blir rikere. **Arbeidsdeling** og **frihandel** øker produktiviteten. Staten skal ha en begrenset rolle, men Smith mente også at staten må sikre **rettsvesen**, **forsvar** og visse **fellestiltak**.
+
+## Karl Marx og sosialismen
+
+**Karl Marx** skrev **Det kommunistiske manifest** (1848, sammen med Friedrich Engels) og **Kapitalen**. Han mente at kapitalismen bygger på **utbytting**: Arbeiderne skaper mer verdi enn de får betalt – **merverdi** – og eierne tar resten. Historien drives av **klassekamp**, og Marx mente at arbeiderne ville ta makten og skape et **klasseløst** samfunn.
+
+Marx'' ideer inspirerte både **sosialdemokratiet**, som ville reformere kapitalismen gjennom **valg**, og **kommunistiske** regimer, som endte i **ettpartistater** og **planøkonomi** med store overgrep.
+
+## Keynes og velferdsstaten
+
+Under **den store depresjonen** på 1930-tallet var mange arbeidsløse. **John Maynard Keynes** mente at markedet ikke alltid retter seg selv, og at staten må øke **etterspørselen** i **krisetider** gjennom offentlige **utgifter**. Ideene fikk stor betydning etter **1945**, og de nordiske **velferdsstatene** kombinerte **marked**, **stat** og **samarbeid** i arbeidslivet.
+
+## Hayek, Friedman og nyliberalismen
+
+**Friedrich Hayek** advarte i **Veien til trelldom** (1944) mot at statlig styring av økonomien kunne føre til **ufrihet**. **Milton Friedman** mente at **inflasjon** skyldes for mye penger i omløp og at staten burde gripe mindre inn. Fra **1980-tallet** fikk **nyliberalismen** stor innflytelse, blant annet gjennom **Margaret Thatcher** i Storbritannia og **Ronald Reagan** i USA: **privatisering**, **deregulering**, **lavere skatter** og **frihandel**.
+
+## Andre ideologier
+
+- **Konservatismen** vektlegger **tradisjon**, **familie** og gradvis endring.
+- **Fascismen** avviste både liberalisme og sosialisme og samlet økonomien under en **autoritær** stat.
+- **Grønn politisk tenkning** stiller spørsmål ved **evig vekst** og vil legge **naturens tålegrenser** til grunn.
+
+## Konsekvenser for livsutfoldelse, deltakelse og medborgerskap
+
+- **Markedsliberalismen** har gitt **velstand** og **valgfrihet**, men også **ulikhet** og **usikkerhet**.
+- **Sosialdemokratiet** har gitt **trygghet**, **utdanning** og **deltakelse** for mange, men krever **høye skatter**.
+- **Kommunistiske regimer** lovet likhet, men fratok folk **frihet** og **demokratisk deltakelse**.
+- **Fascismen** undertrykte all opposisjon og førte til **krig** og **folkemord**.
+
+Et sentralt spørsmål er hvordan ulike systemer påvirker menneskers mulighet til å **utfolde** seg, **delta** i samfunnet og være **aktive medborgere** – og hvem som vinner og taper.', '{"label":"Ideologier og økonomi","children":[{"label":"Marked","children":[{"label":"Adam Smith"},{"label":"Usynlig hånd"},{"label":"Arbeidsdeling"}]},{"label":"Sosialisme","children":[{"label":"Marx og merverdi"},{"label":"Sosialdemokrati"},{"label":"Kommunisme"}]},{"label":"Stat og marked","children":[{"label":"Keynes"},{"label":"Velferdsstaten"}]},{"label":"Nyliberalisme","children":[{"label":"Hayek og Friedman"},{"label":"Thatcher og Reagan"}]},{"label":"Konsekvenser","children":[{"label":"Velstand og ulikhet"},{"label":"Frihet og deltakelse"},{"label":"Medborgerskap"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'historie-og-filosofi-2:ideologier-og-okonomiske-teorier';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('historie-og-filosofi-2:ideologier-og-okonomiske-teorier', 'Ideologi', 'Sett av ideer om hvordan samfunnet er og bør være.', 0),
+  ('historie-og-filosofi-2:ideologier-og-okonomiske-teorier', 'Adam Smith', 'Skrev Nasjonenes velstand i 1776.', 1),
+  ('historie-og-filosofi-2:ideologier-og-okonomiske-teorier', 'Den usynlige hånd', 'Smiths idé om at egeninteresse i et fritt marked gir fellesgode.', 2),
+  ('historie-og-filosofi-2:ideologier-og-okonomiske-teorier', 'Arbeidsdeling', 'At arbeidet deles i spesialiserte oppgaver for å øke produktiviteten.', 3),
+  ('historie-og-filosofi-2:ideologier-og-okonomiske-teorier', 'Karl Marx', 'Kritiserte kapitalismen som utbytting og skrev Kapitalen.', 4),
+  ('historie-og-filosofi-2:ideologier-og-okonomiske-teorier', 'Merverdi', 'Verdien arbeiderne skaper utover lønnen de får.', 5),
+  ('historie-og-filosofi-2:ideologier-og-okonomiske-teorier', 'Klassekamp', 'Konflikten mellom klasser som Marx mente driver historien.', 6),
+  ('historie-og-filosofi-2:ideologier-og-okonomiske-teorier', 'Planøkonomi', 'Staten styrer produksjon og priser.', 7),
+  ('historie-og-filosofi-2:ideologier-og-okonomiske-teorier', 'John Maynard Keynes', 'Mente staten må øke etterspørselen i krisetider.', 8),
+  ('historie-og-filosofi-2:ideologier-og-okonomiske-teorier', 'Den store depresjonen', 'Den økonomiske krisen på 1930-tallet.', 9),
+  ('historie-og-filosofi-2:ideologier-og-okonomiske-teorier', 'Friedrich Hayek', 'Advarte i Veien til trelldom mot statlig styring.', 10),
+  ('historie-og-filosofi-2:ideologier-og-okonomiske-teorier', 'Milton Friedman', 'Økonom som mente staten burde gripe mindre inn.', 11),
+  ('historie-og-filosofi-2:ideologier-og-okonomiske-teorier', 'Nyliberalisme', 'Privatisering, deregulering, lavere skatter og frihandel fra 1980-tallet.', 12),
+  ('historie-og-filosofi-2:ideologier-og-okonomiske-teorier', 'Privatisering', 'At offentlige virksomheter selges eller overlates til private.', 13),
+  ('historie-og-filosofi-2:ideologier-og-okonomiske-teorier', 'Medborgerskap', 'Å være en aktiv deltaker i samfunnet med rettigheter og plikter.', 14);
+delete from public.quiz_sporsmal where tema_id = 'historie-og-filosofi-2:ideologier-og-okonomiske-teorier';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('historie-og-filosofi-2:ideologier-og-okonomiske-teorier', 'q01', 'flervalg', 'Hva mente Adam Smith med den usynlige hånd?', array['At staten styrer alt', 'At egeninteresse i et fritt marked kan gi fellesgode', 'At kongen bestemmer', 'At handel er skadelig']::text[], 1, 'Fra Nasjonenes velstand, 1776.', true, true, 0),
+  ('historie-og-filosofi-2:ideologier-og-okonomiske-teorier', 'q02', 'flervalg', 'Hva er merverdi hos Marx?', array['Verdien arbeiderne skaper utover lønnen de får', 'En skatt', 'En type penger', 'Profitt for arbeiderne']::text[], 0, 'Grunnlaget for utbytting.', true, true, 1),
+  ('historie-og-filosofi-2:ideologier-og-okonomiske-teorier', 'q03', 'flervalg', 'Hva mente Keynes staten skulle gjøre i krisetider?', array['Kutte alle utgifter', 'Ikke gripe inn', 'Øke etterspørselen gjennom offentlige utgifter', 'Innføre planøkonomi']::text[], 2, 'Markedet retter seg ikke alltid selv.', true, true, 2),
+  ('historie-og-filosofi-2:ideologier-og-okonomiske-teorier', 'q04', 'flervalg', 'Hva advarte Hayek mot i Veien til trelldom?', array['Frihandel', 'Lave skatter', 'Individuell frihet', 'At statlig styring av økonomien kunne føre til ufrihet']::text[], 3, 'Fra 1944.', true, true, 3),
+  ('historie-og-filosofi-2:ideologier-og-okonomiske-teorier', 'q05', 'flervalg', 'Hva kjennetegner nyliberalismen?', array['Privatisering, deregulering og lavere skatter', 'Statlig eierskap av alt', 'Planøkonomi', 'Høye tollmurer']::text[], 0, 'Thatcher og Reagan.', true, true, 4),
+  ('historie-og-filosofi-2:ideologier-og-okonomiske-teorier', 'q06', 'flervalg', 'Hva ble konsekvensene av kommunistiske regimer for deltakelse?', array['Mer demokratisk deltakelse', 'Folk ble fratatt frihet og demokratisk deltakelse', 'Flere partier', 'Frie valg']::text[], 1, 'Ettpartistater.', true, true, 5),
+  ('historie-og-filosofi-2:ideologier-og-okonomiske-teorier', 'q07', 'flervalg', 'Hvilken modell kombinerte marked, stat og samarbeid i arbeidslivet?', array['Fascismen', 'Planøkonomien', 'Den nordiske velferdsstaten', 'Merkantilismen']::text[], 2, 'Påvirket av Keynes.', true, true, 6),
+  ('historie-og-filosofi-2:ideologier-og-okonomiske-teorier', 'q08', 'flervalg', 'Hva stiller grønn politisk tenkning spørsmål ved?', array['Demokrati', 'Utdanning', 'Menneskerettigheter', 'Evig vekst']::text[], 3, 'Vil legge naturens tålegrenser til grunn.', true, true, 7),
+  ('historie-og-filosofi-2:ideologier-og-okonomiske-teorier', 'q09', 'flervalg', 'Hvem skrev Det kommunistiske manifest sammen med Marx?', array['Friedrich Engels', 'Adam Smith', 'Keynes', 'Hayek']::text[], 0, 'I 1848.', true, false, 8),
+  ('historie-og-filosofi-2:ideologier-og-okonomiske-teorier', 'q10', 'flervalg', 'Hva er en kritikk av markedsliberalismen?', array['At den gir for lite valgfrihet', 'At den kan gi ulikhet og usikkerhet', 'At den gir for høye skatter', 'At den forbyr handel']::text[], 1, 'Men den har også gitt velstand.', true, false, 9),
+  ('historie-og-filosofi-2:ideologier-og-okonomiske-teorier', 'm01', 'sant-usant', 'Adam Smith mente at staten også må sikre rettsvesen og forsvar.', array['Sant', 'Usant']::text[], 0, 'Han ønsket ikke en stat uten oppgaver.', false, true, 10),
+  ('historie-og-filosofi-2:ideologier-og-okonomiske-teorier', 'm02', 'sant-usant', 'Keynes mente at markedet alltid retter seg selv raskt.', array['Sant', 'Usant']::text[], 1, 'Han mente staten må gripe inn i kriser.', false, true, 11),
+  ('historie-og-filosofi-2:ideologier-og-okonomiske-teorier', 'm03', 'sant-usant', 'Marx'' ideer inspirerte både sosialdemokrater og kommunister.', array['Sant', 'Usant']::text[], 0, 'Med svært ulike følger.', false, true, 12),
+  ('historie-og-filosofi-2:ideologier-og-okonomiske-teorier', 'm04', 'sant-usant', 'Fascismen forsvarte frie valg og opposisjon.', array['Sant', 'Usant']::text[], 1, 'Den undertrykte all opposisjon.', false, true, 13),
+  ('historie-og-filosofi-2:ideologier-og-okonomiske-teorier', 'm05', 'flervalg', 'Hva er deregulering?', array['Flere regler', 'Å fjerne eller lette reguleringer', 'Å øke skattene', 'Å nasjonalisere bedrifter']::text[], 1, 'Typisk for nyliberalismen.', false, true, 14),
+  ('historie-og-filosofi-2:ideologier-og-okonomiske-teorier', 'm06', 'flervalg', 'Når kom Nasjonenes velstand?', array['1776', '1848', '1936', '1944']::text[], 0, 'Adam Smith.', false, true, 15),
+  ('historie-og-filosofi-2:ideologier-og-okonomiske-teorier', 'm07', 'flervalg', 'Hva er medborgerskap?', array['Å eie aksjer', 'Å bo i en by', 'Å være en aktiv deltaker i samfunnet med rettigheter og plikter', 'Å ha pass']::text[], 2, 'Påvirkes av økonomiske og politiske systemer.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('historie-og-filosofi-2:ideologier-og-okonomiske-teorier', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Historie og filosofi 2: Kommunikasjon, teknologi og det offentlige ordskiftet
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('historie-og-filosofi-2:kommunikasjon-og-offentlighet', 'historie-og-filosofi-2', 'kommunikasjon-og-offentlighet', 'Kommunikasjon, teknologi og det offentlige ordskiftet', 'Hvordan moderne kommunikasjon og informasjonsteknologi – fra trykkekunsten og avisene til radio, TV, internett, sosiale medier og kunstig intelligens – har formet det offentlige ordskiftet, og hvilke muligheter og begrensninger de gir for menneskers liv og sannhetssøken.', array[10]::int[], 8, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('historie-og-filosofi-2:kommunikasjon-og-offentlighet', '## Offentligheten
+
+Den **offentlige sfæren** er stedet der borgerne **diskuterer** felles saker og danner **meninger**. Filosofen **Jürgen Habermas** beskrev hvordan en **borgerlig offentlighet** vokste fram på 1700-tallet i **kaffehus**, **salonger** og **aviser**. Idealet var en fri samtale der **det beste argumentet** skulle vinne – uavhengig av hvem som sa det.
+
+## Fra trykkpresse til massemedier
+
+- **Trykkekunsten**, som **Johann Gutenberg** utviklet i Europa rundt **1450**, gjorde bøker billigere og spredte kunnskap. Den var viktig for **reformasjonen** og **opplysningstiden**.
+- **Aviser** fra 1600- og 1700-tallet skapte en **offentlig** debatt om politikk.
+- **Radio** og **TV** på 1900-tallet nådde **alle** samtidig. De skapte **felles referanser**, men kunne også brukes til **propaganda**, som i Nazi-Tyskland.
+
+## Internett og sosiale medier
+
+**Internett** og **sosiale medier** har endret offentligheten radikalt.
+
+**Muligheter**:
+
+- **Alle** kan ytre seg og nå et stort publikum.
+- Grupper som tidligere ikke ble hørt, kan **organisere** seg og **mobilisere** – som under **den arabiske våren**.
+- Tilgang til **informasjon** og **kunnskap** er enklere enn noen gang.
+
+**Begrensninger og utfordringer**:
+
+- **Algoritmer** viser oss det som skaper **engasjement**, ofte **sinne** og **konflikt**.
+- **Ekkokamre** og **filterbobler** gjør at vi mest møter synspunkter vi er enige i.
+- **Polarisering** og **netthets** kan få mange til å trekke seg fra debatten.
+- **Desinformasjon** sprer seg raskt.
+- **Oppmerksomhetsøkonomien**: Plattformene tjener penger på **tiden** vår og **dataene** våre.
+- **Overvåking** og tap av **personvern**.
+
+## Kunstig intelligens
+
+**Generativ kunstig intelligens** kan lage tekster, bilder, lyd og video som ser **ekte** ut. **Falske videoer**, såkalte **deepfakes**, kan brukes til å **lure** folk og påvirke **valg**. Samtidig kan KI gjøre kunnskap mer **tilgjengelig**. Det blir viktigere å kunne vurdere **kilder** og **opphav**.
+
+## Sannhetssøken
+
+I **2016** kåret Oxford-ordboken **post-truth** – «**postfaktisk**» – til årets ord. Begrepet beskriver en situasjon der **følelser** og **identitet** betyr mer enn **fakta** i den offentlige debatten. Mange mener dette truer **demokratiet**, som er avhengig av at borgerne har et **felles** grunnlag av fakta.
+
+Mottiltak kan være **redaktørstyrte medier** som følger etiske regler, **faktasjekk**, **kildekritikk** i skolen og **regulering** av store plattformer.
+
+## Menneskers liv
+
+Digitale medier har endret **vennskap**, **identitet**, **arbeid** og **fritid**. De gir **fellesskap** og **muligheter**, men også **press**, **sammenligning** og **distraksjon**.
+
+## Drøfting
+
+Er den digitale offentligheten nærmere Habermas'' ideal – fordi **alle** kan delta – eller lenger unna – fordi **algoritmer**, **støy** og **makt** styrer hva vi ser? Svaret er trolig **begge deler**.', '{"label":"Kommunikasjon og offentlighet","children":[{"label":"Offentlighet","children":[{"label":"Habermas"},{"label":"Det beste argumentet"}]},{"label":"Historie","children":[{"label":"Trykkekunst"},{"label":"Aviser"},{"label":"Radio og TV"}]},{"label":"Sosiale medier","children":[{"label":"Mobilisering"},{"label":"Algoritmer og filterbobler"},{"label":"Polarisering og hets"}]},{"label":"KI","children":[{"label":"Deepfakes"},{"label":"Tilgang til kunnskap"}]},{"label":"Sannhet","children":[{"label":"Post-truth"},{"label":"Faktasjekk"},{"label":"Redaktøransvar"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'historie-og-filosofi-2:kommunikasjon-og-offentlighet';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('historie-og-filosofi-2:kommunikasjon-og-offentlighet', 'Offentlig sfære', 'Stedet der borgerne diskuterer felles saker.', 0),
+  ('historie-og-filosofi-2:kommunikasjon-og-offentlighet', 'Jürgen Habermas', 'Beskrev framveksten av den borgerlige offentligheten.', 1),
+  ('historie-og-filosofi-2:kommunikasjon-og-offentlighet', 'Det beste argumentet', 'Habermas'' ideal om at argumenter, ikke makt, skal vinne.', 2),
+  ('historie-og-filosofi-2:kommunikasjon-og-offentlighet', 'Johann Gutenberg', 'Utviklet trykkekunsten i Europa rundt 1450.', 3),
+  ('historie-og-filosofi-2:kommunikasjon-og-offentlighet', 'Massemedier', 'Medier som når mange samtidig, som radio og TV.', 4),
+  ('historie-og-filosofi-2:kommunikasjon-og-offentlighet', 'Propaganda', 'Ensidig kommunikasjon for å påvirke folk.', 5),
+  ('historie-og-filosofi-2:kommunikasjon-og-offentlighet', 'Algoritme', 'Program som styrer hva vi ser i sosiale medier.', 6),
+  ('historie-og-filosofi-2:kommunikasjon-og-offentlighet', 'Filterboble', 'At vi mest får se innhold som passer våre synspunkter.', 7),
+  ('historie-og-filosofi-2:kommunikasjon-og-offentlighet', 'Polarisering', 'At grupper beveger seg lenger fra hverandre.', 8),
+  ('historie-og-filosofi-2:kommunikasjon-og-offentlighet', 'Oppmerksomhetsøkonomi', 'Plattformene tjener penger på tiden og dataene våre.', 9),
+  ('historie-og-filosofi-2:kommunikasjon-og-offentlighet', 'Deepfake', 'Falsk video eller lyd laget med kunstig intelligens.', 10),
+  ('historie-og-filosofi-2:kommunikasjon-og-offentlighet', 'Post-truth', 'Postfaktisk – når følelser og identitet betyr mer enn fakta.', 11),
+  ('historie-og-filosofi-2:kommunikasjon-og-offentlighet', 'Redaktørstyrte medier', 'Medier der en redaktør har ansvar og etiske regler følges.', 12),
+  ('historie-og-filosofi-2:kommunikasjon-og-offentlighet', 'Mobilisering', 'Å samle folk til handling, for eksempel gjennom sosiale medier.', 13),
+  ('historie-og-filosofi-2:kommunikasjon-og-offentlighet', 'Personvern', 'Retten til kontroll over egne personopplysninger.', 14);
+delete from public.quiz_sporsmal where tema_id = 'historie-og-filosofi-2:kommunikasjon-og-offentlighet';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('historie-og-filosofi-2:kommunikasjon-og-offentlighet', 'q01', 'flervalg', 'Hva var Habermas'' ideal for offentligheten?', array['At de mektigste bestemmer', 'At det beste argumentet skal vinne', 'At bare eksperter snakker', 'At staten styrer debatten']::text[], 1, 'Uavhengig av hvem som sier det.', true, true, 0),
+  ('historie-og-filosofi-2:kommunikasjon-og-offentlighet', 'q02', 'flervalg', 'Hvilken betydning hadde trykkekunsten?', array['Den gjorde bøker billigere og spredte kunnskap', 'Den stoppet reformasjonen', 'Den gjorde bøker dyrere', 'Den hadde ingen betydning']::text[], 0, 'Viktig for reformasjonen og opplysningstiden.', true, true, 1),
+  ('historie-og-filosofi-2:kommunikasjon-og-offentlighet', 'q03', 'flervalg', 'Hva er en filterboble?', array['En type avis', 'En algoritme for skatt', 'At vi mest får se innhold som passer våre synspunkter', 'En samtale']::text[], 2, 'Kan forsterke polarisering.', true, true, 2),
+  ('historie-og-filosofi-2:kommunikasjon-og-offentlighet', 'q04', 'flervalg', 'Hva er oppmerksomhetsøkonomien?', array['At aviser er gratis', 'At staten betaler for medier', 'At folk sparer tid', 'At plattformer tjener penger på tiden og dataene våre']::text[], 3, 'Engasjement gir inntekter.', true, true, 3),
+  ('historie-og-filosofi-2:kommunikasjon-og-offentlighet', 'q05', 'flervalg', 'Hva er en deepfake?', array['En falsk video eller lyd laget med KI', 'En type avis', 'En faktasjekk', 'En dyp debatt']::text[], 0, 'Kan påvirke valg.', true, true, 4),
+  ('historie-og-filosofi-2:kommunikasjon-og-offentlighet', 'q06', 'flervalg', 'Hva betyr post-truth?', array['Tiden etter sannhetskommisjoner', 'At følelser og identitet betyr mer enn fakta i debatten', 'At alt er sant', 'At fakta er viktigere enn før']::text[], 1, 'Årets ord i 2016.', true, true, 5),
+  ('historie-og-filosofi-2:kommunikasjon-og-offentlighet', 'q07', 'flervalg', 'Hva er en mulighet sosiale medier gir?', array['Mer overvåking', 'Mer netthets', 'At grupper som ikke ble hørt, kan organisere og mobilisere', 'Mer desinformasjon']::text[], 2, 'For eksempel under den arabiske våren.', true, true, 6),
+  ('historie-og-filosofi-2:kommunikasjon-og-offentlighet', 'q08', 'flervalg', 'Hvorfor viser algoritmer ofte innhold som skaper sinne?', array['Fordi det er sant', 'Fordi det er lovpålagt', 'Fordi det er kort', 'Fordi det skaper engasjement']::text[], 3, 'Engasjement holder oss på plattformen.', true, true, 7),
+  ('historie-og-filosofi-2:kommunikasjon-og-offentlighet', 'q09', 'flervalg', 'Hvordan ble radio brukt i Nazi-Tyskland?', array['Til propaganda', 'Til faktasjekk', 'Til fri debatt', 'Den ble forbudt']::text[], 0, 'Massemedier kan misbrukes.', true, false, 8),
+  ('historie-og-filosofi-2:kommunikasjon-og-offentlighet', 'q10', 'flervalg', 'Hva kan være et mottiltak mot desinformasjon?', array['Flere anonyme kontoer', 'Faktasjekk og redaktørstyrte medier', 'Mindre kildekritikk', 'Flere algoritmer som viser sinne']::text[], 1, 'Også regulering av plattformer.', true, false, 9),
+  ('historie-og-filosofi-2:kommunikasjon-og-offentlighet', 'm01', 'sant-usant', 'Radio og TV skapte felles referanser fordi de nådde alle samtidig.', array['Sant', 'Usant']::text[], 0, 'Massemedier.', false, true, 10),
+  ('historie-og-filosofi-2:kommunikasjon-og-offentlighet', 'm02', 'sant-usant', 'Sosiale medier har bare positive følger for offentligheten.', array['Sant', 'Usant']::text[], 1, 'De gir både muligheter og utfordringer.', false, true, 11),
+  ('historie-og-filosofi-2:kommunikasjon-og-offentlighet', 'm03', 'sant-usant', 'Demokratiet er avhengig av et felles grunnlag av fakta.', array['Sant', 'Usant']::text[], 0, 'Derfor er desinformasjon en trussel.', false, true, 12),
+  ('historie-og-filosofi-2:kommunikasjon-og-offentlighet', 'm04', 'sant-usant', 'Netthets har ingen betydning for hvem som deltar i debatten.', array['Sant', 'Usant']::text[], 1, 'Mange trekker seg fra debatten.', false, true, 13),
+  ('historie-og-filosofi-2:kommunikasjon-og-offentlighet', 'm05', 'flervalg', 'Hvor vokste den borgerlige offentligheten fram?', array['I kirkene', 'I kaffehus, salonger og aviser', 'I kongens slott', 'I fabrikkene']::text[], 1, 'På 1700-tallet.', false, true, 14),
+  ('historie-og-filosofi-2:kommunikasjon-og-offentlighet', 'm06', 'flervalg', 'Hvilket år ble post-truth årets ord hos Oxford?', array['2016', '2001', '2010', '2020']::text[], 0, 'Etter blant annet valget i USA.', false, true, 15),
+  ('historie-og-filosofi-2:kommunikasjon-og-offentlighet', 'm07', 'flervalg', 'Hva er et kjennetegn ved redaktørstyrte medier?', array['Ingen har ansvar', 'Anonyme innlegg', 'En redaktør har ansvar og etiske regler følges', 'De er alltid gratis']::text[], 2, 'Viktig for sannhetssøken.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('historie-og-filosofi-2:kommunikasjon-og-offentlighet', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Historie og filosofi 2: Historieframstillinger og historiebevissthet
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('historie-og-filosofi-2:historieframstillinger-og-historiebevissthet', 'historie-og-filosofi-2', 'historieframstillinger-og-historiebevissthet', 'Historieframstillinger og historiebevissthet', 'Hvordan intensjon, ståsted og perspektiv preger historieframstillinger, hvordan fortiden kan brukes både frigjørende og undertrykkende – og hvordan historiebevissthet formes i et samspill mellom samtidsforståelse, fortolkning av fortiden og forståelse av oss selv.', array[11, 12]::int[], 9, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('historie-og-filosofi-2:historieframstillinger-og-historiebevissthet', '## Framstillinger er ikke nøytrale
+
+En **historieframstilling** – en lærebok, en dokumentar, et museum eller en tale – er alltid **valgt** og **formet** av noen. Tre forhold preger den:
+
+- **Intensjon**: Hva vil opphavspersonen **oppnå**? Informere, samle folk, overbevise, underholde eller selge?
+- **Ståsted**: Hvilken **bakgrunn**, **nasjonalitet**, **klasse**, **kjønn** og **politisk** syn har opphavspersonen?
+- **Perspektiv**: Hvem sitt **blikk** fortelles historien fra – vinnernes eller tapernes, makthavernes eller de vanlige menneskenes?
+
+## Frigjørende bruk av fortiden
+
+Fortiden kan brukes til å **frigjøre** – til å gi grupper **stemme**, **verdighet** og **rettigheter**:
+
+- **Kvinnehistorie** har vist at kvinner har vært aktive **historiske aktører**, ikke bare bifigurer.
+- **Samisk historie** fortalt fra samisk ståsted har bidratt til **forsoning** og styrket **identitet** og **rettigheter**.
+- **Arbeiderbevegelsens** historie ga arbeidere en **felles fortelling** om kamp og framgang.
+- **Sannhetskommisjoner**, som i Sør-Afrika og Norge, lar ofre fortelle om **urett** som tidligere ble **fortiet**.
+
+## Undertrykkende bruk av fortiden
+
+Fortiden kan også brukes til å **undertrykke**:
+
+- **Nazistene** brukte en oppdiktet historie om en overlegen «**arisk**» rase til å rettferdiggjøre **erobring** og **folkemord**.
+- I **Sovjetunionen** ble bilder **retusjert** og personer **fjernet** fra historien når de falt i unåde.
+- **Kolonimakter** framstilte de koloniserte som folk «**uten historie**».
+- Nasjonalistiske ledere bruker i dag historien til å rettferdiggjøre **krig** og **grenseendringer**.
+
+## Historiebevissthet
+
+**Historiebevissthet** er forbindelsen mellom **fortolkning av fortiden**, **forståelse av nåtiden** og **forventninger til framtiden**. Den virker **begge veier**:
+
+- **Samtiden preger fortolkningen av fortiden**: Hva vi synes er viktig i dag – for eksempel **likestilling**, **klima** eller **mangfold** – påvirker hvilke spørsmål vi stiller til fortiden. Hver generasjon **skriver historien på nytt**.
+- **Fortolkningen av fortiden preger forståelsen av oss selv**: Historien vi forteller om **nasjonen**, **familien** eller **gruppen** vår, påvirker **identiteten** og **verdiene** våre – og hva vi tror er **mulig** i framtiden.
+
+## Hvordan formes og endres historiebevisstheten?
+
+Historiebevisstheten formes av **skolen**, **familien**, **medier**, **film**, **spill**, **minnesmerker** og **merkedager**. Den **endres** når
+
+- nye **kilder** og **forskning** kommer fram
+- nye **grupper** får stemme
+- **samfunnet** og **verdiene** endrer seg
+- store **hendelser**, som kriger eller pandemier, gir nye perspektiver
+
+## Eksempel
+
+Synet på **1814** har endret seg: fra en heroisk fortelling om nasjonal **gjenfødelse** til en mer nyansert forståelse der også **jødeparagrafen**, **stemmerettsbegrensninger** og **stormaktspolitikk** får plass. Endringen sier noe om **vår tids** verdier.
+
+## Refleksjon
+
+Å være historiebevisst betyr å se at **vi selv** står i historien – at også vår forståelse er **preget** av tiden vi lever i, og at framtidige generasjoner vil tolke **oss**.', '{"label":"Framstillinger og historiebevissthet","children":[{"label":"Framstillinger","children":[{"label":"Intensjon"},{"label":"Ståsted"},{"label":"Perspektiv"}]},{"label":"Frigjørende","children":[{"label":"Kvinnehistorie"},{"label":"Samisk historie"},{"label":"Sannhetskommisjoner"}]},{"label":"Undertrykkende","children":[{"label":"Nazistisk rasehistorie"},{"label":"Sovjetisk retusjering"},{"label":"Kolonial nedvurdering"}]},{"label":"Historiebevissthet","children":[{"label":"Samtid preger fortid"},{"label":"Fortid preger identitet"}]},{"label":"Endring","children":[{"label":"Nye kilder og stemmer"},{"label":"1814 som eksempel"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'historie-og-filosofi-2:historieframstillinger-og-historiebevissthet';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('historie-og-filosofi-2:historieframstillinger-og-historiebevissthet', 'Historieframstilling', 'En fortelling om fortiden, som en lærebok eller dokumentar.', 0),
+  ('historie-og-filosofi-2:historieframstillinger-og-historiebevissthet', 'Intensjon', 'Hva opphavspersonen vil oppnå med framstillingen.', 1),
+  ('historie-og-filosofi-2:historieframstillinger-og-historiebevissthet', 'Ståsted', 'Opphavspersonens bakgrunn og synspunkter.', 2),
+  ('historie-og-filosofi-2:historieframstillinger-og-historiebevissthet', 'Perspektiv', 'Hvem sitt blikk historien fortelles fra.', 3),
+  ('historie-og-filosofi-2:historieframstillinger-og-historiebevissthet', 'Frigjørende historiebruk', 'Fortiden brukes til å gi grupper stemme og rettigheter.', 4),
+  ('historie-og-filosofi-2:historieframstillinger-og-historiebevissthet', 'Undertrykkende historiebruk', 'Fortiden brukes til å rettferdiggjøre makt og overgrep.', 5),
+  ('historie-og-filosofi-2:historieframstillinger-og-historiebevissthet', 'Kvinnehistorie', 'Historie som viser kvinner som aktive aktører.', 6),
+  ('historie-og-filosofi-2:historieframstillinger-og-historiebevissthet', 'Sannhetskommisjon', 'Organ som lar ofre fortelle om urett som ble fortiet.', 7),
+  ('historie-og-filosofi-2:historieframstillinger-og-historiebevissthet', 'Retusjerte bilder', 'Sovjetisk forfalskning der personer ble fjernet fra historien.', 8),
+  ('historie-og-filosofi-2:historieframstillinger-og-historiebevissthet', 'Folk uten historie', 'Kolonimaktenes nedvurdering av de koloniserte.', 9),
+  ('historie-og-filosofi-2:historieframstillinger-og-historiebevissthet', 'Historiebevissthet', 'Forbindelsen mellom fortid, nåtid og framtid.', 10),
+  ('historie-og-filosofi-2:historieframstillinger-og-historiebevissthet', 'Toveis påvirkning', 'Samtiden preger synet på fortiden, og fortiden preger vår selvforståelse.', 11),
+  ('historie-og-filosofi-2:historieframstillinger-og-historiebevissthet', 'Identitet', 'Opplevelsen av hvem vi er – formes av historiene vi forteller.', 12),
+  ('historie-og-filosofi-2:historieframstillinger-og-historiebevissthet', 'Jødeparagrafen', 'Grunnlovens forbud mot jøder fra 1814 til 1851.', 13),
+  ('historie-og-filosofi-2:historieframstillinger-og-historiebevissthet', 'Minnesmerke', 'Monument som former historiebevisstheten.', 14);
+delete from public.quiz_sporsmal where tema_id = 'historie-og-filosofi-2:historieframstillinger-og-historiebevissthet';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('historie-og-filosofi-2:historieframstillinger-og-historiebevissthet', 'q01', 'flervalg', 'Hva betyr intensjon i en historieframstilling?', array['Hvor gammel kilden er', 'Hva opphavspersonen vil oppnå', 'Hvor lang teksten er', 'Hvem som leste den']::text[], 1, 'Informere, overbevise eller selge?', true, true, 0),
+  ('historie-og-filosofi-2:historieframstillinger-og-historiebevissthet', 'q02', 'flervalg', 'Hva er et eksempel på frigjørende historiebruk?', array['Kvinnehistorie som viser kvinner som aktører', 'Nazistenes rasehistorie', 'Sovjetisk retusjering', 'Kolonial nedvurdering']::text[], 0, 'Gir grupper stemme.', true, true, 1),
+  ('historie-og-filosofi-2:historieframstillinger-og-historiebevissthet', 'q03', 'flervalg', 'Hva gjorde sovjetiske myndigheter med personer som falt i unåde?', array['Hedret dem', 'Skrev biografier om dem', 'Fjernet dem fra bilder og historien', 'Satte opp statuer']::text[], 2, 'Undertrykkende historiebruk.', true, true, 2),
+  ('historie-og-filosofi-2:historieframstillinger-og-historiebevissthet', 'q04', 'flervalg', 'Hva er historiebevissthet?', array['Å kunne mange årstall', 'Å lese historiebøker', 'Å like historie', 'Forbindelsen mellom fortolkning av fortiden, nåtiden og framtiden']::text[], 3, 'Den virker begge veier.', true, true, 3),
+  ('historie-og-filosofi-2:historieframstillinger-og-historiebevissthet', 'q05', 'flervalg', 'Hvordan preger samtiden fortolkningen av fortiden?', array['Hva vi synes er viktig i dag, påvirker spørsmålene vi stiller til fortiden', 'Den gjør ikke det', 'Samtiden endrer kildene', 'Samtiden sletter fortiden']::text[], 0, 'Hver generasjon skriver historien på nytt.', true, true, 4),
+  ('historie-og-filosofi-2:historieframstillinger-og-historiebevissthet', 'q06', 'flervalg', 'Hva gjør sannhetskommisjoner?', array['Dømmer forbrytere til døden', 'Lar ofre fortelle om urett som ble fortiet', 'Skriver lærebøker', 'Bygger museer']::text[], 1, 'Bidrar til forsoning.', true, true, 5),
+  ('historie-og-filosofi-2:historieframstillinger-og-historiebevissthet', 'q07', 'flervalg', 'Hvordan framstilte kolonimakter ofte de koloniserte?', array['Som historiske helter', 'Som likeverdige', 'Som folk «uten historie»', 'Som ledere']::text[], 2, 'Undertrykkende historiebruk.', true, true, 6),
+  ('historie-og-filosofi-2:historieframstillinger-og-historiebevissthet', 'q08', 'flervalg', 'Hva kan endre historiebevisstheten?', array['Ingenting', 'Bare kongelige vedtak', 'At alle kilder forsvinner', 'Nye kilder, nye stemmer og endrede verdier']::text[], 3, 'Også store hendelser.', true, true, 7),
+  ('historie-og-filosofi-2:historieframstillinger-og-historiebevissthet', 'q09', 'flervalg', 'Hvordan har synet på 1814 endret seg?', array['Fra heroisk fortelling til mer nyansert forståelse med blant annet jødeparagrafen', 'Fra negativt til heroisk', 'Det har ikke endret seg', '1814 er glemt']::text[], 0, 'Endringen sier noe om vår tids verdier.', true, false, 8),
+  ('historie-og-filosofi-2:historieframstillinger-og-historiebevissthet', 'q10', 'flervalg', 'Hva betyr det å være historiebevisst?', array['Å tro at vi står utenfor historien', 'Å se at også vår forståelse er preget av tiden vi lever i', 'Å bare lese om krig', 'Å unngå fortiden']::text[], 1, 'Framtidige generasjoner vil tolke oss.', true, false, 9),
+  ('historie-og-filosofi-2:historieframstillinger-og-historiebevissthet', 'm01', 'sant-usant', 'Historien vi forteller om gruppen vår, kan påvirke identiteten vår.', array['Sant', 'Usant']::text[], 0, 'Fortolkningen av fortiden preger selvforståelsen.', false, true, 10),
+  ('historie-og-filosofi-2:historieframstillinger-og-historiebevissthet', 'm02', 'sant-usant', 'En lærebok er alltid helt nøytral.', array['Sant', 'Usant']::text[], 1, 'Alle framstillinger er valgt og formet.', false, true, 11),
+  ('historie-og-filosofi-2:historieframstillinger-og-historiebevissthet', 'm03', 'sant-usant', 'Dataspill og film kan forme historiebevisstheten.', array['Sant', 'Usant']::text[], 0, 'Sammen med skole, familie og medier.', false, true, 12),
+  ('historie-og-filosofi-2:historieframstillinger-og-historiebevissthet', 'm04', 'sant-usant', 'Historiebevisstheten endrer seg aldri.', array['Sant', 'Usant']::text[], 1, 'Den endres med nye kilder, stemmer og verdier.', false, true, 13),
+  ('historie-og-filosofi-2:historieframstillinger-og-historiebevissthet', 'm05', 'flervalg', 'Hvilket perspektiv løfter fram vanlige menneskers liv?', array['Makthavernes perspektiv', 'Perspektivet nedenfra', 'Kongens perspektiv', 'Vinnernes perspektiv']::text[], 1, 'Gir nye stemmer plass.', false, true, 14),
+  ('historie-og-filosofi-2:historieframstillinger-og-historiebevissthet', 'm06', 'flervalg', 'Hva brukte nazistene historien til?', array['Å rettferdiggjøre erobring og folkemord', 'Å fremme forsoning', 'Å gi minoriteter rettigheter', 'Å kritisere seg selv']::text[], 0, 'Undertrykkende historiebruk.', false, true, 15),
+  ('historie-og-filosofi-2:historieframstillinger-og-historiebevissthet', 'm07', 'flervalg', 'Hvordan kan samisk historie fortalt fra samisk ståsted virke?', array['Undertrykkende', 'Nøytralt uten virkning', 'Frigjørende og styrkende for identitet og rettigheter', 'Forfalskende']::text[], 2, 'Bidrar også til forsoning.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('historie-og-filosofi-2:historieframstillinger-og-historiebevissthet', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Historie og filosofi 2: Urfolk mellom tradisjon og modernitet
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('historie-og-filosofi-2:urfolk-tradisjon-og-modernitet', 'historie-og-filosofi-2', 'urfolk-tradisjon-og-modernitet', 'Urfolk mellom tradisjon og modernitet', 'Hva som kjennetegner urfolk, urfolks kultur, verdier og levemåte – med vekt på samene – brytningen mellom tradisjon og modernitet, urfolksrettigheter i ILO-konvensjonen og FN-erklæringen, konflikter om land og ressurser som Fosen-saken, og kulturell revitalisering.', array[13]::int[], 10, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('historie-og-filosofi-2:urfolk-tradisjon-og-modernitet', '## Hvem er urfolk?
+
+**Urfolk** er folk som nedstammer fra dem som bodde i et område **før** dagens statsgrenser ble trukket, og som har bevart egne **sosiale**, **kulturelle** og **politiske** institusjoner. Det finnes urfolk i over **90 land**, for eksempel **samer**, **inuitter**, **maorier**, **aboriginere** i Australia og mange urfolk i **Amerika**.
+
+I Norge er **samene** anerkjent som **urfolk**. Det samiske området – **Sápmi** – strekker seg over Norge, Sverige, Finland og Russland.
+
+## Kultur, verdier og levemåte
+
+Selv om urfolk er svært **forskjellige**, har mange noen felles trekk:
+
+- nær tilknytning til **land**, **natur** og **ressurser**
+- **tradisjonell kunnskap** om natur og bærekraftig bruk, overført gjennom generasjoner
+- vekt på **fellesskap**, **slekt** og **kollektive** rettigheter
+- **muntlige** tradisjoner, som **joik** hos samene
+- egne **språk**, næringer og rettssystemer
+
+For mange samer har **reindrift**, **fiske**, **jordbruk** og **duodji** – samisk håndverk – vært viktige næringer og kulturbærere.
+
+## Møtet med moderniteten
+
+Moderne **stater**, **industri** og **markeder** har ofte kommet i **konflikt** med urfolks levemåte:
+
+- **Assimilering** og **fornorsking** gjennom skole og kirke
+- **Tap av land** til gruver, vannkraft, veier, hytter, vindkraft og militære anlegg
+- **Klimaendringer** som gjør reindrift og fangst vanskeligere
+- **Urbanisering**: Mange samer bor i dag i **byer**.
+
+## Rettigheter
+
+- **ILO-konvensjon nr. 169** fra **1989** gir urfolk rett til å bevare kultur og institusjoner og til å bli **konsultert** om saker som angår dem. Norge ratifiserte den som første land i **1990**.
+- **FNs erklæring om urfolks rettigheter** fra **2007** slår fast retten til **selvbestemmelse**, land og ressurser.
+- I Norge har samene **Sametinget** og en egen **paragraf** i Grunnloven.
+
+## Fosen-saken
+
+I **2021** kom **Høyesterett** fram til at **vindkraftverkene** på **Fosen** krenket reindriftssamenes rett til **kulturutøvelse** etter FNs konvensjon om sivile og politiske rettigheter. Saken ble et symbol på konflikten mellom **grønn omstilling** og **urfolksrettigheter**, og den førte til store **protester**.
+
+## Tradisjon og modernitet – ikke motsetninger
+
+Urfolk lever ikke i fortiden. Mange kombinerer **tradisjon** og **modernitet**:
+
+- reindriftsutøvere bruker **snøscooter**, **droner** og **GPS**
+- **joik** blandes med pop, rock og elektronisk musikk
+- samisk **design**, **film** og **litteratur** når et internasjonalt publikum
+- **sosiale medier** brukes til å styrke **språk** og **identitet**
+
+**Revitalisering** – å gjenopplive språk og kultur – har gitt mange unge samer ny **stolthet**.
+
+## Drøfting
+
+Viktige spørsmål er:
+
+- Hvordan kan **statens** behov for arealer og energi balanseres mot urfolks **rettigheter**?
+- Hvem skal **definere** hva som er «ekte» urfolkskultur?
+- Hva kan majoritetssamfunnet **lære** av urfolks forhold til naturen?
+
+Urfolks situasjon viser at **modernitet** ikke betyr at alle må bli **like**, og at det finnes **flere** måter å være moderne på.', '{"label":"Urfolk, tradisjon og modernitet","children":[{"label":"Urfolk","children":[{"label":"Definisjon"},{"label":"Samer og Sápmi"},{"label":"Urfolk i verden"}]},{"label":"Kultur","children":[{"label":"Land og natur"},{"label":"Tradisjonell kunnskap"},{"label":"Joik og duodji"}]},{"label":"Møtet med moderniteten","children":[{"label":"Fornorsking"},{"label":"Tap av land"},{"label":"Klima"}]},{"label":"Rettigheter","children":[{"label":"ILO 169"},{"label":"FN-erklæringen 2007"},{"label":"Fosen-saken"}]},{"label":"I dag","children":[{"label":"Tradisjon og teknologi"},{"label":"Revitalisering"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'historie-og-filosofi-2:urfolk-tradisjon-og-modernitet';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('historie-og-filosofi-2:urfolk-tradisjon-og-modernitet', 'Urfolk', 'Etterkommere av dem som bodde i et område før dagens statsgrenser.', 0),
+  ('historie-og-filosofi-2:urfolk-tradisjon-og-modernitet', 'Sápmi', 'Det samiske området i Norge, Sverige, Finland og Russland.', 1),
+  ('historie-og-filosofi-2:urfolk-tradisjon-og-modernitet', 'Tradisjonell kunnskap', 'Erfaringsbasert kunnskap om natur, overført gjennom generasjoner.', 2),
+  ('historie-og-filosofi-2:urfolk-tradisjon-og-modernitet', 'Kollektive rettigheter', 'Rettigheter som tilhører en gruppe, ikke bare enkeltpersoner.', 3),
+  ('historie-og-filosofi-2:urfolk-tradisjon-og-modernitet', 'Duodji', 'Samisk håndverk.', 4),
+  ('historie-og-filosofi-2:urfolk-tradisjon-og-modernitet', 'Reindrift', 'Tradisjonell samisk næring og kulturbærer.', 5),
+  ('historie-og-filosofi-2:urfolk-tradisjon-og-modernitet', 'Assimilering', 'At en minoritet presses til å gi opp egen kultur.', 6),
+  ('historie-og-filosofi-2:urfolk-tradisjon-og-modernitet', 'ILO-konvensjon nr. 169', 'Konvensjon fra 1989 om urfolks rettigheter – Norge ratifiserte først.', 7),
+  ('historie-og-filosofi-2:urfolk-tradisjon-og-modernitet', 'Konsultasjon', 'Urfolks rett til å bli hørt i saker som angår dem.', 8),
+  ('historie-og-filosofi-2:urfolk-tradisjon-og-modernitet', 'FNs urfolkserklæring', 'Erklæring fra 2007 om urfolks rett til selvbestemmelse, land og ressurser.', 9),
+  ('historie-og-filosofi-2:urfolk-tradisjon-og-modernitet', 'Sametinget', 'Samenes folkevalgte organ i Norge.', 10),
+  ('historie-og-filosofi-2:urfolk-tradisjon-og-modernitet', 'Fosen-saken', 'Høyesterett fant i 2021 at vindkraftverk krenket reindriftssamers rettigheter.', 11),
+  ('historie-og-filosofi-2:urfolk-tradisjon-og-modernitet', 'Grønn omstilling', 'Overgang til fornybar energi – kan komme i konflikt med urfolksrettigheter.', 12),
+  ('historie-og-filosofi-2:urfolk-tradisjon-og-modernitet', 'Revitalisering', 'Gjenoppliving av språk og kultur.', 13),
+  ('historie-og-filosofi-2:urfolk-tradisjon-og-modernitet', 'Flere måter å være moderne på', 'Modernitet betyr ikke at alle må bli like.', 14);
+delete from public.quiz_sporsmal where tema_id = 'historie-og-filosofi-2:urfolk-tradisjon-og-modernitet';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('historie-og-filosofi-2:urfolk-tradisjon-og-modernitet', 'q01', 'flervalg', 'Hva kjennetegner urfolk?', array['At de nylig har innvandret', 'At de nedstammer fra dem som bodde i et område før dagens statsgrenser', 'At de er flertallet', 'At de bare bor i Norge']::text[], 1, 'Og har bevart egne institusjoner.', true, true, 0),
+  ('historie-og-filosofi-2:urfolk-tradisjon-og-modernitet', 'q02', 'flervalg', 'Hva er Sápmi?', array['Det samiske området i Norge, Sverige, Finland og Russland', 'Et samisk ord for joik', 'En samisk by', 'Sametinget']::text[], 0, 'Går på tvers av statsgrenser.', true, true, 1),
+  ('historie-og-filosofi-2:urfolk-tradisjon-og-modernitet', 'q03', 'flervalg', 'Hva gir ILO-konvensjon nr. 169 urfolk rett til?', array['Å styre hele staten', 'Å slippe skatt', 'Å bevare kultur og bli konsultert i saker som angår dem', 'Å eie all jord']::text[], 2, 'Norge ratifiserte den først i 1990.', true, true, 2),
+  ('historie-og-filosofi-2:urfolk-tradisjon-og-modernitet', 'q04', 'flervalg', 'Hva kom Høyesterett fram til i Fosen-saken i 2021?', array['At vindkraftverkene var lovlige uten problemer', 'At reindrift skulle avvikles', 'At samene måtte flytte', 'At vindkraftverkene krenket reindriftssamenes rett til kulturutøvelse']::text[], 3, 'Et symbol på konflikten mellom grønn omstilling og urfolksrettigheter.', true, true, 3),
+  ('historie-og-filosofi-2:urfolk-tradisjon-og-modernitet', 'q05', 'flervalg', 'Hva er duodji?', array['Samisk håndverk', 'Samisk sang', 'Et samisk parti', 'En reinflokk']::text[], 0, 'En viktig kulturbærer.', true, true, 4),
+  ('historie-og-filosofi-2:urfolk-tradisjon-og-modernitet', 'q06', 'flervalg', 'Hvordan kombinerer mange reindriftsutøvere tradisjon og modernitet?', array['Ved å slutte med rein', 'Ved å bruke snøscooter, droner og GPS', 'Ved å flytte til utlandet', 'Ved å slutte å snakke samisk']::text[], 1, 'Tradisjon og modernitet er ikke motsetninger.', true, true, 5),
+  ('historie-og-filosofi-2:urfolk-tradisjon-og-modernitet', 'q07', 'flervalg', 'Hva slår FNs urfolkserklæring fra 2007 fast?', array['At urfolk skal assimileres', 'At urfolk ikke har rettigheter', 'Retten til selvbestemmelse, land og ressurser', 'At urfolk skal flytte til byer']::text[], 2, 'En viktig internasjonal erklæring.', true, true, 6),
+  ('historie-og-filosofi-2:urfolk-tradisjon-og-modernitet', 'q08', 'flervalg', 'Hva er en trussel mot urfolks levemåte i dag?', array['Revitalisering', 'Sametinget', 'Tradisjonell kunnskap', 'Tap av land og klimaendringer']::text[], 3, 'Gruver, vindkraft og hytter tar arealer.', true, true, 7),
+  ('historie-og-filosofi-2:urfolk-tradisjon-og-modernitet', 'q09', 'flervalg', 'Hva er kollektive rettigheter?', array['Rettigheter som tilhører en gruppe', 'Rettigheter for én person', 'Rettigheter for staten', 'Rettigheter for bedrifter']::text[], 0, 'Viktig for mange urfolk.', true, false, 8),
+  ('historie-og-filosofi-2:urfolk-tradisjon-og-modernitet', 'q10', 'flervalg', 'Hva har revitaliseringen gitt mange unge samer?', array['Mindre interesse for kultur', 'Ny stolthet over språk og kultur', 'Tap av identitet', 'Ingenting']::text[], 1, 'Gjenoppliving av språk og kultur.', true, false, 9),
+  ('historie-og-filosofi-2:urfolk-tradisjon-og-modernitet', 'm01', 'sant-usant', 'Mange samer bor i dag i byer.', array['Sant', 'Usant']::text[], 0, 'Urbanisering har også påvirket urfolk.', false, true, 10),
+  ('historie-og-filosofi-2:urfolk-tradisjon-og-modernitet', 'm02', 'sant-usant', 'Urfolk lever i fortiden og bruker ikke moderne teknologi.', array['Sant', 'Usant']::text[], 1, 'Mange kombinerer tradisjon og modernitet.', false, true, 11),
+  ('historie-og-filosofi-2:urfolk-tradisjon-og-modernitet', 'm03', 'sant-usant', 'Det finnes urfolk i over 90 land.', array['Sant', 'Usant']::text[], 0, 'For eksempel inuitter og maorier.', false, true, 12),
+  ('historie-og-filosofi-2:urfolk-tradisjon-og-modernitet', 'm04', 'sant-usant', 'Grønn omstilling kan aldri komme i konflikt med urfolksrettigheter.', array['Sant', 'Usant']::text[], 1, 'Fosen-saken viser det motsatte.', false, true, 13),
+  ('historie-og-filosofi-2:urfolk-tradisjon-og-modernitet', 'm05', 'flervalg', 'Hva er konsultasjon for urfolk?', array['En type skatt', 'Retten til å bli hørt i saker som angår dem', 'Et samisk ritual', 'En næring']::text[], 1, 'Fastslått i ILO 169.', false, true, 14),
+  ('historie-og-filosofi-2:urfolk-tradisjon-og-modernitet', 'm06', 'flervalg', 'Hvilket spørsmål er sentralt i drøftingen om urfolk og modernitet?', array['Hvem skal definere hva som er «ekte» urfolkskultur?', 'Hvor mange rein finnes?', 'Hvilken farge har kofta?', 'Når startet vikingtiden?']::text[], 0, 'Kultur endrer seg over tid.', false, true, 15),
+  ('historie-og-filosofi-2:urfolk-tradisjon-og-modernitet', 'm07', 'flervalg', 'Hvilke folk er urfolk i Australia?', array['Maorier', 'Inuitter', 'Aboriginere', 'Samer']::text[], 2, 'Maoriene er urfolk i New Zealand.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('historie-og-filosofi-2:urfolk-tradisjon-og-modernitet', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Historie og filosofi 2: Teknologiens rolle i samfunnet
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('historie-og-filosofi-2:teknologi-og-samfunn', 'historie-og-filosofi-2', 'teknologi-og-samfunn', 'Teknologiens rolle i samfunnet', 'Hvordan teknologi og samfunn påvirker hverandre – teknologideterminisme og sosial forming av teknologi, teknologioptimisme og -pessimisme – og en drøfting av om teknologien bidrar til menneskers livsutfoldelse og et bærekraftig samfunn, med eksempler fra industri, internett, kunstig intelligens og energi.', array[14]::int[], 11, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('historie-og-filosofi-2:teknologi-og-samfunn', '## Hva er teknologi?
+
+**Teknologi** er mer enn maskiner og dataprogrammer. Det er alle **redskaper**, **metoder** og **systemer** mennesker lager for å løse problemer – fra **plogen** og **trykkpressen** til **dampmaskinen**, **internett** og **kunstig intelligens**.
+
+## Styrer teknologien samfunnet – eller omvendt?
+
+- **Teknologideterminisme**: Teknologien **driver** utviklingen, og samfunnet må **tilpasse** seg. Eksempel: Trykkpressen gjorde reformasjonen mulig, og smarttelefonen har endret hvordan vi lever.
+- **Sosial forming av teknologi**: Mennesker, **interesser**, **politikk** og **økonomi** bestemmer hvilken teknologi som utvikles og hvordan den **brukes**. Den samme teknologien kan brukes til **svært ulike** formål.
+
+De fleste forskere mener det er et **samspill**: Teknologi **former** samfunnet, og samfunnet **former** teknologien.
+
+## Optimisme og pessimisme
+
+**Teknologioptimister** mener at teknologi vil løse de store problemene – sykdom, fattigdom og klimaendringer. Historien har mange eksempler: **Vaksiner**, **antibiotika** og **grønn revolusjon** i jordbruket har reddet millioner av liv.
+
+**Teknologipessimister** peker på at teknologi også har gitt **atomvåpen**, **overvåking**, **forurensning** og **avhengighet**. De mener vi må spørre hva teknologien gjør med **mennesket** og **samfunnet** – ikke bare hva den **kan**.
+
+## Livsutfoldelse
+
+Teknologi kan gi **mer frihet** og **flere muligheter**:
+
+- **medisin** som gir lengre og friskere liv
+- **kommunikasjon** som knytter folk sammen over hele verden
+- **tilgang** til kunnskap og kultur
+- **hjelpemidler** for personer med funksjonsnedsettelser
+- **automatisering** som fjerner tungt og farlig arbeid
+
+Men teknologi kan også **begrense** livsutfoldelsen:
+
+- **skjermavhengighet** og **distraksjon**
+- **tap** av jobber og **ulikhet** mellom dem som eier og dem som bruker teknologien
+- **overvåking** og tap av **personvern**
+- **digitalt utenforskap** for dem som ikke henger med
+
+## Bærekraft
+
+- **Fornybar energi**, **elbiler** og **energieffektivisering** kan redusere utslippene.
+- Men all teknologi krever **ressurser**. Batterier og elektronikk trenger **mineraler** som utvinnes med store **miljøkostnader**, ofte under dårlige **arbeidsforhold**.
+- **Tilbakeslagseffekten**: Når noe blir mer effektivt og billigere, bruker vi ofte **mer** av det.
+- **Elektronisk avfall** er et voksende problem.
+
+## Kunstig intelligens som eksempel
+
+**KI** kan brukes til å finne nye **medisiner**, oversette språk og effektivisere arbeid. Samtidig reiser den spørsmål om **ansvar**, **skjevheter**, **desinformasjon**, **jobber** og **energibruk** i store datasentre. Hvordan KI **reguleres** og **brukes**, avgjør om den bidrar til livsutfoldelse og bærekraft.
+
+## Drøfting
+
+Når du vurderer en teknologi, kan du spørre:
+
+- **Hvem** tjener og **hvem** taper?
+- Gir den mennesker **mer** eller **mindre** kontroll over eget liv?
+- Hva er de **langsiktige** konsekvensene for **natur** og **samfunn**?
+- Kan vi **velge** hvordan den skal brukes – og hvem bestemmer?', '{"label":"Teknologi og samfunn","children":[{"label":"Forhold","children":[{"label":"Determinisme"},{"label":"Sosial forming"},{"label":"Samspill"}]},{"label":"Holdninger","children":[{"label":"Optimisme"},{"label":"Pessimisme"}]},{"label":"Livsutfoldelse","children":[{"label":"Medisin og kommunikasjon"},{"label":"Avhengighet og overvåking"},{"label":"Digitalt utenforskap"}]},{"label":"Bærekraft","children":[{"label":"Fornybar energi"},{"label":"Mineraler og avfall"},{"label":"Tilbakeslagseffekt"}]},{"label":"KI","children":[{"label":"Muligheter"},{"label":"Ansvar og energi"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'historie-og-filosofi-2:teknologi-og-samfunn';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('historie-og-filosofi-2:teknologi-og-samfunn', 'Teknologi', 'Redskaper, metoder og systemer mennesker lager for å løse problemer.', 0),
+  ('historie-og-filosofi-2:teknologi-og-samfunn', 'Teknologideterminisme', 'Synet at teknologien driver samfunnsutviklingen.', 1),
+  ('historie-og-filosofi-2:teknologi-og-samfunn', 'Sosial forming av teknologi', 'Synet at samfunnet bestemmer hvordan teknologi utvikles og brukes.', 2),
+  ('historie-og-filosofi-2:teknologi-og-samfunn', 'Teknologioptimisme', 'Troen på at teknologi vil løse de store problemene.', 3),
+  ('historie-og-filosofi-2:teknologi-og-samfunn', 'Teknologipessimisme', 'Vekt på teknologiens skadelige følger.', 4),
+  ('historie-og-filosofi-2:teknologi-og-samfunn', 'Grønn revolusjon', 'Ny teknologi i jordbruket som økte matproduksjonen kraftig.', 5),
+  ('historie-og-filosofi-2:teknologi-og-samfunn', 'Livsutfoldelse', 'Menneskers mulighet til å utvikle seg og leve fullt ut.', 6),
+  ('historie-og-filosofi-2:teknologi-og-samfunn', 'Digitalt utenforskap', 'At noen ikke har tilgang til eller ferdigheter i digital teknologi.', 7),
+  ('historie-og-filosofi-2:teknologi-og-samfunn', 'Automatisering', 'At maskiner overtar arbeid mennesker gjorde.', 8),
+  ('historie-og-filosofi-2:teknologi-og-samfunn', 'Tilbakeslagseffekt', 'Effektivisering fører til at vi bruker mer.', 9),
+  ('historie-og-filosofi-2:teknologi-og-samfunn', 'Elektronisk avfall', 'Kasserte elektroniske produkter – et voksende miljøproblem.', 10),
+  ('historie-og-filosofi-2:teknologi-og-samfunn', 'Kritiske mineraler', 'Råvarer som trengs til batterier og elektronikk.', 11),
+  ('historie-og-filosofi-2:teknologi-og-samfunn', 'Skjevheter i KI', 'At KI gjentar diskriminering fra dataene den er trent på.', 12),
+  ('historie-og-filosofi-2:teknologi-og-samfunn', 'Regulering av teknologi', 'Lover og regler for hvordan teknologi kan brukes.', 13),
+  ('historie-og-filosofi-2:teknologi-og-samfunn', 'Samspill', 'Teknologi former samfunnet, og samfunnet former teknologien.', 14);
+delete from public.quiz_sporsmal where tema_id = 'historie-og-filosofi-2:teknologi-og-samfunn';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('historie-og-filosofi-2:teknologi-og-samfunn', 'q01', 'flervalg', 'Hva er teknologideterminisme?', array['At samfunnet bestemmer teknologien', 'At teknologien driver samfunnsutviklingen', 'At teknologi er farlig', 'At teknologi ikke finnes']::text[], 1, 'Samfunnet må tilpasse seg.', true, true, 0),
+  ('historie-og-filosofi-2:teknologi-og-samfunn', 'q02', 'flervalg', 'Hva mener de fleste forskere om forholdet mellom teknologi og samfunn?', array['At det er et samspill', 'At teknologien alltid styrer', 'At samfunnet alltid styrer', 'At de ikke påvirker hverandre']::text[], 0, 'De former hverandre.', true, true, 1),
+  ('historie-og-filosofi-2:teknologi-og-samfunn', 'q03', 'flervalg', 'Hva er et eksempel teknologioptimister trekker fram?', array['Atomvåpen', 'Overvåking', 'Vaksiner og antibiotika', 'Forurensning']::text[], 2, 'Har reddet millioner av liv.', true, true, 2),
+  ('historie-og-filosofi-2:teknologi-og-samfunn', 'q04', 'flervalg', 'Hva er digitalt utenforskap?', array['At man bruker for mye nett', 'At man jobber hjemme', 'At man er ekspert på data', 'At noen mangler tilgang til eller ferdigheter i digital teknologi']::text[], 3, 'Kan begrense livsutfoldelsen.', true, true, 3),
+  ('historie-og-filosofi-2:teknologi-og-samfunn', 'q05', 'flervalg', 'Hvorfor er ikke all grønn teknologi uten miljøkostnader?', array['Fordi batterier og elektronikk krever mineraler som utvinnes med miljøkostnader', 'Fordi den ikke virker', 'Fordi den er gratis', 'Fordi den bruker kull']::text[], 0, 'Ofte under dårlige arbeidsforhold.', true, true, 4),
+  ('historie-og-filosofi-2:teknologi-og-samfunn', 'q06', 'flervalg', 'Hva er tilbakeslagseffekten?', array['At teknologi blir dårligere', 'At effektivisering fører til at vi bruker mer', 'At prisene stiger', 'At utslippene forsvinner']::text[], 1, 'Miljøgevinsten blir mindre.', true, true, 5),
+  ('historie-og-filosofi-2:teknologi-og-samfunn', 'q07', 'flervalg', 'Hvordan kan teknologi fremme livsutfoldelse?', array['Gjennom overvåking', 'Gjennom skjermavhengighet', 'Gjennom medisin, kommunikasjon og hjelpemidler', 'Gjennom jobbtap']::text[], 2, 'Gir mer frihet og flere muligheter.', true, true, 6),
+  ('historie-og-filosofi-2:teknologi-og-samfunn', 'q08', 'flervalg', 'Hvilket spørsmål er viktig når du vurderer en teknologi?', array['Hvor ny den er', 'Hvor dyr den er', 'Hvor mange som liker den', 'Hvem som tjener og hvem som taper']::text[], 3, 'Og langsiktige konsekvenser.', true, true, 7),
+  ('historie-og-filosofi-2:teknologi-og-samfunn', 'q09', 'flervalg', 'Hva er sosial forming av teknologi?', array['At interesser, politikk og økonomi bestemmer hvordan teknologi utvikles og brukes', 'At teknologi former alt', 'At teknologi er nøytral', 'At teknologi er natur']::text[], 0, 'Samme teknologi kan brukes ulikt.', true, false, 8),
+  ('historie-og-filosofi-2:teknologi-og-samfunn', 'q10', 'flervalg', 'Hvilket problem kan KI skape for bærekraft?', array['Mindre energibruk', 'Høy energibruk i store datasentre', 'Færre data', 'Mindre elektronikk']::text[], 1, 'Også spørsmål om ansvar og jobber.', true, false, 9),
+  ('historie-og-filosofi-2:teknologi-og-samfunn', 'm01', 'sant-usant', 'Den samme teknologien kan brukes til svært ulike formål.', array['Sant', 'Usant']::text[], 0, 'Et argument for sosial forming.', false, true, 10),
+  ('historie-og-filosofi-2:teknologi-og-samfunn', 'm02', 'sant-usant', 'Elektronisk avfall er et krympende problem.', array['Sant', 'Usant']::text[], 1, 'Det er et voksende problem.', false, true, 11),
+  ('historie-og-filosofi-2:teknologi-og-samfunn', 'm03', 'sant-usant', 'Automatisering kan fjerne tungt og farlig arbeid.', array['Sant', 'Usant']::text[], 0, 'Men kan også gi jobbtap.', false, true, 12),
+  ('historie-og-filosofi-2:teknologi-og-samfunn', 'm04', 'sant-usant', 'Teknologi er bare maskiner og dataprogrammer.', array['Sant', 'Usant']::text[], 1, 'Det er alle redskaper, metoder og systemer.', false, true, 13),
+  ('historie-og-filosofi-2:teknologi-og-samfunn', 'm05', 'flervalg', 'Hva gjorde trykkpressen mulig ifølge teknologideterminister?', array['Industrialiseringen', 'Reformasjonen', 'Vikingtiden', 'Internett']::text[], 1, 'Et klassisk eksempel.', false, true, 14),
+  ('historie-og-filosofi-2:teknologi-og-samfunn', 'm06', 'flervalg', 'Hva kan begrense livsutfoldelse?', array['Skjermavhengighet og overvåking', 'Bedre medisin', 'Tilgang til kunnskap', 'Hjelpemidler']::text[], 0, 'Teknologiens baksider.', false, true, 15),
+  ('historie-og-filosofi-2:teknologi-og-samfunn', 'm07', 'flervalg', 'Hva avgjør om KI bidrar til livsutfoldelse og bærekraft?', array['Bare hvor rask den er', 'Bare prisen', 'Hvordan den reguleres og brukes', 'Ingenting']::text[], 2, 'Menneskelige valg er avgjørende.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('historie-og-filosofi-2:teknologi-og-samfunn', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Historie og filosofi 2: Mennesket, naturen og forbrukersamfunnet
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('historie-og-filosofi-2:natur-og-forbrukersamfunnet', 'historie-og-filosofi-2', 'natur-og-forbrukersamfunnet', 'Mennesket, naturen og forbrukersamfunnet', 'Forholdet mellom mennesker og natur i forbrukersamfunnet – forbruk og identitet, overforbruk og økologisk fotavtrykk – ulike ideer om rettferdighet hos Rawls, Nozick og i kapabilitetstilnærmingen, global og generasjonsrettferdighet, og menneskets plass i verden fra antroposentrisme til dypøkologi og antropocen.', array[15]::int[], 12, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('historie-og-filosofi-2:natur-og-forbrukersamfunnet', '## Forbrukersamfunnet
+
+Etter **andre verdenskrig** vokste det fram et **forbrukersamfunn** i den rike delen av verden. Økt **velstand**, **masseproduksjon** og **reklame** gjorde at folk kunne kjøpe langt mer enn de trengte for å overleve. I dag er **forbruk** ikke bare en måte å dekke behov på, men også en måte å vise **identitet**, **status** og **livsstil**.
+
+Kjennetegn:
+
+- **bruk-og-kast**-kultur og raske **motetrender**
+- **planlagt foreldelse** – produkter som er laget for å ha kort levetid
+- **reklame** og sosiale medier som skaper nye **behov**
+
+## Konsekvenser for naturen
+
+Forbruket krever **råvarer**, **energi**, **arealer** og **vann**, og gir **utslipp** og **avfall**. Det **økologiske fotavtrykket** viser hvor mye natur som trengs for å dekke forbruket. Hvis alle levde som gjennomsnittsnordmannen, ville vi trengt **flere jordkloder**.
+
+## Rettferdighet
+
+Forbruk og miljø reiser spørsmål om **rettferdighet**:
+
+- **Global rettferdighet**: De rike landene har stått for det meste av utslippene, mens **fattige** land ofte rammes hardest av klimaendringer.
+- **Generasjonsrettferdighet**: Har vi rett til å bruke ressurser som **framtidige generasjoner** trenger?
+- **Rettferdighet mellom arter**: Har **dyr** og **natur** krav på hensyn?
+
+## Teorier om rettferdighet
+
+- **John Rawls** foreslo i **1971** et tankeeksperiment: Vi skal velge prinsipper for samfunnet bak et «**uvitenhetens slør**» – uten å vite hvilken plass vi selv vil få. Rawls mente vi da ville velge like **friheter** og at ulikhet bare er rettferdig hvis den kommer de **dårligst stilte** til gode.
+- **Robert Nozick** mente at en fordeling er rettferdig hvis eiendom er **ervervet** og **overført** på rettferdig vis. Staten bør ikke **omfordele** mer enn nødvendig.
+- **Kapabilitetstilnærmingen** til **Amartya Sen** og **Martha Nussbaum** spør hva mennesker faktisk **er i stand til** å gjøre og være – helse, utdanning, deltakelse – ikke bare hvor mye de **eier**.
+- **Utilitarister** vil skape **mest mulig velferd** – også for framtidige generasjoner og, for noen, for **dyr**.
+
+## Menneskets plass i verden
+
+- **Antroposentrisme**: Mennesket står i **sentrum**, og naturen har verdi fordi den er **nyttig** for oss.
+- **Dypøkologi**: **Arne Næss** mente at alt liv har **egenverdi**, og at mennesket er en **del** av naturen, ikke herre over den.
+- **Urfolks** perspektiver legger ofte vekt på **gjensidighet** og **ansvar** overfor naturen.
+- **Antropocen** er et begrep for en ny **geologisk epoke** der mennesket er blitt den viktigste kraften som endrer jorda – gjennom klimaendringer, arealbruk og tap av arter.
+
+## Alternativer
+
+- **Sirkulær økonomi**: gjenbruk, reparasjon og resirkulering
+- **Nøysomhet**: å forbruke **mindre** og prioritere **tid**, **relasjoner** og **opplevelser**
+- **Grønn vekst** eller **nedvekst** – om økonomien kan vokse bærekraftig, eller om de rike landene må **redusere** forbruket
+
+## Drøfting
+
+Er det **enkeltmenneskets** ansvar å forbruke mindre, eller må **politikk** og **næringsliv** endre systemet? Hva er et **godt liv** hvis det ikke handler om å **ha** mest mulig?', '{"label":"Natur og forbrukersamfunnet","children":[{"label":"Forbrukersamfunnet","children":[{"label":"Etter 1945"},{"label":"Identitet og status"},{"label":"Planlagt foreldelse"}]},{"label":"Naturen","children":[{"label":"Økologisk fotavtrykk"},{"label":"Utslipp og avfall"}]},{"label":"Rettferdighet","children":[{"label":"Global"},{"label":"Generasjoner"},{"label":"Rawls, Nozick, Sen"}]},{"label":"Menneskets plass","children":[{"label":"Antroposentrisme"},{"label":"Dypøkologi"},{"label":"Antropocen"}]},{"label":"Alternativer","children":[{"label":"Sirkulær økonomi"},{"label":"Nøysomhet"},{"label":"Grønn vekst eller nedvekst"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'historie-og-filosofi-2:natur-og-forbrukersamfunnet';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('historie-og-filosofi-2:natur-og-forbrukersamfunnet', 'Forbrukersamfunn', 'Samfunn der forbruk er sentralt for økonomi og identitet.', 0),
+  ('historie-og-filosofi-2:natur-og-forbrukersamfunnet', 'Planlagt foreldelse', 'At produkter lages for å ha kort levetid.', 1),
+  ('historie-og-filosofi-2:natur-og-forbrukersamfunnet', 'Økologisk fotavtrykk', 'Hvor mye natur som trengs for å dekke forbruket.', 2),
+  ('historie-og-filosofi-2:natur-og-forbrukersamfunnet', 'Global rettferdighet', 'Rettferdig fordeling mellom rike og fattige land.', 3),
+  ('historie-og-filosofi-2:natur-og-forbrukersamfunnet', 'Generasjonsrettferdighet', 'Ansvar overfor framtidige generasjoner.', 4),
+  ('historie-og-filosofi-2:natur-og-forbrukersamfunnet', 'John Rawls', 'Filosof som i 1971 foreslo uvitenhetens slør.', 5),
+  ('historie-og-filosofi-2:natur-og-forbrukersamfunnet', 'Uvitenhetens slør', 'Å velge samfunnsprinsipper uten å vite hvilken plass man selv får.', 6),
+  ('historie-og-filosofi-2:natur-og-forbrukersamfunnet', 'Differensprinsippet', 'Rawls: ulikhet er bare rettferdig hvis den hjelper de dårligst stilte.', 7),
+  ('historie-og-filosofi-2:natur-og-forbrukersamfunnet', 'Robert Nozick', 'Mente rettferdig ervervet eiendom ikke bør omfordeles mer enn nødvendig.', 8),
+  ('historie-og-filosofi-2:natur-og-forbrukersamfunnet', 'Kapabilitetstilnærmingen', 'Sen og Nussbaum: hva mennesker faktisk er i stand til å gjøre og være.', 9),
+  ('historie-og-filosofi-2:natur-og-forbrukersamfunnet', 'Antroposentrisme', 'Mennesket i sentrum – naturen har verdi fordi den er nyttig.', 10),
+  ('historie-og-filosofi-2:natur-og-forbrukersamfunnet', 'Dypøkologi', 'Næss: alt liv har egenverdi, og mennesket er en del av naturen.', 11),
+  ('historie-og-filosofi-2:natur-og-forbrukersamfunnet', 'Antropocen', 'Ny geologisk epoke der mennesket er den viktigste kraften som endrer jorda.', 12),
+  ('historie-og-filosofi-2:natur-og-forbrukersamfunnet', 'Nøysomhet', 'Å forbruke mindre og prioritere tid og relasjoner.', 13),
+  ('historie-og-filosofi-2:natur-og-forbrukersamfunnet', 'Nedvekst', 'Ideen om at rike land må redusere produksjon og forbruk.', 14);
+delete from public.quiz_sporsmal where tema_id = 'historie-og-filosofi-2:natur-og-forbrukersamfunnet';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('historie-og-filosofi-2:natur-og-forbrukersamfunnet', 'q01', 'flervalg', 'Når vokste forbrukersamfunnet fram i den rike delen av verden?', array['I middelalderen', 'Etter andre verdenskrig', 'På 1600-tallet', 'I steinalderen']::text[], 1, 'Med velstand, masseproduksjon og reklame.', true, true, 0),
+  ('historie-og-filosofi-2:natur-og-forbrukersamfunnet', 'q02', 'flervalg', 'Hva er planlagt foreldelse?', array['At produkter lages for å ha kort levetid', 'At produkter lages for å vare evig', 'En type reklame', 'En miljølov']::text[], 0, 'Øker forbruket.', true, true, 1),
+  ('historie-og-filosofi-2:natur-og-forbrukersamfunnet', 'q03', 'flervalg', 'Hva er uvitenhetens slør hos Rawls?', array['En type klesplagg', 'At vi aldri kan vite noe', 'Å velge samfunnsprinsipper uten å vite hvilken plass man selv får', 'At rike skal bestemme']::text[], 2, 'Fra 1971.', true, true, 2),
+  ('historie-og-filosofi-2:natur-og-forbrukersamfunnet', 'q04', 'flervalg', 'Hva mente Nozick om omfordeling?', array['At staten bør omfordele alt', 'At alle skal ha likt', 'At eiendom ikke finnes', 'At rettferdig ervervet eiendom ikke bør omfordeles mer enn nødvendig']::text[], 3, 'En rettighetsbasert teori.', true, true, 3),
+  ('historie-og-filosofi-2:natur-og-forbrukersamfunnet', 'q05', 'flervalg', 'Hva spør kapabilitetstilnærmingen om?', array['Hva mennesker faktisk er i stand til å gjøre og være', 'Hvor mye folk eier', 'Hvor mye de forbruker', 'Hvor gamle de er']::text[], 0, 'Sen og Nussbaum.', true, true, 4),
+  ('historie-og-filosofi-2:natur-og-forbrukersamfunnet', 'q06', 'flervalg', 'Hva er antropocen?', array['En steinalderkultur', 'En ny geologisk epoke der mennesket er den viktigste kraften som endrer jorda', 'En type forbruk', 'En filosofisk skole']::text[], 1, 'Klimaendringer, arealbruk og artstap.', true, true, 5),
+  ('historie-og-filosofi-2:natur-og-forbrukersamfunnet', 'q07', 'flervalg', 'Hva er dypøkologi?', array['Studiet av havbunnen', 'Synet at naturen bare er en ressurs', 'Synet at alt liv har egenverdi og mennesket er en del av naturen', 'En type landbruk']::text[], 2, 'Arne Næss.', true, true, 6),
+  ('historie-og-filosofi-2:natur-og-forbrukersamfunnet', 'q08', 'flervalg', 'Hva er global rettferdighet i klimaspørsmålet?', array['At alle land har sluppet ut like mye', 'At fattige land har sluppet ut mest', 'At klimaendringer rammer alle likt', 'At rike land har sluppet ut mest, mens fattige ofte rammes hardest']::text[], 3, 'En skjev fordeling av ansvar og konsekvenser.', true, true, 7),
+  ('historie-og-filosofi-2:natur-og-forbrukersamfunnet', 'q09', 'flervalg', 'Hva er det økologiske fotavtrykket?', array['Hvor mye natur som trengs for å dekke forbruket', 'Et fotspor i skogen', 'En type avgift', 'Antall trær i et land']::text[], 0, 'Nordmenn har et stort fotavtrykk.', true, false, 8),
+  ('historie-og-filosofi-2:natur-og-forbrukersamfunnet', 'q10', 'flervalg', 'Hva er nøysomhet?', array['Å kjøpe mest mulig', 'Å forbruke mindre og prioritere tid, relasjoner og opplevelser', 'Å spare til luksus', 'Å reise mye']::text[], 1, 'Et alternativ til forbrukersamfunnet.', true, false, 9),
+  ('historie-og-filosofi-2:natur-og-forbrukersamfunnet', 'm01', 'sant-usant', 'Hvis alle levde som gjennomsnittsnordmannen, ville vi trengt flere jordkloder.', array['Sant', 'Usant']::text[], 0, 'Stort økologisk fotavtrykk.', false, true, 10),
+  ('historie-og-filosofi-2:natur-og-forbrukersamfunnet', 'm02', 'sant-usant', 'Forbruk handler bare om å dekke grunnleggende behov.', array['Sant', 'Usant']::text[], 1, 'Det handler også om identitet og status.', false, true, 11),
+  ('historie-og-filosofi-2:natur-og-forbrukersamfunnet', 'm03', 'sant-usant', 'Rawls mente ulikhet bare er rettferdig hvis den kommer de dårligst stilte til gode.', array['Sant', 'Usant']::text[], 0, 'Differensprinsippet.', false, true, 12),
+  ('historie-og-filosofi-2:natur-og-forbrukersamfunnet', 'm04', 'sant-usant', 'Antropocen er navnet på en epoke før mennesket fantes.', array['Sant', 'Usant']::text[], 1, 'Det er epoken der mennesket endrer jorda mest.', false, true, 13),
+  ('historie-og-filosofi-2:natur-og-forbrukersamfunnet', 'm05', 'flervalg', 'Hvem utviklet kapabilitetstilnærmingen?', array['Rawls og Nozick', 'Amartya Sen og Martha Nussbaum', 'Næss og Kant', 'Smith og Marx']::text[], 1, 'Hva mennesker er i stand til.', false, true, 14),
+  ('historie-og-filosofi-2:natur-og-forbrukersamfunnet', 'm06', 'flervalg', 'Hva er nedvekst?', array['Ideen om at rike land må redusere produksjon og forbruk', 'Økonomisk vekst uten grenser', 'En type reklame', 'Et forbruksmønster']::text[], 0, 'Et alternativ til grønn vekst.', false, true, 15),
+  ('historie-og-filosofi-2:natur-og-forbrukersamfunnet', 'm07', 'flervalg', 'Hva legger urfolks perspektiver ofte vekt på?', array['Maksimalt forbruk', 'Naturen som ren ressurs', 'Gjensidighet og ansvar overfor naturen', 'Planlagt foreldelse']::text[], 2, 'Et alternativt natursyn.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('historie-og-filosofi-2:natur-og-forbrukersamfunnet', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Kjemi 2 (vg3): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'kjemi-2' and slug not in ('forsok-modeller-og-kunnskapsutvikling', 'redoks-og-elektrokjemi', 'likevekt-og-massevirkningsloven', 'entropi-entalpi-og-spontanitet', 'ph-beregninger', 'buffere', 'loselighet', 'katalyse', 'organiske-reaksjonstyper', 'synteser-utbytte-og-renhet', 'kromatografi', 'biologiske-makromolekyler', 'metaller-plast-og-gronn-kjemi');
+
+-- Kjemi 2: Forsøk, modeller og kunnskapsutvikling i kjemi
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('kjemi-2:forsok-modeller-og-kunnskapsutvikling', 'kjemi-2', 'forsok-modeller-og-kunnskapsutvikling', 'Forsøk, modeller og kunnskapsutvikling i kjemi', 'Hvordan du planlegger og gjennomfører kjemiske forsøk trygt, vurderer usikkerhet og feilkilder og bruker presist fagspråk – hvordan modeller og teorier i kjemi utvikles gjennom samarbeid – og hvordan du utforsker en egen problemstilling og presenterer funnene.', array[1, 2, 3, 15]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('kjemi-2:forsok-modeller-og-kunnskapsutvikling', '## Kjemisk fagspråk
+
+Kjemi har et **presist** fagspråk. Det er forskjell på **stoffmengde** (mol) og **masse** (g), på **konsentrasjon** (mol/L) og **løselighet**, og på **reaksjonsfart** og **likevekt**. Kjemiske formler, **reaksjonsligninger** med tilstandssymboler og **IUPAC**-navn gjør at kjemikere over hele verden forstår hverandre. Bruk alltid riktige **enheter** og et rimelig antall **gjeldende sifre**.
+
+## Planlegge forsøk
+
+1. Formuler en **problemstilling** eller **hypotese**.
+2. Bestem **variabler**: Hva endrer du (**uavhengig** variabel), hva måler du (**avhengig** variabel), og hva holder du **konstant**?
+3. Velg **utstyr**, **mengder** og **metode**.
+4. Gjør en **risikovurdering**.
+
+## Sikkerhet
+
+- Les **sikkerhetsdatablad** og **faresymboler** på kjemikaliene.
+- Bruk **vernebriller**, **frakk** og **hansker** når det trengs.
+- Arbeid i **avtrekkskap** med flyktige eller giftige stoffer.
+- Bruk **minst mulig** kjemikalier, og velg **mindre farlige** alternativer der det går.
+- Sørg for riktig **avfallshåndtering**.
+
+## Usikkerhet og feilkilder
+
+Alle målinger har **usikkerhet**.
+
+- **Tilfeldige feil** gir **spredning** i resultatene, for eksempel små variasjoner i avlesning. De kan reduseres ved å gjenta forsøket og regne **gjennomsnitt**.
+- **Systematiske feil** trekker resultatene i **én retning**, for eksempel en vekt som viser for mye eller en titreringsløsning med feil konsentrasjon.
+
+Skill mellom **nøyaktighet** – hvor nær det sanne svaret du er – og **presisjon** – hvor like resultatene er når du gjentar målingen. Et **prosentvis avvik** fra en kjent verdi kan brukes til å vurdere resultatet.
+
+## Hvordan modeller og teorier utvikles
+
+Kjemiske **modeller** er **forenklede** bilder av virkeligheten. **Atommodellen** er et godt eksempel: fra **Daltons** kuler via **Thomsons** «rosinbolle» og **Rutherfords** kjerne til **Bohrs** skall og dagens **kvantemekaniske** modell med orbitaler. Hver modell ble utviklet fordi nye **forsøk** viste noe den gamle ikke kunne forklare.
+
+En **teori** er en godt underbygd forklaring som gjør **prediksjoner** som kan testes.
+
+## Samarbeid
+
+Kunnskap i kjemi utvikles gjennom **samarbeid**:
+
+- Forskere publiserer resultater som blir **fagfellevurdert**.
+- Andre **gjentar** forsøkene for å se om resultatene holder.
+- **IUPAC** lager felles regler for navn, symboler og måleenheter.
+- Store **forskningsprosjekter** samler kjemikere, fysikere, biologer og ingeniører fra mange land.
+
+## Utforske en problemstilling
+
+Når du utforsker en egen problemstilling, teoretisk eller praktisk:
+
+- avgrens problemstillingen
+- finn **teori** og **kilder**
+- gjennomfør forsøk eller analyser
+- **drøft** resultatene: stemmer de med teorien? Hvilke **feilkilder** kan forklare avvik?
+- presenter funnene **tydelig**, med tabeller, grafer og en begrunnet **konklusjon**', '{"label":"Forsøk og kunnskap i kjemi","children":[{"label":"Fagspråk","children":[{"label":"Begreper og enheter"},{"label":"Formler og IUPAC"}]},{"label":"Planlegging","children":[{"label":"Hypotese og variabler"},{"label":"Risikovurdering"}]},{"label":"Usikkerhet","children":[{"label":"Tilfeldige feil"},{"label":"Systematiske feil"},{"label":"Nøyaktighet og presisjon"}]},{"label":"Modeller og teorier","children":[{"label":"Atommodellens utvikling"},{"label":"Prediksjoner"}]},{"label":"Samarbeid","children":[{"label":"Fagfellevurdering"},{"label":"Egen problemstilling"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'kjemi-2:forsok-modeller-og-kunnskapsutvikling';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('kjemi-2:forsok-modeller-og-kunnskapsutvikling', 'IUPAC', 'Internasjonal organisasjon som lager regler for navn og symboler i kjemi.', 0),
+  ('kjemi-2:forsok-modeller-og-kunnskapsutvikling', 'Stoffmengde', 'Antall mol av et stoff.', 1),
+  ('kjemi-2:forsok-modeller-og-kunnskapsutvikling', 'Gjeldende sifre', 'Sifrene i et tall som sier noe om målingens nøyaktighet.', 2),
+  ('kjemi-2:forsok-modeller-og-kunnskapsutvikling', 'Uavhengig variabel', 'Det du endrer i et forsøk.', 3),
+  ('kjemi-2:forsok-modeller-og-kunnskapsutvikling', 'Avhengig variabel', 'Det du måler i et forsøk.', 4),
+  ('kjemi-2:forsok-modeller-og-kunnskapsutvikling', 'Risikovurdering', 'Vurdering av farer og tiltak før et forsøk.', 5),
+  ('kjemi-2:forsok-modeller-og-kunnskapsutvikling', 'Sikkerhetsdatablad', 'Dokument med informasjon om farer og håndtering av et kjemikalie.', 6),
+  ('kjemi-2:forsok-modeller-og-kunnskapsutvikling', 'Avtrekkskap', 'Skap som suger ut giftige eller flyktige gasser.', 7),
+  ('kjemi-2:forsok-modeller-og-kunnskapsutvikling', 'Tilfeldige feil', 'Feil som gir spredning i resultatene.', 8),
+  ('kjemi-2:forsok-modeller-og-kunnskapsutvikling', 'Systematiske feil', 'Feil som trekker resultatene i én retning.', 9),
+  ('kjemi-2:forsok-modeller-og-kunnskapsutvikling', 'Nøyaktighet', 'Hvor nær det sanne svaret resultatet er.', 10),
+  ('kjemi-2:forsok-modeller-og-kunnskapsutvikling', 'Presisjon', 'Hvor like resultatene er ved gjentatte målinger.', 11),
+  ('kjemi-2:forsok-modeller-og-kunnskapsutvikling', 'Prosentvis avvik', 'Forskjellen fra en kjent verdi i prosent.', 12),
+  ('kjemi-2:forsok-modeller-og-kunnskapsutvikling', 'Modell', 'Forenklet bilde av virkeligheten.', 13),
+  ('kjemi-2:forsok-modeller-og-kunnskapsutvikling', 'Teori', 'Godt underbygd forklaring som gjør testbare prediksjoner.', 14),
+  ('kjemi-2:forsok-modeller-og-kunnskapsutvikling', 'Fagfellevurdering', 'Andre forskere vurderer arbeidet før publisering.', 15);
+delete from public.quiz_sporsmal where tema_id = 'kjemi-2:forsok-modeller-og-kunnskapsutvikling';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('kjemi-2:forsok-modeller-og-kunnskapsutvikling', 'q01', 'flervalg', 'Hva er den avhengige variabelen i et forsøk?', array['Det du endrer', 'Det du måler', 'Det du holder konstant', 'Utstyret']::text[], 1, 'Den uavhengige variabelen er det du endrer.', true, true, 0),
+  ('kjemi-2:forsok-modeller-og-kunnskapsutvikling', 'q02', 'flervalg', 'En vekt viser alltid 0,05 g for mye. Hva slags feil er det?', array['Systematisk feil', 'Tilfeldig feil', 'Ingen feil', 'Presisjonsfeil']::text[], 0, 'Den trekker resultatet i én retning.', true, true, 1),
+  ('kjemi-2:forsok-modeller-og-kunnskapsutvikling', 'q03', 'flervalg', 'Hva er presisjon?', array['Hvor nær det sanne svaret du er', 'Hvor stort utvalget er', 'Hvor like resultatene er ved gjentatte målinger', 'Hvor raskt forsøket går']::text[], 2, 'Nøyaktighet er nærhet til sann verdi.', true, true, 2),
+  ('kjemi-2:forsok-modeller-og-kunnskapsutvikling', 'q04', 'flervalg', 'Hvor finner du informasjon om farene ved et kjemikalie?', array['I læreboka alene', 'På nettforum', 'Hos en venn', 'I sikkerhetsdatabladet']::text[], 3, 'Sammen med faresymbolene.', true, true, 3),
+  ('kjemi-2:forsok-modeller-og-kunnskapsutvikling', 'q05', 'flervalg', 'Hvordan kan tilfeldige feil reduseres?', array['Ved å gjenta forsøket og regne gjennomsnitt', 'Ved å bruke en annen vekt', 'Ved å endre hypotesen', 'De kan ikke reduseres']::text[], 0, 'Spredningen jevnes ut.', true, true, 4),
+  ('kjemi-2:forsok-modeller-og-kunnskapsutvikling', 'q06', 'flervalg', 'Hvorfor har atommodellen endret seg over tid?', array['Fordi forskerne ble uenige om navn', 'Fordi nye forsøk viste noe den gamle modellen ikke kunne forklare', 'Fordi atomene endret seg', 'Fordi det er mote']::text[], 1, 'Fra Dalton til kvantemekanikk.', true, true, 5),
+  ('kjemi-2:forsok-modeller-og-kunnskapsutvikling', 'q07', 'flervalg', 'Hva gjør IUPAC?', array['Selger kjemikalier', 'Driver laboratorier i skolen', 'Lager felles regler for navn, symboler og enheter', 'Godkjenner medisiner']::text[], 2, 'Gjør at kjemikere forstår hverandre.', true, true, 6),
+  ('kjemi-2:forsok-modeller-og-kunnskapsutvikling', 'q08', 'flervalg', 'Hva kjennetegner en vitenskapelig teori?', array['Det er en gjetning', 'Det er en mening', 'Den kan aldri testes', 'Den er godt underbygd og gjør testbare prediksjoner']::text[], 3, 'Teorier kan endres ved nye funn.', true, true, 7),
+  ('kjemi-2:forsok-modeller-og-kunnskapsutvikling', 'q09', 'flervalg', 'Hvorfor bør du bruke minst mulig kjemikalier?', array['For å redusere risiko og avfall', 'For å gjøre forsøket vanskeligere', 'Fordi det gir større feil', 'Fordi det er påbudt å ikke gjøre forsøk']::text[], 0, 'Et prinsipp i trygt og grønt laboratoriearbeid.', true, false, 8),
+  ('kjemi-2:forsok-modeller-og-kunnskapsutvikling', 'q10', 'flervalg', 'Hva bør drøftingen i en rapport inneholde?', array['Bare resultatene', 'Vurdering av om resultatene stemmer med teorien og hvilke feilkilder som kan forklare avvik', 'Bare utstyrslisten', 'Ingen konklusjon']::text[], 1, 'Kritisk vurdering av egne funn.', true, false, 9),
+  ('kjemi-2:forsok-modeller-og-kunnskapsutvikling', 'm01', 'sant-usant', 'Alle målinger har usikkerhet.', array['Sant', 'Usant']::text[], 0, 'Derfor må den vurderes.', false, true, 10),
+  ('kjemi-2:forsok-modeller-og-kunnskapsutvikling', 'm02', 'sant-usant', 'Høy presisjon betyr alltid høy nøyaktighet.', array['Sant', 'Usant']::text[], 1, 'Resultatene kan være like, men feil.', false, true, 11),
+  ('kjemi-2:forsok-modeller-og-kunnskapsutvikling', 'm03', 'sant-usant', 'Rutherford oppdaget at atomet har en liten, tett kjerne.', array['Sant', 'Usant']::text[], 0, 'Gullfolieforsøket.', false, true, 12),
+  ('kjemi-2:forsok-modeller-og-kunnskapsutvikling', 'm04', 'sant-usant', 'Kunnskap i kjemi utvikles helst av enkeltpersoner som arbeider alene.', array['Sant', 'Usant']::text[], 1, 'Samarbeid er avgjørende.', false, true, 13),
+  ('kjemi-2:forsok-modeller-og-kunnskapsutvikling', 'm05', 'flervalg', 'Hva gjør et avtrekkskap?', array['Kjøler ned løsninger', 'Suger ut giftige eller flyktige gasser', 'Veier stoffer', 'Lagrer avfall']::text[], 1, 'Viktig sikkerhetsutstyr.', false, true, 14),
+  ('kjemi-2:forsok-modeller-og-kunnskapsutvikling', 'm06', 'flervalg', 'Hvilken modell innførte skall der elektronene går i bestemte baner?', array['Bohrs modell', 'Daltons modell', 'Thomsons modell', 'Den kvantemekaniske modellen']::text[], 0, 'Senere erstattet av orbitaler.', false, true, 15),
+  ('kjemi-2:forsok-modeller-og-kunnskapsutvikling', 'm07', 'flervalg', 'Hva måler prosentvis avvik?', array['Hvor mange forsøk du gjorde', 'Hvor lang tid forsøket tok', 'Forskjellen fra en kjent verdi i prosent', 'Antall gjeldende sifre']::text[], 2, 'Brukes til å vurdere resultater.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('kjemi-2:forsok-modeller-og-kunnskapsutvikling', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Kjemi 2: Redoksreaksjoner og elektrokjemi
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('kjemi-2:redoks-og-elektrokjemi', 'kjemi-2', 'redoks-og-elektrokjemi', 'Redoksreaksjoner og elektrokjemi', 'Oksidasjon og reduksjon, oksidasjonstall og balansering av redoksligninger, galvaniske celler og standard reduksjonspotensial, cellespenning og energi, batterier og brenselceller, elektrolyse med Faradays lov og korrosjon.', array[4]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('kjemi-2:redoks-og-elektrokjemi', '## Oksidasjon og reduksjon
+
+I en **redoksreaksjon** overføres **elektroner**.
+
+- **Oksidasjon**: et stoff **avgir** elektroner, og oksidasjonstallet **øker**.
+- **Reduksjon**: et stoff **tar opp** elektroner, og oksidasjonstallet **minker**.
+
+Stoffet som blir redusert, er **oksidasjonsmiddelet**, og stoffet som blir oksidert, er **reduksjonsmiddelet**.
+
+**Oksidasjonstall** hjelper oss å holde orden: Grunnstoffer har 0, O har vanligvis −2 og H vanligvis +1, og summen i et nøytralt molekyl er 0.
+
+## Balansering
+
+Redoksligninger balanseres slik at **elektronene** som avgis, er like mange som dem som tas opp. Ofte deler vi reaksjonen i to **halvreaksjoner**. I sur løsning brukes H⁺ og H₂O, i basisk løsning OH⁻ og H₂O.
+
+## Galvaniske celler
+
+I en **galvanisk celle** gir en **spontan** redoksreaksjon **elektrisk strøm**. I **Daniell-cellen** står sink i en sinksulfatløsning og kobber i en kobbersulfatløsning, forbundet med en **saltbro**:
+
+- **Anoden** (−): Zn → Zn²⁺ + 2e⁻ – **oksidasjon**
+- **Katoden** (+): Cu²⁺ + 2e⁻ → Cu – **reduksjon**
+
+## Standard reduksjonspotensial og cellespenning
+
+**Spenningsrekken** ordner halvreaksjonene etter **standard reduksjonspotensial** E°. Jo høyere E°, desto lettere blir stoffet **redusert**.
+
+**E°celle = E°katode − E°anode**
+
+For Daniell-cellen: E°(Cu²⁺/Cu) = +0,34 V og E°(Zn²⁺/Zn) = −0,76 V, så E°celle = 0,34 − (−0,76) = **1,10 V**.
+
+## Spenning og energi
+
+Sammenhengen mellom cellespenning og energi er
+
+**ΔG° = −zFE°**
+
+der z er antall elektroner som overføres, og **F = 96 485 C/mol** er **Faradays konstant**. For Daniell-cellen: ΔG° = −2 · 96 485 · 1,10 J ≈ **−212 kJ** per mol. En positiv cellespenning gir negativ ΔG – reaksjonen er **spontan**.
+
+## Batterier og brenselceller
+
+- **Litium-ion-batterier** i mobiler og elbiler kan **lades opp** igjen – reaksjonen drives baklengs ved lading.
+- I en **brenselcelle** reagerer **hydrogen** og **oksygen** og gir strøm og vann.
+
+## Elektrolyse
+
+I **elektrolyse** brukes **elektrisk energi** til å drive en **ikke-spontan** redoksreaksjon. Eksempler er produksjon av **aluminium**, **klor** og **hydrogen** og **forkobring** og **forgylling**.
+
+**Faradays lov** gir sammenhengen mellom **ladning** og **stoffmengde**:
+
+- Ladning: Q = I · t
+- Stoffmengde elektroner: n(e⁻) = Q / F
+- Stoffmengde stoff: n = n(e⁻) / z
+
+**Eksempel**: Elektrolyse av Cu²⁺ med **2,0 A** i **30 min**: Q = 2,0 · 1800 = 3600 C, n(e⁻) = 3600 / 96 485 = 0,0373 mol, n(Cu) = 0,0187 mol og m(Cu) = 0,0187 · 63,55 ≈ **1,19 g**.
+
+## Korrosjon
+
+**Korrosjon** er en redoksreaksjon der metaller **oksideres**, som når **jern ruster**. Den kan hindres med **maling**, **galvanisering** (sinkbelegg) eller en **offeranode** av et mer uedelt metall, som sink på båter.', '{"label":"Redoks og elektrokjemi","children":[{"label":"Redoks","children":[{"label":"Oksidasjon og reduksjon"},{"label":"Oksidasjonstall"},{"label":"Halvreaksjoner"}]},{"label":"Galvaniske celler","children":[{"label":"Anode og katode"},{"label":"Saltbro"},{"label":"Daniell-cellen"}]},{"label":"Spenning og energi","children":[{"label":"Spenningsrekken"},{"label":"E°celle"},{"label":"ΔG° = −zFE°"}]},{"label":"Elektrolyse","children":[{"label":"Faradays lov"},{"label":"Aluminium og forkobring"}]},{"label":"Anvendelser","children":[{"label":"Batterier"},{"label":"Brenselceller"},{"label":"Korrosjon"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'kjemi-2:redoks-og-elektrokjemi';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('kjemi-2:redoks-og-elektrokjemi', 'Oksidasjon', 'Avgivelse av elektroner – oksidasjonstallet øker.', 0),
+  ('kjemi-2:redoks-og-elektrokjemi', 'Reduksjon', 'Opptak av elektroner – oksidasjonstallet minker.', 1),
+  ('kjemi-2:redoks-og-elektrokjemi', 'Oksidasjonsmiddel', 'Stoffet som blir redusert.', 2),
+  ('kjemi-2:redoks-og-elektrokjemi', 'Reduksjonsmiddel', 'Stoffet som blir oksidert.', 3),
+  ('kjemi-2:redoks-og-elektrokjemi', 'Halvreaksjon', 'Oksidasjonen eller reduksjonen skrevet for seg.', 4),
+  ('kjemi-2:redoks-og-elektrokjemi', 'Galvanisk celle', 'Celle der en spontan redoksreaksjon gir strøm.', 5),
+  ('kjemi-2:redoks-og-elektrokjemi', 'Anode', 'Elektroden der oksidasjon skjer.', 6),
+  ('kjemi-2:redoks-og-elektrokjemi', 'Katode', 'Elektroden der reduksjon skjer.', 7),
+  ('kjemi-2:redoks-og-elektrokjemi', 'Saltbro', 'Forbindelse som lar ioner vandre og lukker kretsen.', 8),
+  ('kjemi-2:redoks-og-elektrokjemi', 'Standard reduksjonspotensial', 'E° – høyere verdi betyr lettere å redusere.', 9),
+  ('kjemi-2:redoks-og-elektrokjemi', 'E°celle', 'E°katode − E°anode.', 10),
+  ('kjemi-2:redoks-og-elektrokjemi', 'ΔG° = −zFE°', 'Sammenhengen mellom cellespenning og fri energi.', 11),
+  ('kjemi-2:redoks-og-elektrokjemi', 'Faradays konstant', 'F = 96 485 C/mol – ladningen til ett mol elektroner.', 12),
+  ('kjemi-2:redoks-og-elektrokjemi', 'Elektrolyse', 'Elektrisk energi driver en ikke-spontan redoksreaksjon.', 13),
+  ('kjemi-2:redoks-og-elektrokjemi', 'Offeranode', 'Uedelt metall som korroderer i stedet for konstruksjonen.', 14),
+  ('kjemi-2:redoks-og-elektrokjemi', 'Brenselcelle', 'Hydrogen og oksygen reagerer og gir strøm og vann.', 15);
+delete from public.quiz_sporsmal where tema_id = 'kjemi-2:redoks-og-elektrokjemi';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('kjemi-2:redoks-og-elektrokjemi', 'q01', 'flervalg', 'Hva skjer ved oksidasjon?', array['Stoffet tar opp elektroner', 'Stoffet avgir elektroner', 'Stoffet tar opp protoner', 'Ingenting']::text[], 1, 'Oksidasjonstallet øker.', true, true, 0),
+  ('kjemi-2:redoks-og-elektrokjemi', 'q02', 'flervalg', 'Hvor skjer reduksjonen i en galvanisk celle?', array['På katoden', 'På anoden', 'I saltbroen', 'I ledningen']::text[], 0, 'Oksidasjon skjer på anoden.', true, true, 1),
+  ('kjemi-2:redoks-og-elektrokjemi', 'q03', 'flervalg', 'E°(Cu²⁺/Cu) = +0,34 V og E°(Zn²⁺/Zn) = −0,76 V. Hva er E°celle?', array['0,42 V', '−1,10 V', '1,10 V', '0,34 V']::text[], 2, '0,34 − (−0,76) = 1,10 V.', true, true, 2),
+  ('kjemi-2:redoks-og-elektrokjemi', 'q04', 'flervalg', 'Hva forteller en positiv cellespenning?', array['At ΔG er positiv', 'At reaksjonen ikke skjer', 'At det trengs elektrolyse', 'At reaksjonen er spontan og ΔG er negativ']::text[], 3, 'ΔG° = −zFE°.', true, true, 3),
+  ('kjemi-2:redoks-og-elektrokjemi', 'q05', 'flervalg', 'Hva er Faradays konstant?', array['96 485 C/mol', '6,02 · 10²³ /mol', '8,314 J/(mol·K)', '1,0 · 10⁻¹⁴']::text[], 0, 'Ladningen til ett mol elektroner.', true, true, 4),
+  ('kjemi-2:redoks-og-elektrokjemi', 'q06', 'flervalg', 'Hva er elektrolyse?', array['En spontan reaksjon som gir strøm', 'Elektrisk energi driver en ikke-spontan redoksreaksjon', 'En syre-base-reaksjon', 'En felling']::text[], 1, 'Brukes for eksempel til aluminiumsproduksjon.', true, true, 5),
+  ('kjemi-2:redoks-og-elektrokjemi', 'q07', 'flervalg', 'Hvor mye kobber felles ut med 2,0 A i 30 min fra Cu²⁺?', array['2,38 g', '0,59 g', 'Omtrent 1,19 g', '63,5 g']::text[], 2, 'Q = 3600 C, n(e⁻) = 0,0373 mol, n(Cu) = 0,0187 mol.', true, true, 6),
+  ('kjemi-2:redoks-og-elektrokjemi', 'q08', 'flervalg', 'Hvordan beskytter en offeranode et skip?', array['Den øker spenningen', 'Den maler skroget', 'Den tar opp oksygen', 'Den er av et mer uedelt metall som korroderer i stedet']::text[], 3, 'For eksempel sink.', true, true, 7),
+  ('kjemi-2:redoks-og-elektrokjemi', 'q09', 'flervalg', 'Hva er et oksidasjonsmiddel?', array['Stoffet som blir redusert', 'Stoffet som blir oksidert', 'En katalysator', 'En saltbro']::text[], 0, 'Det oksiderer et annet stoff.', true, false, 8),
+  ('kjemi-2:redoks-og-elektrokjemi', 'q10', 'flervalg', 'Hva dannes i en hydrogen-brenselcelle?', array['CO₂', 'Strøm og vann', 'Metan', 'Salt']::text[], 1, 'Hydrogen og oksygen reagerer.', true, false, 9),
+  ('kjemi-2:redoks-og-elektrokjemi', 'm01', 'sant-usant', 'Når et litium-ion-batteri lades, drives reaksjonen baklengs.', array['Sant', 'Usant']::text[], 0, 'Elektrisk energi lagres som kjemisk energi.', false, true, 10),
+  ('kjemi-2:redoks-og-elektrokjemi', 'm02', 'sant-usant', 'Jo lavere standard reduksjonspotensial, desto lettere blir stoffet redusert.', array['Sant', 'Usant']::text[], 1, 'Jo høyere E°, desto lettere reduseres det.', false, true, 11),
+  ('kjemi-2:redoks-og-elektrokjemi', 'm03', 'sant-usant', 'Rusting av jern er en redoksreaksjon.', array['Sant', 'Usant']::text[], 0, 'Jernet oksideres.', false, true, 12),
+  ('kjemi-2:redoks-og-elektrokjemi', 'm04', 'sant-usant', 'I elektrolyse gir reaksjonen strøm av seg selv.', array['Sant', 'Usant']::text[], 1, 'Strøm tilføres for å drive reaksjonen.', false, true, 13),
+  ('kjemi-2:redoks-og-elektrokjemi', 'm05', 'flervalg', 'Hva er oksidasjonstallet til et grunnstoff i fri form?', array['+1', '0', '−2', 'Det varierer']::text[], 1, 'For eksempel O₂ og Cu.', false, true, 14),
+  ('kjemi-2:redoks-og-elektrokjemi', 'm06', 'flervalg', 'Hvilken formel gir ladningen i elektrolyse?', array['Q = I · t', 'Q = m / M', 'Q = c · V', 'Q = F / z']::text[], 0, 'Strøm ganger tid.', false, true, 15),
+  ('kjemi-2:redoks-og-elektrokjemi', 'm07', 'flervalg', 'Hva er galvanisering?', array['Å male jern', 'Å lade et batteri', 'Å dekke jern med et sinkbelegg', 'Å smelte metall']::text[], 2, 'Beskytter mot korrosjon.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('kjemi-2:redoks-og-elektrokjemi', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Kjemi 2: Likevekt og massevirkningsloven
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('kjemi-2:likevekt-og-massevirkningsloven', 'kjemi-2', 'likevekt-og-massevirkningsloven', 'Likevekt og massevirkningsloven', 'Dynamisk likevekt, massevirkningsloven og likevektskonstanten, reaksjonskvotienten, beregninger med likevektstabeller og Le Châteliers prinsipp – med eksempler fra laboratoriet og industrien.', array[5]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('kjemi-2:likevekt-og-massevirkningsloven', '## Dynamisk likevekt
+
+Mange reaksjoner går **begge veier**. Når reaksjonen framover og bakover går like **fort**, er systemet i **likevekt**. Konsentrasjonene er da **konstante**, men reaksjonene har ikke stoppet – likevekten er **dynamisk**.
+
+## Massevirkningsloven
+
+For reaksjonen aA + bB ⇌ cC + dD gjelder ved likevekt:
+
+**K = [C]ᶜ · [D]ᵈ / ([A]ᵃ · [B]ᵇ)**
+
+**K** er **likevektskonstanten**. Den er **konstant** ved en gitt **temperatur**.
+
+- Rene **faste stoffer** og **væsker**, som vann i vannløsninger, tas **ikke** med.
+- **Stor K** (mye større enn 1): likevekten ligger mot **produktene**.
+- **Liten K** (mye mindre enn 1): likevekten ligger mot **reaktantene**.
+
+## Reaksjonskvotienten
+
+**Q** regnes ut på samme måte som K, men med konsentrasjonene i et **vilkårlig** øyeblikk.
+
+- Q < K: reaksjonen går **mot høyre** (mot produktene).
+- Q > K: reaksjonen går **mot venstre**.
+- Q = K: systemet er i **likevekt**.
+
+## Beregninger med likevektstabell
+
+En **likevektstabell** har tre rader: **start**, **endring** og **likevekt**.
+
+**Eksempel**: H₂(g) + I₂(g) ⇌ 2HI(g) har K = 49 ved en bestemt temperatur. Vi starter med 1,0 mol/L av både H₂ og I₂.
+
+| | H₂ | I₂ | HI |
+|---|---|---|---|
+| Start | 1,0 | 1,0 | 0 |
+| Endring | −x | −x | +2x |
+| Likevekt | 1,0 − x | 1,0 − x | 2x |
+
+K = (2x)² / (1,0 − x)² = 49. Vi tar kvadratroten: 2x / (1,0 − x) = 7, som gir x = 7/9 ≈ 0,78. Ved likevekt er [HI] ≈ **1,56 mol/L** og [H₂] = [I₂] ≈ **0,22 mol/L**.
+
+## Le Châteliers prinsipp
+
+Når et system i likevekt blir **forstyrret**, forskyves likevekten slik at forstyrrelsen **motvirkes**.
+
+- **Økt konsentrasjon** av en reaktant: likevekten forskyves mot **produktene**.
+- **Økt trykk** (mindre volum) for gasser: likevekten forskyves mot siden med **færrest gassmolekyler**.
+- **Økt temperatur**: likevekten forskyves i den **endoterme** retningen. Temperaturendring er det eneste som endrer **verdien av K**.
+- En **katalysator** gjør at likevekten nås **raskere**, men endrer **ikke** likevekten.
+
+## Industrielt eksempel: ammoniakk
+
+I **Haber–Bosch-prosessen** lages ammoniakk: N₂ + 3H₂ ⇌ 2NH₃, som er **eksoterm**.
+
+- **Høyt trykk** gir mer ammoniakk fordi produktsiden har færre gassmolekyler.
+- **Lav temperatur** gir mer ammoniakk ved likevekt, men reaksjonen går **langsomt**. Derfor brukes en **kompromisstemperatur** og en **jernkatalysator**.
+- Ammoniakken **fjernes** fortløpende, slik at mer dannes.
+
+Ammoniakk brukes til **kunstgjødsel** og er avgjørende for verdens matproduksjon.', '{"label":"Likevekt","children":[{"label":"Dynamisk likevekt","children":[{"label":"Like fort begge veier"},{"label":"Konstante konsentrasjoner"}]},{"label":"Massevirkningsloven","children":[{"label":"K-uttrykk"},{"label":"Stor og liten K"},{"label":"Q og K"}]},{"label":"Beregninger","children":[{"label":"Start, endring, likevekt"},{"label":"HI-eksempelet"}]},{"label":"Le Chatelier","children":[{"label":"Konsentrasjon"},{"label":"Trykk"},{"label":"Temperatur"}]},{"label":"Industri","children":[{"label":"Haber–Bosch"},{"label":"Katalysator"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'kjemi-2:likevekt-og-massevirkningsloven';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('kjemi-2:likevekt-og-massevirkningsloven', 'Dynamisk likevekt', 'Reaksjonen framover og bakover går like fort.', 0),
+  ('kjemi-2:likevekt-og-massevirkningsloven', 'Massevirkningsloven', 'K = produktkonsentrasjoner delt på reaktantkonsentrasjoner, opphøyd i koeffisientene.', 1),
+  ('kjemi-2:likevekt-og-massevirkningsloven', 'Likevektskonstant K', 'Konstant ved en gitt temperatur.', 2),
+  ('kjemi-2:likevekt-og-massevirkningsloven', 'Stor K', 'Likevekten ligger mot produktene.', 3),
+  ('kjemi-2:likevekt-og-massevirkningsloven', 'Reaksjonskvotient Q', 'Som K, men med konsentrasjonene i et vilkårlig øyeblikk.', 4),
+  ('kjemi-2:likevekt-og-massevirkningsloven', 'Q < K', 'Reaksjonen går mot høyre.', 5),
+  ('kjemi-2:likevekt-og-massevirkningsloven', 'Q > K', 'Reaksjonen går mot venstre.', 6),
+  ('kjemi-2:likevekt-og-massevirkningsloven', 'Likevektstabell', 'Start, endring og likevekt for beregninger.', 7),
+  ('kjemi-2:likevekt-og-massevirkningsloven', 'Le Châteliers prinsipp', 'Likevekten forskyves slik at forstyrrelsen motvirkes.', 8),
+  ('kjemi-2:likevekt-og-massevirkningsloven', 'Trykkøkning', 'Forskyver likevekten mot siden med færrest gassmolekyler.', 9),
+  ('kjemi-2:likevekt-og-massevirkningsloven', 'Temperaturøkning', 'Forskyver likevekten i endoterm retning og endrer K.', 10),
+  ('kjemi-2:likevekt-og-massevirkningsloven', 'Katalysator og likevekt', 'Gir raskere likevekt, men endrer ikke likevekten.', 11),
+  ('kjemi-2:likevekt-og-massevirkningsloven', 'Haber–Bosch-prosessen', 'Industriell produksjon av ammoniakk.', 12),
+  ('kjemi-2:likevekt-og-massevirkningsloven', 'Kompromisstemperatur', 'Balanse mellom godt utbytte og rask reaksjon.', 13),
+  ('kjemi-2:likevekt-og-massevirkningsloven', 'Rene faste stoffer i K', 'Tas ikke med i uttrykket for likevektskonstanten.', 14);
+delete from public.quiz_sporsmal where tema_id = 'kjemi-2:likevekt-og-massevirkningsloven';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('kjemi-2:likevekt-og-massevirkningsloven', 'q01', 'flervalg', 'Hva kjennetegner dynamisk likevekt?', array['Reaksjonene har stoppet', 'Reaksjonen framover og bakover går like fort', 'Bare produkter finnes', 'Konsentrasjonene endrer seg hele tiden']::text[], 1, 'Konsentrasjonene er konstante.', true, true, 0),
+  ('kjemi-2:likevekt-og-massevirkningsloven', 'q02', 'flervalg', 'Hva betyr en svært stor K?', array['Likevekten ligger mot produktene', 'Likevekten ligger mot reaktantene', 'Reaksjonen går ikke', 'Reaksjonen er langsom']::text[], 0, 'Mye produkt ved likevekt.', true, true, 1),
+  ('kjemi-2:likevekt-og-massevirkningsloven', 'q03', 'flervalg', 'Q er mindre enn K. Hvilken vei går reaksjonen?', array['Mot venstre', 'Den står stille', 'Mot høyre', 'Den eksploderer']::text[], 2, 'Mot produktene til Q = K.', true, true, 2),
+  ('kjemi-2:likevekt-og-massevirkningsloven', 'q04', 'flervalg', 'Hva er det eneste som endrer verdien av K?', array['Trykk', 'Konsentrasjon', 'Katalysator', 'Temperatur']::text[], 3, 'Andre endringer forskyver likevekten uten å endre K.', true, true, 3),
+  ('kjemi-2:likevekt-og-massevirkningsloven', 'q05', 'flervalg', 'Hvordan påvirker en katalysator likevekten?', array['Den gir raskere likevekt, men endrer ikke likevekten', 'Den forskyver likevekten mot produktene', 'Den øker K', 'Den stopper reaksjonen']::text[], 0, 'Senker aktiveringsenergien begge veier.', true, true, 4),
+  ('kjemi-2:likevekt-og-massevirkningsloven', 'q06', 'flervalg', 'N₂ + 3H₂ ⇌ 2NH₃. Hva skjer ved økt trykk?', array['Likevekten forskyves mot venstre', 'Likevekten forskyves mot NH₃', 'Ingen endring', 'K øker']::text[], 1, 'Færre gassmolekyler på produktsiden.', true, true, 5),
+  ('kjemi-2:likevekt-og-massevirkningsloven', 'q07', 'flervalg', 'Hvilke stoffer tas ikke med i massevirkningsloven?', array['Gasser', 'Ioner i løsning', 'Rene faste stoffer og væsker', 'Produkter']::text[], 2, 'Konsentrasjonen deres er konstant.', true, true, 6),
+  ('kjemi-2:likevekt-og-massevirkningsloven', 'q08', 'flervalg', 'H₂ + I₂ ⇌ 2HI, K = 49, start 1,0 mol/L av H₂ og I₂. Hva er [HI] ved likevekt?', array['0,78 mol/L', '0,22 mol/L', '2,0 mol/L', 'Omtrent 1,56 mol/L']::text[], 3, '2x med x ≈ 0,78.', true, true, 7),
+  ('kjemi-2:likevekt-og-massevirkningsloven', 'q09', 'flervalg', 'Hvilken retning forskyves likevekten ved økt temperatur?', array['I den endoterme retningen', 'I den eksoterme retningen', 'Ingen retning', 'Alltid mot produktene']::text[], 0, 'Systemet tar opp den tilførte varmen.', true, false, 8),
+  ('kjemi-2:likevekt-og-massevirkningsloven', 'q10', 'flervalg', 'Hvorfor brukes en kompromisstemperatur i Haber–Bosch-prosessen?', array['Fordi høy temperatur gir mest ammoniakk', 'Fordi lav temperatur gir godt utbytte, men går for langsomt', 'Fordi temperaturen ikke betyr noe', 'Fordi katalysatoren smelter']::text[], 1, 'Balanse mellom utbytte og fart.', true, false, 9),
+  ('kjemi-2:likevekt-og-massevirkningsloven', 'm01', 'sant-usant', 'Ved likevekt har reaksjonene ikke stoppet.', array['Sant', 'Usant']::text[], 0, 'Likevekten er dynamisk.', false, true, 10),
+  ('kjemi-2:likevekt-og-massevirkningsloven', 'm02', 'sant-usant', 'Økt konsentrasjon av en reaktant endrer verdien av K.', array['Sant', 'Usant']::text[], 1, 'Den forskyver likevekten, men K er uendret.', false, true, 11),
+  ('kjemi-2:likevekt-og-massevirkningsloven', 'm03', 'sant-usant', 'Å fjerne produkt fortløpende gir mer produkt.', array['Sant', 'Usant']::text[], 0, 'Le Châteliers prinsipp.', false, true, 12),
+  ('kjemi-2:likevekt-og-massevirkningsloven', 'm04', 'sant-usant', 'En liten K betyr at likevekten ligger mot produktene.', array['Sant', 'Usant']::text[], 1, 'Den ligger mot reaktantene.', false, true, 13),
+  ('kjemi-2:likevekt-og-massevirkningsloven', 'm05', 'flervalg', 'Hva brukes ammoniakk mest til?', array['Drivstoff', 'Kunstgjødsel', 'Plast', 'Medisin']::text[], 1, 'Avgjørende for matproduksjonen.', false, true, 14),
+  ('kjemi-2:likevekt-og-massevirkningsloven', 'm06', 'flervalg', 'Hva er de tre radene i en likevektstabell?', array['Start, endring og likevekt', 'Før, under og etter', 'Masse, volum og tetthet', 'Reaktant, produkt og katalysator']::text[], 0, 'Brukes til å finne likevektskonsentrasjoner.', false, true, 15),
+  ('kjemi-2:likevekt-og-massevirkningsloven', 'm07', 'flervalg', 'En reaksjon er eksoterm. Hva skjer med K når temperaturen øker?', array['K øker', 'K er uendret', 'K minker', 'K blir null']::text[], 2, 'Likevekten forskyves mot reaktantene.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('kjemi-2:likevekt-og-massevirkningsloven', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Kjemi 2: Entropi, entalpi og spontanitet
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('kjemi-2:entropi-entalpi-og-spontanitet', 'kjemi-2', 'entropi-entalpi-og-spontanitet', 'Entropi, entalpi og spontanitet', 'Hva entropi er, hvordan entalpi og entropi sammen avgjør om en reaksjon er spontan gjennom Gibbs fri energi, de fire kombinasjonene av ΔH og ΔS, temperaturens betydning og sammenhengen mellom ΔG og likevektskonstanten.', array[6]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('kjemi-2:entropi-entalpi-og-spontanitet', '## Spontane prosesser
+
+En **spontan** prosess skjer av seg selv uten at vi tilfører energi utenfra, for eksempel at is **smelter** i romtemperatur eller at jern **ruster**. Spontan betyr ikke nødvendigvis **rask** – rusting går sakte.
+
+## Entalpi
+
+**Entalpiendringen** ΔH viser hvor mye **varme** som frigjøres eller tas opp ved konstant trykk.
+
+- **Eksoterm** reaksjon: ΔH < 0 – varme avgis.
+- **Endoterm** reaksjon: ΔH > 0 – varme tas opp.
+
+Mange spontane reaksjoner er eksoterme, men **ikke alle**. Når **ammoniumnitrat** løses i vann, blir løsningen **kald** – prosessen er endoterm, men likevel spontan. Forklaringen er **entropi**.
+
+## Entropi
+
+**Entropi** S er et mål på hvor mange **mulige måter** partiklene og energien kan fordeles på – ofte forklart som grad av **spredning** eller **uorden**.
+
+Entropien **øker** når
+
+- faste stoffer **smelter** eller væsker **fordamper**: S(g) > S(l) > S(s)
+- et stoff **løses** opp
+- antall **gassmolekyler** øker i en reaksjon
+- **temperaturen** øker
+
+**Termodynamikkens andre lov** sier at den totale entropien i universet **øker** i spontane prosesser.
+
+## Gibbs fri energi
+
+For å vurdere spontanitet i et system bruker vi **Gibbs fri energi**:
+
+**ΔG = ΔH − TΔS**
+
+der T er temperaturen i **kelvin**.
+
+- ΔG < 0: reaksjonen er **spontan**.
+- ΔG > 0: reaksjonen er **ikke spontan**, men den motsatte reaksjonen er spontan.
+- ΔG = 0: systemet er i **likevekt**.
+
+## Fire kombinasjoner
+
+| ΔH | ΔS | Spontan? |
+|---|---|---|
+| − | + | alltid |
+| + | − | aldri |
+| − | − | ved **lav** temperatur |
+| + | + | ved **høy** temperatur |
+
+## Regneeksempel
+
+For N₂ + 3H₂ → 2NH₃ er ΔH° = −92 kJ og ΔS° = −0,199 kJ/K.
+
+Ved 298 K: ΔG° = −92 − 298 · (−0,199) ≈ −92 + 59 = **−33 kJ** – reaksjonen er spontan.
+
+Reaksjonen blir **ikke-spontan** når TΔS blir større enn ΔH. Grensen er T = ΔH/ΔS = 92/0,199 ≈ **460 K**. Over denne temperaturen ligger likevekten mot reaktantene.
+
+## ΔG og likevekt
+
+Standard fri energi henger sammen med likevektskonstanten:
+
+**ΔG° = −RT ln K**
+
+der R = 8,314 J/(mol·K).
+
+- ΔG° < 0 gir K > 1 – likevekten ligger mot **produktene**.
+- ΔG° > 0 gir K < 1 – likevekten ligger mot **reaktantene**.
+
+Fordi ΔG° avhenger av temperaturen, endres også **K** når temperaturen endres. Det forklarer hvorfor **temperatur** forskyver likevekter.
+
+## Spontanitet og fart
+
+Termodynamikk forteller **om** en reaksjon kan skje, ikke **hvor fort**. En spontan reaksjon kan ha så høy **aktiveringsenergi** at den nesten ikke skjer – som når **diamant** blir til **grafitt**. Farten styres av **kinetikk** og kan økes med en **katalysator**.', '{"label":"Entropi og spontanitet","children":[{"label":"Entalpi","children":[{"label":"Eksoterm"},{"label":"Endoterm"}]},{"label":"Entropi","children":[{"label":"Spredning"},{"label":"Gass > væske > fast"},{"label":"Andre lov"}]},{"label":"Gibbs","children":[{"label":"ΔG = ΔH − TΔS"},{"label":"Fire kombinasjoner"}]},{"label":"Likevekt","children":[{"label":"ΔG° = −RT ln K"},{"label":"Temperatur og K"}]},{"label":"Fart","children":[{"label":"Kinetikk"},{"label":"Aktiveringsenergi"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'kjemi-2:entropi-entalpi-og-spontanitet';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('kjemi-2:entropi-entalpi-og-spontanitet', 'Spontan prosess', 'Prosess som skjer av seg selv uten tilført energi.', 0),
+  ('kjemi-2:entropi-entalpi-og-spontanitet', 'Entalpiendring ΔH', 'Varme som frigjøres eller tas opp ved konstant trykk.', 1),
+  ('kjemi-2:entropi-entalpi-og-spontanitet', 'Eksoterm', 'ΔH < 0 – varme avgis.', 2),
+  ('kjemi-2:entropi-entalpi-og-spontanitet', 'Endoterm', 'ΔH > 0 – varme tas opp.', 3),
+  ('kjemi-2:entropi-entalpi-og-spontanitet', 'Entropi S', 'Mål på hvor mange måter partikler og energi kan fordeles på.', 4),
+  ('kjemi-2:entropi-entalpi-og-spontanitet', 'Entropiøkning', 'Ved smelting, fordamping, oppløsning og flere gassmolekyler.', 5),
+  ('kjemi-2:entropi-entalpi-og-spontanitet', 'Termodynamikkens andre lov', 'Universets totale entropi øker i spontane prosesser.', 6),
+  ('kjemi-2:entropi-entalpi-og-spontanitet', 'Gibbs fri energi', 'ΔG = ΔH − TΔS.', 7),
+  ('kjemi-2:entropi-entalpi-og-spontanitet', 'ΔG < 0', 'Reaksjonen er spontan.', 8),
+  ('kjemi-2:entropi-entalpi-og-spontanitet', 'ΔG = 0', 'Systemet er i likevekt.', 9),
+  ('kjemi-2:entropi-entalpi-og-spontanitet', 'ΔH < 0 og ΔS > 0', 'Alltid spontan.', 10),
+  ('kjemi-2:entropi-entalpi-og-spontanitet', 'ΔH > 0 og ΔS > 0', 'Spontan ved høy temperatur.', 11),
+  ('kjemi-2:entropi-entalpi-og-spontanitet', 'ΔG° = −RT ln K', 'Sammenhengen mellom fri energi og likevektskonstanten.', 12),
+  ('kjemi-2:entropi-entalpi-og-spontanitet', 'Kinetikk', 'Læren om hvor fort reaksjoner går.', 13),
+  ('kjemi-2:entropi-entalpi-og-spontanitet', 'Temperatur i kelvin', 'Må brukes i ΔG = ΔH − TΔS.', 14);
+delete from public.quiz_sporsmal where tema_id = 'kjemi-2:entropi-entalpi-og-spontanitet';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('kjemi-2:entropi-entalpi-og-spontanitet', 'q01', 'flervalg', 'Hvorfor er oppløsning av ammoniumnitrat i vann spontan selv om den er endoterm?', array['Fordi ΔH er negativ', 'Fordi entropien øker mye', 'Fordi det er en katalysator', 'Den er ikke spontan']::text[], 1, 'TΔS er større enn ΔH.', true, true, 0),
+  ('kjemi-2:entropi-entalpi-og-spontanitet', 'q02', 'flervalg', 'Hvilken formel gir Gibbs fri energi?', array['ΔG = ΔH − TΔS', 'ΔG = ΔH + TΔS', 'ΔG = −zF', 'ΔG = m · c · ΔT']::text[], 0, 'T i kelvin.', true, true, 1),
+  ('kjemi-2:entropi-entalpi-og-spontanitet', 'q03', 'flervalg', 'Hvilken tilstand har høyest entropi?', array['Fast stoff', 'Væske', 'Gass', 'Alle er like']::text[], 2, 'S(g) > S(l) > S(s).', true, true, 2),
+  ('kjemi-2:entropi-entalpi-og-spontanitet', 'q04', 'flervalg', 'ΔH > 0 og ΔS < 0. Når er reaksjonen spontan?', array['Alltid', 'Ved lav temperatur', 'Ved høy temperatur', 'Aldri']::text[], 3, 'ΔG er alltid positiv.', true, true, 3),
+  ('kjemi-2:entropi-entalpi-og-spontanitet', 'q05', 'flervalg', 'Hva betyr ΔG = 0?', array['Systemet er i likevekt', 'Reaksjonen er spontan', 'Reaksjonen går bare bakover', 'Det er ingen reaksjon']::text[], 0, 'Ingen netto drivkraft.', true, true, 4),
+  ('kjemi-2:entropi-entalpi-og-spontanitet', 'q06', 'flervalg', 'ΔH° = −92 kJ og ΔS° = −0,199 kJ/K. Hva er ΔG° ved 298 K?', array['−151 kJ', 'Omtrent −33 kJ', '+33 kJ', '−92 kJ']::text[], 1, '−92 − 298 · (−0,199) ≈ −33 kJ.', true, true, 5),
+  ('kjemi-2:entropi-entalpi-og-spontanitet', 'q07', 'flervalg', 'Hva betyr ΔG° < 0 for likevektskonstanten?', array['K < 1', 'K = 0', 'K > 1', 'K = 1']::text[], 2, 'ΔG° = −RT ln K.', true, true, 6),
+  ('kjemi-2:entropi-entalpi-og-spontanitet', 'q08', 'flervalg', 'Hva forteller termodynamikken ikke?', array['Om en reaksjon kan skje', 'Hvor mye varme som avgis', 'Hvordan entropien endres', 'Hvor fort reaksjonen går']::text[], 3, 'Farten er kinetikk.', true, true, 7),
+  ('kjemi-2:entropi-entalpi-og-spontanitet', 'q09', 'flervalg', 'Hva sier termodynamikkens andre lov?', array['Universets totale entropi øker i spontane prosesser', 'Energi kan skapes', 'Entropien synker alltid', 'Alle reaksjoner er eksoterme']::text[], 0, 'Grunnlaget for spontanitet.', true, false, 8),
+  ('kjemi-2:entropi-entalpi-og-spontanitet', 'q10', 'flervalg', 'ΔH < 0 og ΔS < 0. Når er reaksjonen spontan?', array['Ved høy temperatur', 'Ved lav temperatur', 'Alltid', 'Aldri']::text[], 1, 'Da er ΔH større enn TΔS.', true, false, 9),
+  ('kjemi-2:entropi-entalpi-og-spontanitet', 'm01', 'sant-usant', 'En spontan reaksjon kan likevel gå svært langsomt.', array['Sant', 'Usant']::text[], 0, 'For eksempel diamant til grafitt.', false, true, 10),
+  ('kjemi-2:entropi-entalpi-og-spontanitet', 'm02', 'sant-usant', 'Alle spontane reaksjoner er eksoterme.', array['Sant', 'Usant']::text[], 1, 'Endoterme reaksjoner kan være spontane hvis entropien øker nok.', false, true, 11),
+  ('kjemi-2:entropi-entalpi-og-spontanitet', 'm03', 'sant-usant', 'Entropien øker når antall gassmolekyler øker i en reaksjon.', array['Sant', 'Usant']::text[], 0, 'Flere måter å fordele partiklene på.', false, true, 12),
+  ('kjemi-2:entropi-entalpi-og-spontanitet', 'm04', 'sant-usant', 'Temperaturen i ΔG = ΔH − TΔS skal oppgis i grader celsius.', array['Sant', 'Usant']::text[], 1, 'Den skal være i kelvin.', false, true, 13),
+  ('kjemi-2:entropi-entalpi-og-spontanitet', 'm05', 'flervalg', 'Ved hvilken temperatur blir ammoniakksyntesen ikke-spontan (ΔH = −92 kJ, ΔS = −0,199 kJ/K)?', array['Over ca. 100 K', 'Over ca. 460 K', 'Under ca. 460 K', 'Aldri']::text[], 1, 'T = ΔH/ΔS ≈ 460 K.', false, true, 14),
+  ('kjemi-2:entropi-entalpi-og-spontanitet', 'm06', 'flervalg', 'Hva skjer med entropien når is smelter?', array['Den øker', 'Den minker', 'Den er uendret', 'Den blir null']::text[], 0, 'Væske har høyere entropi enn fast stoff.', false, true, 15),
+  ('kjemi-2:entropi-entalpi-og-spontanitet', 'm07', 'flervalg', 'Hva er R i ΔG° = −RT ln K?', array['Faradays konstant', 'Reaksjonsfarten', 'Gasskonstanten, 8,314 J/(mol·K)', 'Radien']::text[], 2, 'Den universelle gasskonstanten.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('kjemi-2:entropi-entalpi-og-spontanitet', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Kjemi 2: Syrer, baser og pH-beregninger
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('kjemi-2:ph-beregninger', 'kjemi-2', 'ph-beregninger', 'Syrer, baser og pH-beregninger', 'Syre-base-likevekter og pH-beregninger i vannløsninger: vannets ionprodukt, pH og pOH, sterke og svake syrer og baser, syrekonstanten Ka og basekonstanten Kb, og hvordan du regner ut pH i løsninger av svake syrer og baser.', array[7]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('kjemi-2:ph-beregninger', '## Syrer og baser
+
+Etter **Brønsted–Lowry**-definisjonen er en **syre** en **protongiver** og en **base** en **protonmottaker**. Når en syre gir fra seg et proton, blir den til sin **korresponderende base**.
+
+## Vannets ionprodukt
+
+Vann reagerer litt med seg selv:
+
+2H₂O ⇌ H₃O⁺ + OH⁻
+
+Ved 25 °C er **Kw = [H₃O⁺] · [OH⁻] = 1,0 · 10⁻¹⁴**. I rent vann er [H₃O⁺] = [OH⁻] = 1,0 · 10⁻⁷ mol/L.
+
+## pH og pOH
+
+- **pH = −log[H₃O⁺]**
+- **pOH = −log[OH⁻]**
+- **pH + pOH = 14** ved 25 °C
+
+Omvendt er [H₃O⁺] = 10⁻ᵖᴴ. En endring på **én** pH-enhet tilsvarer en **tidobling** av [H₃O⁺].
+
+## Sterke syrer og baser
+
+**Sterke** syrer, som **HCl**, protolyseres **fullstendig** i vann. Da er [H₃O⁺] lik syrekonsentrasjonen.
+
+- 0,010 mol/L HCl gir [H₃O⁺] = 0,010 og pH = **2,0**.
+- 0,010 mol/L NaOH gir [OH⁻] = 0,010, pOH = 2,0 og pH = **12,0**.
+
+## Svake syrer
+
+**Svake** syrer, som **eddiksyre**, protolyseres bare **delvis**:
+
+HA + H₂O ⇌ A⁻ + H₃O⁺
+
+**Syrekonstanten** er **Ka = [A⁻] · [H₃O⁺] / [HA]**. Jo større Ka – eller jo mindre **pKa = −log Ka** – desto **sterkere** syre.
+
+For en svak syre med konsentrasjon c kan vi ofte bruke tilnærmingen
+
+**[H₃O⁺] ≈ √(Ka · c)**
+
+**Eksempel**: 0,10 mol/L eddiksyre med Ka = 1,8 · 10⁻⁵: [H₃O⁺] = √(1,8 · 10⁻⁶) ≈ 1,3 · 10⁻³ mol/L, og pH ≈ **2,87**. Til sammenligning har 0,10 mol/L HCl pH = 1,0.
+
+Tilnærmingen virker når syren er svak og bare en liten del protolyseres.
+
+## Svake baser
+
+For svake baser, som **ammoniakk**, brukes **basekonstanten Kb**. På samme måte er [OH⁻] ≈ √(Kb · c).
+
+For et **syre-base-par** gjelder **Ka · Kb = Kw**. Jo sterkere syren er, desto **svakere** er den korresponderende basen.
+
+## Salter
+
+Løsninger av **salter** kan være sure eller basiske. **Natriumacetat** gir en svakt **basisk** løsning fordi acetationet er en svak base. **Ammoniumklorid** gir en svakt **sur** løsning fordi ammoniumionet er en svak syre.
+
+## Titrering
+
+Ved **titrering** tilsettes en løsning med kjent konsentrasjon til en syre eller base til **ekvivalenspunktet**, der stoffmengdene er **ekvivalente**. En **titrerkurve** viser hvordan pH endrer seg. For en **svak syre** er pH = pKa ved **halvtitrerpunktet**. **Indikatorer** skifter farge i ulike pH-områder og velges ut fra hvor ekvivalenspunktet ligger.', '{"label":"pH-beregninger","children":[{"label":"Grunnbegreper","children":[{"label":"Protongiver og -mottaker"},{"label":"Kw = 1,0 · 10⁻¹⁴"}]},{"label":"pH og pOH","children":[{"label":"−log[H₃O⁺]"},{"label":"pH + pOH = 14"}]},{"label":"Sterke","children":[{"label":"Fullstendig protolyse"},{"label":"HCl og NaOH"}]},{"label":"Svake","children":[{"label":"Ka og pKa"},{"label":"√(Ka · c)"},{"label":"Kb og Ka · Kb = Kw"}]},{"label":"Titrering","children":[{"label":"Ekvivalenspunkt"},{"label":"Halvtitrerpunkt"},{"label":"Indikatorer"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'kjemi-2:ph-beregninger';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('kjemi-2:ph-beregninger', 'Brønsted-syre', 'Protongiver.', 0),
+  ('kjemi-2:ph-beregninger', 'Brønsted-base', 'Protonmottaker.', 1),
+  ('kjemi-2:ph-beregninger', 'Korresponderende base', 'Det syren blir til etter å ha avgitt et proton.', 2),
+  ('kjemi-2:ph-beregninger', 'Kw', 'Vannets ionprodukt: 1,0 · 10⁻¹⁴ ved 25 °C.', 3),
+  ('kjemi-2:ph-beregninger', 'pH', '−log[H₃O⁺].', 4),
+  ('kjemi-2:ph-beregninger', 'pH + pOH', 'Lik 14 ved 25 °C.', 5),
+  ('kjemi-2:ph-beregninger', 'Sterk syre', 'Protolyseres fullstendig i vann, for eksempel HCl.', 6),
+  ('kjemi-2:ph-beregninger', 'Svak syre', 'Protolyseres bare delvis, for eksempel eddiksyre.', 7),
+  ('kjemi-2:ph-beregninger', 'Ka', 'Syrekonstanten – større Ka gir sterkere syre.', 8),
+  ('kjemi-2:ph-beregninger', 'pKa', '−log Ka – mindre pKa gir sterkere syre.', 9),
+  ('kjemi-2:ph-beregninger', '[H₃O⁺] ≈ √(Ka · c)', 'Tilnærming for pH i en svak syre.', 10),
+  ('kjemi-2:ph-beregninger', 'Kb', 'Basekonstanten for en svak base.', 11),
+  ('kjemi-2:ph-beregninger', 'Ka · Kb = Kw', 'Gjelder for et korresponderende syre-base-par.', 12),
+  ('kjemi-2:ph-beregninger', 'Ekvivalenspunkt', 'Punktet i en titrering der stoffmengdene er ekvivalente.', 13),
+  ('kjemi-2:ph-beregninger', 'Halvtitrerpunkt', 'Her er pH = pKa for en svak syre.', 14),
+  ('kjemi-2:ph-beregninger', 'Indikator', 'Stoff som skifter farge i et bestemt pH-område.', 15);
+delete from public.quiz_sporsmal where tema_id = 'kjemi-2:ph-beregninger';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('kjemi-2:ph-beregninger', 'q01', 'flervalg', 'Hva er pH i 0,010 mol/L HCl?', array['1,0', '2,0', '12,0', '0,01']::text[], 1, '−log 0,010 = 2,0.', true, true, 0),
+  ('kjemi-2:ph-beregninger', 'q02', 'flervalg', 'Hva er Kw ved 25 °C?', array['1,0 · 10⁻¹⁴', '1,0 · 10⁻⁷', '14', '7']::text[], 0, 'Vannets ionprodukt.', true, true, 1),
+  ('kjemi-2:ph-beregninger', 'q03', 'flervalg', 'Hva er pH i 0,010 mol/L NaOH?', array['2,0', '7,0', '12,0', '14,0']::text[], 2, 'pOH = 2,0, pH = 14 − 2 = 12.', true, true, 2),
+  ('kjemi-2:ph-beregninger', 'q04', 'flervalg', 'Hva betyr en liten pKa?', array['Svak syre', 'Sterk base', 'Nøytral løsning', 'Sterk syre']::text[], 3, 'Stor Ka gir liten pKa.', true, true, 3),
+  ('kjemi-2:ph-beregninger', 'q05', 'flervalg', '0,10 mol/L eddiksyre har Ka = 1,8 · 10⁻⁵. Hva er pH omtrent?', array['2,87', '1,00', '4,74', '5,74']::text[], 0, '[H₃O⁺] ≈ √(1,8 · 10⁻⁶) ≈ 1,3 · 10⁻³.', true, true, 4),
+  ('kjemi-2:ph-beregninger', 'q06', 'flervalg', 'Hvor mye endres [H₃O⁺] når pH synker med én enhet?', array['Halveres', 'Tidobles', 'Dobles', 'Uendret']::text[], 1, 'pH-skalaen er logaritmisk.', true, true, 5),
+  ('kjemi-2:ph-beregninger', 'q07', 'flervalg', 'Hvilken sammenheng gjelder for et korresponderende syre-base-par?', array['Ka + Kb = 14', 'Ka = Kb', 'Ka · Kb = Kw', 'Ka / Kb = 1']::text[], 2, 'Sterk syre gir svak korresponderende base.', true, true, 6),
+  ('kjemi-2:ph-beregninger', 'q08', 'flervalg', 'Hva er pH ved halvtitrerpunktet for en svak syre?', array['7', '14', '0', 'Lik pKa']::text[], 3, 'Da er [HA] = [A⁻].', true, true, 7),
+  ('kjemi-2:ph-beregninger', 'q09', 'flervalg', 'Hvorfor gir natriumacetat en svakt basisk løsning?', array['Fordi acetationet er en svak base', 'Fordi natrium er en syre', 'Fordi det er et sterkt salt', 'Det gir en sur løsning']::text[], 0, 'Acetationet tar opp protoner fra vann.', true, false, 8),
+  ('kjemi-2:ph-beregninger', 'q10', 'flervalg', 'Hva er en sterk syre?', array['En syre som protolyseres delvis', 'En syre som protolyseres fullstendig i vann', 'En syre med stor pKa', 'En konsentrert svak syre']::text[], 1, 'For eksempel HCl.', true, false, 9),
+  ('kjemi-2:ph-beregninger', 'm01', 'sant-usant', 'I rent vann ved 25 °C er [H₃O⁺] = 1,0 · 10⁻⁷ mol/L.', array['Sant', 'Usant']::text[], 0, 'Derfor er pH = 7.', false, true, 10),
+  ('kjemi-2:ph-beregninger', 'm02', 'sant-usant', '0,10 mol/L eddiksyre har samme pH som 0,10 mol/L HCl.', array['Sant', 'Usant']::text[], 1, 'Eddiksyre er svak og har høyere pH.', false, true, 11),
+  ('kjemi-2:ph-beregninger', 'm03', 'sant-usant', 'Ammoniumklorid gir en svakt sur løsning.', array['Sant', 'Usant']::text[], 0, 'Ammoniumionet er en svak syre.', false, true, 12),
+  ('kjemi-2:ph-beregninger', 'm04', 'sant-usant', 'Jo sterkere en syre er, desto sterkere er den korresponderende basen.', array['Sant', 'Usant']::text[], 1, 'Den korresponderende basen blir svakere.', false, true, 13),
+  ('kjemi-2:ph-beregninger', 'm05', 'flervalg', 'Hva er [H₃O⁺] når pH = 3?', array['3 mol/L', '1,0 · 10⁻³ mol/L', '1,0 · 10³ mol/L', '0,3 mol/L']::text[], 1, '[H₃O⁺] = 10⁻ᵖᴴ.', false, true, 14),
+  ('kjemi-2:ph-beregninger', 'm06', 'flervalg', 'Hvordan velges en indikator til en titrering?', array['Ut fra hvor ekvivalenspunktet ligger', 'Ut fra fargen man liker', 'Ut fra prisen', 'Den spiller ingen rolle']::text[], 0, 'Omslagsområdet må passe.', false, true, 15),
+  ('kjemi-2:ph-beregninger', 'm07', 'flervalg', 'Hvilken base er svak?', array['NaOH', 'KOH', 'Ammoniakk', 'Ca(OH)₂']::text[], 2, 'Tar bare delvis opp protoner.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('kjemi-2:ph-beregninger', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Kjemi 2: Buffere
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('kjemi-2:buffere', 'kjemi-2', 'buffere', 'Buffere', 'Hva en buffer er og hvordan den motvirker pH-endringer, beregning av pH i buffere med bufferligningen, bufferkapasitet og bufferområde – og betydningen av buffere i blodet, havet og industrielle prosesser.', array[7]::int[], 5, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('kjemi-2:buffere', '## Hva er en buffer?
+
+En **buffer** er en løsning som **motvirker** endringer i pH når det tilsettes små mengder **syre** eller **base**. En buffer består av en **svak syre** og dens **korresponderende base** i omtrent like store mengder, for eksempel **eddiksyre** og **acetat**.
+
+## Hvordan virker en buffer?
+
+- Tilsettes **syre** (H₃O⁺), reagerer den med den **basiske** komponenten: A⁻ + H₃O⁺ → HA + H₂O
+- Tilsettes **base** (OH⁻), reagerer den med den **sure** komponenten: HA + OH⁻ → A⁻ + H₂O
+
+Dermed blir den tilsatte syren eller basen **nøytralisert**, og pH endrer seg bare **litt**.
+
+## Bufferligningen
+
+pH i en buffer kan beregnes med **bufferligningen** (Henderson–Hasselbalch):
+
+**pH = pKa + log([A⁻] / [HA])**
+
+- Når [A⁻] = [HA], er **pH = pKa**.
+- Er det **mer base** enn syre, er pH **høyere** enn pKa.
+- Er det **mer syre**, er pH **lavere** enn pKa.
+
+**Eksempel**: En acetatbuffer har pKa = 4,74. Med like konsentrasjoner av eddiksyre og acetat er pH = **4,74**. Hvis [A⁻] / [HA] = 2, blir pH = 4,74 + log 2 ≈ 4,74 + 0,30 = **5,04**.
+
+## Bufferkapasitet og bufferområde
+
+- **Bufferkapasiteten** er hvor mye syre eller base bufferen kan ta imot før pH endrer seg mye. Den er **størst** når [A⁻] = [HA] og når **konsentrasjonene** er høye.
+- En buffer virker best i **bufferområdet**, omtrent **pKa ± 1**.
+
+For å lage en buffer med ønsket pH velger vi en svak syre med **pKa nær** ønsket pH.
+
+## Buffere i kroppen
+
+**Blodets** pH holdes mellom omtrent **7,35** og **7,45**. Det viktigste buffersystemet er **karbonsyre** og **hydrogenkarbonat**:
+
+H₂CO₃ ⇌ HCO₃⁻ + H⁺
+
+Karbonsyre står i likevekt med **CO₂**, som lungene skiller ut. Når vi **puster** raskere, fjernes mer CO₂, og pH **stiger**. **Nyrene** regulerer mengden hydrogenkarbonat. Små avvik i blodets pH kan være **livstruende**. Også **fosfat** og **proteiner** fungerer som buffere i cellene.
+
+## Buffere i naturen
+
+Havet har et **karbonatsystem** som buffer. Når havet tar opp mye **CO₂** fra atmosfæren, dannes mer karbonsyre, og pH **synker** – **havforsuring**. Det gjør det vanskeligere for **koraller**, **skjell** og **plankton** å bygge **kalkskall**.
+
+**Kalkrik** berggrunn kan buffre innsjøer mot **sur nedbør**. I områder med lite kalk ble innsjøer forsuret, og man har **kalket** vassdrag for å heve pH.
+
+## Buffere i industri og laboratorium
+
+- **Næringsmiddelindustrien** bruker buffere for å kontrollere smak og holdbarhet.
+- **Legemidler**, **kosmetikk** og **øyedråper** buffres slik at pH passer kroppen.
+- **Enzymer** i bioteknologi og fermentering krever stabil pH.
+- I laboratoriet brukes **bufferløsninger** til å **kalibrere** pH-metre.', '{"label":"Buffere","children":[{"label":"Virkemåte","children":[{"label":"Svak syre og base"},{"label":"Nøytraliserer tilsatt syre og base"}]},{"label":"Beregning","children":[{"label":"pH = pKa + log([A⁻]/[HA])"},{"label":"pH = pKa ved like mengder"}]},{"label":"Kapasitet","children":[{"label":"Høye konsentrasjoner"},{"label":"Bufferområde pKa ± 1"}]},{"label":"Kroppen","children":[{"label":"Blodets pH 7,35–7,45"},{"label":"Lunger og nyrer"}]},{"label":"Natur og industri","children":[{"label":"Havforsuring"},{"label":"Kalking"},{"label":"Legemidler og mat"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'kjemi-2:buffere';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('kjemi-2:buffere', 'Buffer', 'Løsning som motvirker pH-endringer.', 0),
+  ('kjemi-2:buffere', 'Bufferkomponenter', 'En svak syre og dens korresponderende base.', 1),
+  ('kjemi-2:buffere', 'Acetatbuffer', 'Eddiksyre og acetat – pKa 4,74.', 2),
+  ('kjemi-2:buffere', 'Bufferligningen', 'pH = pKa + log([A⁻]/[HA]).', 3),
+  ('kjemi-2:buffere', '[A⁻] = [HA]', 'Da er pH = pKa.', 4),
+  ('kjemi-2:buffere', 'Bufferkapasitet', 'Hvor mye syre eller base bufferen kan ta imot.', 5),
+  ('kjemi-2:buffere', 'Bufferområde', 'Omtrent pKa ± 1.', 6),
+  ('kjemi-2:buffere', 'Blodets pH', 'Omtrent 7,35–7,45.', 7),
+  ('kjemi-2:buffere', 'Karbonsyre–hydrogenkarbonat', 'Blodets viktigste buffersystem.', 8),
+  ('kjemi-2:buffere', 'Lungenes rolle', 'Skiller ut CO₂ og påvirker blodets pH.', 9),
+  ('kjemi-2:buffere', 'Nyrenes rolle', 'Regulerer mengden hydrogenkarbonat.', 10),
+  ('kjemi-2:buffere', 'Havforsuring', 'Havets pH synker når det tar opp mye CO₂.', 11),
+  ('kjemi-2:buffere', 'Kalking', 'Tilsetting av kalk for å heve pH i forsurede vassdrag.', 12),
+  ('kjemi-2:buffere', 'Kalibrering', 'Justering av pH-meter med bufferløsninger.', 13),
+  ('kjemi-2:buffere', 'Fosfatbuffer', 'Buffersystem i cellene.', 14);
+delete from public.quiz_sporsmal where tema_id = 'kjemi-2:buffere';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('kjemi-2:buffere', 'q01', 'flervalg', 'Hva består en buffer av?', array['En sterk syre og en sterk base', 'En svak syre og dens korresponderende base', 'Bare vann', 'Et salt og vann']::text[], 1, 'I omtrent like store mengder.', true, true, 0),
+  ('kjemi-2:buffere', 'q02', 'flervalg', 'Hva er pH i en acetatbuffer med like konsentrasjoner av syre og base (pKa = 4,74)?', array['4,74', '7,00', '5,04', '2,87']::text[], 0, 'pH = pKa når [A⁻] = [HA].', true, true, 1),
+  ('kjemi-2:buffere', 'q03', 'flervalg', '[A⁻]/[HA] = 2 og pKa = 4,74. Hva er pH?', array['4,44', '4,74', 'Omtrent 5,04', '6,74']::text[], 2, '4,74 + log 2 ≈ 5,04.', true, true, 2),
+  ('kjemi-2:buffere', 'q04', 'flervalg', 'Når er bufferkapasiteten størst?', array['Når konsentrasjonene er lave', 'Når bare syren finnes', 'Når bare basen finnes', 'Når [A⁻] = [HA] og konsentrasjonene er høye']::text[], 3, 'Da kan bufferen ta imot mye av begge.', true, true, 3),
+  ('kjemi-2:buffere', 'q05', 'flervalg', 'Hva er blodets viktigste buffersystem?', array['Karbonsyre og hydrogenkarbonat', 'Eddiksyre og acetat', 'Saltsyre og klorid', 'Ammoniakk og ammonium']::text[], 0, 'Står i likevekt med CO₂.', true, true, 4),
+  ('kjemi-2:buffere', 'q06', 'flervalg', 'Hva skjer med blodets pH når vi puster raskere?', array['Den synker', 'Den stiger', 'Den er uendret', 'Den blir 7,0']::text[], 1, 'Mer CO₂ fjernes.', true, true, 5),
+  ('kjemi-2:buffere', 'q07', 'flervalg', 'Hva er havforsuring?', array['At havet blir saltere', 'At havet blir varmere', 'At havets pH synker når det tar opp mye CO₂', 'At havet blir basisk']::text[], 2, 'Rammer kalkskall hos koraller og skjell.', true, true, 6),
+  ('kjemi-2:buffere', 'q08', 'flervalg', 'Hvordan velger du syre når du skal lage en buffer med en bestemt pH?', array['Med størst mulig Ka', 'Med minst mulig Ka', 'Tilfeldig', 'Med pKa nær ønsket pH']::text[], 3, 'Bufferområdet er pKa ± 1.', true, true, 7),
+  ('kjemi-2:buffere', 'q09', 'flervalg', 'Hva skjer når en base tilsettes en buffer?', array['Den reagerer med den sure komponenten', 'Den reagerer med den basiske komponenten', 'pH øker kraftig', 'Ingenting']::text[], 0, 'HA + OH⁻ → A⁻ + H₂O.', true, false, 8),
+  ('kjemi-2:buffere', 'q10', 'flervalg', 'Hvorfor kalkes forsurede vassdrag?', array['For å senke pH', 'For å heve pH', 'For å gjøre vannet salt', 'For å fjerne fisk']::text[], 1, 'Kalk nøytraliserer syre.', true, false, 9),
+  ('kjemi-2:buffere', 'm01', 'sant-usant', 'Små avvik i blodets pH kan være livstruende.', array['Sant', 'Usant']::text[], 0, 'Derfor er buffersystemene viktige.', false, true, 10),
+  ('kjemi-2:buffere', 'm02', 'sant-usant', 'En buffer holder pH helt konstant uansett hvor mye syre som tilsettes.', array['Sant', 'Usant']::text[], 1, 'Bufferkapasiteten er begrenset.', false, true, 11),
+  ('kjemi-2:buffere', 'm03', 'sant-usant', 'Kalkrik berggrunn kan buffre innsjøer mot sur nedbør.', array['Sant', 'Usant']::text[], 0, 'Karbonat nøytraliserer syre.', false, true, 12),
+  ('kjemi-2:buffere', 'm04', 'sant-usant', 'Er det mer base enn syre i bufferen, er pH lavere enn pKa.', array['Sant', 'Usant']::text[], 1, 'pH er høyere enn pKa.', false, true, 13),
+  ('kjemi-2:buffere', 'm05', 'flervalg', 'Hvilket organ regulerer mengden hydrogenkarbonat i blodet?', array['Lungene', 'Nyrene', 'Hjertet', 'Leveren']::text[], 1, 'Lungene regulerer CO₂.', false, true, 14),
+  ('kjemi-2:buffere', 'm06', 'flervalg', 'Hva brukes bufferløsninger til i laboratoriet?', array['Kalibrering av pH-metre', 'Veiing', 'Destillasjon', 'Oppvarming']::text[], 0, 'De har kjent og stabil pH.', false, true, 15),
+  ('kjemi-2:buffere', 'm07', 'flervalg', 'Hvorfor bufres øyedråper?', array['For å gjøre dem søte', 'For å gjøre dem billigere', 'Slik at pH passer kroppen', 'For å gi farge']::text[], 2, 'Unngår irritasjon.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('kjemi-2:buffere', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Kjemi 2: Løselighet og løselighetsprodukt
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('kjemi-2:loselighet', 'kjemi-2', 'loselighet', 'Løselighet og løselighetsprodukt', 'Løselighet og løselighetsproduktet Ksp for tungt løselige salter, beregning av løselighet fra Ksp, fellingsreaksjoner og fellesioneffekten – og hvordan løselighet har betydning i biologiske og industrielle prosesser, fra nyrestein og tannemalje til vannrensing.', array[8]::int[], 6, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('kjemi-2:loselighet', '## Løselighet
+
+**Løseligheten** til et stoff er hvor mye som kan løses i en bestemt mengde løsemiddel ved en gitt **temperatur**. Når ikke mer kan løses, er løsningen **mettet**. Noen salter er **lettløselige**, som natriumklorid, mens andre er **tungt løselige**, som sølvklorid og kalsiumkarbonat.
+
+Løseligheten avhenger av
+
+- **temperatur** – de fleste faste stoffer løses bedre i varmt vann, mens **gasser** løses dårligere
+- **polaritet** – «**likt løser likt**»: polare stoffer løses i polare løsemidler
+- **pH** – noen salter løses bedre i sur løsning
+- andre **ioner** i løsningen
+
+## Løselighetsproduktet
+
+For et tungt løselig salt i en mettet løsning er det **likevekt** mellom fast stoff og ioner:
+
+AgCl(s) ⇌ Ag⁺(aq) + Cl⁻(aq)
+
+**Løselighetsproduktet** er **Ksp = [Ag⁺] · [Cl⁻]**. Det faste stoffet tas ikke med. Jo **mindre** Ksp, desto **mindre** løselig er saltet – når vi sammenligner salter av samme type.
+
+## Beregne løselighet
+
+La **s** være den molare løseligheten.
+
+- For **AgCl** er [Ag⁺] = [Cl⁻] = s, så Ksp = s². Med Ksp = 1,8 · 10⁻¹⁰ blir s = √(1,8 · 10⁻¹⁰) ≈ **1,3 · 10⁻⁵ mol/L**.
+- For et salt av typen **AB₂**, som CaF₂, er [A²⁺] = s og [B⁻] = 2s, så Ksp = s · (2s)² = **4s³**.
+
+## Felling
+
+Vi kan bruke **ioneproduktet Q** til å forutsi om det blir **bunnfall**:
+
+- Q > Ksp: løsningen er **overmettet**, og det **felles** ut fast stoff.
+- Q < Ksp: alt **løses**.
+- Q = Ksp: løsningen er **mettet**.
+
+## Fellesioneffekten
+
+Hvis løsningen allerede inneholder et av ionene, **synker** løseligheten. Sølvklorid løser seg dårligere i en løsning som inneholder **natriumklorid**, fordi Cl⁻-ionene forskyver likevekten mot det faste stoffet. Dette er **Le Châteliers prinsipp**.
+
+## Løselighet i biologiske prosesser
+
+- **Nyrestein** dannes ofte av tungt løselig **kalsiumoksalat** eller **kalsiumfosfat** når konsentrasjonene i urinen blir høye.
+- **Tannemalje** består av **hydroksyapatitt**. I **sur** munn løses emaljen – det er grunnen til **hull i tennene**. **Fluor** bytter ut hydroksidioner og gir **fluorapatitt**, som er mindre løselig og tåler syre bedre.
+- **Gasser** i blodet: Oksygen og CO₂ løses i blodet. Ved **dykking** løses mer nitrogen under høyt trykk, og for rask oppstigning kan gi **trykkfallsyke**.
+
+## Løselighet i industrien
+
+- **Vannrensing**: Tungmetaller og fosfat kan **felles ut** og fjernes.
+- **Hardt vann** inneholder mye kalsium og magnesium, som kan felles ut som **kalk** i rør og kjeler.
+- **Gruveavrenning** kan løse ut metaller når vann blir surt.
+- **Rensing** av produkter ved **omkrystallisering** utnytter at løseligheten varierer med temperaturen.
+- I **medisin** brukes det tungt løselige **bariumsulfatet** som kontrastmiddel ved røntgen fordi det ikke tas opp i kroppen.', '{"label":"Løselighet","children":[{"label":"Løselighet","children":[{"label":"Mettet løsning"},{"label":"Temperatur og polaritet"}]},{"label":"Ksp","children":[{"label":"Likevektsuttrykk"},{"label":"s² og 4s³"}]},{"label":"Felling","children":[{"label":"Q og Ksp"},{"label":"Fellesioneffekten"}]},{"label":"Biologi","children":[{"label":"Nyrestein"},{"label":"Tannemalje og fluor"},{"label":"Gasser i blodet"}]},{"label":"Industri","children":[{"label":"Vannrensing"},{"label":"Hardt vann og kalk"},{"label":"Omkrystallisering"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'kjemi-2:loselighet';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('kjemi-2:loselighet', 'Løselighet', 'Hvor mye stoff som kan løses ved en gitt temperatur.', 0),
+  ('kjemi-2:loselighet', 'Mettet løsning', 'Løsning der ikke mer stoff kan løses.', 1),
+  ('kjemi-2:loselighet', 'Likt løser likt', 'Polare stoffer løses i polare løsemidler.', 2),
+  ('kjemi-2:loselighet', 'Løselighetsprodukt Ksp', 'Likevektskonstanten for oppløsning av et tungt løselig salt.', 3),
+  ('kjemi-2:loselighet', 'Ksp for AgCl', '[Ag⁺] · [Cl⁻].', 4),
+  ('kjemi-2:loselighet', 'Molar løselighet s', 'Hvor mange mol saltet som løses per liter.', 5),
+  ('kjemi-2:loselighet', 'AB-salt', 'Ksp = s².', 6),
+  ('kjemi-2:loselighet', 'AB₂-salt', 'Ksp = 4s³.', 7),
+  ('kjemi-2:loselighet', 'Q > Ksp', 'Overmettet – det felles ut fast stoff.', 8),
+  ('kjemi-2:loselighet', 'Fellesioneffekten', 'Løseligheten synker når løsningen allerede inneholder et av ionene.', 9),
+  ('kjemi-2:loselighet', 'Kalsiumoksalat', 'Tungt løselig salt i mange nyresteiner.', 10),
+  ('kjemi-2:loselighet', 'Hydroksyapatitt', 'Hovedbestanddelen i tannemalje.', 11),
+  ('kjemi-2:loselighet', 'Fluorapatitt', 'Mindre løselig enn hydroksyapatitt – tåler syre bedre.', 12),
+  ('kjemi-2:loselighet', 'Hardt vann', 'Vann med mye kalsium og magnesium.', 13),
+  ('kjemi-2:loselighet', 'Bariumsulfat', 'Tungt løselig kontrastmiddel ved røntgen.', 14);
+delete from public.quiz_sporsmal where tema_id = 'kjemi-2:loselighet';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('kjemi-2:loselighet', 'q01', 'flervalg', 'Hva er en mettet løsning?', array['En løsning uten løst stoff', 'En løsning der ikke mer stoff kan løses', 'En sur løsning', 'En varm løsning']::text[], 1, 'Likevekt mellom fast stoff og løst stoff.', true, true, 0),
+  ('kjemi-2:loselighet', 'q02', 'flervalg', 'Hva er Ksp for AgCl?', array['[Ag⁺] · [Cl⁻]', '[Ag⁺] + [Cl⁻]', '[AgCl]', '[Ag⁺] / [Cl⁻]']::text[], 0, 'Det faste stoffet tas ikke med.', true, true, 1),
+  ('kjemi-2:loselighet', 'q03', 'flervalg', 'Ksp for AgCl er 1,8 · 10⁻¹⁰. Hva er løseligheten?', array['1,8 · 10⁻¹⁰ mol/L', '3,6 · 10⁻¹⁰ mol/L', 'Omtrent 1,3 · 10⁻⁵ mol/L', '0,18 mol/L']::text[], 2, 's = √Ksp.', true, true, 2),
+  ('kjemi-2:loselighet', 'q04', 'flervalg', 'Hva skjer når Q > Ksp?', array['Alt løses', 'Løsningen er umettet', 'Ingenting', 'Det felles ut fast stoff']::text[], 3, 'Løsningen er overmettet.', true, true, 3),
+  ('kjemi-2:loselighet', 'q05', 'flervalg', 'Hvorfor løses AgCl dårligere i en løsning med NaCl?', array['På grunn av fellesioneffekten', 'Fordi NaCl er en katalysator', 'Fordi temperaturen øker', 'Det løses bedre']::text[], 0, 'Cl⁻ forskyver likevekten mot fast stoff.', true, true, 4),
+  ('kjemi-2:loselighet', 'q06', 'flervalg', 'Hva er Ksp for et salt av typen AB₂ uttrykt ved s?', array['s²', '4s³', '2s²', 's³']::text[], 1, 's · (2s)².', true, true, 5),
+  ('kjemi-2:loselighet', 'q07', 'flervalg', 'Hvorfor gir fluor sterkere tenner?', array['Fluor gjør emaljen mykere', 'Fluor fjerner kalsium', 'Fluorapatitt er mindre løselig og tåler syre bedre', 'Fluor øker syren i munnen']::text[], 2, 'Hydroksidioner byttes ut med fluorid.', true, true, 6),
+  ('kjemi-2:loselighet', 'q08', 'flervalg', 'Hva dannes ofte nyrestein av?', array['Natriumklorid', 'Glukose', 'Vann', 'Kalsiumoksalat eller kalsiumfosfat']::text[], 3, 'Tungt løselige kalsiumsalter.', true, true, 7),
+  ('kjemi-2:loselighet', 'q09', 'flervalg', 'Hva skjer med løseligheten til gasser når temperaturen øker?', array['Den synker', 'Den øker', 'Den er uendret', 'Den blir uendelig']::text[], 0, 'Motsatt av de fleste faste stoffer.', true, false, 8),
+  ('kjemi-2:loselighet', 'q10', 'flervalg', 'Hvorfor kan bariumsulfat brukes som kontrastmiddel?', array['Fordi det er lettløselig og tas opp i kroppen', 'Fordi det er tungt løselig og ikke tas opp i kroppen', 'Fordi det er radioaktivt', 'Fordi det er en gass']::text[], 1, 'Bariumioner er giftige hvis de tas opp.', true, false, 9),
+  ('kjemi-2:loselighet', 'm01', 'sant-usant', 'Tannemalje løses lettere i sur munn.', array['Sant', 'Usant']::text[], 0, 'Grunnen til hull i tennene.', false, true, 10),
+  ('kjemi-2:loselighet', 'm02', 'sant-usant', 'Et salt med stor Ksp er alltid mindre løselig enn et salt med liten Ksp.', array['Sant', 'Usant']::text[], 1, 'Stor Ksp betyr mer løselig for salter av samme type.', false, true, 11),
+  ('kjemi-2:loselighet', 'm03', 'sant-usant', 'Tungmetaller kan fjernes fra vann ved felling.', array['Sant', 'Usant']::text[], 0, 'Brukes i vannrensing.', false, true, 12),
+  ('kjemi-2:loselighet', 'm04', 'sant-usant', 'Fellesioneffekten øker løseligheten.', array['Sant', 'Usant']::text[], 1, 'Den reduserer løseligheten.', false, true, 13),
+  ('kjemi-2:loselighet', 'm05', 'flervalg', 'Hva gir hardt vann?', array['Mye natrium', 'Mye kalsium og magnesium', 'Mye klor', 'Mye oksygen']::text[], 1, 'Kan gi kalk i rør.', false, true, 14),
+  ('kjemi-2:loselighet', 'm06', 'flervalg', 'Hvilket prinsipp forklarer fellesioneffekten?', array['Le Châteliers prinsipp', 'Faradays lov', 'Hess'' lov', 'Avogadros lov']::text[], 0, 'Likevekten forskyves.', false, true, 15),
+  ('kjemi-2:loselighet', 'm07', 'flervalg', 'Hva kan skje ved for rask oppstigning etter dykking?', array['Hypotermi', 'Nyrestein', 'Trykkfallsyke', 'Hull i tennene']::text[], 2, 'Nitrogen som er løst i blodet, danner bobler.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('kjemi-2:loselighet', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Kjemi 2: Katalyse
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('kjemi-2:katalyse', 'kjemi-2', 'katalyse', 'Katalyse', 'Hvordan katalysatorer virker ved å senke aktiveringsenergien, homogen og heterogen katalyse, enzymer som biologiske katalysatorer med aktivt sete, temperatur- og pH-optimum og hemmere – og katalysatorenes betydning i industrien, bilen og grønn kjemi.', array[9]::int[], 7, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('kjemi-2:katalyse', '## Hva er en katalysator?
+
+En **katalysator** er et stoff som øker **reaksjonsfarten** uten selv å bli **forbrukt**. Katalysatoren tas med i reaksjonen, men dannes igjen på slutten.
+
+## Aktiveringsenergi
+
+For at en reaksjon skal skje, må partiklene **kollidere** med nok energi – **aktiveringsenergien**. En katalysator gir reaksjonen en **alternativ vei** med **lavere** aktiveringsenergi. Da får flere kollisjoner nok energi, og reaksjonen går **raskere**.
+
+Katalysatoren
+
+- endrer **ikke** ΔH for reaksjonen
+- endrer **ikke** likevekten, men gjør at likevekt nås **raskere**
+- virker **begge veier** i en likevektsreaksjon
+
+## Homogen og heterogen katalyse
+
+- **Homogen** katalyse: Katalysatoren er i **samme fase** som reaktantene, for eksempel en syre som katalyserer esterdannelse i løsning.
+- **Heterogen** katalyse: Katalysatoren er i en **annen fase**, ofte et **fast stoff** med gasser eller væsker rundt. Reaktantene **adsorberes** på overflaten, bindinger svekkes, og produktene slippes løs. En **stor overflate** gir mer effektiv katalyse.
+
+## Enzymer
+
+**Enzymer** er **biologiske katalysatorer**, som regel **proteiner**. Nesten alle reaksjoner i levende organismer er katalysert av enzymer.
+
+- Reaktanten kalles **substratet**. Det binder seg til enzymets **aktive sete**.
+- Etter **nøkkel–lås-modellen** passer substratet i det aktive setet. Den nyere **indusert tilpasning**-modellen sier at det aktive setet **endrer form** litt når substratet bindes.
+- Enzymer er svært **spesifikke** – hvert enzym katalyserer ofte bare én reaksjon.
+
+Enzymer har et **temperaturoptimum** og et **pH-optimum**. Ved for høy temperatur eller feil pH endres proteinets **form** – det **denatureres** – og enzymet slutter å virke. Mange av kroppens enzymer virker best rundt **37 °C**. **Pepsin** i magesekken virker best i **sur** løsning, mens enzymer i tynntarmen virker best ved nøytral til svakt basisk pH.
+
+**Hemmere** kan binde seg til enzymet og gjøre det mindre aktivt. Mange **medisiner** virker ved å hemme bestemte enzymer.
+
+## Katalysatorer i industrien
+
+- **Haber–Bosch**: En **jernkatalysator** gjør produksjonen av **ammoniakk** effektiv.
+- **Ostwald-prosessen**: **Platina** katalyserer produksjonen av **salpetersyre**, som brukes i kunstgjødsel.
+- **Oljeraffinering**: Katalysatorer bryter store hydrokarboner ned til bensin og andre produkter.
+- **Plastproduksjon**: Katalysatorer styrer hvordan polymerer bygges opp.
+
+## Katalysatoren i bilen
+
+**Katalysatoren** i bensinbiler inneholder metaller som **platina**, **palladium** og **rhodium**. Den gjør giftige gasser om til mindre skadelige stoffer: **CO** blir til **CO₂**, **nitrogenoksider** blir til **N₂**, og **uforbrente hydrokarboner** blir til CO₂ og vann.
+
+## Katalyse og grønn kjemi
+
+Katalysatorer er et av **prinsippene i grønn kjemi**. De gir **lavere** energiforbruk, **færre** biprodukter og mindre **avfall**. Bruk av **enzymer** i industrien – for eksempel i vaskemidler, næringsmidler og biodrivstoff – kan erstatte prosesser som krever høy temperatur og farlige kjemikalier.', '{"label":"Katalyse","children":[{"label":"Virkemåte","children":[{"label":"Lavere aktiveringsenergi"},{"label":"Ikke forbrukt"},{"label":"Samme likevekt"}]},{"label":"Typer","children":[{"label":"Homogen"},{"label":"Heterogen og overflate"}]},{"label":"Enzymer","children":[{"label":"Aktivt sete og substrat"},{"label":"Temperatur- og pH-optimum"},{"label":"Hemmere"}]},{"label":"Industri","children":[{"label":"Haber–Bosch"},{"label":"Ostwald"},{"label":"Oljeraffinering"}]},{"label":"Miljø","children":[{"label":"Bilkatalysator"},{"label":"Grønn kjemi"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'kjemi-2:katalyse';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('kjemi-2:katalyse', 'Katalysator', 'Stoff som øker reaksjonsfarten uten å bli forbrukt.', 0),
+  ('kjemi-2:katalyse', 'Aktiveringsenergi', 'Minste energi som trengs for at en reaksjon skal skje.', 1),
+  ('kjemi-2:katalyse', 'Alternativ reaksjonsvei', 'Katalysatoren gir en vei med lavere aktiveringsenergi.', 2),
+  ('kjemi-2:katalyse', 'Homogen katalyse', 'Katalysatoren er i samme fase som reaktantene.', 3),
+  ('kjemi-2:katalyse', 'Heterogen katalyse', 'Katalysatoren er i en annen fase, ofte et fast stoff.', 4),
+  ('kjemi-2:katalyse', 'Adsorpsjon', 'At molekyler binder seg til en overflate.', 5),
+  ('kjemi-2:katalyse', 'Enzym', 'Biologisk katalysator, som regel et protein.', 6),
+  ('kjemi-2:katalyse', 'Substrat', 'Stoffet et enzym virker på.', 7),
+  ('kjemi-2:katalyse', 'Aktivt sete', 'Stedet på enzymet der substratet bindes.', 8),
+  ('kjemi-2:katalyse', 'Nøkkel–lås-modellen', 'Substratet passer i det aktive setet som en nøkkel i en lås.', 9),
+  ('kjemi-2:katalyse', 'Indusert tilpasning', 'Det aktive setet endrer form litt når substratet bindes.', 10),
+  ('kjemi-2:katalyse', 'Denaturering', 'Proteinets form ødelegges av varme eller feil pH.', 11),
+  ('kjemi-2:katalyse', 'Pepsin', 'Enzym i magesekken som virker best i sur løsning.', 12),
+  ('kjemi-2:katalyse', 'Hemmer', 'Stoff som gjør et enzym mindre aktivt.', 13),
+  ('kjemi-2:katalyse', 'Bilkatalysator', 'Platina, palladium og rhodium som renser eksosen.', 14);
+delete from public.quiz_sporsmal where tema_id = 'kjemi-2:katalyse';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('kjemi-2:katalyse', 'q01', 'flervalg', 'Hvordan øker en katalysator reaksjonsfarten?', array['Ved å øke temperaturen', 'Ved å gi en vei med lavere aktiveringsenergi', 'Ved å endre ΔH', 'Ved å bli forbrukt']::text[], 1, 'Flere kollisjoner har nok energi.', true, true, 0),
+  ('kjemi-2:katalyse', 'q02', 'flervalg', 'Endrer en katalysator likevekten?', array['Nei, men likevekt nås raskere', 'Ja, mot produktene', 'Ja, mot reaktantene', 'Ja, den øker K']::text[], 0, 'Den virker begge veier.', true, true, 1),
+  ('kjemi-2:katalyse', 'q03', 'flervalg', 'Hva er heterogen katalyse?', array['Katalysator og reaktanter i samme fase', 'Katalyse uten katalysator', 'Katalysatoren er i en annen fase enn reaktantene', 'Katalyse i kroppen']::text[], 2, 'Ofte et fast stoff med gass rundt.', true, true, 2),
+  ('kjemi-2:katalyse', 'q04', 'flervalg', 'Hva er det aktive setet?', array['Produktet', 'Katalysatorens overflate i bilen', 'Et hormon', 'Stedet på enzymet der substratet bindes']::text[], 3, 'Gir enzymet dets spesifisitet.', true, true, 3),
+  ('kjemi-2:katalyse', 'q05', 'flervalg', 'Hva skjer med et enzym ved for høy temperatur?', array['Det denatureres og slutter å virke', 'Det blir raskere for alltid', 'Ingenting', 'Det blir til et substrat']::text[], 0, 'Proteinets form ødelegges.', true, true, 4),
+  ('kjemi-2:katalyse', 'q06', 'flervalg', 'Hvor virker pepsin best?', array['I basisk løsning', 'I sur løsning i magesekken', 'Ved 100 °C', 'I lungene']::text[], 1, 'Tilpasset magesyren.', true, true, 5),
+  ('kjemi-2:katalyse', 'q07', 'flervalg', 'Hvilken katalysator brukes i Haber–Bosch-prosessen?', array['Platina', 'Et enzym', 'Jern', 'Nikkel']::text[], 2, 'For ammoniakkproduksjon.', true, true, 6),
+  ('kjemi-2:katalyse', 'q08', 'flervalg', 'Hva gjør bilkatalysatoren med CO?', array['Gjør det til metan', 'Gjør det til N₂', 'Lar det være', 'Gjør det til CO₂']::text[], 3, 'Mindre giftig.', true, true, 7),
+  ('kjemi-2:katalyse', 'q09', 'flervalg', 'Hvordan virker mange medisiner?', array['Ved å hemme bestemte enzymer', 'Ved å denaturere alle proteiner', 'Ved å øke temperaturen', 'Ved å endre DNA']::text[], 0, 'Enzymhemmere.', true, false, 8),
+  ('kjemi-2:katalyse', 'q10', 'flervalg', 'Hvorfor er katalysatorer viktige i grønn kjemi?', array['De øker avfallet', 'De gir lavere energiforbruk og færre biprodukter', 'De er alltid giftige', 'De krever høy temperatur']::text[], 1, 'Et av prinsippene i grønn kjemi.', true, false, 9),
+  ('kjemi-2:katalyse', 'm01', 'sant-usant', 'En katalysator endrer ikke ΔH for reaksjonen.', array['Sant', 'Usant']::text[], 0, 'Bare aktiveringsenergien.', false, true, 10),
+  ('kjemi-2:katalyse', 'm02', 'sant-usant', 'Enzymer kan katalysere nesten alle typer reaksjoner uten å være spesifikke.', array['Sant', 'Usant']::text[], 1, 'De er svært spesifikke.', false, true, 11),
+  ('kjemi-2:katalyse', 'm03', 'sant-usant', 'Stor overflate gir mer effektiv heterogen katalyse.', array['Sant', 'Usant']::text[], 0, 'Flere steder å adsorbere på.', false, true, 12),
+  ('kjemi-2:katalyse', 'm04', 'sant-usant', 'En katalysator blir brukt opp i reaksjonen.', array['Sant', 'Usant']::text[], 1, 'Den dannes igjen på slutten.', false, true, 13),
+  ('kjemi-2:katalyse', 'm05', 'flervalg', 'Hva katalyserer platina i Ostwald-prosessen?', array['Ammoniakkproduksjon', 'Salpetersyreproduksjon', 'Oljeraffinering', 'Esterdannelse']::text[], 1, 'Brukes til kunstgjødsel.', false, true, 14),
+  ('kjemi-2:katalyse', 'm06', 'flervalg', 'Hva sier modellen om indusert tilpasning?', array['Det aktive setet endrer form litt når substratet bindes', 'Substratet endrer ikke enzymet', 'Enzymet brytes ned', 'Enzymet er alltid stivt']::text[], 0, 'En videreutvikling av nøkkel–lås-modellen.', false, true, 15),
+  ('kjemi-2:katalyse', 'm07', 'flervalg', 'Hvor brukes enzymer industrielt?', array['Bare i bilkatalysatorer', 'Bare i ammoniakkproduksjon', 'I vaskemidler, næringsmidler og biodrivstoff', 'Ingen steder']::text[], 2, 'Kan erstatte energikrevende prosesser.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('kjemi-2:katalyse', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Kjemi 2: Organiske reaksjonstyper og reaksjonsmekanismer
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('kjemi-2:organiske-reaksjonstyper', 'kjemi-2', 'organiske-reaksjonstyper', 'Organiske reaksjonstyper og reaksjonsmekanismer', 'De viktigste organiske reaksjonstypene – addisjon, eliminasjon, substitusjon, hydrolyse og kondensasjon – og hvordan polariserte bindinger, nukleofiler og elektrofiler kan brukes til å forklare enkle reaksjonsmekanismer med elektrostatiske krefter.', array[10]::int[], 8, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('kjemi-2:organiske-reaksjonstyper', '## Polaritet og elektrostatiske krefter
+
+Mange organiske reaksjoner kan forklares med **elektrostatiske krefter**: **Positive** og **negative** ladninger **tiltrekker** hverandre.
+
+- I en **polar binding**, som C–Br eller C–O, trekker det mest **elektronegative** atomet elektronene mot seg. Karbonatomet får da en **delvis positiv** ladning (δ+).
+- En **nukleofil** («kjerneelskende») er **elektronrik** – den har et **ledig elektronpar** eller negativ ladning, for eksempel OH⁻ eller vann.
+- En **elektrofil** («elektronelskende») er **elektronfattig** – den har positiv eller delvis positiv ladning, for eksempel H⁺ eller et δ+-karbon.
+
+I en **reaksjonsmekanisme** angriper **nukleofilen** den **elektrofile** delen av et molekyl. Bevegelsen av elektronpar tegnes med **buede piler**.
+
+## Addisjon
+
+I en **addisjonsreaksjon** blir en **dobbeltbinding** brutt, og to atomer eller grupper **legges til**. Alkener gir addisjon fordi dobbeltbindingen er **elektronrik**.
+
+- Eten + brom → 1,2-dibrometan. Når **bromvann** avfarges, viser det at stoffet har dobbeltbindinger.
+- Eten + vann (med syre som katalysator) → **etanol**.
+
+**Mekanisme**: Dobbeltbindingen angriper H⁺ i HBr, og det dannes et **karbokation** – et positivt karbonatom. Deretter angriper **bromidionet** karbokationet.
+
+## Eliminasjon
+
+**Eliminasjon** er det motsatte av addisjon: Et lite molekyl, ofte **vann** eller **HX**, **fjernes**, og det dannes en **dobbeltbinding**. Når **etanol** varmes med konsentrert syre, elimineres vann, og det dannes **eten**.
+
+## Substitusjon
+
+I **substitusjon** blir ett atom eller én gruppe **byttet ut** med en annen.
+
+- Et **halogenalkan** reagerer med OH⁻: CH₃Br + OH⁻ → CH₃OH + Br⁻.
+
+**Mekanisme**: Hydroksidionet (nukleofil) tiltrekkes av det **δ+-ladde** karbonatomet og angriper det. Samtidig forlater **bromidionet** molekylet. Dette er en **nukleofil substitusjon**.
+
+## Kondensasjon
+
+I en **kondensasjonsreaksjon** slås to molekyler **sammen**, og et lite molekyl – ofte **vann** – **spaltes av**.
+
+- **Esterdannelse**: karboksylsyre + alkohol → **ester** + vann. Estere gir mange **frukt- og blomsterdufter**.
+- **Peptidbinding**: to aminosyrer → dipeptid + vann.
+- Mange **polymerer**, som **polyester** og **nylon**, dannes ved kondensasjon.
+
+## Hydrolyse
+
+**Hydrolyse** er det motsatte av kondensasjon: Et molekyl **spaltes** ved hjelp av **vann**.
+
+- **Ester** + vann → karboksylsyre + alkohol
+- **Proteiner** brytes ned til aminosyrer, og **stivelse** til glukose, ved hydrolyse i fordøyelsen – katalysert av **enzymer**.
+- **Såpekoking** er basisk hydrolyse av **fett**.
+
+## Oversikt
+
+| Reaksjonstype | Kjennetegn |
+|---|---|
+| Addisjon | dobbeltbinding brytes, noe legges til |
+| Eliminasjon | lite molekyl fjernes, dobbeltbinding dannes |
+| Substitusjon | atom eller gruppe byttes ut |
+| Kondensasjon | to molekyler slås sammen, vann spaltes av |
+| Hydrolyse | molekyl spaltes med vann |', '{"label":"Organiske reaksjonstyper","children":[{"label":"Mekanismer","children":[{"label":"Polare bindinger"},{"label":"Nukleofil og elektrofil"},{"label":"Buede piler"}]},{"label":"Addisjon og eliminasjon","children":[{"label":"Alken + Br₂"},{"label":"Karbokation"},{"label":"Alkohol → alken"}]},{"label":"Substitusjon","children":[{"label":"Halogenalkan + OH⁻"},{"label":"Nukleofil substitusjon"}]},{"label":"Kondensasjon","children":[{"label":"Ester"},{"label":"Peptidbinding"},{"label":"Polymerer"}]},{"label":"Hydrolyse","children":[{"label":"Ester spaltes"},{"label":"Fordøyelse"},{"label":"Såpekoking"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'kjemi-2:organiske-reaksjonstyper';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('kjemi-2:organiske-reaksjonstyper', 'Polar binding', 'Binding der elektronene trekkes mot det mest elektronegative atomet.', 0),
+  ('kjemi-2:organiske-reaksjonstyper', 'δ+', 'Delvis positiv ladning.', 1),
+  ('kjemi-2:organiske-reaksjonstyper', 'Nukleofil', 'Elektronrik partikkel som angriper elektronfattige atomer.', 2),
+  ('kjemi-2:organiske-reaksjonstyper', 'Elektrofil', 'Elektronfattig partikkel eller atom.', 3),
+  ('kjemi-2:organiske-reaksjonstyper', 'Reaksjonsmekanisme', 'Trinnene i en reaksjon, vist med buede piler for elektronpar.', 4),
+  ('kjemi-2:organiske-reaksjonstyper', 'Addisjon', 'Dobbeltbinding brytes, og atomer legges til.', 5),
+  ('kjemi-2:organiske-reaksjonstyper', 'Bromvannstest', 'Bromvann avfarges av stoffer med dobbeltbinding.', 6),
+  ('kjemi-2:organiske-reaksjonstyper', 'Karbokation', 'Positivt ladd karbonatom i en reaksjonsmekanisme.', 7),
+  ('kjemi-2:organiske-reaksjonstyper', 'Eliminasjon', 'Et lite molekyl fjernes, og det dannes en dobbeltbinding.', 8),
+  ('kjemi-2:organiske-reaksjonstyper', 'Substitusjon', 'Et atom eller en gruppe byttes ut.', 9),
+  ('kjemi-2:organiske-reaksjonstyper', 'Nukleofil substitusjon', 'En nukleofil erstatter en gruppe på et δ+-karbon.', 10),
+  ('kjemi-2:organiske-reaksjonstyper', 'Kondensasjon', 'To molekyler slås sammen, og vann spaltes av.', 11),
+  ('kjemi-2:organiske-reaksjonstyper', 'Esterdannelse', 'Karboksylsyre + alkohol → ester + vann.', 12),
+  ('kjemi-2:organiske-reaksjonstyper', 'Hydrolyse', 'Et molekyl spaltes ved hjelp av vann.', 13),
+  ('kjemi-2:organiske-reaksjonstyper', 'Såpekoking', 'Basisk hydrolyse av fett.', 14);
+delete from public.quiz_sporsmal where tema_id = 'kjemi-2:organiske-reaksjonstyper';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('kjemi-2:organiske-reaksjonstyper', 'q01', 'flervalg', 'Hva er en nukleofil?', array['En elektronfattig partikkel', 'En elektronrik partikkel som angriper elektronfattige atomer', 'En katalysator', 'Et produkt']::text[], 1, 'For eksempel OH⁻.', true, true, 0),
+  ('kjemi-2:organiske-reaksjonstyper', 'q02', 'flervalg', 'Hva skjer i en addisjonsreaksjon?', array['En dobbeltbinding brytes og atomer legges til', 'Vann spaltes av', 'En gruppe byttes ut', 'En dobbeltbinding dannes']::text[], 0, 'Typisk for alkener.', true, true, 1),
+  ('kjemi-2:organiske-reaksjonstyper', 'q03', 'flervalg', 'Hvilken test viser at et stoff har dobbeltbinding?', array['Lakmustest', 'Flammetest', 'Bromvann avfarges', 'Kalkvann blir grumsete']::text[], 2, 'Brom adderes til dobbeltbindingen.', true, true, 2),
+  ('kjemi-2:organiske-reaksjonstyper', 'q04', 'flervalg', 'CH₃Br + OH⁻ → CH₃OH + Br⁻. Hvilken reaksjonstype er dette?', array['Addisjon', 'Eliminasjon', 'Kondensasjon', 'Substitusjon']::text[], 3, 'Nukleofil substitusjon.', true, true, 3),
+  ('kjemi-2:organiske-reaksjonstyper', 'q05', 'flervalg', 'Hva er kondensasjon?', array['To molekyler slås sammen og vann spaltes av', 'Et molekyl spaltes med vann', 'En dobbeltbinding brytes', 'En gruppe byttes ut']::text[], 0, 'For eksempel esterdannelse.', true, true, 4),
+  ('kjemi-2:organiske-reaksjonstyper', 'q06', 'flervalg', 'Hva dannes når etanol varmes med konsentrert syre?', array['Etansyre', 'Eten, ved eliminasjon av vann', 'Etylacetat', 'Metan']::text[], 1, 'Eliminasjon.', true, true, 5),
+  ('kjemi-2:organiske-reaksjonstyper', 'q07', 'flervalg', 'Hvorfor angriper OH⁻ karbonatomet i CH₃Br?', array['Fordi karbon er negativt ladd', 'Fordi brom er positivt', 'Fordi karbonatomet har delvis positiv ladning', 'Fordi OH⁻ er elektronfattig']::text[], 2, 'Brom er mer elektronegativt.', true, true, 6),
+  ('kjemi-2:organiske-reaksjonstyper', 'q08', 'flervalg', 'Hva er hydrolyse?', array['Dannelse av vann', 'Oppvarming', 'Addisjon av hydrogen', 'Spalting av et molekyl ved hjelp av vann']::text[], 3, 'Det motsatte av kondensasjon.', true, true, 7),
+  ('kjemi-2:organiske-reaksjonstyper', 'q09', 'flervalg', 'Hva dannes ved reaksjon mellom en karboksylsyre og en alkohol?', array['En ester og vann', 'En aldehyd', 'En alken', 'Et salt']::text[], 0, 'En kondensasjonsreaksjon.', true, false, 8),
+  ('kjemi-2:organiske-reaksjonstyper', 'q10', 'flervalg', 'Hva er et karbokation?', array['Et negativt karbonatom', 'Et positivt ladd karbonatom', 'Et nøytralt molekyl', 'En katalysator']::text[], 1, 'Mellomprodukt i addisjon av HBr.', true, false, 9),
+  ('kjemi-2:organiske-reaksjonstyper', 'm01', 'sant-usant', 'Eliminasjon er det motsatte av addisjon.', array['Sant', 'Usant']::text[], 0, 'Det dannes en dobbeltbinding.', false, true, 10),
+  ('kjemi-2:organiske-reaksjonstyper', 'm02', 'sant-usant', 'En elektrofil er elektronrik.', array['Sant', 'Usant']::text[], 1, 'Den er elektronfattig.', false, true, 11),
+  ('kjemi-2:organiske-reaksjonstyper', 'm03', 'sant-usant', 'Nedbrytning av proteiner i fordøyelsen er hydrolyse.', array['Sant', 'Usant']::text[], 0, 'Katalysert av enzymer.', false, true, 12),
+  ('kjemi-2:organiske-reaksjonstyper', 'm04', 'sant-usant', 'Estere har ofte en ubehagelig lukt.', array['Sant', 'Usant']::text[], 1, 'Mange estere lukter frukt og blomster.', false, true, 13),
+  ('kjemi-2:organiske-reaksjonstyper', 'm05', 'flervalg', 'Hvilken reaksjonstype danner nylon og polyester?', array['Addisjon', 'Kondensasjon', 'Eliminasjon', 'Substitusjon']::text[], 1, 'Vann spaltes av ved hver binding.', false, true, 14),
+  ('kjemi-2:organiske-reaksjonstyper', 'm06', 'flervalg', 'Hva dannes når eten reagerer med vann med syre som katalysator?', array['Etanol', 'Etan', 'Etansyre', 'Dietyleter']::text[], 0, 'Addisjon av vann.', false, true, 15),
+  ('kjemi-2:organiske-reaksjonstyper', 'm07', 'flervalg', 'Hva viser buede piler i en reaksjonsmekanisme?', array['Atomenes størrelse', 'Temperatur', 'Hvordan elektronpar flytter seg', 'Reaksjonsfarten']::text[], 2, 'Fra nukleofil til elektrofil.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('kjemi-2:organiske-reaksjonstyper', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Kjemi 2: Synteser, utbytte og renhet
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('kjemi-2:synteser-utbytte-og-renhet', 'kjemi-2', 'synteser-utbytte-og-renhet', 'Synteser, utbytte og renhet', 'Hvordan du gjennomfører en organisk syntese, beregner teoretisk og prosentvis utbytte med begrensende reaktant, hvilke faktorer som påvirker utbytte og renhet, og hvordan produkter renses og kontrolleres – med syntesen av acetylsalisylsyre som eksempel.', array[11]::int[], 9, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('kjemi-2:synteser-utbytte-og-renhet', '## Hva er en syntese?
+
+En **syntese** er framstilling av et **nytt stoff** fra enklere utgangsstoffer. Kjemikere lager legemidler, plast, fargestoffer og smaksstoffer gjennom synteser. En syntese består ofte av
+
+1. **reaksjon** under kontrollerte forhold – temperatur, tid og eventuell katalysator
+2. **opparbeiding** – å skille produktet fra resten av blandingen
+3. **rensing** av produktet
+4. **analyse** av utbytte og renhet
+
+## Eksempel: acetylsalisylsyre
+
+**Acetylsalisylsyre** – virkestoffet i mange smertestillende tabletter – lages av **salisylsyre** og **eddiksyreanhydrid** med litt syre som **katalysator**. Produktet **krystalliseres** ut ved avkjøling og **filtreres** fra.
+
+## Teoretisk og prosentvis utbytte
+
+- **Teoretisk utbytte** er hvor mye produkt som maksimalt kan dannes ut fra **reaksjonsligningen**.
+- **Faktisk utbytte** er hvor mye du faktisk får.
+- **Prosentvis utbytte** = faktisk utbytte / teoretisk utbytte · 100
+
+**Begrensende reaktant** er den reaktanten som tar **slutt** først. Den bestemmer teoretisk utbytte. Den andre reaktanten er i **overskudd**.
+
+**Regneeksempel**: Du starter med **2,00 g** salisylsyre (M = 138,1 g/mol), og eddiksyreanhydrid er i overskudd. Salisylsyre og acetylsalisylsyre reagerer i forholdet 1 : 1.
+
+- n(salisylsyre) = 2,00 / 138,1 ≈ 0,0145 mol
+- Teoretisk utbytte: 0,0145 mol · 180,2 g/mol ≈ **2,61 g**
+- Du får 2,10 g. Prosentvis utbytte = 2,10 / 2,61 · 100 ≈ **80 %**
+
+## Hva påvirker utbyttet?
+
+- **Likevekt**: Mange organiske reaksjoner, som esterdannelse, er **likevektsreaksjoner** og går ikke fullstendig. Overskudd av en reaktant eller fjerning av produkt kan øke utbyttet.
+- **Sidereaksjoner** som gir uønskede **biprodukter**
+- **Tap** under overføring, filtrering og rensing
+- **Ufullstendig** reaksjon – for kort tid eller feil temperatur
+- **Urene** utgangsstoffer
+
+## Rensing
+
+- **Filtrering** skiller fast stoff fra væske.
+- **Omkrystallisering**: Produktet løses i **varmt** løsemiddel og krystalliserer ut ved **avkjøling**, mens urenhetene blir igjen i løsningen.
+- **Destillasjon** skiller væsker med ulike **kokepunkter**.
+- **Ekstraksjon** flytter et stoff fra ett løsemiddel til et annet, for eksempel i en **skilletrakt**.
+- **Kromatografi** kan skille stoffer i en blanding.
+
+## Kontroll av renhet
+
+- **Smeltepunkt**: Et rent stoff har et **skarpt** smeltepunkt. Urenheter gir **lavere** smeltepunkt og et bredere smelteområde.
+- **Tynnsjiktkromatografi**: Et rent stoff gir **én** flekk.
+- **Spektroskopi**, som IR- og NMR-spektroskopi, viser hvilke **funksjonelle grupper** og strukturer stoffet har.
+
+## Utbytte og renhet – en avveining
+
+Grundig rensing gir høy **renhet**, men ofte **lavere** utbytte, fordi noe av produktet går tapt. I industrien må man finne en balanse mellom **kvalitet**, **kostnader** og **miljø**. **Grønn kjemi** legger vekt på synteser med høy **atomøkonomi**, der mest mulig av atomene i utgangsstoffene havner i produktet.', '{"label":"Synteser","children":[{"label":"Syntese","children":[{"label":"Reaksjon"},{"label":"Opparbeiding"},{"label":"Acetylsalisylsyre"}]},{"label":"Utbytte","children":[{"label":"Teoretisk og faktisk"},{"label":"Prosentvis"},{"label":"Begrensende reaktant"}]},{"label":"Påvirker utbyttet","children":[{"label":"Likevekt"},{"label":"Sidereaksjoner"},{"label":"Tap"}]},{"label":"Rensing","children":[{"label":"Omkrystallisering"},{"label":"Destillasjon"},{"label":"Ekstraksjon"}]},{"label":"Renhet","children":[{"label":"Smeltepunkt"},{"label":"Kromatografi og spektroskopi"},{"label":"Atomøkonomi"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'kjemi-2:synteser-utbytte-og-renhet';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('kjemi-2:synteser-utbytte-og-renhet', 'Syntese', 'Framstilling av et nytt stoff fra enklere utgangsstoffer.', 0),
+  ('kjemi-2:synteser-utbytte-og-renhet', 'Opparbeiding', 'Å skille produktet fra resten av reaksjonsblandingen.', 1),
+  ('kjemi-2:synteser-utbytte-og-renhet', 'Acetylsalisylsyre', 'Virkestoff i smertestillende tabletter, lages av salisylsyre og eddiksyreanhydrid.', 2),
+  ('kjemi-2:synteser-utbytte-og-renhet', 'Teoretisk utbytte', 'Maksimal mengde produkt ut fra reaksjonsligningen.', 3),
+  ('kjemi-2:synteser-utbytte-og-renhet', 'Faktisk utbytte', 'Mengden produkt man faktisk får.', 4),
+  ('kjemi-2:synteser-utbytte-og-renhet', 'Prosentvis utbytte', 'Faktisk / teoretisk utbytte · 100.', 5),
+  ('kjemi-2:synteser-utbytte-og-renhet', 'Begrensende reaktant', 'Reaktanten som tar slutt først og bestemmer utbyttet.', 6),
+  ('kjemi-2:synteser-utbytte-og-renhet', 'Overskudd', 'Reaktanten det er mer av enn nødvendig.', 7),
+  ('kjemi-2:synteser-utbytte-og-renhet', 'Sidereaksjon', 'Uønsket reaksjon som gir biprodukter.', 8),
+  ('kjemi-2:synteser-utbytte-og-renhet', 'Omkrystallisering', 'Rensing ved å løse i varmt løsemiddel og la krystallisere ved avkjøling.', 9),
+  ('kjemi-2:synteser-utbytte-og-renhet', 'Destillasjon', 'Skiller væsker med ulike kokepunkter.', 10),
+  ('kjemi-2:synteser-utbytte-og-renhet', 'Ekstraksjon', 'Flytter et stoff fra ett løsemiddel til et annet.', 11),
+  ('kjemi-2:synteser-utbytte-og-renhet', 'Smeltepunkt og renhet', 'Rent stoff har skarpt smeltepunkt; urenheter senker det.', 12),
+  ('kjemi-2:synteser-utbytte-og-renhet', 'Spektroskopi', 'Analyse som viser funksjonelle grupper og struktur.', 13),
+  ('kjemi-2:synteser-utbytte-og-renhet', 'Atomøkonomi', 'Hvor mye av utgangsstoffenes atomer som havner i produktet.', 14);
+delete from public.quiz_sporsmal where tema_id = 'kjemi-2:synteser-utbytte-og-renhet';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('kjemi-2:synteser-utbytte-og-renhet', 'q01', 'flervalg', 'Hva er begrensende reaktant?', array['Reaktanten det er mest av', 'Reaktanten som tar slutt først', 'Katalysatoren', 'Produktet']::text[], 1, 'Den bestemmer teoretisk utbytte.', true, true, 0),
+  ('kjemi-2:synteser-utbytte-og-renhet', 'q02', 'flervalg', 'Hvordan regnes prosentvis utbytte ut?', array['Faktisk / teoretisk utbytte · 100', 'Teoretisk / faktisk · 100', 'Faktisk − teoretisk', 'Masse / molar masse']::text[], 0, 'Gir utbyttet i prosent.', true, true, 1),
+  ('kjemi-2:synteser-utbytte-og-renhet', 'q03', 'flervalg', '2,00 g salisylsyre (M = 138,1 g/mol) gir teoretisk hvor mye acetylsalisylsyre (M = 180,2 g/mol)?', array['2,00 g', '1,53 g', 'Omtrent 2,61 g', '3,60 g']::text[], 2, '0,0145 mol · 180,2 g/mol.', true, true, 2),
+  ('kjemi-2:synteser-utbytte-og-renhet', 'q04', 'flervalg', 'Hva viser et lavt og bredt smeltepunkt?', array['At stoffet er rent', 'At stoffet er en gass', 'At stoffet er en katalysator', 'At stoffet inneholder urenheter']::text[], 3, 'Rent stoff har skarpt smeltepunkt.', true, true, 3),
+  ('kjemi-2:synteser-utbytte-og-renhet', 'q05', 'flervalg', 'Hvordan virker omkrystallisering?', array['Produktet løses i varmt løsemiddel og krystalliserer ved avkjøling, mens urenheter blir igjen', 'Stoffene skilles etter kokepunkt', 'Produktet fordamper', 'Produktet filtreres bare']::text[], 0, 'En vanlig rensemetode.', true, true, 4),
+  ('kjemi-2:synteser-utbytte-og-renhet', 'q06', 'flervalg', 'Hvorfor gir esterdannelse ofte under 100 % utbytte?', array['Fordi den er eksplosiv', 'Fordi det er en likevektsreaksjon', 'Fordi den ikke trenger katalysator', 'Fordi estere er gasser']::text[], 1, 'Reaksjonen går ikke fullstendig.', true, true, 5),
+  ('kjemi-2:synteser-utbytte-og-renhet', 'q07', 'flervalg', 'Hvilken metode skiller væsker med ulike kokepunkter?', array['Filtrering', 'Omkrystallisering', 'Destillasjon', 'Titrering']::text[], 2, 'Stoffet med lavest kokepunkt fordamper først.', true, true, 6),
+  ('kjemi-2:synteser-utbytte-og-renhet', 'q08', 'flervalg', 'Hvorfor gir grundig rensing ofte lavere utbytte?', array['Fordi produktet blir mer rent og tungt', 'Fordi rensing lager nytt produkt', 'Fordi utbyttet alltid er 100 %', 'Fordi noe av produktet går tapt']::text[], 3, 'En avveining mellom utbytte og renhet.', true, true, 7),
+  ('kjemi-2:synteser-utbytte-og-renhet', 'q09', 'flervalg', 'Hva viser tynnsjiktkromatografi for et rent stoff?', array['Én flekk', 'Mange flekker', 'Ingen flekker', 'En farget væske']::text[], 0, 'Flere flekker tyder på urenheter.', true, false, 8),
+  ('kjemi-2:synteser-utbytte-og-renhet', 'q10', 'flervalg', 'Hva er høy atomøkonomi?', array['At mye avfall dannes', 'At mest mulig av utgangsstoffenes atomer havner i produktet', 'At syntesen er rask', 'At produktet er billig']::text[], 1, 'Et prinsipp i grønn kjemi.', true, false, 9),
+  ('kjemi-2:synteser-utbytte-og-renhet', 'm01', 'sant-usant', 'Et overskudd av én reaktant kan øke utbyttet i en likevektsreaksjon.', array['Sant', 'Usant']::text[], 0, 'Le Châteliers prinsipp.', false, true, 10),
+  ('kjemi-2:synteser-utbytte-og-renhet', 'm02', 'sant-usant', 'Prosentvis utbytte kan normalt være over 100 % for et rent produkt.', array['Sant', 'Usant']::text[], 1, 'Over 100 % tyder på urenheter, for eksempel vann.', false, true, 11),
+  ('kjemi-2:synteser-utbytte-og-renhet', 'm03', 'sant-usant', 'Spektroskopi kan vise hvilke funksjonelle grupper et stoff har.', array['Sant', 'Usant']::text[], 0, 'For eksempel IR-spektroskopi.', false, true, 12),
+  ('kjemi-2:synteser-utbytte-og-renhet', 'm04', 'sant-usant', 'Sidereaksjoner øker utbyttet av ønsket produkt.', array['Sant', 'Usant']::text[], 1, 'De gir biprodukter og lavere utbytte.', false, true, 13),
+  ('kjemi-2:synteser-utbytte-og-renhet', 'm05', 'flervalg', 'Hva brukes en skilletrakt til?', array['Destillasjon', 'Ekstraksjon', 'Titrering', 'Veiing']::text[], 1, 'Skiller to væsker som ikke blandes.', false, true, 14),
+  ('kjemi-2:synteser-utbytte-og-renhet', 'm06', 'flervalg', 'Faktisk utbytte 2,10 g og teoretisk utbytte 2,61 g. Hva er prosentvis utbytte?', array['Omtrent 80 %', 'Omtrent 124 %', 'Omtrent 50 %', 'Omtrent 95 %']::text[], 0, '2,10 / 2,61 · 100.', false, true, 15),
+  ('kjemi-2:synteser-utbytte-og-renhet', 'm07', 'flervalg', 'Hva er opparbeiding?', array['Å veie reaktantene', 'Å varme opp', 'Å skille produktet fra resten av blandingen', 'Å skrive rapport']::text[], 2, 'Før rensingen.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('kjemi-2:synteser-utbytte-og-renhet', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Kjemi 2: Kromatografi
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('kjemi-2:kromatografi', 'kjemi-2', 'kromatografi', 'Kromatografi', 'Prinsippene for kromatografi – stasjonær og mobil fase, polaritet og fordeling – tynnsjiktkromatografi og Rf-verdi, papir-, kolonne-, gass- og væskekromatografi, og hvordan kromatografi brukes til å separere og analysere organiske stoffblandinger.', array[12]::int[], 10, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('kjemi-2:kromatografi', '## Prinsippet
+
+**Kromatografi** er en metode for å **separere** stoffene i en blanding. Alle former for kromatografi har
+
+- en **stasjonær fase**, som står stille – for eksempel en plate belagt med silika, papir eller en kolonne
+- en **mobil fase**, som beveger seg – en væske eller en gass
+
+Stoffene i blandingen **fordeler** seg mellom de to fasene. Stoffer som binder seg **sterkt** til den stasjonære fasen, beveger seg **langsomt**. Stoffer som løser seg **godt** i den mobile fasen, beveger seg **raskt**. Slik blir stoffene **skilt** fra hverandre.
+
+## Polaritet
+
+Hvor sterkt et stoff binder seg, avhenger ofte av **polaritet**. **Silika** er **polar**. Da vil **polare** stoffer bindes sterkere og vandre **kortere**, mens **upolare** stoffer vandrer **lenger** med et upolart løsemiddel. Ved å endre **løsemiddelet** kan vi styre separasjonen.
+
+## Tynnsjiktkromatografi (TLC)
+
+1. En liten dråpe av prøven settes på en **startlinje** på en **TLC-plate**.
+2. Platen settes i et kar med litt **løsemiddel** – elueringsmiddelet – under startlinjen.
+3. Løsemiddelet trekkes oppover, og stoffene vandrer ulikt langt.
+4. Når løsemiddelet nesten har nådd toppen, markeres **løsemiddelfronten**.
+5. Flekkene gjøres synlige, for eksempel med **UV-lys** eller et **fargereagens**.
+
+**Rf-verdien** er
+
+**Rf = avstand stoffet har vandret / avstand løsemiddelfronten har vandret**
+
+**Eksempel**: Et stoff har vandret 3,0 cm, og løsemiddelfronten 6,0 cm. Rf = 3,0 / 6,0 = **0,50**. Rf-verdien er alltid mellom 0 og 1.
+
+Ved å kjøre **kjente referansestoffer** ved siden av prøven kan vi **identifisere** stoffene. **Samme Rf** under samme forhold tyder på samme stoff. Et **rent** stoff gir **én** flekk.
+
+## Andre typer kromatografi
+
+- **Papirkromatografi**: Papir er den stasjonære fasen. Brukes for eksempel til å skille **fargestoffer** i tusj.
+- **Kolonnekromatografi**: En kolonne fylles med silika, og blandingen vaskes gjennom. Stoffene kommer ut **etter tur** og kan **samles opp** – en måte å **rense** større mengder på.
+- **Gasskromatografi (GC)**: Den mobile fasen er en **gass**. Prøven fordampes og føres gjennom en lang, tynn kolonne. Egnet for **flyktige** stoffer.
+- **Væskekromatografi (HPLC)**: Væske presses under **høyt trykk** gjennom en kolonne. Svært **nøyaktig** og mye brukt i legemiddelanalyse.
+
+GC og HPLC kobles ofte til en **massespektrometer**, som identifiserer stoffene.
+
+## Anvendelser
+
+- **Dopingkontroll**: påvise forbudte stoffer i urin eller blod
+- **Rettsmedisin**: analysere narkotika og giftstoffer
+- **Matkontroll**: påvise **tilsetningsstoffer**, sprøytemiddelrester og allergener
+- **Miljøanalyser**: måle forurensning i vann og jord
+- **Legemiddelindustrien**: kontrollere **renhet**
+- **Synteser**: følge med på om en reaksjon er **ferdig**
+
+## Å vurdere resultatene
+
+Feilkilder kan være for **store** prøveflekker, **ujevn** løsemiddelfront eller at startlinjen ligger **under** løsemiddelnivået, slik at prøven løses ut i karet.', '{"label":"Kromatografi","children":[{"label":"Prinsipp","children":[{"label":"Stasjonær fase"},{"label":"Mobil fase"},{"label":"Polaritet"}]},{"label":"TLC","children":[{"label":"Startlinje og front"},{"label":"Rf-verdi"},{"label":"Referansestoffer"}]},{"label":"Typer","children":[{"label":"Papir og kolonne"},{"label":"Gass (GC)"},{"label":"Væske (HPLC)"}]},{"label":"Anvendelser","children":[{"label":"Doping og rettsmedisin"},{"label":"Mat og miljø"},{"label":"Legemidler"}]},{"label":"Feilkilder","children":[{"label":"Store flekker"},{"label":"Startlinje for lav"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'kjemi-2:kromatografi';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('kjemi-2:kromatografi', 'Kromatografi', 'Metode for å separere stoffene i en blanding.', 0),
+  ('kjemi-2:kromatografi', 'Stasjonær fase', 'Fasen som står stille, for eksempel silika eller papir.', 1),
+  ('kjemi-2:kromatografi', 'Mobil fase', 'Fasen som beveger seg, en væske eller gass.', 2),
+  ('kjemi-2:kromatografi', 'Fordeling', 'Hvordan stoffene fordeler seg mellom stasjonær og mobil fase.', 3),
+  ('kjemi-2:kromatografi', 'Silika', 'Polar stasjonær fase på TLC-plater.', 4),
+  ('kjemi-2:kromatografi', 'TLC', 'Tynnsjiktkromatografi.', 5),
+  ('kjemi-2:kromatografi', 'Løsemiddelfront', 'Hvor langt løsemiddelet har vandret.', 6),
+  ('kjemi-2:kromatografi', 'Rf-verdi', 'Stoffets vandring delt på løsemiddelfrontens vandring.', 7),
+  ('kjemi-2:kromatografi', 'Referansestoff', 'Kjent stoff som kjøres ved siden av prøven for å identifisere stoffer.', 8),
+  ('kjemi-2:kromatografi', 'Papirkromatografi', 'Papir som stasjonær fase – brukes for fargestoffer.', 9),
+  ('kjemi-2:kromatografi', 'Kolonnekromatografi', 'Separerer og renser større mengder i en kolonne.', 10),
+  ('kjemi-2:kromatografi', 'Gasskromatografi', 'Gass som mobil fase – for flyktige stoffer.', 11),
+  ('kjemi-2:kromatografi', 'HPLC', 'Væskekromatografi under høyt trykk.', 12),
+  ('kjemi-2:kromatografi', 'Massespektrometer', 'Instrument som identifiserer stoffer, ofte koblet til GC eller HPLC.', 13),
+  ('kjemi-2:kromatografi', 'Dopingkontroll', 'Bruk av kromatografi for å påvise forbudte stoffer.', 14);
+delete from public.quiz_sporsmal where tema_id = 'kjemi-2:kromatografi';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('kjemi-2:kromatografi', 'q01', 'flervalg', 'Hva er den mobile fasen i kromatografi?', array['Fasen som står stille', 'Fasen som beveger seg', 'Prøven', 'Platen']::text[], 1, 'En væske eller gass.', true, true, 0),
+  ('kjemi-2:kromatografi', 'q02', 'flervalg', 'Et stoff har vandret 3,0 cm og løsemiddelfronten 6,0 cm. Hva er Rf?', array['0,50', '2,0', '3,0', '0,33']::text[], 0, '3,0 / 6,0.', true, true, 1),
+  ('kjemi-2:kromatografi', 'q03', 'flervalg', 'Hvilke stoffer vandrer kortest på en polar silikaplate?', array['Upolare stoffer', 'Gasser', 'Polare stoffer', 'Alle vandrer like langt']::text[], 2, 'De bindes sterkt til silika.', true, true, 2),
+  ('kjemi-2:kromatografi', 'q04', 'flervalg', 'Hva tyder det på at en prøve gir én flekk på TLC?', array['At det er mange stoffer', 'At forsøket mislyktes', 'At løsemiddelet var feil', 'At stoffet er rent']::text[], 3, 'Flere flekker tyder på urenheter.', true, true, 3),
+  ('kjemi-2:kromatografi', 'q05', 'flervalg', 'Hvilken type kromatografi bruker gass som mobil fase?', array['Gasskromatografi', 'HPLC', 'Papirkromatografi', 'TLC']::text[], 0, 'Egnet for flyktige stoffer.', true, true, 4),
+  ('kjemi-2:kromatografi', 'q06', 'flervalg', 'Hvordan kan du identifisere et stoff med TLC?', array['Ved å se på fargen alene', 'Ved å sammenligne Rf med kjente referansestoffer', 'Ved å veie platen', 'Ved å lukte']::text[], 1, 'Samme Rf under samme forhold.', true, true, 5),
+  ('kjemi-2:kromatografi', 'q07', 'flervalg', 'Hva kjennetegner HPLC?', array['Gass som mobil fase', 'Papir som stasjonær fase', 'Væske presses under høyt trykk gjennom en kolonne', 'Ingen kolonne']::text[], 2, 'Svært nøyaktig.', true, true, 6),
+  ('kjemi-2:kromatografi', 'q08', 'flervalg', 'Hvilken feilkilde kan ødelegge et TLC-forsøk?', array['At platen er tørr', 'At startlinjen er over løsemiddelet', 'At prøven er liten', 'At startlinjen ligger under løsemiddelnivået']::text[], 3, 'Prøven løses ut i karet.', true, true, 7),
+  ('kjemi-2:kromatografi', 'q09', 'flervalg', 'Hva kan kolonnekromatografi brukes til?', array['Å rense større mengder stoff', 'Å måle temperatur', 'Å veie stoffer', 'Å lage gass']::text[], 0, 'Stoffene samles opp etter tur.', true, false, 8),
+  ('kjemi-2:kromatografi', 'q10', 'flervalg', 'Hva er Rf-verdien alltid?', array['Større enn 1', 'Mellom 0 og 1', 'Negativ', 'Lik 1']::text[], 1, 'Stoffet kan ikke vandre lenger enn fronten.', true, false, 9),
+  ('kjemi-2:kromatografi', 'm01', 'sant-usant', 'Ved å endre løsemiddel kan du styre separasjonen.', array['Sant', 'Usant']::text[], 0, 'Polariteten til den mobile fasen påvirker vandringen.', false, true, 10),
+  ('kjemi-2:kromatografi', 'm02', 'sant-usant', 'Stoffer som binder seg sterkt til den stasjonære fasen, vandrer raskest.', array['Sant', 'Usant']::text[], 1, 'De vandrer langsomst.', false, true, 11),
+  ('kjemi-2:kromatografi', 'm03', 'sant-usant', 'Flekker på TLC-plater kan gjøres synlige med UV-lys.', array['Sant', 'Usant']::text[], 0, 'Eller et fargereagens.', false, true, 12),
+  ('kjemi-2:kromatografi', 'm04', 'sant-usant', 'Kromatografi brukes bare i skolelaboratorier.', array['Sant', 'Usant']::text[], 1, 'Den brukes i doping-, mat- og miljøanalyser.', false, true, 13),
+  ('kjemi-2:kromatografi', 'm05', 'flervalg', 'Hva er papirkromatografi godt egnet til?', array['Flyktige gasser', 'Å skille fargestoffer i tusj', 'Store mengder stoff', 'Metaller']::text[], 1, 'Enkel og billig metode.', false, true, 14),
+  ('kjemi-2:kromatografi', 'm06', 'flervalg', 'Hvilket instrument kobles ofte til GC og HPLC for å identifisere stoffer?', array['Massespektrometer', 'pH-meter', 'Vekt', 'Termometer']::text[], 0, 'Gir molekylenes masse og struktur.', false, true, 15),
+  ('kjemi-2:kromatografi', 'm07', 'flervalg', 'Hvordan kan kromatografi brukes i en syntese?', array['Til å varme opp', 'Til å veie produktet', 'Til å følge med på om reaksjonen er ferdig', 'Til å lage katalysator']::text[], 2, 'Utgangsstoffet forsvinner, produktet dukker opp.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('kjemi-2:kromatografi', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Kjemi 2: Biologiske makromolekyler
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('kjemi-2:biologiske-makromolekyler', 'kjemi-2', 'biologiske-makromolekyler', 'Biologiske makromolekyler', 'Oppbygningen av biologiske makromolekyler – karbohydrater, proteiner, lipider og nukleinsyrer – bindingene som holder dem sammen, proteiners struktur på fire nivåer, og hvordan ytre faktorer som temperatur, pH, salter og tungmetaller kan påvirke molekylenes struktur og egenskaper.', array[13]::int[], 11, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('kjemi-2:biologiske-makromolekyler', '## Makromolekyler
+
+**Makromolekyler** er svært **store** molekyler. Mange er **polymerer** – lange kjeder av små byggesteiner, **monomerer**, som er bundet sammen ved **kondensasjon**. De brytes ned igjen ved **hydrolyse**.
+
+## Karbohydrater
+
+- **Monosakkarider** som **glukose** og **fruktose** er enkle sukkerarter.
+- **Disakkarider** som **sukrose** består av to monosakkarider bundet med en **glykosidbinding**.
+- **Polysakkarider** er lange kjeder av glukose:
+  - **Stivelse** er plantenes **energilager**.
+  - **Glykogen** er energilageret i **lever** og **muskler**.
+  - **Cellulose** gir **struktur** i planteceller. Mennesker kan ikke bryte ned cellulose fordi vi mangler riktig enzym – den blir **kostfiber**.
+
+Forskjellen mellom stivelse og cellulose ligger i **hvordan** glukoseenhetene er bundet sammen.
+
+## Proteiner
+
+**Proteiner** er polymerer av **aminosyrer**. Det finnes **20** vanlige aminosyrer, og de bindes sammen med **peptidbindinger**.
+
+Proteinets struktur har fire nivåer:
+
+1. **Primærstruktur**: **rekkefølgen** av aminosyrer
+2. **Sekundærstruktur**: kjeden folder seg til **heliks** eller **flak**, holdt sammen av **hydrogenbindinger**
+3. **Tertiærstruktur**: den **tredimensjonale** formen, holdt sammen av hydrogenbindinger, **ionebindinger**, **disulfidbroer** og hydrofobe krefter mellom sidekjedene
+4. **Kvartærstruktur**: flere proteinkjeder sammen, som i **hemoglobin**
+
+Proteinets **form** bestemmer **funksjonen** – som enzym, hormon, transportør eller byggemateriale.
+
+## Lipider
+
+**Lipider** er ikke polymerer, men store, **upolare** molekyler.
+
+- **Triglyserider** – fett og olje – består av **glyserol** og tre **fettsyrer** bundet med **esterbindinger**. **Mettede** fettsyrer har bare enkeltbindinger, **umettede** har en eller flere dobbeltbindinger.
+- **Fosfolipider** har et **polart** hode og to **upolare** haler og danner **cellemembraner**.
+
+## Nukleinsyrer
+
+**DNA** og **RNA** er polymerer av **nukleotider**, som består av en **sukkerart**, en **fosfatgruppe** og en **nitrogenbase**. I DNA danner to tråder en **dobbeltheliks** der basene parer seg med **hydrogenbindinger**: **A** med **T** og **C** med **G**.
+
+## Ytre faktorer og denaturering
+
+**Denaturering** betyr at et proteins **tredimensjonale** struktur ødelegges, slik at det mister **funksjonen**. Peptidbindingene – primærstrukturen – er som regel intakte.
+
+- **Høy temperatur**: Når du koker et egg, denatureres eggehviteproteinene og blir faste.
+- **pH-endringer**: Syre eller base endrer **ladningene** på sidekjedene og bryter ionebindinger. Melk **surner** når proteiner feller ut.
+- **Salter** og **tungmetaller** som **kvikksølv** og **bly** kan binde seg til proteiner og ødelegge strukturen – en grunn til at tungmetaller er **giftige**.
+- **Organiske løsemidler** som alkohol kan også denaturere proteiner – derfor virker sprit **desinfiserende**.
+
+Også **DNA** kan skades av **UV-stråling** og kjemikalier, noe som kan gi **mutasjoner**.
+
+## Betydning
+
+Kunnskap om makromolekyler brukes i **medisin**, **ernæring**, **matlaging** og **bioteknologi** – for eksempel når proteiner skal lagres riktig i **vaksiner** og **legemidler**.', '{"label":"Biologiske makromolekyler","children":[{"label":"Karbohydrater","children":[{"label":"Mono- og disakkarider"},{"label":"Stivelse og glykogen"},{"label":"Cellulose"}]},{"label":"Proteiner","children":[{"label":"Aminosyrer og peptidbinding"},{"label":"Fire strukturnivåer"},{"label":"Form og funksjon"}]},{"label":"Lipider","children":[{"label":"Triglyserider"},{"label":"Fosfolipider"}]},{"label":"Nukleinsyrer","children":[{"label":"Nukleotider"},{"label":"Baseparing"}]},{"label":"Ytre faktorer","children":[{"label":"Temperatur og pH"},{"label":"Salter og tungmetaller"},{"label":"Denaturering"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'kjemi-2:biologiske-makromolekyler';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('kjemi-2:biologiske-makromolekyler', 'Makromolekyl', 'Svært stort molekyl, ofte en polymer.', 0),
+  ('kjemi-2:biologiske-makromolekyler', 'Monomer', 'Liten byggestein i en polymer.', 1),
+  ('kjemi-2:biologiske-makromolekyler', 'Glykosidbinding', 'Bindingen mellom sukkerenheter.', 2),
+  ('kjemi-2:biologiske-makromolekyler', 'Stivelse', 'Plantenes energilager av glukose.', 3),
+  ('kjemi-2:biologiske-makromolekyler', 'Glykogen', 'Energilager i lever og muskler.', 4),
+  ('kjemi-2:biologiske-makromolekyler', 'Cellulose', 'Strukturpolysakkarid i planter – kostfiber for mennesker.', 5),
+  ('kjemi-2:biologiske-makromolekyler', 'Aminosyre', 'Byggestein i proteiner – 20 vanlige finnes.', 6),
+  ('kjemi-2:biologiske-makromolekyler', 'Peptidbinding', 'Bindingen mellom aminosyrer.', 7),
+  ('kjemi-2:biologiske-makromolekyler', 'Primærstruktur', 'Rekkefølgen av aminosyrer.', 8),
+  ('kjemi-2:biologiske-makromolekyler', 'Sekundærstruktur', 'Heliks og flak holdt sammen av hydrogenbindinger.', 9),
+  ('kjemi-2:biologiske-makromolekyler', 'Tertiærstruktur', 'Proteinets tredimensjonale form.', 10),
+  ('kjemi-2:biologiske-makromolekyler', 'Kvartærstruktur', 'Flere proteinkjeder sammen, som i hemoglobin.', 11),
+  ('kjemi-2:biologiske-makromolekyler', 'Triglyserid', 'Fett av glyserol og tre fettsyrer bundet med esterbindinger.', 12),
+  ('kjemi-2:biologiske-makromolekyler', 'Fosfolipid', 'Molekyl med polart hode og upolare haler – danner cellemembraner.', 13),
+  ('kjemi-2:biologiske-makromolekyler', 'Nukleotid', 'Byggestein i DNA og RNA: sukker, fosfat og base.', 14),
+  ('kjemi-2:biologiske-makromolekyler', 'Denaturering', 'Proteinets tredimensjonale struktur ødelegges.', 15);
+delete from public.quiz_sporsmal where tema_id = 'kjemi-2:biologiske-makromolekyler';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('kjemi-2:biologiske-makromolekyler', 'q01', 'flervalg', 'Hvordan bindes monomerer sammen til polymerer?', array['Ved hydrolyse', 'Ved kondensasjon', 'Ved elektrolyse', 'Ved destillasjon']::text[], 1, 'Vann spaltes av.', true, true, 0),
+  ('kjemi-2:biologiske-makromolekyler', 'q02', 'flervalg', 'Hvorfor kan ikke mennesker fordøye cellulose?', array['Fordi vi mangler riktig enzym', 'Fordi cellulose ikke inneholder glukose', 'Fordi cellulose er et protein', 'Fordi cellulose er et fett']::text[], 0, 'Den blir kostfiber.', true, true, 1),
+  ('kjemi-2:biologiske-makromolekyler', 'q03', 'flervalg', 'Hva er et proteins primærstruktur?', array['Den tredimensjonale formen', 'Heliks og flak', 'Rekkefølgen av aminosyrer', 'Flere proteinkjeder sammen']::text[], 2, 'Bestemt av genene.', true, true, 2),
+  ('kjemi-2:biologiske-makromolekyler', 'q04', 'flervalg', 'Hva holder sekundærstrukturen sammen?', array['Peptidbindinger alene', 'Glykosidbindinger', 'Esterbindinger', 'Hydrogenbindinger']::text[], 3, 'Mellom deler av kjeden.', true, true, 3),
+  ('kjemi-2:biologiske-makromolekyler', 'q05', 'flervalg', 'Hva skjer når et egg kokes?', array['Proteinene denatureres', 'Proteinene hydrolyseres til aminosyrer', 'Fettet blir til karbohydrat', 'Ingenting kjemisk']::text[], 0, 'Varme ødelegger strukturen.', true, true, 4),
+  ('kjemi-2:biologiske-makromolekyler', 'q06', 'flervalg', 'Hva består et triglyserid av?', array['Glukose og fruktose', 'Glyserol og tre fettsyrer', 'Aminosyrer', 'Nukleotider']::text[], 1, 'Bundet med esterbindinger.', true, true, 5),
+  ('kjemi-2:biologiske-makromolekyler', 'q07', 'flervalg', 'Hvilke baser parer seg i DNA?', array['A med C og T med G', 'A med G og C med T', 'A med T og C med G', 'Alle med alle']::text[], 2, 'Holdt sammen av hydrogenbindinger.', true, true, 6),
+  ('kjemi-2:biologiske-makromolekyler', 'q08', 'flervalg', 'Hvorfor er tungmetaller giftige?', array['De er radioaktive', 'De gir for mye energi', 'De løser seg ikke', 'De kan binde seg til proteiner og ødelegge strukturen']::text[], 3, 'Proteinene mister funksjonen.', true, true, 7),
+  ('kjemi-2:biologiske-makromolekyler', 'q09', 'flervalg', 'Hva danner cellemembraner?', array['Fosfolipider', 'Stivelse', 'Cellulose', 'Glykogen']::text[], 0, 'Polart hode og upolare haler.', true, false, 8),
+  ('kjemi-2:biologiske-makromolekyler', 'q10', 'flervalg', 'Hva skiller umettede fra mettede fettsyrer?', array['Umettede har bare enkeltbindinger', 'Umettede har en eller flere dobbeltbindinger', 'Umettede har mer oksygen', 'Det er ingen forskjell']::text[], 1, 'Påvirker smeltepunktet.', true, false, 9),
+  ('kjemi-2:biologiske-makromolekyler', 'm01', 'sant-usant', 'Ved denaturering er peptidbindingene som regel intakte.', array['Sant', 'Usant']::text[], 0, 'Det er den tredimensjonale strukturen som ødelegges.', false, true, 10),
+  ('kjemi-2:biologiske-makromolekyler', 'm02', 'sant-usant', 'Lipider er lange polymerer av glukose.', array['Sant', 'Usant']::text[], 1, 'Lipider er ikke polymerer.', false, true, 11),
+  ('kjemi-2:biologiske-makromolekyler', 'm03', 'sant-usant', 'Et proteins form bestemmer funksjonen.', array['Sant', 'Usant']::text[], 0, 'Derfor er denaturering så skadelig.', false, true, 12),
+  ('kjemi-2:biologiske-makromolekyler', 'm04', 'sant-usant', 'Stivelse og cellulose er bygd av ulike monosakkarider.', array['Sant', 'Usant']::text[], 1, 'Begge er av glukose, men bundet ulikt.', false, true, 13),
+  ('kjemi-2:biologiske-makromolekyler', 'm05', 'flervalg', 'Hvorfor virker sprit desinfiserende?', array['Det er surt', 'Det denaturerer proteiner i mikroorganismer', 'Det er radioaktivt', 'Det gir mer oksygen']::text[], 1, 'Organiske løsemidler kan denaturere proteiner.', false, true, 14),
+  ('kjemi-2:biologiske-makromolekyler', 'm06', 'flervalg', 'Hvilket protein har kvartærstruktur?', array['Hemoglobin', 'Glukose', 'Cellulose', 'Triglyserid']::text[], 0, 'Flere proteinkjeder sammen.', false, true, 15),
+  ('kjemi-2:biologiske-makromolekyler', 'm07', 'flervalg', 'Hva kan UV-stråling gjøre med DNA?', array['Styrke det', 'Gjøre det til protein', 'Skade det og gi mutasjoner', 'Ingenting']::text[], 2, 'En ytre faktor som påvirker makromolekyler.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('kjemi-2:biologiske-makromolekyler', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Kjemi 2: Metaller, plast og grønn kjemi
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('kjemi-2:metaller-plast-og-gronn-kjemi', 'kjemi-2', 'metaller-plast-og-gronn-kjemi', 'Metaller, plast og grønn kjemi', 'Produksjon, gjenvinning, deponering og nedbrytning av metaller som aluminium og jern og av vanlige plasttyper – addisjons- og kondensasjonspolymerer, mikroplast og bioplast – og hvordan prinsippene for grønn kjemi kan brukes til å vurdere tiltak.', array[14]::int[], 12, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('kjemi-2:metaller-plast-og-gronn-kjemi', '## Metaller
+
+**Metaller** finnes i naturen som **malm**, der metallet er bundet i **forbindelser**, ofte oksider. For å få rent metall må det **reduseres**.
+
+- **Jern** lages i en **masovn** der jernoksid reduseres med **karbon** fra koks. Dette gir store **CO₂-utslipp**. Nye metoder bruker **hydrogen** som reduksjonsmiddel, slik at det dannes **vann** i stedet for CO₂.
+- **Aluminium** lages ved **elektrolyse** av aluminiumoksid løst i smeltet **kryolitt**. Prosessen krever mye **elektrisk energi**. Norge er en stor aluminiumsprodusent fordi landet har mye **vannkraft**.
+
+## Gjenvinning og deponering av metaller
+
+**Gjenvinning** av aluminium krever bare omtrent **5 %** av energien som trengs for å lage nytt. Også **jern**, **kobber** og metaller i **elektronikk** kan gjenvinnes. Metaller som ikke gjenvinnes, havner på **deponi**. Der kan **tungmetaller** som bly, kadmium og kvikksølv lekke ut i jord og vann og skade miljøet.
+
+Metaller brytes ned ved **korrosjon**, men bare **overflaten** endres – metallet forsvinner ikke.
+
+## Plast
+
+**Plast** er **polymerer** – lange kjeder av **monomerer**. De fleste plasttyper lages av **olje** eller **gass**.
+
+- **Addisjonspolymerer** dannes når monomerer med **dobbeltbinding** kobles sammen, for eksempel **polyeten** (PE) i poser og **polypropen** (PP) i bokser.
+- **Kondensasjonspolymerer** dannes når monomerer slås sammen og **vann** spaltes av, for eksempel **PET** i flasker og **nylon**.
+
+**Termoplast** kan smeltes og formes på nytt. **Herdeplast** tåler varme, men kan ikke smeltes om.
+
+## Plast og miljø
+
+- Plast brytes svært **langsomt** ned i naturen – ofte over hundrevis av år.
+- Plast i havet brytes ned til **mikroplast**, som tas opp av dyr og havner i næringskjeden.
+- **Forbrenning** gir energi, men også **CO₂**.
+- **Mekanisk gjenvinning** smelter plasten om, men kvaliteten blir **dårligere** for hver runde. **Kjemisk gjenvinning** bryter polymerene ned til monomerer.
+- **Pantesystemer** for flasker gir høy **innsamling**.
+
+## Bioplast
+
+**Bioplast** kan lages av **fornybare** råstoffer, som mais og sukkerrør. Noen typer er **bionedbrytbare**, men ofte bare under **industrielle** forhold – ikke i havet. Bioplast er derfor ikke alltid en enkel løsning.
+
+## Grønn kjemi
+
+**Grønn kjemi** handler om å designe kjemiske produkter og prosesser som **reduserer** eller **fjerner** bruk og produksjon av farlige stoffer. Noen prinsipper:
+
+- **Forebygge avfall** i stedet for å rydde opp etterpå
+- Høy **atomøkonomi**
+- **Mindre farlige** kjemikalier og løsemidler
+- **Energieffektivitet** – lav temperatur og trykk
+- **Fornybare** råstoffer
+- **Katalysatorer** i stedet for store mengder reagenser
+- Produkter som **brytes ned** til ufarlige stoffer etter bruk
+
+## Å drøfte tiltak
+
+Når du vurderer et tiltak, som å bytte fra plastpose til papirpose eller bioplast, må du se på hele **livsløpet**: råvarer, energi, transport, bruk og hva som skjer når produktet kastes. **Sirkulær økonomi** – å **redusere**, **gjenbruke** og **gjenvinne** – er ofte bedre enn å bare bytte materiale.', '{"label":"Metaller, plast og grønn kjemi","children":[{"label":"Metaller","children":[{"label":"Jern i masovn"},{"label":"Aluminium ved elektrolyse"},{"label":"Hydrogenreduksjon"}]},{"label":"Metallenes livsløp","children":[{"label":"Gjenvinning"},{"label":"Deponi og tungmetaller"}]},{"label":"Plast","children":[{"label":"Addisjonspolymerer"},{"label":"Kondensasjonspolymerer"},{"label":"Termo- og herdeplast"}]},{"label":"Plast og miljø","children":[{"label":"Mikroplast"},{"label":"Gjenvinning"},{"label":"Bioplast"}]},{"label":"Grønn kjemi","children":[{"label":"Forebygge avfall"},{"label":"Atomøkonomi og katalyse"},{"label":"Livsløp og sirkulær økonomi"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'kjemi-2:metaller-plast-og-gronn-kjemi';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('kjemi-2:metaller-plast-og-gronn-kjemi', 'Malm', 'Mineral som metall utvinnes fra.', 0),
+  ('kjemi-2:metaller-plast-og-gronn-kjemi', 'Masovn', 'Ovn der jernoksid reduseres med karbon.', 1),
+  ('kjemi-2:metaller-plast-og-gronn-kjemi', 'Hydrogenreduksjon', 'Jernproduksjon med hydrogen som gir vann i stedet for CO₂.', 2),
+  ('kjemi-2:metaller-plast-og-gronn-kjemi', 'Aluminiumselektrolyse', 'Aluminiumoksid løst i kryolitt reduseres med strøm.', 3),
+  ('kjemi-2:metaller-plast-og-gronn-kjemi', 'Gjenvinning av aluminium', 'Krever bare omtrent 5 % av energien til ny produksjon.', 4),
+  ('kjemi-2:metaller-plast-og-gronn-kjemi', 'Deponi', 'Sted der avfall legges – tungmetaller kan lekke ut.', 5),
+  ('kjemi-2:metaller-plast-og-gronn-kjemi', 'Addisjonspolymer', 'Dannes av monomerer med dobbeltbinding, som polyeten.', 6),
+  ('kjemi-2:metaller-plast-og-gronn-kjemi', 'Kondensasjonspolymer', 'Dannes når vann spaltes av, som PET og nylon.', 7),
+  ('kjemi-2:metaller-plast-og-gronn-kjemi', 'Termoplast', 'Plast som kan smeltes og formes på nytt.', 8),
+  ('kjemi-2:metaller-plast-og-gronn-kjemi', 'Herdeplast', 'Plast som tåler varme, men ikke kan smeltes om.', 9),
+  ('kjemi-2:metaller-plast-og-gronn-kjemi', 'Mikroplast', 'Små plastbiter som havner i næringskjeden.', 10),
+  ('kjemi-2:metaller-plast-og-gronn-kjemi', 'Kjemisk gjenvinning', 'Polymerer brytes ned til monomerer.', 11),
+  ('kjemi-2:metaller-plast-og-gronn-kjemi', 'Bioplast', 'Plast av fornybare råstoffer – ikke alltid nedbrytbar i naturen.', 12),
+  ('kjemi-2:metaller-plast-og-gronn-kjemi', 'Grønn kjemi', 'Kjemi som reduserer eller fjerner farlige stoffer i produkter og prosesser.', 13),
+  ('kjemi-2:metaller-plast-og-gronn-kjemi', 'Livsløpsvurdering', 'Vurdering av miljøbelastning fra råvare til avfall.', 14);
+delete from public.quiz_sporsmal where tema_id = 'kjemi-2:metaller-plast-og-gronn-kjemi';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('kjemi-2:metaller-plast-og-gronn-kjemi', 'q01', 'flervalg', 'Hvordan lages aluminium?', array['I en masovn med karbon', 'Ved elektrolyse av aluminiumoksid løst i kryolitt', 'Ved destillasjon', 'Ved fotosyntese']::text[], 1, 'Krever mye elektrisk energi.', true, true, 0),
+  ('kjemi-2:metaller-plast-og-gronn-kjemi', 'q02', 'flervalg', 'Hvor mye energi krever gjenvinning av aluminium sammenlignet med ny produksjon?', array['Omtrent 5 %', 'Omtrent 50 %', 'Omtrent 100 %', 'Omtrent 200 %']::text[], 0, 'Stor energigevinst.', true, true, 1),
+  ('kjemi-2:metaller-plast-og-gronn-kjemi', 'q03', 'flervalg', 'Hvorfor gir jernproduksjon i masovn store CO₂-utslipp?', array['Fordi jern inneholder CO₂', 'Fordi det brukes elektrolyse', 'Fordi jernoksid reduseres med karbon', 'Fordi det brukes hydrogen']::text[], 2, 'Karbonet blir til CO₂.', true, true, 2),
+  ('kjemi-2:metaller-plast-og-gronn-kjemi', 'q04', 'flervalg', 'Hva er polyeten et eksempel på?', array['Kondensasjonspolymer', 'Metall', 'Bioplast alltid', 'Addisjonspolymer']::text[], 3, 'Laget av eten med dobbeltbinding.', true, true, 3),
+  ('kjemi-2:metaller-plast-og-gronn-kjemi', 'q05', 'flervalg', 'Hva er mikroplast?', array['Små plastbiter som havner i næringskjeden', 'Plast laget av mais', 'Svært sterk plast', 'Plast til elektronikk']::text[], 0, 'Oppstår når plast brytes ned.', true, true, 4),
+  ('kjemi-2:metaller-plast-og-gronn-kjemi', 'q06', 'flervalg', 'Hva skjer med kvaliteten ved mekanisk gjenvinning av plast?', array['Den blir bedre', 'Den blir dårligere for hver runde', 'Den er uendret', 'Plasten blir til metall']::text[], 1, 'Kjemisk gjenvinning kan gi monomerer igjen.', true, true, 5),
+  ('kjemi-2:metaller-plast-og-gronn-kjemi', 'q07', 'flervalg', 'Er bioplast alltid nedbrytbar i havet?', array['Ja, alltid', 'Ja, på få dager', 'Nei, ofte bare under industrielle forhold', 'Nei, den er metall']::text[], 2, 'Ikke en enkel løsning.', true, true, 6),
+  ('kjemi-2:metaller-plast-og-gronn-kjemi', 'q08', 'flervalg', 'Hva er et prinsipp i grønn kjemi?', array['Rydde opp avfall etterpå', 'Bruke mest mulig løsemiddel', 'Høy temperatur og trykk', 'Forebygge avfall']::text[], 3, 'Også atomøkonomi og fornybare råstoffer.', true, true, 7),
+  ('kjemi-2:metaller-plast-og-gronn-kjemi', 'q09', 'flervalg', 'Hva er PET et eksempel på?', array['Kondensasjonspolymer', 'Addisjonspolymer', 'Metall', 'Enzym']::text[], 0, 'Vann spaltes av når den dannes.', true, false, 8),
+  ('kjemi-2:metaller-plast-og-gronn-kjemi', 'q10', 'flervalg', 'Hva må du vurdere når du sammenligner plastpose og papirpose?', array['Bare fargen', 'Hele livsløpet fra råvare til avfall', 'Bare prisen', 'Bare vekten']::text[], 1, 'Livsløpsvurdering.', true, false, 9),
+  ('kjemi-2:metaller-plast-og-gronn-kjemi', 'm01', 'sant-usant', 'Norge er en stor aluminiumsprodusent fordi landet har mye vannkraft.', array['Sant', 'Usant']::text[], 0, 'Elektrolysen krever mye strøm.', false, true, 10),
+  ('kjemi-2:metaller-plast-og-gronn-kjemi', 'm02', 'sant-usant', 'Herdeplast kan smeltes og formes på nytt.', array['Sant', 'Usant']::text[], 1, 'Det kan termoplast.', false, true, 11),
+  ('kjemi-2:metaller-plast-og-gronn-kjemi', 'm03', 'sant-usant', 'Tungmetaller på deponi kan lekke ut i jord og vann.', array['Sant', 'Usant']::text[], 0, 'Derfor bør de gjenvinnes.', false, true, 12),
+  ('kjemi-2:metaller-plast-og-gronn-kjemi', 'm04', 'sant-usant', 'Å bytte materiale er alltid bedre enn å redusere forbruket.', array['Sant', 'Usant']::text[], 1, 'Å redusere og gjenbruke er ofte bedre.', false, true, 13),
+  ('kjemi-2:metaller-plast-og-gronn-kjemi', 'm05', 'flervalg', 'Hva dannes i stedet for CO₂ når jern reduseres med hydrogen?', array['Metan', 'Vann', 'Oksygen', 'Nitrogen']::text[], 1, 'En grønnere prosess.', false, true, 14),
+  ('kjemi-2:metaller-plast-og-gronn-kjemi', 'm06', 'flervalg', 'Hva gir pantesystemer for flasker?', array['Høy innsamling', 'Mer mikroplast', 'Mer deponi', 'Lavere kvalitet']::text[], 0, 'Flaskene kan gjenvinnes.', false, true, 15),
+  ('kjemi-2:metaller-plast-og-gronn-kjemi', 'm07', 'flervalg', 'Hva betyr sirkulær økonomi?', array['Bruk og kast', 'Mer forbrenning', 'Redusere, gjenbruke og gjenvinne', 'Mer deponi']::text[], 2, 'Ressursene holdes i bruk.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('kjemi-2:metaller-plast-og-gronn-kjemi', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Fysikk 2 (vg3): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'fysikk-2' and slug not in ('forsok-usikkerhet-og-forskningssamarbeid', 'numeriske-metoder-og-modellering', 'bevegelse-i-to-dimensjoner', 'sirkelbevegelse', 'gravitasjon-og-sentralfelt', 'elektriske-felt', 'magnetiske-felt', 'elektromagnetisk-induksjon', 'induksjon-og-energiproduksjon', 'relativitetsteori', 'kvantefysikk');
+
+-- Fysikk 2: Forsøk, usikkerhet og internasjonalt forskningssamarbeid
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('fysikk-2:forsok-usikkerhet-og-forskningssamarbeid', 'fysikk-2', 'forsok-usikkerhet-og-forskningssamarbeid', 'Forsøk, usikkerhet og internasjonalt forskningssamarbeid', 'Hvordan du planlegger og videreutvikler forsøk, analyserer data og beregner usikkerhet for å vurdere gyldigheten av funn – hvordan internasjonalt samarbeid ved CERN, LIGO og romteleskopene har gitt ny kunnskap – og hvordan du utforsker og presenterer en selvvalgt problemstilling i fysikk.', array[1, 2, 12]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('fysikk-2:forsok-usikkerhet-og-forskningssamarbeid', '## Planlegge og videreutvikle forsøk
+
+Et godt forsøk starter med en tydelig **problemstilling** og en **hypotese**. Bestem hvilken størrelse du **endrer**, hvilken du **måler**, og hvilke du holder **konstant**. Etter første gjennomføring kan du **videreutvikle** forsøket: flere målinger, bedre utstyr, større måleområde eller en annen metode som reduserer feilkildene.
+
+## Usikkerhet
+
+Alle målinger har **usikkerhet**.
+
+- **Absolutt usikkerhet** oppgis i samme enhet som målingen: l = (2,50 ± 0,02) m.
+- **Relativ usikkerhet** er absolutt usikkerhet delt på målt verdi: 0,02 / 2,50 = 0,8 %.
+
+Når du gjentar en måling flere ganger, brukes **gjennomsnittet** som beste verdi, og **standardavviket** eller halve **variasjonsbredden** som mål på usikkerheten.
+
+## Usikkerhet i beregnede størrelser
+
+- Ved **addisjon** og **subtraksjon** legges de **absolutte** usikkerhetene sammen.
+- Ved **multiplikasjon** og **divisjon** legges de **relative** usikkerhetene sammen.
+- Ved **potens** multipliseres den relative usikkerheten med **eksponenten**.
+
+**Eksempel**: Du måler strekning s = (10,0 ± 0,1) m og tid t = (2,00 ± 0,05) s. Farten er v = 5,00 m/s. Relativ usikkerhet: 1,0 % + 2,5 % = 3,5 %, altså v = (5,00 ± 0,18) m/s.
+
+## Vurdere gyldighet
+
+- **Stemmer** resultatet med teori eller kjente verdier innenfor **usikkerheten**?
+- Viser en **graf** en **lineær** sammenheng? **Linearisering** – for eksempel å plotte s mot t² – gjør det lettere å teste en modell.
+- Finnes det **systematiske** feil, som friksjon eller luftmotstand, som teorien ikke tar med?
+
+## Internasjonalt forskningssamarbeid
+
+Mye ny kunnskap i fysikk kommer fra **store internasjonale** prosjekter som ingen land kunne klart alene.
+
+- **CERN** i Genève, der **Norge** er medlem, driver **LHC** – verdens største partikkelakselerator. I **2012** ble **Higgs-partikkelen** påvist, og den bekreftet hvordan partikler får **masse**.
+- **LIGO** og **Virgo** målte i **2015** for første gang **gravitasjonsbølger** fra to sorte hull som smeltet sammen – en bekreftelse av Einsteins generelle relativitetsteori.
+- **Event Horizon Telescope** koblet radioteleskoper over hele jorda og viste i **2019** det første **bildet** av skyggen av et sort hull.
+- **James Webb-romteleskopet** fra **2021** studerer de første galaksene og atmosfæren til planeter rundt andre stjerner.
+
+Samarbeidet gir **deling** av kostnader og kompetanse, **kontroll** av resultater gjennom mange uavhengige grupper, og **åpne** data. Utfordringer er **kostnader**, **politikk** og at enkeltforskeres bidrag kan bli **usynlige**.
+
+## Selvvalgt problemstilling
+
+Når du utforsker en egen problemstilling:
+
+1. Avgrens problemstillingen og finn relevant **teori**.
+2. Velg metode – **forsøk**, **simulering** eller **teoretisk** analyse.
+3. Samle og **analyser** data med usikkerhet.
+4. Presenter **prinsipper**, **sammenhenger** og **konsekvenser** tydelig, med figurer og en begrunnet konklusjon.', '{"label":"Forsøk og samarbeid","children":[{"label":"Forsøk","children":[{"label":"Hypotese og variabler"},{"label":"Videreutvikling"}]},{"label":"Usikkerhet","children":[{"label":"Absolutt og relativ"},{"label":"Sammensatte størrelser"},{"label":"Gjennomsnitt og standardavvik"}]},{"label":"Gyldighet","children":[{"label":"Linearisering"},{"label":"Systematiske feil"}]},{"label":"Samarbeid","children":[{"label":"CERN og Higgs"},{"label":"LIGO"},{"label":"EHT og James Webb"}]},{"label":"Egen problemstilling","children":[{"label":"Teori og metode"},{"label":"Presentasjon"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'fysikk-2:forsok-usikkerhet-og-forskningssamarbeid';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('fysikk-2:forsok-usikkerhet-og-forskningssamarbeid', 'Hypotese', 'Testbar påstand om en sammenheng.', 0),
+  ('fysikk-2:forsok-usikkerhet-og-forskningssamarbeid', 'Absolutt usikkerhet', 'Usikkerheten i samme enhet som målingen.', 1),
+  ('fysikk-2:forsok-usikkerhet-og-forskningssamarbeid', 'Relativ usikkerhet', 'Absolutt usikkerhet delt på målt verdi.', 2),
+  ('fysikk-2:forsok-usikkerhet-og-forskningssamarbeid', 'Standardavvik', 'Mål på spredningen i gjentatte målinger.', 3),
+  ('fysikk-2:forsok-usikkerhet-og-forskningssamarbeid', 'Usikkerhet ved addisjon', 'De absolutte usikkerhetene legges sammen.', 4),
+  ('fysikk-2:forsok-usikkerhet-og-forskningssamarbeid', 'Usikkerhet ved multiplikasjon', 'De relative usikkerhetene legges sammen.', 5),
+  ('fysikk-2:forsok-usikkerhet-og-forskningssamarbeid', 'Linearisering', 'Å plotte størrelser slik at sammenhengen blir en rett linje.', 6),
+  ('fysikk-2:forsok-usikkerhet-og-forskningssamarbeid', 'Systematisk feil', 'Feil som trekker resultatet i én retning.', 7),
+  ('fysikk-2:forsok-usikkerhet-og-forskningssamarbeid', 'Gyldighet', 'Om funnene faktisk støtter konklusjonen.', 8),
+  ('fysikk-2:forsok-usikkerhet-og-forskningssamarbeid', 'CERN', 'Europeisk forskningssenter for partikkelfysikk der Norge er medlem.', 9),
+  ('fysikk-2:forsok-usikkerhet-og-forskningssamarbeid', 'Higgs-partikkelen', 'Påvist ved CERN i 2012 – forklarer hvordan partikler får masse.', 10),
+  ('fysikk-2:forsok-usikkerhet-og-forskningssamarbeid', 'LIGO', 'Detektor som målte gravitasjonsbølger i 2015.', 11),
+  ('fysikk-2:forsok-usikkerhet-og-forskningssamarbeid', 'Gravitasjonsbølger', 'Krusninger i romtiden fra for eksempel sorte hull som smelter sammen.', 12),
+  ('fysikk-2:forsok-usikkerhet-og-forskningssamarbeid', 'Event Horizon Telescope', 'Globalt nettverk av teleskoper som avbildet et sort hull i 2019.', 13),
+  ('fysikk-2:forsok-usikkerhet-og-forskningssamarbeid', 'James Webb-romteleskopet', 'Romteleskop fra 2021 som studerer de første galaksene.', 14);
+delete from public.quiz_sporsmal where tema_id = 'fysikk-2:forsok-usikkerhet-og-forskningssamarbeid';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('fysikk-2:forsok-usikkerhet-og-forskningssamarbeid', 'q01', 'flervalg', 'Hva er relativ usikkerhet?', array['Usikkerheten i samme enhet som målingen', 'Absolutt usikkerhet delt på målt verdi', 'Forskjellen mellom to målinger', 'Antall målinger']::text[], 1, 'Oppgis ofte i prosent.', true, true, 0),
+  ('fysikk-2:forsok-usikkerhet-og-forskningssamarbeid', 'q02', 'flervalg', 'Hvordan finner du usikkerheten i et produkt av to målte størrelser?', array['Legger sammen de relative usikkerhetene', 'Legger sammen de absolutte usikkerhetene', 'Multipliserer usikkerhetene', 'Tar den største']::text[], 0, 'Gjelder også divisjon.', true, true, 1),
+  ('fysikk-2:forsok-usikkerhet-og-forskningssamarbeid', 'q03', 'flervalg', 's = (10,0 ± 0,1) m og t = (2,00 ± 0,05) s. Hva er relativ usikkerhet i v = s/t?', array['1,0 %', '2,5 %', '3,5 %', '0,15 %']::text[], 2, '1,0 % + 2,5 %.', true, true, 2),
+  ('fysikk-2:forsok-usikkerhet-og-forskningssamarbeid', 'q04', 'flervalg', 'Hva ble påvist ved CERN i 2012?', array['Gravitasjonsbølger', 'Et sort hull', 'Mørk materie', 'Higgs-partikkelen']::text[], 3, 'Med LHC-akseleratoren.', true, true, 3),
+  ('fysikk-2:forsok-usikkerhet-og-forskningssamarbeid', 'q05', 'flervalg', 'Hva målte LIGO i 2015?', array['Gravitasjonsbølger', 'Higgs-partikkelen', 'Lysfarten', 'Nøytrinoer']::text[], 0, 'Fra to sorte hull som smeltet sammen.', true, true, 4),
+  ('fysikk-2:forsok-usikkerhet-og-forskningssamarbeid', 'q06', 'flervalg', 'Hvorfor er linearisering nyttig?', array['Den fjerner all usikkerhet', 'Den gjør det lettere å teste en modell med en rett linje', 'Den gjør grafen penere', 'Den erstatter målinger']::text[], 1, 'For eksempel s mot t².', true, true, 5),
+  ('fysikk-2:forsok-usikkerhet-og-forskningssamarbeid', 'q07', 'flervalg', 'Hva er en fordel med internasjonalt forskningssamarbeid?', array['Færre forskere', 'Mindre kontroll', 'Deling av kostnader og kontroll av resultater', 'Hemmelige data']::text[], 2, 'Store prosjekter krever mange land.', true, true, 6),
+  ('fysikk-2:forsok-usikkerhet-og-forskningssamarbeid', 'q08', 'flervalg', 'Hva viste Event Horizon Telescope i 2019?', array['Higgs-partikkelen', 'De første galaksene', 'Gravitasjonsbølger', 'Det første bildet av skyggen av et sort hull']::text[], 3, 'Teleskoper over hele jorda ble koblet sammen.', true, true, 7),
+  ('fysikk-2:forsok-usikkerhet-og-forskningssamarbeid', 'q09', 'flervalg', 'Hvordan legges usikkerheter sammen ved addisjon av målte størrelser?', array['De absolutte usikkerhetene legges sammen', 'De relative usikkerhetene legges sammen', 'De multipliseres', 'De ignoreres']::text[], 0, 'Også ved subtraksjon.', true, false, 8),
+  ('fysikk-2:forsok-usikkerhet-og-forskningssamarbeid', 'q10', 'flervalg', 'Når er et resultat i samsvar med teorien?', array['Når det er nøyaktig likt', 'Når avviket er innenfor usikkerheten', 'Når det er større', 'Aldri']::text[], 1, 'Usikkerheten avgjør.', true, false, 9),
+  ('fysikk-2:forsok-usikkerhet-og-forskningssamarbeid', 'm01', 'sant-usant', 'Norge er medlem av CERN.', array['Sant', 'Usant']::text[], 0, 'Norske forskere deltar i eksperimentene.', false, true, 10),
+  ('fysikk-2:forsok-usikkerhet-og-forskningssamarbeid', 'm02', 'sant-usant', 'Ved potens legges usikkerhetene bare sammen uten å ta hensyn til eksponenten.', array['Sant', 'Usant']::text[], 1, 'Relativ usikkerhet multipliseres med eksponenten.', false, true, 11),
+  ('fysikk-2:forsok-usikkerhet-og-forskningssamarbeid', 'm03', 'sant-usant', 'Gravitasjonsbølgene som ble målt, bekreftet Einsteins generelle relativitetsteori.', array['Sant', 'Usant']::text[], 0, 'Forutsagt rundt hundre år tidligere.', false, true, 12),
+  ('fysikk-2:forsok-usikkerhet-og-forskningssamarbeid', 'm04', 'sant-usant', 'Et enkelt land kunne lett bygget LHC alene.', array['Sant', 'Usant']::text[], 1, 'Prosjektet krever mange lands samarbeid.', false, true, 13),
+  ('fysikk-2:forsok-usikkerhet-og-forskningssamarbeid', 'm05', 'flervalg', 'Hva er absolutt usikkerhet i l = (2,50 ± 0,02) m?', array['0,8 %', '0,02 m', '2,50 m', '0,08 m']::text[], 1, 'Samme enhet som målingen.', false, true, 14),
+  ('fysikk-2:forsok-usikkerhet-og-forskningssamarbeid', 'm06', 'flervalg', 'Hva studerer James Webb-romteleskopet blant annet?', array['De første galaksene', 'Partikkelkollisjoner', 'Jordskjelv', 'Havstrømmer']::text[], 0, 'Og atmosfæren til eksoplaneter.', false, true, 15),
+  ('fysikk-2:forsok-usikkerhet-og-forskningssamarbeid', 'm07', 'flervalg', 'Hva er et eksempel på systematisk feil i et falleforsøk?', array['Tilfeldig reaksjonstid', 'Avlesningsvariasjon', 'Luftmotstand som teorien ikke tar med', 'At man måler flere ganger']::text[], 2, 'Trekker resultatet i én retning.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('fysikk-2:forsok-usikkerhet-og-forskningssamarbeid', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Fysikk 2: Numeriske metoder og modellering
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('fysikk-2:numeriske-metoder-og-modellering', 'fysikk-2', 'numeriske-metoder-og-modellering', 'Numeriske metoder og modellering', 'Hvordan numeriske metoder og programmering brukes til å modellere fysiske fenomener som ikke kan løses analytisk – Eulers metode, tidssteg og nøyaktighet, bevegelse med luftmotstand, bevegelse i to dimensjoner og planetbaner – og hvordan modeller vurderes mot målinger.', array[3]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('fysikk-2:numeriske-metoder-og-modellering', '## Hvorfor numeriske metoder?
+
+Mange problemer i fysikk kan ikke løses med en enkel **formel**. Når **luftmotstanden** varierer med farten, eller når en planet trekkes av **flere** himmellegemer, må vi i stedet regne oss fram **steg for steg**. Dette kalles **numeriske metoder**, og vi bruker ofte **programmering** til det.
+
+## Eulers metode
+
+Ideen er å dele tiden inn i små **tidssteg** Δt. For hvert steg:
+
+1. Regn ut **kreftene** på legemet.
+2. Finn **akselerasjonen** med Newtons andre lov: a = ΣF / m.
+3. Oppdater **farten**: v_ny = v + a · Δt.
+4. Oppdater **posisjonen**: x_ny = x + v · Δt.
+5. Øk **tiden** med Δt og gjenta.
+
+Metoden antar at akselerasjonen er **konstant** innenfor hvert lite tidssteg.
+
+## Tidssteg og nøyaktighet
+
+- Et **lite** tidssteg gir **mer nøyaktige** resultater, men krever **flere** beregninger.
+- Et **stort** tidssteg gir raskere beregning, men kan gi **feil** som vokser over tid – for eksempel en planetbane som ikke lukker seg.
+
+En god test er å **halvere** tidssteget: Hvis resultatet nesten ikke endres, er tidssteget lite nok.
+
+## Eksempel: fall med luftmotstand
+
+For et legeme som faller med luftmotstand kan vi bruke modellen **L = k · v²**. Da er
+
+ΣF = mg − kv², så a = g − (k/m) · v².
+
+Når farten øker, øker luftmotstanden, og akselerasjonen **avtar**. Til slutt er luftmotstanden like stor som tyngden, og legemet når **terminalfarten** v_t = √(mg/k). Simuleringen viser farten som en kurve som **flater ut**.
+
+## Bevegelse i to dimensjoner
+
+I to dimensjoner regner vi med **x-** og **y-komponenter** hver for seg. For et skrått kast med luftmotstand virker luftmotstanden **mot** fartsretningen, så både x- og y-komponenten av farten påvirkes. Simuleringen viser at kastet blir **kortere** og banen **usymmetrisk** sammenlignet med kast uten luftmotstand.
+
+## Planetbaner
+
+For en planet rundt sola regnes gravitasjonskraften ut fra **avstanden** i hvert tidssteg. Programmet kan vise **ellipsebaner**, og vi kan teste **Keplers lover** eller se hva som skjer med ulike **startfarter**.
+
+## Programmering
+
+Et enkelt program – for eksempel i **Python** – har ofte
+
+- **startverdier**: masse, posisjon, fart og tidssteg
+- en **løkke** som gjentar beregningene
+- **lister** som lagrer tid, posisjon og fart
+- et **plott** av resultatene
+
+## Vurdere modellen
+
+En modell er en **forenkling**. Sammenlign simuleringen med **målinger**, for eksempel video av en fallende kaffefilter. Stemmer den ikke, kan du justere **parametere** som k, eller endre **modellen** – kanskje L = k · v passer bedre ved lave farter.', '{"label":"Numeriske metoder","children":[{"label":"Eulers metode","children":[{"label":"Krefter og akselerasjon"},{"label":"Oppdater fart og posisjon"}]},{"label":"Tidssteg","children":[{"label":"Lite gir nøyaktighet"},{"label":"Halveringstest"}]},{"label":"Eksempler","children":[{"label":"Fall med luftmotstand"},{"label":"Skrått kast"},{"label":"Planetbaner"}]},{"label":"Programmering","children":[{"label":"Startverdier"},{"label":"Løkke og lister"},{"label":"Plott"}]},{"label":"Vurdering","children":[{"label":"Sammenlign med målinger"},{"label":"Juster parametere"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'fysikk-2:numeriske-metoder-og-modellering';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('fysikk-2:numeriske-metoder-og-modellering', 'Numerisk metode', 'Å regne seg fram steg for steg i stedet for med en formel.', 0),
+  ('fysikk-2:numeriske-metoder-og-modellering', 'Tidssteg Δt', 'Den lille tidsperioden hvert beregningssteg dekker.', 1),
+  ('fysikk-2:numeriske-metoder-og-modellering', 'Eulers metode', 'Oppdaterer fart og posisjon med a · Δt og v · Δt.', 2),
+  ('fysikk-2:numeriske-metoder-og-modellering', 'Oppdatering av fart', 'v_ny = v + a · Δt.', 3),
+  ('fysikk-2:numeriske-metoder-og-modellering', 'Oppdatering av posisjon', 'x_ny = x + v · Δt.', 4),
+  ('fysikk-2:numeriske-metoder-og-modellering', 'Lite tidssteg', 'Gir mer nøyaktige resultater, men flere beregninger.', 5),
+  ('fysikk-2:numeriske-metoder-og-modellering', 'Halvering av tidssteget', 'Test av om tidssteget er lite nok.', 6),
+  ('fysikk-2:numeriske-metoder-og-modellering', 'Luftmotstand L = kv²', 'Vanlig modell for luftmotstand ved høy fart.', 7),
+  ('fysikk-2:numeriske-metoder-og-modellering', 'Terminalfart', 'Fart der luftmotstanden er like stor som tyngden.', 8),
+  ('fysikk-2:numeriske-metoder-og-modellering', 'Komponenter', 'x- og y-deler av en vektor som regnes hver for seg.', 9),
+  ('fysikk-2:numeriske-metoder-og-modellering', 'Løkke', 'Programdel som gjentar beregningene.', 10),
+  ('fysikk-2:numeriske-metoder-og-modellering', 'Parameter', 'Konstant i modellen som kan justeres, som k.', 11),
+  ('fysikk-2:numeriske-metoder-og-modellering', 'Simulering', 'Datamodell som etterligner et fysisk fenomen.', 12),
+  ('fysikk-2:numeriske-metoder-og-modellering', 'Ellipsebane', 'Banen til en planet rundt sola.', 13),
+  ('fysikk-2:numeriske-metoder-og-modellering', 'Modellvurdering', 'Sammenligning av simulering og målinger.', 14);
+delete from public.quiz_sporsmal where tema_id = 'fysikk-2:numeriske-metoder-og-modellering';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('fysikk-2:numeriske-metoder-og-modellering', 'q01', 'flervalg', 'Hvorfor bruker vi numeriske metoder?', array['Fordi formler er for enkle', 'Fordi mange problemer ikke kan løses med en enkel formel', 'Fordi datamaskiner alltid har rett', 'For å slippe fysikk']::text[], 1, 'For eksempel varierende luftmotstand.', true, true, 0),
+  ('fysikk-2:numeriske-metoder-og-modellering', 'q02', 'flervalg', 'Hvordan oppdateres farten i Eulers metode?', array['v_ny = v + a · Δt', 'v_ny = v · a', 'v_ny = x / t', 'v_ny = a / Δt']::text[], 0, 'Akselerasjonen antas konstant i hvert steg.', true, true, 1),
+  ('fysikk-2:numeriske-metoder-og-modellering', 'q03', 'flervalg', 'Hva skjer hvis tidssteget er for stort?', array['Beregningen blir mer nøyaktig', 'Ingenting', 'Feilene kan vokse over tid', 'Programmet stopper alltid']::text[], 2, 'For eksempel planetbaner som ikke lukker seg.', true, true, 2),
+  ('fysikk-2:numeriske-metoder-og-modellering', 'q04', 'flervalg', 'Hva er terminalfart?', array['Farten ved start', 'Farten ved landing alltid', 'Maksimal lysfart', 'Farten der luftmotstanden er like stor som tyngden']::text[], 3, 'v_t = √(mg/k) med L = kv².', true, true, 3),
+  ('fysikk-2:numeriske-metoder-og-modellering', 'q05', 'flervalg', 'Hvordan kan du teste om tidssteget er lite nok?', array['Halvere det og se om resultatet endres lite', 'Doble det', 'Fjerne løkken', 'Endre massen']::text[], 0, 'Liten endring tyder på god nøyaktighet.', true, true, 4),
+  ('fysikk-2:numeriske-metoder-og-modellering', 'q06', 'flervalg', 'Hva er akselerasjonen for et fallende legeme med luftmotstand L = kv²?', array['a = g', 'a = g − (k/m) · v²', 'a = kv²', 'a = 0 alltid']::text[], 1, 'Fra Newtons andre lov.', true, true, 5),
+  ('fysikk-2:numeriske-metoder-og-modellering', 'q07', 'flervalg', 'Hvordan påvirker luftmotstand et skrått kast?', array['Kastet blir lengre', 'Banen blir helt symmetrisk', 'Kastet blir kortere og banen usymmetrisk', 'Ingen påvirkning']::text[], 2, 'Luftmotstanden virker mot fartsretningen.', true, true, 6),
+  ('fysikk-2:numeriske-metoder-og-modellering', 'q08', 'flervalg', 'Hva gjør en løkke i et simuleringsprogram?', array['Tegner plottet', 'Lagrer startverdiene', 'Stopper programmet', 'Gjentar beregningene for hvert tidssteg']::text[], 3, 'Kjernen i Eulers metode.', true, true, 7),
+  ('fysikk-2:numeriske-metoder-og-modellering', 'q09', 'flervalg', 'Hva gjør du hvis simuleringen ikke stemmer med målingene?', array['Justerer parametere eller endrer modellen', 'Endrer målingene', 'Ignorerer det', 'Bruker større tidssteg']::text[], 0, 'En modell er en forenkling.', true, false, 8),
+  ('fysikk-2:numeriske-metoder-og-modellering', 'q10', 'flervalg', 'Hvordan regner vi med bevegelse i to dimensjoner numerisk?', array['Bare i x-retning', 'Med x- og y-komponenter hver for seg', 'Bare med farten', 'Uten krefter']::text[], 1, 'Komponentvis oppdatering.', true, false, 9),
+  ('fysikk-2:numeriske-metoder-og-modellering', 'm01', 'sant-usant', 'Eulers metode antar at akselerasjonen er konstant innenfor hvert tidssteg.', array['Sant', 'Usant']::text[], 0, 'Derfor må tidssteget være lite.', false, true, 10),
+  ('fysikk-2:numeriske-metoder-og-modellering', 'm02', 'sant-usant', 'Et større tidssteg gir alltid mer nøyaktige resultater.', array['Sant', 'Usant']::text[], 1, 'Mindre tidssteg gir mer nøyaktighet.', false, true, 11),
+  ('fysikk-2:numeriske-metoder-og-modellering', 'm03', 'sant-usant', 'Numeriske simuleringer kan vise ellipsebaner for planeter.', array['Sant', 'Usant']::text[], 0, 'Gravitasjonen regnes ut i hvert steg.', false, true, 12),
+  ('fysikk-2:numeriske-metoder-og-modellering', 'm04', 'sant-usant', 'En simulering er alltid en perfekt gjengivelse av virkeligheten.', array['Sant', 'Usant']::text[], 1, 'En modell er en forenkling.', false, true, 13),
+  ('fysikk-2:numeriske-metoder-og-modellering', 'm05', 'flervalg', 'Hvilket uttrykk gir terminalfarten når L = kv²?', array['v_t = mg/k', 'v_t = √(mg/k)', 'v_t = k/mg', 'v_t = g · t']::text[], 1, 'Når mg = kv².', false, true, 14),
+  ('fysikk-2:numeriske-metoder-og-modellering', 'm06', 'flervalg', 'Hvilken modell for luftmotstand passer ofte bedre ved lave farter?', array['L = k · v', 'L = k · v³', 'L = 0', 'L = mg']::text[], 0, 'Proporsjonal med farten.', false, true, 15),
+  ('fysikk-2:numeriske-metoder-og-modellering', 'm07', 'flervalg', 'Hva lagrer vi i lister i et simuleringsprogram?', array['Bare startverdien', 'Bare kodelinjer', 'Tid, posisjon og fart for hvert steg', 'Feilmeldinger']::text[], 2, 'Brukes til plottet.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('fysikk-2:numeriske-metoder-og-modellering', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Fysikk 2: Bevegelse i to dimensjoner
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('fysikk-2:bevegelse-i-to-dimensjoner', 'fysikk-2', 'bevegelse-i-to-dimensjoner', 'Bevegelse i to dimensjoner', 'Posisjon, fart og akselerasjon som vektorer, dekomponering, skrått kast uten luftmotstand med bevegelsesligninger for x- og y-retning, maksimal høyde, flytid og rekkevidde – og hvordan luftmotstand endrer banen.', array[4]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('fysikk-2:bevegelse-i-to-dimensjoner', '## Vektorer
+
+I to dimensjoner er **posisjon**, **fart** og **akselerasjon** **vektorer** – de har både **størrelse** og **retning**. En vektor kan **dekomponeres** i en **x-komponent** og en **y-komponent**.
+
+For en fart v₀ med vinkel α over horisontalen:
+
+- v₀ₓ = v₀ · cos α
+- v₀ᵧ = v₀ · sin α
+
+Omvendt finner vi størrelsen med **Pytagoras**: v = √(vₓ² + vᵧ²).
+
+## Skrått kast uten luftmotstand
+
+Når vi ser bort fra luftmotstand, er den eneste kraften **tyngden**, som virker **loddrett nedover**. Derfor kan bevegelsen deles i to **uavhengige** bevegelser:
+
+**Horisontalt (x)**: ingen kraft, **konstant fart**
+
+- vₓ = v₀ₓ
+- x = v₀ₓ · t
+
+**Vertikalt (y)**: konstant akselerasjon −g
+
+- vᵧ = v₀ᵧ − g · t
+- y = v₀ᵧ · t − ½ · g · t²
+
+Banen blir en **parabel**.
+
+## Maksimal høyde, flytid og rekkevidde
+
+- I **toppunktet** er vᵧ = 0. Tiden dit er t_topp = v₀ᵧ / g.
+- **Maksimal høyde**: h = v₀ᵧ² / (2g).
+- Når kastet starter og slutter i **samme høyde**, er **flytiden** 2 · t_topp.
+- **Rekkevidden** på flat mark er R = v₀² · sin(2α) / g. Den er **størst** ved **45°**.
+
+**Eksempel**: En ball kastes med v₀ = 20 m/s og α = 30°.
+
+- v₀ₓ = 20 · cos 30° ≈ 17,3 m/s og v₀ᵧ = 20 · sin 30° = 10,0 m/s
+- t_topp = 10,0 / 9,81 ≈ 1,02 s
+- h = 10,0² / (2 · 9,81) ≈ 5,1 m
+- Flytid ≈ 2,04 s
+- Rekkevidde ≈ 17,3 · 2,04 ≈ 35 m
+
+## Horisontalt kast
+
+Et **horisontalt** kast – for eksempel en ball som ruller utfor et bord – har v₀ᵧ = 0. Tiden til bakken avhenger bare av **høyden**, ikke av den horisontale farten. En kule som slippes og en kule som skytes horisontalt fra samme høyde, treffer bakken **samtidig**.
+
+## Fart og retning underveis
+
+Farten i et punkt er v = √(vₓ² + vᵧ²), og vinkelen med horisontalen er gitt ved tan θ = vᵧ / vₓ. I toppunktet er farten **minst**, men ikke null – den er lik vₓ.
+
+## Med luftmotstand
+
+I virkeligheten gir **luftmotstand** en kraft **mot** fartsretningen. Da
+
+- blir kastet **kortere** og **lavere**
+- blir banen **usymmetrisk** – nedturen er brattere enn oppturen
+- er den beste kastevinkelen ofte **mindre** enn 45°
+
+Slike baner kan modelleres **numerisk**. I idrett som **kulestøt**, **golf** og **fotball** spiller også **utgangshøyde**, **spinn** og **vind** en rolle.', '{"label":"Bevegelse i to dimensjoner","children":[{"label":"Vektorer","children":[{"label":"Dekomponering"},{"label":"Pytagoras"}]},{"label":"Skrått kast","children":[{"label":"Konstant vₓ"},{"label":"Akselerasjon −g i y"},{"label":"Parabel"}]},{"label":"Nøkkelstørrelser","children":[{"label":"Toppunkt og høyde"},{"label":"Flytid"},{"label":"Rekkevidde og 45°"}]},{"label":"Horisontalt kast","children":[{"label":"v₀ᵧ = 0"},{"label":"Falltid fra høyden"}]},{"label":"Luftmotstand","children":[{"label":"Kortere og usymmetrisk"},{"label":"Numerisk modell"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'fysikk-2:bevegelse-i-to-dimensjoner';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('fysikk-2:bevegelse-i-to-dimensjoner', 'Vektor', 'Størrelse med både verdi og retning.', 0),
+  ('fysikk-2:bevegelse-i-to-dimensjoner', 'Dekomponering', 'Å dele en vektor i x- og y-komponenter.', 1),
+  ('fysikk-2:bevegelse-i-to-dimensjoner', 'v₀ₓ', 'v₀ · cos α.', 2),
+  ('fysikk-2:bevegelse-i-to-dimensjoner', 'v₀ᵧ', 'v₀ · sin α.', 3),
+  ('fysikk-2:bevegelse-i-to-dimensjoner', 'Skrått kast', 'Konstant fart horisontalt og konstant akselerasjon vertikalt.', 4),
+  ('fysikk-2:bevegelse-i-to-dimensjoner', 'Parabel', 'Banen til et skrått kast uten luftmotstand.', 5),
+  ('fysikk-2:bevegelse-i-to-dimensjoner', 'x = v₀ₓ · t', 'Horisontal posisjon i et skrått kast.', 6),
+  ('fysikk-2:bevegelse-i-to-dimensjoner', 'y = v₀ᵧt − ½gt²', 'Vertikal posisjon i et skrått kast.', 7),
+  ('fysikk-2:bevegelse-i-to-dimensjoner', 'Toppunkt', 'Punktet der vᵧ = 0.', 8),
+  ('fysikk-2:bevegelse-i-to-dimensjoner', 'Maksimal høyde', 'h = v₀ᵧ² / (2g).', 9),
+  ('fysikk-2:bevegelse-i-to-dimensjoner', 'Rekkevidde', 'R = v₀² · sin(2α) / g på flat mark.', 10),
+  ('fysikk-2:bevegelse-i-to-dimensjoner', '45°', 'Gir størst rekkevidde uten luftmotstand på flat mark.', 11),
+  ('fysikk-2:bevegelse-i-to-dimensjoner', 'Horisontalt kast', 'Kast med v₀ᵧ = 0 – falltiden avhenger bare av høyden.', 12),
+  ('fysikk-2:bevegelse-i-to-dimensjoner', 'Uavhengige bevegelser', 'x- og y-bevegelsen kan behandles hver for seg.', 13),
+  ('fysikk-2:bevegelse-i-to-dimensjoner', 'Luftmotstand i kast', 'Gir kortere, lavere og usymmetrisk bane.', 14);
+delete from public.quiz_sporsmal where tema_id = 'fysikk-2:bevegelse-i-to-dimensjoner';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('fysikk-2:bevegelse-i-to-dimensjoner', 'q01', 'flervalg', 'Hvilken kraft virker på et skrått kast uten luftmotstand?', array['En horisontal kraft', 'Bare tyngden', 'Ingen krefter', 'Tyngden og en fremoverkraft']::text[], 1, 'Derfor er vₓ konstant.', true, true, 0),
+  ('fysikk-2:bevegelse-i-to-dimensjoner', 'q02', 'flervalg', 'En ball kastes med 20 m/s i 30°. Hva er v₀ᵧ?', array['10,0 m/s', '17,3 m/s', '20 m/s', '5,0 m/s']::text[], 0, '20 · sin 30°.', true, true, 1),
+  ('fysikk-2:bevegelse-i-to-dimensjoner', 'q03', 'flervalg', 'Hva er vᵧ i toppunktet?', array['Lik v₀', 'Lik g', 'Null', 'Negativ']::text[], 2, 'Ballen snur i vertikal retning.', true, true, 2),
+  ('fysikk-2:bevegelse-i-to-dimensjoner', 'q04', 'flervalg', 'Hvilken vinkel gir størst rekkevidde uten luftmotstand på flat mark?', array['30°', '60°', '90°', '45°']::text[], 3, 'sin(2α) er størst når α = 45°.', true, true, 3),
+  ('fysikk-2:bevegelse-i-to-dimensjoner', 'q05', 'flervalg', 'Hva er maksimal høyde når v₀ᵧ = 10,0 m/s?', array['Omtrent 5,1 m', 'Omtrent 10 m', 'Omtrent 1,0 m', 'Omtrent 20 m']::text[], 0, 'h = v₀ᵧ² / (2g).', true, true, 4),
+  ('fysikk-2:bevegelse-i-to-dimensjoner', 'q06', 'flervalg', 'En kule slippes, og en annen skytes horisontalt fra samme høyde. Hvilken lander først?', array['Den som slippes', 'De lander samtidig', 'Den som skytes', 'Det avhenger av massen']::text[], 1, 'Falltiden avhenger bare av høyden.', true, true, 5),
+  ('fysikk-2:bevegelse-i-to-dimensjoner', 'q07', 'flervalg', 'Hva er farten i toppunktet av et skrått kast?', array['Null', 'Lik v₀', 'Lik vₓ', 'Lik g']::text[], 2, 'Bare den horisontale komponenten gjenstår.', true, true, 6),
+  ('fysikk-2:bevegelse-i-to-dimensjoner', 'q08', 'flervalg', 'Hvordan påvirker luftmotstand banen?', array['Den blir lengre', 'Den blir symmetrisk', 'Den blir høyere', 'Den blir kortere, lavere og usymmetrisk']::text[], 3, 'Kraften virker mot fartsretningen.', true, true, 7),
+  ('fysikk-2:bevegelse-i-to-dimensjoner', 'q09', 'flervalg', 'Hvilken form har banen uten luftmotstand?', array['Parabel', 'Sirkel', 'Rett linje', 'Ellipse']::text[], 0, 'y er en andregradsfunksjon av x.', true, false, 8),
+  ('fysikk-2:bevegelse-i-to-dimensjoner', 'q10', 'flervalg', 'Hvordan finner du farten når du kjenner vₓ og vᵧ?', array['v = vₓ + vᵧ', 'v = √(vₓ² + vᵧ²)', 'v = vₓ · vᵧ', 'v = vᵧ / vₓ']::text[], 1, 'Pytagoras.', true, false, 9),
+  ('fysikk-2:bevegelse-i-to-dimensjoner', 'm01', 'sant-usant', 'I et skrått kast uten luftmotstand kan x- og y-bevegelsen behandles hver for seg.', array['Sant', 'Usant']::text[], 0, 'De er uavhengige.', false, true, 10),
+  ('fysikk-2:bevegelse-i-to-dimensjoner', 'm02', 'sant-usant', 'Med luftmotstand er den beste kastevinkelen alltid større enn 45°.', array['Sant', 'Usant']::text[], 1, 'Den er ofte mindre enn 45°.', false, true, 11),
+  ('fysikk-2:bevegelse-i-to-dimensjoner', 'm03', 'sant-usant', 'Rekkevidden for kastet med 20 m/s i 30° er omtrent 35 m.', array['Sant', 'Usant']::text[], 0, '17,3 m/s · 2,04 s.', false, true, 12),
+  ('fysikk-2:bevegelse-i-to-dimensjoner', 'm04', 'sant-usant', 'I et horisontalt kast avhenger falltiden av den horisontale farten.', array['Sant', 'Usant']::text[], 1, 'Den avhenger bare av høyden.', false, true, 13),
+  ('fysikk-2:bevegelse-i-to-dimensjoner', 'm05', 'flervalg', 'Hva er v₀ₓ for et kast med 20 m/s i 30°?', array['10,0 m/s', 'Omtrent 17,3 m/s', '20 m/s', '5,0 m/s']::text[], 1, '20 · cos 30°.', false, true, 14),
+  ('fysikk-2:bevegelse-i-to-dimensjoner', 'm06', 'flervalg', 'Hvilken formel gir rekkevidden på flat mark?', array['R = v₀² · sin(2α) / g', 'R = v₀ · t', 'R = ½gt²', 'R = v₀² / g alltid']::text[], 0, 'Uten luftmotstand.', false, true, 15),
+  ('fysikk-2:bevegelse-i-to-dimensjoner', 'm07', 'flervalg', 'Hvilke faktorer påvirker kast i idrett i tillegg til vinkel og fart?', array['Bare fargen på ballen', 'Ingen andre', 'Utgangshøyde, spinn og vind', 'Bare massen']::text[], 2, 'Virkelige kast er mer komplekse.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('fysikk-2:bevegelse-i-to-dimensjoner', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Fysikk 2: Krumlinjet bevegelse og sirkelbevegelse
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('fysikk-2:sirkelbevegelse', 'fysikk-2', 'sirkelbevegelse', 'Krumlinjet bevegelse og sirkelbevegelse', 'Hvordan krefter forårsaker krumlinjet bevegelse: sentripetalakselerasjon og sentripetalkraft, periode og banefart, beregninger for biler i sving, karuseller, loop-baner og doserte svinger – og hvorfor sentrifugalkraften ikke er en ekte kraft.', array[5]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('fysikk-2:sirkelbevegelse', '## Krumlinjet bevegelse
+
+Newtons første lov sier at et legeme fortsetter i **rett linje** med **konstant fart** hvis summen av kreftene er null. For at noe skal bevege seg i en **kurve**, må det derfor virke en **kraft** med en komponent **vinkelrett** på fartsretningen. Denne komponenten endrer **retningen** på farten.
+
+## Jevn sirkelbevegelse
+
+Ved **jevn sirkelbevegelse** er **banefarten** konstant, men **retningen** endrer seg hele tiden. Derfor er det en **akselerasjon** – rettet inn mot **sentrum** av sirkelen.
+
+- **Periode** T: tiden for én runde
+- **Banefart**: v = 2πr / T
+- **Sentripetalakselerasjon**: a = v² / r, rettet mot sentrum
+
+## Sentripetalkraft
+
+Etter Newtons andre lov må summen av kreftene inn mot sentrum være
+
+**ΣF = m · v² / r**
+
+Dette kalles **sentripetalkraften**. Det er **ikke** en egen kraft, men **summen** av kreftene som peker mot sentrum. Den kan være
+
+- **friksjon** – når en bil svinger
+- **snordraget** – når en ball svinges i en snor
+- **gravitasjon** – når en satellitt går i bane
+- **normalkraft** – i en loop eller en dosert sving
+
+## Eksempel: bil i sving
+
+En bil på 1200 kg kjører i 20 m/s gjennom en sving med radius 50 m.
+
+- a = 20² / 50 = **8,0 m/s²**
+- ΣF = 1200 · 8,0 = **9600 N**
+
+Kraften må komme fra **friksjonen** mellom dekk og vei. På **glatt** vei er friksjonen mindre, og bilen kan ikke svinge like fort – den fortsetter rett fram, **ut av svingen**.
+
+## Loop
+
+I **toppen** av en loop virker både **tyngden** og **normalkraften** nedover, mot sentrum:
+
+mg + N = mv² / r
+
+**Minimumsfarten** i toppen får vi når N = 0: v = √(gr). For en loop med r = 10 m er v_min = √(9,81 · 10) ≈ **9,9 m/s**. Går vogna saktere, faller den ut av banen.
+
+I **bunnen** av loopen virker normalkraften oppover og tyngden nedover: N − mg = mv² / r. Da er N **større** enn mg – derfor kjenner du deg **tyngre** i bunnen.
+
+## Dosert sving
+
+På **doserte** svinger, som på sykkelbaner og motorveier, heller underlaget innover. Da har **normalkraften** en komponent mot sentrum, og det trengs mindre friksjon for å svinge.
+
+## Sentrifugalkraft
+
+I en bil i sving kjenner du at du «presses utover». Dette er ingen ekte **kraft** fra omgivelsene. Kroppen din vil fortsette **rett fram** på grunn av **tregheten**, og bilen svinger **innover** under deg. Utenfra ser vi at bildøren eller setet dytter deg **inn** mot sentrum.
+
+## Ikke-jevn sirkelbevegelse
+
+Hvis banefarten **endrer** seg, har akselerasjonen også en komponent **langs** banen – **baneakselerasjonen** – i tillegg til sentripetalakselerasjonen.', '{"label":"Sirkelbevegelse","children":[{"label":"Grunnbegreper","children":[{"label":"Periode og banefart"},{"label":"a = v²/r"}]},{"label":"Sentripetalkraft","children":[{"label":"Summen mot sentrum"},{"label":"Friksjon, snor, gravitasjon"}]},{"label":"Eksempler","children":[{"label":"Bil i sving"},{"label":"Loop"},{"label":"Dosert sving"}]},{"label":"Loop","children":[{"label":"Toppen: v_min = √(gr)"},{"label":"Bunnen: tyngre"}]},{"label":"Misforståelser","children":[{"label":"Sentrifugalkraft"},{"label":"Treghet"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'fysikk-2:sirkelbevegelse';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('fysikk-2:sirkelbevegelse', 'Krumlinjet bevegelse', 'Bevegelse i en kurve som krever en kraft vinkelrett på farten.', 0),
+  ('fysikk-2:sirkelbevegelse', 'Jevn sirkelbevegelse', 'Konstant banefart, men retningen endres hele tiden.', 1),
+  ('fysikk-2:sirkelbevegelse', 'Periode T', 'Tiden for én runde.', 2),
+  ('fysikk-2:sirkelbevegelse', 'Banefart', 'v = 2πr / T.', 3),
+  ('fysikk-2:sirkelbevegelse', 'Sentripetalakselerasjon', 'a = v² / r, rettet mot sentrum.', 4),
+  ('fysikk-2:sirkelbevegelse', 'Sentripetalkraft', 'Summen av kreftene mot sentrum: mv² / r.', 5),
+  ('fysikk-2:sirkelbevegelse', 'Friksjon i sving', 'Gir sentripetalkraften for en bil.', 6),
+  ('fysikk-2:sirkelbevegelse', 'Loop – toppen', 'mg + N = mv² / r.', 7),
+  ('fysikk-2:sirkelbevegelse', 'Minimumsfart i loop', 'v = √(gr) når N = 0.', 8),
+  ('fysikk-2:sirkelbevegelse', 'Loop – bunnen', 'N − mg = mv² / r – du kjenner deg tyngre.', 9),
+  ('fysikk-2:sirkelbevegelse', 'Dosert sving', 'Sving der underlaget heller innover.', 10),
+  ('fysikk-2:sirkelbevegelse', 'Sentrifugalkraft', 'Ingen ekte kraft – en følge av treghet.', 11),
+  ('fysikk-2:sirkelbevegelse', 'Treghet', 'Legemers tendens til å fortsette i rett linje.', 12),
+  ('fysikk-2:sirkelbevegelse', 'Baneakselerasjon', 'Akselerasjon langs banen når banefarten endres.', 13),
+  ('fysikk-2:sirkelbevegelse', 'Snordrag', 'Kraften i en snor som kan gi sentripetalkraft.', 14);
+delete from public.quiz_sporsmal where tema_id = 'fysikk-2:sirkelbevegelse';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('fysikk-2:sirkelbevegelse', 'q01', 'flervalg', 'Hvorfor har et legeme i jevn sirkelbevegelse akselerasjon?', array['Fordi banefarten øker', 'Fordi retningen på farten endres hele tiden', 'Fordi det ikke virker krefter', 'Det har ikke akselerasjon']::text[], 1, 'Akselerasjonen peker mot sentrum.', true, true, 0),
+  ('fysikk-2:sirkelbevegelse', 'q02', 'flervalg', 'Hva er sentripetalakselerasjonen?', array['a = v² / r', 'a = v · r', 'a = r / v', 'a = 2πr']::text[], 0, 'Rettet mot sentrum.', true, true, 1),
+  ('fysikk-2:sirkelbevegelse', 'q03', 'flervalg', 'En bil på 1200 kg kjører i 20 m/s i en sving med radius 50 m. Hva er ΣF mot sentrum?', array['480 N', '24 000 N', '9600 N', '1200 N']::text[], 2, '1200 · 20² / 50.', true, true, 2),
+  ('fysikk-2:sirkelbevegelse', 'q04', 'flervalg', 'Hva gir sentripetalkraften for en satellitt i bane?', array['Friksjon', 'Normalkraft', 'Snordrag', 'Gravitasjonen']::text[], 3, 'Jorda trekker satellitten mot sentrum.', true, true, 3),
+  ('fysikk-2:sirkelbevegelse', 'q05', 'flervalg', 'Hva er minimumsfarten i toppen av en loop med radius 10 m?', array['Omtrent 9,9 m/s', 'Omtrent 98 m/s', 'Omtrent 3,1 m/s', '0 m/s']::text[], 0, 'v = √(gr).', true, true, 4),
+  ('fysikk-2:sirkelbevegelse', 'q06', 'flervalg', 'Hvorfor kjenner du deg tyngre i bunnen av en loop?', array['Fordi tyngden øker', 'Fordi normalkraften er større enn mg', 'Fordi farten er null', 'Fordi du er lettere']::text[], 1, 'N − mg = mv²/r.', true, true, 5),
+  ('fysikk-2:sirkelbevegelse', 'q07', 'flervalg', 'Hva er sentrifugalkraften?', array['En ekte kraft utover', 'En type friksjon', 'Ingen ekte kraft, men en følge av treghet', 'Gravitasjonen']::text[], 2, 'Kroppen vil fortsette rett fram.', true, true, 6),
+  ('fysikk-2:sirkelbevegelse', 'q08', 'flervalg', 'Hvorfor trengs mindre friksjon i en dosert sving?', array['Fordi farten er lavere', 'Fordi bilen er lettere', 'Fordi vegen er glatt', 'Fordi normalkraften har en komponent mot sentrum']::text[], 3, 'Underlaget heller innover.', true, true, 7),
+  ('fysikk-2:sirkelbevegelse', 'q09', 'flervalg', 'Hva skjer hvis friksjonen er for liten når en bil svinger?', array['Bilen fortsetter rett fram, ut av svingen', 'Bilen svinger krappere', 'Bilen stopper', 'Ingenting']::text[], 0, 'Det mangler kraft mot sentrum.', true, false, 8),
+  ('fysikk-2:sirkelbevegelse', 'q10', 'flervalg', 'Hvordan regnes banefarten ut fra periode og radius?', array['v = r / T', 'v = 2πr / T', 'v = T / r', 'v = πr²']::text[], 1, 'Omkrets delt på tid.', true, false, 9),
+  ('fysikk-2:sirkelbevegelse', 'm01', 'sant-usant', 'Sentripetalkraften er ikke en egen kraft, men summen av kreftene mot sentrum.', array['Sant', 'Usant']::text[], 0, 'Den kan være friksjon, snordrag eller gravitasjon.', false, true, 10),
+  ('fysikk-2:sirkelbevegelse', 'm02', 'sant-usant', 'I jevn sirkelbevegelse er akselerasjonen null.', array['Sant', 'Usant']::text[], 1, 'Retningen endres, så det er akselerasjon.', false, true, 11),
+  ('fysikk-2:sirkelbevegelse', 'm03', 'sant-usant', 'Hvis banefarten endres, har akselerasjonen også en komponent langs banen.', array['Sant', 'Usant']::text[], 0, 'Baneakselerasjon.', false, true, 12),
+  ('fysikk-2:sirkelbevegelse', 'm04', 'sant-usant', 'Dobles farten i en sving, dobles også den nødvendige sentripetalkraften.', array['Sant', 'Usant']::text[], 1, 'Den firedobles fordi den er proporsjonal med v².', false, true, 13),
+  ('fysikk-2:sirkelbevegelse', 'm05', 'flervalg', 'Hvilke krefter virker mot sentrum i toppen av en loop?', array['Bare normalkraften', 'Tyngden og normalkraften', 'Bare friksjonen', 'Ingen']::text[], 1, 'Begge peker nedover.', false, true, 14),
+  ('fysikk-2:sirkelbevegelse', 'm06', 'flervalg', 'Hvilken retning har sentripetalakselerasjonen?', array['Mot sentrum', 'Utover', 'Langs banen', 'Oppover']::text[], 0, 'Inn mot sirkelens sentrum.', false, true, 15),
+  ('fysikk-2:sirkelbevegelse', 'm07', 'flervalg', 'Hva gir sentripetalkraften når en ball svinges i en snor?', array['Tyngden', 'Friksjonen', 'Snordraget', 'Luftmotstanden']::text[], 2, 'Snoren trekker ballen inn.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('fysikk-2:sirkelbevegelse', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Fysikk 2: Gravitasjon og energi i sentralfelt
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('fysikk-2:gravitasjon-og-sentralfelt', 'fysikk-2', 'gravitasjon-og-sentralfelt', 'Gravitasjon og energi i sentralfelt', 'Newtons gravitasjonslov og gravitasjonsfeltet, potensiell energi i et sentralfelt, energibevaring for satellitter og romsonder, banefart og omløpstid i sirkelbaner, unnslipningsfart, geostasjonære baner og Keplers lover.', array[7]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('fysikk-2:gravitasjon-og-sentralfelt', '## Newtons gravitasjonslov
+
+To legemer tiltrekker hverandre med kraften
+
+**F = γ · m₁ · m₂ / r²**
+
+der **γ = 6,67 · 10⁻¹¹ N·m²/kg²** er **gravitasjonskonstanten** og r er avstanden mellom **sentrene**. Kraften **avtar** med kvadratet av avstanden: Dobbelt så langt unna gir **en firedel** så stor kraft.
+
+## Gravitasjonsfeltet
+
+Et legeme med masse M lager et **gravitasjonsfelt** rundt seg. **Feltstyrken** er
+
+**g = γM / r²**
+
+Ved jordoverflaten er g ≈ 9,81 N/kg. Feltet er et **sentralfelt**: Feltlinjene peker mot **sentrum** av massen.
+
+## Potensiell energi i et sentralfelt
+
+Nær jordoverflaten bruker vi E_p = mgh. Langt ute i rommet varierer g, og da er
+
+**E_p = −γMm / r**
+
+Nullpunktet er valgt **uendelig langt unna**, så den potensielle energien er **negativ**. Den **øker** – blir mindre negativ – når avstanden øker.
+
+## Energibevaring
+
+Når bare gravitasjonen virker, er den **mekaniske energien bevart**:
+
+**½mv² − γMm/r = konstant**
+
+Når en satellitt i en **ellipsebane** kommer nærmere planeten, øker **farten**, og når den er langt unna, går den **saktere**.
+
+## Unnslipningsfart
+
+**Unnslipningsfarten** er den minste farten et legeme må ha for å komme seg **uendelig langt** bort uten videre fremdrift. Vi setter den totale energien lik null:
+
+**v = √(2γM / r)**
+
+For jorda er unnslipningsfarten omtrent **11,2 km/s**.
+
+## Sirkelbaner
+
+For en satellitt i **sirkelbane** er gravitasjonskraften **sentripetalkraften**:
+
+γMm / r² = mv² / r, som gir **v = √(γM / r)**
+
+Omløpstiden er T = 2πr / v.
+
+**Eksempel: Den internasjonale romstasjonen**. Den går omtrent 400 km over bakken, så r ≈ 6,77 · 10⁶ m. Med γM ≈ 3,99 · 10¹⁴ m³/s² for jorda blir v ≈ **7,7 km/s** og T ≈ **92 minutter**.
+
+Farten avhenger **ikke** av satellittens masse – bare av planetens masse og avstanden.
+
+## Geostasjonær bane
+
+En **geostasjonær** satellitt har omløpstid **ett døgn** og går over **ekvator** i samme retning som jorda roterer. Da står den stille over samme punkt. Banen ligger omtrent **36 000 km** over bakken og brukes til **kommunikasjon** og **værovervåking**.
+
+## Keplers lover
+
+1. Planetene går i **ellipser** med sola i det ene brennpunktet.
+2. En linje fra sola til planeten sveiper over **like store arealer** på like lang tid – planeten går **raskest** nærmest sola.
+3. **T² / r³** er det samme for alle planetene rundt sola.
+
+Newton viste at Keplers lover følger av **gravitasjonsloven**.
+
+## Vektløshet
+
+Astronauter i romstasjonen er **ikke** uten tyngde – gravitasjonen der er omtrent 90 % av den ved bakken. De føler seg vektløse fordi de og stasjonen er i **fritt fall** rundt jorda.', '{"label":"Gravitasjon og sentralfelt","children":[{"label":"Gravitasjonsloven","children":[{"label":"F = γm₁m₂/r²"},{"label":"Feltstyrke g = γM/r²"}]},{"label":"Energi","children":[{"label":"E_p = −γMm/r"},{"label":"Energibevaring"},{"label":"Unnslipningsfart"}]},{"label":"Sirkelbaner","children":[{"label":"v = √(γM/r)"},{"label":"Romstasjonen"},{"label":"Geostasjonær bane"}]},{"label":"Kepler","children":[{"label":"Ellipser"},{"label":"Like arealer"},{"label":"T²/r³"}]},{"label":"Vektløshet","children":[{"label":"Fritt fall"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'fysikk-2:gravitasjon-og-sentralfelt';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('fysikk-2:gravitasjon-og-sentralfelt', 'Newtons gravitasjonslov', 'F = γ · m₁ · m₂ / r².', 0),
+  ('fysikk-2:gravitasjon-og-sentralfelt', 'Gravitasjonskonstanten', 'γ = 6,67 · 10⁻¹¹ N·m²/kg².', 1),
+  ('fysikk-2:gravitasjon-og-sentralfelt', 'Gravitasjonsfeltstyrke', 'g = γM / r².', 2),
+  ('fysikk-2:gravitasjon-og-sentralfelt', 'Sentralfelt', 'Felt der feltlinjene peker mot et sentrum.', 3),
+  ('fysikk-2:gravitasjon-og-sentralfelt', 'Potensiell energi i sentralfelt', 'E_p = −γMm / r, med null uendelig langt unna.', 4),
+  ('fysikk-2:gravitasjon-og-sentralfelt', 'Energibevaring i bane', '½mv² − γMm/r er konstant når bare gravitasjonen virker.', 5),
+  ('fysikk-2:gravitasjon-og-sentralfelt', 'Unnslipningsfart', 'v = √(2γM / r) – omtrent 11,2 km/s for jorda.', 6),
+  ('fysikk-2:gravitasjon-og-sentralfelt', 'Banefart i sirkelbane', 'v = √(γM / r).', 7),
+  ('fysikk-2:gravitasjon-og-sentralfelt', 'Omløpstid', 'T = 2πr / v.', 8),
+  ('fysikk-2:gravitasjon-og-sentralfelt', 'Geostasjonær bane', 'Omløpstid ett døgn over ekvator, omtrent 36 000 km over bakken.', 9),
+  ('fysikk-2:gravitasjon-og-sentralfelt', 'Keplers første lov', 'Planetene går i ellipser med sola i ett brennpunkt.', 10),
+  ('fysikk-2:gravitasjon-og-sentralfelt', 'Keplers andre lov', 'Like store arealer på like lang tid.', 11),
+  ('fysikk-2:gravitasjon-og-sentralfelt', 'Keplers tredje lov', 'T² / r³ er lik for alle planetene rundt sola.', 12),
+  ('fysikk-2:gravitasjon-og-sentralfelt', 'Vektløshet', 'Følelse av å være uten vekt i fritt fall.', 13),
+  ('fysikk-2:gravitasjon-og-sentralfelt', 'Romstasjonen', 'Går omtrent 400 km over bakken med omløpstid rundt 92 min.', 14);
+delete from public.quiz_sporsmal where tema_id = 'fysikk-2:gravitasjon-og-sentralfelt';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('fysikk-2:gravitasjon-og-sentralfelt', 'q01', 'flervalg', 'Hva skjer med gravitasjonskraften når avstanden dobles?', array['Den halveres', 'Den blir en firedel', 'Den dobles', 'Den er uendret']::text[], 1, 'Kraften avtar med r².', true, true, 0),
+  ('fysikk-2:gravitasjon-og-sentralfelt', 'q02', 'flervalg', 'Hva er potensiell energi i et sentralfelt?', array['E_p = −γMm / r', 'E_p = mgh alltid', 'E_p = ½mv²', 'E_p = γMm · r']::text[], 0, 'Med nullpunkt uendelig langt unna.', true, true, 1),
+  ('fysikk-2:gravitasjon-og-sentralfelt', 'q03', 'flervalg', 'Hva er unnslipningsfarten fra jordoverflaten?', array['Omtrent 7,9 km/s', 'Omtrent 3,0 km/s', 'Omtrent 11,2 km/s', 'Omtrent 300 km/s']::text[], 2, 'v = √(2γM / r).', true, true, 2),
+  ('fysikk-2:gravitasjon-og-sentralfelt', 'q04', 'flervalg', 'Hva avhenger banefarten til en satellitt i sirkelbane av?', array['Satellittens masse', 'Satellittens form', 'Satellittens farge', 'Planetens masse og avstanden']::text[], 3, 'v = √(γM / r).', true, true, 3),
+  ('fysikk-2:gravitasjon-og-sentralfelt', 'q05', 'flervalg', 'Hva er omløpstiden til en geostasjonær satellitt?', array['Ett døgn', '92 minutter', 'Én time', 'Ett år']::text[], 0, 'Den står stille over samme punkt.', true, true, 4),
+  ('fysikk-2:gravitasjon-og-sentralfelt', 'q06', 'flervalg', 'Hvor går en satellitt raskest i en ellipsebane?', array['Lengst unna planeten', 'Nærmest planeten', 'Like fort overalt', 'Midt mellom']::text[], 1, 'Keplers andre lov og energibevaring.', true, true, 5),
+  ('fysikk-2:gravitasjon-og-sentralfelt', 'q07', 'flervalg', 'Hvorfor føler astronauter seg vektløse i romstasjonen?', array['Fordi det ikke finnes gravitasjon der', 'Fordi de er for langt unna', 'Fordi de er i fritt fall rundt jorda', 'Fordi de har mindre masse']::text[], 2, 'Gravitasjonen er omtrent 90 % av den ved bakken.', true, true, 6),
+  ('fysikk-2:gravitasjon-og-sentralfelt', 'q08', 'flervalg', 'Hva sier Keplers tredje lov?', array['Planetene går i sirkler', 'Like arealer på lik tid', 'Alle planeter har samme fart', 'T² / r³ er lik for alle planetene rundt sola']::text[], 3, 'Følger av gravitasjonsloven.', true, true, 7),
+  ('fysikk-2:gravitasjon-og-sentralfelt', 'q09', 'flervalg', 'Hva er banefarten til romstasjonen omtrent?', array['7,7 km/s', '11,2 km/s', '0,5 km/s', '30 km/s']::text[], 0, 'v = √(γM / r) med r ≈ 6,77 · 10⁶ m.', true, false, 8),
+  ('fysikk-2:gravitasjon-og-sentralfelt', 'q10', 'flervalg', 'Hvordan endres den potensielle energien når en satellitt fjerner seg fra jorda?', array['Den minker', 'Den øker – blir mindre negativ', 'Den er uendret', 'Den blir positiv og stor']::text[], 1, 'E_p = −γMm / r.', true, false, 9),
+  ('fysikk-2:gravitasjon-og-sentralfelt', 'm01', 'sant-usant', 'Newton viste at Keplers lover følger av gravitasjonsloven.', array['Sant', 'Usant']::text[], 0, 'En av fysikkens store samlinger.', false, true, 10),
+  ('fysikk-2:gravitasjon-og-sentralfelt', 'm02', 'sant-usant', 'En tyngre satellitt må ha større banefart i samme bane.', array['Sant', 'Usant']::text[], 1, 'Banefarten er uavhengig av satellittens masse.', false, true, 11),
+  ('fysikk-2:gravitasjon-og-sentralfelt', 'm03', 'sant-usant', 'Geostasjonære satellitter brukes til kommunikasjon og værovervåking.', array['Sant', 'Usant']::text[], 0, 'De står stille over samme punkt.', false, true, 12),
+  ('fysikk-2:gravitasjon-og-sentralfelt', 'm04', 'sant-usant', 'Den potensielle energien i et sentralfelt er positiv nær planeten.', array['Sant', 'Usant']::text[], 1, 'Den er negativ med nullpunkt uendelig langt unna.', false, true, 13),
+  ('fysikk-2:gravitasjon-og-sentralfelt', 'm05', 'flervalg', 'Hva er omløpstiden til romstasjonen omtrent?', array['24 timer', '92 minutter', '10 minutter', '1 uke']::text[], 1, 'T = 2πr / v.', false, true, 14),
+  ('fysikk-2:gravitasjon-og-sentralfelt', 'm06', 'flervalg', 'Hvilken formel gir unnslipningsfarten?', array['v = √(2γM / r)', 'v = √(γM / r)', 'v = γM / r', 'v = 2πr / T']::text[], 0, 'Total energi lik null.', false, true, 15),
+  ('fysikk-2:gravitasjon-og-sentralfelt', 'm07', 'flervalg', 'Hvor høyt over bakken ligger en geostasjonær bane omtrent?', array['400 km', '3600 km', '36 000 km', '384 000 km']::text[], 2, 'Omløpstid ett døgn.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('fysikk-2:gravitasjon-og-sentralfelt', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Fysikk 2: Elektriske felt
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('fysikk-2:elektriske-felt', 'fysikk-2', 'elektriske-felt', 'Elektriske felt', 'Coulombs lov, elektrisk feltstyrke og feltlinjer, homogent felt mellom ladde plater, kraft og arbeid på ladde partikler, spenning og energi, akselerasjon av elektroner – og likheter og forskjeller mellom elektriske felt og gravitasjonsfelt.', array[6]::int[], 5, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('fysikk-2:elektriske-felt', '## Coulombs lov
+
+To **punktladninger** påvirker hverandre med kraften
+
+**F = k · |q₁ · q₂| / r²**
+
+der **k = 8,99 · 10⁹ N·m²/C²**. **Like** ladninger **frastøter** hverandre, **ulike** ladninger **tiltrekker** hverandre. Som gravitasjonskraften avtar kraften med **kvadratet av avstanden**.
+
+**Eksempel**: To ladninger på 1,0 µC står 0,10 m fra hverandre. F = 8,99 · 10⁹ · (1,0 · 10⁻⁶)² / 0,10² ≈ **0,90 N**.
+
+## Elektrisk felt
+
+En ladning lager et **elektrisk felt** rundt seg. Den **elektriske feltstyrken** i et punkt er kraften per ladning på en liten **positiv** prøveladning:
+
+**E = F / q**, med enheten N/C eller V/m.
+
+Rundt en punktladning Q er E = kQ / r².
+
+**Feltlinjer** viser retningen på kraften på en **positiv** ladning: De går **ut** fra positive ladninger og **inn** mot negative. Tette feltlinjer betyr **sterkt** felt.
+
+## Homogent felt
+
+Mellom to **parallelle plater** med ulik ladning er feltet **homogent** – like sterkt og med samme retning overalt, bortsett fra ved kantene. Feltstyrken er
+
+**E = U / d**
+
+der U er spenningen og d avstanden mellom platene. Med U = 100 V og d = 2,0 cm blir E = 100 / 0,020 = **5000 V/m**.
+
+## Kraft og bevegelse i elektrisk felt
+
+En ladning q i et felt E får kraften **F = qE**.
+
+- En **positiv** ladning får kraft **med** feltet, en **negativ** **mot** feltet.
+- I et homogent felt er kraften **konstant**, så bevegelsen ligner et **skrått kast** i tyngdefeltet – en ladning som sendes **vinkelrett** inn i feltet, følger en **parabelbane**.
+
+## Arbeid, spenning og energi
+
+Når en ladning flyttes gjennom en **spenning** U, gjør feltet **arbeidet**
+
+**W = qU**
+
+**Elektronvolt** (eV) er energien et elektron får når det akselereres gjennom **1 V**: 1 eV = 1,60 · 10⁻¹⁹ J.
+
+**Eksempel**: Et elektron som starter i ro, akselereres gjennom 100 V. Da er ½mv² = eU, og
+
+v = √(2eU / m) = √(2 · 1,60 · 10⁻¹⁹ · 100 / 9,11 · 10⁻³¹) ≈ **5,9 · 10⁶ m/s**.
+
+Slike **elektronkanoner** ble brukt i gamle TV-rør og brukes fortsatt i **elektronmikroskoper**.
+
+## Elektrisk felt og gravitasjonsfelt
+
+| | Gravitasjon | Elektrisitet |
+|---|---|---|
+| Kilde | masse | ladning |
+| Kraft | alltid tiltrekning | tiltrekning eller frastøtning |
+| Styrke | svært svak | svært sterk |
+| Avstand | 1/r² | 1/r² |
+
+Den elektriske kraften mellom et proton og et elektron er omtrent **10³⁹** ganger sterkere enn gravitasjonskraften mellom dem.
+
+## Anvendelser
+
+**Kondensatorer** lagrer energi i det elektriske feltet mellom plater. Elektriske felt brukes også i **blekkskrivere**, **partikkelakseleratorer**, **lakkering** og **røykrensing** i industrien. **Lyn** oppstår når feltet mellom sky og bakke blir så sterkt at luften leder strøm.', '{"label":"Elektriske felt","children":[{"label":"Coulombs lov","children":[{"label":"F = k|q₁q₂|/r²"},{"label":"Tiltrekning og frastøtning"}]},{"label":"Feltet","children":[{"label":"E = F/q"},{"label":"Feltlinjer"},{"label":"Punktladning kQ/r²"}]},{"label":"Homogent felt","children":[{"label":"E = U/d"},{"label":"Parabelbane"}]},{"label":"Energi","children":[{"label":"W = qU"},{"label":"Elektronvolt"},{"label":"Elektronkanon"}]},{"label":"Sammenligning","children":[{"label":"Gravitasjon"},{"label":"Anvendelser"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'fysikk-2:elektriske-felt';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('fysikk-2:elektriske-felt', 'Coulombs lov', 'F = k · |q₁q₂| / r².', 0),
+  ('fysikk-2:elektriske-felt', 'Coulombs konstant', 'k = 8,99 · 10⁹ N·m²/C².', 1),
+  ('fysikk-2:elektriske-felt', 'Elektrisk feltstyrke', 'E = F / q – kraft per ladning.', 2),
+  ('fysikk-2:elektriske-felt', 'Feltstyrke rundt punktladning', 'E = kQ / r².', 3),
+  ('fysikk-2:elektriske-felt', 'Feltlinjer', 'Viser kraftens retning på en positiv ladning.', 4),
+  ('fysikk-2:elektriske-felt', 'Homogent felt', 'Like sterkt og med samme retning overalt.', 5),
+  ('fysikk-2:elektriske-felt', 'Felt mellom plater', 'E = U / d.', 6),
+  ('fysikk-2:elektriske-felt', 'Kraft i elektrisk felt', 'F = qE.', 7),
+  ('fysikk-2:elektriske-felt', 'Arbeid i elektrisk felt', 'W = qU.', 8),
+  ('fysikk-2:elektriske-felt', 'Elektronvolt', '1 eV = 1,60 · 10⁻¹⁹ J.', 9),
+  ('fysikk-2:elektriske-felt', 'Elektronkanon', 'Akselererer elektroner med en spenning.', 10),
+  ('fysikk-2:elektriske-felt', 'Fart etter akselerasjon', 'v = √(2qU / m) når partikkelen starter i ro.', 11),
+  ('fysikk-2:elektriske-felt', 'Parabelbane i felt', 'Ladning som sendes vinkelrett inn i homogent felt.', 12),
+  ('fysikk-2:elektriske-felt', 'Kondensator', 'Lagrer energi i det elektriske feltet mellom plater.', 13),
+  ('fysikk-2:elektriske-felt', 'Elektrisk og gravitasjonell kraft', 'Begge avtar med 1/r², men elektrisk kraft er mye sterkere.', 14);
+delete from public.quiz_sporsmal where tema_id = 'fysikk-2:elektriske-felt';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('fysikk-2:elektriske-felt', 'q01', 'flervalg', 'Hva skjer mellom to like ladninger?', array['De tiltrekker hverandre', 'De frastøter hverandre', 'Ingenting', 'De nøytraliserer hverandre']::text[], 1, 'Ulike ladninger tiltrekker hverandre.', true, true, 0),
+  ('fysikk-2:elektriske-felt', 'q02', 'flervalg', 'To ladninger på 1,0 µC står 0,10 m fra hverandre. Hva er kraften?', array['Omtrent 0,90 N', 'Omtrent 9,0 N', 'Omtrent 0,09 N', 'Omtrent 90 N']::text[], 0, '8,99 · 10⁹ · 10⁻¹² / 0,01.', true, true, 1),
+  ('fysikk-2:elektriske-felt', 'q03', 'flervalg', 'Hva er feltstyrken mellom to plater med U = 100 V og d = 2,0 cm?', array['50 V/m', '200 V/m', '5000 V/m', '2 V/m']::text[], 2, 'E = U / d.', true, true, 2),
+  ('fysikk-2:elektriske-felt', 'q04', 'flervalg', 'Hvilken retning har kraften på et elektron i et elektrisk felt?', array['Med feltet', 'Vinkelrett på feltet', 'Ingen kraft', 'Mot feltet']::text[], 3, 'Elektronet er negativt.', true, true, 3),
+  ('fysikk-2:elektriske-felt', 'q05', 'flervalg', 'Hvor mye er 1 eV?', array['1,60 · 10⁻¹⁹ J', '1 J', '9,11 · 10⁻³¹ J', '6,02 · 10²³ J']::text[], 0, 'Energien ved akselerasjon gjennom 1 V.', true, true, 4),
+  ('fysikk-2:elektriske-felt', 'q06', 'flervalg', 'Et elektron akselereres fra ro gjennom 100 V. Hva blir farten omtrent?', array['3,0 · 10⁸ m/s', '5,9 · 10⁶ m/s', '100 m/s', '1,6 · 10⁻¹⁷ m/s']::text[], 1, 'v = √(2eU / m).', true, true, 5),
+  ('fysikk-2:elektriske-felt', 'q07', 'flervalg', 'Hvilken bane følger en ladning som sendes vinkelrett inn i et homogent felt?', array['Sirkel', 'Rett linje', 'Parabel', 'Spiral']::text[], 2, 'Konstant kraft, som i et skrått kast.', true, true, 6),
+  ('fysikk-2:elektriske-felt', 'q08', 'flervalg', 'Hva viser tette feltlinjer?', array['Svakt felt', 'Ingen ladning', 'Nøytralt område', 'Sterkt felt']::text[], 3, 'Feltlinjetettheten viser styrken.', true, true, 7),
+  ('fysikk-2:elektriske-felt', 'q09', 'flervalg', 'Hvordan skiller elektrisk kraft seg fra gravitasjon?', array['Den kan være både tiltrekning og frastøtning', 'Den avtar ikke med avstanden', 'Den er alltid svakere', 'Den virker bare på masse']::text[], 0, 'Gravitasjonen er alltid tiltrekning.', true, false, 8),
+  ('fysikk-2:elektriske-felt', 'q10', 'flervalg', 'Hva lagrer en kondensator?', array['Magnetisk energi', 'Energi i det elektriske feltet mellom plater', 'Kjemisk energi', 'Kjerneenergi']::text[], 1, 'Brukes i elektronikk.', true, false, 9),
+  ('fysikk-2:elektriske-felt', 'm01', 'sant-usant', 'Feltlinjer går ut fra positive ladninger og inn mot negative.', array['Sant', 'Usant']::text[], 0, 'De viser kraften på en positiv ladning.', false, true, 10),
+  ('fysikk-2:elektriske-felt', 'm02', 'sant-usant', 'Gravitasjonskraften mellom et proton og et elektron er sterkere enn den elektriske.', array['Sant', 'Usant']::text[], 1, 'Den elektriske er enormt mye sterkere.', false, true, 11),
+  ('fysikk-2:elektriske-felt', 'm03', 'sant-usant', 'Elektronmikroskoper bruker elektroner som er akselerert i elektriske felt.', array['Sant', 'Usant']::text[], 0, 'En anvendelse av elektronkanoner.', false, true, 12),
+  ('fysikk-2:elektriske-felt', 'm04', 'sant-usant', 'Feltet mellom to parallelle plater er sterkest ved kantene og svakest i midten.', array['Sant', 'Usant']::text[], 1, 'Det er homogent mellom platene.', false, true, 13),
+  ('fysikk-2:elektriske-felt', 'm05', 'flervalg', 'Hvilken enhet har elektrisk feltstyrke?', array['N/kg', 'V/m', 'J', 'C']::text[], 1, 'Også N/C.', false, true, 14),
+  ('fysikk-2:elektriske-felt', 'm06', 'flervalg', 'Hvor mye arbeid gjør feltet når en ladning q flyttes gjennom spenningen U?', array['W = qU', 'W = q/U', 'W = U/q', 'W = q + U']::text[], 0, 'Omformes til kinetisk energi.', false, true, 15),
+  ('fysikk-2:elektriske-felt', 'm07', 'flervalg', 'Hva skjer når feltet mellom en sky og bakken blir veldig sterkt?', array['Det blir regn', 'Det blir magnetfelt', 'Det kan oppstå lyn', 'Ingenting']::text[], 2, 'Luften begynner å lede strøm.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('fysikk-2:elektriske-felt', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Fysikk 2: Magnetiske felt
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('fysikk-2:magnetiske-felt', 'fysikk-2', 'magnetiske-felt', 'Magnetiske felt', 'Magnetiske felt rundt magneter og strømførende ledere, magnetisk flukstetthet, kraften på strømførende ledere og ladde partikler i magnetfelt, sirkelbaner, høyrehåndsregelen – og anvendelser som elektromotorer, massespektrometre og nordlyset.', array[6]::int[], 6, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('fysikk-2:magnetiske-felt', '## Magnetfelt
+
+En **magnet** har en **nordpol** og en **sørpol**. Rundt magneten er det et **magnetfelt**. **Feltlinjene** går **ut** fra nordpolen og **inn** mot sørpolen utenfor magneten. Jorda har sitt eget magnetfelt, som får **kompassnåler** til å peke nordover.
+
+**Elektrisk strøm** lager også et magnetfelt. Rundt en **rett leder** danner feltlinjene **sirkler**. I en **spole** blir feltet likt feltet rundt en stavmagnet – dette er prinsippet for en **elektromagnet**.
+
+## Magnetisk flukstetthet
+
+Styrken på magnetfeltet kalles **magnetisk flukstetthet**, **B**, og måles i **tesla** (T). Jordas magnetfelt er omtrent 5 · 10⁻⁵ T, mens en kraftig laboratoriemagnet kan ha omtrent 1 T.
+
+## Kraft på strømførende leder
+
+En leder med strømmen I og lengden l, som står **vinkelrett** på et magnetfelt B, får kraften
+
+**F = B · I · l**
+
+Kraften står **vinkelrett** på både strømmen og feltet. Retningen kan finnes med en **høyrehåndsregel**.
+
+**Eksempel**: B = 0,20 T, I = 3,0 A og l = 0,50 m gir F = 0,20 · 3,0 · 0,50 = **0,30 N**.
+
+Dette er prinsippet for **elektromotoren**: Kraften på strømførende sløyfer i et magnetfelt får motoren til å **rotere**.
+
+## Kraft på ladd partikkel
+
+En ladning q som beveger seg med farten v **vinkelrett** på et magnetfelt, får kraften
+
+**F = q · v · B**
+
+Kraften står hele tiden **vinkelrett** på farten. Den endrer derfor bare **retningen**, ikke **banefarten**, og magnetfeltet gjør **ikke arbeid** på partikkelen.
+
+## Sirkelbane
+
+Fordi kraften alltid står vinkelrett på farten, går partikkelen i en **sirkelbane**. Magnetkraften er sentripetalkraften:
+
+qvB = mv² / r, som gir **r = mv / (qB)**
+
+**Eksempel**: Et elektron med v = 5,9 · 10⁶ m/s i et felt B = 1,0 · 10⁻³ T går i en sirkel med radius r = 9,11 · 10⁻³¹ · 5,9 · 10⁶ / (1,60 · 10⁻¹⁹ · 1,0 · 10⁻³) ≈ **3,4 cm**.
+
+Hvis farten har en komponent **langs** feltet, blir banen en **spiral**.
+
+## Anvendelser
+
+- **Massespektrometeret** skiller ioner med ulik **masse**: Tyngre ioner går i **større** sirkler. Brukes til å analysere stoffer og isotoper.
+- **Partikkelakseleratorer** som LHC bruker kraftige magneter til å holde partiklene i **ringbanen**.
+- **MR-maskiner** på sykehus bruker sterke magnetfelt til å lage bilder av kroppen.
+- **Høyttalere** og **elektromotorer** bygger på kraften på strømførende ledere.
+
+## Nordlyset
+
+**Solvinden** sender ladde partikler mot jorda. Jordas magnetfelt **avbøyer** dem, men nær **polene** kan partiklene følge feltlinjene inn i atmosfæren. Der kolliderer de med **oksygen** og **nitrogen**, som sender ut lys – **nordlyset**. Magnetfeltet **beskytter** oss også mot mye av den skadelige strålingen fra rommet.', '{"label":"Magnetiske felt","children":[{"label":"Kilder","children":[{"label":"Magneter"},{"label":"Strøm i leder og spole"},{"label":"Jorda"}]},{"label":"Kraft på leder","children":[{"label":"F = BIl"},{"label":"Elektromotor"}]},{"label":"Kraft på ladning","children":[{"label":"F = qvB"},{"label":"Ingen arbeid"}]},{"label":"Baner","children":[{"label":"r = mv/(qB)"},{"label":"Spiral"}]},{"label":"Anvendelser","children":[{"label":"Massespektrometer"},{"label":"MR og akseleratorer"},{"label":"Nordlys"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'fysikk-2:magnetiske-felt';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('fysikk-2:magnetiske-felt', 'Magnetfelt', 'Område rundt magneter og strømmer der magnetiske krefter virker.', 0),
+  ('fysikk-2:magnetiske-felt', 'Feltlinjer rundt magnet', 'Går ut fra nordpolen og inn mot sørpolen.', 1),
+  ('fysikk-2:magnetiske-felt', 'Felt rundt rett leder', 'Sirkulære feltlinjer rundt lederen.', 2),
+  ('fysikk-2:magnetiske-felt', 'Elektromagnet', 'Spole med strøm som gir et magnetfelt.', 3),
+  ('fysikk-2:magnetiske-felt', 'Magnetisk flukstetthet B', 'Styrken på magnetfeltet, målt i tesla.', 4),
+  ('fysikk-2:magnetiske-felt', 'Tesla', 'Enheten for magnetisk flukstetthet.', 5),
+  ('fysikk-2:magnetiske-felt', 'F = BIl', 'Kraft på strømførende leder vinkelrett på feltet.', 6),
+  ('fysikk-2:magnetiske-felt', 'F = qvB', 'Kraft på ladning som beveger seg vinkelrett på feltet.', 7),
+  ('fysikk-2:magnetiske-felt', 'Høyrehåndsregel', 'Hjelper å finne retningen på magnetisk kraft.', 8),
+  ('fysikk-2:magnetiske-felt', 'r = mv/(qB)', 'Radius for en ladd partikkel i magnetfelt.', 9),
+  ('fysikk-2:magnetiske-felt', 'Magnetfelt og arbeid', 'Kraften står vinkelrett på farten og gjør ikke arbeid.', 10),
+  ('fysikk-2:magnetiske-felt', 'Elektromotor', 'Bruker kraften på strømførende sløyfer til å rotere.', 11),
+  ('fysikk-2:magnetiske-felt', 'Massespektrometer', 'Skiller ioner etter masse ved ulike sirkelbaner.', 12),
+  ('fysikk-2:magnetiske-felt', 'Nordlys', 'Ladde partikler fra solvinden som får atmosfæren til å lyse.', 13),
+  ('fysikk-2:magnetiske-felt', 'Solvinden', 'Strøm av ladde partikler fra sola.', 14);
+delete from public.quiz_sporsmal where tema_id = 'fysikk-2:magnetiske-felt';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('fysikk-2:magnetiske-felt', 'q01', 'flervalg', 'Hvordan går feltlinjene rundt en rett, strømførende leder?', array['Rett ut fra lederen', 'I sirkler rundt lederen', 'Parallelt med lederen', 'Det finnes ikke felt']::text[], 1, 'Høyrehåndsregelen gir retningen.', true, true, 0),
+  ('fysikk-2:magnetiske-felt', 'q02', 'flervalg', 'B = 0,20 T, I = 3,0 A og l = 0,50 m vinkelrett på feltet. Hva er kraften?', array['0,30 N', '3,0 N', '0,03 N', '1,2 N']::text[], 0, 'F = BIl.', true, true, 1),
+  ('fysikk-2:magnetiske-felt', 'q03', 'flervalg', 'Hvorfor gjør magnetfeltet ikke arbeid på en ladd partikkel?', array['Fordi kraften er null', 'Fordi partikkelen står stille', 'Fordi kraften står vinkelrett på farten', 'Fordi feltet er svakt']::text[], 2, 'Bare retningen endres.', true, true, 2),
+  ('fysikk-2:magnetiske-felt', 'q04', 'flervalg', 'Hva er radiusen for en ladd partikkel i sirkelbane i et magnetfelt?', array['r = qB/(mv)', 'r = mvqB', 'r = v/B', 'r = mv/(qB)']::text[], 3, 'Fra qvB = mv²/r.', true, true, 3),
+  ('fysikk-2:magnetiske-felt', 'q05', 'flervalg', 'Hvilken enhet har magnetisk flukstetthet?', array['Tesla', 'Volt', 'Newton', 'Coulomb']::text[], 0, 'Jordas felt er omtrent 5 · 10⁻⁵ T.', true, true, 4),
+  ('fysikk-2:magnetiske-felt', 'q06', 'flervalg', 'Hva skjer med sirkelradiusen for tyngre ioner i et massespektrometer?', array['Den blir mindre', 'Den blir større', 'Den er uendret', 'De stopper']::text[], 1, 'r er proporsjonal med m.', true, true, 5),
+  ('fysikk-2:magnetiske-felt', 'q07', 'flervalg', 'Hva bruker en elektromotor?', array['Kraft mellom ladninger', 'Gravitasjon', 'Kraften på strømførende sløyfer i et magnetfelt', 'Kjemisk energi direkte']::text[], 2, 'Sløyfene roterer.', true, true, 6),
+  ('fysikk-2:magnetiske-felt', 'q08', 'flervalg', 'Hva lager nordlyset?', array['Refleksjon av sollys fra isen', 'Lyn', 'Månelys', 'Ladde partikler fra solvinden som kolliderer med gasser i atmosfæren']::text[], 3, 'Nær polene følger partiklene feltlinjene inn.', true, true, 7),
+  ('fysikk-2:magnetiske-felt', 'q09', 'flervalg', 'Hvilken bane får en partikkel som har en fartskomponent langs magnetfeltet?', array['Spiral', 'Rett linje alltid', 'Parabel', 'Sirkel']::text[], 0, 'Sirkel på tvers og konstant fart langs feltet.', true, false, 8),
+  ('fysikk-2:magnetiske-felt', 'q10', 'flervalg', 'Hva er et eksempel på bruk av sterke magnetfelt i medisin?', array['Røntgen', 'MR-maskiner', 'Termometer', 'Stetoskop']::text[], 1, 'Lager bilder av kroppen.', true, false, 9),
+  ('fysikk-2:magnetiske-felt', 'm01', 'sant-usant', 'En spole med strøm gir et felt som ligner feltet rundt en stavmagnet.', array['Sant', 'Usant']::text[], 0, 'Prinsippet for elektromagneten.', false, true, 10),
+  ('fysikk-2:magnetiske-felt', 'm02', 'sant-usant', 'Magnetfeltet øker banefarten til en ladd partikkel.', array['Sant', 'Usant']::text[], 1, 'Det endrer bare retningen.', false, true, 11),
+  ('fysikk-2:magnetiske-felt', 'm03', 'sant-usant', 'Jordas magnetfelt beskytter oss mot mye stråling fra rommet.', array['Sant', 'Usant']::text[], 0, 'Ladde partikler avbøyes.', false, true, 12),
+  ('fysikk-2:magnetiske-felt', 'm04', 'sant-usant', 'En leder parallelt med magnetfeltet får størst kraft.', array['Sant', 'Usant']::text[], 1, 'Kraften er størst når lederen står vinkelrett på feltet.', false, true, 13),
+  ('fysikk-2:magnetiske-felt', 'm05', 'flervalg', 'Hvor stor er radiusen for elektronet med v = 5,9 · 10⁶ m/s i B = 1,0 · 10⁻³ T?', array['0,34 mm', 'Omtrent 3,4 cm', '3,4 m', '34 m']::text[], 1, 'r = mv/(qB).', false, true, 14),
+  ('fysikk-2:magnetiske-felt', 'm06', 'flervalg', 'Hvorfor peker en kompassnål nordover?', array['På grunn av jordas magnetfelt', 'På grunn av gravitasjon', 'På grunn av vind', 'På grunn av sola']::text[], 0, 'Nålen retter seg etter feltet.', false, true, 15),
+  ('fysikk-2:magnetiske-felt', 'm07', 'flervalg', 'Hva gjør magnetene i LHC?', array['Stopper partiklene', 'Lager lys', 'Holder partiklene i ringbanen', 'Kjøler ned partiklene']::text[], 2, 'Magnetkraften er sentripetalkraft.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('fysikk-2:magnetiske-felt', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Fysikk 2: Elektromagnetisk induksjon
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('fysikk-2:elektromagnetisk-induksjon', 'fysikk-2', 'elektromagnetisk-induksjon', 'Elektromagnetisk induksjon', 'Ulike måter å indusere elektromotorisk spenning og strøm på – magnetisk fluks, Faradays induksjonslov og Lenz'' regel, indusert spenning i en leder som beveger seg i et magnetfelt – og hvordan du utforsker induksjon med forsøk og analyserer resultatene.', array[8]::int[], 7, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('fysikk-2:elektromagnetisk-induksjon', '## Hva er induksjon?
+
+**Elektromagnetisk induksjon** betyr at en **endring** i et magnetfelt gjennom en ledersløyfe gir en **indusert spenning** – en **elektromotorisk spenning** (ems). Er kretsen lukket, går det en **indusert strøm**. Fenomenet ble oppdaget av **Michael Faraday** i **1831**.
+
+## Magnetisk fluks
+
+**Magnetisk fluks** Φ er et mål på hvor mye magnetfelt som går gjennom en flate:
+
+**Φ = B · A · cos θ**
+
+der A er arealet og θ vinkelen mellom feltet og normalen til flaten. Enheten er **weber** (Wb). Står feltet **vinkelrett** på flaten, er Φ = B · A.
+
+## Faradays induksjonslov
+
+Den induserte spenningen er lik **endringen i fluks per tid**:
+
+**ε = −N · ΔΦ / Δt**
+
+der N er antall **vindinger** i spolen.
+
+Fluksen kan endres ved å
+
+- endre **B** – for eksempel bevege en magnet inn i eller ut av en spole, eller slå strømmen i en elektromagnet av og på
+- endre **arealet** A – for eksempel ved å strekke en sløyfe
+- endre **vinkelen** θ – for eksempel ved å **rotere** en spole i et magnetfelt, slik en **generator** gjør
+
+**Eksempel**: En spole med 200 vindinger får en fluksendring på 0,010 Wb i løpet av 0,50 s. ε = 200 · 0,010 / 0,50 = **4,0 V**.
+
+## Lenz'' regel
+
+Minustegnet i Faradays lov uttrykker **Lenz'' regel**: Den induserte strømmen går i en slik retning at den **motvirker** endringen som skapte den. Skyver du en nordpol mot en spole, blir spolens ende også en **nordpol** som **frastøter** magneten. Regelen er en følge av **energibevaring** – du må gjøre **arbeid** for å skyve magneten inn.
+
+## Leder som beveger seg i et magnetfelt
+
+Når en rett leder med lengden l beveger seg med farten v **vinkelrett** på et magnetfelt B, induseres spenningen
+
+**ε = B · l · v**
+
+Forklaringen er at de frie elektronene i lederen får kraften **F = qvB** og flyttes mot den ene enden.
+
+**Eksempel**: B = 0,50 T, l = 0,20 m og v = 3,0 m/s gir ε = 0,50 · 0,20 · 3,0 = **0,30 V**.
+
+## Utforske induksjon
+
+Enkle forsøk:
+
+- Stikk en **magnet** inn i en **spole** koblet til et **voltmeter** eller en datalogger. Spenningen er **større** når magneten beveges **raskere**, når spolen har **flere vindinger** og når magneten er **sterkere**.
+- Når magneten står **stille**, er spenningen **null** – det er **endringen** som gir spenning.
+- Når magneten trekkes **ut**, skifter spenningen **fortegn**.
+- Slipp en magnet gjennom et **kobberrør**: Den faller **langsomt** fordi induserte **virvelstrømmer** motvirker bevegelsen.
+
+Ved **analyse** kan du plotte spenning mot tid og sammenligne **arealet** under grafen – den totale fluksendringen – for rask og langsom bevegelse. Arealet blir omtrent **likt**, fordi fluksendringen er den samme.', '{"label":"Elektromagnetisk induksjon","children":[{"label":"Fluks","children":[{"label":"Φ = BA cos θ"},{"label":"Weber"}]},{"label":"Faradays lov","children":[{"label":"ε = −NΔΦ/Δt"},{"label":"Endre B, A eller θ"}]},{"label":"Lenz'' regel","children":[{"label":"Motvirker endringen"},{"label":"Energibevaring"}]},{"label":"Bevegelig leder","children":[{"label":"ε = Blv"},{"label":"Kraft på elektroner"}]},{"label":"Forsøk","children":[{"label":"Magnet og spole"},{"label":"Magnet i kobberrør"},{"label":"Analyse av graf"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'fysikk-2:elektromagnetisk-induksjon';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('fysikk-2:elektromagnetisk-induksjon', 'Elektromagnetisk induksjon', 'Endring i magnetfelt gjennom en sløyfe gir indusert spenning.', 0),
+  ('fysikk-2:elektromagnetisk-induksjon', 'Elektromotorisk spenning', 'Indusert spenning, ofte skrevet ε.', 1),
+  ('fysikk-2:elektromagnetisk-induksjon', 'Michael Faraday', 'Oppdaget induksjon i 1831.', 2),
+  ('fysikk-2:elektromagnetisk-induksjon', 'Magnetisk fluks', 'Φ = B · A · cos θ, målt i weber.', 3),
+  ('fysikk-2:elektromagnetisk-induksjon', 'Weber', 'Enheten for magnetisk fluks.', 4),
+  ('fysikk-2:elektromagnetisk-induksjon', 'Faradays induksjonslov', 'ε = −N · ΔΦ / Δt.', 5),
+  ('fysikk-2:elektromagnetisk-induksjon', 'Vindinger', 'Antall runder i en spole – flere gir større spenning.', 6),
+  ('fysikk-2:elektromagnetisk-induksjon', 'Lenz'' regel', 'Indusert strøm motvirker endringen som skapte den.', 7),
+  ('fysikk-2:elektromagnetisk-induksjon', 'Energibevaring og Lenz', 'Man må gjøre arbeid for å skape den induserte strømmen.', 8),
+  ('fysikk-2:elektromagnetisk-induksjon', 'ε = Blv', 'Indusert spenning i leder som beveger seg vinkelrett på feltet.', 9),
+  ('fysikk-2:elektromagnetisk-induksjon', 'Virvelstrømmer', 'Induserte strømmer i metaller som motvirker bevegelse.', 10),
+  ('fysikk-2:elektromagnetisk-induksjon', 'Magnet i kobberrør', 'Faller langsomt på grunn av virvelstrømmer.', 11),
+  ('fysikk-2:elektromagnetisk-induksjon', 'Stillestående magnet', 'Gir ingen indusert spenning.', 12),
+  ('fysikk-2:elektromagnetisk-induksjon', 'Fortegnsskifte', 'Spenningen skifter fortegn når magneten trekkes ut i stedet for inn.', 13),
+  ('fysikk-2:elektromagnetisk-induksjon', 'Areal under ε–t-graf', 'Tilsvarer den totale fluksendringen.', 14);
+delete from public.quiz_sporsmal where tema_id = 'fysikk-2:elektromagnetisk-induksjon';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('fysikk-2:elektromagnetisk-induksjon', 'q01', 'flervalg', 'Hva gir indusert spenning?', array['Et konstant magnetfelt', 'En endring i magnetisk fluks', 'En sterk magnet som står stille', 'Et elektrisk felt alene']::text[], 1, 'Det er endringen som teller.', true, true, 0),
+  ('fysikk-2:elektromagnetisk-induksjon', 'q02', 'flervalg', 'Hva er magnetisk fluks når feltet står vinkelrett på flaten?', array['Φ = B · A', 'Φ = B / A', 'Φ = B + A', 'Φ = 0']::text[], 0, 'cos 0° = 1.', true, true, 1),
+  ('fysikk-2:elektromagnetisk-induksjon', 'q03', 'flervalg', 'En spole med 200 vindinger får en fluksendring på 0,010 Wb på 0,50 s. Hva er ε?', array['0,020 V', '1,0 V', '4,0 V', '100 V']::text[], 2, '200 · 0,010 / 0,50.', true, true, 2),
+  ('fysikk-2:elektromagnetisk-induksjon', 'q04', 'flervalg', 'Hva sier Lenz'' regel?', array['Strømmen forsterker endringen', 'Strømmen er alltid null', 'Spenningen er konstant', 'Den induserte strømmen motvirker endringen som skapte den']::text[], 3, 'Følger av energibevaring.', true, true, 3),
+  ('fysikk-2:elektromagnetisk-induksjon', 'q05', 'flervalg', 'En leder på 0,20 m beveger seg i 3,0 m/s vinkelrett på B = 0,50 T. Hva er ε?', array['0,30 V', '3,0 V', '0,03 V', '1,5 V']::text[], 0, 'ε = Blv.', true, true, 4),
+  ('fysikk-2:elektromagnetisk-induksjon', 'q06', 'flervalg', 'Hva skjer med spenningen når magneten står stille inne i spolen?', array['Den er maksimal', 'Den er null', 'Den øker', 'Den skifter fortegn']::text[], 1, 'Ingen fluksendring.', true, true, 5),
+  ('fysikk-2:elektromagnetisk-induksjon', 'q07', 'flervalg', 'Hvorfor faller en magnet langsomt gjennom et kobberrør?', array['Fordi kobber er magnetisk', 'Fordi luftmotstanden er stor', 'Fordi induserte virvelstrømmer motvirker bevegelsen', 'Fordi røret er smalt']::text[], 2, 'Lenz'' regel.', true, true, 6),
+  ('fysikk-2:elektromagnetisk-induksjon', 'q08', 'flervalg', 'Hva gjør spenningen større når en magnet stikkes inn i en spole?', array['Færre vindinger', 'Svakere magnet', 'Langsommere bevegelse', 'Raskere bevegelse og flere vindinger']::text[], 3, 'Større ΔΦ/Δt og N.', true, true, 7),
+  ('fysikk-2:elektromagnetisk-induksjon', 'q09', 'flervalg', 'Hvem oppdaget elektromagnetisk induksjon?', array['Michael Faraday', 'Isaac Newton', 'Albert Einstein', 'James Watt']::text[], 0, 'I 1831.', true, false, 8),
+  ('fysikk-2:elektromagnetisk-induksjon', 'q10', 'flervalg', 'Hvordan kan fluksen endres uten å endre B eller A?', array['Det er umulig', 'Ved å endre vinkelen, for eksempel ved rotasjon', 'Ved å varme opp spolen', 'Ved å male spolen']::text[], 1, 'Slik fungerer en generator.', true, false, 9),
+  ('fysikk-2:elektromagnetisk-induksjon', 'm01', 'sant-usant', 'Spenningen skifter fortegn når magneten trekkes ut i stedet for inn.', array['Sant', 'Usant']::text[], 0, 'Fluksendringen har motsatt fortegn.', false, true, 10),
+  ('fysikk-2:elektromagnetisk-induksjon', 'm02', 'sant-usant', 'Lenz'' regel betyr at induksjon gir gratis energi.', array['Sant', 'Usant']::text[], 1, 'Man må gjøre arbeid – energien er bevart.', false, true, 11),
+  ('fysikk-2:elektromagnetisk-induksjon', 'm03', 'sant-usant', 'Arealet under en ε–t-graf er omtrent likt for rask og langsom bevegelse av samme magnet.', array['Sant', 'Usant']::text[], 0, 'Den totale fluksendringen er den samme.', false, true, 12),
+  ('fysikk-2:elektromagnetisk-induksjon', 'm04', 'sant-usant', 'Induksjon krever en magnet som står helt stille.', array['Sant', 'Usant']::text[], 1, 'Det krever en endring.', false, true, 13),
+  ('fysikk-2:elektromagnetisk-induksjon', 'm05', 'flervalg', 'Hvorfor oppstår spenning i en leder som beveger seg i et magnetfelt?', array['Lederen blir varm', 'Elektronene får kraften qvB og flyttes mot én ende', 'Lederen blir magnetisk', 'Luften blir ladet']::text[], 1, 'Ladningene separeres.', false, true, 14),
+  ('fysikk-2:elektromagnetisk-induksjon', 'm06', 'flervalg', 'Hva er enheten for magnetisk fluks?', array['Weber', 'Tesla', 'Volt', 'Ampere']::text[], 0, '1 Wb = 1 T · m².', false, true, 15),
+  ('fysikk-2:elektromagnetisk-induksjon', 'm07', 'flervalg', 'Du skyver en nordpol mot en spole. Hva slags pol blir spolens nærmeste ende?', array['Sørpol', 'Ingen pol', 'Nordpol', 'Det varierer tilfeldig']::text[], 2, 'Den frastøter magneten etter Lenz'' regel.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('fysikk-2:elektromagnetisk-induksjon', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Fysikk 2: Induksjon i energiproduksjon og hverdagen
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('fysikk-2:induksjon-og-energiproduksjon', 'fysikk-2', 'induksjon-og-energiproduksjon', 'Induksjon i energiproduksjon og hverdagen', 'Hvordan induksjon inngår i bærekraftig energiproduksjon – generatorer i vann- og vindkraftverk, vekselstrøm, transformatorer og kraftoverføring – og anvendelser av induksjon i dagliglivet som induksjonstopp, trådløs lading, metalldetektorer og bremser.', array[9]::int[], 8, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('fysikk-2:induksjon-og-energiproduksjon', '## Generatoren
+
+En **generator** gjør **mekanisk energi** om til **elektrisk energi** ved hjelp av induksjon. En **spole** roterer i et **magnetfelt** – eller en magnet roterer inne i spoler. Fluksen gjennom spolen **endres** hele tiden, og det induseres en spenning.
+
+Fordi fluksen varierer som en **sinusfunksjon** når spolen roterer, får vi **vekselspenning**. I Norge har strømnettet frekvensen **50 Hz** – spenningen skifter retning 100 ganger i sekundet.
+
+## Bærekraftig energiproduksjon
+
+Nesten all elektrisk kraft produseres med **generatorer**. Forskjellen ligger i **hva som driver** dem:
+
+- **Vannkraft**: Vann faller fra et magasin og driver en **turbin** koblet til generatoren. Vannkraft er **fornybar** og står for det aller meste av kraftproduksjonen i **Norge**. Den kan også **reguleres** – vi kan spare vann til vi trenger strømmen.
+- **Vindkraft**: Vinden driver **rotorbladene**, som driver generatoren. Produksjonen **varierer** med vinden.
+- **Bølge-** og **tidevannskraft** bruker havets bevegelser.
+- **Varmekraftverk** – med kull, gass, biobrensel eller kjernekraft – koker vann til damp som driver en turbin.
+
+**Solceller** er et unntak: De bruker **ikke** induksjon, men gjør lys direkte om til strøm.
+
+## Transformatoren
+
+En **transformator** består av to spoler rundt en felles **jernkjerne**. Vekselstrøm i primærspolen gir et **varierende** magnetfelt, som induserer spenning i sekundærspolen:
+
+**U₁ / U₂ = N₁ / N₂**
+
+**Eksempel**: N₁ = 1000, N₂ = 50 og U₁ = 230 V gir U₂ = 230 · 50 / 1000 = **11,5 V**. Slike transformatorer finnes i mange **ladere**.
+
+Transformatorer virker bare med **vekselstrøm**, fordi det må være en **endring** i fluksen.
+
+## Kraftoverføring
+
+Strøm overføres over lange avstander med **svært høy spenning**. For en gitt effekt P = U · I gir høy spenning **lav strøm**. Varmetapet i ledningene er **P_tap = R · I²**, så lav strøm gir **mye mindre tap**. Transformatorer **øker** spenningen etter kraftverket og **senker** den før strømmen når husene.
+
+## Induksjon i hverdagen
+
+- **Induksjonstopp**: En spole under glasset lager et raskt vekslende magnetfelt, som induserer **virvelstrømmer** i bunnen av kjelen. Kjelen blir varm, mens platen selv holder seg ganske kald. Kjelen må være av **magnetisk** metall.
+- **Trådløs lading** av mobiler og tannbørster: En spole i laderen induserer strøm i en spole i telefonen.
+- **Metalldetektorer** på flyplasser registrerer virvelstrømmer i metallgjenstander.
+- **Virvelstrømsbremser** i tog og berg-og-dal-baner bremser uten slitasje.
+- **Elbiler** bruker motoren som **generator** når de bremser – **regenerativ bremsing** – og lader batteriet.
+- **Kortlesere**, **elektriske gitarer** og **mikrofoner** bygger også på induksjon.
+
+## Vurdering
+
+Induksjon er grunnlaget for det **elektriske samfunnet**. Hvor **bærekraftig** strømmen er, avhenger av hva som driver generatorene. Samtidig har også fornybar energi **ulemper**, som naturinngrep ved vassdrag og vindkraftverk. Effektiv **overføring** og **bruk** av strøm er en viktig del av det grønne skiftet.', '{"label":"Induksjon og energi","children":[{"label":"Generator","children":[{"label":"Roterende spole"},{"label":"Vekselspenning 50 Hz"}]},{"label":"Kraftverk","children":[{"label":"Vannkraft"},{"label":"Vindkraft"},{"label":"Varmekraft"}]},{"label":"Transformator","children":[{"label":"U₁/U₂ = N₁/N₂"},{"label":"Bare vekselstrøm"}]},{"label":"Overføring","children":[{"label":"Høy spenning"},{"label":"P_tap = RI²"}]},{"label":"Hverdagen","children":[{"label":"Induksjonstopp og lading"},{"label":"Metalldetektor og brems"},{"label":"Regenerativ bremsing"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'fysikk-2:induksjon-og-energiproduksjon';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('fysikk-2:induksjon-og-energiproduksjon', 'Generator', 'Gjør mekanisk energi om til elektrisk energi ved induksjon.', 0),
+  ('fysikk-2:induksjon-og-energiproduksjon', 'Vekselspenning', 'Spenning som skifter retning periodisk.', 1),
+  ('fysikk-2:induksjon-og-energiproduksjon', '50 Hz', 'Frekvensen i det norske strømnettet.', 2),
+  ('fysikk-2:induksjon-og-energiproduksjon', 'Turbin', 'Hjul som drives av vann, damp eller vind og driver generatoren.', 3),
+  ('fysikk-2:induksjon-og-energiproduksjon', 'Vannkraft', 'Fornybar og regulerbar – det meste av norsk kraftproduksjon.', 4),
+  ('fysikk-2:induksjon-og-energiproduksjon', 'Vindkraft', 'Vinden driver rotorblader og generator – varierende produksjon.', 5),
+  ('fysikk-2:induksjon-og-energiproduksjon', 'Solceller', 'Gjør lys direkte om til strøm uten induksjon.', 6),
+  ('fysikk-2:induksjon-og-energiproduksjon', 'Transformator', 'To spoler rundt en jernkjerne som endrer spenningen.', 7),
+  ('fysikk-2:induksjon-og-energiproduksjon', 'U₁/U₂ = N₁/N₂', 'Transformatorligningen.', 8),
+  ('fysikk-2:induksjon-og-energiproduksjon', 'Høyspentoverføring', 'Høy spenning gir lav strøm og lite varmetap.', 9),
+  ('fysikk-2:induksjon-og-energiproduksjon', 'Varmetap', 'P_tap = R · I².', 10),
+  ('fysikk-2:induksjon-og-energiproduksjon', 'Induksjonstopp', 'Varierende magnetfelt gir virvelstrømmer i kjelen.', 11),
+  ('fysikk-2:induksjon-og-energiproduksjon', 'Trådløs lading', 'Spole i laderen induserer strøm i spole i telefonen.', 12),
+  ('fysikk-2:induksjon-og-energiproduksjon', 'Regenerativ bremsing', 'Elbilens motor fungerer som generator ved bremsing.', 13),
+  ('fysikk-2:induksjon-og-energiproduksjon', 'Virvelstrømsbrems', 'Brems uten slitasje basert på induserte strømmer.', 14);
+delete from public.quiz_sporsmal where tema_id = 'fysikk-2:induksjon-og-energiproduksjon';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('fysikk-2:induksjon-og-energiproduksjon', 'q01', 'flervalg', 'Hva gjør en generator?', array['Gjør elektrisk energi om til varme', 'Gjør mekanisk energi om til elektrisk energi', 'Lagrer strøm', 'Gjør lys om til strøm']::text[], 1, 'Ved hjelp av induksjon.', true, true, 0),
+  ('fysikk-2:induksjon-og-energiproduksjon', 'q02', 'flervalg', 'Hvilken energikilde bruker ikke induksjon?', array['Solceller', 'Vannkraft', 'Vindkraft', 'Kjernekraft']::text[], 0, 'Solceller gjør lys direkte om til strøm.', true, true, 1),
+  ('fysikk-2:induksjon-og-energiproduksjon', 'q03', 'flervalg', 'N₁ = 1000, N₂ = 50 og U₁ = 230 V. Hva er U₂?', array['4600 V', '230 V', '11,5 V', '50 V']::text[], 2, '230 · 50 / 1000.', true, true, 2),
+  ('fysikk-2:induksjon-og-energiproduksjon', 'q04', 'flervalg', 'Hvorfor overføres strøm med svært høy spenning?', array['Fordi det er tryggere', 'Fordi det gir mer strøm', 'Fordi ledningene blir kortere', 'Fordi lav strøm gir mye mindre varmetap']::text[], 3, 'P_tap = R · I².', true, true, 3),
+  ('fysikk-2:induksjon-og-energiproduksjon', 'q05', 'flervalg', 'Hvorfor virker transformatorer bare med vekselstrøm?', array['Fordi det må være en endring i fluksen', 'Fordi likestrøm er farlig', 'Fordi jernkjernen smelter', 'Fordi spolene er for små']::text[], 0, 'Induksjon krever endring.', true, true, 4),
+  ('fysikk-2:induksjon-og-energiproduksjon', 'q06', 'flervalg', 'Hvordan varmes kjelen på en induksjonstopp?', array['Platen blir glovarm', 'Induserte virvelstrømmer i kjelen gir varme', 'Kjelen varmes av lys', 'Med gass']::text[], 1, 'Kjelen må være av magnetisk metall.', true, true, 5),
+  ('fysikk-2:induksjon-og-energiproduksjon', 'q07', 'flervalg', 'Hva er regenerativ bremsing?', array['Bremsing med friksjon', 'Bremsing med fallskjerm', 'At elbilens motor fungerer som generator og lader batteriet', 'At bilen bremser av seg selv']::text[], 2, 'Bevegelsesenergi blir til elektrisk energi.', true, true, 6),
+  ('fysikk-2:induksjon-og-energiproduksjon', 'q08', 'flervalg', 'Hvilken frekvens har strømnettet i Norge?', array['60 Hz', '100 Hz', '1 Hz', '50 Hz']::text[], 3, 'Spenningen skifter retning 100 ganger i sekundet.', true, true, 7),
+  ('fysikk-2:induksjon-og-energiproduksjon', 'q09', 'flervalg', 'Hvorfor er vannkraft særlig verdifull?', array['Den er fornybar og kan reguleres', 'Den varierer med vinden', 'Den krever kull', 'Den gir ingen naturinngrep']::text[], 0, 'Vann kan spares i magasiner.', true, false, 8),
+  ('fysikk-2:induksjon-og-energiproduksjon', 'q10', 'flervalg', 'Hva er en ulempe også ved fornybar energi?', array['Den gir mye CO₂', 'Naturinngrep ved vassdrag og vindkraftverk', 'Den tar aldri slutt', 'Den krever ingen generatorer']::text[], 1, 'Bærekraft har flere sider.', true, false, 9),
+  ('fysikk-2:induksjon-og-energiproduksjon', 'm01', 'sant-usant', 'Nesten all elektrisk kraft produseres med generatorer.', array['Sant', 'Usant']::text[], 0, 'Forskjellen er hva som driver dem.', false, true, 10),
+  ('fysikk-2:induksjon-og-energiproduksjon', 'm02', 'sant-usant', 'På en induksjonstopp kan alle typer kjeler brukes.', array['Sant', 'Usant']::text[], 1, 'Kjelen må være av magnetisk metall.', false, true, 11),
+  ('fysikk-2:induksjon-og-energiproduksjon', 'm03', 'sant-usant', 'Transformatorer senker spenningen før strømmen når husene.', array['Sant', 'Usant']::text[], 0, 'Fra høyspent til 230 V.', false, true, 12),
+  ('fysikk-2:induksjon-og-energiproduksjon', 'm04', 'sant-usant', 'Virvelstrømsbremser slites fort fordi de bruker friksjon.', array['Sant', 'Usant']::text[], 1, 'De bremser uten slitasje.', false, true, 13),
+  ('fysikk-2:induksjon-og-energiproduksjon', 'm05', 'flervalg', 'Hvordan fungerer trådløs lading?', array['Med lys', 'En spole i laderen induserer strøm i en spole i telefonen', 'Med varme', 'Med batteribytte']::text[], 1, 'Induksjon mellom to spoler.', false, true, 14),
+  ('fysikk-2:induksjon-og-energiproduksjon', 'm06', 'flervalg', 'Hva driver turbinen i et varmekraftverk?', array['Damp', 'Vind', 'Fallende vann', 'Lys']::text[], 0, 'Vann kokes med kull, gass eller kjernekraft.', false, true, 15),
+  ('fysikk-2:induksjon-og-energiproduksjon', 'm07', 'flervalg', 'Hva skjer med varmetapet hvis strømmen i en ledning halveres?', array['Det halveres', 'Det dobles', 'Det blir en firedel', 'Det er uendret']::text[], 2, 'P_tap er proporsjonal med I².', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('fysikk-2:induksjon-og-energiproduksjon', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Fysikk 2: Den spesielle og generelle relativitetsteorien
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('fysikk-2:relativitetsteori', 'fysikk-2', 'relativitetsteori', 'Den spesielle og generelle relativitetsteorien', 'Einsteins postulater og følgene av den spesielle relativitetsteorien – samtidighet, tidsforlengelse, lengdeforkortning og E = mc² – og den generelle relativitetsteorien med ekvivalensprinsippet, krum romtid, lysavbøyning, gravitasjonell tidsforlengelse, sorte hull og gravitasjonsbølger.', array[10]::int[], 9, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('fysikk-2:relativitetsteori', '## Den spesielle relativitetsteorien (1905)
+
+**Albert Einstein** bygde teorien på to **postulater**:
+
+1. Fysikkens lover er de **samme** i alle **inertialsystemer** – systemer som beveger seg med konstant fart i forhold til hverandre.
+2. **Lysfarten** i vakuum er den **samme** for alle observatører, uansett hvordan lyskilden eller observatøren beveger seg: c ≈ 3,00 · 10⁸ m/s.
+
+Det andre postulatet virker rart, men er bekreftet i mange forsøk. Det fører til at **tid** og **rom** ikke er absolutte.
+
+## Samtidighet
+
+To hendelser som er **samtidige** for én observatør, er **ikke** nødvendigvis samtidige for en annen observatør som beveger seg.
+
+## Tidsforlengelse
+
+En klokke som **beveger** seg i forhold til oss, går **langsommere** enn våre klokker:
+
+**t = γ · t₀**, der **γ = 1 / √(1 − v²/c²)**
+
+t₀ er **egentiden** – tiden målt av en klokke som følger med. Ved v = 0,80c er γ = 1 / √(1 − 0,64) = 1 / 0,60 ≈ **1,67**.
+
+Et kjent bevis er **myoner**, partikler som dannes høyt oppe i atmosfæren. De lever så kort at de ikke burde rukket ned til bakken, men på grunn av **tidsforlengelsen** når mange av dem fram.
+
+## Lengdeforkortning
+
+Et legeme som beveger seg, er **kortere** i fartsretningen: **L = L₀ / γ**. Effektene er bare merkbare når farten er en **betydelig** del av lysfarten.
+
+## Masse og energi
+
+Einstein viste at masse og energi er **ekvivalente**:
+
+**E = mc²**
+
+En liten masse tilsvarer en **enorm** energi. Dette forklarer energien i **kjernekraftverk** og i **sola**, der masse omdannes til energi ved **fusjon**. Intet legeme med masse kan nå **lysfarten**.
+
+## Den generelle relativitetsteorien (1915)
+
+**Ekvivalensprinsippet**: Det er umulig å skille mellom virkningen av **gravitasjon** og virkningen av **akselerasjon** i et lukket rom.
+
+Einstein beskrev gravitasjon ikke som en kraft, men som **krumning av romtiden**. Masse og energi **krummer** romtiden, og legemer følger de «rettest mulige» banene i den krumme romtiden.
+
+## Bekreftelser og følger
+
+- **Lysavbøyning**: Lys fra stjerner bøyes rundt sola. Det ble målt under en **solformørkelse** i **1919**.
+- **Merkurs bane**: Teorien forklarte en liten avvikelse i Merkurs bane som Newtons teori ikke kunne forklare.
+- **Gravitasjonell tidsforlengelse**: Klokker går **langsommere** i sterkere gravitasjonsfelt. **GPS-satellittene** må korrigeres for både spesiell og generell relativitet – ellers ville posisjonen bli feil med flere kilometer per døgn.
+- **Sorte hull**: Så mye masse samlet at ikke engang lys slipper ut.
+- **Gravitasjonsbølger**: Krusninger i romtiden, målt av LIGO i 2015.
+
+## Nytt syn på tid, rom og felt
+
+Relativitetsteorien viste at **tid** og **rom** henger sammen i en firedimensjonal **romtid**, at tid er **relativ**, og at gravitasjonsfeltet er **geometrien** til romtiden. Newtons fysikk er likevel en svært god **tilnærming** ved lave farter og svake felt.', '{"label":"Relativitetsteori","children":[{"label":"Postulater","children":[{"label":"Like lover"},{"label":"Konstant lysfart"}]},{"label":"Følger","children":[{"label":"Samtidighet"},{"label":"Tidsforlengelse og myoner"},{"label":"Lengdeforkortning"}]},{"label":"Energi","children":[{"label":"E = mc²"},{"label":"Ingen når lysfarten"}]},{"label":"Generell relativitet","children":[{"label":"Ekvivalensprinsippet"},{"label":"Krum romtid"}]},{"label":"Bekreftelser","children":[{"label":"Lysavbøyning 1919"},{"label":"GPS"},{"label":"Sorte hull og gravitasjonsbølger"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'fysikk-2:relativitetsteori';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('fysikk-2:relativitetsteori', 'Inertialsystem', 'Referansesystem som beveger seg med konstant fart.', 0),
+  ('fysikk-2:relativitetsteori', 'Første postulat', 'Fysikkens lover er like i alle inertialsystemer.', 1),
+  ('fysikk-2:relativitetsteori', 'Andre postulat', 'Lysfarten i vakuum er lik for alle observatører.', 2),
+  ('fysikk-2:relativitetsteori', 'Samtidighetens relativitet', 'Samtidige hendelser for én observatør er ikke nødvendigvis samtidige for en annen.', 3),
+  ('fysikk-2:relativitetsteori', 'Tidsforlengelse', 't = γ · t₀ – klokker i bevegelse går langsommere.', 4),
+  ('fysikk-2:relativitetsteori', 'Gammafaktoren', 'γ = 1 / √(1 − v²/c²).', 5),
+  ('fysikk-2:relativitetsteori', 'Egentid', 'Tiden målt av en klokke som følger med.', 6),
+  ('fysikk-2:relativitetsteori', 'Myoner', 'Partikler som når bakken takket være tidsforlengelse.', 7),
+  ('fysikk-2:relativitetsteori', 'Lengdeforkortning', 'L = L₀ / γ i fartsretningen.', 8),
+  ('fysikk-2:relativitetsteori', 'E = mc²', 'Masse og energi er ekvivalente.', 9),
+  ('fysikk-2:relativitetsteori', 'Ekvivalensprinsippet', 'Gravitasjon og akselerasjon kan ikke skilles i et lukket rom.', 10),
+  ('fysikk-2:relativitetsteori', 'Krum romtid', 'Masse og energi krummer romtiden – det er gravitasjon.', 11),
+  ('fysikk-2:relativitetsteori', 'Lysavbøyning', 'Lys bøyes rundt massive legemer – målt i 1919.', 12),
+  ('fysikk-2:relativitetsteori', 'Gravitasjonell tidsforlengelse', 'Klokker går langsommere i sterkere gravitasjonsfelt.', 13),
+  ('fysikk-2:relativitetsteori', 'GPS og relativitet', 'Satellittene må korrigeres, ellers blir posisjonen feil.', 14);
+delete from public.quiz_sporsmal where tema_id = 'fysikk-2:relativitetsteori';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('fysikk-2:relativitetsteori', 'q01', 'flervalg', 'Hva sier Einsteins andre postulat?', array['Tid er absolutt', 'Lysfarten i vakuum er lik for alle observatører', 'Masse er konstant', 'Gravitasjon er en kraft']::text[], 1, 'Uansett bevegelse.', true, true, 0),
+  ('fysikk-2:relativitetsteori', 'q02', 'flervalg', 'Hva er γ ved v = 0,80c?', array['Omtrent 1,67', '0,60', '0,80', '2,5']::text[], 0, '1 / √(1 − 0,64).', true, true, 1),
+  ('fysikk-2:relativitetsteori', 'q03', 'flervalg', 'Hva betyr tidsforlengelse?', array['At tiden stopper', 'At klokker i bevegelse går raskere', 'At klokker i bevegelse går langsommere sett fra oss', 'At tiden går baklengs']::text[], 2, 't = γ · t₀.', true, true, 2),
+  ('fysikk-2:relativitetsteori', 'q04', 'flervalg', 'Hvorfor når mange myoner jordoverflaten?', array['De er svært tunge', 'De dannes ved bakken', 'De går raskere enn lyset', 'På grunn av tidsforlengelse']::text[], 3, 'Deres tid går langsommere sett fra oss.', true, true, 3),
+  ('fysikk-2:relativitetsteori', 'q05', 'flervalg', 'Hva sier E = mc²?', array['Masse og energi er ekvivalente', 'Energi kan skapes fra ingenting', 'Masse er alltid bevart alene', 'Lysfarten varierer']::text[], 0, 'Forklarer energien i sola og kjernekraft.', true, true, 4),
+  ('fysikk-2:relativitetsteori', 'q06', 'flervalg', 'Hva er ekvivalensprinsippet?', array['Masse og energi er like', 'Gravitasjon og akselerasjon kan ikke skilles i et lukket rom', 'Alle klokker går likt', 'Lys har masse']::text[], 1, 'Grunnlaget for den generelle relativitetsteorien.', true, true, 5),
+  ('fysikk-2:relativitetsteori', 'q07', 'flervalg', 'Hvordan beskriver den generelle relativitetsteorien gravitasjon?', array['Som en elektrisk kraft', 'Som en magnetisk kraft', 'Som krumning av romtiden', 'Som luftmotstand']::text[], 2, 'Masse og energi krummer romtiden.', true, true, 6),
+  ('fysikk-2:relativitetsteori', 'q08', 'flervalg', 'Hva ble målt under solformørkelsen i 1919?', array['Gravitasjonsbølger', 'Myoner', 'Lysfarten', 'Lysavbøyning rundt sola']::text[], 3, 'Bekreftet generell relativitet.', true, true, 7),
+  ('fysikk-2:relativitetsteori', 'q09', 'flervalg', 'Hvorfor må GPS-satellittene korrigeres for relativitet?', array['Ellers blir posisjonen feil med flere kilometer per døgn', 'For at de skal gå raskere', 'For å spare strøm', 'Det trengs ikke']::text[], 0, 'Både spesiell og generell relativitet.', true, false, 8),
+  ('fysikk-2:relativitetsteori', 'q10', 'flervalg', 'Når er relativistiske effekter merkbare?', array['Ved alle farter', 'Når farten er en betydelig del av lysfarten', 'Bare når legemet står stille', 'Aldri']::text[], 1, 'Ved lave farter er Newtons fysikk god.', true, false, 9),
+  ('fysikk-2:relativitetsteori', 'm01', 'sant-usant', 'Klokker går langsommere i sterkere gravitasjonsfelt.', array['Sant', 'Usant']::text[], 0, 'Gravitasjonell tidsforlengelse.', false, true, 10),
+  ('fysikk-2:relativitetsteori', 'm02', 'sant-usant', 'Et romskip med masse kan nå lysfarten hvis det har nok drivstoff.', array['Sant', 'Usant']::text[], 1, 'Intet legeme med masse kan nå lysfarten.', false, true, 11),
+  ('fysikk-2:relativitetsteori', 'm03', 'sant-usant', 'Newtons fysikk er en god tilnærming ved lave farter.', array['Sant', 'Usant']::text[], 0, 'Relativistiske effekter er da svært små.', false, true, 12),
+  ('fysikk-2:relativitetsteori', 'm04', 'sant-usant', 'Den spesielle relativitetsteorien kom etter den generelle.', array['Sant', 'Usant']::text[], 1, 'Spesiell kom i 1905, generell i 1915.', false, true, 13),
+  ('fysikk-2:relativitetsteori', 'm05', 'flervalg', 'Hva er egentid?', array['Tiden på en klokke på jorda', 'Tiden målt av en klokke som følger med', 'Den lengste tiden', 'Universets alder']::text[], 1, 'Klokken er i ro i forhold til hendelsen.', false, true, 14),
+  ('fysikk-2:relativitetsteori', 'm06', 'flervalg', 'Hva forklarte generell relativitet som Newton ikke kunne?', array['En liten avvikelse i Merkurs bane', 'Hvorfor epler faller', 'Tidevannet', 'Månens faser']::text[], 0, 'Perihelforskyvningen.', false, true, 15),
+  ('fysikk-2:relativitetsteori', 'm07', 'flervalg', 'Hva er et sort hull?', array['En mørk stjerne uten masse', 'Et hull i jorda', 'Så mye masse samlet at ikke engang lys slipper ut', 'En planet']::text[], 2, 'Romtiden er ekstremt krummet.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('fysikk-2:relativitetsteori', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Fysikk 2: Kvantefysikk
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('fysikk-2:kvantefysikk', 'fysikk-2', 'kvantefysikk', 'Kvantefysikk', 'Hva som skiller kvanteobjekter fra klassiske objekter – fotoner og kvantisering, den fotoelektriske effekten, bølge–partikkel-dualitet, dobbeltspalteforsøket, de Broglie-bølgelengde og uskarphetsrelasjonen – og situasjoner der kvanteeffekter observeres, fra laser og LED til tunnellering, sammenfiltring og kvantedatamaskiner.', array[11]::int[], 10, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('fysikk-2:kvantefysikk', '## Klassisk og kvantefysisk
+
+I **klassisk** fysikk har et legeme en bestemt **posisjon** og **fart**, og energi kan ha **alle** verdier. For svært **små** objekter – elektroner, atomer og fotoner – gjelder andre regler. Kvanteobjekter
+
+- har **kvantisert** energi – bare bestemte verdier er mulige
+- oppfører seg både som **bølger** og **partikler**
+- kan ikke beskrives med bestemt posisjon og fart **samtidig**
+- beskrives med **sannsynligheter**
+
+## Fotoner
+
+Lys består av **fotoner** – små energipakker. Energien til et foton er
+
+**E = h · f = h · c / λ**
+
+der **h = 6,63 · 10⁻³⁴ J·s** er **Plancks konstant**. Rødt lys med bølgelengde 650 nm har f ≈ 4,6 · 10¹⁴ Hz og fotonenergi E ≈ 3,1 · 10⁻¹⁹ J, omtrent **1,9 eV**. **Blått** og **UV-lys** har mer energi per foton enn rødt lys.
+
+## Den fotoelektriske effekten
+
+Når lys treffer en metallflate, kan **elektroner** slås løs. Forsøk viste at
+
+- det bare skjer hvis frekvensen er **høy nok**, uansett hvor sterkt lyset er
+- sterkere lys gir **flere**, men ikke raskere elektroner
+
+Einstein forklarte i **1905** at hvert **foton** gir all energien sin til **ett** elektron: E_k = hf − W, der W er **løsrivningsarbeidet**. Forklaringen ga ham **Nobelprisen**.
+
+## Bølge–partikkel-dualitet
+
+I **dobbeltspalteforsøket** sendes elektroner eller fotoner mot to smale spalter. På skjermen dannes et **interferensmønster** – slik bølger gjør – selv når partiklene sendes **én og én**. Hver partikkel treffer skjermen i **ett** punkt, men mønsteret bygges opp som om hver partikkel gikk gjennom **begge** spaltene. Måler vi hvilken spalte den går gjennom, **forsvinner** mønsteret.
+
+**Louis de Broglie** foreslo at alle partikler har en **bølgelengde**:
+
+**λ = h / p = h / (mv)**
+
+Et elektron med farten 5,9 · 10⁶ m/s har λ ≈ **0,12 nm** – omtrent som avstanden mellom atomer. Derfor kan elektroner brukes i **elektronmikroskoper**. For en fotball er bølgelengden forsvinnende liten.
+
+## Uskarphetsrelasjonen
+
+**Heisenbergs uskarphetsrelasjon** sier at vi ikke kan kjenne både **posisjon** og **bevegelsesmengde** nøyaktig samtidig. Dette er ikke en begrensning ved måleutstyret, men en **grunnleggende** egenskap ved naturen.
+
+## Kvanteeffekter i hverdag og teknologi
+
+- **Atomers spektre**: Atomer sender ut lys med bestemte farger fordi elektronene hopper mellom **kvantiserte** energinivåer.
+- **Laser** og **LED** bygger på kontrollerte overganger mellom energinivåer.
+- **Solceller** bruker fotoner til å frigjøre elektroner.
+- **Tunnellering**: Partikler kan passere barrierer de klassisk ikke har energi nok til å komme over. Det brukes i **tunnelmikroskoper** og skjer i **fusjonen** i sola.
+- **Superposisjon** og **sammenfiltring**: Kvanteobjekter kan være i flere tilstander samtidig, og sammenfiltrede partikler har koblede egenskaper selv over lange avstander. Forsøk med sammenfiltrede fotoner ga **Nobelprisen i fysikk** i **2022**.
+- **Kvantedatamaskiner** bruker **kvantebiter** som kan være i superposisjon, og kan løse noen typer problemer mye raskere enn vanlige datamaskiner.
+
+## Et nytt verdensbilde
+
+Kvantefysikken viser at naturen på det minste nivået er **ubestemt** og **sannsynlighetsbasert**. Likevel er den en av de **best testede** teoriene i fysikken.', '{"label":"Kvantefysikk","children":[{"label":"Fotoner","children":[{"label":"E = hf"},{"label":"Plancks konstant"}]},{"label":"Fotoelektrisk effekt","children":[{"label":"Frekvens avgjør"},{"label":"E_k = hf − W"}]},{"label":"Dualitet","children":[{"label":"Dobbeltspalten"},{"label":"de Broglie"},{"label":"Uskarphet"}]},{"label":"Kvanteeffekter","children":[{"label":"Spektre, laser og LED"},{"label":"Tunnellering"},{"label":"Superposisjon og sammenfiltring"}]},{"label":"Teknologi","children":[{"label":"Elektronmikroskop"},{"label":"Solceller"},{"label":"Kvantedatamaskiner"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'fysikk-2:kvantefysikk';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('fysikk-2:kvantefysikk', 'Kvantisering', 'Energien kan bare ha bestemte verdier.', 0),
+  ('fysikk-2:kvantefysikk', 'Foton', 'Energipakke av lys.', 1),
+  ('fysikk-2:kvantefysikk', 'Fotonenergi', 'E = hf = hc/λ.', 2),
+  ('fysikk-2:kvantefysikk', 'Plancks konstant', 'h = 6,63 · 10⁻³⁴ J·s.', 3),
+  ('fysikk-2:kvantefysikk', 'Fotoelektrisk effekt', 'Lys slår løs elektroner fra et metall.', 4),
+  ('fysikk-2:kvantefysikk', 'Løsrivningsarbeid', 'Minste energi som trengs for å løsrive et elektron fra metallet.', 5),
+  ('fysikk-2:kvantefysikk', 'E_k = hf − W', 'Einsteins ligning for den fotoelektriske effekten.', 6),
+  ('fysikk-2:kvantefysikk', 'Bølge–partikkel-dualitet', 'Kvanteobjekter oppfører seg både som bølger og partikler.', 7),
+  ('fysikk-2:kvantefysikk', 'Dobbeltspalteforsøket', 'Gir interferensmønster selv med én partikkel om gangen.', 8),
+  ('fysikk-2:kvantefysikk', 'de Broglie-bølgelengde', 'λ = h / p.', 9),
+  ('fysikk-2:kvantefysikk', 'Uskarphetsrelasjonen', 'Posisjon og bevegelsesmengde kan ikke kjennes nøyaktig samtidig.', 10),
+  ('fysikk-2:kvantefysikk', 'Tunnellering', 'Partikler kan passere barrierer de klassisk ikke kan komme over.', 11),
+  ('fysikk-2:kvantefysikk', 'Superposisjon', 'Et kvanteobjekt kan være i flere tilstander samtidig.', 12),
+  ('fysikk-2:kvantefysikk', 'Sammenfiltring', 'Partikler med koblede egenskaper selv over lange avstander.', 13),
+  ('fysikk-2:kvantefysikk', 'Kvantebit', 'Grunnenhet i en kvantedatamaskin som kan være i superposisjon.', 14);
+delete from public.quiz_sporsmal where tema_id = 'fysikk-2:kvantefysikk';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('fysikk-2:kvantefysikk', 'q01', 'flervalg', 'Hva skiller kvanteobjekter fra klassiske objekter?', array['De har alltid bestemt posisjon og fart', 'De har kvantisert energi og oppfører seg både som bølger og partikler', 'De er alltid store', 'De følger bare Newtons lover']::text[], 1, 'Og beskrives med sannsynligheter.', true, true, 0),
+  ('fysikk-2:kvantefysikk', 'q02', 'flervalg', 'Hva er energien til et foton?', array['E = hf', 'E = mc', 'E = ½mv²', 'E = mgh']::text[], 0, 'h er Plancks konstant.', true, true, 1),
+  ('fysikk-2:kvantefysikk', 'q03', 'flervalg', 'Hva skjer når lysstyrken økes i den fotoelektriske effekten?', array['Elektronene blir raskere', 'Ingen elektroner slås løs', 'Flere, men ikke raskere elektroner slås løs', 'Frekvensen øker']::text[], 2, 'Flere fotoner, men samme energi per foton.', true, true, 2),
+  ('fysikk-2:kvantefysikk', 'q04', 'flervalg', 'Hva viser dobbeltspalteforsøket med elektroner?', array['At elektroner bare er partikler', 'At elektroner er uten masse', 'At elektroner ikke finnes', 'At elektroner har bølgeegenskaper']::text[], 3, 'Interferensmønster oppstår.', true, true, 3),
+  ('fysikk-2:kvantefysikk', 'q05', 'flervalg', 'Hva er de Broglie-bølgelengden?', array['λ = h / p', 'λ = p / h', 'λ = c · f', 'λ = mv']::text[], 0, 'Gjelder alle partikler.', true, true, 4),
+  ('fysikk-2:kvantefysikk', 'q06', 'flervalg', 'Hva sier Heisenbergs uskarphetsrelasjon?', array['At måleutstyret er dårlig', 'At posisjon og bevegelsesmengde ikke kan kjennes nøyaktig samtidig', 'At energi er bevart', 'At lys er en partikkel']::text[], 1, 'En grunnleggende egenskap ved naturen.', true, true, 5),
+  ('fysikk-2:kvantefysikk', 'q07', 'flervalg', 'Hva er tunnellering?', array['Å grave tunneler', 'Å stoppe partikler', 'At partikler kan passere barrierer de klassisk ikke kan komme over', 'At lys bøyes']::text[], 2, 'Skjer i fusjonen i sola.', true, true, 6),
+  ('fysikk-2:kvantefysikk', 'q08', 'flervalg', 'Hvorfor sender atomer ut lys med bestemte farger?', array['Fordi de er varme', 'Fordi de er store', 'Fordi de roterer', 'Fordi elektronene hopper mellom kvantiserte energinivåer']::text[], 3, 'Gir linjespektre.', true, true, 7),
+  ('fysikk-2:kvantefysikk', 'q09', 'flervalg', 'Hva gir Einsteins forklaring av den fotoelektriske effekten?', array['E_k = hf − W', 'E = mc²', 'F = ma', 'λ = h / p']::text[], 0, 'Hvert foton gir energien til ett elektron.', true, false, 8),
+  ('fysikk-2:kvantefysikk', 'q10', 'flervalg', 'Hva ble belønnet med Nobelprisen i fysikk i 2022?', array['Higgs-partikkelen', 'Forsøk med sammenfiltrede fotoner', 'Gravitasjonsbølger', 'Laseren']::text[], 1, 'Grunnlag for kvanteteknologi.', true, false, 9),
+  ('fysikk-2:kvantefysikk', 'm01', 'sant-usant', 'Blått lys har mer energi per foton enn rødt lys.', array['Sant', 'Usant']::text[], 0, 'Høyere frekvens gir høyere energi.', false, true, 10),
+  ('fysikk-2:kvantefysikk', 'm02', 'sant-usant', 'En fotball har en tydelig merkbar de Broglie-bølgelengde.', array['Sant', 'Usant']::text[], 1, 'Den er forsvinnende liten.', false, true, 11),
+  ('fysikk-2:kvantefysikk', 'm03', 'sant-usant', 'Måler vi hvilken spalte elektronet går gjennom, forsvinner interferensmønsteret.', array['Sant', 'Usant']::text[], 0, 'Målingen påvirker systemet.', false, true, 12),
+  ('fysikk-2:kvantefysikk', 'm04', 'sant-usant', 'Kvantefysikken er en dårlig testet teori.', array['Sant', 'Usant']::text[], 1, 'Den er blant de best testede teoriene i fysikken.', false, true, 13),
+  ('fysikk-2:kvantefysikk', 'm05', 'flervalg', 'Hva er fotonenergien til rødt lys med bølgelengde 650 nm omtrent?', array['19 eV', '1,9 eV', '0,19 eV', '190 eV']::text[], 1, 'E = hc/λ ≈ 3,1 · 10⁻¹⁹ J.', false, true, 14),
+  ('fysikk-2:kvantefysikk', 'm06', 'flervalg', 'Hvorfor kan elektroner brukes i mikroskoper?', array['Fordi bølgelengden deres er svært kort', 'Fordi de er synlige', 'Fordi de er tunge', 'Fordi de er positive']::text[], 0, 'Omtrent som avstanden mellom atomer.', false, true, 15),
+  ('fysikk-2:kvantefysikk', 'm07', 'flervalg', 'Hva kan en kvantebit gjøre som en vanlig bit ikke kan?', array['Lagre mer strøm', 'Være varmere', 'Være i superposisjon av 0 og 1', 'Være større']::text[], 2, 'Grunnlaget for kvantedatamaskiner.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('fysikk-2:kvantefysikk', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Biologi 2 (vg3): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'biologi-2' and slug not in ('biologisk-forskning-og-metode', 'populasjoner-og-forvaltning', 'artsmangfold-og-feltarbeid', 'energistrom-og-stoffkretslop', 'menneskelig-pavirkning-pa-kretslopene', 'enzymer-og-metabolisme', 'fotosyntese-og-celleanding', 'genetisk-kode-og-genregulering', 'arv-og-variasjon', 'evolusjon-og-artsdannelse', 'genteknologi-og-etikk');
+
+-- Biologi 2: Biologisk forskning og metode
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('biologi-2:biologisk-forskning-og-metode', 'biologi-2', 'biologisk-forskning-og-metode', 'Biologisk forskning og metode', 'Hvordan du utforsker en biologisk problemstilling: hypoteser og variabler, kontrollgrupper og replikater, valg av metode i felt og laboratorium, analyse av data med gjennomsnitt, spredning og grafer, og drøfting av resultater, feilkilder og funn.', array[1]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('biologi-2:biologisk-forskning-og-metode', '## Fra spørsmål til problemstilling
+
+Biologisk forskning starter med **nysgjerrighet**: Hvorfor vokser plantene bedre på ett sted enn et annet? Hvordan påvirker temperaturen et enzym? Et godt spørsmål gjøres om til en **problemstilling** som kan **undersøkes**, og til en **hypotese** – en testbar påstand, for eksempel «Enzymet virker raskest ved 37 °C».
+
+## Variabler
+
+- **Uavhengig variabel**: det du **endrer**, for eksempel temperaturen
+- **Avhengig variabel**: det du **måler**, for eksempel hvor mye produkt som dannes
+- **Kontrollerte variabler**: alt du holder **konstant**, som pH, konsentrasjon og tid
+
+## Kontroll og replikater
+
+- En **kontrollgruppe** får **ikke** behandlingen og viser hva som skjer uten den. I et forsøk med gjødsel får kontrollplantene samme lys og vann, men **ikke** gjødsel.
+- **Replikater** – flere gjentak av hver behandling – gjør resultatene mer **pålitelige** fordi biologiske systemer **varierer**.
+- **Tilfeldig** fordeling av forsøksobjektene reduserer skjevheter.
+
+## Valg av metode
+
+- **Laboratorieforsøk** gir god **kontroll** over variablene, men kan være langt fra **naturlige** forhold.
+- **Feltarbeid** gir **realistiske** data, men mange faktorer varierer samtidig.
+- **Observasjonsstudier** brukes når vi ikke kan eller bør gjøre forsøk, for eksempel på ville dyr.
+- **Modeller** og **simuleringer** kan brukes for systemer som er for store eller langsomme til å undersøke direkte.
+
+Når du **argumenterer** for metoden, forklarer du hvorfor den gir svar på problemstillingen, og hvilke **begrensninger** den har.
+
+## Analyse av data
+
+- **Gjennomsnitt** gir et samlet mål på resultatene.
+- **Spredning** – for eksempel **standardavvik** eller variasjonsbredde – viser hvor like målingene er.
+- **Tabeller** gir oversikt, og **grafer** viser mønstre: **søylediagram** for kategorier og **linjediagram** eller **punktdiagram** for sammenhenger.
+- **Feilstolper** viser usikkerheten. Overlapper feilstolpene mye, er forskjellen kanskje ikke **reell**.
+
+## Drøfting
+
+I drøftingen
+
+- sammenligner du resultatene med **hypotesen** og med **teori** og tidligere forskning
+- vurderer du **feilkilder** – tilfeldige og systematiske
+- vurderer du om utvalget var **stort** nok
+- skiller du mellom **korrelasjon** og **årsakssammenheng**
+- foreslår du **forbedringer** og **nye spørsmål**
+
+## Forskningsetikk
+
+Forsøk med **dyr** og **mennesker** er strengt regulert. I feltarbeid skal du ta **minst mulig** skade på naturen, følge regler for **fredede** arter og områder og la det være **ryddig** etter deg.
+
+## Presentasjon
+
+En **rapport** har ofte delene innledning med **problemstilling** og **hypotese**, **metode**, **resultater**, **drøfting** og **konklusjon**. Metoden skal være så tydelig beskrevet at andre kan **gjenta** undersøkelsen.', '{"label":"Biologisk metode","children":[{"label":"Start","children":[{"label":"Problemstilling"},{"label":"Hypotese"}]},{"label":"Forsøksdesign","children":[{"label":"Variabler"},{"label":"Kontrollgruppe"},{"label":"Replikater"}]},{"label":"Metoder","children":[{"label":"Laboratorium"},{"label":"Felt og observasjon"},{"label":"Modeller"}]},{"label":"Analyse","children":[{"label":"Gjennomsnitt og spredning"},{"label":"Grafer og feilstolper"}]},{"label":"Drøfting","children":[{"label":"Feilkilder"},{"label":"Korrelasjon og årsak"},{"label":"Etikk"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'biologi-2:biologisk-forskning-og-metode';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('biologi-2:biologisk-forskning-og-metode', 'Problemstilling', 'Spørsmål som kan undersøkes.', 0),
+  ('biologi-2:biologisk-forskning-og-metode', 'Hypotese', 'Testbar påstand.', 1),
+  ('biologi-2:biologisk-forskning-og-metode', 'Uavhengig variabel', 'Det du endrer.', 2),
+  ('biologi-2:biologisk-forskning-og-metode', 'Avhengig variabel', 'Det du måler.', 3),
+  ('biologi-2:biologisk-forskning-og-metode', 'Kontrollerte variabler', 'Alt som holdes konstant.', 4),
+  ('biologi-2:biologisk-forskning-og-metode', 'Kontrollgruppe', 'Gruppe som ikke får behandlingen.', 5),
+  ('biologi-2:biologisk-forskning-og-metode', 'Replikater', 'Flere gjentak av hver behandling.', 6),
+  ('biologi-2:biologisk-forskning-og-metode', 'Tilfeldig fordeling', 'Reduserer skjevheter i forsøket.', 7),
+  ('biologi-2:biologisk-forskning-og-metode', 'Feltarbeid', 'Undersøkelser i naturen med realistiske forhold.', 8),
+  ('biologi-2:biologisk-forskning-og-metode', 'Observasjonsstudie', 'Studie uten å endre forholdene, for eksempel på ville dyr.', 9),
+  ('biologi-2:biologisk-forskning-og-metode', 'Standardavvik', 'Mål på spredningen i dataene.', 10),
+  ('biologi-2:biologisk-forskning-og-metode', 'Feilstolper', 'Viser usikkerheten i en graf.', 11),
+  ('biologi-2:biologisk-forskning-og-metode', 'Korrelasjon', 'Samvariasjon – ikke nødvendigvis årsak.', 12),
+  ('biologi-2:biologisk-forskning-og-metode', 'Feilkilde', 'Forhold som kan gi feil i resultatene.', 13),
+  ('biologi-2:biologisk-forskning-og-metode', 'Etterprøvbarhet', 'Andre skal kunne gjenta undersøkelsen.', 14);
+delete from public.quiz_sporsmal where tema_id = 'biologi-2:biologisk-forskning-og-metode';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('biologi-2:biologisk-forskning-og-metode', 'q01', 'flervalg', 'Hva er den avhengige variabelen i et enzymforsøk der temperaturen endres?', array['Temperaturen', 'Mengden produkt som dannes', 'pH', 'Tiden']::text[], 1, 'Det du måler.', true, true, 0),
+  ('biologi-2:biologisk-forskning-og-metode', 'q02', 'flervalg', 'Hvorfor har vi en kontrollgruppe?', array['For å vise hva som skjer uten behandlingen', 'For å få flere data', 'For å gjøre forsøket lengre', 'For å øke usikkerheten']::text[], 0, 'Gir et sammenligningsgrunnlag.', true, true, 1),
+  ('biologi-2:biologisk-forskning-og-metode', 'q03', 'flervalg', 'Hvorfor trengs replikater i biologiske forsøk?', array['For å spare tid', 'For å fjerne kontrollgruppen', 'Fordi biologiske systemer varierer', 'Fordi loven krever det']::text[], 2, 'Gjør resultatene mer pålitelige.', true, true, 2),
+  ('biologi-2:biologisk-forskning-og-metode', 'q04', 'flervalg', 'Hva er en fordel med feltarbeid?', array['Full kontroll over alle variabler', 'Ingen variasjon', 'Lave kostnader alltid', 'Realistiske data fra naturlige forhold']::text[], 3, 'Men mange faktorer varierer samtidig.', true, true, 3),
+  ('biologi-2:biologisk-forskning-og-metode', 'q05', 'flervalg', 'Hva viser feilstolper som overlapper mye?', array['At forskjellen kanskje ikke er reell', 'At forskjellen er stor', 'At forsøket er perfekt', 'At det ikke finnes data']::text[], 0, 'Usikkerheten er stor i forhold til forskjellen.', true, true, 4),
+  ('biologi-2:biologisk-forskning-og-metode', 'q06', 'flervalg', 'Hvilken graf passer best for å vise en sammenheng mellom to målte størrelser?', array['Kakediagram', 'Punktdiagram', 'Tabell uten tall', 'Bilde']::text[], 1, 'Viser mønsteret.', true, true, 5),
+  ('biologi-2:biologisk-forskning-og-metode', 'q07', 'flervalg', 'Hva må du skille mellom i drøftingen?', array['Tabeller og grafer', 'Planter og dyr', 'Korrelasjon og årsakssammenheng', 'Innledning og konklusjon']::text[], 2, 'Samvariasjon er ikke nødvendigvis årsak.', true, true, 6),
+  ('biologi-2:biologisk-forskning-og-metode', 'q08', 'flervalg', 'Hvorfor skal metoden beskrives tydelig?', array['For at rapporten skal bli lang', 'For å skjule feil', 'For å imponere', 'For at andre skal kunne gjenta undersøkelsen']::text[], 3, 'Etterprøvbarhet.', true, true, 7),
+  ('biologi-2:biologisk-forskning-og-metode', 'q09', 'flervalg', 'Hva er en hypotese?', array['En testbar påstand', 'En konklusjon', 'Et resultat', 'En tabell']::text[], 0, 'Testes gjennom forsøk.', true, false, 8),
+  ('biologi-2:biologisk-forskning-og-metode', 'q10', 'flervalg', 'Når brukes observasjonsstudier?', array['Når vi har full kontroll', 'Når vi ikke kan eller bør gjøre forsøk', 'Bare i laboratoriet', 'Aldri']::text[], 1, 'For eksempel på ville dyr.', true, false, 9),
+  ('biologi-2:biologisk-forskning-og-metode', 'm01', 'sant-usant', 'Laboratorieforsøk gir god kontroll, men kan være langt fra naturlige forhold.', array['Sant', 'Usant']::text[], 0, 'Derfor kombineres ofte metoder.', false, true, 10),
+  ('biologi-2:biologisk-forskning-og-metode', 'm02', 'sant-usant', 'Ett enkelt forsøk er nok til å trekke sikre konklusjoner i biologi.', array['Sant', 'Usant']::text[], 1, 'Biologiske systemer varierer – replikater trengs.', false, true, 11),
+  ('biologi-2:biologisk-forskning-og-metode', 'm03', 'sant-usant', 'I feltarbeid skal man ta minst mulig skade på naturen.', array['Sant', 'Usant']::text[], 0, 'Og følge regler for fredede arter.', false, true, 12),
+  ('biologi-2:biologisk-forskning-og-metode', 'm04', 'sant-usant', 'Kontrollerte variabler er det du endrer i forsøket.', array['Sant', 'Usant']::text[], 1, 'Det er det du holder konstant.', false, true, 13),
+  ('biologi-2:biologisk-forskning-og-metode', 'm05', 'flervalg', 'Hvilken graf passer for å sammenligne kategorier?', array['Punktdiagram', 'Søylediagram', 'Linjediagram alltid', 'Ingen graf']::text[], 1, 'For eksempel ulike behandlinger.', false, true, 14),
+  ('biologi-2:biologisk-forskning-og-metode', 'm06', 'flervalg', 'Hva hører til drøftingen i en rapport?', array['Sammenligning med hypotese og teori', 'Utstyrslisten', 'Problemstillingen alene', 'Tittelen']::text[], 0, 'Og vurdering av feilkilder.', false, true, 15),
+  ('biologi-2:biologisk-forskning-og-metode', 'm07', 'flervalg', 'Hvorfor fordeler vi forsøksobjekter tilfeldig?', array['For å spare plass', 'For å få færre data', 'For å redusere skjevheter', 'For å øke variasjonen bevisst']::text[], 2, 'Gruppene blir mer like.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('biologi-2:biologisk-forskning-og-metode', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Biologi 2: Populasjoner og forvaltning
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('biologi-2:populasjoner-og-forvaltning', 'biologi-2', 'populasjoner-og-forvaltning', 'Populasjoner og forvaltning', 'Faktorer som regulerer vekst i og størrelsen på populasjoner – eksponentiell og logistisk vekst, bæreevne, tetthetsavhengige og tetthetsuavhengige faktorer, r- og K-strategier og predator–byttedyr-sykluser – og interessekonflikter rundt forvaltning av rovdyr, hjortevilt, fisk og villaks.', array[2]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('biologi-2:populasjoner-og-forvaltning', '## Populasjoner
+
+En **populasjon** er alle individene av **én art** innenfor et område. Størrelsen endres av
+
+- **fødsler** og **innvandring**, som øker populasjonen
+- **dødsfall** og **utvandring**, som minsker den
+
+## Eksponentiell og logistisk vekst
+
+- Med rikelig mat og plass og ingen fiender kan en populasjon vokse **eksponentielt** – den øker med en fast **prosent** per tidsenhet, og kurven blir **J-formet**.
+- I virkeligheten blir ressursene **begrenset**. Veksten **avtar** når populasjonen nærmer seg **bæreevnen** K – det største antallet miljøet kan bære over tid. Kurven blir **S-formet**, og vi kaller det **logistisk vekst**.
+
+## Regulerende faktorer
+
+- **Tetthetsavhengige** faktorer får **sterkere** virkning jo tettere populasjonen er: **konkurranse** om mat og plass, **predasjon**, **sykdom** og **parasitter**.
+- **Tetthetsuavhengige** faktorer virker **uansett** tetthet: **vær**, **klima**, **flom**, **brann** og **forurensning**.
+
+## r- og K-strategier
+
+- **r-strategister** får **mange** avkom, gir lite **omsorg** og har ofte **korte** liv, for eksempel mus og mange insekter. Bestanden kan øke raskt, men svinger mye.
+- **K-strategister** får **få** avkom, gir mye omsorg og lever **lenge**, for eksempel elefanter, ørner og mennesker. Bestanden holder seg ofte nær bæreevnen.
+
+## Predator og byttedyr
+
+Mange bestander **svinger** i takt med hverandre. Når det er mye **byttedyr**, øker **rovdyrene**. Etter hvert blir det færre byttedyr, og rovdyrene går tilbake. Kjente eksempler er **gaupe og snøskohare** i Canada og **smågnagerår** i Norge, der rev, rovfugler og ugler får flere unger i år med mye lemen og mus.
+
+## Forvaltning
+
+**Forvaltning** betyr å regulere bruken av en bestand slik at den er **bærekraftig**. Det kan skje gjennom **jakt**, **fiskekvoter**, **fredning** og **vern** av leveområder. Man kan høste av bestanden uten å true den hvis uttaket er mindre enn **tilveksten**.
+
+## Interessekonflikter
+
+- **Rovdyr**: **Ulv**, **bjørn**, **jerv** og **gaupe** er fredet, men **Stortinget** har vedtatt **bestandsmål**. Beitenæringen taper **sau** og **rein** til rovdyr, mens naturvernere og mange andre ønsker levedyktige bestander. Myndighetene bruker **soneforvaltning** og **lisensfelling**.
+- **Hjortevilt**: **Elg** og **hjort** gir jaktglede og kjøtt, men også **trafikkulykker** og **beiteskader** på skog.
+- **Fisk**: **Kvoter** skal hindre **overfiske** av torsk og andre bestander, men fiskere trenger inntekter.
+- **Villaks**: **Lakselus** og **rømt oppdrettslaks** fra **havbruk** truer villaksbestandene, samtidig som havbruk er en viktig næring.
+
+## Å drøfte forvaltning
+
+God forvaltning bygger på **kunnskap** om bestandene, **overvåking** og **dialog** mellom partene. Drøftinger bør vise **ulike interesser** – økonomiske, kulturelle og økologiske – og hvilke **verdier** som står mot hverandre.', '{"label":"Populasjoner","children":[{"label":"Vekst","children":[{"label":"Eksponentiell"},{"label":"Logistisk"},{"label":"Bæreevne"}]},{"label":"Regulering","children":[{"label":"Tetthetsavhengig"},{"label":"Tetthetsuavhengig"}]},{"label":"Strategier","children":[{"label":"r-strategi"},{"label":"K-strategi"}]},{"label":"Samspill","children":[{"label":"Predator og byttedyr"},{"label":"Smågnagerår"}]},{"label":"Forvaltning","children":[{"label":"Rovdyr"},{"label":"Hjortevilt og fisk"},{"label":"Villaks og havbruk"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'biologi-2:populasjoner-og-forvaltning';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('biologi-2:populasjoner-og-forvaltning', 'Populasjon', 'Alle individene av én art innenfor et område.', 0),
+  ('biologi-2:populasjoner-og-forvaltning', 'Eksponentiell vekst', 'Vekst med fast prosent – J-formet kurve.', 1),
+  ('biologi-2:populasjoner-og-forvaltning', 'Logistisk vekst', 'Veksten avtar mot bæreevnen – S-formet kurve.', 2),
+  ('biologi-2:populasjoner-og-forvaltning', 'Bæreevne K', 'Det største antallet individer miljøet kan bære over tid.', 3),
+  ('biologi-2:populasjoner-og-forvaltning', 'Tetthetsavhengige faktorer', 'Konkurranse, predasjon og sykdom – sterkere ved høy tetthet.', 4),
+  ('biologi-2:populasjoner-og-forvaltning', 'Tetthetsuavhengige faktorer', 'Vær, klima og katastrofer – virker uansett tetthet.', 5),
+  ('biologi-2:populasjoner-og-forvaltning', 'r-strategist', 'Mange avkom, lite omsorg, raske svingninger.', 6),
+  ('biologi-2:populasjoner-og-forvaltning', 'K-strategist', 'Få avkom, mye omsorg, lang levetid.', 7),
+  ('biologi-2:populasjoner-og-forvaltning', 'Predator–byttedyr-syklus', 'Bestander som svinger i takt, som gaupe og snøskohare.', 8),
+  ('biologi-2:populasjoner-og-forvaltning', 'Smågnagerår', 'År med mye lemen og mus som gir flere rovdyrunger.', 9),
+  ('biologi-2:populasjoner-og-forvaltning', 'Forvaltning', 'Regulering av bruken av en bestand for å gjøre den bærekraftig.', 10),
+  ('biologi-2:populasjoner-og-forvaltning', 'Bærekraftig høsting', 'Uttaket er mindre enn tilveksten.', 11),
+  ('biologi-2:populasjoner-og-forvaltning', 'Bestandsmål', 'Mål for størrelsen på rovdyrbestandene vedtatt av Stortinget.', 12),
+  ('biologi-2:populasjoner-og-forvaltning', 'Lisensfelling', 'Kontrollert felling av rovdyr etter vedtak.', 13),
+  ('biologi-2:populasjoner-og-forvaltning', 'Lakselus', 'Parasitt fra havbruk som truer villaksen.', 14);
+delete from public.quiz_sporsmal where tema_id = 'biologi-2:populasjoner-og-forvaltning';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('biologi-2:populasjoner-og-forvaltning', 'q01', 'flervalg', 'Hvilken form har kurven ved logistisk vekst?', array['J-formet', 'S-formet', 'Rett linje', 'Sirkel']::text[], 1, 'Veksten avtar mot bæreevnen.', true, true, 0),
+  ('biologi-2:populasjoner-og-forvaltning', 'q02', 'flervalg', 'Hva er bæreevnen?', array['Det største antallet individer miljøet kan bære over tid', 'Antall fødsler per år', 'Dyrets styrke', 'Mengden mat per dag']::text[], 0, 'Kalles K.', true, true, 1),
+  ('biologi-2:populasjoner-og-forvaltning', 'q03', 'flervalg', 'Hvilken faktor er tetthetsavhengig?', array['Flom', 'Kulde', 'Konkurranse om mat', 'Skogbrann']::text[], 2, 'Sterkere virkning ved høy tetthet.', true, true, 2),
+  ('biologi-2:populasjoner-og-forvaltning', 'q04', 'flervalg', 'Hva kjennetegner en K-strategist?', array['Mange avkom og lite omsorg', 'Kort levetid', 'Store svingninger', 'Få avkom, mye omsorg og lang levetid']::text[], 3, 'For eksempel elefanter.', true, true, 3),
+  ('biologi-2:populasjoner-og-forvaltning', 'q05', 'flervalg', 'Hvorfor svinger bestandene av gaupe og snøskohare i takt?', array['Fordi rovdyrene øker når byttedyrene øker, og omvendt', 'Fordi de spiser samme mat', 'Fordi de lever i ulike land', 'Tilfeldigheter']::text[], 0, 'Predator–byttedyr-syklus.', true, true, 4),
+  ('biologi-2:populasjoner-og-forvaltning', 'q06', 'flervalg', 'Når er høsting av en bestand bærekraftig?', array['Når uttaket er større enn tilveksten', 'Når uttaket er mindre enn tilveksten', 'Når alle dyrene høstes', 'Aldri']::text[], 1, 'Da kan bestanden opprettholdes.', true, true, 5),
+  ('biologi-2:populasjoner-og-forvaltning', 'q07', 'flervalg', 'Hvilken konflikt er knyttet til rovdyr i Norge?', array['Rovdyr og turisme alene', 'Rovdyr og fiske', 'Beitenæringen taper sau og rein, mens andre vil ha levedyktige bestander', 'Ingen konflikt']::text[], 2, 'Løses med soneforvaltning og bestandsmål.', true, true, 6),
+  ('biologi-2:populasjoner-og-forvaltning', 'q08', 'flervalg', 'Hva truer villaksen?', array['For mye mat i elvene', 'Fredning', 'Kalde vintre', 'Lakselus og rømt oppdrettslaks']::text[], 3, 'Fra havbruk.', true, true, 7),
+  ('biologi-2:populasjoner-og-forvaltning', 'q09', 'flervalg', 'Hva er en tetthetsuavhengig faktor?', array['Et uvær', 'Sykdom', 'Predasjon', 'Konkurranse']::text[], 0, 'Virker uansett tetthet.', true, false, 8),
+  ('biologi-2:populasjoner-og-forvaltning', 'q10', 'flervalg', 'Hva skjer i et smågnagerår?', array['Rovdyrene dør ut', 'Rev, rovfugler og ugler får flere unger', 'Lemen forsvinner', 'Ingenting']::text[], 1, 'Mye mat gir flere avkom.', true, false, 9),
+  ('biologi-2:populasjoner-og-forvaltning', 'm01', 'sant-usant', 'Innvandring øker størrelsen på en populasjon.', array['Sant', 'Usant']::text[], 0, 'Sammen med fødsler.', false, true, 10),
+  ('biologi-2:populasjoner-og-forvaltning', 'm02', 'sant-usant', 'Eksponentiell vekst kan fortsette for alltid i naturen.', array['Sant', 'Usant']::text[], 1, 'Ressursene blir begrenset.', false, true, 11),
+  ('biologi-2:populasjoner-og-forvaltning', 'm03', 'sant-usant', 'Elg kan føre til trafikkulykker og beiteskader på skog.', array['Sant', 'Usant']::text[], 0, 'En interessekonflikt i forvaltningen.', false, true, 12),
+  ('biologi-2:populasjoner-og-forvaltning', 'm04', 'sant-usant', 'r-strategister har få avkom og gir mye omsorg.', array['Sant', 'Usant']::text[], 1, 'Det gjelder K-strategister.', false, true, 13),
+  ('biologi-2:populasjoner-og-forvaltning', 'm05', 'flervalg', 'Hvilket virkemiddel brukes for å hindre overfiske?', array['Lisensfelling', 'Kvoter', 'Soneforvaltning', 'Elgjakt']::text[], 1, 'Begrenser hvor mye som kan fiskes.', false, true, 14),
+  ('biologi-2:populasjoner-og-forvaltning', 'm06', 'flervalg', 'Hvilke rovdyr er fredet i Norge, men forvaltet med bestandsmål?', array['Ulv, bjørn, jerv og gaupe', 'Rev og grevling', 'Elg og hjort', 'Laks og torsk']::text[], 0, 'De store rovdyrene.', false, true, 15),
+  ('biologi-2:populasjoner-og-forvaltning', 'm07', 'flervalg', 'Hva bør god forvaltning bygge på?', array['Bare økonomiske hensyn', 'Bare tradisjon', 'Kunnskap, overvåking og dialog mellom partene', 'Tilfeldige vedtak']::text[], 2, 'Ulike interesser må veies.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('biologi-2:populasjoner-og-forvaltning', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Biologi 2: Artsmangfold og feltarbeid
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('biologi-2:artsmangfold-og-feltarbeid', 'biologi-2', 'artsmangfold-og-feltarbeid', 'Artsmangfold og feltarbeid', 'Hvordan du utforsker og dokumenterer artsmangfold gjennom feltarbeid – ruteanalyse, transekter, fangst og gjenfangst, feller og artsbestemmelse – beregner artsrikdom og mangfold, drøfter resultatene og vurderer hvordan artene er tilpasset økosystemet de lever i.', array[3]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('biologi-2:artsmangfold-og-feltarbeid', '## Hva er artsmangfold?
+
+**Artsmangfold** handler om **hvor mange** arter det finnes i et område – **artsrikdom** – og **hvor jevnt** individene er fordelt mellom artene – **jevnhet**. Et område med ti arter der én art dominerer, har **lavere** mangfold enn et område med ti arter som er omtrent like vanlige. Mangfoldet kan beregnes med **mangfoldsindekser**, for eksempel **Simpsons indeks**.
+
+## Planlegging av feltarbeid
+
+1. Formuler en **problemstilling**, for eksempel «Er det flere plantearter i skogkanten enn inne i skogen?».
+2. Velg **lokaliteter** og **metode**.
+3. Bestem **hvor mange** prøver du trenger.
+4. Mål **miljøfaktorer** som lys, temperatur, fuktighet og jordas pH.
+5. Ta med **utstyr**: målebånd, rammer, notatbok, bestemmelsesnøkler og kamera.
+
+## Metoder
+
+- **Ruteanalyse**: En ramme – for eksempel 1 m × 1 m – legges ut, og du registrerer hvilke arter som finnes og hvor mye de **dekker**. Rutene bør plasseres **tilfeldig** eller **systematisk**.
+- **Transekt**: En linje legges gjennom et område med **gradient**, for eksempel fra strand til skog. Du registrerer arter med jevne mellomrom og kan se hvordan artssammensetningen **endres**.
+- **Fangst–gjenfangst**: Brukes for å anslå størrelsen på dyrebestander. Du fanger og **merker** M dyr, slipper dem, fanger C dyr senere, og teller R merkede. Bestanden anslås til **N = M · C / R**. **Eksempel**: M = 50, C = 60 og R = 12 gir N = 50 · 60 / 12 = **250**.
+- **Fallfeller** fanger insekter og andre smådyr på bakken.
+- **Håvtrekk** og **sparkeprøver** i bekker og dammer gir smådyr i vann.
+- **Observasjon** og **lytting**, for eksempel fugletelling.
+
+## Artsbestemmelse
+
+Arter bestemmes med **bestemmelsesnøkler**, **felthåndbøker** og **apper**. Usikre funn kan **fotograferes** og sjekkes senere. Funn kan rapporteres til **Artsdatabanken** via **Artsobservasjoner**, slik at forskere og forvaltning får nytte av dem.
+
+## Drøfte resultater
+
+- Er forskjellene mellom lokalitetene **store** nok til å være **reelle**?
+- Hvilke **miljøfaktorer** kan forklare forskjellene?
+- Hvilke **feilkilder** finnes – feilbestemte arter, for få prøver, ulik tid på døgnet eller vær?
+- Er resultatene i tråd med **teori** og andre undersøkelser?
+
+## Tilpasninger
+
+Arter er **tilpasset** økosystemet de lever i:
+
+- **Morfologiske** tilpasninger – kroppsbygning: tykk pels hos fjellrev, små og voksaktige blader hos fjellplanter, lange røtter i tørre områder
+- **Fysiologiske** tilpasninger – kroppens funksjoner: **dvale** hos bjørn, frostvæske hos noen insekter
+- **Atferdsmessige** tilpasninger – **trekk** hos fugler, flokkliv og å grave ganger
+
+Hver art har sin **økologiske nisje** – sin rolle og sine krav i økosystemet. Arter som konkurrerer om **samme** nisje, kan ikke leve sammen på lang sikt.
+
+## Hvorfor er artsmangfold viktig?
+
+Et høyt artsmangfold gir mer **robuste** økosystemer som tåler endringer bedre, og det gir **økosystemtjenester** som pollinering, rent vann og mat. **Arealendringer**, **forurensning**, **klimaendringer** og **fremmede arter** truer mangfoldet.', '{"label":"Artsmangfold og feltarbeid","children":[{"label":"Mangfold","children":[{"label":"Artsrikdom"},{"label":"Jevnhet"},{"label":"Indekser"}]},{"label":"Metoder","children":[{"label":"Ruteanalyse og transekt"},{"label":"Fangst–gjenfangst"},{"label":"Feller og håv"}]},{"label":"Artsbestemmelse","children":[{"label":"Nøkler og apper"},{"label":"Artsdatabanken"}]},{"label":"Tilpasninger","children":[{"label":"Morfologiske"},{"label":"Fysiologiske"},{"label":"Atferdsmessige"}]},{"label":"Drøfting","children":[{"label":"Miljøfaktorer"},{"label":"Feilkilder"},{"label":"Trusler mot mangfold"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'biologi-2:artsmangfold-og-feltarbeid';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('biologi-2:artsmangfold-og-feltarbeid', 'Artsmangfold', 'Hvor mange arter det finnes og hvor jevnt individene er fordelt.', 0),
+  ('biologi-2:artsmangfold-og-feltarbeid', 'Artsrikdom', 'Antall arter i et område.', 1),
+  ('biologi-2:artsmangfold-og-feltarbeid', 'Jevnhet', 'Hvor jevnt individene er fordelt mellom artene.', 2),
+  ('biologi-2:artsmangfold-og-feltarbeid', 'Simpsons indeks', 'En mangfoldsindeks.', 3),
+  ('biologi-2:artsmangfold-og-feltarbeid', 'Ruteanalyse', 'Registrering av arter i en ramme med kjent størrelse.', 4),
+  ('biologi-2:artsmangfold-og-feltarbeid', 'Transekt', 'Linje gjennom en gradient der arter registreres med jevne mellomrom.', 5),
+  ('biologi-2:artsmangfold-og-feltarbeid', 'Fangst–gjenfangst', 'Metode for å anslå bestandsstørrelse: N = M · C / R.', 6),
+  ('biologi-2:artsmangfold-og-feltarbeid', 'Fallfelle', 'Felle som fanger smådyr på bakken.', 7),
+  ('biologi-2:artsmangfold-og-feltarbeid', 'Bestemmelsesnøkkel', 'Verktøy for å artsbestemme organismer.', 8),
+  ('biologi-2:artsmangfold-og-feltarbeid', 'Artsdatabanken', 'Nasjonal kunnskapsbank om arter og naturtyper.', 9),
+  ('biologi-2:artsmangfold-og-feltarbeid', 'Morfologisk tilpasning', 'Tilpasning i kroppsbygning, som tykk pels.', 10),
+  ('biologi-2:artsmangfold-og-feltarbeid', 'Fysiologisk tilpasning', 'Tilpasning i kroppens funksjoner, som dvale.', 11),
+  ('biologi-2:artsmangfold-og-feltarbeid', 'Atferdsmessig tilpasning', 'Tilpasning i atferd, som trekk.', 12),
+  ('biologi-2:artsmangfold-og-feltarbeid', 'Økologisk nisje', 'En arts rolle og krav i økosystemet.', 13),
+  ('biologi-2:artsmangfold-og-feltarbeid', 'Økosystemtjenester', 'Goder naturen gir oss, som pollinering og rent vann.', 14);
+delete from public.quiz_sporsmal where tema_id = 'biologi-2:artsmangfold-og-feltarbeid';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('biologi-2:artsmangfold-og-feltarbeid', 'q01', 'flervalg', 'Hva er artsrikdom?', array['Hvor jevnt individene er fordelt', 'Antall arter i et område', 'Antall individer av én art', 'Mengden biomasse']::text[], 1, 'En del av artsmangfoldet.', true, true, 0),
+  ('biologi-2:artsmangfold-og-feltarbeid', 'q02', 'flervalg', 'M = 50 merkede, C = 60 fanget senere og R = 12 merkede i andre fangst. Hva er bestanden?', array['250', '120', '600', '72']::text[], 0, 'N = M · C / R.', true, true, 1),
+  ('biologi-2:artsmangfold-og-feltarbeid', 'q03', 'flervalg', 'Hvilken metode passer for å se hvordan arter endres fra strand til skog?', array['Fallfelle', 'Fangst–gjenfangst', 'Transekt', 'Håvtrekk']::text[], 2, 'En linje gjennom en gradient.', true, true, 2),
+  ('biologi-2:artsmangfold-og-feltarbeid', 'q04', 'flervalg', 'Hva er en fysiologisk tilpasning?', array['Tykk pels', 'Trekk', 'Flokkliv', 'Dvale']::text[], 3, 'Kroppens funksjoner endres.', true, true, 3),
+  ('biologi-2:artsmangfold-og-feltarbeid', 'q05', 'flervalg', 'Hvilket område har høyest mangfold – ti like vanlige arter eller ti arter der én dominerer?', array['Ti like vanlige arter', 'Ti arter der én dominerer', 'De er like', 'Det kan ikke avgjøres']::text[], 0, 'Høyere jevnhet gir høyere mangfold.', true, true, 4),
+  ('biologi-2:artsmangfold-og-feltarbeid', 'q06', 'flervalg', 'Hva er en økologisk nisje?', array['Et hull i et tre', 'En arts rolle og krav i økosystemet', 'Et naturreservat', 'En type felle']::text[], 1, 'To arter kan ikke dele samme nisje på lang sikt.', true, true, 5),
+  ('biologi-2:artsmangfold-og-feltarbeid', 'q07', 'flervalg', 'Hvor kan artsfunn rapporteres i Norge?', array['Til Forbrukertilsynet', 'Til NAV', 'Til Artsdatabanken via Artsobservasjoner', 'Til Skatteetaten']::text[], 2, 'Nyttig for forskning og forvaltning.', true, true, 6),
+  ('biologi-2:artsmangfold-og-feltarbeid', 'q08', 'flervalg', 'Hva er en feilkilde i feltarbeid?', array['Riktig artsbestemmelse', 'Mange prøver', 'Godt vær', 'Feilbestemte arter og for få prøver']::text[], 3, 'Også ulik tid på døgnet.', true, true, 7),
+  ('biologi-2:artsmangfold-og-feltarbeid', 'q09', 'flervalg', 'Hva er en morfologisk tilpasning hos fjellplanter?', array['Små og voksaktige blader', 'Dvale', 'Trekk', 'Frostvæske']::text[], 0, 'Reduserer vanntap og kulde.', true, false, 8),
+  ('biologi-2:artsmangfold-og-feltarbeid', 'q10', 'flervalg', 'Hvorfor er høyt artsmangfold viktig?', array['Det gir mer ustabile økosystemer', 'Det gir mer robuste økosystemer og økosystemtjenester', 'Det har ingen betydning', 'Det gir færre arter']::text[], 1, 'Tåler endringer bedre.', true, false, 9),
+  ('biologi-2:artsmangfold-og-feltarbeid', 'm01', 'sant-usant', 'Ruter i en ruteanalyse bør plasseres tilfeldig eller systematisk.', array['Sant', 'Usant']::text[], 0, 'Hindrer at man velger de «beste» stedene.', false, true, 10),
+  ('biologi-2:artsmangfold-og-feltarbeid', 'm02', 'sant-usant', 'Trekk hos fugler er en morfologisk tilpasning.', array['Sant', 'Usant']::text[], 1, 'Det er en atferdsmessig tilpasning.', false, true, 11),
+  ('biologi-2:artsmangfold-og-feltarbeid', 'm03', 'sant-usant', 'Fremmede arter kan true det lokale artsmangfoldet.', array['Sant', 'Usant']::text[], 0, 'De kan utkonkurrere stedegne arter.', false, true, 12),
+  ('biologi-2:artsmangfold-og-feltarbeid', 'm04', 'sant-usant', 'Miljøfaktorer som lys og fuktighet har ingen betydning for artssammensetningen.', array['Sant', 'Usant']::text[], 1, 'De kan forklare forskjeller mellom lokaliteter.', false, true, 13),
+  ('biologi-2:artsmangfold-og-feltarbeid', 'm05', 'flervalg', 'Hva brukes håvtrekk og sparkeprøver til?', array['Fugletelling', 'Smådyr i bekker og dammer', 'Planter i skog', 'Insekter i trær']::text[], 1, 'Ferskvannsøkologi.', false, true, 14),
+  ('biologi-2:artsmangfold-og-feltarbeid', 'm06', 'flervalg', 'Hva gjør du med usikre artsfunn i felt?', array['Fotograferer og sjekker dem senere', 'Gjetter', 'Ignorerer dem', 'Tar med alle levende dyr hjem']::text[], 0, 'Gir bedre artsbestemmelse.', false, true, 15),
+  ('biologi-2:artsmangfold-og-feltarbeid', 'm07', 'flervalg', 'Hva er en økosystemtjeneste?', array['En type feltutstyr', 'En forvaltningsplan', 'Pollinering og rent vann', 'En app']::text[], 2, 'Goder naturen gir oss.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('biologi-2:artsmangfold-og-feltarbeid', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Biologi 2: Energistrøm og stoffkretsløp
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('biologi-2:energistrom-og-stoffkretslop', 'biologi-2', 'energistrom-og-stoffkretslop', 'Energistrøm og stoffkretsløp', 'Hvordan energi strømmer gjennom økosystemer fra sola via produsenter og konsumenter til nedbrytere, energipyramider og produksjon – og de sentrale stoffkretsløpene for karbon, nitrogen og fosfor.', array[4]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('biologi-2:energistrom-og-stoffkretslop', '## Energi strømmer – stoff går i kretsløp
+
+En viktig forskjell i økologien er at **energi** strømmer **gjennom** økosystemet, mens **stoffer** går i **kretsløp**. Energien kommer fra **sola** og forsvinner til slutt som **varme**. Stoffene – karbon, nitrogen, fosfor og vann – **brukes om igjen**.
+
+## Energistrømmen
+
+- **Produsenter** – planter, alger og noen bakterier – fanger **solenergi** gjennom **fotosyntesen** og bygger opp **organisk stoff**.
+- **Primærkonsumenter** – planteetere – spiser produsentene.
+- **Sekundærkonsumenter** og **tertiærkonsumenter** – rovdyr – spiser andre dyr.
+- **Nedbrytere** – bakterier og sopp – bryter ned dødt materiale.
+
+Organismene knyttes sammen i **næringskjeder** og mer komplekse **næringsnett**.
+
+## Energitap mellom nivåene
+
+På hvert **trofisk nivå** brukes mye av energien til **celleånding**, bevegelse og varme, og noe havner i avføring og deler som ikke spises. Bare omtrent **10 %** av energien går videre til neste nivå. Hvis produsentene har 10 000 kJ, får primærkonsumentene omtrent 1000 kJ, sekundærkonsumentene 100 kJ og tertiærkonsumentene 10 kJ.
+
+Derfor har **energipyramiden** bred base og smal topp, og næringskjeder har sjelden mer enn **4–5** ledd. Det forklarer også hvorfor det er **mer energieffektivt** for mennesker å spise **planter** enn kjøtt.
+
+## Produksjon
+
+- **Bruttoproduksjon**: all energi produsentene binder
+- **Nettoproduksjon**: det som er igjen etter produsentenes egen celleånding – tilgjengelig for konsumentene
+
+Nettoproduksjonen er høy i **regnskog**, **korallrev** og **grunne kystområder**, og lav i **ørken** og **dyphav**.
+
+## Karbonkretsløpet
+
+- **Fotosyntesen** tar opp CO₂ fra luft og vann og binder karbonet i organisk stoff.
+- **Celleånding** og **nedbrytning** frigjør CO₂.
+- Havet tar opp store mengder CO₂.
+- Karbon lagres i lang tid i **fossile brensler**, **kalkstein**, **myr** og **skog**.
+- **Forbrenning** frigjør karbon som har vært lagret i millioner av år.
+
+## Nitrogenkretsløpet
+
+Nitrogen er nødvendig for **proteiner** og **DNA**, men de fleste organismer kan ikke bruke N₂ fra luften.
+
+- **Nitrogenfiksering**: Noen **bakterier**, blant annet i **rotknoller** hos belgvekster som erter og kløver, gjør N₂ om til ammonium. **Lyn** og **industri** fikserer også nitrogen.
+- **Nitrifikasjon**: Bakterier gjør ammonium om til **nitrat**, som plantene tar opp.
+- **Denitrifikasjon**: Bakterier i oksygenfattige miljøer gjør nitrat om til N₂, som går tilbake til lufta.
+- **Nedbrytere** gjør nitrogen i døde organismer om til ammonium igjen.
+
+## Fosforkretsløpet
+
+Fosfor finnes i **DNA**, **ATP** og **cellemembraner**. Det har **ingen** gassfase. Fosfor frigjøres sakte fra **berggrunnen** ved forvitring, tas opp av planter og går gjennom næringskjeden. Mye havner til slutt i **sedimenter** i havet. Fosfor er ofte en **begrensende faktor** for vekst.
+
+## Vannets kretsløp
+
+**Fordampning**, **nedbør** og **avrenning** driver vannets kretsløp, og **planter** bidrar gjennom **transpirasjon**.', '{"label":"Energi og kretsløp","children":[{"label":"Energistrøm","children":[{"label":"Produsenter og konsumenter"},{"label":"Nedbrytere"},{"label":"Næringsnett"}]},{"label":"Energitap","children":[{"label":"10 %-regelen"},{"label":"Energipyramide"},{"label":"Brutto- og nettoproduksjon"}]},{"label":"Karbon","children":[{"label":"Fotosyntese og celleånding"},{"label":"Lagre"}]},{"label":"Nitrogen","children":[{"label":"Fiksering"},{"label":"Nitrifikasjon"},{"label":"Denitrifikasjon"}]},{"label":"Fosfor og vann","children":[{"label":"Ingen gassfase"},{"label":"Begrensende faktor"},{"label":"Transpirasjon"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'biologi-2:energistrom-og-stoffkretslop';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('biologi-2:energistrom-og-stoffkretslop', 'Energistrøm', 'Energi går gjennom økosystemet og ender som varme.', 0),
+  ('biologi-2:energistrom-og-stoffkretslop', 'Stoffkretsløp', 'Stoffer brukes om igjen i økosystemet.', 1),
+  ('biologi-2:energistrom-og-stoffkretslop', 'Produsent', 'Organisme som fanger solenergi gjennom fotosyntese.', 2),
+  ('biologi-2:energistrom-og-stoffkretslop', 'Primærkonsument', 'Planteeter.', 3),
+  ('biologi-2:energistrom-og-stoffkretslop', 'Nedbryter', 'Bakterie eller sopp som bryter ned dødt materiale.', 4),
+  ('biologi-2:energistrom-og-stoffkretslop', 'Trofisk nivå', 'Et trinn i næringskjeden.', 5),
+  ('biologi-2:energistrom-og-stoffkretslop', '10 %-regelen', 'Omtrent 10 % av energien går videre til neste trofiske nivå.', 6),
+  ('biologi-2:energistrom-og-stoffkretslop', 'Energipyramide', 'Viser at energien avtar oppover i næringskjeden.', 7),
+  ('biologi-2:energistrom-og-stoffkretslop', 'Bruttoproduksjon', 'All energi produsentene binder.', 8),
+  ('biologi-2:energistrom-og-stoffkretslop', 'Nettoproduksjon', 'Energien som er igjen etter produsentenes celleånding.', 9),
+  ('biologi-2:energistrom-og-stoffkretslop', 'Karbonlager', 'Fossile brensler, kalkstein, myr, skog og hav.', 10),
+  ('biologi-2:energistrom-og-stoffkretslop', 'Nitrogenfiksering', 'Bakterier gjør N₂ om til ammonium.', 11),
+  ('biologi-2:energistrom-og-stoffkretslop', 'Nitrifikasjon', 'Ammonium gjøres om til nitrat.', 12),
+  ('biologi-2:energistrom-og-stoffkretslop', 'Denitrifikasjon', 'Nitrat gjøres om til N₂ i oksygenfattige miljøer.', 13),
+  ('biologi-2:energistrom-og-stoffkretslop', 'Fosforkretsløpet', 'Kretsløp uten gassfase – fosfor er ofte begrensende.', 14);
+delete from public.quiz_sporsmal where tema_id = 'biologi-2:energistrom-og-stoffkretslop';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('biologi-2:energistrom-og-stoffkretslop', 'q01', 'flervalg', 'Hva er forskjellen på energi og stoffer i et økosystem?', array['Begge går i kretsløp', 'Energi strømmer gjennom, stoffer går i kretsløp', 'Stoffer forsvinner, energi gjenbrukes', 'Det er ingen forskjell']::text[], 1, 'Energien ender som varme.', true, true, 0),
+  ('biologi-2:energistrom-og-stoffkretslop', 'q02', 'flervalg', 'Omtrent hvor mye energi går videre til neste trofiske nivå?', array['10 %', '50 %', '90 %', '100 %']::text[], 0, 'Resten brukes eller tapes som varme.', true, true, 1),
+  ('biologi-2:energistrom-og-stoffkretslop', 'q03', 'flervalg', 'Produsentene har 10 000 kJ. Omtrent hvor mye når sekundærkonsumentene?', array['1000 kJ', '5000 kJ', '100 kJ', '10 kJ']::text[], 2, 'To ledd med 10 %.', true, true, 2),
+  ('biologi-2:energistrom-og-stoffkretslop', 'q04', 'flervalg', 'Hva er nettoproduksjon?', array['All energi produsentene binder', 'Energien konsumentene bruker', 'Varmetapet', 'Energien som er igjen etter produsentenes egen celleånding']::text[], 3, 'Tilgjengelig for konsumentene.', true, true, 3),
+  ('biologi-2:energistrom-og-stoffkretslop', 'q05', 'flervalg', 'Hvilke organismer kan fiksere nitrogen fra lufta?', array['Noen bakterier, blant annet i rotknoller', 'Alle planter', 'Rovdyr', 'Sopp alene']::text[], 0, 'For eksempel hos erter og kløver.', true, true, 4),
+  ('biologi-2:energistrom-og-stoffkretslop', 'q06', 'flervalg', 'Hva skjer ved denitrifikasjon?', array['N₂ blir til ammonium', 'Nitrat blir til N₂', 'Ammonium blir til nitrat', 'Nitrogen lagres i fjell']::text[], 1, 'I oksygenfattige miljøer.', true, true, 5),
+  ('biologi-2:energistrom-og-stoffkretslop', 'q07', 'flervalg', 'Hva er spesielt med fosforkretsløpet?', array['Det går raskt gjennom lufta', 'Det har mest gass', 'Det har ingen gassfase', 'Det finnes ikke']::text[], 2, 'Fosfor frigjøres sakte fra berggrunnen.', true, true, 6),
+  ('biologi-2:energistrom-og-stoffkretslop', 'q08', 'flervalg', 'Hvorfor har næringskjeder sjelden mer enn 4–5 ledd?', array['Fordi det er for få arter', 'Fordi rovdyr ikke spiser hverandre', 'Fordi plantene er for store', 'Fordi det blir for lite energi igjen']::text[], 3, 'Energien avtar kraftig for hvert ledd.', true, true, 7),
+  ('biologi-2:energistrom-og-stoffkretslop', 'q09', 'flervalg', 'Hvilken prosess tar opp CO₂ i karbonkretsløpet?', array['Fotosyntesen', 'Celleånding', 'Forbrenning', 'Nedbrytning']::text[], 0, 'Karbonet bindes i organisk stoff.', true, false, 8),
+  ('biologi-2:energistrom-og-stoffkretslop', 'q10', 'flervalg', 'Hvorfor er det mer energieffektivt for mennesker å spise planter enn kjøtt?', array['Planter har mer protein', 'Man unngår energitapet ved et ekstra trofisk nivå', 'Kjøtt har ingen energi', 'Planter vokser raskere']::text[], 1, '10 %-regelen.', true, false, 9),
+  ('biologi-2:energistrom-og-stoffkretslop', 'm01', 'sant-usant', 'Myr og skog er viktige karbonlagre.', array['Sant', 'Usant']::text[], 0, 'Karbon kan lagres i lang tid.', false, true, 10),
+  ('biologi-2:energistrom-og-stoffkretslop', 'm02', 'sant-usant', 'De fleste organismer kan bruke N₂ direkte fra lufta.', array['Sant', 'Usant']::text[], 1, 'Nitrogenet må først fikseres.', false, true, 11),
+  ('biologi-2:energistrom-og-stoffkretslop', 'm03', 'sant-usant', 'Fosfor finnes i DNA og ATP.', array['Sant', 'Usant']::text[], 0, 'Og i cellemembraner.', false, true, 12),
+  ('biologi-2:energistrom-og-stoffkretslop', 'm04', 'sant-usant', 'Energien i et økosystem brukes om igjen i et kretsløp.', array['Sant', 'Usant']::text[], 1, 'Den strømmer gjennom og ender som varme.', false, true, 13),
+  ('biologi-2:energistrom-og-stoffkretslop', 'm05', 'flervalg', 'Hvor er nettoproduksjonen høy?', array['I ørken', 'I regnskog og korallrev', 'I dyphavet', 'På isbreer']::text[], 1, 'Mye lys, varme og næring.', false, true, 14),
+  ('biologi-2:energistrom-og-stoffkretslop', 'm06', 'flervalg', 'Hva gjør nitrifiserende bakterier?', array['Gjør ammonium om til nitrat', 'Gjør nitrat om til N₂', 'Fikserer N₂', 'Bryter ned fosfor']::text[], 0, 'Nitrat tas opp av plantene.', false, true, 15),
+  ('biologi-2:energistrom-og-stoffkretslop', 'm07', 'flervalg', 'Hvilken prosess bidrar planter med i vannets kretsløp?', array['Nitrogenfiksering', 'Fotosyntese av vann', 'Transpirasjon', 'Denitrifikasjon']::text[], 2, 'Vann fordamper fra bladene.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('biologi-2:energistrom-og-stoffkretslop', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Biologi 2: Menneskelig påvirkning på kretsløpene
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('biologi-2:menneskelig-pavirkning-pa-kretslopene', 'biologi-2', 'menneskelig-pavirkning-pa-kretslopene', 'Menneskelig påvirkning på kretsløpene', 'Hvordan menneskelig aktivitet påvirker karbon-, nitrogen- og fosforkretsløpet – fossilt brensel, avskoging, drenering av myr, kunstgjødsel, overgjødsling, havforsuring og oksygensvinn – og hvilke tiltak som kan bidra til å ivareta kretsløpene.', array[5]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('biologi-2:menneskelig-pavirkning-pa-kretslopene', '## Mennesket som geologisk kraft
+
+Menneskelig aktivitet flytter i dag så store mengder **karbon**, **nitrogen** og **fosfor** at vi har endret de globale **kretsløpene**. Mange forskere mener vi har gått inn i en ny tidsalder – **antropocen**.
+
+## Karbonkretsløpet
+
+**Påvirkning**:
+
+- **Forbrenning** av kull, olje og gass frigjør karbon som har vært lagret i millioner av år.
+- **Avskoging** og **drenering av myr** frigjør karbon fra plantene og jorda.
+- **Sement**produksjon gir også CO₂-utslipp.
+
+**Følger**:
+
+- Mer CO₂ i atmosfæren forsterker **drivhuseffekten** og gir **global oppvarming**.
+- Havet tar opp mye av CO₂-en. Det gir **havforsuring**, som gjør det vanskeligere for **koraller**, **skjell** og **plankton** å bygge **kalkskall**.
+
+## Nitrogenkretsløpet
+
+**Påvirkning**:
+
+- **Kunstgjødsel** laget i **Haber–Bosch-prosessen** har mer enn **fordoblet** mengden nitrogen som tilføres naturen.
+- **Forbrenning** gir **nitrogenoksider** som bidrar til **sur nedbør** og luftforurensning.
+- **Husdyrgjødsel** og **avløp** tilfører mye nitrogen.
+
+**Følger**:
+
+- **Overgjødsling** – **eutrofiering** – av innsjøer og kystvann gir **algeoppblomstring**. Når algene dør og brytes ned, brukes oksygenet opp, og det oppstår **døde soner** uten oksygen.
+- **Lystgass** (N₂O) fra gjødslet jord er en kraftig **drivhusgass**.
+- Nitrat kan **forurense drikkevann**.
+- Arter som tåler mye næring, **fortrenger** andre, og **artsmangfoldet** går ned.
+
+## Fosforkretsløpet
+
+**Påvirkning**:
+
+- Fosfor **utvinnes** fra gruver til kunstgjødsel og havner til slutt i vann og sedimenter.
+- **Avrenning** fra jordbruk og **avløp** fører fosfor ut i innsjøer.
+
+**Følger**:
+
+- Fosfor bidrar sterkt til **eutrofiering** i ferskvann, der det ofte er den **begrensende** faktoren.
+- **Fosforreservene** er **begrenset**, så dagens bruk er ikke bærekraftig på lang sikt.
+
+## Tiltak
+
+**Karbon**:
+
+- overgang til **fornybar energi** og **energieffektivisering**
+- **bevaring** av skog og **myr**, og restaurering av drenerte myrer
+- **karbonfangst og -lagring**
+- mindre **matsvinn** og mer **plantebasert** kost
+
+**Nitrogen og fosfor**:
+
+- **presis** gjødsling – riktig mengde til riktig tid
+- **kantsoner** med vegetasjon langs bekker som fanger opp avrenning
+- bedre **rensing** av avløpsvann
+- **gjenvinning** av fosfor fra avløpsslam og matavfall
+- **fangvekster** som tar opp næring etter innhøsting
+
+**Internasjonalt**: **Parisavtalen** for klima og avtaler om **luftforurensning** har redusert **sur nedbør** i Europa kraftig – et eksempel på at samarbeid virker.
+
+## Å drøfte tiltak
+
+Tiltak har **kostnader** og kan skape **interessekonflikter**, for eksempel mellom **matproduksjon** og vern av vassdrag, eller mellom **vindkraft** og vern av natur. God drøfting veier **effekt**, **kostnad** og **rettferdighet** – og ser på hva **enkeltpersoner**, **næringsliv** og **myndigheter** kan gjøre.', '{"label":"Menneskelig påvirkning","children":[{"label":"Karbon","children":[{"label":"Fossilt brensel"},{"label":"Avskoging og myr"},{"label":"Oppvarming og havforsuring"}]},{"label":"Nitrogen","children":[{"label":"Kunstgjødsel"},{"label":"Eutrofiering og døde soner"},{"label":"Lystgass"}]},{"label":"Fosfor","children":[{"label":"Avrenning og avløp"},{"label":"Begrensede reserver"}]},{"label":"Tiltak","children":[{"label":"Fornybar energi og myrvern"},{"label":"Presis gjødsling og kantsoner"},{"label":"Fosforgjenvinning"}]},{"label":"Drøfting","children":[{"label":"Kostnader og konflikter"},{"label":"Internasjonalt samarbeid"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'biologi-2:menneskelig-pavirkning-pa-kretslopene';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('biologi-2:menneskelig-pavirkning-pa-kretslopene', 'Antropocen', 'Tidsalder der mennesket er den viktigste kraften som endrer jorda.', 0),
+  ('biologi-2:menneskelig-pavirkning-pa-kretslopene', 'Drivhuseffekt', 'Gasser i atmosfæren holder på varme.', 1),
+  ('biologi-2:menneskelig-pavirkning-pa-kretslopene', 'Havforsuring', 'Havets pH synker når det tar opp mye CO₂.', 2),
+  ('biologi-2:menneskelig-pavirkning-pa-kretslopene', 'Drenering av myr', 'Frigjør karbon som har vært lagret i torven.', 3),
+  ('biologi-2:menneskelig-pavirkning-pa-kretslopene', 'Kunstgjødsel', 'Industrielt nitrogen og fosfor som tilføres jorda.', 4),
+  ('biologi-2:menneskelig-pavirkning-pa-kretslopene', 'Eutrofiering', 'Overgjødsling av vann som gir algeoppblomstring.', 5),
+  ('biologi-2:menneskelig-pavirkning-pa-kretslopene', 'Algeoppblomstring', 'Kraftig vekst av alger ved mye næring.', 6),
+  ('biologi-2:menneskelig-pavirkning-pa-kretslopene', 'Døde soner', 'Områder uten oksygen etter nedbrytning av alger.', 7),
+  ('biologi-2:menneskelig-pavirkning-pa-kretslopene', 'Lystgass', 'N₂O – kraftig drivhusgass fra gjødslet jord.', 8),
+  ('biologi-2:menneskelig-pavirkning-pa-kretslopene', 'Sur nedbør', 'Nedbør forsuret av svovel- og nitrogenoksider.', 9),
+  ('biologi-2:menneskelig-pavirkning-pa-kretslopene', 'Fosforreserver', 'Begrensede forekomster av fosfor som utvinnes.', 10),
+  ('biologi-2:menneskelig-pavirkning-pa-kretslopene', 'Kantsone', 'Vegetasjon langs bekker som fanger opp avrenning.', 11),
+  ('biologi-2:menneskelig-pavirkning-pa-kretslopene', 'Fangvekster', 'Planter som tar opp næring etter innhøsting.', 12),
+  ('biologi-2:menneskelig-pavirkning-pa-kretslopene', 'Karbonfangst og -lagring', 'CO₂ fanges og lagres, for eksempel under havbunnen.', 13),
+  ('biologi-2:menneskelig-pavirkning-pa-kretslopene', 'Presis gjødsling', 'Riktig mengde gjødsel til riktig tid.', 14);
+delete from public.quiz_sporsmal where tema_id = 'biologi-2:menneskelig-pavirkning-pa-kretslopene';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('biologi-2:menneskelig-pavirkning-pa-kretslopene', 'q01', 'flervalg', 'Hva frigjør karbon som har vært lagret i millioner av år?', array['Fotosyntese', 'Forbrenning av fossile brensler', 'Nitrogenfiksering', 'Transpirasjon']::text[], 1, 'Kull, olje og gass.', true, true, 0),
+  ('biologi-2:menneskelig-pavirkning-pa-kretslopene', 'q02', 'flervalg', 'Hva er eutrofiering?', array['Overgjødsling av vann som gir algeoppblomstring', 'Forsuring av jord', 'Avskoging', 'Tørke']::text[], 0, 'Kan gi døde soner.', true, true, 1),
+  ('biologi-2:menneskelig-pavirkning-pa-kretslopene', 'q03', 'flervalg', 'Hvorfor oppstår døde soner i havet?', array['Fordi vannet blir for kaldt', 'Fordi det blir for mye salt', 'Fordi nedbrytning av døde alger bruker opp oksygenet', 'Fordi fisken spiser alt']::text[], 2, 'En følge av overgjødsling.', true, true, 2),
+  ('biologi-2:menneskelig-pavirkning-pa-kretslopene', 'q04', 'flervalg', 'Hvilken drivhusgass kommer fra gjødslet jord?', array['Oksygen', 'Nitrogen', 'Vanndamp alene', 'Lystgass']::text[], 3, 'N₂O.', true, true, 3),
+  ('biologi-2:menneskelig-pavirkning-pa-kretslopene', 'q05', 'flervalg', 'Hva gjør havforsuring med skjell og koraller?', array['Gjør det vanskeligere å bygge kalkskall', 'Gjør skallene tykkere', 'Ingenting', 'Gjør dem større']::text[], 0, 'Kalk løses lettere i surere vann.', true, true, 4),
+  ('biologi-2:menneskelig-pavirkning-pa-kretslopene', 'q06', 'flervalg', 'Hva er en kantsone?', array['En vei langs en elv', 'Vegetasjon langs bekker som fanger opp avrenning', 'En type gjødsel', 'En demning']::text[], 1, 'Reduserer tap av næring til vann.', true, true, 5),
+  ('biologi-2:menneskelig-pavirkning-pa-kretslopene', 'q07', 'flervalg', 'Hvorfor er dagens fosforbruk ikke bærekraftig?', array['Fosfor er en gass', 'Fosfor er uendelig', 'Fosforreservene er begrensede', 'Fosfor er giftig']::text[], 2, 'Gjenvinning er viktig.', true, true, 6),
+  ('biologi-2:menneskelig-pavirkning-pa-kretslopene', 'q08', 'flervalg', 'Hvilket tiltak kan redusere utslipp av karbon fra jord?', array['Drenere mer myr', 'Hugge mer skog', 'Brenne mer torv', 'Bevare og restaurere myr']::text[], 3, 'Myr er et stort karbonlager.', true, true, 7),
+  ('biologi-2:menneskelig-pavirkning-pa-kretslopene', 'q09', 'flervalg', 'Hva viser reduksjonen i sur nedbør i Europa?', array['At internasjonalt samarbeid kan virke', 'At sur nedbør er ufarlig', 'At naturen ikke påvirkes', 'At tiltak aldri virker']::text[], 0, 'Avtaler om luftforurensning.', true, false, 8),
+  ('biologi-2:menneskelig-pavirkning-pa-kretslopene', 'q10', 'flervalg', 'Hva har Haber–Bosch-prosessen gjort med nitrogenkretsløpet?', array['Redusert nitrogentilførselen', 'Mer enn fordoblet mengden nitrogen som tilføres naturen', 'Ingen endring', 'Fjernet nitrogen fra lufta helt']::text[], 1, 'Gjennom kunstgjødsel.', true, false, 9),
+  ('biologi-2:menneskelig-pavirkning-pa-kretslopene', 'm01', 'sant-usant', 'Nitrat kan forurense drikkevann.', array['Sant', 'Usant']::text[], 0, 'En følge av mye gjødsling.', false, true, 10),
+  ('biologi-2:menneskelig-pavirkning-pa-kretslopene', 'm02', 'sant-usant', 'Fosfor har en gassfase som gjør at det spres raskt i atmosfæren.', array['Sant', 'Usant']::text[], 1, 'Fosfor har ingen gassfase.', false, true, 11),
+  ('biologi-2:menneskelig-pavirkning-pa-kretslopene', 'm03', 'sant-usant', 'Overgjødsling kan redusere artsmangfoldet.', array['Sant', 'Usant']::text[], 0, 'Næringskrevende arter fortrenger andre.', false, true, 12),
+  ('biologi-2:menneskelig-pavirkning-pa-kretslopene', 'm04', 'sant-usant', 'Havet tar ikke opp CO₂.', array['Sant', 'Usant']::text[], 1, 'Havet tar opp store mengder CO₂.', false, true, 13),
+  ('biologi-2:menneskelig-pavirkning-pa-kretslopene', 'm05', 'flervalg', 'Hva er fangvekster?', array['Planter som fanger insekter', 'Planter som tar opp næring etter innhøsting', 'Ugress', 'Trær']::text[], 1, 'Reduserer avrenning.', false, true, 14),
+  ('biologi-2:menneskelig-pavirkning-pa-kretslopene', 'm06', 'flervalg', 'Hva gir nitrogenoksider fra forbrenning?', array['Sur nedbør og luftforurensning', 'Renere luft', 'Mer ozon i stratosfæren', 'Mer oksygen']::text[], 0, 'Påvirker også helse.', false, true, 15),
+  ('biologi-2:menneskelig-pavirkning-pa-kretslopene', 'm07', 'flervalg', 'Hvilket kostholdstiltak kan redusere påvirkningen på kretsløpene?', array['Mer matsvinn', 'Mer kjøtt', 'Mindre matsvinn og mer plantebasert kost', 'Mer importert mat alltid']::text[], 2, 'Mindre ressursbruk.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('biologi-2:menneskelig-pavirkning-pa-kretslopene', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Biologi 2: Enzymer og metabolisme
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('biologi-2:enzymer-og-metabolisme', 'biologi-2', 'enzymer-og-metabolisme', 'Enzymer og metabolisme', 'Hvordan enzymer fungerer – aktivt sete, aktiveringsenergi og spesifisitet – hvordan temperatur, pH og konsentrasjon påvirker enzymaktiviteten, hemming og koenzymer, og hvilken rolle enzymer spiller i metabolske prosesser og regulering av stoffskiftet.', array[6]::int[], 5, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('biologi-2:enzymer-og-metabolisme', '## Metabolisme
+
+**Metabolisme** – **stoffskifte** – er alle de kjemiske reaksjonene i en organisme.
+
+- **Katabolisme**: store molekyler **brytes ned** til mindre, og energi **frigjøres**, som i celleåndingen.
+- **Anabolisme**: store molekyler **bygges opp** av mindre, og det **krever** energi, som i proteinsyntesen og fotosyntesen.
+
+Energien overføres mellom prosessene med **ATP**, cellens «energivaluta».
+
+## Enzymer
+
+Nesten alle reaksjonene i metabolismen er katalysert av **enzymer**. Enzymer er som regel **proteiner**. De
+
+- **senker aktiveringsenergien** og gjør at reaksjonene går raskt ved **kroppstemperatur**
+- blir **ikke** forbrukt
+- er svært **spesifikke** – hvert enzym virker vanligvis på ett **substrat** eller én type reaksjon
+
+## Aktivt sete
+
+Substratet binder seg til enzymets **aktive sete** og danner et **enzym–substrat-kompleks**. Etter **indusert tilpasning**-modellen endrer det aktive setet **form** litt når substratet bindes, slik at reaksjonen lettere skjer. Produktene slippes, og enzymet kan brukes **igjen**.
+
+## Faktorer som påvirker enzymaktivitet
+
+- **Temperatur**: Aktiviteten øker med temperaturen opp til et **optimum**. Ved høyere temperatur **denatureres** enzymet – proteinets form ødelegges.
+- **pH**: Hvert enzym har et **pH-optimum**. **Pepsin** i magesekken virker best i **sur** løsning, **amylase** i spytt nær **nøytral** pH.
+- **Substratkonsentrasjon**: Mer substrat gir raskere reaksjon til alle aktive seter er **opptatt** – enzymet er **mettet**.
+- **Enzymkonsentrasjon**: Flere enzymer gir raskere reaksjon når det er nok substrat.
+
+## Hemming
+
+- **Kompetitiv hemming**: En hemmer som ligner substratet, **konkurrerer** om det aktive setet. Mer substrat kan **utkonkurrere** hemmeren.
+- **Ikke-kompetitiv hemming**: Hemmeren binder seg et **annet sted** og endrer enzymets form, så det aktive setet virker dårligere.
+
+Mange **medisiner** og **gifter** virker ved å hemme enzymer.
+
+## Koenzymer og kofaktorer
+
+Mange enzymer trenger **hjelpemolekyler**:
+
+- **Kofaktorer** er ofte **metallioner**, som jern, sink og magnesium.
+- **Koenzymer** er organiske molekyler, ofte laget av **vitaminer**. **NAD⁺** og **FAD** frakter **elektroner** i celleåndingen.
+
+Dette er en grunn til at vi trenger **vitaminer** og **mineraler**.
+
+## Metabolske veier og regulering
+
+Metabolske prosesser foregår i **metabolske veier** – rekker av reaksjoner der **produktet** fra ett enzym er **substrat** for det neste.
+
+Veiene **reguleres** blant annet ved **tilbakekoblingshemming**: Sluttproduktet hemmer et av de **første** enzymene i veien. Når det er nok produkt, stopper produksjonen, og cellen sparer energi og ressurser.
+
+Enzymer reguleres også ved at cellen **endrer** mengden enzym gjennom **genuttrykk**, og ved at **hormoner** aktiverer eller hemmer enzymer.
+
+## Enzymer i hverdagen
+
+Enzymer brukes i **vaskemidler**, **ostelaging**, **baking**, **bryggerier** og **medisinsk diagnostikk**. **Laktoseintoleranse** skyldes for lite av enzymet **laktase**, som bryter ned melkesukker.', '{"label":"Enzymer og metabolisme","children":[{"label":"Metabolisme","children":[{"label":"Katabolisme"},{"label":"Anabolisme"},{"label":"ATP"}]},{"label":"Enzymer","children":[{"label":"Aktivt sete"},{"label":"Spesifisitet"},{"label":"Lavere aktiveringsenergi"}]},{"label":"Faktorer","children":[{"label":"Temperatur"},{"label":"pH"},{"label":"Konsentrasjoner"}]},{"label":"Hemming og hjelpere","children":[{"label":"Kompetitiv"},{"label":"Ikke-kompetitiv"},{"label":"Koenzymer og kofaktorer"}]},{"label":"Regulering","children":[{"label":"Metabolske veier"},{"label":"Tilbakekobling"},{"label":"Genuttrykk og hormoner"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'biologi-2:enzymer-og-metabolisme';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('biologi-2:enzymer-og-metabolisme', 'Metabolisme', 'Alle kjemiske reaksjoner i en organisme.', 0),
+  ('biologi-2:enzymer-og-metabolisme', 'Katabolisme', 'Nedbrytning som frigjør energi.', 1),
+  ('biologi-2:enzymer-og-metabolisme', 'Anabolisme', 'Oppbygging som krever energi.', 2),
+  ('biologi-2:enzymer-og-metabolisme', 'ATP', 'Cellens energivaluta.', 3),
+  ('biologi-2:enzymer-og-metabolisme', 'Enzym', 'Biologisk katalysator, som regel et protein.', 4),
+  ('biologi-2:enzymer-og-metabolisme', 'Aktivt sete', 'Stedet der substratet bindes.', 5),
+  ('biologi-2:enzymer-og-metabolisme', 'Enzym–substrat-kompleks', 'Enzymet og substratet bundet sammen.', 6),
+  ('biologi-2:enzymer-og-metabolisme', 'Temperaturoptimum', 'Temperaturen der enzymet virker best.', 7),
+  ('biologi-2:enzymer-og-metabolisme', 'Denaturering', 'Enzymets form ødelegges av varme eller feil pH.', 8),
+  ('biologi-2:enzymer-og-metabolisme', 'Metning', 'Alle aktive seter er opptatt.', 9),
+  ('biologi-2:enzymer-og-metabolisme', 'Kompetitiv hemming', 'Hemmer konkurrerer om det aktive setet.', 10),
+  ('biologi-2:enzymer-og-metabolisme', 'Ikke-kompetitiv hemming', 'Hemmer binder et annet sted og endrer enzymets form.', 11),
+  ('biologi-2:enzymer-og-metabolisme', 'Koenzym', 'Organisk hjelpemolekyl, ofte laget av vitaminer, som NAD⁺.', 12),
+  ('biologi-2:enzymer-og-metabolisme', 'Tilbakekoblingshemming', 'Sluttproduktet hemmer et tidlig enzym i veien.', 13),
+  ('biologi-2:enzymer-og-metabolisme', 'Laktase', 'Enzym som bryter ned melkesukker.', 14);
+delete from public.quiz_sporsmal where tema_id = 'biologi-2:enzymer-og-metabolisme';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('biologi-2:enzymer-og-metabolisme', 'q01', 'flervalg', 'Hva er katabolisme?', array['Oppbygging som krever energi', 'Nedbrytning som frigjør energi', 'Fotosyntese', 'Proteinsyntese']::text[], 1, 'For eksempel celleånding.', true, true, 0),
+  ('biologi-2:enzymer-og-metabolisme', 'q02', 'flervalg', 'Hvordan øker enzymer reaksjonsfarten?', array['Ved å senke aktiveringsenergien', 'Ved å øke temperaturen', 'Ved å bli forbrukt', 'Ved å endre ΔH']::text[], 0, 'Reaksjonen går raskt ved kroppstemperatur.', true, true, 1),
+  ('biologi-2:enzymer-og-metabolisme', 'q03', 'flervalg', 'Hva skjer ved for høy temperatur?', array['Enzymet blir raskere hele tiden', 'Enzymet endrer substrat', 'Enzymet denatureres', 'Ingenting']::text[], 2, 'Proteinets form ødelegges.', true, true, 2),
+  ('biologi-2:enzymer-og-metabolisme', 'q04', 'flervalg', 'Hvorfor øker ikke reaksjonsfarten når substratkonsentrasjonen er svært høy?', array['Fordi enzymet er brukt opp', 'Fordi substratet er feil', 'Fordi pH er feil', 'Fordi alle aktive seter er opptatt']::text[], 3, 'Enzymet er mettet.', true, true, 3),
+  ('biologi-2:enzymer-og-metabolisme', 'q05', 'flervalg', 'Hva er kompetitiv hemming?', array['En hemmer konkurrerer med substratet om det aktive setet', 'En hemmer binder et annet sted', 'Enzymet denatureres', 'Substratet endres']::text[], 0, 'Mer substrat kan utkonkurrere hemmeren.', true, true, 4),
+  ('biologi-2:enzymer-og-metabolisme', 'q06', 'flervalg', 'Hva er tilbakekoblingshemming?', array['At enzymet stopper for alltid', 'At sluttproduktet hemmer et tidlig enzym i veien', 'At substratet hemmer enzymet', 'At temperaturen senkes']::text[], 1, 'Sparer energi og ressurser.', true, true, 5),
+  ('biologi-2:enzymer-og-metabolisme', 'q07', 'flervalg', 'Hvor virker pepsin best?', array['I nøytral løsning', 'I basisk løsning', 'I sur løsning i magesekken', 'Ved 100 °C']::text[], 2, 'Tilpasset magesyren.', true, true, 6),
+  ('biologi-2:enzymer-og-metabolisme', 'q08', 'flervalg', 'Hva er NAD⁺?', array['Et substrat', 'Et hormon', 'Et mineral', 'Et koenzym som frakter elektroner']::text[], 3, 'Brukes i celleåndingen.', true, true, 7),
+  ('biologi-2:enzymer-og-metabolisme', 'q09', 'flervalg', 'Hva skyldes laktoseintoleranse?', array['For lite av enzymet laktase', 'For mye laktase', 'For mye melk', 'For lite pepsin']::text[], 0, 'Melkesukker brytes ikke ned.', true, false, 8),
+  ('biologi-2:enzymer-og-metabolisme', 'q10', 'flervalg', 'Hva er en metabolsk vei?', array['En enkelt reaksjon', 'En rekke reaksjoner der produktet fra ett enzym er substrat for det neste', 'Et organ', 'En type hormon']::text[], 1, 'Reguleres blant annet av tilbakekobling.', true, false, 9),
+  ('biologi-2:enzymer-og-metabolisme', 'm01', 'sant-usant', 'Mange medisiner virker ved å hemme enzymer.', array['Sant', 'Usant']::text[], 0, 'Også mange gifter.', false, true, 10),
+  ('biologi-2:enzymer-og-metabolisme', 'm02', 'sant-usant', 'Et enzym blir brukt opp etter én reaksjon.', array['Sant', 'Usant']::text[], 1, 'Enzymet kan brukes igjen.', false, true, 11),
+  ('biologi-2:enzymer-og-metabolisme', 'm03', 'sant-usant', 'Mange koenzymer lages av vitaminer.', array['Sant', 'Usant']::text[], 0, 'En grunn til at vi trenger vitaminer.', false, true, 12),
+  ('biologi-2:enzymer-og-metabolisme', 'm04', 'sant-usant', 'Alle enzymer har samme pH-optimum.', array['Sant', 'Usant']::text[], 1, 'Pepsin virker best i sur løsning, amylase nær nøytral.', false, true, 13),
+  ('biologi-2:enzymer-og-metabolisme', 'm05', 'flervalg', 'Hvilken prosess er anabolsk?', array['Celleånding', 'Proteinsyntese', 'Fordøyelse', 'Glykolyse']::text[], 1, 'Bygger opp store molekyler.', false, true, 14),
+  ('biologi-2:enzymer-og-metabolisme', 'm06', 'flervalg', 'Hva er en kofaktor ofte?', array['Et metallion', 'Et vitamin alltid', 'Et hormon', 'Et substrat']::text[], 0, 'For eksempel sink eller magnesium.', false, true, 15),
+  ('biologi-2:enzymer-og-metabolisme', 'm07', 'flervalg', 'Hvor brukes enzymer i hverdagen?', array['Bare på sykehus', 'Bare i bilmotorer', 'I vaskemidler, ostelaging og baking', 'Ingen steder']::text[], 2, 'Mange industrielle anvendelser.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('biologi-2:enzymer-og-metabolisme', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Biologi 2: Fotosyntese og celleånding
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('biologi-2:fotosyntese-og-celleanding', 'biologi-2', 'fotosyntese-og-celleanding', 'Fotosyntese og celleånding', 'Hvordan energi omdannes i fotosyntesen – lysreaksjonene og Calvin-syklusen i kloroplasten – og i celleåndingen – glykolyse, sitronsyresyklusen og elektrontransportkjeden i mitokondriene – anaerob respirasjon og gjæring, en sammenligning av prosessene og hvilke faktorer som påvirker energiomsetningen.', array[7]::int[], 6, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('biologi-2:fotosyntese-og-celleanding', '## Fotosyntesen
+
+**Fotosyntesen** foregår i **kloroplastene** hos planter og alger. Lysenergi omdannes til **kjemisk energi** i sukker:
+
+**6CO₂ + 6H₂O + lysenergi → C₆H₁₂O₆ + 6O₂**
+
+Den består av to deler.
+
+**Lysreaksjonene** skjer i **tylakoidmembranene**:
+
+- **Klorofyll** i **fotosystemene** fanger lysenergi.
+- **Vann** spaltes, og **oksygen** frigjøres som biprodukt.
+- Energien brukes til å lage **ATP** og **NADPH**.
+
+**Calvin-syklusen** skjer i **stroma**:
+
+- **CO₂** bindes til et organisk molekyl ved hjelp av enzymet **rubisco**.
+- ATP og NADPH fra lysreaksjonene brukes til å bygge opp **sukker**.
+
+## Celleåndingen
+
+**Celleåndingen** frigjør energien i **glukose** og lagrer den i **ATP**:
+
+**C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + energi**
+
+Den skjer i tre hovedtrinn:
+
+1. **Glykolysen** i **cytoplasma**: Glukose brytes ned til **pyruvat**. Gir **2 ATP** netto og ikke noe krav om oksygen.
+2. **Sitronsyresyklusen** i **mitokondriematriksen**: Pyruvat brytes ned videre, CO₂ frigjøres, og **NADH** og **FADH₂** fraktes videre.
+3. **Elektrontransportkjeden** i den **indre mitokondriemembranen**: Elektronene fra NADH og FADH₂ går gjennom en rekke proteiner, og energien brukes til å pumpe **H⁺-ioner**. Når ionene strømmer tilbake gjennom **ATP-syntase**, dannes mesteparten av ATP-en. **Oksygen** tar imot elektronene til slutt og danner **vann**.
+
+Til sammen gir én glukose omtrent **30–32 ATP**.
+
+## Anaerob respirasjon og gjæring
+
+Uten oksygen stopper elektrontransportkjeden. Da kan cellene bare få ATP fra **glykolysen**, og NADH må omdannes tilbake til NAD⁺ gjennom **gjæring**:
+
+- **Melkesyregjæring** i muskler og i bakterier som lager **yoghurt**
+- **Alkoholgjæring** i **gjær**, som gir etanol og CO₂ – brukt i baking og brygging
+
+Gjæring gir bare **2 ATP** per glukose.
+
+## Sammenligning
+
+| | Fotosyntese | Celleånding |
+|---|---|---|
+| Hvor | kloroplast | cytoplasma og mitokondrier |
+| Energi | lys → kjemisk | kjemisk → ATP |
+| Tar opp | CO₂ og H₂O | glukose og O₂ |
+| Gir | glukose og O₂ | CO₂, H₂O og ATP |
+| Elektronbærer | NADPH | NADH og FADH₂ |
+
+Begge bruker en **elektrontransportkjede** og **ATP-syntase** i en membran. **Planter** har **både** fotosyntese og celleånding.
+
+## Faktorer som påvirker energiomsetningen
+
+**Fotosyntesen** påvirkes av
+
+- **lysintensitet**
+- **CO₂-konsentrasjon**
+- **temperatur**, fordi enzymene i Calvin-syklusen er temperaturavhengige
+- **vann** og **næring**, for eksempel nitrogen og magnesium til klorofyll
+
+Den faktoren som er i **minst** tilgang, **begrenser** farten – den **begrensende faktoren**. I drivhus kan man tilsette CO₂ for å øke veksten.
+
+**Celleåndingen** påvirkes av **temperatur**, tilgang på **oksygen** og **glukose**, og organismens **aktivitetsnivå**.', '{"label":"Fotosyntese og celleånding","children":[{"label":"Fotosyntese","children":[{"label":"Lysreaksjoner"},{"label":"Calvin-syklusen"},{"label":"Kloroplast"}]},{"label":"Celleånding","children":[{"label":"Glykolyse"},{"label":"Sitronsyresyklus"},{"label":"Elektrontransportkjede"}]},{"label":"Uten oksygen","children":[{"label":"Melkesyregjæring"},{"label":"Alkoholgjæring"}]},{"label":"Sammenligning","children":[{"label":"Energi inn og ut"},{"label":"Felles membranprosesser"}]},{"label":"Faktorer","children":[{"label":"Lys, CO₂ og temperatur"},{"label":"Begrensende faktor"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'biologi-2:fotosyntese-og-celleanding';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('biologi-2:fotosyntese-og-celleanding', 'Kloroplast', 'Organellen der fotosyntesen skjer.', 0),
+  ('biologi-2:fotosyntese-og-celleanding', 'Lysreaksjoner', 'Skjer i tylakoidmembranene – vann spaltes og ATP og NADPH dannes.', 1),
+  ('biologi-2:fotosyntese-og-celleanding', 'Klorofyll', 'Pigment som fanger lysenergi.', 2),
+  ('biologi-2:fotosyntese-og-celleanding', 'Calvin-syklusen', 'Skjer i stroma – CO₂ bindes og sukker bygges opp.', 3),
+  ('biologi-2:fotosyntese-og-celleanding', 'Rubisco', 'Enzymet som binder CO₂ i Calvin-syklusen.', 4),
+  ('biologi-2:fotosyntese-og-celleanding', 'Glykolyse', 'Glukose brytes ned til pyruvat i cytoplasma – 2 ATP netto.', 5),
+  ('biologi-2:fotosyntese-og-celleanding', 'Sitronsyresyklusen', 'Pyruvat brytes ned i mitokondriematriksen, CO₂ frigjøres.', 6),
+  ('biologi-2:fotosyntese-og-celleanding', 'Elektrontransportkjeden', 'Gir mesteparten av ATP-en i den indre mitokondriemembranen.', 7),
+  ('biologi-2:fotosyntese-og-celleanding', 'ATP-syntase', 'Enzym som lager ATP når H⁺ strømmer tilbake.', 8),
+  ('biologi-2:fotosyntese-og-celleanding', 'Oksygen i celleåndingen', 'Tar imot elektronene til slutt og danner vann.', 9),
+  ('biologi-2:fotosyntese-og-celleanding', 'ATP per glukose', 'Omtrent 30–32 ved celleånding.', 10),
+  ('biologi-2:fotosyntese-og-celleanding', 'Melkesyregjæring', 'Anaerob prosess i muskler og yoghurtbakterier.', 11),
+  ('biologi-2:fotosyntese-og-celleanding', 'Alkoholgjæring', 'Gjær lager etanol og CO₂.', 12),
+  ('biologi-2:fotosyntese-og-celleanding', 'Begrensende faktor', 'Faktoren i minst tilgang som begrenser farten.', 13),
+  ('biologi-2:fotosyntese-og-celleanding', 'NADPH og NADH', 'Elektronbærere i fotosyntesen og celleåndingen.', 14);
+delete from public.quiz_sporsmal where tema_id = 'biologi-2:fotosyntese-og-celleanding';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('biologi-2:fotosyntese-og-celleanding', 'q01', 'flervalg', 'Hvor skjer lysreaksjonene i fotosyntesen?', array['I stroma', 'I tylakoidmembranene', 'I mitokondriene', 'I cytoplasma']::text[], 1, 'Klorofyll fanger lys der.', true, true, 0),
+  ('biologi-2:fotosyntese-og-celleanding', 'q02', 'flervalg', 'Hva frigjøres når vann spaltes i fotosyntesen?', array['Oksygen', 'CO₂', 'Glukose', 'Nitrogen']::text[], 0, 'Oksygen er et biprodukt.', true, true, 1),
+  ('biologi-2:fotosyntese-og-celleanding', 'q03', 'flervalg', 'Hva skjer i Calvin-syklusen?', array['Vann spaltes', 'Glukose brytes ned', 'CO₂ bindes og sukker bygges opp', 'ATP brytes ned til varme']::text[], 2, 'Med rubisco og energi fra ATP og NADPH.', true, true, 2),
+  ('biologi-2:fotosyntese-og-celleanding', 'q04', 'flervalg', 'Hvor dannes mesteparten av ATP-en i celleåndingen?', array['I glykolysen', 'I sitronsyresyklusen', 'I kloroplasten', 'I elektrontransportkjeden']::text[], 3, 'Via ATP-syntase.', true, true, 3),
+  ('biologi-2:fotosyntese-og-celleanding', 'q05', 'flervalg', 'Omtrent hvor mange ATP gir én glukose ved celleånding?', array['30–32', '2', '100', '6']::text[], 0, 'Gjæring gir bare 2.', true, true, 4),
+  ('biologi-2:fotosyntese-og-celleanding', 'q06', 'flervalg', 'Hva skjer uten oksygen i en muskelcelle?', array['Celleåndingen går som vanlig', 'Cellen får ATP fra glykolysen og lager melkesyre', 'Cellen lager glukose', 'Cellen stopper helt']::text[], 1, 'Melkesyregjæring.', true, true, 5),
+  ('biologi-2:fotosyntese-og-celleanding', 'q07', 'flervalg', 'Hva er en begrensende faktor?', array['Faktoren i størst tilgang', 'Et enzym', 'Faktoren i minst tilgang som begrenser farten', 'Et hormon']::text[], 2, 'For eksempel lys eller CO₂.', true, true, 6),
+  ('biologi-2:fotosyntese-og-celleanding', 'q08', 'flervalg', 'Hvilken rolle har oksygen i celleåndingen?', array['Spaltes for å gi energi', 'Bindes i glukose', 'Brukes i glykolysen', 'Tar imot elektronene til slutt og danner vann']::text[], 3, 'Siste elektronmottaker.', true, true, 7),
+  ('biologi-2:fotosyntese-og-celleanding', 'q09', 'flervalg', 'Hva har fotosyntesen og celleåndingen til felles?', array['Begge bruker en elektrontransportkjede og ATP-syntase', 'Begge skjer i kloroplasten', 'Begge tar opp CO₂', 'Begge lager oksygen']::text[], 0, 'I en membran.', true, false, 8),
+  ('biologi-2:fotosyntese-og-celleanding', 'q10', 'flervalg', 'Hvorfor tilsettes CO₂ i noen drivhus?', array['For å drepe insekter', 'For å øke fotosyntesen når CO₂ er begrensende', 'For å varme opp', 'For å gi farge']::text[], 1, 'Gir økt vekst.', true, false, 9),
+  ('biologi-2:fotosyntese-og-celleanding', 'm01', 'sant-usant', 'Planter har både fotosyntese og celleånding.', array['Sant', 'Usant']::text[], 0, 'De trenger ATP hele døgnet.', false, true, 10),
+  ('biologi-2:fotosyntese-og-celleanding', 'm02', 'sant-usant', 'Glykolysen krever oksygen.', array['Sant', 'Usant']::text[], 1, 'Glykolysen kan skje uten oksygen.', false, true, 11),
+  ('biologi-2:fotosyntese-og-celleanding', 'm03', 'sant-usant', 'Gjær lager etanol og CO₂ ved alkoholgjæring.', array['Sant', 'Usant']::text[], 0, 'Brukt i baking og brygging.', false, true, 12),
+  ('biologi-2:fotosyntese-og-celleanding', 'm04', 'sant-usant', 'Temperatur har ingen betydning for fotosyntesen.', array['Sant', 'Usant']::text[], 1, 'Enzymene i Calvin-syklusen er temperaturavhengige.', false, true, 13),
+  ('biologi-2:fotosyntese-og-celleanding', 'm05', 'flervalg', 'Hvor skjer sitronsyresyklusen?', array['I cytoplasma', 'I mitokondriematriksen', 'I tylakoidmembranen', 'I cellekjernen']::text[], 1, 'CO₂ frigjøres der.', false, true, 14),
+  ('biologi-2:fotosyntese-og-celleanding', 'm06', 'flervalg', 'Hvilket næringsstoff trengs for å lage klorofyll?', array['Magnesium', 'Kalsium', 'Natrium', 'Klor']::text[], 0, 'Også nitrogen.', false, true, 15),
+  ('biologi-2:fotosyntese-og-celleanding', 'm07', 'flervalg', 'Hvor mange ATP gir gjæring per glukose?', array['30', '0', '2', '38']::text[], 2, 'Bare fra glykolysen.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('biologi-2:fotosyntese-og-celleanding', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Biologi 2: Genetisk kode, genuttrykk og genteknologi
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('biologi-2:genetisk-kode-og-genregulering', 'biologi-2', 'genetisk-kode-og-genregulering', 'Genetisk kode, genuttrykk og genteknologi', 'Hvordan informasjonen i DNA blir til proteiner – transkripsjon, spleising og translasjon – den genetiske koden, regulering av genuttrykk hos bakterier og flercellede organismer, epigenetikk, og hvordan genteknologi som PCR, rekombinant DNA og CRISPR kan brukes til å styre og endre genuttrykk.', array[8]::int[], 7, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('biologi-2:genetisk-kode-og-genregulering', '## Fra gen til protein
+
+Et **gen** er en del av DNA-et som inneholder oppskriften på et **protein** eller et funksjonelt RNA-molekyl. Veien fra gen til protein kalles **genuttrykk** og skjer i to trinn.
+
+**Transkripsjon** i cellekjernen:
+
+- Enzymet **RNA-polymerase** binder seg til genets **promotor** og lager en **mRNA**-kopi av genet.
+- Hos eukaryoter blir mRNA-et **spleiset**: **Introner** klippes ut, og **eksoner** skjøtes sammen. Ved **alternativ spleising** kan ett gen gi flere ulike proteiner.
+
+**Translasjon** på **ribosomene**:
+
+- Ribosomet leser mRNA-et tre og tre baser om gangen – ett **kodon**.
+- **tRNA**-molekyler med passende **antikodon** bringer riktig **aminosyre**.
+- Aminosyrene kobles sammen med **peptidbindinger** til et protein.
+
+## Den genetiske koden
+
+- Hvert kodon består av **tre** baser. Med fire baser gir det **64** mulige kodoner.
+- De koder for **20** aminosyrer, så flere kodoner kan kode for samme aminosyre – koden er **redundant**.
+- **AUG** er **startkodon**, og tre kodoner er **stoppkodoner**.
+- Koden er nesten **universell** – den er lik hos bakterier, planter og mennesker. Det er det som gjør **genteknologi** mulig.
+
+## Regulering av genuttrykk
+
+Alle cellene i kroppen har det **samme** DNA-et, men en nervecelle og en muskelcelle uttrykker **ulike** gener. Genuttrykket **reguleres**.
+
+**Hos bakterier**: I **lac-operonet** hos kolibakterier er genene for å bryte ned **laktose** vanligvis **slått av** av et **repressorprotein**. Når laktose er til stede, binder den seg til repressoren, og genene **slås på**. Slik lager bakterien bare enzymene når de **trengs**.
+
+**Hos eukaryoter**:
+
+- **Transkripsjonsfaktorer** binder seg til DNA og slår gener **av** eller **på**.
+- **Epigenetikk**: **Metylering** av DNA og kjemiske endringer på **histoner** – proteinene DNA-et er viklet rundt – kan gjøre gener **utilgjengelige**. Epigenetiske endringer kan påvirkes av **miljø**, som kosthold og stress, og noen kan **arves** videre.
+- Små **RNA-molekyler** kan bryte ned mRNA og **hindre** translasjon.
+
+Regulering er grunnlaget for **celledifferensiering** – at celler utvikler seg til ulike celletyper.
+
+## Genteknologi
+
+- **PCR** kopierer et bestemt DNA-stykke millioner av ganger. Brukes i **diagnostikk**, **rettsmedisin** og forskning.
+- **Rekombinant DNA**: Et gen settes inn i en annen organisme. Bakterier med **menneskelig insulingen** har laget insulin til diabetikere siden **1980-tallet**.
+- **CRISPR-Cas9** er en «**gensaks**» som kan klippe DNA på et **bestemt** sted og dermed **endre**, **fjerne** eller **sette inn** gener. Metoden ga **Nobelprisen i kjemi** i **2020**.
+- **Genterapi** tilfører eller reparerer gener for å behandle **arvelige sykdommer**.
+- **mRNA-vaksiner** gir cellene en oppskrift slik at de selv lager et protein som trener immunforsvaret.
+
+Genteknologien kan altså brukes både til å **endre** genene og til å **styre** hvilke gener som uttrykkes.', '{"label":"Genetisk kode og genuttrykk","children":[{"label":"Transkripsjon","children":[{"label":"RNA-polymerase og promotor"},{"label":"Spleising"}]},{"label":"Translasjon","children":[{"label":"Ribosom og tRNA"},{"label":"Kodon og antikodon"}]},{"label":"Genetisk kode","children":[{"label":"Tripletter"},{"label":"Redundant og universell"},{"label":"Start- og stoppkodoner"}]},{"label":"Regulering","children":[{"label":"Lac-operonet"},{"label":"Transkripsjonsfaktorer"},{"label":"Epigenetikk"}]},{"label":"Genteknologi","children":[{"label":"PCR"},{"label":"Rekombinant DNA"},{"label":"CRISPR og genterapi"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'biologi-2:genetisk-kode-og-genregulering';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('biologi-2:genetisk-kode-og-genregulering', 'Gen', 'Del av DNA med oppskriften på et protein eller funksjonelt RNA.', 0),
+  ('biologi-2:genetisk-kode-og-genregulering', 'Genuttrykk', 'Veien fra gen til protein.', 1),
+  ('biologi-2:genetisk-kode-og-genregulering', 'Transkripsjon', 'RNA-polymerase lager en mRNA-kopi av genet.', 2),
+  ('biologi-2:genetisk-kode-og-genregulering', 'Promotor', 'Område der RNA-polymerase binder seg.', 3),
+  ('biologi-2:genetisk-kode-og-genregulering', 'Spleising', 'Introner klippes ut og eksoner skjøtes sammen.', 4),
+  ('biologi-2:genetisk-kode-og-genregulering', 'Translasjon', 'Ribosomet lager protein etter oppskriften i mRNA.', 5),
+  ('biologi-2:genetisk-kode-og-genregulering', 'Kodon', 'Tre baser i mRNA som koder for én aminosyre.', 6),
+  ('biologi-2:genetisk-kode-og-genregulering', 'tRNA', 'Bringer riktig aminosyre til ribosomet.', 7),
+  ('biologi-2:genetisk-kode-og-genregulering', 'Startkodon', 'AUG.', 8),
+  ('biologi-2:genetisk-kode-og-genregulering', 'Universell kode', 'Den genetiske koden er nesten lik i alle organismer.', 9),
+  ('biologi-2:genetisk-kode-og-genregulering', 'Lac-operonet', 'Gener hos bakterier som slås på når laktose er til stede.', 10),
+  ('biologi-2:genetisk-kode-og-genregulering', 'Transkripsjonsfaktorer', 'Proteiner som slår gener av eller på.', 11),
+  ('biologi-2:genetisk-kode-og-genregulering', 'Epigenetikk', 'Endringer i genuttrykk uten endring i DNA-sekvensen, som metylering.', 12),
+  ('biologi-2:genetisk-kode-og-genregulering', 'PCR', 'Metode som kopierer et DNA-stykke millioner av ganger.', 13),
+  ('biologi-2:genetisk-kode-og-genregulering', 'CRISPR-Cas9', 'Gensaks som klipper DNA på et bestemt sted.', 14);
+delete from public.quiz_sporsmal where tema_id = 'biologi-2:genetisk-kode-og-genregulering';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('biologi-2:genetisk-kode-og-genregulering', 'q01', 'flervalg', 'Hva skjer ved transkripsjon?', array['Protein lages på ribosomet', 'RNA-polymerase lager en mRNA-kopi av genet', 'DNA kopieres før celledeling', 'Aminosyrer brytes ned']::text[], 1, 'Første trinn i genuttrykket.', true, true, 0),
+  ('biologi-2:genetisk-kode-og-genregulering', 'q02', 'flervalg', 'Hva er et kodon?', array['Tre baser i mRNA som koder for én aminosyre', 'Et protein', 'En type RNA-polymerase', 'Et gen']::text[], 0, 'Leses av ribosomet.', true, true, 1),
+  ('biologi-2:genetisk-kode-og-genregulering', 'q03', 'flervalg', 'Hvorfor er den genetiske koden redundant?', array['Fordi det finnes 20 kodoner', 'Fordi ett kodon gir flere aminosyrer', 'Fordi 64 kodoner koder for 20 aminosyrer', 'Fordi den ikke er universell']::text[], 2, 'Flere kodoner kan gi samme aminosyre.', true, true, 2),
+  ('biologi-2:genetisk-kode-og-genregulering', 'q04', 'flervalg', 'Hva skjer ved spleising?', array['Eksoner klippes ut', 'DNA dobles', 'Proteinet brettes', 'Introner klippes ut og eksoner skjøtes sammen']::text[], 3, 'Hos eukaryoter.', true, true, 3),
+  ('biologi-2:genetisk-kode-og-genregulering', 'q05', 'flervalg', 'Hvorfor gjør den universelle koden genteknologi mulig?', array['Fordi et gen fra én art kan leses av en annen art', 'Fordi alle arter har samme gener', 'Fordi DNA ikke kan endres', 'Fordi proteiner er like']::text[], 0, 'For eksempel menneskelig insulin i bakterier.', true, true, 4),
+  ('biologi-2:genetisk-kode-og-genregulering', 'q06', 'flervalg', 'Hva skjer i lac-operonet når laktose er til stede?', array['Genene slås av', 'Laktose binder repressoren, og genene slås på', 'Bakterien dør', 'DNA-et endres']::text[], 1, 'Enzymene lages bare når de trengs.', true, true, 5),
+  ('biologi-2:genetisk-kode-og-genregulering', 'q07', 'flervalg', 'Hva er epigenetikk?', array['Mutasjoner i DNA', 'Kopiering av DNA', 'Endringer i genuttrykk uten endring i DNA-sekvensen', 'Proteinsyntese']::text[], 2, 'For eksempel DNA-metylering.', true, true, 6),
+  ('biologi-2:genetisk-kode-og-genregulering', 'q08', 'flervalg', 'Hva gjør PCR?', array['Klipper DNA', 'Lager proteiner', 'Endrer gener', 'Kopierer et DNA-stykke millioner av ganger']::text[], 3, 'Brukes i diagnostikk og rettsmedisin.', true, true, 7),
+  ('biologi-2:genetisk-kode-og-genregulering', 'q09', 'flervalg', 'Hva er CRISPR-Cas9?', array['En gensaks som klipper DNA på et bestemt sted', 'En vaksine', 'Et hormon', 'En type ribosom']::text[], 0, 'Nobelprisen i kjemi 2020.', true, false, 8),
+  ('biologi-2:genetisk-kode-og-genregulering', 'q10', 'flervalg', 'Hvorfor uttrykker en nervecelle andre gener enn en muskelcelle?', array['Fordi de har ulikt DNA', 'Fordi genuttrykket reguleres ulikt', 'Fordi nerveceller ikke har DNA', 'Tilfeldigheter']::text[], 1, 'Grunnlaget for celledifferensiering.', true, false, 9),
+  ('biologi-2:genetisk-kode-og-genregulering', 'm01', 'sant-usant', 'Ved alternativ spleising kan ett gen gi flere ulike proteiner.', array['Sant', 'Usant']::text[], 0, 'Eksoner settes sammen på ulike måter.', false, true, 10),
+  ('biologi-2:genetisk-kode-og-genregulering', 'm02', 'sant-usant', 'Alle cellene i kroppen har ulikt DNA.', array['Sant', 'Usant']::text[], 1, 'De har samme DNA, men ulikt genuttrykk.', false, true, 11),
+  ('biologi-2:genetisk-kode-og-genregulering', 'm03', 'sant-usant', 'Noen epigenetiske endringer kan påvirkes av miljøet.', array['Sant', 'Usant']::text[], 0, 'For eksempel kosthold og stress.', false, true, 12),
+  ('biologi-2:genetisk-kode-og-genregulering', 'm04', 'sant-usant', 'mRNA-vaksiner endrer arvestoffet i cellekjernen.', array['Sant', 'Usant']::text[], 1, 'De gir en oppskrift som cellene bruker til å lage et protein.', false, true, 13),
+  ('biologi-2:genetisk-kode-og-genregulering', 'm05', 'flervalg', 'Hvor skjer translasjonen?', array['I cellekjernen', 'På ribosomene', 'I mitokondriene', 'I cellemembranen']::text[], 1, 'mRNA leses der.', false, true, 14),
+  ('biologi-2:genetisk-kode-og-genregulering', 'm06', 'flervalg', 'Hvilket kodon er startkodon?', array['AUG', 'UAA', 'GGG', 'CCC']::text[], 0, 'Koder for metionin.', false, true, 15),
+  ('biologi-2:genetisk-kode-og-genregulering', 'm07', 'flervalg', 'Hvordan har diabetikere fått insulin siden 1980-tallet?', array['Fra griser alene', 'Fra planter', 'Fra bakterier med menneskelig insulingen', 'Fra fisk']::text[], 2, 'Rekombinant DNA.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('biologi-2:genetisk-kode-og-genregulering', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Biologi 2: Arv og variasjon
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('biologi-2:arv-og-variasjon', 'biologi-2', 'arv-og-variasjon', 'Arv og variasjon', 'Hvordan egenskaper arves – Mendels lover, alleler, dominant og recessiv arv, krysningsskjema, kodominans, kjønnsbundet og polygen arv og stamtavler – og årsakene til genotypisk og fenotypisk variasjon i populasjoner: mutasjoner, meiose, befruktning og miljø.', array[9]::int[], 8, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('biologi-2:arv-og-variasjon', '## Grunnbegreper
+
+- Et **gen** kan finnes i ulike varianter – **alleler**.
+- **Genotypen** er hvilke alleler et individ har. **Fenotypen** er hvilke egenskaper som **vises**.
+- **Homozygot**: to like alleler (AA eller aa). **Heterozygot**: to ulike alleler (Aa).
+- Et **dominant** allel (A) vises selv om det bare finnes ett av det. Et **recessivt** allel (a) vises bare hos **homozygote** individer (aa).
+
+## Mendels lover
+
+Munken **Gregor Mendel** krysset **erteplanter** på 1860-tallet og fant at egenskaper arves som **enheter** – det vi i dag kaller gener.
+
+- **Spaltningsloven**: De to allelene for en egenskap **skilles** når kjønnscellene dannes, slik at hver kjønnscelle får **ett** av dem.
+- **Loven om uavhengig fordeling**: Alleler for **ulike** gener fordeles **uavhengig** av hverandre – så lenge genene ligger på ulike kromosomer.
+
+## Krysningsskjema
+
+Krysser vi to heterozygote individer (Aa × Aa), får vi:
+
+| | A | a |
+|---|---|---|
+| **A** | AA | Aa |
+| **a** | Aa | aa |
+
+Genotypeforholdet blir **1 AA : 2 Aa : 1 aa**, og fenotypeforholdet **3 dominante : 1 recessiv**.
+
+## Andre arvemønstre
+
+- **Ufullstendig dominans**: Heterozygoten får en **mellomform**, for eksempel rosa blomster når rød og hvit krysses.
+- **Kodominans**: Begge allelene uttrykkes **fullt**. I **AB0-systemet** gir allelene A og B blodtype **AB**.
+- **Kjønnsbundet arv**: Gener på **X-kromosomet**. Menn har bare **én** X, så **recessive** sykdommer som **blødersykdom** og **fargeblindhet** er vanligere hos menn.
+- **Polygen arv**: Mange gener påvirker samme egenskap, som **høyde** og **hudfarge**. Det gir **gradvis** variasjon.
+
+## Stamtavler
+
+**Stamtavler** viser hvordan en egenskap går i arv i en familie. Et **recessivt** trekk kan **hoppe over** generasjoner og dukke opp hos barn av to friske bærere. Et **dominant** trekk vises i hver generasjon der det finnes.
+
+## Årsaker til variasjon
+
+**Genotypisk variasjon** oppstår ved
+
+- **mutasjoner** – endringer i DNA-sekvensen, den eneste kilden til **nye** alleler
+- **meiose** – **overkrysning** mellom kromosomer og **tilfeldig fordeling** av kromosomer gir nye kombinasjoner
+- **befruktning** – tilfeldig hvilken eggcelle og sædcelle som møtes
+
+**Fenotypisk variasjon** skyldes både **gener** og **miljø**. Eneggede tvillinger har samme gener, men kan få ulik **høyde**, **vekt** eller **helse** på grunn av kosthold, trening og livsstil. Hos planter kan **lys**, **vann** og **næring** gi stor variasjon mellom planter med like gener.
+
+## Betydning
+
+Variasjon er **råmaterialet** for **evolusjon**. En populasjon med stor genetisk variasjon har større sjanse til å **tilpasse** seg når miljøet endrer seg.', '{"label":"Arv og variasjon","children":[{"label":"Begreper","children":[{"label":"Allel, genotype, fenotype"},{"label":"Homo- og heterozygot"},{"label":"Dominant og recessiv"}]},{"label":"Mendel","children":[{"label":"Spaltningsloven"},{"label":"Uavhengig fordeling"},{"label":"Krysningsskjema"}]},{"label":"Andre mønstre","children":[{"label":"Kodominans"},{"label":"Kjønnsbundet"},{"label":"Polygen"}]},{"label":"Variasjon","children":[{"label":"Mutasjoner"},{"label":"Meiose og befruktning"},{"label":"Miljø"}]},{"label":"Anvendelse","children":[{"label":"Stamtavler"},{"label":"Grunnlag for evolusjon"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'biologi-2:arv-og-variasjon';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('biologi-2:arv-og-variasjon', 'Allel', 'Variant av et gen.', 0),
+  ('biologi-2:arv-og-variasjon', 'Genotype', 'Hvilke alleler et individ har.', 1),
+  ('biologi-2:arv-og-variasjon', 'Fenotype', 'Egenskapene som vises.', 2),
+  ('biologi-2:arv-og-variasjon', 'Homozygot', 'To like alleler, som AA eller aa.', 3),
+  ('biologi-2:arv-og-variasjon', 'Heterozygot', 'To ulike alleler, som Aa.', 4),
+  ('biologi-2:arv-og-variasjon', 'Dominant allel', 'Vises selv om det bare finnes ett av det.', 5),
+  ('biologi-2:arv-og-variasjon', 'Recessivt allel', 'Vises bare hos homozygote individer.', 6),
+  ('biologi-2:arv-og-variasjon', 'Spaltningsloven', 'Hver kjønnscelle får ett av de to allelene.', 7),
+  ('biologi-2:arv-og-variasjon', 'Uavhengig fordeling', 'Alleler for ulike gener fordeles uavhengig av hverandre.', 8),
+  ('biologi-2:arv-og-variasjon', 'Aa × Aa', 'Gir fenotypeforholdet 3 : 1.', 9),
+  ('biologi-2:arv-og-variasjon', 'Kodominans', 'Begge allelene uttrykkes fullt, som blodtype AB.', 10),
+  ('biologi-2:arv-og-variasjon', 'Kjønnsbundet arv', 'Gener på X-kromosomet – recessive trekk vanligere hos menn.', 11),
+  ('biologi-2:arv-og-variasjon', 'Polygen arv', 'Mange gener påvirker samme egenskap.', 12),
+  ('biologi-2:arv-og-variasjon', 'Overkrysning', 'Utbytting av DNA mellom kromosomer i meiosen.', 13),
+  ('biologi-2:arv-og-variasjon', 'Mutasjon', 'Endring i DNA – den eneste kilden til nye alleler.', 14);
+delete from public.quiz_sporsmal where tema_id = 'biologi-2:arv-og-variasjon';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('biologi-2:arv-og-variasjon', 'q01', 'flervalg', 'Hva er fenotype?', array['Hvilke alleler et individ har', 'Egenskapene som vises', 'Et kromosom', 'En mutasjon']::text[], 1, 'Genotypen er allelene.', true, true, 0),
+  ('biologi-2:arv-og-variasjon', 'q02', 'flervalg', 'Hva blir fenotypeforholdet ved krysningen Aa × Aa?', array['3 dominante : 1 recessiv', '1 : 1', '1 : 2 : 1 i fenotype', 'Alle dominante']::text[], 0, 'Genotypeforholdet er 1 : 2 : 1.', true, true, 1),
+  ('biologi-2:arv-og-variasjon', 'q03', 'flervalg', 'Når vises et recessivt trekk?', array['Alltid', 'Hos heterozygote', 'Bare hos homozygote individer', 'Aldri']::text[], 2, 'aa.', true, true, 2),
+  ('biologi-2:arv-og-variasjon', 'q04', 'flervalg', 'Hvorfor er blødersykdom vanligere hos menn?', array['Fordi menn har to X-kromosomer', 'Fordi genet er dominant', 'Fordi det er miljøbestemt', 'Fordi menn har bare én X, og genet er recessivt og X-bundet']::text[], 3, 'Kjønnsbundet arv.', true, true, 3),
+  ('biologi-2:arv-og-variasjon', 'q05', 'flervalg', 'Hva er kodominans?', array['Begge allelene uttrykkes fullt', 'Det ene allelet skjuler det andre', 'En mellomform', 'Ingen alleler uttrykkes']::text[], 0, 'Som blodtype AB.', true, true, 4),
+  ('biologi-2:arv-og-variasjon', 'q06', 'flervalg', 'Hva er den eneste kilden til nye alleler?', array['Overkrysning', 'Mutasjoner', 'Befruktning', 'Miljøet']::text[], 1, 'Meiose gir nye kombinasjoner, ikke nye alleler.', true, true, 5),
+  ('biologi-2:arv-og-variasjon', 'q07', 'flervalg', 'Hvorfor kan eneggede tvillinger ha ulik høyde?', array['Fordi de har ulike gener', 'Fordi de har ulike kromosomer', 'Fordi miljøet også påvirker fenotypen', 'Det kan de ikke']::text[], 2, 'Kosthold og livsstil spiller inn.', true, true, 6),
+  ('biologi-2:arv-og-variasjon', 'q08', 'flervalg', 'Hva er polygen arv?', array['Ett gen påvirker mange egenskaper', 'Arv på X-kromosomet', 'Arv fra én forelder', 'Mange gener påvirker samme egenskap']::text[], 3, 'For eksempel høyde.', true, true, 7),
+  ('biologi-2:arv-og-variasjon', 'q09', 'flervalg', 'Hvordan kan et recessivt trekk oppføre seg i en stamtavle?', array['Det kan hoppe over generasjoner', 'Det vises i alle generasjoner alltid', 'Det vises bare hos kvinner', 'Det forsvinner for alltid']::text[], 0, 'Friske bærere kan få barn med trekket.', true, false, 8),
+  ('biologi-2:arv-og-variasjon', 'q10', 'flervalg', 'Hva sier Mendels spaltningslov?', array['Alle gener arves samlet', 'Hver kjønnscelle får ett av de to allelene', 'Miljøet bestemmer arven', 'Alleler blandes']::text[], 1, 'Allelene skilles ved dannelsen av kjønnsceller.', true, false, 9),
+  ('biologi-2:arv-og-variasjon', 'm01', 'sant-usant', 'Mendel gjorde sine forsøk med erteplanter.', array['Sant', 'Usant']::text[], 0, 'På 1860-tallet.', false, true, 10),
+  ('biologi-2:arv-og-variasjon', 'm02', 'sant-usant', 'Overkrysning skaper nye alleler.', array['Sant', 'Usant']::text[], 1, 'Den skaper nye kombinasjoner av eksisterende alleler.', false, true, 11),
+  ('biologi-2:arv-og-variasjon', 'm03', 'sant-usant', 'Stor genetisk variasjon gjør det lettere for en populasjon å tilpasse seg endringer.', array['Sant', 'Usant']::text[], 0, 'Variasjon er råmaterialet for evolusjon.', false, true, 12),
+  ('biologi-2:arv-og-variasjon', 'm04', 'sant-usant', 'Et dominant trekk kan bare vises hos homozygote individer.', array['Sant', 'Usant']::text[], 1, 'Det vises også hos heterozygote.', false, true, 13),
+  ('biologi-2:arv-og-variasjon', 'm05', 'flervalg', 'Hva gir krysning av rød og hvit blomst ved ufullstendig dominans?', array['Røde blomster', 'Rosa blomster', 'Hvite blomster', 'Røde og hvite flekker']::text[], 1, 'En mellomform.', false, true, 14),
+  ('biologi-2:arv-og-variasjon', 'm06', 'flervalg', 'Hvilken genotype er heterozygot?', array['Aa', 'AA', 'aa', 'AAa']::text[], 0, 'To ulike alleler.', false, true, 15),
+  ('biologi-2:arv-og-variasjon', 'm07', 'flervalg', 'Hva kan gi fenotypisk variasjon hos planter med like gener?', array['Bare mutasjoner', 'Ingenting', 'Ulik tilgang på lys, vann og næring', 'Bare meiose']::text[], 2, 'Miljøet påvirker fenotypen.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('biologi-2:arv-og-variasjon', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Biologi 2: Evolusjon og artsdannelse
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('biologi-2:evolusjon-og-artsdannelse', 'biologi-2', 'evolusjon-og-artsdannelse', 'Evolusjon og artsdannelse', 'Hvordan evolusjonære prosesser endrer genlageret i populasjoner – allelfrekvenser og Hardy–Weinberg-likevekten, naturlig og seksuell seleksjon, genetisk drift, flaskehals- og grunnleggereffekt og genflyt – og ulike mekanismer for artsdannelse med reproduktive barrierer.', array[10]::int[], 9, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('biologi-2:evolusjon-og-artsdannelse', '## Genlageret
+
+**Genlageret** er summen av alle **allelene** i en populasjon. **Evolusjon** betyr at **allelfrekvensene** i genlageret **endrer seg** fra generasjon til generasjon.
+
+## Hardy–Weinberg-likevekt
+
+Hvis ingen evolusjonære krefter virker, holder allelfrekvensene seg **konstante**. For et gen med to alleler med frekvensene p og q gjelder
+
+- **p + q = 1**
+- **p² + 2pq + q² = 1**, der p² er andelen AA, 2pq andelen Aa og q² andelen aa
+
+**Eksempel**: 4 % av en populasjon viser et recessivt trekk (aa). Da er q² = 0,04, så q = 0,2 og p = 0,8. Andelen **bærere** (Aa) er 2 · 0,8 · 0,2 = **0,32**, altså 32 %.
+
+Likevekten forutsetter **ingen** mutasjoner, **ingen** seleksjon, **ingen** inn- eller utvandring, **tilfeldig** paring og en **stor** populasjon. Avvik fra likevekten viser at **evolusjon** skjer.
+
+## Evolusjonære mekanismer
+
+**Naturlig seleksjon**: Individer med egenskaper som gir flere **overlevende avkom**, sprer allelene sine.
+
+- **Retningsbestemt** seleksjon favoriserer det ene **ytterpunktet**, for eksempel mørkere farge.
+- **Stabiliserende** seleksjon favoriserer **gjennomsnittet**, for eksempel normal fødselsvekt.
+- **Splittende** seleksjon favoriserer **begge** ytterpunktene og kan føre til nye arter.
+
+**Seksuell seleksjon**: Egenskaper som gir større **paringssuksess**, som påfuglens hale, blir vanligere – selv om de kan være en ulempe for overlevelsen.
+
+**Genetisk drift**: **Tilfeldige** endringer i allelfrekvensene, særlig i **små** populasjoner.
+
+- **Flaskehalseffekt**: En populasjon blir kraftig redusert, for eksempel av jakt eller sykdom, og mister mye **variasjon**.
+- **Grunnleggereffekt**: Noen få individer grunnlegger en ny populasjon og tar bare med en del av variasjonen.
+
+**Genflyt**: **Inn-** og **utvandring** flytter alleler mellom populasjoner og gjør dem mer **like**.
+
+**Mutasjoner** gir **nye** alleler og er grunnlaget for all variasjon.
+
+## Artsbegrepet
+
+Etter det **biologiske artsbegrepet** er en **art** en gruppe individer som kan **pare seg** med hverandre og få **fruktbart** avkom.
+
+## Artsdannelse
+
+- **Allopatrisk artsdannelse**: En populasjon blir delt av en **geografisk barriere**, som en elv, et fjell eller havet. De to delene utvikler seg **ulikt** og blir til slutt **ulike arter**. **Darwins finker** på **Galápagosøyene** er et klassisk eksempel.
+- **Sympatrisk artsdannelse**: Nye arter oppstår i **samme** område, for eksempel når individer bruker ulike **nisjer** eller **matkilder**, eller ved **polyploidi** hos planter – at antall kromosomsett økes.
+
+## Reproduktive barrierer
+
+- **Før befruktning**: ulik **paringstid**, ulik **paringsatferd**, ulike **leveområder** eller kjønnsorganer som ikke passer
+- **Etter befruktning**: avkommet **dør** tidlig eller er **sterilt**, som **muldyret**, en krysning av hest og esel
+
+## Evolusjon i dag
+
+Evolusjon kan observeres i vår egen tid, for eksempel når bakterier utvikler **antibiotikaresistens** eller når fisk blir **kjønnsmodne** tidligere som følge av hardt **fiske**.', '{"label":"Evolusjon og artsdannelse","children":[{"label":"Genlageret","children":[{"label":"Allelfrekvenser"},{"label":"Hardy–Weinberg"}]},{"label":"Seleksjon","children":[{"label":"Retningsbestemt"},{"label":"Stabiliserende og splittende"},{"label":"Seksuell"}]},{"label":"Tilfeldighet og vandring","children":[{"label":"Genetisk drift"},{"label":"Flaskehals og grunnlegger"},{"label":"Genflyt"}]},{"label":"Artsdannelse","children":[{"label":"Allopatrisk"},{"label":"Sympatrisk og polyploidi"}]},{"label":"Barrierer","children":[{"label":"Før befruktning"},{"label":"Etter befruktning"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'biologi-2:evolusjon-og-artsdannelse';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('biologi-2:evolusjon-og-artsdannelse', 'Genlager', 'Summen av alle allelene i en populasjon.', 0),
+  ('biologi-2:evolusjon-og-artsdannelse', 'Allelfrekvens', 'Hvor vanlig et allel er i genlageret.', 1),
+  ('biologi-2:evolusjon-og-artsdannelse', 'Evolusjon', 'Endring i allelfrekvenser over generasjoner.', 2),
+  ('biologi-2:evolusjon-og-artsdannelse', 'Hardy–Weinberg-likevekt', 'Konstante allelfrekvenser når ingen evolusjonære krefter virker.', 3),
+  ('biologi-2:evolusjon-og-artsdannelse', 'p² + 2pq + q² = 1', 'Genotypefrekvensene i Hardy–Weinberg-likevekt.', 4),
+  ('biologi-2:evolusjon-og-artsdannelse', 'Retningsbestemt seleksjon', 'Favoriserer det ene ytterpunktet.', 5),
+  ('biologi-2:evolusjon-og-artsdannelse', 'Stabiliserende seleksjon', 'Favoriserer gjennomsnittet.', 6),
+  ('biologi-2:evolusjon-og-artsdannelse', 'Splittende seleksjon', 'Favoriserer begge ytterpunktene.', 7),
+  ('biologi-2:evolusjon-og-artsdannelse', 'Seksuell seleksjon', 'Egenskaper som gir paringssuksess, blir vanligere.', 8),
+  ('biologi-2:evolusjon-og-artsdannelse', 'Genetisk drift', 'Tilfeldige endringer i allelfrekvenser, særlig i små populasjoner.', 9),
+  ('biologi-2:evolusjon-og-artsdannelse', 'Flaskehalseffekt', 'Kraftig reduksjon av en populasjon gir tap av variasjon.', 10),
+  ('biologi-2:evolusjon-og-artsdannelse', 'Grunnleggereffekt', 'Få individer grunnlegger en ny populasjon med mindre variasjon.', 11),
+  ('biologi-2:evolusjon-og-artsdannelse', 'Genflyt', 'Flytting av alleler mellom populasjoner.', 12),
+  ('biologi-2:evolusjon-og-artsdannelse', 'Allopatrisk artsdannelse', 'Nye arter etter geografisk isolasjon.', 13),
+  ('biologi-2:evolusjon-og-artsdannelse', 'Sympatrisk artsdannelse', 'Nye arter i samme område, for eksempel ved polyploidi.', 14),
+  ('biologi-2:evolusjon-og-artsdannelse', 'Reproduktiv barriere', 'Hindrer paring eller fruktbart avkom mellom arter.', 15);
+delete from public.quiz_sporsmal where tema_id = 'biologi-2:evolusjon-og-artsdannelse';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('biologi-2:evolusjon-og-artsdannelse', 'q01', 'flervalg', 'Hva betyr evolusjon i populasjonsgenetikk?', array['At individer endrer seg i løpet av livet', 'At allelfrekvensene endrer seg over generasjoner', 'At arter aldri endres', 'At alle gener er like']::text[], 1, 'Genlageret endres.', true, true, 0),
+  ('biologi-2:evolusjon-og-artsdannelse', 'q02', 'flervalg', 'q² = 0,04. Hva er andelen bærere (Aa)?', array['32 %', '4 %', '16 %', '64 %']::text[], 0, 'q = 0,2, p = 0,8, 2pq = 0,32.', true, true, 1),
+  ('biologi-2:evolusjon-og-artsdannelse', 'q03', 'flervalg', 'Hva forutsetter Hardy–Weinberg-likevekt?', array['Sterk seleksjon', 'Liten populasjon', 'Ingen mutasjoner, seleksjon eller vandring og en stor populasjon', 'Mye innvandring']::text[], 2, 'Avvik viser at evolusjon skjer.', true, true, 2),
+  ('biologi-2:evolusjon-og-artsdannelse', 'q04', 'flervalg', 'Hvilken seleksjon favoriserer gjennomsnittet?', array['Retningsbestemt', 'Splittende', 'Seksuell', 'Stabiliserende']::text[], 3, 'For eksempel normal fødselsvekt.', true, true, 3),
+  ('biologi-2:evolusjon-og-artsdannelse', 'q05', 'flervalg', 'Hva er genetisk drift?', array['Tilfeldige endringer i allelfrekvenser', 'Seleksjon av de sterkeste', 'Innvandring', 'Mutasjoner']::text[], 0, 'Særlig viktig i små populasjoner.', true, true, 4),
+  ('biologi-2:evolusjon-og-artsdannelse', 'q06', 'flervalg', 'Hva er flaskehalseffekten?', array['At populasjonen vokser raskt', 'At en kraftig reduksjon gir tap av genetisk variasjon', 'At to arter blir én', 'At allelene blandes']::text[], 1, 'For eksempel etter jakt eller sykdom.', true, true, 5),
+  ('biologi-2:evolusjon-og-artsdannelse', 'q07', 'flervalg', 'Hva er allopatrisk artsdannelse?', array['Artsdannelse i samme område', 'Artsdannelse ved krysning', 'Artsdannelse etter geografisk isolasjon', 'Artsdannelse ved genflyt']::text[], 2, 'Som Darwins finker.', true, true, 6),
+  ('biologi-2:evolusjon-og-artsdannelse', 'q08', 'flervalg', 'Hvorfor er muldyret et eksempel på en reproduktiv barriere?', array['Fordi det ikke kan leve', 'Fordi hest og esel ikke kan pare seg', 'Fordi det er en ny art', 'Fordi det er sterilt']::text[], 3, 'En barriere etter befruktning.', true, true, 7),
+  ('biologi-2:evolusjon-og-artsdannelse', 'q09', 'flervalg', 'Hva gjør genflyt med to populasjoner?', array['Gjør dem mer like', 'Gjør dem mer ulike', 'Skaper nye arter', 'Stopper evolusjonen']::text[], 0, 'Alleler flyttes mellom dem.', true, false, 8),
+  ('biologi-2:evolusjon-og-artsdannelse', 'q10', 'flervalg', 'Hva er et eksempel på evolusjon i vår egen tid?', array['Dinosaurenes utdøing', 'Antibiotikaresistens hos bakterier', 'Dannelsen av jorda', 'Istiden']::text[], 1, 'Resistente bakterier overlever og formerer seg.', true, false, 9),
+  ('biologi-2:evolusjon-og-artsdannelse', 'm01', 'sant-usant', 'Mutasjoner gir nye alleler og er grunnlaget for all variasjon.', array['Sant', 'Usant']::text[], 0, 'Uten mutasjoner ingen ny variasjon.', false, true, 10),
+  ('biologi-2:evolusjon-og-artsdannelse', 'm02', 'sant-usant', 'Genetisk drift har størst betydning i store populasjoner.', array['Sant', 'Usant']::text[], 1, 'Den har størst betydning i små populasjoner.', false, true, 11),
+  ('biologi-2:evolusjon-og-artsdannelse', 'm03', 'sant-usant', 'Seksuell seleksjon kan favorisere egenskaper som er en ulempe for overlevelsen.', array['Sant', 'Usant']::text[], 0, 'For eksempel påfuglens hale.', false, true, 12),
+  ('biologi-2:evolusjon-og-artsdannelse', 'm04', 'sant-usant', 'Etter det biologiske artsbegrepet kan individer av ulike arter få fruktbart avkom sammen.', array['Sant', 'Usant']::text[], 1, 'En art kan pare seg og få fruktbart avkom innad.', false, true, 13),
+  ('biologi-2:evolusjon-og-artsdannelse', 'm05', 'flervalg', 'Hva er polyploidi?', array['Tap av kromosomer', 'At antall kromosomsett økes', 'En type mutasjon i ett gen', 'Geografisk isolasjon']::text[], 1, 'Vanlig ved artsdannelse hos planter.', false, true, 14),
+  ('biologi-2:evolusjon-og-artsdannelse', 'm06', 'flervalg', 'Hvilken barriere virker før befruktning?', array['Ulik paringstid', 'Sterile avkom', 'Avkom som dør tidlig', 'Ingen']::text[], 0, 'Hindrer at paring skjer.', false, true, 15),
+  ('biologi-2:evolusjon-og-artsdannelse', 'm07', 'flervalg', 'Hva kan hardt fiske føre til evolusjonært?', array['Større fisk', 'Mer variasjon', 'At fisk blir kjønnsmodne tidligere', 'Ingen endring']::text[], 2, 'Store fisk fjernes.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('biologi-2:evolusjon-og-artsdannelse', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Biologi 2: Kommersiell bruk av genteknologi og etikk
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('biologi-2:genteknologi-og-etikk', 'biologi-2', 'genteknologi-og-etikk', 'Kommersiell bruk av genteknologi og etikk', 'Hvordan genteknologi brukes kommersielt i medisin – legemidler, vaksiner, gentester og genterapi – og i matproduksjon – genmodifiserte og genredigerte planter og dyr – norsk regelverk, og etiske problemstillinger som føre var, rettferdighet, patenter og menneskeverd.', array[11]::int[], 10, 'sjekkes', array['Sjekk gjeldende status for regulering av genredigerte organismer i Norge og EU.']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('biologi-2:genteknologi-og-etikk', '## Genteknologi i medisin
+
+- **Legemidler**: **Genmodifiserte bakterier** og celler produserer **insulin**, **veksthormon**, **blodproppløsende** midler og **antistoffer** mot kreft og revmatisme.
+- **Vaksiner**: **mRNA-vaksiner**, som ble tatt i bruk mot **covid-19**, kan utvikles raskt.
+- **Gentester** kan avdekke arvelige sykdommer, **risiko** for sykdom og hvilke **medisiner** som virker best for en pasient – **persontilpasset medisin**.
+- **Genterapi** tilfører eller retter opp gener. Noen former for **blodsykdommer** og **arvelig blindhet** kan i dag behandles.
+- **CAR-T-behandling**: Pasientens egne immunceller genmodifiseres til å angripe kreft.
+- **Fosterdiagnostikk** kan avdekke genetiske tilstander før fødselen.
+
+## Genteknologi i matproduksjon
+
+- **Genmodifiserte organismer** (GMO) har fått gener fra **andre** arter. Eksempler er **mais** som produserer et stoff som dreper skadeinsekter, og **soya** som tåler sprøytemidler.
+- **Gyllen ris** har fått gener som gir **vitamin A**, for å motvirke mangel i fattige land.
+- **Genredigering** med **CRISPR** endrer organismens **egne** gener uten å tilføre fremmede gener – for eksempel planter som tåler **tørke**, eller sopp som ikke blir brun.
+- I **havbruk** forskes det på **steril** oppdrettslaks som ikke kan krysse seg med villaks, og på fisk som er motstandsdyktig mot sykdom.
+
+## Regelverk
+
+I Norge regulerer **genteknologiloven** bruk av GMO, og **bioteknologiloven** regulerer medisinsk bruk på mennesker. Norge har et **strengt** regelverk: Det skal legges vekt på **samfunnsnytte**, **bærekraft** og **etikk**, og GMO-mat skal **merkes**. Det pågår en debatt om genredigerte organismer bør reguleres **mildere** enn tradisjonelle GMO-er.
+
+## Etiske problemstillinger
+
+**Føre var**: Vi vet ikke alt om **langsiktige** virkninger. Kan genmodifiserte planter spre gener til **ville** slektninger? Kan endringer i **arvestoffet** gi uforutsette følger?
+
+**Naturlighet**: Noen mener det er galt å «**tukle** med naturen». Andre peker på at mennesker har **foredlet** planter og dyr i tusenvis av år.
+
+**Rettferdighet**: Store selskaper kan ta **patent** på gener og frø. Det kan gjøre bønder i fattige land **avhengige** av dem. Samtidig kan genteknologi gi **billigere** medisiner og mer **mat**.
+
+**Menneskeverd**: Genredigering av **embryoer** – endringer som **arves** videre – er forbudt i de fleste land. Da en kinesisk forsker i **2018** redigerte genene til to tvillingjenter, ble det kraftig fordømt. Fosterdiagnostikk reiser spørsmål om **sortering** av mennesker, for eksempel med **Downs syndrom**.
+
+**Personvern**: Genetiske data sier mye om både oss og **familien** vår. Hvem skal ha **tilgang** – forsikringsselskaper, arbeidsgivere eller politiet?
+
+**Dyrevelferd**: Genmodifisering av dyr må ikke gi **lidelse**.
+
+## Å drøfte
+
+Når du drøfter en bruk av genteknologi, kan du spørre:
+
+- Hvilken **nytte** gir den, og for **hvem**?
+- Hvilken **risiko** finnes for helse og miljø?
+- Hvem tar **beslutningene**, og hvem **tjener** på dem?
+- Hvilke **verdier** – liv, helse, frihet, naturvern og rettferdighet – står mot hverandre?
+- Finnes det **alternativer**?', '{"label":"Genteknologi og etikk","children":[{"label":"Medisin","children":[{"label":"Legemidler og vaksiner"},{"label":"Gentester"},{"label":"Genterapi og CAR-T"}]},{"label":"Mat","children":[{"label":"GMO-planter"},{"label":"Genredigering"},{"label":"Havbruk"}]},{"label":"Regelverk","children":[{"label":"Genteknologiloven"},{"label":"Bioteknologiloven"},{"label":"Merking"}]},{"label":"Etikk","children":[{"label":"Føre var"},{"label":"Rettferdighet og patenter"},{"label":"Menneskeverd og personvern"}]},{"label":"Drøfting","children":[{"label":"Nytte og risiko"},{"label":"Hvem bestemmer"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'biologi-2:genteknologi-og-etikk';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('biologi-2:genteknologi-og-etikk', 'GMO', 'Genmodifisert organisme med gener fra andre arter.', 0),
+  ('biologi-2:genteknologi-og-etikk', 'Genredigering', 'Endring av organismens egne gener, for eksempel med CRISPR.', 1),
+  ('biologi-2:genteknologi-og-etikk', 'Insulin fra bakterier', 'Legemiddel laget av genmodifiserte bakterier.', 2),
+  ('biologi-2:genteknologi-og-etikk', 'mRNA-vaksine', 'Vaksine som gir cellene oppskrift på et protein.', 3),
+  ('biologi-2:genteknologi-og-etikk', 'Persontilpasset medisin', 'Behandling tilpasset pasientens gener.', 4),
+  ('biologi-2:genteknologi-og-etikk', 'Genterapi', 'Tilføring eller reparasjon av gener for å behandle sykdom.', 5),
+  ('biologi-2:genteknologi-og-etikk', 'CAR-T-behandling', 'Pasientens immunceller genmodifiseres til å angripe kreft.', 6),
+  ('biologi-2:genteknologi-og-etikk', 'Gyllen ris', 'Genmodifisert ris med vitamin A.', 7),
+  ('biologi-2:genteknologi-og-etikk', 'Genteknologiloven', 'Norsk lov som regulerer bruk av GMO.', 8),
+  ('biologi-2:genteknologi-og-etikk', 'Bioteknologiloven', 'Norsk lov om medisinsk bruk av bioteknologi på mennesker.', 9),
+  ('biologi-2:genteknologi-og-etikk', 'Føre var-prinsippet', 'Forsiktighet når langsiktige virkninger er usikre.', 10),
+  ('biologi-2:genteknologi-og-etikk', 'Patent på gener', 'Enerett som kan gjøre bønder avhengige av selskaper.', 11),
+  ('biologi-2:genteknologi-og-etikk', 'Redigering av embryoer', 'Endringer som arves videre – forbudt i de fleste land.', 12),
+  ('biologi-2:genteknologi-og-etikk', 'Genetisk personvern', 'Spørsmålet om hvem som skal ha tilgang til genetiske data.', 13),
+  ('biologi-2:genteknologi-og-etikk', 'Merking av GMO', 'Krav om at GMO-mat skal merkes i Norge.', 14);
+delete from public.quiz_sporsmal where tema_id = 'biologi-2:genteknologi-og-etikk';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('biologi-2:genteknologi-og-etikk', 'q01', 'flervalg', 'Hva er forskjellen på GMO og genredigering?', array['Det er det samme', 'GMO har gener fra andre arter, genredigering endrer organismens egne gener', 'Genredigering bruker alltid fremmede gener', 'GMO finnes ikke i mat']::text[], 1, 'Genredigering bruker for eksempel CRISPR.', true, true, 0),
+  ('biologi-2:genteknologi-og-etikk', 'q02', 'flervalg', 'Hva lages med genmodifiserte bakterier i medisin?', array['Insulin', 'Vitamin C fra frukt', 'Penicillin fra sopp alene', 'Blod']::text[], 0, 'Også veksthormon og antistoffer.', true, true, 1),
+  ('biologi-2:genteknologi-og-etikk', 'q03', 'flervalg', 'Hva er gyllen ris?', array['Ris som tåler sprøytemidler', 'Vanlig ris med gyllen farge', 'Genmodifisert ris med vitamin A', 'Ris fra Norge']::text[], 2, 'Skal motvirke vitamin A-mangel.', true, true, 2),
+  ('biologi-2:genteknologi-og-etikk', 'q04', 'flervalg', 'Hvorfor ble redigeringen av tvillingenes gener i 2018 fordømt?', array['Fordi den mislyktes', 'Fordi den var lovlig', 'Fordi den var billig', 'Fordi endringer i embryoer arves videre og er forbudt i de fleste land']::text[], 3, 'Et spørsmål om menneskeverd og sikkerhet.', true, true, 3),
+  ('biologi-2:genteknologi-og-etikk', 'q05', 'flervalg', 'Hva er føre var-prinsippet?', array['Forsiktighet når langsiktige virkninger er usikre', 'Å alltid ta risiko', 'Å bruke mest mulig teknologi', 'Å forby all forskning']::text[], 0, 'Sentralt i norsk regelverk.', true, true, 4),
+  ('biologi-2:genteknologi-og-etikk', 'q06', 'flervalg', 'Hvilket etisk problem kan patenter på frø skape?', array['Billigere frø', 'At bønder i fattige land blir avhengige av store selskaper', 'Mer biologisk mangfold', 'Ingen problemer']::text[], 1, 'Et spørsmål om rettferdighet.', true, true, 5),
+  ('biologi-2:genteknologi-og-etikk', 'q07', 'flervalg', 'Hvilken lov regulerer bruk av GMO i Norge?', array['Bioteknologiloven', 'Markedsføringsloven', 'Genteknologiloven', 'Arbeidsmiljøloven']::text[], 2, 'Legger vekt på samfunnsnytte, bærekraft og etikk.', true, true, 6),
+  ('biologi-2:genteknologi-og-etikk', 'q08', 'flervalg', 'Hva er CAR-T-behandling?', array['En vaksine', 'En type GMO-plante', 'En gentest', 'Genmodifisering av pasientens immunceller mot kreft']::text[], 3, 'En ny kreftbehandling.', true, true, 7),
+  ('biologi-2:genteknologi-og-etikk', 'q09', 'flervalg', 'Hvilket spørsmål om personvern reiser gentester?', array['Hvem skal ha tilgang til genetiske data', 'Hvor mye testen koster', 'Hvor raskt svaret kommer', 'Hvilken farge prøveglasset har']::text[], 0, 'Data sier også noe om familien.', true, false, 8),
+  ('biologi-2:genteknologi-og-etikk', 'q10', 'flervalg', 'Hva er et argument mot at genteknologi er «unaturlig»?', array['At naturen er farlig', 'At mennesker har foredlet planter og dyr i tusenvis av år', 'At genteknologi er gammel', 'At GMO ikke finnes']::text[], 1, 'Grensen for det naturlige er uklar.', true, false, 9),
+  ('biologi-2:genteknologi-og-etikk', 'm01', 'sant-usant', 'Norge har et strengt regelverk for GMO.', array['Sant', 'Usant']::text[], 0, 'Med vekt på samfunnsnytte, bærekraft og etikk.', false, true, 10),
+  ('biologi-2:genteknologi-og-etikk', 'm02', 'sant-usant', 'Genredigering av embryoer som arves videre, er tillatt i de fleste land.', array['Sant', 'Usant']::text[], 1, 'Det er forbudt i de fleste land.', false, true, 11),
+  ('biologi-2:genteknologi-og-etikk', 'm03', 'sant-usant', 'Steril oppdrettslaks kan hindre krysning med villaks.', array['Sant', 'Usant']::text[], 0, 'Et forskningsfelt i havbruk.', false, true, 12),
+  ('biologi-2:genteknologi-og-etikk', 'm04', 'sant-usant', 'Genetiske data sier bare noe om den som blir testet.', array['Sant', 'Usant']::text[], 1, 'De sier også noe om familien.', false, true, 13),
+  ('biologi-2:genteknologi-og-etikk', 'm05', 'flervalg', 'Hva kan persontilpasset medisin gjøre?', array['Gi alle samme medisin', 'Velge medisiner som virker best ut fra pasientens gener', 'Erstatte leger', 'Fjerne alle sykdommer']::text[], 1, 'Basert på gentester.', false, true, 14),
+  ('biologi-2:genteknologi-og-etikk', 'm06', 'flervalg', 'Hvilken bekymring gjelder genmodifiserte planter i naturen?', array['At gener kan spres til ville slektninger', 'At plantene blir for små', 'At de ikke kan dyrkes', 'At de mangler farge']::text[], 0, 'Føre var-prinsippet.', false, true, 15),
+  ('biologi-2:genteknologi-og-etikk', 'm07', 'flervalg', 'Hvilket spørsmål bør du stille når du drøfter genteknologi?', array['Hvor gammel teknologien er', 'Hvem som oppfant den', 'Hvilken nytte og risiko den gir, og for hvem', 'Hvor mange som liker den']::text[], 2, 'Og hvilke verdier som står mot hverandre.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('biologi-2:genteknologi-og-etikk', 15)
 on conflict (tema_id) do update set minutter = excluded.minutter;
 
 commit;

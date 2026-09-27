@@ -961,6 +961,57 @@ Læreplan: [FSP01-04](https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurder
 - 🟡 **Å lese tysk litteratur** – utkast (362 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
 - 🟡 **Ungdomskultur, fritid og språklæring** – utkast (377 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
 
+## Biologi 2 (vg3) – 11 av 11 temaer ferdig
+
+Læreplan: [BIO01-02](https://www.udir.no/lk20/bio01-02/kompetansemaal-og-vurdering/kv539)
+
+- 🟡 **Biologisk forskning og metode** – utkast (373 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Populasjoner og forvaltning** – utkast (407 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Artsmangfold og feltarbeid** – utkast (455 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Energistrøm og stoffkretsløp** – utkast (424 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Menneskelig påvirkning på kretsløpene** – utkast (394 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Enzymer og metabolisme** – utkast (414 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Fotosyntese og celleånding** – utkast (415 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Genetisk kode, genuttrykk og genteknologi** – utkast (441 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Arv og variasjon** – utkast (407 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Evolusjon og artsdannelse** – utkast (433 ord · 16 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🔴 **Kommersiell bruk av genteknologi og etikk** – sjekkes (452 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+  - Sjekk: Sjekk gjeldende status for regulering av genredigerte organismer i Norge og EU.
+
+## Fysikk 2 (vg3) – 11 av 11 temaer ferdig
+
+Læreplan: [FYS01-02](https://www.udir.no/lk20/fys01-02/kompetansemaal-og-vurdering/kv467)
+
+- 🟡 **Forsøk, usikkerhet og internasjonalt forskningssamarbeid** – utkast (412 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Numeriske metoder og modellering** – utkast (412 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Bevegelse i to dimensjoner** – utkast (410 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Krumlinjet bevegelse og sirkelbevegelse** – utkast (427 ord · 15 kort · 10 quiz · 15 i miniprøve · 17 noder i tankekart)
+- 🟡 **Gravitasjon og energi i sentralfelt** – utkast (428 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Elektriske felt** – utkast (456 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Magnetiske felt** – utkast (435 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Elektromagnetisk induksjon** – utkast (454 ord · 15 kort · 10 quiz · 15 i miniprøve · 17 noder i tankekart)
+- 🟡 **Induksjon i energiproduksjon og hverdagen** – utkast (453 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Den spesielle og generelle relativitetsteorien** – utkast (455 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Kvantefysikk** – utkast (483 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+
+## Historie og filosofi 2 (vg3) – 13 av 13 temaer ferdig
+
+Læreplan: [HIF01-04](https://www.udir.no/lk20/hif01-04/kompetansemaal-og-vurdering/kv896)
+
+- 🟡 **Filosofisk samtale, argumentasjon og kildearbeid** – utkast (427 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Vitenskap, pseudovitenskap, desinformasjon og konspirasjonsteorier** – utkast (440 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Metode, perspektiv og erkjennelse** – utkast (436 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Moderne tenkning og kritikken av den** – utkast (437 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Veien til det moderne demokratiet – og hindrene** – utkast (387 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Autonomi, frihet, ansvar og det gode liv** – utkast (476 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Etiske og eksistensielle spørsmål i nyere tid** – utkast (449 ord · 15 kort · 10 quiz · 15 i miniprøve · 16 noder i tankekart)
+- 🟡 **Ideologier og økonomiske teorier** – utkast (438 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Kommunikasjon, teknologi og det offentlige ordskiftet** – utkast (414 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Historieframstillinger og historiebevissthet** – utkast (432 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Urfolk mellom tradisjon og modernitet** – utkast (435 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Teknologiens rolle i samfunnet** – utkast (405 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Mennesket, naturen og forbrukersamfunnet** – utkast (458 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+
 ## Historie (vg3) – 14 av 14 temaer ferdig
 
 Læreplan: [HIS01-03](https://www.udir.no/lk20/his01-03/kompetansemaal-og-vurdering/kv85)
@@ -979,6 +1030,24 @@ Læreplan: [HIS01-03](https://www.udir.no/lk20/his01-03/kompetansemaal-og-vurder
 - 🟡 **Myndiggjøring og frigjøring i norsk og samisk historie** – utkast (426 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
 - 🟡 **Velferdsutviklingen i Norge på 1900-tallet** – utkast (369 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
 - 🟡 **Mennesket, naturen og ressursene i historien** – utkast (459 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+
+## Kjemi 2 (vg3) – 13 av 13 temaer ferdig
+
+Læreplan: [KJE01-02](https://www.udir.no/lk20/kje01-02/kompetansemaal-og-vurdering/kv533)
+
+- 🟡 **Forsøk, modeller og kunnskapsutvikling i kjemi** – utkast (379 ord · 16 kort · 10 quiz · 15 i miniprøve · 17 noder i tankekart)
+- 🟡 **Redoksreaksjoner og elektrokjemi** – utkast (425 ord · 16 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Likevekt og massevirkningsloven** – utkast (407 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Entropi, entalpi og spontanitet** – utkast (435 ord · 15 kort · 10 quiz · 15 i miniprøve · 17 noder i tankekart)
+- 🟡 **Syrer, baser og pH-beregninger** – utkast (386 ord · 16 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Buffere** – utkast (422 ord · 15 kort · 10 quiz · 15 i miniprøve · 17 noder i tankekart)
+- 🟡 **Løselighet og løselighetsprodukt** – utkast (430 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Katalyse** – utkast (423 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Organiske reaksjonstyper og reaksjonsmekanismer** – utkast (413 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Synteser, utbytte og renhet** – utkast (408 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Kromatografi** – utkast (436 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Biologiske makromolekyler** – utkast (416 ord · 16 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Metaller, plast og grønn kjemi** – utkast (445 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
 
 ## Norsk (vg3) – 12 av 12 temaer ferdig
 

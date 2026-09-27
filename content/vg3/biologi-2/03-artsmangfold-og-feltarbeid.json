@@ -1,0 +1,81 @@
+{
+  "id": "artsmangfold-og-feltarbeid",
+  "fagId": "biologi-2",
+  "trinnId": "vg3",
+  "name": "Artsmangfold og feltarbeid",
+  "intro": "Hvordan du utforsker og dokumenterer artsmangfold gjennom feltarbeid – ruteanalyse, transekter, fangst og gjenfangst, feller og artsbestemmelse – beregner artsrikdom og mangfold, drøfter resultatene og vurderer hvordan artene er tilpasset økosystemet de lever i.",
+  "kompetansemaal": [3],
+  "sammendrag": "## Hva er artsmangfold?\n\n**Artsmangfold** handler om **hvor mange** arter det finnes i et område – **artsrikdom** – og **hvor jevnt** individene er fordelt mellom artene – **jevnhet**. Et område med ti arter der én art dominerer, har **lavere** mangfold enn et område med ti arter som er omtrent like vanlige. Mangfoldet kan beregnes med **mangfoldsindekser**, for eksempel **Simpsons indeks**.\n\n## Planlegging av feltarbeid\n\n1. Formuler en **problemstilling**, for eksempel «Er det flere plantearter i skogkanten enn inne i skogen?».\n2. Velg **lokaliteter** og **metode**.\n3. Bestem **hvor mange** prøver du trenger.\n4. Mål **miljøfaktorer** som lys, temperatur, fuktighet og jordas pH.\n5. Ta med **utstyr**: målebånd, rammer, notatbok, bestemmelsesnøkler og kamera.\n\n## Metoder\n\n- **Ruteanalyse**: En ramme – for eksempel 1 m × 1 m – legges ut, og du registrerer hvilke arter som finnes og hvor mye de **dekker**. Rutene bør plasseres **tilfeldig** eller **systematisk**.\n- **Transekt**: En linje legges gjennom et område med **gradient**, for eksempel fra strand til skog. Du registrerer arter med jevne mellomrom og kan se hvordan artssammensetningen **endres**.\n- **Fangst–gjenfangst**: Brukes for å anslå størrelsen på dyrebestander. Du fanger og **merker** M dyr, slipper dem, fanger C dyr senere, og teller R merkede. Bestanden anslås til **N = M · C / R**. **Eksempel**: M = 50, C = 60 og R = 12 gir N = 50 · 60 / 12 = **250**.\n- **Fallfeller** fanger insekter og andre smådyr på bakken.\n- **Håvtrekk** og **sparkeprøver** i bekker og dammer gir smådyr i vann.\n- **Observasjon** og **lytting**, for eksempel fugletelling.\n\n## Artsbestemmelse\n\nArter bestemmes med **bestemmelsesnøkler**, **felthåndbøker** og **apper**. Usikre funn kan **fotograferes** og sjekkes senere. Funn kan rapporteres til **Artsdatabanken** via **Artsobservasjoner**, slik at forskere og forvaltning får nytte av dem.\n\n## Drøfte resultater\n\n- Er forskjellene mellom lokalitetene **store** nok til å være **reelle**?\n- Hvilke **miljøfaktorer** kan forklare forskjellene?\n- Hvilke **feilkilder** finnes – feilbestemte arter, for få prøver, ulik tid på døgnet eller vær?\n- Er resultatene i tråd med **teori** og andre undersøkelser?\n\n## Tilpasninger\n\nArter er **tilpasset** økosystemet de lever i:\n\n- **Morfologiske** tilpasninger – kroppsbygning: tykk pels hos fjellrev, små og voksaktige blader hos fjellplanter, lange røtter i tørre områder\n- **Fysiologiske** tilpasninger – kroppens funksjoner: **dvale** hos bjørn, frostvæske hos noen insekter\n- **Atferdsmessige** tilpasninger – **trekk** hos fugler, flokkliv og å grave ganger\n\nHver art har sin **økologiske nisje** – sin rolle og sine krav i økosystemet. Arter som konkurrerer om **samme** nisje, kan ikke leve sammen på lang sikt.\n\n## Hvorfor er artsmangfold viktig?\n\nEt høyt artsmangfold gir mer **robuste** økosystemer som tåler endringer bedre, og det gir **økosystemtjenester** som pollinering, rent vann og mat. **Arealendringer**, **forurensning**, **klimaendringer** og **fremmede arter** truer mangfoldet.",
+  "flashcards": [
+    { "term": "Artsmangfold", "def": "Hvor mange arter det finnes og hvor jevnt individene er fordelt." },
+    { "term": "Artsrikdom", "def": "Antall arter i et område." },
+    { "term": "Jevnhet", "def": "Hvor jevnt individene er fordelt mellom artene." },
+    { "term": "Simpsons indeks", "def": "En mangfoldsindeks." },
+    { "term": "Ruteanalyse", "def": "Registrering av arter i en ramme med kjent størrelse." },
+    { "term": "Transekt", "def": "Linje gjennom en gradient der arter registreres med jevne mellomrom." },
+    { "term": "Fangst–gjenfangst", "def": "Metode for å anslå bestandsstørrelse: N = M · C / R." },
+    { "term": "Fallfelle", "def": "Felle som fanger smådyr på bakken." },
+    { "term": "Bestemmelsesnøkkel", "def": "Verktøy for å artsbestemme organismer." },
+    { "term": "Artsdatabanken", "def": "Nasjonal kunnskapsbank om arter og naturtyper." },
+    { "term": "Morfologisk tilpasning", "def": "Tilpasning i kroppsbygning, som tykk pels." },
+    { "term": "Fysiologisk tilpasning", "def": "Tilpasning i kroppens funksjoner, som dvale." },
+    { "term": "Atferdsmessig tilpasning", "def": "Tilpasning i atferd, som trekk." },
+    { "term": "Økologisk nisje", "def": "En arts rolle og krav i økosystemet." },
+    { "term": "Økosystemtjenester", "def": "Goder naturen gir oss, som pollinering og rent vann." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er artsrikdom?", "options": ["Hvor jevnt individene er fordelt", "Antall arter i et område", "Antall individer av én art", "Mengden biomasse"], "correct": 1, "explain": "En del av artsmangfoldet." },
+    { "id": "q02", "text": "M = 50 merkede, C = 60 fanget senere og R = 12 merkede i andre fangst. Hva er bestanden?", "options": ["250", "120", "600", "72"], "correct": 0, "explain": "N = M · C / R." },
+    { "id": "q03", "text": "Hvilken metode passer for å se hvordan arter endres fra strand til skog?", "options": ["Fallfelle", "Fangst–gjenfangst", "Transekt", "Håvtrekk"], "correct": 2, "explain": "En linje gjennom en gradient." },
+    { "id": "q04", "text": "Hva er en fysiologisk tilpasning?", "options": ["Tykk pels", "Trekk", "Flokkliv", "Dvale"], "correct": 3, "explain": "Kroppens funksjoner endres." },
+    { "id": "q05", "text": "Hvilket område har høyest mangfold – ti like vanlige arter eller ti arter der én dominerer?", "options": ["Ti like vanlige arter", "Ti arter der én dominerer", "De er like", "Det kan ikke avgjøres"], "correct": 0, "explain": "Høyere jevnhet gir høyere mangfold." },
+    { "id": "q06", "text": "Hva er en økologisk nisje?", "options": ["Et hull i et tre", "En arts rolle og krav i økosystemet", "Et naturreservat", "En type felle"], "correct": 1, "explain": "To arter kan ikke dele samme nisje på lang sikt." },
+    { "id": "q07", "text": "Hvor kan artsfunn rapporteres i Norge?", "options": ["Til Forbrukertilsynet", "Til NAV", "Til Artsdatabanken via Artsobservasjoner", "Til Skatteetaten"], "correct": 2, "explain": "Nyttig for forskning og forvaltning." },
+    { "id": "q08", "text": "Hva er en feilkilde i feltarbeid?", "options": ["Riktig artsbestemmelse", "Mange prøver", "Godt vær", "Feilbestemte arter og for få prøver"], "correct": 3, "explain": "Også ulik tid på døgnet." },
+    { "id": "q09", "text": "Hva er en morfologisk tilpasning hos fjellplanter?", "options": ["Små og voksaktige blader", "Dvale", "Trekk", "Frostvæske"], "correct": 0, "explain": "Reduserer vanntap og kulde." },
+    { "id": "q10", "text": "Hvorfor er høyt artsmangfold viktig?", "options": ["Det gir mer ustabile økosystemer", "Det gir mer robuste økosystemer og økosystemtjenester", "Det har ingen betydning", "Det gir færre arter"], "correct": 1, "explain": "Tåler endringer bedre." }
+  ],
+  "mindmap": {
+    "label": "Artsmangfold og feltarbeid",
+    "children": [
+      { "label": "Mangfold", "children": [
+        { "label": "Artsrikdom" },
+        { "label": "Jevnhet" },
+        { "label": "Indekser" }
+      ] },
+      { "label": "Metoder", "children": [
+        { "label": "Ruteanalyse og transekt" },
+        { "label": "Fangst–gjenfangst" },
+        { "label": "Feller og håv" }
+      ] },
+      { "label": "Artsbestemmelse", "children": [
+        { "label": "Nøkler og apper" },
+        { "label": "Artsdatabanken" }
+      ] },
+      { "label": "Tilpasninger", "children": [
+        { "label": "Morfologiske" },
+        { "label": "Fysiologiske" },
+        { "label": "Atferdsmessige" }
+      ] },
+      { "label": "Drøfting", "children": [
+        { "label": "Miljøfaktorer" },
+        { "label": "Feilkilder" },
+        { "label": "Trusler mot mangfold" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Ruter i en ruteanalyse bør plasseres tilfeldig eller systematisk.", "correct": true, "explain": "Hindrer at man velger de «beste» stedene." },
+      { "id": "m02", "type": "sant-usant", "text": "Trekk hos fugler er en morfologisk tilpasning.", "correct": false, "explain": "Det er en atferdsmessig tilpasning." },
+      { "id": "m03", "type": "sant-usant", "text": "Fremmede arter kan true det lokale artsmangfoldet.", "correct": true, "explain": "De kan utkonkurrere stedegne arter." },
+      { "id": "m04", "type": "sant-usant", "text": "Miljøfaktorer som lys og fuktighet har ingen betydning for artssammensetningen.", "correct": false, "explain": "De kan forklare forskjeller mellom lokaliteter." },
+      { "id": "m05", "type": "flervalg", "text": "Hva brukes håvtrekk og sparkeprøver til?", "options": ["Fugletelling", "Smådyr i bekker og dammer", "Planter i skog", "Insekter i trær"], "correct": 1, "explain": "Ferskvannsøkologi." },
+      { "id": "m06", "type": "flervalg", "text": "Hva gjør du med usikre artsfunn i felt?", "options": ["Fotograferer og sjekker dem senere", "Gjetter", "Ignorerer dem", "Tar med alle levende dyr hjem"], "correct": 0, "explain": "Gir bedre artsbestemmelse." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er en økosystemtjeneste?", "options": ["En type feltutstyr", "En forvaltningsplan", "Pollinering og rent vann", "En app"], "correct": 2, "explain": "Goder naturen gir oss." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

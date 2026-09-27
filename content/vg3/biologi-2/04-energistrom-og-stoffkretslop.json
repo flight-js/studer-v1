@@ -1,0 +1,81 @@
+{
+  "id": "energistrom-og-stoffkretslop",
+  "fagId": "biologi-2",
+  "trinnId": "vg3",
+  "name": "Energistrøm og stoffkretsløp",
+  "intro": "Hvordan energi strømmer gjennom økosystemer fra sola via produsenter og konsumenter til nedbrytere, energipyramider og produksjon – og de sentrale stoffkretsløpene for karbon, nitrogen og fosfor.",
+  "kompetansemaal": [4],
+  "sammendrag": "## Energi strømmer – stoff går i kretsløp\n\nEn viktig forskjell i økologien er at **energi** strømmer **gjennom** økosystemet, mens **stoffer** går i **kretsløp**. Energien kommer fra **sola** og forsvinner til slutt som **varme**. Stoffene – karbon, nitrogen, fosfor og vann – **brukes om igjen**.\n\n## Energistrømmen\n\n- **Produsenter** – planter, alger og noen bakterier – fanger **solenergi** gjennom **fotosyntesen** og bygger opp **organisk stoff**.\n- **Primærkonsumenter** – planteetere – spiser produsentene.\n- **Sekundærkonsumenter** og **tertiærkonsumenter** – rovdyr – spiser andre dyr.\n- **Nedbrytere** – bakterier og sopp – bryter ned dødt materiale.\n\nOrganismene knyttes sammen i **næringskjeder** og mer komplekse **næringsnett**.\n\n## Energitap mellom nivåene\n\nPå hvert **trofisk nivå** brukes mye av energien til **celleånding**, bevegelse og varme, og noe havner i avføring og deler som ikke spises. Bare omtrent **10 %** av energien går videre til neste nivå. Hvis produsentene har 10 000 kJ, får primærkonsumentene omtrent 1000 kJ, sekundærkonsumentene 100 kJ og tertiærkonsumentene 10 kJ.\n\nDerfor har **energipyramiden** bred base og smal topp, og næringskjeder har sjelden mer enn **4–5** ledd. Det forklarer også hvorfor det er **mer energieffektivt** for mennesker å spise **planter** enn kjøtt.\n\n## Produksjon\n\n- **Bruttoproduksjon**: all energi produsentene binder\n- **Nettoproduksjon**: det som er igjen etter produsentenes egen celleånding – tilgjengelig for konsumentene\n\nNettoproduksjonen er høy i **regnskog**, **korallrev** og **grunne kystområder**, og lav i **ørken** og **dyphav**.\n\n## Karbonkretsløpet\n\n- **Fotosyntesen** tar opp CO₂ fra luft og vann og binder karbonet i organisk stoff.\n- **Celleånding** og **nedbrytning** frigjør CO₂.\n- Havet tar opp store mengder CO₂.\n- Karbon lagres i lang tid i **fossile brensler**, **kalkstein**, **myr** og **skog**.\n- **Forbrenning** frigjør karbon som har vært lagret i millioner av år.\n\n## Nitrogenkretsløpet\n\nNitrogen er nødvendig for **proteiner** og **DNA**, men de fleste organismer kan ikke bruke N₂ fra luften.\n\n- **Nitrogenfiksering**: Noen **bakterier**, blant annet i **rotknoller** hos belgvekster som erter og kløver, gjør N₂ om til ammonium. **Lyn** og **industri** fikserer også nitrogen.\n- **Nitrifikasjon**: Bakterier gjør ammonium om til **nitrat**, som plantene tar opp.\n- **Denitrifikasjon**: Bakterier i oksygenfattige miljøer gjør nitrat om til N₂, som går tilbake til lufta.\n- **Nedbrytere** gjør nitrogen i døde organismer om til ammonium igjen.\n\n## Fosforkretsløpet\n\nFosfor finnes i **DNA**, **ATP** og **cellemembraner**. Det har **ingen** gassfase. Fosfor frigjøres sakte fra **berggrunnen** ved forvitring, tas opp av planter og går gjennom næringskjeden. Mye havner til slutt i **sedimenter** i havet. Fosfor er ofte en **begrensende faktor** for vekst.\n\n## Vannets kretsløp\n\n**Fordampning**, **nedbør** og **avrenning** driver vannets kretsløp, og **planter** bidrar gjennom **transpirasjon**.",
+  "flashcards": [
+    { "term": "Energistrøm", "def": "Energi går gjennom økosystemet og ender som varme." },
+    { "term": "Stoffkretsløp", "def": "Stoffer brukes om igjen i økosystemet." },
+    { "term": "Produsent", "def": "Organisme som fanger solenergi gjennom fotosyntese." },
+    { "term": "Primærkonsument", "def": "Planteeter." },
+    { "term": "Nedbryter", "def": "Bakterie eller sopp som bryter ned dødt materiale." },
+    { "term": "Trofisk nivå", "def": "Et trinn i næringskjeden." },
+    { "term": "10 %-regelen", "def": "Omtrent 10 % av energien går videre til neste trofiske nivå." },
+    { "term": "Energipyramide", "def": "Viser at energien avtar oppover i næringskjeden." },
+    { "term": "Bruttoproduksjon", "def": "All energi produsentene binder." },
+    { "term": "Nettoproduksjon", "def": "Energien som er igjen etter produsentenes celleånding." },
+    { "term": "Karbonlager", "def": "Fossile brensler, kalkstein, myr, skog og hav." },
+    { "term": "Nitrogenfiksering", "def": "Bakterier gjør N₂ om til ammonium." },
+    { "term": "Nitrifikasjon", "def": "Ammonium gjøres om til nitrat." },
+    { "term": "Denitrifikasjon", "def": "Nitrat gjøres om til N₂ i oksygenfattige miljøer." },
+    { "term": "Fosforkretsløpet", "def": "Kretsløp uten gassfase – fosfor er ofte begrensende." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er forskjellen på energi og stoffer i et økosystem?", "options": ["Begge går i kretsløp", "Energi strømmer gjennom, stoffer går i kretsløp", "Stoffer forsvinner, energi gjenbrukes", "Det er ingen forskjell"], "correct": 1, "explain": "Energien ender som varme." },
+    { "id": "q02", "text": "Omtrent hvor mye energi går videre til neste trofiske nivå?", "options": ["10 %", "50 %", "90 %", "100 %"], "correct": 0, "explain": "Resten brukes eller tapes som varme." },
+    { "id": "q03", "text": "Produsentene har 10 000 kJ. Omtrent hvor mye når sekundærkonsumentene?", "options": ["1000 kJ", "5000 kJ", "100 kJ", "10 kJ"], "correct": 2, "explain": "To ledd med 10 %." },
+    { "id": "q04", "text": "Hva er nettoproduksjon?", "options": ["All energi produsentene binder", "Energien konsumentene bruker", "Varmetapet", "Energien som er igjen etter produsentenes egen celleånding"], "correct": 3, "explain": "Tilgjengelig for konsumentene." },
+    { "id": "q05", "text": "Hvilke organismer kan fiksere nitrogen fra lufta?", "options": ["Noen bakterier, blant annet i rotknoller", "Alle planter", "Rovdyr", "Sopp alene"], "correct": 0, "explain": "For eksempel hos erter og kløver." },
+    { "id": "q06", "text": "Hva skjer ved denitrifikasjon?", "options": ["N₂ blir til ammonium", "Nitrat blir til N₂", "Ammonium blir til nitrat", "Nitrogen lagres i fjell"], "correct": 1, "explain": "I oksygenfattige miljøer." },
+    { "id": "q07", "text": "Hva er spesielt med fosforkretsløpet?", "options": ["Det går raskt gjennom lufta", "Det har mest gass", "Det har ingen gassfase", "Det finnes ikke"], "correct": 2, "explain": "Fosfor frigjøres sakte fra berggrunnen." },
+    { "id": "q08", "text": "Hvorfor har næringskjeder sjelden mer enn 4–5 ledd?", "options": ["Fordi det er for få arter", "Fordi rovdyr ikke spiser hverandre", "Fordi plantene er for store", "Fordi det blir for lite energi igjen"], "correct": 3, "explain": "Energien avtar kraftig for hvert ledd." },
+    { "id": "q09", "text": "Hvilken prosess tar opp CO₂ i karbonkretsløpet?", "options": ["Fotosyntesen", "Celleånding", "Forbrenning", "Nedbrytning"], "correct": 0, "explain": "Karbonet bindes i organisk stoff." },
+    { "id": "q10", "text": "Hvorfor er det mer energieffektivt for mennesker å spise planter enn kjøtt?", "options": ["Planter har mer protein", "Man unngår energitapet ved et ekstra trofisk nivå", "Kjøtt har ingen energi", "Planter vokser raskere"], "correct": 1, "explain": "10 %-regelen." }
+  ],
+  "mindmap": {
+    "label": "Energi og kretsløp",
+    "children": [
+      { "label": "Energistrøm", "children": [
+        { "label": "Produsenter og konsumenter" },
+        { "label": "Nedbrytere" },
+        { "label": "Næringsnett" }
+      ] },
+      { "label": "Energitap", "children": [
+        { "label": "10 %-regelen" },
+        { "label": "Energipyramide" },
+        { "label": "Brutto- og nettoproduksjon" }
+      ] },
+      { "label": "Karbon", "children": [
+        { "label": "Fotosyntese og celleånding" },
+        { "label": "Lagre" }
+      ] },
+      { "label": "Nitrogen", "children": [
+        { "label": "Fiksering" },
+        { "label": "Nitrifikasjon" },
+        { "label": "Denitrifikasjon" }
+      ] },
+      { "label": "Fosfor og vann", "children": [
+        { "label": "Ingen gassfase" },
+        { "label": "Begrensende faktor" },
+        { "label": "Transpirasjon" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Myr og skog er viktige karbonlagre.", "correct": true, "explain": "Karbon kan lagres i lang tid." },
+      { "id": "m02", "type": "sant-usant", "text": "De fleste organismer kan bruke N₂ direkte fra lufta.", "correct": false, "explain": "Nitrogenet må først fikseres." },
+      { "id": "m03", "type": "sant-usant", "text": "Fosfor finnes i DNA og ATP.", "correct": true, "explain": "Og i cellemembraner." },
+      { "id": "m04", "type": "sant-usant", "text": "Energien i et økosystem brukes om igjen i et kretsløp.", "correct": false, "explain": "Den strømmer gjennom og ender som varme." },
+      { "id": "m05", "type": "flervalg", "text": "Hvor er nettoproduksjonen høy?", "options": ["I ørken", "I regnskog og korallrev", "I dyphavet", "På isbreer"], "correct": 1, "explain": "Mye lys, varme og næring." },
+      { "id": "m06", "type": "flervalg", "text": "Hva gjør nitrifiserende bakterier?", "options": ["Gjør ammonium om til nitrat", "Gjør nitrat om til N₂", "Fikserer N₂", "Bryter ned fosfor"], "correct": 0, "explain": "Nitrat tas opp av plantene." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilken prosess bidrar planter med i vannets kretsløp?", "options": ["Nitrogenfiksering", "Fotosyntese av vann", "Transpirasjon", "Denitrifikasjon"], "correct": 2, "explain": "Vann fordamper fra bladene." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

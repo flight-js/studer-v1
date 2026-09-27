@@ -1,0 +1,68 @@
+{
+  "id": "biologi-2",
+  "trinnId": "vg3",
+  "name": "Biologi 2",
+  "lareplan": {
+    "kode": "BIO01-02",
+    "url": "https://www.udir.no/lk20/bio01-02/kompetansemaal-og-vurdering/kv539",
+    "kompetansemaal": [
+      {
+        "nr": 1,
+        "tekst": "utforske ei biologisk problemstilling, analysere innsamla data, argumentere for val av metodar og drøfte resultat og funn"
+      },
+      {
+        "nr": 2,
+        "tekst": "utforske faktorar som regulerer vekst i og storleiken på populasjonar, og drøfte interessekonfliktar rundt forvaltning av populasjonar"
+      },
+      {
+        "nr": 3,
+        "tekst": "utforske og dokumentere artsmangfald gjennom feltarbeid, drøfte resultat og funn og vurdere korleis artane er tilpassa økosystemet dei lever i"
+      },
+      {
+        "nr": 4,
+        "tekst": "gjere greie for energistraum og sentrale stoffkrinsløp"
+      },
+      {
+        "nr": 5,
+        "tekst": "drøfte korleis menneskeleg aktivitet påverkar krinsløpa, og utforske tiltak for å vareta dei"
+      },
+      {
+        "nr": 6,
+        "tekst": "utforske korleis enzym fungerer, og gjere greie for den rolla enzym speler i metabolske prosessar"
+      },
+      {
+        "nr": 7,
+        "tekst": "samanlikne korleis energi blir omdanna gjennom fotosyntesen og celleandinga, og vurdere kva påverknad ulike faktorar har på energiomsetning"
+      },
+      {
+        "nr": 8,
+        "tekst": "gjere greie for genetisk kode og regulering av genuttrykk, og beskrive korleis genteknologi kan brukast for å styre og endre genuttrykk"
+      },
+      {
+        "nr": 9,
+        "tekst": "gjere greie for korleis eigenskapar blir arva, og utforske årsaker til genotypisk og fenotypisk variasjon i populasjonar"
+      },
+      {
+        "nr": 10,
+        "tekst": "utforske korleis evolusjonære prosessar påverkar genlageret til populasjonar, og samanlikne ulike mekanismar for artsdanning"
+      },
+      {
+        "nr": 11,
+        "tekst": "vurdere kommersiell bruk av genteknologi i medisin og matproduksjon, og drøfte etiske problemstillingar ved bruk av slik teknologi"
+      }
+    ]
+  },
+  "temaer": [
+    "biologisk-forskning-og-metode",
+    "populasjoner-og-forvaltning",
+    "artsmangfold-og-feltarbeid",
+    "energistrom-og-stoffkretslop",
+    "menneskelig-pavirkning-pa-kretslopene",
+    "enzymer-og-metabolisme",
+    "fotosyntese-og-celleanding",
+    "genetisk-kode-og-genregulering",
+    "arv-og-variasjon",
+    "evolusjon-og-artsdannelse",
+    "genteknologi-og-etikk"
+  ]
+}
