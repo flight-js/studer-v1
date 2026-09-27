@@ -78,10 +78,10 @@ insert into public.fag (id, trinn_id, navn, lareplan_kode, lareplan_url, kompeta
   ('historie-og-filosofi-1', 'vg2', 'Historie og filosofi 1', 'HIF01-04', 'https://www.udir.no/lk20/hif01-04/kompetansemaal-og-vurdering/kv895', '[{"nr":1,"tekst":"anvende filosofisk samtale for å utforske oppfatninger, undersøke argumentasjon og vurdere gyldighet"},{"nr":2,"tekst":"bruke kilder av ulik art og opphav til å lage fortellinger og drøfte historiske og filosofiske problemstillinger"},{"nr":3,"tekst":"reflektere over hvordan tilgangen på kilder påvirker og begrenser hva vi kan vite om fortiden"},{"nr":4,"tekst":"gjøre rede for og drøfte kontinuitet og endring i maktstrukturer, frihetsbetingelser og statsdanning i ulike historiske perioder fra antikken til moderne tid og reflektere over forståelsen av makt, frihet og demokrati"},{"nr":5,"tekst":"utforske filosofi fra antikken til moderne tid og drøfte etikk, politisk filosofi, metafysikk og erkjennelsesteori"},{"nr":6,"tekst":"reflektere over hvordan religion og filosofi har blitt brukt til både å utfordre og å legitimere makt og samfunnsstrukturer, og lagt grunnlag for sannhets- og virkelighetsoppfatning, fra antikken til moderne tid"},{"nr":7,"tekst":"gjøre rede for og vurdere hvordan fortellinger er med på å skape mening og forklare hvem vi er eller ønsker å være"},{"nr":8,"tekst":"drøfte hvordan ulike historiesyn kan prege vår forståelse og fortolkning av fortiden og nåtiden"},{"nr":9,"tekst":"utforske sammenhenger mellom teknologiske, økonomiske og vitenskapelige endringer og vurdere betydningen disse endringene kan ha hatt for samfunnsstrukturer og menneskers livsvilkår og virkelighetsoppfatning"},{"nr":10,"tekst":"utforske forholdet mellom miljø og ressursbruk i et historisk perspektiv og reflektere over ulike oppfatninger om forholdet mellom mennesker, dyr og natur"},{"nr":11,"tekst":"gjøre rede for virkelighetsoppfatninger fra ulike tradisjoner og deler av verden og reflektere over hvordan mennesket og naturen har blitt verdsatt"}]'::jsonb, 16),
   ('politikk-og-menneskerettigheter', 'vg2', 'Politikk og menneskerettigheter', 'POS05-02', 'https://www.udir.no/lk20/pos05-02/kompetansemaal-og-vurdering/kv891', '[{"nr":1,"tekst":"vurdere informasjon for å analysere faglige spørsmål og problemstillinger"},{"nr":2,"tekst":"bruke statsvitenskapelige teorier og modeller i arbeid med faglige spørsmål, emner og problemstillinger"},{"nr":3,"tekst":"reflektere over hva det innebærer å være medborger, sammenligne ulike staters styreform og analysere demokratiets utvikling og utfordringer"},{"nr":4,"tekst":"utforske og analysere nasjonale og internasjonale saker eller konflikter i et statsvitenskapelig perspektiv"},{"nr":5,"tekst":"gjøre rede for maktforhold, konfliktdimensjoner og kanaler for politisk innflytelse i det norske politiske systemet og drøfte hvordan dette kommer til uttrykk i praktisk politikk"},{"nr":6,"tekst":"bruke samfunnsvitenskapelig metode for å analysere og drøfte velgeratferd og politisk deltakelse"},{"nr":7,"tekst":"utforske, analysere og drøfte dagsaktuelle problemstillinger knyttet til bærekraft og fordeling"},{"nr":8,"tekst":"drøfte rettighetene til urfolk og minoriteter nasjonalt og internasjonalt og problemstillinger knyttet til politisk innflytelse"},{"nr":9,"tekst":"vurdere menneskerettighetenes betydning for demokratiet og velferdsstaten"},{"nr":10,"tekst":"vurdere folkerettens rolle og betydning nasjonalt og internasjonalt"},{"nr":11,"tekst":"utforske institusjoner og aktører som overvåker og håndhever menneskerettighetene, og drøfte forholdet mellom statlig, mellomstatlig og overstatlig myndighetsutøvelse"},{"nr":12,"tekst":"gjøre rede for det norske politiske systemet lokalt og nasjonalt og drøfte hvilke utfordringer det norske demokratiet står overfor"},{"nr":13,"tekst":"utforske og drøfte hvordan det internasjonale politiske systemet håndterer problemstillinger knyttet til krig og fred, sikkerhet, samarbeid og konfliktløsing"}]'::jsonb, 17),
   ('rettslare-1', 'vg2', 'Rettslære 1', 'RTL01-05', 'https://www.udir.no/lk20/rtl01-05/kompetansemaal-og-vurdering/kv889', '[{"nr":1,"tekst":"reflektere over Noreg som rettsstat og vurdere maktfordeling, rettssikkerheit og legalitetsprinsippet i Noreg"},{"nr":2,"tekst":"utforske og drøfte kva funksjon rettsreglane har i samfunnet"},{"nr":3,"tekst":"utforske og bruke ulike rettskjelder for å løyse juridiske problemstillingar"},{"nr":4,"tekst":"identifisere partar, krav, rettsleg grunnlag og juridisk problemstilling, og gjennomføre juridisk drøfting for å komme fram til ein konklusjon"},{"nr":5,"tekst":"utforske prinsippet om barnets beste og bruke sentrale reglar i barnelova"},{"nr":6,"tekst":"bruke reglar om rettar og plikter mellom ektefellar og mellom sambuarar, og reglar som gjeld ved inngåing og oppløysing av ekteskap"},{"nr":7,"tekst":"gjere greie for reglane om uskifte og bruke reglar om arv etter lov og testament"},{"nr":8,"tekst":"gjere greie for rettar og plikter i arbeidslivet og bruke sentrale reglar om inngåing og avslutting av arbeidsforhold, varsling og trakassering"},{"nr":9,"tekst":"bruke sentrale reglar om likestilling og diskriminering i samfunnet"},{"nr":10,"tekst":"utforske grunnprinsippa i avtaleretten og forskjellen mellom ulike typar kjøp, og bruke sentrale reglar om pliktene og rettane til kjøparen og seljaren i samband med forbrukarkjøp og angrerett"},{"nr":11,"tekst":"utforske og drøfte dagsaktuelle eller rettshistoriske juridiske problemstillingar"}]'::jsonb, 18),
-  ('psykologi-1', 'vg2', 'Psykologi 1', null, null, '[]'::jsonb, 19),
-  ('markedsforing-og-ledelse-1', 'vg2', 'Markedsføring og ledelse 1', null, null, '[]'::jsonb, 20),
-  ('entreprenorskap-og-bedriftsutvikling-1', 'vg2', 'Entreprenørskap og bedriftsutvikling 1', null, null, '[]'::jsonb, 21),
-  ('samfunnsokonomi-1', 'vg2', 'Samfunnsøkonomi 1', null, null, '[]'::jsonb, 22),
+  ('psykologi-1', 'vg2', 'Psykologi 1', 'PSY01-04', 'https://www.udir.no/lk20/psy01-04/kompetansemaal-og-vurdering/kv883', '[{"nr":1,"tekst":"finne og vurdere informasjon for å analysere faglige spørsmål og problemstillinger"},{"nr":2,"tekst":"sammenligne, anvende og vurdere ulike vitenskapelige tilnærminger, teorier, perspektiver og metoder, og vurdere forskjellige forklaringer på psykologiske problemstillinger"},{"nr":3,"tekst":"utforske ulike temaer innenfor anvendt psykologi, og vurdere hvordan psykologi kan anvendes i ulike yrker"},{"nr":4,"tekst":"gjøre rede for hukommelse og reflektere over hva som kan påvirke hukommelsesprosessen"},{"nr":5,"tekst":"beskrive ulike perspektiver på læring, reflektere over hva som hemmer og fremmer læring, og vurdere egne læringsstrategier"},{"nr":6,"tekst":"drøfte sammenhengen mellom motivasjon, mestring og læring"},{"nr":7,"tekst":"drøfte hvordan samspillet mellom arv og miljø har betydning for utvikling av personlighet, identitet og tilknytning"},{"nr":8,"tekst":"utforske og gjøre rede for hvordan persepsjon og kognisjon virker inn på menneskets forståelse av seg selv og omverdenen"},{"nr":9,"tekst":"utforske og vurdere hvordan individuelle, sosiale og psykologiske faktorer påvirker mennesket til å ta, og unnlate å ta, bærekraftige valg"},{"nr":10,"tekst":"gjøre rede for psykiske kriser og drøfte mulige utfall av disse"},{"nr":11,"tekst":"beskrive hovedtrekk i sansesystemets, nervesystemets og hormonsystemets oppbygning og funksjon, og utforske hvordan disse systemene sammen utgjør grunnlaget for tanker, emosjoner og atferd"},{"nr":12,"tekst":"utforske og gjøre rede for hvordan evolusjonspsykologi forklarer menneskets tanker, emosjoner og atferd"},{"nr":13,"tekst":"beskrive hvordan bruk av rusmidler hos ungdom og unge voksne påvirker hjernens funksjon og reflektere over hvordan bruk av rusmidler kan påvirke psykisk helse og livskvalitet"},{"nr":14,"tekst":"drøfte konsekvenser av stress, vurdere betydningen av sårbarhet og resiliens og reflektere over hvordan man kan forebygge negative stressreaksjoner"}]'::jsonb, 19),
+  ('markedsforing-og-ledelse-1', 'vg2', 'Markedsføring og ledelse 1', 'MFL01-04', 'https://www.udir.no/lk20/mfl01-04/kompetansemaal-og-vurdering/kv887', '[{"nr":1,"tekst":"velge og bruke kilder, markedsførings- og ledelsesteorier og modeller i arbeid med faglige spørsmål, emner og dagsaktuelle problemstillinger"},{"nr":2,"tekst":"vurdere forhold som påvirker forbrukeratferd, og reflektere over psykologiske, sosiale og kulturelle faktorer"},{"nr":3,"tekst":"utvikle forretningsideer og mål for virksomheten og vurdere aktuelle målgrupper"},{"nr":4,"tekst":"bruke og utvikle markedsundersøkelser for å utforske og få innsikt i markeder og målgrupper"},{"nr":5,"tekst":"gjennomføre situasjonsanalyser som grunnlag for beslutninger"},{"nr":6,"tekst":"utforske produkt- og merkevarestrategier og vurdere hvordan virksomheter bruker produkter som konkurransemiddel"},{"nr":7,"tekst":"utforske ulike distribusjonsstrategier i markedsføring og vurdere hvordan virksomheter bruker distribusjon som konkurransemiddel"},{"nr":8,"tekst":"utforske ulike prisstrategier og prissettingsmetoder og vurdere hvordan virksomheter bruker pris som konkurransemiddel"},{"nr":9,"tekst":"utforske ulike kommunikasjonsstrategier og vurdere hvordan virksomheter bruker markedskommunikasjon som konkurransemiddel"},{"nr":10,"tekst":"planlegge mediemiks og utvikle innhold for ulike kanaler i markedskommunikasjon"},{"nr":11,"tekst":"utforske og vurdere hvordan virksomheter kombinerer bruk av konkurransemidler"},{"nr":12,"tekst":"reflektere over og vurdere rollen til personalet og ledelsen i gjennomføring av virksomhetens markedsføringsstrategi"},{"nr":13,"tekst":"utforske og følge gjeldende regelverk for markedsføring og vurdere virksomhetens etiske ansvar"},{"nr":14,"tekst":"reflektere over sammenhengen mellom markedsføring og bærekraftig utvikling ut fra sosiale, økonomiske og miljømessige forhold"}]'::jsonb, 20),
+  ('entreprenorskap-og-bedriftsutvikling-1', 'vg2', 'Entreprenørskap og bedriftsutvikling 1', 'ENT01-04', 'https://www.udir.no/lk20/ent01-04/kompetansemaal-og-vurdering/kv885', '[{"nr":1,"tekst":"bruke kilder, teorier og modeller i arbeid med faglige spørsmål, emner og problemstillinger"},{"nr":2,"tekst":"utforske ulike kreativitetsprosesser og utvikle forretningsideer"},{"nr":3,"tekst":"utforske og bruke ulike innovasjonsprosesser ved etablering av virksomheter"},{"nr":4,"tekst":"utvikle forretningsmodeller og vurdere opp mot bærekraftig utvikling"},{"nr":5,"tekst":"utforske og vurdere hvordan samhandling påvirker innovasjon og utvikling"},{"nr":6,"tekst":"sammenligne og vurdere informasjon om markeder, kjøpsatferd og segmenter for å ta beslutninger"},{"nr":7,"tekst":"gjennomføre situasjonsanalyse, vurdere utviklingsmuligheter og sette mål i en oppstartsfase"},{"nr":8,"tekst":"utforske og bruke ulike konkurransemidler i en oppstartsfase"},{"nr":9,"tekst":"vurdere og velge selskapsformer ut fra risiko og ansvar ved etablering"},{"nr":10,"tekst":"reflektere over hva som kjennetegner en god leder i etableringsfasen, og hvordan leder og medarbeidere samhandler og setter sammen gode team"},{"nr":11,"tekst":"beregne og vurdere pris og kapitalbehov, utarbeide budsjett og vurdere finansieringsmuligheter med tanke på risiko og ansvar for en ny virksomhet"},{"nr":12,"tekst":"lese regnskap og nøkkeltall for å vurdere en virksomhets lønnsomhet"},{"nr":13,"tekst":"reflektere over hva entreprenøriell kompetanse er, og vurdere hva det har å si for utvikling av virksomheter"}]'::jsonb, 21),
+  ('samfunnsokonomi-1', 'vg2', 'Samfunnsøkonomi 1', 'SOK01-04', 'https://www.udir.no/lk20/sok01-04/kompetansemaal-og-vurdering/kv1000', '[{"nr":1,"tekst":"velge og bruke kilder, økonomiske teorier og modeller i arbeid med faglige spørsmål, emner og problemstillinger"},{"nr":2,"tekst":"gjøre rede for ulike markedsformer og bruke disse til å analysere ulike markeder"},{"nr":3,"tekst":"bruke realligningen til å analysere sammenhengen mellom tilgang på og bruk av varer og tjenester i en økonomi"},{"nr":4,"tekst":"beskrive hovedtrekkene i privat og offentlig sektor i Norge og drøfte muligheter og utfordringer for næringsliv og offentlig sektor i årene framover"},{"nr":5,"tekst":"drøfte årsaker til økonomisk vekst og reflektere over bruttonasjonalproduktet som mål for verdiskaping"},{"nr":6,"tekst":"reflektere over ulike sysselsettingstiltak og drøfte hvordan tiltakene kan påvirke ulike typer arbeidsledighet"},{"nr":7,"tekst":"gjøre rede for hvordan prisstigning måles, og drøfte årsaker til og konsekvenser av prisstigning"},{"nr":8,"tekst":"gjøre rede for formålet med pengepolitikk og finanspolitikk og hvordan politikken påvirker økonomien"},{"nr":9,"tekst":"vurdere finansmarkedenes muligheter og utfordringer for utviklingen av samfunnsøkonomien"},{"nr":10,"tekst":"utforske og reflektere over hva som påvirker lønnsforskjeller, inntektsfordeling og økonomisk ulikhet, og hvordan myndighetene kan påvirke dette"},{"nr":11,"tekst":"reflektere over sammenhengen mellom økonomisk aktivitet og miljøutfordringer, og hva som skal til for å oppnå bærekraftig vekst og utvikling"},{"nr":12,"tekst":"analysere hva som påvirker valutakursene, og drøfte konsekvenser av endringer i valutakursen"},{"nr":13,"tekst":"gjøre rede for årsaker til internasjonal handel og drøfte muligheter og utfordringer knyttet til økonomisk globalisering"}]'::jsonb, 22),
   ('norsk-vg3', 'vg3', 'Norsk', null, null, '[]'::jsonb, 0),
   ('historie-vg3', 'vg3', 'Historie', null, null, '[]'::jsonb, 1),
   ('religion-og-etikk', 'vg3', 'Religion og etikk', null, null, '[]'::jsonb, 2),
@@ -44608,6 +44608,5692 @@ insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, ri
   ('rettslare-1:aktuelle-og-rettshistoriske-saker', 'm07', 'flervalg', 'Hvorfor bør du være kildekritisk til innlegg fra parter i en sak?', array['Fordi de alltid lyver', 'Fordi de er for korte', 'Fordi de kan ha egeninteresse i saken', 'Fordi de ikke er på Lovdata']::text[], 2, 'Sjekk mot flere kilder.', false, true, 16);
 insert into public.miniprover (tema_id, minutter) values
   ('rettslare-1:aktuelle-og-rettshistoriske-saker', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Psykologi 1 (vg2): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'psykologi-1' and slug not in ('psykologiske-perspektiver', 'forskningsmetoder', 'anvendt-psykologi', 'nervesystemet-og-hormonsystemet', 'sanser-persepsjon-og-kognisjon', 'hukommelse', 'laering', 'motivasjon-og-mestring', 'personlighet-og-identitet', 'tilknytning', 'evolusjonspsykologi', 'barekraftige-valg', 'psykiske-kriser', 'rus-og-hjernen', 'stress-og-resiliens');
+
+-- Psykologi 1: Psykologiske perspektiver
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('psykologi-1:psykologiske-perspektiver', 'psykologi-1', 'psykologiske-perspektiver', 'Psykologiske perspektiver', 'Hva psykologi er, og de viktigste perspektivene – biologisk, psykodynamisk, atferdsorientert, kognitivt, humanistisk og sosiokulturelt – og hvordan de gir ulike forklaringer på det samme fenomenet.', array[1, 2]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('psykologi-1:psykologiske-perspektiver', '## Hva er psykologi?
+
+**Psykologi** er den vitenskapelige studien av **tanker**, **følelser** og **atferd**. Faget spenner fra nerveceller i hjernen til hvordan mennesker påvirker hverandre i grupper.
+
+Psykologien ble et eget **vitenskapelig fag** da **Wilhelm Wundt** åpnet et psykologisk laboratorium i **Leipzig** i **1879**. Før det var spørsmål om sjelen og tenkningen en del av **filosofien**.
+
+## Perspektivene
+
+Et **perspektiv** er en måte å se på mennesket på. Hvert perspektiv stiller ulike spørsmål og bruker ulike **metoder**.
+
+- **Det biologiske perspektivet** forklarer atferd ut fra **hjernen**, **nervesystemet**, **hormoner** og **gener**. Hva skjer i kroppen når vi blir redde eller glade?
+- **Det psykodynamiske perspektivet** stammer fra **Sigmund Freud**. Mye av det vi gjør, styres av **ubevisste** krefter og erfaringer fra **barndommen**. Freud delte personligheten i **id**, **ego** og **superego**, og han mente vi bruker **forsvarsmekanismer**, som fortrengning, for å beskytte oss mot angst.
+- **Atferdsperspektivet** (behaviorismen) ble utviklet av blant andre **John B. Watson** og **B.F. Skinner**. Psykologien skal bare studere det som kan **observeres**: atferd. Atferd er **lært** gjennom samspill med **miljøet**, for eksempel gjennom belønning og straff.
+- **Det kognitive perspektivet** studerer **tankeprosesser** som oppmerksomhet, hukommelse, persepsjon og problemløsning. Hjernen sammenlignes ofte med en **informasjonsbehandler**, og måten vi **tolker** en situasjon på, påvirker følelser og atferd.
+- **Det humanistiske perspektivet** med **Abraham Maslow** og **Carl Rogers** vektlegger **fri vilje**, **egenverd** og ønsket om **selvrealisering** – å utvikle seg til sitt beste.
+- **Det sosiokulturelle perspektivet** viser hvordan **kultur**, **gruppe** og **sosiale relasjoner** former oss. **Lev Vygotskij** mente at vi lærer gjennom samhandling med andre.
+
+## Samme fenomen – ulike forklaringer
+
+Ta **angst** for å holde foredrag som eksempel:
+
+- **Biologisk**: økt aktivitet i amygdala og utskillelse av stresshormoner.
+- **Atferd**: personen har tidligere blitt ledd av og har lært å forbinde foredrag med ubehag.
+- **Kognitivt**: personen tenker katastrofetanker som «alle vil synes jeg er dum».
+- **Sosiokulturelt**: normer i klassen og forventninger fra andre forsterker presset.
+
+Perspektivene **utelukker ikke** hverandre. Den **biopsykososiale modellen** samler biologiske, psykologiske og sosiale faktorer for å gi en mer **helhetlig** forklaring.
+
+## Å vurdere forklaringer
+
+Når du vurderer en forklaring, kan du spørre
+
+- om den bygger på **forskning** og kan **testes**
+- om den forklarer **hele** fenomenet eller bare en del
+- om den er **reduksjonistisk** – forenkler mennesket til én årsak
+- om den tar hensyn til **kultur** og **individuelle forskjeller**
+
+Freuds teorier er for eksempel kritisert for å være vanskelige å **teste**, mens behaviorismen er kritisert for å overse **tanker** og **følelser**.', '{"label":"Psykologiske perspektiver","children":[{"label":"Biologisk","children":[{"label":"Hjerne og nerver"},{"label":"Hormoner og gener"}]},{"label":"Psykodynamisk","children":[{"label":"Freud"},{"label":"Det ubevisste"},{"label":"Forsvarsmekanismer"}]},{"label":"Atferd","children":[{"label":"Watson og Skinner"},{"label":"Læring fra miljøet"}]},{"label":"Kognitivt","children":[{"label":"Tankeprosesser"},{"label":"Tolkning"}]},{"label":"Humanistisk og sosiokulturelt","children":[{"label":"Maslow og Rogers"},{"label":"Vygotskij og kultur"}]},{"label":"Vurdering","children":[{"label":"Biopsykososial modell"},{"label":"Reduksjonisme"},{"label":"Testbarhet"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'psykologi-1:psykologiske-perspektiver';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('psykologi-1:psykologiske-perspektiver', 'Psykologi', 'Den vitenskapelige studien av tanker, følelser og atferd.', 0),
+  ('psykologi-1:psykologiske-perspektiver', 'Wilhelm Wundt', 'Åpnet det første psykologiske laboratoriet i Leipzig i 1879.', 1),
+  ('psykologi-1:psykologiske-perspektiver', 'Perspektiv', 'En måte å se på mennesket på, med egne spørsmål og metoder.', 2),
+  ('psykologi-1:psykologiske-perspektiver', 'Biologisk perspektiv', 'Forklarer atferd ut fra hjernen, nervesystemet, hormoner og gener.', 3),
+  ('psykologi-1:psykologiske-perspektiver', 'Psykodynamisk perspektiv', 'Freuds tradisjon: ubevisste krefter og barndomserfaringer styrer oss.', 4),
+  ('psykologi-1:psykologiske-perspektiver', 'Id, ego og superego', 'Freuds tredeling av personligheten: drifter, virkelighetssans og samvittighet.', 5),
+  ('psykologi-1:psykologiske-perspektiver', 'Forsvarsmekanisme', 'Ubevisst strategi for å beskytte seg mot angst, for eksempel fortrengning.', 6),
+  ('psykologi-1:psykologiske-perspektiver', 'Behaviorisme', 'Atferdsperspektivet: studerer observerbar atferd som læres fra miljøet.', 7),
+  ('psykologi-1:psykologiske-perspektiver', 'Kognitivt perspektiv', 'Studerer tankeprosesser som hukommelse, persepsjon og problemløsning.', 8),
+  ('psykologi-1:psykologiske-perspektiver', 'Humanistisk perspektiv', 'Vektlegger fri vilje, egenverd og selvrealisering.', 9),
+  ('psykologi-1:psykologiske-perspektiver', 'Selvrealisering', 'Å utvikle seg til sitt fulle potensial.', 10),
+  ('psykologi-1:psykologiske-perspektiver', 'Sosiokulturelt perspektiv', 'Viser hvordan kultur og sosiale relasjoner former oss.', 11),
+  ('psykologi-1:psykologiske-perspektiver', 'Biopsykososial modell', 'Samler biologiske, psykologiske og sosiale faktorer i én forklaring.', 12),
+  ('psykologi-1:psykologiske-perspektiver', 'Reduksjonisme', 'Å forklare et sammensatt fenomen med én enkel årsak.', 13),
+  ('psykologi-1:psykologiske-perspektiver', 'Carl Rogers', 'Humanistisk psykolog som vektla egenverd og ubetinget aksept.', 14),
+  ('psykologi-1:psykologiske-perspektiver', 'Lev Vygotskij', 'Mente at vi lærer og utvikler oss gjennom samhandling med andre.', 15);
+delete from public.quiz_sporsmal where tema_id = 'psykologi-1:psykologiske-perspektiver';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('psykologi-1:psykologiske-perspektiver', 'q01', 'flervalg', 'Hva studerer psykologien?', array['Bare hjernen', 'Tanker, følelser og atferd', 'Bare psykiske lidelser', 'Bare dyr']::text[], 1, 'Fra nerveceller til grupper.', true, true, 0),
+  ('psykologi-1:psykologiske-perspektiver', 'q02', 'flervalg', 'Hvilket perspektiv legger vekt på ubevisste krefter og barndommen?', array['Det psykodynamiske', 'Det kognitive', 'Det humanistiske', 'Atferdsperspektivet']::text[], 0, 'Stammer fra Sigmund Freud.', true, true, 1),
+  ('psykologi-1:psykologiske-perspektiver', 'q03', 'flervalg', 'Hva mente behavioristene at psykologien skulle studere?', array['Drømmer', 'Følelser', 'Observerbar atferd', 'Sjelen']::text[], 2, 'Det som kan observeres og måles.', true, true, 2),
+  ('psykologi-1:psykologiske-perspektiver', 'q04', 'flervalg', 'Hvilket perspektiv sammenligner hjernen med en informasjonsbehandler?', array['Det humanistiske', 'Det psykodynamiske', 'Det sosiokulturelle', 'Det kognitive']::text[], 3, 'Studerer tankeprosesser.', true, true, 3),
+  ('psykologi-1:psykologiske-perspektiver', 'q05', 'flervalg', 'Hvem er knyttet til det humanistiske perspektivet?', array['Maslow og Rogers', 'Freud og Jung', 'Watson og Skinner', 'Pavlov og Thorndike']::text[], 0, 'De vektla egenverd og selvrealisering.', true, true, 4),
+  ('psykologi-1:psykologiske-perspektiver', 'q06', 'flervalg', 'Hva er den biopsykososiale modellen?', array['En modell av hjernen', 'En samlet forklaring med biologiske, psykologiske og sosiale faktorer', 'En test av intelligens', 'En teori om drømmer']::text[], 1, 'Gir en mer helhetlig forklaring.', true, true, 5),
+  ('psykologi-1:psykologiske-perspektiver', 'q07', 'flervalg', 'En elev tenker «alle vil synes jeg er dum» før et foredrag. Hvilket perspektiv legger mest vekt på dette?', array['Det biologiske', 'Atferdsperspektivet', 'Det kognitive', 'Det psykodynamiske']::text[], 2, 'Tolkninger og tanker påvirker følelser.', true, true, 6),
+  ('psykologi-1:psykologiske-perspektiver', 'q08', 'flervalg', 'Hva betyr det at en forklaring er reduksjonistisk?', array['At den er for lang', 'At den bygger på mange studier', 'At den tar hensyn til kultur', 'At den forenkler et sammensatt fenomen til én årsak']::text[], 3, 'Et vanlig kritikkpunkt.', true, true, 7),
+  ('psykologi-1:psykologiske-perspektiver', 'q09', 'flervalg', 'Hvilken kritikk rettes ofte mot Freuds teorier?', array['At de er vanskelige å teste', 'At de bare handler om dyr', 'At de overser barndommen', 'At de bygger på hjernescanning']::text[], 0, 'Ubevisste prosesser er vanskelige å måle.', true, false, 8),
+  ('psykologi-1:psykologiske-perspektiver', 'q10', 'flervalg', 'Hva la Vygotskij vekt på?', array['Belønning og straff', 'Læring gjennom samhandling med andre', 'Ubevisste drifter', 'Gener']::text[], 1, 'Et sosiokulturelt syn på læring.', true, false, 9),
+  ('psykologi-1:psykologiske-perspektiver', 'm01', 'sant-usant', 'Psykologien ble et eget vitenskapelig fag på slutten av 1800-tallet.', array['Sant', 'Usant']::text[], 0, 'Wundt åpnet laboratoriet i Leipzig i 1879.', false, true, 10),
+  ('psykologi-1:psykologiske-perspektiver', 'm02', 'sant-usant', 'Perspektivene i psykologien utelukker hverandre, så bare ett kan være riktig.', array['Sant', 'Usant']::text[], 1, 'De utfyller hverandre og kan kombineres.', false, true, 11),
+  ('psykologi-1:psykologiske-perspektiver', 'm03', 'sant-usant', 'Behaviorismen er kritisert for å overse tanker og følelser.', array['Sant', 'Usant']::text[], 0, 'Den studerte bare observerbar atferd.', false, true, 12),
+  ('psykologi-1:psykologiske-perspektiver', 'm04', 'sant-usant', 'Superego er Freuds betegnelse på de primitive driftene.', array['Sant', 'Usant']::text[], 1, 'Driftene er id, superego er samvittigheten.', false, true, 13),
+  ('psykologi-1:psykologiske-perspektiver', 'm05', 'flervalg', 'Hvilket perspektiv vil forklare angst med aktivitet i amygdala?', array['Det humanistiske', 'Det biologiske', 'Det sosiokulturelle', 'Det psykodynamiske']::text[], 1, 'Hjernen og stresshormonene.', false, true, 14),
+  ('psykologi-1:psykologiske-perspektiver', 'm06', 'flervalg', 'Hva er fortrengning?', array['En forsvarsmekanisme', 'En læringsstrategi', 'En hjernedel', 'En forskningsmetode']::text[], 0, 'Ubehagelige minner skyves ut av bevisstheten.', false, true, 15),
+  ('psykologi-1:psykologiske-perspektiver', 'm07', 'flervalg', 'Hvilket perspektiv legger størst vekt på kultur og gruppe?', array['Det kognitive', 'Det biologiske', 'Det sosiokulturelle', 'Atferdsperspektivet']::text[], 2, 'Mennesket formes av sine sosiale omgivelser.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('psykologi-1:psykologiske-perspektiver', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Psykologi 1: Forskningsmetoder og kildebruk i psykologi
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('psykologi-1:forskningsmetoder', 'psykologi-1', 'forskningsmetoder', 'Forskningsmetoder og kildebruk i psykologi', 'Hvordan psykologer forsker – eksperimenter, korrelasjonsstudier, observasjon, intervju, spørreskjema og kasusstudier – hva reliabilitet, validitet og etikk betyr, og hvordan du finner og vurderer psykologisk informasjon.', array[1, 2]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('psykologi-1:forskningsmetoder', '## Psykologi som vitenskap
+
+Psykologien bygger på **systematiske undersøkelser**. En forsker stiller en **problemstilling**, lager en **hypotese** – en påstand som kan testes – og samler inn **data**.
+
+## Kvantitative og kvalitative metoder
+
+- **Kvantitative** metoder gir **tall** og egner seg til å undersøke **mange** personer og finne **mønstre**.
+- **Kvalitative** metoder gir **tekst** og **beskrivelser** og egner seg til å gå i **dybden** og forstå **opplevelser**.
+
+## Viktige metoder
+
+- **Eksperiment**: Forskeren endrer én faktor – den **uavhengige variabelen** – og måler effekten på den **avhengige variabelen**. Deltakerne fordeles **tilfeldig** i en **eksperimentgruppe** og en **kontrollgruppe**. Bare eksperimenter kan vise **årsak og virkning**.
+- **Korrelasjonsstudie**: Forskeren måler om to variabler **henger sammen**, for eksempel skjermtid og søvn. En **positiv korrelasjon** betyr at begge øker sammen, en **negativ** at den ene øker når den andre synker. **Korrelasjon er ikke kausalitet** – en tredje faktor kan forklare sammenhengen.
+- **Spørreskjema**: effektivt for mange deltakere, men svarene kan påvirkes av **sosial ønskverdighet** – at folk svarer det som virker «riktig».
+- **Intervju**: gir dybde og mulighet for oppfølgingsspørsmål.
+- **Observasjon**: forskeren ser på atferd, enten **deltakende** eller **ikke-deltakende**, **åpent** eller **skjult**.
+- **Kasusstudie**: grundig studie av **én person** eller gruppe, ofte ved sjeldne tilstander. Et kjent eksempel er **Phineas Gage**, som endret personlighet etter en skade i frontallappen i 1848.
+- **Tvillingstudier** og **adopsjonsstudier** brukes for å undersøke **arv og miljø**.
+
+## Kvalitet i forskningen
+
+- **Reliabilitet**: målingen er **pålitelig** – vi får samme resultat om vi gjentar den.
+- **Validitet**: vi måler faktisk det vi **vil** måle.
+- **Generaliserbarhet**: resultatene gjelder også utenfor **utvalget**. Mange studier bruker vestlige studenter, som ikke er representative for alle mennesker.
+- **Replikasjon**: andre forskere får samme resultat. Flere kjente funn har vist seg vanskelige å gjenta.
+- **Placeboeffekt** og **forventningseffekter** kan påvirke resultatene. I **dobbeltblinde** studier vet verken deltakere eller forskere hvem som er i hvilken gruppe.
+
+## Forskningsetikk
+
+Psykologisk forskning skal følge etiske regler:
+
+- **Informert samtykke** – deltakerne vet hva de er med på
+- **Frivillighet** og rett til å **trekke seg**
+- **Konfidensialitet** – opplysninger skal ikke kunne spores til enkeltpersoner
+- **Ingen unødig skade**
+- **Debriefing** – deltakerne får forklaring etterpå, særlig hvis de er blitt **villedet**
+
+Eldre studier som **Milgrams lydighetseksperiment** ville i dag blitt kritisert for å utsette deltakerne for sterkt **stress**.
+
+## Å finne og vurdere informasjon
+
+- Bruk **fagbøker**, **forskningsartikler** og nettsteder som **Store norske leksikon** og **helsenorge.no**.
+- Spør: **Hvem** står bak? Er det **forskning** eller **meninger**? Hvor **stort** var utvalget?
+- Vær kritisk til **populærpsykologi**, **personlighetstester** på nett og overskrifter som gjør en **korrelasjon** om til en **årsak**.', '{"label":"Forskningsmetoder","children":[{"label":"Typer","children":[{"label":"Kvantitativ"},{"label":"Kvalitativ"}]},{"label":"Metoder","children":[{"label":"Eksperiment"},{"label":"Korrelasjon"},{"label":"Spørreskjema og intervju"},{"label":"Observasjon og kasus"}]},{"label":"Kvalitet","children":[{"label":"Reliabilitet"},{"label":"Validitet"},{"label":"Replikasjon"}]},{"label":"Etikk","children":[{"label":"Informert samtykke"},{"label":"Konfidensialitet"},{"label":"Debriefing"}]},{"label":"Kilder","children":[{"label":"Hvem står bak?"},{"label":"Forskning eller mening?"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'psykologi-1:forskningsmetoder';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('psykologi-1:forskningsmetoder', 'Hypotese', 'En påstand som kan testes.', 0),
+  ('psykologi-1:forskningsmetoder', 'Kvantitativ metode', 'Gir tall og finner mønstre hos mange.', 1),
+  ('psykologi-1:forskningsmetoder', 'Kvalitativ metode', 'Gir tekst og dybde om opplevelser.', 2),
+  ('psykologi-1:forskningsmetoder', 'Eksperiment', 'Forskeren endrer én faktor og måler effekten – kan vise årsak.', 3),
+  ('psykologi-1:forskningsmetoder', 'Uavhengig variabel', 'Faktoren forskeren endrer i et eksperiment.', 4),
+  ('psykologi-1:forskningsmetoder', 'Avhengig variabel', 'Det som måles i et eksperiment.', 5),
+  ('psykologi-1:forskningsmetoder', 'Kontrollgruppe', 'Gruppen som ikke får den eksperimentelle behandlingen.', 6),
+  ('psykologi-1:forskningsmetoder', 'Korrelasjon', 'Samvariasjon mellom to variabler – ikke nødvendigvis årsak.', 7),
+  ('psykologi-1:forskningsmetoder', 'Sosial ønskverdighet', 'Tendens til å svare det som virker riktig eller akseptert.', 8),
+  ('psykologi-1:forskningsmetoder', 'Kasusstudie', 'Grundig studie av én person eller gruppe.', 9),
+  ('psykologi-1:forskningsmetoder', 'Reliabilitet', 'Pålitelighet – samme resultat ved gjentatt måling.', 10),
+  ('psykologi-1:forskningsmetoder', 'Validitet', 'At man måler det man faktisk vil måle.', 11),
+  ('psykologi-1:forskningsmetoder', 'Replikasjon', 'At andre forskere får samme resultat.', 12),
+  ('psykologi-1:forskningsmetoder', 'Dobbeltblind studie', 'Verken deltakere eller forskere vet hvem som er i hvilken gruppe.', 13),
+  ('psykologi-1:forskningsmetoder', 'Informert samtykke', 'Deltakerne vet hva de er med på og sier ja frivillig.', 14),
+  ('psykologi-1:forskningsmetoder', 'Debriefing', 'Forklaring til deltakerne etter studien.', 15),
+  ('psykologi-1:forskningsmetoder', 'Phineas Gage', 'Kjent kasus: personlighetsendring etter skade i frontallappen.', 16);
+delete from public.quiz_sporsmal where tema_id = 'psykologi-1:forskningsmetoder';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('psykologi-1:forskningsmetoder', 'q01', 'flervalg', 'Hvilken metode kan vise årsak og virkning?', array['Korrelasjonsstudie', 'Eksperiment', 'Spørreskjema', 'Kasusstudie']::text[], 1, 'Forskeren kontrollerer den uavhengige variabelen.', true, true, 0),
+  ('psykologi-1:forskningsmetoder', 'q02', 'flervalg', 'Hva er den avhengige variabelen?', array['Det som måles', 'Det forskeren endrer', 'Kontrollgruppen', 'Hypotesen']::text[], 0, 'Den uavhengige variabelen er det som endres.', true, true, 1),
+  ('psykologi-1:forskningsmetoder', 'q03', 'flervalg', 'En studie finner at elever med mye skjermtid sover mindre. Hva kan vi konkludere?', array['Skjermtid gir alltid dårlig søvn', 'Dårlig søvn gir skjermtid', 'Det er en sammenheng, men ikke nødvendigvis årsak', 'Studien er ugyldig']::text[], 2, 'Korrelasjon er ikke kausalitet.', true, true, 2),
+  ('psykologi-1:forskningsmetoder', 'q04', 'flervalg', 'Hva betyr reliabilitet?', array['At studien er etisk', 'At man måler det man vil', 'At funnene gjelder alle', 'At målingen er pålitelig og gir samme resultat ved gjentakelse']::text[], 3, 'Validitet er å måle det man vil måle.', true, true, 3),
+  ('psykologi-1:forskningsmetoder', 'q05', 'flervalg', 'Hva er sosial ønskverdighet?', array['At folk svarer det som virker akseptert', 'At forskeren ønsker et bestemt resultat', 'At deltakerne får betalt', 'At studien er populær']::text[], 0, 'En svakhet ved spørreskjema og intervju.', true, true, 4),
+  ('psykologi-1:forskningsmetoder', 'q06', 'flervalg', 'Hva kjennetegner en dobbeltblind studie?', array['Deltakerne ser ikke', 'Verken deltakere eller forskere vet hvem som er i hvilken gruppe', 'Studien gjøres to ganger', 'Det er to forskere']::text[], 1, 'Hindrer forventningseffekter.', true, true, 5),
+  ('psykologi-1:forskningsmetoder', 'q07', 'flervalg', 'Hva er informert samtykke?', array['At forskeren informerer pressen', 'At deltakerne får betalt', 'At deltakerne vet hva de er med på og sier ja frivillig', 'At studien er godkjent av staten']::text[], 2, 'Et grunnprinsipp i forskningsetikken.', true, true, 6),
+  ('psykologi-1:forskningsmetoder', 'q08', 'flervalg', 'Hva er en kasusstudie?', array['En studie av tusenvis av personer', 'Et eksperiment med kontrollgruppe', 'En spørreundersøkelse', 'En grundig studie av én person eller gruppe']::text[], 3, 'Ofte ved sjeldne tilstander.', true, true, 7),
+  ('psykologi-1:forskningsmetoder', 'q09', 'flervalg', 'Hvorfor er det et problem at mange studier bruker vestlige studenter?', array['Resultatene er ikke nødvendigvis generaliserbare', 'Studentene lyver', 'Det er ulovlig', 'Studentene er for smarte']::text[], 0, 'Utvalget er ikke representativt for alle mennesker.', true, false, 8),
+  ('psykologi-1:forskningsmetoder', 'q10', 'flervalg', 'Hvorfor ville Milgrams lydighetseksperiment blitt kritisert i dag?', array['Det hadde for få deltakere', 'Det utsatte deltakerne for sterkt stress', 'Det brukte dyr', 'Det var for kort']::text[], 1, 'Forskningsetikken krever at deltakerne ikke skades.', true, false, 9),
+  ('psykologi-1:forskningsmetoder', 'm01', 'sant-usant', 'I et eksperiment bør deltakerne fordeles tilfeldig i gruppene.', array['Sant', 'Usant']::text[], 0, 'Slik blir gruppene mest mulig like.', false, true, 10),
+  ('psykologi-1:forskningsmetoder', 'm02', 'sant-usant', 'En negativ korrelasjon betyr at det ikke finnes noen sammenheng.', array['Sant', 'Usant']::text[], 1, 'Den ene variabelen synker når den andre øker.', false, true, 11),
+  ('psykologi-1:forskningsmetoder', 'm03', 'sant-usant', 'Deltakere i psykologisk forskning har rett til å trekke seg.', array['Sant', 'Usant']::text[], 0, 'Frivillighet er et etisk krav.', false, true, 12),
+  ('psykologi-1:forskningsmetoder', 'm04', 'sant-usant', 'Validitet betyr at man får samme resultat ved gjentatt måling.', array['Sant', 'Usant']::text[], 1, 'Det er reliabilitet.', false, true, 13),
+  ('psykologi-1:forskningsmetoder', 'm05', 'flervalg', 'Hvilken metode egner seg best for å forstå en persons opplevelse i dybden?', array['Et stort spørreskjema', 'Et kvalitativt intervju', 'En korrelasjonsstudie', 'En statistisk registerstudie']::text[], 1, 'Gir rom for oppfølgingsspørsmål.', false, true, 14),
+  ('psykologi-1:forskningsmetoder', 'm06', 'flervalg', 'Hvilke studier brukes for å undersøke arv og miljø?', array['Tvillingstudier', 'Markedsundersøkelser', 'Meningsmålinger', 'Feltarbeid i geologi']::text[], 0, 'Eneggede tvillinger har samme gener.', false, true, 15),
+  ('psykologi-1:forskningsmetoder', 'm07', 'flervalg', 'Hvilken kilde er mest pålitelig for psykologisk kunnskap?', array['En personlighetstest på sosiale medier', 'En reklame for et kurs', 'En fagfellevurdert forskningsartikkel', 'Et anonymt forum']::text[], 2, 'Andre forskere har vurdert den.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('psykologi-1:forskningsmetoder', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Psykologi 1: Anvendt psykologi og yrker
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('psykologi-1:anvendt-psykologi', 'psykologi-1', 'anvendt-psykologi', 'Anvendt psykologi og yrker', 'Hvordan psykologisk kunnskap brukes i praksis – i helsevesenet, skolen, arbeidslivet, idretten, rettsvesenet og markedsføringen – og hvilke yrker som bygger på psykologi.', array[3]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('psykologi-1:anvendt-psykologi', '## Hva er anvendt psykologi?
+
+**Grunnforskning** i psykologi søker ny kunnskap om hvordan mennesker tenker, føler og handler. **Anvendt psykologi** bruker denne kunnskapen til å løse **praktiske problemer**. Psykologi brukes derfor i mange **yrker**, ikke bare av psykologer.
+
+## Klinisk psykologi og helse
+
+**Klinisk psykologi** handler om å **utrede** og **behandle** psykiske lidelser, som angst og depresjon.
+
+- En **psykolog** har profesjonsstudium i psykologi og kan utrede og gi **psykoterapi**.
+- En **psykiater** er **lege** med spesialisering i psykiatri og kan skrive ut **medisiner**.
+- **Kognitiv atferdsterapi** (KAT) er en mye brukt behandlingsform som hjelper personen å endre **tankemønstre** og **atferd**.
+
+**Helsepsykologi** undersøker hvordan tanker og vaner påvirker **fysisk helse**, for eksempel hvordan man kan få folk til å slutte å røyke eller bevege seg mer.
+
+## Pedagogisk psykologi og skolen
+
+**Pedagogisk psykologi** bruker kunnskap om **læring**, **motivasjon** og **utvikling** i skolen. Lærere bruker den når de gir **tilbakemeldinger** og tilpasser undervisningen. **PP-tjenesten** (pedagogisk-psykologisk tjeneste) utreder elever som trenger **spesialundervisning**, og **helsesykepleiere** og **rådgivere** bruker samtaleferdigheter i møte med elever.
+
+## Arbeids- og organisasjonspsykologi
+
+Her brukes psykologi i **arbeidslivet**:
+
+- **rekruttering** og **personlighetstester** ved ansettelser
+- **ledelse** og **motivasjon**
+- **arbeidsmiljø**, **stress** og **konflikter**
+- **teamarbeid** og **endringsprosesser**
+
+## Idrettspsykologi
+
+**Idrettspsykologer** hjelper utøvere med **mental trening**: **målsetting**, **konsentrasjon**, **visualisering**, å håndtere **prestasjonsangst** og å komme tilbake etter skader.
+
+## Rettspsykologi
+
+**Rettspsykologi** brukes i **rettsvesenet**:
+
+- vurdering av **vitneutsagn**, siden **hukommelsen** kan påvirkes av ledende spørsmål
+- **avhør av barn** i **Statens barnehus**
+- **rettspsykiatriske** vurderinger av om en tiltalt var **tilregnelig**
+
+## Psykologi i markedsføring og teknologi
+
+**Markedsføring** bruker psykologi om **persepsjon**, **følelser** og **sosial påvirkning** – for eksempel farger, **anbefalinger** fra andre og **knapphet** («bare tre igjen!»). **Apper** og **sosiale medier** designes ofte for å holde på **oppmerksomheten**, blant annet gjennom **varsler** og **belønninger**. Dette reiser **etiske** spørsmål.
+
+## Andre yrker
+
+Psykologisk kunnskap er nyttig for **sykepleiere**, **leger**, **politi**, **barnevernspedagoger**, **ledere**, **journalister**, **designere** og **selgere** – alle som jobber med mennesker.
+
+## Etikk i anvendt psykologi
+
+Psykologisk kunnskap kan brukes både til å **hjelpe** og til å **manipulere**. Viktige spørsmål er
+
+- om personen har gitt **samtykke**
+- om **taushetsplikten** blir respektert
+- om metoden er **dokumentert** og **forskningsbasert**
+- om kunnskapen brukes i personens **egen interesse**
+
+Tittelen **psykolog** er **beskyttet** i Norge – bare den som har **autorisasjon**, kan kalle seg psykolog.', '{"label":"Anvendt psykologi","children":[{"label":"Helse","children":[{"label":"Klinisk psykologi"},{"label":"Psykolog og psykiater"},{"label":"Helsepsykologi"}]},{"label":"Skole","children":[{"label":"Pedagogisk psykologi"},{"label":"PP-tjenesten"}]},{"label":"Arbeid og idrett","children":[{"label":"Rekruttering og ledelse"},{"label":"Mental trening"}]},{"label":"Rettsvesen","children":[{"label":"Vitneutsagn"},{"label":"Statens barnehus"}]},{"label":"Marked og teknologi","children":[{"label":"Knapphet og anbefalinger"},{"label":"Oppmerksomhet i apper"}]},{"label":"Etikk","children":[{"label":"Samtykke"},{"label":"Hjelpe eller manipulere"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'psykologi-1:anvendt-psykologi';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('psykologi-1:anvendt-psykologi', 'Anvendt psykologi', 'Bruk av psykologisk kunnskap til å løse praktiske problemer.', 0),
+  ('psykologi-1:anvendt-psykologi', 'Grunnforskning', 'Forskning som søker ny kunnskap uten et bestemt praktisk mål.', 1),
+  ('psykologi-1:anvendt-psykologi', 'Klinisk psykologi', 'Utredning og behandling av psykiske lidelser.', 2),
+  ('psykologi-1:anvendt-psykologi', 'Psykolog', 'Profesjonsutdannet i psykologi, gir utredning og psykoterapi.', 3),
+  ('psykologi-1:anvendt-psykologi', 'Psykiater', 'Lege med spesialisering i psykiatri – kan skrive ut medisiner.', 4),
+  ('psykologi-1:anvendt-psykologi', 'Kognitiv atferdsterapi', 'Behandling som endrer tankemønstre og atferd.', 5),
+  ('psykologi-1:anvendt-psykologi', 'Helsepsykologi', 'Hvordan tanker og vaner påvirker fysisk helse.', 6),
+  ('psykologi-1:anvendt-psykologi', 'Pedagogisk psykologi', 'Kunnskap om læring, motivasjon og utvikling brukt i skolen.', 7),
+  ('psykologi-1:anvendt-psykologi', 'PP-tjenesten', 'Pedagogisk-psykologisk tjeneste som utreder elevers behov.', 8),
+  ('psykologi-1:anvendt-psykologi', 'Arbeids- og organisasjonspsykologi', 'Psykologi om rekruttering, ledelse og arbeidsmiljø.', 9),
+  ('psykologi-1:anvendt-psykologi', 'Idrettspsykologi', 'Mental trening, målsetting og håndtering av prestasjonsangst.', 10),
+  ('psykologi-1:anvendt-psykologi', 'Visualisering', 'Å se for seg en prestasjon i detalj som mental trening.', 11),
+  ('psykologi-1:anvendt-psykologi', 'Rettspsykologi', 'Psykologi i rettsvesenet, som vurdering av vitneutsagn.', 12),
+  ('psykologi-1:anvendt-psykologi', 'Statens barnehus', 'Sted der barn avhøres og får hjelp etter vold eller overgrep.', 13),
+  ('psykologi-1:anvendt-psykologi', 'Knapphet i markedsføring', 'Å få en vare til å virke sjelden for å øke lysten til å kjøpe.', 14),
+  ('psykologi-1:anvendt-psykologi', 'Beskyttet tittel', 'Bare autoriserte psykologer kan kalle seg psykolog.', 15);
+delete from public.quiz_sporsmal where tema_id = 'psykologi-1:anvendt-psykologi';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('psykologi-1:anvendt-psykologi', 'q01', 'flervalg', 'Hva er anvendt psykologi?', array['Psykologi om dyr', 'Bruk av psykologisk kunnskap til å løse praktiske problemer', 'Psykologi bare for leger', 'Historisk psykologi']::text[], 1, 'I motsetning til grunnforskning.', true, true, 0),
+  ('psykologi-1:anvendt-psykologi', 'q02', 'flervalg', 'Hva er forskjellen på en psykolog og en psykiater?', array['En psykiater er lege og kan skrive ut medisiner', 'Det er det samme', 'En psykolog kan skrive ut medisiner', 'En psykiater jobber bare i skolen']::text[], 0, 'Begge kan behandle psykiske lidelser.', true, true, 1),
+  ('psykologi-1:anvendt-psykologi', 'q03', 'flervalg', 'Hva gjør kognitiv atferdsterapi?', array['Tolker drømmer', 'Gir medisiner', 'Hjelper personen å endre tankemønstre og atferd', 'Opererer i hjernen']::text[], 2, 'En mye brukt behandlingsform.', true, true, 2),
+  ('psykologi-1:anvendt-psykologi', 'q04', 'flervalg', 'Hva gjør PP-tjenesten?', array['Rekrutterer ledere', 'Avhører vitner', 'Trener idrettsutøvere', 'Utreder elever som trenger spesialundervisning']::text[], 3, 'Pedagogisk-psykologisk tjeneste.', true, true, 3),
+  ('psykologi-1:anvendt-psykologi', 'q05', 'flervalg', 'Hvilket felt jobber med mental trening og prestasjonsangst?', array['Idrettspsykologi', 'Rettspsykologi', 'Klinisk psykologi', 'Helsepsykologi']::text[], 0, 'Målsetting, konsentrasjon og visualisering.', true, true, 4),
+  ('psykologi-1:anvendt-psykologi', 'q06', 'flervalg', 'Hvorfor er rettspsykologi viktig ved vitneutsagn?', array['Vitner lyver alltid', 'Hukommelsen kan påvirkes av ledende spørsmål', 'Vitner husker alt perfekt', 'Retten bruker ikke vitner']::text[], 1, 'Minner kan endres.', true, true, 5),
+  ('psykologi-1:anvendt-psykologi', 'q07', 'flervalg', 'Hva er et eksempel på psykologi i markedsføring?', array['Å gi ærlige produktopplysninger', 'Å selge varer billig', 'Å skrive «bare tre igjen!» for å skape knapphet', 'Å ha åpent om søndagen']::text[], 2, 'Knapphet øker lysten til å kjøpe.', true, true, 6),
+  ('psykologi-1:anvendt-psykologi', 'q08', 'flervalg', 'Hvilket felt handler om rekruttering, ledelse og arbeidsmiljø?', array['Idrettspsykologi', 'Rettspsykologi', 'Pedagogisk psykologi', 'Arbeids- og organisasjonspsykologi']::text[], 3, 'Psykologi i arbeidslivet.', true, true, 7),
+  ('psykologi-1:anvendt-psykologi', 'q09', 'flervalg', 'Kan hvem som helst kalle seg psykolog i Norge?', array['Nei, tittelen er beskyttet', 'Ja', 'Ja, hvis de har tatt et nettkurs', 'Bare hvis de jobber i skolen']::text[], 0, 'Krever autorisasjon.', true, false, 8),
+  ('psykologi-1:anvendt-psykologi', 'q10', 'flervalg', 'Hvilket etisk spørsmål er viktig i anvendt psykologi?', array['Om kunnskapen er gammel', 'Om kunnskapen brukes i personens egen interesse', 'Om psykologen er ung', 'Om metoden er dyr']::text[], 1, 'Psykologi kan brukes både til å hjelpe og manipulere.', true, false, 9),
+  ('psykologi-1:anvendt-psykologi', 'm01', 'sant-usant', 'Psykologisk kunnskap er nyttig også i yrker som sykepleier og politi.', array['Sant', 'Usant']::text[], 0, 'Alle som jobber med mennesker.', false, true, 10),
+  ('psykologi-1:anvendt-psykologi', 'm02', 'sant-usant', 'Helsepsykologi handler bare om psykiske lidelser.', array['Sant', 'Usant']::text[], 1, 'Den handler også om hvordan tanker og vaner påvirker fysisk helse.', false, true, 11),
+  ('psykologi-1:anvendt-psykologi', 'm03', 'sant-usant', 'Mange apper er designet for å holde på oppmerksomheten vår.', array['Sant', 'Usant']::text[], 0, 'Blant annet med varsler og belønninger.', false, true, 12),
+  ('psykologi-1:anvendt-psykologi', 'm04', 'sant-usant', 'Taushetsplikt er uviktig i anvendt psykologi.', array['Sant', 'Usant']::text[], 1, 'Taushetsplikten er sentral i all behandling.', false, true, 13),
+  ('psykologi-1:anvendt-psykologi', 'm05', 'flervalg', 'Hva er visualisering i idrettspsykologi?', array['Å se på video av motstanderen', 'Å se for seg en prestasjon i detalj', 'Å bruke briller', 'Å tegne treningsplaner']::text[], 1, 'En form for mental trening.', false, true, 14),
+  ('psykologi-1:anvendt-psykologi', 'm06', 'flervalg', 'Hvor avhøres barn som kan ha vært utsatt for vold?', array['I Statens barnehus', 'På skolen', 'Hos Arbeidstilsynet', 'I Stortinget']::text[], 0, 'Avhøret tilpasses barnet.', false, true, 15),
+  ('psykologi-1:anvendt-psykologi', 'm07', 'flervalg', 'Hva kjennetegner grunnforskning?', array['Den løser alltid et praktisk problem', 'Den gjøres bare i skolen', 'Den søker ny kunnskap uten et bestemt praktisk mål', 'Den bruker ikke data']::text[], 2, 'Anvendt forskning bygger videre på den.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('psykologi-1:anvendt-psykologi', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Psykologi 1: Nervesystemet, hjernen og hormonsystemet
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('psykologi-1:nervesystemet-og-hormonsystemet', 'psykologi-1', 'nervesystemet-og-hormonsystemet', 'Nervesystemet, hjernen og hormonsystemet', 'Nerveceller og signalstoffer, oppbygningen av nervesystemet, hjernens deler og hormonsystemet – og hvordan systemene samarbeider og danner grunnlaget for tanker, emosjoner og atferd.', array[11]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('psykologi-1:nervesystemet-og-hormonsystemet', '## Nervecellene
+
+Hjernen består av rundt **86 milliarder nerveceller** – **nevroner**. Et nevron har
+
+- **dendritter** som tar imot signaler
+- en **cellekropp**
+- et **akson** som sender signalet videre, ofte dekket av isolerende **myelin** som gjør signalet raskere
+
+Inne i nevronet går signalet som en **elektrisk impuls**. Mellom to nevroner er det en liten spalte, **synapsen**. Her frigjøres **signalstoffer** (nevrotransmittere) som påvirker neste celle.
+
+| Signalstoff | Viktig for |
+|---|---|
+| **Dopamin** | belønning, motivasjon og bevegelse |
+| **Serotonin** | humør, søvn og appetitt |
+| **Noradrenalin** | årvåkenhet og stressreaksjoner |
+| **GABA** | demper aktivitet – virker beroligende |
+| **Endorfiner** | demper smerte |
+
+## Nervesystemets oppbygning
+
+- **Sentralnervesystemet** (CNS): **hjernen** og **ryggmargen**.
+- **Det perifere nervesystemet**: nervene ut i kroppen.
+  - Det **somatiske** nervesystemet styrer **viljestyrte** bevegelser og tar imot sanseinntrykk.
+  - Det **autonome** nervesystemet styrer **automatiske** funksjoner. Den **sympatiske** delen gjør kroppen klar til **kamp eller flukt**, mens den **parasympatiske** delen gir **ro** og **hvile**.
+
+## Hjernens deler
+
+- **Hjernestammen** styrer livsviktige funksjoner som **pust** og **hjerterytme**.
+- **Lillehjernen** styrer **balanse** og **koordinasjon**.
+- **Det limbiske systemet** er viktig for **emosjoner** og **hukommelse**: **amygdala** reagerer på **fare** og **frykt**, **hippocampus** lagrer nye **minner**, og **hypothalamus** styrer **sult**, **temperatur** og **hormonsystemet**.
+- **Hjernebarken** er det ytterste laget og deles i fire lapper:
+  - **pannelappen** – planlegging, impulskontroll og beslutninger
+  - **isselappen** – kroppsfølelse og romforståelse
+  - **tinninglappen** – hørsel og språkforståelse
+  - **bakhodelappen** – syn
+
+De to **hjernehalvdelene** er koblet sammen av **hjernebjelken**. Venstre halvdel styrer i hovedsak høyre side av kroppen og omvendt. Hjernen kan endre seg gjennom hele livet – **nevroplastisitet**.
+
+## Hormonsystemet
+
+**Hormoner** er kjemiske budbringere som skilles ut fra **kjertler** og fraktes med **blodet**. De virker **langsommere** og **lenger** enn nervesignaler.
+
+- **Hypofysen** styrer mange andre kjertler og kalles «**hovedkjertelen**».
+- **Binyrene** skiller ut **adrenalin** og **kortisol** ved stress.
+- **Skjoldbruskkjertelen** regulerer **stoffskiftet**.
+- **Epifysen** skiller ut **melatonin**, som regulerer **søvn**.
+- **Kjønnskjertlene** skiller ut **testosteron** og **østrogen**.
+- **Oksytocin** er viktig for **tilknytning** og **tillit**.
+
+## Samspillet: et eksempel
+
+Du ser noe som ligner en **slange** på stien. **Synssansen** sender signaler til hjernen, og **amygdala** reagerer lynraskt. **Hypothalamus** aktiverer det **sympatiske** nervesystemet og **binyrene**: pulsen øker, og du **hopper** til side. Et øyeblikk senere vurderer **pannelappen** at det bare var en **pinne**, og den **parasympatiske** delen roer kroppen ned.
+
+Eksempelet viser at **tanker**, **emosjoner** og **atferd** oppstår i et samspill mellom **sanser**, **nerver** og **hormoner**. Psykologer har ulike teorier om hva som kommer først: den kroppslige reaksjonen eller følelsen – eller om følelsen avhenger av hvordan vi **tolker** kroppens signaler.', '{"label":"Nervesystemet og hormonsystemet","children":[{"label":"Nevronet","children":[{"label":"Dendritter og akson"},{"label":"Synapse"},{"label":"Signalstoffer"}]},{"label":"Nervesystemet","children":[{"label":"CNS"},{"label":"Somatisk"},{"label":"Sympatisk og parasympatisk"}]},{"label":"Hjernen","children":[{"label":"Hjernestamme og lillehjerne"},{"label":"Limbiske system"},{"label":"Fire lapper"}]},{"label":"Hormoner","children":[{"label":"Hypofysen"},{"label":"Adrenalin og kortisol"},{"label":"Melatonin og oksytocin"}]},{"label":"Samspill","children":[{"label":"Sanser → amygdala"},{"label":"Kropp og tolkning"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'psykologi-1:nervesystemet-og-hormonsystemet';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('psykologi-1:nervesystemet-og-hormonsystemet', 'Nevron', 'Nervecelle som sender elektriske og kjemiske signaler.', 0),
+  ('psykologi-1:nervesystemet-og-hormonsystemet', 'Dendritter', 'Utløpere som tar imot signaler.', 1),
+  ('psykologi-1:nervesystemet-og-hormonsystemet', 'Akson', 'Utløperen som sender signalet videre.', 2),
+  ('psykologi-1:nervesystemet-og-hormonsystemet', 'Myelin', 'Isolerende lag rundt aksonet som gjør signalet raskere.', 3),
+  ('psykologi-1:nervesystemet-og-hormonsystemet', 'Synapse', 'Spalten mellom to nevroner der signalstoffer frigjøres.', 4),
+  ('psykologi-1:nervesystemet-og-hormonsystemet', 'Dopamin', 'Signalstoff for belønning, motivasjon og bevegelse.', 5),
+  ('psykologi-1:nervesystemet-og-hormonsystemet', 'Serotonin', 'Signalstoff for humør, søvn og appetitt.', 6),
+  ('psykologi-1:nervesystemet-og-hormonsystemet', 'Sentralnervesystemet', 'Hjernen og ryggmargen.', 7),
+  ('psykologi-1:nervesystemet-og-hormonsystemet', 'Sympatiske nervesystem', 'Gjør kroppen klar til kamp eller flukt.', 8),
+  ('psykologi-1:nervesystemet-og-hormonsystemet', 'Parasympatiske nervesystem', 'Gir ro, hvile og fordøyelse.', 9),
+  ('psykologi-1:nervesystemet-og-hormonsystemet', 'Amygdala', 'Reagerer på fare og frykt.', 10),
+  ('psykologi-1:nervesystemet-og-hormonsystemet', 'Hippocampus', 'Viktig for å lagre nye minner.', 11),
+  ('psykologi-1:nervesystemet-og-hormonsystemet', 'Hypothalamus', 'Styrer sult, temperatur og hormonsystemet.', 12),
+  ('psykologi-1:nervesystemet-og-hormonsystemet', 'Pannelappen', 'Planlegging, impulskontroll og beslutninger.', 13),
+  ('psykologi-1:nervesystemet-og-hormonsystemet', 'Hjernebjelken', 'Forbinder de to hjernehalvdelene.', 14),
+  ('psykologi-1:nervesystemet-og-hormonsystemet', 'Nevroplastisitet', 'Hjernens evne til å endre seg gjennom livet.', 15),
+  ('psykologi-1:nervesystemet-og-hormonsystemet', 'Hormon', 'Kjemisk budbringer fra en kjertel, fraktes med blodet.', 16),
+  ('psykologi-1:nervesystemet-og-hormonsystemet', 'Hypofysen', '«Hovedkjertelen» som styrer andre kjertler.', 17),
+  ('psykologi-1:nervesystemet-og-hormonsystemet', 'Kortisol', 'Stresshormon fra binyrene.', 18),
+  ('psykologi-1:nervesystemet-og-hormonsystemet', 'Melatonin', 'Hormon fra epifysen som regulerer søvn.', 19);
+delete from public.quiz_sporsmal where tema_id = 'psykologi-1:nervesystemet-og-hormonsystemet';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('psykologi-1:nervesystemet-og-hormonsystemet', 'q01', 'flervalg', 'Hva skjer i synapsen?', array['Blodet renses', 'Signalstoffer frigjøres og påvirker neste nevron', 'Hormoner lages', 'Minner lagres permanent']::text[], 1, 'Signalet går kjemisk over spalten.', true, true, 0),
+  ('psykologi-1:nervesystemet-og-hormonsystemet', 'q02', 'flervalg', 'Hvilket signalstoff er særlig knyttet til belønning og motivasjon?', array['Dopamin', 'Melatonin', 'Insulin', 'Kortisol']::text[], 0, 'Viktig i hjernens belønningssystem.', true, true, 1),
+  ('psykologi-1:nervesystemet-og-hormonsystemet', 'q03', 'flervalg', 'Hva består sentralnervesystemet av?', array['Nervene i armer og bein', 'Hormonkjertlene', 'Hjernen og ryggmargen', 'Hjertet og lungene']::text[], 2, 'Resten er det perifere nervesystemet.', true, true, 2),
+  ('psykologi-1:nervesystemet-og-hormonsystemet', 'q04', 'flervalg', 'Hvilken del av nervesystemet gjør kroppen klar til kamp eller flukt?', array['Den parasympatiske', 'Den somatiske', 'Lillehjernen', 'Den sympatiske']::text[], 3, 'Pulsen og pusten øker.', true, true, 3),
+  ('psykologi-1:nervesystemet-og-hormonsystemet', 'q05', 'flervalg', 'Hvilken hjernedel reagerer raskt på fare?', array['Amygdala', 'Lillehjernen', 'Bakhodelappen', 'Hjernebjelken']::text[], 0, 'En del av det limbiske systemet.', true, true, 4),
+  ('psykologi-1:nervesystemet-og-hormonsystemet', 'q06', 'flervalg', 'Hva styrer pannelappen?', array['Syn', 'Planlegging, impulskontroll og beslutninger', 'Balanse', 'Pust og hjerterytme']::text[], 1, 'Den modnes sist i hjernen.', true, true, 5),
+  ('psykologi-1:nervesystemet-og-hormonsystemet', 'q07', 'flervalg', 'Hvordan skiller hormoner seg fra nervesignaler?', array['De er raskere', 'De går bare i hjernen', 'De fraktes med blodet og virker langsommere og lenger', 'De er elektriske']::text[], 2, 'Nervesignaler er raske og kortvarige.', true, true, 6),
+  ('psykologi-1:nervesystemet-og-hormonsystemet', 'q08', 'flervalg', 'Hvilken kjertel kalles «hovedkjertelen»?', array['Binyrene', 'Skjoldbruskkjertelen', 'Epifysen', 'Hypofysen']::text[], 3, 'Den styrer mange andre kjertler.', true, true, 7),
+  ('psykologi-1:nervesystemet-og-hormonsystemet', 'q09', 'flervalg', 'Hvilken del av hjernen er viktig for balanse og koordinasjon?', array['Lillehjernen', 'Tinninglappen', 'Hippocampus', 'Hypothalamus']::text[], 0, 'Ligger bak hjernestammen.', true, false, 8),
+  ('psykologi-1:nervesystemet-og-hormonsystemet', 'q10', 'flervalg', 'Hva er nevroplastisitet?', array['At hjernen er ferdig utviklet ved fødselen', 'Hjernens evne til å endre seg gjennom livet', 'En sykdom i nervene', 'Et hormon']::text[], 1, 'Grunnlaget for læring.', true, false, 9),
+  ('psykologi-1:nervesystemet-og-hormonsystemet', 'm01', 'sant-usant', 'Venstre hjernehalvdel styrer i hovedsak høyre side av kroppen.', array['Sant', 'Usant']::text[], 0, 'Nervebanene krysser.', false, true, 10),
+  ('psykologi-1:nervesystemet-og-hormonsystemet', 'm02', 'sant-usant', 'Bakhodelappen er særlig viktig for hørsel.', array['Sant', 'Usant']::text[], 1, 'Den er viktig for syn, tinninglappen for hørsel.', false, true, 11),
+  ('psykologi-1:nervesystemet-og-hormonsystemet', 'm03', 'sant-usant', 'Myelin gjør at nervesignaler går raskere.', array['Sant', 'Usant']::text[], 0, 'Det isolerer aksonet.', false, true, 12),
+  ('psykologi-1:nervesystemet-og-hormonsystemet', 'm04', 'sant-usant', 'Hippocampus styrer pust og hjerterytme.', array['Sant', 'Usant']::text[], 1, 'Det gjør hjernestammen, hippocampus er viktig for minner.', false, true, 13),
+  ('psykologi-1:nervesystemet-og-hormonsystemet', 'm05', 'flervalg', 'Hvilket hormon regulerer søvn?', array['Adrenalin', 'Melatonin', 'Testosteron', 'Insulin']::text[], 1, 'Skilles ut fra epifysen når det blir mørkt.', false, true, 14),
+  ('psykologi-1:nervesystemet-og-hormonsystemet', 'm06', 'flervalg', 'Hvilket signalstoff virker dempende på hjerneaktiviteten?', array['GABA', 'Dopamin', 'Noradrenalin', 'Adrenalin']::text[], 0, 'Virker beroligende.', false, true, 15),
+  ('psykologi-1:nervesystemet-og-hormonsystemet', 'm07', 'flervalg', 'Hvilket hormon er særlig knyttet til tilknytning og tillit?', array['Kortisol', 'Tyroksin', 'Oksytocin', 'Melatonin']::text[], 2, 'Viktig blant annet mellom foreldre og spedbarn.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('psykologi-1:nervesystemet-og-hormonsystemet', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Psykologi 1: Sanser, persepsjon og kognisjon
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('psykologi-1:sanser-persepsjon-og-kognisjon', 'psykologi-1', 'sanser-persepsjon-og-kognisjon', 'Sanser, persepsjon og kognisjon', 'Hvordan sansene tar inn informasjon, hvordan hjernen tolker den gjennom persepsjon og oppmerksomhet, og hvordan tenkning, skjemaer og kognitive skjevheter former hvordan vi forstår oss selv og verden.', array[8, 11]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('psykologi-1:sanser-persepsjon-og-kognisjon', '## Sansning og persepsjon
+
+**Sansning** er når **sanseceller** (reseptorer) fanger opp **stimuli** som lys, lyd og trykk og gjør dem om til **nervesignaler**. **Persepsjon** er hjernens **tolkning** av signalene – det vi faktisk **opplever**.
+
+- **Syn**: Lys treffer **netthinnen**. **Stavene** gir mørkesyn, **tappene** fargesyn. Signalene går til **bakhodelappen**.
+- **Hørsel**: Lydbølger får **trommehinnen** til å vibrere, og **øresneglen** gjør vibrasjonene om til nervesignaler.
+- I tillegg har vi **lukt**, **smak**, **berøring**, **balanse** og en sans for kroppens **stilling**.
+
+Sansene **tilpasser** seg: Etter en stund merker vi ikke lenger lukten i et rom. Det kalles **sensorisk adaptasjon**.
+
+## Hvordan hjernen tolker
+
+- **Nedenfra og opp** (bottom-up): Persepsjonen bygges opp fra **sanseinntrykkene**.
+- **Ovenfra og ned** (top-down): **Forventninger**, **erfaringer** og **kultur** påvirker hva vi ser. Vi leser lett ord med feilstavinger fordi hjernen fyller inn.
+
+**Gestaltpsykologene** viste at vi ser **helheter**, ikke løse deler. Gestaltlovene sier at vi grupperer det som er **nært** hverandre, det som er **likt**, og at vi **lukker** figurer som ikke er hele. Vi skiller også mellom **figur** og **bakgrunn**.
+
+**Dybdesyn** bygger på at vi har **to øyne** som ser litt ulikt, og på signaler som **størrelse**, **overlapping** og **perspektiv**. **Synsbedrag** viser at persepsjonen kan **lure** oss.
+
+## Oppmerksomhet
+
+Vi kan bare ta inn en liten del av alt rundt oss. **Selektiv oppmerksomhet** gjør at vi kan følge én samtale i et støyende rom, men likevel reagere når noen sier **navnet vårt** – **cocktailselskap-effekten**.
+
+I et kjent forsøk skulle deltakerne telle pasninger i en ballvideo, og mange la ikke merke til en person i **gorilladrakt** som gikk gjennom bildet. Det kalles **uoppmerksomhetsblindhet**. **Multitasking** er som regel rask **veksling** mellom oppgaver og gir flere feil.
+
+## Kognisjon
+
+**Kognisjon** er de mentale prosessene vi bruker for å tenke, huske, løse problemer og ta beslutninger. Vi organiserer kunnskap i **skjemaer** – mentale «maler» for hvordan ting pleier å være.
+
+**Daniel Kahneman** skilte mellom
+
+- **system 1**: rask, automatisk og intuitiv tenkning
+- **system 2**: langsom, bevisst og anstrengende tenkning
+
+System 1 bruker **heuristikker** – tommelfingerregler – som ofte fungerer, men kan gi **kognitive skjevheter**:
+
+- **Bekreftelsesfellen**: Vi leter etter informasjon som **bekrefter** det vi allerede tror.
+- **Tilgjengelighetsheuristikken**: Vi tror noe er vanlig fordi vi lett **husker** eksempler, for eksempel flyulykker fra nyhetene.
+- **Forankring**: Det første tallet vi hører, påvirker vurderingen vår.
+
+## Forståelse av oss selv og andre
+
+Persepsjon og kognisjon påvirker også **selvbildet**. Vi forklarer ofte egne suksesser med egne **evner**, men feil med **ytre** forhold – den **selvtjenende skjevheten**. Når vi vurderer **andre**, legger vi for mye vekt på **personlighet** og for lite på **situasjonen** – den **fundamentale attribusjonsfeilen**.
+
+Å kjenne til slike skjevheter kan gjøre oss mer **kritiske** til egne vurderinger – for eksempel når vi møter informasjon i **sosiale medier**.', '{"label":"Sanser, persepsjon og kognisjon","children":[{"label":"Sansene","children":[{"label":"Syn og hørsel"},{"label":"Reseptorer"},{"label":"Adaptasjon"}]},{"label":"Persepsjon","children":[{"label":"Bottom-up og top-down"},{"label":"Gestaltlover"},{"label":"Dybdesyn og synsbedrag"}]},{"label":"Oppmerksomhet","children":[{"label":"Selektiv"},{"label":"Gorillaforsøket"},{"label":"Multitasking"}]},{"label":"Kognisjon","children":[{"label":"Skjemaer"},{"label":"System 1 og 2"},{"label":"Heuristikker"}]},{"label":"Skjevheter","children":[{"label":"Bekreftelsesfellen"},{"label":"Tilgjengelighet"},{"label":"Attribusjonsfeil"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'psykologi-1:sanser-persepsjon-og-kognisjon';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('psykologi-1:sanser-persepsjon-og-kognisjon', 'Sansning', 'Sanseceller fanger opp stimuli og gjør dem om til nervesignaler.', 0),
+  ('psykologi-1:sanser-persepsjon-og-kognisjon', 'Persepsjon', 'Hjernens tolkning av sanseinntrykk.', 1),
+  ('psykologi-1:sanser-persepsjon-og-kognisjon', 'Staver og tapper', 'Sanseceller i netthinnen for mørkesyn og fargesyn.', 2),
+  ('psykologi-1:sanser-persepsjon-og-kognisjon', 'Sensorisk adaptasjon', 'Sansene slutter å reagere på en stimulus som ikke endrer seg.', 3),
+  ('psykologi-1:sanser-persepsjon-og-kognisjon', 'Bottom-up', 'Persepsjon som bygges opp fra sanseinntrykkene.', 4),
+  ('psykologi-1:sanser-persepsjon-og-kognisjon', 'Top-down', 'Forventninger og erfaringer styrer tolkningen.', 5),
+  ('psykologi-1:sanser-persepsjon-og-kognisjon', 'Gestaltlover', 'Vi grupperer det som er nært, likt og lukker ufullstendige figurer.', 6),
+  ('psykologi-1:sanser-persepsjon-og-kognisjon', 'Figur og bakgrunn', 'Vi skiller det vi fokuserer på fra resten av bildet.', 7),
+  ('psykologi-1:sanser-persepsjon-og-kognisjon', 'Selektiv oppmerksomhet', 'Å rette oppmerksomheten mot noe og overse resten.', 8),
+  ('psykologi-1:sanser-persepsjon-og-kognisjon', 'Cocktailselskap-effekten', 'Vi reagerer på navnet vårt selv om vi ikke følger med.', 9),
+  ('psykologi-1:sanser-persepsjon-og-kognisjon', 'Uoppmerksomhetsblindhet', 'Å overse noe tydelig fordi oppmerksomheten er et annet sted.', 10),
+  ('psykologi-1:sanser-persepsjon-og-kognisjon', 'Kognisjon', 'Mentale prosesser som tenkning, hukommelse og problemløsning.', 11),
+  ('psykologi-1:sanser-persepsjon-og-kognisjon', 'Skjema', 'Mental mal for hvordan ting pleier å være.', 12),
+  ('psykologi-1:sanser-persepsjon-og-kognisjon', 'System 1 og system 2', 'Rask intuitiv tenkning og langsom bevisst tenkning.', 13),
+  ('psykologi-1:sanser-persepsjon-og-kognisjon', 'Heuristikk', 'Tommelfingerregel for raske vurderinger.', 14),
+  ('psykologi-1:sanser-persepsjon-og-kognisjon', 'Bekreftelsesfellen', 'Å lete etter informasjon som bekrefter det man tror.', 15),
+  ('psykologi-1:sanser-persepsjon-og-kognisjon', 'Tilgjengelighetsheuristikken', 'Å tro noe er vanlig fordi eksempler er lette å huske.', 16),
+  ('psykologi-1:sanser-persepsjon-og-kognisjon', 'Fundamental attribusjonsfeil', 'Å overvurdere personlighet og undervurdere situasjonen hos andre.', 17);
+delete from public.quiz_sporsmal where tema_id = 'psykologi-1:sanser-persepsjon-og-kognisjon';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('psykologi-1:sanser-persepsjon-og-kognisjon', 'q01', 'flervalg', 'Hva er forskjellen på sansning og persepsjon?', array['Det er det samme', 'Sansning fanger opp stimuli, persepsjon tolker dem', 'Persepsjon skjer i øyet', 'Sansning er bare syn']::text[], 1, 'Persepsjonen er det vi opplever.', true, true, 0),
+  ('psykologi-1:sanser-persepsjon-og-kognisjon', 'q02', 'flervalg', 'Hvilke sanseceller gir fargesyn?', array['Tappene', 'Stavene', 'Trommehinnen', 'Øresneglen']::text[], 0, 'Stavene gir mørkesyn.', true, true, 1),
+  ('psykologi-1:sanser-persepsjon-og-kognisjon', 'q03', 'flervalg', 'Du leser lett et ord med feilstaving. Hvilken prosess er dette?', array['Sensorisk adaptasjon', 'Bottom-up', 'Top-down', 'Uoppmerksomhetsblindhet']::text[], 2, 'Forventninger fyller inn.', true, true, 2),
+  ('psykologi-1:sanser-persepsjon-og-kognisjon', 'q04', 'flervalg', 'Hva sier gestaltlovene?', array['At vi ser løse deler', 'At synet er perfekt', 'At bare farger betyr noe', 'At vi ser helheter og grupperer det som er nært og likt']::text[], 3, 'Helheten er mer enn summen av delene.', true, true, 3),
+  ('psykologi-1:sanser-persepsjon-og-kognisjon', 'q05', 'flervalg', 'Mange overså en gorilla mens de talte pasninger. Hva kalles dette?', array['Uoppmerksomhetsblindhet', 'Sensorisk adaptasjon', 'Forankring', 'Top-down']::text[], 0, 'Oppmerksomheten var et annet sted.', true, true, 4),
+  ('psykologi-1:sanser-persepsjon-og-kognisjon', 'q06', 'flervalg', 'Hva kjennetegner system 1 ifølge Kahneman?', array['Langsom og bevisst', 'Rask, automatisk og intuitiv', 'Bare brukt i matematikk', 'Uten feil']::text[], 1, 'System 2 er langsom og bevisst.', true, true, 5),
+  ('psykologi-1:sanser-persepsjon-og-kognisjon', 'q07', 'flervalg', 'Hva er bekreftelsesfellen?', array['Å bekrefte avtaler', 'Å huske for mye', 'Å lete etter informasjon som bekrefter det man tror', 'Å overse navnet sitt']::text[], 2, 'En vanlig kognitiv skjevhet.', true, true, 6),
+  ('psykologi-1:sanser-persepsjon-og-kognisjon', 'q08', 'flervalg', 'Noen tror flyulykker er vanlige fordi de ofte er i nyhetene. Hvilken skjevhet er dette?', array['Forankring', 'Selvtjenende skjevhet', 'Fundamental attribusjonsfeil', 'Tilgjengelighetsheuristikken']::text[], 3, 'Eksemplene er lette å huske.', true, true, 7),
+  ('psykologi-1:sanser-persepsjon-og-kognisjon', 'q09', 'flervalg', 'Hva er et skjema i kognitiv psykologi?', array['En mental mal for hvordan ting pleier å være', 'Et spørreskjema', 'En del av øyet', 'En timeplan']::text[], 0, 'Hjelper oss å tolke nye situasjoner.', true, false, 8),
+  ('psykologi-1:sanser-persepsjon-og-kognisjon', 'q10', 'flervalg', 'Hva er den fundamentale attribusjonsfeilen?', array['Å forklare egne feil med uflaks', 'Å overvurdere personlighet og undervurdere situasjonen hos andre', 'Å glemme navn', 'Å se synsbedrag']::text[], 1, 'Vi tror for lett at andres atferd skyldes hvem de er.', true, false, 9),
+  ('psykologi-1:sanser-persepsjon-og-kognisjon', 'm01', 'sant-usant', 'Vi slutter etter en stund å merke lukten i et rom.', array['Sant', 'Usant']::text[], 0, 'Sensorisk adaptasjon.', false, true, 10),
+  ('psykologi-1:sanser-persepsjon-og-kognisjon', 'm02', 'sant-usant', 'Multitasking gjør oss som regel mer effektive og gir færre feil.', array['Sant', 'Usant']::text[], 1, 'Det er rask veksling som gir flere feil.', false, true, 11),
+  ('psykologi-1:sanser-persepsjon-og-kognisjon', 'm03', 'sant-usant', 'Kultur og erfaring kan påvirke hvordan vi oppfatter det vi ser.', array['Sant', 'Usant']::text[], 0, 'Top-down-prosesser.', false, true, 12),
+  ('psykologi-1:sanser-persepsjon-og-kognisjon', 'm04', 'sant-usant', 'Synsbedrag viser at persepsjonen alltid gir et riktig bilde av verden.', array['Sant', 'Usant']::text[], 1, 'De viser at persepsjonen kan lure oss.', false, true, 13),
+  ('psykologi-1:sanser-persepsjon-og-kognisjon', 'm05', 'flervalg', 'Hva er cocktailselskap-effekten?', array['At vi blir trøtte på fest', 'At vi reagerer på navnet vårt selv om vi ikke følger med', 'At vi husker alt fra en fest', 'At vi hører dårligere i støy']::text[], 1, 'Viser at vi bearbeider noe av det vi ikke fokuserer på.', false, true, 14),
+  ('psykologi-1:sanser-persepsjon-og-kognisjon', 'm06', 'flervalg', 'Hva er selvtjenende skjevhet?', array['Å ta æren for suksess og skylde på ytre forhold ved feil', 'Å hjelpe andre', 'Å tenke langsomt', 'Å stole på eksperter']::text[], 0, 'Beskytter selvbildet.', false, true, 15),
+  ('psykologi-1:sanser-persepsjon-og-kognisjon', 'm07', 'flervalg', 'Hva er forankring?', array['At vi husker det siste vi hørte', 'At vi stoler på venner', 'At det første tallet vi hører påvirker vurderingen', 'At vi ser dybde']::text[], 2, 'Brukes ofte i prisforhandlinger.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('psykologi-1:sanser-persepsjon-og-kognisjon', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Psykologi 1: Hukommelse
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('psykologi-1:hukommelse', 'psykologi-1', 'hukommelse', 'Hukommelse', 'Hvordan vi koder, lagrer og henter fram minner, flerlagersmodellen og arbeidsminnet, ulike typer langtidsminne, hvorfor vi glemmer og hva som påvirker hukommelsen – fra søvn og følelser til ledende spørsmål.', array[4]::int[], 5, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('psykologi-1:hukommelse', '## Tre prosesser
+
+Hukommelse består av tre prosesser:
+
+1. **Koding** (innkoding): informasjon tas inn og bearbeides.
+2. **Lagring**: informasjonen holdes over tid.
+3. **Gjenhenting**: vi henter informasjonen fram igjen.
+
+Svikt i én av prosessene gjør at vi ikke husker.
+
+## Flerlagersmodellen
+
+**Atkinson og Shiffrin** (1968) beskrev hukommelsen som tre lagre:
+
+- **Sensorisk minne** holder sanseinntrykk i **under ett sekund** for syn og noen sekunder for hørsel. Bare det vi gir **oppmerksomhet**, går videre.
+- **Korttidsminnet** holder informasjon i omtrent **15–30 sekunder** og har begrenset **kapasitet** – omtrent **sju** enheter, pluss eller minus to. Vi kan huske mer ved å gruppere informasjon i **klumper** (chunking), for eksempel et telefonnummer i tre deler. **Repetisjon** holder informasjonen i live.
+- **Langtidsminnet** har tilnærmet **ubegrenset** kapasitet og kan lagre minner hele livet.
+
+## Arbeidsminnet
+
+**Baddeley og Hitch** mente korttidsminnet er et aktivt **arbeidsminne** der vi bearbeider informasjon. Det har en **sentral kontrollenhet** som styrer oppmerksomheten, en **fonologisk sløyfe** for lyd og språk og en **visuospatial skisseblokk** for bilder og rom. Senere ble en **episodisk buffer** lagt til.
+
+## Typer langtidsminne
+
+- **Eksplisitt** (deklarativt) minne – det vi **bevisst** kan fortelle om:
+  - **episodisk** minne: personlige **hendelser**, som bursdagen i fjor
+  - **semantisk** minne: **fakta** og kunnskap, som at Oslo er hovedstaden
+- **Implisitt** minne – det vi husker **uten** å tenke over det:
+  - **prosedurale** ferdigheter, som å sykle
+
+**Hippocampus** er viktig for å danne nye eksplisitte minner. Pasienten **H.M.** fikk fjernet deler av hippocampus og klarte etterpå ikke å danne nye bevisste minner, men kunne fortsatt lære nye **ferdigheter**.
+
+## Hvorfor glemmer vi?
+
+**Hermann Ebbinghaus** viste med **glemselskurven** at vi glemmer mye **raskt** etter at vi har lært noe, og deretter langsommere. Forklaringer på glemsel:
+
+- **Forfall**: minnesporet svekkes når det ikke brukes.
+- **Interferens**: andre minner forstyrrer. Ved **proaktiv** interferens hindrer gammel læring ny, ved **retroaktiv** interferens hindrer ny læring gammel.
+- **Gjenhentingssvikt**: minnet er lagret, men vi finner det ikke – «det ligger på tunga».
+
+## Hva påvirker hukommelsen?
+
+- **Oppmerksomhet** og **bearbeidingsdybde**: Det vi tenker **grundig** og **meningsfullt** om, huskes bedre enn det vi bare leser over.
+- **Følelser**: Sterke opplevelser huskes ofte godt, men ikke alltid **riktig**.
+- **Søvn**: Under søvn **konsolideres** – styrkes – minnene.
+- **Stress** og **rus** kan svekke både koding og gjenhenting.
+- **Kontekst**: Vi husker bedre i samme **omgivelser** eller **tilstand** som da vi lærte.
+
+## Hukommelsen rekonstruerer
+
+Hukommelsen er ikke et **videoopptak**. Vi **rekonstruerer** minner hver gang vi henter dem fram. **Elizabeth Loftus** viste at ordvalg i spørsmål om en bilulykke påvirket hvor fort folk trodde bilene kjørte, og noen «husket» knust glass som ikke fantes. Slike **falske minner** har betydning for **vitneutsagn** i retten.
+
+## Nyttig for læring
+
+God hukommelse får du ved å **teste** deg selv, **spre** repetisjonen over tid, lage **sammenhenger** og **sove** godt.', '{"label":"Hukommelse","children":[{"label":"Prosesser","children":[{"label":"Koding"},{"label":"Lagring"},{"label":"Gjenhenting"}]},{"label":"Modeller","children":[{"label":"Flerlagersmodellen"},{"label":"Arbeidsminnet"}]},{"label":"Langtidsminne","children":[{"label":"Episodisk"},{"label":"Semantisk"},{"label":"Prosedural"}]},{"label":"Glemsel","children":[{"label":"Forfall"},{"label":"Interferens"},{"label":"Gjenhentingssvikt"}]},{"label":"Påvirkning","children":[{"label":"Søvn og stress"},{"label":"Følelser og kontekst"},{"label":"Falske minner"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'psykologi-1:hukommelse';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('psykologi-1:hukommelse', 'Koding', 'Informasjon tas inn og bearbeides.', 0),
+  ('psykologi-1:hukommelse', 'Gjenhenting', 'Å hente fram et lagret minne.', 1),
+  ('psykologi-1:hukommelse', 'Flerlagersmodellen', 'Atkinson og Shiffrin: sensorisk minne, korttidsminne og langtidsminne.', 2),
+  ('psykologi-1:hukommelse', 'Sensorisk minne', 'Holder sanseinntrykk i svært kort tid.', 3),
+  ('psykologi-1:hukommelse', 'Korttidsminnet', 'Omtrent 15–30 sekunder og rundt sju enheter.', 4),
+  ('psykologi-1:hukommelse', 'Chunking', 'Å gruppere informasjon i klumper for å huske mer.', 5),
+  ('psykologi-1:hukommelse', 'Arbeidsminnet', 'Baddeley og Hitch: aktivt korttidslager der vi bearbeider informasjon.', 6),
+  ('psykologi-1:hukommelse', 'Fonologisk sløyfe', 'Den delen av arbeidsminnet som håndterer lyd og språk.', 7),
+  ('psykologi-1:hukommelse', 'Episodisk minne', 'Minner om personlige hendelser.', 8),
+  ('psykologi-1:hukommelse', 'Semantisk minne', 'Fakta og kunnskap.', 9),
+  ('psykologi-1:hukommelse', 'Prosedural hukommelse', 'Implisitt minne for ferdigheter, som å sykle.', 10),
+  ('psykologi-1:hukommelse', 'H.M.', 'Pasient som ikke kunne danne nye bevisste minner etter at deler av hippocampus ble fjernet.', 11),
+  ('psykologi-1:hukommelse', 'Glemselskurven', 'Ebbinghaus: vi glemmer mye raskt og deretter langsommere.', 12),
+  ('psykologi-1:hukommelse', 'Proaktiv interferens', 'Gammel læring hindrer ny læring.', 13),
+  ('psykologi-1:hukommelse', 'Retroaktiv interferens', 'Ny læring hindrer gammel læring.', 14),
+  ('psykologi-1:hukommelse', 'Konsolidering', 'Minner styrkes og stabiliseres, blant annet under søvn.', 15),
+  ('psykologi-1:hukommelse', 'Rekonstruktiv hukommelse', 'Minner bygges opp på nytt hver gang de hentes fram.', 16),
+  ('psykologi-1:hukommelse', 'Falske minner', 'Minner om noe som ikke har skjedd – kan skapes av ledende spørsmål.', 17);
+delete from public.quiz_sporsmal where tema_id = 'psykologi-1:hukommelse';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('psykologi-1:hukommelse', 'q01', 'flervalg', 'Hvilke tre prosesser består hukommelsen av?', array['Syn, hørsel og lukt', 'Koding, lagring og gjenhenting', 'Læring, glemsel og søvn', 'Id, ego og superego']::text[], 1, 'Svikt i én gir glemsel.', true, true, 0),
+  ('psykologi-1:hukommelse', 'q02', 'flervalg', 'Hvor mange enheter kan korttidsminnet omtrent holde?', array['Rundt sju', 'Rundt 100', 'Ubegrenset', 'Bare én']::text[], 0, 'Pluss eller minus to.', true, true, 1),
+  ('psykologi-1:hukommelse', 'q03', 'flervalg', 'Hva er chunking?', array['Å glemme', 'Å repetere', 'Å gruppere informasjon i klumper', 'Å sove']::text[], 2, 'For eksempel et telefonnummer i tre deler.', true, true, 2),
+  ('psykologi-1:hukommelse', 'q04', 'flervalg', 'Hvilken type minne er det å huske bursdagen din i fjor?', array['Semantisk', 'Prosedural', 'Sensorisk', 'Episodisk']::text[], 3, 'Et personlig minne om en hendelse.', true, true, 3),
+  ('psykologi-1:hukommelse', 'q05', 'flervalg', 'Hvilken type minne bruker du når du sykler?', array['Prosedural (implisitt)', 'Episodisk', 'Semantisk', 'Sensorisk']::text[], 0, 'Vi husker ferdigheten uten å tenke over den.', true, true, 4),
+  ('psykologi-1:hukommelse', 'q06', 'flervalg', 'Hva viste Ebbinghaus med glemselskurven?', array['At vi aldri glemmer', 'At vi glemmer mye raskt og deretter langsommere', 'At søvn gir glemsel', 'At barn husker best']::text[], 1, 'Derfor er repetisjon viktig.', true, true, 5),
+  ('psykologi-1:hukommelse', 'q07', 'flervalg', 'Du har lært spansk og sliter nå med å huske fransk du lærte tidligere. Hva er dette?', array['Proaktiv interferens', 'Forfall', 'Retroaktiv interferens', 'Chunking']::text[], 2, 'Ny læring hindrer gammel.', true, true, 6),
+  ('psykologi-1:hukommelse', 'q08', 'flervalg', 'Hva viste Elizabeth Loftus?', array['At hippocampus lagrer minner', 'At korttidsminnet holder sju enheter', 'At søvn styrker minner', 'At ledende spørsmål kan endre minner']::text[], 3, 'Hukommelsen rekonstruerer.', true, true, 7),
+  ('psykologi-1:hukommelse', 'q09', 'flervalg', 'Hvilken hjernedel er viktig for å danne nye eksplisitte minner?', array['Hippocampus', 'Lillehjernen', 'Bakhodelappen', 'Hjernestammen']::text[], 0, 'Vist blant annet hos pasienten H.M.', true, false, 8),
+  ('psykologi-1:hukommelse', 'q10', 'flervalg', 'Hva gjør søvn for hukommelsen?', array['Sletter minner', 'Konsoliderer og styrker minnene', 'Ingenting', 'Lager falske minner']::text[], 1, 'Derfor er søvn viktig før prøver.', true, false, 9),
+  ('psykologi-1:hukommelse', 'm01', 'sant-usant', 'Det vi bearbeider grundig og meningsfullt, huskes bedre.', array['Sant', 'Usant']::text[], 0, 'Bearbeidingsdybde.', false, true, 10),
+  ('psykologi-1:hukommelse', 'm02', 'sant-usant', 'Hukommelsen fungerer som et videoopptak som lagrer alt nøyaktig.', array['Sant', 'Usant']::text[], 1, 'Minner rekonstrueres.', false, true, 11),
+  ('psykologi-1:hukommelse', 'm03', 'sant-usant', 'H.M. kunne lære nye ferdigheter selv om han ikke dannet nye bevisste minner.', array['Sant', 'Usant']::text[], 0, 'Implisitt minne var intakt.', false, true, 12),
+  ('psykologi-1:hukommelse', 'm04', 'sant-usant', 'Stress forbedrer alltid hukommelsen.', array['Sant', 'Usant']::text[], 1, 'Stress kan svekke både koding og gjenhenting.', false, true, 13),
+  ('psykologi-1:hukommelse', 'm05', 'flervalg', 'Hvilken lesestrategi gir best hukommelse?', array['Lese samme side mange ganger rett før prøven', 'Teste seg selv og spre repetisjonen over tid', 'Lese med musikk på høyt volum', 'Streke under alt']::text[], 1, 'Testing og spredt repetisjon.', false, true, 14),
+  ('psykologi-1:hukommelse', 'm06', 'flervalg', 'Hva er semantisk minne?', array['Fakta og kunnskap', 'Personlige hendelser', 'Ferdigheter', 'Sanseinntrykk']::text[], 0, 'For eksempel at Oslo er hovedstaden.', false, true, 15),
+  ('psykologi-1:hukommelse', 'm07', 'flervalg', 'Hva betyr det at et navn «ligger på tunga»?', array['Forfall', 'Proaktiv interferens', 'Gjenhentingssvikt', 'Sensorisk adaptasjon']::text[], 2, 'Minnet er lagret, men vanskelig å hente fram.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('psykologi-1:hukommelse', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Psykologi 1: Læring og læringsstrategier
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('psykologi-1:laering', 'psykologi-1', 'laering', 'Læring og læringsstrategier', 'Behavioristiske, sosialkognitive, kognitive og sosiokulturelle perspektiver på læring – fra Pavlovs hunder til Vygotskijs proksimale utviklingssone – hva som hemmer og fremmer læring, og hvordan du kan vurdere dine egne læringsstrategier.', array[5]::int[], 6, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('psykologi-1:laering', '## Hva er læring?
+
+**Læring** er en relativt **varig endring** i atferd eller kunnskap som skyldes **erfaring**. Psykologien har flere perspektiver på hvordan læring skjer.
+
+## Behavioristiske perspektiver
+
+**Klassisk betinging**: **Ivan Pavlov** oppdaget at hunder begynte å sikle når de hørte en lyd som pleide å komme før maten. En **nøytral stimulus** (lyden) blir koblet til en **ubetinget stimulus** (maten) og gir etter hvert en **betinget respons** (sikling). Slik kan også **fobier** oppstå. Hvis lyden gjentas uten mat, **slukkes** responsen.
+
+**Operant betinging**: **B.F. Skinner** viste at atferd styres av **konsekvensene**.
+
+- **Positiv forsterkning**: noe **behagelig** legges til – for eksempel ros – og atferden øker.
+- **Negativ forsterkning**: noe **ubehagelig** fjernes – for eksempel at maset stopper når du rydder – og atferden øker.
+- **Straff**: atferden **reduseres**.
+
+**Uforutsigbare** belønninger gir ofte svært **vedvarende** atferd. Det brukes i pengespill og i varsler på sosiale medier.
+
+## Sosialkognitiv læring
+
+**Albert Bandura** viste at vi lærer ved å **observere** andre – **modellæring**. I **Bobo-dukke-forsøket** slo barn dukken oftere etter å ha sett en voksen gjøre det. Modellæring krever **oppmerksomhet**, **hukommelse**, evne til å **gjøre** det samme og **motivasjon**.
+
+## Kognitive perspektiver
+
+**Jean Piaget** mente at barn aktivt **konstruerer** kunnskap. Ny informasjon tas inn i eksisterende **skjemaer** (**assimilasjon**), eller skjemaene **endres** når de ikke passer (**akkommodasjon**). Piaget beskrev fire **utviklingsstadier**, fra det **sensomotoriske** hos spedbarn til det **formelt operasjonelle**, der ungdom kan tenke **abstrakt**.
+
+## Sosiokulturelle perspektiver
+
+**Lev Vygotskij** mente at læring skjer i **samspill** med andre, og at **språket** er et viktig verktøy. Den **proksimale utviklingssonen** er avstanden mellom det eleven klarer **alene**, og det eleven klarer **med hjelp**. Gode lærere gir **stillas** – støtte som gradvis trekkes bort.
+
+## Hva fremmer og hemmer læring?
+
+**Fremmer**:
+
+- **motivasjon** og **mestringsopplevelser**
+- gode **relasjoner** og et trygt **læringsmiljø**
+- tydelige **mål** og **tilbakemeldinger**
+- **søvn**, **fysisk aktivitet** og **forkunnskaper**
+
+**Hemmer**:
+
+- **stress**, **prestasjonsangst** og **søvnmangel**
+- **forstyrrelser**, som mobilvarsler
+- **negative** forventninger til seg selv
+
+## Læringsstrategier
+
+- **Hukommelsesstrategier**: gjenta og **puge**. Nyttig for gloser og formler, men gir lite **forståelse** alene.
+- **Organiseringsstrategier**: **tankekart**, sammendrag og tabeller.
+- **Elaboreringsstrategier**: koble nytt stoff til det du **kan fra før**, og forklar det med **egne ord**.
+- **Metakognisjon**: å tenke over **egen** læring – «Hva kan jeg? Hva må jeg jobbe mer med?»
+
+Forskning viser at **å teste seg selv** og **å spre** repetisjonen over tid virker bedre enn å lese om igjen. Ideen om faste **læringsstiler** – at noen bare lærer visuelt eller auditivt – har **lite** forskningsstøtte.
+
+## Vurdere egne strategier
+
+Spør deg selv: Husker jeg stoffet etter en uke? Kan jeg **forklare** det til andre? Klarer jeg å **bruke** det på nye oppgaver? Er svaret nei, kan det være lurt å bytte strategi.', '{"label":"Læring","children":[{"label":"Behaviorisme","children":[{"label":"Klassisk betinging"},{"label":"Operant betinging"},{"label":"Forsterkning og straff"}]},{"label":"Sosialkognitiv","children":[{"label":"Bandura"},{"label":"Modellæring"}]},{"label":"Kognitiv","children":[{"label":"Piaget"},{"label":"Assimilasjon og akkommodasjon"}]},{"label":"Sosiokulturell","children":[{"label":"Vygotskij"},{"label":"Proksimal sone og stillas"}]},{"label":"Strategier","children":[{"label":"Hukommelse og organisering"},{"label":"Elaborering"},{"label":"Metakognisjon"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'psykologi-1:laering';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('psykologi-1:laering', 'Læring', 'Relativt varig endring i atferd eller kunnskap som skyldes erfaring.', 0),
+  ('psykologi-1:laering', 'Klassisk betinging', 'En nøytral stimulus kobles til en ubetinget stimulus og gir en betinget respons.', 1),
+  ('psykologi-1:laering', 'Ivan Pavlov', 'Oppdaget klassisk betinging hos hunder.', 2),
+  ('psykologi-1:laering', 'Utslukking', 'Den betingede responsen forsvinner når koblingen opphører.', 3),
+  ('psykologi-1:laering', 'Operant betinging', 'Atferd styres av konsekvensene.', 4),
+  ('psykologi-1:laering', 'Positiv forsterkning', 'Noe behagelig legges til, og atferden øker.', 5),
+  ('psykologi-1:laering', 'Negativ forsterkning', 'Noe ubehagelig fjernes, og atferden øker.', 6),
+  ('psykologi-1:laering', 'Straff', 'En konsekvens som reduserer atferden.', 7),
+  ('psykologi-1:laering', 'Modellæring', 'Å lære ved å observere andre.', 8),
+  ('psykologi-1:laering', 'Bobo-dukke-forsøket', 'Banduras forsøk der barn etterlignet en voksens aggresjon.', 9),
+  ('psykologi-1:laering', 'Assimilasjon', 'Ny informasjon tas inn i eksisterende skjemaer.', 10),
+  ('psykologi-1:laering', 'Akkommodasjon', 'Skjemaene endres for å passe ny informasjon.', 11),
+  ('psykologi-1:laering', 'Proksimal utviklingssone', 'Det eleven klarer med hjelp, men ikke alene ennå.', 12),
+  ('psykologi-1:laering', 'Stillas', 'Støtte som gradvis trekkes bort når eleven mestrer mer.', 13),
+  ('psykologi-1:laering', 'Elaboreringsstrategi', 'Å koble nytt stoff til det man kan fra før.', 14),
+  ('psykologi-1:laering', 'Metakognisjon', 'Å tenke over egen tenkning og læring.', 15),
+  ('psykologi-1:laering', 'Læringsstiler', 'Idé om at folk lærer best visuelt eller auditivt – lite forskningsstøtte.', 16);
+delete from public.quiz_sporsmal where tema_id = 'psykologi-1:laering';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('psykologi-1:laering', 'q01', 'flervalg', 'Hva oppdaget Pavlov?', array['Operant betinging', 'Klassisk betinging', 'Modellæring', 'Proksimal utviklingssone']::text[], 1, 'Hundene siklet av en lyd.', true, true, 0),
+  ('psykologi-1:laering', 'q02', 'flervalg', 'Et barn får ros for å rydde og rydder oftere. Hva er dette?', array['Positiv forsterkning', 'Negativ forsterkning', 'Straff', 'Utslukking']::text[], 0, 'Noe behagelig legges til.', true, true, 1),
+  ('psykologi-1:laering', 'q03', 'flervalg', 'Hva er negativ forsterkning?', array['Å straffe uønsket atferd', 'Å ignorere atferd', 'Å fjerne noe ubehagelig slik at atferden øker', 'Å gi ros']::text[], 2, 'Forsterkning øker alltid atferden.', true, true, 2),
+  ('psykologi-1:laering', 'q04', 'flervalg', 'Hva viste Bobo-dukke-forsøket?', array['At barn lærer bare av belønning', 'At aggresjon er medfødt', 'At barn glemmer raskt', 'At barn lærer ved å observere voksne']::text[], 3, 'Modellæring.', true, true, 3),
+  ('psykologi-1:laering', 'q05', 'flervalg', 'Hva er akkommodasjon hos Piaget?', array['At skjemaene endres for å passe ny informasjon', 'At ny informasjon passer rett inn', 'At barnet sover', 'At læreren hjelper']::text[], 0, 'Assimilasjon er når informasjonen passer inn.', true, true, 4),
+  ('psykologi-1:laering', 'q06', 'flervalg', 'Hva er den proksimale utviklingssonen?', array['Det eleven allerede kan', 'Det eleven klarer med hjelp, men ikke alene ennå', 'Et klasserom', 'Det eleven aldri kan lære']::text[], 1, 'Vygotskijs begrep.', true, true, 5),
+  ('psykologi-1:laering', 'q07', 'flervalg', 'Hva er metakognisjon?', array['Å puge', 'Å lese fort', 'Å tenke over egen læring', 'Å lære av andre']::text[], 2, 'Hjelper deg å velge riktig strategi.', true, true, 6),
+  ('psykologi-1:laering', 'q08', 'flervalg', 'Hvilken strategi har best forskningsstøtte?', array['Lese om igjen mange ganger', 'Streke under alt', 'Tilpasse seg én læringsstil', 'Teste seg selv og spre repetisjonen']::text[], 3, 'Testing og spredt repetisjon virker.', true, true, 7),
+  ('psykologi-1:laering', 'q09', 'flervalg', 'Hvorfor gir uforutsigbare belønninger vedvarende atferd?', array['Man vet aldri når neste belønning kommer', 'De er alltid store', 'De er straff', 'De gir søvn']::text[], 0, 'Brukes i pengespill og apper.', true, false, 8),
+  ('psykologi-1:laering', 'q10', 'flervalg', 'Hva kan hemme læring?', array['Gode relasjoner', 'Søvnmangel og stress', 'Tydelige mål', 'Mestringsopplevelser']::text[], 1, 'Også forstyrrelser og prestasjonsangst.', true, false, 9),
+  ('psykologi-1:laering', 'm01', 'sant-usant', 'Fobier kan oppstå gjennom klassisk betinging.', array['Sant', 'Usant']::text[], 0, 'Noe nøytralt kobles til frykt.', false, true, 10),
+  ('psykologi-1:laering', 'm02', 'sant-usant', 'Straff øker sannsynligheten for at atferden gjentas.', array['Sant', 'Usant']::text[], 1, 'Straff reduserer atferden.', false, true, 11),
+  ('psykologi-1:laering', 'm03', 'sant-usant', 'Vygotskij mente at språket er et viktig verktøy for læring.', array['Sant', 'Usant']::text[], 0, 'Læring skjer i samspill med andre.', false, true, 12),
+  ('psykologi-1:laering', 'm04', 'sant-usant', 'Forskningen viser tydelig at alle har én fast læringsstil.', array['Sant', 'Usant']::text[], 1, 'Læringsstiler har lite forskningsstøtte.', false, true, 13),
+  ('psykologi-1:laering', 'm05', 'flervalg', 'Hvilket stadium hos Piaget kjennetegnes av abstrakt tenkning?', array['Det sensomotoriske', 'Det formelt operasjonelle', 'Det preoperasjonelle', 'Det konkret operasjonelle']::text[], 1, 'Fra ungdomsalderen.', false, true, 14),
+  ('psykologi-1:laering', 'm06', 'flervalg', 'Hva er et eksempel på en elaboreringsstrategi?', array['Å forklare stoffet med egne ord', 'Å lese samme tekst fem ganger', 'Å skrive av læreboka', 'Å høre musikk']::text[], 0, 'Koble nytt stoff til det du kan.', false, true, 15),
+  ('psykologi-1:laering', 'm07', 'flervalg', 'Hva er stillas i undervisning?', array['Et klasserom', 'En prøve', 'Støtte som gradvis trekkes bort', 'Straff for feil']::text[], 2, 'Hjelper eleven gjennom den proksimale sonen.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('psykologi-1:laering', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Psykologi 1: Motivasjon, mestring og læring
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('psykologi-1:motivasjon-og-mestring', 'psykologi-1', 'motivasjon-og-mestring', 'Motivasjon, mestring og læring', 'Indre og ytre motivasjon, Maslows behovspyramide, selvbestemmelsesteorien, mestringsforventning, attribusjon og tankesett – og hvordan motivasjon, mestring og læring henger sammen.', array[6]::int[], 7, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('psykologi-1:motivasjon-og-mestring', '## Hva er motivasjon?
+
+**Motivasjon** er det som **setter i gang**, gir **retning** til og **opprettholder** atferd. Uten motivasjon blir det lite læring – og uten mestring blir det ofte lite motivasjon.
+
+## Indre og ytre motivasjon
+
+- **Indre motivasjon**: Vi gjør noe fordi aktiviteten i seg selv er **interessant** eller **gøy**.
+- **Ytre motivasjon**: Vi gjør noe for å få en **belønning** eller unngå en **straff** – for eksempel karakterer eller penger.
+
+Ytre belønninger kan i noen tilfeller **svekke** den indre motivasjonen. Barn som fikk belønning for å tegne, tegnet **mindre** av seg selv etterpå enn barn som ikke fikk belønning.
+
+## Maslows behovspyramide
+
+**Abraham Maslow** ordnet menneskets behov i en **pyramide**:
+
+1. **fysiologiske** behov – mat, søvn, vann
+2. **trygghet**
+3. **kjærlighet** og **tilhørighet**
+4. **anerkjennelse** og selvrespekt
+5. **selvrealisering**
+
+Ifølge Maslow må de lavere behovene langt på vei være dekket før de høyere motiverer oss. En elev som er **sulten** eller **utrygg**, har vanskelig for å konsentrere seg om læring. Modellen er kritisert for at rekkefølgen ikke alltid stemmer, og for å være preget av **vestlige** verdier.
+
+## Selvbestemmelsesteorien
+
+**Deci og Ryan** mener vi har tre **grunnleggende psykologiske behov**:
+
+- **Autonomi** – å oppleve at vi selv velger
+- **Kompetanse** – å føle at vi mestrer
+- **Tilhørighet** – å høre til og bli sett
+
+Når behovene dekkes, øker den **indre** motivasjonen.
+
+## Mestringsforventning
+
+**Albert Bandura** innførte begrepet **mestringsforventning** – troen på at du **klarer** en bestemt oppgave. Den bygges gjennom
+
+- **egne mestringserfaringer** – den viktigste kilden
+- å se **andre** som ligner deg, lykkes
+- **oppmuntring** fra andre
+- hvordan du tolker **kroppens signaler**, som hjertebank før en prøve
+
+Høy mestringsforventning gjør at vi **prøver** mer, **holder ut** lenger og velger mer **krevende** oppgaver.
+
+## Attribusjon og tankesett
+
+**Attribusjon** er hvordan vi **forklarer** suksess og nederlag. Forklarer eleven en dårlig karakter med «jeg er dum», er årsaken **indre**, **stabil** og **ukontrollerbar** – og motivasjonen synker. Forklarer eleven den med «jeg øvde for lite», kan det **endres**.
+
+Opplever noen gang på gang at innsats ikke hjelper, kan de utvikle **lært hjelpeløshet** og slutte å prøve.
+
+**Carol Dweck** skiller mellom et **fastlåst** tankesett – evner er medfødte og uforanderlige – og et **veksttankesett** – evner kan utvikles gjennom innsats. Et veksttankesett gjør det lettere å se **feil** som en del av læringen.
+
+## Flyt
+
+**Flyt** er en tilstand der vi er helt **oppslukt** av en aktivitet. Den oppstår når **utfordringen** passer til **ferdighetene** – for lett gir **kjedsomhet**, for vanskelig gir **angst**.
+
+## Sammenhengen
+
+**Motivasjon** gir innsats, **innsats** gir **mestring**, og mestring styrker **mestringsforventningen** og motivasjonen – en **positiv spiral**. Den kan også gå motsatt vei: Nederlag kan gi lavere forventning, mindre innsats og nye nederlag. Lærere kan bryte en negativ spiral ved å gi oppgaver på **riktig nivå**, konkrete **tilbakemeldinger** og mulighet for **valg**.', '{"label":"Motivasjon og mestring","children":[{"label":"Typer","children":[{"label":"Indre"},{"label":"Ytre"}]},{"label":"Behov","children":[{"label":"Maslow"},{"label":"Autonomi, kompetanse, tilhørighet"}]},{"label":"Mestring","children":[{"label":"Mestringsforventning"},{"label":"Fire kilder"}]},{"label":"Tolkning","children":[{"label":"Attribusjon"},{"label":"Lært hjelpeløshet"},{"label":"Tankesett"}]},{"label":"Læring","children":[{"label":"Flyt"},{"label":"Positiv spiral"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'psykologi-1:motivasjon-og-mestring';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('psykologi-1:motivasjon-og-mestring', 'Motivasjon', 'Det som setter i gang, gir retning til og opprettholder atferd.', 0),
+  ('psykologi-1:motivasjon-og-mestring', 'Indre motivasjon', 'Å gjøre noe fordi aktiviteten selv er interessant.', 1),
+  ('psykologi-1:motivasjon-og-mestring', 'Ytre motivasjon', 'Å gjøre noe for belønning eller for å unngå straff.', 2),
+  ('psykologi-1:motivasjon-og-mestring', 'Maslows behovspyramide', 'Fysiologiske behov, trygghet, tilhørighet, anerkjennelse og selvrealisering.', 3),
+  ('psykologi-1:motivasjon-og-mestring', 'Selvbestemmelsesteorien', 'Deci og Ryan: behov for autonomi, kompetanse og tilhørighet.', 4),
+  ('psykologi-1:motivasjon-og-mestring', 'Autonomi', 'Opplevelsen av å velge selv.', 5),
+  ('psykologi-1:motivasjon-og-mestring', 'Mestringsforventning', 'Troen på at man klarer en bestemt oppgave.', 6),
+  ('psykologi-1:motivasjon-og-mestring', 'Mestringserfaring', 'Den viktigste kilden til mestringsforventning.', 7),
+  ('psykologi-1:motivasjon-og-mestring', 'Attribusjon', 'Hvordan vi forklarer årsaken til suksess og nederlag.', 8),
+  ('psykologi-1:motivasjon-og-mestring', 'Lært hjelpeløshet', 'Å slutte å prøve etter å ha opplevd at innsats ikke hjelper.', 9),
+  ('psykologi-1:motivasjon-og-mestring', 'Fastlåst tankesett', 'Troen på at evner er medfødte og uforanderlige.', 10),
+  ('psykologi-1:motivasjon-og-mestring', 'Veksttankesett', 'Troen på at evner kan utvikles gjennom innsats.', 11),
+  ('psykologi-1:motivasjon-og-mestring', 'Flyt', 'Å være helt oppslukt når utfordringen passer til ferdighetene.', 12),
+  ('psykologi-1:motivasjon-og-mestring', 'Positiv spiral', 'Motivasjon gir innsats og mestring, som gir mer motivasjon.', 13),
+  ('psykologi-1:motivasjon-og-mestring', 'Carol Dweck', 'Psykolog kjent for teorien om tankesett.', 14);
+delete from public.quiz_sporsmal where tema_id = 'psykologi-1:motivasjon-og-mestring';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('psykologi-1:motivasjon-og-mestring', 'q01', 'flervalg', 'Hva er indre motivasjon?', array['Å jobbe for karakterer', 'Å gjøre noe fordi det er interessant i seg selv', 'Å unngå straff', 'Å få penger']::text[], 1, 'Ytre motivasjon handler om belønning og straff.', true, true, 0),
+  ('psykologi-1:motivasjon-og-mestring', 'q02', 'flervalg', 'Hva ligger nederst i Maslows behovspyramide?', array['Fysiologiske behov', 'Selvrealisering', 'Anerkjennelse', 'Tilhørighet']::text[], 0, 'Mat, søvn og vann.', true, true, 1),
+  ('psykologi-1:motivasjon-og-mestring', 'q03', 'flervalg', 'Hvilke tre behov beskriver selvbestemmelsesteorien?', array['Mat, søvn og vann', 'Id, ego og superego', 'Autonomi, kompetanse og tilhørighet', 'Trygghet, penger og makt']::text[], 2, 'Deci og Ryan.', true, true, 2),
+  ('psykologi-1:motivasjon-og-mestring', 'q04', 'flervalg', 'Hva er den viktigste kilden til mestringsforventning?', array['Belønninger', 'Karakterer', 'Oppmuntring fra lærer', 'Egne mestringserfaringer']::text[], 3, 'Ifølge Bandura.', true, true, 3),
+  ('psykologi-1:motivasjon-og-mestring', 'q05', 'flervalg', 'En elev sier «jeg er bare dum i matte». Hvordan er denne attribusjonen?', array['Indre, stabil og ukontrollerbar', 'Ytre og ustabil', 'Kontrollerbar', 'Ytre og stabil']::text[], 0, 'Den svekker motivasjonen.', true, true, 4),
+  ('psykologi-1:motivasjon-og-mestring', 'q06', 'flervalg', 'Hva er lært hjelpeløshet?', array['Å be om hjelp', 'Å slutte å prøve fordi innsats ikke oppleves å hjelpe', 'Å hjelpe andre', 'Å lære raskt']::text[], 1, 'Beskrevet av Seligman.', true, true, 5),
+  ('psykologi-1:motivasjon-og-mestring', 'q07', 'flervalg', 'Hva kjennetegner et veksttankesett?', array['At evner er medfødte', 'At feil er pinlige', 'At evner kan utvikles gjennom innsats', 'At man ikke trenger å øve']::text[], 2, 'Carol Dweck.', true, true, 6),
+  ('psykologi-1:motivasjon-og-mestring', 'q08', 'flervalg', 'Når oppstår flyt?', array['Når oppgaven er altfor lett', 'Når oppgaven er altfor vanskelig', 'Når man er trøtt', 'Når utfordringen passer til ferdighetene']::text[], 3, 'For lett gir kjedsomhet, for vanskelig gir angst.', true, true, 7),
+  ('psykologi-1:motivasjon-og-mestring', 'q09', 'flervalg', 'Hva kan skje med indre motivasjon når man får belønning for noe man allerede liker?', array['Den kan svekkes', 'Den blir alltid sterkere', 'Ingenting', 'Den forsvinner alltid']::text[], 0, 'Vist i forsøk med barn som tegnet.', true, false, 8),
+  ('psykologi-1:motivasjon-og-mestring', 'q10', 'flervalg', 'Hvordan kan en lærer bryte en negativ spiral?', array['Gi vanskeligere oppgaver', 'Gi oppgaver på riktig nivå og konkrete tilbakemeldinger', 'Ikke gi tilbakemeldinger', 'Sammenligne eleven med de beste']::text[], 1, 'Mestring styrker motivasjonen.', true, false, 9),
+  ('psykologi-1:motivasjon-og-mestring', 'm01', 'sant-usant', 'En elev som er sulten eller utrygg, har ofte vanskeligere for å lære.', array['Sant', 'Usant']::text[], 0, 'Grunnleggende behov må dekkes.', false, true, 10),
+  ('psykologi-1:motivasjon-og-mestring', 'm02', 'sant-usant', 'Maslows pyramide er fri for kritikk.', array['Sant', 'Usant']::text[], 1, 'Rekkefølgen stemmer ikke alltid, og den er preget av vestlige verdier.', false, true, 11),
+  ('psykologi-1:motivasjon-og-mestring', 'm03', 'sant-usant', 'Å se andre som ligner deg lykkes, kan styrke din egen mestringsforventning.', array['Sant', 'Usant']::text[], 0, 'En av Banduras kilder.', false, true, 12),
+  ('psykologi-1:motivasjon-og-mestring', 'm04', 'sant-usant', 'Høy mestringsforventning gjør at vi gir opp raskere.', array['Sant', 'Usant']::text[], 1, 'Vi prøver mer og holder ut lenger.', false, true, 13),
+  ('psykologi-1:motivasjon-og-mestring', 'm05', 'flervalg', 'Hvilken forklaring på en dårlig karakter gir best grunnlag for motivasjon?', array['«Jeg er dum»', '«Jeg øvde for lite»', '«Læreren hater meg»', '«Jeg har aldri vært flink»']::text[], 1, 'Årsaken kan endres.', false, true, 14),
+  ('psykologi-1:motivasjon-og-mestring', 'm06', 'flervalg', 'Hva ligger øverst i Maslows behovspyramide?', array['Selvrealisering', 'Trygghet', 'Fysiologiske behov', 'Tilhørighet']::text[], 0, 'Å utvikle sitt potensial.', false, true, 15),
+  ('psykologi-1:motivasjon-og-mestring', 'm07', 'flervalg', 'Hva gir en for vanskelig oppgave ofte?', array['Flyt', 'Kjedsomhet', 'Angst og stress', 'Selvrealisering']::text[], 2, 'Flyt krever balanse.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('psykologi-1:motivasjon-og-mestring', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Psykologi 1: Arv, miljø, personlighet og identitet
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('psykologi-1:personlighet-og-identitet', 'psykologi-1', 'personlighet-og-identitet', 'Arv, miljø, personlighet og identitet', 'Samspillet mellom arv og miljø, tvilling- og adopsjonsstudier, temperament, personlighetsteorier som femfaktormodellen, og identitetsutvikling hos Erikson og Marcia.', array[7]::int[], 8, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('psykologi-1:personlighet-og-identitet', '## Arv og miljø
+
+Er vi slik vi er på grunn av **genene** eller **oppveksten**? I dag mener de fleste psykologer at spørsmålet er feil stilt: **Arv og miljø virker sammen**.
+
+- Gener gir **anlegg** – for eksempel for å være utadvendt eller engstelig – men miljøet avgjør om og hvordan anleggene **kommer til uttrykk**.
+- Miljøet kan påvirke hvilke gener som **skrus av og på**. Dette kalles **epigenetikk**.
+- Barn **påvirker** også miljøet sitt: Et smilende barn får ofte flere smil tilbake.
+
+## Hvordan forskes det på arv og miljø?
+
+- **Tvillingstudier**: **Eneggede** tvillinger har tilnærmet **like gener**, mens **toeggede** deler omtrent **halvparten**. Er eneggede tvillinger mer like enn toeggede, tyder det på at **arv** betyr noe.
+- **Adopsjonsstudier**: Ligner adopterte barn mest på de **biologiske** foreldrene (arv) eller **adoptivforeldrene** (miljø)?
+
+Studiene tyder på at personlighetstrekk er **delvis arvelige**, ofte anslått til rundt **halvparten** av variasjonen mellom mennesker. Resten skyldes **miljø** – særlig erfaringer som er **unike** for hver person.
+
+## Temperament
+
+**Temperament** er medfødte tendenser i hvordan vi **reagerer**, for eksempel hvor **aktive**, **rolige** eller **sky** vi er. Noen spedbarn er lette å roe, andre reagerer sterkt på nye ting. Temperamentet er et **grunnlag** som personligheten bygges videre på.
+
+## Personlighet
+
+**Personlighet** er relativt **stabile** mønstre i hvordan vi tenker, føler og handler.
+
+- **Trekkteori**: Den mest brukte modellen er **femfaktormodellen** med fem dimensjoner:
+  - **åpenhet** for erfaringer
+  - **planmessighet**
+  - **ekstroversjon** (utadvendthet)
+  - **medmenneskelighet**
+  - **nevrotisisme** (følelsesmessig ustabilitet)
+
+  Trekkene er ganske **stabile** i voksen alder, men kan endre seg noe over livet.
+
+- **Psykodynamisk teori** (Freud) forklarer personligheten ut fra **ubevisste** konflikter og barndommen.
+- **Humanistisk teori** (Rogers) vektlegger **selvbildet**. Når det er stor avstand mellom hvem vi **er**, og hvem vi **ønsker** å være, kan vi få det vanskelig.
+- **Sosialkognitiv teori** (Bandura) ser personligheten som et samspill mellom **person**, **atferd** og **miljø**.
+
+## Identitet
+
+**Identitet** er opplevelsen av **hvem man er** – og å være den **samme** over tid.
+
+**Erik Erikson** beskrev livet som **åtte stadier**, hvert med en **krise** eller oppgave. I **ungdomstiden** står kampen mellom **identitet** og **rolleforvirring**: Hvem er jeg, hva tror jeg på, og hvor skal jeg?
+
+**James Marcia** beskrev fire **identitetsstatuser** ut fra om ungdommen har **utforsket** alternativer, og om hen har **forpliktet** seg:
+
+| Status | Utforsket? | Forpliktet? |
+|---|---|---|
+| **Oppnådd identitet** | ja | ja |
+| **Moratorium** | er i gang | nei |
+| **Overtatt identitet** | nei | ja – ofte foreldrenes valg |
+| **Diffus identitet** | nei | nei |
+
+Identitet formes også av **grupper** vi tilhører – **sosial identitet** – som familie, venner, kjønn, religion, språk og kultur. **Sosiale medier** gir nye arenaer for å **prøve ut** og **vise fram** identitet, men også for **sammenligning** med andre.
+
+## Oppsummering
+
+Personlighet og identitet vokser fram i et **samspill** mellom **medfødte anlegg**, **erfaringer**, **relasjoner** og **kultur** – og mennesket er selv med på å forme sin egen utvikling.', '{"label":"Arv, miljø og personlighet","children":[{"label":"Arv og miljø","children":[{"label":"Samspill"},{"label":"Epigenetikk"},{"label":"Tvilling- og adopsjonsstudier"}]},{"label":"Personlighet","children":[{"label":"Temperament"},{"label":"Femfaktormodellen"},{"label":"Freud, Rogers og Bandura"}]},{"label":"Erikson","children":[{"label":"Åtte stadier"},{"label":"Identitet mot rolleforvirring"}]},{"label":"Marcia","children":[{"label":"Utforsking"},{"label":"Forpliktelse"},{"label":"Fire statuser"}]},{"label":"Sosial identitet","children":[{"label":"Grupper"},{"label":"Sosiale medier"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'psykologi-1:personlighet-og-identitet';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('psykologi-1:personlighet-og-identitet', 'Arv og miljø', 'Gener og erfaringer som sammen former oss.', 0),
+  ('psykologi-1:personlighet-og-identitet', 'Anlegg', 'Genetisk grunnlag som miljøet avgjør uttrykket av.', 1),
+  ('psykologi-1:personlighet-og-identitet', 'Epigenetikk', 'Miljøet påvirker hvilke gener som skrus av og på.', 2),
+  ('psykologi-1:personlighet-og-identitet', 'Tvillingstudier', 'Sammenligner eneggede og toeggede tvillinger for å undersøke arv.', 3),
+  ('psykologi-1:personlighet-og-identitet', 'Adopsjonsstudier', 'Sammenligner adopterte med biologiske foreldre og adoptivforeldre.', 4),
+  ('psykologi-1:personlighet-og-identitet', 'Temperament', 'Medfødte tendenser i hvordan vi reagerer.', 5),
+  ('psykologi-1:personlighet-og-identitet', 'Personlighet', 'Relativt stabile mønstre i tanker, følelser og atferd.', 6),
+  ('psykologi-1:personlighet-og-identitet', 'Femfaktormodellen', 'Åpenhet, planmessighet, ekstroversjon, medmenneskelighet og nevrotisisme.', 7),
+  ('psykologi-1:personlighet-og-identitet', 'Nevrotisisme', 'Tendens til følelsesmessig ustabilitet og bekymring.', 8),
+  ('psykologi-1:personlighet-og-identitet', 'Selvbilde', 'Hvordan vi oppfatter oss selv – sentralt hos Rogers.', 9),
+  ('psykologi-1:personlighet-og-identitet', 'Identitet', 'Opplevelsen av hvem man er, og å være den samme over tid.', 10),
+  ('psykologi-1:personlighet-og-identitet', 'Identitet mot rolleforvirring', 'Eriksons stadium i ungdomstiden.', 11),
+  ('psykologi-1:personlighet-og-identitet', 'Oppnådd identitet', 'Marcia: har utforsket og forpliktet seg.', 12),
+  ('psykologi-1:personlighet-og-identitet', 'Moratorium', 'Marcia: utforsker, men har ikke forpliktet seg ennå.', 13),
+  ('psykologi-1:personlighet-og-identitet', 'Overtatt identitet', 'Marcia: forpliktet uten å utforske, ofte foreldrenes valg.', 14),
+  ('psykologi-1:personlighet-og-identitet', 'Diffus identitet', 'Marcia: verken utforsket eller forpliktet.', 15),
+  ('psykologi-1:personlighet-og-identitet', 'Sosial identitet', 'Den delen av identiteten som kommer fra gruppene vi tilhører.', 16);
+delete from public.quiz_sporsmal where tema_id = 'psykologi-1:personlighet-og-identitet';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('psykologi-1:personlighet-og-identitet', 'q01', 'flervalg', 'Hva mener de fleste psykologer i dag om arv og miljø?', array['Bare arv betyr noe', 'Arv og miljø virker sammen', 'Bare miljø betyr noe', 'Ingen av delene betyr noe']::text[], 1, 'Spørsmålet «arv eller miljø» er feil stilt.', true, true, 0),
+  ('psykologi-1:personlighet-og-identitet', 'q02', 'flervalg', 'Hvorfor brukes eneggede tvillinger i forskning?', array['De har tilnærmet like gener', 'De har ulike gener', 'De vokser alltid opp hver for seg', 'De er alltid like i alt']::text[], 0, 'Forskjeller kan da skyldes miljø.', true, true, 1),
+  ('psykologi-1:personlighet-og-identitet', 'q03', 'flervalg', 'Hva er epigenetikk?', array['Studiet av tvillinger', 'En personlighetstest', 'At miljøet påvirker hvilke gener som skrus av og på', 'At gener aldri endres']::text[], 2, 'Et eksempel på samspill mellom arv og miljø.', true, true, 2),
+  ('psykologi-1:personlighet-og-identitet', 'q04', 'flervalg', 'Hvilken dimensjon hører til femfaktormodellen?', array['Intelligens', 'Kreativitet', 'Humor', 'Ekstroversjon']::text[], 3, 'Sammen med åpenhet, planmessighet, medmenneskelighet og nevrotisisme.', true, true, 3),
+  ('psykologi-1:personlighet-og-identitet', 'q05', 'flervalg', 'Hvilket stadium hos Erikson hører til ungdomstiden?', array['Identitet mot rolleforvirring', 'Tillit mot mistillit', 'Integritet mot fortvilelse', 'Intimitet mot isolasjon']::text[], 0, 'Hvem er jeg, og hvor skal jeg?', true, true, 4),
+  ('psykologi-1:personlighet-og-identitet', 'q06', 'flervalg', 'En ungdom har valgt samme yrke som foreldrene uten å vurdere andre muligheter. Hvilken status er dette hos Marcia?', array['Oppnådd identitet', 'Overtatt identitet', 'Moratorium', 'Diffus identitet']::text[], 1, 'Forpliktet uten å utforske.', true, true, 5),
+  ('psykologi-1:personlighet-og-identitet', 'q07', 'flervalg', 'Hva er temperament?', array['Et resultat av oppdragelsen alene', 'Et personlighetstrekk som dannes i voksen alder', 'Medfødte tendenser i hvordan vi reagerer', 'En identitetsstatus']::text[], 2, 'Et grunnlag for personligheten.', true, true, 6),
+  ('psykologi-1:personlighet-og-identitet', 'q08', 'flervalg', 'Hva vektlegger Rogers i sin personlighetsteori?', array['Ubevisste drifter', 'Gener', 'Belønning og straff', 'Selvbildet og avstanden til den man ønsker å være']::text[], 3, 'Et humanistisk perspektiv.', true, true, 7),
+  ('psykologi-1:personlighet-og-identitet', 'q09', 'flervalg', 'Hva er moratorium hos Marcia?', array['At man utforsker, men ikke har forpliktet seg ennå', 'At man har bestemt seg', 'At man ikke bryr seg', 'At man overtar foreldrenes valg']::text[], 0, 'En aktiv utforskningsfase.', true, false, 8),
+  ('psykologi-1:personlighet-og-identitet', 'q10', 'flervalg', 'Hva er sosial identitet?', array['Antall følgere i sosiale medier', 'Den delen av identiteten som kommer fra gruppene vi tilhører', 'Et personlighetstrekk', 'En diagnose']::text[], 1, 'Familie, venner, kultur og mer.', true, false, 9),
+  ('psykologi-1:personlighet-og-identitet', 'm01', 'sant-usant', 'Barn kan selv påvirke miljøet de vokser opp i.', array['Sant', 'Usant']::text[], 0, 'Et smilende barn får ofte flere smil tilbake.', false, true, 10),
+  ('psykologi-1:personlighet-og-identitet', 'm02', 'sant-usant', 'Personlighetstrekk er helt uforanderlige gjennom hele livet.', array['Sant', 'Usant']::text[], 1, 'De er ganske stabile, men kan endre seg noe.', false, true, 11),
+  ('psykologi-1:personlighet-og-identitet', 'm03', 'sant-usant', 'Toeggede tvillinger deler omtrent halvparten av genene.', array['Sant', 'Usant']::text[], 0, 'Som vanlige søsken.', false, true, 12),
+  ('psykologi-1:personlighet-og-identitet', 'm04', 'sant-usant', 'Diffus identitet betyr at ungdommen har utforsket mye og tatt et klart valg.', array['Sant', 'Usant']::text[], 1, 'Diffus identitet betyr verken utforskning eller forpliktelse.', false, true, 13),
+  ('psykologi-1:personlighet-og-identitet', 'm05', 'flervalg', 'Hva måler nevrotisisme i femfaktormodellen?', array['Hvor utadvendt man er', 'Tendens til følelsesmessig ustabilitet', 'Hvor ryddig man er', 'Hvor kreativ man er']::text[], 1, 'Bekymring og negative følelser.', false, true, 14),
+  ('psykologi-1:personlighet-og-identitet', 'm06', 'flervalg', 'Hvem beskrev fire identitetsstatuser?', array['James Marcia', 'Sigmund Freud', 'Ivan Pavlov', 'Jean Piaget']::text[], 0, 'Bygger på Eriksons teori.', false, true, 15),
+  ('psykologi-1:personlighet-og-identitet', 'm07', 'flervalg', 'Hva tyder det på hvis eneggede tvillinger er mer like enn toeggede?', array['At miljøet betyr alt', 'At tvillinger er spesielle', 'At arv betyr noe for egenskapen', 'At studien er feil']::text[], 2, 'De har flere gener felles.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('psykologi-1:personlighet-og-identitet', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Psykologi 1: Tilknytning
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('psykologi-1:tilknytning', 'psykologi-1', 'tilknytning', 'Tilknytning', 'Bowlbys tilknytningsteori, Harlows og Lorenz'' forsøk, Ainsworths fremmedsituasjon og tilknytningsmønstrene – og hvordan arv, miljø og kultur påvirker tilknytning fra spedbarnsalder til voksne relasjoner.', array[7]::int[], 9, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('psykologi-1:tilknytning', '## Hva er tilknytning?
+
+**Tilknytning** er det **følelsesmessige båndet** mellom et barn og de nærmeste **omsorgspersonene**. Båndet gir barnet **trygghet** og er grunnlaget for senere **relasjoner**.
+
+## Bowlbys tilknytningsteori
+
+Den britiske psykiateren **John Bowlby** mente at barn har et **medfødt** behov for å knytte seg til en omsorgsperson. Behovet har utviklet seg fordi barn som holdt seg **nær** voksne, hadde større sjanse til å **overleve**. Atferd som å **gråte**, **smile** og **krype etter** omsorgspersonen er **tilknytningsatferd**.
+
+- Omsorgspersonen er en **trygg base** som barnet kan **utforske** verden fra,
+- og en **trygg havn** barnet kan vende tilbake til når det blir **redd** eller lei seg.
+
+Gjennom erfaringene med omsorgspersonene danner barnet **indre arbeidsmodeller** – forventninger om seg selv og andre, som «jeg er verdt å bry seg om» og «andre er til å stole på».
+
+## Forsøk som påvirket teorien
+
+- **Konrad Lorenz** viste at gåsunger fulgte den første bevegelige skikkelsen de så etter klekking – også Lorenz selv. Dette kalles **preging**.
+- **Harry Harlow** lot apeunger velge mellom en «mor» av **ståltråd** med melk og en myk «mor» av **stoff** uten mat. Ungene søkte til den **myke** moren, særlig når de ble **redde**. Trøst og nærhet var altså viktigere enn mat. Forsøkene er i dag kritisert for å være **uetiske**.
+
+## Ainsworths fremmedsituasjon
+
+**Mary Ainsworth** observerte ettåringer i **fremmedsituasjonen**: Barnet er i et ukjent rom med omsorgspersonen, en fremmed kommer inn, omsorgspersonen går ut og kommer tilbake. Forskerne så særlig på hvordan barnet reagerte ved **gjenforeningen**.
+
+| Mønster | Kjennetegn |
+|---|---|
+| **Trygg** | Barnet blir lei seg når omsorgspersonen går, men søker trøst og roer seg raskt når hen kommer tilbake. |
+| **Utrygg-unnvikende** | Barnet viser lite reaksjon og unngår omsorgspersonen ved gjenforeningen. |
+| **Utrygg-ambivalent** | Barnet blir svært urolig, søker kontakt, men lar seg vanskelig trøste. |
+| **Desorganisert** | Barnet viser motstridende eller forvirret atferd – ofte knyttet til skremmende omsorg. |
+
+**Sensitiv omsorg** – at omsorgspersonen **ser** barnets signaler og **svarer** på dem – er den viktigste forutsetningen for **trygg** tilknytning.
+
+## Arv, miljø og kultur
+
+- Barnets **temperament** påvirker samspillet. Et barn som er vanskelig å roe, kan gjøre det mer krevende å gi sensitiv omsorg.
+- Tilknytning er likevel først og fremst formet av **samspillet** – altså **miljøet**.
+- Barn kan knytte seg til **flere** personer, som foreldre, besteforeldre og ansatte i barnehagen.
+- Forekomsten av de ulike mønstrene **varierer** mellom kulturer, og det som regnes som god omsorg, kan være ulikt.
+
+## Tilknytning senere i livet
+
+Forskning tyder på at de **indre arbeidsmodellene** kan påvirke **vennskap** og **kjærlighetsforhold** i voksen alder. Men tilknytning er **ikke skjebne**. Nye, trygge relasjoner – med en partner, en lærer eller en terapeut – kan **endre** mønstrene.
+
+Studier av barn fra svært mangelfulle barnehjem viser at tidlig **omsorgssvikt** kan gi varige vansker, men også at mange tar **igjen** mye når de kommer til trygge familier, særlig hvis det skjer **tidlig**.
+
+## Betydning i praksis
+
+Kunnskap om tilknytning brukes i **helsestasjoner**, **barnehager** og **barnevernet**, for eksempel i veiledningsprogrammer som hjelper foreldre å forstå barnets **behov** og signaler.', '{"label":"Tilknytning","children":[{"label":"Bowlby","children":[{"label":"Medfødt behov"},{"label":"Trygg base og havn"},{"label":"Indre arbeidsmodeller"}]},{"label":"Forsøk","children":[{"label":"Lorenz: preging"},{"label":"Harlow: trøst før mat"}]},{"label":"Ainsworth","children":[{"label":"Fremmedsituasjonen"},{"label":"Trygg og utrygg"},{"label":"Desorganisert"}]},{"label":"Arv og miljø","children":[{"label":"Temperament"},{"label":"Sensitiv omsorg"},{"label":"Kultur"}]},{"label":"Senere i livet","children":[{"label":"Vennskap og kjærlighet"},{"label":"Kan endres"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'psykologi-1:tilknytning';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('psykologi-1:tilknytning', 'Tilknytning', 'Det følelsesmessige båndet mellom barn og omsorgsperson.', 0),
+  ('psykologi-1:tilknytning', 'John Bowlby', 'Utviklet tilknytningsteorien.', 1),
+  ('psykologi-1:tilknytning', 'Tilknytningsatferd', 'Gråt, smil og å søke nærhet til omsorgspersonen.', 2),
+  ('psykologi-1:tilknytning', 'Trygg base', 'Omsorgspersonen som barnet utforsker verden fra.', 3),
+  ('psykologi-1:tilknytning', 'Trygg havn', 'Omsorgspersonen barnet vender tilbake til når det blir redd.', 4),
+  ('psykologi-1:tilknytning', 'Indre arbeidsmodeller', 'Forventninger om seg selv og andre, formet av tidlige erfaringer.', 5),
+  ('psykologi-1:tilknytning', 'Preging', 'Lorenz: gåsunger følger den første bevegelige skikkelsen de ser.', 6),
+  ('psykologi-1:tilknytning', 'Harlows apeforsøk', 'Apeunger valgte myk «mor» framfor ståltråd-«mor» med melk.', 7),
+  ('psykologi-1:tilknytning', 'Fremmedsituasjonen', 'Ainsworths observasjon av ettåringers reaksjon på atskillelse og gjenforening.', 8),
+  ('psykologi-1:tilknytning', 'Trygg tilknytning', 'Barnet søker trøst og roer seg raskt ved gjenforening.', 9),
+  ('psykologi-1:tilknytning', 'Utrygg-unnvikende', 'Barnet viser lite reaksjon og unngår omsorgspersonen.', 10),
+  ('psykologi-1:tilknytning', 'Utrygg-ambivalent', 'Barnet er svært urolig og lar seg vanskelig trøste.', 11),
+  ('psykologi-1:tilknytning', 'Desorganisert tilknytning', 'Motstridende atferd, ofte knyttet til skremmende omsorg.', 12),
+  ('psykologi-1:tilknytning', 'Sensitiv omsorg', 'Å se og svare på barnets signaler.', 13),
+  ('psykologi-1:tilknytning', 'Omsorgssvikt', 'Når barnet ikke får den omsorgen det trenger.', 14);
+delete from public.quiz_sporsmal where tema_id = 'psykologi-1:tilknytning';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('psykologi-1:tilknytning', 'q01', 'flervalg', 'Hvorfor mente Bowlby at tilknytning er medfødt?', array['Fordi barn lærer det på skolen', 'Fordi barn som holdt seg nær voksne, hadde større sjanse til å overleve', 'Fordi foreldre krever det', 'Fordi det skyldes mat']::text[], 1, 'Et evolusjonært argument.', true, true, 0),
+  ('psykologi-1:tilknytning', 'q02', 'flervalg', 'Hva viste Harlows forsøk med apeunger?', array['At trøst og nærhet var viktigere enn mat', 'At mat var det viktigste', 'At aper ikke knytter seg', 'At aper foretrekker ståltråd']::text[], 0, 'Ungene søkte til den myke «moren».', true, true, 1),
+  ('psykologi-1:tilknytning', 'q03', 'flervalg', 'Hva er en trygg base?', array['Et barnehjem', 'En barnehage', 'Omsorgspersonen som barnet utforsker verden fra', 'Et leketøy']::text[], 2, 'Og en trygg havn å vende tilbake til.', true, true, 2),
+  ('psykologi-1:tilknytning', 'q04', 'flervalg', 'Hva så Ainsworth særlig på i fremmedsituasjonen?', array['Hvor mye barnet spiste', 'Hvor fort barnet krøp', 'Hvor mange ord barnet kunne', 'Hvordan barnet reagerte ved gjenforeningen']::text[], 3, 'Reaksjonen avslører tilknytningsmønsteret.', true, true, 3),
+  ('psykologi-1:tilknytning', 'q05', 'flervalg', 'Hva kjennetegner et trygt tilknyttet barn?', array['Søker trøst og roer seg raskt ved gjenforening', 'Unngår omsorgspersonen', 'Lar seg ikke trøste', 'Bryr seg ikke når omsorgspersonen går']::text[], 0, 'Omsorgspersonen er en trygg havn.', true, true, 4),
+  ('psykologi-1:tilknytning', 'q06', 'flervalg', 'Hva er den viktigste forutsetningen for trygg tilknytning?', array['Mye leker', 'Sensitiv omsorg', 'Streng oppdragelse', 'At barnet begynner tidlig i barnehage']::text[], 1, 'Å se og svare på barnets signaler.', true, true, 5),
+  ('psykologi-1:tilknytning', 'q07', 'flervalg', 'Hva er indre arbeidsmodeller?', array['Planer for skolearbeid', 'Modeller av hjernen', 'Forventninger om seg selv og andre formet av tidlige erfaringer', 'Arbeidsavtaler']::text[], 2, 'Kan påvirke senere relasjoner.', true, true, 6),
+  ('psykologi-1:tilknytning', 'q08', 'flervalg', 'Hva viste Lorenz med gåsunger?', array['Tilknytningsmønstre', 'Klassisk betinging', 'Modellæring', 'Preging']::text[], 3, 'De fulgte den første bevegelige skikkelsen.', true, true, 7),
+  ('psykologi-1:tilknytning', 'q09', 'flervalg', 'Kan tilknytningsmønstre endres senere i livet?', array['Ja, gjennom nye trygge relasjoner', 'Nei, aldri', 'Bare med medisiner', 'Bare hos barn under ett år']::text[], 0, 'Tilknytning er ikke skjebne.', true, false, 8),
+  ('psykologi-1:tilknytning', 'q10', 'flervalg', 'Hvordan kan barnets temperament påvirke tilknytningen?', array['Det har ingen betydning', 'Et barn som er vanskelig å roe, kan gjøre sensitiv omsorg mer krevende', 'Temperament bestemmer alt', 'Bare rolige barn blir trygge']::text[], 1, 'Arv og miljø virker sammen.', true, false, 9),
+  ('psykologi-1:tilknytning', 'm01', 'sant-usant', 'Barn kan knytte seg til flere omsorgspersoner.', array['Sant', 'Usant']::text[], 0, 'For eksempel foreldre, besteforeldre og barnehageansatte.', false, true, 10),
+  ('psykologi-1:tilknytning', 'm02', 'sant-usant', 'Harlows forsøk regnes i dag som helt uproblematiske etisk.', array['Sant', 'Usant']::text[], 1, 'De er kritisert for å være uetiske.', false, true, 11),
+  ('psykologi-1:tilknytning', 'm03', 'sant-usant', 'Desorganisert tilknytning er ofte knyttet til skremmende omsorg.', array['Sant', 'Usant']::text[], 0, 'Barnet blir redd for den som skal gi trygghet.', false, true, 12),
+  ('psykologi-1:tilknytning', 'm04', 'sant-usant', 'Tidlig omsorgssvikt gir alltid vansker som aldri kan bedres.', array['Sant', 'Usant']::text[], 1, 'Mange tar igjen mye i trygge familier.', false, true, 13),
+  ('psykologi-1:tilknytning', 'm05', 'flervalg', 'Et barn viser lite reaksjon når omsorgspersonen går, og unngår hen ved gjenforeningen. Hvilket mønster er dette?', array['Trygg', 'Utrygg-unnvikende', 'Utrygg-ambivalent', 'Desorganisert']::text[], 1, 'Barnet unngår kontakt.', false, true, 14),
+  ('psykologi-1:tilknytning', 'm06', 'flervalg', 'Hvor brukes kunnskap om tilknytning i praksis?', array['I helsestasjoner, barnehager og barnevernet', 'Bare i idretten', 'Bare i markedsføring', 'Ingen steder']::text[], 0, 'For eksempel i foreldreveiledning.', false, true, 15),
+  ('psykologi-1:tilknytning', 'm07', 'flervalg', 'Hvorfor kan fordelingen av tilknytningsmønstre variere mellom land?', array['Fordi gener er helt ulike', 'Fordi forskerne er ulike', 'Fordi omsorgspraksis og kultur varierer', 'Fordi barn ikke knytter seg i noen land']::text[], 2, 'Det som regnes som god omsorg, kan være ulikt.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('psykologi-1:tilknytning', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Psykologi 1: Evolusjonspsykologi
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('psykologi-1:evolusjonspsykologi', 'psykologi-1', 'evolusjonspsykologi', 'Evolusjonspsykologi', 'Hvordan naturlig seleksjon kan ha formet menneskets tanker, emosjoner og atferd – frykt, emosjoner, partnervalg og altruisme – hvorfor fortidens tilpasninger ikke alltid passer i dag, og hvilken kritikk evolusjonspsykologien møter.', array[12]::int[], 10, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('psykologi-1:evolusjonspsykologi', '## Naturlig seleksjon
+
+**Charles Darwin** beskrev i **1859** hvordan arter endrer seg gjennom **naturlig seleksjon**:
+
+1. Individer i en art er **forskjellige**.
+2. Mange egenskaper er **arvelige**.
+3. Individer med egenskaper som gir **overlevelse** og **reproduksjon**, får flere etterkommere.
+
+Over mange generasjoner blir de nyttige egenskapene **vanligere**. **Seksuell seleksjon** handler om egenskaper som gjør det lettere å få en **partner**.
+
+## Hva er evolusjonspsykologi?
+
+**Evolusjonspsykologien** mener at også **psyken** er formet av naturlig seleksjon. Mange av våre tanker, følelser og tilbøyeligheter er **tilpasninger** – **adaptasjoner** – som løste problemer for våre forfedre, som å finne mat, unngå fare, finne en partner og samarbeide i grupper.
+
+Mennesker levde som **jegere og sankere** i det aller meste av sin historie. Psyken er derfor tilpasset et liv i små **grupper**, ikke i moderne byer.
+
+## Eksempler
+
+- **Frykt**: Mange blir lettere redde for **slanger**, **edderkopper** og **høyder** enn for biler og stikkontakter, selv om de siste er farligere i dag. Evolusjonspsykologer mener vi er **forberedt** på å lære frykt for farer som truet forfedrene våre.
+- **Emosjoner**: **Paul Ekman** fant at **grunnemosjoner** som glede, sinne, frykt, tristhet, avsky og overraskelse gjenkjennes i ansiktsuttrykk i mange **kulturer**. Emosjoner kan forstås som **signaler** som gjør oss klare til å handle. **Avsky** kan for eksempel beskytte mot **smitte** og bedervet mat.
+- **Tilknytning**: Spedbarn som holdt seg nær voksne, overlevde oftere.
+- **Partnervalg**: Studier fra mange land finner noen **felles** trekk i hva folk ser etter hos en partner, som **vennlighet** og **helse** – men også store **kulturelle** og **individuelle** forskjeller.
+- **Altruisme**: Å hjelpe **slektninger** kan lønne seg evolusjonært fordi de deler **gener** med oss – **slektsseleksjon**. Å hjelpe andre som hjelper **tilbake**, gir fordeler over tid – **gjensidig altruisme**.
+- **Gruppetilhørighet**: Å bli **utstøtt** fra gruppen var farlig, og det kan forklare hvorfor **avvisning** gjør så vondt.
+
+## Mismatch – når fortiden ikke passer
+
+Noen tilpasninger passer dårlig i dagens samfunn:
+
+- Lysten på **søtt** og **fett** var nyttig når mat var knapp, men bidrar i dag til **overvekt**.
+- **Stressreaksjonen** var laget for korte, fysiske farer, men aktiveres i dag av **prøver** og **e-post**.
+- Hjernen er rask til å reagere på **sosial sammenligning**, noe som kan forsterkes i **sosiale medier**.
+
+## Kritikk
+
+- **Vanskelig å teste**: Vi vet lite om hvordan forfedrene faktisk levde, og det er lett å lage **etterpåklokne** historier om hvorfor en egenskap «må» ha vært nyttig.
+- **Kultur og læring** kan forklare mye av det samme.
+- **Naturalistisk feilslutning**: At noe er «**naturlig**», betyr ikke at det er **riktig** eller **uunngåelig**. Evolusjonære forklaringer har blitt misbrukt til å forsvare for eksempel tradisjonelle **kjønnsroller**.
+- **Determinisme**: Mennesket har stor evne til **refleksjon** og **endring**.
+
+## Vurdering
+
+Evolusjonspsykologien gir et **perspektiv** på **hvorfor** vi har bestemte tilbøyeligheter. Den er mest overbevisende når den kombineres med **biologisk**, **kognitiv** og **sosiokulturell** forskning.', '{"label":"Evolusjonspsykologi","children":[{"label":"Darwin","children":[{"label":"Variasjon og arv"},{"label":"Naturlig seleksjon"},{"label":"Seksuell seleksjon"}]},{"label":"Tilpasninger","children":[{"label":"Frykt"},{"label":"Emosjoner og avsky"},{"label":"Tilknytning"}]},{"label":"Sosialt","children":[{"label":"Partnervalg"},{"label":"Altruisme"},{"label":"Gruppetilhørighet"}]},{"label":"Mismatch","children":[{"label":"Søtt og fett"},{"label":"Stress"}]},{"label":"Kritikk","children":[{"label":"Vanskelig å teste"},{"label":"Naturalistisk feilslutning"},{"label":"Kultur og læring"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'psykologi-1:evolusjonspsykologi';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('psykologi-1:evolusjonspsykologi', 'Naturlig seleksjon', 'Egenskaper som gir overlevelse og reproduksjon, blir vanligere over tid.', 0),
+  ('psykologi-1:evolusjonspsykologi', 'Charles Darwin', 'Beskrev evolusjon ved naturlig seleksjon i 1859.', 1),
+  ('psykologi-1:evolusjonspsykologi', 'Seksuell seleksjon', 'Egenskaper som gjør det lettere å få en partner.', 2),
+  ('psykologi-1:evolusjonspsykologi', 'Evolusjonspsykologi', 'Forklarer psyken som formet av naturlig seleksjon.', 3),
+  ('psykologi-1:evolusjonspsykologi', 'Adaptasjon', 'Tilpasning som løste et problem for forfedrene.', 4),
+  ('psykologi-1:evolusjonspsykologi', 'Forberedt frykt', 'Vi lærer lettere frykt for farer som truet forfedrene, som slanger.', 5),
+  ('psykologi-1:evolusjonspsykologi', 'Grunnemosjoner', 'Glede, sinne, frykt, tristhet, avsky og overraskelse.', 6),
+  ('psykologi-1:evolusjonspsykologi', 'Paul Ekman', 'Fant at grunnemosjoner gjenkjennes på tvers av kulturer.', 7),
+  ('psykologi-1:evolusjonspsykologi', 'Avsky', 'Emosjon som kan beskytte mot smitte og bedervet mat.', 8),
+  ('psykologi-1:evolusjonspsykologi', 'Slektsseleksjon', 'Å hjelpe slektninger som deler gener med oss.', 9),
+  ('psykologi-1:evolusjonspsykologi', 'Gjensidig altruisme', 'Å hjelpe andre som hjelper tilbake.', 10),
+  ('psykologi-1:evolusjonspsykologi', 'Mismatch', 'Tilpasninger fra fortiden som passer dårlig i dag.', 11),
+  ('psykologi-1:evolusjonspsykologi', 'Naturalistisk feilslutning', 'Å tro at det naturlige også er riktig.', 12),
+  ('psykologi-1:evolusjonspsykologi', 'Jegere og sankere', 'Levemåten mennesker hadde i det meste av sin historie.', 13),
+  ('psykologi-1:evolusjonspsykologi', 'Determinisme', 'Synet at atferd er forhåndsbestemt – kritikk mot evolusjonspsykologien.', 14);
+delete from public.quiz_sporsmal where tema_id = 'psykologi-1:evolusjonspsykologi';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('psykologi-1:evolusjonspsykologi', 'q01', 'flervalg', 'Hva er naturlig seleksjon?', array['At de sterkeste alltid vinner', 'At egenskaper som gir overlevelse og reproduksjon, blir vanligere', 'At arter aldri endres', 'At mennesker velger egenskaper']::text[], 1, 'Beskrevet av Darwin i 1859.', true, true, 0),
+  ('psykologi-1:evolusjonspsykologi', 'q02', 'flervalg', 'Hva mener evolusjonspsykologien?', array['At psyken er formet av naturlig seleksjon', 'At alt skyldes oppdragelse', 'At følelser er uten funksjon', 'At mennesket ikke har utviklet seg']::text[], 0, 'Mange tilbøyeligheter er tilpasninger.', true, true, 1),
+  ('psykologi-1:evolusjonspsykologi', 'q03', 'flervalg', 'Hvorfor blir mange lettere redde for slanger enn for biler?', array['Slanger er farligere i dag', 'Biler er ukjente', 'Vi er forberedt på å lære frykt for farer som truet forfedrene', 'Frykt er alltid lært fra foreldre']::text[], 2, 'Forberedt frykt.', true, true, 2),
+  ('psykologi-1:evolusjonspsykologi', 'q04', 'flervalg', 'Hva fant Paul Ekman?', array['At emosjoner er forskjellige i alle kulturer', 'At bare mennesker har emosjoner', 'At emosjoner er lært på skolen', 'At grunnemosjoner gjenkjennes på tvers av kulturer']::text[], 3, 'Et argument for at emosjoner er medfødte.', true, true, 3),
+  ('psykologi-1:evolusjonspsykologi', 'q05', 'flervalg', 'Hva er slektsseleksjon?', array['Å hjelpe slektninger fordi de deler gener med oss', 'Å velge partner i familien', 'Å hjelpe fremmede', 'Å konkurrere med søsken']::text[], 0, 'En forklaring på altruisme.', true, true, 4),
+  ('psykologi-1:evolusjonspsykologi', 'q06', 'flervalg', 'Hva er et eksempel på mismatch?', array['Tilknytning hos spedbarn', 'Lysten på søtt og fett som bidrar til overvekt i dag', 'Frykt for høyder', 'Vennskap']::text[], 1, 'Nyttig når mat var knapp.', true, true, 5),
+  ('psykologi-1:evolusjonspsykologi', 'q07', 'flervalg', 'Hva er den naturalistiske feilslutningen?', array['Å tro at natur er farlig', 'Å tro at alt er lært', 'Å tro at det naturlige også er riktig', 'Å tro at evolusjonen er over']::text[], 2, 'Naturlig betyr ikke riktig.', true, true, 6),
+  ('psykologi-1:evolusjonspsykologi', 'q08', 'flervalg', 'Hvorfor kritiseres evolusjonspsykologien for å være vanskelig å teste?', array['Fordi den ikke bruker data', 'Fordi den bare handler om dyr', 'Fordi den er for ny', 'Fordi vi vet lite om hvordan forfedrene levde']::text[], 3, 'Det er lett å lage etterpåklokne forklaringer.', true, true, 7),
+  ('psykologi-1:evolusjonspsykologi', 'q09', 'flervalg', 'Hvilken funksjon kan avsky ha hatt?', array['Å beskytte mot smitte og bedervet mat', 'Å gjøre oss glade', 'Å skape vennskap', 'Å øke appetitten']::text[], 0, 'Emosjoner som adaptive signaler.', true, false, 8),
+  ('psykologi-1:evolusjonspsykologi', 'q10', 'flervalg', 'Hvorfor kan avvisning gjøre så vondt ifølge evolusjonspsykologien?', array['Fordi det gir fysisk skade', 'Fordi det var farlig å bli utstøtt fra gruppen', 'Fordi mennesker levde alene', 'Fordi det skyldes sosiale medier alene']::text[], 1, 'Vi er tilpasset et liv i små grupper.', true, false, 9),
+  ('psykologi-1:evolusjonspsykologi', 'm01', 'sant-usant', 'Mennesker har levd som jegere og sankere i det meste av sin historie.', array['Sant', 'Usant']::text[], 0, 'Psyken er tilpasset et liv i små grupper.', false, true, 10),
+  ('psykologi-1:evolusjonspsykologi', 'm02', 'sant-usant', 'At en atferd kan ha en evolusjonær forklaring, betyr at den er moralsk riktig.', array['Sant', 'Usant']::text[], 1, 'Det er den naturalistiske feilslutningen.', false, true, 11),
+  ('psykologi-1:evolusjonspsykologi', 'm03', 'sant-usant', 'Stressreaksjonen var opprinnelig tilpasset korte, fysiske farer.', array['Sant', 'Usant']::text[], 0, 'I dag aktiveres den av prøver og e-post.', false, true, 12),
+  ('psykologi-1:evolusjonspsykologi', 'm04', 'sant-usant', 'Evolusjonspsykologien mener at kultur ikke har noen betydning.', array['Sant', 'Usant']::text[], 1, 'Den er mest overbevisende sammen med sosiokulturell forskning.', false, true, 13),
+  ('psykologi-1:evolusjonspsykologi', 'm05', 'flervalg', 'Hva er gjensidig altruisme?', array['Å hjelpe bare seg selv', 'Å hjelpe andre som hjelper tilbake', 'Å hjelpe bare slektninger', 'Å konkurrere om ressurser']::text[], 1, 'Gir fordeler over tid.', false, true, 14),
+  ('psykologi-1:evolusjonspsykologi', 'm06', 'flervalg', 'Hvilken emosjon hører til grunnemosjonene?', array['Frykt', 'Sjalusi', 'Skyld', 'Stolthet']::text[], 0, 'Sammen med glede, sinne, tristhet, avsky og overraskelse.', false, true, 15),
+  ('psykologi-1:evolusjonspsykologi', 'm07', 'flervalg', 'Hva er seksuell seleksjon?', array['Seleksjon av mat', 'Seleksjon av bosted', 'Utvalg av egenskaper som gjør det lettere å få en partner', 'Seleksjon mot sykdom']::text[], 2, 'En del av Darwins teori.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('psykologi-1:evolusjonspsykologi', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Psykologi 1: Psykologi og bærekraftige valg
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('psykologi-1:barekraftige-valg', 'psykologi-1', 'barekraftige-valg', 'Psykologi og bærekraftige valg', 'Hvorfor vi tar – og unnlater å ta – bærekraftige valg: gapet mellom holdning og handling, kognitiv dissonans, psykologisk distanse, sosiale normer, vaner og dulting, og hvordan psykologisk kunnskap kan brukes til å fremme endring.', array[9]::int[], 11, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('psykologi-1:barekraftige-valg', '## Gapet mellom holdning og handling
+
+Mange mennesker er **bekymret** for klima og miljø, men endrer likevel lite i hverdagen. Dette kalles **gapet mellom holdning og handling**. Psykologien kan forklare hvorfor, og hva som kan få oss til å velge mer **bærekraftig**.
+
+## Individuelle faktorer
+
+- **Kunnskap**: Vi må vite **hva** som hjelper. Mange overvurderer effekten av små tiltak og undervurderer store, som **reiser** og **matvaner**.
+- **Verdier** og **holdninger**: Folk som er opptatt av **fellesskap** og **natur**, handler oftere miljøvennlig.
+- **Vaner**: Mye av det vi gjør, er **automatisk**. Vaner er vanskelige å endre, men lettere når vi **flytter**, begynner på ny skole eller får ny jobb.
+- **Mestringsforventning**: Tror vi at egne valg **nytter**, er vi mer villige til å handle.
+
+## Psykologiske faktorer
+
+- **Kognitiv dissonans**: **Leon Festinger** beskrev ubehaget vi kjenner når **handling** og **holdning** ikke stemmer. Ofte endrer vi **tankene** i stedet for handlingen: «Én flytur betyr ingenting.»
+- **Psykologisk distanse**: Klimaendringer kan oppleves som langt unna i **tid** og **rom** og som noe som rammer **andre**.
+- **Nåtidsskjevhet**: Vi legger mer vekt på **umiddelbare** fordeler, som en billig ferie nå, enn på **framtidige** kostnader.
+- **Ansvarspulverisering**: Når mange kunne gjort noe, føler hver enkelt mindre **ansvar** – «det er politikernes jobb».
+- **Bekreftelsesfellen**: Vi søker informasjon som passer det vi allerede mener.
+- **Klimabekymring**: Moderat bekymring kan gi **handling**, men sterk **angst** og **håpløshet** kan gi **passivitet**.
+
+## Sosiale faktorer
+
+- **Sosiale normer**: Vi gjør som **andre** gjør. I et kjent forsøk på et hotell gjenbrukte flere gjester håndklærne når et skilt fortalte at **de fleste** andre gjester gjorde det, enn når skiltet bare ba dem tenke på miljøet.
+- **Konformitet**: Ønsket om å **passe inn** kan både hemme og fremme bærekraftige valg.
+- **Identitet** og **grupper**: Miljøvalg kan bli en del av hvem vi er – men også et tema som **polariserer** mellom grupper.
+- **Rollemodeller** og **påvirkere** kan vise at endring er mulig.
+
+## Strukturelle forhold
+
+Mange valg avhenger av **pris**, **tilgjengelighet** og **infrastruktur**. Det er lettere å sykle hvis det finnes **sykkelveier**. **Allmenningens tragedie** beskriver hvordan felles ressurser overbrukes når hver enkelt tjener på å ta litt mer.
+
+## Dulting
+
+**Dulting** (nudging) betyr å endre **valgomgivelsene** slik at det bærekraftige valget blir **lettere**, uten å forby noe:
+
+- **Standardvalg**: dobbeltsidig utskrift eller fornybar strøm som **forhåndsvalgt** alternativ
+- **Plassering**: vegetarretten **først** i kantinen
+- **Tilbakemelding**: strømmåler som viser forbruket ditt sammenlignet med naboenes
+
+En nyttig huskeregel er å gjøre det ønskede valget **lett**, **attraktivt**, **sosialt** og **tidsnært**.
+
+Dulting er kritisert for å være en form for **manipulasjon**, og for å flytte oppmerksomheten fra **politikk** og **næringsliv** til **enkeltpersoner**.
+
+## Vurdering
+
+Psykologien viser at **informasjon alene** sjelden er nok. Endring krever at vi kombinerer **kunnskap**, **mestringstro**, **sosiale normer**, **gode vaner** og **strukturer** som gjør det lett å velge bærekraftig.', '{"label":"Bærekraftige valg","children":[{"label":"Individ","children":[{"label":"Kunnskap og verdier"},{"label":"Vaner"},{"label":"Mestringstro"}]},{"label":"Psykologiske mekanismer","children":[{"label":"Kognitiv dissonans"},{"label":"Psykologisk distanse"},{"label":"Nåtidsskjevhet"}]},{"label":"Sosialt","children":[{"label":"Normer"},{"label":"Konformitet"},{"label":"Identitet"}]},{"label":"Struktur","children":[{"label":"Pris og tilgang"},{"label":"Allmenningens tragedie"}]},{"label":"Tiltak","children":[{"label":"Dulting"},{"label":"Standardvalg"},{"label":"Kritikk"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'psykologi-1:barekraftige-valg';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('psykologi-1:barekraftige-valg', 'Gapet mellom holdning og handling', 'At vi mener noe, men ikke handler etter det.', 0),
+  ('psykologi-1:barekraftige-valg', 'Kognitiv dissonans', 'Ubehag når holdning og handling ikke stemmer.', 1),
+  ('psykologi-1:barekraftige-valg', 'Leon Festinger', 'Utviklet teorien om kognitiv dissonans.', 2),
+  ('psykologi-1:barekraftige-valg', 'Psykologisk distanse', 'At noe oppleves langt unna i tid, rom eller sosialt.', 3),
+  ('psykologi-1:barekraftige-valg', 'Nåtidsskjevhet', 'Å legge mer vekt på fordeler nå enn kostnader i framtiden.', 4),
+  ('psykologi-1:barekraftige-valg', 'Ansvarspulverisering', 'Når mange kunne handlet, føler hver enkelt mindre ansvar.', 5),
+  ('psykologi-1:barekraftige-valg', 'Klimabekymring', 'Moderat bekymring kan gi handling, sterk angst kan gi passivitet.', 6),
+  ('psykologi-1:barekraftige-valg', 'Sosiale normer', 'Uskrevne regler for hva andre gjør og forventer.', 7),
+  ('psykologi-1:barekraftige-valg', 'Hotellforsøket', 'Flere gjenbrukte håndklær når de fikk vite at de fleste andre gjorde det.', 8),
+  ('psykologi-1:barekraftige-valg', 'Konformitet', 'Å tilpasse seg gruppen for å passe inn.', 9),
+  ('psykologi-1:barekraftige-valg', 'Vaner', 'Automatiske handlinger som er vanskelige å endre.', 10),
+  ('psykologi-1:barekraftige-valg', 'Allmenningens tragedie', 'Felles ressurser overbrukes når hver enkelt tjener på å ta mer.', 11),
+  ('psykologi-1:barekraftige-valg', 'Dulting', 'Å endre valgomgivelsene slik at et valg blir lettere, uten forbud.', 12),
+  ('psykologi-1:barekraftige-valg', 'Standardvalg', 'Det forhåndsvalgte alternativet, som mange beholder.', 13),
+  ('psykologi-1:barekraftige-valg', 'Lett, attraktivt, sosialt, tidsnært', 'Huskeregel for å fremme ønsket atferd.', 14);
+delete from public.quiz_sporsmal where tema_id = 'psykologi-1:barekraftige-valg';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('psykologi-1:barekraftige-valg', 'q01', 'flervalg', 'Hva er gapet mellom holdning og handling?', array['At vi handler mer enn vi mener', 'At vi mener noe, men ikke handler etter det', 'At holdninger aldri endres', 'At alle er enige']::text[], 1, 'Mange er bekymret, men endrer lite.', true, true, 0),
+  ('psykologi-1:barekraftige-valg', 'q02', 'flervalg', 'Hva er kognitiv dissonans?', array['Ubehag når holdning og handling ikke stemmer', 'En hukommelsesfeil', 'En vane', 'En sosial norm']::text[], 0, 'Beskrevet av Festinger.', true, true, 1),
+  ('psykologi-1:barekraftige-valg', 'q03', 'flervalg', 'En person som flyr mye, sier «én flytur betyr ingenting». Hva gjør personen?', array['Endrer atferden', 'Viser konformitet', 'Reduserer dissonans ved å endre tankene', 'Bruker dulting']::text[], 2, 'Det er ofte lettere enn å endre handlingen.', true, true, 2),
+  ('psykologi-1:barekraftige-valg', 'q04', 'flervalg', 'Hva er psykologisk distanse?', array['Avstanden til skolen', 'At vi føler oss ensomme', 'At vi er uenige', 'At klimaendringer oppleves langt unna i tid og rom']::text[], 3, 'Gjør det lettere å utsette handling.', true, true, 3),
+  ('psykologi-1:barekraftige-valg', 'q05', 'flervalg', 'Hva viste hotellforsøket med håndklær?', array['At sosiale normer påvirker atferd', 'At folk ikke bryr seg om miljø', 'At skilt ikke virker', 'At pris er det eneste som teller']::text[], 0, 'Beskjeden om at de fleste gjorde det, virket best.', true, true, 4),
+  ('psykologi-1:barekraftige-valg', 'q06', 'flervalg', 'Hva er dulting?', array['Å forby miljøskadelige varer', 'Å endre valgomgivelsene slik at et valg blir lettere', 'Å skattlegge alt', 'Å gi straff']::text[], 1, 'Uten å fjerne valgmuligheter.', true, true, 5),
+  ('psykologi-1:barekraftige-valg', 'q07', 'flervalg', 'Hva er et eksempel på et standardvalg?', array['En reklame for bil', 'En skatt på bensin', 'Dobbeltsidig utskrift som forhåndsvalgt', 'Et forbud mot plast']::text[], 2, 'Mange beholder det forhåndsvalgte.', true, true, 6),
+  ('psykologi-1:barekraftige-valg', 'q08', 'flervalg', 'Hva kan sterk klimaangst føre til?', array['Alltid mer handling', 'Bedre søvn', 'Mer kunnskap', 'Håpløshet og passivitet']::text[], 3, 'Moderat bekymring gir oftere handling.', true, true, 7),
+  ('psykologi-1:barekraftige-valg', 'q09', 'flervalg', 'Hva er nåtidsskjevhet?', array['Å legge mer vekt på fordeler nå enn kostnader i framtiden', 'Å tenke mye på framtiden', 'Å huske fortiden dårlig', 'Å følge med i nyhetene']::text[], 0, 'En billig ferie nå veier tyngre enn klimaeffekten.', true, false, 8),
+  ('psykologi-1:barekraftige-valg', 'q10', 'flervalg', 'Hvilken kritikk rettes mot dulting?', array['At den er for dyr', 'At den kan være manipulasjon og flytte ansvar til enkeltpersoner', 'At den ikke har noen effekt', 'At den er ulovlig']::text[], 1, 'Politikk og næringsliv har også ansvar.', true, false, 9),
+  ('psykologi-1:barekraftige-valg', 'm01', 'sant-usant', 'Vaner er lettere å endre når livssituasjonen endrer seg, for eksempel ved flytting.', array['Sant', 'Usant']::text[], 0, 'Gamle signaler for vanene forsvinner.', false, true, 10),
+  ('psykologi-1:barekraftige-valg', 'm02', 'sant-usant', 'Informasjon alene er som regel nok til å endre atferd.', array['Sant', 'Usant']::text[], 1, 'Endring krever også normer, vaner og strukturer.', false, true, 11),
+  ('psykologi-1:barekraftige-valg', 'm03', 'sant-usant', 'Ansvarspulverisering kan gjøre at hver enkelt føler mindre ansvar for klimaet.', array['Sant', 'Usant']::text[], 0, '«Det er politikernes jobb.»', false, true, 12),
+  ('psykologi-1:barekraftige-valg', 'm04', 'sant-usant', 'Dulting betyr å forby det miljøskadelige valget.', array['Sant', 'Usant']::text[], 1, 'Dulting gjør et valg lettere uten forbud.', false, true, 13),
+  ('psykologi-1:barekraftige-valg', 'm05', 'flervalg', 'Hva beskriver allmenningens tragedie?', array['At folk deler for mye', 'At felles ressurser overbrukes når hver tjener på å ta mer', 'At private eiendommer ødelegges', 'At staten eier alt']::text[], 1, 'Et kollektivt handlingsproblem.', false, true, 14),
+  ('psykologi-1:barekraftige-valg', 'm06', 'flervalg', 'Hvilket tiltak er et eksempel på dulting i en kantine?', array['Å plassere vegetarretten først', 'Å forby kjøtt', 'Å heve prisen på alt', 'Å stenge kantinen']::text[], 0, 'Endrer valgomgivelsene.', false, true, 15),
+  ('psykologi-1:barekraftige-valg', 'm07', 'flervalg', 'Hva øker sjansen for at noen handler bærekraftig?', array['At de tror valgene ikke nytter', 'At ingen andre gjør det', 'At de tror egne valg nytter', 'At det er vanskelig og dyrt']::text[], 2, 'Mestringsforventning.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('psykologi-1:barekraftige-valg', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Psykologi 1: Psykiske kriser
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('psykologi-1:psykiske-kriser', 'psykologi-1', 'psykiske-kriser', 'Psykiske kriser', 'Hva en psykisk krise er, forskjellen på utviklingskriser og traumatiske kriser, Cullbergs krisefaser, sorg, hva som påvirker hvordan det går – og mulige utfall fra nyorientering og posttraumatisk vekst til PTSD.', array[10]::int[], 12, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('psykologi-1:psykiske-kriser', '## Hva er en psykisk krise?
+
+En **psykisk krise** oppstår når en person møter en situasjon der **tidligere erfaringer** og vanlige **mestringsmåter** ikke strekker til. Situasjonen oppleves **overveldende**, og tilværelsen kan føles **truet**. Kriser er en del av livet, og de fleste opplever flere.
+
+## To typer kriser
+
+- **Utviklingskriser** er knyttet til **overganger** i livet som mange går gjennom: puberteten, å flytte hjemmefra, å bli forelder eller å bli pensjonist. De kommer ofte **gradvis**.
+- **Traumatiske kriser** utløses av **plutselige** og **uventede** hendelser, for eksempel dødsfall, alvorlig sykdom, ulykker, vold, samlivsbrudd eller naturkatastrofer.
+
+## Cullbergs krisefaser
+
+Den svenske psykiateren **Johan Cullberg** beskrev fire faser i en traumatisk krise. Fasene **glir over i hverandre**, og ikke alle går gjennom dem i samme rekkefølge.
+
+1. **Sjokkfasen** varer fra et kort øyeblikk til noen døgn. Personen kan virke **rolig** og **uvirkelig** – «dette skjer ikke» – eller **kaotisk**. Det er vanlig å huske lite fra denne fasen.
+2. **Reaksjonsfasen** varer ofte noen uker. Personen begynner å ta inn over seg hva som har skjedd, og kan kjenne sterk **angst**, **sinne**, **skyld**, **tristhet** og få **søvnproblemer**. **Forsvarsmekanismer**, som fornekting, kan dempe smerten.
+3. **Bearbeidingsfasen** kan vare fra et halvt til et helt år. Personen begynner å se **framover** og tar opp igjen vanlige aktiviteter, selv om det fortsatt gjør vondt.
+4. **Nyorienteringsfasen** har ingen tidsgrense. Hendelsen er blitt en del av **livshistorien**, og personen kan leve videre med **arr**, men også ny **innsikt**.
+
+## Sorg
+
+**Sorg** er en **normal** reaksjon på tap. Den kan komme i **bølger**, og den kan blusse opp igjen ved merkedager. Hos noen blir sorgen så **langvarig** og **altoppslukende** at den hindrer dem i å fungere. Da kan det være behov for **behandling**.
+
+## Hva påvirker utfallet?
+
+- **Hendelsen**: Hendelser som skyldes **andre mennesker**, som vold, oppleves ofte som ekstra belastende.
+- **Sosial støtte**: **Familie** og **venner** som er til stede, er blant de viktigste beskyttende faktorene.
+- **Tidligere erfaringer** og **sårbarhet**
+- **Mestringsstrategier** og **mestringstro**
+- **Alder** og **livssituasjon**
+
+## Mulige utfall
+
+- **Bearbeiding og nyorientering**: De fleste kommer seg gjennom en krise og fungerer godt etter hvert.
+- **Posttraumatisk vekst**: Noen opplever at krisen gir **nye verdier**, **nærere** relasjoner og en følelse av **styrke**.
+- **Psykiske lidelser**: Noen utvikler **depresjon**, **angst**, **rusproblemer** eller **posttraumatisk stresslidelse** (PTSD). PTSD kjennetegnes av
+  - **gjenopplevelse** – mareritt og påtrengende minner
+  - **unngåelse** av alt som minner om hendelsen
+  - **økt vakthet** – lettskremthet og søvnvansker
+
+## Å hjelpe noen i krise
+
+**Psykologisk førstehjelp** handler om å skape **trygghet**, **ro** og **kontakt** med andre, å styrke opplevelsen av **mestring** og å gi **håp**. Å **lytte**, være **til stede** og gi **praktisk** hjelp betyr ofte mer enn de rette ordene. Kommunene har **kriseteam**, og **fastlegen** kan henvise videre. Ved akutt fare for liv og helse ringer man **113**.
+
+## Refleksjon
+
+En krise er både en **fare** og en **mulighet**. Den kan føre til lidelse, men også til **vekst** og nye måter å møte livet på.', '{"label":"Psykiske kriser","children":[{"label":"Typer","children":[{"label":"Utviklingskriser"},{"label":"Traumatiske kriser"}]},{"label":"Cullbergs faser","children":[{"label":"Sjokk"},{"label":"Reaksjon"},{"label":"Bearbeiding"},{"label":"Nyorientering"}]},{"label":"Påvirker","children":[{"label":"Hendelsen"},{"label":"Sosial støtte"},{"label":"Sårbarhet"}]},{"label":"Utfall","children":[{"label":"Nyorientering"},{"label":"Posttraumatisk vekst"},{"label":"PTSD og depresjon"}]},{"label":"Hjelp","children":[{"label":"Psykologisk førstehjelp"},{"label":"Kriseteam"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'psykologi-1:psykiske-kriser';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('psykologi-1:psykiske-kriser', 'Psykisk krise', 'Når tidligere erfaringer og mestringsmåter ikke strekker til.', 0),
+  ('psykologi-1:psykiske-kriser', 'Utviklingskrise', 'Krise knyttet til livsoverganger, som pubertet eller å bli forelder.', 1),
+  ('psykologi-1:psykiske-kriser', 'Traumatisk krise', 'Krise utløst av en plutselig og uventet hendelse.', 2),
+  ('psykologi-1:psykiske-kriser', 'Johan Cullberg', 'Svensk psykiater som beskrev fire krisefaser.', 3),
+  ('psykologi-1:psykiske-kriser', 'Sjokkfasen', 'Uvirkelighet eller kaos, fra et øyeblikk til noen døgn.', 4),
+  ('psykologi-1:psykiske-kriser', 'Reaksjonsfasen', 'Sterke følelser som angst, sinne og skyld.', 5),
+  ('psykologi-1:psykiske-kriser', 'Bearbeidingsfasen', 'Personen begynner å se framover.', 6),
+  ('psykologi-1:psykiske-kriser', 'Nyorienteringsfasen', 'Hendelsen blir en del av livshistorien.', 7),
+  ('psykologi-1:psykiske-kriser', 'Sorg', 'Normal reaksjon på tap, ofte i bølger.', 8),
+  ('psykologi-1:psykiske-kriser', 'Sosial støtte', 'En av de viktigste beskyttende faktorene i en krise.', 9),
+  ('psykologi-1:psykiske-kriser', 'Posttraumatisk vekst', 'Positiv endring som kan følge etter en krise.', 10),
+  ('psykologi-1:psykiske-kriser', 'PTSD', 'Posttraumatisk stresslidelse med gjenopplevelse, unngåelse og økt vakthet.', 11),
+  ('psykologi-1:psykiske-kriser', 'Gjenopplevelse', 'Mareritt og påtrengende minner om hendelsen.', 12),
+  ('psykologi-1:psykiske-kriser', 'Psykologisk førstehjelp', 'Trygghet, ro, kontakt, mestring og håp.', 13),
+  ('psykologi-1:psykiske-kriser', 'Kriseteam', 'Kommunalt team som hjelper ved alvorlige hendelser.', 14);
+delete from public.quiz_sporsmal where tema_id = 'psykologi-1:psykiske-kriser';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('psykologi-1:psykiske-kriser', 'q01', 'flervalg', 'Når oppstår en psykisk krise?', array['Når man er litt lei seg', 'Når tidligere erfaringer og mestringsmåter ikke strekker til', 'Bare ved dødsfall', 'Bare hos voksne']::text[], 1, 'Situasjonen oppleves overveldende.', true, true, 0),
+  ('psykologi-1:psykiske-kriser', 'q02', 'flervalg', 'Hva er et eksempel på en utviklingskrise?', array['Å flytte hjemmefra', 'En bilulykke', 'Et dødsfall', 'En naturkatastrofe']::text[], 0, 'Knyttet til livsoverganger.', true, true, 1),
+  ('psykologi-1:psykiske-kriser', 'q03', 'flervalg', 'Hva kjennetegner sjokkfasen?', array['Personen ser framover', 'Hendelsen er en del av livshistorien', 'Uvirkelighet eller kaos', 'Posttraumatisk vekst']::text[], 2, 'Kan vare fra et øyeblikk til noen døgn.', true, true, 2),
+  ('psykologi-1:psykiske-kriser', 'q04', 'flervalg', 'I hvilken fase kommer ofte sterke følelser som angst, sinne og skyld?', array['Sjokkfasen', 'Nyorienteringsfasen', 'Bearbeidingsfasen', 'Reaksjonsfasen']::text[], 3, 'Personen tar inn over seg hva som har skjedd.', true, true, 3),
+  ('psykologi-1:psykiske-kriser', 'q05', 'flervalg', 'Hva er en av de viktigste beskyttende faktorene i en krise?', array['Sosial støtte', 'Å være alene', 'Å unngå å snakke om det', 'Mye skjermtid']::text[], 0, 'Familie og venner som er til stede.', true, true, 4),
+  ('psykologi-1:psykiske-kriser', 'q06', 'flervalg', 'Hva er posttraumatisk vekst?', array['At man blir fysisk sterkere', 'At krisen gir nye verdier, nærere relasjoner og styrke', 'En psykisk lidelse', 'En fase hos Cullberg']::text[], 1, 'Et mulig positivt utfall.', true, true, 5),
+  ('psykologi-1:psykiske-kriser', 'q07', 'flervalg', 'Hvilket symptom hører til PTSD?', array['Økt appetitt', 'Bedre hukommelse', 'Gjenopplevelse av hendelsen', 'Mer energi']::text[], 2, 'Sammen med unngåelse og økt vakthet.', true, true, 6),
+  ('psykologi-1:psykiske-kriser', 'q08', 'flervalg', 'Hva er det vanligste utfallet av en krise?', array['PTSD', 'Rusproblemer', 'Varig depresjon', 'At personen etter hvert fungerer godt igjen']::text[], 3, 'De fleste kommer seg gjennom.', true, true, 7),
+  ('psykologi-1:psykiske-kriser', 'q09', 'flervalg', 'Hva handler psykologisk førstehjelp om?', array['Trygghet, ro, kontakt, mestring og håp', 'Å gi medisiner', 'Å stille diagnoser', 'Å analysere drømmer']::text[], 0, 'Å lytte og være til stede.', true, false, 8),
+  ('psykologi-1:psykiske-kriser', 'q10', 'flervalg', 'Hvilket nummer ringer du ved akutt fare for liv og helse?', array['112', '113', '110', '1881']::text[], 1, 'Medisinsk nødtelefon.', true, false, 9),
+  ('psykologi-1:psykiske-kriser', 'm01', 'sant-usant', 'Cullbergs faser glir over i hverandre og følger ikke alltid samme rekkefølge.', array['Sant', 'Usant']::text[], 0, 'Fasene er en modell, ikke en fast oppskrift.', false, true, 10),
+  ('psykologi-1:psykiske-kriser', 'm02', 'sant-usant', 'Sorg er en psykisk lidelse som alltid må behandles.', array['Sant', 'Usant']::text[], 1, 'Sorg er en normal reaksjon på tap.', false, true, 11),
+  ('psykologi-1:psykiske-kriser', 'm03', 'sant-usant', 'Hendelser som skyldes andre mennesker, oppleves ofte som ekstra belastende.', array['Sant', 'Usant']::text[], 0, 'For eksempel vold.', false, true, 12),
+  ('psykologi-1:psykiske-kriser', 'm04', 'sant-usant', 'Nyorienteringsfasen varer alltid nøyaktig ett år.', array['Sant', 'Usant']::text[], 1, 'Den har ingen tidsgrense.', false, true, 13),
+  ('psykologi-1:psykiske-kriser', 'm05', 'flervalg', 'Hva betyr unngåelse ved PTSD?', array['Å snakke mye om hendelsen', 'Å unngå alt som minner om hendelsen', 'Å sove mye', 'Å søke spenning']::text[], 1, 'Et av hovedsymptomene.', false, true, 14),
+  ('psykologi-1:psykiske-kriser', 'm06', 'flervalg', 'Hva betyr ofte mest når du skal støtte noen i krise?', array['Å lytte og være til stede', 'Å gi mange råd', 'Å si at det går over', 'Å bytte tema']::text[], 0, 'Nærvær er viktigere enn de rette ordene.', false, true, 15),
+  ('psykologi-1:psykiske-kriser', 'm07', 'flervalg', 'Hvilken forsvarsmekanisme er vanlig i reaksjonsfasen?', array['Mestringsforventning', 'Chunking', 'Fornekting', 'Assimilasjon']::text[], 2, 'Kan dempe smerten en stund.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('psykologi-1:psykiske-kriser', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Psykologi 1: Rus, hjernen og psykisk helse
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('psykologi-1:rus-og-hjernen', 'psykologi-1', 'rus-og-hjernen', 'Rus, hjernen og psykisk helse', 'Hvordan ungdomshjernen utvikler seg, hvordan rusmidler påvirker belønningssystemet og hjernens funksjon, hva toleranse og avhengighet er, og hvordan rus kan påvirke psykisk helse og livskvalitet hos unge.', array[13]::int[], 13, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('psykologi-1:rus-og-hjernen', '## Ungdomshjernen
+
+Hjernen er ikke ferdig utviklet før i **midten av 20-årene**. Områdene i det **limbiske systemet** som styrer **følelser** og **belønning**, modnes tidlig. **Pannelappen**, som står for **planlegging**, **impulskontroll** og **vurdering av konsekvenser**, modnes **sist**. Derfor søker mange ungdommer **spenning** og nye opplevelser, og de er ekstra følsomme for påvirkning fra **venner**.
+
+Fordi hjernen er i utvikling, er den også mer **sårbar** for rusmidler. Jo **tidligere** noen begynner å ruse seg, desto større er risikoen for problemer senere.
+
+## Belønningssystemet
+
+Hjernens **belønningssystem** gir oss lyst til å gjenta ting som er nyttige for overlevelse, som å spise og være sammen med andre. Signalstoffet **dopamin** spiller en sentral rolle.
+
+Rusmidler gir en **kraftigere** og **raskere** dopaminøkning enn naturlige belønninger. Hjernen lærer at rusen er «viktig», og det kan føre til:
+
+- **Toleranse**: Man trenger **mer** av stoffet for å få samme virkning.
+- **Abstinens**: Man får **ubehagelige** fysiske og psykiske reaksjoner når man slutter.
+- **Avhengighet**: sterk **trang** til rusmiddelet og **tap av kontroll** over bruken, selv om den gir negative konsekvenser.
+
+## Ulike rusmidler
+
+- **Alkohol** er det mest brukte rusmiddelet. Det virker **dempende** på hjernen. Alkohol svekker **dømmekraften** i pannelappen, **balansen** i lillehjernen og kan gi **hukommelsestap** fordi hippocampus påvirkes. Alkohol øker risikoen for **ulykker**, **vold** og **seksuelle krenkelser**.
+- **Cannabis** inneholder **THC**, som påvirker **hukommelse**, **konsentrasjon** og **motivasjon**. Tidlig og hyppig bruk, særlig av sterke produkter, øker risikoen for **angst** og **psykose** hos sårbare personer.
+- **Sentralstimulerende stoffer**, som amfetamin, kokain og MDMA, gir **energi** og **eufori**, men ofte **nedstemthet** og **uro** etterpå. De kan belaste **hjertet**.
+- **Nikotin** i snus og e-sigaretter er sterkt **avhengighetsskapende**.
+- **Legemidler** som beroligende midler og sterke smertestillende kan også misbrukes, og **forfalskede** tabletter kan inneholde farlige stoffer.
+
+## Rus og psykisk helse
+
+Forholdet mellom rus og psykisk helse går **begge veier**:
+
+- Noen bruker rus for å dempe **angst**, **nedstemthet** eller **søvnproblemer** – såkalt **selvmedisinering**. På sikt gjør rusen ofte plagene **verre**.
+- Rusbruk kan utløse eller forverre **angst**, **depresjon** og **psykoser**.
+
+Rus kan også gå ut over **livskvaliteten**: dårligere **skoleprestasjoner**, **fravær**, **konflikter** med familie og venner, **økonomiske** problemer og **straffereaksjoner**.
+
+## Risiko og beskyttelse
+
+**Sårbarheten** varierer. Risikoen øker ved tidlig debut, rusbruk i **familien**, psykiske vansker og venner som ruser seg. **Beskyttende** faktorer er gode **relasjoner**, foreldre som setter tydelige **grenser**, **mestring** på skolen og i fritiden og å vente med å **debutere**.
+
+De fleste ungdommer i Norge bruker **ikke** narkotika. Mange tror likevel at «**alle andre**» gjør det. Når ungdom får vite hva jevnaldrende **faktisk** gjør, kan det dempe presset.
+
+## Myter og kildekritikk
+
+«**Naturlig betyr ufarlig**» er en myte – cannabis og sopp er naturlige, men kan være skadelige. Vær **kildekritisk** til innlegg i sosiale medier som gjør rus til en **livsstil**.
+
+## Å få hjelp
+
+Ungdom kan snakke med **helsesykepleier**, **fastlege** eller **rådgiver**, og nettsteder som **ung.no** gir anonym informasjon.', '{"label":"Rus og hjernen","children":[{"label":"Ungdomshjernen","children":[{"label":"Pannelappen modnes sist"},{"label":"Spenningssøking"},{"label":"Sårbarhet"}]},{"label":"Belønningssystemet","children":[{"label":"Dopamin"},{"label":"Toleranse og abstinens"},{"label":"Avhengighet"}]},{"label":"Rusmidler","children":[{"label":"Alkohol"},{"label":"Cannabis"},{"label":"Sentralstimulerende og nikotin"}]},{"label":"Psykisk helse","children":[{"label":"Selvmedisinering"},{"label":"Angst, depresjon, psykose"},{"label":"Livskvalitet"}]},{"label":"Forebygging","children":[{"label":"Beskyttende faktorer"},{"label":"Myter og normer"},{"label":"Hjelp"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'psykologi-1:rus-og-hjernen';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('psykologi-1:rus-og-hjernen', 'Ungdomshjernen', 'Ikke ferdig utviklet før i midten av 20-årene.', 0),
+  ('psykologi-1:rus-og-hjernen', 'Pannelappen hos ungdom', 'Modnes sist – impulskontroll og vurdering av konsekvenser.', 1),
+  ('psykologi-1:rus-og-hjernen', 'Belønningssystemet', 'Gir lyst til å gjenta nyttige handlinger, styres blant annet av dopamin.', 2),
+  ('psykologi-1:rus-og-hjernen', 'Toleranse', 'Man trenger mer av stoffet for samme virkning.', 3),
+  ('psykologi-1:rus-og-hjernen', 'Abstinens', 'Ubehagelige reaksjoner når man slutter med et rusmiddel.', 4),
+  ('psykologi-1:rus-og-hjernen', 'Avhengighet', 'Sterk trang og tap av kontroll over bruken.', 5),
+  ('psykologi-1:rus-og-hjernen', 'Alkohol', 'Det mest brukte rusmiddelet – virker dempende på hjernen.', 6),
+  ('psykologi-1:rus-og-hjernen', 'Hukommelsestap ved alkohol', 'Skyldes blant annet at hippocampus påvirkes.', 7),
+  ('psykologi-1:rus-og-hjernen', 'THC', 'Virkestoffet i cannabis – påvirker hukommelse og konsentrasjon.', 8),
+  ('psykologi-1:rus-og-hjernen', 'Psykose', 'Tilstand med svekket virkelighetsoppfatning – risikoen øker ved cannabisbruk hos sårbare.', 9),
+  ('psykologi-1:rus-og-hjernen', 'Sentralstimulerende stoffer', 'Amfetamin, kokain og MDMA – gir energi, men ofte nedstemthet etterpå.', 10),
+  ('psykologi-1:rus-og-hjernen', 'Selvmedisinering', 'Å bruke rus for å dempe psykiske plager.', 11),
+  ('psykologi-1:rus-og-hjernen', 'Beskyttende faktorer', 'Gode relasjoner, tydelige grenser og mestring.', 12),
+  ('psykologi-1:rus-og-hjernen', 'Sen debut', 'Å vente med rus reduserer risikoen for problemer senere.', 13),
+  ('psykologi-1:rus-og-hjernen', '«Alle andre gjør det»', 'Vanlig overvurdering av jevnaldrendes rusbruk.', 14);
+delete from public.quiz_sporsmal where tema_id = 'psykologi-1:rus-og-hjernen';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('psykologi-1:rus-og-hjernen', 'q01', 'flervalg', 'Hvilken del av hjernen modnes sist?', array['Hjernestammen', 'Pannelappen', 'Lillehjernen', 'Bakhodelappen']::text[], 1, 'Viktig for impulskontroll.', true, true, 0),
+  ('psykologi-1:rus-og-hjernen', 'q02', 'flervalg', 'Hvilket signalstoff er sentralt i belønningssystemet?', array['Dopamin', 'Melatonin', 'Insulin', 'Kortisol']::text[], 0, 'Rusmidler gir kraftig dopaminøkning.', true, true, 1),
+  ('psykologi-1:rus-og-hjernen', 'q03', 'flervalg', 'Hva er toleranse?', array['At man tåler kritikk', 'At man slutter med rus', 'At man trenger mer av stoffet for samme virkning', 'At man får abstinens']::text[], 2, 'Hjernen tilpasser seg.', true, true, 2),
+  ('psykologi-1:rus-og-hjernen', 'q04', 'flervalg', 'Hvorfor kan alkohol gi hukommelsestap?', array['Fordi alkohol gir mer dopamin', 'Fordi lillehjernen lagrer minner', 'Fordi alkohol er stimulerende', 'Fordi hippocampus påvirkes']::text[], 3, 'Nye minner lagres dårlig.', true, true, 3),
+  ('psykologi-1:rus-og-hjernen', 'q05', 'flervalg', 'Hva øker risikoen for psykose ved cannabisbruk?', array['Tidlig og hyppig bruk, særlig av sterke produkter', 'Å bruke det sjelden som voksen', 'Å drikke vann', 'Å trene']::text[], 0, 'Særlig hos sårbare personer.', true, true, 4),
+  ('psykologi-1:rus-og-hjernen', 'q06', 'flervalg', 'Hva er selvmedisinering?', array['Å ta medisiner fra lege', 'Å bruke rus for å dempe psykiske plager', 'Å trene for å bli glad', 'Å sove mye']::text[], 1, 'Gjør ofte plagene verre på sikt.', true, true, 5),
+  ('psykologi-1:rus-og-hjernen', 'q07', 'flervalg', 'Hvorfor er ungdom mer sårbare for rusmidler?', array['De har større hjerne', 'De har mindre dopamin', 'Hjernen er fortsatt i utvikling', 'De tåler mer']::text[], 2, 'Tidlig debut gir større risiko.', true, true, 6),
+  ('psykologi-1:rus-og-hjernen', 'q08', 'flervalg', 'Hva er en beskyttende faktor mot rusproblemer?', array['Venner som ruser seg', 'Tidlig debut', 'Rus i familien', 'Gode relasjoner og tydelige grenser']::text[], 3, 'Også mestring på skole og fritid.', true, true, 7),
+  ('psykologi-1:rus-og-hjernen', 'q09', 'flervalg', 'Hva er avhengighet?', array['Sterk trang og tap av kontroll over bruken', 'Å bruke noe én gang', 'At rusen virker svakere', 'Å være sosial']::text[], 0, 'Bruken fortsetter selv med negative konsekvenser.', true, false, 8),
+  ('psykologi-1:rus-og-hjernen', 'q10', 'flervalg', 'Hvorfor er «naturlig betyr ufarlig» en myte?', array['Fordi naturlige stoffer er ulovlige', 'Fordi naturlige stoffer som cannabis kan være skadelige', 'Fordi alt naturlig er sunt', 'Fordi det ikke finnes naturlige rusmidler']::text[], 1, 'Naturlig betyr ikke trygt.', true, false, 9),
+  ('psykologi-1:rus-og-hjernen', 'm01', 'sant-usant', 'De fleste ungdommer i Norge bruker ikke narkotika.', array['Sant', 'Usant']::text[], 0, 'Mange overvurderer hva andre gjør.', false, true, 10),
+  ('psykologi-1:rus-og-hjernen', 'm02', 'sant-usant', 'Alkohol virker stimulerende på hjernen.', array['Sant', 'Usant']::text[], 1, 'Alkohol virker dempende.', false, true, 11),
+  ('psykologi-1:rus-og-hjernen', 'm03', 'sant-usant', 'Rus kan både være en følge av og en årsak til psykiske plager.', array['Sant', 'Usant']::text[], 0, 'Forholdet går begge veier.', false, true, 12),
+  ('psykologi-1:rus-og-hjernen', 'm04', 'sant-usant', 'Nikotin gir lite avhengighet.', array['Sant', 'Usant']::text[], 1, 'Nikotin er sterkt avhengighetsskapende.', false, true, 13),
+  ('psykologi-1:rus-og-hjernen', 'm05', 'flervalg', 'Hvorfor kan alkohol svekke balansen?', array['Den påvirker bakhodelappen', 'Den påvirker lillehjernen', 'Den påvirker hypofysen', 'Den påvirker øresneglen']::text[], 1, 'Lillehjernen styrer balanse og koordinasjon.', false, true, 14),
+  ('psykologi-1:rus-og-hjernen', 'm06', 'flervalg', 'Hva kan skje etter bruk av sentralstimulerende stoffer?', array['Nedstemthet og uro', 'Bedre søvn', 'Varig glede', 'Bedre hukommelse']::text[], 0, 'En «nedtur» etter rusen.', false, true, 15),
+  ('psykologi-1:rus-og-hjernen', 'm07', 'flervalg', 'Hvordan kan informasjon om jevnaldrendes faktiske rusbruk hjelpe?', array['Den øker presset', 'Den har ingen effekt', 'Den kan dempe presset fordi mange overvurderer andres bruk', 'Den gjør rus lovlig']::text[], 2, 'Sosiale normer påvirker atferd.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('psykologi-1:rus-og-hjernen', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Psykologi 1: Stress, sårbarhet og resiliens
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('psykologi-1:stress-og-resiliens', 'psykologi-1', 'stress-og-resiliens', 'Stress, sårbarhet og resiliens', 'Hva stress er, hvordan kroppen reagerer, Selyes og Lazarus'' stressmodeller, konsekvenser av langvarig stress, sårbarhet-stress-modellen, resiliens og beskyttende faktorer – og hvordan man kan forebygge negative stressreaksjoner.', array[14]::int[], 14, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('psykologi-1:stress-og-resiliens', '## Hva er stress?
+
+**Stress** er kroppens og psykens reaksjon når vi møter **krav** – **stressorer** – som vi opplever at vi **ikke har ressurser** nok til å håndtere. Stressorer kan være
+
+- **store livshendelser**, som dødsfall, skilsmisse eller flytting
+- **daglige irritasjonsmomenter**, som mas, kø og konflikter
+- **langvarige belastninger**, som sykdom i familien, mobbing eller økonomiske problemer
+
+## Kroppens stressreaksjon
+
+1. Det **sympatiske nervesystemet** og **adrenalin** gir en **rask** reaksjon: Pulsen, pusten og blodtrykket øker, og kroppen blir klar til **kamp eller flukt**.
+2. **Hypothalamus** sender signaler via **hypofysen** til **binyrene**, som skiller ut **kortisol**. Kortisol gir kroppen **energi** over lengre tid.
+
+Kortvarig stress kan være **nyttig**. Litt nervøsitet før en prøve kan skjerpe **konsentrasjonen**, og **moderat** aktivering gir ofte best **prestasjon**. For mye aktivering gir dårligere prestasjon.
+
+## Selyes stressmodell
+
+**Hans Selye** beskrev hvordan kroppen reagerer på langvarig stress i tre faser: **alarmfasen**, **motstandsfasen**, der kroppen prøver å tilpasse seg, og **utmattelsesfasen**, der ressursene tømmes.
+
+## Konsekvenser av langvarig stress
+
+- **søvnproblemer** og **utmattelse**
+- svekket **immunforsvar** og økt risiko for **hjerte- og karsykdom**
+- dårligere **konsentrasjon** og **hukommelse**
+- økt risiko for **angst**, **depresjon** og **utbrenthet**
+
+## Stress handler om tolkning
+
+**Richard Lazarus** og **Susan Folkman** viste at det er vår **vurdering** av situasjonen som avgjør om vi blir stresset:
+
+- **Primær vurdering**: Er dette en **trussel**, en **utfordring** eller uviktig?
+- **Sekundær vurdering**: Har jeg **ressurser** til å håndtere det?
+
+To elever kan derfor oppleve samme prøve svært ulikt. **Mestringsstrategier** kan være
+
+- **problemfokuserte** – å gjøre noe med **situasjonen**, for eksempel lage en leseplan
+- **emosjonsfokuserte** – å dempe **følelsene**, for eksempel snakke med en venn eller trene
+
+**Unngåelse**, som å utsette eller ruse seg, gir kortvarig lettelse, men ofte **mer** stress senere.
+
+## Sårbarhet-stress-modellen
+
+Ifølge **sårbarhet-stress-modellen** oppstår psykiske lidelser i et **samspill** mellom **sårbarhet** og **belastning**. Sårbarhet kan skyldes **gener**, **tidlige erfaringer** og **personlighet**. En person med høy sårbarhet kan bli syk av mindre belastning, mens en person med lav sårbarhet tåler mer.
+
+## Resiliens
+
+**Resiliens** er evnen til å **klare seg bra** til tross for **belastninger**. En kjent studie fulgte barn på øya **Kauai** på Hawaii i flere tiår. Omtrent **en tredel** av barna som vokste opp med mange risikofaktorer, utviklet seg likevel godt.
+
+**Beskyttende faktorer**:
+
+- **Individuelle**: mestringstro, problemløsningsevne, humor og evne til å regulere følelser
+- **Familie**: minst **én trygg voksen**, varme og støtte
+- **Omgivelser**: gode **venner**, en **lærer** som ser eleven, **fritidsaktiviteter** og et trygt **skolemiljø**
+
+Resiliens er ikke en fast **egenskap**, men en **prosess** som kan **styrkes**.
+
+## Forebygge negative stressreaksjoner
+
+- **søvn**, **fysisk aktivitet** og regelmessige **måltider**
+- **planlegging** og **realistiske** mål
+- **pusteteknikker**, avspenning og **oppmerksomt nærvær**
+- å **snakke** med noen og be om **hjelp**
+- å utfordre **negative tanker**, som «alt må være perfekt»
+
+Samfunnet kan også forebygge, for eksempel ved å redusere **prestasjonspress** og bygge **gode skolemiljøer**.', '{"label":"Stress og resiliens","children":[{"label":"Stress","children":[{"label":"Stressorer"},{"label":"Adrenalin og kortisol"},{"label":"Selyes faser"}]},{"label":"Konsekvenser","children":[{"label":"Søvn og immunforsvar"},{"label":"Angst og depresjon"}]},{"label":"Vurdering og mestring","children":[{"label":"Lazarus og Folkman"},{"label":"Problemfokusert"},{"label":"Emosjonsfokusert"}]},{"label":"Sårbarhet og resiliens","children":[{"label":"Sårbarhet-stress-modellen"},{"label":"Beskyttende faktorer"},{"label":"Kauai-studien"}]},{"label":"Forebygging","children":[{"label":"Søvn og aktivitet"},{"label":"Planlegging"},{"label":"Snakke med noen"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'psykologi-1:stress-og-resiliens';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('psykologi-1:stress-og-resiliens', 'Stress', 'Reaksjon på krav vi opplever at vi ikke har ressurser nok til.', 0),
+  ('psykologi-1:stress-og-resiliens', 'Stressor', 'Et krav eller en belastning som utløser stress.', 1),
+  ('psykologi-1:stress-og-resiliens', 'Adrenalin', 'Hormon som gir rask kamp-eller-flukt-reaksjon.', 2),
+  ('psykologi-1:stress-og-resiliens', 'Kortisol', 'Stresshormon fra binyrene som gir energi over tid.', 3),
+  ('psykologi-1:stress-og-resiliens', 'Moderat aktivering', 'Gir ofte best prestasjon.', 4),
+  ('psykologi-1:stress-og-resiliens', 'Selyes tre faser', 'Alarm, motstand og utmattelse.', 5),
+  ('psykologi-1:stress-og-resiliens', 'Utbrenthet', 'Utmattelse etter langvarig stress.', 6),
+  ('psykologi-1:stress-og-resiliens', 'Primær vurdering', 'Lazarus: Er situasjonen en trussel, en utfordring eller uviktig?', 7),
+  ('psykologi-1:stress-og-resiliens', 'Sekundær vurdering', 'Lazarus: Har jeg ressurser til å håndtere det?', 8),
+  ('psykologi-1:stress-og-resiliens', 'Problemfokusert mestring', 'Å gjøre noe med selve situasjonen.', 9),
+  ('psykologi-1:stress-og-resiliens', 'Emosjonsfokusert mestring', 'Å dempe følelsene situasjonen gir.', 10),
+  ('psykologi-1:stress-og-resiliens', 'Unngåelse', 'Å utsette eller flykte fra problemet – gir ofte mer stress senere.', 11),
+  ('psykologi-1:stress-og-resiliens', 'Sårbarhet-stress-modellen', 'Psykiske lidelser oppstår i samspill mellom sårbarhet og belastning.', 12),
+  ('psykologi-1:stress-og-resiliens', 'Resiliens', 'Evnen til å klare seg bra til tross for belastninger.', 13),
+  ('psykologi-1:stress-og-resiliens', 'Kauai-studien', 'Fulgte barn i flere tiår – en tredel av risikobarna klarte seg godt.', 14),
+  ('psykologi-1:stress-og-resiliens', 'Én trygg voksen', 'En av de viktigste beskyttende faktorene for barn.', 15),
+  ('psykologi-1:stress-og-resiliens', 'Oppmerksomt nærvær', 'Å rette oppmerksomheten mot her og nå – kan dempe stress.', 16);
+delete from public.quiz_sporsmal where tema_id = 'psykologi-1:stress-og-resiliens';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('psykologi-1:stress-og-resiliens', 'q01', 'flervalg', 'Når oppstår stress?', array['Bare ved store katastrofer', 'Når vi opplever at kravene er større enn ressursene', 'Bare når vi sover lite', 'Bare hos voksne']::text[], 1, 'Stressorer kan være store eller små.', true, true, 0),
+  ('psykologi-1:stress-og-resiliens', 'q02', 'flervalg', 'Hvilket hormon gir en rask kamp-eller-flukt-reaksjon?', array['Adrenalin', 'Melatonin', 'Oksytocin', 'Insulin']::text[], 0, 'Kortisol virker over lengre tid.', true, true, 1),
+  ('psykologi-1:stress-og-resiliens', 'q03', 'flervalg', 'Hva er de tre fasene i Selyes modell?', array['Sjokk, reaksjon og bearbeiding', 'Koding, lagring og gjenhenting', 'Alarm, motstand og utmattelse', 'Id, ego og superego']::text[], 2, 'Ressursene tømmes ved langvarig stress.', true, true, 2),
+  ('psykologi-1:stress-og-resiliens', 'q04', 'flervalg', 'Hva er en primær vurdering hos Lazarus?', array['Om man har ressurser', 'Om man skal ringe en venn', 'Om man har sovet nok', 'Om situasjonen er en trussel, en utfordring eller uviktig']::text[], 3, 'Sekundær vurdering handler om ressursene.', true, true, 3),
+  ('psykologi-1:stress-og-resiliens', 'q05', 'flervalg', 'En elev lager en leseplan før eksamen. Hvilken mestringsstrategi er dette?', array['Problemfokusert', 'Emosjonsfokusert', 'Unngåelse', 'Fornekting']::text[], 0, 'Eleven gjør noe med situasjonen.', true, true, 4),
+  ('psykologi-1:stress-og-resiliens', 'q06', 'flervalg', 'Hva sier sårbarhet-stress-modellen?', array['At bare stress gir sykdom', 'At psykiske lidelser oppstår i samspill mellom sårbarhet og belastning', 'At sårbarhet ikke betyr noe', 'At alle blir like syke']::text[], 1, 'Høy sårbarhet gir lavere terskel.', true, true, 5),
+  ('psykologi-1:stress-og-resiliens', 'q07', 'flervalg', 'Hva er resiliens?', array['En psykisk lidelse', 'Et stresshormon', 'Evnen til å klare seg bra til tross for belastninger', 'En fase i en krise']::text[], 2, 'Kan styrkes.', true, true, 6),
+  ('psykologi-1:stress-og-resiliens', 'q08', 'flervalg', 'Hva er en av de viktigste beskyttende faktorene for barn?', array['Mye skjermtid', 'Høye karakterer', 'Å være alene', 'Minst én trygg voksen']::text[], 3, 'Vist blant annet i Kauai-studien.', true, true, 7),
+  ('psykologi-1:stress-og-resiliens', 'q09', 'flervalg', 'Hva kan langvarig stress føre til?', array['Svekket immunforsvar og søvnproblemer', 'Bedre hukommelse', 'Mer energi over tid', 'Sterkere immunforsvar']::text[], 0, 'Også økt risiko for angst og depresjon.', true, false, 8),
+  ('psykologi-1:stress-og-resiliens', 'q10', 'flervalg', 'Hvorfor kan to elever oppleve samme prøve ulikt?', array['Fordi prøven er ulik', 'Fordi de vurderer situasjonen og ressursene sine ulikt', 'Fordi bare den ene har kortisol', 'Fordi stress er tilfeldig']::text[], 1, 'Tolkningen avgjør stressreaksjonen.', true, false, 9),
+  ('psykologi-1:stress-og-resiliens', 'm01', 'sant-usant', 'Litt nervøsitet før en prøve kan gi bedre konsentrasjon.', array['Sant', 'Usant']::text[], 0, 'Moderat aktivering gir ofte best prestasjon.', false, true, 10),
+  ('psykologi-1:stress-og-resiliens', 'm02', 'sant-usant', 'Resiliens er en medfødt egenskap som ikke kan endres.', array['Sant', 'Usant']::text[], 1, 'Resiliens er en prosess som kan styrkes.', false, true, 11),
+  ('psykologi-1:stress-og-resiliens', 'm03', 'sant-usant', 'Daglige irritasjonsmomenter kan også være stressorer.', array['Sant', 'Usant']::text[], 0, 'Ikke bare store livshendelser.', false, true, 12),
+  ('psykologi-1:stress-og-resiliens', 'm04', 'sant-usant', 'Unngåelse er den beste måten å redusere stress på over tid.', array['Sant', 'Usant']::text[], 1, 'Det gir ofte mer stress senere.', false, true, 13),
+  ('psykologi-1:stress-og-resiliens', 'm05', 'flervalg', 'Hvilken strategi er emosjonsfokusert?', array['Lage en leseplan', 'Snakke med en venn om bekymringene', 'Be læreren forklare oppgaven', 'Dele opp oppgaven']::text[], 1, 'Demper følelsene.', false, true, 14),
+  ('psykologi-1:stress-og-resiliens', 'm06', 'flervalg', 'Hvilken kjertel skiller ut kortisol?', array['Binyrene', 'Skjoldbruskkjertelen', 'Epifysen', 'Bukspyttkjertelen']::text[], 0, 'Etter signaler fra hypothalamus og hypofysen.', false, true, 15),
+  ('psykologi-1:stress-og-resiliens', 'm07', 'flervalg', 'Hvordan kan samfunnet forebygge negative stressreaksjoner hos unge?', array['Øke prestasjonspresset', 'Fjerne fritidsaktiviteter', 'Redusere prestasjonspress og bygge gode skolemiljøer', 'Gi flere prøver']::text[], 2, 'Forebygging skjer også på samfunnsnivå.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('psykologi-1:stress-og-resiliens', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Markedsføring og ledelse 1 (vg2): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'markedsforing-og-ledelse-1' and slug not in ('markedsforing-og-teorier', 'forbrukeratferd', 'forretningside-og-malgrupper', 'markedsundersokelser', 'situasjonsanalyse', 'produkt-og-merkevare', 'distribusjon', 'pris', 'markedskommunikasjon', 'mediemiks-og-innhold', 'konkurransemidler-i-kombinasjon', 'personale-og-ledelse', 'regelverk-og-etikk', 'barekraftig-markedsforing');
+
+-- Markedsføring og ledelse 1: Markedsføring, ledelse og fagets modeller
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('markedsforing-og-ledelse-1:markedsforing-og-teorier', 'markedsforing-og-ledelse-1', 'markedsforing-og-teorier', 'Markedsføring, ledelse og fagets modeller', 'Hva markedsføring og ledelse er, sentrale begreper som behov og etterspørsel, utviklingen fra produksjonsorientering til samfunnsorientering, markedsføringsmiksen og markedsplanen – og hvordan du bruker kilder og modeller i arbeid med dagsaktuelle problemstillinger.', array[1]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('markedsforing-og-ledelse-1:markedsforing-og-teorier', '## Hva er markedsføring?
+
+**Markedsføring** er mer enn reklame. Det er alle aktivitetene en virksomhet gjør for å **forstå** kundene og **skape**, **kommunisere** og **levere verdi** til dem – slik at både kunden og virksomheten tjener på **byttet**.
+
+Tre grunnbegreper:
+
+- **Behov**: en følelse av at noe **mangler**, som sult eller ønsket om tilhørighet.
+- **Ønske**: den konkrete formen behovet tar, for eksempel en burger.
+- **Etterspørsel**: et ønske som kunden har **kjøpekraft** til å gjennomføre.
+
+## Fra produksjon til samfunnsansvar
+
+Virksomheter har hatt ulike **orienteringer** gjennom historien:
+
+1. **Produksjonsorientering**: Etterspørselen er større enn tilbudet. Målet er å produsere **effektivt** og billig.
+2. **Produktorientering**: Virksomheten tror kundene vil ha best mulig **kvalitet**.
+3. **Salgsorientering**: Tilbudet er stort, og virksomheten satser på **aggressivt salg**.
+4. **Markedsorientering**: Virksomheten tar utgangspunkt i **kundenes behov**.
+5. **Samfunnsorientering**: Virksomheten tar også hensyn til **samfunnet** og **miljøet** på lang sikt.
+
+I dag er **relasjonsmarkedsføring** viktig: å bygge **langsiktige** forhold til kundene gjennom god service, kundeklubber og dialog. Det er ofte **billigere** å beholde en kunde enn å skaffe en ny.
+
+## Markedsføringsmiksen
+
+Virksomheten bruker **konkurransemidler** for å nå målene sine. De fire klassiske er de **fire P-ene**:
+
+- **Produkt** – hva som tilbys
+- **Pris** – hva det koster
+- **Plass** – distribusjon, hvor og hvordan kunden får tak i produktet
+- **Påvirkning** – markedskommunikasjon
+
+For **tjenester** brukes ofte **sju P-er**, der **personale**, **prosess** og **fysiske omgivelser** kommer i tillegg.
+
+## Hva er ledelse?
+
+**Ledelse** er å få andre til å arbeide mot felles **mål**. Klassiske **lederoppgaver** er å
+
+- **planlegge** – sette mål og velge strategier
+- **organisere** – fordele oppgaver og ressurser
+- **lede** – motivere og kommunisere med de ansatte
+- **kontrollere** – følge opp resultatene og justere
+
+## Markedsplanen
+
+En **markedsplan** samler markedsføringsarbeidet:
+
+1. **Situasjonsanalyse** – hvor står vi?
+2. **Mål** – hvor vil vi?
+3. **Strategi** – målgruppe og posisjonering
+4. **Konkurransemidler** – de fire P-ene
+5. **Gjennomføring** og **budsjett**
+6. **Kontroll** – nådde vi målene?
+
+## Modeller og kilder
+
+**Modeller** som de fire P-ene, SWOT og AIDA er **forenklinger** som hjelper oss å **strukturere** en analyse. De passer ikke alltid perfekt, og du bør vurdere **svakhetene** deres.
+
+Gode **kilder** er fagbøker, **SSB**, **Forbrukertilsynet**, bransjerapporter og redaktørstyrte medier. **Virksomhetenes egne** nettsider og pressemeldinger er nyttige, men har en **egeninteresse** i å vise seg fram.
+
+## Å arbeide med en dagsaktuell sak
+
+Ta for eksempel en kjede som lanserer en ny **bærekraftig** produktserie. Du kan
+
+- bruke de **fire P-ene** for å beskrive tiltakene
+- bruke **SWOT** for å vurdere situasjonen
+- finne **kilder** som belyser saken fra flere sider
+- drøfte om satsingen er **lønnsom**, **troverdig** og **etisk**', '{"label":"Markedsføring og ledelse","children":[{"label":"Grunnbegreper","children":[{"label":"Behov og ønsker"},{"label":"Etterspørsel"},{"label":"Verdi"}]},{"label":"Orienteringer","children":[{"label":"Produksjon og produkt"},{"label":"Salg"},{"label":"Marked og samfunn"}]},{"label":"Markedsføringsmiks","children":[{"label":"Fire P-er"},{"label":"Sju P-er for tjenester"}]},{"label":"Ledelse","children":[{"label":"Planlegge og organisere"},{"label":"Lede og kontrollere"}]},{"label":"Arbeidsmåter","children":[{"label":"Markedsplan"},{"label":"Modeller"},{"label":"Kildekritikk"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'markedsforing-og-ledelse-1:markedsforing-og-teorier';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('markedsforing-og-ledelse-1:markedsforing-og-teorier', 'Markedsføring', 'Å forstå kundene og skape, kommunisere og levere verdi til dem.', 0),
+  ('markedsforing-og-ledelse-1:markedsforing-og-teorier', 'Behov', 'En følelse av at noe mangler.', 1),
+  ('markedsforing-og-ledelse-1:markedsforing-og-teorier', 'Ønske', 'Den konkrete formen et behov tar.', 2),
+  ('markedsforing-og-ledelse-1:markedsforing-og-teorier', 'Etterspørsel', 'Et ønske kunden har kjøpekraft til å gjennomføre.', 3),
+  ('markedsforing-og-ledelse-1:markedsforing-og-teorier', 'Produksjonsorientering', 'Fokus på effektiv og billig produksjon når etterspørselen er stor.', 4),
+  ('markedsforing-og-ledelse-1:markedsforing-og-teorier', 'Salgsorientering', 'Satsing på aggressivt salg når tilbudet er stort.', 5),
+  ('markedsforing-og-ledelse-1:markedsforing-og-teorier', 'Markedsorientering', 'Kundenes behov er utgangspunktet.', 6),
+  ('markedsforing-og-ledelse-1:markedsforing-og-teorier', 'Samfunnsorientering', 'Hensyn også til samfunn og miljø på lang sikt.', 7),
+  ('markedsforing-og-ledelse-1:markedsforing-og-teorier', 'Relasjonsmarkedsføring', 'Å bygge langsiktige forhold til kundene.', 8),
+  ('markedsforing-og-ledelse-1:markedsforing-og-teorier', 'Konkurransemidler', 'Virkemidlene virksomheten bruker for å nå målene sine.', 9),
+  ('markedsforing-og-ledelse-1:markedsforing-og-teorier', 'De fire P-ene', 'Produkt, pris, plass og påvirkning.', 10),
+  ('markedsforing-og-ledelse-1:markedsforing-og-teorier', 'Sju P-er', 'De fire P-ene pluss personale, prosess og fysiske omgivelser.', 11),
+  ('markedsforing-og-ledelse-1:markedsforing-og-teorier', 'Ledelse', 'Å få andre til å arbeide mot felles mål.', 12),
+  ('markedsforing-og-ledelse-1:markedsforing-og-teorier', 'Lederoppgaver', 'Planlegge, organisere, lede og kontrollere.', 13),
+  ('markedsforing-og-ledelse-1:markedsforing-og-teorier', 'Markedsplan', 'Situasjonsanalyse, mål, strategi, konkurransemidler, gjennomføring og kontroll.', 14),
+  ('markedsforing-og-ledelse-1:markedsforing-og-teorier', 'Modell', 'En forenkling som hjelper oss å strukturere en analyse.', 15);
+delete from public.quiz_sporsmal where tema_id = 'markedsforing-og-ledelse-1:markedsforing-og-teorier';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('markedsforing-og-ledelse-1:markedsforing-og-teorier', 'q01', 'flervalg', 'Hva er etterspørsel?', array['En følelse av at noe mangler', 'Et ønske kunden har kjøpekraft til å gjennomføre', 'Et produkt', 'En reklame']::text[], 1, 'Behov og ønsker blir etterspørsel når kunden kan betale.', true, true, 0),
+  ('markedsforing-og-ledelse-1:markedsforing-og-teorier', 'q02', 'flervalg', 'Hva kjennetegner markedsorientering?', array['Kundenes behov er utgangspunktet', 'Fokus på billig produksjon', 'Aggressivt salg', 'Bare kvalitet']::text[], 0, 'Virksomheten starter med kunden.', true, true, 1),
+  ('markedsforing-og-ledelse-1:markedsforing-og-teorier', 'q03', 'flervalg', 'Hva står de fire P-ene for?', array['Plan, pris, personale og profitt', 'Produkt, profil, pris og presse', 'Produkt, pris, plass og påvirkning', 'Pris, prosess, plass og personale']::text[], 2, 'Markedsføringsmiksen.', true, true, 2),
+  ('markedsforing-og-ledelse-1:markedsforing-og-teorier', 'q04', 'flervalg', 'Hvilke P-er kommer i tillegg for tjenester?', array['Profitt, plan og presse', 'Pris og produkt', 'Promotering og plassering', 'Personale, prosess og fysiske omgivelser']::text[], 3, 'Sju P-er.', true, true, 3),
+  ('markedsforing-og-ledelse-1:markedsforing-og-teorier', 'q05', 'flervalg', 'Hva er relasjonsmarkedsføring?', array['Å bygge langsiktige forhold til kundene', 'Å selge mest mulig på kort tid', 'Å bare reklamere på TV', 'Å senke prisene']::text[], 0, 'Det er ofte billigere å beholde en kunde enn å skaffe en ny.', true, true, 4),
+  ('markedsforing-og-ledelse-1:markedsforing-og-teorier', 'q06', 'flervalg', 'Hvilken oppgave er en klassisk lederoppgave?', array['Å produsere varene selv', 'Å planlegge, organisere, lede og kontrollere', 'Å selge i kassen', 'Å designe logoen']::text[], 1, 'Fire klassiske lederoppgaver.', true, true, 5),
+  ('markedsforing-og-ledelse-1:markedsforing-og-teorier', 'q07', 'flervalg', 'Hva er det første steget i en markedsplan?', array['Kontroll', 'Budsjett', 'Situasjonsanalyse', 'Reklame']::text[], 2, 'Hvor står vi?', true, true, 6),
+  ('markedsforing-og-ledelse-1:markedsforing-og-teorier', 'q08', 'flervalg', 'Hvorfor bør du være kritisk til en virksomhets egne pressemeldinger?', array['De er alltid feil', 'De er for korte', 'De er ulovlige', 'Virksomheten har egeninteresse i å vise seg fram']::text[], 3, 'Sjekk mot flere kilder.', true, true, 7),
+  ('markedsforing-og-ledelse-1:markedsforing-og-teorier', 'q09', 'flervalg', 'Hva kjennetegner samfunnsorientering?', array['Hensyn også til samfunn og miljø på lang sikt', 'Fokus bare på profitt', 'Fokus på produksjon', 'Aggressivt salg']::text[], 0, 'Den nyeste orienteringen.', true, false, 8),
+  ('markedsforing-og-ledelse-1:markedsforing-og-teorier', 'q10', 'flervalg', 'Hva er en modell i markedsføring?', array['En person i reklame', 'En forenkling som hjelper oss å strukturere en analyse', 'Et produkt', 'En lov']::text[], 1, 'Modeller har også svakheter.', true, false, 9),
+  ('markedsforing-og-ledelse-1:markedsforing-og-teorier', 'm01', 'sant-usant', 'Markedsføring er mer enn reklame.', array['Sant', 'Usant']::text[], 0, 'Det handler om å skape og levere verdi.', false, true, 10),
+  ('markedsforing-og-ledelse-1:markedsforing-og-teorier', 'm02', 'sant-usant', 'Produksjonsorientering passer best når tilbudet er mye større enn etterspørselen.', array['Sant', 'Usant']::text[], 1, 'Den oppstod når etterspørselen var større enn tilbudet.', false, true, 11),
+  ('markedsforing-og-ledelse-1:markedsforing-og-teorier', 'm03', 'sant-usant', 'Modeller som de fire P-ene er forenklinger av virkeligheten.', array['Sant', 'Usant']::text[], 0, 'De hjelper oss å strukturere en analyse.', false, true, 12),
+  ('markedsforing-og-ledelse-1:markedsforing-og-teorier', 'm04', 'sant-usant', 'Det er alltid billigere å skaffe en ny kunde enn å beholde en gammel.', array['Sant', 'Usant']::text[], 1, 'Det er ofte omvendt.', false, true, 13),
+  ('markedsforing-og-ledelse-1:markedsforing-og-teorier', 'm05', 'flervalg', 'Hvilken P handler om distribusjon?', array['Påvirkning', 'Plass', 'Pris', 'Produkt']::text[], 1, 'Hvor og hvordan kunden får tak i produktet.', false, true, 14),
+  ('markedsforing-og-ledelse-1:markedsforing-og-teorier', 'm06', 'flervalg', 'Hvilken kilde gir offisiell statistikk?', array['SSB', 'En influencer', 'En reklameplakat', 'Et nettforum']::text[], 0, 'Statistisk sentralbyrå.', false, true, 15),
+  ('markedsforing-og-ledelse-1:markedsforing-og-teorier', 'm07', 'flervalg', 'Hva er et behov?', array['Et bestemt merke', 'Et ønske med kjøpekraft', 'En følelse av at noe mangler', 'En pris']::text[], 2, 'For eksempel sult.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('markedsforing-og-ledelse-1:markedsforing-og-teorier', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Markedsføring og ledelse 1: Forbrukeratferd
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('markedsforing-og-ledelse-1:forbrukeratferd', 'markedsforing-og-ledelse-1', 'forbrukeratferd', 'Forbrukeratferd', 'Hvordan forbrukere tar kjøpsbeslutninger – kjøpsprosessen og ulike typer kjøp – og hvilke psykologiske, sosiale, kulturelle og personlige faktorer som påvirker hva vi kjøper.', array[2]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('markedsforing-og-ledelse-1:forbrukeratferd', '## Hva er forbrukeratferd?
+
+**Forbrukeratferd** handler om hvordan mennesker **velger**, **kjøper**, **bruker** og **kvitter seg med** varer og tjenester. Virksomheter som forstår kundene sine, kan lage bedre produkter og treffe bedre med markedsføringen.
+
+## Kjøpsprosessen
+
+Et kjøp går ofte gjennom fem trinn:
+
+1. **Behovserkjennelse** – kunden merker et behov, for eksempel at mobilen er ødelagt.
+2. **Informasjonssøk** – kunden leser anmeldelser, spør venner og sammenligner.
+3. **Vurdering av alternativer** – kunden veier pris, kvalitet, merke og egenskaper.
+4. **Kjøpsbeslutning** – kunden kjøper, eller lar være.
+5. **Etterkjøpsatferd** – kunden blir fornøyd eller misfornøyd og forteller det kanskje videre.
+
+Etter et dyrt kjøp kan kunden tvile på om valget var riktig. Denne tvilen kalles **kognitiv dissonans**. Virksomheter kan dempe den med god **oppfølging**, garanti og bekreftende informasjon.
+
+## Typer kjøp
+
+- **Rutinekjøp**: billige varer vi kjøper ofte, som melk. Lite **engasjement**.
+- **Begrenset problemløsning**: noe mer vurdering, for eksempel et nytt merke av sjampo.
+- **Omfattende problemløsning**: dyre og viktige kjøp, som PC eller bil. Høyt engasjement og mye informasjonssøk.
+- **Impulskjøp**: uplanlagte kjøp, ofte ved **kassen** eller i **sosiale medier**.
+
+## Psykologiske faktorer
+
+- **Motiver** og **behov** – Maslows behovspyramide brukes ofte for å forklare hvilke behov et produkt dekker.
+- **Persepsjon** – hvordan vi **legger merke til** og **tolker** informasjon. Farger, emballasje og plassering i butikken påvirker.
+- **Læring** – erfaringer gjør oss **lojale** mot et merke.
+- **Holdninger** – varige vurderinger av produkter og merker.
+- **Følelser** – mange kjøp styres mer av følelser enn av fornuft.
+
+## Sosiale faktorer
+
+- **Referansegrupper** – grupper vi sammenligner oss med eller ønsker å tilhøre, som venner eller idrettslaget.
+- **Familien** – påvirker vaner og verdier, og barn påvirker mange av familiens kjøp.
+- **Opinionsledere** og **påvirkere** – personer som andre lytter til, for eksempel influensere.
+- **Status** og **roller** – vi kjøper noe for å vise hvem vi er.
+
+## Kulturelle faktorer
+
+- **Kultur** – felles verdier og normer. I Norge er for eksempel **friluftsliv** en viktig del av kulturen.
+- **Subkulturer** – grupper med egne verdier og stil, som gamere eller religiøse minoriteter.
+- **Sosial klasse** – utdanning og inntekt påvirker smak og forbruk.
+- **Høytider** og **tradisjoner** – som jul og 17. mai.
+
+## Personlige faktorer
+
+**Alder**, **livsfase**, **økonomi**, **yrke**, **livsstil** og **personlighet** påvirker hva vi kjøper. En student og en småbarnsfamilie har svært ulike behov.
+
+## Digitale kjøp
+
+På nett blir vi påvirket av **anmeldelser**, **anbefalinger** fra algoritmer, **tidsbegrensede** tilbud og hvor **lett** det er å betale. Det gjør det raskere å kjøpe – men også lettere å kjøpe noe vi **ikke trenger**.
+
+## Vurdering
+
+Forbrukeratferd er et samspill av **mange** faktorer. Virksomheter bruker kunnskapen til å treffe kundene bedre, men det reiser også **etiske** spørsmål: Når blir påvirkning til **manipulasjon**, og hvordan påvirker markedsføringen **overforbruk**?', '{"label":"Forbrukeratferd","children":[{"label":"Kjøpsprosessen","children":[{"label":"Behov og informasjon"},{"label":"Vurdering og kjøp"},{"label":"Etterkjøp"}]},{"label":"Kjøpstyper","children":[{"label":"Rutine"},{"label":"Omfattende"},{"label":"Impuls"}]},{"label":"Psykologisk","children":[{"label":"Motiver"},{"label":"Persepsjon og læring"},{"label":"Holdninger"}]},{"label":"Sosialt","children":[{"label":"Referansegrupper"},{"label":"Familie"},{"label":"Påvirkere"}]},{"label":"Kulturelt og personlig","children":[{"label":"Kultur og subkultur"},{"label":"Livsfase og økonomi"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'markedsforing-og-ledelse-1:forbrukeratferd';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('markedsforing-og-ledelse-1:forbrukeratferd', 'Forbrukeratferd', 'Hvordan mennesker velger, kjøper, bruker og kvitter seg med produkter.', 0),
+  ('markedsforing-og-ledelse-1:forbrukeratferd', 'Kjøpsprosessen', 'Behovserkjennelse, informasjonssøk, vurdering, kjøp og etterkjøpsatferd.', 1),
+  ('markedsforing-og-ledelse-1:forbrukeratferd', 'Behovserkjennelse', 'Kunden merker et behov.', 2),
+  ('markedsforing-og-ledelse-1:forbrukeratferd', 'Etterkjøpsatferd', 'Kunden blir fornøyd eller misfornøyd etter kjøpet.', 3),
+  ('markedsforing-og-ledelse-1:forbrukeratferd', 'Kognitiv dissonans etter kjøp', 'Tvil om kjøpet var riktig.', 4),
+  ('markedsforing-og-ledelse-1:forbrukeratferd', 'Rutinekjøp', 'Billige varer vi kjøper ofte med lite engasjement.', 5),
+  ('markedsforing-og-ledelse-1:forbrukeratferd', 'Omfattende problemløsning', 'Dyre og viktige kjøp med mye informasjonssøk.', 6),
+  ('markedsforing-og-ledelse-1:forbrukeratferd', 'Impulskjøp', 'Uplanlagt kjøp.', 7),
+  ('markedsforing-og-ledelse-1:forbrukeratferd', 'Persepsjon', 'Hvordan vi legger merke til og tolker informasjon.', 8),
+  ('markedsforing-og-ledelse-1:forbrukeratferd', 'Holdning', 'Varig vurdering av et produkt eller merke.', 9),
+  ('markedsforing-og-ledelse-1:forbrukeratferd', 'Referansegruppe', 'Gruppe vi sammenligner oss med eller ønsker å tilhøre.', 10),
+  ('markedsforing-og-ledelse-1:forbrukeratferd', 'Opinionsleder', 'Person som andre lytter til og lar seg påvirke av.', 11),
+  ('markedsforing-og-ledelse-1:forbrukeratferd', 'Subkultur', 'Gruppe med egne verdier og stil innenfor en kultur.', 12),
+  ('markedsforing-og-ledelse-1:forbrukeratferd', 'Sosial klasse', 'Utdanning og inntekt som påvirker smak og forbruk.', 13),
+  ('markedsforing-og-ledelse-1:forbrukeratferd', 'Livsfase', 'Hvor i livet man er, for eksempel student eller småbarnsforelder.', 14),
+  ('markedsforing-og-ledelse-1:forbrukeratferd', 'Engasjement', 'Hvor viktig og involverende et kjøp er for kunden.', 15);
+delete from public.quiz_sporsmal where tema_id = 'markedsforing-og-ledelse-1:forbrukeratferd';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('markedsforing-og-ledelse-1:forbrukeratferd', 'q01', 'flervalg', 'Hva er første trinn i kjøpsprosessen?', array['Informasjonssøk', 'Behovserkjennelse', 'Kjøpsbeslutning', 'Etterkjøpsatferd']::text[], 1, 'Kunden merker et behov.', true, true, 0),
+  ('markedsforing-og-ledelse-1:forbrukeratferd', 'q02', 'flervalg', 'Hva er kognitiv dissonans etter kjøp?', array['Tvil om kjøpet var riktig', 'Glede over kjøpet', 'Et impulskjøp', 'En rabatt']::text[], 0, 'Vanlig etter dyre kjøp.', true, true, 1),
+  ('markedsforing-og-ledelse-1:forbrukeratferd', 'q03', 'flervalg', 'Hvilket kjøp er typisk omfattende problemløsning?', array['Melk', 'Tyggegummi', 'En ny bil', 'Brød']::text[], 2, 'Dyrt og viktig kjøp.', true, true, 2),
+  ('markedsforing-og-ledelse-1:forbrukeratferd', 'q04', 'flervalg', 'Hva er en referansegruppe?', array['En gruppe forskere', 'En kundeklubb', 'En butikkjede', 'En gruppe vi sammenligner oss med eller ønsker å tilhøre']::text[], 3, 'En sosial faktor.', true, true, 3),
+  ('markedsforing-og-ledelse-1:forbrukeratferd', 'q05', 'flervalg', 'Hvilken faktor er psykologisk?', array['Persepsjon', 'Sosial klasse', 'Familie', 'Kultur']::text[], 0, 'Også motiver, læring og holdninger.', true, true, 4),
+  ('markedsforing-og-ledelse-1:forbrukeratferd', 'q06', 'flervalg', 'Hva er en opinionsleder?', array['En politiker', 'En person som andre lytter til og lar seg påvirke av', 'En butikksjef', 'En journalist alltid']::text[], 1, 'For eksempel en influenser.', true, true, 5),
+  ('markedsforing-og-ledelse-1:forbrukeratferd', 'q07', 'flervalg', 'Hvilken faktor er kulturell?', array['Alder', 'Holdninger', 'Subkultur', 'Økonomi']::text[], 2, 'Grupper med egne verdier og stil.', true, true, 6),
+  ('markedsforing-og-ledelse-1:forbrukeratferd', 'q08', 'flervalg', 'Hva er et impulskjøp?', array['Et planlagt kjøp', 'Et kjøp av bil', 'Et kjøp med mye informasjonssøk', 'Et uplanlagt kjøp']::text[], 3, 'Ofte ved kassen eller i sosiale medier.', true, true, 7),
+  ('markedsforing-og-ledelse-1:forbrukeratferd', 'q09', 'flervalg', 'Hvordan kan en virksomhet dempe kundens tvil etter et dyrt kjøp?', array['Med god oppfølging og garanti', 'Ved å heve prisen', 'Ved å ignorere kunden', 'Ved å slutte å selge produktet']::text[], 0, 'Bekrefter at valget var riktig.', true, false, 8),
+  ('markedsforing-og-ledelse-1:forbrukeratferd', 'q10', 'flervalg', 'Hvorfor gjør netthandel det lettere å kjøpe noe vi ikke trenger?', array['Fordi varene er dårligere', 'Fordi anbefalinger, tidsbegrensede tilbud og enkel betaling gjør kjøpet raskt', 'Fordi det er dyrere', 'Fordi det er ulovlig']::text[], 1, 'Terskelen for å kjøpe blir lavere.', true, false, 9),
+  ('markedsforing-og-ledelse-1:forbrukeratferd', 'm01', 'sant-usant', 'Mange kjøp styres mer av følelser enn av fornuft.', array['Sant', 'Usant']::text[], 0, 'Følelser er en viktig psykologisk faktor.', false, true, 10),
+  ('markedsforing-og-ledelse-1:forbrukeratferd', 'm02', 'sant-usant', 'Rutinekjøp krever mye informasjonssøk.', array['Sant', 'Usant']::text[], 1, 'Rutinekjøp har lite engasjement.', false, true, 11),
+  ('markedsforing-og-ledelse-1:forbrukeratferd', 'm03', 'sant-usant', 'Barn kan påvirke mange av familiens kjøp.', array['Sant', 'Usant']::text[], 0, 'Familien er en sosial faktor.', false, true, 12),
+  ('markedsforing-og-ledelse-1:forbrukeratferd', 'm04', 'sant-usant', 'Kultur har ingen betydning for hva vi kjøper.', array['Sant', 'Usant']::text[], 1, 'Kultur påvirker verdier, normer og tradisjoner.', false, true, 13),
+  ('markedsforing-og-ledelse-1:forbrukeratferd', 'm05', 'flervalg', 'Hvilken faktor er personlig?', array['Referansegruppe', 'Livsfase', 'Kultur', 'Opinionsleder']::text[], 1, 'Også alder, økonomi og livsstil.', false, true, 14),
+  ('markedsforing-og-ledelse-1:forbrukeratferd', 'm06', 'flervalg', 'Hvordan kan plassering i butikken påvirke kjøp?', array['Gjennom persepsjon – det vi legger merke til', 'Den har ingen effekt', 'Den endrer prisen', 'Den gjør varen ulovlig']::text[], 0, 'Varer i øyehøyde blir sett oftere.', false, true, 15),
+  ('markedsforing-og-ledelse-1:forbrukeratferd', 'm07', 'flervalg', 'Hvilket etisk spørsmål reiser kunnskap om forbrukeratferd?', array['Om varene er tunge', 'Om butikken er stor', 'Når påvirkning blir til manipulasjon', 'Om kunden har bil']::text[], 2, 'Og hvordan markedsføring påvirker overforbruk.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('markedsforing-og-ledelse-1:forbrukeratferd', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Markedsføring og ledelse 1: Forretningsidé, mål og målgrupper
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('markedsforing-og-ledelse-1:forretningside-og-malgrupper', 'markedsforing-og-ledelse-1', 'forretningside-og-malgrupper', 'Forretningsidé, mål og målgrupper', 'Hvordan en virksomhet formulerer visjon, forretningsidé og mål, hvordan markedet deles inn i segmenter, hvordan man velger og vurderer målgrupper, og hvordan virksomheten posisjonerer seg.', array[3]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('markedsforing-og-ledelse-1:forretningside-og-malgrupper', '## Visjon og forretningsidé
+
+- En **visjon** er en **langsiktig** og **inspirerende** beskrivelse av hva virksomheten vil være eller oppnå.
+- En **forretningsidé** beskriver **grunnlaget** for virksomheten. Den svarer på
+  - **hvilke behov** virksomheten skal dekke
+  - **hvilke produkter** den tilbyr
+  - **hvem** kundene er – **målgruppen**
+  - **hvordan** den skal skille seg ut – **konkurransefortrinnet**
+
+En god forretningsidé løser et **reelt problem** for kundene, og det må være mulig å tjene **penger** på den.
+
+### Eksempel
+
+«Vi leverer sunne og rimelige lunsjbokser til elever og studenter i byen vår. Vi skiller oss ut ved å bruke lokale råvarer og levere med sykkel.»
+
+## Mål
+
+Målene skal gjøre visjonen **konkret**. Virksomheten har ofte ett **hovedmål** og flere **delmål**, for eksempel **økonomiske** mål (omsetning og overskudd), **markedsmål** (markedsandel og kundetilfredshet) og **samfunnsmål** (miljø og arbeidsplasser).
+
+Gode mål er **SMARTE**:
+
+- **S**pesifikke – tydelige
+- **M**ålbare – vi kan se om vi har nådd dem
+- **A**kseptert – de som skal nå målene, støtter dem
+- **R**ealistiske – mulige å nå
+- **T**idsbestemte – har en frist
+
+«Vi skal selge flere» er et svakt mål. «Vi skal selge 200 lunsjbokser i uka innen utgangen av året» er et SMART mål.
+
+## Segmentering
+
+Ingen virksomhet kan nå **alle**. **Segmentering** betyr å dele markedet inn i **grupper** med like behov:
+
+- **Geografisk**: land, region, by eller bygd
+- **Demografisk**: alder, kjønn, inntekt, utdanning og livsfase
+- **Psykografisk**: livsstil, verdier, interesser og personlighet
+- **Atferdsbasert**: bruksmengde, lojalitet og hvilke fordeler kunden søker
+
+## Valg av målgruppe
+
+Et **segment** blir en **målgruppe** når virksomheten velger å rette seg mot det. Virksomheten vurderer om segmentet
+
+- er **stort** nok og har **kjøpekraft**
+- er mulig å **nå** med markedsføring
+- har lite eller mye **konkurranse**
+- passer til virksomhetens **ressurser** og **forretningsidé**
+
+Tre strategier:
+
+- **Udifferensiert**: samme tilbud til hele markedet – for eksempel salt
+- **Differensiert**: ulike tilbud til flere målgrupper – for eksempel en bilprodusent med flere modeller
+- **Konsentrert**: satse på én smal målgruppe, en **nisje** – vanlig for små virksomheter
+
+Mange lager en **persona** – en oppdiktet, typisk kunde med navn, alder, interesser og behov – for å gjøre målgruppen levende.
+
+## Posisjonering
+
+**Posisjonering** handler om hvordan virksomheten vil at kundene skal **oppfatte** produktet sammenlignet med **konkurrentene**, for eksempel som **billigst**, **mest eksklusiv** eller **mest miljøvennlig**. Et **posisjoneringskart** med to akser, som pris og kvalitet, viser hvor konkurrentene står og hvor det finnes **ledige plasser** i markedet.
+
+## Sammenhengen
+
+Forretningsidé, mål, målgruppe og posisjonering må **henge sammen**. En lunsjbar som vil være **rimelig** for studenter, bør ikke posisjonere seg som **eksklusiv**.', '{"label":"Forretningsidé og målgrupper","children":[{"label":"Grunnlag","children":[{"label":"Visjon"},{"label":"Forretningsidé"},{"label":"Konkurransefortrinn"}]},{"label":"Mål","children":[{"label":"Hovedmål og delmål"},{"label":"SMARTE mål"}]},{"label":"Segmentering","children":[{"label":"Geografisk og demografisk"},{"label":"Psykografisk"},{"label":"Atferd"}]},{"label":"Målgruppe","children":[{"label":"Udifferensiert"},{"label":"Differensiert"},{"label":"Konsentrert"},{"label":"Persona"}]},{"label":"Posisjonering","children":[{"label":"Kart med to akser"},{"label":"Ledige plasser"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'markedsforing-og-ledelse-1:forretningside-og-malgrupper';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('markedsforing-og-ledelse-1:forretningside-og-malgrupper', 'Visjon', 'Langsiktig og inspirerende beskrivelse av hva virksomheten vil oppnå.', 0),
+  ('markedsforing-og-ledelse-1:forretningside-og-malgrupper', 'Forretningsidé', 'Hvilke behov, hvilke produkter, hvem kundene er og hvordan man skiller seg ut.', 1),
+  ('markedsforing-og-ledelse-1:forretningside-og-malgrupper', 'Konkurransefortrinn', 'Det som gjør virksomheten bedre eller annerledes enn konkurrentene.', 2),
+  ('markedsforing-og-ledelse-1:forretningside-og-malgrupper', 'Hovedmål og delmål', 'Et overordnet mål og mindre mål som bygger opp under det.', 3),
+  ('markedsforing-og-ledelse-1:forretningside-og-malgrupper', 'SMARTE mål', 'Spesifikke, målbare, akseptert, realistiske og tidsbestemte.', 4),
+  ('markedsforing-og-ledelse-1:forretningside-og-malgrupper', 'Segmentering', 'Å dele markedet i grupper med like behov.', 5),
+  ('markedsforing-og-ledelse-1:forretningside-og-malgrupper', 'Demografisk segmentering', 'Etter alder, kjønn, inntekt, utdanning og livsfase.', 6),
+  ('markedsforing-og-ledelse-1:forretningside-og-malgrupper', 'Psykografisk segmentering', 'Etter livsstil, verdier og interesser.', 7),
+  ('markedsforing-og-ledelse-1:forretningside-og-malgrupper', 'Atferdsbasert segmentering', 'Etter bruksmengde, lojalitet og søkte fordeler.', 8),
+  ('markedsforing-og-ledelse-1:forretningside-og-malgrupper', 'Målgruppe', 'Segmentet virksomheten velger å rette seg mot.', 9),
+  ('markedsforing-og-ledelse-1:forretningside-og-malgrupper', 'Udifferensiert strategi', 'Samme tilbud til hele markedet.', 10),
+  ('markedsforing-og-ledelse-1:forretningside-og-malgrupper', 'Differensiert strategi', 'Ulike tilbud til flere målgrupper.', 11),
+  ('markedsforing-og-ledelse-1:forretningside-og-malgrupper', 'Konsentrert strategi', 'Satsing på én smal målgruppe – en nisje.', 12),
+  ('markedsforing-og-ledelse-1:forretningside-og-malgrupper', 'Persona', 'Oppdiktet, typisk kunde som gjør målgruppen levende.', 13),
+  ('markedsforing-og-ledelse-1:forretningside-og-malgrupper', 'Posisjonering', 'Hvordan kundene skal oppfatte produktet sammenlignet med konkurrentene.', 14),
+  ('markedsforing-og-ledelse-1:forretningside-og-malgrupper', 'Posisjoneringskart', 'Diagram med to akser som viser konkurrentenes plassering.', 15);
+delete from public.quiz_sporsmal where tema_id = 'markedsforing-og-ledelse-1:forretningside-og-malgrupper';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('markedsforing-og-ledelse-1:forretningside-og-malgrupper', 'q01', 'flervalg', 'Hva beskriver en forretningsidé?', array['Bare prisen', 'Behov, produkter, målgruppe og konkurransefortrinn', 'Bare logoen', 'Bare antall ansatte']::text[], 1, 'Grunnlaget for virksomheten.', true, true, 0),
+  ('markedsforing-og-ledelse-1:forretningside-og-malgrupper', 'q02', 'flervalg', 'Hvilket mål er SMART?', array['Selge 200 lunsjbokser i uka innen utgangen av året', 'Selge flere', 'Bli best', 'Få mange kunder']::text[], 0, 'Spesifikt, målbart og tidsbestemt.', true, true, 1),
+  ('markedsforing-og-ledelse-1:forretningside-og-malgrupper', 'q03', 'flervalg', 'Hva er segmentering?', array['Å sette pris', 'Å lage reklame', 'Å dele markedet i grupper med like behov', 'Å velge leverandør']::text[], 2, 'Grunnlaget for å velge målgruppe.', true, true, 2),
+  ('markedsforing-og-ledelse-1:forretningside-og-malgrupper', 'q04', 'flervalg', 'Segmentering etter livsstil og verdier kalles', array['geografisk', 'demografisk', 'atferdsbasert', 'psykografisk']::text[], 3, 'Demografisk er alder, kjønn og inntekt.', true, true, 3),
+  ('markedsforing-og-ledelse-1:forretningside-og-malgrupper', 'q05', 'flervalg', 'Hva er en konsentrert strategi?', array['Å satse på én smal målgruppe', 'Samme tilbud til alle', 'Ulike tilbud til mange grupper', 'Å ikke ha målgruppe']::text[], 0, 'Vanlig for små virksomheter.', true, true, 4),
+  ('markedsforing-og-ledelse-1:forretningside-og-malgrupper', 'q06', 'flervalg', 'Hva er posisjonering?', array['Hvor butikken ligger', 'Hvordan kundene skal oppfatte produktet sammenlignet med konkurrentene', 'Hvor varene står i hyllen', 'En type segmentering']::text[], 1, 'For eksempel billigst eller mest eksklusiv.', true, true, 5),
+  ('markedsforing-og-ledelse-1:forretningside-og-malgrupper', 'q07', 'flervalg', 'Hva er en persona?', array['En ansatt', 'En kjendis i reklame', 'En oppdiktet, typisk kunde', 'En konkurrent']::text[], 2, 'Gjør målgruppen levende.', true, true, 6),
+  ('markedsforing-og-ledelse-1:forretningside-og-malgrupper', 'q08', 'flervalg', 'Hva bør virksomheten vurdere når den velger målgruppe?', array['Bare hva ledelsen liker', 'Bare alder', 'Bare hva konkurrentene gjør', 'Størrelse, kjøpekraft, tilgjengelighet og konkurranse']::text[], 3, 'Og om den passer til forretningsidéen.', true, true, 7),
+  ('markedsforing-og-ledelse-1:forretningside-og-malgrupper', 'q09', 'flervalg', 'Hva er en visjon?', array['En langsiktig og inspirerende beskrivelse av hva virksomheten vil oppnå', 'Et budsjett', 'Et delmål', 'En reklame']::text[], 0, 'Målene gjør visjonen konkret.', true, false, 8),
+  ('markedsforing-og-ledelse-1:forretningside-og-malgrupper', 'q10', 'flervalg', 'Hva kan et posisjoneringskart vise?', array['Hvor butikkene ligger', 'Ledige plasser i markedet', 'Hvor mange ansatte konkurrentene har', 'Lønnsomheten']::text[], 1, 'Ofte med pris og kvalitet som akser.', true, false, 9),
+  ('markedsforing-og-ledelse-1:forretningside-og-malgrupper', 'm01', 'sant-usant', 'En god forretningsidé må løse et reelt problem for kundene.', array['Sant', 'Usant']::text[], 0, 'Og det må være mulig å tjene penger på den.', false, true, 10),
+  ('markedsforing-og-ledelse-1:forretningside-og-malgrupper', 'm02', 'sant-usant', 'De fleste virksomheter kan nå hele markedet like godt.', array['Sant', 'Usant']::text[], 1, 'Derfor segmenterer de og velger målgrupper.', false, true, 11),
+  ('markedsforing-og-ledelse-1:forretningside-og-malgrupper', 'm03', 'sant-usant', 'Et mål er målbart når vi kan se om vi har nådd det.', array['Sant', 'Usant']::text[], 0, 'M-en i SMART.', false, true, 12),
+  ('markedsforing-og-ledelse-1:forretningside-og-malgrupper', 'm04', 'sant-usant', 'En lunsjbar som vil være rimelig for studenter, bør posisjonere seg som eksklusiv.', array['Sant', 'Usant']::text[], 1, 'Posisjoneringen må passe forretningsidéen.', false, true, 13),
+  ('markedsforing-og-ledelse-1:forretningside-og-malgrupper', 'm05', 'flervalg', 'Hvilken strategi bruker en bilprodusent med mange modeller til ulike kunder?', array['Udifferensiert', 'Differensiert', 'Konsentrert', 'Ingen strategi']::text[], 1, 'Ulike tilbud til flere målgrupper.', false, true, 14),
+  ('markedsforing-og-ledelse-1:forretningside-og-malgrupper', 'm06', 'flervalg', 'Hva er et eksempel på atferdsbasert segmentering?', array['Kunder som handler ofte', 'Kunder over 60 år', 'Kunder i Bergen', 'Kunder som er opptatt av miljø']::text[], 0, 'Bruksmengde og lojalitet.', false, true, 15),
+  ('markedsforing-og-ledelse-1:forretningside-og-malgrupper', 'm07', 'flervalg', 'Hvilket mål er et samfunnsmål?', array['Øke omsetningen', 'Øke markedsandelen', 'Redusere klimautslippene', 'Øke overskuddet']::text[], 2, 'Mål som handler om miljø og samfunn.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('markedsforing-og-ledelse-1:forretningside-og-malgrupper', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Markedsføring og ledelse 1: Markedsundersøkelser
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('markedsforing-og-ledelse-1:markedsundersokelser', 'markedsforing-og-ledelse-1', 'markedsundersokelser', 'Markedsundersøkelser', 'Hvordan virksomheter får innsikt i markeder og målgrupper: primær- og sekundærdata, kvantitative og kvalitative metoder, utvalg, spørreskjema, feilkilder, digitale data og personvern – og hvordan du planlegger og gjennomfører en egen undersøkelse.', array[4]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('markedsforing-og-ledelse-1:markedsundersokelser', '## Hvorfor markedsundersøkelser?
+
+En **markedsundersøkelse** samler inn og analyserer informasjon om **markedet**, **kundene** og **konkurrentene**. Målet er å ta **bedre beslutninger** – for eksempel om et nytt produkt vil selge, hvilken pris kundene godtar, eller hvordan de oppfatter merkevaren.
+
+## Fremgangsmåte
+
+1. Formuler en **problemstilling** – hva vil vi vite?
+2. Velg **datatype** og **metode**.
+3. Bestem **utvalg**.
+4. Lag **spørsmål** og test dem.
+5. **Samle inn** data.
+6. **Analyser** og **presenter** resultatene.
+7. Trekk **konklusjoner** og vurder **feilkilder**.
+
+## Sekundærdata og primærdata
+
+- **Sekundærdata** er informasjon som **allerede finnes**, for eksempel statistikk fra **SSB**, bransjerapporter, salgstall og konkurrentenes nettsider. De er ofte **billige** og **raske** å få tak i, men passer ikke alltid nøyaktig til problemstillingen.
+- **Primærdata** samler virksomheten inn **selv** for akkurat denne problemstillingen. De er mer **tilpasset**, men tar mer **tid** og koster mer.
+
+Start gjerne med sekundærdata og samle primærdata der det mangler kunnskap.
+
+## Kvantitative og kvalitative metoder
+
+**Kvantitative** metoder gir **tall** og egner seg til å undersøke **mange**:
+
+- **Spørreundersøkelser** på nett, telefon eller på gata
+- **Eksperimenter**, for eksempel **A/B-testing**, der to versjoner av en nettside eller annonse testes mot hverandre
+
+**Kvalitative** metoder gir **dybde** og **forståelse**:
+
+- **Dybdeintervjuer** med enkeltpersoner
+- **Fokusgrupper**, der en liten gruppe diskuterer et produkt eller en reklame
+- **Observasjon** av hvordan kunder beveger seg i butikken eller bruker et produkt
+
+## Utvalg
+
+Det er sjelden mulig å spørre **alle** i målgruppen – **populasjonen**. Derfor spør man et **utvalg**. Et **representativt** utvalg ligner populasjonen, for eksempel i alder og kjønn. Et **tilfeldig** utvalg gir alle samme sjanse til å bli trukket. Å bare spørre venner gir et **skjevt** utvalg.
+
+## Gode spørsmål
+
+- Bruk **enkle** og **klare** formuleringer.
+- Unngå **ledende** spørsmål, som «Er ikke produktet vårt bra?».
+- Spør om **én ting** om gangen.
+- Bruk gjerne **svaralternativer** og **skalaer**, for eksempel fra 1 til 5.
+- **Test** skjemaet på noen få før du sender det ut.
+
+## Feilkilder
+
+- **Skjevt utvalg**
+- **Frafall** – de som svarer, er ikke som de som lar være
+- **Sosial ønskverdighet** – folk svarer det som virker riktig
+- Folk **gjør** ikke alltid det de **sier** de vil gjøre
+
+Resultatenes **reliabilitet** (pålitelighet) og **validitet** (om vi måler det vi vil) må vurderes.
+
+## Digitale data
+
+Virksomheter har tilgang til store mengder **data** om kundeatferd: **nettstatistikk**, klikk, handlehistorikk fra **kundeklubber** og engasjement i **sosiale medier**. Dataene viser hva kundene **gjør**, men ikke alltid **hvorfor**.
+
+## Personvern og etikk
+
+Innsamling av **personopplysninger** må følge **personvernregelverket** (GDPR). Deltakerne skal vite **hva** dataene brukes til, delta **frivillig** og kunne være **anonyme** når det er mulig. Data skal ikke lagres **lenger** enn nødvendig.', '{"label":"Markedsundersøkelser","children":[{"label":"Prosess","children":[{"label":"Problemstilling"},{"label":"Metode og utvalg"},{"label":"Analyse"}]},{"label":"Data","children":[{"label":"Sekundærdata"},{"label":"Primærdata"},{"label":"Digitale data"}]},{"label":"Metoder","children":[{"label":"Spørreskjema"},{"label":"A/B-testing"},{"label":"Intervju og fokusgruppe"},{"label":"Observasjon"}]},{"label":"Kvalitet","children":[{"label":"Utvalg"},{"label":"Feilkilder"},{"label":"Reliabilitet og validitet"}]},{"label":"Etikk","children":[{"label":"GDPR"},{"label":"Frivillighet og anonymitet"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'markedsforing-og-ledelse-1:markedsundersokelser';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('markedsforing-og-ledelse-1:markedsundersokelser', 'Markedsundersøkelse', 'Innsamling og analyse av informasjon om marked, kunder og konkurrenter.', 0),
+  ('markedsforing-og-ledelse-1:markedsundersokelser', 'Sekundærdata', 'Informasjon som allerede finnes, som SSB-statistikk.', 1),
+  ('markedsforing-og-ledelse-1:markedsundersokelser', 'Primærdata', 'Data virksomheten samler inn selv for problemstillingen.', 2),
+  ('markedsforing-og-ledelse-1:markedsundersokelser', 'Kvantitativ metode', 'Gir tall og egner seg til å undersøke mange.', 3),
+  ('markedsforing-og-ledelse-1:markedsundersokelser', 'Kvalitativ metode', 'Gir dybde og forståelse.', 4),
+  ('markedsforing-og-ledelse-1:markedsundersokelser', 'A/B-testing', 'To versjoner testes mot hverandre for å se hvilken som virker best.', 5),
+  ('markedsforing-og-ledelse-1:markedsundersokelser', 'Dybdeintervju', 'Grundig samtale med én person.', 6),
+  ('markedsforing-og-ledelse-1:markedsundersokelser', 'Fokusgruppe', 'Liten gruppe som diskuterer et produkt eller en reklame.', 7),
+  ('markedsforing-og-ledelse-1:markedsundersokelser', 'Populasjon', 'Alle i gruppen man vil vite noe om.', 8),
+  ('markedsforing-og-ledelse-1:markedsundersokelser', 'Utvalg', 'De som faktisk blir spurt.', 9),
+  ('markedsforing-og-ledelse-1:markedsundersokelser', 'Representativt utvalg', 'Et utvalg som ligner populasjonen.', 10),
+  ('markedsforing-og-ledelse-1:markedsundersokelser', 'Ledende spørsmål', 'Spørsmål som styrer mot et bestemt svar.', 11),
+  ('markedsforing-og-ledelse-1:markedsundersokelser', 'Frafall', 'At noen ikke svarer, slik at resultatene kan bli skjeve.', 12),
+  ('markedsforing-og-ledelse-1:markedsundersokelser', 'Reliabilitet', 'Pålitelighet – samme resultat ved gjentakelse.', 13),
+  ('markedsforing-og-ledelse-1:markedsundersokelser', 'Validitet', 'At man måler det man vil måle.', 14),
+  ('markedsforing-og-ledelse-1:markedsundersokelser', 'GDPR', 'Personvernregelverket for behandling av personopplysninger.', 15);
+delete from public.quiz_sporsmal where tema_id = 'markedsforing-og-ledelse-1:markedsundersokelser';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('markedsforing-og-ledelse-1:markedsundersokelser', 'q01', 'flervalg', 'Hva er sekundærdata?', array['Data man samler inn selv', 'Informasjon som allerede finnes', 'Data fra fokusgrupper', 'Data fra eksperimenter']::text[], 1, 'For eksempel statistikk fra SSB.', true, true, 0),
+  ('markedsforing-og-ledelse-1:markedsundersokelser', 'q02', 'flervalg', 'Hvilken metode er kvalitativ?', array['Fokusgruppe', 'Spørreundersøkelse med 1000 svar', 'A/B-testing', 'Salgsstatistikk']::text[], 0, 'Gir dybde og forståelse.', true, true, 1),
+  ('markedsforing-og-ledelse-1:markedsundersokelser', 'q03', 'flervalg', 'Hva er A/B-testing?', array['Et dybdeintervju', 'En prisstrategi', 'At to versjoner testes mot hverandre', 'En type segmentering']::text[], 2, 'Et eksperiment.', true, true, 2),
+  ('markedsforing-og-ledelse-1:markedsundersokelser', 'q04', 'flervalg', 'Hva er et representativt utvalg?', array['Bare venner', 'Bare de som vil svare', 'Alle i populasjonen', 'Et utvalg som ligner populasjonen']::text[], 3, 'For eksempel i alder og kjønn.', true, true, 3),
+  ('markedsforing-og-ledelse-1:markedsundersokelser', 'q05', 'flervalg', 'Hva er galt med spørsmålet «Er ikke produktet vårt bra?»?', array['Det er ledende', 'Det er for kort', 'Det er kvalitativt', 'Det har svaralternativer']::text[], 0, 'Det styrer mot et bestemt svar.', true, true, 4),
+  ('markedsforing-og-ledelse-1:markedsundersokelser', 'q06', 'flervalg', 'Hva er en fordel med primærdata?', array['De er alltid billige', 'De er tilpasset problemstillingen', 'De finnes allerede', 'De krever ingen planlegging']::text[], 1, 'Men de tar mer tid og koster mer.', true, true, 5),
+  ('markedsforing-og-ledelse-1:markedsundersokelser', 'q07', 'flervalg', 'Hva er frafall?', array['At prisen faller', 'At produktet går ut av salg', 'At noen ikke svarer', 'At utvalget er for stort']::text[], 2, 'Kan gi skjeve resultater.', true, true, 6),
+  ('markedsforing-og-ledelse-1:markedsundersokelser', 'q08', 'flervalg', 'Hvilket regelverk gjelder ved innsamling av personopplysninger?', array['Arbeidsmiljøloven', 'Arveloven', 'Barneloven', 'Personvernregelverket (GDPR)']::text[], 3, 'Deltakerne skal vite hva dataene brukes til.', true, true, 7),
+  ('markedsforing-og-ledelse-1:markedsundersokelser', 'q09', 'flervalg', 'Hva er en svakhet ved digitale kundedata?', array['De viser hva kundene gjør, men ikke alltid hvorfor', 'De er alltid feil', 'De er ulovlige', 'De er for få']::text[], 0, 'Kvalitative metoder kan gi forklaringene.', true, false, 8),
+  ('markedsforing-og-ledelse-1:markedsundersokelser', 'q10', 'flervalg', 'Hva bør du gjøre før du sender ut et spørreskjema?', array['Gjøre det så langt som mulig', 'Teste det på noen få', 'Bruke ledende spørsmål', 'Sende det bare til venner']::text[], 1, 'Da oppdager du uklare spørsmål.', true, false, 9),
+  ('markedsforing-og-ledelse-1:markedsundersokelser', 'm01', 'sant-usant', 'Det er lurt å starte med sekundærdata før man samler inn primærdata.', array['Sant', 'Usant']::text[], 0, 'Da slipper man å samle inn det som allerede finnes.', false, true, 10),
+  ('markedsforing-og-ledelse-1:markedsundersokelser', 'm02', 'sant-usant', 'Folk gjør alltid det de sier de vil gjøre i en undersøkelse.', array['Sant', 'Usant']::text[], 1, 'Det er en vanlig feilkilde.', false, true, 11),
+  ('markedsforing-og-ledelse-1:markedsundersokelser', 'm03', 'sant-usant', 'Et tilfeldig utvalg gir alle i populasjonen samme sjanse til å bli trukket.', array['Sant', 'Usant']::text[], 0, 'Det reduserer skjevhet.', false, true, 12),
+  ('markedsforing-og-ledelse-1:markedsundersokelser', 'm04', 'sant-usant', 'Personopplysninger kan lagres så lenge virksomheten ønsker.', array['Sant', 'Usant']::text[], 1, 'De skal ikke lagres lenger enn nødvendig.', false, true, 13),
+  ('markedsforing-og-ledelse-1:markedsundersokelser', 'm05', 'flervalg', 'Hvilken metode passer best for å forstå hvorfor kunder velger bort et produkt?', array['Salgsstatistikk', 'Dybdeintervjuer', 'Nettstatistikk', 'Befolkningsstatistikk']::text[], 1, 'Kvalitative metoder gir forklaringer.', false, true, 14),
+  ('markedsforing-og-ledelse-1:markedsundersokelser', 'm06', 'flervalg', 'Hva er en populasjon i en markedsundersøkelse?', array['Alle i gruppen man vil vite noe om', 'De som svarer', 'Konkurrentene', 'De ansatte']::text[], 0, 'Utvalget er de som faktisk blir spurt.', false, true, 15),
+  ('markedsforing-og-ledelse-1:markedsundersokelser', 'm07', 'flervalg', 'Hva er sosial ønskverdighet?', array['At kunder er sosiale', 'At produkter er populære', 'At folk svarer det som virker riktig eller akseptert', 'At utvalget er stort']::text[], 2, 'En feilkilde.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('markedsforing-og-ledelse-1:markedsundersokelser', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Markedsføring og ledelse 1: Situasjonsanalyse
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('markedsforing-og-ledelse-1:situasjonsanalyse', 'markedsforing-og-ledelse-1', 'situasjonsanalyse', 'Situasjonsanalyse', 'Hvordan en virksomhet analyserer sin egen situasjon som grunnlag for beslutninger: intern analyse, PESTEL, markeds- og konkurrentanalyse, SWOT-analysen og hvordan den brukes til å velge strategier.', array[5]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('markedsforing-og-ledelse-1:situasjonsanalyse', '## Hva er en situasjonsanalyse?
+
+En **situasjonsanalyse** kartlegger **hvor virksomheten står i dag**. Den er det første steget i en **markedsplan** og gir grunnlag for å sette **mål** og velge **strategier**. Analysen ser både **innover** i virksomheten og **utover** mot omgivelsene.
+
+## Intern analyse
+
+Den **interne** analysen ser på forhold virksomheten **selv kan påvirke**:
+
+- **økonomi** – omsetning, lønnsomhet og kapital
+- **ansatte** – kompetanse og motivasjon
+- **produkter** – kvalitet og sortiment
+- **beliggenhet**, utstyr og teknologi
+- **omdømme** og merkevare
+- **markedsføringen** så langt
+
+## Ekstern analyse
+
+Den **eksterne** analysen ser på forhold virksomheten **ikke** kan styre, men må **tilpasse** seg.
+
+### PESTEL-analysen
+
+PESTEL-analysen ser på **makroomgivelsene**. Bokstavene står for de engelske ordene *political*, *economic*, *social*, *technological*, *environmental* og *legal*:
+
+- **Politiske** forhold – avgifter og politiske vedtak
+- **Økonomiske** forhold – renter, prisvekst, arbeidsledighet og kjøpekraft
+- **Sosiale** forhold – befolkningsutvikling, trender og verdier
+- **Teknologiske** forhold – digitalisering og nye løsninger
+- **Miljøforhold** – klima og krav til bærekraft
+- **Juridiske** forhold – regler for markedsføring, personvern og arbeidsliv
+
+### Markedsanalyse
+
+- Hvor **stort** er markedet, og **vokser** det?
+- Hvem er **kundene**, og hva er de opptatt av?
+- Hvilken **markedsandel** har vi? Markedsandelen er vårt salg delt på det totale salget i markedet.
+
+### Konkurrentanalyse
+
+Hvem er **konkurrentene**, hvilke **styrker** og **svakheter** har de, og hvordan **posisjonerer** de seg? **Direkte** konkurrenter selger det samme, mens **indirekte** konkurrenter dekker det samme behovet på en annen måte – en kino konkurrerer for eksempel også med strømmetjenester.
+
+## SWOT-analysen
+
+**SWOT** samler analysen i fire felt:
+
+| | Positivt | Negativt |
+|---|---|---|
+| **Internt** | **Styrker** (Strengths) | **Svakheter** (Weaknesses) |
+| **Eksternt** | **Muligheter** (Opportunities) | **Trusler** (Threats) |
+
+### Eksempel: en lokal sykkelbutikk
+
+- **Styrker**: dyktige mekanikere og lojale kunder
+- **Svakheter**: lite nettbutikk og lite lager
+- **Muligheter**: flere vil sykle til jobben, og elsykler er populære
+- **Trusler**: store nettbutikker med lave priser
+
+## Fra analyse til strategi
+
+SWOT-analysen er bare nyttig hvis den brukes til **beslutninger**. Virksomheten kan
+
+- bruke **styrkene** til å utnytte **mulighetene** – mekanikerne kan tilby service på elsykler
+- bruke **styrkene** til å møte **truslene** – god service og rådgivning som nettbutikkene ikke kan gi
+- redusere **svakhetene** – bygge ut nettbutikken
+- unngå situasjoner der **svakheter** møter **trusler**
+
+## Vurdering av analysen
+
+En god situasjonsanalyse bygger på **fakta** og **kilder**, ikke bare synsing. Den bør være **ærlig** om svakheter og **oppdateres** jevnlig, fordi markedet endrer seg. Samme forhold kan være både en **mulighet** og en **trussel** – for eksempel ny teknologi.', '{"label":"Situasjonsanalyse","children":[{"label":"Intern","children":[{"label":"Økonomi og ansatte"},{"label":"Produkter"},{"label":"Omdømme"}]},{"label":"PESTEL","children":[{"label":"Politikk og økonomi"},{"label":"Sosialt og teknologi"},{"label":"Miljø og juss"}]},{"label":"Marked og konkurrenter","children":[{"label":"Markedsstørrelse og vekst"},{"label":"Markedsandel"},{"label":"Direkte og indirekte"}]},{"label":"SWOT","children":[{"label":"Styrker og svakheter"},{"label":"Muligheter og trusler"}]},{"label":"Strategi","children":[{"label":"Styrker møter muligheter"},{"label":"Reduser svakheter"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'markedsforing-og-ledelse-1:situasjonsanalyse';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('markedsforing-og-ledelse-1:situasjonsanalyse', 'Situasjonsanalyse', 'Kartlegging av hvor virksomheten står i dag.', 0),
+  ('markedsforing-og-ledelse-1:situasjonsanalyse', 'Intern analyse', 'Forhold virksomheten selv kan påvirke, som økonomi og ansatte.', 1),
+  ('markedsforing-og-ledelse-1:situasjonsanalyse', 'Ekstern analyse', 'Forhold i omgivelsene virksomheten må tilpasse seg.', 2),
+  ('markedsforing-og-ledelse-1:situasjonsanalyse', 'PESTEL', 'Politiske, økonomiske, sosiale, teknologiske, miljømessige og juridiske forhold.', 3),
+  ('markedsforing-og-ledelse-1:situasjonsanalyse', 'Makroomgivelser', 'Store samfunnsforhold som påvirker alle virksomheter.', 4),
+  ('markedsforing-og-ledelse-1:situasjonsanalyse', 'Markedsandel', 'Eget salg delt på det totale salget i markedet.', 5),
+  ('markedsforing-og-ledelse-1:situasjonsanalyse', 'Direkte konkurrent', 'Selger det samme produktet.', 6),
+  ('markedsforing-og-ledelse-1:situasjonsanalyse', 'Indirekte konkurrent', 'Dekker samme behov på en annen måte.', 7),
+  ('markedsforing-og-ledelse-1:situasjonsanalyse', 'SWOT', 'Styrker, svakheter, muligheter og trusler.', 8),
+  ('markedsforing-og-ledelse-1:situasjonsanalyse', 'Styrker og svakheter', 'Interne forhold i SWOT.', 9),
+  ('markedsforing-og-ledelse-1:situasjonsanalyse', 'Muligheter og trusler', 'Eksterne forhold i SWOT.', 10),
+  ('markedsforing-og-ledelse-1:situasjonsanalyse', 'Konkurrentanalyse', 'Kartlegging av konkurrentenes styrker, svakheter og posisjon.', 11),
+  ('markedsforing-og-ledelse-1:situasjonsanalyse', 'Markedsvekst', 'Om markedet blir større over tid.', 12),
+  ('markedsforing-og-ledelse-1:situasjonsanalyse', 'Omdømme', 'Hvordan omgivelsene oppfatter virksomheten.', 13),
+  ('markedsforing-og-ledelse-1:situasjonsanalyse', 'Fra SWOT til strategi', 'Bruke styrker til å utnytte muligheter og møte trusler.', 14);
+delete from public.quiz_sporsmal where tema_id = 'markedsforing-og-ledelse-1:situasjonsanalyse';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('markedsforing-og-ledelse-1:situasjonsanalyse', 'q01', 'flervalg', 'Hva er formålet med en situasjonsanalyse?', array['Å lage reklame', 'Å kartlegge hvor virksomheten står som grunnlag for beslutninger', 'Å ansette folk', 'Å sette lønn']::text[], 1, 'Første steg i markedsplanen.', true, true, 0),
+  ('markedsforing-og-ledelse-1:situasjonsanalyse', 'q02', 'flervalg', 'Hvilket forhold er internt?', array['De ansattes kompetanse', 'Renten', 'Nye lover', 'Konkurrentenes priser']::text[], 0, 'Virksomheten kan selv påvirke det.', true, true, 1),
+  ('markedsforing-og-ledelse-1:situasjonsanalyse', 'q03', 'flervalg', 'Hva står den andre E-en i PESTEL for?', array['Etikk', 'Eksport', 'Miljø (environmental)', 'Effektivitet']::text[], 2, 'Den første E-en står for økonomi (economic).', true, true, 2),
+  ('markedsforing-og-ledelse-1:situasjonsanalyse', 'q04', 'flervalg', 'Hvilke felt i SWOT er eksterne?', array['Styrker og svakheter', 'Styrker og muligheter', 'Svakheter og trusler', 'Muligheter og trusler']::text[], 3, 'Forhold i omgivelsene.', true, true, 3),
+  ('markedsforing-og-ledelse-1:situasjonsanalyse', 'q05', 'flervalg', 'En kino konkurrerer med strømmetjenester. Hva slags konkurrent er strømmetjenesten?', array['Indirekte', 'Direkte', 'Intern', 'Ingen konkurrent']::text[], 0, 'Dekker samme behov på en annen måte.', true, true, 4),
+  ('markedsforing-og-ledelse-1:situasjonsanalyse', 'q06', 'flervalg', 'Hvordan regner du ut markedsandel?', array['Overskudd delt på omsetning', 'Eget salg delt på totalt salg i markedet', 'Antall ansatte delt på kunder', 'Pris ganger mengde']::text[], 1, 'Oppgis ofte i prosent.', true, true, 5),
+  ('markedsforing-og-ledelse-1:situasjonsanalyse', 'q07', 'flervalg', 'Hvilket forhold hører til PESTEL-analysen?', array['De ansattes motivasjon', 'Butikkens beliggenhet', 'Prisveksten i samfunnet', 'Egne produkter']::text[], 2, 'Et økonomisk forhold i makroomgivelsene.', true, true, 6),
+  ('markedsforing-og-ledelse-1:situasjonsanalyse', 'q08', 'flervalg', 'Hvordan bør SWOT-analysen brukes?', array['Som pynt i en rapport', 'Bare til å liste opp svakheter', 'Bare én gang', 'Til å velge strategier, for eksempel bruke styrker til å utnytte muligheter']::text[], 3, 'Analysen må føre til beslutninger.', true, true, 7),
+  ('markedsforing-og-ledelse-1:situasjonsanalyse', 'q09', 'flervalg', 'Lojale kunder er i en SWOT-analyse', array['en styrke', 'en trussel', 'en mulighet', 'en svakhet']::text[], 0, 'Et positivt internt forhold.', true, false, 8),
+  ('markedsforing-og-ledelse-1:situasjonsanalyse', 'q10', 'flervalg', 'Hvorfor bør en situasjonsanalyse oppdateres jevnlig?', array['Fordi loven krever det hver uke', 'Fordi markedet endrer seg', 'Fordi den alltid er feil', 'Fordi konkurrentene ber om det']::text[], 1, 'Nye muligheter og trusler oppstår.', true, false, 9),
+  ('markedsforing-og-ledelse-1:situasjonsanalyse', 'm01', 'sant-usant', 'Samme forhold, som ny teknologi, kan være både en mulighet og en trussel.', array['Sant', 'Usant']::text[], 0, 'Det avhenger av hvordan virksomheten møter det.', false, true, 10),
+  ('markedsforing-og-ledelse-1:situasjonsanalyse', 'm02', 'sant-usant', 'En situasjonsanalyse bør bygge på synsing, ikke fakta.', array['Sant', 'Usant']::text[], 1, 'Den bør bygge på fakta og kilder.', false, true, 11),
+  ('markedsforing-og-ledelse-1:situasjonsanalyse', 'm03', 'sant-usant', 'Nye regler for markedsføring er et juridisk forhold i PESTEL.', array['Sant', 'Usant']::text[], 0, 'Juridiske forhold i makroomgivelsene.', false, true, 12),
+  ('markedsforing-og-ledelse-1:situasjonsanalyse', 'm04', 'sant-usant', 'Svakheter er forhold i omgivelsene som virksomheten ikke kan påvirke.', array['Sant', 'Usant']::text[], 1, 'Svakheter er interne forhold.', false, true, 13),
+  ('markedsforing-og-ledelse-1:situasjonsanalyse', 'm05', 'flervalg', 'En sykkelbutikk merker at flere vil sykle til jobben. Hva er dette i SWOT?', array['Styrke', 'Mulighet', 'Svakhet', 'Trussel']::text[], 1, 'Et positivt eksternt forhold.', false, true, 14),
+  ('markedsforing-og-ledelse-1:situasjonsanalyse', 'm06', 'flervalg', 'Store nettbutikker med lave priser er for en lokal butikk', array['en trussel', 'en styrke', 'en mulighet', 'en svakhet']::text[], 0, 'Et negativt eksternt forhold.', false, true, 15),
+  ('markedsforing-og-ledelse-1:situasjonsanalyse', 'm07', 'flervalg', 'Hvilket forhold er sosialt i PESTEL?', array['Renten', 'Nye avgifter', 'Befolkningsutvikling og trender', 'Digitalisering']::text[], 2, 'Endringer i befolkning, verdier og livsstil.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('markedsforing-og-ledelse-1:situasjonsanalyse', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Markedsføring og ledelse 1: Produkt og merkevare
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('markedsforing-og-ledelse-1:produkt-og-merkevare', 'markedsforing-og-ledelse-1', 'produkt-og-merkevare', 'Produkt og merkevare', 'Produktet som konkurransemiddel: produktnivåer, varer og tjenester, produktlivssyklusen, sortiment, emballasje og produktutvikling – og hvordan virksomheter bygger merkevarer og velger merkevarestrategier.', array[6]::int[], 5, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('markedsforing-og-ledelse-1:produkt-og-merkevare', '## Hva er et produkt?
+
+Et **produkt** er alt en virksomhet tilbyr for å dekke et **behov**: **varer**, **tjenester**, opplevelser og ideer. **Tjenester** skiller seg fra varer ved at de ikke kan **tas på**, ikke kan **lagres**, og ofte **produseres** og **forbrukes** samtidig, som en frisørtime.
+
+## Produktnivåer
+
+Et produkt kan beskrives i tre nivåer:
+
+1. **Kjerneproduktet** – det **grunnleggende behovet** kunden får dekket. For en mobil er det **kommunikasjon**.
+2. **Det faktiske produktet** – egenskapene kunden kjøper: design, kvalitet, merke og emballasje.
+3. **Det utvidede produktet** – det som kommer **i tillegg**: garanti, service, levering og kundestøtte.
+
+Mange produkter er like i kjernen. Virksomheter **konkurrerer** derfor ofte på det **faktiske** og **utvidede** produktet.
+
+## Produktlivssyklusen
+
+**Produktlivssyklusen** beskriver hvordan salget av et produkt utvikler seg over tid:
+
+1. **Introduksjon** – lavt salg, høye kostnader til markedsføring
+2. **Vekst** – salget øker raskt, og konkurrenter kommer til
+3. **Modning** – salget flater ut, og konkurransen er hard
+4. **Metning** – markedet er fullt
+5. **Nedgang** – salget faller
+
+I hver fase bruker virksomheten konkurransemidlene **ulikt**. I modningsfasen kan den for eksempel **forbedre** produktet eller finne **nye målgrupper**.
+
+## Sortiment, emballasje og produktutvikling
+
+- **Sortimentet** er alle produktene en virksomhet tilbyr. **Bredde** er antall produktgrupper, og **dybde** er antall varianter innen hver gruppe.
+- **Emballasjen** beskytter produktet, gir **informasjon** og er et viktig **salgsargument** i butikkhyllen. Den blir også vurdert ut fra **miljø**.
+- **Produktutvikling** er nødvendig for å fornye sortimentet. Prosessen går fra **idé** via **testing** og **prototyp** til **lansering**.
+
+## Merkevare
+
+En **merkevare** er mer enn et navn og en logo. Den er summen av de **inntrykkene**, **følelsene** og **forventningene** kundene har til produktet. En sterk merkevare gir
+
+- **gjenkjennelse** og **trygghet** for kunden
+- **lojale** kunder
+- mulighet til å ta **høyere pris**
+- lettere lansering av **nye** produkter
+
+**Merkevarebygging** skjer gjennom **navn**, **logo**, **farger**, **design**, **kommunikasjon** og ikke minst gjennom kundenes **opplevelser**. En merkevare må **innfri** løftene sine – ellers taper den **tillit**.
+
+## Merkevarestrategier
+
+- **Produsentmerker** eies av produsenten, som et kjent sjokolademerke.
+- **Egne merkevarer** (EMV) eies av **butikkjedene**. Dagligvarekjedene i Norge har mange egne merker, ofte med lavere pris.
+- **Paraplymerke** – samme navn på mange produkter, som gir tillit til nye produkter.
+- **Individuelle merker** – hvert produkt har sitt eget navn, slik at en feil ikke smitter over på de andre.
+
+## Produktet som konkurransemiddel
+
+Virksomheter kan konkurrere ved å ha **bedre kvalitet**, **smartere design**, **bærekraftige** løsninger, **bedre service** eller en **sterkere merkevare**. Produktet må passe til **målgruppen** og **posisjoneringen**.', '{"label":"Produkt og merkevare","children":[{"label":"Produktnivåer","children":[{"label":"Kjerne"},{"label":"Faktisk"},{"label":"Utvidet"}]},{"label":"Livssyklus","children":[{"label":"Introduksjon og vekst"},{"label":"Modning og metning"},{"label":"Nedgang"}]},{"label":"Sortiment","children":[{"label":"Bredde og dybde"},{"label":"Emballasje"},{"label":"Produktutvikling"}]},{"label":"Merkevare","children":[{"label":"Inntrykk og følelser"},{"label":"Lojalitet og pris"}]},{"label":"Strategier","children":[{"label":"Produsentmerker"},{"label":"Egne merkevarer"},{"label":"Paraply og individuelle"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'markedsforing-og-ledelse-1:produkt-og-merkevare';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('markedsforing-og-ledelse-1:produkt-og-merkevare', 'Produkt', 'Alt en virksomhet tilbyr for å dekke et behov.', 0),
+  ('markedsforing-og-ledelse-1:produkt-og-merkevare', 'Tjeneste', 'Kan ikke tas på eller lagres, og produseres ofte mens den forbrukes.', 1),
+  ('markedsforing-og-ledelse-1:produkt-og-merkevare', 'Kjerneprodukt', 'Det grunnleggende behovet kunden får dekket.', 2),
+  ('markedsforing-og-ledelse-1:produkt-og-merkevare', 'Faktisk produkt', 'Egenskapene kunden kjøper: design, kvalitet, merke og emballasje.', 3),
+  ('markedsforing-og-ledelse-1:produkt-og-merkevare', 'Utvidet produkt', 'Tillegg som garanti, service og levering.', 4),
+  ('markedsforing-og-ledelse-1:produkt-og-merkevare', 'Produktlivssyklusen', 'Introduksjon, vekst, modning, metning og nedgang.', 5),
+  ('markedsforing-og-ledelse-1:produkt-og-merkevare', 'Introduksjonsfasen', 'Lavt salg og høye markedsføringskostnader.', 6),
+  ('markedsforing-og-ledelse-1:produkt-og-merkevare', 'Modningsfasen', 'Salget flater ut og konkurransen er hard.', 7),
+  ('markedsforing-og-ledelse-1:produkt-og-merkevare', 'Sortiment', 'Alle produktene en virksomhet tilbyr.', 8),
+  ('markedsforing-og-ledelse-1:produkt-og-merkevare', 'Sortimentsbredde', 'Antall produktgrupper.', 9),
+  ('markedsforing-og-ledelse-1:produkt-og-merkevare', 'Sortimentsdybde', 'Antall varianter innen hver produktgruppe.', 10),
+  ('markedsforing-og-ledelse-1:produkt-og-merkevare', 'Emballasje', 'Beskytter, informerer og selger produktet.', 11),
+  ('markedsforing-og-ledelse-1:produkt-og-merkevare', 'Merkevare', 'Summen av inntrykk, følelser og forventninger kundene har til produktet.', 12),
+  ('markedsforing-og-ledelse-1:produkt-og-merkevare', 'Egne merkevarer (EMV)', 'Merker som eies av butikkjedene.', 13),
+  ('markedsforing-og-ledelse-1:produkt-og-merkevare', 'Paraplymerke', 'Samme navn på mange produkter.', 14),
+  ('markedsforing-og-ledelse-1:produkt-og-merkevare', 'Individuelle merker', 'Hvert produkt har sitt eget navn.', 15);
+delete from public.quiz_sporsmal where tema_id = 'markedsforing-og-ledelse-1:produkt-og-merkevare';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('markedsforing-og-ledelse-1:produkt-og-merkevare', 'q01', 'flervalg', 'Hva er kjerneproduktet til en mobiltelefon?', array['Designet', 'Kommunikasjon', 'Garantien', 'Emballasjen']::text[], 1, 'Det grunnleggende behovet.', true, true, 0),
+  ('markedsforing-og-ledelse-1:produkt-og-merkevare', 'q02', 'flervalg', 'Hva hører til det utvidede produktet?', array['Garanti og service', 'Kjernebehovet', 'Fargen', 'Logoen']::text[], 0, 'Tillegg utover selve produktet.', true, true, 1),
+  ('markedsforing-og-ledelse-1:produkt-og-merkevare', 'q03', 'flervalg', 'Hva skiller tjenester fra varer?', array['De er alltid dyrere', 'De selges bare på nett', 'De kan ikke lagres og produseres ofte mens de forbrukes', 'De har emballasje']::text[], 2, 'For eksempel en frisørtime.', true, true, 2),
+  ('markedsforing-og-ledelse-1:produkt-og-merkevare', 'q04', 'flervalg', 'I hvilken fase av produktlivssyklusen øker salget raskt?', array['Introduksjon', 'Modning', 'Nedgang', 'Vekst']::text[], 3, 'Konkurrentene kommer til.', true, true, 3),
+  ('markedsforing-og-ledelse-1:produkt-og-merkevare', 'q05', 'flervalg', 'Hva er sortimentsdybde?', array['Antall varianter innen en produktgruppe', 'Antall produktgrupper', 'Antall butikker', 'Antall kunder']::text[], 0, 'Bredde er antall produktgrupper.', true, true, 4),
+  ('markedsforing-og-ledelse-1:produkt-og-merkevare', 'q06', 'flervalg', 'Hva er en merkevare?', array['Bare en logo', 'Summen av inntrykk, følelser og forventninger kundene har', 'Bare et navn', 'En pris']::text[], 1, 'Bygges gjennom opplevelser og kommunikasjon.', true, true, 5),
+  ('markedsforing-og-ledelse-1:produkt-og-merkevare', 'q07', 'flervalg', 'Hva er egne merkevarer (EMV)?', array['Merker eid av produsenten', 'Merker fra utlandet', 'Merker eid av butikkjedene', 'Merker uten logo']::text[], 2, 'Vanlige i dagligvarehandelen.', true, true, 6),
+  ('markedsforing-og-ledelse-1:produkt-og-merkevare', 'q08', 'flervalg', 'Hva er en fordel med en sterk merkevare?', array['Lavere kvalitet', 'Ingen konkurranse', 'Færre kunder', 'Mulighet til å ta høyere pris og lojale kunder']::text[], 3, 'Gir også trygghet for kunden.', true, true, 7),
+  ('markedsforing-og-ledelse-1:produkt-og-merkevare', 'q09', 'flervalg', 'Hva kan en virksomhet gjøre i modningsfasen?', array['Forbedre produktet eller finne nye målgrupper', 'Slutte å markedsføre', 'Heve prisen kraftig', 'Legge ned produktet med en gang']::text[], 0, 'For å forlenge livssyklusen.', true, false, 8),
+  ('markedsforing-og-ledelse-1:produkt-og-merkevare', 'q10', 'flervalg', 'Hvorfor velger noen virksomheter individuelle merker?', array['Fordi det er billigst', 'For at en feil ved ett produkt ikke skal smitte over på andre', 'Fordi loven krever det', 'For å ha færre produkter']::text[], 1, 'Paraplymerker deler omdømmet.', true, false, 9),
+  ('markedsforing-og-ledelse-1:produkt-og-merkevare', 'm01', 'sant-usant', 'Mange produkter er like i kjernen, så virksomhetene konkurrerer på det faktiske og utvidede produktet.', array['Sant', 'Usant']::text[], 0, 'For eksempel design og service.', false, true, 10),
+  ('markedsforing-og-ledelse-1:produkt-og-merkevare', 'm02', 'sant-usant', 'I introduksjonsfasen er salget høyt og markedsføringskostnadene lave.', array['Sant', 'Usant']::text[], 1, 'Det er omvendt.', false, true, 11),
+  ('markedsforing-og-ledelse-1:produkt-og-merkevare', 'm03', 'sant-usant', 'En merkevare som ikke innfrir løftene sine, kan tape tillit.', array['Sant', 'Usant']::text[], 0, 'Opplevelsene bygger merkevaren.', false, true, 12),
+  ('markedsforing-og-ledelse-1:produkt-og-merkevare', 'm04', 'sant-usant', 'Emballasjen har bare som oppgave å beskytte produktet.', array['Sant', 'Usant']::text[], 1, 'Den informerer og selger også.', false, true, 13),
+  ('markedsforing-og-ledelse-1:produkt-og-merkevare', 'm05', 'flervalg', 'Hva er sortimentsbredde?', array['Antall varianter i én gruppe', 'Antall produktgrupper', 'Størrelsen på butikken', 'Antall ansatte']::text[], 1, 'Dybde er antall varianter.', false, true, 14),
+  ('markedsforing-og-ledelse-1:produkt-og-merkevare', 'm06', 'flervalg', 'Hva er et paraplymerke?', array['Samme navn på mange produkter', 'Et merke for regntøy', 'Et merke eid av butikken', 'Et merke uten logo']::text[], 0, 'Gir tillit til nye produkter.', false, true, 15),
+  ('markedsforing-og-ledelse-1:produkt-og-merkevare', 'm07', 'flervalg', 'Hva kommer etter idé og testing i produktutviklingen?', array['Nedgang', 'Metning', 'Prototyp og lansering', 'Avvikling']::text[], 2, 'Produktet prøves ut før det lanseres.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('markedsforing-og-ledelse-1:produkt-og-merkevare', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Markedsføring og ledelse 1: Distribusjon
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('markedsforing-og-ledelse-1:distribusjon', 'markedsforing-og-ledelse-1', 'distribusjon', 'Distribusjon', 'Hvordan produktene kommer fra produsent til kunde: direkte og indirekte kanaler, grossister og detaljister, intensiv, selektiv og eksklusiv distribusjon, kjeder, netthandel og omnikanal – og distribusjon som konkurransemiddel.', array[7]::int[], 6, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('markedsforing-og-ledelse-1:distribusjon', '## Hva er distribusjon?
+
+**Distribusjon** handler om å få produktet fram til kunden på **rett sted**, til **rett tid**, i **rett mengde** og til en fornuftig **kostnad**. I de fire P-ene er dette **plass**. Selv det beste produktet selger ikke hvis kundene ikke **får tak i** det.
+
+## Distribusjonskanaler
+
+En **distribusjonskanal** er veien produktet går fra **produsent** til **forbruker**:
+
+- **Direkte** distribusjon: produsent → forbruker. Eksempler er **gårdsutsalg** og produsentens egen **nettbutikk**.
+- **Kort indirekte** kanal: produsent → **detaljist** → forbruker. Detaljisten er butikken som selger til forbrukeren.
+- **Lang indirekte** kanal: produsent → **grossist** → detaljist → forbruker. Grossisten kjøper store mengder og selger videre til butikkene.
+
+**Mellomledd** gir færre transaksjoner, **lager** nær kundene og **kompetanse** om markedet. Men hvert ledd tar en **fortjeneste**, og produsenten får mindre **kontroll** over hvordan produktet selges.
+
+## Hvor mange utsalgssteder?
+
+- **Intensiv distribusjon**: produktet selges **overalt** – i dagligvarebutikker, kiosker og bensinstasjoner. Passer for **rutinekjøp** som brus og sjokolade.
+- **Selektiv distribusjon**: produktet selges hos **utvalgte** forhandlere. Passer for klær, sportsutstyr og elektronikk.
+- **Eksklusiv distribusjon**: bare **én** forhandler i et område. Passer for **luksusvarer** og biler, og styrker et **eksklusivt** image.
+
+## Kjeder og makt
+
+Mye av handelen i Norge skjer gjennom **kjeder**. Dagligvaremarkedet domineres av **tre store grupper**, som også eier **grossistledd** og har mange **egne merkevarer**. Det gir kjedene stor **forhandlingsmakt** overfor leverandørene, blant annet om hvilke varer som får **hylleplass**.
+
+## Netthandel og omnikanal
+
+**Netthandelen** har vokst kraftig. Kunden kan velge mellom **hjemlevering**, **hentepunkter**, **pakkeautomater** og **klikk og hent** i butikk. Store **markedsplasser** på nett gir små virksomheter tilgang til mange kunder, men også hard **priskonkurranse**.
+
+**Omnikanal** betyr at virksomheten gir kunden en **sømløs** opplevelse på tvers av kanaler – for eksempel å sjekke lagerstatus på nett, prøve i butikk og returnere på et hentested.
+
+## Fysisk distribusjon og logistikk
+
+**Logistikk** handler om **lager**, **transport**, **ordrebehandling** og **returer**. Rask og **gratis** frakt er et konkurransefortrinn, men koster penger og gir **utslipp**. Mange **returer** i netthandelen er både dyrt og lite bærekraftig.
+
+## Push og pull
+
+- **Push**: Produsenten **skyver** varen gjennom kanalen, for eksempel med rabatter og salgsstøtte til forhandlerne.
+- **Pull**: Produsenten skaper **etterspørsel** hos forbrukerne med reklame, slik at kundene **trekker** varen gjennom kanalen ved å spørre etter den.
+
+## Distribusjon som konkurransemiddel
+
+Virksomheter kan skille seg ut med
+
+- god **beliggenhet** og lange **åpningstider**
+- **rask** levering, for eksempel samme dag
+- **enkel** retur og god **tilgjengelighet**
+- valg av kanaler som passer til **målgruppen** og **posisjoneringen**
+
+Et luksusmerke som selges på **tilbud** i alle butikker, kan skade merkevaren. Distribusjonen må derfor **henge sammen** med de andre konkurransemidlene.', '{"label":"Distribusjon","children":[{"label":"Kanaler","children":[{"label":"Direkte"},{"label":"Kort indirekte"},{"label":"Lang indirekte"}]},{"label":"Intensitet","children":[{"label":"Intensiv"},{"label":"Selektiv"},{"label":"Eksklusiv"}]},{"label":"Handel","children":[{"label":"Kjeder og makt"},{"label":"Netthandel"},{"label":"Omnikanal"}]},{"label":"Logistikk","children":[{"label":"Lager og transport"},{"label":"Returer"}]},{"label":"Strategi","children":[{"label":"Push og pull"},{"label":"Beliggenhet og levering"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'markedsforing-og-ledelse-1:distribusjon';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('markedsforing-og-ledelse-1:distribusjon', 'Distribusjon', 'Å få produktet til kunden på rett sted, til rett tid og i rett mengde.', 0),
+  ('markedsforing-og-ledelse-1:distribusjon', 'Distribusjonskanal', 'Veien produktet går fra produsent til forbruker.', 1),
+  ('markedsforing-og-ledelse-1:distribusjon', 'Direkte distribusjon', 'Produsenten selger rett til forbrukeren.', 2),
+  ('markedsforing-og-ledelse-1:distribusjon', 'Detaljist', 'Butikken som selger til forbrukeren.', 3),
+  ('markedsforing-og-ledelse-1:distribusjon', 'Grossist', 'Kjøper store mengder og selger videre til butikker.', 4),
+  ('markedsforing-og-ledelse-1:distribusjon', 'Mellomledd', 'Ledd mellom produsent og forbruker, som grossist og detaljist.', 5),
+  ('markedsforing-og-ledelse-1:distribusjon', 'Intensiv distribusjon', 'Produktet selges overalt – for rutinekjøp.', 6),
+  ('markedsforing-og-ledelse-1:distribusjon', 'Selektiv distribusjon', 'Produktet selges hos utvalgte forhandlere.', 7),
+  ('markedsforing-og-ledelse-1:distribusjon', 'Eksklusiv distribusjon', 'Bare én forhandler i et område – for luksusvarer.', 8),
+  ('markedsforing-og-ledelse-1:distribusjon', 'Kjede', 'Butikker som samarbeider eller eies sammen.', 9),
+  ('markedsforing-og-ledelse-1:distribusjon', 'Hylleplass', 'Plass i butikkhyllen – viktig for synlighet og salg.', 10),
+  ('markedsforing-og-ledelse-1:distribusjon', 'Omnikanal', 'Sømløs kundeopplevelse på tvers av kanaler.', 11),
+  ('markedsforing-og-ledelse-1:distribusjon', 'Klikk og hent', 'Kunden handler på nett og henter i butikk.', 12),
+  ('markedsforing-og-ledelse-1:distribusjon', 'Logistikk', 'Lager, transport, ordrebehandling og returer.', 13),
+  ('markedsforing-og-ledelse-1:distribusjon', 'Push-strategi', 'Produsenten skyver varen gjennom kanalen via forhandlerne.', 14),
+  ('markedsforing-og-ledelse-1:distribusjon', 'Pull-strategi', 'Etterspørsel hos forbrukerne trekker varen gjennom kanalen.', 15);
+delete from public.quiz_sporsmal where tema_id = 'markedsforing-og-ledelse-1:distribusjon';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('markedsforing-og-ledelse-1:distribusjon', 'q01', 'flervalg', 'Hva er direkte distribusjon?', array['Salg via grossist', 'Produsenten selger rett til forbrukeren', 'Salg i dagligvarebutikk', 'Salg via agent']::text[], 1, 'For eksempel gårdsutsalg.', true, true, 0),
+  ('markedsforing-og-ledelse-1:distribusjon', 'q02', 'flervalg', 'Hva gjør en grossist?', array['Kjøper store mengder og selger videre til butikker', 'Selger til forbrukere', 'Produserer varer', 'Lager reklame']::text[], 0, 'Et mellomledd i lange kanaler.', true, true, 1),
+  ('markedsforing-og-ledelse-1:distribusjon', 'q03', 'flervalg', 'Hvilken distribusjon passer for sjokolade og brus?', array['Eksklusiv', 'Selektiv', 'Intensiv', 'Direkte']::text[], 2, 'Rutinekjøp skal være lett tilgjengelige.', true, true, 2),
+  ('markedsforing-og-ledelse-1:distribusjon', 'q04', 'flervalg', 'Hvilken distribusjon passer for en luksusklokke?', array['Intensiv', 'Salg på bensinstasjoner', 'Salg i alle kiosker', 'Eksklusiv']::text[], 3, 'Styrker det eksklusive imaget.', true, true, 3),
+  ('markedsforing-og-ledelse-1:distribusjon', 'q05', 'flervalg', 'Hva er omnikanal?', array['Sømløs kundeopplevelse på tvers av kanaler', 'Bare nettbutikk', 'Bare fysisk butikk', 'Salg via én kanal']::text[], 0, 'Nett og butikk henger sammen.', true, true, 4),
+  ('markedsforing-og-ledelse-1:distribusjon', 'q06', 'flervalg', 'Hvorfor har dagligvarekjedene stor makt overfor leverandørene?', array['De produserer alt selv', 'De bestemmer blant annet hvilke varer som får hylleplass', 'De eier alle fabrikker', 'De har ingen konkurrenter']::text[], 1, 'Tre store grupper dominerer markedet.', true, true, 5),
+  ('markedsforing-og-ledelse-1:distribusjon', 'q07', 'flervalg', 'Hva er en pull-strategi?', array['Rabatter til forhandlerne', 'Å selge direkte', 'Å skape etterspørsel hos forbrukerne slik at de spør etter varen', 'Å kutte mellomledd']::text[], 2, 'Kundene trekker varen gjennom kanalen.', true, true, 6),
+  ('markedsforing-og-ledelse-1:distribusjon', 'q08', 'flervalg', 'Hva er en ulempe ved mange mellomledd?', array['Flere transaksjoner', 'Mer kontroll for produsenten', 'Varene kommer raskere', 'Hvert ledd tar fortjeneste, og produsenten får mindre kontroll']::text[], 3, 'Men mellomledd gir også fordeler.', true, true, 7),
+  ('markedsforing-og-ledelse-1:distribusjon', 'q09', 'flervalg', 'Hva hører til logistikk?', array['Lager, transport og returer', 'Reklame', 'Prissetting', 'Merkevarebygging']::text[], 0, 'Den fysiske distribusjonen.', true, false, 8),
+  ('markedsforing-og-ledelse-1:distribusjon', 'q10', 'flervalg', 'Hvorfor er mange returer i netthandelen et problem?', array['Det gir flere kunder', 'Det er dyrt og lite bærekraftig', 'Det er ulovlig', 'Det gir lavere priser']::text[], 1, 'Transport og håndtering koster.', true, false, 9),
+  ('markedsforing-og-ledelse-1:distribusjon', 'm01', 'sant-usant', 'Selv et godt produkt selger dårlig hvis kundene ikke får tak i det.', array['Sant', 'Usant']::text[], 0, 'Derfor er distribusjon et konkurransemiddel.', false, true, 10),
+  ('markedsforing-og-ledelse-1:distribusjon', 'm02', 'sant-usant', 'Et luksusmerke tjener alltid på å selges i så mange butikker som mulig.', array['Sant', 'Usant']::text[], 1, 'Det kan skade det eksklusive imaget.', false, true, 11),
+  ('markedsforing-og-ledelse-1:distribusjon', 'm03', 'sant-usant', 'Mellomledd kan redusere antall transaksjoner i markedet.', array['Sant', 'Usant']::text[], 0, 'Grossisten samler varer fra mange produsenter.', false, true, 12),
+  ('markedsforing-og-ledelse-1:distribusjon', 'm04', 'sant-usant', 'Rask og gratis frakt er gratis for virksomheten.', array['Sant', 'Usant']::text[], 1, 'Det koster penger og gir utslipp.', false, true, 13),
+  ('markedsforing-og-ledelse-1:distribusjon', 'm05', 'flervalg', 'Hvilken distribusjon passer best for sportsutstyr?', array['Eksklusiv', 'Selektiv', 'Intensiv', 'Ingen distribusjon']::text[], 1, 'Utvalgte forhandlere med kompetanse.', false, true, 14),
+  ('markedsforing-og-ledelse-1:distribusjon', 'm06', 'flervalg', 'Hva er en push-strategi?', array['Rabatter og salgsstøtte til forhandlerne', 'Reklame rettet mot forbrukerne', 'Salg på gården', 'Gratis retur']::text[], 0, 'Varen skyves gjennom kanalen.', false, true, 15),
+  ('markedsforing-og-ledelse-1:distribusjon', 'm07', 'flervalg', 'Hva er klikk og hent?', array['Hjemlevering', 'Salg på telefon', 'Å handle på nett og hente i butikk', 'Salg på markedsplass']::text[], 2, 'En del av omnikanalhandel.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('markedsforing-og-ledelse-1:distribusjon', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Markedsføring og ledelse 1: Pris og prisstrategier
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('markedsforing-og-ledelse-1:pris', 'markedsforing-og-ledelse-1', 'pris', 'Pris og prisstrategier', 'Pris som konkurransemiddel: hva som påvirker prisen, kostnadsbasert, etterspørselsbasert og konkurransebasert prissetting, dekningsbidrag og nullpunkt, merverdiavgift, priselastisitet og prisstrategier som skumming, penetrasjon og psykologisk prising.', array[8]::int[], 7, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('markedsforing-og-ledelse-1:pris', '## Prisens rolle
+
+**Prisen** er det eneste konkurransemiddelet som gir **inntekter** – de andre koster penger. Prisen påvirker både **salget**, **lønnsomheten** og hvordan kundene **oppfatter** produktet. En høy pris kan signalisere **kvalitet**, en lav pris at produktet er **rimelig**.
+
+## Hva påvirker prisen?
+
+- **Kostnadene** – prisen må over tid dekke alle kostnader
+- **Etterspørselen** – hva kundene er **villige** til å betale
+- **Konkurrentene** – hva lignende produkter koster
+- **Målene** – vil virksomheten ha høy **fortjeneste** eller stor **markedsandel**?
+- **Lover og avgifter** – som **merverdiavgift**
+
+## Prissettingsmetoder
+
+### Kostnadsbasert
+
+Virksomheten legger et **påslag** på kostnaden. Eksempel:
+
+- Innkjøpspris: 100 kr
+- Påslag 60 %: 60 kr → 160 kr uten merverdiavgift
+- Merverdiavgift 25 %: 40 kr → **200 kr** til forbrukeren
+
+Vanlig merverdiavgift i Norge er **25 %**, men **matvarer** har lavere sats. Metoden er **enkel**, men tar ikke hensyn til hva kundene vil betale.
+
+### Etterspørselsbasert
+
+Prisen settes ut fra kundenes **betalingsvilje**. **Priselastisitet** viser hvor mye etterspørselen endres når prisen endres:
+
+- **Elastisk** etterspørsel: Kundene reagerer **mye** på prisendringer, ofte fordi det finnes mange **alternativer**.
+- **Uelastisk** etterspørsel: Kundene kjøper omtrent like mye selv om prisen stiger, for eksempel for **nødvendighetsvarer** og produkter med sterk **merkelojalitet**.
+
+### Konkurransebasert
+
+Prisen legges **på**, **over** eller **under** konkurrentenes pris.
+
+## Dekningsbidrag og nullpunkt
+
+- **Dekningsbidrag** per enhet = pris − **variable kostnader** per enhet. Dekningsbidraget skal dekke de **faste kostnadene** og gi **overskudd**.
+- **Nullpunktsmengden** = faste kostnader ÷ dekningsbidrag per enhet. Det er antallet som må selges for å gå **i null**.
+
+Eksempel: Et produkt selges for 200 kr uten merverdiavgift. De variable kostnadene er 120 kr, og dekningsbidraget blir 80 kr. Med faste kostnader på 40 000 kr er nullpunktsmengden 40 000 ÷ 80 = **500 enheter**.
+
+## Prisstrategier
+
+- **Skumming**: **høy** pris ved lansering, som senkes etter hvert. Brukes for nye **teknologiprodukter**.
+- **Penetrasjon**: **lav** pris ved lansering for raskt å ta **markedsandeler**.
+- **Prestisjeprising**: høy pris som gir **status** og signaliserer kvalitet.
+- **Lavprisstrategi**: varig lave priser, som hos lavpriskjeder.
+- **Psykologisk prising**: 199 kr i stedet for 200 kr – prisen **oppleves** lavere.
+- **Prisdifferensiering**: ulike priser for ulike kunder, tidspunkter eller steder, som **studentrabatt** og dyrere billetter i helger. **Dynamisk prising** endrer prisen fortløpende etter etterspørselen.
+- **Pakkepris**: flere produkter sammen til redusert pris.
+- **Lokkevarer**: noen varer selges svært billig for å trekke kunder inn i butikken.
+- **Abonnement** og **gratis grunnversjon** med betalte tillegg er vanlig for digitale tjenester.
+
+## Pris som konkurransemiddel
+
+Prisen må passe til **posisjoneringen**, **målgruppen** og de andre konkurransemidlene. **Priskrig** kan gi lavere fortjeneste for alle. Det er **ulovlig** å oppgi en **falsk førpris** for å få et tilbud til å virke bedre enn det er.', '{"label":"Pris","children":[{"label":"Påvirkes av","children":[{"label":"Kostnader"},{"label":"Etterspørsel"},{"label":"Konkurrenter og mål"}]},{"label":"Metoder","children":[{"label":"Kostnad + påslag"},{"label":"Betalingsvilje og elastisitet"},{"label":"Konkurransebasert"}]},{"label":"Beregning","children":[{"label":"Merverdiavgift"},{"label":"Dekningsbidrag"},{"label":"Nullpunkt"}]},{"label":"Strategier","children":[{"label":"Skumming og penetrasjon"},{"label":"Prestisje og lavpris"},{"label":"Psykologisk og differensiert"}]},{"label":"Konkurransemiddel","children":[{"label":"Posisjonering"},{"label":"Priskrig"},{"label":"Falsk førpris"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'markedsforing-og-ledelse-1:pris';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('markedsforing-og-ledelse-1:pris', 'Pris', 'Det eneste konkurransemiddelet som gir inntekter.', 0),
+  ('markedsforing-og-ledelse-1:pris', 'Påslag', 'Beløp eller prosent som legges på kostnaden.', 1),
+  ('markedsforing-og-ledelse-1:pris', 'Merverdiavgift', 'Avgift på salg – vanlig sats i Norge er 25 %.', 2),
+  ('markedsforing-og-ledelse-1:pris', 'Kostnadsbasert prissetting', 'Kostnad pluss påslag.', 3),
+  ('markedsforing-og-ledelse-1:pris', 'Etterspørselsbasert prissetting', 'Prisen settes ut fra kundenes betalingsvilje.', 4),
+  ('markedsforing-og-ledelse-1:pris', 'Konkurransebasert prissetting', 'Prisen settes ut fra konkurrentenes priser.', 5),
+  ('markedsforing-og-ledelse-1:pris', 'Priselastisitet', 'Hvor mye etterspørselen endres når prisen endres.', 6),
+  ('markedsforing-og-ledelse-1:pris', 'Uelastisk etterspørsel', 'Kundene kjøper omtrent like mye selv om prisen stiger.', 7),
+  ('markedsforing-og-ledelse-1:pris', 'Variable kostnader', 'Kostnader som øker med produsert mengde.', 8),
+  ('markedsforing-og-ledelse-1:pris', 'Faste kostnader', 'Kostnader som ikke endres med mengden, som husleie.', 9),
+  ('markedsforing-og-ledelse-1:pris', 'Dekningsbidrag', 'Pris minus variable kostnader per enhet.', 10),
+  ('markedsforing-og-ledelse-1:pris', 'Nullpunktsmengde', 'Faste kostnader delt på dekningsbidrag per enhet.', 11),
+  ('markedsforing-og-ledelse-1:pris', 'Skumming', 'Høy lanseringspris som senkes etter hvert.', 12),
+  ('markedsforing-og-ledelse-1:pris', 'Penetrasjonspris', 'Lav lanseringspris for å ta markedsandeler raskt.', 13),
+  ('markedsforing-og-ledelse-1:pris', 'Psykologisk prising', '199 kr i stedet for 200 kr.', 14),
+  ('markedsforing-og-ledelse-1:pris', 'Prisdifferensiering', 'Ulike priser for ulike kunder, tider eller steder.', 15),
+  ('markedsforing-og-ledelse-1:pris', 'Lokkevare', 'Svært billig vare som skal trekke kunder inn.', 16);
+delete from public.quiz_sporsmal where tema_id = 'markedsforing-og-ledelse-1:pris';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('markedsforing-og-ledelse-1:pris', 'q01', 'flervalg', 'Hvorfor er prisen et spesielt konkurransemiddel?', array['Den er alltid lav', 'Den er det eneste som gir inntekter', 'Den er ulovlig å endre', 'Den påvirker ikke salget']::text[], 1, 'De andre konkurransemidlene koster penger.', true, true, 0),
+  ('markedsforing-og-ledelse-1:pris', 'q02', 'flervalg', 'En vare koster 160 kr uten merverdiavgift. Hva blir prisen med 25 % merverdiavgift?', array['200 kr', '185 kr', '160 kr', '240 kr']::text[], 0, '160 · 1,25 = 200.', true, true, 1),
+  ('markedsforing-og-ledelse-1:pris', 'q03', 'flervalg', 'Hva er dekningsbidrag per enhet?', array['Pris minus faste kostnader', 'Faste kostnader delt på pris', 'Pris minus variable kostnader per enhet', 'Omsetning minus skatt']::text[], 2, 'Skal dekke faste kostnader og gi overskudd.', true, true, 2),
+  ('markedsforing-og-ledelse-1:pris', 'q04', 'flervalg', 'Faste kostnader er 40 000 kr og dekningsbidraget 80 kr per enhet. Hva er nullpunktsmengden?', array['320 enheter', '800 enheter', '5000 enheter', '500 enheter']::text[], 3, '40 000 ÷ 80 = 500.', true, true, 3),
+  ('markedsforing-og-ledelse-1:pris', 'q05', 'flervalg', 'Hvilken strategi bruker høy pris ved lansering av ny teknologi?', array['Skumming', 'Penetrasjon', 'Lavpris', 'Lokkevare']::text[], 0, 'Prisen senkes etter hvert.', true, true, 4),
+  ('markedsforing-og-ledelse-1:pris', 'q06', 'flervalg', 'Hva er penetrasjonsprising?', array['Høy pris for å vise status', 'Lav lanseringspris for å ta markedsandeler raskt', 'Ulike priser for ulike kunder', 'Pris satt ut fra kostnader']::text[], 1, 'Kundene lokkes til å prøve produktet.', true, true, 5),
+  ('markedsforing-og-ledelse-1:pris', 'q07', 'flervalg', 'Hva betyr det at etterspørselen er elastisk?', array['Kundene reagerer lite på prisen', 'Prisen er fast', 'Kundene reagerer mye på prisendringer', 'Varen er nødvendig']::text[], 2, 'Ofte fordi det finnes mange alternativer.', true, true, 6),
+  ('markedsforing-og-ledelse-1:pris', 'q08', 'flervalg', 'Studentrabatt er et eksempel på', array['skumming', 'psykologisk prising', 'lokkevare', 'prisdifferensiering']::text[], 3, 'Ulike priser for ulike kundegrupper.', true, true, 7),
+  ('markedsforing-og-ledelse-1:pris', 'q09', 'flervalg', 'Hvorfor setter mange 199 kr i stedet for 200 kr?', array['Prisen oppleves lavere', 'Det er lovpålagt', 'Det gir mer merverdiavgift', 'Det er lettere å regne med']::text[], 0, 'Psykologisk prising.', true, false, 8),
+  ('markedsforing-og-ledelse-1:pris', 'q10', 'flervalg', 'Hva er ulovlig ved prisreklame?', array['Å gi rabatt', 'Å oppgi en falsk førpris', 'Å ha salg', 'Å bruke psykologisk prising']::text[], 1, 'Tilbudet må ikke framstå bedre enn det er.', true, false, 9),
+  ('markedsforing-og-ledelse-1:pris', 'm01', 'sant-usant', 'En høy pris kan få kundene til å tro at produktet har høy kvalitet.', array['Sant', 'Usant']::text[], 0, 'Prestisjeprising bygger på dette.', false, true, 10),
+  ('markedsforing-og-ledelse-1:pris', 'm02', 'sant-usant', 'Kostnadsbasert prissetting tar alltid hensyn til hva kundene vil betale.', array['Sant', 'Usant']::text[], 1, 'Den tar utgangspunkt i kostnadene.', false, true, 11),
+  ('markedsforing-og-ledelse-1:pris', 'm03', 'sant-usant', 'Priskrig kan gi lavere fortjeneste for alle virksomhetene i markedet.', array['Sant', 'Usant']::text[], 0, 'Alle presses ned i pris.', false, true, 12),
+  ('markedsforing-og-ledelse-1:pris', 'm04', 'sant-usant', 'Husleie er en variabel kostnad.', array['Sant', 'Usant']::text[], 1, 'Husleie er en fast kostnad.', false, true, 13),
+  ('markedsforing-og-ledelse-1:pris', 'm05', 'flervalg', 'Hva er dynamisk prising?', array['Samme pris hele året', 'Prisen endres fortløpende etter etterspørselen', 'Pris satt av staten', 'Gratis produkter']::text[], 1, 'Vanlig for flybilletter og hotell.', false, true, 14),
+  ('markedsforing-og-ledelse-1:pris', 'm06', 'flervalg', 'Hvilken vare har trolig mest uelastisk etterspørsel?', array['Strøm', 'En bestemt sjokoladeplate', 'En kinobillett', 'Et merke av brus']::text[], 0, 'En nødvendighetsvare med få alternativer.', false, true, 15),
+  ('markedsforing-og-ledelse-1:pris', 'm07', 'flervalg', 'Hva er en lokkevare?', array['En luksusvare', 'En vare med høy pris', 'En svært billig vare som skal trekke kunder inn', 'En vare som ikke selges']::text[], 2, 'Kundene handler ofte mer når de først er i butikken.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('markedsforing-og-ledelse-1:pris', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Markedsføring og ledelse 1: Markedskommunikasjon
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('markedsforing-og-ledelse-1:markedskommunikasjon', 'markedsforing-og-ledelse-1', 'markedskommunikasjon', 'Markedskommunikasjon', 'Kommunikasjonsprosessen, kommunikasjonsmål og AIDA-modellen, virkemidlene i kommunikasjonsmiksen – reklame, personlig salg, salgsfremmende tiltak, PR, sponsing og digital markedsføring – og hvordan budskap og strategier brukes som konkurransemiddel.', array[9]::int[], 8, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('markedsforing-og-ledelse-1:markedskommunikasjon', '## Hva er markedskommunikasjon?
+
+**Markedskommunikasjon** – **påvirkning** i de fire P-ene – er all kommunikasjon virksomheten har med markedet for å **informere**, **overbevise** og **minne** kundene på produktene.
+
+## Kommunikasjonsprosessen
+
+**Avsenderen** lager et **budskap** som sendes gjennom en **kanal** til en **mottaker**. Mottakeren **tolker** budskapet og gir kanskje en **respons**. Underveis kan **støy** forstyrre – for eksempel mange andre reklamer eller at mottakeren ikke følger med. Budskapet må derfor tilpasses **målgruppen** og kanalen.
+
+## Kommunikasjonsmål
+
+Målene deles ofte i tre nivåer:
+
+1. **Kjennskap** – kunden skal **vite** om produktet.
+2. **Holdning** – kunden skal **like** produktet.
+3. **Handling** – kunden skal **kjøpe** eller gjøre noe annet.
+
+**AIDA-modellen** beskriver veien mot kjøp: **oppmerksomhet** (attention), **interesse** (interest), **lyst** (desire) og **handling** (action). En god annonse fanger blikket, vekker interesse, skaper lyst og gjør det **lett** å handle.
+
+## Kommunikasjonsmiksen
+
+- **Reklame**: **betalt** kommunikasjon i medier, som TV, aviser, plakater og sosiale medier. Når **mange**, men gir liten mulighet for dialog.
+- **Personlig salg**: selgeren møter kunden **ansikt til ansikt** eller på telefon. Kan **tilpasses** kunden og passer for **dyre** og **kompliserte** produkter.
+- **Salgsfremmende tiltak**: **kortsiktige** tiltak som kuponger, smaksprøver, konkurranser og «3 for 2».
+- **PR** (public relations): å bygge **omdømme** og få **redaksjonell omtale**, for eksempel gjennom pressemeldinger. Omtale oppleves **troverdig**, men virksomheten har lite **kontroll**.
+- **Sponsing**: støtte til idrett, kultur eller frivillighet i bytte mot synlighet og et positivt **image**.
+- **Direkte markedsføring**: personlig rettet kommunikasjon via **e-post**, SMS eller post. Krever ofte **samtykke**.
+- **Digital markedsføring**: annonser i **sosiale medier** og **søkemotorer**, innhold på egne kanaler og samarbeid med **påvirkere**. Kan **målrettes** presist og **måles** godt.
+
+## Budskapet
+
+- **Rasjonelle appeller** bruker **fakta**: pris, egenskaper og kvalitet.
+- **Emosjonelle appeller** spiller på **følelser**: humor, glede, nostalgi, frykt eller fellesskap.
+- Et **unikt salgsargument** er det som skiller produktet fra konkurrentene.
+- **Historiefortelling** gjør budskapet lettere å **huske**.
+
+Dyre og viktige kjøp krever ofte mer **informasjon**, mens rutinekjøp påvirkes mer av **følelser** og **gjenkjennelse**.
+
+## Strategier
+
+- **Push**: kommunikasjon rettet mot **forhandlere** med rabatter og salgsstøtte.
+- **Pull**: kommunikasjon rettet mot **forbrukerne**, som skaper etterspørsel.
+- **Integrert markedskommunikasjon**: Alle kanaler og virkemidler sender det **samme** budskapet med samme **visuelle** uttrykk. Det gir sterkere **gjenkjennelse**.
+
+## Kommunikasjon som konkurransemiddel
+
+Virksomheter i markeder med **like** produkter, som brus og mobilabonnement, bruker ofte store summer på kommunikasjon for å skape **forskjeller** i kundenes hode. Kommunikasjonen må likevel **stemme** med resten av tilbudet: Lover reklamen mer enn produktet holder, blir kundene **skuffet**, og omdømmet svekkes.', '{"label":"Markedskommunikasjon","children":[{"label":"Prosess","children":[{"label":"Avsender og budskap"},{"label":"Kanal og mottaker"},{"label":"Støy"}]},{"label":"Mål","children":[{"label":"Kjennskap, holdning, handling"},{"label":"AIDA"}]},{"label":"Virkemidler","children":[{"label":"Reklame"},{"label":"Personlig salg"},{"label":"Salgsfremmende tiltak"},{"label":"PR og sponsing"},{"label":"Digitalt"}]},{"label":"Budskap","children":[{"label":"Rasjonelt og emosjonelt"},{"label":"Unikt salgsargument"}]},{"label":"Strategi","children":[{"label":"Push og pull"},{"label":"Integrert kommunikasjon"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'markedsforing-og-ledelse-1:markedskommunikasjon';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('markedsforing-og-ledelse-1:markedskommunikasjon', 'Markedskommunikasjon', 'Kommunikasjon som informerer, overbeviser og minner kundene på produktene.', 0),
+  ('markedsforing-og-ledelse-1:markedskommunikasjon', 'Kommunikasjonsprosessen', 'Avsender, budskap, kanal, mottaker, respons og støy.', 1),
+  ('markedsforing-og-ledelse-1:markedskommunikasjon', 'Støy', 'Alt som forstyrrer budskapet på veien til mottakeren.', 2),
+  ('markedsforing-og-ledelse-1:markedskommunikasjon', 'Kommunikasjonsmål', 'Kjennskap, holdning og handling.', 3),
+  ('markedsforing-og-ledelse-1:markedskommunikasjon', 'AIDA', 'Oppmerksomhet, interesse, lyst og handling.', 4),
+  ('markedsforing-og-ledelse-1:markedskommunikasjon', 'Reklame', 'Betalt kommunikasjon i medier som når mange.', 5),
+  ('markedsforing-og-ledelse-1:markedskommunikasjon', 'Personlig salg', 'Tilpasset kommunikasjon ansikt til ansikt eller på telefon.', 6),
+  ('markedsforing-og-ledelse-1:markedskommunikasjon', 'Salgsfremmende tiltak', 'Kortsiktige tiltak som kuponger, smaksprøver og «3 for 2».', 7),
+  ('markedsforing-og-ledelse-1:markedskommunikasjon', 'PR', 'Å bygge omdømme og få redaksjonell omtale.', 8),
+  ('markedsforing-og-ledelse-1:markedskommunikasjon', 'Sponsing', 'Støtte til idrett eller kultur i bytte mot synlighet.', 9),
+  ('markedsforing-og-ledelse-1:markedskommunikasjon', 'Direkte markedsføring', 'Personlig rettet kommunikasjon via e-post, SMS eller post.', 10),
+  ('markedsforing-og-ledelse-1:markedskommunikasjon', 'Rasjonell appell', 'Budskap som bygger på fakta som pris og egenskaper.', 11),
+  ('markedsforing-og-ledelse-1:markedskommunikasjon', 'Emosjonell appell', 'Budskap som spiller på følelser.', 12),
+  ('markedsforing-og-ledelse-1:markedskommunikasjon', 'Unikt salgsargument', 'Det som skiller produktet fra konkurrentene.', 13),
+  ('markedsforing-og-ledelse-1:markedskommunikasjon', 'Integrert markedskommunikasjon', 'Samme budskap og uttrykk i alle kanaler.', 14),
+  ('markedsforing-og-ledelse-1:markedskommunikasjon', 'Historiefortelling', 'Å formidle budskapet gjennom en fortelling som er lett å huske.', 15);
+delete from public.quiz_sporsmal where tema_id = 'markedsforing-og-ledelse-1:markedskommunikasjon';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('markedsforing-og-ledelse-1:markedskommunikasjon', 'q01', 'flervalg', 'Hva er støy i kommunikasjonsprosessen?', array['Høy musikk i reklamen', 'Alt som forstyrrer budskapet på veien til mottakeren', 'Kundens respons', 'Kanalen']::text[], 1, 'For eksempel mange andre reklamer.', true, true, 0),
+  ('markedsforing-og-ledelse-1:markedskommunikasjon', 'q02', 'flervalg', 'Hva står AIDA for?', array['Oppmerksomhet, interesse, lyst og handling', 'Analyse, idé, design og annonse', 'Avsender, informasjon, dialog og avslutning', 'Appell, image, distribusjon og avgift']::text[], 0, 'Veien mot kjøp.', true, true, 1),
+  ('markedsforing-og-ledelse-1:markedskommunikasjon', 'q03', 'flervalg', 'Hvilket virkemiddel passer best for dyre og kompliserte produkter?', array['Plakatreklame', 'Smaksprøver', 'Personlig salg', 'Sponsing']::text[], 2, 'Kan tilpasses kunden.', true, true, 2),
+  ('markedsforing-og-ledelse-1:markedskommunikasjon', 'q04', 'flervalg', 'Hva er et eksempel på salgsfremmende tiltak?', array['En TV-reklame', 'En pressemelding', 'Sponsing av et fotballag', '«3 for 2»']::text[], 3, 'Kortsiktige tiltak.', true, true, 3),
+  ('markedsforing-og-ledelse-1:markedskommunikasjon', 'q05', 'flervalg', 'Hvorfor oppleves PR ofte som troverdig?', array['Fordi omtalen kommer fra redaksjonelle medier, ikke virksomheten selv', 'Fordi den er betalt', 'Fordi den er kort', 'Fordi den alltid er positiv']::text[], 0, 'Men virksomheten har lite kontroll.', true, true, 4),
+  ('markedsforing-og-ledelse-1:markedskommunikasjon', 'q06', 'flervalg', 'Hva er en emosjonell appell?', array['Fakta om pris', 'Et budskap som spiller på følelser', 'En tabell med egenskaper', 'En garanti']::text[], 1, 'For eksempel humor eller nostalgi.', true, true, 5),
+  ('markedsforing-og-ledelse-1:markedskommunikasjon', 'q07', 'flervalg', 'Hva er integrert markedskommunikasjon?', array['Bare én kanal', 'Ulike budskap i hver kanal', 'Samme budskap og uttrykk i alle kanaler', 'Kommunikasjon bare til ansatte']::text[], 2, 'Gir sterkere gjenkjennelse.', true, true, 6),
+  ('markedsforing-og-ledelse-1:markedskommunikasjon', 'q08', 'flervalg', 'Hvilket kommunikasjonsmål handler om at kunden skal like produktet?', array['Kjennskap', 'Handling', 'Kjøp', 'Holdning']::text[], 3, 'Det midterste nivået.', true, true, 7),
+  ('markedsforing-og-ledelse-1:markedskommunikasjon', 'q09', 'flervalg', 'Hva er en fordel med digital markedsføring?', array['Den kan målrettes og måles godt', 'Den er alltid gratis', 'Den når bare eldre', 'Den krever ikke samtykke']::text[], 0, 'Annonser kan vises til utvalgte målgrupper.', true, false, 8),
+  ('markedsforing-og-ledelse-1:markedskommunikasjon', 'q10', 'flervalg', 'Hva skjer hvis reklamen lover mer enn produktet holder?', array['Salget øker for alltid', 'Kundene blir skuffet og omdømmet svekkes', 'Ingenting', 'Prisen går opp']::text[], 1, 'Kommunikasjonen må stemme med tilbudet.', true, false, 9),
+  ('markedsforing-og-ledelse-1:markedskommunikasjon', 'm01', 'sant-usant', 'Markedskommunikasjon kan både informere, overbevise og minne kundene på produkter.', array['Sant', 'Usant']::text[], 0, 'Tre hovedoppgaver.', false, true, 10),
+  ('markedsforing-og-ledelse-1:markedskommunikasjon', 'm02', 'sant-usant', 'Reklame gir like god mulighet for dialog som personlig salg.', array['Sant', 'Usant']::text[], 1, 'Reklame er enveiskommunikasjon til mange.', false, true, 11),
+  ('markedsforing-og-ledelse-1:markedskommunikasjon', 'm03', 'sant-usant', 'Rutinekjøp påvirkes ofte mer av følelser og gjenkjennelse enn av fakta.', array['Sant', 'Usant']::text[], 0, 'Lite engasjement.', false, true, 12),
+  ('markedsforing-og-ledelse-1:markedskommunikasjon', 'm04', 'sant-usant', 'Direkte markedsføring på e-post kan alltid sendes uten samtykke.', array['Sant', 'Usant']::text[], 1, 'Det krever ofte samtykke.', false, true, 13),
+  ('markedsforing-og-ledelse-1:markedskommunikasjon', 'm05', 'flervalg', 'Hva er en pull-strategi i kommunikasjon?', array['Rabatter til forhandlere', 'Kommunikasjon rettet mot forbrukerne for å skape etterspørsel', 'Personlig salg til grossister', 'Å kutte reklame']::text[], 1, 'Kundene trekker varen gjennom kanalen.', false, true, 14),
+  ('markedsforing-og-ledelse-1:markedskommunikasjon', 'm06', 'flervalg', 'Hva er sponsing?', array['Støtte til idrett eller kultur i bytte mot synlighet', 'En type rabatt', 'En pressemelding', 'Personlig salg']::text[], 0, 'Gir et positivt image.', false, true, 15),
+  ('markedsforing-og-ledelse-1:markedskommunikasjon', 'm07', 'flervalg', 'Hvorfor bruker virksomheter med like produkter mye penger på kommunikasjon?', array['Fordi produktene er ulovlige', 'Fordi de ikke har konkurrenter', 'For å skape forskjeller i kundenes hode', 'For å senke prisen']::text[], 2, 'For eksempel brus og mobilabonnement.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('markedsforing-og-ledelse-1:markedskommunikasjon', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Markedsføring og ledelse 1: Mediemiks og innhold
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('markedsforing-og-ledelse-1:mediemiks-og-innhold', 'markedsforing-og-ledelse-1', 'mediemiks-og-innhold', 'Mediemiks og innhold', 'Hvordan virksomheter planlegger mediemiks: betalte, eide og fortjente medier, styrker og svakheter ved ulike kanaler, begreper som dekning, frekvens og tusenkontaktpris, medieplanen – og hvordan du lager innhold tilpasset ulike kanaler.', array[10]::int[], 9, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('markedsforing-og-ledelse-1:mediemiks-og-innhold', '## Hva er mediemiks?
+
+**Mediemiksen** er **kombinasjonen** av medier og kanaler en virksomhet bruker for å nå **målgruppen** med budskapet sitt. Målet er å nå de **riktige** personene, **mange nok ganger**, til en fornuftig **kostnad**.
+
+## Betalte, eide og fortjente medier
+
+- **Betalte medier**: annonser virksomheten **kjøper**, som TV-reklame, plakater og annonser i sosiale medier.
+- **Eide medier**: kanaler virksomheten **kontrollerer selv**, som nettside, nyhetsbrev og egne kontoer i sosiale medier.
+- **Fortjente medier**: omtale virksomheten **ikke betaler for**, som delinger, anmeldelser, avisomtale og anbefalinger fra kunder.
+
+De beste kampanjene bruker alle tre: Betalte medier gir **rekkevidde**, eide medier gir **kontroll**, og fortjente medier gir **troverdighet**.
+
+## Kanaler
+
+| Kanal | Styrker | Svakheter |
+|---|---|---|
+| **TV og strømming** | levende bilder og lyd, når mange | dyrt |
+| **Radio og podkast** | billig, lokal, følger folk gjennom dagen | bare lyd |
+| **Aviser og nettaviser** | troverdig, lokal målretting | synkende lesertall på papir |
+| **Utendørsreklame** | synlig for mange | kort eksponering |
+| **Sosiale medier** | presis målretting, deling, måling | stor konkurranse om oppmerksomheten |
+| **Søkemotorer** | når kunder som **leter** etter produktet | krever kunnskap og budsjett |
+| **E-post og nyhetsbrev** | billig, personlig | krever samtykke |
+
+**Søkemotoroptimalisering** gjør at nettsiden kommer høyt i **vanlige** søkeresultater, mens **søkemotorannonser** er betalte treff.
+
+## Mediebegreper
+
+- **Dekning**: hvor stor del av målgruppen som ser budskapet **minst én gang**.
+- **Frekvens**: hvor mange ganger hver person i **gjennomsnitt** ser budskapet.
+- **Tusenkontaktpris**: hva det koster å nå **1000** visninger. Eksempel: En kampanje koster 10 000 kr og gir 200 000 visninger. Tusenkontaktprisen blir 10 000 ÷ 200 = **50 kr**.
+- **Klikkrate**: andelen som **klikker** på annonsen.
+- **Konvertering**: andelen som **handler**, for eksempel kjøper eller melder seg på.
+
+## Medieplanen
+
+En **medieplan** beskriver
+
+1. **målgruppe** og **mål**
+2. **budskap**
+3. **kanaler** og hvorfor de er valgt
+4. **tidsplan** – jevnt over tid eller i intensive **perioder**
+5. **budsjett**
+6. hvordan resultatene skal **måles**
+
+## Innhold for ulike kanaler
+
+Samme budskap må **tilpasses** hver kanal:
+
+- **Korte videoer** i høydeformat passer i sosiale medier. De første **sekundene** må fange oppmerksomheten, og videoen bør ha **tekst**, fordi mange ser uten lyd.
+- En **plakat** må forstås på et **øyeblikk** – få ord og tydelig bilde.
+- En **nettside** kan gi mer **utfyllende** informasjon.
+
+**Innholdsmarkedsføring** betyr å lage **nyttig** eller **underholdende** innhold – som tips, oppskrifter eller guider – i stedet for rene salgsbudskap. Målet er å bygge **relasjoner** og **tillit**.
+
+Alt innhold bør ha samme **visuelle identitet** og **tone** slik at avsenderen er lett å kjenne igjen. Reklame skal alltid **merkes** tydelig som reklame.
+
+## Eksempel
+
+En ny lunsjbar for elever kan bruke **korte videoer** i sosiale medier, **plakater** nær skolen, et **åpningstilbud**, egen **Instagram-konto** og håpe på **delinger** fra fornøyde kunder.', '{"label":"Mediemiks og innhold","children":[{"label":"Medietyper","children":[{"label":"Betalte"},{"label":"Eide"},{"label":"Fortjente"}]},{"label":"Kanaler","children":[{"label":"TV, radio og aviser"},{"label":"Utendørs"},{"label":"Sosiale medier og søk"}]},{"label":"Begreper","children":[{"label":"Dekning og frekvens"},{"label":"Tusenkontaktpris"},{"label":"Klikk og konvertering"}]},{"label":"Medieplan","children":[{"label":"Mål og budskap"},{"label":"Tid og budsjett"},{"label":"Måling"}]},{"label":"Innhold","children":[{"label":"Tilpasset kanal"},{"label":"Innholdsmarkedsføring"},{"label":"Visuell identitet"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'markedsforing-og-ledelse-1:mediemiks-og-innhold';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('markedsforing-og-ledelse-1:mediemiks-og-innhold', 'Mediemiks', 'Kombinasjonen av medier og kanaler en virksomhet bruker.', 0),
+  ('markedsforing-og-ledelse-1:mediemiks-og-innhold', 'Betalte medier', 'Annonser virksomheten kjøper.', 1),
+  ('markedsforing-og-ledelse-1:mediemiks-og-innhold', 'Eide medier', 'Kanaler virksomheten kontrollerer selv, som nettside.', 2),
+  ('markedsforing-og-ledelse-1:mediemiks-og-innhold', 'Fortjente medier', 'Omtale og delinger virksomheten ikke betaler for.', 3),
+  ('markedsforing-og-ledelse-1:mediemiks-og-innhold', 'Dekning', 'Andelen av målgruppen som ser budskapet minst én gang.', 4),
+  ('markedsforing-og-ledelse-1:mediemiks-og-innhold', 'Frekvens', 'Hvor mange ganger hver person i snitt ser budskapet.', 5),
+  ('markedsforing-og-ledelse-1:mediemiks-og-innhold', 'Tusenkontaktpris', 'Kostnaden for å nå 1000 visninger.', 6),
+  ('markedsforing-og-ledelse-1:mediemiks-og-innhold', 'Klikkrate', 'Andelen som klikker på annonsen.', 7),
+  ('markedsforing-og-ledelse-1:mediemiks-og-innhold', 'Konvertering', 'Andelen som handler, for eksempel kjøper.', 8),
+  ('markedsforing-og-ledelse-1:mediemiks-og-innhold', 'Søkemotoroptimalisering', 'Å få nettsiden høyt i vanlige søkeresultater.', 9),
+  ('markedsforing-og-ledelse-1:mediemiks-og-innhold', 'Søkemotorannonse', 'Betalt treff i søkeresultatene.', 10),
+  ('markedsforing-og-ledelse-1:mediemiks-og-innhold', 'Medieplan', 'Plan for målgruppe, mål, budskap, kanaler, tid, budsjett og måling.', 11),
+  ('markedsforing-og-ledelse-1:mediemiks-og-innhold', 'Innholdsmarkedsføring', 'Nyttig eller underholdende innhold som bygger relasjoner.', 12),
+  ('markedsforing-og-ledelse-1:mediemiks-og-innhold', 'Visuell identitet', 'Felles farger, fonter og uttrykk som gjør avsenderen gjenkjennelig.', 13),
+  ('markedsforing-og-ledelse-1:mediemiks-og-innhold', 'Høydeformat', 'Vertikal video tilpasset mobil og sosiale medier.', 14);
+delete from public.quiz_sporsmal where tema_id = 'markedsforing-og-ledelse-1:mediemiks-og-innhold';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('markedsforing-og-ledelse-1:mediemiks-og-innhold', 'q01', 'flervalg', 'Hva er eide medier?', array['Annonser virksomheten kjøper', 'Kanaler virksomheten kontrollerer selv', 'Omtale i avisen', 'Delinger fra kunder']::text[], 1, 'For eksempel nettside og nyhetsbrev.', true, true, 0),
+  ('markedsforing-og-ledelse-1:mediemiks-og-innhold', 'q02', 'flervalg', 'Hva er fortjente medier?', array['Omtale virksomheten ikke betaler for', 'TV-reklame', 'Nettsiden', 'Plakater']::text[], 0, 'Gir troverdighet.', true, true, 1),
+  ('markedsforing-og-ledelse-1:mediemiks-og-innhold', 'q03', 'flervalg', 'En kampanje koster 10 000 kr og gir 200 000 visninger. Hva er tusenkontaktprisen?', array['20 kr', '200 kr', '50 kr', '5 kr']::text[], 2, '10 000 ÷ 200 = 50.', true, true, 2),
+  ('markedsforing-og-ledelse-1:mediemiks-og-innhold', 'q04', 'flervalg', 'Hva er dekning?', array['Hvor mye kampanjen koster', 'Hvor mange som kjøper', 'Hvor mange ganger hver ser budskapet', 'Andelen av målgruppen som ser budskapet minst én gang']::text[], 3, 'Frekvens er antall ganger.', true, true, 3),
+  ('markedsforing-og-ledelse-1:mediemiks-og-innhold', 'q05', 'flervalg', 'Hvilken kanal når kunder som aktivt leter etter et produkt?', array['Søkemotorer', 'Plakater', 'Radio', 'Kino']::text[], 0, 'Kunden søker selv.', true, true, 4),
+  ('markedsforing-og-ledelse-1:mediemiks-og-innhold', 'q06', 'flervalg', 'Hvorfor bør videoer i sosiale medier ha tekst?', array['Fordi det er lovpålagt', 'Fordi mange ser uten lyd', 'Fordi det er billigere', 'Fordi tekst gir flere klikk alltid']::text[], 1, 'Budskapet må forstås uten lyd.', true, true, 5),
+  ('markedsforing-og-ledelse-1:mediemiks-og-innhold', 'q07', 'flervalg', 'Hva er konvertering?', array['Andelen som ser annonsen', 'Å bytte kanal', 'Andelen som handler', 'Å oversette en annonse']::text[], 2, 'For eksempel kjøper eller melder seg på.', true, true, 6),
+  ('markedsforing-og-ledelse-1:mediemiks-og-innhold', 'q08', 'flervalg', 'Hva er innholdsmarkedsføring?', array['Bare priser og tilbud', 'Å kjøpe TV-reklame', 'Å sende mange e-poster', 'Nyttig eller underholdende innhold som bygger relasjoner']::text[], 3, 'For eksempel tips og oppskrifter.', true, true, 7),
+  ('markedsforing-og-ledelse-1:mediemiks-og-innhold', 'q09', 'flervalg', 'Hva kjennetegner en god plakat?', array['Den forstås på et øyeblikk', 'Den har mye tekst', 'Den er uten bilde', 'Den har små bokstaver']::text[], 0, 'Kort eksponering.', true, false, 8),
+  ('markedsforing-og-ledelse-1:mediemiks-og-innhold', 'q10', 'flervalg', 'Hva er en svakhet ved TV-reklame?', array['Den når få', 'Den er dyr', 'Den har ikke lyd', 'Den kan ikke vise bilder']::text[], 1, 'Men den når mange med levende bilder.', true, false, 9),
+  ('markedsforing-og-ledelse-1:mediemiks-og-innhold', 'm01', 'sant-usant', 'Samme budskap bør tilpasses formatet i hver kanal.', array['Sant', 'Usant']::text[], 0, 'En plakat og en video krever ulikt innhold.', false, true, 10),
+  ('markedsforing-og-ledelse-1:mediemiks-og-innhold', 'm02', 'sant-usant', 'Søkemotoroptimalisering betyr å kjøpe annonser i søkeresultatene.', array['Sant', 'Usant']::text[], 1, 'Det gjelder vanlige, ubetalte søkeresultater.', false, true, 11),
+  ('markedsforing-og-ledelse-1:mediemiks-og-innhold', 'm03', 'sant-usant', 'Reklame skal alltid merkes tydelig som reklame.', array['Sant', 'Usant']::text[], 0, 'Det krever markedsføringsloven.', false, true, 12),
+  ('markedsforing-og-ledelse-1:mediemiks-og-innhold', 'm04', 'sant-usant', 'Høy frekvens betyr at mange forskjellige personer ser budskapet.', array['Sant', 'Usant']::text[], 1, 'Frekvens er hvor mange ganger hver person ser det.', false, true, 13),
+  ('markedsforing-og-ledelse-1:mediemiks-og-innhold', 'm05', 'flervalg', 'Hvilken kanal er billig og følger folk gjennom dagen?', array['TV', 'Radio og podkast', 'Kino', 'Magasiner']::text[], 1, 'Men bare lyd.', false, true, 14),
+  ('markedsforing-og-ledelse-1:mediemiks-og-innhold', 'm06', 'flervalg', 'Hva gir betalte medier først og fremst?', array['Rekkevidde', 'Troverdighet', 'Full gratis synlighet', 'Ingen kostnader']::text[], 0, 'Fortjente medier gir troverdighet.', false, true, 15),
+  ('markedsforing-og-ledelse-1:mediemiks-og-innhold', 'm07', 'flervalg', 'Hva hører hjemme i en medieplan?', array['Bare logoen', 'Bare de ansattes navn', 'Målgruppe, kanaler, tidsplan og budsjett', 'Bare prisen']::text[], 2, 'Og hvordan resultatene måles.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('markedsforing-og-ledelse-1:mediemiks-og-innhold', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Markedsføring og ledelse 1: Konkurransemidlene i kombinasjon
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('markedsforing-og-ledelse-1:konkurransemidler-i-kombinasjon', 'markedsforing-og-ledelse-1', 'konkurransemidler-i-kombinasjon', 'Konkurransemidlene i kombinasjon', 'Hvordan virksomheter kombinerer produkt, pris, distribusjon og kommunikasjon til en helhetlig markedsføringsmiks – konsistens, konkurransestrategier, tjenestenes sju P-er, butikkens konkurransemidler og tilpasning gjennom produktlivssyklusen.', array[11]::int[], 10, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('markedsforing-og-ledelse-1:konkurransemidler-i-kombinasjon', '## Helheten teller
+
+De fire P-ene – **produkt**, **pris**, **plass** og **påvirkning** – virker ikke hver for seg. Kundene opplever **summen**. Derfor må konkurransemidlene **henge sammen** og passe til **målgruppen** og **posisjoneringen**. Dette kalles **konsistens**.
+
+## To eksempler
+
+| | Lavpriskjede | Luksusmerke |
+|---|---|---|
+| **Produkt** | smalt sortiment, mange egne merker | høy kvalitet og design |
+| **Pris** | lav | høy |
+| **Plass** | mange butikker, enkel innredning | få, eksklusive butikker |
+| **Påvirkning** | reklame med priser og tilbud | stemningsfulle bilder og kjente ambassadører |
+
+Hvis luksusmerket plutselig selges på **tilbud** i alle butikker, blir miksen **inkonsistent**, og merkevaren kan svekkes.
+
+## Konkurransestrategier
+
+**Michael Porter** beskrev tre hovedstrategier:
+
+- **Kostnadsledelse**: å ha **lavest kostnader** og konkurrere på **pris**.
+- **Differensiering**: å være **annerledes** og **bedre** på noe kundene verdsetter, som kvalitet, design eller service, slik at de er villige til å betale mer.
+- **Fokus**: å satse på en **smal** målgruppe, enten med lav pris eller med et spesialisert tilbud.
+
+Valget av strategi styrer hvordan konkurransemidlene kombineres.
+
+## Tjenester – sju P-er
+
+For tjenester kommer tre P-er i tillegg:
+
+- **Personale** – de ansatte er ofte en del av selve tjenesten.
+- **Prosess** – hvordan tjenesten leveres: bestilling, ventetid og betaling.
+- **Fysiske omgivelser** – lokaler, interiør, musikk og renhold. De gir kunden **signaler** om kvalitet før tjenesten er levert.
+
+På en kafé er kaffen bare en del av produktet. **Stemningen**, **ventetiden** og **vennligheten** til de ansatte påvirker opplevelsen like mye.
+
+## Butikkens konkurransemidler
+
+En butikk konkurrerer med **beliggenhet**, **sortiment**, **pris**, **service**, **åpningstider** og **varepresentasjon** – hvordan varene er plassert og presentert. Varer i **øyehøyde** og **impulsvarer** ved kassen selger bedre.
+
+## Tilpasning gjennom livssyklusen
+
+Miksen endres etter hvert som produktet går gjennom **produktlivssyklusen**:
+
+- **Introduksjon**: mye **kommunikasjon** for å skape kjennskap, **skumming** eller **penetrasjonspris**, begrenset distribusjon.
+- **Vekst**: bredere **distribusjon** og flere varianter.
+- **Modning**: hard konkurranse – **prisaktiviteter**, **lojalitetsprogrammer** og produktforbedringer.
+- **Nedgang**: kutte kostnader, redusere sortimentet eller fornye produktet.
+
+## Budsjett og prioritering
+
+Virksomheten må fordele **markedsføringsbudsjettet** mellom konkurransemidlene. En liten virksomhet med lite penger kan satse på **produkt**, **service** og **fortjente medier**, mens store merkevarer bruker mye på **reklame**.
+
+## Å vurdere en virksomhets miks
+
+Når du vurderer hvordan en virksomhet kombinerer konkurransemidlene, kan du spørre:
+
+- Passer miksen til **målgruppen**?
+- Er konkurransemidlene **konsistente** med posisjoneringen?
+- Hvordan skiller virksomheten seg fra **konkurrentene**?
+- Er miksen **lønnsom** og **bærekraftig** på sikt?', '{"label":"Konkurransemidlene i kombinasjon","children":[{"label":"Konsistens","children":[{"label":"Passer målgruppen"},{"label":"Passer posisjoneringen"}]},{"label":"Porter","children":[{"label":"Kostnadsledelse"},{"label":"Differensiering"},{"label":"Fokus"}]},{"label":"Tjenester","children":[{"label":"Personale"},{"label":"Prosess"},{"label":"Fysiske omgivelser"}]},{"label":"Butikk","children":[{"label":"Beliggenhet og sortiment"},{"label":"Varepresentasjon"}]},{"label":"Over tid","children":[{"label":"Livssyklus"},{"label":"Budsjett"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'markedsforing-og-ledelse-1:konkurransemidler-i-kombinasjon';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('markedsforing-og-ledelse-1:konkurransemidler-i-kombinasjon', 'Markedsføringsmiks', 'Kombinasjonen av konkurransemidlene.', 0),
+  ('markedsforing-og-ledelse-1:konkurransemidler-i-kombinasjon', 'Konsistens', 'At konkurransemidlene henger sammen og passer posisjoneringen.', 1),
+  ('markedsforing-og-ledelse-1:konkurransemidler-i-kombinasjon', 'Inkonsistent miks', 'Konkurransemidler som sender motstridende signaler.', 2),
+  ('markedsforing-og-ledelse-1:konkurransemidler-i-kombinasjon', 'Kostnadsledelse', 'Å ha lavest kostnader og konkurrere på pris.', 3),
+  ('markedsforing-og-ledelse-1:konkurransemidler-i-kombinasjon', 'Differensiering', 'Å være annerledes og bedre på noe kundene verdsetter.', 4),
+  ('markedsforing-og-ledelse-1:konkurransemidler-i-kombinasjon', 'Fokusstrategi', 'Å satse på en smal målgruppe.', 5),
+  ('markedsforing-og-ledelse-1:konkurransemidler-i-kombinasjon', 'Michael Porter', 'Beskrev tre hovedstrategier for konkurranse.', 6),
+  ('markedsforing-og-ledelse-1:konkurransemidler-i-kombinasjon', 'Personale som P', 'De ansatte er ofte en del av tjenesten.', 7),
+  ('markedsforing-og-ledelse-1:konkurransemidler-i-kombinasjon', 'Prosess som P', 'Hvordan tjenesten leveres – bestilling, ventetid og betaling.', 8),
+  ('markedsforing-og-ledelse-1:konkurransemidler-i-kombinasjon', 'Fysiske omgivelser', 'Lokaler og interiør som signaliserer kvalitet.', 9),
+  ('markedsforing-og-ledelse-1:konkurransemidler-i-kombinasjon', 'Varepresentasjon', 'Hvordan varene plasseres og presenteres i butikken.', 10),
+  ('markedsforing-og-ledelse-1:konkurransemidler-i-kombinasjon', 'Impulsvarer', 'Varer ved kassen som kjøpes uten plan.', 11),
+  ('markedsforing-og-ledelse-1:konkurransemidler-i-kombinasjon', 'Lojalitetsprogram', 'Tiltak som belønner faste kunder.', 12),
+  ('markedsforing-og-ledelse-1:konkurransemidler-i-kombinasjon', 'Markedsføringsbudsjett', 'Pengene som fordeles mellom konkurransemidlene.', 13),
+  ('markedsforing-og-ledelse-1:konkurransemidler-i-kombinasjon', 'Miks i modningsfasen', 'Prisaktiviteter, lojalitetsprogrammer og produktforbedringer.', 14);
+delete from public.quiz_sporsmal where tema_id = 'markedsforing-og-ledelse-1:konkurransemidler-i-kombinasjon';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('markedsforing-og-ledelse-1:konkurransemidler-i-kombinasjon', 'q01', 'flervalg', 'Hva betyr det at markedsføringsmiksen er konsistent?', array['At den er billig', 'At konkurransemidlene henger sammen og passer posisjoneringen', 'At den aldri endres', 'At den bare bruker reklame']::text[], 1, 'Kundene opplever summen.', true, true, 0),
+  ('markedsforing-og-ledelse-1:konkurransemidler-i-kombinasjon', 'q02', 'flervalg', 'Hvilken kombinasjon passer en lavpriskjede?', array['Smalt sortiment, lav pris og enkel innredning', 'Høy pris og eksklusive butikker', 'Kjente ambassadører og høy pris', 'Få butikker og luksusvarer']::text[], 0, 'Alt signaliserer lav pris.', true, true, 1),
+  ('markedsforing-og-ledelse-1:konkurransemidler-i-kombinasjon', 'q03', 'flervalg', 'Hva er differensiering?', array['Å ha lavest pris', 'Å satse på alle kunder', 'Å være annerledes og bedre på noe kundene verdsetter', 'Å kutte kostnader']::text[], 2, 'Kundene betaler mer for det unike.', true, true, 2),
+  ('markedsforing-og-ledelse-1:konkurransemidler-i-kombinasjon', 'q04', 'flervalg', 'Hvilke P-er kommer i tillegg for tjenester?', array['Profitt, plan og presse', 'Pris og plass', 'Produkt og påvirkning', 'Personale, prosess og fysiske omgivelser']::text[], 3, 'Sju P-er.', true, true, 3),
+  ('markedsforing-og-ledelse-1:konkurransemidler-i-kombinasjon', 'q05', 'flervalg', 'Hva kan skje hvis et luksusmerke selges på tilbud i alle butikker?', array['Merkevaren kan svekkes', 'Merkevaren blir sterkere', 'Ingenting', 'Prisen stiger']::text[], 0, 'Miksen blir inkonsistent.', true, true, 4),
+  ('markedsforing-og-ledelse-1:konkurransemidler-i-kombinasjon', 'q06', 'flervalg', 'Hvilken strategi satser på en smal målgruppe?', array['Kostnadsledelse', 'Fokus', 'Differensiering', 'Masseproduksjon']::text[], 1, 'Porters tredje strategi.', true, true, 5),
+  ('markedsforing-og-ledelse-1:konkurransemidler-i-kombinasjon', 'q07', 'flervalg', 'Hvilken miks passer i introduksjonsfasen?', array['Kutte all reklame', 'Legge ned produktet', 'Mye kommunikasjon for å skape kjennskap', 'Bare lojalitetsprogrammer']::text[], 2, 'Kundene må få vite om produktet.', true, true, 6),
+  ('markedsforing-og-ledelse-1:konkurransemidler-i-kombinasjon', 'q08', 'flervalg', 'Hva er varepresentasjon?', array['Prisen på varene', 'Reklame i avisen', 'Leveringstiden', 'Hvordan varene plasseres og presenteres i butikken']::text[], 3, 'Varer i øyehøyde selger bedre.', true, true, 7),
+  ('markedsforing-og-ledelse-1:konkurransemidler-i-kombinasjon', 'q09', 'flervalg', 'Hvorfor er fysiske omgivelser viktige for tjenester?', array['De gir kunden signaler om kvalitet', 'De er billige', 'De er lovpålagt', 'De erstatter personalet']::text[], 0, 'Tjenesten kan ikke prøves på forhånd.', true, false, 8),
+  ('markedsforing-og-ledelse-1:konkurransemidler-i-kombinasjon', 'q10', 'flervalg', 'Hva kan en liten virksomhet med lite penger satse på?', array['Dyr TV-reklame', 'Produkt, service og fortjente medier', 'Priskrig med de største', 'Eksklusive butikker overalt']::text[], 1, 'Konkurransemidlene må tilpasses ressursene.', true, false, 9),
+  ('markedsforing-og-ledelse-1:konkurransemidler-i-kombinasjon', 'm01', 'sant-usant', 'Kundene opplever summen av konkurransemidlene, ikke hvert enkelt for seg.', array['Sant', 'Usant']::text[], 0, 'Derfor må de henge sammen.', false, true, 10),
+  ('markedsforing-og-ledelse-1:konkurransemidler-i-kombinasjon', 'm02', 'sant-usant', 'Markedsføringsmiksen bør være den samme gjennom hele produktlivssyklusen.', array['Sant', 'Usant']::text[], 1, 'Den tilpasses fasen.', false, true, 11),
+  ('markedsforing-og-ledelse-1:konkurransemidler-i-kombinasjon', 'm03', 'sant-usant', 'På en kafé påvirker ventetid og vennlighet kundens opplevelse.', array['Sant', 'Usant']::text[], 0, 'Prosess og personale er en del av tjenesten.', false, true, 12),
+  ('markedsforing-og-ledelse-1:konkurransemidler-i-kombinasjon', 'm04', 'sant-usant', 'En virksomhet som satser på kostnadsledelse, konkurrerer først og fremst med høy pris.', array['Sant', 'Usant']::text[], 1, 'Den konkurrerer med lav pris.', false, true, 13),
+  ('markedsforing-og-ledelse-1:konkurransemidler-i-kombinasjon', 'm05', 'flervalg', 'Hvor plasseres ofte impulsvarer?', array['Bakerst i butikken', 'Ved kassen', 'På lageret', 'I nettbutikken']::text[], 1, 'Kundene står og venter.', false, true, 14),
+  ('markedsforing-og-ledelse-1:konkurransemidler-i-kombinasjon', 'm06', 'flervalg', 'Hvilket tiltak passer i modningsfasen?', array['Lojalitetsprogram', 'Første lansering', 'Skape kjennskap fra null', 'Stoppe all distribusjon']::text[], 0, 'Konkurransen er hard, og kundene må holdes på.', false, true, 15),
+  ('markedsforing-og-ledelse-1:konkurransemidler-i-kombinasjon', 'm07', 'flervalg', 'Hva er et spørsmål du bør stille når du vurderer en virksomhets miks?', array['Hvor gammel er daglig leder?', 'Hvilken farge har bilene?', 'Er konkurransemidlene konsistente med posisjoneringen?', 'Hvor mange vinduer har butikken?']::text[], 2, 'Og om miksen passer målgruppen.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('markedsforing-og-ledelse-1:konkurransemidler-i-kombinasjon', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Markedsføring og ledelse 1: Personalet og ledelsen i markedsføringen
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('markedsforing-og-ledelse-1:personale-og-ledelse', 'markedsforing-og-ledelse-1', 'personale-og-ledelse', 'Personalet og ledelsen i markedsføringen', 'Hvorfor de ansatte og lederne er avgjørende når markedsføringsstrategien skal gjennomføres: sannhetens øyeblikk, intern markedsføring, servicekvalitet, ledelsesstiler, situasjonsbestemt ledelse, motivasjon og organisasjonskultur.', array[12]::int[], 11, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('markedsforing-og-ledelse-1:personale-og-ledelse', '## De ansatte som konkurransemiddel
+
+En strategi på papiret er lite verdt hvis den ikke blir **gjennomført**. Det er de **ansatte** som møter kundene, svarer i telefonen, pakker varene og løser problemer. Særlig i **tjenesteytende** virksomheter er personalet en del av **produktet**.
+
+## Sannhetens øyeblikk
+
+**Sannhetens øyeblikk** er hvert møte mellom kunden og virksomheten – i butikken, på telefon, i chat eller i sosiale medier. Uttrykket ble kjent gjennom den svenske flyselskapslederen **Jan Carlzon**. Hvert møte kan **styrke** eller **svekke** kundens inntrykk. Én dårlig opplevelse kan ødelegge mye av det reklamen har bygget opp.
+
+## Intern markedsføring
+
+**Intern markedsføring** betyr å «selge» strategien til de **ansatte** før den selges til kundene. De ansatte må
+
+- **kjenne** virksomhetens mål, verdier og posisjonering
+- ha **kunnskap** om produktene
+- få **opplæring** i service og salg
+- **tro** på det de selger
+
+Ansatte som trives og er stolte av arbeidsplassen, blir gode **ambassadører**.
+
+## Servicekvalitet
+
+Kunden sammenligner **forventet** service med **opplevd** service. Blir forventningene innfridd eller overgått, blir kunden **fornøyd** og kanskje **lojal**. God **klagebehandling** kan gjøre en misfornøyd kunde til en lojal kunde.
+
+## Ledelsens rolle
+
+Lederne skal **formidle** strategien, **organisere** arbeidet, **motivere** de ansatte og **følge opp** resultatene. De er også **rollemodeller**: Hvis lederen ikke tar kundene på alvor, gjør heller ikke de ansatte det.
+
+## Ledelsesstiler
+
+- **Autoritær** ledelse: Lederen **bestemmer** alene. Effektivt i kriser, men kan gi lite **engasjement**.
+- **Demokratisk** ledelse: Lederen **involverer** de ansatte i beslutninger. Gir eierskap, men kan ta tid.
+- **La det skure**-ledelse: Lederen gir **lite** styring. Kan fungere med svært selvstendige ansatte, men gir ofte **uklarhet**.
+
+**Situasjonsbestemt ledelse** betyr at lederen **tilpasser** stilen til den ansattes **kompetanse** og **motivasjon**: En nyansatt trenger tydelige **instrukser**, mens en erfaren medarbeider kan få **delegert** ansvar.
+
+## Motivasjon
+
+**Frederick Herzberg** skilte mellom
+
+- **hygienefaktorer** – lønn, arbeidstid og arbeidsforhold. Er de dårlige, blir de ansatte **misfornøyde**, men gode hygienefaktorer gir ikke i seg selv motivasjon.
+- **motivasjonsfaktorer** – **anerkjennelse**, **ansvar**, **utvikling** og **meningsfullt** arbeid. De gir **motivasjon** og **engasjement**.
+
+Ros, tillit og muligheter til å **lære** kan derfor bety like mye som lønn.
+
+## Organisasjonskultur
+
+**Organisasjonskulturen** er de **felles verdiene**, **normene** og **vanene** i virksomheten – «måten vi gjør ting på her». En **kundeorientert** kultur gjør at de ansatte tar ansvar for kundene også når lederen ikke ser på.
+
+## Vurdering
+
+Når en virksomhet lanserer en ny strategi – for eksempel å bli kjent for **best service** – må den investere i **opplæring**, **rekruttering**, **motivasjon** og **ledelse**. Ellers blir løftene i reklamen **tomme**.', '{"label":"Personale og ledelse","children":[{"label":"Ansatte","children":[{"label":"Sannhetens øyeblikk"},{"label":"Intern markedsføring"},{"label":"Ambassadører"}]},{"label":"Service","children":[{"label":"Forventet og opplevd"},{"label":"Klagebehandling"}]},{"label":"Ledelsesstiler","children":[{"label":"Autoritær"},{"label":"Demokratisk"},{"label":"La det skure"},{"label":"Situasjonsbestemt"}]},{"label":"Motivasjon","children":[{"label":"Hygienefaktorer"},{"label":"Motivasjonsfaktorer"}]},{"label":"Kultur","children":[{"label":"Verdier og normer"},{"label":"Kundeorientering"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'markedsforing-og-ledelse-1:personale-og-ledelse';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('markedsforing-og-ledelse-1:personale-og-ledelse', 'Sannhetens øyeblikk', 'Hvert møte mellom kunden og virksomheten.', 0),
+  ('markedsforing-og-ledelse-1:personale-og-ledelse', 'Jan Carlzon', 'Svensk flyselskapsleder som gjorde «sannhetens øyeblikk» kjent.', 1),
+  ('markedsforing-og-ledelse-1:personale-og-ledelse', 'Intern markedsføring', 'Å selge strategien til de ansatte før kundene.', 2),
+  ('markedsforing-og-ledelse-1:personale-og-ledelse', 'Ambassadør', 'Ansatt som snakker positivt om arbeidsplassen og produktene.', 3),
+  ('markedsforing-og-ledelse-1:personale-og-ledelse', 'Servicekvalitet', 'Forholdet mellom forventet og opplevd service.', 4),
+  ('markedsforing-og-ledelse-1:personale-og-ledelse', 'Klagebehandling', 'Hvordan virksomheten håndterer misfornøyde kunder.', 5),
+  ('markedsforing-og-ledelse-1:personale-og-ledelse', 'Autoritær ledelse', 'Lederen bestemmer alene.', 6),
+  ('markedsforing-og-ledelse-1:personale-og-ledelse', 'Demokratisk ledelse', 'Lederen involverer de ansatte i beslutninger.', 7),
+  ('markedsforing-og-ledelse-1:personale-og-ledelse', 'La det skure-ledelse', 'Lederen gir lite styring.', 8),
+  ('markedsforing-og-ledelse-1:personale-og-ledelse', 'Situasjonsbestemt ledelse', 'Lederstilen tilpasses den ansattes kompetanse og motivasjon.', 9),
+  ('markedsforing-og-ledelse-1:personale-og-ledelse', 'Delegering', 'Å gi ansvar og myndighet til en medarbeider.', 10),
+  ('markedsforing-og-ledelse-1:personale-og-ledelse', 'Hygienefaktorer', 'Herzberg: lønn og arbeidsforhold som hindrer misnøye.', 11),
+  ('markedsforing-og-ledelse-1:personale-og-ledelse', 'Motivasjonsfaktorer', 'Herzberg: anerkjennelse, ansvar og utvikling som gir motivasjon.', 12),
+  ('markedsforing-og-ledelse-1:personale-og-ledelse', 'Organisasjonskultur', 'Felles verdier, normer og vaner i virksomheten.', 13),
+  ('markedsforing-og-ledelse-1:personale-og-ledelse', 'Kundeorientert kultur', 'Ansatte tar ansvar for kundene også uten kontroll.', 14);
+delete from public.quiz_sporsmal where tema_id = 'markedsforing-og-ledelse-1:personale-og-ledelse';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('markedsforing-og-ledelse-1:personale-og-ledelse', 'q01', 'flervalg', 'Hva er sannhetens øyeblikk?', array['Når regnskapet legges fram', 'Hvert møte mellom kunden og virksomheten', 'Når en ansatt får lønn', 'Når en reklame lanseres']::text[], 1, 'Hvert møte kan styrke eller svekke inntrykket.', true, true, 0),
+  ('markedsforing-og-ledelse-1:personale-og-ledelse', 'q02', 'flervalg', 'Hva er intern markedsføring?', array['Å selge strategien til de ansatte', 'Reklame i egen butikk', 'Salg til andre bedrifter', 'Å markedsføre i utlandet']::text[], 0, 'De ansatte må tro på det de selger.', true, true, 1),
+  ('markedsforing-og-ledelse-1:personale-og-ledelse', 'q03', 'flervalg', 'Når blir en kunde fornøyd med servicen?', array['Når prisen er høy', 'Når det er lang kø', 'Når opplevd service innfrir eller overgår forventningene', 'Når butikken er stor']::text[], 2, 'Kunden sammenligner.', true, true, 2),
+  ('markedsforing-og-ledelse-1:personale-og-ledelse', 'q04', 'flervalg', 'Hvilken ledelsesstil involverer de ansatte i beslutninger?', array['Autoritær', 'La det skure', 'Enevelde', 'Demokratisk']::text[], 3, 'Gir eierskap.', true, true, 3),
+  ('markedsforing-og-ledelse-1:personale-og-ledelse', 'q05', 'flervalg', 'Hva er situasjonsbestemt ledelse?', array['Å tilpasse stilen til den ansattes kompetanse og motivasjon', 'Å alltid bestemme alene', 'Å aldri styre', 'Å lede bare i kriser']::text[], 0, 'En nyansatt trenger mer instruksjon.', true, true, 4),
+  ('markedsforing-og-ledelse-1:personale-og-ledelse', 'q06', 'flervalg', 'Hva er en motivasjonsfaktor hos Herzberg?', array['Lønn', 'Anerkjennelse', 'Arbeidstid', 'Kontorets temperatur']::text[], 1, 'Lønn er en hygienefaktor.', true, true, 5),
+  ('markedsforing-og-ledelse-1:personale-og-ledelse', 'q07', 'flervalg', 'Hva er organisasjonskultur?', array['Kunst på veggene', 'Organisasjonskartet', 'Felles verdier, normer og vaner', 'Julebordet']::text[], 2, '«Måten vi gjør ting på her».', true, true, 6),
+  ('markedsforing-og-ledelse-1:personale-og-ledelse', 'q08', 'flervalg', 'Hvorfor er lederen en rollemodell?', array['Fordi lederen har høyest lønn', 'Fordi lederen er eldst', 'Fordi lederen jobber minst', 'Fordi de ansatte ofte gjør som lederen gjør']::text[], 3, 'Holdninger smitter.', true, true, 7),
+  ('markedsforing-og-ledelse-1:personale-og-ledelse', 'q09', 'flervalg', 'Når kan autoritær ledelse fungere godt?', array['I kriser der det må tas raske beslutninger', 'Alltid', 'Når de ansatte er svært erfarne', 'Aldri']::text[], 0, 'Men kan gi lite engasjement over tid.', true, false, 8),
+  ('markedsforing-og-ledelse-1:personale-og-ledelse', 'q10', 'flervalg', 'Hva kan god klagebehandling føre til?', array['Flere klager', 'At en misfornøyd kunde blir lojal', 'Lavere kvalitet', 'At kunden aldri kommer tilbake']::text[], 1, 'Kunden ser at virksomheten tar ansvar.', true, false, 9),
+  ('markedsforing-og-ledelse-1:personale-og-ledelse', 'm01', 'sant-usant', 'I tjenesteytende virksomheter er de ansatte ofte en del av selve produktet.', array['Sant', 'Usant']::text[], 0, 'For eksempel frisører og servitører.', false, true, 10),
+  ('markedsforing-og-ledelse-1:personale-og-ledelse', 'm02', 'sant-usant', 'Gode hygienefaktorer gir alene sterk motivasjon ifølge Herzberg.', array['Sant', 'Usant']::text[], 1, 'De hindrer misnøye, men motiverer ikke i seg selv.', false, true, 11),
+  ('markedsforing-og-ledelse-1:personale-og-ledelse', 'm03', 'sant-usant', 'Én dårlig kundeopplevelse kan svekke det reklamen har bygget opp.', array['Sant', 'Usant']::text[], 0, 'Sannhetens øyeblikk.', false, true, 12),
+  ('markedsforing-og-ledelse-1:personale-og-ledelse', 'm04', 'sant-usant', 'La det skure-ledelse gir alltid klare mål og god oppfølging.', array['Sant', 'Usant']::text[], 1, 'Den gir ofte uklarhet.', false, true, 13),
+  ('markedsforing-og-ledelse-1:personale-og-ledelse', 'm05', 'flervalg', 'Hva trenger en nyansatt ifølge situasjonsbestemt ledelse?', array['Full delegering', 'Tydelige instrukser', 'Ingen oppfølging', 'Bare høy lønn']::text[], 1, 'Lav kompetanse på oppgaven krever mer styring.', false, true, 14),
+  ('markedsforing-og-ledelse-1:personale-og-ledelse', 'm06', 'flervalg', 'Hva må en virksomhet investere i for å bli kjent for best service?', array['Opplæring, motivasjon og ledelse', 'Bare mer reklame', 'Bare lavere priser', 'Bare flere butikker']::text[], 0, 'Ellers blir løftene tomme.', false, true, 15),
+  ('markedsforing-og-ledelse-1:personale-og-ledelse', 'm07', 'flervalg', 'Hvilken faktor er en hygienefaktor hos Herzberg?', array['Anerkjennelse', 'Ansvar', 'Lønn', 'Personlig utvikling']::text[], 2, 'Hindrer misnøye.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('markedsforing-og-ledelse-1:personale-og-ledelse', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Markedsføring og ledelse 1: Regelverk og etikk i markedsføring
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('markedsforing-og-ledelse-1:regelverk-og-etikk', 'markedsforing-og-ledelse-1', 'regelverk-og-etikk', 'Regelverk og etikk i markedsføring', 'Hovedreglene i markedsføringsloven – god markedsføringsskikk, forbud mot villedende og aggressiv markedsføring, merking av reklame, vern av barn og regler for e-post og telefonsalg – andre reklameforbud, Forbrukertilsynet og virksomhetens etiske ansvar.', array[13]::int[], 12, 'sjekkes', array['Sjekk gjeldende regler for merking av retusjert reklame, merking av påvirkerreklame og samtykke til elektronisk markedsføring mot Forbrukertilsynets veiledere.']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('markedsforing-og-ledelse-1:regelverk-og-etikk', '## Hvorfor regler for markedsføring?
+
+Markedsføring kan påvirke oss sterkt. Reglene skal **beskytte forbrukerne** mot villedende og aggressiv påvirkning og sørge for **rettferdig konkurranse** mellom virksomhetene. Den viktigste loven er **markedsføringsloven**.
+
+## God markedsføringsskikk
+
+Markedsføring skal ikke stride mot **god markedsføringsskikk**. Den skal ikke være **støtende**, og den skal ikke framstille kvinner eller menn på en **nedsettende** måte eller bidra til et **kroppspress** som kan skade.
+
+Reklame der en persons **kroppsfasong**, **størrelse** eller **hud** er endret ved **retusjering**, skal **merkes** med et eget merke.
+
+## Reklame skal se ut som reklame
+
+Markedsføring skal **tydelig** framstå som markedsføring. **Skjult reklame** er forbudt. **Påvirkere** som får betalt, produkter eller andre fordeler for å omtale noe, må **merke** innlegget tydelig som **reklame** eller **annonse** – helt i **starten**, slik at følgerne ser det med en gang.
+
+## Forbud mot urimelig handelspraksis
+
+- **Villedende** markedsføring: å gi **uriktige** opplysninger eller skjule viktig informasjon om pris, egenskaper eller vilkår. Eksempler er falske **førpriser** og påstander om at tilbudet «bare gjelder i dag» når det ikke stemmer.
+- **Aggressiv** markedsføring: **press**, **trakassering** eller **tvang**, for eksempel gjentatte og påtrengende henvendelser.
+
+## Vern av barn
+
+Barn er ekstra **sårbare** for påvirkning. Markedsføring rettet mot barn skal ta hensyn til **alderen** deres, og det er forbudt å oppfordre barn **direkte** til å kjøpe eller til å mase på foreldrene. **Skolen** skal være mest mulig **reklamefri**.
+
+## E-post, SMS og telefonsalg
+
+- Markedsføring på **e-post** og **SMS** til forbrukere krever som hovedregel **forhåndssamtykke**. Mottakeren skal alltid enkelt kunne **reservere** seg.
+- Virksomheter kan ikke ringe forbrukere som har registrert seg i **Reservasjonsregisteret**, med mindre det finnes et kundeforhold eller samtykke.
+
+## Andre regler
+
+- **Alkoholreklame** og **tobakksreklame** er i hovedsak **forbudt** i Norge.
+- **Personvernregelverket** setter krav til innsamling og bruk av **persondata** – for eksempel ved målrettet reklame.
+- Påstander om **miljø** og **helse** må kunne **dokumenteres**.
+
+## Tilsyn
+
+**Forbrukertilsynet** fører tilsyn med markedsføringsloven. Tilsynet kan gi **veiledning**, kreve at ulovlig markedsføring **stanses**, og ilegge **tvangsmulkt** og **overtredelsesgebyr**.
+
+## Etisk ansvar
+
+**Ikke alt som er lovlig, er etisk.** Virksomheter har et **samfunnsansvar** som går lenger enn loven:
+
+- å være **ærlige** og ikke love mer enn produktet holder
+- å ta hensyn til **sårbare** grupper, som barn og personer med spilleproblemer
+- å unngå å skape **kroppspress** og **kjøpepress**
+- å bruke **persondata** på en måte kundene kan stole på
+- å unngå **manipulerende design**, som skjulte avbestillingsknapper eller falske nedtellingsklokker
+
+Etisk markedsføring gir **tillit**, og tillit er et viktig **konkurransefortrinn** på lang sikt. Brudd på reglene kan gi både **bøter** og **omdømmetap**.', '{"label":"Regelverk og etikk","children":[{"label":"Markedsføringsloven","children":[{"label":"God markedsføringsskikk"},{"label":"Villedende og aggressiv"},{"label":"Retusjering"}]},{"label":"Merking","children":[{"label":"Skjult reklame forbudt"},{"label":"Påvirkere"}]},{"label":"Særlige regler","children":[{"label":"Barn"},{"label":"E-post og telefon"},{"label":"Alkohol og tobakk"}]},{"label":"Tilsyn","children":[{"label":"Forbrukertilsynet"},{"label":"Gebyr og mulkt"}]},{"label":"Etikk","children":[{"label":"Ærlighet"},{"label":"Sårbare grupper"},{"label":"Tillit"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'markedsforing-og-ledelse-1:regelverk-og-etikk';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('markedsforing-og-ledelse-1:regelverk-og-etikk', 'Markedsføringsloven', 'Den viktigste loven om markedsføring i Norge.', 0),
+  ('markedsforing-og-ledelse-1:regelverk-og-etikk', 'God markedsføringsskikk', 'Markedsføring skal ikke være støtende, nedsettende eller skadelig.', 1),
+  ('markedsforing-og-ledelse-1:regelverk-og-etikk', 'Retusjert reklame', 'Reklame med endret kropp eller hud skal merkes.', 2),
+  ('markedsforing-og-ledelse-1:regelverk-og-etikk', 'Skjult reklame', 'Markedsføring som ikke framstår tydelig som reklame – forbudt.', 3),
+  ('markedsforing-og-ledelse-1:regelverk-og-etikk', 'Merking av reklame', 'Påvirkere må merke betalte innlegg som reklame helt i starten.', 4),
+  ('markedsforing-og-ledelse-1:regelverk-og-etikk', 'Villedende markedsføring', 'Uriktige eller skjulte opplysninger om pris, egenskaper eller vilkår.', 5),
+  ('markedsforing-og-ledelse-1:regelverk-og-etikk', 'Aggressiv markedsføring', 'Press, trakassering eller tvang.', 6),
+  ('markedsforing-og-ledelse-1:regelverk-og-etikk', 'Falsk førpris', 'Oppdiktet «før»-pris som får tilbudet til å virke bedre.', 7),
+  ('markedsforing-og-ledelse-1:regelverk-og-etikk', 'Vern av barn', 'Forbud mot å oppfordre barn direkte til å kjøpe.', 8),
+  ('markedsforing-og-ledelse-1:regelverk-og-etikk', 'Forhåndssamtykke', 'Kreves som hovedregel for markedsføring på e-post og SMS.', 9),
+  ('markedsforing-og-ledelse-1:regelverk-og-etikk', 'Reservasjonsregisteret', 'Register der forbrukere kan reservere seg mot telefonsalg.', 10),
+  ('markedsforing-og-ledelse-1:regelverk-og-etikk', 'Alkoholreklame', 'I hovedsak forbudt i Norge.', 11),
+  ('markedsforing-og-ledelse-1:regelverk-og-etikk', 'Forbrukertilsynet', 'Fører tilsyn med markedsføringsloven.', 12),
+  ('markedsforing-og-ledelse-1:regelverk-og-etikk', 'Overtredelsesgebyr', 'Bot tilsynet kan gi ved brudd på loven.', 13),
+  ('markedsforing-og-ledelse-1:regelverk-og-etikk', 'Samfunnsansvar', 'Ansvar som går lenger enn det loven krever.', 14),
+  ('markedsforing-og-ledelse-1:regelverk-og-etikk', 'Manipulerende design', 'Nettsider som lurer brukeren, for eksempel med skjulte knapper.', 15);
+delete from public.quiz_sporsmal where tema_id = 'markedsforing-og-ledelse-1:regelverk-og-etikk';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('markedsforing-og-ledelse-1:regelverk-og-etikk', 'q01', 'flervalg', 'Hva er formålet med markedsføringsloven?', array['Å øke salget', 'Å beskytte forbrukerne og sikre rettferdig konkurranse', 'Å forby all reklame', 'Å fastsette priser']::text[], 1, 'Den viktigste loven på området.', true, true, 0),
+  ('markedsforing-og-ledelse-1:regelverk-og-etikk', 'q02', 'flervalg', 'Hva må en påvirker gjøre ved et betalt samarbeid?', array['Merke innlegget tydelig som reklame helt i starten', 'Ingenting', 'Bare nevne det i kommentarfeltet', 'Skjule samarbeidet']::text[], 0, 'Skjult reklame er forbudt.', true, true, 1),
+  ('markedsforing-og-ledelse-1:regelverk-og-etikk', 'q03', 'flervalg', 'Hva er villedende markedsføring?', array['Reklame med humor', 'Reklame på TV', 'Uriktige eller skjulte opplysninger om pris eller egenskaper', 'Reklame med kjente personer']::text[], 2, 'For eksempel falske førpriser.', true, true, 2),
+  ('markedsforing-og-ledelse-1:regelverk-og-etikk', 'q04', 'flervalg', 'Hva må merkes i reklame der kroppen er endret ved retusjering?', array['Prisen', 'Produsenten', 'Fotografen', 'At reklamen er retusjert']::text[], 3, 'Regelen skal motvirke kroppspress.', true, true, 3),
+  ('markedsforing-og-ledelse-1:regelverk-og-etikk', 'q05', 'flervalg', 'Hva krever markedsføring på e-post til forbrukere som hovedregel?', array['Forhåndssamtykke', 'At e-posten er kort', 'At den sendes om natta', 'Ingenting']::text[], 0, 'Mottakeren skal også kunne reservere seg.', true, true, 4),
+  ('markedsforing-og-ledelse-1:regelverk-og-etikk', 'q06', 'flervalg', 'Hvem fører tilsyn med markedsføringsloven?', array['Datatilsynet', 'Forbrukertilsynet', 'Arbeidstilsynet', 'Politiet']::text[], 1, 'Kan gi overtredelsesgebyr.', true, true, 5),
+  ('markedsforing-og-ledelse-1:regelverk-og-etikk', 'q07', 'flervalg', 'Hva er forbudt i markedsføring rettet mot barn?', array['Å bruke farger', 'Å vise leker', 'Å oppfordre barn direkte til å kjøpe', 'Å bruke tegnefigurer']::text[], 2, 'Barn er ekstra sårbare.', true, true, 6),
+  ('markedsforing-og-ledelse-1:regelverk-og-etikk', 'q08', 'flervalg', 'Hva er aggressiv markedsføring?', array['Høy musikk i butikken', 'Store plakater', 'Lave priser', 'Press, trakassering eller tvang']::text[], 3, 'Forbudt som urimelig handelspraksis.', true, true, 7),
+  ('markedsforing-og-ledelse-1:regelverk-og-etikk', 'q09', 'flervalg', 'Hva betyr «ikke alt som er lovlig, er etisk»?', array['At virksomheter har et ansvar som går lenger enn loven', 'At loven ikke gjelder', 'At etikk er ulovlig', 'At alt er lov']::text[], 0, 'Samfunnsansvar.', true, false, 8),
+  ('markedsforing-og-ledelse-1:regelverk-og-etikk', 'q10', 'flervalg', 'Hva er et eksempel på manipulerende design?', array['En tydelig kjøpsknapp', 'En skjult avbestillingsknapp', 'En oversiktlig meny', 'En prisliste']::text[], 1, 'Lurer brukeren.', true, false, 9),
+  ('markedsforing-og-ledelse-1:regelverk-og-etikk', 'm01', 'sant-usant', 'Miljøpåstander i reklame må kunne dokumenteres.', array['Sant', 'Usant']::text[], 0, 'Ellers kan de være villedende.', false, true, 10),
+  ('markedsforing-og-ledelse-1:regelverk-og-etikk', 'm02', 'sant-usant', 'Alkoholreklame er fritt tillatt i Norge.', array['Sant', 'Usant']::text[], 1, 'Den er i hovedsak forbudt.', false, true, 11),
+  ('markedsforing-og-ledelse-1:regelverk-og-etikk', 'm03', 'sant-usant', 'Virksomheter kan som hovedregel ikke ringe forbrukere som står i Reservasjonsregisteret.', array['Sant', 'Usant']::text[], 0, 'Med unntak for kundeforhold og samtykke.', false, true, 12),
+  ('markedsforing-og-ledelse-1:regelverk-og-etikk', 'm04', 'sant-usant', 'Etisk markedsføring har ingen betydning for lønnsomheten.', array['Sant', 'Usant']::text[], 1, 'Tillit er et konkurransefortrinn.', false, true, 13),
+  ('markedsforing-og-ledelse-1:regelverk-og-etikk', 'm05', 'flervalg', 'Hvilken påstand kan være villedende?', array['«Tilbudet gjelder bare i dag» når det varer i en måned', '«Pris 199 kr»', '«Laget i Norge» når det stemmer', '«Ny smak»']::text[], 0, 'Falsk tidsbegrensning.', false, true, 14),
+  ('markedsforing-og-ledelse-1:regelverk-og-etikk', 'm06', 'flervalg', 'Hva kan Forbrukertilsynet gjøre ved ulovlig markedsføring?', array['Fengsle daglig leder', 'Kreve stans og ilegge gebyr', 'Stenge alle butikker i Norge', 'Ingenting']::text[], 1, 'Også tvangsmulkt.', false, true, 15),
+  ('markedsforing-og-ledelse-1:regelverk-og-etikk', 'm07', 'flervalg', 'Hvorfor gjelder det egne regler for markedsføring mot barn?', array['Barn har mye penger', 'Barn ser lite reklame', 'Barn er ekstra sårbare for påvirkning', 'Barn kan ikke lese']::text[], 2, 'De har vanskeligere for å gjennomskue reklame.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('markedsforing-og-ledelse-1:regelverk-og-etikk', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Markedsføring og ledelse 1: Markedsføring og bærekraftig utvikling
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('markedsforing-og-ledelse-1:barekraftig-markedsforing', 'markedsforing-og-ledelse-1', 'barekraftig-markedsforing', 'Markedsføring og bærekraftig utvikling', 'Sammenhengen mellom markedsføring og bærekraft: de tre dimensjonene, forbrukspress og sirkulær økonomi, miljømerker og grønnvasking, arbeidsforhold i leverandørkjeden og åpenhetsloven – og hvordan de fire P-ene kan brukes mer bærekraftig.', array[14]::int[], 13, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('markedsforing-og-ledelse-1:barekraftig-markedsforing', '## Bærekraftig utvikling
+
+**Bærekraftig utvikling** betyr å dekke **dagens behov** uten å ødelegge mulighetene for **kommende generasjoner** til å dekke sine. Definisjonen kommer fra **Brundtland-kommisjonen** i 1987. Bærekraft har tre **dimensjoner** som henger sammen:
+
+- **Miljø** – klima, natur og ressurser
+- **Sosial** – menneskerettigheter, rettferdige arbeidsforhold og helse
+- **Økonomisk** – lønnsomhet over tid, arbeidsplasser og verdiskaping
+
+Mange virksomheter snakker om en **trippel bunnlinje**: Resultatet måles ikke bare i **penger**, men også i effekter på **mennesker** og **miljø**. **FNs bærekraftsmål nr. 12** handler om **ansvarlig forbruk og produksjon**.
+
+## Markedsføringens dobbeltrolle
+
+Markedsføring har bidratt til **høyt forbruk**. Kampanjer som **Black Friday**, raske motetrender og stadig nye modeller kan skape **kjøpepress** og **overforbruk**. Samtidig kan markedsføring gjøre **bærekraftige** valg kjente, attraktive og enkle.
+
+## Sirkulær økonomi
+
+I en **lineær** økonomi blir produkter **produsert**, **brukt** og **kastet**. I en **sirkulær** økonomi holdes ressursene i bruk lengst mulig:
+
+- **reparere** og **vedlikeholde**
+- **gjenbruke** og selge **brukt**
+- **leie** og **dele** i stedet for å eie
+- **resirkulere** materialene
+
+Nye forretningsmodeller, som **bruktsalg**, **utleie** av klær og **reparasjonstjenester**, kan være både lønnsomme og bærekraftige.
+
+## Miljømerker og grønnvasking
+
+**Miljømerker** hjelper forbrukerne å velge. Kjente merker i Norge er **Svanemerket**, **EU-blomsten**, **Fairtrade**, som handler om rettferdig handel, og **Ø-merket** for økologiske varer.
+
+**Grønnvasking** betyr å framstille et produkt eller en virksomhet som **mer miljøvennlig** enn den er. Eksempler er vage ord som «**grønn**» og «**naturlig**» uten dokumentasjon, eller å framheve ett lite miljøtiltak mens resten av virksomheten forurenser mye. Miljøpåstander skal være **sanne**, **konkrete** og **dokumenterbare**. Grønnvasking kan være **ulovlig** og skader **tilliten**.
+
+## Sosial bærekraft og leverandørkjeden
+
+Mange varer produseres i land med **lave lønninger** og dårlige **arbeidsforhold**. Da fabrikkbygningen **Rana Plaza** i Bangladesh kollapset i **2013**, døde over **1100** mennesker, og det ble klart hvor lite mange merker visste om sine egne leverandører.
+
+I Norge pålegger **åpenhetsloven** fra **2022** større virksomheter å gjøre **aktsomhetsvurderinger** av menneskerettigheter og arbeidsforhold i leverandørkjeden og å svare på spørsmål fra forbrukerne.
+
+## De fire P-ene – mer bærekraftig
+
+- **Produkt**: holdbare, reparerbare produkter og mindre **emballasje**
+- **Pris**: priser som gjenspeiler de **reelle kostnadene**, og tilbud på reparasjon og brukt
+- **Plass**: **kortreiste** varer, effektiv logistikk og færre **returer**
+- **Påvirkning**: ærlige påstander og mindre **kjøpepress**
+
+## Bærekraft som konkurransefortrinn
+
+Mange kunder, særlig unge, sier at bærekraft er viktig. Men **pris** og **vaner** veier ofte tyngre når de handler. Bærekraft blir derfor et konkurransefortrinn først når det er **troverdig**, **synlig** og **lett** å velge.
+
+## Dilemma
+
+Kan en virksomhet som lever av å **selge mer**, samtidig bidra til at vi **forbruker mindre**? Spørsmålet er et av de største dilemmaene i moderne markedsføring.', '{"label":"Bærekraftig markedsføring","children":[{"label":"Bærekraft","children":[{"label":"Miljø"},{"label":"Sosial"},{"label":"Økonomisk"}]},{"label":"Forbruk","children":[{"label":"Kjøpepress"},{"label":"Sirkulær økonomi"}]},{"label":"Merker og påstander","children":[{"label":"Miljømerker"},{"label":"Grønnvasking"}]},{"label":"Leverandørkjeden","children":[{"label":"Rana Plaza"},{"label":"Åpenhetsloven"}]},{"label":"Fire P-er","children":[{"label":"Holdbare produkter"},{"label":"Kortreist og færre returer"},{"label":"Ærlig kommunikasjon"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'markedsforing-og-ledelse-1:barekraftig-markedsforing';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('markedsforing-og-ledelse-1:barekraftig-markedsforing', 'Bærekraftig utvikling', 'Å dekke dagens behov uten å ødelegge for kommende generasjoner.', 0),
+  ('markedsforing-og-ledelse-1:barekraftig-markedsforing', 'Brundtland-kommisjonen', 'FN-kommisjon som definerte bærekraftig utvikling i 1987.', 1),
+  ('markedsforing-og-ledelse-1:barekraftig-markedsforing', 'Tre dimensjoner', 'Miljø, sosial og økonomisk bærekraft.', 2),
+  ('markedsforing-og-ledelse-1:barekraftig-markedsforing', 'Trippel bunnlinje', 'Resultat målt i penger, mennesker og miljø.', 3),
+  ('markedsforing-og-ledelse-1:barekraftig-markedsforing', 'Bærekraftsmål 12', 'Ansvarlig forbruk og produksjon.', 4),
+  ('markedsforing-og-ledelse-1:barekraftig-markedsforing', 'Kjøpepress', 'Press om å kjøpe mer enn man trenger.', 5),
+  ('markedsforing-og-ledelse-1:barekraftig-markedsforing', 'Lineær økonomi', 'Produsere, bruke og kaste.', 6),
+  ('markedsforing-og-ledelse-1:barekraftig-markedsforing', 'Sirkulær økonomi', 'Ressurser holdes i bruk gjennom reparasjon, gjenbruk og resirkulering.', 7),
+  ('markedsforing-og-ledelse-1:barekraftig-markedsforing', 'Svanemerket', 'Nordisk miljømerke.', 8),
+  ('markedsforing-og-ledelse-1:barekraftig-markedsforing', 'Fairtrade', 'Merke for rettferdig handel.', 9),
+  ('markedsforing-og-ledelse-1:barekraftig-markedsforing', 'Ø-merket', 'Merke for økologiske varer.', 10),
+  ('markedsforing-og-ledelse-1:barekraftig-markedsforing', 'Grønnvasking', 'Å framstille noe som mer miljøvennlig enn det er.', 11),
+  ('markedsforing-og-ledelse-1:barekraftig-markedsforing', 'Rana Plaza', 'Fabrikkbygning i Bangladesh som kollapset i 2013.', 12),
+  ('markedsforing-og-ledelse-1:barekraftig-markedsforing', 'Åpenhetsloven', 'Krever at større virksomheter vurderer menneskerettigheter i leverandørkjeden.', 13),
+  ('markedsforing-og-ledelse-1:barekraftig-markedsforing', 'Aktsomhetsvurdering', 'Kartlegging av risiko for brudd på menneskerettigheter.', 14),
+  ('markedsforing-og-ledelse-1:barekraftig-markedsforing', 'Kortreist', 'Produsert nær der det selges.', 15);
+delete from public.quiz_sporsmal where tema_id = 'markedsforing-og-ledelse-1:barekraftig-markedsforing';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('markedsforing-og-ledelse-1:barekraftig-markedsforing', 'q01', 'flervalg', 'Hva er bærekraftig utvikling?', array['Størst mulig vekst nå', 'Å dekke dagens behov uten å ødelegge for kommende generasjoner', 'Bare miljøvern', 'Bare økonomisk vekst']::text[], 1, 'Brundtland-kommisjonen, 1987.', true, true, 0),
+  ('markedsforing-og-ledelse-1:barekraftig-markedsforing', 'q02', 'flervalg', 'Hvilke tre dimensjoner har bærekraft?', array['Miljø, sosial og økonomisk', 'Pris, produkt og plass', 'Lokal, nasjonal og global', 'Kort, middels og lang']::text[], 0, 'De henger sammen.', true, true, 1),
+  ('markedsforing-og-ledelse-1:barekraftig-markedsforing', 'q03', 'flervalg', 'Hva er grønnvasking?', array['Å vaske klær miljøvennlig', 'Å resirkulere', 'Å framstille noe som mer miljøvennlig enn det er', 'Å bruke grønne farger']::text[], 2, 'Kan være ulovlig.', true, true, 2),
+  ('markedsforing-og-ledelse-1:barekraftig-markedsforing', 'q04', 'flervalg', 'Hva kjennetegner sirkulær økonomi?', array['Produsere, bruke og kaste', 'Kjøpe mest mulig', 'Bare importere', 'Reparasjon, gjenbruk og resirkulering']::text[], 3, 'Ressursene holdes i bruk.', true, true, 3),
+  ('markedsforing-og-ledelse-1:barekraftig-markedsforing', 'q05', 'flervalg', 'Hva handler Fairtrade-merket om?', array['Rettferdig handel', 'Økologisk landbruk', 'Lav pris', 'Norsk produksjon']::text[], 0, 'Sosial bærekraft.', true, true, 4),
+  ('markedsforing-og-ledelse-1:barekraftig-markedsforing', 'q06', 'flervalg', 'Hva krever åpenhetsloven?', array['At alle priser er like', 'At større virksomheter vurderer menneskerettigheter i leverandørkjeden', 'At all reklame er grønn', 'At alle varer er norske']::text[], 1, 'Og svarer på spørsmål fra forbrukerne.', true, true, 5),
+  ('markedsforing-og-ledelse-1:barekraftig-markedsforing', 'q07', 'flervalg', 'Hva handler FNs bærekraftsmål nr. 12 om?', array['Rent vann', 'Utdanning', 'Ansvarlig forbruk og produksjon', 'Fred']::text[], 2, 'Mest relevant for markedsføring.', true, true, 6),
+  ('markedsforing-og-ledelse-1:barekraftig-markedsforing', 'q08', 'flervalg', 'Hvilken påstand er mest troverdig?', array['«Grønn og naturlig»', '«Helt miljøvennlig»', '«Bra for kloden»', '«Laget av 70 % resirkulert plast, dokumentert av tredjepart»']::text[], 3, 'Konkret og dokumenterbar.', true, true, 7),
+  ('markedsforing-og-ledelse-1:barekraftig-markedsforing', 'q09', 'flervalg', 'Hva er en bærekraftig forretningsmodell?', array['Utleie av klær', 'Kampanjer som oppfordrer til å kjøpe mer', 'Engangsprodukter', 'Produkter som ikke kan repareres']::text[], 0, 'En del av sirkulær økonomi.', true, false, 8),
+  ('markedsforing-og-ledelse-1:barekraftig-markedsforing', 'q10', 'flervalg', 'Når blir bærekraft et konkurransefortrinn?', array['Når det bare står i reklamen', 'Når det er troverdig, synlig og lett å velge', 'Når prisen er dobbelt så høy', 'Aldri']::text[], 1, 'Pris og vaner veier ofte tungt.', true, false, 9),
+  ('markedsforing-og-ledelse-1:barekraftig-markedsforing', 'm01', 'sant-usant', 'Markedsføring kan både bidra til overforbruk og gjøre bærekraftige valg enklere.', array['Sant', 'Usant']::text[], 0, 'Markedsføringens dobbeltrolle.', false, true, 10),
+  ('markedsforing-og-ledelse-1:barekraftig-markedsforing', 'm02', 'sant-usant', 'Vage ord som «grønn» uten dokumentasjon er god praksis i miljøreklame.', array['Sant', 'Usant']::text[], 1, 'Påstander skal være konkrete og dokumenterbare.', false, true, 11),
+  ('markedsforing-og-ledelse-1:barekraftig-markedsforing', 'm03', 'sant-usant', 'Færre returer i netthandelen kan gjøre distribusjonen mer bærekraftig.', array['Sant', 'Usant']::text[], 0, 'Mindre transport og håndtering.', false, true, 12),
+  ('markedsforing-og-ledelse-1:barekraftig-markedsforing', 'm04', 'sant-usant', 'Sosial bærekraft handler bare om klima.', array['Sant', 'Usant']::text[], 1, 'Den handler om menneskerettigheter og arbeidsforhold.', false, true, 13),
+  ('markedsforing-og-ledelse-1:barekraftig-markedsforing', 'm05', 'flervalg', 'Hva er trippel bunnlinje?', array['Tre typer skatt', 'Resultat målt i penger, mennesker og miljø', 'Tre kvartaler med overskudd', 'Tre butikker']::text[], 1, 'Mer enn bare profitt.', false, true, 14),
+  ('markedsforing-og-ledelse-1:barekraftig-markedsforing', 'm06', 'flervalg', 'Hva er Svanemerket?', array['Et nordisk miljømerke', 'Et merke for luksusvarer', 'Et merke for norske varer', 'Et merke for billige varer']::text[], 0, 'Hjelper forbrukerne å velge.', false, true, 15),
+  ('markedsforing-og-ledelse-1:barekraftig-markedsforing', 'm07', 'flervalg', 'Hva viste Rana Plaza-ulykken?', array['At fabrikkene i Bangladesh var trygge', 'At klær bør være dyrere', 'At mange merker visste lite om egne leverandører', 'At netthandel er farlig']::text[], 2, 'Over 1100 mennesker døde.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('markedsforing-og-ledelse-1:barekraftig-markedsforing', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Entreprenørskap og bedriftsutvikling 1 (vg2): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'entreprenorskap-og-bedriftsutvikling-1' and slug not in ('entreprenorskap-og-entreprenoriell-kompetanse', 'kreativitet-og-forretningsideer', 'innovasjonsprosesser', 'forretningsmodeller-og-barekraft', 'samhandling-og-innovasjon', 'markeder-og-kjopsatferd', 'situasjonsanalyse-og-mal', 'konkurransemidler-i-oppstartsfasen', 'selskapsformer', 'ledelse-og-team', 'pris-budsjett-og-finansiering', 'regnskap-og-nokkeltall');
+
+-- Entreprenørskap og bedriftsutvikling 1: Entreprenørskap og entreprenøriell kompetanse
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('entreprenorskap-og-bedriftsutvikling-1:entreprenorskap-og-entreprenoriell-kompetanse', 'entreprenorskap-og-bedriftsutvikling-1', 'entreprenorskap-og-entreprenoriell-kompetanse', 'Entreprenørskap og entreprenøriell kompetanse', 'Hva entreprenørskap er, ulike typer entreprenører, hva som kjennetegner entreprenøriell kompetanse og hvorfor den er viktig for virksomheter og samfunn – og hvordan du bruker kilder, teorier og modeller i faget.', array[13, 1]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('entreprenorskap-og-bedriftsutvikling-1:entreprenorskap-og-entreprenoriell-kompetanse', '## Hva er entreprenørskap?
+
+**Entreprenørskap** er å **oppdage** eller **skape** en mulighet og gjøre den om til **verdi** – ofte ved å starte en ny virksomhet. En **entreprenør** eller **gründer** er en person som tar **initiativ**, samler **ressurser** og tar **risiko** for å realisere en idé.
+
+Verdien trenger ikke bare være **økonomisk**. Den kan også være **sosial**, **kulturell** eller **miljømessig**.
+
+## Typer entreprenørskap
+
+- **Kommersielt entreprenørskap**: å starte en virksomhet som skal gi **overskudd**.
+- **Sosialt entreprenørskap**: å løse et **samfunnsproblem**, for eksempel utenforskap eller matsvinn. Overskuddet brukes gjerne til å styrke formålet.
+- **Intraprenørskap**: entreprenørskap **inne i** en eksisterende virksomhet, når ansatte utvikler nye produkter eller løsninger.
+- **Kulturelt entreprenørskap**: å skape verdier innen kunst, musikk og kultur.
+
+## Hvorfor er entreprenørskap viktig?
+
+Nye virksomheter skaper **arbeidsplasser**, **konkurranse** og **innovasjon**. Mange av dagens store selskaper startet som små ideer. Entreprenørskap er også viktig for å løse store **samfunnsutfordringer**, som klima og helse. Norge trenger nye næringer som kan erstatte inntektene fra **olje og gass** på sikt.
+
+## Entreprenøriell kompetanse
+
+**Entreprenøriell kompetanse** er kunnskap, ferdigheter og holdninger som gjør det mulig å skape verdi av ideer. Den omfatter blant annet
+
+- **kreativitet** – å se nye muligheter og løsninger
+- **initiativ** – å ta tak i ting og **handle**
+- **risikovilje** – å tåle **usikkerhet**
+- **utholdenhet** – å ikke gi opp ved motgang
+- **samarbeid** og **kommunikasjon** – å få med seg andre
+- **læring av feil** – å se feil som en naturlig del av utviklingen
+- **planlegging** og **økonomisk forståelse**
+
+Entreprenøriell kompetanse er ikke bare for gründere. Den er nyttig i **alle** yrker og i virksomheter som må **fornye** seg for å overleve.
+
+## To måter å tenke på
+
+- **Planleggingslogikk**: Gründeren starter med et **mål** og lager en detaljert **plan** for å nå det.
+- **Effektuering**: Gründeren starter med de **ressursene** hen har – kunnskap, nettverk og midler – og tester seg fram i små steg. Hen tar bare risiko hen **har råd til å tape**, og samarbeider med andre underveis.
+
+Forskning tyder på at erfarne gründere ofte bruker **effektuering**, særlig når usikkerheten er stor.
+
+## Kilder, teorier og modeller
+
+I faget bruker du **modeller** som forretningsmodellkanvas, SWOT og markedsføringsmiksen for å analysere en idé. Modellene er **forenklinger** – de hjelper deg å **strukturere** tenkningen, men du må vurdere om de passer til situasjonen.
+
+Nyttige **kilder** er
+
+- **Brønnøysundregistrene** – selskapsinformasjon og regnskap
+- **Altinn** – offentlige skjemaer for næringslivet
+- **Innovasjon Norge** – råd og finansiering til gründere
+- **SSB** – statistikk om markeder og befolkning
+- fagbøker, forskning og redaktørstyrte medier
+
+Vær **kildekritisk** til suksesshistorier i sosiale medier. De viser sjelden alle som **ikke** lyktes.', '{"label":"Entreprenørskap","children":[{"label":"Begreper","children":[{"label":"Entreprenør og gründer"},{"label":"Verdiskaping"}]},{"label":"Typer","children":[{"label":"Kommersielt"},{"label":"Sosialt"},{"label":"Intraprenørskap"}]},{"label":"Kompetanse","children":[{"label":"Kreativitet og initiativ"},{"label":"Risikovilje og utholdenhet"},{"label":"Læring av feil"}]},{"label":"Tenkemåter","children":[{"label":"Planleggingslogikk"},{"label":"Effektuering"}]},{"label":"Kilder og modeller","children":[{"label":"Brønnøysund og Altinn"},{"label":"Innovasjon Norge"},{"label":"Kildekritikk"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'entreprenorskap-og-bedriftsutvikling-1:entreprenorskap-og-entreprenoriell-kompetanse';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('entreprenorskap-og-bedriftsutvikling-1:entreprenorskap-og-entreprenoriell-kompetanse', 'Entreprenørskap', 'Å oppdage eller skape en mulighet og gjøre den om til verdi.', 0),
+  ('entreprenorskap-og-bedriftsutvikling-1:entreprenorskap-og-entreprenoriell-kompetanse', 'Entreprenør', 'Person som tar initiativ, samler ressurser og tar risiko for å realisere en idé.', 1),
+  ('entreprenorskap-og-bedriftsutvikling-1:entreprenorskap-og-entreprenoriell-kompetanse', 'Gründer', 'Person som starter en ny virksomhet.', 2),
+  ('entreprenorskap-og-bedriftsutvikling-1:entreprenorskap-og-entreprenoriell-kompetanse', 'Sosialt entreprenørskap', 'Å løse et samfunnsproblem gjennom en virksomhet.', 3),
+  ('entreprenorskap-og-bedriftsutvikling-1:entreprenorskap-og-entreprenoriell-kompetanse', 'Intraprenørskap', 'Entreprenørskap inne i en eksisterende virksomhet.', 4),
+  ('entreprenorskap-og-bedriftsutvikling-1:entreprenorskap-og-entreprenoriell-kompetanse', 'Entreprenøriell kompetanse', 'Kunnskap, ferdigheter og holdninger som gjør det mulig å skape verdi av ideer.', 5),
+  ('entreprenorskap-og-bedriftsutvikling-1:entreprenorskap-og-entreprenoriell-kompetanse', 'Risikovilje', 'Evnen til å tåle usikkerhet.', 6),
+  ('entreprenorskap-og-bedriftsutvikling-1:entreprenorskap-og-entreprenoriell-kompetanse', 'Utholdenhet', 'Å ikke gi opp ved motgang.', 7),
+  ('entreprenorskap-og-bedriftsutvikling-1:entreprenorskap-og-entreprenoriell-kompetanse', 'Læring av feil', 'Å se feil som en naturlig del av utviklingen.', 8),
+  ('entreprenorskap-og-bedriftsutvikling-1:entreprenorskap-og-entreprenoriell-kompetanse', 'Planleggingslogikk', 'Starte med et mål og lage en detaljert plan.', 9),
+  ('entreprenorskap-og-bedriftsutvikling-1:entreprenorskap-og-entreprenoriell-kompetanse', 'Effektuering', 'Starte med egne ressurser og teste seg fram i små steg.', 10),
+  ('entreprenorskap-og-bedriftsutvikling-1:entreprenorskap-og-entreprenoriell-kompetanse', 'Akseptabelt tap', 'Å bare ta risiko man har råd til å tape.', 11),
+  ('entreprenorskap-og-bedriftsutvikling-1:entreprenorskap-og-entreprenoriell-kompetanse', 'Brønnøysundregistrene', 'Offentlige registre med selskapsinformasjon og regnskap.', 12),
+  ('entreprenorskap-og-bedriftsutvikling-1:entreprenorskap-og-entreprenoriell-kompetanse', 'Innovasjon Norge', 'Statlig virkemiddelaktør som gir råd og finansiering til gründere.', 13),
+  ('entreprenorskap-og-bedriftsutvikling-1:entreprenorskap-og-entreprenoriell-kompetanse', 'Verdiskaping', 'Å skape økonomisk, sosial, kulturell eller miljømessig verdi.', 14);
+delete from public.quiz_sporsmal where tema_id = 'entreprenorskap-og-bedriftsutvikling-1:entreprenorskap-og-entreprenoriell-kompetanse';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('entreprenorskap-og-bedriftsutvikling-1:entreprenorskap-og-entreprenoriell-kompetanse', 'q01', 'flervalg', 'Hva er entreprenørskap?', array['Å jobbe i offentlig sektor', 'Å oppdage eller skape en mulighet og gjøre den om til verdi', 'Å kjøpe aksjer', 'Å lede et stort selskap']::text[], 1, 'Ofte ved å starte en ny virksomhet.', true, true, 0),
+  ('entreprenorskap-og-bedriftsutvikling-1:entreprenorskap-og-entreprenoriell-kompetanse', 'q02', 'flervalg', 'Hva er intraprenørskap?', array['Entreprenørskap inne i en eksisterende virksomhet', 'Entreprenørskap i utlandet', 'Å starte mange selskaper', 'Å investere i andres selskaper']::text[], 0, 'Ansatte utvikler nye løsninger.', true, true, 1),
+  ('entreprenorskap-og-bedriftsutvikling-1:entreprenorskap-og-entreprenoriell-kompetanse', 'q03', 'flervalg', 'Hva kjennetegner sosialt entreprenørskap?', array['Bare mest mulig profitt', 'Bare kunst og kultur', 'Å løse et samfunnsproblem', 'Å selge til andre bedrifter']::text[], 2, 'For eksempel utenforskap eller matsvinn.', true, true, 2),
+  ('entreprenorskap-og-bedriftsutvikling-1:entreprenorskap-og-entreprenoriell-kompetanse', 'q04', 'flervalg', 'Hva hører til entreprenøriell kompetanse?', array['Å unngå all risiko', 'Å vente på andre', 'Å gi opp raskt', 'Kreativitet, initiativ og utholdenhet']::text[], 3, 'Også samarbeid og læring av feil.', true, true, 3),
+  ('entreprenorskap-og-bedriftsutvikling-1:entreprenorskap-og-entreprenoriell-kompetanse', 'q05', 'flervalg', 'Hva er effektuering?', array['Å starte med egne ressurser og teste seg fram i små steg', 'Å lage en detaljert plan før man gjør noe', 'Å låne mest mulig penger', 'Å kopiere konkurrentene']::text[], 0, 'Vanlig blant erfarne gründere.', true, true, 4),
+  ('entreprenorskap-og-bedriftsutvikling-1:entreprenorskap-og-entreprenoriell-kompetanse', 'q06', 'flervalg', 'Hvorfor er entreprenørskap viktig for samfunnet?', array['Det gir færre arbeidsplasser', 'Det skaper arbeidsplasser, konkurranse og innovasjon', 'Det reduserer konkurransen', 'Det er bare viktig for gründeren']::text[], 1, 'Nye næringer trengs på sikt.', true, true, 5),
+  ('entreprenorskap-og-bedriftsutvikling-1:entreprenorskap-og-entreprenoriell-kompetanse', 'q07', 'flervalg', 'Hvor finner du informasjon om registrerte selskaper og regnskap?', array['Hos NRK', 'I sosiale medier', 'Hos Brønnøysundregistrene', 'Hos Arbeidstilsynet']::text[], 2, 'Offentlige registre.', true, true, 6),
+  ('entreprenorskap-og-bedriftsutvikling-1:entreprenorskap-og-entreprenoriell-kompetanse', 'q08', 'flervalg', 'Hvorfor bør du være kritisk til suksesshistorier i sosiale medier?', array['De er alltid løgn', 'De er for korte', 'De er ulovlige', 'De viser sjelden alle som ikke lyktes']::text[], 3, 'Gir et skjevt bilde.', true, true, 7),
+  ('entreprenorskap-og-bedriftsutvikling-1:entreprenorskap-og-entreprenoriell-kompetanse', 'q09', 'flervalg', 'Hva betyr prinsippet om akseptabelt tap?', array['Å bare ta risiko man har råd til å tape', 'Å tape så mye som mulig', 'Å aldri tape', 'Å låne penger for å dekke tap']::text[], 0, 'En del av effektuering.', true, false, 8),
+  ('entreprenorskap-og-bedriftsutvikling-1:entreprenorskap-og-entreprenoriell-kompetanse', 'q10', 'flervalg', 'Er entreprenøriell kompetanse bare nyttig for gründere?', array['Ja, bare for gründere', 'Nei, den er nyttig i alle yrker og virksomheter', 'Bare for ledere', 'Bare for kunstnere']::text[], 1, 'Virksomheter må fornye seg.', true, false, 9),
+  ('entreprenorskap-og-bedriftsutvikling-1:entreprenorskap-og-entreprenoriell-kompetanse', 'm01', 'sant-usant', 'Verdien en entreprenør skaper, kan være sosial eller miljømessig, ikke bare økonomisk.', array['Sant', 'Usant']::text[], 0, 'Verdiskaping har flere former.', false, true, 10),
+  ('entreprenorskap-og-bedriftsutvikling-1:entreprenorskap-og-entreprenoriell-kompetanse', 'm02', 'sant-usant', 'Gode gründere unngår all risiko.', array['Sant', 'Usant']::text[], 1, 'De tåler usikkerhet, men tar kontrollert risiko.', false, true, 11),
+  ('entreprenorskap-og-bedriftsutvikling-1:entreprenorskap-og-entreprenoriell-kompetanse', 'm03', 'sant-usant', 'Modeller i faget er forenklinger av virkeligheten.', array['Sant', 'Usant']::text[], 0, 'De hjelper oss å strukturere tenkningen.', false, true, 12),
+  ('entreprenorskap-og-bedriftsutvikling-1:entreprenorskap-og-entreprenoriell-kompetanse', 'm04', 'sant-usant', 'Feil er et tegn på at en gründer bør gi opp.', array['Sant', 'Usant']::text[], 1, 'Feil er en naturlig del av utviklingen.', false, true, 13),
+  ('entreprenorskap-og-bedriftsutvikling-1:entreprenorskap-og-entreprenoriell-kompetanse', 'm05', 'flervalg', 'Hvem gir råd og finansiering til gründere?', array['Skatteetaten', 'Innovasjon Norge', 'Politiet', 'Datatilsynet']::text[], 1, 'En statlig virkemiddelaktør.', false, true, 14),
+  ('entreprenorskap-og-bedriftsutvikling-1:entreprenorskap-og-entreprenoriell-kompetanse', 'm06', 'flervalg', 'Hva er et eksempel på intraprenørskap?', array['En ansatt utvikler et nytt produkt i bedriften', 'En student starter egen bedrift', 'En pensjonist kjøper aksjer', 'En kommune bygger en skole']::text[], 0, 'Entreprenørskap inne i en virksomhet.', false, true, 15),
+  ('entreprenorskap-og-bedriftsutvikling-1:entreprenorskap-og-entreprenoriell-kompetanse', 'm07', 'flervalg', 'Hvorfor trenger Norge nye næringer på sikt?', array['For å øke oljeinntektene', 'For å få færre arbeidsplasser', 'For å erstatte inntektene fra olje og gass', 'For å redusere eksporten']::text[], 2, 'Omstilling av økonomien.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('entreprenorskap-og-bedriftsutvikling-1:entreprenorskap-og-entreprenoriell-kompetanse', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Entreprenørskap og bedriftsutvikling 1: Kreativitet og forretningsideer
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('entreprenorskap-og-bedriftsutvikling-1:kreativitet-og-forretningsideer', 'entreprenorskap-og-bedriftsutvikling-1', 'kreativitet-og-forretningsideer', 'Kreativitet og forretningsideer', 'Hva kreativitet er, den kreative prosessen, divergent og konvergent tenkning, teknikker som idémyldring, SCAMPER og idéskriving – hvor forretningsideer kommer fra, og hvordan du vurderer og velger en idé.', array[2]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('entreprenorskap-og-bedriftsutvikling-1:kreativitet-og-forretningsideer', '## Hva er kreativitet?
+
+**Kreativitet** er evnen til å komme på **nye** og **nyttige** ideer. Kreativitet er ikke bare for kunstnere – den kan **trenes**, og den trives best i et miljø der det er **trygt** å komme med «dumme» forslag.
+
+## Den kreative prosessen
+
+En klassisk modell beskriver fire faser:
+
+1. **Forberedelse** – du setter deg inn i problemet og samler informasjon.
+2. **Modning** – hjernen jobber videre **ubevisst** mens du gjør noe annet.
+3. **Innsikt** – plutselig dukker en idé opp, «**aha!**».
+4. **Vurdering** – du tester om ideen faktisk holder.
+
+## Divergent og konvergent tenkning
+
+- **Divergent tenkning** handler om å skape **mange** ideer. Her er det **kvantitet** som teller, og all kritikk venter.
+- **Konvergent tenkning** handler om å **vurdere**, **sortere** og **velge** de beste ideene.
+
+En god idéprosess veksler mellom de to: først **åpne** opp, så **snevre** inn.
+
+## Kreativitetsteknikker
+
+- **Idémyldring**: Gruppen kommer med så mange ideer som mulig. Reglene er **ingen kritikk**, **mange ideer**, **ville ideer er velkomne** og **bygg videre** på andres ideer.
+- **Idéskriving**: Hver deltaker skriver ideer på papir og sender det videre, slik at alle bygger på hverandres forslag. Det gir plass også til dem som er **stille** i vanlig idémyldring.
+- **Omvendt idémyldring**: «Hvordan kan vi gjøre problemet **verre**?» Svarene snus deretter til løsninger.
+- **SCAMPER**: en sjekkliste for å endre et eksisterende produkt – **erstatte**, **kombinere**, **tilpasse**, **endre**, **bruke til noe annet**, **fjerne** og **snu om**.
+- **Tankekart**: Et problem skrives i midten, og assosiasjoner tegnes utover.
+- **Tilfeldig ord**: Et tilfeldig ord kobles til problemet for å tvinge fram nye assosiasjoner.
+
+## Hvor kommer forretningsideer fra?
+
+- **Problemer** og **irritasjoner** i hverdagen – «det må finnes en bedre måte!»
+- **Trender** i samfunnet, som bærekraft, helse og en eldre befolkning
+- **Ny teknologi**, som kunstig intelligens
+- **Egne interesser** og **kunnskap**
+- **Kundeønsker** og **hull i markedet**
+- **Ideer fra andre land** som ikke finnes her ennå
+
+## Fra idé til forretningsidé
+
+En **idé** blir en **forretningsidé** når den beskriver
+
+- **hvilket behov** eller **problem** den løser
+- **hvem** kundene er
+- **hva** produktet er
+- **hvordan** den skiller seg fra konkurrentene
+
+## Vurdering av ideer
+
+Når du skal velge idé, kan du vurdere
+
+- **behov**: Vil noen faktisk betale for dette?
+- **marked**: Er det mange nok kunder?
+- **konkurranse**: Hvor mange tilbyr noe lignende?
+- **gjennomførbarhet**: Har vi kompetanse, tid og penger?
+- **lønnsomhet**: Kan vi tjene penger?
+- **bærekraft**: Er ideen god for mennesker og miljø?
+
+En enkel **vurderingsmatrise** der hver idé får poeng på kriteriene, gjør valget mer **systematisk**. Snakk gjerne med **mulige kunder** tidlig – det er billigere å forkaste en idé før man har brukt mye penger på den.', '{"label":"Kreativitet og forretningsideer","children":[{"label":"Kreativ prosess","children":[{"label":"Forberedelse og modning"},{"label":"Innsikt og vurdering"}]},{"label":"Tenkning","children":[{"label":"Divergent"},{"label":"Konvergent"}]},{"label":"Teknikker","children":[{"label":"Idémyldring og idéskriving"},{"label":"Omvendt idémyldring"},{"label":"SCAMPER"}]},{"label":"Kilder til ideer","children":[{"label":"Problemer"},{"label":"Trender og teknologi"},{"label":"Interesser"}]},{"label":"Vurdering","children":[{"label":"Behov og marked"},{"label":"Gjennomførbarhet"},{"label":"Lønnsomhet og bærekraft"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'entreprenorskap-og-bedriftsutvikling-1:kreativitet-og-forretningsideer';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('entreprenorskap-og-bedriftsutvikling-1:kreativitet-og-forretningsideer', 'Kreativitet', 'Evnen til å komme på nye og nyttige ideer.', 0),
+  ('entreprenorskap-og-bedriftsutvikling-1:kreativitet-og-forretningsideer', 'Den kreative prosessen', 'Forberedelse, modning, innsikt og vurdering.', 1),
+  ('entreprenorskap-og-bedriftsutvikling-1:kreativitet-og-forretningsideer', 'Modning', 'Hjernen jobber videre ubevisst med problemet.', 2),
+  ('entreprenorskap-og-bedriftsutvikling-1:kreativitet-og-forretningsideer', 'Divergent tenkning', 'Å skape mange ideer uten kritikk.', 3),
+  ('entreprenorskap-og-bedriftsutvikling-1:kreativitet-og-forretningsideer', 'Konvergent tenkning', 'Å vurdere, sortere og velge de beste ideene.', 4),
+  ('entreprenorskap-og-bedriftsutvikling-1:kreativitet-og-forretningsideer', 'Idémyldring', 'Mange ideer, ingen kritikk, bygg videre på andres ideer.', 5),
+  ('entreprenorskap-og-bedriftsutvikling-1:kreativitet-og-forretningsideer', 'Idéskriving', 'Ideer skrives på papir og sendes videre i gruppen.', 6),
+  ('entreprenorskap-og-bedriftsutvikling-1:kreativitet-og-forretningsideer', 'Omvendt idémyldring', 'Å spørre hvordan problemet kan bli verre, og snu svarene.', 7),
+  ('entreprenorskap-og-bedriftsutvikling-1:kreativitet-og-forretningsideer', 'SCAMPER', 'Sjekkliste for å endre et produkt: erstatte, kombinere, tilpasse og mer.', 8),
+  ('entreprenorskap-og-bedriftsutvikling-1:kreativitet-og-forretningsideer', 'Tilfeldig ord', 'Teknikk som kobler et tilfeldig ord til problemet.', 9),
+  ('entreprenorskap-og-bedriftsutvikling-1:kreativitet-og-forretningsideer', 'Hull i markedet', 'Et behov som ingen dekker i dag.', 10),
+  ('entreprenorskap-og-bedriftsutvikling-1:kreativitet-og-forretningsideer', 'Forretningsidé', 'Behov, kunder, produkt og hvordan man skiller seg ut.', 11),
+  ('entreprenorskap-og-bedriftsutvikling-1:kreativitet-og-forretningsideer', 'Gjennomførbarhet', 'Om man har kompetanse, tid og penger til å realisere ideen.', 12),
+  ('entreprenorskap-og-bedriftsutvikling-1:kreativitet-og-forretningsideer', 'Vurderingsmatrise', 'Tabell der ideer får poeng på ulike kriterier.', 13),
+  ('entreprenorskap-og-bedriftsutvikling-1:kreativitet-og-forretningsideer', 'Trend', 'Utviklingstrekk i samfunnet som kan gi nye muligheter.', 14);
+delete from public.quiz_sporsmal where tema_id = 'entreprenorskap-og-bedriftsutvikling-1:kreativitet-og-forretningsideer';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('entreprenorskap-og-bedriftsutvikling-1:kreativitet-og-forretningsideer', 'q01', 'flervalg', 'Hva er divergent tenkning?', array['Å velge den beste ideen', 'Å skape mange ideer uten kritikk', 'Å kritisere ideer', 'Å lage budsjett']::text[], 1, 'Kvantitet teller.', true, true, 0),
+  ('entreprenorskap-og-bedriftsutvikling-1:kreativitet-og-forretningsideer', 'q02', 'flervalg', 'Hvilken regel gjelder i idémyldring?', array['Ingen kritikk', 'Bare realistiske ideer', 'Lederen bestemmer', 'Så få ideer som mulig']::text[], 0, 'Kritikken venter til senere.', true, true, 1),
+  ('entreprenorskap-og-bedriftsutvikling-1:kreativitet-og-forretningsideer', 'q03', 'flervalg', 'Hva er omvendt idémyldring?', array['Å skrive ideer baklengs', 'Å kritisere alle ideer', 'Å spørre hvordan problemet kan bli verre, og snu svarene', 'Å bare bruke gamle ideer']::text[], 2, 'Gir nye perspektiver.', true, true, 2),
+  ('entreprenorskap-og-bedriftsutvikling-1:kreativitet-og-forretningsideer', 'q04', 'flervalg', 'I hvilken fase av den kreative prosessen jobber hjernen ubevisst?', array['Forberedelse', 'Innsikt', 'Vurdering', 'Modning']::text[], 3, 'Derfor kommer gode ideer ofte i dusjen.', true, true, 3),
+  ('entreprenorskap-og-bedriftsutvikling-1:kreativitet-og-forretningsideer', 'q05', 'flervalg', 'Hva er SCAMPER?', array['En sjekkliste for å endre et eksisterende produkt', 'En type budsjett', 'En selskapsform', 'En markedsundersøkelse']::text[], 0, 'Erstatte, kombinere, tilpasse og mer.', true, true, 4),
+  ('entreprenorskap-og-bedriftsutvikling-1:kreativitet-og-forretningsideer', 'q06', 'flervalg', 'Hva er en fordel med idéskriving?', array['Den går raskest', 'Også stille deltakere får fram ideene sine', 'Den krever ingen deltakere', 'Den gir bare én idé']::text[], 1, 'Alle skriver.', true, true, 5),
+  ('entreprenorskap-og-bedriftsutvikling-1:kreativitet-og-forretningsideer', 'q07', 'flervalg', 'Hvilken kilde til forretningsideer er en trend?', array['En irritasjon i hverdagen', 'En hobby', 'En eldre befolkning', 'En venn']::text[], 2, 'Endringer i samfunnet gir nye behov.', true, true, 6),
+  ('entreprenorskap-og-bedriftsutvikling-1:kreativitet-og-forretningsideer', 'q08', 'flervalg', 'Hva må en forretningsidé beskrive?', array['Bare navnet', 'Bare prisen', 'Bare logoen', 'Behov, kunder, produkt og hvordan den skiller seg ut']::text[], 3, 'Grunnlaget for virksomheten.', true, true, 7),
+  ('entreprenorskap-og-bedriftsutvikling-1:kreativitet-og-forretningsideer', 'q09', 'flervalg', 'Hvorfor bør du snakke med mulige kunder tidlig?', array['Det er billigere å forkaste en idé før man har brukt mye penger', 'For å selge med en gang', 'Fordi loven krever det', 'For å skjule ideen']::text[], 0, 'Test behovet tidlig.', true, false, 8),
+  ('entreprenorskap-og-bedriftsutvikling-1:kreativitet-og-forretningsideer', 'q10', 'flervalg', 'Hva er konvergent tenkning?', array['Å skape mange ideer', 'Å vurdere, sortere og velge ideer', 'Å tegne tankekart', 'Å bruke tilfeldige ord']::text[], 1, 'Snevrer inn etter at man har åpnet opp.', true, false, 9),
+  ('entreprenorskap-og-bedriftsutvikling-1:kreativitet-og-forretningsideer', 'm01', 'sant-usant', 'Kreativitet kan trenes.', array['Sant', 'Usant']::text[], 0, 'Teknikker og et trygt miljø hjelper.', false, true, 10),
+  ('entreprenorskap-og-bedriftsutvikling-1:kreativitet-og-forretningsideer', 'm02', 'sant-usant', 'I idémyldring bør man kritisere ideene med en gang.', array['Sant', 'Usant']::text[], 1, 'Kritikken venter til den konvergente fasen.', false, true, 11),
+  ('entreprenorskap-og-bedriftsutvikling-1:kreativitet-og-forretningsideer', 'm03', 'sant-usant', 'Irritasjoner i hverdagen kan være en kilde til forretningsideer.', array['Sant', 'Usant']::text[], 0, '«Det må finnes en bedre måte!»', false, true, 12),
+  ('entreprenorskap-og-bedriftsutvikling-1:kreativitet-og-forretningsideer', 'm04', 'sant-usant', 'En idé er alltid en god forretningsidé hvis den er original.', array['Sant', 'Usant']::text[], 1, 'Den må også dekke et behov og kunne gi inntekter.', false, true, 13),
+  ('entreprenorskap-og-bedriftsutvikling-1:kreativitet-og-forretningsideer', 'm05', 'flervalg', 'Hva gjør en vurderingsmatrise?', array['Lager nye ideer', 'Gir ideer poeng på kriterier for å velge systematisk', 'Regner ut skatt', 'Registrerer selskapet']::text[], 1, 'Gjør valget mindre tilfeldig.', false, true, 14),
+  ('entreprenorskap-og-bedriftsutvikling-1:kreativitet-og-forretningsideer', 'm06', 'flervalg', 'Hvilket kriterium handler om gjennomførbarhet?', array['Om vi har kompetanse, tid og penger', 'Om ideen er morsom', 'Om konkurrentene liker den', 'Om den er populær i sosiale medier']::text[], 0, 'Kan vi faktisk gjøre det?', false, true, 15),
+  ('entreprenorskap-og-bedriftsutvikling-1:kreativitet-og-forretningsideer', 'm07', 'flervalg', 'Hva betyr «kombinere» i SCAMPER?', array['Å fjerne en del', 'Å snu produktet', 'Å sette sammen to produkter eller funksjoner', 'Å endre prisen']::text[], 2, 'For eksempel en telefon med kamera.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('entreprenorskap-og-bedriftsutvikling-1:kreativitet-og-forretningsideer', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Entreprenørskap og bedriftsutvikling 1: Innovasjon og innovasjonsprosesser
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('entreprenorskap-og-bedriftsutvikling-1:innovasjonsprosesser', 'entreprenorskap-og-bedriftsutvikling-1', 'innovasjonsprosesser', 'Innovasjon og innovasjonsprosesser', 'Hva innovasjon er, ulike typer innovasjon, designtenkning og smidig oppstartsmetodikk med prototyper og minimumsprodukt – og hvordan gründere kan beskytte ideene sine med patent, varemerke og design.', array[3]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('entreprenorskap-og-bedriftsutvikling-1:innovasjonsprosesser', '## Hva er innovasjon?
+
+**Innovasjon** er en **ny** idé, et nytt produkt eller en ny måte å gjøre ting på som blir **tatt i bruk** og skaper **verdi**. En **oppfinnelse** er ikke en innovasjon før noen faktisk **bruker** den.
+
+## Typer innovasjon
+
+- **Produktinnovasjon**: nye eller forbedrede varer og tjenester, som en ny app.
+- **Prosessinnovasjon**: nye måter å **produsere** eller **levere** på, som selvbetjente kasser.
+- **Markedsinnovasjon**: nye måter å **selge** eller nå kunder på, som abonnement i stedet for engangskjøp.
+- **Organisasjonsinnovasjon**: nye måter å **organisere** arbeidet på.
+
+Innovasjon kan også være
+
+- **inkrementell** – små, gradvise forbedringer, som en ny versjon av en telefon
+- **radikal** – store endringer som skaper helt nye markeder
+- **disruptiv** – en løsning som starter enkel og billig, men etter hvert **utkonkurrerer** de etablerte, slik strømming utkonkurrerte DVD-utleie
+
+## Designtenkning
+
+**Designtenkning** er en **brukersentrert** innovasjonsprosess i fem steg:
+
+1. **Empati** – forstå brukerne gjennom intervjuer og observasjon
+2. **Definere** – formulere det egentlige **problemet**
+3. **Idéutvikling** – lage mange mulige løsninger
+4. **Prototyp** – lage en enkel **modell** av løsningen
+5. **Teste** – prøve prototypen på brukerne og lære
+
+Prosessen går gjerne i **runder**: Testingen gir ny innsikt, og man går tilbake til tidligere steg.
+
+## Smidig oppstart
+
+**Smidig oppstart** – ofte kalt lean startup – bygger på at nye virksomheter bør **teste** antakelsene sine raskt og billig:
+
+- **Bygg**: Lag et **minimumsprodukt** – den enkleste versjonen som kan gi læring, for eksempel en enkel nettside der folk kan forhåndsbestille.
+- **Mål**: Se hvordan kundene faktisk **reagerer**.
+- **Lær**: Juster produktet – eller gjør en **snuoperasjon** og endre retning hvis antakelsene var feil.
+
+Målet er å unngå å bruke **år** og **mye penger** på noe ingen vil ha.
+
+## Innovasjon ved etablering
+
+For en ny virksomhet kan en innovasjonsprosess se slik ut:
+
+1. Finn et **problem** som er verdt å løse.
+2. Snakk med **mulige kunder**.
+3. Lag en **prototyp** eller et minimumsprodukt.
+4. **Test**, lær og forbedre.
+5. Lanser – og fortsett å **utvikle**.
+
+## Beskyttelse av ideer
+
+- **Patent** gir enerett til å utnytte en **teknisk oppfinnelse** i inntil **20 år**. Oppfinnelsen må være **ny** og ha **oppfinnelseshøyde**, og den må ikke være vist offentlig før søknaden.
+- **Varemerke** beskytter **navn** og **logo**.
+- **Designregistrering** beskytter **utseendet** til et produkt.
+- **Opphavsrett** gjelder automatisk for åndsverk som tekst, musikk, bilder og dataprogrammer.
+
+Søknader om patent, varemerke og design sendes til **Patentstyret**. En **taushetserklæring** kan beskytte ideen når man diskuterer den med andre.
+
+## Innovasjon krever mot
+
+Mange innovasjoner **mislykkes**. Innovative virksomheter har en kultur der det er lov å **prøve**, **feile** og **lære**.', '{"label":"Innovasjon","children":[{"label":"Typer","children":[{"label":"Produkt og prosess"},{"label":"Marked og organisasjon"}]},{"label":"Grad","children":[{"label":"Inkrementell"},{"label":"Radikal"},{"label":"Disruptiv"}]},{"label":"Designtenkning","children":[{"label":"Empati og definere"},{"label":"Idéutvikling"},{"label":"Prototyp og test"}]},{"label":"Smidig oppstart","children":[{"label":"Bygg, mål, lær"},{"label":"Minimumsprodukt"},{"label":"Snuoperasjon"}]},{"label":"Beskyttelse","children":[{"label":"Patent"},{"label":"Varemerke og design"},{"label":"Opphavsrett"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'entreprenorskap-og-bedriftsutvikling-1:innovasjonsprosesser';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('entreprenorskap-og-bedriftsutvikling-1:innovasjonsprosesser', 'Innovasjon', 'Ny idé eller løsning som tas i bruk og skaper verdi.', 0),
+  ('entreprenorskap-og-bedriftsutvikling-1:innovasjonsprosesser', 'Oppfinnelse', 'Ny løsning som ennå ikke er tatt i bruk.', 1),
+  ('entreprenorskap-og-bedriftsutvikling-1:innovasjonsprosesser', 'Produktinnovasjon', 'Nye eller forbedrede varer og tjenester.', 2),
+  ('entreprenorskap-og-bedriftsutvikling-1:innovasjonsprosesser', 'Prosessinnovasjon', 'Nye måter å produsere eller levere på.', 3),
+  ('entreprenorskap-og-bedriftsutvikling-1:innovasjonsprosesser', 'Markedsinnovasjon', 'Nye måter å selge eller nå kunder på.', 4),
+  ('entreprenorskap-og-bedriftsutvikling-1:innovasjonsprosesser', 'Inkrementell innovasjon', 'Små, gradvise forbedringer.', 5),
+  ('entreprenorskap-og-bedriftsutvikling-1:innovasjonsprosesser', 'Disruptiv innovasjon', 'Enkel og billig løsning som etter hvert utkonkurrerer de etablerte.', 6),
+  ('entreprenorskap-og-bedriftsutvikling-1:innovasjonsprosesser', 'Designtenkning', 'Empati, definere, idéutvikling, prototyp og testing.', 7),
+  ('entreprenorskap-og-bedriftsutvikling-1:innovasjonsprosesser', 'Prototyp', 'Enkel modell av en løsning som kan testes.', 8),
+  ('entreprenorskap-og-bedriftsutvikling-1:innovasjonsprosesser', 'Smidig oppstart', 'Bygg, mål og lær – test antakelser raskt og billig.', 9),
+  ('entreprenorskap-og-bedriftsutvikling-1:innovasjonsprosesser', 'Minimumsprodukt', 'Den enkleste versjonen av et produkt som kan gi læring.', 10),
+  ('entreprenorskap-og-bedriftsutvikling-1:innovasjonsprosesser', 'Snuoperasjon', 'Å endre retning når antakelsene viser seg å være feil.', 11),
+  ('entreprenorskap-og-bedriftsutvikling-1:innovasjonsprosesser', 'Patent', 'Enerett til en teknisk oppfinnelse i inntil 20 år.', 12),
+  ('entreprenorskap-og-bedriftsutvikling-1:innovasjonsprosesser', 'Varemerke', 'Beskytter navn og logo.', 13),
+  ('entreprenorskap-og-bedriftsutvikling-1:innovasjonsprosesser', 'Patentstyret', 'Behandler søknader om patent, varemerke og design.', 14),
+  ('entreprenorskap-og-bedriftsutvikling-1:innovasjonsprosesser', 'Taushetserklæring', 'Avtale om å ikke dele fortrolig informasjon.', 15);
+delete from public.quiz_sporsmal where tema_id = 'entreprenorskap-og-bedriftsutvikling-1:innovasjonsprosesser';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('entreprenorskap-og-bedriftsutvikling-1:innovasjonsprosesser', 'q01', 'flervalg', 'Når blir en oppfinnelse en innovasjon?', array['Når den blir patentert', 'Når den blir tatt i bruk og skaper verdi', 'Når den blir tegnet', 'Aldri']::text[], 1, 'Innovasjon krever bruk.', true, true, 0),
+  ('entreprenorskap-og-bedriftsutvikling-1:innovasjonsprosesser', 'q02', 'flervalg', 'Selvbetjente kasser er et eksempel på', array['prosessinnovasjon', 'varemerke', 'organisasjonsinnovasjon', 'patent']::text[], 0, 'En ny måte å levere på.', true, true, 1),
+  ('entreprenorskap-og-bedriftsutvikling-1:innovasjonsprosesser', 'q03', 'flervalg', 'Hva er disruptiv innovasjon?', array['En liten forbedring', 'Et patent', 'En enkel og billig løsning som etter hvert utkonkurrerer de etablerte', 'En ny logo']::text[], 2, 'Som strømming mot DVD-utleie.', true, true, 2),
+  ('entreprenorskap-og-bedriftsutvikling-1:innovasjonsprosesser', 'q04', 'flervalg', 'Hva er første steg i designtenkning?', array['Prototyp', 'Teste', 'Idéutvikling', 'Empati – forstå brukerne']::text[], 3, 'Prosessen er brukersentrert.', true, true, 3),
+  ('entreprenorskap-og-bedriftsutvikling-1:innovasjonsprosesser', 'q05', 'flervalg', 'Hva er et minimumsprodukt?', array['Den enkleste versjonen som kan gi læring', 'Det billigste produktet i butikken', 'Et ferdig produkt', 'Et patent']::text[], 0, 'Brukes i smidig oppstart.', true, true, 4),
+  ('entreprenorskap-og-bedriftsutvikling-1:innovasjonsprosesser', 'q06', 'flervalg', 'Hva er en snuoperasjon i smidig oppstart?', array['Å legge ned virksomheten', 'Å endre retning når antakelsene var feil', 'Å øke prisen', 'Å ansette flere']::text[], 1, 'Basert på det man har lært.', true, true, 5),
+  ('entreprenorskap-og-bedriftsutvikling-1:innovasjonsprosesser', 'q07', 'flervalg', 'Hvor lenge kan et patent gi enerett?', array['5 år', 'Evig', 'Inntil 20 år', '1 år']::text[], 2, 'For tekniske oppfinnelser.', true, true, 6),
+  ('entreprenorskap-og-bedriftsutvikling-1:innovasjonsprosesser', 'q08', 'flervalg', 'Hva beskytter et varemerke?', array['En teknisk oppfinnelse', 'Utseendet til et produkt', 'En sang', 'Navn og logo']::text[], 3, 'Registreres hos Patentstyret.', true, true, 7),
+  ('entreprenorskap-og-bedriftsutvikling-1:innovasjonsprosesser', 'q09', 'flervalg', 'Hva er målet med smidig oppstart?', array['Å unngå å bruke år og mye penger på noe ingen vil ha', 'Å lage en perfekt plan før man starter', 'Å unngå kunder', 'Å få patent først']::text[], 0, 'Test raskt og billig.', true, false, 8),
+  ('entreprenorskap-og-bedriftsutvikling-1:innovasjonsprosesser', 'q10', 'flervalg', 'Hva må til for at en oppfinnelse kan patenteres?', array['At den er vist offentlig', 'At den er ny og har oppfinnelseshøyde', 'At den er dyr', 'At den er populær']::text[], 1, 'Den må ikke være kjent fra før.', true, false, 9),
+  ('entreprenorskap-og-bedriftsutvikling-1:innovasjonsprosesser', 'm01', 'sant-usant', 'Opphavsrett gjelder automatisk for tekst, musikk og bilder.', array['Sant', 'Usant']::text[], 0, 'Den krever ingen registrering.', false, true, 10),
+  ('entreprenorskap-og-bedriftsutvikling-1:innovasjonsprosesser', 'm02', 'sant-usant', 'En oppfinnelse som er vist offentlig, kan alltid patenteres senere.', array['Sant', 'Usant']::text[], 1, 'Den må være ny ved søknaden.', false, true, 11),
+  ('entreprenorskap-og-bedriftsutvikling-1:innovasjonsprosesser', 'm03', 'sant-usant', 'Designtenkning går ofte i runder der man går tilbake til tidligere steg.', array['Sant', 'Usant']::text[], 0, 'Testingen gir ny innsikt.', false, true, 12),
+  ('entreprenorskap-og-bedriftsutvikling-1:innovasjonsprosesser', 'm04', 'sant-usant', 'Innovative virksomheter straffer alle feil hardt.', array['Sant', 'Usant']::text[], 1, 'De har en kultur der det er lov å prøve og feile.', false, true, 13),
+  ('entreprenorskap-og-bedriftsutvikling-1:innovasjonsprosesser', 'm05', 'flervalg', 'Å tilby abonnement i stedet for engangskjøp er et eksempel på', array['prosessinnovasjon', 'markedsinnovasjon', 'patent', 'organisasjonsinnovasjon']::text[], 1, 'En ny måte å selge på.', false, true, 14),
+  ('entreprenorskap-og-bedriftsutvikling-1:innovasjonsprosesser', 'm06', 'flervalg', 'Hva beskytter designregistrering?', array['Utseendet til et produkt', 'Navnet', 'En teknisk løsning', 'En forretningsidé']::text[], 0, 'Form, farger og mønstre.', false, true, 15),
+  ('entreprenorskap-og-bedriftsutvikling-1:innovasjonsprosesser', 'm07', 'flervalg', 'Hva er et eksempel på et minimumsprodukt?', array['En ferdig fabrikk', 'Et stort lager av varer', 'En enkel nettside der folk kan forhåndsbestille', 'En TV-reklame']::text[], 2, 'Tester etterspørselen billig.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('entreprenorskap-og-bedriftsutvikling-1:innovasjonsprosesser', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Entreprenørskap og bedriftsutvikling 1: Forretningsmodeller og bærekraft
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('entreprenorskap-og-bedriftsutvikling-1:forretningsmodeller-og-barekraft', 'entreprenorskap-og-bedriftsutvikling-1', 'forretningsmodeller-og-barekraft', 'Forretningsmodeller og bærekraft', 'Hva en forretningsmodell er, de ni byggeklossene i forretningsmodellkanvaset, vanlige typer forretningsmodeller som abonnement, plattform og gratisversjon med betalte tillegg – og hvordan du vurderer en forretningsmodell opp mot bærekraftig utvikling.', array[4]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('entreprenorskap-og-bedriftsutvikling-1:forretningsmodeller-og-barekraft', '## Hva er en forretningsmodell?
+
+En **forretningsmodell** beskriver hvordan en virksomhet **skaper**, **leverer** og **tar betalt** for verdi. Den svarer på spørsmål som: Hvem er kundene? Hva tilbyr vi dem? Hvordan tjener vi penger? Hva koster det?
+
+## Forretningsmodellkanvaset
+
+**Forretningsmodellkanvaset**, utviklet av **Alexander Osterwalder**, samler forretningsmodellen på **ett ark** med ni byggeklosser:
+
+**Kundesiden**
+
+1. **Kundesegmenter** – hvem vi skaper verdi for
+2. **Verdiforslag** – hvilket problem vi løser, og hvorfor kundene skal velge oss
+3. **Kanaler** – hvordan vi når og leverer til kundene
+4. **Kunderelasjoner** – hvordan vi får og beholder kunder
+5. **Inntektsstrømmer** – hvordan og hvor mye kundene betaler
+
+**Driftssiden**
+
+6. **Nøkkelressurser** – det viktigste vi trenger, som kompetanse, utstyr og penger
+7. **Nøkkelaktiviteter** – det viktigste vi må gjøre
+8. **Nøkkelpartnere** – leverandører og samarbeidspartnere
+9. **Kostnadsstruktur** – de viktigste kostnadene
+
+Kanvaset gjør det lett å **se sammenhengene** og å **endre** modellen når man lærer noe nytt.
+
+## Vanlige forretningsmodeller
+
+- **Salg**: kunden betaler én gang for en vare.
+- **Abonnement**: kunden betaler **fast** per måned eller år, som for strømmetjenester.
+- **Gratis grunnversjon**: basisversjonen er gratis, men kunden betaler for **ekstrafunksjoner**.
+- **Plattform** eller **markedsplass**: virksomheten kobler **kjøpere** og **selgere** og tar et gebyr per handel.
+- **Annonsefinansiering**: tjenesten er gratis for brukerne, mens **annonsører** betaler.
+- **Utleie og deling**: kunden betaler for **bruk**, ikke eierskap, som ved bildeling.
+- **Sirkulær modell**: virksomheten tjener penger på **reparasjon**, **bruktsalg** eller **gjenvinning**.
+
+## Eksempel
+
+En elevbedrift vil leie ut **friluftsutstyr** til unge:
+
+- **Kundesegment**: ungdom og studenter som ikke vil kjøpe dyrt utstyr
+- **Verdiforslag**: rimelig tilgang til godt utstyr uten å eie
+- **Kanaler**: nettside og henting på skolen
+- **Inntekter**: leie per helg
+- **Nøkkelressurser**: utstyr, lager og bookingsystem
+- **Kostnader**: innkjøp, vedlikehold og forsikring
+
+## Vurdering opp mot bærekraft
+
+En forretningsmodell kan vurderes ut fra de tre **bærekraftsdimensjonene**:
+
+- **Økonomisk**: Er modellen **lønnsom** over tid? Dekker inntektene kostnadene?
+- **Miljø**: Hvor mye **ressurser** og **utslipp** gir modellen? Oppmuntrer den til **mer** eller **mindre** forbruk?
+- **Sosial**: Hvordan påvirker den **ansatte**, **kunder** og **lokalsamfunn**? Er arbeidsforholdene i leverandørkjeden gode?
+
+Utleiemodellen i eksempelet kan være **miljøvennlig** fordi mange deler på samme utstyr. Men den er bare **bærekraftig** hvis den også er **lønnsom** – ellers overlever den ikke.
+
+Mange bruker **FNs bærekraftsmål** for å vise hvilke samfunnsutfordringer virksomheten bidrar til å løse. Det er viktig å være **ærlig** og **konkret**, slik at det ikke blir **grønnvasking**.
+
+## Dilemmaer
+
+- En **billig** forretningsmodell kan bygge på lave lønninger eller mye transport.
+- Modeller med **gratis** tjenester kan bygge på innsamling av **persondata**.
+- **Abonnement** kan gjøre det vanskelig for kundene å avslutte.
+
+En god gründer tenker gjennom slike **konsekvenser** allerede når forretningsmodellen lages.', '{"label":"Forretningsmodeller","children":[{"label":"Kundesiden","children":[{"label":"Segmenter og verdiforslag"},{"label":"Kanaler og relasjoner"},{"label":"Inntekter"}]},{"label":"Driftssiden","children":[{"label":"Ressurser og aktiviteter"},{"label":"Partnere"},{"label":"Kostnader"}]},{"label":"Typer","children":[{"label":"Salg og abonnement"},{"label":"Gratis grunnversjon"},{"label":"Plattform og annonser"},{"label":"Utleie og sirkulær"}]},{"label":"Bærekraft","children":[{"label":"Økonomisk"},{"label":"Miljø"},{"label":"Sosial"}]},{"label":"Dilemmaer","children":[{"label":"Persondata"},{"label":"Lave lønninger"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'entreprenorskap-og-bedriftsutvikling-1:forretningsmodeller-og-barekraft';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('entreprenorskap-og-bedriftsutvikling-1:forretningsmodeller-og-barekraft', 'Forretningsmodell', 'Hvordan en virksomhet skaper, leverer og tar betalt for verdi.', 0),
+  ('entreprenorskap-og-bedriftsutvikling-1:forretningsmodeller-og-barekraft', 'Forretningsmodellkanvas', 'Osterwalders modell med ni byggeklosser på ett ark.', 1),
+  ('entreprenorskap-og-bedriftsutvikling-1:forretningsmodeller-og-barekraft', 'Kundesegmenter', 'Hvem virksomheten skaper verdi for.', 2),
+  ('entreprenorskap-og-bedriftsutvikling-1:forretningsmodeller-og-barekraft', 'Verdiforslag', 'Hvilket problem man løser, og hvorfor kundene skal velge en.', 3),
+  ('entreprenorskap-og-bedriftsutvikling-1:forretningsmodeller-og-barekraft', 'Kanaler', 'Hvordan man når og leverer til kundene.', 4),
+  ('entreprenorskap-og-bedriftsutvikling-1:forretningsmodeller-og-barekraft', 'Inntektsstrømmer', 'Hvordan og hvor mye kundene betaler.', 5),
+  ('entreprenorskap-og-bedriftsutvikling-1:forretningsmodeller-og-barekraft', 'Nøkkelressurser', 'Det viktigste virksomheten trenger, som kompetanse og utstyr.', 6),
+  ('entreprenorskap-og-bedriftsutvikling-1:forretningsmodeller-og-barekraft', 'Nøkkelpartnere', 'Leverandører og samarbeidspartnere.', 7),
+  ('entreprenorskap-og-bedriftsutvikling-1:forretningsmodeller-og-barekraft', 'Kostnadsstruktur', 'De viktigste kostnadene i virksomheten.', 8),
+  ('entreprenorskap-og-bedriftsutvikling-1:forretningsmodeller-og-barekraft', 'Abonnementsmodell', 'Kunden betaler fast per måned eller år.', 9),
+  ('entreprenorskap-og-bedriftsutvikling-1:forretningsmodeller-og-barekraft', 'Gratis grunnversjon', 'Basis er gratis, ekstrafunksjoner koster.', 10),
+  ('entreprenorskap-og-bedriftsutvikling-1:forretningsmodeller-og-barekraft', 'Plattformmodell', 'Kobler kjøpere og selgere og tar gebyr per handel.', 11),
+  ('entreprenorskap-og-bedriftsutvikling-1:forretningsmodeller-og-barekraft', 'Annonsefinansiering', 'Gratis for brukerne, annonsører betaler.', 12),
+  ('entreprenorskap-og-bedriftsutvikling-1:forretningsmodeller-og-barekraft', 'Utleie og deling', 'Kunden betaler for bruk, ikke eierskap.', 13),
+  ('entreprenorskap-og-bedriftsutvikling-1:forretningsmodeller-og-barekraft', 'Sirkulær forretningsmodell', 'Inntekter fra reparasjon, bruktsalg eller gjenvinning.', 14);
+delete from public.quiz_sporsmal where tema_id = 'entreprenorskap-og-bedriftsutvikling-1:forretningsmodeller-og-barekraft';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('entreprenorskap-og-bedriftsutvikling-1:forretningsmodeller-og-barekraft', 'q01', 'flervalg', 'Hva beskriver en forretningsmodell?', array['Bare logoen', 'Hvordan en virksomhet skaper, leverer og tar betalt for verdi', 'Bare regnskapet', 'Bare de ansatte']::text[], 1, 'Kunder, tilbud, inntekter og kostnader.', true, true, 0),
+  ('entreprenorskap-og-bedriftsutvikling-1:forretningsmodeller-og-barekraft', 'q02', 'flervalg', 'Hvem utviklet forretningsmodellkanvaset?', array['Alexander Osterwalder', 'Michael Porter', 'Abraham Maslow', 'Adam Smith']::text[], 0, 'Ni byggeklosser på ett ark.', true, true, 1),
+  ('entreprenorskap-og-bedriftsutvikling-1:forretningsmodeller-og-barekraft', 'q03', 'flervalg', 'Hva er et verdiforslag?', array['Prisen på produktet', 'Budsjettet', 'Hvilket problem man løser, og hvorfor kundene skal velge en', 'Antall ansatte']::text[], 2, 'Kjernen i forretningsmodellen.', true, true, 2),
+  ('entreprenorskap-og-bedriftsutvikling-1:forretningsmodeller-og-barekraft', 'q04', 'flervalg', 'Hvilken modell kobler kjøpere og selgere mot et gebyr?', array['Abonnement', 'Salg', 'Utleie', 'Plattform eller markedsplass']::text[], 3, 'For eksempel nettsteder for bruktsalg.', true, true, 3),
+  ('entreprenorskap-og-bedriftsutvikling-1:forretningsmodeller-og-barekraft', 'q05', 'flervalg', 'Hva er en abonnementsmodell?', array['Kunden betaler fast per måned eller år', 'Kunden betaler én gang', 'Tjenesten er gratis', 'Annonsører betaler']::text[], 0, 'Som strømmetjenester.', true, true, 4),
+  ('entreprenorskap-og-bedriftsutvikling-1:forretningsmodeller-og-barekraft', 'q06', 'flervalg', 'Hvilken byggekloss handler om leverandører og samarbeidspartnere?', array['Kundesegmenter', 'Nøkkelpartnere', 'Kanaler', 'Inntektsstrømmer']::text[], 1, 'På driftssiden.', true, true, 5),
+  ('entreprenorskap-og-bedriftsutvikling-1:forretningsmodeller-og-barekraft', 'q07', 'flervalg', 'Hvorfor kan en utleiemodell være miljøvennlig?', array['Den gir mer transport', 'Den er alltid gratis', 'Mange deler på samme utstyr', 'Den krever ingen ressurser']::text[], 2, 'Mindre behov for nye produkter.', true, true, 6),
+  ('entreprenorskap-og-bedriftsutvikling-1:forretningsmodeller-og-barekraft', 'q08', 'flervalg', 'Hva betyr økonomisk bærekraft for en forretningsmodell?', array['At den gir mest utslipp', 'At den er gratis', 'At den ikke har kostnader', 'At den er lønnsom over tid']::text[], 3, 'Ellers overlever den ikke.', true, true, 7),
+  ('entreprenorskap-og-bedriftsutvikling-1:forretningsmodeller-og-barekraft', 'q09', 'flervalg', 'Hvilket etisk dilemma kan gratis tjenester ha?', array['De kan bygge på innsamling av persondata', 'De er alltid dyre', 'De har ingen brukere', 'De er ulovlige']::text[], 0, 'Brukeren betaler med data.', true, false, 8),
+  ('entreprenorskap-og-bedriftsutvikling-1:forretningsmodeller-og-barekraft', 'q10', 'flervalg', 'Hva er en fordel med forretningsmodellkanvaset?', array['Det erstatter regnskapet', 'Det gjør det lett å se sammenhengene og endre modellen', 'Det gir patent', 'Det registrerer selskapet']::text[], 1, 'Alt på ett ark.', true, false, 9),
+  ('entreprenorskap-og-bedriftsutvikling-1:forretningsmodeller-og-barekraft', 'm01', 'sant-usant', 'En miljøvennlig forretningsmodell må også være lønnsom for å være bærekraftig.', array['Sant', 'Usant']::text[], 0, 'Ellers overlever den ikke.', false, true, 10),
+  ('entreprenorskap-og-bedriftsutvikling-1:forretningsmodeller-og-barekraft', 'm02', 'sant-usant', 'Forretningsmodellkanvaset har fem byggeklosser.', array['Sant', 'Usant']::text[], 1, 'Det har ni.', false, true, 11),
+  ('entreprenorskap-og-bedriftsutvikling-1:forretningsmodeller-og-barekraft', 'm03', 'sant-usant', 'En annonsefinansiert tjeneste kan være gratis for brukerne.', array['Sant', 'Usant']::text[], 0, 'Annonsørene betaler.', false, true, 12),
+  ('entreprenorskap-og-bedriftsutvikling-1:forretningsmodeller-og-barekraft', 'm04', 'sant-usant', 'Å bruke FNs bærekraftsmål i markedsføringen er alltid troverdig, uansett hva virksomheten gjør.', array['Sant', 'Usant']::text[], 1, 'Det må være ærlig og konkret, ellers blir det grønnvasking.', false, true, 13),
+  ('entreprenorskap-og-bedriftsutvikling-1:forretningsmodeller-og-barekraft', 'm05', 'flervalg', 'Hvilken byggekloss beskriver hvordan virksomheten når kundene?', array['Kostnadsstruktur', 'Kanaler', 'Nøkkelressurser', 'Nøkkelpartnere']::text[], 1, 'For eksempel nettside og butikk.', false, true, 14),
+  ('entreprenorskap-og-bedriftsutvikling-1:forretningsmodeller-og-barekraft', 'm06', 'flervalg', 'Hva er en sirkulær forretningsmodell?', array['Inntekter fra reparasjon, bruktsalg eller gjenvinning', 'Salg av engangsprodukter', 'Annonser', 'Lån fra banken']::text[], 0, 'Ressurser holdes i bruk.', false, true, 15),
+  ('entreprenorskap-og-bedriftsutvikling-1:forretningsmodeller-og-barekraft', 'm07', 'flervalg', 'Hva er et mulig problem med abonnement for kundene?', array['De får for mye', 'De betaler for lite', 'Det kan være vanskelig å avslutte', 'Det er ulovlig']::text[], 2, 'Et etisk dilemma.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('entreprenorskap-og-bedriftsutvikling-1:forretningsmodeller-og-barekraft', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Entreprenørskap og bedriftsutvikling 1: Samhandling, nettverk og innovasjon
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('entreprenorskap-og-bedriftsutvikling-1:samhandling-og-innovasjon', 'entreprenorskap-og-bedriftsutvikling-1', 'samhandling-og-innovasjon', 'Samhandling, nettverk og innovasjon', 'Hvordan samarbeid og samhandling påvirker innovasjon: mangfold i team, nettverk, åpen innovasjon, samarbeid med kunder og leverandører, klynger, gründermiljøer og samspillet mellom næringsliv, forskning og det offentlige.', array[5]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('entreprenorskap-og-bedriftsutvikling-1:samhandling-og-innovasjon', '## Innovasjon skjer sjelden alene
+
+Myten om det **ensomme geniet** stemmer dårlig. De fleste innovasjoner skjer når mennesker med ulik **kunnskap** og ulike **perspektiver** møtes og deler ideer. **Samhandling** betyr at personer, virksomheter og organisasjoner **påvirker** hverandre gjennom samarbeid, kommunikasjon og konkurranse.
+
+## Samhandling i teamet
+
+- **Mangfold** i utdanning, erfaring, kjønn og kultur gir **flere perspektiver** og ofte mer kreative løsninger.
+- **Psykologisk trygghet** – at det er trygt å si ifra, spørre og ta feil – er viktig for at ideene kommer fram.
+- **God kommunikasjon** og tydelige **roller** hindrer misforståelser.
+- **Konflikter** kan være **nyttige** når de handler om saken, men skadelige når de blir **personlige**.
+
+## Nettverk
+
+Et **nettverk** er relasjonene en gründer har til andre: familie, venner, tidligere kolleger, kunder, mentorer og investorer. Nettverket kan gi
+
+- **kunnskap** og **råd**
+- tilgang til **kunder** og **leverandører**
+- **finansiering**
+- **samarbeidspartnere**
+
+**Svake bånd** – bekjente man ikke kjenner så godt – gir ofte **ny** informasjon, fordi de beveger seg i andre miljøer enn en selv.
+
+## Åpen innovasjon
+
+**Åpen innovasjon** betyr at virksomheten henter ideer og kunnskap **utenfra** – og deler egne ideer med andre. Eksempler er
+
+- **kunder** som tester produkter og kommer med forslag
+- **leverandører** som utvikler nye løsninger sammen med virksomheten
+- samarbeid med **universiteter** og **forskningsinstitutter**
+- **konkurranser** der hvem som helst kan sende inn løsninger
+
+**Brukermedvirkning** betyr at brukerne er med i utviklingen fra starten. Det øker sjansen for at produktet dekker **reelle behov**.
+
+## Klynger og gründermiljøer
+
+- En **klynge** er en samling virksomheter i samme **bransje** og **område** som både samarbeider og konkurrerer. Nærheten gir tilgang til **kompetent arbeidskraft**, **leverandører** og **kunnskap**. Norge har for eksempel sterke miljøer innen **havbruk**, **maritim næring** og **energi**.
+- **Inkubatorer** hjelper nye virksomheter med kontorplass, veiledning og nettverk.
+- **Akseleratorer** gir intensive programmer for å få virksomheter raskt i vekst.
+- **Mentorer** er erfarne personer som gir råd til gründere.
+
+## Næringsliv, forskning og det offentlige
+
+Mye innovasjon skjer i samspillet mellom **næringslivet**, **forsknings- og utdanningsinstitusjoner** og **det offentlige**. Det offentlige kan bidra med **finansiering**, **regler** og **innkjøp** av nye løsninger, mens forskningen bidrar med **ny kunnskap**.
+
+## Samhandling i skolen
+
+Gjennom **elevbedrift** får elever erfaring med å samarbeide i team, møte kunder og få råd fra **mentorer** i næringslivet. Organisasjonen **Ungt Entreprenørskap** tilbyr slike programmer.
+
+## Utfordringer
+
+Samarbeid kan også gi **utfordringer**: uenighet om **eierskap** til ideer, **ulike mål**, lekkasje av **forretningshemmeligheter** og **ujevn** arbeidsfordeling. Tydelige **avtaler** og gjensidig **tillit** gjør samarbeidet lettere.', '{"label":"Samhandling og innovasjon","children":[{"label":"Team","children":[{"label":"Mangfold"},{"label":"Psykologisk trygghet"},{"label":"Konflikter"}]},{"label":"Nettverk","children":[{"label":"Kunnskap og kunder"},{"label":"Svake bånd"}]},{"label":"Åpen innovasjon","children":[{"label":"Kunder og leverandører"},{"label":"Forskning"},{"label":"Brukermedvirkning"}]},{"label":"Miljøer","children":[{"label":"Klynger"},{"label":"Inkubatorer og akseleratorer"},{"label":"Mentorer"}]},{"label":"Utfordringer","children":[{"label":"Eierskap"},{"label":"Tillit og avtaler"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'entreprenorskap-og-bedriftsutvikling-1:samhandling-og-innovasjon';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('entreprenorskap-og-bedriftsutvikling-1:samhandling-og-innovasjon', 'Samhandling', 'At personer og virksomheter påvirker hverandre gjennom samarbeid og kommunikasjon.', 0),
+  ('entreprenorskap-og-bedriftsutvikling-1:samhandling-og-innovasjon', 'Mangfold i team', 'Ulik bakgrunn og kompetanse som gir flere perspektiver.', 1),
+  ('entreprenorskap-og-bedriftsutvikling-1:samhandling-og-innovasjon', 'Psykologisk trygghet', 'At det er trygt å si ifra, spørre og ta feil.', 2),
+  ('entreprenorskap-og-bedriftsutvikling-1:samhandling-og-innovasjon', 'Nettverk', 'Relasjoner som kan gi kunnskap, kunder, finansiering og partnere.', 3),
+  ('entreprenorskap-og-bedriftsutvikling-1:samhandling-og-innovasjon', 'Svake bånd', 'Bekjente som ofte gir ny informasjon.', 4),
+  ('entreprenorskap-og-bedriftsutvikling-1:samhandling-og-innovasjon', 'Åpen innovasjon', 'Å hente ideer utenfra og dele egne ideer med andre.', 5),
+  ('entreprenorskap-og-bedriftsutvikling-1:samhandling-og-innovasjon', 'Brukermedvirkning', 'Brukerne er med i utviklingen fra starten.', 6),
+  ('entreprenorskap-og-bedriftsutvikling-1:samhandling-og-innovasjon', 'Klynge', 'Virksomheter i samme bransje og område som samarbeider og konkurrerer.', 7),
+  ('entreprenorskap-og-bedriftsutvikling-1:samhandling-og-innovasjon', 'Inkubator', 'Hjelper nye virksomheter med kontorplass, veiledning og nettverk.', 8),
+  ('entreprenorskap-og-bedriftsutvikling-1:samhandling-og-innovasjon', 'Akselerator', 'Intensivt program for rask vekst.', 9),
+  ('entreprenorskap-og-bedriftsutvikling-1:samhandling-og-innovasjon', 'Mentor', 'Erfaren person som gir råd til gründere.', 10),
+  ('entreprenorskap-og-bedriftsutvikling-1:samhandling-og-innovasjon', 'Elevbedrift', 'Bedrift som elever driver som en del av undervisningen.', 11),
+  ('entreprenorskap-og-bedriftsutvikling-1:samhandling-og-innovasjon', 'Ungt Entreprenørskap', 'Organisasjon som tilbyr entreprenørskapsprogrammer i skolen.', 12),
+  ('entreprenorskap-og-bedriftsutvikling-1:samhandling-og-innovasjon', 'Forretningshemmelighet', 'Fortrolig informasjon som gir et konkurransefortrinn.', 13),
+  ('entreprenorskap-og-bedriftsutvikling-1:samhandling-og-innovasjon', 'Saklig konflikt', 'Uenighet om saken som kan gi bedre løsninger.', 14);
+delete from public.quiz_sporsmal where tema_id = 'entreprenorskap-og-bedriftsutvikling-1:samhandling-og-innovasjon';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('entreprenorskap-og-bedriftsutvikling-1:samhandling-og-innovasjon', 'q01', 'flervalg', 'Hvorfor gir mangfold i team ofte mer innovasjon?', array['Fordi alle er enige', 'Fordi ulike perspektiver gir flere ideer', 'Fordi det går raskere', 'Fordi det er billigere']::text[], 1, 'Ulik kunnskap møtes.', true, true, 0),
+  ('entreprenorskap-og-bedriftsutvikling-1:samhandling-og-innovasjon', 'q02', 'flervalg', 'Hva er psykologisk trygghet?', array['At det er trygt å si ifra, spørre og ta feil', 'At kontoret er trygt', 'At man har forsikring', 'At lederen bestemmer alt']::text[], 0, 'Viktig for at ideer kommer fram.', true, true, 1),
+  ('entreprenorskap-og-bedriftsutvikling-1:samhandling-og-innovasjon', 'q03', 'flervalg', 'Hva er åpen innovasjon?', array['At alle ideer holdes hemmelige', 'At kontoret er åpent', 'Å hente ideer utenfra og dele egne', 'Å bare jobbe alene']::text[], 2, 'Kunder, leverandører og forskere bidrar.', true, true, 2),
+  ('entreprenorskap-og-bedriftsutvikling-1:samhandling-og-innovasjon', 'q04', 'flervalg', 'Hva er en klynge?', array['Et selskap med mange avdelinger', 'En type lån', 'En gruppe venner', 'Virksomheter i samme bransje og område som samarbeider og konkurrerer']::text[], 3, 'Nærheten gir kunnskap og arbeidskraft.', true, true, 3),
+  ('entreprenorskap-og-bedriftsutvikling-1:samhandling-og-innovasjon', 'q05', 'flervalg', 'Hva gjør en inkubator?', array['Hjelper nye virksomheter med kontorplass, veiledning og nettverk', 'Gir banklån', 'Kontrollerer regnskap', 'Registrerer patenter']::text[], 0, 'Et gründermiljø.', true, true, 4),
+  ('entreprenorskap-og-bedriftsutvikling-1:samhandling-og-innovasjon', 'q06', 'flervalg', 'Hvorfor gir svake bånd ofte ny informasjon?', array['Fordi de kjenner deg godt', 'Fordi de beveger seg i andre miljøer enn deg', 'Fordi de alltid er eksperter', 'Fordi de er familie']::text[], 1, 'Nær familie vet ofte det samme som deg.', true, true, 5),
+  ('entreprenorskap-og-bedriftsutvikling-1:samhandling-og-innovasjon', 'q07', 'flervalg', 'Hva er brukermedvirkning?', array['At brukerne betaler mer', 'At brukerne ikke blir spurt', 'At brukerne er med i utviklingen fra starten', 'At brukerne eier virksomheten']::text[], 2, 'Øker sjansen for at produktet dekker reelle behov.', true, true, 6),
+  ('entreprenorskap-og-bedriftsutvikling-1:samhandling-og-innovasjon', 'q08', 'flervalg', 'Hva kan det offentlige bidra med i innovasjon?', array['Bare skatt', 'Ingenting', 'Bare forbud', 'Finansiering, regler og innkjøp av nye løsninger']::text[], 3, 'Samspill med næringsliv og forskning.', true, true, 7),
+  ('entreprenorskap-og-bedriftsutvikling-1:samhandling-og-innovasjon', 'q09', 'flervalg', 'Når kan konflikter i et team være nyttige?', array['Når de handler om saken', 'Når de blir personlige', 'Når ingen snakker sammen', 'Aldri']::text[], 0, 'Saklig uenighet kan gi bedre løsninger.', true, false, 8),
+  ('entreprenorskap-og-bedriftsutvikling-1:samhandling-og-innovasjon', 'q10', 'flervalg', 'Hva kan gjøre samarbeid lettere?', array['Hemmelige planer', 'Tydelige avtaler og gjensidig tillit', 'At én person gjør alt', 'Ingen kommunikasjon']::text[], 1, 'Hindrer konflikter om eierskap og arbeidsfordeling.', true, false, 9),
+  ('entreprenorskap-og-bedriftsutvikling-1:samhandling-og-innovasjon', 'm01', 'sant-usant', 'De fleste innovasjoner skjer gjennom samarbeid mellom mennesker med ulik kunnskap.', array['Sant', 'Usant']::text[], 0, 'Myten om det ensomme geniet stemmer dårlig.', false, true, 10),
+  ('entreprenorskap-og-bedriftsutvikling-1:samhandling-og-innovasjon', 'm02', 'sant-usant', 'Åpen innovasjon betyr at virksomheten aldri samarbeider med andre.', array['Sant', 'Usant']::text[], 1, 'Det betyr å hente ideer utenfra.', false, true, 11),
+  ('entreprenorskap-og-bedriftsutvikling-1:samhandling-og-innovasjon', 'm03', 'sant-usant', 'Elevbedrift gir erfaring med samarbeid og kundekontakt.', array['Sant', 'Usant']::text[], 0, 'Ofte med mentorer fra næringslivet.', false, true, 12),
+  ('entreprenorskap-og-bedriftsutvikling-1:samhandling-og-innovasjon', 'm04', 'sant-usant', 'Samarbeid kan aldri gi problemer med eierskap til ideer.', array['Sant', 'Usant']::text[], 1, 'Derfor trengs tydelige avtaler.', false, true, 13),
+  ('entreprenorskap-og-bedriftsutvikling-1:samhandling-og-innovasjon', 'm05', 'flervalg', 'Hva er en akselerator?', array['En bil', 'Et intensivt program for rask vekst', 'Et lån', 'Et patent']::text[], 1, 'For virksomheter som vil vokse raskt.', false, true, 14),
+  ('entreprenorskap-og-bedriftsutvikling-1:samhandling-og-innovasjon', 'm06', 'flervalg', 'Hva kan et nettverk gi en gründer?', array['Kunnskap, kunder og finansiering', 'Bare problemer', 'Bare skatt', 'Ingenting']::text[], 0, 'Også samarbeidspartnere.', false, true, 15),
+  ('entreprenorskap-og-bedriftsutvikling-1:samhandling-og-innovasjon', 'm07', 'flervalg', 'Hva er en mentor?', array['En investor som eier alt', 'En konkurrent', 'En erfaren person som gir råd', 'En kunde']::text[], 2, 'Deler erfaring med gründere.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('entreprenorskap-og-bedriftsutvikling-1:samhandling-og-innovasjon', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Entreprenørskap og bedriftsutvikling 1: Marked, kjøpsatferd og segmenter
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('entreprenorskap-og-bedriftsutvikling-1:markeder-og-kjopsatferd', 'entreprenorskap-og-bedriftsutvikling-1', 'markeder-og-kjopsatferd', 'Marked, kjøpsatferd og segmenter', 'Hvordan en gründer finner, sammenligner og vurderer informasjon om markeder, kjøpsatferd og segmenter – markedsstørrelse, bedriftsmarked og forbrukermarked, kundeintervjuer og validering – og bruker informasjonen til å ta beslutninger.', array[6]::int[], 5, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('entreprenorskap-og-bedriftsutvikling-1:markeder-og-kjopsatferd', '## Hvorfor markedsinformasjon?
+
+Mange nye virksomheter feiler fordi de lager noe **ingen vil kjøpe**. God **markedsinformasjon** gjør det mulig å ta **begrunnede beslutninger** om produkt, målgruppe, pris og markedsføring – før man bruker mye penger.
+
+## Typer marked
+
+- **Forbrukermarkedet**: virksomheten selger til **privatpersoner**. Mange kunder, ofte små kjøp og mye påvirkning fra **følelser** og **trender**.
+- **Bedriftsmarkedet**: virksomheten selger til **andre virksomheter** eller det **offentlige**. Færre kunder, større kjøp og mer **rasjonelle** beslutninger, ofte tatt av flere personer.
+
+## Hvor stort er markedet?
+
+En gründer bør anslå
+
+- det **totale markedet** – alle som kunne tenkt seg produktet
+- den delen av markedet virksomheten realistisk kan **nå**
+- hvor stor **markedsandel** den kan få de første årene
+
+Eksempel: Det finnes rundt 1000 elever på skolene i nærområdet. Kanskje 20 % er interessert i sunn lunsj, og kanskje en av fire av dem blir faste kunder. Da er det **realistiske** markedet omtrent 50 kunder – ikke 1000.
+
+## Kjøpsatferd
+
+**Kjøpsatferd** handler om **hvorfor**, **hvordan**, **hvor** og **når** kundene kjøper. Kunden går ofte gjennom en **kjøpsprosess**: behov, informasjonssøk, vurdering, kjøp og erfaring etterpå. Valget påvirkes av
+
+- **psykologiske** faktorer – motiver, holdninger og vaner
+- **sosiale** faktorer – venner, familie og påvirkere
+- **kulturelle** faktorer – verdier og tradisjoner
+- **personlige** faktorer – alder, økonomi og livsstil
+
+For en ny virksomhet er det viktig å forstå hva som får kundene til å **bytte** fra det de bruker i dag.
+
+## Segmenter
+
+**Segmentering** betyr å dele markedet inn i grupper med **like behov**, for eksempel etter **alder**, **bosted**, **livsstil** eller **kjøpsvaner**. En ny virksomhet med små ressurser bør ofte velge **ett** segment – en **nisje** – der den kan bli best.
+
+## Innhente informasjon
+
+- **Sekundærdata**: statistikk fra **SSB**, bransjerapporter, konkurrentenes nettsider og nyhetsartikler.
+- **Primærdata**: egne **spørreundersøkelser**, **intervjuer**, **observasjon** og **tester**.
+
+For gründere er **kundeintervjuer** spesielt nyttige. Still åpne spørsmål om kundens **problemer** og hva hen gjør i dag – ikke bare «vil du kjøpe dette?». Folk er ofte **høflige** og sier ja uten å mene det.
+
+## Validering
+
+**Validering** betyr å **teste** om antakelsene holder før man satser stort:
+
+- Vil kundene faktisk **betale**?
+- Kan du få **forhåndsbestillinger** eller påmeldinger?
+- Hvordan reagerer folk på et **minimumsprodukt**?
+
+Det kundene **gjør**, er sterkere bevis enn det de **sier**.
+
+## Sammenligne og vurdere
+
+Når informasjonen kommer fra flere kilder, bør du **sammenligne** den:
+
+- Peker kildene i **samme retning**?
+- Er dataene **oppdaterte**?
+- Er utvalget **stort** og **representativt** nok?
+- Har kilden en **egeninteresse**?
+
+På grunnlag av dette kan gründeren ta **beslutninger** – for eksempel å velge et annet segment, justere prisen eller endre produktet.', '{"label":"Marked og kjøpsatferd","children":[{"label":"Marked","children":[{"label":"Forbruker og bedrift"},{"label":"Totalt og realistisk"},{"label":"Markedsandel"}]},{"label":"Kjøpsatferd","children":[{"label":"Kjøpsprosess"},{"label":"Påvirkningsfaktorer"}]},{"label":"Segmenter","children":[{"label":"Segmentering"},{"label":"Nisje"}]},{"label":"Informasjon","children":[{"label":"Sekundærdata"},{"label":"Kundeintervjuer"},{"label":"Validering"}]},{"label":"Beslutninger","children":[{"label":"Sammenligne kilder"},{"label":"Justere idé og segment"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'entreprenorskap-og-bedriftsutvikling-1:markeder-og-kjopsatferd';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('entreprenorskap-og-bedriftsutvikling-1:markeder-og-kjopsatferd', 'Markedsinformasjon', 'Informasjon om marked, kunder og konkurrenter som grunnlag for beslutninger.', 0),
+  ('entreprenorskap-og-bedriftsutvikling-1:markeder-og-kjopsatferd', 'Forbrukermarked', 'Salg til privatpersoner.', 1),
+  ('entreprenorskap-og-bedriftsutvikling-1:markeder-og-kjopsatferd', 'Bedriftsmarked', 'Salg til andre virksomheter eller det offentlige.', 2),
+  ('entreprenorskap-og-bedriftsutvikling-1:markeder-og-kjopsatferd', 'Totalt marked', 'Alle som kunne tenkt seg produktet.', 3),
+  ('entreprenorskap-og-bedriftsutvikling-1:markeder-og-kjopsatferd', 'Realistisk marked', 'Den delen av markedet virksomheten faktisk kan nå.', 4),
+  ('entreprenorskap-og-bedriftsutvikling-1:markeder-og-kjopsatferd', 'Markedsandel', 'Virksomhetens andel av det totale salget i markedet.', 5),
+  ('entreprenorskap-og-bedriftsutvikling-1:markeder-og-kjopsatferd', 'Kjøpsatferd', 'Hvorfor, hvordan, hvor og når kundene kjøper.', 6),
+  ('entreprenorskap-og-bedriftsutvikling-1:markeder-og-kjopsatferd', 'Kjøpsprosess', 'Behov, informasjonssøk, vurdering, kjøp og erfaring etterpå.', 7),
+  ('entreprenorskap-og-bedriftsutvikling-1:markeder-og-kjopsatferd', 'Segmentering', 'Å dele markedet i grupper med like behov.', 8),
+  ('entreprenorskap-og-bedriftsutvikling-1:markeder-og-kjopsatferd', 'Nisje', 'Et smalt segment der en liten virksomhet kan bli best.', 9),
+  ('entreprenorskap-og-bedriftsutvikling-1:markeder-og-kjopsatferd', 'Sekundærdata', 'Informasjon som allerede finnes.', 10),
+  ('entreprenorskap-og-bedriftsutvikling-1:markeder-og-kjopsatferd', 'Primærdata', 'Informasjon virksomheten samler inn selv.', 11),
+  ('entreprenorskap-og-bedriftsutvikling-1:markeder-og-kjopsatferd', 'Kundeintervju', 'Samtale med mulige kunder om deres problemer og behov.', 12),
+  ('entreprenorskap-og-bedriftsutvikling-1:markeder-og-kjopsatferd', 'Validering', 'Å teste om antakelsene holder før man satser stort.', 13),
+  ('entreprenorskap-og-bedriftsutvikling-1:markeder-og-kjopsatferd', 'Forhåndsbestilling', 'Kunder bestiller før produktet finnes – sterkt bevis på etterspørsel.', 14);
+delete from public.quiz_sporsmal where tema_id = 'entreprenorskap-og-bedriftsutvikling-1:markeder-og-kjopsatferd';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('entreprenorskap-og-bedriftsutvikling-1:markeder-og-kjopsatferd', 'q01', 'flervalg', 'Hvorfor feiler mange nye virksomheter?', array['De har for mange kunder', 'De lager noe ingen vil kjøpe', 'De har for lave kostnader', 'De har for mye markedsinformasjon']::text[], 1, 'Markedsinformasjon reduserer risikoen.', true, true, 0),
+  ('entreprenorskap-og-bedriftsutvikling-1:markeder-og-kjopsatferd', 'q02', 'flervalg', 'Hva kjennetegner bedriftsmarkedet?', array['Færre kunder, større kjøp og mer rasjonelle beslutninger', 'Mange små kjøp', 'Bare impulskjøp', 'Bare privatpersoner']::text[], 0, 'Ofte tar flere personer beslutningen.', true, true, 1),
+  ('entreprenorskap-og-bedriftsutvikling-1:markeder-og-kjopsatferd', 'q03', 'flervalg', '1000 elever, 20 % interessert og en av fire blir faste kunder. Hvor stort er det realistiske markedet?', array['1000', '200', '50', '250']::text[], 2, '1000 · 0,2 · 0,25 = 50.', true, true, 2),
+  ('entreprenorskap-og-bedriftsutvikling-1:markeder-og-kjopsatferd', 'q04', 'flervalg', 'Hva er en nisje?', array['Hele markedet', 'En type lån', 'En konkurrent', 'Et smalt segment der en liten virksomhet kan bli best']::text[], 3, 'Passer for virksomheter med små ressurser.', true, true, 3),
+  ('entreprenorskap-og-bedriftsutvikling-1:markeder-og-kjopsatferd', 'q05', 'flervalg', 'Hva er validering?', array['Å teste om antakelsene holder før man satser stort', 'Å registrere selskapet', 'Å lage logo', 'Å betale skatt']::text[], 0, 'Reduserer risikoen.', true, true, 4),
+  ('entreprenorskap-og-bedriftsutvikling-1:markeder-og-kjopsatferd', 'q06', 'flervalg', 'Hvorfor er «vil du kjøpe dette?» et svakt spørsmål i et kundeintervju?', array['Det er for langt', 'Folk er ofte høflige og sier ja uten å mene det', 'Det er ulovlig', 'Det gir for mye informasjon']::text[], 1, 'Spør heller om problemer og dagens løsninger.', true, true, 5),
+  ('entreprenorskap-og-bedriftsutvikling-1:markeder-og-kjopsatferd', 'q07', 'flervalg', 'Hvilket bevis på etterspørsel er sterkest?', array['At venner sier ideen er bra', 'At man selv liker ideen', 'Forhåndsbestillinger fra kunder', 'At ideen er original']::text[], 2, 'Det kundene gjør, teller mest.', true, true, 6),
+  ('entreprenorskap-og-bedriftsutvikling-1:markeder-og-kjopsatferd', 'q08', 'flervalg', 'Hva er et eksempel på sekundærdata?', array['Egne kundeintervjuer', 'En egen spørreundersøkelse', 'Observasjon i butikk', 'Statistikk fra SSB']::text[], 3, 'Informasjon som allerede finnes.', true, true, 7),
+  ('entreprenorskap-og-bedriftsutvikling-1:markeder-og-kjopsatferd', 'q09', 'flervalg', 'Hva bør du spørre deg når du sammenligner informasjon fra flere kilder?', array['Om kildene peker i samme retning og er oppdaterte', 'Om kildene er lange', 'Om kildene har bilder', 'Om kildene er gratis']::text[], 0, 'Og om kilden har egeninteresse.', true, false, 8),
+  ('entreprenorskap-og-bedriftsutvikling-1:markeder-og-kjopsatferd', 'q10', 'flervalg', 'Hvorfor er det viktig å forstå hva som får kunder til å bytte?', array['Fordi kunder aldri bytter', 'Fordi nye virksomheter må vinne kunder fra det de bruker i dag', 'Fordi det er lovpålagt', 'Fordi det gir patent']::text[], 1, 'Konkurransen er ofte dagens løsning.', true, false, 9),
+  ('entreprenorskap-og-bedriftsutvikling-1:markeder-og-kjopsatferd', 'm01', 'sant-usant', 'Det kundene gjør, er sterkere bevis enn det de sier.', array['Sant', 'Usant']::text[], 0, 'For eksempel forhåndsbestillinger.', false, true, 10),
+  ('entreprenorskap-og-bedriftsutvikling-1:markeder-og-kjopsatferd', 'm02', 'sant-usant', 'En ny virksomhet bør alltid satse på hele markedet med en gang.', array['Sant', 'Usant']::text[], 1, 'Ofte er det lurt å starte i en nisje.', false, true, 11),
+  ('entreprenorskap-og-bedriftsutvikling-1:markeder-og-kjopsatferd', 'm03', 'sant-usant', 'I bedriftsmarkedet tas kjøpsbeslutninger ofte av flere personer.', array['Sant', 'Usant']::text[], 0, 'For eksempel innkjøper og leder.', false, true, 12),
+  ('entreprenorskap-og-bedriftsutvikling-1:markeder-og-kjopsatferd', 'm04', 'sant-usant', 'Det realistiske markedet er som regel like stort som det totale markedet.', array['Sant', 'Usant']::text[], 1, 'Det er som regel mye mindre.', false, true, 13),
+  ('entreprenorskap-og-bedriftsutvikling-1:markeder-og-kjopsatferd', 'm05', 'flervalg', 'Hvilket spørsmål passer best i et kundeintervju?', array['«Vil du kjøpe dette?»', '«Hvordan løser du dette problemet i dag?»', '«Synes du ideen er bra?»', '«Kan du anbefale oss?»']::text[], 1, 'Åpne spørsmål om kundens problemer.', false, true, 14),
+  ('entreprenorskap-og-bedriftsutvikling-1:markeder-og-kjopsatferd', 'm06', 'flervalg', 'Hva kjennetegner forbrukermarkedet?', array['Mange kunder og mye påvirkning fra følelser og trender', 'Få, store kunder', 'Bare offentlige innkjøp', 'Bare rasjonelle beslutninger']::text[], 0, 'Salg til privatpersoner.', false, true, 15),
+  ('entreprenorskap-og-bedriftsutvikling-1:markeder-og-kjopsatferd', 'm07', 'flervalg', 'Hva kan en gründer gjøre hvis markedsinformasjonen viser lite interesse?', array['Ignorere den', 'Låne mer penger', 'Velge et annet segment eller endre produktet', 'Heve prisen kraftig']::text[], 2, 'Informasjonen skal brukes til beslutninger.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('entreprenorskap-og-bedriftsutvikling-1:markeder-og-kjopsatferd', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Entreprenørskap og bedriftsutvikling 1: Situasjonsanalyse, utviklingsmuligheter og mål
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('entreprenorskap-og-bedriftsutvikling-1:situasjonsanalyse-og-mal', 'entreprenorskap-og-bedriftsutvikling-1', 'situasjonsanalyse-og-mal', 'Situasjonsanalyse, utviklingsmuligheter og mål', 'Hvordan en ny virksomhet analyserer seg selv og omgivelsene med SWOT, PESTEL og Porters fem konkurransekrefter, vurderer utviklingsmuligheter med Ansoffs vekstmatrise og setter realistiske mål og milepæler i oppstartsfasen.', array[7]::int[], 6, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('entreprenorskap-og-bedriftsutvikling-1:situasjonsanalyse-og-mal', '## Hvorfor situasjonsanalyse i oppstarten?
+
+En gründer må vite **hvor virksomheten står** og **hva som skjer rundt den** før hen setter mål og velger strategi. En **situasjonsanalyse** ser både **innover** på egne ressurser og **utover** mot markedet og samfunnet.
+
+## Intern analyse
+
+I oppstartsfasen er ressursene ofte **få**. Gründeren bør kartlegge
+
+- **kompetanse** – hva teamet kan, og hva som mangler
+- **kapital** – hvor mye penger som er tilgjengelig
+- **nettverk** – hvem som kan hjelpe
+- **tid** – hvor mye tid teamet faktisk har
+- **produktet** – hva som gjør det unikt
+
+## Ekstern analyse
+
+**PESTEL** ser på politiske, økonomiske, sosiale, teknologiske, miljømessige og juridiske forhold – for eksempel renter, trender og nye regler.
+
+**Porters fem konkurransekrefter** beskriver hvor **hard** konkurransen i en bransje er:
+
+1. **Rivalisering** mellom eksisterende konkurrenter
+2. **Trusselen fra nye aktører** – hvor lett det er å etablere seg
+3. **Trusselen fra erstatningsprodukter** – andre løsninger på samme behov
+4. **Leverandørenes forhandlingsmakt**
+5. **Kundenes forhandlingsmakt**
+
+Jo sterkere kreftene er, desto vanskeligere er det å tjene penger i bransjen.
+
+## SWOT
+
+**SWOT-analysen** samler funnene i **styrker** og **svakheter** (internt) og **muligheter** og **trusler** (eksternt). Analysen er bare nyttig når den brukes til å **velge strategi**: bruke styrker til å utnytte muligheter, og redusere svakheter som gjør virksomheten sårbar for trusler.
+
+## Utviklingsmuligheter – Ansoffs vekstmatrise
+
+**Igor Ansoff** beskrev fire måter en virksomhet kan vokse på:
+
+| | Eksisterende marked | Nytt marked |
+|---|---|---|
+| **Eksisterende produkt** | **Markedspenetrasjon** – selge mer til dagens kunder | **Markedsutvikling** – nye kundegrupper eller steder |
+| **Nytt produkt** | **Produktutvikling** – nye produkter til dagens kunder | **Diversifisering** – nye produkter til nye markeder |
+
+**Risikoen** øker jo lenger bort fra det kjente virksomheten går. **Diversifisering** har høyest risiko.
+
+## Mål i oppstartsfasen
+
+Målene bygger på **visjonen** og **forretningsidéen**. Gode mål er **SMARTE**: spesifikke, målbare, akseptert, realistiske og tidsbestemte.
+
+I oppstarten kan det være lurt å sette
+
+- **salgsmål** – for eksempel 100 solgte enheter innen tre måneder
+- **økonomiske mål** – for eksempel å nå **nullpunktet** innen ett år
+- **kundemål** – antall kunder eller kundetilfredshet
+- **milepæler** – viktige steg, som ferdig prototyp, første kunde og lansering
+
+## Vær realistisk
+
+Mange gründere er **for optimistiske**. Salget tar ofte **lengre tid**, og kostnadene blir **høyere** enn planlagt. Derfor bør målene **følges opp** og **justeres** når man lærer mer om markedet.
+
+## Eksempel
+
+En elevbedrift som selger gjenbrukte vesker, finner at en **styrke** er et kreativt team, en **svakhet** er lite kapital, en **mulighet** er økende interesse for gjenbruk, og en **trussel** er billige vesker på nett. Den velger **markedspenetrasjon** på skolen først og setter målet «selge 60 vesker innen jul».', '{"label":"Situasjonsanalyse og mål","children":[{"label":"Intern","children":[{"label":"Kompetanse og kapital"},{"label":"Nettverk og tid"}]},{"label":"Ekstern","children":[{"label":"PESTEL"},{"label":"Porters fem krefter"}]},{"label":"SWOT","children":[{"label":"Styrker og svakheter"},{"label":"Muligheter og trusler"}]},{"label":"Ansoff","children":[{"label":"Markedspenetrasjon"},{"label":"Markeds- og produktutvikling"},{"label":"Diversifisering"}]},{"label":"Mål","children":[{"label":"SMARTE mål"},{"label":"Milepæler"},{"label":"Justering"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'entreprenorskap-og-bedriftsutvikling-1:situasjonsanalyse-og-mal';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('entreprenorskap-og-bedriftsutvikling-1:situasjonsanalyse-og-mal', 'Situasjonsanalyse', 'Kartlegging av egne ressurser og omgivelsene.', 0),
+  ('entreprenorskap-og-bedriftsutvikling-1:situasjonsanalyse-og-mal', 'Intern analyse i oppstart', 'Kompetanse, kapital, nettverk, tid og produkt.', 1),
+  ('entreprenorskap-og-bedriftsutvikling-1:situasjonsanalyse-og-mal', 'PESTEL', 'Politiske, økonomiske, sosiale, teknologiske, miljømessige og juridiske forhold.', 2),
+  ('entreprenorskap-og-bedriftsutvikling-1:situasjonsanalyse-og-mal', 'Porters fem konkurransekrefter', 'Rivalisering, nye aktører, erstatningsprodukter, leverandørmakt og kundemakt.', 3),
+  ('entreprenorskap-og-bedriftsutvikling-1:situasjonsanalyse-og-mal', 'Erstatningsprodukt', 'En annen løsning på samme behov.', 4),
+  ('entreprenorskap-og-bedriftsutvikling-1:situasjonsanalyse-og-mal', 'Trussel fra nye aktører', 'Hvor lett det er for nye å etablere seg i bransjen.', 5),
+  ('entreprenorskap-og-bedriftsutvikling-1:situasjonsanalyse-og-mal', 'SWOT', 'Styrker, svakheter, muligheter og trusler.', 6),
+  ('entreprenorskap-og-bedriftsutvikling-1:situasjonsanalyse-og-mal', 'Ansoffs vekstmatrise', 'Fire vekststrategier ut fra produkt og marked.', 7),
+  ('entreprenorskap-og-bedriftsutvikling-1:situasjonsanalyse-og-mal', 'Markedspenetrasjon', 'Selge mer av dagens produkt til dagens kunder.', 8),
+  ('entreprenorskap-og-bedriftsutvikling-1:situasjonsanalyse-og-mal', 'Markedsutvikling', 'Selge dagens produkt til nye kundegrupper eller steder.', 9),
+  ('entreprenorskap-og-bedriftsutvikling-1:situasjonsanalyse-og-mal', 'Produktutvikling', 'Nye produkter til dagens kunder.', 10),
+  ('entreprenorskap-og-bedriftsutvikling-1:situasjonsanalyse-og-mal', 'Diversifisering', 'Nye produkter til nye markeder – høyest risiko.', 11),
+  ('entreprenorskap-og-bedriftsutvikling-1:situasjonsanalyse-og-mal', 'SMARTE mål', 'Spesifikke, målbare, akseptert, realistiske og tidsbestemte.', 12),
+  ('entreprenorskap-og-bedriftsutvikling-1:situasjonsanalyse-og-mal', 'Milepæl', 'Viktig steg på veien, som første kunde eller lansering.', 13),
+  ('entreprenorskap-og-bedriftsutvikling-1:situasjonsanalyse-og-mal', 'Nullpunkt', 'Når inntektene akkurat dekker kostnadene.', 14);
+delete from public.quiz_sporsmal where tema_id = 'entreprenorskap-og-bedriftsutvikling-1:situasjonsanalyse-og-mal';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('entreprenorskap-og-bedriftsutvikling-1:situasjonsanalyse-og-mal', 'q01', 'flervalg', 'Hva hører til den interne analysen i oppstartsfasen?', array['Renten', 'Teamets kompetanse og kapital', 'Nye lover', 'Konkurrentenes priser']::text[], 1, 'Forhold virksomheten selv rår over.', true, true, 0),
+  ('entreprenorskap-og-bedriftsutvikling-1:situasjonsanalyse-og-mal', 'q02', 'flervalg', 'Hvilken kraft hører til Porters fem konkurransekrefter?', array['Trusselen fra erstatningsprodukter', 'De ansattes motivasjon', 'Logoen', 'Visjonen']::text[], 0, 'Andre løsninger på samme behov.', true, true, 1),
+  ('entreprenorskap-og-bedriftsutvikling-1:situasjonsanalyse-og-mal', 'q03', 'flervalg', 'Hva betyr sterke konkurransekrefter?', array['At det er lett å tjene penger', 'At det ikke finnes konkurrenter', 'At det er vanskeligere å tjene penger i bransjen', 'At prisene alltid er høye']::text[], 2, 'Konkurransen presser marginene.', true, true, 2),
+  ('entreprenorskap-og-bedriftsutvikling-1:situasjonsanalyse-og-mal', 'q04', 'flervalg', 'Hvilken strategi i Ansoffs matrise har høyest risiko?', array['Markedspenetrasjon', 'Markedsutvikling', 'Produktutvikling', 'Diversifisering']::text[], 3, 'Både produkt og marked er nytt.', true, true, 3),
+  ('entreprenorskap-og-bedriftsutvikling-1:situasjonsanalyse-og-mal', 'q05', 'flervalg', 'Å selge mer av dagens produkt til dagens kunder er', array['markedspenetrasjon', 'diversifisering', 'markedsutvikling', 'produktutvikling']::text[], 0, 'Den tryggeste veien til vekst.', true, true, 4),
+  ('entreprenorskap-og-bedriftsutvikling-1:situasjonsanalyse-og-mal', 'q06', 'flervalg', 'En kafé begynner å selge den samme kaffen i en ny by. Hvilken strategi er dette?', array['Produktutvikling', 'Markedsutvikling', 'Diversifisering', 'Markedspenetrasjon']::text[], 1, 'Eksisterende produkt, nytt marked.', true, true, 5),
+  ('entreprenorskap-og-bedriftsutvikling-1:situasjonsanalyse-og-mal', 'q07', 'flervalg', 'Hva er en milepæl?', array['Et budsjett', 'En konkurrent', 'Et viktig steg på veien, som første kunde', 'En type lån']::text[], 2, 'Nyttig for å følge framdriften.', true, true, 6),
+  ('entreprenorskap-og-bedriftsutvikling-1:situasjonsanalyse-og-mal', 'q08', 'flervalg', 'Hvorfor bør mål i oppstartsfasen justeres underveis?', array['Fordi mål ikke betyr noe', 'Fordi loven krever det', 'Fordi konkurrentene bestemmer', 'Fordi man lærer mer om markedet, og mange er for optimistiske']::text[], 3, 'Salget tar ofte lengre tid enn planlagt.', true, true, 7),
+  ('entreprenorskap-og-bedriftsutvikling-1:situasjonsanalyse-og-mal', 'q09', 'flervalg', 'Hvilket mål er SMART?', array['Selge 60 vesker innen jul', 'Bli kjent', 'Selge mye', 'Få fornøyde kunder']::text[], 0, 'Spesifikt, målbart og tidsbestemt.', true, false, 8),
+  ('entreprenorskap-og-bedriftsutvikling-1:situasjonsanalyse-og-mal', 'q10', 'flervalg', 'Hva er kundenes forhandlingsmakt?', array['Hvor mange ansatte kundene har', 'Hvor mye kundene kan presse prisen eller kreve', 'Hvor gamle kundene er', 'Hvor kundene bor']::text[], 1, 'Stor når kundene er få og store.', true, false, 9),
+  ('entreprenorskap-og-bedriftsutvikling-1:situasjonsanalyse-og-mal', 'm01', 'sant-usant', 'Mange gründere er for optimistiske om salg og kostnader.', array['Sant', 'Usant']::text[], 0, 'Derfor må målene følges opp.', false, true, 10),
+  ('entreprenorskap-og-bedriftsutvikling-1:situasjonsanalyse-og-mal', 'm02', 'sant-usant', 'Diversifisering er den tryggeste vekststrategien.', array['Sant', 'Usant']::text[], 1, 'Den har høyest risiko.', false, true, 11),
+  ('entreprenorskap-og-bedriftsutvikling-1:situasjonsanalyse-og-mal', 'm03', 'sant-usant', 'Hvis det er lett for nye aktører å etablere seg, øker konkurransen.', array['Sant', 'Usant']::text[], 0, 'En av Porters fem krefter.', false, true, 12),
+  ('entreprenorskap-og-bedriftsutvikling-1:situasjonsanalyse-og-mal', 'm04', 'sant-usant', 'SWOT-analysen er ferdig når de fire feltene er fylt ut.', array['Sant', 'Usant']::text[], 1, 'Den må brukes til å velge strategi.', false, true, 13),
+  ('entreprenorskap-og-bedriftsutvikling-1:situasjonsanalyse-og-mal', 'm05', 'flervalg', 'Hva er produktutvikling i Ansoffs matrise?', array['Dagens produkt til nye markeder', 'Nye produkter til dagens kunder', 'Nye produkter til nye markeder', 'Dagens produkt til dagens kunder']::text[], 1, 'For eksempel en ny smak til faste kunder.', false, true, 14),
+  ('entreprenorskap-og-bedriftsutvikling-1:situasjonsanalyse-og-mal', 'm06', 'flervalg', 'Hva er et økonomisk mål i oppstartsfasen?', array['Å nå nullpunktet innen ett år', 'Å få en fin logo', 'Å ha et godt teammøte', 'Å velge farge på butikken']::text[], 0, 'Inntektene skal dekke kostnadene.', false, true, 15),
+  ('entreprenorskap-og-bedriftsutvikling-1:situasjonsanalyse-og-mal', 'm07', 'flervalg', 'Hva er et erstatningsprodukt for en kino?', array['En annen kino', 'En popcornleverandør', 'En strømmetjeneste', 'En billettautomat']::text[], 2, 'Dekker samme behov på en annen måte.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('entreprenorskap-og-bedriftsutvikling-1:situasjonsanalyse-og-mal', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Entreprenørskap og bedriftsutvikling 1: Konkurransemidler i oppstartsfasen
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('entreprenorskap-og-bedriftsutvikling-1:konkurransemidler-i-oppstartsfasen', 'entreprenorskap-og-bedriftsutvikling-1', 'konkurransemidler-i-oppstartsfasen', 'Konkurransemidler i oppstartsfasen', 'Hvordan en ny virksomhet med små ressurser kan bruke produkt, pris, distribusjon, kommunikasjon og personlig service for å vinne sine første kunder – og hvordan en lanseringsplan settes opp.', array[8]::int[], 7, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('entreprenorskap-og-bedriftsutvikling-1:konkurransemidler-i-oppstartsfasen', '## Små ressurser – store valg
+
+En ny virksomhet har som regel lite **penger**, lite **tid** og få **ansatte**. Den er ofte **ukjent** for kundene. Derfor må gründeren **prioritere** og være **kreativ** med **konkurransemidlene** – produkt, pris, plass og påvirkning.
+
+## Produkt
+
+- Start med et **enkelt** produkt som løser **kjernebehovet** godt – et **minimumsprodukt** – og forbedre det ut fra tilbakemeldinger.
+- Sørg for jevn **kvalitet**. De første kundene er viktige **ambassadører**.
+- Velg et **navn** som er lett å huske. Sjekk at navnet ikke er tatt som **varemerke**, og at **domenenavnet** er ledig.
+- En enkel, tydelig **logo** og **emballasje** gir et profesjonelt inntrykk.
+
+## Pris
+
+- Prisen må på sikt **dekke kostnadene** og gi **overskudd**. Mange gründere setter prisen for **lavt** fordi de glemmer egen arbeidstid og skjulte kostnader.
+- **Introduksjonspris** eller **lanseringstilbud** kan få kundene til å prøve produktet.
+- **Skumming** – høy startpris – passer når produktet er **unikt**, og kundene er villige til å betale for å være først.
+- Gjør det **enkelt** å betale, for eksempel med kort og mobilbetaling.
+
+## Plass – distribusjon
+
+- **Direkte salg** gir kontakt med kundene og ingen mellomledd.
+- **Nettbutikk** og **markedsplasser** på nett gir mange kunder, men krever god logistikk.
+- **Pop-up-butikker**, **markeder** og **messer** er billige måter å møte kunder på.
+- **Samarbeid** med eksisterende butikker kan gi rask tilgang til kunder, men butikken tar en andel av prisen.
+
+## Påvirkning – kommunikasjon
+
+- **Sosiale medier**: gratis å bruke, men krever jevnlig og engasjerende **innhold**.
+- **Eget nettverk**: familie, venner og tidligere kolleger kan bli de første kundene.
+- **Anbefalinger** fra fornøyde kunder – jungeltelegrafen – er ofte det mest **troverdige**.
+- **PR**: Lokalaviser og radio skriver gjerne om nye, spennende virksomheter. Det er **gratis** omtale.
+- **Geriljamarkedsføring**: kreative, overraskende og billige aktiviteter som vekker oppmerksomhet.
+- **Samarbeid med påvirkere** med små, men engasjerte følgerskarer kan gi god effekt for lite penger. Samarbeidet må **merkes** som reklame.
+- **Personlig salg**: Gründeren selv er ofte den beste selgeren fordi hen brenner for produktet.
+
+## Personlig service
+
+En liten virksomhet kan konkurrere med **nærhet**, **fleksibilitet** og **personlig** service – noe store kjeder ofte ikke klarer.
+
+## Lanseringsplan
+
+1. **Før lansering**: test produktet, bygg følgere i sosiale medier, kontakt pressen.
+2. **Lansering**: et **arrangement**, et lanseringstilbud eller en kampanje som skaper oppmerksomhet.
+3. **Etter lansering**: følg opp kundene, samle **tilbakemeldinger**, mål **salget** og juster.
+
+## Helhet
+
+Konkurransemidlene må **henge sammen**. Et produkt som skal oppleves som eksklusivt, bør ikke selges på billigsalg overalt. Velg de konkurransemidlene som gir mest **effekt** for pengene – og mål hva som virker.', '{"label":"Konkurransemidler i oppstarten","children":[{"label":"Produkt","children":[{"label":"Minimumsprodukt"},{"label":"Navn og logo"}]},{"label":"Pris","children":[{"label":"Dekke kostnader"},{"label":"Introduksjon eller skumming"}]},{"label":"Plass","children":[{"label":"Direkte og nett"},{"label":"Pop-up og marked"}]},{"label":"Påvirkning","children":[{"label":"Sosiale medier og nettverk"},{"label":"PR og anbefalinger"},{"label":"Geriljamarkedsføring"}]},{"label":"Lansering","children":[{"label":"Før"},{"label":"Under"},{"label":"Etter"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'entreprenorskap-og-bedriftsutvikling-1:konkurransemidler-i-oppstartsfasen';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('entreprenorskap-og-bedriftsutvikling-1:konkurransemidler-i-oppstartsfasen', 'Konkurransemidler', 'Produkt, pris, plass og påvirkning.', 0),
+  ('entreprenorskap-og-bedriftsutvikling-1:konkurransemidler-i-oppstartsfasen', 'Minimumsprodukt', 'Enkel første versjon som løser kjernebehovet.', 1),
+  ('entreprenorskap-og-bedriftsutvikling-1:konkurransemidler-i-oppstartsfasen', 'Domenenavn', 'Adressen til nettsiden – bør sjekkes tidlig.', 2),
+  ('entreprenorskap-og-bedriftsutvikling-1:konkurransemidler-i-oppstartsfasen', 'Introduksjonspris', 'Lav startpris for å få kundene til å prøve.', 3),
+  ('entreprenorskap-og-bedriftsutvikling-1:konkurransemidler-i-oppstartsfasen', 'Skumming', 'Høy startpris når produktet er unikt.', 4),
+  ('entreprenorskap-og-bedriftsutvikling-1:konkurransemidler-i-oppstartsfasen', 'Direkte salg', 'Salg rett til kunden uten mellomledd.', 5),
+  ('entreprenorskap-og-bedriftsutvikling-1:konkurransemidler-i-oppstartsfasen', 'Pop-up-butikk', 'Midlertidig butikk som er billig å etablere.', 6),
+  ('entreprenorskap-og-bedriftsutvikling-1:konkurransemidler-i-oppstartsfasen', 'Markedsplass på nett', 'Nettsted der mange selgere når mange kunder.', 7),
+  ('entreprenorskap-og-bedriftsutvikling-1:konkurransemidler-i-oppstartsfasen', 'Jungeltelegrafen', 'Anbefalinger fra fornøyde kunder.', 8),
+  ('entreprenorskap-og-bedriftsutvikling-1:konkurransemidler-i-oppstartsfasen', 'PR i oppstarten', 'Gratis omtale i lokale medier.', 9),
+  ('entreprenorskap-og-bedriftsutvikling-1:konkurransemidler-i-oppstartsfasen', 'Geriljamarkedsføring', 'Kreative, overraskende og billige aktiviteter.', 10),
+  ('entreprenorskap-og-bedriftsutvikling-1:konkurransemidler-i-oppstartsfasen', 'Mikropåvirker', 'Påvirker med liten, men engasjert følgerskare.', 11),
+  ('entreprenorskap-og-bedriftsutvikling-1:konkurransemidler-i-oppstartsfasen', 'Personlig service', 'Nærhet og fleksibilitet som konkurransefortrinn for små virksomheter.', 12),
+  ('entreprenorskap-og-bedriftsutvikling-1:konkurransemidler-i-oppstartsfasen', 'Lanseringsplan', 'Aktiviteter før, under og etter lansering.', 13),
+  ('entreprenorskap-og-bedriftsutvikling-1:konkurransemidler-i-oppstartsfasen', 'Ambassadør', 'Fornøyd kunde som anbefaler virksomheten til andre.', 14);
+delete from public.quiz_sporsmal where tema_id = 'entreprenorskap-og-bedriftsutvikling-1:konkurransemidler-i-oppstartsfasen';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('entreprenorskap-og-bedriftsutvikling-1:konkurransemidler-i-oppstartsfasen', 'q01', 'flervalg', 'Hvorfor må en ny virksomhet prioritere konkurransemidlene nøye?', array['Fordi den har mye penger', 'Fordi den har små ressurser og er ukjent', 'Fordi loven krever det', 'Fordi den ikke har konkurrenter']::text[], 1, 'Pengene må gi mest mulig effekt.', true, true, 0),
+  ('entreprenorskap-og-bedriftsutvikling-1:konkurransemidler-i-oppstartsfasen', 'q02', 'flervalg', 'Hvorfor setter mange gründere prisen for lavt?', array['De glemmer egen arbeidstid og skjulte kostnader', 'De vil ha få kunder', 'De har for høye kostnader', 'Loven krever lav pris']::text[], 0, 'Prisen må dekke alle kostnader over tid.', true, true, 1),
+  ('entreprenorskap-og-bedriftsutvikling-1:konkurransemidler-i-oppstartsfasen', 'q03', 'flervalg', 'Hva bør du sjekke før du velger navn på virksomheten?', array['At navnet er langt', 'At navnet er på engelsk', 'At det ikke er tatt som varemerke, og at domenenavnet er ledig', 'At navnet ligner konkurrentens']::text[], 2, 'Unngå konflikter senere.', true, true, 2),
+  ('entreprenorskap-og-bedriftsutvikling-1:konkurransemidler-i-oppstartsfasen', 'q04', 'flervalg', 'Hva er geriljamarkedsføring?', array['Dyr TV-reklame', 'Reklame i aviser', 'Salg via grossister', 'Kreative, overraskende og billige aktiviteter']::text[], 3, 'Passer når budsjettet er lite.', true, true, 3),
+  ('entreprenorskap-og-bedriftsutvikling-1:konkurransemidler-i-oppstartsfasen', 'q05', 'flervalg', 'Hvilken kommunikasjon er ofte mest troverdig?', array['Anbefalinger fra fornøyde kunder', 'Egne annonser', 'Plakater', 'Pressemeldinger']::text[], 0, 'Jungeltelegrafen.', true, true, 4),
+  ('entreprenorskap-og-bedriftsutvikling-1:konkurransemidler-i-oppstartsfasen', 'q06', 'flervalg', 'Når passer skumming for en ny virksomhet?', array['Når produktet er likt alle andre', 'Når produktet er unikt og kundene vil betale for å være først', 'Når man vil ha flest mulig kunder raskt', 'Aldri']::text[], 1, 'Høy startpris.', true, true, 5),
+  ('entreprenorskap-og-bedriftsutvikling-1:konkurransemidler-i-oppstartsfasen', 'q07', 'flervalg', 'Hva er en fordel med pop-up-butikker?', array['De er permanente', 'De krever store investeringer', 'De er billige måter å møte kunder på', 'De har ingen kunder']::text[], 2, 'Midlertidige.', true, true, 6),
+  ('entreprenorskap-og-bedriftsutvikling-1:konkurransemidler-i-oppstartsfasen', 'q08', 'flervalg', 'Hva hører til fasen etter lansering?', array['Å velge navn', 'Å finne en idé', 'Å registrere selskapet', 'Å samle tilbakemeldinger og måle salget']::text[], 3, 'Og justere.', true, true, 7),
+  ('entreprenorskap-og-bedriftsutvikling-1:konkurransemidler-i-oppstartsfasen', 'q09', 'flervalg', 'Hvordan kan en liten virksomhet konkurrere med store kjeder?', array['Med nærhet og personlig service', 'Med de laveste prisene alltid', 'Med mest reklame', 'Med flest butikker']::text[], 0, 'Fleksibilitet er en styrke.', true, false, 8),
+  ('entreprenorskap-og-bedriftsutvikling-1:konkurransemidler-i-oppstartsfasen', 'q10', 'flervalg', 'Hva må et samarbeid med en påvirker merkes som?', array['Nyheter', 'Reklame', 'Privat innlegg', 'Ingenting']::text[], 1, 'Skjult reklame er forbudt.', true, false, 9),
+  ('entreprenorskap-og-bedriftsutvikling-1:konkurransemidler-i-oppstartsfasen', 'm01', 'sant-usant', 'Lokale medier skriver ofte gjerne om nye og spennende virksomheter.', array['Sant', 'Usant']::text[], 0, 'Gratis PR.', false, true, 10),
+  ('entreprenorskap-og-bedriftsutvikling-1:konkurransemidler-i-oppstartsfasen', 'm02', 'sant-usant', 'Sosiale medier gir gode resultater uten at man legger inn arbeid.', array['Sant', 'Usant']::text[], 1, 'Det krever jevnlig og engasjerende innhold.', false, true, 11),
+  ('entreprenorskap-og-bedriftsutvikling-1:konkurransemidler-i-oppstartsfasen', 'm03', 'sant-usant', 'De første kundene kan bli viktige ambassadører for virksomheten.', array['Sant', 'Usant']::text[], 0, 'De anbefaler videre.', false, true, 12),
+  ('entreprenorskap-og-bedriftsutvikling-1:konkurransemidler-i-oppstartsfasen', 'm04', 'sant-usant', 'Et produkt som skal oppleves som eksklusivt, bør selges på billigsalg overalt.', array['Sant', 'Usant']::text[], 1, 'Konkurransemidlene må henge sammen.', false, true, 13),
+  ('entreprenorskap-og-bedriftsutvikling-1:konkurransemidler-i-oppstartsfasen', 'm05', 'flervalg', 'Hva er en ulempe ved å selge gjennom eksisterende butikker?', array['Man når ingen kunder', 'Butikken tar en andel av prisen', 'Det er ulovlig', 'Det krever patent']::text[], 1, 'Men det gir rask tilgang til kunder.', false, true, 14),
+  ('entreprenorskap-og-bedriftsutvikling-1:konkurransemidler-i-oppstartsfasen', 'm06', 'flervalg', 'Hva hører til fasen før lansering?', array['Teste produktet og bygge følgere', 'Måle salget', 'Samle tilbakemeldinger fra kjøpere', 'Avslutte virksomheten']::text[], 0, 'Forbered markedet.', false, true, 15),
+  ('entreprenorskap-og-bedriftsutvikling-1:konkurransemidler-i-oppstartsfasen', 'm07', 'flervalg', 'Hvorfor er gründeren ofte en god selger?', array['Fordi hen har mest penger', 'Fordi hen er eldst', 'Fordi hen brenner for produktet', 'Fordi hen har lært det på skolen']::text[], 2, 'Engasjement smitter.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('entreprenorskap-og-bedriftsutvikling-1:konkurransemidler-i-oppstartsfasen', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Entreprenørskap og bedriftsutvikling 1: Selskapsformer, risiko og ansvar
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('entreprenorskap-og-bedriftsutvikling-1:selskapsformer', 'entreprenorskap-og-bedriftsutvikling-1', 'selskapsformer', 'Selskapsformer, risiko og ansvar', 'De vanligste selskapsformene i Norge – enkeltpersonforetak, aksjeselskap, ansvarlig selskap og samvirke – forskjeller i ansvar, risiko, kapital og krav, registrering i Brønnøysundregistrene og hvordan man velger selskapsform ved etablering.', array[9]::int[], 8, 'sjekkes', array['Sjekk gjeldende beløpsgrenser (aksjekapital, merverdiavgiftsgrensen) og regler for fritak fra revisjon mot Brønnøysundregistrene og Skatteetaten.']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('entreprenorskap-og-bedriftsutvikling-1:selskapsformer', '## Hvorfor er selskapsformen viktig?
+
+Når du starter en virksomhet, må du velge **selskapsform**. Valget avgjør blant annet
+
+- hvem som har **ansvaret** hvis virksomheten får **gjeld** den ikke kan betale
+- hvor mye **kapital** som kreves
+- hvilke **krav** som stilles til regnskap og styre
+- hvordan virksomheten **skattlegges**
+
+## Enkeltpersonforetak (ENK)
+
+- Eies av **én person**.
+- Det er **ingen krav** til startkapital, og det er **enkelt** og **billig** å starte.
+- Eieren har **personlig** og **ubegrenset** ansvar. Hvis virksomheten får gjeld, kan kreditorene kreve eierens **private** eiendeler, som bil og bolig.
+- Overskuddet skattlegges som eierens **personinntekt**.
+
+Passer for små virksomheter med **lav risiko**, som frilansere og håndverkere.
+
+## Aksjeselskap (AS)
+
+- Eies av én eller flere **aksjeeiere**.
+- Krever en **aksjekapital** på minst **30 000 kr**.
+- **Begrenset ansvar**: Aksjeeierne kan som hovedregel bare tape det de har **skutt inn** i selskapet.
+- Skal ha et **styre** og holde **generalforsamling**. Årsregnskapet sendes til **Regnskapsregisteret** og er **offentlig**. Små aksjeselskaper kan i mange tilfeller velge bort **revisjon**.
+- Selskapet er et eget **rettssubjekt** som skattlegges for overskuddet.
+
+Passer når risikoen er **høyere**, når flere skal eie sammen, eller når man vil hente **investorer**.
+
+Merk at **banker** ofte krever at eierne stiller **personlig garanti** for lån til et nytt AS. Da blir ansvaret i praksis **ikke** så begrenset for det lånet.
+
+## Ansvarlig selskap (ANS og DA)
+
+- Eies av **to eller flere** deltakere.
+- I et **ANS** har deltakerne **solidarisk** og **ubegrenset** ansvar: Kreditorene kan kreve **hele** gjelden fra **én** av deltakerne.
+- I et **DA** har hver deltaker ansvar for sin **andel** av gjelden.
+- Deltakerne bør lage en skriftlig **selskapsavtale**.
+
+## Andre former
+
+- **Samvirkeforetak (SA)** eies av **medlemmene** – for eksempel kunder eller produsenter – og skal fremme medlemmenes interesser. Kjente samvirker finnes i landbruket og dagligvarehandelen.
+- **Stiftelser** har **ingen eiere** og drives for et bestemt **formål**.
+
+## Registrering
+
+Virksomheter registreres i **Brønnøysundregistrene** og får et **organisasjonsnummer**. Aksjeselskaper og ansvarlige selskaper skal registreres i **Foretaksregisteret**. Registreringen skjer via **Altinn**. Virksomheter som selger varer og tjenester for mer enn **50 000 kr** i løpet av tolv måneder, må som hovedregel registreres i **Merverdiavgiftsregisteret**.
+
+## Hvordan velge?
+
+| | ENK | AS | ANS |
+|---|---|---|---|
+| Eiere | én | én eller flere | to eller flere |
+| Startkapital | ingen krav | minst 30 000 kr | ingen krav |
+| Ansvar | ubegrenset | begrenset | solidarisk, ubegrenset |
+| Krav | få | flere | middels |
+
+Vurder **risikoen**, **antall eiere**, **kapitalbehovet**, **administrasjonen** og **troverdigheten** overfor kunder og investorer. En elevbedrift er ikke et vanlig selskap, men gir erfaring med de samme vurderingene.', '{"label":"Selskapsformer","children":[{"label":"ENK","children":[{"label":"Én eier"},{"label":"Ubegrenset ansvar"},{"label":"Enkelt å starte"}]},{"label":"AS","children":[{"label":"Aksjekapital 30 000 kr"},{"label":"Begrenset ansvar"},{"label":"Styre og regnskap"}]},{"label":"ANS og DA","children":[{"label":"Solidarisk ansvar"},{"label":"Delt ansvar"}]},{"label":"Andre","children":[{"label":"Samvirke"},{"label":"Stiftelse"}]},{"label":"Registrering og valg","children":[{"label":"Brønnøysund og Altinn"},{"label":"Merverdiavgift"},{"label":"Risiko og eiere"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'entreprenorskap-og-bedriftsutvikling-1:selskapsformer';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('entreprenorskap-og-bedriftsutvikling-1:selskapsformer', 'Selskapsform', 'Den juridiske formen en virksomhet organiseres i.', 0),
+  ('entreprenorskap-og-bedriftsutvikling-1:selskapsformer', 'Enkeltpersonforetak (ENK)', 'Eies av én person med personlig og ubegrenset ansvar.', 1),
+  ('entreprenorskap-og-bedriftsutvikling-1:selskapsformer', 'Ubegrenset ansvar', 'Kreditorene kan kreve eierens private eiendeler.', 2),
+  ('entreprenorskap-og-bedriftsutvikling-1:selskapsformer', 'Aksjeselskap (AS)', 'Selskap med aksjekapital og begrenset ansvar.', 3),
+  ('entreprenorskap-og-bedriftsutvikling-1:selskapsformer', 'Aksjekapital', 'Kapital eierne skyter inn i et AS – minst 30 000 kr.', 4),
+  ('entreprenorskap-og-bedriftsutvikling-1:selskapsformer', 'Begrenset ansvar', 'Eierne kan som hovedregel bare tape det de har skutt inn.', 5),
+  ('entreprenorskap-og-bedriftsutvikling-1:selskapsformer', 'Generalforsamling', 'Aksjeeiernes møte – øverste organ i et AS.', 6),
+  ('entreprenorskap-og-bedriftsutvikling-1:selskapsformer', 'Personlig garanti', 'Eieren garanterer for et lån med egne midler.', 7),
+  ('entreprenorskap-og-bedriftsutvikling-1:selskapsformer', 'ANS', 'Ansvarlig selskap med solidarisk og ubegrenset ansvar.', 8),
+  ('entreprenorskap-og-bedriftsutvikling-1:selskapsformer', 'Solidarisk ansvar', 'Kreditorene kan kreve hele gjelden fra én av deltakerne.', 9),
+  ('entreprenorskap-og-bedriftsutvikling-1:selskapsformer', 'DA', 'Ansvarlig selskap der hver har ansvar for sin andel av gjelden.', 10),
+  ('entreprenorskap-og-bedriftsutvikling-1:selskapsformer', 'Samvirkeforetak (SA)', 'Eies av medlemmene og fremmer deres interesser.', 11),
+  ('entreprenorskap-og-bedriftsutvikling-1:selskapsformer', 'Stiftelse', 'Har ingen eiere og drives for et bestemt formål.', 12),
+  ('entreprenorskap-og-bedriftsutvikling-1:selskapsformer', 'Organisasjonsnummer', 'Nummeret en virksomhet får i Enhetsregisteret.', 13),
+  ('entreprenorskap-og-bedriftsutvikling-1:selskapsformer', 'Merverdiavgiftsregisteret', 'Registrering kreves som hovedregel når omsetningen passerer 50 000 kr på tolv måneder.', 14),
+  ('entreprenorskap-og-bedriftsutvikling-1:selskapsformer', 'Selskapsavtale', 'Skriftlig avtale mellom deltakerne i et ansvarlig selskap.', 15);
+delete from public.quiz_sporsmal where tema_id = 'entreprenorskap-og-bedriftsutvikling-1:selskapsformer';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('entreprenorskap-og-bedriftsutvikling-1:selskapsformer', 'q01', 'flervalg', 'Hvilket ansvar har eieren i et enkeltpersonforetak?', array['Begrenset ansvar', 'Personlig og ubegrenset ansvar', 'Ingen ansvar', 'Delt ansvar med staten']::text[], 1, 'Private eiendeler kan kreves.', true, true, 0),
+  ('entreprenorskap-og-bedriftsutvikling-1:selskapsformer', 'q02', 'flervalg', 'Hvor stor må aksjekapitalen minst være i et AS?', array['30 000 kr', '1 000 kr', '100 000 kr', '1 million kr']::text[], 0, 'Minstekravet i aksjeloven.', true, true, 1),
+  ('entreprenorskap-og-bedriftsutvikling-1:selskapsformer', 'q03', 'flervalg', 'Hva betyr begrenset ansvar i et AS?', array['At styret har alt ansvar', 'At selskapet ikke betaler skatt', 'At eierne som hovedregel bare kan tape det de har skutt inn', 'At ingen har ansvar']::text[], 2, 'Selskapet er et eget rettssubjekt.', true, true, 2),
+  ('entreprenorskap-og-bedriftsutvikling-1:selskapsformer', 'q04', 'flervalg', 'Hva betyr solidarisk ansvar i et ANS?', array['At ingen har ansvar', 'At hver bare har ansvar for sin del', 'At staten betaler', 'At kreditorene kan kreve hele gjelden fra én deltaker']::text[], 3, 'Høy risiko for deltakerne.', true, true, 3),
+  ('entreprenorskap-og-bedriftsutvikling-1:selskapsformer', 'q05', 'flervalg', 'Hvorfor blir ansvaret i et nytt AS ofte mindre begrenset i praksis?', array['Banker krever ofte personlig garanti for lån', 'Aksjekapitalen er for høy', 'Styret betaler gjelden', 'Loven forbyr begrenset ansvar']::text[], 0, 'Eieren hefter da for lånet.', true, true, 4),
+  ('entreprenorskap-og-bedriftsutvikling-1:selskapsformer', 'q06', 'flervalg', 'Hvem eier et samvirkeforetak?', array['Staten', 'Medlemmene', 'En investor', 'Ingen']::text[], 1, 'Fremmer medlemmenes interesser.', true, true, 5),
+  ('entreprenorskap-og-bedriftsutvikling-1:selskapsformer', 'q07', 'flervalg', 'Hvor registreres norske virksomheter?', array['Hos politiet', 'Hos NAV', 'I Brønnøysundregistrene', 'Hos Forbrukertilsynet']::text[], 2, 'Via Altinn.', true, true, 6),
+  ('entreprenorskap-og-bedriftsutvikling-1:selskapsformer', 'q08', 'flervalg', 'Hvilken selskapsform passer best for en frilanser med lav risiko?', array['Stiftelse', 'Samvirke', 'Aksjeselskap med mange eiere', 'Enkeltpersonforetak']::text[], 3, 'Enkelt og billig å starte.', true, true, 7),
+  ('entreprenorskap-og-bedriftsutvikling-1:selskapsformer', 'q09', 'flervalg', 'Når må en virksomhet som hovedregel registreres i Merverdiavgiftsregisteret?', array['Når omsetningen passerer 50 000 kr på tolv måneder', 'Med en gang', 'Aldri', 'Når den har ti ansatte']::text[], 0, 'Da må den legge merverdiavgift på prisene.', true, false, 8),
+  ('entreprenorskap-og-bedriftsutvikling-1:selskapsformer', 'q10', 'flervalg', 'Hva har en stiftelse?', array['Mange aksjeeiere', 'Ingen eiere, men et bestemt formål', 'Én eier med ubegrenset ansvar', 'Medlemmer som eiere']::text[], 1, 'Formålet styrer driften.', true, false, 9),
+  ('entreprenorskap-og-bedriftsutvikling-1:selskapsformer', 'm01', 'sant-usant', 'Årsregnskapet til et aksjeselskap er offentlig.', array['Sant', 'Usant']::text[], 0, 'Det sendes til Regnskapsregisteret.', false, true, 10),
+  ('entreprenorskap-og-bedriftsutvikling-1:selskapsformer', 'm02', 'sant-usant', 'Et enkeltpersonforetak krever minst 30 000 kr i startkapital.', array['Sant', 'Usant']::text[], 1, 'Det er ingen krav til startkapital.', false, true, 11),
+  ('entreprenorskap-og-bedriftsutvikling-1:selskapsformer', 'm03', 'sant-usant', 'Deltakerne i et ansvarlig selskap bør lage en skriftlig selskapsavtale.', array['Sant', 'Usant']::text[], 0, 'Den regulerer ansvar og fordeling.', false, true, 12),
+  ('entreprenorskap-og-bedriftsutvikling-1:selskapsformer', 'm04', 'sant-usant', 'I et DA kan kreditorene alltid kreve hele gjelden fra én deltaker.', array['Sant', 'Usant']::text[], 1, 'Det gjelder ANS. I et DA har hver ansvar for sin andel.', false, true, 13),
+  ('entreprenorskap-og-bedriftsutvikling-1:selskapsformer', 'm05', 'flervalg', 'Hva er øverste organ i et aksjeselskap?', array['Daglig leder', 'Generalforsamlingen', 'Revisoren', 'Kundene']::text[], 1, 'Aksjeeiernes møte.', false, true, 14),
+  ('entreprenorskap-og-bedriftsutvikling-1:selskapsformer', 'm06', 'flervalg', 'Hvilken selskapsform passer når risikoen er høy og flere skal eie sammen?', array['Aksjeselskap', 'Enkeltpersonforetak', 'Ingen selskapsform', 'ANS med solidarisk ansvar']::text[], 0, 'Begrenset ansvar og mulighet for investorer.', false, true, 15),
+  ('entreprenorskap-og-bedriftsutvikling-1:selskapsformer', 'm07', 'flervalg', 'Hvordan skattlegges overskuddet i et enkeltpersonforetak?', array['Som selskapsskatt i et AS', 'Det skattlegges ikke', 'Som eierens personinntekt', 'Som arveavgift']::text[], 2, 'Eieren og foretaket er ikke adskilt.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('entreprenorskap-og-bedriftsutvikling-1:selskapsformer', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Entreprenørskap og bedriftsutvikling 1: Ledelse og team i etableringsfasen
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('entreprenorskap-og-bedriftsutvikling-1:ledelse-og-team', 'entreprenorskap-og-bedriftsutvikling-1', 'ledelse-og-team', 'Ledelse og team i etableringsfasen', 'Hva som kjennetegner en god leder i etableringsfasen, ledelsesstiler, samspillet mellom leder og medarbeidere, teamets utviklingsfaser, Belbins teamroller og hvordan man setter sammen et godt team.', array[10]::int[], 9, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('entreprenorskap-og-bedriftsutvikling-1:ledelse-og-team', '## Å lede en ny virksomhet
+
+I **etableringsfasen** er lederen ofte **gründeren** selv. Hen må gjøre **mange** ting samtidig: utvikle produktet, selge, skaffe penger, ansette folk og holde oversikt over økonomien. Det krever **energi**, **fleksibilitet** og evne til å ta **beslutninger** med lite informasjon.
+
+## Hva kjennetegner en god leder?
+
+- har en tydelig **visjon** og kan **kommunisere** den
+- **lytter** og tar innspill på alvor
+- bygger **tillit** og er **ærlig**
+- **gjennomfører** – får ting gjort
+- tåler **usikkerhet** og **motgang**
+- kan **delegere** og gi andre ansvar
+- forstår andres **følelser** og reaksjoner
+
+En vanlig utfordring er at gründeren vil **kontrollere alt**. Når virksomheten vokser, må hen lære å **slippe taket** og stole på teamet.
+
+## Ledelsesstiler
+
+- **Autoritær**: lederen bestemmer selv. Raskt, men kan gi lite engasjement.
+- **Demokratisk**: lederen involverer medarbeiderne. Gir eierskap og bedre ideer, men tar tid.
+- **La det skure**: lite styring. Kan fungere for svært selvstendige medarbeidere.
+- **Situasjonsbestemt**: lederen tilpasser stilen etter **oppgaven** og **medarbeideren**.
+- **Inspirerende** ledelse – ofte kalt transformasjonsledelse – motiverer gjennom **visjon**, **mening** og personlig **oppfølging**.
+
+## Samspill mellom leder og medarbeidere
+
+Godt samspill bygger på
+
+- **klar kommunikasjon** om mål og forventninger
+- jevnlige **tilbakemeldinger** begge veier
+- **medvirkning** i beslutninger
+- **psykologisk trygghet** – at det er trygt å si ifra og ta feil
+- **motivasjon** gjennom **selvstendighet**, **mestring** og **mening** i arbeidet
+
+## Teamets utviklingsfaser
+
+**Bruce Tuckman** beskrev fem faser:
+
+1. **Etablering** – teamet blir kjent og er høflig og forsiktig.
+2. **Konflikt** – uenigheter om roller og arbeidsmåter kommer fram.
+3. **Normering** – teamet blir enige om **regler** og **roller**.
+4. **Utførelse** – teamet samarbeider godt og **presterer**.
+5. **Avslutning** – prosjektet er ferdig, og teamet oppløses.
+
+Konfliktfasen er **normal** og kan gjøre teamet sterkere hvis den håndteres godt.
+
+## Teamroller
+
+**Meredith Belbin** fant at gode team har personer som fyller ulike **roller**, for eksempel
+
+- **idéskaperen** – kreativ og full av ideer
+- **pådriveren** – presser på og holder tempoet oppe
+- **koordinatoren** – fordeler oppgaver og samler teamet
+- **analytikeren** – vurderer ideer kritisk
+- **lagspilleren** – skaper godt samarbeid
+- **iverksetteren** – gjør planer om til handling
+- **fullføreren** – passer på detaljer og frister
+
+Et team med **bare** idéskapere får sjelden noe gjort, og et team med **bare** analytikere kommer kanskje aldri i gang.
+
+## Å sette sammen et godt team
+
+- **Utfyllende kompetanse**: For eksempel én som kan økonomi, én som kan salg og én som kan teknologi eller design.
+- **Felles mål og verdier**: Alle må trekke i samme retning.
+- **Ulike personligheter** og **roller**.
+- **Tydelige avtaler** om ansvar, arbeidstid og **eierskap** – helst skriftlig.
+
+Mange investorer sier at de satser på **teamet** like mye som på **ideen**.', '{"label":"Ledelse og team","children":[{"label":"God leder","children":[{"label":"Visjon og kommunikasjon"},{"label":"Tillit og gjennomføring"},{"label":"Delegering"}]},{"label":"Ledelsesstiler","children":[{"label":"Autoritær og demokratisk"},{"label":"Situasjonsbestemt"},{"label":"Inspirerende"}]},{"label":"Samspill","children":[{"label":"Tilbakemeldinger"},{"label":"Psykologisk trygghet"},{"label":"Motivasjon"}]},{"label":"Teamutvikling","children":[{"label":"Tuckmans faser"},{"label":"Belbins roller"}]},{"label":"Godt team","children":[{"label":"Utfyllende kompetanse"},{"label":"Felles mål"},{"label":"Avtaler"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'entreprenorskap-og-bedriftsutvikling-1:ledelse-og-team';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('entreprenorskap-og-bedriftsutvikling-1:ledelse-og-team', 'Etableringsfasen', 'Perioden da virksomheten startes og bygges opp.', 0),
+  ('entreprenorskap-og-bedriftsutvikling-1:ledelse-og-team', 'Delegering', 'Å gi andre ansvar og myndighet.', 1),
+  ('entreprenorskap-og-bedriftsutvikling-1:ledelse-og-team', 'Autoritær ledelse', 'Lederen bestemmer selv.', 2),
+  ('entreprenorskap-og-bedriftsutvikling-1:ledelse-og-team', 'Demokratisk ledelse', 'Lederen involverer medarbeiderne.', 3),
+  ('entreprenorskap-og-bedriftsutvikling-1:ledelse-og-team', 'Situasjonsbestemt ledelse', 'Stilen tilpasses oppgaven og medarbeideren.', 4),
+  ('entreprenorskap-og-bedriftsutvikling-1:ledelse-og-team', 'Inspirerende ledelse', 'Motiverer gjennom visjon, mening og personlig oppfølging.', 5),
+  ('entreprenorskap-og-bedriftsutvikling-1:ledelse-og-team', 'Psykologisk trygghet', 'At det er trygt å si ifra og ta feil.', 6),
+  ('entreprenorskap-og-bedriftsutvikling-1:ledelse-og-team', 'Tuckmans faser', 'Etablering, konflikt, normering, utførelse og avslutning.', 7),
+  ('entreprenorskap-og-bedriftsutvikling-1:ledelse-og-team', 'Konfliktfasen', 'Uenigheter om roller og arbeidsmåter – normalt i et team.', 8),
+  ('entreprenorskap-og-bedriftsutvikling-1:ledelse-og-team', 'Belbins teamroller', 'Ulike roller som et godt team trenger.', 9),
+  ('entreprenorskap-og-bedriftsutvikling-1:ledelse-og-team', 'Idéskaper', 'Kreativ teamrolle full av ideer.', 10),
+  ('entreprenorskap-og-bedriftsutvikling-1:ledelse-og-team', 'Pådriver', 'Teamrolle som presser på og holder tempoet oppe.', 11),
+  ('entreprenorskap-og-bedriftsutvikling-1:ledelse-og-team', 'Fullfører', 'Teamrolle som passer på detaljer og frister.', 12),
+  ('entreprenorskap-og-bedriftsutvikling-1:ledelse-og-team', 'Utfyllende kompetanse', 'Teammedlemmer som kan ulike ting.', 13),
+  ('entreprenorskap-og-bedriftsutvikling-1:ledelse-og-team', 'Motivasjon i arbeidet', 'Selvstendighet, mestring og mening.', 14);
+delete from public.quiz_sporsmal where tema_id = 'entreprenorskap-og-bedriftsutvikling-1:ledelse-og-team';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('entreprenorskap-og-bedriftsutvikling-1:ledelse-og-team', 'q01', 'flervalg', 'Hva er en vanlig utfordring for gründere som ledere?', array['At de delegerer for mye', 'At de vil kontrollere alt', 'At de har for mye tid', 'At de har for mange ansatte']::text[], 1, 'De må lære å stole på teamet.', true, true, 0),
+  ('entreprenorskap-og-bedriftsutvikling-1:ledelse-og-team', 'q02', 'flervalg', 'Hvilken ledelsesstil involverer medarbeiderne i beslutninger?', array['Demokratisk', 'Autoritær', 'La det skure', 'Enevelde']::text[], 0, 'Gir eierskap.', true, true, 1),
+  ('entreprenorskap-og-bedriftsutvikling-1:ledelse-og-team', 'q03', 'flervalg', 'Hvilken fase i Tuckmans modell kjennetegnes av uenigheter?', array['Etablering', 'Utførelse', 'Konflikt', 'Avslutning']::text[], 2, 'Normalt og kan gjøre teamet sterkere.', true, true, 2),
+  ('entreprenorskap-og-bedriftsutvikling-1:ledelse-og-team', 'q04', 'flervalg', 'Hva skjer i normeringsfasen?', array['Teamet oppløses', 'Teamet blir kjent', 'Teamet presterer best', 'Teamet blir enige om regler og roller']::text[], 3, 'Kommer etter konfliktfasen.', true, true, 3),
+  ('entreprenorskap-og-bedriftsutvikling-1:ledelse-og-team', 'q05', 'flervalg', 'Hvilken teamrolle passer på detaljer og frister?', array['Fullføreren', 'Idéskaperen', 'Pådriveren', 'Lagspilleren']::text[], 0, 'Viktig for å bli ferdig.', true, true, 4),
+  ('entreprenorskap-og-bedriftsutvikling-1:ledelse-og-team', 'q06', 'flervalg', 'Hvorfor fungerer et team med bare idéskapere dårlig?', array['De er for rolige', 'De får sjelden noe gjort', 'De er for kritiske', 'De er for få']::text[], 1, 'Teamet trenger ulike roller.', true, true, 5),
+  ('entreprenorskap-og-bedriftsutvikling-1:ledelse-og-team', 'q07', 'flervalg', 'Hva er utfyllende kompetanse i et team?', array['At alle kan det samme', 'At alle er like gamle', 'At teammedlemmene kan ulike ting', 'At lederen kan alt']::text[], 2, 'For eksempel økonomi, salg og teknologi.', true, true, 6),
+  ('entreprenorskap-og-bedriftsutvikling-1:ledelse-og-team', 'q08', 'flervalg', 'Hva gir motivasjon i arbeidet?', array['Bare høy lønn', 'Streng kontroll', 'Lite informasjon', 'Selvstendighet, mestring og mening']::text[], 3, 'Indre motivasjon.', true, true, 7),
+  ('entreprenorskap-og-bedriftsutvikling-1:ledelse-og-team', 'q09', 'flervalg', 'Hva betyr situasjonsbestemt ledelse?', array['At lederen tilpasser stilen etter oppgaven og medarbeideren', 'At lederen alltid bestemmer', 'At lederen aldri styrer', 'At lederen bytter jobb ofte']::text[], 0, 'En nyansatt trenger mer styring.', true, false, 8),
+  ('entreprenorskap-og-bedriftsutvikling-1:ledelse-og-team', 'q10', 'flervalg', 'Hvorfor bør teamet lage tydelige avtaler om eierskap?', array['Fordi det er gøy', 'For å unngå konflikter senere', 'Fordi banken krever det alltid', 'For å slippe å jobbe']::text[], 1, 'Helst skriftlig.', true, false, 9),
+  ('entreprenorskap-og-bedriftsutvikling-1:ledelse-og-team', 'm01', 'sant-usant', 'Mange investorer legger like stor vekt på teamet som på ideen.', array['Sant', 'Usant']::text[], 0, 'Et godt team kan gjennomføre.', false, true, 10),
+  ('entreprenorskap-og-bedriftsutvikling-1:ledelse-og-team', 'm02', 'sant-usant', 'Konfliktfasen betyr alltid at teamet kommer til å mislykkes.', array['Sant', 'Usant']::text[], 1, 'Den er normal og kan gjøre teamet sterkere.', false, true, 11),
+  ('entreprenorskap-og-bedriftsutvikling-1:ledelse-og-team', 'm03', 'sant-usant', 'I etableringsfasen må lederen ofte ta beslutninger med lite informasjon.', array['Sant', 'Usant']::text[], 0, 'Usikkerheten er stor.', false, true, 12),
+  ('entreprenorskap-og-bedriftsutvikling-1:ledelse-og-team', 'm04', 'sant-usant', 'Et godt team består helst av personer med nøyaktig samme kompetanse.', array['Sant', 'Usant']::text[], 1, 'Utfyllende kompetanse er bedre.', false, true, 13),
+  ('entreprenorskap-og-bedriftsutvikling-1:ledelse-og-team', 'm05', 'flervalg', 'Hvilken teamrolle presser på og holder tempoet oppe?', array['Analytikeren', 'Pådriveren', 'Lagspilleren', 'Fullføreren']::text[], 1, 'Driver arbeidet framover.', false, true, 14),
+  ('entreprenorskap-og-bedriftsutvikling-1:ledelse-og-team', 'm06', 'flervalg', 'Hva kjennetegner inspirerende ledelse?', array['Motivasjon gjennom visjon, mening og personlig oppfølging', 'Streng kontroll', 'Ingen styring', 'Bare belønning i penger']::text[], 0, 'Kalles også transformasjonsledelse.', false, true, 15),
+  ('entreprenorskap-og-bedriftsutvikling-1:ledelse-og-team', 'm07', 'flervalg', 'Hvilken fase kommer først i Tuckmans modell?', array['Utførelse', 'Normering', 'Etablering', 'Konflikt']::text[], 2, 'Teamet blir kjent.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('entreprenorskap-og-bedriftsutvikling-1:ledelse-og-team', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Entreprenørskap og bedriftsutvikling 1: Pris, kapitalbehov, budsjett og finansiering
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('entreprenorskap-og-bedriftsutvikling-1:pris-budsjett-og-finansiering', 'entreprenorskap-og-bedriftsutvikling-1', 'pris-budsjett-og-finansiering', 'Pris, kapitalbehov, budsjett og finansiering', 'Hvordan en ny virksomhet beregner pris og kapitalbehov, setter opp resultatbudsjett og likviditetsbudsjett, og vurderer finansieringsmuligheter som egenkapital, lån, tilskudd og folkefinansiering ut fra risiko og ansvar.', array[11]::int[], 10, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('entreprenorskap-og-bedriftsutvikling-1:pris-budsjett-og-finansiering', '## Prisberegning
+
+Prisen må på sikt dekke **alle kostnader** og gi **overskudd**.
+
+- **Variable kostnader** øker med antall solgte enheter, som råvarer og emballasje.
+- **Faste kostnader** er de samme uansett salg, som husleie og forsikring.
+
+**Eksempel**: Variable kostnader er 60 kr per enhet, og faste kostnader er 20 000 kr. Virksomheten regner med å selge 1000 enheter.
+
+- Faste kostnader per enhet: 20 000 ÷ 1000 = 20 kr
+- **Selvkost** per enhet: 60 + 20 = 80 kr
+- Påslag 25 %: 80 · 1,25 = 100 kr uten merverdiavgift
+- Med 25 % merverdiavgift: 100 · 1,25 = **125 kr**
+
+Prisen må også vurderes opp mot hva **kundene** vil betale og hva **konkurrentene** tar.
+
+## Kapitalbehov
+
+**Kapitalbehovet** er hvor mye penger virksomheten trenger før den tjener nok selv:
+
+- **Anleggsmidler** – ting som skal brukes lenge, som utstyr, maskiner og PC
+- **Omløpsmidler** – varelager, penger til å vente på at kundene betaler, og en **likviditetsreserve**
+- **Etableringskostnader** – registrering, nettside og lanseringsmarkedsføring
+
+Det er lurt å legge inn en **buffer**, fordi det meste tar lengre tid og koster mer enn planlagt.
+
+## Budsjetter
+
+- **Etableringsbudsjettet** viser **kapitalbehovet** og hvordan det skal **finansieres**.
+- **Resultatbudsjettet** viser forventede **inntekter** og **kostnader** – og om virksomheten går med **overskudd** eller **underskudd**.
+- **Likviditetsbudsjettet** viser **innbetalinger** og **utbetalinger** måned for måned – og om virksomheten har **nok penger på konto** til enhver tid.
+
+En virksomhet kan gå med overskudd og likevel gå **tom for penger**, for eksempel hvis kundene betaler **seint** eller den har kjøpt inn et stort **varelager**. Derfor er likviditetsbudsjettet svært viktig i oppstarten.
+
+## Finansiering
+
+**Egenkapital** – penger eierne skyter inn:
+
+- **egne sparepenger**
+- **familie og venner**
+- **investorer** som får **eierandeler** i bytte mot penger. Investorer tar risiko, men får også **innflytelse**.
+
+**Fremmedkapital** – lån som skal betales tilbake:
+
+- **banklån** med **renter** og **avdrag**. Banken krever ofte **sikkerhet** eller **personlig garanti**.
+- **leverandørkreditt** – å betale leverandøren etter en tid
+- **leasing** – å leie utstyr i stedet for å kjøpe
+
+**Tilskudd og andre kilder**:
+
+- **Innovasjon Norge** og kommunale **næringsfond** kan gi **tilskudd** og lån til gründere.
+- **Folkefinansiering**: mange privatpersoner bidrar med små beløp, ofte i bytte mot et **produkt**, en **belønning** eller en **eierandel**.
+
+## Risiko og ansvar
+
+- **Lån** må betales tilbake **uansett** hvordan det går.
+- **Egenkapital** fra investorer trenger ikke betales tilbake, men gründeren gir fra seg en del av **eierskapet**.
+- Med **personlig garanti** kan gründeren tape private eiendeler.
+- En sunn tommelfingerregel er å ikke risikere mer enn man **tåler å tape**.
+
+En god **finansieringsplan** kombinerer ofte flere kilder og har en **reserve** for uforutsette utgifter.', '{"label":"Pris, budsjett og finansiering","children":[{"label":"Pris","children":[{"label":"Faste og variable kostnader"},{"label":"Selvkost og påslag"},{"label":"Merverdiavgift"}]},{"label":"Kapitalbehov","children":[{"label":"Anleggsmidler"},{"label":"Omløpsmidler"},{"label":"Buffer"}]},{"label":"Budsjetter","children":[{"label":"Etablering"},{"label":"Resultat"},{"label":"Likviditet"}]},{"label":"Finansiering","children":[{"label":"Egenkapital og investorer"},{"label":"Lån og kreditt"},{"label":"Tilskudd og folkefinansiering"}]},{"label":"Risiko","children":[{"label":"Lån må betales"},{"label":"Personlig garanti"},{"label":"Eierskap"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'entreprenorskap-og-bedriftsutvikling-1:pris-budsjett-og-finansiering';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('entreprenorskap-og-bedriftsutvikling-1:pris-budsjett-og-finansiering', 'Variable kostnader', 'Kostnader som øker med antall solgte enheter.', 0),
+  ('entreprenorskap-og-bedriftsutvikling-1:pris-budsjett-og-finansiering', 'Faste kostnader', 'Kostnader som er de samme uansett salg.', 1),
+  ('entreprenorskap-og-bedriftsutvikling-1:pris-budsjett-og-finansiering', 'Selvkost', 'Alle kostnader per enhet – variable pluss andel av faste.', 2),
+  ('entreprenorskap-og-bedriftsutvikling-1:pris-budsjett-og-finansiering', 'Påslag', 'Prosent som legges på selvkost for å gi fortjeneste.', 3),
+  ('entreprenorskap-og-bedriftsutvikling-1:pris-budsjett-og-finansiering', 'Kapitalbehov', 'Pengene virksomheten trenger før den tjener nok selv.', 4),
+  ('entreprenorskap-og-bedriftsutvikling-1:pris-budsjett-og-finansiering', 'Anleggsmidler', 'Eiendeler som skal brukes lenge, som utstyr og maskiner.', 5),
+  ('entreprenorskap-og-bedriftsutvikling-1:pris-budsjett-og-finansiering', 'Omløpsmidler', 'Varelager, kundefordringer og kontanter.', 6),
+  ('entreprenorskap-og-bedriftsutvikling-1:pris-budsjett-og-finansiering', 'Likviditetsreserve', 'Buffer av penger for uforutsette utgifter.', 7),
+  ('entreprenorskap-og-bedriftsutvikling-1:pris-budsjett-og-finansiering', 'Etableringsbudsjett', 'Viser kapitalbehov og finansiering.', 8),
+  ('entreprenorskap-og-bedriftsutvikling-1:pris-budsjett-og-finansiering', 'Resultatbudsjett', 'Forventede inntekter og kostnader.', 9),
+  ('entreprenorskap-og-bedriftsutvikling-1:pris-budsjett-og-finansiering', 'Likviditetsbudsjett', 'Innbetalinger og utbetalinger måned for måned.', 10),
+  ('entreprenorskap-og-bedriftsutvikling-1:pris-budsjett-og-finansiering', 'Egenkapital', 'Penger eierne skyter inn.', 11),
+  ('entreprenorskap-og-bedriftsutvikling-1:pris-budsjett-og-finansiering', 'Fremmedkapital', 'Lån som skal betales tilbake.', 12),
+  ('entreprenorskap-og-bedriftsutvikling-1:pris-budsjett-og-finansiering', 'Leverandørkreditt', 'Å betale leverandøren etter en tid.', 13),
+  ('entreprenorskap-og-bedriftsutvikling-1:pris-budsjett-og-finansiering', 'Folkefinansiering', 'Mange privatpersoner bidrar med små beløp.', 14),
+  ('entreprenorskap-og-bedriftsutvikling-1:pris-budsjett-og-finansiering', 'Leasing', 'Å leie utstyr i stedet for å kjøpe.', 15);
+delete from public.quiz_sporsmal where tema_id = 'entreprenorskap-og-bedriftsutvikling-1:pris-budsjett-og-finansiering';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('entreprenorskap-og-bedriftsutvikling-1:pris-budsjett-og-finansiering', 'q01', 'flervalg', 'Variable kostnader er 60 kr per enhet, og faste kostnader er 20 000 kr fordelt på 1000 enheter. Hva er selvkost per enhet?', array['60 kr', '80 kr', '20 kr', '100 kr']::text[], 1, '60 + 20 = 80 kr.', true, true, 0),
+  ('entreprenorskap-og-bedriftsutvikling-1:pris-budsjett-og-finansiering', 'q02', 'flervalg', 'Hva er en fast kostnad?', array['Husleie', 'Råvarer', 'Emballasje', 'Frakt per pakke']::text[], 0, 'Den er den samme uansett salg.', true, true, 1),
+  ('entreprenorskap-og-bedriftsutvikling-1:pris-budsjett-og-finansiering', 'q03', 'flervalg', 'Hva viser likviditetsbudsjettet?', array['Bare overskuddet', 'Bare eiendelene', 'Innbetalinger og utbetalinger måned for måned', 'Antall ansatte']::text[], 2, 'Om man har nok penger på konto.', true, true, 2),
+  ('entreprenorskap-og-bedriftsutvikling-1:pris-budsjett-og-finansiering', 'q04', 'flervalg', 'Hvordan kan en virksomhet gå med overskudd og likevel gå tom for penger?', array['Det er umulig', 'Fordi overskudd alltid er penger på konto', 'Fordi den har for få kostnader', 'Fordi kundene betaler seint eller den har bundet penger i varelager']::text[], 3, 'Resultat og likviditet er ikke det samme.', true, true, 3),
+  ('entreprenorskap-og-bedriftsutvikling-1:pris-budsjett-og-finansiering', 'q05', 'flervalg', 'Hva er fremmedkapital?', array['Lån som skal betales tilbake', 'Penger eierne skyter inn', 'Tilskudd', 'Overskudd']::text[], 0, 'For eksempel banklån.', true, true, 4),
+  ('entreprenorskap-og-bedriftsutvikling-1:pris-budsjett-og-finansiering', 'q06', 'flervalg', 'Hva får en investor vanligvis i bytte mot penger?', array['Renter og avdrag', 'En eierandel', 'Ingenting', 'Et tilskudd']::text[], 1, 'Og innflytelse.', true, true, 5),
+  ('entreprenorskap-og-bedriftsutvikling-1:pris-budsjett-og-finansiering', 'q07', 'flervalg', 'Hvilken aktør kan gi tilskudd til gründere?', array['Forbrukertilsynet', 'Arbeidstilsynet', 'Innovasjon Norge', 'Politiet']::text[], 2, 'Også kommunale næringsfond.', true, true, 6),
+  ('entreprenorskap-og-bedriftsutvikling-1:pris-budsjett-og-finansiering', 'q08', 'flervalg', 'Hva hører til anleggsmidlene?', array['Varelager', 'Kontanter', 'Kundefordringer', 'Utstyr og maskiner']::text[], 3, 'Eiendeler som skal brukes lenge.', true, true, 7),
+  ('entreprenorskap-og-bedriftsutvikling-1:pris-budsjett-og-finansiering', 'q09', 'flervalg', 'Hvorfor bør man legge inn en buffer i kapitalbehovet?', array['Fordi det meste tar lengre tid og koster mer enn planlagt', 'Fordi banken krever det alltid', 'For å betale mindre skatt', 'For å få flere kunder']::text[], 0, 'Likviditetsreserve.', true, false, 8),
+  ('entreprenorskap-og-bedriftsutvikling-1:pris-budsjett-og-finansiering', 'q10', 'flervalg', 'Hva er en risiko ved personlig garanti?', array['Man får lavere rente', 'Gründeren kan tape private eiendeler', 'Man mister eierskap', 'Ingen risiko']::text[], 1, 'Ansvaret blir personlig.', true, false, 9),
+  ('entreprenorskap-og-bedriftsutvikling-1:pris-budsjett-og-finansiering', 'm01', 'sant-usant', 'Et lån må betales tilbake uansett hvordan det går med virksomheten.', array['Sant', 'Usant']::text[], 0, 'Derfor er lån en risiko.', false, true, 10),
+  ('entreprenorskap-og-bedriftsutvikling-1:pris-budsjett-og-finansiering', 'm02', 'sant-usant', 'Egenkapital fra investorer må betales tilbake med renter.', array['Sant', 'Usant']::text[], 1, 'Investorene får eierandeler i stedet.', false, true, 11),
+  ('entreprenorskap-og-bedriftsutvikling-1:pris-budsjett-og-finansiering', 'm03', 'sant-usant', 'Leasing betyr å leie utstyr i stedet for å kjøpe det.', array['Sant', 'Usant']::text[], 0, 'Reduserer kapitalbehovet.', false, true, 12),
+  ('entreprenorskap-og-bedriftsutvikling-1:pris-budsjett-og-finansiering', 'm04', 'sant-usant', 'Resultatbudsjettet viser når pengene kommer inn på konto.', array['Sant', 'Usant']::text[], 1, 'Det gjør likviditetsbudsjettet.', false, true, 13),
+  ('entreprenorskap-og-bedriftsutvikling-1:pris-budsjett-og-finansiering', 'm05', 'flervalg', 'Selvkost er 80 kr og påslaget 25 %. Hva blir prisen uten merverdiavgift?', array['85 kr', '100 kr', '105 kr', '125 kr']::text[], 1, '80 · 1,25 = 100.', false, true, 14),
+  ('entreprenorskap-og-bedriftsutvikling-1:pris-budsjett-og-finansiering', 'm06', 'flervalg', 'Hva er folkefinansiering?', array['Mange privatpersoner bidrar med små beløp', 'Et banklån', 'Et statlig tilskudd', 'Leverandørkreditt']::text[], 0, 'Ofte i bytte mot produkt, belønning eller eierandel.', false, true, 15),
+  ('entreprenorskap-og-bedriftsutvikling-1:pris-budsjett-og-finansiering', 'm07', 'flervalg', 'Hva viser etableringsbudsjettet?', array['Lønn per måned', 'Salget per dag', 'Kapitalbehov og hvordan det finansieres', 'Antall kunder']::text[], 2, 'Grunnlaget for finansieringsplanen.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('entreprenorskap-og-bedriftsutvikling-1:pris-budsjett-og-finansiering', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Entreprenørskap og bedriftsutvikling 1: Regnskap og nøkkeltall
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('entreprenorskap-og-bedriftsutvikling-1:regnskap-og-nokkeltall', 'entreprenorskap-og-bedriftsutvikling-1', 'regnskap-og-nokkeltall', 'Regnskap og nøkkeltall', 'Hvordan du leser et resultatregnskap og en balanse, hva avskrivninger er, og hvordan nøkkeltall for lønnsomhet, likviditet og soliditet brukes til å vurdere en virksomhet.', array[12]::int[], 11, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('entreprenorskap-og-bedriftsutvikling-1:regnskap-og-nokkeltall', '## Hva er regnskap?
+
+Alle virksomheter må **bokføre** inntekter og utgifter. **Årsregnskapet** oppsummerer året og består blant annet av **resultatregnskapet** og **balansen**. Regnskapene til aksjeselskaper er **offentlige** og kan leses i **Regnskapsregisteret**.
+
+## Resultatregnskapet
+
+Resultatregnskapet viser om virksomheten har tjent eller tapt penger i løpet av **året**:
+
+| Post | Kroner |
+|---|---|
+| **Driftsinntekter** (salg) | 1 000 000 |
+| − **Driftskostnader** (varekostnad, lønn, avskrivninger og andre kostnader) | 900 000 |
+| = **Driftsresultat** | 100 000 |
+| − Rentekostnader | 10 000 |
+| = **Resultat før skatt** | 90 000 |
+
+Etter **skatt** får vi **årsresultatet**.
+
+**Avskrivninger** fordeler kostnaden for ting som varer i flere år, som en maskin, over **levetiden**. En maskin til 100 000 kr som varer i fem år, gir en avskrivning på 20 000 kr per år.
+
+## Balansen
+
+Balansen er et **øyeblikksbilde** av hva virksomheten **eier** og hvordan det er **finansiert** – vanligvis per 31. desember.
+
+- **Eiendeler**
+  - **Anleggsmidler**: bygninger, maskiner og inventar
+  - **Omløpsmidler**: varelager, kundefordringer og bankinnskudd
+- **Egenkapital og gjeld**
+  - **Egenkapital**: det eierne har skutt inn, pluss overskudd som er holdt tilbake
+  - **Langsiktig gjeld**: for eksempel banklån
+  - **Kortsiktig gjeld**: for eksempel leverandørgjeld og skyldige avgifter
+
+Balansen går alltid **i balanse**: **Eiendeler = egenkapital + gjeld**. Summen kalles **totalkapitalen**.
+
+## Nøkkeltall
+
+Nøkkeltall gjør det lettere å **sammenligne** virksomheter og år.
+
+### Lønnsomhet
+
+- **Resultatgrad** = driftsresultat ÷ driftsinntekter · 100. Eksempel: 100 000 ÷ 1 000 000 = **10 %**.
+- **Totalkapitalrentabilitet** viser hvor godt **all** kapitalen forrentes: (resultat før skatt + rentekostnader) ÷ totalkapital · 100. Med totalkapital på 500 000 kr: (90 000 + 10 000) ÷ 500 000 = **20 %**.
+- **Egenkapitalrentabilitet** viser avkastningen til **eierne**: resultat før skatt ÷ egenkapital · 100. Med egenkapital på 200 000 kr: 90 000 ÷ 200 000 = **45 %**.
+
+### Likviditet
+
+**Likviditetsgrad 1** = omløpsmidler ÷ kortsiktig gjeld. Den viser om virksomheten kan betale **regningene** som forfaller snart. En vanlig tommelfingerregel er at den bør være **over 2**.
+
+### Soliditet
+
+**Egenkapitalandel** = egenkapital ÷ totalkapital · 100. Den viser hvor godt virksomheten tåler **tap**. I eksempelet: 200 000 ÷ 500 000 = **40 %**.
+
+## Å vurdere nøkkeltallene
+
+Ett tall alene sier **lite**. Sammenlign med
+
+- virksomhetens **tidligere år** – går det bedre eller dårligere?
+- andre virksomheter i **samme bransje**
+- **renten** – totalkapitalrentabiliteten bør være høyere enn lånerenten
+
+En ny virksomhet har ofte **underskudd** de første årene. Det viktigste da er at **likviditeten** holder, og at utviklingen går i **riktig retning**.', '{"label":"Regnskap og nøkkeltall","children":[{"label":"Resultatregnskap","children":[{"label":"Inntekter og kostnader"},{"label":"Driftsresultat"},{"label":"Avskrivninger"}]},{"label":"Balanse","children":[{"label":"Anleggs- og omløpsmidler"},{"label":"Egenkapital"},{"label":"Lang- og kortsiktig gjeld"}]},{"label":"Lønnsomhet","children":[{"label":"Resultatgrad"},{"label":"Totalkapitalrentabilitet"},{"label":"Egenkapitalrentabilitet"}]},{"label":"Likviditet og soliditet","children":[{"label":"Likviditetsgrad 1"},{"label":"Egenkapitalandel"}]},{"label":"Vurdering","children":[{"label":"Tidligere år"},{"label":"Bransje og rente"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'entreprenorskap-og-bedriftsutvikling-1:regnskap-og-nokkeltall';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('entreprenorskap-og-bedriftsutvikling-1:regnskap-og-nokkeltall', 'Årsregnskap', 'Oppsummering av året med resultatregnskap og balanse.', 0),
+  ('entreprenorskap-og-bedriftsutvikling-1:regnskap-og-nokkeltall', 'Resultatregnskap', 'Viser inntekter, kostnader og resultat for året.', 1),
+  ('entreprenorskap-og-bedriftsutvikling-1:regnskap-og-nokkeltall', 'Driftsresultat', 'Driftsinntekter minus driftskostnader.', 2),
+  ('entreprenorskap-og-bedriftsutvikling-1:regnskap-og-nokkeltall', 'Avskrivning', 'Fordeling av kostnaden for varige eiendeler over levetiden.', 3),
+  ('entreprenorskap-og-bedriftsutvikling-1:regnskap-og-nokkeltall', 'Balanse', 'Øyeblikksbilde av eiendeler, egenkapital og gjeld.', 4),
+  ('entreprenorskap-og-bedriftsutvikling-1:regnskap-og-nokkeltall', 'Anleggsmidler', 'Eiendeler som skal brukes lenge.', 5),
+  ('entreprenorskap-og-bedriftsutvikling-1:regnskap-og-nokkeltall', 'Omløpsmidler', 'Varelager, kundefordringer og bankinnskudd.', 6),
+  ('entreprenorskap-og-bedriftsutvikling-1:regnskap-og-nokkeltall', 'Kortsiktig gjeld', 'Gjeld som forfaller innen ett år.', 7),
+  ('entreprenorskap-og-bedriftsutvikling-1:regnskap-og-nokkeltall', 'Totalkapital', 'Summen av eiendelene – lik egenkapital pluss gjeld.', 8),
+  ('entreprenorskap-og-bedriftsutvikling-1:regnskap-og-nokkeltall', 'Resultatgrad', 'Driftsresultat delt på driftsinntekter.', 9),
+  ('entreprenorskap-og-bedriftsutvikling-1:regnskap-og-nokkeltall', 'Totalkapitalrentabilitet', 'Hvor godt all kapitalen i virksomheten forrentes.', 10),
+  ('entreprenorskap-og-bedriftsutvikling-1:regnskap-og-nokkeltall', 'Egenkapitalrentabilitet', 'Avkastningen til eierne.', 11),
+  ('entreprenorskap-og-bedriftsutvikling-1:regnskap-og-nokkeltall', 'Likviditetsgrad 1', 'Omløpsmidler delt på kortsiktig gjeld – bør være over 2.', 12),
+  ('entreprenorskap-og-bedriftsutvikling-1:regnskap-og-nokkeltall', 'Egenkapitalandel', 'Egenkapital delt på totalkapital – viser soliditet.', 13),
+  ('entreprenorskap-og-bedriftsutvikling-1:regnskap-og-nokkeltall', 'Soliditet', 'Evnen til å tåle tap.', 14),
+  ('entreprenorskap-og-bedriftsutvikling-1:regnskap-og-nokkeltall', 'Regnskapsregisteret', 'Offentlig register med regnskapene til blant annet aksjeselskaper.', 15);
+delete from public.quiz_sporsmal where tema_id = 'entreprenorskap-og-bedriftsutvikling-1:regnskap-og-nokkeltall';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('entreprenorskap-og-bedriftsutvikling-1:regnskap-og-nokkeltall', 'q01', 'flervalg', 'Hva viser resultatregnskapet?', array['Hva virksomheten eier', 'Inntekter, kostnader og resultat for året', 'Antall ansatte', 'Aksjekursen']::text[], 1, 'Balansen viser eiendeler og finansiering.', true, true, 0),
+  ('entreprenorskap-og-bedriftsutvikling-1:regnskap-og-nokkeltall', 'q02', 'flervalg', 'Driftsinntektene er 1 000 000 kr og driftsresultatet 100 000 kr. Hva er resultatgraden?', array['10 %', '1 %', '90 %', '100 %']::text[], 0, '100 000 ÷ 1 000 000 · 100.', true, true, 1),
+  ('entreprenorskap-og-bedriftsutvikling-1:regnskap-og-nokkeltall', 'q03', 'flervalg', 'Hva er en avskrivning?', array['Et banklån', 'En skatt', 'Fordeling av kostnaden for varige eiendeler over levetiden', 'Et salg']::text[], 2, 'En maskin til 100 000 kr over fem år gir 20 000 kr per år.', true, true, 2),
+  ('entreprenorskap-og-bedriftsutvikling-1:regnskap-og-nokkeltall', 'q04', 'flervalg', 'Hva gjelder alltid i balansen?', array['Gjeld = inntekter', 'Egenkapital = kostnader', 'Resultat = eiendeler', 'Eiendeler = egenkapital + gjeld']::text[], 3, 'Derfor heter det balanse.', true, true, 3),
+  ('entreprenorskap-og-bedriftsutvikling-1:regnskap-og-nokkeltall', 'q05', 'flervalg', 'Hvilket nøkkeltall viser om virksomheten kan betale regninger som forfaller snart?', array['Likviditetsgrad 1', 'Resultatgrad', 'Egenkapitalrentabilitet', 'Egenkapitalandel']::text[], 0, 'Omløpsmidler delt på kortsiktig gjeld.', true, true, 4),
+  ('entreprenorskap-og-bedriftsutvikling-1:regnskap-og-nokkeltall', 'q06', 'flervalg', 'Egenkapitalen er 200 000 kr og totalkapitalen 500 000 kr. Hva er egenkapitalandelen?', array['25 %', '40 %', '60 %', '250 %']::text[], 1, '200 000 ÷ 500 000 · 100.', true, true, 5),
+  ('entreprenorskap-og-bedriftsutvikling-1:regnskap-og-nokkeltall', 'q07', 'flervalg', 'Hva hører til omløpsmidlene?', array['Bygninger', 'Maskiner', 'Varelager og bankinnskudd', 'Banklån']::text[], 2, 'Eiendeler som skifter raskt.', true, true, 6),
+  ('entreprenorskap-og-bedriftsutvikling-1:regnskap-og-nokkeltall', 'q08', 'flervalg', 'Hva viser egenkapitalrentabiliteten?', array['Hvor mye gjeld virksomheten har', 'Hvor mange kunder den har', 'Hvor mye den eier', 'Avkastningen til eierne']::text[], 3, 'Resultat før skatt delt på egenkapital.', true, true, 7),
+  ('entreprenorskap-og-bedriftsutvikling-1:regnskap-og-nokkeltall', 'q09', 'flervalg', 'Hva bør totalkapitalrentabiliteten sammenlignes med?', array['Lånerenten', 'Antall ansatte', 'Aksjekapitalen', 'Merverdiavgiften']::text[], 0, 'Den bør være høyere enn lånerenten.', true, false, 8),
+  ('entreprenorskap-og-bedriftsutvikling-1:regnskap-og-nokkeltall', 'q10', 'flervalg', 'Hva er viktigst for en ny virksomhet med underskudd de første årene?', array['At den betaler utbytte', 'At likviditeten holder og utviklingen går riktig vei', 'At den har høy egenkapitalrentabilitet', 'At den ikke har kostnader']::text[], 1, 'Underskudd er vanlig i starten.', true, false, 9),
+  ('entreprenorskap-og-bedriftsutvikling-1:regnskap-og-nokkeltall', 'm01', 'sant-usant', 'Regnskapene til aksjeselskaper er offentlige.', array['Sant', 'Usant']::text[], 0, 'De finnes i Regnskapsregisteret.', false, true, 10),
+  ('entreprenorskap-og-bedriftsutvikling-1:regnskap-og-nokkeltall', 'm02', 'sant-usant', 'Ett enkelt nøkkeltall gir et fullstendig bilde av en virksomhet.', array['Sant', 'Usant']::text[], 1, 'Tallene må sammenlignes med tidligere år og bransjen.', false, true, 11),
+  ('entreprenorskap-og-bedriftsutvikling-1:regnskap-og-nokkeltall', 'm03', 'sant-usant', 'Balansen er et øyeblikksbilde, vanligvis per 31. desember.', array['Sant', 'Usant']::text[], 0, 'Resultatregnskapet gjelder hele året.', false, true, 12),
+  ('entreprenorskap-og-bedriftsutvikling-1:regnskap-og-nokkeltall', 'm04', 'sant-usant', 'En høy egenkapitalandel betyr at virksomheten tåler tap dårlig.', array['Sant', 'Usant']::text[], 1, 'Høy egenkapitalandel gir god soliditet.', false, true, 13),
+  ('entreprenorskap-og-bedriftsutvikling-1:regnskap-og-nokkeltall', 'm05', 'flervalg', 'Hva er et eksempel på kortsiktig gjeld?', array['Et banklån over 20 år', 'Leverandørgjeld', 'Aksjekapital', 'Bygninger']::text[], 1, 'Forfaller innen ett år.', false, true, 14),
+  ('entreprenorskap-og-bedriftsutvikling-1:regnskap-og-nokkeltall', 'm06', 'flervalg', 'Resultat før skatt er 90 000 kr og rentekostnadene 10 000 kr. Totalkapitalen er 500 000 kr. Hva er totalkapitalrentabiliteten?', array['20 %', '18 %', '2 %', '45 %']::text[], 0, '(90 000 + 10 000) ÷ 500 000 · 100.', false, true, 15),
+  ('entreprenorskap-og-bedriftsutvikling-1:regnskap-og-nokkeltall', 'm07', 'flervalg', 'Hva bør likviditetsgrad 1 være ifølge en vanlig tommelfingerregel?', array['Under 0,5', 'Nøyaktig 1', 'Over 2', 'Over 10']::text[], 2, 'Omløpsmidlene bør være dobbelt så store som den kortsiktige gjelden.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('entreprenorskap-og-bedriftsutvikling-1:regnskap-og-nokkeltall', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Samfunnsøkonomi 1 (vg2): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'samfunnsokonomi-1' and slug not in ('samfunnsokonomi-og-modeller', 'tilbud-og-ettersporsel', 'markedsformer', 'realligningen', 'privat-og-offentlig-sektor', 'okonomisk-vekst-og-bnp', 'arbeidsledighet', 'prisstigning', 'penge-og-finanspolitikk', 'finansmarkeder', 'inntektsfordeling-og-ulikhet', 'miljo-og-barekraftig-vekst', 'valutakurser', 'internasjonal-handel-og-globalisering');
+
+-- Samfunnsøkonomi 1: Samfunnsøkonomi, modeller og kilder
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('samfunnsokonomi-1:samfunnsokonomi-og-modeller', 'samfunnsokonomi-1', 'samfunnsokonomi-og-modeller', 'Samfunnsøkonomi, modeller og kilder', 'Hva samfunnsøkonomi er: knapphet, alternativkostnad, produksjonsfaktorer og økonomiske systemer, mikro- og makroøkonomi, økonomiske modeller som kretsløpsmodellen – og hvordan du bruker kilder, tall, prosent og prosentpoeng i faget.', array[1]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('samfunnsokonomi-1:samfunnsokonomi-og-modeller', '## Hva er samfunnsøkonomi?
+
+**Samfunnsøkonomi** handler om hvordan et samfunn bruker **knappe ressurser** for å dekke menneskers **behov**. Behovene er nesten ubegrensede, men ressursene – arbeidskraft, tid, natur og kapital – er **begrenset**. Derfor må vi gjøre **valg**.
+
+## Alternativkostnad
+
+Når vi velger noe, gir vi opp noe annet. **Alternativkostnaden** er verdien av det **beste alternativet** vi velger bort. Bruker staten en milliard på vei, kan de samme pengene ikke brukes på sykehus.
+
+## Produksjonsfaktorer
+
+For å produsere varer og tjenester trengs
+
+- **arbeidskraft** – menneskers innsats og kunnskap
+- **realkapital** – maskiner, bygninger og utstyr
+- **naturressurser** – jord, vann, fisk, olje og gass
+- **teknologi** og **kunnskap**, som gjør at vi kan produsere mer med de samme ressursene
+
+## Tre grunnspørsmål
+
+Alle samfunn må svare på **hva** som skal produseres, **hvordan** det skal produseres og **hvem** som skal få det.
+
+- I en **markedsøkonomi** avgjøres dette i stor grad av **tilbud** og **etterspørsel**.
+- I en **planøkonomi** bestemmer **staten**.
+- Norge har en **blandingsøkonomi**: Markedet styrer mye, men staten har stor rolle gjennom skatter, velferd, regulering og eierskap.
+
+## Mikro og makro
+
+- **Mikroøkonomi** studerer **enkeltaktører**: husholdninger, bedrifter og enkeltmarkeder.
+- **Makroøkonomi** studerer **hele økonomien**: produksjon, arbeidsledighet, prisstigning, renter og handel med utlandet.
+
+## Økonomiske modeller
+
+En **modell** er en **forenkling** av virkeligheten som hjelper oss å forstå sammenhenger. Modeller bygger på **forutsetninger** – for eksempel at «**alt annet er likt**» når vi ser på effekten av én endring.
+
+**Kretsløpsmodellen** viser at **husholdningene** leverer **arbeidskraft** til **bedriftene** og får **lønn**, mens bedriftene leverer **varer og tjenester** som husholdningene betaler for. Modellen kan utvides med **staten**, **banker** og **utlandet**.
+
+Modeller er nyttige, men de kan gi **feil** svar når forutsetningene ikke stemmer med virkeligheten.
+
+## Positive og normative påstander
+
+- En **positiv** påstand handler om hvordan noe **er**, og kan testes: «Arbeidsledigheten økte i fjor.»
+- En **normativ** påstand handler om hvordan noe **bør være**: «Staten bør bruke mer penger på skole.»
+
+Økonomer er ofte uenige om **normative** spørsmål fordi de har ulike **verdier**.
+
+## Kilder
+
+- **SSB** – offisiell statistikk om befolkning, priser og økonomi
+- **Norges Bank** – renter og pengepolitikk
+- **Finansdepartementet** – statsbudsjettet og nasjonalbudsjettet
+- **NAV** – arbeidsledighet
+- internasjonale kilder som **OECD** og **IMF**
+
+**Interesseorganisasjoner** for arbeidsgivere og arbeidstakere har nyttige analyser, men også **egne interesser**.
+
+## Tall i samfunnsøkonomi
+
+- **Nominelle** tall er målt i løpende kroner. **Reelle** tall er justert for **prisstigning**.
+- **Prosent** og **prosentpoeng** er ikke det samme. Stiger renten fra 4 % til 5 %, har den økt med **ett prosentpoeng**, men med **25 prosent**.
+- En **indeks** viser utviklingen i forhold til et **basisår**, som settes til 100.', '{"label":"Samfunnsøkonomi","children":[{"label":"Grunnbegreper","children":[{"label":"Knapphet"},{"label":"Alternativkostnad"},{"label":"Produksjonsfaktorer"}]},{"label":"Systemer","children":[{"label":"Marked"},{"label":"Plan"},{"label":"Blanding"}]},{"label":"Nivåer","children":[{"label":"Mikro"},{"label":"Makro"}]},{"label":"Modeller","children":[{"label":"Forutsetninger"},{"label":"Kretsløpsmodellen"},{"label":"Positiv og normativ"}]},{"label":"Kilder og tall","children":[{"label":"SSB og Norges Bank"},{"label":"Prosentpoeng"},{"label":"Reelt og nominelt"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'samfunnsokonomi-1:samfunnsokonomi-og-modeller';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('samfunnsokonomi-1:samfunnsokonomi-og-modeller', 'Samfunnsøkonomi', 'Hvordan samfunnet bruker knappe ressurser for å dekke behov.', 0),
+  ('samfunnsokonomi-1:samfunnsokonomi-og-modeller', 'Knapphet', 'Ressursene er begrenset, mens behovene nesten er ubegrensede.', 1),
+  ('samfunnsokonomi-1:samfunnsokonomi-og-modeller', 'Alternativkostnad', 'Verdien av det beste alternativet man velger bort.', 2),
+  ('samfunnsokonomi-1:samfunnsokonomi-og-modeller', 'Produksjonsfaktorer', 'Arbeidskraft, realkapital, naturressurser og teknologi.', 3),
+  ('samfunnsokonomi-1:samfunnsokonomi-og-modeller', 'Realkapital', 'Maskiner, bygninger og utstyr som brukes i produksjonen.', 4),
+  ('samfunnsokonomi-1:samfunnsokonomi-og-modeller', 'Markedsøkonomi', 'Tilbud og etterspørsel styrer hva som produseres.', 5),
+  ('samfunnsokonomi-1:samfunnsokonomi-og-modeller', 'Planøkonomi', 'Staten bestemmer hva som produseres.', 6),
+  ('samfunnsokonomi-1:samfunnsokonomi-og-modeller', 'Blandingsøkonomi', 'Marked og stat styrer økonomien sammen, som i Norge.', 7),
+  ('samfunnsokonomi-1:samfunnsokonomi-og-modeller', 'Mikroøkonomi', 'Studerer husholdninger, bedrifter og enkeltmarkeder.', 8),
+  ('samfunnsokonomi-1:samfunnsokonomi-og-modeller', 'Makroøkonomi', 'Studerer hele økonomien.', 9),
+  ('samfunnsokonomi-1:samfunnsokonomi-og-modeller', 'Økonomisk modell', 'Forenkling av virkeligheten med forutsetninger.', 10),
+  ('samfunnsokonomi-1:samfunnsokonomi-og-modeller', 'Kretsløpsmodellen', 'Viser strømmene av varer, arbeid og penger mellom husholdninger og bedrifter.', 11),
+  ('samfunnsokonomi-1:samfunnsokonomi-og-modeller', 'Positiv påstand', 'Hvordan noe er – kan testes.', 12),
+  ('samfunnsokonomi-1:samfunnsokonomi-og-modeller', 'Normativ påstand', 'Hvordan noe bør være – bygger på verdier.', 13),
+  ('samfunnsokonomi-1:samfunnsokonomi-og-modeller', 'Prosentpoeng', 'Forskjellen mellom to prosenttall.', 14),
+  ('samfunnsokonomi-1:samfunnsokonomi-og-modeller', 'Reelle tall', 'Tall justert for prisstigning.', 15),
+  ('samfunnsokonomi-1:samfunnsokonomi-og-modeller', 'Indeks', 'Viser utviklingen i forhold til et basisår satt til 100.', 16);
+delete from public.quiz_sporsmal where tema_id = 'samfunnsokonomi-1:samfunnsokonomi-og-modeller';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('samfunnsokonomi-1:samfunnsokonomi-og-modeller', 'q01', 'flervalg', 'Hva er alternativkostnad?', array['Prisen på en vare', 'Verdien av det beste alternativet man velger bort', 'Skatten på en vare', 'Kostnaden for staten']::text[], 1, 'Alle valg har en alternativkostnad.', true, true, 0),
+  ('samfunnsokonomi-1:samfunnsokonomi-og-modeller', 'q02', 'flervalg', 'Hvilken økonomisk modell har Norge?', array['Blandingsøkonomi', 'Ren planøkonomi', 'Ren markedsøkonomi', 'Naturalhusholdning']::text[], 0, 'Marked og stat styrer sammen.', true, true, 1),
+  ('samfunnsokonomi-1:samfunnsokonomi-og-modeller', 'q03', 'flervalg', 'Hva studerer makroøkonomi?', array['Én bedrift', 'Én husholdning', 'Hele økonomien', 'Ett marked']::text[], 2, 'For eksempel arbeidsledighet og prisstigning.', true, true, 2),
+  ('samfunnsokonomi-1:samfunnsokonomi-og-modeller', 'q04', 'flervalg', 'Hvilken påstand er normativ?', array['Arbeidsledigheten økte i fjor', 'Renten er 4 %', 'BNP vokste med 2 %', 'Staten bør bruke mer penger på skole']::text[], 3, 'Den handler om hva som bør være.', true, true, 3),
+  ('samfunnsokonomi-1:samfunnsokonomi-og-modeller', 'q05', 'flervalg', 'Renten stiger fra 4 % til 5 %. Hvor mye har den økt?', array['Ett prosentpoeng, eller 25 prosent', 'Ett prosent', 'Fem prosentpoeng', '20 prosent']::text[], 0, '(5 − 4) ÷ 4 = 25 %.', true, true, 4),
+  ('samfunnsokonomi-1:samfunnsokonomi-og-modeller', 'q06', 'flervalg', 'Hva viser kretsløpsmodellen?', array['Hvordan været påvirker økonomien', 'Strømmene av varer, arbeid og penger mellom husholdninger og bedrifter', 'Hvordan en bedrift lager budsjett', 'Hvordan aksjer handles']::text[], 1, 'Kan utvides med staten, banker og utlandet.', true, true, 5),
+  ('samfunnsokonomi-1:samfunnsokonomi-og-modeller', 'q07', 'flervalg', 'Hva er realkapital?', array['Penger i banken', 'Aksjer', 'Maskiner, bygninger og utstyr', 'Arbeidskraft']::text[], 2, 'En produksjonsfaktor.', true, true, 6),
+  ('samfunnsokonomi-1:samfunnsokonomi-og-modeller', 'q08', 'flervalg', 'Hvilken kilde gir offisiell statistikk om økonomien i Norge?', array['En interesseorganisasjon', 'En blogg', 'En bank sin reklame', 'SSB']::text[], 3, 'Statistisk sentralbyrå.', true, true, 7),
+  ('samfunnsokonomi-1:samfunnsokonomi-og-modeller', 'q09', 'flervalg', 'Hva betyr forutsetningen «alt annet likt»?', array['At vi ser på effekten av én endring mens alt annet holdes fast', 'At alle er like', 'At prisene aldri endres', 'At modellen alltid stemmer']::text[], 0, 'En vanlig forenkling i modeller.', true, false, 8),
+  ('samfunnsokonomi-1:samfunnsokonomi-og-modeller', 'q10', 'flervalg', 'Hva er reelle tall?', array['Tall i løpende kroner', 'Tall justert for prisstigning', 'Tall fra utlandet', 'Avrundede tall']::text[], 1, 'Nominelle tall er ikke justert.', true, false, 9),
+  ('samfunnsokonomi-1:samfunnsokonomi-og-modeller', 'm01', 'sant-usant', 'Økonomiske modeller er forenklinger av virkeligheten.', array['Sant', 'Usant']::text[], 0, 'De bygger på forutsetninger.', false, true, 10),
+  ('samfunnsokonomi-1:samfunnsokonomi-og-modeller', 'm02', 'sant-usant', 'En positiv påstand handler om hvordan noe bør være.', array['Sant', 'Usant']::text[], 1, 'Den handler om hvordan noe er.', false, true, 11),
+  ('samfunnsokonomi-1:samfunnsokonomi-og-modeller', 'm03', 'sant-usant', 'Interesseorganisasjoner kan ha egne interesser i analysene de lager.', array['Sant', 'Usant']::text[], 0, 'Vær kildekritisk.', false, true, 12),
+  ('samfunnsokonomi-1:samfunnsokonomi-og-modeller', 'm04', 'sant-usant', 'I en planøkonomi er det tilbud og etterspørsel som bestemmer produksjonen.', array['Sant', 'Usant']::text[], 1, 'I en planøkonomi bestemmer staten.', false, true, 13),
+  ('samfunnsokonomi-1:samfunnsokonomi-og-modeller', 'm05', 'flervalg', 'Hva studerer mikroøkonomi?', array['Hele økonomien', 'Husholdninger, bedrifter og enkeltmarkeder', 'Bare staten', 'Bare utlandet']::text[], 1, 'Enkeltaktører.', false, true, 14),
+  ('samfunnsokonomi-1:samfunnsokonomi-og-modeller', 'm06', 'flervalg', 'Hva er et basisår i en indeks?', array['Året som settes til 100', 'Det siste året', 'Året med høyest pris', 'Et tilfeldig år']::text[], 0, 'Andre år sammenlignes med det.', false, true, 15),
+  ('samfunnsokonomi-1:samfunnsokonomi-og-modeller', 'm07', 'flervalg', 'Hvilken aktør har ansvar for renter og pengepolitikk?', array['NAV', 'SSB', 'Norges Bank', 'Konkurransetilsynet']::text[], 2, 'Sentralbanken.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('samfunnsokonomi-1:samfunnsokonomi-og-modeller', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Samfunnsøkonomi 1: Tilbud, etterspørsel og markedslikevekt
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('samfunnsokonomi-1:tilbud-og-ettersporsel', 'samfunnsokonomi-1', 'tilbud-og-ettersporsel', 'Tilbud, etterspørsel og markedslikevekt', 'Hvordan pris og mengde bestemmes i et marked: etterspørselskurven og tilbudskurven, hva som forskyver kurvene, markedslikevekt, overskuddstilbud og overskuddsetterspørsel – og hvordan modellen brukes til å analysere endringer i virkelige markeder.', array[2]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('samfunnsokonomi-1:tilbud-og-ettersporsel', '## Et marked
+
+Et **marked** er et sted – fysisk eller digitalt – der **kjøpere** og **selgere** møtes. Prisen og mengden som omsettes, bestemmes av **tilbud** og **etterspørsel**.
+
+## Etterspørsel
+
+**Etterspørselen** viser hvor mye kjøperne vil kjøpe ved ulike **priser**. Jo **lavere** prisen er, desto **mer** vil de kjøpe. **Etterspørselskurven** heller derfor **nedover** mot høyre.
+
+Etterspørselskurven **forskyves** når andre forhold enn prisen endrer seg:
+
+- **Inntekt**: Høyere inntekt gir vanligvis større etterspørsel.
+- **Priser på andre varer**: Blir en **erstatningsvare** dyrere, øker etterspørselen etter vår vare – smør og margarin er et eksempel. Blir en **tilleggsvare** dyrere, synker etterspørselen – som biler og bensin.
+- **Smak og trender**
+- **Forventninger** om framtidige priser
+- **Antall kjøpere**
+
+## Tilbud
+
+**Tilbudet** viser hvor mye selgerne vil selge ved ulike priser. Jo **høyere** prisen er, desto mer lønnsomt er det å produsere. **Tilbudskurven** heller derfor **oppover** mot høyre.
+
+Tilbudskurven **forskyves** når
+
+- **produksjonskostnadene** endres, for eksempel lønn og råvarer
+- **teknologien** blir bedre
+- **antall tilbydere** endres
+- **avgifter** eller **subsidier** endres
+- **naturforhold** endres, som en dårlig avling
+
+## Likevekt
+
+Der tilbuds- og etterspørselskurven **krysser**, finner vi **likevektsprisen** og **likevektsmengden**. Her vil kjøperne kjøpe akkurat det selgerne vil selge.
+
+- Er prisen **over** likevekt, blir det **overskuddstilbud**. Selgerne sitter igjen med varer og **senker** prisen.
+- Er prisen **under** likevekt, blir det **overskuddsetterspørsel**. Varene blir utsolgt, og prisen **stiger**.
+
+Slik trekker markedet mot likevekt av seg selv.
+
+## Bevegelse langs kurven eller forskyvning?
+
+- Når **prisen** på varen endres, beveger vi oss **langs** kurven.
+- Når **andre forhold** endres, **forskyves** hele kurven.
+
+## Eksempler
+
+**Strøm i en kald og tørr vinter**: Kulde gir **økt etterspørsel**, og lite vann i magasinene gir **mindre tilbud**. Begge deler presser **prisen opp**.
+
+**Avgift på sukkerholdige varer**: Avgiften øker kostnadene til selgerne, og tilbudskurven forskyves **oppover**. Prisen **stiger**, og omsatt mengde **synker**.
+
+**Ny teknologi for solcellepaneler**: Lavere kostnader forskyver tilbudet **utover**. Prisen **faller**, og mengden **øker**.
+
+## Priselastisitet
+
+**Priselastisiteten** viser hvor mye etterspørselen endres når prisen endres. For **nødvendighetsvarer** med få alternativer, som strøm og medisiner, endres etterspørselen **lite**. For varer med mange **erstatninger**, som et bestemt brusmerke, endres den **mye**.
+
+## Begrensninger
+
+Modellen forutsetter blant annet at det er **mange** kjøpere og selgere og at alle har god **informasjon**. I mange virkelige markeder er det ikke slik. Da må modellen suppleres med kunnskap om **markedsformer**.', '{"label":"Tilbud og etterspørsel","children":[{"label":"Etterspørsel","children":[{"label":"Kurven heller nedover"},{"label":"Inntekt og trender"},{"label":"Erstatnings- og tilleggsvarer"}]},{"label":"Tilbud","children":[{"label":"Kurven heller oppover"},{"label":"Kostnader og teknologi"},{"label":"Avgifter og subsidier"}]},{"label":"Likevekt","children":[{"label":"Likevektspris"},{"label":"Overskuddstilbud"},{"label":"Overskuddsetterspørsel"}]},{"label":"Endringer","children":[{"label":"Langs kurven"},{"label":"Forskyvning"}]},{"label":"Eksempler","children":[{"label":"Strøm"},{"label":"Sukkeravgift"},{"label":"Solceller"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'samfunnsokonomi-1:tilbud-og-ettersporsel';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('samfunnsokonomi-1:tilbud-og-ettersporsel', 'Marked', 'Sted der kjøpere og selgere møtes.', 0),
+  ('samfunnsokonomi-1:tilbud-og-ettersporsel', 'Etterspørsel', 'Hvor mye kjøperne vil kjøpe ved ulike priser.', 1),
+  ('samfunnsokonomi-1:tilbud-og-ettersporsel', 'Etterspørselskurven', 'Heller nedover – lavere pris gir større etterspurt mengde.', 2),
+  ('samfunnsokonomi-1:tilbud-og-ettersporsel', 'Tilbud', 'Hvor mye selgerne vil selge ved ulike priser.', 3),
+  ('samfunnsokonomi-1:tilbud-og-ettersporsel', 'Tilbudskurven', 'Heller oppover – høyere pris gir større tilbudt mengde.', 4),
+  ('samfunnsokonomi-1:tilbud-og-ettersporsel', 'Erstatningsvare', 'Vare som kan brukes i stedet for en annen, som margarin for smør.', 5),
+  ('samfunnsokonomi-1:tilbud-og-ettersporsel', 'Tilleggsvare', 'Vare som brukes sammen med en annen, som bensin og bil.', 6),
+  ('samfunnsokonomi-1:tilbud-og-ettersporsel', 'Likevektspris', 'Prisen der tilbudt og etterspurt mengde er like store.', 7),
+  ('samfunnsokonomi-1:tilbud-og-ettersporsel', 'Overskuddstilbud', 'Prisen er over likevekt, og selgerne får ikke solgt alt.', 8),
+  ('samfunnsokonomi-1:tilbud-og-ettersporsel', 'Overskuddsetterspørsel', 'Prisen er under likevekt, og varene blir utsolgt.', 9),
+  ('samfunnsokonomi-1:tilbud-og-ettersporsel', 'Forskyvning av kurven', 'Skjer når andre forhold enn prisen endres.', 10),
+  ('samfunnsokonomi-1:tilbud-og-ettersporsel', 'Bevegelse langs kurven', 'Skjer når prisen på varen endres.', 11),
+  ('samfunnsokonomi-1:tilbud-og-ettersporsel', 'Subsidie', 'Tilskudd fra staten som senker produsentens kostnader.', 12),
+  ('samfunnsokonomi-1:tilbud-og-ettersporsel', 'Priselastisitet', 'Hvor mye etterspørselen endres når prisen endres.', 13),
+  ('samfunnsokonomi-1:tilbud-og-ettersporsel', 'Nødvendighetsvare', 'Vare med få alternativer, som strøm – lite prisfølsom.', 14);
+delete from public.quiz_sporsmal where tema_id = 'samfunnsokonomi-1:tilbud-og-ettersporsel';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('samfunnsokonomi-1:tilbud-og-ettersporsel', 'q01', 'flervalg', 'Hvorfor heller etterspørselskurven nedover?', array['Fordi selgerne vil selge mer ved høy pris', 'Fordi kjøperne vil kjøpe mer når prisen er lav', 'Fordi staten bestemmer det', 'Fordi tilbudet er stort']::text[], 1, 'Lavere pris gir større etterspurt mengde.', true, true, 0),
+  ('samfunnsokonomi-1:tilbud-og-ettersporsel', 'q02', 'flervalg', 'Hva skjer ved en pris over likevekt?', array['Overskuddstilbud, og prisen faller', 'Overskuddsetterspørsel, og prisen stiger', 'Ingenting', 'Varene blir utsolgt']::text[], 0, 'Selgerne sitter igjen med varer.', true, true, 1),
+  ('samfunnsokonomi-1:tilbud-og-ettersporsel', 'q03', 'flervalg', 'Prisen på smør stiger kraftig. Hva skjer med etterspørselen etter margarin?', array['Den synker', 'Den er uendret', 'Den øker', 'Den forsvinner']::text[], 2, 'Margarin er en erstatningsvare.', true, true, 2),
+  ('samfunnsokonomi-1:tilbud-og-ettersporsel', 'q04', 'flervalg', 'Hva forskyver tilbudskurven?', array['En endring i prisen på varen', 'Kjøpernes inntekt', 'Nye trender', 'Endrede produksjonskostnader']::text[], 3, 'Prisendringer gir bevegelse langs kurven.', true, true, 3),
+  ('samfunnsokonomi-1:tilbud-og-ettersporsel', 'q05', 'flervalg', 'Hvorfor steg strømprisen i en kald og tørr vinter?', array['Økt etterspørsel og mindre tilbud', 'Mindre etterspørsel', 'Mer tilbud', 'Lavere kostnader']::text[], 0, 'Begge kurvene trakk prisen opp.', true, true, 4),
+  ('samfunnsokonomi-1:tilbud-og-ettersporsel', 'q06', 'flervalg', 'Hva skjer når en avgift legges på sukkerholdige varer?', array['Prisen faller og mengden øker', 'Prisen stiger og mengden synker', 'Ingenting', 'Etterspørselen øker']::text[], 1, 'Tilbudskurven forskyves oppover.', true, true, 5),
+  ('samfunnsokonomi-1:tilbud-og-ettersporsel', 'q07', 'flervalg', 'Bensin blir mye dyrere. Hva skjer trolig med etterspørselen etter store bensinbiler?', array['Den øker', 'Den er uendret', 'Den synker', 'Den dobles']::text[], 2, 'Bensin er en tilleggsvare til bil.', true, true, 6),
+  ('samfunnsokonomi-1:tilbud-og-ettersporsel', 'q08', 'flervalg', 'Hva er likevektsprisen?', array['Den høyeste prisen', 'Prisen staten bestemmer', 'Den laveste prisen', 'Prisen der tilbudt og etterspurt mengde er like']::text[], 3, 'Der kurvene krysser.', true, true, 7),
+  ('samfunnsokonomi-1:tilbud-og-ettersporsel', 'q09', 'flervalg', 'Hva skjer når ny teknologi gjør solcellepaneler billigere å lage?', array['Tilbudet forskyves utover, prisen faller og mengden øker', 'Etterspørselen synker', 'Prisen stiger', 'Mengden synker']::text[], 0, 'Lavere kostnader gir mer tilbud.', true, false, 8),
+  ('samfunnsokonomi-1:tilbud-og-ettersporsel', 'q10', 'flervalg', 'Hvilken vare har trolig lavest priselastisitet?', array['Et bestemt brusmerke', 'Strøm', 'En kinobillett', 'En bestemt sjokolade']::text[], 1, 'Få alternativer.', true, false, 9),
+  ('samfunnsokonomi-1:tilbud-og-ettersporsel', 'm01', 'sant-usant', 'Høyere inntekt gir vanligvis større etterspørsel.', array['Sant', 'Usant']::text[], 0, 'Kurven forskyves utover.', false, true, 10),
+  ('samfunnsokonomi-1:tilbud-og-ettersporsel', 'm02', 'sant-usant', 'En endring i prisen på varen forskyver hele etterspørselskurven.', array['Sant', 'Usant']::text[], 1, 'Den gir bevegelse langs kurven.', false, true, 11),
+  ('samfunnsokonomi-1:tilbud-og-ettersporsel', 'm03', 'sant-usant', 'Ved overskuddsetterspørsel har prisen en tendens til å stige.', array['Sant', 'Usant']::text[], 0, 'Varene blir utsolgt.', false, true, 12),
+  ('samfunnsokonomi-1:tilbud-og-ettersporsel', 'm04', 'sant-usant', 'Modellen for tilbud og etterspørsel passer like godt i alle markeder.', array['Sant', 'Usant']::text[], 1, 'Den forutsetter mange aktører og god informasjon.', false, true, 13),
+  ('samfunnsokonomi-1:tilbud-og-ettersporsel', 'm05', 'flervalg', 'Hva skjer med tilbudet etter en dårlig avling?', array['Det øker', 'Det synker', 'Det er uendret', 'Det blir uendelig']::text[], 1, 'Tilbudskurven forskyves innover.', false, true, 14),
+  ('samfunnsokonomi-1:tilbud-og-ettersporsel', 'm06', 'flervalg', 'Hva er en subsidie?', array['Et tilskudd som senker produsentens kostnader', 'En avgift', 'En toll', 'En rente']::text[], 0, 'Gir økt tilbud.', false, true, 15),
+  ('samfunnsokonomi-1:tilbud-og-ettersporsel', 'm07', 'flervalg', 'En ny trend gjør en vare populær. Hva skjer?', array['Tilbudet synker', 'Prisen faller', 'Etterspørselen forskyves utover og prisen stiger', 'Ingenting']::text[], 2, 'Smak og trender påvirker etterspørselen.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('samfunnsokonomi-1:tilbud-og-ettersporsel', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Samfunnsøkonomi 1: Markedsformer
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('samfunnsokonomi-1:markedsformer', 'samfunnsokonomi-1', 'markedsformer', 'Markedsformer', 'De fire markedsformene – fullkommen konkurranse, monopolistisk konkurranse, oligopol og monopol – hvordan de skiller seg fra hverandre i antall aktører, produkter og etableringshindringer, og hvordan Konkurransetilsynet skal sikre konkurransen.', array[2]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('samfunnsokonomi-1:markedsformer', '## Hvorfor markedsformer?
+
+Markeder er **ulike**. I noen konkurrerer tusenvis av små aktører, i andre er det bare én. **Markedsformen** avgjør hvor mye **makt** selgerne har over **prisen**, og hvor godt markedet fungerer for **forbrukerne**.
+
+Vi skiller markedsformene ut fra
+
+- **antall** tilbydere
+- om produktene er **like** eller **ulike**
+- hvor lett det er for nye å **etablere** seg
+- hvor mye **markedsmakt** den enkelte har
+
+## Fullkommen konkurranse
+
+- **Mange** små tilbydere og kjøpere
+- **Like** produkter
+- **Full informasjon** om priser og kvalitet
+- **Fri etablering**
+
+Ingen enkeltaktør kan påvirke prisen. Bedriftene er **pristakere** og bestemmer bare hvor mye de vil produsere. Konkurransen presser prisen ned mot **kostnadene**. Ingen markeder er helt slik, men markeder for **råvarer** og **aksjer** er ganske nær.
+
+## Monopolistisk konkurranse
+
+- **Mange** tilbydere
+- **Ulike** produkter – de skiller seg ut med merke, kvalitet eller beliggenhet
+- **Ganske fri** etablering
+
+Hver bedrift har **litt** makt over prisen fordi kundene foretrekker akkurat deres produkt. Eksempler er **frisører**, **restauranter** og **klesbutikker**. Bedriftene konkurrerer ofte med **markedsføring** og **service**.
+
+## Oligopol
+
+- **Få**, store tilbydere
+- **Høye etableringshindringer**, for eksempel store investeringer
+- **Gjensidig avhengighet**: Hver bedrift må ta hensyn til hva de andre gjør
+
+Senker én aktør prisen, følger gjerne de andre etter. Det kan føre til **priskrig**, men også til at bedriftene unngår priskonkurranse og heller konkurrerer med **reklame** og **produktutvikling**. Eksempler i Norge er **dagligvarehandelen**, **mobiloperatører** og **flyselskaper**.
+
+Om bedriftene **avtaler** priser eller deler markedet mellom seg, kalles det et **kartell**. Det er **ulovlig**.
+
+## Monopol
+
+- **Én** tilbyder
+- **Ingen nære erstatninger**
+- **Svært høye** etableringshindringer
+
+Monopolisten kan sette en **høyere pris** og produsere **mindre** enn det som ville vært tilfelle med konkurranse. Det gir et **samfunnsøkonomisk tap**. Monopoler kan oppstå
+
+- fordi det er **billigst** med én aktør – et **naturlig monopol**, som **strømnettet**
+- gjennom **patenter**
+- fordi **staten** har bestemt det, som **Vinmonopolet**, som skal begrense alkoholskadene
+
+Naturlige monopoler blir ofte **regulert** av staten, slik at de ikke kan ta for høye priser.
+
+## Konkurransetilsynet
+
+**Konkurransetilsynet** håndhever **konkurranseloven**. Loven forbyr
+
+- **samarbeid** som begrenser konkurransen, som prissamarbeid og markedsdeling
+- **misbruk** av en **dominerende** stilling
+
+Tilsynet kan også **stoppe oppkjøp** og sammenslåinger som svekker konkurransen for mye.
+
+## Å analysere et marked
+
+Når du analyserer et marked, kan du spørre:
+
+- Hvor mange tilbydere er det, og hvor store **markedsandeler** har de?
+- Er produktene like eller ulike?
+- Hvor lett er det for nye å komme inn?
+- Hvordan konkurrerer aktørene – på **pris** eller på andre ting?
+- Hva betyr markedsformen for **prisene** og **utvalget** til forbrukerne?', '{"label":"Markedsformer","children":[{"label":"Fullkommen konkurranse","children":[{"label":"Mange og like"},{"label":"Pristakere"}]},{"label":"Monopolistisk","children":[{"label":"Mange og ulike"},{"label":"Frisører og restauranter"}]},{"label":"Oligopol","children":[{"label":"Få og store"},{"label":"Gjensidig avhengighet"},{"label":"Kartell forbudt"}]},{"label":"Monopol","children":[{"label":"Én tilbyder"},{"label":"Naturlig monopol"},{"label":"Samfunnsøkonomisk tap"}]},{"label":"Konkurransetilsynet","children":[{"label":"Konkurranseloven"},{"label":"Oppkjøp"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'samfunnsokonomi-1:markedsformer';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('samfunnsokonomi-1:markedsformer', 'Markedsform', 'Hvordan et marked er organisert ut fra antall aktører, produkter og etablering.', 0),
+  ('samfunnsokonomi-1:markedsformer', 'Fullkommen konkurranse', 'Mange små aktører, like produkter, full informasjon og fri etablering.', 1),
+  ('samfunnsokonomi-1:markedsformer', 'Pristaker', 'Bedrift som ikke kan påvirke prisen.', 2),
+  ('samfunnsokonomi-1:markedsformer', 'Monopolistisk konkurranse', 'Mange tilbydere med ulike produkter.', 3),
+  ('samfunnsokonomi-1:markedsformer', 'Oligopol', 'Få, store tilbydere som er gjensidig avhengige.', 4),
+  ('samfunnsokonomi-1:markedsformer', 'Gjensidig avhengighet', 'Hver bedrift må ta hensyn til hva konkurrentene gjør.', 5),
+  ('samfunnsokonomi-1:markedsformer', 'Kartell', 'Ulovlig samarbeid om priser eller markedsdeling.', 6),
+  ('samfunnsokonomi-1:markedsformer', 'Monopol', 'Én tilbyder uten nære erstatninger.', 7),
+  ('samfunnsokonomi-1:markedsformer', 'Naturlig monopol', 'Det er billigst med én aktør, som strømnettet.', 8),
+  ('samfunnsokonomi-1:markedsformer', 'Etableringshindringer', 'Forhold som gjør det vanskelig for nye å komme inn i markedet.', 9),
+  ('samfunnsokonomi-1:markedsformer', 'Markedsmakt', 'Evnen til å påvirke prisen.', 10),
+  ('samfunnsokonomi-1:markedsformer', 'Samfunnsøkonomisk tap', 'Tap for samfunnet fordi mengden blir mindre og prisen høyere enn ved konkurranse.', 11),
+  ('samfunnsokonomi-1:markedsformer', 'Vinmonopolet', 'Statlig monopol som skal begrense alkoholskadene.', 12),
+  ('samfunnsokonomi-1:markedsformer', 'Konkurransetilsynet', 'Håndhever konkurranseloven.', 13),
+  ('samfunnsokonomi-1:markedsformer', 'Dominerende stilling', 'Så stor markedsmakt at man kan opptre uavhengig av konkurrentene.', 14);
+delete from public.quiz_sporsmal where tema_id = 'samfunnsokonomi-1:markedsformer';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('samfunnsokonomi-1:markedsformer', 'q01', 'flervalg', 'Hva kjennetegner fullkommen konkurranse?', array['Én tilbyder', 'Mange små aktører, like produkter og fri etablering', 'Få store aktører', 'Ulike produkter og få aktører']::text[], 1, 'Ingen kan påvirke prisen.', true, true, 0),
+  ('samfunnsokonomi-1:markedsformer', 'q02', 'flervalg', 'Hvilken markedsform passer best for frisører?', array['Monopolistisk konkurranse', 'Monopol', 'Oligopol', 'Fullkommen konkurranse']::text[], 0, 'Mange tilbydere med litt ulike tjenester.', true, true, 1),
+  ('samfunnsokonomi-1:markedsformer', 'q03', 'flervalg', 'Hva kjennetegner et oligopol?', array['Mange små aktører', 'Én aktør', 'Få, store aktører som er gjensidig avhengige', 'Ingen etableringshindringer']::text[], 2, 'Som dagligvarehandelen i Norge.', true, true, 2),
+  ('samfunnsokonomi-1:markedsformer', 'q04', 'flervalg', 'Hva er et kartell?', array['En type monopol', 'En statlig bedrift', 'En kjede', 'Ulovlig samarbeid om priser eller markedsdeling']::text[], 3, 'Forbudt i konkurranseloven.', true, true, 3),
+  ('samfunnsokonomi-1:markedsformer', 'q05', 'flervalg', 'Hvorfor er strømnettet et naturlig monopol?', array['Det er billigst med én aktør', 'Staten har forbudt konkurranse av alkoholhensyn', 'Det har patent', 'Det er mange aktører']::text[], 0, 'Det lønner seg ikke å bygge flere parallelle nett.', true, true, 4),
+  ('samfunnsokonomi-1:markedsformer', 'q06', 'flervalg', 'Hva gjør en monopolist sammenlignet med konkurranse?', array['Setter lavere pris og produserer mer', 'Setter høyere pris og produserer mindre', 'Setter samme pris', 'Produserer ingenting']::text[], 1, 'Gir et samfunnsøkonomisk tap.', true, true, 5),
+  ('samfunnsokonomi-1:markedsformer', 'q07', 'flervalg', 'Hvem håndhever konkurranseloven?', array['Forbrukertilsynet', 'Norges Bank', 'Konkurransetilsynet', 'SSB']::text[], 2, 'Kan også stoppe oppkjøp.', true, true, 6),
+  ('samfunnsokonomi-1:markedsformer', 'q08', 'flervalg', 'Hva er en pristaker?', array['En monopolist', 'En kunde', 'Staten', 'En bedrift som ikke kan påvirke prisen']::text[], 3, 'Typisk ved fullkommen konkurranse.', true, true, 7),
+  ('samfunnsokonomi-1:markedsformer', 'q09', 'flervalg', 'Hvorfor unngår oligopolister ofte priskonkurranse?', array['Fordi en priskrig kan gi lavere fortjeneste for alle', 'Fordi det er ulovlig å endre priser', 'Fordi de har ingen konkurrenter', 'Fordi kundene ikke bryr seg om pris']::text[], 0, 'De konkurrerer heller med reklame og produkter.', true, false, 8),
+  ('samfunnsokonomi-1:markedsformer', 'q10', 'flervalg', 'Hvorfor har Norge et statlig monopol på salg av vin og brennevin?', array['For å gi staten mest mulig inntekter', 'For å begrense alkoholskadene', 'Fordi det er billigst', 'Fordi det er et patent']::text[], 1, 'Et helsepolitisk formål.', true, false, 9),
+  ('samfunnsokonomi-1:markedsformer', 'm01', 'sant-usant', 'Ingen virkelige markeder er helt fullkomne, men noen er ganske nær.', array['Sant', 'Usant']::text[], 0, 'For eksempel markeder for råvarer.', false, true, 10),
+  ('samfunnsokonomi-1:markedsformer', 'm02', 'sant-usant', 'I et oligopol trenger ikke bedriftene å bry seg om hva konkurrentene gjør.', array['Sant', 'Usant']::text[], 1, 'De er gjensidig avhengige.', false, true, 11),
+  ('samfunnsokonomi-1:markedsformer', 'm03', 'sant-usant', 'Naturlige monopoler blir ofte regulert av staten.', array['Sant', 'Usant']::text[], 0, 'Slik at de ikke tar for høye priser.', false, true, 12),
+  ('samfunnsokonomi-1:markedsformer', 'm04', 'sant-usant', 'Det er lovlig for konkurrenter å avtale felles priser.', array['Sant', 'Usant']::text[], 1, 'Prissamarbeid er forbudt.', false, true, 13),
+  ('samfunnsokonomi-1:markedsformer', 'm05', 'flervalg', 'Hvilken markedsform har høyest etableringshindringer?', array['Fullkommen konkurranse', 'Monopol', 'Monopolistisk konkurranse', 'Alle har like høye']::text[], 1, 'Ofte svært høye.', false, true, 14),
+  ('samfunnsokonomi-1:markedsformer', 'm06', 'flervalg', 'Hva kan Konkurransetilsynet gjøre ved et oppkjøp som svekker konkurransen?', array['Stoppe det', 'Ingenting', 'Kjøpe selskapet selv', 'Øke skatten']::text[], 0, 'Fusjonskontroll.', false, true, 15),
+  ('samfunnsokonomi-1:markedsformer', 'm07', 'flervalg', 'Hvordan konkurrerer bedrifter ofte i monopolistisk konkurranse?', array['Bare med pris', 'Med kartellavtaler', 'Med markedsføring og service', 'De konkurrerer ikke']::text[], 2, 'Produktene er ulike.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('samfunnsokonomi-1:markedsformer', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Samfunnsøkonomi 1: Realligningen
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('samfunnsokonomi-1:realligningen', 'samfunnsokonomi-1', 'realligningen', 'Realligningen', 'Hvordan realligningen viser sammenhengen mellom tilgangen på varer og tjenester – produksjon og import – og bruken av dem til konsum, investeringer og eksport, og hvordan den brukes til å analysere endringer i økonomien.', array[3]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('samfunnsokonomi-1:realligningen', '## Tilgang og anvendelse
+
+I løpet av et år blir det produsert og brukt en stor mengde **varer og tjenester** i Norge. **Realligningen** viser at det som er **tilgjengelig**, må være lik det som blir **brukt**.
+
+**Tilgang** – hvor varene og tjenestene kommer fra:
+
+- **BNP** – det som produseres i Norge
+- **Import** – det vi kjøper fra utlandet
+
+**Anvendelse** – hva de brukes til:
+
+- **Privat konsum** – husholdningenes kjøp av mat, klær, reiser og andre forbruksvarer og tjenester
+- **Offentlig konsum** – tjenester stat og kommuner produserer, som skole, helse og forsvar
+- **Realinvesteringer** – nye boliger, maskiner, bygninger, veier og **endringer i lagrene**
+- **Eksport** – det vi selger til utlandet
+
+## Ligningen
+
+**BNP + import = privat konsum + offentlig konsum + realinvesteringer + eksport**
+
+Flytter vi importen over, får vi:
+
+**BNP = privat konsum + offentlig konsum + realinvesteringer + (eksport − import)**
+
+Forskjellen mellom eksport og import kalles **nettoeksport** eller **handelsbalansen**. Norge har vanligvis et stort **overskudd** på grunn av eksporten av **olje og gass**.
+
+## Hvorfor «real»?
+
+Ligningen handler om **varer og tjenester** – den **reelle** økonomien – ikke om pengestrømmer. **Overføringer**, som pensjoner og barnetrygd, er ikke offentlig konsum. De blir en del av **privat konsum** når mottakerne bruker pengene.
+
+## Regneeksempel
+
+Tallene er i milliarder kroner:
+
+- BNP: 5000
+- Import: 1500
+- Privat konsum: 2200
+- Offentlig konsum: 1200
+- Realinvesteringer: 1300
+
+Eksporten blir: 5000 + 1500 − 2200 − 1200 − 1300 = **1800**. Nettoeksporten blir 1800 − 1500 = **300**.
+
+## Å analysere endringer
+
+Realligningen viser hvordan endringer i **etterspørselen** fra fire grupper – **husholdninger**, **det offentlige**, **bedrifter** og **utlandet** – påvirker økonomien:
+
+- **Økt privat konsum** må dekkes av **mer produksjon** (høyere BNP), **mer import** eller at annen bruk – som **eksport** eller **lager** – går ned.
+- **Faller eksporten**, for eksempel fordi oljeprisen synker, blir BNP lavere hvis ikke annen etterspørsel øker.
+- **Økt offentlig konsum** kan gi høyere BNP og flere arbeidsplasser – men i en økonomi med **full sysselsetting** kan det presse opp **prisene** og **importen**.
+- **Økte investeringer** gir etterspørsel i dag og **større produksjonsevne** i framtiden.
+
+## Sammenheng med kretsløpet
+
+Realligningen er en **regnskapssammenheng** som alltid går opp. Den forklarer ikke alene **hvorfor** tallene endrer seg, men den gir en **struktur** for å analysere hvordan endringer i én del av økonomien påvirker de andre.
+
+## Nasjonalregnskapet
+
+Tallene i realligningen kommer fra **nasjonalregnskapet**, som **SSB** lager. Der kan du se hvordan konsum, investeringer, eksport og import utvikler seg fra kvartal til kvartal og fra år til år.', '{"label":"Realligningen","children":[{"label":"Tilgang","children":[{"label":"BNP"},{"label":"Import"}]},{"label":"Anvendelse","children":[{"label":"Privat konsum"},{"label":"Offentlig konsum"},{"label":"Realinvesteringer"},{"label":"Eksport"}]},{"label":"Ligningen","children":[{"label":"Tilgang = anvendelse"},{"label":"Nettoeksport"}]},{"label":"Analyse","children":[{"label":"Økt konsum"},{"label":"Fall i eksport"},{"label":"Offentlig pengebruk"}]},{"label":"Kilde","children":[{"label":"Nasjonalregnskapet"},{"label":"SSB"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'samfunnsokonomi-1:realligningen';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('samfunnsokonomi-1:realligningen', 'Realligningen', 'BNP + import = privat konsum + offentlig konsum + realinvesteringer + eksport.', 0),
+  ('samfunnsokonomi-1:realligningen', 'Tilgang', 'BNP og import.', 1),
+  ('samfunnsokonomi-1:realligningen', 'Anvendelse', 'Konsum, investeringer og eksport.', 2),
+  ('samfunnsokonomi-1:realligningen', 'BNP', 'Verdien av varer og tjenester produsert i landet.', 3),
+  ('samfunnsokonomi-1:realligningen', 'Privat konsum', 'Husholdningenes kjøp av forbruksvarer og tjenester.', 4),
+  ('samfunnsokonomi-1:realligningen', 'Offentlig konsum', 'Tjenester stat og kommuner produserer, som skole og helse.', 5),
+  ('samfunnsokonomi-1:realligningen', 'Realinvesteringer', 'Nye boliger, maskiner, bygninger og endringer i lager.', 6),
+  ('samfunnsokonomi-1:realligningen', 'Eksport', 'Varer og tjenester solgt til utlandet.', 7),
+  ('samfunnsokonomi-1:realligningen', 'Import', 'Varer og tjenester kjøpt fra utlandet.', 8),
+  ('samfunnsokonomi-1:realligningen', 'Nettoeksport', 'Eksport minus import.', 9),
+  ('samfunnsokonomi-1:realligningen', 'Handelsbalanse', 'Forskjellen mellom eksport og import.', 10),
+  ('samfunnsokonomi-1:realligningen', 'Overføringer', 'Pensjoner og trygder – ikke offentlig konsum.', 11),
+  ('samfunnsokonomi-1:realligningen', 'Nasjonalregnskapet', 'SSBs oversikt over produksjon og bruk av varer og tjenester.', 12),
+  ('samfunnsokonomi-1:realligningen', 'Lagerendring', 'Endring i varelagre – regnes med i investeringene.', 13),
+  ('samfunnsokonomi-1:realligningen', 'Regnskapssammenheng', 'En sammenheng som alltid går opp.', 14);
+delete from public.quiz_sporsmal where tema_id = 'samfunnsokonomi-1:realligningen';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('samfunnsokonomi-1:realligningen', 'q01', 'flervalg', 'Hva står på tilgangssiden i realligningen?', array['Konsum og eksport', 'BNP og import', 'Investeringer og eksport', 'Bare import']::text[], 1, 'Det vi produserer og kjøper fra utlandet.', true, true, 0),
+  ('samfunnsokonomi-1:realligningen', 'q02', 'flervalg', 'Hva er offentlig konsum?', array['Tjenester stat og kommuner produserer, som skole og helse', 'Pensjoner', 'Barnetrygd', 'Husholdningenes kjøp']::text[], 0, 'Overføringer regnes ikke med.', true, true, 1),
+  ('samfunnsokonomi-1:realligningen', 'q03', 'flervalg', 'Hva er nettoeksport?', array['Eksport pluss import', 'BNP minus konsum', 'Eksport minus import', 'Import minus investeringer']::text[], 2, 'Kalles også handelsbalansen.', true, true, 2),
+  ('samfunnsokonomi-1:realligningen', 'q04', 'flervalg', 'BNP er 5000, import 1500, privat konsum 2200, offentlig konsum 1200 og investeringer 1300. Hva er eksporten?', array['1500', '300', '1200', '1800']::text[], 3, '5000 + 1500 − 2200 − 1200 − 1300.', true, true, 3),
+  ('samfunnsokonomi-1:realligningen', 'q05', 'flervalg', 'Hvorfor har Norge vanligvis overskudd på handelsbalansen?', array['På grunn av eksporten av olje og gass', 'Fordi vi importerer mye', 'Fordi vi har lite eksport', 'Fordi staten forbyr import']::text[], 0, 'Stor eksport.', true, true, 4),
+  ('samfunnsokonomi-1:realligningen', 'q06', 'flervalg', 'Hvor havner en pensjon når pensjonisten bruker den?', array['Offentlig konsum', 'Privat konsum', 'Eksport', 'Investering']::text[], 1, 'Overføringer blir privat konsum.', true, true, 5),
+  ('samfunnsokonomi-1:realligningen', 'q07', 'flervalg', 'Hva må skje hvis privat konsum øker og alt annet er likt?', array['Eksporten må øke', 'Offentlig konsum må øke', 'Produksjonen eller importen må øke', 'Ingenting']::text[], 2, 'Tilgang og anvendelse må være like.', true, true, 6),
+  ('samfunnsokonomi-1:realligningen', 'q08', 'flervalg', 'Hva hører til realinvesteringene?', array['Kjøp av aksjer', 'Innskudd i banken', 'Pensjoner', 'Nye boliger, maskiner og bygninger']::text[], 3, 'Realkapital, ikke finanskapital.', true, true, 7),
+  ('samfunnsokonomi-1:realligningen', 'q09', 'flervalg', 'Hvem lager nasjonalregnskapet i Norge?', array['SSB', 'Norges Bank', 'NAV', 'Konkurransetilsynet']::text[], 0, 'Statistisk sentralbyrå.', true, false, 8),
+  ('samfunnsokonomi-1:realligningen', 'q10', 'flervalg', 'Hva skjer med BNP hvis eksporten faller og ingen annen etterspørsel øker?', array['BNP øker', 'BNP faller', 'BNP er uendret', 'Importen øker alltid']::text[], 1, 'Mindre etterspørsel etter norsk produksjon.', true, false, 9),
+  ('samfunnsokonomi-1:realligningen', 'm01', 'sant-usant', 'Realligningen går alltid opp fordi den er en regnskapssammenheng.', array['Sant', 'Usant']::text[], 0, 'Tilgang er lik anvendelse.', false, true, 10),
+  ('samfunnsokonomi-1:realligningen', 'm02', 'sant-usant', 'Barnetrygd regnes som offentlig konsum.', array['Sant', 'Usant']::text[], 1, 'Det er en overføring.', false, true, 11),
+  ('samfunnsokonomi-1:realligningen', 'm03', 'sant-usant', 'Økte investeringer gir etterspørsel i dag og større produksjonsevne senere.', array['Sant', 'Usant']::text[], 0, 'Mer realkapital.', false, true, 12),
+  ('samfunnsokonomi-1:realligningen', 'm04', 'sant-usant', 'Realligningen handler om pengestrømmer, ikke varer og tjenester.', array['Sant', 'Usant']::text[], 1, 'Den handler om den reelle økonomien.', false, true, 13),
+  ('samfunnsokonomi-1:realligningen', 'm05', 'flervalg', 'Hvilke fire grupper etterspør varer og tjenester i realligningen?', array['Banker, skoler, sykehus og butikker', 'Husholdninger, det offentlige, bedrifter og utlandet', 'Kommuner, fylker, stat og EU', 'Arbeidere, ledere, eiere og kunder']::text[], 1, 'Konsum, investeringer og eksport.', false, true, 14),
+  ('samfunnsokonomi-1:realligningen', 'm06', 'flervalg', 'Hva kan skje hvis offentlig konsum øker mye når alle allerede er i arbeid?', array['Prisene og importen kan presses opp', 'Arbeidsledigheten øker', 'Eksporten øker alltid', 'BNP faller']::text[], 0, 'Økonomien har lite ledig kapasitet.', false, true, 15),
+  ('samfunnsokonomi-1:realligningen', 'm07', 'flervalg', 'Hvor regnes en ny vei bygget av staten?', array['Privat konsum', 'Eksport', 'Realinvesteringer', 'Import']::text[], 2, 'Offentlige investeringer.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('samfunnsokonomi-1:realligningen', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Samfunnsøkonomi 1: Privat og offentlig sektor i Norge
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('samfunnsokonomi-1:privat-og-offentlig-sektor', 'samfunnsokonomi-1', 'privat-og-offentlig-sektor', 'Privat og offentlig sektor i Norge', 'Hovedtrekk ved privat og offentlig sektor i Norge – næringsstruktur, oppgavefordeling mellom stat, fylke og kommune, petroleumsnæringen og oljefondet – og muligheter og utfordringer for næringsliv og offentlig sektor i årene framover.', array[4]::int[], 4, 'sjekkes', array['Sjekk andelen sysselsatte i offentlig sektor og gjeldende prosentsats i handlingsregelen mot SSB og regjeringen.no.']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('samfunnsokonomi-1:privat-og-offentlig-sektor', '## To sektorer
+
+- **Privat sektor** består av virksomheter som eies av **private**. De fleste har som mål å gi **overskudd**, og de finansieres gjennom **salg**.
+- **Offentlig sektor** består av **staten**, **fylkeskommunene** og **kommunene**. Den produserer **velferdstjenester** og finansieres hovedsakelig med **skatter** og **avgifter**.
+
+Norge har en **blandingsøkonomi** der begge sektorene er store. Omtrent **tre av ti** sysselsatte jobber i offentlig sektor.
+
+## Næringsstrukturen
+
+- **Primærnæringer**: jordbruk, skogbruk, fiske og **havbruk**. De sysselsetter få, men havbruk er en viktig **eksportnæring**.
+- **Sekundærnæringer**: industri, bygg og anlegg, kraftproduksjon og utvinning av **olje og gass**.
+- **Tertiærnæringer**: **tjenester** som handel, transport, finans, IT, helse og undervisning. Her jobber de **fleste**.
+
+Over tid har arbeidskraften flyttet fra primærnæringene til **tjenester**, fordi **produktiviteten** i jordbruk og industri har økt.
+
+## Hvem gjør hva i offentlig sektor?
+
+- **Staten**: forsvar, politi, domstoler, sykehus, universiteter og **NAV**
+- **Fylkeskommunen**: **videregående skole**, fylkesveier, kollektivtrafikk og tannhelse
+- **Kommunen**: **barnehage**, **grunnskole**, **eldreomsorg** og **fastleger**
+
+Staten eier også store deler av viktige selskaper innen **energi** og andre næringer.
+
+## Olje, gass og oljefondet
+
+**Petroleumsnæringen** har vært avgjørende for norsk økonomi siden 1970-tallet. Statens inntekter herfra settes inn i **Statens pensjonsfond utland** – **oljefondet** – som er investert i aksjer, obligasjoner og eiendom i utlandet.
+
+**Handlingsregelen** sier at staten over tid bare skal bruke om lag den **forventede realavkastningen** av fondet – i dag rundt **3 prosent** av verdien – i statsbudsjettet. Slik skal pengene komme også **framtidige generasjoner** til gode.
+
+## Utfordringer og muligheter framover
+
+**Eldrebølgen**: Andelen eldre øker, mens andelen i arbeidsfør alder synker. Det gir høyere utgifter til **pensjoner**, **helse** og **omsorg**, og det blir færre som betaler skatt per pensjonist.
+
+**Lavere oljeinntekter på sikt**: Når produksjonen av olje og gass etter hvert faller, må andre næringer ta over. Fondet kan heller ikke vokse like raskt for alltid.
+
+**Det grønne skiftet**: Kravet om lavere utslipp gir muligheter innen **havvind**, **batterier**, **hydrogen**, **karbonfangst** og grønn industri – men krever store **investeringer** og **omstilling**.
+
+**Digitalisering og kunstig intelligens** kan øke **produktiviteten** i både privat og offentlig sektor, men endrer også hvilke **jobber** og hvilken **kompetanse** det er behov for.
+
+**Mangel på arbeidskraft**: Helse og omsorg vil trenge mange flere ansatte. Samtidig står mange utenfor **arbeidslivet**. Å få flere i jobb er en av de viktigste oppgavene.
+
+**Produktivitet i offentlig sektor**: Med mer oppgaver og mindre penger må offentlig sektor bli mer **effektiv**, for eksempel gjennom **digitale løsninger** og bedre **organisering**.
+
+## Drøfting
+
+Det er politisk **uenighet** om hvor stor offentlig sektor bør være, og om private aktører bør levere flere offentlige tjenester, for eksempel innen **helse** og **eldreomsorg**. Tilhengere viser til **valgfrihet** og **effektivitet**, mens motstandere er bekymret for **ulikhet** og at **fortjeneste** tas ut av fellesskapets penger.', '{"label":"Privat og offentlig sektor","children":[{"label":"Sektorer","children":[{"label":"Privat"},{"label":"Offentlig"},{"label":"Blandingsøkonomi"}]},{"label":"Næringer","children":[{"label":"Primær"},{"label":"Sekundær"},{"label":"Tertiær"}]},{"label":"Offentlige oppgaver","children":[{"label":"Stat"},{"label":"Fylke"},{"label":"Kommune"}]},{"label":"Olje","children":[{"label":"Oljefondet"},{"label":"Handlingsregelen"}]},{"label":"Framtid","children":[{"label":"Eldrebølgen"},{"label":"Grønt skifte"},{"label":"Digitalisering og arbeidskraft"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'samfunnsokonomi-1:privat-og-offentlig-sektor';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('samfunnsokonomi-1:privat-og-offentlig-sektor', 'Privat sektor', 'Virksomheter eid av private, finansiert gjennom salg.', 0),
+  ('samfunnsokonomi-1:privat-og-offentlig-sektor', 'Offentlig sektor', 'Stat, fylkeskommuner og kommuner, finansiert av skatter.', 1),
+  ('samfunnsokonomi-1:privat-og-offentlig-sektor', 'Blandingsøkonomi', 'Både privat og offentlig sektor er store.', 2),
+  ('samfunnsokonomi-1:privat-og-offentlig-sektor', 'Primærnæringer', 'Jordbruk, skogbruk, fiske og havbruk.', 3),
+  ('samfunnsokonomi-1:privat-og-offentlig-sektor', 'Sekundærnæringer', 'Industri, bygg, kraft og utvinning av olje og gass.', 4),
+  ('samfunnsokonomi-1:privat-og-offentlig-sektor', 'Tertiærnæringer', 'Tjenesteytende næringer – her jobber de fleste.', 5),
+  ('samfunnsokonomi-1:privat-og-offentlig-sektor', 'Fylkeskommunens oppgaver', 'Videregående skole, fylkesveier og kollektivtrafikk.', 6),
+  ('samfunnsokonomi-1:privat-og-offentlig-sektor', 'Kommunens oppgaver', 'Barnehage, grunnskole, eldreomsorg og fastleger.', 7),
+  ('samfunnsokonomi-1:privat-og-offentlig-sektor', 'Statens pensjonsfond utland', 'Oljefondet – investert i utlandet.', 8),
+  ('samfunnsokonomi-1:privat-og-offentlig-sektor', 'Handlingsregelen', 'Staten bruker om lag den forventede realavkastningen av fondet.', 9),
+  ('samfunnsokonomi-1:privat-og-offentlig-sektor', 'Eldrebølgen', 'Andelen eldre i befolkningen øker.', 10),
+  ('samfunnsokonomi-1:privat-og-offentlig-sektor', 'Det grønne skiftet', 'Omstilling til en økonomi med lave utslipp.', 11),
+  ('samfunnsokonomi-1:privat-og-offentlig-sektor', 'Produktivitet', 'Hvor mye som produseres per arbeidstime.', 12),
+  ('samfunnsokonomi-1:privat-og-offentlig-sektor', 'Omstilling', 'At arbeidskraft og kapital flytter til nye næringer.', 13),
+  ('samfunnsokonomi-1:privat-og-offentlig-sektor', 'Utenforskap', 'At personer i arbeidsfør alder står utenfor arbeidslivet.', 14);
+delete from public.quiz_sporsmal where tema_id = 'samfunnsokonomi-1:privat-og-offentlig-sektor';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('samfunnsokonomi-1:privat-og-offentlig-sektor', 'q01', 'flervalg', 'Hvordan finansieres offentlig sektor hovedsakelig?', array['Gjennom salg', 'Med skatter og avgifter', 'Med lån fra private', 'Med gaver']::text[], 1, 'Og inntekter fra oljefondet.', true, true, 0),
+  ('samfunnsokonomi-1:privat-og-offentlig-sektor', 'q02', 'flervalg', 'Hvor jobber flest i Norge?', array['I tjenesteytende næringer', 'I jordbruket', 'I fisket', 'I oljeutvinning']::text[], 0, 'Tertiærnæringene.', true, true, 1),
+  ('samfunnsokonomi-1:privat-og-offentlig-sektor', 'q03', 'flervalg', 'Hvem har ansvaret for videregående skole?', array['Kommunen', 'Staten', 'Fylkeskommunen', 'Private']::text[], 2, 'Kommunen har grunnskolen.', true, true, 2),
+  ('samfunnsokonomi-1:privat-og-offentlig-sektor', 'q04', 'flervalg', 'Hva sier handlingsregelen?', array['At staten skal bruke hele oljefondet', 'At oljefondet skal investeres i Norge', 'At staten aldri kan bruke av fondet', 'At staten over tid skal bruke om lag den forventede realavkastningen']::text[], 3, 'Rundt 3 prosent av verdien.', true, true, 3),
+  ('samfunnsokonomi-1:privat-og-offentlig-sektor', 'q05', 'flervalg', 'Hva er eldrebølgen?', array['At andelen eldre i befolkningen øker', 'At eldre jobber mer', 'At det fødes flere barn', 'At pensjonene blir lavere']::text[], 0, 'Gir høyere utgifter til pensjon og helse.', true, true, 4),
+  ('samfunnsokonomi-1:privat-og-offentlig-sektor', 'q06', 'flervalg', 'Hvorfor har arbeidskraften flyttet fra primærnæringene til tjenester?', array['Fordi det er forbudt å drive jordbruk', 'Fordi produktiviteten i jordbruk og industri har økt', 'Fordi tjenester ikke krever arbeid', 'Fordi primærnæringene er borte']::text[], 1, 'Færre trengs for å produsere det samme.', true, true, 5),
+  ('samfunnsokonomi-1:privat-og-offentlig-sektor', 'q07', 'flervalg', 'Hva er en mulighet i det grønne skiftet?', array['Mer kullkraft', 'Flere oljeplattformer', 'Havvind og batteriproduksjon', 'Mindre forskning']::text[], 2, 'Nye næringer med lave utslipp.', true, true, 6),
+  ('samfunnsokonomi-1:privat-og-offentlig-sektor', 'q08', 'flervalg', 'Hva er en utfordring ved lavere oljeinntekter på sikt?', array['For mange jobber', 'For lav rente', 'For mye eksport', 'Andre næringer må ta over']::text[], 3, 'Norge må omstille seg.', true, true, 7),
+  ('samfunnsokonomi-1:privat-og-offentlig-sektor', 'q09', 'flervalg', 'Hvem har ansvaret for barnehage og eldreomsorg?', array['Kommunen', 'Staten', 'Fylkeskommunen', 'NAV']::text[], 0, 'Nær innbyggerne.', true, false, 8),
+  ('samfunnsokonomi-1:privat-og-offentlig-sektor', 'q10', 'flervalg', 'Hvordan kan digitalisering hjelpe offentlig sektor?', array['Ved å øke skattene', 'Ved å øke produktiviteten', 'Ved å fjerne alle tjenester', 'Ved å stenge kommuner']::text[], 1, 'Mer effektive løsninger.', true, false, 9),
+  ('samfunnsokonomi-1:privat-og-offentlig-sektor', 'm01', 'sant-usant', 'Oljefondet er investert i utlandet.', array['Sant', 'Usant']::text[], 0, 'I aksjer, obligasjoner og eiendom.', false, true, 10),
+  ('samfunnsokonomi-1:privat-og-offentlig-sektor', 'm02', 'sant-usant', 'Primærnæringene sysselsetter de fleste i Norge.', array['Sant', 'Usant']::text[], 1, 'De fleste jobber i tjenesteytende næringer.', false, true, 11),
+  ('samfunnsokonomi-1:privat-og-offentlig-sektor', 'm03', 'sant-usant', 'Helse og omsorg vil trolig trenge mange flere ansatte i årene framover.', array['Sant', 'Usant']::text[], 0, 'På grunn av eldrebølgen.', false, true, 12),
+  ('samfunnsokonomi-1:privat-og-offentlig-sektor', 'm04', 'sant-usant', 'Det er full politisk enighet om hvor stor offentlig sektor bør være.', array['Sant', 'Usant']::text[], 1, 'Dette er et omstridt spørsmål.', false, true, 13),
+  ('samfunnsokonomi-1:privat-og-offentlig-sektor', 'm05', 'flervalg', 'Hvilken oppgave har staten?', array['Grunnskole', 'Sykehus og politi', 'Barnehage', 'Fylkesveier']::text[], 1, 'Også forsvar og universiteter.', false, true, 14),
+  ('samfunnsokonomi-1:privat-og-offentlig-sektor', 'm06', 'flervalg', 'Hvorfor skal bare en liten del av oljefondet brukes hvert år?', array['For at pengene også skal komme framtidige generasjoner til gode', 'Fordi fondet er lite', 'Fordi loven forbyr all bruk', 'Fordi pengene tilhører utlandet']::text[], 0, 'Handlingsregelen.', false, true, 15),
+  ('samfunnsokonomi-1:privat-og-offentlig-sektor', 'm07', 'flervalg', 'Hva er et argument for at private leverer offentlige tjenester?', array['Mer ulikhet', 'Mindre valgfrihet', 'Valgfrihet og effektivitet', 'Høyere skatter']::text[], 2, 'Motstandere er bekymret for ulikhet og profitt.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('samfunnsokonomi-1:privat-og-offentlig-sektor', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Samfunnsøkonomi 1: Økonomisk vekst og BNP
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('samfunnsokonomi-1:okonomisk-vekst-og-bnp', 'samfunnsokonomi-1', 'okonomisk-vekst-og-bnp', 'Økonomisk vekst og BNP', 'Hva bruttonasjonalproduktet måler, forskjellen på nominelt og reelt BNP, årsaker til økonomisk vekst – arbeidskraft, kapital, teknologi og institusjoner – og hvilke svakheter BNP har som mål på verdiskaping og velferd.', array[5]::int[], 5, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('samfunnsokonomi-1:okonomisk-vekst-og-bnp', '## Hva er BNP?
+
+**Bruttonasjonalproduktet** (BNP) er **verdien** av alle varer og tjenester som blir produsert i et land i løpet av en periode – etter at vi har trukket fra det som er brukt opp i produksjonen, som råvarer. Vi måler altså **verdiskapingen**.
+
+- **Nominelt BNP** er målt i **løpende priser**. Det kan øke bare fordi **prisene** stiger.
+- **Reelt BNP** er justert for **prisstigning** og viser om vi faktisk produserer **mer**.
+- **BNP per innbygger** gjør det lettere å sammenligne land med ulik befolkning.
+- **BNP for Fastlands-Norge** holder utvinning av olje og gass og utenriks sjøfart **utenfor** og gir et bedre bilde av resten av økonomien.
+
+## Hva er økonomisk vekst?
+
+**Økonomisk vekst** er en økning i **reelt BNP**. På kort sikt svinger veksten med **konjunkturene**. På lang sikt bestemmes den av hvor mye økonomien er **i stand til** å produsere.
+
+## Årsaker til vekst
+
+1. **Mer arbeidskraft**: flere innbyggere, flere i jobb eller lengre arbeidstid.
+2. **Mer realkapital**: **investeringer** i maskiner, bygninger og infrastruktur gjør arbeiderne mer produktive.
+3. **Bedre teknologi og kunnskap**: den viktigste kilden til vekst på **lang sikt**. Nye metoder gjør at vi kan produsere **mer** med de **samme** ressursene – økt **produktivitet**.
+4. **Humankapital**: **utdanning** og god **helse** gir mer kompetente arbeidstakere.
+5. **Naturressurser**: for Norge særlig **olje**, **gass**, **fisk** og **vannkraft**.
+6. **Gode institusjoner**: **rettsstat**, sikre **eiendomsrettigheter**, lite **korrupsjon** og høy **tillit** gjør det tryggere å investere.
+7. **Handel** og **spesialisering**: Land kan konsentrere seg om det de er best på.
+
+## BNP som mål på verdiskaping
+
+BNP er det mest brukte målet på økonomisk aktivitet, men det har **svakheter**:
+
+- **Ubetalt arbeid** – husarbeid, omsorg for familie og **frivillig** arbeid – er ikke med.
+- **Svart arbeid** blir ikke registrert.
+- **Miljøskader** trekkes ikke fra. Når vi henter opp olje, teller det som produksjon, selv om vi samtidig **tærer** på en ressurs som ikke kommer tilbake.
+- **Fordelingen** vises ikke. Et land kan ha høyt BNP per innbygger og store **forskjeller**.
+- **Fritid** og **livskvalitet** er ikke med. Kortere arbeidstid kan gi lavere BNP, men bedre liv.
+- Noen utgifter som øker BNP, gjør oss ikke bedre stilt – som å **reparere** skader etter en ulykke eller et uvær.
+
+## Andre mål
+
+- **FNs indeks for menneskelig utvikling** (HDI) kombinerer **levealder**, **utdanning** og **inntekt**.
+- **Livskvalitetsundersøkelser** spør folk om **tilfredshet**, **helse** og **tillit**.
+- **Nasjonalformuen** viser hva et land **eier** – der **humankapitalen**, altså arbeidskraften vår, er den største delen i Norge.
+
+## Refleksjon
+
+Økonomisk vekst har gitt **bedre levekår**, lengre liv og mindre fattigdom i store deler av verden. Samtidig har veksten ført til **klimaendringer** og **tap av natur**. Et viktig spørsmål er derfor om vekst kan bli **grønn** – altså om vi kan øke verdiskapingen samtidig som **utslippene** og **ressursbruken** går ned.', '{"label":"Økonomisk vekst og BNP","children":[{"label":"BNP","children":[{"label":"Nominelt og reelt"},{"label":"Per innbygger"},{"label":"Fastlands-Norge"}]},{"label":"Vekstkilder","children":[{"label":"Arbeidskraft og kapital"},{"label":"Teknologi"},{"label":"Humankapital"},{"label":"Institusjoner"}]},{"label":"Svakheter","children":[{"label":"Ubetalt og svart arbeid"},{"label":"Miljø"},{"label":"Fordeling og fritid"}]},{"label":"Andre mål","children":[{"label":"HDI"},{"label":"Livskvalitet"},{"label":"Nasjonalformue"}]},{"label":"Refleksjon","children":[{"label":"Levekår"},{"label":"Grønn vekst"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'samfunnsokonomi-1:okonomisk-vekst-og-bnp';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('samfunnsokonomi-1:okonomisk-vekst-og-bnp', 'BNP', 'Verdien av varer og tjenester produsert i et land i en periode.', 0),
+  ('samfunnsokonomi-1:okonomisk-vekst-og-bnp', 'Nominelt BNP', 'BNP målt i løpende priser.', 1),
+  ('samfunnsokonomi-1:okonomisk-vekst-og-bnp', 'Reelt BNP', 'BNP justert for prisstigning.', 2),
+  ('samfunnsokonomi-1:okonomisk-vekst-og-bnp', 'BNP per innbygger', 'BNP delt på antall innbyggere.', 3),
+  ('samfunnsokonomi-1:okonomisk-vekst-og-bnp', 'BNP for Fastlands-Norge', 'BNP uten olje- og gassutvinning og utenriks sjøfart.', 4),
+  ('samfunnsokonomi-1:okonomisk-vekst-og-bnp', 'Økonomisk vekst', 'En økning i reelt BNP.', 5),
+  ('samfunnsokonomi-1:okonomisk-vekst-og-bnp', 'Produktivitet', 'Hvor mye som produseres per arbeidstime.', 6),
+  ('samfunnsokonomi-1:okonomisk-vekst-og-bnp', 'Humankapital', 'Kunnskap, ferdigheter og helse hos arbeidskraften.', 7),
+  ('samfunnsokonomi-1:okonomisk-vekst-og-bnp', 'Institusjoner', 'Rettsstat, eiendomsrett og lav korrupsjon som gir trygghet for investeringer.', 8),
+  ('samfunnsokonomi-1:okonomisk-vekst-og-bnp', 'Ubetalt arbeid', 'Husarbeid, omsorg og frivillighet – ikke med i BNP.', 9),
+  ('samfunnsokonomi-1:okonomisk-vekst-og-bnp', 'Svart arbeid', 'Arbeid som ikke blir registrert eller skattlagt.', 10),
+  ('samfunnsokonomi-1:okonomisk-vekst-og-bnp', 'HDI', 'FNs indeks for menneskelig utvikling: levealder, utdanning og inntekt.', 11),
+  ('samfunnsokonomi-1:okonomisk-vekst-og-bnp', 'Nasjonalformue', 'Hva et land eier – i Norge er humankapitalen størst.', 12),
+  ('samfunnsokonomi-1:okonomisk-vekst-og-bnp', 'Grønn vekst', 'Økt verdiskaping samtidig som utslipp og ressursbruk går ned.', 13),
+  ('samfunnsokonomi-1:okonomisk-vekst-og-bnp', 'Konjunkturer', 'Kortsiktige svingninger i den økonomiske aktiviteten.', 14);
+delete from public.quiz_sporsmal where tema_id = 'samfunnsokonomi-1:okonomisk-vekst-og-bnp';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('samfunnsokonomi-1:okonomisk-vekst-og-bnp', 'q01', 'flervalg', 'Hva måler BNP?', array['Hvor mye staten eier', 'Verdien av varer og tjenester produsert i landet', 'Antall arbeidsledige', 'Prisstigningen']::text[], 1, 'Verdiskapingen i en periode.', true, true, 0),
+  ('samfunnsokonomi-1:okonomisk-vekst-og-bnp', 'q02', 'flervalg', 'Hvorfor bruker vi reelt BNP for å måle vekst?', array['Fordi det er justert for prisstigning', 'Fordi det er høyere', 'Fordi det inkluderer ubetalt arbeid', 'Fordi det er i dollar']::text[], 0, 'Nominelt BNP kan øke bare fordi prisene stiger.', true, true, 1),
+  ('samfunnsokonomi-1:okonomisk-vekst-og-bnp', 'q03', 'flervalg', 'Hva er den viktigste kilden til vekst på lang sikt?', array['Flere feriedager', 'Høyere priser', 'Bedre teknologi og kunnskap', 'Mer import']::text[], 2, 'Økt produktivitet.', true, true, 2),
+  ('samfunnsokonomi-1:okonomisk-vekst-og-bnp', 'q04', 'flervalg', 'Hva er holdt utenfor i BNP for Fastlands-Norge?', array['Jordbruk', 'Offentlig sektor', 'Industri', 'Olje- og gassutvinning og utenriks sjøfart']::text[], 3, 'Gir et bedre bilde av resten av økonomien.', true, true, 3),
+  ('samfunnsokonomi-1:okonomisk-vekst-og-bnp', 'q05', 'flervalg', 'Hva er en svakhet ved BNP?', array['Ubetalt arbeid er ikke med', 'Det måler produksjon', 'Det kan sammenlignes over tid', 'Det lages av SSB']::text[], 0, 'Også miljøskader og fordeling mangler.', true, true, 4),
+  ('samfunnsokonomi-1:okonomisk-vekst-og-bnp', 'q06', 'flervalg', 'Hvordan kan gode institusjoner gi økonomisk vekst?', array['Ved å øke skattene', 'Ved å gjøre det tryggere å investere', 'Ved å forby handel', 'Ved å redusere utdanning']::text[], 1, 'Rettsstat og lite korrupsjon.', true, true, 5),
+  ('samfunnsokonomi-1:okonomisk-vekst-og-bnp', 'q07', 'flervalg', 'Hva kombinerer HDI?', array['BNP og import', 'Renter og priser', 'Levealder, utdanning og inntekt', 'Eksport og skatt']::text[], 2, 'FNs indeks for menneskelig utvikling.', true, true, 6),
+  ('samfunnsokonomi-1:okonomisk-vekst-og-bnp', 'q08', 'flervalg', 'Hvorfor kan oljeutvinning gi et for positivt bilde i BNP?', array['Fordi olje er billig', 'Fordi den ikke gir inntekter', 'Fordi den er ulovlig', 'Fordi vi tærer på en ressurs som ikke kommer tilbake']::text[], 3, 'Formuen reduseres.', true, true, 7),
+  ('samfunnsokonomi-1:okonomisk-vekst-og-bnp', 'q09', 'flervalg', 'Hva er den største delen av nasjonalformuen i Norge?', array['Humankapitalen', 'Oljefondet', 'Boligene', 'Skogen']::text[], 0, 'Arbeidskraften vår.', true, false, 8),
+  ('samfunnsokonomi-1:okonomisk-vekst-og-bnp', 'q10', 'flervalg', 'Hva betyr grønn vekst?', array['At BNP synker', 'Økt verdiskaping samtidig som utslipp og ressursbruk går ned', 'At alle har grønne biler', 'At staten eier alt']::text[], 1, 'Et sentralt spørsmål i klimadebatten.', true, false, 9),
+  ('samfunnsokonomi-1:okonomisk-vekst-og-bnp', 'm01', 'sant-usant', 'Nominelt BNP kan øke uten at vi produserer mer.', array['Sant', 'Usant']::text[], 0, 'Det kan skyldes prisstigning.', false, true, 10),
+  ('samfunnsokonomi-1:okonomisk-vekst-og-bnp', 'm02', 'sant-usant', 'BNP viser hvordan inntektene er fordelt i befolkningen.', array['Sant', 'Usant']::text[], 1, 'Fordelingen vises ikke.', false, true, 11),
+  ('samfunnsokonomi-1:okonomisk-vekst-og-bnp', 'm03', 'sant-usant', 'Utdanning kan bidra til økonomisk vekst.', array['Sant', 'Usant']::text[], 0, 'Gjennom økt humankapital.', false, true, 12),
+  ('samfunnsokonomi-1:okonomisk-vekst-og-bnp', 'm04', 'sant-usant', 'Reparasjoner etter et uvær trekkes fra BNP.', array['Sant', 'Usant']::text[], 1, 'De øker BNP, selv om vi ikke blir bedre stilt.', false, true, 13),
+  ('samfunnsokonomi-1:okonomisk-vekst-og-bnp', 'm05', 'flervalg', 'Hva er økonomisk vekst?', array['Økt nominelt BNP', 'Økt reelt BNP', 'Økt befolkning', 'Økte priser']::text[], 1, 'Justert for prisstigning.', false, true, 14),
+  ('samfunnsokonomi-1:okonomisk-vekst-og-bnp', 'm06', 'flervalg', 'Hva gjør investeringer i maskiner med produktiviteten?', array['Øker den', 'Senker den', 'Påvirker den ikke', 'Fjerner den']::text[], 0, 'Mer realkapital per arbeider.', false, true, 15),
+  ('samfunnsokonomi-1:okonomisk-vekst-og-bnp', 'm07', 'flervalg', 'Hvorfor bruker vi BNP per innbygger?', array['For å måle eksport', 'For å måle rente', 'For å sammenligne land med ulik befolkning', 'For å måle arbeidsledighet']::text[], 2, 'Tar hensyn til befolkningsstørrelsen.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('samfunnsokonomi-1:okonomisk-vekst-og-bnp', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Samfunnsøkonomi 1: Arbeidsledighet og sysselsettingstiltak
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('samfunnsokonomi-1:arbeidsledighet', 'samfunnsokonomi-1', 'arbeidsledighet', 'Arbeidsledighet og sysselsettingstiltak', 'Hvordan arbeidsledighet måles, forskjellen på friksjons-, struktur-, konjunktur- og sesongledighet, konsekvenser for individ og samfunn – og hvilke sysselsettingstiltak som virker mot de ulike typene ledighet.', array[6]::int[], 6, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('samfunnsokonomi-1:arbeidsledighet', '## Hvem er arbeidsledige?
+
+**Arbeidsstyrken** består av alle som er i **arbeid** – de **sysselsatte** – og alle som er **arbeidsledige**. Å være arbeidsledig betyr å
+
+- være **uten** arbeid
+- ha **aktivt søkt** arbeid den siste tiden
+- kunne **begynne** i jobb snart
+
+Studenter, pensjonister og uføre som ikke søker jobb, er **utenfor** arbeidsstyrken.
+
+**Arbeidsledighetsraten** = arbeidsledige ÷ arbeidsstyrken · 100
+
+## To måter å måle på
+
+- **SSBs arbeidskraftundersøkelse** (AKU) spør et stort **utvalg** av befolkningen om arbeidssituasjonen.
+- **NAV** teller hvor mange som er **registrert** som helt ledige.
+
+AKU viser som regel **høyere** ledighet, fordi ikke alle som søker jobb, registrerer seg hos NAV.
+
+## Typer arbeidsledighet
+
+- **Friksjonsledighet**: Folk er **mellom** to jobber eller har nettopp kommet inn på arbeidsmarkedet. Ledigheten er ofte **kortvarig**. Noe friksjonsledighet vil det alltid være.
+- **Strukturledighet**: Det finnes ledige jobber, men de arbeidsledige har ikke den **kompetansen** som trengs, eller bor på **feil sted**. Den oppstår ofte ved **omstilling**, for eksempel når ny teknologi erstatter gamle jobber eller en industri legges ned.
+- **Konjunkturledighet**: Den samlede **etterspørselen** i økonomien er for lav – i en **lavkonjunktur** – og bedriftene trenger færre ansatte.
+- **Sesongledighet**: Arbeid som varierer med **årstiden**, som turisme og bygg og anlegg.
+
+## Konsekvenser
+
+**For den enkelte**:
+
+- tap av **inntekt**
+- dårligere **psykisk** og **fysisk helse**
+- svekket **selvfølelse** og **sosialt nettverk**
+- risiko for å bli **varig** utenfor arbeidslivet, særlig for **unge**
+
+**For samfunnet**:
+
+- **tapt produksjon** – arbeidskraft som ikke brukes
+- **lavere skatteinntekter** og **høyere utgifter** til dagpenger og andre ytelser
+- økt **ulikhet** og risiko for sosiale problemer
+
+## Sysselsettingstiltak
+
+Tiltaket må passe til **årsaken**:
+
+| Type | Tiltak |
+|---|---|
+| **Konjunkturledighet** | **ekspansiv** finanspolitikk – økte offentlige utgifter eller lavere skatter – og **lavere rente** |
+| **Strukturledighet** | **utdanning**, **omskolering**, kurs, **lønnstilskudd**, arbeidstrening og støtte til å **flytte** |
+| **Friksjonsledighet** | bedre **informasjon** om ledige jobber og raskere **formidling** |
+| **Sesongledighet** | allsidig kompetanse og mer helårsdrift |
+
+**NAV** har ansvaret for mange **arbeidsmarkedstiltak**, som kurs, praksisplasser og lønnstilskudd.
+
+## Å drøfte tiltak
+
+- Brukes **ekspansiv** politikk mot **strukturledighet**, kan det gi **prisstigning** i stedet for flere jobber, fordi de ledige ikke passer til jobbene.
+- **Dagpenger** gir trygghet og tid til å finne en jobb som passer, men noen mener at gode ytelser kan gjøre det mindre **lønnsomt** å ta en jobb raskt.
+- **Utdanningstiltak** tar **tid** og koster penger, men gir varig **kompetanse**.
+- **Lønnstilskudd** kan hjelpe personer som har vært lenge ledige inn i arbeidslivet, men kan også gi jobb til noen som ville fått jobb **uansett**.
+
+Norge har hatt **relativt lav** arbeidsledighet sammenlignet med mange andre land. En større utfordring er at mange står **utenfor** arbeidsstyrken, for eksempel på grunn av helseproblemer.', '{"label":"Arbeidsledighet","children":[{"label":"Måling","children":[{"label":"Arbeidsstyrken"},{"label":"AKU"},{"label":"NAV"}]},{"label":"Typer","children":[{"label":"Friksjon"},{"label":"Struktur"},{"label":"Konjunktur"},{"label":"Sesong"}]},{"label":"Konsekvenser","children":[{"label":"Individ"},{"label":"Samfunn"}]},{"label":"Tiltak","children":[{"label":"Ekspansiv politikk"},{"label":"Utdanning og omskolering"},{"label":"Formidling"}]},{"label":"Drøfting","children":[{"label":"Riktig tiltak mot riktig type"},{"label":"Dagpenger"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'samfunnsokonomi-1:arbeidsledighet';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('samfunnsokonomi-1:arbeidsledighet', 'Arbeidsstyrken', 'Sysselsatte og arbeidsledige til sammen.', 0),
+  ('samfunnsokonomi-1:arbeidsledighet', 'Sysselsatt', 'Person som er i arbeid.', 1),
+  ('samfunnsokonomi-1:arbeidsledighet', 'Arbeidsledig', 'Uten arbeid, har søkt aktivt og kan begynne snart.', 2),
+  ('samfunnsokonomi-1:arbeidsledighet', 'Arbeidsledighetsrate', 'Arbeidsledige delt på arbeidsstyrken.', 3),
+  ('samfunnsokonomi-1:arbeidsledighet', 'AKU', 'SSBs arbeidskraftundersøkelse – spør et utvalg om arbeidssituasjonen.', 4),
+  ('samfunnsokonomi-1:arbeidsledighet', 'Registrert ledighet', 'Personer registrert som helt ledige hos NAV.', 5),
+  ('samfunnsokonomi-1:arbeidsledighet', 'Friksjonsledighet', 'Kortvarig ledighet mellom to jobber.', 6),
+  ('samfunnsokonomi-1:arbeidsledighet', 'Strukturledighet', 'De ledige har ikke kompetansen eller bostedet som trengs.', 7),
+  ('samfunnsokonomi-1:arbeidsledighet', 'Konjunkturledighet', 'Ledighet fordi den samlede etterspørselen er for lav.', 8),
+  ('samfunnsokonomi-1:arbeidsledighet', 'Sesongledighet', 'Ledighet som varierer med årstiden.', 9),
+  ('samfunnsokonomi-1:arbeidsledighet', 'Ekspansiv politikk', 'Økte utgifter, lavere skatt eller lavere rente for å øke etterspørselen.', 10),
+  ('samfunnsokonomi-1:arbeidsledighet', 'Omskolering', 'Ny utdanning for å passe til jobbene som finnes.', 11),
+  ('samfunnsokonomi-1:arbeidsledighet', 'Lønnstilskudd', 'Tilskudd til arbeidsgiver som ansetter en ledig.', 12),
+  ('samfunnsokonomi-1:arbeidsledighet', 'Dagpenger', 'Ytelse fra NAV til arbeidsledige.', 13),
+  ('samfunnsokonomi-1:arbeidsledighet', 'Utenfor arbeidsstyrken', 'Personer som verken jobber eller søker jobb.', 14);
+delete from public.quiz_sporsmal where tema_id = 'samfunnsokonomi-1:arbeidsledighet';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('samfunnsokonomi-1:arbeidsledighet', 'q01', 'flervalg', 'Hvem er i arbeidsstyrken?', array['Bare sysselsatte', 'Sysselsatte og arbeidsledige', 'Alle innbyggere', 'Studenter og pensjonister']::text[], 1, 'De som jobber eller aktivt søker jobb.', true, true, 0),
+  ('samfunnsokonomi-1:arbeidsledighet', 'q02', 'flervalg', 'Det er 100 000 arbeidsledige og en arbeidsstyrke på 2 500 000. Hva er ledighetsraten?', array['4 %', '2,5 %', '25 %', '10 %']::text[], 0, '100 000 ÷ 2 500 000 · 100.', true, true, 1),
+  ('samfunnsokonomi-1:arbeidsledighet', 'q03', 'flervalg', 'Hva er strukturledighet?', array['Ledighet mellom to jobber', 'Ledighet om vinteren', 'Ledige har ikke kompetansen eller bostedet som trengs', 'Ledighet fordi etterspørselen er lav']::text[], 2, 'Oppstår ofte ved omstilling.', true, true, 2),
+  ('samfunnsokonomi-1:arbeidsledighet', 'q04', 'flervalg', 'Hvilket tiltak passer best mot konjunkturledighet?', array['Omskolering', 'Flyttestøtte', 'Bedre jobbportaler', 'Lavere rente og økte offentlige utgifter']::text[], 3, 'Øker den samlede etterspørselen.', true, true, 3),
+  ('samfunnsokonomi-1:arbeidsledighet', 'q05', 'flervalg', 'Hvilket tiltak passer best mot strukturledighet?', array['Utdanning og omskolering', 'Lavere rente', 'Skattelette', 'Økt offentlig forbruk']::text[], 0, 'De ledige må passe til jobbene.', true, true, 4),
+  ('samfunnsokonomi-1:arbeidsledighet', 'q06', 'flervalg', 'Hvorfor viser AKU ofte høyere ledighet enn NAV?', array['Fordi AKU teller pensjonister', 'Fordi ikke alle som søker jobb, registrerer seg hos NAV', 'Fordi NAV teller feil', 'Fordi AKU teller studenter som ledige']::text[], 1, 'To ulike målemetoder.', true, true, 5),
+  ('samfunnsokonomi-1:arbeidsledighet', 'q07', 'flervalg', 'Hva er friksjonsledighet?', array['Langvarig ledighet', 'Ledighet på grunn av lav etterspørsel', 'Kortvarig ledighet mellom to jobber', 'Ledighet om sommeren']::text[], 2, 'Vil alltid finnes.', true, true, 6),
+  ('samfunnsokonomi-1:arbeidsledighet', 'q08', 'flervalg', 'Hva er en samfunnsøkonomisk kostnad ved arbeidsledighet?', array['Høyere skatteinntekter', 'Lavere utgifter til ytelser', 'Mer produksjon', 'Tapt produksjon']::text[], 3, 'Arbeidskraft som ikke brukes.', true, true, 7),
+  ('samfunnsokonomi-1:arbeidsledighet', 'q09', 'flervalg', 'Hva kan skje hvis ekspansiv politikk brukes mot strukturledighet?', array['Det kan gi prisstigning i stedet for flere jobber', 'Ledigheten forsvinner alltid', 'Rentene faller', 'Ingenting']::text[], 0, 'De ledige passer ikke til jobbene.', true, false, 8),
+  ('samfunnsokonomi-1:arbeidsledighet', 'q10', 'flervalg', 'Hva er et lønnstilskudd?', array['Lønn fra staten til alle', 'Tilskudd til arbeidsgiver som ansetter en ledig', 'En skatt', 'En type dagpenger']::text[], 1, 'Et arbeidsmarkedstiltak.', true, false, 9),
+  ('samfunnsokonomi-1:arbeidsledighet', 'm01', 'sant-usant', 'Studenter som ikke søker jobb, er utenfor arbeidsstyrken.', array['Sant', 'Usant']::text[], 0, 'De verken jobber eller søker jobb.', false, true, 10),
+  ('samfunnsokonomi-1:arbeidsledighet', 'm02', 'sant-usant', 'Det er mulig å fjerne all friksjonsledighet.', array['Sant', 'Usant']::text[], 1, 'Noen vil alltid være mellom to jobber.', false, true, 11),
+  ('samfunnsokonomi-1:arbeidsledighet', 'm03', 'sant-usant', 'Langvarig ledighet kan gi dårligere helse.', array['Sant', 'Usant']::text[], 0, 'En konsekvens for den enkelte.', false, true, 12),
+  ('samfunnsokonomi-1:arbeidsledighet', 'm04', 'sant-usant', 'Sesongledighet skyldes at den samlede etterspørselen er for lav.', array['Sant', 'Usant']::text[], 1, 'Den skyldes at arbeidet varierer med årstiden.', false, true, 13),
+  ('samfunnsokonomi-1:arbeidsledighet', 'm05', 'flervalg', 'Hvilken etat har ansvar for mange arbeidsmarkedstiltak?', array['SSB', 'NAV', 'Norges Bank', 'Skatteetaten']::text[], 1, 'Kurs, praksisplasser og lønnstilskudd.', false, true, 14),
+  ('samfunnsokonomi-1:arbeidsledighet', 'm06', 'flervalg', 'En fabrikk legges ned, og arbeiderne mangler kompetanse til de ledige jobbene i IT. Hvilken ledighet er dette?', array['Strukturledighet', 'Friksjonsledighet', 'Sesongledighet', 'Konjunkturledighet']::text[], 0, 'Mismatch mellom kompetanse og jobber.', false, true, 15),
+  ('samfunnsokonomi-1:arbeidsledighet', 'm07', 'flervalg', 'Hva er en større utfordring enn ledigheten i Norge?', array['For mange i jobb', 'For lav befolkning', 'At mange står utenfor arbeidsstyrken', 'For høy rente']::text[], 2, 'For eksempel på grunn av helseproblemer.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('samfunnsokonomi-1:arbeidsledighet', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Samfunnsøkonomi 1: Prisstigning
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('samfunnsokonomi-1:prisstigning', 'samfunnsokonomi-1', 'prisstigning', 'Prisstigning', 'Hvordan prisstigning måles med konsumprisindeksen, hvordan du regner med indekser, realverdier og reallønn, hva som kan skape prisstigning – og hvilke konsekvenser prisstigning og deflasjon får for husholdninger, bedrifter og samfunnet.', array[7]::int[], 7, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('samfunnsokonomi-1:prisstigning', '## Hva er prisstigning?
+
+**Prisstigning** – eller **inflasjon** – er en **generell** økning i **prisnivået** over tid. At én vare blir dyrere, er ikke inflasjon. Det er inflasjon når prisene på varer og tjenester **generelt** stiger, slik at pengene blir **mindre verdt**.
+
+## Konsumprisindeksen
+
+**SSB** måler prisstigningen hver måned med **konsumprisindeksen** (KPI):
+
+1. SSB lager en «**kurv**» av varer og tjenester som husholdningene kjøper – mat, bolig, strøm, klær, transport og fritid.
+2. Hver gruppe får en **vekt** etter hvor stor del av budsjettet husholdningene bruker på den. Bolig og mat veier mer enn for eksempel sko.
+3. Prisene samles inn hver måned, og indeksen viser hvor mye kurven koster sammenlignet med et **basisår** satt til 100.
+
+**KPI-JAE** er KPI **justert for avgiftsendringer** og **uten energivarer**. Den viser den **underliggende** prisstigningen, fordi strømprisene kan svinge mye fra måned til måned.
+
+## Å regne med indekser
+
+- **Prisstigning i prosent** = (KPI nå − KPI før) ÷ KPI før · 100. Går KPI fra 120 til 126, er prisstigningen (126 − 120) ÷ 120 · 100 = **5 %**.
+- **Realverdi**: Hva er 1000 kr i dag verdt i kroner fra basisåret? 1000 · 100 ÷ 126 ≈ **794 kr**.
+- **Reallønn**: Stiger lønnen med 5 % og prisene med 3 %, øker **kjøpekraften** med omtrent **2 %**. Stiger prisene mer enn lønnen, **faller** reallønnen.
+
+## Inflasjonsmålet
+
+**Norges Bank** har som mål at prisstigningen skal være om lag **2 prosent** over tid. En lav og stabil prisstigning gjør det lettere for husholdninger og bedrifter å **planlegge**.
+
+## Årsaker til prisstigning
+
+- **Etterspørselspress**: Den samlede etterspørselen er større enn det økonomien kan produsere. Bedriftene kan **heve** prisene.
+- **Kostnadspress**: Høyere **lønninger**, **råvarepriser** eller **energipriser** gjør produksjonen dyrere.
+- **Importert inflasjon**: Prisene i **utlandet** stiger, eller **kronen** blir svakere, slik at importvarer blir dyrere.
+- **Forventninger**: Tror folk at prisene vil stige, krever de **høyere lønn**, og bedriftene hever prisene. Det kan gi en **lønns- og prisspiral**.
+- **Pengemengde**: Vokser mengden penger mye raskere enn produksjonen, stiger prisene.
+
+Etter **pandemien** og krigen i **Ukraina** steg prisene kraftig i mange land på grunn av høye **energipriser**, problemer med **leveranser** og stor etterspørsel.
+
+## Konsekvenser
+
+- **Kjøpekraften** svekkes, særlig for dem med **faste inntekter**, som pensjonister og studenter.
+- **Omfordeling**: De med **gjeld** tjener, fordi gjelden blir mindre verdt reelt. De med **sparepenger** taper hvis renten er lavere enn prisstigningen.
+- **Usikkerhet** gjør det vanskeligere å planlegge investeringer.
+- **Konkurranseevnen** svekkes hvis prisene og lønningene stiger raskere enn hos handelspartnerne.
+- **Høyere renter** når sentralbanken prøver å dempe prisveksten.
+
+## Deflasjon
+
+**Deflasjon** betyr at prisene **faller** over tid. Det høres bra ut, men kan få folk til å **utsette** kjøp i håp om lavere priser. Da faller etterspørselen, bedrifter kutter, og arbeidsledigheten kan øke. **Gjeld** blir også tyngre å betjene.', '{"label":"Prisstigning","children":[{"label":"Måling","children":[{"label":"KPI og vekter"},{"label":"Basisår"},{"label":"KPI-JAE"}]},{"label":"Beregning","children":[{"label":"Prosentvis endring"},{"label":"Realverdi"},{"label":"Reallønn"}]},{"label":"Årsaker","children":[{"label":"Etterspørselspress"},{"label":"Kostnadspress"},{"label":"Importert inflasjon"},{"label":"Forventninger"}]},{"label":"Konsekvenser","children":[{"label":"Kjøpekraft"},{"label":"Omfordeling"},{"label":"Konkurranseevne"}]},{"label":"Mål og motsats","children":[{"label":"Inflasjonsmål 2 %"},{"label":"Deflasjon"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'samfunnsokonomi-1:prisstigning';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('samfunnsokonomi-1:prisstigning', 'Prisstigning', 'Generell økning i prisnivået over tid.', 0),
+  ('samfunnsokonomi-1:prisstigning', 'Inflasjon', 'Et annet ord for prisstigning.', 1),
+  ('samfunnsokonomi-1:prisstigning', 'Konsumprisindeksen (KPI)', 'SSBs mål på prisutviklingen for husholdningenes forbruk.', 2),
+  ('samfunnsokonomi-1:prisstigning', 'Vekter i KPI', 'Hvor stor del av budsjettet husholdningene bruker på hver varegruppe.', 3),
+  ('samfunnsokonomi-1:prisstigning', 'Basisår', 'Året indeksen settes til 100.', 4),
+  ('samfunnsokonomi-1:prisstigning', 'KPI-JAE', 'KPI justert for avgiftsendringer og uten energivarer.', 5),
+  ('samfunnsokonomi-1:prisstigning', 'Realverdi', 'Verdien justert for prisstigning.', 6),
+  ('samfunnsokonomi-1:prisstigning', 'Reallønn', 'Lønn justert for prisstigning – viser kjøpekraften.', 7),
+  ('samfunnsokonomi-1:prisstigning', 'Inflasjonsmålet', 'Norges Banks mål om prisstigning på om lag 2 % over tid.', 8),
+  ('samfunnsokonomi-1:prisstigning', 'Etterspørselspress', 'Samlet etterspørsel er større enn det økonomien kan produsere.', 9),
+  ('samfunnsokonomi-1:prisstigning', 'Kostnadspress', 'Høyere lønn, råvarer eller energi gjør produksjonen dyrere.', 10),
+  ('samfunnsokonomi-1:prisstigning', 'Importert inflasjon', 'Prisstigning som skyldes dyrere importvarer.', 11),
+  ('samfunnsokonomi-1:prisstigning', 'Lønns- og prisspiral', 'Høyere priser gir høyere lønn, som gir høyere priser.', 12),
+  ('samfunnsokonomi-1:prisstigning', 'Kjøpekraft', 'Hvor mye man kan kjøpe for pengene.', 13),
+  ('samfunnsokonomi-1:prisstigning', 'Deflasjon', 'Prisene faller over tid.', 14);
+delete from public.quiz_sporsmal where tema_id = 'samfunnsokonomi-1:prisstigning';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('samfunnsokonomi-1:prisstigning', 'q01', 'flervalg', 'Hvem måler prisstigningen i Norge?', array['Norges Bank', 'SSB', 'NAV', 'Finansdepartementet']::text[], 1, 'Med konsumprisindeksen.', true, true, 0),
+  ('samfunnsokonomi-1:prisstigning', 'q02', 'flervalg', 'KPI går fra 120 til 126. Hva er prisstigningen?', array['5 %', '6 %', '4,8 %', '26 %']::text[], 0, '(126 − 120) ÷ 120 · 100.', true, true, 1),
+  ('samfunnsokonomi-1:prisstigning', 'q03', 'flervalg', 'Hva er KPI-JAE?', array['KPI for strøm', 'KPI for mat', 'KPI justert for avgiftsendringer og uten energivarer', 'KPI for utlandet']::text[], 2, 'Viser den underliggende prisveksten.', true, true, 2),
+  ('samfunnsokonomi-1:prisstigning', 'q04', 'flervalg', 'Lønnen stiger med 5 % og prisene med 3 %. Hva skjer med reallønnen?', array['Den faller med 2 %', 'Den er uendret', 'Den stiger med 8 %', 'Den stiger med omtrent 2 %']::text[], 3, 'Kjøpekraften øker.', true, true, 3),
+  ('samfunnsokonomi-1:prisstigning', 'q05', 'flervalg', 'Hva er Norges Banks inflasjonsmål?', array['Om lag 2 % over tid', '0 %', '5 %', '10 %']::text[], 0, 'Lav og stabil prisstigning.', true, true, 4),
+  ('samfunnsokonomi-1:prisstigning', 'q06', 'flervalg', 'Kronen blir svakere. Hvilken type prisstigning kan det gi?', array['Deflasjon', 'Importert inflasjon', 'Ingen endring', 'Lønnskutt']::text[], 1, 'Importvarer blir dyrere.', true, true, 5),
+  ('samfunnsokonomi-1:prisstigning', 'q07', 'flervalg', 'Hvem taper mest på høy prisstigning?', array['De med mye gjeld', 'Bedrifter med høye priser', 'De med faste inntekter og sparepenger', 'Staten']::text[], 2, 'Kjøpekraften svekkes.', true, true, 6),
+  ('samfunnsokonomi-1:prisstigning', 'q08', 'flervalg', 'Hvorfor kan deflasjon være skadelig?', array['Prisene stiger for mye', 'Renten blir for høy', 'Lønningene øker for mye', 'Folk utsetter kjøp, og etterspørselen faller']::text[], 3, 'Kan gi arbeidsledighet.', true, true, 7),
+  ('samfunnsokonomi-1:prisstigning', 'q09', 'flervalg', 'Hva er en lønns- og prisspiral?', array['Høyere priser gir høyere lønn, som gir høyere priser', 'At lønn og priser faller', 'En type skatt', 'At renten stiger']::text[], 0, 'Forventninger forsterker prisveksten.', true, false, 8),
+  ('samfunnsokonomi-1:prisstigning', 'q10', 'flervalg', 'Hvorfor får bolig og mat større vekt i KPI enn sko?', array['Fordi de er viktigere for staten', 'Fordi husholdningene bruker mer av budsjettet på dem', 'Fordi de er billigere', 'Fordi de importeres']::text[], 1, 'Vektene følger forbruket.', true, false, 9),
+  ('samfunnsokonomi-1:prisstigning', 'm01', 'sant-usant', 'At én vare blir dyrere, er ikke det samme som inflasjon.', array['Sant', 'Usant']::text[], 0, 'Inflasjon er en generell prisøkning.', false, true, 10),
+  ('samfunnsokonomi-1:prisstigning', 'm02', 'sant-usant', 'De med mye gjeld taper alltid på høy prisstigning.', array['Sant', 'Usant']::text[], 1, 'Gjelden blir mindre verdt reelt, men høyere renter kan gjøre den dyrere.', false, true, 11),
+  ('samfunnsokonomi-1:prisstigning', 'm03', 'sant-usant', 'Høye energipriser kan gi kostnadspress.', array['Sant', 'Usant']::text[], 0, 'Produksjonen blir dyrere.', false, true, 12),
+  ('samfunnsokonomi-1:prisstigning', 'm04', 'sant-usant', 'KPI måler bare prisene på mat.', array['Sant', 'Usant']::text[], 1, 'Den måler en kurv av mange varer og tjenester.', false, true, 13),
+  ('samfunnsokonomi-1:prisstigning', 'm05', 'flervalg', 'Hva er 1000 kr i dag verdt i basisårets kroner når KPI er 125?', array['1250 kr', '800 kr', '1000 kr', '875 kr']::text[], 1, '1000 · 100 ÷ 125.', false, true, 14),
+  ('samfunnsokonomi-1:prisstigning', 'm06', 'flervalg', 'Hva kan skape etterspørselspress?', array['Samlet etterspørsel større enn det økonomien kan produsere', 'Høy arbeidsledighet', 'Fallende priser', 'Lav etterspørsel']::text[], 0, 'Bedriftene kan heve prisene.', false, true, 15),
+  ('samfunnsokonomi-1:prisstigning', 'm07', 'flervalg', 'Hvorfor er lav og stabil prisstigning ønskelig?', array['Den gir høyere renter', 'Den gjør alle rikere', 'Den gjør det lettere å planlegge', 'Den fjerner arbeidsledighet']::text[], 2, 'Mindre usikkerhet.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('samfunnsokonomi-1:prisstigning', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Samfunnsøkonomi 1: Pengepolitikk og finanspolitikk
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('samfunnsokonomi-1:penge-og-finanspolitikk', 'samfunnsokonomi-1', 'penge-og-finanspolitikk', 'Pengepolitikk og finanspolitikk', 'Konjunkturer og stabiliseringspolitikk: hvordan Norges Bank bruker styringsrenten i pengepolitikken, hvordan regjeringen og Stortinget bruker statsbudsjettet i finanspolitikken, handlingsregelen, automatiske stabilisatorer og hvordan politikken påvirker økonomien.', array[8]::int[], 8, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('samfunnsokonomi-1:penge-og-finanspolitikk', '## Konjunkturer
+
+Økonomien svinger mellom perioder med høy og lav aktivitet – **konjunkturer**:
+
+- **Høykonjunktur**: høy produksjon, lav arbeidsledighet og ofte **press** på lønninger og priser.
+- **Lavkonjunktur**: lav produksjon, **økende arbeidsledighet** og ledig kapasitet i bedriftene.
+
+**Stabiliseringspolitikk** skal **dempe** svingningene. Målet er **lav og stabil prisstigning**, **høy sysselsetting** og **jevn vekst**. Myndighetene har to hovedverktøy: **pengepolitikk** og **finanspolitikk**.
+
+## Pengepolitikk
+
+Pengepolitikken styres av **Norges Bank**, som er **uavhengig** i den daglige rentesettingen. Målet er at prisstigningen skal være om lag **2 prosent** over tid, samtidig som banken skal bidra til **høy og stabil produksjon og sysselsetting**.
+
+Det viktigste virkemiddelet er **styringsrenten** – renten bankene får på innskudd i Norges Bank. Den påvirker de andre rentene i økonomien.
+
+**Når renten settes opp**:
+
+- Det blir **dyrere å låne** og mer **lønnsomt å spare**. Husholdninger med boliglån får **mindre** å rutte med.
+- **Konsumet** og **investeringene** faller.
+- **Kronen** blir ofte **sterkere**, og importvarer blir billigere.
+- Forventningene om prisstigning dempes.
+
+Dette kalles **kontraktiv** pengepolitikk og brukes når økonomien er i **høykonjunktur** og prisene stiger for mye. **Lavere rente** – **ekspansiv** pengepolitikk – brukes i **lavkonjunktur** for å øke etterspørselen.
+
+Renteendringer virker med **tidsetterslep**, ofte på et halvt år til to år.
+
+## Finanspolitikk
+
+Finanspolitikken styres av **regjeringen** og **Stortinget** gjennom **statsbudsjettet**:
+
+- **Offentlige utgifter** – konsum, investeringer og overføringer
+- **Skatter og avgifter**
+
+**Ekspansiv finanspolitikk** – økte utgifter eller lavere skatter – øker etterspørselen og brukes i **lavkonjunktur**. **Kontraktiv finanspolitikk** – kutt i utgifter eller høyere skatter – demper etterspørselen.
+
+**Handlingsregelen** sier at staten over tid skal bruke om lag den **forventede realavkastningen** av oljefondet i budsjettet. I dårlige tider kan staten bruke **mer**, og i gode tider bør den bruke **mindre**.
+
+## Automatiske stabilisatorer
+
+Noen deler av budsjettet virker **automatisk** i riktig retning. I en lavkonjunktur **øker** utgiftene til **dagpenger**, og **skatteinntektene** faller fordi folk tjener mindre. Det holder etterspørselen oppe uten nye vedtak.
+
+## Samspill
+
+Under **pandemien** i 2020 satte Norges Bank renten ned til **null**, og staten brukte store summer på **krisepakker**. Da prisene steg kraftig i årene etter, satte Norges Bank opp renten flere ganger for å dempe prisveksten.
+
+Det er viktig at penge- og finanspolitikken **trekker i samme retning**. Er finanspolitikken svært ekspansiv, må renten kanskje settes **høyere** enn ellers.
+
+## Utfordringer
+
+- **Tidsetterslep**: Tiltakene virker ofte først når situasjonen har endret seg.
+- **Usikkerhet**: Det er vanskelig å vite nøyaktig hvor økonomien er på vei.
+- **Fordelingsvirkninger**: Høy rente rammer særlig **unge** med store **boliglån**.
+- **Politiske hensyn** kan gjøre det vanskelig å stramme inn i gode tider.', '{"label":"Penge- og finanspolitikk","children":[{"label":"Konjunkturer","children":[{"label":"Høykonjunktur"},{"label":"Lavkonjunktur"}]},{"label":"Pengepolitikk","children":[{"label":"Norges Bank"},{"label":"Styringsrenten"},{"label":"Inflasjonsmål"}]},{"label":"Finanspolitikk","children":[{"label":"Statsbudsjettet"},{"label":"Skatter og utgifter"},{"label":"Handlingsregelen"}]},{"label":"Virkemåte","children":[{"label":"Ekspansiv"},{"label":"Kontraktiv"},{"label":"Automatiske stabilisatorer"}]},{"label":"Utfordringer","children":[{"label":"Tidsetterslep"},{"label":"Fordeling"},{"label":"Samspill"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'samfunnsokonomi-1:penge-og-finanspolitikk';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('samfunnsokonomi-1:penge-og-finanspolitikk', 'Konjunkturer', 'Svingninger mellom høy og lav økonomisk aktivitet.', 0),
+  ('samfunnsokonomi-1:penge-og-finanspolitikk', 'Høykonjunktur', 'Høy produksjon, lav ledighet og press på priser.', 1),
+  ('samfunnsokonomi-1:penge-og-finanspolitikk', 'Lavkonjunktur', 'Lav produksjon og økende arbeidsledighet.', 2),
+  ('samfunnsokonomi-1:penge-og-finanspolitikk', 'Stabiliseringspolitikk', 'Politikk som skal dempe konjunktursvingningene.', 3),
+  ('samfunnsokonomi-1:penge-og-finanspolitikk', 'Pengepolitikk', 'Norges Banks bruk av renten for å påvirke økonomien.', 4),
+  ('samfunnsokonomi-1:penge-og-finanspolitikk', 'Styringsrenten', 'Renten bankene får på innskudd i Norges Bank.', 5),
+  ('samfunnsokonomi-1:penge-og-finanspolitikk', 'Kontraktiv politikk', 'Politikk som demper etterspørselen.', 6),
+  ('samfunnsokonomi-1:penge-og-finanspolitikk', 'Ekspansiv politikk', 'Politikk som øker etterspørselen.', 7),
+  ('samfunnsokonomi-1:penge-og-finanspolitikk', 'Tidsetterslep', 'At tiltak virker først etter en tid.', 8),
+  ('samfunnsokonomi-1:penge-og-finanspolitikk', 'Finanspolitikk', 'Regjeringens og Stortingets bruk av statsbudsjettet.', 9),
+  ('samfunnsokonomi-1:penge-og-finanspolitikk', 'Statsbudsjettet', 'Statens plan for utgifter og inntekter.', 10),
+  ('samfunnsokonomi-1:penge-og-finanspolitikk', 'Handlingsregelen', 'Staten bruker om lag den forventede realavkastningen av oljefondet.', 11),
+  ('samfunnsokonomi-1:penge-og-finanspolitikk', 'Automatiske stabilisatorer', 'Dagpenger og skatter som automatisk demper svingningene.', 12),
+  ('samfunnsokonomi-1:penge-og-finanspolitikk', 'Uavhengig sentralbank', 'Norges Bank setter renten uten politisk styring fra dag til dag.', 13),
+  ('samfunnsokonomi-1:penge-og-finanspolitikk', 'Krisepakker', 'Ekstra offentlige tiltak i en krise, som under pandemien.', 14);
+delete from public.quiz_sporsmal where tema_id = 'samfunnsokonomi-1:penge-og-finanspolitikk';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('samfunnsokonomi-1:penge-og-finanspolitikk', 'q01', 'flervalg', 'Hvem styrer pengepolitikken i Norge?', array['Stortinget', 'Norges Bank', 'Finansdepartementet', 'NAV']::text[], 1, 'Gjennom styringsrenten.', true, true, 0),
+  ('samfunnsokonomi-1:penge-og-finanspolitikk', 'q02', 'flervalg', 'Hva skjer vanligvis når renten settes opp?', array['Konsumet og investeringene faller', 'Konsumet øker', 'Kronen svekkes', 'Det blir billigere å låne']::text[], 0, 'Kontraktiv pengepolitikk.', true, true, 1),
+  ('samfunnsokonomi-1:penge-og-finanspolitikk', 'q03', 'flervalg', 'Hva er ekspansiv finanspolitikk?', array['Høyere skatter', 'Kutt i offentlige utgifter', 'Økte offentlige utgifter eller lavere skatter', 'Høyere rente']::text[], 2, 'Øker etterspørselen.', true, true, 2),
+  ('samfunnsokonomi-1:penge-og-finanspolitikk', 'q04', 'flervalg', 'Hvilken politikk passer i en høykonjunktur med høy prisstigning?', array['Lavere rente', 'Økte offentlige utgifter', 'Skattelette', 'Kontraktiv politikk, som høyere rente']::text[], 3, 'Demper etterspørselen.', true, true, 3),
+  ('samfunnsokonomi-1:penge-og-finanspolitikk', 'q05', 'flervalg', 'Hva er en automatisk stabilisator?', array['Dagpenger som øker i en lavkonjunktur', 'En renteendring', 'Et vedtak i Stortinget', 'En ny skatt']::text[], 0, 'Virker uten nye vedtak.', true, true, 4),
+  ('samfunnsokonomi-1:penge-og-finanspolitikk', 'q06', 'flervalg', 'Hvem vedtar statsbudsjettet?', array['Norges Bank', 'Stortinget', 'SSB', 'Kommunene']::text[], 1, 'Etter forslag fra regjeringen.', true, true, 5),
+  ('samfunnsokonomi-1:penge-og-finanspolitikk', 'q07', 'flervalg', 'Hvorfor blir kronen ofte sterkere når renten settes opp?', array['Fordi eksporten faller', 'Fordi prisene stiger', 'Fordi det blir mer attraktivt å plassere penger i kroner', 'Fordi staten kjøper kroner']::text[], 2, 'Høyere avkastning på kroner.', true, true, 6),
+  ('samfunnsokonomi-1:penge-og-finanspolitikk', 'q08', 'flervalg', 'Hva er tidsetterslep?', array['At renten endres hver dag', 'At budsjettet kommer sent', 'At statistikk er feil', 'At tiltak virker først etter en tid']::text[], 3, 'Ofte et halvt år til to år.', true, true, 7),
+  ('samfunnsokonomi-1:penge-og-finanspolitikk', 'q09', 'flervalg', 'Hva gjorde Norges Bank under pandemien i 2020?', array['Satte renten ned til null', 'Satte renten kraftig opp', 'Avskaffet renten', 'Stengte bankene']::text[], 0, 'For å holde etterspørselen oppe.', true, false, 8),
+  ('samfunnsokonomi-1:penge-og-finanspolitikk', 'q10', 'flervalg', 'Hvem rammes særlig av høy rente?', array['Personer uten gjeld', 'Unge med store boliglån', 'Personer med store sparepenger', 'Staten']::text[], 1, 'En fordelingsvirkning.', true, false, 9),
+  ('samfunnsokonomi-1:penge-og-finanspolitikk', 'm01', 'sant-usant', 'Norges Bank er uavhengig i den daglige rentesettingen.', array['Sant', 'Usant']::text[], 0, 'Politikerne bestemmer ikke renten fra dag til dag.', false, true, 10),
+  ('samfunnsokonomi-1:penge-og-finanspolitikk', 'm02', 'sant-usant', 'Lavere rente gjør det dyrere å låne penger.', array['Sant', 'Usant']::text[], 1, 'Lavere rente gjør det billigere å låne.', false, true, 11),
+  ('samfunnsokonomi-1:penge-og-finanspolitikk', 'm03', 'sant-usant', 'Penge- og finanspolitikken bør trekke i samme retning.', array['Sant', 'Usant']::text[], 0, 'Ellers kan de motvirke hverandre.', false, true, 12),
+  ('samfunnsokonomi-1:penge-og-finanspolitikk', 'm04', 'sant-usant', 'I en lavkonjunktur øker skatteinntektene automatisk.', array['Sant', 'Usant']::text[], 1, 'De faller fordi folk tjener mindre.', false, true, 13),
+  ('samfunnsokonomi-1:penge-og-finanspolitikk', 'm05', 'flervalg', 'Hvilken politikk passer i en lavkonjunktur?', array['Høyere rente', 'Ekspansiv politikk', 'Kutt i offentlige utgifter', 'Høyere skatter']::text[], 1, 'Øker etterspørselen.', false, true, 14),
+  ('samfunnsokonomi-1:penge-og-finanspolitikk', 'm06', 'flervalg', 'Hva sier handlingsregelen om dårlige tider?', array['Staten kan bruke mer oljepenger', 'Staten må kutte kraftig', 'Staten kan ikke bruke oljepenger', 'Staten må heve skattene']::text[], 0, 'Og mindre i gode tider.', false, true, 15),
+  ('samfunnsokonomi-1:penge-og-finanspolitikk', 'm07', 'flervalg', 'Hva er målet med stabiliseringspolitikk?', array['Høy prisstigning', 'Høy arbeidsledighet', 'Lav og stabil prisstigning og høy sysselsetting', 'Store konjunktursvingninger']::text[], 2, 'Dempe svingningene.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('samfunnsokonomi-1:penge-og-finanspolitikk', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Samfunnsøkonomi 1: Finansmarkeder
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('samfunnsokonomi-1:finansmarkeder', 'samfunnsokonomi-1', 'finansmarkeder', 'Finansmarkeder', 'Hva finansmarkedene er – bank, aksjer, obligasjoner og valuta – hvilke oppgaver de har i økonomien, hvilke muligheter de gir for vekst, og hvilke utfordringer som bobler, gjeld og finanskriser skaper – og hvordan markedene reguleres.', array[9]::int[], 9, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('samfunnsokonomi-1:finansmarkeder', '## Hva er finansmarkedene?
+
+**Finansmarkedene** er markeder der **penger** og **finansielle eiendeler** handles. De viktigste er
+
+- **bankene**, som tar imot **innskudd** og gir **lån**
+- **aksjemarkedet**, der eierandeler i selskaper kjøpes og selges, for eksempel på **Oslo Børs**
+- **obligasjonsmarkedet**, der staten, kommuner og bedrifter låner penger ved å selge **obligasjoner** – verdipapirer som gir **renter**
+- **valutamarkedet**, der ulike lands penger byttes
+
+## Hvilke oppgaver har finansmarkedene?
+
+1. **Kanalisere sparing til investeringer**: Husholdninger som sparer, gjør det mulig for bedrifter å låne til nye maskiner og for folk å kjøpe bolig.
+2. **Fordele risiko**: Investorer kan spre pengene på mange selskaper, og forsikring og ulike finansprodukter gjør at risiko deles.
+3. **Betalingsformidling**: Bankene sørger for at vi kan betale med kort, mobil og nettbank.
+4. **Prising av risiko og informasjon**: Aksjekurser og renter gir **signaler** om hvor kapitalen gir best avkastning.
+
+## Muligheter
+
+- Nye og voksende bedrifter kan få **kapital** til å utvikle seg.
+- Husholdninger kan **spare** til pensjon og **låne** til bolig.
+- Kapital flyttes dit den gir mest **verdi**, noe som kan gi **økonomisk vekst**.
+- **Grønne obligasjoner** og investorers krav om bærekraft kan styre kapital mot **klimavennlige** prosjekter.
+
+## Utfordringer
+
+- **Bobler**: Prisene på aksjer eller boliger kan stige langt over det som er **fundamentalt** begrunnet – ofte fordi folk tror prisene vil fortsette å stige. Når boblen **sprekker**, kan mange tape mye.
+- **Høy gjeld**: Mange norske husholdninger har **mye gjeld**, særlig boliglån. Stiger **renten** eller faller **inntekten**, kan gjelden bli tung å betjene, og de må kutte i forbruket.
+- **Finanskriser**: Problemer i én bank kan **smitte** til andre. Under **finanskrisen** i 2008 førte tap på amerikanske boliglån til at banker verden over fikk problemer, og mange land fikk en dyp **lavkonjunktur**.
+- **Bankpanikk**: Hvis mange vil ta ut pengene sine samtidig, kan en ellers sunn bank få problemer.
+- **Ny teknologi**: **Kryptovaluta** og nye plattformer gir muligheter, men også stor **risiko** og fare for **svindel**.
+
+## Regulering
+
+Fordi finansmarkedene er så viktige, er de strengt **regulert**:
+
+- **Finanstilsynet** fører tilsyn med banker, forsikringsselskaper og verdipapirmarkedet.
+- Bankene må ha nok **egenkapital** og **likviditet** til å tåle tap.
+- **Boliglånsregler** begrenser hvor mye folk kan låne i forhold til inntekt og boligverdi.
+- **Innskuddsgarantien** sikrer bankinnskudd opp til et visst beløp.
+- **Norges Bank** kan låne ut penger til bankene i en krise og skal bidra til **finansiell stabilitet**.
+
+## Vurdering
+
+Finansmarkedene er nødvendige for en moderne økonomi. De kan gi **vekst** og **velstand**, men også **ustabilitet**. Utfordringen for myndighetene er å regulere nok til å hindre kriser, uten å hindre at kapital når fram til gode prosjekter.', '{"label":"Finansmarkeder","children":[{"label":"Markeder","children":[{"label":"Bank"},{"label":"Aksjer og obligasjoner"},{"label":"Valuta"}]},{"label":"Oppgaver","children":[{"label":"Sparing til investering"},{"label":"Risikospredning"},{"label":"Betalinger"}]},{"label":"Muligheter","children":[{"label":"Kapital til vekst"},{"label":"Pensjon og bolig"},{"label":"Grønn kapital"}]},{"label":"Utfordringer","children":[{"label":"Bobler"},{"label":"Gjeld"},{"label":"Finanskriser"}]},{"label":"Regulering","children":[{"label":"Finanstilsynet"},{"label":"Kapitalkrav"},{"label":"Norges Bank"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'samfunnsokonomi-1:finansmarkeder';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('samfunnsokonomi-1:finansmarkeder', 'Finansmarkeder', 'Markeder der penger og finansielle eiendeler handles.', 0),
+  ('samfunnsokonomi-1:finansmarkeder', 'Aksje', 'Eierandel i et selskap.', 1),
+  ('samfunnsokonomi-1:finansmarkeder', 'Obligasjon', 'Verdipapir som viser at noen har lånt penger og betaler renter.', 2),
+  ('samfunnsokonomi-1:finansmarkeder', 'Valutamarked', 'Marked der ulike lands penger byttes.', 3),
+  ('samfunnsokonomi-1:finansmarkeder', 'Oslo Børs', 'Markedsplass for handel med aksjer i Norge.', 4),
+  ('samfunnsokonomi-1:finansmarkeder', 'Kanalisere sparing', 'Finansmarkedene flytter sparing til investeringer.', 5),
+  ('samfunnsokonomi-1:finansmarkeder', 'Risikospredning', 'Å fordele pengene på mange investeringer.', 6),
+  ('samfunnsokonomi-1:finansmarkeder', 'Betalingsformidling', 'Bankenes rolle i å flytte penger mellom kunder.', 7),
+  ('samfunnsokonomi-1:finansmarkeder', 'Boble', 'Priser som stiger langt over det som er fundamentalt begrunnet.', 8),
+  ('samfunnsokonomi-1:finansmarkeder', 'Finanskrisen 2008', 'Tap på amerikanske boliglån spredte seg til banker verden over.', 9),
+  ('samfunnsokonomi-1:finansmarkeder', 'Bankpanikk', 'Mange vil ta ut pengene sine samtidig.', 10),
+  ('samfunnsokonomi-1:finansmarkeder', 'Finanstilsynet', 'Fører tilsyn med banker og finansmarkedene.', 11),
+  ('samfunnsokonomi-1:finansmarkeder', 'Innskuddsgaranti', 'Sikrer bankinnskudd opp til et visst beløp.', 12),
+  ('samfunnsokonomi-1:finansmarkeder', 'Finansiell stabilitet', 'At finanssystemet fungerer også i krevende tider.', 13),
+  ('samfunnsokonomi-1:finansmarkeder', 'Grønne obligasjoner', 'Lån som skal finansiere klimavennlige prosjekter.', 14);
+delete from public.quiz_sporsmal where tema_id = 'samfunnsokonomi-1:finansmarkeder';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('samfunnsokonomi-1:finansmarkeder', 'q01', 'flervalg', 'Hva er en aksje?', array['Et banklån', 'En eierandel i et selskap', 'En type valuta', 'En skatt']::text[], 1, 'Handles blant annet på Oslo Børs.', true, true, 0),
+  ('samfunnsokonomi-1:finansmarkeder', 'q02', 'flervalg', 'Hva er en obligasjon?', array['Et verdipapir som viser at noen har lånt penger og betaler renter', 'En eierandel', 'En forsikring', 'En valuta']::text[], 0, 'Stat, kommuner og bedrifter utsteder obligasjoner.', true, true, 1),
+  ('samfunnsokonomi-1:finansmarkeder', 'q03', 'flervalg', 'Hva er en viktig oppgave for finansmarkedene?', array['Å fastsette skattene', 'Å produsere varer', 'Å kanalisere sparing til investeringer', 'Å bestemme lønningene']::text[], 2, 'Sparing blir til lån og investeringer.', true, true, 2),
+  ('samfunnsokonomi-1:finansmarkeder', 'q04', 'flervalg', 'Hva er en boble i et marked?', array['At prisene faller', 'At det ikke finnes kjøpere', 'Et statlig inngrep', 'At prisene stiger langt over det som er fundamentalt begrunnet']::text[], 3, 'Kan sprekke og gi store tap.', true, true, 3),
+  ('samfunnsokonomi-1:finansmarkeder', 'q05', 'flervalg', 'Hva utløste finanskrisen i 2008?', array['Tap på amerikanske boliglån', 'En krig', 'Lav oljepris alene', 'En pandemi']::text[], 0, 'Tapene spredte seg til banker verden over.', true, true, 4),
+  ('samfunnsokonomi-1:finansmarkeder', 'q06', 'flervalg', 'Hvem fører tilsyn med banker i Norge?', array['Konkurransetilsynet', 'Finanstilsynet', 'Forbrukertilsynet', 'Datatilsynet']::text[], 1, 'Også forsikring og verdipapirmarkedet.', true, true, 5),
+  ('samfunnsokonomi-1:finansmarkeder', 'q07', 'flervalg', 'Hvorfor kan høy husholdningsgjeld være en risiko?', array['Fordi den gir lavere renter', 'Fordi den øker sparingen', 'Fordi husholdningene må kutte forbruket hvis renten stiger', 'Fordi den er ulovlig']::text[], 2, 'Kan forsterke en nedgang.', true, true, 6),
+  ('samfunnsokonomi-1:finansmarkeder', 'q08', 'flervalg', 'Hva er bankpanikk?', array['At bankene stenger om natta', 'At renten er høy', 'At banken tjener for mye', 'At mange vil ta ut pengene sine samtidig']::text[], 3, 'Kan ramme også en sunn bank.', true, true, 7),
+  ('samfunnsokonomi-1:finansmarkeder', 'q09', 'flervalg', 'Hvorfor må bankene ha nok egenkapital?', array['For å tåle tap', 'For å betale mer skatt', 'For å gi høyere lønn', 'For å slippe tilsyn']::text[], 0, 'Gjør banksystemet mer robust.', true, false, 8),
+  ('samfunnsokonomi-1:finansmarkeder', 'q10', 'flervalg', 'Hvordan kan finansmarkedene bidra til bærekraft?', array['Ved å forby lån', 'Ved at kapital styres mot klimavennlige prosjekter', 'Ved å stoppe all handel', 'Ved å øke gjelden']::text[], 1, 'For eksempel grønne obligasjoner.', true, false, 9),
+  ('samfunnsokonomi-1:finansmarkeder', 'm01', 'sant-usant', 'Problemer i én bank kan smitte til andre banker.', array['Sant', 'Usant']::text[], 0, 'Derfor er finanssystemet strengt regulert.', false, true, 10),
+  ('samfunnsokonomi-1:finansmarkeder', 'm02', 'sant-usant', 'Kryptovaluta er en investering uten risiko.', array['Sant', 'Usant']::text[], 1, 'Den gir stor risiko og fare for svindel.', false, true, 11),
+  ('samfunnsokonomi-1:finansmarkeder', 'm03', 'sant-usant', 'Boliglånsregler begrenser hvor mye folk kan låne.', array['Sant', 'Usant']::text[], 0, 'I forhold til inntekt og boligverdi.', false, true, 12),
+  ('samfunnsokonomi-1:finansmarkeder', 'm04', 'sant-usant', 'Finansmarkedene har ingen betydning for økonomisk vekst.', array['Sant', 'Usant']::text[], 1, 'De gir kapital til investeringer.', false, true, 13),
+  ('samfunnsokonomi-1:finansmarkeder', 'm05', 'flervalg', 'Hva gjør innskuddsgarantien?', array['Garanterer aksjekursene', 'Sikrer bankinnskudd opp til et visst beløp', 'Garanterer lav rente', 'Garanterer høy lønn']::text[], 1, 'Reduserer faren for bankpanikk.', false, true, 14),
+  ('samfunnsokonomi-1:finansmarkeder', 'm06', 'flervalg', 'Hvordan kan Norges Bank hjelpe i en finanskrise?', array['Ved å låne ut penger til bankene', 'Ved å stenge børsen for alltid', 'Ved å øke skattene', 'Ved å forby sparing']::text[], 0, 'Bidrar til finansiell stabilitet.', false, true, 15),
+  ('samfunnsokonomi-1:finansmarkeder', 'm07', 'flervalg', 'Hva betyr risikospredning?', array['Å sette alle pengene i én aksje', 'Å låne mest mulig', 'Å fordele pengene på mange investeringer', 'Å ta ut alle pengene']::text[], 2, 'Reduserer faren for store tap.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('samfunnsokonomi-1:finansmarkeder', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Samfunnsøkonomi 1: Lønnsforskjeller, inntektsfordeling og ulikhet
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('samfunnsokonomi-1:inntektsfordeling-og-ulikhet', 'samfunnsokonomi-1', 'inntektsfordeling-og-ulikhet', 'Lønnsforskjeller, inntektsfordeling og ulikhet', 'Hva som påvirker lønnsforskjeller, hvordan inntektsfordeling og ulikhet måles med Lorenzkurven og Gini-koeffisienten, forskjellen på inntekt og formue – og hvordan myndighetene kan påvirke fordelingen gjennom skatter, overføringer og tjenester.', array[10]::int[], 10, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('samfunnsokonomi-1:inntektsfordeling-og-ulikhet', '## Hvorfor tjener folk ulikt?
+
+**Lønnsforskjeller** har mange årsaker:
+
+- **Utdanning** og **kompetanse**: Arbeid som krever lang utdanning eller sjelden kompetanse, gir ofte høyere lønn.
+- **Erfaring** og **ansiennitet**
+- **Bransje**: Lønnsnivået er høyere i for eksempel finans og olje enn i varehandel og overnatting.
+- **Tilbud og etterspørsel** etter arbeidskraft: Er det mangel på en type arbeidskraft, stiger lønnen.
+- **Forhandlingsmakt**: Sterke **fagforeninger** og **tariffavtaler** gir jevnere lønninger.
+- **Kjønn**: Kvinner tjener i gjennomsnitt mindre enn menn, blant annet fordi de oftere jobber i yrker med lavere lønn og oftere jobber **deltid**.
+
+## Den norske modellen
+
+I Norge forhandles mye av lønnen mellom **arbeidsgiverorganisasjoner** og **fagforeninger**. I **frontfagsmodellen** forhandler de konkurranseutsatte næringene først, og resultatet blir en **norm** for andre. Det bidrar til **små lønnsforskjeller** og god **konkurranseevne**. **Trepartssamarbeidet** mellom partene i arbeidslivet og staten er en viktig del av modellen.
+
+## Å måle ulikhet
+
+**Lorenzkurven** viser hvor stor andel av **samlet inntekt** som går til en gitt andel av **befolkningen**, sortert fra den med lavest til den med høyest inntekt. Hvis alle tjente likt, ville kurven vært en **rett linje**. Jo mer kurven **buer** bort fra linjen, desto større er ulikheten.
+
+**Gini-koeffisienten** oppsummerer ulikheten i ett tall:
+
+- **0** betyr at alle har **like** stor inntekt.
+- **1** betyr at **én** person har all inntekt.
+
+Norge har **lav** inntektsulikhet sammenlignet med de fleste land, men ulikheten har **økt** noe de siste tiårene.
+
+**Formue** – det folk eier av bolig, aksjer og sparepenger – er fordelt mye **skjevere** enn inntekt. **Arv** og stigende **boligpriser** kan forsterke forskjellene.
+
+## Hvordan kan myndighetene påvirke fordelingen?
+
+- **Progressiv skatt**: Den som tjener mer, betaler en **høyere andel** i skatt. **Trinnskatten** er et eksempel.
+- **Formuesskatt** og skatt på **utbytte**
+- **Overføringer**: **barnetrygd**, **bostøtte**, **sosialhjelp**, **dagpenger** og **pensjoner**
+- **Gratis eller rimelige tjenester**: **skole**, **helse** og **barnehage** betyr relativt mest for dem med **lav** inntekt.
+- **Utdanningspolitikk**: Like muligheter til utdanning gir mer **sosial mobilitet**.
+- **Arbeidslivspolitikk**: **Allmenngjøring** av tariffavtaler gir minstelønn i enkelte bransjer, og tiltak mot **utenforskap** hjelper flere inn i jobb.
+
+## Konsekvenser av ulikhet
+
+Store forskjeller kan gi lavere **tillit**, mer **kriminalitet**, dårligere **helse** og svakere **sosial mobilitet**. Samtidig kan noe ulikhet gi **insentiver** til å ta utdanning, jobbe mer og starte bedrifter.
+
+## Drøfting
+
+Det er politisk uenighet om hvor mye staten bør **omfordele**. Noen mener høye skatter svekker lysten til å **jobbe** og **investere**. Andre mener små forskjeller gir et **tryggere** og mer **produktivt** samfunn. Spørsmålet handler både om **effektivitet** og om **verdier**: Hva er en **rettferdig** fordeling?', '{"label":"Inntektsfordeling og ulikhet","children":[{"label":"Lønnsforskjeller","children":[{"label":"Utdanning og bransje"},{"label":"Forhandlingsmakt"},{"label":"Kjønn og deltid"}]},{"label":"Norsk modell","children":[{"label":"Frontfag"},{"label":"Trepartssamarbeid"}]},{"label":"Måling","children":[{"label":"Lorenzkurven"},{"label":"Gini-koeffisient"},{"label":"Inntekt og formue"}]},{"label":"Virkemidler","children":[{"label":"Progressiv skatt"},{"label":"Overføringer"},{"label":"Gratis tjenester"}]},{"label":"Drøfting","children":[{"label":"Tillit og mobilitet"},{"label":"Insentiver"},{"label":"Rettferdighet"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'samfunnsokonomi-1:inntektsfordeling-og-ulikhet';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('samfunnsokonomi-1:inntektsfordeling-og-ulikhet', 'Lønnsforskjeller', 'Forskjeller i lønn mellom personer, yrker og bransjer.', 0),
+  ('samfunnsokonomi-1:inntektsfordeling-og-ulikhet', 'Tariffavtale', 'Avtale mellom arbeidsgiver- og arbeidstakerorganisasjoner om lønn og vilkår.', 1),
+  ('samfunnsokonomi-1:inntektsfordeling-og-ulikhet', 'Frontfagsmodellen', 'Konkurranseutsatte næringer forhandler først og setter normen.', 2),
+  ('samfunnsokonomi-1:inntektsfordeling-og-ulikhet', 'Trepartssamarbeidet', 'Samarbeid mellom arbeidsgivere, arbeidstakere og staten.', 3),
+  ('samfunnsokonomi-1:inntektsfordeling-og-ulikhet', 'Inntektsfordeling', 'Hvordan samlet inntekt er fordelt i befolkningen.', 4),
+  ('samfunnsokonomi-1:inntektsfordeling-og-ulikhet', 'Lorenzkurven', 'Viser hvor stor andel av inntekten som går til ulike andeler av befolkningen.', 5),
+  ('samfunnsokonomi-1:inntektsfordeling-og-ulikhet', 'Gini-koeffisient', 'Mål på ulikhet fra 0 (full likhet) til 1 (én har alt).', 6),
+  ('samfunnsokonomi-1:inntektsfordeling-og-ulikhet', 'Formue', 'Det man eier av bolig, aksjer og sparepenger.', 7),
+  ('samfunnsokonomi-1:inntektsfordeling-og-ulikhet', 'Progressiv skatt', 'Høyere inntekt gir høyere andel i skatt.', 8),
+  ('samfunnsokonomi-1:inntektsfordeling-og-ulikhet', 'Trinnskatt', 'Ekstra skatt på inntekt over visse grenser.', 9),
+  ('samfunnsokonomi-1:inntektsfordeling-og-ulikhet', 'Overføringer', 'Ytelser som barnetrygd, bostøtte og pensjoner.', 10),
+  ('samfunnsokonomi-1:inntektsfordeling-og-ulikhet', 'Omfordeling', 'Når staten flytter ressurser fra noen grupper til andre.', 11),
+  ('samfunnsokonomi-1:inntektsfordeling-og-ulikhet', 'Sosial mobilitet', 'Muligheten til å bevege seg opp eller ned i samfunnet.', 12),
+  ('samfunnsokonomi-1:inntektsfordeling-og-ulikhet', 'Allmenngjøring', 'At en tariffavtale gjøres gjeldende for alle i en bransje.', 13),
+  ('samfunnsokonomi-1:inntektsfordeling-og-ulikhet', 'Insentiv', 'Noe som motiverer til en handling, som å jobbe mer.', 14);
+delete from public.quiz_sporsmal where tema_id = 'samfunnsokonomi-1:inntektsfordeling-og-ulikhet';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('samfunnsokonomi-1:inntektsfordeling-og-ulikhet', 'q01', 'flervalg', 'Hva kan forklare lønnsforskjeller?', array['Bare flaks', 'Utdanning, bransje og forhandlingsmakt', 'Bare alder', 'Bare bosted']::text[], 1, 'Også tilbud og etterspørsel etter arbeidskraft.', true, true, 0),
+  ('samfunnsokonomi-1:inntektsfordeling-og-ulikhet', 'q02', 'flervalg', 'Hva betyr en Gini-koeffisient på 0?', array['At alle har like stor inntekt', 'At én person har all inntekt', 'At ingen har inntekt', 'At ulikheten er svært stor']::text[], 0, '1 betyr at én har alt.', true, true, 1),
+  ('samfunnsokonomi-1:inntektsfordeling-og-ulikhet', 'q03', 'flervalg', 'Hva viser Lorenzkurven?', array['Prisstigningen', 'Arbeidsledigheten', 'Hvor stor andel av inntekten som går til ulike andeler av befolkningen', 'BNP-veksten']::text[], 2, 'Jo mer den buer, jo større ulikhet.', true, true, 2),
+  ('samfunnsokonomi-1:inntektsfordeling-og-ulikhet', 'q04', 'flervalg', 'Hva er progressiv skatt?', array['Alle betaler samme beløp', 'Alle betaler samme prosent', 'De med lav inntekt betaler mest', 'Høyere inntekt gir høyere andel i skatt']::text[], 3, 'Trinnskatten er et eksempel.', true, true, 3),
+  ('samfunnsokonomi-1:inntektsfordeling-og-ulikhet', 'q05', 'flervalg', 'Hva er fordelt skjevest i Norge?', array['Formue', 'Inntekt', 'Barnetrygd', 'Skolegang']::text[], 0, 'Arv og boligpriser forsterker forskjellene.', true, true, 4),
+  ('samfunnsokonomi-1:inntektsfordeling-og-ulikhet', 'q06', 'flervalg', 'Hva er frontfagsmodellen?', array['At staten bestemmer alle lønninger', 'At konkurranseutsatte næringer forhandler først og setter normen', 'At alle får samme lønn', 'At lederne bestemmer lønnen']::text[], 1, 'Gir små lønnsforskjeller og god konkurranseevne.', true, true, 5),
+  ('samfunnsokonomi-1:inntektsfordeling-og-ulikhet', 'q07', 'flervalg', 'Hvorfor betyr gratis skole og helse mest for dem med lav inntekt?', array['Fordi de bruker dem mindre', 'Fordi de er dyrere for dem', 'Fordi tjenestene utgjør en større del av inntekten deres', 'Fordi de betaler mer skatt']::text[], 2, 'Utjevner forskjeller.', true, true, 6),
+  ('samfunnsokonomi-1:inntektsfordeling-og-ulikhet', 'q08', 'flervalg', 'Hva er et argument mot mye omfordeling?', array['Det gir høyere tillit', 'Det gir bedre helse', 'Det gir mer sosial mobilitet', 'Høye skatter kan svekke lysten til å jobbe og investere']::text[], 3, 'Et effektivitetsargument.', true, true, 7),
+  ('samfunnsokonomi-1:inntektsfordeling-og-ulikhet', 'q09', 'flervalg', 'Hva er en overføring?', array['Barnetrygd', 'Skatt', 'Lønn', 'Aksjeutbytte']::text[], 0, 'Også bostøtte og pensjoner.', true, false, 8),
+  ('samfunnsokonomi-1:inntektsfordeling-og-ulikhet', 'q10', 'flervalg', 'Hvilken konsekvens kan store forskjeller få?', array['Høyere tillit', 'Lavere tillit og svakere sosial mobilitet', 'Mindre kriminalitet', 'Bedre helse for alle']::text[], 1, 'Ifølge mye forskning.', true, false, 9),
+  ('samfunnsokonomi-1:inntektsfordeling-og-ulikhet', 'm01', 'sant-usant', 'Norge har lav inntektsulikhet sammenlignet med de fleste land.', array['Sant', 'Usant']::text[], 0, 'Men ulikheten har økt noe.', false, true, 10),
+  ('samfunnsokonomi-1:inntektsfordeling-og-ulikhet', 'm02', 'sant-usant', 'Hvis alle tjente likt, ville Lorenzkurven bue kraftig.', array['Sant', 'Usant']::text[], 1, 'Den ville vært en rett linje.', false, true, 11),
+  ('samfunnsokonomi-1:inntektsfordeling-og-ulikhet', 'm03', 'sant-usant', 'Kvinner jobber oftere deltid enn menn, noe som bidrar til lønnsforskjeller.', array['Sant', 'Usant']::text[], 0, 'Også yrkesvalg spiller inn.', false, true, 12),
+  ('samfunnsokonomi-1:inntektsfordeling-og-ulikhet', 'm04', 'sant-usant', 'Spørsmålet om hvor mye staten bør omfordele, handler bare om fakta.', array['Sant', 'Usant']::text[], 1, 'Det handler også om verdier.', false, true, 13),
+  ('samfunnsokonomi-1:inntektsfordeling-og-ulikhet', 'm05', 'flervalg', 'Hva er allmenngjøring av en tariffavtale?', array['At avtalen oppheves', 'At den gjelder for alle i en bransje', 'At den bare gjelder ledere', 'At staten betaler lønnen']::text[], 1, 'Gir en minstelønn i enkelte bransjer.', false, true, 14),
+  ('samfunnsokonomi-1:inntektsfordeling-og-ulikhet', 'm06', 'flervalg', 'Hvordan kan utdanningspolitikk påvirke ulikhet?', array['Gi mer sosial mobilitet gjennom like muligheter', 'Øke formuesforskjellene', 'Senke skattene', 'Fjerne overføringer']::text[], 0, 'Utdanning åpner dører.', false, true, 15),
+  ('samfunnsokonomi-1:inntektsfordeling-og-ulikhet', 'm07', 'flervalg', 'Hva kan forsterke formuesforskjellene?', array['Barnetrygd', 'Gratis skole', 'Arv og stigende boligpriser', 'Progressiv skatt']::text[], 2, 'De som eier, får verdistigningen.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('samfunnsokonomi-1:inntektsfordeling-og-ulikhet', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Samfunnsøkonomi 1: Miljø og bærekraftig vekst
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('samfunnsokonomi-1:miljo-og-barekraftig-vekst', 'samfunnsokonomi-1', 'miljo-og-barekraftig-vekst', 'Miljø og bærekraftig vekst', 'Sammenhengen mellom økonomisk aktivitet og miljøutfordringer: eksterne virkninger, markedssvikt og fellesgoder, virkemidler som avgifter, kvoter, subsidier og reguleringer – og hva som skal til for å oppnå bærekraftig vekst og utvikling.', array[11]::int[], 11, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('samfunnsokonomi-1:miljo-og-barekraftig-vekst', '## Økonomi og miljø
+
+All produksjon og alt forbruk bruker **ressurser** og gir **utslipp**. Økonomisk vekst har gitt høyere levestandard, men også **klimaendringer**, **forurensning** og **tap av natur**. **Bærekraftig utvikling** betyr å dekke dagens behov uten å ødelegge mulighetene for **framtidige generasjoner**.
+
+## Eksterne virkninger
+
+En **ekstern virkning** oppstår når en aktivitet påvirker **andre** enn dem som kjøper og selger, uten at det gjenspeiles i **prisen**.
+
+- **Negative** eksterne virkninger: utslipp av CO₂ fra en fabrikk eller støy fra en flyplass. Den som forurenser, betaler ikke for skaden.
+- **Positive** eksterne virkninger: forskning som andre kan bruke, eller en vaksine som også beskytter andre.
+
+Når prisen ikke tar med **samfunnets** kostnader, blir det produsert **for mye** av det som forurenser. Dette er en form for **markedssvikt**.
+
+## Fellesgoder og allmenningens tragedie
+
+**Fellesgoder**, som **ren luft** og et **stabilt klima**, kan brukes av alle, og ingen kan utestenges. Da har hver enkelt lite grunn til å ta vare på dem. **Allmenningens tragedie** beskriver hvordan felles ressurser, som fiskebestander, blir **overbeskattet** når alle tar litt for mye.
+
+## Virkemidler
+
+- **Avgifter**: Myndighetene kan legge en **avgift** på utslippene, som **CO₂-avgiften**. Da må forurenseren betale for skaden – prinsippet om at **forurenser betaler**. Avgiften gir insentiv til å kutte utslipp der det er **billigst**.
+- **Kvoter**: Myndighetene setter et **tak** på samlede utslipp og deler ut eller selger **utslippskvoter** som kan **omsettes**. Norge er med i **EUs kvotesystem** for industri, kraft og luftfart.
+- **Subsidier**: Støtte til **miljøvennlige** løsninger, som fritak for avgifter på **elbiler** eller støtte til ny teknologi.
+- **Reguleringer og forbud**: krav til utslipp, forbud mot bestemte stoffer eller krav om energieffektive bygg.
+- **Forskning og innovasjon**: Ny teknologi kan gjøre det billigere å kutte utslipp.
+- **Informasjon** og **merking** kan hjelpe forbrukerne å velge miljøvennlig.
+
+Hvert virkemiddel har fordeler og ulemper. Avgifter og kvoter er **kostnadseffektive**, men kan ramme dem med **lav inntekt** hardest. Subsidier er populære, men koster **statskassen** penger.
+
+## Bærekraftig vekst
+
+For å få **bærekraftig vekst** må verdiskapingen **avkobles** fra utslipp og ressursbruk – altså øke **uten** at utslippene øker. Viktige veier dit er
+
+- **fornybar energi** i stedet for fossil
+- **sirkulær økonomi** med gjenbruk, reparasjon og resirkulering
+- **energieffektivisering**
+- **ny teknologi**, som karbonfangst og lagring
+
+En utfordring er **tilbakeslagseffekten**: Når noe blir mer effektivt og billigere, kan vi bruke **mer** av det, slik at gevinsten for miljøet blir mindre.
+
+## Internasjonalt samarbeid
+
+Klimaendringene er et **globalt** problem. Ett land kan ikke løse det alene, og det er fristende å la andre ta kostnadene – å være **gratispassasjer**. **Parisavtalen** fra 2015 har som mål å begrense den globale oppvarmingen til godt under **2 grader**. Norge har forpliktet seg til store **utslippskutt**, blant annet i samarbeid med EU.
+
+## Dilemmaer for Norge
+
+Norge tjener mye på å eksportere **olje og gass**, som gir utslipp når de brennes i andre land. Samtidig har Norge **vannkraft** og gode forutsetninger for **grønn industri**. Hvordan Norge skal balansere **verdiskaping**, **arbeidsplasser** og **klimaansvar**, er et sentralt politisk spørsmål.', '{"label":"Miljø og bærekraftig vekst","children":[{"label":"Problemet","children":[{"label":"Eksterne virkninger"},{"label":"Fellesgoder"},{"label":"Allmenningens tragedie"}]},{"label":"Virkemidler","children":[{"label":"Avgifter"},{"label":"Kvoter"},{"label":"Subsidier og reguleringer"}]},{"label":"Bærekraftig vekst","children":[{"label":"Avkobling"},{"label":"Fornybar og sirkulær"},{"label":"Tilbakeslagseffekt"}]},{"label":"Internasjonalt","children":[{"label":"Parisavtalen"},{"label":"Gratispassasjerer"}]},{"label":"Norge","children":[{"label":"Olje og gass"},{"label":"Vannkraft og grønn industri"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'samfunnsokonomi-1:miljo-og-barekraftig-vekst';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('samfunnsokonomi-1:miljo-og-barekraftig-vekst', 'Bærekraftig utvikling', 'Dekke dagens behov uten å ødelegge for framtidige generasjoner.', 0),
+  ('samfunnsokonomi-1:miljo-og-barekraftig-vekst', 'Ekstern virkning', 'En aktivitet påvirker andre uten at det gjenspeiles i prisen.', 1),
+  ('samfunnsokonomi-1:miljo-og-barekraftig-vekst', 'Negativ ekstern virkning', 'For eksempel forurensning som rammer andre.', 2),
+  ('samfunnsokonomi-1:miljo-og-barekraftig-vekst', 'Markedssvikt', 'Når markedet ikke gir et samfunnsøkonomisk godt resultat.', 3),
+  ('samfunnsokonomi-1:miljo-og-barekraftig-vekst', 'Fellesgode', 'Gode alle kan bruke og ingen kan utestenges fra, som ren luft.', 4),
+  ('samfunnsokonomi-1:miljo-og-barekraftig-vekst', 'Allmenningens tragedie', 'Felles ressurser overbeskattes når alle tar litt for mye.', 5),
+  ('samfunnsokonomi-1:miljo-og-barekraftig-vekst', 'Forurenser betaler', 'Prinsipp om at den som forurenser, skal betale for skaden.', 6),
+  ('samfunnsokonomi-1:miljo-og-barekraftig-vekst', 'CO₂-avgift', 'Avgift på utslipp av karbondioksid.', 7),
+  ('samfunnsokonomi-1:miljo-og-barekraftig-vekst', 'Utslippskvote', 'Rett til å slippe ut en viss mengde, som kan kjøpes og selges.', 8),
+  ('samfunnsokonomi-1:miljo-og-barekraftig-vekst', 'EUs kvotesystem', 'Kvotemarked for industri, kraft og luftfart som Norge er med i.', 9),
+  ('samfunnsokonomi-1:miljo-og-barekraftig-vekst', 'Kostnadseffektiv', 'Utslippene kuttes der det er billigst.', 10),
+  ('samfunnsokonomi-1:miljo-og-barekraftig-vekst', 'Avkobling', 'Verdiskapingen øker uten at utslippene øker.', 11),
+  ('samfunnsokonomi-1:miljo-og-barekraftig-vekst', 'Tilbakeslagseffekt', 'Effektivisering gjør noe billigere, så vi bruker mer av det.', 12),
+  ('samfunnsokonomi-1:miljo-og-barekraftig-vekst', 'Gratispassasjer', 'Å nyte godt av andres innsats uten å bidra selv.', 13),
+  ('samfunnsokonomi-1:miljo-og-barekraftig-vekst', 'Parisavtalen', 'Klimaavtale fra 2015 om å begrense oppvarmingen til godt under 2 grader.', 14);
+delete from public.quiz_sporsmal where tema_id = 'samfunnsokonomi-1:miljo-og-barekraftig-vekst';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('samfunnsokonomi-1:miljo-og-barekraftig-vekst', 'q01', 'flervalg', 'Hva er en negativ ekstern virkning?', array['En fordel for kjøperen', 'En kostnad for andre som ikke gjenspeiles i prisen', 'En skatt', 'En subsidie']::text[], 1, 'For eksempel forurensning.', true, true, 0),
+  ('samfunnsokonomi-1:miljo-og-barekraftig-vekst', 'q02', 'flervalg', 'Hvorfor blir det produsert for mye av varer som forurenser?', array['Fordi prisen ikke tar med samfunnets kostnader', 'Fordi de er dyre', 'Fordi staten krever det', 'Fordi ingen vil kjøpe dem']::text[], 0, 'En form for markedssvikt.', true, true, 1),
+  ('samfunnsokonomi-1:miljo-og-barekraftig-vekst', 'q03', 'flervalg', 'Hva er et fellesgode?', array['En bil', 'En aksje', 'Ren luft og et stabilt klima', 'En bolig']::text[], 2, 'Ingen kan utestenges.', true, true, 2),
+  ('samfunnsokonomi-1:miljo-og-barekraftig-vekst', 'q04', 'flervalg', 'Hva betyr prinsippet «forurenser betaler»?', array['At staten betaler for utslippene', 'At forbrukerne betaler alt', 'At ingen betaler', 'At den som forurenser, skal betale for skaden']::text[], 3, 'For eksempel gjennom avgifter.', true, true, 3),
+  ('samfunnsokonomi-1:miljo-og-barekraftig-vekst', 'q05', 'flervalg', 'Hvordan fungerer et kvotesystem?', array['Et tak på samlede utslipp med kvoter som kan omsettes', 'Et forbud mot all produksjon', 'En subsidie til forurensere', 'En skatt på inntekt']::text[], 0, 'Norge er med i EUs kvotesystem.', true, true, 4),
+  ('samfunnsokonomi-1:miljo-og-barekraftig-vekst', 'q06', 'flervalg', 'Hva er en ulempe med miljøavgifter?', array['De er ikke kostnadseffektive', 'De kan ramme dem med lav inntekt hardest', 'De gir ingen insentiver', 'De øker utslippene']::text[], 1, 'En fordelingsvirkning.', true, true, 5),
+  ('samfunnsokonomi-1:miljo-og-barekraftig-vekst', 'q07', 'flervalg', 'Hva er avkobling?', array['At økonomien stopper', 'At utslippene øker raskere enn BNP', 'At verdiskapingen øker uten at utslippene øker', 'At handel stanser']::text[], 2, 'Nøkkelen til grønn vekst.', true, true, 6),
+  ('samfunnsokonomi-1:miljo-og-barekraftig-vekst', 'q08', 'flervalg', 'Hva er tilbakeslagseffekten?', array['At utslippene alltid faller', 'At avgifter fjernes', 'At klimaet blir kaldere', 'At effektivisering gjør noe billigere, så vi bruker mer av det']::text[], 3, 'Miljøgevinsten blir mindre.', true, true, 7),
+  ('samfunnsokonomi-1:miljo-og-barekraftig-vekst', 'q09', 'flervalg', 'Hva er målet i Parisavtalen?', array['Begrense oppvarmingen til godt under 2 grader', 'Stoppe all oljeproduksjon i 2020', 'Øke utslippene', 'Forby elbiler']::text[], 0, 'Avtalen er fra 2015.', true, false, 8),
+  ('samfunnsokonomi-1:miljo-og-barekraftig-vekst', 'q10', 'flervalg', 'Hvorfor er klimaendringene vanskelige å løse for ett land alene?', array['Fordi de bare rammer ett land', 'Fordi de er globale og det er fristende å være gratispassasjer', 'Fordi de ikke finnes', 'Fordi de er billige å løse']::text[], 1, 'Krever internasjonalt samarbeid.', true, false, 9),
+  ('samfunnsokonomi-1:miljo-og-barekraftig-vekst', 'm01', 'sant-usant', 'Forskning kan gi positive eksterne virkninger.', array['Sant', 'Usant']::text[], 0, 'Andre kan bruke kunnskapen.', false, true, 10),
+  ('samfunnsokonomi-1:miljo-og-barekraftig-vekst', 'm02', 'sant-usant', 'Subsidier til miljøvennlige løsninger er gratis for staten.', array['Sant', 'Usant']::text[], 1, 'De koster statskassen penger.', false, true, 11),
+  ('samfunnsokonomi-1:miljo-og-barekraftig-vekst', 'm03', 'sant-usant', 'Avgifter kan gi insentiv til å kutte utslipp der det er billigst.', array['Sant', 'Usant']::text[], 0, 'De er kostnadseffektive.', false, true, 12),
+  ('samfunnsokonomi-1:miljo-og-barekraftig-vekst', 'm04', 'sant-usant', 'Norges eksport av olje og gass gir ingen utslipp.', array['Sant', 'Usant']::text[], 1, 'Utslippene skjer når de brennes i andre land.', false, true, 13),
+  ('samfunnsokonomi-1:miljo-og-barekraftig-vekst', 'm05', 'flervalg', 'Hva er et eksempel på allmenningens tragedie?', array['Overfiske av en fiskebestand', 'En privat hage', 'En aksje', 'En bolig']::text[], 0, 'Alle tar litt for mye.', false, true, 14),
+  ('samfunnsokonomi-1:miljo-og-barekraftig-vekst', 'm06', 'flervalg', 'Hvilket virkemiddel setter et tak på samlede utslipp?', array['Subsidier', 'Kvotesystem', 'Informasjon', 'Merking']::text[], 1, 'Kvotene kan kjøpes og selges.', false, true, 15),
+  ('samfunnsokonomi-1:miljo-og-barekraftig-vekst', 'm07', 'flervalg', 'Hva hører til en sirkulær økonomi?', array['Bruk og kast', 'Mer fossil energi', 'Gjenbruk, reparasjon og resirkulering', 'Flere engangsprodukter']::text[], 2, 'Ressursene holdes i bruk.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('samfunnsokonomi-1:miljo-og-barekraftig-vekst', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Samfunnsøkonomi 1: Valutakurser
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('samfunnsokonomi-1:valutakurser', 'samfunnsokonomi-1', 'valutakurser', 'Valutakurser', 'Hva en valutakurs er, hvordan du regner med valuta, hva som påvirker tilbud og etterspørsel etter kroner – renter, oljepris, handel og uro i markedene – og hvilke konsekvenser en sterk eller svak krone får for eksport, import, prisstigning og husholdninger.', array[12]::int[], 12, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('samfunnsokonomi-1:valutakurser', '## Hva er en valutakurs?
+
+En **valutakurs** er **prisen** på én valuta målt i en annen. Koster én euro 11,50 kroner, er kursen på euro **11,50**. Norge har en **flytende** valutakurs: Kronekursen bestemmes av **tilbud og etterspørsel** i valutamarkedet, ikke av myndighetene.
+
+## Å regne med valuta
+
+- En vare koster 100 euro. Med kurs 11,50 koster den 100 · 11,50 = **1150 kr**.
+- Du veksler 2300 kr til euro: 2300 ÷ 11,50 = **200 euro**.
+
+## Sterk og svak krone
+
+- Kronen **styrkes** når du må betale **færre** kroner for en euro, for eksempel når kursen går fra 11,50 til 11,00.
+- Kronen **svekkes** når du må betale **flere** kroner for en euro, for eksempel fra 11,50 til 12,00.
+
+Pass på: Et **høyere tall** for kursen betyr en **svakere** krone.
+
+## Hva påvirker kronekursen?
+
+**Etterspørselen etter kroner** øker når
+
+- utlendinger kjøper norske varer, som **olje**, **gass** og **fisk**
+- turister besøker Norge
+- utenlandske investorer vil plassere penger i Norge, for eksempel fordi **renten** er høy
+
+**Tilbudet av kroner** øker når nordmenn kjøper utenlandske varer, reiser til utlandet eller investerer i utlandet.
+
+Viktige faktorer:
+
+- **Renteforskjeller**: Høyere rente i Norge enn i andre land gjør det mer attraktivt å eie kroner – kronen **styrkes**.
+- **Oljeprisen**: Høy oljepris gir større etterspørsel etter kroner.
+- **Uro i verden**: I usikre tider søker investorer ofte mot store og «trygge» valutaer som dollar og euro, og en liten valuta som kronen kan **svekkes**.
+- **Forventninger** om framtidig utvikling.
+
+## Konsekvenser av en svak krone
+
+- **Eksportbedrifter** tjener mer i kroner og blir mer **konkurransedyktige**.
+- **Reiselivet** får flere utenlandske turister.
+- **Importvarer** blir **dyrere**, og **prisstigningen** kan øke – **importert inflasjon**.
+- **Utenlandsreiser** blir dyrere for nordmenn.
+- Verdien av **oljefondet** målt i kroner øker, fordi fondet er investert i utenlandsk valuta.
+
+## Konsekvenser av en sterk krone
+
+- Importvarer og utenlandsreiser blir **billigere**.
+- Prisstigningen dempes.
+- **Eksportbedrifter** og **reiselivet** får **svekket** konkurranseevne og kan måtte kutte kostnader eller arbeidsplasser.
+
+## Kronen og pengepolitikken
+
+Norges Bank styrer ikke kronekursen direkte, men **renten** påvirker den. Når Norges Bank setter opp renten, blir kronen ofte **sterkere**, og det demper prisstigningen gjennom billigere import. Kronekursen er derfor en viktig del av hvordan **pengepolitikken** virker.
+
+## Fast og flytende kurs
+
+Med **fast** valutakurs forplikter sentralbanken seg til å holde kursen stabil, for eksempel ved å kjøpe og selge valuta. Det gir **forutsigbarhet** for handel, men landet mister muligheten til å bruke **renten** til å styre sin egen økonomi. Mange europeiske land har gått enda lenger og innført en **felles valuta**, euroen.
+
+## Refleksjon
+
+En svak krone er gode nyheter for noen og dårlige for andre. Hvem som tjener og taper, avhenger av om man **eksporterer**, **importerer**, **reiser** eller har **gjeld** i utenlandsk valuta.', '{"label":"Valutakurser","children":[{"label":"Begreper","children":[{"label":"Valutakurs"},{"label":"Styrket og svekket"},{"label":"Fast og flytende"}]},{"label":"Påvirkes av","children":[{"label":"Renteforskjeller"},{"label":"Oljepris"},{"label":"Uro og forventninger"}]},{"label":"Svak krone","children":[{"label":"Eksport tjener"},{"label":"Dyrere import"},{"label":"Mer prisstigning"}]},{"label":"Sterk krone","children":[{"label":"Billigere import"},{"label":"Svekket konkurranseevne"}]},{"label":"Politikk","children":[{"label":"Renten og kronen"},{"label":"Felles valuta"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'samfunnsokonomi-1:valutakurser';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('samfunnsokonomi-1:valutakurser', 'Valutakurs', 'Prisen på én valuta målt i en annen.', 0),
+  ('samfunnsokonomi-1:valutakurser', 'Flytende valutakurs', 'Kursen bestemmes av tilbud og etterspørsel i markedet.', 1),
+  ('samfunnsokonomi-1:valutakurser', 'Fast valutakurs', 'Sentralbanken holder kursen stabil.', 2),
+  ('samfunnsokonomi-1:valutakurser', 'Styrket krone', 'Man betaler færre kroner for en utenlandsk valuta.', 3),
+  ('samfunnsokonomi-1:valutakurser', 'Svekket krone', 'Man betaler flere kroner for en utenlandsk valuta.', 4),
+  ('samfunnsokonomi-1:valutakurser', 'Etterspørsel etter kroner', 'Øker når utlendinger kjøper norske varer eller investerer i Norge.', 5),
+  ('samfunnsokonomi-1:valutakurser', 'Renteforskjell', 'Høyere rente i Norge gjør kroner mer attraktive.', 6),
+  ('samfunnsokonomi-1:valutakurser', 'Oljeprisen og kronen', 'Høy oljepris gir ofte sterkere krone.', 7),
+  ('samfunnsokonomi-1:valutakurser', 'Trygg havn', 'Store valutaer investorer søker mot i urolige tider.', 8),
+  ('samfunnsokonomi-1:valutakurser', 'Importert inflasjon', 'Prisstigning fordi importvarer blir dyrere.', 9),
+  ('samfunnsokonomi-1:valutakurser', 'Konkurranseevne', 'Evnen norske bedrifter har til å konkurrere med utenlandske.', 10),
+  ('samfunnsokonomi-1:valutakurser', 'Eksportbedrift', 'Bedrift som selger varer eller tjenester til utlandet.', 11),
+  ('samfunnsokonomi-1:valutakurser', 'Felles valuta', 'Flere land bruker samme valuta, som euroen.', 12),
+  ('samfunnsokonomi-1:valutakurser', 'Valutamarked', 'Markedet der valuta kjøpes og selges.', 13),
+  ('samfunnsokonomi-1:valutakurser', 'Oljefondet i kroner', 'Øker i verdi når kronen svekkes.', 14);
+delete from public.quiz_sporsmal where tema_id = 'samfunnsokonomi-1:valutakurser';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('samfunnsokonomi-1:valutakurser', 'q01', 'flervalg', 'Hva er en valutakurs?', array['En rente', 'Prisen på én valuta målt i en annen', 'En skatt på import', 'En type aksje']::text[], 1, 'For eksempel 11,50 kroner for én euro.', true, true, 0),
+  ('samfunnsokonomi-1:valutakurser', 'q02', 'flervalg', 'En vare koster 100 euro, og kursen er 11,50. Hva koster den i kroner?', array['1150 kr', '115 kr', '11,50 kr', '1000 kr']::text[], 0, '100 · 11,50.', true, true, 1),
+  ('samfunnsokonomi-1:valutakurser', 'q03', 'flervalg', 'Kursen på euro går fra 11,50 til 12,00. Hva har skjedd med kronen?', array['Den er styrket', 'Den er uendret', 'Den er svekket', 'Den er fast']::text[], 2, 'Du må betale flere kroner for en euro.', true, true, 2),
+  ('samfunnsokonomi-1:valutakurser', 'q04', 'flervalg', 'Hva skjer ofte med kronen når Norges Bank setter opp renten?', array['Den svekkes', 'Den forsvinner', 'Den blir fast', 'Den styrkes']::text[], 3, 'Kroner blir mer attraktive å eie.', true, true, 3),
+  ('samfunnsokonomi-1:valutakurser', 'q05', 'flervalg', 'Hvem tjener på en svak krone?', array['Eksportbedrifter', 'Nordmenn på utenlandsreise', 'Importører', 'Forbrukere som kjøper importvarer']::text[], 0, 'De får mer i kroner for varene sine.', true, true, 4),
+  ('samfunnsokonomi-1:valutakurser', 'q06', 'flervalg', 'Hvordan kan en svak krone påvirke prisstigningen?', array['Den senker den alltid', 'Den kan øke den fordi importvarer blir dyrere', 'Den har ingen effekt', 'Den gir deflasjon']::text[], 1, 'Importert inflasjon.', true, true, 5),
+  ('samfunnsokonomi-1:valutakurser', 'q07', 'flervalg', 'Hva skjer ofte med kronen i urolige tider?', array['Den styrkes kraftig', 'Den blir fast', 'Den kan svekkes fordi investorer søker mot store valutaer', 'Den erstattes av euro']::text[], 2, 'Kronen er en liten valuta.', true, true, 6),
+  ('samfunnsokonomi-1:valutakurser', 'q08', 'flervalg', 'Hva er en ulempe med fast valutakurs?', array['Mindre forutsigbarhet', 'Mer svingninger', 'Høyere oljepris', 'Landet mister muligheten til å bruke renten til å styre egen økonomi']::text[], 3, 'Renten må brukes til å holde kursen.', true, true, 7),
+  ('samfunnsokonomi-1:valutakurser', 'q09', 'flervalg', 'Du veksler 2300 kr til euro med kurs 11,50. Hvor mange euro får du?', array['200 euro', '264 euro', '2300 euro', '115 euro']::text[], 0, '2300 ÷ 11,50.', true, false, 8),
+  ('samfunnsokonomi-1:valutakurser', 'q10', 'flervalg', 'Hvorfor øker verdien av oljefondet i kroner når kronen svekkes?', array['Fordi fondet eier norske aksjer', 'Fordi fondet er investert i utenlandsk valuta', 'Fordi renten stiger', 'Fordi oljeprisen faller']::text[], 1, 'Utenlandske verdier blir verdt flere kroner.', true, false, 9),
+  ('samfunnsokonomi-1:valutakurser', 'm01', 'sant-usant', 'Norge har en flytende valutakurs.', array['Sant', 'Usant']::text[], 0, 'Kursen bestemmes i markedet.', false, true, 10),
+  ('samfunnsokonomi-1:valutakurser', 'm02', 'sant-usant', 'Et høyere tall for eurokursen betyr en sterkere krone.', array['Sant', 'Usant']::text[], 1, 'Det betyr en svakere krone.', false, true, 11),
+  ('samfunnsokonomi-1:valutakurser', 'm03', 'sant-usant', 'Høy oljepris gir ofte større etterspørsel etter kroner.', array['Sant', 'Usant']::text[], 0, 'Utlendinger må betale for norsk olje og gass.', false, true, 12),
+  ('samfunnsokonomi-1:valutakurser', 'm04', 'sant-usant', 'En sterk krone gjør utenlandsreiser dyrere for nordmenn.', array['Sant', 'Usant']::text[], 1, 'Den gjør dem billigere.', false, true, 13),
+  ('samfunnsokonomi-1:valutakurser', 'm05', 'flervalg', 'Hvem taper på en sterk krone?', array['Nordmenn på ferie i utlandet', 'Eksportbedrifter og reiselivet', 'Importører', 'Forbrukere']::text[], 1, 'De får svekket konkurranseevne.', false, true, 14),
+  ('samfunnsokonomi-1:valutakurser', 'm06', 'flervalg', 'Hva øker tilbudet av kroner i valutamarkedet?', array['At nordmenn kjøper utenlandske varer', 'At utlendinger kjøper norsk fisk', 'At turister besøker Norge', 'At renten i Norge stiger']::text[], 0, 'Nordmenn selger kroner for å få valuta.', false, true, 15),
+  ('samfunnsokonomi-1:valutakurser', 'm07', 'flervalg', 'Hvordan demper en sterkere krone prisstigningen?', array['Ved å gjøre eksporten dyrere', 'Ved å øke lønningene', 'Ved å gjøre importvarer billigere', 'Ved å senke renten']::text[], 2, 'En del av pengepolitikkens virkning.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('samfunnsokonomi-1:valutakurser', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Samfunnsøkonomi 1: Internasjonal handel og globalisering
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('samfunnsokonomi-1:internasjonal-handel-og-globalisering', 'samfunnsokonomi-1', 'internasjonal-handel-og-globalisering', 'Internasjonal handel og globalisering', 'Hvorfor land handler med hverandre – ulike ressurser, komparative fortrinn, spesialisering og stordriftsfordeler – Norges handel, handelshindringer og frihandelsavtaler som EØS og WTO, og muligheter og utfordringer ved økonomisk globalisering.', array[13]::int[], 13, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('samfunnsokonomi-1:internasjonal-handel-og-globalisering', '## Hvorfor handler land?
+
+- **Ulike ressurser**: Norge har olje, gass, fisk og vannkraft, men kan ikke dyrke bananer og kaffe.
+- **Spesialisering**: Når land konsentrerer seg om det de er best på, blir den samlede produksjonen **større**.
+- **Stordriftsfordeler**: Produksjon i stor skala for et verdensmarked gir **lavere kostnader** per enhet.
+- **Variasjon**: Forbrukerne får et større **utvalg** av varer.
+- **Konkurranse** fra utlandet presser bedriftene til å bli mer **effektive**.
+
+## Komparative fortrinn
+
+Den britiske økonomen **David Ricardo** viste på 1800-tallet at handel lønner seg **selv om** ett land er bedre enn et annet til å produsere **alt**.
+
+- Et land har et **absolutt fortrinn** når det kan produsere en vare **billigere** enn andre.
+- Et land har et **komparativt fortrinn** når det har **lavest alternativkostnad** – når det gir opp **minst** av andre varer for å produsere den.
+
+Hvis hvert land spesialiserer seg i varene der det har komparativt fortrinn, og handler resten, kan **begge** land få mer.
+
+## Norges handel
+
+Norge er en liten, **åpen** økonomi med mye handel. De viktigste eksportvarene er **olje og gass**, **fisk og sjømat** og **metaller**. Vi importerer blant annet **biler**, **maskiner**, **klær**, **elektronikk** og mat. De viktigste handelspartnerne er land i **EU** og **Storbritannia**.
+
+## Handelshindringer
+
+- **Toll**: en skatt på importerte varer
+- **Kvoter**: grenser for hvor mye som kan importeres
+- **Subsidier** til egne produsenter
+- **Tekniske krav** og ulike standarder
+
+Handelshindringer kan **beskytte** arbeidsplasser og næringer, som **norsk landbruk**, men gir **høyere priser** for forbrukerne og mindre effektiv produksjon. Å beskytte egne næringer kalles **proteksjonisme**.
+
+## Frihandelsavtaler
+
+- **WTO** – Verdens handelsorganisasjon – lager regler for handel mellom de fleste land i verden og skal redusere handelshindringer.
+- **EØS-avtalen** fra **1994** gir Norge tilgang til **EUs indre marked** med fri flyt av **varer**, **tjenester**, **kapital** og **personer**. Norge må til gjengjeld følge mange av EUs regler.
+- Gjennom **EFTA** har Norge frihandelsavtaler med en rekke andre land.
+
+## Globalisering
+
+**Økonomisk globalisering** betyr at landenes økonomier blir **tettere knyttet sammen** gjennom handel, investeringer, arbeidskraft og teknologi.
+
+**Muligheter**:
+
+- høyere **økonomisk vekst** og billigere varer
+- raskere spredning av **teknologi** og kunnskap
+- mange land har fått **mindre fattigdom**
+- norske bedrifter får et **større marked**
+
+**Utfordringer**:
+
+- **utflytting** av industriarbeidsplasser til land med lavere lønn
+- økt **ulikhet** innad i land
+- **sårbare verdikjeder**: Pandemien og krig viste at mangel på én komponent kan stanse produksjon verden over
+- **miljø**: mer transport og produksjon i land med svake miljøkrav
+- dårlige **arbeidsforhold** hos leverandører
+- **skatteplanlegging** i store internasjonale selskaper
+
+## Motstrøm
+
+De siste årene har flere land innført **nye tollsatser** og vil produsere mer **selv** av hensyn til **sikkerhet** og **selvforsyning**. Hvordan en slik utvikling påvirker en liten, åpen økonomi som Norge, er et viktig spørsmål.', '{"label":"Internasjonal handel","children":[{"label":"Årsaker","children":[{"label":"Ulike ressurser"},{"label":"Spesialisering"},{"label":"Stordrift"}]},{"label":"Ricardo","children":[{"label":"Absolutt fortrinn"},{"label":"Komparativt fortrinn"}]},{"label":"Norge","children":[{"label":"Olje, fisk og metaller"},{"label":"EU som partner"}]},{"label":"Regler","children":[{"label":"Toll og kvoter"},{"label":"WTO"},{"label":"EØS og EFTA"}]},{"label":"Globalisering","children":[{"label":"Vekst og teknologi"},{"label":"Ulikhet og utflytting"},{"label":"Sårbare verdikjeder"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'samfunnsokonomi-1:internasjonal-handel-og-globalisering';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('samfunnsokonomi-1:internasjonal-handel-og-globalisering', 'Spesialisering', 'Å konsentrere seg om det man er best på.', 0),
+  ('samfunnsokonomi-1:internasjonal-handel-og-globalisering', 'Stordriftsfordeler', 'Lavere kostnader per enhet ved stor produksjon.', 1),
+  ('samfunnsokonomi-1:internasjonal-handel-og-globalisering', 'Absolutt fortrinn', 'Å kunne produsere en vare billigere enn andre.', 2),
+  ('samfunnsokonomi-1:internasjonal-handel-og-globalisering', 'Komparativt fortrinn', 'Å ha lavest alternativkostnad for en vare.', 3),
+  ('samfunnsokonomi-1:internasjonal-handel-og-globalisering', 'David Ricardo', 'Økonom som beskrev komparative fortrinn.', 4),
+  ('samfunnsokonomi-1:internasjonal-handel-og-globalisering', 'Åpen økonomi', 'Økonomi med mye handel med utlandet.', 5),
+  ('samfunnsokonomi-1:internasjonal-handel-og-globalisering', 'Toll', 'Skatt på importerte varer.', 6),
+  ('samfunnsokonomi-1:internasjonal-handel-og-globalisering', 'Importkvote', 'Grense for hvor mye som kan importeres.', 7),
+  ('samfunnsokonomi-1:internasjonal-handel-og-globalisering', 'Proteksjonisme', 'Å beskytte egne næringer mot utenlandsk konkurranse.', 8),
+  ('samfunnsokonomi-1:internasjonal-handel-og-globalisering', 'WTO', 'Verdens handelsorganisasjon, lager regler for internasjonal handel.', 9),
+  ('samfunnsokonomi-1:internasjonal-handel-og-globalisering', 'EØS-avtalen', 'Gir Norge tilgang til EUs indre marked siden 1994.', 10),
+  ('samfunnsokonomi-1:internasjonal-handel-og-globalisering', 'De fire friheter', 'Fri flyt av varer, tjenester, kapital og personer.', 11),
+  ('samfunnsokonomi-1:internasjonal-handel-og-globalisering', 'EFTA', 'Frihandelsorganisasjon som Norge er medlem av.', 12),
+  ('samfunnsokonomi-1:internasjonal-handel-og-globalisering', 'Globalisering', 'At landenes økonomier knyttes tettere sammen.', 13),
+  ('samfunnsokonomi-1:internasjonal-handel-og-globalisering', 'Verdikjede', 'Alle leddene fra råvare til ferdig produkt.', 14),
+  ('samfunnsokonomi-1:internasjonal-handel-og-globalisering', 'Selvforsyning', 'Å produsere det man trenger selv.', 15);
+delete from public.quiz_sporsmal where tema_id = 'samfunnsokonomi-1:internasjonal-handel-og-globalisering';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('samfunnsokonomi-1:internasjonal-handel-og-globalisering', 'q01', 'flervalg', 'Hva er et komparativt fortrinn?', array['Å produsere alt billigst', 'Å ha lavest alternativkostnad for en vare', 'Å ha mest olje', 'Å ha høyest toll']::text[], 1, 'Beskrevet av David Ricardo.', true, true, 0),
+  ('samfunnsokonomi-1:internasjonal-handel-og-globalisering', 'q02', 'flervalg', 'Hvorfor kan handel lønne seg selv om ett land er best på alt?', array['Fordi land har ulike alternativkostnader', 'Fordi handel alltid er gratis', 'Fordi toll gir inntekter', 'Det kan det ikke']::text[], 0, 'Begge kan få mer ved å spesialisere seg.', true, true, 1),
+  ('samfunnsokonomi-1:internasjonal-handel-og-globalisering', 'q03', 'flervalg', 'Hva er Norges viktigste eksportvarer?', array['Biler og klær', 'Kaffe og bananer', 'Olje, gass, fisk og metaller', 'Elektronikk og maskiner']::text[], 2, 'Naturressurser er viktige.', true, true, 2),
+  ('samfunnsokonomi-1:internasjonal-handel-og-globalisering', 'q04', 'flervalg', 'Hva er toll?', array['En subsidie', 'En kvote', 'En frihandelsavtale', 'En skatt på importerte varer']::text[], 3, 'En handelshindring.', true, true, 3),
+  ('samfunnsokonomi-1:internasjonal-handel-og-globalisering', 'q05', 'flervalg', 'Hva gir EØS-avtalen Norge?', array['Tilgang til EUs indre marked', 'Medlemskap i EU', 'Egen valuta i EU', 'Fritak fra alle EU-regler']::text[], 0, 'Fri flyt av varer, tjenester, kapital og personer.', true, true, 4),
+  ('samfunnsokonomi-1:internasjonal-handel-og-globalisering', 'q06', 'flervalg', 'Hva er en ulempe med handelshindringer for forbrukerne?', array['Lavere priser', 'Høyere priser', 'Mer utvalg', 'Mer konkurranse']::text[], 1, 'Men de kan beskytte arbeidsplasser.', true, true, 5),
+  ('samfunnsokonomi-1:internasjonal-handel-og-globalisering', 'q07', 'flervalg', 'Hva er stordriftsfordeler?', array['Høyere kostnader ved stor produksjon', 'Fordeler ved å være liten', 'Lavere kostnader per enhet ved stor produksjon', 'Høyere toll']::text[], 2, 'Et verdensmarked gjør stor skala mulig.', true, true, 6),
+  ('samfunnsokonomi-1:internasjonal-handel-og-globalisering', 'q08', 'flervalg', 'Hva viste pandemien om globale verdikjeder?', array['At de er helt trygge', 'At handel ikke betyr noe', 'At transport er gratis', 'At mangel på én komponent kan stanse produksjon verden over']::text[], 3, 'Verdikjedene er sårbare.', true, true, 7),
+  ('samfunnsokonomi-1:internasjonal-handel-og-globalisering', 'q09', 'flervalg', 'Hva gjør WTO?', array['Lager regler for handel mellom land', 'Styrer Norges rente', 'Eier oljefondet', 'Bestemmer valutakursene']::text[], 0, 'Skal redusere handelshindringer.', true, false, 8),
+  ('samfunnsokonomi-1:internasjonal-handel-og-globalisering', 'q10', 'flervalg', 'Hva er en mulighet ved globalisering?', array['Mer utflytting av arbeidsplasser', 'Raskere spredning av teknologi og mindre fattigdom', 'Sårbare verdikjeder', 'Mer skatteplanlegging']::text[], 1, 'Mange land har fått høyere velstand.', true, false, 9),
+  ('samfunnsokonomi-1:internasjonal-handel-og-globalisering', 'm01', 'sant-usant', 'Norge er en liten, åpen økonomi med mye handel.', array['Sant', 'Usant']::text[], 0, 'Handel er svært viktig for Norge.', false, true, 10),
+  ('samfunnsokonomi-1:internasjonal-handel-og-globalisering', 'm02', 'sant-usant', 'EØS-avtalen gjør Norge til medlem av EU.', array['Sant', 'Usant']::text[], 1, 'Den gir tilgang til det indre markedet uten medlemskap.', false, true, 11),
+  ('samfunnsokonomi-1:internasjonal-handel-og-globalisering', 'm03', 'sant-usant', 'Konkurranse fra utlandet kan gjøre bedrifter mer effektive.', array['Sant', 'Usant']::text[], 0, 'De må forbedre seg for å overleve.', false, true, 12),
+  ('samfunnsokonomi-1:internasjonal-handel-og-globalisering', 'm04', 'sant-usant', 'Globalisering har bare positive virkninger.', array['Sant', 'Usant']::text[], 1, 'Den gir også utfordringer som ulikhet og sårbare verdikjeder.', false, true, 13),
+  ('samfunnsokonomi-1:internasjonal-handel-og-globalisering', 'm05', 'flervalg', 'Hvilken norsk næring er beskyttet av toll?', array['Oljenæringen', 'Landbruket', 'Fiskeoppdrett', 'IT']::text[], 1, 'For å sikre norsk matproduksjon.', false, true, 14),
+  ('samfunnsokonomi-1:internasjonal-handel-og-globalisering', 'm06', 'flervalg', 'Hva er proteksjonisme?', array['Å beskytte egne næringer mot utenlandsk konkurranse', 'Å fjerne all toll', 'Å øke eksporten', 'Å innføre felles valuta']::text[], 0, 'For eksempel med toll og kvoter.', false, true, 15),
+  ('samfunnsokonomi-1:internasjonal-handel-og-globalisering', 'm07', 'flervalg', 'Hvorfor vil flere land produsere mer selv i dag?', array['For å øke importen', 'For å redusere eksporten', 'Av hensyn til sikkerhet og selvforsyning', 'For å få lavere lønn']::text[], 2, 'En motstrøm mot globaliseringen.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('samfunnsokonomi-1:internasjonal-handel-og-globalisering', 15)
 on conflict (tema_id) do update set minutter = excluded.minutter;
 
 commit;

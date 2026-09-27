@@ -1,0 +1,81 @@
+{
+  "id": "arbeidsledighet",
+  "fagId": "samfunnsokonomi-1",
+  "trinnId": "vg2",
+  "name": "Arbeidsledighet og sysselsettingstiltak",
+  "intro": "Hvordan arbeidsledighet måles, forskjellen på friksjons-, struktur-, konjunktur- og sesongledighet, konsekvenser for individ og samfunn – og hvilke sysselsettingstiltak som virker mot de ulike typene ledighet.",
+  "kompetansemaal": [6],
+  "sammendrag": "## Hvem er arbeidsledige?\n\n**Arbeidsstyrken** består av alle som er i **arbeid** – de **sysselsatte** – og alle som er **arbeidsledige**. Å være arbeidsledig betyr å\n\n- være **uten** arbeid\n- ha **aktivt søkt** arbeid den siste tiden\n- kunne **begynne** i jobb snart\n\nStudenter, pensjonister og uføre som ikke søker jobb, er **utenfor** arbeidsstyrken.\n\n**Arbeidsledighetsraten** = arbeidsledige ÷ arbeidsstyrken · 100\n\n## To måter å måle på\n\n- **SSBs arbeidskraftundersøkelse** (AKU) spør et stort **utvalg** av befolkningen om arbeidssituasjonen.\n- **NAV** teller hvor mange som er **registrert** som helt ledige.\n\nAKU viser som regel **høyere** ledighet, fordi ikke alle som søker jobb, registrerer seg hos NAV.\n\n## Typer arbeidsledighet\n\n- **Friksjonsledighet**: Folk er **mellom** to jobber eller har nettopp kommet inn på arbeidsmarkedet. Ledigheten er ofte **kortvarig**. Noe friksjonsledighet vil det alltid være.\n- **Strukturledighet**: Det finnes ledige jobber, men de arbeidsledige har ikke den **kompetansen** som trengs, eller bor på **feil sted**. Den oppstår ofte ved **omstilling**, for eksempel når ny teknologi erstatter gamle jobber eller en industri legges ned.\n- **Konjunkturledighet**: Den samlede **etterspørselen** i økonomien er for lav – i en **lavkonjunktur** – og bedriftene trenger færre ansatte.\n- **Sesongledighet**: Arbeid som varierer med **årstiden**, som turisme og bygg og anlegg.\n\n## Konsekvenser\n\n**For den enkelte**:\n\n- tap av **inntekt**\n- dårligere **psykisk** og **fysisk helse**\n- svekket **selvfølelse** og **sosialt nettverk**\n- risiko for å bli **varig** utenfor arbeidslivet, særlig for **unge**\n\n**For samfunnet**:\n\n- **tapt produksjon** – arbeidskraft som ikke brukes\n- **lavere skatteinntekter** og **høyere utgifter** til dagpenger og andre ytelser\n- økt **ulikhet** og risiko for sosiale problemer\n\n## Sysselsettingstiltak\n\nTiltaket må passe til **årsaken**:\n\n| Type | Tiltak |\n|---|---|\n| **Konjunkturledighet** | **ekspansiv** finanspolitikk – økte offentlige utgifter eller lavere skatter – og **lavere rente** |\n| **Strukturledighet** | **utdanning**, **omskolering**, kurs, **lønnstilskudd**, arbeidstrening og støtte til å **flytte** |\n| **Friksjonsledighet** | bedre **informasjon** om ledige jobber og raskere **formidling** |\n| **Sesongledighet** | allsidig kompetanse og mer helårsdrift |\n\n**NAV** har ansvaret for mange **arbeidsmarkedstiltak**, som kurs, praksisplasser og lønnstilskudd.\n\n## Å drøfte tiltak\n\n- Brukes **ekspansiv** politikk mot **strukturledighet**, kan det gi **prisstigning** i stedet for flere jobber, fordi de ledige ikke passer til jobbene.\n- **Dagpenger** gir trygghet og tid til å finne en jobb som passer, men noen mener at gode ytelser kan gjøre det mindre **lønnsomt** å ta en jobb raskt.\n- **Utdanningstiltak** tar **tid** og koster penger, men gir varig **kompetanse**.\n- **Lønnstilskudd** kan hjelpe personer som har vært lenge ledige inn i arbeidslivet, men kan også gi jobb til noen som ville fått jobb **uansett**.\n\nNorge har hatt **relativt lav** arbeidsledighet sammenlignet med mange andre land. En større utfordring er at mange står **utenfor** arbeidsstyrken, for eksempel på grunn av helseproblemer.",
+  "flashcards": [
+    { "term": "Arbeidsstyrken", "def": "Sysselsatte og arbeidsledige til sammen." },
+    { "term": "Sysselsatt", "def": "Person som er i arbeid." },
+    { "term": "Arbeidsledig", "def": "Uten arbeid, har søkt aktivt og kan begynne snart." },
+    { "term": "Arbeidsledighetsrate", "def": "Arbeidsledige delt på arbeidsstyrken." },
+    { "term": "AKU", "def": "SSBs arbeidskraftundersøkelse – spør et utvalg om arbeidssituasjonen." },
+    { "term": "Registrert ledighet", "def": "Personer registrert som helt ledige hos NAV." },
+    { "term": "Friksjonsledighet", "def": "Kortvarig ledighet mellom to jobber." },
+    { "term": "Strukturledighet", "def": "De ledige har ikke kompetansen eller bostedet som trengs." },
+    { "term": "Konjunkturledighet", "def": "Ledighet fordi den samlede etterspørselen er for lav." },
+    { "term": "Sesongledighet", "def": "Ledighet som varierer med årstiden." },
+    { "term": "Ekspansiv politikk", "def": "Økte utgifter, lavere skatt eller lavere rente for å øke etterspørselen." },
+    { "term": "Omskolering", "def": "Ny utdanning for å passe til jobbene som finnes." },
+    { "term": "Lønnstilskudd", "def": "Tilskudd til arbeidsgiver som ansetter en ledig." },
+    { "term": "Dagpenger", "def": "Ytelse fra NAV til arbeidsledige." },
+    { "term": "Utenfor arbeidsstyrken", "def": "Personer som verken jobber eller søker jobb." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvem er i arbeidsstyrken?", "options": ["Bare sysselsatte", "Sysselsatte og arbeidsledige", "Alle innbyggere", "Studenter og pensjonister"], "correct": 1, "explain": "De som jobber eller aktivt søker jobb." },
+    { "id": "q02", "text": "Det er 100 000 arbeidsledige og en arbeidsstyrke på 2 500 000. Hva er ledighetsraten?", "options": ["4 %", "2,5 %", "25 %", "10 %"], "correct": 0, "explain": "100 000 ÷ 2 500 000 · 100." },
+    { "id": "q03", "text": "Hva er strukturledighet?", "options": ["Ledighet mellom to jobber", "Ledighet om vinteren", "Ledige har ikke kompetansen eller bostedet som trengs", "Ledighet fordi etterspørselen er lav"], "correct": 2, "explain": "Oppstår ofte ved omstilling." },
+    { "id": "q04", "text": "Hvilket tiltak passer best mot konjunkturledighet?", "options": ["Omskolering", "Flyttestøtte", "Bedre jobbportaler", "Lavere rente og økte offentlige utgifter"], "correct": 3, "explain": "Øker den samlede etterspørselen." },
+    { "id": "q05", "text": "Hvilket tiltak passer best mot strukturledighet?", "options": ["Utdanning og omskolering", "Lavere rente", "Skattelette", "Økt offentlig forbruk"], "correct": 0, "explain": "De ledige må passe til jobbene." },
+    { "id": "q06", "text": "Hvorfor viser AKU ofte høyere ledighet enn NAV?", "options": ["Fordi AKU teller pensjonister", "Fordi ikke alle som søker jobb, registrerer seg hos NAV", "Fordi NAV teller feil", "Fordi AKU teller studenter som ledige"], "correct": 1, "explain": "To ulike målemetoder." },
+    { "id": "q07", "text": "Hva er friksjonsledighet?", "options": ["Langvarig ledighet", "Ledighet på grunn av lav etterspørsel", "Kortvarig ledighet mellom to jobber", "Ledighet om sommeren"], "correct": 2, "explain": "Vil alltid finnes." },
+    { "id": "q08", "text": "Hva er en samfunnsøkonomisk kostnad ved arbeidsledighet?", "options": ["Høyere skatteinntekter", "Lavere utgifter til ytelser", "Mer produksjon", "Tapt produksjon"], "correct": 3, "explain": "Arbeidskraft som ikke brukes." },
+    { "id": "q09", "text": "Hva kan skje hvis ekspansiv politikk brukes mot strukturledighet?", "options": ["Det kan gi prisstigning i stedet for flere jobber", "Ledigheten forsvinner alltid", "Rentene faller", "Ingenting"], "correct": 0, "explain": "De ledige passer ikke til jobbene." },
+    { "id": "q10", "text": "Hva er et lønnstilskudd?", "options": ["Lønn fra staten til alle", "Tilskudd til arbeidsgiver som ansetter en ledig", "En skatt", "En type dagpenger"], "correct": 1, "explain": "Et arbeidsmarkedstiltak." }
+  ],
+  "mindmap": {
+    "label": "Arbeidsledighet",
+    "children": [
+      { "label": "Måling", "children": [
+        { "label": "Arbeidsstyrken" },
+        { "label": "AKU" },
+        { "label": "NAV" }
+      ] },
+      { "label": "Typer", "children": [
+        { "label": "Friksjon" },
+        { "label": "Struktur" },
+        { "label": "Konjunktur" },
+        { "label": "Sesong" }
+      ] },
+      { "label": "Konsekvenser", "children": [
+        { "label": "Individ" },
+        { "label": "Samfunn" }
+      ] },
+      { "label": "Tiltak", "children": [
+        { "label": "Ekspansiv politikk" },
+        { "label": "Utdanning og omskolering" },
+        { "label": "Formidling" }
+      ] },
+      { "label": "Drøfting", "children": [
+        { "label": "Riktig tiltak mot riktig type" },
+        { "label": "Dagpenger" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Studenter som ikke søker jobb, er utenfor arbeidsstyrken.", "correct": true, "explain": "De verken jobber eller søker jobb." },
+      { "id": "m02", "type": "sant-usant", "text": "Det er mulig å fjerne all friksjonsledighet.", "correct": false, "explain": "Noen vil alltid være mellom to jobber." },
+      { "id": "m03", "type": "sant-usant", "text": "Langvarig ledighet kan gi dårligere helse.", "correct": true, "explain": "En konsekvens for den enkelte." },
+      { "id": "m04", "type": "sant-usant", "text": "Sesongledighet skyldes at den samlede etterspørselen er for lav.", "correct": false, "explain": "Den skyldes at arbeidet varierer med årstiden." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken etat har ansvar for mange arbeidsmarkedstiltak?", "options": ["SSB", "NAV", "Norges Bank", "Skatteetaten"], "correct": 1, "explain": "Kurs, praksisplasser og lønnstilskudd." },
+      { "id": "m06", "type": "flervalg", "text": "En fabrikk legges ned, og arbeiderne mangler kompetanse til de ledige jobbene i IT. Hvilken ledighet er dette?", "options": ["Strukturledighet", "Friksjonsledighet", "Sesongledighet", "Konjunkturledighet"], "correct": 0, "explain": "Mismatch mellom kompetanse og jobber." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er en større utfordring enn ledigheten i Norge?", "options": ["For mange i jobb", "For lav befolkning", "At mange står utenfor arbeidsstyrken", "For høy rente"], "correct": 2, "explain": "For eksempel på grunn av helseproblemer." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

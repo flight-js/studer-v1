@@ -594,6 +594,24 @@ Læreplan: [BIO01-02](https://www.udir.no/lk20/bio01-02/kompetansemaal-og-vurder
   - Sjekk: Sjekk tallet på truede arter mot nyeste Norsk rødliste for arter (2021-utgaven er brukt; en ny utgave kan være publisert).
   - Sjekk: Sjekk IPBES-anslaget og Naturavtalens mål mot oppdaterte kilder.
 
+## Entreprenørskap og bedriftsutvikling 1 (vg2) – 12 av 12 temaer ferdig
+
+Læreplan: [ENT01-04](https://www.udir.no/lk20/ent01-04/kompetansemaal-og-vurdering/kv885)
+
+- 🟡 **Entreprenørskap og entreprenøriell kompetanse** – utkast (434 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Kreativitet og forretningsideer** – utkast (445 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Innovasjon og innovasjonsprosesser** – utkast (434 ord · 16 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Forretningsmodeller og bærekraft** – utkast (449 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Samhandling, nettverk og innovasjon** – utkast (400 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Marked, kjøpsatferd og segmenter** – utkast (435 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Situasjonsanalyse, utviklingsmuligheter og mål** – utkast (437 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Konkurransemidler i oppstartsfasen** – utkast (427 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🔴 **Selskapsformer, risiko og ansvar** – sjekkes (442 ord · 16 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+  - Sjekk: Sjekk gjeldende beløpsgrenser (aksjekapital, merverdiavgiftsgrensen) og regler for fritak fra revisjon mot Brønnøysundregistrene og Skatteetaten.
+- 🟡 **Ledelse og team i etableringsfasen** – utkast (435 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Pris, kapitalbehov, budsjett og finansiering** – utkast (427 ord · 16 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Regnskap og nøkkeltall** – utkast (425 ord · 16 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+
 ## Fransk (vg2) – 6 av 6 temaer ferdig
 
 Læreplan: [FSP01-04](https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurdering/kv966)
@@ -732,6 +750,26 @@ Læreplan: [KJE01-02](https://www.udir.no/lk20/kje01-02/kompetansemaal-og-vurder
 - 🟡 **Grønn kjemi** – utkast (427 ord · 19 kort · 12 quiz · 18 i miniprøve · 24 noder i tankekart)
   - Sjekk: Prinsippene er gjengitt fritt og gruppert i hovedtanker, ikke som Anastas og Warners nummererte liste. Sjekk om læreboka forventer at elevene kan alle tolv med nummer.
 
+## Markedsføring og ledelse 1 (vg2) – 14 av 14 temaer ferdig
+
+Læreplan: [MFL01-04](https://www.udir.no/lk20/mfl01-04/kompetansemaal-og-vurdering/kv887)
+
+- 🟡 **Markedsføring, ledelse og fagets modeller** – utkast (441 ord · 16 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Forbrukeratferd** – utkast (451 ord · 16 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Forretningsidé, mål og målgrupper** – utkast (420 ord · 16 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Markedsundersøkelser** – utkast (435 ord · 16 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Situasjonsanalyse** – utkast (416 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Produkt og merkevare** – utkast (422 ord · 16 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Distribusjon** – utkast (437 ord · 16 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Pris og prisstrategier** – utkast (444 ord · 17 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Markedskommunikasjon** – utkast (424 ord · 16 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Mediemiks og innhold** – utkast (480 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Konkurransemidlene i kombinasjon** – utkast (415 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Personalet og ledelsen i markedsføringen** – utkast (418 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🔴 **Regelverk og etikk i markedsføring** – sjekkes (424 ord · 16 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+  - Sjekk: Sjekk gjeldende regler for merking av retusjert reklame, merking av påvirkerreklame og samtykke til elektronisk markedsføring mot Forbrukertilsynets veiledere.
+- 🟡 **Markedsføring og bærekraftig utvikling** – utkast (453 ord · 16 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+
 ## Matematikk 2P (vg2) – 7 av 7 temaer ferdig
 
 Læreplan: [MAT05-04](https://www.udir.no/lk20/mat05-04/kompetansemaal-og-vurdering/kv46)
@@ -811,6 +849,26 @@ Læreplan: [POS05-02](https://www.udir.no/lk20/pos05-02/kompetansemaal-og-vurder
   - Sjekk: Sjekk omtale av pågående konflikter (Ukraina m.fl.) og NATO-medlemskap mot oppdaterte kilder.
 - 🟡 **Utfordringer for det norske demokratiet** – utkast (462 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
 
+## Psykologi 1 (vg2) – 15 av 15 temaer ferdig
+
+Læreplan: [PSY01-04](https://www.udir.no/lk20/psy01-04/kompetansemaal-og-vurdering/kv883)
+
+- 🟡 **Psykologiske perspektiver** – utkast (420 ord · 16 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Forskningsmetoder og kildebruk i psykologi** – utkast (436 ord · 17 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Anvendt psykologi og yrker** – utkast (390 ord · 16 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Nervesystemet, hjernen og hormonsystemet** – utkast (437 ord · 20 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Sanser, persepsjon og kognisjon** – utkast (475 ord · 18 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Hukommelse** – utkast (454 ord · 18 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Læring og læringsstrategier** – utkast (466 ord · 17 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Motivasjon, mestring og læring** – utkast (467 ord · 15 kort · 10 quiz · 15 i miniprøve · 17 noder i tankekart)
+- 🟡 **Arv, miljø, personlighet og identitet** – utkast (490 ord · 17 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Tilknytning** – utkast (516 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Evolusjonspsykologi** – utkast (483 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Psykologi og bærekraftige valg** – utkast (481 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Psykiske kriser** – utkast (502 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Rus, hjernen og psykisk helse** – utkast (499 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Stress, sårbarhet og resiliens** – utkast (487 ord · 17 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+
 ## Rettslære 1 (vg2) – 10 av 10 temaer ferdig
 
 Læreplan: [RTL01-05](https://www.udir.no/lk20/rtl01-05/kompetansemaal-og-vurdering/kv889)
@@ -826,6 +884,26 @@ Læreplan: [RTL01-05](https://www.udir.no/lk20/rtl01-05/kompetansemaal-og-vurder
 - 🟡 **Likestilling og diskriminering** – utkast (434 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
 - 🟡 **Avtalerett, forbrukerkjøp og angrerett** – utkast (493 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
 - 🟡 **Aktuelle og rettshistoriske juridiske spørsmål** – utkast (442 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+
+## Samfunnsøkonomi 1 (vg2) – 14 av 14 temaer ferdig
+
+Læreplan: [SOK01-04](https://www.udir.no/lk20/sok01-04/kompetansemaal-og-vurdering/kv1000)
+
+- 🟡 **Samfunnsøkonomi, modeller og kilder** – utkast (435 ord · 17 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Tilbud, etterspørsel og markedslikevekt** – utkast (393 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Markedsformer** – utkast (417 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Realligningen** – utkast (415 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🔴 **Privat og offentlig sektor i Norge** – sjekkes (473 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+  - Sjekk: Sjekk andelen sysselsatte i offentlig sektor og gjeldende prosentsats i handlingsregelen mot SSB og regjeringen.no.
+- 🟡 **Økonomisk vekst og BNP** – utkast (474 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Arbeidsledighet og sysselsettingstiltak** – utkast (454 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Prisstigning** – utkast (467 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Pengepolitikk og finanspolitikk** – utkast (430 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Finansmarkeder** – utkast (437 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Lønnsforskjeller, inntektsfordeling og ulikhet** – utkast (427 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Miljø og bærekraftig vekst** – utkast (507 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Valutakurser** – utkast (449 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Internasjonal handel og globalisering** – utkast (455 ord · 16 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
 
 ## Sosiologi og sosialantropologi (vg2) – 13 av 13 temaer ferdig
 

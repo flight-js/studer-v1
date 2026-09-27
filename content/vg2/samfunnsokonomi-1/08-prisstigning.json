@@ -1,0 +1,82 @@
+{
+  "id": "prisstigning",
+  "fagId": "samfunnsokonomi-1",
+  "trinnId": "vg2",
+  "name": "Prisstigning",
+  "intro": "Hvordan prisstigning måles med konsumprisindeksen, hvordan du regner med indekser, realverdier og reallønn, hva som kan skape prisstigning – og hvilke konsekvenser prisstigning og deflasjon får for husholdninger, bedrifter og samfunnet.",
+  "kompetansemaal": [7],
+  "sammendrag": "## Hva er prisstigning?\n\n**Prisstigning** – eller **inflasjon** – er en **generell** økning i **prisnivået** over tid. At én vare blir dyrere, er ikke inflasjon. Det er inflasjon når prisene på varer og tjenester **generelt** stiger, slik at pengene blir **mindre verdt**.\n\n## Konsumprisindeksen\n\n**SSB** måler prisstigningen hver måned med **konsumprisindeksen** (KPI):\n\n1. SSB lager en «**kurv**» av varer og tjenester som husholdningene kjøper – mat, bolig, strøm, klær, transport og fritid.\n2. Hver gruppe får en **vekt** etter hvor stor del av budsjettet husholdningene bruker på den. Bolig og mat veier mer enn for eksempel sko.\n3. Prisene samles inn hver måned, og indeksen viser hvor mye kurven koster sammenlignet med et **basisår** satt til 100.\n\n**KPI-JAE** er KPI **justert for avgiftsendringer** og **uten energivarer**. Den viser den **underliggende** prisstigningen, fordi strømprisene kan svinge mye fra måned til måned.\n\n## Å regne med indekser\n\n- **Prisstigning i prosent** = (KPI nå − KPI før) ÷ KPI før · 100. Går KPI fra 120 til 126, er prisstigningen (126 − 120) ÷ 120 · 100 = **5 %**.\n- **Realverdi**: Hva er 1000 kr i dag verdt i kroner fra basisåret? 1000 · 100 ÷ 126 ≈ **794 kr**.\n- **Reallønn**: Stiger lønnen med 5 % og prisene med 3 %, øker **kjøpekraften** med omtrent **2 %**. Stiger prisene mer enn lønnen, **faller** reallønnen.\n\n## Inflasjonsmålet\n\n**Norges Bank** har som mål at prisstigningen skal være om lag **2 prosent** over tid. En lav og stabil prisstigning gjør det lettere for husholdninger og bedrifter å **planlegge**.\n\n## Årsaker til prisstigning\n\n- **Etterspørselspress**: Den samlede etterspørselen er større enn det økonomien kan produsere. Bedriftene kan **heve** prisene.\n- **Kostnadspress**: Høyere **lønninger**, **råvarepriser** eller **energipriser** gjør produksjonen dyrere.\n- **Importert inflasjon**: Prisene i **utlandet** stiger, eller **kronen** blir svakere, slik at importvarer blir dyrere.\n- **Forventninger**: Tror folk at prisene vil stige, krever de **høyere lønn**, og bedriftene hever prisene. Det kan gi en **lønns- og prisspiral**.\n- **Pengemengde**: Vokser mengden penger mye raskere enn produksjonen, stiger prisene.\n\nEtter **pandemien** og krigen i **Ukraina** steg prisene kraftig i mange land på grunn av høye **energipriser**, problemer med **leveranser** og stor etterspørsel.\n\n## Konsekvenser\n\n- **Kjøpekraften** svekkes, særlig for dem med **faste inntekter**, som pensjonister og studenter.\n- **Omfordeling**: De med **gjeld** tjener, fordi gjelden blir mindre verdt reelt. De med **sparepenger** taper hvis renten er lavere enn prisstigningen.\n- **Usikkerhet** gjør det vanskeligere å planlegge investeringer.\n- **Konkurranseevnen** svekkes hvis prisene og lønningene stiger raskere enn hos handelspartnerne.\n- **Høyere renter** når sentralbanken prøver å dempe prisveksten.\n\n## Deflasjon\n\n**Deflasjon** betyr at prisene **faller** over tid. Det høres bra ut, men kan få folk til å **utsette** kjøp i håp om lavere priser. Da faller etterspørselen, bedrifter kutter, og arbeidsledigheten kan øke. **Gjeld** blir også tyngre å betjene.",
+  "flashcards": [
+    { "term": "Prisstigning", "def": "Generell økning i prisnivået over tid." },
+    { "term": "Inflasjon", "def": "Et annet ord for prisstigning." },
+    { "term": "Konsumprisindeksen (KPI)", "def": "SSBs mål på prisutviklingen for husholdningenes forbruk." },
+    { "term": "Vekter i KPI", "def": "Hvor stor del av budsjettet husholdningene bruker på hver varegruppe." },
+    { "term": "Basisår", "def": "Året indeksen settes til 100." },
+    { "term": "KPI-JAE", "def": "KPI justert for avgiftsendringer og uten energivarer." },
+    { "term": "Realverdi", "def": "Verdien justert for prisstigning." },
+    { "term": "Reallønn", "def": "Lønn justert for prisstigning – viser kjøpekraften." },
+    { "term": "Inflasjonsmålet", "def": "Norges Banks mål om prisstigning på om lag 2 % over tid." },
+    { "term": "Etterspørselspress", "def": "Samlet etterspørsel er større enn det økonomien kan produsere." },
+    { "term": "Kostnadspress", "def": "Høyere lønn, råvarer eller energi gjør produksjonen dyrere." },
+    { "term": "Importert inflasjon", "def": "Prisstigning som skyldes dyrere importvarer." },
+    { "term": "Lønns- og prisspiral", "def": "Høyere priser gir høyere lønn, som gir høyere priser." },
+    { "term": "Kjøpekraft", "def": "Hvor mye man kan kjøpe for pengene." },
+    { "term": "Deflasjon", "def": "Prisene faller over tid." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvem måler prisstigningen i Norge?", "options": ["Norges Bank", "SSB", "NAV", "Finansdepartementet"], "correct": 1, "explain": "Med konsumprisindeksen." },
+    { "id": "q02", "text": "KPI går fra 120 til 126. Hva er prisstigningen?", "options": ["5 %", "6 %", "4,8 %", "26 %"], "correct": 0, "explain": "(126 − 120) ÷ 120 · 100." },
+    { "id": "q03", "text": "Hva er KPI-JAE?", "options": ["KPI for strøm", "KPI for mat", "KPI justert for avgiftsendringer og uten energivarer", "KPI for utlandet"], "correct": 2, "explain": "Viser den underliggende prisveksten." },
+    { "id": "q04", "text": "Lønnen stiger med 5 % og prisene med 3 %. Hva skjer med reallønnen?", "options": ["Den faller med 2 %", "Den er uendret", "Den stiger med 8 %", "Den stiger med omtrent 2 %"], "correct": 3, "explain": "Kjøpekraften øker." },
+    { "id": "q05", "text": "Hva er Norges Banks inflasjonsmål?", "options": ["Om lag 2 % over tid", "0 %", "5 %", "10 %"], "correct": 0, "explain": "Lav og stabil prisstigning." },
+    { "id": "q06", "text": "Kronen blir svakere. Hvilken type prisstigning kan det gi?", "options": ["Deflasjon", "Importert inflasjon", "Ingen endring", "Lønnskutt"], "correct": 1, "explain": "Importvarer blir dyrere." },
+    { "id": "q07", "text": "Hvem taper mest på høy prisstigning?", "options": ["De med mye gjeld", "Bedrifter med høye priser", "De med faste inntekter og sparepenger", "Staten"], "correct": 2, "explain": "Kjøpekraften svekkes." },
+    { "id": "q08", "text": "Hvorfor kan deflasjon være skadelig?", "options": ["Prisene stiger for mye", "Renten blir for høy", "Lønningene øker for mye", "Folk utsetter kjøp, og etterspørselen faller"], "correct": 3, "explain": "Kan gi arbeidsledighet." },
+    { "id": "q09", "text": "Hva er en lønns- og prisspiral?", "options": ["Høyere priser gir høyere lønn, som gir høyere priser", "At lønn og priser faller", "En type skatt", "At renten stiger"], "correct": 0, "explain": "Forventninger forsterker prisveksten." },
+    { "id": "q10", "text": "Hvorfor får bolig og mat større vekt i KPI enn sko?", "options": ["Fordi de er viktigere for staten", "Fordi husholdningene bruker mer av budsjettet på dem", "Fordi de er billigere", "Fordi de importeres"], "correct": 1, "explain": "Vektene følger forbruket." }
+  ],
+  "mindmap": {
+    "label": "Prisstigning",
+    "children": [
+      { "label": "Måling", "children": [
+        { "label": "KPI og vekter" },
+        { "label": "Basisår" },
+        { "label": "KPI-JAE" }
+      ] },
+      { "label": "Beregning", "children": [
+        { "label": "Prosentvis endring" },
+        { "label": "Realverdi" },
+        { "label": "Reallønn" }
+      ] },
+      { "label": "Årsaker", "children": [
+        { "label": "Etterspørselspress" },
+        { "label": "Kostnadspress" },
+        { "label": "Importert inflasjon" },
+        { "label": "Forventninger" }
+      ] },
+      { "label": "Konsekvenser", "children": [
+        { "label": "Kjøpekraft" },
+        { "label": "Omfordeling" },
+        { "label": "Konkurranseevne" }
+      ] },
+      { "label": "Mål og motsats", "children": [
+        { "label": "Inflasjonsmål 2 %" },
+        { "label": "Deflasjon" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "At én vare blir dyrere, er ikke det samme som inflasjon.", "correct": true, "explain": "Inflasjon er en generell prisøkning." },
+      { "id": "m02", "type": "sant-usant", "text": "De med mye gjeld taper alltid på høy prisstigning.", "correct": false, "explain": "Gjelden blir mindre verdt reelt, men høyere renter kan gjøre den dyrere." },
+      { "id": "m03", "type": "sant-usant", "text": "Høye energipriser kan gi kostnadspress.", "correct": true, "explain": "Produksjonen blir dyrere." },
+      { "id": "m04", "type": "sant-usant", "text": "KPI måler bare prisene på mat.", "correct": false, "explain": "Den måler en kurv av mange varer og tjenester." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er 1000 kr i dag verdt i basisårets kroner når KPI er 125?", "options": ["1250 kr", "800 kr", "1000 kr", "875 kr"], "correct": 1, "explain": "1000 · 100 ÷ 125." },
+      { "id": "m06", "type": "flervalg", "text": "Hva kan skape etterspørselspress?", "options": ["Samlet etterspørsel større enn det økonomien kan produsere", "Høy arbeidsledighet", "Fallende priser", "Lav etterspørsel"], "correct": 0, "explain": "Bedriftene kan heve prisene." },
+      { "id": "m07", "type": "flervalg", "text": "Hvorfor er lav og stabil prisstigning ønskelig?", "options": ["Den gir høyere renter", "Den gjør alle rikere", "Den gjør det lettere å planlegge", "Den fjerner arbeidsledighet"], "correct": 2, "explain": "Mindre usikkerhet." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

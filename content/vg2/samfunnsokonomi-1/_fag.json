@@ -1,0 +1,79 @@
+{
+  "id": "samfunnsokonomi-1",
+  "trinnId": "vg2",
+  "name": "Samfunnsøkonomi 1",
+  "lareplan": {
+    "kode": "SOK01-04",
+    "url": "https://www.udir.no/lk20/sok01-04/kompetansemaal-og-vurdering/kv1000",
+    "kompetansemaal": [
+      {
+        "nr": 1,
+        "tekst": "velge og bruke kilder, økonomiske teorier og modeller i arbeid med faglige spørsmål, emner og problemstillinger"
+      },
+      {
+        "nr": 2,
+        "tekst": "gjøre rede for ulike markedsformer og bruke disse til å analysere ulike markeder"
+      },
+      {
+        "nr": 3,
+        "tekst": "bruke realligningen til å analysere sammenhengen mellom tilgang på og bruk av varer og tjenester i en økonomi"
+      },
+      {
+        "nr": 4,
+        "tekst": "beskrive hovedtrekkene i privat og offentlig sektor i Norge og drøfte muligheter og utfordringer for næringsliv og offentlig sektor i årene framover"
+      },
+      {
+        "nr": 5,
+        "tekst": "drøfte årsaker til økonomisk vekst og reflektere over bruttonasjonalproduktet som mål for verdiskaping"
+      },
+      {
+        "nr": 6,
+        "tekst": "reflektere over ulike sysselsettingstiltak og drøfte hvordan tiltakene kan påvirke ulike typer arbeidsledighet"
+      },
+      {
+        "nr": 7,
+        "tekst": "gjøre rede for hvordan prisstigning måles, og drøfte årsaker til og konsekvenser av prisstigning"
+      },
+      {
+        "nr": 8,
+        "tekst": "gjøre rede for formålet med pengepolitikk og finanspolitikk og hvordan politikken påvirker økonomien"
+      },
+      {
+        "nr": 9,
+        "tekst": "vurdere finansmarkedenes muligheter og utfordringer for utviklingen av samfunnsøkonomien"
+      },
+      {
+        "nr": 10,
+        "tekst": "utforske og reflektere over hva som påvirker lønnsforskjeller, inntektsfordeling og økonomisk ulikhet, og hvordan myndighetene kan påvirke dette"
+      },
+      {
+        "nr": 11,
+        "tekst": "reflektere over sammenhengen mellom økonomisk aktivitet og miljøutfordringer, og hva som skal til for å oppnå bærekraftig vekst og utvikling"
+      },
+      {
+        "nr": 12,
+        "tekst": "analysere hva som påvirker valutakursene, og drøfte konsekvenser av endringer i valutakursen"
+      },
+      {
+        "nr": 13,
+        "tekst": "gjøre rede for årsaker til internasjonal handel og drøfte muligheter og utfordringer knyttet til økonomisk globalisering"
+      }
+    ]
+  },
+  "temaer": [
+    "samfunnsokonomi-og-modeller",
+    "tilbud-og-ettersporsel",
+    "markedsformer",
+    "realligningen",
+    "privat-og-offentlig-sektor",
+    "okonomisk-vekst-og-bnp",
+    "arbeidsledighet",
+    "prisstigning",
+    "penge-og-finanspolitikk",
+    "finansmarkeder",
+    "inntektsfordeling-og-ulikhet",
+    "miljo-og-barekraftig-vekst",
+    "valutakurser",
+    "internasjonal-handel-og-globalisering"
+  ]
+}

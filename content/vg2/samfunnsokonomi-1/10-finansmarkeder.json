@@ -1,0 +1,82 @@
+{
+  "id": "finansmarkeder",
+  "fagId": "samfunnsokonomi-1",
+  "trinnId": "vg2",
+  "name": "Finansmarkeder",
+  "intro": "Hva finansmarkedene er – bank, aksjer, obligasjoner og valuta – hvilke oppgaver de har i økonomien, hvilke muligheter de gir for vekst, og hvilke utfordringer som bobler, gjeld og finanskriser skaper – og hvordan markedene reguleres.",
+  "kompetansemaal": [9],
+  "sammendrag": "## Hva er finansmarkedene?\n\n**Finansmarkedene** er markeder der **penger** og **finansielle eiendeler** handles. De viktigste er\n\n- **bankene**, som tar imot **innskudd** og gir **lån**\n- **aksjemarkedet**, der eierandeler i selskaper kjøpes og selges, for eksempel på **Oslo Børs**\n- **obligasjonsmarkedet**, der staten, kommuner og bedrifter låner penger ved å selge **obligasjoner** – verdipapirer som gir **renter**\n- **valutamarkedet**, der ulike lands penger byttes\n\n## Hvilke oppgaver har finansmarkedene?\n\n1. **Kanalisere sparing til investeringer**: Husholdninger som sparer, gjør det mulig for bedrifter å låne til nye maskiner og for folk å kjøpe bolig.\n2. **Fordele risiko**: Investorer kan spre pengene på mange selskaper, og forsikring og ulike finansprodukter gjør at risiko deles.\n3. **Betalingsformidling**: Bankene sørger for at vi kan betale med kort, mobil og nettbank.\n4. **Prising av risiko og informasjon**: Aksjekurser og renter gir **signaler** om hvor kapitalen gir best avkastning.\n\n## Muligheter\n\n- Nye og voksende bedrifter kan få **kapital** til å utvikle seg.\n- Husholdninger kan **spare** til pensjon og **låne** til bolig.\n- Kapital flyttes dit den gir mest **verdi**, noe som kan gi **økonomisk vekst**.\n- **Grønne obligasjoner** og investorers krav om bærekraft kan styre kapital mot **klimavennlige** prosjekter.\n\n## Utfordringer\n\n- **Bobler**: Prisene på aksjer eller boliger kan stige langt over det som er **fundamentalt** begrunnet – ofte fordi folk tror prisene vil fortsette å stige. Når boblen **sprekker**, kan mange tape mye.\n- **Høy gjeld**: Mange norske husholdninger har **mye gjeld**, særlig boliglån. Stiger **renten** eller faller **inntekten**, kan gjelden bli tung å betjene, og de må kutte i forbruket.\n- **Finanskriser**: Problemer i én bank kan **smitte** til andre. Under **finanskrisen** i 2008 førte tap på amerikanske boliglån til at banker verden over fikk problemer, og mange land fikk en dyp **lavkonjunktur**.\n- **Bankpanikk**: Hvis mange vil ta ut pengene sine samtidig, kan en ellers sunn bank få problemer.\n- **Ny teknologi**: **Kryptovaluta** og nye plattformer gir muligheter, men også stor **risiko** og fare for **svindel**.\n\n## Regulering\n\nFordi finansmarkedene er så viktige, er de strengt **regulert**:\n\n- **Finanstilsynet** fører tilsyn med banker, forsikringsselskaper og verdipapirmarkedet.\n- Bankene må ha nok **egenkapital** og **likviditet** til å tåle tap.\n- **Boliglånsregler** begrenser hvor mye folk kan låne i forhold til inntekt og boligverdi.\n- **Innskuddsgarantien** sikrer bankinnskudd opp til et visst beløp.\n- **Norges Bank** kan låne ut penger til bankene i en krise og skal bidra til **finansiell stabilitet**.\n\n## Vurdering\n\nFinansmarkedene er nødvendige for en moderne økonomi. De kan gi **vekst** og **velstand**, men også **ustabilitet**. Utfordringen for myndighetene er å regulere nok til å hindre kriser, uten å hindre at kapital når fram til gode prosjekter.",
+  "flashcards": [
+    { "term": "Finansmarkeder", "def": "Markeder der penger og finansielle eiendeler handles." },
+    { "term": "Aksje", "def": "Eierandel i et selskap." },
+    { "term": "Obligasjon", "def": "Verdipapir som viser at noen har lånt penger og betaler renter." },
+    { "term": "Valutamarked", "def": "Marked der ulike lands penger byttes." },
+    { "term": "Oslo Børs", "def": "Markedsplass for handel med aksjer i Norge." },
+    { "term": "Kanalisere sparing", "def": "Finansmarkedene flytter sparing til investeringer." },
+    { "term": "Risikospredning", "def": "Å fordele pengene på mange investeringer." },
+    { "term": "Betalingsformidling", "def": "Bankenes rolle i å flytte penger mellom kunder." },
+    { "term": "Boble", "def": "Priser som stiger langt over det som er fundamentalt begrunnet." },
+    { "term": "Finanskrisen 2008", "def": "Tap på amerikanske boliglån spredte seg til banker verden over." },
+    { "term": "Bankpanikk", "def": "Mange vil ta ut pengene sine samtidig." },
+    { "term": "Finanstilsynet", "def": "Fører tilsyn med banker og finansmarkedene." },
+    { "term": "Innskuddsgaranti", "def": "Sikrer bankinnskudd opp til et visst beløp." },
+    { "term": "Finansiell stabilitet", "def": "At finanssystemet fungerer også i krevende tider." },
+    { "term": "Grønne obligasjoner", "def": "Lån som skal finansiere klimavennlige prosjekter." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er en aksje?", "options": ["Et banklån", "En eierandel i et selskap", "En type valuta", "En skatt"], "correct": 1, "explain": "Handles blant annet på Oslo Børs." },
+    { "id": "q02", "text": "Hva er en obligasjon?", "options": ["Et verdipapir som viser at noen har lånt penger og betaler renter", "En eierandel", "En forsikring", "En valuta"], "correct": 0, "explain": "Stat, kommuner og bedrifter utsteder obligasjoner." },
+    { "id": "q03", "text": "Hva er en viktig oppgave for finansmarkedene?", "options": ["Å fastsette skattene", "Å produsere varer", "Å kanalisere sparing til investeringer", "Å bestemme lønningene"], "correct": 2, "explain": "Sparing blir til lån og investeringer." },
+    { "id": "q04", "text": "Hva er en boble i et marked?", "options": ["At prisene faller", "At det ikke finnes kjøpere", "Et statlig inngrep", "At prisene stiger langt over det som er fundamentalt begrunnet"], "correct": 3, "explain": "Kan sprekke og gi store tap." },
+    { "id": "q05", "text": "Hva utløste finanskrisen i 2008?", "options": ["Tap på amerikanske boliglån", "En krig", "Lav oljepris alene", "En pandemi"], "correct": 0, "explain": "Tapene spredte seg til banker verden over." },
+    { "id": "q06", "text": "Hvem fører tilsyn med banker i Norge?", "options": ["Konkurransetilsynet", "Finanstilsynet", "Forbrukertilsynet", "Datatilsynet"], "correct": 1, "explain": "Også forsikring og verdipapirmarkedet." },
+    { "id": "q07", "text": "Hvorfor kan høy husholdningsgjeld være en risiko?", "options": ["Fordi den gir lavere renter", "Fordi den øker sparingen", "Fordi husholdningene må kutte forbruket hvis renten stiger", "Fordi den er ulovlig"], "correct": 2, "explain": "Kan forsterke en nedgang." },
+    { "id": "q08", "text": "Hva er bankpanikk?", "options": ["At bankene stenger om natta", "At renten er høy", "At banken tjener for mye", "At mange vil ta ut pengene sine samtidig"], "correct": 3, "explain": "Kan ramme også en sunn bank." },
+    { "id": "q09", "text": "Hvorfor må bankene ha nok egenkapital?", "options": ["For å tåle tap", "For å betale mer skatt", "For å gi høyere lønn", "For å slippe tilsyn"], "correct": 0, "explain": "Gjør banksystemet mer robust." },
+    { "id": "q10", "text": "Hvordan kan finansmarkedene bidra til bærekraft?", "options": ["Ved å forby lån", "Ved at kapital styres mot klimavennlige prosjekter", "Ved å stoppe all handel", "Ved å øke gjelden"], "correct": 1, "explain": "For eksempel grønne obligasjoner." }
+  ],
+  "mindmap": {
+    "label": "Finansmarkeder",
+    "children": [
+      { "label": "Markeder", "children": [
+        { "label": "Bank" },
+        { "label": "Aksjer og obligasjoner" },
+        { "label": "Valuta" }
+      ] },
+      { "label": "Oppgaver", "children": [
+        { "label": "Sparing til investering" },
+        { "label": "Risikospredning" },
+        { "label": "Betalinger" }
+      ] },
+      { "label": "Muligheter", "children": [
+        { "label": "Kapital til vekst" },
+        { "label": "Pensjon og bolig" },
+        { "label": "Grønn kapital" }
+      ] },
+      { "label": "Utfordringer", "children": [
+        { "label": "Bobler" },
+        { "label": "Gjeld" },
+        { "label": "Finanskriser" }
+      ] },
+      { "label": "Regulering", "children": [
+        { "label": "Finanstilsynet" },
+        { "label": "Kapitalkrav" },
+        { "label": "Norges Bank" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Problemer i én bank kan smitte til andre banker.", "correct": true, "explain": "Derfor er finanssystemet strengt regulert." },
+      { "id": "m02", "type": "sant-usant", "text": "Kryptovaluta er en investering uten risiko.", "correct": false, "explain": "Den gir stor risiko og fare for svindel." },
+      { "id": "m03", "type": "sant-usant", "text": "Boliglånsregler begrenser hvor mye folk kan låne.", "correct": true, "explain": "I forhold til inntekt og boligverdi." },
+      { "id": "m04", "type": "sant-usant", "text": "Finansmarkedene har ingen betydning for økonomisk vekst.", "correct": false, "explain": "De gir kapital til investeringer." },
+      { "id": "m05", "type": "flervalg", "text": "Hva gjør innskuddsgarantien?", "options": ["Garanterer aksjekursene", "Sikrer bankinnskudd opp til et visst beløp", "Garanterer lav rente", "Garanterer høy lønn"], "correct": 1, "explain": "Reduserer faren for bankpanikk." },
+      { "id": "m06", "type": "flervalg", "text": "Hvordan kan Norges Bank hjelpe i en finanskrise?", "options": ["Ved å låne ut penger til bankene", "Ved å stenge børsen for alltid", "Ved å øke skattene", "Ved å forby sparing"], "correct": 0, "explain": "Bidrar til finansiell stabilitet." },
+      { "id": "m07", "type": "flervalg", "text": "Hva betyr risikospredning?", "options": ["Å sette alle pengene i én aksje", "Å låne mest mulig", "Å fordele pengene på mange investeringer", "Å ta ut alle pengene"], "correct": 2, "explain": "Reduserer faren for store tap." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

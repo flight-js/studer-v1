@@ -1,0 +1,81 @@
+{
+  "id": "privat-og-offentlig-sektor",
+  "fagId": "samfunnsokonomi-1",
+  "trinnId": "vg2",
+  "name": "Privat og offentlig sektor i Norge",
+  "intro": "Hovedtrekk ved privat og offentlig sektor i Norge – næringsstruktur, oppgavefordeling mellom stat, fylke og kommune, petroleumsnæringen og oljefondet – og muligheter og utfordringer for næringsliv og offentlig sektor i årene framover.",
+  "kompetansemaal": [4],
+  "sammendrag": "## To sektorer\n\n- **Privat sektor** består av virksomheter som eies av **private**. De fleste har som mål å gi **overskudd**, og de finansieres gjennom **salg**.\n- **Offentlig sektor** består av **staten**, **fylkeskommunene** og **kommunene**. Den produserer **velferdstjenester** og finansieres hovedsakelig med **skatter** og **avgifter**.\n\nNorge har en **blandingsøkonomi** der begge sektorene er store. Omtrent **tre av ti** sysselsatte jobber i offentlig sektor.\n\n## Næringsstrukturen\n\n- **Primærnæringer**: jordbruk, skogbruk, fiske og **havbruk**. De sysselsetter få, men havbruk er en viktig **eksportnæring**.\n- **Sekundærnæringer**: industri, bygg og anlegg, kraftproduksjon og utvinning av **olje og gass**.\n- **Tertiærnæringer**: **tjenester** som handel, transport, finans, IT, helse og undervisning. Her jobber de **fleste**.\n\nOver tid har arbeidskraften flyttet fra primærnæringene til **tjenester**, fordi **produktiviteten** i jordbruk og industri har økt.\n\n## Hvem gjør hva i offentlig sektor?\n\n- **Staten**: forsvar, politi, domstoler, sykehus, universiteter og **NAV**\n- **Fylkeskommunen**: **videregående skole**, fylkesveier, kollektivtrafikk og tannhelse\n- **Kommunen**: **barnehage**, **grunnskole**, **eldreomsorg** og **fastleger**\n\nStaten eier også store deler av viktige selskaper innen **energi** og andre næringer.\n\n## Olje, gass og oljefondet\n\n**Petroleumsnæringen** har vært avgjørende for norsk økonomi siden 1970-tallet. Statens inntekter herfra settes inn i **Statens pensjonsfond utland** – **oljefondet** – som er investert i aksjer, obligasjoner og eiendom i utlandet.\n\n**Handlingsregelen** sier at staten over tid bare skal bruke om lag den **forventede realavkastningen** av fondet – i dag rundt **3 prosent** av verdien – i statsbudsjettet. Slik skal pengene komme også **framtidige generasjoner** til gode.\n\n## Utfordringer og muligheter framover\n\n**Eldrebølgen**: Andelen eldre øker, mens andelen i arbeidsfør alder synker. Det gir høyere utgifter til **pensjoner**, **helse** og **omsorg**, og det blir færre som betaler skatt per pensjonist.\n\n**Lavere oljeinntekter på sikt**: Når produksjonen av olje og gass etter hvert faller, må andre næringer ta over. Fondet kan heller ikke vokse like raskt for alltid.\n\n**Det grønne skiftet**: Kravet om lavere utslipp gir muligheter innen **havvind**, **batterier**, **hydrogen**, **karbonfangst** og grønn industri – men krever store **investeringer** og **omstilling**.\n\n**Digitalisering og kunstig intelligens** kan øke **produktiviteten** i både privat og offentlig sektor, men endrer også hvilke **jobber** og hvilken **kompetanse** det er behov for.\n\n**Mangel på arbeidskraft**: Helse og omsorg vil trenge mange flere ansatte. Samtidig står mange utenfor **arbeidslivet**. Å få flere i jobb er en av de viktigste oppgavene.\n\n**Produktivitet i offentlig sektor**: Med mer oppgaver og mindre penger må offentlig sektor bli mer **effektiv**, for eksempel gjennom **digitale løsninger** og bedre **organisering**.\n\n## Drøfting\n\nDet er politisk **uenighet** om hvor stor offentlig sektor bør være, og om private aktører bør levere flere offentlige tjenester, for eksempel innen **helse** og **eldreomsorg**. Tilhengere viser til **valgfrihet** og **effektivitet**, mens motstandere er bekymret for **ulikhet** og at **fortjeneste** tas ut av fellesskapets penger.",
+  "flashcards": [
+    { "term": "Privat sektor", "def": "Virksomheter eid av private, finansiert gjennom salg." },
+    { "term": "Offentlig sektor", "def": "Stat, fylkeskommuner og kommuner, finansiert av skatter." },
+    { "term": "Blandingsøkonomi", "def": "Både privat og offentlig sektor er store." },
+    { "term": "Primærnæringer", "def": "Jordbruk, skogbruk, fiske og havbruk." },
+    { "term": "Sekundærnæringer", "def": "Industri, bygg, kraft og utvinning av olje og gass." },
+    { "term": "Tertiærnæringer", "def": "Tjenesteytende næringer – her jobber de fleste." },
+    { "term": "Fylkeskommunens oppgaver", "def": "Videregående skole, fylkesveier og kollektivtrafikk." },
+    { "term": "Kommunens oppgaver", "def": "Barnehage, grunnskole, eldreomsorg og fastleger." },
+    { "term": "Statens pensjonsfond utland", "def": "Oljefondet – investert i utlandet." },
+    { "term": "Handlingsregelen", "def": "Staten bruker om lag den forventede realavkastningen av fondet." },
+    { "term": "Eldrebølgen", "def": "Andelen eldre i befolkningen øker." },
+    { "term": "Det grønne skiftet", "def": "Omstilling til en økonomi med lave utslipp." },
+    { "term": "Produktivitet", "def": "Hvor mye som produseres per arbeidstime." },
+    { "term": "Omstilling", "def": "At arbeidskraft og kapital flytter til nye næringer." },
+    { "term": "Utenforskap", "def": "At personer i arbeidsfør alder står utenfor arbeidslivet." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvordan finansieres offentlig sektor hovedsakelig?", "options": ["Gjennom salg", "Med skatter og avgifter", "Med lån fra private", "Med gaver"], "correct": 1, "explain": "Og inntekter fra oljefondet." },
+    { "id": "q02", "text": "Hvor jobber flest i Norge?", "options": ["I tjenesteytende næringer", "I jordbruket", "I fisket", "I oljeutvinning"], "correct": 0, "explain": "Tertiærnæringene." },
+    { "id": "q03", "text": "Hvem har ansvaret for videregående skole?", "options": ["Kommunen", "Staten", "Fylkeskommunen", "Private"], "correct": 2, "explain": "Kommunen har grunnskolen." },
+    { "id": "q04", "text": "Hva sier handlingsregelen?", "options": ["At staten skal bruke hele oljefondet", "At oljefondet skal investeres i Norge", "At staten aldri kan bruke av fondet", "At staten over tid skal bruke om lag den forventede realavkastningen"], "correct": 3, "explain": "Rundt 3 prosent av verdien." },
+    { "id": "q05", "text": "Hva er eldrebølgen?", "options": ["At andelen eldre i befolkningen øker", "At eldre jobber mer", "At det fødes flere barn", "At pensjonene blir lavere"], "correct": 0, "explain": "Gir høyere utgifter til pensjon og helse." },
+    { "id": "q06", "text": "Hvorfor har arbeidskraften flyttet fra primærnæringene til tjenester?", "options": ["Fordi det er forbudt å drive jordbruk", "Fordi produktiviteten i jordbruk og industri har økt", "Fordi tjenester ikke krever arbeid", "Fordi primærnæringene er borte"], "correct": 1, "explain": "Færre trengs for å produsere det samme." },
+    { "id": "q07", "text": "Hva er en mulighet i det grønne skiftet?", "options": ["Mer kullkraft", "Flere oljeplattformer", "Havvind og batteriproduksjon", "Mindre forskning"], "correct": 2, "explain": "Nye næringer med lave utslipp." },
+    { "id": "q08", "text": "Hva er en utfordring ved lavere oljeinntekter på sikt?", "options": ["For mange jobber", "For lav rente", "For mye eksport", "Andre næringer må ta over"], "correct": 3, "explain": "Norge må omstille seg." },
+    { "id": "q09", "text": "Hvem har ansvaret for barnehage og eldreomsorg?", "options": ["Kommunen", "Staten", "Fylkeskommunen", "NAV"], "correct": 0, "explain": "Nær innbyggerne." },
+    { "id": "q10", "text": "Hvordan kan digitalisering hjelpe offentlig sektor?", "options": ["Ved å øke skattene", "Ved å øke produktiviteten", "Ved å fjerne alle tjenester", "Ved å stenge kommuner"], "correct": 1, "explain": "Mer effektive løsninger." }
+  ],
+  "mindmap": {
+    "label": "Privat og offentlig sektor",
+    "children": [
+      { "label": "Sektorer", "children": [
+        { "label": "Privat" },
+        { "label": "Offentlig" },
+        { "label": "Blandingsøkonomi" }
+      ] },
+      { "label": "Næringer", "children": [
+        { "label": "Primær" },
+        { "label": "Sekundær" },
+        { "label": "Tertiær" }
+      ] },
+      { "label": "Offentlige oppgaver", "children": [
+        { "label": "Stat" },
+        { "label": "Fylke" },
+        { "label": "Kommune" }
+      ] },
+      { "label": "Olje", "children": [
+        { "label": "Oljefondet" },
+        { "label": "Handlingsregelen" }
+      ] },
+      { "label": "Framtid", "children": [
+        { "label": "Eldrebølgen" },
+        { "label": "Grønt skifte" },
+        { "label": "Digitalisering og arbeidskraft" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Oljefondet er investert i utlandet.", "correct": true, "explain": "I aksjer, obligasjoner og eiendom." },
+      { "id": "m02", "type": "sant-usant", "text": "Primærnæringene sysselsetter de fleste i Norge.", "correct": false, "explain": "De fleste jobber i tjenesteytende næringer." },
+      { "id": "m03", "type": "sant-usant", "text": "Helse og omsorg vil trolig trenge mange flere ansatte i årene framover.", "correct": true, "explain": "På grunn av eldrebølgen." },
+      { "id": "m04", "type": "sant-usant", "text": "Det er full politisk enighet om hvor stor offentlig sektor bør være.", "correct": false, "explain": "Dette er et omstridt spørsmål." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken oppgave har staten?", "options": ["Grunnskole", "Sykehus og politi", "Barnehage", "Fylkesveier"], "correct": 1, "explain": "Også forsvar og universiteter." },
+      { "id": "m06", "type": "flervalg", "text": "Hvorfor skal bare en liten del av oljefondet brukes hvert år?", "options": ["For at pengene også skal komme framtidige generasjoner til gode", "Fordi fondet er lite", "Fordi loven forbyr all bruk", "Fordi pengene tilhører utlandet"], "correct": 0, "explain": "Handlingsregelen." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er et argument for at private leverer offentlige tjenester?", "options": ["Mer ulikhet", "Mindre valgfrihet", "Valgfrihet og effektivitet", "Høyere skatter"], "correct": 2, "explain": "Motstandere er bekymret for ulikhet og profitt." }
+    ]
+  },
+  "kvalitet": { "status": "sjekkes", "merknader": ["Sjekk andelen sysselsatte i offentlig sektor og gjeldende prosentsats i handlingsregelen mot SSB og regjeringen.no."] }
+}

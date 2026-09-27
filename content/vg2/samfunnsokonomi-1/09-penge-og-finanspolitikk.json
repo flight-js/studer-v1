@@ -1,0 +1,81 @@
+{
+  "id": "penge-og-finanspolitikk",
+  "fagId": "samfunnsokonomi-1",
+  "trinnId": "vg2",
+  "name": "Pengepolitikk og finanspolitikk",
+  "intro": "Konjunkturer og stabiliseringspolitikk: hvordan Norges Bank bruker styringsrenten i pengepolitikken, hvordan regjeringen og Stortinget bruker statsbudsjettet i finanspolitikken, handlingsregelen, automatiske stabilisatorer og hvordan politikken påvirker økonomien.",
+  "kompetansemaal": [8],
+  "sammendrag": "## Konjunkturer\n\nØkonomien svinger mellom perioder med høy og lav aktivitet – **konjunkturer**:\n\n- **Høykonjunktur**: høy produksjon, lav arbeidsledighet og ofte **press** på lønninger og priser.\n- **Lavkonjunktur**: lav produksjon, **økende arbeidsledighet** og ledig kapasitet i bedriftene.\n\n**Stabiliseringspolitikk** skal **dempe** svingningene. Målet er **lav og stabil prisstigning**, **høy sysselsetting** og **jevn vekst**. Myndighetene har to hovedverktøy: **pengepolitikk** og **finanspolitikk**.\n\n## Pengepolitikk\n\nPengepolitikken styres av **Norges Bank**, som er **uavhengig** i den daglige rentesettingen. Målet er at prisstigningen skal være om lag **2 prosent** over tid, samtidig som banken skal bidra til **høy og stabil produksjon og sysselsetting**.\n\nDet viktigste virkemiddelet er **styringsrenten** – renten bankene får på innskudd i Norges Bank. Den påvirker de andre rentene i økonomien.\n\n**Når renten settes opp**:\n\n- Det blir **dyrere å låne** og mer **lønnsomt å spare**. Husholdninger med boliglån får **mindre** å rutte med.\n- **Konsumet** og **investeringene** faller.\n- **Kronen** blir ofte **sterkere**, og importvarer blir billigere.\n- Forventningene om prisstigning dempes.\n\nDette kalles **kontraktiv** pengepolitikk og brukes når økonomien er i **høykonjunktur** og prisene stiger for mye. **Lavere rente** – **ekspansiv** pengepolitikk – brukes i **lavkonjunktur** for å øke etterspørselen.\n\nRenteendringer virker med **tidsetterslep**, ofte på et halvt år til to år.\n\n## Finanspolitikk\n\nFinanspolitikken styres av **regjeringen** og **Stortinget** gjennom **statsbudsjettet**:\n\n- **Offentlige utgifter** – konsum, investeringer og overføringer\n- **Skatter og avgifter**\n\n**Ekspansiv finanspolitikk** – økte utgifter eller lavere skatter – øker etterspørselen og brukes i **lavkonjunktur**. **Kontraktiv finanspolitikk** – kutt i utgifter eller høyere skatter – demper etterspørselen.\n\n**Handlingsregelen** sier at staten over tid skal bruke om lag den **forventede realavkastningen** av oljefondet i budsjettet. I dårlige tider kan staten bruke **mer**, og i gode tider bør den bruke **mindre**.\n\n## Automatiske stabilisatorer\n\nNoen deler av budsjettet virker **automatisk** i riktig retning. I en lavkonjunktur **øker** utgiftene til **dagpenger**, og **skatteinntektene** faller fordi folk tjener mindre. Det holder etterspørselen oppe uten nye vedtak.\n\n## Samspill\n\nUnder **pandemien** i 2020 satte Norges Bank renten ned til **null**, og staten brukte store summer på **krisepakker**. Da prisene steg kraftig i årene etter, satte Norges Bank opp renten flere ganger for å dempe prisveksten.\n\nDet er viktig at penge- og finanspolitikken **trekker i samme retning**. Er finanspolitikken svært ekspansiv, må renten kanskje settes **høyere** enn ellers.\n\n## Utfordringer\n\n- **Tidsetterslep**: Tiltakene virker ofte først når situasjonen har endret seg.\n- **Usikkerhet**: Det er vanskelig å vite nøyaktig hvor økonomien er på vei.\n- **Fordelingsvirkninger**: Høy rente rammer særlig **unge** med store **boliglån**.\n- **Politiske hensyn** kan gjøre det vanskelig å stramme inn i gode tider.",
+  "flashcards": [
+    { "term": "Konjunkturer", "def": "Svingninger mellom høy og lav økonomisk aktivitet." },
+    { "term": "Høykonjunktur", "def": "Høy produksjon, lav ledighet og press på priser." },
+    { "term": "Lavkonjunktur", "def": "Lav produksjon og økende arbeidsledighet." },
+    { "term": "Stabiliseringspolitikk", "def": "Politikk som skal dempe konjunktursvingningene." },
+    { "term": "Pengepolitikk", "def": "Norges Banks bruk av renten for å påvirke økonomien." },
+    { "term": "Styringsrenten", "def": "Renten bankene får på innskudd i Norges Bank." },
+    { "term": "Kontraktiv politikk", "def": "Politikk som demper etterspørselen." },
+    { "term": "Ekspansiv politikk", "def": "Politikk som øker etterspørselen." },
+    { "term": "Tidsetterslep", "def": "At tiltak virker først etter en tid." },
+    { "term": "Finanspolitikk", "def": "Regjeringens og Stortingets bruk av statsbudsjettet." },
+    { "term": "Statsbudsjettet", "def": "Statens plan for utgifter og inntekter." },
+    { "term": "Handlingsregelen", "def": "Staten bruker om lag den forventede realavkastningen av oljefondet." },
+    { "term": "Automatiske stabilisatorer", "def": "Dagpenger og skatter som automatisk demper svingningene." },
+    { "term": "Uavhengig sentralbank", "def": "Norges Bank setter renten uten politisk styring fra dag til dag." },
+    { "term": "Krisepakker", "def": "Ekstra offentlige tiltak i en krise, som under pandemien." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvem styrer pengepolitikken i Norge?", "options": ["Stortinget", "Norges Bank", "Finansdepartementet", "NAV"], "correct": 1, "explain": "Gjennom styringsrenten." },
+    { "id": "q02", "text": "Hva skjer vanligvis når renten settes opp?", "options": ["Konsumet og investeringene faller", "Konsumet øker", "Kronen svekkes", "Det blir billigere å låne"], "correct": 0, "explain": "Kontraktiv pengepolitikk." },
+    { "id": "q03", "text": "Hva er ekspansiv finanspolitikk?", "options": ["Høyere skatter", "Kutt i offentlige utgifter", "Økte offentlige utgifter eller lavere skatter", "Høyere rente"], "correct": 2, "explain": "Øker etterspørselen." },
+    { "id": "q04", "text": "Hvilken politikk passer i en høykonjunktur med høy prisstigning?", "options": ["Lavere rente", "Økte offentlige utgifter", "Skattelette", "Kontraktiv politikk, som høyere rente"], "correct": 3, "explain": "Demper etterspørselen." },
+    { "id": "q05", "text": "Hva er en automatisk stabilisator?", "options": ["Dagpenger som øker i en lavkonjunktur", "En renteendring", "Et vedtak i Stortinget", "En ny skatt"], "correct": 0, "explain": "Virker uten nye vedtak." },
+    { "id": "q06", "text": "Hvem vedtar statsbudsjettet?", "options": ["Norges Bank", "Stortinget", "SSB", "Kommunene"], "correct": 1, "explain": "Etter forslag fra regjeringen." },
+    { "id": "q07", "text": "Hvorfor blir kronen ofte sterkere når renten settes opp?", "options": ["Fordi eksporten faller", "Fordi prisene stiger", "Fordi det blir mer attraktivt å plassere penger i kroner", "Fordi staten kjøper kroner"], "correct": 2, "explain": "Høyere avkastning på kroner." },
+    { "id": "q08", "text": "Hva er tidsetterslep?", "options": ["At renten endres hver dag", "At budsjettet kommer sent", "At statistikk er feil", "At tiltak virker først etter en tid"], "correct": 3, "explain": "Ofte et halvt år til to år." },
+    { "id": "q09", "text": "Hva gjorde Norges Bank under pandemien i 2020?", "options": ["Satte renten ned til null", "Satte renten kraftig opp", "Avskaffet renten", "Stengte bankene"], "correct": 0, "explain": "For å holde etterspørselen oppe." },
+    { "id": "q10", "text": "Hvem rammes særlig av høy rente?", "options": ["Personer uten gjeld", "Unge med store boliglån", "Personer med store sparepenger", "Staten"], "correct": 1, "explain": "En fordelingsvirkning." }
+  ],
+  "mindmap": {
+    "label": "Penge- og finanspolitikk",
+    "children": [
+      { "label": "Konjunkturer", "children": [
+        { "label": "Høykonjunktur" },
+        { "label": "Lavkonjunktur" }
+      ] },
+      { "label": "Pengepolitikk", "children": [
+        { "label": "Norges Bank" },
+        { "label": "Styringsrenten" },
+        { "label": "Inflasjonsmål" }
+      ] },
+      { "label": "Finanspolitikk", "children": [
+        { "label": "Statsbudsjettet" },
+        { "label": "Skatter og utgifter" },
+        { "label": "Handlingsregelen" }
+      ] },
+      { "label": "Virkemåte", "children": [
+        { "label": "Ekspansiv" },
+        { "label": "Kontraktiv" },
+        { "label": "Automatiske stabilisatorer" }
+      ] },
+      { "label": "Utfordringer", "children": [
+        { "label": "Tidsetterslep" },
+        { "label": "Fordeling" },
+        { "label": "Samspill" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Norges Bank er uavhengig i den daglige rentesettingen.", "correct": true, "explain": "Politikerne bestemmer ikke renten fra dag til dag." },
+      { "id": "m02", "type": "sant-usant", "text": "Lavere rente gjør det dyrere å låne penger.", "correct": false, "explain": "Lavere rente gjør det billigere å låne." },
+      { "id": "m03", "type": "sant-usant", "text": "Penge- og finanspolitikken bør trekke i samme retning.", "correct": true, "explain": "Ellers kan de motvirke hverandre." },
+      { "id": "m04", "type": "sant-usant", "text": "I en lavkonjunktur øker skatteinntektene automatisk.", "correct": false, "explain": "De faller fordi folk tjener mindre." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken politikk passer i en lavkonjunktur?", "options": ["Høyere rente", "Ekspansiv politikk", "Kutt i offentlige utgifter", "Høyere skatter"], "correct": 1, "explain": "Øker etterspørselen." },
+      { "id": "m06", "type": "flervalg", "text": "Hva sier handlingsregelen om dårlige tider?", "options": ["Staten kan bruke mer oljepenger", "Staten må kutte kraftig", "Staten kan ikke bruke oljepenger", "Staten må heve skattene"], "correct": 0, "explain": "Og mindre i gode tider." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er målet med stabiliseringspolitikk?", "options": ["Høy prisstigning", "Høy arbeidsledighet", "Lav og stabil prisstigning og høy sysselsetting", "Store konjunktursvingninger"], "correct": 2, "explain": "Dempe svingningene." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "realligningen",
+  "fagId": "samfunnsokonomi-1",
+  "trinnId": "vg2",
+  "name": "Realligningen",
+  "intro": "Hvordan realligningen viser sammenhengen mellom tilgangen på varer og tjenester – produksjon og import – og bruken av dem til konsum, investeringer og eksport, og hvordan den brukes til å analysere endringer i økonomien.",
+  "kompetansemaal": [3],
+  "sammendrag": "## Tilgang og anvendelse\n\nI løpet av et år blir det produsert og brukt en stor mengde **varer og tjenester** i Norge. **Realligningen** viser at det som er **tilgjengelig**, må være lik det som blir **brukt**.\n\n**Tilgang** – hvor varene og tjenestene kommer fra:\n\n- **BNP** – det som produseres i Norge\n- **Import** – det vi kjøper fra utlandet\n\n**Anvendelse** – hva de brukes til:\n\n- **Privat konsum** – husholdningenes kjøp av mat, klær, reiser og andre forbruksvarer og tjenester\n- **Offentlig konsum** – tjenester stat og kommuner produserer, som skole, helse og forsvar\n- **Realinvesteringer** – nye boliger, maskiner, bygninger, veier og **endringer i lagrene**\n- **Eksport** – det vi selger til utlandet\n\n## Ligningen\n\n**BNP + import = privat konsum + offentlig konsum + realinvesteringer + eksport**\n\nFlytter vi importen over, får vi:\n\n**BNP = privat konsum + offentlig konsum + realinvesteringer + (eksport − import)**\n\nForskjellen mellom eksport og import kalles **nettoeksport** eller **handelsbalansen**. Norge har vanligvis et stort **overskudd** på grunn av eksporten av **olje og gass**.\n\n## Hvorfor «real»?\n\nLigningen handler om **varer og tjenester** – den **reelle** økonomien – ikke om pengestrømmer. **Overføringer**, som pensjoner og barnetrygd, er ikke offentlig konsum. De blir en del av **privat konsum** når mottakerne bruker pengene.\n\n## Regneeksempel\n\nTallene er i milliarder kroner:\n\n- BNP: 5000\n- Import: 1500\n- Privat konsum: 2200\n- Offentlig konsum: 1200\n- Realinvesteringer: 1300\n\nEksporten blir: 5000 + 1500 − 2200 − 1200 − 1300 = **1800**. Nettoeksporten blir 1800 − 1500 = **300**.\n\n## Å analysere endringer\n\nRealligningen viser hvordan endringer i **etterspørselen** fra fire grupper – **husholdninger**, **det offentlige**, **bedrifter** og **utlandet** – påvirker økonomien:\n\n- **Økt privat konsum** må dekkes av **mer produksjon** (høyere BNP), **mer import** eller at annen bruk – som **eksport** eller **lager** – går ned.\n- **Faller eksporten**, for eksempel fordi oljeprisen synker, blir BNP lavere hvis ikke annen etterspørsel øker.\n- **Økt offentlig konsum** kan gi høyere BNP og flere arbeidsplasser – men i en økonomi med **full sysselsetting** kan det presse opp **prisene** og **importen**.\n- **Økte investeringer** gir etterspørsel i dag og **større produksjonsevne** i framtiden.\n\n## Sammenheng med kretsløpet\n\nRealligningen er en **regnskapssammenheng** som alltid går opp. Den forklarer ikke alene **hvorfor** tallene endrer seg, men den gir en **struktur** for å analysere hvordan endringer i én del av økonomien påvirker de andre.\n\n## Nasjonalregnskapet\n\nTallene i realligningen kommer fra **nasjonalregnskapet**, som **SSB** lager. Der kan du se hvordan konsum, investeringer, eksport og import utvikler seg fra kvartal til kvartal og fra år til år.",
+  "flashcards": [
+    { "term": "Realligningen", "def": "BNP + import = privat konsum + offentlig konsum + realinvesteringer + eksport." },
+    { "term": "Tilgang", "def": "BNP og import." },
+    { "term": "Anvendelse", "def": "Konsum, investeringer og eksport." },
+    { "term": "BNP", "def": "Verdien av varer og tjenester produsert i landet." },
+    { "term": "Privat konsum", "def": "Husholdningenes kjøp av forbruksvarer og tjenester." },
+    { "term": "Offentlig konsum", "def": "Tjenester stat og kommuner produserer, som skole og helse." },
+    { "term": "Realinvesteringer", "def": "Nye boliger, maskiner, bygninger og endringer i lager." },
+    { "term": "Eksport", "def": "Varer og tjenester solgt til utlandet." },
+    { "term": "Import", "def": "Varer og tjenester kjøpt fra utlandet." },
+    { "term": "Nettoeksport", "def": "Eksport minus import." },
+    { "term": "Handelsbalanse", "def": "Forskjellen mellom eksport og import." },
+    { "term": "Overføringer", "def": "Pensjoner og trygder – ikke offentlig konsum." },
+    { "term": "Nasjonalregnskapet", "def": "SSBs oversikt over produksjon og bruk av varer og tjenester." },
+    { "term": "Lagerendring", "def": "Endring i varelagre – regnes med i investeringene." },
+    { "term": "Regnskapssammenheng", "def": "En sammenheng som alltid går opp." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva står på tilgangssiden i realligningen?", "options": ["Konsum og eksport", "BNP og import", "Investeringer og eksport", "Bare import"], "correct": 1, "explain": "Det vi produserer og kjøper fra utlandet." },
+    { "id": "q02", "text": "Hva er offentlig konsum?", "options": ["Tjenester stat og kommuner produserer, som skole og helse", "Pensjoner", "Barnetrygd", "Husholdningenes kjøp"], "correct": 0, "explain": "Overføringer regnes ikke med." },
+    { "id": "q03", "text": "Hva er nettoeksport?", "options": ["Eksport pluss import", "BNP minus konsum", "Eksport minus import", "Import minus investeringer"], "correct": 2, "explain": "Kalles også handelsbalansen." },
+    { "id": "q04", "text": "BNP er 5000, import 1500, privat konsum 2200, offentlig konsum 1200 og investeringer 1300. Hva er eksporten?", "options": ["1500", "300", "1200", "1800"], "correct": 3, "explain": "5000 + 1500 − 2200 − 1200 − 1300." },
+    { "id": "q05", "text": "Hvorfor har Norge vanligvis overskudd på handelsbalansen?", "options": ["På grunn av eksporten av olje og gass", "Fordi vi importerer mye", "Fordi vi har lite eksport", "Fordi staten forbyr import"], "correct": 0, "explain": "Stor eksport." },
+    { "id": "q06", "text": "Hvor havner en pensjon når pensjonisten bruker den?", "options": ["Offentlig konsum", "Privat konsum", "Eksport", "Investering"], "correct": 1, "explain": "Overføringer blir privat konsum." },
+    { "id": "q07", "text": "Hva må skje hvis privat konsum øker og alt annet er likt?", "options": ["Eksporten må øke", "Offentlig konsum må øke", "Produksjonen eller importen må øke", "Ingenting"], "correct": 2, "explain": "Tilgang og anvendelse må være like." },
+    { "id": "q08", "text": "Hva hører til realinvesteringene?", "options": ["Kjøp av aksjer", "Innskudd i banken", "Pensjoner", "Nye boliger, maskiner og bygninger"], "correct": 3, "explain": "Realkapital, ikke finanskapital." },
+    { "id": "q09", "text": "Hvem lager nasjonalregnskapet i Norge?", "options": ["SSB", "Norges Bank", "NAV", "Konkurransetilsynet"], "correct": 0, "explain": "Statistisk sentralbyrå." },
+    { "id": "q10", "text": "Hva skjer med BNP hvis eksporten faller og ingen annen etterspørsel øker?", "options": ["BNP øker", "BNP faller", "BNP er uendret", "Importen øker alltid"], "correct": 1, "explain": "Mindre etterspørsel etter norsk produksjon." }
+  ],
+  "mindmap": {
+    "label": "Realligningen",
+    "children": [
+      { "label": "Tilgang", "children": [
+        { "label": "BNP" },
+        { "label": "Import" }
+      ] },
+      { "label": "Anvendelse", "children": [
+        { "label": "Privat konsum" },
+        { "label": "Offentlig konsum" },
+        { "label": "Realinvesteringer" },
+        { "label": "Eksport" }
+      ] },
+      { "label": "Ligningen", "children": [
+        { "label": "Tilgang = anvendelse" },
+        { "label": "Nettoeksport" }
+      ] },
+      { "label": "Analyse", "children": [
+        { "label": "Økt konsum" },
+        { "label": "Fall i eksport" },
+        { "label": "Offentlig pengebruk" }
+      ] },
+      { "label": "Kilde", "children": [
+        { "label": "Nasjonalregnskapet" },
+        { "label": "SSB" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Realligningen går alltid opp fordi den er en regnskapssammenheng.", "correct": true, "explain": "Tilgang er lik anvendelse." },
+      { "id": "m02", "type": "sant-usant", "text": "Barnetrygd regnes som offentlig konsum.", "correct": false, "explain": "Det er en overføring." },
+      { "id": "m03", "type": "sant-usant", "text": "Økte investeringer gir etterspørsel i dag og større produksjonsevne senere.", "correct": true, "explain": "Mer realkapital." },
+      { "id": "m04", "type": "sant-usant", "text": "Realligningen handler om pengestrømmer, ikke varer og tjenester.", "correct": false, "explain": "Den handler om den reelle økonomien." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilke fire grupper etterspør varer og tjenester i realligningen?", "options": ["Banker, skoler, sykehus og butikker", "Husholdninger, det offentlige, bedrifter og utlandet", "Kommuner, fylker, stat og EU", "Arbeidere, ledere, eiere og kunder"], "correct": 1, "explain": "Konsum, investeringer og eksport." },
+      { "id": "m06", "type": "flervalg", "text": "Hva kan skje hvis offentlig konsum øker mye når alle allerede er i arbeid?", "options": ["Prisene og importen kan presses opp", "Arbeidsledigheten øker", "Eksporten øker alltid", "BNP faller"], "correct": 0, "explain": "Økonomien har lite ledig kapasitet." },
+      { "id": "m07", "type": "flervalg", "text": "Hvor regnes en ny vei bygget av staten?", "options": ["Privat konsum", "Eksport", "Realinvesteringer", "Import"], "correct": 2, "explain": "Offentlige investeringer." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

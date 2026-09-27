@@ -1,0 +1,81 @@
+{
+  "id": "tilbud-og-ettersporsel",
+  "fagId": "samfunnsokonomi-1",
+  "trinnId": "vg2",
+  "name": "Tilbud, etterspørsel og markedslikevekt",
+  "intro": "Hvordan pris og mengde bestemmes i et marked: etterspørselskurven og tilbudskurven, hva som forskyver kurvene, markedslikevekt, overskuddstilbud og overskuddsetterspørsel – og hvordan modellen brukes til å analysere endringer i virkelige markeder.",
+  "kompetansemaal": [2],
+  "sammendrag": "## Et marked\n\nEt **marked** er et sted – fysisk eller digitalt – der **kjøpere** og **selgere** møtes. Prisen og mengden som omsettes, bestemmes av **tilbud** og **etterspørsel**.\n\n## Etterspørsel\n\n**Etterspørselen** viser hvor mye kjøperne vil kjøpe ved ulike **priser**. Jo **lavere** prisen er, desto **mer** vil de kjøpe. **Etterspørselskurven** heller derfor **nedover** mot høyre.\n\nEtterspørselskurven **forskyves** når andre forhold enn prisen endrer seg:\n\n- **Inntekt**: Høyere inntekt gir vanligvis større etterspørsel.\n- **Priser på andre varer**: Blir en **erstatningsvare** dyrere, øker etterspørselen etter vår vare – smør og margarin er et eksempel. Blir en **tilleggsvare** dyrere, synker etterspørselen – som biler og bensin.\n- **Smak og trender**\n- **Forventninger** om framtidige priser\n- **Antall kjøpere**\n\n## Tilbud\n\n**Tilbudet** viser hvor mye selgerne vil selge ved ulike priser. Jo **høyere** prisen er, desto mer lønnsomt er det å produsere. **Tilbudskurven** heller derfor **oppover** mot høyre.\n\nTilbudskurven **forskyves** når\n\n- **produksjonskostnadene** endres, for eksempel lønn og råvarer\n- **teknologien** blir bedre\n- **antall tilbydere** endres\n- **avgifter** eller **subsidier** endres\n- **naturforhold** endres, som en dårlig avling\n\n## Likevekt\n\nDer tilbuds- og etterspørselskurven **krysser**, finner vi **likevektsprisen** og **likevektsmengden**. Her vil kjøperne kjøpe akkurat det selgerne vil selge.\n\n- Er prisen **over** likevekt, blir det **overskuddstilbud**. Selgerne sitter igjen med varer og **senker** prisen.\n- Er prisen **under** likevekt, blir det **overskuddsetterspørsel**. Varene blir utsolgt, og prisen **stiger**.\n\nSlik trekker markedet mot likevekt av seg selv.\n\n## Bevegelse langs kurven eller forskyvning?\n\n- Når **prisen** på varen endres, beveger vi oss **langs** kurven.\n- Når **andre forhold** endres, **forskyves** hele kurven.\n\n## Eksempler\n\n**Strøm i en kald og tørr vinter**: Kulde gir **økt etterspørsel**, og lite vann i magasinene gir **mindre tilbud**. Begge deler presser **prisen opp**.\n\n**Avgift på sukkerholdige varer**: Avgiften øker kostnadene til selgerne, og tilbudskurven forskyves **oppover**. Prisen **stiger**, og omsatt mengde **synker**.\n\n**Ny teknologi for solcellepaneler**: Lavere kostnader forskyver tilbudet **utover**. Prisen **faller**, og mengden **øker**.\n\n## Priselastisitet\n\n**Priselastisiteten** viser hvor mye etterspørselen endres når prisen endres. For **nødvendighetsvarer** med få alternativer, som strøm og medisiner, endres etterspørselen **lite**. For varer med mange **erstatninger**, som et bestemt brusmerke, endres den **mye**.\n\n## Begrensninger\n\nModellen forutsetter blant annet at det er **mange** kjøpere og selgere og at alle har god **informasjon**. I mange virkelige markeder er det ikke slik. Da må modellen suppleres med kunnskap om **markedsformer**.",
+  "flashcards": [
+    { "term": "Marked", "def": "Sted der kjøpere og selgere møtes." },
+    { "term": "Etterspørsel", "def": "Hvor mye kjøperne vil kjøpe ved ulike priser." },
+    { "term": "Etterspørselskurven", "def": "Heller nedover – lavere pris gir større etterspurt mengde." },
+    { "term": "Tilbud", "def": "Hvor mye selgerne vil selge ved ulike priser." },
+    { "term": "Tilbudskurven", "def": "Heller oppover – høyere pris gir større tilbudt mengde." },
+    { "term": "Erstatningsvare", "def": "Vare som kan brukes i stedet for en annen, som margarin for smør." },
+    { "term": "Tilleggsvare", "def": "Vare som brukes sammen med en annen, som bensin og bil." },
+    { "term": "Likevektspris", "def": "Prisen der tilbudt og etterspurt mengde er like store." },
+    { "term": "Overskuddstilbud", "def": "Prisen er over likevekt, og selgerne får ikke solgt alt." },
+    { "term": "Overskuddsetterspørsel", "def": "Prisen er under likevekt, og varene blir utsolgt." },
+    { "term": "Forskyvning av kurven", "def": "Skjer når andre forhold enn prisen endres." },
+    { "term": "Bevegelse langs kurven", "def": "Skjer når prisen på varen endres." },
+    { "term": "Subsidie", "def": "Tilskudd fra staten som senker produsentens kostnader." },
+    { "term": "Priselastisitet", "def": "Hvor mye etterspørselen endres når prisen endres." },
+    { "term": "Nødvendighetsvare", "def": "Vare med få alternativer, som strøm – lite prisfølsom." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvorfor heller etterspørselskurven nedover?", "options": ["Fordi selgerne vil selge mer ved høy pris", "Fordi kjøperne vil kjøpe mer når prisen er lav", "Fordi staten bestemmer det", "Fordi tilbudet er stort"], "correct": 1, "explain": "Lavere pris gir større etterspurt mengde." },
+    { "id": "q02", "text": "Hva skjer ved en pris over likevekt?", "options": ["Overskuddstilbud, og prisen faller", "Overskuddsetterspørsel, og prisen stiger", "Ingenting", "Varene blir utsolgt"], "correct": 0, "explain": "Selgerne sitter igjen med varer." },
+    { "id": "q03", "text": "Prisen på smør stiger kraftig. Hva skjer med etterspørselen etter margarin?", "options": ["Den synker", "Den er uendret", "Den øker", "Den forsvinner"], "correct": 2, "explain": "Margarin er en erstatningsvare." },
+    { "id": "q04", "text": "Hva forskyver tilbudskurven?", "options": ["En endring i prisen på varen", "Kjøpernes inntekt", "Nye trender", "Endrede produksjonskostnader"], "correct": 3, "explain": "Prisendringer gir bevegelse langs kurven." },
+    { "id": "q05", "text": "Hvorfor steg strømprisen i en kald og tørr vinter?", "options": ["Økt etterspørsel og mindre tilbud", "Mindre etterspørsel", "Mer tilbud", "Lavere kostnader"], "correct": 0, "explain": "Begge kurvene trakk prisen opp." },
+    { "id": "q06", "text": "Hva skjer når en avgift legges på sukkerholdige varer?", "options": ["Prisen faller og mengden øker", "Prisen stiger og mengden synker", "Ingenting", "Etterspørselen øker"], "correct": 1, "explain": "Tilbudskurven forskyves oppover." },
+    { "id": "q07", "text": "Bensin blir mye dyrere. Hva skjer trolig med etterspørselen etter store bensinbiler?", "options": ["Den øker", "Den er uendret", "Den synker", "Den dobles"], "correct": 2, "explain": "Bensin er en tilleggsvare til bil." },
+    { "id": "q08", "text": "Hva er likevektsprisen?", "options": ["Den høyeste prisen", "Prisen staten bestemmer", "Den laveste prisen", "Prisen der tilbudt og etterspurt mengde er like"], "correct": 3, "explain": "Der kurvene krysser." },
+    { "id": "q09", "text": "Hva skjer når ny teknologi gjør solcellepaneler billigere å lage?", "options": ["Tilbudet forskyves utover, prisen faller og mengden øker", "Etterspørselen synker", "Prisen stiger", "Mengden synker"], "correct": 0, "explain": "Lavere kostnader gir mer tilbud." },
+    { "id": "q10", "text": "Hvilken vare har trolig lavest priselastisitet?", "options": ["Et bestemt brusmerke", "Strøm", "En kinobillett", "En bestemt sjokolade"], "correct": 1, "explain": "Få alternativer." }
+  ],
+  "mindmap": {
+    "label": "Tilbud og etterspørsel",
+    "children": [
+      { "label": "Etterspørsel", "children": [
+        { "label": "Kurven heller nedover" },
+        { "label": "Inntekt og trender" },
+        { "label": "Erstatnings- og tilleggsvarer" }
+      ] },
+      { "label": "Tilbud", "children": [
+        { "label": "Kurven heller oppover" },
+        { "label": "Kostnader og teknologi" },
+        { "label": "Avgifter og subsidier" }
+      ] },
+      { "label": "Likevekt", "children": [
+        { "label": "Likevektspris" },
+        { "label": "Overskuddstilbud" },
+        { "label": "Overskuddsetterspørsel" }
+      ] },
+      { "label": "Endringer", "children": [
+        { "label": "Langs kurven" },
+        { "label": "Forskyvning" }
+      ] },
+      { "label": "Eksempler", "children": [
+        { "label": "Strøm" },
+        { "label": "Sukkeravgift" },
+        { "label": "Solceller" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Høyere inntekt gir vanligvis større etterspørsel.", "correct": true, "explain": "Kurven forskyves utover." },
+      { "id": "m02", "type": "sant-usant", "text": "En endring i prisen på varen forskyver hele etterspørselskurven.", "correct": false, "explain": "Den gir bevegelse langs kurven." },
+      { "id": "m03", "type": "sant-usant", "text": "Ved overskuddsetterspørsel har prisen en tendens til å stige.", "correct": true, "explain": "Varene blir utsolgt." },
+      { "id": "m04", "type": "sant-usant", "text": "Modellen for tilbud og etterspørsel passer like godt i alle markeder.", "correct": false, "explain": "Den forutsetter mange aktører og god informasjon." },
+      { "id": "m05", "type": "flervalg", "text": "Hva skjer med tilbudet etter en dårlig avling?", "options": ["Det øker", "Det synker", "Det er uendret", "Det blir uendelig"], "correct": 1, "explain": "Tilbudskurven forskyves innover." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er en subsidie?", "options": ["Et tilskudd som senker produsentens kostnader", "En avgift", "En toll", "En rente"], "correct": 0, "explain": "Gir økt tilbud." },
+      { "id": "m07", "type": "flervalg", "text": "En ny trend gjør en vare populær. Hva skjer?", "options": ["Tilbudet synker", "Prisen faller", "Etterspørselen forskyves utover og prisen stiger", "Ingenting"], "correct": 2, "explain": "Smak og trender påvirker etterspørselen." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

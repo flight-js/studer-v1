@@ -1,0 +1,80 @@
+{
+  "id": "valutakurser",
+  "fagId": "samfunnsokonomi-1",
+  "trinnId": "vg2",
+  "name": "Valutakurser",
+  "intro": "Hva en valutakurs er, hvordan du regner med valuta, hva som påvirker tilbud og etterspørsel etter kroner – renter, oljepris, handel og uro i markedene – og hvilke konsekvenser en sterk eller svak krone får for eksport, import, prisstigning og husholdninger.",
+  "kompetansemaal": [12],
+  "sammendrag": "## Hva er en valutakurs?\n\nEn **valutakurs** er **prisen** på én valuta målt i en annen. Koster én euro 11,50 kroner, er kursen på euro **11,50**. Norge har en **flytende** valutakurs: Kronekursen bestemmes av **tilbud og etterspørsel** i valutamarkedet, ikke av myndighetene.\n\n## Å regne med valuta\n\n- En vare koster 100 euro. Med kurs 11,50 koster den 100 · 11,50 = **1150 kr**.\n- Du veksler 2300 kr til euro: 2300 ÷ 11,50 = **200 euro**.\n\n## Sterk og svak krone\n\n- Kronen **styrkes** når du må betale **færre** kroner for en euro, for eksempel når kursen går fra 11,50 til 11,00.\n- Kronen **svekkes** når du må betale **flere** kroner for en euro, for eksempel fra 11,50 til 12,00.\n\nPass på: Et **høyere tall** for kursen betyr en **svakere** krone.\n\n## Hva påvirker kronekursen?\n\n**Etterspørselen etter kroner** øker når\n\n- utlendinger kjøper norske varer, som **olje**, **gass** og **fisk**\n- turister besøker Norge\n- utenlandske investorer vil plassere penger i Norge, for eksempel fordi **renten** er høy\n\n**Tilbudet av kroner** øker når nordmenn kjøper utenlandske varer, reiser til utlandet eller investerer i utlandet.\n\nViktige faktorer:\n\n- **Renteforskjeller**: Høyere rente i Norge enn i andre land gjør det mer attraktivt å eie kroner – kronen **styrkes**.\n- **Oljeprisen**: Høy oljepris gir større etterspørsel etter kroner.\n- **Uro i verden**: I usikre tider søker investorer ofte mot store og «trygge» valutaer som dollar og euro, og en liten valuta som kronen kan **svekkes**.\n- **Forventninger** om framtidig utvikling.\n\n## Konsekvenser av en svak krone\n\n- **Eksportbedrifter** tjener mer i kroner og blir mer **konkurransedyktige**.\n- **Reiselivet** får flere utenlandske turister.\n- **Importvarer** blir **dyrere**, og **prisstigningen** kan øke – **importert inflasjon**.\n- **Utenlandsreiser** blir dyrere for nordmenn.\n- Verdien av **oljefondet** målt i kroner øker, fordi fondet er investert i utenlandsk valuta.\n\n## Konsekvenser av en sterk krone\n\n- Importvarer og utenlandsreiser blir **billigere**.\n- Prisstigningen dempes.\n- **Eksportbedrifter** og **reiselivet** får **svekket** konkurranseevne og kan måtte kutte kostnader eller arbeidsplasser.\n\n## Kronen og pengepolitikken\n\nNorges Bank styrer ikke kronekursen direkte, men **renten** påvirker den. Når Norges Bank setter opp renten, blir kronen ofte **sterkere**, og det demper prisstigningen gjennom billigere import. Kronekursen er derfor en viktig del av hvordan **pengepolitikken** virker.\n\n## Fast og flytende kurs\n\nMed **fast** valutakurs forplikter sentralbanken seg til å holde kursen stabil, for eksempel ved å kjøpe og selge valuta. Det gir **forutsigbarhet** for handel, men landet mister muligheten til å bruke **renten** til å styre sin egen økonomi. Mange europeiske land har gått enda lenger og innført en **felles valuta**, euroen.\n\n## Refleksjon\n\nEn svak krone er gode nyheter for noen og dårlige for andre. Hvem som tjener og taper, avhenger av om man **eksporterer**, **importerer**, **reiser** eller har **gjeld** i utenlandsk valuta.",
+  "flashcards": [
+    { "term": "Valutakurs", "def": "Prisen på én valuta målt i en annen." },
+    { "term": "Flytende valutakurs", "def": "Kursen bestemmes av tilbud og etterspørsel i markedet." },
+    { "term": "Fast valutakurs", "def": "Sentralbanken holder kursen stabil." },
+    { "term": "Styrket krone", "def": "Man betaler færre kroner for en utenlandsk valuta." },
+    { "term": "Svekket krone", "def": "Man betaler flere kroner for en utenlandsk valuta." },
+    { "term": "Etterspørsel etter kroner", "def": "Øker når utlendinger kjøper norske varer eller investerer i Norge." },
+    { "term": "Renteforskjell", "def": "Høyere rente i Norge gjør kroner mer attraktive." },
+    { "term": "Oljeprisen og kronen", "def": "Høy oljepris gir ofte sterkere krone." },
+    { "term": "Trygg havn", "def": "Store valutaer investorer søker mot i urolige tider." },
+    { "term": "Importert inflasjon", "def": "Prisstigning fordi importvarer blir dyrere." },
+    { "term": "Konkurranseevne", "def": "Evnen norske bedrifter har til å konkurrere med utenlandske." },
+    { "term": "Eksportbedrift", "def": "Bedrift som selger varer eller tjenester til utlandet." },
+    { "term": "Felles valuta", "def": "Flere land bruker samme valuta, som euroen." },
+    { "term": "Valutamarked", "def": "Markedet der valuta kjøpes og selges." },
+    { "term": "Oljefondet i kroner", "def": "Øker i verdi når kronen svekkes." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er en valutakurs?", "options": ["En rente", "Prisen på én valuta målt i en annen", "En skatt på import", "En type aksje"], "correct": 1, "explain": "For eksempel 11,50 kroner for én euro." },
+    { "id": "q02", "text": "En vare koster 100 euro, og kursen er 11,50. Hva koster den i kroner?", "options": ["1150 kr", "115 kr", "11,50 kr", "1000 kr"], "correct": 0, "explain": "100 · 11,50." },
+    { "id": "q03", "text": "Kursen på euro går fra 11,50 til 12,00. Hva har skjedd med kronen?", "options": ["Den er styrket", "Den er uendret", "Den er svekket", "Den er fast"], "correct": 2, "explain": "Du må betale flere kroner for en euro." },
+    { "id": "q04", "text": "Hva skjer ofte med kronen når Norges Bank setter opp renten?", "options": ["Den svekkes", "Den forsvinner", "Den blir fast", "Den styrkes"], "correct": 3, "explain": "Kroner blir mer attraktive å eie." },
+    { "id": "q05", "text": "Hvem tjener på en svak krone?", "options": ["Eksportbedrifter", "Nordmenn på utenlandsreise", "Importører", "Forbrukere som kjøper importvarer"], "correct": 0, "explain": "De får mer i kroner for varene sine." },
+    { "id": "q06", "text": "Hvordan kan en svak krone påvirke prisstigningen?", "options": ["Den senker den alltid", "Den kan øke den fordi importvarer blir dyrere", "Den har ingen effekt", "Den gir deflasjon"], "correct": 1, "explain": "Importert inflasjon." },
+    { "id": "q07", "text": "Hva skjer ofte med kronen i urolige tider?", "options": ["Den styrkes kraftig", "Den blir fast", "Den kan svekkes fordi investorer søker mot store valutaer", "Den erstattes av euro"], "correct": 2, "explain": "Kronen er en liten valuta." },
+    { "id": "q08", "text": "Hva er en ulempe med fast valutakurs?", "options": ["Mindre forutsigbarhet", "Mer svingninger", "Høyere oljepris", "Landet mister muligheten til å bruke renten til å styre egen økonomi"], "correct": 3, "explain": "Renten må brukes til å holde kursen." },
+    { "id": "q09", "text": "Du veksler 2300 kr til euro med kurs 11,50. Hvor mange euro får du?", "options": ["200 euro", "264 euro", "2300 euro", "115 euro"], "correct": 0, "explain": "2300 ÷ 11,50." },
+    { "id": "q10", "text": "Hvorfor øker verdien av oljefondet i kroner når kronen svekkes?", "options": ["Fordi fondet eier norske aksjer", "Fordi fondet er investert i utenlandsk valuta", "Fordi renten stiger", "Fordi oljeprisen faller"], "correct": 1, "explain": "Utenlandske verdier blir verdt flere kroner." }
+  ],
+  "mindmap": {
+    "label": "Valutakurser",
+    "children": [
+      { "label": "Begreper", "children": [
+        { "label": "Valutakurs" },
+        { "label": "Styrket og svekket" },
+        { "label": "Fast og flytende" }
+      ] },
+      { "label": "Påvirkes av", "children": [
+        { "label": "Renteforskjeller" },
+        { "label": "Oljepris" },
+        { "label": "Uro og forventninger" }
+      ] },
+      { "label": "Svak krone", "children": [
+        { "label": "Eksport tjener" },
+        { "label": "Dyrere import" },
+        { "label": "Mer prisstigning" }
+      ] },
+      { "label": "Sterk krone", "children": [
+        { "label": "Billigere import" },
+        { "label": "Svekket konkurranseevne" }
+      ] },
+      { "label": "Politikk", "children": [
+        { "label": "Renten og kronen" },
+        { "label": "Felles valuta" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Norge har en flytende valutakurs.", "correct": true, "explain": "Kursen bestemmes i markedet." },
+      { "id": "m02", "type": "sant-usant", "text": "Et høyere tall for eurokursen betyr en sterkere krone.", "correct": false, "explain": "Det betyr en svakere krone." },
+      { "id": "m03", "type": "sant-usant", "text": "Høy oljepris gir ofte større etterspørsel etter kroner.", "correct": true, "explain": "Utlendinger må betale for norsk olje og gass." },
+      { "id": "m04", "type": "sant-usant", "text": "En sterk krone gjør utenlandsreiser dyrere for nordmenn.", "correct": false, "explain": "Den gjør dem billigere." },
+      { "id": "m05", "type": "flervalg", "text": "Hvem taper på en sterk krone?", "options": ["Nordmenn på ferie i utlandet", "Eksportbedrifter og reiselivet", "Importører", "Forbrukere"], "correct": 1, "explain": "De får svekket konkurranseevne." },
+      { "id": "m06", "type": "flervalg", "text": "Hva øker tilbudet av kroner i valutamarkedet?", "options": ["At nordmenn kjøper utenlandske varer", "At utlendinger kjøper norsk fisk", "At turister besøker Norge", "At renten i Norge stiger"], "correct": 0, "explain": "Nordmenn selger kroner for å få valuta." },
+      { "id": "m07", "type": "flervalg", "text": "Hvordan demper en sterkere krone prisstigningen?", "options": ["Ved å gjøre eksporten dyrere", "Ved å øke lønningene", "Ved å gjøre importvarer billigere", "Ved å senke renten"], "correct": 2, "explain": "En del av pengepolitikkens virkning." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

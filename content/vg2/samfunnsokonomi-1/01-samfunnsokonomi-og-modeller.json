@@ -1,0 +1,83 @@
+{
+  "id": "samfunnsokonomi-og-modeller",
+  "fagId": "samfunnsokonomi-1",
+  "trinnId": "vg2",
+  "name": "Samfunnsøkonomi, modeller og kilder",
+  "intro": "Hva samfunnsøkonomi er: knapphet, alternativkostnad, produksjonsfaktorer og økonomiske systemer, mikro- og makroøkonomi, økonomiske modeller som kretsløpsmodellen – og hvordan du bruker kilder, tall, prosent og prosentpoeng i faget.",
+  "kompetansemaal": [1],
+  "sammendrag": "## Hva er samfunnsøkonomi?\n\n**Samfunnsøkonomi** handler om hvordan et samfunn bruker **knappe ressurser** for å dekke menneskers **behov**. Behovene er nesten ubegrensede, men ressursene – arbeidskraft, tid, natur og kapital – er **begrenset**. Derfor må vi gjøre **valg**.\n\n## Alternativkostnad\n\nNår vi velger noe, gir vi opp noe annet. **Alternativkostnaden** er verdien av det **beste alternativet** vi velger bort. Bruker staten en milliard på vei, kan de samme pengene ikke brukes på sykehus.\n\n## Produksjonsfaktorer\n\nFor å produsere varer og tjenester trengs\n\n- **arbeidskraft** – menneskers innsats og kunnskap\n- **realkapital** – maskiner, bygninger og utstyr\n- **naturressurser** – jord, vann, fisk, olje og gass\n- **teknologi** og **kunnskap**, som gjør at vi kan produsere mer med de samme ressursene\n\n## Tre grunnspørsmål\n\nAlle samfunn må svare på **hva** som skal produseres, **hvordan** det skal produseres og **hvem** som skal få det.\n\n- I en **markedsøkonomi** avgjøres dette i stor grad av **tilbud** og **etterspørsel**.\n- I en **planøkonomi** bestemmer **staten**.\n- Norge har en **blandingsøkonomi**: Markedet styrer mye, men staten har stor rolle gjennom skatter, velferd, regulering og eierskap.\n\n## Mikro og makro\n\n- **Mikroøkonomi** studerer **enkeltaktører**: husholdninger, bedrifter og enkeltmarkeder.\n- **Makroøkonomi** studerer **hele økonomien**: produksjon, arbeidsledighet, prisstigning, renter og handel med utlandet.\n\n## Økonomiske modeller\n\nEn **modell** er en **forenkling** av virkeligheten som hjelper oss å forstå sammenhenger. Modeller bygger på **forutsetninger** – for eksempel at «**alt annet er likt**» når vi ser på effekten av én endring.\n\n**Kretsløpsmodellen** viser at **husholdningene** leverer **arbeidskraft** til **bedriftene** og får **lønn**, mens bedriftene leverer **varer og tjenester** som husholdningene betaler for. Modellen kan utvides med **staten**, **banker** og **utlandet**.\n\nModeller er nyttige, men de kan gi **feil** svar når forutsetningene ikke stemmer med virkeligheten.\n\n## Positive og normative påstander\n\n- En **positiv** påstand handler om hvordan noe **er**, og kan testes: «Arbeidsledigheten økte i fjor.»\n- En **normativ** påstand handler om hvordan noe **bør være**: «Staten bør bruke mer penger på skole.»\n\nØkonomer er ofte uenige om **normative** spørsmål fordi de har ulike **verdier**.\n\n## Kilder\n\n- **SSB** – offisiell statistikk om befolkning, priser og økonomi\n- **Norges Bank** – renter og pengepolitikk\n- **Finansdepartementet** – statsbudsjettet og nasjonalbudsjettet\n- **NAV** – arbeidsledighet\n- internasjonale kilder som **OECD** og **IMF**\n\n**Interesseorganisasjoner** for arbeidsgivere og arbeidstakere har nyttige analyser, men også **egne interesser**.\n\n## Tall i samfunnsøkonomi\n\n- **Nominelle** tall er målt i løpende kroner. **Reelle** tall er justert for **prisstigning**.\n- **Prosent** og **prosentpoeng** er ikke det samme. Stiger renten fra 4 % til 5 %, har den økt med **ett prosentpoeng**, men med **25 prosent**.\n- En **indeks** viser utviklingen i forhold til et **basisår**, som settes til 100.",
+  "flashcards": [
+    { "term": "Samfunnsøkonomi", "def": "Hvordan samfunnet bruker knappe ressurser for å dekke behov." },
+    { "term": "Knapphet", "def": "Ressursene er begrenset, mens behovene nesten er ubegrensede." },
+    { "term": "Alternativkostnad", "def": "Verdien av det beste alternativet man velger bort." },
+    { "term": "Produksjonsfaktorer", "def": "Arbeidskraft, realkapital, naturressurser og teknologi." },
+    { "term": "Realkapital", "def": "Maskiner, bygninger og utstyr som brukes i produksjonen." },
+    { "term": "Markedsøkonomi", "def": "Tilbud og etterspørsel styrer hva som produseres." },
+    { "term": "Planøkonomi", "def": "Staten bestemmer hva som produseres." },
+    { "term": "Blandingsøkonomi", "def": "Marked og stat styrer økonomien sammen, som i Norge." },
+    { "term": "Mikroøkonomi", "def": "Studerer husholdninger, bedrifter og enkeltmarkeder." },
+    { "term": "Makroøkonomi", "def": "Studerer hele økonomien." },
+    { "term": "Økonomisk modell", "def": "Forenkling av virkeligheten med forutsetninger." },
+    { "term": "Kretsløpsmodellen", "def": "Viser strømmene av varer, arbeid og penger mellom husholdninger og bedrifter." },
+    { "term": "Positiv påstand", "def": "Hvordan noe er – kan testes." },
+    { "term": "Normativ påstand", "def": "Hvordan noe bør være – bygger på verdier." },
+    { "term": "Prosentpoeng", "def": "Forskjellen mellom to prosenttall." },
+    { "term": "Reelle tall", "def": "Tall justert for prisstigning." },
+    { "term": "Indeks", "def": "Viser utviklingen i forhold til et basisår satt til 100." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er alternativkostnad?", "options": ["Prisen på en vare", "Verdien av det beste alternativet man velger bort", "Skatten på en vare", "Kostnaden for staten"], "correct": 1, "explain": "Alle valg har en alternativkostnad." },
+    { "id": "q02", "text": "Hvilken økonomisk modell har Norge?", "options": ["Blandingsøkonomi", "Ren planøkonomi", "Ren markedsøkonomi", "Naturalhusholdning"], "correct": 0, "explain": "Marked og stat styrer sammen." },
+    { "id": "q03", "text": "Hva studerer makroøkonomi?", "options": ["Én bedrift", "Én husholdning", "Hele økonomien", "Ett marked"], "correct": 2, "explain": "For eksempel arbeidsledighet og prisstigning." },
+    { "id": "q04", "text": "Hvilken påstand er normativ?", "options": ["Arbeidsledigheten økte i fjor", "Renten er 4 %", "BNP vokste med 2 %", "Staten bør bruke mer penger på skole"], "correct": 3, "explain": "Den handler om hva som bør være." },
+    { "id": "q05", "text": "Renten stiger fra 4 % til 5 %. Hvor mye har den økt?", "options": ["Ett prosentpoeng, eller 25 prosent", "Ett prosent", "Fem prosentpoeng", "20 prosent"], "correct": 0, "explain": "(5 − 4) ÷ 4 = 25 %." },
+    { "id": "q06", "text": "Hva viser kretsløpsmodellen?", "options": ["Hvordan været påvirker økonomien", "Strømmene av varer, arbeid og penger mellom husholdninger og bedrifter", "Hvordan en bedrift lager budsjett", "Hvordan aksjer handles"], "correct": 1, "explain": "Kan utvides med staten, banker og utlandet." },
+    { "id": "q07", "text": "Hva er realkapital?", "options": ["Penger i banken", "Aksjer", "Maskiner, bygninger og utstyr", "Arbeidskraft"], "correct": 2, "explain": "En produksjonsfaktor." },
+    { "id": "q08", "text": "Hvilken kilde gir offisiell statistikk om økonomien i Norge?", "options": ["En interesseorganisasjon", "En blogg", "En bank sin reklame", "SSB"], "correct": 3, "explain": "Statistisk sentralbyrå." },
+    { "id": "q09", "text": "Hva betyr forutsetningen «alt annet likt»?", "options": ["At vi ser på effekten av én endring mens alt annet holdes fast", "At alle er like", "At prisene aldri endres", "At modellen alltid stemmer"], "correct": 0, "explain": "En vanlig forenkling i modeller." },
+    { "id": "q10", "text": "Hva er reelle tall?", "options": ["Tall i løpende kroner", "Tall justert for prisstigning", "Tall fra utlandet", "Avrundede tall"], "correct": 1, "explain": "Nominelle tall er ikke justert." }
+  ],
+  "mindmap": {
+    "label": "Samfunnsøkonomi",
+    "children": [
+      { "label": "Grunnbegreper", "children": [
+        { "label": "Knapphet" },
+        { "label": "Alternativkostnad" },
+        { "label": "Produksjonsfaktorer" }
+      ] },
+      { "label": "Systemer", "children": [
+        { "label": "Marked" },
+        { "label": "Plan" },
+        { "label": "Blanding" }
+      ] },
+      { "label": "Nivåer", "children": [
+        { "label": "Mikro" },
+        { "label": "Makro" }
+      ] },
+      { "label": "Modeller", "children": [
+        { "label": "Forutsetninger" },
+        { "label": "Kretsløpsmodellen" },
+        { "label": "Positiv og normativ" }
+      ] },
+      { "label": "Kilder og tall", "children": [
+        { "label": "SSB og Norges Bank" },
+        { "label": "Prosentpoeng" },
+        { "label": "Reelt og nominelt" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Økonomiske modeller er forenklinger av virkeligheten.", "correct": true, "explain": "De bygger på forutsetninger." },
+      { "id": "m02", "type": "sant-usant", "text": "En positiv påstand handler om hvordan noe bør være.", "correct": false, "explain": "Den handler om hvordan noe er." },
+      { "id": "m03", "type": "sant-usant", "text": "Interesseorganisasjoner kan ha egne interesser i analysene de lager.", "correct": true, "explain": "Vær kildekritisk." },
+      { "id": "m04", "type": "sant-usant", "text": "I en planøkonomi er det tilbud og etterspørsel som bestemmer produksjonen.", "correct": false, "explain": "I en planøkonomi bestemmer staten." },
+      { "id": "m05", "type": "flervalg", "text": "Hva studerer mikroøkonomi?", "options": ["Hele økonomien", "Husholdninger, bedrifter og enkeltmarkeder", "Bare staten", "Bare utlandet"], "correct": 1, "explain": "Enkeltaktører." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er et basisår i en indeks?", "options": ["Året som settes til 100", "Det siste året", "Året med høyest pris", "Et tilfeldig år"], "correct": 0, "explain": "Andre år sammenlignes med det." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilken aktør har ansvar for renter og pengepolitikk?", "options": ["NAV", "SSB", "Norges Bank", "Konkurransetilsynet"], "correct": 2, "explain": "Sentralbanken." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

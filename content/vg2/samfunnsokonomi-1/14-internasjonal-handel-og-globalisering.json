@@ -1,0 +1,81 @@
+{
+  "id": "internasjonal-handel-og-globalisering",
+  "fagId": "samfunnsokonomi-1",
+  "trinnId": "vg2",
+  "name": "Internasjonal handel og globalisering",
+  "intro": "Hvorfor land handler med hverandre – ulike ressurser, komparative fortrinn, spesialisering og stordriftsfordeler – Norges handel, handelshindringer og frihandelsavtaler som EØS og WTO, og muligheter og utfordringer ved økonomisk globalisering.",
+  "kompetansemaal": [13],
+  "sammendrag": "## Hvorfor handler land?\n\n- **Ulike ressurser**: Norge har olje, gass, fisk og vannkraft, men kan ikke dyrke bananer og kaffe.\n- **Spesialisering**: Når land konsentrerer seg om det de er best på, blir den samlede produksjonen **større**.\n- **Stordriftsfordeler**: Produksjon i stor skala for et verdensmarked gir **lavere kostnader** per enhet.\n- **Variasjon**: Forbrukerne får et større **utvalg** av varer.\n- **Konkurranse** fra utlandet presser bedriftene til å bli mer **effektive**.\n\n## Komparative fortrinn\n\nDen britiske økonomen **David Ricardo** viste på 1800-tallet at handel lønner seg **selv om** ett land er bedre enn et annet til å produsere **alt**.\n\n- Et land har et **absolutt fortrinn** når det kan produsere en vare **billigere** enn andre.\n- Et land har et **komparativt fortrinn** når det har **lavest alternativkostnad** – når det gir opp **minst** av andre varer for å produsere den.\n\nHvis hvert land spesialiserer seg i varene der det har komparativt fortrinn, og handler resten, kan **begge** land få mer.\n\n## Norges handel\n\nNorge er en liten, **åpen** økonomi med mye handel. De viktigste eksportvarene er **olje og gass**, **fisk og sjømat** og **metaller**. Vi importerer blant annet **biler**, **maskiner**, **klær**, **elektronikk** og mat. De viktigste handelspartnerne er land i **EU** og **Storbritannia**.\n\n## Handelshindringer\n\n- **Toll**: en skatt på importerte varer\n- **Kvoter**: grenser for hvor mye som kan importeres\n- **Subsidier** til egne produsenter\n- **Tekniske krav** og ulike standarder\n\nHandelshindringer kan **beskytte** arbeidsplasser og næringer, som **norsk landbruk**, men gir **høyere priser** for forbrukerne og mindre effektiv produksjon. Å beskytte egne næringer kalles **proteksjonisme**.\n\n## Frihandelsavtaler\n\n- **WTO** – Verdens handelsorganisasjon – lager regler for handel mellom de fleste land i verden og skal redusere handelshindringer.\n- **EØS-avtalen** fra **1994** gir Norge tilgang til **EUs indre marked** med fri flyt av **varer**, **tjenester**, **kapital** og **personer**. Norge må til gjengjeld følge mange av EUs regler.\n- Gjennom **EFTA** har Norge frihandelsavtaler med en rekke andre land.\n\n## Globalisering\n\n**Økonomisk globalisering** betyr at landenes økonomier blir **tettere knyttet sammen** gjennom handel, investeringer, arbeidskraft og teknologi.\n\n**Muligheter**:\n\n- høyere **økonomisk vekst** og billigere varer\n- raskere spredning av **teknologi** og kunnskap\n- mange land har fått **mindre fattigdom**\n- norske bedrifter får et **større marked**\n\n**Utfordringer**:\n\n- **utflytting** av industriarbeidsplasser til land med lavere lønn\n- økt **ulikhet** innad i land\n- **sårbare verdikjeder**: Pandemien og krig viste at mangel på én komponent kan stanse produksjon verden over\n- **miljø**: mer transport og produksjon i land med svake miljøkrav\n- dårlige **arbeidsforhold** hos leverandører\n- **skatteplanlegging** i store internasjonale selskaper\n\n## Motstrøm\n\nDe siste årene har flere land innført **nye tollsatser** og vil produsere mer **selv** av hensyn til **sikkerhet** og **selvforsyning**. Hvordan en slik utvikling påvirker en liten, åpen økonomi som Norge, er et viktig spørsmål.",
+  "flashcards": [
+    { "term": "Spesialisering", "def": "Å konsentrere seg om det man er best på." },
+    { "term": "Stordriftsfordeler", "def": "Lavere kostnader per enhet ved stor produksjon." },
+    { "term": "Absolutt fortrinn", "def": "Å kunne produsere en vare billigere enn andre." },
+    { "term": "Komparativt fortrinn", "def": "Å ha lavest alternativkostnad for en vare." },
+    { "term": "David Ricardo", "def": "Økonom som beskrev komparative fortrinn." },
+    { "term": "Åpen økonomi", "def": "Økonomi med mye handel med utlandet." },
+    { "term": "Toll", "def": "Skatt på importerte varer." },
+    { "term": "Importkvote", "def": "Grense for hvor mye som kan importeres." },
+    { "term": "Proteksjonisme", "def": "Å beskytte egne næringer mot utenlandsk konkurranse." },
+    { "term": "WTO", "def": "Verdens handelsorganisasjon, lager regler for internasjonal handel." },
+    { "term": "EØS-avtalen", "def": "Gir Norge tilgang til EUs indre marked siden 1994." },
+    { "term": "De fire friheter", "def": "Fri flyt av varer, tjenester, kapital og personer." },
+    { "term": "EFTA", "def": "Frihandelsorganisasjon som Norge er medlem av." },
+    { "term": "Globalisering", "def": "At landenes økonomier knyttes tettere sammen." },
+    { "term": "Verdikjede", "def": "Alle leddene fra råvare til ferdig produkt." },
+    { "term": "Selvforsyning", "def": "Å produsere det man trenger selv." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er et komparativt fortrinn?", "options": ["Å produsere alt billigst", "Å ha lavest alternativkostnad for en vare", "Å ha mest olje", "Å ha høyest toll"], "correct": 1, "explain": "Beskrevet av David Ricardo." },
+    { "id": "q02", "text": "Hvorfor kan handel lønne seg selv om ett land er best på alt?", "options": ["Fordi land har ulike alternativkostnader", "Fordi handel alltid er gratis", "Fordi toll gir inntekter", "Det kan det ikke"], "correct": 0, "explain": "Begge kan få mer ved å spesialisere seg." },
+    { "id": "q03", "text": "Hva er Norges viktigste eksportvarer?", "options": ["Biler og klær", "Kaffe og bananer", "Olje, gass, fisk og metaller", "Elektronikk og maskiner"], "correct": 2, "explain": "Naturressurser er viktige." },
+    { "id": "q04", "text": "Hva er toll?", "options": ["En subsidie", "En kvote", "En frihandelsavtale", "En skatt på importerte varer"], "correct": 3, "explain": "En handelshindring." },
+    { "id": "q05", "text": "Hva gir EØS-avtalen Norge?", "options": ["Tilgang til EUs indre marked", "Medlemskap i EU", "Egen valuta i EU", "Fritak fra alle EU-regler"], "correct": 0, "explain": "Fri flyt av varer, tjenester, kapital og personer." },
+    { "id": "q06", "text": "Hva er en ulempe med handelshindringer for forbrukerne?", "options": ["Lavere priser", "Høyere priser", "Mer utvalg", "Mer konkurranse"], "correct": 1, "explain": "Men de kan beskytte arbeidsplasser." },
+    { "id": "q07", "text": "Hva er stordriftsfordeler?", "options": ["Høyere kostnader ved stor produksjon", "Fordeler ved å være liten", "Lavere kostnader per enhet ved stor produksjon", "Høyere toll"], "correct": 2, "explain": "Et verdensmarked gjør stor skala mulig." },
+    { "id": "q08", "text": "Hva viste pandemien om globale verdikjeder?", "options": ["At de er helt trygge", "At handel ikke betyr noe", "At transport er gratis", "At mangel på én komponent kan stanse produksjon verden over"], "correct": 3, "explain": "Verdikjedene er sårbare." },
+    { "id": "q09", "text": "Hva gjør WTO?", "options": ["Lager regler for handel mellom land", "Styrer Norges rente", "Eier oljefondet", "Bestemmer valutakursene"], "correct": 0, "explain": "Skal redusere handelshindringer." },
+    { "id": "q10", "text": "Hva er en mulighet ved globalisering?", "options": ["Mer utflytting av arbeidsplasser", "Raskere spredning av teknologi og mindre fattigdom", "Sårbare verdikjeder", "Mer skatteplanlegging"], "correct": 1, "explain": "Mange land har fått høyere velstand." }
+  ],
+  "mindmap": {
+    "label": "Internasjonal handel",
+    "children": [
+      { "label": "Årsaker", "children": [
+        { "label": "Ulike ressurser" },
+        { "label": "Spesialisering" },
+        { "label": "Stordrift" }
+      ] },
+      { "label": "Ricardo", "children": [
+        { "label": "Absolutt fortrinn" },
+        { "label": "Komparativt fortrinn" }
+      ] },
+      { "label": "Norge", "children": [
+        { "label": "Olje, fisk og metaller" },
+        { "label": "EU som partner" }
+      ] },
+      { "label": "Regler", "children": [
+        { "label": "Toll og kvoter" },
+        { "label": "WTO" },
+        { "label": "EØS og EFTA" }
+      ] },
+      { "label": "Globalisering", "children": [
+        { "label": "Vekst og teknologi" },
+        { "label": "Ulikhet og utflytting" },
+        { "label": "Sårbare verdikjeder" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Norge er en liten, åpen økonomi med mye handel.", "correct": true, "explain": "Handel er svært viktig for Norge." },
+      { "id": "m02", "type": "sant-usant", "text": "EØS-avtalen gjør Norge til medlem av EU.", "correct": false, "explain": "Den gir tilgang til det indre markedet uten medlemskap." },
+      { "id": "m03", "type": "sant-usant", "text": "Konkurranse fra utlandet kan gjøre bedrifter mer effektive.", "correct": true, "explain": "De må forbedre seg for å overleve." },
+      { "id": "m04", "type": "sant-usant", "text": "Globalisering har bare positive virkninger.", "correct": false, "explain": "Den gir også utfordringer som ulikhet og sårbare verdikjeder." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken norsk næring er beskyttet av toll?", "options": ["Oljenæringen", "Landbruket", "Fiskeoppdrett", "IT"], "correct": 1, "explain": "For å sikre norsk matproduksjon." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er proteksjonisme?", "options": ["Å beskytte egne næringer mot utenlandsk konkurranse", "Å fjerne all toll", "Å øke eksporten", "Å innføre felles valuta"], "correct": 0, "explain": "For eksempel med toll og kvoter." },
+      { "id": "m07", "type": "flervalg", "text": "Hvorfor vil flere land produsere mer selv i dag?", "options": ["For å øke importen", "For å redusere eksporten", "Av hensyn til sikkerhet og selvforsyning", "For å få lavere lønn"], "correct": 2, "explain": "En motstrøm mot globaliseringen." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
