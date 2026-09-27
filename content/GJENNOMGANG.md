@@ -961,3 +961,60 @@ Læreplan: [FSP01-04](https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurder
 - 🟡 **Å lese tysk litteratur** – utkast (362 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
 - 🟡 **Ungdomskultur, fritid og språklæring** – utkast (377 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
 
+## Historie (vg3) – 14 av 14 temaer ferdig
+
+Læreplan: [HIS01-03](https://www.udir.no/lk20/his01-03/kompetansemaal-og-vurdering/kv85)
+
+- 🟡 **Historiebruk og fortolkninger av fortiden** – utkast (437 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Historisk metode og ulike framstillinger** – utkast (441 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Historiske personer og handlingsrom** – utkast (445 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Brudd, kontinuitet og historisk betydning** – utkast (434 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Ideologier og politiske omveltninger** – utkast (444 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Teknologiske omveltninger** – utkast (428 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Migrasjon og kulturmøter** – utkast (442 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Kolonialisme og imperialisme** – utkast (482 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Verdenskrigene, andre konflikter og fredsslutninger** – utkast (471 ord · 16 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Ideologier, undertrykkelse, terror og folkemord** – utkast (443 ord · 16 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Historiebruk og nasjonal identitet i Norge** – utkast (481 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Myndiggjøring og frigjøring i norsk og samisk historie** – utkast (426 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Velferdsutviklingen i Norge på 1900-tallet** – utkast (369 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Mennesket, naturen og ressursene i historien** – utkast (459 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+
+## Norsk (vg3) – 12 av 12 temaer ferdig
+
+Læreplan: [NOR01-08](https://www.udir.no/lk20/nor01-08/kompetansemaal-og-vurdering/kv1114)
+
+- 🟡 **Realismen og det moderne gjennombruddet** – utkast (400 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Naturalismen og nyromantikken** – utkast (457 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Litteratur fra 1900 til 1945** – utkast (443 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Modernismen og litteraturen 1945–1980** – utkast (459 ord · 16 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Samtidslitteratur fra 1980 til i dag** – utkast (448 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Essay** – utkast (493 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Litterære tolkninger og sammenligninger** – utkast (468 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Retorisk analyse og tolkning av sakprosa** – utkast (438 ord · 15 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+- 🟡 **Sammensatte tekster i ulike medier** – utkast (429 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Fagartikkel, kildebruk og språklige formkrav** – utkast (446 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Muntlige presentasjoner, samtaler og fordypning** – utkast (428 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Talespråk i endring** – utkast (483 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+
+## Religion og etikk (vg3) – 16 av 16 temaer ferdig
+
+Læreplan: [REL01-02](https://www.udir.no/lk20/rel01-02/kompetansemaal-og-vurdering/kv172)
+
+- 🟡 **Religion, livssyn og sentrale fagbegreper** – utkast (414 ord · 16 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Kristendommen** – utkast (434 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Islam** – utkast (478 ord · 16 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Jødedommen** – utkast (445 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Hinduisme, buddhisme og andre østlige tradisjoner** – utkast (470 ord · 16 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Humanisme og sekulære livssyn** – utkast (426 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Religion i historiske endringsprosesser** – utkast (437 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Religion og livssyn i majoritets-, minoritets- og urfolksperspektiv** – utkast (427 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Religion, livssyn og politikk** – utkast (436 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Religion og livssyn i medier og populærkultur** – utkast (427 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Religions- og livssynskritikk** – utkast (434 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Eksistensielle spørsmål og svar** – utkast (473 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Ideer om mennesket i ulike filosofiske tradisjoner** – utkast (452 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Etikk i kommunikasjon, relasjoner og identitet** – utkast (446 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Menneskeverd og naturens egenverdi i møte med teknologi** – utkast (456 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Fordommer, rasisme og diskriminering** – utkast (460 ord · 16 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+

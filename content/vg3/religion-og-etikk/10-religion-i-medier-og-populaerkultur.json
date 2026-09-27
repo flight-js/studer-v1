@@ -1,0 +1,80 @@
+{
+  "id": "religion-i-medier-og-populaerkultur",
+  "fagId": "religion-og-etikk",
+  "trinnId": "vg3",
+  "name": "Religion og livssyn i medier og populærkultur",
+  "intro": "Hvordan religioner og livssyn kommer til uttrykk i nyheter, sosiale medier, film, serier, musikk, spill og reklame – mediefremstilling og stereotypier, religiøse aktører i sosiale medier og hvordan du analyserer religion i populærkulturen.",
+  "kompetansemaal": [5],
+  "sammendrag": "## Religion i mediene\n\nFor mange er **mediene** den viktigste kilden til kunnskap om religioner de ikke selv tilhører. Derfor har **mediefremstillingen** stor betydning for hvordan vi ser på andre.\n\n## Nyhetsmedier\n\nNyheter er preget av **nyhetskriterier**: **konflikt**, **sensasjon**, **aktualitet** og **nærhet**. Det gjør at religion ofte havner i nyhetene når det er **konflikt**, **terror** eller **skandaler**. Forskning har vist at **islam** i vestlige medier ofte framstilles i sammenheng med **vold** og **problemer**, mens hverdagslivet til de fleste muslimer sjelden vises.\n\nDette kan skape **stereotypier** – forenklede bilder av en hel gruppe. Samtidig finnes det mange **nyanserte** reportasjer, dokumentarer og debattprogrammer.\n\n## Sosiale medier\n\nI **sosiale medier** kan religiøse og livssynsmessige aktører nå ut **direkte** til mange:\n\n- **Troende påvirkere** deler bønn, klesstil og hverdagsliv.\n- **Trossamfunn** bruker video og strømming av gudstjenester.\n- **Kritikere** av religion når også et stort publikum.\n\nAlgoritmer kan skape **ekkokamre** der vi mest møter synspunkter vi er enige i, og **ekstremister** kan bruke sosiale medier til **propaganda** og **rekruttering**.\n\n## Populærkultur\n\nReligion er til stede i mye **populærkultur**:\n\n- **Film og serier**: bibelske fortellinger, filmer om **engler**, **demoner** og **eksorsisme**, og serier der religiøse karakterer er en del av hverdagen. I den norske serien **Skam** var **Sana** en muslimsk hovedperson som mange unge kjente seg igjen i.\n- **Musikk**: gospel, julesanger, joik, religiøse referanser i pop og hiphop – og noen artister som **kritiserer** religion.\n- **Spill**: mytologi og religiøse symboler brukes i mange **dataspill**.\n- **Litteratur og tegneserier**: for eksempel fantasy med religiøse temaer.\n- **Reklame**: julens budskap brukes til å selge varer, og religiøse symboler kan skape **kontroverser**.\n\n**Mytologier**, som norrøn og gresk, er populære i film og spill, og mange lærer om **Tor** og **Odin** gjennom superheltfilmer.\n\n## Religion i populærkultur – tre måter\n\n- **Religion i** populærkulturen: religiøse personer, symboler og fortellinger brukes.\n- **Populærkultur som religion**: fans kan ha nesten **religiøse** ritualer og hengivenhet, for eksempel rundt idrett eller musikk.\n- **Religion som bruker** populærkulturen: trossamfunn bruker populærkulturelle former for å nå ut.\n\n## Analysere religion i medier\n\n1. **Hvem** er avsender, og hva er **formålet**?\n2. **Hvordan** framstilles religionen – som **positiv**, **negativ**, **eksotisk** eller **hverdagslig**?\n3. **Hvem** får **snakke** – de troende selv, eller andre som snakker om dem?\n4. Hvilke **virkemidler** brukes – bilder, musikk, vinkling?\n5. Bidrar framstillingen til **forståelse** eller til **stereotypier**?\n\n## Refleksjon\n\nMediene kan både **bygge bro** mellom mennesker med ulik tro og **forsterke fordommer**. Å være **mediekritisk** er derfor en viktig del av å forstå religion og livssyn i dag.",
+  "flashcards": [
+    { "term": "Mediefremstilling", "def": "Hvordan mediene framstiller en gruppe eller et tema." },
+    { "term": "Nyhetskriterier", "def": "Konflikt, sensasjon, aktualitet og nærhet." },
+    { "term": "Stereotypi", "def": "Forenklet bilde av en hel gruppe." },
+    { "term": "Vinkling", "def": "Hvilken side av en sak mediene velger å legge vekt på." },
+    { "term": "Troende påvirker", "def": "Person som deler religiøst hverdagsliv i sosiale medier." },
+    { "term": "Ekkokammer", "def": "Når vi mest møter synspunkter vi er enige i." },
+    { "term": "Algoritme", "def": "Program som bestemmer hva vi ser i sosiale medier." },
+    { "term": "Populærkultur", "def": "Kultur for et bredt publikum, som film, musikk og spill." },
+    { "term": "Sana i Skam", "def": "Muslimsk hovedperson i den norske serien Skam." },
+    { "term": "Mytologi", "def": "Fortellinger om guder og helter, som norrøne myter." },
+    { "term": "Populærkultur som religion", "def": "Når fans har nesten religiøse ritualer og hengivenhet." },
+    { "term": "Religiøse symboler i reklame", "def": "Kan skape kontroverser." },
+    { "term": "Mediekritikk", "def": "Å vurdere kritisk hvordan mediene framstiller virkeligheten." },
+    { "term": "Propaganda", "def": "Ensidig informasjon for å påvirke folk." },
+    { "term": "Hverdagsreligiøsitet", "def": "Hvordan religion leves i det vanlige livet." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvorfor havner religion ofte i nyhetene ved konflikter?", "options": ["Fordi religion bare handler om konflikt", "Fordi nyhetskriterier som konflikt og sensasjon styrer hva som blir nyheter", "Fordi journalister hater religion", "Fordi det er lovpålagt"], "correct": 1, "explain": "Hverdagslivet blir sjeldnere vist." },
+    { "id": "q02", "text": "Hva er en stereotypi?", "options": ["Et forenklet bilde av en hel gruppe", "En nyhetsartikkel", "En religiøs tekst", "En type film"], "correct": 0, "explain": "Kan skape fordommer." },
+    { "id": "q03", "text": "Hva er et ekkokammer?", "options": ["Et rom i en kirke", "En type musikk", "Når vi mest møter synspunkter vi er enige i", "En nyhetskanal"], "correct": 2, "explain": "Algoritmer kan forsterke dette." },
+    { "id": "q04", "text": "Hvem var Sana i serien Skam?", "options": ["En kristen prest", "En ateist", "En buddhistisk munk", "En muslimsk hovedperson"], "correct": 3, "explain": "Mange unge kjente seg igjen i henne." },
+    { "id": "q05", "text": "Hva betyr populærkultur som religion?", "options": ["At fans kan ha nesten religiøse ritualer og hengivenhet", "At kirker lager film", "At religion er forbudt i film", "At alle filmer handler om Gud"], "correct": 0, "explain": "For eksempel rundt idrett eller musikk." },
+    { "id": "q06", "text": "Hvordan kan ekstremister bruke sosiale medier?", "options": ["Til å skape forsoning", "Til propaganda og rekruttering", "Til å stenge nettet", "De bruker ikke sosiale medier"], "correct": 1, "explain": "En utfordring for samfunnet." },
+    { "id": "q07", "text": "Hvilket spørsmål er viktig når du analyserer religion i medier?", "options": ["Hvor lang filmen er", "Hvilken farge logoen har", "Hvem får snakke – de troende selv eller andre?", "Hvor mye reklame det er"], "correct": 2, "explain": "Innenfra- eller utenfraperspektiv." },
+    { "id": "q08", "text": "Hvor lærer mange om Tor og Odin i dag?", "options": ["Bare i kirken", "Bare i skolen", "Aldri", "Gjennom superheltfilmer og spill"], "correct": 3, "explain": "Mytologi i populærkulturen." },
+    { "id": "q09", "text": "Hva har forskning vist om framstillingen av islam i vestlige medier?", "options": ["At islam ofte framstilles i sammenheng med vold og problemer", "At islam aldri nevnes", "At islam bare framstilles positivt", "At alle muslimer vises i hverdagen"], "correct": 0, "explain": "Kan skape stereotypier." },
+    { "id": "q10", "text": "Hva kan mediene bidra til?", "options": ["Bare fordommer", "Både å bygge bro og forsterke fordommer", "Bare forståelse", "Ingenting"], "correct": 1, "explain": "Derfor er mediekritikk viktig." }
+  ],
+  "mindmap": {
+    "label": "Religion i medier og populærkultur",
+    "children": [
+      { "label": "Nyheter", "children": [
+        { "label": "Nyhetskriterier" },
+        { "label": "Stereotypier" }
+      ] },
+      { "label": "Sosiale medier", "children": [
+        { "label": "Troende påvirkere" },
+        { "label": "Ekkokamre" },
+        { "label": "Propaganda" }
+      ] },
+      { "label": "Populærkultur", "children": [
+        { "label": "Film og serier" },
+        { "label": "Musikk og spill" },
+        { "label": "Reklame" }
+      ] },
+      { "label": "Tre måter", "children": [
+        { "label": "Religion i populærkultur" },
+        { "label": "Populærkultur som religion" },
+        { "label": "Religion bruker populærkultur" }
+      ] },
+      { "label": "Analyse", "children": [
+        { "label": "Avsender og vinkling" },
+        { "label": "Hvem får snakke" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "For mange er mediene den viktigste kilden til kunnskap om andre religioner.", "correct": true, "explain": "Derfor er framstillingen viktig." },
+      { "id": "m02", "type": "sant-usant", "text": "Trossamfunn bruker aldri sosiale medier.", "correct": false, "explain": "Mange strømmer gudstjenester og lager video." },
+      { "id": "m03", "type": "sant-usant", "text": "Religiøse symboler i reklame kan skape kontroverser.", "correct": true, "explain": "Noen opplever det som respektløst." },
+      { "id": "m04", "type": "sant-usant", "text": "Alle medier framstiller religion likt.", "correct": false, "explain": "Framstillingen varierer mye." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilket nyhetskriterium gjør at terror får mye oppmerksomhet?", "options": ["Hverdag", "Konflikt og sensasjon", "Stillhet", "Harmoni"], "correct": 1, "explain": "Nyheter vektlegger det uvanlige." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er vinkling i en nyhetssak?", "options": ["Hvilken side av saken som vektlegges", "Kameravinkelen alene", "Antall ord", "Tidspunktet"], "correct": 0, "explain": "Påvirker hvordan vi forstår saken." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er et eksempel på religion som bruker populærkulturen?", "options": ["Fans av et fotballag", "En superheltfilm om Tor", "Et trossamfunn som lager musikkvideoer for å nå ut", "En julereklame for sko"], "correct": 2, "explain": "Religiøse aktører tar i bruk populærkulturens former." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

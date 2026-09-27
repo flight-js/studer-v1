@@ -82,9 +82,9 @@ insert into public.fag (id, trinn_id, navn, lareplan_kode, lareplan_url, kompeta
   ('markedsforing-og-ledelse-1', 'vg2', 'Markedsføring og ledelse 1', 'MFL01-04', 'https://www.udir.no/lk20/mfl01-04/kompetansemaal-og-vurdering/kv887', '[{"nr":1,"tekst":"velge og bruke kilder, markedsførings- og ledelsesteorier og modeller i arbeid med faglige spørsmål, emner og dagsaktuelle problemstillinger"},{"nr":2,"tekst":"vurdere forhold som påvirker forbrukeratferd, og reflektere over psykologiske, sosiale og kulturelle faktorer"},{"nr":3,"tekst":"utvikle forretningsideer og mål for virksomheten og vurdere aktuelle målgrupper"},{"nr":4,"tekst":"bruke og utvikle markedsundersøkelser for å utforske og få innsikt i markeder og målgrupper"},{"nr":5,"tekst":"gjennomføre situasjonsanalyser som grunnlag for beslutninger"},{"nr":6,"tekst":"utforske produkt- og merkevarestrategier og vurdere hvordan virksomheter bruker produkter som konkurransemiddel"},{"nr":7,"tekst":"utforske ulike distribusjonsstrategier i markedsføring og vurdere hvordan virksomheter bruker distribusjon som konkurransemiddel"},{"nr":8,"tekst":"utforske ulike prisstrategier og prissettingsmetoder og vurdere hvordan virksomheter bruker pris som konkurransemiddel"},{"nr":9,"tekst":"utforske ulike kommunikasjonsstrategier og vurdere hvordan virksomheter bruker markedskommunikasjon som konkurransemiddel"},{"nr":10,"tekst":"planlegge mediemiks og utvikle innhold for ulike kanaler i markedskommunikasjon"},{"nr":11,"tekst":"utforske og vurdere hvordan virksomheter kombinerer bruk av konkurransemidler"},{"nr":12,"tekst":"reflektere over og vurdere rollen til personalet og ledelsen i gjennomføring av virksomhetens markedsføringsstrategi"},{"nr":13,"tekst":"utforske og følge gjeldende regelverk for markedsføring og vurdere virksomhetens etiske ansvar"},{"nr":14,"tekst":"reflektere over sammenhengen mellom markedsføring og bærekraftig utvikling ut fra sosiale, økonomiske og miljømessige forhold"}]'::jsonb, 20),
   ('entreprenorskap-og-bedriftsutvikling-1', 'vg2', 'Entreprenørskap og bedriftsutvikling 1', 'ENT01-04', 'https://www.udir.no/lk20/ent01-04/kompetansemaal-og-vurdering/kv885', '[{"nr":1,"tekst":"bruke kilder, teorier og modeller i arbeid med faglige spørsmål, emner og problemstillinger"},{"nr":2,"tekst":"utforske ulike kreativitetsprosesser og utvikle forretningsideer"},{"nr":3,"tekst":"utforske og bruke ulike innovasjonsprosesser ved etablering av virksomheter"},{"nr":4,"tekst":"utvikle forretningsmodeller og vurdere opp mot bærekraftig utvikling"},{"nr":5,"tekst":"utforske og vurdere hvordan samhandling påvirker innovasjon og utvikling"},{"nr":6,"tekst":"sammenligne og vurdere informasjon om markeder, kjøpsatferd og segmenter for å ta beslutninger"},{"nr":7,"tekst":"gjennomføre situasjonsanalyse, vurdere utviklingsmuligheter og sette mål i en oppstartsfase"},{"nr":8,"tekst":"utforske og bruke ulike konkurransemidler i en oppstartsfase"},{"nr":9,"tekst":"vurdere og velge selskapsformer ut fra risiko og ansvar ved etablering"},{"nr":10,"tekst":"reflektere over hva som kjennetegner en god leder i etableringsfasen, og hvordan leder og medarbeidere samhandler og setter sammen gode team"},{"nr":11,"tekst":"beregne og vurdere pris og kapitalbehov, utarbeide budsjett og vurdere finansieringsmuligheter med tanke på risiko og ansvar for en ny virksomhet"},{"nr":12,"tekst":"lese regnskap og nøkkeltall for å vurdere en virksomhets lønnsomhet"},{"nr":13,"tekst":"reflektere over hva entreprenøriell kompetanse er, og vurdere hva det har å si for utvikling av virksomheter"}]'::jsonb, 21),
   ('samfunnsokonomi-1', 'vg2', 'Samfunnsøkonomi 1', 'SOK01-04', 'https://www.udir.no/lk20/sok01-04/kompetansemaal-og-vurdering/kv1000', '[{"nr":1,"tekst":"velge og bruke kilder, økonomiske teorier og modeller i arbeid med faglige spørsmål, emner og problemstillinger"},{"nr":2,"tekst":"gjøre rede for ulike markedsformer og bruke disse til å analysere ulike markeder"},{"nr":3,"tekst":"bruke realligningen til å analysere sammenhengen mellom tilgang på og bruk av varer og tjenester i en økonomi"},{"nr":4,"tekst":"beskrive hovedtrekkene i privat og offentlig sektor i Norge og drøfte muligheter og utfordringer for næringsliv og offentlig sektor i årene framover"},{"nr":5,"tekst":"drøfte årsaker til økonomisk vekst og reflektere over bruttonasjonalproduktet som mål for verdiskaping"},{"nr":6,"tekst":"reflektere over ulike sysselsettingstiltak og drøfte hvordan tiltakene kan påvirke ulike typer arbeidsledighet"},{"nr":7,"tekst":"gjøre rede for hvordan prisstigning måles, og drøfte årsaker til og konsekvenser av prisstigning"},{"nr":8,"tekst":"gjøre rede for formålet med pengepolitikk og finanspolitikk og hvordan politikken påvirker økonomien"},{"nr":9,"tekst":"vurdere finansmarkedenes muligheter og utfordringer for utviklingen av samfunnsøkonomien"},{"nr":10,"tekst":"utforske og reflektere over hva som påvirker lønnsforskjeller, inntektsfordeling og økonomisk ulikhet, og hvordan myndighetene kan påvirke dette"},{"nr":11,"tekst":"reflektere over sammenhengen mellom økonomisk aktivitet og miljøutfordringer, og hva som skal til for å oppnå bærekraftig vekst og utvikling"},{"nr":12,"tekst":"analysere hva som påvirker valutakursene, og drøfte konsekvenser av endringer i valutakursen"},{"nr":13,"tekst":"gjøre rede for årsaker til internasjonal handel og drøfte muligheter og utfordringer knyttet til økonomisk globalisering"}]'::jsonb, 22),
-  ('norsk-vg3', 'vg3', 'Norsk', null, null, '[]'::jsonb, 0),
-  ('historie-vg3', 'vg3', 'Historie', null, null, '[]'::jsonb, 1),
-  ('religion-og-etikk', 'vg3', 'Religion og etikk', null, null, '[]'::jsonb, 2),
+  ('norsk-vg3', 'vg3', 'Norsk', 'NOR01-08', 'https://www.udir.no/lk20/nor01-08/kompetansemaal-og-vurdering/kv1114', '[{"nr":1,"tekst":"analysere og tolke romaner, noveller, drama, lyrikk og sakprosa på bokmål og nynorsk fra 1850 til i dag og reflektere over tekstene i lys av den kulturhistoriske konteksten og egen samtid"},{"nr":2,"tekst":"utforske og reflektere over hvordan tekster fra den realistiske og den modernistiske tradisjonen framstiller menneske, natur og samfunn"},{"nr":3,"tekst":"skrive essay som utforsker og reflekterer over innhold i tekster"},{"nr":4,"tekst":"skrive litterære tolkninger og sammenligninger"},{"nr":5,"tekst":"analysere uttrykksformer i sammensatte tekster i ulike medier og vurdere samspillet mellom dem"},{"nr":6,"tekst":"bruke fagkunnskap og presist fagspråk i utforskende samtaler, diskusjoner og muntlige presentasjoner om norskfaglige emner"},{"nr":7,"tekst":"skrive retoriske analyser og tolkninger av sakprosatekster"},{"nr":8,"tekst":"mestre språklige formkrav på hovedmål og sidemål og skrive tekster med etterrettelig kildebruk og et presist og nyansert språk"},{"nr":9,"tekst":"orientere seg i faglitteratur, vurdere kilder kritisk og skrive fagartikler som greier ut om og drøfter norskfaglige emner"},{"nr":10,"tekst":"gjøre rede for endringer i talespråk i Norge i dag og reflektere over sammenhenger mellom språk, kultur og identitet"}]'::jsonb, 0),
+  ('historie-vg3', 'vg3', 'Historie', 'HIS01-03', 'https://www.udir.no/lk20/his01-03/kompetansemaal-og-vurdering/kv85', '[{"nr":1,"tekst":"reflektere over hvordan fortolkninger av fortiden er preget av nåtidsforståelse og forventninger til framtiden"},{"nr":2,"tekst":"reflektere over hvordan fortiden brukes av ulike aktører og drøfte hensikten med denne historiebruken"},{"nr":3,"tekst":"utforske fortiden ved å formulere problemstillinger, finne, vurdere og bruke ulikt materiale og presentere egne slutninger"},{"nr":4,"tekst":"utforske en historisk person og diskutere hans eller hennes tenkning, handlingsrom og valg i lys av samtiden han eller hun levde i"},{"nr":5,"tekst":"sammenligne ulike framstillinger av en hendelse og reflektere over at historiske framstillinger preges av opphavspersonens ståsted og kontekst"},{"nr":6,"tekst":"drøfte i hvilken grad utviklingen i ulike perioder har vært preget av brudd eller kontinuitet, og vurdere hva som gjør en hendelse i fortiden betydningsfull"},{"nr":7,"tekst":"gjøre rede for tanker og ideologier som har ligget til grunn for politiske omveltninger fra opplysningstiden til i dag og vurdere betydningen av disse for menneskers muligheter til demokratisk deltakelse"},{"nr":8,"tekst":"reflektere over hvordan teknologiske omveltninger fra den industrielle revolusjonen til i dag har endret menneskers liv og formet forventninger til framtiden"},{"nr":9,"tekst":"gjøre rede for årsaker til at mennesker har migrert, og diskutere kulturmøtene sett fra ulike perspektiver."},{"nr":10,"tekst":"gjøre rede for årsaker til at kolonimakter underla seg landområder, og drøfte konsekvenser for mennesker og samfunn i land og områder som ble kolonisert"},{"nr":11,"tekst":"drøfte bakgrunnen for verdenskrigene og et utvalg andre sentrale kriger eller konflikter, og reflektere over om fredsslutninger har bidratt til å skape fred og forsoning"},{"nr":12,"tekst":"utforske menneskers handlingsrom og valgmuligheter i konfliktsituasjoner og vurdere konsekvenser av valgene de har tatt"},{"nr":13,"tekst":"reflektere over hvordan ideologier og tankesett på 1900-tallet og fram til i dag har bidratt til undertrykkelse, terror og folkemord som holocaust"},{"nr":14,"tekst":"analysere hvordan framstillinger av fortiden har blitt brukt i Norge for å skape nasjonal identitet og drøfte hvilke virkninger dette har hatt for ulike grupper"},{"nr":15,"tekst":"utforske hvordan mennesker har arbeidet for myndiggjøring og frigjøring i norsk og samisk historie, og gjøre rede for hvordan de samtidig har bidratt til utviklingen av demokratiet"},{"nr":16,"tekst":"gjøre rede for velferdsutviklingen i Norge på 1900-tallet og drøfte konsekvenser for menneskers liv"},{"nr":17,"tekst":"vurdere hvordan mennesket har forholdt seg til naturen, forvaltet og brukt ressurser og bruke historiske perspektiver i samtale om bærekraftige løsninger"}]'::jsonb, 1),
+  ('religion-og-etikk', 'vg3', 'Religion og etikk', 'REL01-02', 'https://www.udir.no/lk20/rel01-02/kompetansemaal-og-vurdering/kv172', '[{"nr":1,"tekst":"presentere og sammenligne noen sentrale trekk ved østlige og vestlige religions- og livssynstradisjoner, inkludert kristendom og islam"},{"nr":2,"tekst":"utforske og drøfte hvordan religion inngår i historiske endringsprosesser globalt og nasjonalt"},{"nr":3,"tekst":"gjøre rede for og analysere religion og livssyn i et majoritets-, minoritets- og urfolksperspektiv med vekt på Sápmi/Sábme/Saepmie og Norge"},{"nr":4,"tekst":"gjøre rede for og drøfte aktuelle eksempler på samspillet mellom religion, livssyn og politikk"},{"nr":5,"tekst":"utforske og analysere hvordan religioner og livssyn kommer til uttrykk i medier og populærkultur"},{"nr":6,"tekst":"drøfte ulike former for religions- og livssynskritikk"},{"nr":7,"tekst":"gjøre rede for og drøfte sentrale fagbegreper knyttet til religioner, filosofi, livssyn og etikk"},{"nr":8,"tekst":"analysere og vurdere ulike kilder til kunnskap om religioner, livssyn og etikk"},{"nr":9,"tekst":"utforske og reflektere over eksistensielle spørsmål og svar"},{"nr":10,"tekst":"identifisere og drøfte etiske problemstillinger i tilknytning til kommunikasjon, mellommenneskelige relasjoner og identitet"},{"nr":11,"tekst":"drøfte menneskeverd og naturens egenverdi i møte med teknologisk utvikling"},{"nr":12,"tekst":"ta andres perspektiv og håndtere meningsbrytning om religion, livssyn og verdispørsmål"},{"nr":13,"tekst":"diskutere problemstillinger knyttet til gruppebaserte fordommer, rasisme og diskriminering"},{"nr":14,"tekst":"utforske og drøfte ideer om mennesket slik de kommer til uttrykk i ulike filosofiske tradisjoner"}]'::jsonb, 2),
   ('historie-og-filosofi-2', 'vg3', 'Historie og filosofi 2', null, null, '[]'::jsonb, 3),
   ('kjemi-2', 'vg3', 'Kjemi 2', null, null, '[]'::jsonb, 4),
   ('fysikk-2', 'vg3', 'Fysikk 2', null, null, '[]'::jsonb, 5),
@@ -50294,6 +50294,4185 @@ insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, ri
   ('samfunnsokonomi-1:internasjonal-handel-og-globalisering', 'm07', 'flervalg', 'Hvorfor vil flere land produsere mer selv i dag?', array['For å øke importen', 'For å redusere eksporten', 'Av hensyn til sikkerhet og selvforsyning', 'For å få lavere lønn']::text[], 2, 'En motstrøm mot globaliseringen.', false, true, 16);
 insert into public.miniprover (tema_id, minutter) values
   ('samfunnsokonomi-1:internasjonal-handel-og-globalisering', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Norsk (vg3): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'norsk-vg3' and slug not in ('realismen', 'naturalismen-og-nyromantikken', 'mellomkrigstiden', 'modernismen-etter-1945', 'samtidslitteratur', 'essay', 'litterar-tolkning-og-sammenligning', 'retorisk-analyse-av-sakprosa', 'sammensatte-tekster', 'fagartikkel-og-kildebruk', 'muntlig-fordypning', 'talesprak-i-endring');
+
+-- Norsk: Realismen og det moderne gjennombruddet
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('norsk-vg3:realismen', 'norsk-vg3', 'realismen', 'Realismen og det moderne gjennombruddet', 'Realismen i norsk litteratur fra 1850 til 1890: det moderne gjennombruddet, problemlitteraturen og de fire store – Ibsen, Bjørnson, Kielland og Lie – og Camilla Collett, med vekt på hvordan tekstene framstiller menneske og samfunn.', array[1, 2]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('norsk-vg3:realismen', '## Bakgrunn
+
+På midten av 1800-tallet endret Norge seg raskt. **Industrialisering**, **urbanisering**, **jernbane** og **dampskip** skapte et nytt samfunn. Samtidig vokste **naturvitenskapen**, og **Charles Darwin** utfordret gamle forestillinger om mennesket. Mange mente at litteraturen ikke lenger skulle **idealisere** som i romantikken, men skildre **virkeligheten** slik den var.
+
+## Det moderne gjennombruddet
+
+Den danske kritikeren **Georg Brandes** holdt en rekke forelesninger i **1871**. Han krevde at litteraturen skulle «**sette problemer under debatt**». Dette ble startskuddet for **det moderne gjennombruddet** i Norden.
+
+Litteraturen ble **problemlitteratur** som tok opp
+
+- **kvinners** stilling og **ekteskapet**
+- **dobbeltmoral** og **sedelighet**
+- **religion** og kirkens makt
+- **klasseforskjeller** og fattigdom
+
+## Kjennetegn ved realismen
+
+- **Hverdagslige** personer og miljøer, ofte i **borgerskapet**
+- **Objektiv** fortellemåte der forfatteren holder seg i bakgrunnen
+- **Troverdige** personer og **detaljerte** miljøskildringer
+- **Kritikk** av samfunnet og dets institusjoner
+- Språk som ligger nær **dagligtalen**
+- Personene formes av **arv** og **miljø**
+
+## Camilla Collett
+
+**Camilla Collett** regnes som en forløper. Romanen **Amtmandens Døttre** (1854–55) kritiserer at unge kvinner ble giftet bort uten å få følge sine egne følelser. Den regnes som Norges første **tendensroman** og en tidlig **kvinnesaksroman**.
+
+## De fire store
+
+**Henrik Ibsen** skrev samtidsdramaer som avslørte **løgnen** i det borgerlige livet. I **Et dukkehjem** (1879) forlater **Nora** mann og barn for å finne ut hvem hun selv er. Slutten skapte **skandale** i hele Europa. **Gengangere** (1881) handler om arvelig sykdom og dobbeltmoral, og **En folkefiende** (1882) om en lege som blir stemplet som samfunnets fiende fordi han forteller sannheten.
+
+**Bjørnstjerne Bjørnson** skrev bondefortellinger, dramaer og debattinnlegg. Skuespillet **En hanske** (1883) krever at menn skal leve like **seksuelt rent** før ekteskapet som kvinner. Bjørnson fikk **Nobelprisen** i 1903.
+
+**Alexander Kielland** skrev **ironiske** og elegante noveller og romaner fra **Stavanger**. I **Garman & Worse** (1880) kritiserer han **embetsstanden** og **kirken**.
+
+**Jonas Lie** skrev om familieliv og ekteskap, blant annet i **Familjen paa Gilje** (1883).
+
+## Menneske, natur og samfunn
+
+I realismen står **mennesket i samfunnet** i sentrum. Naturen spiller en mindre rolle enn i romantikken. Personene er **bundet** av sosiale **normer**, **penger**, **klasse** og **kjønn**, og konflikten ligger ofte mellom **individets** ønske om frihet og samfunnets **krav**.
+
+## Realismen og vår tid
+
+Mange av spørsmålene er fortsatt aktuelle: **likestilling**, **ytringsfrihet**, **ærlighet** og forholdet mellom **individ** og **fellesskap**. Når du leser en realistisk tekst, kan du spørre hvordan konflikten ville sett ut i **dag** – og hva som har endret seg.', '{"label":"Realismen","children":[{"label":"Bakgrunn","children":[{"label":"Industrialisering"},{"label":"Naturvitenskap og Darwin"},{"label":"Brandes 1871"}]},{"label":"Kjennetegn","children":[{"label":"Hverdagsliv"},{"label":"Objektiv forteller"},{"label":"Samfunnskritikk"}]},{"label":"Temaer","children":[{"label":"Kvinnesak og ekteskap"},{"label":"Dobbeltmoral"},{"label":"Religion og klasse"}]},{"label":"Forfattere","children":[{"label":"Camilla Collett"},{"label":"Ibsen og Bjørnson"},{"label":"Kielland og Lie"}]},{"label":"I dag","children":[{"label":"Likestilling"},{"label":"Individ og fellesskap"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'norsk-vg3:realismen';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('norsk-vg3:realismen', 'Realismen', 'Litterær retning som vil skildre virkeligheten slik den er.', 0),
+  ('norsk-vg3:realismen', 'Georg Brandes', 'Dansk kritiker som i 1871 krevde at litteraturen skulle sette problemer under debatt.', 1),
+  ('norsk-vg3:realismen', 'Det moderne gjennombruddet', 'Overgangen til realistisk problemlitteratur i Norden fra 1870-tallet.', 2),
+  ('norsk-vg3:realismen', 'Problemlitteratur', 'Litteratur som tar opp samfunnsproblemer til debatt.', 3),
+  ('norsk-vg3:realismen', 'Objektiv fortellemåte', 'Forfatteren holder seg i bakgrunnen og kommenterer lite.', 4),
+  ('norsk-vg3:realismen', 'Dobbeltmoral', 'Ulike moralske krav til ulike grupper, for eksempel kvinner og menn.', 5),
+  ('norsk-vg3:realismen', 'Camilla Collett', 'Forløper for realismen, skrev Amtmandens Døttre.', 6),
+  ('norsk-vg3:realismen', 'Amtmandens Døttre', 'Roman fra 1854–55 om kvinners rett til å velge ektefelle.', 7),
+  ('norsk-vg3:realismen', 'Et dukkehjem', 'Ibsens drama fra 1879 der Nora forlater mann og barn.', 8),
+  ('norsk-vg3:realismen', 'Gengangere', 'Ibsens drama fra 1881 om arvelig sykdom og dobbeltmoral.', 9),
+  ('norsk-vg3:realismen', 'En folkefiende', 'Ibsens drama fra 1882 om en mann som forteller en ubehagelig sannhet.', 10),
+  ('norsk-vg3:realismen', 'En hanske', 'Bjørnsons drama fra 1883 om lik seksualmoral for kvinner og menn.', 11),
+  ('norsk-vg3:realismen', 'Alexander Kielland', 'Ironisk realist fra Stavanger, skrev Garman & Worse.', 12),
+  ('norsk-vg3:realismen', 'Jonas Lie', 'Realist som skrev Familjen paa Gilje.', 13),
+  ('norsk-vg3:realismen', 'Tendensroman', 'Roman som vil påvirke leserens syn på en sak.', 14);
+delete from public.quiz_sporsmal where tema_id = 'norsk-vg3:realismen';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('norsk-vg3:realismen', 'q01', 'flervalg', 'Hva krevde Georg Brandes i 1871?', array['At litteraturen skulle idealisere naturen', 'At litteraturen skulle sette problemer under debatt', 'At litteraturen skulle skrives på nynorsk', 'At litteraturen skulle handle om fortiden']::text[], 1, 'Startskuddet for det moderne gjennombruddet.', true, true, 0),
+  ('norsk-vg3:realismen', 'q02', 'flervalg', 'Hva kjennetegner realismen?', array['Hverdagslige personer og samfunnskritikk', 'Drømmer og mystikk', 'Helter fra sagatiden', 'Bare naturskildringer']::text[], 0, 'Litteraturen skulle skildre virkeligheten.', true, true, 1),
+  ('norsk-vg3:realismen', 'q03', 'flervalg', 'Hvem skrev Amtmandens Døttre?', array['Henrik Ibsen', 'Amalie Skram', 'Camilla Collett', 'Jonas Lie']::text[], 2, 'En forløper for realismen.', true, true, 2),
+  ('norsk-vg3:realismen', 'q04', 'flervalg', 'Hva skjer på slutten av Et dukkehjem?', array['Nora dør', 'Helmer forlater Nora', 'Familien flytter', 'Nora forlater mann og barn']::text[], 3, 'Slutten skapte skandale i Europa.', true, true, 3),
+  ('norsk-vg3:realismen', 'q05', 'flervalg', 'Hva handler Bjørnsons En hanske om?', array['Lik seksualmoral for kvinner og menn', 'Et slag i middelalderen', 'Arvelig sykdom', 'Industrialisering']::text[], 0, 'En del av sedelighetsdebatten.', true, true, 4),
+  ('norsk-vg3:realismen', 'q06', 'flervalg', 'Hvilken forfatter skrev ironiske romaner fra Stavanger?', array['Jonas Lie', 'Alexander Kielland', 'Henrik Ibsen', 'Bjørnstjerne Bjørnson']::text[], 1, 'For eksempel Garman & Worse.', true, true, 5),
+  ('norsk-vg3:realismen', 'q07', 'flervalg', 'Hva står i sentrum i realismen?', array['Naturen', 'Guds plan', 'Mennesket i samfunnet', 'Nasjonens storhet']::text[], 2, 'Naturen spiller en mindre rolle enn i romantikken.', true, true, 6),
+  ('norsk-vg3:realismen', 'q08', 'flervalg', 'Hvilken samfunnsendring påvirket realismen?', array['Reformasjonen', 'Svartedauden', 'Vikingtiden', 'Industrialisering og ny naturvitenskap']::text[], 3, 'Darwin utfordret gamle forestillinger.', true, true, 7),
+  ('norsk-vg3:realismen', 'q09', 'flervalg', 'Hva handler En folkefiende om?', array['En lege som blir stemplet som fiende fordi han forteller sannheten', 'En kvinne som forlater familien', 'En bonde som arver en gård', 'En prest som mister troen']::text[], 0, 'Om sannhet mot flertallets interesser.', true, false, 8),
+  ('norsk-vg3:realismen', 'q10', 'flervalg', 'Hvilken norsk realist fikk Nobelprisen i 1903?', array['Henrik Ibsen', 'Bjørnstjerne Bjørnson', 'Alexander Kielland', 'Jonas Lie']::text[], 1, 'Bjørnson var også en aktiv samfunnsdebattant.', true, false, 9),
+  ('norsk-vg3:realismen', 'm01', 'sant-usant', 'I realismen formes personene av arv og miljø.', array['Sant', 'Usant']::text[], 0, 'Påvirket av naturvitenskapen.', false, true, 10),
+  ('norsk-vg3:realismen', 'm02', 'sant-usant', 'Realismen idealiserte naturen og fortiden.', array['Sant', 'Usant']::text[], 1, 'Det gjorde romantikken.', false, true, 11),
+  ('norsk-vg3:realismen', 'm03', 'sant-usant', 'Amtmandens Døttre regnes som en tidlig kvinnesaksroman.', array['Sant', 'Usant']::text[], 0, 'Collett kritiserte arrangerte ekteskap.', false, true, 12),
+  ('norsk-vg3:realismen', 'm04', 'sant-usant', 'I realismen kommenterer forfatteren ofte handlingen direkte.', array['Sant', 'Usant']::text[], 1, 'Fortellemåten er objektiv.', false, true, 13),
+  ('norsk-vg3:realismen', 'm05', 'flervalg', 'Hvem skrev Familjen paa Gilje?', array['Kielland', 'Jonas Lie', 'Ibsen', 'Collett']::text[], 1, 'Om familieliv og ekteskap.', false, true, 14),
+  ('norsk-vg3:realismen', 'm06', 'flervalg', 'Hva handler Gengangere om?', array['Arvelig sykdom og dobbeltmoral', 'En lege og et kurbad', 'Kvinners stemmerett', 'En reise til Amerika']::text[], 0, 'Ibsen, 1881.', false, true, 15),
+  ('norsk-vg3:realismen', 'm07', 'flervalg', 'Hva kalles litteratur som tar opp samfunnsproblemer til debatt?', array['Heltedikt', 'Eventyr', 'Problemlitteratur', 'Nyromantikk']::text[], 2, 'Typisk for det moderne gjennombruddet.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('norsk-vg3:realismen', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Norsk: Naturalismen og nyromantikken
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('norsk-vg3:naturalismen-og-nyromantikken', 'norsk-vg3', 'naturalismen-og-nyromantikken', 'Naturalismen og nyromantikken', 'Naturalismen med Amalie Skram, Hans Jæger og Kristiania-bohemen, og nyromantikken på 1890-tallet med Knut Hamsun, Sigbjørn Obstfelder og Arne Garborg – to retninger med svært ulike syn på mennesket og sjelelivet.', array[1, 2]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('norsk-vg3:naturalismen-og-nyromantikken', '## Naturalismen
+
+**Naturalismen** var en skjerpet form for realisme på 1880-tallet. Inspirasjonen kom blant annet fra den franske forfatteren **Émile Zola**, som ville skrive romaner nesten som **vitenskapelige eksperimenter**.
+
+Kjennetegn:
+
+- Mennesket er **styrt** av **arv**, **miljø** og **drifter** – det har liten fri vilje.
+- Skildringene er **nakne** og **detaljerte**, også av det stygge: fattigdom, sykdom, alkohol og seksualitet.
+- Fortelleren er **objektiv** og **upartisk**.
+- Slutten er ofte **pessimistisk**.
+
+## Amalie Skram
+
+**Amalie Skram** er den fremste norske naturalisten. I **Constance Ring** (1885) skildrer hun en kvinne som er fanget i et ulykkelig ekteskap. Romanserien **Hellemyrsfolket** følger en slekt gjennom flere generasjoner og viser hvordan **fattigdom** og **arv** fører nedover. Skram skrev åpent om **kvinners seksualitet** og **overgrep**, noe som provoserte mange.
+
+## Kristiania-bohemen
+
+**Hans Jæger** og kretsen rundt ham i Kristiania protesterte mot borgerlig moral og krevde **fri kjærlighet**. Romanen **Fra Kristiania-Bohêmen** (1885) ble **beslaglagt**, og Jæger ble dømt til fengsel. Maleren **Christian Krohg** var også en del av miljøet.
+
+## Nyromantikken
+
+På **1890-tallet** kom en reaksjon. Mange forfattere mente at realismen og naturalismen ga et for **ytre** og **mekanisk** bilde av mennesket. De ville utforske **sjelelivet** – det **indre**, **ubevisste** og **uforklarlige**.
+
+Kjennetegn ved nyromantikken:
+
+- **Individet** og **følelsene** står i sentrum.
+- Interesse for **det ubevisste**, **drømmer** og **stemninger**
+- **Lyrikken** blomstrer igjen.
+- **Naturen** og **mystikken** kommer tilbake – men nå som speil for sjelen.
+- **Symboler** og **bilder** i stedet for direkte samfunnskritikk
+
+## Knut Hamsun
+
+**Knut Hamsun** gjorde opprør mot den realistiske litteraturen. I essayet «**Fra det ubevidste Sjæleliv**» (1890) krevde han at litteraturen skulle skildre sjelens **små, uforklarlige bevegelser**. Romanen **Sult** (1890) skildrer en ung, sulten forfatter i Kristiania innenfra – med skiftende stemninger, galskap og stolthet. Den regnes som et av de første **modernistiske** verkene i Europa. Hamsun fikk **Nobelprisen** i **1920**.
+
+## Sigbjørn Obstfelder og Arne Garborg
+
+**Sigbjørn Obstfelder** skrev lyrikk om **fremmedfølelse** i den moderne verden. Diktet «**Jeg ser**» (1893) ender med linjen der jeget føler at det er kommet til feil klode. Samme år malte **Edvard Munch** **Skrik** – begge uttrykker **angst** og **ensomhet**.
+
+**Arne Garborg** skrev på **nynorsk**. Diktsyklusen **Haugtussa** (1895) handler om jenta **Veslemøy**, som ser inn i en overnaturlig verden. Naturen, folketroen og det mystiske står sentralt.
+
+## To syn på mennesket
+
+| | Naturalismen | Nyromantikken |
+|---|---|---|
+| Mennesket | styrt av arv og miljø | sammensatt og gåtefullt |
+| Fokus | samfunnet og det ytre | sjelen og det indre |
+| Stil | objektiv og detaljert | stemningsfull og symbolsk |
+
+## Refleksjon
+
+Spørsmålet om mennesket er **styrt** eller **fritt** er fortsatt aktuelt – for eksempel i debatter om **gener**, **oppvekst** og **ansvar**.', '{"label":"Naturalismen og nyromantikken","children":[{"label":"Naturalismen","children":[{"label":"Arv, miljø og drifter"},{"label":"Nakne skildringer"},{"label":"Zola"}]},{"label":"Naturalister","children":[{"label":"Amalie Skram"},{"label":"Hans Jæger og bohemen"}]},{"label":"Nyromantikken","children":[{"label":"Sjeleliv og det ubevisste"},{"label":"Stemning og symboler"},{"label":"Lyrikk"}]},{"label":"Nyromantikere","children":[{"label":"Hamsun: Sult"},{"label":"Obstfelder: Jeg ser"},{"label":"Garborg: Haugtussa"}]},{"label":"Menneskesyn","children":[{"label":"Styrt"},{"label":"Gåtefullt"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'norsk-vg3:naturalismen-og-nyromantikken';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('norsk-vg3:naturalismen-og-nyromantikken', 'Naturalismen', 'Skjerpet realisme der mennesket styres av arv, miljø og drifter.', 0),
+  ('norsk-vg3:naturalismen-og-nyromantikken', 'Émile Zola', 'Fransk naturalist som ville skrive romaner som vitenskapelige eksperimenter.', 1),
+  ('norsk-vg3:naturalismen-og-nyromantikken', 'Amalie Skram', 'Norges fremste naturalist.', 2),
+  ('norsk-vg3:naturalismen-og-nyromantikken', 'Constance Ring', 'Skrams roman fra 1885 om en kvinne i et ulykkelig ekteskap.', 3),
+  ('norsk-vg3:naturalismen-og-nyromantikken', 'Hellemyrsfolket', 'Skrams romanserie om en slekt på vei nedover.', 4),
+  ('norsk-vg3:naturalismen-og-nyromantikken', 'Kristiania-bohemen', 'Kretsen rundt Hans Jæger som kjempet mot borgerlig moral.', 5),
+  ('norsk-vg3:naturalismen-og-nyromantikken', 'Fra Kristiania-Bohêmen', 'Jægers roman fra 1885 som ble beslaglagt.', 6),
+  ('norsk-vg3:naturalismen-og-nyromantikken', 'Nyromantikken', 'Retning på 1890-tallet som utforsket sjelelivet og det ubevisste.', 7),
+  ('norsk-vg3:naturalismen-og-nyromantikken', 'Fra det ubevidste Sjæleliv', 'Hamsuns essay fra 1890 om å skildre sjelens bevegelser.', 8),
+  ('norsk-vg3:naturalismen-og-nyromantikken', 'Sult', 'Hamsuns roman fra 1890 – et tidlig modernistisk verk.', 9),
+  ('norsk-vg3:naturalismen-og-nyromantikken', 'Knut Hamsun', 'Forfatter som fikk Nobelprisen i 1920.', 10),
+  ('norsk-vg3:naturalismen-og-nyromantikken', 'Sigbjørn Obstfelder', 'Lyriker som skrev om fremmedfølelse, blant annet «Jeg ser».', 11),
+  ('norsk-vg3:naturalismen-og-nyromantikken', 'Skrik', 'Munchs maleri fra 1893 som uttrykker angst.', 12),
+  ('norsk-vg3:naturalismen-og-nyromantikken', 'Haugtussa', 'Garborgs diktsyklus på nynorsk fra 1895 om Veslemøy.', 13),
+  ('norsk-vg3:naturalismen-og-nyromantikken', 'Symbol', 'Et konkret bilde som står for noe mer.', 14);
+delete from public.quiz_sporsmal where tema_id = 'norsk-vg3:naturalismen-og-nyromantikken';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('norsk-vg3:naturalismen-og-nyromantikken', 'q01', 'flervalg', 'Hva kjennetegner naturalismens menneskesyn?', array['Mennesket har full fri vilje', 'Mennesket styres av arv, miljø og drifter', 'Mennesket er alltid godt', 'Mennesket styres av Gud']::text[], 1, 'Liten fri vilje.', true, true, 0),
+  ('norsk-vg3:naturalismen-og-nyromantikken', 'q02', 'flervalg', 'Hvem er Norges fremste naturalist?', array['Amalie Skram', 'Knut Hamsun', 'Arne Garborg', 'Sigbjørn Obstfelder']::text[], 0, 'Hun skrev blant annet Constance Ring.', true, true, 1),
+  ('norsk-vg3:naturalismen-og-nyromantikken', 'q03', 'flervalg', 'Hva skjedde med Hans Jægers Fra Kristiania-Bohêmen?', array['Den vant Nobelprisen', 'Den ble pensum i skolen', 'Den ble beslaglagt', 'Den ble aldri utgitt']::text[], 2, 'Jæger ble dømt til fengsel.', true, true, 2),
+  ('norsk-vg3:naturalismen-og-nyromantikken', 'q04', 'flervalg', 'Hva ville nyromantikerne utforske?', array['Samfunnets institusjoner', 'Økonomi og politikk', 'Sagatidens helter', 'Sjelelivet og det ubevisste']::text[], 3, 'En reaksjon mot realismen.', true, true, 3),
+  ('norsk-vg3:naturalismen-og-nyromantikken', 'q05', 'flervalg', 'Hvilket verk regnes som et av de første modernistiske i Europa?', array['Sult', 'Et dukkehjem', 'Haugtussa', 'Constance Ring']::text[], 0, 'Hamsun, 1890.', true, true, 4),
+  ('norsk-vg3:naturalismen-og-nyromantikken', 'q06', 'flervalg', 'Hvilken stemning uttrykker Obstfelders «Jeg ser» og Munchs Skrik?', array['Glede og fellesskap', 'Angst og fremmedfølelse', 'Nasjonal stolthet', 'Religiøs trygghet']::text[], 1, 'Begge fra 1893.', true, true, 5),
+  ('norsk-vg3:naturalismen-og-nyromantikken', 'q07', 'flervalg', 'Hva handler Haugtussa om?', array['Et ulykkelig ekteskap', 'En sulten forfatter', 'Veslemøy, som ser inn i en overnaturlig verden', 'En slekt i forfall']::text[], 2, 'Skrevet på nynorsk.', true, true, 6),
+  ('norsk-vg3:naturalismen-og-nyromantikken', 'q08', 'flervalg', 'Hva kjennetegner stilen i nyromantikken?', array['Objektiv og detaljert', 'Statistisk og faglig', 'Tørr og saklig', 'Stemningsfull og symbolsk']::text[], 3, 'Bilder og symboler i stedet for direkte samfunnskritikk.', true, true, 7),
+  ('norsk-vg3:naturalismen-og-nyromantikken', 'q09', 'flervalg', 'Hvem inspirerte naturalistene med ideen om romanen som eksperiment?', array['Émile Zola', 'Georg Brandes', 'Henrik Wergeland', 'Charles Dickens']::text[], 0, 'Fransk naturalist.', true, false, 8),
+  ('norsk-vg3:naturalismen-og-nyromantikken', 'q10', 'flervalg', 'Når fikk Knut Hamsun Nobelprisen?', array['1903', '1920', '1928', '2023']::text[], 1, 'Undset fikk den i 1928.', true, false, 9),
+  ('norsk-vg3:naturalismen-og-nyromantikken', 'm01', 'sant-usant', 'Naturalistene skildret også det stygge, som sykdom og fattigdom.', array['Sant', 'Usant']::text[], 0, 'Nakne og detaljerte skildringer.', false, true, 10),
+  ('norsk-vg3:naturalismen-og-nyromantikken', 'm02', 'sant-usant', 'Nyromantikken var en videreføring av naturalismens menneskesyn.', array['Sant', 'Usant']::text[], 1, 'Den var en reaksjon mot det.', false, true, 11),
+  ('norsk-vg3:naturalismen-og-nyromantikken', 'm03', 'sant-usant', 'Amalie Skram skrev åpent om kvinners seksualitet.', array['Sant', 'Usant']::text[], 0, 'Det provoserte mange.', false, true, 12),
+  ('norsk-vg3:naturalismen-og-nyromantikken', 'm04', 'sant-usant', 'Haugtussa er skrevet på bokmål.', array['Sant', 'Usant']::text[], 1, 'Garborg skrev på nynorsk.', false, true, 13),
+  ('norsk-vg3:naturalismen-og-nyromantikken', 'm05', 'flervalg', 'Hva krevde Kristiania-bohemen?', array['Strengere moral', 'Fri kjærlighet og opprør mot borgerlig moral', 'Mer religion', 'Nasjonal romantikk']::text[], 1, 'Hans Jæger var lederen.', false, true, 14),
+  ('norsk-vg3:naturalismen-og-nyromantikken', 'm06', 'flervalg', 'Hvilken slutt er typisk for naturalistiske romaner?', array['Pessimistisk', 'Lykkelig', 'Religiøs frelse', 'Heroisk seier']::text[], 0, 'Personene går ofte til grunne.', false, true, 15),
+  ('norsk-vg3:naturalismen-og-nyromantikken', 'm07', 'flervalg', 'Hvordan skildres hovedpersonen i Sult?', array['Objektivt utenfra', 'Som en helt', 'Innenfra med skiftende stemninger', 'Gjennom brev']::text[], 2, 'Hamsun skildret sjelelivet.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('norsk-vg3:naturalismen-og-nyromantikken', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Norsk: Litteratur fra 1900 til 1945
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('norsk-vg3:mellomkrigstiden', 'norsk-vg3', 'mellomkrigstiden', 'Litteratur fra 1900 til 1945', 'Norsk litteratur i første halvdel av 1900-tallet: nyrealismen med Sigrid Undset og Olav Duun, psykologisk realisme hos Cora Sandel og Aksel Sandemose, arbeiderlitteratur, tidlig modernisme og den politiske lyrikken i møte med fascismen og krigen.', array[1, 2]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('norsk-vg3:mellomkrigstiden', '## Et urolig halvt århundre
+
+Norge ble **selvstendig** i **1905**. Deretter fulgte **første verdenskrig**, sterk **industrialisering**, **arbeiderbevegelsens** framvekst, **krisen** på 1930-tallet, **fascisme** i Europa og til slutt **andre verdenskrig** og okkupasjonen av Norge. Litteraturen speiler denne uroen.
+
+## Nyrealismen
+
+Etter nyromantikken vendte mange forfattere tilbake til en **realistisk** fortellemåte – ofte i store **romanverk**.
+
+- **Sigrid Undset** skrev **Kristin Lavransdatter** (1920–22), en trilogi fra **middelalderen** om en kvinne som velger kjærligheten mot farens vilje og må leve med konsekvensene. Undset fikk **Nobelprisen** i **1928**.
+- **Olav Duun** skrev på **nynorsk**. Romanserien **Juvikfolke** følger en slekt i Trøndelag gjennom flere hundre år og viser hvordan mennesket kan vokse fra **makt** til **godhet**.
+- **Knut Hamsun** skrev **Markens grøde** (1917) om nybyggeren Isak, som rydder jord i villmarka – en hyllest til **bondelivet** og en kritikk av det moderne.
+
+## Psykologisk realisme
+
+- **Cora Sandel** skrev **Alberte-trilogien** om en ung kvinne som kjemper for å bli **forfatter** og frigjøre seg – i en tid da kvinner hadde få muligheter.
+- **Aksel Sandemose** skrev **En flyktning krysser sitt spor** (1933). Her formulerer han **Janteloven** – «Du skal ikke tro at du er noe» – som beskriver hvordan et lite samfunn **knuser** den som skiller seg ut.
+
+## Arbeiderlitteratur
+
+Med arbeiderbevegelsen kom litteratur **om** og **for** arbeiderne.
+
+- **Kristofer Uppdal** skrev om **anleggsarbeidere** og industriarbeidere.
+- **Rudolf Nilsen** skrev kampdikt fra **Oslos østkant** og drømte om et nytt, rettferdig samfunn.
+
+Litteraturen skildret **klasseforskjeller**, harde arbeidsforhold og **solidaritet**.
+
+## Tidlig modernisme
+
+**Rolf Jacobsen** debuterte med **Jord og jern** (1933). Han skrev på **frie vers** uten rim og fast rytme og skildret **teknologi**, **byer** og **maskiner** – et nytt motiv i norsk lyrikk. Han regnes som en pioner for den **modernistiske** lyrikken i Norge.
+
+## Lyrikk mot fascismen
+
+På 1930-tallet ble mange forfattere **politisk engasjert**.
+
+- **Arnulf Øverland** advarte mot nazismen i diktet «**Du må ikke sove**» (1937).
+- **Nordahl Grieg** skrev «**Til ungdommen**» (1936) med oppfordringen om å kjempe mot krig med **menneskeverd** som våpen. Grieg døde som krigskorrespondent i **1943**.
+
+Under **okkupasjonen** ble dikt spredt i hemmelighet og ble en del av **motstandskampen**.
+
+## Menneske, natur og samfunn
+
+- Hos **Undset** og **Duun** står **moral**, **ansvar** og **tro** sentralt.
+- Hos **Hamsun** er **naturen** og **jorda** et motbilde til det moderne samfunnet.
+- Hos **arbeiderdikterne** og de **politiske** lyrikerne er **samfunnet** og **urett** i sentrum.
+- Hos **Sandel** og **Sandemose** handler det om **individets** kamp for frihet i et trangt miljø.
+
+## Refleksjon
+
+Hamsun støttet **nazismen** under krigen og ble etter krigen dømt til å betale en stor erstatning. Saken reiser spørsmålet om vi kan **skille** et forfatterskap fra forfatterens **holdninger** – et spørsmål som fortsatt diskuteres.', '{"label":"Litteratur 1900–1945","children":[{"label":"Nyrealisme","children":[{"label":"Undset"},{"label":"Duun"},{"label":"Hamsun: Markens grøde"}]},{"label":"Psykologisk realisme","children":[{"label":"Cora Sandel"},{"label":"Sandemose og Janteloven"}]},{"label":"Arbeiderlitteratur","children":[{"label":"Uppdal"},{"label":"Rudolf Nilsen"}]},{"label":"Modernisme","children":[{"label":"Rolf Jacobsen"},{"label":"Frie vers"}]},{"label":"Politisk lyrikk","children":[{"label":"Øverland"},{"label":"Nordahl Grieg"},{"label":"Motstandskamp"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'norsk-vg3:mellomkrigstiden';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('norsk-vg3:mellomkrigstiden', 'Nyrealismen', 'Tilbakevending til realistisk fortellemåte etter 1900.', 0),
+  ('norsk-vg3:mellomkrigstiden', 'Sigrid Undset', 'Skrev Kristin Lavransdatter og fikk Nobelprisen i 1928.', 1),
+  ('norsk-vg3:mellomkrigstiden', 'Kristin Lavransdatter', 'Trilogi fra middelalderen utgitt 1920–22.', 2),
+  ('norsk-vg3:mellomkrigstiden', 'Olav Duun', 'Nynorskforfatter som skrev romanserien Juvikfolke.', 3),
+  ('norsk-vg3:mellomkrigstiden', 'Markens grøde', 'Hamsuns roman fra 1917 om nybyggeren Isak.', 4),
+  ('norsk-vg3:mellomkrigstiden', 'Cora Sandel', 'Skrev Alberte-trilogien om en kvinne som vil bli forfatter.', 5),
+  ('norsk-vg3:mellomkrigstiden', 'Aksel Sandemose', 'Formulerte Janteloven i En flyktning krysser sitt spor.', 6),
+  ('norsk-vg3:mellomkrigstiden', 'Janteloven', '«Du skal ikke tro at du er noe» – det trange samfunnets regler.', 7),
+  ('norsk-vg3:mellomkrigstiden', 'Arbeiderlitteratur', 'Litteratur om og for arbeiderklassen.', 8),
+  ('norsk-vg3:mellomkrigstiden', 'Rudolf Nilsen', 'Arbeiderdikter fra Oslos østkant.', 9),
+  ('norsk-vg3:mellomkrigstiden', 'Kristofer Uppdal', 'Skrev om anleggs- og industriarbeidere.', 10),
+  ('norsk-vg3:mellomkrigstiden', 'Rolf Jacobsen', 'Modernistisk pioner, debuterte med Jord og jern i 1933.', 11),
+  ('norsk-vg3:mellomkrigstiden', 'Frie vers', 'Lyrikk uten fast rim og rytme.', 12),
+  ('norsk-vg3:mellomkrigstiden', 'Du må ikke sove', 'Øverlands advarsel mot nazismen fra 1937.', 13),
+  ('norsk-vg3:mellomkrigstiden', 'Til ungdommen', 'Nordahl Griegs dikt fra 1936 mot krig.', 14);
+delete from public.quiz_sporsmal where tema_id = 'norsk-vg3:mellomkrigstiden';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('norsk-vg3:mellomkrigstiden', 'q01', 'flervalg', 'Hvem skrev Kristin Lavransdatter?', array['Cora Sandel', 'Sigrid Undset', 'Amalie Skram', 'Camilla Collett']::text[], 1, 'Undset fikk Nobelprisen i 1928.', true, true, 0),
+  ('norsk-vg3:mellomkrigstiden', 'q02', 'flervalg', 'Hva er Janteloven?', array['Et trangt samfunns regler om at du ikke skal tro at du er noe', 'En lov fra Stortinget', 'En regel for rim', 'En middelalderlov']::text[], 0, 'Formulert av Aksel Sandemose.', true, true, 1),
+  ('norsk-vg3:mellomkrigstiden', 'q03', 'flervalg', 'Hvilken forfatter skrev Juvikfolke på nynorsk?', array['Rolf Jacobsen', 'Knut Hamsun', 'Olav Duun', 'Nordahl Grieg']::text[], 2, 'En slektsroman fra Trøndelag.', true, true, 2),
+  ('norsk-vg3:mellomkrigstiden', 'q04', 'flervalg', 'Hva var nytt i Rolf Jacobsens lyrikk?', array['Faste rim og sonetter', 'Sagamotiver', 'Religiøse salmer', 'Frie vers og motiver fra teknologi og byer']::text[], 3, 'En pioner for modernismen.', true, true, 3),
+  ('norsk-vg3:mellomkrigstiden', 'q05', 'flervalg', 'Hva advarte Arnulf Øverland mot i «Du må ikke sove»?', array['Nazismen', 'Industrialiseringen', 'Unionen med Sverige', 'Kvinnesaken']::text[], 0, 'Diktet er fra 1937.', true, true, 4),
+  ('norsk-vg3:mellomkrigstiden', 'q06', 'flervalg', 'Hva handler Markens grøde om?', array['En arbeider i byen', 'Nybyggeren Isak som rydder jord', 'En middelalderkvinne', 'En forfatter i Kristiania']::text[], 1, 'En hyllest til bondelivet.', true, true, 5),
+  ('norsk-vg3:mellomkrigstiden', 'q07', 'flervalg', 'Hva kjennetegner arbeiderlitteraturen?', array['Idyllisk bondeliv', 'Middelaldermotiver', 'Klasseforskjeller og solidaritet', 'Drømmer og mystikk']::text[], 2, 'Om og for arbeiderne.', true, true, 6),
+  ('norsk-vg3:mellomkrigstiden', 'q08', 'flervalg', 'Hva handler Alberte-trilogien om?', array['En slekt i Trøndelag', 'Krigen', 'En nybygger', 'En ung kvinne som kjemper for å bli forfatter']::text[], 3, 'Skrevet av Cora Sandel.', true, true, 7),
+  ('norsk-vg3:mellomkrigstiden', 'q09', 'flervalg', 'Hvem skrev «Til ungdommen»?', array['Nordahl Grieg', 'Rudolf Nilsen', 'Arnulf Øverland', 'Rolf Jacobsen']::text[], 0, 'Fra 1936.', true, false, 8),
+  ('norsk-vg3:mellomkrigstiden', 'q10', 'flervalg', 'Hvilket spørsmål reiser Hamsuns støtte til nazismen?', array['Om han skrev på nynorsk', 'Om vi kan skille forfatterskapet fra forfatterens holdninger', 'Om han fikk Nobelprisen', 'Om han skrev lyrikk']::text[], 1, 'Diskuteres fortsatt.', true, false, 9),
+  ('norsk-vg3:mellomkrigstiden', 'm01', 'sant-usant', 'Under okkupasjonen ble dikt spredt i hemmelighet.', array['Sant', 'Usant']::text[], 0, 'De ble en del av motstandskampen.', false, true, 10),
+  ('norsk-vg3:mellomkrigstiden', 'm02', 'sant-usant', 'Kristin Lavransdatter foregår i samtiden på 1920-tallet.', array['Sant', 'Usant']::text[], 1, 'Den foregår i middelalderen.', false, true, 11),
+  ('norsk-vg3:mellomkrigstiden', 'm03', 'sant-usant', 'Janteloven beskriver hvordan et lite samfunn kan knuse den som skiller seg ut.', array['Sant', 'Usant']::text[], 0, 'Sandemose, 1933.', false, true, 12),
+  ('norsk-vg3:mellomkrigstiden', 'm04', 'sant-usant', 'Nordahl Grieg overlevde krigen.', array['Sant', 'Usant']::text[], 1, 'Han døde som krigskorrespondent i 1943.', false, true, 13),
+  ('norsk-vg3:mellomkrigstiden', 'm05', 'flervalg', 'Hva heter Rolf Jacobsens debutsamling?', array['Haugtussa', 'Jord og jern', 'Sult', 'Juvikfolke']::text[], 1, 'Fra 1933.', false, true, 14),
+  ('norsk-vg3:mellomkrigstiden', 'm06', 'flervalg', 'Hvilket tema står sentralt hos Undset og Duun?', array['Moral, ansvar og tro', 'Teknologi', 'Reklame', 'Romfart']::text[], 0, 'Store romanverk om menneskelig utvikling.', false, true, 15),
+  ('norsk-vg3:mellomkrigstiden', 'm07', 'flervalg', 'Når ble Norge selvstendig?', array['1814', '1884', '1905', '1945']::text[], 2, 'Unionen med Sverige ble oppløst.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('norsk-vg3:mellomkrigstiden', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Norsk: Modernismen og litteraturen 1945–1980
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('norsk-vg3:modernismen-etter-1945', 'norsk-vg3', 'modernismen-etter-1945', 'Modernismen og litteraturen 1945–1980', 'Modernismens kjennetegn og gjennombrudd i norsk litteratur etter andre verdenskrig: lyrikkmodernismen og tungetaledebatten, Tarjei Vesaas'' symbolske prosa, Olav H. Hauge, Jens Bjørneboe, Profil-generasjonen og den politiske og feministiske litteraturen på 1970-tallet.', array[1, 2]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('norsk-vg3:modernismen-etter-1945', '## Hva er modernisme?
+
+**Modernismen** er en fellesbetegnelse på kunst og litteratur som **bryter** med tradisjonelle former. Den oppstod i Europa tidlig på 1900-tallet med forfattere som **Franz Kafka**, **James Joyce** og **T.S. Eliot**, men slo for alvor gjennom i Norge **etter 1945**.
+
+Kjennetegn:
+
+- **Brudd** med rim, fast rytme og kronologisk handling
+- **Fragmentering** – teksten består av biter som leseren selv må sette sammen
+- **Sterke bilder**, symboler og **uklarhet**
+- **Indre monolog** og **bevissthetsstrøm**
+- Temaer som **fremmedgjøring**, **ensomhet**, **angst** og meningsløshet
+
+## Etter krigen
+
+Krigen, **atombomben** og den **kalde krigen** gjorde at mange mistet troen på at verden var ordnet og god. Samtidig bygde Norge opp **velferdsstaten**.
+
+**Gunvor Hofmo** skrev om **ensomhet** og tap i samlingen **Jeg vil hjem til menneskene** (1946).
+
+## Lyrikkmodernismen og tungetaledebatten
+
+**Paal Brekke** oversatte T.S. Eliots **Det golde landet** og skrev selv modernistisk lyrikk. Mange lesere syntes den nye lyrikken var **uforståelig**. I **1953** kritiserte **André Bjerke** den som «**tungetale fra Parnasset**». Den påfølgende **tungetaledebatten** handlet om hva lyrikk skal være: **tilgjengelig** og tradisjonell, eller **fri** og eksperimenterende.
+
+## Tarjei Vesaas
+
+**Tarjei Vesaas** skrev **lyrisk** og **symbolsk** prosa på **nynorsk**.
+
+- **Fuglane** (1957) handler om **Mattis**, en utviklingshemmet mann som ser verden annerledes. Romanen stiller spørsmål om hvem som er **annerledes**, og hvordan samfunnet møter dem.
+- **Is-slottet** (1963) handler om vennskapet mellom **Siss** og **Unn**. Is-slottet blir et **symbol** på noe vakkert og farlig på samme tid.
+
+Hos Vesaas er **naturen** tett knyttet til **menneskets indre**.
+
+## Olav H. Hauge og Jens Bjørneboe
+
+**Olav H. Hauge** skrev korte, konsentrerte dikt, blant annet «**Det er den draumen**». Han kombinerte **naturbilder** fra Hardanger med påvirkning fra kinesisk og engelsk lyrikk.
+
+**Jens Bjørneboe** var en kraftig **samfunnskritiker**. **Jonas** (1955) kritiserer en skole som knuser barn som ikke passer inn, og **Frihetens øyeblikk** (1966) skildrer menneskets **grusomhet** gjennom historien.
+
+## 1960- og 1970-tallet
+
+På **1960-tallet** samlet unge forfattere seg rundt tidsskriftet **Profil**, blant dem **Dag Solstad** og **Jan Erik Vold**. De eksperimenterte med **form** og ville fornye litteraturen.
+
+På **1970-tallet** ble litteraturen sterkt **politisk**. Mange forfattere skrev **sosialrealistisk** om arbeidsliv og klassekamp, og noen var knyttet til den **marxistisk-leninistiske** bevegelsen. **Kjartan Fløgstad** skrev **Dalen Portland** (1977) om industrisamfunnet.
+
+**Kvinnebevegelsen** satte også spor. **Bjørg Vik** skrev om kvinners hverdagsliv, og **Gerd Brantenberg** snudde kjønnsrollene i den satiriske romanen **Egalias døtre** (1977).
+
+## Menneske, natur og samfunn
+
+- **Mennesket**: ofte **fremmedgjort**, ensomt og splittet
+- **Naturen**: et speil for sjelen eller et **symbol**
+- **Samfunnet**: kritisert for å undertrykke **individet** eller for **urettferdighet**
+
+## Å lese modernistiske tekster
+
+Modernistiske tekster krever **aktive** lesere. Se etter **bilder**, **gjentakelser**, **brudd** og **symboler**, og godta at teksten kan ha **flere** tolkninger.', '{"label":"Modernismen 1945–1980","children":[{"label":"Kjennetegn","children":[{"label":"Formbrudd"},{"label":"Fragmentering"},{"label":"Fremmedgjøring"}]},{"label":"Lyrikken","children":[{"label":"Hofmo og Brekke"},{"label":"Tungetaledebatten"},{"label":"Olav H. Hauge"}]},{"label":"Prosa","children":[{"label":"Vesaas"},{"label":"Bjørneboe"}]},{"label":"1960–70-tallet","children":[{"label":"Profil"},{"label":"Politisering"},{"label":"Kvinnelitteratur"}]},{"label":"Menneske og samfunn","children":[{"label":"Ensomhet"},{"label":"Samfunnskritikk"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'norsk-vg3:modernismen-etter-1945';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('norsk-vg3:modernismen-etter-1945', 'Modernisme', 'Kunst og litteratur som bryter med tradisjonelle former.', 0),
+  ('norsk-vg3:modernismen-etter-1945', 'Fragmentering', 'Teksten består av biter som leseren må sette sammen.', 1),
+  ('norsk-vg3:modernismen-etter-1945', 'Bevissthetsstrøm', 'Tankene gjengis slik de strømmer, uten orden.', 2),
+  ('norsk-vg3:modernismen-etter-1945', 'Fremmedgjøring', 'Følelsen av ikke å høre hjemme i verden.', 3),
+  ('norsk-vg3:modernismen-etter-1945', 'Gunvor Hofmo', 'Modernistisk lyriker, skrev Jeg vil hjem til menneskene.', 4),
+  ('norsk-vg3:modernismen-etter-1945', 'Paal Brekke', 'Oversatte T.S. Eliot og skrev modernistisk lyrikk.', 5),
+  ('norsk-vg3:modernismen-etter-1945', 'Tungetaledebatten', 'Debatt i 1953 om den modernistiske lyrikken var uforståelig.', 6),
+  ('norsk-vg3:modernismen-etter-1945', 'André Bjerke', 'Kritiserte modernismen som «tungetale fra Parnasset».', 7),
+  ('norsk-vg3:modernismen-etter-1945', 'Tarjei Vesaas', 'Skrev symbolsk og lyrisk prosa på nynorsk.', 8),
+  ('norsk-vg3:modernismen-etter-1945', 'Fuglane', 'Vesaas'' roman fra 1957 om Mattis.', 9),
+  ('norsk-vg3:modernismen-etter-1945', 'Is-slottet', 'Vesaas'' roman fra 1963 om Siss og Unn.', 10),
+  ('norsk-vg3:modernismen-etter-1945', 'Olav H. Hauge', 'Lyriker fra Hardanger med korte, konsentrerte dikt.', 11),
+  ('norsk-vg3:modernismen-etter-1945', 'Jens Bjørneboe', 'Samfunnskritisk forfatter, skrev Jonas og Frihetens øyeblikk.', 12),
+  ('norsk-vg3:modernismen-etter-1945', 'Profil-generasjonen', 'Unge forfattere på 1960-tallet som fornyet litteraturen.', 13),
+  ('norsk-vg3:modernismen-etter-1945', 'Egalias døtre', 'Brantenbergs satiriske roman fra 1977 med snudde kjønnsroller.', 14),
+  ('norsk-vg3:modernismen-etter-1945', 'Dalen Portland', 'Fløgstads roman fra 1977 om industrisamfunnet.', 15);
+delete from public.quiz_sporsmal where tema_id = 'norsk-vg3:modernismen-etter-1945';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('norsk-vg3:modernismen-etter-1945', 'q01', 'flervalg', 'Hva kjennetegner modernismen?', array['Faste rim og rytme', 'Brudd med tradisjonelle former og fragmentering', 'Idealisering av bondelivet', 'Nøktern realisme']::text[], 1, 'Også sterke bilder og uklarhet.', true, true, 0),
+  ('norsk-vg3:modernismen-etter-1945', 'q02', 'flervalg', 'Hva handlet tungetaledebatten om?', array['Om modernistisk lyrikk var uforståelig', 'Om nynorsk eller bokmål', 'Om religion i skolen', 'Om kvinners stemmerett']::text[], 0, 'André Bjerke startet debatten i 1953.', true, true, 1),
+  ('norsk-vg3:modernismen-etter-1945', 'q03', 'flervalg', 'Hvem skrev Fuglane og Is-slottet?', array['Jens Bjørneboe', 'Olav H. Hauge', 'Tarjei Vesaas', 'Dag Solstad']::text[], 2, 'Symbolsk prosa på nynorsk.', true, true, 2),
+  ('norsk-vg3:modernismen-etter-1945', 'q04', 'flervalg', 'Hva kritiserer Bjørneboes Jonas?', array['Krigen', 'Kirken', 'Industrien', 'En skole som knuser barn som ikke passer inn']::text[], 3, 'Fra 1955.', true, true, 3),
+  ('norsk-vg3:modernismen-etter-1945', 'q05', 'flervalg', 'Hva er typisk for 1970-tallets litteratur?', array['Sterk politisering og sosialrealisme', 'Nyromantikk', 'Sagamotiver', 'Barokk stil']::text[], 0, 'Også kvinnelitteratur.', true, true, 4),
+  ('norsk-vg3:modernismen-etter-1945', 'q06', 'flervalg', 'Hva gjør Gerd Brantenberg i Egalias døtre?', array['Skildrer middelalderen', 'Snur kjønnsrollene', 'Beskriver en fabrikk', 'Skriver om naturen']::text[], 1, 'En satire over kjønnsroller.', true, true, 5),
+  ('norsk-vg3:modernismen-etter-1945', 'q07', 'flervalg', 'Hvilket symbol står sentralt i Is-slottet?', array['Et fyrtårn', 'En fugl', 'Et islagt fossefall formet som et slott', 'En bil']::text[], 2, 'Vakkert og farlig på samme tid.', true, true, 6),
+  ('norsk-vg3:modernismen-etter-1945', 'q08', 'flervalg', 'Hva forventes av leseren i en modernistisk tekst?', array['At hen godtar én riktig tolkning', 'At hen leser raskt', 'At hen bare ser på handlingen', 'At hen leser aktivt og godtar flere tolkninger']::text[], 3, 'Teksten har ofte åpne bilder.', true, true, 7),
+  ('norsk-vg3:modernismen-etter-1945', 'q09', 'flervalg', 'Hvilken tidsskriftgruppe samlet unge forfattere på 1960-tallet?', array['Profil', 'Syn og Segn', 'Samtiden', 'Vinduet']::text[], 0, 'Blant dem Dag Solstad og Jan Erik Vold.', true, false, 8),
+  ('norsk-vg3:modernismen-etter-1945', 'q10', 'flervalg', 'Hva kjennetegner Olav H. Hauges dikt?', array['Lange episke fortellinger', 'Korte, konsentrerte dikt med naturbilder', 'Sonetter med fast rim', 'Politiske kampdikt']::text[], 1, 'For eksempel «Det er den draumen».', true, false, 9),
+  ('norsk-vg3:modernismen-etter-1945', 'm01', 'sant-usant', 'Krigen og atombomben bidro til at mange mistet troen på en ordnet verden.', array['Sant', 'Usant']::text[], 0, 'En bakgrunn for modernismen.', false, true, 10),
+  ('norsk-vg3:modernismen-etter-1945', 'm02', 'sant-usant', 'Tarjei Vesaas skrev på bokmål.', array['Sant', 'Usant']::text[], 1, 'Han skrev på nynorsk.', false, true, 11),
+  ('norsk-vg3:modernismen-etter-1945', 'm03', 'sant-usant', 'Kjartan Fløgstad skrev om industrisamfunnet i Dalen Portland.', array['Sant', 'Usant']::text[], 0, 'Fra 1977.', false, true, 12),
+  ('norsk-vg3:modernismen-etter-1945', 'm04', 'sant-usant', 'Modernistisk lyrikk bruker alltid faste rim.', array['Sant', 'Usant']::text[], 1, 'Den bryter ofte med rim og rytme.', false, true, 13),
+  ('norsk-vg3:modernismen-etter-1945', 'm05', 'flervalg', 'Hvem handler Fuglane om?', array['Siss', 'Mattis', 'Jonas', 'Nora']::text[], 1, 'En mann som ser verden annerledes.', false, true, 14),
+  ('norsk-vg3:modernismen-etter-1945', 'm06', 'flervalg', 'Hvem oversatte T.S. Eliots Det golde landet?', array['Paal Brekke', 'André Bjerke', 'Rolf Jacobsen', 'Olav H. Hauge']::text[], 0, 'Han skrev selv modernistisk lyrikk.', false, true, 15),
+  ('norsk-vg3:modernismen-etter-1945', 'm07', 'flervalg', 'Hvordan brukes naturen ofte i modernistiske tekster?', array['Som idyll', 'Som bakgrunn uten betydning', 'Som speil for sjelen eller symbol', 'Som reklame']::text[], 2, 'For eksempel hos Vesaas.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('norsk-vg3:modernismen-etter-1945', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Norsk: Samtidslitteratur fra 1980 til i dag
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('norsk-vg3:samtidslitteratur', 'norsk-vg3', 'samtidslitteratur', 'Samtidslitteratur fra 1980 til i dag', 'Tendenser i norsk litteratur fra 1980 til i dag: postmodernisme, oppvekstromaner, Jon Fosses minimalisme, autofiksjon med Karl Ove Knausgård og Vigdis Hjorth, nye stemmer fra flerkulturelle miljøer, klimalitteratur og nye medier – lest i lys av egen samtid.', array[1]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('norsk-vg3:samtidslitteratur', '## Mangfold i stedet for retninger
+
+Etter 1980 er det vanskeligere å dele litteraturen inn i klare **retninger**. Mange stiler lever **side om side**. Likevel kan vi se noen tydelige **tendenser**.
+
+## Postmodernisme
+
+På **1980-tallet** kom **postmodernismen**. Den er skeptisk til at det finnes **én sannhet** og leker med **sjangre**, **fortellere** og **virkelighet**. Teksten kan kommentere seg selv – **metafiksjon**.
+
+**Jan Kjærstad** skrev **Homo falsus** (1984), der fortelleren leker med leserens forventninger. Senere skrev han en trilogi om TV-profilen **Jonas Wergeland**, som viser at et menneske kan fortelles på **mange måter**.
+
+## Fortellinger om oppvekst og historie
+
+- **Lars Saabye Christensen** skrev **Beatles** (1984) om fire gutter som vokser opp i Oslo på 1960- og 70-tallet, og **Halvbroren** (2001).
+- **Herbjørg Wassmo** skrev om jenta **Tora** i **Huset med den blinde glassveranda** (1981), om krigsbarn og overgrep, og senere **Dinas bok** (1989).
+- **Roy Jacobsen** skrev **De usynlige** (2013) om livet på en liten øy på Helgeland.
+
+## Jon Fosse
+
+**Jon Fosse** skriver på **nynorsk** – dramatikk, lyrikk og prosa. Stilen er **minimalistisk**: korte setninger, mange **gjentakelser** og **pauser**. Tekstene handler om **eksistensielle** spørsmål – kjærlighet, død, tro og det som ikke kan sies. Fosse fikk **Nobelprisen** i **2023**.
+
+## Autofiksjon
+
+**Autofiksjon** er litteratur der grensen mellom **virkelighet** og **fiksjon** blir utydelig. Forfatteren skriver om **sitt eget** liv, men i romanform.
+
+- **Karl Ove Knausgård** skrev romanverket **Min kamp** (2009–2011) i seks bind om sitt eget liv, familie og far. Bøkene skapte debatt om hva det er **lov** å skrive om **virkelige** personer.
+- **Vigdis Hjorth** skrev **Arv og miljø** (2016) om en familiekonflikt som lesere knyttet til hennes egen familie.
+
+## Nye stemmer
+
+Norge har blitt et mer **flerkulturelt** samfunn, og litteraturen speiler det.
+
+- **Maria Navarro Skaranger** skrev **Alle utlendinger har lukka gardiner** (2015) på et språk nær **ungdomsspråket** i Groruddalen.
+- **Zeshan Shakar** skrev **Tante Ulrikkes vei** (2017) om to unge menn i en drabantby i Oslo.
+
+Tekstene tar opp **identitet**, **tilhørighet**, **fordommer** og **klasse**.
+
+## Klima og framtid
+
+**Maja Lunde** skrev **Bienes historie** (2015), som knytter sammen tre tider og spør hva som skjer hvis **biene** forsvinner. **Klimalitteraturen** handler om menneskets forhold til **naturen** og ansvaret for **framtiden**.
+
+## Nye medier og former
+
+Litteraturen møter leserne på nye måter: **lydbøker**, **strømmetjenester**, **podkaster**, **spoken word** og **korte dikt** i sosiale medier. **Sakprosa** har fått stor plass, og grensen mellom **sjangre** er flytende.
+
+## Å lese samtidslitteratur
+
+Når du leser en samtidstekst, kan du spørre:
+
+- Hvilke **samfunnsspørsmål** tar teksten opp?
+- Hvordan framstilles **mennesket** – som fritt, splittet eller formet av omgivelsene?
+- Hva betyr **formen** – språket, fortelleren og strukturen?
+- Hvordan kan teksten forstås i lys av **din egen samtid**?', '{"label":"Samtidslitteratur","children":[{"label":"Postmodernisme","children":[{"label":"Kjærstad"},{"label":"Metafiksjon"}]},{"label":"Oppvekst og historie","children":[{"label":"Saabye Christensen"},{"label":"Wassmo"},{"label":"Roy Jacobsen"}]},{"label":"Fosse","children":[{"label":"Minimalisme"},{"label":"Nobelprisen 2023"}]},{"label":"Autofiksjon","children":[{"label":"Knausgård"},{"label":"Vigdis Hjorth"}]},{"label":"Nye stemmer og temaer","children":[{"label":"Flerkulturelle miljøer"},{"label":"Klimalitteratur"},{"label":"Nye medier"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'norsk-vg3:samtidslitteratur';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('norsk-vg3:samtidslitteratur', 'Postmodernisme', 'Retning som er skeptisk til én sannhet og leker med sjangre og fortellere.', 0),
+  ('norsk-vg3:samtidslitteratur', 'Metafiksjon', 'Tekst som kommenterer seg selv som tekst.', 1),
+  ('norsk-vg3:samtidslitteratur', 'Jan Kjærstad', 'Postmodernistisk forfatter, skrev Homo falsus og Wergeland-trilogien.', 2),
+  ('norsk-vg3:samtidslitteratur', 'Beatles', 'Lars Saabye Christensens oppvekstroman fra 1984.', 3),
+  ('norsk-vg3:samtidslitteratur', 'Herbjørg Wassmo', 'Skrev Tora-bøkene og Dinas bok.', 4),
+  ('norsk-vg3:samtidslitteratur', 'Jon Fosse', 'Nynorskforfatter med minimalistisk stil, Nobelprisen 2023.', 5),
+  ('norsk-vg3:samtidslitteratur', 'Minimalisme', 'Stil med korte setninger, gjentakelser og pauser.', 6),
+  ('norsk-vg3:samtidslitteratur', 'Autofiksjon', 'Litteratur der grensen mellom eget liv og fiksjon viskes ut.', 7),
+  ('norsk-vg3:samtidslitteratur', 'Min kamp', 'Knausgårds romanverk i seks bind (2009–2011).', 8),
+  ('norsk-vg3:samtidslitteratur', 'Arv og miljø', 'Vigdis Hjorths roman fra 2016 om en familiekonflikt.', 9),
+  ('norsk-vg3:samtidslitteratur', 'Alle utlendinger har lukka gardiner', 'Maria Navarro Skarangers roman fra 2015.', 10),
+  ('norsk-vg3:samtidslitteratur', 'Tante Ulrikkes vei', 'Zeshan Shakars roman fra 2017 om unge menn i en drabantby.', 11),
+  ('norsk-vg3:samtidslitteratur', 'Bienes historie', 'Maja Lundes klimaroman fra 2015.', 12),
+  ('norsk-vg3:samtidslitteratur', 'Klimalitteratur', 'Litteratur om menneskets forhold til naturen og framtiden.', 13),
+  ('norsk-vg3:samtidslitteratur', 'Spoken word', 'Poesi skrevet for å framføres muntlig.', 14);
+delete from public.quiz_sporsmal where tema_id = 'norsk-vg3:samtidslitteratur';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('norsk-vg3:samtidslitteratur', 'q01', 'flervalg', 'Hva kjennetegner postmodernismen?', array['Tro på én sannhet', 'Lek med sjangre, fortellere og virkelighet', 'Nøkterne skildringer av arbeidslivet', 'Nasjonalromantikk']::text[], 1, 'Også metafiksjon.', true, true, 0),
+  ('norsk-vg3:samtidslitteratur', 'q02', 'flervalg', 'Hva er autofiksjon?', array['Litteratur der grensen mellom eget liv og fiksjon viskes ut', 'Science fiction', 'Litteratur om biler', 'Rene biografier uten fiksjon']::text[], 0, 'For eksempel Knausgårds Min kamp.', true, true, 1),
+  ('norsk-vg3:samtidslitteratur', 'q03', 'flervalg', 'Hvem fikk Nobelprisen i litteratur i 2023?', array['Karl Ove Knausgård', 'Vigdis Hjorth', 'Jon Fosse', 'Jan Kjærstad']::text[], 2, 'Han skriver på nynorsk.', true, true, 2),
+  ('norsk-vg3:samtidslitteratur', 'q04', 'flervalg', 'Hva kjennetegner Jon Fosses stil?', array['Lange, kompliserte setninger', 'Mye humor og ironi', 'Mange fremmedord', 'Korte setninger, gjentakelser og pauser']::text[], 3, 'Minimalistisk.', true, true, 3),
+  ('norsk-vg3:samtidslitteratur', 'q05', 'flervalg', 'Hvilken debatt skapte Min kamp?', array['Om hva det er lov å skrive om virkelige personer', 'Om nynorsk', 'Om klima', 'Om rim i lyrikken']::text[], 0, 'Knausgård skrev om egen familie.', true, true, 4),
+  ('norsk-vg3:samtidslitteratur', 'q06', 'flervalg', 'Hva tar Tante Ulrikkes vei opp?', array['Livet i middelalderen', 'Identitet og klasse blant unge i en drabantby', 'Biene som forsvinner', 'En konflikt på en øy']::text[], 1, 'Zeshan Shakar, 2017.', true, true, 5),
+  ('norsk-vg3:samtidslitteratur', 'q07', 'flervalg', 'Hvilken roman er et eksempel på klimalitteratur?', array['Beatles', 'Homo falsus', 'Bienes historie', 'Min kamp']::text[], 2, 'Maja Lunde, 2015.', true, true, 6),
+  ('norsk-vg3:samtidslitteratur', 'q08', 'flervalg', 'Hva er metafiksjon?', array['En sann historie', 'En type dikt', 'En film', 'En tekst som kommenterer seg selv som tekst']::text[], 3, 'Typisk for postmodernismen.', true, true, 7),
+  ('norsk-vg3:samtidslitteratur', 'q09', 'flervalg', 'Hvilket språk bruker Maria Navarro Skaranger i Alle utlendinger har lukka gardiner?', array['Et språk nær ungdomsspråket i Groruddalen', 'Gammelnorsk', 'Høytidelig riksmål', 'Engelsk']::text[], 0, 'Nær muntlig ungdomsspråk.', true, false, 8),
+  ('norsk-vg3:samtidslitteratur', 'q10', 'flervalg', 'Hvorfor er det vanskelig å dele samtidslitteraturen inn i retninger?', array['Fordi det skrives lite', 'Fordi mange stiler lever side om side', 'Fordi all litteratur er lik', 'Fordi bare lyrikk skrives']::text[], 1, 'Mangfold preger samtiden.', true, false, 9),
+  ('norsk-vg3:samtidslitteratur', 'm01', 'sant-usant', 'Sakprosa har fått stor plass i samtidslitteraturen.', array['Sant', 'Usant']::text[], 0, 'Grensen mellom sjangre er flytende.', false, true, 10),
+  ('norsk-vg3:samtidslitteratur', 'm02', 'sant-usant', 'Min kamp består av tre bind.', array['Sant', 'Usant']::text[], 1, 'Den består av seks bind.', false, true, 11),
+  ('norsk-vg3:samtidslitteratur', 'm03', 'sant-usant', 'Jon Fosse skriver både drama, lyrikk og prosa.', array['Sant', 'Usant']::text[], 0, 'Alt på nynorsk.', false, true, 12),
+  ('norsk-vg3:samtidslitteratur', 'm04', 'sant-usant', 'Samtidslitteraturen tar ikke opp spørsmål om identitet og tilhørighet.', array['Sant', 'Usant']::text[], 1, 'Det er sentrale temaer.', false, true, 13),
+  ('norsk-vg3:samtidslitteratur', 'm05', 'flervalg', 'Hvem skrev Huset med den blinde glassveranda?', array['Vigdis Hjorth', 'Herbjørg Wassmo', 'Maja Lunde', 'Linn Ullmann']::text[], 1, 'Om jenta Tora.', false, true, 14),
+  ('norsk-vg3:samtidslitteratur', 'm06', 'flervalg', 'Hvilken roman handler om fire gutter i Oslo på 1960- og 70-tallet?', array['Beatles', 'De usynlige', 'Arv og miljø', 'Dinas bok']::text[], 0, 'Lars Saabye Christensen.', false, true, 15),
+  ('norsk-vg3:samtidslitteratur', 'm07', 'flervalg', 'Hva er et godt spørsmål når du leser en samtidstekst?', array['Hvor mange sider har den?', 'Hva kostet den?', 'Hvordan kan teksten forstås i lys av min egen samtid?', 'Hvilken farge har omslaget?']::text[], 2, 'Knytt teksten til samtiden.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('norsk-vg3:samtidslitteratur', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Norsk: Essay
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('norsk-vg3:essay', 'norsk-vg3', 'essay', 'Essay', 'Hva et essay er, sjangerens opphav hos Montaigne, kjennetegn som den personlige stemmen og den utforskende tankegangen, forskjellen fra fagartikkel og kåseri – og hvordan du skriver et essay som utforsker og reflekterer over innholdet i tekster.', array[3]::int[], 5, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('norsk-vg3:essay', '## Hva er et essay?
+
+Ordet **essay** kommer fra fransk og betyr «**forsøk**». Et essay er en tekst der skriveren **utforsker** et tema, **undrer** seg og **prøver ut** tanker. Målet er ikke nødvendigvis å komme fram til ett svar, men å gi leseren **ny innsikt** og få hen til å **tenke selv**.
+
+Sjangeren fikk navnet sitt fra franskmannen **Michel de Montaigne**, som i **1580** ga ut boka **Essais**. Der skrev han om alt fra vennskap og død til sine egne vaner.
+
+## Kjennetegn
+
+- **Personlig stemme**: Skriveren bruker gjerne «**jeg**» og viser sin egen **undring**.
+- **Utforskende**: Teksten stiller **spørsmål** og prøver ut **ulike perspektiver**.
+- **Bevegelse** mellom det **konkrete** og det **allmenne**: fra en egen opplevelse eller en tekst til store spørsmål om livet og samfunnet – og tilbake igjen.
+- **Assosiativ** tankegang – men med en **rød tråd**.
+- **Litterært språk**: bilder, sammenligninger, variasjon i setningslengde og gjerne **humor** og **ironi**.
+- **Åpen** eller **ettertenksom** avslutning.
+
+## Essay, fagartikkel og kåseri
+
+| | Essay | Fagartikkel | Kåseri |
+|---|---|---|---|
+| Mål | utforske og reflektere | greie ut og drøfte | underholde |
+| Stemme | personlig | saklig | personlig og humoristisk |
+| Struktur | fri, med rød tråd | fast og tydelig | fri |
+| Avslutning | ofte åpen | konklusjon | poeng |
+
+## Et essay om tekster
+
+I norskfaget skal du skrive essay som **utforsker** og **reflekterer over** innholdet i tekster. Det kan for eksempel være et essay om **frihet** med utgangspunkt i Ibsens **Et dukkehjem**, eller om **ensomhet** med utgangspunkt i et modernistisk dikt.
+
+Slik kan du jobbe:
+
+1. **Les** teksten eller tekstene nøye og noter hva som gjør inntrykk.
+2. Finn et **tema** eller et **spørsmål** som engasjerer deg, for eksempel «Hva vil det si å være fri?».
+3. **Koble** teksten til egne erfaringer, samfunnet i dag og gjerne andre tekster, filmer eller hendelser.
+4. **Utforsk** ulike sider – også de som går imot det du selv først mente.
+5. **Bruk** korte **sitater** fra teksten, og vis hvordan de får deg til å tenke videre.
+
+## Oppbygning
+
+- **Inngang**: Start gjerne **konkret** – med en situasjon, et bilde, et sitat eller et spørsmål – som vekker leserens nysgjerrighet.
+- **Hoveddel**: La tankene **bevege** seg. Hvert avsnitt kan åpne et nytt **perspektiv**, men sørg for at leseren kan følge tråden.
+- **Avslutning**: Knytt gjerne tilbake til inngangen, og vis hvordan tankene har **utviklet** seg. Avslutningen kan være et **åpent spørsmål**.
+
+## Tips
+
+- Lag en **tittel** som vekker nysgjerrighet.
+- Skriv **ærlig** – undringen skal være ekte.
+- Unngå å bare **referere** handlingen. Essayet skal handle om det teksten får deg til å **tenke**.
+- Oppgi **kilder** når du bruker andres tekster og tanker.
+- **Les høyt** for å høre om språket flyter.
+
+Et godt essay kjennetegnes av **refleksjon**, **nysgjerrighet** og **språklig bevissthet** – det viser at du **tenker**, ikke bare at du **vet**.', '{"label":"Essay","children":[{"label":"Opphav","children":[{"label":"Forsøk"},{"label":"Montaigne 1580"}]},{"label":"Kjennetegn","children":[{"label":"Personlig stemme"},{"label":"Utforskende"},{"label":"Konkret og allment"}]},{"label":"Sammenligning","children":[{"label":"Fagartikkel"},{"label":"Kåseri"}]},{"label":"Essay om tekster","children":[{"label":"Finn et spørsmål"},{"label":"Koble til samtiden"},{"label":"Bruk sitater"}]},{"label":"Oppbygning","children":[{"label":"Konkret inngang"},{"label":"Tankebevegelse"},{"label":"Åpen avslutning"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'norsk-vg3:essay';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('norsk-vg3:essay', 'Essay', 'Utforskende og reflekterende tekst med personlig stemme.', 0),
+  ('norsk-vg3:essay', 'Forsøk', 'Betydningen av ordet essay.', 1),
+  ('norsk-vg3:essay', 'Michel de Montaigne', 'Franskmann som ga ut Essais i 1580.', 2),
+  ('norsk-vg3:essay', 'Personlig stemme', 'Skriveren bruker «jeg» og viser egen undring.', 3),
+  ('norsk-vg3:essay', 'Utforskende tekst', 'Tekst som prøver ut tanker og perspektiver.', 4),
+  ('norsk-vg3:essay', 'Konkret og allment', 'Essayet beveger seg mellom egne erfaringer og store spørsmål.', 5),
+  ('norsk-vg3:essay', 'Assosiativ tankegang', 'Tankene går fra det ene til det andre – med en rød tråd.', 6),
+  ('norsk-vg3:essay', 'Rød tråd', 'Sammenhengen som leseren kan følge gjennom teksten.', 7),
+  ('norsk-vg3:essay', 'Åpen avslutning', 'Teksten ender med refleksjon eller et spørsmål, ikke en fast konklusjon.', 8),
+  ('norsk-vg3:essay', 'Fagartikkel', 'Saklig tekst som greier ut og drøfter med konklusjon.', 9),
+  ('norsk-vg3:essay', 'Kåseri', 'Personlig og humoristisk tekst som skal underholde.', 10),
+  ('norsk-vg3:essay', 'Inngang', 'Konkret start som vekker nysgjerrighet.', 11),
+  ('norsk-vg3:essay', 'Referat', 'Gjenfortelling – bør ikke dominere et essay.', 12),
+  ('norsk-vg3:essay', 'Refleksjon', 'Å tenke gjennom og vurdere noe fra flere sider.', 13),
+  ('norsk-vg3:essay', 'Perspektiv', 'En måte å se et tema på.', 14);
+delete from public.quiz_sporsmal where tema_id = 'norsk-vg3:essay';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('norsk-vg3:essay', 'q01', 'flervalg', 'Hva betyr ordet essay?', array['Fortelling', 'Forsøk', 'Artikkel', 'Dikt']::text[], 1, 'Fra fransk.', true, true, 0),
+  ('norsk-vg3:essay', 'q02', 'flervalg', 'Hvem ga sjangeren navnet sitt?', array['Michel de Montaigne', 'Henrik Ibsen', 'Georg Brandes', 'Aristoteles']::text[], 0, 'Essais kom ut i 1580.', true, true, 1),
+  ('norsk-vg3:essay', 'q03', 'flervalg', 'Hva kjennetegner et essay?', array['Saklig stil uten jeg', 'Fast oppsett med metode og resultater', 'Personlig stemme og utforskende tankegang', 'Bare humor']::text[], 2, 'Skriveren undrer seg.', true, true, 2),
+  ('norsk-vg3:essay', 'q04', 'flervalg', 'Hvordan avsluttes et essay ofte?', array['Med en kildeliste alene', 'Med en fast konklusjon', 'Med en reklame', 'Åpent eller ettertenksomt']::text[], 3, 'Fagartikkelen har konklusjon.', true, true, 3),
+  ('norsk-vg3:essay', 'q05', 'flervalg', 'Hva er forskjellen på et essay og en fagartikkel?', array['Essayet utforsker personlig, fagartikkelen greier ut saklig', 'Det er ingen forskjell', 'Fagartikkelen er alltid morsom', 'Essayet har alltid tabeller']::text[], 0, 'Ulike formål og stemmer.', true, true, 4),
+  ('norsk-vg3:essay', 'q06', 'flervalg', 'Hva bør du unngå i et essay om en tekst?', array['Å bruke sitater', 'Å bare referere handlingen', 'Å stille spørsmål', 'Å bruke jeg']::text[], 1, 'Essayet skal handle om det teksten får deg til å tenke.', true, true, 5),
+  ('norsk-vg3:essay', 'q07', 'flervalg', 'Hvordan kan et essay starte?', array['Med en innholdsfortegnelse', 'Med en definisjon fra en ordbok alltid', 'Konkret, med en situasjon, et bilde eller et spørsmål', 'Med konklusjonen']::text[], 2, 'Vekk leserens nysgjerrighet.', true, true, 6),
+  ('norsk-vg3:essay', 'q08', 'flervalg', 'Hva betyr at essayet beveger seg mellom det konkrete og det allmenne?', array['At det bare handler om detaljer', 'At det bare handler om store spørsmål', 'At det bytter sjanger', 'At det går fra en opplevelse eller tekst til store spørsmål og tilbake']::text[], 3, 'Et typisk kjennetegn.', true, true, 7),
+  ('norsk-vg3:essay', 'q09', 'flervalg', 'Hva er en rød tråd?', array['Sammenhengen leseren kan følge gjennom teksten', 'En type sitat', 'En tittel', 'En kildehenvisning']::text[], 0, 'Viktig også i et assosiativt essay.', true, false, 8),
+  ('norsk-vg3:essay', 'q10', 'flervalg', 'Hvorfor bør du utforske sider som går imot det du selv mente?', array['For å gjøre teksten lengre', 'For å vise refleksjon og flere perspektiver', 'Fordi det er et krav i kåseri', 'For å slippe å konkludere']::text[], 1, 'Et essay prøver ut tanker.', true, false, 9),
+  ('norsk-vg3:essay', 'm01', 'sant-usant', 'Et essay kan bruke bilder, sammenligninger og ironi.', array['Sant', 'Usant']::text[], 0, 'Språket er ofte litterært.', false, true, 10),
+  ('norsk-vg3:essay', 'm02', 'sant-usant', 'Et essay må alltid ende med ett klart svar.', array['Sant', 'Usant']::text[], 1, 'Avslutningen er ofte åpen.', false, true, 11),
+  ('norsk-vg3:essay', 'm03', 'sant-usant', 'Også i et essay bør du oppgi kilder når du bruker andres tekster.', array['Sant', 'Usant']::text[], 0, 'Etterrettelig kildebruk.', false, true, 12),
+  ('norsk-vg3:essay', 'm04', 'sant-usant', 'Et essay skal ikke ha noen sammenheng mellom avsnittene.', array['Sant', 'Usant']::text[], 1, 'Det trenger en rød tråd.', false, true, 13),
+  ('norsk-vg3:essay', 'm05', 'flervalg', 'Hvilket tema kan passe for et essay om Et dukkehjem?', array['Hvor mange sider stykket har', 'Hva det vil si å være fri', 'Når Ibsen ble født', 'Hvor stykket ble trykket']::text[], 1, 'Et åpent spørsmål som kan utforskes.', false, true, 14),
+  ('norsk-vg3:essay', 'm06', 'flervalg', 'Hvilken sjanger har som mål å underholde med humor?', array['Kåseri', 'Fagartikkel', 'Essay', 'Rapport']::text[], 0, 'Essayet utforsker og reflekterer.', false, true, 15),
+  ('norsk-vg3:essay', 'm07', 'flervalg', 'Hva viser et godt essay?', array['At du kan mange årstall', 'At du har lest mange sider', 'At du tenker, reflekterer og er språklig bevisst', 'At du kan referere handlingen']::text[], 2, 'Refleksjon og nysgjerrighet.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('norsk-vg3:essay', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Norsk: Litterære tolkninger og sammenligninger
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('norsk-vg3:litterar-tolkning-og-sammenligning', 'norsk-vg3', 'litterar-tolkning-og-sammenligning', 'Litterære tolkninger og sammenligninger', 'Forskjellen på analyse og tolkning, analyseverktøy for prosa, drama og lyrikk, ulike litteraturvitenskapelige innfallsvinkler – og hvordan du skriver en litterær tolkning og en sammenligning av to tekster.', array[4]::int[], 6, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('norsk-vg3:litterar-tolkning-og-sammenligning', '## Analyse og tolkning
+
+- **Analyse** betyr å **undersøke** hvordan teksten er **bygd opp**: komposisjon, forteller, personer, språk og virkemidler.
+- **Tolkning** betyr å finne ut hva teksten **betyr** – hvilket **tema** og hvilket **budskap** den kan ha.
+
+Analysen er **grunnlaget** for tolkningen. En god tolkning er **begrunnet** med eksempler og **sitater** fra teksten.
+
+## Analyseverktøy
+
+**Prosa og drama**:
+
+- **Komposisjon**: kronologisk eller med tilbakeblikk, åpen eller lukket slutt, vendepunkt
+- **Forteller og synsvinkel**: jeg-forteller eller tredjepersonsforteller, allvitende eller begrenset
+- **Personer**: hvordan de karakteriseres – direkte eller indirekte
+- **Tid og miljø**
+- **Konflikter** – indre og ytre
+- **Motiv**: den konkrete situasjonen, for eksempel en kvinne som forlater hjemmet
+- **Tema**: det overordnede emnet, for eksempel frihet
+
+**Lyrikk**:
+
+- **Lyrisk jeg** og **stemning**
+- **Bilder**: metaforer, sammenligninger, besjeling og symboler
+- **Lyd og rytme**: rim, allitterasjon og gjentakelser
+- **Form**: strofer, linjeskift og frie vers
+
+## Innfallsvinkler
+
+- **Tekstnær lesning**: Tolkningen bygger bare på selve **teksten**.
+- **Biografisk**: Tolkningen trekker inn forfatterens **liv**.
+- **Kontekstuell**: Teksten leses i lys av **tiden** og **epoken** den ble skrevet i.
+- **Leserorientert**: Leserens egen **erfaring** og **samtid** spiller inn – og tolkningen kan endre seg over tid.
+
+I norskfaget er det vanlig å kombinere en **tekstnær** lesning med **kontekst**.
+
+## Å skrive en litterær tolkning
+
+1. **Innledning**: presenter tekst, forfatter og årstall, gi et kort innblikk i handlingen og formuler en **problemstilling** eller en **påstand** om hva teksten handler om.
+2. **Hoveddel**: vis gjennom **analyse** hvordan teksten skaper mening. Hvert avsnitt kan ta for seg ett **poeng**, underbygd med **sitater** som du **kommenterer**.
+3. **Kontekst**: vis hvordan teksten henger sammen med **epoken**.
+4. **Avslutning**: samle trådene og formuler **tolkningen** – tema og budskap.
+
+Unngå å bare **referere** handlingen. Det er **hvordan** og **hvorfor** som er viktig.
+
+## Å skrive en sammenligning
+
+En sammenligning undersøker **likheter** og **forskjeller** mellom to tekster. Du trenger et **sammenligningsgrunnlag** – noe tekstene har **felles**, for eksempel **tema**, **motiv** eller **sjanger**.
+
+To måter å bygge opp teksten på:
+
+- **Tekst for tekst**: Først den ene teksten, så den andre, og til slutt en samlet sammenligning. Enklere, men lett å bli to separate analyser.
+- **Punkt for punkt**: Sammenlign tekstene **aspekt for aspekt** – for eksempel synet på kjærlighet, formen og konteksten. Gir en **tettere** sammenligning.
+
+Bruk **sammenligningsord** som «på samme måte», «derimot», «i motsetning til» og «begge».
+
+## Eksempel
+
+Sammenligner du **Et dukkehjem** (1879) og en samtidsroman om et **samlivsbrudd**, kan grunnlaget være **frihet og roller i parforholdet**. Du kan vise hvordan begge handler om å **finne seg selv**, men at **normene** og **konsekvensene** er svært ulike, fordi tekstene er skrevet i ulike **tider**.
+
+## Språk
+
+Bruk **presens** når du skriver om teksten («Nora forlater Helmer»), bruk **fagbegreper**, og la **sitatene** være korte og presise.', '{"label":"Tolkning og sammenligning","children":[{"label":"Begreper","children":[{"label":"Analyse"},{"label":"Tolkning"},{"label":"Motiv og tema"}]},{"label":"Verktøy","children":[{"label":"Komposisjon og forteller"},{"label":"Personer og konflikter"},{"label":"Bilder, lyd og form"}]},{"label":"Innfallsvinkler","children":[{"label":"Tekstnær"},{"label":"Biografisk"},{"label":"Kontekstuell og leserorientert"}]},{"label":"Tolkningstekst","children":[{"label":"Innledning med påstand"},{"label":"Sitater som kommenteres"},{"label":"Tema og budskap"}]},{"label":"Sammenligning","children":[{"label":"Grunnlag"},{"label":"Tekst for tekst"},{"label":"Punkt for punkt"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'norsk-vg3:litterar-tolkning-og-sammenligning';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('norsk-vg3:litterar-tolkning-og-sammenligning', 'Analyse', 'Å undersøke hvordan teksten er bygd opp.', 0),
+  ('norsk-vg3:litterar-tolkning-og-sammenligning', 'Tolkning', 'Å finne ut hva teksten betyr – tema og budskap.', 1),
+  ('norsk-vg3:litterar-tolkning-og-sammenligning', 'Komposisjon', 'Hvordan handlingen er bygd opp.', 2),
+  ('norsk-vg3:litterar-tolkning-og-sammenligning', 'Synsvinkel', 'Hvem sitt perspektiv handlingen fortelles fra.', 3),
+  ('norsk-vg3:litterar-tolkning-og-sammenligning', 'Indirekte karakteristikk', 'Personen beskrives gjennom handlinger og replikker.', 4),
+  ('norsk-vg3:litterar-tolkning-og-sammenligning', 'Motiv', 'Den konkrete situasjonen i teksten.', 5),
+  ('norsk-vg3:litterar-tolkning-og-sammenligning', 'Tema', 'Det overordnede emnet teksten handler om.', 6),
+  ('norsk-vg3:litterar-tolkning-og-sammenligning', 'Lyrisk jeg', 'Stemmen som taler i et dikt.', 7),
+  ('norsk-vg3:litterar-tolkning-og-sammenligning', 'Besjeling', 'Ting eller natur får menneskelige egenskaper.', 8),
+  ('norsk-vg3:litterar-tolkning-og-sammenligning', 'Tekstnær lesning', 'Tolkning som bygger bare på selve teksten.', 9),
+  ('norsk-vg3:litterar-tolkning-og-sammenligning', 'Biografisk lesning', 'Tolkning som trekker inn forfatterens liv.', 10),
+  ('norsk-vg3:litterar-tolkning-og-sammenligning', 'Kontekstuell lesning', 'Teksten leses i lys av tiden den ble skrevet i.', 11),
+  ('norsk-vg3:litterar-tolkning-og-sammenligning', 'Sammenligningsgrunnlag', 'Det to tekster har felles og kan sammenlignes ut fra.', 12),
+  ('norsk-vg3:litterar-tolkning-og-sammenligning', 'Punkt for punkt', 'Sammenligning aspekt for aspekt.', 13),
+  ('norsk-vg3:litterar-tolkning-og-sammenligning', 'Litterær presens', 'Man bruker presens når man skriver om handlingen i en tekst.', 14);
+delete from public.quiz_sporsmal where tema_id = 'norsk-vg3:litterar-tolkning-og-sammenligning';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('norsk-vg3:litterar-tolkning-og-sammenligning', 'q01', 'flervalg', 'Hva er forskjellen på analyse og tolkning?', array['Det er det samme', 'Analyse undersøker oppbygningen, tolkning finner betydningen', 'Tolkning handler om rim', 'Analyse er alltid muntlig']::text[], 1, 'Analysen er grunnlaget for tolkningen.', true, true, 0),
+  ('norsk-vg3:litterar-tolkning-og-sammenligning', 'q02', 'flervalg', 'Hva er forskjellen på motiv og tema?', array['Motiv er den konkrete situasjonen, tema det overordnede emnet', 'Tema er konkret, motiv er abstrakt', 'De betyr det samme', 'Motiv gjelder bare lyrikk']::text[], 0, 'For eksempel: forlater hjemmet – frihet.', true, true, 1),
+  ('norsk-vg3:litterar-tolkning-og-sammenligning', 'q03', 'flervalg', 'Hva er en kontekstuell lesning?', array['En lesning som bare ser på rim', 'En lesning som bare ser på forfatterens liv', 'En lesning i lys av tiden og epoken teksten ble skrevet i', 'En lesning uten tekst']::text[], 2, 'Knytter teksten til epoken.', true, true, 2),
+  ('norsk-vg3:litterar-tolkning-og-sammenligning', 'q04', 'flervalg', 'Hva trenger du for å sammenligne to tekster?', array['Samme forfatter', 'Samme lengde', 'Samme årstall', 'Et sammenligningsgrunnlag']::text[], 3, 'For eksempel felles tema eller motiv.', true, true, 3),
+  ('norsk-vg3:litterar-tolkning-og-sammenligning', 'q05', 'flervalg', 'Hva er en fordel med å sammenligne punkt for punkt?', array['Den gir en tettere sammenligning', 'Den er alltid kortest', 'Den krever ingen sitater', 'Den gir to separate analyser']::text[], 0, 'Tekstene ses opp mot hverandre hele veien.', true, true, 4),
+  ('norsk-vg3:litterar-tolkning-og-sammenligning', 'q06', 'flervalg', 'Hvilken tid bør du bruke når du skriver om handlingen i en tekst?', array['Preteritum', 'Presens', 'Futurum', 'Perfektum']::text[], 1, '«Nora forlater Helmer.»', true, true, 5),
+  ('norsk-vg3:litterar-tolkning-og-sammenligning', 'q07', 'flervalg', 'Hva hører hjemme i innledningen til en litterær tolkning?', array['Kildelisten', 'Konklusjonen', 'Tekst, forfatter, årstall og en problemstilling', 'Alle sitatene']::text[], 2, 'Gi leseren oversikt.', true, true, 6),
+  ('norsk-vg3:litterar-tolkning-og-sammenligning', 'q08', 'flervalg', 'Hva er besjeling?', array['Rim på slutten av linjen', 'Gjentakelse av lyd', 'En type forteller', 'At ting eller natur får menneskelige egenskaper']::text[], 3, 'Et språklig bilde.', true, true, 7),
+  ('norsk-vg3:litterar-tolkning-og-sammenligning', 'q09', 'flervalg', 'Hvorfor bør du kommentere sitatene du bruker?', array['For å vise hvordan de støtter tolkningen', 'For å gjøre teksten lengre', 'Fordi sitater er ulovlige uten kommentar', 'For å referere handlingen']::text[], 0, 'Sitater alene forklarer ingenting.', true, false, 8),
+  ('norsk-vg3:litterar-tolkning-og-sammenligning', 'q10', 'flervalg', 'Hvilket ord passer godt i en sammenligning?', array['«Derfor»', '«I motsetning til»', '«Først»', '«Til slutt»']::text[], 1, 'Viser forskjeller.', true, false, 9),
+  ('norsk-vg3:litterar-tolkning-og-sammenligning', 'm01', 'sant-usant', 'En god tolkning er begrunnet med eksempler og sitater fra teksten.', array['Sant', 'Usant']::text[], 0, 'Påstander må underbygges.', false, true, 10),
+  ('norsk-vg3:litterar-tolkning-og-sammenligning', 'm02', 'sant-usant', 'En litterær tolkning bør i hovedsak være et referat av handlingen.', array['Sant', 'Usant']::text[], 1, 'Hvordan og hvorfor er det viktigste.', false, true, 11),
+  ('norsk-vg3:litterar-tolkning-og-sammenligning', 'm03', 'sant-usant', 'En leserorientert lesning tar med leserens egen erfaring og samtid.', array['Sant', 'Usant']::text[], 0, 'Tolkningen kan endre seg over tid.', false, true, 12),
+  ('norsk-vg3:litterar-tolkning-og-sammenligning', 'm04', 'sant-usant', 'Tekst for tekst-metoden gir alltid den tetteste sammenligningen.', array['Sant', 'Usant']::text[], 1, 'Den kan lett bli to separate analyser.', false, true, 13),
+  ('norsk-vg3:litterar-tolkning-og-sammenligning', 'm05', 'flervalg', 'Hva er indirekte karakteristikk?', array['Fortelleren sier rett ut hvordan personen er', 'Personen beskrives gjennom handlinger og replikker', 'Personen har ingen replikker', 'Personen er fortelleren']::text[], 1, 'Leseren må slutte seg til egenskapene.', false, true, 14),
+  ('norsk-vg3:litterar-tolkning-og-sammenligning', 'm06', 'flervalg', 'Hva er et lyrisk jeg?', array['Stemmen som taler i et dikt', 'Forfatteren selv alltid', 'Leseren', 'Hovedpersonen i en roman']::text[], 0, 'Ikke nødvendigvis det samme som forfatteren.', false, true, 15),
+  ('norsk-vg3:litterar-tolkning-og-sammenligning', 'm07', 'flervalg', 'Hva kan være sammenligningsgrunnlaget for Et dukkehjem og en samtidsroman om samlivsbrudd?', array['Antall sider', 'Forlaget', 'Frihet og roller i parforholdet', 'Forfatterens fødested']::text[], 2, 'Et felles tema.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('norsk-vg3:litterar-tolkning-og-sammenligning', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Norsk: Retorisk analyse og tolkning av sakprosa
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('norsk-vg3:retorisk-analyse-av-sakprosa', 'norsk-vg3', 'retorisk-analyse-av-sakprosa', 'Retorisk analyse og tolkning av sakprosa', 'Hvordan du analyserer og tolker sakprosatekster: den retoriske situasjonen, appellformene og kairos, argumentasjonsanalyse med påstand, belegg og hjemmel, argumentasjonsfeil, språklige virkemidler – og hvordan du bygger opp en retorisk analyse.', array[7]::int[], 7, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('norsk-vg3:retorisk-analyse-av-sakprosa', '## Hva er en retorisk analyse?
+
+En **retorisk analyse** undersøker **hvordan** en tekst prøver å **overbevise** eller **påvirke** leseren, og **vurderer** om den lykkes. Den brukes på **sakprosa** som debattinnlegg, taler, kronikker, ledere og reklame.
+
+## Den retoriske situasjonen
+
+Start med å kartlegge **situasjonen** teksten er skrevet i:
+
+- **Avsender**: Hvem står bak, og hvilken rolle og troverdighet har hen?
+- **Mottaker**: Hvem er teksten skrevet til? Hva vet og mener de fra før?
+- **Formål**: Skal teksten **informere**, **overbevise** eller få folk til å **handle**?
+- **Kanal** og **sjanger**
+- **Kontekst**: Hva skjedde i samfunnet da teksten kom? Hvilken **sak** eller **debatt** er den en del av?
+
+## Appellformer
+
+- **Etos**: avsenderens **troverdighet** – kompetanse, erfaring, ærlighet og velvilje.
+- **Patos**: appell til **følelser** – gjennom eksempler, bilder, ordvalg og fortellinger.
+- **Logos**: appell til **fornuften** – fakta, statistikk og logiske argumenter.
+
+**Kairos** handler om **timing** – om teksten kommer til rett tid og passer til situasjonen.
+
+## Argumentasjonsanalyse
+
+Finn **hovedpåstanden** – det teksten vil at leseren skal mene. Undersøk så argumentene:
+
+- **Påstand**: det som hevdes
+- **Belegg**: det som støtter påstanden, for eksempel fakta eller eksempler
+- **Hjemmel**: den ofte **uuttalte** forutsetningen som knytter belegget til påstanden
+
+Eksempel: «Skolen bør ha mobilforbud» (påstand), «fordi elevene lærer mer uten mobil» (belegg). Hjemmelen er at **læring** er det viktigste målet for skolen.
+
+Vurder om argumentene er **relevante**, **holdbare** og om motargumenter blir **imøtegått**.
+
+## Argumentasjonsfeil
+
+- **Stråmann**: å angripe en **forvrengt** versjon av motpartens syn
+- **Personangrep**: å angripe **personen** i stedet for saken
+- **Falsk dilemma**: å late som det bare finnes **to** alternativer
+- **Glidebaneargument**: å påstå at ett steg uunngåelig fører til en katastrofe
+- **Generalisering** ut fra få eksempler
+- **Autoritetsargument** der autoriteten ikke har relevant kompetanse
+
+## Språklige virkemidler
+
+- **Ordvalg** med positive eller negative **konnotasjoner**
+- **Retoriske spørsmål**
+- **Gjentakelser** og **tretall** («vi trenger mot, vilje og handling»)
+- **Kontraster** og **metaforer**
+- **Vi-form** som skaper fellesskap
+- **Tone** – saklig, ironisk, alvorlig eller personlig
+
+## Oppbygning av en retorisk analyse
+
+1. **Innledning**: presenter teksten, avsender, kanal og dato, og gi et kort sammendrag av **hovedpåstanden**.
+2. **Retorisk situasjon** og **kontekst**
+3. **Analyse** av **appellformer**, **argumentasjon**, **disposisjon** og **språk** – med **sitater**
+4. **Vurdering**: Er teksten **overbevisende** for målgruppen? Hva er **styrkene** og **svakhetene**?
+5. **Avslutning**: oppsummer og konkluder.
+
+## Tolkning av sakprosa
+
+Sakprosa kan også **tolkes**. Spør hva teksten sier om **verdier**, **menneskesyn** og **samfunn** – og hva som **ikke** blir sagt. Hvilke **perspektiver** mangler?
+
+## Husk
+
+Skill mellom **hva du mener** om saken og **hvordan teksten argumenterer**. Du kan godt være uenig i påstanden og likevel synes teksten er **retorisk sterk**.', '{"label":"Retorisk analyse","children":[{"label":"Situasjon","children":[{"label":"Avsender og mottaker"},{"label":"Formål og kanal"},{"label":"Kontekst"}]},{"label":"Appellformer","children":[{"label":"Etos"},{"label":"Patos"},{"label":"Logos"},{"label":"Kairos"}]},{"label":"Argumentasjon","children":[{"label":"Påstand"},{"label":"Belegg"},{"label":"Hjemmel"}]},{"label":"Feil","children":[{"label":"Stråmann"},{"label":"Personangrep"},{"label":"Falsk dilemma"}]},{"label":"Oppbygning","children":[{"label":"Analyse med sitater"},{"label":"Vurdering"},{"label":"Tolkning"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'norsk-vg3:retorisk-analyse-av-sakprosa';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('norsk-vg3:retorisk-analyse-av-sakprosa', 'Retorisk analyse', 'Undersøkelse av hvordan en tekst prøver å overbevise, og om den lykkes.', 0),
+  ('norsk-vg3:retorisk-analyse-av-sakprosa', 'Retorisk situasjon', 'Avsender, mottaker, formål, kanal og kontekst.', 1),
+  ('norsk-vg3:retorisk-analyse-av-sakprosa', 'Etos', 'Appell gjennom avsenderens troverdighet.', 2),
+  ('norsk-vg3:retorisk-analyse-av-sakprosa', 'Patos', 'Appell til følelser.', 3),
+  ('norsk-vg3:retorisk-analyse-av-sakprosa', 'Logos', 'Appell til fornuften med fakta og logikk.', 4),
+  ('norsk-vg3:retorisk-analyse-av-sakprosa', 'Kairos', 'Rett tidspunkt og tilpasning til situasjonen.', 5),
+  ('norsk-vg3:retorisk-analyse-av-sakprosa', 'Hovedpåstand', 'Det teksten vil at leseren skal mene.', 6),
+  ('norsk-vg3:retorisk-analyse-av-sakprosa', 'Belegg', 'Det som støtter en påstand.', 7),
+  ('norsk-vg3:retorisk-analyse-av-sakprosa', 'Hjemmel', 'Den ofte uuttalte forutsetningen som knytter belegg og påstand.', 8),
+  ('norsk-vg3:retorisk-analyse-av-sakprosa', 'Stråmann', 'Å angripe en forvrengt versjon av motpartens syn.', 9),
+  ('norsk-vg3:retorisk-analyse-av-sakprosa', 'Personangrep', 'Å angripe personen i stedet for saken.', 10),
+  ('norsk-vg3:retorisk-analyse-av-sakprosa', 'Falsk dilemma', 'Å late som det bare finnes to alternativer.', 11),
+  ('norsk-vg3:retorisk-analyse-av-sakprosa', 'Glidebaneargument', 'Å påstå at ett steg uunngåelig fører til katastrofe.', 12),
+  ('norsk-vg3:retorisk-analyse-av-sakprosa', 'Konnotasjon', 'Assosiasjonene et ord vekker.', 13),
+  ('norsk-vg3:retorisk-analyse-av-sakprosa', 'Retorisk spørsmål', 'Spørsmål som ikke krever svar, men skal påvirke.', 14);
+delete from public.quiz_sporsmal where tema_id = 'norsk-vg3:retorisk-analyse-av-sakprosa';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('norsk-vg3:retorisk-analyse-av-sakprosa', 'q01', 'flervalg', 'Hva undersøker en retorisk analyse?', array['Rim og rytme', 'Hvordan en tekst prøver å overbevise, og om den lykkes', 'Bare fakta i teksten', 'Forfatterens liv']::text[], 1, 'Brukes på sakprosa.', true, true, 0),
+  ('norsk-vg3:retorisk-analyse-av-sakprosa', 'q02', 'flervalg', 'Hva er etos?', array['Appell gjennom avsenderens troverdighet', 'Appell til følelser', 'Appell til fornuften', 'Rett timing']::text[], 0, 'Kompetanse, erfaring og velvilje.', true, true, 1),
+  ('norsk-vg3:retorisk-analyse-av-sakprosa', 'q03', 'flervalg', 'Hva er kairos?', array['En argumentasjonsfeil', 'Et språklig bilde', 'Rett tidspunkt og tilpasning til situasjonen', 'En sjanger']::text[], 2, 'Timing.', true, true, 2),
+  ('norsk-vg3:retorisk-analyse-av-sakprosa', 'q04', 'flervalg', 'Hva er en hjemmel?', array['Hovedpåstanden', 'Et sitat', 'Konklusjonen', 'Den uuttalte forutsetningen som knytter belegg og påstand']::text[], 3, 'Ofte underforstått.', true, true, 3),
+  ('norsk-vg3:retorisk-analyse-av-sakprosa', 'q05', 'flervalg', 'En debattant angriper motpartens utseende i stedet for argumentene. Hva kalles dette?', array['Personangrep', 'Stråmann', 'Falsk dilemma', 'Glidebane']::text[], 0, 'Angriper personen, ikke saken.', true, true, 4),
+  ('norsk-vg3:retorisk-analyse-av-sakprosa', 'q06', 'flervalg', '«Enten er du for full frihet, eller så vil du ha diktatur.» Hvilken feil er dette?', array['Stråmann', 'Falsk dilemma', 'Personangrep', 'Autoritetsargument']::text[], 1, 'Det finnes flere alternativer.', true, true, 5),
+  ('norsk-vg3:retorisk-analyse-av-sakprosa', 'q07', 'flervalg', 'Hvilken appellform bruker statistikk og fakta?', array['Etos', 'Patos', 'Logos', 'Kairos']::text[], 2, 'Appell til fornuften.', true, true, 6),
+  ('norsk-vg3:retorisk-analyse-av-sakprosa', 'q08', 'flervalg', 'Hva bør vurderingen i en retorisk analyse handle om?', array['Om du er enig i saken', 'Hvor lang teksten er', 'Hvem som betalte avisen', 'Om teksten er overbevisende for målgruppen']::text[], 3, 'Skill mellom egen mening og tekstens retorikk.', true, true, 7),
+  ('norsk-vg3:retorisk-analyse-av-sakprosa', 'q09', 'flervalg', 'Hva er et glidebaneargument?', array['Å påstå at ett steg uunngåelig fører til katastrofe', 'Å angripe personen', 'Å gjenta et ord', 'Å bruke statistikk']::text[], 0, 'En vanlig argumentasjonsfeil.', true, false, 8),
+  ('norsk-vg3:retorisk-analyse-av-sakprosa', 'q10', 'flervalg', 'Hvorfor kan en tekst bruke vi-form?', array['For å virke upersonlig', 'For å skape fellesskap med leseren', 'For å skjule avsenderen', 'Fordi det er et krav i sakprosa']::text[], 1, 'Et språklig virkemiddel.', true, false, 9),
+  ('norsk-vg3:retorisk-analyse-av-sakprosa', 'm01', 'sant-usant', 'Du kan være uenig i en påstand og likevel mene at teksten er retorisk sterk.', array['Sant', 'Usant']::text[], 0, 'Skill mellom mening og analyse.', false, true, 10),
+  ('norsk-vg3:retorisk-analyse-av-sakprosa', 'm02', 'sant-usant', 'Patos betyr appell gjennom avsenderens troverdighet.', array['Sant', 'Usant']::text[], 1, 'Patos er appell til følelser.', false, true, 11),
+  ('norsk-vg3:retorisk-analyse-av-sakprosa', 'm03', 'sant-usant', 'Sakprosa kan også tolkes, for eksempel ut fra verdier og menneskesyn.', array['Sant', 'Usant']::text[], 0, 'Hva sies – og hva sies ikke?', false, true, 12),
+  ('norsk-vg3:retorisk-analyse-av-sakprosa', 'm04', 'sant-usant', 'Hjemmelen står alltid tydelig i teksten.', array['Sant', 'Usant']::text[], 1, 'Den er ofte uuttalt.', false, true, 13),
+  ('norsk-vg3:retorisk-analyse-av-sakprosa', 'm05', 'flervalg', 'Hva er en stråmann?', array['Å angripe personen', 'Å angripe en forvrengt versjon av motpartens syn', 'Å bruke statistikk', 'Å gjenta et poeng']::text[], 1, 'En vanlig argumentasjonsfeil.', false, true, 14),
+  ('norsk-vg3:retorisk-analyse-av-sakprosa', 'm06', 'flervalg', 'Hvilket virkemiddel er et tretall?', array['«Vi trenger mot, vilje og handling»', '«Er det rettferdig?»', '«Han er en løve»', '«Vi»']::text[], 0, 'Tre ledd gir rytme og tyngde.', false, true, 15),
+  ('norsk-vg3:retorisk-analyse-av-sakprosa', 'm07', 'flervalg', 'Hva hører til den retoriske situasjonen?', array['Rim og rytme', 'Antall avsnitt', 'Avsender, mottaker, formål og kontekst', 'Skrifttypen']::text[], 2, 'Første steg i analysen.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('norsk-vg3:retorisk-analyse-av-sakprosa', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Norsk: Sammensatte tekster i ulike medier
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('norsk-vg3:sammensatte-tekster', 'norsk-vg3', 'sammensatte-tekster', 'Sammensatte tekster i ulike medier', 'Hvordan du analyserer uttrykksformene i sammensatte tekster – skrift, bilde, lyd og bevegelse – og vurderer samspillet mellom dem i reklame, film, nyhetsartikler, sosiale medier, tegneserier og dataspill.', array[5]::int[], 8, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('norsk-vg3:sammensatte-tekster', '## Hva er en sammensatt tekst?
+
+En **sammensatt tekst** – eller **multimodal** tekst – bruker **flere uttrykksformer** samtidig: **skrift**, **bilde**, **lyd**, **farger**, **layout** og **bevegelse**. De fleste tekster vi møter i dag, er sammensatte: reklame, nettaviser, filmer, sosiale medier, dataspill og tegneserier.
+
+## Uttrykksformene
+
+**Skrift**: overskrifter, slagord og brødtekst. Se på **ordvalg**, **tone** og **skrifttype**.
+
+**Bilde**:
+
+- **Utsnitt**: helbilde, halvnært eller nærbilde – nærbilder skaper **nærhet** og følelser
+- **Perspektiv**: **froskeperspektiv** nedenfra får motivet til å virke **mektig**, **fugleperspektiv** ovenfra gjør det **lite** eller sårbart
+- **Komposisjon**: blikkfang, linjer, balanse og **gyldne snitt**
+- **Farger**: varme og kalde farger, kontraster og symbolikk
+- **Blikk**: ser personen rett mot oss – og skaper **kontakt** – eller bort?
+
+**Lyd**: musikk, stemmer, lydeffekter og **stillhet** kan skape stemning og spenning.
+
+**Bevegelse** i film og video: **klipp**, **tempo**, **kamerabevegelse** og **kameravinkel**.
+
+## Samspillet
+
+Det viktigste i analysen er hvordan uttrykksformene **virker sammen**:
+
+- **Forsterkende**: Bildet og teksten sier det **samme** og gjør budskapet sterkere.
+- **Utdypende**: Den ene uttrykksformen gir **mer informasjon** enn den andre.
+- **Motstridende**: Bildet og teksten sier noe **ulikt**. Det kan skape **ironi**, **humor** eller **undring**.
+
+## Ulike medier
+
+- **Reklame** bruker gjerne **blikkfang**, et kort **slagord** og en **logo**. Spør hvilke **følelser** og **verdier** produktet knyttes til.
+- **Nyhetsartikler** på nett kombinerer **tittel**, **ingress**, **bilder** og **video**. Bildevalget kan påvirke hvordan vi oppfatter saken.
+- **Film og serier** bruker **klipp**, **musikk**, **lys** og **kameravinkler** for å fortelle og skape stemning.
+- **Sosiale medier** blander **bilde**, **video**, **tekst**, **emojier** og **emneknagger**. Algoritmer påvirker hva vi ser.
+- **Tegneserier** kombinerer **ruter**, **snakkebobler** og **tegnestil**.
+- **Dataspill** er **interaktive**: Spilleren påvirker selv fortellingen.
+
+## Analysemodell
+
+1. **Kommunikasjonssituasjon**: avsender, mottaker, formål og kanal
+2. **Førsteinntrykk**: Hva legger du merke til først?
+3. **Uttrykksformene** hver for seg
+4. **Samspillet** mellom dem
+5. **Budskap** og **virkning**
+6. **Vurdering**: Fungerer teksten for målgruppen? Er den **etisk**?
+
+## Kritisk lesning
+
+Bilder og video kan **redigeres** og **manipuleres**, og **kunstig intelligens** gjør det lettere å lage falske bilder og lydopptak. Spør alltid **hvem** som står bak, **hvorfor** teksten er laget, og hva som kan være **utelatt**. Reklame i sosiale medier skal være **merket**.
+
+## Eksempel
+
+En reklame for en elbil viser bilen i et **fugleperspektiv** over en frodig skog, med slagordet «Kjør med god samvittighet». Bildet og teksten **forsterker** hverandre og knytter produktet til **natur** og **ansvar**. Samtidig kan man spørre om reklamen **skjuler** at også elbiler har et miljøavtrykk.', '{"label":"Sammensatte tekster","children":[{"label":"Uttrykksformer","children":[{"label":"Skrift"},{"label":"Bilde"},{"label":"Lyd og bevegelse"}]},{"label":"Bildeanalyse","children":[{"label":"Utsnitt og perspektiv"},{"label":"Komposisjon"},{"label":"Farger og blikk"}]},{"label":"Samspill","children":[{"label":"Forsterkende"},{"label":"Utdypende"},{"label":"Motstridende"}]},{"label":"Medier","children":[{"label":"Reklame og nyheter"},{"label":"Film og sosiale medier"},{"label":"Tegneserier og spill"}]},{"label":"Kritisk lesning","children":[{"label":"Manipulasjon og KI"},{"label":"Hvem står bak?"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'norsk-vg3:sammensatte-tekster';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('norsk-vg3:sammensatte-tekster', 'Sammensatt tekst', 'Tekst som bruker flere uttrykksformer samtidig.', 0),
+  ('norsk-vg3:sammensatte-tekster', 'Multimodal', 'Et annet ord for sammensatt.', 1),
+  ('norsk-vg3:sammensatte-tekster', 'Uttrykksformer', 'Skrift, bilde, lyd, farger, layout og bevegelse.', 2),
+  ('norsk-vg3:sammensatte-tekster', 'Utsnitt', 'Hvor mye av motivet som vises – helbilde, halvnært eller nærbilde.', 3),
+  ('norsk-vg3:sammensatte-tekster', 'Froskeperspektiv', 'Bilde tatt nedenfra – motivet virker mektig.', 4),
+  ('norsk-vg3:sammensatte-tekster', 'Fugleperspektiv', 'Bilde tatt ovenfra – motivet virker lite.', 5),
+  ('norsk-vg3:sammensatte-tekster', 'Blikkfang', 'Det som først fanger oppmerksomheten.', 6),
+  ('norsk-vg3:sammensatte-tekster', 'Gyldne snitt', 'Komposisjonsprinsipp der motivet plasseres utenfor midten.', 7),
+  ('norsk-vg3:sammensatte-tekster', 'Forsterkende samspill', 'Uttrykksformene sier det samme.', 8),
+  ('norsk-vg3:sammensatte-tekster', 'Utdypende samspill', 'Den ene uttrykksformen gir mer informasjon enn den andre.', 9),
+  ('norsk-vg3:sammensatte-tekster', 'Motstridende samspill', 'Uttrykksformene sier noe ulikt – kan gi ironi.', 10),
+  ('norsk-vg3:sammensatte-tekster', 'Slagord', 'Kort og minneverdig setning i reklame.', 11),
+  ('norsk-vg3:sammensatte-tekster', 'Ingress', 'Kort, innledende tekst under tittelen i en nyhetsartikkel.', 12),
+  ('norsk-vg3:sammensatte-tekster', 'Klipp', 'Overgangen mellom to bilder eller scener i film.', 13),
+  ('norsk-vg3:sammensatte-tekster', 'Interaktiv tekst', 'Tekst der brukeren påvirker innholdet, som i dataspill.', 14);
+delete from public.quiz_sporsmal where tema_id = 'norsk-vg3:sammensatte-tekster';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('norsk-vg3:sammensatte-tekster', 'q01', 'flervalg', 'Hva er en sammensatt tekst?', array['En tekst med mange avsnitt', 'En tekst som bruker flere uttrykksformer samtidig', 'En tekst skrevet av flere', 'En lang roman']::text[], 1, 'Også kalt multimodal tekst.', true, true, 0),
+  ('norsk-vg3:sammensatte-tekster', 'q02', 'flervalg', 'Hvordan virker et bilde tatt i froskeperspektiv?', array['Motivet virker mektig', 'Motivet virker lite', 'Motivet virker uskarpt', 'Motivet forsvinner']::text[], 0, 'Tatt nedenfra.', true, true, 1),
+  ('norsk-vg3:sammensatte-tekster', 'q03', 'flervalg', 'Hva betyr at bilde og tekst er motstridende?', array['De sier det samme', 'Teksten mangler', 'De sier noe ulikt, noe som kan gi ironi', 'Bildet er svart-hvitt']::text[], 2, 'Kan skape humor eller undring.', true, true, 2),
+  ('norsk-vg3:sammensatte-tekster', 'q04', 'flervalg', 'Hva skaper et nærbilde ofte?', array['Avstand', 'Oversikt', 'Kulde', 'Nærhet og følelser']::text[], 3, 'Vi ser ansiktsuttrykk tydelig.', true, true, 3),
+  ('norsk-vg3:sammensatte-tekster', 'q05', 'flervalg', 'Hva kjennetegner dataspill som tekst?', array['De er interaktive', 'De har bare skrift', 'De har ingen fortelling', 'De er alltid reklame']::text[], 0, 'Spilleren påvirker fortellingen.', true, true, 4),
+  ('norsk-vg3:sammensatte-tekster', 'q06', 'flervalg', 'Hva er det viktigste i analysen av en sammensatt tekst?', array['Å telle ord', 'Samspillet mellom uttrykksformene', 'Å beskrive skrifttypen', 'Å finne forfatteren']::text[], 1, 'Hvordan de virker sammen.', true, true, 5),
+  ('norsk-vg3:sammensatte-tekster', 'q07', 'flervalg', 'Hvorfor bør du lese bilder og video kritisk?', array['Fordi de alltid er falske', 'Fordi de er kjedelige', 'Fordi de kan redigeres og manipuleres', 'Fordi de er ulovlige']::text[], 2, 'KI gjør manipulasjon lettere.', true, true, 6),
+  ('norsk-vg3:sammensatte-tekster', 'q08', 'flervalg', 'Hva er en ingress?', array['Et bilde', 'Et slagord', 'En logo', 'En kort, innledende tekst under tittelen']::text[], 3, 'Typisk for nyhetsartikler.', true, true, 7),
+  ('norsk-vg3:sammensatte-tekster', 'q09', 'flervalg', 'Hva kan musikk gjøre i en film?', array['Skape stemning og spenning', 'Erstatte bildene', 'Fjerne handlingen', 'Ingenting']::text[], 0, 'Lyd er en viktig uttrykksform.', true, false, 8),
+  ('norsk-vg3:sammensatte-tekster', 'q10', 'flervalg', 'Et bilde av en frodig skog og slagordet «Kjør med god samvittighet» i en bilreklame – hvordan virker samspillet?', array['Motstridende', 'Forsterkende', 'Utdypende uten sammenheng', 'Tilfeldig']::text[], 1, 'Begge knytter produktet til natur og ansvar.', true, false, 9),
+  ('norsk-vg3:sammensatte-tekster', 'm01', 'sant-usant', 'De fleste tekster vi møter i dag, er sammensatte.', array['Sant', 'Usant']::text[], 0, 'Reklame, nettaviser og sosiale medier.', false, true, 10),
+  ('norsk-vg3:sammensatte-tekster', 'm02', 'sant-usant', 'Et bilde tatt i fugleperspektiv får motivet til å virke mektig.', array['Sant', 'Usant']::text[], 1, 'Det får motivet til å virke lite.', false, true, 11),
+  ('norsk-vg3:sammensatte-tekster', 'm03', 'sant-usant', 'Bildevalget i en nyhetsartikkel kan påvirke hvordan vi oppfatter saken.', array['Sant', 'Usant']::text[], 0, 'Bilder er ikke nøytrale.', false, true, 12),
+  ('norsk-vg3:sammensatte-tekster', 'm04', 'sant-usant', 'Stillhet kan ikke brukes som virkemiddel i film.', array['Sant', 'Usant']::text[], 1, 'Stillhet kan skape sterk stemning.', false, true, 13),
+  ('norsk-vg3:sammensatte-tekster', 'm05', 'flervalg', 'Hva er et blikkfang?', array['En logo alltid', 'Det som først fanger oppmerksomheten', 'En kameravinkel', 'En lydeffekt']::text[], 1, 'Viktig i reklame.', false, true, 14),
+  ('norsk-vg3:sammensatte-tekster', 'm06', 'flervalg', 'Hva skaper en person som ser rett mot oss i et bilde?', array['Kontakt', 'Avstand', 'Uskarphet', 'Forvirring']::text[], 0, 'Blikket henvender seg til betrakteren.', false, true, 15),
+  ('norsk-vg3:sammensatte-tekster', 'm07', 'flervalg', 'Hva er utdypende samspill?', array['Uttrykksformene sier det samme', 'Uttrykksformene sier noe motsatt', 'Den ene uttrykksformen gir mer informasjon enn den andre', 'Det finnes bare én uttrykksform']::text[], 2, 'For eksempel et bilde med forklarende bildetekst.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('norsk-vg3:sammensatte-tekster', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Norsk: Fagartikkel, kildebruk og språklige formkrav
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('norsk-vg3:fagartikkel-og-kildebruk', 'norsk-vg3', 'fagartikkel-og-kildebruk', 'Fagartikkel, kildebruk og språklige formkrav', 'Hvordan du orienterer deg i faglitteratur, vurderer kilder kritisk og skriver en fagartikkel som greier ut og drøfter et norskfaglig emne – med etterrettelig kildebruk, presist og nyansert språk og riktig rettskriving på hovedmål og sidemål.', array[9, 8]::int[], 9, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('norsk-vg3:fagartikkel-og-kildebruk', '## Hva er en fagartikkel?
+
+En **fagartikkel** **greier ut** om og **drøfter** et faglig emne. Den skal være **saklig**, **strukturert** og bygge på **kilder**. Målet er å gi leseren **innsikt** og vise en **begrunnet** vurdering – ikke å underholde eller overtale.
+
+## Orientere seg i faglitteratur
+
+- Start bredt i **leksikon** og **fagbøker** for å få oversikt.
+- Bruk **bibliotekets** søketjenester og databaser for å finne bøker og artikler.
+- Les **innholdsfortegnelser**, **sammendrag** og **stikkordregistre** for å finne det som er relevant.
+- Noter **kilden** med en gang du finner noe nyttig.
+
+## Kildekritikk
+
+Spør alltid:
+
+- **Hvem** står bak? Har avsenderen **kompetanse**?
+- **Når** ble kilden laget? Er den **oppdatert**?
+- **Hvorfor** er den laget – for å informere, selge eller påvirke?
+- **Hvordan** er den dokumentert – med henvisninger?
+- Stemmer opplysningene med **andre** kilder?
+
+**Kunstig intelligens** kan gi svar som høres riktige ut, men inneholder **feil** eller **oppdiktede** kilder. Sjekk alltid opplysninger mot **pålitelige** kilder, og vær åpen om hvordan du har brukt slike verktøy.
+
+## Etterrettelig kildebruk
+
+- **Sitat**: nøyaktig gjengivelse av andres ord i **anførselstegn**, med henvisning.
+- **Parafrase**: andres tanker med **dine egne ord** – også med henvisning.
+- **Kildehenvisning** i teksten, for eksempel etter **APA-stilen**: (Etternavn, år, s. 12).
+- **Litteraturliste** til slutt med alle kildene.
+
+Å bruke andres tekst eller tanker uten å oppgi kilden er **plagiat** og regnes som **fusk**.
+
+## Oppbygning
+
+1. **Tittel** som sier hva artikkelen handler om
+2. **Innledning** med bakgrunn og en tydelig **problemstilling**
+3. **Hoveddel** der du **greier ut** – forklarer begreper, fakta og sammenhenger – og **drøfter** – vurderer ulike **sider** og **argumenter**
+4. **Avslutning** med en **konklusjon** som svarer på problemstillingen
+5. **Litteraturliste**
+
+Bruk **mellomtitler** og tydelige **avsnitt** med **temasetninger**.
+
+## Drøfting
+
+Å drøfte betyr å **se en sak fra flere sider**. Bruk uttrykk som «på den ene siden … på den andre siden», «et motargument er» og «samlet sett». Vis at du **veier** argumentene mot hverandre før du konkluderer.
+
+## Presist og nyansert språk
+
+- Bruk **fagbegreper** riktig, for eksempel *motiv*, *tema*, *synsvinkel* og *epoke*.
+- **Nyanser** påstandene: «trolig», «kan tyde på», «i stor grad».
+- Unngå **muntlige** uttrykk og **overdrivelser**.
+- Varier **setningslengden**, men prioriter **klarhet**.
+
+## Formkrav på hovedmål og sidemål
+
+Du skal mestre **rettskrivingen** på både **bokmål** og **nynorsk**. Vanlige utfordringer:
+
+- **Nynorsk**: *eg*, *ikkje*, *kva*, *kven*, *kvifor*, *mykje*, *berre* og riktig **bøying** av substantiv og verb
+- **Bokmål**: *og* og *å*, **dobbel konsonant** og **særskriving** – *sjokoladekake*, ikke *sjokolade kake*
+- **Tegnsetting**: komma mellom helsetninger og etter leddsetninger først i setningen
+
+Bruk **ordbok** – for eksempel Språkrådets og Universitetet i Bergens ordbøker – når du er usikker, og **les korrektur** til slutt.', '{"label":"Fagartikkel og kildebruk","children":[{"label":"Fagartikkel","children":[{"label":"Greie ut"},{"label":"Drøfte"},{"label":"Konkludere"}]},{"label":"Kilder","children":[{"label":"Faglitteratur og bibliotek"},{"label":"Kildekritikk"},{"label":"KI med forsiktighet"}]},{"label":"Etterrettelighet","children":[{"label":"Sitat og parafrase"},{"label":"Henvisning og litteraturliste"},{"label":"Plagiat"}]},{"label":"Språk","children":[{"label":"Fagbegreper"},{"label":"Nyanser"},{"label":"Temasetninger"}]},{"label":"Formkrav","children":[{"label":"Nynorsk"},{"label":"Bokmål"},{"label":"Tegnsetting"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'norsk-vg3:fagartikkel-og-kildebruk';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('norsk-vg3:fagartikkel-og-kildebruk', 'Fagartikkel', 'Saklig tekst som greier ut om og drøfter et faglig emne.', 0),
+  ('norsk-vg3:fagartikkel-og-kildebruk', 'Greie ut', 'Å forklare begreper, fakta og sammenhenger.', 1),
+  ('norsk-vg3:fagartikkel-og-kildebruk', 'Drøfte', 'Å vurdere en sak fra flere sider før man konkluderer.', 2),
+  ('norsk-vg3:fagartikkel-og-kildebruk', 'Problemstilling', 'Spørsmålet artikkelen skal svare på.', 3),
+  ('norsk-vg3:fagartikkel-og-kildebruk', 'Kildekritikk', 'Vurdering av hvem, når, hvorfor og hvordan en kilde er laget.', 4),
+  ('norsk-vg3:fagartikkel-og-kildebruk', 'Sitat', 'Nøyaktig gjengivelse av andres ord i anførselstegn.', 5),
+  ('norsk-vg3:fagartikkel-og-kildebruk', 'Parafrase', 'Andres tanker gjengitt med egne ord.', 6),
+  ('norsk-vg3:fagartikkel-og-kildebruk', 'Kildehenvisning', 'Opplysning i teksten om hvor noe er hentet fra.', 7),
+  ('norsk-vg3:fagartikkel-og-kildebruk', 'APA-stilen', 'Vanlig henvisningsstil: (Etternavn, år, s. 12).', 8),
+  ('norsk-vg3:fagartikkel-og-kildebruk', 'Litteraturliste', 'Oversikt over alle kildene til slutt i teksten.', 9),
+  ('norsk-vg3:fagartikkel-og-kildebruk', 'Plagiat', 'Å bruke andres tekst eller tanker uten å oppgi kilden.', 10),
+  ('norsk-vg3:fagartikkel-og-kildebruk', 'Temasetning', 'Setning som forteller hva avsnittet handler om.', 11),
+  ('norsk-vg3:fagartikkel-og-kildebruk', 'Nyansert språk', 'Språk som viser grader av sikkerhet, som «trolig».', 12),
+  ('norsk-vg3:fagartikkel-og-kildebruk', 'Særskriving', 'Feil der sammensatte ord deles, som «sjokolade kake».', 13),
+  ('norsk-vg3:fagartikkel-og-kildebruk', 'Sidemål', 'Den av bokmål og nynorsk som ikke er hovedmålet ditt.', 14);
+delete from public.quiz_sporsmal where tema_id = 'norsk-vg3:fagartikkel-og-kildebruk';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('norsk-vg3:fagartikkel-og-kildebruk', 'q01', 'flervalg', 'Hva er formålet med en fagartikkel?', array['Å underholde', 'Å greie ut og drøfte et faglig emne', 'Å selge et produkt', 'Å fortelle en fiktiv historie']::text[], 1, 'Saklig og kildebasert.', true, true, 0),
+  ('norsk-vg3:fagartikkel-og-kildebruk', 'q02', 'flervalg', 'Hva er en parafrase?', array['Andres tanker gjengitt med egne ord', 'Et ordrett sitat', 'En litteraturliste', 'En overskrift']::text[], 0, 'Krever også kildehenvisning.', true, true, 1),
+  ('norsk-vg3:fagartikkel-og-kildebruk', 'q03', 'flervalg', 'Hva er plagiat?', array['Å bruke mange kilder', 'Å sitere riktig', 'Å bruke andres tekst eller tanker uten å oppgi kilden', 'Å skrive på sidemål']::text[], 2, 'Regnes som fusk.', true, true, 2),
+  ('norsk-vg3:fagartikkel-og-kildebruk', 'q04', 'flervalg', 'Hva betyr det å drøfte?', array['Å referere', 'Å gi én mening uten begrunnelse', 'Å liste opp fakta', 'Å se en sak fra flere sider før man konkluderer']::text[], 3, 'Veie argumenter mot hverandre.', true, true, 3),
+  ('norsk-vg3:fagartikkel-og-kildebruk', 'q05', 'flervalg', 'Hvorfor må du sjekke opplysninger fra kunstig intelligens?', array['Fordi de kan inneholde feil eller oppdiktede kilder', 'Fordi de alltid er riktige', 'Fordi det er forbudt å lese dem', 'Fordi de er for korte']::text[], 0, 'Sjekk mot pålitelige kilder.', true, true, 4),
+  ('norsk-vg3:fagartikkel-og-kildebruk', 'q06', 'flervalg', 'Hvilket ord er riktig nynorsk?', array['Ikke', 'Ikkje', 'Hva', 'Jeg']::text[], 1, 'Også eg, kva og kven.', true, true, 5),
+  ('norsk-vg3:fagartikkel-og-kildebruk', 'q07', 'flervalg', 'Hva er særskriving?', array['Å skrive med stor forbokstav', 'Å bruke komma', 'At sammensatte ord deles feil', 'Å bytte mellom bokmål og nynorsk']::text[], 2, 'Sjokoladekake, ikke sjokolade kake.', true, true, 6),
+  ('norsk-vg3:fagartikkel-og-kildebruk', 'q08', 'flervalg', 'Hvor står problemstillingen i en fagartikkel?', array['I litteraturlisten', 'I avslutningen', 'Etter kildene', 'I innledningen']::text[], 3, 'Avslutningen svarer på den.', true, true, 7),
+  ('norsk-vg3:fagartikkel-og-kildebruk', 'q09', 'flervalg', 'Hvilket uttrykk gjør en påstand mer nyansert?', array['«Kan tyde på»', '«Alle vet at»', '«Det er helt sikkert»', '«Aldri noensinne»']::text[], 0, 'Viser grad av sikkerhet.', true, false, 8),
+  ('norsk-vg3:fagartikkel-og-kildebruk', 'q10', 'flervalg', 'Hvordan ser en henvisning etter APA-stilen ut i teksten?', array['[1]', '(Etternavn, år, s. 12)', 'Fotnote uten navn', 'Bare tittelen']::text[], 1, 'Full referanse står i litteraturlisten.', true, false, 9),
+  ('norsk-vg3:fagartikkel-og-kildebruk', 'm01', 'sant-usant', 'Også en parafrase må ha kildehenvisning.', array['Sant', 'Usant']::text[], 0, 'Tankene er fortsatt andres.', false, true, 10),
+  ('norsk-vg3:fagartikkel-og-kildebruk', 'm02', 'sant-usant', 'En fagartikkel bør bruke mye muntlig språk og overdrivelser.', array['Sant', 'Usant']::text[], 1, 'Språket skal være presist og saklig.', false, true, 11),
+  ('norsk-vg3:fagartikkel-og-kildebruk', 'm03', 'sant-usant', 'Det er lurt å notere kilden med en gang du finner noe nyttig.', array['Sant', 'Usant']::text[], 0, 'Da slipper du å lete etterpå.', false, true, 12),
+  ('norsk-vg3:fagartikkel-og-kildebruk', 'm04', 'sant-usant', '«Kvifor» er bokmål.', array['Sant', 'Usant']::text[], 1, 'Det er nynorsk – bokmål har «hvorfor».', false, true, 13),
+  ('norsk-vg3:fagartikkel-og-kildebruk', 'm05', 'flervalg', 'Hvilket spørsmål hører til kildekritikk?', array['Hvor lang er kilden?', 'Hvem står bak, og hvorfor er kilden laget?', 'Hvilken farge har nettsiden?', 'Hvor mange bilder har den?']::text[], 1, 'Også når og hvordan.', false, true, 14),
+  ('norsk-vg3:fagartikkel-og-kildebruk', 'm06', 'flervalg', 'Hva gir tydelige avsnitt i en fagartikkel?', array['Temasetninger og mellomtitler', 'Lange setninger uten punktum', 'Mange utropstegn', 'Ingen overskrifter']::text[], 0, 'Gjør teksten lett å følge.', false, true, 15),
+  ('norsk-vg3:fagartikkel-og-kildebruk', 'm07', 'flervalg', 'Hvilket uttrykk passer i en drøfting?', array['«Alle er enige om»', '«Det er ingen tvil»', '«På den ene siden … på den andre siden»', '«Punktum finale»']::text[], 2, 'Viser flere sider.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('norsk-vg3:fagartikkel-og-kildebruk', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Norsk: Muntlige presentasjoner, samtaler og fordypning
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('norsk-vg3:muntlig-fordypning', 'norsk-vg3', 'muntlig-fordypning', 'Muntlige presentasjoner, samtaler og fordypning', 'Hvordan du bruker fagkunnskap og presist fagspråk i utforskende samtaler, diskusjoner og muntlige presentasjoner om norskfaglige emner – fra å velge og avgrense et emne til struktur, stemmebruk, hjelpemidler og samtalen etterpå.', array[6]::int[], 10, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('norsk-vg3:muntlig-fordypning', '## Muntlighet i norskfaget
+
+I norskfaget skal du kunne bruke **fagkunnskap** og **presist fagspråk** muntlig – i **samtaler**, **diskusjoner** og **presentasjoner**. Det betyr å kunne **forklare**, **begrunne**, **lytte** og **svare** på en måte som viser at du forstår stoffet.
+
+## Utforskende samtale
+
+I en **utforskende samtale** tenker deltakerne **sammen** for å forstå noe bedre. Målet er ikke å vinne, men å komme **videre**.
+
+- **Lytt** aktivt og **bygg videre** på det andre sier.
+- Still **åpne spørsmål**: «Hva mener du med …?», «Hvordan ser du det?»
+- **Begrunn** synspunktene dine med eksempler fra tekstene.
+- Vær villig til å **endre** mening.
+
+## Diskusjon
+
+I en **diskusjon** argumenterer deltakerne for ulike **standpunkter**. Du må kunne
+
+- formulere en tydelig **påstand**
+- underbygge den med **argumenter** og **eksempler**
+- **imøtegå** motargumenter på en saklig måte
+- vise **respekt** for andres synspunkter
+
+## Velge og avgrense et emne
+
+En god muntlig presentasjon starter med et **avgrenset** emne og en tydelig **problemstilling**. «Kvinner i litteraturen» er for bredt. «Hvordan framstilles kvinners frihet i Et dukkehjem og Amtmandens Døttre?» gir en tydeligere retning.
+
+Når du **fordyper** deg i et emne, bør du
+
+- lese **primærtekstene** grundig
+- bruke **faglitteratur** og **kontekst**
+- velge noen **hovedpoeng** du vil få fram
+- finne gode **eksempler** og **sitater**
+
+## Struktur
+
+1. **Innledning**: fang oppmerksomheten, presenter emnet og problemstillingen, og gi en kort **oversikt**.
+2. **Hoveddel**: noen få, tydelige **poeng** i logisk rekkefølge, med eksempler og **fagbegreper**.
+3. **Avslutning**: oppsummer og gi et **svar** eller en **refleksjon**.
+
+Bruk **overganger** som «Det neste jeg vil se på, er …» slik at publikum henger med.
+
+## Framføring
+
+- **Stikkord** i stedet for fullt manus gjør det lettere å snakke **fritt**.
+- **Stemme**: snakk tydelig, varier **tempo** og **tonefall**, og bruk **pauser**.
+- **Kroppsspråk**: stå stødig, ha **blikkontakt** og bruk hendene naturlig.
+- **Tid**: øv på forhånd, slik at du holder deg innenfor **tidsrammen**.
+
+## Hjelpemidler
+
+**Presentasjonsverktøy** kan gjøre framføringen tydeligere, men skal **støtte** – ikke erstatte – det du sier. Bruk **få ord** per lysbilde, gode **bilder** og korte **sitater**. Oppgi **kilder** også i presentasjonen.
+
+## Samtalen etterpå
+
+Etter en presentasjon kommer ofte en **samtale** med spørsmål. Da kan du vise **dybdekunnskap**:
+
+- Lytt til **hele** spørsmålet før du svarer.
+- Det er lov å **tenke** litt før du svarer.
+- Knytt svaret til **tekstene** og **fagbegrepene**.
+- Er du usikker, kan du si hva du **vet**, og **resonnere** deg fram.
+
+## Fagspråk
+
+Bruk begreper som *epoke*, *motiv*, *tema*, *synsvinkel*, *appellformer*, *virkemidler* og *kontekst* – og vis at du forstår dem ved å **bruke** dem på konkrete eksempler.', '{"label":"Muntlig i norsk","children":[{"label":"Samtale","children":[{"label":"Utforskende"},{"label":"Aktiv lytting"},{"label":"Åpne spørsmål"}]},{"label":"Diskusjon","children":[{"label":"Påstand og argumenter"},{"label":"Imøtegå"}]},{"label":"Forberedelse","children":[{"label":"Avgrensning"},{"label":"Problemstilling"},{"label":"Fordypning"}]},{"label":"Framføring","children":[{"label":"Struktur"},{"label":"Stemme og kropp"},{"label":"Hjelpemidler"}]},{"label":"Etterpå","children":[{"label":"Lytt og tenk"},{"label":"Fagspråk"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'norsk-vg3:muntlig-fordypning';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('norsk-vg3:muntlig-fordypning', 'Utforskende samtale', 'Deltakerne tenker sammen for å forstå noe bedre.', 0),
+  ('norsk-vg3:muntlig-fordypning', 'Diskusjon', 'Deltakerne argumenterer for ulike standpunkter.', 1),
+  ('norsk-vg3:muntlig-fordypning', 'Aktiv lytting', 'Å følge med og bygge videre på det andre sier.', 2),
+  ('norsk-vg3:muntlig-fordypning', 'Åpent spørsmål', 'Spørsmål som ikke kan besvares med ja eller nei.', 3),
+  ('norsk-vg3:muntlig-fordypning', 'Imøtegå', 'Å svare på et motargument.', 4),
+  ('norsk-vg3:muntlig-fordypning', 'Avgrensning', 'Å snevre inn et emne slik at det blir håndterlig.', 5),
+  ('norsk-vg3:muntlig-fordypning', 'Problemstilling', 'Spørsmålet presentasjonen skal svare på.', 6),
+  ('norsk-vg3:muntlig-fordypning', 'Fordypning', 'Å gå grundig inn i et avgrenset emne.', 7),
+  ('norsk-vg3:muntlig-fordypning', 'Primærtekst', 'Den litterære teksten du skriver eller snakker om.', 8),
+  ('norsk-vg3:muntlig-fordypning', 'Stikkord', 'Korte notater som gjør det lettere å snakke fritt.', 9),
+  ('norsk-vg3:muntlig-fordypning', 'Overgang', 'Setning som binder sammen delene i en presentasjon.', 10),
+  ('norsk-vg3:muntlig-fordypning', 'Blikkontakt', 'Å se på publikum mens man snakker.', 11),
+  ('norsk-vg3:muntlig-fordypning', 'Tidsramme', 'Tiden presentasjonen skal holde seg innenfor.', 12),
+  ('norsk-vg3:muntlig-fordypning', 'Fagspråk', 'Presise fagbegreper brukt riktig.', 13),
+  ('norsk-vg3:muntlig-fordypning', 'Dybdekunnskap', 'Grundig forståelse som vises i samtalen etter presentasjonen.', 14);
+delete from public.quiz_sporsmal where tema_id = 'norsk-vg3:muntlig-fordypning';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('norsk-vg3:muntlig-fordypning', 'q01', 'flervalg', 'Hva er målet med en utforskende samtale?', array['Å vinne diskusjonen', 'Å tenke sammen for å forstå noe bedre', 'Å snakke mest', 'Å bli ferdig raskt']::text[], 1, 'Man bygger videre på hverandre.', true, true, 0),
+  ('norsk-vg3:muntlig-fordypning', 'q02', 'flervalg', 'Hvilket emne er best avgrenset?', array['Hvordan framstilles kvinners frihet i Et dukkehjem og Amtmandens Døttre?', 'Kvinner i litteraturen', 'Norsk litteratur', 'Litteratur og samfunn']::text[], 0, 'Gir en tydelig retning.', true, true, 1),
+  ('norsk-vg3:muntlig-fordypning', 'q03', 'flervalg', 'Hvorfor er stikkord ofte bedre enn fullt manus?', array['De er kortere å skrive', 'De er påbudt', 'De gjør det lettere å snakke fritt', 'De gjør presentasjonen lengre']::text[], 2, 'Bedre kontakt med publikum.', true, true, 2),
+  ('norsk-vg3:muntlig-fordypning', 'q04', 'flervalg', 'Hva hører til en god innledning?', array['Alle kildene', 'Konklusjonen', 'En lang biografi', 'Et blikkfang, emnet og problemstillingen']::text[], 3, 'Gi publikum oversikt.', true, true, 3),
+  ('norsk-vg3:muntlig-fordypning', 'q05', 'flervalg', 'Hvordan bør lysbilder brukes?', array['Som støtte med få ord og gode bilder', 'Med all teksten du skal si', 'Uten noen sammenheng', 'I stedet for å snakke']::text[], 0, 'De skal støtte, ikke erstatte.', true, true, 4),
+  ('norsk-vg3:muntlig-fordypning', 'q06', 'flervalg', 'Hva bør du gjøre hvis du er usikker på et spørsmål i samtalen?', array['Late som du vet svaret', 'Si hva du vet og resonnere deg fram', 'Ikke svare', 'Bytte tema']::text[], 1, 'Resonnering viser forståelse.', true, true, 5),
+  ('norsk-vg3:muntlig-fordypning', 'q07', 'flervalg', 'Hva er et åpent spørsmål?', array['Et spørsmål med ja eller nei', 'Et spørsmål uten svar', 'Et spørsmål som ikke kan besvares med ja eller nei', 'Et ledende spørsmål']::text[], 2, 'For eksempel «Hvordan ser du det?».', true, true, 6),
+  ('norsk-vg3:muntlig-fordypning', 'q08', 'flervalg', 'Hva betyr det å imøtegå et motargument?', array['Å ignorere det', 'Å le av det', 'Å gjenta det', 'Å svare saklig på det']::text[], 3, 'Styrker din egen argumentasjon.', true, true, 7),
+  ('norsk-vg3:muntlig-fordypning', 'q09', 'flervalg', 'Hva er en overgang i en presentasjon?', array['En setning som binder sammen delene', 'Et lysbilde', 'En pause', 'Et sitat']::text[], 0, 'For eksempel «Det neste jeg vil se på, er …».', true, false, 8),
+  ('norsk-vg3:muntlig-fordypning', 'q10', 'flervalg', 'Hvordan viser du at du forstår et fagbegrep?', array['Ved å si det mange ganger', 'Ved å bruke det på konkrete eksempler', 'Ved å skrive det på lysbildet', 'Ved å unngå det']::text[], 1, 'Anvendelse viser forståelse.', true, false, 9),
+  ('norsk-vg3:muntlig-fordypning', 'm01', 'sant-usant', 'Det er lov å tenke litt før du svarer på et spørsmål.', array['Sant', 'Usant']::text[], 0, 'Gir bedre svar.', false, true, 10),
+  ('norsk-vg3:muntlig-fordypning', 'm02', 'sant-usant', 'I en utforskende samtale bør du aldri endre mening.', array['Sant', 'Usant']::text[], 1, 'Å være åpen for å endre mening er en del av det.', false, true, 11),
+  ('norsk-vg3:muntlig-fordypning', 'm03', 'sant-usant', 'Kilder bør oppgis også i en muntlig presentasjon.', array['Sant', 'Usant']::text[], 0, 'Etterrettelig kildebruk gjelder også muntlig.', false, true, 12),
+  ('norsk-vg3:muntlig-fordypning', 'm04', 'sant-usant', 'En god presentasjon har så mange poeng som mulig.', array['Sant', 'Usant']::text[], 1, 'Få, tydelige poeng er bedre.', false, true, 13),
+  ('norsk-vg3:muntlig-fordypning', 'm05', 'flervalg', 'Hva kan gjøre stemmebruken bedre?', array['Snakke fort hele tiden', 'Variere tempo og tonefall og bruke pauser', 'Snakke lavt', 'Lese opp alt']::text[], 1, 'Holder publikum engasjert.', false, true, 14),
+  ('norsk-vg3:muntlig-fordypning', 'm06', 'flervalg', 'Hva bør du lese grundig når du fordyper deg i et emne?', array['Primærtekstene', 'Bare sammendrag på nett', 'Bare lysbildene', 'Ingenting']::text[], 0, 'Grunnlaget for analysen.', false, true, 15),
+  ('norsk-vg3:muntlig-fordypning', 'm07', 'flervalg', 'Hva hører til avslutningen av en presentasjon?', array['Nye poeng', 'En ny problemstilling', 'Oppsummering og svar eller refleksjon', 'En lang kildeliste opplest']::text[], 2, 'Knytt sammen trådene.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('norsk-vg3:muntlig-fordypning', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Norsk: Talespråk i endring
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('norsk-vg3:talesprak-i-endring', 'norsk-vg3', 'talesprak-i-endring', 'Talespråk i endring', 'Hvordan talespråket i Norge endrer seg i dag – dialektutjevning og regionalisering, sosiolekter, multietnolektisk ungdomsspråk, påvirkning fra engelsk og nye medier – og sammenhengen mellom språk, kultur og identitet.', array[10]::int[], 11, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('norsk-vg3:talesprak-i-endring', '## Talespråket i Norge
+
+Norge har **ingen offisiell norm** for talespråket. Det er vanlig å snakke **dialekt** i alle sammenhenger – på jobb, i Stortinget og på TV. Samtidig skriver vi **bokmål** eller **nynorsk**. Dette er uvanlig sammenlignet med mange andre land.
+
+Talespråket er likevel i stadig **endring**. Endringene skyldes blant annet **urbanisering**, **mobilitet**, **innvandring**, **globalisering** og **nye medier**.
+
+## Dialektutjevning og regionalisering
+
+Før levde folk i små, lukkede samfunn, og dialektene varierte mye fra bygd til bygd. I dag flytter folk mer og møter mange andre. Resultatet er **dialektutjevning**: Særtrekk ved de minste dialektene forsvinner.
+
+Ofte skjer en **regionalisering**. Dialekten i en **større by** påvirker omlandet, slik at det vokser fram **regionale** talemål. Ungdom i nabokommunene begynner å snakke mer likt byen.
+
+Eksempler på endringer:
+
+- **Skarre-r** har spredt seg langs kysten fra Bergen og Stavanger og nordover og østover i flere områder.
+- Mange steder forsvinner **hunkjønn** – «en bok» i stedet for «ei bok».
+- Gamle ord og bøyningsformer, som **dativ**, blir sjeldnere.
+
+## Sosiolekter og variasjon
+
+Talespråket varierer ikke bare etter **sted**, men også etter
+
+- **sosial bakgrunn** – **sosiolekter**, som forskjellen mellom øst- og vestkanten i Oslo
+- **alder** – ungdom snakker ofte annerledes enn besteforeldrene
+- **situasjon** – vi tilpasser språket etter hvem vi snakker med
+
+## Multietnolektisk ungdomsspråk
+
+I flerkulturelle bymiljøer, for eksempel i **Oslo** og **Drammen**, har ungdom utviklet en egen talemåte. Den kalles gjerne **multietnolekt** – eller mer uformelt **kebabnorsk**. Den brukes av ungdom med **ulik** bakgrunn, også de med norske foreldre.
+
+Kjennetegn kan være
+
+- **lånord** fra blant annet arabisk, urdu, tyrkisk og somali, som *wolla* («jeg sverger»)
+- en egen **rytme** og **uttale**
+- **ordstilling** der verbet ikke står på andreplass: «I går jeg var på kino»
+
+For mange er denne talemåten en markør for **identitet** og **fellesskap**.
+
+## Engelsk påvirkning
+
+Engelsk påvirker norsk gjennom **lånord** som *chille*, *date* og *streame*, og gjennom **kodeveksling** – at man bytter mellom norsk og engelsk i samme samtale. Noen er bekymret for **domenetap**: at norsk mister terreng i områder som forskning, næringsliv og data. Andre mener at norsk alltid har tatt opp ord fra andre språk og vil **tilpasse** seg.
+
+## Nye medier
+
+I **sosiale medier** skriver mange **dialekt** eller en blanding av skrift- og talespråk. Emojier, forkortelser og nye ord sprer seg raskt. **Strømmetjenester** og **dataspill** gjør at mange hører mye engelsk – og mindre av andre nordiske språk.
+
+## Språk, kultur og identitet
+
+Språket sier noe om **hvem vi er** og **hvor vi hører til**. Dialekten kan være et symbol på **hjemsted**, mens ungdomsspråk kan vise **tilhørighet** til en gruppe. Samtidig kan språk føre til **fordommer** – noen dialekter og talemåter har lavere **status** enn andre.
+
+**Språkloven** (2022) slår fast at **norsk** er hovedspråket i Norge, og at **samisk** er urfolksspråk. **Kvensk**, **romani**, **romanes** og **skogfinsk** er nasjonale minoritetsspråk, og **norsk tegnspråk** har også et særskilt vern.', '{"label":"Talespråk i endring","children":[{"label":"Norsk situasjon","children":[{"label":"Ingen talemålsnorm"},{"label":"Dialekt overalt"}]},{"label":"Utjevning","children":[{"label":"Regionalisering"},{"label":"Skarre-r"},{"label":"Hunkjønn forsvinner"}]},{"label":"Variasjon","children":[{"label":"Sosiolekt"},{"label":"Multietnolekt"},{"label":"Alder og situasjon"}]},{"label":"Påvirkning","children":[{"label":"Engelsk og kodeveksling"},{"label":"Domenetap"},{"label":"Nye medier"}]},{"label":"Identitet","children":[{"label":"Tilhørighet"},{"label":"Status og fordommer"},{"label":"Språkloven"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'norsk-vg3:talesprak-i-endring';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('norsk-vg3:talesprak-i-endring', 'Offisiell talemålsnorm', 'Norge har ingen slik norm – det er vanlig å snakke dialekt.', 0),
+  ('norsk-vg3:talesprak-i-endring', 'Dialektutjevning', 'Særtrekk ved små dialekter forsvinner.', 1),
+  ('norsk-vg3:talesprak-i-endring', 'Regionalisering', 'Bydialekten påvirker omlandet, og regionale talemål vokser fram.', 2),
+  ('norsk-vg3:talesprak-i-endring', 'Skarre-r', 'R uttalt bak i munnen – har spredt seg langs kysten.', 3),
+  ('norsk-vg3:talesprak-i-endring', 'Sosiolekt', 'Talemåte knyttet til sosial bakgrunn.', 4),
+  ('norsk-vg3:talesprak-i-endring', 'Multietnolekt', 'Talemåte som har utviklet seg i flerkulturelle bymiljøer.', 5),
+  ('norsk-vg3:talesprak-i-endring', 'Kebabnorsk', 'Uformell betegnelse på multietnolektisk ungdomsspråk.', 6),
+  ('norsk-vg3:talesprak-i-endring', 'V2-regelen', 'Verbet står på andreplass i norske helsetninger – brytes i multietnolekt.', 7),
+  ('norsk-vg3:talesprak-i-endring', 'Lånord', 'Ord som er hentet fra et annet språk.', 8),
+  ('norsk-vg3:talesprak-i-endring', 'Kodeveksling', 'Å bytte mellom to språk i samme samtale.', 9),
+  ('norsk-vg3:talesprak-i-endring', 'Domenetap', 'At et språk mister terreng innen et område, som forskning.', 10),
+  ('norsk-vg3:talesprak-i-endring', 'Språk og identitet', 'Språket viser hvem vi er og hvor vi hører til.', 11),
+  ('norsk-vg3:talesprak-i-endring', 'Språkloven', 'Lov fra 2022 om norsk, samisk, minoritetsspråk og tegnspråk.', 12),
+  ('norsk-vg3:talesprak-i-endring', 'Nasjonale minoritetsspråk', 'Kvensk, romani, romanes og skogfinsk.', 13),
+  ('norsk-vg3:talesprak-i-endring', 'Mobilitet', 'At folk flytter og reiser mer – en årsak til språkendring.', 14);
+delete from public.quiz_sporsmal where tema_id = 'norsk-vg3:talesprak-i-endring';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('norsk-vg3:talesprak-i-endring', 'q01', 'flervalg', 'Har Norge en offisiell norm for talespråket?', array['Ja, bokmål', 'Nei, det er vanlig å snakke dialekt', 'Ja, nynorsk', 'Ja, Oslo-dialekt']::text[], 1, 'Uvanlig sammenlignet med mange land.', true, true, 0),
+  ('norsk-vg3:talesprak-i-endring', 'q02', 'flervalg', 'Hva er regionalisering?', array['At bydialekten påvirker omlandet og regionale talemål vokser fram', 'At alle dialekter blir helt like', 'At nynorsk blir mer brukt', 'At engelsk erstatter norsk']::text[], 0, 'En form for dialektutjevning.', true, true, 1),
+  ('norsk-vg3:talesprak-i-endring', 'q03', 'flervalg', 'Hva er en sosiolekt?', array['En dialekt fra et bestemt sted', 'Et skriftspråk', 'En talemåte knyttet til sosial bakgrunn', 'Et fremmedspråk']::text[], 2, 'For eksempel øst- og vestkant i Oslo.', true, true, 2),
+  ('norsk-vg3:talesprak-i-endring', 'q04', 'flervalg', 'Hva kjennetegner multietnolektisk ungdomsspråk?', array['Bare engelske ord', 'Gammelnorske former', 'Streng V2-regel', 'Lånord, egen rytme og ordstilling der verbet ikke står på andreplass']::text[], 3, '«I går jeg var på kino».', true, true, 3),
+  ('norsk-vg3:talesprak-i-endring', 'q05', 'flervalg', 'Hva er kodeveksling?', array['Å bytte mellom to språk i samme samtale', 'Å skrive kode', 'Å bytte dialekt helt', 'Å lære et nytt språk']::text[], 0, 'Vanlig mellom norsk og engelsk.', true, true, 4),
+  ('norsk-vg3:talesprak-i-endring', 'q06', 'flervalg', 'Hva er domenetap?', array['At dialekter forsvinner', 'At et språk mister terreng innen et område', 'At man glemmer ord', 'At ord får ny betydning']::text[], 1, 'For eksempel i forskning.', true, true, 5),
+  ('norsk-vg3:talesprak-i-endring', 'q07', 'flervalg', 'Hvilken endring skjer mange steder i norske dialekter?', array['Flere kasus', 'Mer dativ', 'Hunkjønn forsvinner', 'Flere dialekter oppstår']::text[], 2, '«En bok» i stedet for «ei bok».', true, true, 6),
+  ('norsk-vg3:talesprak-i-endring', 'q08', 'flervalg', 'Hvilket språk slår språkloven fast er urfolksspråk?', array['Kvensk', 'Romani', 'Norsk tegnspråk', 'Samisk']::text[], 3, 'Kvensk er nasjonalt minoritetsspråk.', true, true, 7),
+  ('norsk-vg3:talesprak-i-endring', 'q09', 'flervalg', 'Hvorfor forsvinner særtrekk ved små dialekter?', array['Fordi folk flytter mer og møter mange andre', 'Fordi det er forbudt å bruke dem', 'Fordi skolen krever bokmål i tale', 'Fordi de aldri har eksistert']::text[], 0, 'Mobilitet og urbanisering.', true, false, 8),
+  ('norsk-vg3:talesprak-i-endring', 'q10', 'flervalg', 'Hva kan en dialekt være et symbol på?', array['Utdanning alltid', 'Hjemsted og tilhørighet', 'Inntekt', 'Alder alene']::text[], 1, 'Språk og identitet henger sammen.', true, false, 9),
+  ('norsk-vg3:talesprak-i-endring', 'm01', 'sant-usant', 'Multietnolektisk ungdomsspråk brukes også av ungdom med norske foreldre.', array['Sant', 'Usant']::text[], 0, 'Det er knyttet til miljø og fellesskap.', false, true, 10),
+  ('norsk-vg3:talesprak-i-endring', 'm02', 'sant-usant', 'Norsk har aldri tatt opp ord fra andre språk.', array['Sant', 'Usant']::text[], 1, 'Norsk har alltid lånt ord.', false, true, 11),
+  ('norsk-vg3:talesprak-i-endring', 'm03', 'sant-usant', 'Mange skriver dialekt i sosiale medier.', array['Sant', 'Usant']::text[], 0, 'Skillet mellom tale og skrift blir mindre.', false, true, 12),
+  ('norsk-vg3:talesprak-i-endring', 'm04', 'sant-usant', 'Alle dialekter har like høy status i alle sammenhenger.', array['Sant', 'Usant']::text[], 1, 'Noen talemåter møter fordommer.', false, true, 13),
+  ('norsk-vg3:talesprak-i-endring', 'm05', 'flervalg', 'Hva betyr ordet «wolla» i ungdomsspråket?', array['«Hei»', '«Jeg sverger»', '«Takk»', '«Ha det»']::text[], 1, 'Et lånord fra arabisk.', false, true, 14),
+  ('norsk-vg3:talesprak-i-endring', 'm06', 'flervalg', 'Hvilket språk er nasjonalt minoritetsspråk i Norge?', array['Kvensk', 'Engelsk', 'Samisk', 'Svensk']::text[], 0, 'Samisk er urfolksspråk.', false, true, 15),
+  ('norsk-vg3:talesprak-i-endring', 'm07', 'flervalg', 'Hva er en årsak til endringer i talespråket?', array['Færre reiser', 'Mindre kontakt mellom folk', 'Urbanisering, innvandring og nye medier', 'At dialekter er forbudt']::text[], 2, 'Samfunnsendringer gir språkendringer.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('norsk-vg3:talesprak-i-endring', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Historie (vg3): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'historie-vg3' and slug not in ('historiebruk-og-fortolkning', 'historisk-metode-og-framstillinger', 'personer-og-handlingsrom', 'brudd-og-kontinuitet', 'ideologier-og-politiske-omveltninger', 'teknologiske-omveltninger', 'migrasjon-og-kulturmoter', 'kolonialisme-og-imperialisme', 'verdenskrigene-og-fred', 'undertrykkelse-og-folkemord', 'nasjonal-identitet', 'myndiggjoring-og-frigjoring', 'velferdsstaten', 'menneske-natur-og-ressurser');
+
+-- Historie: Historiebruk og fortolkninger av fortiden
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('historie-vg3:historiebruk-og-fortolkning', 'historie-vg3', 'historiebruk-og-fortolkning', 'Historiebruk og fortolkninger av fortiden', 'Hvordan nåtidens forståelse og forventninger til framtiden preger måten vi tolker fortiden på, hva historiebevissthet er, og hvordan ulike aktører bruker historien – vitenskapelig, politisk, moralsk, eksistensielt og kommersielt.', array[1, 2]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('historie-vg3:historiebruk-og-fortolkning', '## Fortiden tolkes alltid fra nåtiden
+
+Historie er ikke bare det som **skjedde**, men også **fortellingene** vi lager om det. Historikere og andre som skriver om fortiden, lever i sin egen **samtid**. Spørsmålene de stiller, og det de synes er **viktig**, preges av **nåtidens** verdier, problemer og forventninger til **framtiden**.
+
+Eksempler:
+
+- Før skrev historikere mest om **konger**, **kriger** og **statsmenn**. Etter at **kvinnebevegelsen** vokste fram, ble **kvinners** historie et viktig forskningsfelt.
+- Da **klimaendringene** ble et stort tema, begynte flere å skrive **miljøhistorie**.
+- Synet på **kolonitiden** har endret seg kraftig etter hvert som tidligere kolonier og minoriteter har fått større **stemme**.
+
+Derfor sier man at hver generasjon **skriver historien på nytt**.
+
+## Historiebevissthet
+
+**Historiebevissthet** betyr at vi forstår sammenhengen mellom **fortid**, **nåtid** og **framtid**. Vi tolker fortiden for å forstå **nåtiden**, og forventningene til framtiden påvirker hvilke deler av fortiden vi legger vekt på. Et samfunn som frykter **krig**, kan for eksempel bli mer opptatt av hvordan tidligere kriger startet.
+
+## Historiebruk
+
+**Historiebruk** handler om **hvordan** og **hvorfor** fortiden brukes. Den svenske historikeren **Klas-Göran Karlsson** har beskrevet flere typer:
+
+- **Vitenskapelig** bruk: forskere undersøker fortiden **kritisk** og **metodisk**.
+- **Eksistensiell** bruk: fortiden gir oss **identitet** og **tilhørighet** – for eksempel slektsforskning.
+- **Moralsk** bruk: fortiden brukes til å vise hva som er **rett og galt**, for eksempel når vi minnes ofrene for holocaust.
+- **Ideologisk** bruk: fortiden brukes til å **legitimere** makt eller en ideologi.
+- **Politisk-pedagogisk** bruk: politikere viser til historien for å **overbevise**, for eksempel «vi må ikke gjenta feilene fra 1930-tallet».
+- **Kommersiell** bruk: fortiden brukes til å **selge** – i filmer, spill, reiseliv og reklame.
+- **Ikke-bruk**: at noe blir **forsøkt glemt** eller fortiet.
+
+## Aktører
+
+Fortiden brukes av mange: **stater**, **politiske partier**, **organisasjoner**, **museer**, **medier**, **filmskapere**, **spillprodusenter** og **enkeltmennesker**. Minnesmerker, merkedager, navn på gater og innhold i **skolebøker** er eksempler på historiebruk.
+
+## Drøfte hensikten
+
+Når du møter historiebruk, kan du spørre:
+
+- **Hvem** bruker historien?
+- **Hvilken del** av fortiden trekkes fram – og hva **utelates**?
+- **Hvorfor** brukes den – for å forstå, samle, overtale, skape skam eller tjene penger?
+- **Hvilke konsekvenser** kan bruken få for ulike grupper?
+
+Historiebruk er ikke nødvendigvis **negativ**. Den kan skape **fellesskap** og **forsoning**. Men den kan også **forenkle**, **forfalske** eller brukes til å skape **fiendebilder**, for eksempel når regimer rettferdiggjør krig med historiske argumenter.
+
+## Å tenke historisk
+
+Å tenke historisk betyr å forstå at mennesker i fortiden levde med **andre** forutsetninger og **verdier**, og samtidig være bevisst at vår egen tolkning er **farget** av vår tid.', '{"label":"Historiebruk og fortolkning","children":[{"label":"Fortolkning","children":[{"label":"Preget av nåtiden"},{"label":"Nye forskningsfelt"}]},{"label":"Historiebevissthet","children":[{"label":"Fortid, nåtid, framtid"}]},{"label":"Typer bruk","children":[{"label":"Vitenskapelig og eksistensiell"},{"label":"Moralsk og ideologisk"},{"label":"Politisk og kommersiell"},{"label":"Ikke-bruk"}]},{"label":"Aktører","children":[{"label":"Stater og partier"},{"label":"Museer og medier"},{"label":"Spill og film"}]},{"label":"Drøfting","children":[{"label":"Hvem og hvorfor"},{"label":"Hva utelates"},{"label":"Konsekvenser"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'historie-vg3:historiebruk-og-fortolkning';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('historie-vg3:historiebruk-og-fortolkning', 'Historiebevissthet', 'Forståelse av sammenhengen mellom fortid, nåtid og framtid.', 0),
+  ('historie-vg3:historiebruk-og-fortolkning', 'Historiebruk', 'Hvordan og hvorfor fortiden brukes av ulike aktører.', 1),
+  ('historie-vg3:historiebruk-og-fortolkning', 'Klas-Göran Karlsson', 'Svensk historiker som beskrev typer av historiebruk.', 2),
+  ('historie-vg3:historiebruk-og-fortolkning', 'Vitenskapelig historiebruk', 'Kritisk og metodisk undersøkelse av fortiden.', 3),
+  ('historie-vg3:historiebruk-og-fortolkning', 'Eksistensiell historiebruk', 'Fortiden gir identitet og tilhørighet.', 4),
+  ('historie-vg3:historiebruk-og-fortolkning', 'Moralsk historiebruk', 'Fortiden brukes til å vise hva som er rett og galt.', 5),
+  ('historie-vg3:historiebruk-og-fortolkning', 'Ideologisk historiebruk', 'Fortiden brukes til å legitimere makt eller ideologi.', 6),
+  ('historie-vg3:historiebruk-og-fortolkning', 'Politisk-pedagogisk historiebruk', 'Politikere viser til historien for å overbevise.', 7),
+  ('historie-vg3:historiebruk-og-fortolkning', 'Kommersiell historiebruk', 'Fortiden brukes til å selge produkter og opplevelser.', 8),
+  ('historie-vg3:historiebruk-og-fortolkning', 'Ikke-bruk', 'At deler av fortiden forsøkes glemt eller fortiet.', 9),
+  ('historie-vg3:historiebruk-og-fortolkning', 'Legitimere', 'Å gi noe et rettferdig grunnlag i andres øyne.', 10),
+  ('historie-vg3:historiebruk-og-fortolkning', 'Miljøhistorie', 'Historien om forholdet mellom mennesker og natur.', 11),
+  ('historie-vg3:historiebruk-og-fortolkning', 'Minnesmerke', 'Monument som skal minne om en person eller hendelse.', 12),
+  ('historie-vg3:historiebruk-og-fortolkning', 'Fiendebilde', 'Negativ forestilling om en annen gruppe.', 13),
+  ('historie-vg3:historiebruk-og-fortolkning', 'Å tenke historisk', 'Å forstå fortidens forutsetninger og egen tids påvirkning.', 14);
+delete from public.quiz_sporsmal where tema_id = 'historie-vg3:historiebruk-og-fortolkning';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('historie-vg3:historiebruk-og-fortolkning', 'q01', 'flervalg', 'Hvorfor sier man at hver generasjon skriver historien på nytt?', array['Fordi kildene forsvinner', 'Fordi nåtidens spørsmål og verdier preger tolkningen', 'Fordi fortiden endrer seg', 'Fordi historikere ikke leser gamle bøker']::text[], 1, 'Nye spørsmål gir nye fortellinger.', true, true, 0),
+  ('historie-vg3:historiebruk-og-fortolkning', 'q02', 'flervalg', 'Hva er historiebevissthet?', array['Forståelse av sammenhengen mellom fortid, nåtid og framtid', 'Å kunne mange årstall', 'Å like historie', 'Å lese historiske romaner']::text[], 0, 'Fortiden tolkes for å forstå nåtiden.', true, true, 1),
+  ('historie-vg3:historiebruk-og-fortolkning', 'q03', 'flervalg', 'Hva er kommersiell historiebruk?', array['Kritisk forskning', 'Å minnes ofre', 'Å bruke fortiden til å selge', 'Å legitimere makt']::text[], 2, 'For eksempel spill og reiseliv.', true, true, 2),
+  ('historie-vg3:historiebruk-og-fortolkning', 'q04', 'flervalg', 'En politiker sier «vi må ikke gjenta feilene fra 1930-tallet». Hvilken historiebruk er dette?', array['Kommersiell', 'Eksistensiell', 'Vitenskapelig', 'Politisk-pedagogisk']::text[], 3, 'Historien brukes for å overbevise.', true, true, 3),
+  ('historie-vg3:historiebruk-og-fortolkning', 'q05', 'flervalg', 'Hva er ikke-bruk av historien?', array['At noe forsøkes glemt eller fortiet', 'At ingen bryr seg om historie', 'At historie er forbudt i skolen', 'At museer stenger']::text[], 0, 'Også en form for historiebruk.', true, true, 4),
+  ('historie-vg3:historiebruk-og-fortolkning', 'q06', 'flervalg', 'Hvorfor ble kvinners historie et viktig forskningsfelt?', array['Fordi det kom nye kilder fra middelalderen', 'Fordi kvinnebevegelsen endret hva som ble sett som viktig', 'Fordi kvinner ikke hadde historie før', 'Fordi staten påla det']::text[], 1, 'Nåtiden preger spørsmålene.', true, true, 5),
+  ('historie-vg3:historiebruk-og-fortolkning', 'q07', 'flervalg', 'Hvilken type historiebruk er slektsforskning?', array['Ideologisk', 'Kommersiell', 'Eksistensiell', 'Politisk']::text[], 2, 'Gir identitet og tilhørighet.', true, true, 6),
+  ('historie-vg3:historiebruk-og-fortolkning', 'q08', 'flervalg', 'Hva kan være en negativ følge av historiebruk?', array['Fellesskap', 'Forsoning', 'Mer kunnskap', 'Forenkling og fiendebilder']::text[], 3, 'Historie kan brukes til å rettferdiggjøre konflikt.', true, true, 7),
+  ('historie-vg3:historiebruk-og-fortolkning', 'q09', 'flervalg', 'Hvilket spørsmål bør du stille når du møter historiebruk?', array['Hvem bruker historien, og hvorfor?', 'Hvor gammel er boka?', 'Hvor mange sider er det?', 'Hvilken farge har minnesmerket?']::text[], 0, 'Også hva som utelates.', true, false, 8),
+  ('historie-vg3:historiebruk-og-fortolkning', 'q10', 'flervalg', 'Hva er et eksempel på historiebruk i hverdagen?', array['Et regnestykke', 'Gatenavn og merkedager', 'En værmelding', 'En handleliste']::text[], 1, 'Fortiden er til stede i offentligheten.', true, false, 9),
+  ('historie-vg3:historiebruk-og-fortolkning', 'm01', 'sant-usant', 'Historiebruk kan bidra til forsoning.', array['Sant', 'Usant']::text[], 0, 'Den er ikke nødvendigvis negativ.', false, true, 10),
+  ('historie-vg3:historiebruk-og-fortolkning', 'm02', 'sant-usant', 'Historikere er helt upåvirket av sin egen samtid.', array['Sant', 'Usant']::text[], 1, 'Nåtiden preger spørsmålene de stiller.', false, true, 11),
+  ('historie-vg3:historiebruk-og-fortolkning', 'm03', 'sant-usant', 'Innholdet i skolebøker er et eksempel på historiebruk.', array['Sant', 'Usant']::text[], 0, 'Valg av stoff er ikke nøytralt.', false, true, 12),
+  ('historie-vg3:historiebruk-og-fortolkning', 'm04', 'sant-usant', 'Moralsk historiebruk handler om å selge produkter.', array['Sant', 'Usant']::text[], 1, 'Den handler om rett og galt.', false, true, 13),
+  ('historie-vg3:historiebruk-og-fortolkning', 'm05', 'flervalg', 'Hvilken historiebruk er det når et regime rettferdiggjør krig med historiske argumenter?', array['Vitenskapelig', 'Ideologisk', 'Eksistensiell', 'Kommersiell']::text[], 1, 'Legitimerer makt.', false, true, 14),
+  ('historie-vg3:historiebruk-og-fortolkning', 'm06', 'flervalg', 'Hvorfor ble miljøhistorie viktigere?', array['Fordi klimaendringene ble et stort tema i samtiden', 'Fordi det ble funnet nye skip', 'Fordi kongene ble mindre viktige', 'Fordi det ble forbudt å skrive om krig']::text[], 0, 'Nåtiden påvirker forskningen.', false, true, 15),
+  ('historie-vg3:historiebruk-og-fortolkning', 'm07', 'flervalg', 'Hva betyr det å tenke historisk?', array['Å dømme fortiden etter dagens verdier', 'Å pugge årstall', 'Å forstå fortidens forutsetninger og egen tids påvirkning', 'Å bare lese om krig']::text[], 2, 'Begge perspektiver trengs.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('historie-vg3:historiebruk-og-fortolkning', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Historie: Historisk metode og ulike framstillinger
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('historie-vg3:historisk-metode-og-framstillinger', 'historie-vg3', 'historisk-metode-og-framstillinger', 'Historisk metode og ulike framstillinger', 'Hvordan du utforsker fortiden: problemstillinger, primær- og sekundærkilder, kildekritikk og slutninger – og hvordan du sammenligner ulike framstillinger av samme hendelse og forstår at de preges av opphavspersonens ståsted og kontekst.', array[3, 5]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('historie-vg3:historisk-metode-og-framstillinger', '## Å utforske fortiden
+
+Historikere arbeider **systematisk**:
+
+1. **Problemstilling**: Still et **åpent** og **avgrenset** spørsmål, for eksempel «Hvorfor utvandret så mange fra Vestlandet på 1880-tallet?»
+2. **Finn materiale**: kilder og faglitteratur.
+3. **Vurder** materialet kritisk.
+4. **Bruk** materialet til å trekke **slutninger**.
+5. **Presenter** resultatet – og vær ærlig om **usikkerhet**.
+
+En god problemstilling spør gjerne **hvorfor**, **hvordan** eller **i hvilken grad**, ikke bare **hva**.
+
+## Kilder og framstillinger
+
+- **Primærkilder** er fra den tiden som undersøkes: brev, dagbøker, lover, fotografier, avisartikler, gjenstander og intervjuer med øyenvitner.
+- **Sekundærkilder** eller **framstillinger** er skrevet **senere** av noen som har studert kildene, for eksempel historiebøker og dokumentarer.
+
+Kilder kan være **skriftlige**, **muntlige**, **visuelle** og **materielle**.
+
+## Kildekritikk
+
+- **Opphav**: Hvem laget kilden, når og hvor?
+- **Formål**: Hvorfor ble den laget, og for hvem?
+- **Nærhet**: Var opphavspersonen **til stede**, eller er det andrehåndsinformasjon?
+- **Tendens**: Har kilden en **interesse** i å framstille noe på en bestemt måte?
+- **Samsvar**: Stemmer den med **andre** kilder?
+
+En kilde kan brukes som en **beretning** – hva den forteller om hendelsen – eller som en **levning** – hva den avslører om **tiden** og **menneskene** som laget den. En propagandaplakat er en dårlig beretning om virkeligheten, men en god levning om regimets **tenkemåte**.
+
+## Å trekke slutninger
+
+En god slutning er **begrunnet** i kildene og tar hensyn til **usikkerhet**. Bruk formuleringer som «kildene tyder på» eller «det er sannsynlig at». Vurder også **alternative** forklaringer.
+
+## Ulike framstillinger av samme hendelse
+
+Samme hendelse kan framstilles **svært ulikt**. Framstillingen preges av
+
+- **opphavspersonens ståsted**: nasjonalitet, politisk syn, kjønn, klasse og erfaringer
+- **konteksten**: når og hvor den ble laget, og hvilke **spørsmål** som var viktige da
+- **kildene** som var tilgjengelige
+- **formålet**: forskning, undervisning, underholdning eller politikk
+
+### Eksempel: Grunnloven av 1814
+
+- I **1800-tallets** nasjonale historieskrivning ble 1814 framstilt som en **heroisk** gjenfødelse av Norge.
+- Senere historikere har lagt mer vekt på **stormaktspolitikken** og **tilfeldighetene** rundt 1814.
+- Nyere framstillinger har også løftet fram at **jøder** var utestengt fra riket gjennom Grunnlovens paragraf 2, og at **kvinner** og mange menn ikke fikk stemmerett.
+
+### Eksempel: Columbus og Amerika
+
+I europeiske framstillinger ble **1492** lenge omtalt som «**oppdagelsen**» av Amerika. Fra **urfolkenes** perspektiv var det starten på **erobring**, sykdom og undertrykkelse.
+
+## Sammenligne framstillinger
+
+Når du sammenligner to framstillinger, kan du spørre:
+
+- Hvilke **fakta** er de enige om?
+- Hva **vektlegger** de ulikt, og hva **utelates**?
+- Hvilke **ord** og **bilder** brukes?
+- Hvordan kan **forskjellene** forklares ut fra ståsted og kontekst?
+
+At framstillinger er ulike, betyr ikke at **alt** er like sant. Noen framstillinger bygger på **bedre** kilder og argumenter enn andre.', '{"label":"Metode og framstillinger","children":[{"label":"Undersøkelse","children":[{"label":"Problemstilling"},{"label":"Materiale"},{"label":"Slutninger"}]},{"label":"Kilder","children":[{"label":"Primær og sekundær"},{"label":"Skriftlige, muntlige, materielle"}]},{"label":"Kildekritikk","children":[{"label":"Opphav og formål"},{"label":"Tendens og samsvar"},{"label":"Beretning og levning"}]},{"label":"Framstillinger","children":[{"label":"Ståsted"},{"label":"Kontekst"},{"label":"1814 og 1492"}]},{"label":"Sammenligning","children":[{"label":"Enighet om fakta"},{"label":"Ulik vektlegging"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'historie-vg3:historisk-metode-og-framstillinger';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('historie-vg3:historisk-metode-og-framstillinger', 'Problemstilling', 'Åpent og avgrenset spørsmål som styrer undersøkelsen.', 0),
+  ('historie-vg3:historisk-metode-og-framstillinger', 'Primærkilde', 'Kilde fra den tiden som undersøkes.', 1),
+  ('historie-vg3:historisk-metode-og-framstillinger', 'Sekundærkilde', 'Framstilling skrevet senere av noen som har studert kildene.', 2),
+  ('historie-vg3:historisk-metode-og-framstillinger', 'Kildekritikk', 'Vurdering av opphav, formål, nærhet, tendens og samsvar.', 3),
+  ('historie-vg3:historisk-metode-og-framstillinger', 'Tendens', 'At en kilde har interesse i å framstille noe på en bestemt måte.', 4),
+  ('historie-vg3:historisk-metode-og-framstillinger', 'Beretning', 'Kilden brukes for hva den forteller om en hendelse.', 5),
+  ('historie-vg3:historisk-metode-og-framstillinger', 'Levning', 'Kilden brukes for hva den avslører om tiden og menneskene som laget den.', 6),
+  ('historie-vg3:historisk-metode-og-framstillinger', 'Slutning', 'Konklusjon som er begrunnet i kildene.', 7),
+  ('historie-vg3:historisk-metode-og-framstillinger', 'Ståsted', 'Opphavspersonens bakgrunn, syn og erfaringer.', 8),
+  ('historie-vg3:historisk-metode-og-framstillinger', 'Kontekst', 'Tiden og situasjonen en framstilling ble laget i.', 9),
+  ('historie-vg3:historisk-metode-og-framstillinger', 'Nasjonal historieskrivning', 'Historie skrevet for å styrke nasjonal identitet.', 10),
+  ('historie-vg3:historisk-metode-og-framstillinger', 'Grunnlovens paragraf 2', 'Stengte jøder ute fra riket i 1814.', 11),
+  ('historie-vg3:historisk-metode-og-framstillinger', 'Materielle kilder', 'Gjenstander som bygninger, verktøy og klær.', 12),
+  ('historie-vg3:historisk-metode-og-framstillinger', 'Muntlige kilder', 'Intervjuer og fortellinger fra øyenvitner.', 13),
+  ('historie-vg3:historisk-metode-og-framstillinger', 'Alternativ forklaring', 'En annen mulig tolkning av kildene.', 14);
+delete from public.quiz_sporsmal where tema_id = 'historie-vg3:historisk-metode-og-framstillinger';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('historie-vg3:historisk-metode-og-framstillinger', 'q01', 'flervalg', 'Hvilken problemstilling er best?', array['Hva er utvandring?', 'Hvorfor utvandret så mange fra Vestlandet på 1880-tallet?', 'Utvandring', 'Når var 1880?']::text[], 1, 'Åpen og avgrenset.', true, true, 0),
+  ('historie-vg3:historisk-metode-og-framstillinger', 'q02', 'flervalg', 'Hva er en primærkilde?', array['En kilde fra den tiden som undersøkes', 'En moderne historiebok', 'En dokumentar', 'Et leksikon']::text[], 0, 'For eksempel et brev.', true, true, 1),
+  ('historie-vg3:historisk-metode-og-framstillinger', 'q03', 'flervalg', 'Hva betyr det å bruke en kilde som levning?', array['Å se hva den forteller om en hendelse', 'Å kaste den', 'Å se hva den avslører om tiden og menneskene som laget den', 'Å bare lese tittelen']::text[], 2, 'En propagandaplakat er en god levning.', true, true, 2),
+  ('historie-vg3:historisk-metode-og-framstillinger', 'q04', 'flervalg', 'Hva er tendens i en kilde?', array['At den er gammel', 'At den er kort', 'At den er muntlig', 'At den har interesse i å framstille noe på en bestemt måte']::text[], 3, 'Viktig i kildekritikken.', true, true, 3),
+  ('historie-vg3:historisk-metode-og-framstillinger', 'q05', 'flervalg', 'Hvordan ble 1814 framstilt i 1800-tallets nasjonale historieskrivning?', array['Som en heroisk gjenfødelse av Norge', 'Som en katastrofe', 'Som uviktig', 'Som en svensk seier']::text[], 0, 'Senere historikere har nyansert bildet.', true, true, 4),
+  ('historie-vg3:historisk-metode-og-framstillinger', 'q06', 'flervalg', 'Hva ble 1492 lenge omtalt som i europeiske framstillinger?', array['Erobringen', 'Oppdagelsen av Amerika', 'Starten på undertrykkelse', 'En handelsreise']::text[], 1, 'Urfolkenes perspektiv er annerledes.', true, true, 5),
+  ('historie-vg3:historisk-metode-og-framstillinger', 'q07', 'flervalg', 'Hva preger en historisk framstilling?', array['Bare kildene', 'Ingenting', 'Opphavspersonens ståsted og kontekst', 'Bare lengden']::text[], 2, 'Også formålet.', true, true, 6),
+  ('historie-vg3:historisk-metode-og-framstillinger', 'q08', 'flervalg', 'Betyr ulike framstillinger at alt er like sant?', array['Ja, alt er like sant', 'Ja, historie er bare meninger', 'Nei, historie kan ikke vites', 'Nei, noen bygger på bedre kilder og argumenter']::text[], 3, 'Kvaliteten på begrunnelsen varierer.', true, true, 7),
+  ('historie-vg3:historisk-metode-og-framstillinger', 'q09', 'flervalg', 'Hvordan bør du formulere en usikker slutning?', array['«Kildene tyder på at …»', '«Det er helt sikkert at …»', '«Alle vet at …»', '«Det er umulig at …»']::text[], 0, 'Vær ærlig om usikkerhet.', true, false, 8),
+  ('historie-vg3:historisk-metode-og-framstillinger', 'q10', 'flervalg', 'Hva ble jøder utsatt for i Grunnloven av 1814?', array['De fikk stemmerett', 'De ble utestengt fra riket', 'De ble statsråder', 'De fikk egne skoler']::text[], 1, 'Paragraf 2.', true, false, 9),
+  ('historie-vg3:historisk-metode-og-framstillinger', 'm01', 'sant-usant', 'Gjenstander kan være historiske kilder.', array['Sant', 'Usant']::text[], 0, 'Materielle kilder.', false, true, 10),
+  ('historie-vg3:historisk-metode-og-framstillinger', 'm02', 'sant-usant', 'En god problemstilling spør bare «hva».', array['Sant', 'Usant']::text[], 1, 'Hvorfor, hvordan og i hvilken grad gir mer.', false, true, 11),
+  ('historie-vg3:historisk-metode-og-framstillinger', 'm03', 'sant-usant', 'To framstillinger kan være enige om fakta, men vektlegge ulikt.', array['Sant', 'Usant']::text[], 0, 'Derfor må de sammenlignes.', false, true, 12),
+  ('historie-vg3:historisk-metode-og-framstillinger', 'm04', 'sant-usant', 'Sekundærkilder er alltid mindre verdifulle enn primærkilder.', array['Sant', 'Usant']::text[], 1, 'Gode framstillinger samler og tolker mange kilder.', false, true, 13),
+  ('historie-vg3:historisk-metode-og-framstillinger', 'm05', 'flervalg', 'Hva spør du om når du vurderer nærhet i en kilde?', array['Hvor lang kilden er', 'Om opphavspersonen var til stede', 'Hvilken farge papiret har', 'Hvem som eier kilden i dag']::text[], 1, 'Førstehånds eller andrehånds.', false, true, 14),
+  ('historie-vg3:historisk-metode-og-framstillinger', 'm06', 'flervalg', 'Hva er en sekundærkilde?', array['En historiebok skrevet senere', 'Et brev fra 1880', 'En dagbok fra krigen', 'En lov fra 1814']::text[], 0, 'En framstilling.', false, true, 15),
+  ('historie-vg3:historisk-metode-og-framstillinger', 'm07', 'flervalg', 'Hvorfor kan to historikere framstille samme hendelse ulikt?', array['Fordi den ene lyver alltid', 'Fordi fortiden endrer seg', 'Fordi de har ulikt ståsted, ulike kilder og ulik kontekst', 'Fordi de har lest samme bok']::text[], 2, 'Framstillinger preges av mange faktorer.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('historie-vg3:historisk-metode-og-framstillinger', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Historie: Historiske personer og handlingsrom
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('historie-vg3:personer-og-handlingsrom', 'historie-vg3', 'personer-og-handlingsrom', 'Historiske personer og handlingsrom', 'Hvordan du utforsker en historisk person og diskuterer tenkning, handlingsrom og valg i lys av samtiden – aktør og struktur, handlingsrom i konfliktsituasjoner som okkupasjonen, og hvordan valg fikk konsekvenser.', array[4, 12]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('historie-vg3:personer-og-handlingsrom', '## Aktør og struktur
+
+Historien formes både av **enkeltmennesker** og av **strukturer**.
+
+- **Aktører** er personer eller grupper som **handler** og tar valg.
+- **Strukturer** er forhold som **begrenser** eller **muliggjør** handling: økonomi, lover, teknologi, religion, kjønnsroller, klasse og politiske systemer.
+
+**Handlingsrom** er de **mulighetene** en person faktisk hadde – det rommet der hen kunne velge. Handlingsrommet var ofte **mindre** for kvinner, fattige, minoriteter og slaver enn for rike menn med makt.
+
+## Å utforske en historisk person
+
+Når du undersøker en person, kan du spørre:
+
+1. **Bakgrunn**: familie, klasse, kjønn, utdanning og tro
+2. **Samtiden**: Hvilke ideer, konflikter og normer preget tiden?
+3. **Tenkning**: Hva mente personen, og hvor kom ideene fra?
+4. **Handlingsrom**: Hvilke muligheter og begrensninger hadde hen?
+5. **Valg**: Hva gjorde personen – og hva kunne hen gjort annerledes?
+6. **Konsekvenser**: Hva førte valgene til, på kort og lang sikt?
+7. **Ettermæle**: Hvordan har personen blitt framstilt senere – og hvorfor?
+
+## Eksempler
+
+**Elsa Laula Renberg** var en sørsamisk kvinne som tidlig på 1900-tallet organiserte samer og tok initiativ til det første samiske **landsmøtet** i Trondheim i **1917**. Handlingsrommet hennes var begrenset av både **fornorskingspolitikken** og tidens **kjønnsroller**, men hun utfordret dem.
+
+**Nelson Mandela** kjempet mot **apartheid** i Sør-Afrika, satt i fengsel i 27 år og ble landets første demokratisk valgte president i **1994**. Han valgte **forsoning** framfor hevn.
+
+## Handlingsrom i konfliktsituasjoner
+
+I kriger og konflikter blir valgene ekstra **vanskelige**, og konsekvensene kan være **liv eller død**. Under **okkupasjonen** av Norge 1940–1945 hadde folk ulike valg:
+
+- **Motstand**: sabotasje, illegale aviser, flyktninghjelp eller sivil ulydighet, som da mange **lærere** nektet å melde seg inn i nazistenes lærersamband i **1942**.
+- **Tilpasning**: de fleste levde videre og prøvde å klare seg i hverdagen.
+- **Samarbeid** eller **kollaborasjon**: noen meldte seg inn i **Nasjonal Samling** eller arbeidet for okkupantene – av overbevisning, for å tjene penger eller av frykt.
+
+Mange befant seg i **gråsoner**. Å jobbe på et anlegg for tyskerne kunne handle om å **forsørge** familien.
+
+Andre eksempler er personer som **reddet jøder** under holocaust, **soldater** som nektet ordre, og sivile i dagens krigsområder.
+
+## Å vurdere valg
+
+Når vi vurderer valg i fortiden, må vi unngå å være **etterpåkloke**. Personene visste ikke hvordan det ville **gå**. Samtidig kan vi diskutere **ansvar**: Hadde de et reelt **valg**? Hvilke **verdier** styrte dem? Hva ble **konsekvensene** for andre?
+
+## Kontrafaktisk tenkning
+
+**Kontrafaktisk** tenkning spør «**hva om?**» – for eksempel hva som ville skjedd om en person hadde valgt annerledes. Slike spørsmål kan ikke besvares sikkert, men de hjelper oss å se hvor **viktige** ulike valg og tilfeldigheter var.', '{"label":"Personer og handlingsrom","children":[{"label":"Begreper","children":[{"label":"Aktør"},{"label":"Struktur"},{"label":"Handlingsrom"}]},{"label":"Undersøke en person","children":[{"label":"Bakgrunn og samtid"},{"label":"Tenkning og valg"},{"label":"Ettermæle"}]},{"label":"Eksempler","children":[{"label":"Elsa Laula Renberg"},{"label":"Nelson Mandela"}]},{"label":"Okkupasjonen","children":[{"label":"Motstand"},{"label":"Tilpasning"},{"label":"Kollaborasjon og gråsoner"}]},{"label":"Vurdering","children":[{"label":"Ikke etterpåklok"},{"label":"Ansvar"},{"label":"Kontrafaktisk"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'historie-vg3:personer-og-handlingsrom';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('historie-vg3:personer-og-handlingsrom', 'Aktør', 'Person eller gruppe som handler og tar valg.', 0),
+  ('historie-vg3:personer-og-handlingsrom', 'Struktur', 'Forhold som begrenser eller muliggjør handling.', 1),
+  ('historie-vg3:personer-og-handlingsrom', 'Handlingsrom', 'De mulighetene en person faktisk hadde.', 2),
+  ('historie-vg3:personer-og-handlingsrom', 'Ettermæle', 'Hvordan en person blir husket og framstilt senere.', 3),
+  ('historie-vg3:personer-og-handlingsrom', 'Elsa Laula Renberg', 'Sørsamisk forkjemper, tok initiativ til landsmøtet i 1917.', 4),
+  ('historie-vg3:personer-og-handlingsrom', 'Nelson Mandela', 'Kjempet mot apartheid og ble Sør-Afrikas president i 1994.', 5),
+  ('historie-vg3:personer-og-handlingsrom', 'Apartheid', 'Raseskillepolitikk i Sør-Afrika.', 6),
+  ('historie-vg3:personer-og-handlingsrom', 'Motstand', 'Aktiv eller passiv kamp mot okkupanten.', 7),
+  ('historie-vg3:personer-og-handlingsrom', 'Sivil ulydighet', 'Å bevisst bryte regler i protest, uten vold.', 8),
+  ('historie-vg3:personer-og-handlingsrom', 'Lærerstriden 1942', 'Mange lærere nektet å melde seg inn i nazistenes lærersamband.', 9),
+  ('historie-vg3:personer-og-handlingsrom', 'Tilpasning', 'Å leve videre og klare seg under okkupasjonen.', 10),
+  ('historie-vg3:personer-og-handlingsrom', 'Kollaborasjon', 'Samarbeid med okkupanten.', 11),
+  ('historie-vg3:personer-og-handlingsrom', 'Nasjonal Samling', 'Norsk nazistparti under ledelse av Vidkun Quisling.', 12),
+  ('historie-vg3:personer-og-handlingsrom', 'Gråsone', 'Situasjon der det er uklart hva som er rett og galt.', 13),
+  ('historie-vg3:personer-og-handlingsrom', 'Kontrafaktisk tenkning', 'Å spørre «hva om?» for å vurdere betydningen av valg.', 14);
+delete from public.quiz_sporsmal where tema_id = 'historie-vg3:personer-og-handlingsrom';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('historie-vg3:personer-og-handlingsrom', 'q01', 'flervalg', 'Hva er handlingsrom?', array['Et rom i et museum', 'De mulighetene en person faktisk hadde', 'En type kilde', 'En politisk ideologi']::text[], 1, 'Begrenset av strukturer.', true, true, 0),
+  ('historie-vg3:personer-og-handlingsrom', 'q02', 'flervalg', 'Hva er en struktur i historie?', array['Forhold som begrenser eller muliggjør handling', 'En bygning', 'En enkeltperson', 'En type krig']::text[], 0, 'For eksempel økonomi og lover.', true, true, 1),
+  ('historie-vg3:personer-og-handlingsrom', 'q03', 'flervalg', 'Hva tok Elsa Laula Renberg initiativ til?', array['Sametinget i 1989', 'Alta-aksjonen', 'Det første samiske landsmøtet i 1917', 'Grunnloven']::text[], 2, 'Holdt i Trondheim.', true, true, 2),
+  ('historie-vg3:personer-og-handlingsrom', 'q04', 'flervalg', 'Hva valgte Nelson Mandela etter at han ble løslatt?', array['Hevn', 'Eksil', 'Krig', 'Forsoning']::text[], 3, 'Han ble president i 1994.', true, true, 3),
+  ('historie-vg3:personer-og-handlingsrom', 'q05', 'flervalg', 'Hva var lærerstriden i 1942?', array['At mange lærere nektet å melde seg inn i nazistenes lærersamband', 'At lærerne streiket for høyere lønn', 'At skolene ble stengt av regjeringen', 'At lærerne meldte seg inn i NS']::text[], 0, 'Et eksempel på sivil ulydighet.', true, true, 4),
+  ('historie-vg3:personer-og-handlingsrom', 'q06', 'flervalg', 'Hva er kollaborasjon?', array['Motstand', 'Samarbeid med okkupanten', 'Flukt', 'Nøytralitet']::text[], 1, 'For eksempel medlemskap i NS.', true, true, 5),
+  ('historie-vg3:personer-og-handlingsrom', 'q07', 'flervalg', 'Hvorfor bør vi unngå å være etterpåkloke når vi vurderer valg?', array['Fordi valg ikke har konsekvenser', 'Fordi alle valgte riktig', 'Fordi personene ikke visste hvordan det ville gå', 'Fordi historien er ferdig']::text[], 2, 'Handlingene må forstås i samtiden.', true, true, 6),
+  ('historie-vg3:personer-og-handlingsrom', 'q08', 'flervalg', 'Hva er kontrafaktisk tenkning?', array['Å sjekke fakta', 'Å lese kilder', 'Å skrive biografier', 'Å spørre «hva om?»']::text[], 3, 'Viser betydningen av valg og tilfeldigheter.', true, true, 7),
+  ('historie-vg3:personer-og-handlingsrom', 'q09', 'flervalg', 'Hvilke grupper hadde ofte minst handlingsrom?', array['Kvinner, fattige og minoriteter', 'Rike menn med makt', 'Konger', 'Statsråder']::text[], 0, 'Strukturer begrenset valgene.', true, false, 8),
+  ('historie-vg3:personer-og-handlingsrom', 'q10', 'flervalg', 'Hva er en gråsone under okkupasjonen?', array['Et område med tåke', 'En situasjon der det er uklart hva som er rett og galt', 'En militær sone', 'Et fengsel']::text[], 1, 'For eksempel å jobbe for tyskerne for å forsørge familien.', true, false, 9),
+  ('historie-vg3:personer-og-handlingsrom', 'm01', 'sant-usant', 'De fleste nordmenn tilpasset seg og prøvde å klare seg under okkupasjonen.', array['Sant', 'Usant']::text[], 0, 'Motstand og kollaborasjon var mindretall.', false, true, 10),
+  ('historie-vg3:personer-og-handlingsrom', 'm02', 'sant-usant', 'Strukturer spiller ingen rolle for enkeltmenneskers valg.', array['Sant', 'Usant']::text[], 1, 'De begrenser og muliggjør handling.', false, true, 11),
+  ('historie-vg3:personer-og-handlingsrom', 'm03', 'sant-usant', 'En persons ettermæle kan endre seg over tid.', array['Sant', 'Usant']::text[], 0, 'Nye tider stiller nye spørsmål.', false, true, 12),
+  ('historie-vg3:personer-og-handlingsrom', 'm04', 'sant-usant', 'Kontrafaktiske spørsmål kan besvares med full sikkerhet.', array['Sant', 'Usant']::text[], 1, 'De kan ikke besvares sikkert.', false, true, 13),
+  ('historie-vg3:personer-og-handlingsrom', 'm05', 'flervalg', 'Hva var Nasjonal Samling?', array['En motstandsgruppe', 'Et norsk nazistparti', 'En fagforening', 'Et samisk parti']::text[], 1, 'Ledet av Vidkun Quisling.', false, true, 14),
+  ('historie-vg3:personer-og-handlingsrom', 'm06', 'flervalg', 'Hva er et eksempel på motstand under okkupasjonen?', array['Illegale aviser', 'Medlemskap i NS', 'Å jobbe for okkupantene', 'Å angi naboer']::text[], 0, 'Også sabotasje og flyktninghjelp.', false, true, 15),
+  ('historie-vg3:personer-og-handlingsrom', 'm07', 'flervalg', 'Hvor lenge satt Mandela i fengsel?', array['2 år', '10 år', '27 år', '50 år']::text[], 2, 'Han ble løslatt i 1990.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('historie-vg3:personer-og-handlingsrom', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Historie: Brudd, kontinuitet og historisk betydning
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('historie-vg3:brudd-og-kontinuitet', 'historie-vg3', 'brudd-og-kontinuitet', 'Brudd, kontinuitet og historisk betydning', 'Hvordan historikere deler inn fortiden i perioder, hva brudd og kontinuitet er, hvordan du drøfter i hvilken grad en periode var preget av endring eller videreføring – og hvilke kriterier som gjør en hendelse historisk betydningsfull.', array[6]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('historie-vg3:brudd-og-kontinuitet', '## Brudd og kontinuitet
+
+- Et **brudd** er en **plutselig** eller **dyp** endring – noe blir **fundamentalt** annerledes.
+- **Kontinuitet** betyr at noe **fortsetter** eller endrer seg **gradvis**.
+
+De fleste perioder har **både** brudd og kontinuitet. Selv etter store omveltninger lever mye av det gamle videre – språk, vaner, eiendomsforhold, maktstrukturer og tro.
+
+## Periodisering
+
+Historikere deler fortiden inn i **perioder**, som oldtiden, middelalderen, tidlig moderne tid og moderne tid. Periodene er **konstruksjoner** – de hjelper oss å få **oversikt**, men kan skjule at endringene ofte skjedde **gradvis** og **ulikt** i ulike deler av verden og samfunnet.
+
+Når et periodeskille settes ved en bestemt hendelse, som **1814** eller **1945**, sier det noe om hva historikeren mener var **viktigst**.
+
+## Eksempler til drøfting
+
+**1814 i Norge**
+
+- **Brudd**: Norge fikk egen **grunnlov**, **storting** og ble et eget **rike** i union med Sverige.
+- **Kontinuitet**: **Embetsmennene** styrte videre, bøndene levde som før, og det var fortsatt en **konge**.
+
+**Den industrielle revolusjonen**
+
+- **Brudd**: Maskiner, fabrikker og byer endret arbeidsliv og levekår **dramatisk**.
+- **Kontinuitet**: Endringene tok **flere generasjoner**, og mange levde lenge videre som **bønder**.
+
+**1945 i Norge**
+
+- **Brudd**: Krigen var over, **velferdsstaten** ble bygd ut, og Norge gikk inn i **NATO** i 1949.
+- **Kontinuitet**: Mange av politikerne og partiene fra 1930-tallet fortsatte, og **Arbeiderpartiets** politikk bygde videre på **kriseforliket** fra 1935.
+
+## Å drøfte «i hvilken grad»
+
+Når du skal drøfte i hvilken grad en periode var preget av brudd eller kontinuitet, kan du
+
+1. **definere** hva du mener med brudd og kontinuitet
+2. se på **ulike områder**: politikk, økonomi, kultur, religion og hverdagsliv
+3. vurdere **tempoet** og **omfanget** av endringene
+4. se på **hvem** som opplevde endring – ofte endret livet seg mer for noen grupper enn for andre
+5. **konkludere** med en nyansert vurdering
+
+## Hva gjør en hendelse betydningsfull?
+
+Historikere har foreslått ulike **kriterier** for **historisk betydning**:
+
+- **Omfang**: Hvor mange mennesker ble berørt?
+- **Dybde**: Hvor **dypt** endret den folks liv?
+- **Varighet**: Hvor **lenge** varte virkningene?
+- **Relevans i dag**: Hjelper den oss å forstå **nåtiden**?
+- **Symbolverdi**: Blir den **husket** og brukt som symbol?
+- **Avslørende**: Viser den oss noe viktig om **tiden** den skjedde i?
+
+Hva som regnes som **betydningsfullt**, kan endre seg over tid. Hendelser som tidligere ble oversett – som **kvinners** kamp for rettigheter eller **samenes** historie – har fått større plass etter hvert som samfunnet har endret seg.
+
+## Refleksjon
+
+Å vurdere brudd, kontinuitet og betydning handler ikke om å finne **ett riktig svar**, men om å **begrunne** vurderingene med **fakta** og tydelige **kriterier**.', '{"label":"Brudd og kontinuitet","children":[{"label":"Begreper","children":[{"label":"Brudd"},{"label":"Kontinuitet"}]},{"label":"Periodisering","children":[{"label":"Konstruksjoner"},{"label":"Periodeskiller"}]},{"label":"Eksempler","children":[{"label":"1814"},{"label":"Industriell revolusjon"},{"label":"1945"}]},{"label":"Drøfting","children":[{"label":"Ulike områder"},{"label":"Tempo og omfang"},{"label":"Hvem ble berørt"}]},{"label":"Betydning","children":[{"label":"Omfang og dybde"},{"label":"Varighet og relevans"},{"label":"Symbolverdi"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'historie-vg3:brudd-og-kontinuitet';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('historie-vg3:brudd-og-kontinuitet', 'Brudd', 'Plutselig eller dyp endring.', 0),
+  ('historie-vg3:brudd-og-kontinuitet', 'Kontinuitet', 'At noe fortsetter eller endrer seg gradvis.', 1),
+  ('historie-vg3:brudd-og-kontinuitet', 'Periodisering', 'Inndeling av fortiden i perioder.', 2),
+  ('historie-vg3:brudd-og-kontinuitet', 'Periodeskille', 'Hendelse eller årstall som markerer overgang mellom perioder.', 3),
+  ('historie-vg3:brudd-og-kontinuitet', 'Konstruksjon', 'Noe mennesker har laget for å ordne virkeligheten.', 4),
+  ('historie-vg3:brudd-og-kontinuitet', '1814 som brudd', 'Grunnlov, storting og eget rike.', 5),
+  ('historie-vg3:brudd-og-kontinuitet', '1814 som kontinuitet', 'Embetsmennene styrte videre, og bøndene levde som før.', 6),
+  ('historie-vg3:brudd-og-kontinuitet', 'Kriseforliket 1935', 'Avtale mellom Arbeiderpartiet og Bondepartiet som la grunnlaget for ny politikk.', 7),
+  ('historie-vg3:brudd-og-kontinuitet', 'Historisk betydning', 'Hvor viktig en hendelse er, vurdert ut fra kriterier.', 8),
+  ('historie-vg3:brudd-og-kontinuitet', 'Omfang', 'Hvor mange som ble berørt.', 9),
+  ('historie-vg3:brudd-og-kontinuitet', 'Dybde', 'Hvor dypt en hendelse endret folks liv.', 10),
+  ('historie-vg3:brudd-og-kontinuitet', 'Varighet', 'Hvor lenge virkningene varte.', 11),
+  ('historie-vg3:brudd-og-kontinuitet', 'Relevans i dag', 'Om hendelsen hjelper oss å forstå nåtiden.', 12),
+  ('historie-vg3:brudd-og-kontinuitet', 'Symbolverdi', 'Om hendelsen blir husket og brukt som symbol.', 13),
+  ('historie-vg3:brudd-og-kontinuitet', 'Nyansert vurdering', 'Konklusjon som tar hensyn til flere sider.', 14);
+delete from public.quiz_sporsmal where tema_id = 'historie-vg3:brudd-og-kontinuitet';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('historie-vg3:brudd-og-kontinuitet', 'q01', 'flervalg', 'Hva er kontinuitet?', array['En plutselig endring', 'At noe fortsetter eller endrer seg gradvis', 'En krig', 'En revolusjon']::text[], 1, 'Motsatsen til brudd.', true, true, 0),
+  ('historie-vg3:brudd-og-kontinuitet', 'q02', 'flervalg', 'Hva var et brudd i 1814?', array['Norge fikk egen grunnlov og storting', 'Bøndene levde som før', 'Embetsmennene styrte videre', 'Kongen forsvant']::text[], 0, 'Norge ble et eget rike.', true, true, 1),
+  ('historie-vg3:brudd-og-kontinuitet', 'q03', 'flervalg', 'Hvorfor er perioder konstruksjoner?', array['Fordi de er feil', 'Fordi de er bestemt av kongen', 'Fordi de er laget for å gi oversikt og kan skjule gradvise endringer', 'Fordi de ikke brukes']::text[], 2, 'Endringer skjer ofte gradvis.', true, true, 2),
+  ('historie-vg3:brudd-og-kontinuitet', 'q04', 'flervalg', 'Hvilket kriterium handler om hvor mange som ble berørt?', array['Dybde', 'Varighet', 'Symbolverdi', 'Omfang']::text[], 3, 'Et kriterium for historisk betydning.', true, true, 3),
+  ('historie-vg3:brudd-og-kontinuitet', 'q05', 'flervalg', 'Hva var kontinuitet etter 1945 i Norge?', array['Mange av politikerne og partiene fra 1930-tallet fortsatte', 'Krigen fortsatte', 'Norge gikk ut av NATO', 'Kongen abdiserte']::text[], 0, 'Politikken bygde videre på kriseforliket.', true, true, 4),
+  ('historie-vg3:brudd-og-kontinuitet', 'q06', 'flervalg', 'Hvorfor kan det som regnes som betydningsfullt, endre seg?', array['Fordi fortiden endrer seg', 'Fordi samfunnet og spørsmålene våre endrer seg', 'Fordi kildene forsvinner', 'Fordi historikere er uenige om årstall']::text[], 1, 'For eksempel samenes historie.', true, true, 5),
+  ('historie-vg3:brudd-og-kontinuitet', 'q07', 'flervalg', 'Hvordan kan du drøfte i hvilken grad en periode var preget av brudd?', array['Ved å se bare på politikk', 'Ved å gi ett svar uten begrunnelse', 'Ved å se på ulike områder, tempo og hvem som opplevde endring', 'Ved å telle årstall']::text[], 2, 'Nyansert vurdering.', true, true, 6),
+  ('historie-vg3:brudd-og-kontinuitet', 'q08', 'flervalg', 'Hva var kontinuitet under den industrielle revolusjonen?', array['Fabrikkene', 'Maskinene', 'Byene', 'At mange levde lenge videre som bønder']::text[], 3, 'Endringene tok generasjoner.', true, true, 7),
+  ('historie-vg3:brudd-og-kontinuitet', 'q09', 'flervalg', 'Hva betyr kriteriet dybde?', array['Hvor dypt en hendelse endret folks liv', 'Hvor lenge den varte', 'Hvor kjent den er', 'Hvor mange bøker som er skrevet om den']::text[], 0, 'Et kriterium for historisk betydning.', true, false, 8),
+  ('historie-vg3:brudd-og-kontinuitet', 'q10', 'flervalg', 'Har de fleste perioder både brudd og kontinuitet?', array['Nei, bare brudd', 'Ja', 'Nei, bare kontinuitet', 'Nei, ingen av delene']::text[], 1, 'Mye av det gamle lever videre.', true, false, 9),
+  ('historie-vg3:brudd-og-kontinuitet', 'm01', 'sant-usant', 'Valget av periodeskille sier noe om hva historikeren mener var viktigst.', array['Sant', 'Usant']::text[], 0, 'Periodisering er en tolkning.', false, true, 10),
+  ('historie-vg3:brudd-og-kontinuitet', 'm02', 'sant-usant', 'Etter en revolusjon forsvinner alt det gamle med en gang.', array['Sant', 'Usant']::text[], 1, 'Mye lever videre.', false, true, 11),
+  ('historie-vg3:brudd-og-kontinuitet', 'm03', 'sant-usant', 'Endringer kan oppleves ulikt av ulike grupper i samfunnet.', array['Sant', 'Usant']::text[], 0, 'Derfor må man spørre hvem som opplevde endring.', false, true, 12),
+  ('historie-vg3:brudd-og-kontinuitet', 'm04', 'sant-usant', 'Det finnes alltid ett riktig svar på om en periode var preget av brudd.', array['Sant', 'Usant']::text[], 1, 'Vurderingen må begrunnes.', false, true, 13),
+  ('historie-vg3:brudd-og-kontinuitet', 'm05', 'flervalg', 'Når gikk Norge inn i NATO?', array['1945', '1949', '1955', '1972']::text[], 1, 'Et brudd med tidligere nøytralitet.', false, true, 14),
+  ('historie-vg3:brudd-og-kontinuitet', 'm06', 'flervalg', 'Hvilket kriterium handler om hvor lenge virkningene varte?', array['Varighet', 'Omfang', 'Symbolverdi', 'Dybde']::text[], 0, 'Et kriterium for betydning.', false, true, 15),
+  ('historie-vg3:brudd-og-kontinuitet', 'm07', 'flervalg', 'Hva må du gjøre for å vurdere historisk betydning godt?', array['Velge den mest kjente hendelsen', 'Bruke bare egne følelser', 'Begrunne med fakta og tydelige kriterier', 'Se bare på kongene']::text[], 2, 'Kriterier gjør vurderingen etterprøvbar.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('historie-vg3:brudd-og-kontinuitet', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Historie: Ideologier og politiske omveltninger
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('historie-vg3:ideologier-og-politiske-omveltninger', 'historie-vg3', 'ideologier-og-politiske-omveltninger', 'Ideologier og politiske omveltninger', 'Tanker og ideologier bak politiske omveltninger fra opplysningstiden til i dag – liberalisme, konservatisme, nasjonalisme, sosialisme, kommunisme og fascisme – revolusjonene i 1776, 1789, 1848, 1917 og 1989, og betydningen for menneskers mulighet til demokratisk deltakelse.', array[7]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('historie-vg3:ideologier-og-politiske-omveltninger', '## Opplysningstiden
+
+På **1700-tallet** mente **opplysningsfilosofene** at **fornuften** skulle styre, ikke tradisjon og kirke. **John Locke** hevdet at mennesker har **naturlige rettigheter** til liv, frihet og eiendom. **Montesquieu** foreslo **maktfordeling**, og **Rousseau** mente at makten tilhører **folket**. Tankene ble grunnlaget for moderne **demokrati**.
+
+## Revolusjonene på 1700-tallet
+
+- Den **amerikanske revolusjonen**: **Uavhengighetserklæringen** fra **1776** slo fast at alle mennesker er skapt like og har rett til liv, frihet og lykke. Men **slaver**, **urfolk** og **kvinner** ble holdt utenfor.
+- Den **franske revolusjonen** fra **1789** avskaffet eneveldet og adelens privilegier og innførte **erklæringen om menneskets og borgerens rettigheter**. Revolusjonen gikk over i **terror** og endte med Napoleons maktovertakelse.
+
+Begge revolusjonene inspirerte **Grunnloven** av 1814.
+
+## De store ideologiene
+
+- **Liberalismen** vektlegger **individets frihet**, ytringsfrihet, eiendomsrett og **fri handel**. Staten skal være begrenset.
+- **Konservatismen** vil bevare **tradisjoner** og **institusjoner** og endre samfunnet **gradvis**. **Edmund Burke** advarte mot revolusjonære brudd.
+- **Nasjonalismen** mener at hvert **folk** bør ha sin egen **stat**. Den bidro til frigjøring, men også til **konflikter** og krig.
+- **Sosialismen** vokste fram med **industrialiseringen** og vil ha **likhet** og at arbeiderne skal få en større del av verdiene. **Karl Marx** mente at historien drives av **klassekamp**. Sosialismen delte seg i **sosialdemokrater**, som ville endre samfunnet gjennom **valg** og reformer, og **kommunister**, som ville ha **revolusjon**.
+- **Fascismen** og **nazismen** på 1900-tallet avviste demokratiet og satte **nasjonen**, **føreren** og – i nazismen – **rasen** over individet.
+
+## Omveltninger på 1800- og 1900-tallet
+
+- **1848**: Revolusjoner i store deler av Europa krevde **demokrati** og nasjonal frihet. I Norge vokste **Thrane-bevegelsen** fram.
+- **1917**: **Den russiske revolusjonen** ga kommunistene makten. Resultatet ble et **ettpartistyre** og senere Stalins **diktatur**.
+- **1920- og 30-tallet**: Fascister og nazister tok makten i **Italia** og **Tyskland**.
+- **Avkoloniseringen** etter 1945 ga mange nye stater, ofte begrunnet i **nasjonalisme** og **menneskerettigheter**.
+- **1989**: **Berlinmuren** falt, og kommuniststyrene i Øst-Europa brøt sammen – mange land ble **demokratier**.
+- **Den arabiske våren** fra **2010–2011** krevde demokrati, men endte i flere land i **borgerkrig** eller nye **diktaturer**.
+
+## Demokratisk deltakelse
+
+Ideologiene har påvirket **hvem** som får delta:
+
+- Liberalismen ga **rettigheter**, men først bare for menn med eiendom.
+- **Arbeiderbevegelsen** og sosialismen kjempet fram **allmenn stemmerett** for menn – i Norge i **1898**.
+- **Kvinnebevegelsen** vant fram med **stemmerett** for kvinner i Norge i **1913**.
+- **Fascismen** og **kommunismen** i sovjetisk form **fjernet** frie valg.
+
+## Vurdering
+
+Når du vurderer en ideologi, kan du spørre hvilket **menneskesyn** den har, hvem den ga **makt** – og hvem den **utelukket**. Mange ideologier har både bidratt til **frigjøring** og blitt brukt til å rettferdiggjøre **undertrykkelse**.', '{"label":"Ideologier og omveltninger","children":[{"label":"Opplysningstid","children":[{"label":"Locke"},{"label":"Montesquieu og Rousseau"}]},{"label":"Revolusjoner","children":[{"label":"1776 og 1789"},{"label":"1848"},{"label":"1917"},{"label":"1989 og 2011"}]},{"label":"Ideologier","children":[{"label":"Liberalisme og konservatisme"},{"label":"Nasjonalisme"},{"label":"Sosialisme og kommunisme"},{"label":"Fascisme"}]},{"label":"Deltakelse","children":[{"label":"Stemmerett 1898"},{"label":"Kvinner 1913"}]},{"label":"Vurdering","children":[{"label":"Menneskesyn"},{"label":"Frigjøring og undertrykkelse"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'historie-vg3:ideologier-og-politiske-omveltninger';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('historie-vg3:ideologier-og-politiske-omveltninger', 'Opplysningstiden', '1700-tallets idéstrømning der fornuften skulle styre.', 0),
+  ('historie-vg3:ideologier-og-politiske-omveltninger', 'John Locke', 'Mente at mennesker har naturlige rettigheter til liv, frihet og eiendom.', 1),
+  ('historie-vg3:ideologier-og-politiske-omveltninger', 'Montesquieu', 'Foreslo maktfordeling.', 2),
+  ('historie-vg3:ideologier-og-politiske-omveltninger', 'Uavhengighetserklæringen', 'Den amerikanske erklæringen fra 1776.', 3),
+  ('historie-vg3:ideologier-og-politiske-omveltninger', 'Den franske revolusjonen', 'Omveltningen fra 1789 som avskaffet eneveldet.', 4),
+  ('historie-vg3:ideologier-og-politiske-omveltninger', 'Liberalisme', 'Ideologi som vektlegger individets frihet og begrenset stat.', 5),
+  ('historie-vg3:ideologier-og-politiske-omveltninger', 'Konservatisme', 'Ideologi som vil bevare tradisjoner og endre gradvis.', 6),
+  ('historie-vg3:ideologier-og-politiske-omveltninger', 'Nasjonalisme', 'Ideen om at hvert folk bør ha sin egen stat.', 7),
+  ('historie-vg3:ideologier-og-politiske-omveltninger', 'Sosialisme', 'Ideologi som vil ha likhet og mer til arbeiderne.', 8),
+  ('historie-vg3:ideologier-og-politiske-omveltninger', 'Karl Marx', 'Mente at historien drives av klassekamp.', 9),
+  ('historie-vg3:ideologier-og-politiske-omveltninger', 'Sosialdemokrati', 'Sosialisme gjennom valg og reformer.', 10),
+  ('historie-vg3:ideologier-og-politiske-omveltninger', 'Fascisme', 'Antidemokratisk ideologi som setter nasjonen og føreren over individet.', 11),
+  ('historie-vg3:ideologier-og-politiske-omveltninger', 'Den russiske revolusjonen', 'Kommunistene tok makten i Russland i 1917.', 12),
+  ('historie-vg3:ideologier-og-politiske-omveltninger', 'Berlinmurens fall', '1989 – kommuniststyrene i Øst-Europa brøt sammen.', 13),
+  ('historie-vg3:ideologier-og-politiske-omveltninger', 'Den arabiske våren', 'Opprør for demokrati i arabiske land fra 2010–2011.', 14);
+delete from public.quiz_sporsmal where tema_id = 'historie-vg3:ideologier-og-politiske-omveltninger';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('historie-vg3:ideologier-og-politiske-omveltninger', 'q01', 'flervalg', 'Hva mente John Locke?', array['At kongen har guddommelig rett', 'At mennesker har naturlige rettigheter til liv, frihet og eiendom', 'At staten skal eie alt', 'At nasjonen står over individet']::text[], 1, 'Viktig for liberalismen.', true, true, 0),
+  ('historie-vg3:ideologier-og-politiske-omveltninger', 'q02', 'flervalg', 'Hvilken ideologi vil bevare tradisjoner og endre gradvis?', array['Konservatismen', 'Liberalismen', 'Kommunismen', 'Fascismen']::text[], 0, 'Edmund Burke er en sentral tenker.', true, true, 1),
+  ('historie-vg3:ideologier-og-politiske-omveltninger', 'q03', 'flervalg', 'Hva skilte sosialdemokrater fra kommunister?', array['Sosialdemokratene ville ha diktatur', 'Kommunistene ville ha valg', 'Sosialdemokratene ville endre samfunnet gjennom valg og reformer', 'De var helt like']::text[], 2, 'Kommunistene ville ha revolusjon.', true, true, 2),
+  ('historie-vg3:ideologier-og-politiske-omveltninger', 'q04', 'flervalg', 'Hvem ble holdt utenfor rettighetene i den amerikanske uavhengighetserklæringen?', array['Rike menn', 'Handelsmenn', 'Soldater', 'Slaver, urfolk og kvinner']::text[], 3, 'Idealene gjaldt ikke alle.', true, true, 3),
+  ('historie-vg3:ideologier-og-politiske-omveltninger', 'q05', 'flervalg', 'Hva skjedde i 1917?', array['Den russiske revolusjonen', 'Den franske revolusjonen', 'Berlinmuren falt', 'Den amerikanske revolusjonen']::text[], 0, 'Kommunistene tok makten.', true, true, 4),
+  ('historie-vg3:ideologier-og-politiske-omveltninger', 'q06', 'flervalg', 'Hva kjennetegner fascismen?', array['Sterk støtte til frie valg', 'Avvisning av demokratiet og vekt på nasjonen og føreren', 'Fri handel og begrenset stat', 'Gradvis endring']::text[], 1, 'Individet underordnes nasjonen.', true, true, 5),
+  ('historie-vg3:ideologier-og-politiske-omveltninger', 'q07', 'flervalg', 'Når fikk kvinner stemmerett i Norge?', array['1814', '1898', '1913', '1945']::text[], 2, 'Menn fikk allmenn stemmerett i 1898.', true, true, 6),
+  ('historie-vg3:ideologier-og-politiske-omveltninger', 'q08', 'flervalg', 'Hva skjedde i Øst-Europa i 1989?', array['Fascismen vant fram', 'Russiske revolusjonen startet', 'Nye kolonier ble opprettet', 'Kommuniststyrene brøt sammen']::text[], 3, 'Berlinmuren falt.', true, true, 7),
+  ('historie-vg3:ideologier-og-politiske-omveltninger', 'q09', 'flervalg', 'Hva mente Karl Marx drev historien framover?', array['Klassekamp', 'Religion', 'Kongelig makt', 'Været']::text[], 0, 'Grunnlaget for marxismen.', true, false, 8),
+  ('historie-vg3:ideologier-og-politiske-omveltninger', 'q10', 'flervalg', 'Hvilken norsk bevegelse vokste fram i 1848?', array['Kvinnebevegelsen', 'Thrane-bevegelsen', 'Målrørsla', 'Motstandsbevegelsen']::text[], 1, 'En tidlig arbeiderbevegelse.', true, false, 9),
+  ('historie-vg3:ideologier-og-politiske-omveltninger', 'm01', 'sant-usant', 'Den franske revolusjonen gikk over i en periode med terror.', array['Sant', 'Usant']::text[], 0, 'Og endte med Napoleons maktovertakelse.', false, true, 10),
+  ('historie-vg3:ideologier-og-politiske-omveltninger', 'm02', 'sant-usant', 'Nasjonalismen har bare ført til fred.', array['Sant', 'Usant']::text[], 1, 'Den har også ført til konflikter og krig.', false, true, 11),
+  ('historie-vg3:ideologier-og-politiske-omveltninger', 'm03', 'sant-usant', 'Grunnloven av 1814 var inspirert av den amerikanske og den franske revolusjonen.', array['Sant', 'Usant']::text[], 0, 'Maktfordeling og folkesuverenitet.', false, true, 12),
+  ('historie-vg3:ideologier-og-politiske-omveltninger', 'm04', 'sant-usant', 'Den arabiske våren førte til stabile demokratier i alle land.', array['Sant', 'Usant']::text[], 1, 'Flere land fikk borgerkrig eller nye diktaturer.', false, true, 13),
+  ('historie-vg3:ideologier-og-politiske-omveltninger', 'm05', 'flervalg', 'Hvem foreslo maktfordeling?', array['Karl Marx', 'Montesquieu', 'Edmund Burke', 'Napoleon']::text[], 1, 'Lovgivende, utøvende og dømmende makt.', false, true, 14),
+  ('historie-vg3:ideologier-og-politiske-omveltninger', 'm06', 'flervalg', 'Hvilken ideologi vektlegger fri handel og begrenset stat?', array['Liberalismen', 'Fascismen', 'Kommunismen', 'Konservatismen']::text[], 0, 'Individets frihet står sentralt.', false, true, 15),
+  ('historie-vg3:ideologier-og-politiske-omveltninger', 'm07', 'flervalg', 'Hva ble resultatet av den russiske revolusjonen?', array['Et flerpartidemokrati', 'Et konstitusjonelt monarki', 'Et ettpartistyre og senere diktatur', 'En liberal stat']::text[], 2, 'Stalins diktatur fulgte.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('historie-vg3:ideologier-og-politiske-omveltninger', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Historie: Teknologiske omveltninger
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('historie-vg3:teknologiske-omveltninger', 'historie-vg3', 'teknologiske-omveltninger', 'Teknologiske omveltninger', 'Den industrielle revolusjonen, den andre industrielle revolusjonen med elektrisitet og olje, og den digitale revolusjonen – hvordan teknologiske omveltninger har endret arbeid, familieliv, byer og natur, og hvordan de har formet menneskers forventninger til framtiden.', array[8]::int[], 5, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('historie-vg3:teknologiske-omveltninger', '## Den industrielle revolusjonen
+
+Den **industrielle revolusjonen** startet i **Storbritannia** på **1700-tallet**. **Dampmaskinen**, forbedret av **James Watt**, gjorde det mulig å drive maskiner i **fabrikker**. **Tekstilindustrien** var først ute, og etter hvert kom **jernbaner** og **dampskip**.
+
+Konsekvenser:
+
+- Produksjonen flyttet fra **hjemmet** og **gården** til **fabrikken**.
+- **Urbanisering**: Folk flyttet til byene, der det oppstod trange og **usunne** arbeiderboliger.
+- **Arbeidsdagene** var lange, og **barnearbeid** var vanlig.
+- En ny **arbeiderklasse** og et nytt **borgerskap** vokste fram, og **arbeiderbevegelsen** kjempet for bedre kår.
+- **Tid** ble viktigere: Klokka og fabrikkfløyta styrte dagen.
+
+I Norge kom industrialiseringen noe senere, fra **midten av 1800-tallet**, med tekstilfabrikker, sagbruk og etter hvert **vannkraft**.
+
+## Den andre industrielle revolusjonen
+
+Fra slutten av **1800-tallet** kom **elektrisitet**, **forbrenningsmotoren**, **kjemisk industri**, **telefon** og **radio**. I Norge ga **vannkraften** grunnlag for kraftkrevende industri som **Norsk Hydro**, grunnlagt i **1905**.
+
+**Samlebåndet**, kjent fra Fords bilfabrikk, gjorde **masseproduksjon** mulig. Biler og husholdningsmaskiner endret **hverdagen**. **Vaskemaskiner** og **kjøleskap** gjorde husarbeidet lettere og bidro til at flere **kvinner** kunne ta lønnsarbeid.
+
+## Den digitale revolusjonen
+
+Fra andre halvdel av **1900-tallet** kom **datamaskinen**, **internett** og senere **smarttelefonen**. **Automatisering** og **digitalisering** har endret nesten alle yrker. I dag endrer **kunstig intelligens** måten vi arbeider, lærer og kommuniserer på.
+
+Konsekvenser:
+
+- Informasjon og kommunikasjon er blitt **raskere** og **globalt** tilgjengelig.
+- Nye **jobber** oppstår, mens andre forsvinner.
+- **Sosiale medier** har endret hvordan vi møtes, debatterer og får **nyheter**.
+- Nye utfordringer: **personvern**, **overvåking**, **desinformasjon** og **skjermtid**.
+
+## Natur og miljø
+
+Teknologien ga økt **velstand**, men også økt bruk av **kull**, **olje** og **gass**. **Forurensning** og **klimaendringer** er langsiktige følger av industrialiseringen. Samtidig kan ny teknologi – som **fornybar energi** – være en del av løsningen.
+
+## Forventninger til framtiden
+
+Teknologiske omveltninger har skapt både **optimisme** og **frykt**:
+
+- Mange trodde på **fremskrittet** – at teknologi ville gi et stadig bedre liv. Verdensutstillingene på 1800-tallet viste stolt fram nye oppfinnelser.
+- Andre fryktet **arbeidsløshet**. **Maskinstormerne** i England ødela maskiner som tok jobbene deres.
+- **Atombomben** i **1945** viste at teknologi også kunne **utslette** menneskeheten.
+- I dag diskuteres det om **kunstig intelligens** vil løse store problemer eller skape nye.
+
+Forventningene til framtiden henger sammen med **erfaringene** fra fortiden – og ofte med hvem som **tjener** og hvem som **taper** på endringene.
+
+## Vurdering
+
+Når du vurderer en teknologisk omveltning, kan du spørre hvordan den endret **arbeid**, **familieliv**, **makt** og **natur** – og for **hvem**. Teknologi er aldri bare teknisk; den former **samfunnet**, og samfunnet former teknologien.', '{"label":"Teknologiske omveltninger","children":[{"label":"Industriell revolusjon","children":[{"label":"Dampmaskin og fabrikk"},{"label":"Urbanisering"},{"label":"Arbeiderklassen"}]},{"label":"Andre industrielle","children":[{"label":"Elektrisitet og motor"},{"label":"Vannkraft i Norge"},{"label":"Samlebånd"}]},{"label":"Digital","children":[{"label":"Internett og mobil"},{"label":"Automatisering"},{"label":"Kunstig intelligens"}]},{"label":"Følger","children":[{"label":"Arbeid og familie"},{"label":"Miljø og klima"}]},{"label":"Forventninger","children":[{"label":"Fremskrittstro"},{"label":"Frykt og maskinstormere"},{"label":"Atombomben"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'historie-vg3:teknologiske-omveltninger';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('historie-vg3:teknologiske-omveltninger', 'Den industrielle revolusjonen', 'Overgangen til fabrikkproduksjon med maskiner, startet i Storbritannia på 1700-tallet.', 0),
+  ('historie-vg3:teknologiske-omveltninger', 'Dampmaskinen', 'Maskin som ble forbedret av James Watt og drev fabrikker og transport.', 1),
+  ('historie-vg3:teknologiske-omveltninger', 'Urbanisering', 'At folk flytter fra landet til byene.', 2),
+  ('historie-vg3:teknologiske-omveltninger', 'Arbeiderklassen', 'Lønnsarbeidere i fabrikker og industri.', 3),
+  ('historie-vg3:teknologiske-omveltninger', 'Barnearbeid', 'Barn som arbeidet, vanlig i tidlig industri.', 4),
+  ('historie-vg3:teknologiske-omveltninger', 'Den andre industrielle revolusjonen', 'Elektrisitet, forbrenningsmotor og kjemisk industri fra slutten av 1800-tallet.', 5),
+  ('historie-vg3:teknologiske-omveltninger', 'Vannkraft', 'Grunnlaget for norsk kraftkrevende industri.', 6),
+  ('historie-vg3:teknologiske-omveltninger', 'Norsk Hydro', 'Industriselskap grunnlagt i 1905 basert på vannkraft.', 7),
+  ('historie-vg3:teknologiske-omveltninger', 'Samlebånd', 'Produksjonsmetode som gjorde masseproduksjon mulig.', 8),
+  ('historie-vg3:teknologiske-omveltninger', 'Den digitale revolusjonen', 'Datamaskiner, internett og smarttelefoner.', 9),
+  ('historie-vg3:teknologiske-omveltninger', 'Automatisering', 'Maskiner og programmer overtar arbeid mennesker gjorde.', 10),
+  ('historie-vg3:teknologiske-omveltninger', 'Maskinstormere', 'Arbeidere i England som ødela maskiner som tok jobbene deres.', 11),
+  ('historie-vg3:teknologiske-omveltninger', 'Fremskrittstro', 'Troen på at teknologi gir et stadig bedre liv.', 12),
+  ('historie-vg3:teknologiske-omveltninger', 'Desinformasjon', 'Bevisst falsk informasjon som spres.', 13),
+  ('historie-vg3:teknologiske-omveltninger', 'Verdensutstillingene', 'Utstillinger på 1800-tallet som viste fram nye oppfinnelser.', 14);
+delete from public.quiz_sporsmal where tema_id = 'historie-vg3:teknologiske-omveltninger';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('historie-vg3:teknologiske-omveltninger', 'q01', 'flervalg', 'Hvor startet den industrielle revolusjonen?', array['I Norge', 'I Storbritannia', 'I USA', 'I Kina']::text[], 1, 'På 1700-tallet.', true, true, 0),
+  ('historie-vg3:teknologiske-omveltninger', 'q02', 'flervalg', 'Hvilken bransje var først ute med fabrikker?', array['Tekstilindustrien', 'Bilindustrien', 'Dataindustrien', 'Oljeindustrien']::text[], 0, 'Dampdrevne vevstoler.', true, true, 1),
+  ('historie-vg3:teknologiske-omveltninger', 'q03', 'flervalg', 'Hva ga grunnlag for kraftkrevende industri i Norge?', array['Kull', 'Olje', 'Vannkraft', 'Atomkraft']::text[], 2, 'For eksempel Norsk Hydro.', true, true, 2),
+  ('historie-vg3:teknologiske-omveltninger', 'q04', 'flervalg', 'Hva gjorde samlebåndet mulig?', array['Håndverk', 'Hjemmeproduksjon', 'Barnearbeid', 'Masseproduksjon']::text[], 3, 'Kjent fra Fords bilfabrikk.', true, true, 3),
+  ('historie-vg3:teknologiske-omveltninger', 'q05', 'flervalg', 'Hvem var maskinstormerne?', array['Arbeidere som ødela maskiner som tok jobbene deres', 'Oppfinnere', 'Fabrikkeiere', 'Politikere']::text[], 0, 'Uttrykk for frykt for arbeidsløshet.', true, true, 4),
+  ('historie-vg3:teknologiske-omveltninger', 'q06', 'flervalg', 'Hvordan bidro husholdningsmaskiner til endring?', array['De økte husarbeidet', 'De gjorde at flere kvinner kunne ta lønnsarbeid', 'De skapte arbeidsløshet i fabrikkene', 'De forbød kvinner å jobbe']::text[], 1, 'Lettere husarbeid.', true, true, 5),
+  ('historie-vg3:teknologiske-omveltninger', 'q07', 'flervalg', 'Hva viste atombomben i 1945?', array['At krig var over for alltid', 'At teknologi alltid er positiv', 'At teknologi også kunne utslette menneskeheten', 'At fremskritt er umulig']::text[], 2, 'Endret forventningene til framtiden.', true, true, 6),
+  ('historie-vg3:teknologiske-omveltninger', 'q08', 'flervalg', 'Hva er en utfordring ved den digitale revolusjonen?', array['For lite informasjon', 'For langsom kommunikasjon', 'Færre nyheter', 'Personvern og desinformasjon']::text[], 3, 'Også overvåking og skjermtid.', true, true, 7),
+  ('historie-vg3:teknologiske-omveltninger', 'q09', 'flervalg', 'Hvilken langsiktig følge har industrialiseringen for miljøet?', array['Klimaendringer', 'Mindre forurensning', 'Flere skoger', 'Kaldere klima']::text[], 0, 'Økt bruk av kull, olje og gass.', true, false, 8),
+  ('historie-vg3:teknologiske-omveltninger', 'q10', 'flervalg', 'Hvilken oppfinnelse fikk James Watt æren for å forbedre?', array['Telefonen', 'Dampmaskinen', 'Datamaskinen', 'Bilen']::text[], 1, 'Viktig for den industrielle revolusjonen.', true, false, 9),
+  ('historie-vg3:teknologiske-omveltninger', 'm01', 'sant-usant', 'I Norge kom industrialiseringen senere enn i Storbritannia.', array['Sant', 'Usant']::text[], 0, 'Fra midten av 1800-tallet.', false, true, 10),
+  ('historie-vg3:teknologiske-omveltninger', 'm02', 'sant-usant', 'Teknologiske omveltninger har bare skapt optimisme.', array['Sant', 'Usant']::text[], 1, 'De har også skapt frykt.', false, true, 11),
+  ('historie-vg3:teknologiske-omveltninger', 'm03', 'sant-usant', 'Klokka og fabrikkfløyta fikk større betydning i industrisamfunnet.', array['Sant', 'Usant']::text[], 0, 'Tid ble viktigere.', false, true, 12),
+  ('historie-vg3:teknologiske-omveltninger', 'm04', 'sant-usant', 'Den digitale revolusjonen har ikke endret arbeidslivet.', array['Sant', 'Usant']::text[], 1, 'Nesten alle yrker er endret.', false, true, 13),
+  ('historie-vg3:teknologiske-omveltninger', 'm05', 'flervalg', 'Når ble Norsk Hydro grunnlagt?', array['1814', '1905', '1945', '1969']::text[], 1, 'Samme år som unionsoppløsningen.', false, true, 14),
+  ('historie-vg3:teknologiske-omveltninger', 'm06', 'flervalg', 'Hva kjennetegnet arbeidsforholdene i tidlig industri?', array['Lange arbeidsdager og barnearbeid', 'Korte dager og høy lønn', 'Hjemmekontor', 'Fire dagers arbeidsuke']::text[], 0, 'Arbeiderbevegelsen kjempet for bedre kår.', false, true, 15),
+  ('historie-vg3:teknologiske-omveltninger', 'm07', 'flervalg', 'Hvilket spørsmål bør du stille når du vurderer en teknologisk omveltning?', array['Hvor stor maskinen var', 'Hvem som oppfant den alene', 'Hvem som tjente og tapte på endringene', 'Hvilken farge den hadde']::text[], 2, 'Teknologi former samfunnet.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('historie-vg3:teknologiske-omveltninger', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Historie: Migrasjon og kulturmøter
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('historie-vg3:migrasjon-og-kulturmoter', 'historie-vg3', 'migrasjon-og-kulturmoter', 'Migrasjon og kulturmøter', 'Årsaker til at mennesker har migrert – push- og pull-faktorer, emigrasjonen fra Norge til Amerika, arbeidsinnvandring og flyktninger – og kulturmøtene sett fra perspektivene til dem som kom, og dem som tok imot.', array[9]::int[], 6, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('historie-vg3:migrasjon-og-kulturmoter', '## Mennesker har alltid flyttet
+
+**Migrasjon** betyr at mennesker flytter fra ett sted til et annet for å bosette seg. Å flytte **ut** av et land kalles **emigrasjon**, å flytte **inn** kalles **immigrasjon**. Migrasjon har skjedd gjennom hele historien – fra de første menneskene som vandret ut av Afrika, til dagens flyktninger.
+
+## Årsaker
+
+**Push-faktorer** skyver folk **bort**:
+
+- fattigdom og **arbeidsløshet**
+- **krig**, forfølgelse og undertrykkelse
+- **naturkatastrofer** og klimaendringer
+- **befolkningsvekst** og mangel på jord
+
+**Pull-faktorer** trekker folk **til** et nytt sted:
+
+- **arbeid** og høyere lønn
+- **frihet** og sikkerhet
+- **familie** og nettverk som har reist før
+- **utdanning**
+
+Migrasjonen kan være **frivillig** eller **tvungen**. **Slavehandelen** over Atlanterhavet tvang millioner av afrikanere til Amerika.
+
+## Utvandringen fra Norge
+
+Mellom **1825** og **1930** utvandret rundt **800 000** nordmenn, de fleste til **USA**. Det var en av de største utvandringene i Europa i forhold til folketallet.
+
+- **Push**: befolkningsvekst, lite jord, fattigdom og religiøs uenighet
+- **Pull**: billig jord i **Midtvesten**, jobber og brev fra slektninger – «**Amerika-brev**»
+
+Utvandrerne møtte et **nytt samfunn**, bygde egne kirker og aviser og ble etter hvert en del av det amerikanske samfunnet. Samtidig tok bosetterne jord som tilhørte **urfolk**.
+
+## Innvandring til Norge
+
+- På **1960- og 70-tallet** kom **arbeidsinnvandrere** fra blant annet **Pakistan**, **Tyrkia** og **Marokko**. I **1975** ble det innført **innvandringsstopp** for arbeidsinnvandrere, men familiegjenforening fortsatte.
+- **Flyktninger** har kommet fra blant annet **Vietnam**, **Chile**, **Balkan**, **Somalia**, **Syria** og **Ukraina**.
+- Etter at nye land ble med i **EU** i 2004, kom mange **arbeidsinnvandrere** fra **Polen** og **Litauen** gjennom **EØS-avtalen**.
+
+I dag har en stor del av befolkningen i Norge **innvandrerbakgrunn**.
+
+## Kulturmøter fra ulike perspektiver
+
+Kulturmøter kan gi både **berikelse** og **konflikt**.
+
+**Fra perspektivet til dem som kom**:
+
+- savn etter **hjemlandet**, språkproblemer og **diskriminering**
+- ønsket om å bevare egen **kultur** og samtidig **delta** i det nye samfunnet
+- nye **muligheter** for utdanning og arbeid
+
+**Fra perspektivet til dem som tok imot**:
+
+- behov for **arbeidskraft** og nye impulser
+- noen opplevde det nye som en **trussel** mot egen kultur eller egne jobber
+- debatt om **integrering**, **assimilering** og **mangfold**
+
+**Barna** av innvandrere – andre generasjon – lever ofte med **flere kulturer** samtidig og utvikler nye **identiteter**.
+
+## Begreper
+
+- **Assimilering**: at minoriteten skal **tilpasse** seg helt og gi opp egen kultur
+- **Integrering**: at minoriteten **deltar** i samfunnet og samtidig beholder deler av sin kultur
+- **Segregering**: at gruppene lever **atskilt**
+
+## Refleksjon
+
+Norge har vært både et **utvandringsland** og et **innvandringsland**. Historien om nordmenn i Amerika kan gi perspektiv på hvordan det oppleves å være **ny** i et annet land.', '{"label":"Migrasjon og kulturmøter","children":[{"label":"Årsaker","children":[{"label":"Push"},{"label":"Pull"},{"label":"Frivillig og tvungen"}]},{"label":"Utvandring","children":[{"label":"800 000 til Amerika"},{"label":"Amerika-brev"},{"label":"Urfolkenes jord"}]},{"label":"Innvandring","children":[{"label":"Arbeidsinnvandring"},{"label":"Flyktninger"},{"label":"EØS"}]},{"label":"Perspektiver","children":[{"label":"De som kom"},{"label":"De som tok imot"},{"label":"Andre generasjon"}]},{"label":"Begreper","children":[{"label":"Assimilering"},{"label":"Integrering"},{"label":"Segregering"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'historie-vg3:migrasjon-og-kulturmoter';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('historie-vg3:migrasjon-og-kulturmoter', 'Migrasjon', 'At mennesker flytter for å bosette seg et annet sted.', 0),
+  ('historie-vg3:migrasjon-og-kulturmoter', 'Emigrasjon', 'Utvandring fra et land.', 1),
+  ('historie-vg3:migrasjon-og-kulturmoter', 'Immigrasjon', 'Innvandring til et land.', 2),
+  ('historie-vg3:migrasjon-og-kulturmoter', 'Push-faktorer', 'Forhold som skyver folk bort, som fattigdom og krig.', 3),
+  ('historie-vg3:migrasjon-og-kulturmoter', 'Pull-faktorer', 'Forhold som trekker folk til et nytt sted, som arbeid og frihet.', 4),
+  ('historie-vg3:migrasjon-og-kulturmoter', 'Tvungen migrasjon', 'Flytting folk ikke har valgt selv, som slavehandelen.', 5),
+  ('historie-vg3:migrasjon-og-kulturmoter', 'Utvandringen til Amerika', 'Rundt 800 000 nordmenn utvandret mellom 1825 og 1930.', 6),
+  ('historie-vg3:migrasjon-og-kulturmoter', 'Amerika-brev', 'Brev fra utvandrere som lokket flere til å reise.', 7),
+  ('historie-vg3:migrasjon-og-kulturmoter', 'Arbeidsinnvandring', 'Innvandring for å ta arbeid.', 8),
+  ('historie-vg3:migrasjon-og-kulturmoter', 'Innvandringsstoppen 1975', 'Stans i arbeidsinnvandring til Norge.', 9),
+  ('historie-vg3:migrasjon-og-kulturmoter', 'Flyktning', 'Person som har flyktet fra krig eller forfølgelse.', 10),
+  ('historie-vg3:migrasjon-og-kulturmoter', 'Assimilering', 'Minoriteten skal gi opp egen kultur og tilpasse seg helt.', 11),
+  ('historie-vg3:migrasjon-og-kulturmoter', 'Integrering', 'Minoriteten deltar i samfunnet og beholder deler av sin kultur.', 12),
+  ('historie-vg3:migrasjon-og-kulturmoter', 'Segregering', 'Grupper lever atskilt.', 13),
+  ('historie-vg3:migrasjon-og-kulturmoter', 'Andre generasjon', 'Barn av innvandrere, født i det nye landet.', 14);
+delete from public.quiz_sporsmal where tema_id = 'historie-vg3:migrasjon-og-kulturmoter';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('historie-vg3:migrasjon-og-kulturmoter', 'q01', 'flervalg', 'Hva er en push-faktor?', array['Høy lønn i et annet land', 'Fattigdom og krig i hjemlandet', 'Familie som har reist før', 'Billig jord i Amerika']::text[], 1, 'Den skyver folk bort.', true, true, 0),
+  ('historie-vg3:migrasjon-og-kulturmoter', 'q02', 'flervalg', 'Hvor mange nordmenn utvandret til Amerika mellom 1825 og 1930?', array['Rundt 800 000', 'Rundt 8000', 'Rundt 80 000', 'Rundt 8 millioner']::text[], 0, 'En av de største utvandringene i Europa i forhold til folketallet.', true, true, 1),
+  ('historie-vg3:migrasjon-og-kulturmoter', 'q03', 'flervalg', 'Hva var Amerika-brev?', array['Offisielle dokumenter', 'Reklame fra staten', 'Brev fra utvandrere som lokket flere til å reise', 'Skattebrev']::text[], 2, 'En pull-faktor.', true, true, 2),
+  ('historie-vg3:migrasjon-og-kulturmoter', 'q04', 'flervalg', 'Hva skjedde med arbeidsinnvandringen til Norge i 1975?', array['Den ble doblet', 'Den ble fri for alle', 'Den startet', 'Det ble innført innvandringsstopp']::text[], 3, 'Familiegjenforening fortsatte.', true, true, 3),
+  ('historie-vg3:migrasjon-og-kulturmoter', 'q05', 'flervalg', 'Hva er integrering?', array['At minoriteten deltar og beholder deler av sin kultur', 'At minoriteten gir opp sin kultur helt', 'At gruppene lever atskilt', 'At alle flytter ut']::text[], 0, 'Skiller seg fra assimilering.', true, true, 4),
+  ('historie-vg3:migrasjon-og-kulturmoter', 'q06', 'flervalg', 'Hva var slavehandelen over Atlanterhavet et eksempel på?', array['Frivillig migrasjon', 'Tvungen migrasjon', 'Arbeidsinnvandring', 'Turisme']::text[], 1, 'Millioner ble tvunget.', true, true, 5),
+  ('historie-vg3:migrasjon-og-kulturmoter', 'q07', 'flervalg', 'Hvorfor kom mange arbeidsinnvandrere fra Polen etter 2004?', array['På grunn av innvandringsstoppen', 'På grunn av krig i Polen', 'Fordi nye land ble med i EU og EØS-reglene ga fri bevegelse', 'Fordi Norge ble med i EU']::text[], 2, 'Fri flyt av arbeidskraft.', true, true, 6),
+  ('historie-vg3:migrasjon-og-kulturmoter', 'q08', 'flervalg', 'Hva tok de norske bosetterne i Amerika som tilhørte andre?', array['Fabrikker', 'Skip', 'Byer', 'Jord som tilhørte urfolk']::text[], 3, 'Et annet perspektiv på utvandringen.', true, true, 7),
+  ('historie-vg3:migrasjon-og-kulturmoter', 'q09', 'flervalg', 'Hva er assimilering?', array['At minoriteten skal gi opp egen kultur og tilpasse seg helt', 'At minoriteten beholder alt', 'At gruppene lever atskilt', 'At majoriteten flytter']::text[], 0, 'Fornorskingspolitikken er et eksempel.', true, false, 8),
+  ('historie-vg3:migrasjon-og-kulturmoter', 'q10', 'flervalg', 'Hva kan kulturmøter gi?', array['Bare konflikt', 'Både berikelse og konflikt', 'Bare berikelse', 'Ingen endring']::text[], 1, 'Avhenger av perspektiv og situasjon.', true, false, 9),
+  ('historie-vg3:migrasjon-og-kulturmoter', 'm01', 'sant-usant', 'Norge har vært både et utvandringsland og et innvandringsland.', array['Sant', 'Usant']::text[], 0, 'Først utvandring, senere innvandring.', false, true, 10),
+  ('historie-vg3:migrasjon-og-kulturmoter', 'm02', 'sant-usant', 'Migrasjon er et nytt fenomen.', array['Sant', 'Usant']::text[], 1, 'Mennesker har alltid flyttet.', false, true, 11),
+  ('historie-vg3:migrasjon-og-kulturmoter', 'm03', 'sant-usant', 'Norske utvandrere bygde egne kirker og aviser i Amerika.', array['Sant', 'Usant']::text[], 0, 'De bevarte deler av kulturen sin.', false, true, 12),
+  ('historie-vg3:migrasjon-og-kulturmoter', 'm04', 'sant-usant', 'Innvandringsstoppen i 1975 stanset også familiegjenforening.', array['Sant', 'Usant']::text[], 1, 'Familiegjenforening fortsatte.', false, true, 13),
+  ('historie-vg3:migrasjon-og-kulturmoter', 'm05', 'flervalg', 'Hvilket land kom mange arbeidsinnvandrere fra på 1970-tallet?', array['Polen', 'Pakistan', 'Sverige', 'USA']::text[], 1, 'Også Tyrkia og Marokko.', false, true, 14),
+  ('historie-vg3:migrasjon-og-kulturmoter', 'm06', 'flervalg', 'Hva er en pull-faktor?', array['Jobber og høyere lønn', 'Krig', 'Fattigdom', 'Naturkatastrofer']::text[], 0, 'Trekker folk til et nytt sted.', false, true, 15),
+  ('historie-vg3:migrasjon-og-kulturmoter', 'm07', 'flervalg', 'Hva betyr segregering?', array['At alle blander seg', 'At minoriteten gir opp sin kultur', 'At grupper lever atskilt', 'At folk utvandrer']::text[], 2, 'Motsatsen til integrering.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('historie-vg3:migrasjon-og-kulturmoter', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Historie: Kolonialisme og imperialisme
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('historie-vg3:kolonialisme-og-imperialisme', 'historie-vg3', 'kolonialisme-og-imperialisme', 'Kolonialisme og imperialisme', 'Hvorfor europeiske og andre makter la under seg landområder – økonomiske, politiske og ideologiske årsaker – kappløpet om Afrika og Berlinkonferansen, eksempler som Kongo og India, avkoloniseringen og konsekvensene for mennesker og samfunn i de koloniserte områdene.', array[10]::int[], 7, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('historie-vg3:kolonialisme-og-imperialisme', '## Begreper
+
+- **Kolonialisme**: at en stat erobrer og **styrer** et annet område – en **koloni** – og ofte sender **bosettere** dit.
+- **Imperialisme**: at en stat utvider sin **makt** og **innflytelse** over andre land, direkte eller indirekte.
+
+Europeisk kolonialisme startet med **oppdagelsesreisene** på **1400- og 1500-tallet**, da Spania og Portugal erobret store deler av Amerika. Den nådde sitt høydepunkt i **høyimperialismen** fra ca. **1870 til 1914**.
+
+## Årsaker
+
+**Økonomiske**:
+
+- **Råvarer** til industrien: bomull, gummi, metaller og olje
+- **Nye markeder** for industrivarer
+- **Billig arbeidskraft** – og tidlig også **slavearbeid** på plantasjer
+
+**Politiske og strategiske**:
+
+- **Konkurranse** mellom stormaktene om makt og prestisje
+- Behov for **havner** og kontroll over handelsruter
+- **Nasjonalisme** – kolonier ble et symbol på nasjonal storhet
+
+**Ideologiske og religiøse**:
+
+- **Rasisme** og **sosialdarwinisme** – troen på at europeere var **overlegne**
+- Ideen om et **sivilisasjonsoppdrag** – «den hvite manns byrde»
+- **Misjon** – ønsket om å spre kristendommen
+
+**Teknologi** – dampskip, telegraf, moderne våpen og medisiner mot malaria – gjorde erobringene **mulige**.
+
+## Kappløpet om Afrika
+
+På **Berlinkonferansen** i **1884–85** ble europeiske stormakter enige om regler for å dele **Afrika** mellom seg. **Ingen afrikanere** var med. Grensene ble ofte trukket med **linjal** på kartet og tok ikke hensyn til folkegrupper, språk og tradisjonelle riker. Rundt **1914** var nesten hele Afrika under europeisk kontroll.
+
+## Eksempler
+
+**Kongo**: Den belgiske kongen **Leopold II** styrte **Kongofristaten** som sin **private** eiendom fra 1885. Befolkningen ble tvunget til å samle **gummi**, og de som ikke leverte nok, ble straffet med vold og lemlestelse. Millioner døde. Kritikk fra blant andre misjonærer og journalister førte til at Belgia overtok kolonien i 1908.
+
+**India**: Storbritannia kontrollerte India gjennom **Det britiske ostindiske kompani** og fra **1858** direkte. Britene bygde jernbaner og innførte engelsk utdanning, men India ble samtidig **tappet** for ressurser, og lokal industri tapte for britiske varer. India ble **selvstendig** i **1947** etter en lang frigjøringskamp ledet blant andre av **Gandhi**.
+
+## Avkoloniseringen
+
+Etter **andre verdenskrig** ble de europeiske kolonimaktene **svekket**, og frigjøringsbevegelser vokste. **FN** og ideen om **menneskerettigheter** ga også støtte. Fra **1945** til **1970-tallet** ble de fleste koloniene **selvstendige** – noen fredelig, andre etter **blodige kriger**, som i **Algerie** og **Vietnam**.
+
+## Konsekvenser for de koloniserte
+
+- **Vold**, tvangsarbeid og tap av liv
+- **Tap av land** og ressurser
+- **Kunstige grenser** som har bidratt til **konflikter** etter selvstendigheten
+- **Økonomier** innrettet mot eksport av **råvarer** i stedet for egen industri
+- **Kulturell undertrykkelse** – lokale språk, tradisjoner og religioner ble nedvurdert
+- **Rasisme** som har satt dype spor
+
+Noen peker på at kolonimaktene også bygde **infrastruktur**, skoler og sykehus. Kritikere svarer at dette først og fremst tjente **kolonimakten**, og at den **samlede** effekten var svært skadelig.
+
+## Arven i dag
+
+Kolonialismen påvirker fortsatt **grenser**, **språk**, **handelsmønstre** og **forholdet** mellom tidligere kolonimakter og kolonier. Debatter om **unnskyldninger**, **erstatning** og **tilbakeføring** av kunstgjenstander fra europeiske museer viser at historien fortsatt er **aktuell**.', '{"label":"Kolonialisme og imperialisme","children":[{"label":"Årsaker","children":[{"label":"Økonomiske"},{"label":"Politiske"},{"label":"Ideologiske og religiøse"}]},{"label":"Afrika","children":[{"label":"Berlinkonferansen"},{"label":"Kongo under Leopold II"}]},{"label":"Asia","children":[{"label":"India"},{"label":"Ostindisk kompani"}]},{"label":"Avkolonisering","children":[{"label":"Etter 1945"},{"label":"Fredelig og voldelig"}]},{"label":"Konsekvenser","children":[{"label":"Vold og tap av land"},{"label":"Kunstige grenser"},{"label":"Arven i dag"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'historie-vg3:kolonialisme-og-imperialisme';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('historie-vg3:kolonialisme-og-imperialisme', 'Kolonialisme', 'En stat erobrer og styrer et annet område.', 0),
+  ('historie-vg3:kolonialisme-og-imperialisme', 'Imperialisme', 'En stat utvider sin makt over andre land, direkte eller indirekte.', 1),
+  ('historie-vg3:kolonialisme-og-imperialisme', 'Koloni', 'Område som styres av en annen stat.', 2),
+  ('historie-vg3:kolonialisme-og-imperialisme', 'Høyimperialismen', 'Perioden ca. 1870–1914 da kolonialismen nådde toppen.', 3),
+  ('historie-vg3:kolonialisme-og-imperialisme', 'Sosialdarwinisme', 'Troen på at de sterkeste folkene skal herske over andre.', 4),
+  ('historie-vg3:kolonialisme-og-imperialisme', 'Sivilisasjonsoppdrag', 'Ideen om at europeerne skulle «sivilisere» andre folk.', 5),
+  ('historie-vg3:kolonialisme-og-imperialisme', 'Berlinkonferansen', 'Møtet i 1884–85 der europeiske stormakter delte Afrika.', 6),
+  ('historie-vg3:kolonialisme-og-imperialisme', 'Kappløpet om Afrika', 'Stormaktenes konkurranse om afrikanske kolonier.', 7),
+  ('historie-vg3:kolonialisme-og-imperialisme', 'Kongofristaten', 'Leopold IIs private koloni fra 1885 med brutalt tvangsarbeid.', 8),
+  ('historie-vg3:kolonialisme-og-imperialisme', 'Det britiske ostindiske kompani', 'Handelskompani som kontrollerte India før 1858.', 9),
+  ('historie-vg3:kolonialisme-og-imperialisme', 'Gandhi', 'Ledet Indias ikkevoldelige frigjøringskamp.', 10),
+  ('historie-vg3:kolonialisme-og-imperialisme', 'Avkolonisering', 'Koloniene ble selvstendige, særlig 1945–1970-tallet.', 11),
+  ('historie-vg3:kolonialisme-og-imperialisme', 'Kunstige grenser', 'Grenser trukket uten hensyn til folkegrupper.', 12),
+  ('historie-vg3:kolonialisme-og-imperialisme', 'Misjon', 'Arbeid for å spre kristendommen.', 13),
+  ('historie-vg3:kolonialisme-og-imperialisme', 'Tilbakeføring', 'At kunstgjenstander leveres tilbake til opprinnelseslandet.', 14);
+delete from public.quiz_sporsmal where tema_id = 'historie-vg3:kolonialisme-og-imperialisme';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('historie-vg3:kolonialisme-og-imperialisme', 'q01', 'flervalg', 'Hva er kolonialisme?', array['Handel mellom likeverdige land', 'At en stat erobrer og styrer et annet område', 'At land samarbeider i FN', 'At folk utvandrer']::text[], 1, 'Ofte med bosettere.', true, true, 0),
+  ('historie-vg3:kolonialisme-og-imperialisme', 'q02', 'flervalg', 'Hva var en økonomisk årsak til kolonialismen?', array['Behov for råvarer og nye markeder', 'Ønske om fred', 'Menneskerettigheter', 'Klimavern']::text[], 0, 'Industrien trengte råvarer.', true, true, 1),
+  ('historie-vg3:kolonialisme-og-imperialisme', 'q03', 'flervalg', 'Hva skjedde på Berlinkonferansen i 1884–85?', array['Afrikanske land ble selvstendige', 'FN ble grunnlagt', 'Europeiske stormakter ble enige om regler for å dele Afrika', 'Slaveriet ble avskaffet']::text[], 2, 'Ingen afrikanere var med.', true, true, 2),
+  ('historie-vg3:kolonialisme-og-imperialisme', 'q04', 'flervalg', 'Hva var sosialdarwinisme?', array['En teori om planter', 'En religiøs retning', 'En handelsavtale', 'Troen på at de sterkeste folkene skal herske over andre']::text[], 3, 'Brukt til å rettferdiggjøre kolonialismen.', true, true, 3),
+  ('historie-vg3:kolonialisme-og-imperialisme', 'q05', 'flervalg', 'Hvem styrte Kongofristaten som sin private eiendom?', array['Leopold II', 'Dronning Victoria', 'Napoleon', 'Gandhi']::text[], 0, 'Fra 1885 til 1908.', true, true, 4),
+  ('historie-vg3:kolonialisme-og-imperialisme', 'q06', 'flervalg', 'Når ble India selvstendig?', array['1858', '1947', '1914', '1975']::text[], 1, 'Etter en lang frigjøringskamp.', true, true, 5),
+  ('historie-vg3:kolonialisme-og-imperialisme', 'q07', 'flervalg', 'Hvorfor har kunstige grenser skapt problemer?', array['De var for lange', 'De ble aldri tegnet', 'De tok ikke hensyn til folkegrupper og har bidratt til konflikter', 'De ble trukket av afrikanere']::text[], 2, 'Grensene ble ofte trukket med linjal.', true, true, 6),
+  ('historie-vg3:kolonialisme-og-imperialisme', 'q08', 'flervalg', 'Hva gjorde erobringene teknisk mulig?', array['Hestevogner', 'Seilskip alene', 'Bueskyting', 'Dampskip, telegraf, moderne våpen og malariamedisin']::text[], 3, 'Teknologisk overlegenhet.', true, true, 7),
+  ('historie-vg3:kolonialisme-og-imperialisme', 'q09', 'flervalg', 'Hva bidro til avkoloniseringen etter 1945?', array['Svekkede kolonimakter og sterke frigjøringsbevegelser', 'At koloniene ble rikere enn Europa', 'At Berlinkonferansen ble gjentatt', 'At misjonen stoppet']::text[], 0, 'Også FN og menneskerettighetene.', true, false, 8),
+  ('historie-vg3:kolonialisme-og-imperialisme', 'q10', 'flervalg', 'Hvilken debatt viser at kolonihistorien fortsatt er aktuell?', array['Om fotball', 'Om tilbakeføring av kunstgjenstander fra europeiske museer', 'Om skatt på biler', 'Om sommertid']::text[], 1, 'Også unnskyldninger og erstatning.', true, false, 9),
+  ('historie-vg3:kolonialisme-og-imperialisme', 'm01', 'sant-usant', 'Rundt 1914 var nesten hele Afrika under europeisk kontroll.', array['Sant', 'Usant']::text[], 0, 'Etter kappløpet om Afrika.', false, true, 10),
+  ('historie-vg3:kolonialisme-og-imperialisme', 'm02', 'sant-usant', 'Afrikanske ledere deltok på Berlinkonferansen.', array['Sant', 'Usant']::text[], 1, 'Ingen afrikanere var med.', false, true, 11),
+  ('historie-vg3:kolonialisme-og-imperialisme', 'm03', 'sant-usant', 'Noen kolonier ble selvstendige etter blodige kriger.', array['Sant', 'Usant']::text[], 0, 'For eksempel Algerie og Vietnam.', false, true, 12),
+  ('historie-vg3:kolonialisme-og-imperialisme', 'm04', 'sant-usant', 'Kolonimaktene tok stort hensyn til lokale språk og tradisjoner.', array['Sant', 'Usant']::text[], 1, 'De ble ofte nedvurdert.', false, true, 13),
+  ('historie-vg3:kolonialisme-og-imperialisme', 'm05', 'flervalg', 'Hva ble befolkningen i Kongo tvunget til å samle?', array['Kaffe', 'Gummi', 'Te', 'Sukker']::text[], 1, 'Under brutalt tvangsarbeid.', false, true, 14),
+  ('historie-vg3:kolonialisme-og-imperialisme', 'm06', 'flervalg', 'Hva er imperialisme?', array['At en stat utvider sin makt over andre land', 'At et land blir selvstendig', 'At folk utvandrer', 'At land handler fritt']::text[], 0, 'Direkte eller indirekte.', false, true, 15),
+  ('historie-vg3:kolonialisme-og-imperialisme', 'm07', 'flervalg', 'Hvilken økonomisk følge fikk kolonialismen for mange kolonier?', array['Sterk egen industri', 'Mye egen teknologi', 'Økonomier innrettet mot eksport av råvarer', 'Rikdom for lokalbefolkningen']::text[], 2, 'Hemmet egen utvikling.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('historie-vg3:kolonialisme-og-imperialisme', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Historie: Verdenskrigene, andre konflikter og fredsslutninger
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('historie-vg3:verdenskrigene-og-fred', 'historie-vg3', 'verdenskrigene-og-fred', 'Verdenskrigene, andre konflikter og fredsslutninger', 'Bakgrunnen for første og andre verdenskrig, fredsslutningene i Versailles og etter 1945, den kalde krigen og andre sentrale konflikter – og om fredsslutninger og forsoningsprosesser har bidratt til varig fred.', array[11]::int[], 8, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('historie-vg3:verdenskrigene-og-fred', '## Første verdenskrig (1914–1918)
+
+Bakgrunnen oppsummeres ofte med fire faktorer:
+
+- **Militarisme**: stormaktene rustet opp, og generalene hadde stor innflytelse.
+- **Allianser**: Europa var delt i to blokker – **Trippelententen** (Storbritannia, Frankrike og Russland) og **Sentralmaktene** med Tyskland og Østerrike-Ungarn.
+- **Imperialisme**: konkurranse om kolonier og makt.
+- **Nasjonalisme**: sterk tro på egen nasjon og ønske om selvstendighet blant folk på Balkan.
+
+Den **utløsende** årsaken var drapet på den østerrikske tronfølgeren **Franz Ferdinand** i **Sarajevo** i juni 1914. Alliansene gjorde at konflikten raskt spredte seg. Krigen ble en brutal **skyttergravskrig** der om lag 15–20 millioner mennesker døde.
+
+## Versaillesfreden
+
+**Versaillestraktaten** fra **1919** påla Tyskland å ta **skylden** for krigen, betale store **krigserstatninger**, avgi land og begrense hæren. **Folkeforbundet** ble opprettet for å sikre freden.
+
+Mange tyskere opplevde freden som en **ydmykelse** – en «diktatfred». Historikere diskuterer om freden var for **hard**, for **svak** eller bare **dårlig håndhevet**, men mange mener den bidro til grobunn for **nazismen**.
+
+## Andre verdenskrig (1939–1945)
+
+Viktige årsaker:
+
+- misnøyen med **Versaillesfreden**
+- **den økonomiske krisen** etter børskrakket i **1929**, som ga arbeidsløshet og politisk ustabilitet
+- **fascisme** og **nazisme** med krav om nytt land og hevn
+- **ettergivenhetspolitikken**: Storbritannia og Frankrike lot Hitler ta **Østerrike** og **Sudetenland** i 1938 for å unngå krig
+- **Folkeforbundets** svakhet
+- **ikke-angrepspakten** mellom Tyskland og Sovjetunionen i august 1939
+
+Krigen startet da Tyskland angrep **Polen** 1. september **1939**. Mer enn **60 millioner** mennesker døde, flest **sivile**.
+
+## Freden etter 1945
+
+Etter andre verdenskrig valgte de allierte en annen strategi:
+
+- **FN** ble opprettet i **1945** med **Sikkerhetsrådet**.
+- **Krigsforbryterdomstolene** i **Nürnberg** stilte nazistiske ledere til ansvar.
+- **Marshallhjelpen** fra USA hjalp Vest-Europa med gjenoppbyggingen.
+- **Europeisk samarbeid**, som Kull- og stålunionen i 1951 og senere **EU**, knyttet tidligere fiender som **Frankrike** og **Tyskland** sammen.
+
+Men Europa ble samtidig delt i **den kalde krigen** (1947–1991) mellom **USA** og **Sovjetunionen**. Kappløpet om atomvåpen og **stedfortrederkriger** som **Korea** og **Vietnam** preget verden.
+
+## Andre konflikter
+
+- **Krigene på Balkan** på 1990-tallet endte med **Dayton-avtalen** i 1995.
+- **Konflikten mellom Israel og palestinerne** har vart i mange tiår. **Oslo-avtalene** fra 1993 ga håp, men førte ikke til varig fred.
+- **Russlands fullskala invasjon av Ukraina** i **2022** viste at krig mellom stater i Europa ikke er historie.
+
+## Fred og forsoning
+
+**Fred** er mer enn fravær av krig. Varig fred krever ofte **forsoning** – at partene erkjenner uretten og bygger **tillit**.
+
+- **Sør-Afrika** opprettet en **sannhets- og forsoningskommisjon** etter apartheid.
+- **Tyskland** har gjort et omfattende oppgjør med **nazismen**.
+- I Norge la **Sannhets- og forsoningskommisjonen** i **2023** fram en rapport om fornorskingspolitikken overfor **samer**, **kvener** og **skogfinner**.
+
+## Refleksjon
+
+Versaillesfreden viser at en fred som oppleves som **urettferdig**, kan skape ny konflikt. Freden etter 1945 viser at **samarbeid** og **gjenoppbygging** kan gi mer varig fred – i hvert fall i Vest-Europa.', '{"label":"Verdenskrigene og fred","children":[{"label":"Første verdenskrig","children":[{"label":"Militarisme og allianser"},{"label":"Imperialisme og nasjonalisme"},{"label":"Sarajevo 1914"}]},{"label":"Versailles","children":[{"label":"Skyld og erstatning"},{"label":"Folkeforbundet"}]},{"label":"Andre verdenskrig","children":[{"label":"Krise og nazisme"},{"label":"Ettergivenhet"},{"label":"Polen 1939"}]},{"label":"Etter 1945","children":[{"label":"FN og Nürnberg"},{"label":"Marshallhjelp og EU"},{"label":"Kald krig"}]},{"label":"Forsoning","children":[{"label":"Sør-Afrika"},{"label":"Norge 2023"},{"label":"Ukraina og Midtøsten"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'historie-vg3:verdenskrigene-og-fred';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('historie-vg3:verdenskrigene-og-fred', 'Militarisme', 'Opprustning og stor innflytelse for militære ledere.', 0),
+  ('historie-vg3:verdenskrigene-og-fred', 'Allianser før 1914', 'Trippelententen mot Sentralmaktene.', 1),
+  ('historie-vg3:verdenskrigene-og-fred', 'Franz Ferdinand', 'Østerriksk tronfølger drept i Sarajevo i 1914.', 2),
+  ('historie-vg3:verdenskrigene-og-fred', 'Skyttergravskrig', 'Krigføring fra gravde stillinger på vestfronten.', 3),
+  ('historie-vg3:verdenskrigene-og-fred', 'Versaillestraktaten', 'Fredsavtalen fra 1919 som la skylden på Tyskland.', 4),
+  ('historie-vg3:verdenskrigene-og-fred', 'Folkeforbundet', 'Organisasjon for fred opprettet etter første verdenskrig.', 5),
+  ('historie-vg3:verdenskrigene-og-fred', 'Diktatfred', 'En fred som oppleves som påtvunget og urettferdig.', 6),
+  ('historie-vg3:verdenskrigene-og-fred', 'Ettergivenhetspolitikken', 'Å gi etter for Hitlers krav for å unngå krig.', 7),
+  ('historie-vg3:verdenskrigene-og-fred', 'Ikke-angrepspakten 1939', 'Avtale mellom Tyskland og Sovjetunionen før krigen.', 8),
+  ('historie-vg3:verdenskrigene-og-fred', 'FN', 'De forente nasjoner, opprettet i 1945.', 9),
+  ('historie-vg3:verdenskrigene-og-fred', 'Nürnbergprosessen', 'Rettssakene mot nazistiske krigsforbrytere.', 10),
+  ('historie-vg3:verdenskrigene-og-fred', 'Marshallhjelpen', 'Amerikansk økonomisk hjelp til gjenoppbyggingen av Vest-Europa.', 11),
+  ('historie-vg3:verdenskrigene-og-fred', 'Den kalde krigen', 'Konflikten mellom USA og Sovjetunionen 1947–1991.', 12),
+  ('historie-vg3:verdenskrigene-og-fred', 'Stedfortrederkrig', 'Krig der stormakter støtter hver sin side uten å kjempe direkte mot hverandre.', 13),
+  ('historie-vg3:verdenskrigene-og-fred', 'Forsoning', 'Å erkjenne urett og bygge tillit mellom tidligere fiender.', 14),
+  ('historie-vg3:verdenskrigene-og-fred', 'Sannhets- og forsoningskommisjonen', 'Norsk kommisjon som i 2023 la fram rapport om fornorskingen.', 15);
+delete from public.quiz_sporsmal where tema_id = 'historie-vg3:verdenskrigene-og-fred';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('historie-vg3:verdenskrigene-og-fred', 'q01', 'flervalg', 'Hva var den utløsende årsaken til første verdenskrig?', array['Angrepet på Polen', 'Drapet på Franz Ferdinand i Sarajevo', 'Børskrakket i 1929', 'Den russiske revolusjonen']::text[], 1, 'Alliansene spredte konflikten.', true, true, 0),
+  ('historie-vg3:verdenskrigene-og-fred', 'q02', 'flervalg', 'Hva påla Versaillestraktaten Tyskland?', array['Skyld, krigserstatninger og tap av land', 'Å bli med i Folkeforbundet med en gang', 'Å få flere kolonier', 'Å bygge opp hæren']::text[], 0, 'Mange tyskere opplevde det som en ydmykelse.', true, true, 1),
+  ('historie-vg3:verdenskrigene-og-fred', 'q03', 'flervalg', 'Hva var ettergivenhetspolitikken?', array['At Tyskland ga etter', 'At USA gikk inn i krigen', 'At Storbritannia og Frankrike ga etter for Hitlers krav', 'At Sovjet angrep Tyskland']::text[], 2, 'For eksempel Sudetenland i 1938.', true, true, 2),
+  ('historie-vg3:verdenskrigene-og-fred', 'q04', 'flervalg', 'Hvordan startet andre verdenskrig?', array['Japan angrep USA', 'Italia angrep Etiopia', 'Sovjet angrep Finland', 'Tyskland angrep Polen']::text[], 3, '1. september 1939.', true, true, 3),
+  ('historie-vg3:verdenskrigene-og-fred', 'q05', 'flervalg', 'Hvilket tiltak etter 1945 knyttet Frankrike og Tyskland sammen?', array['Europeisk samarbeid som Kull- og stålunionen', 'Versaillestraktaten', 'Ettergivenhetspolitikken', 'Den kalde krigen']::text[], 0, 'Grunnlaget for EU.', true, true, 4),
+  ('historie-vg3:verdenskrigene-og-fred', 'q06', 'flervalg', 'Hva er en stedfortrederkrig?', array['En krig mellom to stormakter direkte', 'En krig der stormakter støtter hver sin side uten å kjempe direkte', 'En borgerkrig uten utenlandsk innblanding', 'En krig i verdensrommet']::text[], 1, 'For eksempel Korea og Vietnam.', true, true, 5),
+  ('historie-vg3:verdenskrigene-og-fred', 'q07', 'flervalg', 'Hva la Sannhets- og forsoningskommisjonen i Norge fram i 2023?', array['En rapport om andre verdenskrig', 'En ny grunnlov', 'En rapport om fornorskingspolitikken', 'En fredsavtale']::text[], 2, 'Om samer, kvener og skogfinner.', true, true, 6),
+  ('historie-vg3:verdenskrigene-og-fred', 'q08', 'flervalg', 'Hvorfor mener mange at Versaillesfreden bidro til ny krig?', array['Fordi den var for mild mot alle', 'Fordi Tyskland vant', 'Fordi den ga Tyskland kolonier', 'Fordi den ble opplevd som urettferdig og ga grobunn for nazismen']::text[], 3, 'Historikere diskuterer dette.', true, true, 7),
+  ('historie-vg3:verdenskrigene-og-fred', 'q09', 'flervalg', 'Hva var Nürnbergprosessen?', array['Rettssakene mot nazistiske krigsforbrytere', 'En fredsavtale', 'En militær operasjon', 'Et møte i FN']::text[], 0, 'Ledere ble stilt til ansvar.', true, false, 8),
+  ('historie-vg3:verdenskrigene-og-fred', 'q10', 'flervalg', 'Hva betyr at fred er mer enn fravær av krig?', array['At fred er umulig', 'At varig fred ofte krever forsoning og tillit', 'At krig alltid kommer tilbake', 'At fred bare gjelder stater']::text[], 1, 'Forsoning er en del av freden.', true, false, 9),
+  ('historie-vg3:verdenskrigene-og-fred', 'm01', 'sant-usant', 'Flest av de døde i andre verdenskrig var sivile.', array['Sant', 'Usant']::text[], 0, 'Mer enn 60 millioner døde.', false, true, 10),
+  ('historie-vg3:verdenskrigene-og-fred', 'm02', 'sant-usant', 'Oslo-avtalene fra 1993 skapte varig fred mellom Israel og palestinerne.', array['Sant', 'Usant']::text[], 1, 'De ga håp, men ikke varig fred.', false, true, 11),
+  ('historie-vg3:verdenskrigene-og-fred', 'm03', 'sant-usant', 'Den økonomiske krisen etter 1929 bidro til politisk ustabilitet.', array['Sant', 'Usant']::text[], 0, 'En årsak til andre verdenskrig.', false, true, 12),
+  ('historie-vg3:verdenskrigene-og-fred', 'm04', 'sant-usant', 'Den kalde krigen var en direkte krig mellom USA og Sovjetunionen.', array['Sant', 'Usant']::text[], 1, 'De kjempet ikke direkte mot hverandre.', false, true, 13),
+  ('historie-vg3:verdenskrigene-og-fred', 'm05', 'flervalg', 'Hvilken avtale endte krigene på Balkan i 1995?', array['Versaillestraktaten', 'Dayton-avtalen', 'Oslo-avtalene', 'München-avtalen']::text[], 1, 'Etter krigen i Bosnia.', false, true, 14),
+  ('historie-vg3:verdenskrigene-og-fred', 'm06', 'flervalg', 'Hvilke land var med i Trippelententen?', array['Storbritannia, Frankrike og Russland', 'Tyskland, Østerrike-Ungarn og Italia', 'USA, Japan og Kina', 'Norge, Sverige og Danmark']::text[], 0, 'Mot Sentralmaktene.', false, true, 15),
+  ('historie-vg3:verdenskrigene-og-fred', 'm07', 'flervalg', 'Når startet Russlands fullskala invasjon av Ukraina?', array['1991', '2014', '2022', '2008']::text[], 2, 'Viste at krig mellom stater i Europa ikke er historie.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('historie-vg3:verdenskrigene-og-fred', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Historie: Ideologier, undertrykkelse, terror og folkemord
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('historie-vg3:undertrykkelse-og-folkemord', 'historie-vg3', 'undertrykkelse-og-folkemord', 'Ideologier, undertrykkelse, terror og folkemord', 'Hvordan ideologier og tankesett på 1900-tallet og fram til i dag har bidratt til undertrykkelse, terror og folkemord – holocaust, Stalins terror, Kambodsja, Rwanda og Srebrenica – hvilke mekanismer som gjør folkemord mulig, og hvordan det kan forebygges.', array[13]::int[], 9, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('historie-vg3:undertrykkelse-og-folkemord', '## Hva er folkemord?
+
+Ordet **folkemord** ble laget av den polsk-jødiske juristen **Raphael Lemkin**. I **FNs folkemordkonvensjon** fra **1948** defineres folkemord som handlinger begått med **hensikt** å ødelegge en **nasjonal**, **etnisk**, **rasemessig** eller **religiøs** gruppe, helt eller delvis.
+
+## Totalitære ideologier
+
+På 1900-tallet oppstod **totalitære** regimer som ville kontrollere **alle** sider av menneskers liv. De bygde på ideologier som delte mennesker inn i **verdifulle** og **mindreverdige**, eller i **venner** og **fiender** av folket.
+
+## Holocaust
+
+**Nazismen** bygde på **rasisme** og **antisemittisme**. Jøder ble framstilt som en trussel mot det tyske folket.
+
+Forfølgelsen skjedde **trinnvis**:
+
+1. **Diskriminering**: **Nürnberglovene** fra **1935** fratok jøder statsborgerrettigheter.
+2. **Vold**: Under **krystallnatten** i **1938** ble synagoger og jødiske butikker angrepet.
+3. **Isolering** i **gettoer** etter krigsutbruddet.
+4. **Massedrap**: Mobile drapsenheter skjøt jøder i Øst-Europa, og på **Wannsee-konferansen** i **1942** ble utryddelsen koordinert.
+5. **Utryddelsesleirer** som **Auschwitz-Birkenau**.
+
+Om lag **seks millioner jøder** ble drept. Også **rom og sinti**, mennesker med **funksjonsnedsettelser**, **homofile** og politiske motstandere ble forfulgt og drept.
+
+I **Norge** ble jøder arrestert høsten **1942**, og skipet **Donau** fraktet over 500 av dem fra Oslo den **26. november**. Rundt 770 jøder ble deportert fra Norge, og bare et fåtall overlevde. Norske politifolk deltok i arrestasjonene.
+
+## Andre eksempler
+
+- **Sovjetunionen under Stalin**: Millioner ble sendt til arbeidsleirer – **Gulag** – eller henrettet som «**klassefiender**». Hungersnøden i **Ukraina** i **1932–33**, kjent som **Holodomor**, kostet millioner av liv.
+- **Kambodsja**: **De røde khmerene** ville skape et klasseløst bondesamfunn. Fra **1975** til **1979** døde anslagsvis 1,5–2 millioner mennesker.
+- **Rwanda**: I **1994** ble rundt **800 000** tutsier og moderate hutuer drept på omtrent **100 dager**. Radiopropaganda kalte tutsiene «**kakerlakker**».
+- **Srebrenica**: I **1995** drepte bosnisk-serbiske styrker rundt **8000** bosniakiske menn og gutter.
+
+## Terror
+
+**Terror** er vold mot sivile for å skape **frykt** og oppnå **politiske** mål. Eksempler er terrorangrepene i USA **11. september 2001** og terrorangrepet i Norge **22. juli 2011**, da en **høyreekstrem** terrorist drepte 77 mennesker i Regjeringskvartalet og på **Utøya**.
+
+## Mekanismer
+
+- **Ideologi** som gjør én gruppe til **syndebukk**
+- **Propaganda** og **dehumanisering** – mennesker omtales som dyr eller sykdom
+- **Polarisering** – «vi» mot «dem»
+- **Lydighet** mot autoriteter og **gruppepress**
+- **Tilskuere** som ikke griper inn
+
+Filosofen **Hannah Arendt** skrev om «**ondskapens banalitet**» etter rettssaken mot **Adolf Eichmann**: Mange som deltok, var ikke monstre, men vanlige mennesker som fulgte ordre og karriere.
+
+## Forebygging
+
+- **Menneskerettigheter** og **rettsstat**
+- **Internasjonale domstoler**, som **Den internasjonale straffedomstolen**
+- **Kunnskap** og **minnearbeid** – å lære om fortiden
+- Å motarbeide **hatretorikk** og **konspirasjonsteorier**
+- Å være en **aktiv medborger** som sier fra', '{"label":"Undertrykkelse og folkemord","children":[{"label":"Begreper","children":[{"label":"Folkemord"},{"label":"Totalitarisme"},{"label":"Terror"}]},{"label":"Holocaust","children":[{"label":"Nürnberglovene"},{"label":"Gettoer og leirer"},{"label":"Norge 1942"}]},{"label":"Andre folkemord","children":[{"label":"Stalin og Gulag"},{"label":"Kambodsja"},{"label":"Rwanda og Srebrenica"}]},{"label":"Mekanismer","children":[{"label":"Propaganda og dehumanisering"},{"label":"Lydighet og gruppepress"},{"label":"Tilskuere"}]},{"label":"Forebygging","children":[{"label":"Menneskerettigheter"},{"label":"Domstoler"},{"label":"Minnearbeid"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'historie-vg3:undertrykkelse-og-folkemord';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('historie-vg3:undertrykkelse-og-folkemord', 'Folkemord', 'Handlinger med hensikt å ødelegge en nasjonal, etnisk, rasemessig eller religiøs gruppe.', 0),
+  ('historie-vg3:undertrykkelse-og-folkemord', 'Raphael Lemkin', 'Jurist som laget ordet folkemord.', 1),
+  ('historie-vg3:undertrykkelse-og-folkemord', 'Folkemordkonvensjonen', 'FN-konvensjon fra 1948 mot folkemord.', 2),
+  ('historie-vg3:undertrykkelse-og-folkemord', 'Totalitært regime', 'Styre som vil kontrollere alle sider av menneskers liv.', 3),
+  ('historie-vg3:undertrykkelse-og-folkemord', 'Antisemittisme', 'Hat og fordommer mot jøder.', 4),
+  ('historie-vg3:undertrykkelse-og-folkemord', 'Nürnberglovene', 'Lover fra 1935 som fratok jøder rettigheter i Tyskland.', 5),
+  ('historie-vg3:undertrykkelse-og-folkemord', 'Krystallnatten', 'Angrep på synagoger og jødiske butikker i 1938.', 6),
+  ('historie-vg3:undertrykkelse-og-folkemord', 'Wannsee-konferansen', 'Møte i 1942 der utryddelsen av jødene ble koordinert.', 7),
+  ('historie-vg3:undertrykkelse-og-folkemord', 'Holocaust', 'Nazistenes folkemord på om lag seks millioner jøder.', 8),
+  ('historie-vg3:undertrykkelse-og-folkemord', 'Donau', 'Skipet som fraktet over 500 jøder fra Oslo 26. november 1942.', 9),
+  ('historie-vg3:undertrykkelse-og-folkemord', 'Gulag', 'Sovjetunionens system av arbeidsleirer.', 10),
+  ('historie-vg3:undertrykkelse-og-folkemord', 'Holodomor', 'Hungersnøden i Ukraina 1932–33.', 11),
+  ('historie-vg3:undertrykkelse-og-folkemord', 'Dehumanisering', 'Å framstille mennesker som dyr eller noe umenneskelig.', 12),
+  ('historie-vg3:undertrykkelse-og-folkemord', 'Ondskapens banalitet', 'Arendts begrep om vanlige mennesker som deltar i ondskap.', 13),
+  ('historie-vg3:undertrykkelse-og-folkemord', 'Terror', 'Vold mot sivile for å skape frykt og oppnå politiske mål.', 14),
+  ('historie-vg3:undertrykkelse-og-folkemord', 'Den internasjonale straffedomstolen', 'Domstol som kan straffe folkemord og krigsforbrytelser.', 15);
+delete from public.quiz_sporsmal where tema_id = 'historie-vg3:undertrykkelse-og-folkemord';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('historie-vg3:undertrykkelse-og-folkemord', 'q01', 'flervalg', 'Hvordan defineres folkemord i FNs konvensjon?', array['Alle drap i krig', 'Handlinger med hensikt å ødelegge en nasjonal, etnisk, rasemessig eller religiøs gruppe', 'Terrorangrep', 'Politisk undertrykkelse generelt']::text[], 1, 'Hensikten er avgjørende.', true, true, 0),
+  ('historie-vg3:undertrykkelse-og-folkemord', 'q02', 'flervalg', 'Hva gjorde Nürnberglovene i 1935?', array['Fratok jøder statsborgerrettigheter', 'Opprettet FN', 'Straffet nazister', 'Ga jøder stemmerett']::text[], 0, 'Et tidlig trinn i forfølgelsen.', true, true, 1),
+  ('historie-vg3:undertrykkelse-og-folkemord', 'q03', 'flervalg', 'Hva skjedde på Wannsee-konferansen i 1942?', array['Krigen ble avsluttet', 'Krystallnatten ble planlagt', 'Utryddelsen av jødene ble koordinert', 'Folkeforbundet ble opprettet']::text[], 2, 'Planleggingen av «den endelige løsningen».', true, true, 2),
+  ('historie-vg3:undertrykkelse-og-folkemord', 'q04', 'flervalg', 'Hvor mange jøder ble drept i holocaust?', array['Om lag 600 000', 'Om lag 60 000', 'Om lag 60 millioner', 'Om lag seks millioner']::text[], 3, 'Også andre grupper ble forfulgt.', true, true, 3),
+  ('historie-vg3:undertrykkelse-og-folkemord', 'q05', 'flervalg', 'Hva var Donau?', array['Skipet som fraktet jøder fra Oslo i november 1942', 'En utryddelsesleir', 'En tysk general', 'En motstandsgruppe']::text[], 0, 'Norske politifolk deltok i arrestasjonene.', true, true, 4),
+  ('historie-vg3:undertrykkelse-og-folkemord', 'q06', 'flervalg', 'Hva er dehumanisering?', array['Å gi mennesker rettigheter', 'Å framstille mennesker som dyr eller noe umenneskelig', 'Å straffe krigsforbrytere', 'Å lære om fortiden']::text[], 1, 'I Rwanda ble tutsiene kalt «kakerlakker».', true, true, 5),
+  ('historie-vg3:undertrykkelse-og-folkemord', 'q07', 'flervalg', 'Hva skjedde i Rwanda i 1994?', array['En fredsavtale', 'Et valg', 'Rundt 800 000 tutsier og moderate hutuer ble drept på omtrent 100 dager', 'En hungersnød']::text[], 2, 'Et av de raskeste folkemordene i historien.', true, true, 6),
+  ('historie-vg3:undertrykkelse-og-folkemord', 'q08', 'flervalg', 'Hva mente Hannah Arendt med «ondskapens banalitet»?', array['At ondskap er sjelden', 'At bare monstre begår ondskap', 'At ondskap er morsomt', 'At vanlige mennesker kan delta i ondskap ved å følge ordre']::text[], 3, 'Etter Eichmann-rettssaken.', true, true, 7),
+  ('historie-vg3:undertrykkelse-og-folkemord', 'q09', 'flervalg', 'Hva skjedde i Norge 22. juli 2011?', array['Et høyreekstremt terrorangrep som drepte 77 mennesker', 'En naturkatastrofe', 'Et islamistisk angrep', 'En krigserklæring']::text[], 0, 'I Regjeringskvartalet og på Utøya.', true, false, 8),
+  ('historie-vg3:undertrykkelse-og-folkemord', 'q10', 'flervalg', 'Hva kan bidra til å forebygge folkemord?', array['Propaganda', 'Menneskerettigheter, rettsstat og kunnskap om fortiden', 'Polarisering', 'Å være tilskuer']::text[], 1, 'Også å si fra mot hatretorikk.', true, false, 9),
+  ('historie-vg3:undertrykkelse-og-folkemord', 'm01', 'sant-usant', 'Også rom og sinti ble forfulgt og drept av nazistene.', array['Sant', 'Usant']::text[], 0, 'Sammen med flere andre grupper.', false, true, 10),
+  ('historie-vg3:undertrykkelse-og-folkemord', 'm02', 'sant-usant', 'Norske myndigheter og politi hadde ingen rolle i deportasjonen av jøder.', array['Sant', 'Usant']::text[], 1, 'Norske politifolk deltok i arrestasjonene.', false, true, 11),
+  ('historie-vg3:undertrykkelse-og-folkemord', 'm03', 'sant-usant', 'Forfølgelsen av jødene skjedde trinnvis.', array['Sant', 'Usant']::text[], 0, 'Fra diskriminering til massedrap.', false, true, 12),
+  ('historie-vg3:undertrykkelse-og-folkemord', 'm04', 'sant-usant', 'Folkemord har bare skjedd under andre verdenskrig.', array['Sant', 'Usant']::text[], 1, 'For eksempel Rwanda og Srebrenica.', false, true, 13),
+  ('historie-vg3:undertrykkelse-og-folkemord', 'm05', 'flervalg', 'Hvem ville skape et klasseløst bondesamfunn i Kambodsja?', array['Nazistene', 'De røde khmerene', 'Stalin', 'Hutu-militser']::text[], 1, '1975–1979.', false, true, 14),
+  ('historie-vg3:undertrykkelse-og-folkemord', 'm06', 'flervalg', 'Hva skjedde i Srebrenica i 1995?', array['Rundt 8000 bosniakiske menn og gutter ble drept', 'En fredsavtale ble undertegnet', 'FN ble opprettet', 'Et valg ble holdt']::text[], 0, 'Regnet som folkemord.', false, true, 15),
+  ('historie-vg3:undertrykkelse-og-folkemord', 'm07', 'flervalg', 'Hva var Holodomor?', array['En utryddelsesleir', 'En terroraksjon', 'Hungersnøden i Ukraina 1932–33', 'En fredsavtale']::text[], 2, 'Under Stalins styre.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('historie-vg3:undertrykkelse-og-folkemord', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Historie: Historiebruk og nasjonal identitet i Norge
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('historie-vg3:nasjonal-identitet', 'historie-vg3', 'nasjonal-identitet', 'Historiebruk og nasjonal identitet i Norge', 'Hvordan framstillinger av fortiden har blitt brukt til å skape nasjonal identitet i Norge – fra nasjonalromantikken og 17. mai til bildet av okkupasjonstiden og oljenasjonen – og hvilke virkninger nasjonsbyggingen har hatt for samer, kvener, skogfinner, romanifolket og jøder.', array[14]::int[], 10, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('historie-vg3:nasjonal-identitet', '## Nasjonsbygging
+
+En **nasjon** er et **fellesskap** av mennesker som opplever at de hører sammen gjennom **historie**, **språk**, **kultur** og ofte et **territorium**. Nasjoner blir ikke bare født – de **bygges**. Historikeren **Benedict Anderson** kalte dem «**forestilte fellesskap**».
+
+## Nasjonalromantikken
+
+Etter **1814** hadde Norge fått egen grunnlov, men manglet en tydelig **nasjonal identitet**. På **1800-tallet** lette kunstnere og forskere etter det «**ekte norske**»:
+
+- **Historikere** som **P.A. Munch** skrev om **sagatiden** og middelalderen som en **storhetstid**. Dansketiden ble omtalt som en mørk «**firehundreårsnatt**».
+- **Asbjørnsen og Moe** samlet **folkeeventyr**, og **Landstad** samlet folkeviser.
+- **Ivar Aasen** samlet **dialekter** og lagde **landsmålet**, dagens nynorsk.
+- Malerne **Tidemand og Gude** malte **Brudeferden i Hardanger** – et idealisert bilde av bonde og natur.
+
+**Bonden** og **naturen** ble symboler på det norske.
+
+## Symboler og ritualer
+
+**17. mai** utviklet seg til en folkefest med **barnetog**, flagg og taler. Ski, friluftsliv, **dugnad** og vikingskip ble etter hvert en del av bildet av «det norske». Slike **symboler** og **ritualer** skaper **fellesskap**.
+
+## Okkupasjonstiden
+
+Etter **1945** ble **motstandskampen** en viktig del av den nasjonale fortellingen – bildet av et samlet folk som sto imot okkupantene. Senere forskning har **nyansert** bildet og vist at de fleste **tilpasset** seg, at mange **samarbeidet**, og at norske myndigheter deltok i **deportasjonen** av jøder.
+
+## Oljenasjonen
+
+Etter oljefunnene fra **1969** har fortellingen om Norge som et **rikt**, **likestilt** og **fredelig** land blitt viktig. **Fredsnasjonen** og **velferdsstaten** er sentrale deler av selvbildet.
+
+## Hvem ble holdt utenfor?
+
+Nasjonsbyggingen bygde på en idé om **ett folk**, **ett språk** og **én kultur**. Det fikk alvorlige konsekvenser for grupper som ikke passet inn:
+
+- **Samene** ble utsatt for **fornorskingspolitikk**. Samisk språk ble fortrengt i skolen, mange barn ble sendt på **internatskoler**, og en lov fra **1902** gjorde det vanskelig for folk som ikke kunne **norsk**, å kjøpe **jord** i Finnmark.
+- **Kvener** og **skogfinner** ble også utsatt for fornorsking.
+- **Romanifolket**, også kalt **tatere**, ble utsatt for **tvangsassimilering** – barn ble tatt fra foreldrene, og mange ble utsatt for **tvangssterilisering**.
+- **Jøder** var utestengt fra riket gjennom **Grunnloven** fram til **1851**, og ble senere rammet av **antisemittisme** og holocaust.
+
+**Sannhets- og forsoningskommisjonen** la i **2023** fram en rapport om fornorskingspolitikken og uretten mot samer, kvener og skogfinner.
+
+## Nasjonal identitet i dag
+
+Norge er i dag et **mangfoldig** samfunn med **urfolk**, **nasjonale minoriteter** og mange med **innvandrerbakgrunn**. Det diskuteres hva «**norsk**» betyr, og om nasjonal identitet bør bygge på **felles verdier** som demokrati og likeverd, eller på **felles historie** og kultur.
+
+## Drøfting
+
+Nasjonal identitet kan skape **samhold**, **tillit** og **fellesskap**. Men når fortellingen om nasjonen blir **for snever**, kan den **utelukke** og **undertrykke** dem som ikke passer inn. Å kjenne historien bak de nasjonale symbolene gjør det lettere å se **både** samholdet og **prisen** noen har betalt.', '{"label":"Nasjonal identitet","children":[{"label":"Nasjonsbygging","children":[{"label":"Forestilte fellesskap"},{"label":"Symboler og ritualer"}]},{"label":"Nasjonalromantikk","children":[{"label":"Sagatiden"},{"label":"Eventyr og dialekter"},{"label":"Bonde og natur"}]},{"label":"Nyere fortellinger","children":[{"label":"Motstandskampen"},{"label":"Oljenasjonen"},{"label":"Fredsnasjonen"}]},{"label":"Holdt utenfor","children":[{"label":"Samer, kvener, skogfinner"},{"label":"Romanifolket"},{"label":"Jøder"}]},{"label":"I dag","children":[{"label":"Mangfold"},{"label":"Forsoning"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'historie-vg3:nasjonal-identitet';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('historie-vg3:nasjonal-identitet', 'Nasjon', 'Fellesskap som opplever tilhørighet gjennom historie, språk og kultur.', 0),
+  ('historie-vg3:nasjonal-identitet', 'Forestilte fellesskap', 'Benedict Andersons betegnelse på nasjoner.', 1),
+  ('historie-vg3:nasjonal-identitet', 'Nasjonalromantikken', '1800-tallets søken etter det «ekte norske».', 2),
+  ('historie-vg3:nasjonal-identitet', 'P.A. Munch', 'Historiker som framstilte sagatiden som en storhetstid.', 3),
+  ('historie-vg3:nasjonal-identitet', 'Firehundreårsnatten', 'Negativ betegnelse på dansketiden.', 4),
+  ('historie-vg3:nasjonal-identitet', 'Asbjørnsen og Moe', 'Samlet norske folkeeventyr.', 5),
+  ('historie-vg3:nasjonal-identitet', 'Ivar Aasen', 'Laget landsmålet, dagens nynorsk.', 6),
+  ('historie-vg3:nasjonal-identitet', 'Brudeferden i Hardanger', 'Tidemand og Gudes idealiserte maleri av bonde og natur.', 7),
+  ('historie-vg3:nasjonal-identitet', 'Fornorskingspolitikk', 'Politikk for å gjøre samer, kvener og skogfinner norske.', 8),
+  ('historie-vg3:nasjonal-identitet', 'Internatskoler', 'Skoler der mange samiske barn bodde borte fra familien.', 9),
+  ('historie-vg3:nasjonal-identitet', 'Jordsalgsloven 1902', 'Gjorde det vanskelig for folk som ikke kunne norsk, å kjøpe jord i Finnmark.', 10),
+  ('historie-vg3:nasjonal-identitet', 'Romanifolket', 'Nasjonal minoritet, også kalt tatere, utsatt for tvangsassimilering.', 11),
+  ('historie-vg3:nasjonal-identitet', 'Tvangsassimilering', 'Å tvinge en gruppe til å gi opp sin kultur.', 12),
+  ('historie-vg3:nasjonal-identitet', 'Nasjonale minoriteter', 'Kvener, skogfinner, romanifolket, rom og jøder.', 13),
+  ('historie-vg3:nasjonal-identitet', 'Fredsnasjonen', 'Del av Norges selvbilde etter 1945.', 14);
+delete from public.quiz_sporsmal where tema_id = 'historie-vg3:nasjonal-identitet';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('historie-vg3:nasjonal-identitet', 'q01', 'flervalg', 'Hva mente Benedict Anderson med «forestilte fellesskap»?', array['At nasjoner er falske', 'At nasjoner bygges gjennom felles forestillinger om tilhørighet', 'At nasjoner bare finnes i bøker', 'At nasjoner er naturlige']::text[], 1, 'Nasjoner bygges.', true, true, 0),
+  ('historie-vg3:nasjonal-identitet', 'q02', 'flervalg', 'Hvilken periode framstilte nasjonalromantikerne som en storhetstid?', array['Sagatiden og middelalderen', 'Dansketiden', 'Svenskeunionen', 'Industrialiseringen']::text[], 0, 'Dansketiden ble kalt «firehundreårsnatten».', true, true, 1),
+  ('historie-vg3:nasjonal-identitet', 'q03', 'flervalg', 'Hva ble symboler på det norske under nasjonalromantikken?', array['Byen og fabrikken', 'Kongen og adelen', 'Bonden og naturen', 'Kirken og presten']::text[], 2, 'For eksempel i Brudeferden i Hardanger.', true, true, 2),
+  ('historie-vg3:nasjonal-identitet', 'q04', 'flervalg', 'Hva gjorde jordsalgsloven fra 1902?', array['Ga samene rett til jord', 'Fjernet all skatt på jord', 'Delte ut jord gratis', 'Gjorde det vanskelig for folk som ikke kunne norsk, å kjøpe jord i Finnmark']::text[], 3, 'Et virkemiddel i fornorskingen.', true, true, 3),
+  ('historie-vg3:nasjonal-identitet', 'q05', 'flervalg', 'Hvilken gruppe ble utsatt for tvangssterilisering og at barn ble tatt fra foreldrene?', array['Romanifolket', 'Embetsmennene', 'Bøndene i Hardanger', 'Handelsstanden']::text[], 0, 'Også kalt tatere.', true, true, 4),
+  ('historie-vg3:nasjonal-identitet', 'q06', 'flervalg', 'Hvordan har forskningen nyansert bildet av okkupasjonstiden?', array['Den har vist at alle var i motstandsbevegelsen', 'Den har vist at de fleste tilpasset seg og at mange samarbeidet', 'Den har vist at okkupasjonen ikke skjedde', 'Den har vist at Norge vant krigen alene']::text[], 1, 'Også norsk deltakelse i deportasjonen av jøder.', true, true, 5),
+  ('historie-vg3:nasjonal-identitet', 'q07', 'flervalg', 'Hvem laget landsmålet?', array['P.A. Munch', 'Henrik Wergeland', 'Ivar Aasen', 'Asbjørnsen']::text[], 2, 'Dagens nynorsk.', true, true, 6),
+  ('historie-vg3:nasjonal-identitet', 'q08', 'flervalg', 'Hva la Sannhets- og forsoningskommisjonen fram i 2023?', array['En ny grunnlov', 'En oljestrategi', 'En rapport om 17. mai', 'En rapport om fornorskingen av samer, kvener og skogfinner']::text[], 3, 'Om uretten som ble begått.', true, true, 7),
+  ('historie-vg3:nasjonal-identitet', 'q09', 'flervalg', 'Hva kan være en negativ virkning av en snever nasjonal fortelling?', array['At den utelukker og undertrykker dem som ikke passer inn', 'At den skaper samhold', 'At den gir tillit', 'At den gir fellesskap']::text[], 0, 'Nasjonsbyggingen hadde en pris.', true, false, 8),
+  ('historie-vg3:nasjonal-identitet', 'q10', 'flervalg', 'Når ble Grunnlovens forbud mot jøder opphevet?', array['1814', '1851', '1905', '1945']::text[], 1, 'Etter blant annet Wergelands kamp.', true, false, 9),
+  ('historie-vg3:nasjonal-identitet', 'm01', 'sant-usant', 'Mange samiske barn ble sendt på internatskoler.', array['Sant', 'Usant']::text[], 0, 'En del av fornorskingspolitikken.', false, true, 10),
+  ('historie-vg3:nasjonal-identitet', 'm02', 'sant-usant', 'Nasjonal identitet oppstår av seg selv uten at noen bygger den.', array['Sant', 'Usant']::text[], 1, 'Nasjoner bygges.', false, true, 11),
+  ('historie-vg3:nasjonal-identitet', 'm03', 'sant-usant', 'Nasjonal identitet kan skape både samhold og utenforskap.', array['Sant', 'Usant']::text[], 0, 'Derfor må den drøftes.', false, true, 12),
+  ('historie-vg3:nasjonal-identitet', 'm04', 'sant-usant', 'Fornorskingspolitikken rammet bare samene.', array['Sant', 'Usant']::text[], 1, 'Også kvener og skogfinner.', false, true, 13),
+  ('historie-vg3:nasjonal-identitet', 'm05', 'flervalg', 'Hvem samlet norske folkeeventyr?', array['Tidemand og Gude', 'Asbjørnsen og Moe', 'Ibsen og Bjørnson', 'Munch og Aasen']::text[], 1, 'På 1840-tallet.', false, true, 14),
+  ('historie-vg3:nasjonal-identitet', 'm06', 'flervalg', 'Hva ble dansketiden omtalt som?', array['Firehundreårsnatten', 'Gullalderen', 'Storhetstiden', 'Frihetstiden']::text[], 0, 'Et negativt bilde fra nasjonalromantikken.', false, true, 15),
+  ('historie-vg3:nasjonal-identitet', 'm07', 'flervalg', 'Hvilken debatt handler om nasjonal identitet i dag?', array['Om vikingskip var store', 'Om eventyr er sanne', 'Om «norsk» bør bygge på felles verdier eller felles historie og kultur', 'Om 17. mai skal flyttes']::text[], 2, 'Norge er et mangfoldig samfunn.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('historie-vg3:nasjonal-identitet', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Historie: Myndiggjøring og frigjøring i norsk og samisk historie
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('historie-vg3:myndiggjoring-og-frigjoring', 'historie-vg3', 'myndiggjoring-og-frigjoring', 'Myndiggjøring og frigjøring i norsk og samisk historie', 'Hvordan arbeidere, kvinner, samer, skeive og mennesker med funksjonsnedsettelser har kjempet for rettigheter og frigjøring i Norge – og hvordan kampene samtidig har utvidet og fordypet demokratiet.', array[15]::int[], 11, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('historie-vg3:myndiggjoring-og-frigjoring', '## Myndiggjøring
+
+**Myndiggjøring** betyr at mennesker får **makt** over sitt eget liv og mulighet til å **påvirke** samfunnet. **Frigjøring** handler om å bli fri fra **undertrykkelse** og **diskriminering**. I norsk historie har mange grupper kjempet for dette – og kampene har gjort **demokratiet** bredere.
+
+## Arbeiderbevegelsen
+
+- **Thrane-bevegelsen** (1848–51): **Marcus Thrane** organiserte arbeidere og husmenn og krevde **allmenn stemmerett**. Bevegelsen ble slått ned, og Thrane ble fengslet.
+- **Det norske Arbeiderparti** ble stiftet i **1887**, og **LO** i **1899**.
+- Arbeiderbevegelsen kjempet for **8-timersdag**, som ble lovfestet i **1919**, bedre **arbeidsforhold** og **velferd**.
+
+## Demokratiets gjennombrudd
+
+- **Parlamentarismen** ble innført i **1884**: Regjeringen må ha **Stortingets tillit**.
+- **Allmenn stemmerett for menn** kom i **1898**.
+
+## Kvinnebevegelsen
+
+- **Norsk Kvinnesaksforening** ble stiftet i **1884**, og **Gina Krog** var en av lederne i kampen for stemmerett.
+- Kvinner fikk **allmenn stemmerett** ved stortingsvalg i **1913**.
+- På **1970-tallet** kom en **ny kvinnebevegelse**. **Likestillingsloven** og loven om **selvbestemt abort** kom i **1978**.
+- **Gro Harlem Brundtland** ble Norges første kvinnelige **statsminister** i **1981**, og i **1986** dannet hun en regjering der nesten halvparten var kvinner.
+
+## Samisk frigjøring
+
+Samene ble lenge utsatt for **fornorsking**, men organiserte seg for å kjempe for språk, kultur og rettigheter.
+
+- **Elsa Laula Renberg** tok initiativ til det første samiske **landsmøtet** i **Trondheim** i **1917**. Datoen 6. februar er i dag **samefolkets dag**.
+- **Alta-saken** (1979–1981): Protester mot utbyggingen av Alta-vassdraget, med sultestreik utenfor Stortinget, satte **samiske rettigheter** på dagsordenen. Kraftverket ble bygd, men saken ble et **vendepunkt**.
+- Grunnloven fikk en egen **sameparagraf** i **1988**.
+- **Sametinget** ble opprettet i **1989**.
+- Norge ble i **1990** det første landet som ratifiserte **ILO-konvensjonen om urfolks rettigheter**.
+
+## Skeive rettigheter
+
+- Sex mellom menn ble **avkriminalisert** i **1972**.
+- I **1981** fikk homofile vern mot **diskriminering** i straffeloven.
+- **Partnerskapsloven** kom i **1993**, og den **felles ekteskapsloven** i **2009**.
+
+## Mennesker med funksjonsnedsettelser
+
+Lenge bodde mange med utviklingshemming på store **institusjoner**. Med **ansvarsreformen** tidlig på **1990-tallet** ble institusjonene lagt ned, og ansvaret gikk over til **kommunene**. Kampen for **universell utforming** og **like muligheter** fortsetter.
+
+## Bidrag til demokratiet
+
+Frigjøringskampene har
+
+- gitt **flere** mennesker stemmerett og politisk **innflytelse**
+- skapt **organisasjoner** og **partier** som gir folk en **stemme**
+- ført til **lover** som verner mot diskriminering
+- gjort **menneskerettigheter** til en del av norsk rett
+
+## Refleksjon
+
+Mange av rettighetene vi tar for gitt i dag, var **omstridt** og måtte **kjempes** fram. Historien viser at demokratiet ikke er ferdig – det **utvikles** når nye grupper krever å bli **hørt**.', '{"label":"Myndiggjøring og frigjøring","children":[{"label":"Arbeidere","children":[{"label":"Thrane 1848"},{"label":"Ap og LO"},{"label":"8-timersdag 1919"}]},{"label":"Demokrati","children":[{"label":"Parlamentarisme 1884"},{"label":"Stemmerett 1898 og 1913"}]},{"label":"Kvinner","children":[{"label":"Kvinnesaksforeningen"},{"label":"Likestillingsloven 1978"},{"label":"Brundtland 1981"}]},{"label":"Samer","children":[{"label":"Landsmøtet 1917"},{"label":"Alta-saken"},{"label":"Sametinget 1989"}]},{"label":"Andre grupper","children":[{"label":"Skeive rettigheter"},{"label":"Funksjonsnedsettelser"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'historie-vg3:myndiggjoring-og-frigjoring';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('historie-vg3:myndiggjoring-og-frigjoring', 'Myndiggjøring', 'At mennesker får makt over eget liv og kan påvirke samfunnet.', 0),
+  ('historie-vg3:myndiggjoring-og-frigjoring', 'Thrane-bevegelsen', 'Arbeiderbevegelse 1848–51 ledet av Marcus Thrane.', 1),
+  ('historie-vg3:myndiggjoring-og-frigjoring', 'LO', 'Landsorganisasjonen, stiftet i 1899.', 2),
+  ('historie-vg3:myndiggjoring-og-frigjoring', '8-timersdagen', 'Lovfestet i 1919.', 3),
+  ('historie-vg3:myndiggjoring-og-frigjoring', 'Parlamentarismen', 'Regjeringen må ha Stortingets tillit – innført i 1884.', 4),
+  ('historie-vg3:myndiggjoring-og-frigjoring', 'Norsk Kvinnesaksforening', 'Stiftet i 1884, kjempet for kvinners rettigheter.', 5),
+  ('historie-vg3:myndiggjoring-og-frigjoring', 'Gina Krog', 'Leder i kampen for kvinners stemmerett.', 6),
+  ('historie-vg3:myndiggjoring-og-frigjoring', 'Likestillingsloven', 'Lov fra 1978 mot kjønnsdiskriminering.', 7),
+  ('historie-vg3:myndiggjoring-og-frigjoring', 'Gro Harlem Brundtland', 'Norges første kvinnelige statsminister, 1981.', 8),
+  ('historie-vg3:myndiggjoring-og-frigjoring', 'Samefolkets dag', '6. februar – til minne om landsmøtet i 1917.', 9),
+  ('historie-vg3:myndiggjoring-og-frigjoring', 'Alta-saken', 'Protestene 1979–81 som satte samiske rettigheter på dagsordenen.', 10),
+  ('historie-vg3:myndiggjoring-og-frigjoring', 'Sametinget', 'Samenes folkevalgte organ, opprettet i 1989.', 11),
+  ('historie-vg3:myndiggjoring-og-frigjoring', 'ILO-konvensjonen om urfolk', 'Norge ratifiserte den som første land i 1990.', 12),
+  ('historie-vg3:myndiggjoring-og-frigjoring', 'Partnerskapsloven', 'Lov fra 1993 som ga likekjønnede par rett til registrert partnerskap.', 13),
+  ('historie-vg3:myndiggjoring-og-frigjoring', 'Ansvarsreformen', 'Reform tidlig på 1990-tallet som la ned institusjoner for utviklingshemmede.', 14);
+delete from public.quiz_sporsmal where tema_id = 'historie-vg3:myndiggjoring-og-frigjoring';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('historie-vg3:myndiggjoring-og-frigjoring', 'q01', 'flervalg', 'Hva krevde Thrane-bevegelsen?', array['Kongens makt', 'Allmenn stemmerett og bedre kår for arbeidere og husmenn', 'Samisk selvstyre', 'Union med Sverige']::text[], 1, 'Marcus Thrane ble fengslet.', true, true, 0),
+  ('historie-vg3:myndiggjoring-og-frigjoring', 'q02', 'flervalg', 'Når ble parlamentarismen innført i Norge?', array['1884', '1814', '1905', '1913']::text[], 0, 'Regjeringen må ha Stortingets tillit.', true, true, 1),
+  ('historie-vg3:myndiggjoring-og-frigjoring', 'q03', 'flervalg', 'Når fikk kvinner allmenn stemmerett ved stortingsvalg?', array['1898', '1884', '1913', '1978']::text[], 2, 'Menn fikk det i 1898.', true, true, 2),
+  ('historie-vg3:myndiggjoring-og-frigjoring', 'q04', 'flervalg', 'Hva satte Alta-saken på dagsordenen?', array['Kvinners stemmerett', 'Arbeidstiden', 'Homofiles rettigheter', 'Samiske rettigheter']::text[], 3, 'Et vendepunkt, selv om kraftverket ble bygd.', true, true, 3),
+  ('historie-vg3:myndiggjoring-og-frigjoring', 'q05', 'flervalg', 'Når ble Sametinget opprettet?', array['1989', '1917', '1968', '2005']::text[], 0, 'Samenes folkevalgte organ.', true, true, 4),
+  ('historie-vg3:myndiggjoring-og-frigjoring', 'q06', 'flervalg', 'Hva skjedde i 1972?', array['Kvinner fikk stemmerett', 'Sex mellom menn ble avkriminalisert', 'Sametinget ble opprettet', 'LO ble stiftet']::text[], 1, 'Senere kom vern mot diskriminering og ekteskapslov.', true, true, 5),
+  ('historie-vg3:myndiggjoring-og-frigjoring', 'q07', 'flervalg', 'Hvem tok initiativ til det første samiske landsmøtet i 1917?', array['Gina Krog', 'Marcus Thrane', 'Elsa Laula Renberg', 'Gro Harlem Brundtland']::text[], 2, '6. februar er samefolkets dag.', true, true, 6),
+  ('historie-vg3:myndiggjoring-og-frigjoring', 'q08', 'flervalg', 'Hva gjorde ansvarsreformen tidlig på 1990-tallet?', array['Innførte stemmerett for kvinner', 'Opprettet Sametinget', 'Innførte 8-timersdagen', 'La ned institusjoner og ga kommunene ansvaret for utviklingshemmede']::text[], 3, 'Flere fikk bo i egne hjem.', true, true, 7),
+  ('historie-vg3:myndiggjoring-og-frigjoring', 'q09', 'flervalg', 'Hvordan har frigjøringskampene bidratt til demokratiet?', array['Ved å gi flere stemmerett, innflytelse og vern mot diskriminering', 'Ved å fjerne valg', 'Ved å gi kongen mer makt', 'De har ikke bidratt']::text[], 0, 'Demokratiet er blitt bredere.', true, false, 8),
+  ('historie-vg3:myndiggjoring-og-frigjoring', 'q10', 'flervalg', 'Når kom den felles ekteskapsloven?', array['1993', '2009', '1981', '1972']::text[], 1, 'Gir likekjønnede par rett til å gifte seg.', true, false, 9),
+  ('historie-vg3:myndiggjoring-og-frigjoring', 'm01', 'sant-usant', 'Grunnloven fikk en egen sameparagraf i 1988.', array['Sant', 'Usant']::text[], 0, 'Staten skal legge forholdene til rette for samisk språk, kultur og samfunnsliv.', false, true, 10),
+  ('historie-vg3:myndiggjoring-og-frigjoring', 'm02', 'sant-usant', 'Thrane-bevegelsen fikk gjennomslag for allmenn stemmerett i 1851.', array['Sant', 'Usant']::text[], 1, 'Bevegelsen ble slått ned.', false, true, 11),
+  ('historie-vg3:myndiggjoring-og-frigjoring', 'm03', 'sant-usant', 'Loven om selvbestemt abort kom i 1978.', array['Sant', 'Usant']::text[], 0, 'Samme år som likestillingsloven.', false, true, 12),
+  ('historie-vg3:myndiggjoring-og-frigjoring', 'm04', 'sant-usant', 'Demokratiet er ferdig utviklet og endrer seg ikke.', array['Sant', 'Usant']::text[], 1, 'Det utvikles når nye grupper krever å bli hørt.', false, true, 13),
+  ('historie-vg3:myndiggjoring-og-frigjoring', 'm05', 'flervalg', 'Når ble Det norske Arbeiderparti stiftet?', array['1848', '1887', '1899', '1919']::text[], 1, 'LO kom i 1899.', false, true, 14),
+  ('historie-vg3:myndiggjoring-og-frigjoring', 'm06', 'flervalg', 'Hvilket land ratifiserte først ILO-konvensjonen om urfolks rettigheter?', array['Norge', 'Sverige', 'Finland', 'Danmark']::text[], 0, 'I 1990.', false, true, 15),
+  ('historie-vg3:myndiggjoring-og-frigjoring', 'm07', 'flervalg', 'Hva kjennetegnet regjeringen Brundtland dannet i 1986?', array['Bare menn', 'Bare samer', 'Nesten halvparten var kvinner', 'Den hadde ingen statsråder']::text[], 2, 'Kalt «kvinneregjeringen».', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('historie-vg3:myndiggjoring-og-frigjoring', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Historie: Velferdsutviklingen i Norge på 1900-tallet
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('historie-vg3:velferdsstaten', 'historie-vg3', 'velferdsstaten', 'Velferdsutviklingen i Norge på 1900-tallet', 'Hvordan den norske velferdsstaten vokste fram – fra fattigvesenet og de første trygdene via kriseforliket i 1935 til gjenreisningen, folketrygden i 1967 og utbyggingen av skole, helse og barnehager – og hvilke konsekvenser utviklingen har hatt for menneskers liv.', array[16]::int[], 12, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('historie-vg3:velferdsstaten', '## Før velferdsstaten
+
+På 1800-tallet var **familien**, **arbeidsgiveren** og **fattigvesenet** det eneste sikkerhetsnettet. Den som ble syk, gammel eller arbeidsløs, kunne ende i **fattigdom**. Hjelpen fra fattigvesenet var ofte **nedverdigende**, og mottakerne mistet i en periode **stemmeretten**.
+
+## De første trygdene
+
+Med industrialiseringen kom de første **sosialforsikringene**:
+
+- **Ulykkestrygd** for fabrikkarbeidere i **1894**
+- **Syketrygd** for lavtlønte i **1909**
+
+Trygdene var **begrensede** og gjaldt bare noen grupper.
+
+## Krise og kompromiss på 1930-tallet
+
+Den økonomiske **krisen** etter 1929 ga høy **arbeidsløshet**. I **1935** inngikk **Arbeiderpartiet** og **Bondepartiet** **kriseforliket**, og Arbeiderpartiet dannet regjering. Samme år kom **Hovedavtalen** mellom **LO** og **arbeidsgiverne**, som la grunnlaget for **samarbeid** i arbeidslivet.
+
+Regjeringen innførte blant annet **alderstrygd** i **1936** og **arbeidsledighetstrygd** i **1938**.
+
+## Gjenreisningen etter 1945
+
+Etter krigen var partiene enige om et **fellesprogram** for **gjenreisning**. Arbeiderpartiet med **Einar Gerhardsen** styrte i mange år og bygde ut velferdsstaten:
+
+- **Barnetrygd** fra **1946**
+- **Statens lånekasse for utdanning** fra **1947**
+- **Niårig skole** fra slutten av **1960-tallet**
+- **Utbygging** av sykehus og helsetjenester
+
+## Folketrygden
+
+**Folketrygden** fra **1967** samlet mange ordninger i **én** trygd for **alle**. Den ga rett til **alderspensjon**, **uførepensjon** og andre ytelser. Senere kom blant annet **full sykelønn** fra første dag og lengre **foreldrepermisjon**.
+
+## Kjennetegn ved den norske modellen
+
+- **Universelle** ytelser – de gjelder **alle**, ikke bare de fattigste
+- **Høye skatter** som finansierer tjenestene
+- **Offentlige** skoler, sykehus og eldreomsorg
+- **Trepartssamarbeid** mellom arbeidsgivere, arbeidstakere og staten
+- Mål om **høy sysselsetting**
+
+## Konsekvenser for menneskers liv
+
+**Positive**:
+
+- **Trygghet** ved sykdom, alderdom og arbeidsløshet
+- Høyere **levealder** og bedre **helse**
+- Mindre **fattigdom** og mindre **forskjeller**
+- Større **sosial mobilitet** – flere fikk **utdanning** uavhengig av foreldrenes økonomi
+- **Kvinner** kunne i større grad ta **lønnsarbeid**, særlig etter utbyggingen av **barnehager**
+
+**Utfordringer og kritikk**:
+
+- **Høye skatter** og store offentlige **utgifter**
+- **Byråkrati** og mindre **valgfrihet**
+- Fare for at noen blir **stående utenfor** arbeidslivet
+- **Eldrebølgen** og lavere oljeinntekter gjør det krevende å finansiere velferden i framtiden
+
+## Drøfting
+
+Velferdsstaten er et resultat av både **arbeiderbevegelsens** krav, **politiske kompromisser**, **økonomisk vekst** og senere **oljeinntekter**. Et viktig spørsmål i dag er hvordan velferden kan **videreføres** når befolkningen blir eldre – og hvem som skal ha **ansvaret**: staten, familien, markedet eller den enkelte.', '{"label":"Velferdsstaten","children":[{"label":"Før","children":[{"label":"Fattigvesenet"},{"label":"Familie og arbeidsgiver"}]},{"label":"Første trygder","children":[{"label":"Ulykkestrygd 1894"},{"label":"Syketrygd 1909"}]},{"label":"1930-tallet","children":[{"label":"Kriseforliket"},{"label":"Hovedavtalen"},{"label":"Alderstrygd"}]},{"label":"Etter 1945","children":[{"label":"Gjenreisning"},{"label":"Barnetrygd og Lånekassen"},{"label":"Folketrygden 1967"}]},{"label":"Konsekvenser","children":[{"label":"Trygghet og helse"},{"label":"Mobilitet og likestilling"},{"label":"Kostnader og eldrebølge"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'historie-vg3:velferdsstaten';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('historie-vg3:velferdsstaten', 'Fattigvesenet', 'Offentlig hjelp til fattige før velferdsstaten.', 0),
+  ('historie-vg3:velferdsstaten', 'Sosialforsikring', 'Trygd som sikrer mot tap av inntekt.', 1),
+  ('historie-vg3:velferdsstaten', 'Ulykkestrygden 1894', 'Første trygd for fabrikkarbeidere i Norge.', 2),
+  ('historie-vg3:velferdsstaten', 'Syketrygden 1909', 'Trygd ved sykdom for lavtlønte.', 3),
+  ('historie-vg3:velferdsstaten', 'Kriseforliket 1935', 'Avtale mellom Arbeiderpartiet og Bondepartiet.', 4),
+  ('historie-vg3:velferdsstaten', 'Hovedavtalen 1935', 'Avtale mellom LO og arbeidsgiverne om samarbeid.', 5),
+  ('historie-vg3:velferdsstaten', 'Alderstrygden 1936', 'Tidlig pensjonsordning for eldre.', 6),
+  ('historie-vg3:velferdsstaten', 'Fellesprogrammet', 'Partienes felles plan for gjenreisning etter krigen.', 7),
+  ('historie-vg3:velferdsstaten', 'Einar Gerhardsen', 'Arbeiderparti-statsminister under gjenreisningen.', 8),
+  ('historie-vg3:velferdsstaten', 'Barnetrygd', 'Innført i 1946.', 9),
+  ('historie-vg3:velferdsstaten', 'Folketrygden', 'Én felles trygd for alle fra 1967.', 10),
+  ('historie-vg3:velferdsstaten', 'Universelle ytelser', 'Ytelser som gjelder alle, ikke bare de fattigste.', 11),
+  ('historie-vg3:velferdsstaten', 'Trepartssamarbeid', 'Samarbeid mellom arbeidsgivere, arbeidstakere og staten.', 12),
+  ('historie-vg3:velferdsstaten', 'Sosial mobilitet', 'Mulighet til å få et annet liv enn foreldrene.', 13),
+  ('historie-vg3:velferdsstaten', 'Eldrebølgen', 'Økende andel eldre som gjør velferden dyrere.', 14);
+delete from public.quiz_sporsmal where tema_id = 'historie-vg3:velferdsstaten';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('historie-vg3:velferdsstaten', 'q01', 'flervalg', 'Hva var det viktigste sikkerhetsnettet før velferdsstaten?', array['Folketrygden', 'Familien, arbeidsgiveren og fattigvesenet', 'NAV', 'Barnetrygden']::text[], 1, 'Hjelpen var ofte nedverdigende.', true, true, 0),
+  ('historie-vg3:velferdsstaten', 'q02', 'flervalg', 'Hvilken trygd kom i 1894?', array['Ulykkestrygd for fabrikkarbeidere', 'Folketrygden', 'Barnetrygden', 'Alderstrygden']::text[], 0, 'Den første sosialforsikringen.', true, true, 1),
+  ('historie-vg3:velferdsstaten', 'q03', 'flervalg', 'Hva var kriseforliket i 1935?', array['En fredsavtale', 'En avtale mellom LO og NHO', 'En avtale mellom Arbeiderpartiet og Bondepartiet', 'En handelsavtale med Sverige']::text[], 2, 'Arbeiderpartiet dannet deretter regjering.', true, true, 2),
+  ('historie-vg3:velferdsstaten', 'q04', 'flervalg', 'Når kom folketrygden?', array['1936', '1946', '1978', '1967']::text[], 3, 'Én trygd for alle.', true, true, 3),
+  ('historie-vg3:velferdsstaten', 'q05', 'flervalg', 'Hva betyr at ytelsene er universelle?', array['At de gjelder alle', 'At de bare gjelder de fattigste', 'At de gjelder hele verden', 'At de er private']::text[], 0, 'Kjennetegn ved den norske modellen.', true, true, 4),
+  ('historie-vg3:velferdsstaten', 'q06', 'flervalg', 'Hvordan bidro barnehageutbyggingen til endring?', array['Færre kvinner tok lønnsarbeid', 'Flere kvinner kunne ta lønnsarbeid', 'Skolen ble kortere', 'Pensjonene ble lavere']::text[], 1, 'Viktig for likestillingen.', true, true, 5),
+  ('historie-vg3:velferdsstaten', 'q07', 'flervalg', 'Hvem ledet Arbeiderpartiet under gjenreisningen?', array['Gro Harlem Brundtland', 'Christian Michelsen', 'Einar Gerhardsen', 'Marcus Thrane']::text[], 2, 'Statsminister i mange år etter krigen.', true, true, 6),
+  ('historie-vg3:velferdsstaten', 'q08', 'flervalg', 'Hva er en utfordring for velferdsstaten i framtiden?', array['For mange unge', 'For lave skatter alltid', 'For mange barnehager', 'Eldrebølgen og lavere oljeinntekter']::text[], 3, 'Gjør det dyrere å finansiere velferden.', true, true, 7),
+  ('historie-vg3:velferdsstaten', 'q09', 'flervalg', 'Hva la Hovedavtalen i 1935 grunnlaget for?', array['Samarbeid i arbeidslivet', 'Folketrygden', 'Barnetrygden', 'Niårig skole']::text[], 0, 'Mellom LO og arbeidsgiverne.', true, false, 8),
+  ('historie-vg3:velferdsstaten', 'q10', 'flervalg', 'Hvordan har velferdsstaten påvirket sosial mobilitet?', array['Den har redusert den', 'Flere har fått utdanning uavhengig av foreldrenes økonomi', 'Den har ingen betydning', 'Bare de rike har fått utdanning']::text[], 1, 'For eksempel gjennom Lånekassen.', true, false, 9),
+  ('historie-vg3:velferdsstaten', 'm01', 'sant-usant', 'Mottakere av fattighjelp kunne i en periode miste stemmeretten.', array['Sant', 'Usant']::text[], 0, 'Hjelpen var nedverdigende.', false, true, 10),
+  ('historie-vg3:velferdsstaten', 'm02', 'sant-usant', 'De første trygdene gjaldt alle innbyggere.', array['Sant', 'Usant']::text[], 1, 'De var begrensede og gjaldt bare noen grupper.', false, true, 11),
+  ('historie-vg3:velferdsstaten', 'm03', 'sant-usant', 'Høye skatter finansierer den norske velferdsmodellen.', array['Sant', 'Usant']::text[], 0, 'Et kjennetegn ved modellen.', false, true, 12),
+  ('historie-vg3:velferdsstaten', 'm04', 'sant-usant', 'Velferdsstaten ble bygd opp av ett parti alene uten kompromisser.', array['Sant', 'Usant']::text[], 1, 'Den bygger på kompromisser og brede avtaler.', false, true, 13),
+  ('historie-vg3:velferdsstaten', 'm05', 'flervalg', 'Når ble barnetrygden innført?', array['1936', '1946', '1967', '1978']::text[], 1, 'Rett etter krigen.', false, true, 14),
+  ('historie-vg3:velferdsstaten', 'm06', 'flervalg', 'Hva er en kritikk mot velferdsstaten?', array['Byråkrati og mindre valgfrihet', 'For lite trygghet', 'For lave skatter', 'For få skoler']::text[], 0, 'Også høye kostnader.', false, true, 15),
+  ('historie-vg3:velferdsstaten', 'm07', 'flervalg', 'Hva har gjort det mulig å bygge ut velferden etter 1970-tallet?', array['Bare krigsskadeserstatning', 'Bare lån fra utlandet', 'Økonomisk vekst og oljeinntekter', 'Salg av kolonier']::text[], 2, 'Sammen med politiske kompromisser.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('historie-vg3:velferdsstaten', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Historie: Mennesket, naturen og ressursene i historien
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('historie-vg3:menneske-natur-og-ressurser', 'historie-vg3', 'menneske-natur-og-ressurser', 'Mennesket, naturen og ressursene i historien', 'Hvordan mennesker har forholdt seg til naturen og forvaltet ressurser – fra fangst og jordbruk via industrialisering, hvalfangst og oljealder til naturvernbevegelsen og klimapolitikken – og hvordan historiske erfaringer kan brukes i samtaler om bærekraftige løsninger.', array[17]::int[], 13, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('historie-vg3:menneske-natur-og-ressurser', '## Tidlige samfunn
+
+**Jegere og sankere** levde av det naturen ga, og måtte flytte etter dyr og årstider. Med **jordbruket** begynte mennesker å **forme** naturen: skog ble ryddet, dyr ble temmet, og landskapet endret seg.
+
+I mange samfunn fantes regler for **felles** bruk av **utmark**, **beiter** og **fiskeplasser**. **Samisk** reindrift og tradisjonell kunnskap bygger på erfaringer med å bruke naturen over lang tid uten å tømme den.
+
+## Utnyttelse av ressurser
+
+- **Fiske** har vært grunnlaget for bosetting langs kysten i tusen år, for eksempel **Lofotfisket**.
+- **Trelasthandelen** fra 1500-tallet ga store inntekter, men førte også til **hogst** av mye skog.
+- **Hvalfangst**: Norske hvalfangere var ledende på 1900-tallet. **Overbeskatning** gjorde at bestandene av blant annet **blåhval** ble dramatisk redusert.
+- **Silda**: Den norske vårgytende silda nesten **kollapset** på slutten av 1960-tallet på grunn av overfiske. Etter strenge **reguleringer** kom bestanden tilbake.
+
+## Industrialisering og forurensning
+
+Industrialiseringen ga velstand, men også **forurensning** av luft, vann og jord. **Vannkraftutbygging** endret mange elver og fosser. På **1970-tallet** førte **sur nedbør** fra industri i andre land til at fisken døde i mange elver og innsjøer på **Sørlandet**.
+
+## Oljealderen
+
+Funnet av **Ekofisk** i **1969** gjorde Norge til en **oljenasjon**. Oljeinntektene har gitt stor **velstand**, men utvinning og bruk av olje og gass bidrar til **klimaendringer**. Utblåsningen på **Bravo**-plattformen i **1977** viste risikoen for **oljeutslipp**.
+
+## Naturvern og miljøbevegelse
+
+- **Naturvernloven** kom i **1970**.
+- Samme år protesterte aktivister mot utbyggingen av **Mardøla**-fossen – en av de første store miljøaksjonene i Norge.
+- Norge fikk et eget **Miljøverndepartement** i **1972**.
+- **Alta-saken** (1979–1981) handlet både om **natur** og **samiske rettigheter**.
+- **Brundtland-kommisjonen** la i **1987** fram rapporten **Vår felles framtid**, som definerte **bærekraftig utvikling**.
+
+## Internasjonalt samarbeid
+
+Historien har eksempler på at samarbeid **virker**:
+
+- **Montrealprotokollen** fra **1987** forbød stoffer som ødela **ozonlaget**, og ozonlaget er i ferd med å **reparere** seg.
+- Internasjonale avtaler reduserte **sur nedbør** i Europa.
+
+**Klimaendringene** er vanskeligere fordi utslippene er knyttet til nesten all **økonomisk aktivitet**. **Parisavtalen** fra **2015** har som mål å begrense oppvarmingen til godt under **2 grader**.
+
+## Historiske perspektiver på bærekraft
+
+Historien kan hjelpe oss i samtaler om bærekraft:
+
+- **Overbeskatning** av felles ressurser – hval, sild og skog – viser hva som skjer når ingen tar ansvar.
+- **Reguleringer** og **fredning** kan få ressurser til å komme tilbake.
+- **Internasjonale avtaler** kan løse globale problemer når landene deler kostnadene.
+- **Teknologi** kan både skape og løse miljøproblemer.
+- **Tradisjonell kunnskap**, som samisk naturforståelse, kan gi viktige perspektiver.
+
+## Drøfting
+
+Det er ofte **konflikt** mellom **arbeidsplasser**, **velstand** og **naturvern** – som i debattene om vindkraft, gruveavfall og oljeleting. Historien viser at slike konflikter ikke er **nye**, og at løsningene ofte krever **kompromisser**, **kunnskap** og **langsiktig** tenkning.', '{"label":"Mennesket og naturen","children":[{"label":"Tidlige samfunn","children":[{"label":"Fangst og jordbruk"},{"label":"Felles utmark"},{"label":"Samisk kunnskap"}]},{"label":"Ressursbruk","children":[{"label":"Fiske og trelast"},{"label":"Hvalfangst"},{"label":"Sildekollaps"}]},{"label":"Industri og olje","children":[{"label":"Forurensning"},{"label":"Sur nedbør"},{"label":"Ekofisk og Bravo"}]},{"label":"Vern","children":[{"label":"Naturvernloven 1970"},{"label":"Mardøla og Alta"},{"label":"Brundtland 1987"}]},{"label":"Bærekraft","children":[{"label":"Montrealprotokollen"},{"label":"Parisavtalen"},{"label":"Lærdommer fra historien"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'historie-vg3:menneske-natur-og-ressurser';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('historie-vg3:menneske-natur-og-ressurser', 'Jegere og sankere', 'Mennesker som levde av det naturen ga.', 0),
+  ('historie-vg3:menneske-natur-og-ressurser', 'Utmark', 'Beite- og skogområder utenfor innmarka, ofte brukt i fellesskap.', 1),
+  ('historie-vg3:menneske-natur-og-ressurser', 'Overbeskatning', 'At en ressurs brukes raskere enn den fornyes.', 2),
+  ('historie-vg3:menneske-natur-og-ressurser', 'Hvalfangst', 'Norsk storindustri på 1900-tallet som reduserte hvalbestandene kraftig.', 3),
+  ('historie-vg3:menneske-natur-og-ressurser', 'Sildekollapsen', 'Den norske vårgytende silda nesten forsvant på slutten av 1960-tallet.', 4),
+  ('historie-vg3:menneske-natur-og-ressurser', 'Sur nedbør', 'Nedbør forurenset av industriutslipp som drepte fisk på Sørlandet.', 5),
+  ('historie-vg3:menneske-natur-og-ressurser', 'Ekofisk', 'Oljefeltet som ble funnet i 1969.', 6),
+  ('historie-vg3:menneske-natur-og-ressurser', 'Bravo-utblåsningen', 'Oljeutslipp i Nordsjøen i 1977.', 7),
+  ('historie-vg3:menneske-natur-og-ressurser', 'Naturvernloven', 'Lov fra 1970 om vern av natur.', 8),
+  ('historie-vg3:menneske-natur-og-ressurser', 'Mardøla-aksjonen', 'Miljøaksjon i 1970 mot utbygging av en foss.', 9),
+  ('historie-vg3:menneske-natur-og-ressurser', 'Miljøverndepartementet', 'Opprettet i 1972.', 10),
+  ('historie-vg3:menneske-natur-og-ressurser', 'Vår felles framtid', 'Brundtland-kommisjonens rapport fra 1987.', 11),
+  ('historie-vg3:menneske-natur-og-ressurser', 'Montrealprotokollen', 'Avtale fra 1987 som forbød stoffer som ødela ozonlaget.', 12),
+  ('historie-vg3:menneske-natur-og-ressurser', 'Fredning', 'Forbud mot å fange eller bruke en art eller et område.', 13),
+  ('historie-vg3:menneske-natur-og-ressurser', 'Tradisjonell kunnskap', 'Erfaringsbasert kunnskap om naturen, for eksempel samisk.', 14);
+delete from public.quiz_sporsmal where tema_id = 'historie-vg3:menneske-natur-og-ressurser';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('historie-vg3:menneske-natur-og-ressurser', 'q01', 'flervalg', 'Hva skjedde da mennesker begynte med jordbruk?', array['De sluttet å påvirke naturen', 'De begynte å forme naturen ved å rydde skog og temme dyr', 'De ble jegere', 'De flyttet oftere']::text[], 1, 'Landskapet endret seg.', true, true, 0),
+  ('historie-vg3:menneske-natur-og-ressurser', 'q02', 'flervalg', 'Hva skjedde med den norske vårgytende silda på slutten av 1960-tallet?', array['Den nesten kollapset på grunn av overfiske', 'Den ble dobbelt så stor', 'Den flyttet til Afrika', 'Den ble fredet for alltid']::text[], 0, 'Kom tilbake etter strenge reguleringer.', true, true, 1),
+  ('historie-vg3:menneske-natur-og-ressurser', 'q03', 'flervalg', 'Hva førte sur nedbør til på Sørlandet?', array['Flere fisk', 'Mer skog', 'Fiskedød i elver og innsjøer', 'Bedre avlinger']::text[], 2, 'Utslipp fra industri i andre land.', true, true, 2),
+  ('historie-vg3:menneske-natur-og-ressurser', 'q04', 'flervalg', 'Når ble Ekofisk funnet?', array['1945', '1972', '1987', '1969']::text[], 3, 'Norge ble en oljenasjon.', true, true, 3),
+  ('historie-vg3:menneske-natur-og-ressurser', 'q05', 'flervalg', 'Hva forbød Montrealprotokollen?', array['Stoffer som ødela ozonlaget', 'Hvalfangst', 'Oljeboring', 'Kullkraft']::text[], 0, 'Et eksempel på vellykket samarbeid.', true, true, 4),
+  ('historie-vg3:menneske-natur-og-ressurser', 'q06', 'flervalg', 'Hva handlet Mardøla-aksjonen i 1970 om?', array['Hvalfangst', 'Utbygging av en foss', 'Oljeboring', 'Gruvedrift']::text[], 1, 'En av de første store miljøaksjonene.', true, true, 5),
+  ('historie-vg3:menneske-natur-og-ressurser', 'q07', 'flervalg', 'Hva definerte Brundtland-kommisjonen i 1987?', array['Parlamentarismen', 'Velferdsstaten', 'Bærekraftig utvikling', 'Oljefondet']::text[], 2, 'I rapporten Vår felles framtid.', true, true, 6),
+  ('historie-vg3:menneske-natur-og-ressurser', 'q08', 'flervalg', 'Hva lærer vi av overbeskatningen av hval, sild og skog?', array['At ressurser aldri tar slutt', 'At teknologi alltid løser problemer', 'At reguleringer er unødvendige', 'Hva som skjer når ingen tar ansvar for felles ressurser']::text[], 3, 'Allmenningens tragedie.', true, true, 7),
+  ('historie-vg3:menneske-natur-og-ressurser', 'q09', 'flervalg', 'Hvorfor er klimaendringene vanskeligere å løse enn ozonproblemet?', array['Fordi utslippene er knyttet til nesten all økonomisk aktivitet', 'Fordi ingen bryr seg', 'Fordi klimaet ikke endrer seg', 'Fordi det ikke finnes avtaler']::text[], 0, 'Omstillingen er mye større.', true, false, 8),
+  ('historie-vg3:menneske-natur-og-ressurser', 'q10', 'flervalg', 'Hva handlet Alta-saken om?', array['Bare olje', 'Både natur og samiske rettigheter', 'Hvalfangst', 'Sur nedbør']::text[], 1, '1979–1981.', true, false, 9),
+  ('historie-vg3:menneske-natur-og-ressurser', 'm01', 'sant-usant', 'Ozonlaget er i ferd med å reparere seg etter Montrealprotokollen.', array['Sant', 'Usant']::text[], 0, 'Et eksempel på at samarbeid virker.', false, true, 10),
+  ('historie-vg3:menneske-natur-og-ressurser', 'm02', 'sant-usant', 'Konflikter mellom arbeidsplasser og naturvern er et helt nytt fenomen.', array['Sant', 'Usant']::text[], 1, 'Historien viser at de ikke er nye.', false, true, 11),
+  ('historie-vg3:menneske-natur-og-ressurser', 'm03', 'sant-usant', 'Reguleringer og fredning kan få ressurser til å komme tilbake.', array['Sant', 'Usant']::text[], 0, 'For eksempel silda.', false, true, 12),
+  ('historie-vg3:menneske-natur-og-ressurser', 'm04', 'sant-usant', 'Norge fikk eget miljøverndepartement først i 2000.', array['Sant', 'Usant']::text[], 1, 'Det kom i 1972.', false, true, 13),
+  ('historie-vg3:menneske-natur-og-ressurser', 'm05', 'flervalg', 'Hvilken hvalart ble dramatisk redusert av overbeskatning?', array['Nise', 'Blåhval', 'Spekkhogger', 'Vågehval']::text[], 1, 'Hvalfangsten på 1900-tallet.', false, true, 14),
+  ('historie-vg3:menneske-natur-og-ressurser', 'm06', 'flervalg', 'Hva viste Bravo-utblåsningen i 1977?', array['Risikoen for oljeutslipp', 'At oljen var tom', 'At fisket økte', 'At olje ikke forurenser']::text[], 0, 'En ulykke i Nordsjøen.', false, true, 15),
+  ('historie-vg3:menneske-natur-og-ressurser', 'm07', 'flervalg', 'Hvilket perspektiv kan tradisjonell samisk kunnskap gi?', array['At naturen er uten verdi', 'At ressurser er uendelige', 'Erfaring med å bruke naturen over lang tid uten å tømme den', 'At reindrift er ny']::text[], 2, 'Viktig i samtaler om bærekraft.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('historie-vg3:menneske-natur-og-ressurser', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Religion og etikk (vg3): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'religion-og-etikk' and slug not in ('religion-livssyn-og-fagbegreper', 'kristendommen', 'islam', 'jodedommen', 'hinduisme-buddhisme-og-ostlige-tradisjoner', 'humanisme-og-sekulare-livssyn', 'religion-i-historiske-endringsprosesser', 'samisk-religion-og-urfolksperspektiv', 'religion-livssyn-og-politikk', 'religion-i-medier-og-populaerkultur', 'religions-og-livssynskritikk', 'eksistensielle-sporsmal', 'filosofiske-menneskesyn', 'etikk-i-kommunikasjon-og-relasjoner', 'menneskeverd-natur-og-teknologi', 'fordommer-rasisme-og-diskriminering');
+
+-- Religion og etikk: Religion, livssyn og sentrale fagbegreper
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('religion-og-etikk:religion-livssyn-og-fagbegreper', 'religion-og-etikk', 'religion-livssyn-og-fagbegreper', 'Religion, livssyn og sentrale fagbegreper', 'Hva religion og livssyn er, ulike måter å definere religion på, religionens dimensjoner, innenfra- og utenfraperspektiv, sentrale fagbegreper i religion, filosofi og etikk – og hvordan du vurderer kilder til kunnskap om religioner og livssyn.', array[7, 8]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('religion-og-etikk:religion-livssyn-og-fagbegreper', '## Hva er religion?
+
+Det finnes ingen definisjon av **religion** som alle er enige om. To hovedtyper:
+
+- **Substansielle** definisjoner sier hva religion **er**, for eksempel tro på noe **overnaturlig** – guder, ånder eller en hellig virkelighet.
+- **Funksjonelle** definisjoner sier hva religion **gjør**: gir **mening**, **fellesskap**, **identitet** og svar på store spørsmål.
+
+En funksjonell definisjon kan også omfatte fotball eller politikk, mens en substansiell definisjon kan utelate retninger uten gud, som noen former for buddhisme.
+
+## Livssyn
+
+Et **livssyn** er en grunnleggende oppfatning av **virkeligheten**, **mennesket** og hva som er **viktig** i livet. Alle har et livssyn, enten det er **religiøst** eller **sekulært**. I Norge brukes ordet ofte om **ikke-religiøse** livssyn, som **humanisme**.
+
+## Religionens dimensjoner
+
+Religionsforskeren **Ninian Smart** beskrev religioner ut fra flere dimensjoner:
+
+- **Læren** – trosinnholdet
+- **Fortellingene** – myter og hellige fortellinger
+- **Etikken** – regler og verdier for livet
+- **Ritualene** – bønn, gudstjenester og overgangsriter
+- **Erfaringene** – opplevelser av det hellige
+- **Fellesskapet** – organisasjon og tilhørighet
+- **Det materielle** – bygninger, kunst, klær og symboler
+
+Modellen gjør det lettere å **sammenligne** religioner.
+
+## Innenfra og utenfra
+
+- Et **innenfraperspektiv** er hvordan de **troende** selv forstår sin religion.
+- Et **utenfraperspektiv** er hvordan **forskere** eller andre beskriver den.
+
+Begge perspektivene er viktige. **Religionsvitenskapen** prøver å beskrive religioner **nøytralt** og **saklig**, uten å ta stilling til om de er **sanne**.
+
+## Sentrale fagbegreper
+
+- **Monoteisme**: tro på **én** gud. **Polyteisme**: tro på **mange** guder.
+- **Panteisme**: Gud er **i alt**.
+- **Ateisme**: tro på at det **ikke finnes** noen gud. **Agnostisisme**: at vi **ikke kan vite** om det finnes en gud.
+- **Sekularisering**: at religion får **mindre** betydning i samfunnet eller i folks liv.
+- **Fundamentalisme**: bokstavelig lesning av hellige tekster og motstand mot moderne tolkninger.
+- **Etikk**: systematisk tenkning om hva som er **rett** og **galt**. **Moral**: de faktiske **normene** og handlingene.
+- **Metafysikk**: filosofisk tenkning om **virkelighetens** grunnleggende natur.
+
+## Kilder til kunnskap
+
+- **Hellige tekster**, som Bibelen og Koranen – men tekstene **tolkes** ulikt.
+- **Troende** og **trossamfunn** – viktige innenfrastemmer, men én troende kan ikke snakke for **alle**.
+- **Forskning**, fagbøker og leksikon
+- **Medier** og sosiale medier – ofte preget av **konflikt** og **forenklinger**
+
+## Kildekritikk
+
+Spør: **Hvem** står bak? Er det et **innenfra-** eller **utenfraperspektiv**? Hvilket **formål** har kilden? Representerer den **mange** eller **få**? Stemmer den med **andre** kilder?
+
+Husk at religioner er **mangfoldige**. Det finnes ikke én «ekte» versjon av kristendommen eller islam – troende lever og tolker religionen **ulikt**.', '{"label":"Religion og livssyn","children":[{"label":"Definisjoner","children":[{"label":"Substansiell"},{"label":"Funksjonell"},{"label":"Livssyn"}]},{"label":"Dimensjoner","children":[{"label":"Lære og fortellinger"},{"label":"Etikk og ritualer"},{"label":"Erfaring, fellesskap, materielt"}]},{"label":"Perspektiv","children":[{"label":"Innenfra"},{"label":"Utenfra"}]},{"label":"Fagbegreper","children":[{"label":"Mono-, poly-, panteisme"},{"label":"Ateisme og agnostisisme"},{"label":"Sekularisering"}]},{"label":"Kilder","children":[{"label":"Hellige tekster"},{"label":"Troende og forskning"},{"label":"Kildekritikk"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'religion-og-etikk:religion-livssyn-og-fagbegreper';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('religion-og-etikk:religion-livssyn-og-fagbegreper', 'Substansiell definisjon', 'Sier hva religion er, for eksempel tro på noe overnaturlig.', 0),
+  ('religion-og-etikk:religion-livssyn-og-fagbegreper', 'Funksjonell definisjon', 'Sier hva religion gjør, for eksempel gir mening og fellesskap.', 1),
+  ('religion-og-etikk:religion-livssyn-og-fagbegreper', 'Livssyn', 'Grunnleggende oppfatning av virkeligheten, mennesket og hva som er viktig.', 2),
+  ('religion-og-etikk:religion-livssyn-og-fagbegreper', 'Ninian Smart', 'Religionsforsker som beskrev religionens dimensjoner.', 3),
+  ('religion-og-etikk:religion-livssyn-og-fagbegreper', 'Innenfraperspektiv', 'Hvordan de troende selv forstår sin religion.', 4),
+  ('religion-og-etikk:religion-livssyn-og-fagbegreper', 'Utenfraperspektiv', 'Hvordan forskere og andre beskriver religionen.', 5),
+  ('religion-og-etikk:religion-livssyn-og-fagbegreper', 'Religionsvitenskap', 'Nøytral og saklig studie av religioner.', 6),
+  ('religion-og-etikk:religion-livssyn-og-fagbegreper', 'Monoteisme', 'Tro på én gud.', 7),
+  ('religion-og-etikk:religion-livssyn-og-fagbegreper', 'Polyteisme', 'Tro på mange guder.', 8),
+  ('religion-og-etikk:religion-livssyn-og-fagbegreper', 'Panteisme', 'Troen på at Gud er i alt.', 9),
+  ('religion-og-etikk:religion-livssyn-og-fagbegreper', 'Ateisme', 'Tro på at det ikke finnes noen gud.', 10),
+  ('religion-og-etikk:religion-livssyn-og-fagbegreper', 'Agnostisisme', 'Synet at vi ikke kan vite om det finnes en gud.', 11),
+  ('religion-og-etikk:religion-livssyn-og-fagbegreper', 'Sekularisering', 'At religion får mindre betydning i samfunnet.', 12),
+  ('religion-og-etikk:religion-livssyn-og-fagbegreper', 'Fundamentalisme', 'Bokstavelig lesning av hellige tekster og motstand mot moderne tolkninger.', 13),
+  ('religion-og-etikk:religion-livssyn-og-fagbegreper', 'Etikk og moral', 'Etikk er tenkning om rett og galt, moral er de faktiske normene.', 14),
+  ('religion-og-etikk:religion-livssyn-og-fagbegreper', 'Metafysikk', 'Filosofisk tenkning om virkelighetens grunnleggende natur.', 15);
+delete from public.quiz_sporsmal where tema_id = 'religion-og-etikk:religion-livssyn-og-fagbegreper';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('religion-og-etikk:religion-livssyn-og-fagbegreper', 'q01', 'flervalg', 'Hva kjennetegner en funksjonell definisjon av religion?', array['Den sier hva religion er', 'Den sier hva religion gjør, for eksempel gir mening og fellesskap', 'Den handler bare om guder', 'Den gjelder bare kristendom']::text[], 1, 'Kan også omfatte ikke-religiøse fenomener.', true, true, 0),
+  ('religion-og-etikk:religion-livssyn-og-fagbegreper', 'q02', 'flervalg', 'Hva er et livssyn?', array['En grunnleggende oppfatning av virkeligheten, mennesket og hva som er viktig', 'Bare religiøs tro', 'En politisk ideologi', 'En type ritual']::text[], 0, 'Alle har et livssyn.', true, true, 1),
+  ('religion-og-etikk:religion-livssyn-og-fagbegreper', 'q03', 'flervalg', 'Hva er et innenfraperspektiv?', array['Hvordan forskere beskriver religionen', 'Hvordan medier framstiller religionen', 'Hvordan de troende selv forstår sin religion', 'Hvordan staten ser på religionen']::text[], 2, 'Utenfraperspektivet er forskerens.', true, true, 2),
+  ('religion-og-etikk:religion-livssyn-og-fagbegreper', 'q04', 'flervalg', 'Hva er agnostisisme?', array['Tro på mange guder', 'Tro på én gud', 'Tro på at Gud er i alt', 'Synet at vi ikke kan vite om det finnes en gud']::text[], 3, 'Skiller seg fra ateisme.', true, true, 3),
+  ('religion-og-etikk:religion-livssyn-og-fagbegreper', 'q05', 'flervalg', 'Hva er sekularisering?', array['At religion får mindre betydning i samfunnet', 'At religion blir sterkere', 'At en ny religion oppstår', 'At staten innfører religion']::text[], 0, 'Et sentralt fagbegrep.', true, true, 4),
+  ('religion-og-etikk:religion-livssyn-og-fagbegreper', 'q06', 'flervalg', 'Hvilken dimensjon hos Ninian Smart handler om bønn og gudstjenester?', array['Læren', 'Ritualene', 'Etikken', 'Det materielle']::text[], 1, 'Også overgangsriter.', true, true, 5),
+  ('religion-og-etikk:religion-livssyn-og-fagbegreper', 'q07', 'flervalg', 'Hvorfor kan én troende ikke snakke for alle?', array['Fordi troende lyver', 'Fordi religioner ikke har medlemmer', 'Fordi religioner er mangfoldige og tolkes ulikt', 'Fordi bare prester vet']::text[], 2, 'Det finnes ikke én ekte versjon.', true, true, 6),
+  ('religion-og-etikk:religion-livssyn-og-fagbegreper', 'q08', 'flervalg', 'Hva er forskjellen på etikk og moral?', array['Det er det samme', 'Moral er teori, etikk er praksis', 'Etikk handler bare om religion', 'Etikk er tenkning om rett og galt, moral er de faktiske normene']::text[], 3, 'Viktig fagbegrep.', true, true, 7),
+  ('religion-og-etikk:religion-livssyn-og-fagbegreper', 'q09', 'flervalg', 'Hva prøver religionsvitenskapen å gjøre?', array['Beskrive religioner nøytralt uten å ta stilling til om de er sanne', 'Bevise at religioner er sanne', 'Bevise at religioner er usanne', 'Omvende folk']::text[], 0, 'Saklig og nøytralt.', true, false, 8),
+  ('religion-og-etikk:religion-livssyn-og-fagbegreper', 'q10', 'flervalg', 'Hva er monoteisme?', array['Tro på mange guder', 'Tro på én gud', 'Tro på ingen gud', 'Tro på ånder']::text[], 1, 'For eksempel jødedom, kristendom og islam.', true, false, 9),
+  ('religion-og-etikk:religion-livssyn-og-fagbegreper', 'm01', 'sant-usant', 'Det finnes ingen definisjon av religion som alle er enige om.', array['Sant', 'Usant']::text[], 0, 'Substansielle og funksjonelle definisjoner har ulike svakheter.', false, true, 10),
+  ('religion-og-etikk:religion-livssyn-og-fagbegreper', 'm02', 'sant-usant', 'Medier gir alltid et balansert bilde av religioner.', array['Sant', 'Usant']::text[], 1, 'De er ofte preget av konflikt og forenklinger.', false, true, 11),
+  ('religion-og-etikk:religion-livssyn-og-fagbegreper', 'm03', 'sant-usant', 'Hellige tekster kan tolkes ulikt av troende.', array['Sant', 'Usant']::text[], 0, 'Derfor er religioner mangfoldige.', false, true, 12),
+  ('religion-og-etikk:religion-livssyn-og-fagbegreper', 'm04', 'sant-usant', 'Bare religiøse mennesker har et livssyn.', array['Sant', 'Usant']::text[], 1, 'Alle har et livssyn.', false, true, 13),
+  ('religion-og-etikk:religion-livssyn-og-fagbegreper', 'm05', 'flervalg', 'Hva er panteisme?', array['Tro på én gud', 'Troen på at Gud er i alt', 'Tro på ingen gud', 'Tro på mange guder']::text[], 1, 'Gud og verden er ett.', false, true, 14),
+  ('religion-og-etikk:religion-livssyn-og-fagbegreper', 'm06', 'flervalg', 'Hva er fundamentalisme?', array['Bokstavelig lesning av hellige tekster og motstand mot moderne tolkninger', 'Tro på mange guder', 'Sekularisering', 'Religionsvitenskap']::text[], 0, 'Finnes i mange religioner.', false, true, 15),
+  ('religion-og-etikk:religion-livssyn-og-fagbegreper', 'm07', 'flervalg', 'Hvilken dimensjon omfatter kirker, moskeer og symboler?', array['Læren', 'Etikken', 'Det materielle', 'Erfaringene']::text[], 2, 'Bygninger, kunst og klær.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('religion-og-etikk:religion-livssyn-og-fagbegreper', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Religion og etikk: Kristendommen
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('religion-og-etikk:kristendommen', 'religion-og-etikk', 'kristendommen', 'Kristendommen', 'Sentrale trekk ved kristendommen: Jesus og Bibelen, troen på treenigheten og frelse, de store kirkesamfunnene, ritualer og høytider, etikk – og kristendommens utbredelse og mangfold i dag, i Norge og globalt.', array[1]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('religion-og-etikk:kristendommen', '## Opphav
+
+Kristendommen oppstod i det **første århundret** blant jøder som trodde at **Jesus fra Nasaret** var **Messias** – den frelseren som var lovet i de jødiske skriftene. Jesus ble **korsfestet** i Jerusalem, og hans disipler forkynte at han hadde **stått opp** fra de døde. **Paulus** spredte troen til ikke-jøder i Romerriket. I dag er kristendommen den **største** religionen i verden.
+
+## Bibelen
+
+**Bibelen** består av
+
+- **Det gamle testamentet**, som stort sett tilsvarer de jødiske hellige skriftene
+- **Det nye testamentet** med de fire **evangeliene** om Jesu liv, **Apostlenes gjerninger**, **brevene** og **Johannes'' åpenbaring**
+
+Kristne leser Bibelen på ulike måter – fra **bokstavelig** til **historisk-kritisk**.
+
+## Troslære
+
+- **Treenigheten**: Gud er **én**, men har tre personer – **Far**, **Sønn** og **Hellig Ånd**.
+- **Inkarnasjonen**: Gud ble menneske i Jesus.
+- **Synd og frelse**: Mennesket er skilt fra Gud ved **synden**, men Jesu død og oppstandelse gir **frelse** og **tilgivelse**. Frelsen er en **gave** – **nåde**.
+- **Det evige liv**: håpet om oppstandelse og liv med Gud etter døden.
+
+## Kirkesamfunn
+
+- **Den katolske kirke** er den største, ledet av **paven** i Roma. Den legger stor vekt på **tradisjonen** og sju **sakramenter**.
+- **De ortodokse kirkene** står sterkt i Øst-Europa, Hellas og Russland. **Ikoner** og liturgi er sentrale.
+- **De protestantiske kirkene** vokste fram etter **reformasjonen** på 1500-tallet med **Martin Luther**. De vektlegger **Bibelen alene**, **troen alene** og **nåden alene**. **Den norske kirke** er **luthersk**.
+- **Pinsebevegelsen** og **karismatiske** kirker vokser raskt, særlig i det globale sør.
+
+## Ritualer og høytider
+
+- **Dåpen** tar mennesket inn i det kristne fellesskapet.
+- **Nattverden** minner om Jesu siste måltid med brød og vin.
+- **Konfirmasjon**, **vielse** og **gravferd** er viktige overgangsriter.
+- **Jul** feirer Jesu fødsel, **påske** hans død og oppstandelse, og **pinse** Den hellige ånds komme.
+
+## Etikk
+
+**Nestekjærlighet** er kjernen: «Du skal elske din neste som deg selv.» **Det dobbelte kjærlighetsbudet**, **De ti bud** og **Bergprekenen** er sentrale. Kristen etikk vektlegger **menneskeverd**, **tilgivelse** og omsorg for de **svake**. Kristne kan likevel være **uenige** i etiske spørsmål, som samlivsetikk og abort.
+
+## Kristendommen i dag
+
+- Tyngdepunktet har flyttet seg fra **Europa** til **Afrika**, **Latin-Amerika** og **Asia**.
+- I Norge er flertallet fortsatt medlem av **Den norske kirke**, men færre går regelmessig i kirken. Samtidig har **innvandring** gjort Norge mer **mangfoldig**, blant annet med flere **katolikker**.
+- **Økumenikk** betyr samarbeid mellom kirkesamfunnene.
+
+## Sammenligning
+
+Kristendommen deler med **jødedommen** og **islam** troen på **én gud** og mange av de samme fortellingene, som om **Abraham**. Det som skiller den mest, er troen på at **Jesus** er **Guds sønn**.', '{"label":"Kristendommen","children":[{"label":"Opphav","children":[{"label":"Jesus"},{"label":"Paulus"}]},{"label":"Bibelen","children":[{"label":"Det gamle testamentet"},{"label":"Det nye testamentet"}]},{"label":"Lære","children":[{"label":"Treenighet"},{"label":"Synd, frelse og nåde"}]},{"label":"Kirker","children":[{"label":"Katolsk"},{"label":"Ortodoks"},{"label":"Protestantisk og pinse"}]},{"label":"Praksis","children":[{"label":"Dåp og nattverd"},{"label":"Jul, påske, pinse"},{"label":"Nestekjærlighet"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'religion-og-etikk:kristendommen';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('religion-og-etikk:kristendommen', 'Jesus fra Nasaret', 'Den kristne tro ser ham som Messias og Guds sønn.', 0),
+  ('religion-og-etikk:kristendommen', 'Messias', 'Den lovede frelseren i de jødiske skriftene.', 1),
+  ('religion-og-etikk:kristendommen', 'Paulus', 'Spredte kristendommen til ikke-jøder i Romerriket.', 2),
+  ('religion-og-etikk:kristendommen', 'Evangeliene', 'De fire bøkene i Det nye testamentet om Jesu liv.', 3),
+  ('religion-og-etikk:kristendommen', 'Treenigheten', 'Én Gud i tre personer: Far, Sønn og Hellig Ånd.', 4),
+  ('religion-og-etikk:kristendommen', 'Inkarnasjonen', 'Troen på at Gud ble menneske i Jesus.', 5),
+  ('religion-og-etikk:kristendommen', 'Nåde', 'At frelsen er en gave fra Gud.', 6),
+  ('religion-og-etikk:kristendommen', 'Den katolske kirke', 'Største kirkesamfunn, ledet av paven.', 7),
+  ('religion-og-etikk:kristendommen', 'Ortodokse kirker', 'Kirker i Øst-Europa med vekt på ikoner og liturgi.', 8),
+  ('religion-og-etikk:kristendommen', 'Reformasjonen', 'Luthers opprør på 1500-tallet som førte til protestantiske kirker.', 9),
+  ('religion-og-etikk:kristendommen', 'Pinsebevegelsen', 'Karismatisk bevegelse som vokser raskt i det globale sør.', 10),
+  ('religion-og-etikk:kristendommen', 'Dåp', 'Ritual som tar mennesket inn i det kristne fellesskapet.', 11),
+  ('religion-og-etikk:kristendommen', 'Nattverd', 'Minnemåltid med brød og vin.', 12),
+  ('religion-og-etikk:kristendommen', 'Nestekjærlighet', 'Å elske sin neste som seg selv – kjernen i kristen etikk.', 13),
+  ('religion-og-etikk:kristendommen', 'Økumenikk', 'Samarbeid mellom kirkesamfunn.', 14);
+delete from public.quiz_sporsmal where tema_id = 'religion-og-etikk:kristendommen';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('religion-og-etikk:kristendommen', 'q01', 'flervalg', 'Hva tror kristne om Jesus?', array['At han bare var en profet', 'At han er Messias og Guds sønn', 'At han aldri levde', 'At han var en romersk keiser']::text[], 1, 'Det som skiller kristendommen mest fra jødedom og islam.', true, true, 0),
+  ('religion-og-etikk:kristendommen', 'q02', 'flervalg', 'Hva er treenigheten?', array['Én Gud i tre personer', 'Tre ulike guder', 'Tre hellige bøker', 'Tre høytider']::text[], 0, 'Far, Sønn og Hellig Ånd.', true, true, 1),
+  ('religion-og-etikk:kristendommen', 'q03', 'flervalg', 'Hvilket kirkesamfunn ledes av paven?', array['Den ortodokse kirke', 'Den norske kirke', 'Den katolske kirke', 'Pinsebevegelsen']::text[], 2, 'Den største kirken i verden.', true, true, 2),
+  ('religion-og-etikk:kristendommen', 'q04', 'flervalg', 'Hva la Martin Luther vekt på?', array['Pavens makt', 'Ikoner', 'Mange sakramenter', 'Bibelen alene, troen alene og nåden alene']::text[], 3, 'Grunnlaget for protestantismen.', true, true, 3),
+  ('religion-og-etikk:kristendommen', 'q05', 'flervalg', 'Hva feires i påsken?', array['Jesu død og oppstandelse', 'Jesu fødsel', 'Den hellige ånds komme', 'Moses og utferden']::text[], 0, 'Jul feirer fødselen.', true, true, 4),
+  ('religion-og-etikk:kristendommen', 'q06', 'flervalg', 'Hva er kjernen i kristen etikk?', array['Hevn', 'Nestekjærlighet', 'Rikdom', 'Makt']::text[], 1, '«Du skal elske din neste som deg selv.»', true, true, 5),
+  ('religion-og-etikk:kristendommen', 'q07', 'flervalg', 'Hvor har kristendommens tyngdepunkt flyttet seg?', array['Til Europa', 'Til Nord-Amerika alene', 'Til Afrika, Latin-Amerika og Asia', 'Til Antarktis']::text[], 2, 'Det globale sør.', true, true, 6),
+  ('religion-og-etikk:kristendommen', 'q08', 'flervalg', 'Hva er Den norske kirke?', array['Katolsk', 'Ortodoks', 'Pinsekirke', 'Luthersk']::text[], 3, 'Protestantisk.', true, true, 7),
+  ('religion-og-etikk:kristendommen', 'q09', 'flervalg', 'Hva er nattverden?', array['Et minnemåltid med brød og vin', 'En type dåp', 'En høytid', 'En bønn om natten']::text[], 0, 'Minner om Jesu siste måltid.', true, false, 8),
+  ('religion-og-etikk:kristendommen', 'q10', 'flervalg', 'Hvem spredte kristendommen til ikke-jøder i Romerriket?', array['Martin Luther', 'Paulus', 'Moses', 'Abraham']::text[], 1, 'Hans brev står i Det nye testamentet.', true, false, 9),
+  ('religion-og-etikk:kristendommen', 'm01', 'sant-usant', 'Kristendommen er den største religionen i verden.', array['Sant', 'Usant']::text[], 0, 'Etterfulgt av islam.', false, true, 10),
+  ('religion-og-etikk:kristendommen', 'm02', 'sant-usant', 'Alle kristne er enige om alle etiske spørsmål.', array['Sant', 'Usant']::text[], 1, 'De kan være uenige, for eksempel om abort.', false, true, 11),
+  ('religion-og-etikk:kristendommen', 'm03', 'sant-usant', 'Kristendommen, jødedommen og islam deler troen på én gud.', array['Sant', 'Usant']::text[], 0, 'Og fortellingen om Abraham.', false, true, 12),
+  ('religion-og-etikk:kristendommen', 'm04', 'sant-usant', 'Det gamle testamentet handler om Jesu liv.', array['Sant', 'Usant']::text[], 1, 'Det gjør evangeliene i Det nye testamentet.', false, true, 13),
+  ('religion-og-etikk:kristendommen', 'm05', 'flervalg', 'Hva er økumenikk?', array['Misjon', 'Samarbeid mellom kirkesamfunn', 'En type bønn', 'En høytid']::text[], 1, 'Kirkene samarbeider på tvers.', false, true, 14),
+  ('religion-og-etikk:kristendommen', 'm06', 'flervalg', 'Hva er sentralt i de ortodokse kirkene?', array['Ikoner og liturgi', 'Pavens makt', 'Bibelen alene', 'Tungetale']::text[], 0, 'Står sterkt i Øst-Europa.', false, true, 15),
+  ('religion-og-etikk:kristendommen', 'm07', 'flervalg', 'Hva feires i pinsen?', array['Jesu fødsel', 'Jesu død', 'Den hellige ånds komme', 'Moses'' lov']::text[], 2, 'Femti dager etter påske.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('religion-og-etikk:kristendommen', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Religion og etikk: Islam
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('religion-og-etikk:islam', 'religion-og-etikk', 'islam', 'Islam', 'Sentrale trekk ved islam: profeten Muhammad, Koranen og sunna, troen på Guds enhet, de fem søylene, sunni og sjia, sharia og ulike tolkninger – og islam i verden og i Norge i dag.', array[1]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('religion-og-etikk:islam', '## Opphav
+
+**Islam** betyr «**underkastelse**» under Gud. Muslimer tror at **Muhammad** (ca. 570–632) var Guds siste **profet**. Han levde i **Mekka** på den arabiske halvøy og fikk ifølge tradisjonen **åpenbaringer** fra Gud gjennom engelen **Jibril**. I **622** flyttet han og tilhengerne til **Medina** – **hijra** – og dette året er starten på den muslimske tidsregningen. Islam er i dag verdens **nest største** religion.
+
+## Koranen og sunna
+
+- **Koranen** er for muslimer **Guds eget ord**, åpenbart til Muhammad på **arabisk**.
+- **Sunna** er Muhammads **eksempel** – hva han sa og gjorde – slik det er fortalt i **hadith**-samlingene.
+
+Koranen og sunna er de viktigste **kildene** til islamsk tro og praksis.
+
+## Troslære
+
+- **Tawhid**: Gud – **Allah** – er **én**. Gud har ingen partner og ingen sønn.
+- Tro på **engler**, **profeter**, **hellige skrifter**, **dommens dag** og Guds **forutbestemmelse**.
+- Profetene omfatter blant andre **Abraham** (Ibrahim), **Moses** (Musa) og **Jesus** (Isa). Jesus regnes som en stor profet, men **ikke** Guds sønn.
+
+## De fem søylene
+
+1. **Trosbekjennelsen** – det finnes ingen gud unntatt Gud, og Muhammad er hans sendebud
+2. **Bønn** fem ganger om dagen, vendt mot **Mekka**
+3. **Almisse** – å gi en del av formuen til de trengende
+4. **Faste** i måneden **ramadan** fra soloppgang til solnedgang
+5. **Pilegrimsreise** til Mekka – **hajj** – minst én gang i livet for dem som kan
+
+## Retninger
+
+- **Sunnimuslimer** utgjør det store **flertallet**.
+- **Sjiamuslimer** utgjør en **minoritet** og står sterkest i **Iran** og **Irak**.
+
+Splittelsen startet med uenighet om hvem som skulle **lede** muslimene etter Muhammads død. Sjiamuslimene mener at lederskapet tilhørte hans svigersønn **Ali** og hans etterkommere.
+
+**Sufisme** er en **mystisk** retning som søker en nær, personlig opplevelse av Gud.
+
+## Sharia
+
+**Sharia** betyr «veien» og er Guds vilje for menneskenes liv – bønn, faste, familieliv, handel og straff. Sharia er **ikke** én lovbok, men noe som **tolkes** av lærde. Muslimer har svært **ulike** syn på hvordan sharia skal forstås, og de fleste muslimer i Norge ser på den som en **personlig** veiledning, ikke som statlig lov.
+
+## Høytider og ritualer
+
+- **Id al-fitr** avslutter ramadan.
+- **Id al-adha** – offerfesten – markerer slutten på hajj og minner om Abrahams vilje til å ofre sønnen.
+- **Fredagsbønnen** i moskeen er ukens viktigste bønn.
+
+## Islam i Norge og verden
+
+De fleste muslimer bor i **Asia** og **Afrika**, og landet med flest muslimer er **Indonesia**. I Norge er islam det **største** trossamfunnet utenfor kristendommen. De fleste muslimer i Norge har røtter i blant annet **Pakistan**, **Somalia**, **Irak**, **Tyrkia** og **Bosnia**, men stadig flere er født i Norge – og noen er **konvertitter**.
+
+## Mangfold
+
+Muslimer er like **mangfoldige** som andre troende: noen er svært **praktiserende**, andre **kulturelle** muslimer. Det er stor forskjell på **islam** som religion og **islamisme** – politiske bevegelser som vil bygge samfunnet på en bestemt tolkning av islam.', '{"label":"Islam","children":[{"label":"Opphav","children":[{"label":"Muhammad"},{"label":"Mekka og Medina"}]},{"label":"Kilder","children":[{"label":"Koranen"},{"label":"Sunna og hadith"}]},{"label":"Tro og praksis","children":[{"label":"Tawhid"},{"label":"Fem søyler"},{"label":"Id-feiringene"}]},{"label":"Retninger","children":[{"label":"Sunni"},{"label":"Sjia"},{"label":"Sufisme"}]},{"label":"I dag","children":[{"label":"Sharia og tolkning"},{"label":"Islam i Norge"},{"label":"Mangfold"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'religion-og-etikk:islam';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('religion-og-etikk:islam', 'Islam', 'Betyr underkastelse under Gud.', 0),
+  ('religion-og-etikk:islam', 'Muhammad', 'Guds siste profet ifølge islam, levde ca. 570–632.', 1),
+  ('religion-og-etikk:islam', 'Hijra', 'Utvandringen til Medina i 622 – starten på den muslimske tidsregningen.', 2),
+  ('religion-og-etikk:islam', 'Koranen', 'Guds eget ord for muslimer, åpenbart på arabisk.', 3),
+  ('religion-og-etikk:islam', 'Sunna', 'Muhammads eksempel, fortalt i hadith.', 4),
+  ('religion-og-etikk:islam', 'Tawhid', 'Læren om Guds enhet.', 5),
+  ('religion-og-etikk:islam', 'Isa', 'Jesus i islam – en stor profet, men ikke Guds sønn.', 6),
+  ('religion-og-etikk:islam', 'De fem søylene', 'Trosbekjennelse, bønn, almisse, faste og pilegrimsreise.', 7),
+  ('religion-og-etikk:islam', 'Ramadan', 'Fastemåneden.', 8),
+  ('religion-og-etikk:islam', 'Hajj', 'Pilegrimsreisen til Mekka.', 9),
+  ('religion-og-etikk:islam', 'Sunnimuslimer', 'Det store flertallet av muslimer.', 10),
+  ('religion-og-etikk:islam', 'Sjiamuslimer', 'Minoritet som mener lederskapet tilhørte Ali og hans etterkommere.', 11),
+  ('religion-og-etikk:islam', 'Sufisme', 'Mystisk retning i islam.', 12),
+  ('religion-og-etikk:islam', 'Sharia', '«Veien» – Guds vilje for menneskenes liv, som tolkes av lærde.', 13),
+  ('religion-og-etikk:islam', 'Id al-fitr', 'Høytiden som avslutter ramadan.', 14),
+  ('religion-og-etikk:islam', 'Islamisme', 'Politiske bevegelser som vil bygge samfunnet på en tolkning av islam.', 15);
+delete from public.quiz_sporsmal where tema_id = 'religion-og-etikk:islam';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('religion-og-etikk:islam', 'q01', 'flervalg', 'Hva betyr ordet islam?', array['Fred alene', 'Underkastelse under Gud', 'Bønn', 'Profet']::text[], 1, 'Ordet er beslektet med salam – fred.', true, true, 0),
+  ('religion-og-etikk:islam', 'q02', 'flervalg', 'Hva er Koranen for muslimer?', array['Guds eget ord', 'Muhammads dagbok', 'En historiebok', 'En samling dikt']::text[], 0, 'Åpenbart på arabisk.', true, true, 1),
+  ('religion-og-etikk:islam', 'q03', 'flervalg', 'Hva er tawhid?', array['Fasten', 'Pilegrimsreisen', 'Læren om Guds enhet', 'En høytid']::text[], 2, 'Gud har ingen partner og ingen sønn.', true, true, 2),
+  ('religion-og-etikk:islam', 'q04', 'flervalg', 'Hvor mange ganger om dagen skal muslimer be?', array['Én', 'Tre', 'Sju', 'Fem']::text[], 3, 'En av de fem søylene.', true, true, 3),
+  ('religion-og-etikk:islam', 'q05', 'flervalg', 'Hva startet splittelsen mellom sunni og sjia?', array['Uenighet om hvem som skulle lede etter Muhammads død', 'Uenighet om fasten', 'Uenighet om Koranens språk', 'En krig mot Romerriket']::text[], 0, 'Sjiamuslimene støttet Ali.', true, true, 4),
+  ('religion-og-etikk:islam', 'q06', 'flervalg', 'Hvordan ser islam på Jesus?', array['Som Guds sønn', 'Som en stor profet, men ikke Guds sønn', 'Som en falsk profet', 'Han nevnes ikke']::text[], 1, 'Kalt Isa.', true, true, 5),
+  ('religion-og-etikk:islam', 'q07', 'flervalg', 'Hva er sharia?', array['En bestemt lovbok alle er enige om', 'En moske', 'Guds vilje for menneskenes liv, som tolkes av lærde', 'En høytid']::text[], 2, 'Muslimer har ulike syn på sharia.', true, true, 6),
+  ('religion-og-etikk:islam', 'q08', 'flervalg', 'Hvilket land har flest muslimer?', array['Saudi-Arabia', 'Iran', 'Tyrkia', 'Indonesia']::text[], 3, 'De fleste muslimer bor i Asia og Afrika.', true, true, 7),
+  ('religion-og-etikk:islam', 'q09', 'flervalg', 'Hva markerer id al-adha?', array['Slutten på hajj og Abrahams vilje til å ofre sønnen', 'Slutten på ramadan', 'Muhammads fødsel', 'Nyttår']::text[], 0, 'Kalles også offerfesten.', true, false, 8),
+  ('religion-og-etikk:islam', 'q10', 'flervalg', 'Hva er forskjellen på islam og islamisme?', array['Det er det samme', 'Islamisme er politiske bevegelser som vil bygge samfunnet på en tolkning av islam', 'Islamisme er en høytid', 'Islam er en politisk ideologi']::text[], 1, 'Viktig å skille mellom.', true, false, 9),
+  ('religion-og-etikk:islam', 'm01', 'sant-usant', 'Islam er det største trossamfunnet i Norge utenfor kristendommen.', array['Sant', 'Usant']::text[], 0, 'Med røtter i mange land.', false, true, 10),
+  ('religion-og-etikk:islam', 'm02', 'sant-usant', 'Alle muslimer tolker sharia på samme måte.', array['Sant', 'Usant']::text[], 1, 'Tolkningene er svært ulike.', false, true, 11),
+  ('religion-og-etikk:islam', 'm03', 'sant-usant', 'Den muslimske tidsregningen starter med hijra i 622.', array['Sant', 'Usant']::text[], 0, 'Utvandringen til Medina.', false, true, 12),
+  ('religion-og-etikk:islam', 'm04', 'sant-usant', 'Sjiamuslimer er flertallet av muslimer i verden.', array['Sant', 'Usant']::text[], 1, 'Sunnimuslimer er flertallet.', false, true, 13),
+  ('religion-og-etikk:islam', 'm05', 'flervalg', 'Hva er sunna?', array['Fastemåneden', 'Muhammads eksempel', 'Pilegrimsreisen', 'En retning']::text[], 1, 'Fortalt i hadith.', false, true, 14),
+  ('religion-og-etikk:islam', 'm06', 'flervalg', 'Hva er almisse i islam?', array['Å gi en del av formuen til de trengende', 'Å be fem ganger', 'Å faste', 'Å reise til Mekka']::text[], 0, 'En av de fem søylene.', false, true, 15),
+  ('religion-og-etikk:islam', 'm07', 'flervalg', 'Hva kjennetegner sufisme?', array['Politisk kamp', 'Lovtolkning', 'Søken etter en nær, personlig opplevelse av Gud', 'Motstand mot bønn']::text[], 2, 'En mystisk retning.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('religion-og-etikk:islam', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Religion og etikk: Jødedommen
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('religion-og-etikk:jodedommen', 'religion-og-etikk', 'jodedommen', 'Jødedommen', 'Sentrale trekk ved jødedommen: pakten med Gud, Toraen, Tanakh og Talmud, sabbat, høytider og ritualer, de ulike retningene, diasporaen og staten Israel – og jødisk liv og historie i Norge.', array[1]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('religion-og-etikk:jodedommen', '## Den eldste av de abrahamittiske religionene
+
+**Jødedommen** er den eldste av de tre **abrahamittiske** religionene – jødedom, kristendom og islam. Den bygger på troen på **én gud** og på en **pakt** mellom Gud og det jødiske folket. Ifølge tradisjonen inngikk Gud en pakt med **Abraham**, og senere fikk **Moses** Guds **lov** på **Sinai**-fjellet etter at israelittene ble ført ut av slaveriet i **Egypt**.
+
+Jødedommen er både en **religion** og et **folk** med felles historie. Mange jøder er **sekulære**, men føler seg likevel jødiske.
+
+## Hellige skrifter
+
+- **Toraen** – de fem Mosebøkene – er den viktigste delen av de hellige skriftene. Den inneholder både **fortellinger** og **bud**.
+- **Tanakh** er hele den hebraiske bibelen: Toraen, **Profetene** og **Skriftene**. Den tilsvarer stort sett kristendommens Gamle testamente.
+- **Talmud** er en stor samling **diskusjoner** og **tolkninger** av loven, skrevet av rabbinere gjennom flere hundre år.
+
+## Tro og praksis
+
+- Troen på **én gud** uttrykkes i bønnen **Sjema**: «Hør, Israel! Herren er vår Gud, Herren er én.»
+- Jødedommen legger stor vekt på **handling** – å leve etter **budene** – mer enn på trosbekjennelser.
+- **Kosher**-reglene bestemmer hva som er tillatt å spise, for eksempel at kjøtt og melk ikke skal blandes.
+- **Synagogen** er stedet for bønn, lesning og undervisning, og **rabbineren** er lærer og leder.
+
+## Sabbat og høytider
+
+- **Sabbaten** varer fra **fredag kveld** til **lørdag kveld** og er en hviledag til minne om skapelsen.
+- **Pesach** minner om **utferden** fra Egypt.
+- **Rosh hashana** er det jødiske **nyttåret**, og **jom kippur** er **forsoningsdagen** med faste og bønn.
+- **Hanukka** er lysfesten som minner om gjeninnvielsen av tempelet i Jerusalem.
+
+## Overgangsriter
+
+- **Omskjæring** av guttebarn på den åttende dagen som tegn på pakten
+- **Bar mitsva** for gutter ved 13 år og **bat mitsva** for jenter ved 12 eller 13 år – de blir **religiøst myndige**
+
+## Retninger
+
+- **Ortodoks** jødedom følger loven **strengt** og ser den som uforanderlig.
+- **Konservativ** jødedom står i en mellomposisjon.
+- **Reformjødedom** eller **liberal** jødedom tilpasser tradisjonen til moderne tid, for eksempel med kvinnelige rabbinere.
+
+## Diaspora og Israel
+
+Etter at romerne ødela **tempelet** i Jerusalem i år **70**, spredte jødene seg over store deler av verden – **diasporaen**. Jøder ble utsatt for **forfølgelse** og **antisemittisme** i mange hundre år, og under **holocaust** ble om lag seks millioner jøder drept. Staten **Israel** ble opprettet i **1948**. Konflikten med **palestinerne** har preget regionen siden.
+
+## Jøder i Norge
+
+**Grunnloven** fra 1814 stengte jøder ute fra riket. Forbudet ble opphevet i **1851**, blant annet etter innsats fra **Henrik Wergeland**. Under andre verdenskrig ble rundt 770 jøder deportert fra Norge. I dag finnes det jødiske menigheter i **Oslo** og **Trondheim**, og jøder er en **nasjonal minoritet** i Norge.', '{"label":"Jødedommen","children":[{"label":"Opphav","children":[{"label":"Abraham og pakten"},{"label":"Moses og loven"}]},{"label":"Skrifter","children":[{"label":"Toraen"},{"label":"Tanakh"},{"label":"Talmud"}]},{"label":"Praksis","children":[{"label":"Sabbat"},{"label":"Kosher"},{"label":"Synagoge"}]},{"label":"Høytider og riter","children":[{"label":"Pesach og jom kippur"},{"label":"Hanukka"},{"label":"Bar og bat mitsva"}]},{"label":"Historie","children":[{"label":"Diaspora"},{"label":"Holocaust og Israel"},{"label":"Jøder i Norge"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'religion-og-etikk:jodedommen';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('religion-og-etikk:jodedommen', 'Abrahamittiske religioner', 'Jødedom, kristendom og islam.', 0),
+  ('religion-og-etikk:jodedommen', 'Pakten', 'Forholdet mellom Gud og det jødiske folket.', 1),
+  ('religion-og-etikk:jodedommen', 'Toraen', 'De fem Mosebøkene – den viktigste delen av de hellige skriftene.', 2),
+  ('religion-og-etikk:jodedommen', 'Tanakh', 'Den hebraiske bibelen: Toraen, Profetene og Skriftene.', 3),
+  ('religion-og-etikk:jodedommen', 'Talmud', 'Samling av rabbinernes diskusjoner og tolkninger av loven.', 4),
+  ('religion-og-etikk:jodedommen', 'Sjema', 'Bønnen «Hør, Israel! Herren er vår Gud, Herren er én.»', 5),
+  ('religion-og-etikk:jodedommen', 'Kosher', 'Regler for hva som er tillatt å spise.', 6),
+  ('religion-og-etikk:jodedommen', 'Synagoge', 'Sted for bønn, lesning og undervisning.', 7),
+  ('religion-og-etikk:jodedommen', 'Rabbiner', 'Jødisk lærer og leder.', 8),
+  ('religion-og-etikk:jodedommen', 'Sabbat', 'Hviledagen fra fredag kveld til lørdag kveld.', 9),
+  ('religion-og-etikk:jodedommen', 'Pesach', 'Høytid som minner om utferden fra Egypt.', 10),
+  ('religion-og-etikk:jodedommen', 'Jom kippur', 'Forsoningsdagen med faste og bønn.', 11),
+  ('religion-og-etikk:jodedommen', 'Bar og bat mitsva', 'Overgangsrite der gutter og jenter blir religiøst myndige.', 12),
+  ('religion-og-etikk:jodedommen', 'Diaspora', 'At jødene spredte seg over verden etter år 70.', 13),
+  ('religion-og-etikk:jodedommen', 'Reformjødedom', 'Retning som tilpasser tradisjonen til moderne tid.', 14);
+delete from public.quiz_sporsmal where tema_id = 'religion-og-etikk:jodedommen';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('religion-og-etikk:jodedommen', 'q01', 'flervalg', 'Hva er Toraen?', array['Den muslimske hellige boken', 'De fem Mosebøkene', 'Rabbinernes diskusjoner', 'En bønn']::text[], 1, 'Den viktigste delen av de hellige skriftene.', true, true, 0),
+  ('religion-og-etikk:jodedommen', 'q02', 'flervalg', 'Hva er Talmud?', array['En samling rabbinske diskusjoner og tolkninger av loven', 'En høytid', 'Et tempel', 'En overgangsrite']::text[], 0, 'Skrevet gjennom flere hundre år.', true, true, 1),
+  ('religion-og-etikk:jodedommen', 'q03', 'flervalg', 'Når varer sabbaten?', array['Hele søndag', 'Mandag til fredag', 'Fra fredag kveld til lørdag kveld', 'Bare lørdag morgen']::text[], 2, 'En hviledag til minne om skapelsen.', true, true, 2),
+  ('religion-og-etikk:jodedommen', 'q04', 'flervalg', 'Hva minner pesach om?', array['Skapelsen', 'Tempelets gjeninnvielse', 'Nyttåret', 'Utferden fra Egypt']::text[], 3, 'En av de viktigste høytidene.', true, true, 3),
+  ('religion-og-etikk:jodedommen', 'q05', 'flervalg', 'Hva er jom kippur?', array['Forsoningsdagen med faste og bønn', 'Lysfesten', 'Nyttåret', 'Høsttakkefesten']::text[], 0, 'Den helligste dagen i året.', true, true, 4),
+  ('religion-og-etikk:jodedommen', 'q06', 'flervalg', 'Hvilken retning følger loven strengest?', array['Reformjødedom', 'Ortodoks jødedom', 'Konservativ jødedom', 'Sekulær jødedom']::text[], 1, 'Loven ses som uforanderlig.', true, true, 5),
+  ('religion-og-etikk:jodedommen', 'q07', 'flervalg', 'Hva er diasporaen?', array['Et jødisk tempel', 'En høytid', 'At jødene spredte seg over verden', 'En hellig bok']::text[], 2, 'Etter at tempelet ble ødelagt i år 70.', true, true, 6),
+  ('religion-og-etikk:jodedommen', 'q08', 'flervalg', 'Når ble forbudet mot jøder i Grunnloven opphevet?', array['1814', '1905', '1945', '1851']::text[], 3, 'Blant annet etter innsats fra Wergeland.', true, true, 7),
+  ('religion-og-etikk:jodedommen', 'q09', 'flervalg', 'Hva er kosher?', array['Regler for hva som er tillatt å spise', 'En bønn', 'En synagoge', 'En type rabbiner']::text[], 0, 'For eksempel skal kjøtt og melk ikke blandes.', true, false, 8),
+  ('religion-og-etikk:jodedommen', 'q10', 'flervalg', 'Hva legger jødedommen særlig vekt på?', array['Trosbekjennelser alene', 'Handling – å leve etter budene', 'Misjon', 'Pilegrimsreise til Mekka']::text[], 1, 'Praksis er sentralt.', true, false, 9),
+  ('religion-og-etikk:jodedommen', 'm01', 'sant-usant', 'Mange jøder er sekulære, men føler seg likevel jødiske.', array['Sant', 'Usant']::text[], 0, 'Jødedommen er både religion og folk.', false, true, 10),
+  ('religion-og-etikk:jodedommen', 'm02', 'sant-usant', 'Jødedommen er den yngste av de abrahamittiske religionene.', array['Sant', 'Usant']::text[], 1, 'Den er den eldste.', false, true, 11),
+  ('religion-og-etikk:jodedommen', 'm03', 'sant-usant', 'Jøder er en nasjonal minoritet i Norge.', array['Sant', 'Usant']::text[], 0, 'Sammen med kvener, skogfinner, rom og romanifolket.', false, true, 12),
+  ('religion-og-etikk:jodedommen', 'm04', 'sant-usant', 'Reformjødedommen tillater ikke kvinnelige rabbinere.', array['Sant', 'Usant']::text[], 1, 'Den har kvinnelige rabbinere.', false, true, 13),
+  ('religion-og-etikk:jodedommen', 'm05', 'flervalg', 'Hva er hanukka?', array['Forsoningsdagen', 'Lysfesten', 'Nyttåret', 'Utferden']::text[], 1, 'Minner om gjeninnvielsen av tempelet.', false, true, 14),
+  ('religion-og-etikk:jodedommen', 'm06', 'flervalg', 'Når ble staten Israel opprettet?', array['1948', '1914', '1851', '70']::text[], 0, 'Etter andre verdenskrig.', false, true, 15),
+  ('religion-og-etikk:jodedommen', 'm07', 'flervalg', 'Hvilke deler består Tanakh av?', array['Evangeliene og brevene', 'Koranen og hadith', 'Toraen, Profetene og Skriftene', 'Vedaene og Upanishadene']::text[], 2, 'Den hebraiske bibelen.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('religion-og-etikk:jodedommen', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Religion og etikk: Hinduisme, buddhisme og andre østlige tradisjoner
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('religion-og-etikk:hinduisme-buddhisme-og-ostlige-tradisjoner', 'religion-og-etikk', 'hinduisme-buddhisme-og-ostlige-tradisjoner', 'Hinduisme, buddhisme og andre østlige tradisjoner', 'Sentrale trekk ved hinduisme og buddhisme – samsara, karma og moksha, de fire edle sannhetene og den åttedelte veien – kort om sikhisme, konfutsianisme og daoisme, og en sammenligning av østlige og vestlige religiøse tradisjoner.', array[1]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('religion-og-etikk:hinduisme-buddhisme-og-ostlige-tradisjoner', '## Hinduisme
+
+**Hinduisme** er en samlebetegnelse på mange tradisjoner som har vokst fram i **India** over flere tusen år. Den har **ingen grunnlegger** og ingen felles trosbekjennelse.
+
+- **Hellige skrifter**: de eldste er **Vedaene**. **Upanishadene** inneholder filosofiske tekster, og **Bhagavadgita** er en av de mest leste.
+- **Brahman** er den **altomfattende** virkeligheten, og **atman** er menneskets innerste **selv**. Ifølge mange hinduer er atman og brahman **ett**.
+- **Guder**: Mange guder dyrkes, blant dem **Brahma**, **Vishnu** og **Shiva**. Mange hinduer ser gudene som ulike **uttrykk** for det samme guddommelige.
+- **Samsara** er kretsløpet av fødsel, død og **gjenfødelse**. **Karma** er loven om at handlinger får **konsekvenser** for det neste livet. Målet er **moksha** – **frigjøring** fra kretsløpet.
+- **Dharma** er plikten og den rette måten å leve på.
+- **Puja** er tilbedelse hjemme eller i templet.
+
+**Kastesystemet** har historisk delt samfunnet i grupper med ulik status. Diskriminering på grunn av kaste er forbudt i Indias grunnlov, men har fortsatt betydning.
+
+## Buddhisme
+
+**Buddhismen** ble grunnlagt av **Siddharta Gautama** i Nord-India for rundt 2500 år siden. Han levde som prins, men forlot palasset etter å ha sett **alderdom**, **sykdom** og **død**. Etter lang meditasjon fikk han **oppvåkning** og ble kalt **Buddha** – «den oppvåknede».
+
+**De fire edle sannhetene**:
+
+1. Livet innebærer **lidelse**.
+2. Lidelsen skyldes **begjær** og tilknytning.
+3. Lidelsen kan **opphøre**.
+4. Veien dit er **den åttedelte veien** – rett forståelse, tanke, tale, handling, levemåte, innsats, oppmerksomhet og konsentrasjon.
+
+Buddhismen lærer at det ikke finnes et **fast selv** – **anatta** – og at alt er **forgjengelig**. Målet er **nirvana** – at lidelsen og gjenfødslene opphører.
+
+Hovedretninger er **theravada**, **mahayana** og **vajrayana**, som den tibetanske buddhismen med **Dalai Lama**.
+
+## Sikhisme
+
+**Sikhismen** ble grunnlagt av **Guru Nanak** i **Punjab** rundt år **1500**. Sikhene tror på **én gud** og på **likeverd** mellom alle mennesker. Den hellige boken **Guru Granth Sahib** står i sentrum i tempelet – **gurdwaraen** – der alle kan spise gratis i **langar**, fellesmåltidet.
+
+## Kinesiske tradisjoner
+
+- **Konfutsianisme** bygger på læren til **Konfucius** og legger vekt på **harmoni**, **plikt**, respekt for **foreldre** og riktige **relasjoner**.
+- **Daoisme** handler om å leve i pakt med **dao** – «veien» – og naturens rytme. Symbolet **yin og yang** viser at motsetninger **utfyller** hverandre.
+
+## Østlige og vestlige tradisjoner
+
+| | Vestlige (abrahamittiske) | Østlige |
+|---|---|---|
+| Gud | én personlig gud | mange guder, en upersonlig virkelighet eller ingen gud |
+| Tid | lineær – fra skapelse til dommedag | syklisk – kretsløp og gjenfødelse |
+| Mål | frelse og evig liv | frigjøring eller harmoni |
+| Tekster | én avgrenset hellig bok | ofte mange tekster |
+
+Sammenligningen er en **forenkling**. Det finnes stor **variasjon** innenfor alle tradisjonene, og mange tradisjoner har påvirket hverandre.', '{"label":"Østlige tradisjoner","children":[{"label":"Hinduisme","children":[{"label":"Brahman og atman"},{"label":"Samsara og karma"},{"label":"Moksha og dharma"}]},{"label":"Buddhisme","children":[{"label":"Fire edle sannheter"},{"label":"Åttedelte vei"},{"label":"Anatta og nirvana"}]},{"label":"Sikhisme","children":[{"label":"Guru Nanak"},{"label":"Likeverd og langar"}]},{"label":"Kina","children":[{"label":"Konfutsianisme"},{"label":"Daoisme"}]},{"label":"Sammenligning","children":[{"label":"Syklisk og lineær tid"},{"label":"Frigjøring og frelse"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'religion-og-etikk:hinduisme-buddhisme-og-ostlige-tradisjoner';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('religion-og-etikk:hinduisme-buddhisme-og-ostlige-tradisjoner', 'Hinduisme', 'Samlebetegnelse på mange tradisjoner fra India uten én grunnlegger.', 0),
+  ('religion-og-etikk:hinduisme-buddhisme-og-ostlige-tradisjoner', 'Vedaene', 'Hinduismens eldste hellige skrifter.', 1),
+  ('religion-og-etikk:hinduisme-buddhisme-og-ostlige-tradisjoner', 'Bhagavadgita', 'En av de mest leste hinduistiske tekstene.', 2),
+  ('religion-og-etikk:hinduisme-buddhisme-og-ostlige-tradisjoner', 'Brahman og atman', 'Den altomfattende virkeligheten og menneskets innerste selv.', 3),
+  ('religion-og-etikk:hinduisme-buddhisme-og-ostlige-tradisjoner', 'Samsara', 'Kretsløpet av fødsel, død og gjenfødelse.', 4),
+  ('religion-og-etikk:hinduisme-buddhisme-og-ostlige-tradisjoner', 'Karma', 'Loven om at handlinger får konsekvenser for det neste livet.', 5),
+  ('religion-og-etikk:hinduisme-buddhisme-og-ostlige-tradisjoner', 'Moksha', 'Frigjøring fra kretsløpet i hinduismen.', 6),
+  ('religion-og-etikk:hinduisme-buddhisme-og-ostlige-tradisjoner', 'Dharma', 'Plikten og den rette måten å leve på.', 7),
+  ('religion-og-etikk:hinduisme-buddhisme-og-ostlige-tradisjoner', 'Buddha', '«Den oppvåknede» – Siddharta Gautama.', 8),
+  ('religion-og-etikk:hinduisme-buddhisme-og-ostlige-tradisjoner', 'De fire edle sannhetene', 'Lidelse, årsaken til lidelse, opphør av lidelse og veien dit.', 9),
+  ('religion-og-etikk:hinduisme-buddhisme-og-ostlige-tradisjoner', 'Den åttedelte veien', 'Buddhismens vei ut av lidelsen.', 10),
+  ('religion-og-etikk:hinduisme-buddhisme-og-ostlige-tradisjoner', 'Anatta', 'Læren om at det ikke finnes et fast selv.', 11),
+  ('religion-og-etikk:hinduisme-buddhisme-og-ostlige-tradisjoner', 'Nirvana', 'At lidelsen og gjenfødslene opphører.', 12),
+  ('religion-og-etikk:hinduisme-buddhisme-og-ostlige-tradisjoner', 'Guru Nanak', 'Grunnla sikhismen rundt år 1500.', 13),
+  ('religion-og-etikk:hinduisme-buddhisme-og-ostlige-tradisjoner', 'Langar', 'Gratis fellesmåltid i sikhenes tempel.', 14),
+  ('religion-og-etikk:hinduisme-buddhisme-og-ostlige-tradisjoner', 'Yin og yang', 'Daoistisk symbol for motsetninger som utfyller hverandre.', 15);
+delete from public.quiz_sporsmal where tema_id = 'religion-og-etikk:hinduisme-buddhisme-og-ostlige-tradisjoner';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('religion-og-etikk:hinduisme-buddhisme-og-ostlige-tradisjoner', 'q01', 'flervalg', 'Hvem grunnla hinduismen?', array['Buddha', 'Den har ingen grunnlegger', 'Guru Nanak', 'Konfucius']::text[], 1, 'Den har vokst fram over flere tusen år.', true, true, 0),
+  ('religion-og-etikk:hinduisme-buddhisme-og-ostlige-tradisjoner', 'q02', 'flervalg', 'Hva er samsara?', array['Kretsløpet av fødsel, død og gjenfødelse', 'En gud', 'En hellig bok', 'Et tempel']::text[], 0, 'Målet er å bli fri fra det.', true, true, 1),
+  ('religion-og-etikk:hinduisme-buddhisme-og-ostlige-tradisjoner', 'q03', 'flervalg', 'Hva er karma?', array['En type meditasjon', 'En gud', 'Loven om at handlinger får konsekvenser for det neste livet', 'Et måltid']::text[], 2, 'Sentralt i både hinduisme og buddhisme.', true, true, 2),
+  ('religion-og-etikk:hinduisme-buddhisme-og-ostlige-tradisjoner', 'q04', 'flervalg', 'Hva sier den andre edle sannheten?', array['Livet er bare lykke', 'Lidelse finnes ikke', 'Veien er meditasjon alene', 'Lidelsen skyldes begjær og tilknytning']::text[], 3, 'Buddhas lære.', true, true, 3),
+  ('religion-og-etikk:hinduisme-buddhisme-og-ostlige-tradisjoner', 'q05', 'flervalg', 'Hva er anatta?', array['Læren om at det ikke finnes et fast selv', 'Den høyeste guden', 'Et ritual', 'En hellig elv']::text[], 0, 'Alt er forgjengelig.', true, true, 4),
+  ('religion-og-etikk:hinduisme-buddhisme-og-ostlige-tradisjoner', 'q06', 'flervalg', 'Hva er langar?', array['En bønn', 'Et gratis fellesmåltid i sikhenes tempel', 'En pilegrimsreise', 'En fest']::text[], 1, 'Uttrykk for likeverd.', true, true, 5),
+  ('religion-og-etikk:hinduisme-buddhisme-og-ostlige-tradisjoner', 'q07', 'flervalg', 'Hva legger konfutsianismen vekt på?', array['Gjenfødelse', 'Frelse', 'Harmoni, plikt og riktige relasjoner', 'Én personlig gud']::text[], 2, 'Respekt for foreldre er viktig.', true, true, 6),
+  ('religion-og-etikk:hinduisme-buddhisme-og-ostlige-tradisjoner', 'q08', 'flervalg', 'Hvordan skiller østlige tradisjoner seg ofte fra vestlige i synet på tid?', array['De ser tiden som lineær', 'De har ingen tid', 'De ser tiden som slutt', 'De ser tiden som syklisk']::text[], 3, 'Kretsløp og gjenfødelse.', true, true, 7),
+  ('religion-og-etikk:hinduisme-buddhisme-og-ostlige-tradisjoner', 'q09', 'flervalg', 'Hva er moksha?', array['Frigjøring fra kretsløpet', 'En gud', 'En kaste', 'En fest']::text[], 0, 'Målet i hinduismen.', true, false, 8),
+  ('religion-og-etikk:hinduisme-buddhisme-og-ostlige-tradisjoner', 'q10', 'flervalg', 'Hva betyr ordet Buddha?', array['Den hellige', 'Den oppvåknede', 'Den første', 'Den rike']::text[], 1, 'Siddharta Gautama fikk oppvåkning.', true, false, 9),
+  ('religion-og-etikk:hinduisme-buddhisme-og-ostlige-tradisjoner', 'm01', 'sant-usant', 'Mange hinduer ser gudene som ulike uttrykk for det samme guddommelige.', array['Sant', 'Usant']::text[], 0, 'Brahman er den altomfattende virkeligheten.', false, true, 10),
+  ('religion-og-etikk:hinduisme-buddhisme-og-ostlige-tradisjoner', 'm02', 'sant-usant', 'Sikhismen er en polyteistisk religion.', array['Sant', 'Usant']::text[], 1, 'Sikhene tror på én gud.', false, true, 11),
+  ('religion-og-etikk:hinduisme-buddhisme-og-ostlige-tradisjoner', 'm03', 'sant-usant', 'Diskriminering på grunn av kaste er forbudt i Indias grunnlov.', array['Sant', 'Usant']::text[], 0, 'Men kaste har fortsatt betydning.', false, true, 12),
+  ('religion-og-etikk:hinduisme-buddhisme-og-ostlige-tradisjoner', 'm04', 'sant-usant', 'Buddhismen lærer at sjelen er fast og uforanderlig.', array['Sant', 'Usant']::text[], 1, 'Anatta – det finnes ikke et fast selv.', false, true, 13),
+  ('religion-og-etikk:hinduisme-buddhisme-og-ostlige-tradisjoner', 'm05', 'flervalg', 'Hvilken retning er den tibetanske buddhismen en del av?', array['Theravada', 'Vajrayana', 'Sunni', 'Reform']::text[], 1, 'Med Dalai Lama.', false, true, 14),
+  ('religion-og-etikk:hinduisme-buddhisme-og-ostlige-tradisjoner', 'm06', 'flervalg', 'Hva betyr dao?', array['Veien', 'Guden', 'Kongen', 'Tempelet']::text[], 0, 'Å leve i pakt med naturens rytme.', false, true, 15),
+  ('religion-og-etikk:hinduisme-buddhisme-og-ostlige-tradisjoner', 'm07', 'flervalg', 'Hvilke tre guder er blant de mest kjente i hinduismen?', array['Zevs, Hera og Apollon', 'Odin, Tor og Frøy', 'Brahma, Vishnu og Shiva', 'Beaivi, Máttaráhkká og Uksáhkká']::text[], 2, 'Mange andre guder dyrkes også.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('religion-og-etikk:hinduisme-buddhisme-og-ostlige-tradisjoner', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Religion og etikk: Humanisme og sekulære livssyn
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('religion-og-etikk:humanisme-og-sekulare-livssyn', 'religion-og-etikk', 'humanisme-og-sekulare-livssyn', 'Humanisme og sekulære livssyn', 'Sekulære livssyn og humanismens historie fra antikken og renessansen til opplysningstiden – sekulær humanisme i dag, Human-Etisk Forbund, humanistiske ritualer og etikk, og andre sekulære livssyn og nyreligiøsitet i Norge.', array[1]::int[], 5, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('religion-og-etikk:humanisme-og-sekulare-livssyn', '## Hva er et sekulært livssyn?
+
+Et **sekulært** livssyn gir svar på store spørsmål om **mennesket**, **verden** og **moral** uten å bygge på **guder** eller det **overnaturlige**. Det viktigste sekulære livssynet i Norge er **humanismen**.
+
+## Humanismens historie
+
+Ordet **humanisme** har vært brukt om ulike ting:
+
+- I **antikken** satte greske filosofer som **Sokrates** og **Protagoras** mennesket og **fornuften** i sentrum. Protagoras sa at «**mennesket er alle tings mål**».
+- I **renessansen** på 1400- og 1500-tallet la **humanistene** vekt på menneskets **muligheter**, **utdanning** og studier av antikke tekster.
+- I **opplysningstiden** på 1700-tallet ble **fornuften**, **vitenskapen** og **menneskerettighetene** sentrale. Mange opplysningsfilosofer var kritiske til **kirkens** makt.
+
+## Sekulær humanisme i dag
+
+**Sekulær humanisme** – eller **livssynshumanisme** – er et livssyn med disse hovedtankene:
+
+- **Mennesket** er en del av **naturen** og har utviklet seg gjennom **evolusjon**.
+- Det finnes ingen **gud** eller et **liv etter døden**, eller det er i hvert fall ingen grunn til å tro det.
+- **Fornuft**, **vitenskap** og **kritisk tenkning** er de beste veiene til kunnskap.
+- **Menneskeverd**, **frihet** og **ansvar** er grunnleggende verdier.
+- **Moralen** skal begrunnes i hva som gir **gode liv** for mennesker og andre levende vesener – ikke i guddommelige bud.
+- **Meningen** med livet er noe mennesker selv må **skape**.
+
+## Human-Etisk Forbund
+
+**Human-Etisk Forbund** ble stiftet i **1956** og er en av verdens største humanistiske organisasjoner i forhold til folketallet. Forbundet tilbyr **humanistiske seremonier**:
+
+- **navnefest** for barn
+- **humanistisk konfirmasjon** – med kurs om etikk, livssyn og menneskerettigheter
+- **vigsel**
+- **gravferd**
+
+Forbundet arbeider for et **livssynsnøytralt** samfunn der alle livssyn behandles **likt**, og har vært kritisk til at kirken har hatt særstilling.
+
+## Humanistisk etikk
+
+Humanistisk etikk er ofte **konsekvensorientert** – hva gir **best** resultat for de berørte? – men den bygger også på **menneskerettigheter**, **empati** og **toleranse**. Humanister mener at vi er **ansvarlige** for egne valg, og at vi kan være **gode** uten Gud.
+
+## Andre sekulære livssyn og tendenser
+
+- **Ateisme** og **agnostisisme** er standpunkter om Gud, men ikke hele livssyn i seg selv.
+- Mange nordmenn er «**sekulære**» uten å være medlem av noen organisasjon.
+- Samtidig finnes **nyreligiøsitet** og **alternativ spiritualitet** – for eksempel yoga, meditasjon, healing og engletro – der mange setter sammen sin egen tro fra ulike kilder. Dette kalles ofte **religiøs individualisering**.
+
+## Sammenligning og kritikk
+
+Humanister og religiøse **deler** mange verdier, som **menneskeverd** og **nestekjærlighet**. Forskjellen ligger i **begrunnelsen**. Kritikere av humanismen spør om den kan begrunne **menneskeverdet** uten noe **høyere**, og om den gir for stor tro på **fornuft** og **fremskritt**.', '{"label":"Humanisme og sekulære livssyn","children":[{"label":"Historie","children":[{"label":"Antikken"},{"label":"Renessansen"},{"label":"Opplysningstiden"}]},{"label":"Sekulær humanisme","children":[{"label":"Natur og evolusjon"},{"label":"Fornuft og vitenskap"},{"label":"Menneskeverd og ansvar"}]},{"label":"Human-Etisk Forbund","children":[{"label":"Seremonier"},{"label":"Livssynsnøytralitet"}]},{"label":"Andre tendenser","children":[{"label":"Ateisme og agnostisisme"},{"label":"Nyreligiøsitet"}]},{"label":"Drøfting","children":[{"label":"Felles verdier"},{"label":"Ulik begrunnelse"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'religion-og-etikk:humanisme-og-sekulare-livssyn';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('religion-og-etikk:humanisme-og-sekulare-livssyn', 'Sekulært livssyn', 'Livssyn som ikke bygger på guder eller det overnaturlige.', 0),
+  ('religion-og-etikk:humanisme-og-sekulare-livssyn', 'Humanisme', 'Livssyn som setter mennesket, fornuften og menneskeverdet i sentrum.', 1),
+  ('religion-og-etikk:humanisme-og-sekulare-livssyn', 'Protagoras', 'Gresk filosof: «Mennesket er alle tings mål.»', 2),
+  ('religion-og-etikk:humanisme-og-sekulare-livssyn', 'Renessansehumanisme', 'Vekt på menneskets muligheter, utdanning og antikke tekster.', 3),
+  ('religion-og-etikk:humanisme-og-sekulare-livssyn', 'Opplysningstiden', '1700-tallets vekt på fornuft, vitenskap og rettigheter.', 4),
+  ('religion-og-etikk:humanisme-og-sekulare-livssyn', 'Livssynshumanisme', 'Et annet ord for sekulær humanisme.', 5),
+  ('religion-og-etikk:humanisme-og-sekulare-livssyn', 'Evolusjon', 'Humanister ser mennesket som en del av naturen og utviklet gjennom evolusjon.', 6),
+  ('religion-og-etikk:humanisme-og-sekulare-livssyn', 'Human-Etisk Forbund', 'Humanistisk organisasjon stiftet i 1956.', 7),
+  ('religion-og-etikk:humanisme-og-sekulare-livssyn', 'Humanistisk konfirmasjon', 'Kurs og seremoni om etikk, livssyn og menneskerettigheter.', 8),
+  ('religion-og-etikk:humanisme-og-sekulare-livssyn', 'Navnefest', 'Humanistisk seremoni for barn.', 9),
+  ('religion-og-etikk:humanisme-og-sekulare-livssyn', 'Livssynsnøytralt samfunn', 'Samfunn der alle livssyn behandles likt.', 10),
+  ('religion-og-etikk:humanisme-og-sekulare-livssyn', 'Humanistisk etikk', 'Moral begrunnet i hva som gir gode liv, ikke i guddommelige bud.', 11),
+  ('religion-og-etikk:humanisme-og-sekulare-livssyn', 'Nyreligiøsitet', 'Nye former for religiøsitet og alternativ spiritualitet.', 12),
+  ('religion-og-etikk:humanisme-og-sekulare-livssyn', 'Religiøs individualisering', 'At folk setter sammen sin egen tro fra ulike kilder.', 13),
+  ('religion-og-etikk:humanisme-og-sekulare-livssyn', 'Menneskeverd', 'At alle mennesker har samme ukrenkelige verdi.', 14);
+delete from public.quiz_sporsmal where tema_id = 'religion-og-etikk:humanisme-og-sekulare-livssyn';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('religion-og-etikk:humanisme-og-sekulare-livssyn', 'q01', 'flervalg', 'Hva kjennetegner et sekulært livssyn?', array['Det bygger på guder', 'Det bygger ikke på guder eller det overnaturlige', 'Det har ingen verdier', 'Det er alltid religiøst']::text[], 1, 'Humanismen er det viktigste i Norge.', true, true, 0),
+  ('religion-og-etikk:humanisme-og-sekulare-livssyn', 'q02', 'flervalg', 'Hvem sa at «mennesket er alle tings mål»?', array['Protagoras', 'Luther', 'Buddha', 'Kant']::text[], 0, 'Gresk filosof i antikken.', true, true, 1),
+  ('religion-og-etikk:humanisme-og-sekulare-livssyn', 'q03', 'flervalg', 'Hva ser sekulære humanister som den beste veien til kunnskap?', array['Hellige tekster', 'Åpenbaringer', 'Fornuft, vitenskap og kritisk tenkning', 'Tradisjon alene']::text[], 2, 'Et hovedprinsipp.', true, true, 2),
+  ('religion-og-etikk:humanisme-og-sekulare-livssyn', 'q04', 'flervalg', 'Når ble Human-Etisk Forbund stiftet?', array['1814', '1905', '1989', '1956']::text[], 3, 'En stor humanistisk organisasjon.', true, true, 3),
+  ('religion-og-etikk:humanisme-og-sekulare-livssyn', 'q05', 'flervalg', 'Hvilken seremoni tilbyr Human-Etisk Forbund?', array['Humanistisk konfirmasjon', 'Dåp', 'Nattverd', 'Bar mitsva']::text[], 0, 'Også navnefest, vigsel og gravferd.', true, true, 4),
+  ('religion-og-etikk:humanisme-og-sekulare-livssyn', 'q06', 'flervalg', 'Hvordan begrunner humanister moralen?', array['I guddommelige bud', 'I hva som gir gode liv for mennesker og andre levende vesener', 'I kongens vilje', 'I tilfeldigheter']::text[], 1, 'Også i menneskerettigheter og empati.', true, true, 5),
+  ('religion-og-etikk:humanisme-og-sekulare-livssyn', 'q07', 'flervalg', 'Hva er religiøs individualisering?', array['At alle følger samme kirke', 'At staten bestemmer tro', 'At folk setter sammen sin egen tro fra ulike kilder', 'At religion forsvinner']::text[], 2, 'Typisk for nyreligiøsitet.', true, true, 6),
+  ('religion-og-etikk:humanisme-og-sekulare-livssyn', 'q08', 'flervalg', 'Hva er en kritikk mot humanismen?', array['At den har for mange guder', 'At den forbyr vitenskap', 'At den er for religiøs', 'At det er uklart hvordan den begrunner menneskeverdet uten noe høyere']::text[], 3, 'Også for stor tro på fremskritt.', true, true, 7),
+  ('religion-og-etikk:humanisme-og-sekulare-livssyn', 'q09', 'flervalg', 'Hva la renessansehumanistene vekt på?', array['Menneskets muligheter, utdanning og antikke tekster', 'Kirkens makt', 'Gjenfødelse', 'Kongens guddommelige rett']::text[], 0, '1400- og 1500-tallet.', true, false, 8),
+  ('religion-og-etikk:humanisme-og-sekulare-livssyn', 'q10', 'flervalg', 'Hva deler humanister og religiøse ofte?', array['Troen på Gud', 'Verdier som menneskeverd og nestekjærlighet', 'Synet på liv etter døden', 'Hellige tekster']::text[], 1, 'Forskjellen ligger i begrunnelsen.', true, false, 9),
+  ('religion-og-etikk:humanisme-og-sekulare-livssyn', 'm01', 'sant-usant', 'Humanister mener at meningen med livet er noe mennesker selv må skape.', array['Sant', 'Usant']::text[], 0, 'Ikke gitt av en gud.', false, true, 10),
+  ('religion-og-etikk:humanisme-og-sekulare-livssyn', 'm02', 'sant-usant', 'Ateisme er et fullstendig livssyn i seg selv.', array['Sant', 'Usant']::text[], 1, 'Det er et standpunkt om Gud.', false, true, 11),
+  ('religion-og-etikk:humanisme-og-sekulare-livssyn', 'm03', 'sant-usant', 'Human-Etisk Forbund arbeider for et livssynsnøytralt samfunn.', array['Sant', 'Usant']::text[], 0, 'Alle livssyn skal behandles likt.', false, true, 12),
+  ('religion-og-etikk:humanisme-og-sekulare-livssyn', 'm04', 'sant-usant', 'Humanister mener man ikke kan være god uten Gud.', array['Sant', 'Usant']::text[], 1, 'De mener man kan være god uten Gud.', false, true, 13),
+  ('religion-og-etikk:humanisme-og-sekulare-livssyn', 'm05', 'flervalg', 'Hva er et eksempel på alternativ spiritualitet?', array['Humanistisk konfirmasjon', 'Healing og engletro', 'Vitenskapelig metode', 'Ateisme']::text[], 1, 'Nyreligiøsitet.', false, true, 14),
+  ('religion-og-etikk:humanisme-og-sekulare-livssyn', 'm06', 'flervalg', 'Hvilken periode satte fornuft, vitenskap og menneskerettigheter i sentrum?', array['Opplysningstiden', 'Middelalderen', 'Vikingtiden', 'Steinalderen']::text[], 0, '1700-tallet.', false, true, 15),
+  ('religion-og-etikk:humanisme-og-sekulare-livssyn', 'm07', 'flervalg', 'Hvilken type etikk er humanistisk etikk ofte orientert mot?', array['Guddommelige bud', 'Tradisjon alene', 'Konsekvenser for de berørte', 'Kongens lover']::text[], 2, 'Hva gir best resultat?', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('religion-og-etikk:humanisme-og-sekulare-livssyn', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Religion og etikk: Religion i historiske endringsprosesser
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('religion-og-etikk:religion-i-historiske-endringsprosesser', 'religion-og-etikk', 'religion-i-historiske-endringsprosesser', 'Religion i historiske endringsprosesser', 'Hvordan religion har vært med på å forme – og blitt formet av – historiske endringer globalt og i Norge: kristningen, reformasjonen, misjon og kolonialisme, sekularisering, religion i frigjøringsbevegelser og politiske revolusjoner, og utviklingen fra statskirke til livssynsåpent samfunn.', array[2]::int[], 6, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('religion-og-etikk:religion-i-historiske-endringsprosesser', '## Religion som drivkraft og hindring
+
+Religion har ofte vært en **drivkraft** i historien – for **samhold**, **reformer** og **frigjøring**. Men religion har også blitt brukt til å **legitimere** makt, **krig** og **undertrykkelse**. Samtidig endrer **religionene** seg når samfunnet endrer seg.
+
+## Kristningen av Norge
+
+Fra **900- og 1000-tallet** ble Norge **kristnet**. Kongene **Olav Tryggvason** og **Olav Haraldsson** spilte en viktig rolle, ofte med **makt**. Etter slaget på **Stiklestad** i **1030** ble Olav Haraldsson dyrket som helgen – **Olav den hellige**. Kristendommen styrket **kongemakten**, ga nye **lover** og knyttet Norge til den europeiske **kirken**.
+
+## Reformasjonen
+
+På **1500-tallet** protesterte **Martin Luther** mot **avlatshandelen** og pavens makt. **Reformasjonen** splittet kirken i Europa og førte til **religionskriger**. I Norge ble **lutherdommen** innført av den dansk-norske kongen i **1537**, og kongen ble kirkens **overhode**. Reformasjonen ga også **bibler** og **salmer** på folkespråket og bidro til **leseferdighet**.
+
+## Misjon og kolonialisme
+
+Da europeerne erobret kolonier, fulgte **misjonærene** etter. Misjonen bygde **skoler** og **sykehus**, men var også ofte knyttet til **kolonimakten** og til ideen om europeisk **overlegenhet**. I dag bor de fleste kristne i det **globale sør**, og mange kirker der har utviklet sin egen **teologi**.
+
+## Religion og frigjøring
+
+- **Martin Luther King** bygde **borgerrettighetsbevegelsen** i USA på **kristen** tro og ikkevold.
+- **Desmond Tutu** kjempet mot **apartheid** i Sør-Afrika.
+- **Frigjøringsteologien** i Latin-Amerika tolket Bibelen som et budskap om **rettferdighet** for de fattige.
+
+## Religion og revolusjon
+
+Den **iranske revolusjonen** i **1979** gjorde **Iran** til en **islamsk republikk** styrt av religiøse ledere. Den viste at religion kan være en sterk **politisk** kraft også i moderne tid.
+
+## Sekularisering – og motstrømmer
+
+I **Vest-Europa** har religion fått **mindre** betydning i offentligheten og i manges liv – **sekularisering**. Stat og kirke er skilt i mange land. Samtidig har religion fått **større** betydning andre steder, for eksempel gjennom veksten i **pinsebevegelsen**, **politisk islam** og **hindunasjonalisme**. Mange forskere snakker derfor om **religionens tilbakekomst** i offentligheten.
+
+## Fra statskirke til livssynsåpent samfunn
+
+- **Grunnloven** fra **1814** gjorde den **evangelisk-lutherske** religionen til statens religion.
+- **Dissenterloven** fra **1845** tillot andre kristne trossamfunn.
+- I **2012** ble **statskirkeordningen** avviklet i Grunnloven, og i **2017** ble **Den norske kirke** et eget **rettssubjekt**.
+- **Tros- og livssynsloven** fra **2021** regulerer støtte til trossamfunn og livssynssamfunn.
+
+Norge er i dag et **livssynsåpent** samfunn med stort **religiøst mangfold**, men Den norske kirke har fortsatt en særstilling.
+
+## Drøfting
+
+Når du drøfter religionens rolle i en endringsprosess, spør:
+
+- Var religionen **årsak**, **redskap** eller **følge** av endringen?
+- Hvem brukte religionen – og til hva?
+- Hvordan ble religionen selv **endret**?', '{"label":"Religion og historisk endring","children":[{"label":"Norge","children":[{"label":"Kristningen"},{"label":"Reformasjonen 1537"},{"label":"Fra statskirke til 2017"}]},{"label":"Europa","children":[{"label":"Luther"},{"label":"Religionskriger"},{"label":"Sekularisering"}]},{"label":"Globalt","children":[{"label":"Misjon og kolonialisme"},{"label":"Iran 1979"},{"label":"Pinsebevegelsen"}]},{"label":"Frigjøring","children":[{"label":"Martin Luther King"},{"label":"Desmond Tutu"},{"label":"Frigjøringsteologi"}]},{"label":"Drøfting","children":[{"label":"Årsak, redskap, følge"},{"label":"Religionen endres"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'religion-og-etikk:religion-i-historiske-endringsprosesser';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('religion-og-etikk:religion-i-historiske-endringsprosesser', 'Kristningen av Norge', 'Overgangen til kristendom på 900- og 1000-tallet.', 0),
+  ('religion-og-etikk:religion-i-historiske-endringsprosesser', 'Stiklestad 1030', 'Slaget der Olav Haraldsson falt og senere ble helgen.', 1),
+  ('religion-og-etikk:religion-i-historiske-endringsprosesser', 'Olav den hellige', 'Olav Haraldsson, dyrket som helgen etter 1030.', 2),
+  ('religion-og-etikk:religion-i-historiske-endringsprosesser', 'Reformasjonen', '1500-tallets splittelse av kirken etter Luthers protest.', 3),
+  ('religion-og-etikk:religion-i-historiske-endringsprosesser', 'Avlat', 'Kjøp av tilgivelse for synder – kritisert av Luther.', 4),
+  ('religion-og-etikk:religion-i-historiske-endringsprosesser', 'Reformasjonen i Norge', 'Lutherdommen ble innført i 1537.', 5),
+  ('religion-og-etikk:religion-i-historiske-endringsprosesser', 'Misjon', 'Arbeid for å spre en religion.', 6),
+  ('religion-og-etikk:religion-i-historiske-endringsprosesser', 'Martin Luther King', 'Bygde borgerrettighetskampen på kristen tro og ikkevold.', 7),
+  ('religion-og-etikk:religion-i-historiske-endringsprosesser', 'Frigjøringsteologi', 'Latinamerikansk teologi om rettferdighet for de fattige.', 8),
+  ('religion-og-etikk:religion-i-historiske-endringsprosesser', 'Den iranske revolusjonen', 'Gjorde Iran til en islamsk republikk i 1979.', 9),
+  ('religion-og-etikk:religion-i-historiske-endringsprosesser', 'Sekularisering', 'At religion får mindre betydning i samfunnet.', 10),
+  ('religion-og-etikk:religion-i-historiske-endringsprosesser', 'Religionens tilbakekomst', 'At religion igjen får større plass i offentligheten.', 11),
+  ('religion-og-etikk:religion-i-historiske-endringsprosesser', 'Dissenterloven 1845', 'Tillot andre kristne trossamfunn i Norge.', 12),
+  ('religion-og-etikk:religion-i-historiske-endringsprosesser', 'Statskirkeordningen', 'Avviklet i Grunnloven i 2012.', 13),
+  ('religion-og-etikk:religion-i-historiske-endringsprosesser', 'Tros- og livssynsloven', 'Lov fra 2021 om trossamfunn og livssynssamfunn.', 14);
+delete from public.quiz_sporsmal where tema_id = 'religion-og-etikk:religion-i-historiske-endringsprosesser';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('religion-og-etikk:religion-i-historiske-endringsprosesser', 'q01', 'flervalg', 'Hvilken rolle spilte kristendommen i middelalderens Norge?', array['Den svekket kongemakten', 'Den styrket kongemakten og ga nye lover', 'Den hadde ingen betydning', 'Den førte til demokrati']::text[], 1, 'Knyttet Norge til den europeiske kirken.', true, true, 0),
+  ('religion-og-etikk:religion-i-historiske-endringsprosesser', 'q02', 'flervalg', 'Når ble lutherdommen innført i Norge?', array['1537', '1030', '1814', '1905']::text[], 0, 'Av den dansk-norske kongen.', true, true, 1),
+  ('religion-og-etikk:religion-i-historiske-endringsprosesser', 'q03', 'flervalg', 'Hva protesterte Luther mot?', array['Bibelen på folkespråket', 'Salmer', 'Avlatshandelen og pavens makt', 'Nattverden']::text[], 2, 'Startet reformasjonen.', true, true, 2),
+  ('religion-og-etikk:religion-i-historiske-endringsprosesser', 'q04', 'flervalg', 'Hva skjedde i Iran i 1979?', array['Landet ble sekulært', 'Landet ble kristent', 'Landet ble en koloni', 'Landet ble en islamsk republikk']::text[], 3, 'Religion som politisk kraft.', true, true, 3),
+  ('religion-og-etikk:religion-i-historiske-endringsprosesser', 'q05', 'flervalg', 'Hva bygde Martin Luther King borgerrettighetskampen på?', array['Kristen tro og ikkevold', 'Vold', 'Kommunisme', 'Nasjonalisme']::text[], 0, 'Religion som frigjørende kraft.', true, true, 4),
+  ('religion-og-etikk:religion-i-historiske-endringsprosesser', 'q06', 'flervalg', 'Hva skjedde med statskirkeordningen i 2012?', array['Den ble innført', 'Den ble avviklet i Grunnloven', 'Den ble utvidet', 'Den ble flyttet til Sverige']::text[], 1, 'Kirken ble eget rettssubjekt i 2017.', true, true, 5),
+  ('religion-og-etikk:religion-i-historiske-endringsprosesser', 'q07', 'flervalg', 'Hva var en positiv side ved reformasjonen?', array['Religionskriger', 'Mer avlat', 'Bibler og salmer på folkespråket og økt leseferdighet', 'Større pavemakt']::text[], 2, 'Folk kunne lese selv.', true, true, 6),
+  ('religion-og-etikk:religion-i-historiske-endringsprosesser', 'q08', 'flervalg', 'Hva er frigjøringsteologi?', array['Teologi om kongemakt', 'Teologi om misjon i Norge', 'Teologi om avlat', 'Teologi om rettferdighet for de fattige']::text[], 3, 'Fra Latin-Amerika.', true, true, 7),
+  ('religion-og-etikk:religion-i-historiske-endringsprosesser', 'q09', 'flervalg', 'Hva betyr religionens tilbakekomst?', array['At religion igjen får større plass i offentligheten', 'At religioner forsvinner', 'At kirker rives', 'At alle blir ateister']::text[], 0, 'En motstrøm til sekulariseringen.', true, false, 8),
+  ('religion-og-etikk:religion-i-historiske-endringsprosesser', 'q10', 'flervalg', 'Hva tillot dissenterloven fra 1845?', array['Islam', 'Andre kristne trossamfunn', 'Ateisme', 'Jødedom']::text[], 1, 'Jøder fikk adgang i 1851.', true, false, 9),
+  ('religion-og-etikk:religion-i-historiske-endringsprosesser', 'm01', 'sant-usant', 'Misjonen bygde skoler og sykehus, men var ofte knyttet til kolonimakten.', array['Sant', 'Usant']::text[], 0, 'En tvetydig historie.', false, true, 10),
+  ('religion-og-etikk:religion-i-historiske-endringsprosesser', 'm02', 'sant-usant', 'Religion har bare vært en kilde til konflikt i historien.', array['Sant', 'Usant']::text[], 1, 'Den har også vært en kraft for frigjøring.', false, true, 11),
+  ('religion-og-etikk:religion-i-historiske-endringsprosesser', 'm03', 'sant-usant', 'Den norske kirke ble et eget rettssubjekt i 2017.', array['Sant', 'Usant']::text[], 0, 'Etter at statskirken ble avviklet.', false, true, 12),
+  ('religion-og-etikk:religion-i-historiske-endringsprosesser', 'm04', 'sant-usant', 'Kristningen av Norge skjedde helt uten bruk av makt.', array['Sant', 'Usant']::text[], 1, 'Kongene brukte ofte makt.', false, true, 13),
+  ('religion-og-etikk:religion-i-historiske-endringsprosesser', 'm05', 'flervalg', 'Hvem kjempet mot apartheid i Sør-Afrika ut fra kristen tro?', array['Martin Luther', 'Desmond Tutu', 'Olav Tryggvason', 'Paulus']::text[], 1, 'Erkebiskop i Sør-Afrika.', false, true, 14),
+  ('religion-og-etikk:religion-i-historiske-endringsprosesser', 'm06', 'flervalg', 'Hvilket spørsmål er nyttig når du drøfter religionens rolle i en endring?', array['Var religionen årsak, redskap eller følge?', 'Hvor mange kirker finnes?', 'Hvilken farge hadde kirkene?', 'Hvor gammel var kongen?']::text[], 0, 'Og hvem brukte religionen.', false, true, 15),
+  ('religion-og-etikk:religion-i-historiske-endringsprosesser', 'm07', 'flervalg', 'Hvor bor de fleste kristne i dag?', array['I Norden', 'I Vest-Europa', 'I det globale sør', 'I Midtøsten']::text[], 2, 'Tyngdepunktet har flyttet seg.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('religion-og-etikk:religion-i-historiske-endringsprosesser', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Religion og etikk: Religion og livssyn i majoritets-, minoritets- og urfolksperspektiv
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('religion-og-etikk:samisk-religion-og-urfolksperspektiv', 'religion-og-etikk', 'samisk-religion-og-urfolksperspektiv', 'Religion og livssyn i majoritets-, minoritets- og urfolksperspektiv', 'Religion og livssyn i Norge sett fra majoritetens, minoritetenes og urfolkets perspektiv – med vekt på førkristen samisk religion, noaiden og joiken, kristningen og læstadianismen, fornorskingen gjennom kirken og samisk religiøs revitalisering i dag.', array[3]::int[], 7, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('religion-og-etikk:samisk-religion-og-urfolksperspektiv', '## Tre perspektiver
+
+- **Majoritetsperspektivet**: hvordan religion ser ut fra **flertallets** ståsted. I Norge har **Den norske kirke** lenge vært majoritetens kirke.
+- **Minoritetsperspektivet**: hvordan det er å tilhøre en **mindre** religiøs gruppe, for eksempel **muslimer**, **katolikker**, **jøder** eller **buddhister**. Minoriteter kan oppleve **fordommer**, men også sterkt **fellesskap**.
+- **Urfolksperspektivet**: hvordan **samene**, Norges urfolk, har opplevd religion – både sin egen tradisjonelle religion og møtet med kristendommen.
+
+## Førkristen samisk religion
+
+Den tradisjonelle samiske religionen varierte mellom **områder**, men hadde noen felles trekk:
+
+- **Naturen** var **besjelet** – fjell, innsjøer og dyr hadde **ånder** og kraft.
+- **Sieidier** var **hellige steder**, ofte store steiner eller fjell, der man ga **offer**.
+- **Gudeverdenen** omfattet blant andre **Beaivi** – sola – og kvinnelige guddommer som **Máttaráhkká** og hennes døtre, som beskyttet fødsler og barn.
+- **Noaiden** var en religiøs spesialist som kunne reise til **åndeverdenen** i **transe**, blant annet med hjelp av **runebomma** – en tromme med tegninger av verden.
+- **Joiken** er en særegen sangform som gjør en person, et dyr eller et sted **nærværende**. Den hadde også religiøs betydning.
+
+## Kristningen av samene
+
+Misjonen blant samene ble intensivert på **1700-tallet**, blant annet ledet av **Thomas von Westen**. Runebommer ble **beslaglagt** og brent, og mange noaider ble forfulgt. Samer ble tvunget til å oppgi sin religion. Kristendommen ble etter hvert en del av **samisk** kultur, men på samisk vis.
+
+## Læstadianismen
+
+På **1840-tallet** startet presten **Lars Levi Læstadius** en vekkelse i Nord-Skandinavia. **Læstadianismen** fikk stor oppslutning blant **samer** og **kvener**, blant annet fordi den brukte **samisk** og **finsk** og kritiserte **alkohol** og **handelsmenn** som utnyttet folk. Bevegelsen er fortsatt viktig i mange samiske områder.
+
+## Kirken og fornorskingen
+
+Fra midten av **1800-tallet** var **kirken** og **skolen** redskaper i **fornorskingspolitikken**. Samisk språk og kultur, inkludert **joik**, ble sett som noe som burde **forsvinne**. Mange samer skammet seg over bakgrunnen sin. **Den norske kirke** har senere **beklaget** sin rolle i fornorskingen.
+
+## Revitalisering
+
+I dag opplever mange samer en **revitalisering** – en **gjenoppliving** – av samisk kultur og religion:
+
+- **Joik** brukes i musikk, gudstjenester og samfunnsliv.
+- Kirken har egne **samiske** gudstjenester, salmer og liturgi.
+- Noen samer søker tilbake til **tradisjonell** spiritualitet og naturforståelse.
+- Samiske hellige steder og **naturen** er sentrale i **urfolksrettigheter** og konflikter om arealbruk, for eksempel vindkraft og gruvedrift.
+
+## Refleksjon
+
+Det som regnes som «**norsk religion**», har vært definert av **majoriteten**. Å se religion fra **minoritets-** og **urfolksperspektiv** viser hvordan makt, språk og religion henger sammen – og hvordan grupper kan **gjenvinne** sin egen historie.', '{"label":"Majoritet, minoritet og urfolk","children":[{"label":"Perspektiver","children":[{"label":"Majoritet"},{"label":"Minoritet"},{"label":"Urfolk"}]},{"label":"Samisk religion","children":[{"label":"Besjelet natur og sieidier"},{"label":"Guder som Beaivi"},{"label":"Noaide, runebomme, joik"}]},{"label":"Kristning","children":[{"label":"Misjonen på 1700-tallet"},{"label":"Læstadianismen"}]},{"label":"Fornorsking","children":[{"label":"Kirke og skole"},{"label":"Kirkens beklagelse"}]},{"label":"I dag","children":[{"label":"Revitalisering"},{"label":"Hellige steder og rettigheter"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'religion-og-etikk:samisk-religion-og-urfolksperspektiv';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('religion-og-etikk:samisk-religion-og-urfolksperspektiv', 'Majoritetsperspektiv', 'Religion sett fra flertallets ståsted.', 0),
+  ('religion-og-etikk:samisk-religion-og-urfolksperspektiv', 'Minoritetsperspektiv', 'Religion sett fra en mindre gruppes ståsted.', 1),
+  ('religion-og-etikk:samisk-religion-og-urfolksperspektiv', 'Urfolksperspektiv', 'Religion sett fra urfolkets ståsted, i Norge samene.', 2),
+  ('religion-og-etikk:samisk-religion-og-urfolksperspektiv', 'Besjelet natur', 'Fjell, innsjøer og dyr har ånder og kraft.', 3),
+  ('religion-og-etikk:samisk-religion-og-urfolksperspektiv', 'Sieidi', 'Hellig sted i samisk religion, ofte en stein eller et fjell.', 4),
+  ('religion-og-etikk:samisk-religion-og-urfolksperspektiv', 'Beaivi', 'Sola – en viktig guddom i samisk religion.', 5),
+  ('religion-og-etikk:samisk-religion-og-urfolksperspektiv', 'Máttaráhkká', 'Kvinnelig guddom som beskyttet fødsler og barn.', 6),
+  ('religion-og-etikk:samisk-religion-og-urfolksperspektiv', 'Noaide', 'Samisk religiøs spesialist som kunne reise til åndeverdenen.', 7),
+  ('religion-og-etikk:samisk-religion-og-urfolksperspektiv', 'Runebomme', 'Samisk tromme med tegninger av verden.', 8),
+  ('religion-og-etikk:samisk-religion-og-urfolksperspektiv', 'Joik', 'Samisk sangform som gjør noe eller noen nærværende.', 9),
+  ('religion-og-etikk:samisk-religion-og-urfolksperspektiv', 'Thomas von Westen', 'Ledet misjonen blant samene på 1700-tallet.', 10),
+  ('religion-og-etikk:samisk-religion-og-urfolksperspektiv', 'Læstadianismen', 'Vekkelse fra 1840-tallet med stor oppslutning blant samer og kvener.', 11),
+  ('religion-og-etikk:samisk-religion-og-urfolksperspektiv', 'Lars Levi Læstadius', 'Presten som startet læstadianismen.', 12),
+  ('religion-og-etikk:samisk-religion-og-urfolksperspektiv', 'Fornorsking', 'Politikk for å gjøre samer og kvener norske i språk og kultur.', 13),
+  ('religion-og-etikk:samisk-religion-og-urfolksperspektiv', 'Revitalisering', 'Gjenoppliving av kultur og religion.', 14);
+delete from public.quiz_sporsmal where tema_id = 'religion-og-etikk:samisk-religion-og-urfolksperspektiv';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('religion-og-etikk:samisk-religion-og-urfolksperspektiv', 'q01', 'flervalg', 'Hva er urfolksperspektivet på religion i Norge?', array['Flertallets syn', 'Hvordan samene har opplevd religion', 'Hvordan innvandrere ser religion', 'Hvordan staten ser religion']::text[], 1, 'Både egen religion og møtet med kristendommen.', true, true, 0),
+  ('religion-og-etikk:samisk-religion-og-urfolksperspektiv', 'q02', 'flervalg', 'Hva er en sieidi?', array['Et hellig sted, ofte en stein eller et fjell', 'En tromme', 'En sang', 'En prest']::text[], 0, 'Der man ga offer.', true, true, 1),
+  ('religion-og-etikk:samisk-religion-og-urfolksperspektiv', 'q03', 'flervalg', 'Hva gjorde noaiden?', array['Ledet gudstjenester', 'Underviste i skolen', 'Reiste til åndeverdenen i transe', 'Solgte varer']::text[], 2, 'Med hjelp av runebomma.', true, true, 2),
+  ('religion-og-etikk:samisk-religion-og-urfolksperspektiv', 'q04', 'flervalg', 'Hva er joik?', array['En tromme', 'En gud', 'Et hellig sted', 'En sangform som gjør noe eller noen nærværende']::text[], 3, 'Hadde også religiøs betydning.', true, true, 3),
+  ('religion-og-etikk:samisk-religion-og-urfolksperspektiv', 'q05', 'flervalg', 'Hva skjedde med runebommene under misjonen?', array['De ble beslaglagt og brent', 'De ble satt i kirkene', 'De ble solgt', 'De ble fredet']::text[], 0, 'Noaider ble forfulgt.', true, true, 4),
+  ('religion-og-etikk:samisk-religion-og-urfolksperspektiv', 'q06', 'flervalg', 'Hvorfor fikk læstadianismen stor oppslutning blant samer og kvener?', array['Fordi den forbød samisk', 'Fordi den brukte samisk og finsk og kritiserte utnytting', 'Fordi den var statens kirke', 'Fordi den var ny teknologi']::text[], 1, 'Den møtte folk på deres språk.', true, true, 5),
+  ('religion-og-etikk:samisk-religion-og-urfolksperspektiv', 'q07', 'flervalg', 'Hvilken rolle hadde kirken i fornorskingspolitikken?', array['Den motarbeidet den', 'Den hadde ingen rolle', 'Den var et redskap for fornorskingen', 'Den styrket samisk språk']::text[], 2, 'Kirken har senere beklaget.', true, true, 6),
+  ('religion-og-etikk:samisk-religion-og-urfolksperspektiv', 'q08', 'flervalg', 'Hva er revitalisering?', array['Fornorsking', 'Misjon', 'Sekularisering', 'Gjenoppliving av kultur og religion']::text[], 3, 'For eksempel joik i gudstjenester.', true, true, 7),
+  ('religion-og-etikk:samisk-religion-og-urfolksperspektiv', 'q09', 'flervalg', 'Hvem var Beaivi i samisk religion?', array['Sola', 'Havet', 'Månen', 'Tordenen']::text[], 0, 'En viktig guddom.', true, false, 8),
+  ('religion-og-etikk:samisk-religion-og-urfolksperspektiv', 'q10', 'flervalg', 'Hva kan minoriteter oppleve?', array['Bare fordommer', 'Både fordommer og sterkt fellesskap', 'Bare fellesskap', 'Ingen forskjell fra majoriteten']::text[], 1, 'Minoritetsperspektivet.', true, false, 9),
+  ('religion-og-etikk:samisk-religion-og-urfolksperspektiv', 'm01', 'sant-usant', 'Den tradisjonelle samiske religionen varierte mellom områder.', array['Sant', 'Usant']::text[], 0, 'Men hadde felles trekk.', false, true, 10),
+  ('religion-og-etikk:samisk-religion-og-urfolksperspektiv', 'm02', 'sant-usant', 'Den norske kirke har aldri beklaget sin rolle i fornorskingen.', array['Sant', 'Usant']::text[], 1, 'Kirken har senere beklaget.', false, true, 11),
+  ('religion-og-etikk:samisk-religion-og-urfolksperspektiv', 'm03', 'sant-usant', 'Kirken har i dag egne samiske gudstjenester og salmer.', array['Sant', 'Usant']::text[], 0, 'En del av revitaliseringen.', false, true, 12),
+  ('religion-og-etikk:samisk-religion-og-urfolksperspektiv', 'm04', 'sant-usant', 'Joik ble oppmuntret av myndighetene under fornorskingen.', array['Sant', 'Usant']::text[], 1, 'Den ble sett som noe som burde forsvinne.', false, true, 13),
+  ('religion-og-etikk:samisk-religion-og-urfolksperspektiv', 'm05', 'flervalg', 'Hvem startet læstadianismen?', array['Thomas von Westen', 'Lars Levi Læstadius', 'Martin Luther', 'Elsa Laula Renberg']::text[], 1, 'På 1840-tallet.', false, true, 14),
+  ('religion-og-etikk:samisk-religion-og-urfolksperspektiv', 'm06', 'flervalg', 'Hva beskyttet Máttaráhkká og hennes døtre?', array['Fødsler og barn', 'Reinflokken', 'Fisket', 'Krigere']::text[], 0, 'Kvinnelige guddommer.', false, true, 15),
+  ('religion-og-etikk:samisk-religion-og-urfolksperspektiv', 'm07', 'flervalg', 'Hvorfor er samiske hellige steder viktige i dag?', array['De er turistmål alene', 'De har ingen betydning', 'De er sentrale i urfolksrettigheter og konflikter om arealbruk', 'De skal flyttes']::text[], 2, 'For eksempel vindkraft og gruvedrift.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('religion-og-etikk:samisk-religion-og-urfolksperspektiv', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Religion og etikk: Religion, livssyn og politikk
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('religion-og-etikk:religion-livssyn-og-politikk', 'religion-og-etikk', 'religion-livssyn-og-politikk', 'Religion, livssyn og politikk', 'Samspillet mellom religion, livssyn og politikk: religionsfrihet, ulike modeller for forholdet mellom stat og religion, aktuelle debatter i Norge om religiøse plagg, skole og livssynsnøytralitet – og religionens rolle i politikk og konflikter internasjonalt.', array[4]::int[], 8, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('religion-og-etikk:religion-livssyn-og-politikk', '## Religionsfrihet
+
+**Religionsfrihet** er en **menneskerettighet**. Den gir alle rett til å **tro** – eller ikke tro – og til å **skifte** religion og **praktisere** den alene eller sammen med andre. Friheten kan bare begrenses når det er **nødvendig** for å beskytte andres rettigheter, sikkerhet eller helse.
+
+I Norge er religionsfriheten vernet i **Grunnloven** og i **menneskerettsloven**. **Tros- og livssynsloven** fra **2021** regulerer blant annet **statsstøtte** til tros- og livssynssamfunn.
+
+## Stat og religion
+
+Land har ulike modeller:
+
+- **Statsreligion**: staten har én offisiell religion, som i **Iran** eller tidligere i Norge.
+- **Skille** mellom stat og religion: som i **USA** og **Frankrike**. Frankrike har en streng form for **sekularisme** – **laïcité** – der religiøse symboler er forbudt i offentlige skoler.
+- **Mellomformer**: som i **Norge** i dag, der **Den norske kirke** er en egen organisasjon, men fortsatt har en særstilling i Grunnloven, og der **alle** tros- og livssynssamfunn får statsstøtte.
+
+## Aktuelle debatter i Norge
+
+- **Religiøse plagg**: Skal politi, dommere eller lærere kunne bære **hijab**, **kors** eller **turban**? Tilhengere viser til **religionsfrihet** og **inkludering**. Motstandere mener representanter for staten bør framstå **nøytrale**.
+- **Skolen**: Hvor mye plass skal **kristendommen** ha i skolen og i **skolegudstjenester** før jul? Faget **KRLE** skal være **objektivt, kritisk og pluralistisk**.
+- **Omskjæring**, **dyrevelferd** og **slakting** etter religiøse regler
+- **Livssynsnøytralitet**: Skal offentlige seremonier, som ved nasjonale **minnemarkeringer**, være kirkelige eller livssynsnøytrale?
+- **Kjønn og likestilling**: debatter om kvinners rolle i trossamfunn, og om trossamfunn som **diskriminerer**, skal få støtte.
+
+## Religion i partipolitikken
+
+**Kristelig Folkeparti** bygger politikken sin på **kristne verdier**. Også andre partier henter argumenter fra religion og livssyn, for eksempel i saker om **abort**, **bioteknologi**, **innvandring** og **bistand**.
+
+## Internasjonalt
+
+- I **USA** har **kristne** velgergrupper stor politisk innflytelse, for eksempel i spørsmål om **abort**.
+- I **India** har **hindunasjonalismen** fått større politisk makt, og mange muslimer opplever **diskriminering**.
+- I **Iran** styrer religiøse ledere, og kvinners **klesdrakt** har utløst store protester.
+- I **Midtøsten** er religion en del av mange konflikter, som mellom **Israel** og **palestinerne**, men konfliktene handler også om **land**, **makt** og **nasjonalisme**.
+
+## Religion som årsak til konflikt?
+
+Religion blir ofte framstilt som **årsak** til konflikter. Forskere peker på at religion sjelden er **eneste** årsak. Den kan **forsterke** konflikter ved å gjøre dem til spørsmål om **identitet** og det **hellige** – men religiøse ledere kan også bidra til **fred** og **forsoning**.
+
+## Å drøfte
+
+Når du drøfter samspillet mellom religion og politikk, kan du veie ulike **verdier** mot hverandre: **religionsfrihet**, **ytringsfrihet**, **likestilling**, **nøytralitet** og **flertallets** tradisjoner. Ofte står gode verdier mot hverandre.', '{"label":"Religion og politikk","children":[{"label":"Rettigheter","children":[{"label":"Religionsfrihet"},{"label":"Tros- og livssynsloven"}]},{"label":"Modeller","children":[{"label":"Statsreligion"},{"label":"Skille og laïcité"},{"label":"Norsk mellomform"}]},{"label":"Debatter i Norge","children":[{"label":"Religiøse plagg"},{"label":"Skole og KRLE"},{"label":"Livssynsnøytralitet"}]},{"label":"Internasjonalt","children":[{"label":"USA og India"},{"label":"Iran"},{"label":"Midtøsten"}]},{"label":"Drøfting","children":[{"label":"Årsak eller forsterker"},{"label":"Verdikonflikter"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'religion-og-etikk:religion-livssyn-og-politikk';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('religion-og-etikk:religion-livssyn-og-politikk', 'Religionsfrihet', 'Rett til å tro eller ikke tro, skifte religion og praktisere den.', 0),
+  ('religion-og-etikk:religion-livssyn-og-politikk', 'Tros- og livssynsloven', 'Lov fra 2021 om støtte til tros- og livssynssamfunn.', 1),
+  ('religion-og-etikk:religion-livssyn-og-politikk', 'Statsreligion', 'Staten har én offisiell religion.', 2),
+  ('religion-og-etikk:religion-livssyn-og-politikk', 'Laïcité', 'Fransk streng sekularisme med religiøse symboler forbudt i offentlige skoler.', 3),
+  ('religion-og-etikk:religion-livssyn-og-politikk', 'Livssynsnøytralitet', 'At staten ikke favoriserer ett livssyn.', 4),
+  ('religion-og-etikk:religion-livssyn-og-politikk', 'KRLE', 'Skolefaget som skal være objektivt, kritisk og pluralistisk.', 5),
+  ('religion-og-etikk:religion-livssyn-og-politikk', 'Pluralistisk', 'At mange ulike syn får plass.', 6),
+  ('religion-og-etikk:religion-livssyn-og-politikk', 'Religiøse plagg', 'For eksempel hijab, kors og turban – omdiskutert i offentlige yrker.', 7),
+  ('religion-og-etikk:religion-livssyn-og-politikk', 'Kristelig Folkeparti', 'Parti som bygger politikken på kristne verdier.', 8),
+  ('religion-og-etikk:religion-livssyn-og-politikk', 'Hindunasjonalisme', 'Politisk bevegelse som vil gjøre India mer hinduistisk.', 9),
+  ('religion-og-etikk:religion-livssyn-og-politikk', 'Religion og konflikt', 'Religion er sjelden eneste årsak, men kan forsterke konflikter.', 10),
+  ('religion-og-etikk:religion-livssyn-og-politikk', 'Særstilling', 'Den norske kirkes spesielle plass i Grunnloven.', 11),
+  ('religion-og-etikk:religion-livssyn-og-politikk', 'Verdikonflikt', 'Når gode verdier står mot hverandre.', 12),
+  ('religion-og-etikk:religion-livssyn-og-politikk', 'Menneskerettsloven', 'Lov som gjør sentrale menneskerettigheter til norsk lov.', 13),
+  ('religion-og-etikk:religion-livssyn-og-politikk', 'Skolegudstjeneste', 'Gudstjeneste i skoletiden, ofte før jul – omdiskutert.', 14);
+delete from public.quiz_sporsmal where tema_id = 'religion-og-etikk:religion-livssyn-og-politikk';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('religion-og-etikk:religion-livssyn-og-politikk', 'q01', 'flervalg', 'Hva innebærer religionsfrihet?', array['At alle må tilhøre en religion', 'Rett til å tro eller ikke tro og praktisere sin religion', 'At staten bestemmer tro', 'At religion er forbudt']::text[], 1, 'En menneskerettighet.', true, true, 0),
+  ('religion-og-etikk:religion-livssyn-og-politikk', 'q02', 'flervalg', 'Hva kjennetegner laïcité i Frankrike?', array['Streng sekularisme med religiøse symboler forbudt i offentlige skoler', 'Katolsk statsreligion', 'Full religiøs frihet i alle offentlige yrker', 'Islamsk lov']::text[], 0, 'Ulik den norske modellen.', true, true, 1),
+  ('religion-og-etikk:religion-livssyn-og-politikk', 'q03', 'flervalg', 'Hvordan er forholdet mellom stat og kirke i Norge i dag?', array['Streng statsreligion', 'Fullt skille som i Frankrike', 'En mellomform der kirken er egen organisasjon, men har en særstilling', 'Religion er forbudt']::text[], 2, 'Alle tros- og livssynssamfunn får støtte.', true, true, 2),
+  ('religion-og-etikk:religion-livssyn-og-politikk', 'q04', 'flervalg', 'Hva er et argument for at statens representanter ikke bør bære religiøse plagg?', array['Religionsfrihet', 'Inkludering', 'Mangfold', 'At de bør framstå nøytrale']::text[], 3, 'Tilhengere viser til religionsfrihet.', true, true, 3),
+  ('religion-og-etikk:religion-livssyn-og-politikk', 'q05', 'flervalg', 'Hvordan skal KRLE-faget være?', array['Objektivt, kritisk og pluralistisk', 'Forkynnende', 'Bare om kristendom', 'Bare om ateisme']::text[], 0, 'Krav i opplæringsloven.', true, true, 4),
+  ('religion-og-etikk:religion-livssyn-og-politikk', 'q06', 'flervalg', 'Hva mener forskere ofte om religion som årsak til konflikt?', array['At religion er eneste årsak', 'At religion sjelden er eneste årsak, men kan forsterke konflikter', 'At religion aldri har betydning', 'At religion alltid gir fred']::text[], 1, 'Land, makt og nasjonalisme spiller også inn.', true, true, 5),
+  ('religion-og-etikk:religion-livssyn-og-politikk', 'q07', 'flervalg', 'Hvilket parti bygger politikken på kristne verdier?', array['Høyre', 'Senterpartiet', 'Kristelig Folkeparti', 'Rødt']::text[], 2, 'Også andre partier henter argumenter fra livssyn.', true, true, 6),
+  ('religion-og-etikk:religion-livssyn-og-politikk', 'q08', 'flervalg', 'Hva handler debatten om livssynsnøytralitet om?', array['Om skolen skal ha matte', 'Om kirker skal rives', 'Om alle skal bli ateister', 'Om offentlige seremonier skal være kirkelige eller livssynsnøytrale']::text[], 3, 'For eksempel minnemarkeringer.', true, true, 7),
+  ('religion-og-etikk:religion-livssyn-og-politikk', 'q09', 'flervalg', 'Hva har skjedd i India de siste årene?', array['Hindunasjonalismen har fått større politisk makt', 'India har blitt et islamsk land', 'India har innført laïcité', 'Religion er blitt forbudt']::text[], 0, 'Mange muslimer opplever diskriminering.', true, false, 8),
+  ('religion-og-etikk:religion-livssyn-og-politikk', 'q10', 'flervalg', 'Hva er en verdikonflikt?', array['En konflikt om penger', 'Når gode verdier står mot hverandre', 'En krig mellom religioner', 'En konflikt i en familie']::text[], 1, 'For eksempel religionsfrihet mot nøytralitet.', true, false, 9),
+  ('religion-og-etikk:religion-livssyn-og-politikk', 'm01', 'sant-usant', 'Religionsfriheten kan begrenses for å beskytte andres rettigheter.', array['Sant', 'Usant']::text[], 0, 'Men bare når det er nødvendig.', false, true, 10),
+  ('religion-og-etikk:religion-livssyn-og-politikk', 'm02', 'sant-usant', 'I Norge får bare Den norske kirke statsstøtte.', array['Sant', 'Usant']::text[], 1, 'Alle tros- og livssynssamfunn får støtte.', false, true, 11),
+  ('religion-og-etikk:religion-livssyn-og-politikk', 'm03', 'sant-usant', 'Religiøse ledere kan bidra til fred og forsoning.', array['Sant', 'Usant']::text[], 0, 'Religion er ikke bare en konfliktkilde.', false, true, 12),
+  ('religion-og-etikk:religion-livssyn-og-politikk', 'm04', 'sant-usant', 'Konflikten mellom Israel og palestinerne handler bare om religion.', array['Sant', 'Usant']::text[], 1, 'Den handler også om land, makt og nasjonalisme.', false, true, 13),
+  ('religion-og-etikk:religion-livssyn-og-politikk', 'm05', 'flervalg', 'I hvilket land har kvinners klesdrakt utløst store protester mot religiøse ledere?', array['Norge', 'Iran', 'Frankrike', 'USA']::text[], 1, 'Religiøse ledere styrer landet.', false, true, 14),
+  ('religion-og-etikk:religion-livssyn-og-politikk', 'm06', 'flervalg', 'Hvilken rettighet brukes som argument for å tillate hijab i politiet?', array['Religionsfrihet', 'Eiendomsrett', 'Stemmerett', 'Arverett']::text[], 0, 'Og inkludering.', false, true, 15),
+  ('religion-og-etikk:religion-livssyn-og-politikk', 'm07', 'flervalg', 'Hva betyr at KRLE skal være pluralistisk?', array['At bare én religion undervises', 'At faget skal forkynne', 'At mange ulike syn får plass', 'At faget er valgfritt']::text[], 2, 'Objektivt, kritisk og pluralistisk.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('religion-og-etikk:religion-livssyn-og-politikk', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Religion og etikk: Religion og livssyn i medier og populærkultur
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('religion-og-etikk:religion-i-medier-og-populaerkultur', 'religion-og-etikk', 'religion-i-medier-og-populaerkultur', 'Religion og livssyn i medier og populærkultur', 'Hvordan religioner og livssyn kommer til uttrykk i nyheter, sosiale medier, film, serier, musikk, spill og reklame – mediefremstilling og stereotypier, religiøse aktører i sosiale medier og hvordan du analyserer religion i populærkulturen.', array[5]::int[], 9, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('religion-og-etikk:religion-i-medier-og-populaerkultur', '## Religion i mediene
+
+For mange er **mediene** den viktigste kilden til kunnskap om religioner de ikke selv tilhører. Derfor har **mediefremstillingen** stor betydning for hvordan vi ser på andre.
+
+## Nyhetsmedier
+
+Nyheter er preget av **nyhetskriterier**: **konflikt**, **sensasjon**, **aktualitet** og **nærhet**. Det gjør at religion ofte havner i nyhetene når det er **konflikt**, **terror** eller **skandaler**. Forskning har vist at **islam** i vestlige medier ofte framstilles i sammenheng med **vold** og **problemer**, mens hverdagslivet til de fleste muslimer sjelden vises.
+
+Dette kan skape **stereotypier** – forenklede bilder av en hel gruppe. Samtidig finnes det mange **nyanserte** reportasjer, dokumentarer og debattprogrammer.
+
+## Sosiale medier
+
+I **sosiale medier** kan religiøse og livssynsmessige aktører nå ut **direkte** til mange:
+
+- **Troende påvirkere** deler bønn, klesstil og hverdagsliv.
+- **Trossamfunn** bruker video og strømming av gudstjenester.
+- **Kritikere** av religion når også et stort publikum.
+
+Algoritmer kan skape **ekkokamre** der vi mest møter synspunkter vi er enige i, og **ekstremister** kan bruke sosiale medier til **propaganda** og **rekruttering**.
+
+## Populærkultur
+
+Religion er til stede i mye **populærkultur**:
+
+- **Film og serier**: bibelske fortellinger, filmer om **engler**, **demoner** og **eksorsisme**, og serier der religiøse karakterer er en del av hverdagen. I den norske serien **Skam** var **Sana** en muslimsk hovedperson som mange unge kjente seg igjen i.
+- **Musikk**: gospel, julesanger, joik, religiøse referanser i pop og hiphop – og noen artister som **kritiserer** religion.
+- **Spill**: mytologi og religiøse symboler brukes i mange **dataspill**.
+- **Litteratur og tegneserier**: for eksempel fantasy med religiøse temaer.
+- **Reklame**: julens budskap brukes til å selge varer, og religiøse symboler kan skape **kontroverser**.
+
+**Mytologier**, som norrøn og gresk, er populære i film og spill, og mange lærer om **Tor** og **Odin** gjennom superheltfilmer.
+
+## Religion i populærkultur – tre måter
+
+- **Religion i** populærkulturen: religiøse personer, symboler og fortellinger brukes.
+- **Populærkultur som religion**: fans kan ha nesten **religiøse** ritualer og hengivenhet, for eksempel rundt idrett eller musikk.
+- **Religion som bruker** populærkulturen: trossamfunn bruker populærkulturelle former for å nå ut.
+
+## Analysere religion i medier
+
+1. **Hvem** er avsender, og hva er **formålet**?
+2. **Hvordan** framstilles religionen – som **positiv**, **negativ**, **eksotisk** eller **hverdagslig**?
+3. **Hvem** får **snakke** – de troende selv, eller andre som snakker om dem?
+4. Hvilke **virkemidler** brukes – bilder, musikk, vinkling?
+5. Bidrar framstillingen til **forståelse** eller til **stereotypier**?
+
+## Refleksjon
+
+Mediene kan både **bygge bro** mellom mennesker med ulik tro og **forsterke fordommer**. Å være **mediekritisk** er derfor en viktig del av å forstå religion og livssyn i dag.', '{"label":"Religion i medier og populærkultur","children":[{"label":"Nyheter","children":[{"label":"Nyhetskriterier"},{"label":"Stereotypier"}]},{"label":"Sosiale medier","children":[{"label":"Troende påvirkere"},{"label":"Ekkokamre"},{"label":"Propaganda"}]},{"label":"Populærkultur","children":[{"label":"Film og serier"},{"label":"Musikk og spill"},{"label":"Reklame"}]},{"label":"Tre måter","children":[{"label":"Religion i populærkultur"},{"label":"Populærkultur som religion"},{"label":"Religion bruker populærkultur"}]},{"label":"Analyse","children":[{"label":"Avsender og vinkling"},{"label":"Hvem får snakke"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'religion-og-etikk:religion-i-medier-og-populaerkultur';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('religion-og-etikk:religion-i-medier-og-populaerkultur', 'Mediefremstilling', 'Hvordan mediene framstiller en gruppe eller et tema.', 0),
+  ('religion-og-etikk:religion-i-medier-og-populaerkultur', 'Nyhetskriterier', 'Konflikt, sensasjon, aktualitet og nærhet.', 1),
+  ('religion-og-etikk:religion-i-medier-og-populaerkultur', 'Stereotypi', 'Forenklet bilde av en hel gruppe.', 2),
+  ('religion-og-etikk:religion-i-medier-og-populaerkultur', 'Vinkling', 'Hvilken side av en sak mediene velger å legge vekt på.', 3),
+  ('religion-og-etikk:religion-i-medier-og-populaerkultur', 'Troende påvirker', 'Person som deler religiøst hverdagsliv i sosiale medier.', 4),
+  ('religion-og-etikk:religion-i-medier-og-populaerkultur', 'Ekkokammer', 'Når vi mest møter synspunkter vi er enige i.', 5),
+  ('religion-og-etikk:religion-i-medier-og-populaerkultur', 'Algoritme', 'Program som bestemmer hva vi ser i sosiale medier.', 6),
+  ('religion-og-etikk:religion-i-medier-og-populaerkultur', 'Populærkultur', 'Kultur for et bredt publikum, som film, musikk og spill.', 7),
+  ('religion-og-etikk:religion-i-medier-og-populaerkultur', 'Sana i Skam', 'Muslimsk hovedperson i den norske serien Skam.', 8),
+  ('religion-og-etikk:religion-i-medier-og-populaerkultur', 'Mytologi', 'Fortellinger om guder og helter, som norrøne myter.', 9),
+  ('religion-og-etikk:religion-i-medier-og-populaerkultur', 'Populærkultur som religion', 'Når fans har nesten religiøse ritualer og hengivenhet.', 10),
+  ('religion-og-etikk:religion-i-medier-og-populaerkultur', 'Religiøse symboler i reklame', 'Kan skape kontroverser.', 11),
+  ('religion-og-etikk:religion-i-medier-og-populaerkultur', 'Mediekritikk', 'Å vurdere kritisk hvordan mediene framstiller virkeligheten.', 12),
+  ('religion-og-etikk:religion-i-medier-og-populaerkultur', 'Propaganda', 'Ensidig informasjon for å påvirke folk.', 13),
+  ('religion-og-etikk:religion-i-medier-og-populaerkultur', 'Hverdagsreligiøsitet', 'Hvordan religion leves i det vanlige livet.', 14);
+delete from public.quiz_sporsmal where tema_id = 'religion-og-etikk:religion-i-medier-og-populaerkultur';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('religion-og-etikk:religion-i-medier-og-populaerkultur', 'q01', 'flervalg', 'Hvorfor havner religion ofte i nyhetene ved konflikter?', array['Fordi religion bare handler om konflikt', 'Fordi nyhetskriterier som konflikt og sensasjon styrer hva som blir nyheter', 'Fordi journalister hater religion', 'Fordi det er lovpålagt']::text[], 1, 'Hverdagslivet blir sjeldnere vist.', true, true, 0),
+  ('religion-og-etikk:religion-i-medier-og-populaerkultur', 'q02', 'flervalg', 'Hva er en stereotypi?', array['Et forenklet bilde av en hel gruppe', 'En nyhetsartikkel', 'En religiøs tekst', 'En type film']::text[], 0, 'Kan skape fordommer.', true, true, 1),
+  ('religion-og-etikk:religion-i-medier-og-populaerkultur', 'q03', 'flervalg', 'Hva er et ekkokammer?', array['Et rom i en kirke', 'En type musikk', 'Når vi mest møter synspunkter vi er enige i', 'En nyhetskanal']::text[], 2, 'Algoritmer kan forsterke dette.', true, true, 2),
+  ('religion-og-etikk:religion-i-medier-og-populaerkultur', 'q04', 'flervalg', 'Hvem var Sana i serien Skam?', array['En kristen prest', 'En ateist', 'En buddhistisk munk', 'En muslimsk hovedperson']::text[], 3, 'Mange unge kjente seg igjen i henne.', true, true, 3),
+  ('religion-og-etikk:religion-i-medier-og-populaerkultur', 'q05', 'flervalg', 'Hva betyr populærkultur som religion?', array['At fans kan ha nesten religiøse ritualer og hengivenhet', 'At kirker lager film', 'At religion er forbudt i film', 'At alle filmer handler om Gud']::text[], 0, 'For eksempel rundt idrett eller musikk.', true, true, 4),
+  ('religion-og-etikk:religion-i-medier-og-populaerkultur', 'q06', 'flervalg', 'Hvordan kan ekstremister bruke sosiale medier?', array['Til å skape forsoning', 'Til propaganda og rekruttering', 'Til å stenge nettet', 'De bruker ikke sosiale medier']::text[], 1, 'En utfordring for samfunnet.', true, true, 5),
+  ('religion-og-etikk:religion-i-medier-og-populaerkultur', 'q07', 'flervalg', 'Hvilket spørsmål er viktig når du analyserer religion i medier?', array['Hvor lang filmen er', 'Hvilken farge logoen har', 'Hvem får snakke – de troende selv eller andre?', 'Hvor mye reklame det er']::text[], 2, 'Innenfra- eller utenfraperspektiv.', true, true, 6),
+  ('religion-og-etikk:religion-i-medier-og-populaerkultur', 'q08', 'flervalg', 'Hvor lærer mange om Tor og Odin i dag?', array['Bare i kirken', 'Bare i skolen', 'Aldri', 'Gjennom superheltfilmer og spill']::text[], 3, 'Mytologi i populærkulturen.', true, true, 7),
+  ('religion-og-etikk:religion-i-medier-og-populaerkultur', 'q09', 'flervalg', 'Hva har forskning vist om framstillingen av islam i vestlige medier?', array['At islam ofte framstilles i sammenheng med vold og problemer', 'At islam aldri nevnes', 'At islam bare framstilles positivt', 'At alle muslimer vises i hverdagen']::text[], 0, 'Kan skape stereotypier.', true, false, 8),
+  ('religion-og-etikk:religion-i-medier-og-populaerkultur', 'q10', 'flervalg', 'Hva kan mediene bidra til?', array['Bare fordommer', 'Både å bygge bro og forsterke fordommer', 'Bare forståelse', 'Ingenting']::text[], 1, 'Derfor er mediekritikk viktig.', true, false, 9),
+  ('religion-og-etikk:religion-i-medier-og-populaerkultur', 'm01', 'sant-usant', 'For mange er mediene den viktigste kilden til kunnskap om andre religioner.', array['Sant', 'Usant']::text[], 0, 'Derfor er framstillingen viktig.', false, true, 10),
+  ('religion-og-etikk:religion-i-medier-og-populaerkultur', 'm02', 'sant-usant', 'Trossamfunn bruker aldri sosiale medier.', array['Sant', 'Usant']::text[], 1, 'Mange strømmer gudstjenester og lager video.', false, true, 11),
+  ('religion-og-etikk:religion-i-medier-og-populaerkultur', 'm03', 'sant-usant', 'Religiøse symboler i reklame kan skape kontroverser.', array['Sant', 'Usant']::text[], 0, 'Noen opplever det som respektløst.', false, true, 12),
+  ('religion-og-etikk:religion-i-medier-og-populaerkultur', 'm04', 'sant-usant', 'Alle medier framstiller religion likt.', array['Sant', 'Usant']::text[], 1, 'Framstillingen varierer mye.', false, true, 13),
+  ('religion-og-etikk:religion-i-medier-og-populaerkultur', 'm05', 'flervalg', 'Hvilket nyhetskriterium gjør at terror får mye oppmerksomhet?', array['Hverdag', 'Konflikt og sensasjon', 'Stillhet', 'Harmoni']::text[], 1, 'Nyheter vektlegger det uvanlige.', false, true, 14),
+  ('religion-og-etikk:religion-i-medier-og-populaerkultur', 'm06', 'flervalg', 'Hva er vinkling i en nyhetssak?', array['Hvilken side av saken som vektlegges', 'Kameravinkelen alene', 'Antall ord', 'Tidspunktet']::text[], 0, 'Påvirker hvordan vi forstår saken.', false, true, 15),
+  ('religion-og-etikk:religion-i-medier-og-populaerkultur', 'm07', 'flervalg', 'Hva er et eksempel på religion som bruker populærkulturen?', array['Fans av et fotballag', 'En superheltfilm om Tor', 'Et trossamfunn som lager musikkvideoer for å nå ut', 'En julereklame for sko']::text[], 2, 'Religiøse aktører tar i bruk populærkulturens former.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('religion-og-etikk:religion-i-medier-og-populaerkultur', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Religion og etikk: Religions- og livssynskritikk
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('religion-og-etikk:religions-og-livssynskritikk', 'religion-og-etikk', 'religions-og-livssynskritikk', 'Religions- og livssynskritikk', 'Ulike former for religions- og livssynskritikk – kritikk av gudsbevis og teodiceproblemet, moralsk kritikk, Marx'', Freuds og Nietzsches kritikk, feministisk kritikk og intern kritikk – kritikk av sekulære livssyn, og forholdet mellom kritikk, ytringsfrihet og respekt.', array[6]::int[], 10, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('religion-og-etikk:religions-og-livssynskritikk', '## Hva er religionskritikk?
+
+**Religionskritikk** er **argumenterte** innvendinger mot religiøse **påstander**, **praksiser** eller **institusjoner**. Kritikk er ikke det samme som **hets**. God kritikk retter seg mot **ideer** og **handlinger**, ikke mot **mennesker** som gruppe.
+
+## Kritikk av religiøse sannhetspåstander
+
+Denne kritikken spør om religiøse påstander er **sanne**.
+
+- **Gudsbevis**: Filosofer har laget argumenter for at Gud finnes, for eksempel at alt må ha en **første årsak**, eller at naturens **orden** tyder på en designer. Kritikere svarer at argumentene ikke **beviser** en bestemt gud, og at **evolusjonen** forklarer mye av naturens orden.
+- **Teodiceproblemet**: Hvis Gud er **allmektig** og **god**, hvorfor finnes det **ondskap** og **lidelse**? Troende har svart blant annet at **frihet** forutsetter muligheten til å gjøre ondt.
+- **Vitenskapelig kritikk**: Religiøse forklaringer av naturen, som at verden er noen tusen år gammel, er i strid med vitenskapelig kunnskap. Mange troende mener likevel at tro og vitenskap kan forenes.
+
+## Moralsk kritikk
+
+Denne kritikken spør om religion fører til **gode** eller **dårlige** handlinger. Kritikere peker på **religionskriger**, **diskriminering** av kvinner og skeive og **overgrep** i trossamfunn. Forsvarere peker på religionens bidrag til **nestekjærlighet**, **velferd** og **frigjøring**.
+
+## Kritikk av religionens funksjon
+
+- **Ludwig Feuerbach** mente at Gud er en **projeksjon** av menneskets egne idealer.
+- **Karl Marx** kalte religion «**opium for folket**» – den demper lidelsen, men hindrer folk i å **forandre** urettferdige forhold.
+- **Sigmund Freud** så religion som en **illusjon** som springer ut av behovet for en **beskyttende farsfigur**.
+- **Friedrich Nietzsche** erklærte at «**Gud er død**» og kritiserte kristen moral for å være en **slavemoral** som undertrykker livskraften.
+
+## Feministisk kritikk
+
+**Feministisk** religionskritikk peker på at mange religioner har **mannlige** gudsbilder, mannlige **ledere** og regler som begrenser **kvinners** frihet. Noen feministiske teologer ønsker å **reformere** religionen innenfra.
+
+## Intern kritikk
+
+**Intern** kritikk kommer fra troende **selv** – for eksempel **Luthers** kritikk av kirken på 1500-tallet eller muslimske og kristne reformatorer i dag som ønsker nye **tolkninger**.
+
+## Livssynskritikk
+
+Også **sekulære** livssyn kan kritiseres:
+
+- Kan **humanismen** begrunne **menneskeverdet** uten noe høyere?
+- Har den en **naiv** tro på **fornuft** og **fremskritt**, når vitenskap og teknologi også har gitt **atombomber** og **miljøkriser**?
+- Kan et rent **materialistisk** verdensbilde gi **mening**?
+
+## Kritikk, ytringsfrihet og respekt
+
+I et demokrati er det **lov** å kritisere religioner og livssyn – **ytringsfriheten** beskytter også kritikk som oppleves krenkende. **Blasfemiparagrafen** i straffeloven ble opphevet i **2015**. Samtidig forbyr straffeloven **hatefulle ytringer** mot personer på grunn av blant annet religion.
+
+God kritikk er **saklig**, **informert** og **treffer** det den kritiserer. Den skiller mellom religion som **idé** og **mennesker** som tror.', '{"label":"Religions- og livssynskritikk","children":[{"label":"Sannhet","children":[{"label":"Gudsbevis"},{"label":"Teodiceproblemet"},{"label":"Vitenskap"}]},{"label":"Moral","children":[{"label":"Krig og diskriminering"},{"label":"Nestekjærlighet og velferd"}]},{"label":"Funksjon","children":[{"label":"Feuerbach og Marx"},{"label":"Freud"},{"label":"Nietzsche"}]},{"label":"Andre former","children":[{"label":"Feministisk"},{"label":"Intern"},{"label":"Livssynskritikk"}]},{"label":"Rammer","children":[{"label":"Ytringsfrihet"},{"label":"Blasfemi og hatefulle ytringer"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'religion-og-etikk:religions-og-livssynskritikk';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('religion-og-etikk:religions-og-livssynskritikk', 'Religionskritikk', 'Argumenterte innvendinger mot religiøse påstander, praksiser eller institusjoner.', 0),
+  ('religion-og-etikk:religions-og-livssynskritikk', 'Gudsbevis', 'Filosofiske argumenter for at Gud finnes.', 1),
+  ('religion-og-etikk:religions-og-livssynskritikk', 'Teodiceproblemet', 'Hvorfor finnes ondskap hvis Gud er allmektig og god?', 2),
+  ('religion-og-etikk:religions-og-livssynskritikk', 'Vitenskapelig religionskritikk', 'Religiøse forklaringer av naturen er i strid med vitenskapen.', 3),
+  ('religion-og-etikk:religions-og-livssynskritikk', 'Moralsk religionskritikk', 'Kritikk av at religion kan føre til skadelige handlinger.', 4),
+  ('religion-og-etikk:religions-og-livssynskritikk', 'Ludwig Feuerbach', 'Mente at Gud er en projeksjon av menneskets idealer.', 5),
+  ('religion-og-etikk:religions-og-livssynskritikk', 'Opium for folket', 'Marx'' betegnelse på religion.', 6),
+  ('religion-og-etikk:religions-og-livssynskritikk', 'Freuds religionskritikk', 'Religion er en illusjon som springer ut av behovet for en beskyttende far.', 7),
+  ('religion-og-etikk:religions-og-livssynskritikk', '«Gud er død»', 'Nietzsches berømte utsagn.', 8),
+  ('religion-og-etikk:religions-og-livssynskritikk', 'Slavemoral', 'Nietzsches kritikk av kristen moral.', 9),
+  ('religion-og-etikk:religions-og-livssynskritikk', 'Feministisk religionskritikk', 'Kritikk av mannlige gudsbilder og begrensninger på kvinners frihet.', 10),
+  ('religion-og-etikk:religions-og-livssynskritikk', 'Intern kritikk', 'Kritikk fra troende selv.', 11),
+  ('religion-og-etikk:religions-og-livssynskritikk', 'Livssynskritikk', 'Kritikk også av sekulære livssyn, som humanismen.', 12),
+  ('religion-og-etikk:religions-og-livssynskritikk', 'Blasfemiparagrafen', 'Straffebestemmelse mot gudsbespottelse, opphevet i 2015.', 13),
+  ('religion-og-etikk:religions-og-livssynskritikk', 'Hatefulle ytringer', 'Ytringer mot personer som er forbudt i straffeloven.', 14);
+delete from public.quiz_sporsmal where tema_id = 'religion-og-etikk:religions-og-livssynskritikk';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('religion-og-etikk:religions-og-livssynskritikk', 'q01', 'flervalg', 'Hva skiller religionskritikk fra hets?', array['Kritikk er alltid ulovlig', 'Kritikk retter seg mot ideer og handlinger, ikke mot mennesker som gruppe', 'Det er ingen forskjell', 'Hets er mer saklig']::text[], 1, 'God kritikk er saklig og informert.', true, true, 0),
+  ('religion-og-etikk:religions-og-livssynskritikk', 'q02', 'flervalg', 'Hva er teodiceproblemet?', array['Hvorfor finnes ondskap hvis Gud er allmektig og god?', 'Hvor gammel er jorden?', 'Hvem skrev Bibelen?', 'Hvor mange guder finnes?']::text[], 0, 'Et klassisk religionsfilosofisk problem.', true, true, 1),
+  ('religion-og-etikk:religions-og-livssynskritikk', 'q03', 'flervalg', 'Hva mente Marx med at religion er «opium for folket»?', array['At religion gir energi', 'At religion er ulovlig', 'At religion demper lidelsen, men hindrer folk i å endre urettferdige forhold', 'At religion er medisin']::text[], 2, 'Sosial og politisk kritikk.', true, true, 2),
+  ('religion-og-etikk:religions-og-livssynskritikk', 'q04', 'flervalg', 'Hvordan så Freud på religion?', array['Som sannhet', 'Som politikk', 'Som vitenskap', 'Som en illusjon som springer ut av behovet for en beskyttende farsfigur']::text[], 3, 'Psykologisk religionskritikk.', true, true, 3),
+  ('religion-og-etikk:religions-og-livssynskritikk', 'q05', 'flervalg', 'Hvem erklærte at «Gud er død»?', array['Nietzsche', 'Luther', 'Marx', 'Feuerbach']::text[], 0, 'Han kritiserte kristen moral.', true, true, 4),
+  ('religion-og-etikk:religions-og-livssynskritikk', 'q06', 'flervalg', 'Hva er intern religionskritikk?', array['Kritikk fra ateister', 'Kritikk fra troende selv', 'Kritikk fra staten', 'Kritikk fra medier']::text[], 1, 'For eksempel Luther.', true, true, 5),
+  ('religion-og-etikk:religions-og-livssynskritikk', 'q07', 'flervalg', 'Når ble blasfemiparagrafen opphevet i Norge?', array['1814', '1972', '2015', '2021']::text[], 2, 'Hatefulle ytringer mot personer er fortsatt forbudt.', true, true, 6),
+  ('religion-og-etikk:religions-og-livssynskritikk', 'q08', 'flervalg', 'Hva er en kritikk mot humanismen?', array['At den har for mange guder', 'At den forbyr vitenskap', 'At den er statsreligion', 'At den kan ha en naiv tro på fornuft og fremskritt']::text[], 3, 'Også spørsmål om begrunnelsen for menneskeverdet.', true, true, 7),
+  ('religion-og-etikk:religions-og-livssynskritikk', 'q09', 'flervalg', 'Hva mente Feuerbach om Gud?', array['At Gud er en projeksjon av menneskets idealer', 'At Gud finnes utenfor tiden', 'At Gud er natur', 'At Gud er død']::text[], 0, 'Påvirket Marx.', true, false, 8),
+  ('religion-og-etikk:religions-og-livssynskritikk', 'q10', 'flervalg', 'Hva peker feministisk religionskritikk på?', array['For få høytider', 'Mannlige gudsbilder og ledere og begrensninger på kvinners frihet', 'For mye vitenskap', 'For lite musikk']::text[], 1, 'Noen vil reformere religionen innenfra.', true, false, 9),
+  ('religion-og-etikk:religions-og-livssynskritikk', 'm01', 'sant-usant', 'Mange troende mener at tro og vitenskap kan forenes.', array['Sant', 'Usant']::text[], 0, 'Ikke alle ser en konflikt.', false, true, 10),
+  ('religion-og-etikk:religions-og-livssynskritikk', 'm02', 'sant-usant', 'Ytringsfriheten beskytter bare ytringer som ingen opplever som krenkende.', array['Sant', 'Usant']::text[], 1, 'Den beskytter også krenkende kritikk.', false, true, 11),
+  ('religion-og-etikk:religions-og-livssynskritikk', 'm03', 'sant-usant', 'Også sekulære livssyn kan kritiseres.', array['Sant', 'Usant']::text[], 0, 'Livssynskritikk.', false, true, 12),
+  ('religion-og-etikk:religions-og-livssynskritikk', 'm04', 'sant-usant', 'Religionskritikk er det samme som hets mot troende.', array['Sant', 'Usant']::text[], 1, 'God kritikk retter seg mot ideer, ikke mennesker.', false, true, 13),
+  ('religion-og-etikk:religions-og-livssynskritikk', 'm05', 'flervalg', 'Hva er et svar troende har gitt på teodiceproblemet?', array['At ondskap ikke finnes', 'At frihet forutsetter muligheten til å gjøre ondt', 'At Gud er ond', 'At lidelse er tilfeldig']::text[], 1, 'Frihetsargumentet.', false, true, 14),
+  ('religion-og-etikk:religions-og-livssynskritikk', 'm06', 'flervalg', 'Hva hevder et gudsbevis om første årsak?', array['At alt må ha en første årsak, som er Gud', 'At verden ikke har årsak', 'At evolusjon er feil', 'At Gud er død']::text[], 0, 'Kritikere mener det ikke beviser en bestemt gud.', false, true, 15),
+  ('religion-og-etikk:religions-og-livssynskritikk', 'm07', 'flervalg', 'Hva kjennetegner god kritikk?', array['Den er sint og personlig', 'Den generaliserer om alle troende', 'Den er saklig, informert og treffer det den kritiserer', 'Den bygger på rykter']::text[], 2, 'Skiller mellom idé og mennesker.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('religion-og-etikk:religions-og-livssynskritikk', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Religion og etikk: Eksistensielle spørsmål og svar
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('religion-og-etikk:eksistensielle-sporsmal', 'religion-og-etikk', 'eksistensielle-sporsmal', 'Eksistensielle spørsmål og svar', 'Spørsmål om mening, død, lidelse, frihet og ensomhet – og hvordan religioner, humanisme og eksistensialistiske filosofer som Kierkegaard, Sartre og Camus har svart på dem.', array[9]::int[], 11, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('religion-og-etikk:eksistensielle-sporsmal', '## Hva er eksistensielle spørsmål?
+
+**Eksistensielle spørsmål** handler om selve **tilværelsen**: Hvorfor er jeg her? Hva er **meningen** med livet? Hva skjer når vi **dør**? Hvorfor finnes det **lidelse**? Hvordan skal jeg leve? Slike spørsmål har ingen **enkle** svar, men alle mennesker møter dem – ofte i **overganger** og **kriser**, som ved dødsfall, sykdom eller forelskelse.
+
+## Fire grunnleggende temaer
+
+Psykiateren **Irvin Yalom** har pekt på fire temaer som alle mennesker må forholde seg til:
+
+- **Døden** – at livet tar slutt
+- **Friheten** – at vi selv må velge og ta ansvar
+- **Ensomheten** – at vi til syvende og sist er alene i vår opplevelse
+- **Meningsløsheten** – at meningen ikke er gitt på forhånd
+
+## Religiøse svar
+
+- **Kristendom** og **islam**: Livet er skapt av **Gud** og har en **hensikt**. Etter døden venter **dom** og et **evig liv**. Lidelse kan ha en mening som mennesket ikke alltid forstår, og Gud er **nær** i lidelsen.
+- **Jødedommen** legger vekt på livet **her og nå**, på å leve etter **budene** og på **fellesskapet** og slekten.
+- **Hinduisme** og **buddhisme**: Livet er en del av et **kretsløp** av gjenfødelser. Målet er **frigjøring**. I buddhismen skyldes **lidelsen** begjær, og veien ut er **innsikt** og en etisk livsførsel.
+
+## Humanistiske svar
+
+**Humanismen** mener at vi har **ett liv**, og at meningen er noe vi selv **skaper** – gjennom **relasjoner**, **arbeid**, **kunnskap** og å gjøre verden **bedre**. At livet er **endelig**, kan gjøre det mer **verdifullt**.
+
+## Eksistensialismen
+
+**Eksistensialismen** er en filosofisk retning som setter det **enkelte mennesket** og dets **valg** i sentrum.
+
+- **Søren Kierkegaard** (1800-tallet) var **kristen**. Han mente at mennesket må ta et personlig **sprang** inn i troen, og at **angst** er en følge av friheten.
+- **Jean-Paul Sartre** mente at «**eksistensen går forut for essensen**»: Vi er ikke skapt med en fast natur, men **blir** det vi velger. Vi er «**dømt til å være frie**» og har fullt **ansvar**.
+- **Albert Camus** skrev om det **absurde** – at mennesket søker mening i en verden som er **taus**. I essayet om **Sisyfos**, som evig ruller en stein opp et fjell, konkluderer han med at vi må forestille oss Sisyfos som **lykkelig**: Vi kan finne mening i selve **kampen**.
+
+## Død og sorg
+
+Alle kulturer har **ritualer** rundt døden – gravferd, minnesteder og merkedager. Ritualene hjelper oss å **sørge**, å **huske** og å fortsette å **leve**. I Norge kan gravferden være kirkelig, humanistisk eller knyttet til andre tros- og livssynssamfunn.
+
+## Å reflektere selv
+
+Når du utforsker eksistensielle spørsmål, handler det ikke om å finne **fasit**, men om å
+
+- lytte til **ulike** svar fra religioner og livssyn
+- se hvordan svarene gir **trøst**, **håp** eller **utfordringer**
+- formulere dine **egne** tanker – og respektere at andre kommer fram til noe annet', '{"label":"Eksistensielle spørsmål","children":[{"label":"Spørsmål","children":[{"label":"Mening"},{"label":"Død og lidelse"},{"label":"Frihet og ensomhet"}]},{"label":"Religiøse svar","children":[{"label":"Kristendom og islam"},{"label":"Jødedom"},{"label":"Hinduisme og buddhisme"}]},{"label":"Humanisme","children":[{"label":"Ett liv"},{"label":"Vi skaper mening"}]},{"label":"Eksistensialisme","children":[{"label":"Kierkegaard"},{"label":"Sartre"},{"label":"Camus og Sisyfos"}]},{"label":"Død og sorg","children":[{"label":"Ritualer"},{"label":"Egen refleksjon"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'religion-og-etikk:eksistensielle-sporsmal';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('religion-og-etikk:eksistensielle-sporsmal', 'Eksistensielle spørsmål', 'Spørsmål om mening, død, lidelse, frihet og hvordan vi skal leve.', 0),
+  ('religion-og-etikk:eksistensielle-sporsmal', 'Irvin Yalom', 'Psykiater som pekte på død, frihet, ensomhet og meningsløshet.', 1),
+  ('religion-og-etikk:eksistensielle-sporsmal', 'Livets mening', 'Spørsmålet om hvorfor vi lever og hva som gir livet verdi.', 2),
+  ('religion-og-etikk:eksistensielle-sporsmal', 'Evig liv', 'Kristen og muslimsk tro på liv etter døden.', 3),
+  ('religion-og-etikk:eksistensielle-sporsmal', 'Frigjøring', 'Målet i hinduisme og buddhisme – å bli fri fra kretsløpet.', 4),
+  ('religion-og-etikk:eksistensielle-sporsmal', 'Humanistisk livssyn om mening', 'Meningen skaper vi selv gjennom relasjoner, arbeid og kunnskap.', 5),
+  ('religion-og-etikk:eksistensielle-sporsmal', 'Eksistensialismen', 'Filosofi som setter det enkelte menneskets valg i sentrum.', 6),
+  ('religion-og-etikk:eksistensielle-sporsmal', 'Søren Kierkegaard', 'Kristen eksistensialist som skrev om troens sprang og angst.', 7),
+  ('religion-og-etikk:eksistensielle-sporsmal', 'Troens sprang', 'Kierkegaards idé om at troen krever et personlig valg.', 8),
+  ('religion-og-etikk:eksistensielle-sporsmal', 'Jean-Paul Sartre', 'Mente at eksistensen går forut for essensen.', 9),
+  ('religion-og-etikk:eksistensielle-sporsmal', 'Dømt til å være fri', 'Sartres idé om at vi må velge og ta fullt ansvar.', 10),
+  ('religion-og-etikk:eksistensielle-sporsmal', 'Albert Camus', 'Skrev om det absurde og myten om Sisyfos.', 11),
+  ('religion-og-etikk:eksistensielle-sporsmal', 'Det absurde', 'At mennesket søker mening i en taus verden.', 12),
+  ('religion-og-etikk:eksistensielle-sporsmal', 'Sisyfos', 'Mytisk figur som evig ruller en stein opp et fjell.', 13),
+  ('religion-og-etikk:eksistensielle-sporsmal', 'Sorgritualer', 'Gravferd og minnemarkeringer som hjelper oss å sørge.', 14);
+delete from public.quiz_sporsmal where tema_id = 'religion-og-etikk:eksistensielle-sporsmal';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('religion-og-etikk:eksistensielle-sporsmal', 'q01', 'flervalg', 'Hva er et eksistensielt spørsmål?', array['Hva koster en buss?', 'Hva er meningen med livet?', 'Hvor mange innbyggere har Norge?', 'Hva er 2 + 2?']::text[], 1, 'Om selve tilværelsen.', true, true, 0),
+  ('religion-og-etikk:eksistensielle-sporsmal', 'q02', 'flervalg', 'Hvilke fire temaer pekte Irvin Yalom på?', array['Død, frihet, ensomhet og meningsløshet', 'Penger, makt, status og sex', 'Gud, kirke, bibel og bønn', 'Arbeid, skole, familie og venner']::text[], 0, 'Alle mennesker må forholde seg til dem.', true, true, 1),
+  ('religion-og-etikk:eksistensielle-sporsmal', 'q03', 'flervalg', 'Hva mente Sartre med at eksistensen går forut for essensen?', array['At Gud skapte vår natur', 'At vi er født med en fast natur', 'At vi ikke har en fast natur, men blir det vi velger', 'At livet er meningsløst']::text[], 2, 'Vi er dømt til å være frie.', true, true, 2),
+  ('religion-og-etikk:eksistensielle-sporsmal', 'q04', 'flervalg', 'Hva mente Camus om Sisyfos?', array['At han var ulykkelig', 'At han burde gi opp', 'At han var en gud', 'At vi må forestille oss ham som lykkelig']::text[], 3, 'Mening i selve kampen.', true, true, 3),
+  ('religion-og-etikk:eksistensielle-sporsmal', 'q05', 'flervalg', 'Hvordan skiller Kierkegaard seg fra Sartre?', array['Kierkegaard var kristen', 'Kierkegaard var ateist', 'Sartre var prest', 'De mente det samme om Gud']::text[], 0, 'Han skrev om troens sprang.', true, true, 4),
+  ('religion-og-etikk:eksistensielle-sporsmal', 'q06', 'flervalg', 'Hva er det humanistiske svaret på livets mening?', array['Meningen er gitt av Gud', 'Meningen skaper vi selv', 'Livet har ingen verdi', 'Meningen finnes etter døden']::text[], 1, 'Gjennom relasjoner, arbeid og kunnskap.', true, true, 5),
+  ('religion-og-etikk:eksistensielle-sporsmal', 'q07', 'flervalg', 'Hva er det absurde hos Camus?', array['At livet er morsomt', 'At alt har mening', 'At mennesket søker mening i en taus verden', 'At Gud svarer på alt']::text[], 2, 'En sentral idé i hans filosofi.', true, true, 6),
+  ('religion-og-etikk:eksistensielle-sporsmal', 'q08', 'flervalg', 'Hvordan forklarer buddhismen lidelse?', array['Som straff fra Gud', 'Som tilfeldigheter', 'Som noe som ikke finnes', 'Som en følge av begjær']::text[], 3, 'Veien ut er innsikt og etisk livsførsel.', true, true, 7),
+  ('religion-og-etikk:eksistensielle-sporsmal', 'q09', 'flervalg', 'Hvorfor har kulturer ritualer rundt døden?', array['For å hjelpe oss å sørge, huske og leve videre', 'For å glemme de døde', 'Fordi loven krever det', 'For å tjene penger']::text[], 0, 'Gravferd og minnesteder.', true, false, 8),
+  ('religion-og-etikk:eksistensielle-sporsmal', 'q10', 'flervalg', 'Hva handler refleksjon over eksistensielle spørsmål om?', array['Å finne én fasit', 'Å lytte til ulike svar og formulere egne tanker', 'Å følge én autoritet', 'Å unngå spørsmålene']::text[], 1, 'Og respektere at andre kommer fram til noe annet.', true, false, 9),
+  ('religion-og-etikk:eksistensielle-sporsmal', 'm01', 'sant-usant', 'Mange møter eksistensielle spørsmål i overganger og kriser.', array['Sant', 'Usant']::text[], 0, 'For eksempel ved dødsfall eller sykdom.', false, true, 10),
+  ('religion-og-etikk:eksistensielle-sporsmal', 'm02', 'sant-usant', 'Eksistensielle spørsmål har enkle svar som alle er enige om.', array['Sant', 'Usant']::text[], 1, 'De har ingen enkle svar.', false, true, 11),
+  ('religion-og-etikk:eksistensielle-sporsmal', 'm03', 'sant-usant', 'Kierkegaard mente at angst er en følge av friheten.', array['Sant', 'Usant']::text[], 0, 'Han var en kristen eksistensialist.', false, true, 12),
+  ('religion-og-etikk:eksistensielle-sporsmal', 'm04', 'sant-usant', 'Humanister tror på et evig liv etter døden.', array['Sant', 'Usant']::text[], 1, 'De mener vi har ett liv.', false, true, 13),
+  ('religion-og-etikk:eksistensielle-sporsmal', 'm05', 'flervalg', 'Hva la jødedommen særlig vekt på i møte med eksistensielle spørsmål?', array['Gjenfødelse', 'Livet her og nå, budene og fellesskapet', 'Nirvana', 'Tilfeldigheter']::text[], 1, 'Og slekten.', false, true, 14),
+  ('religion-og-etikk:eksistensielle-sporsmal', 'm06', 'flervalg', 'Hvem sa at vi er «dømt til å være frie»?', array['Sartre', 'Kierkegaard', 'Camus', 'Buddha']::text[], 0, 'Vi har fullt ansvar for våre valg.', false, true, 15),
+  ('religion-og-etikk:eksistensielle-sporsmal', 'm07', 'flervalg', 'Hvilke former for gravferd finnes i Norge?', array['Bare kirkelig', 'Bare humanistisk', 'Kirkelig, humanistisk og knyttet til andre trossamfunn', 'Ingen']::text[], 2, 'Mangfold i ritualer.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('religion-og-etikk:eksistensielle-sporsmal', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Religion og etikk: Ideer om mennesket i ulike filosofiske tradisjoner
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('religion-og-etikk:filosofiske-menneskesyn', 'religion-og-etikk', 'filosofiske-menneskesyn', 'Ideer om mennesket i ulike filosofiske tradisjoner', 'Hva et menneskesyn er, og hvordan ulike tradisjoner har forstått mennesket – Platon og Aristoteles, kristent og opplysningstidens menneskesyn, Hobbes og Rousseau, Marx, Darwin og naturalismen, eksistensialismen, østlige tradisjoner og relasjonelle menneskesyn som ubuntu.', array[14]::int[], 12, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('religion-og-etikk:filosofiske-menneskesyn', '## Hva er et menneskesyn?
+
+Et **menneskesyn** er en oppfatning av hva et **menneske er**: Er vi **kropp**, **sjel** eller begge deler? Er vi **gode** eller **onde** av natur? Er vi **frie** eller **styrt**? Hva skiller oss fra **dyrene**? Menneskesynet påvirker **politikk**, **skole**, **helse** og hvordan vi **behandler** hverandre.
+
+## Antikken
+
+- **Platon** mente at mennesket består av en udødelig **sjel** og en forgjengelig **kropp**. Sjelen hører hjemme i **idéverdenen**. Dette er et **dualistisk** menneskesyn.
+- **Aristoteles** så mennesket som et **fornuftig dyr** og et **sosialt vesen** – et «politisk dyr» – som trenger **fellesskapet**. Målet er å realisere sine **evner** og leve et godt liv gjennom **dyder**.
+
+## Kristent menneskesyn
+
+Mennesket er skapt i **Guds bilde** og har derfor **ukrenkelig verdi**. Samtidig er mennesket preget av **synd** og trenger **nåde**. Mennesket er både **kropp** og **sjel**, og er skapt til **fellesskap** med Gud og andre.
+
+## Opplysningstiden
+
+- **Immanuel Kant** mente at mennesket er et **fornuftsvesen** med **autonomi** – evne til å gi seg selv moralske lover. Derfor skal mennesker alltid behandles som **mål i seg selv**, aldri bare som **middel**.
+- **Thomas Hobbes** mente at mennesket i **naturtilstanden** er **egoistisk**, og at livet uten stat ville vært «ensomt, fattig, ekkelt, brutalt og kort». Derfor trenger vi en sterk **stat**.
+- **Jean-Jacques Rousseau** mente at mennesket er **godt** av natur, men blir **ødelagt** av samfunnet.
+
+## Moderne perspektiver
+
+- **Karl Marx**: Mennesket formes av de **materielle** og **økonomiske** forholdene. Under kapitalismen blir arbeideren **fremmedgjort** fra arbeidet sitt.
+- **Charles Darwin** og **naturalismen**: Mennesket er en del av **naturen** og har utviklet seg gjennom **evolusjon**. Forskjellen til dyrene er **gradvis**, ikke absolutt.
+- **Eksistensialismen**: Mennesket har ingen fast **natur** – vi **skaper** oss selv gjennom **valg**.
+- **Feministisk** filosofi har kritisert at «mennesket» i filosofien ofte har vært tenkt som en **mann**, og vektlagt **kropp**, **omsorg** og **relasjoner**.
+
+## Østlige tradisjoner
+
+- I **buddhismen** finnes det ikke et **fast selv** – mennesket er en strøm av **forgjengelige** prosesser.
+- I **konfutsianismen** er mennesket først og fremst et **relasjonelt** vesen, definert gjennom roller og plikter i familie og samfunn.
+
+## Ubuntu
+
+**Ubuntu** er en afrikansk tradisjon som ofte oppsummeres som «**jeg er fordi vi er**». Mennesket blir **menneske** gjennom **andre** mennesker. Tanken ble viktig i forsoningsarbeidet i **Sør-Afrika**.
+
+## Individ eller fellesskap?
+
+Noen menneskesyn legger mest vekt på **individet** – frihet og selvstendighet. Andre legger vekt på **fellesskapet** – relasjoner og ansvar for hverandre. Mange av dagens debatter om **velferd**, **skole** og **frihet** handler om hvordan vi **balanserer** disse.
+
+## Refleksjon
+
+Å kjenne ulike menneskesyn hjelper oss å forstå **hvorfor** folk er uenige – og å bli bevisst vårt **eget** menneskesyn.', '{"label":"Menneskesyn","children":[{"label":"Antikken","children":[{"label":"Platon: sjel og kropp"},{"label":"Aristoteles: sosialt vesen"}]},{"label":"Kristent","children":[{"label":"Guds bilde"},{"label":"Synd og nåde"}]},{"label":"Opplysningstid","children":[{"label":"Kant: autonomi"},{"label":"Hobbes"},{"label":"Rousseau"}]},{"label":"Moderne","children":[{"label":"Marx"},{"label":"Darwin"},{"label":"Eksistensialisme og feminisme"}]},{"label":"Andre tradisjoner","children":[{"label":"Buddhisme"},{"label":"Konfutsianisme"},{"label":"Ubuntu"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'religion-og-etikk:filosofiske-menneskesyn';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('religion-og-etikk:filosofiske-menneskesyn', 'Menneskesyn', 'Oppfatning av hva et menneske er.', 0),
+  ('religion-og-etikk:filosofiske-menneskesyn', 'Dualisme', 'Synet at mennesket består av to deler: sjel og kropp.', 1),
+  ('religion-og-etikk:filosofiske-menneskesyn', 'Platon', 'Mente at den udødelige sjelen hører hjemme i idéverdenen.', 2),
+  ('religion-og-etikk:filosofiske-menneskesyn', 'Aristoteles', 'Så mennesket som et fornuftig og sosialt vesen.', 3),
+  ('religion-og-etikk:filosofiske-menneskesyn', 'Skapt i Guds bilde', 'Kristent syn på menneskets ukrenkelige verdi.', 4),
+  ('religion-og-etikk:filosofiske-menneskesyn', 'Immanuel Kant', 'Mennesket er et fornuftsvesen som skal behandles som mål i seg selv.', 5),
+  ('religion-og-etikk:filosofiske-menneskesyn', 'Autonomi', 'Evnen til å gi seg selv moralske lover.', 6),
+  ('religion-og-etikk:filosofiske-menneskesyn', 'Thomas Hobbes', 'Mente at mennesket i naturtilstanden er egoistisk.', 7),
+  ('religion-og-etikk:filosofiske-menneskesyn', 'Naturtilstanden', 'Tenkt tilstand uten stat og lover.', 8),
+  ('religion-og-etikk:filosofiske-menneskesyn', 'Jean-Jacques Rousseau', 'Mente at mennesket er godt av natur, men ødelegges av samfunnet.', 9),
+  ('religion-og-etikk:filosofiske-menneskesyn', 'Fremmedgjøring', 'Marx'' begrep om at arbeideren fjernes fra sitt eget arbeid.', 10),
+  ('religion-og-etikk:filosofiske-menneskesyn', 'Naturalistisk menneskesyn', 'Mennesket er en del av naturen, utviklet gjennom evolusjon.', 11),
+  ('religion-og-etikk:filosofiske-menneskesyn', 'Relasjonelt menneskesyn', 'Mennesket defineres gjennom relasjoner, som i konfutsianismen.', 12),
+  ('religion-og-etikk:filosofiske-menneskesyn', 'Ubuntu', 'Afrikansk tradisjon: «jeg er fordi vi er».', 13),
+  ('religion-og-etikk:filosofiske-menneskesyn', 'Individ og fellesskap', 'To hensyn som ulike menneskesyn vekter ulikt.', 14);
+delete from public.quiz_sporsmal where tema_id = 'religion-og-etikk:filosofiske-menneskesyn';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('religion-og-etikk:filosofiske-menneskesyn', 'q01', 'flervalg', 'Hva er et dualistisk menneskesyn?', array['At mennesket bare er kropp', 'At mennesket består av sjel og kropp', 'At mennesket er ondt', 'At mennesket er et dyr']::text[], 1, 'Typisk for Platon.', true, true, 0),
+  ('religion-og-etikk:filosofiske-menneskesyn', 'q02', 'flervalg', 'Hvordan så Aristoteles på mennesket?', array['Som et fornuftig og sosialt vesen', 'Som bare en sjel', 'Som egoistisk', 'Som uten fornuft']::text[], 0, 'Et «politisk dyr».', true, true, 1),
+  ('religion-og-etikk:filosofiske-menneskesyn', 'q03', 'flervalg', 'Hva mente Kant om hvordan mennesker skal behandles?', array['Som middel for andre', 'Som dyr', 'Som mål i seg selv, aldri bare som middel', 'Som eiendom']::text[], 2, 'Fordi mennesket har autonomi.', true, true, 2),
+  ('religion-og-etikk:filosofiske-menneskesyn', 'q04', 'flervalg', 'Hva mente Hobbes om mennesket i naturtilstanden?', array['At det er godt', 'At det er fritt og lykkelig', 'At det er fredelig', 'At det er egoistisk, og at vi trenger en sterk stat']::text[], 3, 'Livet ville vært «brutalt og kort».', true, true, 3),
+  ('religion-og-etikk:filosofiske-menneskesyn', 'q05', 'flervalg', 'Hva mente Rousseau?', array['At mennesket er godt av natur, men ødelegges av samfunnet', 'At mennesket er ondt', 'At mennesket ikke har fornuft', 'At staten må være sterk']::text[], 0, 'En motsats til Hobbes.', true, true, 4),
+  ('religion-og-etikk:filosofiske-menneskesyn', 'q06', 'flervalg', 'Hva betyr ubuntu?', array['Jeg er meg selv', 'Jeg er fordi vi er', 'Jeg tenker, altså er jeg', 'Gud er død']::text[], 1, 'Mennesket blir menneske gjennom andre.', true, true, 5),
+  ('religion-og-etikk:filosofiske-menneskesyn', 'q07', 'flervalg', 'Hvordan ser buddhismen på selvet?', array['Som en udødelig sjel', 'Som skapt av Gud', 'Som en strøm av forgjengelige prosesser uten fast selv', 'Som kroppen alene']::text[], 2, 'Anatta.', true, true, 6),
+  ('religion-og-etikk:filosofiske-menneskesyn', 'q08', 'flervalg', 'Hva har feministisk filosofi kritisert?', array['At kvinner har for mye makt', 'At filosofien er for kort', 'At menn ikke skriver filosofi', 'At «mennesket» i filosofien ofte har vært tenkt som en mann']::text[], 3, 'Vektlegger kropp, omsorg og relasjoner.', true, true, 7),
+  ('religion-og-etikk:filosofiske-menneskesyn', 'q09', 'flervalg', 'Hva er det naturalistiske menneskesynet?', array['At mennesket er en del av naturen og utviklet gjennom evolusjon', 'At mennesket står utenfor naturen', 'At mennesket er skapt uforanderlig', 'At mennesket bare er sjel']::text[], 0, 'Knyttet til Darwin.', true, false, 8),
+  ('religion-og-etikk:filosofiske-menneskesyn', 'q10', 'flervalg', 'Hvordan forstår konfutsianismen mennesket?', array['Som et isolert individ', 'Som et relasjonelt vesen definert gjennom roller og plikter', 'Som en maskin', 'Som et dyr uten fornuft']::text[], 1, 'Familie og samfunn er sentrale.', true, false, 9),
+  ('religion-og-etikk:filosofiske-menneskesyn', 'm01', 'sant-usant', 'Menneskesynet påvirker blant annet politikk og skole.', array['Sant', 'Usant']::text[], 0, 'Det former hvordan vi behandler hverandre.', false, true, 10),
+  ('religion-og-etikk:filosofiske-menneskesyn', 'm02', 'sant-usant', 'Eksistensialismen mener at mennesket har en fast natur fra fødselen.', array['Sant', 'Usant']::text[], 1, 'Vi skaper oss selv gjennom valg.', false, true, 11),
+  ('religion-og-etikk:filosofiske-menneskesyn', 'm03', 'sant-usant', 'Ubuntu ble viktig i forsoningsarbeidet i Sør-Afrika.', array['Sant', 'Usant']::text[], 0, 'Mennesket blir menneske gjennom andre.', false, true, 12),
+  ('religion-og-etikk:filosofiske-menneskesyn', 'm04', 'sant-usant', 'Ifølge naturalismen er forskjellen mellom mennesker og dyr absolutt.', array['Sant', 'Usant']::text[], 1, 'Den er gradvis.', false, true, 13),
+  ('religion-og-etikk:filosofiske-menneskesyn', 'm05', 'flervalg', 'Hva mente Marx formet mennesket?', array['Guds vilje', 'De materielle og økonomiske forholdene', 'Stjernene', 'Idéverdenen']::text[], 1, 'Under kapitalismen blir arbeideren fremmedgjort.', false, true, 14),
+  ('religion-og-etikk:filosofiske-menneskesyn', 'm06', 'flervalg', 'Hvilket menneskesyn legger mest vekt på individets frihet?', array['Individorientert', 'Relasjonelt', 'Konfutsiansk', 'Ubuntu']::text[], 0, 'Andre vektlegger fellesskapet.', false, true, 15),
+  ('religion-og-etikk:filosofiske-menneskesyn', 'm07', 'flervalg', 'Hva er autonomi hos Kant?', array['Å følge andres regler', 'Å være alene', 'Evnen til å gi seg selv moralske lover', 'Å ha makt over andre']::text[], 2, 'Grunnlaget for menneskeverdet hos Kant.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('religion-og-etikk:filosofiske-menneskesyn', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Religion og etikk: Etikk i kommunikasjon, relasjoner og identitet
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('religion-og-etikk:etikk-i-kommunikasjon-og-relasjoner', 'religion-og-etikk', 'etikk-i-kommunikasjon-og-relasjoner', 'Etikk i kommunikasjon, relasjoner og identitet', 'Etiske teorier – konsekvensetikk, pliktetikk, dydsetikk og nærhetsetikk – brukt på problemstillinger om sannhet og løgn, netthets og ytringer, vennskap, kjærlighet og samtykke, identitet – og hvordan du tar andres perspektiv og håndterer meningsbrytning.', array[10, 12]::int[], 13, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('religion-og-etikk:etikk-i-kommunikasjon-og-relasjoner', '## Etiske teorier
+
+- **Konsekvensetikk**: En handling er riktig hvis den gir de **beste konsekvensene**. **Utilitarismen** til **Jeremy Bentham** og **John Stuart Mill** sier at vi skal skape **mest mulig lykke** for flest mulig.
+- **Pliktetikk**: Noen handlinger er **riktige** eller **gale** i seg selv, uansett konsekvenser. **Kant** mente at vi skal handle slik at regelen kunne blitt en **allmenn lov** – det **kategoriske imperativ** – og aldri bruke mennesker bare som **middel**.
+- **Dydsetikk**: Etikken handler om hva slags **menneske** vi skal være. **Aristoteles** mente vi skal utvikle **dyder** som mot, ærlighet og rettferdighet – den **gylne middelvei** mellom ytterpunkter.
+- **Nærhetsetikk**: Den danske filosofen **K.E. Løgstrup** mente at vi alltid holder noe av **et annet menneskes liv** i våre hender. Møtet med den andre gir oss et **ansvar**.
+
+## Kommunikasjon
+
+**Sannhet og løgn**: Er det alltid galt å lyve? Kant ville si **ja**. En konsekvensetiker kan mene at en **hvit løgn** som skåner noen, kan være riktig.
+
+**Netthets og ytringer**: I sosiale medier er det lett å skrive ting vi aldri ville sagt **ansikt til ansikt**. Etiske spørsmål er:
+
+- Hva er grensen mellom **kritikk** og **hets**?
+- Hvilket ansvar har jeg når jeg **deler** eller **liker** noe?
+- Er det greit å dele **bilder** av andre uten **samtykke**?
+
+Deling av **nakenbilder** uten samtykke er både **uetisk** og **straffbart**.
+
+## Relasjoner
+
+- **Vennskap**: lojalitet, ærlighet og å si ifra når en venn gjør noe galt.
+- **Kjærlighet og seksualitet**: **samtykke** er grunnleggende. Samtykke må være **frivillig**, **informert** og kan **trekkes tilbake**.
+- **Makt i relasjoner**: kontroll, sjalusi og **psykisk vold** kan være vanskelig å oppdage.
+
+## Identitet
+
+Etiske spørsmål knyttet til **identitet** kan handle om **kjønn**, **seksualitet**, **religion**, **kultur** og **funksjonsevne**. Hvordan respekterer vi andres rett til å **definere seg selv**? Hvordan håndterer vi **forventninger** fra familie, venner og samfunn?
+
+## Å ta andres perspektiv
+
+Å ta andres perspektiv betyr å prøve å forstå **hvorfor** noen mener det de mener – ut fra deres **erfaringer**, **verdier** og **tro**. Det betyr ikke at vi må være **enige**.
+
+## Meningsbrytning
+
+I et mangfoldig samfunn er det **naturlig** å være uenig om religion, livssyn og verdier. God meningsbrytning handler om å
+
+- **lytte** før du svarer
+- **argumentere** saklig og unngå **personangrep**
+- skille mellom **sak** og **person**
+- **stille spørsmål** i stedet for å anta
+- akseptere at noen uenigheter **ikke** kan løses – men at vi likevel kan leve **sammen** med **respekt**
+
+## Bruk av teoriene
+
+Når du drøfter en etisk problemstilling, kan du
+
+1. beskrive **situasjonen** og hvem som berøres
+2. se på saken fra **flere** teorier
+3. veie **verdier** mot hverandre
+4. komme fram til en **begrunnet** vurdering', '{"label":"Etikk i hverdagen","children":[{"label":"Teorier","children":[{"label":"Konsekvensetikk"},{"label":"Pliktetikk"},{"label":"Dydsetikk"},{"label":"Nærhetsetikk"}]},{"label":"Kommunikasjon","children":[{"label":"Sannhet og løgn"},{"label":"Netthets og deling"}]},{"label":"Relasjoner","children":[{"label":"Vennskap"},{"label":"Samtykke"},{"label":"Makt"}]},{"label":"Identitet","children":[{"label":"Kjønn og seksualitet"},{"label":"Forventninger"}]},{"label":"Meningsbrytning","children":[{"label":"Perspektivtaking"},{"label":"Saklig uenighet"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'religion-og-etikk:etikk-i-kommunikasjon-og-relasjoner';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('religion-og-etikk:etikk-i-kommunikasjon-og-relasjoner', 'Konsekvensetikk', 'En handling er riktig hvis den gir de beste konsekvensene.', 0),
+  ('religion-og-etikk:etikk-i-kommunikasjon-og-relasjoner', 'Utilitarisme', 'Mest mulig lykke for flest mulig – Bentham og Mill.', 1),
+  ('religion-og-etikk:etikk-i-kommunikasjon-og-relasjoner', 'Pliktetikk', 'Noen handlinger er riktige eller gale i seg selv.', 2),
+  ('religion-og-etikk:etikk-i-kommunikasjon-og-relasjoner', 'Det kategoriske imperativ', 'Kants krav om å handle slik at regelen kunne blitt allmenn lov.', 3),
+  ('religion-og-etikk:etikk-i-kommunikasjon-og-relasjoner', 'Dydsetikk', 'Etikk om hva slags menneske vi skal være.', 4),
+  ('religion-og-etikk:etikk-i-kommunikasjon-og-relasjoner', 'Den gylne middelvei', 'Aristoteles'' dyd mellom to ytterpunkter.', 5),
+  ('religion-og-etikk:etikk-i-kommunikasjon-og-relasjoner', 'Nærhetsetikk', 'Møtet med den andre gir oss ansvar.', 6),
+  ('religion-og-etikk:etikk-i-kommunikasjon-og-relasjoner', 'K.E. Løgstrup', 'Dansk filosof: vi holder noe av et annet menneskes liv i våre hender.', 7),
+  ('religion-og-etikk:etikk-i-kommunikasjon-og-relasjoner', 'Hvit løgn', 'Løgn som skal skåne noen.', 8),
+  ('religion-og-etikk:etikk-i-kommunikasjon-og-relasjoner', 'Netthets', 'Trakassering og hatefulle ytringer på nett.', 9),
+  ('religion-og-etikk:etikk-i-kommunikasjon-og-relasjoner', 'Samtykke', 'Frivillig og informert ja som kan trekkes tilbake.', 10),
+  ('religion-og-etikk:etikk-i-kommunikasjon-og-relasjoner', 'Psykisk vold', 'Kontroll, trusler og nedverdigelse i en relasjon.', 11),
+  ('religion-og-etikk:etikk-i-kommunikasjon-og-relasjoner', 'Perspektivtaking', 'Å prøve å forstå hvorfor andre mener det de mener.', 12),
+  ('religion-og-etikk:etikk-i-kommunikasjon-og-relasjoner', 'Meningsbrytning', 'Saklig uenighet mellom ulike synspunkter.', 13),
+  ('religion-og-etikk:etikk-i-kommunikasjon-og-relasjoner', 'Personangrep', 'Å angripe personen i stedet for saken.', 14);
+delete from public.quiz_sporsmal where tema_id = 'religion-og-etikk:etikk-i-kommunikasjon-og-relasjoner';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('religion-og-etikk:etikk-i-kommunikasjon-og-relasjoner', 'q01', 'flervalg', 'Hva kjennetegner konsekvensetikk?', array['Handlinger er gale i seg selv', 'En handling er riktig hvis den gir de beste konsekvensene', 'Etikk handler om dyder', 'Etikk handler om nærhet']::text[], 1, 'Utilitarismen er et eksempel.', true, true, 0),
+  ('religion-og-etikk:etikk-i-kommunikasjon-og-relasjoner', 'q02', 'flervalg', 'Hva sier Kants kategoriske imperativ?', array['Handle slik at regelen kunne blitt en allmenn lov', 'Skap mest mulig lykke', 'Følg den gylne middelvei', 'Gjør som flertallet']::text[], 0, 'Pliktetikk.', true, true, 1),
+  ('religion-og-etikk:etikk-i-kommunikasjon-og-relasjoner', 'q03', 'flervalg', 'Hva er dydsetikk opptatt av?', array['Konsekvenser alene', 'Plikter alene', 'Hva slags menneske vi skal være', 'Lover']::text[], 2, 'Aristoteles.', true, true, 2),
+  ('religion-og-etikk:etikk-i-kommunikasjon-og-relasjoner', 'q04', 'flervalg', 'Hva mente Løgstrup?', array['At lykke er målet', 'At plikt er alt', 'At vi skal følge middelveien', 'At vi holder noe av et annet menneskes liv i våre hender']::text[], 3, 'Nærhetsetikk.', true, true, 3),
+  ('religion-og-etikk:etikk-i-kommunikasjon-og-relasjoner', 'q05', 'flervalg', 'Hva kjennetegner samtykke?', array['Det er frivillig, informert og kan trekkes tilbake', 'Det gjelder for alltid', 'Det kan gis av andre på dine vegne', 'Det trengs ikke']::text[], 0, 'Grunnleggende i relasjoner.', true, true, 4),
+  ('religion-og-etikk:etikk-i-kommunikasjon-og-relasjoner', 'q06', 'flervalg', 'Hvordan ville Kant vurdert en hvit løgn?', array['Som riktig', 'Som gal', 'Som uviktig', 'Som en dyd']::text[], 1, 'Man skal ikke lyve.', true, true, 5),
+  ('religion-og-etikk:etikk-i-kommunikasjon-og-relasjoner', 'q07', 'flervalg', 'Hva betyr det å ta andres perspektiv?', array['Å være enig i alt', 'Å overbevise andre', 'Å prøve å forstå hvorfor andre mener det de mener', 'Å endre egen mening alltid']::text[], 2, 'Det krever ikke enighet.', true, true, 6),
+  ('religion-og-etikk:etikk-i-kommunikasjon-og-relasjoner', 'q08', 'flervalg', 'Hva kjennetegner god meningsbrytning?', array['Personangrep', 'Å avbryte', 'Å anta hva andre mener', 'Å lytte, argumentere saklig og skille sak og person']::text[], 3, 'Respekt til tross for uenighet.', true, true, 7),
+  ('religion-og-etikk:etikk-i-kommunikasjon-og-relasjoner', 'q09', 'flervalg', 'Er det lov å dele nakenbilder av andre uten samtykke?', array['Nei, det er uetisk og straffbart', 'Ja, hvis det er en venn', 'Ja, på lukkede grupper', 'Ja, hvis bildet er gammelt']::text[], 0, 'Krenker personvern og integritet.', true, false, 8),
+  ('religion-og-etikk:etikk-i-kommunikasjon-og-relasjoner', 'q10', 'flervalg', 'Hva er den gylne middelvei?', array['Å velge det billigste', 'En dyd mellom to ytterpunkter', 'En regel om sannhet', 'En konsekvensberegning']::text[], 1, 'Mot ligger mellom feighet og dumdristighet.', true, false, 9),
+  ('religion-og-etikk:etikk-i-kommunikasjon-og-relasjoner', 'm01', 'sant-usant', 'Samtykke kan trekkes tilbake.', array['Sant', 'Usant']::text[], 0, 'Det må være frivillig hele veien.', false, true, 10),
+  ('religion-og-etikk:etikk-i-kommunikasjon-og-relasjoner', 'm02', 'sant-usant', 'Å ta andres perspektiv betyr at man må være enig.', array['Sant', 'Usant']::text[], 1, 'Det handler om å forstå, ikke å være enig.', false, true, 11),
+  ('religion-og-etikk:etikk-i-kommunikasjon-og-relasjoner', 'm03', 'sant-usant', 'Noen uenigheter om verdier kan ikke løses, men vi kan leve sammen med respekt.', array['Sant', 'Usant']::text[], 0, 'Naturlig i et mangfoldig samfunn.', false, true, 12),
+  ('religion-og-etikk:etikk-i-kommunikasjon-og-relasjoner', 'm04', 'sant-usant', 'Å like og dele et innlegg har ingen etisk betydning.', array['Sant', 'Usant']::text[], 1, 'Vi har ansvar for hva vi sprer.', false, true, 13),
+  ('religion-og-etikk:etikk-i-kommunikasjon-og-relasjoner', 'm05', 'flervalg', 'Hvem sto bak utilitarismen?', array['Kant og Løgstrup', 'Bentham og Mill', 'Platon og Aristoteles', 'Marx og Freud']::text[], 1, 'Mest mulig lykke for flest mulig.', false, true, 14),
+  ('religion-og-etikk:etikk-i-kommunikasjon-og-relasjoner', 'm06', 'flervalg', 'Hva er et eksempel på psykisk vold i en relasjon?', array['Kontroll og trusler', 'Å gi gaver', 'Å lytte', 'Å være uenig om film']::text[], 0, 'Kan være vanskelig å oppdage.', false, true, 15),
+  ('religion-og-etikk:etikk-i-kommunikasjon-og-relasjoner', 'm07', 'flervalg', 'Hva er første steg når du drøfter en etisk problemstilling?', array['Å konkludere', 'Å velge én teori', 'Å beskrive situasjonen og hvem som berøres', 'Å spørre flertallet']::text[], 2, 'Deretter flere teorier og verdier.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('religion-og-etikk:etikk-i-kommunikasjon-og-relasjoner', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Religion og etikk: Menneskeverd og naturens egenverdi i møte med teknologi
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('religion-og-etikk:menneskeverd-natur-og-teknologi', 'religion-og-etikk', 'menneskeverd-natur-og-teknologi', 'Menneskeverd og naturens egenverdi i møte med teknologi', 'Hva menneskeverd og naturens egenverdi betyr, og hvordan de utfordres av teknologisk utvikling – fosterdiagnostikk og genredigering, kunstig intelligens og overvåking, dyrevelferd og klima – drøftet med antroposentriske, biosentriske og økosentriske perspektiver.', array[11]::int[], 14, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('religion-og-etikk:menneskeverd-natur-og-teknologi', '## Menneskeverd
+
+**Menneskeverd** betyr at alle mennesker har en **ukrenkelig** og **lik** verdi – uavhengig av alder, kjønn, evner, helse, nytte eller hva de har gjort. Menneskeverdet er grunnlaget for **menneskerettighetene**.
+
+Begrunnelsene varierer: **Kristne** peker på at mennesket er skapt i **Guds bilde**, **Kant** på menneskets **fornuft** og **autonomi**, og **humanister** på at vi er **sårbare** og **bevisste** vesener som kan lide og ha et godt liv.
+
+## Naturens egenverdi
+
+Har naturen verdi **i seg selv**, eller bare fordi den er **nyttig** for mennesker?
+
+- **Antroposentrisk** syn: **Mennesket** står i sentrum. Naturen har verdi fordi vi **trenger** den.
+- **Biosentrisk** syn: **Alt levende** – dyr og planter – har **egenverdi**.
+- **Økosentrisk** syn: **Økosystemer** og hele naturen har egenverdi.
+
+Den norske filosofen **Arne Næss** grunnla **dypøkologien**. Han mente at alt liv har verdi i seg selv, og at mennesket må leve **enklere** og i **harmoni** med naturen.
+
+**Peter Singer** har argumentert for at dyrs evne til å **lide** gir dem moralsk betydning. Å behandle dyr dårligere bare fordi de ikke er mennesker, kaller han **artsdiskriminering**.
+
+## Bioteknologi
+
+- **Fosterdiagnostikk** kan avdekke sykdommer og tilstander før fødselen. Noen frykter at det kan føre til en **sortering** av mennesker, for eksempel med Downs syndrom. Andre legger vekt på kvinners **selvbestemmelse**.
+- **Genredigering** med teknologi som **CRISPR** kan kanskje kurere arvelige sykdommer. Men endringer som **arves** videre til nye generasjoner, reiser spørsmål om **designerbabyer** og om vi «**leker Gud**».
+- **Kunstig befruktning**, **eggdonasjon** og **surrogati** utfordrer tradisjonelle forståelser av foreldreskap.
+
+## Kunstig intelligens og digital teknologi
+
+- **Automatiserte beslutninger**: Hvem har ansvaret når en algoritme **diskriminerer** eller gjør feil?
+- **Overvåking** og **personvern**: Data om oss samles inn i stor skala.
+- **Roboter** i omsorg: Kan en robot erstatte **menneskelig kontakt**?
+- **Autonome våpen**: Skal maskiner kunne ta beslutninger om **liv og død**?
+
+Et sentralt spørsmål er om teknologien **tjener** mennesket – eller om mennesket blir redusert til **data** og **nytte**.
+
+## Natur, klima og teknologi
+
+Teknologi har gitt oss **velstand**, men også **klimaendringer**, **forurensning** og **tap av arter**. Ny teknologi – som **fornybar energi** og **karbonfangst** – kan være en del av løsningen. Samtidig kan for eksempel **vindkraft** komme i konflikt med **natur** og **urfolksrettigheter**. Etiske spørsmål er:
+
+- Hva skylder vi **framtidige generasjoner**?
+- Hvem skal bære **kostnadene** – rike eller fattige land?
+- Kan vi stole på at teknologi løser problemene, eller må vi også **endre livsstil**?
+
+## Etiske verktøy
+
+Når du drøfter slike spørsmål, kan du bruke **konsekvensetikk** – hva gir best resultat? – **pliktetikk** – hvilke grenser må aldri krysses? – og **dydsetikk** – hva slags samfunn og mennesker vil vi være? Prinsippet om **føre var** sier at vi bør være **forsiktige** når konsekvensene er usikre og kan bli alvorlige.', '{"label":"Menneskeverd, natur og teknologi","children":[{"label":"Menneskeverd","children":[{"label":"Ukrenkelig og likt"},{"label":"Ulike begrunnelser"}]},{"label":"Natursyn","children":[{"label":"Antroposentrisk"},{"label":"Biosentrisk"},{"label":"Økosentrisk og Næss"}]},{"label":"Bioteknologi","children":[{"label":"Fosterdiagnostikk"},{"label":"Genredigering"}]},{"label":"Digital teknologi","children":[{"label":"KI og ansvar"},{"label":"Overvåking"},{"label":"Autonome våpen"}]},{"label":"Klima og dyr","children":[{"label":"Framtidige generasjoner"},{"label":"Dyrevelferd"},{"label":"Føre var"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'religion-og-etikk:menneskeverd-natur-og-teknologi';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('religion-og-etikk:menneskeverd-natur-og-teknologi', 'Menneskeverd', 'Alle mennesker har ukrenkelig og lik verdi.', 0),
+  ('religion-og-etikk:menneskeverd-natur-og-teknologi', 'Egenverdi', 'Verdi i seg selv, uavhengig av nytte.', 1),
+  ('religion-og-etikk:menneskeverd-natur-og-teknologi', 'Antroposentrisk syn', 'Mennesket i sentrum – naturen har verdi fordi vi trenger den.', 2),
+  ('religion-og-etikk:menneskeverd-natur-og-teknologi', 'Biosentrisk syn', 'Alt levende har egenverdi.', 3),
+  ('religion-og-etikk:menneskeverd-natur-og-teknologi', 'Økosentrisk syn', 'Økosystemer og hele naturen har egenverdi.', 4),
+  ('religion-og-etikk:menneskeverd-natur-og-teknologi', 'Arne Næss', 'Norsk filosof som grunnla dypøkologien.', 5),
+  ('religion-og-etikk:menneskeverd-natur-og-teknologi', 'Dypøkologi', 'Alt liv har verdi i seg selv, og mennesket må leve i harmoni med naturen.', 6),
+  ('religion-og-etikk:menneskeverd-natur-og-teknologi', 'Peter Singer', 'Mente at dyrs evne til å lide gir dem moralsk betydning.', 7),
+  ('religion-og-etikk:menneskeverd-natur-og-teknologi', 'Artsdiskriminering', 'Å behandle dyr dårligere bare fordi de ikke er mennesker.', 8),
+  ('religion-og-etikk:menneskeverd-natur-og-teknologi', 'Fosterdiagnostikk', 'Undersøkelser av fosteret før fødselen.', 9),
+  ('religion-og-etikk:menneskeverd-natur-og-teknologi', 'Sorteringssamfunn', 'Frykten for at mennesker sorteres ut etter egenskaper.', 10),
+  ('religion-og-etikk:menneskeverd-natur-og-teknologi', 'CRISPR', 'Teknologi for genredigering.', 11),
+  ('religion-og-etikk:menneskeverd-natur-og-teknologi', 'Designerbabyer', 'Barn med genetisk valgte egenskaper – etisk omstridt.', 12),
+  ('religion-og-etikk:menneskeverd-natur-og-teknologi', 'Autonome våpen', 'Våpen der maskiner tar beslutninger om liv og død.', 13),
+  ('religion-og-etikk:menneskeverd-natur-og-teknologi', 'Føre var-prinsippet', 'Å være forsiktig når konsekvensene er usikre og alvorlige.', 14);
+delete from public.quiz_sporsmal where tema_id = 'religion-og-etikk:menneskeverd-natur-og-teknologi';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('religion-og-etikk:menneskeverd-natur-og-teknologi', 'q01', 'flervalg', 'Hva betyr menneskeverd?', array['At noen mennesker er mer verdt enn andre', 'At alle mennesker har ukrenkelig og lik verdi', 'At verdien avhenger av nytte', 'At bare friske har verdi']::text[], 1, 'Grunnlaget for menneskerettighetene.', true, true, 0),
+  ('religion-og-etikk:menneskeverd-natur-og-teknologi', 'q02', 'flervalg', 'Hva er et antroposentrisk natursyn?', array['Mennesket i sentrum – naturen har verdi fordi vi trenger den', 'Alt levende har egenverdi', 'Økosystemer har egenverdi', 'Naturen har ingen verdi']::text[], 0, 'Motsatsen er bio- og økosentrisk.', true, true, 1),
+  ('religion-og-etikk:menneskeverd-natur-og-teknologi', 'q03', 'flervalg', 'Hvem grunnla dypøkologien?', array['Peter Singer', 'Immanuel Kant', 'Arne Næss', 'K.E. Løgstrup']::text[], 2, 'Norsk filosof.', true, true, 2),
+  ('religion-og-etikk:menneskeverd-natur-og-teknologi', 'q04', 'flervalg', 'Hva er artsdiskriminering?', array['Diskriminering av minoriteter', 'Å frede arter', 'Å dyrke planter', 'Å behandle dyr dårligere bare fordi de ikke er mennesker']::text[], 3, 'Peter Singers begrep.', true, true, 3),
+  ('religion-og-etikk:menneskeverd-natur-og-teknologi', 'q05', 'flervalg', 'Hvilken bekymring knyttes til fosterdiagnostikk?', array['At det kan føre til sortering av mennesker', 'At det er for billig', 'At ingen bruker det', 'At det gir for lite informasjon']::text[], 0, 'Veies mot kvinners selvbestemmelse.', true, true, 4),
+  ('religion-og-etikk:menneskeverd-natur-og-teknologi', 'q06', 'flervalg', 'Hva er CRISPR?', array['Et våpen', 'En teknologi for genredigering', 'En type KI', 'En klimaavtale']::text[], 1, 'Kan kanskje kurere arvelige sykdommer.', true, true, 5),
+  ('religion-og-etikk:menneskeverd-natur-og-teknologi', 'q07', 'flervalg', 'Hvilket etisk spørsmål reiser autonome våpen?', array['Om de er dyre', 'Om de er raske', 'Om maskiner skal kunne ta beslutninger om liv og død', 'Om de er lovlige å selge']::text[], 2, 'Ansvar og menneskeverd.', true, true, 6),
+  ('religion-og-etikk:menneskeverd-natur-og-teknologi', 'q08', 'flervalg', 'Hva sier føre var-prinsippet?', array['At vi alltid skal ta risiko', 'At teknologi alltid er trygg', 'At vi skal vente på bevis før vi handler', 'At vi bør være forsiktige når konsekvensene er usikre og alvorlige']::text[], 3, 'Viktig i miljø- og teknologietikk.', true, true, 7),
+  ('religion-og-etikk:menneskeverd-natur-og-teknologi', 'q09', 'flervalg', 'Hva er et økosentrisk natursyn?', array['Økosystemer og hele naturen har egenverdi', 'Mennesket i sentrum', 'Bare dyr har verdi', 'Naturen er en ressurs']::text[], 0, 'Det bredeste perspektivet.', true, false, 8),
+  ('religion-og-etikk:menneskeverd-natur-og-teknologi', 'q10', 'flervalg', 'Hvilken konflikt kan vindkraft skape?', array['Med klimamål', 'Med natur og urfolksrettigheter', 'Med fornybar energi', 'Ingen konflikt']::text[], 1, 'Grønn teknologi har også etiske sider.', true, false, 9),
+  ('religion-og-etikk:menneskeverd-natur-og-teknologi', 'm01', 'sant-usant', 'Menneskeverdet gjelder uavhengig av helse og evner.', array['Sant', 'Usant']::text[], 0, 'Det er ukrenkelig og likt.', false, true, 10),
+  ('religion-og-etikk:menneskeverd-natur-og-teknologi', 'm02', 'sant-usant', 'Et biosentrisk syn mener at bare mennesker har egenverdi.', array['Sant', 'Usant']::text[], 1, 'Alt levende har egenverdi.', false, true, 11),
+  ('religion-og-etikk:menneskeverd-natur-og-teknologi', 'm03', 'sant-usant', 'Genendringer som arves videre, er særlig etisk omstridte.', array['Sant', 'Usant']::text[], 0, 'De påvirker framtidige generasjoner.', false, true, 12),
+  ('religion-og-etikk:menneskeverd-natur-og-teknologi', 'm04', 'sant-usant', 'Etiske spørsmål om teknologi kan løses med én enkel regel.', array['Sant', 'Usant']::text[], 1, 'Flere teorier og verdier må veies.', false, true, 13),
+  ('religion-og-etikk:menneskeverd-natur-og-teknologi', 'm05', 'flervalg', 'Hva mente Peter Singer ga dyr moralsk betydning?', array['Intelligens', 'Evnen til å lide', 'Nytte for mennesker', 'Størrelse']::text[], 1, 'Utilitaristisk begrunnelse.', false, true, 14),
+  ('religion-og-etikk:menneskeverd-natur-og-teknologi', 'm06', 'flervalg', 'Hvilket spørsmål reiser roboter i omsorg?', array['Om de kan erstatte menneskelig kontakt', 'Om de er vakre', 'Om de er norske', 'Om de er små']::text[], 0, 'Menneskeverd i omsorg.', false, true, 15),
+  ('religion-og-etikk:menneskeverd-natur-og-teknologi', 'm07', 'flervalg', 'Hvordan begrunner Kant menneskeverdet?', array['Med nytte', 'Med styrke', 'Med menneskets fornuft og autonomi', 'Med rikdom']::text[], 2, 'Mennesket er mål i seg selv.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('religion-og-etikk:menneskeverd-natur-og-teknologi', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Religion og etikk: Fordommer, rasisme og diskriminering
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('religion-og-etikk:fordommer-rasisme-og-diskriminering', 'religion-og-etikk', 'fordommer-rasisme-og-diskriminering', 'Fordommer, rasisme og diskriminering', 'Hva gruppebaserte fordommer, stereotypier, rasisme og diskriminering er, ulike former som antisemittisme, muslimhat og antisamisk rasisme, hvordan fordommer oppstår og forsterkes – og hva lovverket og hver enkelt kan gjøre for å motarbeide dem.', array[13]::int[], 15, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('religion-og-etikk:fordommer-rasisme-og-diskriminering', '## Begreper
+
+- **Stereotypi**: et **forenklet** bilde av en gruppe, for eksempel at «alle fra et land er late».
+- **Fordom**: en **negativ holdning** til en person fordi hen tilhører en bestemt gruppe – uten at man kjenner personen.
+- **Gruppebaserte fordommer**: fordommer mot grupper basert på for eksempel **etnisitet**, **religion**, **kjønn**, **seksualitet** eller **funksjonsevne**.
+- **Diskriminering**: at noen blir **behandlet dårligere** enn andre på grunn av slike kjennetegn.
+- **Rasisme**: forestillingen om at mennesker kan deles inn i grupper med ulik **verdi**, og handlinger og strukturer som bygger på dette.
+
+## Former for rasisme
+
+- **Biologisk rasisme** hevdet at menneskeraser finnes og har ulik **verdi**. Den ble brukt til å rettferdiggjøre **slaveri**, **kolonialisme** og **holocaust**. Forskningen viser at det ikke finnes egne menneskeraser.
+- **Kulturell rasisme** hevder at noen **kulturer** eller **religioner** er **mindreverdige** og uforenlige med «vår».
+- **Strukturell rasisme**: at systemer og regler **rammer** noen grupper, selv om ingen har ment det.
+
+## Eksempler
+
+- **Antisemittisme**: fordommer og hat mot **jøder**, blant annet **konspirasjonsteorier** om at jøder styrer verden. Antisemittismen var drivkraften bak holocaust og finnes fortsatt.
+- **Muslimhat**: fordommer og hat mot **muslimer**, for eksempel ideen om at alle muslimer er **farlige**.
+- **Antisamisk rasisme**: Samer har lenge blitt møtt med **nedvurdering**, og mange opplever fortsatt **hets**.
+- **Rasisme mot svarte** og andre med **mørk hud**
+- Fordommer mot **romanifolket** og **rom**
+
+## Hvorfor oppstår fordommer?
+
+- **Vi og dem**: Mennesker deler seg lett i **inngrupper** og **utgrupper** og ser egen gruppe som bedre.
+- **Kategorisering**: Hjernen forenkler verden for å spare energi.
+- **Sosialisering**: Vi lærer holdninger fra **familie**, **venner** og **medier**.
+- **Syndebukk**: I krisetider får **minoriteter** skylden.
+- **Lite kontakt**: Fordommer trives der vi har lite **kjennskap** til hverandre.
+
+## Direkte, indirekte og strukturell diskriminering
+
+- **Direkte**: en person blir bevisst avvist, for eksempel ikke kalt inn til jobbintervju på grunn av **navnet**.
+- **Indirekte**: en tilsynelatende **nøytral** regel rammer noen grupper hardere, for eksempel et forbud mot hodeplagg.
+- **Trakassering**: plagsom oppførsel knyttet til gruppetilhørighet.
+
+## Lovverket
+
+- **Likestillings- og diskrimineringsloven** forbyr diskriminering på grunn av blant annet **etnisitet**, **religion**, **kjønn**, **seksuell orientering** og **funksjonsnedsettelse**.
+- **Straffeloven** forbyr **hatefulle ytringer** og gir strengere straff for **hatkriminalitet**.
+- **Likestillings- og diskrimineringsombudet** gir veiledning.
+
+## Hva kan vi gjøre?
+
+- **Kunnskap** om andre grupper og om historien
+- **Kontakt** og **samarbeid** på tvers av grupper
+- **Si ifra** når noen utsettes for hets – og støtte den som rammes
+- Være **kritisk** til egne **fordommer** og til hva vi deler på nett
+- Skille mellom **kritikk** av ideer og **hat** mot mennesker
+
+## Refleksjon
+
+Fordommer kan ramme **alle**, og de fleste av oss har noen. Det viktige er å bli **bevisst** dem – og ikke la dem styre hvordan vi **behandler** andre.', '{"label":"Fordommer og rasisme","children":[{"label":"Begreper","children":[{"label":"Stereotypi og fordom"},{"label":"Diskriminering"},{"label":"Rasisme"}]},{"label":"Former","children":[{"label":"Biologisk"},{"label":"Kulturell"},{"label":"Strukturell"}]},{"label":"Eksempler","children":[{"label":"Antisemittisme"},{"label":"Muslimhat"},{"label":"Antisamisk rasisme"}]},{"label":"Årsaker","children":[{"label":"Vi og dem"},{"label":"Syndebukk"},{"label":"Lite kontakt"}]},{"label":"Motvirke","children":[{"label":"Lovverk"},{"label":"Kunnskap og kontakt"},{"label":"Si ifra"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'religion-og-etikk:fordommer-rasisme-og-diskriminering';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('religion-og-etikk:fordommer-rasisme-og-diskriminering', 'Stereotypi', 'Forenklet bilde av en gruppe.', 0),
+  ('religion-og-etikk:fordommer-rasisme-og-diskriminering', 'Fordom', 'Negativ holdning til en person fordi hen tilhører en gruppe.', 1),
+  ('religion-og-etikk:fordommer-rasisme-og-diskriminering', 'Gruppebaserte fordommer', 'Fordommer basert på etnisitet, religion, kjønn, seksualitet eller funksjonsevne.', 2),
+  ('religion-og-etikk:fordommer-rasisme-og-diskriminering', 'Diskriminering', 'At noen behandles dårligere på grunn av gruppetilhørighet.', 3),
+  ('religion-og-etikk:fordommer-rasisme-og-diskriminering', 'Rasisme', 'Forestillingen om at grupper av mennesker har ulik verdi.', 4),
+  ('religion-og-etikk:fordommer-rasisme-og-diskriminering', 'Biologisk rasisme', 'Påstand om at menneskeraser finnes og har ulik verdi.', 5),
+  ('religion-og-etikk:fordommer-rasisme-og-diskriminering', 'Kulturell rasisme', 'Påstand om at noen kulturer eller religioner er mindreverdige.', 6),
+  ('religion-og-etikk:fordommer-rasisme-og-diskriminering', 'Strukturell rasisme', 'Systemer og regler som rammer noen grupper.', 7),
+  ('religion-og-etikk:fordommer-rasisme-og-diskriminering', 'Antisemittisme', 'Fordommer og hat mot jøder.', 8),
+  ('religion-og-etikk:fordommer-rasisme-og-diskriminering', 'Muslimhat', 'Fordommer og hat mot muslimer.', 9),
+  ('religion-og-etikk:fordommer-rasisme-og-diskriminering', 'Antisamisk rasisme', 'Nedvurdering og hets av samer.', 10),
+  ('religion-og-etikk:fordommer-rasisme-og-diskriminering', 'Inngruppe og utgruppe', 'Vi og dem – egen gruppe ses som bedre.', 11),
+  ('religion-og-etikk:fordommer-rasisme-og-diskriminering', 'Syndebukk', 'En gruppe som får skylden for problemer.', 12),
+  ('religion-og-etikk:fordommer-rasisme-og-diskriminering', 'Indirekte diskriminering', 'En tilsynelatende nøytral regel rammer noen grupper hardere.', 13),
+  ('religion-og-etikk:fordommer-rasisme-og-diskriminering', 'Likestillings- og diskrimineringsloven', 'Lov som forbyr diskriminering på mange grunnlag.', 14),
+  ('religion-og-etikk:fordommer-rasisme-og-diskriminering', 'Hatkriminalitet', 'Straffbare handlinger motivert av hat mot en gruppe.', 15);
+delete from public.quiz_sporsmal where tema_id = 'religion-og-etikk:fordommer-rasisme-og-diskriminering';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('religion-og-etikk:fordommer-rasisme-og-diskriminering', 'q01', 'flervalg', 'Hva er en fordom?', array['Kunnskap om en gruppe', 'En negativ holdning til en person fordi hen tilhører en gruppe', 'En lov', 'En type forskning']::text[], 1, 'Uten at man kjenner personen.', true, true, 0),
+  ('religion-og-etikk:fordommer-rasisme-og-diskriminering', 'q02', 'flervalg', 'Hva er kulturell rasisme?', array['Påstand om at noen kulturer eller religioner er mindreverdige', 'Påstand om ulike raser', 'Lovverk mot rasisme', 'Kulturutveksling']::text[], 0, 'En nyere form for rasisme.', true, true, 1),
+  ('religion-og-etikk:fordommer-rasisme-og-diskriminering', 'q03', 'flervalg', 'Hva er antisemittisme?', array['Hat mot muslimer', 'Hat mot samer', 'Fordommer og hat mot jøder', 'Kritikk av religion']::text[], 2, 'Drivkraften bak holocaust.', true, true, 2),
+  ('religion-og-etikk:fordommer-rasisme-og-diskriminering', 'q04', 'flervalg', 'Hva er indirekte diskriminering?', array['Bevisst avvisning', 'Trakassering', 'Hets på nett', 'En tilsynelatende nøytral regel som rammer noen grupper hardere']::text[], 3, 'For eksempel et forbud mot hodeplagg.', true, true, 3),
+  ('religion-og-etikk:fordommer-rasisme-og-diskriminering', 'q05', 'flervalg', 'Hva sier forskningen om menneskeraser?', array['At det ikke finnes egne menneskeraser', 'At det finnes fem raser', 'At raser har ulik intelligens', 'At raser har ulik verdi']::text[], 0, 'Biologisk rasisme er avvist.', true, true, 4),
+  ('religion-og-etikk:fordommer-rasisme-og-diskriminering', 'q06', 'flervalg', 'Hva er en syndebukk?', array['En type dyr', 'En gruppe som får skylden for problemer', 'En lov', 'En type ytring']::text[], 1, 'Minoriteter rammes ofte i krisetider.', true, true, 5),
+  ('religion-og-etikk:fordommer-rasisme-og-diskriminering', 'q07', 'flervalg', 'Hvilken lov forbyr diskriminering på grunn av religion og etnisitet?', array['Arbeidsmiljøloven alene', 'Arveloven', 'Likestillings- og diskrimineringsloven', 'Barneloven']::text[], 2, 'Også kjønn og seksuell orientering.', true, true, 6),
+  ('religion-og-etikk:fordommer-rasisme-og-diskriminering', 'q08', 'flervalg', 'Hva kan redusere fordommer?', array['Mindre kontakt', 'Konspirasjonsteorier', 'Å dele hets', 'Kunnskap og kontakt på tvers av grupper']::text[], 3, 'Fordommer trives der vi har lite kjennskap.', true, true, 7),
+  ('religion-og-etikk:fordommer-rasisme-og-diskriminering', 'q09', 'flervalg', 'En person blir ikke kalt inn til intervju på grunn av navnet. Hva slags diskriminering er det?', array['Direkte', 'Indirekte', 'Strukturell alene', 'Positiv']::text[], 0, 'Bevisst avvisning.', true, false, 8),
+  ('religion-og-etikk:fordommer-rasisme-og-diskriminering', 'q10', 'flervalg', 'Hva er forskjellen på kritikk av ideer og hat mot mennesker?', array['Ingen forskjell', 'Kritikk retter seg mot ideer, hat rammer mennesker som gruppe', 'Hat er alltid lovlig', 'Kritikk er alltid ulovlig']::text[], 1, 'Viktig skille.', true, false, 9),
+  ('religion-og-etikk:fordommer-rasisme-og-diskriminering', 'm01', 'sant-usant', 'De fleste mennesker har noen fordommer.', array['Sant', 'Usant']::text[], 0, 'Det viktige er å bli bevisst dem.', false, true, 10),
+  ('religion-og-etikk:fordommer-rasisme-og-diskriminering', 'm02', 'sant-usant', 'Hatefulle ytringer er fullt ut lovlige i Norge.', array['Sant', 'Usant']::text[], 1, 'Straffeloven forbyr hatefulle ytringer.', false, true, 11),
+  ('religion-og-etikk:fordommer-rasisme-og-diskriminering', 'm03', 'sant-usant', 'Strukturell rasisme kan finnes selv om ingen har ment å diskriminere.', array['Sant', 'Usant']::text[], 0, 'Systemer og regler kan ramme noen grupper.', false, true, 12),
+  ('religion-og-etikk:fordommer-rasisme-og-diskriminering', 'm04', 'sant-usant', 'Antisemittisme forsvant etter andre verdenskrig.', array['Sant', 'Usant']::text[], 1, 'Den finnes fortsatt.', false, true, 13),
+  ('religion-og-etikk:fordommer-rasisme-og-diskriminering', 'm05', 'flervalg', 'Hvem gir veiledning om diskriminering i Norge?', array['Forbrukertilsynet', 'Likestillings- og diskrimineringsombudet', 'Konkurransetilsynet', 'Datatilsynet']::text[], 1, 'Hjelper dem som opplever diskriminering.', false, true, 14),
+  ('religion-og-etikk:fordommer-rasisme-og-diskriminering', 'm06', 'flervalg', 'Hva gjør hjernen når den kategoriserer?', array['Forenkler verden for å spare energi', 'Lager alltid riktige bilder', 'Fjerner alle fordommer', 'Glemmer alt']::text[], 0, 'En årsak til stereotypier.', false, true, 15),
+  ('religion-og-etikk:fordommer-rasisme-og-diskriminering', 'm07', 'flervalg', 'Hva kan du gjøre når noen utsettes for hets?', array['Dele hetsen videre', 'Late som ingenting', 'Si ifra og støtte den som rammes', 'Le med']::text[], 2, 'Hver enkelt kan gjøre en forskjell.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('religion-og-etikk:fordommer-rasisme-og-diskriminering', 15)
 on conflict (tema_id) do update set minutter = excluded.minutter;
 
 commit;

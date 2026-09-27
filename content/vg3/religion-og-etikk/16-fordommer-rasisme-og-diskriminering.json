@@ -1,0 +1,83 @@
+{
+  "id": "fordommer-rasisme-og-diskriminering",
+  "fagId": "religion-og-etikk",
+  "trinnId": "vg3",
+  "name": "Fordommer, rasisme og diskriminering",
+  "intro": "Hva gruppebaserte fordommer, stereotypier, rasisme og diskriminering er, ulike former som antisemittisme, muslimhat og antisamisk rasisme, hvordan fordommer oppstår og forsterkes – og hva lovverket og hver enkelt kan gjøre for å motarbeide dem.",
+  "kompetansemaal": [13],
+  "sammendrag": "## Begreper\n\n- **Stereotypi**: et **forenklet** bilde av en gruppe, for eksempel at «alle fra et land er late».\n- **Fordom**: en **negativ holdning** til en person fordi hen tilhører en bestemt gruppe – uten at man kjenner personen.\n- **Gruppebaserte fordommer**: fordommer mot grupper basert på for eksempel **etnisitet**, **religion**, **kjønn**, **seksualitet** eller **funksjonsevne**.\n- **Diskriminering**: at noen blir **behandlet dårligere** enn andre på grunn av slike kjennetegn.\n- **Rasisme**: forestillingen om at mennesker kan deles inn i grupper med ulik **verdi**, og handlinger og strukturer som bygger på dette.\n\n## Former for rasisme\n\n- **Biologisk rasisme** hevdet at menneskeraser finnes og har ulik **verdi**. Den ble brukt til å rettferdiggjøre **slaveri**, **kolonialisme** og **holocaust**. Forskningen viser at det ikke finnes egne menneskeraser.\n- **Kulturell rasisme** hevder at noen **kulturer** eller **religioner** er **mindreverdige** og uforenlige med «vår».\n- **Strukturell rasisme**: at systemer og regler **rammer** noen grupper, selv om ingen har ment det.\n\n## Eksempler\n\n- **Antisemittisme**: fordommer og hat mot **jøder**, blant annet **konspirasjonsteorier** om at jøder styrer verden. Antisemittismen var drivkraften bak holocaust og finnes fortsatt.\n- **Muslimhat**: fordommer og hat mot **muslimer**, for eksempel ideen om at alle muslimer er **farlige**.\n- **Antisamisk rasisme**: Samer har lenge blitt møtt med **nedvurdering**, og mange opplever fortsatt **hets**.\n- **Rasisme mot svarte** og andre med **mørk hud**\n- Fordommer mot **romanifolket** og **rom**\n\n## Hvorfor oppstår fordommer?\n\n- **Vi og dem**: Mennesker deler seg lett i **inngrupper** og **utgrupper** og ser egen gruppe som bedre.\n- **Kategorisering**: Hjernen forenkler verden for å spare energi.\n- **Sosialisering**: Vi lærer holdninger fra **familie**, **venner** og **medier**.\n- **Syndebukk**: I krisetider får **minoriteter** skylden.\n- **Lite kontakt**: Fordommer trives der vi har lite **kjennskap** til hverandre.\n\n## Direkte, indirekte og strukturell diskriminering\n\n- **Direkte**: en person blir bevisst avvist, for eksempel ikke kalt inn til jobbintervju på grunn av **navnet**.\n- **Indirekte**: en tilsynelatende **nøytral** regel rammer noen grupper hardere, for eksempel et forbud mot hodeplagg.\n- **Trakassering**: plagsom oppførsel knyttet til gruppetilhørighet.\n\n## Lovverket\n\n- **Likestillings- og diskrimineringsloven** forbyr diskriminering på grunn av blant annet **etnisitet**, **religion**, **kjønn**, **seksuell orientering** og **funksjonsnedsettelse**.\n- **Straffeloven** forbyr **hatefulle ytringer** og gir strengere straff for **hatkriminalitet**.\n- **Likestillings- og diskrimineringsombudet** gir veiledning.\n\n## Hva kan vi gjøre?\n\n- **Kunnskap** om andre grupper og om historien\n- **Kontakt** og **samarbeid** på tvers av grupper\n- **Si ifra** når noen utsettes for hets – og støtte den som rammes\n- Være **kritisk** til egne **fordommer** og til hva vi deler på nett\n- Skille mellom **kritikk** av ideer og **hat** mot mennesker\n\n## Refleksjon\n\nFordommer kan ramme **alle**, og de fleste av oss har noen. Det viktige er å bli **bevisst** dem – og ikke la dem styre hvordan vi **behandler** andre.",
+  "flashcards": [
+    { "term": "Stereotypi", "def": "Forenklet bilde av en gruppe." },
+    { "term": "Fordom", "def": "Negativ holdning til en person fordi hen tilhører en gruppe." },
+    { "term": "Gruppebaserte fordommer", "def": "Fordommer basert på etnisitet, religion, kjønn, seksualitet eller funksjonsevne." },
+    { "term": "Diskriminering", "def": "At noen behandles dårligere på grunn av gruppetilhørighet." },
+    { "term": "Rasisme", "def": "Forestillingen om at grupper av mennesker har ulik verdi." },
+    { "term": "Biologisk rasisme", "def": "Påstand om at menneskeraser finnes og har ulik verdi." },
+    { "term": "Kulturell rasisme", "def": "Påstand om at noen kulturer eller religioner er mindreverdige." },
+    { "term": "Strukturell rasisme", "def": "Systemer og regler som rammer noen grupper." },
+    { "term": "Antisemittisme", "def": "Fordommer og hat mot jøder." },
+    { "term": "Muslimhat", "def": "Fordommer og hat mot muslimer." },
+    { "term": "Antisamisk rasisme", "def": "Nedvurdering og hets av samer." },
+    { "term": "Inngruppe og utgruppe", "def": "Vi og dem – egen gruppe ses som bedre." },
+    { "term": "Syndebukk", "def": "En gruppe som får skylden for problemer." },
+    { "term": "Indirekte diskriminering", "def": "En tilsynelatende nøytral regel rammer noen grupper hardere." },
+    { "term": "Likestillings- og diskrimineringsloven", "def": "Lov som forbyr diskriminering på mange grunnlag." },
+    { "term": "Hatkriminalitet", "def": "Straffbare handlinger motivert av hat mot en gruppe." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er en fordom?", "options": ["Kunnskap om en gruppe", "En negativ holdning til en person fordi hen tilhører en gruppe", "En lov", "En type forskning"], "correct": 1, "explain": "Uten at man kjenner personen." },
+    { "id": "q02", "text": "Hva er kulturell rasisme?", "options": ["Påstand om at noen kulturer eller religioner er mindreverdige", "Påstand om ulike raser", "Lovverk mot rasisme", "Kulturutveksling"], "correct": 0, "explain": "En nyere form for rasisme." },
+    { "id": "q03", "text": "Hva er antisemittisme?", "options": ["Hat mot muslimer", "Hat mot samer", "Fordommer og hat mot jøder", "Kritikk av religion"], "correct": 2, "explain": "Drivkraften bak holocaust." },
+    { "id": "q04", "text": "Hva er indirekte diskriminering?", "options": ["Bevisst avvisning", "Trakassering", "Hets på nett", "En tilsynelatende nøytral regel som rammer noen grupper hardere"], "correct": 3, "explain": "For eksempel et forbud mot hodeplagg." },
+    { "id": "q05", "text": "Hva sier forskningen om menneskeraser?", "options": ["At det ikke finnes egne menneskeraser", "At det finnes fem raser", "At raser har ulik intelligens", "At raser har ulik verdi"], "correct": 0, "explain": "Biologisk rasisme er avvist." },
+    { "id": "q06", "text": "Hva er en syndebukk?", "options": ["En type dyr", "En gruppe som får skylden for problemer", "En lov", "En type ytring"], "correct": 1, "explain": "Minoriteter rammes ofte i krisetider." },
+    { "id": "q07", "text": "Hvilken lov forbyr diskriminering på grunn av religion og etnisitet?", "options": ["Arbeidsmiljøloven alene", "Arveloven", "Likestillings- og diskrimineringsloven", "Barneloven"], "correct": 2, "explain": "Også kjønn og seksuell orientering." },
+    { "id": "q08", "text": "Hva kan redusere fordommer?", "options": ["Mindre kontakt", "Konspirasjonsteorier", "Å dele hets", "Kunnskap og kontakt på tvers av grupper"], "correct": 3, "explain": "Fordommer trives der vi har lite kjennskap." },
+    { "id": "q09", "text": "En person blir ikke kalt inn til intervju på grunn av navnet. Hva slags diskriminering er det?", "options": ["Direkte", "Indirekte", "Strukturell alene", "Positiv"], "correct": 0, "explain": "Bevisst avvisning." },
+    { "id": "q10", "text": "Hva er forskjellen på kritikk av ideer og hat mot mennesker?", "options": ["Ingen forskjell", "Kritikk retter seg mot ideer, hat rammer mennesker som gruppe", "Hat er alltid lovlig", "Kritikk er alltid ulovlig"], "correct": 1, "explain": "Viktig skille." }
+  ],
+  "mindmap": {
+    "label": "Fordommer og rasisme",
+    "children": [
+      { "label": "Begreper", "children": [
+        { "label": "Stereotypi og fordom" },
+        { "label": "Diskriminering" },
+        { "label": "Rasisme" }
+      ] },
+      { "label": "Former", "children": [
+        { "label": "Biologisk" },
+        { "label": "Kulturell" },
+        { "label": "Strukturell" }
+      ] },
+      { "label": "Eksempler", "children": [
+        { "label": "Antisemittisme" },
+        { "label": "Muslimhat" },
+        { "label": "Antisamisk rasisme" }
+      ] },
+      { "label": "Årsaker", "children": [
+        { "label": "Vi og dem" },
+        { "label": "Syndebukk" },
+        { "label": "Lite kontakt" }
+      ] },
+      { "label": "Motvirke", "children": [
+        { "label": "Lovverk" },
+        { "label": "Kunnskap og kontakt" },
+        { "label": "Si ifra" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "De fleste mennesker har noen fordommer.", "correct": true, "explain": "Det viktige er å bli bevisst dem." },
+      { "id": "m02", "type": "sant-usant", "text": "Hatefulle ytringer er fullt ut lovlige i Norge.", "correct": false, "explain": "Straffeloven forbyr hatefulle ytringer." },
+      { "id": "m03", "type": "sant-usant", "text": "Strukturell rasisme kan finnes selv om ingen har ment å diskriminere.", "correct": true, "explain": "Systemer og regler kan ramme noen grupper." },
+      { "id": "m04", "type": "sant-usant", "text": "Antisemittisme forsvant etter andre verdenskrig.", "correct": false, "explain": "Den finnes fortsatt." },
+      { "id": "m05", "type": "flervalg", "text": "Hvem gir veiledning om diskriminering i Norge?", "options": ["Forbrukertilsynet", "Likestillings- og diskrimineringsombudet", "Konkurransetilsynet", "Datatilsynet"], "correct": 1, "explain": "Hjelper dem som opplever diskriminering." },
+      { "id": "m06", "type": "flervalg", "text": "Hva gjør hjernen når den kategoriserer?", "options": ["Forenkler verden for å spare energi", "Lager alltid riktige bilder", "Fjerner alle fordommer", "Glemmer alt"], "correct": 0, "explain": "En årsak til stereotypier." },
+      { "id": "m07", "type": "flervalg", "text": "Hva kan du gjøre når noen utsettes for hets?", "options": ["Dele hetsen videre", "Late som ingenting", "Si ifra og støtte den som rammes", "Le med"], "correct": 2, "explain": "Hver enkelt kan gjøre en forskjell." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

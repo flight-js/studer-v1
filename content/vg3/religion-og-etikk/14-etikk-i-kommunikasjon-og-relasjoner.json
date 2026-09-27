@@ -1,0 +1,80 @@
+{
+  "id": "etikk-i-kommunikasjon-og-relasjoner",
+  "fagId": "religion-og-etikk",
+  "trinnId": "vg3",
+  "name": "Etikk i kommunikasjon, relasjoner og identitet",
+  "intro": "Etiske teorier – konsekvensetikk, pliktetikk, dydsetikk og nærhetsetikk – brukt på problemstillinger om sannhet og løgn, netthets og ytringer, vennskap, kjærlighet og samtykke, identitet – og hvordan du tar andres perspektiv og håndterer meningsbrytning.",
+  "kompetansemaal": [10, 12],
+  "sammendrag": "## Etiske teorier\n\n- **Konsekvensetikk**: En handling er riktig hvis den gir de **beste konsekvensene**. **Utilitarismen** til **Jeremy Bentham** og **John Stuart Mill** sier at vi skal skape **mest mulig lykke** for flest mulig.\n- **Pliktetikk**: Noen handlinger er **riktige** eller **gale** i seg selv, uansett konsekvenser. **Kant** mente at vi skal handle slik at regelen kunne blitt en **allmenn lov** – det **kategoriske imperativ** – og aldri bruke mennesker bare som **middel**.\n- **Dydsetikk**: Etikken handler om hva slags **menneske** vi skal være. **Aristoteles** mente vi skal utvikle **dyder** som mot, ærlighet og rettferdighet – den **gylne middelvei** mellom ytterpunkter.\n- **Nærhetsetikk**: Den danske filosofen **K.E. Løgstrup** mente at vi alltid holder noe av **et annet menneskes liv** i våre hender. Møtet med den andre gir oss et **ansvar**.\n\n## Kommunikasjon\n\n**Sannhet og løgn**: Er det alltid galt å lyve? Kant ville si **ja**. En konsekvensetiker kan mene at en **hvit løgn** som skåner noen, kan være riktig.\n\n**Netthets og ytringer**: I sosiale medier er det lett å skrive ting vi aldri ville sagt **ansikt til ansikt**. Etiske spørsmål er:\n\n- Hva er grensen mellom **kritikk** og **hets**?\n- Hvilket ansvar har jeg når jeg **deler** eller **liker** noe?\n- Er det greit å dele **bilder** av andre uten **samtykke**?\n\nDeling av **nakenbilder** uten samtykke er både **uetisk** og **straffbart**.\n\n## Relasjoner\n\n- **Vennskap**: lojalitet, ærlighet og å si ifra når en venn gjør noe galt.\n- **Kjærlighet og seksualitet**: **samtykke** er grunnleggende. Samtykke må være **frivillig**, **informert** og kan **trekkes tilbake**.\n- **Makt i relasjoner**: kontroll, sjalusi og **psykisk vold** kan være vanskelig å oppdage.\n\n## Identitet\n\nEtiske spørsmål knyttet til **identitet** kan handle om **kjønn**, **seksualitet**, **religion**, **kultur** og **funksjonsevne**. Hvordan respekterer vi andres rett til å **definere seg selv**? Hvordan håndterer vi **forventninger** fra familie, venner og samfunn?\n\n## Å ta andres perspektiv\n\nÅ ta andres perspektiv betyr å prøve å forstå **hvorfor** noen mener det de mener – ut fra deres **erfaringer**, **verdier** og **tro**. Det betyr ikke at vi må være **enige**.\n\n## Meningsbrytning\n\nI et mangfoldig samfunn er det **naturlig** å være uenig om religion, livssyn og verdier. God meningsbrytning handler om å\n\n- **lytte** før du svarer\n- **argumentere** saklig og unngå **personangrep**\n- skille mellom **sak** og **person**\n- **stille spørsmål** i stedet for å anta\n- akseptere at noen uenigheter **ikke** kan løses – men at vi likevel kan leve **sammen** med **respekt**\n\n## Bruk av teoriene\n\nNår du drøfter en etisk problemstilling, kan du\n\n1. beskrive **situasjonen** og hvem som berøres\n2. se på saken fra **flere** teorier\n3. veie **verdier** mot hverandre\n4. komme fram til en **begrunnet** vurdering",
+  "flashcards": [
+    { "term": "Konsekvensetikk", "def": "En handling er riktig hvis den gir de beste konsekvensene." },
+    { "term": "Utilitarisme", "def": "Mest mulig lykke for flest mulig – Bentham og Mill." },
+    { "term": "Pliktetikk", "def": "Noen handlinger er riktige eller gale i seg selv." },
+    { "term": "Det kategoriske imperativ", "def": "Kants krav om å handle slik at regelen kunne blitt allmenn lov." },
+    { "term": "Dydsetikk", "def": "Etikk om hva slags menneske vi skal være." },
+    { "term": "Den gylne middelvei", "def": "Aristoteles' dyd mellom to ytterpunkter." },
+    { "term": "Nærhetsetikk", "def": "Møtet med den andre gir oss ansvar." },
+    { "term": "K.E. Løgstrup", "def": "Dansk filosof: vi holder noe av et annet menneskes liv i våre hender." },
+    { "term": "Hvit løgn", "def": "Løgn som skal skåne noen." },
+    { "term": "Netthets", "def": "Trakassering og hatefulle ytringer på nett." },
+    { "term": "Samtykke", "def": "Frivillig og informert ja som kan trekkes tilbake." },
+    { "term": "Psykisk vold", "def": "Kontroll, trusler og nedverdigelse i en relasjon." },
+    { "term": "Perspektivtaking", "def": "Å prøve å forstå hvorfor andre mener det de mener." },
+    { "term": "Meningsbrytning", "def": "Saklig uenighet mellom ulike synspunkter." },
+    { "term": "Personangrep", "def": "Å angripe personen i stedet for saken." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva kjennetegner konsekvensetikk?", "options": ["Handlinger er gale i seg selv", "En handling er riktig hvis den gir de beste konsekvensene", "Etikk handler om dyder", "Etikk handler om nærhet"], "correct": 1, "explain": "Utilitarismen er et eksempel." },
+    { "id": "q02", "text": "Hva sier Kants kategoriske imperativ?", "options": ["Handle slik at regelen kunne blitt en allmenn lov", "Skap mest mulig lykke", "Følg den gylne middelvei", "Gjør som flertallet"], "correct": 0, "explain": "Pliktetikk." },
+    { "id": "q03", "text": "Hva er dydsetikk opptatt av?", "options": ["Konsekvenser alene", "Plikter alene", "Hva slags menneske vi skal være", "Lover"], "correct": 2, "explain": "Aristoteles." },
+    { "id": "q04", "text": "Hva mente Løgstrup?", "options": ["At lykke er målet", "At plikt er alt", "At vi skal følge middelveien", "At vi holder noe av et annet menneskes liv i våre hender"], "correct": 3, "explain": "Nærhetsetikk." },
+    { "id": "q05", "text": "Hva kjennetegner samtykke?", "options": ["Det er frivillig, informert og kan trekkes tilbake", "Det gjelder for alltid", "Det kan gis av andre på dine vegne", "Det trengs ikke"], "correct": 0, "explain": "Grunnleggende i relasjoner." },
+    { "id": "q06", "text": "Hvordan ville Kant vurdert en hvit løgn?", "options": ["Som riktig", "Som gal", "Som uviktig", "Som en dyd"], "correct": 1, "explain": "Man skal ikke lyve." },
+    { "id": "q07", "text": "Hva betyr det å ta andres perspektiv?", "options": ["Å være enig i alt", "Å overbevise andre", "Å prøve å forstå hvorfor andre mener det de mener", "Å endre egen mening alltid"], "correct": 2, "explain": "Det krever ikke enighet." },
+    { "id": "q08", "text": "Hva kjennetegner god meningsbrytning?", "options": ["Personangrep", "Å avbryte", "Å anta hva andre mener", "Å lytte, argumentere saklig og skille sak og person"], "correct": 3, "explain": "Respekt til tross for uenighet." },
+    { "id": "q09", "text": "Er det lov å dele nakenbilder av andre uten samtykke?", "options": ["Nei, det er uetisk og straffbart", "Ja, hvis det er en venn", "Ja, på lukkede grupper", "Ja, hvis bildet er gammelt"], "correct": 0, "explain": "Krenker personvern og integritet." },
+    { "id": "q10", "text": "Hva er den gylne middelvei?", "options": ["Å velge det billigste", "En dyd mellom to ytterpunkter", "En regel om sannhet", "En konsekvensberegning"], "correct": 1, "explain": "Mot ligger mellom feighet og dumdristighet." }
+  ],
+  "mindmap": {
+    "label": "Etikk i hverdagen",
+    "children": [
+      { "label": "Teorier", "children": [
+        { "label": "Konsekvensetikk" },
+        { "label": "Pliktetikk" },
+        { "label": "Dydsetikk" },
+        { "label": "Nærhetsetikk" }
+      ] },
+      { "label": "Kommunikasjon", "children": [
+        { "label": "Sannhet og løgn" },
+        { "label": "Netthets og deling" }
+      ] },
+      { "label": "Relasjoner", "children": [
+        { "label": "Vennskap" },
+        { "label": "Samtykke" },
+        { "label": "Makt" }
+      ] },
+      { "label": "Identitet", "children": [
+        { "label": "Kjønn og seksualitet" },
+        { "label": "Forventninger" }
+      ] },
+      { "label": "Meningsbrytning", "children": [
+        { "label": "Perspektivtaking" },
+        { "label": "Saklig uenighet" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Samtykke kan trekkes tilbake.", "correct": true, "explain": "Det må være frivillig hele veien." },
+      { "id": "m02", "type": "sant-usant", "text": "Å ta andres perspektiv betyr at man må være enig.", "correct": false, "explain": "Det handler om å forstå, ikke å være enig." },
+      { "id": "m03", "type": "sant-usant", "text": "Noen uenigheter om verdier kan ikke løses, men vi kan leve sammen med respekt.", "correct": true, "explain": "Naturlig i et mangfoldig samfunn." },
+      { "id": "m04", "type": "sant-usant", "text": "Å like og dele et innlegg har ingen etisk betydning.", "correct": false, "explain": "Vi har ansvar for hva vi sprer." },
+      { "id": "m05", "type": "flervalg", "text": "Hvem sto bak utilitarismen?", "options": ["Kant og Løgstrup", "Bentham og Mill", "Platon og Aristoteles", "Marx og Freud"], "correct": 1, "explain": "Mest mulig lykke for flest mulig." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er et eksempel på psykisk vold i en relasjon?", "options": ["Kontroll og trusler", "Å gi gaver", "Å lytte", "Å være uenig om film"], "correct": 0, "explain": "Kan være vanskelig å oppdage." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er første steg når du drøfter en etisk problemstilling?", "options": ["Å konkludere", "Å velge én teori", "Å beskrive situasjonen og hvem som berøres", "Å spørre flertallet"], "correct": 2, "explain": "Deretter flere teorier og verdier." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

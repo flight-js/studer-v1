@@ -1,0 +1,81 @@
+{
+  "id": "islam",
+  "fagId": "religion-og-etikk",
+  "trinnId": "vg3",
+  "name": "Islam",
+  "intro": "Sentrale trekk ved islam: profeten Muhammad, Koranen og sunna, troen på Guds enhet, de fem søylene, sunni og sjia, sharia og ulike tolkninger – og islam i verden og i Norge i dag.",
+  "kompetansemaal": [1],
+  "sammendrag": "## Opphav\n\n**Islam** betyr «**underkastelse**» under Gud. Muslimer tror at **Muhammad** (ca. 570–632) var Guds siste **profet**. Han levde i **Mekka** på den arabiske halvøy og fikk ifølge tradisjonen **åpenbaringer** fra Gud gjennom engelen **Jibril**. I **622** flyttet han og tilhengerne til **Medina** – **hijra** – og dette året er starten på den muslimske tidsregningen. Islam er i dag verdens **nest største** religion.\n\n## Koranen og sunna\n\n- **Koranen** er for muslimer **Guds eget ord**, åpenbart til Muhammad på **arabisk**.\n- **Sunna** er Muhammads **eksempel** – hva han sa og gjorde – slik det er fortalt i **hadith**-samlingene.\n\nKoranen og sunna er de viktigste **kildene** til islamsk tro og praksis.\n\n## Troslære\n\n- **Tawhid**: Gud – **Allah** – er **én**. Gud har ingen partner og ingen sønn.\n- Tro på **engler**, **profeter**, **hellige skrifter**, **dommens dag** og Guds **forutbestemmelse**.\n- Profetene omfatter blant andre **Abraham** (Ibrahim), **Moses** (Musa) og **Jesus** (Isa). Jesus regnes som en stor profet, men **ikke** Guds sønn.\n\n## De fem søylene\n\n1. **Trosbekjennelsen** – det finnes ingen gud unntatt Gud, og Muhammad er hans sendebud\n2. **Bønn** fem ganger om dagen, vendt mot **Mekka**\n3. **Almisse** – å gi en del av formuen til de trengende\n4. **Faste** i måneden **ramadan** fra soloppgang til solnedgang\n5. **Pilegrimsreise** til Mekka – **hajj** – minst én gang i livet for dem som kan\n\n## Retninger\n\n- **Sunnimuslimer** utgjør det store **flertallet**.\n- **Sjiamuslimer** utgjør en **minoritet** og står sterkest i **Iran** og **Irak**.\n\nSplittelsen startet med uenighet om hvem som skulle **lede** muslimene etter Muhammads død. Sjiamuslimene mener at lederskapet tilhørte hans svigersønn **Ali** og hans etterkommere.\n\n**Sufisme** er en **mystisk** retning som søker en nær, personlig opplevelse av Gud.\n\n## Sharia\n\n**Sharia** betyr «veien» og er Guds vilje for menneskenes liv – bønn, faste, familieliv, handel og straff. Sharia er **ikke** én lovbok, men noe som **tolkes** av lærde. Muslimer har svært **ulike** syn på hvordan sharia skal forstås, og de fleste muslimer i Norge ser på den som en **personlig** veiledning, ikke som statlig lov.\n\n## Høytider og ritualer\n\n- **Id al-fitr** avslutter ramadan.\n- **Id al-adha** – offerfesten – markerer slutten på hajj og minner om Abrahams vilje til å ofre sønnen.\n- **Fredagsbønnen** i moskeen er ukens viktigste bønn.\n\n## Islam i Norge og verden\n\nDe fleste muslimer bor i **Asia** og **Afrika**, og landet med flest muslimer er **Indonesia**. I Norge er islam det **største** trossamfunnet utenfor kristendommen. De fleste muslimer i Norge har røtter i blant annet **Pakistan**, **Somalia**, **Irak**, **Tyrkia** og **Bosnia**, men stadig flere er født i Norge – og noen er **konvertitter**.\n\n## Mangfold\n\nMuslimer er like **mangfoldige** som andre troende: noen er svært **praktiserende**, andre **kulturelle** muslimer. Det er stor forskjell på **islam** som religion og **islamisme** – politiske bevegelser som vil bygge samfunnet på en bestemt tolkning av islam.",
+  "flashcards": [
+    { "term": "Islam", "def": "Betyr underkastelse under Gud." },
+    { "term": "Muhammad", "def": "Guds siste profet ifølge islam, levde ca. 570–632." },
+    { "term": "Hijra", "def": "Utvandringen til Medina i 622 – starten på den muslimske tidsregningen." },
+    { "term": "Koranen", "def": "Guds eget ord for muslimer, åpenbart på arabisk." },
+    { "term": "Sunna", "def": "Muhammads eksempel, fortalt i hadith." },
+    { "term": "Tawhid", "def": "Læren om Guds enhet." },
+    { "term": "Isa", "def": "Jesus i islam – en stor profet, men ikke Guds sønn." },
+    { "term": "De fem søylene", "def": "Trosbekjennelse, bønn, almisse, faste og pilegrimsreise." },
+    { "term": "Ramadan", "def": "Fastemåneden." },
+    { "term": "Hajj", "def": "Pilegrimsreisen til Mekka." },
+    { "term": "Sunnimuslimer", "def": "Det store flertallet av muslimer." },
+    { "term": "Sjiamuslimer", "def": "Minoritet som mener lederskapet tilhørte Ali og hans etterkommere." },
+    { "term": "Sufisme", "def": "Mystisk retning i islam." },
+    { "term": "Sharia", "def": "«Veien» – Guds vilje for menneskenes liv, som tolkes av lærde." },
+    { "term": "Id al-fitr", "def": "Høytiden som avslutter ramadan." },
+    { "term": "Islamisme", "def": "Politiske bevegelser som vil bygge samfunnet på en tolkning av islam." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva betyr ordet islam?", "options": ["Fred alene", "Underkastelse under Gud", "Bønn", "Profet"], "correct": 1, "explain": "Ordet er beslektet med salam – fred." },
+    { "id": "q02", "text": "Hva er Koranen for muslimer?", "options": ["Guds eget ord", "Muhammads dagbok", "En historiebok", "En samling dikt"], "correct": 0, "explain": "Åpenbart på arabisk." },
+    { "id": "q03", "text": "Hva er tawhid?", "options": ["Fasten", "Pilegrimsreisen", "Læren om Guds enhet", "En høytid"], "correct": 2, "explain": "Gud har ingen partner og ingen sønn." },
+    { "id": "q04", "text": "Hvor mange ganger om dagen skal muslimer be?", "options": ["Én", "Tre", "Sju", "Fem"], "correct": 3, "explain": "En av de fem søylene." },
+    { "id": "q05", "text": "Hva startet splittelsen mellom sunni og sjia?", "options": ["Uenighet om hvem som skulle lede etter Muhammads død", "Uenighet om fasten", "Uenighet om Koranens språk", "En krig mot Romerriket"], "correct": 0, "explain": "Sjiamuslimene støttet Ali." },
+    { "id": "q06", "text": "Hvordan ser islam på Jesus?", "options": ["Som Guds sønn", "Som en stor profet, men ikke Guds sønn", "Som en falsk profet", "Han nevnes ikke"], "correct": 1, "explain": "Kalt Isa." },
+    { "id": "q07", "text": "Hva er sharia?", "options": ["En bestemt lovbok alle er enige om", "En moske", "Guds vilje for menneskenes liv, som tolkes av lærde", "En høytid"], "correct": 2, "explain": "Muslimer har ulike syn på sharia." },
+    { "id": "q08", "text": "Hvilket land har flest muslimer?", "options": ["Saudi-Arabia", "Iran", "Tyrkia", "Indonesia"], "correct": 3, "explain": "De fleste muslimer bor i Asia og Afrika." },
+    { "id": "q09", "text": "Hva markerer id al-adha?", "options": ["Slutten på hajj og Abrahams vilje til å ofre sønnen", "Slutten på ramadan", "Muhammads fødsel", "Nyttår"], "correct": 0, "explain": "Kalles også offerfesten." },
+    { "id": "q10", "text": "Hva er forskjellen på islam og islamisme?", "options": ["Det er det samme", "Islamisme er politiske bevegelser som vil bygge samfunnet på en tolkning av islam", "Islamisme er en høytid", "Islam er en politisk ideologi"], "correct": 1, "explain": "Viktig å skille mellom." }
+  ],
+  "mindmap": {
+    "label": "Islam",
+    "children": [
+      { "label": "Opphav", "children": [
+        { "label": "Muhammad" },
+        { "label": "Mekka og Medina" }
+      ] },
+      { "label": "Kilder", "children": [
+        { "label": "Koranen" },
+        { "label": "Sunna og hadith" }
+      ] },
+      { "label": "Tro og praksis", "children": [
+        { "label": "Tawhid" },
+        { "label": "Fem søyler" },
+        { "label": "Id-feiringene" }
+      ] },
+      { "label": "Retninger", "children": [
+        { "label": "Sunni" },
+        { "label": "Sjia" },
+        { "label": "Sufisme" }
+      ] },
+      { "label": "I dag", "children": [
+        { "label": "Sharia og tolkning" },
+        { "label": "Islam i Norge" },
+        { "label": "Mangfold" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Islam er det største trossamfunnet i Norge utenfor kristendommen.", "correct": true, "explain": "Med røtter i mange land." },
+      { "id": "m02", "type": "sant-usant", "text": "Alle muslimer tolker sharia på samme måte.", "correct": false, "explain": "Tolkningene er svært ulike." },
+      { "id": "m03", "type": "sant-usant", "text": "Den muslimske tidsregningen starter med hijra i 622.", "correct": true, "explain": "Utvandringen til Medina." },
+      { "id": "m04", "type": "sant-usant", "text": "Sjiamuslimer er flertallet av muslimer i verden.", "correct": false, "explain": "Sunnimuslimer er flertallet." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er sunna?", "options": ["Fastemåneden", "Muhammads eksempel", "Pilegrimsreisen", "En retning"], "correct": 1, "explain": "Fortalt i hadith." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er almisse i islam?", "options": ["Å gi en del av formuen til de trengende", "Å be fem ganger", "Å faste", "Å reise til Mekka"], "correct": 0, "explain": "En av de fem søylene." },
+      { "id": "m07", "type": "flervalg", "text": "Hva kjennetegner sufisme?", "options": ["Politisk kamp", "Lovtolkning", "Søken etter en nær, personlig opplevelse av Gud", "Motstand mot bønn"], "correct": 2, "explain": "En mystisk retning." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

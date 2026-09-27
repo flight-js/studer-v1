@@ -1,0 +1,81 @@
+{
+  "id": "religion-i-historiske-endringsprosesser",
+  "fagId": "religion-og-etikk",
+  "trinnId": "vg3",
+  "name": "Religion i historiske endringsprosesser",
+  "intro": "Hvordan religion har vært med på å forme – og blitt formet av – historiske endringer globalt og i Norge: kristningen, reformasjonen, misjon og kolonialisme, sekularisering, religion i frigjøringsbevegelser og politiske revolusjoner, og utviklingen fra statskirke til livssynsåpent samfunn.",
+  "kompetansemaal": [2],
+  "sammendrag": "## Religion som drivkraft og hindring\n\nReligion har ofte vært en **drivkraft** i historien – for **samhold**, **reformer** og **frigjøring**. Men religion har også blitt brukt til å **legitimere** makt, **krig** og **undertrykkelse**. Samtidig endrer **religionene** seg når samfunnet endrer seg.\n\n## Kristningen av Norge\n\nFra **900- og 1000-tallet** ble Norge **kristnet**. Kongene **Olav Tryggvason** og **Olav Haraldsson** spilte en viktig rolle, ofte med **makt**. Etter slaget på **Stiklestad** i **1030** ble Olav Haraldsson dyrket som helgen – **Olav den hellige**. Kristendommen styrket **kongemakten**, ga nye **lover** og knyttet Norge til den europeiske **kirken**.\n\n## Reformasjonen\n\nPå **1500-tallet** protesterte **Martin Luther** mot **avlatshandelen** og pavens makt. **Reformasjonen** splittet kirken i Europa og førte til **religionskriger**. I Norge ble **lutherdommen** innført av den dansk-norske kongen i **1537**, og kongen ble kirkens **overhode**. Reformasjonen ga også **bibler** og **salmer** på folkespråket og bidro til **leseferdighet**.\n\n## Misjon og kolonialisme\n\nDa europeerne erobret kolonier, fulgte **misjonærene** etter. Misjonen bygde **skoler** og **sykehus**, men var også ofte knyttet til **kolonimakten** og til ideen om europeisk **overlegenhet**. I dag bor de fleste kristne i det **globale sør**, og mange kirker der har utviklet sin egen **teologi**.\n\n## Religion og frigjøring\n\n- **Martin Luther King** bygde **borgerrettighetsbevegelsen** i USA på **kristen** tro og ikkevold.\n- **Desmond Tutu** kjempet mot **apartheid** i Sør-Afrika.\n- **Frigjøringsteologien** i Latin-Amerika tolket Bibelen som et budskap om **rettferdighet** for de fattige.\n\n## Religion og revolusjon\n\nDen **iranske revolusjonen** i **1979** gjorde **Iran** til en **islamsk republikk** styrt av religiøse ledere. Den viste at religion kan være en sterk **politisk** kraft også i moderne tid.\n\n## Sekularisering – og motstrømmer\n\nI **Vest-Europa** har religion fått **mindre** betydning i offentligheten og i manges liv – **sekularisering**. Stat og kirke er skilt i mange land. Samtidig har religion fått **større** betydning andre steder, for eksempel gjennom veksten i **pinsebevegelsen**, **politisk islam** og **hindunasjonalisme**. Mange forskere snakker derfor om **religionens tilbakekomst** i offentligheten.\n\n## Fra statskirke til livssynsåpent samfunn\n\n- **Grunnloven** fra **1814** gjorde den **evangelisk-lutherske** religionen til statens religion.\n- **Dissenterloven** fra **1845** tillot andre kristne trossamfunn.\n- I **2012** ble **statskirkeordningen** avviklet i Grunnloven, og i **2017** ble **Den norske kirke** et eget **rettssubjekt**.\n- **Tros- og livssynsloven** fra **2021** regulerer støtte til trossamfunn og livssynssamfunn.\n\nNorge er i dag et **livssynsåpent** samfunn med stort **religiøst mangfold**, men Den norske kirke har fortsatt en særstilling.\n\n## Drøfting\n\nNår du drøfter religionens rolle i en endringsprosess, spør:\n\n- Var religionen **årsak**, **redskap** eller **følge** av endringen?\n- Hvem brukte religionen – og til hva?\n- Hvordan ble religionen selv **endret**?",
+  "flashcards": [
+    { "term": "Kristningen av Norge", "def": "Overgangen til kristendom på 900- og 1000-tallet." },
+    { "term": "Stiklestad 1030", "def": "Slaget der Olav Haraldsson falt og senere ble helgen." },
+    { "term": "Olav den hellige", "def": "Olav Haraldsson, dyrket som helgen etter 1030." },
+    { "term": "Reformasjonen", "def": "1500-tallets splittelse av kirken etter Luthers protest." },
+    { "term": "Avlat", "def": "Kjøp av tilgivelse for synder – kritisert av Luther." },
+    { "term": "Reformasjonen i Norge", "def": "Lutherdommen ble innført i 1537." },
+    { "term": "Misjon", "def": "Arbeid for å spre en religion." },
+    { "term": "Martin Luther King", "def": "Bygde borgerrettighetskampen på kristen tro og ikkevold." },
+    { "term": "Frigjøringsteologi", "def": "Latinamerikansk teologi om rettferdighet for de fattige." },
+    { "term": "Den iranske revolusjonen", "def": "Gjorde Iran til en islamsk republikk i 1979." },
+    { "term": "Sekularisering", "def": "At religion får mindre betydning i samfunnet." },
+    { "term": "Religionens tilbakekomst", "def": "At religion igjen får større plass i offentligheten." },
+    { "term": "Dissenterloven 1845", "def": "Tillot andre kristne trossamfunn i Norge." },
+    { "term": "Statskirkeordningen", "def": "Avviklet i Grunnloven i 2012." },
+    { "term": "Tros- og livssynsloven", "def": "Lov fra 2021 om trossamfunn og livssynssamfunn." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvilken rolle spilte kristendommen i middelalderens Norge?", "options": ["Den svekket kongemakten", "Den styrket kongemakten og ga nye lover", "Den hadde ingen betydning", "Den førte til demokrati"], "correct": 1, "explain": "Knyttet Norge til den europeiske kirken." },
+    { "id": "q02", "text": "Når ble lutherdommen innført i Norge?", "options": ["1537", "1030", "1814", "1905"], "correct": 0, "explain": "Av den dansk-norske kongen." },
+    { "id": "q03", "text": "Hva protesterte Luther mot?", "options": ["Bibelen på folkespråket", "Salmer", "Avlatshandelen og pavens makt", "Nattverden"], "correct": 2, "explain": "Startet reformasjonen." },
+    { "id": "q04", "text": "Hva skjedde i Iran i 1979?", "options": ["Landet ble sekulært", "Landet ble kristent", "Landet ble en koloni", "Landet ble en islamsk republikk"], "correct": 3, "explain": "Religion som politisk kraft." },
+    { "id": "q05", "text": "Hva bygde Martin Luther King borgerrettighetskampen på?", "options": ["Kristen tro og ikkevold", "Vold", "Kommunisme", "Nasjonalisme"], "correct": 0, "explain": "Religion som frigjørende kraft." },
+    { "id": "q06", "text": "Hva skjedde med statskirkeordningen i 2012?", "options": ["Den ble innført", "Den ble avviklet i Grunnloven", "Den ble utvidet", "Den ble flyttet til Sverige"], "correct": 1, "explain": "Kirken ble eget rettssubjekt i 2017." },
+    { "id": "q07", "text": "Hva var en positiv side ved reformasjonen?", "options": ["Religionskriger", "Mer avlat", "Bibler og salmer på folkespråket og økt leseferdighet", "Større pavemakt"], "correct": 2, "explain": "Folk kunne lese selv." },
+    { "id": "q08", "text": "Hva er frigjøringsteologi?", "options": ["Teologi om kongemakt", "Teologi om misjon i Norge", "Teologi om avlat", "Teologi om rettferdighet for de fattige"], "correct": 3, "explain": "Fra Latin-Amerika." },
+    { "id": "q09", "text": "Hva betyr religionens tilbakekomst?", "options": ["At religion igjen får større plass i offentligheten", "At religioner forsvinner", "At kirker rives", "At alle blir ateister"], "correct": 0, "explain": "En motstrøm til sekulariseringen." },
+    { "id": "q10", "text": "Hva tillot dissenterloven fra 1845?", "options": ["Islam", "Andre kristne trossamfunn", "Ateisme", "Jødedom"], "correct": 1, "explain": "Jøder fikk adgang i 1851." }
+  ],
+  "mindmap": {
+    "label": "Religion og historisk endring",
+    "children": [
+      { "label": "Norge", "children": [
+        { "label": "Kristningen" },
+        { "label": "Reformasjonen 1537" },
+        { "label": "Fra statskirke til 2017" }
+      ] },
+      { "label": "Europa", "children": [
+        { "label": "Luther" },
+        { "label": "Religionskriger" },
+        { "label": "Sekularisering" }
+      ] },
+      { "label": "Globalt", "children": [
+        { "label": "Misjon og kolonialisme" },
+        { "label": "Iran 1979" },
+        { "label": "Pinsebevegelsen" }
+      ] },
+      { "label": "Frigjøring", "children": [
+        { "label": "Martin Luther King" },
+        { "label": "Desmond Tutu" },
+        { "label": "Frigjøringsteologi" }
+      ] },
+      { "label": "Drøfting", "children": [
+        { "label": "Årsak, redskap, følge" },
+        { "label": "Religionen endres" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Misjonen bygde skoler og sykehus, men var ofte knyttet til kolonimakten.", "correct": true, "explain": "En tvetydig historie." },
+      { "id": "m02", "type": "sant-usant", "text": "Religion har bare vært en kilde til konflikt i historien.", "correct": false, "explain": "Den har også vært en kraft for frigjøring." },
+      { "id": "m03", "type": "sant-usant", "text": "Den norske kirke ble et eget rettssubjekt i 2017.", "correct": true, "explain": "Etter at statskirken ble avviklet." },
+      { "id": "m04", "type": "sant-usant", "text": "Kristningen av Norge skjedde helt uten bruk av makt.", "correct": false, "explain": "Kongene brukte ofte makt." },
+      { "id": "m05", "type": "flervalg", "text": "Hvem kjempet mot apartheid i Sør-Afrika ut fra kristen tro?", "options": ["Martin Luther", "Desmond Tutu", "Olav Tryggvason", "Paulus"], "correct": 1, "explain": "Erkebiskop i Sør-Afrika." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilket spørsmål er nyttig når du drøfter religionens rolle i en endring?", "options": ["Var religionen årsak, redskap eller følge?", "Hvor mange kirker finnes?", "Hvilken farge hadde kirkene?", "Hvor gammel var kongen?"], "correct": 0, "explain": "Og hvem brukte religionen." },
+      { "id": "m07", "type": "flervalg", "text": "Hvor bor de fleste kristne i dag?", "options": ["I Norden", "I Vest-Europa", "I det globale sør", "I Midtøsten"], "correct": 2, "explain": "Tyngdepunktet har flyttet seg." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

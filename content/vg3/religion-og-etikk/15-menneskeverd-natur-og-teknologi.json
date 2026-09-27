@@ -1,0 +1,80 @@
+{
+  "id": "menneskeverd-natur-og-teknologi",
+  "fagId": "religion-og-etikk",
+  "trinnId": "vg3",
+  "name": "Menneskeverd og naturens egenverdi i møte med teknologi",
+  "intro": "Hva menneskeverd og naturens egenverdi betyr, og hvordan de utfordres av teknologisk utvikling – fosterdiagnostikk og genredigering, kunstig intelligens og overvåking, dyrevelferd og klima – drøftet med antroposentriske, biosentriske og økosentriske perspektiver.",
+  "kompetansemaal": [11],
+  "sammendrag": "## Menneskeverd\n\n**Menneskeverd** betyr at alle mennesker har en **ukrenkelig** og **lik** verdi – uavhengig av alder, kjønn, evner, helse, nytte eller hva de har gjort. Menneskeverdet er grunnlaget for **menneskerettighetene**.\n\nBegrunnelsene varierer: **Kristne** peker på at mennesket er skapt i **Guds bilde**, **Kant** på menneskets **fornuft** og **autonomi**, og **humanister** på at vi er **sårbare** og **bevisste** vesener som kan lide og ha et godt liv.\n\n## Naturens egenverdi\n\nHar naturen verdi **i seg selv**, eller bare fordi den er **nyttig** for mennesker?\n\n- **Antroposentrisk** syn: **Mennesket** står i sentrum. Naturen har verdi fordi vi **trenger** den.\n- **Biosentrisk** syn: **Alt levende** – dyr og planter – har **egenverdi**.\n- **Økosentrisk** syn: **Økosystemer** og hele naturen har egenverdi.\n\nDen norske filosofen **Arne Næss** grunnla **dypøkologien**. Han mente at alt liv har verdi i seg selv, og at mennesket må leve **enklere** og i **harmoni** med naturen.\n\n**Peter Singer** har argumentert for at dyrs evne til å **lide** gir dem moralsk betydning. Å behandle dyr dårligere bare fordi de ikke er mennesker, kaller han **artsdiskriminering**.\n\n## Bioteknologi\n\n- **Fosterdiagnostikk** kan avdekke sykdommer og tilstander før fødselen. Noen frykter at det kan føre til en **sortering** av mennesker, for eksempel med Downs syndrom. Andre legger vekt på kvinners **selvbestemmelse**.\n- **Genredigering** med teknologi som **CRISPR** kan kanskje kurere arvelige sykdommer. Men endringer som **arves** videre til nye generasjoner, reiser spørsmål om **designerbabyer** og om vi «**leker Gud**».\n- **Kunstig befruktning**, **eggdonasjon** og **surrogati** utfordrer tradisjonelle forståelser av foreldreskap.\n\n## Kunstig intelligens og digital teknologi\n\n- **Automatiserte beslutninger**: Hvem har ansvaret når en algoritme **diskriminerer** eller gjør feil?\n- **Overvåking** og **personvern**: Data om oss samles inn i stor skala.\n- **Roboter** i omsorg: Kan en robot erstatte **menneskelig kontakt**?\n- **Autonome våpen**: Skal maskiner kunne ta beslutninger om **liv og død**?\n\nEt sentralt spørsmål er om teknologien **tjener** mennesket – eller om mennesket blir redusert til **data** og **nytte**.\n\n## Natur, klima og teknologi\n\nTeknologi har gitt oss **velstand**, men også **klimaendringer**, **forurensning** og **tap av arter**. Ny teknologi – som **fornybar energi** og **karbonfangst** – kan være en del av løsningen. Samtidig kan for eksempel **vindkraft** komme i konflikt med **natur** og **urfolksrettigheter**. Etiske spørsmål er:\n\n- Hva skylder vi **framtidige generasjoner**?\n- Hvem skal bære **kostnadene** – rike eller fattige land?\n- Kan vi stole på at teknologi løser problemene, eller må vi også **endre livsstil**?\n\n## Etiske verktøy\n\nNår du drøfter slike spørsmål, kan du bruke **konsekvensetikk** – hva gir best resultat? – **pliktetikk** – hvilke grenser må aldri krysses? – og **dydsetikk** – hva slags samfunn og mennesker vil vi være? Prinsippet om **føre var** sier at vi bør være **forsiktige** når konsekvensene er usikre og kan bli alvorlige.",
+  "flashcards": [
+    { "term": "Menneskeverd", "def": "Alle mennesker har ukrenkelig og lik verdi." },
+    { "term": "Egenverdi", "def": "Verdi i seg selv, uavhengig av nytte." },
+    { "term": "Antroposentrisk syn", "def": "Mennesket i sentrum – naturen har verdi fordi vi trenger den." },
+    { "term": "Biosentrisk syn", "def": "Alt levende har egenverdi." },
+    { "term": "Økosentrisk syn", "def": "Økosystemer og hele naturen har egenverdi." },
+    { "term": "Arne Næss", "def": "Norsk filosof som grunnla dypøkologien." },
+    { "term": "Dypøkologi", "def": "Alt liv har verdi i seg selv, og mennesket må leve i harmoni med naturen." },
+    { "term": "Peter Singer", "def": "Mente at dyrs evne til å lide gir dem moralsk betydning." },
+    { "term": "Artsdiskriminering", "def": "Å behandle dyr dårligere bare fordi de ikke er mennesker." },
+    { "term": "Fosterdiagnostikk", "def": "Undersøkelser av fosteret før fødselen." },
+    { "term": "Sorteringssamfunn", "def": "Frykten for at mennesker sorteres ut etter egenskaper." },
+    { "term": "CRISPR", "def": "Teknologi for genredigering." },
+    { "term": "Designerbabyer", "def": "Barn med genetisk valgte egenskaper – etisk omstridt." },
+    { "term": "Autonome våpen", "def": "Våpen der maskiner tar beslutninger om liv og død." },
+    { "term": "Føre var-prinsippet", "def": "Å være forsiktig når konsekvensene er usikre og alvorlige." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva betyr menneskeverd?", "options": ["At noen mennesker er mer verdt enn andre", "At alle mennesker har ukrenkelig og lik verdi", "At verdien avhenger av nytte", "At bare friske har verdi"], "correct": 1, "explain": "Grunnlaget for menneskerettighetene." },
+    { "id": "q02", "text": "Hva er et antroposentrisk natursyn?", "options": ["Mennesket i sentrum – naturen har verdi fordi vi trenger den", "Alt levende har egenverdi", "Økosystemer har egenverdi", "Naturen har ingen verdi"], "correct": 0, "explain": "Motsatsen er bio- og økosentrisk." },
+    { "id": "q03", "text": "Hvem grunnla dypøkologien?", "options": ["Peter Singer", "Immanuel Kant", "Arne Næss", "K.E. Løgstrup"], "correct": 2, "explain": "Norsk filosof." },
+    { "id": "q04", "text": "Hva er artsdiskriminering?", "options": ["Diskriminering av minoriteter", "Å frede arter", "Å dyrke planter", "Å behandle dyr dårligere bare fordi de ikke er mennesker"], "correct": 3, "explain": "Peter Singers begrep." },
+    { "id": "q05", "text": "Hvilken bekymring knyttes til fosterdiagnostikk?", "options": ["At det kan føre til sortering av mennesker", "At det er for billig", "At ingen bruker det", "At det gir for lite informasjon"], "correct": 0, "explain": "Veies mot kvinners selvbestemmelse." },
+    { "id": "q06", "text": "Hva er CRISPR?", "options": ["Et våpen", "En teknologi for genredigering", "En type KI", "En klimaavtale"], "correct": 1, "explain": "Kan kanskje kurere arvelige sykdommer." },
+    { "id": "q07", "text": "Hvilket etisk spørsmål reiser autonome våpen?", "options": ["Om de er dyre", "Om de er raske", "Om maskiner skal kunne ta beslutninger om liv og død", "Om de er lovlige å selge"], "correct": 2, "explain": "Ansvar og menneskeverd." },
+    { "id": "q08", "text": "Hva sier føre var-prinsippet?", "options": ["At vi alltid skal ta risiko", "At teknologi alltid er trygg", "At vi skal vente på bevis før vi handler", "At vi bør være forsiktige når konsekvensene er usikre og alvorlige"], "correct": 3, "explain": "Viktig i miljø- og teknologietikk." },
+    { "id": "q09", "text": "Hva er et økosentrisk natursyn?", "options": ["Økosystemer og hele naturen har egenverdi", "Mennesket i sentrum", "Bare dyr har verdi", "Naturen er en ressurs"], "correct": 0, "explain": "Det bredeste perspektivet." },
+    { "id": "q10", "text": "Hvilken konflikt kan vindkraft skape?", "options": ["Med klimamål", "Med natur og urfolksrettigheter", "Med fornybar energi", "Ingen konflikt"], "correct": 1, "explain": "Grønn teknologi har også etiske sider." }
+  ],
+  "mindmap": {
+    "label": "Menneskeverd, natur og teknologi",
+    "children": [
+      { "label": "Menneskeverd", "children": [
+        { "label": "Ukrenkelig og likt" },
+        { "label": "Ulike begrunnelser" }
+      ] },
+      { "label": "Natursyn", "children": [
+        { "label": "Antroposentrisk" },
+        { "label": "Biosentrisk" },
+        { "label": "Økosentrisk og Næss" }
+      ] },
+      { "label": "Bioteknologi", "children": [
+        { "label": "Fosterdiagnostikk" },
+        { "label": "Genredigering" }
+      ] },
+      { "label": "Digital teknologi", "children": [
+        { "label": "KI og ansvar" },
+        { "label": "Overvåking" },
+        { "label": "Autonome våpen" }
+      ] },
+      { "label": "Klima og dyr", "children": [
+        { "label": "Framtidige generasjoner" },
+        { "label": "Dyrevelferd" },
+        { "label": "Føre var" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Menneskeverdet gjelder uavhengig av helse og evner.", "correct": true, "explain": "Det er ukrenkelig og likt." },
+      { "id": "m02", "type": "sant-usant", "text": "Et biosentrisk syn mener at bare mennesker har egenverdi.", "correct": false, "explain": "Alt levende har egenverdi." },
+      { "id": "m03", "type": "sant-usant", "text": "Genendringer som arves videre, er særlig etisk omstridte.", "correct": true, "explain": "De påvirker framtidige generasjoner." },
+      { "id": "m04", "type": "sant-usant", "text": "Etiske spørsmål om teknologi kan løses med én enkel regel.", "correct": false, "explain": "Flere teorier og verdier må veies." },
+      { "id": "m05", "type": "flervalg", "text": "Hva mente Peter Singer ga dyr moralsk betydning?", "options": ["Intelligens", "Evnen til å lide", "Nytte for mennesker", "Størrelse"], "correct": 1, "explain": "Utilitaristisk begrunnelse." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilket spørsmål reiser roboter i omsorg?", "options": ["Om de kan erstatte menneskelig kontakt", "Om de er vakre", "Om de er norske", "Om de er små"], "correct": 0, "explain": "Menneskeverd i omsorg." },
+      { "id": "m07", "type": "flervalg", "text": "Hvordan begrunner Kant menneskeverdet?", "options": ["Med nytte", "Med styrke", "Med menneskets fornuft og autonomi", "Med rikdom"], "correct": 2, "explain": "Mennesket er mål i seg selv." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

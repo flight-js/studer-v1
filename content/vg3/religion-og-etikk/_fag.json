@@ -1,0 +1,85 @@
+{
+  "id": "religion-og-etikk",
+  "trinnId": "vg3",
+  "name": "Religion og etikk",
+  "lareplan": {
+    "kode": "REL01-02",
+    "url": "https://www.udir.no/lk20/rel01-02/kompetansemaal-og-vurdering/kv172",
+    "kompetansemaal": [
+      {
+        "nr": 1,
+        "tekst": "presentere og sammenligne noen sentrale trekk ved østlige og vestlige religions- og livssynstradisjoner, inkludert kristendom og islam"
+      },
+      {
+        "nr": 2,
+        "tekst": "utforske og drøfte hvordan religion inngår i historiske endringsprosesser globalt og nasjonalt"
+      },
+      {
+        "nr": 3,
+        "tekst": "gjøre rede for og analysere religion og livssyn i et majoritets-, minoritets- og urfolksperspektiv med vekt på Sápmi/Sábme/Saepmie og Norge"
+      },
+      {
+        "nr": 4,
+        "tekst": "gjøre rede for og drøfte aktuelle eksempler på samspillet mellom religion, livssyn og politikk"
+      },
+      {
+        "nr": 5,
+        "tekst": "utforske og analysere hvordan religioner og livssyn kommer til uttrykk i medier og populærkultur"
+      },
+      {
+        "nr": 6,
+        "tekst": "drøfte ulike former for religions- og livssynskritikk"
+      },
+      {
+        "nr": 7,
+        "tekst": "gjøre rede for og drøfte sentrale fagbegreper knyttet til religioner, filosofi, livssyn og etikk"
+      },
+      {
+        "nr": 8,
+        "tekst": "analysere og vurdere ulike kilder til kunnskap om religioner, livssyn og etikk"
+      },
+      {
+        "nr": 9,
+        "tekst": "utforske og reflektere over eksistensielle spørsmål og svar"
+      },
+      {
+        "nr": 10,
+        "tekst": "identifisere og drøfte etiske problemstillinger i tilknytning til kommunikasjon, mellommenneskelige relasjoner og identitet"
+      },
+      {
+        "nr": 11,
+        "tekst": "drøfte menneskeverd og naturens egenverdi i møte med teknologisk utvikling"
+      },
+      {
+        "nr": 12,
+        "tekst": "ta andres perspektiv og håndtere meningsbrytning om religion, livssyn og verdispørsmål"
+      },
+      {
+        "nr": 13,
+        "tekst": "diskutere problemstillinger knyttet til gruppebaserte fordommer, rasisme og diskriminering"
+      },
+      {
+        "nr": 14,
+        "tekst": "utforske og drøfte ideer om mennesket slik de kommer til uttrykk i ulike filosofiske tradisjoner"
+      }
+    ]
+  },
+  "temaer": [
+    "religion-livssyn-og-fagbegreper",
+    "kristendommen",
+    "islam",
+    "jodedommen",
+    "hinduisme-buddhisme-og-ostlige-tradisjoner",
+    "humanisme-og-sekulare-livssyn",
+    "religion-i-historiske-endringsprosesser",
+    "samisk-religion-og-urfolksperspektiv",
+    "religion-livssyn-og-politikk",
+    "religion-i-medier-og-populaerkultur",
+    "religions-og-livssynskritikk",
+    "eksistensielle-sporsmal",
+    "filosofiske-menneskesyn",
+    "etikk-i-kommunikasjon-og-relasjoner",
+    "menneskeverd-natur-og-teknologi",
+    "fordommer-rasisme-og-diskriminering"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "filosofiske-menneskesyn",
+  "fagId": "religion-og-etikk",
+  "trinnId": "vg3",
+  "name": "Ideer om mennesket i ulike filosofiske tradisjoner",
+  "intro": "Hva et menneskesyn er, og hvordan ulike tradisjoner har forstått mennesket – Platon og Aristoteles, kristent og opplysningstidens menneskesyn, Hobbes og Rousseau, Marx, Darwin og naturalismen, eksistensialismen, østlige tradisjoner og relasjonelle menneskesyn som ubuntu.",
+  "kompetansemaal": [14],
+  "sammendrag": "## Hva er et menneskesyn?\n\nEt **menneskesyn** er en oppfatning av hva et **menneske er**: Er vi **kropp**, **sjel** eller begge deler? Er vi **gode** eller **onde** av natur? Er vi **frie** eller **styrt**? Hva skiller oss fra **dyrene**? Menneskesynet påvirker **politikk**, **skole**, **helse** og hvordan vi **behandler** hverandre.\n\n## Antikken\n\n- **Platon** mente at mennesket består av en udødelig **sjel** og en forgjengelig **kropp**. Sjelen hører hjemme i **idéverdenen**. Dette er et **dualistisk** menneskesyn.\n- **Aristoteles** så mennesket som et **fornuftig dyr** og et **sosialt vesen** – et «politisk dyr» – som trenger **fellesskapet**. Målet er å realisere sine **evner** og leve et godt liv gjennom **dyder**.\n\n## Kristent menneskesyn\n\nMennesket er skapt i **Guds bilde** og har derfor **ukrenkelig verdi**. Samtidig er mennesket preget av **synd** og trenger **nåde**. Mennesket er både **kropp** og **sjel**, og er skapt til **fellesskap** med Gud og andre.\n\n## Opplysningstiden\n\n- **Immanuel Kant** mente at mennesket er et **fornuftsvesen** med **autonomi** – evne til å gi seg selv moralske lover. Derfor skal mennesker alltid behandles som **mål i seg selv**, aldri bare som **middel**.\n- **Thomas Hobbes** mente at mennesket i **naturtilstanden** er **egoistisk**, og at livet uten stat ville vært «ensomt, fattig, ekkelt, brutalt og kort». Derfor trenger vi en sterk **stat**.\n- **Jean-Jacques Rousseau** mente at mennesket er **godt** av natur, men blir **ødelagt** av samfunnet.\n\n## Moderne perspektiver\n\n- **Karl Marx**: Mennesket formes av de **materielle** og **økonomiske** forholdene. Under kapitalismen blir arbeideren **fremmedgjort** fra arbeidet sitt.\n- **Charles Darwin** og **naturalismen**: Mennesket er en del av **naturen** og har utviklet seg gjennom **evolusjon**. Forskjellen til dyrene er **gradvis**, ikke absolutt.\n- **Eksistensialismen**: Mennesket har ingen fast **natur** – vi **skaper** oss selv gjennom **valg**.\n- **Feministisk** filosofi har kritisert at «mennesket» i filosofien ofte har vært tenkt som en **mann**, og vektlagt **kropp**, **omsorg** og **relasjoner**.\n\n## Østlige tradisjoner\n\n- I **buddhismen** finnes det ikke et **fast selv** – mennesket er en strøm av **forgjengelige** prosesser.\n- I **konfutsianismen** er mennesket først og fremst et **relasjonelt** vesen, definert gjennom roller og plikter i familie og samfunn.\n\n## Ubuntu\n\n**Ubuntu** er en afrikansk tradisjon som ofte oppsummeres som «**jeg er fordi vi er**». Mennesket blir **menneske** gjennom **andre** mennesker. Tanken ble viktig i forsoningsarbeidet i **Sør-Afrika**.\n\n## Individ eller fellesskap?\n\nNoen menneskesyn legger mest vekt på **individet** – frihet og selvstendighet. Andre legger vekt på **fellesskapet** – relasjoner og ansvar for hverandre. Mange av dagens debatter om **velferd**, **skole** og **frihet** handler om hvordan vi **balanserer** disse.\n\n## Refleksjon\n\nÅ kjenne ulike menneskesyn hjelper oss å forstå **hvorfor** folk er uenige – og å bli bevisst vårt **eget** menneskesyn.",
+  "flashcards": [
+    { "term": "Menneskesyn", "def": "Oppfatning av hva et menneske er." },
+    { "term": "Dualisme", "def": "Synet at mennesket består av to deler: sjel og kropp." },
+    { "term": "Platon", "def": "Mente at den udødelige sjelen hører hjemme i idéverdenen." },
+    { "term": "Aristoteles", "def": "Så mennesket som et fornuftig og sosialt vesen." },
+    { "term": "Skapt i Guds bilde", "def": "Kristent syn på menneskets ukrenkelige verdi." },
+    { "term": "Immanuel Kant", "def": "Mennesket er et fornuftsvesen som skal behandles som mål i seg selv." },
+    { "term": "Autonomi", "def": "Evnen til å gi seg selv moralske lover." },
+    { "term": "Thomas Hobbes", "def": "Mente at mennesket i naturtilstanden er egoistisk." },
+    { "term": "Naturtilstanden", "def": "Tenkt tilstand uten stat og lover." },
+    { "term": "Jean-Jacques Rousseau", "def": "Mente at mennesket er godt av natur, men ødelegges av samfunnet." },
+    { "term": "Fremmedgjøring", "def": "Marx' begrep om at arbeideren fjernes fra sitt eget arbeid." },
+    { "term": "Naturalistisk menneskesyn", "def": "Mennesket er en del av naturen, utviklet gjennom evolusjon." },
+    { "term": "Relasjonelt menneskesyn", "def": "Mennesket defineres gjennom relasjoner, som i konfutsianismen." },
+    { "term": "Ubuntu", "def": "Afrikansk tradisjon: «jeg er fordi vi er»." },
+    { "term": "Individ og fellesskap", "def": "To hensyn som ulike menneskesyn vekter ulikt." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er et dualistisk menneskesyn?", "options": ["At mennesket bare er kropp", "At mennesket består av sjel og kropp", "At mennesket er ondt", "At mennesket er et dyr"], "correct": 1, "explain": "Typisk for Platon." },
+    { "id": "q02", "text": "Hvordan så Aristoteles på mennesket?", "options": ["Som et fornuftig og sosialt vesen", "Som bare en sjel", "Som egoistisk", "Som uten fornuft"], "correct": 0, "explain": "Et «politisk dyr»." },
+    { "id": "q03", "text": "Hva mente Kant om hvordan mennesker skal behandles?", "options": ["Som middel for andre", "Som dyr", "Som mål i seg selv, aldri bare som middel", "Som eiendom"], "correct": 2, "explain": "Fordi mennesket har autonomi." },
+    { "id": "q04", "text": "Hva mente Hobbes om mennesket i naturtilstanden?", "options": ["At det er godt", "At det er fritt og lykkelig", "At det er fredelig", "At det er egoistisk, og at vi trenger en sterk stat"], "correct": 3, "explain": "Livet ville vært «brutalt og kort»." },
+    { "id": "q05", "text": "Hva mente Rousseau?", "options": ["At mennesket er godt av natur, men ødelegges av samfunnet", "At mennesket er ondt", "At mennesket ikke har fornuft", "At staten må være sterk"], "correct": 0, "explain": "En motsats til Hobbes." },
+    { "id": "q06", "text": "Hva betyr ubuntu?", "options": ["Jeg er meg selv", "Jeg er fordi vi er", "Jeg tenker, altså er jeg", "Gud er død"], "correct": 1, "explain": "Mennesket blir menneske gjennom andre." },
+    { "id": "q07", "text": "Hvordan ser buddhismen på selvet?", "options": ["Som en udødelig sjel", "Som skapt av Gud", "Som en strøm av forgjengelige prosesser uten fast selv", "Som kroppen alene"], "correct": 2, "explain": "Anatta." },
+    { "id": "q08", "text": "Hva har feministisk filosofi kritisert?", "options": ["At kvinner har for mye makt", "At filosofien er for kort", "At menn ikke skriver filosofi", "At «mennesket» i filosofien ofte har vært tenkt som en mann"], "correct": 3, "explain": "Vektlegger kropp, omsorg og relasjoner." },
+    { "id": "q09", "text": "Hva er det naturalistiske menneskesynet?", "options": ["At mennesket er en del av naturen og utviklet gjennom evolusjon", "At mennesket står utenfor naturen", "At mennesket er skapt uforanderlig", "At mennesket bare er sjel"], "correct": 0, "explain": "Knyttet til Darwin." },
+    { "id": "q10", "text": "Hvordan forstår konfutsianismen mennesket?", "options": ["Som et isolert individ", "Som et relasjonelt vesen definert gjennom roller og plikter", "Som en maskin", "Som et dyr uten fornuft"], "correct": 1, "explain": "Familie og samfunn er sentrale." }
+  ],
+  "mindmap": {
+    "label": "Menneskesyn",
+    "children": [
+      { "label": "Antikken", "children": [
+        { "label": "Platon: sjel og kropp" },
+        { "label": "Aristoteles: sosialt vesen" }
+      ] },
+      { "label": "Kristent", "children": [
+        { "label": "Guds bilde" },
+        { "label": "Synd og nåde" }
+      ] },
+      { "label": "Opplysningstid", "children": [
+        { "label": "Kant: autonomi" },
+        { "label": "Hobbes" },
+        { "label": "Rousseau" }
+      ] },
+      { "label": "Moderne", "children": [
+        { "label": "Marx" },
+        { "label": "Darwin" },
+        { "label": "Eksistensialisme og feminisme" }
+      ] },
+      { "label": "Andre tradisjoner", "children": [
+        { "label": "Buddhisme" },
+        { "label": "Konfutsianisme" },
+        { "label": "Ubuntu" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Menneskesynet påvirker blant annet politikk og skole.", "correct": true, "explain": "Det former hvordan vi behandler hverandre." },
+      { "id": "m02", "type": "sant-usant", "text": "Eksistensialismen mener at mennesket har en fast natur fra fødselen.", "correct": false, "explain": "Vi skaper oss selv gjennom valg." },
+      { "id": "m03", "type": "sant-usant", "text": "Ubuntu ble viktig i forsoningsarbeidet i Sør-Afrika.", "correct": true, "explain": "Mennesket blir menneske gjennom andre." },
+      { "id": "m04", "type": "sant-usant", "text": "Ifølge naturalismen er forskjellen mellom mennesker og dyr absolutt.", "correct": false, "explain": "Den er gradvis." },
+      { "id": "m05", "type": "flervalg", "text": "Hva mente Marx formet mennesket?", "options": ["Guds vilje", "De materielle og økonomiske forholdene", "Stjernene", "Idéverdenen"], "correct": 1, "explain": "Under kapitalismen blir arbeideren fremmedgjort." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilket menneskesyn legger mest vekt på individets frihet?", "options": ["Individorientert", "Relasjonelt", "Konfutsiansk", "Ubuntu"], "correct": 0, "explain": "Andre vektlegger fellesskapet." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er autonomi hos Kant?", "options": ["Å følge andres regler", "Å være alene", "Evnen til å gi seg selv moralske lover", "Å ha makt over andre"], "correct": 2, "explain": "Grunnlaget for menneskeverdet hos Kant." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
