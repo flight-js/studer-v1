@@ -1,0 +1,81 @@
+{
+  "id": "kromatografi",
+  "fagId": "kjemi-2",
+  "trinnId": "vg3",
+  "name": "Kromatografi",
+  "intro": "Prinsippene for kromatografi – stasjonær og mobil fase, polaritet og fordeling – tynnsjiktkromatografi og Rf-verdi, papir-, kolonne-, gass- og væskekromatografi, og hvordan kromatografi brukes til å separere og analysere organiske stoffblandinger.",
+  "kompetansemaal": [12],
+  "sammendrag": "## Prinsippet\n\n**Kromatografi** er en metode for å **separere** stoffene i en blanding. Alle former for kromatografi har\n\n- en **stasjonær fase**, som står stille – for eksempel en plate belagt med silika, papir eller en kolonne\n- en **mobil fase**, som beveger seg – en væske eller en gass\n\nStoffene i blandingen **fordeler** seg mellom de to fasene. Stoffer som binder seg **sterkt** til den stasjonære fasen, beveger seg **langsomt**. Stoffer som løser seg **godt** i den mobile fasen, beveger seg **raskt**. Slik blir stoffene **skilt** fra hverandre.\n\n## Polaritet\n\nHvor sterkt et stoff binder seg, avhenger ofte av **polaritet**. **Silika** er **polar**. Da vil **polare** stoffer bindes sterkere og vandre **kortere**, mens **upolare** stoffer vandrer **lenger** med et upolart løsemiddel. Ved å endre **løsemiddelet** kan vi styre separasjonen.\n\n## Tynnsjiktkromatografi (TLC)\n\n1. En liten dråpe av prøven settes på en **startlinje** på en **TLC-plate**.\n2. Platen settes i et kar med litt **løsemiddel** – elueringsmiddelet – under startlinjen.\n3. Løsemiddelet trekkes oppover, og stoffene vandrer ulikt langt.\n4. Når løsemiddelet nesten har nådd toppen, markeres **løsemiddelfronten**.\n5. Flekkene gjøres synlige, for eksempel med **UV-lys** eller et **fargereagens**.\n\n**Rf-verdien** er\n\n**Rf = avstand stoffet har vandret / avstand løsemiddelfronten har vandret**\n\n**Eksempel**: Et stoff har vandret 3,0 cm, og løsemiddelfronten 6,0 cm. Rf = 3,0 / 6,0 = **0,50**. Rf-verdien er alltid mellom 0 og 1.\n\nVed å kjøre **kjente referansestoffer** ved siden av prøven kan vi **identifisere** stoffene. **Samme Rf** under samme forhold tyder på samme stoff. Et **rent** stoff gir **én** flekk.\n\n## Andre typer kromatografi\n\n- **Papirkromatografi**: Papir er den stasjonære fasen. Brukes for eksempel til å skille **fargestoffer** i tusj.\n- **Kolonnekromatografi**: En kolonne fylles med silika, og blandingen vaskes gjennom. Stoffene kommer ut **etter tur** og kan **samles opp** – en måte å **rense** større mengder på.\n- **Gasskromatografi (GC)**: Den mobile fasen er en **gass**. Prøven fordampes og føres gjennom en lang, tynn kolonne. Egnet for **flyktige** stoffer.\n- **Væskekromatografi (HPLC)**: Væske presses under **høyt trykk** gjennom en kolonne. Svært **nøyaktig** og mye brukt i legemiddelanalyse.\n\nGC og HPLC kobles ofte til en **massespektrometer**, som identifiserer stoffene.\n\n## Anvendelser\n\n- **Dopingkontroll**: påvise forbudte stoffer i urin eller blod\n- **Rettsmedisin**: analysere narkotika og giftstoffer\n- **Matkontroll**: påvise **tilsetningsstoffer**, sprøytemiddelrester og allergener\n- **Miljøanalyser**: måle forurensning i vann og jord\n- **Legemiddelindustrien**: kontrollere **renhet**\n- **Synteser**: følge med på om en reaksjon er **ferdig**\n\n## Å vurdere resultatene\n\nFeilkilder kan være for **store** prøveflekker, **ujevn** løsemiddelfront eller at startlinjen ligger **under** løsemiddelnivået, slik at prøven løses ut i karet.",
+  "flashcards": [
+    { "term": "Kromatografi", "def": "Metode for å separere stoffene i en blanding." },
+    { "term": "Stasjonær fase", "def": "Fasen som står stille, for eksempel silika eller papir." },
+    { "term": "Mobil fase", "def": "Fasen som beveger seg, en væske eller gass." },
+    { "term": "Fordeling", "def": "Hvordan stoffene fordeler seg mellom stasjonær og mobil fase." },
+    { "term": "Silika", "def": "Polar stasjonær fase på TLC-plater." },
+    { "term": "TLC", "def": "Tynnsjiktkromatografi." },
+    { "term": "Løsemiddelfront", "def": "Hvor langt løsemiddelet har vandret." },
+    { "term": "Rf-verdi", "def": "Stoffets vandring delt på løsemiddelfrontens vandring." },
+    { "term": "Referansestoff", "def": "Kjent stoff som kjøres ved siden av prøven for å identifisere stoffer." },
+    { "term": "Papirkromatografi", "def": "Papir som stasjonær fase – brukes for fargestoffer." },
+    { "term": "Kolonnekromatografi", "def": "Separerer og renser større mengder i en kolonne." },
+    { "term": "Gasskromatografi", "def": "Gass som mobil fase – for flyktige stoffer." },
+    { "term": "HPLC", "def": "Væskekromatografi under høyt trykk." },
+    { "term": "Massespektrometer", "def": "Instrument som identifiserer stoffer, ofte koblet til GC eller HPLC." },
+    { "term": "Dopingkontroll", "def": "Bruk av kromatografi for å påvise forbudte stoffer." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er den mobile fasen i kromatografi?", "options": ["Fasen som står stille", "Fasen som beveger seg", "Prøven", "Platen"], "correct": 1, "explain": "En væske eller gass." },
+    { "id": "q02", "text": "Et stoff har vandret 3,0 cm og løsemiddelfronten 6,0 cm. Hva er Rf?", "options": ["0,50", "2,0", "3,0", "0,33"], "correct": 0, "explain": "3,0 / 6,0." },
+    { "id": "q03", "text": "Hvilke stoffer vandrer kortest på en polar silikaplate?", "options": ["Upolare stoffer", "Gasser", "Polare stoffer", "Alle vandrer like langt"], "correct": 2, "explain": "De bindes sterkt til silika." },
+    { "id": "q04", "text": "Hva tyder det på at en prøve gir én flekk på TLC?", "options": ["At det er mange stoffer", "At forsøket mislyktes", "At løsemiddelet var feil", "At stoffet er rent"], "correct": 3, "explain": "Flere flekker tyder på urenheter." },
+    { "id": "q05", "text": "Hvilken type kromatografi bruker gass som mobil fase?", "options": ["Gasskromatografi", "HPLC", "Papirkromatografi", "TLC"], "correct": 0, "explain": "Egnet for flyktige stoffer." },
+    { "id": "q06", "text": "Hvordan kan du identifisere et stoff med TLC?", "options": ["Ved å se på fargen alene", "Ved å sammenligne Rf med kjente referansestoffer", "Ved å veie platen", "Ved å lukte"], "correct": 1, "explain": "Samme Rf under samme forhold." },
+    { "id": "q07", "text": "Hva kjennetegner HPLC?", "options": ["Gass som mobil fase", "Papir som stasjonær fase", "Væske presses under høyt trykk gjennom en kolonne", "Ingen kolonne"], "correct": 2, "explain": "Svært nøyaktig." },
+    { "id": "q08", "text": "Hvilken feilkilde kan ødelegge et TLC-forsøk?", "options": ["At platen er tørr", "At startlinjen er over løsemiddelet", "At prøven er liten", "At startlinjen ligger under løsemiddelnivået"], "correct": 3, "explain": "Prøven løses ut i karet." },
+    { "id": "q09", "text": "Hva kan kolonnekromatografi brukes til?", "options": ["Å rense større mengder stoff", "Å måle temperatur", "Å veie stoffer", "Å lage gass"], "correct": 0, "explain": "Stoffene samles opp etter tur." },
+    { "id": "q10", "text": "Hva er Rf-verdien alltid?", "options": ["Større enn 1", "Mellom 0 og 1", "Negativ", "Lik 1"], "correct": 1, "explain": "Stoffet kan ikke vandre lenger enn fronten." }
+  ],
+  "mindmap": {
+    "label": "Kromatografi",
+    "children": [
+      { "label": "Prinsipp", "children": [
+        { "label": "Stasjonær fase" },
+        { "label": "Mobil fase" },
+        { "label": "Polaritet" }
+      ] },
+      { "label": "TLC", "children": [
+        { "label": "Startlinje og front" },
+        { "label": "Rf-verdi" },
+        { "label": "Referansestoffer" }
+      ] },
+      { "label": "Typer", "children": [
+        { "label": "Papir og kolonne" },
+        { "label": "Gass (GC)" },
+        { "label": "Væske (HPLC)" }
+      ] },
+      { "label": "Anvendelser", "children": [
+        { "label": "Doping og rettsmedisin" },
+        { "label": "Mat og miljø" },
+        { "label": "Legemidler" }
+      ] },
+      { "label": "Feilkilder", "children": [
+        { "label": "Store flekker" },
+        { "label": "Startlinje for lav" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Ved å endre løsemiddel kan du styre separasjonen.", "correct": true, "explain": "Polariteten til den mobile fasen påvirker vandringen." },
+      { "id": "m02", "type": "sant-usant", "text": "Stoffer som binder seg sterkt til den stasjonære fasen, vandrer raskest.", "correct": false, "explain": "De vandrer langsomst." },
+      { "id": "m03", "type": "sant-usant", "text": "Flekker på TLC-plater kan gjøres synlige med UV-lys.", "correct": true, "explain": "Eller et fargereagens." },
+      { "id": "m04", "type": "sant-usant", "text": "Kromatografi brukes bare i skolelaboratorier.", "correct": false, "explain": "Den brukes i doping-, mat- og miljøanalyser." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er papirkromatografi godt egnet til?", "options": ["Flyktige gasser", "Å skille fargestoffer i tusj", "Store mengder stoff", "Metaller"], "correct": 1, "explain": "Enkel og billig metode." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilket instrument kobles ofte til GC og HPLC for å identifisere stoffer?", "options": ["Massespektrometer", "pH-meter", "Vekt", "Termometer"], "correct": 0, "explain": "Gir molekylenes masse og struktur." },
+      { "id": "m07", "type": "flervalg", "text": "Hvordan kan kromatografi brukes i en syntese?", "options": ["Til å varme opp", "Til å veie produktet", "Til å følge med på om reaksjonen er ferdig", "Til å lage katalysator"], "correct": 2, "explain": "Utgangsstoffet forsvinner, produktet dukker opp." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

@@ -1,0 +1,81 @@
+{
+  "id": "biologiske-makromolekyler",
+  "fagId": "kjemi-2",
+  "trinnId": "vg3",
+  "name": "Biologiske makromolekyler",
+  "intro": "Oppbygningen av biologiske makromolekyler – karbohydrater, proteiner, lipider og nukleinsyrer – bindingene som holder dem sammen, proteiners struktur på fire nivåer, og hvordan ytre faktorer som temperatur, pH, salter og tungmetaller kan påvirke molekylenes struktur og egenskaper.",
+  "kompetansemaal": [13],
+  "sammendrag": "## Makromolekyler\n\n**Makromolekyler** er svært **store** molekyler. Mange er **polymerer** – lange kjeder av små byggesteiner, **monomerer**, som er bundet sammen ved **kondensasjon**. De brytes ned igjen ved **hydrolyse**.\n\n## Karbohydrater\n\n- **Monosakkarider** som **glukose** og **fruktose** er enkle sukkerarter.\n- **Disakkarider** som **sukrose** består av to monosakkarider bundet med en **glykosidbinding**.\n- **Polysakkarider** er lange kjeder av glukose:\n  - **Stivelse** er plantenes **energilager**.\n  - **Glykogen** er energilageret i **lever** og **muskler**.\n  - **Cellulose** gir **struktur** i planteceller. Mennesker kan ikke bryte ned cellulose fordi vi mangler riktig enzym – den blir **kostfiber**.\n\nForskjellen mellom stivelse og cellulose ligger i **hvordan** glukoseenhetene er bundet sammen.\n\n## Proteiner\n\n**Proteiner** er polymerer av **aminosyrer**. Det finnes **20** vanlige aminosyrer, og de bindes sammen med **peptidbindinger**.\n\nProteinets struktur har fire nivåer:\n\n1. **Primærstruktur**: **rekkefølgen** av aminosyrer\n2. **Sekundærstruktur**: kjeden folder seg til **heliks** eller **flak**, holdt sammen av **hydrogenbindinger**\n3. **Tertiærstruktur**: den **tredimensjonale** formen, holdt sammen av hydrogenbindinger, **ionebindinger**, **disulfidbroer** og hydrofobe krefter mellom sidekjedene\n4. **Kvartærstruktur**: flere proteinkjeder sammen, som i **hemoglobin**\n\nProteinets **form** bestemmer **funksjonen** – som enzym, hormon, transportør eller byggemateriale.\n\n## Lipider\n\n**Lipider** er ikke polymerer, men store, **upolare** molekyler.\n\n- **Triglyserider** – fett og olje – består av **glyserol** og tre **fettsyrer** bundet med **esterbindinger**. **Mettede** fettsyrer har bare enkeltbindinger, **umettede** har en eller flere dobbeltbindinger.\n- **Fosfolipider** har et **polart** hode og to **upolare** haler og danner **cellemembraner**.\n\n## Nukleinsyrer\n\n**DNA** og **RNA** er polymerer av **nukleotider**, som består av en **sukkerart**, en **fosfatgruppe** og en **nitrogenbase**. I DNA danner to tråder en **dobbeltheliks** der basene parer seg med **hydrogenbindinger**: **A** med **T** og **C** med **G**.\n\n## Ytre faktorer og denaturering\n\n**Denaturering** betyr at et proteins **tredimensjonale** struktur ødelegges, slik at det mister **funksjonen**. Peptidbindingene – primærstrukturen – er som regel intakte.\n\n- **Høy temperatur**: Når du koker et egg, denatureres eggehviteproteinene og blir faste.\n- **pH-endringer**: Syre eller base endrer **ladningene** på sidekjedene og bryter ionebindinger. Melk **surner** når proteiner feller ut.\n- **Salter** og **tungmetaller** som **kvikksølv** og **bly** kan binde seg til proteiner og ødelegge strukturen – en grunn til at tungmetaller er **giftige**.\n- **Organiske løsemidler** som alkohol kan også denaturere proteiner – derfor virker sprit **desinfiserende**.\n\nOgså **DNA** kan skades av **UV-stråling** og kjemikalier, noe som kan gi **mutasjoner**.\n\n## Betydning\n\nKunnskap om makromolekyler brukes i **medisin**, **ernæring**, **matlaging** og **bioteknologi** – for eksempel når proteiner skal lagres riktig i **vaksiner** og **legemidler**.",
+  "flashcards": [
+    { "term": "Makromolekyl", "def": "Svært stort molekyl, ofte en polymer." },
+    { "term": "Monomer", "def": "Liten byggestein i en polymer." },
+    { "term": "Glykosidbinding", "def": "Bindingen mellom sukkerenheter." },
+    { "term": "Stivelse", "def": "Plantenes energilager av glukose." },
+    { "term": "Glykogen", "def": "Energilager i lever og muskler." },
+    { "term": "Cellulose", "def": "Strukturpolysakkarid i planter – kostfiber for mennesker." },
+    { "term": "Aminosyre", "def": "Byggestein i proteiner – 20 vanlige finnes." },
+    { "term": "Peptidbinding", "def": "Bindingen mellom aminosyrer." },
+    { "term": "Primærstruktur", "def": "Rekkefølgen av aminosyrer." },
+    { "term": "Sekundærstruktur", "def": "Heliks og flak holdt sammen av hydrogenbindinger." },
+    { "term": "Tertiærstruktur", "def": "Proteinets tredimensjonale form." },
+    { "term": "Kvartærstruktur", "def": "Flere proteinkjeder sammen, som i hemoglobin." },
+    { "term": "Triglyserid", "def": "Fett av glyserol og tre fettsyrer bundet med esterbindinger." },
+    { "term": "Fosfolipid", "def": "Molekyl med polart hode og upolare haler – danner cellemembraner." },
+    { "term": "Nukleotid", "def": "Byggestein i DNA og RNA: sukker, fosfat og base." },
+    { "term": "Denaturering", "def": "Proteinets tredimensjonale struktur ødelegges." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvordan bindes monomerer sammen til polymerer?", "options": ["Ved hydrolyse", "Ved kondensasjon", "Ved elektrolyse", "Ved destillasjon"], "correct": 1, "explain": "Vann spaltes av." },
+    { "id": "q02", "text": "Hvorfor kan ikke mennesker fordøye cellulose?", "options": ["Fordi vi mangler riktig enzym", "Fordi cellulose ikke inneholder glukose", "Fordi cellulose er et protein", "Fordi cellulose er et fett"], "correct": 0, "explain": "Den blir kostfiber." },
+    { "id": "q03", "text": "Hva er et proteins primærstruktur?", "options": ["Den tredimensjonale formen", "Heliks og flak", "Rekkefølgen av aminosyrer", "Flere proteinkjeder sammen"], "correct": 2, "explain": "Bestemt av genene." },
+    { "id": "q04", "text": "Hva holder sekundærstrukturen sammen?", "options": ["Peptidbindinger alene", "Glykosidbindinger", "Esterbindinger", "Hydrogenbindinger"], "correct": 3, "explain": "Mellom deler av kjeden." },
+    { "id": "q05", "text": "Hva skjer når et egg kokes?", "options": ["Proteinene denatureres", "Proteinene hydrolyseres til aminosyrer", "Fettet blir til karbohydrat", "Ingenting kjemisk"], "correct": 0, "explain": "Varme ødelegger strukturen." },
+    { "id": "q06", "text": "Hva består et triglyserid av?", "options": ["Glukose og fruktose", "Glyserol og tre fettsyrer", "Aminosyrer", "Nukleotider"], "correct": 1, "explain": "Bundet med esterbindinger." },
+    { "id": "q07", "text": "Hvilke baser parer seg i DNA?", "options": ["A med C og T med G", "A med G og C med T", "A med T og C med G", "Alle med alle"], "correct": 2, "explain": "Holdt sammen av hydrogenbindinger." },
+    { "id": "q08", "text": "Hvorfor er tungmetaller giftige?", "options": ["De er radioaktive", "De gir for mye energi", "De løser seg ikke", "De kan binde seg til proteiner og ødelegge strukturen"], "correct": 3, "explain": "Proteinene mister funksjonen." },
+    { "id": "q09", "text": "Hva danner cellemembraner?", "options": ["Fosfolipider", "Stivelse", "Cellulose", "Glykogen"], "correct": 0, "explain": "Polart hode og upolare haler." },
+    { "id": "q10", "text": "Hva skiller umettede fra mettede fettsyrer?", "options": ["Umettede har bare enkeltbindinger", "Umettede har en eller flere dobbeltbindinger", "Umettede har mer oksygen", "Det er ingen forskjell"], "correct": 1, "explain": "Påvirker smeltepunktet." }
+  ],
+  "mindmap": {
+    "label": "Biologiske makromolekyler",
+    "children": [
+      { "label": "Karbohydrater", "children": [
+        { "label": "Mono- og disakkarider" },
+        { "label": "Stivelse og glykogen" },
+        { "label": "Cellulose" }
+      ] },
+      { "label": "Proteiner", "children": [
+        { "label": "Aminosyrer og peptidbinding" },
+        { "label": "Fire strukturnivåer" },
+        { "label": "Form og funksjon" }
+      ] },
+      { "label": "Lipider", "children": [
+        { "label": "Triglyserider" },
+        { "label": "Fosfolipider" }
+      ] },
+      { "label": "Nukleinsyrer", "children": [
+        { "label": "Nukleotider" },
+        { "label": "Baseparing" }
+      ] },
+      { "label": "Ytre faktorer", "children": [
+        { "label": "Temperatur og pH" },
+        { "label": "Salter og tungmetaller" },
+        { "label": "Denaturering" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Ved denaturering er peptidbindingene som regel intakte.", "correct": true, "explain": "Det er den tredimensjonale strukturen som ødelegges." },
+      { "id": "m02", "type": "sant-usant", "text": "Lipider er lange polymerer av glukose.", "correct": false, "explain": "Lipider er ikke polymerer." },
+      { "id": "m03", "type": "sant-usant", "text": "Et proteins form bestemmer funksjonen.", "correct": true, "explain": "Derfor er denaturering så skadelig." },
+      { "id": "m04", "type": "sant-usant", "text": "Stivelse og cellulose er bygd av ulike monosakkarider.", "correct": false, "explain": "Begge er av glukose, men bundet ulikt." },
+      { "id": "m05", "type": "flervalg", "text": "Hvorfor virker sprit desinfiserende?", "options": ["Det er surt", "Det denaturerer proteiner i mikroorganismer", "Det er radioaktivt", "Det gir mer oksygen"], "correct": 1, "explain": "Organiske løsemidler kan denaturere proteiner." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilket protein har kvartærstruktur?", "options": ["Hemoglobin", "Glukose", "Cellulose", "Triglyserid"], "correct": 0, "explain": "Flere proteinkjeder sammen." },
+      { "id": "m07", "type": "flervalg", "text": "Hva kan UV-stråling gjøre med DNA?", "options": ["Styrke det", "Gjøre det til protein", "Skade det og gi mutasjoner", "Ingenting"], "correct": 2, "explain": "En ytre faktor som påvirker makromolekyler." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

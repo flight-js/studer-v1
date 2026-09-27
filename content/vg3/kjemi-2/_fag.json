@@ -1,0 +1,86 @@
+{
+  "id": "kjemi-2",
+  "trinnId": "vg3",
+  "name": "Kjemi 2",
+  "lareplan": {
+    "kode": "KJE01-02",
+    "url": "https://www.udir.no/lk20/kje01-02/kompetansemaal-og-vurdering/kv533",
+    "kompetansemaal": [
+      {
+        "nr": 1,
+        "tekst": "forstå og bruke kjemisk terminologi og fagspråk i faglig kommunikasjon"
+      },
+      {
+        "nr": 2,
+        "tekst": "planlegge og gjennomføre forsøk, drøfte metode og tiltak for å redusere risiko og vurdere usikkerhet og feilkilder i egne og andres forsøk"
+      },
+      {
+        "nr": 3,
+        "tekst": "gjøre rede for hvordan naturvitenskapelige modeller og teorier utvikles, og reflektere over hvordan samarbeid bidrar til kunnskapsutvikling i kjemi"
+      },
+      {
+        "nr": 4,
+        "tekst": "utforske redoksreaksjoner og bruke beregninger til å vurdere sammenhenger mellom masse, ladning, spenning og energi i elektrokjemiske reaksjoner"
+      },
+      {
+        "nr": 5,
+        "tekst": "utforske likevekter og bruke massevirkningsloven til å gjøre beregninger og forklare observasjoner"
+      },
+      {
+        "nr": 6,
+        "tekst": "gjøre rede for entropibegrepet og bruke entropi og entalpi til å vurdere spontanitet og endringer i likevektsystemer"
+      },
+      {
+        "nr": 7,
+        "tekst": "utforske og beregne pH i vannløsninger og drøfte betydningen av buffere for regulering av pH i naturlige og industrielle prosesser"
+      },
+      {
+        "nr": 8,
+        "tekst": "utforske og gjøre beregninger av løseligheten til stoffer og gjøre vurderinger av løselighet i biologiske og industrielle prosesser"
+      },
+      {
+        "nr": 9,
+        "tekst": "utforske katalyserte reaksjoner og gjøre rede for betydningen av katalysatorer i biologiske og industrielle prosesser"
+      },
+      {
+        "nr": 10,
+        "tekst": "gjøre rede for reaksjonstypene addisjon, eliminasjon, substitusjon, hydrolyse og kondensasjon og bruke elektrostatiske krefter til å forklare noen enkle reaksjonsmekanismer"
+      },
+      {
+        "nr": 11,
+        "tekst": "gjennomføre synteser og gjøre rede for faktorer som påvirker utbytte og renhet i synteser"
+      },
+      {
+        "nr": 12,
+        "tekst": "gjøre rede for prinsipper for kromatografi og bruke kromatografi for å separere og analysere organiske stoffblandinger"
+      },
+      {
+        "nr": 13,
+        "tekst": "beskrive oppbygningen til noen biologiske makromolekyler og vurdere hvordan ytre faktorer kan påvirke molekylenes struktur og egenskaper"
+      },
+      {
+        "nr": 14,
+        "tekst": "gi eksempler på produksjon, gjenvinning, deponering og nedbryting av noen metaller og noen typer plast, og drøfte tiltak som er i samsvar med prinsipper for grønn kjemi"
+      },
+      {
+        "nr": 15,
+        "tekst": "utforske en teoretisk eller praktisk problemstilling, og drøfte og presentere funn"
+      }
+    ]
+  },
+  "temaer": [
+    "forsok-modeller-og-kunnskapsutvikling",
+    "redoks-og-elektrokjemi",
+    "likevekt-og-massevirkningsloven",
+    "entropi-entalpi-og-spontanitet",
+    "ph-beregninger",
+    "buffere",
+    "loselighet",
+    "katalyse",
+    "organiske-reaksjonstyper",
+    "synteser-utbytte-og-renhet",
+    "kromatografi",
+    "biologiske-makromolekyler",
+    "metaller-plast-og-gronn-kjemi"
+  ]
+}

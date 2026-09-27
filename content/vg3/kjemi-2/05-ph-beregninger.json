@@ -1,0 +1,80 @@
+{
+  "id": "ph-beregninger",
+  "fagId": "kjemi-2",
+  "trinnId": "vg3",
+  "name": "Syrer, baser og pH-beregninger",
+  "intro": "Syre-base-likevekter og pH-beregninger i vannløsninger: vannets ionprodukt, pH og pOH, sterke og svake syrer og baser, syrekonstanten Ka og basekonstanten Kb, og hvordan du regner ut pH i løsninger av svake syrer og baser.",
+  "kompetansemaal": [7],
+  "sammendrag": "## Syrer og baser\n\nEtter **Brønsted–Lowry**-definisjonen er en **syre** en **protongiver** og en **base** en **protonmottaker**. Når en syre gir fra seg et proton, blir den til sin **korresponderende base**.\n\n## Vannets ionprodukt\n\nVann reagerer litt med seg selv:\n\n2H₂O ⇌ H₃O⁺ + OH⁻\n\nVed 25 °C er **Kw = [H₃O⁺] · [OH⁻] = 1,0 · 10⁻¹⁴**. I rent vann er [H₃O⁺] = [OH⁻] = 1,0 · 10⁻⁷ mol/L.\n\n## pH og pOH\n\n- **pH = −log[H₃O⁺]**\n- **pOH = −log[OH⁻]**\n- **pH + pOH = 14** ved 25 °C\n\nOmvendt er [H₃O⁺] = 10⁻ᵖᴴ. En endring på **én** pH-enhet tilsvarer en **tidobling** av [H₃O⁺].\n\n## Sterke syrer og baser\n\n**Sterke** syrer, som **HCl**, protolyseres **fullstendig** i vann. Da er [H₃O⁺] lik syrekonsentrasjonen.\n\n- 0,010 mol/L HCl gir [H₃O⁺] = 0,010 og pH = **2,0**.\n- 0,010 mol/L NaOH gir [OH⁻] = 0,010, pOH = 2,0 og pH = **12,0**.\n\n## Svake syrer\n\n**Svake** syrer, som **eddiksyre**, protolyseres bare **delvis**:\n\nHA + H₂O ⇌ A⁻ + H₃O⁺\n\n**Syrekonstanten** er **Ka = [A⁻] · [H₃O⁺] / [HA]**. Jo større Ka – eller jo mindre **pKa = −log Ka** – desto **sterkere** syre.\n\nFor en svak syre med konsentrasjon c kan vi ofte bruke tilnærmingen\n\n**[H₃O⁺] ≈ √(Ka · c)**\n\n**Eksempel**: 0,10 mol/L eddiksyre med Ka = 1,8 · 10⁻⁵: [H₃O⁺] = √(1,8 · 10⁻⁶) ≈ 1,3 · 10⁻³ mol/L, og pH ≈ **2,87**. Til sammenligning har 0,10 mol/L HCl pH = 1,0.\n\nTilnærmingen virker når syren er svak og bare en liten del protolyseres.\n\n## Svake baser\n\nFor svake baser, som **ammoniakk**, brukes **basekonstanten Kb**. På samme måte er [OH⁻] ≈ √(Kb · c).\n\nFor et **syre-base-par** gjelder **Ka · Kb = Kw**. Jo sterkere syren er, desto **svakere** er den korresponderende basen.\n\n## Salter\n\nLøsninger av **salter** kan være sure eller basiske. **Natriumacetat** gir en svakt **basisk** løsning fordi acetationet er en svak base. **Ammoniumklorid** gir en svakt **sur** løsning fordi ammoniumionet er en svak syre.\n\n## Titrering\n\nVed **titrering** tilsettes en løsning med kjent konsentrasjon til en syre eller base til **ekvivalenspunktet**, der stoffmengdene er **ekvivalente**. En **titrerkurve** viser hvordan pH endrer seg. For en **svak syre** er pH = pKa ved **halvtitrerpunktet**. **Indikatorer** skifter farge i ulike pH-områder og velges ut fra hvor ekvivalenspunktet ligger.",
+  "flashcards": [
+    { "term": "Brønsted-syre", "def": "Protongiver." },
+    { "term": "Brønsted-base", "def": "Protonmottaker." },
+    { "term": "Korresponderende base", "def": "Det syren blir til etter å ha avgitt et proton." },
+    { "term": "Kw", "def": "Vannets ionprodukt: 1,0 · 10⁻¹⁴ ved 25 °C." },
+    { "term": "pH", "def": "−log[H₃O⁺]." },
+    { "term": "pH + pOH", "def": "Lik 14 ved 25 °C." },
+    { "term": "Sterk syre", "def": "Protolyseres fullstendig i vann, for eksempel HCl." },
+    { "term": "Svak syre", "def": "Protolyseres bare delvis, for eksempel eddiksyre." },
+    { "term": "Ka", "def": "Syrekonstanten – større Ka gir sterkere syre." },
+    { "term": "pKa", "def": "−log Ka – mindre pKa gir sterkere syre." },
+    { "term": "[H₃O⁺] ≈ √(Ka · c)", "def": "Tilnærming for pH i en svak syre." },
+    { "term": "Kb", "def": "Basekonstanten for en svak base." },
+    { "term": "Ka · Kb = Kw", "def": "Gjelder for et korresponderende syre-base-par." },
+    { "term": "Ekvivalenspunkt", "def": "Punktet i en titrering der stoffmengdene er ekvivalente." },
+    { "term": "Halvtitrerpunkt", "def": "Her er pH = pKa for en svak syre." },
+    { "term": "Indikator", "def": "Stoff som skifter farge i et bestemt pH-område." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er pH i 0,010 mol/L HCl?", "options": ["1,0", "2,0", "12,0", "0,01"], "correct": 1, "explain": "−log 0,010 = 2,0." },
+    { "id": "q02", "text": "Hva er Kw ved 25 °C?", "options": ["1,0 · 10⁻¹⁴", "1,0 · 10⁻⁷", "14", "7"], "correct": 0, "explain": "Vannets ionprodukt." },
+    { "id": "q03", "text": "Hva er pH i 0,010 mol/L NaOH?", "options": ["2,0", "7,0", "12,0", "14,0"], "correct": 2, "explain": "pOH = 2,0, pH = 14 − 2 = 12." },
+    { "id": "q04", "text": "Hva betyr en liten pKa?", "options": ["Svak syre", "Sterk base", "Nøytral løsning", "Sterk syre"], "correct": 3, "explain": "Stor Ka gir liten pKa." },
+    { "id": "q05", "text": "0,10 mol/L eddiksyre har Ka = 1,8 · 10⁻⁵. Hva er pH omtrent?", "options": ["2,87", "1,00", "4,74", "5,74"], "correct": 0, "explain": "[H₃O⁺] ≈ √(1,8 · 10⁻⁶) ≈ 1,3 · 10⁻³." },
+    { "id": "q06", "text": "Hvor mye endres [H₃O⁺] når pH synker med én enhet?", "options": ["Halveres", "Tidobles", "Dobles", "Uendret"], "correct": 1, "explain": "pH-skalaen er logaritmisk." },
+    { "id": "q07", "text": "Hvilken sammenheng gjelder for et korresponderende syre-base-par?", "options": ["Ka + Kb = 14", "Ka = Kb", "Ka · Kb = Kw", "Ka / Kb = 1"], "correct": 2, "explain": "Sterk syre gir svak korresponderende base." },
+    { "id": "q08", "text": "Hva er pH ved halvtitrerpunktet for en svak syre?", "options": ["7", "14", "0", "Lik pKa"], "correct": 3, "explain": "Da er [HA] = [A⁻]." },
+    { "id": "q09", "text": "Hvorfor gir natriumacetat en svakt basisk løsning?", "options": ["Fordi acetationet er en svak base", "Fordi natrium er en syre", "Fordi det er et sterkt salt", "Det gir en sur løsning"], "correct": 0, "explain": "Acetationet tar opp protoner fra vann." },
+    { "id": "q10", "text": "Hva er en sterk syre?", "options": ["En syre som protolyseres delvis", "En syre som protolyseres fullstendig i vann", "En syre med stor pKa", "En konsentrert svak syre"], "correct": 1, "explain": "For eksempel HCl." }
+  ],
+  "mindmap": {
+    "label": "pH-beregninger",
+    "children": [
+      { "label": "Grunnbegreper", "children": [
+        { "label": "Protongiver og -mottaker" },
+        { "label": "Kw = 1,0 · 10⁻¹⁴" }
+      ] },
+      { "label": "pH og pOH", "children": [
+        { "label": "−log[H₃O⁺]" },
+        { "label": "pH + pOH = 14" }
+      ] },
+      { "label": "Sterke", "children": [
+        { "label": "Fullstendig protolyse" },
+        { "label": "HCl og NaOH" }
+      ] },
+      { "label": "Svake", "children": [
+        { "label": "Ka og pKa" },
+        { "label": "√(Ka · c)" },
+        { "label": "Kb og Ka · Kb = Kw" }
+      ] },
+      { "label": "Titrering", "children": [
+        { "label": "Ekvivalenspunkt" },
+        { "label": "Halvtitrerpunkt" },
+        { "label": "Indikatorer" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "I rent vann ved 25 °C er [H₃O⁺] = 1,0 · 10⁻⁷ mol/L.", "correct": true, "explain": "Derfor er pH = 7." },
+      { "id": "m02", "type": "sant-usant", "text": "0,10 mol/L eddiksyre har samme pH som 0,10 mol/L HCl.", "correct": false, "explain": "Eddiksyre er svak og har høyere pH." },
+      { "id": "m03", "type": "sant-usant", "text": "Ammoniumklorid gir en svakt sur løsning.", "correct": true, "explain": "Ammoniumionet er en svak syre." },
+      { "id": "m04", "type": "sant-usant", "text": "Jo sterkere en syre er, desto sterkere er den korresponderende basen.", "correct": false, "explain": "Den korresponderende basen blir svakere." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er [H₃O⁺] når pH = 3?", "options": ["3 mol/L", "1,0 · 10⁻³ mol/L", "1,0 · 10³ mol/L", "0,3 mol/L"], "correct": 1, "explain": "[H₃O⁺] = 10⁻ᵖᴴ." },
+      { "id": "m06", "type": "flervalg", "text": "Hvordan velges en indikator til en titrering?", "options": ["Ut fra hvor ekvivalenspunktet ligger", "Ut fra fargen man liker", "Ut fra prisen", "Den spiller ingen rolle"], "correct": 0, "explain": "Omslagsområdet må passe." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilken base er svak?", "options": ["NaOH", "KOH", "Ammoniakk", "Ca(OH)₂"], "correct": 2, "explain": "Tar bare delvis opp protoner." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

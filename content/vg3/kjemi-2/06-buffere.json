@@ -1,0 +1,78 @@
+{
+  "id": "buffere",
+  "fagId": "kjemi-2",
+  "trinnId": "vg3",
+  "name": "Buffere",
+  "intro": "Hva en buffer er og hvordan den motvirker pH-endringer, beregning av pH i buffere med bufferligningen, bufferkapasitet og bufferområde – og betydningen av buffere i blodet, havet og industrielle prosesser.",
+  "kompetansemaal": [7],
+  "sammendrag": "## Hva er en buffer?\n\nEn **buffer** er en løsning som **motvirker** endringer i pH når det tilsettes små mengder **syre** eller **base**. En buffer består av en **svak syre** og dens **korresponderende base** i omtrent like store mengder, for eksempel **eddiksyre** og **acetat**.\n\n## Hvordan virker en buffer?\n\n- Tilsettes **syre** (H₃O⁺), reagerer den med den **basiske** komponenten: A⁻ + H₃O⁺ → HA + H₂O\n- Tilsettes **base** (OH⁻), reagerer den med den **sure** komponenten: HA + OH⁻ → A⁻ + H₂O\n\nDermed blir den tilsatte syren eller basen **nøytralisert**, og pH endrer seg bare **litt**.\n\n## Bufferligningen\n\npH i en buffer kan beregnes med **bufferligningen** (Henderson–Hasselbalch):\n\n**pH = pKa + log([A⁻] / [HA])**\n\n- Når [A⁻] = [HA], er **pH = pKa**.\n- Er det **mer base** enn syre, er pH **høyere** enn pKa.\n- Er det **mer syre**, er pH **lavere** enn pKa.\n\n**Eksempel**: En acetatbuffer har pKa = 4,74. Med like konsentrasjoner av eddiksyre og acetat er pH = **4,74**. Hvis [A⁻] / [HA] = 2, blir pH = 4,74 + log 2 ≈ 4,74 + 0,30 = **5,04**.\n\n## Bufferkapasitet og bufferområde\n\n- **Bufferkapasiteten** er hvor mye syre eller base bufferen kan ta imot før pH endrer seg mye. Den er **størst** når [A⁻] = [HA] og når **konsentrasjonene** er høye.\n- En buffer virker best i **bufferområdet**, omtrent **pKa ± 1**.\n\nFor å lage en buffer med ønsket pH velger vi en svak syre med **pKa nær** ønsket pH.\n\n## Buffere i kroppen\n\n**Blodets** pH holdes mellom omtrent **7,35** og **7,45**. Det viktigste buffersystemet er **karbonsyre** og **hydrogenkarbonat**:\n\nH₂CO₃ ⇌ HCO₃⁻ + H⁺\n\nKarbonsyre står i likevekt med **CO₂**, som lungene skiller ut. Når vi **puster** raskere, fjernes mer CO₂, og pH **stiger**. **Nyrene** regulerer mengden hydrogenkarbonat. Små avvik i blodets pH kan være **livstruende**. Også **fosfat** og **proteiner** fungerer som buffere i cellene.\n\n## Buffere i naturen\n\nHavet har et **karbonatsystem** som buffer. Når havet tar opp mye **CO₂** fra atmosfæren, dannes mer karbonsyre, og pH **synker** – **havforsuring**. Det gjør det vanskeligere for **koraller**, **skjell** og **plankton** å bygge **kalkskall**.\n\n**Kalkrik** berggrunn kan buffre innsjøer mot **sur nedbør**. I områder med lite kalk ble innsjøer forsuret, og man har **kalket** vassdrag for å heve pH.\n\n## Buffere i industri og laboratorium\n\n- **Næringsmiddelindustrien** bruker buffere for å kontrollere smak og holdbarhet.\n- **Legemidler**, **kosmetikk** og **øyedråper** buffres slik at pH passer kroppen.\n- **Enzymer** i bioteknologi og fermentering krever stabil pH.\n- I laboratoriet brukes **bufferløsninger** til å **kalibrere** pH-metre.",
+  "flashcards": [
+    { "term": "Buffer", "def": "Løsning som motvirker pH-endringer." },
+    { "term": "Bufferkomponenter", "def": "En svak syre og dens korresponderende base." },
+    { "term": "Acetatbuffer", "def": "Eddiksyre og acetat – pKa 4,74." },
+    { "term": "Bufferligningen", "def": "pH = pKa + log([A⁻]/[HA])." },
+    { "term": "[A⁻] = [HA]", "def": "Da er pH = pKa." },
+    { "term": "Bufferkapasitet", "def": "Hvor mye syre eller base bufferen kan ta imot." },
+    { "term": "Bufferområde", "def": "Omtrent pKa ± 1." },
+    { "term": "Blodets pH", "def": "Omtrent 7,35–7,45." },
+    { "term": "Karbonsyre–hydrogenkarbonat", "def": "Blodets viktigste buffersystem." },
+    { "term": "Lungenes rolle", "def": "Skiller ut CO₂ og påvirker blodets pH." },
+    { "term": "Nyrenes rolle", "def": "Regulerer mengden hydrogenkarbonat." },
+    { "term": "Havforsuring", "def": "Havets pH synker når det tar opp mye CO₂." },
+    { "term": "Kalking", "def": "Tilsetting av kalk for å heve pH i forsurede vassdrag." },
+    { "term": "Kalibrering", "def": "Justering av pH-meter med bufferløsninger." },
+    { "term": "Fosfatbuffer", "def": "Buffersystem i cellene." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva består en buffer av?", "options": ["En sterk syre og en sterk base", "En svak syre og dens korresponderende base", "Bare vann", "Et salt og vann"], "correct": 1, "explain": "I omtrent like store mengder." },
+    { "id": "q02", "text": "Hva er pH i en acetatbuffer med like konsentrasjoner av syre og base (pKa = 4,74)?", "options": ["4,74", "7,00", "5,04", "2,87"], "correct": 0, "explain": "pH = pKa når [A⁻] = [HA]." },
+    { "id": "q03", "text": "[A⁻]/[HA] = 2 og pKa = 4,74. Hva er pH?", "options": ["4,44", "4,74", "Omtrent 5,04", "6,74"], "correct": 2, "explain": "4,74 + log 2 ≈ 5,04." },
+    { "id": "q04", "text": "Når er bufferkapasiteten størst?", "options": ["Når konsentrasjonene er lave", "Når bare syren finnes", "Når bare basen finnes", "Når [A⁻] = [HA] og konsentrasjonene er høye"], "correct": 3, "explain": "Da kan bufferen ta imot mye av begge." },
+    { "id": "q05", "text": "Hva er blodets viktigste buffersystem?", "options": ["Karbonsyre og hydrogenkarbonat", "Eddiksyre og acetat", "Saltsyre og klorid", "Ammoniakk og ammonium"], "correct": 0, "explain": "Står i likevekt med CO₂." },
+    { "id": "q06", "text": "Hva skjer med blodets pH når vi puster raskere?", "options": ["Den synker", "Den stiger", "Den er uendret", "Den blir 7,0"], "correct": 1, "explain": "Mer CO₂ fjernes." },
+    { "id": "q07", "text": "Hva er havforsuring?", "options": ["At havet blir saltere", "At havet blir varmere", "At havets pH synker når det tar opp mye CO₂", "At havet blir basisk"], "correct": 2, "explain": "Rammer kalkskall hos koraller og skjell." },
+    { "id": "q08", "text": "Hvordan velger du syre når du skal lage en buffer med en bestemt pH?", "options": ["Med størst mulig Ka", "Med minst mulig Ka", "Tilfeldig", "Med pKa nær ønsket pH"], "correct": 3, "explain": "Bufferområdet er pKa ± 1." },
+    { "id": "q09", "text": "Hva skjer når en base tilsettes en buffer?", "options": ["Den reagerer med den sure komponenten", "Den reagerer med den basiske komponenten", "pH øker kraftig", "Ingenting"], "correct": 0, "explain": "HA + OH⁻ → A⁻ + H₂O." },
+    { "id": "q10", "text": "Hvorfor kalkes forsurede vassdrag?", "options": ["For å senke pH", "For å heve pH", "For å gjøre vannet salt", "For å fjerne fisk"], "correct": 1, "explain": "Kalk nøytraliserer syre." }
+  ],
+  "mindmap": {
+    "label": "Buffere",
+    "children": [
+      { "label": "Virkemåte", "children": [
+        { "label": "Svak syre og base" },
+        { "label": "Nøytraliserer tilsatt syre og base" }
+      ] },
+      { "label": "Beregning", "children": [
+        { "label": "pH = pKa + log([A⁻]/[HA])" },
+        { "label": "pH = pKa ved like mengder" }
+      ] },
+      { "label": "Kapasitet", "children": [
+        { "label": "Høye konsentrasjoner" },
+        { "label": "Bufferområde pKa ± 1" }
+      ] },
+      { "label": "Kroppen", "children": [
+        { "label": "Blodets pH 7,35–7,45" },
+        { "label": "Lunger og nyrer" }
+      ] },
+      { "label": "Natur og industri", "children": [
+        { "label": "Havforsuring" },
+        { "label": "Kalking" },
+        { "label": "Legemidler og mat" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Små avvik i blodets pH kan være livstruende.", "correct": true, "explain": "Derfor er buffersystemene viktige." },
+      { "id": "m02", "type": "sant-usant", "text": "En buffer holder pH helt konstant uansett hvor mye syre som tilsettes.", "correct": false, "explain": "Bufferkapasiteten er begrenset." },
+      { "id": "m03", "type": "sant-usant", "text": "Kalkrik berggrunn kan buffre innsjøer mot sur nedbør.", "correct": true, "explain": "Karbonat nøytraliserer syre." },
+      { "id": "m04", "type": "sant-usant", "text": "Er det mer base enn syre i bufferen, er pH lavere enn pKa.", "correct": false, "explain": "pH er høyere enn pKa." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilket organ regulerer mengden hydrogenkarbonat i blodet?", "options": ["Lungene", "Nyrene", "Hjertet", "Leveren"], "correct": 1, "explain": "Lungene regulerer CO₂." },
+      { "id": "m06", "type": "flervalg", "text": "Hva brukes bufferløsninger til i laboratoriet?", "options": ["Kalibrering av pH-metre", "Veiing", "Destillasjon", "Oppvarming"], "correct": 0, "explain": "De har kjent og stabil pH." },
+      { "id": "m07", "type": "flervalg", "text": "Hvorfor bufres øyedråper?", "options": ["For å gjøre dem søte", "For å gjøre dem billigere", "Slik at pH passer kroppen", "For å gi farge"], "correct": 2, "explain": "Unngår irritasjon." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
