@@ -1,0 +1,83 @@
+{
+  "id": "brukervennlighet-og-universell-utforming",
+  "fagId": "informasjonsteknologi-1",
+  "trinnId": "vg2",
+  "name": "Brukervennlighet og universell utforming",
+  "intro": "Hvordan du planlegger nettsider som er enkle å bruke for alle – brukersentrert design, prototyper og brukertesting, WCAG-prinsippene, kontrast, alt-tekst og tastaturnavigasjon, og hva loven krever.",
+  "kompetansemaal": [6],
+  "sammendrag": "## Brukervennlighet\n\nEn **brukervennlig** nettside lar brukerne nå målet sitt **raskt**, **uten feil** og med en god opplevelse. Noen prinsipper:\n\n- **Tydelig navigasjon**: Brukeren skal alltid vite hvor hun eller han er, og hvordan man kommer videre.\n- **Konsistens**: Knapper, farger og menyer ser like ut og oppfører seg likt på alle sider.\n- **Enkelhet**: Fjern det som ikke trengs. Viktigst innhold først.\n- **Tilbakemelding**: Siden viser tydelig hva som skjer, for eksempel at et skjema er sendt.\n- **Feilforebygging**: Gode feilmeldinger som forklarer **hva** som er feil og **hvordan** det rettes.\n\n## Brukersentrert design\n\n1. **Kartlegg brukerne**: Hvem er de, og hva trenger de? Lag gjerne **personas** – oppdiktede, typiske brukere.\n2. **Skisser**: Lag **wireframes** – enkle skisser av sidene – før du koder.\n3. **Prototype**: en klikkbar modell, for eksempel i Figma.\n4. **Brukertesting**: La ekte brukere prøve å løse oppgaver mens du observerer. Be dem gjerne **tenke høyt**.\n5. **Forbedre** og test igjen.\n\n## Universell utforming\n\n**Universell utforming** betyr at løsningen kan brukes av **flest mulig**, uten behov for spesielle tilpasninger – også av personer med **nedsatt syn, hørsel, motorikk** eller **kognitive** utfordringer. Det gjør ofte løsningen bedre for **alle**, for eksempel i sterkt sollys eller med én hånd.\n\n## WCAG\n\nDen internasjonale standarden **WCAG** (Web Content Accessibility Guidelines) bygger på fire prinsipper:\n\n1. **Mulig å oppfatte** – for eksempel **alt-tekst** på bilder, **teksting** av video og god **kontrast**.\n2. **Mulig å betjene** – alt skal kunne brukes med **tastatur**, og brukeren skal ha nok tid.\n3. **Forståelig** – tydelig språk, forutsigbar oppførsel og hjelp ved feil.\n4. **Robust** – koden skal fungere med ulike nettlesere og **hjelpemidler** som skjermlesere.\n\n## Konkrete tiltak\n\n- **Kontrast**: Vanlig tekst bør ha en kontrast på minst **4,5 : 1** mot bakgrunnen.\n- **Ikke bruk bare farge** for å formidle informasjon – mange er fargeblinde.\n- **Alt-tekst** som beskriver hva bildet viser. Rene pyntebilder får tom alt-tekst.\n- **Overskrifter** i riktig hierarki, slik at skjermlesere kan navigere.\n- **Lenketekster** som gir mening alene – ikke bare «klikk her».\n- **Skjemafelt** med tydelige **etiketter** (label).\n- **Synlig fokus** når man navigerer med tastatur.\n- **Skalerbar tekst** og responsivt design.\n\n## Lovkrav\n\nI Norge krever **likestillings- og diskrimineringsloven** og en egen **forskrift** at nettsteder og apper fra både offentlige og private virksomheter er universelt utformet, i hovedsak etter WCAG. **Digitaliseringsdirektoratet** fører tilsyn og kan gi pålegg. Offentlige nettsteder må også ha en **tilgjengelighetserklæring**.\n\n## Teste tilgjengelighet\n\nBruk **automatiske verktøy**, som tilgjengelighetsrapporten i nettleserens utviklerverktøy, men test også **manuelt**: Naviger med bare tastatur, prøv en **skjermleser** og sjekk siden med forstørret tekst.",
+  "flashcards": [
+    { "term": "Brukervennlighet", "def": "At brukeren når målet raskt, uten feil og med god opplevelse." },
+    { "term": "Konsistens", "def": "Like elementer ser like ut og oppfører seg likt." },
+    { "term": "Persona", "def": "Oppdiktet, typisk bruker." },
+    { "term": "Wireframe", "def": "Enkel skisse av en side før koding." },
+    { "term": "Prototype", "def": "Klikkbar modell av løsningen." },
+    { "term": "Brukertesting", "def": "Ekte brukere prøver løsningen mens du observerer." },
+    { "term": "Universell utforming", "def": "Løsningen kan brukes av flest mulig uten spesielle tilpasninger." },
+    { "term": "WCAG", "def": "Internasjonal standard for tilgjengelig nettinnhold." },
+    { "term": "WCAG-prinsippene", "def": "Mulig å oppfatte, mulig å betjene, forståelig, robust." },
+    { "term": "Kontrastkrav for vanlig tekst", "def": "Minst 4,5 : 1." },
+    { "term": "Alt-tekst", "def": "Beskriver bildet for dem som ikke ser det." },
+    { "term": "Skjermleser", "def": "Hjelpemiddel som leser opp innholdet." },
+    { "term": "Tastaturnavigasjon", "def": "Alt skal kunne brukes uten mus." },
+    { "term": "Label", "def": "Tydelig etikett til et skjemafelt." },
+    { "term": "Digitaliseringsdirektoratet", "def": "Fører tilsyn med universell utforming av IKT." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva betyr universell utforming?", "options": ["At siden ser lik ut i alle land", "At løsningen kan brukes av flest mulig uten spesielle tilpasninger", "At siden bare har tekst", "At siden er gratis"], "correct": 1, "explain": "Også personer med funksjonsnedsettelser." },
+    { "id": "q02", "text": "Hvilke fire prinsipper bygger WCAG på?", "options": ["Mulig å oppfatte, mulig å betjene, forståelig, robust", "Rask, billig, pen, trygg", "Farge, form, font, funksjon", "HTML, CSS, JavaScript, SQL"], "correct": 0, "explain": "Ofte forkortet POUR på engelsk." },
+    { "id": "q03", "text": "Hvilken kontrast bør vanlig tekst minst ha mot bakgrunnen?", "options": ["1 : 1", "2 : 1", "4,5 : 1", "10 : 1"], "correct": 2, "explain": "Kravet i WCAG for vanlig tekst." },
+    { "id": "q04", "text": "Hvorfor bør du ikke bruke bare farge til å formidle informasjon?", "options": ["Fordi farger er dyre", "Fordi CSS ikke støtter farger", "Fordi det ser rotete ut", "Fordi mange er fargeblinde"], "correct": 3, "explain": "Bruk også tekst eller symboler." },
+    { "id": "q05", "text": "Hva er en wireframe?", "options": ["En enkel skisse av en side før koding", "En type kabel", "En ferdig nettside", "Et testverktøy"], "correct": 0, "explain": "Brukes tidlig i designprosessen." },
+    { "id": "q06", "text": "Hvilken lenketekst er best?", "options": ["Klikk her", "Les mer om søknadsfrister", "Her", "Lenke"], "correct": 1, "explain": "Den gir mening alene, også for skjermleserbrukere." },
+    { "id": "q07", "text": "Hva er brukertesting?", "options": ["At utvikleren tester koden", "At en automat sjekker kontrasten", "At ekte brukere prøver løsningen mens du observerer", "At siden lanseres uten testing"], "correct": 2, "explain": "Gjerne mens de tenker høyt." },
+    { "id": "q08", "text": "Hvem fører tilsyn med universell utforming av IKT i Norge?", "options": ["Datatilsynet", "Politiet", "Forbrukerrådet", "Digitaliseringsdirektoratet"], "correct": 3, "explain": "Det kan gi pålegg." },
+    { "id": "q09", "text": "Hvorfor er riktig overskriftshierarki viktig for tilgjengelighet?", "options": ["Skjermleserbrukere navigerer ved hjelp av overskriftene", "Det gjør teksten større", "Det gir penere farger", "Det er ikke viktig"], "correct": 0, "explain": "Overskriftene gir struktur." },
+    { "id": "q10", "text": "Hvilken test er en god manuell tilgjengelighetstest?", "options": ["Å endre bakgrunnsfargen", "Å navigere siden med bare tastatur", "Å slette CSS-filen", "Å bruke større bilder"], "correct": 1, "explain": "Alt skal kunne betjenes uten mus." }
+  ],
+  "mindmap": {
+    "label": "Brukervennlighet og UU",
+    "children": [
+      { "label": "Brukervennlighet", "children": [
+        { "label": "Navigasjon" },
+        { "label": "Konsistens" },
+        { "label": "Tilbakemelding" }
+      ] },
+      { "label": "Designprosess", "children": [
+        { "label": "Personas" },
+        { "label": "Wireframes og prototype" },
+        { "label": "Brukertesting" }
+      ] },
+      { "label": "WCAG", "children": [
+        { "label": "Oppfatte" },
+        { "label": "Betjene" },
+        { "label": "Forstå" },
+        { "label": "Robust" }
+      ] },
+      { "label": "Tiltak", "children": [
+        { "label": "Kontrast 4,5 : 1" },
+        { "label": "Alt-tekst og etiketter" },
+        { "label": "Tastatur og fokus" }
+      ] },
+      { "label": "Lov og test", "children": [
+        { "label": "Forskrift om UU" },
+        { "label": "Digitaliseringsdirektoratet" },
+        { "label": "Skjermleser" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Universell utforming gjør ofte løsningen bedre for alle brukere.", "correct": true, "explain": "For eksempel i sterkt sollys." },
+      { "id": "m02", "type": "sant-usant", "text": "Kravene om universell utforming gjelder bare offentlige nettsteder i Norge.", "correct": false, "explain": "De gjelder også mange private virksomheter." },
+      { "id": "m03", "type": "sant-usant", "text": "Rene pyntebilder kan ha tom alt-tekst.", "correct": true, "explain": "Da hopper skjermleseren over dem." },
+      { "id": "m04", "type": "sant-usant", "text": "Automatiske verktøy finner alle tilgjengelighetsproblemer.", "correct": false, "explain": "Manuell testing trengs også." },
+      { "id": "m05", "type": "flervalg", "text": "Hva hjelper brukere som ikke hører lyden i en video?", "options": ["Høyere volum", "Teksting", "Større video", "Automatisk avspilling"], "correct": 1, "explain": "Mulig å oppfatte." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er en persona?", "options": ["En oppdiktet, typisk bruker", "En ekte kunde", "En programmerer", "En type diagram"], "correct": 0, "explain": "Hjelper deg å tenke på brukernes behov." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er en god feilmelding i et skjema?", "options": ["«Feil!»", "En rød ramme uten tekst", "En tekst som forklarer hva som er feil og hvordan det rettes", "Ingen melding"], "correct": 2, "explain": "Brukeren må forstå hva som skal gjøres." }
+    ]
+  },
+  "kvalitet": { "status": "sjekkes", "merknader": ["Sjekk gjeldende krav i forskrift om universell utforming av IKT-løsninger (hvilken WCAG-versjon og hvilke virksomheter som omfattes)."] }
+}

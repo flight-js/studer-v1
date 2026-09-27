@@ -1,0 +1,81 @@
+{
+  "id": "digital-representasjon-og-datalagring",
+  "fagId": "informasjonsteknologi-1",
+  "trinnId": "vg2",
+  "name": "Digital representasjon og datalagring",
+  "intro": "Hvordan tall, tekst, bilder og lyd lagres som bit og byte, binære og heksadesimale tall, tegnkoding, komprimering – og hvordan data struktureres i filer som CSV og JSON og i databaser.",
+  "kompetansemaal": [3],
+  "sammendrag": "## Alt er bit\n\nEn datamaskin lagrer all informasjon som **bit** – 0 eller 1, strøm av eller på. Åtte bit er én **byte**, og én byte kan ha **2⁸ = 256** ulike verdier.\n\nStørre enheter: 1 kB ≈ 1000 byte, 1 MB ≈ 1 million byte, 1 GB ≈ 1 milliard byte.\n\n## Tall\n\nI **totallsystemet** (binært) har hver plass verdien av en toerpotens:\n\n1011₂ = 1 · 8 + 0 · 4 + 1 · 2 + 1 · 1 = **11**\n\n**Heksadesimale tall** (16-tallsystemet) bruker sifrene 0–9 og A–F. Ett heksadesimalt siffer svarer til fire bit, og **FF = 255**. Heks brukes blant annet i fargekoder på nettsider, som #FF0000 for rødt.\n\n## Tekst\n\nHvert tegn får et **tallnummer** etter en **tegnkoding**:\n\n- **ASCII** bruker 7 bit og har 128 tegn – nok til engelske bokstaver, men ikke æ, ø og å.\n- **Unicode** har plass til tegn fra nesten alle skriftspråk og emojier. **UTF-8** er den vanligste kodingen: Vanlige engelske tegn tar én byte, mens æ, ø og å tar to.\n\nBrukes feil koding, får du tegnrot som «Ã¸» i stedet for «ø».\n\n## Bilder\n\nEt **punktgrafikkbilde** består av **piksler**. Hver piksel har en farge, ofte i **RGB**: en verdi fra 0 til 255 for rødt, grønt og blått. Det gir 24 bit per piksel og rundt **16,7 millioner** farger.\n\nEt ukomprimert bilde på 1920 × 1080 piksler tar 1920 · 1080 · 3 byte ≈ **6,2 MB**.\n\n**Vektorgrafikk** (som SVG) lagrer i stedet **former** – linjer, kurver og farger – og kan skaleres uten å bli uskarp.\n\n## Lyd\n\nLyd lagres ved å måle lydbølgen mange ganger i sekundet (**samplingsfrekvens**). CD-kvalitet bruker **44 100 målinger per sekund**.\n\n## Komprimering\n\n- **Tapsfri** komprimering (ZIP, PNG) gjenskaper originalen nøyaktig.\n- **Tapsbasert** komprimering (JPEG, MP3) fjerner detaljer vi knapt merker, og gir mye mindre filer.\n\n## Strukturere data\n\n**CSV** (kommaseparerte verdier) er enkle tabeller i tekstformat:\n\n```\nnavn,klasse,poeng\nIda,2STA,87\nAli,2STB,92\n```\n\n**JSON** lagrer strukturerte data med **nøkler og verdier**, også i flere nivåer:\n\n```\n{ \"navn\": \"Ida\", \"klasse\": \"2STA\", \"fag\": [\"IT1\", \"R1\"] }\n```\n\nJSON er mye brukt til å sende data mellom nettsider og tjenere.\n\n**Databaser** lagrer store datamengder i **tabeller** med rader og kolonner. En **primærnøkkel** identifiserer hver rad entydig. I **relasjonsdatabaser** kobles tabeller sammen med nøkler, og vi henter data med spørrespråket **SQL**, for eksempel SELECT navn FROM elever WHERE klasse = '2STA'.\n\n## Vurdere lagringsmetoder\n\n- **CSV**: enkelt og lesbart, men bare flate tabeller.\n- **JSON**: fleksibelt og godt egnet for nettet.\n- **Database**: best for store mengder data, mange brukere og raske søk – men mer arbeid å sette opp.",
+  "flashcards": [
+    { "term": "Bit", "def": "0 eller 1 – minste informasjonsenhet." },
+    { "term": "Byte", "def": "8 bit – 256 mulige verdier." },
+    { "term": "1011₂", "def": "11" },
+    { "term": "FF i heksadesimal", "def": "255" },
+    { "term": "ASCII", "def": "7-biters tegnkoding med 128 tegn." },
+    { "term": "UTF-8", "def": "Vanligste koding av Unicode; æ, ø og å tar to byte." },
+    { "term": "Piksel", "def": "Minste punkt i et punktgrafikkbilde." },
+    { "term": "RGB", "def": "Farge fra rødt, grønt og blått, 0–255 hver." },
+    { "term": "Vektorgrafikk", "def": "Lagrer former og kan skaleres uten tap." },
+    { "term": "Samplingsfrekvens", "def": "Antall målinger av lyden per sekund." },
+    { "term": "Tapsfri komprimering", "def": "Gjenskaper originalen nøyaktig, som PNG og ZIP." },
+    { "term": "Tapsbasert komprimering", "def": "Fjerner detaljer, som JPEG og MP3." },
+    { "term": "CSV", "def": "Tabelldata i tekst, skilt med komma." },
+    { "term": "JSON", "def": "Strukturerte data med nøkler og verdier." },
+    { "term": "Primærnøkkel", "def": "Identifiserer hver rad i en databasetabell entydig." },
+    { "term": "SQL", "def": "Spørrespråk for relasjonsdatabaser." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvor mange ulike verdier kan én byte ha?", "options": ["8", "256", "1024", "16"], "correct": 1, "explain": "2⁸ = 256." },
+    { "id": "q02", "text": "Hva er 1011₂ i titallsystemet?", "options": ["11", "13", "1011", "9"], "correct": 0, "explain": "8 + 2 + 1." },
+    { "id": "q03", "text": "Hvorfor kan ikke ASCII lagre æ, ø og å?", "options": ["Fordi de er store bokstaver", "Fordi de er tall", "Fordi ASCII bare har 128 tegn", "Fordi de er emojier"], "correct": 2, "explain": "Unicode har plass til dem." },
+    { "id": "q04", "text": "Omtrent hvor stort er et ukomprimert RGB-bilde på 1920 × 1080 piksler?", "options": ["2 kB", "600 MB", "2 GB", "6,2 MB"], "correct": 3, "explain": "1920 · 1080 · 3 byte." },
+    { "id": "q05", "text": "Hvilket format bruker tapsbasert komprimering?", "options": ["JPEG", "PNG", "ZIP", "CSV"], "correct": 0, "explain": "Også MP3." },
+    { "id": "q06", "text": "Hva er JSON?", "options": ["Et programmeringsspråk for databaser", "Et format for strukturerte data med nøkler og verdier", "En type bilde", "En nettleser"], "correct": 1, "explain": "Mye brukt på nettet." },
+    { "id": "q07", "text": "Hva er en primærnøkkel?", "options": ["Et passord", "Den første kolonnen alltid", "Et felt som identifiserer hver rad entydig", "En krypteringsnøkkel"], "correct": 2, "explain": "For eksempel et elevnummer." },
+    { "id": "q08", "text": "Hvorfor blir vektorgrafikk ikke uskarp når den forstørres?", "options": ["Den har flere piksler", "Den er komprimert", "Den bruker JPEG", "Den lagrer former, ikke piksler"], "correct": 3, "explain": "Formene tegnes på nytt i ny størrelse." },
+    { "id": "q09", "text": "Hvilken fargekode gir rødt på en nettside?", "options": ["#FF0000", "#00FF00", "#0000FF", "#FFFFFF"], "correct": 0, "explain": "Maks rødt, null grønt og blått." },
+    { "id": "q10", "text": "Når er en database et bedre valg enn en CSV-fil?", "options": ["Når dataene er svært få", "Ved store datamengder, mange brukere og behov for raske søk", "Når du skal lagre et bilde", "Aldri"], "correct": 1, "explain": "Men den krever mer oppsett." }
+  ],
+  "mindmap": {
+    "label": "Representasjon og lagring",
+    "children": [
+      { "label": "Bit og byte", "children": [
+        { "label": "256 verdier" },
+        { "label": "kB, MB, GB" }
+      ] },
+      { "label": "Tall og tekst", "children": [
+        { "label": "Binært" },
+        { "label": "Heksadesimalt" },
+        { "label": "ASCII og UTF-8" }
+      ] },
+      { "label": "Bilde og lyd", "children": [
+        { "label": "Piksler og RGB" },
+        { "label": "Vektorgrafikk" },
+        { "label": "Sampling" }
+      ] },
+      { "label": "Komprimering", "children": [
+        { "label": "Tapsfri" },
+        { "label": "Tapsbasert" }
+      ] },
+      { "label": "Datalagring", "children": [
+        { "label": "CSV" },
+        { "label": "JSON" },
+        { "label": "Database og SQL" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Ett heksadesimalt siffer svarer til fire bit.", "correct": true, "explain": "2⁴ = 16." },
+      { "id": "m02", "type": "sant-usant", "text": "Tapsbasert komprimering gjenskaper originalen nøyaktig.", "correct": false, "explain": "Den fjerner detaljer." },
+      { "id": "m03", "type": "sant-usant", "text": "I UTF-8 tar bokstaven ø mer plass enn bokstaven o.", "correct": true, "explain": "To byte mot én." },
+      { "id": "m04", "type": "sant-usant", "text": "CSV egner seg godt til data med mange nivåer.", "correct": false, "explain": "CSV er flate tabeller; JSON passer bedre til nivåer." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er 13 i totallsystemet?", "options": ["1011", "1101", "1110", "1001"], "correct": 1, "explain": "8 + 4 + 1." },
+      { "id": "m06", "type": "flervalg", "text": "Hva gjør SQL-setningen SELECT navn FROM elever WHERE klasse = '2STA'?", "options": ["Henter navnene til elevene i 2STA", "Sletter elevene i 2STA", "Lager en ny tabell", "Endrer klassen til alle"], "correct": 0, "explain": "SELECT henter data." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilken samplingsfrekvens har CD-kvalitet?", "options": ["8 000 per sekund", "22 050 per sekund", "44 100 per sekund", "1 million per sekund"], "correct": 2, "explain": "44,1 kHz." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

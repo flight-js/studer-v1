@@ -1,0 +1,83 @@
+{
+  "id": "innhenting-og-misbruk-av-data",
+  "fagId": "informasjonsteknologi-1",
+  "trinnId": "vg2",
+  "name": "Innhenting, bruk og misbruk av data",
+  "intro": "Hvordan data om oss samles inn gjennom apper, nettsider og sensorer, hvordan de brukes til profilering og beslutninger, eksempler på misbruk og lekkasjer, og hvordan du drøfter fordeler og ulemper.",
+  "kompetansemaal": [11],
+  "sammendrag": "## Data samles inn overalt\n\nHver gang du bruker en app eller nettside, kan det samles inn **data** om deg:\n\n- **Det du oppgir selv**: navn, e-post, innlegg, bilder.\n- **Det som registreres**: klikk, søk, hvor lenge du ser på noe, kjøp.\n- **Teknisk informasjon**: IP-adresse, enhet, nettleser.\n- **Sensordata**: posisjon, bevegelse, puls fra smartklokker.\n- **Sporing** på tvers av nettsider med informasjonskapsler og **sporingspiksler**.\n\n**Datameglere** kjøper, samler og selger slike opplysninger videre. Store mengder data kalles gjerne **stordata** (big data).\n\n## Hvordan data brukes\n\n**Nyttig bruk**:\n\n- **Helseforskning**: Store helseregistre gir ny kunnskap om sykdommer.\n- **Trafikk og byplanlegging**: Posisjonsdata viser hvor det er kø.\n- **Bedre tjenester**: Tilpassede anbefalinger, svindelvarsling i banker.\n\n**Kommersiell bruk**:\n\n- **Profilering**: Algoritmer lager en **profil** av deg – interesser, økonomi, helse, politisk ståsted – ut fra dataene.\n- **Målrettet reklame**: Annonser vises til dem som mest sannsynlig reagerer.\n- **Automatiserte beslutninger**: Data brukes til å vurdere lån, forsikring eller jobbsøknader.\n\n## Misbruk og risiko\n\n- **Manipulasjon**: I **Cambridge Analytica-saken** (avslørt i 2018) ble data fra opptil 87 millioner Facebook-brukere hentet ut uten deres viten og brukt til politisk målretting.\n- **Diskriminering**: Algoritmer kan forsterke **skjevheter** i dataene, for eksempel slik at noen grupper får dårligere lånevilkår eller sjeldnere blir kalt inn til intervju.\n- **Overvåking**: Både selskaper og stater kan kartlegge hvem vi er, hvor vi er og hvem vi snakker med. Det kan gi en **nedkjølingseffekt** – at folk ikke tør å ytre seg fritt.\n- **Datalekkasjer**: Dårlig sikrede systemer kan lekke passord, helseopplysninger eller betalingsdata. Det kan føre til **identitetstyveri** og **svindel**.\n- **Dataene lever lenge**: Det som publiseres eller lagres i dag, kan brukes på helt andre måter om mange år.\n\n## Anonymisering\n\n**Anonymiserte** data kan ikke knyttes til en person. **Pseudonymiserte** data har fått navn byttet ut med en kode, men kan fortsatt kobles tilbake. Selv «anonyme» data kan noen ganger **identifiseres** igjen ved å kombinere flere kilder – for eksempel postnummer, fødselsdato og kjønn.\n\n## Hva kan vi gjøre?\n\n**Som bruker**: Les tillatelser før du installerer apper, avslå unødvendige informasjonskapsler, bruk sterke passord og tofaktorautentisering, og tenk før du deler.\n\n**Som utvikler**: Samle inn minst mulig, sikre dataene, vær åpen om bruken og vurder om løsningen kan **misbrukes**.\n\n**Som samfunn**: Lover som **personopplysningsloven**, tilsyn fra **Datatilsynet** og debatt om hvor grensene skal gå.\n\n## Drøfte en problemstilling\n\nEksempel: «Bør skolen bruke data om elevenes aktivitet i læringsplattformen til å forutsi hvem som står i fare for å stryke?» Vurder **nytten** (tidlig hjelp), **risikoen** (feilvurderinger, stempling, overvåking), **hvem** som har tilgang, og om det finnes **mindre inngripende** alternativer.",
+  "flashcards": [
+    { "term": "Sporingspiksel", "def": "Usynlig element som registrerer at du har åpnet en side eller e-post." },
+    { "term": "Datamegler", "def": "Selskap som kjøper, samler og selger opplysninger om personer." },
+    { "term": "Stordata", "def": "Svært store datamengder som analyseres for mønstre." },
+    { "term": "Profilering", "def": "Algoritmer lager en profil av en person ut fra data." },
+    { "term": "Målrettet reklame", "def": "Annonser vises til utvalgte brukere ut fra profilen deres." },
+    { "term": "Automatisert beslutning", "def": "En avgjørelse som tas av en algoritme, for eksempel om lån." },
+    { "term": "Cambridge Analytica", "def": "Sak fra 2018 der Facebook-data ble brukt til politisk målretting." },
+    { "term": "Algoritmisk skjevhet", "def": "Algoritmer forsterker skjevheter i dataene." },
+    { "term": "Nedkjølingseffekt", "def": "Folk ytrer seg mindre fritt fordi de føler seg overvåket." },
+    { "term": "Datalekkasje", "def": "Når data kommer på avveie." },
+    { "term": "Identitetstyveri", "def": "Noen utgir seg for å være deg ved hjelp av dine opplysninger." },
+    { "term": "Anonymiserte data", "def": "Kan ikke knyttes til en person." },
+    { "term": "Pseudonymiserte data", "def": "Navn byttet ut med kode, men kan kobles tilbake." },
+    { "term": "Reidentifisering", "def": "Å finne igjen personer i «anonyme» data ved å kombinere kilder." },
+    { "term": "App-tillatelser", "def": "Tilgang appen ber om, som posisjon og kamera." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er profilering?", "options": ["Å lage en profil på sosiale medier", "At algoritmer lager en profil av en person ut fra data", "Å velge profilbilde", "Å slette data"], "correct": 1, "explain": "Brukes blant annet til målrettet reklame." },
+    { "id": "q02", "text": "Hva handlet Cambridge Analytica-saken om?", "options": ["Data fra millioner av Facebook-brukere brukt til politisk målretting uten deres viten", "En ny app for studenter", "Et virus i en bank", "En konkurranse i programmering"], "correct": 0, "explain": "Avslørt i 2018." },
+    { "id": "q03", "text": "Hva er forskjellen på anonymiserte og pseudonymiserte data?", "options": ["Det er det samme", "Pseudonymiserte data er slettet", "Anonymiserte data kan ikke knyttes til en person, pseudonymiserte kan kobles tilbake", "Anonymiserte data inneholder navn"], "correct": 2, "explain": "Pseudonymisering bytter navn med kode." },
+    { "id": "q04", "text": "Hvordan kan algoritmer føre til diskriminering?", "options": ["De er alltid rettferdige", "De bruker ikke data", "De velger tilfeldig", "De kan forsterke skjevheter i dataene de er trent på"], "correct": 3, "explain": "Historiske skjevheter videreføres." },
+    { "id": "q05", "text": "Hva er en nedkjølingseffekt?", "options": ["At folk ytrer seg mindre fritt fordi de føler seg overvåket", "At datamaskiner blir kalde", "At salget går ned", "At data slettes"], "correct": 0, "explain": "Et demokratisk problem." },
+    { "id": "q06", "text": "Hvilket er et eksempel på nyttig bruk av store datamengder?", "options": ["Identitetstyveri", "Helseforskning basert på helseregistre", "Manipulasjon av velgere", "Salg av passord"], "correct": 1, "explain": "Gir ny kunnskap om sykdommer." },
+    { "id": "q07", "text": "Hvorfor kan «anonyme» data noen ganger knyttes til personer igjen?", "options": ["Fordi de er krypterte", "Fordi de er slettet", "Fordi flere opplysninger kombinert kan peke ut én person", "Det kan aldri skje"], "correct": 2, "explain": "For eksempel postnummer, fødselsdato og kjønn." },
+    { "id": "q08", "text": "Hva gjør en datamegler?", "options": ["Reparerer datamaskiner", "Selger programvare", "Lager nettsider", "Kjøper, samler og selger opplysninger om personer"], "correct": 3, "explain": "Ofte uten at personene vet det." },
+    { "id": "q09", "text": "Hva kan du gjøre som bruker for å begrense datainnsamlingen?", "options": ["Avslå unødvendige informasjonskapsler og sjekke app-tillatelser", "Dele mer på sosiale medier", "Bruke samme passord overalt", "Godta alt raskt"], "correct": 0, "explain": "Tenk før du deler." },
+    { "id": "q10", "text": "Hva bør du vurdere når du drøfter om skolen skal forutsi hvem som kan stryke?", "options": ["Bare hvor billig det er", "Nytte, risiko, tilgang og mindre inngripende alternativer", "Bare hva teknologien kan", "Bare hva lærerne mener"], "correct": 1, "explain": "Flere perspektiver må veies." }
+  ],
+  "mindmap": {
+    "label": "Data – bruk og misbruk",
+    "children": [
+      { "label": "Innsamling", "children": [
+        { "label": "Det du oppgir" },
+        { "label": "Sporing og sensorer" },
+        { "label": "Datameglere" }
+      ] },
+      { "label": "Bruk", "children": [
+        { "label": "Helseforskning" },
+        { "label": "Profilering og reklame" },
+        { "label": "Automatiserte beslutninger" }
+      ] },
+      { "label": "Misbruk", "children": [
+        { "label": "Cambridge Analytica" },
+        { "label": "Diskriminering" },
+        { "label": "Overvåking" },
+        { "label": "Lekkasjer" }
+      ] },
+      { "label": "Anonymitet", "children": [
+        { "label": "Anonymisert" },
+        { "label": "Pseudonymisert" },
+        { "label": "Reidentifisering" }
+      ] },
+      { "label": "Tiltak", "children": [
+        { "label": "Bruker" },
+        { "label": "Utvikler" },
+        { "label": "Samfunn og lov" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Data som lagres i dag, kan brukes på andre måter i framtiden.", "correct": true, "explain": "Derfor bør man samle inn minst mulig." },
+      { "id": "m02", "type": "sant-usant", "text": "Pseudonymiserte data kan aldri kobles tilbake til personer.", "correct": false, "explain": "Koden kan kobles tilbake til personen." },
+      { "id": "m03", "type": "sant-usant", "text": "En datalekkasje kan føre til identitetstyveri.", "correct": true, "explain": "Opplysningene kan misbrukes av kriminelle." },
+      { "id": "m04", "type": "sant-usant", "text": "Datainnsamling har bare negative sider.", "correct": false, "explain": "Data brukes også til forskning og bedre tjenester." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken type data er puls fra en smartklokke?", "options": ["Data du oppgir selv", "Sensordata", "Teknisk informasjon om nettleseren", "Offentlige data"], "correct": 1, "explain": "Registreres automatisk av en sensor." },
+      { "id": "m06", "type": "flervalg", "text": "Hva bør en utvikler gjøre for å hindre misbruk av data?", "options": ["Samle inn minst mulig og sikre dataene", "Selge dataene", "Lagre alt for sikkerhets skyld", "Skjule hva som samles inn"], "correct": 0, "explain": "Dataminimering og sikkerhet." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er en sporingspiksel?", "options": ["En type skjerm", "En pikselfeil", "Et usynlig element som registrerer at du har åpnet en side eller e-post", "En lagringsenhet"], "correct": 2, "explain": "Brukes til sporing og statistikk." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

@@ -1,0 +1,81 @@
+{
+  "id": "it-i-samfunnet",
+  "fagId": "informasjonsteknologi-1",
+  "trinnId": "vg2",
+  "name": "Informasjonsteknologi i samfunnet",
+  "intro": "Hvordan informasjonsteknologi påvirker individ og samfunn – kunstig intelligens, sosiale medier, arbeidsliv, digitalt utenforskap, sikkerhet og miljø – og hvordan du drøfter slike dagsaktuelle temaer.",
+  "kompetansemaal": [1],
+  "sammendrag": "## Teknologi overalt\n\nInformasjonsteknologi (IT) er en del av nesten alt vi gjør: skole, jobb, bank, helse, underholdning og kontakt med venner og det offentlige. Norge er et av de **mest digitaliserte** landene i verden. Det gir store muligheter, men også nye utfordringer.\n\n## Kunstig intelligens\n\n**Kunstig intelligens (KI)** er systemer som kan løse oppgaver vi forbinder med menneskelig intelligens, som å forstå språk, gjenkjenne bilder og ta beslutninger. **Maskinlæring** betyr at systemet lærer mønstre fra store mengder **data** i stedet for å følge regler skrevet av en programmerer.\n\n- **Muligheter**: raskere diagnoser i helsevesenet, oversettelse, hjelp til skriving og programmering, selvkjørende kjøretøy.\n- **Utfordringer**: KI kan gi **feil svar** som høres troverdige ut, gjenta **skjevheter** fra dataene den er trent på, og brukes til **deepfakes** – falske bilder, video og lyd. Det reiser også spørsmål om **opphavsrett** og **ansvar**.\n\n## Sosiale medier og informasjon\n\nSosiale medier gir alle mulighet til å publisere og delta i debatten. Samtidig styrer **algoritmer** hva vi ser, ofte ut fra hva som gir mest **engasjement**. Det kan gi **ekkokamre**, rask spredning av **feilinformasjon** og press på psykisk helse. **Kildekritikk** er derfor viktigere enn før.\n\n## Arbeidsliv og økonomi\n\n**Automatisering** og KI endrer mange yrker. Noen oppgaver forsvinner, andre blir nye. Behovet for **digital kompetanse** øker i nesten alle bransjer, og mange må lære nytt gjennom hele arbeidslivet.\n\n## Digitalt utenforskap\n\nNår banktjenester, skjemaer og helsetjenester flyttes på nett, kan de som mangler utstyr, ferdigheter eller helse til å bruke dem, falle utenfor – ofte **eldre**, personer med **funksjonsnedsettelser** og personer som ikke behersker **språket**. **Universell utforming** og tilbud om hjelp er viktige tiltak.\n\n## Sikkerhet\n\nSamfunnet er sårbart for **dataangrep**: **løsepengevirus** som låser data, **phishing** som lurer til seg passord, og angrep på kritisk infrastruktur som strøm og sykehus. Gode passord, **tofaktorautentisering**, oppdateringer og sikkerhetskopier er grunnleggende tiltak.\n\n## Miljø\n\nIT kan spare ressurser, for eksempel gjennom videomøter i stedet for reiser. Men **datasentre** bruker mye strøm og vann, og produksjon av elektronikk krever **metaller** og gir **elektronisk avfall**. Reparasjon og lengre levetid for utstyr reduserer miljøbelastningen.\n\n## Slik drøfter du et IT-tema\n\n1. **Presenter** temaet og hvorfor det er aktuelt.\n2. Forklar **teknologien** kort og riktig.\n3. Løft fram **argumenter for og mot**, og hvem som berøres: individ, bedrifter, samfunn.\n4. Bruk **eksempler** og **kilder** – og vurder kildene.\n5. Kom fram til en **begrunnet konklusjon**, gjerne med forslag til løsninger eller regulering.",
+  "flashcards": [
+    { "term": "Kunstig intelligens (KI)", "def": "Systemer som løser oppgaver vi forbinder med menneskelig intelligens." },
+    { "term": "Maskinlæring", "def": "Systemet lærer mønstre fra data i stedet for faste regler." },
+    { "term": "Deepfake", "def": "Falsk bilde, video eller lyd laget med KI." },
+    { "term": "Skjevhet i KI", "def": "KI gjentar skjevheter fra dataene den er trent på." },
+    { "term": "Algoritmestyrt feed", "def": "Algoritmer velger hva vi ser, ofte ut fra engasjement." },
+    { "term": "Ekkokammer", "def": "Når man mest møter synspunkter som bekrefter egne meninger." },
+    { "term": "Automatisering", "def": "Maskiner og programmer overtar oppgaver fra mennesker." },
+    { "term": "Digitalt utenforskap", "def": "Å falle utenfor fordi tjenester bare finnes digitalt." },
+    { "term": "Løsepengevirus", "def": "Skadevare som låser data og krever betaling." },
+    { "term": "Phishing", "def": "Forsøk på å lure til seg passord eller opplysninger." },
+    { "term": "Tofaktorautentisering", "def": "Innlogging som krever to ulike bevis, som passord og kode." },
+    { "term": "Datasentre", "def": "Bruker mye strøm og vann." },
+    { "term": "Elektronisk avfall", "def": "Kasserte elektroniske produkter – et miljøproblem." },
+    { "term": "Kildekritikk", "def": "Å vurdere hvor pålitelig en kilde er." },
+    { "term": "Drøfting", "def": "Argumenter for og mot, med begrunnet konklusjon." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er maskinlæring?", "options": ["At en maskin blir reparert", "At et system lærer mønstre fra data", "At en programmerer skriver alle regler", "At en datamaskin blir raskere"], "correct": 1, "explain": "Grunnlaget for mye moderne KI." },
+    { "id": "q02", "text": "Hva er en deepfake?", "options": ["Falskt bilde, video eller lyd laget med KI", "En type virus", "En dyp database", "Et sikkert passord"], "correct": 0, "explain": "Kan brukes til å spre feilinformasjon." },
+    { "id": "q03", "text": "Hvorfor kan KI gi urettferdige resultater?", "options": ["Fordi KI alltid er ond", "Fordi KI ikke bruker data", "Fordi den kan gjenta skjevheter i treningsdataene", "Fordi KI er for treg"], "correct": 2, "explain": "Data fra fortiden kan inneholde skjevheter." },
+    { "id": "q04", "text": "Hvem rammes ofte av digitalt utenforskap?", "options": ["Bare unge", "Bare IT-eksperter", "Ingen", "Eldre, personer med funksjonsnedsettelser og personer som ikke behersker språket"], "correct": 3, "explain": "Når tjenester bare finnes digitalt." },
+    { "id": "q05", "text": "Hva er tofaktorautentisering?", "options": ["Innlogging som krever to ulike bevis", "To passord som er like", "Et virus", "Innlogging uten passord"], "correct": 0, "explain": "For eksempel passord og kode på mobilen." },
+    { "id": "q06", "text": "Hva styrer ofte hva du ser i sosiale medier?", "options": ["Tilfeldigheter", "Algoritmer som prioriterer engasjement", "Staten", "Bare vennene dine"], "correct": 1, "explain": "Det kan gi ekkokamre." },
+    { "id": "q07", "text": "Hvilken miljøutfordring er knyttet til IT?", "options": ["IT bruker ingen energi", "Datamaskiner lages av tre", "Datasentre bruker mye strøm, og elektronikk gir avfall", "IT reduserer alltid utslipp"], "correct": 2, "explain": "Lengre levetid for utstyr hjelper." },
+    { "id": "q08", "text": "Hva hører med i en god drøfting av et IT-tema?", "options": ["Bare egen mening", "Bare fakta om teknologien", "Bare argumenter for", "Argumenter for og mot, eksempler, kilder og begrunnet konklusjon"], "correct": 3, "explain": "Flere perspektiver og berørte parter." },
+    { "id": "q09", "text": "Hva er phishing?", "options": ["Forsøk på å lure til seg passord eller opplysninger", "En type fiskespill", "En sikkerhetsoppdatering", "En måte å lagre data på"], "correct": 0, "explain": "Ofte via falske e-poster eller SMS." },
+    { "id": "q10", "text": "Hvordan påvirker automatisering arbeidslivet?", "options": ["Ingen yrker endres", "Noen oppgaver forsvinner, nye oppstår, og behovet for digital kompetanse øker", "Alle mister jobben", "Bare IT-yrker påvirkes"], "correct": 1, "explain": "Livslang læring blir viktigere." }
+  ],
+  "mindmap": {
+    "label": "IT i samfunnet",
+    "children": [
+      { "label": "KI", "children": [
+        { "label": "Maskinlæring" },
+        { "label": "Skjevheter" },
+        { "label": "Deepfakes" }
+      ] },
+      { "label": "Sosiale medier", "children": [
+        { "label": "Algoritmer" },
+        { "label": "Ekkokamre" },
+        { "label": "Kildekritikk" }
+      ] },
+      { "label": "Arbeidsliv", "children": [
+        { "label": "Automatisering" },
+        { "label": "Digital kompetanse" }
+      ] },
+      { "label": "Utfordringer", "children": [
+        { "label": "Digitalt utenforskap" },
+        { "label": "Dataangrep" },
+        { "label": "Miljø" }
+      ] },
+      { "label": "Drøfting", "children": [
+        { "label": "For og mot" },
+        { "label": "Berørte parter" },
+        { "label": "Konklusjon" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "KI-systemer kan gi svar som høres troverdige ut, men er feil.", "correct": true, "explain": "Svarene må derfor kontrolleres." },
+      { "id": "m02", "type": "sant-usant", "text": "Datasentre bruker nesten ikke strøm.", "correct": false, "explain": "De bruker mye strøm og ofte vann til kjøling." },
+      { "id": "m03", "type": "sant-usant", "text": "Sikkerhetskopier er et viktig tiltak mot løsepengevirus.", "correct": true, "explain": "Da kan data gjenopprettes." },
+      { "id": "m04", "type": "sant-usant", "text": "Digitalisering av offentlige tjenester gjør dem automatisk tilgjengelige for alle.", "correct": false, "explain": "Noen kan falle utenfor." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilket tiltak motvirker digitalt utenforskap?", "options": ["Fjerne alle skranker", "Universell utforming og tilbud om hjelp", "Kreve at alle bruker samme app", "Høyere priser på internett"], "correct": 1, "explain": "Tjenestene må kunne brukes av flest mulig." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er et eksempel på kritisk infrastruktur?", "options": ["Strømnettet", "Et dataspill", "En privat blogg", "En musikkstrømmetjeneste"], "correct": 0, "explain": "Også sykehus og vannforsyning." },
+      { "id": "m07", "type": "flervalg", "text": "Hvordan kan du redusere miljøbelastningen fra elektronikk?", "options": ["Kjøpe ny mobil hvert år", "Kaste utstyr i restavfallet", "Reparere og bruke utstyret lenger", "Lade mobilen oftere"], "correct": 2, "explain": "Produksjon krever mye ressurser." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "informasjonsteknologi-1",
+  "trinnId": "vg2",
+  "name": "Informasjonsteknologi 1",
+  "lareplan": {
+    "kode": "INF01-03",
+    "url": "https://www.udir.no/lk20/inf01-03/kompetansemaal-og-vurdering/kv977",
+    "kompetansemaal": [
+      {
+        "nr": 1,
+        "tekst": "drøfte dagsaktuelle temaer knyttet til hvordan informasjonsteknologi påvirker individet og samfunnet"
+      },
+      {
+        "nr": 2,
+        "tekst": "beskrive sentrale komponenter i datamaskiner og nettverk og gjøre rede for hvilken funksjon de har"
+      },
+      {
+        "nr": 3,
+        "tekst": "gjøre rede for og vurdere hvordan ulike typer informasjon kan representeres digitalt og struktureres ved hjelp av ulike datalagringsmetoder"
+      },
+      {
+        "nr": 4,
+        "tekst": "utvikle nettsider ved hjelp av markeringsspråk"
+      },
+      {
+        "nr": 5,
+        "tekst": "lagre og hente fram data, presentere data på nettsider og reflektere over hvordan representasjonsform kan påvirke tolkningen"
+      },
+      {
+        "nr": 6,
+        "tekst": "planlegge og lage nettsider som tar hensyn til brukervennlighet og universell utforming"
+      },
+      {
+        "nr": 7,
+        "tekst": "utvikle prosedyreorienterte programmer med prosedyrer med og uten parametre og returverdier"
+      },
+      {
+        "nr": 8,
+        "tekst": "beskrive ulike typer algoritmer og vurdere effektiviteten av egen programkode"
+      },
+      {
+        "nr": 9,
+        "tekst": "utforske, strukturere og kommentere programkode"
+      },
+      {
+        "nr": 10,
+        "tekst": "gjøre rede for gjeldende personvernregelverk og hvilke konsekvenser det har for utvikling av informasjonsteknologi"
+      },
+      {
+        "nr": 11,
+        "tekst": "drøfte problemstillinger knyttet til innhenting, bruk og misbruk av data"
+      },
+      {
+        "nr": 12,
+        "tekst": "bruke algoritmisk tenkning og programmering for å utforske en problemstilling og presentere resultatet"
+      }
+    ]
+  },
+  "temaer": [
+    "it-i-samfunnet",
+    "datamaskiner-og-nettverk",
+    "digital-representasjon-og-datalagring",
+    "html-og-css",
+    "data-pa-nettsider",
+    "brukervennlighet-og-universell-utforming",
+    "programmering-med-funksjoner",
+    "algoritmer-og-effektivitet",
+    "personvern-og-regelverk",
+    "innhenting-og-misbruk-av-data",
+    "algoritmisk-problemlosning"
+  ]
+}

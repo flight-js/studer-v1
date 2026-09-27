@@ -1,0 +1,82 @@
+{
+  "id": "datamaskiner-og-nettverk",
+  "fagId": "informasjonsteknologi-1",
+  "trinnId": "vg2",
+  "name": "Datamaskiner og nettverk",
+  "intro": "De sentrale komponentene i en datamaskin og hva de gjør, hvordan nettverk og internett er bygd opp, IP-adresser, DNS, protokoller som TCP/IP og HTTPS, og hva som skjer når du åpner en nettside.",
+  "kompetansemaal": [2],
+  "sammendrag": "## Komponentene i en datamaskin\n\n- **Prosessoren (CPU)** er «hjernen». Den henter instruksjoner fra minnet og utfører dem – milliarder av ganger i sekundet. Hastigheten måles i **gigahertz (GHz)**, og moderne prosessorer har flere **kjerner** som arbeider samtidig.\n- **Arbeidsminnet (RAM)** holder programmene og dataene som er i bruk. Det er raskt, men **flyktig**: Innholdet forsvinner når strømmen går.\n- **Lagring** – **SSD** eller harddisk (**HDD**) – tar vare på filer og programmer permanent. SSD er raskere og har ingen bevegelige deler.\n- **Hovedkortet** kobler komponentene sammen.\n- **Skjermkortet (GPU)** har mange små kjerner som regner parallelt. Det brukes til grafikk, men også til **maskinlæring**.\n- **Strømforsyningen** gir strøm til alle delene.\n- **Inn- og utenheter** som tastatur, mus, skjerm og høyttaler lar oss kommunisere med maskinen.\n\nDe fleste datamaskiner følger **von Neumann-arkitekturen**: Både programmet og dataene lagres i samme minne, og CPU-en henter og utfører instruksjoner én etter én.\n\n## Nettverk\n\nEt **nettverk** er to eller flere enheter som kan utveksle data.\n\n- **LAN** (lokalt nettverk): for eksempel hjemme eller på skolen.\n- **WAN**: nettverk over store avstander. **Internett** er et nettverk av nettverk.\n- En **svitsj** kobler enheter i samme lokalnett.\n- En **ruter** sender data **mellom** nettverk og velger veien pakkene skal gå.\n- Data kan sendes via **kabel**, **fiber** (lys) eller **trådløst** (Wi-Fi og mobilnett).\n- **Båndbredde** er hvor mye data som kan overføres per sekund, ofte i **Mbit/s**.\n\n## Adresser\n\n- En **IP-adresse** identifiserer en enhet på nettet. **IPv4** har 32 bit, som 192.168.1.10, og gir omtrent 4,3 milliarder adresser – for få. **IPv6** har 128 bit.\n- En **MAC-adresse** er en fast adresse i nettverkskortet.\n- **DNS** fungerer som internettets **telefonkatalog**: Den oversetter domenenavn som *udir.no* til IP-adresser.\n\n## Protokoller\n\nEn **protokoll** er et sett regler for kommunikasjon.\n\n- **TCP/IP**: Data deles i små **pakker**. IP sørger for at pakkene finner fram, og TCP sørger for at de kommer fram **i riktig rekkefølge** og uten feil.\n- **HTTP** brukes til å hente nettsider. **HTTPS** er den **krypterte** versjonen – derfor ser du en hengelås i adressefeltet.\n\n## Hva skjer når du åpner en nettside?\n\n1. Du skriver inn adressen i nettleseren.\n2. **DNS** finner IP-adressen til tjeneren.\n3. Nettleseren (**klienten**) sender en **HTTP-forespørsel** til **tjeneren** (serveren).\n4. Tjeneren svarer med **HTML**, **CSS**, **JavaScript** og bilder, delt opp i pakker.\n5. Nettleseren setter sammen pakkene og **viser** siden.\n\nDette kalles **klient–tjener-modellen**.\n\n## Skytjenester\n\nMed **skytjenester** lagres data og kjøres programmer i store **datasentre** i stedet for på din egen maskin. Det gir tilgang fra alle enheter, men gjør oss avhengige av nettforbindelse og av leverandøren – og reiser spørsmål om hvor dataene lagres.",
+  "flashcards": [
+    { "term": "CPU", "def": "Prosessoren som utfører instruksjoner." },
+    { "term": "RAM", "def": "Raskt, flyktig arbeidsminne." },
+    { "term": "SSD", "def": "Rask lagring uten bevegelige deler." },
+    { "term": "Hovedkort", "def": "Kobler komponentene sammen." },
+    { "term": "GPU", "def": "Skjermkort med mange kjerner som regner parallelt." },
+    { "term": "Von Neumann-arkitektur", "def": "Program og data i samme minne." },
+    { "term": "LAN", "def": "Lokalt nettverk." },
+    { "term": "Ruter", "def": "Sender data mellom nettverk." },
+    { "term": "Svitsj", "def": "Kobler enheter i samme lokalnett." },
+    { "term": "IP-adresse", "def": "Identifiserer en enhet på nettet." },
+    { "term": "DNS", "def": "Oversetter domenenavn til IP-adresser." },
+    { "term": "TCP/IP", "def": "Protokoller som deler data i pakker og sørger for at de kommer fram." },
+    { "term": "HTTPS", "def": "Kryptert overføring av nettsider." },
+    { "term": "Klient–tjener-modellen", "def": "Klienten ber om data, tjeneren svarer." },
+    { "term": "Båndbredde", "def": "Hvor mye data som kan overføres per sekund." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva gjør RAM?", "options": ["Lagrer filer permanent", "Holder programmer og data som er i bruk", "Kobler maskinen til internett", "Viser bilde på skjermen"], "correct": 1, "explain": "Innholdet forsvinner når strømmen går." },
+    { "id": "q02", "text": "Hva gjør DNS?", "options": ["Oversetter domenenavn til IP-adresser", "Krypterer data", "Lagrer nettsider", "Sender e-post"], "correct": 0, "explain": "Internettets telefonkatalog." },
+    { "id": "q03", "text": "Hva er forskjellen på HTTP og HTTPS?", "options": ["HTTPS er raskere", "HTTP brukes bare på mobil", "HTTPS er kryptert", "Det er ingen forskjell"], "correct": 2, "explain": "S står for secure." },
+    { "id": "q04", "text": "Hvilken komponent utfører instruksjonene i et program?", "options": ["Harddisken", "Strømforsyningen", "Skjermen", "Prosessoren (CPU)"], "correct": 3, "explain": "Hjernen i datamaskinen." },
+    { "id": "q05", "text": "Hva gjør en ruter?", "options": ["Sender data mellom nettverk", "Lagrer filer", "Oversetter domenenavn", "Viser nettsider"], "correct": 0, "explain": "Den velger veien pakkene skal gå." },
+    { "id": "q06", "text": "Hva gjør TCP?", "options": ["Gir enheter en fast adresse", "Sørger for at pakkene kommer fram i riktig rekkefølge og uten feil", "Krypterer passord", "Tegner grafikk"], "correct": 1, "explain": "IP sørger for at pakkene finner fram." },
+    { "id": "q07", "text": "Hvorfor ble IPv6 innført?", "options": ["For å gjøre nettet tregere", "For å fjerne DNS", "Fordi IPv4 har for få adresser", "For å erstatte HTML"], "correct": 2, "explain": "IPv4 gir bare rundt 4,3 milliarder adresser." },
+    { "id": "q08", "text": "Hva kjennetegner von Neumann-arkitekturen?", "options": ["Maskinen har ikke minne", "Den bruker bare GPU", "Den er trådløs", "Program og data lagres i samme minne"], "correct": 3, "explain": "CPU-en henter og utfører instruksjoner." },
+    { "id": "q09", "text": "Hvorfor brukes GPU-er i maskinlæring?", "options": ["De kan regne mange beregninger parallelt", "De lagrer mye data", "De er billigste komponent", "De kobler til internett"], "correct": 0, "explain": "Maskinlæring krever mange like beregninger." },
+    { "id": "q10", "text": "Hva er en ulempe med skytjenester?", "options": ["Data er bare tilgjengelig på én maskin", "Avhengighet av nett og leverandør, og spørsmål om hvor data lagres", "De krever ingen strøm", "De kan ikke lagre bilder"], "correct": 1, "explain": "Men de gir tilgang fra alle enheter." }
+  ],
+  "mindmap": {
+    "label": "Datamaskiner og nettverk",
+    "children": [
+      { "label": "Komponenter", "children": [
+        { "label": "CPU" },
+        { "label": "RAM" },
+        { "label": "SSD/HDD" },
+        { "label": "GPU og hovedkort" }
+      ] },
+      { "label": "Nettverk", "children": [
+        { "label": "LAN og WAN" },
+        { "label": "Ruter og svitsj" },
+        { "label": "Båndbredde" }
+      ] },
+      { "label": "Adresser", "children": [
+        { "label": "IPv4 og IPv6" },
+        { "label": "MAC" },
+        { "label": "DNS" }
+      ] },
+      { "label": "Protokoller", "children": [
+        { "label": "TCP/IP" },
+        { "label": "HTTP og HTTPS" }
+      ] },
+      { "label": "Nettsiden", "children": [
+        { "label": "Klient og tjener" },
+        { "label": "Pakker" },
+        { "label": "Skytjenester" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Internett er et nettverk av nettverk.", "correct": true, "explain": "Rutere kobler nettverkene sammen." },
+      { "id": "m02", "type": "sant-usant", "text": "Innholdet i RAM beholdes når maskinen slås av.", "correct": false, "explain": "RAM er flyktig." },
+      { "id": "m03", "type": "sant-usant", "text": "Data på internett sendes i små pakker.", "correct": true, "explain": "Pakkene settes sammen hos mottakeren." },
+      { "id": "m04", "type": "sant-usant", "text": "En svitsj sender data mellom ulike nettverk på internett.", "correct": false, "explain": "Det gjør ruteren; svitsjen kobler enheter i samme lokalnett." },
+      { "id": "m05", "type": "flervalg", "text": "Hvor mange bit har en IPv4-adresse?", "options": ["8", "32", "64", "128"], "correct": 1, "explain": "IPv6 har 128 bit." },
+      { "id": "m06", "type": "flervalg", "text": "Hva sender tjeneren tilbake når du ber om en nettside?", "options": ["HTML, CSS, JavaScript og bilder", "Bare IP-adressen", "En e-post", "Ingenting"], "correct": 0, "explain": "Nettleseren setter sammen og viser siden." },
+      { "id": "m07", "type": "flervalg", "text": "Hva måles båndbredde i?", "options": ["GHz", "Byte", "Mbit/s", "Watt"], "correct": 2, "explain": "Data per sekund." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
