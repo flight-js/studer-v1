@@ -55,6 +55,7 @@ Status for arbeidet med å lage innhold til alle 83 fag (8. trinn–Vg3), og hvo
 | Geofag 2 | 11 |
 | Matematikk R2 | 15 |
 | Matematikk S2 | 13 |
+| Rettslære 2 | 12 |
 
 Hele ungdomstrinnet er ferdig.
 
@@ -62,7 +63,7 @@ Hele Vg1 er ferdig.
 
 Hele Vg2 er ferdig.
 
-**Neste:** Vg3, i denne rekkefølgen: rettslare-2, psykologi-2, sosialkunnskap, markedsforing-og-ledelse-2.
+**Neste:** Vg3, i denne rekkefølgen: psykologi-2, sosialkunnskap, markedsforing-og-ledelse-2.
 
 **Fremmedspråk nivå I (FSP01-04 KV965)**, samme slugs for tysk, fransk og spansk (`_fag.json` er laget). Forklaringer på norsk, eksempler og flashcard-termer på målspråket:
 

@@ -1,0 +1,78 @@
+{
+  "id": "vinningslovbrudd",
+  "fagId": "rettslare-2",
+  "trinnId": "vg3",
+  "name": "Vinningslovbrudd",
+  "intro": "Lovbrudd som begås for å oppnå uberettiget vinning – tyveri, naskeri, underslag, ran, utpressing, bedrageri, heleri og hvitvasking – hvordan straffebudene skiller seg fra hverandre, hvordan du bruker straffbarhetsvilkårene på konkrete saker, og aktuelle former som nettsvindel og pengemuldyr.",
+  "kompetansemaal": [9],
+  "sammendrag": "## Hva er vinningslovbrudd?\n\n**Vinningslovbrudd** er lovbrudd der gjerningspersonen vil skaffe seg eller andre en **uberettiget vinning** – en økonomisk fordel man ikke har krav på. Felles for de fleste er kravet om **vinningsforsett**: Gjerningspersonen må ha **forsett** om å oppnå vinningen.\n\n## Tyveri og naskeri\n\n**Tyveri** (§ 321): å **ta** en gjenstand som **tilhører en annen**, med **forsett** om uberettiget vinning ved å **tilegne seg** den. Strafferamme: bot eller fengsel inntil **2 år**.\n\n**Grovt tyveri** (§ 322): for eksempel **innbrudd** i bolig, tyveri av svært **store** verdier eller tyveri som skjer **organisert**.\n\n**Naskeri** (§ 323): tyveri av **liten verdi** når forholdene ellers tilsier det – straffes med **bot**. Typisk et mindre butikktyveri.\n\n## Underslag\n\n**Underslag** (§ 324): å tilegne seg noe man **allerede har i besittelse**, men som tilhører en annen. Eksempel: En kasserer tar penger fra kassen, eller noen beholder en lånt PC og selger den. Forskjellen fra tyveri er at gjenstanden **ikke tas** – den er allerede betrodd gjerningspersonen.\n\n## Ran og utpressing\n\n- **Ran** (§ 327): å skaffe seg vinning ved **vold** eller **trusler** – for eksempel å true til seg en mobil. Ran er langt mer alvorlig enn tyveri fordi det også krenker **personen**.\n- **Utpressing** (§ 330): å tvinge noen til å gi fra seg penger eller verdier ved **trusler**, for eksempel om å spre bilder – ofte kalt **sextortion** når det gjelder intime bilder.\n\n## Bedrageri\n\n**Bedrageri** (§ 371): å **villede** noen – ved løgn eller ved å utnytte en misforståelse – slik at de gjør noe som gir **tap** for dem selv eller andre, med forsett om uberettiget vinning. Straffebudet omfatter også å påvirke **datasystemer** uriktig.\n\nEksempler:\n\n- selge en mobil på nett, få betalt og **aldri sende** den\n- **phishing**: lure til seg kortinformasjon eller BankID\n- falske **investeringer** og **kjærlighetssvindel**\n\n**Grovt bedrageri** (§ 372) gjelder blant annet store beløp og systematisk svindel.\n\n## Heleri og hvitvasking\n\n- **Heleri** (§ 332): å **motta** eller skaffe seg utbytte av en straffbar handling – for eksempel kjøpe en sykkel man forstår er **stjålet**.\n- **Hvitvasking** (§ 337): å bistå med å **skjule** eller **sikre** utbytte fra straffbare handlinger. Unge som **låner ut bankkontoen** sin mot betaling, kan bli brukt som **pengemuldyr** og straffes for hvitvasking – selv om de ikke visste nøyaktig hva pengene kom fra, dersom de burde ha forstått det.\n\n## Bruk av straffbarhetsvilkårene\n\n**Eksempel**: Sara (17) låner en PS5 av en venn og selger den på nett uten å spørre.\n\n1. **Lovhjemmel**: straffeloven § 324 om underslag\n2. **Objektiv gjerningsbeskrivelse**: Hun hadde gjenstanden i **besittelse** og **tilegnet** seg den ved å selge den.\n3. **Straffrihetsgrunn**: ingen\n4. **Skyld**: Hun visste at den tilhørte vennen og solgte den for å få penger – **forsett** og **vinningsforsett**.\n\nSara er over 15 år og tilregnelig, så vilkårene for straff er oppfylt. Vennen kan i tillegg kreve **erstatning**.\n\n## Reaksjoner\n\nFor unge førstegangslovbrytere er det vanlig med **bot**, **påtaleunnlatelse** eller **overføring til konfliktråd**, der gjerningspersonen møter den fornærmede. Grove og gjentatte lovbrudd kan gi **fengsel**. Retten kan også **inndra** utbyttet.",
+  "flashcards": [
+    { "term": "Vinningslovbrudd", "def": "Lovbrudd for å oppnå uberettiget økonomisk fordel." },
+    { "term": "Vinningsforsett", "def": "Forsett om å oppnå uberettiget vinning." },
+    { "term": "Tyveri", "def": "Å ta en gjenstand som tilhører en annen – § 321." },
+    { "term": "Grovt tyveri", "def": "For eksempel innbrudd i bolig – § 322." },
+    { "term": "Naskeri", "def": "Tyveri av liten verdi – bot, § 323." },
+    { "term": "Underslag", "def": "Tilegne seg noe man allerede har i besittelse – § 324." },
+    { "term": "Ran", "def": "Vinning ved vold eller trusler – § 327." },
+    { "term": "Utpressing", "def": "Tvinge noen til å gi fra seg verdier ved trusler – § 330." },
+    { "term": "Sextortion", "def": "Utpressing med trussel om å spre intime bilder." },
+    { "term": "Bedrageri", "def": "Villede noen til å gjøre noe som gir tap – § 371." },
+    { "term": "Phishing", "def": "Lure til seg kortinformasjon eller innloggingsdata." },
+    { "term": "Heleri", "def": "Motta utbytte av en straffbar handling – § 332." },
+    { "term": "Hvitvasking", "def": "Skjule eller sikre utbytte fra straffbare handlinger – § 337." },
+    { "term": "Pengemuldyr", "def": "Person som låner ut kontoen sin til å flytte kriminelle penger." },
+    { "term": "Inndragning", "def": "Retten tar fra gjerningspersonen utbyttet." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva skiller underslag fra tyveri?", "options": ["Underslag gjelder bare penger", "Ved underslag har gjerningspersonen allerede gjenstanden i besittelse", "Underslag er alltid grovt", "Det er ingen forskjell"], "correct": 1, "explain": "Gjenstanden er betrodd." },
+    { "id": "q02", "text": "Hva er ran?", "options": ["Vinning ved vold eller trusler", "Tyveri av liten verdi", "Salg av stjålne ting", "Villedning på nett"], "correct": 0, "explain": "Krenker også personen." },
+    { "id": "q03", "text": "Hva er naskeri?", "options": ["Innbrudd i bolig", "Svindel på nett", "Tyveri av liten verdi som straffes med bot", "Utpressing"], "correct": 2, "explain": "Straffeloven § 323." },
+    { "id": "q04", "text": "Hvilket lovbrudd begår den som selger en mobil på nett, får betalt og aldri sender den?", "options": ["Tyveri", "Heleri", "Ran", "Bedrageri"], "correct": 3, "explain": "Kjøperen er villedet." },
+    { "id": "q05", "text": "Hva er heleri?", "options": ["Å motta utbytte av en straffbar handling", "Å stjele fra butikk", "Å true noen", "Å låne ut penger"], "correct": 0, "explain": "For eksempel å kjøpe en stjålet sykkel." },
+    { "id": "q06", "text": "Hva er et pengemuldyr?", "options": ["En som stjeler dyr", "En som låner ut bankkontoen sin til å flytte kriminelle penger", "En bankansatt", "En som betaler skatt"], "correct": 1, "explain": "Kan straffes for hvitvasking." },
+    { "id": "q07", "text": "Hvilket skyldkrav er felles for de fleste vinningslovbrudd?", "options": ["Uaktsomhet", "Ingen skyld", "Vinningsforsett", "Grov uaktsomhet"], "correct": 2, "explain": "Forsett om uberettiget vinning." },
+    { "id": "q08", "text": "Hva er sextortion?", "options": ["Salg av bilder", "Deling av memer", "Et dataprogram", "Utpressing med trussel om å spre intime bilder"], "correct": 3, "explain": "En form for utpressing." },
+    { "id": "q09", "text": "Hvilket lovbrudd er innbrudd i en bolig typisk?", "options": ["Grovt tyveri", "Naskeri", "Underslag", "Heleri"], "correct": 0, "explain": "Straffeloven § 322." },
+    { "id": "q10", "text": "Hva kan retten gjøre med utbyttet av et lovbrudd?", "options": ["Gi det til gjerningspersonen", "Inndra det", "Dele det med vitner", "Ingenting"], "correct": 1, "explain": "Inndragning." }
+  ],
+  "mindmap": {
+    "label": "Vinningslovbrudd",
+    "children": [
+      { "label": "Tyveri", "children": [
+        { "label": "Tyveri § 321" },
+        { "label": "Grovt tyveri" },
+        { "label": "Naskeri" }
+      ] },
+      { "label": "Betrodd", "children": [
+        { "label": "Underslag" }
+      ] },
+      { "label": "Vold og trusler", "children": [
+        { "label": "Ran" },
+        { "label": "Utpressing og sextortion" }
+      ] },
+      { "label": "Svindel", "children": [
+        { "label": "Bedrageri" },
+        { "label": "Phishing og nettsvindel" }
+      ] },
+      { "label": "Utbytte", "children": [
+        { "label": "Heleri" },
+        { "label": "Hvitvasking og pengemuldyr" },
+        { "label": "Inndragning" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Den som kjøper en sykkel og forstår at den er stjålet, kan straffes for heleri.", "correct": true, "explain": "Straffeloven § 332." },
+      { "id": "m02", "type": "sant-usant", "text": "Ran er mindre alvorlig enn tyveri.", "correct": false, "explain": "Ran krenker også personen og straffes strengere." },
+      { "id": "m03", "type": "sant-usant", "text": "Bedrageri kan også skje ved å påvirke et datasystem uriktig.", "correct": true, "explain": "Omfattet av straffebudet." },
+      { "id": "m04", "type": "sant-usant", "text": "Å låne ut bankkontoen sin mot betaling er alltid lovlig.", "correct": false, "explain": "Det kan være hvitvasking." },
+      { "id": "m05", "type": "flervalg", "text": "En kasserer tar penger fra kassen. Hvilket lovbrudd er det?", "options": ["Ran", "Underslag", "Heleri", "Naskeri"], "correct": 1, "explain": "Pengene var betrodd kassereren." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilken reaksjon er vanlig for unge førstegangslovbrytere?", "options": ["Overføring til konfliktråd", "Forvaring", "Livstidsstraff", "Utvisning"], "correct": 0, "explain": "Møte med den fornærmede." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er phishing?", "options": ["Ulovlig fiske", "Hvitvasking", "Å lure til seg kortinformasjon eller innloggingsdata", "Tyveri fra butikk"], "correct": 2, "explain": "En form for bedrageri." }
+    ]
+  },
+  "kvalitet": { "status": "sjekkes", "merknader": ["Sjekk paragrafnumre og strafferammer i straffeloven kapittel 27 og 30 (§§ 321–337 og 371–372)."] }
+}

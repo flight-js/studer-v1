@@ -1,0 +1,80 @@
+{
+  "id": "erstatningsrett",
+  "fagId": "rettslare-2",
+  "trinnId": "vg3",
+  "name": "Erstatningsrett",
+  "intro": "Hva erstatning er og hvorfor vi har erstatningsregler, de tre grunnvilkårene – ansvarsgrunnlag, økonomisk tap og årsakssammenheng – culpaansvar, objektivt ansvar og arbeidsgiveransvar, barns og foreldres ansvar, og regler om medvirkning, lemping og oppreisning.",
+  "kompetansemaal": [8],
+  "sammendrag": "## Hva er erstatning?\n\n**Erstatning** er en økonomisk **kompensasjon** for et tap som noen andre er ansvarlig for. Reglene har to formål:\n\n- **Reparasjon**: Skadelidte skal stilles **økonomisk** som om skaden ikke hadde skjedd.\n- **Prevensjon**: Risikoen for å måtte betale skal få folk til å være **forsiktige**.\n\nVi skiller mellom erstatning **i kontrakt** – for eksempel ved mangel ved et kjøp – og **utenfor kontrakt**, som når noen skader en fremmed. Her ser vi på det siste. Den viktigste loven er **skadeserstatningsloven** (1969), men mye bygger også på **rettspraksis**.\n\n## De tre grunnvilkårene\n\nFor at noen skal få erstatning, må **alle** tre vilkår være oppfylt:\n\n1. **Ansvarsgrunnlag**: et rettslig grunnlag for å holde skadevolderen ansvarlig\n2. **Økonomisk tap**: skadelidte må ha tapt penger – for eksempel utgifter til reparasjon, tapt inntekt eller behandling\n3. **Årsakssammenheng**: handlingen må være en **nødvendig betingelse** for tapet, og tapet må være en **påregnelig** – **adekvat** – følge av handlingen\n\n## Ansvarsgrunnlag\n\n**Culpa** – skyldansvar: Skadevolderen har opptrådt **uaktsomt** eller **forsettlig**. Vi spør om en **fornuftig** person i samme situasjon ville ha handlet annerledes. Momenter er\n\n- hvor stor **risiko** handlingen innebar\n- om det fantes **bedre** handlingsalternativer\n- om **regler** og **normer** ble brutt, for eksempel trafikkregler\n- skadevolderens **alder** og **forutsetninger**\n\n**Objektivt ansvar** gjelder **uten** skyld. Det er fastsatt i lover, som **bilansvarsloven** og reglene om **produktansvar**, og gjelder ulovfestet for **farlig** eller **ekstraordinær** virksomhet.\n\n**Arbeidsgiveransvar** (skadeserstatningsloven § 2-1): Arbeidsgiveren svarer for skade som en **ansatt** volder **uaktsomt** i **tjenesten**.\n\n## Barn og foreldre\n\n- **Barn** under 18 år kan bli erstatningsansvarlige for skade de volder **forsettlig** eller **uaktsomt**, så langt det er **rimelig** ut fra blant annet alder, modenhet og økonomi (§ 1-1). Små barn blir sjelden ansvarlige.\n- **Foreldre** kan bli ansvarlige hvis de har forsømt **tilsynet** med barnet. I tillegg har de et **begrenset objektivt ansvar** for skade barnet volder, med et **fast maksimumsbeløp** per skadetilfelle (§ 1-2).\n\n## Reduksjon av erstatningen\n\n- **Medvirkning** (§ 5-1): Har skadelidte selv vært **uaktsom**, kan erstatningen **reduseres** eller falle bort.\n- **Lemping** (§ 5-2): Erstatningen kan **settes ned** hvis den ville virke **urimelig tungt** for skadevolderen.\n\n## Oppreisning\n\n**Oppreisning** er en kompensasjon for **ikke-økonomisk** skade, som krenkelse og smerte. Det krever som hovedregel **forsett** eller **grov uaktsomhet**, for eksempel ved vold.\n\n## Forsikring\n\nMange skader dekkes av **forsikring**. En **innboforsikring** har ofte en **ansvarsdel** som dekker erstatningsansvar du pådrar deg som privatperson. Forsikringsselskapet kan kreve pengene tilbake fra skadevolderen – **regress** – i noen tilfeller.\n\n## Eksempel\n\nEmil (16) sykler fort på fortauet og treffer en fotgjenger, som får knust brillene og en ødelagt telefon.\n\n- **Ansvarsgrunnlag**: Å sykle fort på fortau der det går folk, er **uaktsomt**.\n- **Økonomisk tap**: utgifter til nye briller og telefon.\n- **Årsakssammenheng**: Uten sammenstøtet ville tingene ikke blitt ødelagt, og skaden er en **påregnelig** følge.\n\nEmil er erstatningsansvarlig, men erstatningen kan vurderes etter § 1-1 og eventuelt dekkes av familiens **ansvarsforsikring**.",
+  "flashcards": [
+    { "term": "Erstatning", "def": "Økonomisk kompensasjon for tap noen andre er ansvarlig for." },
+    { "term": "Reparasjon", "def": "Skadelidte stilles økonomisk som om skaden ikke hadde skjedd." },
+    { "term": "Prevensjon", "def": "Risikoen for å betale gjør folk forsiktige." },
+    { "term": "Tre grunnvilkår", "def": "Ansvarsgrunnlag, økonomisk tap og årsakssammenheng." },
+    { "term": "Culpa", "def": "Skyldansvar – uaktsomhet eller forsett." },
+    { "term": "Objektivt ansvar", "def": "Ansvar uten skyld, for eksempel bilansvar." },
+    { "term": "Arbeidsgiveransvar", "def": "Arbeidsgiver svarer for ansattes uaktsomhet i tjenesten – § 2-1." },
+    { "term": "Adekvat årsakssammenheng", "def": "Tapet er en påregnelig følge av handlingen." },
+    { "term": "Nødvendig betingelse", "def": "Tapet ville ikke skjedd uten handlingen." },
+    { "term": "Barns ansvar", "def": "Barn under 18 kan bli ansvarlige så langt det er rimelig – § 1-1." },
+    { "term": "Foreldreansvar", "def": "Ved forsømt tilsyn, pluss et begrenset objektivt ansvar – § 1-2." },
+    { "term": "Medvirkning", "def": "Skadelidtes egen uaktsomhet kan redusere erstatningen – § 5-1." },
+    { "term": "Lemping", "def": "Erstatningen kan settes ned hvis den virker urimelig tungt – § 5-2." },
+    { "term": "Oppreisning", "def": "Kompensasjon for ikke-økonomisk skade." },
+    { "term": "Ansvarsforsikring", "def": "Dekker erstatningsansvar – ofte del av innboforsikringen." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvilke tre grunnvilkår må være oppfylt for erstatning?", "options": ["Skyld, straff og dom", "Ansvarsgrunnlag, økonomisk tap og årsakssammenheng", "Forsikring, avtale og kvittering", "Politianmeldelse, vitner og bevis"], "correct": 1, "explain": "Alle tre må være oppfylt." },
+    { "id": "q02", "text": "Hva er culpa?", "options": ["Skyldansvar ved uaktsomhet eller forsett", "Ansvar uten skyld", "En type straff", "En forsikring"], "correct": 0, "explain": "Det vanligste ansvarsgrunnlaget." },
+    { "id": "q03", "text": "Hva er objektivt ansvar?", "options": ["Ansvar bare ved forsett", "Ansvar for barn", "Ansvar uten skyld", "Ansvar bare for staten"], "correct": 2, "explain": "For eksempel etter bilansvarsloven." },
+    { "id": "q04", "text": "Hva betyr adekvat årsakssammenheng?", "options": ["At skaden var tilfeldig", "At skadevolderen er rik", "At skaden skjedde i tjenesten", "At tapet er en påregnelig følge av handlingen"], "correct": 3, "explain": "Upåregnelige følger dekkes ikke." },
+    { "id": "q05", "text": "Hvem svarer for skade en ansatt volder uaktsomt i tjenesten?", "options": ["Arbeidsgiveren", "Bare den ansatte", "Staten", "Ingen"], "correct": 0, "explain": "Skadeserstatningsloven § 2-1." },
+    { "id": "q06", "text": "Hva kan skje hvis skadelidte selv har vært uaktsom?", "options": ["Erstatningen dobles", "Erstatningen kan reduseres eller falle bort", "Skadevolderen straffes", "Ingenting"], "correct": 1, "explain": "Medvirkning etter § 5-1." },
+    { "id": "q07", "text": "Hva er oppreisning?", "options": ["Erstatning for tapt inntekt", "En type forsikring", "Kompensasjon for ikke-økonomisk skade", "En bot"], "correct": 2, "explain": "Krever som hovedregel forsett eller grov uaktsomhet." },
+    { "id": "q08", "text": "Hva er formålet med prevensjon i erstatningsretten?", "options": ["At skadelidte blir rik", "At staten får inntekter", "At forsikringsselskaper tjener penger", "At risikoen for å betale gjør folk forsiktige"], "correct": 3, "explain": "Det andre formålet er reparasjon." },
+    { "id": "q09", "text": "Hva er lemping?", "options": ["At erstatningen settes ned fordi den ville virke urimelig tungt", "At erstatningen økes", "At saken henlegges", "At forsikringen betaler"], "correct": 0, "explain": "Skadeserstatningsloven § 5-2." },
+    { "id": "q10", "text": "Kan barn under 18 år bli erstatningsansvarlige?", "options": ["Nei, aldri", "Ja, så langt det er rimelig ut fra blant annet alder og modenhet", "Bare hvis de er over 15", "Bare foreldrene kan bli ansvarlige"], "correct": 1, "explain": "Skadeserstatningsloven § 1-1." }
+  ],
+  "mindmap": {
+    "label": "Erstatningsrett",
+    "children": [
+      { "label": "Formål", "children": [
+        { "label": "Reparasjon" },
+        { "label": "Prevensjon" }
+      ] },
+      { "label": "Vilkår", "children": [
+        { "label": "Ansvarsgrunnlag" },
+        { "label": "Økonomisk tap" },
+        { "label": "Årsakssammenheng" }
+      ] },
+      { "label": "Ansvarsgrunnlag", "children": [
+        { "label": "Culpa" },
+        { "label": "Objektivt ansvar" },
+        { "label": "Arbeidsgiveransvar" }
+      ] },
+      { "label": "Barn og foreldre", "children": [
+        { "label": "§ 1-1" },
+        { "label": "§ 1-2" }
+      ] },
+      { "label": "Justering", "children": [
+        { "label": "Medvirkning" },
+        { "label": "Lemping" },
+        { "label": "Oppreisning og forsikring" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Å bryte trafikkregler kan tale for at noen har vært uaktsom.", "correct": true, "explain": "Normbrudd er et moment i culpavurderingen." },
+      { "id": "m02", "type": "sant-usant", "text": "Det holder at ett av de tre grunnvilkårene er oppfylt.", "correct": false, "explain": "Alle tre må være oppfylt." },
+      { "id": "m03", "type": "sant-usant", "text": "Innboforsikring har ofte en ansvarsdel.", "correct": true, "explain": "Den dekker erstatningsansvar som privatperson." },
+      { "id": "m04", "type": "sant-usant", "text": "Foreldre har ubegrenset objektivt ansvar for all skade barna volder.", "correct": false, "explain": "Det objektive ansvaret har et fast maksimumsbeløp." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken lov er den viktigste for erstatning utenfor kontrakt?", "options": ["Straffeloven", "Skadeserstatningsloven", "Forvaltningsloven", "Arbeidsmiljøloven"], "correct": 1, "explain": "Fra 1969." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilket spørsmål stilles i culpavurderingen?", "options": ["Ville en fornuftig person ha handlet annerledes?", "Er skadevolderen rik?", "Har skadelidte forsikring?", "Skjedde skaden om natten?"], "correct": 0, "explain": "Standarden for aktsomhet." },
+      { "id": "m07", "type": "flervalg", "text": "Hva kalles det når forsikringsselskapet krever pengene tilbake fra skadevolderen?", "options": ["Lemping", "Medvirkning", "Regress", "Oppreisning"], "correct": 2, "explain": "Gjelder i noen tilfeller." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

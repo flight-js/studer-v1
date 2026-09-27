@@ -1,0 +1,65 @@
+{
+  "id": "rettslare-2",
+  "trinnId": "vg3",
+  "name": "Rettslære 2",
+  "lareplan": {
+    "kode": "RTL01-05",
+    "url": "https://www.udir.no/lk20/rtl01-05/kompetansemaal-og-vurdering/kv890",
+    "kompetansemaal": [
+      {
+        "nr": 1,
+        "tekst": "utforske og drøfte skiljet mellom rett og rettferd i ein rettsstat"
+      },
+      {
+        "nr": 2,
+        "tekst": "utforske og bruke ulike rettskjelder for å løyse juridiske problemstillingar"
+      },
+      {
+        "nr": 3,
+        "tekst": "identifisere partar, krav, rettsleg grunnlag og juridisk problemstilling, og gjennomføre juridisk drøfting for å komme fram til ein konklusjon"
+      },
+      {
+        "nr": 4,
+        "tekst": "utforske og drøfte dagsaktuelle juridiske problemstillingar eller rettsspørsmål"
+      },
+      {
+        "nr": 5,
+        "tekst": "utforske demokratiet si stilling i Noreg og Sápmi/Sábme/Sáepmie, og gjere greie for grunnleggjande menneskerettar som varetek dette"
+      },
+      {
+        "nr": 6,
+        "tekst": "utforske rettsforholdet mellom individ og offentleg forvaltning og bruke sentrale reglar om saksbehandling"
+      },
+      {
+        "nr": 7,
+        "tekst": "bruke sentrale reglar om personvern og utforske juridiske problemstillingar som oppstår i samband med bruk av informasjons- og kommunikasjonsteknologi"
+      },
+      {
+        "nr": 8,
+        "tekst": "bruke grunnleggjande vilkår til å vurdere spørsmål om erstatning"
+      },
+      {
+        "nr": 9,
+        "tekst": "utforske reaksjonssystemet og bruke straffleggingsvilkåra til å vurdere straff etter rettsreglar om seksuallovbrot, valdslovbrot og vinningslovbrot"
+      },
+      {
+        "nr": 10,
+        "tekst": "utforske og drøfte dagsaktuelle juridiske rettsspørsmål som gjeld varetaking av miljøet"
+      }
+    ]
+  },
+  "temaer": [
+    "rett-og-rettferd",
+    "rettskilder-og-juridisk-drofting",
+    "aktuelle-rettssporsmal",
+    "demokrati-og-menneskerettigheter",
+    "samiske-rettigheter",
+    "forvaltningsrett",
+    "personvern-og-ikt",
+    "erstatningsrett",
+    "straffeansvar-og-reaksjoner",
+    "vold-og-seksuallovbrudd",
+    "vinningslovbrudd",
+    "miljorett"
+  ]
+}

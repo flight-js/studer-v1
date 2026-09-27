@@ -1,0 +1,80 @@
+{
+  "id": "straffeansvar-og-reaksjoner",
+  "fagId": "rettslare-2",
+  "trinnId": "vg3",
+  "name": "Straffbarhetsvilkår og reaksjonssystemet",
+  "intro": "De fire straffbarhetsvilkårene – lovhjemmel, objektiv gjerningsbeskrivelse, ingen straffrihetsgrunn og skyld – tilregnelighet og kriminell lavalder, medvirkning og forsøk, straffens formål, reaksjonene i straffeloven og hvordan en straffesak går fra anmeldelse til dom.",
+  "kompetansemaal": [9],
+  "sammendrag": "## Straffbarhetsvilkårene\n\nFor at noen skal kunne straffes, må **fire** vilkår være oppfylt:\n\n1. **Lovhjemmel**: Handlingen må være **straffbar etter lov** på handlingstidspunktet. Dette følger av **Grunnloven § 96** og **EMK artikkel 7**.\n2. **Objektiv gjerningsbeskrivelse**: Handlingen må passe med **beskrivelsen** i straffebudet – for eksempel å «ta en gjenstand som tilhører en annen».\n3. **Ingen straffrihetsgrunn**: Handlingen er ikke rettmessig på grunn av for eksempel **nødverge** (§ 18) eller **nødrett** (§ 17).\n4. **Skyld**: Gjerningspersonen må ha utvist **forsett** eller, der loven sier det, **uaktsomhet**. Hovedregelen er at det kreves **forsett** (§ 21).\n\nI tillegg må gjerningspersonen være **strafferettslig tilregnelig**.\n\n## Straffrihetsgrunner\n\n- **Nødverge**: å avverge et **ulovlig angrep**, så lenge forsvaret ikke går **klart ut over** det som er forsvarlig.\n- **Nødrett**: å redde liv, helse eller verdier fra en **fare** som ikke kan avverges på annen rimelig måte, når skaden man volder er **langt mindre** enn den man avverger – for eksempel å knuse et bilvindu for å redde et barn.\n\n## Skyld\n\n- **Forsett** (§ 22): Man handler med **hensikt**, regner følgen som **sikker eller mest sannsynlig**, eller holder den for **mulig** og velger å handle **uansett**.\n- **Uaktsomhet** (§ 23): Man handler i strid med **kravet til forsvarlig opptreden** og kan **bebreides**. **Grov** uaktsomhet er en særlig klanderverdig opptreden.\n\n## Tilregnelighet og alder\n\nDen som var **under 15 år** på handlingstidspunktet, kan **ikke** straffes (§ 20). Det samme gjelder blant annet den som var **psykotisk** eller hadde en **alvorlig avvikende sinnstilstand**. Barn under 15 kan likevel få **tiltak** fra barnevernet og bli **erstatningsansvarlige**.\n\n## Medvirkning og forsøk\n\n- **Medvirkning** (§ 15): Den som **hjelper** eller **oppfordrer** til en straffbar handling, kan straffes som om hen gjorde den selv.\n- **Forsøk** (§ 16): Den som har forsett om et lovbrudd og **begynner** på gjennomføringen, kan straffes selv om handlingen ikke fullbyrdes – for lovbrudd med strafferamme på fengsel i ett år eller mer.\n\n## Straffens formål\n\n- **Allmennprevensjon**: avskrekke **folk flest** fra å begå lovbrudd og styrke normene\n- **Individualprevensjon**: hindre at **den domfelte** begår nye lovbrudd\n- **Gjengjeldelse** og **rettferdighet** – at lovbrudd får en rimelig konsekvens\n- **Oppreisning** for **offeret**\n\n## Reaksjonene\n\nStraffeloven § 29 nevner straffene:\n\n- **Fengsel** – ubetinget eller **betinget** med prøvetid\n- **Forvaring** – for farlige lovbrytere med høy fare for gjentakelse\n- **Samfunnsstraff** – samfunnsnyttig tjeneste og program\n- **Ungdomsstraff** – for 15–17-åringer, gjennomføres i **konfliktrådet**\n- **Bot**\n- **Rettighetstap** – for eksempel tap av retten til å kjøre bil\n\nAndre reaksjoner er **påtaleunnlatelse**, **overføring til konfliktråd**, **ungdomsoppfølging** og **inndragning** av utbytte.\n\n## Unge lovbrytere\n\nFor personer under 18 år skal **fengsel** bare brukes når det er **særlig påkrevd**, og straffen kan ikke overstige **15 år**. Målet er å unngå at unge blir **stemplet** og havner i en kriminell løpebane.\n\n## Straffesaken\n\n1. **Anmeldelse** til politiet\n2. **Etterforskning**\n3. **Påtalevedtak**: tiltale, forelegg, påtaleunnlatelse eller **henleggelse**\n4. **Hovedforhandling** i **tingretten**\n5. Eventuell **anke** til **lagmannsretten** og **Høyesterett**\n\nDen siktede er **uskyldig** til det motsatte er bevist, og påtalemyndigheten må bevise skyld **utover enhver rimelig tvil**. Tvil skal komme den tiltalte til gode.\n\n## Straffutmåling\n\nRetten fastsetter straffen innenfor **strafferammen**. **Skjerpende** omstendigheter (§ 77), som planlegging og særlig sårbare ofre, og **formildende** omstendigheter (§ 78), som tilståelse og ung alder, påvirker straffen.",
+  "flashcards": [
+    { "term": "Fire straffbarhetsvilkår", "def": "Lovhjemmel, objektiv gjerningsbeskrivelse, ingen straffrihetsgrunn, skyld." },
+    { "term": "Grunnloven § 96", "def": "Ingen kan straffes uten etter lov og dom." },
+    { "term": "Objektiv gjerningsbeskrivelse", "def": "Beskrivelsen av den straffbare handlingen i straffebudet." },
+    { "term": "Nødverge", "def": "Avverge et ulovlig angrep uten å gå klart ut over det forsvarlige – § 18." },
+    { "term": "Nødrett", "def": "Redde verdier fra fare når skaden er langt mindre enn den som avverges – § 17." },
+    { "term": "Forsett", "def": "Hensikt, sikkerhet eller sannsynlighet, eller mulighet og handle uansett – § 22." },
+    { "term": "Uaktsomhet", "def": "Handling i strid med kravet til forsvarlig opptreden – § 23." },
+    { "term": "Kriminell lavalder", "def": "15 år." },
+    { "term": "Medvirkning", "def": "Å hjelpe eller oppfordre til et lovbrudd – § 15." },
+    { "term": "Forsøk", "def": "Å begynne på et lovbrudd med forsett – § 16." },
+    { "term": "Allmennprevensjon", "def": "Avskrekke folk flest." },
+    { "term": "Individualprevensjon", "def": "Hindre at den domfelte gjør nye lovbrudd." },
+    { "term": "Ungdomsstraff", "def": "Straff for 15–17-åringer gjennomført i konfliktrådet." },
+    { "term": "Forvaring", "def": "Tidsubestemt reaksjon for farlige lovbrytere." },
+    { "term": "Utover enhver rimelig tvil", "def": "Beviskravet for skyld i straffesaker." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er kriminell lavalder i Norge?", "options": ["14 år", "15 år", "16 år", "18 år"], "correct": 1, "explain": "Straffeloven § 20." },
+    { "id": "q02", "text": "Hvilket av disse er et straffbarhetsvilkår?", "options": ["Skyld", "At offeret har forsikring", "At saken står i avisen", "At gjerningspersonen er over 18"], "correct": 0, "explain": "Forsett eller uaktsomhet." },
+    { "id": "q03", "text": "Hva er nødverge?", "options": ["Å redde et barn fra en brennende bil", "Å hjelpe noen med et lovbrudd", "Å avverge et ulovlig angrep uten å gå klart ut over det forsvarlige", "Å angre et lovbrudd"], "correct": 2, "explain": "Straffeloven § 18." },
+    { "id": "q04", "text": "Hva er allmennprevensjon?", "options": ["At den domfelte ikke gjør nye lovbrudd", "At offeret får erstatning", "At saken henlegges", "At straff avskrekker folk flest fra lovbrudd"], "correct": 3, "explain": "Individualprevensjon gjelder den domfelte." },
+    { "id": "q05", "text": "Hvilken reaksjon er beregnet på lovbrytere mellom 15 og 17 år?", "options": ["Ungdomsstraff", "Forvaring", "Rettighetstap", "Betinget fengsel for voksne"], "correct": 0, "explain": "Gjennomføres i konfliktrådet." },
+    { "id": "q06", "text": "Hvilket beviskrav gjelder for skyld i straffesaker?", "options": ["Mer enn 50 % sannsynlighet", "Utover enhver rimelig tvil", "At vitner har sett det", "At tiltalte tilstår"], "correct": 1, "explain": "Tvil kommer tiltalte til gode." },
+    { "id": "q07", "text": "Hva er forsøk på et lovbrudd?", "options": ["Å tenke på et lovbrudd", "Å angre", "Å begynne på gjennomføringen med forsett", "Å fullføre lovbruddet"], "correct": 2, "explain": "Straffeloven § 16." },
+    { "id": "q08", "text": "Hva er hovedregelen for skyldkravet i straffeloven?", "options": ["Uaktsomhet", "Grov uaktsomhet", "Ingen skyld kreves", "Forsett"], "correct": 3, "explain": "Uaktsomhet straffes bare når loven sier det." },
+    { "id": "q09", "text": "Hva er nødrett?", "options": ["Å redde verdier fra fare når skaden man volder er langt mindre", "Å forsvare seg mot et angrep", "Å anke en dom", "Å anmelde et lovbrudd"], "correct": 0, "explain": "Straffeloven § 17." },
+    { "id": "q10", "text": "Hvilken omstendighet er formildende ved straffutmåling?", "options": ["Planlegging", "Tilståelse", "Særlig sårbart offer", "Gjentakelse"], "correct": 1, "explain": "Straffeloven § 78." }
+  ],
+  "mindmap": {
+    "label": "Straffeansvar",
+    "children": [
+      { "label": "Vilkår", "children": [
+        { "label": "Lovhjemmel" },
+        { "label": "Objektiv gjerningsbeskrivelse" },
+        { "label": "Ingen straffrihetsgrunn" },
+        { "label": "Skyld og tilregnelighet" }
+      ] },
+      { "label": "Utvidelser", "children": [
+        { "label": "Medvirkning" },
+        { "label": "Forsøk" }
+      ] },
+      { "label": "Formål", "children": [
+        { "label": "Allmenn- og individualprevensjon" },
+        { "label": "Gjengjeldelse" }
+      ] },
+      { "label": "Reaksjoner", "children": [
+        { "label": "Fengsel og forvaring" },
+        { "label": "Samfunnsstraff og ungdomsstraff" },
+        { "label": "Bot og rettighetstap" }
+      ] },
+      { "label": "Prosess", "children": [
+        { "label": "Anmeldelse til dom" },
+        { "label": "Utmåling" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Den som hjelper til med et lovbrudd, kan straffes for medvirkning.", "correct": true, "explain": "Straffeloven § 15." },
+      { "id": "m02", "type": "sant-usant", "text": "En 14-åring kan dømmes til fengsel.", "correct": false, "explain": "Personer under 15 år kan ikke straffes." },
+      { "id": "m03", "type": "sant-usant", "text": "En straffesak kan henlegges av påtalemyndigheten.", "correct": true, "explain": "For eksempel ved bevisets stilling." },
+      { "id": "m04", "type": "sant-usant", "text": "En person kan straffes for en handling som ble straffbar først etter at den ble gjort.", "correct": false, "explain": "Grunnloven § 96 og EMK artikkel 7 forbyr det." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er høyeste straff for en person under 18 år?", "options": ["21 år", "15 år", "10 år", "5 år"], "correct": 1, "explain": "Fengsel skal bare brukes når det er særlig påkrevd." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilken domstol behandler normalt en straffesak først?", "options": ["Tingretten", "Lagmannsretten", "Høyesterett", "Forliksrådet"], "correct": 0, "explain": "Deretter eventuell anke." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er forvaring?", "options": ["En bot", "Samfunnsnyttig tjeneste", "En tidsubestemt reaksjon for farlige lovbrytere", "Tap av førerkort"], "correct": 2, "explain": "Ved høy fare for gjentakelse." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

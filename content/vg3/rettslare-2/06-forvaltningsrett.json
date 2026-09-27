@@ -1,0 +1,80 @@
+{
+  "id": "forvaltningsrett",
+  "fagId": "rettslare-2",
+  "trinnId": "vg3",
+  "name": "Individet og forvaltningen",
+  "intro": "Rettsforholdet mellom individet og den offentlige forvaltningen – legalitetsprinsippet, enkeltvedtak og forskrifter, de sentrale saksbehandlingsreglene i forvaltningsloven om habilitet, veiledning, forhåndsvarsel, innsyn, begrunnelse og klage – og kontroll gjennom Sivilombudet og domstolene.",
+  "kompetansemaal": [6],
+  "sammendrag": "## Hva er forvaltningen?\n\n**Forvaltningen** er de offentlige organene som setter politikken ut i livet: **departementer**, **direktorater**, **statsforvalteren**, **fylkeskommuner**, **kommuner** og etater som **NAV**, **Skatteetaten** og **Lånekassen**. De tar mange avgjørelser som har stor betydning for folks liv – om skoleplass, byggetillatelse, trygd og studielån.\n\nForholdet mellom individ og forvaltning er **ulikt**: Forvaltningen har **makt**, kunnskap og ressurser. Derfor trengs regler som sikrer **rettssikkerhet**.\n\n## Legalitetsprinsippet\n\n**Grunnloven § 113** krever at myndighetenes **inngrep** overfor den enkelte har **grunnlag i lov**. Jo mer inngripende vedtaket er, desto **klarere** må hjemmelen være.\n\n## Enkeltvedtak og forskrift\n\nForvaltningsloven skiller mellom\n\n- **enkeltvedtak**: avgjørelser om rettigheter eller plikter for **bestemte** personer – for eksempel avslag på søknad om studielån eller en **standpunktkarakter**\n- **forskrifter**: generelle regler for et **ubestemt** antall personer\n\nDe fleste saksbehandlingsreglene gjelder **enkeltvedtak**.\n\n## Sentrale saksbehandlingsregler\n\n- **Habilitet** (§ 6): En saksbehandler må ikke ha **nær tilknytning** til saken eller partene, for eksempel være i slekt med søkeren. Da er hen **inhabil**.\n- **Veiledningsplikt** (§ 11): Forvaltningen skal **hjelpe** folk med å ivareta sine interesser.\n- **Saksbehandlingstid** (§ 11 a): Saken skal avgjøres **uten ugrunnet opphold**.\n- **Forhåndsvarsel** (§ 16): Parten skal som hovedregel få **varsel** og mulighet til å uttale seg før vedtak treffes.\n- **Utredningsplikt** (§ 17): Saken skal være **så godt opplyst som mulig**.\n- **Partsinnsyn** (§ 18): Parten har rett til å se **dokumentene** i sin egen sak.\n- **Begrunnelse** (§ 24–25): Vedtaket skal **begrunnes**, med de reglene og faktiske forholdene det bygger på.\n- **Klage** (§ 28–29): Enkeltvedtak kan **påklages** til et overordnet organ. Klagefristen er **tre uker** fra parten mottok vedtaket.\n\n## Virkningen av feil\n\nEr det gjort **saksbehandlingsfeil**, er vedtaket likevel gyldig hvis det er grunn til å regne med at feilen **ikke** kan ha virket inn på innholdet (§ 41). Er feilen alvorlig, kan vedtaket bli **ugyldig**.\n\n## Forvaltningsskjønn\n\nMange regler gir forvaltningen et **skjønn** – «kan» innvilge. Domstolene kan ikke overprøve om skjønnet er **klokt**, men de kan prøve om det foreligger **myndighetsmisbruk**: at vedtaket bygger på **usaklige hensyn**, er **vilkårlig**, gir **usaklig forskjellsbehandling** eller er **sterkt urimelig**.\n\n## Innsyn for allmennheten\n\n**Offentleglova** gir **alle** rett til innsyn i forvaltningens dokumenter, med unntak blant annet for **taushetsbelagte** opplysninger. Det er viktig for **pressen** og for **tilliten** til forvaltningen.\n\n## Kontroll med forvaltningen\n\n- **Klage** til overordnet organ\n- **Sivilombudet**: Stortingets ombud som behandler **klager** fra borgere gratis. Uttalelsene er ikke bindende, men blir nesten alltid **fulgt**.\n- **Domstolene**: kan prøve om vedtaket er **gyldig**.\n- **Stortinget** og **media**\n\n## Eksempel\n\nEn elev får en standpunktkarakter hen mener er feil. Karakteren er et **enkeltvedtak**. Eleven kan be om **begrunnelse** og **klage** innen fristen. Klagen vurderes etter reglene i opplæringsloven og forskriften, og eleven skal få **skriftlig** svar.\n\n## Lovendringer\n\nEn **ny forvaltningslov** er under arbeid og vil endre **paragrafnumrene**. Hovedprinsippene – forsvarlig saksbehandling, innsyn, begrunnelse og klage – videreføres.",
+  "flashcards": [
+    { "term": "Forvaltningen", "def": "Offentlige organer som setter politikken ut i livet." },
+    { "term": "Legalitetsprinsippet", "def": "Inngrep overfor den enkelte krever lovhjemmel – Grunnloven § 113." },
+    { "term": "Enkeltvedtak", "def": "Avgjørelse om rettigheter eller plikter for bestemte personer." },
+    { "term": "Forskrift", "def": "Generelle regler for et ubestemt antall personer." },
+    { "term": "Habilitet", "def": "Saksbehandleren har ikke nær tilknytning til saken – § 6." },
+    { "term": "Veiledningsplikt", "def": "Forvaltningen skal hjelpe folk å ivareta sine interesser – § 11." },
+    { "term": "Forhåndsvarsel", "def": "Parten får uttale seg før vedtak – § 16." },
+    { "term": "Utredningsplikt", "def": "Saken skal være så godt opplyst som mulig – § 17." },
+    { "term": "Partsinnsyn", "def": "Rett til å se dokumentene i egen sak – § 18." },
+    { "term": "Begrunnelse", "def": "Vedtaket skal vise regler og fakta det bygger på." },
+    { "term": "Klagefrist", "def": "Tre uker fra vedtaket er mottatt." },
+    { "term": "Myndighetsmisbruk", "def": "Usaklige hensyn, vilkårlighet, usaklig forskjellsbehandling eller sterk urimelighet." },
+    { "term": "Offentleglova", "def": "Gir alle rett til innsyn i forvaltningens dokumenter." },
+    { "term": "Sivilombudet", "def": "Stortingets ombud som behandler klager på forvaltningen." },
+    { "term": "Forvaltningsloven § 41", "def": "Feil fører ikke til ugyldighet hvis de ikke kan ha virket inn." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er et enkeltvedtak?", "options": ["En lov fra Stortinget", "En avgjørelse om rettigheter eller plikter for bestemte personer", "En generell forskrift", "En dom"], "correct": 1, "explain": "For eksempel avslag på studielån." },
+    { "id": "q02", "text": "Hva er klagefristen for enkeltvedtak?", "options": ["Tre uker", "En uke", "Tre måneder", "Ett år"], "correct": 0, "explain": "Fra parten mottok vedtaket." },
+    { "id": "q03", "text": "Når er en saksbehandler inhabil?", "options": ["Når hen er ny i jobben", "Når saken er vanskelig", "Når hen har nær tilknytning til saken eller partene", "Når hen er syk"], "correct": 2, "explain": "For eksempel slektskap." },
+    { "id": "q04", "text": "Hva kreves etter legalitetsprinsippet?", "options": ["At alle vedtak er positive", "At saken går raskt", "At alle får innsyn", "At inngrep overfor den enkelte har grunnlag i lov"], "correct": 3, "explain": "Grunnloven § 113." },
+    { "id": "q05", "text": "Hva gir offentleglova?", "options": ["Alle rett til innsyn i forvaltningens dokumenter", "Politiet rett til ransaking", "Kommunen rett til skatt", "Rett til gratis advokat"], "correct": 0, "explain": "Med unntak for taushetsbelagte opplysninger." },
+    { "id": "q06", "text": "Hva kan domstolene prøve når forvaltningen har skjønn?", "options": ["Om skjønnet er klokt", "Om det foreligger myndighetsmisbruk", "Ingenting", "Om saksbehandleren er hyggelig"], "correct": 1, "explain": "Usaklige hensyn, vilkårlighet og sterk urimelighet." },
+    { "id": "q07", "text": "Hva er Sivilombudet?", "options": ["En domstol", "En del av regjeringen", "Stortingets ombud som behandler klager på forvaltningen", "Et politisk parti"], "correct": 2, "explain": "Uttalelsene blir nesten alltid fulgt." },
+    { "id": "q08", "text": "Hva er en standpunktkarakter i forvaltningsrettslig forstand?", "options": ["En forskrift", "En lov", "En dom", "Et enkeltvedtak"], "correct": 3, "explain": "Kan påklages." },
+    { "id": "q09", "text": "Hva sier regelen om forhåndsvarsel?", "options": ["At parten skal få uttale seg før vedtak treffes", "At vedtaket skal sendes etter ett år", "At pressen skal varsles", "At klage må sendes før vedtak"], "correct": 0, "explain": "Hovedregel for enkeltvedtak." },
+    { "id": "q10", "text": "Når er et vedtak med saksbehandlingsfeil likevel gyldig?", "options": ["Aldri", "Når feilen ikke kan ha virket inn på innholdet", "Når parten ikke klager", "Når feilen er alvorlig"], "correct": 1, "explain": "Forvaltningsloven § 41." }
+  ],
+  "mindmap": {
+    "label": "Forvaltningsrett",
+    "children": [
+      { "label": "Grunnlag", "children": [
+        { "label": "Legalitetsprinsippet" },
+        { "label": "Enkeltvedtak og forskrift" }
+      ] },
+      { "label": "Saksbehandling", "children": [
+        { "label": "Habilitet" },
+        { "label": "Veiledning og utredning" },
+        { "label": "Forhåndsvarsel og innsyn" },
+        { "label": "Begrunnelse" }
+      ] },
+      { "label": "Klage", "children": [
+        { "label": "Tre ukers frist" },
+        { "label": "Overordnet organ" }
+      ] },
+      { "label": "Gyldighet", "children": [
+        { "label": "Virkning av feil" },
+        { "label": "Myndighetsmisbruk" }
+      ] },
+      { "label": "Kontroll", "children": [
+        { "label": "Sivilombudet" },
+        { "label": "Domstolene" },
+        { "label": "Offentleglova og media" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Et vedtak skal begrunnes med reglene og de faktiske forholdene det bygger på.", "correct": true, "explain": "Slik kan parten vurdere å klage." },
+      { "id": "m02", "type": "sant-usant", "text": "Sivilombudets uttalelser er rettslig bindende dommer.", "correct": false, "explain": "De er ikke bindende, men blir nesten alltid fulgt." },
+      { "id": "m03", "type": "sant-usant", "text": "Jo mer inngripende et vedtak er, desto klarere må lovhjemmelen være.", "correct": true, "explain": "Legalitetsprinsippet." },
+      { "id": "m04", "type": "sant-usant", "text": "Forvaltningen har ingen plikt til å hjelpe folk med søknader.", "correct": false, "explain": "Den har veiledningsplikt." },
+      { "id": "m05", "type": "flervalg", "text": "Hva betyr partsinnsyn?", "options": ["At alle kan lese alle dokumenter", "At parten kan se dokumentene i sin egen sak", "At pressen får innsyn", "At kommunen kan se partens e-post"], "correct": 1, "explain": "Forvaltningsloven § 18." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilket av disse er et eksempel på myndighetsmisbruk?", "options": ["Et vedtak bygd på usaklige hensyn", "Et vedtak med god begrunnelse", "Et vedtak etter klage", "Et vedtak innen fristen"], "correct": 0, "explain": "Domstolene kan prøve dette." },
+      { "id": "m07", "type": "flervalg", "text": "Hvem behandler vanligvis en klage på et enkeltvedtak?", "options": ["Sivilombudet først", "Høyesterett", "Et overordnet forvaltningsorgan", "Stortinget"], "correct": 2, "explain": "Klageinstansen." }
+    ]
+  },
+  "kvalitet": { "status": "sjekkes", "merknader": ["Paragrafhenvisningene gjelder forvaltningsloven av 1967. Sjekk om ny forvaltningslov er vedtatt og har trådt i kraft, og oppdater paragrafnumrene."] }
+}

@@ -1,0 +1,79 @@
+{
+  "id": "rett-og-rettferd",
+  "fagId": "rettslare-2",
+  "trinnId": "vg3",
+  "name": "Rett og rettferd i en rettsstat",
+  "intro": "Skillet mellom det som er gjeldende rett og det som oppleves som rettferdig – naturrett og rettspositivisme, formell og materiell rettferdighet, urettferdige lover i historien, sivil ulydighet og hvordan rettsstaten forsøker å bygge bro mellom rett og rettferd.",
+  "kompetansemaal": [1],
+  "sammendrag": "## Rett og rettferd er ikke det samme\n\n- **Rett** er de reglene som faktisk **gjelder** – det domstolene kommer fram til med juridisk metode.\n- **Rettferd** er en **moralsk** vurdering av hva som er **riktig** og **fortjent**.\n\nOfte går de hånd i hånd, men ikke alltid. En dom kan være **juridisk riktig** og likevel oppleves som **urettferdig**, for eksempel når en foreldelsesfrist hindrer et offer i å få erstatning.\n\n## Naturrett og rettspositivisme\n\n- **Naturretten** hevder at det finnes **allmenngyldige** moralske prinsipper som står **over** menneskeskapte lover. En lov som bryter grovt med dem, er ikke «ekte» rett. Tanken finnes hos antikke filosofer og i ideen om **menneskerettigheter**.\n- **Rettspositivismen** hevder at retten er det som er **vedtatt** på riktig måte, uavhengig av moralsk innhold. Rett og moral må holdes **atskilt**, slik at vi kan diskutere om en lov er god eller dårlig.\n\nEtter **andre verdenskrig** fikk naturrettstanken ny kraft. Mange av nazistenes forbrytelser var formelt lovlige i Tyskland, og **Nürnbergprosessen** bygde på at noen handlinger er straffbare **uansett** hva nasjonal lov sier.\n\n## Formell og materiell rettferdighet\n\n- **Formell** rettferdighet: like tilfeller behandles **likt**, og reglene følges **upartisk**.\n- **Materiell** rettferdighet: **innholdet** i reglene og resultatet er rettferdig.\n\nEt system kan være formelt rettferdig – alle behandles likt etter reglene – selv om reglene i seg selv er urettferdige.\n\n## Urettferdige lover i historien\n\n- **Jødeparagrafen** i Grunnloven av 1814 nektet jøder adgang til riket fram til 1851.\n- **Fornorskingspolitikken** overfor samer, kvener og skogfinner var forankret i lover og regler, blant annet om **jordkjøp** og **skole**.\n- **Apartheid** i Sør-Afrika og **raseskillelovene** i USA var gjeldende rett.\n\nDisse eksemplene viser at lov **ikke** automatisk er rettferdig.\n\n## Sivil ulydighet\n\n**Sivil ulydighet** er **åpent** og **ikkevoldelig** lovbrudd for å protestere mot noe man mener er urettferdig, der man **aksepterer** straffen. Eksempler er **Rosa Parks** i USA og **Alta-aksjonen** mot utbyggingen av Alta-Kautokeino-vassdraget rundt 1980. Aksjonistene ble straffet, men saken fikk stor betydning for **samiske rettigheter**.\n\n## Rettsstaten som bro\n\nEn **rettsstat** skal redusere avstanden mellom rett og rettferd gjennom\n\n- **legalitetsprinsippet**: inngrep i borgernes frihet krever hjemmel i lov\n- **maktfordeling** og **uavhengige domstoler**\n- **menneskerettigheter** i Grunnloven og internasjonale konvensjoner som setter **grenser** for flertallet\n- **likhet for loven**\n- muligheten til å **endre** urettferdige lover gjennom **demokratiske** prosesser\n\nDomstolene kan også bruke **reelle hensyn** – rimelighet og rettferdighet – i tolkingen av uklare regler.\n\n## Drøfting\n\nNår du drøfter rett og rettferd, kan du spørre:\n\n1. Hva sier **gjeldende rett**?\n2. Oppleves resultatet som **rettferdig** – og for **hvem**?\n3. Hvilke **hensyn** taler for og mot regelen – forutsigbarhet, likhet, rimelighet?\n4. Bør loven **endres**? Her skiller vi mellom **de lege lata** – hva retten er – og **de lege ferenda** – hva retten bør være.",
+  "flashcards": [
+    { "term": "Rett", "def": "Reglene som faktisk gjelder." },
+    { "term": "Rettferd", "def": "Moralsk vurdering av hva som er riktig og fortjent." },
+    { "term": "Naturrett", "def": "Allmenngyldige moralske prinsipper står over menneskeskapte lover." },
+    { "term": "Rettspositivisme", "def": "Retten er det som er vedtatt på riktig måte – rett og moral holdes atskilt." },
+    { "term": "Nürnbergprosessen", "def": "Rettssakene mot nazistiske ledere etter andre verdenskrig." },
+    { "term": "Formell rettferdighet", "def": "Like tilfeller behandles likt og upartisk." },
+    { "term": "Materiell rettferdighet", "def": "Innholdet i reglene og resultatet er rettferdig." },
+    { "term": "Jødeparagrafen", "def": "Nektet jøder adgang til Norge fram til 1851." },
+    { "term": "Fornorskingspolitikken", "def": "Politikk overfor samer, kvener og skogfinner forankret i lover og regler." },
+    { "term": "Sivil ulydighet", "def": "Åpent, ikkevoldelig lovbrudd i protest, der man aksepterer straffen." },
+    { "term": "Alta-aksjonen", "def": "Protest mot utbygging av Alta-Kautokeino-vassdraget rundt 1980." },
+    { "term": "Legalitetsprinsippet", "def": "Inngrep i borgernes frihet krever hjemmel i lov." },
+    { "term": "Reelle hensyn", "def": "Rimelighet og rettferdighet i tolkingen av uklare regler." },
+    { "term": "De lege lata", "def": "Hva retten er." },
+    { "term": "De lege ferenda", "def": "Hva retten bør være." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva hevder naturretten?", "options": ["At retten er det som er vedtatt", "At det finnes moralske prinsipper over menneskeskapte lover", "At domstolene lager all rett", "At moral er uviktig"], "correct": 1, "explain": "Grove brudd gjør loven ugyldig etter dette synet." },
+    { "id": "q02", "text": "Hva er formell rettferdighet?", "options": ["At like tilfeller behandles likt og reglene følges upartisk", "At resultatet alltid er rimelig", "At alle får det de ønsker", "At lovene er moralsk gode"], "correct": 0, "explain": "Sier ikke noe om innholdet i reglene." },
+    { "id": "q03", "text": "Hva kjennetegner sivil ulydighet?", "options": ["Hemmelig lovbrudd", "Voldelig protest", "Åpent, ikkevoldelig lovbrudd der man aksepterer straffen", "Lovlig demonstrasjon"], "correct": 2, "explain": "For eksempel Alta-aksjonen." },
+    { "id": "q04", "text": "Hva betyr de lege ferenda?", "options": ["Hva retten er", "En type dom", "En klage", "Hva retten bør være"], "correct": 3, "explain": "Brukes når man drøfter lovendring." },
+    { "id": "q05", "text": "Hva hevder rettspositivismen?", "options": ["At retten er det som er vedtatt på riktig måte", "At moral står over loven", "At bare Gud kan gi lover", "At domstoler ikke trengs"], "correct": 0, "explain": "Rett og moral holdes atskilt." },
+    { "id": "q06", "text": "Hva gjorde jødeparagrafen i Grunnloven av 1814?", "options": ["Ga jøder stemmerett", "Nektet jøder adgang til riket", "Beskyttet religionsfrihet", "Innførte kongedømme"], "correct": 1, "explain": "Opphevet i 1851." },
+    { "id": "q07", "text": "Hvilket prinsipp krever lovhjemmel for inngrep i borgernes frihet?", "options": ["Maktfordelingsprinsippet", "Offentlighetsprinsippet", "Legalitetsprinsippet", "Likhetsprinsippet"], "correct": 2, "explain": "Et grunnleggende rettsstatsprinsipp." },
+    { "id": "q08", "text": "Hvorfor fikk naturrettstanken ny kraft etter andre verdenskrig?", "options": ["Fordi alle lover ble opphevet", "Fordi FN forbød rettspositivisme", "Fordi Norge fikk ny grunnlov", "Fordi mange overgrep hadde vært formelt lovlige"], "correct": 3, "explain": "Nürnbergprosessen bygde på dette." },
+    { "id": "q09", "text": "Hva er materiell rettferdighet?", "options": ["At innholdet i reglene og resultatet er rettferdig", "At reglene følges likt", "At dommeren er upartisk", "At saken går raskt"], "correct": 0, "explain": "Handler om innholdet." },
+    { "id": "q10", "text": "Hvordan kan en rettsstat endre urettferdige lover?", "options": ["Gjennom vold", "Gjennom demokratiske prosesser", "Ved at dommerne ignorerer dem", "Det er ikke mulig"], "correct": 1, "explain": "Stortinget kan vedta endringer." }
+  ],
+  "mindmap": {
+    "label": "Rett og rettferd",
+    "children": [
+      { "label": "Begreper", "children": [
+        { "label": "Rett" },
+        { "label": "Rettferd" }
+      ] },
+      { "label": "Teorier", "children": [
+        { "label": "Naturrett" },
+        { "label": "Rettspositivisme" }
+      ] },
+      { "label": "Rettferdighet", "children": [
+        { "label": "Formell" },
+        { "label": "Materiell" }
+      ] },
+      { "label": "Historie", "children": [
+        { "label": "Jødeparagrafen" },
+        { "label": "Fornorsking" },
+        { "label": "Sivil ulydighet" }
+      ] },
+      { "label": "Rettsstaten", "children": [
+        { "label": "Legalitet og maktfordeling" },
+        { "label": "Menneskerettigheter" },
+        { "label": "De lege lata og ferenda" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "En dom kan være juridisk riktig og likevel oppleves som urettferdig.", "correct": true, "explain": "Rett og rettferd sammenfaller ikke alltid." },
+      { "id": "m02", "type": "sant-usant", "text": "Alt som er lovlig, er også rettferdig.", "correct": false, "explain": "Historien har mange eksempler på urettferdige lover." },
+      { "id": "m03", "type": "sant-usant", "text": "Aksjonistene i Alta-saken ble straffet.", "correct": true, "explain": "Men saken fikk stor betydning for samiske rettigheter." },
+      { "id": "m04", "type": "sant-usant", "text": "Rettspositivister mener at en lov er ugyldig hvis den er umoralsk.", "correct": false, "explain": "Det er naturrettens syn." },
+      { "id": "m05", "type": "flervalg", "text": "Hvem er et kjent eksempel på sivil ulydighet i USA?", "options": ["Abraham Lincoln", "Rosa Parks", "George Washington", "Richard Nixon"], "correct": 1, "explain": "Nektet å gi fra seg setet på bussen." },
+      { "id": "m06", "type": "flervalg", "text": "Hva betyr de lege lata?", "options": ["Hva retten er", "Hva retten bør være", "En type straff", "En domstol"], "correct": 0, "explain": "Gjeldende rett." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilket spørsmål hører med i en drøfting av rett og rettferd?", "options": ["Hvor lang loven er", "Hvem som skrev loven", "Hvilke hensyn taler for og mot regelen", "Hvilket år loven ble trykt"], "correct": 2, "explain": "Forutsigbarhet, likhet og rimelighet." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

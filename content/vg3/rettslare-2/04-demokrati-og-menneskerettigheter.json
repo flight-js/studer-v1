@@ -1,0 +1,80 @@
+{
+  "id": "demokrati-og-menneskerettigheter",
+  "fagId": "rettslare-2",
+  "trinnId": "vg3",
+  "name": "Demokrati og menneskerettigheter",
+  "intro": "Hvordan demokratiet er forankret i Grunnloven, og hvilke grunnleggende menneskerettigheter som verner det – ytringsfrihet, forsamlings- og foreningsfrihet, stemmerett og retten til rettferdig rettergang – med menneskerettsloven, EMK og Den europeiske menneskerettsdomstolen.",
+  "kompetansemaal": [5],
+  "sammendrag": "## Demokratiet i Grunnloven\n\nGrunnloven av **1814** bygger på **folkesuverenitet** og **maktfordeling**:\n\n- **Stortinget** har den **lovgivende** makten og bevilger penger.\n- **Regjeringen** har den **utøvende** makten.\n- **Domstolene** har den **dømmende** makten.\n\n**Parlamentarismen** – at regjeringen må ha Stortingets **tillit** – ble praksis fra **1884** og skrevet inn i Grunnloven i **2007**.\n\n## Menneskerettigheter i Grunnloven\n\nI **2014** fikk Grunnloven et eget kapittel om **menneskerettigheter**. **§ 92** sier at statens myndigheter skal **respektere og sikre** menneskerettighetene. Viktige bestemmelser for demokratiet:\n\n- **§ 100**: **ytringsfrihet** – også retten til å ta imot informasjon\n- **§ 101**: **forenings**frihet – retten til å danne partier og organisasjoner\n- **§ 49** og **§ 50**: folket utøver lovgivende makt gjennom Stortinget, og **stemmerett** fra 18 år\n- **§ 95**: retten til en **rettferdig** rettergang for uavhengige domstoler\n- **§ 98**: **likhet** for loven og vern mot usaklig forskjellsbehandling\n\n## Internasjonale menneskerettigheter\n\n**Menneskerettsloven** av 1999 gjør flere konvensjoner til norsk lov:\n\n- **EMK** – Den europeiske menneskerettskonvensjonen\n- **SP** – FN-konvensjonen om sivile og politiske rettigheter\n- **ØSK** – FN-konvensjonen om økonomiske, sosiale og kulturelle rettigheter\n- **Barnekonvensjonen**\n- **Kvinnediskrimineringskonvensjonen**\n\nVed **motstrid** går disse foran annen norsk lov.\n\n## Viktige rettigheter for demokratiet\n\n- **Ytringsfrihet** (EMK artikkel 10): Uten fri debatt kan ikke velgerne ta informerte valg. **Pressen** har en særlig rolle som «**vaktbikkje**».\n- **Forsamlingsfrihet** (EMK artikkel 11): retten til å **demonstrere** fredelig.\n- **Foreningsfrihet**: retten til å danne og melde seg inn i **partier** og **fagforeninger**.\n- **Frie valg** (EMK tilleggsprotokoll 1 artikkel 3): **hemmelige** valg med jevne mellomrom.\n- **Rettferdig rettergang** (EMK artikkel 6): **uavhengige** domstoler som også kan prøve statens handlinger.\n\n## Begrensninger\n\nDe fleste rettighetene er ikke **absolutte**. Et inngrep kan være lovlig hvis det\n\n1. har **hjemmel i lov**\n2. har et **legitimt formål**, som å verne andres rettigheter eller nasjonal sikkerhet\n3. er **nødvendig** og **forholdsmessig**\n\nForbudet mot **tortur** er derimot **absolutt**.\n\n## Domstolkontroll\n\nNorske domstoler kan sette til side en lov som strider mot **Grunnloven** – **prøvingsretten**, nå skrevet inn i **§ 89**. Den som mener at Norge har krenket EMK, kan etter å ha prøvd saken i norske domstoler klage til **Den europeiske menneskerettsdomstolen (EMD)** i **Strasbourg**.\n\n## Demokrati og mindretall\n\nEt demokrati er mer enn **flertallsstyre**. Menneskerettighetene verner **mindretall** mot at flertallet overkjører dem. Samtidig er det en debatt om hvor mye makt domstolene bør ha overfor folkevalgte – ofte kalt **rettsliggjøring**.\n\n## Trusler mot demokratiet\n\n- **Desinformasjon** og påvirkningskampanjer\n- **Hets** og **trusler** mot politikere og journalister, som kan føre til at folk **trekker seg** fra debatten\n- Svekket tillit til **institusjonene**\n\nRettighetene må derfor både **respekteres** av staten og **sikres** gjennom aktive tiltak.",
+  "flashcards": [
+    { "term": "Folkesuverenitet", "def": "Makten kommer fra folket." },
+    { "term": "Maktfordeling", "def": "Lovgivende, utøvende og dømmende makt er delt." },
+    { "term": "Parlamentarisme", "def": "Regjeringen må ha Stortingets tillit – i Grunnloven fra 2007." },
+    { "term": "Grunnloven § 92", "def": "Staten skal respektere og sikre menneskerettighetene." },
+    { "term": "Grunnloven § 100", "def": "Ytringsfrihet." },
+    { "term": "Grunnloven § 101", "def": "Foreningsfrihet." },
+    { "term": "Grunnloven § 98", "def": "Likhet for loven." },
+    { "term": "Menneskerettsloven", "def": "Gjør blant annet EMK, SP, ØSK og barnekonvensjonen til norsk lov." },
+    { "term": "EMK artikkel 10", "def": "Ytringsfrihet." },
+    { "term": "EMK artikkel 11", "def": "Forsamlings- og foreningsfrihet." },
+    { "term": "EMK artikkel 6", "def": "Rettferdig rettergang." },
+    { "term": "Vilkår for inngrep", "def": "Lovhjemmel, legitimt formål, nødvendig og forholdsmessig." },
+    { "term": "Absolutt rettighet", "def": "Forbudet mot tortur – kan ikke begrenses." },
+    { "term": "Prøvingsretten", "def": "Domstolene kan sette til side lover som strider mot Grunnloven – § 89." },
+    { "term": "Rettsliggjøring", "def": "Makt flyttes fra folkevalgte til domstoler." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvilket år fikk Grunnloven et eget kapittel om menneskerettigheter?", "options": ["1814", "2014", "1884", "1999"], "correct": 1, "explain": "200-årsjubileet." },
+    { "id": "q02", "text": "Hva sier Grunnloven § 92?", "options": ["At staten skal respektere og sikre menneskerettighetene", "At Kongen har all makt", "At det skal være valg hvert fjerde år", "At Norge er med i EU"], "correct": 0, "explain": "Innledningen til menneskerettighetskapitlet." },
+    { "id": "q03", "text": "Hvilken rettighet i EMK verner retten til å demonstrere fredelig?", "options": ["Artikkel 3", "Artikkel 6", "Artikkel 11", "Artikkel 2"], "correct": 2, "explain": "Forsamlingsfrihet." },
+    { "id": "q04", "text": "Hvilken rettighet er absolutt?", "options": ["Ytringsfrihet", "Forsamlingsfrihet", "Retten til privatliv", "Forbudet mot tortur"], "correct": 3, "explain": "Kan aldri begrenses." },
+    { "id": "q05", "text": "Hva er prøvingsretten?", "options": ["Domstolenes rett til å sette til side lover som strider mot Grunnloven", "Stortingets rett til å prøve regjeringen", "Retten til å anke", "Retten til å stemme"], "correct": 0, "explain": "Nå i Grunnloven § 89." },
+    { "id": "q06", "text": "Hva gjør menneskerettsloven?", "options": ["Opphever Grunnloven", "Gjør flere menneskerettskonvensjoner til norsk lov", "Gir Kongen makt", "Innfører dødsstraff"], "correct": 1, "explain": "Med forrang ved motstrid." },
+    { "id": "q07", "text": "Hvilke vilkår må vanligvis være oppfylt for et lovlig inngrep i en rettighet?", "options": ["At flertallet ønsker det", "At politiet ber om det", "Lovhjemmel, legitimt formål, nødvendig og forholdsmessig", "At inngrepet er gratis"], "correct": 2, "explain": "Tre-trinns-test." },
+    { "id": "q08", "text": "Hvorfor kalles pressen en vaktbikkje?", "options": ["Fordi den eies av staten", "Fordi den skriver om dyr", "Fordi den bestemmer lovene", "Fordi den avslører maktmisbruk"], "correct": 3, "explain": "Viktig for demokratiet." },
+    { "id": "q09", "text": "Hvor kan man klage hvis man mener Norge har krenket EMK?", "options": ["EMD i Strasbourg", "FN i New York", "Stortinget", "Kongen"], "correct": 0, "explain": "Etter å ha prøvd saken nasjonalt." },
+    { "id": "q10", "text": "Hvorfor er demokrati mer enn flertallsstyre?", "options": ["Fordi mindretallet alltid bestemmer", "Fordi menneskerettighetene verner mindretall", "Fordi det ikke er valg", "Fordi Kongen bestemmer"], "correct": 1, "explain": "Flertallet kan ikke overkjøre grunnleggende rettigheter." }
+  ],
+  "mindmap": {
+    "label": "Demokrati og rettigheter",
+    "children": [
+      { "label": "Grunnloven", "children": [
+        { "label": "Maktfordeling" },
+        { "label": "Parlamentarisme" },
+        { "label": "Menneskerettighetskapitlet" }
+      ] },
+      { "label": "Konvensjoner", "children": [
+        { "label": "Menneskerettsloven" },
+        { "label": "EMK, SP, ØSK" }
+      ] },
+      { "label": "Demokratiske rettigheter", "children": [
+        { "label": "Ytringsfrihet" },
+        { "label": "Forsamling og forening" },
+        { "label": "Frie valg" },
+        { "label": "Rettferdig rettergang" }
+      ] },
+      { "label": "Grenser", "children": [
+        { "label": "Tre-trinns-test" },
+        { "label": "Absolutt torturforbud" }
+      ] },
+      { "label": "Kontroll", "children": [
+        { "label": "Prøvingsretten" },
+        { "label": "EMD" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Parlamentarismen ble skrevet inn i Grunnloven i 2007.", "correct": true, "explain": "Praksis siden 1884." },
+      { "id": "m02", "type": "sant-usant", "text": "Ytringsfriheten er absolutt og kan aldri begrenses.", "correct": false, "explain": "Den kan begrenses etter tre-trinns-testen." },
+      { "id": "m03", "type": "sant-usant", "text": "Barnekonvensjonen er gjort til norsk lov gjennom menneskerettsloven.", "correct": true, "explain": "Sammen med blant annet EMK." },
+      { "id": "m04", "type": "sant-usant", "text": "Hets mot journalister har ingen betydning for demokratiet.", "correct": false, "explain": "Det kan føre til at folk trekker seg fra debatten." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken artikkel i EMK gjelder rettferdig rettergang?", "options": ["Artikkel 10", "Artikkel 6", "Artikkel 8", "Artikkel 11"], "correct": 1, "explain": "Uavhengige domstoler." },
+      { "id": "m06", "type": "flervalg", "text": "Hva betyr rettsliggjøring?", "options": ["At makt flyttes fra folkevalgte til domstoler", "At alle lover skrives om", "At domstolene legges ned", "At Stortinget blir domstol"], "correct": 0, "explain": "En demokratisk debatt." },
+      { "id": "m07", "type": "flervalg", "text": "Hvem har den lovgivende makten i Norge?", "options": ["Regjeringen", "Høyesterett", "Stortinget", "Kongen alene"], "correct": 2, "explain": "Maktfordelingen." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
