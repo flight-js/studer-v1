@@ -89,9 +89,9 @@ insert into public.fag (id, trinn_id, navn, lareplan_kode, lareplan_url, kompeta
   ('kjemi-2', 'vg3', 'Kjemi 2', 'KJE01-02', 'https://www.udir.no/lk20/kje01-02/kompetansemaal-og-vurdering/kv533', '[{"nr":1,"tekst":"forstå og bruke kjemisk terminologi og fagspråk i faglig kommunikasjon"},{"nr":2,"tekst":"planlegge og gjennomføre forsøk, drøfte metode og tiltak for å redusere risiko og vurdere usikkerhet og feilkilder i egne og andres forsøk"},{"nr":3,"tekst":"gjøre rede for hvordan naturvitenskapelige modeller og teorier utvikles, og reflektere over hvordan samarbeid bidrar til kunnskapsutvikling i kjemi"},{"nr":4,"tekst":"utforske redoksreaksjoner og bruke beregninger til å vurdere sammenhenger mellom masse, ladning, spenning og energi i elektrokjemiske reaksjoner"},{"nr":5,"tekst":"utforske likevekter og bruke massevirkningsloven til å gjøre beregninger og forklare observasjoner"},{"nr":6,"tekst":"gjøre rede for entropibegrepet og bruke entropi og entalpi til å vurdere spontanitet og endringer i likevektsystemer"},{"nr":7,"tekst":"utforske og beregne pH i vannløsninger og drøfte betydningen av buffere for regulering av pH i naturlige og industrielle prosesser"},{"nr":8,"tekst":"utforske og gjøre beregninger av løseligheten til stoffer og gjøre vurderinger av løselighet i biologiske og industrielle prosesser"},{"nr":9,"tekst":"utforske katalyserte reaksjoner og gjøre rede for betydningen av katalysatorer i biologiske og industrielle prosesser"},{"nr":10,"tekst":"gjøre rede for reaksjonstypene addisjon, eliminasjon, substitusjon, hydrolyse og kondensasjon og bruke elektrostatiske krefter til å forklare noen enkle reaksjonsmekanismer"},{"nr":11,"tekst":"gjennomføre synteser og gjøre rede for faktorer som påvirker utbytte og renhet i synteser"},{"nr":12,"tekst":"gjøre rede for prinsipper for kromatografi og bruke kromatografi for å separere og analysere organiske stoffblandinger"},{"nr":13,"tekst":"beskrive oppbygningen til noen biologiske makromolekyler og vurdere hvordan ytre faktorer kan påvirke molekylenes struktur og egenskaper"},{"nr":14,"tekst":"gi eksempler på produksjon, gjenvinning, deponering og nedbryting av noen metaller og noen typer plast, og drøfte tiltak som er i samsvar med prinsipper for grønn kjemi"},{"nr":15,"tekst":"utforske en teoretisk eller praktisk problemstilling, og drøfte og presentere funn"}]'::jsonb, 4),
   ('fysikk-2', 'vg3', 'Fysikk 2', 'FYS01-02', 'https://www.udir.no/lk20/fys01-02/kompetansemaal-og-vurdering/kv467', '[{"nr":1,"tekst":"planlegge, gjennomføre og videreutvikle forsøk, og analysere data og beregne usikkerhet for å vurdere gyldigheten av funn"},{"nr":2,"tekst":"presentere sentrale elementer i ny viten i fysikk som er et resultat av internasjonalt forskningssamarbeid, og vurdere hvordan slikt samarbeid bidrar i kunnskapsutviklingen"},{"nr":3,"tekst":"bruke numeriske metoder og programmering til å utforske og modellere fysiske fenomener"},{"nr":4,"tekst":"utforske, beskrive og modellere bevegelse i to dimensjoner"},{"nr":5,"tekst":"gjøre rede for hvordan krefter kan forårsake krumlinjet bevegelse, og bruke dette i beregninger"},{"nr":6,"tekst":"beskrive elektriske og magnetiske felt og gjøre rede for krefter på objekter med masse og ladning i slike felt"},{"nr":7,"tekst":"gjøre rede for energibevaring i gravitasjonelle sentralfelt og bruke dette til å beregne bevegelse i slike felt"},{"nr":8,"tekst":"utforske ulike måter å indusere elektromotorisk spenning og strøm, og analysere resultatene"},{"nr":9,"tekst":"forklare hvordan induksjon kan inngå i bærekraftig energiproduksjon og vurdere anvendelser av induksjon i dagliglivet"},{"nr":10,"tekst":"beskrive de sentrale prinsippene i den spesielle og generelle relativitetsteorien og gjøre rede for hvordan disse har endret vår forståelse av tid, rom og felt"},{"nr":11,"tekst":"gjøre rede for hva som skiller kvanteobjekter fra klassiske objekter, og beskrive situasjoner der kvanteeffekter observeres"},{"nr":12,"tekst":"utforske og analysere en selvvalgt teoretisk eller praktisk problemstilling i fysikk, og presentere viktige prinsipper, sammenhenger og konsekvenser"}]'::jsonb, 5),
   ('biologi-2', 'vg3', 'Biologi 2', 'BIO01-02', 'https://www.udir.no/lk20/bio01-02/kompetansemaal-og-vurdering/kv539', '[{"nr":1,"tekst":"utforske ei biologisk problemstilling, analysere innsamla data, argumentere for val av metodar og drøfte resultat og funn"},{"nr":2,"tekst":"utforske faktorar som regulerer vekst i og storleiken på populasjonar, og drøfte interessekonfliktar rundt forvaltning av populasjonar"},{"nr":3,"tekst":"utforske og dokumentere artsmangfald gjennom feltarbeid, drøfte resultat og funn og vurdere korleis artane er tilpassa økosystemet dei lever i"},{"nr":4,"tekst":"gjere greie for energistraum og sentrale stoffkrinsløp"},{"nr":5,"tekst":"drøfte korleis menneskeleg aktivitet påverkar krinsløpa, og utforske tiltak for å vareta dei"},{"nr":6,"tekst":"utforske korleis enzym fungerer, og gjere greie for den rolla enzym speler i metabolske prosessar"},{"nr":7,"tekst":"samanlikne korleis energi blir omdanna gjennom fotosyntesen og celleandinga, og vurdere kva påverknad ulike faktorar har på energiomsetning"},{"nr":8,"tekst":"gjere greie for genetisk kode og regulering av genuttrykk, og beskrive korleis genteknologi kan brukast for å styre og endre genuttrykk"},{"nr":9,"tekst":"gjere greie for korleis eigenskapar blir arva, og utforske årsaker til genotypisk og fenotypisk variasjon i populasjonar"},{"nr":10,"tekst":"utforske korleis evolusjonære prosessar påverkar genlageret til populasjonar, og samanlikne ulike mekanismar for artsdanning"},{"nr":11,"tekst":"vurdere kommersiell bruk av genteknologi i medisin og matproduksjon, og drøfte etiske problemstillingar ved bruk av slik teknologi"}]'::jsonb, 6),
-  ('geofag-2', 'vg3', 'Geofag 2', null, null, '[]'::jsonb, 7),
-  ('matematikk-r2', 'vg3', 'Matematikk R2', null, null, '[]'::jsonb, 8),
-  ('matematikk-s2', 'vg3', 'Matematikk S2', null, null, '[]'::jsonb, 9),
+  ('geofag-2', 'vg3', 'Geofag 2', 'GFG01-03', 'https://www.udir.no/lk20/gfg01-03/kompetansemaal-og-vurdering/kv973', '[{"nr":1,"tekst":"gjøre rede for vekselvirkninger mellom de ulike jordsystemene, og hvordan disse kan påvirke havet, atmosfæren og kryosfæren"},{"nr":2,"tekst":"gjøre rede for strålingsbalanse, strålingsfordeling og strålingspådriv og bruke disse til å forstå den globale sirkulasjonen i atmosfæren"},{"nr":3,"tekst":"gjøre rede for konsekvensene av jordens rotasjon, tetthetsforskjeller og trykkforskjeller og hvordan de påvirker havet og atmosfæren"},{"nr":4,"tekst":"gjøre rede for hvordan ulike værsystemer oppstår og utvikler seg på global, regional og lokal skala, og tolke ulike værkart og værutvikling"},{"nr":5,"tekst":"gjøre rede for hvordan numeriske modeller i geofag bygges opp og videreutvikles, og beskrive hvordan modellene brukes innenfor værvarsling, havmodellering og klimaforskning"},{"nr":6,"tekst":"gjøre rede for klimasystemet på ulike skalaer i tid og rom og vurdere antropogen klimapåvirkning"},{"nr":7,"tekst":"gjøre rede for forskning på forhistorisk klima, og hvordan det bidrar til å lage prognoser for framtidens klima"},{"nr":8,"tekst":"drøfte konsekvenser av klimaendringer for enkeltmennesker, samfunn og økosystem, og vurdere bærekraftige løsninger for hvordan enkeltmennesker og samfunn kan redusere og tilpasse seg klimaendringer i nåtid og framtid"},{"nr":9,"tekst":"drøfte hvordan energiressurser fra hav og atmosfære kan utnyttes på en bærekraftig måte, både nasjonalt og globalt"},{"nr":10,"tekst":"gjennomføre geofaglig feltarbeid knyttet til havet, atmosfæren eller kryosfæren, bearbeide og tolke de innsamlede dataene og presentere resultatene"},{"nr":11,"tekst":"vurdere risiko ved naturfarer som følge av fenomener i atmosfæren, havet og kryosfæren og drøfte hvordan klimaendringer kan påvirke disse"}]'::jsonb, 7),
+  ('matematikk-r2', 'vg3', 'Matematikk R2', 'MAT03-02', 'https://www.udir.no/lk20/mat03-02/kompetansemaal-og-vurdering/kv294', '[{"nr":1,"tekst":"utforske egenskaper ved ulike rekker og gjøre rede for praktiske anvendelser av egenskaper ved rekker"},{"nr":2,"tekst":"utforske rekursive sammenhenger ved å bruke programmering og presentere egne framgangsmåter"},{"nr":3,"tekst":"gjøre rede for integral som en grenseverdi av en følge av summer, og tolke betydningen av denne grenseverdien i ulike situasjoner"},{"nr":4,"tekst":"gjøre rede for analysens fundamentalteorem og gjøre rede for konsekvenser av teoremet"},{"nr":5,"tekst":"utvikle algoritmer for å beregne integraler numerisk, og bruke programmering til å utføre algoritmene"},{"nr":6,"tekst":"gi eksempler på ulike situasjoner som kan modelleres ved å bruke ulike matematiske funksjoner, og modellere og analysere slike situasjoner ved å bruke reelle datasett"},{"nr":7,"tekst":"anvende derivasjon og integrasjon til å analysere og tolke egne matematiske modeller av reelle datasett"},{"nr":8,"tekst":"analysere og tolke ulike funksjoner ved å bruke derivasjon og integrasjon, og anvende integrasjon til å beregne ulike mål av omdreiningslegemer"},{"nr":9,"tekst":"anvende parameterframstillinger til kurver og bruke parameterframstillinger til å løse naturvitenskapelige problemer inkludert problemer knyttet til fart og akselerasjon"},{"nr":10,"tekst":"utforske og forstå regneregler for vektorer i rommet, og bruke vektorer til å beregne ulike størrelser i rommet"},{"nr":11,"tekst":"utforske egenskaper ved radianer og trigonometriske funksjoner og identiteter og anvende disse egenskapene til å løse praktiske problemer"},{"nr":12,"tekst":"analysere og forstå matematiske bevis, forklare de bærende ideene i et matematisk bevis og utvikle egne bevis"}]'::jsonb, 8),
+  ('matematikk-s2', 'vg3', 'Matematikk S2', 'MAT04-02', 'https://www.udir.no/lk20/mat04-02/kompetansemaal-og-vurdering/kv296', '[{"nr":1,"tekst":"utforske egenskaper ved ulike rekker og gjøre rede for praktiske anvendelser av egenskaper ved rekker"},{"nr":2,"tekst":"utforske rekursive sammenhenger ved å bruke programmering og presentere egne framgangsmåter"},{"nr":3,"tekst":"forstå definisjonen av det bestemte integralet og anvende integralet til å analysere funksjoner"},{"nr":4,"tekst":"gjøre rede for analysens fundamentalteorem og gjøre rede for konsekvenser av teoremet"},{"nr":5,"tekst":"analysere og tolke ulike funksjoner ved å bruke derivasjon og integrasjon"},{"nr":6,"tekst":"modellere og analysere eksponentiell og logistisk vekst i reelle datasett"},{"nr":7,"tekst":"forstå begrepene forventningsverdi, varians og standardavvik, og bruke disse størrelsene til å tolke stokastiske variabler"},{"nr":8,"tekst":"simulere utfall i, utforske og tolke ulike statistiske fordelinger, og gi eksempler på reelle anvendelser av disse fordelingene"},{"nr":9,"tekst":"finne grensekostnader og grenseinntekter i økonomiske modeller, og gjøre rede for betydningen av disse størrelsene"},{"nr":10,"tekst":"argumentere for sentralgrensesetningen og utforske og tolke praktiske situasjoner ved hjelp av normalfordelingen"},{"nr":11,"tekst":"gjennomføre hypotesetesting i reelle datasett og tolke resultatet"}]'::jsonb, 9),
   ('rettslare-2', 'vg3', 'Rettslære 2', null, null, '[]'::jsonb, 10),
   ('psykologi-2', 'vg3', 'Psykologi 2', null, null, '[]'::jsonb, 11),
   ('sosialkunnskap', 'vg3', 'Sosialkunnskap', null, null, '[]'::jsonb, 12),
@@ -59256,6 +59256,4366 @@ insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, ri
   ('biologi-2:genteknologi-og-etikk', 'm07', 'flervalg', 'Hvilket spørsmål bør du stille når du drøfter genteknologi?', array['Hvor gammel teknologien er', 'Hvem som oppfant den', 'Hvilken nytte og risiko den gir, og for hvem', 'Hvor mange som liker den']::text[], 2, 'Og hvilke verdier som står mot hverandre.', false, true, 16);
 insert into public.miniprover (tema_id, minutter) values
   ('biologi-2:genteknologi-og-etikk', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Geofag 2 (vg3): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'geofag-2' and slug not in ('jordsystemenes-vekselvirkninger', 'straling-og-global-sirkulasjon', 'coriolis-trykk-og-havstrommer', 'vaersystemer-og-vaerkart', 'numeriske-modeller', 'klimasystemet', 'forhistorisk-klima', 'klimaendringer-reduksjon-og-tilpasning', 'energi-fra-hav-og-atmosfaere', 'geofaglig-feltarbeid', 'naturfarer-og-klima');
+
+-- Geofag 2: Vekselvirkninger mellom jordsystemene
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('geofag-2:jordsystemenes-vekselvirkninger', 'geofag-2', 'jordsystemenes-vekselvirkninger', 'Vekselvirkninger mellom jordsystemene', 'Hvordan atmosfæren, hydrosfæren, kryosfæren, litosfæren og biosfæren påvirker hverandre – med vekt på hvordan vekselvirkningene påvirker havet, atmosfæren og kryosfæren, og hvordan positive og negative tilbakekoblinger kan forsterke eller dempe endringer.', array[1]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('geofag-2:jordsystemenes-vekselvirkninger', '## Fem jordsystemer
+
+- **Atmosfæren** – lufta rundt jorda
+- **Hydrosfæren** – hav, innsjøer, elver og grunnvann
+- **Kryosfæren** – is og snø: isbreer, innlandsis, havis og permafrost
+- **Litosfæren** – jordskorpa og den øverste delen av mantelen
+- **Biosfæren** – alt liv
+
+Systemene utveksler hele tiden **energi**, **vann** og **stoffer**. En endring i ett system påvirker de andre.
+
+## Hav og atmosfære
+
+- Havet tar opp mye **varme** og **CO₂** fra atmosfæren og demper klimaendringene. Men mer CO₂ gir **havforsuring**.
+- **Fordamping** fra havet gir vanndamp til atmosfæren, og **nedbør** fører vannet tilbake.
+- **Vind** driver **havstrømmer** og skaper **bølger**, og havstrømmene frakter varme som påvirker **værmønstre**.
+- **El Niño** i Stillehavet er et eksempel på samspill mellom hav og atmosfære som påvirker været over store deler av verden.
+
+## Kryosfæren
+
+- Is og snø har høy **albedo** – de reflekterer mye sollys.
+- Når **havis** smelter, blir mørkt hav blottlagt. Havet tar opp mer varme, og mer is smelter. Dette er en **positiv tilbakekobling** – den **forsterker** endringen.
+- Når **isbreer** og **innlandsis** smelter, stiger **havnivået**. Smeltevann kan også påvirke **havstrømmer** fordi ferskvann er **lettere** enn saltvann.
+- **Permafrost** som tiner, kan slippe ut **metan** og **CO₂** – en annen positiv tilbakekobling.
+
+## Litosfæren
+
+- **Vulkanutbrudd** kan sende **svovelgasser** høyt opp i atmosfæren. Der danner de små partikler som **reflekterer** sollys og kan gi **avkjøling** i et par år. Etter utbruddet fra **Pinatubo** på Filippinene i **1991** falt den globale temperaturen med omtrent **en halv grad**.
+- **Forvitring** av bergarter tar opp CO₂ over **lang** tid og påvirker klimaet over millioner av år.
+- **Platetektonikk** endrer fordelingen av **hav** og **land** og dermed havstrømmer og klima over geologisk tid.
+
+## Biosfæren
+
+- **Fotosyntese** på land og i havet tar opp CO₂ og produserer oksygen.
+- **Skog** påvirker **fordamping** og **nedbør**.
+- **Mennesket** er i dag en viktig del av biosfæren som endrer de andre systemene gjennom **utslipp**, **arealbruk** og **forurensning**.
+
+## Tilbakekoblinger
+
+- **Positive** tilbakekoblinger **forsterker** en endring, som is–albedo-effekten og tining av permafrost.
+- **Negative** tilbakekoblinger **demper** en endring. Et eksempel er at en varmere jord sender ut **mer varmestråling** til verdensrommet.
+
+**Vanndamp** er en viktig tilbakekobling: Varmere luft kan holde mer vanndamp, og vanndamp er en **drivhusgass**. Skyer kan virke **begge veier** – de reflekterer sollys, men holder også på varme.
+
+## Vippepunkter
+
+Noen forskere advarer mot **vippepunkter** – terskler der en endring blir **selvforsterkende** og vanskelig å snu, for eksempel **nedsmelting** av Grønlandsisen eller en svekkelse av **havstrømmene** i Atlanterhavet.', '{"label":"Jordsystemene","children":[{"label":"Systemene","children":[{"label":"Atmosfære og hydrosfære"},{"label":"Kryosfære"},{"label":"Litosfære og biosfære"}]},{"label":"Hav og atmosfære","children":[{"label":"Varme og CO₂"},{"label":"Vind og strømmer"},{"label":"El Niño"}]},{"label":"Kryosfæren","children":[{"label":"Albedo"},{"label":"Havnivå"},{"label":"Permafrost"}]},{"label":"Litosfæren","children":[{"label":"Vulkaner"},{"label":"Forvitring"}]},{"label":"Tilbakekoblinger","children":[{"label":"Positive"},{"label":"Negative"},{"label":"Vippepunkter"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'geofag-2:jordsystemenes-vekselvirkninger';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('geofag-2:jordsystemenes-vekselvirkninger', 'Atmosfæren', 'Lufta rundt jorda.', 0),
+  ('geofag-2:jordsystemenes-vekselvirkninger', 'Hydrosfæren', 'Hav, innsjøer, elver og grunnvann.', 1),
+  ('geofag-2:jordsystemenes-vekselvirkninger', 'Kryosfæren', 'Is og snø: breer, innlandsis, havis og permafrost.', 2),
+  ('geofag-2:jordsystemenes-vekselvirkninger', 'Litosfæren', 'Jordskorpa og øverste del av mantelen.', 3),
+  ('geofag-2:jordsystemenes-vekselvirkninger', 'Biosfæren', 'Alt liv på jorda.', 4),
+  ('geofag-2:jordsystemenes-vekselvirkninger', 'Albedo', 'Hvor mye av sollyset en overflate reflekterer.', 5),
+  ('geofag-2:jordsystemenes-vekselvirkninger', 'Is–albedo-effekten', 'Smeltende is gir mørkere overflate og mer oppvarming.', 6),
+  ('geofag-2:jordsystemenes-vekselvirkninger', 'Positiv tilbakekobling', 'Forsterker en endring.', 7),
+  ('geofag-2:jordsystemenes-vekselvirkninger', 'Negativ tilbakekobling', 'Demper en endring.', 8),
+  ('geofag-2:jordsystemenes-vekselvirkninger', 'Permafrost', 'Jord som er frossen hele året – kan slippe ut metan når den tiner.', 9),
+  ('geofag-2:jordsystemenes-vekselvirkninger', 'Pinatubo 1991', 'Vulkanutbrudd som ga global avkjøling på omtrent en halv grad.', 10),
+  ('geofag-2:jordsystemenes-vekselvirkninger', 'El Niño', 'Samspill mellom hav og atmosfære i Stillehavet som påvirker været globalt.', 11),
+  ('geofag-2:jordsystemenes-vekselvirkninger', 'Havforsuring', 'Havets pH synker når det tar opp CO₂.', 12),
+  ('geofag-2:jordsystemenes-vekselvirkninger', 'Vanndamp som tilbakekobling', 'Varmere luft holder mer vanndamp, som er en drivhusgass.', 13),
+  ('geofag-2:jordsystemenes-vekselvirkninger', 'Vippepunkt', 'Terskel der endringen blir selvforsterkende.', 14);
+delete from public.quiz_sporsmal where tema_id = 'geofag-2:jordsystemenes-vekselvirkninger';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('geofag-2:jordsystemenes-vekselvirkninger', 'q01', 'flervalg', 'Hvilket system omfatter isbreer, havis og permafrost?', array['Hydrosfæren', 'Kryosfæren', 'Litosfæren', 'Biosfæren']::text[], 1, 'Is og snø.', true, true, 0),
+  ('geofag-2:jordsystemenes-vekselvirkninger', 'q02', 'flervalg', 'Hva er is–albedo-effekten?', array['Smeltende is gir mørkere overflate som tar opp mer varme', 'Is reflekterer mindre enn hav', 'Is smelter aldri', 'Is lager vind']::text[], 0, 'En positiv tilbakekobling.', true, true, 1),
+  ('geofag-2:jordsystemenes-vekselvirkninger', 'q03', 'flervalg', 'Hva skjedde etter vulkanutbruddet på Pinatubo i 1991?', array['Global oppvarming', 'Havnivået sank', 'Global avkjøling på omtrent en halv grad', 'Ingenting']::text[], 2, 'Svovelpartikler reflekterte sollys.', true, true, 2),
+  ('geofag-2:jordsystemenes-vekselvirkninger', 'q04', 'flervalg', 'Hvorfor er tining av permafrost en positiv tilbakekobling?', array['Den gir mer is', 'Den gir mer oksygen', 'Den gir mer skog', 'Den slipper ut metan og CO₂ som gir mer oppvarming']::text[], 3, 'Forsterker endringen.', true, true, 3),
+  ('geofag-2:jordsystemenes-vekselvirkninger', 'q05', 'flervalg', 'Hva gjør havet med CO₂ og varme fra atmosfæren?', array['Tar opp mye av det og demper klimaendringene', 'Slipper ut alt', 'Påvirkes ikke', 'Lager mer CO₂']::text[], 0, 'Men gir havforsuring.', true, true, 4),
+  ('geofag-2:jordsystemenes-vekselvirkninger', 'q06', 'flervalg', 'Hva er en negativ tilbakekobling?', array['En som forsterker endringen', 'En som demper endringen', 'En som er skadelig', 'En som stopper alt liv']::text[], 1, 'For eksempel økt varmestråling fra en varmere jord.', true, true, 5),
+  ('geofag-2:jordsystemenes-vekselvirkninger', 'q07', 'flervalg', 'Hvordan kan smeltevann påvirke havstrømmer?', array['Det gjør havet saltere', 'Det har ingen virkning', 'Ferskvann er lettere enn saltvann og kan endre sirkulasjonen', 'Det gjør havet kaldere alltid']::text[], 2, 'Tetthetsforskjeller driver havstrømmer.', true, true, 6),
+  ('geofag-2:jordsystemenes-vekselvirkninger', 'q08', 'flervalg', 'Hva er et vippepunkt?', array['Et punkt på et kart', 'En type vulkan', 'En værstasjon', 'En terskel der endringen blir selvforsterkende']::text[], 3, 'For eksempel nedsmelting av Grønlandsisen.', true, true, 7),
+  ('geofag-2:jordsystemenes-vekselvirkninger', 'q09', 'flervalg', 'Hvordan påvirker forvitring klimaet over lang tid?', array['Den tar opp CO₂', 'Den slipper ut metan', 'Den lager is', 'Den øker albedo']::text[], 0, 'Over millioner av år.', true, false, 8),
+  ('geofag-2:jordsystemenes-vekselvirkninger', 'q10', 'flervalg', 'Hvorfor kan skyer virke begge veier på klimaet?', array['De består av is', 'De reflekterer sollys, men holder også på varme', 'De lager vind', 'De er alltid kalde']::text[], 1, 'Netto virkning avhenger av skytype og høyde.', true, false, 9),
+  ('geofag-2:jordsystemenes-vekselvirkninger', 'm01', 'sant-usant', 'Varmere luft kan holde mer vanndamp.', array['Sant', 'Usant']::text[], 0, 'Vanndamp er en drivhusgass.', false, true, 10),
+  ('geofag-2:jordsystemenes-vekselvirkninger', 'm02', 'sant-usant', 'Jordsystemene er uavhengige av hverandre.', array['Sant', 'Usant']::text[], 1, 'De utveksler energi, vann og stoffer.', false, true, 11),
+  ('geofag-2:jordsystemenes-vekselvirkninger', 'm03', 'sant-usant', 'Mennesket er i dag en viktig kraft som endrer jordsystemene.', array['Sant', 'Usant']::text[], 0, 'Gjennom utslipp og arealbruk.', false, true, 12),
+  ('geofag-2:jordsystemenes-vekselvirkninger', 'm04', 'sant-usant', 'Mørkt hav reflekterer mer sollys enn is.', array['Sant', 'Usant']::text[], 1, 'Is har høyere albedo.', false, true, 13),
+  ('geofag-2:jordsystemenes-vekselvirkninger', 'm05', 'flervalg', 'Hva driver havstrømmer i overflaten?', array['Månen alene', 'Vind', 'Vulkaner', 'Permafrost']::text[], 1, 'Også tetthetsforskjeller.', false, true, 14),
+  ('geofag-2:jordsystemenes-vekselvirkninger', 'm06', 'flervalg', 'Hva gir smelting av isbreer og innlandsis?', array['Havnivåstigning', 'Havnivåsenkning', 'Mer havis', 'Kaldere hav alltid']::text[], 0, 'Havis som smelter, gir lite havnivåendring.', false, true, 15),
+  ('geofag-2:jordsystemenes-vekselvirkninger', 'm07', 'flervalg', 'Hvordan påvirker platetektonikk klimaet?', array['Raskt fra år til år', 'Ikke i det hele tatt', 'Ved å endre fordelingen av hav og land over geologisk tid', 'Bare gjennom jordskjelv']::text[], 2, 'Endrer havstrømmer og klima.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('geofag-2:jordsystemenes-vekselvirkninger', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Geofag 2: Strålingsbalanse og global sirkulasjon
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('geofag-2:straling-og-global-sirkulasjon', 'geofag-2', 'straling-og-global-sirkulasjon', 'Strålingsbalanse og global sirkulasjon', 'Jordens strålingsbalanse med kortbølget og langbølget stråling, albedo og drivhuseffekt, ulik strålingsfordeling med breddegrad, strålingspådriv – og hvordan dette driver den globale sirkulasjonen med Hadley-, Ferrel- og polarceller, passatvinder, vestavindsbeltet og jetstrømmer.', array[2]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('geofag-2:straling-og-global-sirkulasjon', '## Strålingsbalanse
+
+Jorda får energi fra **sola** som **kortbølget** stråling – mest synlig lys. Omtrent **30 %** reflekteres tilbake til verdensrommet av skyer, is og lyse flater. Dette kalles jordas **albedo**. Resten tas opp av bakken, havet og atmosfæren.
+
+Jorda sender selv ut energi som **langbølget** varmestråling. Over tid må **innstrålingen** og **utstrålingen** være omtrent like store – ellers blir jorda varmere eller kaldere.
+
+## Drivhuseffekten
+
+**Drivhusgasser** – vanndamp, CO₂, metan og lystgass – slipper sollyset gjennom, men **tar opp** mye av den langbølgede strålingen fra bakken og sender den i alle retninger, også **tilbake** mot bakken. Uten den **naturlige** drivhuseffekten ville gjennomsnittstemperaturen vært omtrent **−18 °C** i stedet for omtrent **15 °C**.
+
+## Strålingsfordeling
+
+Sola varmer **ulikt**:
+
+- Ved **ekvator** står sola høyt, og strålingen treffer bakken nesten **loddrett**. Det gir **overskudd** av energi.
+- Ved **polene** kommer strålingen **skrått** inn og fordeles over større areal. Det gir **underskudd**, forsterket av høy **albedo** fra is.
+
+**Atmosfæren** og **havet** frakter varme fra **ekvator** mot **polene** og jevner ut forskjellene. Denne transporten er drivkraften bak **vind** og **havstrømmer**.
+
+## Strålingspådriv
+
+**Strålingspådriv** er en **endring** i strålingsbalansen, målt i **watt per kvadratmeter** (W/m²). Et **positivt** pådriv gir **oppvarming**, et **negativt** gir **avkjøling**.
+
+- **Økt CO₂** og andre drivhusgasser gir positivt pådriv.
+- **Aerosoler** – små partikler fra vulkaner og forurensning – gir ofte negativt pådriv.
+- Endringer i **solaktivitet** og **arealbruk** gir også pådriv.
+
+## Den globale sirkulasjonen
+
+Varm luft ved ekvator **stiger**, og det dannes **lavtrykk**. Luften strømmer mot polene i høyden, avkjøles og **synker** igjen rundt **30°** nord og sør, der det dannes **høytrykk**. Den globale sirkulasjonen deles i tre celler på hver halvkule:
+
+- **Hadleycellen** (0–30°): Nær bakken blåser **passatvindene** mot ekvator. Der de møtes, er den **intertropiske konvergenssonen** med mye regn. Ved 30° gir synkende luft **ørkener** som Sahara.
+- **Ferrelcellen** (30–60°): Nær bakken blåser **vestavindene**. Norge ligger i **vestavindsbeltet**, som gir mange **lavtrykk** og mye nedbør på Vestlandet.
+- **Polarcellen** (60–90°): Kald luft synker ved polene og strømmer mot lavere breddegrader som **polare østavinder**.
+
+Mellom kald polarluft og varmere luft ligger **polarfronten**, der mange lavtrykk dannes.
+
+## Jetstrømmer
+
+**Jetstrømmer** er kraftige vinder i **8–12 km** høyde som blåser fra **vest** mot **øst**. De dannes der det er store **temperaturforskjeller**, og de styrer **lavtrykkenes** bane. Når jetstrømmen slynger seg mye, kan værtyper bli **låst** fast i lang tid.
+
+## Oppsummering
+
+Ulik oppvarming gir **trykkforskjeller**, trykkforskjeller gir **vind**, og jordas **rotasjon** bøyer vindene av. Resultatet er de store **vindbeltene** og **klimasonene** på jorda.', '{"label":"Stråling og sirkulasjon","children":[{"label":"Strålingsbalanse","children":[{"label":"Kort- og langbølget"},{"label":"Albedo"},{"label":"Drivhuseffekt"}]},{"label":"Fordeling","children":[{"label":"Overskudd ved ekvator"},{"label":"Underskudd ved polene"}]},{"label":"Pådriv","children":[{"label":"Drivhusgasser"},{"label":"Aerosoler"},{"label":"Sol og arealbruk"}]},{"label":"Celler","children":[{"label":"Hadley og passatvinder"},{"label":"Ferrel og vestavinder"},{"label":"Polarcellen"}]},{"label":"Høyden","children":[{"label":"Jetstrømmer"},{"label":"Polarfronten"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'geofag-2:straling-og-global-sirkulasjon';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('geofag-2:straling-og-global-sirkulasjon', 'Kortbølget stråling', 'Stråling fra sola, mest synlig lys.', 0),
+  ('geofag-2:straling-og-global-sirkulasjon', 'Langbølget stråling', 'Varmestråling fra jorda.', 1),
+  ('geofag-2:straling-og-global-sirkulasjon', 'Albedo', 'Andelen sollys som reflekteres – omtrent 30 % for jorda.', 2),
+  ('geofag-2:straling-og-global-sirkulasjon', 'Strålingsbalanse', 'Innstråling og utstråling er omtrent like store over tid.', 3),
+  ('geofag-2:straling-og-global-sirkulasjon', 'Drivhuseffekt', 'Drivhusgasser tar opp langbølget stråling og varmer jorda.', 4),
+  ('geofag-2:straling-og-global-sirkulasjon', 'Uten drivhuseffekt', 'Omtrent −18 °C i stedet for omtrent 15 °C.', 5),
+  ('geofag-2:straling-og-global-sirkulasjon', 'Strålingsoverskudd', 'Ved ekvator, der sola står høyt.', 6),
+  ('geofag-2:straling-og-global-sirkulasjon', 'Strålingspådriv', 'Endring i strålingsbalansen målt i W/m².', 7),
+  ('geofag-2:straling-og-global-sirkulasjon', 'Aerosoler', 'Små partikler som ofte gir negativt pådriv.', 8),
+  ('geofag-2:straling-og-global-sirkulasjon', 'Hadleycellen', 'Sirkulasjonscelle mellom ekvator og 30°.', 9),
+  ('geofag-2:straling-og-global-sirkulasjon', 'Passatvinder', 'Vinder som blåser mot ekvator nær bakken.', 10),
+  ('geofag-2:straling-og-global-sirkulasjon', 'Intertropisk konvergenssone', 'Området der passatvindene møtes, med mye regn.', 11),
+  ('geofag-2:straling-og-global-sirkulasjon', 'Ferrelcellen', 'Sirkulasjonscelle mellom 30° og 60° med vestavinder.', 12),
+  ('geofag-2:straling-og-global-sirkulasjon', 'Polarfronten', 'Grensen mellom kald polarluft og varmere luft.', 13),
+  ('geofag-2:straling-og-global-sirkulasjon', 'Jetstrøm', 'Kraftig vestavind i 8–12 km høyde som styrer lavtrykkene.', 14);
+delete from public.quiz_sporsmal where tema_id = 'geofag-2:straling-og-global-sirkulasjon';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('geofag-2:straling-og-global-sirkulasjon', 'q01', 'flervalg', 'Omtrent hvor stor er jordas albedo?', array['5 %', '30 %', '70 %', '90 %']::text[], 1, 'Skyer, is og lyse flater reflekterer.', true, true, 0),
+  ('geofag-2:straling-og-global-sirkulasjon', 'q02', 'flervalg', 'Hva ville gjennomsnittstemperaturen vært uten den naturlige drivhuseffekten?', array['Omtrent −18 °C', 'Omtrent 15 °C', 'Omtrent 30 °C', 'Omtrent 0 °C']::text[], 0, 'Med drivhuseffekten er den omtrent 15 °C.', true, true, 1),
+  ('geofag-2:straling-og-global-sirkulasjon', 'q03', 'flervalg', 'Hvorfor er det strålingsunderskudd ved polene?', array['Fordi sola aldri skinner', 'Fordi det er lite luft', 'Fordi strålingen kommer skrått inn og albedoen er høy', 'Fordi det er mye skog']::text[], 2, 'Energien fordeles over større areal.', true, true, 2),
+  ('geofag-2:straling-og-global-sirkulasjon', 'q04', 'flervalg', 'Hva betyr et positivt strålingspådriv?', array['Avkjøling', 'Ingen endring', 'Mer is', 'Oppvarming']::text[], 3, 'For eksempel økt CO₂.', true, true, 3),
+  ('geofag-2:straling-og-global-sirkulasjon', 'q05', 'flervalg', 'Hvor synker luften i Hadleycellen og gir ørkener?', array['Rundt 30° nord og sør', 'Ved ekvator', 'Ved polene', 'Ved 60°']::text[], 0, 'Høytrykk gir lite nedbør.', true, true, 4),
+  ('geofag-2:straling-og-global-sirkulasjon', 'q06', 'flervalg', 'Hvilket vindbelte ligger Norge i?', array['Passatvindbeltet', 'Vestavindsbeltet', 'De polare østavindene', 'Den intertropiske konvergenssonen']::text[], 1, 'Mange lavtrykk og mye nedbør på Vestlandet.', true, true, 5),
+  ('geofag-2:straling-og-global-sirkulasjon', 'q07', 'flervalg', 'Hva gjør jetstrømmene?', array['Lager havstrømmer', 'Smelter is', 'Styrer lavtrykkenes bane', 'Lager ørkener']::text[], 2, 'Kraftige vinder i 8–12 km høyde.', true, true, 6),
+  ('geofag-2:straling-og-global-sirkulasjon', 'q08', 'flervalg', 'Hva gir aerosoler fra vulkaner ofte?', array['Positivt pådriv', 'Mer drivhuseffekt', 'Ingen virkning', 'Negativt pådriv og avkjøling']::text[], 3, 'De reflekterer sollys.', true, true, 7),
+  ('geofag-2:straling-og-global-sirkulasjon', 'q09', 'flervalg', 'Hva er den intertropiske konvergenssonen?', array['Området der passatvindene møtes, med mye regn', 'En ørken', 'En havstrøm', 'Et høytrykk ved polene']::text[], 0, 'Nær ekvator.', true, false, 8),
+  ('geofag-2:straling-og-global-sirkulasjon', 'q10', 'flervalg', 'Hva driver vind og havstrømmer på global skala?', array['Månen', 'Ulik oppvarming og varmetransport fra ekvator mot polene', 'Jordskjelv', 'Vulkaner']::text[], 1, 'Strålingsfordelingen.', true, false, 9),
+  ('geofag-2:straling-og-global-sirkulasjon', 'm01', 'sant-usant', 'Atmosfæren og havet frakter varme fra ekvator mot polene.', array['Sant', 'Usant']::text[], 0, 'Det jevner ut forskjellene.', false, true, 10),
+  ('geofag-2:straling-og-global-sirkulasjon', 'm02', 'sant-usant', 'Drivhusgasser stopper sollyset før det når bakken.', array['Sant', 'Usant']::text[], 1, 'De slipper sollyset gjennom, men tar opp varmestråling.', false, true, 11),
+  ('geofag-2:straling-og-global-sirkulasjon', 'm03', 'sant-usant', 'En slyngete jetstrøm kan låse værtyper fast i lang tid.', array['Sant', 'Usant']::text[], 0, 'For eksempel langvarig tørke eller regn.', false, true, 12),
+  ('geofag-2:straling-og-global-sirkulasjon', 'm04', 'sant-usant', 'Strålingspådriv måles i grader celsius.', array['Sant', 'Usant']::text[], 1, 'Det måles i W/m².', false, true, 13),
+  ('geofag-2:straling-og-global-sirkulasjon', 'm05', 'flervalg', 'Hvilken retning blåser jetstrømmene?', array['Fra øst mot vest', 'Fra vest mot øst', 'Fra nord mot sør', 'Tilfeldig']::text[], 1, 'Vestlige vinder i høyden.', false, true, 14),
+  ('geofag-2:straling-og-global-sirkulasjon', 'm06', 'flervalg', 'Hvilke vinder blåser i polarcellen nær bakken?', array['Polare østavinder', 'Passatvinder', 'Vestavinder', 'Monsunvinder']::text[], 0, 'Kald luft strømmer fra polene.', false, true, 15),
+  ('geofag-2:straling-og-global-sirkulasjon', 'm07', 'flervalg', 'Hva skjer med innstråling og utstråling over tid når klimaet er stabilt?', array['Innstrålingen er alltid større', 'Utstrålingen er alltid større', 'De er omtrent like store', 'Begge er null']::text[], 2, 'Strålingsbalanse.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('geofag-2:straling-og-global-sirkulasjon', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Geofag 2: Jordrotasjon, trykk og tetthet i hav og atmosfære
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('geofag-2:coriolis-trykk-og-havstrommer', 'geofag-2', 'coriolis-trykk-og-havstrommer', 'Jordrotasjon, trykk og tetthet i hav og atmosfære', 'Konsekvensene av jordens rotasjon, trykkforskjeller og tetthetsforskjeller – corioliseffekten, trykkgradientkraften, geostrofisk vind, lavtrykk og høytrykk, Ekman-transport og oppstrømning, termohalin sirkulasjon og Golfstrømmen – og hvordan de påvirker havet og atmosfæren.', array[3]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('geofag-2:coriolis-trykk-og-havstrommer', '## Trykkforskjeller gir vind
+
+**Lufttrykk** er vekten av lufta over oss. Der luft **stiger**, blir det **lavtrykk** ved bakken. Der luft **synker**, blir det **høytrykk**. Lufta vil strømme fra **høyt** til **lavt** trykk – dette er **trykkgradientkraften**. Jo **tettere** isobarene ligger på et værkart, desto **sterkere** er vinden.
+
+## Corioliseffekten
+
+Fordi jorda **roterer**, blir alt som beveger seg over store avstander, **avbøyd**:
+
+- mot **høyre** på den **nordlige** halvkule
+- mot **venstre** på den **sørlige** halvkule
+
+Effekten er **null** ved ekvator og **størst** ved polene. Den virker på både **vind** og **havstrømmer**.
+
+## Geostrofisk vind
+
+Høyt oppe, der friksjonen mot bakken er liten, blir trykkgradientkraften og corioliseffekten omtrent i **balanse**. Da blåser vinden **parallelt** med isobarene. Dette kalles **geostrofisk vind**. Nær bakken bremser **friksjonen** vinden, og den blåser litt **inn mot** lavtrykket.
+
+## Lavtrykk og høytrykk
+
+På den **nordlige** halvkule
+
+- blåser vinden **mot klokka** og **inn** mot sentrum i et **lavtrykk**. Luften stiger, avkjøles og gir **skyer** og **nedbør**.
+- blåser vinden **med klokka** og **ut** fra sentrum i et **høytrykk**. Luften synker og gir ofte **klart** og **stabilt** vær.
+
+På den **sørlige** halvkule er retningene **motsatt**.
+
+## Havet: vinddrevne strømmer
+
+**Vinden** setter overflatevannet i bevegelse. På grunn av corioliseffekten går den samlede transporten av vann i det øverste laget omtrent **90°** til **høyre** for vindretningen på nordlige halvkule. Dette kalles **Ekman-transport**.
+
+Langs kyster kan Ekman-transporten føre overflatevannet **bort** fra land. Da strømmer **kaldt**, **næringsrikt** vann opp fra dypet – **oppstrømning**. Oppstrømningsområder, som utenfor **Peru**, er blant verdens rikeste **fiskeområder**.
+
+Store vinddrevne strømsystemer i havene kalles **havstrømvirvler**.
+
+## Havet: tetthetsdrevne strømmer
+
+Havvannets **tetthet** avhenger av **temperatur** og **saltholdighet**. **Kaldt** og **salt** vann er **tyngst**. I **Nord-Atlanteren** og rundt **Antarktis** blir overflatevannet så kaldt og salt at det **synker** til dypet. Det driver en global **termohalin sirkulasjon** – ofte kalt det **globale transportbåndet** – som kan bruke rundt tusen år på én runde.
+
+## Golfstrømmen og Norge
+
+**Golfstrømmen** og **Den nordatlantiske strømmen** frakter **varmt** vann fra Mexicogolfen og tropiske strøk nordover. Sammen med **vestavindene** gjør de at Norge har et mye **mildere** klima enn andre områder på samme breddegrad, og at kysten er **isfri** om vinteren.
+
+## Klimaendringer
+
+Mer **smeltevann** fra Grønland og økt **nedbør** gjør overflatevannet i Nord-Atlanteren **ferskere** og **lettere**. Forskere undersøker om dette kan **svekke** den atlantiske omveltningssirkulasjonen – noe som kan få store følger for klimaet i Europa.', '{"label":"Rotasjon, trykk og tetthet","children":[{"label":"Trykk","children":[{"label":"Høytrykk og lavtrykk"},{"label":"Trykkgradientkraft"},{"label":"Isobarer"}]},{"label":"Coriolis","children":[{"label":"Høyre i nord"},{"label":"Geostrofisk vind"}]},{"label":"Vinddrevet hav","children":[{"label":"Ekman-transport"},{"label":"Oppstrømning"},{"label":"Havstrømvirvler"}]},{"label":"Tetthetsdrevet hav","children":[{"label":"Temperatur og salt"},{"label":"Termohalin sirkulasjon"}]},{"label":"Norge","children":[{"label":"Golfstrømmen"},{"label":"Risiko for svekkelse"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'geofag-2:coriolis-trykk-og-havstrommer';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('geofag-2:coriolis-trykk-og-havstrommer', 'Lufttrykk', 'Vekten av lufta over et punkt.', 0),
+  ('geofag-2:coriolis-trykk-og-havstrommer', 'Trykkgradientkraft', 'Kraften som får lufta til å strømme fra høyt mot lavt trykk.', 1),
+  ('geofag-2:coriolis-trykk-og-havstrommer', 'Isobar', 'Linje som binder sammen steder med likt lufttrykk.', 2),
+  ('geofag-2:coriolis-trykk-og-havstrommer', 'Corioliseffekten', 'Avbøyning mot høyre på nordlige og venstre på sørlige halvkule.', 3),
+  ('geofag-2:coriolis-trykk-og-havstrommer', 'Geostrofisk vind', 'Vind parallelt med isobarene når trykkgradientkraft og coriolis er i balanse.', 4),
+  ('geofag-2:coriolis-trykk-og-havstrommer', 'Lavtrykk på nordlige halvkule', 'Vinden blåser mot klokka og inn mot sentrum.', 5),
+  ('geofag-2:coriolis-trykk-og-havstrommer', 'Høytrykk på nordlige halvkule', 'Vinden blåser med klokka og ut fra sentrum.', 6),
+  ('geofag-2:coriolis-trykk-og-havstrommer', 'Ekman-transport', 'Netto vanntransport omtrent 90° til høyre for vinden på nordlige halvkule.', 7),
+  ('geofag-2:coriolis-trykk-og-havstrommer', 'Oppstrømning', 'Kaldt, næringsrikt vann strømmer opp fra dypet.', 8),
+  ('geofag-2:coriolis-trykk-og-havstrommer', 'Havstrømvirvel', 'Stort vinddrevet strømsystem i et hav.', 9),
+  ('geofag-2:coriolis-trykk-og-havstrommer', 'Tetthet i havet', 'Avhenger av temperatur og saltholdighet.', 10),
+  ('geofag-2:coriolis-trykk-og-havstrommer', 'Termohalin sirkulasjon', 'Global havsirkulasjon drevet av tetthetsforskjeller.', 11),
+  ('geofag-2:coriolis-trykk-og-havstrommer', 'Dypvannsdannelse', 'Kaldt, salt vann synker i Nord-Atlanteren og rundt Antarktis.', 12),
+  ('geofag-2:coriolis-trykk-og-havstrommer', 'Golfstrømmen', 'Varm havstrøm som gir Norge et mildt klima.', 13),
+  ('geofag-2:coriolis-trykk-og-havstrommer', 'Omveltningssirkulasjonen', 'Den atlantiske sirkulasjonen som kan svekkes av mer ferskvann.', 14);
+delete from public.quiz_sporsmal where tema_id = 'geofag-2:coriolis-trykk-og-havstrommer';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('geofag-2:coriolis-trykk-og-havstrommer', 'q01', 'flervalg', 'Hvilken retning avbøyes vinden på den nordlige halvkule?', array['Mot venstre', 'Mot høyre', 'Rett fram', 'Oppover']::text[], 1, 'Corioliseffekten.', true, true, 0),
+  ('geofag-2:coriolis-trykk-og-havstrommer', 'q02', 'flervalg', 'Hvordan blåser vinden rundt et lavtrykk på den nordlige halvkule?', array['Mot klokka og inn mot sentrum', 'Med klokka og ut fra sentrum', 'Rett inn', 'Rett ut']::text[], 0, 'Luften stiger og gir nedbør.', true, true, 1),
+  ('geofag-2:coriolis-trykk-og-havstrommer', 'q03', 'flervalg', 'Hva betyr tette isobarer på et værkart?', array['Svak vind', 'Mye sol', 'Sterk vind', 'Høy temperatur']::text[], 2, 'Stor trykkgradient.', true, true, 2),
+  ('geofag-2:coriolis-trykk-og-havstrommer', 'q04', 'flervalg', 'Hva er Ekman-transport?', array['Transport av skip', 'Tidevann', 'Vind i høyden', 'Netto vanntransport omtrent 90° til høyre for vinden på nordlige halvkule']::text[], 3, 'En følge av corioliseffekten.', true, true, 3),
+  ('geofag-2:coriolis-trykk-og-havstrommer', 'q05', 'flervalg', 'Hvorfor er oppstrømningsområder rike fiskeområder?', array['Fordi kaldt, næringsrikt vann strømmer opp', 'Fordi vannet er varmt', 'Fordi det er lite strøm', 'Fordi det er lite lys']::text[], 0, 'Gir mye plankton.', true, true, 4),
+  ('geofag-2:coriolis-trykk-og-havstrommer', 'q06', 'flervalg', 'Hvilket vann er tyngst?', array['Varmt og ferskt', 'Kaldt og salt', 'Varmt og salt', 'Kaldt og ferskt']::text[], 1, 'Synker og driver dypvannssirkulasjon.', true, true, 5),
+  ('geofag-2:coriolis-trykk-og-havstrommer', 'q07', 'flervalg', 'Hva er geostrofisk vind?', array['Vind nær bakken', 'Vind mot lavtrykket alltid', 'Vind parallelt med isobarene i høyden', 'Sjøbris']::text[], 2, 'Balanse mellom trykkgradient og coriolis.', true, true, 6),
+  ('geofag-2:coriolis-trykk-og-havstrommer', 'q08', 'flervalg', 'Hvorfor har Norge mildere klima enn andre steder på samme breddegrad?', array['Fordi Norge ligger nær ekvator', 'På grunn av fjellene', 'På grunn av permafrost', 'På grunn av Golfstrømmen og vestavindene']::text[], 3, 'Varmt vann og mild luft.', true, true, 7),
+  ('geofag-2:coriolis-trykk-og-havstrommer', 'q09', 'flervalg', 'Hvor er corioliseffekten null?', array['Ved ekvator', 'Ved polene', 'Ved 45°', 'Overalt']::text[], 0, 'Størst ved polene.', true, false, 8),
+  ('geofag-2:coriolis-trykk-og-havstrommer', 'q10', 'flervalg', 'Hva kan mer smeltevann fra Grønland gjøre med havsirkulasjonen?', array['Styrke den', 'Svekke den fordi overflatevannet blir lettere', 'Ingenting', 'Stoppe tidevannet']::text[], 1, 'Mindre dypvannsdannelse.', true, false, 9),
+  ('geofag-2:coriolis-trykk-og-havstrommer', 'm01', 'sant-usant', 'Høytrykk gir ofte klart og stabilt vær.', array['Sant', 'Usant']::text[], 0, 'Synkende luft hindrer skydannelse.', false, true, 10),
+  ('geofag-2:coriolis-trykk-og-havstrommer', 'm02', 'sant-usant', 'Rundt et lavtrykk på den sørlige halvkule blåser vinden mot klokka.', array['Sant', 'Usant']::text[], 1, 'Retningen er motsatt – med klokka.', false, true, 11),
+  ('geofag-2:coriolis-trykk-og-havstrommer', 'm03', 'sant-usant', 'Den termohaline sirkulasjonen kan bruke rundt tusen år på én runde.', array['Sant', 'Usant']::text[], 0, 'Det globale transportbåndet.', false, true, 12),
+  ('geofag-2:coriolis-trykk-og-havstrommer', 'm04', 'sant-usant', 'Friksjon nær bakken får vinden til å blåse helt parallelt med isobarene.', array['Sant', 'Usant']::text[], 1, 'Nær bakken blåser den litt inn mot lavtrykket.', false, true, 13),
+  ('geofag-2:coriolis-trykk-og-havstrommer', 'm05', 'flervalg', 'Hvor dannes dypvann som driver den termohaline sirkulasjonen?', array['Ved ekvator', 'I Nord-Atlanteren og rundt Antarktis', 'I Middelhavet', 'I Stillehavet ved Peru']::text[], 1, 'Kaldt, salt vann synker.', false, true, 14),
+  ('geofag-2:coriolis-trykk-og-havstrommer', 'm06', 'flervalg', 'Hvorfor er kysten av Norge isfri om vinteren?', array['Golfstrømmen og Den nordatlantiske strømmen', 'Høyt saltinnhold alene', 'Tidevannet', 'Vulkaner']::text[], 0, 'Varmt vann fra sør.', false, true, 15),
+  ('geofag-2:coriolis-trykk-og-havstrommer', 'm07', 'flervalg', 'Hvor finner vi et kjent oppstrømningsområde?', array['I Nordsjøen', 'I Østersjøen', 'Utenfor Peru', 'I Mjøsa']::text[], 2, 'Rike fiskeområder.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('geofag-2:coriolis-trykk-og-havstrommer', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Geofag 2: Værsystemer og værkart
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('geofag-2:vaersystemer-og-vaerkart', 'geofag-2', 'vaersystemer-og-vaerkart', 'Værsystemer og værkart', 'Hvordan værsystemer oppstår og utvikler seg på global, regional og lokal skala – luftmasser og fronter, polarfrontteorien og ekstratropiske lavtrykk, tropiske sykloner og monsun, lokale vinder som sjøbris og fønvind – og hvordan du tolker værkart og værutvikling.', array[4]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('geofag-2:vaersystemer-og-vaerkart', '## Luftmasser
+
+En **luftmasse** er et stort område med luft som har omtrent lik **temperatur** og **fuktighet**. Den får egenskapene fra området den dannes over:
+
+- **Arktisk** eller **polar** luft er **kald**.
+- **Tropisk** luft er **varm**.
+- **Maritim** luft dannes over hav og er **fuktig**.
+- **Kontinental** luft dannes over land og er **tørr**.
+
+## Fronter
+
+En **front** er grensen mellom to luftmasser.
+
+- **Kaldfront**: Kald luft trenger inn under varm luft og løfter den **bratt**. Det gir ofte **kraftige byger**, vindskifte og **temperaturfall**.
+- **Varmfront**: Varm luft glir **sakte** opp over kald luft. Det gir lagdelte skyer og **langvarig**, jevn nedbør.
+- **Okklusjon**: Kaldfronten tar igjen varmfronten, og den varme luften løftes helt opp fra bakken.
+
+## Polarfrontteorien og lavtrykk
+
+Norske meteorologer i **Bergensskolen**, ledet av **Vilhelm Bjerknes**, utviklet tidlig på 1900-tallet **polarfrontteorien**. Den forklarer hvordan **ekstratropiske lavtrykk** dannes langs **polarfronten**:
+
+1. En **bølge** oppstår på fronten mellom kald og varm luft.
+2. Det dannes et **lavtrykk** med en varmfront og en kaldfront.
+3. Lavtrykket **utdyper** seg og gir vind og nedbør.
+4. Kaldfronten tar igjen varmfronten – **okklusjon** – og lavtrykket **svekkes**.
+
+Norge ligger i **vestavindsbeltet** og får mange slike lavtrykk fra **Atlanterhavet**.
+
+## Tropiske sykloner
+
+**Tropiske sykloner** – kalt **orkaner** i Atlanterhavet og **tyfoner** i Stillehavet – dannes over **varmt hav**, med havtemperatur på omtrent **26 °C** eller mer. Fordamping gir enorme mengder **energi** når vanndampen kondenserer. De har et rolig **øye** i midten og gir **ekstrem** vind, regn og **stormflo**. De svekkes når de kommer inn over land eller kaldere hav.
+
+## Monsun
+
+**Monsun** er vinder som skifter retning med **årstidene**. Om sommeren blir land varmere enn havet, og fuktig luft strømmer inn over land og gir **kraftig regn**, som i **Sør-Asia**. Om vinteren snur vinden.
+
+## Lokale vinder
+
+- **Sjøbris**: Om dagen blir land varmere enn sjøen, og vinden blåser **fra sjøen** mot land. Om natta kan det bli **landbris**.
+- **Fønvind**: Fuktig luft stiger opp over fjell, avkjøles og mister fuktighet som nedbør. Når den synker ned på **lesiden**, blir den **varm** og **tørr**.
+- **Fallvinder**: Kald, tung luft renner ned fjellsider og daler.
+
+## Værkart
+
+På et **værkart**
+
+- viser **isobarer** lufttrykket. Tette isobarer betyr **sterk** vind.
+- er **H** høytrykk og **L** lavtrykk.
+- vises **kaldfronter** med **trekanter** og **varmfronter** med **halvsirkler**.
+- viser **satellittbilder** og **radarbilder** skyer og nedbør.
+
+Når du **tolker** et værkart, ser du på hvor lavtrykkene og frontene er, hvor de **beveger seg**, og hva slags **vær** de vil gi – for eksempel regn og mildvær når en varmfront nærmer seg Vestlandet.', '{"label":"Værsystemer","children":[{"label":"Luftmasser","children":[{"label":"Arktisk og tropisk"},{"label":"Maritim og kontinental"}]},{"label":"Fronter","children":[{"label":"Kaldfront"},{"label":"Varmfront"},{"label":"Okklusjon"}]},{"label":"Lavtrykk","children":[{"label":"Polarfrontteorien"},{"label":"Bergensskolen"}]},{"label":"Globalt og regionalt","children":[{"label":"Tropiske sykloner"},{"label":"Monsun"}]},{"label":"Lokalt og kart","children":[{"label":"Sjøbris og fønvind"},{"label":"Isobarer og fronter på kart"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'geofag-2:vaersystemer-og-vaerkart';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('geofag-2:vaersystemer-og-vaerkart', 'Luftmasse', 'Stort område med luft med lik temperatur og fuktighet.', 0),
+  ('geofag-2:vaersystemer-og-vaerkart', 'Maritim luft', 'Fuktig luft dannet over hav.', 1),
+  ('geofag-2:vaersystemer-og-vaerkart', 'Kontinental luft', 'Tørr luft dannet over land.', 2),
+  ('geofag-2:vaersystemer-og-vaerkart', 'Kaldfront', 'Kald luft løfter varm luft bratt – byger og temperaturfall.', 3),
+  ('geofag-2:vaersystemer-og-vaerkart', 'Varmfront', 'Varm luft glir over kald luft – jevn, langvarig nedbør.', 4),
+  ('geofag-2:vaersystemer-og-vaerkart', 'Okklusjon', 'Kaldfronten tar igjen varmfronten.', 5),
+  ('geofag-2:vaersystemer-og-vaerkart', 'Bergensskolen', 'Norske meteorologer som utviklet polarfrontteorien.', 6),
+  ('geofag-2:vaersystemer-og-vaerkart', 'Vilhelm Bjerknes', 'Ledet Bergensskolen.', 7),
+  ('geofag-2:vaersystemer-og-vaerkart', 'Ekstratropisk lavtrykk', 'Lavtrykk som dannes langs polarfronten.', 8),
+  ('geofag-2:vaersystemer-og-vaerkart', 'Tropisk syklon', 'Kraftig storm over varmt hav – orkan eller tyfon.', 9),
+  ('geofag-2:vaersystemer-og-vaerkart', 'Monsun', 'Vinder som skifter retning med årstidene.', 10),
+  ('geofag-2:vaersystemer-og-vaerkart', 'Sjøbris', 'Vind fra sjøen mot land om dagen.', 11),
+  ('geofag-2:vaersystemer-og-vaerkart', 'Fønvind', 'Varm og tørr fallvind på lesiden av fjell.', 12),
+  ('geofag-2:vaersystemer-og-vaerkart', 'Kaldfront på kart', 'Vises med trekanter.', 13),
+  ('geofag-2:vaersystemer-og-vaerkart', 'Varmfront på kart', 'Vises med halvsirkler.', 14);
+delete from public.quiz_sporsmal where tema_id = 'geofag-2:vaersystemer-og-vaerkart';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('geofag-2:vaersystemer-og-vaerkart', 'q01', 'flervalg', 'Hva slags vær gir en kaldfront ofte?', array['Langvarig, jevn nedbør', 'Kraftige byger og temperaturfall', 'Tåke', 'Varmt og tørt vær']::text[], 1, 'Varm luft løftes bratt.', true, true, 0),
+  ('geofag-2:vaersystemer-og-vaerkart', 'q02', 'flervalg', 'Hvem utviklet polarfrontteorien?', array['Bergensskolen med Vilhelm Bjerknes', 'Isaac Newton', 'Charles Darwin', 'Albert Einstein']::text[], 0, 'Tidlig på 1900-tallet.', true, true, 1),
+  ('geofag-2:vaersystemer-og-vaerkart', 'q03', 'flervalg', 'Hva kreves for at en tropisk syklon skal dannes?', array['Kaldt hav', 'Tørr luft', 'Varmt hav på omtrent 26 °C eller mer', 'Høytrykk']::text[], 2, 'Energien kommer fra fordamping.', true, true, 2),
+  ('geofag-2:vaersystemer-og-vaerkart', 'q04', 'flervalg', 'Hva er fønvind?', array['Kald vind fra havet', 'Vind i en orkan', 'Vind rundt høytrykk', 'Varm og tørr vind på lesiden av fjell']::text[], 3, 'Luften har mistet fuktighet på vei opp.', true, true, 3),
+  ('geofag-2:vaersystemer-og-vaerkart', 'q05', 'flervalg', 'Hvordan vises en varmfront på et værkart?', array['Med halvsirkler', 'Med trekanter', 'Med stjerner', 'Med piler']::text[], 0, 'Kaldfronter har trekanter.', true, true, 4),
+  ('geofag-2:vaersystemer-og-vaerkart', 'q06', 'flervalg', 'Når blåser sjøbris?', array['Om natta', 'Om dagen når land er varmere enn sjøen', 'Bare om vinteren', 'Aldri']::text[], 1, 'Om natta kan det bli landbris.', true, true, 5),
+  ('geofag-2:vaersystemer-og-vaerkart', 'q07', 'flervalg', 'Hva er okklusjon?', array['Et høytrykk', 'En orkan', 'At kaldfronten tar igjen varmfronten', 'En type sky']::text[], 2, 'Lavtrykket svekkes.', true, true, 6),
+  ('geofag-2:vaersystemer-og-vaerkart', 'q08', 'flervalg', 'Hva er monsun?', array['En type orkan', 'En lokal vind', 'En havstrøm', 'Vinder som skifter retning med årstidene']::text[], 3, 'Gir kraftig regn i Sør-Asia om sommeren.', true, true, 7),
+  ('geofag-2:vaersystemer-og-vaerkart', 'q09', 'flervalg', 'Hva slags luft er maritim luft?', array['Fuktig luft dannet over hav', 'Tørr luft over land', 'Luft i høyden', 'Luft ved polene alltid']::text[], 0, 'Kontinental luft er tørr.', true, false, 8),
+  ('geofag-2:vaersystemer-og-vaerkart', 'q10', 'flervalg', 'Hvorfor svekkes tropiske sykloner over land?', array['Fordi de treffer fjell alene', 'Fordi de mister tilgangen på energi fra varmt hav', 'Fordi det blir mørkt', 'Fordi det er for mye vann']::text[], 1, 'Fordamping driver dem.', true, false, 9),
+  ('geofag-2:vaersystemer-og-vaerkart', 'm01', 'sant-usant', 'Tropiske sykloner har et rolig øye i midten.', array['Sant', 'Usant']::text[], 0, 'Rundt øyet er vinden kraftigst.', false, true, 10),
+  ('geofag-2:vaersystemer-og-vaerkart', 'm02', 'sant-usant', 'En varmfront gir vanligvis korte, kraftige byger.', array['Sant', 'Usant']::text[], 1, 'Den gir jevn, langvarig nedbør.', false, true, 11),
+  ('geofag-2:vaersystemer-og-vaerkart', 'm03', 'sant-usant', 'Norge får mange lavtrykk fra Atlanterhavet.', array['Sant', 'Usant']::text[], 0, 'Norge ligger i vestavindsbeltet.', false, true, 12),
+  ('geofag-2:vaersystemer-og-vaerkart', 'm04', 'sant-usant', 'Tette isobarer betyr svak vind.', array['Sant', 'Usant']::text[], 1, 'De betyr sterk vind.', false, true, 13),
+  ('geofag-2:vaersystemer-og-vaerkart', 'm05', 'flervalg', 'Hva kalles tropiske sykloner i Stillehavet?', array['Orkaner', 'Tyfoner', 'Tornadoer', 'Monsuner']::text[], 1, 'I Atlanterhavet kalles de orkaner.', false, true, 14),
+  ('geofag-2:vaersystemer-og-vaerkart', 'm06', 'flervalg', 'Hva er fallvinder?', array['Kald, tung luft som renner ned fjellsider', 'Varm luft som stiger', 'Vind fra havet', 'Vind i orkaner']::text[], 0, 'Vanlig i fjorder og daler.', false, true, 15),
+  ('geofag-2:vaersystemer-og-vaerkart', 'm07', 'flervalg', 'Hva viser radarbilder?', array['Lufttrykk', 'Temperatur', 'Nedbør', 'Havstrømmer']::text[], 2, 'Brukes i værvarsling.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('geofag-2:vaersystemer-og-vaerkart', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Geofag 2: Numeriske modeller i værvarsling, havmodellering og klimaforskning
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('geofag-2:numeriske-modeller', 'geofag-2', 'numeriske-modeller', 'Numeriske modeller i værvarsling, havmodellering og klimaforskning', 'Hvordan numeriske modeller i geofag bygges opp – gitterruter, fysikkens lover, startverdier og dataassimilering, tidssteg og parametrisering – hvordan de videreutvikles, og hvordan de brukes i værvarsling med ensembler, i havmodeller og i klimamodeller.', array[5]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('geofag-2:numeriske-modeller', '## Hva er en numerisk modell?
+
+En **numerisk modell** er et dataprogram som beregner hvordan **atmosfæren**, **havet** eller **klimasystemet** utvikler seg. Den bygger på **fysikkens lover**:
+
+- **Newtons lover** for bevegelse – vind og strøm
+- **Bevaring** av masse, energi og vann
+- **Termodynamikk** – sammenhengen mellom temperatur, trykk og tetthet
+
+Ligningene kan ikke løses eksakt for hele jorda. Derfor løses de **tilnærmet** med **tallberegninger**.
+
+## Gitter og tidssteg
+
+Modellen deler atmosfæren og havet inn i et tredimensjonalt **gitter** av **ruter** i flere **lag** i høyden eller dybden. For hver rute beregnes **temperatur**, **trykk**, **vind**, **fuktighet** og andre størrelser. Modellen regner seg fram i små **tidssteg**, for eksempel noen minutter om gangen.
+
+**Oppløsningen** – størrelsen på rutene – avgjør hvor små detaljer modellen kan vise. Finere oppløsning gir bedre detaljer, men krever mye mer **regnekraft**. Derfor brukes **superdatamaskiner**.
+
+## Parametrisering
+
+Noen prosesser er **mindre** enn rutene, som enkeltskyer, turbulens og byger. De beskrives med forenklede **formler** – **parametrisering**. Dette er en viktig kilde til **usikkerhet**.
+
+## Startverdier og dataassimilering
+
+En værvarslingsmodell trenger **startverdier** – hvordan atmosfæren er **nå**. Data kommer fra
+
+- **værstasjoner** på bakken
+- **værballonger**
+- **satellitter**
+- **fly**, **skip** og **bøyer**
+
+**Dataassimilering** kombinerer målingene med en tidligere modellberegning til best mulige startverdier.
+
+## Kaos og ensembler
+
+Atmosfæren er et **kaotisk** system: Små feil i startverdiene kan vokse og gi store forskjeller etter noen dager. Meteorologen **Edward Lorenz** beskrev dette som **sommerfugleffekten**. Derfor er værvarsler mest pålitelige for de nærmeste dagene.
+
+For å håndtere usikkerheten kjøres **ensemblevarsler**: Modellen kjøres mange ganger med litt **ulike** startverdier. Stor **spredning** mellom kjøringene betyr **usikkert** vær, og varslet kan oppgis som **sannsynligheter** – for eksempel 70 % sjanse for regn.
+
+## Havmodeller
+
+**Havmodeller** beregner **strømmer**, **temperatur**, **saltholdighet**, **bølger** og **vannstand**. De brukes til å varsle **stormflo**, spore **oljeutslipp**, planlegge **havbruk** og følge **lakselus** og drift av søppel.
+
+## Klimamodeller
+
+**Klimamodeller** kobler atmosfære, hav, is, land og biosfære. De skal ikke varsle været en bestemt dag, men **statistikken** for været over mange **år** – middelverdier og ekstremer. Mens værvarsling avhenger av **startverdiene**, avhenger klimamodeller mest av **pådriv**, som mengden **drivhusgasser**. Derfor kjøres modellene med ulike **utslippsscenarioer**.
+
+Klimamodellene **testes** ved å se om de kan gjenskape **fortidens** klima.
+
+## Videreutvikling
+
+Modellene blir stadig bedre gjennom **finere oppløsning**, bedre **parametrisering**, **flere observasjoner** og bruk av **maskinlæring**. I Norge lager **Meteorologisk institutt** varslene som vises blant annet på **yr**.', '{"label":"Numeriske modeller","children":[{"label":"Oppbygning","children":[{"label":"Fysikkens lover"},{"label":"Gitter og tidssteg"},{"label":"Parametrisering"}]},{"label":"Startverdier","children":[{"label":"Observasjoner"},{"label":"Dataassimilering"}]},{"label":"Værvarsling","children":[{"label":"Kaos"},{"label":"Ensembler og sannsynlighet"}]},{"label":"Hav og klima","children":[{"label":"Havmodeller"},{"label":"Klimamodeller og scenarioer"}]},{"label":"Utvikling","children":[{"label":"Oppløsning"},{"label":"Maskinlæring"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'geofag-2:numeriske-modeller';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('geofag-2:numeriske-modeller', 'Numerisk modell', 'Dataprogram som beregner utviklingen i atmosfære, hav eller klima.', 0),
+  ('geofag-2:numeriske-modeller', 'Gitter', 'Tredimensjonalt nett av ruter modellen regner i.', 1),
+  ('geofag-2:numeriske-modeller', 'Oppløsning', 'Størrelsen på gitterrutene.', 2),
+  ('geofag-2:numeriske-modeller', 'Tidssteg', 'Den korte tiden modellen regner fram i hvert steg.', 3),
+  ('geofag-2:numeriske-modeller', 'Parametrisering', 'Forenklede formler for prosesser som er mindre enn rutene.', 4),
+  ('geofag-2:numeriske-modeller', 'Startverdier', 'Tilstanden til atmosfæren når beregningen starter.', 5),
+  ('geofag-2:numeriske-modeller', 'Dataassimilering', 'Målinger og modell kombineres til best mulige startverdier.', 6),
+  ('geofag-2:numeriske-modeller', 'Kaotisk system', 'Små feil i startverdiene kan vokse og gi store forskjeller.', 7),
+  ('geofag-2:numeriske-modeller', 'Sommerfugleffekten', 'Lorenz'' bilde på kaos i atmosfæren.', 8),
+  ('geofag-2:numeriske-modeller', 'Ensemblevarsel', 'Mange kjøringer med litt ulike startverdier.', 9),
+  ('geofag-2:numeriske-modeller', 'Spredning i ensemble', 'Stor spredning betyr usikkert vær.', 10),
+  ('geofag-2:numeriske-modeller', 'Havmodell', 'Beregner strømmer, bølger, temperatur og vannstand.', 11),
+  ('geofag-2:numeriske-modeller', 'Klimamodell', 'Kobler atmosfære, hav, is og land og beregner klimastatistikk.', 12),
+  ('geofag-2:numeriske-modeller', 'Utslippsscenario', 'Antakelse om framtidige utslipp brukt i klimamodeller.', 13),
+  ('geofag-2:numeriske-modeller', 'Meteorologisk institutt', 'Lager værvarslene i Norge.', 14);
+delete from public.quiz_sporsmal where tema_id = 'geofag-2:numeriske-modeller';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('geofag-2:numeriske-modeller', 'q01', 'flervalg', 'Hva bygger numeriske modeller på?', array['Gjetninger', 'Fysikkens lover', 'Historiske værtabeller alene', 'Tilfeldige tall']::text[], 1, 'Bevegelse, bevaring og termodynamikk.', true, true, 0),
+  ('geofag-2:numeriske-modeller', 'q02', 'flervalg', 'Hva er parametrisering?', array['Forenklede formler for prosesser som er mindre enn rutene', 'Innsamling av data', 'Valg av tidssteg', 'Visning av værkart']::text[], 0, 'En viktig kilde til usikkerhet.', true, true, 1),
+  ('geofag-2:numeriske-modeller', 'q03', 'flervalg', 'Hvorfor er værvarsler mest pålitelige for de nærmeste dagene?', array['Fordi modellene er gamle', 'Fordi det er færre målinger', 'Fordi atmosfæren er kaotisk og små feil vokser', 'Fordi været aldri endres']::text[], 2, 'Sommerfugleffekten.', true, true, 2),
+  ('geofag-2:numeriske-modeller', 'q04', 'flervalg', 'Hva er et ensemblevarsel?', array['Et varsel for én by', 'Et varsel fra én kjøring', 'Et varsel uten data', 'Mange kjøringer med litt ulike startverdier']::text[], 3, 'Gir sannsynligheter.', true, true, 3),
+  ('geofag-2:numeriske-modeller', 'q05', 'flervalg', 'Hva avhenger klimamodeller mest av?', array['Pådriv, som mengden drivhusgasser', 'Startverdiene i dag', 'Været i morgen', 'Antall værstasjoner']::text[], 0, 'Kjøres med ulike utslippsscenarioer.', true, true, 4),
+  ('geofag-2:numeriske-modeller', 'q06', 'flervalg', 'Hva er dataassimilering?', array['Å tegne værkart', 'Å kombinere målinger og modell til startverdier', 'Å slette gamle data', 'Å velge oppløsning']::text[], 1, 'Gir best mulige startverdier.', true, true, 5),
+  ('geofag-2:numeriske-modeller', 'q07', 'flervalg', 'Hva krever finere oppløsning?', array['Færre data', 'Større ruter', 'Mye mer regnekraft', 'Ingen endring']::text[], 2, 'Derfor brukes superdatamaskiner.', true, true, 6),
+  ('geofag-2:numeriske-modeller', 'q08', 'flervalg', 'Hva kan havmodeller brukes til?', array['Bare å måle temperatur i lufta', 'Varsle jordskjelv', 'Beregne solstråling', 'Varsle stormflo og spore oljeutslipp']::text[], 3, 'Også havbruk og lakselus.', true, true, 7),
+  ('geofag-2:numeriske-modeller', 'q09', 'flervalg', 'Hvordan testes klimamodeller?', array['Ved å se om de kan gjenskape fortidens klima', 'Ved å varsle været i morgen', 'Ved å spørre folk', 'De testes ikke']::text[], 0, 'Paleoklima og historiske data.', true, false, 8),
+  ('geofag-2:numeriske-modeller', 'q10', 'flervalg', 'Hva betyr stor spredning mellom ensemblekjøringene?', array['Sikkert vær', 'Usikkert vær', 'Mye sol', 'Feil modell']::text[], 1, 'Varslet gis som sannsynligheter.', true, false, 9),
+  ('geofag-2:numeriske-modeller', 'm01', 'sant-usant', 'Satellitter gir startverdier til værmodeller.', array['Sant', 'Usant']::text[], 0, 'Sammen med stasjoner, ballonger og bøyer.', false, true, 10),
+  ('geofag-2:numeriske-modeller', 'm02', 'sant-usant', 'Klimamodeller varsler været på en bestemt dag om 50 år.', array['Sant', 'Usant']::text[], 1, 'De beregner statistikk over mange år.', false, true, 11),
+  ('geofag-2:numeriske-modeller', 'm03', 'sant-usant', 'Modellen regner i små tidssteg, for eksempel noen minutter.', array['Sant', 'Usant']::text[], 0, 'Tilnærmet løsning av ligningene.', false, true, 12),
+  ('geofag-2:numeriske-modeller', 'm04', 'sant-usant', 'Enkeltskyer beregnes alltid direkte i globale modeller.', array['Sant', 'Usant']::text[], 1, 'De er mindre enn rutene og parametriseres.', false, true, 13),
+  ('geofag-2:numeriske-modeller', 'm05', 'flervalg', 'Hvem beskrev sommerfugleffekten?', array['Vilhelm Bjerknes', 'Edward Lorenz', 'Isaac Newton', 'Albert Einstein']::text[], 1, 'Kaos i atmosfæren.', false, true, 14),
+  ('geofag-2:numeriske-modeller', 'm06', 'flervalg', 'Hvordan kan et ensemblevarsel oppgis?', array['Som sannsynlighet, for eksempel 70 % sjanse for regn', 'Bare som ja eller nei', 'Som en temperatur alltid', 'Uten tall']::text[], 0, 'Viser usikkerheten.', false, true, 15),
+  ('geofag-2:numeriske-modeller', 'm07', 'flervalg', 'Hva forbedrer modellene over tid?', array['Færre observasjoner', 'Grovere oppløsning', 'Finere oppløsning og bedre parametrisering', 'Mindre regnekraft']::text[], 2, 'Også maskinlæring.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('geofag-2:numeriske-modeller', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Geofag 2: Klimasystemet og menneskeskapt klimapåvirkning
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('geofag-2:klimasystemet', 'geofag-2', 'klimasystemet', 'Klimasystemet og menneskeskapt klimapåvirkning', 'Klimasystemet på ulike skalaer i tid og rom – forskjellen på vær og klima, naturlige variasjoner som El Niño, NAO, vulkaner, sola og jordbanen – og hvordan menneskeskapte utslipp av drivhusgasser og endret arealbruk påvirker klimaet, slik FNs klimapanel vurderer det.', array[6]::int[], 5, 'sjekkes', array['Sjekk gjeldende tall for CO₂-konsentrasjon og global oppvarming mot siste IPCC-rapport og måleserier.']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('geofag-2:klimasystemet', '## Vær og klima
+
+- **Vær** er tilstanden i atmosfæren på et bestemt sted og tidspunkt.
+- **Klima** er **gjennomsnittet** og **variasjonen** i været over lang tid, vanligvis **30 år** – en **normalperiode**.
+
+## Skalaer i tid og rom
+
+Klimaet varierer på mange skalaer:
+
+- **Lokalt**: et byklima eller en fjellside
+- **Regionalt**: kyst- og innlandsklima i Norge
+- **Globalt**: hele jordas klima
+
+I tid varierer klimaet fra **år til år**, over **tiår** og over **tusener** og **millioner** av år.
+
+## Naturlige variasjoner
+
+- **El Niño og La Niña**: Svingninger i havtemperaturen i Stillehavet som påvirker været i store deler av verden. El Niño-år er ofte **varmere** globalt.
+- **Den nordatlantiske oscillasjonen (NAO)**: Trykkforskjellen mellom Island og Asorene påvirker vintrene i Norge. Positiv NAO gir **milde** og **våte** vintre, negativ gir **kalde** og **tørre**.
+- **Vulkanutbrudd** kan gi **avkjøling** i noen år.
+- **Solaktivitet** varierer i en syklus på omtrent **11 år**, men effekten på klimaet er **liten**.
+- **Jordbanens** variasjoner over tusener av år styrer **istider** og **mellomistider**.
+
+## Menneskeskapt klimapåvirkning
+
+Siden **industrialiseringen** har menneskene sluppet ut store mengder **drivhusgasser**:
+
+- **CO₂** fra fossile brensler, sement og avskoging. Konsentrasjonen har økt fra omtrent **280 ppm** før industrialiseringen til over **420 ppm** i dag.
+- **Metan** fra husdyr, risdyrking, avfall og olje- og gassproduksjon
+- **Lystgass** fra gjødsling og industri
+
+I tillegg påvirker **arealbruk** – avskoging og drenering – og **aerosoler** klimaet. Aerosoler har til en viss grad **dempet** oppvarmingen.
+
+## Hva viser forskningen?
+
+**FNs klimapanel (IPCC)** samler og vurderer forskningen. Panelets hovedkonklusjoner er at
+
+- den globale temperaturen har økt med omtrent **1,1–1,2 °C** siden førindustriell tid
+- det er **utvetydig** at menneskelig påvirkning har varmet opp atmosfæren, havet og landjorda
+- oppvarmingen gir **havnivåstigning**, **smelting** av is og mer **ekstremvær**
+
+## Hvordan vet vi at det er menneskeskapt?
+
+- **Fysikken**: Drivhuseffekten har vært kjent i over hundre år.
+- **Fingeravtrykk**: Den **nedre** atmosfæren blir varmere, mens den **øvre** – stratosfæren – blir **kaldere**. Det passer med økt drivhuseffekt, ikke med økt solaktivitet.
+- **Isotoper** viser at det ekstra karbonet i atmosfæren kommer fra **fossilt** materiale.
+- **Modeller** klarer ikke å forklare oppvarmingen uten menneskeskapte utslipp.
+
+## Attribusjon
+
+**Attribusjonsforskning** undersøker hvor mye mer **sannsynlig** eller **kraftig** en bestemt ekstremhendelse – som en hetebølge – har blitt på grunn av klimaendringene.
+
+## Klimaendringer i Norge
+
+Norge har blitt **varmere** og **våtere**. Det er ventet mer **kraftig nedbør**, flere **regnflommer**, kortere **snøsesong** i lavlandet og **havnivåstigning** langs store deler av kysten.', '{"label":"Klimasystemet","children":[{"label":"Begreper","children":[{"label":"Vær og klima"},{"label":"Normalperiode"}]},{"label":"Skalaer","children":[{"label":"Lokal, regional, global"},{"label":"År til millioner av år"}]},{"label":"Naturlig variasjon","children":[{"label":"El Niño og NAO"},{"label":"Vulkaner og sola"},{"label":"Jordbanen"}]},{"label":"Menneskeskapt","children":[{"label":"CO₂, metan og lystgass"},{"label":"Arealbruk"},{"label":"Aerosoler"}]},{"label":"Kunnskap","children":[{"label":"IPCC"},{"label":"Fingeravtrykk og isotoper"},{"label":"Attribusjon"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'geofag-2:klimasystemet';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('geofag-2:klimasystemet', 'Vær', 'Tilstanden i atmosfæren på et bestemt sted og tidspunkt.', 0),
+  ('geofag-2:klimasystemet', 'Klima', 'Gjennomsnittet og variasjonen i været over lang tid.', 1),
+  ('geofag-2:klimasystemet', 'Normalperiode', '30-årsperiode brukt for å beskrive klimaet.', 2),
+  ('geofag-2:klimasystemet', 'El Niño', 'Varmt havvann i Stillehavet som påvirker været globalt.', 3),
+  ('geofag-2:klimasystemet', 'NAO', 'Den nordatlantiske oscillasjonen som påvirker vintrene i Norge.', 4),
+  ('geofag-2:klimasystemet', 'Positiv NAO', 'Milde og våte vintre i Norge.', 5),
+  ('geofag-2:klimasystemet', 'Solsyklus', 'Variasjon i solaktiviteten på omtrent 11 år.', 6),
+  ('geofag-2:klimasystemet', 'CO₂-konsentrasjon', 'Økt fra omtrent 280 ppm til over 420 ppm.', 7),
+  ('geofag-2:klimasystemet', 'Metan', 'Drivhusgass fra husdyr, ris, avfall og olje- og gassproduksjon.', 8),
+  ('geofag-2:klimasystemet', 'IPCC', 'FNs klimapanel som vurderer klimaforskningen.', 9),
+  ('geofag-2:klimasystemet', 'Global oppvarming', 'Omtrent 1,1–1,2 °C siden førindustriell tid.', 10),
+  ('geofag-2:klimasystemet', 'Fingeravtrykk', 'Varmere nedre atmosfære og kaldere stratosfære tyder på drivhuseffekt.', 11),
+  ('geofag-2:klimasystemet', 'Isotoper i CO₂', 'Viser at ekstra karbon kommer fra fossilt materiale.', 12),
+  ('geofag-2:klimasystemet', 'Attribusjon', 'Forskning på hvor mye klimaendringene påvirker enkelthendelser.', 13),
+  ('geofag-2:klimasystemet', 'Aerosoler', 'Partikler som har dempet noe av oppvarmingen.', 14);
+delete from public.quiz_sporsmal where tema_id = 'geofag-2:klimasystemet';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('geofag-2:klimasystemet', 'q01', 'flervalg', 'Hva er forskjellen på vær og klima?', array['Det er det samme', 'Vær er tilstanden nå, klima er gjennomsnitt og variasjon over lang tid', 'Klima er været i dag', 'Vær gjelder bare temperatur']::text[], 1, 'Vanligvis 30 år.', true, true, 0),
+  ('geofag-2:klimasystemet', 'q02', 'flervalg', 'Hvilken vintertype gir positiv NAO i Norge?', array['Milde og våte vintre', 'Kalde og tørre vintre', 'Ingen vinter', 'Vintre med mye sol']::text[], 0, 'Mye vestavind.', true, true, 1),
+  ('geofag-2:klimasystemet', 'q03', 'flervalg', 'Hvor mye har CO₂-konsentrasjonen økt siden førindustriell tid?', array['Fra 420 til 280 ppm', 'Fra 100 til 150 ppm', 'Fra omtrent 280 til over 420 ppm', 'Ingen endring']::text[], 2, 'Hovedsakelig fra fossile brensler.', true, true, 2),
+  ('geofag-2:klimasystemet', 'q04', 'flervalg', 'Hva er IPCC?', array['Et oljeselskap', 'En værstasjon', 'Et miljøparti', 'FNs klimapanel som vurderer klimaforskningen']::text[], 3, 'Samler forskningen.', true, true, 3),
+  ('geofag-2:klimasystemet', 'q05', 'flervalg', 'Hvilket fingeravtrykk tyder på økt drivhuseffekt og ikke økt solaktivitet?', array['Varmere nedre atmosfære og kaldere stratosfære', 'Varmere stratosfære', 'Kaldere hav', 'Mer is']::text[], 0, 'Solen ville varmet begge.', true, true, 4),
+  ('geofag-2:klimasystemet', 'q06', 'flervalg', 'Hva er attribusjonsforskning?', array['Forskning på isotoper', 'Forskning på hvor mye klimaendringene påvirker enkelte ekstremhendelser', 'Forskning på solen', 'Forskning på vulkaner']::text[], 1, 'For eksempel hetebølger.', true, true, 5),
+  ('geofag-2:klimasystemet', 'q07', 'flervalg', 'Hvordan har aerosoler påvirket oppvarmingen?', array['Forsterket den kraftig', 'Ikke påvirket den', 'Dempet den til en viss grad', 'Stoppet den helt']::text[], 2, 'De reflekterer sollys.', true, true, 6),
+  ('geofag-2:klimasystemet', 'q08', 'flervalg', 'Hvilke endringer er ventet i Norge?', array['Tørrere og kaldere', 'Mindre nedbør', 'Lengre snøsesong overalt', 'Varmere, våtere og mer kraftig nedbør']::text[], 3, 'Også havnivåstigning.', true, true, 7),
+  ('geofag-2:klimasystemet', 'q09', 'flervalg', 'Omtrent hvor mye har den globale temperaturen økt siden førindustriell tid?', array['1,1–1,2 °C', '5 °C', '0,1 °C', '10 °C']::text[], 0, 'Ifølge IPCC.', true, false, 8),
+  ('geofag-2:klimasystemet', 'q10', 'flervalg', 'Hva viser isotopene i atmosfærens CO₂?', array['At karbonet kommer fra vulkaner', 'At det ekstra karbonet kommer fra fossilt materiale', 'At karbonet kommer fra havet', 'Ingenting']::text[], 1, 'Et bevis på menneskelig påvirkning.', true, false, 9),
+  ('geofag-2:klimasystemet', 'm01', 'sant-usant', 'El Niño-år er ofte varmere globalt.', array['Sant', 'Usant']::text[], 0, 'Havet avgir varme til atmosfæren.', false, true, 10),
+  ('geofag-2:klimasystemet', 'm02', 'sant-usant', 'Solaktiviteten forklarer mesteparten av oppvarmingen de siste tiårene.', array['Sant', 'Usant']::text[], 1, 'Effekten av sola er liten.', false, true, 11),
+  ('geofag-2:klimasystemet', 'm03', 'sant-usant', 'Drivhuseffekten har vært kjent i over hundre år.', array['Sant', 'Usant']::text[], 0, 'Grunnleggende fysikk.', false, true, 12),
+  ('geofag-2:klimasystemet', 'm04', 'sant-usant', 'Klima beskrives vanligvis over en periode på ett år.', array['Sant', 'Usant']::text[], 1, 'Vanligvis 30 år.', false, true, 13),
+  ('geofag-2:klimasystemet', 'm05', 'flervalg', 'Hvor kommer mye av metanutslippene fra?', array['Solkraft', 'Husdyr, risdyrking og avfall', 'Vindkraft', 'Skog']::text[], 1, 'Også olje- og gassproduksjon.', false, true, 14),
+  ('geofag-2:klimasystemet', 'm06', 'flervalg', 'Hva styrer istider og mellomistider over tusener av år?', array['Variasjoner i jordbanen', 'Menneskelige utslipp', 'El Niño', 'Solflekker alene']::text[], 0, 'Milanković-syklusene.', false, true, 15),
+  ('geofag-2:klimasystemet', 'm07', 'flervalg', 'Hva sier IPCC om menneskelig påvirkning?', array['At den er usannsynlig', 'At den er ukjent', 'At det er utvetydig at mennesker har varmet opp klimaet', 'At den bare gjelder lokalt']::text[], 2, 'Atmosfære, hav og land.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('geofag-2:klimasystemet', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Geofag 2: Forhistorisk klima
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('geofag-2:forhistorisk-klima', 'geofag-2', 'forhistorisk-klima', 'Forhistorisk klima', 'Hvordan forskere rekonstruerer forhistorisk klima med iskjerner, sedimentkjerner, årringer, pollen og isotoper, hva vi vet om istider, mellomistider, Milanković-syklusene og brå klimaendringer – og hvordan paleoklima brukes til å teste modeller og lage prognoser for framtidens klima.', array[7]::int[], 6, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('geofag-2:forhistorisk-klima', '## Hva er paleoklima?
+
+**Paleoklimatologi** er forskning på klimaet før vi hadde **direkte målinger**. Regelmessige temperaturmålinger finnes bare fra omtrent **1850**. For å se lenger tilbake bruker forskerne **klimaarkiver** – naturlige spor som gjemmer informasjon om tidligere klima. Slike spor kalles **proksydata**.
+
+## Klimaarkiver
+
+- **Iskjerner**: Borekjerner fra **Antarktis** og **Grønland** består av snø som har samlet seg lag på lag. Små **luftbobler** i isen inneholder atmosfære fra fortiden, og vi kan måle **CO₂** og **metan** direkte. Iskjernene fra Antarktis går omtrent **800 000 år** tilbake.
+- **Isotoper**: Forholdet mellom **tunge** og **lette** oksygenisotoper i is og i skall fra havorganismer forteller om **temperatur** og **ismengde**.
+- **Sedimentkjerner** fra havbunnen og innsjøer inneholder skall, pollen og partikler som viser klimaet gjennom **millioner** av år.
+- **Pollen** forteller hvilke **planter** som vokste – og dermed om temperatur og nedbør.
+- **Årringer** i trær viser vekstforholdene år for år.
+- **Koraller**, **drypsteiner** og **breavsetninger** som **morener** er også viktige arkiver.
+
+Dataene må **dateres**, for eksempel ved å telle **årlag** eller med **radioaktive** metoder.
+
+## Istider og mellomistider
+
+De siste omtrent **2,6 millioner** årene har jorda vekslet mellom kalde **istider** og varmere **mellomistider**. Vi lever nå i en mellomistid – **holocen** – som begynte for omtrent **11 700** år siden. Under siste istid var Norge dekket av en tykk **innlandsis**, og havnivået var over **100 meter** lavere enn i dag.
+
+## Milanković-syklusene
+
+Vekslingen styres av **Milanković-syklusene** – regelmessige endringer i jordbanen:
+
+- **Eksentrisitet**: hvor elliptisk banen er – omtrent **100 000** år
+- **Helning** av jordaksen – omtrent **41 000** år
+- **Presesjon**: hvilken retning jordaksen peker – omtrent **23 000** år
+
+Endringene påvirker **hvor** og **når** sollyset treffer jorda, særlig om sommeren på høye nordlige breddegrader. Iskjernene viser at **CO₂** og **temperatur** har fulgt hverandre tett: Tilbakekoblinger fra CO₂, is og hav **forsterket** de små endringene i solinnstrålingen.
+
+## Brå endringer og varme perioder
+
+- Klimaet har noen ganger endret seg **brått** – på tiår – for eksempel ved slutten av siste istid.
+- For omtrent **56 millioner** år siden steg temperaturen kraftig på kort geologisk tid da store mengder karbon ble sluppet ut. Perioden gir innsikt i hva som skjer ved rask **karbonutslipp**.
+- I nyere tid hadde vi **middelalderens varmeperiode** og **den lille istid**, men disse var mer **regionale** og mindre enn dagens globale oppvarming.
+
+## Paleoklima og framtiden
+
+Forhistorisk klima brukes til å
+
+- **teste** klimamodeller: Klarer modellen å gjenskape istider og varme perioder?
+- anslå **klimafølsomheten** – hvor mye temperaturen stiger ved en **dobling** av CO₂
+- forstå **tilbakekoblinger** og **vippepunkter**
+- sette dagens endringer i **perspektiv**: Dagens CO₂-nivå er **høyere** enn noen gang de siste **800 000** årene, og endringen skjer mye **raskere** enn ved naturlige overganger
+
+## Refleksjon
+
+Klimaet har alltid **endret** seg – men paleoklimaet viser også hvor **følsomt** klimasystemet er for endringer i CO₂, og at dagens endringer er **uvanlig raske**.', '{"label":"Forhistorisk klima","children":[{"label":"Klimaarkiver","children":[{"label":"Iskjerner"},{"label":"Sedimenter og pollen"},{"label":"Årringer og koraller"}]},{"label":"Metoder","children":[{"label":"Isotoper"},{"label":"Datering"}]},{"label":"Istider","children":[{"label":"Istider og mellomistider"},{"label":"Holocen"},{"label":"Innlandsis over Norge"}]},{"label":"Milanković","children":[{"label":"Eksentrisitet 100 000"},{"label":"Helning 41 000"},{"label":"Presesjon 23 000"}]},{"label":"Framtiden","children":[{"label":"Teste modeller"},{"label":"Klimafølsomhet"},{"label":"Perspektiv på i dag"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'geofag-2:forhistorisk-klima';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('geofag-2:forhistorisk-klima', 'Paleoklimatologi', 'Forskning på klimaet før direkte målinger.', 0),
+  ('geofag-2:forhistorisk-klima', 'Klimaarkiv', 'Naturlige spor som gjemmer informasjon om tidligere klima.', 1),
+  ('geofag-2:forhistorisk-klima', 'Proksydata', 'Indirekte data om fortidens klima.', 2),
+  ('geofag-2:forhistorisk-klima', 'Iskjerner', 'Borekjerner fra isbreer med luftbobler fra fortiden.', 3),
+  ('geofag-2:forhistorisk-klima', 'Antarktiske iskjerner', 'Går omtrent 800 000 år tilbake.', 4),
+  ('geofag-2:forhistorisk-klima', 'Oksygenisotoper', 'Forholdet mellom tunge og lette isotoper viser temperatur og ismengde.', 5),
+  ('geofag-2:forhistorisk-klima', 'Sedimentkjerner', 'Borekjerner fra hav- og innsjøbunn som viser klima over lang tid.', 6),
+  ('geofag-2:forhistorisk-klima', 'Pollen', 'Viser hvilke planter som vokste.', 7),
+  ('geofag-2:forhistorisk-klima', 'Holocen', 'Dagens mellomistid som begynte for omtrent 11 700 år siden.', 8),
+  ('geofag-2:forhistorisk-klima', 'Milanković-sykluser', 'Regelmessige endringer i jordbanen som styrer istider.', 9),
+  ('geofag-2:forhistorisk-klima', 'Eksentrisitet', 'Hvor elliptisk jordbanen er – omtrent 100 000 år.', 10),
+  ('geofag-2:forhistorisk-klima', 'Aksehelning', 'Variasjon i jordaksens helning – omtrent 41 000 år.', 11),
+  ('geofag-2:forhistorisk-klima', 'Presesjon', 'Endring i jordaksens retning – omtrent 23 000 år.', 12),
+  ('geofag-2:forhistorisk-klima', 'Klimafølsomhet', 'Hvor mye temperaturen stiger ved dobling av CO₂.', 13),
+  ('geofag-2:forhistorisk-klima', 'Den lille istid', 'Kaldere periode i nyere tid, mer regional enn dagens oppvarming.', 14);
+delete from public.quiz_sporsmal where tema_id = 'geofag-2:forhistorisk-klima';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('geofag-2:forhistorisk-klima', 'q01', 'flervalg', 'Hva er proksydata?', array['Direkte temperaturmålinger', 'Indirekte data om fortidens klima', 'Værvarsler', 'Satellittbilder']::text[], 1, 'For eksempel iskjerner og pollen.', true, true, 0),
+  ('geofag-2:forhistorisk-klima', 'q02', 'flervalg', 'Hva inneholder luftbobler i iskjerner?', array['Atmosfære fra fortiden', 'Vann fra havet', 'Pollen', 'Sand']::text[], 0, 'Vi kan måle CO₂ og metan direkte.', true, true, 1),
+  ('geofag-2:forhistorisk-klima', 'q03', 'flervalg', 'Hvor langt tilbake går iskjernene fra Antarktis?', array['Omtrent 1000 år', 'Omtrent 10 000 år', 'Omtrent 800 000 år', 'Omtrent 100 millioner år']::text[], 2, 'Lange klimaserier.', true, true, 2),
+  ('geofag-2:forhistorisk-klima', 'q04', 'flervalg', 'Hva styrer vekslingen mellom istider og mellomistider?', array['Vulkaner alene', 'Menneskelige utslipp', 'El Niño', 'Milanković-syklusene']::text[], 3, 'Endringer i jordbanen.', true, true, 3),
+  ('geofag-2:forhistorisk-klima', 'q05', 'flervalg', 'Når begynte holocen?', array['For omtrent 11 700 år siden', 'For 800 000 år siden', 'For 56 millioner år siden', 'I 1850']::text[], 0, 'Dagens mellomistid.', true, true, 4),
+  ('geofag-2:forhistorisk-klima', 'q06', 'flervalg', 'Hvilken Milanković-syklus har en periode på omtrent 41 000 år?', array['Eksentrisitet', 'Aksehelning', 'Presesjon', 'Solsyklusen']::text[], 1, 'Helningen av jordaksen.', true, true, 5),
+  ('geofag-2:forhistorisk-klima', 'q07', 'flervalg', 'Hva viser iskjernene om CO₂ og temperatur?', array['At de ikke henger sammen', 'At CO₂ alltid har vært konstant', 'At de har fulgt hverandre tett', 'At temperaturen alltid har vært lik']::text[], 2, 'CO₂ har forsterket endringene.', true, true, 6),
+  ('geofag-2:forhistorisk-klima', 'q08', 'flervalg', 'Hvordan brukes paleoklima til å forbedre klimamodeller?', array['Ved å varsle været', 'Ved å måle vind', 'Ved å telle trær', 'Ved å teste om modellene gjenskaper tidligere klima']::text[], 3, 'Også for å anslå klimafølsomheten.', true, true, 7),
+  ('geofag-2:forhistorisk-klima', 'q09', 'flervalg', 'Hva er klimafølsomhet?', array['Hvor mye temperaturen stiger ved en dobling av CO₂', 'Hvor raskt været endres', 'Hvor følsomme mennesker er for kulde', 'Hvor mye is som smelter per år']::text[], 0, 'Et nøkkeltall i klimaforskningen.', true, false, 8),
+  ('geofag-2:forhistorisk-klima', 'q10', 'flervalg', 'Hvordan er dagens CO₂-nivå sammenlignet med de siste 800 000 årene?', array['Lavere enn noen gang', 'Høyere enn noen gang', 'Helt vanlig', 'Ukjent']::text[], 1, 'Og endringen skjer mye raskere.', true, false, 9),
+  ('geofag-2:forhistorisk-klima', 'm01', 'sant-usant', 'Under siste istid var havnivået over 100 meter lavere enn i dag.', array['Sant', 'Usant']::text[], 0, 'Mye vann var bundet i is.', false, true, 10),
+  ('geofag-2:forhistorisk-klima', 'm02', 'sant-usant', 'Regelmessige temperaturmålinger finnes fra de siste 10 000 årene.', array['Sant', 'Usant']::text[], 1, 'De finnes bare fra omtrent 1850.', false, true, 11),
+  ('geofag-2:forhistorisk-klima', 'm03', 'sant-usant', 'Klimaet har noen ganger endret seg brått på tiår.', array['Sant', 'Usant']::text[], 0, 'For eksempel ved slutten av siste istid.', false, true, 12),
+  ('geofag-2:forhistorisk-klima', 'm04', 'sant-usant', 'Den lille istid var like stor og global som dagens oppvarming.', array['Sant', 'Usant']::text[], 1, 'Den var mer regional og mindre.', false, true, 13),
+  ('geofag-2:forhistorisk-klima', 'm05', 'flervalg', 'Hva viser pollen i sedimenter?', array['Havtemperatur direkte', 'Hvilke planter som vokste', 'CO₂-innhold', 'Vindstyrke']::text[], 1, 'Gir informasjon om temperatur og nedbør.', false, true, 14),
+  ('geofag-2:forhistorisk-klima', 'm06', 'flervalg', 'Hva gir innsikt i hva som skjer ved raske karbonutslipp?', array['Den varme perioden for omtrent 56 millioner år siden', 'Den lille istid', 'Holocen', 'Middelalderen']::text[], 0, 'Kraftig oppvarming på kort geologisk tid.', false, true, 15),
+  ('geofag-2:forhistorisk-klima', 'm07', 'flervalg', 'Hvordan dateres klimaarkiver?', array['Bare ved å gjette', 'Med værmeldinger', 'Ved å telle årlag eller med radioaktive metoder', 'Med kompass']::text[], 2, 'Nødvendig for tidsserier.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('geofag-2:forhistorisk-klima', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Geofag 2: Konsekvenser av klimaendringer, utslippskutt og tilpasning
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('geofag-2:klimaendringer-reduksjon-og-tilpasning', 'geofag-2', 'klimaendringer-reduksjon-og-tilpasning', 'Konsekvenser av klimaendringer, utslippskutt og tilpasning', 'Hvilke konsekvenser klimaendringer får for enkeltmennesker, samfunn og økosystemer i Norge og i verden, og hvordan vi kan redusere utslippene og tilpasse oss – fra Parisavtalen og klimapolitikk til bærekraftige valg i hverdagen.', array[8]::int[], 7, 'sjekkes', array['Sjekk gjeldende norske klimamål (2030 og 2050) mot oppdatert klimalov og regjeringens mål.']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('geofag-2:klimaendringer-reduksjon-og-tilpasning', '## Konsekvenser for økosystemer
+
+- **Arter flytter** mot polene og opp i høyden. Fjellarter og arktiske arter som **isbjørn** får mindre leveområde.
+- **Havforsuring**: Havet tar opp CO₂ og blir surere. Det gjør det vanskeligere for **koraller**, **skjell** og noen typer **plankton** å bygge kalkskall.
+- **Varmere hav** gir **korallbleking** og kan flytte **fiskebestander** nordover.
+- **Tidspunkter** i naturen forskyves, for eksempel når planter blomstrer og når trekkfugler kommer.
+
+## Konsekvenser for samfunn og mennesker
+
+- **Havnivåstigning** truer lavtliggende kyster og øystater.
+- **Tørke** og **hetebølger** gir svikt i matproduksjonen og helseproblemer.
+- **Ekstremnedbør** og **flom** skader hus, veier og jernbane.
+- **Klimamigrasjon**: Folk kan bli tvunget til å flytte.
+- Konsekvensene er **ujevnt fordelt**. Fattige land, som har sluppet ut **minst**, rammes ofte **hardest**. Dette er et spørsmål om **klimarettferdighet** – også mellom **generasjoner**.
+
+## I Norge
+
+Norge får mer **kraftig nedbør**, flere **regnflommer**, mer **overvann** i byene og flere **skred** i bratt terreng. Snøsesongen blir **kortere** i lavlandet, og havnivået stiger langs store deler av kysten. En lengre vekstsesong kan gi **fordeler** for landbruket, men også flere **skadedyr**.
+
+## To typer tiltak
+
+- **Utslippskutt** – ofte kalt **mitigasjon** – betyr å **redusere** utslippene av drivhusgasser for å **begrense** oppvarmingen.
+- **Tilpasning** betyr å **forberede** samfunnet på endringene som allerede kommer.
+
+Begge deler trengs: Jo mindre vi kutter, desto mer må vi tilpasse oss.
+
+## Utslippskutt
+
+**Parisavtalen** fra **2015** har som mål å holde oppvarmingen **godt under 2 °C** og å **tilstrebe 1,5 °C**. Hvert land melder inn egne **mål**, som skal skjerpes over tid.
+
+Eksempler på tiltak:
+
+- **fornybar energi** i stedet for fossil
+- **elektrifisering** av transport og industri
+- **energieffektivisering**
+- **karbonfangst og lagring (CCS)**
+- **bevaring av skog** og myr
+- **karbonprising**, som **CO₂-avgift** og **kvotesystemer**
+
+Norge har mål om å kutte utslippene kraftig innen 2030 og å bli et **lavutslippssamfunn** innen 2050.
+
+## Tilpasning
+
+- bygge **flomvern** og større **overvannssystemer**
+- **grønne tak** og **regnbed** som tar opp vann
+- unngå å bygge i **flomsoner** og **skredutsatte** områder
+- **varslingssystemer** for flom og skred
+- **tørketolerante** plantesorter i landbruket
+
+## Enkeltmennesket
+
+Enkeltpersoner kan påvirke gjennom **reisevaner**, **matvalg**, **forbruk** og **gjenbruk** – og gjennom å **stemme** og **engasjere** seg. Mange peker likevel på at de største kuttene krever **politiske** beslutninger og endringer i **systemene**.
+
+## Drøfting
+
+I en drøfting kan du vurdere tiltak etter **effekt**, **kostnad**, **rettferdighet** og **konsekvenser** for natur og mennesker. Et vindkraftverk kutter utslipp, men kan gi **naturinngrep**. Bærekraftige løsninger tar hensyn til både **miljø**, **økonomi** og **sosiale** forhold.', '{"label":"Konsekvenser og tiltak","children":[{"label":"Økosystemer","children":[{"label":"Arter flytter"},{"label":"Havforsuring"},{"label":"Korallbleking"}]},{"label":"Samfunn","children":[{"label":"Havnivå og flom"},{"label":"Tørke og migrasjon"},{"label":"Klimarettferdighet"}]},{"label":"Utslippskutt","children":[{"label":"Parisavtalen"},{"label":"Fornybar energi og CCS"},{"label":"Karbonprising"}]},{"label":"Tilpasning","children":[{"label":"Flomvern og overvann"},{"label":"Arealplanlegging"},{"label":"Varsling"}]},{"label":"Enkeltmennesket","children":[{"label":"Reiser, mat og forbruk"},{"label":"Politisk engasjement"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'geofag-2:klimaendringer-reduksjon-og-tilpasning';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('geofag-2:klimaendringer-reduksjon-og-tilpasning', 'Havforsuring', 'Havet tar opp CO₂ og blir surere.', 0),
+  ('geofag-2:klimaendringer-reduksjon-og-tilpasning', 'Korallbleking', 'Koraller mister algene sine i for varmt vann.', 1),
+  ('geofag-2:klimaendringer-reduksjon-og-tilpasning', 'Havnivåstigning', 'Økt havnivå på grunn av smeltende is og varmere hav.', 2),
+  ('geofag-2:klimaendringer-reduksjon-og-tilpasning', 'Klimamigrasjon', 'Folk må flytte på grunn av klimaendringer.', 3),
+  ('geofag-2:klimaendringer-reduksjon-og-tilpasning', 'Klimarettferdighet', 'At de som slipper ut minst, ofte rammes hardest.', 4),
+  ('geofag-2:klimaendringer-reduksjon-og-tilpasning', 'Mitigasjon', 'Utslippskutt for å begrense oppvarmingen.', 5),
+  ('geofag-2:klimaendringer-reduksjon-og-tilpasning', 'Klimatilpasning', 'Å forberede samfunnet på endringene som kommer.', 6),
+  ('geofag-2:klimaendringer-reduksjon-og-tilpasning', 'Parisavtalen', 'Avtale fra 2015 om å holde oppvarmingen godt under 2 °C.', 7),
+  ('geofag-2:klimaendringer-reduksjon-og-tilpasning', '1,5-gradersmålet', 'Parisavtalens mål om å tilstrebe 1,5 °C.', 8),
+  ('geofag-2:klimaendringer-reduksjon-og-tilpasning', 'CCS', 'Karbonfangst og lagring.', 9),
+  ('geofag-2:klimaendringer-reduksjon-og-tilpasning', 'Karbonprising', 'CO₂-avgift og kvotesystemer som gjør utslipp dyrere.', 10),
+  ('geofag-2:klimaendringer-reduksjon-og-tilpasning', 'Lavutslippssamfunn', 'Norges mål for 2050.', 11),
+  ('geofag-2:klimaendringer-reduksjon-og-tilpasning', 'Overvann', 'Regnvann som renner på overflaten i byer.', 12),
+  ('geofag-2:klimaendringer-reduksjon-og-tilpasning', 'Regnbed', 'Beplantet område som tar opp regnvann.', 13),
+  ('geofag-2:klimaendringer-reduksjon-og-tilpasning', 'Flomvern', 'Tiltak som beskytter mot flom.', 14);
+delete from public.quiz_sporsmal where tema_id = 'geofag-2:klimaendringer-reduksjon-og-tilpasning';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('geofag-2:klimaendringer-reduksjon-og-tilpasning', 'q01', 'flervalg', 'Hva er forskjellen på utslippskutt og tilpasning?', array['Det er det samme', 'Kutt begrenser oppvarmingen, tilpasning forbereder samfunnet på endringene', 'Tilpasning kutter utslipp', 'Kutt gjelder bare Norge']::text[], 1, 'Begge trengs.', true, true, 0),
+  ('geofag-2:klimaendringer-reduksjon-og-tilpasning', 'q02', 'flervalg', 'Hva er målet i Parisavtalen?', array['Godt under 2 °C og tilstrebe 1,5 °C', 'Under 5 °C', 'Ingen oppvarming', 'Under 3 °C']::text[], 0, 'Fra 2015.', true, true, 1),
+  ('geofag-2:klimaendringer-reduksjon-og-tilpasning', 'q03', 'flervalg', 'Hva er havforsuring?', array['At havet blir saltere', 'At havet blir varmere', 'At havet tar opp CO₂ og blir surere', 'At havet blir ferskere']::text[], 2, 'Rammer skjell og koraller.', true, true, 2),
+  ('geofag-2:klimaendringer-reduksjon-og-tilpasning', 'q04', 'flervalg', 'Hva er et eksempel på klimatilpasning?', array['CO₂-avgift', 'Elbil', 'Karbonfangst', 'Større overvannssystemer']::text[], 3, 'Forbereder på mer nedbør.', true, true, 3),
+  ('geofag-2:klimaendringer-reduksjon-og-tilpasning', 'q05', 'flervalg', 'Hvorfor snakker man om klimarettferdighet?', array['Fordi de som slipper ut minst, ofte rammes hardest', 'Fordi alle rammes likt', 'Fordi rike land rammes mest', 'Fordi klima ikke påvirker mennesker']::text[], 0, 'Også mellom generasjoner.', true, true, 4),
+  ('geofag-2:klimaendringer-reduksjon-og-tilpasning', 'q06', 'flervalg', 'Hva er CCS?', array['En klimaavtale', 'Karbonfangst og lagring', 'En havstrøm', 'Et kvotesystem']::text[], 1, 'Et tiltak for utslippskutt.', true, true, 5),
+  ('geofag-2:klimaendringer-reduksjon-og-tilpasning', 'q07', 'flervalg', 'Hvilken konsekvens er ventet i Norge?', array['Lengre snøsesong i lavlandet', 'Mindre nedbør', 'Flere regnflommer og skred', 'Lavere havnivå overalt']::text[], 2, 'Mer kraftig nedbør.', true, true, 6),
+  ('geofag-2:klimaendringer-reduksjon-og-tilpasning', 'q08', 'flervalg', 'Hvilket tiltak er karbonprising?', array['Flomvern', 'Regnbed', 'Tørketolerante planter', 'CO₂-avgift og kvotesystemer']::text[], 3, 'Gjør utslipp dyrere.', true, true, 7),
+  ('geofag-2:klimaendringer-reduksjon-og-tilpasning', 'q09', 'flervalg', 'Hvordan påvirker klimaendringer arter?', array['Mange flytter mot polene og opp i høyden', 'Ingen endring', 'Alle arter får større leveområde', 'Arter flytter mot ekvator']::text[], 0, 'Fjellarter får mindre plass.', true, false, 8),
+  ('geofag-2:klimaendringer-reduksjon-og-tilpasning', 'q10', 'flervalg', 'Hva kan være en konflikt ved et vindkraftverk?', array['Det gir økte utslipp', 'Det kutter utslipp, men kan gi naturinngrep', 'Det gir havforsuring', 'Det har ingen ulemper']::text[], 1, 'Bærekraft har flere sider.', true, false, 9),
+  ('geofag-2:klimaendringer-reduksjon-og-tilpasning', 'm01', 'sant-usant', 'Varmere hav kan flytte fiskebestander nordover.', array['Sant', 'Usant']::text[], 0, 'Fisk følger temperaturen.', false, true, 10),
+  ('geofag-2:klimaendringer-reduksjon-og-tilpasning', 'm02', 'sant-usant', 'Hvis vi kutter nok utslipp, trenger vi ingen tilpasning.', array['Sant', 'Usant']::text[], 1, 'Noen endringer kommer uansett.', false, true, 11),
+  ('geofag-2:klimaendringer-reduksjon-og-tilpasning', 'm03', 'sant-usant', 'Norge har mål om å bli et lavutslippssamfunn innen 2050.', array['Sant', 'Usant']::text[], 0, 'Norsk klimapolitikk.', false, true, 12),
+  ('geofag-2:klimaendringer-reduksjon-og-tilpasning', 'm04', 'sant-usant', 'Fattige land har sluppet ut mest og rammes minst.', array['Sant', 'Usant']::text[], 1, 'Det er ofte omvendt.', false, true, 13),
+  ('geofag-2:klimaendringer-reduksjon-og-tilpasning', 'm05', 'flervalg', 'Hva gjør et regnbed?', array['Produserer strøm', 'Tar opp regnvann', 'Fanger CO₂ fra fabrikker', 'Varsler flom']::text[], 1, 'Tilpasning i byer.', false, true, 14),
+  ('geofag-2:klimaendringer-reduksjon-og-tilpasning', 'm06', 'flervalg', 'Hvilke kriterier kan brukes for å vurdere klimatiltak?', array['Effekt, kostnad, rettferdighet og konsekvenser', 'Bare pris', 'Bare hvor populært det er', 'Bare hvor raskt det går']::text[], 0, 'Bærekraft har flere dimensjoner.', false, true, 15),
+  ('geofag-2:klimaendringer-reduksjon-og-tilpasning', 'm07', 'flervalg', 'Hvilke organismer rammes særlig av havforsuring?', array['Hvaler', 'Sjøfugl', 'Koraller og skjell', 'Tang']::text[], 2, 'Kalkskall blir vanskeligere å bygge.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('geofag-2:klimaendringer-reduksjon-og-tilpasning', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Geofag 2: Energi fra hav og atmosfære
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('geofag-2:energi-fra-hav-og-atmosfaere', 'geofag-2', 'energi-fra-hav-og-atmosfaere', 'Energi fra hav og atmosfære', 'Hvordan energiressurser fra hav og atmosfære kan utnyttes – vindkraft på land og til havs, bølgekraft, tidevannskraft, havstrømkraft, osmotisk kraft og solenergi – og hvordan vi kan drøfte bærekraften i slike løsninger nasjonalt og globalt.', array[9]::int[], 8, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('geofag-2:energi-fra-hav-og-atmosfaere', '## Energien kommer fra sola og månen
+
+De fleste energiressursene i hav og atmosfære er drevet av **sola**. Ujevn oppvarming gir **trykkforskjeller** og dermed **vind**. Vinden lager **bølger** og driver **havstrømmer**. **Tidevannet** skyldes derimot hovedsakelig **månens** og solas **tiltrekning**.
+
+Disse ressursene er **fornybare** – de fornyes hele tiden og tar ikke slutt.
+
+## Vindkraft
+
+En **vindturbin** omdanner bevegelsesenergien i vinden til elektrisk energi. Effekten øker kraftig med vindfarten – omtrent med **vindfarten i tredje potens**. Dobbelt så sterk vind gir derfor omtrent **åtte** ganger så mye effekt.
+
+- **Landbasert vindkraft** er relativt **billig**, men kan gi **naturinngrep**, støy og konflikter om **arealbruk** og **reindrift**.
+- **Havvind** har **sterkere** og **jevnere** vind. **Bunnfaste** turbiner står på grunt vann, mens **flytende** turbiner kan brukes på dypt vann. Norge har utviklet flytende havvind, blant annet i **Hywind**-prosjektene. Havvind er foreløpig **dyrere** og kan påvirke **fiskeri** og **sjøfugl**.
+
+Vind er **uregelmessig**, så kraftsystemet trenger **lagring** eller **reguleringskraft** – i Norge ofte **vannkraft**.
+
+## Bølgekraft
+
+Bølger inneholder mye energi, særlig langs **værharde kyster** som Norges vestkyst. Teknologien er likevel **umoden**: Utstyret må tåle **stormer** og **saltvann**, og det har vært vanskelig å gjøre bølgekraft **lønnsom**.
+
+## Tidevannskraft og havstrømkraft
+
+- **Tidevannskraft** utnytter vannet som strømmer inn og ut med tidevannet, for eksempel gjennom **demninger** i fjordmunninger eller **turbiner** i sterke tidevannsstrømmer. Den er **forutsigbar** – vi vet når tidevannet kommer.
+- **Havstrømkraft** utnytter faste havstrømmer med **undervannsturbiner**.
+
+## Osmotisk kraft
+
+Når **ferskvann** og **saltvann** møtes gjennom en **membran**, vil vannet trekke mot saltvannssiden. Trykket kan drive en turbin. Norge testet teknologien, men den ble ikke **lønnsom**.
+
+## Solenergi
+
+**Solceller** omdanner sollys direkte til strøm, og **solfangere** gir varme. Solenergi er den ressursen som vokser **raskest** i verden. I Norge er solinnstrålingen **lav** om vinteren, men solceller kan fungere godt om sommeren.
+
+## Bærekraft – å drøfte
+
+Fornybar energi har **lave** utslipp i drift, men alle løsninger har **ulemper**:
+
+- **Miljø**: naturinngrep, fugledød, påvirkning på livet i havet, behov for **metaller** og **mineraler**
+- **Økonomi**: kostnad, lønnsomhet og **arbeidsplasser**
+- **Sosialt**: lokale **interesser**, **urfolksrettigheter** og **rettferdig** fordeling av fordeler og ulemper
+
+## Nasjonalt og globalt
+
+Norge har mye **vannkraft** og store **havområder** med gode vindressurser. Globalt er utbygging av fornybar energi avgjørende for å kutte utslipp, særlig i land som i dag bruker mye **kull**. Bærekraftig utnyttelse handler om å **balansere** behovet for ren energi mot hensynet til **natur** og **mennesker**.', '{"label":"Energi fra hav og atmosfære","children":[{"label":"Vind","children":[{"label":"Landbasert"},{"label":"Havvind og Hywind"}]},{"label":"Havet","children":[{"label":"Bølgekraft"},{"label":"Tidevannskraft"},{"label":"Havstrømkraft"},{"label":"Osmotisk kraft"}]},{"label":"Sol","children":[{"label":"Solceller"},{"label":"Solfangere"}]},{"label":"Bærekraft","children":[{"label":"Miljø"},{"label":"Økonomi"},{"label":"Sosialt"}]},{"label":"Skala","children":[{"label":"Norge"},{"label":"Globalt"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'geofag-2:energi-fra-hav-og-atmosfaere';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('geofag-2:energi-fra-hav-og-atmosfaere', 'Fornybar energi', 'Energi som fornyes hele tiden og ikke tar slutt.', 0),
+  ('geofag-2:energi-fra-hav-og-atmosfaere', 'Vindturbin', 'Omdanner bevegelsesenergien i vinden til strøm.', 1),
+  ('geofag-2:energi-fra-hav-og-atmosfaere', 'Vindfart og effekt', 'Effekten øker omtrent med vindfarten i tredje potens.', 2),
+  ('geofag-2:energi-fra-hav-og-atmosfaere', 'Landbasert vindkraft', 'Billig, men kan gi naturinngrep og arealkonflikter.', 3),
+  ('geofag-2:energi-fra-hav-og-atmosfaere', 'Havvind', 'Vindkraft til havs med sterkere og jevnere vind.', 4),
+  ('geofag-2:energi-fra-hav-og-atmosfaere', 'Flytende havvind', 'Turbiner som kan brukes på dypt vann.', 5),
+  ('geofag-2:energi-fra-hav-og-atmosfaere', 'Hywind', 'Norske prosjekter med flytende havvind.', 6),
+  ('geofag-2:energi-fra-hav-og-atmosfaere', 'Bølgekraft', 'Energi fra bølger – umoden teknologi.', 7),
+  ('geofag-2:energi-fra-hav-og-atmosfaere', 'Tidevannskraft', 'Utnytter tidevannsstrømmer – forutsigbar.', 8),
+  ('geofag-2:energi-fra-hav-og-atmosfaere', 'Havstrømkraft', 'Undervannsturbiner i faste havstrømmer.', 9),
+  ('geofag-2:energi-fra-hav-og-atmosfaere', 'Osmotisk kraft', 'Kraft fra møtet mellom ferskvann og saltvann gjennom en membran.', 10),
+  ('geofag-2:energi-fra-hav-og-atmosfaere', 'Solceller', 'Omdanner sollys direkte til strøm.', 11),
+  ('geofag-2:energi-fra-hav-og-atmosfaere', 'Reguleringskraft', 'Kraft som jevner ut variasjoner, for eksempel vannkraft.', 12),
+  ('geofag-2:energi-fra-hav-og-atmosfaere', 'Tidevann', 'Skyldes hovedsakelig månens og solas tiltrekning.', 13),
+  ('geofag-2:energi-fra-hav-og-atmosfaere', 'Urfolksrettigheter', 'Hensyn som må vurderes ved utbygging, for eksempel reindrift.', 14);
+delete from public.quiz_sporsmal where tema_id = 'geofag-2:energi-fra-hav-og-atmosfaere';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('geofag-2:energi-fra-hav-og-atmosfaere', 'q01', 'flervalg', 'Hva driver de fleste energiressursene i hav og atmosfære?', array['Jordas indre varme', 'Sola', 'Månen alene', 'Vulkaner']::text[], 1, 'Tidevann er unntaket.', true, true, 0),
+  ('geofag-2:energi-fra-hav-og-atmosfaere', 'q02', 'flervalg', 'Hvor mye øker effekten omtrent når vindfarten dobles?', array['Åtte ganger', 'To ganger', 'Fire ganger', 'Ingen endring']::text[], 0, 'Effekten følger vindfarten i tredje potens.', true, true, 1),
+  ('geofag-2:energi-fra-hav-og-atmosfaere', 'q03', 'flervalg', 'Hvilken fordel har tidevannskraft?', array['Den er billigst', 'Den finnes overalt', 'Den er forutsigbar', 'Den krever ingen utstyr']::text[], 2, 'Vi vet når tidevannet kommer.', true, true, 2),
+  ('geofag-2:energi-fra-hav-og-atmosfaere', 'q04', 'flervalg', 'Hva skyldes tidevannet hovedsakelig?', array['Vinden', 'Sola alene', 'Havstrømmene', 'Månens og solas tiltrekning']::text[], 3, 'Gravitasjon.', true, true, 3),
+  ('geofag-2:energi-fra-hav-og-atmosfaere', 'q05', 'flervalg', 'Hvorfor er flytende havvind viktig for Norge?', array['Fordi det kan brukes på dypt vann', 'Fordi det er billigst', 'Fordi det ikke trenger vind', 'Fordi det står på land']::text[], 0, 'Mye dypt hav langs kysten.', true, true, 4),
+  ('geofag-2:energi-fra-hav-og-atmosfaere', 'q06', 'flervalg', 'Hva er en utfordring med bølgekraft?', array['For lite energi', 'Utstyret må tåle stormer og saltvann', 'Den er for forutsigbar', 'Den gir store utslipp']::text[], 1, 'Teknologien er umoden.', true, true, 5),
+  ('geofag-2:energi-fra-hav-og-atmosfaere', 'q07', 'flervalg', 'Hva er osmotisk kraft?', array['Kraft fra vind', 'Kraft fra sola', 'Kraft fra møtet mellom ferskvann og saltvann', 'Kraft fra kull']::text[], 2, 'Gjennom en membran.', true, true, 6),
+  ('geofag-2:energi-fra-hav-og-atmosfaere', 'q08', 'flervalg', 'Hvorfor trenger vindkraft reguleringskraft?', array['Fordi vinden alltid er lik', 'Fordi turbinene er små', 'Fordi vindkraft gir utslipp', 'Fordi vinden er uregelmessig']::text[], 3, 'I Norge ofte vannkraft.', true, true, 7),
+  ('geofag-2:energi-fra-hav-og-atmosfaere', 'q09', 'flervalg', 'Hvilken konflikt kan landbasert vindkraft gi?', array['Naturinngrep og konflikt med reindrift', 'Havforsuring', 'Mer tidevann', 'Høyere havnivå']::text[], 0, 'Arealbruk er et viktig tema.', true, false, 8),
+  ('geofag-2:energi-fra-hav-og-atmosfaere', 'q10', 'flervalg', 'Hvilken energiressurs vokser raskest i verden?', array['Bølgekraft', 'Solenergi', 'Osmotisk kraft', 'Tidevannskraft']::text[], 1, 'Solceller er blitt mye billigere.', true, false, 9),
+  ('geofag-2:energi-fra-hav-og-atmosfaere', 'm01', 'sant-usant', 'Havvind har ofte sterkere og jevnere vind enn på land.', array['Sant', 'Usant']::text[], 0, 'Mindre friksjon over havet.', false, true, 10),
+  ('geofag-2:energi-fra-hav-og-atmosfaere', 'm02', 'sant-usant', 'Fornybar energi har ingen ulemper.', array['Sant', 'Usant']::text[], 1, 'Alle løsninger har ulemper for natur eller mennesker.', false, true, 11),
+  ('geofag-2:energi-fra-hav-og-atmosfaere', 'm03', 'sant-usant', 'Fornybar energi krever metaller og mineraler.', array['Sant', 'Usant']::text[], 0, 'Til turbiner, solceller og kabler.', false, true, 12),
+  ('geofag-2:energi-fra-hav-og-atmosfaere', 'm04', 'sant-usant', 'Osmotisk kraft er i dag en stor energikilde i Norge.', array['Sant', 'Usant']::text[], 1, 'Teknologien ble ikke lønnsom.', false, true, 13),
+  ('geofag-2:energi-fra-hav-og-atmosfaere', 'm05', 'flervalg', 'Hva kan havvind påvirke negativt?', array['Tidevannet', 'Fiskeri og sjøfugl', 'Solinnstrålingen', 'Månen']::text[], 1, 'Må vurderes ved utbygging.', false, true, 14),
+  ('geofag-2:energi-fra-hav-og-atmosfaere', 'm06', 'flervalg', 'Hvorfor er utbygging av fornybar energi særlig viktig globalt?', array['For å erstatte kull og kutte utslipp', 'For å øke utslippene', 'For å stoppe tidevannet', 'Fordi fossil energi er fornybar']::text[], 0, 'Kull gir store utslipp.', false, true, 15),
+  ('geofag-2:energi-fra-hav-og-atmosfaere', 'm07', 'flervalg', 'Hva er de tre dimensjonene i bærekraft?', array['Vind, sol og hav', 'Pris, fart og størrelse', 'Miljø, økonomi og sosiale forhold', 'Land, hav og luft']::text[], 2, 'Brukes i drøftinger.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('geofag-2:energi-fra-hav-og-atmosfaere', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Geofag 2: Geofaglig feltarbeid i hav, atmosfære og kryosfære
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('geofag-2:geofaglig-feltarbeid', 'geofag-2', 'geofaglig-feltarbeid', 'Geofaglig feltarbeid i hav, atmosfære og kryosfære', 'Hvordan du planlegger og gjennomfører geofaglig feltarbeid knyttet til havet, atmosfæren eller kryosfæren – målinger med værstasjon, CTD, secchiskive og snøprofil – og hvordan du bearbeider, tolker og presenterer dataene med vurdering av usikkerhet.', array[10]::int[], 9, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('geofag-2:geofaglig-feltarbeid', '## Planlegging
+
+Et godt feltarbeid starter med en **problemstilling**, for eksempel: *Hvordan endrer temperaturen og saltholdigheten seg med dybden i fjorden?* Deretter lager du en **hypotese** og planlegger
+
+- **hva** som skal måles
+- **hvor** og **når** målingene skal gjøres
+- hvilket **utstyr** du trenger
+- hvordan du skal **registrere** dataene
+- **sikkerhet**: vær, is, vann, utstyr og hvem som vet hvor dere er
+
+## Atmosfæren
+
+Med en **værstasjon** eller enkle instrumenter kan du måle
+
+- **temperatur** med termometer – i **skygge** og godt over bakken
+- **lufttrykk** med barometer
+- **luftfuktighet** med hygrometer
+- **vindfart** med anemometer og **vindretning**
+- **nedbør** med nedbørsmåler
+
+Du kan også observere **skyer** og sammenligne målingene med **værkart** og **varsler**. Et eksempel er å måle temperatur i en **by** og på **landet** for å undersøke **byvarmeøyer**.
+
+## Havet
+
+- En **CTD-sonde** måler **saltholdighet** (via ledningsevne), **temperatur** og **dybde**.
+- En **secchiskive** – en hvit skive som senkes ned til du ikke ser den lenger – viser **siktedypet** og sier noe om mengden **plankton** og partikler.
+- **Vannprøver** kan analyseres for **oksygen**, **næringssalter** og **pH**.
+- **Strøm** kan måles med drivere eller strømmålere.
+
+Resultatene kan vise **lagdeling**: lett, fersk og varm overflate over tyngre, kaldt og salt dypvann.
+
+## Kryosfæren
+
+- En **snøprofil** graves ned til bakken. Du måler **snødybde**, **temperatur** i ulike lag, **kornform**, **hardhet** og **tetthet**. Svake lag kan gi **snøskredfare**.
+- På en **isbre** kan du måle **breens bevegelse** med staker eller GPS, og se etter spor av **tilbakesmelting** som morener.
+- På **sjøis** eller **innsjøis** kan du måle **istykkelse**.
+
+## Bearbeiding
+
+- Samle data i **tabeller** og regneark.
+- Beregn **gjennomsnitt**, **variasjon** og eventuelt **trender**.
+- Lag **grafer**, for eksempel temperatur mot dybde eller tid.
+- Bruk **kart** og **koordinater** for å vise hvor målingene er gjort.
+
+## Usikkerhet og feilkilder
+
+Alle målinger har **usikkerhet**. Mulige **feilkilder** er
+
+- unøyaktige eller **ukalibrerte** instrumenter
+- **menneskelige** feil ved avlesing
+- **få** målinger eller målinger på **ett** tidspunkt
+- forhold som påvirker målingen, som **direkte sol** på termometeret
+
+Flere **gjentak** og **sammenligning** med offisielle data, for eksempel fra **Meteorologisk institutt**, gir større **pålitelighet**.
+
+## Tolking og presentasjon
+
+I **tolkingen** kobler du resultatene til **teori**: Stemmer hypotesen? Hva kan forklare avvik? En **rapport** eller **presentasjon** har ofte
+
+1. **innledning** med problemstilling og hypotese
+2. **metode** og utstyr
+3. **resultater** med tabeller og grafer
+4. **drøfting** med feilkilder
+5. **konklusjon**
+
+Mange skoler deler også data i **åpne** databaser eller **borgerforskningsprosjekter**.', '{"label":"Geofaglig feltarbeid","children":[{"label":"Planlegging","children":[{"label":"Problemstilling og hypotese"},{"label":"Utstyr"},{"label":"Sikkerhet"}]},{"label":"Atmosfæren","children":[{"label":"Værstasjon"},{"label":"Byvarmeøy"}]},{"label":"Havet","children":[{"label":"CTD"},{"label":"Secchiskive"},{"label":"Vannprøver"}]},{"label":"Kryosfæren","children":[{"label":"Snøprofil"},{"label":"Isbre og istykkelse"}]},{"label":"Etterarbeid","children":[{"label":"Tabeller og grafer"},{"label":"Usikkerhet og feilkilder"},{"label":"Rapport"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'geofag-2:geofaglig-feltarbeid';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('geofag-2:geofaglig-feltarbeid', 'Problemstilling', 'Spørsmålet feltarbeidet skal besvare.', 0),
+  ('geofag-2:geofaglig-feltarbeid', 'Hypotese', 'Et begrunnet forslag til svar som kan testes.', 1),
+  ('geofag-2:geofaglig-feltarbeid', 'Barometer', 'Måler lufttrykk.', 2),
+  ('geofag-2:geofaglig-feltarbeid', 'Hygrometer', 'Måler luftfuktighet.', 3),
+  ('geofag-2:geofaglig-feltarbeid', 'Anemometer', 'Måler vindfart.', 4),
+  ('geofag-2:geofaglig-feltarbeid', 'Byvarmeøy', 'Byer er varmere enn omgivelsene.', 5),
+  ('geofag-2:geofaglig-feltarbeid', 'CTD-sonde', 'Måler saltholdighet, temperatur og dybde i havet.', 6),
+  ('geofag-2:geofaglig-feltarbeid', 'Secchiskive', 'Hvit skive som måler siktedypet i vann.', 7),
+  ('geofag-2:geofaglig-feltarbeid', 'Lagdeling i havet', 'Lett, fersk og varm overflate over tungt, kaldt og salt dypvann.', 8),
+  ('geofag-2:geofaglig-feltarbeid', 'Snøprofil', 'Tverrsnitt av snødekket der lagene undersøkes.', 9),
+  ('geofag-2:geofaglig-feltarbeid', 'Svakt lag', 'Lag i snøen som kan gi snøskredfare.', 10),
+  ('geofag-2:geofaglig-feltarbeid', 'Kalibrering', 'Kontroll av at et instrument måler riktig.', 11),
+  ('geofag-2:geofaglig-feltarbeid', 'Feilkilde', 'Forhold som kan gi feil i målingene.', 12),
+  ('geofag-2:geofaglig-feltarbeid', 'Pålitelighet', 'Hvor mye vi kan stole på målingene.', 13),
+  ('geofag-2:geofaglig-feltarbeid', 'Borgerforskning', 'Forskning der frivillige samler inn data.', 14);
+delete from public.quiz_sporsmal where tema_id = 'geofag-2:geofaglig-feltarbeid';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('geofag-2:geofaglig-feltarbeid', 'q01', 'flervalg', 'Hva måler en CTD-sonde?', array['Vindfart', 'Saltholdighet, temperatur og dybde', 'Snødybde', 'Lufttrykk']::text[], 1, 'Brukes i havet.', true, true, 0),
+  ('geofag-2:geofaglig-feltarbeid', 'q02', 'flervalg', 'Hva viser en secchiskive?', array['Siktedypet i vannet', 'Saltholdigheten', 'Strømfarten', 'Temperaturen']::text[], 0, 'Sier noe om plankton og partikler.', true, true, 1),
+  ('geofag-2:geofaglig-feltarbeid', 'q03', 'flervalg', 'Hvorfor bør temperaturen i lufta måles i skygge?', array['For å spare batteri', 'Fordi det er mer behagelig', 'Fordi direkte sol gir for høye verdier', 'Fordi det er lovpålagt']::text[], 2, 'En vanlig feilkilde.', true, true, 2),
+  ('geofag-2:geofaglig-feltarbeid', 'q04', 'flervalg', 'Hva kan en snøprofil avsløre?', array['Havtemperatur', 'Vindretning', 'Lufttrykk', 'Svake lag som kan gi snøskredfare']::text[], 3, 'Lagene undersøkes.', true, true, 3),
+  ('geofag-2:geofaglig-feltarbeid', 'q05', 'flervalg', 'Hva måler et anemometer?', array['Vindfart', 'Luftfuktighet', 'Nedbør', 'Lufttrykk']::text[], 0, 'Vindretning måles med vindfløy.', true, true, 4),
+  ('geofag-2:geofaglig-feltarbeid', 'q06', 'flervalg', 'Hva er en feilkilde?', array['Et resultat', 'Forhold som kan gi feil i målingene', 'En hypotese', 'En graf']::text[], 1, 'Må drøftes i rapporten.', true, true, 5),
+  ('geofag-2:geofaglig-feltarbeid', 'q07', 'flervalg', 'Hvordan kan du øke påliteligheten i feltarbeidet?', array['Gjøre færre målinger', 'Unngå å kalibrere', 'Gjenta målinger og sammenligne med offisielle data', 'Bare måle én gang']::text[], 2, 'For eksempel fra Meteorologisk institutt.', true, true, 6),
+  ('geofag-2:geofaglig-feltarbeid', 'q08', 'flervalg', 'Hva viser lagdeling i en fjord?', array['At alt vannet er likt', 'At vannet er ferskest i dypet', 'At dypvannet er varmest alltid', 'Lett overflatevann over tungt, salt dypvann']::text[], 3, 'Tetthetsforskjeller.', true, true, 7),
+  ('geofag-2:geofaglig-feltarbeid', 'q09', 'flervalg', 'Hva bør en feltrapport inneholde?', array['Problemstilling, metode, resultater, drøfting og konklusjon', 'Bare en tabell', 'Bare bilder', 'Bare en konklusjon']::text[], 0, 'En fast struktur.', true, false, 8),
+  ('geofag-2:geofaglig-feltarbeid', 'q10', 'flervalg', 'Hva er en byvarmeøy?', array['En øy med mye sol', 'At byer er varmere enn omgivelsene', 'En isbre', 'En varm havstrøm']::text[], 1, 'Kan undersøkes med temperaturmålinger.', true, false, 9),
+  ('geofag-2:geofaglig-feltarbeid', 'm01', 'sant-usant', 'Sikkerhet er en del av planleggingen av feltarbeid.', array['Sant', 'Usant']::text[], 0, 'Vær, is, vann og utstyr.', false, true, 10),
+  ('geofag-2:geofaglig-feltarbeid', 'm02', 'sant-usant', 'Målinger gjort på ett tidspunkt gir alltid et sikkert bilde.', array['Sant', 'Usant']::text[], 1, 'Få målinger gir større usikkerhet.', false, true, 11),
+  ('geofag-2:geofaglig-feltarbeid', 'm03', 'sant-usant', 'Et hygrometer måler luftfuktighet.', array['Sant', 'Usant']::text[], 0, 'Hygro betyr fuktighet.', false, true, 12),
+  ('geofag-2:geofaglig-feltarbeid', 'm04', 'sant-usant', 'En snøprofil graves bare i de øverste ti centimeterne.', array['Sant', 'Usant']::text[], 1, 'Den graves helt ned til bakken.', false, true, 13),
+  ('geofag-2:geofaglig-feltarbeid', 'm05', 'flervalg', 'Hvordan kan du måle breens bevegelse?', array['Med secchiskive', 'Med staker eller GPS', 'Med barometer', 'Med hygrometer']::text[], 1, 'Posisjonen måles over tid.', false, true, 14),
+  ('geofag-2:geofaglig-feltarbeid', 'm06', 'flervalg', 'Hva kan vannprøver analyseres for?', array['Oksygen, næringssalter og pH', 'Vindfart', 'Lufttrykk', 'Snødybde']::text[], 0, 'Sier noe om vannkvaliteten.', false, true, 15),
+  ('geofag-2:geofaglig-feltarbeid', 'm07', 'flervalg', 'Hva gjør du i drøftingsdelen av en rapport?', array['Lister opp utstyret', 'Skriver problemstillingen', 'Kobler resultater til teori og vurderer feilkilder', 'Viser bare tabeller']::text[], 2, 'Stemmer hypotesen?', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('geofag-2:geofaglig-feltarbeid', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Geofag 2: Naturfarer i atmosfære, hav og kryosfære
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('geofag-2:naturfarer-og-klima', 'geofag-2', 'naturfarer-og-klima', 'Naturfarer i atmosfære, hav og kryosfære', 'Hvordan vi vurderer risiko ved naturfarer fra atmosfæren, havet og kryosfæren – storm, stormflo, flom, ulike typer skred, tørke, skogbrann og brerelaterte farer – hvordan farevarsling og sikring fungerer, og hvordan klimaendringer kan påvirke farene.', array[11]::int[], 10, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('geofag-2:naturfarer-og-klima', '## Fare og risiko
+
+- En **naturfare** er en naturprosess som kan skade mennesker, bygninger eller infrastruktur.
+- **Risiko** er en kombinasjon av **sannsynlighet** og **konsekvens**: Risiko = sannsynlighet × konsekvens.
+
+En stor flom i et øde område gir **lav** risiko, mens en mindre flom i en by kan gi **høy** risiko. **Sårbarhet** – hvor godt samfunnet tåler en hendelse – påvirker også konsekvensene.
+
+## Farer fra atmosfæren
+
+- **Storm** og **orkan** kan velte trær, ødelegge bygninger og stanse strøm og transport.
+- **Ekstremnedbør** kan gi **flom** og **overvann**.
+- **Tørke** og **hetebølger** gir svikt i avlinger, vannmangel og **skogbrann**.
+- **Lyn** og **hagl** kan gjøre skade lokalt.
+
+## Farer fra havet
+
+- **Stormflo** er ekstra høy vannstand når **lavt lufttrykk**, **pålandsvind** og **springflo** faller sammen. Den kan oversvømme kystbyer.
+- **Store bølger** truer skipsfart og installasjoner til havs.
+- **Havnivåstigning** gjør stormflo farligere over tid.
+
+## Farer fra vann, snø og is
+
+- **Flom** i elver kommer ofte av **snøsmelting** og **kraftig regn**.
+- **Snøskred** utløses når **svake lag** i snødekket bryter sammen, ofte i heng brattere enn omtrent **30°**.
+- **Sørpeskred** er vannmettet snø som raser, ofte ved **regn** eller rask **snøsmelting**.
+- **Jordskred** og **flomskred** utløses ofte av **intens nedbør** i bratt terreng.
+- **Jøkulhlaup** er plutselig tømming av en **bredemt sjø**.
+- **Permafrost** som tiner, kan gjøre fjellsider og grunn **ustabil**.
+
+## Varsling i Norge
+
+**Meteorologisk institutt** og **NVE** samarbeider om **farevarsler**. Varslene har **farger**:
+
+- **Gult** – moderat fare, vær oppmerksom
+- **Oransje** – betydelig fare, vær forberedt
+- **Rødt** – ekstrem fare, sjelden brukt
+
+NVE publiserer varsler om **snøskred**, **jordskred** og **flom** på **varsom.no**.
+
+## Forebygging og sikring
+
+- **Arealplanlegging**: Unngå å bygge i fare- og flomsoner. **Kommunene** har ansvar for å vurdere farer i planene sine.
+- **Fysisk sikring**: flomvoller, skredvoller, fangnett og snøskjermer
+- **Overvåking** av ustabile fjellparti
+- **Beredskap** og **evakuering**
+
+## Klimaendringenes påvirkning
+
+Klimaendringer kan endre både **sannsynligheten** og **konsekvensene**:
+
+- **mer** ekstremnedbør → flere **regnflommer**, **jordskred** og **flomskred**
+- **havnivåstigning** → mer alvorlig **stormflo**
+- **tining** av permafrost → mer ustabile fjellsider
+- **færre** snøsmelteflommer i noen områder, men flere **regnflommer** om vinteren
+- **varmere** vintre kan gi flere **våte** snøskred og **sørpeskred**
+- flere **tørkeperioder** kan øke faren for **skogbrann**
+
+## Vurdering
+
+Når du vurderer risiko, spør du: Hvor **sannsynlig** er hendelsen? Hvem og hva kan **rammes**? Hvordan kan risikoen **reduseres**? Og hvordan vil **klimaendringer** endre dette i framtiden?', '{"label":"Naturfarer","children":[{"label":"Risiko","children":[{"label":"Sannsynlighet × konsekvens"},{"label":"Sårbarhet"}]},{"label":"Atmosfære og hav","children":[{"label":"Storm og ekstremnedbør"},{"label":"Tørke og skogbrann"},{"label":"Stormflo"}]},{"label":"Snø, is og vann","children":[{"label":"Flom"},{"label":"Snø-, sørpe- og jordskred"},{"label":"Jøkulhlaup og permafrost"}]},{"label":"Håndtering","children":[{"label":"Farevarsler"},{"label":"Arealplanlegging"},{"label":"Fysisk sikring"}]},{"label":"Klimaendringer","children":[{"label":"Mer ekstremnedbør"},{"label":"Høyere havnivå"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'geofag-2:naturfarer-og-klima';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('geofag-2:naturfarer-og-klima', 'Naturfare', 'Naturprosess som kan skade mennesker eller infrastruktur.', 0),
+  ('geofag-2:naturfarer-og-klima', 'Risiko', 'Sannsynlighet × konsekvens.', 1),
+  ('geofag-2:naturfarer-og-klima', 'Sårbarhet', 'Hvor godt samfunnet tåler en hendelse.', 2),
+  ('geofag-2:naturfarer-og-klima', 'Stormflo', 'Ekstra høy vannstand ved lavt trykk, pålandsvind og springflo.', 3),
+  ('geofag-2:naturfarer-og-klima', 'Snøskred', 'Utløses når svake lag i snøen bryter sammen.', 4),
+  ('geofag-2:naturfarer-og-klima', 'Sørpeskred', 'Vannmettet snø som raser.', 5),
+  ('geofag-2:naturfarer-og-klima', 'Jordskred', 'Skred av løsmasser, ofte etter intens nedbør.', 6),
+  ('geofag-2:naturfarer-og-klima', 'Flomskred', 'Hurtig skred av vann og løsmasser i bratte bekker.', 7),
+  ('geofag-2:naturfarer-og-klima', 'Jøkulhlaup', 'Plutselig tømming av en bredemt sjø.', 8),
+  ('geofag-2:naturfarer-og-klima', 'Farevarsel', 'Varsel fra MET og NVE i gult, oransje eller rødt.', 9),
+  ('geofag-2:naturfarer-og-klima', 'Rødt farevarsel', 'Ekstrem fare – sjelden brukt.', 10),
+  ('geofag-2:naturfarer-og-klima', 'Varsom.no', 'NVEs nettsted for skred- og flomvarsler.', 11),
+  ('geofag-2:naturfarer-og-klima', 'Arealplanlegging', 'Å unngå å bygge i fare- og flomsoner.', 12),
+  ('geofag-2:naturfarer-og-klima', 'Fysisk sikring', 'Flomvoller, skredvoller, fangnett og snøskjermer.', 13),
+  ('geofag-2:naturfarer-og-klima', 'Tinende permafrost', 'Kan gjøre fjellsider ustabile.', 14);
+delete from public.quiz_sporsmal where tema_id = 'geofag-2:naturfarer-og-klima';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('geofag-2:naturfarer-og-klima', 'q01', 'flervalg', 'Hvordan kan risiko beskrives?', array['Bare sannsynlighet', 'Sannsynlighet × konsekvens', 'Bare konsekvens', 'Antall hendelser per år']::text[], 1, 'Begge deler må med.', true, true, 0),
+  ('geofag-2:naturfarer-og-klima', 'q02', 'flervalg', 'Hva gir stormflo?', array['Lavt trykk, pålandsvind og springflo samtidig', 'Høytrykk og vindstille', 'Tørke', 'Snøsmelting']::text[], 0, 'Ekstra høy vannstand.', true, true, 1),
+  ('geofag-2:naturfarer-og-klima', 'q03', 'flervalg', 'Hva er et sørpeskred?', array['Et steinsprang', 'Et skred av tørr snø', 'Vannmettet snø som raser', 'Et jordskjelv']::text[], 2, 'Ofte ved regn eller rask snøsmelting.', true, true, 2),
+  ('geofag-2:naturfarer-og-klima', 'q04', 'flervalg', 'Hva betyr oransje farevarsel?', array['Ingen fare', 'Ekstrem fare', 'Moderat fare', 'Betydelig fare – vær forberedt']::text[], 3, 'Rødt er ekstrem fare.', true, true, 3),
+  ('geofag-2:naturfarer-og-klima', 'q05', 'flervalg', 'Hvilken nettside publiserer NVEs skred- og flomvarsler?', array['varsom.no', 'yr.no alene', 'nrk.no', 'regjeringen.no']::text[], 0, 'Snøskred, jordskred og flom.', true, true, 4),
+  ('geofag-2:naturfarer-og-klima', 'q06', 'flervalg', 'Hvordan kan klimaendringer påvirke stormflo?', array['Gjøre den mindre farlig', 'Gjøre den farligere gjennom havnivåstigning', 'Ingen effekt', 'Stoppe den helt']::text[], 1, 'Høyere utgangsnivå.', true, true, 5),
+  ('geofag-2:naturfarer-og-klima', 'q07', 'flervalg', 'Hva er et jøkulhlaup?', array['Et snøskred', 'En orkan', 'Plutselig tømming av en bredemt sjø', 'En tørkeperiode']::text[], 2, 'En brerelatert fare.', true, true, 6),
+  ('geofag-2:naturfarer-og-klima', 'q08', 'flervalg', 'Hva er et eksempel på forebygging gjennom arealplanlegging?', array['Evakuering', 'Farevarsel', 'Fangnett', 'Å unngå å bygge i flomsoner']::text[], 3, 'Kommunene har ansvaret.', true, true, 7),
+  ('geofag-2:naturfarer-og-klima', 'q09', 'flervalg', 'Hvorfor kan tinende permafrost være farlig?', array['Det kan gjøre fjellsider ustabile', 'Det gir mer snø', 'Det senker havnivået', 'Det gir mindre nedbør']::text[], 0, 'Isen holdt massene sammen.', true, false, 8),
+  ('geofag-2:naturfarer-og-klima', 'q10', 'flervalg', 'Hvilken naturfare kan øke med flere tørkeperioder?', array['Stormflo', 'Skogbrann', 'Snøskred', 'Jøkulhlaup']::text[], 1, 'Tørr vegetasjon brenner lettere.', true, false, 9),
+  ('geofag-2:naturfarer-og-klima', 'm01', 'sant-usant', 'Snøskred går ofte i heng brattere enn omtrent 30°.', array['Sant', 'Usant']::text[], 0, 'Bratthet er en viktig faktor.', false, true, 10),
+  ('geofag-2:naturfarer-og-klima', 'm02', 'sant-usant', 'En stor flom i et øde område gir alltid høy risiko.', array['Sant', 'Usant']::text[], 1, 'Konsekvensene er små, så risikoen er lav.', false, true, 11),
+  ('geofag-2:naturfarer-og-klima', 'm03', 'sant-usant', 'Meteorologisk institutt og NVE samarbeider om farevarsler.', array['Sant', 'Usant']::text[], 0, 'Gult, oransje og rødt.', false, true, 12),
+  ('geofag-2:naturfarer-og-klima', 'm04', 'sant-usant', 'Klimaendringer vil gi færre jordskred i hele Norge.', array['Sant', 'Usant']::text[], 1, 'Mer ekstremnedbør kan gi flere.', false, true, 13),
+  ('geofag-2:naturfarer-og-klima', 'm05', 'flervalg', 'Hva er et eksempel på fysisk sikring mot skred?', array['Farevarsel', 'Skredvoller og fangnett', 'Arealplan', 'Evakuering']::text[], 1, 'Stopper eller leder skredmassene.', false, true, 14),
+  ('geofag-2:naturfarer-og-klima', 'm06', 'flervalg', 'Hva utløser ofte jordskred og flomskred?', array['Intens nedbør i bratt terreng', 'Høytrykk', 'Kulde', 'Vindstille']::text[], 0, 'Løsmassene blir vannmettet.', false, true, 15),
+  ('geofag-2:naturfarer-og-klima', 'm07', 'flervalg', 'Hva betyr gult farevarsel?', array['Ekstrem fare', 'Betydelig fare', 'Moderat fare – vær oppmerksom', 'Ingen fare']::text[], 2, 'Det laveste nivået.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('geofag-2:naturfarer-og-klima', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk R2 (vg3): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'matematikk-r2' and slug not in ('rekker', 'rekursjon-og-programmering', 'integral-som-grenseverdi', 'analysens-fundamentalteorem', 'integrasjonsmetoder', 'numerisk-integrasjon', 'modellering-med-reelle-datasett', 'analyse-av-modeller', 'omdreiningslegemer', 'parameterframstillinger-og-bevegelse', 'vektorer-i-rommet', 'linjer-plan-og-kuler', 'radianer-og-trigonometriske-funksjoner', 'trigonometriske-likninger-og-identiteter', 'bevis-og-induksjon');
+
+-- Matematikk R2: Rekker – aritmetiske, geometriske og uendelige
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-r2:rekker', 'matematikk-r2', 'rekker', 'Rekker – aritmetiske, geometriske og uendelige', 'Følger og rekker, summetegnet Σ, aritmetiske og geometriske rekker med sumformler, når en uendelig geometrisk rekke konvergerer, og praktiske anvendelser som sparing, lån, medisin i kroppen og periodiske desimaltall.', array[1]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-r2:rekker', '## Følge og rekke
+
+En **følge** er en ordnet liste med tall: a₁, a₂, a₃, … En **rekke** er **summen** av leddene: a₁ + a₂ + a₃ + … Summen av de n første leddene kalles **Sₙ**.
+
+Med **summetegnet** skriver vi for eksempel
+
+Σ i² (i = 1 til 4) = 1 + 4 + 9 + 16 = **30**
+
+## Aritmetiske rekker
+
+I en **aritmetisk** rekke er **differansen** d mellom to naboledd konstant.
+
+- **aₙ = a₁ + (n − 1)d**
+- **Sₙ = n(a₁ + aₙ) / 2**
+
+**Eksempel**: 3 + 7 + 11 + … + 39. Her er d = 4 og n = (39 − 3)/4 + 1 = 10, så S₁₀ = 10(3 + 39)/2 = **210**.
+
+Summen av de n første naturlige tallene er n(n + 1)/2.
+
+## Geometriske rekker
+
+I en **geometrisk** rekke er **kvotienten** k mellom to naboledd konstant.
+
+- **aₙ = a₁ · kⁿ⁻¹**
+- **Sₙ = a₁(kⁿ − 1) / (k − 1)** når k ≠ 1
+
+**Eksempel**: 2 + 6 + 18 + … med 6 ledd gir S₆ = 2(3⁶ − 1)/(3 − 1) = **728**.
+
+## Uendelige geometriske rekker
+
+Når n vokser, går kⁿ mot 0 hvis **|k| < 1**. Da **konvergerer** rekken, og summen er
+
+**S = a₁ / (1 − k)**
+
+Er |k| ≥ 1, **divergerer** rekken – den har ingen endelig sum.
+
+**Eksempel**: 8 + 4 + 2 + 1 + … har k = 1/2, så S = 8/(1 − 1/2) = **16**.
+
+En **konvergensbetingelse** kan inneholde en variabel. Rekken 1 + x + x² + … konvergerer for **−1 < x < 1**, og summen er 1/(1 − x).
+
+Merk: At leddene går mot 0, er **ikke nok**. Den **harmoniske rekken** 1 + 1/2 + 1/3 + 1/4 + … divergerer.
+
+## Periodiske desimaltall
+
+0,777… = 7/10 + 7/100 + 7/1000 + … er en uendelig geometrisk rekke med a₁ = 7/10 og k = 1/10:
+
+S = (7/10)/(1 − 1/10) = **7/9**
+
+## Anvendelser
+
+**Sparing**: Du setter inn 10 000 kr hvert år i 10 år med 4 % rente. Rett etter siste innskudd er verdien
+
+10 000 + 10 000 · 1,04 + … + 10 000 · 1,04⁹ = 10 000(1,04¹⁰ − 1)/0,04 ≈ **120 061 kr**
+
+**Annuitetslån**: Nåverdien av alle framtidige terminbeløp skal være lik lånebeløpet. Det gir en geometrisk rekke som vi kan løse for terminbeløpet.
+
+**Medisin**: En pasient tar 100 mg hver dag, og 20 % er igjen etter et døgn. Rett etter dose n er mengden
+
+100 + 100 · 0,2 + … + 100 · 0,2ⁿ⁻¹
+
+På lang sikt nærmer mengden seg 100/(1 − 0,2) = **125 mg**.
+
+## Arbeidsmåte
+
+Bruk gjerne **CAS** eller et program til å regne ut delsummer og se om de **stabiliserer** seg. Men for å vise at en rekke konvergerer, må du **begrunne** det – for eksempel med betingelsen |k| < 1.', '{"label":"Rekker","children":[{"label":"Grunnbegreper","children":[{"label":"Følge og rekke"},{"label":"Summetegn"}]},{"label":"Aritmetisk","children":[{"label":"Differanse d"},{"label":"Sₙ = n(a₁ + aₙ)/2"}]},{"label":"Geometrisk","children":[{"label":"Kvotient k"},{"label":"Sₙ = a₁(kⁿ − 1)/(k − 1)"}]},{"label":"Uendelig","children":[{"label":"|k| < 1"},{"label":"S = a₁/(1 − k)"},{"label":"Harmonisk rekke divergerer"}]},{"label":"Anvendelser","children":[{"label":"Sparing og lån"},{"label":"Medisin"},{"label":"Periodiske desimaltall"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-r2:rekker';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-r2:rekker', 'Følge', 'Ordnet liste med tall: a₁, a₂, a₃, …', 0),
+  ('matematikk-r2:rekker', 'Rekke', 'Summen av leddene i en følge.', 1),
+  ('matematikk-r2:rekker', 'Sₙ', 'Summen av de n første leddene.', 2),
+  ('matematikk-r2:rekker', 'Σ', 'Summetegn.', 3),
+  ('matematikk-r2:rekker', 'Aritmetisk rekke', 'Konstant differanse d mellom naboledd.', 4),
+  ('matematikk-r2:rekker', 'aₙ i aritmetisk rekke', 'a₁ + (n − 1)d', 5),
+  ('matematikk-r2:rekker', 'Sₙ i aritmetisk rekke', 'n(a₁ + aₙ)/2', 6),
+  ('matematikk-r2:rekker', 'Geometrisk rekke', 'Konstant kvotient k mellom naboledd.', 7),
+  ('matematikk-r2:rekker', 'aₙ i geometrisk rekke', 'a₁ · kⁿ⁻¹', 8),
+  ('matematikk-r2:rekker', 'Sₙ i geometrisk rekke', 'a₁(kⁿ − 1)/(k − 1)', 9),
+  ('matematikk-r2:rekker', 'Konvergens', 'Rekken har en endelig sum.', 10),
+  ('matematikk-r2:rekker', 'Konvergensbetingelse', '|k| < 1 for en uendelig geometrisk rekke.', 11),
+  ('matematikk-r2:rekker', 'Sum av uendelig geometrisk rekke', 'a₁/(1 − k)', 12),
+  ('matematikk-r2:rekker', 'Divergens', 'Rekken har ingen endelig sum.', 13),
+  ('matematikk-r2:rekker', 'Harmonisk rekke', '1 + 1/2 + 1/3 + … – divergerer.', 14),
+  ('matematikk-r2:rekker', 'Sum av 1 + 2 + … + n', 'n(n + 1)/2', 15);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-r2:rekker';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-r2:rekker', 'q01', 'flervalg', 'Hva er differansen d i rekken 5 + 9 + 13 + …?', array['5', '4', '9', '13']::text[], 1, '9 − 5 = 4.', true, true, 0),
+  ('matematikk-r2:rekker', 'q02', 'flervalg', 'Hva er summen 3 + 7 + 11 + … + 39?', array['210', '420', '195', '39']::text[], 0, '10 ledd: 10(3 + 39)/2.', true, true, 1),
+  ('matematikk-r2:rekker', 'q03', 'flervalg', 'Når konvergerer en uendelig geometrisk rekke?', array['Når k > 1', 'Når k = 1', 'Når |k| < 1', 'Alltid']::text[], 2, 'Da går kⁿ mot 0.', true, true, 2),
+  ('matematikk-r2:rekker', 'q04', 'flervalg', 'Hva er summen av 8 + 4 + 2 + 1 + …?', array['15', '8', '32', '16']::text[], 3, '8/(1 − 1/2) = 16.', true, true, 3),
+  ('matematikk-r2:rekker', 'q05', 'flervalg', 'Hva er kvotienten k i rekken 2 + 6 + 18 + …?', array['3', '4', '2', '6']::text[], 0, '6/2 = 3.', true, true, 4),
+  ('matematikk-r2:rekker', 'q06', 'flervalg', 'Hvilken brøk er 0,777…?', array['7/10', '7/9', '77/100', '1/7']::text[], 1, '(7/10)/(1 − 1/10).', true, true, 5),
+  ('matematikk-r2:rekker', 'q07', 'flervalg', 'Hva gjelder for den harmoniske rekken 1 + 1/2 + 1/3 + …?', array['Den har summen 2', 'Den har summen 1', 'Den divergerer', 'Den er geometrisk']::text[], 2, 'Selv om leddene går mot 0.', true, true, 6),
+  ('matematikk-r2:rekker', 'q08', 'flervalg', 'Hva er sumformelen for en endelig geometrisk rekke?', array['n(a₁ + aₙ)/2', 'a₁/(1 − k)', 'a₁ + (n − 1)d', 'a₁(kⁿ − 1)/(k − 1)']::text[], 3, 'Gjelder når k ≠ 1.', true, true, 7),
+  ('matematikk-r2:rekker', 'q09', 'flervalg', 'En pasient tar 100 mg daglig, og 20 % er igjen etter et døgn. Hvilken mengde nærmer seg innholdet rett etter dose på lang sikt?', array['125 mg', '100 mg', '120 mg', '500 mg']::text[], 0, '100/(1 − 0,2).', true, false, 8),
+  ('matematikk-r2:rekker', 'q10', 'flervalg', 'Hva er Σ i² for i = 1 til 4?', array['10', '30', '16', '100']::text[], 1, '1 + 4 + 9 + 16.', true, false, 9),
+  ('matematikk-r2:rekker', 'm01', 'sant-usant', 'En rekke er summen av leddene i en følge.', array['Sant', 'Usant']::text[], 0, 'Følgen er listen, rekken er summen.', false, true, 10),
+  ('matematikk-r2:rekker', 'm02', 'sant-usant', 'Den uendelige rekken 1 + 2 + 4 + 8 + … konvergerer.', array['Sant', 'Usant']::text[], 1, 'k = 2, så den divergerer.', false, true, 11),
+  ('matematikk-r2:rekker', 'm03', 'sant-usant', 'Summen av de n første naturlige tallene er n(n + 1)/2.', array['Sant', 'Usant']::text[], 0, 'En aritmetisk rekke med d = 1.', false, true, 12),
+  ('matematikk-r2:rekker', 'm04', 'sant-usant', 'I en aritmetisk rekke er forholdet mellom to naboledd konstant.', array['Sant', 'Usant']::text[], 1, 'Det er differansen som er konstant.', false, true, 13),
+  ('matematikk-r2:rekker', 'm05', 'flervalg', 'For hvilke x konvergerer 1 + x + x² + …?', array['x > 1', '−1 < x < 1', 'Alle x', 'x < −1']::text[], 1, 'Kvotienten er x.', false, true, 14),
+  ('matematikk-r2:rekker', 'm06', 'flervalg', 'Hva er aₙ i følgen 5, 8, 11, …?', array['3n + 2', '5n', '3n + 5', 'n + 3']::text[], 0, '5 + (n − 1) · 3 = 3n + 2.', false, true, 15),
+  ('matematikk-r2:rekker', 'm07', 'flervalg', 'Hva er summen av de 5 første leddene i 1 + 3 + 9 + …?', array['81', '243', '121', '40']::text[], 2, '(3⁵ − 1)/(3 − 1) = 121.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-r2:rekker', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk R2: Rekursive sammenhenger og programmering
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-r2:rekursjon-og-programmering', 'matematikk-r2', 'rekursjon-og-programmering', 'Rekursive sammenhenger og programmering', 'Rekursive og eksplisitte formler, Fibonacci-følgen, rekursjon i lån, sparing og populasjonsmodeller, og hvordan du utforsker rekursive sammenhenger med løkker og rekursive funksjoner i Python og presenterer framgangsmåten.', array[2]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-r2:rekursjon-og-programmering', '## Rekursiv og eksplisitt formel
+
+En **rekursiv** formel beskriver hvert ledd ved hjelp av **tidligere** ledd. Vi trenger også en **startverdi**.
+
+- Aritmetisk: a₁ = 3, **aₙ = aₙ₋₁ + 4**
+- Geometrisk: a₁ = 2, **aₙ = 3 · aₙ₋₁**
+
+En **eksplisitt** formel regner ut aₙ direkte fra n, for eksempel aₙ = 4n − 1. Med en rekursiv formel må du regne deg fram ledd for ledd – noe en datamaskin er god til.
+
+## Fibonacci-følgen
+
+F₁ = 1, F₂ = 1 og **Fₙ = Fₙ₋₁ + Fₙ₋₂**. Det gir 1, 1, 2, 3, 5, 8, 13, 21, … Forholdet Fₙ₊₁/Fₙ nærmer seg det **gylne snitt**, (1 + √5)/2 ≈ 1,618.
+
+## Rekursjon i praksis
+
+**Lån**: Du låner 200 000 kr med 5 % rente og betaler 20 000 kr i året. Restgjelden etter n år:
+
+B₀ = 200 000, **Bₙ = 1,05 · Bₙ₋₁ − 20 000**
+
+**Populasjon**: En diskret **logistisk** modell med bæreevne K:
+
+**Pₙ₊₁ = Pₙ + r · Pₙ(1 − Pₙ/K)**
+
+Veksten bremses når Pₙ nærmer seg K.
+
+## Programmering med løkker
+
+En **for-løkke** passer når du vet hvor mange steg du skal ta:
+
+```python
+B = 200000
+for n in range(1, 6):
+    B = 1.05*B - 20000
+    print(n, round(B))
+```
+
+En **while-løkke** passer når du skal fortsette til et **vilkår** er oppfylt, for eksempel til lånet er nedbetalt:
+
+```python
+B, n = 200000, 0
+while B > 0:
+    B = 1.05*B - 20000
+    n = n + 1
+print(n)
+```
+
+Med **lister** kan du lagre alle leddene og tegne dem som et **diagram**.
+
+## Rekursive funksjoner
+
+En funksjon er **rekursiv** når den **kaller seg selv**. Den må ha et **grunntilfelle** som stopper kallene.
+
+```python
+def fakultet(n):
+    if n == 0:
+        return 1
+    return n*fakultet(n - 1)
+```
+
+fakultet(5) gir 5 · 4 · 3 · 2 · 1 = **120**.
+
+En rekursiv Fibonacci-funksjon som kaller seg selv **to ganger** i hvert steg, blir svært **treg** for store n, fordi de samme leddene regnes ut om og om igjen. En **løkke** eller **lagring** av tidligere svar (memoisering) løser dette.
+
+## Fra rekursiv til eksplisitt
+
+Noen ganger kan vi finne en eksplisitt formel. Lånet over kan skrives som en geometrisk rekke:
+
+Bₙ = 200 000 · 1,05ⁿ − 20 000(1,05ⁿ − 1)/0,05
+
+Det gir en **kontroll** av programmet.
+
+## Presentere framgangsmåten
+
+Når du presenterer en rekursiv undersøkelse, bør du
+
+1. forklare **modellen** og hva hver variabel betyr
+2. vise **startverdi** og **rekursjonsformel**
+3. vise og **kommentere** koden
+4. presentere resultatene i **tabell** eller **graf**
+5. **tolke** resultatet og vurdere **begrensningene** i modellen', '{"label":"Rekursjon","children":[{"label":"Formler","children":[{"label":"Rekursiv"},{"label":"Eksplisitt"},{"label":"Startverdi"}]},{"label":"Eksempler","children":[{"label":"Fibonacci"},{"label":"Lån"},{"label":"Logistisk vekst"}]},{"label":"Løkker","children":[{"label":"for"},{"label":"while"},{"label":"Lister"}]},{"label":"Rekursive funksjoner","children":[{"label":"Grunntilfelle"},{"label":"Fakultet"},{"label":"Memoisering"}]},{"label":"Presentasjon","children":[{"label":"Kode og kommentarer"},{"label":"Tabell og graf"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-r2:rekursjon-og-programmering';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-r2:rekursjon-og-programmering', 'Rekursiv formel', 'Beskriver et ledd ved hjelp av tidligere ledd.', 0),
+  ('matematikk-r2:rekursjon-og-programmering', 'Eksplisitt formel', 'Regner ut aₙ direkte fra n.', 1),
+  ('matematikk-r2:rekursjon-og-programmering', 'Startverdi', 'Første ledd som rekursjonen bygger på.', 2),
+  ('matematikk-r2:rekursjon-og-programmering', 'Fibonacci-følgen', 'Fₙ = Fₙ₋₁ + Fₙ₋₂ med F₁ = F₂ = 1.', 3),
+  ('matematikk-r2:rekursjon-og-programmering', 'Det gylne snitt', '(1 + √5)/2 ≈ 1,618.', 4),
+  ('matematikk-r2:rekursjon-og-programmering', 'Restgjeld rekursivt', 'Bₙ = (1 + r) · Bₙ₋₁ − terminbeløp.', 5),
+  ('matematikk-r2:rekursjon-og-programmering', 'Diskret logistisk modell', 'Pₙ₊₁ = Pₙ + r · Pₙ(1 − Pₙ/K)', 6),
+  ('matematikk-r2:rekursjon-og-programmering', 'Bæreevne K', 'Største bestand miljøet kan bære.', 7),
+  ('matematikk-r2:rekursjon-og-programmering', 'for-løkke', 'Gjentar et bestemt antall ganger.', 8),
+  ('matematikk-r2:rekursjon-og-programmering', 'while-løkke', 'Gjentar så lenge et vilkår er oppfylt.', 9),
+  ('matematikk-r2:rekursjon-og-programmering', 'Rekursiv funksjon', 'Funksjon som kaller seg selv.', 10),
+  ('matematikk-r2:rekursjon-og-programmering', 'Grunntilfelle', 'Tilfellet som stopper rekursive kall.', 11),
+  ('matematikk-r2:rekursjon-og-programmering', 'n!', 'n · (n − 1) · … · 1, med 0! = 1.', 12),
+  ('matematikk-r2:rekursjon-og-programmering', 'Memoisering', 'Å lagre tidligere svar så de ikke regnes ut igjen.', 13),
+  ('matematikk-r2:rekursjon-og-programmering', 'Liste i Python', 'Lagrer mange verdier, for eksempel alle leddene.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-r2:rekursjon-og-programmering';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-r2:rekursjon-og-programmering', 'q01', 'flervalg', 'Hva er a₄ når a₁ = 2 og aₙ = 3 · aₙ₋₁?', array['18', '54', '24', '162']::text[], 1, '2, 6, 18, 54.', true, true, 0),
+  ('matematikk-r2:rekursjon-og-programmering', 'q02', 'flervalg', 'Hva er det neste tallet i Fibonacci-følgen 1, 1, 2, 3, 5, 8, …?', array['13', '11', '16', '10']::text[], 0, '5 + 8.', true, true, 1),
+  ('matematikk-r2:rekursjon-og-programmering', 'q03', 'flervalg', 'Hva må en rekursiv funksjon ha for å stoppe?', array['En while-løkke', 'En liste', 'Et grunntilfelle', 'En print-kommando']::text[], 2, 'Ellers kaller den seg selv i det uendelige.', true, true, 2),
+  ('matematikk-r2:rekursjon-og-programmering', 'q04', 'flervalg', 'Når passer en while-løkke best?', array['Når du vet nøyaktig antall steg', 'Aldri', 'Bare for lister', 'Når du skal fortsette til et vilkår er oppfylt']::text[], 3, 'For eksempel til lånet er nedbetalt.', true, true, 3),
+  ('matematikk-r2:rekursjon-og-programmering', 'q05', 'flervalg', 'Hva blir B₁ når B₀ = 200 000 og Bₙ = 1,05 · Bₙ₋₁ − 20 000?', array['190 000', '210 000', '180 000', '200 000']::text[], 0, '210 000 − 20 000.', true, true, 4),
+  ('matematikk-r2:rekursjon-og-programmering', 'q06', 'flervalg', 'Hvilken verdi nærmer forholdet Fₙ₊₁/Fₙ i Fibonacci-følgen seg?', array['2', 'Det gylne snitt, omtrent 1,618', 'π', '1']::text[], 1, '(1 + √5)/2.', true, true, 5),
+  ('matematikk-r2:rekursjon-og-programmering', 'q07', 'flervalg', 'Hva returnerer fakultet(4) i den rekursive funksjonen?', array['4', '10', '24', '16']::text[], 2, '4 · 3 · 2 · 1.', true, true, 6),
+  ('matematikk-r2:rekursjon-og-programmering', 'q08', 'flervalg', 'Hvorfor er en rekursiv Fibonacci-funksjon som kaller seg selv to ganger, treg?', array['Fordi Python er tregt', 'Fordi tallene er små', 'Fordi den mangler grunntilfelle', 'Fordi de samme leddene regnes ut om og om igjen']::text[], 3, 'Løses med løkke eller memoisering.', true, true, 7),
+  ('matematikk-r2:rekursjon-og-programmering', 'q09', 'flervalg', 'Hva skjer med veksten i en logistisk modell når Pₙ nærmer seg K?', array['Den bremses', 'Den øker', 'Den blir negativ alltid', 'Den er konstant']::text[], 0, 'Faktoren (1 − Pₙ/K) går mot 0.', true, false, 8),
+  ('matematikk-r2:rekursjon-og-programmering', 'q10', 'flervalg', 'Hva er en eksplisitt formel for følgen gitt ved a₁ = 3 og aₙ = aₙ₋₁ + 4?', array['aₙ = 3n + 4', 'aₙ = 4n − 1', 'aₙ = 4n + 3', 'aₙ = 3 · 4ⁿ']::text[], 1, '3 + (n − 1) · 4.', true, false, 9),
+  ('matematikk-r2:rekursjon-og-programmering', 'm01', 'sant-usant', 'En rekursiv formel trenger en startverdi.', array['Sant', 'Usant']::text[], 0, 'Ellers vet vi ikke hvor vi skal begynne.', false, true, 10),
+  ('matematikk-r2:rekursjon-og-programmering', 'm02', 'sant-usant', '0! er lik 0.', array['Sant', 'Usant']::text[], 1, '0! er definert som 1.', false, true, 11),
+  ('matematikk-r2:rekursjon-og-programmering', 'm03', 'sant-usant', 'En eksplisitt formel kan brukes til å kontrollere et program.', array['Sant', 'Usant']::text[], 0, 'Svarene skal stemme.', false, true, 12),
+  ('matematikk-r2:rekursjon-og-programmering', 'm04', 'sant-usant', 'range(1, 6) i Python gir tallene 1 til og med 6.', array['Sant', 'Usant']::text[], 1, 'Den gir 1 til og med 5.', false, true, 13),
+  ('matematikk-r2:rekursjon-og-programmering', 'm05', 'flervalg', 'Hva er en rekursiv funksjon?', array['En funksjon uten parametre', 'En funksjon som kaller seg selv', 'En funksjon med løkke', 'En funksjon som tegner grafer']::text[], 1, 'Må ha et grunntilfelle.', false, true, 14),
+  ('matematikk-r2:rekursjon-og-programmering', 'm06', 'flervalg', 'Hva er F₈ i Fibonacci-følgen?', array['21', '13', '34', '18']::text[], 0, '1, 1, 2, 3, 5, 8, 13, 21.', false, true, 15),
+  ('matematikk-r2:rekursjon-og-programmering', 'm07', 'flervalg', 'Hva bør en presentasjon av en rekursiv modell inneholde?', array['Bare koden', 'Bare svaret', 'Modell, formel, kode, resultater og tolkning', 'Bare en graf']::text[], 2, 'Også begrensninger.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-r2:rekursjon-og-programmering', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk R2: Integral som grenseverdi av summer
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-r2:integral-som-grenseverdi', 'matematikk-r2', 'integral-som-grenseverdi', 'Integral som grenseverdi av summer', 'Hvordan det bestemte integralet defineres som grenseverdien av en følge av summer – venstre- og høyresummer, under- og oversummer, Riemann-summer – regneregler for bestemte integraler, og hvordan integralet tolkes som areal, strekning og samlet mengde.', array[3]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-r2:integral-som-grenseverdi', '## Problemet
+
+Hvordan finner vi **arealet** under en krum graf? Idéen er å dele området i mange smale **rektangler**, legge sammen arealene og la bredden gå mot 0.
+
+## Summer av rektangler
+
+Del intervallet [a, b] i n like deler med bredde
+
+**Δx = (b − a)/n**
+
+I hvert delintervall velger vi en høyde f(xᵢ):
+
+- **Venstresum**: høyden i venstre endepunkt
+- **Høyresum**: høyden i høyre endepunkt
+- **Undersum**: den minste funksjonsverdien i delintervallet
+- **Oversum**: den største funksjonsverdien
+
+En slik sum Σ f(xᵢ) · Δx kalles en **Riemann-sum**.
+
+## Eksempel: f(x) = x² på [0, 1]
+
+Med n = 4 er Δx = 0,25.
+
+- Venstresum: (0 + 0,0625 + 0,25 + 0,5625) · 0,25 ≈ **0,219**
+- Høyresum: (0,0625 + 0,25 + 0,5625 + 1) · 0,25 ≈ **0,469**
+
+Det riktige arealet ligger mellom. Fordi f er **voksende**, er venstresummen en undersum og høyresummen en oversum.
+
+Med n delintervaller blir høyresummen
+
+Σ (i/n)² · (1/n) = (1/n³) · n(n + 1)(2n + 1)/6
+
+Når n → ∞, går dette mot **1/3**. Her bruker vi at 1² + 2² + … + n² = n(n + 1)(2n + 1)/6.
+
+## Det bestemte integralet
+
+Når under- og oversummene nærmer seg **samme** tall når n → ∞, kaller vi tallet det **bestemte integralet**:
+
+**∫ₐᵇ f(x) dx = lim (n → ∞) Σ f(xᵢ) · Δx**
+
+- ∫ er en langstrakt **S** for «sum».
+- dx minner om den uendelig smale bredden Δx.
+- a og b er **integrasjonsgrensene**.
+
+For **kontinuerlige** funksjoner finnes grenseverdien alltid.
+
+## Fortegn
+
+Der grafen ligger **under** x-aksen, er f(xᵢ) negativ, og bidraget blir **negativt**. Integralet gir derfor et **areal med fortegn**. For å finne det **geometriske arealet** må du dele opp ved nullpunktene.
+
+## Regneregler
+
+- ∫ₐᵇ (f(x) + g(x)) dx = ∫ₐᵇ f(x) dx + ∫ₐᵇ g(x) dx
+- ∫ₐᵇ k · f(x) dx = k · ∫ₐᵇ f(x) dx
+- ∫ₐᵇ f(x) dx + ∫ᵦᶜ f(x) dx = ∫ₐᶜ f(x) dx (b mellom a og c)
+- ∫ₐᵃ f(x) dx = 0
+- ∫ᵦₐ f(x) dx = −∫ₐᵇ f(x) dx
+
+## Tolkning
+
+Integralet er en **sum av mange små bidrag**, og **enheten** er y-enhet ganget med x-enhet:
+
+- **Fart** v(t) i m/s integrert over tid gir **forflytning** i meter.
+- **Vannføring** i liter per minutt integrert over tid gir **antall liter**.
+- **Effekt** i watt integrert over tid gir **energi** i joule.
+- **Befolkningstetthet** integrert over areal gir **antall mennesker**.
+
+Denne tolkningen gjør at integraler kan brukes i svært mange **praktiske** situasjoner – også når vi bare har **måledata** og må regne ut summen **numerisk**.', '{"label":"Integral som grenseverdi","children":[{"label":"Summer","children":[{"label":"Venstre- og høyresum"},{"label":"Under- og oversum"},{"label":"Riemann-sum"}]},{"label":"Grenseverdi","children":[{"label":"n → ∞"},{"label":"∫ₐᵇ f(x) dx"}]},{"label":"Fortegn","children":[{"label":"Under x-aksen negativt"},{"label":"Geometrisk areal"}]},{"label":"Regneregler","children":[{"label":"Sum og konstant"},{"label":"Dele opp intervallet"},{"label":"Bytte grenser"}]},{"label":"Tolkning","children":[{"label":"Areal"},{"label":"Forflytning"},{"label":"Samlet mengde og energi"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-r2:integral-som-grenseverdi';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-r2:integral-som-grenseverdi', 'Δx', 'Bredden på hvert delintervall: (b − a)/n.', 0),
+  ('matematikk-r2:integral-som-grenseverdi', 'Venstresum', 'Rektangelhøyden hentes i venstre endepunkt.', 1),
+  ('matematikk-r2:integral-som-grenseverdi', 'Høyresum', 'Rektangelhøyden hentes i høyre endepunkt.', 2),
+  ('matematikk-r2:integral-som-grenseverdi', 'Undersum', 'Bruker den minste funksjonsverdien i hvert delintervall.', 3),
+  ('matematikk-r2:integral-som-grenseverdi', 'Oversum', 'Bruker den største funksjonsverdien i hvert delintervall.', 4),
+  ('matematikk-r2:integral-som-grenseverdi', 'Riemann-sum', 'Σ f(xᵢ) · Δx', 5),
+  ('matematikk-r2:integral-som-grenseverdi', 'Bestemt integral', 'Grenseverdien av Riemann-summene når n → ∞.', 6),
+  ('matematikk-r2:integral-som-grenseverdi', 'Integrasjonsgrenser', 'a og b i ∫ₐᵇ f(x) dx.', 7),
+  ('matematikk-r2:integral-som-grenseverdi', 'Integraltegnet ∫', 'En langstrakt S for «sum».', 8),
+  ('matematikk-r2:integral-som-grenseverdi', 'Areal med fortegn', 'Områder under x-aksen teller negativt.', 9),
+  ('matematikk-r2:integral-som-grenseverdi', '∫ₐᵃ f(x) dx', '0', 10),
+  ('matematikk-r2:integral-som-grenseverdi', 'Bytte grenser', '∫ᵦₐ f(x) dx = −∫ₐᵇ f(x) dx', 11),
+  ('matematikk-r2:integral-som-grenseverdi', 'Enhet til integral', 'y-enhet ganget med x-enhet.', 12),
+  ('matematikk-r2:integral-som-grenseverdi', 'Integral av fart', 'Forflytning.', 13),
+  ('matematikk-r2:integral-som-grenseverdi', 'Integral av effekt', 'Energi.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-r2:integral-som-grenseverdi';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-r2:integral-som-grenseverdi', 'q01', 'flervalg', 'Hva er Δx når [0, 2] deles i 8 like deler?', array['0,5', '0,25', '2', '8']::text[], 1, '(2 − 0)/8.', true, true, 0),
+  ('matematikk-r2:integral-som-grenseverdi', 'q02', 'flervalg', 'Hvordan defineres det bestemte integralet?', array['Som grenseverdien av Riemann-summer når n → ∞', 'Som den deriverte', 'Som en venstresum med n = 4', 'Som f(b) · b']::text[], 0, 'Rektanglene blir uendelig smale.', true, true, 1),
+  ('matematikk-r2:integral-som-grenseverdi', 'q03', 'flervalg', 'Hvilken sum er en oversum for en voksende funksjon?', array['Venstresummen', 'Midtpunktsummen', 'Høyresummen', 'Ingen']::text[], 2, 'Høyre endepunkt har størst verdi.', true, true, 2),
+  ('matematikk-r2:integral-som-grenseverdi', 'q04', 'flervalg', 'Hva er høyresummen for f(x) = x² på [0, 1] med n = 2?', array['0,125', '0,25', '1', '0,625']::text[], 3, '(0,25 + 1) · 0,5 = 0,625.', true, true, 3),
+  ('matematikk-r2:integral-som-grenseverdi', 'q05', 'flervalg', 'Hva gir integralet av farten over et tidsintervall?', array['Forflytningen', 'Akselerasjonen', 'Tiden', 'Massen']::text[], 0, 'm/s · s = m.', true, true, 4),
+  ('matematikk-r2:integral-som-grenseverdi', 'q06', 'flervalg', 'Hva er ∫ᵦₐ f(x) dx uttrykt ved ∫ₐᵇ f(x) dx?', array['Det samme', '−∫ₐᵇ f(x) dx', '0', '2∫ₐᵇ f(x) dx']::text[], 1, 'Å bytte grensene skifter fortegn.', true, true, 5),
+  ('matematikk-r2:integral-som-grenseverdi', 'q07', 'flervalg', 'Hva skjer med integralet der grafen ligger under x-aksen?', array['Bidraget blir positivt', 'Det ignoreres', 'Bidraget blir negativt', 'Det dobles']::text[], 2, 'Areal med fortegn.', true, true, 6),
+  ('matematikk-r2:integral-som-grenseverdi', 'q08', 'flervalg', 'Hvilken enhet får integralet av effekt i watt over tid i sekunder?', array['Watt', 'Meter', 'Sekunder', 'Joule']::text[], 3, 'W · s = J.', true, true, 7),
+  ('matematikk-r2:integral-som-grenseverdi', 'q09', 'flervalg', 'Hva er ∫ₐᵇ 3f(x) dx hvis ∫ₐᵇ f(x) dx = 5?', array['15', '8', '5', '3']::text[], 0, 'Konstanter kan settes utenfor.', true, false, 8),
+  ('matematikk-r2:integral-som-grenseverdi', 'q10', 'flervalg', 'Hvilken verdi går høyresummene for x² på [0, 1] mot?', array['1/2', '1/3', '1', '0']::text[], 1, '(1/n³) · n(n + 1)(2n + 1)/6 → 1/3.', true, false, 9),
+  ('matematikk-r2:integral-som-grenseverdi', 'm01', 'sant-usant', 'For en voksende funksjon er venstresummen en undersum.', array['Sant', 'Usant']::text[], 0, 'Venstre endepunkt har minst verdi.', false, true, 10),
+  ('matematikk-r2:integral-som-grenseverdi', 'm02', 'sant-usant', 'Integralet av en funksjon er alltid positivt.', array['Sant', 'Usant']::text[], 1, 'Områder under x-aksen gir negative bidrag.', false, true, 11),
+  ('matematikk-r2:integral-som-grenseverdi', 'm03', 'sant-usant', '∫ₐᵃ f(x) dx = 0.', array['Sant', 'Usant']::text[], 0, 'Intervallet har bredde 0.', false, true, 12),
+  ('matematikk-r2:integral-som-grenseverdi', 'm04', 'sant-usant', 'Flere rektangler gir vanligvis en dårligere tilnærming.', array['Sant', 'Usant']::text[], 1, 'Flere og smalere rektangler gir bedre tilnærming.', false, true, 13),
+  ('matematikk-r2:integral-som-grenseverdi', 'm05', 'flervalg', 'Hva er 1² + 2² + … + n²?', array['n(n + 1)/2', 'n(n + 1)(2n + 1)/6', 'n³/3', 'n²']::text[], 1, 'Brukes for å finne ∫₀¹ x² dx.', false, true, 14),
+  ('matematikk-r2:integral-som-grenseverdi', 'm06', 'flervalg', 'Hva gir vannføring i liter per minutt integrert over tid i minutter?', array['Antall liter', 'Liter per sekund', 'Minutter', 'Farten']::text[], 0, 'L/min · min = L.', false, true, 15),
+  ('matematikk-r2:integral-som-grenseverdi', 'm07', 'flervalg', 'Hvilke funksjoner har alltid et bestemt integral på et lukket intervall?', array['Bare lineære', 'Bare polynomer', 'Kontinuerlige funksjoner', 'Ingen']::text[], 2, 'Grenseverdien finnes da alltid.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-r2:integral-som-grenseverdi', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk R2: Analysens fundamentalteorem
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-r2:analysens-fundamentalteorem', 'matematikk-r2', 'analysens-fundamentalteorem', 'Analysens fundamentalteorem', 'Sammenhengen mellom derivasjon og integrasjon – antideriverte og ubestemte integraler, de to delene av analysens fundamentalteorem med bevisidé, grunnleggende integrasjonsformler, areal mellom grafer og konsekvenser av teoremet.', array[4]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-r2:analysens-fundamentalteorem', '## Antiderivert
+
+En **antiderivert** til f er en funksjon F med **F′(x) = f(x)**. Fordi den deriverte av en konstant er 0, finnes det uendelig mange: Hvis F er en antiderivert, er også F + C det. Vi skriver det **ubestemte integralet**
+
+**∫ f(x) dx = F(x) + C**
+
+## Grunnleggende integraler
+
+- ∫ xʳ dx = xʳ⁺¹/(r + 1) + C, for r ≠ −1
+- ∫ 1/x dx = ln|x| + C
+- ∫ eˣ dx = eˣ + C
+- ∫ aˣ dx = aˣ/ln a + C
+- ∫ cos x dx = sin x + C
+- ∫ sin x dx = −cos x + C
+
+Du kan alltid **kontrollere** et integral ved å **derivere** svaret.
+
+## Teoremets første del
+
+La f være kontinuerlig og definer **arealfunksjonen**
+
+A(x) = ∫ₐˣ f(t) dt
+
+Da er A deriverbar, og **A′(x) = f(x)**.
+
+**Bevisidé**: A(x + h) − A(x) er arealet av en smal stripe med bredde h. Stripen er omtrent et rektangel med høyde f(x), så
+
+(A(x + h) − A(x))/h ≈ f(x)
+
+Når h → 0, blir tilnærmingen eksakt, fordi f er kontinuerlig.
+
+## Teoremets andre del
+
+Hvis F er en antiderivert til f på [a, b], er
+
+**∫ₐᵇ f(x) dx = F(b) − F(a) = [F(x)]ₐᵇ**
+
+**Bevisidé**: A og F har samme deriverte, så de skiller seg med en konstant: A(x) = F(x) + C. Siden A(a) = 0, er C = −F(a), og A(b) = F(b) − F(a).
+
+## Eksempler
+
+- ∫₀¹ x² dx = [x³/3]₀¹ = 1/3 − 0 = **1/3** – samme svar som grenseverdien av summene, men mye enklere.
+- ∫₁³ (2x + 1) dx = [x² + x]₁³ = (9 + 3) − (1 + 1) = **10**
+- ∫ sin x dx fra 0 til π = [−cos x] = −cos π + cos 0 = **2**
+
+## Areal mellom grafer
+
+Når f(x) ≥ g(x) på [a, b], er arealet mellom grafene
+
+**∫ₐᵇ (f(x) − g(x)) dx**
+
+Mellom y = x og y = x² fra 0 til 1: ∫₀¹ (x − x²) dx = 1/2 − 1/3 = **1/6**.
+
+## Konsekvenser av teoremet
+
+- **Derivasjon og integrasjon er motsatte operasjoner.**
+- Vi kan regne ut **eksakte** integraler uten grenseverdier av summer – så lenge vi finner en antiderivert.
+- Enhver **kontinuerlig** funksjon har en antiderivert, nemlig arealfunksjonen – selv om vi ikke alltid kan skrive den med kjente funksjoner. Et eksempel er e^(−x²), som er viktig i statistikk.
+- **Total endring**: ∫ₐᵇ f′(x) dx = f(b) − f(a). Integralet av en **endringsrate** gir den samlede **endringen**. Integrerer vi farten, får vi endringen i posisjon.
+- Vi kan **derivere** integraler: d/dx ∫₂ˣ t³ dt = x³.
+
+## Historie
+
+Teoremet ble utviklet uavhengig av **Isaac Newton** og **Gottfried Wilhelm Leibniz** på slutten av 1600-tallet. Notasjonen ∫ og dx kommer fra Leibniz.', '{"label":"Fundamentalteoremet","children":[{"label":"Antiderivert","children":[{"label":"F′ = f"},{"label":"+ C"}]},{"label":"Del 1","children":[{"label":"Arealfunksjon"},{"label":"A′(x) = f(x)"}]},{"label":"Del 2","children":[{"label":"F(b) − F(a)"},{"label":"Bevisidé"}]},{"label":"Formler","children":[{"label":"Potenser og 1/x"},{"label":"eˣ og aˣ"},{"label":"sin og cos"}]},{"label":"Konsekvenser","children":[{"label":"Motsatte operasjoner"},{"label":"Total endring"},{"label":"Areal mellom grafer"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-r2:analysens-fundamentalteorem';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-r2:analysens-fundamentalteorem', 'Antiderivert', 'F med F′(x) = f(x).', 0),
+  ('matematikk-r2:analysens-fundamentalteorem', 'Ubestemt integral', '∫ f(x) dx = F(x) + C', 1),
+  ('matematikk-r2:analysens-fundamentalteorem', 'Integrasjonskonstant C', 'Trengs fordi den deriverte av en konstant er 0.', 2),
+  ('matematikk-r2:analysens-fundamentalteorem', '∫ xʳ dx', 'xʳ⁺¹/(r + 1) + C, for r ≠ −1', 3),
+  ('matematikk-r2:analysens-fundamentalteorem', '∫ 1/x dx', 'ln|x| + C', 4),
+  ('matematikk-r2:analysens-fundamentalteorem', '∫ eˣ dx', 'eˣ + C', 5),
+  ('matematikk-r2:analysens-fundamentalteorem', '∫ cos x dx', 'sin x + C', 6),
+  ('matematikk-r2:analysens-fundamentalteorem', '∫ sin x dx', '−cos x + C', 7),
+  ('matematikk-r2:analysens-fundamentalteorem', 'Arealfunksjon', 'A(x) = ∫ₐˣ f(t) dt', 8),
+  ('matematikk-r2:analysens-fundamentalteorem', 'Fundamentalteoremet, del 1', 'A′(x) = f(x)', 9),
+  ('matematikk-r2:analysens-fundamentalteorem', 'Fundamentalteoremet, del 2', '∫ₐᵇ f(x) dx = F(b) − F(a)', 10),
+  ('matematikk-r2:analysens-fundamentalteorem', 'Areal mellom grafer', '∫ₐᵇ (f(x) − g(x)) dx når f ≥ g', 11),
+  ('matematikk-r2:analysens-fundamentalteorem', 'Total endring', '∫ₐᵇ f′(x) dx = f(b) − f(a)', 12),
+  ('matematikk-r2:analysens-fundamentalteorem', 'Kontroll av integral', 'Deriver svaret.', 13),
+  ('matematikk-r2:analysens-fundamentalteorem', 'Newton og Leibniz', 'Utviklet teoremet uavhengig av hverandre.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-r2:analysens-fundamentalteorem';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-r2:analysens-fundamentalteorem', 'q01', 'flervalg', 'Hva er ∫₁³ (2x + 1) dx?', array['12', '10', '8', '14']::text[], 1, '[x² + x]₁³ = 12 − 2.', true, true, 0),
+  ('matematikk-r2:analysens-fundamentalteorem', 'q02', 'flervalg', 'Hva sier andre del av fundamentalteoremet?', array['∫ₐᵇ f(x) dx = F(b) − F(a)', 'F′(x) = 0', '∫ₐᵇ f(x) dx = f(b) − f(a)', 'Alle funksjoner er deriverbare']::text[], 0, 'F er en antiderivert til f.', true, true, 1),
+  ('matematikk-r2:analysens-fundamentalteorem', 'q03', 'flervalg', 'Hva er d/dx ∫₂ˣ t³ dt?', array['3x²', 'x⁴/4', 'x³', 'x³ − 8']::text[], 2, 'Første del av teoremet.', true, true, 2),
+  ('matematikk-r2:analysens-fundamentalteorem', 'q04', 'flervalg', 'Hva er ∫ 1/x dx?', array['x⁰/0 + C', '−1/x² + C', '1/x² + C', 'ln|x| + C']::text[], 3, 'Unntaket i potensregelen.', true, true, 3),
+  ('matematikk-r2:analysens-fundamentalteorem', 'q05', 'flervalg', 'Hva er arealet mellom y = x og y = x² fra 0 til 1?', array['1/6', '1/2', '1/3', '1']::text[], 0, '1/2 − 1/3.', true, true, 4),
+  ('matematikk-r2:analysens-fundamentalteorem', 'q06', 'flervalg', 'Hva er integralet av sin x fra 0 til π?', array['0', '2', '1', 'π']::text[], 1, '−cos π + cos 0 = 2.', true, true, 5),
+  ('matematikk-r2:analysens-fundamentalteorem', 'q07', 'flervalg', 'Hvorfor legger vi til + C i et ubestemt integral?', array['For å få riktig enhet', 'For å gjøre svaret positivt', 'Fordi den deriverte av en konstant er 0', 'Fordi integralet alltid er 1']::text[], 2, 'Det finnes mange antideriverte.', true, true, 6),
+  ('matematikk-r2:analysens-fundamentalteorem', 'q08', 'flervalg', 'Hva er ∫ eˣ dx?', array['xeˣ⁻¹ + C', 'eˣ⁺¹ + C', 'ln x + C', 'eˣ + C']::text[], 3, 'eˣ er sin egen deriverte.', true, true, 7),
+  ('matematikk-r2:analysens-fundamentalteorem', 'q09', 'flervalg', 'Hva er ∫ₐᵇ f′(x) dx?', array['f(b) − f(a)', 'f′(b) − f′(a)', '0', 'f(a) − f(b)']::text[], 0, 'Total endring.', true, false, 8),
+  ('matematikk-r2:analysens-fundamentalteorem', 'q10', 'flervalg', 'Hva er ∫₀² 3x² dx?', array['12', '8', '6', '4']::text[], 1, '[x³]₀² = 8.', true, false, 9),
+  ('matematikk-r2:analysens-fundamentalteorem', 'm01', 'sant-usant', 'Du kan kontrollere et ubestemt integral ved å derivere svaret.', array['Sant', 'Usant']::text[], 0, 'Du skal få integranden tilbake.', false, true, 10),
+  ('matematikk-r2:analysens-fundamentalteorem', 'm02', 'sant-usant', 'Hver kontinuerlig funksjon har bare én antiderivert.', array['Sant', 'Usant']::text[], 1, 'Det finnes uendelig mange, som skiller seg med en konstant.', false, true, 11),
+  ('matematikk-r2:analysens-fundamentalteorem', 'm03', 'sant-usant', 'Notasjonen ∫ og dx kommer fra Leibniz.', array['Sant', 'Usant']::text[], 0, 'Fra slutten av 1600-tallet.', false, true, 12),
+  ('matematikk-r2:analysens-fundamentalteorem', 'm04', 'sant-usant', '∫ x⁻¹ dx kan regnes ut med potensregelen xʳ⁺¹/(r + 1).', array['Sant', 'Usant']::text[], 1, 'Da blir nevneren 0 – svaret er ln|x| + C.', false, true, 13),
+  ('matematikk-r2:analysens-fundamentalteorem', 'm05', 'flervalg', 'Hva er ∫ cos x dx?', array['−sin x + C', 'sin x + C', 'cos x + C', '−cos x + C']::text[], 1, 'Deriver sin x.', false, true, 14),
+  ('matematikk-r2:analysens-fundamentalteorem', 'm06', 'flervalg', 'Hva er ∫ 2ˣ dx?', array['2ˣ/ln 2 + C', '2ˣ · ln 2 + C', 'x · 2ˣ⁻¹ + C', '2ˣ⁺¹/(x + 1) + C']::text[], 0, '∫ aˣ dx = aˣ/ln a + C.', false, true, 15),
+  ('matematikk-r2:analysens-fundamentalteorem', 'm07', 'flervalg', 'Hva er ∫₀¹ x² dx?', array['1', '1/2', '1/3', '2/3']::text[], 2, '[x³/3]₀¹.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-r2:analysens-fundamentalteorem', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk R2: Integrasjonsmetoder
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-r2:integrasjonsmetoder', 'matematikk-r2', 'integrasjonsmetoder', 'Integrasjonsmetoder', 'Regneregler for ubestemte integraler og de viktigste integrasjonsmetodene – integrasjon ved substitusjon, delvis integrasjon og delbrøkoppspalting – med eksempler, bestemte integraler med nye grenser og en strategi for å velge metode.', array[4, 8]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-r2:integrasjonsmetoder', '## Regneregler
+
+- ∫ (f(x) + g(x)) dx = ∫ f(x) dx + ∫ g(x) dx
+- ∫ k · f(x) dx = k · ∫ f(x) dx
+
+Med en **lineær kjerne** kx:
+
+- ∫ e^(kx) dx = e^(kx)/k + C
+- ∫ cos(kx) dx = sin(kx)/k + C
+- ∫ sin(kx) dx = −cos(kx)/k + C
+
+## Substitusjon
+
+**Substitusjon** – variabelskifte – er kjerneregelen «baklengs». Metoden passer når integranden inneholder en **kjerne** u og den **deriverte** av kjernen.
+
+1. Velg u, for eksempel kjernen.
+2. Regn ut du = u′ dx.
+3. Skriv hele integralet med u og du.
+4. Integrer, og sett x tilbake.
+
+**Eksempel**: ∫ 2x · e^(x²) dx. La u = x², så du = 2x dx:
+
+∫ eᵘ du = eᵘ + C = **e^(x²) + C**
+
+**Eksempel**: ∫ 2x/(x² + 1) dx. La u = x² + 1:
+
+∫ 1/u du = ln|u| + C = **ln(x² + 1) + C**
+
+Generelt er ∫ f′(x)/f(x) dx = ln|f(x)| + C.
+
+## Nye grenser
+
+I et **bestemt** integral kan du bytte grensene samtidig. ∫₀¹ 2x(x² + 1)³ dx med u = x² + 1 gir u = 1 når x = 0 og u = 2 når x = 1:
+
+∫₁² u³ du = [u⁴/4]₁² = 4 − 1/4 = **15/4**
+
+## Delvis integrasjon
+
+**Delvis integrasjon** er produktregelen «baklengs»:
+
+**∫ u′ · v dx = u · v − ∫ u · v′ dx**
+
+Metoden passer for **produkter**, særlig når den ene faktoren blir **enklere** ved derivasjon.
+
+**Eksempel**: ∫ x · eˣ dx. La v = x og u′ = eˣ, så v′ = 1 og u = eˣ:
+
+∫ x eˣ dx = x eˣ − ∫ eˣ dx = **(x − 1)eˣ + C**
+
+**Eksempel**: ∫ ln x dx. Skriv som ∫ 1 · ln x dx med u′ = 1 og v = ln x:
+
+∫ ln x dx = x ln x − ∫ x · (1/x) dx = **x ln x − x + C**
+
+Noen ganger må du bruke metoden **flere ganger**, som for ∫ x² eˣ dx.
+
+## Delbrøkoppspalting
+
+En **rasjonal** funksjon der nevneren kan faktoriseres, kan skrives som en sum av enklere brøker.
+
+**Eksempel**: 2/(x² − 1) = 2/((x − 1)(x + 1)). Vi setter
+
+2/((x − 1)(x + 1)) = A/(x − 1) + B/(x + 1)
+
+Det gir 2 = A(x + 1) + B(x − 1). Med x = 1 får vi A = 1, og med x = −1 får vi B = −1. Da er
+
+∫ 2/(x² − 1) dx = **ln|x − 1| − ln|x + 1| + C**
+
+Er graden i telleren **større eller lik** graden i nevneren, må du først utføre **polynomdivisjon**.
+
+## Strategi
+
+1. Er det et **standardintegral**? Bruk formelen.
+2. Ser du en **kjerne** og den **deriverte** av kjernen? Prøv **substitusjon**.
+3. Er det et **produkt** der én faktor forenkles ved derivasjon? Prøv **delvis integrasjon**.
+4. Er det en **brøk** med faktoriserbar nevner? Prøv **delbrøkoppspalting**.
+
+**CAS** kan regne ut integraler, men du må kunne vise **framgangsmåten** og **kontrollere** svaret ved derivasjon.', '{"label":"Integrasjonsmetoder","children":[{"label":"Regneregler","children":[{"label":"Sum og konstant"},{"label":"Lineær kjerne"}]},{"label":"Substitusjon","children":[{"label":"Kjerne og deriverte"},{"label":"f′/f gir ln"},{"label":"Nye grenser"}]},{"label":"Delvis integrasjon","children":[{"label":"Produktregel baklengs"},{"label":"x eˣ og ln x"}]},{"label":"Delbrøk","children":[{"label":"Faktoriser nevneren"},{"label":"Polynomdivisjon først"}]},{"label":"Strategi","children":[{"label":"Velg metode"},{"label":"Kontroller ved derivasjon"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-r2:integrasjonsmetoder';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-r2:integrasjonsmetoder', 'Substitusjon', 'Variabelskifte – kjerneregelen baklengs.', 0),
+  ('matematikk-r2:integrasjonsmetoder', 'Når substitusjon?', 'Når integranden inneholder en kjerne og kjernens deriverte.', 1),
+  ('matematikk-r2:integrasjonsmetoder', 'du', 'u′ dx', 2),
+  ('matematikk-r2:integrasjonsmetoder', '∫ f′(x)/f(x) dx', 'ln|f(x)| + C', 3),
+  ('matematikk-r2:integrasjonsmetoder', 'Nye grenser', 'Grensene byttes til u-verdier ved substitusjon i bestemte integraler.', 4),
+  ('matematikk-r2:integrasjonsmetoder', 'Delvis integrasjon', '∫ u′v dx = uv − ∫ uv′ dx', 5),
+  ('matematikk-r2:integrasjonsmetoder', 'Når delvis integrasjon?', 'Ved produkter der én faktor forenkles ved derivasjon.', 6),
+  ('matematikk-r2:integrasjonsmetoder', '∫ x eˣ dx', '(x − 1)eˣ + C', 7),
+  ('matematikk-r2:integrasjonsmetoder', '∫ ln x dx', 'x ln x − x + C', 8),
+  ('matematikk-r2:integrasjonsmetoder', 'Delbrøkoppspalting', 'Brøk med faktoriserbar nevner skrives som sum av enklere brøker.', 9),
+  ('matematikk-r2:integrasjonsmetoder', 'Polynomdivisjon først', 'Når telleren har minst like høy grad som nevneren.', 10),
+  ('matematikk-r2:integrasjonsmetoder', '∫ e^(kx) dx', 'e^(kx)/k + C', 11),
+  ('matematikk-r2:integrasjonsmetoder', '∫ cos(kx) dx', 'sin(kx)/k + C', 12),
+  ('matematikk-r2:integrasjonsmetoder', '∫ sin(kx) dx', '−cos(kx)/k + C', 13),
+  ('matematikk-r2:integrasjonsmetoder', 'Kontroll', 'Deriver svaret og sammenlign med integranden.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-r2:integrasjonsmetoder';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-r2:integrasjonsmetoder', 'q01', 'flervalg', 'Hva er ∫ 2x · e^(x²) dx?', array['2e^(x²) + C', 'e^(x²) + C', 'x² e^(x²) + C', 'e^(2x) + C']::text[], 1, 'u = x², du = 2x dx.', true, true, 0),
+  ('matematikk-r2:integrasjonsmetoder', 'q02', 'flervalg', 'Hva er formelen for delvis integrasjon?', array['∫ u′v dx = uv − ∫ uv′ dx', '∫ uv dx = ∫ u dx · ∫ v dx', '∫ u′v dx = u′v′ + C', '∫ uv dx = uv + C']::text[], 0, 'Produktregelen baklengs.', true, true, 1),
+  ('matematikk-r2:integrasjonsmetoder', 'q03', 'flervalg', 'Hva er ∫ x eˣ dx?', array['x eˣ + C', 'x² eˣ/2 + C', '(x − 1)eˣ + C', '(x + 1)eˣ + C']::text[], 2, 'x eˣ − ∫ eˣ dx.', true, true, 2),
+  ('matematikk-r2:integrasjonsmetoder', 'q04', 'flervalg', 'Hva er ∫ e^(3x) dx?', array['3e^(3x) + C', 'e^(3x) + C', 'e^(3x + 1)/(3x + 1) + C', 'e^(3x)/3 + C']::text[], 3, 'Del på den indre deriverte.', true, true, 3),
+  ('matematikk-r2:integrasjonsmetoder', 'q05', 'flervalg', 'Hva er ∫ 2x/(x² + 1) dx?', array['ln(x² + 1) + C', '2 ln x + C', 'x²/(x² + 1) + C', 'arctan x + C']::text[], 0, 'Telleren er den deriverte av nevneren.', true, true, 4),
+  ('matematikk-r2:integrasjonsmetoder', 'q06', 'flervalg', 'Hvordan kan 2/((x − 1)(x + 1)) spaltes?', array['1/(x − 1) + 1/(x + 1)', '1/(x − 1) − 1/(x + 1)', '2/(x − 1) − 2/(x + 1)', 'Den kan ikke spaltes']::text[], 1, 'A = 1 og B = −1.', true, true, 5),
+  ('matematikk-r2:integrasjonsmetoder', 'q07', 'flervalg', 'Hva er ∫ ln x dx?', array['1/x + C', 'x ln x + C', 'x ln x − x + C', '(ln x)²/2 + C']::text[], 2, 'Delvis integrasjon med u′ = 1.', true, true, 6),
+  ('matematikk-r2:integrasjonsmetoder', 'q08', 'flervalg', 'Når passer substitusjon?', array['Alltid ved brøker', 'Bare ved polynomer', 'Ved produkter av to polynomer', 'Når integranden inneholder en kjerne og kjernens deriverte']::text[], 3, 'Kjerneregelen baklengs.', true, true, 7),
+  ('matematikk-r2:integrasjonsmetoder', 'q09', 'flervalg', 'Hva er ∫₀¹ 2x(x² + 1)³ dx?', array['15/4', '4', '1/4', '2']::text[], 0, '∫₁² u³ du = 4 − 1/4.', true, false, 8),
+  ('matematikk-r2:integrasjonsmetoder', 'q10', 'flervalg', 'Hva er ∫ cos(2x) dx?', array['2 sin(2x) + C', 'sin(2x)/2 + C', '−sin(2x)/2 + C', 'sin(x²) + C']::text[], 1, 'Del på 2.', true, false, 9),
+  ('matematikk-r2:integrasjonsmetoder', 'm01', 'sant-usant', 'Delvis integrasjon kan måtte brukes flere ganger på samme integral.', array['Sant', 'Usant']::text[], 0, 'For eksempel ∫ x² eˣ dx.', false, true, 10),
+  ('matematikk-r2:integrasjonsmetoder', 'm02', 'sant-usant', 'Integralet av et produkt er produktet av integralene.', array['Sant', 'Usant']::text[], 1, 'Derfor trenger vi delvis integrasjon.', false, true, 11),
+  ('matematikk-r2:integrasjonsmetoder', 'm03', 'sant-usant', 'I et bestemt integral kan du bytte til u-grenser ved substitusjon.', array['Sant', 'Usant']::text[], 0, 'Da slipper du å sette x tilbake.', false, true, 12),
+  ('matematikk-r2:integrasjonsmetoder', 'm04', 'sant-usant', 'Delbrøkoppspalting kan brukes direkte selv om telleren har høyere grad enn nevneren.', array['Sant', 'Usant']::text[], 1, 'Da må du først utføre polynomdivisjon.', false, true, 13),
+  ('matematikk-r2:integrasjonsmetoder', 'm05', 'flervalg', 'Hva er ∫ sin(3x) dx?', array['cos(3x)/3 + C', '−cos(3x)/3 + C', '−3cos(3x) + C', '3cos(3x) + C']::text[], 1, 'Del på den indre deriverte.', false, true, 14),
+  ('matematikk-r2:integrasjonsmetoder', 'm06', 'flervalg', 'Hvilken metode passer best for ∫ x · cos x dx?', array['Delvis integrasjon', 'Delbrøkoppspalting', 'Polynomdivisjon', 'Ingen – det er et standardintegral']::text[], 0, 'Produkt der x forenkles ved derivasjon.', false, true, 15),
+  ('matematikk-r2:integrasjonsmetoder', 'm07', 'flervalg', 'Hvilken substitusjon passer for ∫ 3x²(x³ + 5)⁴ dx?', array['u = 3x²', 'u = x', 'u = x³ + 5', 'u = (x³ + 5)⁴']::text[], 2, 'du = 3x² dx.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-r2:integrasjonsmetoder', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk R2: Numerisk integrasjon med algoritmer
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-r2:numerisk-integrasjon', 'matematikk-r2', 'numerisk-integrasjon', 'Numerisk integrasjon med algoritmer', 'Hvorfor vi trenger numerisk integrasjon, hvordan rektangelmetoder, midtpunktmetoden, trapesmetoden og Simpsons metode fungerer, hvordan du utvikler og programmerer algoritmene i Python, og hvordan du vurderer nøyaktigheten.', array[5]::int[], 5, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-r2:numerisk-integrasjon', '## Hvorfor numerisk integrasjon?
+
+Fundamentalteoremet krever at vi finner en **antiderivert**. Det går ikke alltid:
+
+- Noen funksjoner, som **e^(−x²)**, har ingen antiderivert som kan skrives med kjente funksjoner.
+- Ofte har vi bare **måledata**, for eksempel farten målt hvert tiende sekund.
+
+Da regner vi ut en **tilnærming** med en **algoritme**.
+
+## Metodene
+
+Del [a, b] i n deler med Δx = (b − a)/n og punktene x₀ = a, x₁, …, xₙ = b.
+
+- **Venstre- og høyresum**: rektangler med høyde i endepunktene.
+- **Midtpunktmetoden**: rektangler med høyde i **midtpunktet** av hvert delintervall.
+- **Trapesmetoden**: Grafen erstattes med **rette linjer** mellom punktene, og vi summerer **trapeser**:
+
+**T = Δx · (f(x₀)/2 + f(x₁) + … + f(xₙ₋₁) + f(xₙ)/2)**
+
+- **Simpsons metode**: Grafen erstattes med **parabelbuer**. n må være et **partall**:
+
+**S = (Δx/3) · (f(x₀) + 4f(x₁) + 2f(x₂) + 4f(x₃) + … + 4f(xₙ₋₁) + f(xₙ))**
+
+## Eksempel: ∫₀¹ x² dx = 1/3
+
+Med n = 2 er Δx = 0,5.
+
+- Midtpunkt: (0,25² + 0,75²) · 0,5 = **0,3125**
+- Trapes: 0,5 · (0/2 + 0,25 + 1/2) = **0,375**
+- Simpson: (0,5/3) · (0 + 4 · 0,25 + 1) = **1/3** – eksakt, fordi Simpson er eksakt for polynomer av grad 3 eller lavere.
+
+## Algoritmen i Python
+
+Trapesmetoden:
+
+```python
+def f(x):
+    return x**2
+
+a, b, n = 0, 1, 100
+dx = (b - a)/n
+T = (f(a) + f(b))/2
+for i in range(1, n):
+    T = T + f(a + i*dx)
+T = T*dx
+print(T)
+```
+
+Midtpunktmetoden bruker f(a + (i + 0.5)*dx) for i fra 0 til n − 1.
+
+Med **måledata** kan du lagre verdiene i en **liste** og summere trapesene mellom nabopunktene.
+
+## Nøyaktighet
+
+Feilen avtar når n **øker**, men i ulik takt:
+
+- **Rektangelmetoder**: feilen er omtrent proporsjonal med **1/n**. Dobbelt så mange deler gir omtrent **halv** feil.
+- **Midtpunkt** og **trapes**: omtrent **1/n²**. Dobling gir omtrent **en firedel** av feilen.
+- **Simpson**: omtrent **1/n⁴** for glatte funksjoner.
+
+For en funksjon som krummer **oppover**, gir trapesmetoden for **stor** verdi og midtpunktmetoden for **liten**. Feilen i midtpunktmetoden er gjerne omtrent **halvparten** så stor.
+
+For mange delintervaller kan gi **avrundingsfeil** og lang kjøretid, men det er sjelden et problem i skolesammenheng.
+
+## Utvikle og teste en algoritme
+
+1. **Beskriv** idéen med ord og figur.
+2. Skriv **pseudokode**: hvilke verdier trengs, og hvilke steg gjentas?
+3. **Programmer** algoritmen.
+4. **Test** den på et integral du kjenner det eksakte svaret på.
+5. Undersøk hvordan svaret endrer seg når du **dobler** n. Når svaret **stabiliserer** seg, er det sannsynligvis nøyaktig.
+
+## Anvendelser
+
+Numerisk integrasjon brukes i **fysikk** (strekning fra målt fart, arbeid fra kraft), **statistikk** (sannsynligheter under normalfordelingen), **økonomi** og i **dataprogrammer** som GeoGebra og kalkulatorer.', '{"label":"Numerisk integrasjon","children":[{"label":"Hvorfor","children":[{"label":"Ingen antiderivert"},{"label":"Måledata"}]},{"label":"Metoder","children":[{"label":"Rektangler"},{"label":"Midtpunkt"},{"label":"Trapes"},{"label":"Simpson"}]},{"label":"Programmering","children":[{"label":"Funksjon f"},{"label":"Løkke over delintervaller"},{"label":"Lister med data"}]},{"label":"Nøyaktighet","children":[{"label":"1/n, 1/n², 1/n⁴"},{"label":"Dobling av n"}]},{"label":"Utvikling","children":[{"label":"Pseudokode"},{"label":"Testing"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-r2:numerisk-integrasjon';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-r2:numerisk-integrasjon', 'Numerisk integrasjon', 'Tilnærming av et integral med en algoritme.', 0),
+  ('matematikk-r2:numerisk-integrasjon', 'Når numerisk?', 'Når vi ikke finner en antiderivert, eller bare har måledata.', 1),
+  ('matematikk-r2:numerisk-integrasjon', 'e^(−x²)', 'Har ingen antiderivert med kjente funksjoner.', 2),
+  ('matematikk-r2:numerisk-integrasjon', 'Midtpunktmetoden', 'Rektangler med høyde i midtpunktet av hvert delintervall.', 3),
+  ('matematikk-r2:numerisk-integrasjon', 'Trapesmetoden', 'Rette linjer mellom punktene – summerer trapeser.', 4),
+  ('matematikk-r2:numerisk-integrasjon', 'Trapesformelen', 'Δx · (f(x₀)/2 + f(x₁) + … + f(xₙ₋₁) + f(xₙ)/2)', 5),
+  ('matematikk-r2:numerisk-integrasjon', 'Simpsons metode', 'Parabelbuer – krever partall n.', 6),
+  ('matematikk-r2:numerisk-integrasjon', 'Simpsons vekter', '1, 4, 2, 4, …, 4, 1 ganget med Δx/3.', 7),
+  ('matematikk-r2:numerisk-integrasjon', 'Feil i rektangelmetoder', 'Omtrent proporsjonal med 1/n.', 8),
+  ('matematikk-r2:numerisk-integrasjon', 'Feil i trapes og midtpunkt', 'Omtrent proporsjonal med 1/n².', 9),
+  ('matematikk-r2:numerisk-integrasjon', 'Feil i Simpson', 'Omtrent proporsjonal med 1/n⁴ for glatte funksjoner.', 10),
+  ('matematikk-r2:numerisk-integrasjon', 'Trapes ved oppoverkrumning', 'Gir for stor verdi.', 11),
+  ('matematikk-r2:numerisk-integrasjon', 'Pseudokode', 'Beskrivelse av algoritmen med ord og enkle steg.', 12),
+  ('matematikk-r2:numerisk-integrasjon', 'Testing av algoritme', 'Prøv den på et integral med kjent eksakt svar.', 13),
+  ('matematikk-r2:numerisk-integrasjon', 'Stabilisering', 'Svaret endrer seg lite når n dobles.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-r2:numerisk-integrasjon';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-r2:numerisk-integrasjon', 'q01', 'flervalg', 'Hva gir trapesmetoden for ∫₀¹ x² dx med n = 2?', array['0,3125', '0,375', '0,5', '1/3']::text[], 1, '0,5 · (0 + 0,25 + 0,5).', true, true, 0),
+  ('matematikk-r2:numerisk-integrasjon', 'q02', 'flervalg', 'Når trenger vi numerisk integrasjon?', array['Når vi ikke finner en antiderivert eller bare har måledata', 'Aldri', 'Bare ved lineære funksjoner', 'Bare ved polynomer']::text[], 0, 'For eksempel e^(−x²).', true, true, 1),
+  ('matematikk-r2:numerisk-integrasjon', 'q03', 'flervalg', 'Hvor hentes høyden i midtpunktmetoden?', array['I venstre endepunkt', 'I høyre endepunkt', 'I midtpunktet av delintervallet', 'I toppunktet']::text[], 2, 'Derav navnet.', true, true, 2),
+  ('matematikk-r2:numerisk-integrasjon', 'q04', 'flervalg', 'Hva krever Simpsons metode?', array['At f er lineær', 'At n er et oddetall', 'At a = 0', 'At n er et partall']::text[], 3, 'Parabelbuer over to og to delintervaller.', true, true, 3),
+  ('matematikk-r2:numerisk-integrasjon', 'q05', 'flervalg', 'Hva skjer omtrent med feilen i trapesmetoden når n dobles?', array['Den blir en firedel', 'Den halveres', 'Den dobles', 'Den endres ikke']::text[], 0, 'Feilen er omtrent proporsjonal med 1/n².', true, true, 4),
+  ('matematikk-r2:numerisk-integrasjon', 'q06', 'flervalg', 'Hvilken metode er vanligvis mest nøyaktig for glatte funksjoner med samme n?', array['Venstresum', 'Simpsons metode', 'Høyresum', 'Trapesmetoden']::text[], 1, 'Feilen er omtrent proporsjonal med 1/n⁴.', true, true, 5),
+  ('matematikk-r2:numerisk-integrasjon', 'q07', 'flervalg', 'Hvordan kan du teste en ny algoritme?', array['Ved å bruke færre delintervaller', 'Ved å fjerne løkken', 'Ved å prøve den på et integral med kjent eksakt svar', 'Ved å gjette']::text[], 2, 'Sammenlign med fasiten.', true, true, 6),
+  ('matematikk-r2:numerisk-integrasjon', 'q08', 'flervalg', 'Hvilken vekt har endepunktene i trapesformelen?', array['4', '2', '1', '1/2']::text[], 3, 'f(x₀)/2 og f(xₙ)/2.', true, true, 7),
+  ('matematikk-r2:numerisk-integrasjon', 'q09', 'flervalg', 'Hva gir midtpunktmetoden for ∫₀¹ x² dx med n = 2?', array['0,3125', '0,375', '0,25', '0,5']::text[], 0, '(0,0625 + 0,5625) · 0,5.', true, false, 8),
+  ('matematikk-r2:numerisk-integrasjon', 'q10', 'flervalg', 'Hvordan er trapesmetoden for en funksjon som krummer oppover?', array['For liten', 'For stor', 'Alltid eksakt', 'Umulig å bruke']::text[], 1, 'Linjestykkene ligger over grafen.', true, false, 9),
+  ('matematikk-r2:numerisk-integrasjon', 'm01', 'sant-usant', 'Simpsons metode er eksakt for polynomer av grad 3 eller lavere.', array['Sant', 'Usant']::text[], 0, 'Derfor fikk vi 1/3 eksakt for x².', false, true, 10),
+  ('matematikk-r2:numerisk-integrasjon', 'm02', 'sant-usant', 'Med rektangelmetoder blir feilen omtrent en firedel når n dobles.', array['Sant', 'Usant']::text[], 1, 'Den blir omtrent halvert.', false, true, 11),
+  ('matematikk-r2:numerisk-integrasjon', 'm03', 'sant-usant', 'Trapesmetoden kan brukes direkte på måledata.', array['Sant', 'Usant']::text[], 0, 'Summer trapesene mellom nabopunktene.', false, true, 12),
+  ('matematikk-r2:numerisk-integrasjon', 'm04', 'sant-usant', 'Numerisk integrasjon gir alltid det eksakte svaret.', array['Sant', 'Usant']::text[], 1, 'Det er en tilnærming.', false, true, 13),
+  ('matematikk-r2:numerisk-integrasjon', 'm05', 'flervalg', 'Hva er Δx når [1, 3] deles i 4?', array['0,25', '0,5', '2', '4']::text[], 1, '(3 − 1)/4.', false, true, 14),
+  ('matematikk-r2:numerisk-integrasjon', 'm06', 'flervalg', 'Hvilket x-punkt bruker midtpunktmetoden i delintervall nummer i (fra 0)?', array['a + (i + 0,5)Δx', 'a + iΔx', 'a + (i + 1)Δx', 'b − iΔx']::text[], 0, 'Midten av delintervallet.', false, true, 15),
+  ('matematikk-r2:numerisk-integrasjon', 'm07', 'flervalg', 'Hva er et tegn på at et numerisk svar er nøyaktig?', array['Det er et helt tall', 'Det er negativt', 'Det endrer seg lite når n dobles', 'Det er større enn 1']::text[], 2, 'Svaret har stabilisert seg.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-r2:numerisk-integrasjon', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk R2: Modellering med ulike funksjoner og reelle datasett
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-r2:modellering-med-reelle-datasett', 'matematikk-r2', 'modellering-med-reelle-datasett', 'Modellering med ulike funksjoner og reelle datasett', 'Hvilke situasjoner som passer for lineære, polynom-, eksponentielle, logistiske, potens- og trigonometriske modeller, hvordan du bruker regresjon på reelle datasett, vurderer modellen med residualer og teori, og kjenner igjen overtilpasning og farene ved ekstrapolasjon.', array[6]::int[], 6, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-r2:modellering-med-reelle-datasett', '## Hva er en matematisk modell?
+
+En **modell** er en **forenklet** matematisk beskrivelse av en virkelig situasjon. Den skal hjelpe oss å **forstå**, **forutsi** eller **ta beslutninger**. Alle modeller har **begrensninger**.
+
+## Funksjonstyper og situasjoner
+
+- **Lineær** f(x) = ax + b: **konstant** endring, for eksempel en fast pris per enhet.
+- **Polynom**: kurver med **topp- og bunnpunkter**, for eksempel høyden til en ball eller et fallskjermhopp i deler.
+- **Eksponentiell** f(x) = a · bˣ: **konstant prosentvis** endring, som renter, radioaktivt henfall og tidlig smittespredning.
+- **Logistisk** f(x) = K/(1 + a · e^(−bx)): vekst som **bremses** mot en **øvre grense** K, som bestander og utbredelse av ny teknologi.
+- **Potens** f(x) = a · xᵇ: sammenhenger som areal og volum, eller hjertefrekvens og kroppsstørrelse.
+- **Trigonometrisk** f(x) = A sin(c(x − φ)) + d: **periodiske** fenomener som tidevann, dagslengde og temperatur gjennom året.
+
+**Kombinerte** modeller er også vanlige. En kopp kaffe som avkjøles, kan beskrives med T(t) = 20 + 70 · e^(−0,05t), der 20 °C er **romtemperaturen** som temperaturen nærmer seg.
+
+## Modelleringsprosessen
+
+1. **Problem**: Hva vil vi finne ut?
+2. **Data**: Samle inn eller finn et **reelt datasett**.
+3. **Plott** dataene og se på **formen**.
+4. **Velg modell** ut fra formen **og** kunnskap om situasjonen.
+5. **Regresjon**: Tilpass parameterne med GeoGebra, regneark eller Python.
+6. **Vurder** modellen.
+7. **Bruk** og **tolk** modellen.
+
+## Regresjon
+
+**Regresjon** finner parameterne som gjør at modellen passer best mulig med dataene – vanligvis ved å minimere summen av de **kvadrerte avvikene**. I Python kan du for eksempel bruke numpy.polyfit for polynomer og scipy for andre funksjoner.
+
+## Vurdering av modellen
+
+- **Residualer**: avviket mellom målt og beregnet verdi. Residualene bør være **små** og **tilfeldig** spredt. Et tydelig **mønster** tyder på feil modelltype.
+- **Forklaringsgrad R²** nær 1 viser god tilpasning, men er **ikke nok** alene.
+- **Teori**: Gir modellen mening? En populasjon kan ikke bli negativ, og en temperatur kan ikke vokse for alltid.
+
+## Overtilpasning
+
+Et polynom av **høy grad** kan gå gjennom nesten alle punktene, men **svinger** vilt mellom og utenfor dem. Det kalles **overtilpasning**. En **enklere** modell som bygger på teori, er ofte bedre.
+
+## Interpolasjon og ekstrapolasjon
+
+- **Interpolasjon**: bruke modellen **innenfor** dataområdet – ofte pålitelig.
+- **Ekstrapolasjon**: bruke modellen **utenfor** dataområdet – mer **usikkert**. En eksponentiell modell for smitte vil for eksempel til slutt gi flere smittede enn det finnes mennesker.
+
+## Tolking av parametere
+
+Parameterne har ofte en **praktisk** betydning:
+
+- K i en logistisk modell er **bæreevnen**.
+- b i a · bˣ er **vekstfaktoren**.
+- A og 2π/c i en trigonometrisk modell er **amplituden** og **perioden**.
+
+Å tolke parameterne med riktige **enheter** er en viktig del av modelleringen.', '{"label":"Modellering","children":[{"label":"Funksjonstyper","children":[{"label":"Lineær og polynom"},{"label":"Eksponentiell og logistisk"},{"label":"Potens og trigonometrisk"}]},{"label":"Prosess","children":[{"label":"Problem og data"},{"label":"Velg modell"},{"label":"Regresjon"}]},{"label":"Vurdering","children":[{"label":"Residualer"},{"label":"R²"},{"label":"Teori"}]},{"label":"Fallgruver","children":[{"label":"Overtilpasning"},{"label":"Ekstrapolasjon"}]},{"label":"Tolkning","children":[{"label":"Parametere"},{"label":"Enheter"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-r2:modellering-med-reelle-datasett';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-r2:modellering-med-reelle-datasett', 'Matematisk modell', 'Forenklet matematisk beskrivelse av en virkelig situasjon.', 0),
+  ('matematikk-r2:modellering-med-reelle-datasett', 'Lineær modell', 'Konstant endring.', 1),
+  ('matematikk-r2:modellering-med-reelle-datasett', 'Eksponentiell modell', 'Konstant prosentvis endring.', 2),
+  ('matematikk-r2:modellering-med-reelle-datasett', 'Logistisk modell', 'Vekst som bremses mot en øvre grense K.', 3),
+  ('matematikk-r2:modellering-med-reelle-datasett', 'Potensmodell', 'f(x) = a · xᵇ', 4),
+  ('matematikk-r2:modellering-med-reelle-datasett', 'Trigonometrisk modell', 'Periodiske fenomener som tidevann og dagslengde.', 5),
+  ('matematikk-r2:modellering-med-reelle-datasett', 'Regresjon', 'Tilpasser parameterne så modellen passer best med dataene.', 6),
+  ('matematikk-r2:modellering-med-reelle-datasett', 'Residual', 'Avviket mellom målt og beregnet verdi.', 7),
+  ('matematikk-r2:modellering-med-reelle-datasett', 'Mønster i residualene', 'Tyder på feil modelltype.', 8),
+  ('matematikk-r2:modellering-med-reelle-datasett', 'Forklaringsgrad R²', 'Nær 1 viser god tilpasning, men er ikke nok alene.', 9),
+  ('matematikk-r2:modellering-med-reelle-datasett', 'Overtilpasning', 'Modellen følger dataene for tett og svinger utenfor dem.', 10),
+  ('matematikk-r2:modellering-med-reelle-datasett', 'Interpolasjon', 'Bruke modellen innenfor dataområdet.', 11),
+  ('matematikk-r2:modellering-med-reelle-datasett', 'Ekstrapolasjon', 'Bruke modellen utenfor dataområdet – mer usikkert.', 12),
+  ('matematikk-r2:modellering-med-reelle-datasett', 'Bæreevne K', 'Øvre grense i en logistisk modell.', 13),
+  ('matematikk-r2:modellering-med-reelle-datasett', 'Avkjøling', 'Temperaturen nærmer seg romtemperaturen eksponentielt.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-r2:modellering-med-reelle-datasett';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-r2:modellering-med-reelle-datasett', 'q01', 'flervalg', 'Hvilken modell passer for temperaturen gjennom året?', array['Lineær', 'Trigonometrisk', 'Eksponentiell', 'Potens']::text[], 1, 'Den er periodisk.', true, true, 0),
+  ('matematikk-r2:modellering-med-reelle-datasett', 'q02', 'flervalg', 'Hvilken modell passer for vekst som bremses mot en øvre grense?', array['Logistisk', 'Lineær', 'Eksponentiell', 'Trigonometrisk']::text[], 0, 'K er bæreevnen.', true, true, 1),
+  ('matematikk-r2:modellering-med-reelle-datasett', 'q03', 'flervalg', 'Hva er en residual?', array['En parameter', 'En type funksjon', 'Avviket mellom målt og beregnet verdi', 'Perioden']::text[], 2, 'Bør være små og tilfeldige.', true, true, 2),
+  ('matematikk-r2:modellering-med-reelle-datasett', 'q04', 'flervalg', 'Hva er overtilpasning?', array['At modellen er for enkel', 'At det er for få data', 'At residualene er tilfeldige', 'At modellen følger dataene for tett og svinger utenfor dem']::text[], 3, 'Typisk for polynomer av høy grad.', true, true, 3),
+  ('matematikk-r2:modellering-med-reelle-datasett', 'q05', 'flervalg', 'Hvilken modell passer for konstant prosentvis endring?', array['Eksponentiell', 'Lineær', 'Trigonometrisk', 'Logistisk']::text[], 0, 'Som renter.', true, true, 4),
+  ('matematikk-r2:modellering-med-reelle-datasett', 'q06', 'flervalg', 'Hva er ekstrapolasjon?', array['Å bruke modellen innenfor dataområdet', 'Å bruke modellen utenfor dataområdet', 'Å finne residualer', 'Å velge modell']::text[], 1, 'Mer usikkert.', true, true, 5),
+  ('matematikk-r2:modellering-med-reelle-datasett', 'q07', 'flervalg', 'Hvilken verdi nærmer T(t) = 20 + 70 · e^(−0,05t) seg når t blir stor?', array['90', '70', '20', '0']::text[], 2, 'e^(−0,05t) går mot 0.', true, true, 6),
+  ('matematikk-r2:modellering-med-reelle-datasett', 'q08', 'flervalg', 'Hva tyder et tydelig mønster i residualene på?', array['Perfekt modell', 'For mange data', 'At R² er 1', 'Feil modelltype']::text[], 3, 'Modellen fanger ikke formen.', true, true, 7),
+  ('matematikk-r2:modellering-med-reelle-datasett', 'q09', 'flervalg', 'Hvorfor er ikke høy R² nok alene?', array['Fordi modellen også må gi mening ut fra teori', 'Fordi R² alltid er 1', 'Fordi R² bare gjelder lineære modeller', 'Fordi høy R² betyr dårlig modell']::text[], 0, 'Overtilpasning kan gi høy R².', true, false, 8),
+  ('matematikk-r2:modellering-med-reelle-datasett', 'q10', 'flervalg', 'Hva betyr b i modellen f(x) = a · bˣ?', array['Startverdien', 'Vekstfaktoren', 'Perioden', 'Bæreevnen']::text[], 1, 'a er startverdien.', true, false, 9),
+  ('matematikk-r2:modellering-med-reelle-datasett', 'm01', 'sant-usant', 'Alle modeller har begrensninger.', array['Sant', 'Usant']::text[], 0, 'De er forenklinger.', false, true, 10),
+  ('matematikk-r2:modellering-med-reelle-datasett', 'm02', 'sant-usant', 'Et polynom av høy grad er alltid den beste modellen.', array['Sant', 'Usant']::text[], 1, 'Det kan gi overtilpasning.', false, true, 11),
+  ('matematikk-r2:modellering-med-reelle-datasett', 'm03', 'sant-usant', 'Interpolasjon er vanligvis mer pålitelig enn ekstrapolasjon.', array['Sant', 'Usant']::text[], 0, 'Vi har data i området.', false, true, 12),
+  ('matematikk-r2:modellering-med-reelle-datasett', 'm04', 'sant-usant', 'Valg av modell bør bare bygge på formen til punktene.', array['Sant', 'Usant']::text[], 1, 'Kunnskap om situasjonen er også viktig.', false, true, 13),
+  ('matematikk-r2:modellering-med-reelle-datasett', 'm05', 'flervalg', 'Hva er perioden til f(x) = A sin(c(x − φ)) + d?', array['A', '2π/c', 'd', 'φ']::text[], 1, 'A er amplituden.', false, true, 14),
+  ('matematikk-r2:modellering-med-reelle-datasett', 'm06', 'flervalg', 'Hva minimerer vanlig regresjon?', array['Summen av de kvadrerte avvikene', 'Antall punkter', 'Perioden', 'Stigningstallet']::text[], 0, 'Minste kvadraters metode.', false, true, 15),
+  ('matematikk-r2:modellering-med-reelle-datasett', 'm07', 'flervalg', 'Hvorfor er en ren eksponentiell smittemodell dårlig på lang sikt?', array['Fordi den er lineær', 'Fordi den er periodisk', 'Fordi den til slutt gir flere smittede enn det finnes mennesker', 'Fordi den synker']::text[], 2, 'En logistisk modell er mer realistisk.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-r2:modellering-med-reelle-datasett', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk R2: Derivasjon og integrasjon i egne modeller
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-r2:analyse-av-modeller', 'matematikk-r2', 'analyse-av-modeller', 'Derivasjon og integrasjon i egne modeller', 'Hvordan du bruker derivasjon og integrasjon til å analysere og tolke modeller av reelle datasett – vekstfart, maksimal vekst og vendepunkt, samlet mengde fra en ratemodell, gjennomsnittsverdi – og hvordan enkle modeller kan beskrives med vekstfarten.', array[7]::int[], 7, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-r2:analyse-av-modeller', '## Fra modell til analyse
+
+Når du har laget en **modell** f av et datasett, kan du bruke **derivasjon** og **integrasjon** til å svare på spørsmål om situasjonen. Husk alltid å **tolke** svaret med **enheter**.
+
+## Derivasjon: vekstfart
+
+f′(x) er den **momentane vekstfarten**. Enheten er «y-enhet per x-enhet».
+
+- **f′(x) > 0**: modellen **vokser**.
+- **f′(x) = 0**: mulig **topp-** eller **bunnpunkt**.
+- **f″(x)** forteller om vekstfarten **øker** eller **avtar**.
+- Et **vendepunkt** er der f″ skifter fortegn – der veksten er **størst** eller **minst**.
+
+**Eksempel**: En logistisk modell for antall brukere av en app, N(t) = 50 000/(1 + 99e^(−0,4t)), t i uker. Veksten er **størst** når N er halvparten av bæreevnen, altså 25 000 brukere. Det skjer når 99e^(−0,4t) = 1, som gir t = ln 99/0,4 ≈ **11,5 uker**.
+
+## Integrasjon: samlet mengde
+
+Har du en modell for en **rate** – mengde per tid – gir integralet den **samlede mengden**.
+
+**Eksempel**: Vannføringen i en elv er modellert med v(t) m³/s. Da er ∫ₐᵇ v(t) dt det **totale volumet** i m³ som renner forbi mellom tidspunktene a og b (målt i sekunder).
+
+**Eksempel**: Strømforbruket i en bolig er modellert med P(t) kW gjennom et døgn. ∫₀²⁴ P(t) dt gir **energien** i kWh.
+
+## Gjennomsnittsverdi
+
+Gjennomsnittsverdien av f på [a, b] er
+
+**f̄ = (1/(b − a)) · ∫ₐᵇ f(x) dx**
+
+Den svarer til høyden på et rektangel med **samme areal** som området under grafen. Brukes for eksempel til å finne **gjennomsnittstemperaturen** over et døgn fra en trigonometrisk modell.
+
+## Total endring
+
+Har du en modell for **endringsraten** f′, gir
+
+**f(b) = f(a) + ∫ₐᵇ f′(x) dx**
+
+verdien ved slutten. Kjenner du startverdien og hvor fort noe endrer seg, kan du finne hvor mye det er senere.
+
+## Modeller beskrevet med vekstfart
+
+Mange modeller bygger på en antakelse om **vekstfarten**:
+
+- «Vekstfarten er **proporsjonal** med størrelsen»: **y′ = k · y**. Løsningen er **y = C · e^(kx)** – eksponentiell vekst.
+- «Temperaturen endrer seg proporsjonalt med **forskjellen** til omgivelsene»: **T′ = −k(T − Tₒ)**. Løsningen er T = Tₒ + C · e^(−kt) – avkjøling.
+- «Veksten bremses når bestanden nærmer seg K»: **y′ = k · y(1 − y/K)** – logistisk vekst.
+
+Likninger som inneholder en **ukjent funksjon og dens deriverte**, kalles **differensiallikninger**. Du kan **kontrollere** en løsning ved å derivere den og sette inn.
+
+## Tolke og vurdere
+
+- Hva betyr svaret i **virkeligheten**?
+- Er det **rimelig**? En negativ vannføring eller en befolkning større enn bæreevnen tyder på feil.
+- Hvor **pålitelig** er modellen i dette området? Analyser utenfor dataområdet er **usikre**.
+- Hvilke **forenklinger** ligger i modellen, og hvordan påvirker de konklusjonen?
+
+Bruk **CAS** eller **Python** til utregningene, men forklar **hva** du regner ut og **hvorfor**.', '{"label":"Analyse av modeller","children":[{"label":"Derivasjon","children":[{"label":"Vekstfart"},{"label":"Topp- og bunnpunkt"},{"label":"Vendepunkt"}]},{"label":"Integrasjon","children":[{"label":"Samlet mengde"},{"label":"Gjennomsnittsverdi"},{"label":"Total endring"}]},{"label":"Vekstfart som modell","children":[{"label":"y′ = ky"},{"label":"Avkjøling"},{"label":"Logistisk"}]},{"label":"Tolkning","children":[{"label":"Enheter"},{"label":"Rimelighet"}]},{"label":"Verktøy","children":[{"label":"CAS"},{"label":"Python"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-r2:analyse-av-modeller';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-r2:analyse-av-modeller', 'f′(x) i en modell', 'Momentan vekstfart – y-enhet per x-enhet.', 0),
+  ('matematikk-r2:analyse-av-modeller', 'f″(x)', 'Forteller om vekstfarten øker eller avtar.', 1),
+  ('matematikk-r2:analyse-av-modeller', 'Vendepunkt', 'Der f″ skifter fortegn – størst eller minst vekst.', 2),
+  ('matematikk-r2:analyse-av-modeller', 'Størst vekst i logistisk modell', 'Når bestanden er K/2.', 3),
+  ('matematikk-r2:analyse-av-modeller', 'Integral av en rate', 'Samlet mengde.', 4),
+  ('matematikk-r2:analyse-av-modeller', 'Integral av effekt i kW over timer', 'Energi i kWh.', 5),
+  ('matematikk-r2:analyse-av-modeller', 'Gjennomsnittsverdi', '(1/(b − a)) · ∫ₐᵇ f(x) dx', 6),
+  ('matematikk-r2:analyse-av-modeller', 'Total endring', 'f(b) = f(a) + ∫ₐᵇ f′(x) dx', 7),
+  ('matematikk-r2:analyse-av-modeller', 'Differensiallikning', 'Likning med en ukjent funksjon og dens deriverte.', 8),
+  ('matematikk-r2:analyse-av-modeller', 'y′ = k · y', 'Løsning y = C · e^(kx).', 9),
+  ('matematikk-r2:analyse-av-modeller', 'Avkjølingsmodell', 'T′ = −k(T − Tₒ) med løsning T = Tₒ + C · e^(−kt).', 10),
+  ('matematikk-r2:analyse-av-modeller', 'Logistisk vekstfart', 'y′ = k · y(1 − y/K)', 11),
+  ('matematikk-r2:analyse-av-modeller', 'Kontroll av løsning', 'Deriver og sett inn i likningen.', 12),
+  ('matematikk-r2:analyse-av-modeller', 'Rimelighet', 'Sjekk at svaret gir mening i virkeligheten.', 13),
+  ('matematikk-r2:analyse-av-modeller', 'Enheter', 'Viktige for å tolke deriverte og integraler.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-r2:analyse-av-modeller';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-r2:analyse-av-modeller', 'q01', 'flervalg', 'Hva forteller f′(x) i en modell?', array['Samlet mengde', 'Momentan vekstfart', 'Gjennomsnittsverdi', 'Startverdi']::text[], 1, 'y-enhet per x-enhet.', true, true, 0),
+  ('matematikk-r2:analyse-av-modeller', 'q02', 'flervalg', 'Når er veksten størst i en logistisk modell?', array['Når bestanden er K/2', 'Ved start', 'Når bestanden er K', 'Aldri']::text[], 0, 'I vendepunktet.', true, true, 1),
+  ('matematikk-r2:analyse-av-modeller', 'q03', 'flervalg', 'Hva gir integralet av vannføring i m³/s over tid i sekunder?', array['Farten', 'Vannstanden', 'Totalt volum i m³', 'Gjennomsnittlig vannføring']::text[], 2, 'm³/s · s = m³.', true, true, 2),
+  ('matematikk-r2:analyse-av-modeller', 'q04', 'flervalg', 'Hvordan regnes gjennomsnittsverdien av f på [a, b] ut?', array['(f(a) + f(b))/2', 'f′(b) − f′(a)', '∫ₐᵇ f(x) dx', '(1/(b − a)) · ∫ₐᵇ f(x) dx']::text[], 3, 'Rektangel med samme areal.', true, true, 3),
+  ('matematikk-r2:analyse-av-modeller', 'q05', 'flervalg', 'Hva er løsningen av y′ = k · y?', array['y = C · e^(kx)', 'y = kx + C', 'y = k/x', 'y = C · xᵏ']::text[], 0, 'Eksponentiell vekst.', true, true, 4),
+  ('matematikk-r2:analyse-av-modeller', 'q06', 'flervalg', 'Hva kalles en likning med en ukjent funksjon og dens deriverte?', array['Andregradslikning', 'Differensiallikning', 'Eksponentiallikning', 'Vektorlikning']::text[], 1, 'Beskriver vekstfart.', true, true, 5),
+  ('matematikk-r2:analyse-av-modeller', 'q07', 'flervalg', 'Hva er et vendepunkt?', array['Der f = 0', 'Der f′ = 0 alltid', 'Der f″ skifter fortegn', 'Der grafen slutter']::text[], 2, 'Vekstfarten har topp- eller bunnpunkt.', true, true, 6),
+  ('matematikk-r2:analyse-av-modeller', 'q08', 'flervalg', 'Hva gir ∫₀²⁴ P(t) dt når P er effekten i kW og t er timer?', array['Effekt i kW', 'Tid i timer', 'Gjennomsnittseffekt', 'Energi i kWh']::text[], 3, 'kW · h = kWh.', true, true, 7),
+  ('matematikk-r2:analyse-av-modeller', 'q09', 'flervalg', 'Hvordan kan du kontrollere en løsning av en differensiallikning?', array['Deriver den og sett inn i likningen', 'Integrer to ganger', 'Tegn en tabell', 'Du kan ikke kontrollere den']::text[], 0, 'Venstre og høyre side skal bli like.', true, false, 8),
+  ('matematikk-r2:analyse-av-modeller', 'q10', 'flervalg', 'Hva tyder en beregnet befolkning større enn bæreevnen i en logistisk modell på?', array['Rask vekst', 'Feil i utregningen eller modellen', 'At modellen er perfekt', 'Vendepunkt']::text[], 1, 'Vurder alltid rimeligheten.', true, false, 9),
+  ('matematikk-r2:analyse-av-modeller', 'm01', 'sant-usant', 'Enheten til den deriverte er y-enhet per x-enhet.', array['Sant', 'Usant']::text[], 0, 'For eksempel brukere per uke.', false, true, 10),
+  ('matematikk-r2:analyse-av-modeller', 'm02', 'sant-usant', 'Analyser utenfor dataområdet er like pålitelige som innenfor.', array['Sant', 'Usant']::text[], 1, 'De er mer usikre.', false, true, 11),
+  ('matematikk-r2:analyse-av-modeller', 'm03', 'sant-usant', 'T = Tₒ + C · e^(−kt) beskriver avkjøling mot omgivelsestemperaturen.', array['Sant', 'Usant']::text[], 0, 'Løsningen av T′ = −k(T − Tₒ).', false, true, 12),
+  ('matematikk-r2:analyse-av-modeller', 'm04', 'sant-usant', 'f′(x) = 0 betyr alltid et toppunkt.', array['Sant', 'Usant']::text[], 1, 'Det kan også være et bunnpunkt eller terrassepunkt.', false, true, 13),
+  ('matematikk-r2:analyse-av-modeller', 'm05', 'flervalg', 'Hva er gjennomsnittsverdien av f(x) = 2x på [0, 3]?', array['6', '3', '9', '2']::text[], 1, '(1/3) · [x²]₀³ = 9/3.', false, true, 14),
+  ('matematikk-r2:analyse-av-modeller', 'm06', 'flervalg', 'Hvor mange uker tar det før N(t) = 50 000/(1 + 99e^(−0,4t)) vokser raskest?', array['Omtrent 11,5 uker', 'Omtrent 2,5 uker', 'Omtrent 25 uker', 'Omtrent 50 uker']::text[], 0, 't = ln 99/0,4.', false, true, 15),
+  ('matematikk-r2:analyse-av-modeller', 'm07', 'flervalg', 'Hva finner du med f(a) + ∫ₐᵇ f′(x) dx?', array['f′(b)', 'Gjennomsnittet', 'f(b)', 'Arealet under f']::text[], 2, 'Startverdi pluss total endring.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-r2:analyse-av-modeller', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk R2: Omdreiningslegemer og volum
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-r2:omdreiningslegemer', 'matematikk-r2', 'omdreiningslegemer', 'Omdreiningslegemer og volum', 'Hvordan integrasjon brukes til å beregne volum – skivemetoden med tverrsnittsareal, omdreiningslegemer rundt x-aksen og y-aksen, legemer med hulrom – og hvordan formlene for kjegle og kule kan utledes, sammen med funksjonsanalyse av grafen som roteres.', array[8]::int[], 8, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-r2:omdreiningslegemer', '## Skivemetoden
+
+Tenk deg at et legeme skjæres i tynne **skiver** vinkelrett på x-aksen. Hver skive har **tverrsnittsareal** A(x) og tykkelse Δx, så volumet er omtrent A(x) · Δx. Summerer vi og lar Δx → 0, får vi
+
+**V = ∫ₐᵇ A(x) dx**
+
+Dette er den samme idéen som for areal: en **sum av mange små bidrag**.
+
+## Omdreiningslegemer rundt x-aksen
+
+Når grafen til f **roteres** 360° om x-aksen mellom x = a og x = b, dannes et **omdreiningslegeme**. Hver skive er en **sirkelskive** med radius f(x), så A(x) = π · f(x)². Volumet er
+
+**V = π · ∫ₐᵇ (f(x))² dx**
+
+**Eksempel**: f(x) = √x på [0, 4]:
+
+V = π ∫₀⁴ x dx = π · [x²/2]₀⁴ = **8π**
+
+## Utlede kjent volum
+
+**Kjegle** med radius r og høyde h: Roter linjen f(x) = (r/h)x fra 0 til h.
+
+V = π ∫₀ʰ (r/h)² x² dx = π(r²/h²) · h³/3 = **πr²h/3**
+
+**Kule** med radius r: Roter halvsirkelen f(x) = √(r² − x²) fra −r til r.
+
+V = π ∫ (r² − x²) dx = π[r²x − x³/3] fra −r til r = π(2r³ − 2r³/3) = **4πr³/3**
+
+**Sylinder**: En konstant funksjon f(x) = r gir V = πr²h.
+
+## Legemer med hulrom
+
+Når området **mellom** to grafer f(x) ≥ g(x) ≥ 0 roteres, blir hver skive en **ring**:
+
+**V = π · ∫ₐᵇ ((f(x))² − (g(x))²) dx**
+
+Merk at vi trekker fra **kvadratene** – ikke kvadratet av differansen.
+
+## Rotasjon om y-aksen
+
+Roteres en graf om **y-aksen**, integrerer vi langs y. Skriv x som funksjon av y og bruk
+
+**V = π · ∫ (x(y))² dy**
+
+## Funksjonsanalyse
+
+Før du regner volum, er det lurt å **analysere** funksjonen:
+
+- **Nullpunkter** viser hvor legemet er tynnest.
+- **f′** viser hvor legemet blir **bredere** eller **smalere**, og **toppunktene** gir **største radius**.
+- **f″** viser om profilen **krummer** innover eller utover.
+
+Dette er nyttig når du for eksempel skal **designe** en vase, en flaske eller en tank, og vil vite hvor mye den rommer.
+
+## Praktiske problemer
+
+- **Hvor høyt** står vannet når tanken er halvfull? Løs likningen π ∫₀ʰ (f(x))² dx = V/2 for h, ofte med **CAS**.
+- **Hvor mye materiale** trengs? Regn ut volumet av det ytre legemet minus hulrommet.
+- Pass på **enheter**: Er x i cm, blir volumet i cm³. 1 dm³ = 1 L.
+
+## Numerisk volum
+
+Har du bare **målinger** av radien langs et legeme – for eksempel en trestamme – kan du regne ut volumet **numerisk** med trapesmetoden på A(x) = π · r(x)².', '{"label":"Omdreiningslegemer","children":[{"label":"Skivemetoden","children":[{"label":"Tverrsnittsareal A(x)"},{"label":"V = ∫ A(x) dx"}]},{"label":"Rotasjon om x-aksen","children":[{"label":"V = π ∫ f² dx"},{"label":"Hulrom: f² − g²"}]},{"label":"Kjente legemer","children":[{"label":"Kjegle"},{"label":"Kule"},{"label":"Sylinder"}]},{"label":"Rotasjon om y-aksen","children":[{"label":"x som funksjon av y"}]},{"label":"Anvendelser","children":[{"label":"Funksjonsanalyse"},{"label":"Tanker og vaser"},{"label":"Numerisk volum"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-r2:omdreiningslegemer';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-r2:omdreiningslegemer', 'Skivemetoden', 'V = ∫ₐᵇ A(x) dx med tverrsnittsareal A(x).', 0),
+  ('matematikk-r2:omdreiningslegemer', 'Omdreiningslegeme', 'Legeme som dannes når en graf roteres om en akse.', 1),
+  ('matematikk-r2:omdreiningslegemer', 'Volum rundt x-aksen', 'V = π · ∫ₐᵇ (f(x))² dx', 2),
+  ('matematikk-r2:omdreiningslegemer', 'Tverrsnitt ved rotasjon', 'Sirkelskive med radius f(x).', 3),
+  ('matematikk-r2:omdreiningslegemer', 'Kjeglevolum', 'πr²h/3 – fra rotasjon av f(x) = (r/h)x.', 4),
+  ('matematikk-r2:omdreiningslegemer', 'Kulevolum', '4πr³/3 – fra rotasjon av √(r² − x²).', 5),
+  ('matematikk-r2:omdreiningslegemer', 'Sylindervolum', 'πr²h – fra en konstant funksjon.', 6),
+  ('matematikk-r2:omdreiningslegemer', 'Legeme med hulrom', 'V = π · ∫ₐᵇ ((f(x))² − (g(x))²) dx', 7),
+  ('matematikk-r2:omdreiningslegemer', 'Vanlig feil med hulrom', 'Å kvadrere differansen i stedet for å trekke fra kvadratene.', 8),
+  ('matematikk-r2:omdreiningslegemer', 'Rotasjon om y-aksen', 'V = π · ∫ (x(y))² dy', 9),
+  ('matematikk-r2:omdreiningslegemer', 'Største radius', 'Finnes i toppunktet til f.', 10),
+  ('matematikk-r2:omdreiningslegemer', '1 dm³', '1 liter.', 11),
+  ('matematikk-r2:omdreiningslegemer', 'Halvfull tank', 'Løs π ∫₀ʰ (f(x))² dx = V/2 for h.', 12),
+  ('matematikk-r2:omdreiningslegemer', 'Numerisk volum', 'Trapesmetoden på A(x) = π · r(x)² fra målinger.', 13),
+  ('matematikk-r2:omdreiningslegemer', 'Enhet for volum', 'Lengdeenhet i tredje potens, for eksempel cm³.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-r2:omdreiningslegemer';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-r2:omdreiningslegemer', 'q01', 'flervalg', 'Hva er volumformelen når f roteres om x-aksen?', array['V = ∫ₐᵇ f(x) dx', 'V = π · ∫ₐᵇ (f(x))² dx', 'V = 2π · ∫ₐᵇ f(x) dx', 'V = π · (∫ₐᵇ f(x) dx)²']::text[], 1, 'Sirkelskiver med radius f(x).', true, true, 0),
+  ('matematikk-r2:omdreiningslegemer', 'q02', 'flervalg', 'Hva er volumet når f(x) = √x roteres om x-aksen fra 0 til 4?', array['8π', '16π', '4π', '2π']::text[], 0, 'π · [x²/2]₀⁴.', true, true, 1),
+  ('matematikk-r2:omdreiningslegemer', 'q03', 'flervalg', 'Hvilken funksjon roteres for å utlede kulevolumet?', array['f(x) = x', 'f(x) = r', 'f(x) = √(r² − x²)', 'f(x) = x²']::text[], 2, 'En halvsirkel.', true, true, 2),
+  ('matematikk-r2:omdreiningslegemer', 'q04', 'flervalg', 'Hva er volumet av legemet når f(x) = x roteres fra 0 til 3?', array['3π', '27π', '6π', '9π']::text[], 3, 'π · [x³/3]₀³ = 9π – en kjegle.', true, true, 3),
+  ('matematikk-r2:omdreiningslegemer', 'q05', 'flervalg', 'Hvordan regnes volumet av et legeme med hulrom mellom f og g?', array['π · ∫ₐᵇ ((f(x))² − (g(x))²) dx', 'π · ∫ₐᵇ (f(x) − g(x))² dx', '∫ₐᵇ (f(x) − g(x)) dx', 'π · ∫ₐᵇ f(x)g(x) dx']::text[], 0, 'Trekk fra kvadratene.', true, true, 4),
+  ('matematikk-r2:omdreiningslegemer', 'q06', 'flervalg', 'Hva er volumet når f(x) = 2 roteres fra 0 til 3?', array['6π', '12π', '4π', '18π']::text[], 1, 'En sylinder: π · 4 · 3.', true, true, 5),
+  ('matematikk-r2:omdreiningslegemer', 'q07', 'flervalg', 'Hva er den generelle skivemetoden?', array['V = A · h alltid', 'V = ∫ f′(x) dx', 'V = ∫ₐᵇ A(x) dx', 'V = π · r²']::text[], 2, 'A(x) er tverrsnittsarealet.', true, true, 6),
+  ('matematikk-r2:omdreiningslegemer', 'q08', 'flervalg', 'Hvor finner du største radius i et omdreiningslegeme?', array['I nullpunktene', 'I vendepunktet', 'Alltid i endepunktet', 'I toppunktet til f']::text[], 3, 'Der f er størst.', true, true, 7),
+  ('matematikk-r2:omdreiningslegemer', 'q09', 'flervalg', 'Hvilken formel gir volumet ved rotasjon om y-aksen?', array['V = π · ∫ (x(y))² dy', 'V = π · ∫ (f(x))² dx', 'V = ∫ y dy', 'V = 2πr']::text[], 0, 'Integrer langs y.', true, false, 8),
+  ('matematikk-r2:omdreiningslegemer', 'q10', 'flervalg', 'Hva er volumet i liter av 3000 cm³?', array['30 L', '3 L', '0,3 L', '300 L']::text[], 1, '1 L = 1000 cm³.', true, false, 9),
+  ('matematikk-r2:omdreiningslegemer', 'm01', 'sant-usant', 'Kjegleformelen πr²h/3 kan utledes ved å rotere en rett linje gjennom origo.', array['Sant', 'Usant']::text[], 0, 'f(x) = (r/h)x.', false, true, 10),
+  ('matematikk-r2:omdreiningslegemer', 'm02', 'sant-usant', 'Ved hulrom regner vi π ∫ (f(x) − g(x))² dx.', array['Sant', 'Usant']::text[], 1, 'Vi trekker fra kvadratene: f² − g².', false, true, 11),
+  ('matematikk-r2:omdreiningslegemer', 'm03', 'sant-usant', 'Volumet av en trestamme kan regnes ut numerisk fra målte radier.', array['Sant', 'Usant']::text[], 0, 'Trapesmetoden på π · r(x)².', false, true, 12),
+  ('matematikk-r2:omdreiningslegemer', 'm04', 'sant-usant', 'Volum og areal regnes ut med helt ulike idéer.', array['Sant', 'Usant']::text[], 1, 'Begge er summer av mange små bidrag.', false, true, 13),
+  ('matematikk-r2:omdreiningslegemer', 'm05', 'flervalg', 'Hva er tverrsnittsarealet A(x) når f roteres om x-aksen?', array['2π · f(x)', 'π · (f(x))²', 'f(x)²', 'π · f(x)']::text[], 1, 'En sirkel med radius f(x).', false, true, 14),
+  ('matematikk-r2:omdreiningslegemer', 'm06', 'flervalg', 'Hva må du gjøre for å finne vannhøyden når en tank er halvfull?', array['Løse π ∫₀ʰ (f(x))² dx = V/2 for h', 'Dele høyden på 2', 'Derivere f', 'Finne toppunktet']::text[], 0, 'Formen avgjør høyden.', false, true, 15),
+  ('matematikk-r2:omdreiningslegemer', 'm07', 'flervalg', 'Hva er volumet når f(x) = eˣ roteres om x-aksen fra 0 til 1?', array['π(e − 1)', 'πe²', 'π(e² − 1)/2', 'π/2']::text[], 2, 'π ∫₀¹ e^(2x) dx = π[e^(2x)/2]₀¹.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-r2:omdreiningslegemer', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk R2: Parameterframstillinger, fart og akselerasjon
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-r2:parameterframstillinger-og-bevegelse', 'matematikk-r2', 'parameterframstillinger-og-bevegelse', 'Parameterframstillinger, fart og akselerasjon', 'Hvordan parameterframstillinger og vektorfunksjoner beskriver bevegelse i planet og rommet – posisjon, fartsvektor, banefart og akselerasjon – med skrått kast, sirkelbevegelse, horisontale og vertikale tangenter og buelengde som eksempler.', array[9]::int[], 9, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-r2:parameterframstillinger-og-bevegelse', '## Posisjonsvektor
+
+En **parameterframstilling** beskriver en kurve der både x og y – og eventuelt z – er funksjoner av en **parameter** t, ofte **tiden**:
+
+**r(t) = [x(t), y(t)]**
+
+r(t) er **posisjonsvektoren** til et legeme ved tiden t.
+
+## Fart og akselerasjon
+
+- **Fartsvektoren** er den deriverte: **v(t) = r′(t) = [x′(t), y′(t)]**. Den er **tangent** til banen og peker i **bevegelsesretningen**.
+- **Banefarten** er lengden av fartsvektoren: **|v(t)| = √(x′(t)² + y′(t)²)**.
+- **Akselerasjonsvektoren** er **a(t) = v′(t) = r″(t)**.
+
+## Skrått kast
+
+En ball kastes med startfart v₀ og vinkel α med horisontalen. Uten luftmotstand er
+
+**r(t) = [v₀ cos α · t, v₀ sin α · t − ½gt²]**
+
+Da er v(t) = [v₀ cos α, v₀ sin α − gt] og a(t) = [0, −g]. Akselerasjonen er **konstant** og peker **rett ned**.
+
+**Eksempel**: v₀ = 20 m/s, α = 30°, g = 9,81 m/s².
+
+- r(t) = [17,32t, 10t − 4,905t²]
+- **Høyeste punkt**: y′(t) = 10 − 9,81t = 0 gir t ≈ 1,02 s og y ≈ **5,1 m**.
+- **Treffer bakken**: y(t) = 0 gir t ≈ 2,04 s og x ≈ **35,3 m**.
+
+## Sirkelbevegelse
+
+**r(t) = [R cos(ωt), R sin(ωt)]** beskriver en bevegelse med **konstant** banefart rundt en sirkel med radius R.
+
+- v(t) = [−Rω sin(ωt), Rω cos(ωt)], så banefarten er **Rω**.
+- a(t) = −ω² · r(t). Akselerasjonen peker **inn mot sentrum** og har størrelse **Rω²** – **sentripetalakselerasjon**.
+
+## Tangenter
+
+- **Horisontal** tangent: **y′(t) = 0** og x′(t) ≠ 0.
+- **Vertikal** tangent: **x′(t) = 0** og y′(t) ≠ 0.
+
+Stigningstallet til tangenten er **y′(t)/x′(t)**.
+
+## Buelengde
+
+Strekningen legemet tilbakelegger fra t = a til t = b, er integralet av banefarten:
+
+**s = ∫ₐᵇ |v(t)| dt = ∫ₐᵇ √(x′(t)² + y′(t)²) dt**
+
+Integralet må ofte regnes ut **numerisk**.
+
+## I rommet
+
+I tre dimensjoner er r(t) = [x(t), y(t), z(t)]. En **skruelinje** r(t) = [cos t, sin t, t/2] går i sirkel samtidig som den stiger jevnt – slik som banen til en **vindeltrapp** eller et elektron i et **magnetfelt**.
+
+## Fra akselerasjon til posisjon
+
+Kjenner vi akselerasjonen, kan vi **integrere** for å finne farten og posisjonen. Integrasjonskonstantene bestemmes av **startfarten** og **startposisjonen**. Slik utledes formelen for skrått kast fra a(t) = [0, −g].
+
+## Naturvitenskapelige problemer
+
+Parameterframstillinger brukes til å beskrive **satellitter**, **planeter**, **prosjektiler** og **partikler**. I fysikk kombineres de med **Newtons lover**: Kraften bestemmer akselerasjonen, og integrasjon gir banen. Med **programmering** kan vi også ta med **luftmotstand** og løse problemene numerisk.', '{"label":"Bevegelse","children":[{"label":"Vektorer","children":[{"label":"Posisjon r(t)"},{"label":"Fart v = r′"},{"label":"Akselerasjon a = v′"}]},{"label":"Skrått kast","children":[{"label":"Høyeste punkt"},{"label":"Rekkevidde"}]},{"label":"Sirkelbevegelse","children":[{"label":"Banefart Rω"},{"label":"Sentripetalakselerasjon"}]},{"label":"Kurveegenskaper","children":[{"label":"Tangenter"},{"label":"Buelengde"}]},{"label":"Anvendelser","children":[{"label":"Skruelinje i rommet"},{"label":"Integrasjon fra a til r"},{"label":"Luftmotstand numerisk"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-r2:parameterframstillinger-og-bevegelse';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-r2:parameterframstillinger-og-bevegelse', 'Parameterframstilling', 'Kurve der x og y er funksjoner av en parameter t.', 0),
+  ('matematikk-r2:parameterframstillinger-og-bevegelse', 'Posisjonsvektor', 'r(t) = [x(t), y(t)]', 1),
+  ('matematikk-r2:parameterframstillinger-og-bevegelse', 'Fartsvektor', 'v(t) = r′(t) – tangent til banen.', 2),
+  ('matematikk-r2:parameterframstillinger-og-bevegelse', 'Banefart', '|v(t)| = √(x′(t)² + y′(t)²)', 3),
+  ('matematikk-r2:parameterframstillinger-og-bevegelse', 'Akselerasjonsvektor', 'a(t) = v′(t) = r″(t)', 4),
+  ('matematikk-r2:parameterframstillinger-og-bevegelse', 'Skrått kast', 'r(t) = [v₀ cos α · t, v₀ sin α · t − ½gt²]', 5),
+  ('matematikk-r2:parameterframstillinger-og-bevegelse', 'Akselerasjon i skrått kast', '[0, −g] – konstant og rett ned.', 6),
+  ('matematikk-r2:parameterframstillinger-og-bevegelse', 'Høyeste punkt i kast', 'y′(t) = 0', 7),
+  ('matematikk-r2:parameterframstillinger-og-bevegelse', 'Sirkelbevegelse', 'r(t) = [R cos(ωt), R sin(ωt)]', 8),
+  ('matematikk-r2:parameterframstillinger-og-bevegelse', 'Banefart i sirkelbevegelse', 'Rω', 9),
+  ('matematikk-r2:parameterframstillinger-og-bevegelse', 'Sentripetalakselerasjon', 'Peker mot sentrum, størrelse Rω².', 10),
+  ('matematikk-r2:parameterframstillinger-og-bevegelse', 'Horisontal tangent', 'y′(t) = 0 og x′(t) ≠ 0.', 11),
+  ('matematikk-r2:parameterframstillinger-og-bevegelse', 'Vertikal tangent', 'x′(t) = 0 og y′(t) ≠ 0.', 12),
+  ('matematikk-r2:parameterframstillinger-og-bevegelse', 'Buelengde', 's = ∫ₐᵇ |v(t)| dt', 13),
+  ('matematikk-r2:parameterframstillinger-og-bevegelse', 'Skruelinje', '[cos t, sin t, kt] – sirkel som stiger jevnt.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-r2:parameterframstillinger-og-bevegelse';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-r2:parameterframstillinger-og-bevegelse', 'q01', 'flervalg', 'Hva er fartsvektoren til r(t) = [t², 3t]?', array['[t, 3]', '[2t, 3]', '[2, 0]', '[t², 3]']::text[], 1, 'Deriver hver koordinat.', true, true, 0),
+  ('matematikk-r2:parameterframstillinger-og-bevegelse', 'q02', 'flervalg', 'Hva er banefarten når v(t) = [3, 4]?', array['5', '7', '1', '25']::text[], 0, '√(9 + 16).', true, true, 1),
+  ('matematikk-r2:parameterframstillinger-og-bevegelse', 'q03', 'flervalg', 'Hva er akselerasjonen i skrått kast uten luftmotstand?', array['[g, 0]', '[0, 0]', '[0, −g]', '[−g, −g]']::text[], 2, 'Konstant og rett ned.', true, true, 2),
+  ('matematikk-r2:parameterframstillinger-og-bevegelse', 'q04', 'flervalg', 'Hva gjelder for en horisontal tangent?', array['x′(t) = 0', 'x′(t) = y′(t)', 'x(t) = 0', 'y′(t) = 0 og x′(t) ≠ 0']::text[], 3, 'Stigningstallet er 0.', true, true, 3),
+  ('matematikk-r2:parameterframstillinger-og-bevegelse', 'q05', 'flervalg', 'Hvor peker akselerasjonen i jevn sirkelbevegelse?', array['Inn mot sentrum', 'Ut fra sentrum', 'Langs banen', 'Den er null']::text[], 0, 'Sentripetalakselerasjon.', true, true, 4),
+  ('matematikk-r2:parameterframstillinger-og-bevegelse', 'q06', 'flervalg', 'Hvordan regnes buelengden ut?', array['s = |r(b) − r(a)|', 's = ∫ₐᵇ |v(t)| dt', 's = x(b) − x(a)', 's = ∫ₐᵇ r(t) dt']::text[], 1, 'Integralet av banefarten.', true, true, 5),
+  ('matematikk-r2:parameterframstillinger-og-bevegelse', 'q07', 'flervalg', 'Hva er banefarten for r(t) = [R cos(ωt), R sin(ωt)]?', array['R', 'ω', 'Rω', 'Rω²']::text[], 2, 'Konstant banefart.', true, true, 6),
+  ('matematikk-r2:parameterframstillinger-og-bevegelse', 'q08', 'flervalg', 'En ball kastes med 20 m/s og 30°. Omtrent hvor høyt kommer den?', array['20 m', '10 m', '2,5 m', '5,1 m']::text[], 3, 'y′ = 0 ved t ≈ 1,02 s.', true, true, 7),
+  ('matematikk-r2:parameterframstillinger-og-bevegelse', 'q09', 'flervalg', 'Hva er stigningstallet til tangenten i en parameterframstilling?', array['y′(t)/x′(t)', 'x′(t)/y′(t)', 'y(t)/x(t)', 'x′(t) · y′(t)']::text[], 0, 'Endring i y per endring i x.', true, false, 8),
+  ('matematikk-r2:parameterframstillinger-og-bevegelse', 'q10', 'flervalg', 'Hva bestemmer integrasjonskonstantene når vi går fra akselerasjon til posisjon?', array['Massen', 'Startfarten og startposisjonen', 'Tyngdeakselerasjonen alene', 'Buelengden']::text[], 1, 'Initialbetingelser.', true, false, 9),
+  ('matematikk-r2:parameterframstillinger-og-bevegelse', 'm01', 'sant-usant', 'Fartsvektoren er tangent til banen.', array['Sant', 'Usant']::text[], 0, 'Den peker i bevegelsesretningen.', false, true, 10),
+  ('matematikk-r2:parameterframstillinger-og-bevegelse', 'm02', 'sant-usant', 'I jevn sirkelbevegelse er akselerasjonen null.', array['Sant', 'Usant']::text[], 1, 'Retningen endres, så akselerasjonen peker mot sentrum.', false, true, 11),
+  ('matematikk-r2:parameterframstillinger-og-bevegelse', 'm03', 'sant-usant', 'Buelengden må ofte regnes ut numerisk.', array['Sant', 'Usant']::text[], 0, 'Rotuttrykket er ofte vanskelig å integrere.', false, true, 12),
+  ('matematikk-r2:parameterframstillinger-og-bevegelse', 'm04', 'sant-usant', 'En vertikal tangent har y′(t) = 0.', array['Sant', 'Usant']::text[], 1, 'Vertikal tangent har x′(t) = 0.', false, true, 13),
+  ('matematikk-r2:parameterframstillinger-og-bevegelse', 'm05', 'flervalg', 'Hva er akselerasjonen til r(t) = [t³, 2t]?', array['[3t², 2]', '[6t, 0]', '[6, 0]', '[t, 0]']::text[], 1, 'Deriver to ganger.', false, true, 14),
+  ('matematikk-r2:parameterframstillinger-og-bevegelse', 'm06', 'flervalg', 'Hva beskriver r(t) = [cos t, sin t, t/2]?', array['En skruelinje', 'En rett linje', 'En sirkel i planet', 'En parabel']::text[], 0, 'Sirkel som stiger jevnt.', false, true, 15),
+  ('matematikk-r2:parameterframstillinger-og-bevegelse', 'm07', 'flervalg', 'Hvordan finner du når en kastet ball treffer bakken?', array['Løs x(t) = 0', 'Løs y′(t) = 0', 'Løs y(t) = 0 for t > 0', 'Finn |v(t)|']::text[], 2, 'Høyden er null.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-r2:parameterframstillinger-og-bevegelse', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk R2: Vektorer i rommet
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-r2:vektorer-i-rommet', 'matematikk-r2', 'vektorer-i-rommet', 'Vektorer i rommet', 'Koordinatsystemet i tre dimensjoner og regneregler for vektorer i rommet – lengde, skalarprodukt og vinkler, vektorproduktet med høyrehåndsregelen – og hvordan du bruker dem til å beregne avstander, arealer av trekanter og parallellogrammer og volumer av pyramider og parallellepipeder.', array[10]::int[], 10, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-r2:vektorer-i-rommet', '## Koordinater i rommet
+
+I rommet har vi tre akser – x, y og z – som står **vinkelrett** på hverandre. Et punkt skrives P(x, y, z). Aksene orienteres etter **høyrehåndsregelen**: Pekefinger langs x, langefinger langs y, og tommelen peker langs z.
+
+## Vektorer
+
+En vektor i rommet skrives **u = [a, b, c]**. Vektoren fra A(x₁, y₁, z₁) til B(x₂, y₂, z₂) er
+
+**AB = [x₂ − x₁, y₂ − y₁, z₂ − z₁]**
+
+Regnereglene er som i planet: Vi **adderer** og **multipliserer med tall** koordinatvis.
+
+- **Lengde**: |u| = √(a² + b² + c²). For u = [1, 2, 2] er |u| = **3**.
+- **Avstand** mellom to punkter er lengden av vektoren mellom dem.
+- To vektorer er **parallelle** hvis den ene er et tall ganger den andre.
+
+## Skalarproduktet
+
+**u · v = u₁v₁ + u₂v₂ + u₃v₃ = |u| · |v| · cos θ**
+
+Skalarproduktet er et **tall**. Det brukes til å
+
+- finne **vinkelen** mellom to vektorer: cos θ = (u · v)/(|u| · |v|)
+- avgjøre om vektorer står **vinkelrett**: u · v = 0
+- regne ut **arbeid** i fysikk: W = F · s
+
+## Vektorproduktet
+
+Vektorproduktet – **kryssproduktet** – gir en ny **vektor**:
+
+**u × v = [u₂v₃ − u₃v₂, u₃v₁ − u₁v₃, u₁v₂ − u₂v₁]**
+
+Egenskaper:
+
+- u × v står **vinkelrett** på både u og v.
+- Retningen følger **høyrehåndsregelen**.
+- **|u × v| = |u| · |v| · sin θ** = arealet av **parallellogrammet** utspent av u og v.
+- **v × u = −(u × v)** – rekkefølgen betyr noe.
+- u × v = 0 hvis vektorene er **parallelle**.
+
+**Eksempel**: u = [1, 2, 3] og v = [2, 0, 1]:
+
+u × v = [2 · 1 − 3 · 0, 3 · 2 − 1 · 1, 1 · 0 − 2 · 2] = **[2, 5, −4]**
+
+Kontroll: [2, 5, −4] · [1, 2, 3] = 2 + 10 − 12 = 0 og [2, 5, −4] · [2, 0, 1] = 4 + 0 − 4 = 0.
+
+## Areal og volum
+
+- **Parallellogram** utspent av u og v: A = |u × v|
+- **Trekant** ABC: A = ½ · |AB × AC|
+- **Parallellepiped** utspent av u, v og w: V = |(u × v) · w|
+- **Pyramide** med trekantet grunnflate (**tetraeder**): V = (1/6) · |(u × v) · w|
+
+Uttrykket (u × v) · w kalles **skalartrippelproduktet**. Er det 0, ligger de tre vektorene i **samme plan**.
+
+## Anvendelser
+
+- **Fysikk**: dreiemoment τ = r × F og kraften på en ladning i et **magnetfelt** bruker vektorproduktet.
+- **Dataspill og 3D-grafikk**: Normalvektorer fra vektorproduktet avgjør hvordan **lys** faller på flater.
+- **Navigasjon** og **GPS** bruker koordinater i rommet.
+
+## Arbeidsmåte
+
+Tegn gjerne en **skisse**, og bruk **CAS** eller GeoGebra 3D til å kontrollere. Sjekk alltid at et vektorprodukt står vinkelrett på begge vektorene ved å regne ut skalarproduktene.', '{"label":"Vektorer i rommet","children":[{"label":"Koordinater","children":[{"label":"x, y og z"},{"label":"Høyrehåndsregelen"}]},{"label":"Grunnregler","children":[{"label":"AB = B − A"},{"label":"Lengde"},{"label":"Parallellitet"}]},{"label":"Skalarprodukt","children":[{"label":"Vinkel"},{"label":"Vinkelrett: u · v = 0"}]},{"label":"Vektorprodukt","children":[{"label":"Vinkelrett på begge"},{"label":"Areal av parallellogram"}]},{"label":"Volum og anvendelser","children":[{"label":"Parallellepiped og tetraeder"},{"label":"Dreiemoment"},{"label":"3D-grafikk"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-r2:vektorer-i-rommet';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-r2:vektorer-i-rommet', 'Punkt i rommet', 'P(x, y, z)', 0),
+  ('matematikk-r2:vektorer-i-rommet', 'Vektor AB', '[x₂ − x₁, y₂ − y₁, z₂ − z₁]', 1),
+  ('matematikk-r2:vektorer-i-rommet', 'Lengde av vektor', '√(a² + b² + c²)', 2),
+  ('matematikk-r2:vektorer-i-rommet', 'Parallelle vektorer', 'Den ene er et tall ganger den andre.', 3),
+  ('matematikk-r2:vektorer-i-rommet', 'Skalarprodukt', 'u₁v₁ + u₂v₂ + u₃v₃ = |u| · |v| · cos θ', 4),
+  ('matematikk-r2:vektorer-i-rommet', 'Vinkelrette vektorer', 'u · v = 0', 5),
+  ('matematikk-r2:vektorer-i-rommet', 'Vektorprodukt', 'u × v – vektor vinkelrett på både u og v.', 6),
+  ('matematikk-r2:vektorer-i-rommet', 'Lengden av u × v', '|u| · |v| · sin θ – arealet av parallellogrammet.', 7),
+  ('matematikk-r2:vektorer-i-rommet', 'v × u', '−(u × v)', 8),
+  ('matematikk-r2:vektorer-i-rommet', 'Høyrehåndsregelen', 'Bestemmer retningen til u × v.', 9),
+  ('matematikk-r2:vektorer-i-rommet', 'Trekantareal', '½ · |AB × AC|', 10),
+  ('matematikk-r2:vektorer-i-rommet', 'Parallellepiped', 'V = |(u × v) · w|', 11),
+  ('matematikk-r2:vektorer-i-rommet', 'Tetraeder', 'V = (1/6) · |(u × v) · w|', 12),
+  ('matematikk-r2:vektorer-i-rommet', 'Skalartrippelprodukt', '(u × v) · w – er 0 når vektorene ligger i samme plan.', 13),
+  ('matematikk-r2:vektorer-i-rommet', 'Dreiemoment', 'τ = r × F', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-r2:vektorer-i-rommet';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-r2:vektorer-i-rommet', 'q01', 'flervalg', 'Hva er lengden av u = [1, 2, 2]?', array['5', '3', '9', '√5']::text[], 1, '√(1 + 4 + 4).', true, true, 0),
+  ('matematikk-r2:vektorer-i-rommet', 'q02', 'flervalg', 'Hva betyr u · v = 0?', array['At vektorene står vinkelrett på hverandre', 'At vektorene er parallelle', 'At vektorene er like', 'At en av dem er lengre']::text[], 0, 'cos 90° = 0.', true, true, 1),
+  ('matematikk-r2:vektorer-i-rommet', 'q03', 'flervalg', 'Hva er [1, 2, 3] × [2, 0, 1]?', array['[2, 0, 3]', '[−2, −5, 4]', '[2, 5, −4]', '[3, 2, 4]']::text[], 2, 'Bruk formelen koordinat for koordinat.', true, true, 2),
+  ('matematikk-r2:vektorer-i-rommet', 'q04', 'flervalg', 'Hva er arealet av trekant ABC?', array['|AB × AC|', 'AB · AC', '½ · AB · AC', '½ · |AB × AC|']::text[], 3, 'Halvparten av parallellogrammet.', true, true, 3),
+  ('matematikk-r2:vektorer-i-rommet', 'q05', 'flervalg', 'Hva er [1, 2, 3] · [4, −1, 2]?', array['8', '6', '12', '0']::text[], 0, '4 − 2 + 6.', true, true, 4),
+  ('matematikk-r2:vektorer-i-rommet', 'q06', 'flervalg', 'Hva er v × u uttrykt ved u × v?', array['u × v', '−(u × v)', '0', '2(u × v)']::text[], 1, 'Rekkefølgen betyr noe.', true, true, 5),
+  ('matematikk-r2:vektorer-i-rommet', 'q07', 'flervalg', 'Hvilket volum gir |(u × v) · w|?', array['Et tetraeder', 'En kule', 'Et parallellepiped', 'En kjegle']::text[], 2, 'Tetraederet er en sjettedel.', true, true, 6),
+  ('matematikk-r2:vektorer-i-rommet', 'q08', 'flervalg', 'Hva er vektoren fra A(1, 0, 2) til B(4, 2, 1)?', array['[5, 2, 3]', '[−3, −2, 1]', '[4, 0, 2]', '[3, 2, −1]']::text[], 3, 'B minus A.', true, true, 7),
+  ('matematikk-r2:vektorer-i-rommet', 'q09', 'flervalg', 'Hva er [1, 0, 0] × [0, 1, 0]?', array['[0, 0, 1]', '[0, 0, −1]', '[1, 1, 0]', '0']::text[], 0, 'x × y = z etter høyrehåndsregelen.', true, false, 8),
+  ('matematikk-r2:vektorer-i-rommet', 'q10', 'flervalg', 'Hva betyr det at (u × v) · w = 0?', array['At u og v er like', 'At u, v og w ligger i samme plan', 'At w er lengst', 'At u står vinkelrett på v']::text[], 1, 'Volumet er null.', true, false, 9),
+  ('matematikk-r2:vektorer-i-rommet', 'm01', 'sant-usant', 'Skalarproduktet av to vektorer er et tall.', array['Sant', 'Usant']::text[], 0, 'Vektorproduktet er en vektor.', false, true, 10),
+  ('matematikk-r2:vektorer-i-rommet', 'm02', 'sant-usant', 'u × v er parallell med u.', array['Sant', 'Usant']::text[], 1, 'Den står vinkelrett på u.', false, true, 11),
+  ('matematikk-r2:vektorer-i-rommet', 'm03', 'sant-usant', 'u × v = 0 når u og v er parallelle.', array['Sant', 'Usant']::text[], 0, 'sin 0° = 0.', false, true, 12),
+  ('matematikk-r2:vektorer-i-rommet', 'm04', 'sant-usant', 'Volumet av et tetraeder er halvparten av parallellepipedet.', array['Sant', 'Usant']::text[], 1, 'Det er en sjettedel.', false, true, 13),
+  ('matematikk-r2:vektorer-i-rommet', 'm05', 'flervalg', 'Hva er avstanden mellom (0, 0, 0) og (2, 3, 6)?', array['11', '7', '√11', '49']::text[], 1, '√(4 + 9 + 36) = √49.', false, true, 14),
+  ('matematikk-r2:vektorer-i-rommet', 'm06', 'flervalg', 'Hvordan kontrollerer du et utregnet vektorprodukt?', array['Sjekk at skalarproduktet med begge vektorene er 0', 'Sjekk at det er positivt', 'Legg sammen koordinatene', 'Sjekk at lengden er 1']::text[], 0, 'Det skal stå vinkelrett på begge.', false, true, 15),
+  ('matematikk-r2:vektorer-i-rommet', 'm07', 'flervalg', 'Hvilken fysisk størrelse beregnes med vektorproduktet?', array['Arbeid', 'Masse', 'Dreiemoment', 'Temperatur']::text[], 2, 'Arbeid bruker skalarproduktet.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-r2:vektorer-i-rommet', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk R2: Linjer, plan og kuler i rommet
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-r2:linjer-plan-og-kuler', 'matematikk-r2', 'linjer-plan-og-kuler', 'Linjer, plan og kuler i rommet', 'Parameterframstilling av linjer, likningen for et plan med normalvektor, plan gjennom tre punkter, skjæringspunkter, vinkler og avstander mellom punkter, linjer og plan, og likningen for en kuleflate med tangentplan.', array[10]::int[], 11, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-r2:linjer-plan-og-kuler', '## Linjer
+
+En linje gjennom punktet P(x₀, y₀, z₀) med **retningsvektor** r = [a, b, c] har **parameterframstillingen**
+
+**x = x₀ + at, y = y₀ + bt, z = z₀ + ct**
+
+Hver verdi av t gir ett punkt på linjen. I rommet kan to linjer være **parallelle**, **skjære** hverandre eller være **vindskjeve** – verken parallelle eller skjærende.
+
+## Plan
+
+Et plan bestemmes av et punkt P(x₀, y₀, z₀) og en **normalvektor** n = [a, b, c] som står vinkelrett på planet:
+
+**a(x − x₀) + b(y − y₀) + c(z − z₀) = 0**
+
+som kan skrives **ax + by + cz + d = 0**. Koeffisientene foran x, y og z er normalvektoren.
+
+**Plan gjennom tre punkter** A, B og C: Normalvektoren er **n = AB × AC**. Sett inn ett av punktene for å finne d.
+
+## Skjæring
+
+- **Linje og plan**: Sett parameterframstillingen inn i planlikningen, løs for t og finn punktet.
+- **To plan**: Skjærer hverandre i en **linje** med retningsvektor **n₁ × n₂**, hvis de ikke er parallelle.
+- **To linjer**: Sett koordinatene like og løs for de to parameterne. Går det ikke, er linjene vindskjeve eller parallelle.
+
+## Vinkler
+
+- Mellom to **linjer**: vinkelen mellom retningsvektorene.
+- Mellom to **plan**: vinkelen mellom normalvektorene.
+- Mellom en **linje** og et **plan**: 90° minus vinkelen mellom retningsvektoren og normalvektoren.
+
+## Avstander
+
+**Punkt og plan**: Avstanden fra Q(x₁, y₁, z₁) til planet ax + by + cz + d = 0 er
+
+**|ax₁ + by₁ + cz₁ + d| / √(a² + b² + c²)**
+
+**Eksempel**: Fra (1, 2, 3) til 2x − y + 2z − 3 = 0:
+
+|2 − 2 + 6 − 3| / √(4 + 1 + 4) = 3/3 = **1**
+
+**Punkt og linje**: Avstanden er |PQ × r| / |r|, der P er et punkt på linjen og r er retningsvektoren.
+
+## Kuler
+
+En **kuleflate** med sentrum S(x₀, y₀, z₀) og radius r har likningen
+
+**(x − x₀)² + (y − y₀)² + (z − z₀)² = r²**
+
+Er likningen skrevet ut, bruker du **fullstendige kvadrater**:
+
+x² + y² + z² − 2x + 4y − 4 = 0
+(x − 1)² + (y + 2)² + z² = 4 + 1 + 4 = 9
+
+Sentrum er **(1, −2, 0)** og radius **3**.
+
+## Kuler, linjer og plan
+
+- Et **tangentplan** i punktet T på kuleflaten har normalvektor **ST** – radien står vinkelrett på tangentplanet.
+- Et plan **skjærer** kulen når avstanden fra sentrum til planet er **mindre** enn radien. Skjæringen er en **sirkel**.
+- En linje kan skjære kuleflaten i **to**, **ett** eller **ingen** punkter. Sett parameterframstillingen inn i kulelikningen og løs andregradslikningen i t.
+
+## Anvendelser
+
+Linjer, plan og kuler brukes i **arkitektur**, **3D-modellering**, **robotikk** og **GPS** – der mottakeren finner posisjonen som skjæringen mellom flere kuleflater med satellittene i sentrum.', '{"label":"Linjer, plan og kuler","children":[{"label":"Linjer","children":[{"label":"Parameterframstilling"},{"label":"Vindskjeve linjer"}]},{"label":"Plan","children":[{"label":"Normalvektor"},{"label":"Tre punkter: AB × AC"}]},{"label":"Skjæring og vinkler","children":[{"label":"Linje og plan"},{"label":"To plan"},{"label":"Vinkler via vektorer"}]},{"label":"Avstander","children":[{"label":"Punkt–plan"},{"label":"Punkt–linje"}]},{"label":"Kuler","children":[{"label":"Fullstendige kvadrater"},{"label":"Tangentplan"},{"label":"GPS"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-r2:linjer-plan-og-kuler';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-r2:linjer-plan-og-kuler', 'Parameterframstilling av linje', 'x = x₀ + at, y = y₀ + bt, z = z₀ + ct', 0),
+  ('matematikk-r2:linjer-plan-og-kuler', 'Retningsvektor', 'Vektor som angir retningen til en linje.', 1),
+  ('matematikk-r2:linjer-plan-og-kuler', 'Vindskjeve linjer', 'Linjer som verken er parallelle eller skjærer hverandre.', 2),
+  ('matematikk-r2:linjer-plan-og-kuler', 'Normalvektor', 'Vektor som står vinkelrett på et plan.', 3),
+  ('matematikk-r2:linjer-plan-og-kuler', 'Planlikning', 'ax + by + cz + d = 0 med n = [a, b, c].', 4),
+  ('matematikk-r2:linjer-plan-og-kuler', 'Plan gjennom tre punkter', 'n = AB × AC', 5),
+  ('matematikk-r2:linjer-plan-og-kuler', 'Skjæring linje–plan', 'Sett parameterframstillingen inn i planlikningen.', 6),
+  ('matematikk-r2:linjer-plan-og-kuler', 'Skjæringslinje mellom plan', 'Retningsvektor n₁ × n₂.', 7),
+  ('matematikk-r2:linjer-plan-og-kuler', 'Vinkel mellom plan', 'Vinkelen mellom normalvektorene.', 8),
+  ('matematikk-r2:linjer-plan-og-kuler', 'Avstand punkt–plan', '|ax₁ + by₁ + cz₁ + d| / √(a² + b² + c²)', 9),
+  ('matematikk-r2:linjer-plan-og-kuler', 'Avstand punkt–linje', '|PQ × r| / |r|', 10),
+  ('matematikk-r2:linjer-plan-og-kuler', 'Kulelikning', '(x − x₀)² + (y − y₀)² + (z − z₀)² = r²', 11),
+  ('matematikk-r2:linjer-plan-og-kuler', 'Fullstendige kvadrater', 'Brukes for å finne sentrum og radius.', 12),
+  ('matematikk-r2:linjer-plan-og-kuler', 'Tangentplan til kule', 'Har radien ST som normalvektor.', 13),
+  ('matematikk-r2:linjer-plan-og-kuler', 'Plan som skjærer kule', 'Avstanden fra sentrum er mindre enn radien – skjæringen er en sirkel.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-r2:linjer-plan-og-kuler';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-r2:linjer-plan-og-kuler', 'q01', 'flervalg', 'Hva er normalvektoren til planet 2x − y + 3z − 5 = 0?', array['[2, 1, 3]', '[2, −1, 3]', '[−5, 2, 3]', '[1, 1, 1]']::text[], 1, 'Koeffisientene foran x, y og z.', true, true, 0),
+  ('matematikk-r2:linjer-plan-og-kuler', 'q02', 'flervalg', 'Hvordan finner du normalvektoren til et plan gjennom A, B og C?', array['n = AB × AC', 'n = AB · AC', 'n = AB + AC', 'n = A + B + C']::text[], 0, 'Vektorproduktet står vinkelrett på begge.', true, true, 1),
+  ('matematikk-r2:linjer-plan-og-kuler', 'q03', 'flervalg', 'Hva er avstanden fra (1, 2, 3) til planet 2x − y + 2z − 3 = 0?', array['3', '9', '1', '0']::text[], 2, '|2 − 2 + 6 − 3| / 3.', true, true, 2),
+  ('matematikk-r2:linjer-plan-og-kuler', 'q04', 'flervalg', 'Hva er vindskjeve linjer?', array['Linjer som skjærer hverandre', 'Parallelle linjer', 'Linjer i samme plan', 'Linjer som verken er parallelle eller skjærer hverandre']::text[], 3, 'Bare mulig i rommet.', true, true, 3),
+  ('matematikk-r2:linjer-plan-og-kuler', 'q05', 'flervalg', 'Hva er sentrum og radius til x² + y² + z² − 2x + 4y − 4 = 0?', array['(1, −2, 0) og 3', '(−1, 2, 0) og 3', '(1, −2, 0) og 9', '(2, −4, 0) og 4']::text[], 0, '(x − 1)² + (y + 2)² + z² = 9.', true, true, 4),
+  ('matematikk-r2:linjer-plan-og-kuler', 'q06', 'flervalg', 'Hvordan finner du vinkelen mellom to plan?', array['Vinkelen mellom to punkter', 'Vinkelen mellom normalvektorene', 'Summen av d-verdiene', 'Alltid 90°']::text[], 1, 'Normalvektorene bestemmer planets helning.', true, true, 5),
+  ('matematikk-r2:linjer-plan-og-kuler', 'q07', 'flervalg', 'Hvilken retningsvektor har skjæringslinjen mellom to plan?', array['n₁ + n₂', 'n₁ · n₂', 'n₁ × n₂', 'n₁ − n₂']::text[], 2, 'Den står vinkelrett på begge normalvektorene.', true, true, 6),
+  ('matematikk-r2:linjer-plan-og-kuler', 'q08', 'flervalg', 'Hvilken normalvektor har tangentplanet i punktet T på en kule med sentrum S?', array['[1, 0, 0]', 'Retningsvektoren til x-aksen', 'Summen av S og T', 'ST']::text[], 3, 'Radien står vinkelrett på tangentplanet.', true, true, 7),
+  ('matematikk-r2:linjer-plan-og-kuler', 'q09', 'flervalg', 'Når skjærer et plan en kule?', array['Når avstanden fra sentrum til planet er mindre enn radien', 'Alltid', 'Når planet går gjennom origo', 'Når d = 0']::text[], 0, 'Skjæringen er en sirkel.', true, false, 8),
+  ('matematikk-r2:linjer-plan-og-kuler', 'q10', 'flervalg', 'Hvordan finner du skjæringspunktet mellom en linje og et plan?', array['Ta vektorproduktet', 'Sett parameterframstillingen inn i planlikningen og løs for t', 'Finn avstanden', 'Legg sammen likningene']::text[], 1, 't gir punktet.', true, false, 9),
+  ('matematikk-r2:linjer-plan-og-kuler', 'm01', 'sant-usant', 'To plan som ikke er parallelle, skjærer hverandre i en linje.', array['Sant', 'Usant']::text[], 0, 'Med retningsvektor n₁ × n₂.', false, true, 10),
+  ('matematikk-r2:linjer-plan-og-kuler', 'm02', 'sant-usant', 'En linje og en kuleflate kan ha tre skjæringspunkter.', array['Sant', 'Usant']::text[], 1, 'Andregradslikningen gir høyst to.', false, true, 11),
+  ('matematikk-r2:linjer-plan-og-kuler', 'm03', 'sant-usant', 'GPS bruker skjæringen mellom kuleflater.', array['Sant', 'Usant']::text[], 0, 'Satellittene er sentrum.', false, true, 12),
+  ('matematikk-r2:linjer-plan-og-kuler', 'm04', 'sant-usant', 'Normalvektoren til et plan ligger i planet.', array['Sant', 'Usant']::text[], 1, 'Den står vinkelrett på planet.', false, true, 13),
+  ('matematikk-r2:linjer-plan-og-kuler', 'm05', 'flervalg', 'Hva er kulelikningen med sentrum (0, 1, −2) og radius 4?', array['x² + (y − 1)² + (z + 2)² = 4', 'x² + (y − 1)² + (z + 2)² = 16', 'x² + (y + 1)² + (z − 2)² = 16', 'x² + y² + z² = 16']::text[], 1, 'r² = 16.', false, true, 14),
+  ('matematikk-r2:linjer-plan-og-kuler', 'm06', 'flervalg', 'Hvilket punkt ligger på linjen x = 1 + 2t, y = 3 − t, z = t?', array['(3, 2, 1)', '(3, 4, 1)', '(1, 3, 1)', '(2, 2, 2)']::text[], 0, 't = 1.', false, true, 15),
+  ('matematikk-r2:linjer-plan-og-kuler', 'm07', 'flervalg', 'Hva er vinkelen mellom en linje og et plan?', array['Vinkelen mellom retningsvektor og normalvektor', 'Alltid 0°', '90° minus vinkelen mellom retningsvektor og normalvektor', 'Summen av vinklene']::text[], 2, 'Normalvektoren står vinkelrett på planet.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-r2:linjer-plan-og-kuler', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk R2: Radianer og trigonometriske funksjoner
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-r2:radianer-og-trigonometriske-funksjoner', 'matematikk-r2', 'radianer-og-trigonometriske-funksjoner', 'Radianer og trigonometriske funksjoner', 'Radianer som vinkelmål, buelengde og sektorareal, enhetssirkelen og eksakte verdier, grafene til sinus, cosinus og tangens, funksjoner av typen A sin(cx + φ) + d med amplitude og periode, og derivasjon av trigonometriske funksjoner med praktiske anvendelser.', array[11]::int[], 12, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-r2:radianer-og-trigonometriske-funksjoner', '## Radianer
+
+En vinkel på **1 radian** er vinkelen der **buen** er like lang som **radien**. Generelt er vinkelen i radianer
+
+**θ = bue/radius**
+
+En hel sirkel har buelengde 2πr, så **360° = 2π**, og **180° = π**. Noen viktige vinkler:
+
+- 90° = π/2
+- 60° = π/3
+- 45° = π/4
+- 30° = π/6
+
+1 radian er omtrent **57,3°**.
+
+**Buelengde**: s = rθ. **Sektorareal**: A = ½r²θ – begge med θ i radianer.
+
+## Enhetssirkelen
+
+Et punkt på **enhetssirkelen** (radius 1) med vinkel v har koordinatene **(cos v, sin v)**, og **tan v = sin v/cos v**.
+
+Eksakte verdier:
+
+- sin(π/6) = ½ og cos(π/6) = √3/2
+- sin(π/4) = cos(π/4) = √2/2
+- sin(π/3) = √3/2 og cos(π/3) = ½
+
+## Grafene
+
+- **sin x** og **cos x** har **periode 2π** og verdier mellom **−1 og 1**. Cosinusgrafen er sinusgrafen **forskjøvet** π/2 til venstre.
+- **tan x** har **periode π** og **vertikale asymptoter** der cos x = 0, altså x = π/2 + nπ.
+
+## Sinusfunksjoner
+
+Mange periodiske fenomener kan modelleres med
+
+**f(x) = A sin(cx + φ) + d**
+
+- **Amplitude** |A|: halve forskjellen mellom største og minste verdi
+- **Likevektslinje** y = d: midt mellom største og minste verdi
+- **Periode** p = **2π/c**
+- **Faseforskyvning**: grafen er forskjøvet −φ/c langs x-aksen
+
+**Eksempel**: f(x) = 3 sin(2x) + 1 har amplitude **3**, likevektslinje y = 1, periode **π**, største verdi **4** og minste verdi **−2**.
+
+## Derivasjon
+
+- **(sin x)′ = cos x**
+- **(cos x)′ = −sin x**
+- **(tan x)′ = 1/cos²x = 1 + tan²x**
+
+Med kjerneregelen: (sin(cx + φ))′ = c · cos(cx + φ).
+
+## Hvorfor radianer?
+
+Formlene for de deriverte bygger på grenseverdien
+
+**lim (x → 0) sin x / x = 1**
+
+Den gjelder bare når x er i **radianer**. Måler vi i grader, får vi en ekstra faktor π/180 i alle deriverte. Derfor bruker vi **alltid** radianer i analyse.
+
+## Praktisk eksempel: tidevann
+
+Vannstanden i en havn modelleres med
+
+h(t) = 1,5 sin(0,506t) + 2, h i meter og t i timer.
+
+- **Periode**: 2π/0,506 ≈ **12,4 timer** – omtrent to flo og to fjære i døgnet.
+- **Høyvann**: 3,5 m. **Lavvann**: 0,5 m.
+- **Vekstfart**: h′(t) = 1,5 · 0,506 · cos(0,506t). Vannet stiger **raskest** – omtrent **0,76 m per time** – når det passerer **likevektslinjen**.
+
+Andre eksempler er **dagslengde** gjennom året, **temperatur**, **lyd**, **vekselstrøm** og **svingninger** i fjærer.
+
+## Regresjon
+
+Med **sinusregresjon** i GeoGebra kan du tilpasse en slik modell til **måledata**. Tolk parameterne: Amplituden og perioden bør gi mening i situasjonen.', '{"label":"Trigonometriske funksjoner","children":[{"label":"Radianer","children":[{"label":"θ = bue/radius"},{"label":"180° = π"},{"label":"Buelengde og sektor"}]},{"label":"Enhetssirkelen","children":[{"label":"(cos v, sin v)"},{"label":"Eksakte verdier"}]},{"label":"Grafer","children":[{"label":"sin og cos: periode 2π"},{"label":"tan: periode π"}]},{"label":"A sin(cx + φ) + d","children":[{"label":"Amplitude"},{"label":"Periode 2π/c"},{"label":"Likevektslinje"}]},{"label":"Derivasjon og bruk","children":[{"label":"sin′ = cos, cos′ = −sin"},{"label":"Tidevann og dagslengde"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-r2:radianer-og-trigonometriske-funksjoner';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-r2:radianer-og-trigonometriske-funksjoner', '1 radian', 'Vinkelen der buen er like lang som radien – omtrent 57,3°.', 0),
+  ('matematikk-r2:radianer-og-trigonometriske-funksjoner', '180°', 'π radianer.', 1),
+  ('matematikk-r2:radianer-og-trigonometriske-funksjoner', 'Buelengde', 's = rθ', 2),
+  ('matematikk-r2:radianer-og-trigonometriske-funksjoner', 'Sektorareal', 'A = ½r²θ', 3),
+  ('matematikk-r2:radianer-og-trigonometriske-funksjoner', 'Enhetssirkelen', 'Punktet med vinkel v har koordinatene (cos v, sin v).', 4),
+  ('matematikk-r2:radianer-og-trigonometriske-funksjoner', 'sin(π/6)', '½', 5),
+  ('matematikk-r2:radianer-og-trigonometriske-funksjoner', 'cos(π/6)', '√3/2', 6),
+  ('matematikk-r2:radianer-og-trigonometriske-funksjoner', 'sin(π/4)', '√2/2', 7),
+  ('matematikk-r2:radianer-og-trigonometriske-funksjoner', 'Periode til tan x', 'π', 8),
+  ('matematikk-r2:radianer-og-trigonometriske-funksjoner', 'Amplitude', '|A| – halve forskjellen mellom største og minste verdi.', 9),
+  ('matematikk-r2:radianer-og-trigonometriske-funksjoner', 'Periode til A sin(cx + φ) + d', '2π/c', 10),
+  ('matematikk-r2:radianer-og-trigonometriske-funksjoner', 'Likevektslinje', 'y = d', 11),
+  ('matematikk-r2:radianer-og-trigonometriske-funksjoner', '(sin x)′', 'cos x', 12),
+  ('matematikk-r2:radianer-og-trigonometriske-funksjoner', '(cos x)′', '−sin x', 13),
+  ('matematikk-r2:radianer-og-trigonometriske-funksjoner', '(tan x)′', '1/cos²x = 1 + tan²x', 14),
+  ('matematikk-r2:radianer-og-trigonometriske-funksjoner', 'Viktig grenseverdi', 'lim sin x / x = 1 når x → 0, i radianer.', 15);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-r2:radianer-og-trigonometriske-funksjoner';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-r2:radianer-og-trigonometriske-funksjoner', 'q01', 'flervalg', 'Hva er 180° i radianer?', array['π/2', 'π', '2π', '180']::text[], 1, 'En halv sirkel.', true, true, 0),
+  ('matematikk-r2:radianer-og-trigonometriske-funksjoner', 'q02', 'flervalg', 'Hva er perioden til f(x) = 3 sin(2x) + 1?', array['π', '2π', '3', 'π/2']::text[], 0, '2π/2.', true, true, 1),
+  ('matematikk-r2:radianer-og-trigonometriske-funksjoner', 'q03', 'flervalg', 'Hva er amplituden til f(x) = 3 sin(2x) + 1?', array['1', '2', '3', '4']::text[], 2, '|A| = 3.', true, true, 2),
+  ('matematikk-r2:radianer-og-trigonometriske-funksjoner', 'q04', 'flervalg', 'Hva er største verdi til f(x) = 3 sin(2x) + 1?', array['3', '1', '2', '4']::text[], 3, 'd + |A|.', true, true, 3),
+  ('matematikk-r2:radianer-og-trigonometriske-funksjoner', 'q05', 'flervalg', 'Hva er (sin x)′?', array['cos x', '−cos x', 'sin x', '−sin x']::text[], 0, 'Gjelder med x i radianer.', true, true, 4),
+  ('matematikk-r2:radianer-og-trigonometriske-funksjoner', 'q06', 'flervalg', 'Hva er den deriverte av cos(3x)?', array['3 sin(3x)', '−3 sin(3x)', '−sin(3x)', 'sin(3x)/3']::text[], 1, 'Kjerneregelen.', true, true, 5),
+  ('matematikk-r2:radianer-og-trigonometriske-funksjoner', 'q07', 'flervalg', 'Hva er buelengden når r = 2 og θ = π/3?', array['π/6', 'π/3', '2π/3', '2π']::text[], 2, 's = rθ.', true, true, 6),
+  ('matematikk-r2:radianer-og-trigonometriske-funksjoner', 'q08', 'flervalg', 'Hva er sin(π/6)?', array['√3/2', '√2/2', '1', '½']::text[], 3, 'Eksakt verdi.', true, true, 7),
+  ('matematikk-r2:radianer-og-trigonometriske-funksjoner', 'q09', 'flervalg', 'Hvorfor bruker vi radianer når vi deriverer?', array['Fordi lim sin x / x = 1 bare gjelder i radianer', 'Fordi grader er ulovlig', 'Fordi π er lettere å skrive', 'Det er tilfeldig']::text[], 0, 'Ellers får vi faktoren π/180.', true, false, 8),
+  ('matematikk-r2:radianer-og-trigonometriske-funksjoner', 'q10', 'flervalg', 'Hva er 60° i radianer?', array['π/6', 'π/3', 'π/4', '2π/3']::text[], 1, '60/180 · π.', true, false, 9),
+  ('matematikk-r2:radianer-og-trigonometriske-funksjoner', 'm01', 'sant-usant', '1 radian er omtrent 57,3°.', array['Sant', 'Usant']::text[], 0, '180/π.', false, true, 10),
+  ('matematikk-r2:radianer-og-trigonometriske-funksjoner', 'm02', 'sant-usant', 'tan x har periode 2π.', array['Sant', 'Usant']::text[], 1, 'Perioden er π.', false, true, 11),
+  ('matematikk-r2:radianer-og-trigonometriske-funksjoner', 'm03', 'sant-usant', '(tan x)′ = 1 + tan²x.', array['Sant', 'Usant']::text[], 0, 'Det er det samme som 1/cos²x.', false, true, 12),
+  ('matematikk-r2:radianer-og-trigonometriske-funksjoner', 'm04', 'sant-usant', 'sin x kan ha verdien 2.', array['Sant', 'Usant']::text[], 1, 'Verdiene ligger mellom −1 og 1.', false, true, 13),
+  ('matematikk-r2:radianer-og-trigonometriske-funksjoner', 'm05', 'flervalg', 'Hva er likevektslinjen til f(x) = 2 cos x − 3?', array['y = 2', 'y = −3', 'y = 3', 'y = −1']::text[], 1, 'y = d.', false, true, 14),
+  ('matematikk-r2:radianer-og-trigonometriske-funksjoner', 'm06', 'flervalg', 'Hva er sektorarealet når r = 3 og θ = 2?', array['9', '6', '18', '3']::text[], 0, '½ · 9 · 2.', false, true, 15),
+  ('matematikk-r2:radianer-og-trigonometriske-funksjoner', 'm07', 'flervalg', 'Hva er cos(π/3)?', array['√3/2', '0', '½', '1']::text[], 2, 'Eksakt verdi.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-r2:radianer-og-trigonometriske-funksjoner', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk R2: Trigonometriske identiteter og likninger
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-r2:trigonometriske-likninger-og-identiteter', 'matematikk-r2', 'trigonometriske-likninger-og-identiteter', 'Trigonometriske identiteter og likninger', 'De viktigste trigonometriske identitetene – Pytagoras, symmetri, summeformler og dobbel vinkel – hvordan du beviser identiteter, løser grunnlikninger og andregradslikninger i sinus og cosinus, skriver a sin x + b cos x som én sinusfunksjon og bruker dette i praktiske problemer.', array[11]::int[], 13, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-r2:trigonometriske-likninger-og-identiteter', '## Grunnleggende identiteter
+
+En **identitet** er en likhet som gjelder for **alle** x der uttrykkene er definert.
+
+- **sin²x + cos²x = 1** – følger av Pytagoras i enhetssirkelen
+- **tan x = sin x / cos x**
+- **Symmetri**: sin(−x) = −sin x, cos(−x) = cos x, sin(π − x) = sin x
+
+## Summeformler og dobbel vinkel
+
+- **sin(u + v) = sin u cos v + cos u sin v**
+- **cos(u + v) = cos u cos v − sin u sin v**
+
+Med u = v får vi formlene for **dobbel vinkel**:
+
+- **sin 2x = 2 sin x cos x**
+- **cos 2x = cos²x − sin²x = 1 − 2sin²x = 2cos²x − 1**
+
+## Bevise identiteter
+
+Start med den **ene** siden og omform den til den andre. **Eksempel**:
+
+(sin x + cos x)² = sin²x + 2 sin x cos x + cos²x = 1 + sin 2x
+
+## Grunnlikninger
+
+**sin x = a** har vanligvis **to** løsninger per periode, fordi sin(π − x) = sin x:
+
+sin x = ½ gir **x = π/6 + n · 2π** eller **x = 5π/6 + n · 2π**
+
+**cos x = a** har løsningene **x = ±arccos a + n · 2π**. For eksempel gir cos x = ½ at x = ±π/3 + n · 2π.
+
+**tan x = a** har løsningene **x = arctan a + n · π**. tan x = 1 gir x = π/4 + nπ.
+
+Her er n et **helt tall**. Til slutt velger du løsningene som ligger i det oppgitte **intervallet**.
+
+## Likninger med kjerne
+
+sin 2x = √3/2 for x i [0, π]: 2x = π/3 eller 2x = 2π/3 (pluss n · 2π). Det gir **x = π/6** og **x = π/3**. Husk å **dele perioden** også: Løsningene gjentar seg med periode π.
+
+## Andregradslikninger
+
+Sett u = sin x og løs som en vanlig andregradslikning:
+
+2sin²x − sin x − 1 = 0 gir (2 sin x + 1)(sin x − 1) = 0
+
+sin x = 1 gir x = π/2, og sin x = −½ gir x = 7π/6 og x = 11π/6 i [0, 2π).
+
+Identitetene brukes for å få **én** trigonometrisk funksjon. Likningen cos 2x + sin x = 0 blir med cos 2x = 1 − 2sin²x akkurat likningen over.
+
+## a sin x + b cos x
+
+En sum av sinus og cosinus med samme periode kan skrives som **én** sinusfunksjon:
+
+**a sin x + b cos x = A sin(x + φ)**, der **A = √(a² + b²)**, cos φ = a/A og sin φ = b/A.
+
+**Eksempel**: sin x + √3 cos x har A = √(1 + 3) = 2, cos φ = ½ og sin φ = √3/2, så φ = π/3:
+
+sin x + √3 cos x = **2 sin(x + π/3)**
+
+Da ser vi straks at største verdi er **2**.
+
+## Praktisk bruk
+
+Med tidevannsmodellen h(t) = 1,5 sin(0,506t) + 2 kan vi finne når vannstanden er over 3 m: Løs 1,5 sin(0,506t) + 2 = 3, altså sin(0,506t) = 2/3, og tolk løsningene i tid.
+
+## Tips
+
+- Tegn **enhetssirkelen** for å se hvor mange løsninger det er.
+- **Kontroller** løsningene ved innsetting eller grafisk.
+- Ikke **del** på sin x eller cos x uten å sjekke om de kan være 0 – da mister du løsninger. **Faktoriser** i stedet.', '{"label":"Identiteter og likninger","children":[{"label":"Identiteter","children":[{"label":"sin² + cos² = 1"},{"label":"Symmetri"},{"label":"Summeformler"},{"label":"Dobbel vinkel"}]},{"label":"Grunnlikninger","children":[{"label":"sin x = a"},{"label":"cos x = a"},{"label":"tan x = a"}]},{"label":"Mer avanserte","children":[{"label":"Kjerne som 2x"},{"label":"Andregrad"}]},{"label":"Omforming","children":[{"label":"a sin x + b cos x = A sin(x + φ)"}]},{"label":"Tips","children":[{"label":"Enhetssirkelen"},{"label":"Faktoriser, ikke del"},{"label":"Kontroller løsninger"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-r2:trigonometriske-likninger-og-identiteter';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-r2:trigonometriske-likninger-og-identiteter', 'Identitet', 'Likhet som gjelder for alle x der den er definert.', 0),
+  ('matematikk-r2:trigonometriske-likninger-og-identiteter', 'Enhetsformelen', 'sin²x + cos²x = 1', 1),
+  ('matematikk-r2:trigonometriske-likninger-og-identiteter', 'tan x', 'sin x / cos x', 2),
+  ('matematikk-r2:trigonometriske-likninger-og-identiteter', 'sin(π − x)', 'sin x', 3),
+  ('matematikk-r2:trigonometriske-likninger-og-identiteter', 'cos(−x)', 'cos x', 4),
+  ('matematikk-r2:trigonometriske-likninger-og-identiteter', 'sin(u + v)', 'sin u cos v + cos u sin v', 5),
+  ('matematikk-r2:trigonometriske-likninger-og-identiteter', 'cos(u + v)', 'cos u cos v − sin u sin v', 6),
+  ('matematikk-r2:trigonometriske-likninger-og-identiteter', 'sin 2x', '2 sin x cos x', 7),
+  ('matematikk-r2:trigonometriske-likninger-og-identiteter', 'cos 2x', 'cos²x − sin²x = 1 − 2sin²x = 2cos²x − 1', 8),
+  ('matematikk-r2:trigonometriske-likninger-og-identiteter', 'sin x = a', 'To løsninger per periode: v og π − v.', 9),
+  ('matematikk-r2:trigonometriske-likninger-og-identiteter', 'cos x = a', 'x = ±arccos a + n · 2π', 10),
+  ('matematikk-r2:trigonometriske-likninger-og-identiteter', 'tan x = a', 'x = arctan a + n · π', 11),
+  ('matematikk-r2:trigonometriske-likninger-og-identiteter', 'a sin x + b cos x', 'A sin(x + φ) med A = √(a² + b²).', 12),
+  ('matematikk-r2:trigonometriske-likninger-og-identiteter', 'Andregradslikning i sinus', 'Sett u = sin x og løs for u.', 13),
+  ('matematikk-r2:trigonometriske-likninger-og-identiteter', 'Ikke del på sin x', 'Du kan miste løsninger – faktoriser i stedet.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-r2:trigonometriske-likninger-og-identiteter';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-r2:trigonometriske-likninger-og-identiteter', 'q01', 'flervalg', 'Hva er sin²x + cos²x?', array['0', '1', 'sin 2x', 'tan x']::text[], 1, 'Pytagoras i enhetssirkelen.', true, true, 0),
+  ('matematikk-r2:trigonometriske-likninger-og-identiteter', 'q02', 'flervalg', 'Hva er løsningene av sin x = ½ i [0, 2π)?', array['π/6 og 5π/6', 'π/3 og 2π/3', 'π/6 og 7π/6', 'π/6']::text[], 0, 'sin(π − x) = sin x.', true, true, 1),
+  ('matematikk-r2:trigonometriske-likninger-og-identiteter', 'q03', 'flervalg', 'Hva er sin 2x?', array['2 sin x', 'sin²x', '2 sin x cos x', 'cos²x − sin²x']::text[], 2, 'Formelen for dobbel vinkel.', true, true, 2),
+  ('matematikk-r2:trigonometriske-likninger-og-identiteter', 'q04', 'flervalg', 'Hva er den generelle løsningen av tan x = 1?', array['x = π/4 + n · 2π', 'x = ±π/4 + n · 2π', 'x = π/2 + nπ', 'x = π/4 + nπ']::text[], 3, 'tan har periode π.', true, true, 3),
+  ('matematikk-r2:trigonometriske-likninger-og-identiteter', 'q05', 'flervalg', 'Hvilken av disse er lik cos 2x?', array['1 − 2sin²x', '2 sin x cos x', '1 + 2sin²x', 'cos²x + sin²x']::text[], 0, 'cos²x − sin²x med cos²x = 1 − sin²x.', true, true, 4),
+  ('matematikk-r2:trigonometriske-likninger-og-identiteter', 'q06', 'flervalg', 'Hva er største verdi til sin x + √3 cos x?', array['1 + √3', '2', '√3', '4']::text[], 1, 'Det er 2 sin(x + π/3).', true, true, 5),
+  ('matematikk-r2:trigonometriske-likninger-og-identiteter', 'q07', 'flervalg', 'Hva er den generelle løsningen av cos x = ½?', array['x = π/6 + n · 2π', 'x = π/3 + nπ', 'x = ±π/3 + n · 2π', 'x = π/3']::text[], 2, 'cos(−x) = cos x.', true, true, 6),
+  ('matematikk-r2:trigonometriske-likninger-og-identiteter', 'q08', 'flervalg', 'Hva er (sin x + cos x)²?', array['1', 'sin²x + cos²x', '1 + cos 2x', '1 + sin 2x']::text[], 3, 'Kvadratsetning og enhetsformelen.', true, true, 7),
+  ('matematikk-r2:trigonometriske-likninger-og-identiteter', 'q09', 'flervalg', 'Hvilke verdier av sin x løser 2sin²x − sin x − 1 = 0?', array['sin x = 1 eller sin x = −½', 'sin x = 2', 'sin x = ½ eller −1', 'sin x = 0']::text[], 0, '(2 sin x + 1)(sin x − 1) = 0.', true, false, 8),
+  ('matematikk-r2:trigonometriske-likninger-og-identiteter', 'q10', 'flervalg', 'Hva er cos(−x)?', array['−cos x', 'cos x', 'sin x', '−sin x']::text[], 1, 'Cosinus er symmetrisk om y-aksen.', true, false, 9),
+  ('matematikk-r2:trigonometriske-likninger-og-identiteter', 'm01', 'sant-usant', 'sin(π − x) = sin x.', array['Sant', 'Usant']::text[], 0, 'Derfor har sin x = a to løsninger per periode.', false, true, 10),
+  ('matematikk-r2:trigonometriske-likninger-og-identiteter', 'm02', 'sant-usant', 'sin(u + v) = sin u + sin v.', array['Sant', 'Usant']::text[], 1, 'sin(u + v) = sin u cos v + cos u sin v.', false, true, 11),
+  ('matematikk-r2:trigonometriske-likninger-og-identiteter', 'm03', 'sant-usant', 'Løsningene av tan x = a gjentar seg med perioden π.', array['Sant', 'Usant']::text[], 0, 'Perioden til tangens.', false, true, 12),
+  ('matematikk-r2:trigonometriske-likninger-og-identiteter', 'm04', 'sant-usant', 'Likningen sin x = 2 har to løsninger per periode.', array['Sant', 'Usant']::text[], 1, 'Den har ingen løsning – sin x ≤ 1.', false, true, 13),
+  ('matematikk-r2:trigonometriske-likninger-og-identiteter', 'm05', 'flervalg', 'Hva er cos(u + v)?', array['cos u cos v + sin u sin v', 'cos u cos v − sin u sin v', 'cos u + cos v', 'sin u cos v − cos u sin v']::text[], 1, 'Summeformelen for cosinus.', false, true, 14),
+  ('matematikk-r2:trigonometriske-likninger-og-identiteter', 'm06', 'flervalg', 'Hvor mange løsninger har sin x = 0,3 i [0, 2π)?', array['2', '1', '0', '4']::text[], 0, 'En i første og en i andre kvadrant.', false, true, 15),
+  ('matematikk-r2:trigonometriske-likninger-og-identiteter', 'm07', 'flervalg', 'Hva er løsningene av sin 2x = √3/2 i [0, π]?', array['π/3 og 2π/3', 'π/6', 'π/6 og π/3', 'π/3']::text[], 2, '2x = π/3 eller 2π/3.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-r2:trigonometriske-likninger-og-identiteter', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk R2: Matematiske bevis og induksjon
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-r2:bevis-og-induksjon', 'matematikk-r2', 'bevis-og-induksjon', 'Matematiske bevis og induksjon', 'Hva et matematisk bevis er, implikasjon og ekvivalens, nødvendige og tilstrekkelige vilkår, bevistypene direkte bevis, kontrapositivt bevis, motsigelsesbevis og induksjonsbevis, moteksempler, bærende idéer i kjente bevis og hvordan du skriver egne bevis.', array[12]::int[], 14, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-r2:bevis-og-induksjon', '## Hva er et bevis?
+
+Et **matematisk bevis** er en **logisk** argumentasjon som viser at en påstand er sann i **alle** tilfeller. Beviset bygger på **definisjoner**, **aksiomer** og tidligere beviste **setninger**. Å sjekke mange eksempler er **ikke** et bevis.
+
+## Logiske begreper
+
+- **Implikasjon** P ⇒ Q: Hvis P er sann, er Q sann.
+- **Ekvivalens** P ⇔ Q: P og Q er sanne i nøyaktig de samme tilfellene.
+
+x = 2 ⇒ x² = 4 er sann, men x² = 4 ⇒ x = 2 er **usann**, fordi x kan være −2.
+
+I P ⇒ Q er P et **tilstrekkelig** vilkår for Q, og Q er et **nødvendig** vilkår for P. Å være delelig med 4 er tilstrekkelig for å være et partall, men ikke nødvendig.
+
+## Direkte bevis
+
+Start med **antakelsen** og resonner deg fram til **konklusjonen**.
+
+**Påstand**: Summen av to oddetall er et partall.
+
+**Bevis**: Oddetallene kan skrives 2m + 1 og 2n + 1, der m og n er hele tall. Summen er 2m + 2n + 2 = 2(m + n + 1), som er et partall. ∎
+
+## Kontrapositivt bevis
+
+P ⇒ Q er **ekvivalent** med ikke Q ⇒ ikke P.
+
+**Påstand**: Hvis n² er et partall, er n et partall.
+
+**Bevis**: Vi viser det kontrapositive: Hvis n er et oddetall, er n² et oddetall. Med n = 2k + 1 er n² = 4k² + 4k + 1 = 2(2k² + 2k) + 1, som er et oddetall. ∎
+
+## Motsigelsesbevis
+
+Anta at påstanden er **usann**, og vis at det fører til en **motsigelse**.
+
+**Påstand**: √2 er irrasjonal.
+
+**Bevis**: Anta at √2 = p/q, der brøken er **forkortet** så langt som mulig. Da er 2q² = p², så p² er et partall, og dermed er p et partall: p = 2k. Da er 2q² = 4k², så q² = 2k², og q er også et partall. Men da kunne brøken forkortes med 2 – en motsigelse. ∎
+
+**Den bærende idéen** er at både p og q blir partall, selv om brøken var forkortet.
+
+**Euklid** beviste på samme måte at det finnes **uendelig mange primtall**.
+
+## Moteksempel
+
+For å vise at en **generell** påstand er **usann**, holder det med **ett** moteksempel. Påstanden «n² + n + 41 er et primtall for alle naturlige tall n» stemmer lenge, men for n = 40 får vi 1681 = 41 · 41.
+
+## Induksjonsbevis
+
+**Induksjon** brukes for påstander P(n) om alle naturlige tall n:
+
+1. **Basis**: Vis at P(1) er sann.
+2. **Induksjonstrinn**: Anta at P(k) er sann – **induksjonsantakelsen** – og vis at da er P(k + 1) sann.
+
+Da er P(n) sann for alle n – som en rekke dominobrikker.
+
+**Påstand**: 1 + 3 + 5 + … + (2n − 1) = n².
+
+**Basis**: n = 1 gir 1 = 1².
+
+**Trinn**: Anta 1 + 3 + … + (2k − 1) = k². Da er
+
+1 + 3 + … + (2k − 1) + (2k + 1) = k² + 2k + 1 = (k + 1)² ∎
+
+## Skrive egne bevis
+
+- Skriv **hva** du skal bevise, og hva du **antar**.
+- Bruk **definisjoner**: Et partall er 2k, et oddetall er 2k + 1.
+- Vis hvert steg, og bruk ⇒ og ⇔ **riktig**.
+- Avslutt med ∎ eller «som skulle vises».
+
+**Vanlige feil** er å bruke det man skal bevise som **forutsetning** (sirkelargument), å vise implikasjonen i **feil retning**, og å tro at noen eksempler er nok.', '{"label":"Bevis","children":[{"label":"Logikk","children":[{"label":"Implikasjon og ekvivalens"},{"label":"Nødvendig og tilstrekkelig"}]},{"label":"Bevistyper","children":[{"label":"Direkte"},{"label":"Kontrapositivt"},{"label":"Motsigelse"},{"label":"Induksjon"}]},{"label":"Motbevis","children":[{"label":"Moteksempel"}]},{"label":"Kjente bevis","children":[{"label":"√2 er irrasjonal"},{"label":"Uendelig mange primtall"}]},{"label":"Skrive bevis","children":[{"label":"Definisjoner"},{"label":"Bærende idé"},{"label":"Unngå sirkelargument"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-r2:bevis-og-induksjon';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-r2:bevis-og-induksjon', 'Matematisk bevis', 'Logisk argumentasjon som viser at en påstand gjelder i alle tilfeller.', 0),
+  ('matematikk-r2:bevis-og-induksjon', 'Implikasjon P ⇒ Q', 'Hvis P er sann, er Q sann.', 1),
+  ('matematikk-r2:bevis-og-induksjon', 'Ekvivalens P ⇔ Q', 'P og Q er sanne i nøyaktig de samme tilfellene.', 2),
+  ('matematikk-r2:bevis-og-induksjon', 'Tilstrekkelig vilkår', 'P i P ⇒ Q.', 3),
+  ('matematikk-r2:bevis-og-induksjon', 'Nødvendig vilkår', 'Q i P ⇒ Q.', 4),
+  ('matematikk-r2:bevis-og-induksjon', 'Direkte bevis', 'Fra antakelse til konklusjon steg for steg.', 5),
+  ('matematikk-r2:bevis-og-induksjon', 'Kontrapositivt bevis', 'Viser ikke Q ⇒ ikke P i stedet for P ⇒ Q.', 6),
+  ('matematikk-r2:bevis-og-induksjon', 'Motsigelsesbevis', 'Anta det motsatte og vis at det gir en motsigelse.', 7),
+  ('matematikk-r2:bevis-og-induksjon', 'Moteksempel', 'Ett tilfelle som viser at en generell påstand er usann.', 8),
+  ('matematikk-r2:bevis-og-induksjon', 'Induksjonsbevis', 'Basis og induksjonstrinn for alle naturlige tall.', 9),
+  ('matematikk-r2:bevis-og-induksjon', 'Induksjonsantakelse', 'Antakelsen om at P(k) er sann.', 10),
+  ('matematikk-r2:bevis-og-induksjon', 'Partall og oddetall', '2k og 2k + 1.', 11),
+  ('matematikk-r2:bevis-og-induksjon', '√2 er irrasjonal', 'Klassisk motsigelsesbevis.', 12),
+  ('matematikk-r2:bevis-og-induksjon', 'Euklids setning', 'Det finnes uendelig mange primtall.', 13),
+  ('matematikk-r2:bevis-og-induksjon', 'Sirkelargument', 'Å bruke det man skal bevise som forutsetning.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-r2:bevis-og-induksjon';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-r2:bevis-og-induksjon', 'q01', 'flervalg', 'Hvordan viser du at en generell påstand er usann?', array['Med et induksjonsbevis', 'Med ett moteksempel', 'Med mange eksempler der den stemmer', 'Det kan ikke vises']::text[], 1, 'Ett tilfelle holder.', true, true, 0),
+  ('matematikk-r2:bevis-og-induksjon', 'q02', 'flervalg', 'Hva er første steg i et induksjonsbevis?', array['Basis – vis at P(1) er sann', 'Anta at P(k) er sann', 'Finn et moteksempel', 'Anta det motsatte']::text[], 0, 'Deretter kommer induksjonstrinnet.', true, true, 1),
+  ('matematikk-r2:bevis-og-induksjon', 'q03', 'flervalg', 'Hva er det kontrapositive av P ⇒ Q?', array['Q ⇒ P', 'P ⇔ Q', 'Ikke Q ⇒ ikke P', 'Ikke P ⇒ ikke Q']::text[], 2, 'Det er ekvivalent med P ⇒ Q.', true, true, 2),
+  ('matematikk-r2:bevis-og-induksjon', 'q04', 'flervalg', 'Hva gjør du i et motsigelsesbevis?', array['Sjekker eksempler', 'Viser basis og trinn', 'Viser Q ⇒ P', 'Antar det motsatte og viser at det gir en motsigelse']::text[], 3, 'Som i beviset for at √2 er irrasjonal.', true, true, 3),
+  ('matematikk-r2:bevis-og-induksjon', 'q05', 'flervalg', 'Hva viser 2m + 1 + 2n + 1 = 2(m + n + 1)?', array['At summen av to oddetall er et partall', 'At alle tall er partall', 'At √2 er irrasjonal', 'At det finnes uendelig mange primtall']::text[], 0, 'Et direkte bevis.', true, true, 4),
+  ('matematikk-r2:bevis-og-induksjon', 'q06', 'flervalg', 'For hvilken n er n² + n + 41 ikke et primtall?', array['n = 1', 'n = 40', 'n = 10', 'n = 5']::text[], 1, '1681 = 41 · 41.', true, true, 5),
+  ('matematikk-r2:bevis-og-induksjon', 'q07', 'flervalg', 'Hva gjør du i induksjonstrinnet?', array['Viser P(1)', 'Sjekker mange tall', 'Antar P(k) og viser P(k + 1)', 'Antar P(k + 1) og viser P(k)']::text[], 2, 'Som dominobrikker.', true, true, 6),
+  ('matematikk-r2:bevis-og-induksjon', 'q08', 'flervalg', 'Hvorfor er ikke mange eksempler et bevis?', array['Fordi eksempler alltid er feil', 'Fordi det tar for lang tid', 'Fordi eksempler er ulovlige', 'Fordi de ikke dekker alle tilfeller']::text[], 3, 'Et bevis må gjelde generelt.', true, true, 7),
+  ('matematikk-r2:bevis-og-induksjon', 'q09', 'flervalg', 'Hva er 1 + 3 + 5 + … + (2n − 1)?', array['n²', '2n', 'n(n + 1)/2', '2n²']::text[], 0, 'Kan vises med induksjon.', true, false, 8),
+  ('matematikk-r2:bevis-og-induksjon', 'q10', 'flervalg', 'Hvilket utsagn er riktig?', array['x² = 4 ⇒ x = 2', 'x = 2 ⇒ x² = 4', 'x = 2 ⇔ x² = 4', 'x² = 4 ⇔ x = −2']::text[], 1, 'x kan også være −2.', true, false, 9),
+  ('matematikk-r2:bevis-og-induksjon', 'm01', 'sant-usant', 'Euklid beviste at det finnes uendelig mange primtall.', array['Sant', 'Usant']::text[], 0, 'Med et motsigelsesbevis.', false, true, 10),
+  ('matematikk-r2:bevis-og-induksjon', 'm02', 'sant-usant', 'Hvis P ⇒ Q er sann, er Q ⇒ P alltid sann.', array['Sant', 'Usant']::text[], 1, 'Den omvendte implikasjonen trenger ikke gjelde.', false, true, 11),
+  ('matematikk-r2:bevis-og-induksjon', 'm03', 'sant-usant', 'Et induksjonsbevis trenger både basis og induksjonstrinn.', array['Sant', 'Usant']::text[], 0, 'Ellers faller dominobrikkene ikke.', false, true, 12),
+  ('matematikk-r2:bevis-og-induksjon', 'm04', 'sant-usant', 'Å vise at en påstand stemmer for de 1000 første tallene, er et bevis for alle tall.', array['Sant', 'Usant']::text[], 1, 'Det kan finnes et moteksempel senere.', false, true, 13),
+  ('matematikk-r2:bevis-og-induksjon', 'm05', 'flervalg', 'Hvilken bevistype brukes vanligvis for at √2 er irrasjonal?', array['Induksjon', 'Motsigelse', 'Moteksempel', 'Direkte bevis med eksempler']::text[], 1, 'Anta at √2 = p/q.', false, true, 14),
+  ('matematikk-r2:bevis-og-induksjon', 'm06', 'flervalg', 'Å være delelig med 4 er … for å være et partall.', array['tilstrekkelig', 'nødvendig', 'både nødvendig og tilstrekkelig', 'verken nødvendig eller tilstrekkelig']::text[], 0, '6 er partall uten å være delelig med 4.', false, true, 15),
+  ('matematikk-r2:bevis-og-induksjon', 'm07', 'flervalg', 'Hvordan skrives et vilkårlig oddetall?', array['2k', 'k + 1', '2k + 1', 'k²']::text[], 2, 'k er et helt tall.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-r2:bevis-og-induksjon', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk S2 (vg3): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'matematikk-s2' and slug not in ('rekker-og-okonomi', 'rekursjon-og-programmering', 'det-bestemte-integralet', 'fundamentalteoremet-og-integrasjon', 'funksjonsanalyse-med-integrasjon', 'eksponentiell-og-logistisk-vekst', 'grensekostnad-og-grenseinntekt', 'forventning-varians-og-standardavvik', 'diskrete-fordelinger-og-simulering', 'normalfordelingen', 'sentralgrensesetningen', 'hypotesetesting', 'gjennomsnitt-og-konfidensintervall');
+
+-- Matematikk S2: Rekker og økonomiske anvendelser
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-s2:rekker-og-okonomi', 'matematikk-s2', 'rekker-og-okonomi', 'Rekker og økonomiske anvendelser', 'Aritmetiske og geometriske rekker med sumformler, uendelige geometriske rekker og konvergens, og hvordan rekker brukes i økonomi – sparing, nåverdi, annuitetslån, evigvarende utbetalinger og multiplikatoreffekten.', array[1]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-s2:rekker-og-okonomi', '## Følger og rekker
+
+En **følge** er en liste med tall, og en **rekke** er **summen** av tallene. Sₙ er summen av de n første leddene.
+
+## Aritmetiske rekker
+
+Hver gang legger vi til den samme **differansen** d.
+
+- **aₙ = a₁ + (n − 1)d**
+- **Sₙ = n(a₁ + aₙ)/2**
+
+Eksempel: 1 + 2 + 3 + … + 100 = 100 · 101/2 = **5050**.
+
+## Geometriske rekker
+
+Hver gang ganger vi med den samme **kvotienten** k.
+
+- **aₙ = a₁ · kⁿ⁻¹**
+- **Sₙ = a₁(kⁿ − 1)/(k − 1)**
+
+Geometriske rekker dukker opp overalt der vi har **prosentvis** endring, for eksempel **renter**.
+
+## Uendelige geometriske rekker
+
+Hvis **−1 < k < 1**, blir leddene mindre og mindre, og rekken **konvergerer** mot
+
+**S = a₁/(1 − k)**
+
+Eksempel: 100 + 50 + 25 + … = 100/(1 − 0,5) = **200**. Er |k| ≥ 1, **divergerer** rekken.
+
+## Sparing
+
+Du setter inn 1000 kr i slutten av hvert år i 5 år med 10 % rente. Rett etter siste innskudd er sluttverdien
+
+1000 + 1000 · 1,1 + 1000 · 1,1² + 1000 · 1,1³ + 1000 · 1,1⁴ = 1000(1,1⁵ − 1)/0,1 ≈ **6105 kr**
+
+## Nåverdi
+
+Penger i dag er mer verdt enn penger i framtiden, fordi de kan **forrente** seg. **Nåverdien** av et beløp K som kommer om n år, med rente r, er
+
+**K/(1 + r)ⁿ**
+
+10 000 kr om 2 år har ved 5 % rente nåverdien 10 000/1,05² ≈ **9070 kr**.
+
+## Annuitetslån
+
+I et **annuitetslån** er alle **terminbeløpene** like store. Lånebeløpet er lik **summen av nåverdiene** av terminbeløpene:
+
+L = b/(1 + r) + b/(1 + r)² + … + b/(1 + r)ⁿ
+
+Dette er en geometrisk rekke. Løser vi for b, får vi
+
+**b = L · r/(1 − (1 + r)⁻ⁿ)**
+
+Et lån på 500 000 kr med 5 % rente over 10 år gir et årlig terminbeløp på omtrent **64 752 kr**.
+
+## Evigvarende utbetalinger
+
+Et **legat** skal betale ut b kroner hvert år for **alltid**. Nåverdien er en uendelig geometrisk rekke med kvotient 1/(1 + r), og summen blir
+
+**b/r**
+
+Skal legatet betale 10 000 kr i året ved 4 % rente, må det være på **250 000 kr**.
+
+## Multiplikatoreffekten
+
+I **samfunnsøkonomi** fører økt etterspørsel til ringvirkninger. Hvis folk bruker en andel c av hver ekstra krone, gir 1 krone i økt etterspørsel en samlet økning på
+
+1 + c + c² + … = **1/(1 − c)**
+
+Med c = 0,8 blir **multiplikatoren** 5.
+
+## Arbeidsmåte
+
+Bruk **regneark** eller **CAS** til å regne ut summer og sammenligne med formlene. Tegn gjerne en **tidslinje** som viser når beløpene betales, og regn alt om til **samme tidspunkt** før du summerer.', '{"label":"Rekker og økonomi","children":[{"label":"Aritmetisk","children":[{"label":"Differanse d"},{"label":"Sₙ = n(a₁ + aₙ)/2"}]},{"label":"Geometrisk","children":[{"label":"Kvotient k"},{"label":"Uendelig: a₁/(1 − k)"}]},{"label":"Sparing og nåverdi","children":[{"label":"Sluttverdi"},{"label":"K/(1 + r)ⁿ"}]},{"label":"Lån","children":[{"label":"Annuitetslån"},{"label":"Serielån"}]},{"label":"Samfunnsøkonomi","children":[{"label":"Evigvarende utbetaling b/r"},{"label":"Multiplikator 1/(1 − c)"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-s2:rekker-og-okonomi';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-s2:rekker-og-okonomi', 'Rekke', 'Summen av leddene i en følge.', 0),
+  ('matematikk-s2:rekker-og-okonomi', 'Aritmetisk rekke', 'Konstant differanse d.', 1),
+  ('matematikk-s2:rekker-og-okonomi', 'Sₙ aritmetisk', 'n(a₁ + aₙ)/2', 2),
+  ('matematikk-s2:rekker-og-okonomi', 'Geometrisk rekke', 'Konstant kvotient k.', 3),
+  ('matematikk-s2:rekker-og-okonomi', 'Sₙ geometrisk', 'a₁(kⁿ − 1)/(k − 1)', 4),
+  ('matematikk-s2:rekker-og-okonomi', 'Konvergens', 'Uendelig geometrisk rekke med −1 < k < 1.', 5),
+  ('matematikk-s2:rekker-og-okonomi', 'Sum av uendelig rekke', 'a₁/(1 − k)', 6),
+  ('matematikk-s2:rekker-og-okonomi', 'Sluttverdi ved sparing', 'Summen av innskuddene med renter fram til et tidspunkt.', 7),
+  ('matematikk-s2:rekker-og-okonomi', 'Nåverdi', 'K/(1 + r)ⁿ – hva et framtidig beløp er verdt i dag.', 8),
+  ('matematikk-s2:rekker-og-okonomi', 'Annuitetslån', 'Lån med like store terminbeløp.', 9),
+  ('matematikk-s2:rekker-og-okonomi', 'Terminbeløp i annuitetslån', 'b = L · r/(1 − (1 + r)⁻ⁿ)', 10),
+  ('matematikk-s2:rekker-og-okonomi', 'Serielån', 'Lån med like store avdrag og synkende terminbeløp.', 11),
+  ('matematikk-s2:rekker-og-okonomi', 'Evigvarende utbetaling', 'Nåverdi b/r.', 12),
+  ('matematikk-s2:rekker-og-okonomi', 'Multiplikator', '1/(1 − c), der c er andelen som brukes.', 13),
+  ('matematikk-s2:rekker-og-okonomi', 'Tidslinje', 'Hjelpemiddel for å se når beløpene betales.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-s2:rekker-og-okonomi';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-s2:rekker-og-okonomi', 'q01', 'flervalg', 'Hva er differansen i rekken 7 + 12 + 17 + …?', array['7', '5', '12', '17']::text[], 1, '12 − 7 = 5.', true, true, 0),
+  ('matematikk-s2:rekker-og-okonomi', 'q02', 'flervalg', 'Hva er 1 + 2 + 3 + … + 100?', array['5050', '10 000', '5000', '10 100']::text[], 0, '100 · 101/2.', true, true, 1),
+  ('matematikk-s2:rekker-og-okonomi', 'q03', 'flervalg', 'Hva er kvotienten i en spareserie med 5 % rente?', array['0,05', '5', '1,05', '0,95']::text[], 2, 'Hvert beløp vokser med faktoren 1,05.', true, true, 2),
+  ('matematikk-s2:rekker-og-okonomi', 'q04', 'flervalg', 'Hva er nåverdien av 10 000 kr om 2 år ved 5 % rente?', array['9500 kr', '11 025 kr', '10 000 kr', 'Omtrent 9070 kr']::text[], 3, '10 000/1,05².', true, true, 3),
+  ('matematikk-s2:rekker-og-okonomi', 'q05', 'flervalg', 'Hva er summen av 100 + 50 + 25 + …?', array['200', '175', '150', 'Uendelig']::text[], 0, '100/(1 − 0,5).', true, true, 4),
+  ('matematikk-s2:rekker-og-okonomi', 'q06', 'flervalg', 'Hvor stort må et legat være for å betale ut 10 000 kr i året for alltid ved 4 % rente?', array['40 000 kr', '250 000 kr', '100 000 kr', '400 000 kr']::text[], 1, 'b/r = 10 000/0,04.', true, true, 5),
+  ('matematikk-s2:rekker-og-okonomi', 'q07', 'flervalg', 'Hva er multiplikatoren når folk bruker 80 % av hver ekstra krone?', array['0,8', '1,8', '5', '8']::text[], 2, '1/(1 − 0,8).', true, true, 6),
+  ('matematikk-s2:rekker-og-okonomi', 'q08', 'flervalg', 'Når konvergerer en uendelig geometrisk rekke?', array['Når k > 1', 'Når k = 1', 'Alltid', 'Når −1 < k < 1']::text[], 3, 'Da blir leddene mindre og mindre.', true, true, 7),
+  ('matematikk-s2:rekker-og-okonomi', 'q09', 'flervalg', 'Hva kjennetegner et annuitetslån?', array['Like store terminbeløp', 'Like store avdrag', 'Ingen renter', 'Økende terminbeløp']::text[], 0, 'Et serielån har like store avdrag.', true, false, 8),
+  ('matematikk-s2:rekker-og-okonomi', 'q10', 'flervalg', 'Hva er sluttverdien av 5 innskudd på 1000 kr med 10 % rente, rett etter siste innskudd?', array['5000 kr', 'Omtrent 6105 kr', '5500 kr', 'Omtrent 6716 kr']::text[], 1, '1000(1,1⁵ − 1)/0,1.', true, false, 9),
+  ('matematikk-s2:rekker-og-okonomi', 'm01', 'sant-usant', 'Penger i dag er mer verdt enn samme beløp om ti år.', array['Sant', 'Usant']::text[], 0, 'De kan forrente seg.', false, true, 10),
+  ('matematikk-s2:rekker-og-okonomi', 'm02', 'sant-usant', 'Rekken 1 + 1,1 + 1,21 + … konvergerer.', array['Sant', 'Usant']::text[], 1, 'k = 1,1 > 1.', false, true, 11),
+  ('matematikk-s2:rekker-og-okonomi', 'm03', 'sant-usant', 'Lånebeløpet i et annuitetslån er summen av nåverdiene av terminbeløpene.', array['Sant', 'Usant']::text[], 0, 'Derfor kan vi bruke en geometrisk rekke.', false, true, 12),
+  ('matematikk-s2:rekker-og-okonomi', 'm04', 'sant-usant', 'I et serielån er terminbeløpene like store hele tiden.', array['Sant', 'Usant']::text[], 1, 'Avdragene er like, så terminbeløpene synker.', false, true, 13),
+  ('matematikk-s2:rekker-og-okonomi', 'm05', 'flervalg', 'Hva er nåverdien av 1000 kr om 1 år ved 25 % rente?', array['750 kr', '800 kr', '1250 kr', '975 kr']::text[], 1, '1000/1,25.', false, true, 14),
+  ('matematikk-s2:rekker-og-okonomi', 'm06', 'flervalg', 'Hva er et godt første steg i en lån- eller spareoppgave?', array['Tegne en tidslinje', 'Regne ut uten renter', 'Gjette svaret', 'Bruke k = 1']::text[], 0, 'Da ser du når beløpene betales.', false, true, 15),
+  ('matematikk-s2:rekker-og-okonomi', 'm07', 'flervalg', 'Hva er summen av 20 + 18 + 16 + … + 2?', array['100', '90', '110', '120']::text[], 2, '10 ledd: 10(20 + 2)/2.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-s2:rekker-og-okonomi', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk S2: Rekursive sammenhenger og programmering
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-s2:rekursjon-og-programmering', 'matematikk-s2', 'rekursjon-og-programmering', 'Rekursive sammenhenger og programmering', 'Rekursive og eksplisitte formler, rekursive modeller for sparing, lån og bestander med høsting, likevektsverdier, og hvordan du bruker løkker, lister og plott i Python eller regneark til å utforske sammenhengene og presentere framgangsmåten.', array[2]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-s2:rekursjon-og-programmering', '## Rekursive formler
+
+En **rekursiv** formel sier hvordan vi finner **neste** ledd fra det **forrige**. Vi trenger også en **startverdi**.
+
+- Sparing: S₀ = 0 og **Sₙ = 1,003 · Sₙ₋₁ + 2000** – 0,3 % rente og 2000 kr innskudd hver måned
+- Lån: L₀ = 300 000 og **Lₙ = 1,04 · Lₙ₋₁ − 30 000**
+- Fiskebestand med fangst: P₀ = 6000 og **Pₙ = 1,1 · Pₙ₋₁ − 500**
+
+En **eksplisitt** formel gir leddet direkte, for eksempel aₙ = 3 · 2ⁿ. Rekursive formler er ofte **lettere** å sette opp fordi de beskriver hva som skjer **fra ett steg til det neste**.
+
+## Løkker i Python
+
+Med en **for-løkke** regner vi et bestemt antall steg:
+
+```python
+P = 6000
+for n in range(1, 11):
+    P = 1.1*P - 500
+    print(n, round(P))
+```
+
+Med en **while-løkke** regner vi til et vilkår er oppfylt. Hvor mange måneder tar det å spare 100 000 kr?
+
+```python
+S, n = 0, 0
+while S < 100000:
+    S = 1.003*S + 2000
+    n = n + 1
+print(n)
+```
+
+Programmet gir **47 måneder**.
+
+## Lister og plott
+
+Vi kan lagre leddene i en **liste** og tegne dem:
+
+```python
+import matplotlib.pyplot as plt
+P = [6000]
+for n in range(20):
+    P.append(1.1*P[-1] - 500)
+plt.plot(P, ''o'')
+plt.show()
+```
+
+I et **regneark** skriver du startverdien i én celle og formelen i cellen under, for eksempel =1,1*A1-500, og kopierer nedover.
+
+## Likevekt
+
+En **likevektsverdi** er en verdi som **ikke endrer seg**. For Pₙ = 1,1 · Pₙ₋₁ − 500 setter vi P = 1,1P − 500 og får **P = 5000**.
+
+- Starter bestanden **over** 5000, **vokser** den.
+- Starter den **under** 5000, **minker** den mot null.
+
+Likevekten er **ustabil**: Små avvik vokser. Slike analyser er viktige i **forvaltning** av fiskebestander.
+
+For en modell som Pₙ = 0,8 · Pₙ₋₁ + 200 er likevekten P = 1000, og den er **stabil**: Bestanden nærmer seg 1000 uansett startverdi.
+
+## Fra rekursiv til eksplisitt
+
+Noen rekursive modeller kan skrives eksplisitt ved hjelp av **geometriske rekker**. Sparemodellen gir
+
+Sₙ = 2000(1,003ⁿ − 1)/0,003
+
+Det er en god **kontroll** av programmet.
+
+## Presentere framgangsmåten
+
+En god presentasjon
+
+1. forklarer **situasjonen** og hva variablene betyr
+2. viser **startverdi** og **rekursjonsformel**
+3. viser **koden** med korte kommentarer
+4. viser resultatene i en **tabell** eller **graf**
+5. **tolker** resultatene og drøfter **forutsetningene** – er renten fast, er fangsten lik hvert år?
+
+## Hvorfor programmering?
+
+Med programmering kan vi raskt **endre** parametere og se hva som skjer: Hva om renten stiger? Hva om fangsten økes? Slik **utforsker** vi modellen i stedet for bare å regne ut ett svar.', '{"label":"Rekursjon","children":[{"label":"Formler","children":[{"label":"Rekursiv"},{"label":"Eksplisitt"}]},{"label":"Modeller","children":[{"label":"Sparing"},{"label":"Lån"},{"label":"Bestand med fangst"}]},{"label":"Programmering","children":[{"label":"for og while"},{"label":"Lister og plott"},{"label":"Regneark"}]},{"label":"Likevekt","children":[{"label":"Stabil"},{"label":"Ustabil"}]},{"label":"Presentasjon","children":[{"label":"Kode og graf"},{"label":"Forutsetninger"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-s2:rekursjon-og-programmering';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-s2:rekursjon-og-programmering', 'Rekursiv formel', 'Gir neste ledd ut fra forrige ledd.', 0),
+  ('matematikk-s2:rekursjon-og-programmering', 'Startverdi', 'Første verdi rekursjonen starter fra.', 1),
+  ('matematikk-s2:rekursjon-og-programmering', 'Eksplisitt formel', 'Gir leddet direkte fra n.', 2),
+  ('matematikk-s2:rekursjon-og-programmering', 'Rekursiv sparemodell', 'Sₙ = (1 + r)Sₙ₋₁ + innskudd', 3),
+  ('matematikk-s2:rekursjon-og-programmering', 'Rekursiv lånemodell', 'Lₙ = (1 + r)Lₙ₋₁ − innbetaling', 4),
+  ('matematikk-s2:rekursjon-og-programmering', 'Bestand med fangst', 'Pₙ = vekstfaktor · Pₙ₋₁ − fangst', 5),
+  ('matematikk-s2:rekursjon-og-programmering', 'for-løkke', 'Gjentar et bestemt antall ganger.', 6),
+  ('matematikk-s2:rekursjon-og-programmering', 'while-løkke', 'Gjentar så lenge et vilkår er oppfylt.', 7),
+  ('matematikk-s2:rekursjon-og-programmering', 'Liste', 'Lagrer alle leddene så de kan plottes.', 8),
+  ('matematikk-s2:rekursjon-og-programmering', 'append', 'Legger et nytt element til en liste i Python.', 9),
+  ('matematikk-s2:rekursjon-og-programmering', 'Likevektsverdi', 'Verdi som ikke endrer seg fra steg til steg.', 10),
+  ('matematikk-s2:rekursjon-og-programmering', 'Stabil likevekt', 'Følgen nærmer seg likevekten.', 11),
+  ('matematikk-s2:rekursjon-og-programmering', 'Ustabil likevekt', 'Små avvik vokser.', 12),
+  ('matematikk-s2:rekursjon-og-programmering', 'Regneark og rekursjon', 'Formel som viser til cellen over, kopieres nedover.', 13),
+  ('matematikk-s2:rekursjon-og-programmering', 'Utforsking', 'Endre parametere og se hvordan resultatet endres.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-s2:rekursjon-og-programmering';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-s2:rekursjon-og-programmering', 'q01', 'flervalg', 'Hva er P₁ når P₀ = 6000 og Pₙ = 1,1 · Pₙ₋₁ − 500?', array['6000', '6100', '6600', '5500']::text[], 1, '6600 − 500.', true, true, 0),
+  ('matematikk-s2:rekursjon-og-programmering', 'q02', 'flervalg', 'Hva er likevektsverdien for Pₙ = 1,1 · Pₙ₋₁ − 500?', array['5000', '500', '550', '6000']::text[], 0, 'P = 1,1P − 500 gir 0,1P = 500.', true, true, 1),
+  ('matematikk-s2:rekursjon-og-programmering', 'q03', 'flervalg', 'Hvilken løkke passer når du skal regne til sparingen passerer 100 000 kr?', array['for-løkke med 10 steg', 'Ingen løkke', 'while-løkke', 'En liste']::text[], 2, 'Vi vet ikke antall steg på forhånd.', true, true, 2),
+  ('matematikk-s2:rekursjon-og-programmering', 'q04', 'flervalg', 'Hva gjør append i Python?', array['Sletter en liste', 'Skriver ut en verdi', 'Tegner en graf', 'Legger til et element i en liste']::text[], 3, 'P.append(ny verdi).', true, true, 3),
+  ('matematikk-s2:rekursjon-og-programmering', 'q05', 'flervalg', 'Hva er likevekten for Pₙ = 0,8 · Pₙ₋₁ + 200?', array['1000', '200', '250', '800']::text[], 0, 'P = 0,8P + 200 gir 0,2P = 200.', true, true, 4),
+  ('matematikk-s2:rekursjon-og-programmering', 'q06', 'flervalg', 'Hva betyr det at en likevekt er ustabil?', array['At følgen nærmer seg den', 'At små avvik vokser', 'At den er lik null', 'At den ikke finnes']::text[], 1, 'Følgen fjerner seg fra likevekten.', true, true, 5),
+  ('matematikk-s2:rekursjon-og-programmering', 'q07', 'flervalg', 'Hvilken rekursiv formel beskriver et lån på 4 % rente med 30 000 kr i årlig innbetaling?', array['Lₙ = 0,04 · Lₙ₋₁ − 30 000', 'Lₙ = 1,04 · Lₙ₋₁ + 30 000', 'Lₙ = 1,04 · Lₙ₋₁ − 30 000', 'Lₙ = Lₙ₋₁ − 30 000']::text[], 2, 'Renter legges til, innbetalingen trekkes fra.', true, true, 6),
+  ('matematikk-s2:rekursjon-og-programmering', 'q08', 'flervalg', 'Hvorfor er programmering nyttig for rekursive modeller?', array['Fordi formler er ulovlige', 'Fordi svaret alltid blir eksakt', 'Fordi det ikke trengs startverdi', 'Fordi vi raskt kan regne mange steg og endre parametere']::text[], 3, 'Vi kan utforske modellen.', true, true, 7),
+  ('matematikk-s2:rekursjon-og-programmering', 'q09', 'flervalg', 'Hvilken formel i et regneark gir neste ledd når forrige ledd står i A1 og Pₙ = 1,1 · Pₙ₋₁ − 500?', array['=1,1*A1-500', '=A1+1,1', '=500*A1', '=1,1-A1']::text[], 0, 'Kopieres nedover.', true, false, 8),
+  ('matematikk-s2:rekursjon-og-programmering', 'q10', 'flervalg', 'Hva skjer med bestanden i Pₙ = 1,1 · Pₙ₋₁ − 500 hvis P₀ = 4000?', array['Den vokser', 'Den minker', 'Den står stille', 'Den blir 5000']::text[], 1, 'Den starter under den ustabile likevekten.', true, false, 9),
+  ('matematikk-s2:rekursjon-og-programmering', 'm01', 'sant-usant', 'En rekursiv formel trenger en startverdi.', array['Sant', 'Usant']::text[], 0, 'Ellers kan vi ikke begynne.', false, true, 10),
+  ('matematikk-s2:rekursjon-og-programmering', 'm02', 'sant-usant', 'En stabil likevekt betyr at følgen fjerner seg fra likevekten.', array['Sant', 'Usant']::text[], 1, 'Den nærmer seg likevekten.', false, true, 11),
+  ('matematikk-s2:rekursjon-og-programmering', 'm03', 'sant-usant', 'Rekursive modeller kan ofte kontrolleres med en eksplisitt formel.', array['Sant', 'Usant']::text[], 0, 'For eksempel via geometriske rekker.', false, true, 12),
+  ('matematikk-s2:rekursjon-og-programmering', 'm04', 'sant-usant', 'En while-løkke kjører alltid nøyaktig ti ganger.', array['Sant', 'Usant']::text[], 1, 'Den kjører så lenge vilkåret er oppfylt.', false, true, 13),
+  ('matematikk-s2:rekursjon-og-programmering', 'm05', 'flervalg', 'Hva er S₂ når S₀ = 0 og Sₙ = 1,1 · Sₙ₋₁ + 1000?', array['2000', '2100', '2200', '1100']::text[], 1, 'S₁ = 1000, S₂ = 1100 + 1000.', false, true, 14),
+  ('matematikk-s2:rekursjon-og-programmering', 'm06', 'flervalg', 'Hvilken forutsetning bør drøftes i en lånemodell?', array['Om renten er fast', 'Om Python er installert', 'Om grafen er blå', 'Om n er et partall']::text[], 0, 'Renten kan endre seg.', false, true, 15),
+  ('matematikk-s2:rekursjon-og-programmering', 'm07', 'flervalg', 'Hva kalles en verdi som ikke endrer seg fra steg til steg?', array['Startverdi', 'Kvotient', 'Likevektsverdi', 'Differanse']::text[], 2, 'P = f(P).', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-s2:rekursjon-og-programmering', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk S2: Det bestemte integralet
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-s2:det-bestemte-integralet', 'matematikk-s2', 'det-bestemte-integralet', 'Det bestemte integralet', 'Hvordan det bestemte integralet defineres som grenseverdien av summer av rektangler, hvordan det tolkes som areal med fortegn og som samlet mengde, og hvordan integralet brukes til å analysere funksjoner og økonomiske og praktiske situasjoner.', array[3]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-s2:det-bestemte-integralet', '## Arealet under en graf
+
+Vi vil finne arealet mellom grafen til en **positiv** funksjon f og x-aksen fra x = a til x = b. Idéen er å dele området i **rektangler**.
+
+## Summer av rektangler
+
+Del [a, b] i n like deler med bredde **Δx = (b − a)/n**. Høyden til hvert rektangel er en **funksjonsverdi** i delintervallet:
+
+- **Venstresum**: høyden i venstre endepunkt
+- **Høyresum**: høyden i høyre endepunkt
+
+Summen av arealene er Σ f(xᵢ) · Δx.
+
+**Eksempel**: f(x) = 2x + 1 på [0, 2] med n = 4, så Δx = 0,5.
+
+- Venstresum: (1 + 2 + 3 + 4) · 0,5 = **5**
+- Høyresum: (2 + 3 + 4 + 5) · 0,5 = **7**
+
+Det riktige arealet ligger mellom 5 og 7. Området er et **trapes** med areal (1 + 5)/2 · 2 = **6**.
+
+## Definisjonen
+
+Når vi lar n bli **større og større**, blir rektanglene smalere, og summene nærmer seg **samme tall**. Dette tallet er det **bestemte integralet**:
+
+**∫ₐᵇ f(x) dx = lim (n → ∞) Σ f(xᵢ) · Δx**
+
+- ∫ er en langstrakt S for **sum**.
+- a og b er **nedre** og **øvre grense**.
+- f(x) kalles **integranden**.
+
+## Areal med fortegn
+
+Der grafen ligger **under** x-aksen, er funksjonsverdiene negative, og bidraget blir **negativt**. Integralet er derfor et **areal med fortegn**:
+
+- Areal over x-aksen teller **positivt**.
+- Areal under x-aksen teller **negativt**.
+
+Vil du ha det **samlede** arealet, må du dele opp ved **nullpunktene** og legge sammen tallverdiene.
+
+## Regneregler
+
+- ∫ₐᵇ (f(x) + g(x)) dx = ∫ₐᵇ f(x) dx + ∫ₐᵇ g(x) dx
+- ∫ₐᵇ k · f(x) dx = k · ∫ₐᵇ f(x) dx
+- ∫ₐᵇ f(x) dx + ∫ᵦᶜ f(x) dx = ∫ₐᶜ f(x) dx
+
+## Integralet som samlet mengde
+
+Integralet **summerer** mange små bidrag. Er f(x) en **rate** – noe per tidsenhet – gir integralet den **samlede** mengden:
+
+- **Salg per dag** integrert over 30 dager gir **totalt salg** i perioden.
+- **Vannføring** i liter per minutt integrert over tid gir **antall liter**.
+- **Fart** i km/h integrert over timer gir **kjørt strekning**.
+- **Grenseinntekt** integrert fra 0 til x gir **inntekten**.
+
+Enheten til integralet er **y-enhet · x-enhet**.
+
+## Analyse med integraler
+
+Integralet kan brukes til å
+
+- finne **arealet** av områder avgrenset av grafer
+- finne **gjennomsnittsverdien** av en funksjon
+- sammenligne **samlede** mengder, for eksempel to salgsmodeller over et år
+
+## Verktøy
+
+I **GeoGebra** kan du bruke kommandoene **SumVenstre**, **SumHøyre** og **Integral** for å se hvordan summene nærmer seg integralet når n øker. Da ser du tydelig at integralet er en **grenseverdi**.', '{"label":"Bestemt integral","children":[{"label":"Rektangler","children":[{"label":"Δx = (b − a)/n"},{"label":"Venstre- og høyresum"}]},{"label":"Definisjon","children":[{"label":"Grenseverdi når n → ∞"},{"label":"Grenser og integrand"}]},{"label":"Fortegn","children":[{"label":"Over og under x-aksen"},{"label":"Samlet areal"}]},{"label":"Tolkning","children":[{"label":"Samlet mengde"},{"label":"Enheter"}]},{"label":"Bruk","children":[{"label":"Areal og gjennomsnitt"},{"label":"GeoGebra"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-s2:det-bestemte-integralet';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-s2:det-bestemte-integralet', 'Δx', 'Bredden på hvert rektangel: (b − a)/n.', 0),
+  ('matematikk-s2:det-bestemte-integralet', 'Venstresum', 'Rektangelhøyden hentes i venstre endepunkt.', 1),
+  ('matematikk-s2:det-bestemte-integralet', 'Høyresum', 'Rektangelhøyden hentes i høyre endepunkt.', 2),
+  ('matematikk-s2:det-bestemte-integralet', 'Bestemt integral', 'Grenseverdien av summene når n → ∞.', 3),
+  ('matematikk-s2:det-bestemte-integralet', 'Integrand', 'Funksjonen f(x) som integreres.', 4),
+  ('matematikk-s2:det-bestemte-integralet', 'Nedre og øvre grense', 'a og b i ∫ₐᵇ f(x) dx.', 5),
+  ('matematikk-s2:det-bestemte-integralet', 'Integraltegnet', 'En langstrakt S for sum.', 6),
+  ('matematikk-s2:det-bestemte-integralet', 'Areal med fortegn', 'Areal under x-aksen teller negativt.', 7),
+  ('matematikk-s2:det-bestemte-integralet', 'Samlet areal', 'Del opp ved nullpunktene og legg sammen tallverdiene.', 8),
+  ('matematikk-s2:det-bestemte-integralet', 'Integral av en rate', 'Samlet mengde.', 9),
+  ('matematikk-s2:det-bestemte-integralet', 'Enhet til integralet', 'y-enhet · x-enhet.', 10),
+  ('matematikk-s2:det-bestemte-integralet', 'Integral av fart', 'Strekning.', 11),
+  ('matematikk-s2:det-bestemte-integralet', 'Integral av grenseinntekt', 'Inntekt.', 12),
+  ('matematikk-s2:det-bestemte-integralet', 'SumVenstre og SumHøyre', 'GeoGebra-kommandoer for rektangelsummer.', 13),
+  ('matematikk-s2:det-bestemte-integralet', 'Oppdeling av intervall', '∫ₐᵇ + ∫ᵦᶜ = ∫ₐᶜ', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-s2:det-bestemte-integralet';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-s2:det-bestemte-integralet', 'q01', 'flervalg', 'Hva er Δx når [0, 2] deles i 4?', array['2', '0,5', '0,25', '4']::text[], 1, '(2 − 0)/4.', true, true, 0),
+  ('matematikk-s2:det-bestemte-integralet', 'q02', 'flervalg', 'Hva er venstresummen for f(x) = 2x + 1 på [0, 2] med n = 4?', array['5', '6', '7', '4']::text[], 0, '(1 + 2 + 3 + 4) · 0,5.', true, true, 1),
+  ('matematikk-s2:det-bestemte-integralet', 'q03', 'flervalg', 'Hva er ∫₀² (2x + 1) dx?', array['5', '7', '6', '4']::text[], 2, 'Arealet av trapeset.', true, true, 2),
+  ('matematikk-s2:det-bestemte-integralet', 'q04', 'flervalg', 'Hvordan defineres det bestemte integralet?', array['Som den deriverte', 'Som venstresummen med n = 4', 'Som f(b) − f(a)', 'Som grenseverdien av summene når n → ∞']::text[], 3, 'Rektanglene blir uendelig smale.', true, true, 3),
+  ('matematikk-s2:det-bestemte-integralet', 'q05', 'flervalg', 'Hvordan teller areal under x-aksen i et integral?', array['Negativt', 'Positivt', 'Ikke i det hele tatt', 'Dobbelt']::text[], 0, 'Funksjonsverdiene er negative.', true, true, 4),
+  ('matematikk-s2:det-bestemte-integralet', 'q06', 'flervalg', 'Hva gir integralet av salg per dag over 30 dager?', array['Salg per dag', 'Totalt salg i perioden', 'Gjennomsnittlig pris', 'Antall dager']::text[], 1, 'Integralet av en rate.', true, true, 5),
+  ('matematikk-s2:det-bestemte-integralet', 'q07', 'flervalg', 'Hvilken enhet får integralet av fart i km/h over tid i timer?', array['km/h', 'timer', 'km', 'km/h²']::text[], 2, 'km/h · h.', true, true, 6),
+  ('matematikk-s2:det-bestemte-integralet', 'q08', 'flervalg', 'Hva er ∫ₐᵇ 4f(x) dx hvis ∫ₐᵇ f(x) dx = 3?', array['7', '3', '4', '12']::text[], 3, 'Konstanten settes utenfor.', true, true, 7),
+  ('matematikk-s2:det-bestemte-integralet', 'q09', 'flervalg', 'Hvordan finner du samlet areal når grafen krysser x-aksen?', array['Del opp ved nullpunktene og legg sammen tallverdiene', 'Integrer over hele intervallet', 'Bruk bare venstresum', 'Det er ikke mulig']::text[], 0, 'Ellers kan positive og negative bidrag nulle hverandre ut.', true, false, 8),
+  ('matematikk-s2:det-bestemte-integralet', 'q10', 'flervalg', 'Hva skjer med summene når n øker?', array['De blir tilfeldige', 'De nærmer seg integralet', 'De blir null', 'De vokser uendelig']::text[], 1, 'Integralet er grenseverdien.', true, false, 9),
+  ('matematikk-s2:det-bestemte-integralet', 'm01', 'sant-usant', 'For en voksende funksjon er venstresummen mindre enn integralet.', array['Sant', 'Usant']::text[], 0, 'Rektanglene ligger under grafen.', false, true, 10),
+  ('matematikk-s2:det-bestemte-integralet', 'm02', 'sant-usant', 'Et bestemt integral kan aldri være negativt.', array['Sant', 'Usant']::text[], 1, 'Areal under x-aksen teller negativt.', false, true, 11),
+  ('matematikk-s2:det-bestemte-integralet', 'm03', 'sant-usant', 'Integraltegnet ∫ er en langstrakt S for sum.', array['Sant', 'Usant']::text[], 0, 'Integralet er en grenseverdi av summer.', false, true, 12),
+  ('matematikk-s2:det-bestemte-integralet', 'm04', 'sant-usant', 'Færre rektangler gir vanligvis en bedre tilnærming.', array['Sant', 'Usant']::text[], 1, 'Flere og smalere rektangler gir bedre tilnærming.', false, true, 13),
+  ('matematikk-s2:det-bestemte-integralet', 'm05', 'flervalg', 'Hva gir vannføring i L/min integrert over minutter?', array['Liter per minutt', 'Antall liter', 'Minutter', 'Liter per sekund']::text[], 1, 'L/min · min = L.', false, true, 14),
+  ('matematikk-s2:det-bestemte-integralet', 'm06', 'flervalg', 'Hva er høyresummen for f(x) = 2x + 1 på [0, 2] med n = 4?', array['7', '5', '6', '8']::text[], 0, '(2 + 3 + 4 + 5) · 0,5.', false, true, 15),
+  ('matematikk-s2:det-bestemte-integralet', 'm07', 'flervalg', 'Hva kalles funksjonen f(x) i ∫ₐᵇ f(x) dx?', array['Grensen', 'Antideriverten', 'Integranden', 'Differansen']::text[], 2, 'Den som integreres.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-s2:det-bestemte-integralet', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk S2: Analysens fundamentalteorem og integrasjonsregler
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-s2:fundamentalteoremet-og-integrasjon', 'matematikk-s2', 'fundamentalteoremet-og-integrasjon', 'Analysens fundamentalteorem og integrasjonsregler', 'Antideriverte og ubestemte integraler, integrasjonsregler for potenser, 1/x og eksponentialfunksjoner, analysens fundamentalteorem med forklaring av hvorfor det gjelder, og konsekvenser som at integralet av en vekstfart gir den totale endringen.', array[4]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-s2:fundamentalteoremet-og-integrasjon', '## Antiderivert
+
+Å **integrere** er det motsatte av å derivere. F er en **antiderivert** til f hvis **F′(x) = f(x)**.
+
+Eksempel: F(x) = x³ er en antiderivert til f(x) = 3x², fordi (x³)′ = 3x². Men også x³ + 5 og x³ − 2 er antideriverte. Derfor skriver vi det **ubestemte integralet** med en **konstant** C:
+
+**∫ 3x² dx = x³ + C**
+
+## Integrasjonsregler
+
+- ∫ k dx = kx + C
+- **∫ xⁿ dx = xⁿ⁺¹/(n + 1) + C**, n ≠ −1
+- **∫ 1/x dx = ln|x| + C**
+- **∫ eˣ dx = eˣ + C**
+- ∫ e^(kx) dx = e^(kx)/k + C
+- ∫ aˣ dx = aˣ/ln a + C
+- Summer og konstanter: ∫ (f + g) dx = ∫ f dx + ∫ g dx og ∫ k · f dx = k · ∫ f dx
+
+**Kontroll**: Deriver svaret – da skal du få integranden tilbake.
+
+## Analysens fundamentalteorem
+
+Hvis F er en antiderivert til f, er
+
+**∫ₐᵇ f(x) dx = F(b) − F(a)**
+
+Vi skriver ofte **[F(x)]ₐᵇ** for F(b) − F(a).
+
+## Hvorfor gjelder teoremet?
+
+La A(x) være **arealet** under grafen til f fra a til x. Øker vi x med en liten h, øker arealet med en smal **stripe** som er omtrent et rektangel med høyde f(x) og bredde h:
+
+A(x + h) − A(x) ≈ f(x) · h
+
+Deler vi på h og lar h gå mot 0, får vi **A′(x) = f(x)**. Arealfunksjonen er altså en **antiderivert** til f. Siden A(a) = 0, blir arealet fra a til b lik F(b) − F(a) for enhver antiderivert F.
+
+## Eksempler
+
+- ∫₀² (3x² − 2x) dx = [x³ − x²]₀² = (8 − 4) − 0 = **4**
+- ∫₁ᵉ 1/x dx = [ln x]₁ᵉ = 1 − 0 = **1**
+- ∫₀¹ eˣ dx = [eˣ]₀¹ = **e − 1** ≈ 1,72
+- ∫₀³ 4x dx = [2x²]₀³ = **18**
+
+## Konsekvenser av teoremet
+
+1. **Derivasjon og integrasjon er motsatte operasjoner.** Den ene «oppveier» den andre.
+2. Vi kan regne ut **eksakte** arealer og mengder uten å regne på summer av rektangler.
+3. **Total endring**: Integralet av en **vekstfart** gir den samlede **endringen**:
+
+**∫ₐᵇ f′(x) dx = f(b) − f(a)**
+
+Er B′(t) antall nye brukere per dag, er ∫ₐᵇ B′(t) dt hvor mange **flere** brukere det er blitt fra dag a til dag b.
+
+4. Kjenner vi **startverdien** og **vekstfarten**, kan vi finne verdien senere: f(b) = f(a) + ∫ₐᵇ f′(x) dx.
+
+## Økonomisk eksempel
+
+Grensekostnaden for en bedrift er K′(x) = 0,04x + 50 kr per enhet. Økningen i kostnad når produksjonen øker fra 1000 til 2000 enheter er
+
+∫₁₀₀₀²⁰⁰⁰ (0,04x + 50) dx = [0,02x² + 50x]₁₀₀₀²⁰⁰⁰ = 180 000 − 70 000 = **110 000 kr**
+
+## Historie
+
+Teoremet ble funnet av **Newton** og **Leibniz** på slutten av 1600-tallet. Det knyttet sammen to problemer som hadde vært studert hver for seg i århundrer – **tangenter** og **arealer**.', '{"label":"Fundamentalteoremet","children":[{"label":"Antiderivert","children":[{"label":"F′ = f"},{"label":"+ C"}]},{"label":"Regler","children":[{"label":"Potenser"},{"label":"1/x gir ln"},{"label":"eˣ og aˣ"}]},{"label":"Teoremet","children":[{"label":"F(b) − F(a)"},{"label":"Arealfunksjon A′ = f"}]},{"label":"Konsekvenser","children":[{"label":"Motsatte operasjoner"},{"label":"Total endring"}]},{"label":"Anvendelser","children":[{"label":"Kostnader"},{"label":"Brukere og salg"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-s2:fundamentalteoremet-og-integrasjon';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-s2:fundamentalteoremet-og-integrasjon', 'Antiderivert', 'F med F′(x) = f(x).', 0),
+  ('matematikk-s2:fundamentalteoremet-og-integrasjon', 'Ubestemt integral', '∫ f(x) dx = F(x) + C', 1),
+  ('matematikk-s2:fundamentalteoremet-og-integrasjon', 'Konstanten C', 'Trengs fordi den deriverte av en konstant er 0.', 2),
+  ('matematikk-s2:fundamentalteoremet-og-integrasjon', '∫ xⁿ dx', 'xⁿ⁺¹/(n + 1) + C, n ≠ −1', 3),
+  ('matematikk-s2:fundamentalteoremet-og-integrasjon', '∫ 1/x dx', 'ln|x| + C', 4),
+  ('matematikk-s2:fundamentalteoremet-og-integrasjon', '∫ eˣ dx', 'eˣ + C', 5),
+  ('matematikk-s2:fundamentalteoremet-og-integrasjon', '∫ e^(kx) dx', 'e^(kx)/k + C', 6),
+  ('matematikk-s2:fundamentalteoremet-og-integrasjon', '∫ aˣ dx', 'aˣ/ln a + C', 7),
+  ('matematikk-s2:fundamentalteoremet-og-integrasjon', 'Fundamentalteoremet', '∫ₐᵇ f(x) dx = F(b) − F(a)', 8),
+  ('matematikk-s2:fundamentalteoremet-og-integrasjon', '[F(x)]ₐᵇ', 'F(b) − F(a)', 9),
+  ('matematikk-s2:fundamentalteoremet-og-integrasjon', 'Arealfunksjon', 'A(x) – arealet fra a til x; A′(x) = f(x).', 10),
+  ('matematikk-s2:fundamentalteoremet-og-integrasjon', 'Total endring', '∫ₐᵇ f′(x) dx = f(b) − f(a)', 11),
+  ('matematikk-s2:fundamentalteoremet-og-integrasjon', 'Kontroll av integral', 'Deriver svaret.', 12),
+  ('matematikk-s2:fundamentalteoremet-og-integrasjon', 'Integral av grensekostnad', 'Økningen i kostnad.', 13),
+  ('matematikk-s2:fundamentalteoremet-og-integrasjon', 'Newton og Leibniz', 'Fant fundamentalteoremet.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-s2:fundamentalteoremet-og-integrasjon';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-s2:fundamentalteoremet-og-integrasjon', 'q01', 'flervalg', 'Hva er ∫ 3x² dx?', array['6x + C', 'x³ + C', '3x³ + C', 'x² + C']::text[], 1, '(x³)′ = 3x².', true, true, 0),
+  ('matematikk-s2:fundamentalteoremet-og-integrasjon', 'q02', 'flervalg', 'Hva sier fundamentalteoremet?', array['∫ₐᵇ f(x) dx = F(b) − F(a)', 'F(x) = f′(x)', '∫ f(x) dx = f(x)', '∫ₐᵇ f(x) dx = f(b) · f(a)']::text[], 0, 'F er en antiderivert.', true, true, 1),
+  ('matematikk-s2:fundamentalteoremet-og-integrasjon', 'q03', 'flervalg', 'Hva er ∫₀² (3x² − 2x) dx?', array['8', '12', '4', '0']::text[], 2, '[x³ − x²]₀² = 8 − 4.', true, true, 2),
+  ('matematikk-s2:fundamentalteoremet-og-integrasjon', 'q04', 'flervalg', 'Hva er ∫ 1/x dx?', array['−1/x² + C', 'x⁰ + C', '1/x² + C', 'ln|x| + C']::text[], 3, 'Unntaket fra potensregelen.', true, true, 3),
+  ('matematikk-s2:fundamentalteoremet-og-integrasjon', 'q05', 'flervalg', 'Hva er ∫₀¹ eˣ dx?', array['e − 1', 'e', '1', '0']::text[], 0, '[eˣ]₀¹.', true, true, 4),
+  ('matematikk-s2:fundamentalteoremet-og-integrasjon', 'q06', 'flervalg', 'Hva er ∫ e^(2x) dx?', array['2e^(2x) + C', 'e^(2x)/2 + C', 'e^(2x) + C', 'e^(x²) + C']::text[], 1, 'Del på k = 2.', true, true, 5),
+  ('matematikk-s2:fundamentalteoremet-og-integrasjon', 'q07', 'flervalg', 'Hva gir ∫ₐᵇ f′(x) dx?', array['f′(b) − f′(a)', 'Gjennomsnittet av f', 'f(b) − f(a)', '0']::text[], 2, 'Total endring.', true, true, 6),
+  ('matematikk-s2:fundamentalteoremet-og-integrasjon', 'q08', 'flervalg', 'Hvorfor legger vi til C i et ubestemt integral?', array['For riktig enhet', 'Fordi integralet alltid er positivt', 'Fordi C står for «konstant sum»', 'Fordi det finnes mange antideriverte som skiller seg med en konstant']::text[], 3, 'Den deriverte av en konstant er 0.', true, true, 7),
+  ('matematikk-s2:fundamentalteoremet-og-integrasjon', 'q09', 'flervalg', 'Hva er ∫₁ᵉ 1/x dx?', array['1', 'e', '0', 'e − 1']::text[], 0, 'ln e − ln 1.', true, false, 8),
+  ('matematikk-s2:fundamentalteoremet-og-integrasjon', 'q10', 'flervalg', 'Hva er ∫₀³ 4x dx?', array['12', '18', '36', '9']::text[], 1, '[2x²]₀³.', true, false, 9),
+  ('matematikk-s2:fundamentalteoremet-og-integrasjon', 'm01', 'sant-usant', 'Du kan kontrollere et integral ved å derivere svaret.', array['Sant', 'Usant']::text[], 0, 'Du skal få integranden tilbake.', false, true, 10),
+  ('matematikk-s2:fundamentalteoremet-og-integrasjon', 'm02', 'sant-usant', '∫ x⁻¹ dx = x⁰/0 + C.', array['Sant', 'Usant']::text[], 1, 'Potensregelen gjelder ikke for n = −1.', false, true, 11),
+  ('matematikk-s2:fundamentalteoremet-og-integrasjon', 'm03', 'sant-usant', 'Arealfunksjonen A(x) er en antiderivert til f.', array['Sant', 'Usant']::text[], 0, 'A′(x) = f(x).', false, true, 12),
+  ('matematikk-s2:fundamentalteoremet-og-integrasjon', 'm04', 'sant-usant', 'Integrasjon og derivasjon har ingenting med hverandre å gjøre.', array['Sant', 'Usant']::text[], 1, 'De er motsatte operasjoner.', false, true, 13),
+  ('matematikk-s2:fundamentalteoremet-og-integrasjon', 'm05', 'flervalg', 'Hva er ∫ (6x + 2) dx?', array['6 + C', '3x² + 2x + C', '6x² + 2x + C', '3x + 2 + C']::text[], 1, 'Integrer ledd for ledd.', false, true, 14),
+  ('matematikk-s2:fundamentalteoremet-og-integrasjon', 'm06', 'flervalg', 'Hva er økningen i kostnad fra 1000 til 2000 enheter når K′(x) = 0,04x + 50?', array['110 000 kr', '50 000 kr', '180 000 kr', '70 000 kr']::text[], 0, '[0,02x² + 50x]₁₀₀₀²⁰⁰⁰.', false, true, 15),
+  ('matematikk-s2:fundamentalteoremet-og-integrasjon', 'm07', 'flervalg', 'Hva er ∫ 2ˣ dx?', array['2ˣ + C', 'x · 2ˣ⁻¹ + C', '2ˣ/ln 2 + C', '2ˣ · ln 2 + C']::text[], 2, '∫ aˣ dx = aˣ/ln a + C.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-s2:fundamentalteoremet-og-integrasjon', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk S2: Funksjonsanalyse med derivasjon og integrasjon
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-s2:funksjonsanalyse-med-integrasjon', 'matematikk-s2', 'funksjonsanalyse-med-integrasjon', 'Funksjonsanalyse med derivasjon og integrasjon', 'Hvordan du analyserer og tolker funksjoner med derivasjon – monotoni, topp- og bunnpunkter, krumning og vendepunkter – og med integrasjon – areal mellom grafer og gjennomsnittsverdi – og hvordan du tolker resultatene i praktiske sammenhenger.', array[5]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-s2:funksjonsanalyse-med-integrasjon', '## Den deriverte forteller om stigning
+
+- **f′(x) > 0**: f er **voksende**.
+- **f′(x) < 0**: f er **avtagende**.
+- **f′(x) = 0**: grafen har en **vannrett tangent** – et mulig **topp-** eller **bunnpunkt**.
+
+En **fortegnslinje** for f′ viser hvor funksjonen vokser og avtar.
+
+**Eksempel**: f(x) = x³ − 3x. Da er f′(x) = 3x² − 3 = 3(x − 1)(x + 1).
+
+- f′ er positiv for x < −1, negativ mellom −1 og 1, og positiv for x > 1.
+- **Toppunkt** i (−1, 2) og **bunnpunkt** i (1, −2).
+
+## Den andrederiverte forteller om krumning
+
+- **f″(x) > 0**: grafen **krummer opp** – den deriverte vokser.
+- **f″(x) < 0**: grafen **krummer ned**.
+- Et **vendepunkt** er der f″ skifter fortegn. Der er stigningen størst eller minst.
+
+For f(x) = x³ − 3x er f″(x) = 6x, så vendepunktet er (0, 0).
+
+## Areal mellom grafer
+
+Når f(x) ≥ g(x) på [a, b], er arealet mellom grafene
+
+**∫ₐᵇ (f(x) − g(x)) dx**
+
+Finn først **skjæringspunktene** – de er ofte grensene.
+
+**Eksempel**: y = 2x og y = x² skjærer hverandre når x² = 2x, altså x = 0 og x = 2. Mellom dem ligger 2x **over** x², så arealet er
+
+∫₀² (2x − x²) dx = [x² − x³/3]₀² = 4 − 8/3 = **4/3**
+
+## Gjennomsnittsverdi
+
+Gjennomsnittsverdien av f på [a, b] er
+
+**(1/(b − a)) · ∫ₐᵇ f(x) dx**
+
+Det er høyden på et **rektangel** med samme bredde og samme areal som området under grafen.
+
+**Eksempel**: For f(x) = x² på [0, 3] er gjennomsnittet (1/3) · [x³/3]₀³ = (1/3) · 9 = **3**.
+
+## Tolking i praksis
+
+En **helhetlig** funksjonsanalyse svarer på spørsmål som:
+
+- **Når** er verdien størst eller minst? – toppunkt og bunnpunkt
+- **Når** vokser den raskest? – vendepunkt
+- **Hvor mye** er det totalt? – integral
+- **Hva** er gjennomsnittet? – gjennomsnittsverdi
+
+**Eksempel**: Temperaturen i et drivhus modelleres med T(t) gjennom et døgn. T′(t) viser hvor fort det blir varmere, toppunktet viser **varmeste** tidspunkt, og (1/24) · ∫₀²⁴ T(t) dt gir **døgnmiddeltemperaturen**.
+
+**Eksempel**: Antall besøkende per time i en fornøyelsespark er B(t). Integralet ∫₁₀¹⁸ B(t) dt gir **totalt** antall besøkende mellom klokka 10 og 18, og toppunktet viser når det er **mest** folk.
+
+## Verktøy
+
+Bruk **CAS** til å derivere, løse likninger og integrere, og **grafer** til å kontrollere. Men du må selv
+
+- velge **hva** som skal regnes ut
+- **tolke** svaret med riktige **enheter**
+- vurdere om svaret er **rimelig**
+
+## Typiske feil
+
+- Å glemme at f′(x) = 0 også kan gi et **terrassepunkt** – sjekk fortegnet på begge sider.
+- Å bruke feil **rekkefølge** i areal mellom grafer, slik at svaret blir negativt.
+- Å glemme **endepunktene** når du leter etter største og minste verdi på et lukket intervall.', '{"label":"Funksjonsanalyse","children":[{"label":"f′","children":[{"label":"Voksende og avtagende"},{"label":"Topp- og bunnpunkt"}]},{"label":"f″","children":[{"label":"Krumning"},{"label":"Vendepunkt"}]},{"label":"Integral","children":[{"label":"Areal mellom grafer"},{"label":"Gjennomsnittsverdi"},{"label":"Samlet mengde"}]},{"label":"Tolking","children":[{"label":"Drivhus"},{"label":"Besøkende"},{"label":"Enheter"}]},{"label":"Fallgruver","children":[{"label":"Terrassepunkt"},{"label":"Endepunkter"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-s2:funksjonsanalyse-med-integrasjon';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-s2:funksjonsanalyse-med-integrasjon', 'f′(x) > 0', 'f er voksende.', 0),
+  ('matematikk-s2:funksjonsanalyse-med-integrasjon', 'f′(x) < 0', 'f er avtagende.', 1),
+  ('matematikk-s2:funksjonsanalyse-med-integrasjon', 'f′(x) = 0', 'Vannrett tangent – mulig topp-, bunn- eller terrassepunkt.', 2),
+  ('matematikk-s2:funksjonsanalyse-med-integrasjon', 'Fortegnslinje', 'Viser hvor f′ er positiv og negativ.', 3),
+  ('matematikk-s2:funksjonsanalyse-med-integrasjon', 'f″(x) > 0', 'Grafen krummer opp.', 4),
+  ('matematikk-s2:funksjonsanalyse-med-integrasjon', 'f″(x) < 0', 'Grafen krummer ned.', 5),
+  ('matematikk-s2:funksjonsanalyse-med-integrasjon', 'Vendepunkt', 'Der f″ skifter fortegn – størst eller minst stigning.', 6),
+  ('matematikk-s2:funksjonsanalyse-med-integrasjon', 'Areal mellom grafer', '∫ₐᵇ (f(x) − g(x)) dx når f ≥ g.', 7),
+  ('matematikk-s2:funksjonsanalyse-med-integrasjon', 'Skjæringspunkter', 'Gir ofte grensene for areal mellom grafer.', 8),
+  ('matematikk-s2:funksjonsanalyse-med-integrasjon', 'Gjennomsnittsverdi', '(1/(b − a)) · ∫ₐᵇ f(x) dx', 9),
+  ('matematikk-s2:funksjonsanalyse-med-integrasjon', 'Terrassepunkt', 'f′ = 0 uten fortegnsskifte.', 10),
+  ('matematikk-s2:funksjonsanalyse-med-integrasjon', 'Endepunkter', 'Må sjekkes ved største og minste verdi på lukket intervall.', 11),
+  ('matematikk-s2:funksjonsanalyse-med-integrasjon', 'Døgnmiddeltemperatur', '(1/24) · ∫₀²⁴ T(t) dt', 12),
+  ('matematikk-s2:funksjonsanalyse-med-integrasjon', 'Integral av besøkende per time', 'Totalt antall besøkende.', 13),
+  ('matematikk-s2:funksjonsanalyse-med-integrasjon', 'Rimelighet', 'Vurder om svaret gir mening i situasjonen.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-s2:funksjonsanalyse-med-integrasjon';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-s2:funksjonsanalyse-med-integrasjon', 'q01', 'flervalg', 'Hva betyr f′(x) < 0 på et intervall?', array['f er voksende', 'f er avtagende', 'f krummer opp', 'f har et vendepunkt']::text[], 1, 'Negativ stigning.', true, true, 0),
+  ('matematikk-s2:funksjonsanalyse-med-integrasjon', 'q02', 'flervalg', 'Hvor har f(x) = x³ − 3x toppunkt?', array['(−1, 2)', '(1, −2)', '(0, 0)', '(2, 2)']::text[], 0, 'f′ skifter fra positiv til negativ i x = −1.', true, true, 1),
+  ('matematikk-s2:funksjonsanalyse-med-integrasjon', 'q03', 'flervalg', 'Hva er et vendepunkt?', array['Der f = 0', 'Der f′ = 0', 'Der f″ skifter fortegn', 'Der grafen slutter']::text[], 2, 'Krumningen endrer seg.', true, true, 2),
+  ('matematikk-s2:funksjonsanalyse-med-integrasjon', 'q04', 'flervalg', 'Hva er arealet mellom y = 2x og y = x² fra 0 til 2?', array['4', '8/3', '2', '4/3']::text[], 3, '4 − 8/3.', true, true, 3),
+  ('matematikk-s2:funksjonsanalyse-med-integrasjon', 'q05', 'flervalg', 'Hva er gjennomsnittsverdien av f(x) = x² på [0, 3]?', array['3', '9', '4,5', '1']::text[], 0, '(1/3) · 9.', true, true, 4),
+  ('matematikk-s2:funksjonsanalyse-med-integrasjon', 'q06', 'flervalg', 'Hva betyr f″(x) > 0?', array['f er avtagende', 'Grafen krummer opp', 'f har toppunkt', 'f er negativ']::text[], 1, 'Den deriverte vokser.', true, true, 5),
+  ('matematikk-s2:funksjonsanalyse-med-integrasjon', 'q07', 'flervalg', 'Hva gir ∫₁₀¹⁸ B(t) dt når B(t) er besøkende per time?', array['Besøkende klokka 18', 'Høyeste antall per time', 'Totalt antall besøkende fra 10 til 18', 'Gjennomsnitt per minutt']::text[], 2, 'Integralet av en rate.', true, true, 6),
+  ('matematikk-s2:funksjonsanalyse-med-integrasjon', 'q08', 'flervalg', 'Hva må du huske når du finner største verdi på et lukket intervall?', array['Bare toppunktene', 'Bare vendepunktene', 'Bare nullpunktene', 'Å sjekke endepunktene også']::text[], 3, 'Største verdi kan ligge i et endepunkt.', true, true, 7),
+  ('matematikk-s2:funksjonsanalyse-med-integrasjon', 'q09', 'flervalg', 'Hvor er vendepunktet til f(x) = x³ − 3x?', array['(0, 0)', '(1, −2)', '(−1, 2)', '(3, 18)']::text[], 0, 'f″(x) = 6x = 0.', true, false, 8),
+  ('matematikk-s2:funksjonsanalyse-med-integrasjon', 'q10', 'flervalg', 'Hva kan f′(x) = 0 uten fortegnsskifte bety?', array['Toppunkt', 'Terrassepunkt', 'Bunnpunkt', 'Nullpunkt']::text[], 1, 'For eksempel x³ i x = 0.', true, false, 9),
+  ('matematikk-s2:funksjonsanalyse-med-integrasjon', 'm01', 'sant-usant', 'I et vendepunkt er stigningen størst eller minst.', array['Sant', 'Usant']::text[], 0, 'f′ har topp- eller bunnpunkt der.', false, true, 10),
+  ('matematikk-s2:funksjonsanalyse-med-integrasjon', 'm02', 'sant-usant', 'f′(x) = 0 betyr alltid et toppunkt.', array['Sant', 'Usant']::text[], 1, 'Det kan også være bunn- eller terrassepunkt.', false, true, 11),
+  ('matematikk-s2:funksjonsanalyse-med-integrasjon', 'm03', 'sant-usant', 'Gjennomsnittsverdien er høyden på et rektangel med samme areal som under grafen.', array['Sant', 'Usant']::text[], 0, 'Samme bredde b − a.', false, true, 12),
+  ('matematikk-s2:funksjonsanalyse-med-integrasjon', 'm04', 'sant-usant', 'Areal mellom grafer kan regnes uten å vite hvilken graf som ligger øverst.', array['Sant', 'Usant']::text[], 1, 'Feil rekkefølge gir negativt svar.', false, true, 13),
+  ('matematikk-s2:funksjonsanalyse-med-integrasjon', 'm05', 'flervalg', 'Hvor skjærer y = 2x og y = x² hverandre?', array['x = 1 og x = 2', 'x = 0 og x = 2', 'x = 0 og x = 1', 'x = −2 og x = 2']::text[], 1, 'x² = 2x.', false, true, 14),
+  ('matematikk-s2:funksjonsanalyse-med-integrasjon', 'm06', 'flervalg', 'Hva gir (1/24) · ∫₀²⁴ T(t) dt for temperaturen T i et døgn?', array['Døgnmiddeltemperaturen', 'Høyeste temperatur', 'Temperaturendringen', 'Laveste temperatur']::text[], 0, 'Gjennomsnittsverdien.', false, true, 15),
+  ('matematikk-s2:funksjonsanalyse-med-integrasjon', 'm07', 'flervalg', 'Hva er f′(x) for f(x) = x³ − 3x?', array['3x²', 'x² − 3', '3x² − 3', '6x']::text[], 2, 'Deriver ledd for ledd.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-s2:funksjonsanalyse-med-integrasjon', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk S2: Eksponentiell og logistisk vekst
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-s2:eksponentiell-og-logistisk-vekst', 'matematikk-s2', 'eksponentiell-og-logistisk-vekst', 'Eksponentiell og logistisk vekst', 'Hvordan du modellerer og analyserer eksponentiell og logistisk vekst i reelle datasett – vekstfaktor og vekstrate, doblings- og halveringstid, bæreevne og vendepunkt, regresjon i GeoGebra eller Python, og vurdering av modellene.', array[6]::int[], 5, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-s2:eksponentiell-og-logistisk-vekst', '## Eksponentiell vekst
+
+Eksponentiell vekst betyr at noe øker med en **fast prosent** per tidsenhet.
+
+**f(t) = a · bᵗ**
+
+- a er **startverdien**.
+- b er **vekstfaktoren**. b > 1 gir vekst, 0 < b < 1 gir **nedgang**.
+
+Modellen kan også skrives med e:
+
+**f(t) = a · e^(kt)**, der **k = ln b**
+
+## Vekstfarten
+
+For f(t) = a · e^(kt) er
+
+**f′(t) = k · f(t)**
+
+Vekstfarten er altså **proporsjonal** med størrelsen: Jo større, jo raskere vekst. Det kjennetegner eksponentiell vekst.
+
+## Doblings- og halveringstid
+
+- **Doblingstid**: T = ln 2/k
+- **Halveringstid**: T = ln 2/|k| når k < 0
+
+**Eksempel**: Bakterier vokser etter B(t) = 500 · 1,2ᵗ, t i timer. Da er k = ln 1,2 ≈ 0,182, og doblingstiden er ln 2/0,182 ≈ **3,8 timer**.
+
+## Begrensninger
+
+Ingen eksponentiell vekst varer **evig**. Bakterier går tom for næring, og en epidemi går tom for mottakelige personer. Da passer en **logistisk** modell bedre.
+
+## Logistisk vekst
+
+**N(t) = K/(1 + a · e^(−bt))**
+
+- **K** er **bæreevnen** – den øvre grensen som N nærmer seg.
+- Startverdien er N(0) = K/(1 + a).
+- b bestemmer hvor raskt veksten skjer.
+
+I starten ligner veksten på eksponentiell vekst. Etter hvert **bremses** den, og grafen flater ut mot K.
+
+## Vendepunktet
+
+Den logistiske veksten er **raskest** når N = **K/2**. Det skjer når t = **ln a/b**, og den største vekstfarten er **bK/4**.
+
+**Eksempel**: N(t) = 1000/(1 + 49e^(−0,5t)).
+
+- N(0) = 1000/50 = **20**
+- Bæreevne: **1000**
+- Raskest vekst ved t = ln 49/0,5 ≈ **7,8**, da N = 500
+- Største vekstfart: 0,5 · 1000/4 = **125** per tidsenhet
+
+## Regresjon med reelle data
+
+1. Legg inn dataene i GeoGebra (Regnearkvisning) eller Python.
+2. Plott punktene og vurder **formen**.
+3. Bruk **RegEksp** for eksponentiell og **RegLogistisk** for logistisk regresjon, eller **curve_fit** i Python.
+4. **Tolk** parameterne: startverdi, vekstfaktor, bæreevne.
+
+Reelle eksempler er **befolkningsvekst**, **smittespredning**, **salg av nye produkter**, **utbredelse av teknologi** og **fiskebestander**.
+
+## Vurdere modellen
+
+- Passer modellen **punktene** godt – også de siste?
+- Er parameterne **rimelige**? En bæreevne på 3 milliarder brukere i Norge er ikke realistisk.
+- Hvor langt fram er det rimelig å **ekstrapolere**?
+- Hvilke **forhold** kan endre utviklingen – for eksempel tiltak mot smitte eller konkurranse i et marked?
+
+## Sammenligning
+
+| | Eksponentiell | Logistisk |
+|---|---|---|
+| Vekst | fast prosent | bremses |
+| Grense | ingen | bæreevne K |
+| f′ | k · f | b · N(1 − N/K) |', '{"label":"Vekstmodeller","children":[{"label":"Eksponentiell","children":[{"label":"a · bᵗ = a · e^(kt)"},{"label":"f′ = k · f"},{"label":"Doblingstid ln 2/k"}]},{"label":"Logistisk","children":[{"label":"Bæreevne K"},{"label":"Vendepunkt K/2"},{"label":"Største vekstfart bK/4"}]},{"label":"Regresjon","children":[{"label":"RegEksp"},{"label":"RegLogistisk"},{"label":"Python curve_fit"}]},{"label":"Reelle data","children":[{"label":"Befolkning"},{"label":"Smitte"},{"label":"Nye produkter"}]},{"label":"Vurdering","children":[{"label":"Rimelige parametere"},{"label":"Ekstrapolering"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-s2:eksponentiell-og-logistisk-vekst';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-s2:eksponentiell-og-logistisk-vekst', 'Eksponentiell vekst', 'Økning med fast prosent per tidsenhet.', 0),
+  ('matematikk-s2:eksponentiell-og-logistisk-vekst', 'a · bᵗ', 'a er startverdi, b er vekstfaktor.', 1),
+  ('matematikk-s2:eksponentiell-og-logistisk-vekst', 'k = ln b', 'Sammenheng mellom bᵗ og e^(kt).', 2),
+  ('matematikk-s2:eksponentiell-og-logistisk-vekst', 'Vekstfart ved eksponentiell vekst', 'f′(t) = k · f(t)', 3),
+  ('matematikk-s2:eksponentiell-og-logistisk-vekst', 'Doblingstid', 'ln 2/k', 4),
+  ('matematikk-s2:eksponentiell-og-logistisk-vekst', 'Halveringstid', 'ln 2/|k| når k < 0.', 5),
+  ('matematikk-s2:eksponentiell-og-logistisk-vekst', 'Logistisk vekst', 'N(t) = K/(1 + a · e^(−bt))', 6),
+  ('matematikk-s2:eksponentiell-og-logistisk-vekst', 'Bæreevne K', 'Øvre grense som N nærmer seg.', 7),
+  ('matematikk-s2:eksponentiell-og-logistisk-vekst', 'Startverdi logistisk', 'K/(1 + a)', 8),
+  ('matematikk-s2:eksponentiell-og-logistisk-vekst', 'Vendepunkt logistisk', 'N = K/2 ved t = ln a/b.', 9),
+  ('matematikk-s2:eksponentiell-og-logistisk-vekst', 'Største vekstfart logistisk', 'bK/4', 10),
+  ('matematikk-s2:eksponentiell-og-logistisk-vekst', 'RegEksp', 'GeoGebra-kommando for eksponentiell regresjon.', 11),
+  ('matematikk-s2:eksponentiell-og-logistisk-vekst', 'RegLogistisk', 'GeoGebra-kommando for logistisk regresjon.', 12),
+  ('matematikk-s2:eksponentiell-og-logistisk-vekst', 'Logistisk vekstfart', 'N′ = b · N(1 − N/K)', 13),
+  ('matematikk-s2:eksponentiell-og-logistisk-vekst', 'Ekstrapolering', 'Bruk av modellen utenfor dataene – usikkert.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-s2:eksponentiell-og-logistisk-vekst';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-s2:eksponentiell-og-logistisk-vekst', 'q01', 'flervalg', 'Hva er vekstfaktoren ved 20 % økning per time?', array['0,2', '1,2', '20', '0,8']::text[], 1, '1 + 0,20.', true, true, 0),
+  ('matematikk-s2:eksponentiell-og-logistisk-vekst', 'q02', 'flervalg', 'Hva er doblingstiden for B(t) = 500 · 1,2ᵗ?', array['Omtrent 3,8 timer', 'Omtrent 2 timer', 'Omtrent 5 timer', 'Omtrent 10 timer']::text[], 0, 'ln 2/ln 1,2.', true, true, 1),
+  ('matematikk-s2:eksponentiell-og-logistisk-vekst', 'q03', 'flervalg', 'Hva kjennetegner vekstfarten ved eksponentiell vekst?', array['Den er konstant', 'Den er null', 'Den er proporsjonal med størrelsen', 'Den synker alltid']::text[], 2, 'f′ = k · f.', true, true, 2),
+  ('matematikk-s2:eksponentiell-og-logistisk-vekst', 'q04', 'flervalg', 'Hva er K i en logistisk modell?', array['Startverdien', 'Vekstfaktoren', 'Tiden', 'Bæreevnen']::text[], 3, 'Den øvre grensen.', true, true, 3),
+  ('matematikk-s2:eksponentiell-og-logistisk-vekst', 'q05', 'flervalg', 'Hva er N(0) for N(t) = 1000/(1 + 49e^(−0,5t))?', array['20', '1000', '49', '500']::text[], 0, '1000/50.', true, true, 4),
+  ('matematikk-s2:eksponentiell-og-logistisk-vekst', 'q06', 'flervalg', 'Når vokser en logistisk modell raskest?', array['Ved start', 'Når N = K/2', 'Når N = K', 'Aldri']::text[], 1, 'I vendepunktet.', true, true, 5),
+  ('matematikk-s2:eksponentiell-og-logistisk-vekst', 'q07', 'flervalg', 'Hva er største vekstfart for N(t) = 1000/(1 + 49e^(−0,5t))?', array['500', '250', '125', '50']::text[], 2, 'bK/4 = 0,5 · 1000/4.', true, true, 6),
+  ('matematikk-s2:eksponentiell-og-logistisk-vekst', 'q08', 'flervalg', 'Hvorfor passer ikke eksponentiell vekst på lang sikt?', array['Fordi den synker', 'Fordi den er lineær', 'Fordi den er periodisk', 'Fordi ingenting kan vokse med fast prosent for alltid']::text[], 3, 'Ressursene tar slutt.', true, true, 7),
+  ('matematikk-s2:eksponentiell-og-logistisk-vekst', 'q09', 'flervalg', 'Hva er k når f(t) = a · 2ᵗ skrives som a · e^(kt)?', array['ln 2', '2', 'e²', '1/2']::text[], 0, 'k = ln b.', true, false, 8),
+  ('matematikk-s2:eksponentiell-og-logistisk-vekst', 'q10', 'flervalg', 'Hvilken GeoGebra-kommando brukes for logistisk regresjon?', array['RegEksp', 'RegLogistisk', 'RegPoly', 'RegLin']::text[], 1, 'RegEksp er for eksponentiell.', true, false, 9),
+  ('matematikk-s2:eksponentiell-og-logistisk-vekst', 'm01', 'sant-usant', 'I starten ligner logistisk vekst på eksponentiell vekst.', array['Sant', 'Usant']::text[], 0, 'Bremsen merkes først senere.', false, true, 10),
+  ('matematikk-s2:eksponentiell-og-logistisk-vekst', 'm02', 'sant-usant', 'En vekstfaktor på 0,9 gir økning.', array['Sant', 'Usant']::text[], 1, 'Den gir 10 % nedgang.', false, true, 11),
+  ('matematikk-s2:eksponentiell-og-logistisk-vekst', 'm03', 'sant-usant', 'Halveringstiden er ln 2/|k| når k er negativ.', array['Sant', 'Usant']::text[], 0, 'Tilsvarer doblingstiden ved nedgang.', false, true, 12),
+  ('matematikk-s2:eksponentiell-og-logistisk-vekst', 'm04', 'sant-usant', 'En logistisk modell kan vokse forbi bæreevnen når t blir stor.', array['Sant', 'Usant']::text[], 1, 'Den nærmer seg K ovenfra eller nedenfra, men passerer ikke.', false, true, 13),
+  ('matematikk-s2:eksponentiell-og-logistisk-vekst', 'm05', 'flervalg', 'Når inntreffer vendepunktet for N(t) = 1000/(1 + 49e^(−0,5t))?', array['t ≈ 3,9', 't ≈ 7,8', 't ≈ 49', 't ≈ 0,5']::text[], 1, 'ln 49/0,5.', false, true, 14),
+  ('matematikk-s2:eksponentiell-og-logistisk-vekst', 'm06', 'flervalg', 'Hva er logistisk vekstfart uttrykt ved N?', array['b · N(1 − N/K)', 'k · N', 'K − N', 'b/N']::text[], 0, 'Bremses når N nærmer seg K.', false, true, 15),
+  ('matematikk-s2:eksponentiell-og-logistisk-vekst', 'm07', 'flervalg', 'Hva er et eksempel på logistisk vekst?', array['Renter på en konto', 'Radioaktivt henfall', 'Utbredelse av en ny teknologi', 'En fast månedslønn']::text[], 2, 'Stopper når nesten alle har tatt den i bruk.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-s2:eksponentiell-og-logistisk-vekst', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk S2: Grensekostnad og grenseinntekt
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-s2:grensekostnad-og-grenseinntekt', 'matematikk-s2', 'grensekostnad-og-grenseinntekt', 'Grensekostnad og grenseinntekt', 'Kostnads-, inntekts- og overskuddsfunksjoner i økonomiske modeller, hva grensekostnad og grenseinntekt betyr, hvorfor overskuddet er størst når grenseinntekten er lik grensekostnaden, og hvordan du finner laveste enhetskostnad.', array[9]::int[], 6, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-s2:grensekostnad-og-grenseinntekt', '## Kostnad, inntekt og overskudd
+
+En bedrift produserer og selger x enheter av en vare.
+
+- **K(x)** er **kostnaden**. Den består av **faste kostnader** – som husleie – og **variable kostnader** som øker med x.
+- **I(x)** er **inntekten**. Ved fast pris p er I(x) = p · x.
+- **O(x) = I(x) − K(x)** er **overskuddet**.
+
+## Grensekostnad
+
+**Grensekostnaden** er **K′(x)**. Den er omtrent hva det koster å produsere **én enhet til**:
+
+**K′(x) ≈ K(x + 1) − K(x)**
+
+Grensekostnaden **synker** ofte først, fordi produksjonen blir mer **effektiv**, og **stiger** senere, fordi kapasiteten presses – overtid, slitasje og flaskehalser.
+
+## Grenseinntekt
+
+**Grenseinntekten** er **I′(x)** – omtrent hvor mye inntekten øker når vi selger én enhet til.
+
+- Ved **fast pris** p er I′(x) = p.
+- Må prisen **settes ned** for å selge mer, gir etterspørselen en pris p(x), og I(x) = p(x) · x. Da synker grenseinntekten når x øker.
+
+## Størst overskudd
+
+O′(x) = I′(x) − K′(x). Overskuddet er størst når O′(x) = 0, altså når
+
+**I′(x) = K′(x)**
+
+**Grenseinntekt = grensekostnad.** Så lenge den neste enheten gir **mer** i inntekt enn den koster, lønner det seg å øke produksjonen. Når den koster **mer** enn den gir, lønner det seg ikke.
+
+**Eksempel**: K(x) = 0,02x² + 50x + 20 000 og fast pris 150 kr.
+
+- I′(x) = 150 og K′(x) = 0,04x + 50
+- 150 = 0,04x + 50 gir **x = 2500**
+- O(2500) = 375 000 − 270 000 = **105 000 kr**
+
+## Enhetskostnad
+
+**Enhetskostnaden** er gjennomsnittskostnaden per enhet:
+
+**A(x) = K(x)/x**
+
+Den er **lavest** når **A(x) = K′(x)** – når grensekostnaden er lik enhetskostnaden. Er grensekostnaden lavere enn gjennomsnittet, trekker neste enhet gjennomsnittet **ned**. Er den høyere, trekker den gjennomsnittet **opp**.
+
+**Eksempel**: Med K(x) over er A(x) = 0,02x + 50 + 20 000/x. A′(x) = 0,02 − 20 000/x² = 0 gir **x = 1000**, og A(1000) = **90 kr**. Kontroll: K′(1000) = 40 + 50 = 90 kr.
+
+## Integral og kostnader
+
+Kjenner vi grensekostnaden, gir integralet **økningen** i kostnad:
+
+K(b) − K(a) = ∫ₐᵇ K′(x) dx
+
+## Tolking
+
+- K′(2000) = 130 betyr at enhet nummer 2001 koster **omtrent 130 kr** å produsere.
+- I′(x) > K′(x) betyr at det lønner seg å **øke** produksjonen.
+- Svaret må være et **realistisk** antall – ofte et **heltall** innenfor **kapasiteten**.
+
+## Begrensninger
+
+Modellene er **forenklinger**. I virkeligheten påvirker konkurrenter, sesongvariasjoner og kapasitet både priser og kostnader. Vurder alltid om modellen gjelder for de x-verdiene du ser på.', '{"label":"Grenseanalyse","children":[{"label":"Funksjoner","children":[{"label":"Kostnad K"},{"label":"Inntekt I"},{"label":"Overskudd O = I − K"}]},{"label":"Grensestørrelser","children":[{"label":"Grensekostnad K′"},{"label":"Grenseinntekt I′"}]},{"label":"Optimalisering","children":[{"label":"I′ = K′"},{"label":"A = K′"}]},{"label":"Integral","children":[{"label":"Økning i kostnad"}]},{"label":"Tolking","children":[{"label":"Neste enhet"},{"label":"Kapasitet og realisme"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-s2:grensekostnad-og-grenseinntekt';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-s2:grensekostnad-og-grenseinntekt', 'K(x)', 'Kostnaden ved å produsere x enheter.', 0),
+  ('matematikk-s2:grensekostnad-og-grenseinntekt', 'Faste kostnader', 'Kostnader som ikke avhenger av x, som husleie.', 1),
+  ('matematikk-s2:grensekostnad-og-grenseinntekt', 'I(x)', 'Inntekten ved salg av x enheter.', 2),
+  ('matematikk-s2:grensekostnad-og-grenseinntekt', 'O(x)', 'Overskudd: I(x) − K(x).', 3),
+  ('matematikk-s2:grensekostnad-og-grenseinntekt', 'Grensekostnad', 'K′(x) – omtrent kostnaden for én enhet til.', 4),
+  ('matematikk-s2:grensekostnad-og-grenseinntekt', 'Grenseinntekt', 'I′(x) – omtrent inntekten fra én enhet til.', 5),
+  ('matematikk-s2:grensekostnad-og-grenseinntekt', 'Grenseinntekt ved fast pris', 'Lik prisen p.', 6),
+  ('matematikk-s2:grensekostnad-og-grenseinntekt', 'Størst overskudd', 'Når I′(x) = K′(x).', 7),
+  ('matematikk-s2:grensekostnad-og-grenseinntekt', 'Enhetskostnad', 'A(x) = K(x)/x', 8),
+  ('matematikk-s2:grensekostnad-og-grenseinntekt', 'Lavest enhetskostnad', 'Når A(x) = K′(x).', 9),
+  ('matematikk-s2:grensekostnad-og-grenseinntekt', 'Etterspørselsfunksjon', 'Sammenhengen mellom pris og solgt mengde.', 10),
+  ('matematikk-s2:grensekostnad-og-grenseinntekt', 'I′ > K′', 'Det lønner seg å øke produksjonen.', 11),
+  ('matematikk-s2:grensekostnad-og-grenseinntekt', 'Økning i kostnad', '∫ₐᵇ K′(x) dx', 12),
+  ('matematikk-s2:grensekostnad-og-grenseinntekt', 'Stigende grensekostnad', 'Følge av presset kapasitet, overtid og slitasje.', 13),
+  ('matematikk-s2:grensekostnad-og-grenseinntekt', 'Kapasitet', 'Største mulige produksjon.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-s2:grensekostnad-og-grenseinntekt';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-s2:grensekostnad-og-grenseinntekt', 'q01', 'flervalg', 'Hva er grensekostnaden?', array['Den totale kostnaden', 'K′(x) – omtrent kostnaden for én enhet til', 'K(x)/x', 'Den faste kostnaden']::text[], 1, 'Kostnaden ved neste enhet.', true, true, 0),
+  ('matematikk-s2:grensekostnad-og-grenseinntekt', 'q02', 'flervalg', 'Når er overskuddet størst?', array['Når I′(x) = K′(x)', 'Når K(x) = 0', 'Når I(x) = 0', 'Når x er størst mulig']::text[], 0, 'O′(x) = 0.', true, true, 1),
+  ('matematikk-s2:grensekostnad-og-grenseinntekt', 'q03', 'flervalg', 'Hva er grenseinntekten ved fast pris 150 kr?', array['0', '150x', '150 kr', 'Umulig å si']::text[], 2, 'I(x) = 150x gir I′(x) = 150.', true, true, 2),
+  ('matematikk-s2:grensekostnad-og-grenseinntekt', 'q04', 'flervalg', 'Med K′(x) = 0,04x + 50 og pris 150 kr, hvilken x gir størst overskudd?', array['1000', '5000', '150', '2500']::text[], 3, '150 = 0,04x + 50.', true, true, 3),
+  ('matematikk-s2:grensekostnad-og-grenseinntekt', 'q05', 'flervalg', 'Hvordan regnes enhetskostnaden ut?', array['K(x)/x', 'K′(x)', 'I(x) − K(x)', 'K(x) · x']::text[], 0, 'Gjennomsnittskostnad per enhet.', true, true, 4),
+  ('matematikk-s2:grensekostnad-og-grenseinntekt', 'q06', 'flervalg', 'Når er enhetskostnaden lavest?', array['Når K(x) = 0', 'Når A(x) = K′(x)', 'Når I′ = K′', 'Når x = 0']::text[], 1, 'Grensekostnad lik gjennomsnittet.', true, true, 5),
+  ('matematikk-s2:grensekostnad-og-grenseinntekt', 'q07', 'flervalg', 'Hva betyr I′(x) > K′(x)?', array['Det lønner seg å redusere produksjonen', 'Bedriften går med tap', 'Det lønner seg å øke produksjonen', 'Prisen er for lav']::text[], 2, 'Neste enhet gir mer enn den koster.', true, true, 6),
+  ('matematikk-s2:grensekostnad-og-grenseinntekt', 'q08', 'flervalg', 'Hva betyr K′(2000) = 130?', array['Totalkostnaden er 130 kr', 'Enhetskostnaden er 130 kr', 'Overskuddet er 130 kr', 'Enhet nummer 2001 koster omtrent 130 kr']::text[], 3, 'Grensekostnaden.', true, true, 7),
+  ('matematikk-s2:grensekostnad-og-grenseinntekt', 'q09', 'flervalg', 'Hva er laveste enhetskostnad når K(x) = 0,02x² + 50x + 20 000?', array['90 kr', '50 kr', '70 kr', '110 kr']::text[], 0, 'A(1000) = 20 + 50 + 20.', true, false, 8),
+  ('matematikk-s2:grensekostnad-og-grenseinntekt', 'q10', 'flervalg', 'Hva gir ∫ₐᵇ K′(x) dx?', array['Overskuddet', 'Økningen i kostnad fra a til b enheter', 'Grenseinntekten', 'Enhetskostnaden']::text[], 1, 'Total endring.', true, false, 9),
+  ('matematikk-s2:grensekostnad-og-grenseinntekt', 'm01', 'sant-usant', 'Faste kostnader påvirker ikke grensekostnaden.', array['Sant', 'Usant']::text[], 0, 'Den deriverte av en konstant er 0.', false, true, 10),
+  ('matematikk-s2:grensekostnad-og-grenseinntekt', 'm02', 'sant-usant', 'Overskuddet er alltid størst når produksjonen er størst mulig.', array['Sant', 'Usant']::text[], 1, 'Det er størst når I′ = K′.', false, true, 11),
+  ('matematikk-s2:grensekostnad-og-grenseinntekt', 'm03', 'sant-usant', 'Er grensekostnaden lavere enn enhetskostnaden, synker enhetskostnaden når x øker.', array['Sant', 'Usant']::text[], 0, 'Neste enhet trekker gjennomsnittet ned.', false, true, 12),
+  ('matematikk-s2:grensekostnad-og-grenseinntekt', 'm04', 'sant-usant', 'Grenseinntekten øker alltid når prisen må settes ned for å selge mer.', array['Sant', 'Usant']::text[], 1, 'Den synker da.', false, true, 13),
+  ('matematikk-s2:grensekostnad-og-grenseinntekt', 'm05', 'flervalg', 'Hva er O(2500) når K(x) = 0,02x² + 50x + 20 000 og prisen er 150 kr?', array['375 000 kr', '105 000 kr', '270 000 kr', '125 000 kr']::text[], 1, '375 000 − 270 000.', false, true, 14),
+  ('matematikk-s2:grensekostnad-og-grenseinntekt', 'm06', 'flervalg', 'Hvorfor stiger ofte grensekostnaden ved høy produksjon?', array['Presset kapasitet, overtid og slitasje', 'Lavere lønninger', 'Færre kunder', 'Lavere husleie']::text[], 0, 'Flaskehalser.', false, true, 15),
+  ('matematikk-s2:grensekostnad-og-grenseinntekt', 'm07', 'flervalg', 'Hva er I(x) når prisen er p(x) = 200 − 0,01x?', array['200 − 0,01x', '200x', '200x − 0,01x²', '0,01x²']::text[], 2, 'I(x) = p(x) · x.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-s2:grensekostnad-og-grenseinntekt', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk S2: Forventningsverdi, varians og standardavvik
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-s2:forventning-varians-og-standardavvik', 'matematikk-s2', 'forventning-varians-og-standardavvik', 'Forventningsverdi, varians og standardavvik', 'Stokastiske variabler og sannsynlighetsfordelinger, hvordan du regner ut og tolker forventningsverdi, varians og standardavvik, regneregler for summer og lineære endringer, og anvendelser i spill, forsikring og risikovurdering.', array[7]::int[], 7, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-s2:forventning-varians-og-standardavvik', '## Stokastisk variabel
+
+En **stokastisk variabel** X er et tall som avhenger av utfallet i et **tilfeldig forsøk**. Eksempler er antall øyne på en terning, antall defekte varer i en eske og gevinsten i et spill.
+
+En **sannsynlighetsfordeling** viser alle verdiene X kan ta, og sannsynligheten for hver. Summen av sannsynlighetene er **1**.
+
+## Forventningsverdi
+
+**E(X) = μ = Σ x · P(X = x)**
+
+Forventningsverdien er **gjennomsnittet i det lange løp** hvis forsøket gjentas mange ganger.
+
+**Terning**: E(X) = (1 + 2 + 3 + 4 + 5 + 6) · 1/6 = **3,5**. Du får aldri 3,5 på ett kast, men gjennomsnittet av mange kast nærmer seg 3,5.
+
+**Spill**: Det koster 10 kr å spille. Du vinner 50 kr med sannsynlighet 0,1. Nettogevinsten X er 40 kr med sannsynlighet 0,1 og −10 kr med sannsynlighet 0,9:
+
+E(X) = 40 · 0,1 + (−10) · 0,9 = **−5 kr**
+
+I det lange løp taper du 5 kr per spill.
+
+## Varians og standardavvik
+
+**Variansen** måler **spredningen** rundt forventningsverdien:
+
+**Var(X) = Σ (x − μ)² · P(X = x)**
+
+**Standardavviket** er **σ = √Var(X)**. Det har samme **enhet** som X og er lettere å tolke.
+
+**Terning**: Var(X) = 35/12 ≈ 2,92 og σ ≈ **1,71**.
+
+To investeringer kan ha **samme** forventede avkastning, men den med **størst** standardavvik er mest **risikabel**.
+
+## Regneregler
+
+For tall a og b:
+
+- **E(aX + b) = a · E(X) + b**
+- **Var(aX + b) = a² · Var(X)**
+- SD(aX + b) = |a| · SD(X)
+
+Å legge til en konstant **flytter** fordelingen, men endrer ikke spredningen.
+
+For to variabler:
+
+- **E(X + Y) = E(X) + E(Y)** – alltid
+- **Var(X + Y) = Var(X) + Var(Y)** – når X og Y er **uavhengige**
+
+## Summer og gjennomsnitt
+
+La X₁, X₂, …, Xₙ være uavhengige med forventning μ og standardavvik σ.
+
+- **Summen** har forventning **nμ** og standardavvik **σ√n**.
+- **Gjennomsnittet** X̄ har forventning **μ** og standardavvik **σ/√n**.
+
+Gjennomsnittet av mange målinger er altså **mer presist** enn én måling. Det er grunnen til at vi gjentar målinger og bruker store utvalg.
+
+## Anvendelser
+
+- **Forsikring**: Selskapet regner ut forventet utbetaling per kunde og legger på et påslag. Med mange kunder blir det samlede resultatet **forutsigbart**.
+- **Spill og lotteri**: Forventningsverdien er **negativ** for spilleren – ellers ville arrangøren tapt penger.
+- **Kvalitetskontroll** og **lagerstyring**: Forventet antall feil og spredningen brukes til å planlegge.
+
+## Beregning med verktøy
+
+I **regneark** eller **Python** kan du legge verdiene og sannsynlighetene i to kolonner og regne ut summene. Kontroller alltid at sannsynlighetene summerer til 1.', '{"label":"Stokastiske variabler","children":[{"label":"Grunnlag","children":[{"label":"Stokastisk variabel"},{"label":"Fordeling summerer til 1"}]},{"label":"Mål","children":[{"label":"Forventning E(X)"},{"label":"Varians"},{"label":"Standardavvik"}]},{"label":"Regneregler","children":[{"label":"aX + b"},{"label":"X + Y"}]},{"label":"Summer og snitt","children":[{"label":"nμ og σ√n"},{"label":"μ og σ/√n"}]},{"label":"Anvendelser","children":[{"label":"Spill"},{"label":"Forsikring"},{"label":"Investeringer"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-s2:forventning-varians-og-standardavvik';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-s2:forventning-varians-og-standardavvik', 'Stokastisk variabel', 'Tall som avhenger av utfallet i et tilfeldig forsøk.', 0),
+  ('matematikk-s2:forventning-varians-og-standardavvik', 'Sannsynlighetsfordeling', 'Alle verdier og sannsynlighetene deres – summerer til 1.', 1),
+  ('matematikk-s2:forventning-varians-og-standardavvik', 'Forventningsverdi', 'E(X) = Σ x · P(X = x) – gjennomsnittet i det lange løp.', 2),
+  ('matematikk-s2:forventning-varians-og-standardavvik', 'E(X) for terning', '3,5', 3),
+  ('matematikk-s2:forventning-varians-og-standardavvik', 'Varians', 'Var(X) = Σ (x − μ)² · P(X = x)', 4),
+  ('matematikk-s2:forventning-varians-og-standardavvik', 'Standardavvik', 'σ = √Var(X) – samme enhet som X.', 5),
+  ('matematikk-s2:forventning-varians-og-standardavvik', 'E(aX + b)', 'a · E(X) + b', 6),
+  ('matematikk-s2:forventning-varians-og-standardavvik', 'Var(aX + b)', 'a² · Var(X)', 7),
+  ('matematikk-s2:forventning-varians-og-standardavvik', 'E(X + Y)', 'E(X) + E(Y)', 8),
+  ('matematikk-s2:forventning-varians-og-standardavvik', 'Var(X + Y)', 'Var(X) + Var(Y) når X og Y er uavhengige.', 9),
+  ('matematikk-s2:forventning-varians-og-standardavvik', 'Sum av n variabler', 'Forventning nμ, standardavvik σ√n.', 10),
+  ('matematikk-s2:forventning-varians-og-standardavvik', 'Gjennomsnitt av n variabler', 'Forventning μ, standardavvik σ/√n.', 11),
+  ('matematikk-s2:forventning-varians-og-standardavvik', 'Risiko', 'Stort standardavvik betyr stor usikkerhet.', 12),
+  ('matematikk-s2:forventning-varians-og-standardavvik', 'Negativ forventning', 'Taper i det lange løp – typisk for spillere.', 13),
+  ('matematikk-s2:forventning-varians-og-standardavvik', 'Forsikring', 'Mange kunder gjør samlet utbetaling forutsigbar.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-s2:forventning-varians-og-standardavvik';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-s2:forventning-varians-og-standardavvik', 'q01', 'flervalg', 'Hva er forventningsverdien til et terningkast?', array['3', '3,5', '4', '6']::text[], 1, '21/6.', true, true, 0),
+  ('matematikk-s2:forventning-varians-og-standardavvik', 'q02', 'flervalg', 'Hva er E(X) i spillet der du betaler 10 kr og vinner 50 kr med sannsynlighet 0,1?', array['−5 kr', '5 kr', '0 kr', '−10 kr']::text[], 0, '40 · 0,1 − 10 · 0,9.', true, true, 1),
+  ('matematikk-s2:forventning-varians-og-standardavvik', 'q03', 'flervalg', 'Hva måler standardavviket?', array['Gjennomsnittet', 'Den største verdien', 'Spredningen rundt forventningsverdien', 'Sannsynligheten for 0']::text[], 2, 'Kvadratroten av variansen.', true, true, 2),
+  ('matematikk-s2:forventning-varians-og-standardavvik', 'q04', 'flervalg', 'Hva er Var(3X + 2) hvis Var(X) = 4?', array['14', '12', '38', '36']::text[], 3, '3² · 4.', true, true, 3),
+  ('matematikk-s2:forventning-varians-og-standardavvik', 'q05', 'flervalg', 'Hva er E(2X + 5) hvis E(X) = 10?', array['25', '20', '15', '30']::text[], 0, '2 · 10 + 5.', true, true, 4),
+  ('matematikk-s2:forventning-varians-og-standardavvik', 'q06', 'flervalg', 'Hva er standardavviket til gjennomsnittet av 25 uavhengige målinger med σ = 10?', array['10', '2', '0,4', '250']::text[], 1, 'σ/√n = 10/5.', true, true, 5),
+  ('matematikk-s2:forventning-varians-og-standardavvik', 'q07', 'flervalg', 'Når gjelder Var(X + Y) = Var(X) + Var(Y)?', array['Alltid', 'Aldri', 'Når X og Y er uavhengige', 'Når E(X) = E(Y)']::text[], 2, 'Krever uavhengighet.', true, true, 6),
+  ('matematikk-s2:forventning-varians-og-standardavvik', 'q08', 'flervalg', 'Hvilken av to investeringer med lik forventning er mest risikabel?', array['Den med lavest forventning', 'Begge er like', 'Den med minst standardavvik', 'Den med størst standardavvik']::text[], 3, 'Større spredning.', true, true, 7),
+  ('matematikk-s2:forventning-varians-og-standardavvik', 'q09', 'flervalg', 'Hva må sannsynlighetene i en fordeling summere til?', array['1', '0', '100', 'E(X)']::text[], 0, 'Ett av utfallene skjer.', true, false, 8),
+  ('matematikk-s2:forventning-varians-og-standardavvik', 'q10', 'flervalg', 'Hva er standardavviket til summen av 100 uavhengige variabler med σ = 3?', array['300', '30', '3', '0,3']::text[], 1, 'σ√n = 3 · 10.', true, false, 9),
+  ('matematikk-s2:forventning-varians-og-standardavvik', 'm01', 'sant-usant', 'Å legge en konstant til X endrer ikke standardavviket.', array['Sant', 'Usant']::text[], 0, 'Fordelingen flyttes bare.', false, true, 10),
+  ('matematikk-s2:forventning-varians-og-standardavvik', 'm02', 'sant-usant', 'Forventningsverdien må alltid være en av verdiene X kan ta.', array['Sant', 'Usant']::text[], 1, 'En terning har forventning 3,5.', false, true, 11),
+  ('matematikk-s2:forventning-varians-og-standardavvik', 'm03', 'sant-usant', 'Gjennomsnittet av mange målinger er mer presist enn én måling.', array['Sant', 'Usant']::text[], 0, 'Standardavviket blir σ/√n.', false, true, 12),
+  ('matematikk-s2:forventning-varians-og-standardavvik', 'm04', 'sant-usant', 'Et lotteri har positiv forventningsverdi for spilleren.', array['Sant', 'Usant']::text[], 1, 'Ellers ville arrangøren tapt penger.', false, true, 13),
+  ('matematikk-s2:forventning-varians-og-standardavvik', 'm05', 'flervalg', 'X er 0 med sannsynlighet 0,5 og 2 med sannsynlighet 0,5. Hva er Var(X)?', array['2', '1', '0,5', '4']::text[], 1, '(0 − 1)² · 0,5 + (2 − 1)² · 0,5.', false, true, 14),
+  ('matematikk-s2:forventning-varians-og-standardavvik', 'm06', 'flervalg', 'Hvilken enhet har standardavviket når X måles i kroner?', array['Kroner', 'Kroner i andre', 'Ingen enhet', 'Prosent']::text[], 0, 'Variansen har kroner i andre.', false, true, 15),
+  ('matematikk-s2:forventning-varians-og-standardavvik', 'm07', 'flervalg', 'Hva er E(X + Y) når E(X) = 4 og E(Y) = 6?', array['24', '2', '10', '5']::text[], 2, 'Forventninger kan alltid legges sammen.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-s2:forventning-varians-og-standardavvik', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk S2: Diskrete fordelinger og simulering
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-s2:diskrete-fordelinger-og-simulering', 'matematikk-s2', 'diskrete-fordelinger-og-simulering', 'Diskrete fordelinger og simulering', 'Uniform, binomisk, hypergeometrisk og poissonfordeling – når de passer, formler for sannsynlighet, forventning og varians – og hvordan du simulerer utfall med programmering, utforsker fordelingene og gir eksempler på reelle anvendelser.', array[8]::int[], 8, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-s2:diskrete-fordelinger-og-simulering', '## Uniform fordeling
+
+I en **uniform** fordeling er alle utfall **like sannsynlige**, som ved et terningkast der hvert utfall har sannsynlighet 1/6.
+
+## Binomisk fordeling
+
+X er **binomisk fordelt** når
+
+- vi gjør **n** forsøk
+- hvert forsøk har to utfall: **suksess** eller **ikke**
+- sannsynligheten for suksess, **p**, er den **samme** hver gang
+- forsøkene er **uavhengige**
+
+**P(X = k) = C(n, k) · pᵏ · (1 − p)ⁿ⁻ᵏ**
+
+**E(X) = np** og **Var(X) = np(1 − p)**
+
+**Eksempel**: 30 % av kundene kjøper ekstrautstyr. Blant 10 kunder er P(X = 3) = C(10, 3) · 0,3³ · 0,7⁷ ≈ **0,267**. E(X) = 3 og Var(X) = 2,1.
+
+**Kvalitetskontroll**: 10 % av varene er defekte. Du sjekker 20. P(X ≤ 2) ≈ **0,677**.
+
+## Hypergeometrisk fordeling
+
+Når vi trekker **uten tilbakelegging** fra en **liten** populasjon, endres sannsynligheten fra trekk til trekk. Har vi N elementer der m er «spesielle», og trekker n, er
+
+**P(X = k) = C(m, k) · C(N − m, n − k)/C(N, n)**
+
+E(X) = n · m/N. **Lotto** og trekning av personer til et utvalg er typiske eksempler.
+
+Når populasjonen er **stor** i forhold til utvalget, blir hypergeometrisk og binomisk fordeling nesten **like**.
+
+## Poissonfordeling
+
+**Poissonfordelingen** beskriver **antall hendelser** i et tidsrom eller område når hendelsene skjer **tilfeldig** og **uavhengig** med en fast **gjennomsnittlig rate** λ:
+
+**P(X = k) = λᵏ · e^(−λ)/k!**
+
+**E(X) = Var(X) = λ**
+
+**Eksempel**: En butikk får i snitt 3 kunder per 10 minutter. P(ingen kunder) = e^(−3) ≈ **0,050**, og P(nøyaktig 3) ≈ **0,224**.
+
+Eksempler: telefoner til en kundeservice, trafikkulykker per måned og feil per side i en bok.
+
+## Simulering
+
+Med **simulering** lar vi datamaskinen gjennomføre forsøket **mange** ganger. Andelen ganger en hendelse skjer, nærmer seg sannsynligheten – **store talls lov**.
+
+Hva er sannsynligheten for minst én sekser på fire terningkast?
+
+```python
+import random
+N = 100000
+treff = 0
+for i in range(N):
+    kast = [random.randint(1, 6) for _ in range(4)]
+    if 6 in kast:
+        treff = treff + 1
+print(treff/N)
+```
+
+Svaret blir nær det eksakte 1 − (5/6)⁴ ≈ **0,518**.
+
+Simulering er nyttig når
+
+- **formelen** er vanskelig eller ukjent
+- vi vil **kontrollere** en utregning
+- vi vil se **formen** på en fordeling i et **histogram**
+
+## Velge riktig fordeling
+
+| Situasjon | Fordeling |
+|---|---|
+| Like sannsynlige utfall | Uniform |
+| n uavhengige forsøk, fast p | Binomisk |
+| Trekk uten tilbakelegging, liten populasjon | Hypergeometrisk |
+| Antall hendelser per tid eller område | Poisson |
+
+## Reelle anvendelser
+
+- **Flyselskaper** bruker binomisk fordeling til **overbooking**, fordi noen passasjerer ikke møter.
+- **Kundesentre** bruker poissonfordeling til å planlegge **bemanning**.
+- **Fabrikker** bruker binomisk eller hypergeometrisk fordeling i **kvalitetskontroll**.
+
+Vurder alltid om **forutsetningene** holder: Er forsøkene virkelig uavhengige, og er p den samme hele tiden?', '{"label":"Diskrete fordelinger","children":[{"label":"Uniform","children":[{"label":"Like sannsynlige utfall"}]},{"label":"Binomisk","children":[{"label":"n, p, uavhengige forsøk"},{"label":"np og np(1 − p)"}]},{"label":"Hypergeometrisk","children":[{"label":"Uten tilbakelegging"},{"label":"Lotto"}]},{"label":"Poisson","children":[{"label":"Rate λ"},{"label":"E = Var = λ"}]},{"label":"Simulering","children":[{"label":"Store talls lov"},{"label":"Python og histogram"},{"label":"Reelle anvendelser"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-s2:diskrete-fordelinger-og-simulering';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-s2:diskrete-fordelinger-og-simulering', 'Uniform fordeling', 'Alle utfall er like sannsynlige.', 0),
+  ('matematikk-s2:diskrete-fordelinger-og-simulering', 'Binomisk fordeling', 'n uavhengige forsøk med fast sannsynlighet p.', 1),
+  ('matematikk-s2:diskrete-fordelinger-og-simulering', 'Binomisk sannsynlighet', 'C(n, k) · pᵏ · (1 − p)ⁿ⁻ᵏ', 2),
+  ('matematikk-s2:diskrete-fordelinger-og-simulering', 'E og Var binomisk', 'np og np(1 − p)', 3),
+  ('matematikk-s2:diskrete-fordelinger-og-simulering', 'Hypergeometrisk fordeling', 'Trekk uten tilbakelegging fra liten populasjon.', 4),
+  ('matematikk-s2:diskrete-fordelinger-og-simulering', 'Hypergeometrisk sannsynlighet', 'C(m, k) · C(N − m, n − k)/C(N, n)', 5),
+  ('matematikk-s2:diskrete-fordelinger-og-simulering', 'E hypergeometrisk', 'n · m/N', 6),
+  ('matematikk-s2:diskrete-fordelinger-og-simulering', 'Poissonfordeling', 'Antall tilfeldige hendelser per tid eller område.', 7),
+  ('matematikk-s2:diskrete-fordelinger-og-simulering', 'Poisson sannsynlighet', 'λᵏ · e^(−λ)/k!', 8),
+  ('matematikk-s2:diskrete-fordelinger-og-simulering', 'E og Var Poisson', 'Begge er λ.', 9),
+  ('matematikk-s2:diskrete-fordelinger-og-simulering', 'Simulering', 'Datamaskinen gjentar forsøket mange ganger.', 10),
+  ('matematikk-s2:diskrete-fordelinger-og-simulering', 'Store talls lov', 'Relativ frekvens nærmer seg sannsynligheten.', 11),
+  ('matematikk-s2:diskrete-fordelinger-og-simulering', 'Histogram', 'Viser formen på en fordeling.', 12),
+  ('matematikk-s2:diskrete-fordelinger-og-simulering', 'Overbooking', 'Flyselskaper selger flere billetter enn seter – binomisk modell.', 13),
+  ('matematikk-s2:diskrete-fordelinger-og-simulering', 'random.randint(1, 6)', 'Tilfeldig heltall fra 1 til 6 i Python.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-s2:diskrete-fordelinger-og-simulering';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-s2:diskrete-fordelinger-og-simulering', 'q01', 'flervalg', 'Hva er E(X) når X er binomisk med n = 10 og p = 0,3?', array['0,3', '3', '7', '2,1']::text[], 1, 'np.', true, true, 0),
+  ('matematikk-s2:diskrete-fordelinger-og-simulering', 'q02', 'flervalg', 'Hvilken fordeling passer for antall telefoner til en kundeservice per time?', array['Poisson', 'Uniform', 'Hypergeometrisk', 'Binomisk med n = 2']::text[], 0, 'Tilfeldige hendelser med fast rate.', true, true, 1),
+  ('matematikk-s2:diskrete-fordelinger-og-simulering', 'q03', 'flervalg', 'Når passer hypergeometrisk fordeling?', array['Ved uendelig mange forsøk', 'Ved like sannsynlige utfall', 'Ved trekk uten tilbakelegging fra en liten populasjon', 'Ved hendelser per tid']::text[], 2, 'Sannsynligheten endres fra trekk til trekk.', true, true, 2),
+  ('matematikk-s2:diskrete-fordelinger-og-simulering', 'q04', 'flervalg', 'Hva er P(X = 0) i en poissonfordeling med λ = 3?', array['0', '1/3', '0,224', 'Omtrent 0,050']::text[], 3, 'e^(−3).', true, true, 3),
+  ('matematikk-s2:diskrete-fordelinger-og-simulering', 'q05', 'flervalg', 'Hva sier store talls lov?', array['Relativ frekvens nærmer seg sannsynligheten når antall forsøk øker', 'Store tall er mer sannsynlige', 'Alle utfall blir like vanlige', 'Sannsynligheten øker med antall forsøk']::text[], 0, 'Grunnlaget for simulering.', true, true, 4),
+  ('matematikk-s2:diskrete-fordelinger-og-simulering', 'q06', 'flervalg', 'Hva er Var(X) i en binomisk fordeling med n = 10 og p = 0,3?', array['3', '2,1', '0,21', '7']::text[], 1, '10 · 0,3 · 0,7.', true, true, 5),
+  ('matematikk-s2:diskrete-fordelinger-og-simulering', 'q07', 'flervalg', 'Hva er sannsynligheten for minst én sekser på fire terningkast?', array['2/3', '1/6', 'Omtrent 0,518', 'Omtrent 0,482']::text[], 2, '1 − (5/6)⁴.', true, true, 6),
+  ('matematikk-s2:diskrete-fordelinger-og-simulering', 'q08', 'flervalg', 'Hvilken forutsetning gjelder for binomisk fordeling?', array['Trekk uten tilbakelegging', 'p endres for hvert forsøk', 'Uendelig mange utfall', 'Uavhengige forsøk med samme p']::text[], 3, 'Og to utfall per forsøk.', true, true, 7),
+  ('matematikk-s2:diskrete-fordelinger-og-simulering', 'q09', 'flervalg', 'Hva gjelder for forventning og varians i en poissonfordeling?', array['Begge er λ', 'E = λ og Var = λ²', 'E = 1/λ', 'Var = 0']::text[], 0, 'Et kjennetegn for Poisson.', true, false, 8),
+  ('matematikk-s2:diskrete-fordelinger-og-simulering', 'q10', 'flervalg', 'Hvorfor bruker flyselskaper binomisk fordeling?', array['For å beregne drivstoff', 'For å planlegge overbooking', 'For å sette billettpris', 'For å beregne flytid']::text[], 1, 'Noen passasjerer møter ikke.', true, false, 9),
+  ('matematikk-s2:diskrete-fordelinger-og-simulering', 'm01', 'sant-usant', 'Ved stor populasjon blir hypergeometrisk og binomisk fordeling nesten like.', array['Sant', 'Usant']::text[], 0, 'Ett trekk endrer sannsynligheten lite.', false, true, 10),
+  ('matematikk-s2:diskrete-fordelinger-og-simulering', 'm02', 'sant-usant', 'Simulering gir alltid nøyaktig samme svar hver gang.', array['Sant', 'Usant']::text[], 1, 'Svaret varierer litt, men nærmer seg sannsynligheten.', false, true, 11),
+  ('matematikk-s2:diskrete-fordelinger-og-simulering', 'm03', 'sant-usant', 'Lotto kan beskrives med hypergeometrisk fordeling.', array['Sant', 'Usant']::text[], 0, 'Kulene trekkes uten tilbakelegging.', false, true, 12),
+  ('matematikk-s2:diskrete-fordelinger-og-simulering', 'm04', 'sant-usant', 'Binomisk fordeling kan brukes selv om forsøkene påvirker hverandre sterkt.', array['Sant', 'Usant']::text[], 1, 'Forsøkene må være uavhengige.', false, true, 13),
+  ('matematikk-s2:diskrete-fordelinger-og-simulering', 'm05', 'flervalg', 'Hva er P(X ≤ 2) når 20 varer sjekkes og 10 % er defekte?', array['0,1', 'Omtrent 0,677', 'Omtrent 0,285', '0,2']::text[], 1, 'Binomisk med n = 20 og p = 0,1.', false, true, 14),
+  ('matematikk-s2:diskrete-fordelinger-og-simulering', 'm06', 'flervalg', 'Hva kan simulering brukes til?', array['Kontrollere en utregning og se formen på en fordeling', 'Bevise en formel', 'Endre sannsynligheten', 'Fjerne tilfeldighet']::text[], 0, 'Også når formelen er ukjent.', false, true, 15),
+  ('matematikk-s2:diskrete-fordelinger-og-simulering', 'm07', 'flervalg', 'Hva er P(X = 3) i en poissonfordeling med λ = 3?', array['Omtrent 0,050', 'Omtrent 0,5', 'Omtrent 0,224', '1']::text[], 2, '3³ · e^(−3)/3!.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-s2:diskrete-fordelinger-og-simulering', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk S2: Normalfordelingen
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-s2:normalfordelingen', 'matematikk-s2', 'normalfordelingen', 'Normalfordelingen', 'Kontinuerlige fordelinger og sannsynlighetstetthet, normalfordelingens form og parametere, 68–95–99,7-regelen, standardisering med Z, bruk av tabell, GeoGebra og Python, og hvordan normalfordelingen tolkes i praktiske situasjoner.', array[8, 10]::int[], 9, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-s2:normalfordelingen', '## Kontinuerlige fordelinger
+
+Noen stokastiske variabler kan ta **alle** verdier i et intervall – for eksempel **vekt**, **høyde** og **tid**. De kalles **kontinuerlige**.
+
+Fordelingen beskrives med en **sannsynlighetstetthet** f(x). Sannsynligheten er **arealet** under grafen:
+
+**P(a < X < b) = ∫ₐᵇ f(x) dx**
+
+Hele arealet under grafen er 1. Sannsynligheten for **én bestemt** verdi er **0**, så P(X < a) = P(X ≤ a).
+
+## Normalfordelingen
+
+**Normalfordelingen** har en symmetrisk **klokkeform** og bestemmes av
+
+- **μ** – forventningen, der toppen ligger
+- **σ** – standardavviket, som bestemmer hvor **bred** kurven er
+
+Tettheten er
+
+f(x) = (1/(σ√(2π))) · e^(−(x − μ)²/(2σ²))
+
+Den kan ikke integreres med kjente funksjoner, så vi bruker **tabell**, **GeoGebra** eller **Python**.
+
+## 68–95–99,7-regelen
+
+I en normalfordeling ligger omtrent
+
+- **68 %** av verdiene innenfor μ ± σ
+- **95 %** innenfor μ ± 2σ
+- **99,7 %** innenfor μ ± 3σ
+
+## Standardisering
+
+Alle normalfordelinger kan gjøres om til **standardnormalfordelingen** med μ = 0 og σ = 1:
+
+**Z = (X − μ)/σ**
+
+Z forteller hvor mange **standardavvik** verdien ligger fra forventningen. Φ(z) = P(Z ≤ z) finnes i en **tabell**.
+
+## Eksempel: brødposer
+
+Vekten av brødposer er normalfordelt med μ = 750 g og σ = 10 g.
+
+- P(X < 730) = P(Z < −2) ≈ **0,023**
+- P(740 < X < 760) = P(−1 < Z < 1) ≈ **0,68**
+- Hvilken vekt har de **5 % letteste** posene under? Φ(z) = 0,05 gir z ≈ −1,645, og x = 750 − 1,645 · 10 ≈ **733,6 g**.
+
+## Eksempel: høyde
+
+Anta at høyden i en gruppe er normalfordelt med μ = 180 cm og σ = 7 cm. P(X > 190) = P(Z > 1,43) ≈ 1 − 0,924 = **0,076**. Omtrent 7–8 % er altså høyere enn 190 cm.
+
+## Verktøy
+
+- **GeoGebra**: Sannsynlighetskalkulatoren, eller Normal(μ, σ, x) for P(X ≤ x) og InversNormal(μ, σ, p) for å finne x.
+- **Python**: from scipy.stats import norm, deretter norm.cdf(x, μ, σ) og norm.ppf(p, μ, σ).
+
+Tegn gjerne en **skisse** av kurven og skraver området du skal finne – da ser du om svaret er rimelig.
+
+## Hvorfor er normalfordelingen så vanlig?
+
+Mange størrelser er **summen** av mange små, uavhengige bidrag – gener, miljø, små målefeil. **Sentralgrensesetningen** sier at slike summer blir tilnærmet normalfordelt. Derfor dukker normalfordelingen opp i **målinger**, **biologi**, **produksjon** og **økonomi**.
+
+## Begrensninger
+
+Ikke alle data er normalfordelte. **Inntekter** er for eksempel **skjevfordelte** med en lang hale mot høye verdier. Sjekk med et **histogram** før du bruker normalfordelingen.', '{"label":"Normalfordelingen","children":[{"label":"Kontinuerlig","children":[{"label":"Tetthet"},{"label":"Areal = sannsynlighet"}]},{"label":"Form","children":[{"label":"μ og σ"},{"label":"Klokkeform"}]},{"label":"Regler","children":[{"label":"68–95–99,7"},{"label":"Z = (X − μ)/σ"}]},{"label":"Verktøy","children":[{"label":"Tabell"},{"label":"GeoGebra"},{"label":"Python"}]},{"label":"Bruk","children":[{"label":"Produksjon"},{"label":"Målinger"},{"label":"Sjekk med histogram"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-s2:normalfordelingen';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-s2:normalfordelingen', 'Kontinuerlig variabel', 'Kan ta alle verdier i et intervall.', 0),
+  ('matematikk-s2:normalfordelingen', 'Sannsynlighetstetthet', 'Funksjon der arealet under grafen er sannsynlighet.', 1),
+  ('matematikk-s2:normalfordelingen', 'P(a < X < b)', '∫ₐᵇ f(x) dx', 2),
+  ('matematikk-s2:normalfordelingen', 'P(X = a) kontinuerlig', '0', 3),
+  ('matematikk-s2:normalfordelingen', 'Normalfordeling', 'Symmetrisk klokkeform bestemt av μ og σ.', 4),
+  ('matematikk-s2:normalfordelingen', 'μ ± σ', 'Omtrent 68 % av verdiene.', 5),
+  ('matematikk-s2:normalfordelingen', 'μ ± 2σ', 'Omtrent 95 % av verdiene.', 6),
+  ('matematikk-s2:normalfordelingen', 'μ ± 3σ', 'Omtrent 99,7 % av verdiene.', 7),
+  ('matematikk-s2:normalfordelingen', 'Standardisering', 'Z = (X − μ)/σ', 8),
+  ('matematikk-s2:normalfordelingen', 'Standardnormalfordeling', 'μ = 0 og σ = 1.', 9),
+  ('matematikk-s2:normalfordelingen', 'Φ(z)', 'P(Z ≤ z) – finnes i tabell.', 10),
+  ('matematikk-s2:normalfordelingen', 'z for 5 % nedre hale', 'Omtrent −1,645.', 11),
+  ('matematikk-s2:normalfordelingen', 'InversNormal', 'GeoGebra-kommando som finner x fra en sannsynlighet.', 12),
+  ('matematikk-s2:normalfordelingen', 'norm.cdf', 'Python-funksjon for P(X ≤ x).', 13),
+  ('matematikk-s2:normalfordelingen', 'Skjevfordeling', 'Fordeling med lang hale – for eksempel inntekter.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-s2:normalfordelingen';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-s2:normalfordelingen', 'q01', 'flervalg', 'Omtrent hvor stor andel ligger innenfor μ ± 2σ?', array['68 %', '95 %', '99,7 %', '50 %']::text[], 1, '68–95–99,7-regelen.', true, true, 0),
+  ('matematikk-s2:normalfordelingen', 'q02', 'flervalg', 'Hva er Z når X = 730, μ = 750 og σ = 10?', array['−2', '2', '−20', '0,2']::text[], 0, '(730 − 750)/10.', true, true, 1),
+  ('matematikk-s2:normalfordelingen', 'q03', 'flervalg', 'Hva er P(X = 750) når X er kontinuerlig?', array['0,5', '1', '0', '0,68']::text[], 2, 'Én enkelt verdi har areal 0.', true, true, 2),
+  ('matematikk-s2:normalfordelingen', 'q04', 'flervalg', 'Hva bestemmer σ i en normalfordeling?', array['Hvor toppen ligger', 'Arealet under kurven', 'Om kurven er symmetrisk', 'Hvor bred kurven er']::text[], 3, 'μ bestemmer plasseringen.', true, true, 3),
+  ('matematikk-s2:normalfordelingen', 'q05', 'flervalg', 'Hva er P(740 < X < 760) når μ = 750 og σ = 10?', array['Omtrent 0,68', 'Omtrent 0,95', 'Omtrent 0,5', 'Omtrent 0,34']::text[], 0, 'μ ± σ.', true, true, 4),
+  ('matematikk-s2:normalfordelingen', 'q06', 'flervalg', 'Hvordan finnes sannsynligheten i en kontinuerlig fordeling?', array['Som høyden på grafen', 'Som arealet under grafen', 'Som stigningstallet', 'Som μ']::text[], 1, 'Et integral av tettheten.', true, true, 5),
+  ('matematikk-s2:normalfordelingen', 'q07', 'flervalg', 'Hva er P(X > 190) når μ = 180 og σ = 7?', array['Omtrent 0,5', 'Omtrent 0,025', 'Omtrent 0,076', 'Omtrent 0,16']::text[], 2, 'z ≈ 1,43.', true, true, 6),
+  ('matematikk-s2:normalfordelingen', 'q08', 'flervalg', 'Hvorfor er normalfordelingen så vanlig?', array['Fordi alle data er symmetriske', 'Fordi den er lett å tegne', 'Fordi den har bare én parameter', 'Fordi summer av mange små uavhengige bidrag blir tilnærmet normalfordelt']::text[], 3, 'Sentralgrensesetningen.', true, true, 7),
+  ('matematikk-s2:normalfordelingen', 'q09', 'flervalg', 'Hvilken vekt har de 5 % letteste brødposene under når μ = 750 g og σ = 10 g?', array['Omtrent 733,6 g', '740 g', '730 g', 'Omtrent 766,4 g']::text[], 0, '750 − 1,645 · 10.', true, false, 8),
+  ('matematikk-s2:normalfordelingen', 'q10', 'flervalg', 'Hvilken type data er ofte ikke normalfordelt?', array['Målefeil', 'Inntekter', 'Vekt av produserte varer', 'Høyde']::text[], 1, 'Skjevfordelt med lang hale.', true, false, 9),
+  ('matematikk-s2:normalfordelingen', 'm01', 'sant-usant', 'Hele arealet under en sannsynlighetstetthet er 1.', array['Sant', 'Usant']::text[], 0, 'Summen av alle sannsynligheter.', false, true, 10),
+  ('matematikk-s2:normalfordelingen', 'm02', 'sant-usant', 'Normalfordelingen er skjev med lang hale mot høyre.', array['Sant', 'Usant']::text[], 1, 'Den er symmetrisk.', false, true, 11),
+  ('matematikk-s2:normalfordelingen', 'm03', 'sant-usant', 'Z forteller hvor mange standardavvik en verdi ligger fra forventningen.', array['Sant', 'Usant']::text[], 0, 'Z = (X − μ)/σ.', false, true, 12),
+  ('matematikk-s2:normalfordelingen', 'm04', 'sant-usant', 'Normalfordelingens tetthet kan enkelt integreres med kjente funksjoner.', array['Sant', 'Usant']::text[], 1, 'Vi må bruke tabell eller verktøy.', false, true, 13),
+  ('matematikk-s2:normalfordelingen', 'm05', 'flervalg', 'Omtrent hvor stor andel ligger mer enn 2σ over forventningen?', array['5 %', '2,5 %', '16 %', '0,15 %']::text[], 1, 'Halvparten av de 5 % utenfor μ ± 2σ.', false, true, 14),
+  ('matematikk-s2:normalfordelingen', 'm06', 'flervalg', 'Hvilken Python-funksjon gir P(X ≤ x) i en normalfordeling?', array['norm.cdf', 'norm.ppf', 'random.randint', 'print']::text[], 0, 'norm.ppf gir x fra en sannsynlighet.', false, true, 15),
+  ('matematikk-s2:normalfordelingen', 'm07', 'flervalg', 'Hvor ligger toppen på normalfordelingskurven?', array['Ved μ + σ', 'Ved 0 alltid', 'Ved μ', 'Ved μ − 2σ']::text[], 2, 'Kurven er symmetrisk om μ.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-s2:normalfordelingen', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk S2: Sentralgrensesetningen
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-s2:sentralgrensesetningen', 'matematikk-s2', 'sentralgrensesetningen', 'Sentralgrensesetningen', 'Hva sentralgrensesetningen sier om summer og gjennomsnitt av mange uavhengige variabler, hvordan du kan argumentere for den med simulering, normaltilnærming til binomisk fordeling, og praktiske eksempler som terningsummer, bagasjevekt og kvalitetskontroll.', array[10]::int[], 10, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-s2:sentralgrensesetningen', '## Hva sier setningen?
+
+La X₁, X₂, …, Xₙ være **uavhengige** stokastiske variabler med **samme** fordeling, forventning μ og standardavvik σ. **Sentralgrensesetningen** sier at når n er **stor**, er
+
+- **summen** S = X₁ + … + Xₙ tilnærmet **normalfordelt** med forventning **nμ** og standardavvik **σ√n**
+- **gjennomsnittet** X̄ tilnærmet normalfordelt med forventning **μ** og standardavvik **σ/√n**
+
+Det overraskende er at dette gjelder **uansett** hvilken fordeling hver Xᵢ har. En vanlig **tommelfingerregel** er at n ≥ 30 ofte er nok.
+
+## Argumentasjon med simulering
+
+Vi kan **se** setningen ved å simulere terningkast:
+
+- **Ett** kast: Fordelingen er **flat** – uniform.
+- Summen av **to** kast: Fordelingen er en **trekant** med topp ved 7.
+- Summen av **ti** kast: Fordelingen er tydelig **klokkeformet**.
+
+```python
+import random
+import matplotlib.pyplot as plt
+summer = [sum(random.randint(1, 6) for _ in range(10)) for _ in range(10000)]
+plt.hist(summer, bins=range(10, 62))
+plt.show()
+```
+
+Forklaringen er at en **ekstrem** sum krever at nesten **alle** kastene er ekstreme samtidig, mens det finnes svært mange måter å få en sum **nær midten** på. Store avvik i ett kast **jevnes ut** av de andre.
+
+## Eksempel: 100 terningkast
+
+For ett kast er μ = 3,5 og σ² = 35/12. For summen av 100 kast er
+
+- forventningen 100 · 3,5 = **350**
+- standardavviket √(100 · 35/12) ≈ **17,1**
+
+P(S > 380) ≈ P(Z > (380 − 350)/17,1) = P(Z > 1,76) ≈ **0,039**.
+
+## Eksempel: bagasje på et fly
+
+Anta at vekten av en koffert har μ = 20 kg og σ = 5 kg, og at det er 180 passasjerer. Summen har forventning 3600 kg og standardavvik 5 · √180 ≈ **67 kg**. P(S > 3700) ≈ P(Z > 1,49) ≈ **0,068**. Selv om hver koffert varierer mye, er den **totale** vekten ganske forutsigbar.
+
+## Normaltilnærming til binomisk fordeling
+
+En binomisk variabel er en **sum** av n forsøk som hver gir 0 eller 1. Derfor er den tilnærmet normalfordelt når n er stor:
+
+**X ≈ N(np, √(np(1 − p)))**
+
+En vanlig tommelfingerregel er at både np og n(1 − p) bør være minst 5.
+
+**Eksempel**: 100 myntkast, P(X ≥ 60). Her er μ = 50 og σ = 5.
+
+- Normaltilnærming: P(Z ≥ 2) ≈ 0,023
+- Med **heltallskorreksjon**, P(X ≥ 59,5): P(Z ≥ 1,9) ≈ **0,029**
+- Eksakt binomisk: **0,028**
+
+Heltallskorreksjonen gir bedre tilnærming fordi vi går fra **heltall** til en **kontinuerlig** fordeling.
+
+## Betydning
+
+Sentralgrensesetningen forklarer hvorfor
+
+- **målefeil** og mange **naturlige** størrelser er normalfordelte
+- **gjennomsnitt** fra store utvalg er pålitelige – spredningen σ/√n blir liten
+- vi kan bruke normalfordelingen i **hypotesetesting** og **konfidensintervaller** selv når dataene ikke er normalfordelte
+
+## Forbehold
+
+Variablene må være **uavhengige**. Er de ikke det – som når mange kunder påvirker hverandre – kan summen få en helt annen fordeling. Med **små** n og svært **skjeve** fordelinger kan tilnærmingen være dårlig.', '{"label":"Sentralgrensesetningen","children":[{"label":"Innhold","children":[{"label":"Sum: nμ og σ√n"},{"label":"Gjennomsnitt: μ og σ/√n"}]},{"label":"Argumentasjon","children":[{"label":"Simulering av terninger"},{"label":"Utjevning av avvik"}]},{"label":"Binomisk","children":[{"label":"Normaltilnærming"},{"label":"Heltallskorreksjon"}]},{"label":"Eksempler","children":[{"label":"100 terningkast"},{"label":"Bagasjevekt"}]},{"label":"Betydning og forbehold","children":[{"label":"Målefeil og gjennomsnitt"},{"label":"Uavhengighet"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-s2:sentralgrensesetningen';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-s2:sentralgrensesetningen', 'Sentralgrensesetningen', 'Summer og gjennomsnitt av mange uavhengige variabler er tilnærmet normalfordelte.', 0),
+  ('matematikk-s2:sentralgrensesetningen', 'Sum av n variabler', 'Forventning nμ, standardavvik σ√n.', 1),
+  ('matematikk-s2:sentralgrensesetningen', 'Gjennomsnitt av n variabler', 'Forventning μ, standardavvik σ/√n.', 2),
+  ('matematikk-s2:sentralgrensesetningen', 'Uansett fordeling', 'Setningen gjelder selv om hver variabel ikke er normalfordelt.', 3),
+  ('matematikk-s2:sentralgrensesetningen', 'Tommelfingerregel for n', 'n ≥ 30 er ofte nok.', 4),
+  ('matematikk-s2:sentralgrensesetningen', 'Én terning', 'Uniform – flat fordeling.', 5),
+  ('matematikk-s2:sentralgrensesetningen', 'Sum av to terninger', 'Trekantformet med topp ved 7.', 6),
+  ('matematikk-s2:sentralgrensesetningen', 'Sum av ti terninger', 'Tydelig klokkeformet.', 7),
+  ('matematikk-s2:sentralgrensesetningen', 'Normaltilnærming binomisk', 'X ≈ N(np, √(np(1 − p)))', 8),
+  ('matematikk-s2:sentralgrensesetningen', 'Vilkår for normaltilnærming', 'np og n(1 − p) minst 5 – tommelfingerregel.', 9),
+  ('matematikk-s2:sentralgrensesetningen', 'Heltallskorreksjon', 'Justering med 0,5 fra diskret til kontinuerlig fordeling.', 10),
+  ('matematikk-s2:sentralgrensesetningen', 'Uavhengighet', 'Nødvendig forutsetning for setningen.', 11),
+  ('matematikk-s2:sentralgrensesetningen', 'Utjevning', 'Store avvik i én variabel jevnes ut av de andre.', 12),
+  ('matematikk-s2:sentralgrensesetningen', 'Sum av 100 terninger', 'Forventning 350, standardavvik omtrent 17,1.', 13),
+  ('matematikk-s2:sentralgrensesetningen', 'Betydning', 'Forklarer hvorfor normalfordelingen er så vanlig.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-s2:sentralgrensesetningen';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-s2:sentralgrensesetningen', 'q01', 'flervalg', 'Hva sier sentralgrensesetningen?', array['At alle variabler er normalfordelte', 'At summer og gjennomsnitt av mange uavhengige variabler blir tilnærmet normalfordelte', 'At gjennomsnittet alltid er 0', 'At variansen er 1']::text[], 1, 'Uansett fordelingen til hver variabel.', true, true, 0),
+  ('matematikk-s2:sentralgrensesetningen', 'q02', 'flervalg', 'Hva er standardavviket til gjennomsnittet av n variabler med standardavvik σ?', array['σ/√n', 'σ√n', 'nσ', 'σ']::text[], 0, 'Gjennomsnittet blir mer presist.', true, true, 1),
+  ('matematikk-s2:sentralgrensesetningen', 'q03', 'flervalg', 'Hvilken form har fordelingen til summen av to terningkast?', array['Flat', 'Klokkeform', 'Trekant med topp ved 7', 'Skjev mot høyre']::text[], 2, 'Flest kombinasjoner gir 7.', true, true, 2),
+  ('matematikk-s2:sentralgrensesetningen', 'q04', 'flervalg', 'Hva er forventningen til summen av 100 terningkast?', array['100', '600', '35', '350']::text[], 3, '100 · 3,5.', true, true, 3),
+  ('matematikk-s2:sentralgrensesetningen', 'q05', 'flervalg', 'Hvilken normalfordeling tilnærmer en binomisk fordeling med n og p?', array['N(np, √(np(1 − p)))', 'N(p, n)', 'N(0, 1) alltid', 'N(n, p)']::text[], 0, 'Forventning np og varians np(1 − p).', true, true, 4),
+  ('matematikk-s2:sentralgrensesetningen', 'q06', 'flervalg', 'Hvilken forutsetning er nødvendig for sentralgrensesetningen?', array['At variablene er normalfordelte', 'At variablene er uavhengige', 'At n = 2', 'At σ = 1']::text[], 1, 'Avhengighet kan gi en annen fordeling.', true, true, 5),
+  ('matematikk-s2:sentralgrensesetningen', 'q07', 'flervalg', 'Hvorfor bruker vi heltallskorreksjon?', array['For å gjøre utregningen raskere', 'For å øke standardavviket', 'Fordi vi tilnærmer en diskret fordeling med en kontinuerlig', 'Fordi n er liten']::text[], 2, 'Justerer med 0,5.', true, true, 6),
+  ('matematikk-s2:sentralgrensesetningen', 'q08', 'flervalg', 'Hva er standardavviket til summen av 100 uavhengige variabler med σ = 2?', array['200', '2', '0,2', '20']::text[], 3, '2 · √100.', true, true, 7),
+  ('matematikk-s2:sentralgrensesetningen', 'q09', 'flervalg', 'Hva er P(X ≥ 60) omtrent ved 100 myntkast?', array['Omtrent 0,03', 'Omtrent 0,5', 'Omtrent 0,16', 'Omtrent 0,6']::text[], 0, 'Eksakt 0,028.', true, false, 8),
+  ('matematikk-s2:sentralgrensesetningen', 'q10', 'flervalg', 'Hvorfor er ekstreme summer sjeldne?', array['Fordi terningene er skjeve', 'Fordi nesten alle enkeltutfall må være ekstreme samtidig', 'Fordi summen alltid er 350', 'Fordi variansen er null']::text[], 1, 'Avvik jevnes ut.', true, false, 9),
+  ('matematikk-s2:sentralgrensesetningen', 'm01', 'sant-usant', 'Sentralgrensesetningen gjelder selv om hver variabel er uniformt fordelt.', array['Sant', 'Usant']::text[], 0, 'Terningeksempelet viser det.', false, true, 10),
+  ('matematikk-s2:sentralgrensesetningen', 'm02', 'sant-usant', 'Gjennomsnittet av mange målinger får større spredning jo flere målinger vi tar.', array['Sant', 'Usant']::text[], 1, 'Spredningen σ/√n blir mindre.', false, true, 11),
+  ('matematikk-s2:sentralgrensesetningen', 'm03', 'sant-usant', 'En binomisk variabel er en sum av mange forsøk som gir 0 eller 1.', array['Sant', 'Usant']::text[], 0, 'Derfor gjelder sentralgrensesetningen.', false, true, 12),
+  ('matematikk-s2:sentralgrensesetningen', 'm04', 'sant-usant', 'Normaltilnærmingen er alltid god, selv for n = 3.', array['Sant', 'Usant']::text[], 1, 'Den krever stor n.', false, true, 13),
+  ('matematikk-s2:sentralgrensesetningen', 'm05', 'flervalg', 'Hva er standardavviket til den samlede bagasjevekten for 180 kofferter med σ = 5 kg?', array['900 kg', 'Omtrent 67 kg', '5 kg', 'Omtrent 13 kg']::text[], 1, '5 · √180.', false, true, 14),
+  ('matematikk-s2:sentralgrensesetningen', 'm06', 'flervalg', 'Hvilken tommelfingerregel brukes ofte for når n er stor nok?', array['n ≥ 30', 'n ≥ 2', 'n = 1000 nøyaktig', 'n ≤ 10']::text[], 0, 'Avhenger av hvor skjev fordelingen er.', false, true, 15),
+  ('matematikk-s2:sentralgrensesetningen', 'm07', 'flervalg', 'Hvorfor er den totale bagasjevekten på et fly ganske forutsigbar?', array['Fordi alle kofferter veier likt', 'Fordi flyet veier kofferter', 'Fordi variasjonen i enkeltkofferter jevnes ut i summen', 'Fordi σ er null']::text[], 2, 'Relativ spredning σ√n/(nμ) blir liten.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-s2:sentralgrensesetningen', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk S2: Hypotesetesting
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-s2:hypotesetesting', 'matematikk-s2', 'hypotesetesting', 'Hypotesetesting', 'Hvordan du gjennomfører en hypotesetest på reelle data – nullhypotese og alternativ hypotese, signifikansnivå, p-verdi, ensidige og tosidige tester, test av en andel med binomisk fordeling og normaltilnærming – og hvordan du tolker resultatet og feiltypene.', array[11]::int[], 11, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-s2:hypotesetesting', '## Idéen
+
+En **hypotesetest** undersøker om data gir **grunnlag** for å påstå noe. Vi antar først at «ingenting spesielt» er tilfellet, og ser om dataene er **for usannsynlige** til at antakelsen er rimelig.
+
+## Hypotesene
+
+- **Nullhypotesen H₀**: «ingen endring» eller «påstanden stemmer», for eksempel p = 0,05.
+- **Den alternative hypotesen H₁**: det vi vil undersøke, for eksempel p > 0,05.
+
+Testen er **ensidig** hvis H₁ bare gjelder én retning (p > 0,05 eller p < 0,05), og **tosidig** hvis H₁ er p ≠ 0,05.
+
+## Signifikansnivå og p-verdi
+
+- **Signifikansnivået** α velges **før** vi ser på dataene – ofte **5 %**.
+- **p-verdien** er sannsynligheten for å få et resultat **minst like ekstremt** som det vi fikk, **dersom H₀ er sann**.
+
+**Regel**: Er **p-verdien ≤ α**, **forkaster** vi H₀. Ellers **beholder** vi H₀.
+
+## Stegene
+
+1. Formuler **H₀** og **H₁**.
+2. Velg **signifikansnivå**.
+3. Finn **teststørrelsen** – for eksempel antall defekte.
+4. Regn ut **p-verdien** med riktig fordeling.
+5. **Konkluder** og **tolk** i sammenhengen.
+
+## Eksempel 1: andel defekte
+
+En produsent påstår at høyst 5 % av varene er defekte. Vi sjekker 100 varer og finner 10 defekte.
+
+- H₀: p = 0,05 og H₁: p > 0,05 – ensidig
+- X er binomisk med n = 100 og p = 0,05 hvis H₀ er sann.
+- p-verdi: P(X ≥ 10) ≈ **0,028**
+
+0,028 < 0,05, så vi **forkaster** H₀. Dataene gir grunnlag for å påstå at andelen defekte er **større enn 5 %**.
+
+## Eksempel 2: er mynten rettferdig?
+
+Vi kaster en mynt 100 ganger og får 60 kron.
+
+- H₀: p = 0,5 og H₁: p ≠ 0,5 – tosidig
+- P(X ≥ 60) ≈ 0,028. Fordi testen er tosidig, dobler vi: p-verdi ≈ **0,057**.
+
+0,057 > 0,05, så vi **beholder** H₀. Vi har **ikke** grunnlag for å påstå at mynten er skjev – men det er heller **ikke bevist** at den er rettferdig.
+
+## Normaltilnærming
+
+Når n er stor, kan vi bruke normalfordelingen. Andelen p̂ = X/n er tilnærmet normalfordelt med forventning p og standardavvik √(p(1 − p)/n). Teststørrelsen er
+
+**Z = (p̂ − p₀)/√(p₀(1 − p₀)/n)**
+
+## To typer feil
+
+- **Type I-feil**: Vi **forkaster** H₀ selv om den er **sann**. Sannsynligheten er α.
+- **Type II-feil**: Vi **beholder** H₀ selv om den er **usann**.
+
+Mindre α gir færre type I-feil, men flere type II-feil. Et **større utvalg** reduserer type II-feil.
+
+## Tolking
+
+- Å forkaste H₀ er **ikke** et bevis – det er et **statistisk grunnlag**.
+- Å beholde H₀ betyr **ikke** at H₀ er sann.
+- **Statistisk signifikant** betyr ikke nødvendigvis **viktig i praksis**. Med store utvalg kan små, uviktige forskjeller bli signifikante.
+- Tester du **mange** hypoteser, vil noen bli signifikante **ved en tilfeldighet**.
+
+## Reelle data
+
+Hypotesetesting brukes i **medisinske studier**, **kvalitetskontroll**, **meningsmålinger** og **markedsundersøkelser**. Tenk gjennom hvordan dataene er **samlet inn**: Et skjevt utvalg gir feil konklusjon uansett hvor god testen er.', '{"label":"Hypotesetesting","children":[{"label":"Hypoteser","children":[{"label":"H₀ og H₁"},{"label":"Ensidig og tosidig"}]},{"label":"Beslutning","children":[{"label":"Signifikansnivå α"},{"label":"p-verdi"},{"label":"p ≤ α: forkast"}]},{"label":"Metoder","children":[{"label":"Binomisk"},{"label":"Normaltilnærming"}]},{"label":"Feil","children":[{"label":"Type I"},{"label":"Type II"}]},{"label":"Tolking","children":[{"label":"Ikke bevis"},{"label":"Praktisk betydning"},{"label":"Utvalget"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-s2:hypotesetesting';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-s2:hypotesetesting', 'Hypotesetest', 'Undersøker om data gir grunnlag for å påstå noe.', 0),
+  ('matematikk-s2:hypotesetesting', 'Nullhypotese H₀', '«Ingen endring» – antas sann i utgangspunktet.', 1),
+  ('matematikk-s2:hypotesetesting', 'Alternativ hypotese H₁', 'Det vi vil undersøke.', 2),
+  ('matematikk-s2:hypotesetesting', 'Ensidig test', 'H₁ gjelder bare én retning.', 3),
+  ('matematikk-s2:hypotesetesting', 'Tosidig test', 'H₁: p ≠ p₀ – p-verdien dobles.', 4),
+  ('matematikk-s2:hypotesetesting', 'Signifikansnivå α', 'Grensen for å forkaste H₀ – ofte 5 %.', 5),
+  ('matematikk-s2:hypotesetesting', 'p-verdi', 'Sannsynligheten for et minst like ekstremt resultat dersom H₀ er sann.', 6),
+  ('matematikk-s2:hypotesetesting', 'Forkaste H₀', 'Når p-verdien ≤ α.', 7),
+  ('matematikk-s2:hypotesetesting', 'Teststørrelse', 'Tallet vi bruker i testen, for eksempel antall defekte.', 8),
+  ('matematikk-s2:hypotesetesting', 'Z for andel', '(p̂ − p₀)/√(p₀(1 − p₀)/n)', 9),
+  ('matematikk-s2:hypotesetesting', 'Type I-feil', 'Forkaste H₀ selv om den er sann.', 10),
+  ('matematikk-s2:hypotesetesting', 'Type II-feil', 'Beholde H₀ selv om den er usann.', 11),
+  ('matematikk-s2:hypotesetesting', 'Beholde H₀', 'Betyr ikke at H₀ er bevist.', 12),
+  ('matematikk-s2:hypotesetesting', 'Statistisk signifikant', 'Ikke nødvendigvis viktig i praksis.', 13),
+  ('matematikk-s2:hypotesetesting', 'Skjevt utvalg', 'Gir feil konklusjon uansett test.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-s2:hypotesetesting';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-s2:hypotesetesting', 'q01', 'flervalg', 'Hva er p-verdien?', array['Sannsynligheten for at H₀ er sann', 'Sannsynligheten for et minst like ekstremt resultat dersom H₀ er sann', 'Signifikansnivået', 'Andelen defekte']::text[], 1, 'Beregnes under antakelsen om H₀.', true, true, 0),
+  ('matematikk-s2:hypotesetesting', 'q02', 'flervalg', 'Når forkaster vi H₀?', array['Når p-verdien ≤ α', 'Når p-verdien > α', 'Alltid', 'Når n er stor']::text[], 0, 'Resultatet er for usannsynlig under H₀.', true, true, 1),
+  ('matematikk-s2:hypotesetesting', 'q03', 'flervalg', 'Hva er en type I-feil?', array['Å beholde en usann H₀', 'Å regne feil', 'Å forkaste en sann H₀', 'Å velge feil fordeling']::text[], 2, 'Sannsynligheten er α.', true, true, 2),
+  ('matematikk-s2:hypotesetesting', 'q04', 'flervalg', 'Hva gjør vi med p-verdien i en tosidig test?', array['Halverer den', 'Tar kvadratroten', 'Lar den være', 'Dobler den']::text[], 3, 'Ekstreme resultater i begge retninger teller.', true, true, 3),
+  ('matematikk-s2:hypotesetesting', 'q05', 'flervalg', 'I eksempelet med 10 defekte av 100 er p-verdien 0,028. Hva blir konklusjonen ved 5 % nivå?', array['Forkast H₀', 'Behold H₀', 'Testen er ugyldig', 'Vi trenger ikke konkludere']::text[], 0, '0,028 < 0,05.', true, true, 4),
+  ('matematikk-s2:hypotesetesting', 'q06', 'flervalg', 'Hva betyr det å beholde H₀?', array['At H₀ er bevist', 'At vi ikke har grunnlag for å forkaste H₀', 'At H₁ er bevist', 'At dataene er feil']::text[], 1, 'Ikke et bevis for H₀.', true, true, 5),
+  ('matematikk-s2:hypotesetesting', 'q07', 'flervalg', '60 kron på 100 kast gir tosidig p-verdi 0,057. Hva er konklusjonen ved 5 % nivå?', array['Mynten er skjev', 'Mynten er bevist rettferdig', 'Vi beholder H₀', 'Vi forkaster H₀']::text[], 2, '0,057 > 0,05.', true, true, 6),
+  ('matematikk-s2:hypotesetesting', 'q08', 'flervalg', 'Når velges signifikansnivået?', array['Etter at p-verdien er regnet ut', 'Når resultatet er kjent', 'Det velges aldri', 'Før vi ser på dataene']::text[], 3, 'Ellers kan vi jukse med konklusjonen.', true, true, 7),
+  ('matematikk-s2:hypotesetesting', 'q09', 'flervalg', 'Hva er en type II-feil?', array['Å beholde H₀ selv om den er usann', 'Å forkaste en sann H₀', 'Å bruke feil α', 'Å doble p-verdien']::text[], 0, 'Reduseres med større utvalg.', true, false, 8),
+  ('matematikk-s2:hypotesetesting', 'q10', 'flervalg', 'Hvorfor er ikke statistisk signifikant alltid viktig?', array['Fordi signifikans er tilfeldig', 'Fordi små, uviktige forskjeller kan bli signifikante i store utvalg', 'Fordi p-verdien alltid er feil', 'Fordi α er for stor']::text[], 1, 'Skill mellom statistisk og praktisk betydning.', true, false, 9),
+  ('matematikk-s2:hypotesetesting', 'm01', 'sant-usant', 'Et større utvalg reduserer sannsynligheten for type II-feil.', array['Sant', 'Usant']::text[], 0, 'Testen får større styrke.', false, true, 10),
+  ('matematikk-s2:hypotesetesting', 'm02', 'sant-usant', 'Å forkaste H₀ beviser at H₁ er sann.', array['Sant', 'Usant']::text[], 1, 'Det gir et statistisk grunnlag, ikke et bevis.', false, true, 11),
+  ('matematikk-s2:hypotesetesting', 'm03', 'sant-usant', 'Tester vi mange hypoteser, vil noen bli signifikante ved en tilfeldighet.', array['Sant', 'Usant']::text[], 0, 'Med α = 5 % omtrent én av tjue.', false, true, 12),
+  ('matematikk-s2:hypotesetesting', 'm04', 'sant-usant', 'Nullhypotesen er vanligvis det vi ønsker å vise.', array['Sant', 'Usant']::text[], 1, 'Det er vanligvis den alternative hypotesen.', false, true, 13),
+  ('matematikk-s2:hypotesetesting', 'm05', 'flervalg', 'Hvilken hypotese er riktig H₁ når vi mistenker at andelen er større enn 5 %?', array['p = 0,05', 'p > 0,05', 'p < 0,05', 'p ≠ 0,5']::text[], 1, 'Ensidig test.', false, true, 14),
+  ('matematikk-s2:hypotesetesting', 'm06', 'flervalg', 'Hva er sannsynligheten for type I-feil?', array['α', 'p-verdien alltid', '1 − α', '0']::text[], 0, 'Signifikansnivået.', false, true, 15),
+  ('matematikk-s2:hypotesetesting', 'm07', 'flervalg', 'Hva er et problem med et skjevt utvalg?', array['Det gjør testen raskere', 'Det gir alltid lav p-verdi', 'Det kan gi feil konklusjon uansett test', 'Det har ingen betydning']::text[], 2, 'Datainnsamlingen er avgjørende.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-s2:hypotesetesting', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk S2: Test av gjennomsnitt og konfidensintervall
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-s2:gjennomsnitt-og-konfidensintervall', 'matematikk-s2', 'gjennomsnitt-og-konfidensintervall', 'Test av gjennomsnitt og konfidensintervall', 'Hvordan du tester en påstand om et gjennomsnitt med normalfordelingen, hva som endres når standardavviket er ukjent, hvordan du lager og tolker konfidensintervaller for gjennomsnitt og andeler, og sammenhengen mellom konfidensintervall og hypotesetest.', array[10, 11]::int[], 12, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-s2:gjennomsnitt-og-konfidensintervall', '## Gjennomsnitt i et utvalg
+
+Vi vil vite noe om **forventningen μ** i en populasjon, men har bare et **utvalg** med n målinger og gjennomsnitt x̄. Etter **sentralgrensesetningen** er X̄ tilnærmet normalfordelt med
+
+- forventning **μ**
+- standardavvik **σ/√n** – ofte kalt **standardfeilen**
+
+## Test av gjennomsnitt med kjent σ
+
+Teststørrelsen er
+
+**Z = (x̄ − μ₀)/(σ/√n)**
+
+**Eksempel**: Pakker skal veie 500 g. Maskinen har σ = 6 g. Et utvalg på 36 pakker gir x̄ = 497,5 g. Veier pakkene feil?
+
+- H₀: μ = 500 og H₁: μ ≠ 500 – tosidig
+- Z = (497,5 − 500)/(6/√36) = −2,5/1 = **−2,5**
+- p-verdi = 2 · P(Z ≤ −2,5) ≈ 2 · 0,0062 ≈ **0,012**
+
+0,012 < 0,05, så vi **forkaster** H₀. Det er grunnlag for å påstå at maskinen ikke fyller riktig i gjennomsnitt.
+
+## Ukjent standardavvik
+
+Ofte kjenner vi ikke σ og må bruke **utvalgets standardavvik s**. Da gir **t-fordelingen** en mer korrekt test, særlig for små utvalg. Den ligner normalfordelingen, men har **tykkere haler**. I Python kan du bruke scipy.stats.ttest_1samp. For store utvalg blir t-fordelingen og normalfordelingen nesten like.
+
+## Konfidensintervall for gjennomsnitt
+
+Et **95 % konfidensintervall** for μ er
+
+**x̄ ± 1,96 · σ/√n**
+
+For pakkene blir det 497,5 ± 1,96 · 1, altså omtrent **[495,5, 499,5]** gram.
+
+**Tolking**: Hvis vi gjentok utvalget mange ganger og laget et slikt intervall hver gang, ville omtrent **95 %** av intervallene inneholde den sanne μ. Det er **metoden** som treffer i 95 % av tilfellene.
+
+## Konfidensintervall for andel
+
+Med andelen p̂ i et utvalg på n er et 95 % konfidensintervall
+
+**p̂ ± 1,96 · √(p̂(1 − p̂)/n)**
+
+**Eksempel**: I en meningsmåling med 1000 personer svarer 30 % at de vil stemme på et parti. Feilmarginen er
+
+1,96 · √(0,3 · 0,7/1000) ≈ **0,028**
+
+Intervallet er omtrent **27,2 % til 32,8 %** – «pluss minus 2,8 prosentpoeng».
+
+## Bredden på intervallet
+
+- Større utvalg gir **smalere** intervall. For å **halvere** feilmarginen trenger du **fire** ganger så stort utvalg.
+- Høyere konfidensnivå, for eksempel 99 %, gir **bredere** intervall. Da bruker vi 2,576 i stedet for 1,96.
+- Større spredning i dataene gir bredere intervall.
+
+## Sammenheng med hypotesetest
+
+En **tosidig** test på 5 % nivå forkaster H₀: μ = μ₀ **akkurat når** μ₀ ligger **utenfor** 95 % konfidensintervallet. For pakkene ligger 500 g utenfor [495,5, 499,5], og testen forkastet H₀.
+
+## Reelle data og kritisk blikk
+
+- Er utvalget **tilfeldig** og **representativt**? En nettavstemning der alle kan svare, gir ikke et gyldig konfidensintervall.
+- Er målingene **uavhengige**?
+- Feilmarginen i en meningsmåling tar bare hensyn til **tilfeldig** variasjon, ikke til at noen lar være å svare eller svarer uærlig.
+
+Når to partier i en måling skiller seg med mindre enn feilmarginen, kan vi **ikke** si sikkert hvem som er størst.', '{"label":"Gjennomsnitt og intervall","children":[{"label":"Utvalg","children":[{"label":"x̄ og μ"},{"label":"Standardfeil σ/√n"}]},{"label":"Test","children":[{"label":"Z-test med kjent σ"},{"label":"t-test med ukjent σ"}]},{"label":"Konfidensintervall","children":[{"label":"For gjennomsnitt"},{"label":"For andel"},{"label":"Tolking"}]},{"label":"Bredde","children":[{"label":"Utvalgsstørrelse"},{"label":"Konfidensnivå"}]},{"label":"Kritisk blikk","children":[{"label":"Representativt utvalg"},{"label":"Meningsmålinger"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-s2:gjennomsnitt-og-konfidensintervall';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-s2:gjennomsnitt-og-konfidensintervall', 'Standardfeil', 'σ/√n – standardavviket til gjennomsnittet.', 0),
+  ('matematikk-s2:gjennomsnitt-og-konfidensintervall', 'Z for gjennomsnitt', '(x̄ − μ₀)/(σ/√n)', 1),
+  ('matematikk-s2:gjennomsnitt-og-konfidensintervall', 'Utvalgets standardavvik s', 'Brukes når σ er ukjent.', 2),
+  ('matematikk-s2:gjennomsnitt-og-konfidensintervall', 't-fordelingen', 'Brukes med ukjent σ – tykkere haler enn normalfordelingen.', 3),
+  ('matematikk-s2:gjennomsnitt-og-konfidensintervall', 'ttest_1samp', 'Python-funksjon for t-test av ett gjennomsnitt.', 4),
+  ('matematikk-s2:gjennomsnitt-og-konfidensintervall', '95 % konfidensintervall for μ', 'x̄ ± 1,96 · σ/√n', 5),
+  ('matematikk-s2:gjennomsnitt-og-konfidensintervall', '95 % konfidensintervall for andel', 'p̂ ± 1,96 · √(p̂(1 − p̂)/n)', 6),
+  ('matematikk-s2:gjennomsnitt-og-konfidensintervall', 'Tolking av konfidensintervall', 'Metoden fanger den sanne verdien i 95 % av tilfellene.', 7),
+  ('matematikk-s2:gjennomsnitt-og-konfidensintervall', 'Feilmargin', 'Halve bredden av konfidensintervallet.', 8),
+  ('matematikk-s2:gjennomsnitt-og-konfidensintervall', 'Halvere feilmarginen', 'Krever fire ganger så stort utvalg.', 9),
+  ('matematikk-s2:gjennomsnitt-og-konfidensintervall', '99 % konfidensintervall', 'Bruker 2,576 – bredere intervall.', 10),
+  ('matematikk-s2:gjennomsnitt-og-konfidensintervall', 'Test og intervall', 'Tosidig test forkaster når μ₀ ligger utenfor intervallet.', 11),
+  ('matematikk-s2:gjennomsnitt-og-konfidensintervall', 'Representativt utvalg', 'Speiler populasjonen – nødvendig for gyldige konklusjoner.', 12),
+  ('matematikk-s2:gjennomsnitt-og-konfidensintervall', 'Feilmargin i meningsmåling', 'Tar bare hensyn til tilfeldig variasjon.', 13),
+  ('matematikk-s2:gjennomsnitt-og-konfidensintervall', '1,96', 'z-verdien for 95 % tosidig.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-s2:gjennomsnitt-og-konfidensintervall';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-s2:gjennomsnitt-og-konfidensintervall', 'q01', 'flervalg', 'Hva er standardfeilen når σ = 6 og n = 36?', array['6', '1', '0,17', '36']::text[], 1, '6/√36.', true, true, 0),
+  ('matematikk-s2:gjennomsnitt-og-konfidensintervall', 'q02', 'flervalg', 'Hva er Z når x̄ = 497,5, μ₀ = 500, σ = 6 og n = 36?', array['−2,5', '2,5', '−0,4', '−15']::text[], 0, '−2,5/1.', true, true, 1),
+  ('matematikk-s2:gjennomsnitt-og-konfidensintervall', 'q03', 'flervalg', 'Hva er et 95 % konfidensintervall for μ?', array['x̄ ± σ', 'μ ± 1,96', 'x̄ ± 1,96 · σ/√n', 'x̄ ± 2,576 · σ']::text[], 2, 'Bruker standardfeilen.', true, true, 2),
+  ('matematikk-s2:gjennomsnitt-og-konfidensintervall', 'q04', 'flervalg', 'Hva er feilmarginen når 30 % av 1000 svarer ja?', array['30 prosentpoeng', '1 prosentpoeng', '10 prosentpoeng', 'Omtrent 2,8 prosentpoeng']::text[], 3, '1,96 · √(0,21/1000).', true, true, 3),
+  ('matematikk-s2:gjennomsnitt-og-konfidensintervall', 'q05', 'flervalg', 'Hvor mye større utvalg trengs for å halvere feilmarginen?', array['Fire ganger så stort', 'Dobbelt så stort', 'Halvparten så stort', 'Ti ganger så stort']::text[], 0, 'Feilmarginen avtar med √n.', true, true, 4),
+  ('matematikk-s2:gjennomsnitt-og-konfidensintervall', 'q06', 'flervalg', 'Hva brukes når σ er ukjent og utvalget er lite?', array['Poissonfordelingen', 't-fordelingen', 'Uniform fordeling', 'Ingen test er mulig']::text[], 1, 'Med utvalgets standardavvik s.', true, true, 5),
+  ('matematikk-s2:gjennomsnitt-og-konfidensintervall', 'q07', 'flervalg', 'Hva skjer med intervallet når konfidensnivået økes fra 95 % til 99 %?', array['Det blir smalere', 'Det blir uendret', 'Det blir bredere', 'Det forsvinner']::text[], 2, '2,576 i stedet for 1,96.', true, true, 6),
+  ('matematikk-s2:gjennomsnitt-og-konfidensintervall', 'q08', 'flervalg', 'Når forkaster en tosidig test på 5 % nivå H₀: μ = μ₀?', array['Når μ₀ ligger midt i intervallet', 'Når intervallet er bredt', 'Når x̄ = μ₀', 'Når μ₀ ligger utenfor 95 % konfidensintervallet']::text[], 3, 'Test og intervall henger sammen.', true, true, 7),
+  ('matematikk-s2:gjennomsnitt-og-konfidensintervall', 'q09', 'flervalg', 'Hvordan tolkes et 95 % konfidensintervall?', array['Metoden gir intervaller som inneholder den sanne verdien i 95 % av tilfellene', '95 % av dataene ligger i intervallet', 'μ endres i 95 % av tilfellene', 'Det er 95 % sikkert at x̄ er riktig']::text[], 0, 'Det er metoden som treffer.', true, false, 8),
+  ('matematikk-s2:gjennomsnitt-og-konfidensintervall', 'q10', 'flervalg', 'Hva tar feilmarginen i en meningsmåling ikke hensyn til?', array['Tilfeldig variasjon', 'At noen lar være å svare eller svarer uærlig', 'Utvalgets størrelse', 'Andelen som svarer ja']::text[], 1, 'Bare tilfeldig variasjon.', true, false, 9),
+  ('matematikk-s2:gjennomsnitt-og-konfidensintervall', 'm01', 'sant-usant', 'For store utvalg blir t-fordelingen og normalfordelingen nesten like.', array['Sant', 'Usant']::text[], 0, 'Forskjellen er størst for små utvalg.', false, true, 10),
+  ('matematikk-s2:gjennomsnitt-og-konfidensintervall', 'm02', 'sant-usant', 'En nettavstemning der alle kan svare, gir et gyldig konfidensintervall.', array['Sant', 'Usant']::text[], 1, 'Utvalget er ikke tilfeldig.', false, true, 11),
+  ('matematikk-s2:gjennomsnitt-og-konfidensintervall', 'm03', 'sant-usant', 'Større spredning i dataene gir bredere konfidensintervall.', array['Sant', 'Usant']::text[], 0, 'σ står i telleren.', false, true, 12),
+  ('matematikk-s2:gjennomsnitt-og-konfidensintervall', 'm04', 'sant-usant', 'To partier som skiller seg med mindre enn feilmarginen, kan sikkert rangeres.', array['Sant', 'Usant']::text[], 1, 'Forskjellen kan skyldes tilfeldigheter.', false, true, 13),
+  ('matematikk-s2:gjennomsnitt-og-konfidensintervall', 'm05', 'flervalg', 'Hva er 95 % konfidensintervallet for pakkene med x̄ = 497,5 og standardfeil 1?', array['[496,5, 498,5]', 'Omtrent [495,5, 499,5]', '[490, 505]', '[497,5, 500]']::text[], 1, '497,5 ± 1,96.', false, true, 14),
+  ('matematikk-s2:gjennomsnitt-og-konfidensintervall', 'm06', 'flervalg', 'Hva er den tosidige p-verdien når Z = −2,5?', array['Omtrent 0,012', 'Omtrent 0,006', 'Omtrent 0,05', 'Omtrent 0,5']::text[], 0, '2 · 0,0062.', false, true, 15),
+  ('matematikk-s2:gjennomsnitt-og-konfidensintervall', 'm07', 'flervalg', 'Hvilken z-verdi brukes for et 99 % konfidensintervall?', array['1,645', '1,96', '2,576', '3']::text[], 2, 'Bredere enn 95 %.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-s2:gjennomsnitt-og-konfidensintervall', 15)
 on conflict (tema_id) do update set minutter = excluded.minutter;
 
 commit;

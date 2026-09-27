@@ -1,0 +1,79 @@
+{
+  "id": "funksjonsanalyse-med-integrasjon",
+  "fagId": "matematikk-s2",
+  "trinnId": "vg3",
+  "name": "Funksjonsanalyse med derivasjon og integrasjon",
+  "intro": "Hvordan du analyserer og tolker funksjoner med derivasjon – monotoni, topp- og bunnpunkter, krumning og vendepunkter – og med integrasjon – areal mellom grafer og gjennomsnittsverdi – og hvordan du tolker resultatene i praktiske sammenhenger.",
+  "kompetansemaal": [5],
+  "sammendrag": "## Den deriverte forteller om stigning\n\n- **f′(x) > 0**: f er **voksende**.\n- **f′(x) < 0**: f er **avtagende**.\n- **f′(x) = 0**: grafen har en **vannrett tangent** – et mulig **topp-** eller **bunnpunkt**.\n\nEn **fortegnslinje** for f′ viser hvor funksjonen vokser og avtar.\n\n**Eksempel**: f(x) = x³ − 3x. Da er f′(x) = 3x² − 3 = 3(x − 1)(x + 1).\n\n- f′ er positiv for x < −1, negativ mellom −1 og 1, og positiv for x > 1.\n- **Toppunkt** i (−1, 2) og **bunnpunkt** i (1, −2).\n\n## Den andrederiverte forteller om krumning\n\n- **f″(x) > 0**: grafen **krummer opp** – den deriverte vokser.\n- **f″(x) < 0**: grafen **krummer ned**.\n- Et **vendepunkt** er der f″ skifter fortegn. Der er stigningen størst eller minst.\n\nFor f(x) = x³ − 3x er f″(x) = 6x, så vendepunktet er (0, 0).\n\n## Areal mellom grafer\n\nNår f(x) ≥ g(x) på [a, b], er arealet mellom grafene\n\n**∫ₐᵇ (f(x) − g(x)) dx**\n\nFinn først **skjæringspunktene** – de er ofte grensene.\n\n**Eksempel**: y = 2x og y = x² skjærer hverandre når x² = 2x, altså x = 0 og x = 2. Mellom dem ligger 2x **over** x², så arealet er\n\n∫₀² (2x − x²) dx = [x² − x³/3]₀² = 4 − 8/3 = **4/3**\n\n## Gjennomsnittsverdi\n\nGjennomsnittsverdien av f på [a, b] er\n\n**(1/(b − a)) · ∫ₐᵇ f(x) dx**\n\nDet er høyden på et **rektangel** med samme bredde og samme areal som området under grafen.\n\n**Eksempel**: For f(x) = x² på [0, 3] er gjennomsnittet (1/3) · [x³/3]₀³ = (1/3) · 9 = **3**.\n\n## Tolking i praksis\n\nEn **helhetlig** funksjonsanalyse svarer på spørsmål som:\n\n- **Når** er verdien størst eller minst? – toppunkt og bunnpunkt\n- **Når** vokser den raskest? – vendepunkt\n- **Hvor mye** er det totalt? – integral\n- **Hva** er gjennomsnittet? – gjennomsnittsverdi\n\n**Eksempel**: Temperaturen i et drivhus modelleres med T(t) gjennom et døgn. T′(t) viser hvor fort det blir varmere, toppunktet viser **varmeste** tidspunkt, og (1/24) · ∫₀²⁴ T(t) dt gir **døgnmiddeltemperaturen**.\n\n**Eksempel**: Antall besøkende per time i en fornøyelsespark er B(t). Integralet ∫₁₀¹⁸ B(t) dt gir **totalt** antall besøkende mellom klokka 10 og 18, og toppunktet viser når det er **mest** folk.\n\n## Verktøy\n\nBruk **CAS** til å derivere, løse likninger og integrere, og **grafer** til å kontrollere. Men du må selv\n\n- velge **hva** som skal regnes ut\n- **tolke** svaret med riktige **enheter**\n- vurdere om svaret er **rimelig**\n\n## Typiske feil\n\n- Å glemme at f′(x) = 0 også kan gi et **terrassepunkt** – sjekk fortegnet på begge sider.\n- Å bruke feil **rekkefølge** i areal mellom grafer, slik at svaret blir negativt.\n- Å glemme **endepunktene** når du leter etter største og minste verdi på et lukket intervall.",
+  "flashcards": [
+    { "term": "f′(x) > 0", "def": "f er voksende." },
+    { "term": "f′(x) < 0", "def": "f er avtagende." },
+    { "term": "f′(x) = 0", "def": "Vannrett tangent – mulig topp-, bunn- eller terrassepunkt." },
+    { "term": "Fortegnslinje", "def": "Viser hvor f′ er positiv og negativ." },
+    { "term": "f″(x) > 0", "def": "Grafen krummer opp." },
+    { "term": "f″(x) < 0", "def": "Grafen krummer ned." },
+    { "term": "Vendepunkt", "def": "Der f″ skifter fortegn – størst eller minst stigning." },
+    { "term": "Areal mellom grafer", "def": "∫ₐᵇ (f(x) − g(x)) dx når f ≥ g." },
+    { "term": "Skjæringspunkter", "def": "Gir ofte grensene for areal mellom grafer." },
+    { "term": "Gjennomsnittsverdi", "def": "(1/(b − a)) · ∫ₐᵇ f(x) dx" },
+    { "term": "Terrassepunkt", "def": "f′ = 0 uten fortegnsskifte." },
+    { "term": "Endepunkter", "def": "Må sjekkes ved største og minste verdi på lukket intervall." },
+    { "term": "Døgnmiddeltemperatur", "def": "(1/24) · ∫₀²⁴ T(t) dt" },
+    { "term": "Integral av besøkende per time", "def": "Totalt antall besøkende." },
+    { "term": "Rimelighet", "def": "Vurder om svaret gir mening i situasjonen." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva betyr f′(x) < 0 på et intervall?", "options": ["f er voksende", "f er avtagende", "f krummer opp", "f har et vendepunkt"], "correct": 1, "explain": "Negativ stigning." },
+    { "id": "q02", "text": "Hvor har f(x) = x³ − 3x toppunkt?", "options": ["(−1, 2)", "(1, −2)", "(0, 0)", "(2, 2)"], "correct": 0, "explain": "f′ skifter fra positiv til negativ i x = −1." },
+    { "id": "q03", "text": "Hva er et vendepunkt?", "options": ["Der f = 0", "Der f′ = 0", "Der f″ skifter fortegn", "Der grafen slutter"], "correct": 2, "explain": "Krumningen endrer seg." },
+    { "id": "q04", "text": "Hva er arealet mellom y = 2x og y = x² fra 0 til 2?", "options": ["4", "8/3", "2", "4/3"], "correct": 3, "explain": "4 − 8/3." },
+    { "id": "q05", "text": "Hva er gjennomsnittsverdien av f(x) = x² på [0, 3]?", "options": ["3", "9", "4,5", "1"], "correct": 0, "explain": "(1/3) · 9." },
+    { "id": "q06", "text": "Hva betyr f″(x) > 0?", "options": ["f er avtagende", "Grafen krummer opp", "f har toppunkt", "f er negativ"], "correct": 1, "explain": "Den deriverte vokser." },
+    { "id": "q07", "text": "Hva gir ∫₁₀¹⁸ B(t) dt når B(t) er besøkende per time?", "options": ["Besøkende klokka 18", "Høyeste antall per time", "Totalt antall besøkende fra 10 til 18", "Gjennomsnitt per minutt"], "correct": 2, "explain": "Integralet av en rate." },
+    { "id": "q08", "text": "Hva må du huske når du finner største verdi på et lukket intervall?", "options": ["Bare toppunktene", "Bare vendepunktene", "Bare nullpunktene", "Å sjekke endepunktene også"], "correct": 3, "explain": "Største verdi kan ligge i et endepunkt." },
+    { "id": "q09", "text": "Hvor er vendepunktet til f(x) = x³ − 3x?", "options": ["(0, 0)", "(1, −2)", "(−1, 2)", "(3, 18)"], "correct": 0, "explain": "f″(x) = 6x = 0." },
+    { "id": "q10", "text": "Hva kan f′(x) = 0 uten fortegnsskifte bety?", "options": ["Toppunkt", "Terrassepunkt", "Bunnpunkt", "Nullpunkt"], "correct": 1, "explain": "For eksempel x³ i x = 0." }
+  ],
+  "mindmap": {
+    "label": "Funksjonsanalyse",
+    "children": [
+      { "label": "f′", "children": [
+        { "label": "Voksende og avtagende" },
+        { "label": "Topp- og bunnpunkt" }
+      ] },
+      { "label": "f″", "children": [
+        { "label": "Krumning" },
+        { "label": "Vendepunkt" }
+      ] },
+      { "label": "Integral", "children": [
+        { "label": "Areal mellom grafer" },
+        { "label": "Gjennomsnittsverdi" },
+        { "label": "Samlet mengde" }
+      ] },
+      { "label": "Tolking", "children": [
+        { "label": "Drivhus" },
+        { "label": "Besøkende" },
+        { "label": "Enheter" }
+      ] },
+      { "label": "Fallgruver", "children": [
+        { "label": "Terrassepunkt" },
+        { "label": "Endepunkter" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "I et vendepunkt er stigningen størst eller minst.", "correct": true, "explain": "f′ har topp- eller bunnpunkt der." },
+      { "id": "m02", "type": "sant-usant", "text": "f′(x) = 0 betyr alltid et toppunkt.", "correct": false, "explain": "Det kan også være bunn- eller terrassepunkt." },
+      { "id": "m03", "type": "sant-usant", "text": "Gjennomsnittsverdien er høyden på et rektangel med samme areal som under grafen.", "correct": true, "explain": "Samme bredde b − a." },
+      { "id": "m04", "type": "sant-usant", "text": "Areal mellom grafer kan regnes uten å vite hvilken graf som ligger øverst.", "correct": false, "explain": "Feil rekkefølge gir negativt svar." },
+      { "id": "m05", "type": "flervalg", "text": "Hvor skjærer y = 2x og y = x² hverandre?", "options": ["x = 1 og x = 2", "x = 0 og x = 2", "x = 0 og x = 1", "x = −2 og x = 2"], "correct": 1, "explain": "x² = 2x." },
+      { "id": "m06", "type": "flervalg", "text": "Hva gir (1/24) · ∫₀²⁴ T(t) dt for temperaturen T i et døgn?", "options": ["Døgnmiddeltemperaturen", "Høyeste temperatur", "Temperaturendringen", "Laveste temperatur"], "correct": 0, "explain": "Gjennomsnittsverdien." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er f′(x) for f(x) = x³ − 3x?", "options": ["3x²", "x² − 3", "3x² − 3", "6x"], "correct": 2, "explain": "Deriver ledd for ledd." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

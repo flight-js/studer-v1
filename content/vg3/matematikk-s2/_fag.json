@@ -1,0 +1,70 @@
+{
+  "id": "matematikk-s2",
+  "trinnId": "vg3",
+  "name": "Matematikk S2",
+  "lareplan": {
+    "kode": "MAT04-02",
+    "url": "https://www.udir.no/lk20/mat04-02/kompetansemaal-og-vurdering/kv296",
+    "kompetansemaal": [
+      {
+        "nr": 1,
+        "tekst": "utforske egenskaper ved ulike rekker og gjøre rede for praktiske anvendelser av egenskaper ved rekker"
+      },
+      {
+        "nr": 2,
+        "tekst": "utforske rekursive sammenhenger ved å bruke programmering og presentere egne framgangsmåter"
+      },
+      {
+        "nr": 3,
+        "tekst": "forstå definisjonen av det bestemte integralet og anvende integralet til å analysere funksjoner"
+      },
+      {
+        "nr": 4,
+        "tekst": "gjøre rede for analysens fundamentalteorem og gjøre rede for konsekvenser av teoremet"
+      },
+      {
+        "nr": 5,
+        "tekst": "analysere og tolke ulike funksjoner ved å bruke derivasjon og integrasjon"
+      },
+      {
+        "nr": 6,
+        "tekst": "modellere og analysere eksponentiell og logistisk vekst i reelle datasett"
+      },
+      {
+        "nr": 7,
+        "tekst": "forstå begrepene forventningsverdi, varians og standardavvik, og bruke disse størrelsene til å tolke stokastiske variabler"
+      },
+      {
+        "nr": 8,
+        "tekst": "simulere utfall i, utforske og tolke ulike statistiske fordelinger, og gi eksempler på reelle anvendelser av disse fordelingene"
+      },
+      {
+        "nr": 9,
+        "tekst": "finne grensekostnader og grenseinntekter i økonomiske modeller, og gjøre rede for betydningen av disse størrelsene"
+      },
+      {
+        "nr": 10,
+        "tekst": "argumentere for sentralgrensesetningen og utforske og tolke praktiske situasjoner ved hjelp av normalfordelingen"
+      },
+      {
+        "nr": 11,
+        "tekst": "gjennomføre hypotesetesting i reelle datasett og tolke resultatet"
+      }
+    ]
+  },
+  "temaer": [
+    "rekker-og-okonomi",
+    "rekursjon-og-programmering",
+    "det-bestemte-integralet",
+    "fundamentalteoremet-og-integrasjon",
+    "funksjonsanalyse-med-integrasjon",
+    "eksponentiell-og-logistisk-vekst",
+    "grensekostnad-og-grenseinntekt",
+    "forventning-varians-og-standardavvik",
+    "diskrete-fordelinger-og-simulering",
+    "normalfordelingen",
+    "sentralgrensesetningen",
+    "hypotesetesting",
+    "gjennomsnitt-og-konfidensintervall"
+  ]
+}

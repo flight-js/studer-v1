@@ -1,0 +1,81 @@
+{
+  "id": "eksponentiell-og-logistisk-vekst",
+  "fagId": "matematikk-s2",
+  "trinnId": "vg3",
+  "name": "Eksponentiell og logistisk vekst",
+  "intro": "Hvordan du modellerer og analyserer eksponentiell og logistisk vekst i reelle datasett – vekstfaktor og vekstrate, doblings- og halveringstid, bæreevne og vendepunkt, regresjon i GeoGebra eller Python, og vurdering av modellene.",
+  "kompetansemaal": [6],
+  "sammendrag": "## Eksponentiell vekst\n\nEksponentiell vekst betyr at noe øker med en **fast prosent** per tidsenhet.\n\n**f(t) = a · bᵗ**\n\n- a er **startverdien**.\n- b er **vekstfaktoren**. b > 1 gir vekst, 0 < b < 1 gir **nedgang**.\n\nModellen kan også skrives med e:\n\n**f(t) = a · e^(kt)**, der **k = ln b**\n\n## Vekstfarten\n\nFor f(t) = a · e^(kt) er\n\n**f′(t) = k · f(t)**\n\nVekstfarten er altså **proporsjonal** med størrelsen: Jo større, jo raskere vekst. Det kjennetegner eksponentiell vekst.\n\n## Doblings- og halveringstid\n\n- **Doblingstid**: T = ln 2/k\n- **Halveringstid**: T = ln 2/|k| når k < 0\n\n**Eksempel**: Bakterier vokser etter B(t) = 500 · 1,2ᵗ, t i timer. Da er k = ln 1,2 ≈ 0,182, og doblingstiden er ln 2/0,182 ≈ **3,8 timer**.\n\n## Begrensninger\n\nIngen eksponentiell vekst varer **evig**. Bakterier går tom for næring, og en epidemi går tom for mottakelige personer. Da passer en **logistisk** modell bedre.\n\n## Logistisk vekst\n\n**N(t) = K/(1 + a · e^(−bt))**\n\n- **K** er **bæreevnen** – den øvre grensen som N nærmer seg.\n- Startverdien er N(0) = K/(1 + a).\n- b bestemmer hvor raskt veksten skjer.\n\nI starten ligner veksten på eksponentiell vekst. Etter hvert **bremses** den, og grafen flater ut mot K.\n\n## Vendepunktet\n\nDen logistiske veksten er **raskest** når N = **K/2**. Det skjer når t = **ln a/b**, og den største vekstfarten er **bK/4**.\n\n**Eksempel**: N(t) = 1000/(1 + 49e^(−0,5t)).\n\n- N(0) = 1000/50 = **20**\n- Bæreevne: **1000**\n- Raskest vekst ved t = ln 49/0,5 ≈ **7,8**, da N = 500\n- Største vekstfart: 0,5 · 1000/4 = **125** per tidsenhet\n\n## Regresjon med reelle data\n\n1. Legg inn dataene i GeoGebra (Regnearkvisning) eller Python.\n2. Plott punktene og vurder **formen**.\n3. Bruk **RegEksp** for eksponentiell og **RegLogistisk** for logistisk regresjon, eller **curve_fit** i Python.\n4. **Tolk** parameterne: startverdi, vekstfaktor, bæreevne.\n\nReelle eksempler er **befolkningsvekst**, **smittespredning**, **salg av nye produkter**, **utbredelse av teknologi** og **fiskebestander**.\n\n## Vurdere modellen\n\n- Passer modellen **punktene** godt – også de siste?\n- Er parameterne **rimelige**? En bæreevne på 3 milliarder brukere i Norge er ikke realistisk.\n- Hvor langt fram er det rimelig å **ekstrapolere**?\n- Hvilke **forhold** kan endre utviklingen – for eksempel tiltak mot smitte eller konkurranse i et marked?\n\n## Sammenligning\n\n| | Eksponentiell | Logistisk |\n|---|---|---|\n| Vekst | fast prosent | bremses |\n| Grense | ingen | bæreevne K |\n| f′ | k · f | b · N(1 − N/K) |",
+  "flashcards": [
+    { "term": "Eksponentiell vekst", "def": "Økning med fast prosent per tidsenhet." },
+    { "term": "a · bᵗ", "def": "a er startverdi, b er vekstfaktor." },
+    { "term": "k = ln b", "def": "Sammenheng mellom bᵗ og e^(kt)." },
+    { "term": "Vekstfart ved eksponentiell vekst", "def": "f′(t) = k · f(t)" },
+    { "term": "Doblingstid", "def": "ln 2/k" },
+    { "term": "Halveringstid", "def": "ln 2/|k| når k < 0." },
+    { "term": "Logistisk vekst", "def": "N(t) = K/(1 + a · e^(−bt))" },
+    { "term": "Bæreevne K", "def": "Øvre grense som N nærmer seg." },
+    { "term": "Startverdi logistisk", "def": "K/(1 + a)" },
+    { "term": "Vendepunkt logistisk", "def": "N = K/2 ved t = ln a/b." },
+    { "term": "Største vekstfart logistisk", "def": "bK/4" },
+    { "term": "RegEksp", "def": "GeoGebra-kommando for eksponentiell regresjon." },
+    { "term": "RegLogistisk", "def": "GeoGebra-kommando for logistisk regresjon." },
+    { "term": "Logistisk vekstfart", "def": "N′ = b · N(1 − N/K)" },
+    { "term": "Ekstrapolering", "def": "Bruk av modellen utenfor dataene – usikkert." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er vekstfaktoren ved 20 % økning per time?", "options": ["0,2", "1,2", "20", "0,8"], "correct": 1, "explain": "1 + 0,20." },
+    { "id": "q02", "text": "Hva er doblingstiden for B(t) = 500 · 1,2ᵗ?", "options": ["Omtrent 3,8 timer", "Omtrent 2 timer", "Omtrent 5 timer", "Omtrent 10 timer"], "correct": 0, "explain": "ln 2/ln 1,2." },
+    { "id": "q03", "text": "Hva kjennetegner vekstfarten ved eksponentiell vekst?", "options": ["Den er konstant", "Den er null", "Den er proporsjonal med størrelsen", "Den synker alltid"], "correct": 2, "explain": "f′ = k · f." },
+    { "id": "q04", "text": "Hva er K i en logistisk modell?", "options": ["Startverdien", "Vekstfaktoren", "Tiden", "Bæreevnen"], "correct": 3, "explain": "Den øvre grensen." },
+    { "id": "q05", "text": "Hva er N(0) for N(t) = 1000/(1 + 49e^(−0,5t))?", "options": ["20", "1000", "49", "500"], "correct": 0, "explain": "1000/50." },
+    { "id": "q06", "text": "Når vokser en logistisk modell raskest?", "options": ["Ved start", "Når N = K/2", "Når N = K", "Aldri"], "correct": 1, "explain": "I vendepunktet." },
+    { "id": "q07", "text": "Hva er største vekstfart for N(t) = 1000/(1 + 49e^(−0,5t))?", "options": ["500", "250", "125", "50"], "correct": 2, "explain": "bK/4 = 0,5 · 1000/4." },
+    { "id": "q08", "text": "Hvorfor passer ikke eksponentiell vekst på lang sikt?", "options": ["Fordi den synker", "Fordi den er lineær", "Fordi den er periodisk", "Fordi ingenting kan vokse med fast prosent for alltid"], "correct": 3, "explain": "Ressursene tar slutt." },
+    { "id": "q09", "text": "Hva er k når f(t) = a · 2ᵗ skrives som a · e^(kt)?", "options": ["ln 2", "2", "e²", "1/2"], "correct": 0, "explain": "k = ln b." },
+    { "id": "q10", "text": "Hvilken GeoGebra-kommando brukes for logistisk regresjon?", "options": ["RegEksp", "RegLogistisk", "RegPoly", "RegLin"], "correct": 1, "explain": "RegEksp er for eksponentiell." }
+  ],
+  "mindmap": {
+    "label": "Vekstmodeller",
+    "children": [
+      { "label": "Eksponentiell", "children": [
+        { "label": "a · bᵗ = a · e^(kt)" },
+        { "label": "f′ = k · f" },
+        { "label": "Doblingstid ln 2/k" }
+      ] },
+      { "label": "Logistisk", "children": [
+        { "label": "Bæreevne K" },
+        { "label": "Vendepunkt K/2" },
+        { "label": "Største vekstfart bK/4" }
+      ] },
+      { "label": "Regresjon", "children": [
+        { "label": "RegEksp" },
+        { "label": "RegLogistisk" },
+        { "label": "Python curve_fit" }
+      ] },
+      { "label": "Reelle data", "children": [
+        { "label": "Befolkning" },
+        { "label": "Smitte" },
+        { "label": "Nye produkter" }
+      ] },
+      { "label": "Vurdering", "children": [
+        { "label": "Rimelige parametere" },
+        { "label": "Ekstrapolering" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "I starten ligner logistisk vekst på eksponentiell vekst.", "correct": true, "explain": "Bremsen merkes først senere." },
+      { "id": "m02", "type": "sant-usant", "text": "En vekstfaktor på 0,9 gir økning.", "correct": false, "explain": "Den gir 10 % nedgang." },
+      { "id": "m03", "type": "sant-usant", "text": "Halveringstiden er ln 2/|k| når k er negativ.", "correct": true, "explain": "Tilsvarer doblingstiden ved nedgang." },
+      { "id": "m04", "type": "sant-usant", "text": "En logistisk modell kan vokse forbi bæreevnen når t blir stor.", "correct": false, "explain": "Den nærmer seg K ovenfra eller nedenfra, men passerer ikke." },
+      { "id": "m05", "type": "flervalg", "text": "Når inntreffer vendepunktet for N(t) = 1000/(1 + 49e^(−0,5t))?", "options": ["t ≈ 3,9", "t ≈ 7,8", "t ≈ 49", "t ≈ 0,5"], "correct": 1, "explain": "ln 49/0,5." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er logistisk vekstfart uttrykt ved N?", "options": ["b · N(1 − N/K)", "k · N", "K − N", "b/N"], "correct": 0, "explain": "Bremses når N nærmer seg K." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er et eksempel på logistisk vekst?", "options": ["Renter på en konto", "Radioaktivt henfall", "Utbredelse av en ny teknologi", "En fast månedslønn"], "correct": 2, "explain": "Stopper når nesten alle har tatt den i bruk." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

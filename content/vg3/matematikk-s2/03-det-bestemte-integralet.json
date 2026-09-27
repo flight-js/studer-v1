@@ -1,0 +1,77 @@
+{
+  "id": "det-bestemte-integralet",
+  "fagId": "matematikk-s2",
+  "trinnId": "vg3",
+  "name": "Det bestemte integralet",
+  "intro": "Hvordan det bestemte integralet defineres som grenseverdien av summer av rektangler, hvordan det tolkes som areal med fortegn og som samlet mengde, og hvordan integralet brukes til å analysere funksjoner og økonomiske og praktiske situasjoner.",
+  "kompetansemaal": [3],
+  "sammendrag": "## Arealet under en graf\n\nVi vil finne arealet mellom grafen til en **positiv** funksjon f og x-aksen fra x = a til x = b. Idéen er å dele området i **rektangler**.\n\n## Summer av rektangler\n\nDel [a, b] i n like deler med bredde **Δx = (b − a)/n**. Høyden til hvert rektangel er en **funksjonsverdi** i delintervallet:\n\n- **Venstresum**: høyden i venstre endepunkt\n- **Høyresum**: høyden i høyre endepunkt\n\nSummen av arealene er Σ f(xᵢ) · Δx.\n\n**Eksempel**: f(x) = 2x + 1 på [0, 2] med n = 4, så Δx = 0,5.\n\n- Venstresum: (1 + 2 + 3 + 4) · 0,5 = **5**\n- Høyresum: (2 + 3 + 4 + 5) · 0,5 = **7**\n\nDet riktige arealet ligger mellom 5 og 7. Området er et **trapes** med areal (1 + 5)/2 · 2 = **6**.\n\n## Definisjonen\n\nNår vi lar n bli **større og større**, blir rektanglene smalere, og summene nærmer seg **samme tall**. Dette tallet er det **bestemte integralet**:\n\n**∫ₐᵇ f(x) dx = lim (n → ∞) Σ f(xᵢ) · Δx**\n\n- ∫ er en langstrakt S for **sum**.\n- a og b er **nedre** og **øvre grense**.\n- f(x) kalles **integranden**.\n\n## Areal med fortegn\n\nDer grafen ligger **under** x-aksen, er funksjonsverdiene negative, og bidraget blir **negativt**. Integralet er derfor et **areal med fortegn**:\n\n- Areal over x-aksen teller **positivt**.\n- Areal under x-aksen teller **negativt**.\n\nVil du ha det **samlede** arealet, må du dele opp ved **nullpunktene** og legge sammen tallverdiene.\n\n## Regneregler\n\n- ∫ₐᵇ (f(x) + g(x)) dx = ∫ₐᵇ f(x) dx + ∫ₐᵇ g(x) dx\n- ∫ₐᵇ k · f(x) dx = k · ∫ₐᵇ f(x) dx\n- ∫ₐᵇ f(x) dx + ∫ᵦᶜ f(x) dx = ∫ₐᶜ f(x) dx\n\n## Integralet som samlet mengde\n\nIntegralet **summerer** mange små bidrag. Er f(x) en **rate** – noe per tidsenhet – gir integralet den **samlede** mengden:\n\n- **Salg per dag** integrert over 30 dager gir **totalt salg** i perioden.\n- **Vannføring** i liter per minutt integrert over tid gir **antall liter**.\n- **Fart** i km/h integrert over timer gir **kjørt strekning**.\n- **Grenseinntekt** integrert fra 0 til x gir **inntekten**.\n\nEnheten til integralet er **y-enhet · x-enhet**.\n\n## Analyse med integraler\n\nIntegralet kan brukes til å\n\n- finne **arealet** av områder avgrenset av grafer\n- finne **gjennomsnittsverdien** av en funksjon\n- sammenligne **samlede** mengder, for eksempel to salgsmodeller over et år\n\n## Verktøy\n\nI **GeoGebra** kan du bruke kommandoene **SumVenstre**, **SumHøyre** og **Integral** for å se hvordan summene nærmer seg integralet når n øker. Da ser du tydelig at integralet er en **grenseverdi**.",
+  "flashcards": [
+    { "term": "Δx", "def": "Bredden på hvert rektangel: (b − a)/n." },
+    { "term": "Venstresum", "def": "Rektangelhøyden hentes i venstre endepunkt." },
+    { "term": "Høyresum", "def": "Rektangelhøyden hentes i høyre endepunkt." },
+    { "term": "Bestemt integral", "def": "Grenseverdien av summene når n → ∞." },
+    { "term": "Integrand", "def": "Funksjonen f(x) som integreres." },
+    { "term": "Nedre og øvre grense", "def": "a og b i ∫ₐᵇ f(x) dx." },
+    { "term": "Integraltegnet", "def": "En langstrakt S for sum." },
+    { "term": "Areal med fortegn", "def": "Areal under x-aksen teller negativt." },
+    { "term": "Samlet areal", "def": "Del opp ved nullpunktene og legg sammen tallverdiene." },
+    { "term": "Integral av en rate", "def": "Samlet mengde." },
+    { "term": "Enhet til integralet", "def": "y-enhet · x-enhet." },
+    { "term": "Integral av fart", "def": "Strekning." },
+    { "term": "Integral av grenseinntekt", "def": "Inntekt." },
+    { "term": "SumVenstre og SumHøyre", "def": "GeoGebra-kommandoer for rektangelsummer." },
+    { "term": "Oppdeling av intervall", "def": "∫ₐᵇ + ∫ᵦᶜ = ∫ₐᶜ" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er Δx når [0, 2] deles i 4?", "options": ["2", "0,5", "0,25", "4"], "correct": 1, "explain": "(2 − 0)/4." },
+    { "id": "q02", "text": "Hva er venstresummen for f(x) = 2x + 1 på [0, 2] med n = 4?", "options": ["5", "6", "7", "4"], "correct": 0, "explain": "(1 + 2 + 3 + 4) · 0,5." },
+    { "id": "q03", "text": "Hva er ∫₀² (2x + 1) dx?", "options": ["5", "7", "6", "4"], "correct": 2, "explain": "Arealet av trapeset." },
+    { "id": "q04", "text": "Hvordan defineres det bestemte integralet?", "options": ["Som den deriverte", "Som venstresummen med n = 4", "Som f(b) − f(a)", "Som grenseverdien av summene når n → ∞"], "correct": 3, "explain": "Rektanglene blir uendelig smale." },
+    { "id": "q05", "text": "Hvordan teller areal under x-aksen i et integral?", "options": ["Negativt", "Positivt", "Ikke i det hele tatt", "Dobbelt"], "correct": 0, "explain": "Funksjonsverdiene er negative." },
+    { "id": "q06", "text": "Hva gir integralet av salg per dag over 30 dager?", "options": ["Salg per dag", "Totalt salg i perioden", "Gjennomsnittlig pris", "Antall dager"], "correct": 1, "explain": "Integralet av en rate." },
+    { "id": "q07", "text": "Hvilken enhet får integralet av fart i km/h over tid i timer?", "options": ["km/h", "timer", "km", "km/h²"], "correct": 2, "explain": "km/h · h." },
+    { "id": "q08", "text": "Hva er ∫ₐᵇ 4f(x) dx hvis ∫ₐᵇ f(x) dx = 3?", "options": ["7", "3", "4", "12"], "correct": 3, "explain": "Konstanten settes utenfor." },
+    { "id": "q09", "text": "Hvordan finner du samlet areal når grafen krysser x-aksen?", "options": ["Del opp ved nullpunktene og legg sammen tallverdiene", "Integrer over hele intervallet", "Bruk bare venstresum", "Det er ikke mulig"], "correct": 0, "explain": "Ellers kan positive og negative bidrag nulle hverandre ut." },
+    { "id": "q10", "text": "Hva skjer med summene når n øker?", "options": ["De blir tilfeldige", "De nærmer seg integralet", "De blir null", "De vokser uendelig"], "correct": 1, "explain": "Integralet er grenseverdien." }
+  ],
+  "mindmap": {
+    "label": "Bestemt integral",
+    "children": [
+      { "label": "Rektangler", "children": [
+        { "label": "Δx = (b − a)/n" },
+        { "label": "Venstre- og høyresum" }
+      ] },
+      { "label": "Definisjon", "children": [
+        { "label": "Grenseverdi når n → ∞" },
+        { "label": "Grenser og integrand" }
+      ] },
+      { "label": "Fortegn", "children": [
+        { "label": "Over og under x-aksen" },
+        { "label": "Samlet areal" }
+      ] },
+      { "label": "Tolkning", "children": [
+        { "label": "Samlet mengde" },
+        { "label": "Enheter" }
+      ] },
+      { "label": "Bruk", "children": [
+        { "label": "Areal og gjennomsnitt" },
+        { "label": "GeoGebra" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "For en voksende funksjon er venstresummen mindre enn integralet.", "correct": true, "explain": "Rektanglene ligger under grafen." },
+      { "id": "m02", "type": "sant-usant", "text": "Et bestemt integral kan aldri være negativt.", "correct": false, "explain": "Areal under x-aksen teller negativt." },
+      { "id": "m03", "type": "sant-usant", "text": "Integraltegnet ∫ er en langstrakt S for sum.", "correct": true, "explain": "Integralet er en grenseverdi av summer." },
+      { "id": "m04", "type": "sant-usant", "text": "Færre rektangler gir vanligvis en bedre tilnærming.", "correct": false, "explain": "Flere og smalere rektangler gir bedre tilnærming." },
+      { "id": "m05", "type": "flervalg", "text": "Hva gir vannføring i L/min integrert over minutter?", "options": ["Liter per minutt", "Antall liter", "Minutter", "Liter per sekund"], "correct": 1, "explain": "L/min · min = L." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er høyresummen for f(x) = 2x + 1 på [0, 2] med n = 4?", "options": ["7", "5", "6", "8"], "correct": 0, "explain": "(2 + 3 + 4 + 5) · 0,5." },
+      { "id": "m07", "type": "flervalg", "text": "Hva kalles funksjonen f(x) i ∫ₐᵇ f(x) dx?", "options": ["Grensen", "Antideriverten", "Integranden", "Differansen"], "correct": 2, "explain": "Den som integreres." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

@@ -1,0 +1,79 @@
+{
+  "id": "forventning-varians-og-standardavvik",
+  "fagId": "matematikk-s2",
+  "trinnId": "vg3",
+  "name": "Forventningsverdi, varians og standardavvik",
+  "intro": "Stokastiske variabler og sannsynlighetsfordelinger, hvordan du regner ut og tolker forventningsverdi, varians og standardavvik, regneregler for summer og lineære endringer, og anvendelser i spill, forsikring og risikovurdering.",
+  "kompetansemaal": [7],
+  "sammendrag": "## Stokastisk variabel\n\nEn **stokastisk variabel** X er et tall som avhenger av utfallet i et **tilfeldig forsøk**. Eksempler er antall øyne på en terning, antall defekte varer i en eske og gevinsten i et spill.\n\nEn **sannsynlighetsfordeling** viser alle verdiene X kan ta, og sannsynligheten for hver. Summen av sannsynlighetene er **1**.\n\n## Forventningsverdi\n\n**E(X) = μ = Σ x · P(X = x)**\n\nForventningsverdien er **gjennomsnittet i det lange løp** hvis forsøket gjentas mange ganger.\n\n**Terning**: E(X) = (1 + 2 + 3 + 4 + 5 + 6) · 1/6 = **3,5**. Du får aldri 3,5 på ett kast, men gjennomsnittet av mange kast nærmer seg 3,5.\n\n**Spill**: Det koster 10 kr å spille. Du vinner 50 kr med sannsynlighet 0,1. Nettogevinsten X er 40 kr med sannsynlighet 0,1 og −10 kr med sannsynlighet 0,9:\n\nE(X) = 40 · 0,1 + (−10) · 0,9 = **−5 kr**\n\nI det lange løp taper du 5 kr per spill.\n\n## Varians og standardavvik\n\n**Variansen** måler **spredningen** rundt forventningsverdien:\n\n**Var(X) = Σ (x − μ)² · P(X = x)**\n\n**Standardavviket** er **σ = √Var(X)**. Det har samme **enhet** som X og er lettere å tolke.\n\n**Terning**: Var(X) = 35/12 ≈ 2,92 og σ ≈ **1,71**.\n\nTo investeringer kan ha **samme** forventede avkastning, men den med **størst** standardavvik er mest **risikabel**.\n\n## Regneregler\n\nFor tall a og b:\n\n- **E(aX + b) = a · E(X) + b**\n- **Var(aX + b) = a² · Var(X)**\n- SD(aX + b) = |a| · SD(X)\n\nÅ legge til en konstant **flytter** fordelingen, men endrer ikke spredningen.\n\nFor to variabler:\n\n- **E(X + Y) = E(X) + E(Y)** – alltid\n- **Var(X + Y) = Var(X) + Var(Y)** – når X og Y er **uavhengige**\n\n## Summer og gjennomsnitt\n\nLa X₁, X₂, …, Xₙ være uavhengige med forventning μ og standardavvik σ.\n\n- **Summen** har forventning **nμ** og standardavvik **σ√n**.\n- **Gjennomsnittet** X̄ har forventning **μ** og standardavvik **σ/√n**.\n\nGjennomsnittet av mange målinger er altså **mer presist** enn én måling. Det er grunnen til at vi gjentar målinger og bruker store utvalg.\n\n## Anvendelser\n\n- **Forsikring**: Selskapet regner ut forventet utbetaling per kunde og legger på et påslag. Med mange kunder blir det samlede resultatet **forutsigbart**.\n- **Spill og lotteri**: Forventningsverdien er **negativ** for spilleren – ellers ville arrangøren tapt penger.\n- **Kvalitetskontroll** og **lagerstyring**: Forventet antall feil og spredningen brukes til å planlegge.\n\n## Beregning med verktøy\n\nI **regneark** eller **Python** kan du legge verdiene og sannsynlighetene i to kolonner og regne ut summene. Kontroller alltid at sannsynlighetene summerer til 1.",
+  "flashcards": [
+    { "term": "Stokastisk variabel", "def": "Tall som avhenger av utfallet i et tilfeldig forsøk." },
+    { "term": "Sannsynlighetsfordeling", "def": "Alle verdier og sannsynlighetene deres – summerer til 1." },
+    { "term": "Forventningsverdi", "def": "E(X) = Σ x · P(X = x) – gjennomsnittet i det lange løp." },
+    { "term": "E(X) for terning", "def": "3,5" },
+    { "term": "Varians", "def": "Var(X) = Σ (x − μ)² · P(X = x)" },
+    { "term": "Standardavvik", "def": "σ = √Var(X) – samme enhet som X." },
+    { "term": "E(aX + b)", "def": "a · E(X) + b" },
+    { "term": "Var(aX + b)", "def": "a² · Var(X)" },
+    { "term": "E(X + Y)", "def": "E(X) + E(Y)" },
+    { "term": "Var(X + Y)", "def": "Var(X) + Var(Y) når X og Y er uavhengige." },
+    { "term": "Sum av n variabler", "def": "Forventning nμ, standardavvik σ√n." },
+    { "term": "Gjennomsnitt av n variabler", "def": "Forventning μ, standardavvik σ/√n." },
+    { "term": "Risiko", "def": "Stort standardavvik betyr stor usikkerhet." },
+    { "term": "Negativ forventning", "def": "Taper i det lange løp – typisk for spillere." },
+    { "term": "Forsikring", "def": "Mange kunder gjør samlet utbetaling forutsigbar." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er forventningsverdien til et terningkast?", "options": ["3", "3,5", "4", "6"], "correct": 1, "explain": "21/6." },
+    { "id": "q02", "text": "Hva er E(X) i spillet der du betaler 10 kr og vinner 50 kr med sannsynlighet 0,1?", "options": ["−5 kr", "5 kr", "0 kr", "−10 kr"], "correct": 0, "explain": "40 · 0,1 − 10 · 0,9." },
+    { "id": "q03", "text": "Hva måler standardavviket?", "options": ["Gjennomsnittet", "Den største verdien", "Spredningen rundt forventningsverdien", "Sannsynligheten for 0"], "correct": 2, "explain": "Kvadratroten av variansen." },
+    { "id": "q04", "text": "Hva er Var(3X + 2) hvis Var(X) = 4?", "options": ["14", "12", "38", "36"], "correct": 3, "explain": "3² · 4." },
+    { "id": "q05", "text": "Hva er E(2X + 5) hvis E(X) = 10?", "options": ["25", "20", "15", "30"], "correct": 0, "explain": "2 · 10 + 5." },
+    { "id": "q06", "text": "Hva er standardavviket til gjennomsnittet av 25 uavhengige målinger med σ = 10?", "options": ["10", "2", "0,4", "250"], "correct": 1, "explain": "σ/√n = 10/5." },
+    { "id": "q07", "text": "Når gjelder Var(X + Y) = Var(X) + Var(Y)?", "options": ["Alltid", "Aldri", "Når X og Y er uavhengige", "Når E(X) = E(Y)"], "correct": 2, "explain": "Krever uavhengighet." },
+    { "id": "q08", "text": "Hvilken av to investeringer med lik forventning er mest risikabel?", "options": ["Den med lavest forventning", "Begge er like", "Den med minst standardavvik", "Den med størst standardavvik"], "correct": 3, "explain": "Større spredning." },
+    { "id": "q09", "text": "Hva må sannsynlighetene i en fordeling summere til?", "options": ["1", "0", "100", "E(X)"], "correct": 0, "explain": "Ett av utfallene skjer." },
+    { "id": "q10", "text": "Hva er standardavviket til summen av 100 uavhengige variabler med σ = 3?", "options": ["300", "30", "3", "0,3"], "correct": 1, "explain": "σ√n = 3 · 10." }
+  ],
+  "mindmap": {
+    "label": "Stokastiske variabler",
+    "children": [
+      { "label": "Grunnlag", "children": [
+        { "label": "Stokastisk variabel" },
+        { "label": "Fordeling summerer til 1" }
+      ] },
+      { "label": "Mål", "children": [
+        { "label": "Forventning E(X)" },
+        { "label": "Varians" },
+        { "label": "Standardavvik" }
+      ] },
+      { "label": "Regneregler", "children": [
+        { "label": "aX + b" },
+        { "label": "X + Y" }
+      ] },
+      { "label": "Summer og snitt", "children": [
+        { "label": "nμ og σ√n" },
+        { "label": "μ og σ/√n" }
+      ] },
+      { "label": "Anvendelser", "children": [
+        { "label": "Spill" },
+        { "label": "Forsikring" },
+        { "label": "Investeringer" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Å legge en konstant til X endrer ikke standardavviket.", "correct": true, "explain": "Fordelingen flyttes bare." },
+      { "id": "m02", "type": "sant-usant", "text": "Forventningsverdien må alltid være en av verdiene X kan ta.", "correct": false, "explain": "En terning har forventning 3,5." },
+      { "id": "m03", "type": "sant-usant", "text": "Gjennomsnittet av mange målinger er mer presist enn én måling.", "correct": true, "explain": "Standardavviket blir σ/√n." },
+      { "id": "m04", "type": "sant-usant", "text": "Et lotteri har positiv forventningsverdi for spilleren.", "correct": false, "explain": "Ellers ville arrangøren tapt penger." },
+      { "id": "m05", "type": "flervalg", "text": "X er 0 med sannsynlighet 0,5 og 2 med sannsynlighet 0,5. Hva er Var(X)?", "options": ["2", "1", "0,5", "4"], "correct": 1, "explain": "(0 − 1)² · 0,5 + (2 − 1)² · 0,5." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilken enhet har standardavviket når X måles i kroner?", "options": ["Kroner", "Kroner i andre", "Ingen enhet", "Prosent"], "correct": 0, "explain": "Variansen har kroner i andre." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er E(X + Y) når E(X) = 4 og E(Y) = 6?", "options": ["24", "2", "10", "5"], "correct": 2, "explain": "Forventninger kan alltid legges sammen." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

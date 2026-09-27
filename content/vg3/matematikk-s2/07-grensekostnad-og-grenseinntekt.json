@@ -1,0 +1,77 @@
+{
+  "id": "grensekostnad-og-grenseinntekt",
+  "fagId": "matematikk-s2",
+  "trinnId": "vg3",
+  "name": "Grensekostnad og grenseinntekt",
+  "intro": "Kostnads-, inntekts- og overskuddsfunksjoner i økonomiske modeller, hva grensekostnad og grenseinntekt betyr, hvorfor overskuddet er størst når grenseinntekten er lik grensekostnaden, og hvordan du finner laveste enhetskostnad.",
+  "kompetansemaal": [9],
+  "sammendrag": "## Kostnad, inntekt og overskudd\n\nEn bedrift produserer og selger x enheter av en vare.\n\n- **K(x)** er **kostnaden**. Den består av **faste kostnader** – som husleie – og **variable kostnader** som øker med x.\n- **I(x)** er **inntekten**. Ved fast pris p er I(x) = p · x.\n- **O(x) = I(x) − K(x)** er **overskuddet**.\n\n## Grensekostnad\n\n**Grensekostnaden** er **K′(x)**. Den er omtrent hva det koster å produsere **én enhet til**:\n\n**K′(x) ≈ K(x + 1) − K(x)**\n\nGrensekostnaden **synker** ofte først, fordi produksjonen blir mer **effektiv**, og **stiger** senere, fordi kapasiteten presses – overtid, slitasje og flaskehalser.\n\n## Grenseinntekt\n\n**Grenseinntekten** er **I′(x)** – omtrent hvor mye inntekten øker når vi selger én enhet til.\n\n- Ved **fast pris** p er I′(x) = p.\n- Må prisen **settes ned** for å selge mer, gir etterspørselen en pris p(x), og I(x) = p(x) · x. Da synker grenseinntekten når x øker.\n\n## Størst overskudd\n\nO′(x) = I′(x) − K′(x). Overskuddet er størst når O′(x) = 0, altså når\n\n**I′(x) = K′(x)**\n\n**Grenseinntekt = grensekostnad.** Så lenge den neste enheten gir **mer** i inntekt enn den koster, lønner det seg å øke produksjonen. Når den koster **mer** enn den gir, lønner det seg ikke.\n\n**Eksempel**: K(x) = 0,02x² + 50x + 20 000 og fast pris 150 kr.\n\n- I′(x) = 150 og K′(x) = 0,04x + 50\n- 150 = 0,04x + 50 gir **x = 2500**\n- O(2500) = 375 000 − 270 000 = **105 000 kr**\n\n## Enhetskostnad\n\n**Enhetskostnaden** er gjennomsnittskostnaden per enhet:\n\n**A(x) = K(x)/x**\n\nDen er **lavest** når **A(x) = K′(x)** – når grensekostnaden er lik enhetskostnaden. Er grensekostnaden lavere enn gjennomsnittet, trekker neste enhet gjennomsnittet **ned**. Er den høyere, trekker den gjennomsnittet **opp**.\n\n**Eksempel**: Med K(x) over er A(x) = 0,02x + 50 + 20 000/x. A′(x) = 0,02 − 20 000/x² = 0 gir **x = 1000**, og A(1000) = **90 kr**. Kontroll: K′(1000) = 40 + 50 = 90 kr.\n\n## Integral og kostnader\n\nKjenner vi grensekostnaden, gir integralet **økningen** i kostnad:\n\nK(b) − K(a) = ∫ₐᵇ K′(x) dx\n\n## Tolking\n\n- K′(2000) = 130 betyr at enhet nummer 2001 koster **omtrent 130 kr** å produsere.\n- I′(x) > K′(x) betyr at det lønner seg å **øke** produksjonen.\n- Svaret må være et **realistisk** antall – ofte et **heltall** innenfor **kapasiteten**.\n\n## Begrensninger\n\nModellene er **forenklinger**. I virkeligheten påvirker konkurrenter, sesongvariasjoner og kapasitet både priser og kostnader. Vurder alltid om modellen gjelder for de x-verdiene du ser på.",
+  "flashcards": [
+    { "term": "K(x)", "def": "Kostnaden ved å produsere x enheter." },
+    { "term": "Faste kostnader", "def": "Kostnader som ikke avhenger av x, som husleie." },
+    { "term": "I(x)", "def": "Inntekten ved salg av x enheter." },
+    { "term": "O(x)", "def": "Overskudd: I(x) − K(x)." },
+    { "term": "Grensekostnad", "def": "K′(x) – omtrent kostnaden for én enhet til." },
+    { "term": "Grenseinntekt", "def": "I′(x) – omtrent inntekten fra én enhet til." },
+    { "term": "Grenseinntekt ved fast pris", "def": "Lik prisen p." },
+    { "term": "Størst overskudd", "def": "Når I′(x) = K′(x)." },
+    { "term": "Enhetskostnad", "def": "A(x) = K(x)/x" },
+    { "term": "Lavest enhetskostnad", "def": "Når A(x) = K′(x)." },
+    { "term": "Etterspørselsfunksjon", "def": "Sammenhengen mellom pris og solgt mengde." },
+    { "term": "I′ > K′", "def": "Det lønner seg å øke produksjonen." },
+    { "term": "Økning i kostnad", "def": "∫ₐᵇ K′(x) dx" },
+    { "term": "Stigende grensekostnad", "def": "Følge av presset kapasitet, overtid og slitasje." },
+    { "term": "Kapasitet", "def": "Største mulige produksjon." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er grensekostnaden?", "options": ["Den totale kostnaden", "K′(x) – omtrent kostnaden for én enhet til", "K(x)/x", "Den faste kostnaden"], "correct": 1, "explain": "Kostnaden ved neste enhet." },
+    { "id": "q02", "text": "Når er overskuddet størst?", "options": ["Når I′(x) = K′(x)", "Når K(x) = 0", "Når I(x) = 0", "Når x er størst mulig"], "correct": 0, "explain": "O′(x) = 0." },
+    { "id": "q03", "text": "Hva er grenseinntekten ved fast pris 150 kr?", "options": ["0", "150x", "150 kr", "Umulig å si"], "correct": 2, "explain": "I(x) = 150x gir I′(x) = 150." },
+    { "id": "q04", "text": "Med K′(x) = 0,04x + 50 og pris 150 kr, hvilken x gir størst overskudd?", "options": ["1000", "5000", "150", "2500"], "correct": 3, "explain": "150 = 0,04x + 50." },
+    { "id": "q05", "text": "Hvordan regnes enhetskostnaden ut?", "options": ["K(x)/x", "K′(x)", "I(x) − K(x)", "K(x) · x"], "correct": 0, "explain": "Gjennomsnittskostnad per enhet." },
+    { "id": "q06", "text": "Når er enhetskostnaden lavest?", "options": ["Når K(x) = 0", "Når A(x) = K′(x)", "Når I′ = K′", "Når x = 0"], "correct": 1, "explain": "Grensekostnad lik gjennomsnittet." },
+    { "id": "q07", "text": "Hva betyr I′(x) > K′(x)?", "options": ["Det lønner seg å redusere produksjonen", "Bedriften går med tap", "Det lønner seg å øke produksjonen", "Prisen er for lav"], "correct": 2, "explain": "Neste enhet gir mer enn den koster." },
+    { "id": "q08", "text": "Hva betyr K′(2000) = 130?", "options": ["Totalkostnaden er 130 kr", "Enhetskostnaden er 130 kr", "Overskuddet er 130 kr", "Enhet nummer 2001 koster omtrent 130 kr"], "correct": 3, "explain": "Grensekostnaden." },
+    { "id": "q09", "text": "Hva er laveste enhetskostnad når K(x) = 0,02x² + 50x + 20 000?", "options": ["90 kr", "50 kr", "70 kr", "110 kr"], "correct": 0, "explain": "A(1000) = 20 + 50 + 20." },
+    { "id": "q10", "text": "Hva gir ∫ₐᵇ K′(x) dx?", "options": ["Overskuddet", "Økningen i kostnad fra a til b enheter", "Grenseinntekten", "Enhetskostnaden"], "correct": 1, "explain": "Total endring." }
+  ],
+  "mindmap": {
+    "label": "Grenseanalyse",
+    "children": [
+      { "label": "Funksjoner", "children": [
+        { "label": "Kostnad K" },
+        { "label": "Inntekt I" },
+        { "label": "Overskudd O = I − K" }
+      ] },
+      { "label": "Grensestørrelser", "children": [
+        { "label": "Grensekostnad K′" },
+        { "label": "Grenseinntekt I′" }
+      ] },
+      { "label": "Optimalisering", "children": [
+        { "label": "I′ = K′" },
+        { "label": "A = K′" }
+      ] },
+      { "label": "Integral", "children": [
+        { "label": "Økning i kostnad" }
+      ] },
+      { "label": "Tolking", "children": [
+        { "label": "Neste enhet" },
+        { "label": "Kapasitet og realisme" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Faste kostnader påvirker ikke grensekostnaden.", "correct": true, "explain": "Den deriverte av en konstant er 0." },
+      { "id": "m02", "type": "sant-usant", "text": "Overskuddet er alltid størst når produksjonen er størst mulig.", "correct": false, "explain": "Det er størst når I′ = K′." },
+      { "id": "m03", "type": "sant-usant", "text": "Er grensekostnaden lavere enn enhetskostnaden, synker enhetskostnaden når x øker.", "correct": true, "explain": "Neste enhet trekker gjennomsnittet ned." },
+      { "id": "m04", "type": "sant-usant", "text": "Grenseinntekten øker alltid når prisen må settes ned for å selge mer.", "correct": false, "explain": "Den synker da." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er O(2500) når K(x) = 0,02x² + 50x + 20 000 og prisen er 150 kr?", "options": ["375 000 kr", "105 000 kr", "270 000 kr", "125 000 kr"], "correct": 1, "explain": "375 000 − 270 000." },
+      { "id": "m06", "type": "flervalg", "text": "Hvorfor stiger ofte grensekostnaden ved høy produksjon?", "options": ["Presset kapasitet, overtid og slitasje", "Lavere lønninger", "Færre kunder", "Lavere husleie"], "correct": 0, "explain": "Flaskehalser." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er I(x) når prisen er p(x) = 200 − 0,01x?", "options": ["200 − 0,01x", "200x", "200x − 0,01x²", "0,01x²"], "correct": 2, "explain": "I(x) = p(x) · x." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

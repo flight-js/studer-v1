@@ -1,0 +1,77 @@
+{
+  "id": "rekker-og-okonomi",
+  "fagId": "matematikk-s2",
+  "trinnId": "vg3",
+  "name": "Rekker og økonomiske anvendelser",
+  "intro": "Aritmetiske og geometriske rekker med sumformler, uendelige geometriske rekker og konvergens, og hvordan rekker brukes i økonomi – sparing, nåverdi, annuitetslån, evigvarende utbetalinger og multiplikatoreffekten.",
+  "kompetansemaal": [1],
+  "sammendrag": "## Følger og rekker\n\nEn **følge** er en liste med tall, og en **rekke** er **summen** av tallene. Sₙ er summen av de n første leddene.\n\n## Aritmetiske rekker\n\nHver gang legger vi til den samme **differansen** d.\n\n- **aₙ = a₁ + (n − 1)d**\n- **Sₙ = n(a₁ + aₙ)/2**\n\nEksempel: 1 + 2 + 3 + … + 100 = 100 · 101/2 = **5050**.\n\n## Geometriske rekker\n\nHver gang ganger vi med den samme **kvotienten** k.\n\n- **aₙ = a₁ · kⁿ⁻¹**\n- **Sₙ = a₁(kⁿ − 1)/(k − 1)**\n\nGeometriske rekker dukker opp overalt der vi har **prosentvis** endring, for eksempel **renter**.\n\n## Uendelige geometriske rekker\n\nHvis **−1 < k < 1**, blir leddene mindre og mindre, og rekken **konvergerer** mot\n\n**S = a₁/(1 − k)**\n\nEksempel: 100 + 50 + 25 + … = 100/(1 − 0,5) = **200**. Er |k| ≥ 1, **divergerer** rekken.\n\n## Sparing\n\nDu setter inn 1000 kr i slutten av hvert år i 5 år med 10 % rente. Rett etter siste innskudd er sluttverdien\n\n1000 + 1000 · 1,1 + 1000 · 1,1² + 1000 · 1,1³ + 1000 · 1,1⁴ = 1000(1,1⁵ − 1)/0,1 ≈ **6105 kr**\n\n## Nåverdi\n\nPenger i dag er mer verdt enn penger i framtiden, fordi de kan **forrente** seg. **Nåverdien** av et beløp K som kommer om n år, med rente r, er\n\n**K/(1 + r)ⁿ**\n\n10 000 kr om 2 år har ved 5 % rente nåverdien 10 000/1,05² ≈ **9070 kr**.\n\n## Annuitetslån\n\nI et **annuitetslån** er alle **terminbeløpene** like store. Lånebeløpet er lik **summen av nåverdiene** av terminbeløpene:\n\nL = b/(1 + r) + b/(1 + r)² + … + b/(1 + r)ⁿ\n\nDette er en geometrisk rekke. Løser vi for b, får vi\n\n**b = L · r/(1 − (1 + r)⁻ⁿ)**\n\nEt lån på 500 000 kr med 5 % rente over 10 år gir et årlig terminbeløp på omtrent **64 752 kr**.\n\n## Evigvarende utbetalinger\n\nEt **legat** skal betale ut b kroner hvert år for **alltid**. Nåverdien er en uendelig geometrisk rekke med kvotient 1/(1 + r), og summen blir\n\n**b/r**\n\nSkal legatet betale 10 000 kr i året ved 4 % rente, må det være på **250 000 kr**.\n\n## Multiplikatoreffekten\n\nI **samfunnsøkonomi** fører økt etterspørsel til ringvirkninger. Hvis folk bruker en andel c av hver ekstra krone, gir 1 krone i økt etterspørsel en samlet økning på\n\n1 + c + c² + … = **1/(1 − c)**\n\nMed c = 0,8 blir **multiplikatoren** 5.\n\n## Arbeidsmåte\n\nBruk **regneark** eller **CAS** til å regne ut summer og sammenligne med formlene. Tegn gjerne en **tidslinje** som viser når beløpene betales, og regn alt om til **samme tidspunkt** før du summerer.",
+  "flashcards": [
+    { "term": "Rekke", "def": "Summen av leddene i en følge." },
+    { "term": "Aritmetisk rekke", "def": "Konstant differanse d." },
+    { "term": "Sₙ aritmetisk", "def": "n(a₁ + aₙ)/2" },
+    { "term": "Geometrisk rekke", "def": "Konstant kvotient k." },
+    { "term": "Sₙ geometrisk", "def": "a₁(kⁿ − 1)/(k − 1)" },
+    { "term": "Konvergens", "def": "Uendelig geometrisk rekke med −1 < k < 1." },
+    { "term": "Sum av uendelig rekke", "def": "a₁/(1 − k)" },
+    { "term": "Sluttverdi ved sparing", "def": "Summen av innskuddene med renter fram til et tidspunkt." },
+    { "term": "Nåverdi", "def": "K/(1 + r)ⁿ – hva et framtidig beløp er verdt i dag." },
+    { "term": "Annuitetslån", "def": "Lån med like store terminbeløp." },
+    { "term": "Terminbeløp i annuitetslån", "def": "b = L · r/(1 − (1 + r)⁻ⁿ)" },
+    { "term": "Serielån", "def": "Lån med like store avdrag og synkende terminbeløp." },
+    { "term": "Evigvarende utbetaling", "def": "Nåverdi b/r." },
+    { "term": "Multiplikator", "def": "1/(1 − c), der c er andelen som brukes." },
+    { "term": "Tidslinje", "def": "Hjelpemiddel for å se når beløpene betales." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er differansen i rekken 7 + 12 + 17 + …?", "options": ["7", "5", "12", "17"], "correct": 1, "explain": "12 − 7 = 5." },
+    { "id": "q02", "text": "Hva er 1 + 2 + 3 + … + 100?", "options": ["5050", "10 000", "5000", "10 100"], "correct": 0, "explain": "100 · 101/2." },
+    { "id": "q03", "text": "Hva er kvotienten i en spareserie med 5 % rente?", "options": ["0,05", "5", "1,05", "0,95"], "correct": 2, "explain": "Hvert beløp vokser med faktoren 1,05." },
+    { "id": "q04", "text": "Hva er nåverdien av 10 000 kr om 2 år ved 5 % rente?", "options": ["9500 kr", "11 025 kr", "10 000 kr", "Omtrent 9070 kr"], "correct": 3, "explain": "10 000/1,05²." },
+    { "id": "q05", "text": "Hva er summen av 100 + 50 + 25 + …?", "options": ["200", "175", "150", "Uendelig"], "correct": 0, "explain": "100/(1 − 0,5)." },
+    { "id": "q06", "text": "Hvor stort må et legat være for å betale ut 10 000 kr i året for alltid ved 4 % rente?", "options": ["40 000 kr", "250 000 kr", "100 000 kr", "400 000 kr"], "correct": 1, "explain": "b/r = 10 000/0,04." },
+    { "id": "q07", "text": "Hva er multiplikatoren når folk bruker 80 % av hver ekstra krone?", "options": ["0,8", "1,8", "5", "8"], "correct": 2, "explain": "1/(1 − 0,8)." },
+    { "id": "q08", "text": "Når konvergerer en uendelig geometrisk rekke?", "options": ["Når k > 1", "Når k = 1", "Alltid", "Når −1 < k < 1"], "correct": 3, "explain": "Da blir leddene mindre og mindre." },
+    { "id": "q09", "text": "Hva kjennetegner et annuitetslån?", "options": ["Like store terminbeløp", "Like store avdrag", "Ingen renter", "Økende terminbeløp"], "correct": 0, "explain": "Et serielån har like store avdrag." },
+    { "id": "q10", "text": "Hva er sluttverdien av 5 innskudd på 1000 kr med 10 % rente, rett etter siste innskudd?", "options": ["5000 kr", "Omtrent 6105 kr", "5500 kr", "Omtrent 6716 kr"], "correct": 1, "explain": "1000(1,1⁵ − 1)/0,1." }
+  ],
+  "mindmap": {
+    "label": "Rekker og økonomi",
+    "children": [
+      { "label": "Aritmetisk", "children": [
+        { "label": "Differanse d" },
+        { "label": "Sₙ = n(a₁ + aₙ)/2" }
+      ] },
+      { "label": "Geometrisk", "children": [
+        { "label": "Kvotient k" },
+        { "label": "Uendelig: a₁/(1 − k)" }
+      ] },
+      { "label": "Sparing og nåverdi", "children": [
+        { "label": "Sluttverdi" },
+        { "label": "K/(1 + r)ⁿ" }
+      ] },
+      { "label": "Lån", "children": [
+        { "label": "Annuitetslån" },
+        { "label": "Serielån" }
+      ] },
+      { "label": "Samfunnsøkonomi", "children": [
+        { "label": "Evigvarende utbetaling b/r" },
+        { "label": "Multiplikator 1/(1 − c)" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Penger i dag er mer verdt enn samme beløp om ti år.", "correct": true, "explain": "De kan forrente seg." },
+      { "id": "m02", "type": "sant-usant", "text": "Rekken 1 + 1,1 + 1,21 + … konvergerer.", "correct": false, "explain": "k = 1,1 > 1." },
+      { "id": "m03", "type": "sant-usant", "text": "Lånebeløpet i et annuitetslån er summen av nåverdiene av terminbeløpene.", "correct": true, "explain": "Derfor kan vi bruke en geometrisk rekke." },
+      { "id": "m04", "type": "sant-usant", "text": "I et serielån er terminbeløpene like store hele tiden.", "correct": false, "explain": "Avdragene er like, så terminbeløpene synker." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er nåverdien av 1000 kr om 1 år ved 25 % rente?", "options": ["750 kr", "800 kr", "1250 kr", "975 kr"], "correct": 1, "explain": "1000/1,25." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er et godt første steg i en lån- eller spareoppgave?", "options": ["Tegne en tidslinje", "Regne ut uten renter", "Gjette svaret", "Bruke k = 1"], "correct": 0, "explain": "Da ser du når beløpene betales." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er summen av 20 + 18 + 16 + … + 2?", "options": ["100", "90", "110", "120"], "correct": 2, "explain": "10 ledd: 10(20 + 2)/2." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

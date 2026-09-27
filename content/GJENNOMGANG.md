@@ -994,6 +994,24 @@ Læreplan: [FYS01-02](https://www.udir.no/lk20/fys01-02/kompetansemaal-og-vurder
 - 🟡 **Den spesielle og generelle relativitetsteorien** – utkast (455 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
 - 🟡 **Kvantefysikk** – utkast (483 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
 
+## Geofag 2 (vg3) – 11 av 11 temaer ferdig
+
+Læreplan: [GFG01-03](https://www.udir.no/lk20/gfg01-03/kompetansemaal-og-vurdering/kv973)
+
+- 🟡 **Vekselvirkninger mellom jordsystemene** – utkast (399 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Strålingsbalanse og global sirkulasjon** – utkast (418 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Jordrotasjon, trykk og tetthet i hav og atmosfære** – utkast (406 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Værsystemer og værkart** – utkast (437 ord · 15 kort · 10 quiz · 15 i miniprøve · 17 noder i tankekart)
+- 🟡 **Numeriske modeller i værvarsling, havmodellering og klimaforskning** – utkast (407 ord · 15 kort · 10 quiz · 15 i miniprøve · 17 noder i tankekart)
+- 🔴 **Klimasystemet og menneskeskapt klimapåvirkning** – sjekkes (402 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+  - Sjekk: Sjekk gjeldende tall for CO₂-konsentrasjon og global oppvarming mot siste IPCC-rapport og måleserier.
+- 🟡 **Forhistorisk klima** – utkast (473 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🔴 **Konsekvenser av klimaendringer, utslippskutt og tilpasning** – sjekkes (408 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+  - Sjekk: Sjekk gjeldende norske klimamål (2030 og 2050) mot oppdatert klimalov og regjeringens mål.
+- 🟡 **Energi fra hav og atmosfære** – utkast (405 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Geofaglig feltarbeid i hav, atmosfære og kryosfære** – utkast (395 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Naturfarer i atmosfære, hav og kryosfære** – utkast (384 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+
 ## Historie og filosofi 2 (vg3) – 13 av 13 temaer ferdig
 
 Læreplan: [HIF01-04](https://www.udir.no/lk20/hif01-04/kompetansemaal-og-vurdering/kv896)
@@ -1048,6 +1066,44 @@ Læreplan: [KJE01-02](https://www.udir.no/lk20/kje01-02/kompetansemaal-og-vurder
 - 🟡 **Kromatografi** – utkast (436 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
 - 🟡 **Biologiske makromolekyler** – utkast (416 ord · 16 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
 - 🟡 **Metaller, plast og grønn kjemi** – utkast (445 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+
+## Matematikk R2 (vg3) – 15 av 15 temaer ferdig
+
+Læreplan: [MAT03-02](https://www.udir.no/lk20/mat03-02/kompetansemaal-og-vurdering/kv294)
+
+- 🟡 **Rekker – aritmetiske, geometriske og uendelige** – utkast (487 ord · 16 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Rekursive sammenhenger og programmering** – utkast (426 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Integral som grenseverdi av summer** – utkast (425 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Analysens fundamentalteorem** – utkast (457 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Integrasjonsmetoder** – utkast (515 ord · 15 kort · 10 quiz · 15 i miniprøve · 17 noder i tankekart)
+- 🟡 **Numerisk integrasjon med algoritmer** – utkast (456 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Modellering med ulike funksjoner og reelle datasett** – utkast (443 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Derivasjon og integrasjon i egne modeller** – utkast (457 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Omdreiningslegemer og volum** – utkast (425 ord · 15 kort · 10 quiz · 15 i miniprøve · 17 noder i tankekart)
+- 🟡 **Parameterframstillinger, fart og akselerasjon** – utkast (417 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Vektorer i rommet** – utkast (485 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Linjer, plan og kuler i rommet** – utkast (479 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Radianer og trigonometriske funksjoner** – utkast (425 ord · 16 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Trigonometriske identiteter og likninger** – utkast (563 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Matematiske bevis og induksjon** – utkast (586 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+
+## Matematikk S2 (vg3) – 13 av 13 temaer ferdig
+
+Læreplan: [MAT04-02](https://www.udir.no/lk20/mat04-02/kompetansemaal-og-vurdering/kv296)
+
+- 🟡 **Rekker og økonomiske anvendelser** – utkast (449 ord · 15 kort · 10 quiz · 15 i miniprøve · 16 noder i tankekart)
+- 🟡 **Rekursive sammenhenger og programmering** – utkast (435 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Det bestemte integralet** – utkast (435 ord · 15 kort · 10 quiz · 15 i miniprøve · 16 noder i tankekart)
+- 🟡 **Analysens fundamentalteorem og integrasjonsregler** – utkast (486 ord · 15 kort · 10 quiz · 15 i miniprøve · 17 noder i tankekart)
+- 🟡 **Funksjonsanalyse med derivasjon og integrasjon** – utkast (453 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Eksponentiell og logistisk vekst** – utkast (421 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Grensekostnad og grenseinntekt** – utkast (412 ord · 15 kort · 10 quiz · 15 i miniprøve · 16 noder i tankekart)
+- 🟡 **Forventningsverdi, varians og standardavvik** – utkast (427 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Diskrete fordelinger og simulering** – utkast (464 ord · 15 kort · 10 quiz · 15 i miniprøve · 16 noder i tankekart)
+- 🟡 **Normalfordelingen** – utkast (411 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Sentralgrensesetningen** – utkast (451 ord · 15 kort · 10 quiz · 15 i miniprøve · 16 noder i tankekart)
+- 🟡 **Hypotesetesting** – utkast (486 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Test av gjennomsnitt og konfidensintervall** – utkast (457 ord · 15 kort · 10 quiz · 15 i miniprøve · 17 noder i tankekart)
 
 ## Norsk (vg3) – 12 av 12 temaer ferdig
 

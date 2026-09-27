@@ -1,0 +1,79 @@
+{
+  "id": "hypotesetesting",
+  "fagId": "matematikk-s2",
+  "trinnId": "vg3",
+  "name": "Hypotesetesting",
+  "intro": "Hvordan du gjennomfører en hypotesetest på reelle data – nullhypotese og alternativ hypotese, signifikansnivå, p-verdi, ensidige og tosidige tester, test av en andel med binomisk fordeling og normaltilnærming – og hvordan du tolker resultatet og feiltypene.",
+  "kompetansemaal": [11],
+  "sammendrag": "## Idéen\n\nEn **hypotesetest** undersøker om data gir **grunnlag** for å påstå noe. Vi antar først at «ingenting spesielt» er tilfellet, og ser om dataene er **for usannsynlige** til at antakelsen er rimelig.\n\n## Hypotesene\n\n- **Nullhypotesen H₀**: «ingen endring» eller «påstanden stemmer», for eksempel p = 0,05.\n- **Den alternative hypotesen H₁**: det vi vil undersøke, for eksempel p > 0,05.\n\nTesten er **ensidig** hvis H₁ bare gjelder én retning (p > 0,05 eller p < 0,05), og **tosidig** hvis H₁ er p ≠ 0,05.\n\n## Signifikansnivå og p-verdi\n\n- **Signifikansnivået** α velges **før** vi ser på dataene – ofte **5 %**.\n- **p-verdien** er sannsynligheten for å få et resultat **minst like ekstremt** som det vi fikk, **dersom H₀ er sann**.\n\n**Regel**: Er **p-verdien ≤ α**, **forkaster** vi H₀. Ellers **beholder** vi H₀.\n\n## Stegene\n\n1. Formuler **H₀** og **H₁**.\n2. Velg **signifikansnivå**.\n3. Finn **teststørrelsen** – for eksempel antall defekte.\n4. Regn ut **p-verdien** med riktig fordeling.\n5. **Konkluder** og **tolk** i sammenhengen.\n\n## Eksempel 1: andel defekte\n\nEn produsent påstår at høyst 5 % av varene er defekte. Vi sjekker 100 varer og finner 10 defekte.\n\n- H₀: p = 0,05 og H₁: p > 0,05 – ensidig\n- X er binomisk med n = 100 og p = 0,05 hvis H₀ er sann.\n- p-verdi: P(X ≥ 10) ≈ **0,028**\n\n0,028 < 0,05, så vi **forkaster** H₀. Dataene gir grunnlag for å påstå at andelen defekte er **større enn 5 %**.\n\n## Eksempel 2: er mynten rettferdig?\n\nVi kaster en mynt 100 ganger og får 60 kron.\n\n- H₀: p = 0,5 og H₁: p ≠ 0,5 – tosidig\n- P(X ≥ 60) ≈ 0,028. Fordi testen er tosidig, dobler vi: p-verdi ≈ **0,057**.\n\n0,057 > 0,05, så vi **beholder** H₀. Vi har **ikke** grunnlag for å påstå at mynten er skjev – men det er heller **ikke bevist** at den er rettferdig.\n\n## Normaltilnærming\n\nNår n er stor, kan vi bruke normalfordelingen. Andelen p̂ = X/n er tilnærmet normalfordelt med forventning p og standardavvik √(p(1 − p)/n). Teststørrelsen er\n\n**Z = (p̂ − p₀)/√(p₀(1 − p₀)/n)**\n\n## To typer feil\n\n- **Type I-feil**: Vi **forkaster** H₀ selv om den er **sann**. Sannsynligheten er α.\n- **Type II-feil**: Vi **beholder** H₀ selv om den er **usann**.\n\nMindre α gir færre type I-feil, men flere type II-feil. Et **større utvalg** reduserer type II-feil.\n\n## Tolking\n\n- Å forkaste H₀ er **ikke** et bevis – det er et **statistisk grunnlag**.\n- Å beholde H₀ betyr **ikke** at H₀ er sann.\n- **Statistisk signifikant** betyr ikke nødvendigvis **viktig i praksis**. Med store utvalg kan små, uviktige forskjeller bli signifikante.\n- Tester du **mange** hypoteser, vil noen bli signifikante **ved en tilfeldighet**.\n\n## Reelle data\n\nHypotesetesting brukes i **medisinske studier**, **kvalitetskontroll**, **meningsmålinger** og **markedsundersøkelser**. Tenk gjennom hvordan dataene er **samlet inn**: Et skjevt utvalg gir feil konklusjon uansett hvor god testen er.",
+  "flashcards": [
+    { "term": "Hypotesetest", "def": "Undersøker om data gir grunnlag for å påstå noe." },
+    { "term": "Nullhypotese H₀", "def": "«Ingen endring» – antas sann i utgangspunktet." },
+    { "term": "Alternativ hypotese H₁", "def": "Det vi vil undersøke." },
+    { "term": "Ensidig test", "def": "H₁ gjelder bare én retning." },
+    { "term": "Tosidig test", "def": "H₁: p ≠ p₀ – p-verdien dobles." },
+    { "term": "Signifikansnivå α", "def": "Grensen for å forkaste H₀ – ofte 5 %." },
+    { "term": "p-verdi", "def": "Sannsynligheten for et minst like ekstremt resultat dersom H₀ er sann." },
+    { "term": "Forkaste H₀", "def": "Når p-verdien ≤ α." },
+    { "term": "Teststørrelse", "def": "Tallet vi bruker i testen, for eksempel antall defekte." },
+    { "term": "Z for andel", "def": "(p̂ − p₀)/√(p₀(1 − p₀)/n)" },
+    { "term": "Type I-feil", "def": "Forkaste H₀ selv om den er sann." },
+    { "term": "Type II-feil", "def": "Beholde H₀ selv om den er usann." },
+    { "term": "Beholde H₀", "def": "Betyr ikke at H₀ er bevist." },
+    { "term": "Statistisk signifikant", "def": "Ikke nødvendigvis viktig i praksis." },
+    { "term": "Skjevt utvalg", "def": "Gir feil konklusjon uansett test." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er p-verdien?", "options": ["Sannsynligheten for at H₀ er sann", "Sannsynligheten for et minst like ekstremt resultat dersom H₀ er sann", "Signifikansnivået", "Andelen defekte"], "correct": 1, "explain": "Beregnes under antakelsen om H₀." },
+    { "id": "q02", "text": "Når forkaster vi H₀?", "options": ["Når p-verdien ≤ α", "Når p-verdien > α", "Alltid", "Når n er stor"], "correct": 0, "explain": "Resultatet er for usannsynlig under H₀." },
+    { "id": "q03", "text": "Hva er en type I-feil?", "options": ["Å beholde en usann H₀", "Å regne feil", "Å forkaste en sann H₀", "Å velge feil fordeling"], "correct": 2, "explain": "Sannsynligheten er α." },
+    { "id": "q04", "text": "Hva gjør vi med p-verdien i en tosidig test?", "options": ["Halverer den", "Tar kvadratroten", "Lar den være", "Dobler den"], "correct": 3, "explain": "Ekstreme resultater i begge retninger teller." },
+    { "id": "q05", "text": "I eksempelet med 10 defekte av 100 er p-verdien 0,028. Hva blir konklusjonen ved 5 % nivå?", "options": ["Forkast H₀", "Behold H₀", "Testen er ugyldig", "Vi trenger ikke konkludere"], "correct": 0, "explain": "0,028 < 0,05." },
+    { "id": "q06", "text": "Hva betyr det å beholde H₀?", "options": ["At H₀ er bevist", "At vi ikke har grunnlag for å forkaste H₀", "At H₁ er bevist", "At dataene er feil"], "correct": 1, "explain": "Ikke et bevis for H₀." },
+    { "id": "q07", "text": "60 kron på 100 kast gir tosidig p-verdi 0,057. Hva er konklusjonen ved 5 % nivå?", "options": ["Mynten er skjev", "Mynten er bevist rettferdig", "Vi beholder H₀", "Vi forkaster H₀"], "correct": 2, "explain": "0,057 > 0,05." },
+    { "id": "q08", "text": "Når velges signifikansnivået?", "options": ["Etter at p-verdien er regnet ut", "Når resultatet er kjent", "Det velges aldri", "Før vi ser på dataene"], "correct": 3, "explain": "Ellers kan vi jukse med konklusjonen." },
+    { "id": "q09", "text": "Hva er en type II-feil?", "options": ["Å beholde H₀ selv om den er usann", "Å forkaste en sann H₀", "Å bruke feil α", "Å doble p-verdien"], "correct": 0, "explain": "Reduseres med større utvalg." },
+    { "id": "q10", "text": "Hvorfor er ikke statistisk signifikant alltid viktig?", "options": ["Fordi signifikans er tilfeldig", "Fordi små, uviktige forskjeller kan bli signifikante i store utvalg", "Fordi p-verdien alltid er feil", "Fordi α er for stor"], "correct": 1, "explain": "Skill mellom statistisk og praktisk betydning." }
+  ],
+  "mindmap": {
+    "label": "Hypotesetesting",
+    "children": [
+      { "label": "Hypoteser", "children": [
+        { "label": "H₀ og H₁" },
+        { "label": "Ensidig og tosidig" }
+      ] },
+      { "label": "Beslutning", "children": [
+        { "label": "Signifikansnivå α" },
+        { "label": "p-verdi" },
+        { "label": "p ≤ α: forkast" }
+      ] },
+      { "label": "Metoder", "children": [
+        { "label": "Binomisk" },
+        { "label": "Normaltilnærming" }
+      ] },
+      { "label": "Feil", "children": [
+        { "label": "Type I" },
+        { "label": "Type II" }
+      ] },
+      { "label": "Tolking", "children": [
+        { "label": "Ikke bevis" },
+        { "label": "Praktisk betydning" },
+        { "label": "Utvalget" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Et større utvalg reduserer sannsynligheten for type II-feil.", "correct": true, "explain": "Testen får større styrke." },
+      { "id": "m02", "type": "sant-usant", "text": "Å forkaste H₀ beviser at H₁ er sann.", "correct": false, "explain": "Det gir et statistisk grunnlag, ikke et bevis." },
+      { "id": "m03", "type": "sant-usant", "text": "Tester vi mange hypoteser, vil noen bli signifikante ved en tilfeldighet.", "correct": true, "explain": "Med α = 5 % omtrent én av tjue." },
+      { "id": "m04", "type": "sant-usant", "text": "Nullhypotesen er vanligvis det vi ønsker å vise.", "correct": false, "explain": "Det er vanligvis den alternative hypotesen." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken hypotese er riktig H₁ når vi mistenker at andelen er større enn 5 %?", "options": ["p = 0,05", "p > 0,05", "p < 0,05", "p ≠ 0,5"], "correct": 1, "explain": "Ensidig test." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er sannsynligheten for type I-feil?", "options": ["α", "p-verdien alltid", "1 − α", "0"], "correct": 0, "explain": "Signifikansnivået." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er et problem med et skjevt utvalg?", "options": ["Det gjør testen raskere", "Det gir alltid lav p-verdi", "Det kan gi feil konklusjon uansett test", "Det har ingen betydning"], "correct": 2, "explain": "Datainnsamlingen er avgjørende." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

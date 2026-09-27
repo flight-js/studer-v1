@@ -1,0 +1,79 @@
+{
+  "id": "rekursjon-og-programmering",
+  "fagId": "matematikk-s2",
+  "trinnId": "vg3",
+  "name": "Rekursive sammenhenger og programmering",
+  "intro": "Rekursive og eksplisitte formler, rekursive modeller for sparing, lån og bestander med høsting, likevektsverdier, og hvordan du bruker løkker, lister og plott i Python eller regneark til å utforske sammenhengene og presentere framgangsmåten.",
+  "kompetansemaal": [2],
+  "sammendrag": "## Rekursive formler\n\nEn **rekursiv** formel sier hvordan vi finner **neste** ledd fra det **forrige**. Vi trenger også en **startverdi**.\n\n- Sparing: S₀ = 0 og **Sₙ = 1,003 · Sₙ₋₁ + 2000** – 0,3 % rente og 2000 kr innskudd hver måned\n- Lån: L₀ = 300 000 og **Lₙ = 1,04 · Lₙ₋₁ − 30 000**\n- Fiskebestand med fangst: P₀ = 6000 og **Pₙ = 1,1 · Pₙ₋₁ − 500**\n\nEn **eksplisitt** formel gir leddet direkte, for eksempel aₙ = 3 · 2ⁿ. Rekursive formler er ofte **lettere** å sette opp fordi de beskriver hva som skjer **fra ett steg til det neste**.\n\n## Løkker i Python\n\nMed en **for-løkke** regner vi et bestemt antall steg:\n\n```python\nP = 6000\nfor n in range(1, 11):\n    P = 1.1*P - 500\n    print(n, round(P))\n```\n\nMed en **while-løkke** regner vi til et vilkår er oppfylt. Hvor mange måneder tar det å spare 100 000 kr?\n\n```python\nS, n = 0, 0\nwhile S < 100000:\n    S = 1.003*S + 2000\n    n = n + 1\nprint(n)\n```\n\nProgrammet gir **47 måneder**.\n\n## Lister og plott\n\nVi kan lagre leddene i en **liste** og tegne dem:\n\n```python\nimport matplotlib.pyplot as plt\nP = [6000]\nfor n in range(20):\n    P.append(1.1*P[-1] - 500)\nplt.plot(P, 'o')\nplt.show()\n```\n\nI et **regneark** skriver du startverdien i én celle og formelen i cellen under, for eksempel =1,1*A1-500, og kopierer nedover.\n\n## Likevekt\n\nEn **likevektsverdi** er en verdi som **ikke endrer seg**. For Pₙ = 1,1 · Pₙ₋₁ − 500 setter vi P = 1,1P − 500 og får **P = 5000**.\n\n- Starter bestanden **over** 5000, **vokser** den.\n- Starter den **under** 5000, **minker** den mot null.\n\nLikevekten er **ustabil**: Små avvik vokser. Slike analyser er viktige i **forvaltning** av fiskebestander.\n\nFor en modell som Pₙ = 0,8 · Pₙ₋₁ + 200 er likevekten P = 1000, og den er **stabil**: Bestanden nærmer seg 1000 uansett startverdi.\n\n## Fra rekursiv til eksplisitt\n\nNoen rekursive modeller kan skrives eksplisitt ved hjelp av **geometriske rekker**. Sparemodellen gir\n\nSₙ = 2000(1,003ⁿ − 1)/0,003\n\nDet er en god **kontroll** av programmet.\n\n## Presentere framgangsmåten\n\nEn god presentasjon\n\n1. forklarer **situasjonen** og hva variablene betyr\n2. viser **startverdi** og **rekursjonsformel**\n3. viser **koden** med korte kommentarer\n4. viser resultatene i en **tabell** eller **graf**\n5. **tolker** resultatene og drøfter **forutsetningene** – er renten fast, er fangsten lik hvert år?\n\n## Hvorfor programmering?\n\nMed programmering kan vi raskt **endre** parametere og se hva som skjer: Hva om renten stiger? Hva om fangsten økes? Slik **utforsker** vi modellen i stedet for bare å regne ut ett svar.",
+  "flashcards": [
+    { "term": "Rekursiv formel", "def": "Gir neste ledd ut fra forrige ledd." },
+    { "term": "Startverdi", "def": "Første verdi rekursjonen starter fra." },
+    { "term": "Eksplisitt formel", "def": "Gir leddet direkte fra n." },
+    { "term": "Rekursiv sparemodell", "def": "Sₙ = (1 + r)Sₙ₋₁ + innskudd" },
+    { "term": "Rekursiv lånemodell", "def": "Lₙ = (1 + r)Lₙ₋₁ − innbetaling" },
+    { "term": "Bestand med fangst", "def": "Pₙ = vekstfaktor · Pₙ₋₁ − fangst" },
+    { "term": "for-løkke", "def": "Gjentar et bestemt antall ganger." },
+    { "term": "while-løkke", "def": "Gjentar så lenge et vilkår er oppfylt." },
+    { "term": "Liste", "def": "Lagrer alle leddene så de kan plottes." },
+    { "term": "append", "def": "Legger et nytt element til en liste i Python." },
+    { "term": "Likevektsverdi", "def": "Verdi som ikke endrer seg fra steg til steg." },
+    { "term": "Stabil likevekt", "def": "Følgen nærmer seg likevekten." },
+    { "term": "Ustabil likevekt", "def": "Små avvik vokser." },
+    { "term": "Regneark og rekursjon", "def": "Formel som viser til cellen over, kopieres nedover." },
+    { "term": "Utforsking", "def": "Endre parametere og se hvordan resultatet endres." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er P₁ når P₀ = 6000 og Pₙ = 1,1 · Pₙ₋₁ − 500?", "options": ["6000", "6100", "6600", "5500"], "correct": 1, "explain": "6600 − 500." },
+    { "id": "q02", "text": "Hva er likevektsverdien for Pₙ = 1,1 · Pₙ₋₁ − 500?", "options": ["5000", "500", "550", "6000"], "correct": 0, "explain": "P = 1,1P − 500 gir 0,1P = 500." },
+    { "id": "q03", "text": "Hvilken løkke passer når du skal regne til sparingen passerer 100 000 kr?", "options": ["for-løkke med 10 steg", "Ingen løkke", "while-løkke", "En liste"], "correct": 2, "explain": "Vi vet ikke antall steg på forhånd." },
+    { "id": "q04", "text": "Hva gjør append i Python?", "options": ["Sletter en liste", "Skriver ut en verdi", "Tegner en graf", "Legger til et element i en liste"], "correct": 3, "explain": "P.append(ny verdi)." },
+    { "id": "q05", "text": "Hva er likevekten for Pₙ = 0,8 · Pₙ₋₁ + 200?", "options": ["1000", "200", "250", "800"], "correct": 0, "explain": "P = 0,8P + 200 gir 0,2P = 200." },
+    { "id": "q06", "text": "Hva betyr det at en likevekt er ustabil?", "options": ["At følgen nærmer seg den", "At små avvik vokser", "At den er lik null", "At den ikke finnes"], "correct": 1, "explain": "Følgen fjerner seg fra likevekten." },
+    { "id": "q07", "text": "Hvilken rekursiv formel beskriver et lån på 4 % rente med 30 000 kr i årlig innbetaling?", "options": ["Lₙ = 0,04 · Lₙ₋₁ − 30 000", "Lₙ = 1,04 · Lₙ₋₁ + 30 000", "Lₙ = 1,04 · Lₙ₋₁ − 30 000", "Lₙ = Lₙ₋₁ − 30 000"], "correct": 2, "explain": "Renter legges til, innbetalingen trekkes fra." },
+    { "id": "q08", "text": "Hvorfor er programmering nyttig for rekursive modeller?", "options": ["Fordi formler er ulovlige", "Fordi svaret alltid blir eksakt", "Fordi det ikke trengs startverdi", "Fordi vi raskt kan regne mange steg og endre parametere"], "correct": 3, "explain": "Vi kan utforske modellen." },
+    { "id": "q09", "text": "Hvilken formel i et regneark gir neste ledd når forrige ledd står i A1 og Pₙ = 1,1 · Pₙ₋₁ − 500?", "options": ["=1,1*A1-500", "=A1+1,1", "=500*A1", "=1,1-A1"], "correct": 0, "explain": "Kopieres nedover." },
+    { "id": "q10", "text": "Hva skjer med bestanden i Pₙ = 1,1 · Pₙ₋₁ − 500 hvis P₀ = 4000?", "options": ["Den vokser", "Den minker", "Den står stille", "Den blir 5000"], "correct": 1, "explain": "Den starter under den ustabile likevekten." }
+  ],
+  "mindmap": {
+    "label": "Rekursjon",
+    "children": [
+      { "label": "Formler", "children": [
+        { "label": "Rekursiv" },
+        { "label": "Eksplisitt" }
+      ] },
+      { "label": "Modeller", "children": [
+        { "label": "Sparing" },
+        { "label": "Lån" },
+        { "label": "Bestand med fangst" }
+      ] },
+      { "label": "Programmering", "children": [
+        { "label": "for og while" },
+        { "label": "Lister og plott" },
+        { "label": "Regneark" }
+      ] },
+      { "label": "Likevekt", "children": [
+        { "label": "Stabil" },
+        { "label": "Ustabil" }
+      ] },
+      { "label": "Presentasjon", "children": [
+        { "label": "Kode og graf" },
+        { "label": "Forutsetninger" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "En rekursiv formel trenger en startverdi.", "correct": true, "explain": "Ellers kan vi ikke begynne." },
+      { "id": "m02", "type": "sant-usant", "text": "En stabil likevekt betyr at følgen fjerner seg fra likevekten.", "correct": false, "explain": "Den nærmer seg likevekten." },
+      { "id": "m03", "type": "sant-usant", "text": "Rekursive modeller kan ofte kontrolleres med en eksplisitt formel.", "correct": true, "explain": "For eksempel via geometriske rekker." },
+      { "id": "m04", "type": "sant-usant", "text": "En while-løkke kjører alltid nøyaktig ti ganger.", "correct": false, "explain": "Den kjører så lenge vilkåret er oppfylt." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er S₂ når S₀ = 0 og Sₙ = 1,1 · Sₙ₋₁ + 1000?", "options": ["2000", "2100", "2200", "1100"], "correct": 1, "explain": "S₁ = 1000, S₂ = 1100 + 1000." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilken forutsetning bør drøftes i en lånemodell?", "options": ["Om renten er fast", "Om Python er installert", "Om grafen er blå", "Om n er et partall"], "correct": 0, "explain": "Renten kan endre seg." },
+      { "id": "m07", "type": "flervalg", "text": "Hva kalles en verdi som ikke endrer seg fra steg til steg?", "options": ["Startverdi", "Kvotient", "Likevektsverdi", "Differanse"], "correct": 2, "explain": "P = f(P)." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
