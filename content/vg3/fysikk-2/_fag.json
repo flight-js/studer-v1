@@ -1,0 +1,72 @@
+{
+  "id": "fysikk-2",
+  "trinnId": "vg3",
+  "name": "Fysikk 2",
+  "lareplan": {
+    "kode": "FYS01-02",
+    "url": "https://www.udir.no/lk20/fys01-02/kompetansemaal-og-vurdering/kv467",
+    "kompetansemaal": [
+      {
+        "nr": 1,
+        "tekst": "planlegge, gjennomføre og videreutvikle forsøk, og analysere data og beregne usikkerhet for å vurdere gyldigheten av funn"
+      },
+      {
+        "nr": 2,
+        "tekst": "presentere sentrale elementer i ny viten i fysikk som er et resultat av internasjonalt forskningssamarbeid, og vurdere hvordan slikt samarbeid bidrar i kunnskapsutviklingen"
+      },
+      {
+        "nr": 3,
+        "tekst": "bruke numeriske metoder og programmering til å utforske og modellere fysiske fenomener"
+      },
+      {
+        "nr": 4,
+        "tekst": "utforske, beskrive og modellere bevegelse i to dimensjoner"
+      },
+      {
+        "nr": 5,
+        "tekst": "gjøre rede for hvordan krefter kan forårsake krumlinjet bevegelse, og bruke dette i beregninger"
+      },
+      {
+        "nr": 6,
+        "tekst": "beskrive elektriske og magnetiske felt og gjøre rede for krefter på objekter med masse og ladning i slike felt"
+      },
+      {
+        "nr": 7,
+        "tekst": "gjøre rede for energibevaring i gravitasjonelle sentralfelt og bruke dette til å beregne bevegelse i slike felt"
+      },
+      {
+        "nr": 8,
+        "tekst": "utforske ulike måter å indusere elektromotorisk spenning og strøm, og analysere resultatene"
+      },
+      {
+        "nr": 9,
+        "tekst": "forklare hvordan induksjon kan inngå i bærekraftig energiproduksjon og vurdere anvendelser av induksjon i dagliglivet"
+      },
+      {
+        "nr": 10,
+        "tekst": "beskrive de sentrale prinsippene i den spesielle og generelle relativitetsteorien og gjøre rede for hvordan disse har endret vår forståelse av tid, rom og felt"
+      },
+      {
+        "nr": 11,
+        "tekst": "gjøre rede for hva som skiller kvanteobjekter fra klassiske objekter, og beskrive situasjoner der kvanteeffekter observeres"
+      },
+      {
+        "nr": 12,
+        "tekst": "utforske og analysere en selvvalgt teoretisk eller praktisk problemstilling i fysikk, og presentere viktige prinsipper, sammenhenger og konsekvenser"
+      }
+    ]
+  },
+  "temaer": [
+    "forsok-usikkerhet-og-forskningssamarbeid",
+    "numeriske-metoder-og-modellering",
+    "bevegelse-i-to-dimensjoner",
+    "sirkelbevegelse",
+    "gravitasjon-og-sentralfelt",
+    "elektriske-felt",
+    "magnetiske-felt",
+    "elektromagnetisk-induksjon",
+    "induksjon-og-energiproduksjon",
+    "relativitetsteori",
+    "kvantefysikk"
+  ]
+}

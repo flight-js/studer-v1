@@ -1,0 +1,79 @@
+{
+  "id": "gravitasjon-og-sentralfelt",
+  "fagId": "fysikk-2",
+  "trinnId": "vg3",
+  "name": "Gravitasjon og energi i sentralfelt",
+  "intro": "Newtons gravitasjonslov og gravitasjonsfeltet, potensiell energi i et sentralfelt, energibevaring for satellitter og romsonder, banefart og omløpstid i sirkelbaner, unnslipningsfart, geostasjonære baner og Keplers lover.",
+  "kompetansemaal": [7],
+  "sammendrag": "## Newtons gravitasjonslov\n\nTo legemer tiltrekker hverandre med kraften\n\n**F = γ · m₁ · m₂ / r²**\n\nder **γ = 6,67 · 10⁻¹¹ N·m²/kg²** er **gravitasjonskonstanten** og r er avstanden mellom **sentrene**. Kraften **avtar** med kvadratet av avstanden: Dobbelt så langt unna gir **en firedel** så stor kraft.\n\n## Gravitasjonsfeltet\n\nEt legeme med masse M lager et **gravitasjonsfelt** rundt seg. **Feltstyrken** er\n\n**g = γM / r²**\n\nVed jordoverflaten er g ≈ 9,81 N/kg. Feltet er et **sentralfelt**: Feltlinjene peker mot **sentrum** av massen.\n\n## Potensiell energi i et sentralfelt\n\nNær jordoverflaten bruker vi E_p = mgh. Langt ute i rommet varierer g, og da er\n\n**E_p = −γMm / r**\n\nNullpunktet er valgt **uendelig langt unna**, så den potensielle energien er **negativ**. Den **øker** – blir mindre negativ – når avstanden øker.\n\n## Energibevaring\n\nNår bare gravitasjonen virker, er den **mekaniske energien bevart**:\n\n**½mv² − γMm/r = konstant**\n\nNår en satellitt i en **ellipsebane** kommer nærmere planeten, øker **farten**, og når den er langt unna, går den **saktere**.\n\n## Unnslipningsfart\n\n**Unnslipningsfarten** er den minste farten et legeme må ha for å komme seg **uendelig langt** bort uten videre fremdrift. Vi setter den totale energien lik null:\n\n**v = √(2γM / r)**\n\nFor jorda er unnslipningsfarten omtrent **11,2 km/s**.\n\n## Sirkelbaner\n\nFor en satellitt i **sirkelbane** er gravitasjonskraften **sentripetalkraften**:\n\nγMm / r² = mv² / r, som gir **v = √(γM / r)**\n\nOmløpstiden er T = 2πr / v.\n\n**Eksempel: Den internasjonale romstasjonen**. Den går omtrent 400 km over bakken, så r ≈ 6,77 · 10⁶ m. Med γM ≈ 3,99 · 10¹⁴ m³/s² for jorda blir v ≈ **7,7 km/s** og T ≈ **92 minutter**.\n\nFarten avhenger **ikke** av satellittens masse – bare av planetens masse og avstanden.\n\n## Geostasjonær bane\n\nEn **geostasjonær** satellitt har omløpstid **ett døgn** og går over **ekvator** i samme retning som jorda roterer. Da står den stille over samme punkt. Banen ligger omtrent **36 000 km** over bakken og brukes til **kommunikasjon** og **værovervåking**.\n\n## Keplers lover\n\n1. Planetene går i **ellipser** med sola i det ene brennpunktet.\n2. En linje fra sola til planeten sveiper over **like store arealer** på like lang tid – planeten går **raskest** nærmest sola.\n3. **T² / r³** er det samme for alle planetene rundt sola.\n\nNewton viste at Keplers lover følger av **gravitasjonsloven**.\n\n## Vektløshet\n\nAstronauter i romstasjonen er **ikke** uten tyngde – gravitasjonen der er omtrent 90 % av den ved bakken. De føler seg vektløse fordi de og stasjonen er i **fritt fall** rundt jorda.",
+  "flashcards": [
+    { "term": "Newtons gravitasjonslov", "def": "F = γ · m₁ · m₂ / r²." },
+    { "term": "Gravitasjonskonstanten", "def": "γ = 6,67 · 10⁻¹¹ N·m²/kg²." },
+    { "term": "Gravitasjonsfeltstyrke", "def": "g = γM / r²." },
+    { "term": "Sentralfelt", "def": "Felt der feltlinjene peker mot et sentrum." },
+    { "term": "Potensiell energi i sentralfelt", "def": "E_p = −γMm / r, med null uendelig langt unna." },
+    { "term": "Energibevaring i bane", "def": "½mv² − γMm/r er konstant når bare gravitasjonen virker." },
+    { "term": "Unnslipningsfart", "def": "v = √(2γM / r) – omtrent 11,2 km/s for jorda." },
+    { "term": "Banefart i sirkelbane", "def": "v = √(γM / r)." },
+    { "term": "Omløpstid", "def": "T = 2πr / v." },
+    { "term": "Geostasjonær bane", "def": "Omløpstid ett døgn over ekvator, omtrent 36 000 km over bakken." },
+    { "term": "Keplers første lov", "def": "Planetene går i ellipser med sola i ett brennpunkt." },
+    { "term": "Keplers andre lov", "def": "Like store arealer på like lang tid." },
+    { "term": "Keplers tredje lov", "def": "T² / r³ er lik for alle planetene rundt sola." },
+    { "term": "Vektløshet", "def": "Følelse av å være uten vekt i fritt fall." },
+    { "term": "Romstasjonen", "def": "Går omtrent 400 km over bakken med omløpstid rundt 92 min." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva skjer med gravitasjonskraften når avstanden dobles?", "options": ["Den halveres", "Den blir en firedel", "Den dobles", "Den er uendret"], "correct": 1, "explain": "Kraften avtar med r²." },
+    { "id": "q02", "text": "Hva er potensiell energi i et sentralfelt?", "options": ["E_p = −γMm / r", "E_p = mgh alltid", "E_p = ½mv²", "E_p = γMm · r"], "correct": 0, "explain": "Med nullpunkt uendelig langt unna." },
+    { "id": "q03", "text": "Hva er unnslipningsfarten fra jordoverflaten?", "options": ["Omtrent 7,9 km/s", "Omtrent 3,0 km/s", "Omtrent 11,2 km/s", "Omtrent 300 km/s"], "correct": 2, "explain": "v = √(2γM / r)." },
+    { "id": "q04", "text": "Hva avhenger banefarten til en satellitt i sirkelbane av?", "options": ["Satellittens masse", "Satellittens form", "Satellittens farge", "Planetens masse og avstanden"], "correct": 3, "explain": "v = √(γM / r)." },
+    { "id": "q05", "text": "Hva er omløpstiden til en geostasjonær satellitt?", "options": ["Ett døgn", "92 minutter", "Én time", "Ett år"], "correct": 0, "explain": "Den står stille over samme punkt." },
+    { "id": "q06", "text": "Hvor går en satellitt raskest i en ellipsebane?", "options": ["Lengst unna planeten", "Nærmest planeten", "Like fort overalt", "Midt mellom"], "correct": 1, "explain": "Keplers andre lov og energibevaring." },
+    { "id": "q07", "text": "Hvorfor føler astronauter seg vektløse i romstasjonen?", "options": ["Fordi det ikke finnes gravitasjon der", "Fordi de er for langt unna", "Fordi de er i fritt fall rundt jorda", "Fordi de har mindre masse"], "correct": 2, "explain": "Gravitasjonen er omtrent 90 % av den ved bakken." },
+    { "id": "q08", "text": "Hva sier Keplers tredje lov?", "options": ["Planetene går i sirkler", "Like arealer på lik tid", "Alle planeter har samme fart", "T² / r³ er lik for alle planetene rundt sola"], "correct": 3, "explain": "Følger av gravitasjonsloven." },
+    { "id": "q09", "text": "Hva er banefarten til romstasjonen omtrent?", "options": ["7,7 km/s", "11,2 km/s", "0,5 km/s", "30 km/s"], "correct": 0, "explain": "v = √(γM / r) med r ≈ 6,77 · 10⁶ m." },
+    { "id": "q10", "text": "Hvordan endres den potensielle energien når en satellitt fjerner seg fra jorda?", "options": ["Den minker", "Den øker – blir mindre negativ", "Den er uendret", "Den blir positiv og stor"], "correct": 1, "explain": "E_p = −γMm / r." }
+  ],
+  "mindmap": {
+    "label": "Gravitasjon og sentralfelt",
+    "children": [
+      { "label": "Gravitasjonsloven", "children": [
+        { "label": "F = γm₁m₂/r²" },
+        { "label": "Feltstyrke g = γM/r²" }
+      ] },
+      { "label": "Energi", "children": [
+        { "label": "E_p = −γMm/r" },
+        { "label": "Energibevaring" },
+        { "label": "Unnslipningsfart" }
+      ] },
+      { "label": "Sirkelbaner", "children": [
+        { "label": "v = √(γM/r)" },
+        { "label": "Romstasjonen" },
+        { "label": "Geostasjonær bane" }
+      ] },
+      { "label": "Kepler", "children": [
+        { "label": "Ellipser" },
+        { "label": "Like arealer" },
+        { "label": "T²/r³" }
+      ] },
+      { "label": "Vektløshet", "children": [
+        { "label": "Fritt fall" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Newton viste at Keplers lover følger av gravitasjonsloven.", "correct": true, "explain": "En av fysikkens store samlinger." },
+      { "id": "m02", "type": "sant-usant", "text": "En tyngre satellitt må ha større banefart i samme bane.", "correct": false, "explain": "Banefarten er uavhengig av satellittens masse." },
+      { "id": "m03", "type": "sant-usant", "text": "Geostasjonære satellitter brukes til kommunikasjon og værovervåking.", "correct": true, "explain": "De står stille over samme punkt." },
+      { "id": "m04", "type": "sant-usant", "text": "Den potensielle energien i et sentralfelt er positiv nær planeten.", "correct": false, "explain": "Den er negativ med nullpunkt uendelig langt unna." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er omløpstiden til romstasjonen omtrent?", "options": ["24 timer", "92 minutter", "10 minutter", "1 uke"], "correct": 1, "explain": "T = 2πr / v." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilken formel gir unnslipningsfarten?", "options": ["v = √(2γM / r)", "v = √(γM / r)", "v = γM / r", "v = 2πr / T"], "correct": 0, "explain": "Total energi lik null." },
+      { "id": "m07", "type": "flervalg", "text": "Hvor høyt over bakken ligger en geostasjonær bane omtrent?", "options": ["400 km", "3600 km", "36 000 km", "384 000 km"], "correct": 2, "explain": "Omløpstid ett døgn." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

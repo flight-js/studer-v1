@@ -1,0 +1,79 @@
+{
+  "id": "induksjon-og-energiproduksjon",
+  "fagId": "fysikk-2",
+  "trinnId": "vg3",
+  "name": "Induksjon i energiproduksjon og hverdagen",
+  "intro": "Hvordan induksjon inngår i bærekraftig energiproduksjon – generatorer i vann- og vindkraftverk, vekselstrøm, transformatorer og kraftoverføring – og anvendelser av induksjon i dagliglivet som induksjonstopp, trådløs lading, metalldetektorer og bremser.",
+  "kompetansemaal": [9],
+  "sammendrag": "## Generatoren\n\nEn **generator** gjør **mekanisk energi** om til **elektrisk energi** ved hjelp av induksjon. En **spole** roterer i et **magnetfelt** – eller en magnet roterer inne i spoler. Fluksen gjennom spolen **endres** hele tiden, og det induseres en spenning.\n\nFordi fluksen varierer som en **sinusfunksjon** når spolen roterer, får vi **vekselspenning**. I Norge har strømnettet frekvensen **50 Hz** – spenningen skifter retning 100 ganger i sekundet.\n\n## Bærekraftig energiproduksjon\n\nNesten all elektrisk kraft produseres med **generatorer**. Forskjellen ligger i **hva som driver** dem:\n\n- **Vannkraft**: Vann faller fra et magasin og driver en **turbin** koblet til generatoren. Vannkraft er **fornybar** og står for det aller meste av kraftproduksjonen i **Norge**. Den kan også **reguleres** – vi kan spare vann til vi trenger strømmen.\n- **Vindkraft**: Vinden driver **rotorbladene**, som driver generatoren. Produksjonen **varierer** med vinden.\n- **Bølge-** og **tidevannskraft** bruker havets bevegelser.\n- **Varmekraftverk** – med kull, gass, biobrensel eller kjernekraft – koker vann til damp som driver en turbin.\n\n**Solceller** er et unntak: De bruker **ikke** induksjon, men gjør lys direkte om til strøm.\n\n## Transformatoren\n\nEn **transformator** består av to spoler rundt en felles **jernkjerne**. Vekselstrøm i primærspolen gir et **varierende** magnetfelt, som induserer spenning i sekundærspolen:\n\n**U₁ / U₂ = N₁ / N₂**\n\n**Eksempel**: N₁ = 1000, N₂ = 50 og U₁ = 230 V gir U₂ = 230 · 50 / 1000 = **11,5 V**. Slike transformatorer finnes i mange **ladere**.\n\nTransformatorer virker bare med **vekselstrøm**, fordi det må være en **endring** i fluksen.\n\n## Kraftoverføring\n\nStrøm overføres over lange avstander med **svært høy spenning**. For en gitt effekt P = U · I gir høy spenning **lav strøm**. Varmetapet i ledningene er **P_tap = R · I²**, så lav strøm gir **mye mindre tap**. Transformatorer **øker** spenningen etter kraftverket og **senker** den før strømmen når husene.\n\n## Induksjon i hverdagen\n\n- **Induksjonstopp**: En spole under glasset lager et raskt vekslende magnetfelt, som induserer **virvelstrømmer** i bunnen av kjelen. Kjelen blir varm, mens platen selv holder seg ganske kald. Kjelen må være av **magnetisk** metall.\n- **Trådløs lading** av mobiler og tannbørster: En spole i laderen induserer strøm i en spole i telefonen.\n- **Metalldetektorer** på flyplasser registrerer virvelstrømmer i metallgjenstander.\n- **Virvelstrømsbremser** i tog og berg-og-dal-baner bremser uten slitasje.\n- **Elbiler** bruker motoren som **generator** når de bremser – **regenerativ bremsing** – og lader batteriet.\n- **Kortlesere**, **elektriske gitarer** og **mikrofoner** bygger også på induksjon.\n\n## Vurdering\n\nInduksjon er grunnlaget for det **elektriske samfunnet**. Hvor **bærekraftig** strømmen er, avhenger av hva som driver generatorene. Samtidig har også fornybar energi **ulemper**, som naturinngrep ved vassdrag og vindkraftverk. Effektiv **overføring** og **bruk** av strøm er en viktig del av det grønne skiftet.",
+  "flashcards": [
+    { "term": "Generator", "def": "Gjør mekanisk energi om til elektrisk energi ved induksjon." },
+    { "term": "Vekselspenning", "def": "Spenning som skifter retning periodisk." },
+    { "term": "50 Hz", "def": "Frekvensen i det norske strømnettet." },
+    { "term": "Turbin", "def": "Hjul som drives av vann, damp eller vind og driver generatoren." },
+    { "term": "Vannkraft", "def": "Fornybar og regulerbar – det meste av norsk kraftproduksjon." },
+    { "term": "Vindkraft", "def": "Vinden driver rotorblader og generator – varierende produksjon." },
+    { "term": "Solceller", "def": "Gjør lys direkte om til strøm uten induksjon." },
+    { "term": "Transformator", "def": "To spoler rundt en jernkjerne som endrer spenningen." },
+    { "term": "U₁/U₂ = N₁/N₂", "def": "Transformatorligningen." },
+    { "term": "Høyspentoverføring", "def": "Høy spenning gir lav strøm og lite varmetap." },
+    { "term": "Varmetap", "def": "P_tap = R · I²." },
+    { "term": "Induksjonstopp", "def": "Varierende magnetfelt gir virvelstrømmer i kjelen." },
+    { "term": "Trådløs lading", "def": "Spole i laderen induserer strøm i spole i telefonen." },
+    { "term": "Regenerativ bremsing", "def": "Elbilens motor fungerer som generator ved bremsing." },
+    { "term": "Virvelstrømsbrems", "def": "Brems uten slitasje basert på induserte strømmer." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva gjør en generator?", "options": ["Gjør elektrisk energi om til varme", "Gjør mekanisk energi om til elektrisk energi", "Lagrer strøm", "Gjør lys om til strøm"], "correct": 1, "explain": "Ved hjelp av induksjon." },
+    { "id": "q02", "text": "Hvilken energikilde bruker ikke induksjon?", "options": ["Solceller", "Vannkraft", "Vindkraft", "Kjernekraft"], "correct": 0, "explain": "Solceller gjør lys direkte om til strøm." },
+    { "id": "q03", "text": "N₁ = 1000, N₂ = 50 og U₁ = 230 V. Hva er U₂?", "options": ["4600 V", "230 V", "11,5 V", "50 V"], "correct": 2, "explain": "230 · 50 / 1000." },
+    { "id": "q04", "text": "Hvorfor overføres strøm med svært høy spenning?", "options": ["Fordi det er tryggere", "Fordi det gir mer strøm", "Fordi ledningene blir kortere", "Fordi lav strøm gir mye mindre varmetap"], "correct": 3, "explain": "P_tap = R · I²." },
+    { "id": "q05", "text": "Hvorfor virker transformatorer bare med vekselstrøm?", "options": ["Fordi det må være en endring i fluksen", "Fordi likestrøm er farlig", "Fordi jernkjernen smelter", "Fordi spolene er for små"], "correct": 0, "explain": "Induksjon krever endring." },
+    { "id": "q06", "text": "Hvordan varmes kjelen på en induksjonstopp?", "options": ["Platen blir glovarm", "Induserte virvelstrømmer i kjelen gir varme", "Kjelen varmes av lys", "Med gass"], "correct": 1, "explain": "Kjelen må være av magnetisk metall." },
+    { "id": "q07", "text": "Hva er regenerativ bremsing?", "options": ["Bremsing med friksjon", "Bremsing med fallskjerm", "At elbilens motor fungerer som generator og lader batteriet", "At bilen bremser av seg selv"], "correct": 2, "explain": "Bevegelsesenergi blir til elektrisk energi." },
+    { "id": "q08", "text": "Hvilken frekvens har strømnettet i Norge?", "options": ["60 Hz", "100 Hz", "1 Hz", "50 Hz"], "correct": 3, "explain": "Spenningen skifter retning 100 ganger i sekundet." },
+    { "id": "q09", "text": "Hvorfor er vannkraft særlig verdifull?", "options": ["Den er fornybar og kan reguleres", "Den varierer med vinden", "Den krever kull", "Den gir ingen naturinngrep"], "correct": 0, "explain": "Vann kan spares i magasiner." },
+    { "id": "q10", "text": "Hva er en ulempe også ved fornybar energi?", "options": ["Den gir mye CO₂", "Naturinngrep ved vassdrag og vindkraftverk", "Den tar aldri slutt", "Den krever ingen generatorer"], "correct": 1, "explain": "Bærekraft har flere sider." }
+  ],
+  "mindmap": {
+    "label": "Induksjon og energi",
+    "children": [
+      { "label": "Generator", "children": [
+        { "label": "Roterende spole" },
+        { "label": "Vekselspenning 50 Hz" }
+      ] },
+      { "label": "Kraftverk", "children": [
+        { "label": "Vannkraft" },
+        { "label": "Vindkraft" },
+        { "label": "Varmekraft" }
+      ] },
+      { "label": "Transformator", "children": [
+        { "label": "U₁/U₂ = N₁/N₂" },
+        { "label": "Bare vekselstrøm" }
+      ] },
+      { "label": "Overføring", "children": [
+        { "label": "Høy spenning" },
+        { "label": "P_tap = RI²" }
+      ] },
+      { "label": "Hverdagen", "children": [
+        { "label": "Induksjonstopp og lading" },
+        { "label": "Metalldetektor og brems" },
+        { "label": "Regenerativ bremsing" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Nesten all elektrisk kraft produseres med generatorer.", "correct": true, "explain": "Forskjellen er hva som driver dem." },
+      { "id": "m02", "type": "sant-usant", "text": "På en induksjonstopp kan alle typer kjeler brukes.", "correct": false, "explain": "Kjelen må være av magnetisk metall." },
+      { "id": "m03", "type": "sant-usant", "text": "Transformatorer senker spenningen før strømmen når husene.", "correct": true, "explain": "Fra høyspent til 230 V." },
+      { "id": "m04", "type": "sant-usant", "text": "Virvelstrømsbremser slites fort fordi de bruker friksjon.", "correct": false, "explain": "De bremser uten slitasje." },
+      { "id": "m05", "type": "flervalg", "text": "Hvordan fungerer trådløs lading?", "options": ["Med lys", "En spole i laderen induserer strøm i en spole i telefonen", "Med varme", "Med batteribytte"], "correct": 1, "explain": "Induksjon mellom to spoler." },
+      { "id": "m06", "type": "flervalg", "text": "Hva driver turbinen i et varmekraftverk?", "options": ["Damp", "Vind", "Fallende vann", "Lys"], "correct": 0, "explain": "Vann kokes med kull, gass eller kjernekraft." },
+      { "id": "m07", "type": "flervalg", "text": "Hva skjer med varmetapet hvis strømmen i en ledning halveres?", "options": ["Det halveres", "Det dobles", "Det blir en firedel", "Det er uendret"], "correct": 2, "explain": "P_tap er proporsjonal med I²." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

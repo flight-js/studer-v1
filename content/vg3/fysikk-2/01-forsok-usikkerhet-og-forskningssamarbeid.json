@@ -1,0 +1,79 @@
+{
+  "id": "forsok-usikkerhet-og-forskningssamarbeid",
+  "fagId": "fysikk-2",
+  "trinnId": "vg3",
+  "name": "Forsøk, usikkerhet og internasjonalt forskningssamarbeid",
+  "intro": "Hvordan du planlegger og videreutvikler forsøk, analyserer data og beregner usikkerhet for å vurdere gyldigheten av funn – hvordan internasjonalt samarbeid ved CERN, LIGO og romteleskopene har gitt ny kunnskap – og hvordan du utforsker og presenterer en selvvalgt problemstilling i fysikk.",
+  "kompetansemaal": [1, 2, 12],
+  "sammendrag": "## Planlegge og videreutvikle forsøk\n\nEt godt forsøk starter med en tydelig **problemstilling** og en **hypotese**. Bestem hvilken størrelse du **endrer**, hvilken du **måler**, og hvilke du holder **konstant**. Etter første gjennomføring kan du **videreutvikle** forsøket: flere målinger, bedre utstyr, større måleområde eller en annen metode som reduserer feilkildene.\n\n## Usikkerhet\n\nAlle målinger har **usikkerhet**.\n\n- **Absolutt usikkerhet** oppgis i samme enhet som målingen: l = (2,50 ± 0,02) m.\n- **Relativ usikkerhet** er absolutt usikkerhet delt på målt verdi: 0,02 / 2,50 = 0,8 %.\n\nNår du gjentar en måling flere ganger, brukes **gjennomsnittet** som beste verdi, og **standardavviket** eller halve **variasjonsbredden** som mål på usikkerheten.\n\n## Usikkerhet i beregnede størrelser\n\n- Ved **addisjon** og **subtraksjon** legges de **absolutte** usikkerhetene sammen.\n- Ved **multiplikasjon** og **divisjon** legges de **relative** usikkerhetene sammen.\n- Ved **potens** multipliseres den relative usikkerheten med **eksponenten**.\n\n**Eksempel**: Du måler strekning s = (10,0 ± 0,1) m og tid t = (2,00 ± 0,05) s. Farten er v = 5,00 m/s. Relativ usikkerhet: 1,0 % + 2,5 % = 3,5 %, altså v = (5,00 ± 0,18) m/s.\n\n## Vurdere gyldighet\n\n- **Stemmer** resultatet med teori eller kjente verdier innenfor **usikkerheten**?\n- Viser en **graf** en **lineær** sammenheng? **Linearisering** – for eksempel å plotte s mot t² – gjør det lettere å teste en modell.\n- Finnes det **systematiske** feil, som friksjon eller luftmotstand, som teorien ikke tar med?\n\n## Internasjonalt forskningssamarbeid\n\nMye ny kunnskap i fysikk kommer fra **store internasjonale** prosjekter som ingen land kunne klart alene.\n\n- **CERN** i Genève, der **Norge** er medlem, driver **LHC** – verdens største partikkelakselerator. I **2012** ble **Higgs-partikkelen** påvist, og den bekreftet hvordan partikler får **masse**.\n- **LIGO** og **Virgo** målte i **2015** for første gang **gravitasjonsbølger** fra to sorte hull som smeltet sammen – en bekreftelse av Einsteins generelle relativitetsteori.\n- **Event Horizon Telescope** koblet radioteleskoper over hele jorda og viste i **2019** det første **bildet** av skyggen av et sort hull.\n- **James Webb-romteleskopet** fra **2021** studerer de første galaksene og atmosfæren til planeter rundt andre stjerner.\n\nSamarbeidet gir **deling** av kostnader og kompetanse, **kontroll** av resultater gjennom mange uavhengige grupper, og **åpne** data. Utfordringer er **kostnader**, **politikk** og at enkeltforskeres bidrag kan bli **usynlige**.\n\n## Selvvalgt problemstilling\n\nNår du utforsker en egen problemstilling:\n\n1. Avgrens problemstillingen og finn relevant **teori**.\n2. Velg metode – **forsøk**, **simulering** eller **teoretisk** analyse.\n3. Samle og **analyser** data med usikkerhet.\n4. Presenter **prinsipper**, **sammenhenger** og **konsekvenser** tydelig, med figurer og en begrunnet konklusjon.",
+  "flashcards": [
+    { "term": "Hypotese", "def": "Testbar påstand om en sammenheng." },
+    { "term": "Absolutt usikkerhet", "def": "Usikkerheten i samme enhet som målingen." },
+    { "term": "Relativ usikkerhet", "def": "Absolutt usikkerhet delt på målt verdi." },
+    { "term": "Standardavvik", "def": "Mål på spredningen i gjentatte målinger." },
+    { "term": "Usikkerhet ved addisjon", "def": "De absolutte usikkerhetene legges sammen." },
+    { "term": "Usikkerhet ved multiplikasjon", "def": "De relative usikkerhetene legges sammen." },
+    { "term": "Linearisering", "def": "Å plotte størrelser slik at sammenhengen blir en rett linje." },
+    { "term": "Systematisk feil", "def": "Feil som trekker resultatet i én retning." },
+    { "term": "Gyldighet", "def": "Om funnene faktisk støtter konklusjonen." },
+    { "term": "CERN", "def": "Europeisk forskningssenter for partikkelfysikk der Norge er medlem." },
+    { "term": "Higgs-partikkelen", "def": "Påvist ved CERN i 2012 – forklarer hvordan partikler får masse." },
+    { "term": "LIGO", "def": "Detektor som målte gravitasjonsbølger i 2015." },
+    { "term": "Gravitasjonsbølger", "def": "Krusninger i romtiden fra for eksempel sorte hull som smelter sammen." },
+    { "term": "Event Horizon Telescope", "def": "Globalt nettverk av teleskoper som avbildet et sort hull i 2019." },
+    { "term": "James Webb-romteleskopet", "def": "Romteleskop fra 2021 som studerer de første galaksene." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er relativ usikkerhet?", "options": ["Usikkerheten i samme enhet som målingen", "Absolutt usikkerhet delt på målt verdi", "Forskjellen mellom to målinger", "Antall målinger"], "correct": 1, "explain": "Oppgis ofte i prosent." },
+    { "id": "q02", "text": "Hvordan finner du usikkerheten i et produkt av to målte størrelser?", "options": ["Legger sammen de relative usikkerhetene", "Legger sammen de absolutte usikkerhetene", "Multipliserer usikkerhetene", "Tar den største"], "correct": 0, "explain": "Gjelder også divisjon." },
+    { "id": "q03", "text": "s = (10,0 ± 0,1) m og t = (2,00 ± 0,05) s. Hva er relativ usikkerhet i v = s/t?", "options": ["1,0 %", "2,5 %", "3,5 %", "0,15 %"], "correct": 2, "explain": "1,0 % + 2,5 %." },
+    { "id": "q04", "text": "Hva ble påvist ved CERN i 2012?", "options": ["Gravitasjonsbølger", "Et sort hull", "Mørk materie", "Higgs-partikkelen"], "correct": 3, "explain": "Med LHC-akseleratoren." },
+    { "id": "q05", "text": "Hva målte LIGO i 2015?", "options": ["Gravitasjonsbølger", "Higgs-partikkelen", "Lysfarten", "Nøytrinoer"], "correct": 0, "explain": "Fra to sorte hull som smeltet sammen." },
+    { "id": "q06", "text": "Hvorfor er linearisering nyttig?", "options": ["Den fjerner all usikkerhet", "Den gjør det lettere å teste en modell med en rett linje", "Den gjør grafen penere", "Den erstatter målinger"], "correct": 1, "explain": "For eksempel s mot t²." },
+    { "id": "q07", "text": "Hva er en fordel med internasjonalt forskningssamarbeid?", "options": ["Færre forskere", "Mindre kontroll", "Deling av kostnader og kontroll av resultater", "Hemmelige data"], "correct": 2, "explain": "Store prosjekter krever mange land." },
+    { "id": "q08", "text": "Hva viste Event Horizon Telescope i 2019?", "options": ["Higgs-partikkelen", "De første galaksene", "Gravitasjonsbølger", "Det første bildet av skyggen av et sort hull"], "correct": 3, "explain": "Teleskoper over hele jorda ble koblet sammen." },
+    { "id": "q09", "text": "Hvordan legges usikkerheter sammen ved addisjon av målte størrelser?", "options": ["De absolutte usikkerhetene legges sammen", "De relative usikkerhetene legges sammen", "De multipliseres", "De ignoreres"], "correct": 0, "explain": "Også ved subtraksjon." },
+    { "id": "q10", "text": "Når er et resultat i samsvar med teorien?", "options": ["Når det er nøyaktig likt", "Når avviket er innenfor usikkerheten", "Når det er større", "Aldri"], "correct": 1, "explain": "Usikkerheten avgjør." }
+  ],
+  "mindmap": {
+    "label": "Forsøk og samarbeid",
+    "children": [
+      { "label": "Forsøk", "children": [
+        { "label": "Hypotese og variabler" },
+        { "label": "Videreutvikling" }
+      ] },
+      { "label": "Usikkerhet", "children": [
+        { "label": "Absolutt og relativ" },
+        { "label": "Sammensatte størrelser" },
+        { "label": "Gjennomsnitt og standardavvik" }
+      ] },
+      { "label": "Gyldighet", "children": [
+        { "label": "Linearisering" },
+        { "label": "Systematiske feil" }
+      ] },
+      { "label": "Samarbeid", "children": [
+        { "label": "CERN og Higgs" },
+        { "label": "LIGO" },
+        { "label": "EHT og James Webb" }
+      ] },
+      { "label": "Egen problemstilling", "children": [
+        { "label": "Teori og metode" },
+        { "label": "Presentasjon" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Norge er medlem av CERN.", "correct": true, "explain": "Norske forskere deltar i eksperimentene." },
+      { "id": "m02", "type": "sant-usant", "text": "Ved potens legges usikkerhetene bare sammen uten å ta hensyn til eksponenten.", "correct": false, "explain": "Relativ usikkerhet multipliseres med eksponenten." },
+      { "id": "m03", "type": "sant-usant", "text": "Gravitasjonsbølgene som ble målt, bekreftet Einsteins generelle relativitetsteori.", "correct": true, "explain": "Forutsagt rundt hundre år tidligere." },
+      { "id": "m04", "type": "sant-usant", "text": "Et enkelt land kunne lett bygget LHC alene.", "correct": false, "explain": "Prosjektet krever mange lands samarbeid." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er absolutt usikkerhet i l = (2,50 ± 0,02) m?", "options": ["0,8 %", "0,02 m", "2,50 m", "0,08 m"], "correct": 1, "explain": "Samme enhet som målingen." },
+      { "id": "m06", "type": "flervalg", "text": "Hva studerer James Webb-romteleskopet blant annet?", "options": ["De første galaksene", "Partikkelkollisjoner", "Jordskjelv", "Havstrømmer"], "correct": 0, "explain": "Og atmosfæren til eksoplaneter." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er et eksempel på systematisk feil i et falleforsøk?", "options": ["Tilfeldig reaksjonstid", "Avlesningsvariasjon", "Luftmotstand som teorien ikke tar med", "At man måler flere ganger"], "correct": 2, "explain": "Trekker resultatet i én retning." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

@@ -1,0 +1,79 @@
+{
+  "id": "relativitetsteori",
+  "fagId": "fysikk-2",
+  "trinnId": "vg3",
+  "name": "Den spesielle og generelle relativitetsteorien",
+  "intro": "Einsteins postulater og følgene av den spesielle relativitetsteorien – samtidighet, tidsforlengelse, lengdeforkortning og E = mc² – og den generelle relativitetsteorien med ekvivalensprinsippet, krum romtid, lysavbøyning, gravitasjonell tidsforlengelse, sorte hull og gravitasjonsbølger.",
+  "kompetansemaal": [10],
+  "sammendrag": "## Den spesielle relativitetsteorien (1905)\n\n**Albert Einstein** bygde teorien på to **postulater**:\n\n1. Fysikkens lover er de **samme** i alle **inertialsystemer** – systemer som beveger seg med konstant fart i forhold til hverandre.\n2. **Lysfarten** i vakuum er den **samme** for alle observatører, uansett hvordan lyskilden eller observatøren beveger seg: c ≈ 3,00 · 10⁸ m/s.\n\nDet andre postulatet virker rart, men er bekreftet i mange forsøk. Det fører til at **tid** og **rom** ikke er absolutte.\n\n## Samtidighet\n\nTo hendelser som er **samtidige** for én observatør, er **ikke** nødvendigvis samtidige for en annen observatør som beveger seg.\n\n## Tidsforlengelse\n\nEn klokke som **beveger** seg i forhold til oss, går **langsommere** enn våre klokker:\n\n**t = γ · t₀**, der **γ = 1 / √(1 − v²/c²)**\n\nt₀ er **egentiden** – tiden målt av en klokke som følger med. Ved v = 0,80c er γ = 1 / √(1 − 0,64) = 1 / 0,60 ≈ **1,67**.\n\nEt kjent bevis er **myoner**, partikler som dannes høyt oppe i atmosfæren. De lever så kort at de ikke burde rukket ned til bakken, men på grunn av **tidsforlengelsen** når mange av dem fram.\n\n## Lengdeforkortning\n\nEt legeme som beveger seg, er **kortere** i fartsretningen: **L = L₀ / γ**. Effektene er bare merkbare når farten er en **betydelig** del av lysfarten.\n\n## Masse og energi\n\nEinstein viste at masse og energi er **ekvivalente**:\n\n**E = mc²**\n\nEn liten masse tilsvarer en **enorm** energi. Dette forklarer energien i **kjernekraftverk** og i **sola**, der masse omdannes til energi ved **fusjon**. Intet legeme med masse kan nå **lysfarten**.\n\n## Den generelle relativitetsteorien (1915)\n\n**Ekvivalensprinsippet**: Det er umulig å skille mellom virkningen av **gravitasjon** og virkningen av **akselerasjon** i et lukket rom.\n\nEinstein beskrev gravitasjon ikke som en kraft, men som **krumning av romtiden**. Masse og energi **krummer** romtiden, og legemer følger de «rettest mulige» banene i den krumme romtiden.\n\n## Bekreftelser og følger\n\n- **Lysavbøyning**: Lys fra stjerner bøyes rundt sola. Det ble målt under en **solformørkelse** i **1919**.\n- **Merkurs bane**: Teorien forklarte en liten avvikelse i Merkurs bane som Newtons teori ikke kunne forklare.\n- **Gravitasjonell tidsforlengelse**: Klokker går **langsommere** i sterkere gravitasjonsfelt. **GPS-satellittene** må korrigeres for både spesiell og generell relativitet – ellers ville posisjonen bli feil med flere kilometer per døgn.\n- **Sorte hull**: Så mye masse samlet at ikke engang lys slipper ut.\n- **Gravitasjonsbølger**: Krusninger i romtiden, målt av LIGO i 2015.\n\n## Nytt syn på tid, rom og felt\n\nRelativitetsteorien viste at **tid** og **rom** henger sammen i en firedimensjonal **romtid**, at tid er **relativ**, og at gravitasjonsfeltet er **geometrien** til romtiden. Newtons fysikk er likevel en svært god **tilnærming** ved lave farter og svake felt.",
+  "flashcards": [
+    { "term": "Inertialsystem", "def": "Referansesystem som beveger seg med konstant fart." },
+    { "term": "Første postulat", "def": "Fysikkens lover er like i alle inertialsystemer." },
+    { "term": "Andre postulat", "def": "Lysfarten i vakuum er lik for alle observatører." },
+    { "term": "Samtidighetens relativitet", "def": "Samtidige hendelser for én observatør er ikke nødvendigvis samtidige for en annen." },
+    { "term": "Tidsforlengelse", "def": "t = γ · t₀ – klokker i bevegelse går langsommere." },
+    { "term": "Gammafaktoren", "def": "γ = 1 / √(1 − v²/c²)." },
+    { "term": "Egentid", "def": "Tiden målt av en klokke som følger med." },
+    { "term": "Myoner", "def": "Partikler som når bakken takket være tidsforlengelse." },
+    { "term": "Lengdeforkortning", "def": "L = L₀ / γ i fartsretningen." },
+    { "term": "E = mc²", "def": "Masse og energi er ekvivalente." },
+    { "term": "Ekvivalensprinsippet", "def": "Gravitasjon og akselerasjon kan ikke skilles i et lukket rom." },
+    { "term": "Krum romtid", "def": "Masse og energi krummer romtiden – det er gravitasjon." },
+    { "term": "Lysavbøyning", "def": "Lys bøyes rundt massive legemer – målt i 1919." },
+    { "term": "Gravitasjonell tidsforlengelse", "def": "Klokker går langsommere i sterkere gravitasjonsfelt." },
+    { "term": "GPS og relativitet", "def": "Satellittene må korrigeres, ellers blir posisjonen feil." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva sier Einsteins andre postulat?", "options": ["Tid er absolutt", "Lysfarten i vakuum er lik for alle observatører", "Masse er konstant", "Gravitasjon er en kraft"], "correct": 1, "explain": "Uansett bevegelse." },
+    { "id": "q02", "text": "Hva er γ ved v = 0,80c?", "options": ["Omtrent 1,67", "0,60", "0,80", "2,5"], "correct": 0, "explain": "1 / √(1 − 0,64)." },
+    { "id": "q03", "text": "Hva betyr tidsforlengelse?", "options": ["At tiden stopper", "At klokker i bevegelse går raskere", "At klokker i bevegelse går langsommere sett fra oss", "At tiden går baklengs"], "correct": 2, "explain": "t = γ · t₀." },
+    { "id": "q04", "text": "Hvorfor når mange myoner jordoverflaten?", "options": ["De er svært tunge", "De dannes ved bakken", "De går raskere enn lyset", "På grunn av tidsforlengelse"], "correct": 3, "explain": "Deres tid går langsommere sett fra oss." },
+    { "id": "q05", "text": "Hva sier E = mc²?", "options": ["Masse og energi er ekvivalente", "Energi kan skapes fra ingenting", "Masse er alltid bevart alene", "Lysfarten varierer"], "correct": 0, "explain": "Forklarer energien i sola og kjernekraft." },
+    { "id": "q06", "text": "Hva er ekvivalensprinsippet?", "options": ["Masse og energi er like", "Gravitasjon og akselerasjon kan ikke skilles i et lukket rom", "Alle klokker går likt", "Lys har masse"], "correct": 1, "explain": "Grunnlaget for den generelle relativitetsteorien." },
+    { "id": "q07", "text": "Hvordan beskriver den generelle relativitetsteorien gravitasjon?", "options": ["Som en elektrisk kraft", "Som en magnetisk kraft", "Som krumning av romtiden", "Som luftmotstand"], "correct": 2, "explain": "Masse og energi krummer romtiden." },
+    { "id": "q08", "text": "Hva ble målt under solformørkelsen i 1919?", "options": ["Gravitasjonsbølger", "Myoner", "Lysfarten", "Lysavbøyning rundt sola"], "correct": 3, "explain": "Bekreftet generell relativitet." },
+    { "id": "q09", "text": "Hvorfor må GPS-satellittene korrigeres for relativitet?", "options": ["Ellers blir posisjonen feil med flere kilometer per døgn", "For at de skal gå raskere", "For å spare strøm", "Det trengs ikke"], "correct": 0, "explain": "Både spesiell og generell relativitet." },
+    { "id": "q10", "text": "Når er relativistiske effekter merkbare?", "options": ["Ved alle farter", "Når farten er en betydelig del av lysfarten", "Bare når legemet står stille", "Aldri"], "correct": 1, "explain": "Ved lave farter er Newtons fysikk god." }
+  ],
+  "mindmap": {
+    "label": "Relativitetsteori",
+    "children": [
+      { "label": "Postulater", "children": [
+        { "label": "Like lover" },
+        { "label": "Konstant lysfart" }
+      ] },
+      { "label": "Følger", "children": [
+        { "label": "Samtidighet" },
+        { "label": "Tidsforlengelse og myoner" },
+        { "label": "Lengdeforkortning" }
+      ] },
+      { "label": "Energi", "children": [
+        { "label": "E = mc²" },
+        { "label": "Ingen når lysfarten" }
+      ] },
+      { "label": "Generell relativitet", "children": [
+        { "label": "Ekvivalensprinsippet" },
+        { "label": "Krum romtid" }
+      ] },
+      { "label": "Bekreftelser", "children": [
+        { "label": "Lysavbøyning 1919" },
+        { "label": "GPS" },
+        { "label": "Sorte hull og gravitasjonsbølger" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Klokker går langsommere i sterkere gravitasjonsfelt.", "correct": true, "explain": "Gravitasjonell tidsforlengelse." },
+      { "id": "m02", "type": "sant-usant", "text": "Et romskip med masse kan nå lysfarten hvis det har nok drivstoff.", "correct": false, "explain": "Intet legeme med masse kan nå lysfarten." },
+      { "id": "m03", "type": "sant-usant", "text": "Newtons fysikk er en god tilnærming ved lave farter.", "correct": true, "explain": "Relativistiske effekter er da svært små." },
+      { "id": "m04", "type": "sant-usant", "text": "Den spesielle relativitetsteorien kom etter den generelle.", "correct": false, "explain": "Spesiell kom i 1905, generell i 1915." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er egentid?", "options": ["Tiden på en klokke på jorda", "Tiden målt av en klokke som følger med", "Den lengste tiden", "Universets alder"], "correct": 1, "explain": "Klokken er i ro i forhold til hendelsen." },
+      { "id": "m06", "type": "flervalg", "text": "Hva forklarte generell relativitet som Newton ikke kunne?", "options": ["En liten avvikelse i Merkurs bane", "Hvorfor epler faller", "Tidevannet", "Månens faser"], "correct": 0, "explain": "Perihelforskyvningen." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er et sort hull?", "options": ["En mørk stjerne uten masse", "Et hull i jorda", "Så mye masse samlet at ikke engang lys slipper ut", "En planet"], "correct": 2, "explain": "Romtiden er ekstremt krummet." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

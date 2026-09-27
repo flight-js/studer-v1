@@ -1,0 +1,79 @@
+{
+  "id": "numeriske-metoder-og-modellering",
+  "fagId": "fysikk-2",
+  "trinnId": "vg3",
+  "name": "Numeriske metoder og modellering",
+  "intro": "Hvordan numeriske metoder og programmering brukes til å modellere fysiske fenomener som ikke kan løses analytisk – Eulers metode, tidssteg og nøyaktighet, bevegelse med luftmotstand, bevegelse i to dimensjoner og planetbaner – og hvordan modeller vurderes mot målinger.",
+  "kompetansemaal": [3],
+  "sammendrag": "## Hvorfor numeriske metoder?\n\nMange problemer i fysikk kan ikke løses med en enkel **formel**. Når **luftmotstanden** varierer med farten, eller når en planet trekkes av **flere** himmellegemer, må vi i stedet regne oss fram **steg for steg**. Dette kalles **numeriske metoder**, og vi bruker ofte **programmering** til det.\n\n## Eulers metode\n\nIdeen er å dele tiden inn i små **tidssteg** Δt. For hvert steg:\n\n1. Regn ut **kreftene** på legemet.\n2. Finn **akselerasjonen** med Newtons andre lov: a = ΣF / m.\n3. Oppdater **farten**: v_ny = v + a · Δt.\n4. Oppdater **posisjonen**: x_ny = x + v · Δt.\n5. Øk **tiden** med Δt og gjenta.\n\nMetoden antar at akselerasjonen er **konstant** innenfor hvert lite tidssteg.\n\n## Tidssteg og nøyaktighet\n\n- Et **lite** tidssteg gir **mer nøyaktige** resultater, men krever **flere** beregninger.\n- Et **stort** tidssteg gir raskere beregning, men kan gi **feil** som vokser over tid – for eksempel en planetbane som ikke lukker seg.\n\nEn god test er å **halvere** tidssteget: Hvis resultatet nesten ikke endres, er tidssteget lite nok.\n\n## Eksempel: fall med luftmotstand\n\nFor et legeme som faller med luftmotstand kan vi bruke modellen **L = k · v²**. Da er\n\nΣF = mg − kv², så a = g − (k/m) · v².\n\nNår farten øker, øker luftmotstanden, og akselerasjonen **avtar**. Til slutt er luftmotstanden like stor som tyngden, og legemet når **terminalfarten** v_t = √(mg/k). Simuleringen viser farten som en kurve som **flater ut**.\n\n## Bevegelse i to dimensjoner\n\nI to dimensjoner regner vi med **x-** og **y-komponenter** hver for seg. For et skrått kast med luftmotstand virker luftmotstanden **mot** fartsretningen, så både x- og y-komponenten av farten påvirkes. Simuleringen viser at kastet blir **kortere** og banen **usymmetrisk** sammenlignet med kast uten luftmotstand.\n\n## Planetbaner\n\nFor en planet rundt sola regnes gravitasjonskraften ut fra **avstanden** i hvert tidssteg. Programmet kan vise **ellipsebaner**, og vi kan teste **Keplers lover** eller se hva som skjer med ulike **startfarter**.\n\n## Programmering\n\nEt enkelt program – for eksempel i **Python** – har ofte\n\n- **startverdier**: masse, posisjon, fart og tidssteg\n- en **løkke** som gjentar beregningene\n- **lister** som lagrer tid, posisjon og fart\n- et **plott** av resultatene\n\n## Vurdere modellen\n\nEn modell er en **forenkling**. Sammenlign simuleringen med **målinger**, for eksempel video av en fallende kaffefilter. Stemmer den ikke, kan du justere **parametere** som k, eller endre **modellen** – kanskje L = k · v passer bedre ved lave farter.",
+  "flashcards": [
+    { "term": "Numerisk metode", "def": "Å regne seg fram steg for steg i stedet for med en formel." },
+    { "term": "Tidssteg Δt", "def": "Den lille tidsperioden hvert beregningssteg dekker." },
+    { "term": "Eulers metode", "def": "Oppdaterer fart og posisjon med a · Δt og v · Δt." },
+    { "term": "Oppdatering av fart", "def": "v_ny = v + a · Δt." },
+    { "term": "Oppdatering av posisjon", "def": "x_ny = x + v · Δt." },
+    { "term": "Lite tidssteg", "def": "Gir mer nøyaktige resultater, men flere beregninger." },
+    { "term": "Halvering av tidssteget", "def": "Test av om tidssteget er lite nok." },
+    { "term": "Luftmotstand L = kv²", "def": "Vanlig modell for luftmotstand ved høy fart." },
+    { "term": "Terminalfart", "def": "Fart der luftmotstanden er like stor som tyngden." },
+    { "term": "Komponenter", "def": "x- og y-deler av en vektor som regnes hver for seg." },
+    { "term": "Løkke", "def": "Programdel som gjentar beregningene." },
+    { "term": "Parameter", "def": "Konstant i modellen som kan justeres, som k." },
+    { "term": "Simulering", "def": "Datamodell som etterligner et fysisk fenomen." },
+    { "term": "Ellipsebane", "def": "Banen til en planet rundt sola." },
+    { "term": "Modellvurdering", "def": "Sammenligning av simulering og målinger." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvorfor bruker vi numeriske metoder?", "options": ["Fordi formler er for enkle", "Fordi mange problemer ikke kan løses med en enkel formel", "Fordi datamaskiner alltid har rett", "For å slippe fysikk"], "correct": 1, "explain": "For eksempel varierende luftmotstand." },
+    { "id": "q02", "text": "Hvordan oppdateres farten i Eulers metode?", "options": ["v_ny = v + a · Δt", "v_ny = v · a", "v_ny = x / t", "v_ny = a / Δt"], "correct": 0, "explain": "Akselerasjonen antas konstant i hvert steg." },
+    { "id": "q03", "text": "Hva skjer hvis tidssteget er for stort?", "options": ["Beregningen blir mer nøyaktig", "Ingenting", "Feilene kan vokse over tid", "Programmet stopper alltid"], "correct": 2, "explain": "For eksempel planetbaner som ikke lukker seg." },
+    { "id": "q04", "text": "Hva er terminalfart?", "options": ["Farten ved start", "Farten ved landing alltid", "Maksimal lysfart", "Farten der luftmotstanden er like stor som tyngden"], "correct": 3, "explain": "v_t = √(mg/k) med L = kv²." },
+    { "id": "q05", "text": "Hvordan kan du teste om tidssteget er lite nok?", "options": ["Halvere det og se om resultatet endres lite", "Doble det", "Fjerne løkken", "Endre massen"], "correct": 0, "explain": "Liten endring tyder på god nøyaktighet." },
+    { "id": "q06", "text": "Hva er akselerasjonen for et fallende legeme med luftmotstand L = kv²?", "options": ["a = g", "a = g − (k/m) · v²", "a = kv²", "a = 0 alltid"], "correct": 1, "explain": "Fra Newtons andre lov." },
+    { "id": "q07", "text": "Hvordan påvirker luftmotstand et skrått kast?", "options": ["Kastet blir lengre", "Banen blir helt symmetrisk", "Kastet blir kortere og banen usymmetrisk", "Ingen påvirkning"], "correct": 2, "explain": "Luftmotstanden virker mot fartsretningen." },
+    { "id": "q08", "text": "Hva gjør en løkke i et simuleringsprogram?", "options": ["Tegner plottet", "Lagrer startverdiene", "Stopper programmet", "Gjentar beregningene for hvert tidssteg"], "correct": 3, "explain": "Kjernen i Eulers metode." },
+    { "id": "q09", "text": "Hva gjør du hvis simuleringen ikke stemmer med målingene?", "options": ["Justerer parametere eller endrer modellen", "Endrer målingene", "Ignorerer det", "Bruker større tidssteg"], "correct": 0, "explain": "En modell er en forenkling." },
+    { "id": "q10", "text": "Hvordan regner vi med bevegelse i to dimensjoner numerisk?", "options": ["Bare i x-retning", "Med x- og y-komponenter hver for seg", "Bare med farten", "Uten krefter"], "correct": 1, "explain": "Komponentvis oppdatering." }
+  ],
+  "mindmap": {
+    "label": "Numeriske metoder",
+    "children": [
+      { "label": "Eulers metode", "children": [
+        { "label": "Krefter og akselerasjon" },
+        { "label": "Oppdater fart og posisjon" }
+      ] },
+      { "label": "Tidssteg", "children": [
+        { "label": "Lite gir nøyaktighet" },
+        { "label": "Halveringstest" }
+      ] },
+      { "label": "Eksempler", "children": [
+        { "label": "Fall med luftmotstand" },
+        { "label": "Skrått kast" },
+        { "label": "Planetbaner" }
+      ] },
+      { "label": "Programmering", "children": [
+        { "label": "Startverdier" },
+        { "label": "Løkke og lister" },
+        { "label": "Plott" }
+      ] },
+      { "label": "Vurdering", "children": [
+        { "label": "Sammenlign med målinger" },
+        { "label": "Juster parametere" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Eulers metode antar at akselerasjonen er konstant innenfor hvert tidssteg.", "correct": true, "explain": "Derfor må tidssteget være lite." },
+      { "id": "m02", "type": "sant-usant", "text": "Et større tidssteg gir alltid mer nøyaktige resultater.", "correct": false, "explain": "Mindre tidssteg gir mer nøyaktighet." },
+      { "id": "m03", "type": "sant-usant", "text": "Numeriske simuleringer kan vise ellipsebaner for planeter.", "correct": true, "explain": "Gravitasjonen regnes ut i hvert steg." },
+      { "id": "m04", "type": "sant-usant", "text": "En simulering er alltid en perfekt gjengivelse av virkeligheten.", "correct": false, "explain": "En modell er en forenkling." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilket uttrykk gir terminalfarten når L = kv²?", "options": ["v_t = mg/k", "v_t = √(mg/k)", "v_t = k/mg", "v_t = g · t"], "correct": 1, "explain": "Når mg = kv²." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilken modell for luftmotstand passer ofte bedre ved lave farter?", "options": ["L = k · v", "L = k · v³", "L = 0", "L = mg"], "correct": 0, "explain": "Proporsjonal med farten." },
+      { "id": "m07", "type": "flervalg", "text": "Hva lagrer vi i lister i et simuleringsprogram?", "options": ["Bare startverdien", "Bare kodelinjer", "Tid, posisjon og fart for hvert steg", "Feilmeldinger"], "correct": 2, "explain": "Brukes til plottet." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

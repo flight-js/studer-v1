@@ -1,0 +1,79 @@
+{
+  "id": "magnetiske-felt",
+  "fagId": "fysikk-2",
+  "trinnId": "vg3",
+  "name": "Magnetiske felt",
+  "intro": "Magnetiske felt rundt magneter og strømførende ledere, magnetisk flukstetthet, kraften på strømførende ledere og ladde partikler i magnetfelt, sirkelbaner, høyrehåndsregelen – og anvendelser som elektromotorer, massespektrometre og nordlyset.",
+  "kompetansemaal": [6],
+  "sammendrag": "## Magnetfelt\n\nEn **magnet** har en **nordpol** og en **sørpol**. Rundt magneten er det et **magnetfelt**. **Feltlinjene** går **ut** fra nordpolen og **inn** mot sørpolen utenfor magneten. Jorda har sitt eget magnetfelt, som får **kompassnåler** til å peke nordover.\n\n**Elektrisk strøm** lager også et magnetfelt. Rundt en **rett leder** danner feltlinjene **sirkler**. I en **spole** blir feltet likt feltet rundt en stavmagnet – dette er prinsippet for en **elektromagnet**.\n\n## Magnetisk flukstetthet\n\nStyrken på magnetfeltet kalles **magnetisk flukstetthet**, **B**, og måles i **tesla** (T). Jordas magnetfelt er omtrent 5 · 10⁻⁵ T, mens en kraftig laboratoriemagnet kan ha omtrent 1 T.\n\n## Kraft på strømførende leder\n\nEn leder med strømmen I og lengden l, som står **vinkelrett** på et magnetfelt B, får kraften\n\n**F = B · I · l**\n\nKraften står **vinkelrett** på både strømmen og feltet. Retningen kan finnes med en **høyrehåndsregel**.\n\n**Eksempel**: B = 0,20 T, I = 3,0 A og l = 0,50 m gir F = 0,20 · 3,0 · 0,50 = **0,30 N**.\n\nDette er prinsippet for **elektromotoren**: Kraften på strømførende sløyfer i et magnetfelt får motoren til å **rotere**.\n\n## Kraft på ladd partikkel\n\nEn ladning q som beveger seg med farten v **vinkelrett** på et magnetfelt, får kraften\n\n**F = q · v · B**\n\nKraften står hele tiden **vinkelrett** på farten. Den endrer derfor bare **retningen**, ikke **banefarten**, og magnetfeltet gjør **ikke arbeid** på partikkelen.\n\n## Sirkelbane\n\nFordi kraften alltid står vinkelrett på farten, går partikkelen i en **sirkelbane**. Magnetkraften er sentripetalkraften:\n\nqvB = mv² / r, som gir **r = mv / (qB)**\n\n**Eksempel**: Et elektron med v = 5,9 · 10⁶ m/s i et felt B = 1,0 · 10⁻³ T går i en sirkel med radius r = 9,11 · 10⁻³¹ · 5,9 · 10⁶ / (1,60 · 10⁻¹⁹ · 1,0 · 10⁻³) ≈ **3,4 cm**.\n\nHvis farten har en komponent **langs** feltet, blir banen en **spiral**.\n\n## Anvendelser\n\n- **Massespektrometeret** skiller ioner med ulik **masse**: Tyngre ioner går i **større** sirkler. Brukes til å analysere stoffer og isotoper.\n- **Partikkelakseleratorer** som LHC bruker kraftige magneter til å holde partiklene i **ringbanen**.\n- **MR-maskiner** på sykehus bruker sterke magnetfelt til å lage bilder av kroppen.\n- **Høyttalere** og **elektromotorer** bygger på kraften på strømførende ledere.\n\n## Nordlyset\n\n**Solvinden** sender ladde partikler mot jorda. Jordas magnetfelt **avbøyer** dem, men nær **polene** kan partiklene følge feltlinjene inn i atmosfæren. Der kolliderer de med **oksygen** og **nitrogen**, som sender ut lys – **nordlyset**. Magnetfeltet **beskytter** oss også mot mye av den skadelige strålingen fra rommet.",
+  "flashcards": [
+    { "term": "Magnetfelt", "def": "Område rundt magneter og strømmer der magnetiske krefter virker." },
+    { "term": "Feltlinjer rundt magnet", "def": "Går ut fra nordpolen og inn mot sørpolen." },
+    { "term": "Felt rundt rett leder", "def": "Sirkulære feltlinjer rundt lederen." },
+    { "term": "Elektromagnet", "def": "Spole med strøm som gir et magnetfelt." },
+    { "term": "Magnetisk flukstetthet B", "def": "Styrken på magnetfeltet, målt i tesla." },
+    { "term": "Tesla", "def": "Enheten for magnetisk flukstetthet." },
+    { "term": "F = BIl", "def": "Kraft på strømførende leder vinkelrett på feltet." },
+    { "term": "F = qvB", "def": "Kraft på ladning som beveger seg vinkelrett på feltet." },
+    { "term": "Høyrehåndsregel", "def": "Hjelper å finne retningen på magnetisk kraft." },
+    { "term": "r = mv/(qB)", "def": "Radius for en ladd partikkel i magnetfelt." },
+    { "term": "Magnetfelt og arbeid", "def": "Kraften står vinkelrett på farten og gjør ikke arbeid." },
+    { "term": "Elektromotor", "def": "Bruker kraften på strømførende sløyfer til å rotere." },
+    { "term": "Massespektrometer", "def": "Skiller ioner etter masse ved ulike sirkelbaner." },
+    { "term": "Nordlys", "def": "Ladde partikler fra solvinden som får atmosfæren til å lyse." },
+    { "term": "Solvinden", "def": "Strøm av ladde partikler fra sola." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvordan går feltlinjene rundt en rett, strømførende leder?", "options": ["Rett ut fra lederen", "I sirkler rundt lederen", "Parallelt med lederen", "Det finnes ikke felt"], "correct": 1, "explain": "Høyrehåndsregelen gir retningen." },
+    { "id": "q02", "text": "B = 0,20 T, I = 3,0 A og l = 0,50 m vinkelrett på feltet. Hva er kraften?", "options": ["0,30 N", "3,0 N", "0,03 N", "1,2 N"], "correct": 0, "explain": "F = BIl." },
+    { "id": "q03", "text": "Hvorfor gjør magnetfeltet ikke arbeid på en ladd partikkel?", "options": ["Fordi kraften er null", "Fordi partikkelen står stille", "Fordi kraften står vinkelrett på farten", "Fordi feltet er svakt"], "correct": 2, "explain": "Bare retningen endres." },
+    { "id": "q04", "text": "Hva er radiusen for en ladd partikkel i sirkelbane i et magnetfelt?", "options": ["r = qB/(mv)", "r = mvqB", "r = v/B", "r = mv/(qB)"], "correct": 3, "explain": "Fra qvB = mv²/r." },
+    { "id": "q05", "text": "Hvilken enhet har magnetisk flukstetthet?", "options": ["Tesla", "Volt", "Newton", "Coulomb"], "correct": 0, "explain": "Jordas felt er omtrent 5 · 10⁻⁵ T." },
+    { "id": "q06", "text": "Hva skjer med sirkelradiusen for tyngre ioner i et massespektrometer?", "options": ["Den blir mindre", "Den blir større", "Den er uendret", "De stopper"], "correct": 1, "explain": "r er proporsjonal med m." },
+    { "id": "q07", "text": "Hva bruker en elektromotor?", "options": ["Kraft mellom ladninger", "Gravitasjon", "Kraften på strømførende sløyfer i et magnetfelt", "Kjemisk energi direkte"], "correct": 2, "explain": "Sløyfene roterer." },
+    { "id": "q08", "text": "Hva lager nordlyset?", "options": ["Refleksjon av sollys fra isen", "Lyn", "Månelys", "Ladde partikler fra solvinden som kolliderer med gasser i atmosfæren"], "correct": 3, "explain": "Nær polene følger partiklene feltlinjene inn." },
+    { "id": "q09", "text": "Hvilken bane får en partikkel som har en fartskomponent langs magnetfeltet?", "options": ["Spiral", "Rett linje alltid", "Parabel", "Sirkel"], "correct": 0, "explain": "Sirkel på tvers og konstant fart langs feltet." },
+    { "id": "q10", "text": "Hva er et eksempel på bruk av sterke magnetfelt i medisin?", "options": ["Røntgen", "MR-maskiner", "Termometer", "Stetoskop"], "correct": 1, "explain": "Lager bilder av kroppen." }
+  ],
+  "mindmap": {
+    "label": "Magnetiske felt",
+    "children": [
+      { "label": "Kilder", "children": [
+        { "label": "Magneter" },
+        { "label": "Strøm i leder og spole" },
+        { "label": "Jorda" }
+      ] },
+      { "label": "Kraft på leder", "children": [
+        { "label": "F = BIl" },
+        { "label": "Elektromotor" }
+      ] },
+      { "label": "Kraft på ladning", "children": [
+        { "label": "F = qvB" },
+        { "label": "Ingen arbeid" }
+      ] },
+      { "label": "Baner", "children": [
+        { "label": "r = mv/(qB)" },
+        { "label": "Spiral" }
+      ] },
+      { "label": "Anvendelser", "children": [
+        { "label": "Massespektrometer" },
+        { "label": "MR og akseleratorer" },
+        { "label": "Nordlys" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "En spole med strøm gir et felt som ligner feltet rundt en stavmagnet.", "correct": true, "explain": "Prinsippet for elektromagneten." },
+      { "id": "m02", "type": "sant-usant", "text": "Magnetfeltet øker banefarten til en ladd partikkel.", "correct": false, "explain": "Det endrer bare retningen." },
+      { "id": "m03", "type": "sant-usant", "text": "Jordas magnetfelt beskytter oss mot mye stråling fra rommet.", "correct": true, "explain": "Ladde partikler avbøyes." },
+      { "id": "m04", "type": "sant-usant", "text": "En leder parallelt med magnetfeltet får størst kraft.", "correct": false, "explain": "Kraften er størst når lederen står vinkelrett på feltet." },
+      { "id": "m05", "type": "flervalg", "text": "Hvor stor er radiusen for elektronet med v = 5,9 · 10⁶ m/s i B = 1,0 · 10⁻³ T?", "options": ["0,34 mm", "Omtrent 3,4 cm", "3,4 m", "34 m"], "correct": 1, "explain": "r = mv/(qB)." },
+      { "id": "m06", "type": "flervalg", "text": "Hvorfor peker en kompassnål nordover?", "options": ["På grunn av jordas magnetfelt", "På grunn av gravitasjon", "På grunn av vind", "På grunn av sola"], "correct": 0, "explain": "Nålen retter seg etter feltet." },
+      { "id": "m07", "type": "flervalg", "text": "Hva gjør magnetene i LHC?", "options": ["Stopper partiklene", "Lager lys", "Holder partiklene i ringbanen", "Kjøler ned partiklene"], "correct": 2, "explain": "Magnetkraften er sentripetalkraft." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

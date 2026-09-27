@@ -1,0 +1,79 @@
+{
+  "id": "bevegelse-i-to-dimensjoner",
+  "fagId": "fysikk-2",
+  "trinnId": "vg3",
+  "name": "Bevegelse i to dimensjoner",
+  "intro": "Posisjon, fart og akselerasjon som vektorer, dekomponering, skrått kast uten luftmotstand med bevegelsesligninger for x- og y-retning, maksimal høyde, flytid og rekkevidde – og hvordan luftmotstand endrer banen.",
+  "kompetansemaal": [4],
+  "sammendrag": "## Vektorer\n\nI to dimensjoner er **posisjon**, **fart** og **akselerasjon** **vektorer** – de har både **størrelse** og **retning**. En vektor kan **dekomponeres** i en **x-komponent** og en **y-komponent**.\n\nFor en fart v₀ med vinkel α over horisontalen:\n\n- v₀ₓ = v₀ · cos α\n- v₀ᵧ = v₀ · sin α\n\nOmvendt finner vi størrelsen med **Pytagoras**: v = √(vₓ² + vᵧ²).\n\n## Skrått kast uten luftmotstand\n\nNår vi ser bort fra luftmotstand, er den eneste kraften **tyngden**, som virker **loddrett nedover**. Derfor kan bevegelsen deles i to **uavhengige** bevegelser:\n\n**Horisontalt (x)**: ingen kraft, **konstant fart**\n\n- vₓ = v₀ₓ\n- x = v₀ₓ · t\n\n**Vertikalt (y)**: konstant akselerasjon −g\n\n- vᵧ = v₀ᵧ − g · t\n- y = v₀ᵧ · t − ½ · g · t²\n\nBanen blir en **parabel**.\n\n## Maksimal høyde, flytid og rekkevidde\n\n- I **toppunktet** er vᵧ = 0. Tiden dit er t_topp = v₀ᵧ / g.\n- **Maksimal høyde**: h = v₀ᵧ² / (2g).\n- Når kastet starter og slutter i **samme høyde**, er **flytiden** 2 · t_topp.\n- **Rekkevidden** på flat mark er R = v₀² · sin(2α) / g. Den er **størst** ved **45°**.\n\n**Eksempel**: En ball kastes med v₀ = 20 m/s og α = 30°.\n\n- v₀ₓ = 20 · cos 30° ≈ 17,3 m/s og v₀ᵧ = 20 · sin 30° = 10,0 m/s\n- t_topp = 10,0 / 9,81 ≈ 1,02 s\n- h = 10,0² / (2 · 9,81) ≈ 5,1 m\n- Flytid ≈ 2,04 s\n- Rekkevidde ≈ 17,3 · 2,04 ≈ 35 m\n\n## Horisontalt kast\n\nEt **horisontalt** kast – for eksempel en ball som ruller utfor et bord – har v₀ᵧ = 0. Tiden til bakken avhenger bare av **høyden**, ikke av den horisontale farten. En kule som slippes og en kule som skytes horisontalt fra samme høyde, treffer bakken **samtidig**.\n\n## Fart og retning underveis\n\nFarten i et punkt er v = √(vₓ² + vᵧ²), og vinkelen med horisontalen er gitt ved tan θ = vᵧ / vₓ. I toppunktet er farten **minst**, men ikke null – den er lik vₓ.\n\n## Med luftmotstand\n\nI virkeligheten gir **luftmotstand** en kraft **mot** fartsretningen. Da\n\n- blir kastet **kortere** og **lavere**\n- blir banen **usymmetrisk** – nedturen er brattere enn oppturen\n- er den beste kastevinkelen ofte **mindre** enn 45°\n\nSlike baner kan modelleres **numerisk**. I idrett som **kulestøt**, **golf** og **fotball** spiller også **utgangshøyde**, **spinn** og **vind** en rolle.",
+  "flashcards": [
+    { "term": "Vektor", "def": "Størrelse med både verdi og retning." },
+    { "term": "Dekomponering", "def": "Å dele en vektor i x- og y-komponenter." },
+    { "term": "v₀ₓ", "def": "v₀ · cos α." },
+    { "term": "v₀ᵧ", "def": "v₀ · sin α." },
+    { "term": "Skrått kast", "def": "Konstant fart horisontalt og konstant akselerasjon vertikalt." },
+    { "term": "Parabel", "def": "Banen til et skrått kast uten luftmotstand." },
+    { "term": "x = v₀ₓ · t", "def": "Horisontal posisjon i et skrått kast." },
+    { "term": "y = v₀ᵧt − ½gt²", "def": "Vertikal posisjon i et skrått kast." },
+    { "term": "Toppunkt", "def": "Punktet der vᵧ = 0." },
+    { "term": "Maksimal høyde", "def": "h = v₀ᵧ² / (2g)." },
+    { "term": "Rekkevidde", "def": "R = v₀² · sin(2α) / g på flat mark." },
+    { "term": "45°", "def": "Gir størst rekkevidde uten luftmotstand på flat mark." },
+    { "term": "Horisontalt kast", "def": "Kast med v₀ᵧ = 0 – falltiden avhenger bare av høyden." },
+    { "term": "Uavhengige bevegelser", "def": "x- og y-bevegelsen kan behandles hver for seg." },
+    { "term": "Luftmotstand i kast", "def": "Gir kortere, lavere og usymmetrisk bane." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvilken kraft virker på et skrått kast uten luftmotstand?", "options": ["En horisontal kraft", "Bare tyngden", "Ingen krefter", "Tyngden og en fremoverkraft"], "correct": 1, "explain": "Derfor er vₓ konstant." },
+    { "id": "q02", "text": "En ball kastes med 20 m/s i 30°. Hva er v₀ᵧ?", "options": ["10,0 m/s", "17,3 m/s", "20 m/s", "5,0 m/s"], "correct": 0, "explain": "20 · sin 30°." },
+    { "id": "q03", "text": "Hva er vᵧ i toppunktet?", "options": ["Lik v₀", "Lik g", "Null", "Negativ"], "correct": 2, "explain": "Ballen snur i vertikal retning." },
+    { "id": "q04", "text": "Hvilken vinkel gir størst rekkevidde uten luftmotstand på flat mark?", "options": ["30°", "60°", "90°", "45°"], "correct": 3, "explain": "sin(2α) er størst når α = 45°." },
+    { "id": "q05", "text": "Hva er maksimal høyde når v₀ᵧ = 10,0 m/s?", "options": ["Omtrent 5,1 m", "Omtrent 10 m", "Omtrent 1,0 m", "Omtrent 20 m"], "correct": 0, "explain": "h = v₀ᵧ² / (2g)." },
+    { "id": "q06", "text": "En kule slippes, og en annen skytes horisontalt fra samme høyde. Hvilken lander først?", "options": ["Den som slippes", "De lander samtidig", "Den som skytes", "Det avhenger av massen"], "correct": 1, "explain": "Falltiden avhenger bare av høyden." },
+    { "id": "q07", "text": "Hva er farten i toppunktet av et skrått kast?", "options": ["Null", "Lik v₀", "Lik vₓ", "Lik g"], "correct": 2, "explain": "Bare den horisontale komponenten gjenstår." },
+    { "id": "q08", "text": "Hvordan påvirker luftmotstand banen?", "options": ["Den blir lengre", "Den blir symmetrisk", "Den blir høyere", "Den blir kortere, lavere og usymmetrisk"], "correct": 3, "explain": "Kraften virker mot fartsretningen." },
+    { "id": "q09", "text": "Hvilken form har banen uten luftmotstand?", "options": ["Parabel", "Sirkel", "Rett linje", "Ellipse"], "correct": 0, "explain": "y er en andregradsfunksjon av x." },
+    { "id": "q10", "text": "Hvordan finner du farten når du kjenner vₓ og vᵧ?", "options": ["v = vₓ + vᵧ", "v = √(vₓ² + vᵧ²)", "v = vₓ · vᵧ", "v = vᵧ / vₓ"], "correct": 1, "explain": "Pytagoras." }
+  ],
+  "mindmap": {
+    "label": "Bevegelse i to dimensjoner",
+    "children": [
+      { "label": "Vektorer", "children": [
+        { "label": "Dekomponering" },
+        { "label": "Pytagoras" }
+      ] },
+      { "label": "Skrått kast", "children": [
+        { "label": "Konstant vₓ" },
+        { "label": "Akselerasjon −g i y" },
+        { "label": "Parabel" }
+      ] },
+      { "label": "Nøkkelstørrelser", "children": [
+        { "label": "Toppunkt og høyde" },
+        { "label": "Flytid" },
+        { "label": "Rekkevidde og 45°" }
+      ] },
+      { "label": "Horisontalt kast", "children": [
+        { "label": "v₀ᵧ = 0" },
+        { "label": "Falltid fra høyden" }
+      ] },
+      { "label": "Luftmotstand", "children": [
+        { "label": "Kortere og usymmetrisk" },
+        { "label": "Numerisk modell" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "I et skrått kast uten luftmotstand kan x- og y-bevegelsen behandles hver for seg.", "correct": true, "explain": "De er uavhengige." },
+      { "id": "m02", "type": "sant-usant", "text": "Med luftmotstand er den beste kastevinkelen alltid større enn 45°.", "correct": false, "explain": "Den er ofte mindre enn 45°." },
+      { "id": "m03", "type": "sant-usant", "text": "Rekkevidden for kastet med 20 m/s i 30° er omtrent 35 m.", "correct": true, "explain": "17,3 m/s · 2,04 s." },
+      { "id": "m04", "type": "sant-usant", "text": "I et horisontalt kast avhenger falltiden av den horisontale farten.", "correct": false, "explain": "Den avhenger bare av høyden." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er v₀ₓ for et kast med 20 m/s i 30°?", "options": ["10,0 m/s", "Omtrent 17,3 m/s", "20 m/s", "5,0 m/s"], "correct": 1, "explain": "20 · cos 30°." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilken formel gir rekkevidden på flat mark?", "options": ["R = v₀² · sin(2α) / g", "R = v₀ · t", "R = ½gt²", "R = v₀² / g alltid"], "correct": 0, "explain": "Uten luftmotstand." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilke faktorer påvirker kast i idrett i tillegg til vinkel og fart?", "options": ["Bare fargen på ballen", "Ingen andre", "Utgangshøyde, spinn og vind", "Bare massen"], "correct": 2, "explain": "Virkelige kast er mer komplekse." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

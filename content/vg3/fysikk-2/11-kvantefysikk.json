@@ -1,0 +1,80 @@
+{
+  "id": "kvantefysikk",
+  "fagId": "fysikk-2",
+  "trinnId": "vg3",
+  "name": "Kvantefysikk",
+  "intro": "Hva som skiller kvanteobjekter fra klassiske objekter – fotoner og kvantisering, den fotoelektriske effekten, bølge–partikkel-dualitet, dobbeltspalteforsøket, de Broglie-bølgelengde og uskarphetsrelasjonen – og situasjoner der kvanteeffekter observeres, fra laser og LED til tunnellering, sammenfiltring og kvantedatamaskiner.",
+  "kompetansemaal": [11],
+  "sammendrag": "## Klassisk og kvantefysisk\n\nI **klassisk** fysikk har et legeme en bestemt **posisjon** og **fart**, og energi kan ha **alle** verdier. For svært **små** objekter – elektroner, atomer og fotoner – gjelder andre regler. Kvanteobjekter\n\n- har **kvantisert** energi – bare bestemte verdier er mulige\n- oppfører seg både som **bølger** og **partikler**\n- kan ikke beskrives med bestemt posisjon og fart **samtidig**\n- beskrives med **sannsynligheter**\n\n## Fotoner\n\nLys består av **fotoner** – små energipakker. Energien til et foton er\n\n**E = h · f = h · c / λ**\n\nder **h = 6,63 · 10⁻³⁴ J·s** er **Plancks konstant**. Rødt lys med bølgelengde 650 nm har f ≈ 4,6 · 10¹⁴ Hz og fotonenergi E ≈ 3,1 · 10⁻¹⁹ J, omtrent **1,9 eV**. **Blått** og **UV-lys** har mer energi per foton enn rødt lys.\n\n## Den fotoelektriske effekten\n\nNår lys treffer en metallflate, kan **elektroner** slås løs. Forsøk viste at\n\n- det bare skjer hvis frekvensen er **høy nok**, uansett hvor sterkt lyset er\n- sterkere lys gir **flere**, men ikke raskere elektroner\n\nEinstein forklarte i **1905** at hvert **foton** gir all energien sin til **ett** elektron: E_k = hf − W, der W er **løsrivningsarbeidet**. Forklaringen ga ham **Nobelprisen**.\n\n## Bølge–partikkel-dualitet\n\nI **dobbeltspalteforsøket** sendes elektroner eller fotoner mot to smale spalter. På skjermen dannes et **interferensmønster** – slik bølger gjør – selv når partiklene sendes **én og én**. Hver partikkel treffer skjermen i **ett** punkt, men mønsteret bygges opp som om hver partikkel gikk gjennom **begge** spaltene. Måler vi hvilken spalte den går gjennom, **forsvinner** mønsteret.\n\n**Louis de Broglie** foreslo at alle partikler har en **bølgelengde**:\n\n**λ = h / p = h / (mv)**\n\nEt elektron med farten 5,9 · 10⁶ m/s har λ ≈ **0,12 nm** – omtrent som avstanden mellom atomer. Derfor kan elektroner brukes i **elektronmikroskoper**. For en fotball er bølgelengden forsvinnende liten.\n\n## Uskarphetsrelasjonen\n\n**Heisenbergs uskarphetsrelasjon** sier at vi ikke kan kjenne både **posisjon** og **bevegelsesmengde** nøyaktig samtidig. Dette er ikke en begrensning ved måleutstyret, men en **grunnleggende** egenskap ved naturen.\n\n## Kvanteeffekter i hverdag og teknologi\n\n- **Atomers spektre**: Atomer sender ut lys med bestemte farger fordi elektronene hopper mellom **kvantiserte** energinivåer.\n- **Laser** og **LED** bygger på kontrollerte overganger mellom energinivåer.\n- **Solceller** bruker fotoner til å frigjøre elektroner.\n- **Tunnellering**: Partikler kan passere barrierer de klassisk ikke har energi nok til å komme over. Det brukes i **tunnelmikroskoper** og skjer i **fusjonen** i sola.\n- **Superposisjon** og **sammenfiltring**: Kvanteobjekter kan være i flere tilstander samtidig, og sammenfiltrede partikler har koblede egenskaper selv over lange avstander. Forsøk med sammenfiltrede fotoner ga **Nobelprisen i fysikk** i **2022**.\n- **Kvantedatamaskiner** bruker **kvantebiter** som kan være i superposisjon, og kan løse noen typer problemer mye raskere enn vanlige datamaskiner.\n\n## Et nytt verdensbilde\n\nKvantefysikken viser at naturen på det minste nivået er **ubestemt** og **sannsynlighetsbasert**. Likevel er den en av de **best testede** teoriene i fysikken.",
+  "flashcards": [
+    { "term": "Kvantisering", "def": "Energien kan bare ha bestemte verdier." },
+    { "term": "Foton", "def": "Energipakke av lys." },
+    { "term": "Fotonenergi", "def": "E = hf = hc/λ." },
+    { "term": "Plancks konstant", "def": "h = 6,63 · 10⁻³⁴ J·s." },
+    { "term": "Fotoelektrisk effekt", "def": "Lys slår løs elektroner fra et metall." },
+    { "term": "Løsrivningsarbeid", "def": "Minste energi som trengs for å løsrive et elektron fra metallet." },
+    { "term": "E_k = hf − W", "def": "Einsteins ligning for den fotoelektriske effekten." },
+    { "term": "Bølge–partikkel-dualitet", "def": "Kvanteobjekter oppfører seg både som bølger og partikler." },
+    { "term": "Dobbeltspalteforsøket", "def": "Gir interferensmønster selv med én partikkel om gangen." },
+    { "term": "de Broglie-bølgelengde", "def": "λ = h / p." },
+    { "term": "Uskarphetsrelasjonen", "def": "Posisjon og bevegelsesmengde kan ikke kjennes nøyaktig samtidig." },
+    { "term": "Tunnellering", "def": "Partikler kan passere barrierer de klassisk ikke kan komme over." },
+    { "term": "Superposisjon", "def": "Et kvanteobjekt kan være i flere tilstander samtidig." },
+    { "term": "Sammenfiltring", "def": "Partikler med koblede egenskaper selv over lange avstander." },
+    { "term": "Kvantebit", "def": "Grunnenhet i en kvantedatamaskin som kan være i superposisjon." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva skiller kvanteobjekter fra klassiske objekter?", "options": ["De har alltid bestemt posisjon og fart", "De har kvantisert energi og oppfører seg både som bølger og partikler", "De er alltid store", "De følger bare Newtons lover"], "correct": 1, "explain": "Og beskrives med sannsynligheter." },
+    { "id": "q02", "text": "Hva er energien til et foton?", "options": ["E = hf", "E = mc", "E = ½mv²", "E = mgh"], "correct": 0, "explain": "h er Plancks konstant." },
+    { "id": "q03", "text": "Hva skjer når lysstyrken økes i den fotoelektriske effekten?", "options": ["Elektronene blir raskere", "Ingen elektroner slås løs", "Flere, men ikke raskere elektroner slås løs", "Frekvensen øker"], "correct": 2, "explain": "Flere fotoner, men samme energi per foton." },
+    { "id": "q04", "text": "Hva viser dobbeltspalteforsøket med elektroner?", "options": ["At elektroner bare er partikler", "At elektroner er uten masse", "At elektroner ikke finnes", "At elektroner har bølgeegenskaper"], "correct": 3, "explain": "Interferensmønster oppstår." },
+    { "id": "q05", "text": "Hva er de Broglie-bølgelengden?", "options": ["λ = h / p", "λ = p / h", "λ = c · f", "λ = mv"], "correct": 0, "explain": "Gjelder alle partikler." },
+    { "id": "q06", "text": "Hva sier Heisenbergs uskarphetsrelasjon?", "options": ["At måleutstyret er dårlig", "At posisjon og bevegelsesmengde ikke kan kjennes nøyaktig samtidig", "At energi er bevart", "At lys er en partikkel"], "correct": 1, "explain": "En grunnleggende egenskap ved naturen." },
+    { "id": "q07", "text": "Hva er tunnellering?", "options": ["Å grave tunneler", "Å stoppe partikler", "At partikler kan passere barrierer de klassisk ikke kan komme over", "At lys bøyes"], "correct": 2, "explain": "Skjer i fusjonen i sola." },
+    { "id": "q08", "text": "Hvorfor sender atomer ut lys med bestemte farger?", "options": ["Fordi de er varme", "Fordi de er store", "Fordi de roterer", "Fordi elektronene hopper mellom kvantiserte energinivåer"], "correct": 3, "explain": "Gir linjespektre." },
+    { "id": "q09", "text": "Hva gir Einsteins forklaring av den fotoelektriske effekten?", "options": ["E_k = hf − W", "E = mc²", "F = ma", "λ = h / p"], "correct": 0, "explain": "Hvert foton gir energien til ett elektron." },
+    { "id": "q10", "text": "Hva ble belønnet med Nobelprisen i fysikk i 2022?", "options": ["Higgs-partikkelen", "Forsøk med sammenfiltrede fotoner", "Gravitasjonsbølger", "Laseren"], "correct": 1, "explain": "Grunnlag for kvanteteknologi." }
+  ],
+  "mindmap": {
+    "label": "Kvantefysikk",
+    "children": [
+      { "label": "Fotoner", "children": [
+        { "label": "E = hf" },
+        { "label": "Plancks konstant" }
+      ] },
+      { "label": "Fotoelektrisk effekt", "children": [
+        { "label": "Frekvens avgjør" },
+        { "label": "E_k = hf − W" }
+      ] },
+      { "label": "Dualitet", "children": [
+        { "label": "Dobbeltspalten" },
+        { "label": "de Broglie" },
+        { "label": "Uskarphet" }
+      ] },
+      { "label": "Kvanteeffekter", "children": [
+        { "label": "Spektre, laser og LED" },
+        { "label": "Tunnellering" },
+        { "label": "Superposisjon og sammenfiltring" }
+      ] },
+      { "label": "Teknologi", "children": [
+        { "label": "Elektronmikroskop" },
+        { "label": "Solceller" },
+        { "label": "Kvantedatamaskiner" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Blått lys har mer energi per foton enn rødt lys.", "correct": true, "explain": "Høyere frekvens gir høyere energi." },
+      { "id": "m02", "type": "sant-usant", "text": "En fotball har en tydelig merkbar de Broglie-bølgelengde.", "correct": false, "explain": "Den er forsvinnende liten." },
+      { "id": "m03", "type": "sant-usant", "text": "Måler vi hvilken spalte elektronet går gjennom, forsvinner interferensmønsteret.", "correct": true, "explain": "Målingen påvirker systemet." },
+      { "id": "m04", "type": "sant-usant", "text": "Kvantefysikken er en dårlig testet teori.", "correct": false, "explain": "Den er blant de best testede teoriene i fysikken." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er fotonenergien til rødt lys med bølgelengde 650 nm omtrent?", "options": ["19 eV", "1,9 eV", "0,19 eV", "190 eV"], "correct": 1, "explain": "E = hc/λ ≈ 3,1 · 10⁻¹⁹ J." },
+      { "id": "m06", "type": "flervalg", "text": "Hvorfor kan elektroner brukes i mikroskoper?", "options": ["Fordi bølgelengden deres er svært kort", "Fordi de er synlige", "Fordi de er tunge", "Fordi de er positive"], "correct": 0, "explain": "Omtrent som avstanden mellom atomer." },
+      { "id": "m07", "type": "flervalg", "text": "Hva kan en kvantebit gjøre som en vanlig bit ikke kan?", "options": ["Lagre mer strøm", "Være varmere", "Være i superposisjon av 0 og 1", "Være større"], "correct": 2, "explain": "Grunnlaget for kvantedatamaskiner." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
