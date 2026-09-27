@@ -1,0 +1,80 @@
+{
+  "id": "rekker",
+  "fagId": "matematikk-r2",
+  "trinnId": "vg3",
+  "name": "Rekker – aritmetiske, geometriske og uendelige",
+  "intro": "Følger og rekker, summetegnet Σ, aritmetiske og geometriske rekker med sumformler, når en uendelig geometrisk rekke konvergerer, og praktiske anvendelser som sparing, lån, medisin i kroppen og periodiske desimaltall.",
+  "kompetansemaal": [1],
+  "sammendrag": "## Følge og rekke\n\nEn **følge** er en ordnet liste med tall: a₁, a₂, a₃, … En **rekke** er **summen** av leddene: a₁ + a₂ + a₃ + … Summen av de n første leddene kalles **Sₙ**.\n\nMed **summetegnet** skriver vi for eksempel\n\nΣ i² (i = 1 til 4) = 1 + 4 + 9 + 16 = **30**\n\n## Aritmetiske rekker\n\nI en **aritmetisk** rekke er **differansen** d mellom to naboledd konstant.\n\n- **aₙ = a₁ + (n − 1)d**\n- **Sₙ = n(a₁ + aₙ) / 2**\n\n**Eksempel**: 3 + 7 + 11 + … + 39. Her er d = 4 og n = (39 − 3)/4 + 1 = 10, så S₁₀ = 10(3 + 39)/2 = **210**.\n\nSummen av de n første naturlige tallene er n(n + 1)/2.\n\n## Geometriske rekker\n\nI en **geometrisk** rekke er **kvotienten** k mellom to naboledd konstant.\n\n- **aₙ = a₁ · kⁿ⁻¹**\n- **Sₙ = a₁(kⁿ − 1) / (k − 1)** når k ≠ 1\n\n**Eksempel**: 2 + 6 + 18 + … med 6 ledd gir S₆ = 2(3⁶ − 1)/(3 − 1) = **728**.\n\n## Uendelige geometriske rekker\n\nNår n vokser, går kⁿ mot 0 hvis **|k| < 1**. Da **konvergerer** rekken, og summen er\n\n**S = a₁ / (1 − k)**\n\nEr |k| ≥ 1, **divergerer** rekken – den har ingen endelig sum.\n\n**Eksempel**: 8 + 4 + 2 + 1 + … har k = 1/2, så S = 8/(1 − 1/2) = **16**.\n\nEn **konvergensbetingelse** kan inneholde en variabel. Rekken 1 + x + x² + … konvergerer for **−1 < x < 1**, og summen er 1/(1 − x).\n\nMerk: At leddene går mot 0, er **ikke nok**. Den **harmoniske rekken** 1 + 1/2 + 1/3 + 1/4 + … divergerer.\n\n## Periodiske desimaltall\n\n0,777… = 7/10 + 7/100 + 7/1000 + … er en uendelig geometrisk rekke med a₁ = 7/10 og k = 1/10:\n\nS = (7/10)/(1 − 1/10) = **7/9**\n\n## Anvendelser\n\n**Sparing**: Du setter inn 10 000 kr hvert år i 10 år med 4 % rente. Rett etter siste innskudd er verdien\n\n10 000 + 10 000 · 1,04 + … + 10 000 · 1,04⁹ = 10 000(1,04¹⁰ − 1)/0,04 ≈ **120 061 kr**\n\n**Annuitetslån**: Nåverdien av alle framtidige terminbeløp skal være lik lånebeløpet. Det gir en geometrisk rekke som vi kan løse for terminbeløpet.\n\n**Medisin**: En pasient tar 100 mg hver dag, og 20 % er igjen etter et døgn. Rett etter dose n er mengden\n\n100 + 100 · 0,2 + … + 100 · 0,2ⁿ⁻¹\n\nPå lang sikt nærmer mengden seg 100/(1 − 0,2) = **125 mg**.\n\n## Arbeidsmåte\n\nBruk gjerne **CAS** eller et program til å regne ut delsummer og se om de **stabiliserer** seg. Men for å vise at en rekke konvergerer, må du **begrunne** det – for eksempel med betingelsen |k| < 1.",
+  "flashcards": [
+    { "term": "Følge", "def": "Ordnet liste med tall: a₁, a₂, a₃, …" },
+    { "term": "Rekke", "def": "Summen av leddene i en følge." },
+    { "term": "Sₙ", "def": "Summen av de n første leddene." },
+    { "term": "Σ", "def": "Summetegn." },
+    { "term": "Aritmetisk rekke", "def": "Konstant differanse d mellom naboledd." },
+    { "term": "aₙ i aritmetisk rekke", "def": "a₁ + (n − 1)d" },
+    { "term": "Sₙ i aritmetisk rekke", "def": "n(a₁ + aₙ)/2" },
+    { "term": "Geometrisk rekke", "def": "Konstant kvotient k mellom naboledd." },
+    { "term": "aₙ i geometrisk rekke", "def": "a₁ · kⁿ⁻¹" },
+    { "term": "Sₙ i geometrisk rekke", "def": "a₁(kⁿ − 1)/(k − 1)" },
+    { "term": "Konvergens", "def": "Rekken har en endelig sum." },
+    { "term": "Konvergensbetingelse", "def": "|k| < 1 for en uendelig geometrisk rekke." },
+    { "term": "Sum av uendelig geometrisk rekke", "def": "a₁/(1 − k)" },
+    { "term": "Divergens", "def": "Rekken har ingen endelig sum." },
+    { "term": "Harmonisk rekke", "def": "1 + 1/2 + 1/3 + … – divergerer." },
+    { "term": "Sum av 1 + 2 + … + n", "def": "n(n + 1)/2" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er differansen d i rekken 5 + 9 + 13 + …?", "options": ["5", "4", "9", "13"], "correct": 1, "explain": "9 − 5 = 4." },
+    { "id": "q02", "text": "Hva er summen 3 + 7 + 11 + … + 39?", "options": ["210", "420", "195", "39"], "correct": 0, "explain": "10 ledd: 10(3 + 39)/2." },
+    { "id": "q03", "text": "Når konvergerer en uendelig geometrisk rekke?", "options": ["Når k > 1", "Når k = 1", "Når |k| < 1", "Alltid"], "correct": 2, "explain": "Da går kⁿ mot 0." },
+    { "id": "q04", "text": "Hva er summen av 8 + 4 + 2 + 1 + …?", "options": ["15", "8", "32", "16"], "correct": 3, "explain": "8/(1 − 1/2) = 16." },
+    { "id": "q05", "text": "Hva er kvotienten k i rekken 2 + 6 + 18 + …?", "options": ["3", "4", "2", "6"], "correct": 0, "explain": "6/2 = 3." },
+    { "id": "q06", "text": "Hvilken brøk er 0,777…?", "options": ["7/10", "7/9", "77/100", "1/7"], "correct": 1, "explain": "(7/10)/(1 − 1/10)." },
+    { "id": "q07", "text": "Hva gjelder for den harmoniske rekken 1 + 1/2 + 1/3 + …?", "options": ["Den har summen 2", "Den har summen 1", "Den divergerer", "Den er geometrisk"], "correct": 2, "explain": "Selv om leddene går mot 0." },
+    { "id": "q08", "text": "Hva er sumformelen for en endelig geometrisk rekke?", "options": ["n(a₁ + aₙ)/2", "a₁/(1 − k)", "a₁ + (n − 1)d", "a₁(kⁿ − 1)/(k − 1)"], "correct": 3, "explain": "Gjelder når k ≠ 1." },
+    { "id": "q09", "text": "En pasient tar 100 mg daglig, og 20 % er igjen etter et døgn. Hvilken mengde nærmer seg innholdet rett etter dose på lang sikt?", "options": ["125 mg", "100 mg", "120 mg", "500 mg"], "correct": 0, "explain": "100/(1 − 0,2)." },
+    { "id": "q10", "text": "Hva er Σ i² for i = 1 til 4?", "options": ["10", "30", "16", "100"], "correct": 1, "explain": "1 + 4 + 9 + 16." }
+  ],
+  "mindmap": {
+    "label": "Rekker",
+    "children": [
+      { "label": "Grunnbegreper", "children": [
+        { "label": "Følge og rekke" },
+        { "label": "Summetegn" }
+      ] },
+      { "label": "Aritmetisk", "children": [
+        { "label": "Differanse d" },
+        { "label": "Sₙ = n(a₁ + aₙ)/2" }
+      ] },
+      { "label": "Geometrisk", "children": [
+        { "label": "Kvotient k" },
+        { "label": "Sₙ = a₁(kⁿ − 1)/(k − 1)" }
+      ] },
+      { "label": "Uendelig", "children": [
+        { "label": "|k| < 1" },
+        { "label": "S = a₁/(1 − k)" },
+        { "label": "Harmonisk rekke divergerer" }
+      ] },
+      { "label": "Anvendelser", "children": [
+        { "label": "Sparing og lån" },
+        { "label": "Medisin" },
+        { "label": "Periodiske desimaltall" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "En rekke er summen av leddene i en følge.", "correct": true, "explain": "Følgen er listen, rekken er summen." },
+      { "id": "m02", "type": "sant-usant", "text": "Den uendelige rekken 1 + 2 + 4 + 8 + … konvergerer.", "correct": false, "explain": "k = 2, så den divergerer." },
+      { "id": "m03", "type": "sant-usant", "text": "Summen av de n første naturlige tallene er n(n + 1)/2.", "correct": true, "explain": "En aritmetisk rekke med d = 1." },
+      { "id": "m04", "type": "sant-usant", "text": "I en aritmetisk rekke er forholdet mellom to naboledd konstant.", "correct": false, "explain": "Det er differansen som er konstant." },
+      { "id": "m05", "type": "flervalg", "text": "For hvilke x konvergerer 1 + x + x² + …?", "options": ["x > 1", "−1 < x < 1", "Alle x", "x < −1"], "correct": 1, "explain": "Kvotienten er x." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er aₙ i følgen 5, 8, 11, …?", "options": ["3n + 2", "5n", "3n + 5", "n + 3"], "correct": 0, "explain": "5 + (n − 1) · 3 = 3n + 2." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er summen av de 5 første leddene i 1 + 3 + 9 + …?", "options": ["81", "243", "121", "40"], "correct": 2, "explain": "(3⁵ − 1)/(3 − 1) = 121." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

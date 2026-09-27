@@ -1,0 +1,79 @@
+{
+  "id": "parameterframstillinger-og-bevegelse",
+  "fagId": "matematikk-r2",
+  "trinnId": "vg3",
+  "name": "Parameterframstillinger, fart og akselerasjon",
+  "intro": "Hvordan parameterframstillinger og vektorfunksjoner beskriver bevegelse i planet og rommet – posisjon, fartsvektor, banefart og akselerasjon – med skrått kast, sirkelbevegelse, horisontale og vertikale tangenter og buelengde som eksempler.",
+  "kompetansemaal": [9],
+  "sammendrag": "## Posisjonsvektor\n\nEn **parameterframstilling** beskriver en kurve der både x og y – og eventuelt z – er funksjoner av en **parameter** t, ofte **tiden**:\n\n**r(t) = [x(t), y(t)]**\n\nr(t) er **posisjonsvektoren** til et legeme ved tiden t.\n\n## Fart og akselerasjon\n\n- **Fartsvektoren** er den deriverte: **v(t) = r′(t) = [x′(t), y′(t)]**. Den er **tangent** til banen og peker i **bevegelsesretningen**.\n- **Banefarten** er lengden av fartsvektoren: **|v(t)| = √(x′(t)² + y′(t)²)**.\n- **Akselerasjonsvektoren** er **a(t) = v′(t) = r″(t)**.\n\n## Skrått kast\n\nEn ball kastes med startfart v₀ og vinkel α med horisontalen. Uten luftmotstand er\n\n**r(t) = [v₀ cos α · t, v₀ sin α · t − ½gt²]**\n\nDa er v(t) = [v₀ cos α, v₀ sin α − gt] og a(t) = [0, −g]. Akselerasjonen er **konstant** og peker **rett ned**.\n\n**Eksempel**: v₀ = 20 m/s, α = 30°, g = 9,81 m/s².\n\n- r(t) = [17,32t, 10t − 4,905t²]\n- **Høyeste punkt**: y′(t) = 10 − 9,81t = 0 gir t ≈ 1,02 s og y ≈ **5,1 m**.\n- **Treffer bakken**: y(t) = 0 gir t ≈ 2,04 s og x ≈ **35,3 m**.\n\n## Sirkelbevegelse\n\n**r(t) = [R cos(ωt), R sin(ωt)]** beskriver en bevegelse med **konstant** banefart rundt en sirkel med radius R.\n\n- v(t) = [−Rω sin(ωt), Rω cos(ωt)], så banefarten er **Rω**.\n- a(t) = −ω² · r(t). Akselerasjonen peker **inn mot sentrum** og har størrelse **Rω²** – **sentripetalakselerasjon**.\n\n## Tangenter\n\n- **Horisontal** tangent: **y′(t) = 0** og x′(t) ≠ 0.\n- **Vertikal** tangent: **x′(t) = 0** og y′(t) ≠ 0.\n\nStigningstallet til tangenten er **y′(t)/x′(t)**.\n\n## Buelengde\n\nStrekningen legemet tilbakelegger fra t = a til t = b, er integralet av banefarten:\n\n**s = ∫ₐᵇ |v(t)| dt = ∫ₐᵇ √(x′(t)² + y′(t)²) dt**\n\nIntegralet må ofte regnes ut **numerisk**.\n\n## I rommet\n\nI tre dimensjoner er r(t) = [x(t), y(t), z(t)]. En **skruelinje** r(t) = [cos t, sin t, t/2] går i sirkel samtidig som den stiger jevnt – slik som banen til en **vindeltrapp** eller et elektron i et **magnetfelt**.\n\n## Fra akselerasjon til posisjon\n\nKjenner vi akselerasjonen, kan vi **integrere** for å finne farten og posisjonen. Integrasjonskonstantene bestemmes av **startfarten** og **startposisjonen**. Slik utledes formelen for skrått kast fra a(t) = [0, −g].\n\n## Naturvitenskapelige problemer\n\nParameterframstillinger brukes til å beskrive **satellitter**, **planeter**, **prosjektiler** og **partikler**. I fysikk kombineres de med **Newtons lover**: Kraften bestemmer akselerasjonen, og integrasjon gir banen. Med **programmering** kan vi også ta med **luftmotstand** og løse problemene numerisk.",
+  "flashcards": [
+    { "term": "Parameterframstilling", "def": "Kurve der x og y er funksjoner av en parameter t." },
+    { "term": "Posisjonsvektor", "def": "r(t) = [x(t), y(t)]" },
+    { "term": "Fartsvektor", "def": "v(t) = r′(t) – tangent til banen." },
+    { "term": "Banefart", "def": "|v(t)| = √(x′(t)² + y′(t)²)" },
+    { "term": "Akselerasjonsvektor", "def": "a(t) = v′(t) = r″(t)" },
+    { "term": "Skrått kast", "def": "r(t) = [v₀ cos α · t, v₀ sin α · t − ½gt²]" },
+    { "term": "Akselerasjon i skrått kast", "def": "[0, −g] – konstant og rett ned." },
+    { "term": "Høyeste punkt i kast", "def": "y′(t) = 0" },
+    { "term": "Sirkelbevegelse", "def": "r(t) = [R cos(ωt), R sin(ωt)]" },
+    { "term": "Banefart i sirkelbevegelse", "def": "Rω" },
+    { "term": "Sentripetalakselerasjon", "def": "Peker mot sentrum, størrelse Rω²." },
+    { "term": "Horisontal tangent", "def": "y′(t) = 0 og x′(t) ≠ 0." },
+    { "term": "Vertikal tangent", "def": "x′(t) = 0 og y′(t) ≠ 0." },
+    { "term": "Buelengde", "def": "s = ∫ₐᵇ |v(t)| dt" },
+    { "term": "Skruelinje", "def": "[cos t, sin t, kt] – sirkel som stiger jevnt." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er fartsvektoren til r(t) = [t², 3t]?", "options": ["[t, 3]", "[2t, 3]", "[2, 0]", "[t², 3]"], "correct": 1, "explain": "Deriver hver koordinat." },
+    { "id": "q02", "text": "Hva er banefarten når v(t) = [3, 4]?", "options": ["5", "7", "1", "25"], "correct": 0, "explain": "√(9 + 16)." },
+    { "id": "q03", "text": "Hva er akselerasjonen i skrått kast uten luftmotstand?", "options": ["[g, 0]", "[0, 0]", "[0, −g]", "[−g, −g]"], "correct": 2, "explain": "Konstant og rett ned." },
+    { "id": "q04", "text": "Hva gjelder for en horisontal tangent?", "options": ["x′(t) = 0", "x′(t) = y′(t)", "x(t) = 0", "y′(t) = 0 og x′(t) ≠ 0"], "correct": 3, "explain": "Stigningstallet er 0." },
+    { "id": "q05", "text": "Hvor peker akselerasjonen i jevn sirkelbevegelse?", "options": ["Inn mot sentrum", "Ut fra sentrum", "Langs banen", "Den er null"], "correct": 0, "explain": "Sentripetalakselerasjon." },
+    { "id": "q06", "text": "Hvordan regnes buelengden ut?", "options": ["s = |r(b) − r(a)|", "s = ∫ₐᵇ |v(t)| dt", "s = x(b) − x(a)", "s = ∫ₐᵇ r(t) dt"], "correct": 1, "explain": "Integralet av banefarten." },
+    { "id": "q07", "text": "Hva er banefarten for r(t) = [R cos(ωt), R sin(ωt)]?", "options": ["R", "ω", "Rω", "Rω²"], "correct": 2, "explain": "Konstant banefart." },
+    { "id": "q08", "text": "En ball kastes med 20 m/s og 30°. Omtrent hvor høyt kommer den?", "options": ["20 m", "10 m", "2,5 m", "5,1 m"], "correct": 3, "explain": "y′ = 0 ved t ≈ 1,02 s." },
+    { "id": "q09", "text": "Hva er stigningstallet til tangenten i en parameterframstilling?", "options": ["y′(t)/x′(t)", "x′(t)/y′(t)", "y(t)/x(t)", "x′(t) · y′(t)"], "correct": 0, "explain": "Endring i y per endring i x." },
+    { "id": "q10", "text": "Hva bestemmer integrasjonskonstantene når vi går fra akselerasjon til posisjon?", "options": ["Massen", "Startfarten og startposisjonen", "Tyngdeakselerasjonen alene", "Buelengden"], "correct": 1, "explain": "Initialbetingelser." }
+  ],
+  "mindmap": {
+    "label": "Bevegelse",
+    "children": [
+      { "label": "Vektorer", "children": [
+        { "label": "Posisjon r(t)" },
+        { "label": "Fart v = r′" },
+        { "label": "Akselerasjon a = v′" }
+      ] },
+      { "label": "Skrått kast", "children": [
+        { "label": "Høyeste punkt" },
+        { "label": "Rekkevidde" }
+      ] },
+      { "label": "Sirkelbevegelse", "children": [
+        { "label": "Banefart Rω" },
+        { "label": "Sentripetalakselerasjon" }
+      ] },
+      { "label": "Kurveegenskaper", "children": [
+        { "label": "Tangenter" },
+        { "label": "Buelengde" }
+      ] },
+      { "label": "Anvendelser", "children": [
+        { "label": "Skruelinje i rommet" },
+        { "label": "Integrasjon fra a til r" },
+        { "label": "Luftmotstand numerisk" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Fartsvektoren er tangent til banen.", "correct": true, "explain": "Den peker i bevegelsesretningen." },
+      { "id": "m02", "type": "sant-usant", "text": "I jevn sirkelbevegelse er akselerasjonen null.", "correct": false, "explain": "Retningen endres, så akselerasjonen peker mot sentrum." },
+      { "id": "m03", "type": "sant-usant", "text": "Buelengden må ofte regnes ut numerisk.", "correct": true, "explain": "Rotuttrykket er ofte vanskelig å integrere." },
+      { "id": "m04", "type": "sant-usant", "text": "En vertikal tangent har y′(t) = 0.", "correct": false, "explain": "Vertikal tangent har x′(t) = 0." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er akselerasjonen til r(t) = [t³, 2t]?", "options": ["[3t², 2]", "[6t, 0]", "[6, 0]", "[t, 0]"], "correct": 1, "explain": "Deriver to ganger." },
+      { "id": "m06", "type": "flervalg", "text": "Hva beskriver r(t) = [cos t, sin t, t/2]?", "options": ["En skruelinje", "En rett linje", "En sirkel i planet", "En parabel"], "correct": 0, "explain": "Sirkel som stiger jevnt." },
+      { "id": "m07", "type": "flervalg", "text": "Hvordan finner du når en kastet ball treffer bakken?", "options": ["Løs x(t) = 0", "Løs y′(t) = 0", "Løs y(t) = 0 for t > 0", "Finn |v(t)|"], "correct": 2, "explain": "Høyden er null." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

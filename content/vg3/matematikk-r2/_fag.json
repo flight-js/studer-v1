@@ -1,0 +1,76 @@
+{
+  "id": "matematikk-r2",
+  "trinnId": "vg3",
+  "name": "Matematikk R2",
+  "lareplan": {
+    "kode": "MAT03-02",
+    "url": "https://www.udir.no/lk20/mat03-02/kompetansemaal-og-vurdering/kv294",
+    "kompetansemaal": [
+      {
+        "nr": 1,
+        "tekst": "utforske egenskaper ved ulike rekker og gjøre rede for praktiske anvendelser av egenskaper ved rekker"
+      },
+      {
+        "nr": 2,
+        "tekst": "utforske rekursive sammenhenger ved å bruke programmering og presentere egne framgangsmåter"
+      },
+      {
+        "nr": 3,
+        "tekst": "gjøre rede for integral som en grenseverdi av en følge av summer, og tolke betydningen av denne grenseverdien i ulike situasjoner"
+      },
+      {
+        "nr": 4,
+        "tekst": "gjøre rede for analysens fundamentalteorem og gjøre rede for konsekvenser av teoremet"
+      },
+      {
+        "nr": 5,
+        "tekst": "utvikle algoritmer for å beregne integraler numerisk, og bruke programmering til å utføre algoritmene"
+      },
+      {
+        "nr": 6,
+        "tekst": "gi eksempler på ulike situasjoner som kan modelleres ved å bruke ulike matematiske funksjoner, og modellere og analysere slike situasjoner ved å bruke reelle datasett"
+      },
+      {
+        "nr": 7,
+        "tekst": "anvende derivasjon og integrasjon til å analysere og tolke egne matematiske modeller av reelle datasett"
+      },
+      {
+        "nr": 8,
+        "tekst": "analysere og tolke ulike funksjoner ved å bruke derivasjon og integrasjon, og anvende integrasjon til å beregne ulike mål av omdreiningslegemer"
+      },
+      {
+        "nr": 9,
+        "tekst": "anvende parameterframstillinger til kurver og bruke parameterframstillinger til å løse naturvitenskapelige problemer inkludert problemer knyttet til fart og akselerasjon"
+      },
+      {
+        "nr": 10,
+        "tekst": "utforske og forstå regneregler for vektorer i rommet, og bruke vektorer til å beregne ulike størrelser i rommet"
+      },
+      {
+        "nr": 11,
+        "tekst": "utforske egenskaper ved radianer og trigonometriske funksjoner og identiteter og anvende disse egenskapene til å løse praktiske problemer"
+      },
+      {
+        "nr": 12,
+        "tekst": "analysere og forstå matematiske bevis, forklare de bærende ideene i et matematisk bevis og utvikle egne bevis"
+      }
+    ]
+  },
+  "temaer": [
+    "rekker",
+    "rekursjon-og-programmering",
+    "integral-som-grenseverdi",
+    "analysens-fundamentalteorem",
+    "integrasjonsmetoder",
+    "numerisk-integrasjon",
+    "modellering-med-reelle-datasett",
+    "analyse-av-modeller",
+    "omdreiningslegemer",
+    "parameterframstillinger-og-bevegelse",
+    "vektorer-i-rommet",
+    "linjer-plan-og-kuler",
+    "radianer-og-trigonometriske-funksjoner",
+    "trigonometriske-likninger-og-identiteter",
+    "bevis-og-induksjon"
+  ]
+}

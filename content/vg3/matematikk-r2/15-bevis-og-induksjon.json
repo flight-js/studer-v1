@@ -1,0 +1,79 @@
+{
+  "id": "bevis-og-induksjon",
+  "fagId": "matematikk-r2",
+  "trinnId": "vg3",
+  "name": "Matematiske bevis og induksjon",
+  "intro": "Hva et matematisk bevis er, implikasjon og ekvivalens, nødvendige og tilstrekkelige vilkår, bevistypene direkte bevis, kontrapositivt bevis, motsigelsesbevis og induksjonsbevis, moteksempler, bærende idéer i kjente bevis og hvordan du skriver egne bevis.",
+  "kompetansemaal": [12],
+  "sammendrag": "## Hva er et bevis?\n\nEt **matematisk bevis** er en **logisk** argumentasjon som viser at en påstand er sann i **alle** tilfeller. Beviset bygger på **definisjoner**, **aksiomer** og tidligere beviste **setninger**. Å sjekke mange eksempler er **ikke** et bevis.\n\n## Logiske begreper\n\n- **Implikasjon** P ⇒ Q: Hvis P er sann, er Q sann.\n- **Ekvivalens** P ⇔ Q: P og Q er sanne i nøyaktig de samme tilfellene.\n\nx = 2 ⇒ x² = 4 er sann, men x² = 4 ⇒ x = 2 er **usann**, fordi x kan være −2.\n\nI P ⇒ Q er P et **tilstrekkelig** vilkår for Q, og Q er et **nødvendig** vilkår for P. Å være delelig med 4 er tilstrekkelig for å være et partall, men ikke nødvendig.\n\n## Direkte bevis\n\nStart med **antakelsen** og resonner deg fram til **konklusjonen**.\n\n**Påstand**: Summen av to oddetall er et partall.\n\n**Bevis**: Oddetallene kan skrives 2m + 1 og 2n + 1, der m og n er hele tall. Summen er 2m + 2n + 2 = 2(m + n + 1), som er et partall. ∎\n\n## Kontrapositivt bevis\n\nP ⇒ Q er **ekvivalent** med ikke Q ⇒ ikke P.\n\n**Påstand**: Hvis n² er et partall, er n et partall.\n\n**Bevis**: Vi viser det kontrapositive: Hvis n er et oddetall, er n² et oddetall. Med n = 2k + 1 er n² = 4k² + 4k + 1 = 2(2k² + 2k) + 1, som er et oddetall. ∎\n\n## Motsigelsesbevis\n\nAnta at påstanden er **usann**, og vis at det fører til en **motsigelse**.\n\n**Påstand**: √2 er irrasjonal.\n\n**Bevis**: Anta at √2 = p/q, der brøken er **forkortet** så langt som mulig. Da er 2q² = p², så p² er et partall, og dermed er p et partall: p = 2k. Da er 2q² = 4k², så q² = 2k², og q er også et partall. Men da kunne brøken forkortes med 2 – en motsigelse. ∎\n\n**Den bærende idéen** er at både p og q blir partall, selv om brøken var forkortet.\n\n**Euklid** beviste på samme måte at det finnes **uendelig mange primtall**.\n\n## Moteksempel\n\nFor å vise at en **generell** påstand er **usann**, holder det med **ett** moteksempel. Påstanden «n² + n + 41 er et primtall for alle naturlige tall n» stemmer lenge, men for n = 40 får vi 1681 = 41 · 41.\n\n## Induksjonsbevis\n\n**Induksjon** brukes for påstander P(n) om alle naturlige tall n:\n\n1. **Basis**: Vis at P(1) er sann.\n2. **Induksjonstrinn**: Anta at P(k) er sann – **induksjonsantakelsen** – og vis at da er P(k + 1) sann.\n\nDa er P(n) sann for alle n – som en rekke dominobrikker.\n\n**Påstand**: 1 + 3 + 5 + … + (2n − 1) = n².\n\n**Basis**: n = 1 gir 1 = 1².\n\n**Trinn**: Anta 1 + 3 + … + (2k − 1) = k². Da er\n\n1 + 3 + … + (2k − 1) + (2k + 1) = k² + 2k + 1 = (k + 1)² ∎\n\n## Skrive egne bevis\n\n- Skriv **hva** du skal bevise, og hva du **antar**.\n- Bruk **definisjoner**: Et partall er 2k, et oddetall er 2k + 1.\n- Vis hvert steg, og bruk ⇒ og ⇔ **riktig**.\n- Avslutt med ∎ eller «som skulle vises».\n\n**Vanlige feil** er å bruke det man skal bevise som **forutsetning** (sirkelargument), å vise implikasjonen i **feil retning**, og å tro at noen eksempler er nok.",
+  "flashcards": [
+    { "term": "Matematisk bevis", "def": "Logisk argumentasjon som viser at en påstand gjelder i alle tilfeller." },
+    { "term": "Implikasjon P ⇒ Q", "def": "Hvis P er sann, er Q sann." },
+    { "term": "Ekvivalens P ⇔ Q", "def": "P og Q er sanne i nøyaktig de samme tilfellene." },
+    { "term": "Tilstrekkelig vilkår", "def": "P i P ⇒ Q." },
+    { "term": "Nødvendig vilkår", "def": "Q i P ⇒ Q." },
+    { "term": "Direkte bevis", "def": "Fra antakelse til konklusjon steg for steg." },
+    { "term": "Kontrapositivt bevis", "def": "Viser ikke Q ⇒ ikke P i stedet for P ⇒ Q." },
+    { "term": "Motsigelsesbevis", "def": "Anta det motsatte og vis at det gir en motsigelse." },
+    { "term": "Moteksempel", "def": "Ett tilfelle som viser at en generell påstand er usann." },
+    { "term": "Induksjonsbevis", "def": "Basis og induksjonstrinn for alle naturlige tall." },
+    { "term": "Induksjonsantakelse", "def": "Antakelsen om at P(k) er sann." },
+    { "term": "Partall og oddetall", "def": "2k og 2k + 1." },
+    { "term": "√2 er irrasjonal", "def": "Klassisk motsigelsesbevis." },
+    { "term": "Euklids setning", "def": "Det finnes uendelig mange primtall." },
+    { "term": "Sirkelargument", "def": "Å bruke det man skal bevise som forutsetning." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvordan viser du at en generell påstand er usann?", "options": ["Med et induksjonsbevis", "Med ett moteksempel", "Med mange eksempler der den stemmer", "Det kan ikke vises"], "correct": 1, "explain": "Ett tilfelle holder." },
+    { "id": "q02", "text": "Hva er første steg i et induksjonsbevis?", "options": ["Basis – vis at P(1) er sann", "Anta at P(k) er sann", "Finn et moteksempel", "Anta det motsatte"], "correct": 0, "explain": "Deretter kommer induksjonstrinnet." },
+    { "id": "q03", "text": "Hva er det kontrapositive av P ⇒ Q?", "options": ["Q ⇒ P", "P ⇔ Q", "Ikke Q ⇒ ikke P", "Ikke P ⇒ ikke Q"], "correct": 2, "explain": "Det er ekvivalent med P ⇒ Q." },
+    { "id": "q04", "text": "Hva gjør du i et motsigelsesbevis?", "options": ["Sjekker eksempler", "Viser basis og trinn", "Viser Q ⇒ P", "Antar det motsatte og viser at det gir en motsigelse"], "correct": 3, "explain": "Som i beviset for at √2 er irrasjonal." },
+    { "id": "q05", "text": "Hva viser 2m + 1 + 2n + 1 = 2(m + n + 1)?", "options": ["At summen av to oddetall er et partall", "At alle tall er partall", "At √2 er irrasjonal", "At det finnes uendelig mange primtall"], "correct": 0, "explain": "Et direkte bevis." },
+    { "id": "q06", "text": "For hvilken n er n² + n + 41 ikke et primtall?", "options": ["n = 1", "n = 40", "n = 10", "n = 5"], "correct": 1, "explain": "1681 = 41 · 41." },
+    { "id": "q07", "text": "Hva gjør du i induksjonstrinnet?", "options": ["Viser P(1)", "Sjekker mange tall", "Antar P(k) og viser P(k + 1)", "Antar P(k + 1) og viser P(k)"], "correct": 2, "explain": "Som dominobrikker." },
+    { "id": "q08", "text": "Hvorfor er ikke mange eksempler et bevis?", "options": ["Fordi eksempler alltid er feil", "Fordi det tar for lang tid", "Fordi eksempler er ulovlige", "Fordi de ikke dekker alle tilfeller"], "correct": 3, "explain": "Et bevis må gjelde generelt." },
+    { "id": "q09", "text": "Hva er 1 + 3 + 5 + … + (2n − 1)?", "options": ["n²", "2n", "n(n + 1)/2", "2n²"], "correct": 0, "explain": "Kan vises med induksjon." },
+    { "id": "q10", "text": "Hvilket utsagn er riktig?", "options": ["x² = 4 ⇒ x = 2", "x = 2 ⇒ x² = 4", "x = 2 ⇔ x² = 4", "x² = 4 ⇔ x = −2"], "correct": 1, "explain": "x kan også være −2." }
+  ],
+  "mindmap": {
+    "label": "Bevis",
+    "children": [
+      { "label": "Logikk", "children": [
+        { "label": "Implikasjon og ekvivalens" },
+        { "label": "Nødvendig og tilstrekkelig" }
+      ] },
+      { "label": "Bevistyper", "children": [
+        { "label": "Direkte" },
+        { "label": "Kontrapositivt" },
+        { "label": "Motsigelse" },
+        { "label": "Induksjon" }
+      ] },
+      { "label": "Motbevis", "children": [
+        { "label": "Moteksempel" }
+      ] },
+      { "label": "Kjente bevis", "children": [
+        { "label": "√2 er irrasjonal" },
+        { "label": "Uendelig mange primtall" }
+      ] },
+      { "label": "Skrive bevis", "children": [
+        { "label": "Definisjoner" },
+        { "label": "Bærende idé" },
+        { "label": "Unngå sirkelargument" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Euklid beviste at det finnes uendelig mange primtall.", "correct": true, "explain": "Med et motsigelsesbevis." },
+      { "id": "m02", "type": "sant-usant", "text": "Hvis P ⇒ Q er sann, er Q ⇒ P alltid sann.", "correct": false, "explain": "Den omvendte implikasjonen trenger ikke gjelde." },
+      { "id": "m03", "type": "sant-usant", "text": "Et induksjonsbevis trenger både basis og induksjonstrinn.", "correct": true, "explain": "Ellers faller dominobrikkene ikke." },
+      { "id": "m04", "type": "sant-usant", "text": "Å vise at en påstand stemmer for de 1000 første tallene, er et bevis for alle tall.", "correct": false, "explain": "Det kan finnes et moteksempel senere." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken bevistype brukes vanligvis for at √2 er irrasjonal?", "options": ["Induksjon", "Motsigelse", "Moteksempel", "Direkte bevis med eksempler"], "correct": 1, "explain": "Anta at √2 = p/q." },
+      { "id": "m06", "type": "flervalg", "text": "Å være delelig med 4 er … for å være et partall.", "options": ["tilstrekkelig", "nødvendig", "både nødvendig og tilstrekkelig", "verken nødvendig eller tilstrekkelig"], "correct": 0, "explain": "6 er partall uten å være delelig med 4." },
+      { "id": "m07", "type": "flervalg", "text": "Hvordan skrives et vilkårlig oddetall?", "options": ["2k", "k + 1", "2k + 1", "k²"], "correct": 2, "explain": "k er et helt tall." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

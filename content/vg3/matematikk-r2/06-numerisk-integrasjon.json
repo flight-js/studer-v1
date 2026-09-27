@@ -1,0 +1,80 @@
+{
+  "id": "numerisk-integrasjon",
+  "fagId": "matematikk-r2",
+  "trinnId": "vg3",
+  "name": "Numerisk integrasjon med algoritmer",
+  "intro": "Hvorfor vi trenger numerisk integrasjon, hvordan rektangelmetoder, midtpunktmetoden, trapesmetoden og Simpsons metode fungerer, hvordan du utvikler og programmerer algoritmene i Python, og hvordan du vurderer nøyaktigheten.",
+  "kompetansemaal": [5],
+  "sammendrag": "## Hvorfor numerisk integrasjon?\n\nFundamentalteoremet krever at vi finner en **antiderivert**. Det går ikke alltid:\n\n- Noen funksjoner, som **e^(−x²)**, har ingen antiderivert som kan skrives med kjente funksjoner.\n- Ofte har vi bare **måledata**, for eksempel farten målt hvert tiende sekund.\n\nDa regner vi ut en **tilnærming** med en **algoritme**.\n\n## Metodene\n\nDel [a, b] i n deler med Δx = (b − a)/n og punktene x₀ = a, x₁, …, xₙ = b.\n\n- **Venstre- og høyresum**: rektangler med høyde i endepunktene.\n- **Midtpunktmetoden**: rektangler med høyde i **midtpunktet** av hvert delintervall.\n- **Trapesmetoden**: Grafen erstattes med **rette linjer** mellom punktene, og vi summerer **trapeser**:\n\n**T = Δx · (f(x₀)/2 + f(x₁) + … + f(xₙ₋₁) + f(xₙ)/2)**\n\n- **Simpsons metode**: Grafen erstattes med **parabelbuer**. n må være et **partall**:\n\n**S = (Δx/3) · (f(x₀) + 4f(x₁) + 2f(x₂) + 4f(x₃) + … + 4f(xₙ₋₁) + f(xₙ))**\n\n## Eksempel: ∫₀¹ x² dx = 1/3\n\nMed n = 2 er Δx = 0,5.\n\n- Midtpunkt: (0,25² + 0,75²) · 0,5 = **0,3125**\n- Trapes: 0,5 · (0/2 + 0,25 + 1/2) = **0,375**\n- Simpson: (0,5/3) · (0 + 4 · 0,25 + 1) = **1/3** – eksakt, fordi Simpson er eksakt for polynomer av grad 3 eller lavere.\n\n## Algoritmen i Python\n\nTrapesmetoden:\n\n```python\ndef f(x):\n    return x**2\n\na, b, n = 0, 1, 100\ndx = (b - a)/n\nT = (f(a) + f(b))/2\nfor i in range(1, n):\n    T = T + f(a + i*dx)\nT = T*dx\nprint(T)\n```\n\nMidtpunktmetoden bruker f(a + (i + 0.5)*dx) for i fra 0 til n − 1.\n\nMed **måledata** kan du lagre verdiene i en **liste** og summere trapesene mellom nabopunktene.\n\n## Nøyaktighet\n\nFeilen avtar når n **øker**, men i ulik takt:\n\n- **Rektangelmetoder**: feilen er omtrent proporsjonal med **1/n**. Dobbelt så mange deler gir omtrent **halv** feil.\n- **Midtpunkt** og **trapes**: omtrent **1/n²**. Dobling gir omtrent **en firedel** av feilen.\n- **Simpson**: omtrent **1/n⁴** for glatte funksjoner.\n\nFor en funksjon som krummer **oppover**, gir trapesmetoden for **stor** verdi og midtpunktmetoden for **liten**. Feilen i midtpunktmetoden er gjerne omtrent **halvparten** så stor.\n\nFor mange delintervaller kan gi **avrundingsfeil** og lang kjøretid, men det er sjelden et problem i skolesammenheng.\n\n## Utvikle og teste en algoritme\n\n1. **Beskriv** idéen med ord og figur.\n2. Skriv **pseudokode**: hvilke verdier trengs, og hvilke steg gjentas?\n3. **Programmer** algoritmen.\n4. **Test** den på et integral du kjenner det eksakte svaret på.\n5. Undersøk hvordan svaret endrer seg når du **dobler** n. Når svaret **stabiliserer** seg, er det sannsynligvis nøyaktig.\n\n## Anvendelser\n\nNumerisk integrasjon brukes i **fysikk** (strekning fra målt fart, arbeid fra kraft), **statistikk** (sannsynligheter under normalfordelingen), **økonomi** og i **dataprogrammer** som GeoGebra og kalkulatorer.",
+  "flashcards": [
+    { "term": "Numerisk integrasjon", "def": "Tilnærming av et integral med en algoritme." },
+    { "term": "Når numerisk?", "def": "Når vi ikke finner en antiderivert, eller bare har måledata." },
+    { "term": "e^(−x²)", "def": "Har ingen antiderivert med kjente funksjoner." },
+    { "term": "Midtpunktmetoden", "def": "Rektangler med høyde i midtpunktet av hvert delintervall." },
+    { "term": "Trapesmetoden", "def": "Rette linjer mellom punktene – summerer trapeser." },
+    { "term": "Trapesformelen", "def": "Δx · (f(x₀)/2 + f(x₁) + … + f(xₙ₋₁) + f(xₙ)/2)" },
+    { "term": "Simpsons metode", "def": "Parabelbuer – krever partall n." },
+    { "term": "Simpsons vekter", "def": "1, 4, 2, 4, …, 4, 1 ganget med Δx/3." },
+    { "term": "Feil i rektangelmetoder", "def": "Omtrent proporsjonal med 1/n." },
+    { "term": "Feil i trapes og midtpunkt", "def": "Omtrent proporsjonal med 1/n²." },
+    { "term": "Feil i Simpson", "def": "Omtrent proporsjonal med 1/n⁴ for glatte funksjoner." },
+    { "term": "Trapes ved oppoverkrumning", "def": "Gir for stor verdi." },
+    { "term": "Pseudokode", "def": "Beskrivelse av algoritmen med ord og enkle steg." },
+    { "term": "Testing av algoritme", "def": "Prøv den på et integral med kjent eksakt svar." },
+    { "term": "Stabilisering", "def": "Svaret endrer seg lite når n dobles." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva gir trapesmetoden for ∫₀¹ x² dx med n = 2?", "options": ["0,3125", "0,375", "0,5", "1/3"], "correct": 1, "explain": "0,5 · (0 + 0,25 + 0,5)." },
+    { "id": "q02", "text": "Når trenger vi numerisk integrasjon?", "options": ["Når vi ikke finner en antiderivert eller bare har måledata", "Aldri", "Bare ved lineære funksjoner", "Bare ved polynomer"], "correct": 0, "explain": "For eksempel e^(−x²)." },
+    { "id": "q03", "text": "Hvor hentes høyden i midtpunktmetoden?", "options": ["I venstre endepunkt", "I høyre endepunkt", "I midtpunktet av delintervallet", "I toppunktet"], "correct": 2, "explain": "Derav navnet." },
+    { "id": "q04", "text": "Hva krever Simpsons metode?", "options": ["At f er lineær", "At n er et oddetall", "At a = 0", "At n er et partall"], "correct": 3, "explain": "Parabelbuer over to og to delintervaller." },
+    { "id": "q05", "text": "Hva skjer omtrent med feilen i trapesmetoden når n dobles?", "options": ["Den blir en firedel", "Den halveres", "Den dobles", "Den endres ikke"], "correct": 0, "explain": "Feilen er omtrent proporsjonal med 1/n²." },
+    { "id": "q06", "text": "Hvilken metode er vanligvis mest nøyaktig for glatte funksjoner med samme n?", "options": ["Venstresum", "Simpsons metode", "Høyresum", "Trapesmetoden"], "correct": 1, "explain": "Feilen er omtrent proporsjonal med 1/n⁴." },
+    { "id": "q07", "text": "Hvordan kan du teste en ny algoritme?", "options": ["Ved å bruke færre delintervaller", "Ved å fjerne løkken", "Ved å prøve den på et integral med kjent eksakt svar", "Ved å gjette"], "correct": 2, "explain": "Sammenlign med fasiten." },
+    { "id": "q08", "text": "Hvilken vekt har endepunktene i trapesformelen?", "options": ["4", "2", "1", "1/2"], "correct": 3, "explain": "f(x₀)/2 og f(xₙ)/2." },
+    { "id": "q09", "text": "Hva gir midtpunktmetoden for ∫₀¹ x² dx med n = 2?", "options": ["0,3125", "0,375", "0,25", "0,5"], "correct": 0, "explain": "(0,0625 + 0,5625) · 0,5." },
+    { "id": "q10", "text": "Hvordan er trapesmetoden for en funksjon som krummer oppover?", "options": ["For liten", "For stor", "Alltid eksakt", "Umulig å bruke"], "correct": 1, "explain": "Linjestykkene ligger over grafen." }
+  ],
+  "mindmap": {
+    "label": "Numerisk integrasjon",
+    "children": [
+      { "label": "Hvorfor", "children": [
+        { "label": "Ingen antiderivert" },
+        { "label": "Måledata" }
+      ] },
+      { "label": "Metoder", "children": [
+        { "label": "Rektangler" },
+        { "label": "Midtpunkt" },
+        { "label": "Trapes" },
+        { "label": "Simpson" }
+      ] },
+      { "label": "Programmering", "children": [
+        { "label": "Funksjon f" },
+        { "label": "Løkke over delintervaller" },
+        { "label": "Lister med data" }
+      ] },
+      { "label": "Nøyaktighet", "children": [
+        { "label": "1/n, 1/n², 1/n⁴" },
+        { "label": "Dobling av n" }
+      ] },
+      { "label": "Utvikling", "children": [
+        { "label": "Pseudokode" },
+        { "label": "Testing" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Simpsons metode er eksakt for polynomer av grad 3 eller lavere.", "correct": true, "explain": "Derfor fikk vi 1/3 eksakt for x²." },
+      { "id": "m02", "type": "sant-usant", "text": "Med rektangelmetoder blir feilen omtrent en firedel når n dobles.", "correct": false, "explain": "Den blir omtrent halvert." },
+      { "id": "m03", "type": "sant-usant", "text": "Trapesmetoden kan brukes direkte på måledata.", "correct": true, "explain": "Summer trapesene mellom nabopunktene." },
+      { "id": "m04", "type": "sant-usant", "text": "Numerisk integrasjon gir alltid det eksakte svaret.", "correct": false, "explain": "Det er en tilnærming." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er Δx når [1, 3] deles i 4?", "options": ["0,25", "0,5", "2", "4"], "correct": 1, "explain": "(3 − 1)/4." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilket x-punkt bruker midtpunktmetoden i delintervall nummer i (fra 0)?", "options": ["a + (i + 0,5)Δx", "a + iΔx", "a + (i + 1)Δx", "b − iΔx"], "correct": 0, "explain": "Midten av delintervallet." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er et tegn på at et numerisk svar er nøyaktig?", "options": ["Det er et helt tall", "Det er negativt", "Det endrer seg lite når n dobles", "Det er større enn 1"], "correct": 2, "explain": "Svaret har stabilisert seg." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

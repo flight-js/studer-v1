@@ -1,0 +1,78 @@
+{
+  "id": "integrasjonsmetoder",
+  "fagId": "matematikk-r2",
+  "trinnId": "vg3",
+  "name": "Integrasjonsmetoder",
+  "intro": "Regneregler for ubestemte integraler og de viktigste integrasjonsmetodene – integrasjon ved substitusjon, delvis integrasjon og delbrøkoppspalting – med eksempler, bestemte integraler med nye grenser og en strategi for å velge metode.",
+  "kompetansemaal": [4, 8],
+  "sammendrag": "## Regneregler\n\n- ∫ (f(x) + g(x)) dx = ∫ f(x) dx + ∫ g(x) dx\n- ∫ k · f(x) dx = k · ∫ f(x) dx\n\nMed en **lineær kjerne** kx:\n\n- ∫ e^(kx) dx = e^(kx)/k + C\n- ∫ cos(kx) dx = sin(kx)/k + C\n- ∫ sin(kx) dx = −cos(kx)/k + C\n\n## Substitusjon\n\n**Substitusjon** – variabelskifte – er kjerneregelen «baklengs». Metoden passer når integranden inneholder en **kjerne** u og den **deriverte** av kjernen.\n\n1. Velg u, for eksempel kjernen.\n2. Regn ut du = u′ dx.\n3. Skriv hele integralet med u og du.\n4. Integrer, og sett x tilbake.\n\n**Eksempel**: ∫ 2x · e^(x²) dx. La u = x², så du = 2x dx:\n\n∫ eᵘ du = eᵘ + C = **e^(x²) + C**\n\n**Eksempel**: ∫ 2x/(x² + 1) dx. La u = x² + 1:\n\n∫ 1/u du = ln|u| + C = **ln(x² + 1) + C**\n\nGenerelt er ∫ f′(x)/f(x) dx = ln|f(x)| + C.\n\n## Nye grenser\n\nI et **bestemt** integral kan du bytte grensene samtidig. ∫₀¹ 2x(x² + 1)³ dx med u = x² + 1 gir u = 1 når x = 0 og u = 2 når x = 1:\n\n∫₁² u³ du = [u⁴/4]₁² = 4 − 1/4 = **15/4**\n\n## Delvis integrasjon\n\n**Delvis integrasjon** er produktregelen «baklengs»:\n\n**∫ u′ · v dx = u · v − ∫ u · v′ dx**\n\nMetoden passer for **produkter**, særlig når den ene faktoren blir **enklere** ved derivasjon.\n\n**Eksempel**: ∫ x · eˣ dx. La v = x og u′ = eˣ, så v′ = 1 og u = eˣ:\n\n∫ x eˣ dx = x eˣ − ∫ eˣ dx = **(x − 1)eˣ + C**\n\n**Eksempel**: ∫ ln x dx. Skriv som ∫ 1 · ln x dx med u′ = 1 og v = ln x:\n\n∫ ln x dx = x ln x − ∫ x · (1/x) dx = **x ln x − x + C**\n\nNoen ganger må du bruke metoden **flere ganger**, som for ∫ x² eˣ dx.\n\n## Delbrøkoppspalting\n\nEn **rasjonal** funksjon der nevneren kan faktoriseres, kan skrives som en sum av enklere brøker.\n\n**Eksempel**: 2/(x² − 1) = 2/((x − 1)(x + 1)). Vi setter\n\n2/((x − 1)(x + 1)) = A/(x − 1) + B/(x + 1)\n\nDet gir 2 = A(x + 1) + B(x − 1). Med x = 1 får vi A = 1, og med x = −1 får vi B = −1. Da er\n\n∫ 2/(x² − 1) dx = **ln|x − 1| − ln|x + 1| + C**\n\nEr graden i telleren **større eller lik** graden i nevneren, må du først utføre **polynomdivisjon**.\n\n## Strategi\n\n1. Er det et **standardintegral**? Bruk formelen.\n2. Ser du en **kjerne** og den **deriverte** av kjernen? Prøv **substitusjon**.\n3. Er det et **produkt** der én faktor forenkles ved derivasjon? Prøv **delvis integrasjon**.\n4. Er det en **brøk** med faktoriserbar nevner? Prøv **delbrøkoppspalting**.\n\n**CAS** kan regne ut integraler, men du må kunne vise **framgangsmåten** og **kontrollere** svaret ved derivasjon.",
+  "flashcards": [
+    { "term": "Substitusjon", "def": "Variabelskifte – kjerneregelen baklengs." },
+    { "term": "Når substitusjon?", "def": "Når integranden inneholder en kjerne og kjernens deriverte." },
+    { "term": "du", "def": "u′ dx" },
+    { "term": "∫ f′(x)/f(x) dx", "def": "ln|f(x)| + C" },
+    { "term": "Nye grenser", "def": "Grensene byttes til u-verdier ved substitusjon i bestemte integraler." },
+    { "term": "Delvis integrasjon", "def": "∫ u′v dx = uv − ∫ uv′ dx" },
+    { "term": "Når delvis integrasjon?", "def": "Ved produkter der én faktor forenkles ved derivasjon." },
+    { "term": "∫ x eˣ dx", "def": "(x − 1)eˣ + C" },
+    { "term": "∫ ln x dx", "def": "x ln x − x + C" },
+    { "term": "Delbrøkoppspalting", "def": "Brøk med faktoriserbar nevner skrives som sum av enklere brøker." },
+    { "term": "Polynomdivisjon først", "def": "Når telleren har minst like høy grad som nevneren." },
+    { "term": "∫ e^(kx) dx", "def": "e^(kx)/k + C" },
+    { "term": "∫ cos(kx) dx", "def": "sin(kx)/k + C" },
+    { "term": "∫ sin(kx) dx", "def": "−cos(kx)/k + C" },
+    { "term": "Kontroll", "def": "Deriver svaret og sammenlign med integranden." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er ∫ 2x · e^(x²) dx?", "options": ["2e^(x²) + C", "e^(x²) + C", "x² e^(x²) + C", "e^(2x) + C"], "correct": 1, "explain": "u = x², du = 2x dx." },
+    { "id": "q02", "text": "Hva er formelen for delvis integrasjon?", "options": ["∫ u′v dx = uv − ∫ uv′ dx", "∫ uv dx = ∫ u dx · ∫ v dx", "∫ u′v dx = u′v′ + C", "∫ uv dx = uv + C"], "correct": 0, "explain": "Produktregelen baklengs." },
+    { "id": "q03", "text": "Hva er ∫ x eˣ dx?", "options": ["x eˣ + C", "x² eˣ/2 + C", "(x − 1)eˣ + C", "(x + 1)eˣ + C"], "correct": 2, "explain": "x eˣ − ∫ eˣ dx." },
+    { "id": "q04", "text": "Hva er ∫ e^(3x) dx?", "options": ["3e^(3x) + C", "e^(3x) + C", "e^(3x + 1)/(3x + 1) + C", "e^(3x)/3 + C"], "correct": 3, "explain": "Del på den indre deriverte." },
+    { "id": "q05", "text": "Hva er ∫ 2x/(x² + 1) dx?", "options": ["ln(x² + 1) + C", "2 ln x + C", "x²/(x² + 1) + C", "arctan x + C"], "correct": 0, "explain": "Telleren er den deriverte av nevneren." },
+    { "id": "q06", "text": "Hvordan kan 2/((x − 1)(x + 1)) spaltes?", "options": ["1/(x − 1) + 1/(x + 1)", "1/(x − 1) − 1/(x + 1)", "2/(x − 1) − 2/(x + 1)", "Den kan ikke spaltes"], "correct": 1, "explain": "A = 1 og B = −1." },
+    { "id": "q07", "text": "Hva er ∫ ln x dx?", "options": ["1/x + C", "x ln x + C", "x ln x − x + C", "(ln x)²/2 + C"], "correct": 2, "explain": "Delvis integrasjon med u′ = 1." },
+    { "id": "q08", "text": "Når passer substitusjon?", "options": ["Alltid ved brøker", "Bare ved polynomer", "Ved produkter av to polynomer", "Når integranden inneholder en kjerne og kjernens deriverte"], "correct": 3, "explain": "Kjerneregelen baklengs." },
+    { "id": "q09", "text": "Hva er ∫₀¹ 2x(x² + 1)³ dx?", "options": ["15/4", "4", "1/4", "2"], "correct": 0, "explain": "∫₁² u³ du = 4 − 1/4." },
+    { "id": "q10", "text": "Hva er ∫ cos(2x) dx?", "options": ["2 sin(2x) + C", "sin(2x)/2 + C", "−sin(2x)/2 + C", "sin(x²) + C"], "correct": 1, "explain": "Del på 2." }
+  ],
+  "mindmap": {
+    "label": "Integrasjonsmetoder",
+    "children": [
+      { "label": "Regneregler", "children": [
+        { "label": "Sum og konstant" },
+        { "label": "Lineær kjerne" }
+      ] },
+      { "label": "Substitusjon", "children": [
+        { "label": "Kjerne og deriverte" },
+        { "label": "f′/f gir ln" },
+        { "label": "Nye grenser" }
+      ] },
+      { "label": "Delvis integrasjon", "children": [
+        { "label": "Produktregel baklengs" },
+        { "label": "x eˣ og ln x" }
+      ] },
+      { "label": "Delbrøk", "children": [
+        { "label": "Faktoriser nevneren" },
+        { "label": "Polynomdivisjon først" }
+      ] },
+      { "label": "Strategi", "children": [
+        { "label": "Velg metode" },
+        { "label": "Kontroller ved derivasjon" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Delvis integrasjon kan måtte brukes flere ganger på samme integral.", "correct": true, "explain": "For eksempel ∫ x² eˣ dx." },
+      { "id": "m02", "type": "sant-usant", "text": "Integralet av et produkt er produktet av integralene.", "correct": false, "explain": "Derfor trenger vi delvis integrasjon." },
+      { "id": "m03", "type": "sant-usant", "text": "I et bestemt integral kan du bytte til u-grenser ved substitusjon.", "correct": true, "explain": "Da slipper du å sette x tilbake." },
+      { "id": "m04", "type": "sant-usant", "text": "Delbrøkoppspalting kan brukes direkte selv om telleren har høyere grad enn nevneren.", "correct": false, "explain": "Da må du først utføre polynomdivisjon." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er ∫ sin(3x) dx?", "options": ["cos(3x)/3 + C", "−cos(3x)/3 + C", "−3cos(3x) + C", "3cos(3x) + C"], "correct": 1, "explain": "Del på den indre deriverte." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilken metode passer best for ∫ x · cos x dx?", "options": ["Delvis integrasjon", "Delbrøkoppspalting", "Polynomdivisjon", "Ingen – det er et standardintegral"], "correct": 0, "explain": "Produkt der x forenkles ved derivasjon." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilken substitusjon passer for ∫ 3x²(x³ + 5)⁴ dx?", "options": ["u = 3x²", "u = x", "u = x³ + 5", "u = (x³ + 5)⁴"], "correct": 2, "explain": "du = 3x² dx." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

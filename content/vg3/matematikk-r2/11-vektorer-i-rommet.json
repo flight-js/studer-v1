@@ -1,0 +1,79 @@
+{
+  "id": "vektorer-i-rommet",
+  "fagId": "matematikk-r2",
+  "trinnId": "vg3",
+  "name": "Vektorer i rommet",
+  "intro": "Koordinatsystemet i tre dimensjoner og regneregler for vektorer i rommet – lengde, skalarprodukt og vinkler, vektorproduktet med høyrehåndsregelen – og hvordan du bruker dem til å beregne avstander, arealer av trekanter og parallellogrammer og volumer av pyramider og parallellepipeder.",
+  "kompetansemaal": [10],
+  "sammendrag": "## Koordinater i rommet\n\nI rommet har vi tre akser – x, y og z – som står **vinkelrett** på hverandre. Et punkt skrives P(x, y, z). Aksene orienteres etter **høyrehåndsregelen**: Pekefinger langs x, langefinger langs y, og tommelen peker langs z.\n\n## Vektorer\n\nEn vektor i rommet skrives **u = [a, b, c]**. Vektoren fra A(x₁, y₁, z₁) til B(x₂, y₂, z₂) er\n\n**AB = [x₂ − x₁, y₂ − y₁, z₂ − z₁]**\n\nRegnereglene er som i planet: Vi **adderer** og **multipliserer med tall** koordinatvis.\n\n- **Lengde**: |u| = √(a² + b² + c²). For u = [1, 2, 2] er |u| = **3**.\n- **Avstand** mellom to punkter er lengden av vektoren mellom dem.\n- To vektorer er **parallelle** hvis den ene er et tall ganger den andre.\n\n## Skalarproduktet\n\n**u · v = u₁v₁ + u₂v₂ + u₃v₃ = |u| · |v| · cos θ**\n\nSkalarproduktet er et **tall**. Det brukes til å\n\n- finne **vinkelen** mellom to vektorer: cos θ = (u · v)/(|u| · |v|)\n- avgjøre om vektorer står **vinkelrett**: u · v = 0\n- regne ut **arbeid** i fysikk: W = F · s\n\n## Vektorproduktet\n\nVektorproduktet – **kryssproduktet** – gir en ny **vektor**:\n\n**u × v = [u₂v₃ − u₃v₂, u₃v₁ − u₁v₃, u₁v₂ − u₂v₁]**\n\nEgenskaper:\n\n- u × v står **vinkelrett** på både u og v.\n- Retningen følger **høyrehåndsregelen**.\n- **|u × v| = |u| · |v| · sin θ** = arealet av **parallellogrammet** utspent av u og v.\n- **v × u = −(u × v)** – rekkefølgen betyr noe.\n- u × v = 0 hvis vektorene er **parallelle**.\n\n**Eksempel**: u = [1, 2, 3] og v = [2, 0, 1]:\n\nu × v = [2 · 1 − 3 · 0, 3 · 2 − 1 · 1, 1 · 0 − 2 · 2] = **[2, 5, −4]**\n\nKontroll: [2, 5, −4] · [1, 2, 3] = 2 + 10 − 12 = 0 og [2, 5, −4] · [2, 0, 1] = 4 + 0 − 4 = 0.\n\n## Areal og volum\n\n- **Parallellogram** utspent av u og v: A = |u × v|\n- **Trekant** ABC: A = ½ · |AB × AC|\n- **Parallellepiped** utspent av u, v og w: V = |(u × v) · w|\n- **Pyramide** med trekantet grunnflate (**tetraeder**): V = (1/6) · |(u × v) · w|\n\nUttrykket (u × v) · w kalles **skalartrippelproduktet**. Er det 0, ligger de tre vektorene i **samme plan**.\n\n## Anvendelser\n\n- **Fysikk**: dreiemoment τ = r × F og kraften på en ladning i et **magnetfelt** bruker vektorproduktet.\n- **Dataspill og 3D-grafikk**: Normalvektorer fra vektorproduktet avgjør hvordan **lys** faller på flater.\n- **Navigasjon** og **GPS** bruker koordinater i rommet.\n\n## Arbeidsmåte\n\nTegn gjerne en **skisse**, og bruk **CAS** eller GeoGebra 3D til å kontrollere. Sjekk alltid at et vektorprodukt står vinkelrett på begge vektorene ved å regne ut skalarproduktene.",
+  "flashcards": [
+    { "term": "Punkt i rommet", "def": "P(x, y, z)" },
+    { "term": "Vektor AB", "def": "[x₂ − x₁, y₂ − y₁, z₂ − z₁]" },
+    { "term": "Lengde av vektor", "def": "√(a² + b² + c²)" },
+    { "term": "Parallelle vektorer", "def": "Den ene er et tall ganger den andre." },
+    { "term": "Skalarprodukt", "def": "u₁v₁ + u₂v₂ + u₃v₃ = |u| · |v| · cos θ" },
+    { "term": "Vinkelrette vektorer", "def": "u · v = 0" },
+    { "term": "Vektorprodukt", "def": "u × v – vektor vinkelrett på både u og v." },
+    { "term": "Lengden av u × v", "def": "|u| · |v| · sin θ – arealet av parallellogrammet." },
+    { "term": "v × u", "def": "−(u × v)" },
+    { "term": "Høyrehåndsregelen", "def": "Bestemmer retningen til u × v." },
+    { "term": "Trekantareal", "def": "½ · |AB × AC|" },
+    { "term": "Parallellepiped", "def": "V = |(u × v) · w|" },
+    { "term": "Tetraeder", "def": "V = (1/6) · |(u × v) · w|" },
+    { "term": "Skalartrippelprodukt", "def": "(u × v) · w – er 0 når vektorene ligger i samme plan." },
+    { "term": "Dreiemoment", "def": "τ = r × F" }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er lengden av u = [1, 2, 2]?", "options": ["5", "3", "9", "√5"], "correct": 1, "explain": "√(1 + 4 + 4)." },
+    { "id": "q02", "text": "Hva betyr u · v = 0?", "options": ["At vektorene står vinkelrett på hverandre", "At vektorene er parallelle", "At vektorene er like", "At en av dem er lengre"], "correct": 0, "explain": "cos 90° = 0." },
+    { "id": "q03", "text": "Hva er [1, 2, 3] × [2, 0, 1]?", "options": ["[2, 0, 3]", "[−2, −5, 4]", "[2, 5, −4]", "[3, 2, 4]"], "correct": 2, "explain": "Bruk formelen koordinat for koordinat." },
+    { "id": "q04", "text": "Hva er arealet av trekant ABC?", "options": ["|AB × AC|", "AB · AC", "½ · AB · AC", "½ · |AB × AC|"], "correct": 3, "explain": "Halvparten av parallellogrammet." },
+    { "id": "q05", "text": "Hva er [1, 2, 3] · [4, −1, 2]?", "options": ["8", "6", "12", "0"], "correct": 0, "explain": "4 − 2 + 6." },
+    { "id": "q06", "text": "Hva er v × u uttrykt ved u × v?", "options": ["u × v", "−(u × v)", "0", "2(u × v)"], "correct": 1, "explain": "Rekkefølgen betyr noe." },
+    { "id": "q07", "text": "Hvilket volum gir |(u × v) · w|?", "options": ["Et tetraeder", "En kule", "Et parallellepiped", "En kjegle"], "correct": 2, "explain": "Tetraederet er en sjettedel." },
+    { "id": "q08", "text": "Hva er vektoren fra A(1, 0, 2) til B(4, 2, 1)?", "options": ["[5, 2, 3]", "[−3, −2, 1]", "[4, 0, 2]", "[3, 2, −1]"], "correct": 3, "explain": "B minus A." },
+    { "id": "q09", "text": "Hva er [1, 0, 0] × [0, 1, 0]?", "options": ["[0, 0, 1]", "[0, 0, −1]", "[1, 1, 0]", "0"], "correct": 0, "explain": "x × y = z etter høyrehåndsregelen." },
+    { "id": "q10", "text": "Hva betyr det at (u × v) · w = 0?", "options": ["At u og v er like", "At u, v og w ligger i samme plan", "At w er lengst", "At u står vinkelrett på v"], "correct": 1, "explain": "Volumet er null." }
+  ],
+  "mindmap": {
+    "label": "Vektorer i rommet",
+    "children": [
+      { "label": "Koordinater", "children": [
+        { "label": "x, y og z" },
+        { "label": "Høyrehåndsregelen" }
+      ] },
+      { "label": "Grunnregler", "children": [
+        { "label": "AB = B − A" },
+        { "label": "Lengde" },
+        { "label": "Parallellitet" }
+      ] },
+      { "label": "Skalarprodukt", "children": [
+        { "label": "Vinkel" },
+        { "label": "Vinkelrett: u · v = 0" }
+      ] },
+      { "label": "Vektorprodukt", "children": [
+        { "label": "Vinkelrett på begge" },
+        { "label": "Areal av parallellogram" }
+      ] },
+      { "label": "Volum og anvendelser", "children": [
+        { "label": "Parallellepiped og tetraeder" },
+        { "label": "Dreiemoment" },
+        { "label": "3D-grafikk" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Skalarproduktet av to vektorer er et tall.", "correct": true, "explain": "Vektorproduktet er en vektor." },
+      { "id": "m02", "type": "sant-usant", "text": "u × v er parallell med u.", "correct": false, "explain": "Den står vinkelrett på u." },
+      { "id": "m03", "type": "sant-usant", "text": "u × v = 0 når u og v er parallelle.", "correct": true, "explain": "sin 0° = 0." },
+      { "id": "m04", "type": "sant-usant", "text": "Volumet av et tetraeder er halvparten av parallellepipedet.", "correct": false, "explain": "Det er en sjettedel." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er avstanden mellom (0, 0, 0) og (2, 3, 6)?", "options": ["11", "7", "√11", "49"], "correct": 1, "explain": "√(4 + 9 + 36) = √49." },
+      { "id": "m06", "type": "flervalg", "text": "Hvordan kontrollerer du et utregnet vektorprodukt?", "options": ["Sjekk at skalarproduktet med begge vektorene er 0", "Sjekk at det er positivt", "Legg sammen koordinatene", "Sjekk at lengden er 1"], "correct": 0, "explain": "Det skal stå vinkelrett på begge." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilken fysisk størrelse beregnes med vektorproduktet?", "options": ["Arbeid", "Masse", "Dreiemoment", "Temperatur"], "correct": 2, "explain": "Arbeid bruker skalarproduktet." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

@@ -1,0 +1,79 @@
+{
+  "id": "analysens-fundamentalteorem",
+  "fagId": "matematikk-r2",
+  "trinnId": "vg3",
+  "name": "Analysens fundamentalteorem",
+  "intro": "Sammenhengen mellom derivasjon og integrasjon – antideriverte og ubestemte integraler, de to delene av analysens fundamentalteorem med bevisidé, grunnleggende integrasjonsformler, areal mellom grafer og konsekvenser av teoremet.",
+  "kompetansemaal": [4],
+  "sammendrag": "## Antiderivert\n\nEn **antiderivert** til f er en funksjon F med **F′(x) = f(x)**. Fordi den deriverte av en konstant er 0, finnes det uendelig mange: Hvis F er en antiderivert, er også F + C det. Vi skriver det **ubestemte integralet**\n\n**∫ f(x) dx = F(x) + C**\n\n## Grunnleggende integraler\n\n- ∫ xʳ dx = xʳ⁺¹/(r + 1) + C, for r ≠ −1\n- ∫ 1/x dx = ln|x| + C\n- ∫ eˣ dx = eˣ + C\n- ∫ aˣ dx = aˣ/ln a + C\n- ∫ cos x dx = sin x + C\n- ∫ sin x dx = −cos x + C\n\nDu kan alltid **kontrollere** et integral ved å **derivere** svaret.\n\n## Teoremets første del\n\nLa f være kontinuerlig og definer **arealfunksjonen**\n\nA(x) = ∫ₐˣ f(t) dt\n\nDa er A deriverbar, og **A′(x) = f(x)**.\n\n**Bevisidé**: A(x + h) − A(x) er arealet av en smal stripe med bredde h. Stripen er omtrent et rektangel med høyde f(x), så\n\n(A(x + h) − A(x))/h ≈ f(x)\n\nNår h → 0, blir tilnærmingen eksakt, fordi f er kontinuerlig.\n\n## Teoremets andre del\n\nHvis F er en antiderivert til f på [a, b], er\n\n**∫ₐᵇ f(x) dx = F(b) − F(a) = [F(x)]ₐᵇ**\n\n**Bevisidé**: A og F har samme deriverte, så de skiller seg med en konstant: A(x) = F(x) + C. Siden A(a) = 0, er C = −F(a), og A(b) = F(b) − F(a).\n\n## Eksempler\n\n- ∫₀¹ x² dx = [x³/3]₀¹ = 1/3 − 0 = **1/3** – samme svar som grenseverdien av summene, men mye enklere.\n- ∫₁³ (2x + 1) dx = [x² + x]₁³ = (9 + 3) − (1 + 1) = **10**\n- ∫ sin x dx fra 0 til π = [−cos x] = −cos π + cos 0 = **2**\n\n## Areal mellom grafer\n\nNår f(x) ≥ g(x) på [a, b], er arealet mellom grafene\n\n**∫ₐᵇ (f(x) − g(x)) dx**\n\nMellom y = x og y = x² fra 0 til 1: ∫₀¹ (x − x²) dx = 1/2 − 1/3 = **1/6**.\n\n## Konsekvenser av teoremet\n\n- **Derivasjon og integrasjon er motsatte operasjoner.**\n- Vi kan regne ut **eksakte** integraler uten grenseverdier av summer – så lenge vi finner en antiderivert.\n- Enhver **kontinuerlig** funksjon har en antiderivert, nemlig arealfunksjonen – selv om vi ikke alltid kan skrive den med kjente funksjoner. Et eksempel er e^(−x²), som er viktig i statistikk.\n- **Total endring**: ∫ₐᵇ f′(x) dx = f(b) − f(a). Integralet av en **endringsrate** gir den samlede **endringen**. Integrerer vi farten, får vi endringen i posisjon.\n- Vi kan **derivere** integraler: d/dx ∫₂ˣ t³ dt = x³.\n\n## Historie\n\nTeoremet ble utviklet uavhengig av **Isaac Newton** og **Gottfried Wilhelm Leibniz** på slutten av 1600-tallet. Notasjonen ∫ og dx kommer fra Leibniz.",
+  "flashcards": [
+    { "term": "Antiderivert", "def": "F med F′(x) = f(x)." },
+    { "term": "Ubestemt integral", "def": "∫ f(x) dx = F(x) + C" },
+    { "term": "Integrasjonskonstant C", "def": "Trengs fordi den deriverte av en konstant er 0." },
+    { "term": "∫ xʳ dx", "def": "xʳ⁺¹/(r + 1) + C, for r ≠ −1" },
+    { "term": "∫ 1/x dx", "def": "ln|x| + C" },
+    { "term": "∫ eˣ dx", "def": "eˣ + C" },
+    { "term": "∫ cos x dx", "def": "sin x + C" },
+    { "term": "∫ sin x dx", "def": "−cos x + C" },
+    { "term": "Arealfunksjon", "def": "A(x) = ∫ₐˣ f(t) dt" },
+    { "term": "Fundamentalteoremet, del 1", "def": "A′(x) = f(x)" },
+    { "term": "Fundamentalteoremet, del 2", "def": "∫ₐᵇ f(x) dx = F(b) − F(a)" },
+    { "term": "Areal mellom grafer", "def": "∫ₐᵇ (f(x) − g(x)) dx når f ≥ g" },
+    { "term": "Total endring", "def": "∫ₐᵇ f′(x) dx = f(b) − f(a)" },
+    { "term": "Kontroll av integral", "def": "Deriver svaret." },
+    { "term": "Newton og Leibniz", "def": "Utviklet teoremet uavhengig av hverandre." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er ∫₁³ (2x + 1) dx?", "options": ["12", "10", "8", "14"], "correct": 1, "explain": "[x² + x]₁³ = 12 − 2." },
+    { "id": "q02", "text": "Hva sier andre del av fundamentalteoremet?", "options": ["∫ₐᵇ f(x) dx = F(b) − F(a)", "F′(x) = 0", "∫ₐᵇ f(x) dx = f(b) − f(a)", "Alle funksjoner er deriverbare"], "correct": 0, "explain": "F er en antiderivert til f." },
+    { "id": "q03", "text": "Hva er d/dx ∫₂ˣ t³ dt?", "options": ["3x²", "x⁴/4", "x³", "x³ − 8"], "correct": 2, "explain": "Første del av teoremet." },
+    { "id": "q04", "text": "Hva er ∫ 1/x dx?", "options": ["x⁰/0 + C", "−1/x² + C", "1/x² + C", "ln|x| + C"], "correct": 3, "explain": "Unntaket i potensregelen." },
+    { "id": "q05", "text": "Hva er arealet mellom y = x og y = x² fra 0 til 1?", "options": ["1/6", "1/2", "1/3", "1"], "correct": 0, "explain": "1/2 − 1/3." },
+    { "id": "q06", "text": "Hva er integralet av sin x fra 0 til π?", "options": ["0", "2", "1", "π"], "correct": 1, "explain": "−cos π + cos 0 = 2." },
+    { "id": "q07", "text": "Hvorfor legger vi til + C i et ubestemt integral?", "options": ["For å få riktig enhet", "For å gjøre svaret positivt", "Fordi den deriverte av en konstant er 0", "Fordi integralet alltid er 1"], "correct": 2, "explain": "Det finnes mange antideriverte." },
+    { "id": "q08", "text": "Hva er ∫ eˣ dx?", "options": ["xeˣ⁻¹ + C", "eˣ⁺¹ + C", "ln x + C", "eˣ + C"], "correct": 3, "explain": "eˣ er sin egen deriverte." },
+    { "id": "q09", "text": "Hva er ∫ₐᵇ f′(x) dx?", "options": ["f(b) − f(a)", "f′(b) − f′(a)", "0", "f(a) − f(b)"], "correct": 0, "explain": "Total endring." },
+    { "id": "q10", "text": "Hva er ∫₀² 3x² dx?", "options": ["12", "8", "6", "4"], "correct": 1, "explain": "[x³]₀² = 8." }
+  ],
+  "mindmap": {
+    "label": "Fundamentalteoremet",
+    "children": [
+      { "label": "Antiderivert", "children": [
+        { "label": "F′ = f" },
+        { "label": "+ C" }
+      ] },
+      { "label": "Del 1", "children": [
+        { "label": "Arealfunksjon" },
+        { "label": "A′(x) = f(x)" }
+      ] },
+      { "label": "Del 2", "children": [
+        { "label": "F(b) − F(a)" },
+        { "label": "Bevisidé" }
+      ] },
+      { "label": "Formler", "children": [
+        { "label": "Potenser og 1/x" },
+        { "label": "eˣ og aˣ" },
+        { "label": "sin og cos" }
+      ] },
+      { "label": "Konsekvenser", "children": [
+        { "label": "Motsatte operasjoner" },
+        { "label": "Total endring" },
+        { "label": "Areal mellom grafer" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Du kan kontrollere et ubestemt integral ved å derivere svaret.", "correct": true, "explain": "Du skal få integranden tilbake." },
+      { "id": "m02", "type": "sant-usant", "text": "Hver kontinuerlig funksjon har bare én antiderivert.", "correct": false, "explain": "Det finnes uendelig mange, som skiller seg med en konstant." },
+      { "id": "m03", "type": "sant-usant", "text": "Notasjonen ∫ og dx kommer fra Leibniz.", "correct": true, "explain": "Fra slutten av 1600-tallet." },
+      { "id": "m04", "type": "sant-usant", "text": "∫ x⁻¹ dx kan regnes ut med potensregelen xʳ⁺¹/(r + 1).", "correct": false, "explain": "Da blir nevneren 0 – svaret er ln|x| + C." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er ∫ cos x dx?", "options": ["−sin x + C", "sin x + C", "cos x + C", "−cos x + C"], "correct": 1, "explain": "Deriver sin x." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er ∫ 2ˣ dx?", "options": ["2ˣ/ln 2 + C", "2ˣ · ln 2 + C", "x · 2ˣ⁻¹ + C", "2ˣ⁺¹/(x + 1) + C"], "correct": 0, "explain": "∫ aˣ dx = aˣ/ln a + C." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er ∫₀¹ x² dx?", "options": ["1", "1/2", "1/3", "2/3"], "correct": 2, "explain": "[x³/3]₀¹." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
